@@ -368,16 +368,6 @@ export default {
           "The news caused not a little concern.",
           "這個消息引起了相當大的憂慮。",
           "非常；相當"
-        ],
-        [
-          "He little understood how serious the problem was.",
-          "他當時幾乎不明白問題有多嚴重。",
-          "非常；相當"
-        ],
-        [
-          "She little expected to see him there.",
-          "她完全沒料到會在那裏見到他。",
-          "非常；相當"
         ]
       ],
       "options": [],
@@ -602,6 +592,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "little-reviewed-9174452355",
+      "title": "很少地；幾乎不",
+      "form": "little · source section 22",
+      "en": "很少地；幾乎不",
+      "zh": "很少地；幾乎不",
+      "note": "對照原始教材第 22 節及例句核實。",
+      "examples": [
+        [
+          "He little understood how serious the problem was.",
+          "他當時幾乎不明白問題有多嚴重。",
+          "很少地；幾乎不"
+        ],
+        [
+          "She little expected to see him there.",
+          "她完全沒料到會在那裏見到他。",
+          "很少地；幾乎不"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -613,11 +625,9 @@ export default {
       "masked": "Children like Leo can turn an ordinary afternoon into a ____.",
       "options": [
         "little-mcq-01",
-        "little-mcq-02",
-        "little-mcq-03",
-        "little-mcq-04",
-        "little-mcq-05",
-        "little-mcq-06"
+        "little-mcq-19",
+        "little-mcq-17",
+        "little-mcq-16"
       ],
       "explanation": "本句的「little adventure」指「小小的冒險」。",
       "sentenceIndex": 0,
@@ -626,12 +636,10 @@ export default {
         "little adventure"
       ],
       "optionReasons": {
-        "little-mcq-01": "本句指「小小的冒險」。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-01": "本句的「little adventure」指「小小的冒險」。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-01"
     },
@@ -643,11 +651,9 @@ export default {
       "masked": "They live in a ____ by the sea.",
       "options": [
         "little-mcq-01",
-        "little-mcq-02",
-        "little-mcq-03",
-        "little-mcq-04",
-        "little-mcq-05",
-        "little-mcq-06"
+        "little-pdf-002",
+        "little-mcq-16",
+        "little-mcq-23"
       ],
       "explanation": "本句的「little house」指「小小的冒險」。",
       "sentenceIndex": 1,
@@ -656,12 +662,10 @@ export default {
         "little house"
       ],
       "optionReasons": {
-        "little-mcq-01": "本句指「小小的冒險」。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-01": "本句的「little house」指「小小的冒險」。",
+        "little-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-01"
     },
@@ -673,11 +677,9 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "little-mcq-01",
-        "little-mcq-02",
-        "little-mcq-03",
-        "little-mcq-04",
-        "little-mcq-05",
-        "little-mcq-06"
+        "little-mcq-25",
+        "little-mcq-13",
+        "little-mcq-08"
       ],
       "explanation": "本句的「little smile」指「小小的冒險」。",
       "sentenceIndex": 2,
@@ -686,12 +688,10 @@ export default {
         "little smile"
       ],
       "optionReasons": {
-        "little-mcq-01": "本句指「小小的冒險」。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-01": "本句的「little smile」指「小小的冒險」。",
+        "little-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-01"
     },
@@ -703,11 +703,9 @@ export default {
       "masked": "The ____ was holding his mother's hand.",
       "options": [
         "little-mcq-03",
-        "little-mcq-02",
-        "little-mcq-04",
-        "little-mcq-01",
-        "little-mcq-05",
-        "little-mcq-06"
+        "little-pdf-002",
+        "little-mcq-06",
+        "little-pdf-001"
       ],
       "explanation": "本句的「little boy」指「小孩；幼小的」。",
       "sentenceIndex": 3,
@@ -716,12 +714,10 @@ export default {
         "little boy"
       ],
       "optionReasons": {
-        "little-mcq-03": "本句指「小孩；幼小的」。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-01": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-03": "本句的「little boy」指「小孩；幼小的」。",
+        "little-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-03"
     },
@@ -733,11 +729,9 @@ export default {
       "masked": "She looked after her ____.",
       "options": [
         "little-mcq-03",
-        "little-mcq-02",
-        "little-mcq-04",
-        "little-mcq-01",
-        "little-mcq-05",
-        "little-mcq-06"
+        "little-pdf-003",
+        "little-mcq-18",
+        "little-mcq-24"
       ],
       "explanation": "本句的「little sister」指「小孩；幼小的」。",
       "sentenceIndex": 4,
@@ -746,12 +740,10 @@ export default {
         "little sister"
       ],
       "optionReasons": {
-        "little-mcq-03": "本句指「小孩；幼小的」。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-01": "「小小的冒險」是「little adventure」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-03": "本句的「little sister」指「小孩；幼小的」。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-03"
     },
@@ -763,11 +755,9 @@ export default {
       "masked": "The ____ is already asleep.",
       "options": [
         "little-mcq-04",
-        "little-mcq-03",
-        "little-mcq-05",
-        "little-mcq-02",
-        "little-mcq-06",
-        "little-mcq-01"
+        "little-mcq-19",
+        "little-mcq-23",
+        "little-mcq-24"
       ],
       "explanation": "本句的「little one」指「小孩；小傢伙」。",
       "sentenceIndex": 5,
@@ -776,12 +766,10 @@ export default {
         "little one"
       ],
       "optionReasons": {
-        "little-mcq-04": "本句指「小孩；小傢伙」。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-01": "「小小的冒險」是「little adventure」的用法，與本句語境不同。"
+        "little-mcq-04": "本句的「little one」指「小孩；小傢伙」。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-04"
     },
@@ -793,11 +781,9 @@ export default {
       "masked": "Keep an eye on the ____ near the pool.",
       "options": [
         "little-mcq-04",
-        "little-mcq-03",
-        "little-mcq-05",
-        "little-mcq-02",
-        "little-mcq-06",
-        "little-mcq-01"
+        "little-pdf-001",
+        "little-mcq-17",
+        "little-mcq-11"
       ],
       "explanation": "本句的「little ones」指「小孩；小傢伙」。",
       "sentenceIndex": 6,
@@ -806,12 +792,10 @@ export default {
         "little ones"
       ],
       "optionReasons": {
-        "little-mcq-04": "本句指「小孩；小傢伙」。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-01": "「小小的冒險」是「little adventure」的用法，與本句語境不同。"
+        "little-mcq-04": "本句的「little ones」指「小孩；小傢伙」。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-04"
     },
@@ -823,11 +807,9 @@ export default {
       "masked": "It's the ____ that make a home feel warm.",
       "options": [
         "little-mcq-05",
-        "little-mcq-04",
-        "little-mcq-06",
-        "little-mcq-03",
-        "little-mcq-07",
-        "little-mcq-02"
+        "little-reviewed-9174452355",
+        "little-mcq-15",
+        "little-mcq-10"
       ],
       "explanation": "本句的「little things」指「小事；細節」。",
       "sentenceIndex": 7,
@@ -836,12 +818,10 @@ export default {
         "little things"
       ],
       "optionReasons": {
-        "little-mcq-05": "本句指「小事；細節」。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。"
+        "little-mcq-05": "本句的「little things」指「小事；細節」。",
+        "little-reviewed-9174452355": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-05"
     },
@@ -853,11 +833,9 @@ export default {
       "masked": "She notices the ____ that other people miss.",
       "options": [
         "little-mcq-05",
-        "little-mcq-04",
-        "little-mcq-06",
-        "little-mcq-03",
-        "little-mcq-07",
-        "little-mcq-02"
+        "little-mcq-11",
+        "little-mcq-17",
+        "little-pdf-001"
       ],
       "explanation": "本句的「little things」指「小事；細節」。",
       "sentenceIndex": 8,
@@ -866,12 +844,10 @@ export default {
         "little things"
       ],
       "optionReasons": {
-        "little-mcq-05": "本句指「小事；細節」。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-02": "「小房子」是「little house」的用法，與本句語境不同。"
+        "little-mcq-05": "本句的「little things」指「小事；細節」。",
+        "little-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-05"
     },
@@ -883,11 +859,9 @@ export default {
       "masked": "We have ____ left.",
       "options": [
         "little-mcq-06",
-        "little-mcq-05",
-        "little-mcq-07",
-        "little-mcq-04",
-        "little-mcq-08",
-        "little-mcq-03"
+        "little-mcq-23",
+        "little-mcq-09",
+        "little-mcq-05"
       ],
       "explanation": "本句的「little time」指「幾乎沒有時間」。",
       "sentenceIndex": 9,
@@ -896,12 +870,10 @@ export default {
         "little time"
       ],
       "optionReasons": {
-        "little-mcq-06": "本句指「幾乎沒有時間」。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。"
+        "little-mcq-06": "本句的「little time」指「幾乎沒有時間」。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-06"
     },
@@ -913,11 +885,9 @@ export default {
       "masked": "There is ____ of success.",
       "options": [
         "little-mcq-06",
-        "little-mcq-05",
-        "little-mcq-07",
-        "little-mcq-04",
-        "little-mcq-08",
-        "little-mcq-03"
+        "little-mcq-20",
+        "little-mcq-23",
+        "little-mcq-19"
       ],
       "explanation": "本句的「little hope」指「幾乎沒有時間」。",
       "sentenceIndex": 10,
@@ -926,12 +896,10 @@ export default {
         "little hope"
       ],
       "optionReasons": {
-        "little-mcq-06": "本句指「幾乎沒有時間」。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-04": "「小孩；小傢伙」是「little one」的用法，與本句語境不同。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。",
-        "little-mcq-03": "「小孩；幼小的」是「little child」的用法，與本句語境不同。"
+        "little-mcq-06": "本句的「little hope」指「幾乎沒有時間」。",
+        "little-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-06"
     },
@@ -943,11 +911,9 @@ export default {
       "masked": "We still have ____.",
       "options": [
         "little-mcq-08",
-        "little-mcq-07",
-        "little-mcq-09",
-        "little-mcq-06",
-        "little-mcq-10",
-        "little-mcq-05"
+        "little-mcq-04",
+        "little-mcq-16",
+        "little-reviewed-9174452355"
       ],
       "explanation": "本句的「a little time」指「一點時間」。",
       "sentenceIndex": 11,
@@ -956,12 +922,10 @@ export default {
         "a little time"
       ],
       "optionReasons": {
-        "little-mcq-08": "本句指「一點時間」。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。"
+        "little-mcq-08": "本句的「a little time」指「一點時間」。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-reviewed-9174452355": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-08"
     },
@@ -973,11 +937,9 @@ export default {
       "masked": "Add ____.",
       "options": [
         "little-mcq-08",
-        "little-mcq-07",
-        "little-mcq-09",
-        "little-mcq-06",
-        "little-mcq-10",
-        "little-mcq-05"
+        "little-mcq-17",
+        "little-mcq-26",
+        "little-mcq-16"
       ],
       "explanation": "本句的「a little sugar」指「一點時間」。",
       "sentenceIndex": 12,
@@ -986,12 +948,10 @@ export default {
         "a little sugar"
       ],
       "optionReasons": {
-        "little-mcq-08": "本句指「一點時間」。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。"
+        "little-mcq-08": "本句的「a little sugar」指「一點時間」。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-08"
     },
@@ -1003,11 +963,9 @@ export default {
       "masked": "There is ____ of rain today.",
       "options": [
         "little-pdf-001",
-        "little-mcq-07",
-        "little-mcq-09",
-        "little-mcq-06",
-        "little-mcq-10",
-        "little-mcq-05"
+        "little-mcq-19",
+        "little-mcq-04",
+        "little-mcq-09"
       ],
       "explanation": "本句的「little chance」指「機會或可能性非常低」。",
       "sentenceIndex": 13,
@@ -1016,12 +974,10 @@ export default {
         "little chance"
       ],
       "optionReasons": {
-        "little-pdf-001": "本句指「機會或可能性非常低」。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。"
+        "little-pdf-001": "本句的「little chance」指「機會或可能性非常低」。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-pdf-001"
     },
@@ -1033,11 +989,9 @@ export default {
       "masked": "We have ____ of finishing on time.",
       "options": [
         "little-pdf-001",
-        "little-mcq-07",
-        "little-mcq-09",
-        "little-mcq-06",
-        "little-mcq-10",
-        "little-mcq-05"
+        "little-mcq-15",
+        "little-mcq-05",
+        "little-reviewed-9174452355"
       ],
       "explanation": "本句的「little possibility」指「機會或可能性非常低」。",
       "sentenceIndex": 14,
@@ -1046,12 +1000,10 @@ export default {
         "little possibility"
       ],
       "optionReasons": {
-        "little-pdf-001": "本句指「機會或可能性非常低」。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-05": "「小事；細節」是「little things」的用法，與本句語境不同。"
+        "little-pdf-001": "本句的「little possibility」指「機會或可能性非常低」。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-reviewed-9174452355": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-pdf-001"
     },
@@ -1063,11 +1015,9 @@ export default {
       "masked": "He showed ____ in the discussion.",
       "options": [
         "little-mcq-23",
-        "little-mcq-22",
-        "little-mcq-24",
-        "little-mcq-21",
-        "little-mcq-25",
-        "little-mcq-20"
+        "little-mcq-05",
+        "little-mcq-17",
+        "little-mcq-10"
       ],
       "explanation": "本句的「little interest」指「某種程度、關注或興趣非常少」。",
       "sentenceIndex": 15,
@@ -1076,12 +1026,10 @@ export default {
         "little interest"
       ],
       "optionReasons": {
-        "little-mcq-23": "本句指「某種程度、關注或興趣非常少」。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-24": "「可用空間很少；引申也可指餘地不足」是「17. little room / little space — 空間很少」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。",
-        "little-mcq-25": "「某種困難、努力、阻礙等程度很低」是「19. with little difficulty / effort — 幾乎不費力地」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。"
+        "little-mcq-23": "本句的「little interest」指「某種程度、關注或興趣非常少」。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-23"
     },
@@ -1093,11 +1041,9 @@ export default {
       "masked": "The issue received ____.",
       "options": [
         "little-mcq-23",
-        "little-mcq-22",
-        "little-mcq-24",
-        "little-mcq-21",
-        "little-mcq-25",
-        "little-mcq-20"
+        "little-mcq-13",
+        "little-mcq-10",
+        "little-mcq-16"
       ],
       "explanation": "本句的「little attention」指「某種程度、關注或興趣非常少」。",
       "sentenceIndex": 16,
@@ -1106,12 +1052,10 @@ export default {
         "little attention"
       ],
       "optionReasons": {
-        "little-mcq-23": "本句指「某種程度、關注或興趣非常少」。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-24": "「可用空間很少；引申也可指餘地不足」是「17. little room / little space — 空間很少」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。",
-        "little-mcq-25": "「某種困難、努力、阻礙等程度很低」是「19. with little difficulty / effort — 幾乎不費力地」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。"
+        "little-mcq-23": "本句的「little attention」指「某種程度、關注或興趣非常少」。",
+        "little-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-23"
     },
@@ -1123,11 +1067,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "little-mcq-09",
-        "little-mcq-08",
-        "little-mcq-10",
-        "little-mcq-07",
-        "little-mcq-11",
-        "little-mcq-06"
+        "little-mcq-13",
+        "little-mcq-18",
+        "little-mcq-03"
       ],
       "explanation": "本句的「a little tired」指「有點累」。",
       "sentenceIndex": 17,
@@ -1136,12 +1078,10 @@ export default {
         "a little tired"
       ],
       "optionReasons": {
-        "little-mcq-09": "本句指「有點累」。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-09": "本句的「a little tired」指「有點累」。",
+        "little-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-09"
     },
@@ -1153,11 +1093,9 @@ export default {
       "masked": "Could you speak ____?",
       "options": [
         "little-mcq-09",
-        "little-mcq-08",
-        "little-mcq-10",
-        "little-mcq-07",
-        "little-mcq-11",
-        "little-mcq-06"
+        "little-pdf-001",
+        "little-mcq-06",
+        "little-mcq-15"
       ],
       "explanation": "本句的「a little more slowly」指「有點累」。",
       "sentenceIndex": 18,
@@ -1166,12 +1104,10 @@ export default {
         "a little more slowly"
       ],
       "optionReasons": {
-        "little-mcq-09": "本句指「有點累」。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。",
-        "little-mcq-06": "「幾乎沒有時間」是「little time」的用法，與本句語境不同。"
+        "little-mcq-09": "本句的「a little more slowly」指「有點累」。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-09"
     },
@@ -1183,11 +1119,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "little-mcq-10",
-        "little-mcq-09",
-        "little-mcq-11",
-        "little-mcq-08",
-        "little-mcq-12",
-        "little-mcq-07"
+        "little-mcq-19",
+        "little-mcq-03",
+        "little-pdf-003"
       ],
       "explanation": "本句的「a little bit nervous」指「一點點」。",
       "sentenceIndex": 19,
@@ -1196,12 +1130,10 @@ export default {
         "a little bit nervous"
       ],
       "optionReasons": {
-        "little-mcq-10": "本句指「一點點」。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。"
+        "little-mcq-10": "本句的「a little bit nervous」指「一點點」。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-10"
     },
@@ -1213,11 +1145,9 @@ export default {
       "masked": "Move it ____ to the left.",
       "options": [
         "little-mcq-10",
-        "little-mcq-09",
-        "little-mcq-11",
-        "little-mcq-08",
-        "little-mcq-12",
-        "little-mcq-07"
+        "little-mcq-24",
+        "little-pdf-003",
+        "little-mcq-05"
       ],
       "explanation": "本句的「a little bit」指「一點點」。",
       "sentenceIndex": 20,
@@ -1226,12 +1156,10 @@ export default {
         "a little bit"
       ],
       "optionReasons": {
-        "little-mcq-10": "本句指「一點點」。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-07": "「幾乎沒錢」是「little money」的用法，與本句語境不同。"
+        "little-mcq-10": "本句的「a little bit」指「一點點」。",
+        "little-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-10"
     },
@@ -1243,11 +1171,9 @@ export default {
       "masked": "____, his confidence returned.",
       "options": [
         "little-mcq-11",
-        "little-mcq-10",
-        "little-mcq-12",
-        "little-mcq-09",
-        "little-mcq-13",
-        "little-mcq-08"
+        "little-mcq-16",
+        "little-mcq-05",
+        "little-mcq-06"
       ],
       "explanation": "本句的「Little by little」指「一點一點地」。",
       "sentenceIndex": 21,
@@ -1256,12 +1182,10 @@ export default {
         "Little by little"
       ],
       "optionReasons": {
-        "little-mcq-11": "本句指「一點一點地」。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。"
+        "little-mcq-11": "本句的「Little by little」指「一點一點地」。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-11"
     },
@@ -1273,11 +1197,9 @@ export default {
       "masked": "The town changed ____.",
       "options": [
         "little-mcq-11",
-        "little-mcq-10",
-        "little-mcq-12",
-        "little-mcq-09",
-        "little-mcq-13",
-        "little-mcq-08"
+        "little-mcq-18",
+        "little-mcq-01",
+        "little-mcq-06"
       ],
       "explanation": "本句的「little by little」指「一點一點地」。",
       "sentenceIndex": 22,
@@ -1286,12 +1208,10 @@ export default {
         "little by little"
       ],
       "optionReasons": {
-        "little-mcq-11": "本句指「一點一點地」。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-09": "「有點累」是「a little tired」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-08": "「一點時間」是「a little time」的用法，與本句語境不同。"
+        "little-mcq-11": "本句的「little by little」指「一點一點地」。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-11"
     },
@@ -1303,11 +1223,9 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "little-mcq-14",
-        "little-mcq-13",
-        "little-mcq-15",
-        "little-mcq-12",
-        "little-mcq-16",
-        "little-mcq-11"
+        "little-mcq-10",
+        "little-mcq-19",
+        "little-mcq-16"
       ],
       "explanation": "本句的「little more than a box」指「幾乎只是 X」。",
       "sentenceIndex": 23,
@@ -1316,12 +1234,10 @@ export default {
         "little more than a box"
       ],
       "optionReasons": {
-        "little-mcq-14": "本句指「幾乎只是 X」。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。"
+        "little-mcq-14": "本句的「little more than a box」指「幾乎只是 X」。",
+        "little-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-14"
     },
@@ -1333,11 +1249,9 @@ export default {
       "masked": "He was ____ when he started working.",
       "options": [
         "little-mcq-14",
-        "little-mcq-13",
-        "little-mcq-15",
-        "little-mcq-12",
-        "little-mcq-16",
-        "little-mcq-11"
+        "little-mcq-04",
+        "little-mcq-09",
+        "little-mcq-25"
       ],
       "explanation": "本句的「little more than a child」指「幾乎只是 X」。",
       "sentenceIndex": 24,
@@ -1346,12 +1260,10 @@ export default {
         "little more than a child"
       ],
       "optionReasons": {
-        "little-mcq-14": "本句指「幾乎只是 X」。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。"
+        "little-mcq-14": "本句的「little more than a child」指「幾乎只是 X」。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-14"
     },
@@ -1363,11 +1275,9 @@ export default {
       "masked": "The journey took ____.",
       "options": [
         "little-pdf-002",
+        "little-mcq-19",
         "little-mcq-13",
-        "little-mcq-15",
-        "little-mcq-12",
-        "little-mcq-16",
-        "little-mcq-11"
+        "little-mcq-25"
       ],
       "explanation": "本句的「little less than three hours」指「比 X 少一點點，接近 X」。",
       "sentenceIndex": 25,
@@ -1376,12 +1286,10 @@ export default {
         "little less than three hours"
       ],
       "optionReasons": {
-        "little-pdf-002": "本句指「比 X 少一點點，接近 X」。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。"
+        "little-pdf-002": "本句的「little less than three hours」指「比 X 少一點點，接近 X」。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-pdf-002"
     },
@@ -1393,11 +1301,9 @@ export default {
       "masked": "The project cost ____.",
       "options": [
         "little-pdf-002",
-        "little-mcq-13",
-        "little-mcq-15",
-        "little-mcq-12",
-        "little-mcq-16",
-        "little-mcq-11"
+        "little-mcq-04",
+        "little-mcq-06",
+        "little-mcq-16"
       ],
       "explanation": "本句的「little less than a million dollars」指「比 X 少一點點，接近 X」。",
       "sentenceIndex": 26,
@@ -1406,12 +1312,10 @@ export default {
         "little less than a million dollars"
       ],
       "optionReasons": {
-        "little-pdf-002": "本句指「比 X 少一點點，接近 X」。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。"
+        "little-pdf-002": "本句的「little less than a million dollars」指「比 X 少一點點，接近 X」。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-pdf-002"
     },
@@ -1423,11 +1327,9 @@ export default {
       "masked": "____ that the decision would change my life.",
       "options": [
         "little-mcq-15",
+        "little-pdf-001",
         "little-mcq-14",
-        "little-mcq-16",
-        "little-mcq-13",
-        "little-mcq-17",
-        "little-mcq-12"
+        "little-mcq-16"
       ],
       "explanation": "本句的「Little did I know」指「我當時完全不知道」。",
       "sentenceIndex": 27,
@@ -1436,12 +1338,10 @@ export default {
         "Little did I know"
       ],
       "optionReasons": {
-        "little-mcq-15": "本句指「我當時完全不知道」。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。"
+        "little-mcq-15": "本句的「Little did I know」指「我當時完全不知道」。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-15"
     },
@@ -1453,11 +1353,9 @@ export default {
       "masked": "____ what was waiting for her.",
       "options": [
         "little-mcq-15",
+        "little-mcq-26",
         "little-mcq-14",
-        "little-mcq-16",
-        "little-mcq-13",
-        "little-mcq-17",
-        "little-mcq-12"
+        "little-mcq-04"
       ],
       "explanation": "本句的「Little did she know」指「我當時完全不知道」。",
       "sentenceIndex": 28,
@@ -1466,12 +1364,10 @@ export default {
         "Little did she know"
       ],
       "optionReasons": {
-        "little-mcq-15": "本句指「我當時完全不知道」。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。"
+        "little-mcq-15": "本句的「Little did she know」指「我當時完全不知道」。",
+        "little-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-15"
     },
@@ -1483,11 +1379,9 @@ export default {
       "masked": "It's ____ that he was tired after working all night.",
       "options": [
         "little-mcq-16",
-        "little-mcq-15",
         "little-mcq-17",
-        "little-mcq-14",
-        "little-mcq-18",
-        "little-mcq-13"
+        "little-mcq-15",
+        "little-pdf-001"
       ],
       "explanation": "本句的「little wonder」指「難怪」。",
       "sentenceIndex": 29,
@@ -1496,12 +1390,10 @@ export default {
         "little wonder"
       ],
       "optionReasons": {
-        "little-mcq-16": "本句指「難怪」。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。"
+        "little-mcq-16": "本句的「little wonder」指「難怪」。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-16"
     },
@@ -1513,11 +1405,9 @@ export default {
       "masked": "____ she was upset.",
       "options": [
         "little-mcq-16",
-        "little-mcq-15",
-        "little-mcq-17",
-        "little-mcq-14",
-        "little-mcq-18",
-        "little-mcq-13"
+        "little-mcq-09",
+        "little-mcq-24",
+        "little-mcq-03"
       ],
       "explanation": "本句的「Little wonder」指「難怪」。",
       "sentenceIndex": 30,
@@ -1526,12 +1416,10 @@ export default {
         "Little wonder"
       ],
       "optionReasons": {
-        "little-mcq-16": "本句指「難怪」。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。"
+        "little-mcq-16": "本句的「Little wonder」指「難怪」。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-16"
     },
@@ -1543,11 +1431,9 @@ export default {
       "masked": "She learned the system in ____.",
       "options": [
         "little-pdf-003",
-        "little-mcq-15",
-        "little-mcq-17",
-        "little-mcq-14",
-        "little-mcq-18",
-        "little-mcq-13"
+        "little-pdf-001",
+        "little-mcq-16",
+        "little-mcq-04"
       ],
       "explanation": "本句的「little time」指「很短的時間量」。",
       "sentenceIndex": 31,
@@ -1556,12 +1442,10 @@ export default {
         "little time"
       ],
       "optionReasons": {
-        "little-pdf-003": "本句指「很短的時間量」。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。"
+        "little-pdf-003": "本句的「little time」指「很短的時間量」。",
+        "little-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-pdf-003"
     },
@@ -1573,11 +1457,9 @@ export default {
       "masked": "The problem was solved in ____.",
       "options": [
         "little-pdf-003",
-        "little-mcq-15",
-        "little-mcq-17",
-        "little-mcq-14",
-        "little-mcq-18",
-        "little-mcq-13"
+        "little-mcq-04",
+        "little-mcq-11",
+        "little-mcq-23"
       ],
       "explanation": "本句的「very little time」指「很短的時間量」。",
       "sentenceIndex": 32,
@@ -1586,12 +1468,10 @@ export default {
         "very little time"
       ],
       "optionReasons": {
-        "little-pdf-003": "本句指「很短的時間量」。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-13": "「幾乎沒有 X 的餘地」是「little room for X」的用法，與本句語境不同。"
+        "little-pdf-003": "本句的「very little time」指「很短的時間量」。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-pdf-003"
     },
@@ -1603,11 +1483,9 @@ export default {
       "masked": "There is ____ for error.",
       "options": [
         "little-mcq-24",
-        "little-mcq-23",
-        "little-mcq-25",
-        "little-mcq-22",
-        "little-mcq-26",
-        "little-mcq-21"
+        "little-mcq-11",
+        "little-mcq-05",
+        "little-mcq-16"
       ],
       "explanation": "本句的「little room」指「可用空間很少；引申也可指餘地不足」。",
       "sentenceIndex": 33,
@@ -1616,12 +1494,10 @@ export default {
         "little room"
       ],
       "optionReasons": {
-        "little-mcq-24": "本句指「可用空間很少；引申也可指餘地不足」。",
-        "little-mcq-23": "「某種程度、關注或興趣非常少」是「8. little interest / little attention — 幾乎沒有興趣／注意」的用法，與本句語境不同。",
-        "little-mcq-25": "「某種困難、努力、阻礙等程度很低」是「19. with little difficulty / effort — 幾乎不費力地」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-26": "「與另一事物相比，數量、規模或重要性很小」是「24. little by comparison — 相比之下很少／很小」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。"
+        "little-mcq-24": "本句的「little room」指「可用空間很少；引申也可指餘地不足」。",
+        "little-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-24"
     },
@@ -1633,11 +1509,9 @@ export default {
       "masked": "The apartment has ____.",
       "options": [
         "little-mcq-24",
-        "little-mcq-23",
         "little-mcq-25",
-        "little-mcq-22",
-        "little-mcq-26",
-        "little-mcq-21"
+        "little-mcq-05",
+        "little-mcq-18"
       ],
       "explanation": "本句的「very little storage space」指「可用空間很少；引申也可指餘地不足」。",
       "sentenceIndex": 34,
@@ -1646,12 +1520,10 @@ export default {
         "very little storage space"
       ],
       "optionReasons": {
-        "little-mcq-24": "本句指「可用空間很少；引申也可指餘地不足」。",
-        "little-mcq-23": "「某種程度、關注或興趣非常少」是「8. little interest / little attention — 幾乎沒有興趣／注意」的用法，與本句語境不同。",
-        "little-mcq-25": "「某種困難、努力、阻礙等程度很低」是「19. with little difficulty / effort — 幾乎不費力地」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-26": "「與另一事物相比，數量、規模或重要性很小」是「24. little by comparison — 相比之下很少／很小」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。"
+        "little-mcq-24": "本句的「very little storage space」指「可用空間很少；引申也可指餘地不足」。",
+        "little-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-24"
     },
@@ -1663,11 +1535,9 @@ export default {
       "masked": "The schedule leaves ____.",
       "options": [
         "little-mcq-13",
-        "little-mcq-12",
-        "little-mcq-14",
         "little-mcq-11",
-        "little-mcq-15",
-        "little-mcq-10"
+        "little-pdf-003",
+        "little-mcq-04"
       ],
       "explanation": "本句的「little room for delay」指「幾乎沒有 X 的餘地」。",
       "sentenceIndex": 35,
@@ -1676,12 +1546,10 @@ export default {
         "little room for delay"
       ],
       "optionReasons": {
-        "little-mcq-13": "本句指「幾乎沒有 X 的餘地」。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。"
+        "little-mcq-13": "本句的「little room for delay」指「幾乎沒有 X 的餘地」。",
+        "little-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-13"
     },
@@ -1693,11 +1561,9 @@ export default {
       "masked": "The rules leave ____.",
       "options": [
         "little-mcq-13",
-        "little-mcq-12",
-        "little-mcq-14",
-        "little-mcq-11",
-        "little-mcq-15",
-        "little-mcq-10"
+        "little-mcq-23",
+        "little-pdf-002",
+        "little-mcq-19"
       ],
       "explanation": "本句的「little room for interpretation」指「幾乎沒有 X 的餘地」。",
       "sentenceIndex": 36,
@@ -1706,12 +1572,10 @@ export default {
         "little room for interpretation"
       ],
       "optionReasons": {
-        "little-mcq-13": "本句指「幾乎沒有 X 的餘地」。",
-        "little-mcq-12": "「機會很小」是「little chance」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。",
-        "little-mcq-11": "「一點一點地」是「little by little」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-10": "「一點點」是「a little bit」的用法，與本句語境不同。"
+        "little-mcq-13": "本句的「little room for interpretation」指「幾乎沒有 X 的餘地」。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-13"
     },
@@ -1723,11 +1587,9 @@ export default {
       "masked": "She completed the task with ____.",
       "options": [
         "little-mcq-25",
-        "little-mcq-24",
-        "little-mcq-26",
-        "little-mcq-23",
-        "little-mcq-22",
-        "little-mcq-21"
+        "little-mcq-15",
+        "little-mcq-06",
+        "little-mcq-20"
       ],
       "explanation": "本句的「little difficulty」指「某種困難、努力、阻礙等程度很低」。",
       "sentenceIndex": 37,
@@ -1736,12 +1598,10 @@ export default {
         "little difficulty"
       ],
       "optionReasons": {
-        "little-mcq-25": "本句指「某種困難、努力、阻礙等程度很低」。",
-        "little-mcq-24": "「可用空間很少；引申也可指餘地不足」是「17. little room / little space — 空間很少」的用法，與本句語境不同。",
-        "little-mcq-26": "「與另一事物相比，數量、規模或重要性很小」是「24. little by comparison — 相比之下很少／很小」的用法，與本句語境不同。",
-        "little-mcq-23": "「某種程度、關注或興趣非常少」是「8. little interest / little attention — 幾乎沒有興趣／注意」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。"
+        "little-mcq-25": "本句的「little difficulty」指「某種困難、努力、阻礙等程度很低」。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-25"
     },
@@ -1753,11 +1613,9 @@ export default {
       "masked": "He lifted the box with ____.",
       "options": [
         "little-mcq-25",
-        "little-mcq-24",
-        "little-mcq-26",
-        "little-mcq-23",
-        "little-mcq-22",
-        "little-mcq-21"
+        "little-mcq-09",
+        "little-mcq-04",
+        "little-reviewed-9174452355"
       ],
       "explanation": "本句的「little effort」指「某種困難、努力、阻礙等程度很低」。",
       "sentenceIndex": 38,
@@ -1766,12 +1624,10 @@ export default {
         "little effort"
       ],
       "optionReasons": {
-        "little-mcq-25": "本句指「某種困難、努力、阻礙等程度很低」。",
-        "little-mcq-24": "「可用空間很少；引申也可指餘地不足」是「17. little room / little space — 空間很少」的用法，與本句語境不同。",
-        "little-mcq-26": "「與另一事物相比，數量、規模或重要性很小」是「24. little by comparison — 相比之下很少／很小」的用法，與本句語境不同。",
-        "little-mcq-23": "「某種程度、關注或興趣非常少」是「8. little interest / little attention — 幾乎沒有興趣／注意」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。"
+        "little-mcq-25": "本句的「little effort」指「某種困難、努力、阻礙等程度很低」。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-reviewed-9174452355": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-25"
     },
@@ -1783,11 +1639,9 @@ export default {
       "masked": "The change had ____.",
       "options": [
         "little-mcq-17",
-        "little-mcq-16",
         "little-mcq-18",
-        "little-mcq-15",
-        "little-mcq-19",
-        "little-mcq-14"
+        "little-mcq-04",
+        "little-pdf-003"
       ],
       "explanation": "本句的「little, if any, effect」指「幾乎沒有」。",
       "sentenceIndex": 39,
@@ -1796,12 +1650,10 @@ export default {
         "little, if any, effect"
       ],
       "optionReasons": {
-        "little-mcq-17": "本句指「幾乎沒有」。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。"
+        "little-mcq-17": "本句的「little, if any, effect」指「幾乎沒有」。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-17"
     },
@@ -1813,11 +1665,9 @@ export default {
       "masked": "There is ____ to support the claim.",
       "options": [
         "little-mcq-17",
+        "little-mcq-04",
         "little-mcq-16",
-        "little-mcq-18",
-        "little-mcq-15",
-        "little-mcq-19",
-        "little-mcq-14"
+        "little-mcq-08"
       ],
       "explanation": "本句的「little, if any, evidence」指「幾乎沒有」。",
       "sentenceIndex": 40,
@@ -1826,12 +1676,10 @@ export default {
         "little, if any, evidence"
       ],
       "optionReasons": {
-        "little-mcq-17": "本句指「幾乎沒有」。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-14": "「幾乎只是 X」是「little more than X」的用法，與本句語境不同。"
+        "little-mcq-17": "本句的「little, if any, evidence」指「幾乎沒有」。",
+        "little-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-17"
     },
@@ -1843,11 +1691,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "little-mcq-18",
-        "little-mcq-17",
-        "little-mcq-19",
-        "little-mcq-16",
-        "little-mcq-20",
-        "little-mcq-15"
+        "little-reviewed-9174452355",
+        "little-mcq-08",
+        "little-mcq-20"
       ],
       "explanation": "本句的「not a little surprised」指「非常；相當」。",
       "sentenceIndex": 41,
@@ -1856,12 +1702,10 @@ export default {
         "not a little surprised"
       ],
       "optionReasons": {
-        "little-mcq-18": "本句指「非常；相當」。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。"
+        "little-mcq-18": "本句的「not a little surprised」指「非常；相當」。",
+        "little-reviewed-9174452355": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-18"
     },
@@ -1873,11 +1717,9 @@ export default {
       "masked": "The news caused ____.",
       "options": [
         "little-mcq-18",
-        "little-mcq-17",
-        "little-mcq-19",
-        "little-mcq-16",
-        "little-mcq-20",
-        "little-mcq-15"
+        "little-pdf-002",
+        "little-mcq-03",
+        "little-pdf-003"
       ],
       "explanation": "本句的「not a little concern」指「非常；相當」。",
       "sentenceIndex": 42,
@@ -1886,74 +1728,68 @@ export default {
         "not a little concern"
       ],
       "optionReasons": {
-        "little-mcq-18": "本句指「非常；相當」。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。"
+        "little-mcq-18": "本句的「not a little concern」指「非常；相當」。",
+        "little-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-18"
     },
     {
       "id": "little-22-0",
-      "sense": "little-mcq-18",
+      "sense": "little-reviewed-9174452355",
       "en": "He little understood how serious the problem was.",
       "zh": "他當時幾乎不明白問題有多嚴重。",
       "masked": "He ____ how serious the problem was.",
       "options": [
-        "little-mcq-18",
-        "little-mcq-17",
-        "little-mcq-19",
+        "little-reviewed-9174452355",
+        "little-pdf-003",
         "little-mcq-16",
-        "little-mcq-20",
         "little-mcq-15"
       ],
-      "explanation": "本句的「little understood」指「非常；相當」。",
+      "explanation": "對照完整句子：「他當時幾乎不明白問題有多嚴重。」。這裡的「little understood」表示「很少地；幾乎不」。",
       "sentenceIndex": 43,
       "sourcePractice": 1,
       "targets": [
         "little understood"
       ],
       "optionReasons": {
-        "little-mcq-18": "本句指「非常；相當」。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。"
+        "little-reviewed-9174452355": "對照完整句子：「他當時幾乎不明白問題有多嚴重。」。這裡的「little understood」表示「很少地；幾乎不」。",
+        "little-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "little-mcq-18"
+      "correctOption": "little-reviewed-9174452355",
+      "previousCorrectOption": "little-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "little-22-1",
-      "sense": "little-mcq-18",
+      "sense": "little-reviewed-9174452355",
       "en": "She little expected to see him there.",
       "zh": "她完全沒料到會在那裏見到他。",
       "masked": "She ____ to see him there.",
       "options": [
-        "little-mcq-18",
-        "little-mcq-17",
-        "little-mcq-19",
-        "little-mcq-16",
-        "little-mcq-20",
-        "little-mcq-15"
+        "little-reviewed-9174452355",
+        "little-mcq-05",
+        "little-mcq-11",
+        "little-mcq-25"
       ],
-      "explanation": "本句的「little expected」指「非常；相當」。",
+      "explanation": "對照完整句子：「她完全沒料到會在那裏見到他。」。這裡的「little expected」表示「很少地；幾乎不」。",
       "sentenceIndex": 44,
       "sourcePractice": 2,
       "targets": [
         "little expected"
       ],
       "optionReasons": {
-        "little-mcq-18": "本句指「非常；相當」。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。",
-        "little-mcq-15": "「我當時完全不知道」是「little did I know」的用法，與本句語境不同。"
+        "little-reviewed-9174452355": "對照完整句子：「她完全沒料到會在那裏見到他。」。這裡的「little expected」表示「很少地；幾乎不」。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "little-mcq-18"
+      "correctOption": "little-reviewed-9174452355",
+      "previousCorrectOption": "little-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "little-23-0",
@@ -1963,11 +1799,9 @@ export default {
       "masked": "I'll share ____.",
       "options": [
         "little-mcq-19",
-        "little-mcq-18",
-        "little-mcq-20",
-        "little-mcq-17",
-        "little-mcq-21",
-        "little-mcq-16"
+        "little-mcq-09",
+        "little-mcq-23",
+        "little-mcq-20"
       ],
       "explanation": "本句的「the little I have」指「我所知不多的內容」。",
       "sentenceIndex": 45,
@@ -1976,12 +1810,10 @@ export default {
         "the little I have"
       ],
       "optionReasons": {
-        "little-mcq-19": "本句指「我所知不多的內容」。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。"
+        "little-mcq-19": "本句的「the little I have」指「我所知不多的內容」。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-19"
     },
@@ -1993,11 +1825,9 @@ export default {
       "masked": "From ____, the plan seems reasonable.",
       "options": [
         "little-mcq-19",
-        "little-mcq-18",
-        "little-mcq-20",
+        "little-mcq-05",
         "little-mcq-17",
-        "little-mcq-21",
-        "little-mcq-16"
+        "little-mcq-23"
       ],
       "explanation": "本句的「the little I know」指「我所知不多的內容」。",
       "sentenceIndex": 46,
@@ -2006,12 +1836,10 @@ export default {
         "the little I know"
       ],
       "optionReasons": {
-        "little-mcq-19": "本句指「我所知不多的內容」。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-20": "「更小／最小」是「littler/littlest」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。",
-        "little-mcq-16": "「難怪」是「little wonder」的用法，與本句語境不同。"
+        "little-mcq-19": "本句的「the little I know」指「我所知不多的內容」。",
+        "little-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-19"
     },
@@ -2023,11 +1851,9 @@ export default {
       "masked": "Our costs are ____.",
       "options": [
         "little-mcq-26",
-        "little-mcq-25",
-        "little-mcq-24",
-        "little-mcq-23",
-        "little-mcq-22",
-        "little-mcq-21"
+        "little-mcq-16",
+        "little-mcq-09",
+        "little-mcq-15"
       ],
       "explanation": "本句的「little by comparison」指「與另一事物相比，數量、規模或重要性很小」。",
       "sentenceIndex": 47,
@@ -2036,12 +1862,10 @@ export default {
         "little by comparison"
       ],
       "optionReasons": {
-        "little-mcq-26": "本句指「與另一事物相比，數量、規模或重要性很小」。",
-        "little-mcq-25": "「某種困難、努力、阻礙等程度很低」是「19. with little difficulty / effort — 幾乎不費力地」的用法，與本句語境不同。",
-        "little-mcq-24": "「可用空間很少；引申也可指餘地不足」是「17. little room / little space — 空間很少」的用法，與本句語境不同。",
-        "little-mcq-23": "「某種程度、關注或興趣非常少」是「8. little interest / little attention — 幾乎沒有興趣／注意」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。"
+        "little-mcq-26": "本句的「little by comparison」指「與另一事物相比，數量、規模或重要性很小」。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-26"
     },
@@ -2053,11 +1877,9 @@ export default {
       "masked": "The first problem seems ____.",
       "options": [
         "little-mcq-26",
-        "little-mcq-25",
-        "little-mcq-24",
-        "little-mcq-23",
-        "little-mcq-22",
-        "little-mcq-21"
+        "little-mcq-19",
+        "little-mcq-18",
+        "little-mcq-16"
       ],
       "explanation": "本句的「little by comparison」指「與另一事物相比，數量、規模或重要性很小」。",
       "sentenceIndex": 48,
@@ -2066,12 +1888,10 @@ export default {
         "little by comparison"
       ],
       "optionReasons": {
-        "little-mcq-26": "本句指「與另一事物相比，數量、規模或重要性很小」。",
-        "little-mcq-25": "「某種困難、努力、阻礙等程度很低」是「19. with little difficulty / effort — 幾乎不費力地」的用法，與本句語境不同。",
-        "little-mcq-24": "「可用空間很少；引申也可指餘地不足」是「17. little room / little space — 空間很少」的用法，與本句語境不同。",
-        "little-mcq-23": "「某種程度、關注或興趣非常少」是「8. little interest / little attention — 幾乎沒有興趣／注意」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。"
+        "little-mcq-26": "本句的「little by comparison」指「與另一事物相比，數量、規模或重要性很小」。",
+        "little-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-26"
     },
@@ -2083,11 +1903,9 @@ export default {
       "masked": "When I was ____, I was afraid of dogs.",
       "options": [
         "little-mcq-20",
-        "little-mcq-19",
-        "little-mcq-21",
-        "little-mcq-18",
-        "little-mcq-22",
-        "little-mcq-17"
+        "little-mcq-06",
+        "little-mcq-09",
+        "little-mcq-15"
       ],
       "explanation": "本句的「littler」指「更小／最小」。",
       "sentenceIndex": 49,
@@ -2096,12 +1914,10 @@ export default {
         "littler"
       ],
       "optionReasons": {
-        "little-mcq-20": "本句指「更小／最小」。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。"
+        "little-mcq-20": "本句的「littler」指「更小／最小」。",
+        "little-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-20"
     },
@@ -2113,11 +1929,9 @@ export default {
       "masked": "She's the ____ child in the family.",
       "options": [
         "little-mcq-20",
-        "little-mcq-19",
-        "little-mcq-21",
-        "little-mcq-18",
-        "little-mcq-22",
-        "little-mcq-17"
+        "little-reviewed-9174452355",
+        "little-mcq-16",
+        "little-mcq-18"
       ],
       "explanation": "本句的「littlest」指「更小／最小」。",
       "sentenceIndex": 50,
@@ -2126,12 +1940,10 @@ export default {
         "littlest"
       ],
       "optionReasons": {
-        "little-mcq-20": "本句指「更小／最小」。",
-        "little-mcq-19": "「我所知不多的內容」是「the little I know」的用法，與本句語境不同。",
-        "little-mcq-21": "「更少」是「less」的用法，與本句語境不同。",
-        "little-mcq-18": "「非常；相當」是「not a little」的用法，與本句語境不同。",
-        "little-mcq-22": "「最少」是「least」的用法，與本句語境不同。",
-        "little-mcq-17": "「幾乎沒有」是「little, if any」的用法，與本句語境不同。"
+        "little-mcq-20": "本句的「littlest」指「更小／最小」。",
+        "little-reviewed-9174452355": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "little-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "little-mcq-20"
     }
@@ -2143,5 +1955,7 @@ export default {
     "sha256": "249948fe05446c6be8d5fbabdba70def5c4d66bb163fd51d675f722533f23ecd",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

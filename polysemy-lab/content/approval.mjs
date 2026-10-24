@@ -594,11 +594,7 @@ export default {
       "masked": "Creativity matters more than chasing ____.",
       "options": [
         "approval-mcq-01",
-        "approval-mcq-02",
-        "approval-mcq-03",
-        "approval-mcq-04",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "approval-mcq-08"
       ],
       "explanation": "本句的「approval」指「他人對某人／行為表示正面評價、支持或認同」。",
       "sentenceIndex": 0,
@@ -607,12 +603,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-01": "本句指「他人對某人／行為表示正面評價、支持或認同」。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-01": "本句的「approval」指「他人對某人／行為表示正面評價、支持或認同」。",
+        "approval-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-01"
     },
@@ -624,11 +616,7 @@ export default {
       "masked": "She looked for her friends’ ____.",
       "options": [
         "approval-mcq-01",
-        "approval-mcq-02",
-        "approval-mcq-03",
-        "approval-mcq-04",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "approval-mcq-08"
       ],
       "explanation": "本句的「approval」指「他人對某人／行為表示正面評價、支持或認同」。",
       "sentenceIndex": 1,
@@ -637,12 +625,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-01": "本句指「他人對某人／行為表示正面評價、支持或認同」。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-01": "本句的「approval」指「他人對某人／行為表示正面評價、支持或認同」。",
+        "approval-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-01"
     },
@@ -654,11 +638,7 @@ export default {
       "masked": "His parents expressed their ____ of the decision.",
       "options": [
         "approval-mcq-01",
-        "approval-mcq-02",
-        "approval-mcq-03",
-        "approval-mcq-04",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "approval-mcq-08"
       ],
       "explanation": "本句的「approval」指「他人對某人／行為表示正面評價、支持或認同」。",
       "sentenceIndex": 2,
@@ -667,12 +647,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-01": "本句指「他人對某人／行為表示正面評價、支持或認同」。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-01": "本句的「approval」指「他人對某人／行為表示正面評價、支持或認同」。",
+        "approval-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-01"
     },
@@ -684,11 +660,7 @@ export default {
       "masked": "He constantly ____ from others.",
       "options": [
         "approval-mcq-02",
-        "approval-mcq-01",
-        "approval-mcq-03",
-        "approval-mcq-04",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "approval-mcq-11"
       ],
       "explanation": "本句的「seeks approval」指「希望得到他人的認同、支持或肯定」。",
       "sentenceIndex": 3,
@@ -697,12 +669,8 @@ export default {
         "seeks approval"
       ],
       "optionReasons": {
-        "approval-mcq-02": "本句指「希望得到他人的認同、支持或肯定」。",
-        "approval-mcq-01": "「他人對某人／行為表示正面評價、支持或認同」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-02": "本句的「seeks approval」指「希望得到他人的認同、支持或肯定」。",
+        "approval-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-02"
     },
@@ -714,11 +682,7 @@ export default {
       "masked": "She no longer needs to seek ____ for every decision.",
       "options": [
         "approval-mcq-02",
-        "approval-mcq-01",
-        "approval-mcq-03",
-        "approval-mcq-04",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "approval-mcq-24"
       ],
       "explanation": "本句的「approval」指「希望得到他人的認同、支持或肯定」。",
       "sentenceIndex": 4,
@@ -727,12 +691,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-02": "本句指「希望得到他人的認同、支持或肯定」。",
-        "approval-mcq-01": "「他人對某人／行為表示正面評價、支持或認同」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-02": "本句的「approval」指「希望得到他人的認同、支持或肯定」。",
+        "approval-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-02"
     },
@@ -744,11 +704,7 @@ export default {
       "masked": "Social media can make people ____.",
       "options": [
         "approval-mcq-03",
-        "approval-mcq-02",
-        "approval-mcq-04",
-        "approval-mcq-01",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「chase approval」指「不斷把注意力放在獲得別人的正面評價／認可上」。",
       "sentenceIndex": 5,
@@ -757,12 +713,8 @@ export default {
         "chase approval"
       ],
       "optionReasons": {
-        "approval-mcq-03": "本句指「不斷把注意力放在獲得別人的正面評價／認可上」。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-01": "「他人對某人／行為表示正面評價、支持或認同」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-03": "本句的「chase approval」指「不斷把注意力放在獲得別人的正面評價／認可上」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-03"
     },
@@ -774,11 +726,7 @@ export default {
       "masked": "He became tired of chasing other people’s ____.",
       "options": [
         "approval-mcq-03",
-        "approval-mcq-02",
-        "approval-mcq-04",
-        "approval-mcq-01",
-        "approval-mcq-05",
-        "approval-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「approval」指「不斷把注意力放在獲得別人的正面評價／認可上」。",
       "sentenceIndex": 6,
@@ -787,12 +735,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-03": "本句指「不斷把注意力放在獲得別人的正面評價／認可上」。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-01": "「他人對某人／行為表示正面評價、支持或認同」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-03": "本句的「approval」指「不斷把注意力放在獲得別人的正面評價／認可上」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-03"
     },
@@ -804,11 +748,7 @@ export default {
       "masked": "The idea quickly ____ from the team.",
       "options": [
         "approval-mcq-04",
-        "approval-mcq-03",
-        "approval-mcq-05",
-        "approval-mcq-02",
-        "approval-mcq-06",
-        "approval-mcq-01"
+        "approval-mcq-24"
       ],
       "explanation": "本句的「won approval」指「令別人開始贊同、支持或接受」。",
       "sentenceIndex": 7,
@@ -817,12 +757,8 @@ export default {
         "won approval"
       ],
       "optionReasons": {
-        "approval-mcq-04": "本句指「令別人開始贊同、支持或接受」。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-01": "「他人對某人／行為表示正面評價、支持或認同」與本句語境不同。"
+        "approval-mcq-04": "本句的「won approval」指「令別人開始贊同、支持或接受」。",
+        "approval-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-04"
     },
@@ -834,11 +770,7 @@ export default {
       "masked": "Her work gained widespread ____.",
       "options": [
         "approval-mcq-04",
-        "approval-mcq-03",
-        "approval-mcq-05",
-        "approval-mcq-02",
-        "approval-mcq-06",
-        "approval-mcq-01"
+        "approval-mcq-24"
       ],
       "explanation": "本句的「approval」指「令別人開始贊同、支持或接受」。",
       "sentenceIndex": 8,
@@ -847,12 +779,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-04": "本句指「令別人開始贊同、支持或接受」。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-01": "「他人對某人／行為表示正面評價、支持或認同」與本句語境不同。"
+        "approval-mcq-04": "本句的「approval」指「令別人開始贊同、支持或接受」。",
+        "approval-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-04"
     },
@@ -864,11 +792,7 @@ export default {
       "masked": "The project cannot begin without official ____.",
       "options": [
         "approval-mcq-05",
-        "approval-mcq-04",
-        "approval-mcq-06",
-        "approval-mcq-03",
-        "approval-mcq-07",
-        "approval-mcq-02"
+        "approval-mcq-28"
       ],
       "explanation": "本句的「approval」指「有權人士／機構正式同意某件事可以進行」。",
       "sentenceIndex": 11,
@@ -877,12 +801,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-05": "本句指「有權人士／機構正式同意某件事可以進行」。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。"
+        "approval-mcq-05": "本句的「approval」指「有權人士／機構正式同意某件事可以進行」。",
+        "approval-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-05"
     },
@@ -894,11 +814,7 @@ export default {
       "masked": "We are waiting for management ____.",
       "options": [
         "approval-mcq-05",
-        "approval-mcq-04",
-        "approval-mcq-06",
-        "approval-mcq-03",
-        "approval-mcq-07",
-        "approval-mcq-02"
+        "approval-mcq-28"
       ],
       "explanation": "本句的「approval」指「有權人士／機構正式同意某件事可以進行」。",
       "sentenceIndex": 12,
@@ -907,12 +823,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-05": "本句指「有權人士／機構正式同意某件事可以進行」。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-02": "「希望得到他人的認同、支持或肯定」與本句語境不同。"
+        "approval-mcq-05": "本句的「approval」指「有權人士／機構正式同意某件事可以進行」。",
+        "approval-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-05"
     },
@@ -924,11 +836,7 @@ export default {
       "masked": "The authority ____ for construction.",
       "options": [
         "approval-mcq-06",
-        "approval-mcq-05",
-        "approval-mcq-07",
-        "approval-mcq-04",
-        "approval-mcq-08",
-        "approval-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「granted approval」指「由有權機構正式給予許可」。",
       "sentenceIndex": 15,
@@ -937,12 +845,8 @@ export default {
         "granted approval"
       ],
       "optionReasons": {
-        "approval-mcq-06": "本句指「由有權機構正式給予許可」。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。"
+        "approval-mcq-06": "本句的「granted approval」指「由有權機構正式給予許可」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-06"
     },
@@ -954,11 +858,7 @@ export default {
       "masked": "The application was granted ____.",
       "options": [
         "approval-mcq-06",
-        "approval-mcq-05",
-        "approval-mcq-07",
-        "approval-mcq-04",
-        "approval-mcq-08",
-        "approval-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「approval」指「由有權機構正式給予許可」。",
       "sentenceIndex": 16,
@@ -967,12 +867,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-06": "本句指「由有權機構正式給予許可」。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-03": "「不斷把注意力放在獲得別人的正面評價／認可上」與本句語境不同。"
+        "approval-mcq-06": "本句的「approval」指「由有權機構正式給予許可」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-06"
     },
@@ -984,11 +880,7 @@ export default {
       "masked": "The product is awaiting ____.",
       "options": [
         "approval-mcq-10",
-        "approval-mcq-09",
-        "approval-mcq-11",
-        "approval-mcq-08",
-        "approval-mcq-12",
-        "approval-mcq-07"
+        "approval-mcq-28"
       ],
       "explanation": "本句的「regulatory approval」指「監管機構確認符合規定並准許產品／活動進行」。",
       "sentenceIndex": 25,
@@ -997,12 +889,8 @@ export default {
         "regulatory approval"
       ],
       "optionReasons": {
-        "approval-mcq-10": "本句指「監管機構確認符合規定並准許產品／活動進行」。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。"
+        "approval-mcq-10": "本句的「regulatory approval」指「監管機構確認符合規定並准許產品／活動進行」。",
+        "approval-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-10"
     },
@@ -1014,11 +902,7 @@ export default {
       "masked": "The merger cannot proceed without regulatory ____.",
       "options": [
         "approval-mcq-10",
-        "approval-mcq-09",
-        "approval-mcq-11",
-        "approval-mcq-08",
-        "approval-mcq-12",
-        "approval-mcq-07"
+        "approval-mcq-28"
       ],
       "explanation": "本句的「approval」指「監管機構確認符合規定並准許產品／活動進行」。",
       "sentenceIndex": 26,
@@ -1027,12 +911,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-10": "本句指「監管機構確認符合規定並准許產品／活動進行」。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。"
+        "approval-mcq-10": "本句的「approval」指「監管機構確認符合規定並准許產品／活動進行」。",
+        "approval-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-10"
     },
@@ -1044,11 +924,7 @@ export default {
       "masked": "The ____ can take several days.",
       "options": [
         "approval-mcq-11",
-        "approval-mcq-10",
-        "approval-mcq-12",
-        "approval-mcq-09",
-        "approval-mcq-13",
-        "approval-mcq-08"
+        "approval-pdf-001"
       ],
       "explanation": "本句的「approval process」指「申請／決定經檢查、審批及正式批准的流程」。",
       "sentenceIndex": 31,
@@ -1057,12 +933,8 @@ export default {
         "approval process"
       ],
       "optionReasons": {
-        "approval-mcq-11": "本句指「申請／決定經檢查、審批及正式批准的流程」。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。"
+        "approval-mcq-11": "本句的「approval process」指「申請／決定經檢查、審批及正式批准的流程」。",
+        "approval-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-11"
     },
@@ -1074,11 +946,7 @@ export default {
       "masked": "The company simplified its internal ____ process.",
       "options": [
         "approval-mcq-11",
-        "approval-mcq-10",
-        "approval-mcq-12",
-        "approval-mcq-09",
-        "approval-mcq-13",
-        "approval-mcq-08"
+        "approval-mcq-26"
       ],
       "explanation": "本句的「approval」指「申請／決定經檢查、審批及正式批准的流程」。",
       "sentenceIndex": 32,
@@ -1087,12 +955,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-11": "本句指「申請／決定經檢查、審批及正式批准的流程」。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。"
+        "approval-mcq-11": "本句的「approval」指「申請／決定經檢查、審批及正式批准的流程」。",
+        "approval-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-11"
     },
@@ -1104,11 +968,7 @@ export default {
       "masked": "The offer is ____.",
       "options": [
         "approval-mcq-07",
-        "approval-mcq-06",
-        "approval-mcq-08",
-        "approval-mcq-05",
-        "approval-mcq-09",
-        "approval-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「subject to approval」指「只有得到指定人士／機構批准後才會正式生效」。",
       "sentenceIndex": 35,
@@ -1117,12 +977,8 @@ export default {
         "subject to approval"
       ],
       "optionReasons": {
-        "approval-mcq-07": "本句指「只有得到指定人士／機構批准後才會正式生效」。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。"
+        "approval-mcq-07": "本句的「subject to approval」指「只有得到指定人士／機構批准後才會正式生效」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-07"
     },
@@ -1134,11 +990,7 @@ export default {
       "masked": "Travel expenses are reimbursed subject to ____.",
       "options": [
         "approval-mcq-07",
-        "approval-mcq-06",
-        "approval-mcq-08",
-        "approval-mcq-05",
-        "approval-mcq-09",
-        "approval-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「approval」指「只有得到指定人士／機構批准後才會正式生效」。",
       "sentenceIndex": 36,
@@ -1147,12 +999,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-07": "本句指「只有得到指定人士／機構批准後才會正式生效」。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-04": "「令別人開始贊同、支持或接受」與本句語境不同。"
+        "approval-mcq-07": "本句的「approval」指「只有得到指定人士／機構批准後才會正式生效」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-07"
     },
@@ -1164,11 +1012,7 @@ export default {
       "masked": "The request is ____.",
       "options": [
         "approval-mcq-08",
-        "approval-mcq-07",
-        "approval-mcq-09",
-        "approval-mcq-06",
-        "approval-mcq-10",
-        "approval-mcq-05"
+        "approval-mcq-22"
       ],
       "explanation": "本句的「pending approval」指「已提交但尚未獲得最終批准」。",
       "sentenceIndex": 37,
@@ -1177,12 +1021,8 @@ export default {
         "pending approval"
       ],
       "optionReasons": {
-        "approval-mcq-08": "本句指「已提交但尚未獲得最終批准」。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。"
+        "approval-mcq-08": "本句的「pending approval」指「已提交但尚未獲得最終批准」。",
+        "approval-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-08"
     },
@@ -1194,11 +1034,7 @@ export default {
       "masked": "The project remains pending ____.",
       "options": [
         "approval-mcq-08",
-        "approval-mcq-07",
-        "approval-mcq-09",
-        "approval-mcq-06",
-        "approval-mcq-10",
-        "approval-mcq-05"
+        "approval-mcq-22"
       ],
       "explanation": "本句的「approval」指「已提交但尚未獲得最終批准」。",
       "sentenceIndex": 38,
@@ -1207,12 +1043,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-08": "本句指「已提交但尚未獲得最終批准」。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-05": "「有權人士／機構正式同意某件事可以進行」與本句語境不同。"
+        "approval-mcq-08": "本句的「approval」指「已提交但尚未獲得最終批准」。",
+        "approval-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-08"
     },
@@ -1224,11 +1056,7 @@ export default {
       "masked": "You need ____ before making the purchase.",
       "options": [
         "approval-mcq-09",
-        "approval-mcq-08",
-        "approval-mcq-10",
-        "approval-mcq-07",
-        "approval-mcq-11",
-        "approval-mcq-06"
+        "approval-mcq-17"
       ],
       "explanation": "本句的「prior approval」指「在行動發生之前取得的正式批准」。",
       "sentenceIndex": 39,
@@ -1237,12 +1065,8 @@ export default {
         "prior approval"
       ],
       "optionReasons": {
-        "approval-mcq-09": "本句指「在行動發生之前取得的正式批准」。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-09": "本句的「prior approval」指「在行動發生之前取得的正式批准」。",
+        "approval-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-09"
     },
@@ -1254,11 +1078,7 @@ export default {
       "masked": "Travel without prior ____ will not be reimbursed.",
       "options": [
         "approval-mcq-09",
-        "approval-mcq-08",
-        "approval-mcq-10",
-        "approval-mcq-07",
-        "approval-mcq-11",
-        "approval-mcq-06"
+        "approval-mcq-17"
       ],
       "explanation": "本句的「approval」指「在行動發生之前取得的正式批准」。",
       "sentenceIndex": 40,
@@ -1267,12 +1087,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-09": "本句指「在行動發生之前取得的正式批准」。",
-        "approval-mcq-08": "「已提交但尚未獲得最終批准」與本句語境不同。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-07": "「只有得到指定人士／機構批准後才會正式生效」與本句語境不同。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。",
-        "approval-mcq-06": "「由有權機構正式給予許可」與本句語境不同。"
+        "approval-mcq-09": "本句的「approval」指「在行動發生之前取得的正式批准」。",
+        "approval-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-09"
     },
@@ -1284,11 +1100,7 @@ export default {
       "masked": "The loan is waiting for ____.",
       "options": [
         "approval-mcq-12",
-        "approval-mcq-11",
-        "approval-mcq-13",
-        "approval-mcq-10",
-        "approval-mcq-14",
-        "approval-mcq-09"
+        "contrast-duration"
       ],
       "explanation": "本句的「credit approval」指「銀行／金融機構正式同意提供貸款／信貸」。",
       "sentenceIndex": 48,
@@ -1297,12 +1109,8 @@ export default {
         "credit approval"
       ],
       "optionReasons": {
-        "approval-mcq-12": "本句指「銀行／金融機構正式同意提供貸款／信貸」。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。"
+        "approval-mcq-12": "本句的「credit approval」指「銀行／金融機構正式同意提供貸款／信貸」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-12"
     },
@@ -1314,11 +1122,7 @@ export default {
       "masked": "Credit ____ depends on the applicant’s financial situation.",
       "options": [
         "approval-mcq-12",
-        "approval-mcq-11",
-        "approval-mcq-13",
-        "approval-mcq-10",
-        "approval-mcq-14",
-        "approval-mcq-09"
+        "contrast-duration"
       ],
       "explanation": "本句的「approval」指「銀行／金融機構正式同意提供貸款／信貸」。",
       "sentenceIndex": 49,
@@ -1327,12 +1131,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-12": "本句指「銀行／金融機構正式同意提供貸款／信貸」。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-10": "「監管機構確認符合規定並准許產品／活動進行」與本句語境不同。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。",
-        "approval-mcq-09": "「在行動發生之前取得的正式批准」與本句語境不同。"
+        "approval-mcq-12": "本句的「approval」指「銀行／金融機構正式同意提供貸款／信貸」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-12"
     },
@@ -1344,11 +1144,8 @@ export default {
       "masked": "He wanted his parents’ ____.",
       "options": [
         "approval-mcq-14",
-        "approval-mcq-13",
-        "approval-mcq-15",
-        "approval-mcq-12",
-        "approval-mcq-16",
-        "approval-mcq-11"
+        "approval-mcq-28",
+        "approval-mcq-22"
       ],
       "explanation": "本句的「approval」指「家長正式同意某件事」。",
       "sentenceIndex": 54,
@@ -1357,12 +1154,9 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-14": "本句指「家長正式同意某件事」。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-15": "「某行為／身份得到周圍群體的接受和正面評價」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。",
-        "approval-mcq-16": "「來自同輩／朋友群體的正面認同」與本句語境不同。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。"
+        "approval-mcq-14": "本句的「approval」指「家長正式同意某件事」。",
+        "approval-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-14"
     },
@@ -1374,11 +1168,8 @@ export default {
       "masked": "The trip requires parental ____.",
       "options": [
         "approval-mcq-14",
-        "approval-mcq-13",
-        "approval-mcq-15",
-        "approval-mcq-12",
-        "approval-mcq-16",
-        "approval-mcq-11"
+        "approval-mcq-28",
+        "approval-mcq-22"
       ],
       "explanation": "本句的「approval」指「家長正式同意某件事」。",
       "sentenceIndex": 55,
@@ -1387,12 +1178,9 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-14": "本句指「家長正式同意某件事」。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-15": "「某行為／身份得到周圍群體的接受和正面評價」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。",
-        "approval-mcq-16": "「來自同輩／朋友群體的正面認同」與本句語境不同。",
-        "approval-mcq-11": "「申請／決定經檢查、審批及正式批准的流程」與本句語境不同。"
+        "approval-mcq-14": "本句的「approval」指「家長正式同意某件事」。",
+        "approval-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-14"
     },
@@ -1404,11 +1192,7 @@ export default {
       "masked": "People sometimes change their behaviour to gain ____.",
       "options": [
         "approval-mcq-15",
-        "approval-mcq-14",
-        "approval-mcq-16",
-        "approval-mcq-13",
-        "approval-mcq-17",
-        "approval-mcq-12"
+        "approval-mcq-23"
       ],
       "explanation": "本句的「social approval」指「某行為／身份得到周圍群體的接受和正面評價」。",
       "sentenceIndex": 56,
@@ -1417,12 +1201,8 @@ export default {
         "social approval"
       ],
       "optionReasons": {
-        "approval-mcq-15": "本句指「某行為／身份得到周圍群體的接受和正面評價」。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。",
-        "approval-mcq-16": "「來自同輩／朋友群體的正面認同」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-17": "「調查中表示認同某人表現的人所佔比例」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。"
+        "approval-mcq-15": "本句的「social approval」指「某行為／身份得到周圍群體的接受和正面評價」。",
+        "approval-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-15"
     },
@@ -1434,11 +1214,7 @@ export default {
       "masked": "Social ____ can influence what people post online.",
       "options": [
         "approval-mcq-15",
-        "approval-mcq-14",
-        "approval-mcq-16",
-        "approval-mcq-13",
-        "approval-mcq-17",
-        "approval-mcq-12"
+        "approval-mcq-23"
       ],
       "explanation": "本句的「approval」指「某行為／身份得到周圍群體的接受和正面評價」。",
       "sentenceIndex": 57,
@@ -1447,12 +1223,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-15": "本句指「某行為／身份得到周圍群體的接受和正面評價」。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。",
-        "approval-mcq-16": "「來自同輩／朋友群體的正面認同」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。",
-        "approval-mcq-17": "「調查中表示認同某人表現的人所佔比例」與本句語境不同。",
-        "approval-mcq-12": "「銀行／金融機構正式同意提供貸款／信貸」與本句語境不同。"
+        "approval-mcq-15": "本句的「approval」指「某行為／身份得到周圍群體的接受和正面評價」。",
+        "approval-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-15"
     },
@@ -1464,11 +1236,7 @@ export default {
       "masked": "Teenagers may care deeply about ____.",
       "options": [
         "approval-mcq-16",
-        "approval-mcq-15",
-        "approval-mcq-17",
-        "approval-mcq-14",
-        "approval-mcq-18",
-        "approval-mcq-13"
+        "approval-mcq-08"
       ],
       "explanation": "本句的「peer approval」指「來自同輩／朋友群體的正面認同」。",
       "sentenceIndex": 58,
@@ -1477,12 +1245,8 @@ export default {
         "peer approval"
       ],
       "optionReasons": {
-        "approval-mcq-16": "本句指「來自同輩／朋友群體的正面認同」。",
-        "approval-mcq-15": "「某行為／身份得到周圍群體的接受和正面評價」與本句語境不同。",
-        "approval-mcq-17": "「調查中表示認同某人表現的人所佔比例」與本句語境不同。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。",
-        "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。"
+        "approval-mcq-16": "本句的「peer approval」指「來自同輩／朋友群體的正面認同」。",
+        "approval-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-16"
     },
@@ -1494,11 +1258,8 @@ export default {
       "masked": "His decisions were influenced by a desire for peer ____.",
       "options": [
         "approval-mcq-16",
-        "approval-mcq-15",
-        "approval-mcq-17",
-        "approval-mcq-14",
-        "approval-mcq-18",
-        "approval-mcq-13"
+        "approval-mcq-25",
+        "approval-mcq-11"
       ],
       "explanation": "本句的「approval」指「來自同輩／朋友群體的正面認同」。",
       "sentenceIndex": 59,
@@ -1507,12 +1268,9 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-16": "本句指「來自同輩／朋友群體的正面認同」。",
-        "approval-mcq-15": "「某行為／身份得到周圍群體的接受和正面評價」與本句語境不同。",
-        "approval-mcq-17": "「調查中表示認同某人表現的人所佔比例」與本句語境不同。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。",
-        "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。",
-        "approval-mcq-13": "「父母對某人／行為的認同、贊許」與本句語境不同。"
+        "approval-mcq-16": "本句的「approval」指「來自同輩／朋友群體的正面認同」。",
+        "approval-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-16"
     },
@@ -1524,11 +1282,7 @@ export default {
       "masked": "The manager’s ____ among staff improved.",
       "options": [
         "approval-mcq-17",
-        "approval-mcq-16",
-        "approval-mcq-18",
-        "approval-mcq-15",
-        "approval-mcq-19",
-        "approval-mcq-14"
+        "approval-mcq-09"
       ],
       "explanation": "本句的「approval rating」指「調查中表示認同某人表現的人所佔比例」。",
       "sentenceIndex": 62,
@@ -1537,12 +1291,8 @@ export default {
         "approval rating"
       ],
       "optionReasons": {
-        "approval-mcq-17": "本句指「調查中表示認同某人表現的人所佔比例」。",
-        "approval-mcq-16": "「來自同輩／朋友群體的正面認同」與本句語境不同。",
-        "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。",
-        "approval-mcq-15": "「某行為／身份得到周圍群體的接受和正面評價」與本句語境不同。",
-        "approval-mcq-19": "「正式批准某項計劃、申請、預算或行動」與本句語境不同。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。"
+        "approval-mcq-17": "本句的「approval rating」指「調查中表示認同某人表現的人所佔比例」。",
+        "approval-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-17"
     },
@@ -1554,11 +1304,8 @@ export default {
       "masked": "The survey measured public ____ ratings.",
       "options": [
         "approval-mcq-17",
-        "approval-mcq-16",
-        "approval-mcq-18",
-        "approval-mcq-15",
-        "approval-mcq-19",
-        "approval-mcq-14"
+        "approval-mcq-25",
+        "approval-mcq-11"
       ],
       "explanation": "本句的「approval」指「調查中表示認同某人表現的人所佔比例」。",
       "sentenceIndex": 63,
@@ -1567,12 +1314,9 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-17": "本句指「調查中表示認同某人表現的人所佔比例」。",
-        "approval-mcq-16": "「來自同輩／朋友群體的正面認同」與本句語境不同。",
-        "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。",
-        "approval-mcq-15": "「某行為／身份得到周圍群體的接受和正面評價」與本句語境不同。",
-        "approval-mcq-19": "「正式批准某項計劃、申請、預算或行動」與本句語境不同。",
-        "approval-mcq-14": "「家長正式同意某件事」與本句語境不同。"
+        "approval-mcq-17": "本句的「approval」指「調查中表示認同某人表現的人所佔比例」。",
+        "approval-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-17"
     },
@@ -1584,11 +1328,7 @@ export default {
       "masked": "Use only ____.",
       "options": [
         "approval-mcq-20",
-        "approval-mcq-19",
-        "approval-mcq-21",
-        "approval-mcq-18",
-        "approval-mcq-22",
-        "approval-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「approved suppliers」指「經有權人士／機構正式接受或認可的」。",
       "sentenceIndex": 68,
@@ -1597,12 +1337,8 @@ export default {
         "approved suppliers"
       ],
       "optionReasons": {
-        "approval-mcq-20": "本句指「經有權人士／機構正式接受或認可的」。",
-        "approval-mcq-19": "「正式批准某項計劃、申請、預算或行動」與本句語境不同。",
-        "approval-mcq-21": "「顯示贊同、肯定或滿意態度的」與本句語境不同。",
-        "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。",
-        "approval-mcq-17": "「調查中表示認同某人表現的人所佔比例」與本句語境不同。"
+        "approval-mcq-20": "本句的「approved suppliers」指「經有權人士／機構正式接受或認可的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-20"
     },
@@ -1614,11 +1350,7 @@ export default {
       "masked": "She gave an ____.",
       "options": [
         "approval-pdf-001",
-        "approval-mcq-20",
-        "approval-mcq-22",
-        "approval-mcq-19",
-        "approval-mcq-23",
-        "approval-mcq-18"
+        "approval-mcq-14"
       ],
       "explanation": "本句的「approving smile」指「顯示某人覺得某事很好／可以接受的」。",
       "sentenceIndex": 72,
@@ -1627,12 +1359,8 @@ export default {
         "approving smile"
       ],
       "optionReasons": {
-        "approval-pdf-001": "本句指「顯示某人覺得某事很好／可以接受的」。",
-        "approval-mcq-20": "「經有權人士／機構正式接受或認可的」與本句語境不同。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。",
-        "approval-mcq-19": "「正式批准某項計劃、申請、預算或行動」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
-        "approval-mcq-18": "「認為 X 是好、正確、合適或可接受的」與本句語境不同。"
+        "approval-pdf-001": "本句的「approving smile」指「顯示某人覺得某事很好／可以接受的」。",
+        "approval-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-pdf-001"
     },
@@ -1644,11 +1372,7 @@ export default {
       "masked": "She ____ smoking.",
       "options": [
         "approval-mcq-22",
-        "approval-mcq-21",
-        "approval-mcq-23",
-        "approval-mcq-20",
-        "approval-mcq-24",
-        "approval-mcq-19"
+        "approval-mcq-08"
       ],
       "explanation": "本句的「disapproves of」指「認為某人／某行為不好、不適當或不正確」。",
       "sentenceIndex": 75,
@@ -1657,12 +1381,8 @@ export default {
         "disapproves of"
       ],
       "optionReasons": {
-        "approval-mcq-22": "本句指「認為某人／某行為不好、不適當或不正確」。",
-        "approval-mcq-21": "「顯示贊同、肯定或滿意態度的」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
-        "approval-mcq-20": "「經有權人士／機構正式接受或認可的」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-19": "「正式批准某項計劃、申請、預算或行動」與本句語境不同。"
+        "approval-mcq-22": "本句的「disapproves of」指「認為某人／某行為不好、不適當或不正確」。",
+        "approval-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-22"
     },
@@ -1674,11 +1394,7 @@ export default {
       "masked": "She shook her head in ____.",
       "options": [
         "approval-mcq-23",
-        "approval-mcq-22",
-        "approval-mcq-24",
-        "approval-mcq-21",
-        "approval-mcq-25",
-        "approval-mcq-20"
+        "approval-mcq-25"
       ],
       "explanation": "本句的「disapproval」指「不贊同、不認可或不滿的態度」。",
       "sentenceIndex": 76,
@@ -1687,12 +1403,8 @@ export default {
         "disapproval"
       ],
       "optionReasons": {
-        "approval-mcq-23": "本句指「不贊同、不認可或不滿的態度」。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-21": "「顯示贊同、肯定或滿意態度的」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-20": "「經有權人士／機構正式接受或認可的」與本句語境不同。"
+        "approval-mcq-23": "本句的「disapproval」指「不贊同、不認可或不滿的態度」。",
+        "approval-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-23"
     },
@@ -1704,11 +1416,8 @@ export default {
       "masked": "The project is waiting for ____.",
       "options": [
         "approval-mcq-24",
-        "approval-mcq-23",
         "approval-mcq-25",
-        "approval-mcq-22",
-        "approval-mcq-26",
-        "approval-mcq-21"
+        "approval-mcq-17"
       ],
       "explanation": "本句的「design approval」指「對樣品／設計正式確認可以進入下一階段」。",
       "sentenceIndex": 82,
@@ -1717,12 +1426,9 @@ export default {
         "design approval"
       ],
       "optionReasons": {
-        "approval-mcq-24": "本句指「對樣品／設計正式確認可以進入下一階段」。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-21": "「顯示贊同、肯定或滿意態度的」與本句語境不同。"
+        "approval-mcq-24": "本句的「design approval」指「對樣品／設計正式確認可以進入下一階段」。",
+        "approval-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-24"
     },
@@ -1734,11 +1440,7 @@ export default {
       "masked": "No manufacturing can begin before design ____.",
       "options": [
         "approval-mcq-24",
-        "approval-mcq-23",
-        "approval-mcq-25",
-        "approval-mcq-22",
-        "approval-mcq-26",
-        "approval-mcq-21"
+        "approval-mcq-04"
       ],
       "explanation": "本句的「approval」指「對樣品／設計正式確認可以進入下一階段」。",
       "sentenceIndex": 83,
@@ -1747,12 +1449,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-24": "本句指「對樣品／設計正式確認可以進入下一階段」。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-21": "「顯示贊同、肯定或滿意態度的」與本句語境不同。"
+        "approval-mcq-24": "本句的「approval」指「對樣品／設計正式確認可以進入下一階段」。",
+        "approval-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-24"
     },
@@ -1764,11 +1462,7 @@ export default {
       "masked": "His silence was taken as ____.",
       "options": [
         "approval-mcq-25",
-        "approval-mcq-24",
-        "approval-mcq-26",
-        "approval-mcq-23",
-        "approval-mcq-27",
-        "approval-mcq-22"
+        "approval-mcq-27"
       ],
       "explanation": "本句的「tacit approval」指「沒有明說，但透過不反對或行為表示接受」。",
       "sentenceIndex": 107,
@@ -1777,12 +1471,8 @@ export default {
         "tacit approval"
       ],
       "optionReasons": {
-        "approval-mcq-25": "本句指「沒有明說，但透過不反對或行為表示接受」。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
-        "approval-mcq-27": "「來自其他人的正面評價、認可或肯定」與本句語境不同。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。"
+        "approval-mcq-25": "本句的「tacit approval」指「沒有明說，但透過不反對或行為表示接受」。",
+        "approval-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-25"
     },
@@ -1794,11 +1484,7 @@ export default {
       "masked": "The practice continued with the tacit ____ of management.",
       "options": [
         "approval-mcq-25",
-        "approval-mcq-24",
-        "approval-mcq-26",
-        "approval-mcq-23",
-        "approval-mcq-27",
-        "approval-mcq-22"
+        "approval-mcq-27"
       ],
       "explanation": "本句的「approval」指「沒有明說，但透過不反對或行為表示接受」。",
       "sentenceIndex": 108,
@@ -1807,12 +1493,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-25": "本句指「沒有明說，但透過不反對或行為表示接受」。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。",
-        "approval-mcq-27": "「來自其他人的正面評價、認可或肯定」與本句語境不同。",
-        "approval-mcq-22": "「認為某人／某行為不好、不適當或不正確」與本句語境不同。"
+        "approval-mcq-25": "本句的「approval」指「沒有明說，但透過不反對或行為表示接受」。",
+        "approval-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-25"
     },
@@ -1824,11 +1506,7 @@ export default {
       "masked": "Her ____ became exhausting.",
       "options": [
         "approval-mcq-26",
-        "approval-mcq-25",
-        "approval-mcq-27",
-        "approval-mcq-24",
-        "approval-mcq-28",
-        "approval-mcq-23"
+        "approval-mcq-11"
       ],
       "explanation": "本句的「approval-seeking behaviour」指「行為主要受希望獲得他人認同的需要推動」。",
       "sentenceIndex": 117,
@@ -1837,12 +1515,8 @@ export default {
         "approval-seeking behaviour"
       ],
       "optionReasons": {
-        "approval-mcq-26": "本句指「行為主要受希望獲得他人認同的需要推動」。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-27": "「來自其他人的正面評價、認可或肯定」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-28": "「自己對自己的選擇、價值或表現給予肯定」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。"
+        "approval-mcq-26": "本句的「approval-seeking behaviour」指「行為主要受希望獲得他人認同的需要推動」。",
+        "approval-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-26"
     },
@@ -1854,11 +1528,7 @@ export default {
       "masked": "____ can make people afraid to disagree.",
       "options": [
         "approval-mcq-26",
-        "approval-mcq-25",
-        "approval-mcq-27",
-        "approval-mcq-24",
-        "approval-mcq-28",
-        "approval-mcq-23"
+        "approval-mcq-11"
       ],
       "explanation": "本句的「Approval-seeking」指「行為主要受希望獲得他人認同的需要推動」。",
       "sentenceIndex": 118,
@@ -1867,12 +1537,8 @@ export default {
         "Approval-seeking"
       ],
       "optionReasons": {
-        "approval-mcq-26": "本句指「行為主要受希望獲得他人認同的需要推動」。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-27": "「來自其他人的正面評價、認可或肯定」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-28": "「自己對自己的選擇、價值或表現給予肯定」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。"
+        "approval-mcq-26": "本句的「Approval-seeking」指「行為主要受希望獲得他人認同的需要推動」。",
+        "approval-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-26"
     },
@@ -1884,11 +1550,7 @@ export default {
       "masked": "Confidence based only on ____ can be unstable.",
       "options": [
         "approval-mcq-27",
-        "approval-mcq-26",
-        "approval-mcq-28",
-        "approval-mcq-25",
-        "approval-mcq-24",
-        "approval-mcq-23"
+        "approval-mcq-25"
       ],
       "explanation": "本句的「external approval」指「來自其他人的正面評價、認可或肯定」。",
       "sentenceIndex": 119,
@@ -1897,12 +1559,8 @@ export default {
         "external approval"
       ],
       "optionReasons": {
-        "approval-mcq-27": "本句指「來自其他人的正面評價、認可或肯定」。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-28": "「自己對自己的選擇、價值或表現給予肯定」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。"
+        "approval-mcq-27": "本句的「external approval」指「來自其他人的正面評價、認可或肯定」。",
+        "approval-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-27"
     },
@@ -1914,11 +1572,7 @@ export default {
       "masked": "She stopped measuring her worth through external ____.",
       "options": [
         "approval-mcq-27",
-        "approval-mcq-26",
-        "approval-mcq-28",
-        "approval-mcq-25",
-        "approval-mcq-24",
-        "approval-mcq-23"
+        "approval-mcq-25"
       ],
       "explanation": "本句的「approval」指「來自其他人的正面評價、認可或肯定」。",
       "sentenceIndex": 120,
@@ -1927,12 +1581,8 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-27": "本句指「來自其他人的正面評價、認可或肯定」。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-28": "「自己對自己的選擇、價值或表現給予肯定」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。"
+        "approval-mcq-27": "本句的「approval」指「來自其他人的正面評價、認可或肯定」。",
+        "approval-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-27"
     },
@@ -1944,11 +1594,8 @@ export default {
       "masked": "Self-____ can reduce dependence on praise.",
       "options": [
         "approval-mcq-28",
-        "approval-mcq-27",
-        "approval-mcq-26",
-        "approval-mcq-25",
         "approval-mcq-24",
-        "approval-mcq-23"
+        "approval-mcq-16"
       ],
       "explanation": "本句的「approval」指「自己對自己的選擇、價值或表現給予肯定」。",
       "sentenceIndex": 121,
@@ -1957,12 +1604,9 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-28": "本句指「自己對自己的選擇、價值或表現給予肯定」。",
-        "approval-mcq-27": "「來自其他人的正面評價、認可或肯定」與本句語境不同。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。"
+        "approval-mcq-28": "本句的「approval」指「自己對自己的選擇、價值或表現給予肯定」。",
+        "approval-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-28"
     },
@@ -1974,11 +1618,8 @@ export default {
       "masked": "He learned to value self-____ more than online attention.",
       "options": [
         "approval-mcq-28",
-        "approval-mcq-27",
-        "approval-mcq-26",
-        "approval-mcq-25",
-        "approval-mcq-24",
-        "approval-mcq-23"
+        "approval-mcq-22",
+        "approval-mcq-14"
       ],
       "explanation": "本句的「approval」指「自己對自己的選擇、價值或表現給予肯定」。",
       "sentenceIndex": 122,
@@ -1987,12 +1628,9 @@ export default {
         "approval"
       ],
       "optionReasons": {
-        "approval-mcq-28": "本句指「自己對自己的選擇、價值或表現給予肯定」。",
-        "approval-mcq-27": "「來自其他人的正面評價、認可或肯定」與本句語境不同。",
-        "approval-mcq-26": "「行為主要受希望獲得他人認同的需要推動」與本句語境不同。",
-        "approval-mcq-25": "「沒有明說，但透過不反對或行為表示接受」與本句語境不同。",
-        "approval-mcq-24": "「對樣品／設計正式確認可以進入下一階段」與本句語境不同。",
-        "approval-mcq-23": "「不贊同、不認可或不滿的態度」與本句語境不同。"
+        "approval-mcq-28": "本句的「approval」指「自己對自己的選擇、價值或表現給予肯定」。",
+        "approval-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approval-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approval-mcq-28"
     }
@@ -2004,5 +1642,16 @@ export default {
     "sha256": "f660c0c23cffd84b4cb7f4f2f0d6165deafb580c45368067370f849db4c2536f",
     "pages": 45
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

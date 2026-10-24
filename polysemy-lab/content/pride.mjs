@@ -1283,11 +1283,9 @@ export default {
       "masked": "Parents naturally ____ in their children's achievements.",
       "options": [
         "pride-mcq-02",
-        "pride-mcq-01",
-        "pride-mcq-03",
-        "pride-mcq-04",
-        "pride-mcq-05",
-        "pride-mcq-06"
+        "pride-mcq-43",
+        "pride-mcq-06",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「feel pride」指「感到自豪」。",
       "sentenceIndex": 3,
@@ -1296,12 +1294,10 @@ export default {
         "feel pride"
       ],
       "optionReasons": {
-        "pride-mcq-02": "本句指「感到自豪」。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-02": "本句的「feel pride」指「感到自豪」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-02"
     },
@@ -1313,11 +1309,9 @@ export default {
       "masked": "She felt a deep sense of ____ in her work.",
       "options": [
         "pride-mcq-02",
-        "pride-mcq-01",
-        "pride-mcq-03",
-        "pride-mcq-04",
-        "pride-mcq-05",
-        "pride-mcq-06"
+        "pride-pdf-001",
+        "pride-mcq-22",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「感到自豪」。",
       "sentenceIndex": 4,
@@ -1326,12 +1320,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-02": "本句指「感到自豪」。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-02": "本句的「pride」指「感到自豪」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-02"
     },
@@ -1343,11 +1335,9 @@ export default {
       "masked": "Team success creates a ____.",
       "options": [
         "pride-mcq-03",
-        "pride-mcq-02",
-        "pride-mcq-04",
-        "pride-mcq-01",
-        "pride-mcq-05",
-        "pride-mcq-06"
+        "pride-mcq-48",
+        "pride-mcq-51",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「sense of pride」指「自豪感」。",
       "sentenceIndex": 5,
@@ -1356,12 +1346,10 @@ export default {
         "sense of pride"
       ],
       "optionReasons": {
-        "pride-mcq-03": "本句指「自豪感」。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-03": "本句的「sense of pride」指「自豪感」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-03"
     },
@@ -1373,11 +1361,9 @@ export default {
       "masked": "Employees developed a stronger sense of ____ in the organisation.",
       "options": [
         "pride-mcq-03",
-        "pride-mcq-02",
-        "pride-mcq-04",
-        "pride-mcq-01",
-        "pride-mcq-05",
-        "pride-mcq-06"
+        "pride-mcq-48",
+        "pride-mcq-47",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「自豪感」。",
       "sentenceIndex": 6,
@@ -1386,12 +1372,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-03": "本句指「自豪感」。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-03": "本句的「pride」指「自豪感」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-03"
     },
@@ -1403,11 +1387,9 @@ export default {
       "masked": "She accepted the award ____.",
       "options": [
         "pride-mcq-04",
-        "pride-mcq-03",
-        "pride-mcq-05",
-        "pride-mcq-02",
-        "pride-mcq-06",
-        "pride-mcq-01"
+        "pride-mcq-38",
+        "pride-mcq-43",
+        "pride-pdf-001"
       ],
       "explanation": "本句的「with pride」指「自豪地」。",
       "sentenceIndex": 7,
@@ -1416,12 +1398,10 @@ export default {
         "with pride"
       ],
       "optionReasons": {
-        "pride-mcq-04": "本句指「自豪地」。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。"
+        "pride-mcq-04": "本句的「with pride」指「自豪地」。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-04"
     },
@@ -1433,11 +1413,9 @@ export default {
       "masked": "He showed us the finished product with ____.",
       "options": [
         "pride-mcq-04",
-        "pride-mcq-03",
-        "pride-mcq-05",
-        "pride-mcq-02",
-        "pride-mcq-06",
-        "pride-mcq-01"
+        "pride-mcq-14",
+        "pride-mcq-38",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「自豪地」。",
       "sentenceIndex": 8,
@@ -1446,12 +1424,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-04": "本句指「自豪地」。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。"
+        "pride-mcq-04": "本句的「pride」指「自豪地」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-04"
     },
@@ -1463,11 +1439,9 @@ export default {
       "masked": "The achievement gave the team ____.",
       "options": [
         "pride-mcq-05",
-        "pride-mcq-04",
-        "pride-mcq-06",
-        "pride-mcq-03",
-        "pride-mcq-07",
-        "pride-mcq-02"
+        "pride-mcq-47",
+        "pride-mcq-38",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「immense pride」指「極大自豪」。",
       "sentenceIndex": 9,
@@ -1476,12 +1450,10 @@ export default {
         "immense pride"
       ],
       "optionReasons": {
-        "pride-mcq-05": "本句指「極大自豪」。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。"
+        "pride-mcq-05": "本句的「immense pride」指「極大自豪」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-05"
     },
@@ -1493,11 +1465,9 @@ export default {
       "masked": "She takes great ____ in her students' progress.",
       "options": [
         "pride-mcq-05",
-        "pride-mcq-04",
-        "pride-mcq-06",
-        "pride-mcq-03",
-        "pride-mcq-07",
-        "pride-mcq-02"
+        "pride-mcq-48",
+        "pride-mcq-45",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「pride」指「極大自豪」。",
       "sentenceIndex": 10,
@@ -1506,12 +1476,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-05": "本句指「極大自豪」。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。"
+        "pride-mcq-05": "本句的「pride」指「極大自豪」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-05"
     },
@@ -1523,11 +1491,9 @@ export default {
       "masked": "She can look back on the project with ____.",
       "options": [
         "pride-mcq-05",
-        "pride-mcq-04",
-        "pride-mcq-06",
-        "pride-mcq-03",
-        "pride-mcq-07",
-        "pride-mcq-02"
+        "pride-mcq-44",
+        "pride-mcq-22",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「justifiable pride」指「極大自豪」。",
       "sentenceIndex": 11,
@@ -1536,12 +1502,10 @@ export default {
         "justifiable pride"
       ],
       "optionReasons": {
-        "pride-mcq-05": "本句指「極大自豪」。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。"
+        "pride-mcq-05": "本句的「justifiable pride」指「極大自豪」。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-05"
     },
@@ -1553,11 +1517,9 @@ export default {
       "masked": "Their results are a source of justifiable ____.",
       "options": [
         "pride-mcq-05",
-        "pride-mcq-04",
-        "pride-mcq-06",
-        "pride-mcq-03",
-        "pride-mcq-07",
-        "pride-mcq-02"
+        "pride-mcq-50",
+        "pride-mcq-33",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「極大自豪」。",
       "sentenceIndex": 12,
@@ -1566,12 +1528,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-05": "本句指「極大自豪」。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。"
+        "pride-mcq-05": "本句的「pride」指「極大自豪」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-05"
     },
@@ -1583,11 +1543,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pride-mcq-06",
-        "pride-mcq-05",
-        "pride-mcq-07",
-        "pride-mcq-04",
-        "pride-mcq-08",
-        "pride-mcq-03"
+        "pride-mcq-30",
+        "pride-mcq-22",
+        "pride-mcq-05"
       ],
       "explanation": "本句的「takes pride in her work」指「以 X 為傲」。",
       "sentenceIndex": 13,
@@ -1596,12 +1554,10 @@ export default {
         "takes pride in her work"
       ],
       "optionReasons": {
-        "pride-mcq-06": "本句指「以 X 為傲」。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。"
+        "pride-mcq-06": "本句的「takes pride in her work」指「以 X 為傲」。",
+        "pride-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-06"
     },
@@ -1613,11 +1569,9 @@ export default {
       "masked": "The company takes ____ in its customer service.",
       "options": [
         "pride-mcq-06",
-        "pride-mcq-05",
-        "pride-mcq-07",
-        "pride-mcq-04",
-        "pride-mcq-08",
-        "pride-mcq-03"
+        "pride-mcq-19",
+        "pride-mcq-28",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「pride」指「以 X 為傲」。",
       "sentenceIndex": 14,
@@ -1626,12 +1580,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-06": "本句指「以 X 為傲」。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。"
+        "pride-mcq-06": "本句的「pride」指「以 X 為傲」。",
+        "pride-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-06"
     },
@@ -1643,11 +1595,9 @@ export default {
       "masked": "Good employees ____.",
       "options": [
         "pride-mcq-07",
-        "pride-mcq-06",
-        "pride-mcq-08",
-        "pride-mcq-05",
-        "pride-mcq-09",
-        "pride-mcq-04"
+        "pride-mcq-43",
+        "pride-mcq-22",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「take pride in their work」指「對工作有自豪感」。",
       "sentenceIndex": 15,
@@ -1656,12 +1606,10 @@ export default {
         "take pride in their work"
       ],
       "optionReasons": {
-        "pride-mcq-07": "本句指「對工作有自豪感」。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。"
+        "pride-mcq-07": "本句的「take pride in their work」指「對工作有自豪感」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-07"
     },
@@ -1673,11 +1621,9 @@ export default {
       "masked": "Taking ____ in your work often leads to greater care.",
       "options": [
         "pride-mcq-07",
-        "pride-mcq-06",
-        "pride-mcq-08",
-        "pride-mcq-05",
-        "pride-mcq-09",
-        "pride-mcq-04"
+        "pride-mcq-47",
+        "pride-mcq-22",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「對工作有自豪感」。",
       "sentenceIndex": 16,
@@ -1686,12 +1632,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-07": "本句指「對工作有自豪感」。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。"
+        "pride-mcq-07": "本句的「pride」指「對工作有自豪感」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-07"
     },
@@ -1703,11 +1647,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "pride-mcq-07",
-        "pride-mcq-06",
-        "pride-mcq-08",
-        "pride-mcq-05",
-        "pride-mcq-09",
-        "pride-mcq-04"
+        "pride-mcq-14",
+        "pride-mcq-22",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「take pride in providing reliable service」指「對工作有自豪感」。",
       "sentenceIndex": 17,
@@ -1716,12 +1658,10 @@ export default {
         "take pride in providing reliable service"
       ],
       "optionReasons": {
-        "pride-mcq-07": "本句指「對工作有自豪感」。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。"
+        "pride-mcq-07": "本句的「take pride in providing reliable service」指「對工作有自豪感」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-07"
     },
@@ -1733,11 +1673,9 @@ export default {
       "masked": "She takes ____ in helping younger colleagues.",
       "options": [
         "pride-mcq-07",
-        "pride-mcq-06",
-        "pride-mcq-08",
-        "pride-mcq-05",
-        "pride-mcq-09",
-        "pride-mcq-04"
+        "pride-mcq-50",
+        "pride-mcq-33",
+        "pride-mcq-14"
       ],
       "explanation": "本句的「pride」指「對工作有自豪感」。",
       "sentenceIndex": 18,
@@ -1746,12 +1684,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-07": "本句指「對工作有自豪感」。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。"
+        "pride-mcq-07": "本句的「pride」指「對工作有自豪感」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-07"
     },
@@ -1763,11 +1699,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "pride-mcq-07",
-        "pride-mcq-06",
-        "pride-mcq-08",
-        "pride-mcq-05",
-        "pride-mcq-09",
-        "pride-mcq-04"
+        "pride-mcq-22",
+        "pride-mcq-33",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「takes pride in his appearance」指「對工作有自豪感」。",
       "sentenceIndex": 19,
@@ -1776,12 +1710,10 @@ export default {
         "takes pride in his appearance"
       ],
       "optionReasons": {
-        "pride-mcq-07": "本句指「對工作有自豪感」。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。"
+        "pride-mcq-07": "本句的「takes pride in his appearance」指「對工作有自豪感」。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-07"
     },
@@ -1793,11 +1725,9 @@ export default {
       "masked": "Taking ____ in your appearance does not necessarily mean being vain.",
       "options": [
         "pride-mcq-07",
-        "pride-mcq-06",
-        "pride-mcq-08",
-        "pride-mcq-05",
-        "pride-mcq-09",
-        "pride-mcq-04"
+        "pride-mcq-21",
+        "pride-mcq-43",
+        "pride-mcq-38"
       ],
       "explanation": "本句的「pride」指「對工作有自豪感」。",
       "sentenceIndex": 20,
@@ -1806,12 +1736,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-07": "本句指「對工作有自豪感」。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-04": "「自豪地」與本句語境不同。"
+        "pride-mcq-07": "本句的「pride」指「對工作有自豪感」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-07"
     },
@@ -1823,11 +1751,9 @@ export default {
       "masked": "____ motivated her to correct the mistake.",
       "options": [
         "pride-mcq-08",
-        "pride-mcq-07",
-        "pride-mcq-09",
-        "pride-mcq-06",
-        "pride-mcq-10",
-        "pride-mcq-05"
+        "pride-mcq-50",
+        "pride-mcq-45",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「Professional pride」指「專業自豪感」。",
       "sentenceIndex": 21,
@@ -1836,12 +1762,10 @@ export default {
         "Professional pride"
       ],
       "optionReasons": {
-        "pride-mcq-08": "本句指「專業自豪感」。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。"
+        "pride-mcq-08": "本句的「Professional pride」指「專業自豪感」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-08"
     },
@@ -1853,11 +1777,9 @@ export default {
       "masked": "Skilled workers often take professional ____ in high-quality work.",
       "options": [
         "pride-mcq-08",
-        "pride-mcq-07",
-        "pride-mcq-09",
-        "pride-mcq-06",
-        "pride-mcq-10",
-        "pride-mcq-05"
+        "pride-mcq-45",
+        "pride-mcq-33",
+        "pride-pdf-001"
       ],
       "explanation": "本句的「pride」指「專業自豪感」。",
       "sentenceIndex": 22,
@@ -1866,12 +1788,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-08": "本句指「專業自豪感」。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。"
+        "pride-mcq-08": "本句的「pride」指「專業自豪感」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-08"
     },
@@ -1883,11 +1803,9 @@ export default {
       "masked": "Completing the degree was a matter of ____.",
       "options": [
         "pride-mcq-09",
-        "pride-mcq-08",
-        "pride-mcq-10",
-        "pride-mcq-07",
-        "pride-mcq-11",
-        "pride-mcq-06"
+        "pride-mcq-50",
+        "pride-mcq-33",
+        "pride-mcq-44"
       ],
       "explanation": "本句的「personal pride」指「個人自豪／自尊」。",
       "sentenceIndex": 23,
@@ -1896,12 +1814,10 @@ export default {
         "personal pride"
       ],
       "optionReasons": {
-        "pride-mcq-09": "本句指「個人自豪／自尊」。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-09": "本句的「personal pride」指「個人自豪／自尊」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-09"
     },
@@ -1913,11 +1829,9 @@ export default {
       "masked": "Personal ____ prevented him from admitting the mistake.",
       "options": [
         "pride-mcq-09",
-        "pride-mcq-08",
-        "pride-mcq-10",
-        "pride-mcq-07",
-        "pride-mcq-11",
-        "pride-mcq-06"
+        "pride-mcq-45",
+        "pride-mcq-22",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「pride」指「個人自豪／自尊」。",
       "sentenceIndex": 24,
@@ -1926,12 +1840,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-09": "本句指「個人自豪／自尊」。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-09": "本句的「pride」指「個人自豪／自尊」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-09"
     },
@@ -1943,11 +1855,9 @@ export default {
       "masked": "The furniture reflects genuine ____.",
       "options": [
         "pride-mcq-09",
-        "pride-mcq-08",
-        "pride-mcq-10",
-        "pride-mcq-07",
-        "pride-mcq-11",
-        "pride-mcq-06"
+        "pride-pdf-001",
+        "pride-mcq-22",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「pride in craftsmanship」指「個人自豪／自尊」。",
       "sentenceIndex": 25,
@@ -1956,12 +1866,10 @@ export default {
         "pride in craftsmanship"
       ],
       "optionReasons": {
-        "pride-mcq-09": "本句指「個人自豪／自尊」。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-09": "本句的「pride in craftsmanship」指「個人自豪／自尊」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-09"
     },
@@ -1973,11 +1881,9 @@ export default {
       "masked": "____ in craftsmanship encourages attention to detail.",
       "options": [
         "pride-mcq-09",
-        "pride-mcq-08",
-        "pride-mcq-10",
-        "pride-mcq-07",
-        "pride-mcq-11",
-        "pride-mcq-06"
+        "pride-mcq-38",
+        "pride-pdf-001",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「Pride」指「個人自豪／自尊」。",
       "sentenceIndex": 26,
@@ -1986,12 +1892,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-09": "本句指「個人自豪／自尊」。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-09": "本句的「Pride」指「個人自豪／自尊」。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-09"
     },
@@ -2003,11 +1907,9 @@ export default {
       "masked": "The achievement became a source of ____.",
       "options": [
         "pride-mcq-10",
-        "pride-mcq-09",
-        "pride-mcq-11",
-        "pride-mcq-08",
-        "pride-mcq-12",
-        "pride-mcq-07"
+        "pride-mcq-44",
+        "pride-mcq-22",
+        "pride-mcq-38"
       ],
       "explanation": "本句的「national pride」指「國家／民族自豪感」。",
       "sentenceIndex": 27,
@@ -2016,12 +1918,10 @@ export default {
         "national pride"
       ],
       "optionReasons": {
-        "pride-mcq-10": "本句指「國家／民族自豪感」。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。"
+        "pride-mcq-10": "本句的「national pride」指「國家／民族自豪感」。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-10"
     },
@@ -2033,11 +1933,9 @@ export default {
       "masked": "Sporting success can strengthen national ____.",
       "options": [
         "pride-mcq-10",
-        "pride-mcq-09",
-        "pride-mcq-11",
-        "pride-mcq-08",
-        "pride-mcq-12",
-        "pride-mcq-07"
+        "pride-mcq-49",
+        "pride-mcq-33",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「國家／民族自豪感」。",
       "sentenceIndex": 28,
@@ -2046,12 +1944,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-10": "本句指「國家／民族自豪感」。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。"
+        "pride-mcq-10": "本句的「pride」指「國家／民族自豪感」。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-10"
     },
@@ -2063,11 +1959,9 @@ export default {
       "masked": "The restoration project increased ____.",
       "options": [
         "pride-mcq-11",
-        "pride-mcq-10",
-        "pride-mcq-12",
-        "pride-mcq-09",
-        "pride-mcq-13",
-        "pride-mcq-08"
+        "pride-mcq-21",
+        "pride-mcq-50",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「civic pride」指「社區／城市自豪感」。",
       "sentenceIndex": 29,
@@ -2076,12 +1970,10 @@ export default {
         "civic pride"
       ],
       "optionReasons": {
-        "pride-mcq-11": "本句指「社區／城市自豪感」。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。"
+        "pride-mcq-11": "本句的「civic pride」指「社區／城市自豪感」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-11"
     },
@@ -2093,11 +1985,9 @@ export default {
       "masked": "Clean public spaces can contribute to civic ____.",
       "options": [
         "pride-mcq-11",
-        "pride-mcq-10",
-        "pride-mcq-12",
-        "pride-mcq-09",
-        "pride-mcq-13",
-        "pride-mcq-08"
+        "pride-mcq-43",
+        "pride-mcq-48",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「社區／城市自豪感」。",
       "sentenceIndex": 30,
@@ -2106,12 +1996,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-11": "本句指「社區／城市自豪感」。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。"
+        "pride-mcq-11": "本句的「pride」指「社區／城市自豪感」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-11"
     },
@@ -2123,11 +2011,9 @@ export default {
       "masked": "The event helped build ____.",
       "options": [
         "pride-mcq-12",
-        "pride-mcq-11",
-        "pride-mcq-13",
-        "pride-mcq-10",
-        "pride-mcq-14",
-        "pride-mcq-09"
+        "pride-mcq-48",
+        "pride-mcq-45",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「school pride」指「學校自豪感」。",
       "sentenceIndex": 31,
@@ -2136,12 +2022,10 @@ export default {
         "school pride"
       ],
       "optionReasons": {
-        "pride-mcq-12": "本句指「學校自豪感」。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。"
+        "pride-mcq-12": "本句的「school pride」指「學校自豪感」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-12"
     },
@@ -2153,11 +2037,9 @@ export default {
       "masked": "Students wore the school colours with ____.",
       "options": [
         "pride-mcq-12",
-        "pride-mcq-11",
-        "pride-mcq-13",
-        "pride-mcq-10",
-        "pride-mcq-14",
-        "pride-mcq-09"
+        "pride-mcq-49",
+        "pride-mcq-48",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「學校自豪感」。",
       "sentenceIndex": 32,
@@ -2166,12 +2048,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-12": "本句指「學校自豪感」。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-09": "「個人自豪／自尊」與本句語境不同。"
+        "pride-mcq-12": "本句的「pride」指「學校自豪感」。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-12"
     },
@@ -2183,11 +2063,9 @@ export default {
       "masked": "The project is a ____ for the team.",
       "options": [
         "pride-mcq-13",
-        "pride-mcq-12",
-        "pride-mcq-14",
-        "pride-mcq-11",
-        "pride-mcq-15",
-        "pride-mcq-10"
+        "pride-mcq-47",
+        "pride-mcq-38",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「source of pride」指「值得自豪的人／事」。",
       "sentenceIndex": 35,
@@ -2196,12 +2074,10 @@ export default {
         "source of pride"
       ],
       "optionReasons": {
-        "pride-mcq-13": "本句指「值得自豪的人／事」。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。"
+        "pride-mcq-13": "本句的「source of pride」指「值得自豪的人／事」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-13"
     },
@@ -2213,11 +2089,9 @@ export default {
       "masked": "Her children are a great source of ____.",
       "options": [
         "pride-mcq-13",
-        "pride-mcq-12",
         "pride-mcq-14",
-        "pride-mcq-11",
-        "pride-mcq-15",
-        "pride-mcq-10"
+        "pride-mcq-50",
+        "pride-mcq-38"
       ],
       "explanation": "本句的「pride」指「值得自豪的人／事」。",
       "sentenceIndex": 36,
@@ -2226,12 +2100,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-13": "本句指「值得自豪的人／事」。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。"
+        "pride-mcq-13": "本句的「pride」指「值得自豪的人／事」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-13"
     },
@@ -2243,11 +2115,9 @@ export default {
       "masked": "Customer service is a ____ for the company.",
       "options": [
         "pride-mcq-14",
+        "pride-mcq-33",
         "pride-mcq-13",
-        "pride-mcq-15",
-        "pride-mcq-12",
-        "pride-mcq-16",
-        "pride-mcq-11"
+        "pride-mcq-22"
       ],
       "explanation": "本句的「point of pride」指「特別引以為傲之處」。",
       "sentenceIndex": 37,
@@ -2256,12 +2126,10 @@ export default {
         "point of pride"
       ],
       "optionReasons": {
-        "pride-mcq-14": "本句指「特別引以為傲之處」。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。"
+        "pride-mcq-14": "本句的「point of pride」指「特別引以為傲之處」。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-14"
     },
@@ -2273,11 +2141,9 @@ export default {
       "masked": "Accuracy became a point of ____ for the team.",
       "options": [
         "pride-mcq-14",
-        "pride-mcq-13",
-        "pride-mcq-15",
-        "pride-mcq-12",
-        "pride-mcq-16",
-        "pride-mcq-11"
+        "pride-mcq-27",
+        "pride-mcq-48",
+        "pride-mcq-10"
       ],
       "explanation": "本句的「pride」指「特別引以為傲之處」。",
       "sentenceIndex": 38,
@@ -2286,12 +2152,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-14": "本句指「特別引以為傲之處」。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。"
+        "pride-mcq-14": "本句的「pride」指「特別引以為傲之處」。",
+        "pride-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-14"
     },
@@ -2303,11 +2167,9 @@ export default {
       "masked": "Finishing the work properly became ____.",
       "options": [
         "pride-mcq-15",
-        "pride-mcq-14",
-        "pride-mcq-16",
-        "pride-mcq-13",
-        "pride-mcq-17",
-        "pride-mcq-12"
+        "pride-mcq-50",
+        "pride-mcq-43",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「a matter of pride」指「關乎自尊／值得自豪的事」。",
       "sentenceIndex": 39,
@@ -2316,12 +2178,10 @@ export default {
         "a matter of pride"
       ],
       "optionReasons": {
-        "pride-mcq-15": "本句指「關乎自尊／值得自豪的事」。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。"
+        "pride-mcq-15": "本句的「a matter of pride」指「關乎自尊／值得自豪的事」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-15"
     },
@@ -2333,11 +2193,9 @@ export default {
       "masked": "For him, never missing a deadline was a matter of professional ____.",
       "options": [
         "pride-mcq-15",
-        "pride-mcq-14",
-        "pride-mcq-16",
-        "pride-mcq-13",
-        "pride-mcq-17",
-        "pride-mcq-12"
+        "pride-mcq-21",
+        "pride-mcq-45",
+        "pride-pdf-001"
       ],
       "explanation": "本句的「pride」指「關乎自尊／值得自豪的事」。",
       "sentenceIndex": 40,
@@ -2346,12 +2204,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-15": "本句指「關乎自尊／值得自豪的事」。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-12": "「學校自豪感」與本句語境不同。"
+        "pride-mcq-15": "本句的「pride」指「關乎自尊／值得自豪的事」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-15"
     },
@@ -2363,11 +2219,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "pride-mcq-16",
-        "pride-mcq-15",
-        "pride-mcq-17",
-        "pride-mcq-14",
-        "pride-mcq-18",
-        "pride-mcq-13"
+        "pride-mcq-21",
+        "pride-mcq-44",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「proud of you」指「為 X 自豪」。",
       "sentenceIndex": 41,
@@ -2376,12 +2230,10 @@ export default {
         "proud of you"
       ],
       "optionReasons": {
-        "pride-mcq-16": "本句指「為 X 自豪」。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。"
+        "pride-mcq-16": "本句的「proud of you」指「為 X 自豪」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-16"
     },
@@ -2393,11 +2245,9 @@ export default {
       "masked": "You should be ____.",
       "options": [
         "pride-mcq-16",
-        "pride-mcq-15",
-        "pride-mcq-17",
+        "pride-mcq-38",
         "pride-mcq-14",
-        "pride-mcq-18",
-        "pride-mcq-13"
+        "pride-mcq-43"
       ],
       "explanation": "本句的「proud of yourself」指「為 X 自豪」。",
       "sentenceIndex": 42,
@@ -2406,12 +2256,10 @@ export default {
         "proud of yourself"
       ],
       "optionReasons": {
-        "pride-mcq-16": "本句指「為 X 自豪」。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。",
-        "pride-mcq-13": "「值得自豪的人／事」與本句語境不同。"
+        "pride-mcq-16": "本句的「proud of yourself」指「為 X 自豪」。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-16"
     },
@@ -2423,11 +2271,9 @@ export default {
       "masked": "We are ____.",
       "options": [
         "pride-mcq-17",
-        "pride-mcq-16",
-        "pride-mcq-18",
-        "pride-mcq-15",
-        "pride-mcq-19",
-        "pride-mcq-14"
+        "pride-mcq-33",
+        "pride-mcq-43",
+        "pride-mcq-44"
       ],
       "explanation": "本句的「proud to support this programme」指「自豪能做 X」。",
       "sentenceIndex": 43,
@@ -2436,12 +2282,10 @@ export default {
         "proud to support this programme"
       ],
       "optionReasons": {
-        "pride-mcq-17": "本句指「自豪能做 X」。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。",
-        "pride-mcq-19": "「值得自豪的一刻」與本句語境不同。",
-        "pride-mcq-14": "「特別引以為傲之處」與本句語境不同。"
+        "pride-mcq-17": "本句的「proud to support this programme」指「自豪能做 X」。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-17"
     },
@@ -2453,11 +2297,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "pride-mcq-18",
-        "pride-mcq-17",
-        "pride-mcq-19",
-        "pride-mcq-16",
-        "pride-mcq-20",
-        "pride-mcq-15"
+        "pride-mcq-47",
+        "pride-mcq-21",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「proud that we finished on time」指「為……感到自豪」。",
       "sentenceIndex": 44,
@@ -2466,12 +2308,10 @@ export default {
         "proud that we finished on time"
       ],
       "optionReasons": {
-        "pride-mcq-18": "本句指「為……感到自豪」。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-19": "「值得自豪的一刻」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。",
-        "pride-mcq-15": "「關乎自尊／值得自豪的事」與本句語境不同。"
+        "pride-mcq-18": "本句的「proud that we finished on time」指「為……感到自豪」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-18"
     },
@@ -2483,11 +2323,9 @@ export default {
       "masked": "Winning the award was a ____.",
       "options": [
         "pride-mcq-19",
-        "pride-mcq-18",
-        "pride-mcq-20",
-        "pride-mcq-17",
-        "pride-mcq-21",
-        "pride-mcq-16"
+        "pride-mcq-22",
+        "pride-mcq-48",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「proud moment」指「值得自豪的一刻」。",
       "sentenceIndex": 45,
@@ -2496,12 +2334,10 @@ export default {
         "proud moment"
       ],
       "optionReasons": {
-        "pride-mcq-19": "本句指「值得自豪的一刻」。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。"
+        "pride-mcq-19": "本句的「proud moment」指「值得自豪的一刻」。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-19"
     },
@@ -2513,11 +2349,9 @@ export default {
       "masked": "This project is one of our ____.",
       "options": [
         "pride-mcq-19",
-        "pride-mcq-18",
-        "pride-mcq-20",
-        "pride-mcq-17",
-        "pride-mcq-21",
-        "pride-mcq-16"
+        "pride-mcq-45",
+        "pride-mcq-44",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「proudest achievements」指「值得自豪的一刻」。",
       "sentenceIndex": 46,
@@ -2526,12 +2360,10 @@ export default {
         "proudest achievements"
       ],
       "optionReasons": {
-        "pride-mcq-19": "本句指「值得自豪的一刻」。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。",
-        "pride-mcq-16": "「為 X 自豪」與本句語境不同。"
+        "pride-mcq-19": "本句的「proudest achievements」指「值得自豪的一刻」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-19"
     },
@@ -2543,11 +2375,9 @@ export default {
       "masked": "Your hard work ____.",
       "options": [
         "pride-mcq-20",
-        "pride-mcq-19",
-        "pride-mcq-21",
-        "pride-mcq-18",
+        "pride-pdf-001",
         "pride-mcq-22",
-        "pride-mcq-17"
+        "pride-mcq-49"
       ],
       "explanation": "本句的「made your family proud」指「令某人自豪」。",
       "sentenceIndex": 47,
@@ -2556,12 +2386,10 @@ export default {
         "made your family proud"
       ],
       "optionReasons": {
-        "pride-mcq-20": "本句指「令某人自豪」。",
-        "pride-mcq-19": "「值得自豪的一刻」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-17": "「自豪能做 X」與本句語境不同。"
+        "pride-mcq-20": "本句的「made your family proud」指「令某人自豪」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-20"
     },
@@ -2573,11 +2401,9 @@ export default {
       "masked": "You ____ today.",
       "options": [
         "pride-mcq-21",
-        "pride-mcq-20",
-        "pride-mcq-22",
-        "pride-mcq-19",
-        "pride-mcq-23",
-        "pride-mcq-18"
+        "pride-mcq-33",
+        "pride-mcq-04",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「did us proud」指「為某人爭光」。",
       "sentenceIndex": 48,
@@ -2586,12 +2412,10 @@ export default {
         "did us proud"
       ],
       "optionReasons": {
-        "pride-mcq-21": "本句指「為某人爭光」。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-19": "「值得自豪的一刻」與本句語境不同。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-18": "「為……感到自豪」與本句語境不同。"
+        "pride-mcq-21": "本句的「did us proud」指「為某人爭光」。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-21"
     },
@@ -2603,11 +2427,9 @@ export default {
       "masked": "You really ____.",
       "options": [
         "pride-mcq-22",
-        "pride-mcq-21",
-        "pride-mcq-23",
-        "pride-mcq-20",
-        "pride-mcq-24",
-        "pride-mcq-19"
+        "pride-mcq-36",
+        "pride-mcq-44",
+        "pride-mcq-05"
       ],
       "explanation": "本句的「did yourself proud」指「表現出色」。",
       "sentenceIndex": 49,
@@ -2616,12 +2438,10 @@ export default {
         "did yourself proud"
       ],
       "optionReasons": {
-        "pride-mcq-22": "本句指「表現出色」。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-19": "「值得自豪的一刻」與本句語境不同。"
+        "pride-mcq-22": "本句的「did yourself proud」指「表現出色」。",
+        "pride-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-22"
     },
@@ -2633,11 +2453,9 @@ export default {
       "masked": "Her parents ____.",
       "options": [
         "pride-mcq-23",
-        "pride-mcq-22",
-        "pride-mcq-24",
-        "pride-mcq-21",
-        "pride-mcq-25",
-        "pride-mcq-20"
+        "pride-mcq-44",
+        "pride-mcq-48",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「beamed with pride」指「自豪得滿面笑容」。",
       "sentenceIndex": 50,
@@ -2646,12 +2464,10 @@ export default {
         "beamed with pride"
       ],
       "optionReasons": {
-        "pride-mcq-23": "本句指「自豪得滿面笑容」。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。"
+        "pride-mcq-23": "本句的「beamed with pride」指「自豪得滿面笑容」。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-23"
     },
@@ -2663,11 +2479,9 @@ export default {
       "masked": "He beamed with ____ as his team received the award.",
       "options": [
         "pride-mcq-23",
-        "pride-mcq-22",
-        "pride-mcq-24",
-        "pride-mcq-21",
-        "pride-mcq-25",
-        "pride-mcq-20"
+        "pride-mcq-14",
+        "pride-mcq-43",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「自豪得滿面笑容」。",
       "sentenceIndex": 51,
@@ -2676,12 +2490,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-23": "本句指「自豪得滿面笑容」。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-20": "「令某人自豪」與本句語境不同。"
+        "pride-mcq-23": "本句的「pride」指「自豪得滿面笑容」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-23"
     },
@@ -2693,11 +2505,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pride-mcq-24",
-        "pride-mcq-23",
-        "pride-mcq-25",
+        "pride-mcq-14",
         "pride-mcq-22",
-        "pride-mcq-26",
-        "pride-mcq-21"
+        "pride-mcq-38"
       ],
       "explanation": "本句的「glowed with pride」指「心中充滿自豪」。",
       "sentenceIndex": 52,
@@ -2706,12 +2516,10 @@ export default {
         "glowed with pride"
       ],
       "optionReasons": {
-        "pride-mcq-24": "本句指「心中充滿自豪」。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。"
+        "pride-mcq-24": "本句的「glowed with pride」指「心中充滿自豪」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-24"
     },
@@ -2723,11 +2531,9 @@ export default {
       "masked": "His face glowed with ____.",
       "options": [
         "pride-mcq-24",
-        "pride-mcq-23",
-        "pride-mcq-25",
-        "pride-mcq-22",
-        "pride-mcq-26",
-        "pride-mcq-21"
+        "pride-mcq-33",
+        "pride-pdf-001",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「pride」指「心中充滿自豪」。",
       "sentenceIndex": 53,
@@ -2736,12 +2542,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-24": "本句指「心中充滿自豪」。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。"
+        "pride-mcq-24": "本句的「pride」指「心中充滿自豪」。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-24"
     },
@@ -2753,11 +2557,9 @@ export default {
       "masked": "His heart ____.",
       "options": [
         "pride-mcq-24",
-        "pride-mcq-23",
-        "pride-mcq-25",
-        "pride-mcq-22",
-        "pride-mcq-26",
-        "pride-mcq-21"
+        "pride-mcq-50",
+        "pride-mcq-45",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「swelled with pride」指「心中充滿自豪」。",
       "sentenceIndex": 54,
@@ -2766,12 +2568,10 @@ export default {
         "swelled with pride"
       ],
       "optionReasons": {
-        "pride-mcq-24": "本句指「心中充滿自豪」。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。"
+        "pride-mcq-24": "本句的「swelled with pride」指「心中充滿自豪」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-24"
     },
@@ -2783,11 +2583,9 @@ export default {
       "masked": "She swelled with ____ when her name was announced.",
       "options": [
         "pride-mcq-24",
-        "pride-mcq-23",
-        "pride-mcq-25",
-        "pride-mcq-22",
-        "pride-mcq-26",
-        "pride-mcq-21"
+        "pride-mcq-45",
+        "pride-mcq-33",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「pride」指「心中充滿自豪」。",
       "sentenceIndex": 55,
@@ -2796,12 +2594,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-24": "本句指「心中充滿自豪」。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-21": "「為某人爭光」與本句語境不同。"
+        "pride-mcq-24": "本句的「pride」指「心中充滿自豪」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-24"
     },
@@ -2813,11 +2609,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "pride-mcq-25",
-        "pride-mcq-24",
-        "pride-mcq-26",
-        "pride-mcq-23",
-        "pride-mcq-27",
-        "pride-mcq-22"
+        "pride-mcq-49",
+        "pride-mcq-14",
+        "pride-mcq-38"
       ],
       "explanation": "本句的「bursting with pride」指「自豪得不得了」。",
       "sentenceIndex": 56,
@@ -2826,12 +2620,10 @@ export default {
         "bursting with pride"
       ],
       "optionReasons": {
-        "pride-mcq-25": "本句指「自豪得不得了」。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。"
+        "pride-mcq-25": "本句的「bursting with pride」指「自豪得不得了」。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-25"
     },
@@ -2843,11 +2635,9 @@ export default {
       "masked": "His parents were bursting with ____ at graduation.",
       "options": [
         "pride-mcq-25",
-        "pride-mcq-24",
-        "pride-mcq-26",
-        "pride-mcq-23",
-        "pride-mcq-27",
-        "pride-mcq-22"
+        "pride-mcq-47",
+        "pride-mcq-21",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「pride」指「自豪得不得了」。",
       "sentenceIndex": 57,
@@ -2856,12 +2646,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-25": "本句指「自豪得不得了」。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-22": "「表現出色」與本句語境不同。"
+        "pride-mcq-25": "本句的「pride」指「自豪得不得了」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-25"
     },
@@ -2873,11 +2661,9 @@ export default {
       "masked": "He refused help because of his ____.",
       "options": [
         "pride-mcq-26",
-        "pride-mcq-25",
-        "pride-mcq-27",
-        "pride-mcq-24",
-        "pride-mcq-28",
-        "pride-mcq-23"
+        "pride-mcq-50",
+        "pride-mcq-38",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「自尊；尊嚴」。",
       "sentenceIndex": 58,
@@ -2886,12 +2672,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-26": "本句指「自尊；尊嚴」。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。"
+        "pride-mcq-26": "本句的「pride」指「自尊；尊嚴」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-26"
     },
@@ -2903,11 +2687,9 @@ export default {
       "masked": "Her ____ was hurt by the public criticism.",
       "options": [
         "pride-mcq-26",
-        "pride-mcq-25",
-        "pride-mcq-27",
-        "pride-mcq-24",
-        "pride-mcq-28",
-        "pride-mcq-23"
+        "pride-mcq-47",
+        "pride-mcq-43",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「自尊；尊嚴」。",
       "sentenceIndex": 59,
@@ -2916,12 +2698,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-26": "本句指「自尊；尊嚴」。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-23": "「自豪得滿面笑容」與本句語境不同。"
+        "pride-mcq-26": "本句的「pride」指「自尊；尊嚴」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-26"
     },
@@ -2933,11 +2713,9 @@ export default {
       "masked": "He allowed ____ to affect the decision.",
       "options": [
         "pride-mcq-09",
-        "pride-mcq-08",
-        "pride-mcq-10",
-        "pride-mcq-07",
-        "pride-mcq-11",
-        "pride-mcq-06"
+        "pride-mcq-47",
+        "pride-mcq-43",
+        "pride-mcq-38"
       ],
       "explanation": "本句的「personal pride」指「個人自豪／自尊」。",
       "sentenceIndex": 60,
@@ -2946,12 +2724,10 @@ export default {
         "personal pride"
       ],
       "optionReasons": {
-        "pride-mcq-09": "本句指「個人自豪／自尊」。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-09": "本句的「personal pride」指「個人自豪／自尊」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-09"
     },
@@ -2963,11 +2739,9 @@ export default {
       "masked": "Personal ____ should not come before the team's objective.",
       "options": [
         "pride-mcq-09",
-        "pride-mcq-08",
-        "pride-mcq-10",
-        "pride-mcq-07",
-        "pride-mcq-11",
-        "pride-mcq-06"
+        "pride-mcq-42",
+        "pride-mcq-43",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「pride」指「個人自豪／自尊」。",
       "sentenceIndex": 61,
@@ -2976,12 +2750,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-09": "本句指「個人自豪／自尊」。",
-        "pride-mcq-08": "「專業自豪感」與本句語境不同。",
-        "pride-mcq-10": "「國家／民族自豪感」與本句語境不同。",
-        "pride-mcq-07": "「對工作有自豪感」與本句語境不同。",
-        "pride-mcq-11": "「社區／城市自豪感」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-09": "本句的「pride」指「個人自豪／自尊」。",
+        "pride-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-09"
     },
@@ -2993,11 +2765,9 @@ export default {
       "masked": "His anger was partly caused by ____.",
       "options": [
         "pride-mcq-27",
-        "pride-mcq-26",
-        "pride-mcq-28",
-        "pride-mcq-25",
-        "pride-mcq-29",
-        "pride-mcq-24"
+        "pride-pdf-001",
+        "pride-mcq-33",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「hurt pride」指「受傷的自尊」。",
       "sentenceIndex": 62,
@@ -3006,12 +2776,10 @@ export default {
         "hurt pride"
       ],
       "optionReasons": {
-        "pride-mcq-27": "本句指「受傷的自尊」。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。"
+        "pride-mcq-27": "本句的「hurt pride」指「受傷的自尊」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-27"
     },
@@ -3023,11 +2791,9 @@ export default {
       "masked": "Hurt ____ can make people defensive.",
       "options": [
         "pride-mcq-27",
-        "pride-mcq-26",
-        "pride-mcq-28",
-        "pride-mcq-25",
-        "pride-mcq-29",
-        "pride-mcq-24"
+        "pride-mcq-21",
+        "pride-mcq-49",
+        "pride-pdf-001"
       ],
       "explanation": "本句的「pride」指「受傷的自尊」。",
       "sentenceIndex": 63,
@@ -3036,12 +2802,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-27": "本句指「受傷的自尊」。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-24": "「心中充滿自豪」與本句語境不同。"
+        "pride-mcq-27": "本句的「pride」指「受傷的自尊」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-27"
     },
@@ -3053,11 +2817,9 @@ export default {
       "masked": "She reacted strongly because of ____.",
       "options": [
         "pride-mcq-28",
-        "pride-mcq-27",
-        "pride-mcq-29",
-        "pride-mcq-26",
-        "pride-mcq-30",
-        "pride-mcq-25"
+        "pride-pdf-001",
+        "pride-mcq-33",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「wounded pride」指「受挫的自尊」。",
       "sentenceIndex": 64,
@@ -3066,12 +2828,10 @@ export default {
         "wounded pride"
       ],
       "optionReasons": {
-        "pride-mcq-28": "本句指「受挫的自尊」。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。"
+        "pride-mcq-28": "本句的「wounded pride」指「受挫的自尊」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-28"
     },
@@ -3083,11 +2843,9 @@ export default {
       "masked": "His refusal to apologise came from wounded ____.",
       "options": [
         "pride-mcq-28",
-        "pride-mcq-27",
-        "pride-mcq-29",
-        "pride-mcq-26",
-        "pride-mcq-30",
-        "pride-mcq-25"
+        "pride-mcq-50",
+        "pride-mcq-44",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「pride」指「受挫的自尊」。",
       "sentenceIndex": 65,
@@ -3096,12 +2854,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-28": "本句指「受挫的自尊」。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-25": "「自豪得不得了」與本句語境不同。"
+        "pride-mcq-28": "本句的「pride」指「受挫的自尊」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-28"
     },
@@ -3113,11 +2869,9 @@ export default {
       "masked": "His ____ made compromise difficult.",
       "options": [
         "pride-mcq-29",
-        "pride-mcq-28",
-        "pride-mcq-30",
-        "pride-mcq-27",
-        "pride-mcq-31",
-        "pride-mcq-26"
+        "pride-mcq-14",
+        "pride-mcq-38",
+        "pride-mcq-50"
       ],
       "explanation": "本句的「injured pride」指「自尊受損」。",
       "sentenceIndex": 66,
@@ -3126,12 +2880,10 @@ export default {
         "injured pride"
       ],
       "optionReasons": {
-        "pride-mcq-29": "本句指「自尊受損」。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。"
+        "pride-mcq-29": "本句的「injured pride」指「自尊受損」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-29"
     },
@@ -3143,11 +2895,9 @@ export default {
       "masked": "What looked like anger was actually injured ____.",
       "options": [
         "pride-mcq-29",
-        "pride-mcq-28",
-        "pride-mcq-30",
-        "pride-mcq-27",
-        "pride-mcq-31",
-        "pride-mcq-26"
+        "pride-mcq-22",
+        "pride-mcq-47",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「pride」指「自尊受損」。",
       "sentenceIndex": 67,
@@ -3156,12 +2906,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-29": "本句指「自尊受損」。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-26": "「自尊；尊嚴」與本句語境不同。"
+        "pride-mcq-29": "本句的「pride」指「自尊受損」。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-29"
     },
@@ -3173,11 +2921,9 @@ export default {
       "masked": "People sometimes ____ instead of admitting mistakes.",
       "options": [
         "pride-mcq-31",
-        "pride-mcq-30",
-        "pride-mcq-32",
-        "pride-mcq-29",
-        "pride-mcq-33",
-        "pride-mcq-28"
+        "pride-mcq-48",
+        "pride-mcq-22",
+        "pride-mcq-42"
       ],
       "explanation": "本句的「defend their pride」指「保護自尊」。",
       "sentenceIndex": 68,
@@ -3186,12 +2932,10 @@ export default {
         "defend their pride"
       ],
       "optionReasons": {
-        "pride-mcq-31": "本句指「保護自尊」。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。"
+        "pride-mcq-31": "本句的「defend their pride」指「保護自尊」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-31"
     },
@@ -3203,11 +2947,9 @@ export default {
       "masked": "He rejected the suggestion mainly to protect his ____.",
       "options": [
         "pride-mcq-31",
-        "pride-mcq-30",
-        "pride-mcq-32",
-        "pride-mcq-29",
-        "pride-mcq-33",
-        "pride-mcq-28"
+        "pride-mcq-21",
+        "pride-mcq-42",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「pride」指「保護自尊」。",
       "sentenceIndex": 69,
@@ -3216,12 +2958,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-31": "本句指「保護自尊」。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。"
+        "pride-mcq-31": "本句的「pride」指「保護自尊」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-31"
     },
@@ -3233,11 +2973,9 @@ export default {
       "masked": "He had to ____.",
       "options": [
         "pride-mcq-32",
-        "pride-mcq-31",
-        "pride-mcq-33",
-        "pride-mcq-30",
-        "pride-mcq-34",
-        "pride-mcq-29"
+        "pride-mcq-14",
+        "pride-mcq-50",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「swallow his pride and apologise」指「放下自尊／面子」。",
       "sentenceIndex": 70,
@@ -3246,12 +2984,10 @@ export default {
         "swallow his pride and apologise"
       ],
       "optionReasons": {
-        "pride-mcq-32": "本句指「放下自尊／面子」。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。"
+        "pride-mcq-32": "本句的「swallow his pride and apologise」指「放下自尊／面子」。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-32"
     },
@@ -3263,11 +2999,9 @@ export default {
       "masked": "Sometimes good teamwork means swallowing your ____.",
       "options": [
         "pride-mcq-32",
-        "pride-mcq-31",
-        "pride-mcq-33",
-        "pride-mcq-30",
-        "pride-mcq-34",
-        "pride-mcq-29"
+        "pride-mcq-42",
+        "pride-mcq-43",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「放下自尊／面子」。",
       "sentenceIndex": 71,
@@ -3276,12 +3010,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-32": "本句指「放下自尊／面子」。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。"
+        "pride-mcq-32": "本句的「pride」指「放下自尊／面子」。",
+        "pride-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-32"
     },
@@ -3293,11 +3025,9 @@ export default {
       "masked": "Both sides need to ____.",
       "options": [
         "pride-mcq-33",
-        "pride-mcq-32",
-        "pride-mcq-34",
-        "pride-mcq-31",
-        "pride-mcq-35",
-        "pride-mcq-30"
+        "pride-mcq-20",
+        "pride-mcq-45",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「put their pride aside」指「放下面子」。",
       "sentenceIndex": 72,
@@ -3306,12 +3036,10 @@ export default {
         "put their pride aside"
       ],
       "optionReasons": {
-        "pride-mcq-33": "本句指「放下面子」。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。"
+        "pride-mcq-33": "本句的「put their pride aside」指「放下面子」。",
+        "pride-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-33"
     },
@@ -3323,11 +3051,9 @@ export default {
       "masked": "Put ____ aside and focus on the solution.",
       "options": [
         "pride-mcq-33",
-        "pride-mcq-32",
-        "pride-mcq-34",
-        "pride-mcq-31",
-        "pride-mcq-35",
-        "pride-mcq-30"
+        "pride-mcq-24",
+        "pride-mcq-37",
+        "pride-mcq-47"
       ],
       "explanation": "本句的「pride」指「放下面子」。",
       "sentenceIndex": 73,
@@ -3336,12 +3062,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-33": "本句指「放下面子」。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。"
+        "pride-mcq-33": "本句的「pride」指「放下面子」。",
+        "pride-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-33"
     },
@@ -3353,11 +3077,9 @@ export default {
       "masked": "She set her ____ aside and asked for help.",
       "options": [
         "pride-mcq-33",
-        "pride-mcq-32",
-        "pride-mcq-34",
-        "pride-mcq-31",
-        "pride-mcq-35",
-        "pride-mcq-30"
+        "pride-mcq-18",
+        "pride-mcq-49",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「pride」指「放下面子」。",
       "sentenceIndex": 74,
@@ -3366,12 +3088,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-33": "本句指「放下面子」。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。"
+        "pride-mcq-33": "本句的「pride」指「放下面子」。",
+        "pride-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-33"
     },
@@ -3383,11 +3103,9 @@ export default {
       "masked": "Leaders sometimes need to set personal ____ aside.",
       "options": [
         "pride-mcq-33",
-        "pride-mcq-32",
-        "pride-mcq-34",
-        "pride-mcq-31",
-        "pride-mcq-35",
-        "pride-mcq-30"
+        "pride-mcq-02",
+        "pride-pdf-001",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「pride」指「放下面子」。",
       "sentenceIndex": 75,
@@ -3396,12 +3114,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-33": "本句指「放下面子」。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-30": "「維護自尊／面子」與本句語境不同。"
+        "pride-mcq-33": "本句的「pride」指「放下面子」。",
+        "pride-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-33"
     },
@@ -3413,11 +3129,9 @@ export default {
       "masked": "Excessive ____ can make people defensive.",
       "options": [
         "pride-mcq-35",
-        "pride-mcq-34",
-        "pride-mcq-36",
-        "pride-mcq-33",
-        "pride-mcq-37",
-        "pride-mcq-32"
+        "pride-pdf-001",
+        "pride-mcq-38",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「過度自負」。",
       "sentenceIndex": 78,
@@ -3426,12 +3140,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-35": "本句指「過度自負」。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。"
+        "pride-mcq-35": "本句的「pride」指「過度自負」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-35"
     },
@@ -3443,11 +3155,9 @@ export default {
       "masked": "His excessive ____ made cooperation difficult.",
       "options": [
         "pride-mcq-35",
-        "pride-mcq-34",
-        "pride-mcq-36",
-        "pride-mcq-33",
-        "pride-mcq-37",
-        "pride-mcq-32"
+        "pride-mcq-22",
+        "pride-mcq-06",
+        "pride-mcq-38"
       ],
       "explanation": "本句的「pride」指「過度自負」。",
       "sentenceIndex": 79,
@@ -3456,12 +3166,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-35": "本句指「過度自負」。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。"
+        "pride-mcq-35": "本句的「pride」指「過度自負」。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-35"
     },
@@ -3473,11 +3181,9 @@ export default {
       "masked": "Don't let ____ stop you from asking for help.",
       "options": [
         "pride-mcq-36",
-        "pride-mcq-35",
-        "pride-mcq-37",
-        "pride-mcq-34",
-        "pride-mcq-38",
-        "pride-mcq-33"
+        "pride-mcq-50",
+        "pride-mcq-43",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「foolish pride」指「無謂的自尊」。",
       "sentenceIndex": 80,
@@ -3486,12 +3192,10 @@ export default {
         "foolish pride"
       ],
       "optionReasons": {
-        "pride-mcq-36": "本句指「無謂的自尊」。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。"
+        "pride-mcq-36": "本句的「foolish pride」指「無謂的自尊」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-36"
     },
@@ -3503,11 +3207,9 @@ export default {
       "masked": "Foolish ____ kept him silent.",
       "options": [
         "pride-mcq-36",
-        "pride-mcq-35",
-        "pride-mcq-37",
-        "pride-mcq-34",
-        "pride-mcq-38",
-        "pride-mcq-33"
+        "pride-mcq-50",
+        "pride-mcq-45",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「pride」指「無謂的自尊」。",
       "sentenceIndex": 81,
@@ -3516,12 +3218,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-36": "本句指「無謂的自尊」。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-33": "「放下面子」與本句語境不同。"
+        "pride-mcq-36": "本句的「pride」指「無謂的自尊」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-36"
     },
@@ -3533,11 +3233,9 @@ export default {
       "masked": "False ____ prevented him from admitting he needed help.",
       "options": [
         "pride-mcq-37",
-        "pride-mcq-36",
-        "pride-mcq-38",
-        "pride-mcq-35",
-        "pride-mcq-39",
-        "pride-mcq-34"
+        "pride-mcq-48",
+        "pride-mcq-51",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「不必要的自尊／虛榮」。",
       "sentenceIndex": 82,
@@ -3546,12 +3244,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-37": "本句指「不必要的自尊／虛榮」。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。"
+        "pride-mcq-37": "本句的「pride」指「不必要的自尊／虛榮」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-37"
     },
@@ -3563,11 +3259,9 @@ export default {
       "masked": "There is no need for false ____.",
       "options": [
         "pride-mcq-37",
-        "pride-mcq-36",
-        "pride-mcq-38",
-        "pride-mcq-35",
-        "pride-mcq-39",
-        "pride-mcq-34"
+        "pride-mcq-48",
+        "pride-mcq-42",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「不必要的自尊／虛榮」。",
       "sentenceIndex": 83,
@@ -3576,12 +3270,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-37": "本句指「不必要的自尊／虛榮」。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。"
+        "pride-mcq-37": "本句的「pride」指「不必要的自尊／虛榮」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-37"
     },
@@ -3593,11 +3285,9 @@ export default {
       "masked": "Confidence can become ____ if it is unchecked.",
       "options": [
         "pride-mcq-37",
-        "pride-mcq-36",
-        "pride-mcq-38",
-        "pride-mcq-35",
-        "pride-mcq-39",
-        "pride-mcq-34"
+        "pride-mcq-49",
+        "pride-mcq-14",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride and arrogance」指「不必要的自尊／虛榮」。",
       "sentenceIndex": 84,
@@ -3606,12 +3296,10 @@ export default {
         "pride and arrogance"
       ],
       "optionReasons": {
-        "pride-mcq-37": "本句指「不必要的自尊／虛榮」。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-34": "「自負；驕傲自大」與本句語境不同。"
+        "pride-mcq-37": "本句的「pride and arrogance」指「不必要的自尊／虛榮」。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-37"
     },
@@ -3623,11 +3311,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "pride-mcq-38",
-        "pride-mcq-37",
-        "pride-mcq-39",
-        "pride-mcq-36",
-        "pride-mcq-40",
-        "pride-mcq-35"
+        "pride-mcq-27",
+        "pride-mcq-07",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「too proud to admit he was wrong」指「太顧面子而不肯 X」。",
       "sentenceIndex": 85,
@@ -3636,12 +3322,10 @@ export default {
         "too proud to admit he was wrong"
       ],
       "optionReasons": {
-        "pride-mcq-38": "本句指「太顧面子而不肯 X」。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。"
+        "pride-mcq-38": "本句的「too proud to admit he was wrong」指「太顧面子而不肯 X」。",
+        "pride-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-38"
     },
@@ -3653,11 +3337,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "pride-mcq-38",
-        "pride-mcq-37",
-        "pride-mcq-39",
-        "pride-mcq-36",
-        "pride-mcq-40",
-        "pride-mcq-35"
+        "pride-mcq-16",
+        "pride-mcq-43",
+        "pride-mcq-06"
       ],
       "explanation": "本句的「too proud to apologise」指「太顧面子而不肯 X」。",
       "sentenceIndex": 86,
@@ -3666,12 +3348,10 @@ export default {
         "too proud to apologise"
       ],
       "optionReasons": {
-        "pride-mcq-38": "本句指「太顧面子而不肯 X」。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-35": "「過度自負」與本句語境不同。"
+        "pride-mcq-38": "本句的「too proud to apologise」指「太顧面子而不肯 X」。",
+        "pride-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-38"
     },
@@ -3684,10 +3364,8 @@ export default {
       "options": [
         "pride-mcq-39",
         "pride-mcq-38",
-        "pride-mcq-40",
-        "pride-mcq-37",
-        "pride-mcq-41",
-        "pride-mcq-36"
+        "pride-mcq-22",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「proud man」指「驕傲自大的」。",
       "sentenceIndex": 87,
@@ -3696,12 +3374,10 @@ export default {
         "proud man"
       ],
       "optionReasons": {
-        "pride-mcq-39": "本句指「驕傲自大的」。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-36": "「無謂的自尊」與本句語境不同。"
+        "pride-mcq-39": "本句的「proud man」指「驕傲自大的」。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-39"
     },
@@ -3713,11 +3389,9 @@ export default {
       "masked": "His ____ prevented cooperation.",
       "options": [
         "pride-mcq-40",
-        "pride-mcq-39",
-        "pride-mcq-41",
-        "pride-mcq-38",
-        "pride-mcq-42",
-        "pride-mcq-37"
+        "pride-mcq-21",
+        "pride-mcq-48",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「prideful attitude」指「自負的；傲慢的」。",
       "sentenceIndex": 89,
@@ -3726,12 +3400,10 @@ export default {
         "prideful attitude"
       ],
       "optionReasons": {
-        "pride-mcq-40": "本句指「自負的；傲慢的」。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。"
+        "pride-mcq-40": "本句的「prideful attitude」指「自負的；傲慢的」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-40"
     },
@@ -3743,11 +3415,9 @@ export default {
       "masked": "The response sounded ____ rather than confident.",
       "options": [
         "pride-mcq-40",
-        "pride-mcq-39",
-        "pride-mcq-41",
         "pride-mcq-38",
-        "pride-mcq-42",
-        "pride-mcq-37"
+        "pride-mcq-22",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「prideful」指「自負的；傲慢的」。",
       "sentenceIndex": 90,
@@ -3756,12 +3426,10 @@ export default {
         "prideful"
       ],
       "optionReasons": {
-        "pride-mcq-40": "本句指「自負的；傲慢的」。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。"
+        "pride-mcq-40": "本句的「prideful」指「自負的；傲慢的」。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-40"
     },
@@ -3773,11 +3441,9 @@ export default {
       "masked": "____ behaviour can alienate colleagues.",
       "options": [
         "pride-mcq-40",
-        "pride-mcq-39",
-        "pride-mcq-41",
-        "pride-mcq-38",
-        "pride-mcq-42",
-        "pride-mcq-37"
+        "pride-mcq-45",
+        "pride-mcq-33",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「Prideful」指「自負的；傲慢的」。",
       "sentenceIndex": 91,
@@ -3786,12 +3452,10 @@ export default {
         "Prideful"
       ],
       "optionReasons": {
-        "pride-mcq-40": "本句指「自負的；傲慢的」。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。"
+        "pride-mcq-40": "本句的「Prideful」指「自負的；傲慢的」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-40"
     },
@@ -3803,11 +3467,9 @@ export default {
       "masked": "The leader avoided ____ displays of authority.",
       "options": [
         "pride-mcq-40",
-        "pride-mcq-39",
-        "pride-mcq-41",
-        "pride-mcq-38",
-        "pride-mcq-42",
-        "pride-mcq-37"
+        "pride-mcq-21",
+        "pride-mcq-22",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「prideful」指「自負的；傲慢的」。",
       "sentenceIndex": 92,
@@ -3816,12 +3478,10 @@ export default {
         "prideful"
       ],
       "optionReasons": {
-        "pride-mcq-40": "本句指「自負的；傲慢的」。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-37": "「不必要的自尊／虛榮」與本句語境不同。"
+        "pride-mcq-40": "本句的「prideful」指「自負的；傲慢的」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-40"
     },
@@ -3833,11 +3493,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pride-pdf-001",
-        "pride-mcq-40",
-        "pride-mcq-42",
-        "pride-mcq-39",
-        "pride-mcq-43",
-        "pride-mcq-38"
+        "pride-mcq-18",
+        "pride-mcq-38",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「prides herself on her honesty」指「特別重視 X 並以擁有／做到 X 為傲」。",
       "sentenceIndex": 93,
@@ -3846,12 +3504,10 @@ export default {
         "prides herself on her honesty"
       ],
       "optionReasons": {
-        "pride-pdf-001": "本句指「特別重視 X 並以擁有／做到 X 為傲」。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。"
+        "pride-pdf-001": "本句的「prides herself on her honesty」指「特別重視 X 並以擁有／做到 X 為傲」。",
+        "pride-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-pdf-001"
     },
@@ -3863,10 +3519,8 @@ export default {
       "masked": "The company ____ itself on excellent customer service.",
       "options": [
         "pride-pdf-001",
-        "pride-mcq-40",
-        "pride-mcq-42",
-        "pride-mcq-39",
-        "pride-mcq-43",
+        "pride-mcq-28",
+        "pride-mcq-35",
         "pride-mcq-38"
       ],
       "explanation": "本句的「prides」指「特別重視 X 並以擁有／做到 X 為傲」。",
@@ -3876,12 +3530,10 @@ export default {
         "prides"
       ],
       "optionReasons": {
-        "pride-pdf-001": "本句指「特別重視 X 並以擁有／做到 X 為傲」。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-38": "「太顧面子而不肯 X」與本句語境不同。"
+        "pride-pdf-001": "本句的「prides」指「特別重視 X 並以擁有／做到 X 為傲」。",
+        "pride-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-pdf-001"
     },
@@ -3893,11 +3545,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "pride-mcq-42",
-        "pride-mcq-41",
-        "pride-mcq-43",
-        "pride-mcq-40",
-        "pride-mcq-44",
-        "pride-mcq-39"
+        "pride-mcq-03",
+        "pride-mcq-33",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride ourselves on responding quickly」指「以做好 X 為傲」。",
       "sentenceIndex": 95,
@@ -3906,12 +3556,10 @@ export default {
         "pride ourselves on responding quickly"
       ],
       "optionReasons": {
-        "pride-mcq-42": "本句指「以做好 X 為傲」。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。"
+        "pride-mcq-42": "本句的「pride ourselves on responding quickly」指「以做好 X 為傲」。",
+        "pride-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-42"
     },
@@ -3923,11 +3571,9 @@ export default {
       "masked": "He ____ himself on never missing a deadline.",
       "options": [
         "pride-mcq-42",
-        "pride-mcq-41",
-        "pride-mcq-43",
-        "pride-mcq-40",
-        "pride-mcq-44",
-        "pride-mcq-39"
+        "pride-mcq-13",
+        "pride-mcq-21",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「prides」指「以做好 X 為傲」。",
       "sentenceIndex": 96,
@@ -3936,12 +3582,10 @@ export default {
         "prides"
       ],
       "optionReasons": {
-        "pride-mcq-42": "本句指「以做好 X 為傲」。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。"
+        "pride-mcq-42": "本句的「prides」指「以做好 X 為傲」。",
+        "pride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-42"
     },
@@ -3953,11 +3597,9 @@ export default {
       "masked": "The firm ____.",
       "options": [
         "pride-mcq-42",
-        "pride-mcq-41",
-        "pride-mcq-43",
-        "pride-mcq-40",
-        "pride-mcq-44",
-        "pride-mcq-39"
+        "pride-mcq-28",
+        "pride-mcq-11",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「prides itself on reliability」指「以做好 X 為傲」。",
       "sentenceIndex": 97,
@@ -3966,12 +3608,10 @@ export default {
         "prides itself on reliability"
       ],
       "optionReasons": {
-        "pride-mcq-42": "本句指「以做好 X 為傲」。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。"
+        "pride-mcq-42": "本句的「prides itself on reliability」指「以做好 X 為傲」。",
+        "pride-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-42"
     },
@@ -3983,11 +3623,9 @@ export default {
       "masked": "The hotel ____ itself on personal service.",
       "options": [
         "pride-mcq-42",
-        "pride-mcq-41",
-        "pride-mcq-43",
-        "pride-mcq-40",
-        "pride-mcq-44",
-        "pride-mcq-39"
+        "pride-mcq-45",
+        "pride-mcq-19",
+        "pride-mcq-32"
       ],
       "explanation": "本句的「prides」指「以做好 X 為傲」。",
       "sentenceIndex": 98,
@@ -3996,12 +3634,10 @@ export default {
         "prides"
       ],
       "optionReasons": {
-        "pride-mcq-42": "本句指「以做好 X 為傲」。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-39": "「驕傲自大的」與本句語境不同。"
+        "pride-mcq-42": "本句的「prides」指「以做好 X 為傲」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-42"
     },
@@ -4013,11 +3649,9 @@ export default {
       "masked": "The award has ____ in her office.",
       "options": [
         "pride-mcq-43",
-        "pride-mcq-42",
-        "pride-mcq-44",
-        "pride-mcq-41",
-        "pride-mcq-45",
-        "pride-mcq-40"
+        "pride-mcq-48",
+        "pride-mcq-06",
+        "pride-mcq-12"
       ],
       "explanation": "本句的「pride of place」指「最顯眼／最重要位置」。",
       "sentenceIndex": 99,
@@ -4026,12 +3660,10 @@ export default {
         "pride of place"
       ],
       "optionReasons": {
-        "pride-mcq-43": "本句指「最顯眼／最重要位置」。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。"
+        "pride-mcq-43": "本句的「pride of place」指「最顯眼／最重要位置」。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-43"
     },
@@ -4043,11 +3675,9 @@ export default {
       "masked": "The family photograph takes ____ of place on the shelf.",
       "options": [
         "pride-mcq-43",
-        "pride-mcq-42",
-        "pride-mcq-44",
-        "pride-mcq-41",
+        "pride-mcq-18",
         "pride-mcq-45",
-        "pride-mcq-40"
+        "pride-mcq-50"
       ],
       "explanation": "本句的「pride」指「最顯眼／最重要位置」。",
       "sentenceIndex": 100,
@@ -4056,12 +3686,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-43": "本句指「最顯眼／最重要位置」。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。"
+        "pride-mcq-43": "本句的「pride」指「最顯眼／最重要位置」。",
+        "pride-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-43"
     },
@@ -4073,11 +3701,9 @@ export default {
       "masked": "The trophy ____ in the reception area.",
       "options": [
         "pride-mcq-43",
-        "pride-mcq-42",
-        "pride-mcq-44",
-        "pride-mcq-41",
-        "pride-mcq-45",
-        "pride-mcq-40"
+        "pride-mcq-47",
+        "pride-pdf-002",
+        "pride-mcq-31"
       ],
       "explanation": "本句的「takes pride of place」指「最顯眼／最重要位置」。",
       "sentenceIndex": 101,
@@ -4086,12 +3712,10 @@ export default {
         "takes pride of place"
       ],
       "optionReasons": {
-        "pride-mcq-43": "本句指「最顯眼／最重要位置」。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。"
+        "pride-mcq-43": "本句的「takes pride of place」指「最顯眼／最重要位置」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-43"
     },
@@ -4103,11 +3727,9 @@ export default {
       "masked": "Her first book takes ____ of place on the bookshelf.",
       "options": [
         "pride-mcq-43",
-        "pride-mcq-42",
-        "pride-mcq-44",
-        "pride-mcq-41",
-        "pride-mcq-45",
-        "pride-mcq-40"
+        "pride-mcq-10",
+        "pride-mcq-27",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「pride」指「最顯眼／最重要位置」。",
       "sentenceIndex": 102,
@@ -4116,12 +3738,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-43": "本句指「最顯眼／最重要位置」。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-40": "「自負的；傲慢的」與本句語境不同。"
+        "pride-mcq-43": "本句的「pride」指「最顯眼／最重要位置」。",
+        "pride-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-43"
     },
@@ -4133,11 +3753,9 @@ export default {
       "masked": "The garden is his ____.",
       "options": [
         "pride-mcq-44",
-        "pride-mcq-43",
-        "pride-mcq-45",
-        "pride-mcq-42",
-        "pride-mcq-46",
-        "pride-mcq-41"
+        "pride-mcq-04",
+        "pride-mcq-33",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「pride and joy」指「最珍愛、最引以為傲的人／物」。",
       "sentenceIndex": 103,
@@ -4146,12 +3764,10 @@ export default {
         "pride and joy"
       ],
       "optionReasons": {
-        "pride-mcq-44": "本句指「最珍愛、最引以為傲的人／物」。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-44": "本句的「pride and joy」指「最珍愛、最引以為傲的人／物」。",
+        "pride-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-44"
     },
@@ -4163,11 +3779,9 @@ export default {
       "masked": "Their daughter is their ____ and joy.",
       "options": [
         "pride-mcq-44",
-        "pride-mcq-43",
-        "pride-mcq-45",
-        "pride-mcq-42",
-        "pride-mcq-46",
-        "pride-mcq-41"
+        "pride-mcq-13",
+        "pride-mcq-21",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「pride」指「最珍愛、最引以為傲的人／物」。",
       "sentenceIndex": 104,
@@ -4176,12 +3790,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-44": "本句指「最珍愛、最引以為傲的人／物」。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-41": "「以 X 為傲」與本句語境不同。"
+        "pride-mcq-44": "本句的「pride」指「最珍愛、最引以為傲的人／物」。",
+        "pride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-44"
     },
@@ -4193,11 +3805,9 @@ export default {
       "masked": "He ignored every warning, but ____.",
       "options": [
         "pride-mcq-45",
-        "pride-mcq-44",
-        "pride-mcq-46",
-        "pride-mcq-43",
-        "pride-mcq-47",
-        "pride-mcq-42"
+        "pride-mcq-29",
+        "pride-mcq-06",
+        "pride-mcq-05"
       ],
       "explanation": "本句的「pride comes before a fall」指「驕者必敗」。",
       "sentenceIndex": 105,
@@ -4206,12 +3816,10 @@ export default {
         "pride comes before a fall"
       ],
       "optionReasons": {
-        "pride-mcq-45": "本句指「驕者必敗」。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-42": "「以做好 X 為傲」與本句語境不同。"
+        "pride-mcq-45": "本句的「pride comes before a fall」指「驕者必敗」。",
+        "pride-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-45"
     },
@@ -4223,11 +3831,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "pride-mcq-30",
-        "pride-mcq-29",
-        "pride-mcq-31",
-        "pride-mcq-28",
-        "pride-mcq-32",
-        "pride-mcq-27"
+        "pride-mcq-43",
+        "pride-mcq-47",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「defending his pride rather than solving the problem」指「維護自尊／面子」。",
       "sentenceIndex": 106,
@@ -4236,12 +3842,10 @@ export default {
         "defending his pride rather than solving the problem"
       ],
       "optionReasons": {
-        "pride-mcq-30": "本句指「維護自尊／面子」。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。"
+        "pride-mcq-30": "本句的「defending his pride rather than solving the problem」指「維護自尊／面子」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-30"
     },
@@ -4253,11 +3857,9 @@ export default {
       "masked": "People sometimes reject good ideas merely to defend their ____.",
       "options": [
         "pride-mcq-30",
-        "pride-mcq-29",
-        "pride-mcq-31",
-        "pride-mcq-28",
-        "pride-mcq-32",
-        "pride-mcq-27"
+        "pride-mcq-49",
+        "pride-mcq-14",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「pride」指「維護自尊／面子」。",
       "sentenceIndex": 107,
@@ -4266,12 +3868,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-30": "本句指「維護自尊／面子」。",
-        "pride-mcq-29": "「自尊受損」與本句語境不同。",
-        "pride-mcq-31": "「保護自尊」與本句語境不同。",
-        "pride-mcq-28": "「受挫的自尊」與本句語境不同。",
-        "pride-mcq-32": "「放下自尊／面子」與本句語境不同。",
-        "pride-mcq-27": "「受傷的自尊」與本句語境不同。"
+        "pride-mcq-30": "本句的「pride」指「維護自尊／面子」。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-30"
     },
@@ -4283,11 +3883,9 @@ export default {
       "masked": "The public criticism ____.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-43",
+        "pride-mcq-38",
+        "pride-mcq-44"
       ],
       "explanation": "本句的「hurt his pride」指「讓自尊妨礙事情」。",
       "sentenceIndex": 108,
@@ -4296,12 +3894,10 @@ export default {
         "hurt his pride"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「hurt his pride」指「讓自尊妨礙事情」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4313,11 +3909,9 @@ export default {
       "masked": "She rejected the suggestion because it hurt her ____.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
         "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-45",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「讓自尊妨礙事情」。",
       "sentenceIndex": 109,
@@ -4326,12 +3920,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「pride」指「讓自尊妨礙事情」。",
+        "pride-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4343,11 +3935,9 @@ export default {
       "masked": "The compromise allowed both sides to ____.",
       "options": [
         "pride-mcq-46",
+        "pride-pdf-001",
         "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-48"
       ],
       "explanation": "本句的「save face」指「讓自尊妨礙事情」。",
       "sentenceIndex": 110,
@@ -4356,12 +3946,10 @@ export default {
         "save face"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「save face」指「讓自尊妨礙事情」。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4373,11 +3961,9 @@ export default {
       "masked": "He tried to protect his ____ after the mistake became public.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-43",
+        "pride-mcq-22",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「pride」指「讓自尊妨礙事情」。",
       "sentenceIndex": 111,
@@ -4386,12 +3972,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「pride」指「讓自尊妨礙事情」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4403,10 +3987,8 @@ export default {
       "masked": "He has ____.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
+        "pride-mcq-21",
+        "pride-pdf-001",
         "pride-mcq-43"
       ],
       "explanation": "本句的「too much pride to ask for help」指「讓自尊妨礙事情」。",
@@ -4416,12 +3998,10 @@ export default {
         "too much pride to ask for help"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「too much pride to ask for help」指「讓自尊妨礙事情」。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4433,11 +4013,9 @@ export default {
       "masked": "Too much ____ can prevent honest communication.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-43",
+        "pride-mcq-51",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「讓自尊妨礙事情」。",
       "sentenceIndex": 113,
@@ -4446,12 +4024,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「pride」指「讓自尊妨礙事情」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4464,10 +4040,8 @@ export default {
       "options": [
         "pride-mcq-46",
         "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-06",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「let pride get in the way of teamwork」指「讓自尊妨礙事情」。",
       "sentenceIndex": 114,
@@ -4476,12 +4050,10 @@ export default {
         "let pride get in the way of teamwork"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「let pride get in the way of teamwork」指「讓自尊妨礙事情」。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4493,11 +4065,9 @@ export default {
       "masked": "____ got in the way of an apology.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-50",
+        "pride-mcq-43",
+        "pride-mcq-14"
       ],
       "explanation": "本句的「Pride」指「讓自尊妨礙事情」。",
       "sentenceIndex": 115,
@@ -4506,12 +4076,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「Pride」指「讓自尊妨礙事情」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4523,11 +4091,9 @@ export default {
       "masked": "Good leaders do not ____.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-43",
+        "pride-mcq-38",
+        "pride-mcq-47"
       ],
       "explanation": "本句的「put pride before results」指「讓自尊妨礙事情」。",
       "sentenceIndex": 116,
@@ -4536,12 +4102,10 @@ export default {
         "put pride before results"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「put pride before results」指「讓自尊妨礙事情」。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4553,11 +4117,9 @@ export default {
       "masked": "The discussion failed because people put ____ before cooperation.",
       "options": [
         "pride-mcq-46",
-        "pride-mcq-45",
-        "pride-mcq-47",
-        "pride-mcq-44",
-        "pride-mcq-48",
-        "pride-mcq-43"
+        "pride-mcq-06",
+        "pride-mcq-38",
+        "pride-mcq-21"
       ],
       "explanation": "本句的「pride」指「讓自尊妨礙事情」。",
       "sentenceIndex": 117,
@@ -4566,12 +4128,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-46": "本句指「讓自尊妨礙事情」。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-43": "「最顯眼／最重要位置」與本句語境不同。"
+        "pride-mcq-46": "本句的「pride」指「讓自尊妨礙事情」。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-46"
     },
@@ -4583,11 +4143,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pride-mcq-04",
-        "pride-mcq-03",
-        "pride-mcq-05",
-        "pride-mcq-02",
-        "pride-mcq-06",
-        "pride-mcq-01"
+        "pride-mcq-50",
+        "pride-mcq-43",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「proudly displayed the award」指「自豪地」。",
       "sentenceIndex": 118,
@@ -4596,12 +4154,10 @@ export default {
         "proudly displayed the award"
       ],
       "optionReasons": {
-        "pride-mcq-04": "本句指「自豪地」。",
-        "pride-mcq-03": "「自豪感」與本句語境不同。",
-        "pride-mcq-05": "「極大自豪」與本句語境不同。",
-        "pride-mcq-02": "「感到自豪」與本句語境不同。",
-        "pride-mcq-06": "「以 X 為傲」與本句語境不同。",
-        "pride-mcq-01": "「自豪；驕傲」與本句語境不同。"
+        "pride-mcq-04": "本句的「proudly displayed the award」指「自豪地」。",
+        "pride-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-04"
     },
@@ -4613,11 +4169,9 @@ export default {
       "masked": "The museum is the ____.",
       "options": [
         "pride-pdf-002",
-        "pride-mcq-46",
-        "pride-mcq-48",
-        "pride-mcq-45",
-        "pride-mcq-49",
-        "pride-mcq-44"
+        "pride-mcq-47",
+        "pride-mcq-43",
+        "pride-mcq-33"
       ],
       "explanation": "本句的「pride of the city」指「令 X 群體特別自豪的人或事物」。",
       "sentenceIndex": 119,
@@ -4626,12 +4180,10 @@ export default {
         "pride of the city"
       ],
       "optionReasons": {
-        "pride-pdf-002": "本句指「令 X 群體特別自豪的人或事物」。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。"
+        "pride-pdf-002": "本句的「pride of the city」指「令 X 群體特別自豪的人或事物」。",
+        "pride-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-pdf-002"
     },
@@ -4643,11 +4195,9 @@ export default {
       "masked": "She became the ____ of her school.",
       "options": [
         "pride-pdf-002",
-        "pride-mcq-46",
-        "pride-mcq-48",
-        "pride-mcq-45",
-        "pride-mcq-49",
-        "pride-mcq-44"
+        "pride-mcq-06",
+        "pride-mcq-38",
+        "pride-mcq-45"
       ],
       "explanation": "本句的「pride」指「令 X 群體特別自豪的人或事物」。",
       "sentenceIndex": 120,
@@ -4656,12 +4206,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-pdf-002": "本句指「令 X 群體特別自豪的人或事物」。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。"
+        "pride-pdf-002": "本句的「pride」指「令 X 群體特別自豪的人或事物」。",
+        "pride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-pdf-002"
     },
@@ -4673,11 +4221,9 @@ export default {
       "masked": "The new laboratory is the ____.",
       "options": [
         "pride-mcq-47",
-        "pride-mcq-46",
-        "pride-mcq-48",
-        "pride-mcq-45",
-        "pride-mcq-49",
-        "pride-mcq-44"
+        "pride-mcq-29",
+        "pride-mcq-22",
+        "pride-mcq-23"
       ],
       "explanation": "本句的「pride of the company」指「X 的驕傲」。",
       "sentenceIndex": 121,
@@ -4686,12 +4232,10 @@ export default {
         "pride of the company"
       ],
       "optionReasons": {
-        "pride-mcq-47": "本句指「X 的驕傲」。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。"
+        "pride-mcq-47": "本句的「pride of the company」指「X 的驕傲」。",
+        "pride-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-47"
     },
@@ -4703,11 +4247,9 @@ export default {
       "masked": "Their customer service became the ____ of the organisation.",
       "options": [
         "pride-mcq-47",
-        "pride-mcq-46",
-        "pride-mcq-48",
-        "pride-mcq-45",
-        "pride-mcq-49",
-        "pride-mcq-44"
+        "pride-mcq-15",
+        "pride-mcq-43",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「pride」指「X 的驕傲」。",
       "sentenceIndex": 122,
@@ -4716,12 +4258,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-47": "本句指「X 的驕傲」。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-44": "「最珍愛、最引以為傲的人／物」與本句語境不同。"
+        "pride-mcq-47": "本句的「pride」指「X 的驕傲」。",
+        "pride-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-47"
     },
@@ -4733,11 +4273,9 @@ export default {
       "masked": "We saw ____ near the river.",
       "options": [
         "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-49",
-        "pride-mcq-46",
-        "pride-mcq-50",
-        "pride-mcq-45"
+        "pride-mcq-20",
+        "pride-pdf-001",
+        "pride-mcq-49"
       ],
       "explanation": "本句的「a pride of lions」指「一群獅子；獅群」。",
       "sentenceIndex": 123,
@@ -4746,12 +4284,10 @@ export default {
         "a pride of lions"
       ],
       "optionReasons": {
-        "pride-mcq-48": "本句指「一群獅子；獅群」。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。"
+        "pride-mcq-48": "本句的「a pride of lions」指「一群獅子；獅群」。",
+        "pride-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pride-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-48"
     },
@@ -4763,11 +4299,9 @@ export default {
       "masked": "A lion ____ may contain several related females and their young.",
       "options": [
         "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-49",
-        "pride-mcq-46",
-        "pride-mcq-50",
-        "pride-mcq-45"
+        "pride-mcq-20",
+        "pride-mcq-22",
+        "pride-mcq-42"
       ],
       "explanation": "本句的「pride」指「一群獅子；獅群」。",
       "sentenceIndex": 124,
@@ -4776,12 +4310,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-48": "本句指「一群獅子；獅群」。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-45": "「驕者必敗」與本句語境不同。"
+        "pride-mcq-48": "本句的「pride」指「一群獅子；獅群」。",
+        "pride-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-48"
     },
@@ -4793,11 +4325,9 @@ export default {
       "masked": "The ____ rested in the shade.",
       "options": [
         "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-50",
-        "pride-mcq-47",
-        "pride-mcq-51",
-        "pride-mcq-46"
+        "pride-mcq-24",
+        "pride-mcq-33",
+        "pride-mcq-27"
       ],
       "explanation": "本句的「lion pride」指「LGBTQ+ 驕傲活動／文化用語」。",
       "sentenceIndex": 125,
@@ -4806,12 +4336,10 @@ export default {
         "lion pride"
       ],
       "optionReasons": {
-        "pride-mcq-49": "本句指「LGBTQ+ 驕傲活動／文化用語」。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-51": "「驕傲月」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-49": "本句的「lion pride」指「LGBTQ+ 驕傲活動／文化用語」。",
+        "pride-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-49"
     },
@@ -4823,11 +4351,9 @@ export default {
       "masked": "Male lions may join or take over a ____.",
       "options": [
         "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-50",
-        "pride-mcq-47",
-        "pride-mcq-51",
-        "pride-mcq-46"
+        "pride-mcq-46",
+        "pride-mcq-35",
+        "pride-mcq-48"
       ],
       "explanation": "本句的「pride」指「LGBTQ+ 驕傲活動／文化用語」。",
       "sentenceIndex": 126,
@@ -4836,12 +4362,10 @@ export default {
         "pride"
       ],
       "optionReasons": {
-        "pride-mcq-49": "本句指「LGBTQ+ 驕傲活動／文化用語」。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-51": "「驕傲月」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-49": "本句的「pride」指「LGBTQ+ 驕傲活動／文化用語」。",
+        "pride-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-49"
     },
@@ -4853,11 +4377,9 @@ export default {
       "masked": "The city holds a ____ event each year.",
       "options": [
         "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-50",
-        "pride-mcq-47",
-        "pride-mcq-51",
-        "pride-mcq-46"
+        "pride-mcq-25",
+        "pride-mcq-38",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「Pride」指「LGBTQ+ 驕傲活動／文化用語」。",
       "sentenceIndex": 127,
@@ -4866,12 +4388,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-49": "本句指「LGBTQ+ 驕傲活動／文化用語」。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-51": "「驕傲月」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-49": "本句的「Pride」指「LGBTQ+ 驕傲活動／文化用語」。",
+        "pride-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-49"
     },
@@ -4883,11 +4403,9 @@ export default {
       "masked": "____ events commonly celebrate LGBTQ+ identity and community.",
       "options": [
         "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-50",
-        "pride-mcq-47",
-        "pride-mcq-51",
-        "pride-mcq-46"
+        "pride-mcq-10",
+        "pride-mcq-32",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「Pride」指「LGBTQ+ 驕傲活動／文化用語」。",
       "sentenceIndex": 128,
@@ -4896,12 +4414,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-49": "本句指「LGBTQ+ 驕傲活動／文化用語」。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-51": "「驕傲月」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-49": "本句的「Pride」指「LGBTQ+ 驕傲活動／文化用語」。",
+        "pride-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-49"
     },
@@ -4913,11 +4429,9 @@ export default {
       "masked": "Thousands attended the ____.",
       "options": [
         "pride-mcq-50",
-        "pride-mcq-49",
-        "pride-mcq-51",
-        "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-46"
+        "pride-mcq-38",
+        "pride-mcq-02",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「Pride parade」指「同志驕傲遊行」。",
       "sentenceIndex": 129,
@@ -4926,12 +4440,10 @@ export default {
         "Pride parade"
       ],
       "optionReasons": {
-        "pride-mcq-50": "本句指「同志驕傲遊行」。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-51": "「驕傲月」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-50": "本句的「Pride parade」指「同志驕傲遊行」。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-50"
     },
@@ -4943,11 +4455,9 @@ export default {
       "masked": "____ parades are held in many cities.",
       "options": [
         "pride-mcq-50",
-        "pride-mcq-49",
-        "pride-mcq-51",
+        "pride-mcq-15",
         "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-46"
+        "pride-mcq-35"
       ],
       "explanation": "本句的「Pride」指「同志驕傲遊行」。",
       "sentenceIndex": 130,
@@ -4956,12 +4466,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-50": "本句指「同志驕傲遊行」。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-51": "「驕傲月」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-50": "本句的「Pride」指「同志驕傲遊行」。",
+        "pride-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-50"
     },
@@ -4973,11 +4481,9 @@ export default {
       "masked": "June is widely observed as ____ in a number of countries and communities.",
       "options": [
         "pride-mcq-51",
-        "pride-mcq-50",
-        "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-46"
+        "pride-pdf-002",
+        "pride-mcq-31",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「Pride Month」指「驕傲月」。",
       "sentenceIndex": 131,
@@ -4986,12 +4492,10 @@ export default {
         "Pride Month"
       ],
       "optionReasons": {
-        "pride-mcq-51": "本句指「驕傲月」。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-51": "本句的「Pride Month」指「驕傲月」。",
+        "pride-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-51"
     },
@@ -5003,11 +4507,9 @@ export default {
       "masked": "Organisations may hold events during ____ Month.",
       "options": [
         "pride-mcq-51",
-        "pride-mcq-50",
-        "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-46"
+        "pride-mcq-28",
+        "pride-mcq-38",
+        "pride-mcq-19"
       ],
       "explanation": "本句的「Pride」指「驕傲月」。",
       "sentenceIndex": 132,
@@ -5016,12 +4518,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-51": "本句指「驕傲月」。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-51": "本句的「Pride」指「驕傲月」。",
+        "pride-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-51"
     },
@@ -5033,11 +4533,9 @@ export default {
       "masked": "A ____ was displayed outside the venue.",
       "options": [
         "pride-mcq-51",
-        "pride-mcq-50",
-        "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-46"
+        "pride-mcq-27",
+        "pride-mcq-10",
+        "pride-mcq-43"
       ],
       "explanation": "本句的「Pride flag」指「驕傲月」。",
       "sentenceIndex": 133,
@@ -5046,12 +4544,10 @@ export default {
         "Pride flag"
       ],
       "optionReasons": {
-        "pride-mcq-51": "本句指「驕傲月」。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-51": "本句的「Pride flag」指「驕傲月」。",
+        "pride-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-51"
     },
@@ -5063,11 +4559,9 @@ export default {
       "masked": "Different ____ flags may represent different communities.",
       "options": [
         "pride-mcq-51",
-        "pride-mcq-50",
-        "pride-mcq-49",
-        "pride-mcq-48",
-        "pride-mcq-47",
-        "pride-mcq-46"
+        "pride-mcq-09",
+        "pride-mcq-43",
+        "pride-mcq-22"
       ],
       "explanation": "本句的「Pride」指「驕傲月」。",
       "sentenceIndex": 134,
@@ -5076,12 +4570,10 @@ export default {
         "Pride"
       ],
       "optionReasons": {
-        "pride-mcq-51": "本句指「驕傲月」。",
-        "pride-mcq-50": "「同志驕傲遊行」與本句語境不同。",
-        "pride-mcq-49": "「LGBTQ+ 驕傲活動／文化用語」與本句語境不同。",
-        "pride-mcq-48": "「一群獅子；獅群」與本句語境不同。",
-        "pride-mcq-47": "「X 的驕傲」與本句語境不同。",
-        "pride-mcq-46": "「讓自尊妨礙事情」與本句語境不同。"
+        "pride-mcq-51": "本句的「Pride」指「驕傲月」。",
+        "pride-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "pride-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pride-mcq-51"
     }
@@ -5093,5 +4585,7 @@ export default {
     "sha256": "7f6e63ac28489fa514f236664eefc596f880607cc0852460c979515bb8ad2d7f",
     "pages": 54
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

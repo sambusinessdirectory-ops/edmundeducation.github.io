@@ -525,11 +525,9 @@ export default {
       "masked": "He became much more lively than people ____.",
       "options": [
         "expect-mcq-01",
-        "expect-mcq-02",
-        "expect-mcq-03",
-        "expect-mcq-04",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-09",
+        "expect-mcq-11",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「expected」指「預料某事」。",
       "sentenceIndex": 0,
@@ -538,12 +536,10 @@ export default {
         "expected"
       ],
       "optionReasons": {
-        "expect-mcq-01": "本句指「預料某事」。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-01": "本句的「expected」指「預料某事」。",
+        "expect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-01"
     },
@@ -555,11 +551,9 @@ export default {
       "masked": "We ____, but the weather stayed dry.",
       "options": [
         "expect-mcq-01",
-        "expect-mcq-02",
-        "expect-mcq-03",
-        "expect-mcq-04",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-14",
+        "expect-mcq-17",
+        "expect-mcq-11"
       ],
       "explanation": "本句的「expected rain」指「預料某事」。",
       "sentenceIndex": 1,
@@ -568,12 +562,10 @@ export default {
         "expected rain"
       ],
       "optionReasons": {
-        "expect-mcq-01": "本句指「預料某事」。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-01": "本句的「expected rain」指「預料某事」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-01"
     },
@@ -585,11 +577,9 @@ export default {
       "masked": "I didn't ____.",
       "options": [
         "expect-mcq-01",
-        "expect-mcq-02",
-        "expect-mcq-03",
-        "expect-mcq-04",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-13",
+        "expect-mcq-10",
+        "expect-mcq-12"
       ],
       "explanation": "本句的「expect such a strong reaction」指「預料某事」。",
       "sentenceIndex": 2,
@@ -598,12 +588,10 @@ export default {
         "expect such a strong reaction"
       ],
       "optionReasons": {
-        "expect-mcq-01": "本句指「預料某事」。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-01": "本句的「expect such a strong reaction」指「預料某事」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-01"
     },
@@ -615,11 +603,9 @@ export default {
       "masked": "I ____ the report tomorrow.",
       "options": [
         "expect-mcq-02",
-        "expect-mcq-01",
-        "expect-mcq-03",
-        "expect-mcq-04",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-14",
+        "expect-mcq-20",
+        "expect-mcq-12"
       ],
       "explanation": "本句的「expect to finish」指「預期會做 X」。",
       "sentenceIndex": 3,
@@ -628,12 +614,10 @@ export default {
         "expect to finish"
       ],
       "optionReasons": {
-        "expect-mcq-02": "本句指「預期會做 X」。",
-        "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-02": "本句的「expect to finish」指「預期會做 X」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-02"
     },
@@ -645,11 +629,9 @@ export default {
       "masked": "She ____ before noon.",
       "options": [
         "expect-mcq-02",
-        "expect-mcq-01",
-        "expect-mcq-03",
-        "expect-mcq-04",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-12",
+        "expect-mcq-13",
+        "expect-mcq-11"
       ],
       "explanation": "本句的「expects to arrive」指「預期會做 X」。",
       "sentenceIndex": 4,
@@ -658,12 +640,10 @@ export default {
         "expects to arrive"
       ],
       "optionReasons": {
-        "expect-mcq-02": "本句指「預期會做 X」。",
-        "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-02": "本句的「expects to arrive」指「預期會做 X」。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-02"
     },
@@ -675,11 +655,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "expect-pdf-001",
-        "expect-mcq-02",
-        "expect-mcq-04",
-        "expect-mcq-01",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-06",
+        "expect-mcq-12",
+        "expect-mcq-11"
       ],
       "explanation": "本句的「expected him to call」指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
       "sentenceIndex": 5,
@@ -688,12 +666,10 @@ export default {
         "expected him to call"
       ],
       "optionReasons": {
-        "expect-pdf-001": "本句指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-pdf-001": "本句的「expected him to call」指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
+        "expect-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-pdf-001"
     },
@@ -705,11 +681,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "expect-pdf-001",
-        "expect-mcq-02",
-        "expect-mcq-04",
-        "expect-mcq-01",
-        "expect-mcq-05",
-        "expect-mcq-06"
+        "expect-mcq-19",
+        "expect-mcq-22",
+        "expect-mcq-20"
       ],
       "explanation": "本句的「expect students to arrive on time」指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
       "sentenceIndex": 6,
@@ -718,12 +692,10 @@ export default {
         "expect students to arrive on time"
       ],
       "optionReasons": {
-        "expect-pdf-001": "本句指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-pdf-001": "本句的「expect students to arrive on time」指「認為某人很可能會做某事；某些語境下也可表示要求某人做」。",
+        "expect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-pdf-001"
     },
@@ -735,11 +707,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "expect-mcq-04",
-        "expect-mcq-03",
-        "expect-mcq-05",
-        "expect-mcq-02",
-        "expect-mcq-06",
-        "expect-mcq-01"
+        "expect-mcq-11",
+        "expect-pdf-001",
+        "expect-mcq-21"
       ],
       "explanation": "本句的「expect that the meeting will finish early」指「預期……」。",
       "sentenceIndex": 7,
@@ -748,12 +718,10 @@ export default {
         "expect that the meeting will finish early"
       ],
       "optionReasons": {
-        "expect-mcq-04": "本句指「預期……」。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。",
-        "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。"
+        "expect-mcq-04": "本句的「expect that the meeting will finish early」指「預期……」。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-04"
     },
@@ -765,11 +733,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "expect-mcq-04",
-        "expect-mcq-03",
-        "expect-mcq-05",
-        "expect-mcq-02",
-        "expect-mcq-06",
-        "expect-mcq-01"
+        "expect-mcq-13",
+        "expect-mcq-11",
+        "expect-mcq-20"
       ],
       "explanation": "本句的「expected that sales would increase」指「預期……」。",
       "sentenceIndex": 8,
@@ -778,12 +744,10 @@ export default {
         "expected that sales would increase"
       ],
       "optionReasons": {
-        "expect-mcq-04": "本句指「預期……」。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。",
-        "expect-mcq-01": "「預料某事」是「expect something」的用法，與本句語境不同。"
+        "expect-mcq-04": "本句的「expected that sales would increase」指「預期……」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-04"
     },
@@ -795,11 +759,9 @@ export default {
       "masked": "The train is ____ at six.",
       "options": [
         "expect-mcq-05",
-        "expect-mcq-04",
-        "expect-mcq-06",
-        "expect-mcq-03",
-        "expect-mcq-07",
-        "expect-mcq-02"
+        "expect-pdf-001",
+        "expect-mcq-12",
+        "expect-mcq-19"
       ],
       "explanation": "本句的「expected to arrive」指「預計／理應 X」。",
       "sentenceIndex": 9,
@@ -808,12 +770,10 @@ export default {
         "expected to arrive"
       ],
       "optionReasons": {
-        "expect-mcq-05": "本句指「預計／理應 X」。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。"
+        "expect-mcq-05": "本句的「expected to arrive」指「預計／理應 X」。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-05"
     },
@@ -825,11 +785,9 @@ export default {
       "masked": "Employees are ____ the rules.",
       "options": [
         "expect-mcq-05",
-        "expect-mcq-04",
-        "expect-mcq-06",
-        "expect-mcq-03",
-        "expect-mcq-07",
-        "expect-mcq-02"
+        "expect-mcq-13",
+        "expect-mcq-09",
+        "expect-mcq-08"
       ],
       "explanation": "本句的「expected to follow」指「預計／理應 X」。",
       "sentenceIndex": 10,
@@ -838,12 +796,10 @@ export default {
         "expected to follow"
       ],
       "optionReasons": {
-        "expect-mcq-05": "本句指「預計／理應 X」。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-02": "「預期會做 X」是「expect to do X」的用法，與本句語境不同。"
+        "expect-mcq-05": "本句的「expected to follow」指「預計／理應 X」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-05"
     },
@@ -855,11 +811,9 @@ export default {
       "masked": "____, the test was difficult.",
       "options": [
         "expect-mcq-06",
-        "expect-mcq-05",
-        "expect-mcq-07",
-        "expect-mcq-04",
-        "expect-mcq-08",
-        "expect-mcq-03"
+        "expect-mcq-14",
+        "expect-pdf-001",
+        "expect-mcq-20"
       ],
       "explanation": "本句的「As expected」指「正如預期」。",
       "sentenceIndex": 11,
@@ -868,12 +822,10 @@ export default {
         "As expected"
       ],
       "optionReasons": {
-        "expect-mcq-06": "本句指「正如預期」。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。"
+        "expect-mcq-06": "本句的「As expected」指「正如預期」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-06"
     },
@@ -885,11 +837,9 @@ export default {
       "masked": "She arrived late, ____.",
       "options": [
         "expect-mcq-06",
-        "expect-mcq-05",
-        "expect-mcq-07",
-        "expect-mcq-04",
-        "expect-mcq-08",
-        "expect-mcq-03"
+        "expect-mcq-11",
+        "expect-mcq-13",
+        "expect-mcq-21"
       ],
       "explanation": "本句的「as expected」指「正如預期」。",
       "sentenceIndex": 12,
@@ -898,12 +848,10 @@ export default {
         "as expected"
       ],
       "optionReasons": {
-        "expect-mcq-06": "本句指「正如預期」。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-04": "「預期……」是「expect that...」的用法，與本句語境不同。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。",
-        "expect-mcq-03": "「預期／要求某人 X」是「expect someone to X」的用法，與本句語境不同。"
+        "expect-mcq-06": "本句的「as expected」指「正如預期」。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-06"
     },
@@ -915,11 +863,9 @@ export default {
       "masked": "The lesson was more interesting ____.",
       "options": [
         "expect-mcq-22",
-        "expect-mcq-21",
-        "expect-mcq-23",
-        "expect-mcq-20",
-        "expect-mcq-19",
-        "expect-mcq-18"
+        "expect-mcq-09",
+        "expect-mcq-11",
+        "expect-mcq-13"
       ],
       "explanation": "本句的「than expected」指「與原先預料相比，實際情況有所不同」。",
       "sentenceIndex": 13,
@@ -928,12 +874,10 @@ export default {
         "than expected"
       ],
       "optionReasons": {
-        "expect-mcq-22": "本句指「與原先預料相比，實際情況有所不同」。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-23": "「好、強或大到超過原先所預計的程度」是「20. beyond expectations — 超乎預期」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。"
+        "expect-mcq-22": "本句的「than expected」指「與原先預料相比，實際情況有所不同」。",
+        "expect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-22"
     },
@@ -945,11 +889,9 @@ export default {
       "masked": "The journey took longer ____.",
       "options": [
         "expect-mcq-22",
-        "expect-mcq-21",
-        "expect-mcq-23",
-        "expect-mcq-20",
-        "expect-mcq-19",
-        "expect-mcq-18"
+        "expect-mcq-11",
+        "expect-mcq-10",
+        "expect-mcq-14"
       ],
       "explanation": "本句的「than expected」指「與原先預料相比，實際情況有所不同」。",
       "sentenceIndex": 14,
@@ -958,12 +900,10 @@ export default {
         "than expected"
       ],
       "optionReasons": {
-        "expect-mcq-22": "本句指「與原先預料相比，實際情況有所不同」。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-23": "「好、強或大到超過原先所預計的程度」是「20. beyond expectations — 超乎預期」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。"
+        "expect-mcq-22": "本句的「than expected」指「與原先預料相比，實際情況有所不同」。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-22"
     },
@@ -975,11 +915,9 @@ export default {
       "masked": "He's only eight—____",
       "options": [
         "expect-mcq-08",
-        "expect-mcq-07",
-        "expect-mcq-09",
-        "expect-mcq-06",
-        "expect-mcq-10",
-        "expect-mcq-05"
+        "expect-mcq-12",
+        "expect-mcq-13",
+        "expect-mcq-21"
       ],
       "explanation": "本句的「what do you expect?」指「你還期待甚麼？」。",
       "sentenceIndex": 15,
@@ -988,12 +926,10 @@ export default {
         "what do you expect?"
       ],
       "optionReasons": {
-        "expect-mcq-08": "本句指「你還期待甚麼？」。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。"
+        "expect-mcq-08": "本句的「what do you expect?」指「你還期待甚麼？」。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-08"
     },
@@ -1005,11 +941,9 @@ export default {
       "masked": "It's raining heavily. ____",
       "options": [
         "expect-mcq-08",
-        "expect-mcq-07",
-        "expect-mcq-09",
-        "expect-mcq-06",
-        "expect-mcq-10",
-        "expect-mcq-05"
+        "expect-mcq-14",
+        "expect-mcq-12",
+        "expect-mcq-20"
       ],
       "explanation": "本句的「What did you expect?」指「你還期待甚麼？」。",
       "sentenceIndex": 16,
@@ -1018,12 +952,10 @@ export default {
         "What did you expect?"
       ],
       "optionReasons": {
-        "expect-mcq-08": "本句指「你還期待甚麼？」。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-05": "「預計／理應 X」是「be expected to X」的用法，與本句語境不同。"
+        "expect-mcq-08": "本句的「What did you expect?」指「你還期待甚麼？」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-08"
     },
@@ -1035,11 +967,9 @@ export default {
       "masked": "Don't ____ from yourself.",
       "options": [
         "expect-mcq-09",
-        "expect-mcq-08",
-        "expect-mcq-10",
-        "expect-mcq-07",
-        "expect-mcq-11",
-        "expect-mcq-06"
+        "expect-mcq-20",
+        "expect-mcq-12",
+        "expect-mcq-05"
       ],
       "explanation": "本句的「expect too much」指「期望過高」。",
       "sentenceIndex": 17,
@@ -1048,12 +978,10 @@ export default {
         "expect too much"
       ],
       "optionReasons": {
-        "expect-mcq-09": "本句指「期望過高」。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-09": "本句的「expect too much」指「期望過高」。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-09"
     },
@@ -1065,11 +993,9 @@ export default {
       "masked": "Parents sometimes ____.",
       "options": [
         "expect-mcq-09",
-        "expect-mcq-08",
-        "expect-mcq-10",
-        "expect-mcq-07",
-        "expect-mcq-11",
-        "expect-mcq-06"
+        "expect-mcq-14",
+        "expect-mcq-22",
+        "expect-mcq-12"
       ],
       "explanation": "本句的「expect too much of their children」指「期望過高」。",
       "sentenceIndex": 18,
@@ -1078,12 +1004,10 @@ export default {
         "expect too much of their children"
       ],
       "optionReasons": {
-        "expect-mcq-09": "本句指「期望過高」。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-06": "「正如預期」是「as expected」的用法，與本句語境不同。"
+        "expect-mcq-09": "本句的「expect too much of their children」指「期望過高」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-09"
     },
@@ -1095,11 +1019,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "expect-mcq-10",
-        "expect-mcq-09",
-        "expect-mcq-11",
-        "expect-mcq-08",
-        "expect-mcq-12",
-        "expect-mcq-07"
+        "expect-mcq-22",
+        "expect-mcq-14",
+        "expect-mcq-20"
       ],
       "explanation": "本句的「expect honesty from my staff」指「期望某人提供 X」。",
       "sentenceIndex": 19,
@@ -1108,12 +1030,10 @@ export default {
         "expect honesty from my staff"
       ],
       "optionReasons": {
-        "expect-mcq-10": "本句指「期望某人提供 X」。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。"
+        "expect-mcq-10": "本句的「expect honesty from my staff」指「期望某人提供 X」。",
+        "expect-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-10"
     },
@@ -1125,11 +1045,9 @@ export default {
       "masked": "What do you ____?",
       "options": [
         "expect-mcq-10",
-        "expect-mcq-09",
-        "expect-mcq-11",
-        "expect-mcq-08",
         "expect-mcq-12",
-        "expect-mcq-07"
+        "expect-mcq-01",
+        "expect-mcq-14"
       ],
       "explanation": "本句的「expect from a good teacher」指「期望某人提供 X」。",
       "sentenceIndex": 20,
@@ -1138,12 +1056,10 @@ export default {
         "expect from a good teacher"
       ],
       "optionReasons": {
-        "expect-mcq-10": "本句指「期望某人提供 X」。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-07": "「比預期……」是「than expected」的用法，與本句語境不同。"
+        "expect-mcq-10": "本句的「expect from a good teacher」指「期望某人提供 X」。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-10"
     },
@@ -1155,11 +1071,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "expect-mcq-11",
-        "expect-mcq-10",
-        "expect-mcq-12",
-        "expect-mcq-09",
         "expect-mcq-13",
-        "expect-mcq-08"
+        "expect-mcq-17",
+        "expect-mcq-12"
       ],
       "explanation": "本句的「expecting the worst」指「作最壞打算」。",
       "sentenceIndex": 21,
@@ -1168,12 +1082,10 @@ export default {
         "expecting the worst"
       ],
       "optionReasons": {
-        "expect-mcq-11": "本句指「作最壞打算」。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。"
+        "expect-mcq-11": "本句的「expecting the worst」指「作最壞打算」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-11"
     },
@@ -1185,11 +1097,9 @@ export default {
       "masked": "Don't always ____.",
       "options": [
         "expect-mcq-11",
-        "expect-mcq-10",
-        "expect-mcq-12",
         "expect-mcq-09",
-        "expect-mcq-13",
-        "expect-mcq-08"
+        "expect-mcq-08",
+        "expect-mcq-05"
       ],
       "explanation": "本句的「expect the worst」指「作最壞打算」。",
       "sentenceIndex": 22,
@@ -1198,12 +1108,10 @@ export default {
         "expect the worst"
       ],
       "optionReasons": {
-        "expect-mcq-11": "本句指「作最壞打算」。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-08": "「你還期待甚麼？」是「what do you expect?」的用法，與本句語境不同。"
+        "expect-mcq-11": "本句的「expect the worst」指「作最壞打算」。",
+        "expect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-11"
     },
@@ -1215,11 +1123,9 @@ export default {
       "masked": "We're ____ tonight.",
       "options": [
         "expect-mcq-12",
-        "expect-mcq-11",
-        "expect-mcq-13",
-        "expect-mcq-10",
-        "expect-mcq-14",
-        "expect-mcq-09"
+        "expect-mcq-04",
+        "expect-mcq-20",
+        "expect-mcq-14"
       ],
       "explanation": "本句的「expecting guests」指「等候客人到來」。",
       "sentenceIndex": 23,
@@ -1228,12 +1134,10 @@ export default {
         "expecting guests"
       ],
       "optionReasons": {
-        "expect-mcq-12": "本句指「等候客人到來」。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。"
+        "expect-mcq-12": "本句的「expecting guests」指「等候客人到來」。",
+        "expect-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-12"
     },
@@ -1245,11 +1149,9 @@ export default {
       "masked": "The doctor is ____ at three.",
       "options": [
         "expect-mcq-12",
-        "expect-mcq-11",
         "expect-mcq-13",
-        "expect-mcq-10",
-        "expect-mcq-14",
-        "expect-mcq-09"
+        "expect-mcq-17",
+        "expect-mcq-18"
       ],
       "explanation": "本句的「expecting you」指「等候客人到來」。",
       "sentenceIndex": 24,
@@ -1258,12 +1160,10 @@ export default {
         "expecting you"
       ],
       "optionReasons": {
-        "expect-mcq-12": "本句指「等候客人到來」。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-09": "「期望過高」是「expect too much」的用法，與本句語境不同。"
+        "expect-mcq-12": "本句的「expecting you」指「等候客人到來」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-12"
     },
@@ -1275,11 +1175,9 @@ export default {
       "masked": "They're ____ in June.",
       "options": [
         "expect-mcq-13",
+        "expect-mcq-23",
         "expect-mcq-12",
-        "expect-mcq-14",
-        "expect-mcq-11",
-        "expect-mcq-15",
-        "expect-mcq-10"
+        "expect-mcq-21"
       ],
       "explanation": "本句的「expecting a baby」指「懷孕／將有孩子」。",
       "sentenceIndex": 25,
@@ -1288,12 +1186,10 @@ export default {
         "expecting a baby"
       ],
       "optionReasons": {
-        "expect-mcq-13": "本句指「懷孕／將有孩子」。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。"
+        "expect-mcq-13": "本句的「expecting a baby」指「懷孕／將有孩子」。",
+        "expect-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-13"
     },
@@ -1305,11 +1201,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "expect-mcq-13",
-        "expect-mcq-12",
-        "expect-mcq-14",
-        "expect-mcq-11",
-        "expect-mcq-15",
-        "expect-mcq-10"
+        "expect-mcq-18",
+        "expect-mcq-10",
+        "expect-mcq-11"
       ],
       "explanation": "本句的「expecting her first child」指「懷孕／將有孩子」。",
       "sentenceIndex": 26,
@@ -1318,12 +1212,10 @@ export default {
         "expecting her first child"
       ],
       "optionReasons": {
-        "expect-mcq-13": "本句指「懷孕／將有孩子」。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。",
-        "expect-mcq-10": "「期望某人提供 X」是「expect X from someone」的用法，與本句語境不同。"
+        "expect-mcq-13": "本句的「expecting her first child」指「懷孕／將有孩子」。",
+        "expect-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-13"
     },
@@ -1335,10 +1227,8 @@ export default {
       "masked": "Did you hear that she's ____?",
       "options": [
         "expect-mcq-14",
-        "expect-mcq-13",
+        "expect-mcq-20",
         "expect-mcq-15",
-        "expect-mcq-12",
-        "expect-mcq-16",
         "expect-mcq-11"
       ],
       "explanation": "本句的「expecting」指「懷孕」。",
@@ -1348,12 +1238,10 @@ export default {
         "expecting"
       ],
       "optionReasons": {
-        "expect-mcq-14": "本句指「懷孕」。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。"
+        "expect-mcq-14": "本句的「expecting」指「懷孕」。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-14"
     },
@@ -1365,11 +1253,9 @@ export default {
       "masked": "They announced that they were ____.",
       "options": [
         "expect-mcq-14",
-        "expect-mcq-13",
-        "expect-mcq-15",
-        "expect-mcq-12",
-        "expect-mcq-16",
-        "expect-mcq-11"
+        "expect-mcq-10",
+        "expect-mcq-21",
+        "expect-mcq-08"
       ],
       "explanation": "本句的「expecting」指「懷孕」。",
       "sentenceIndex": 28,
@@ -1378,12 +1264,10 @@ export default {
         "expecting"
       ],
       "optionReasons": {
-        "expect-mcq-14": "本句指「懷孕」。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-11": "「作最壞打算」是「expect the worst」的用法，與本句語境不同。"
+        "expect-mcq-14": "本句的「expecting」指「懷孕」。",
+        "expect-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-14"
     },
@@ -1396,10 +1280,8 @@ export default {
       "options": [
         "expect-mcq-15",
         "expect-mcq-14",
-        "expect-mcq-16",
-        "expect-mcq-13",
-        "expect-mcq-17",
-        "expect-mcq-12"
+        "expect-mcq-21",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「expectations」指「預期」。",
       "sentenceIndex": 29,
@@ -1408,12 +1290,10 @@ export default {
         "expectations"
       ],
       "optionReasons": {
-        "expect-mcq-15": "本句指「預期」。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。"
+        "expect-mcq-15": "本句的「expectations」指「預期」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-15"
     },
@@ -1425,11 +1305,9 @@ export default {
       "masked": "Inflation was higher than ____.",
       "options": [
         "expect-mcq-15",
-        "expect-mcq-14",
-        "expect-mcq-16",
         "expect-mcq-13",
-        "expect-mcq-17",
-        "expect-mcq-12"
+        "expect-mcq-12",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「expectations」指「預期」。",
       "sentenceIndex": 30,
@@ -1438,12 +1316,10 @@ export default {
         "expectations"
       ],
       "optionReasons": {
-        "expect-mcq-15": "本句指「預期」。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。"
+        "expect-mcq-15": "本句的「expectations」指「預期」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-15"
     },
@@ -1455,11 +1331,9 @@ export default {
       "masked": "Parents often have high ____ of their children.",
       "options": [
         "expect-mcq-15",
-        "expect-mcq-14",
-        "expect-mcq-16",
         "expect-mcq-13",
-        "expect-mcq-17",
-        "expect-mcq-12"
+        "expect-mcq-11",
+        "expect-mcq-21"
       ],
       "explanation": "本句的「expectations」指「預期」。",
       "sentenceIndex": 31,
@@ -1468,12 +1342,10 @@ export default {
         "expectations"
       ],
       "optionReasons": {
-        "expect-mcq-15": "本句指「預期」。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。"
+        "expect-mcq-15": "本句的「expectations」指「預期」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-15"
     },
@@ -1485,11 +1357,9 @@ export default {
       "masked": "The teacher's ____ were clear.",
       "options": [
         "expect-mcq-15",
-        "expect-mcq-14",
-        "expect-mcq-16",
-        "expect-mcq-13",
-        "expect-mcq-17",
-        "expect-mcq-12"
+        "expect-mcq-12",
+        "expect-pdf-001",
+        "expect-mcq-21"
       ],
       "explanation": "本句的「expectations」指「預期」。",
       "sentenceIndex": 32,
@@ -1498,12 +1368,10 @@ export default {
         "expectations"
       ],
       "optionReasons": {
-        "expect-mcq-15": "本句指「預期」。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-13": "「懷孕／將有孩子」是「expect a baby」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-12": "「等候客人到來」是「expect guests」的用法，與本句語境不同。"
+        "expect-mcq-15": "本句的「expectations」指「預期」。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-15"
     },
@@ -1515,11 +1383,9 @@ export default {
       "masked": "The film ____.",
       "options": [
         "expect-mcq-17",
-        "expect-mcq-16",
-        "expect-mcq-18",
-        "expect-mcq-15",
-        "expect-mcq-19",
-        "expect-mcq-14"
+        "expect-mcq-12",
+        "expect-mcq-20",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「met my expectations」指「符合期望」。",
       "sentenceIndex": 33,
@@ -1528,12 +1394,10 @@ export default {
         "met my expectations"
       ],
       "optionReasons": {
-        "expect-mcq-17": "本句指「符合期望」。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。"
+        "expect-mcq-17": "本句的「met my expectations」指「符合期望」。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-17"
     },
@@ -1545,11 +1409,9 @@ export default {
       "masked": "His performance ____.",
       "options": [
         "expect-mcq-17",
-        "expect-mcq-16",
-        "expect-mcq-18",
-        "expect-mcq-15",
-        "expect-mcq-19",
-        "expect-mcq-14"
+        "expect-mcq-13",
+        "expect-pdf-001",
+        "expect-mcq-01"
       ],
       "explanation": "本句的「met expectations」指「符合期望」。",
       "sentenceIndex": 34,
@@ -1558,12 +1420,10 @@ export default {
         "met expectations"
       ],
       "optionReasons": {
-        "expect-mcq-17": "本句指「符合期望」。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-14": "「懷孕」是「be expecting」的用法，與本句語境不同。"
+        "expect-mcq-17": "本句的「met expectations」指「符合期望」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-17"
     },
@@ -1575,11 +1435,9 @@ export default {
       "masked": "Her performance ____.",
       "options": [
         "expect-mcq-18",
-        "expect-mcq-17",
-        "expect-mcq-19",
-        "expect-mcq-16",
-        "expect-mcq-20",
-        "expect-mcq-15"
+        "expect-pdf-001",
+        "expect-mcq-12",
+        "expect-mcq-11"
       ],
       "explanation": "本句的「exceeded expectations」指「超出預期」。",
       "sentenceIndex": 35,
@@ -1588,12 +1446,10 @@ export default {
         "exceeded expectations"
       ],
       "optionReasons": {
-        "expect-mcq-18": "本句指「超出預期」。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。"
+        "expect-mcq-18": "本句的「exceeded expectations」指「超出預期」。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-18"
     },
@@ -1605,11 +1461,9 @@ export default {
       "masked": "Sales ____.",
       "options": [
         "expect-mcq-18",
-        "expect-mcq-17",
-        "expect-mcq-19",
-        "expect-mcq-16",
-        "expect-mcq-20",
-        "expect-mcq-15"
+        "expect-mcq-13",
+        "expect-pdf-001",
+        "expect-mcq-12"
       ],
       "explanation": "本句的「exceeded our expectations」指「超出預期」。",
       "sentenceIndex": 36,
@@ -1618,12 +1472,10 @@ export default {
         "exceeded our expectations"
       ],
       "optionReasons": {
-        "expect-mcq-18": "本句指「超出預期」。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-15": "「預期」是「expectation」的用法，與本句語境不同。"
+        "expect-mcq-18": "本句的「exceeded our expectations」指「超出預期」。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-18"
     },
@@ -1635,11 +1487,9 @@ export default {
       "masked": "The results ____.",
       "options": [
         "expect-mcq-19",
-        "expect-mcq-18",
         "expect-mcq-20",
-        "expect-mcq-17",
-        "expect-mcq-21",
-        "expect-mcq-16"
+        "expect-mcq-14",
+        "expect-mcq-05"
       ],
       "explanation": "本句的「fell short of expectations」指「未達期望」。",
       "sentenceIndex": 37,
@@ -1648,12 +1498,10 @@ export default {
         "fell short of expectations"
       ],
       "optionReasons": {
-        "expect-mcq-19": "本句指「未達期望」。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。"
+        "expect-mcq-19": "本句的「fell short of expectations」指「未達期望」。",
+        "expect-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-19"
     },
@@ -1665,11 +1513,9 @@ export default {
       "masked": "The product ____.",
       "options": [
         "expect-mcq-19",
-        "expect-mcq-18",
-        "expect-mcq-20",
-        "expect-mcq-17",
         "expect-mcq-21",
-        "expect-mcq-16"
+        "expect-mcq-11",
+        "expect-mcq-22"
       ],
       "explanation": "本句的「fell short of customer expectations」指「未達期望」。",
       "sentenceIndex": 38,
@@ -1678,12 +1524,10 @@ export default {
         "fell short of customer expectations"
       ],
       "optionReasons": {
-        "expect-mcq-19": "本句指「未達期望」。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-16": "「期望；要求」是「expectations」的用法，與本句語境不同。"
+        "expect-mcq-19": "本句的「fell short of customer expectations」指「未達期望」。",
+        "expect-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-19"
     },
@@ -1695,11 +1539,9 @@ export default {
       "masked": "The event was successful ____.",
       "options": [
         "expect-mcq-23",
-        "expect-mcq-22",
-        "expect-mcq-21",
-        "expect-mcq-20",
-        "expect-mcq-19",
-        "expect-mcq-18"
+        "expect-mcq-17",
+        "expect-mcq-13",
+        "expect-mcq-08"
       ],
       "explanation": "本句的「beyond expectations」指「好、強或大到超過原先所預計的程度」。",
       "sentenceIndex": 39,
@@ -1708,12 +1550,10 @@ export default {
         "beyond expectations"
       ],
       "optionReasons": {
-        "expect-mcq-23": "本句指「好、強或大到超過原先所預計的程度」。",
-        "expect-mcq-22": "「與原先預料相比，實際情況有所不同」是「7. more / less / better / worse than expected — 比預期更……／較……」的用法，與本句語境不同。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。"
+        "expect-mcq-23": "本句的「beyond expectations」指「好、強或大到超過原先所預計的程度」。",
+        "expect-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-23"
     },
@@ -1725,11 +1565,9 @@ export default {
       "masked": "The response was positive ____.",
       "options": [
         "expect-mcq-23",
-        "expect-mcq-22",
-        "expect-mcq-21",
-        "expect-mcq-20",
-        "expect-mcq-19",
-        "expect-mcq-18"
+        "expect-mcq-11",
+        "expect-mcq-12",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「beyond our expectations」指「好、強或大到超過原先所預計的程度」。",
       "sentenceIndex": 40,
@@ -1738,12 +1576,10 @@ export default {
         "beyond our expectations"
       ],
       "optionReasons": {
-        "expect-mcq-23": "本句指「好、強或大到超過原先所預計的程度」。",
-        "expect-mcq-22": "「與原先預料相比，實際情況有所不同」是「7. more / less / better / worse than expected — 比預期更……／較……」的用法，與本句語境不同。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。"
+        "expect-mcq-23": "本句的「beyond our expectations」指「好、強或大到超過原先所預計的程度」。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-23"
     },
@@ -1755,11 +1591,9 @@ export default {
       "masked": "We had an ____.",
       "options": [
         "expect-mcq-20",
-        "expect-mcq-19",
-        "expect-mcq-21",
-        "expect-mcq-18",
-        "expect-mcq-22",
-        "expect-mcq-17"
+        "expect-mcq-15",
+        "expect-mcq-11",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「unexpected visitor」指「出乎意料的」。",
       "sentenceIndex": 41,
@@ -1768,12 +1602,10 @@ export default {
         "unexpected visitor"
       ],
       "optionReasons": {
-        "expect-mcq-20": "本句指「出乎意料的」。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。",
-        "expect-mcq-22": "「與原先預料相比，實際情況有所不同」是「7. more / less / better / worse than expected — 比預期更……／較……」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。"
+        "expect-mcq-20": "本句的「unexpected visitor」指「出乎意料的」。",
+        "expect-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-20"
     },
@@ -1786,10 +1618,8 @@ export default {
       "options": [
         "expect-mcq-20",
         "expect-mcq-19",
-        "expect-mcq-21",
-        "expect-mcq-18",
-        "expect-mcq-22",
-        "expect-mcq-17"
+        "expect-mcq-23",
+        "expect-mcq-08"
       ],
       "explanation": "本句的「unexpected」指「出乎意料的」。",
       "sentenceIndex": 42,
@@ -1798,12 +1628,10 @@ export default {
         "unexpected"
       ],
       "optionReasons": {
-        "expect-mcq-20": "本句指「出乎意料的」。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-21": "「出乎意料地」是「unexpectedly」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。",
-        "expect-mcq-22": "「與原先預料相比，實際情況有所不同」是「7. more / less / better / worse than expected — 比預期更……／較……」的用法，與本句語境不同。",
-        "expect-mcq-17": "「符合期望」是「meet expectations」的用法，與本句語境不同。"
+        "expect-mcq-20": "本句的「unexpected」指「出乎意料的」。",
+        "expect-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-20"
     },
@@ -1815,11 +1643,9 @@ export default {
       "masked": "He arrived ____.",
       "options": [
         "expect-mcq-21",
-        "expect-mcq-20",
-        "expect-mcq-22",
-        "expect-mcq-19",
-        "expect-mcq-23",
-        "expect-mcq-18"
+        "expect-mcq-14",
+        "expect-mcq-15",
+        "expect-pdf-001"
       ],
       "explanation": "本句的「unexpectedly」指「出乎意料地」。",
       "sentenceIndex": 43,
@@ -1828,12 +1654,10 @@ export default {
         "unexpectedly"
       ],
       "optionReasons": {
-        "expect-mcq-21": "本句指「出乎意料地」。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-22": "「與原先預料相比，實際情況有所不同」是「7. more / less / better / worse than expected — 比預期更……／較……」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-23": "「好、強或大到超過原先所預計的程度」是「20. beyond expectations — 超乎預期」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。"
+        "expect-mcq-21": "本句的「unexpectedly」指「出乎意料地」。",
+        "expect-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "expect-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-21"
     },
@@ -1845,11 +1669,9 @@ export default {
       "masked": "The lesson was ____.",
       "options": [
         "expect-mcq-21",
-        "expect-mcq-20",
-        "expect-mcq-22",
-        "expect-mcq-19",
-        "expect-mcq-23",
-        "expect-mcq-18"
+        "expect-mcq-09",
+        "expect-mcq-05",
+        "expect-mcq-12"
       ],
       "explanation": "本句的「unexpectedly enjoyable」指「出乎意料地」。",
       "sentenceIndex": 44,
@@ -1858,12 +1680,10 @@ export default {
         "unexpectedly enjoyable"
       ],
       "optionReasons": {
-        "expect-mcq-21": "本句指「出乎意料地」。",
-        "expect-mcq-20": "「出乎意料的」是「unexpected」的用法，與本句語境不同。",
-        "expect-mcq-22": "「與原先預料相比，實際情況有所不同」是「7. more / less / better / worse than expected — 比預期更……／較……」的用法，與本句語境不同。",
-        "expect-mcq-19": "「未達期望」是「fall short of expectations」的用法，與本句語境不同。",
-        "expect-mcq-23": "「好、強或大到超過原先所預計的程度」是「20. beyond expectations — 超乎預期」的用法，與本句語境不同。",
-        "expect-mcq-18": "「超出預期」是「exceed expectations」的用法，與本句語境不同。"
+        "expect-mcq-21": "本句的「unexpectedly enjoyable」指「出乎意料地」。",
+        "expect-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "expect-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expect-mcq-21"
     }
@@ -1875,5 +1695,7 @@ export default {
     "sha256": "afe71800a47eaf20a817f2eb19d32a8c1b68cd0c8de6c9b0c91007db5037a6f6",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

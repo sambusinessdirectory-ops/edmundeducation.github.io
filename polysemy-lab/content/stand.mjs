@@ -471,11 +471,9 @@ export default {
       "masked": "Everyone ____ when the teacher entered the room.",
       "options": [
         "stand-mcq-01",
-        "stand-mcq-02",
-        "stand-mcq-03",
         "stand-mcq-04",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-17",
+        "stand-mcq-19"
       ],
       "explanation": "本句的「stood」指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
       "sentenceIndex": 0,
@@ -484,12 +482,10 @@ export default {
         "stood"
       ],
       "optionReasons": {
-        "stand-mcq-01": "本句指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-01": "本句的「stood」指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-01"
     },
@@ -501,11 +497,9 @@ export default {
       "masked": "I had to ____ for the entire journey because there were no seats.",
       "options": [
         "stand-mcq-01",
-        "stand-mcq-02",
-        "stand-mcq-03",
-        "stand-mcq-04",
+        "stand-mcq-06",
         "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-14"
       ],
       "explanation": "本句的「stand」指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
       "sentenceIndex": 1,
@@ -514,12 +508,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-01": "本句指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-01": "本句的「stand」指「身體保持直立並由雙腳支撐，而不是坐着或躺着」。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-01"
     },
@@ -531,11 +523,9 @@ export default {
       "masked": "She ____ beside the window and watched the rain.",
       "options": [
         "stand-pdf-001",
-        "stand-mcq-02",
-        "stand-mcq-03",
-        "stand-mcq-04",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-17",
+        "stand-mcq-18",
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stood」指「以站立姿勢處於某個位置」。",
       "sentenceIndex": 2,
@@ -544,12 +534,10 @@ export default {
         "stood"
       ],
       "optionReasons": {
-        "stand-pdf-001": "本句指「以站立姿勢處於某個位置」。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-pdf-001": "本句的「stood」指「以站立姿勢處於某個位置」。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-pdf-001"
     },
@@ -561,11 +549,9 @@ export default {
       "masked": "A police officer was ____ at the entrance.",
       "options": [
         "stand-pdf-001",
-        "stand-mcq-02",
-        "stand-mcq-03",
+        "stand-mcq-14",
         "stand-mcq-04",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-16"
       ],
       "explanation": "本句的「standing」指「以站立姿勢處於某個位置」。",
       "sentenceIndex": 3,
@@ -574,12 +560,10 @@ export default {
         "standing"
       ],
       "optionReasons": {
-        "stand-pdf-001": "本句指「以站立姿勢處於某個位置」。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-pdf-001": "本句的「standing」指「以站立姿勢處於某個位置」。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-pdf-001"
     },
@@ -591,11 +575,9 @@ export default {
       "masked": "An old church ____ at the top of the hill.",
       "options": [
         "stand-mcq-02",
-        "stand-mcq-01",
-        "stand-mcq-03",
-        "stand-mcq-04",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-10",
+        "stand-mcq-17",
+        "stand-mcq-14"
       ],
       "explanation": "本句的「stands」指「建築物或物件固定地位於、矗立於某個地方」。",
       "sentenceIndex": 4,
@@ -604,12 +586,10 @@ export default {
         "stands"
       ],
       "optionReasons": {
-        "stand-mcq-02": "本句指「建築物或物件固定地位於、矗立於某個地方」。",
-        "stand-mcq-01": "「身體保持直立並由雙腳支撐，而不是坐着或躺着」是「stand — person upright」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-02": "本句的「stands」指「建築物或物件固定地位於、矗立於某個地方」。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-02"
     },
@@ -621,11 +601,9 @@ export default {
       "masked": "The statue once ____ in the centre of the square.",
       "options": [
         "stand-mcq-02",
-        "stand-mcq-01",
-        "stand-mcq-03",
-        "stand-mcq-04",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-17",
+        "stand-mcq-10",
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stood」指「建築物或物件固定地位於、矗立於某個地方」。",
       "sentenceIndex": 5,
@@ -634,12 +612,10 @@ export default {
         "stood"
       ],
       "optionReasons": {
-        "stand-mcq-02": "本句指「建築物或物件固定地位於、矗立於某個地方」。",
-        "stand-mcq-01": "「身體保持直立並由雙腳支撐，而不是坐着或躺着」是「stand — person upright」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-02": "本句的「stood」指「建築物或物件固定地位於、矗立於某個地方」。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-02"
     },
@@ -651,11 +627,9 @@ export default {
       "masked": "She ____ on the table.",
       "options": [
         "stand-mcq-03",
-        "stand-mcq-02",
-        "stand-mcq-04",
-        "stand-mcq-01",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-06",
+        "stand-mcq-13",
+        "stand-mcq-18"
       ],
       "explanation": "本句的「stood the bottle」指「把某件物件以直立姿勢放置或豎起」。",
       "sentenceIndex": 6,
@@ -664,12 +638,10 @@ export default {
         "stood the bottle"
       ],
       "optionReasons": {
-        "stand-mcq-03": "本句指「把某件物件以直立姿勢放置或豎起」。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-01": "「身體保持直立並由雙腳支撐，而不是坐着或躺着」是「stand — person upright」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-03": "本句的「stood the bottle」指「把某件物件以直立姿勢放置或豎起」。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-03"
     },
@@ -681,11 +653,9 @@ export default {
       "masked": "He ____ against the wall.",
       "options": [
         "stand-mcq-03",
-        "stand-mcq-02",
-        "stand-mcq-04",
-        "stand-mcq-01",
-        "stand-mcq-05",
-        "stand-mcq-06"
+        "stand-mcq-06",
+        "stand-mcq-14",
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stood the ladder」指「把某件物件以直立姿勢放置或豎起」。",
       "sentenceIndex": 7,
@@ -694,12 +664,10 @@ export default {
         "stood the ladder"
       ],
       "optionReasons": {
-        "stand-mcq-03": "本句指「把某件物件以直立姿勢放置或豎起」。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-01": "「身體保持直立並由雙腳支撐，而不是坐着或躺着」是「stand — person upright」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-03": "本句的「stood the ladder」指「把某件物件以直立姿勢放置或豎起」。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-03"
     },
@@ -711,11 +679,9 @@ export default {
       "masked": "I can’t ____ the noise from the construction site.",
       "options": [
         "stand-mcq-04",
-        "stand-mcq-03",
-        "stand-mcq-05",
-        "stand-mcq-02",
-        "stand-mcq-06",
-        "stand-mcq-01"
+        "stand-mcq-09",
+        "stand-mcq-16",
+        "stand-mcq-14"
       ],
       "explanation": "本句的「stand」指「忍受令人不愉快、煩厭或難以接受的人、事情或情況」。",
       "sentenceIndex": 8,
@@ -724,12 +690,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-04": "本句指「忍受令人不愉快、煩厭或難以接受的人、事情或情況」。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-01": "「身體保持直立並由雙腳支撐，而不是坐着或躺着」是「stand — person upright」的用法，與本句語境不同。"
+        "stand-mcq-04": "本句的「stand」指「忍受令人不愉快、煩厭或難以接受的人、事情或情況」。",
+        "stand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-04"
     },
@@ -742,10 +706,8 @@ export default {
       "options": [
         "stand-mcq-04",
         "stand-mcq-03",
-        "stand-mcq-05",
-        "stand-mcq-02",
-        "stand-mcq-06",
-        "stand-mcq-01"
+        "stand-pdf-002",
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stand」指「忍受令人不愉快、煩厭或難以接受的人、事情或情況」。",
       "sentenceIndex": 9,
@@ -754,12 +716,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-04": "本句指「忍受令人不愉快、煩厭或難以接受的人、事情或情況」。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-01": "「身體保持直立並由雙腳支撐，而不是坐着或躺着」是「stand — person upright」的用法，與本句語境不同。"
+        "stand-mcq-04": "本句的「stand」指「忍受令人不愉快、煩厭或難以接受的人、事情或情況」。",
+        "stand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stand-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-04"
     },
@@ -771,11 +731,9 @@ export default {
       "masked": "This material can ____ extremely high temperatures.",
       "options": [
         "stand-mcq-05",
-        "stand-mcq-04",
-        "stand-mcq-06",
-        "stand-mcq-03",
-        "stand-mcq-07",
-        "stand-mcq-02"
+        "stand-mcq-12",
+        "stand-mcq-09",
+        "stand-mcq-16"
       ],
       "explanation": "本句的「stand」指「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」。",
       "sentenceIndex": 10,
@@ -784,12 +742,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-05": "本句指「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。"
+        "stand-mcq-05": "本句的「stand」指「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」。",
+        "stand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-05"
     },
@@ -801,11 +757,9 @@ export default {
       "masked": "The bridge was designed to ____ strong winds.",
       "options": [
         "stand-mcq-05",
-        "stand-mcq-04",
-        "stand-mcq-06",
-        "stand-mcq-03",
-        "stand-mcq-07",
-        "stand-mcq-02"
+        "stand-mcq-17",
+        "stand-mcq-01",
+        "stand-mcq-10"
       ],
       "explanation": "本句的「stand」指「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」。",
       "sentenceIndex": 11,
@@ -814,12 +768,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-05": "本句指「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-02": "「建築物或物件固定地位於、矗立於某個地方」是「building/object stands somewhere」的用法，與本句語境不同。"
+        "stand-mcq-05": "本句的「stand」指「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-05"
     },
@@ -831,11 +783,9 @@ export default {
       "masked": "Unemployment currently ____ five percent.",
       "options": [
         "stand-mcq-06",
-        "stand-mcq-05",
-        "stand-mcq-07",
-        "stand-mcq-04",
-        "stand-mcq-08",
-        "stand-mcq-03"
+        "stand-mcq-16",
+        "stand-mcq-10",
+        "stand-mcq-18"
       ],
       "explanation": "本句的「stands at」指「某個數值、比率或水平目前處於某個數字」。",
       "sentenceIndex": 12,
@@ -844,12 +794,10 @@ export default {
         "stands at"
       ],
       "optionReasons": {
-        "stand-mcq-06": "本句指「某個數值、比率或水平目前處於某個數字」。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。"
+        "stand-mcq-06": "本句的「stands at」指「某個數值、比率或水平目前處於某個數字」。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-06"
     },
@@ -861,10 +809,8 @@ export default {
       "masked": "The total cost ____ almost two million dollars.",
       "options": [
         "stand-mcq-06",
-        "stand-mcq-05",
-        "stand-mcq-07",
         "stand-mcq-04",
-        "stand-mcq-08",
+        "stand-mcq-18",
         "stand-mcq-03"
       ],
       "explanation": "本句的「stands at」指「某個數值、比率或水平目前處於某個數字」。",
@@ -874,12 +820,10 @@ export default {
         "stands at"
       ],
       "optionReasons": {
-        "stand-mcq-06": "本句指「某個數值、比率或水平目前處於某個數字」。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-04": "「忍受令人不愉快、煩厭或難以接受的人、事情或情況」是「stand something/someone — tolerate」的用法，與本句語境不同。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。",
-        "stand-mcq-03": "「把某件物件以直立姿勢放置或豎起」是「stand something upright」的用法，與本句語境不同。"
+        "stand-mcq-06": "本句的「stands at」指「某個數值、比率或水平目前處於某個數字」。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-06"
     },
@@ -891,11 +835,9 @@ export default {
       "masked": "The agreement still ____.",
       "options": [
         "stand-pdf-002",
-        "stand-mcq-07",
-        "stand-mcq-09",
-        "stand-mcq-06",
-        "stand-mcq-10",
-        "stand-mcq-05"
+        "stand-mcq-05",
+        "stand-mcq-14",
+        "stand-mcq-17"
       ],
       "explanation": "本句的「stands」指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
       "sentenceIndex": 14,
@@ -904,12 +846,10 @@ export default {
         "stands"
       ],
       "optionReasons": {
-        "stand-pdf-002": "本句指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。"
+        "stand-pdf-002": "本句的「stands」指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
+        "stand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-pdf-002"
     },
@@ -921,11 +861,9 @@ export default {
       "masked": "As things ____, we cannot afford to expand.",
       "options": [
         "stand-pdf-002",
-        "stand-mcq-07",
-        "stand-mcq-09",
-        "stand-mcq-06",
-        "stand-mcq-10",
-        "stand-mcq-05"
+        "stand-mcq-04",
+        "stand-mcq-14",
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stand」指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
       "sentenceIndex": 15,
@@ -934,12 +872,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-pdf-002": "本句指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。"
+        "stand-pdf-002": "本句的「stand」指「某個安排、決定、情況或狀態目前仍然存在、成立或保持某種狀態」。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-pdf-002"
     },
@@ -951,11 +887,9 @@ export default {
       "masked": "Where do you ____ on this issue?",
       "options": [
         "stand-mcq-08",
-        "stand-mcq-07",
-        "stand-mcq-09",
-        "stand-mcq-06",
-        "stand-mcq-10",
-        "stand-mcq-05"
+        "stand-mcq-14",
+        "stand-mcq-05",
+        "stand-mcq-19"
       ],
       "explanation": "本句的「stand」指「對某個問題持有某種意見、態度或立場」。",
       "sentenceIndex": 16,
@@ -964,12 +898,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-08": "本句指「對某個問題持有某種意見、態度或立場」。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。"
+        "stand-mcq-08": "本句的「stand」指「對某個問題持有某種意見、態度或立場」。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-08"
     },
@@ -981,11 +913,9 @@ export default {
       "masked": "She has made it clear where she ____.",
       "options": [
         "stand-mcq-08",
-        "stand-mcq-07",
-        "stand-mcq-09",
         "stand-mcq-06",
-        "stand-mcq-10",
-        "stand-mcq-05"
+        "stand-mcq-04",
+        "stand-mcq-10"
       ],
       "explanation": "本句的「stands」指「對某個問題持有某種意見、態度或立場」。",
       "sentenceIndex": 17,
@@ -994,12 +924,10 @@ export default {
         "stands"
       ],
       "optionReasons": {
-        "stand-mcq-08": "本句指「對某個問題持有某種意見、態度或立場」。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-05": "「承受某種力量或惡劣條件而不被破壞；屬於「忍受／承受」的同一核心概念」是「stand pressure/heat/etc.」的用法，與本句語境不同。"
+        "stand-mcq-08": "本句的「stands」指「對某個問題持有某種意見、態度或立場」。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-08"
     },
@@ -1011,11 +939,9 @@ export default {
       "masked": "The group decided to ____ against discrimination.",
       "options": [
         "stand-mcq-09",
-        "stand-mcq-08",
-        "stand-mcq-10",
-        "stand-mcq-07",
+        "stand-mcq-04",
         "stand-mcq-11",
-        "stand-mcq-06"
+        "stand-mcq-19"
       ],
       "explanation": "本句的「take a stand」指「公開採取並堅持某個明確立場」。",
       "sentenceIndex": 18,
@@ -1024,12 +950,10 @@ export default {
         "take a stand"
       ],
       "optionReasons": {
-        "stand-mcq-09": "本句指「公開採取並堅持某個明確立場」。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-09": "本句的「take a stand」指「公開採取並堅持某個明確立場」。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-09"
     },
@@ -1041,11 +965,9 @@ export default {
       "masked": "Sometimes you have to take a ____ for what you believe is right.",
       "options": [
         "stand-mcq-09",
-        "stand-mcq-08",
-        "stand-mcq-10",
-        "stand-mcq-07",
-        "stand-mcq-11",
-        "stand-mcq-06"
+        "stand-mcq-04",
+        "stand-mcq-06",
+        "stand-mcq-18"
       ],
       "explanation": "本句的「stand」指「公開採取並堅持某個明確立場」。",
       "sentenceIndex": 19,
@@ -1054,12 +976,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-09": "本句指「公開採取並堅持某個明確立場」。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-06": "「某個數值、比率或水平目前處於某個數字」是「stand at + figure/level」的用法，與本句語境不同。"
+        "stand-mcq-09": "本句的「stand」指「公開採取並堅持某個明確立場」。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-09"
     },
@@ -1071,11 +991,9 @@ export default {
       "masked": "She has decided to ____ next year.",
       "options": [
         "stand-mcq-10",
-        "stand-mcq-09",
-        "stand-mcq-11",
-        "stand-mcq-08",
-        "stand-mcq-12",
-        "stand-mcq-07"
+        "stand-mcq-05",
+        "stand-mcq-13",
+        "stand-mcq-12"
       ],
       "explanation": "本句的「stand for election」指「正式成為候選人並參與選舉」。",
       "sentenceIndex": 20,
@@ -1084,12 +1002,10 @@ export default {
         "stand for election"
       ],
       "optionReasons": {
-        "stand-mcq-10": "本句指「正式成為候選人並參與選舉」。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。"
+        "stand-mcq-10": "本句的「stand for election」指「正式成為候選人並參與選舉」。",
+        "stand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-10"
     },
@@ -1101,11 +1017,9 @@ export default {
       "masked": "Three candidates are ____ for the position.",
       "options": [
         "stand-mcq-10",
-        "stand-mcq-09",
-        "stand-mcq-11",
-        "stand-mcq-08",
-        "stand-mcq-12",
-        "stand-mcq-07"
+        "stand-mcq-19",
+        "stand-mcq-05",
+        "stand-mcq-14"
       ],
       "explanation": "本句的「standing」指「正式成為候選人並參與選舉」。",
       "sentenceIndex": 21,
@@ -1114,12 +1028,10 @@ export default {
         "standing"
       ],
       "optionReasons": {
-        "stand-mcq-10": "本句指「正式成為候選人並參與選舉」。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-07": "「某項安排、決定或狀態仍然有效、成立或維持不變」是「agreement/decision stands」的用法，與本句語境不同。"
+        "stand-mcq-10": "本句的「standing」指「正式成為候選人並參與選舉」。",
+        "stand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-10"
     },
@@ -1131,11 +1043,9 @@ export default {
       "masked": "She placed the microphone on its ____.",
       "options": [
         "stand-mcq-11",
-        "stand-mcq-10",
-        "stand-mcq-12",
+        "stand-mcq-16",
         "stand-mcq-09",
-        "stand-mcq-13",
-        "stand-mcq-08"
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stand」指「用來承托、放置或支撐某件物品的架或座」。",
       "sentenceIndex": 22,
@@ -1144,12 +1054,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-11": "本句指「用來承托、放置或支撐某件物品的架或座」。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。"
+        "stand-mcq-11": "本句的「stand」指「用來承托、放置或支撐某件物品的架或座」。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-11"
     },
@@ -1161,11 +1069,9 @@ export default {
       "masked": "There is a lamp on a small ____ beside the sofa.",
       "options": [
         "stand-mcq-11",
-        "stand-mcq-10",
-        "stand-mcq-12",
-        "stand-mcq-09",
-        "stand-mcq-13",
-        "stand-mcq-08"
+        "stand-mcq-08",
+        "stand-mcq-06",
+        "stand-mcq-13"
       ],
       "explanation": "本句的「stand」指「用來承托、放置或支撐某件物品的架或座」。",
       "sentenceIndex": 23,
@@ -1174,12 +1080,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-11": "本句指「用來承托、放置或支撐某件物品的架或座」。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-08": "「對某個問題持有某種意見、態度或立場」是「stand on an issue」的用法，與本句語境不同。"
+        "stand-mcq-11": "本句的「stand」指「用來承托、放置或支撐某件物品的架或座」。",
+        "stand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-11"
     },
@@ -1191,11 +1095,9 @@ export default {
       "masked": "We bought coffee from a small ____ outside the station.",
       "options": [
         "stand-mcq-12",
-        "stand-mcq-11",
-        "stand-mcq-13",
         "stand-mcq-10",
-        "stand-mcq-14",
-        "stand-mcq-09"
+        "stand-pdf-002",
+        "stand-mcq-17"
       ],
       "explanation": "本句的「stand」指「用來售賣商品、提供服務或展示產品的小型位置／展位」。",
       "sentenceIndex": 24,
@@ -1204,12 +1106,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-12": "本句指「用來售賣商品、提供服務或展示產品的小型位置／展位」。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。"
+        "stand-mcq-12": "本句的「stand」指「用來售賣商品、提供服務或展示產品的小型位置／展位」。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-12"
     },
@@ -1221,10 +1121,8 @@ export default {
       "masked": "The company had a large ____ at the trade show.",
       "options": [
         "stand-mcq-12",
-        "stand-mcq-11",
-        "stand-mcq-13",
+        "stand-mcq-01",
         "stand-mcq-10",
-        "stand-mcq-14",
         "stand-mcq-09"
       ],
       "explanation": "本句的「stand」指「用來售賣商品、提供服務或展示產品的小型位置／展位」。",
@@ -1234,12 +1132,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-12": "本句指「用來售賣商品、提供服務或展示產品的小型位置／展位」。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-09": "「公開採取並堅持某個明確立場」是「take a stand」的用法，與本句語境不同。"
+        "stand-mcq-12": "本句的「stand」指「用來售賣商品、提供服務或展示產品的小型位置／展位」。",
+        "stand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-12"
     },
@@ -1251,11 +1147,9 @@ export default {
       "masked": "Thousands of fans were cheering in the ____.",
       "options": [
         "stand-mcq-13",
-        "stand-mcq-12",
-        "stand-mcq-14",
-        "stand-mcq-11",
-        "stand-mcq-15",
-        "stand-mcq-10"
+        "stand-mcq-16",
+        "stand-mcq-04",
+        "stand-mcq-18"
       ],
       "explanation": "本句的「stands」指「體育場內供觀眾觀看比賽的分層觀眾席」。",
       "sentenceIndex": 26,
@@ -1264,12 +1158,10 @@ export default {
         "stands"
       ],
       "optionReasons": {
-        "stand-mcq-13": "本句指「體育場內供觀眾觀看比賽的分層觀眾席」。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。"
+        "stand-mcq-13": "本句的「stands」指「體育場內供觀眾觀看比賽的分層觀眾席」。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-13"
     },
@@ -1281,11 +1173,9 @@ export default {
       "masked": "The ball flew into the ____.",
       "options": [
         "stand-mcq-13",
-        "stand-mcq-12",
-        "stand-mcq-14",
-        "stand-mcq-11",
-        "stand-mcq-15",
-        "stand-mcq-10"
+        "stand-mcq-18",
+        "stand-mcq-16",
+        "stand-pdf-001"
       ],
       "explanation": "本句的「stands」指「體育場內供觀眾觀看比賽的分層觀眾席」。",
       "sentenceIndex": 27,
@@ -1294,12 +1184,10 @@ export default {
         "stands"
       ],
       "optionReasons": {
-        "stand-mcq-13": "本句指「體育場內供觀眾觀看比賽的分層觀眾席」。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-10": "「正式成為候選人並參與選舉」是「stand for election」的用法，與本句語境不同。"
+        "stand-mcq-13": "本句的「stands」指「體育場內供觀眾觀看比賽的分層觀眾席」。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-13"
     },
@@ -1311,11 +1199,9 @@ export default {
       "masked": "The witness took the ____.",
       "options": [
         "stand-mcq-19",
-        "stand-mcq-18",
-        "stand-mcq-17",
+        "stand-mcq-08",
         "stand-mcq-16",
-        "stand-mcq-15",
-        "stand-mcq-14"
+        "stand-mcq-10"
       ],
       "explanation": "本句的「stand」指「法庭上供證人宣誓及作供的位置」。",
       "sentenceIndex": 28,
@@ -1324,12 +1210,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-19": "本句指「法庭上供證人宣誓及作供的位置」。",
-        "stand-mcq-18": "「活動、交通或進程完全停止的狀態」是「standstill」的用法，與本句語境不同。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。"
+        "stand-mcq-19": "本句的「stand」指「法庭上供證人宣誓及作供的位置」。",
+        "stand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-19"
     },
@@ -1341,11 +1225,9 @@ export default {
       "masked": "She was questioned for two hours on the witness ____.",
       "options": [
         "stand-mcq-19",
+        "stand-mcq-05",
         "stand-mcq-18",
-        "stand-mcq-17",
-        "stand-mcq-16",
-        "stand-mcq-15",
-        "stand-mcq-14"
+        "stand-mcq-10"
       ],
       "explanation": "本句的「stand」指「法庭上供證人宣誓及作供的位置」。",
       "sentenceIndex": 29,
@@ -1354,12 +1236,10 @@ export default {
         "stand"
       ],
       "optionReasons": {
-        "stand-mcq-19": "本句指「法庭上供證人宣誓及作供的位置」。",
-        "stand-mcq-18": "「活動、交通或進程完全停止的狀態」是「standstill」的用法，與本句語境不同。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。"
+        "stand-mcq-19": "本句的「stand」指「法庭上供證人宣誓及作供的位置」。",
+        "stand-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-19"
     },
@@ -1371,11 +1251,9 @@ export default {
       "masked": "What makes him ____ is not only what he has done, but also the way he sees the world.",
       "options": [
         "stand-mcq-14",
-        "stand-mcq-13",
-        "stand-mcq-15",
-        "stand-mcq-12",
-        "stand-mcq-16",
-        "stand-mcq-11"
+        "stand-pdf-001",
+        "stand-mcq-08",
+        "stand-mcq-04"
       ],
       "explanation": "本句的「stand out」指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
       "sentenceIndex": 30,
@@ -1384,12 +1262,10 @@ export default {
         "stand out"
       ],
       "optionReasons": {
-        "stand-mcq-14": "本句指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。"
+        "stand-mcq-14": "本句的「stand out」指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
+        "stand-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-14"
     },
@@ -1401,11 +1277,9 @@ export default {
       "masked": "Her calm voice made her ____ from the other speakers.",
       "options": [
         "stand-mcq-14",
-        "stand-mcq-13",
-        "stand-mcq-15",
+        "stand-mcq-03",
         "stand-mcq-12",
-        "stand-mcq-16",
-        "stand-mcq-11"
+        "stand-mcq-10"
       ],
       "explanation": "本句的「stand out」指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
       "sentenceIndex": 31,
@@ -1414,12 +1288,10 @@ export default {
         "stand out"
       ],
       "optionReasons": {
-        "stand-mcq-14": "本句指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。"
+        "stand-mcq-14": "本句的「stand out」指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
+        "stand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-14"
     },
@@ -1431,11 +1303,9 @@ export default {
       "masked": "The bright design ____ against the plain background.",
       "options": [
         "stand-mcq-14",
-        "stand-mcq-13",
-        "stand-mcq-15",
-        "stand-mcq-12",
-        "stand-mcq-16",
-        "stand-mcq-11"
+        "stand-mcq-18",
+        "stand-mcq-10",
+        "stand-mcq-16"
       ],
       "explanation": "本句的「stands out」指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
       "sentenceIndex": 32,
@@ -1444,12 +1314,10 @@ export default {
         "stands out"
       ],
       "optionReasons": {
-        "stand-mcq-14": "本句指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-11": "「用來承托、放置或支撐某件物品的架或座」是「a stand — support」的用法，與本句語境不同。"
+        "stand-mcq-14": "本句的「stands out」指「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-14"
     },
@@ -1461,11 +1329,9 @@ export default {
       "masked": "She is a researcher of international ____.",
       "options": [
         "stand-mcq-15",
-        "stand-mcq-14",
         "stand-mcq-16",
-        "stand-mcq-13",
-        "stand-mcq-17",
-        "stand-mcq-12"
+        "stand-mcq-09",
+        "stand-mcq-10"
       ],
       "explanation": "本句的「standing」指「某人在社會、專業或群體中的地位、聲譽或受尊重程度」。",
       "sentenceIndex": 33,
@@ -1474,12 +1340,10 @@ export default {
         "standing"
       ],
       "optionReasons": {
-        "stand-mcq-15": "本句指「某人在社會、專業或群體中的地位、聲譽或受尊重程度」。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。"
+        "stand-mcq-15": "本句的「standing」指「某人在社會、專業或群體中的地位、聲譽或受尊重程度」。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-15"
     },
@@ -1491,11 +1355,9 @@ export default {
       "masked": "The incident damaged his professional ____.",
       "options": [
         "stand-mcq-15",
-        "stand-mcq-14",
         "stand-mcq-16",
-        "stand-mcq-13",
-        "stand-mcq-17",
-        "stand-mcq-12"
+        "stand-mcq-10",
+        "stand-mcq-09"
       ],
       "explanation": "本句的「standing」指「某人在社會、專業或群體中的地位、聲譽或受尊重程度」。",
       "sentenceIndex": 34,
@@ -1504,12 +1366,10 @@ export default {
         "standing"
       ],
       "optionReasons": {
-        "stand-mcq-15": "本句指「某人在社會、專業或群體中的地位、聲譽或受尊重程度」。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-12": "「用來售賣商品、提供服務或展示產品的小型位置／展位」是「a stand — stall/booth」的用法，與本句語境不同。"
+        "stand-mcq-15": "本句的「standing」指「某人在社會、專業或群體中的地位、聲譽或受尊重程度」。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-15"
     },
@@ -1521,11 +1381,9 @@ export default {
       "masked": "They have a ____ to visit us.",
       "options": [
         "stand-mcq-16",
-        "stand-mcq-15",
-        "stand-mcq-17",
-        "stand-mcq-14",
         "stand-mcq-18",
-        "stand-mcq-13"
+        "stand-mcq-04",
+        "stand-mcq-11"
       ],
       "explanation": "本句的「standing invitation」指「長期存在、持續有效或固定安排的」。",
       "sentenceIndex": 35,
@@ -1534,12 +1392,10 @@ export default {
         "standing invitation"
       ],
       "optionReasons": {
-        "stand-mcq-16": "本句指「長期存在、持續有效或固定安排的」。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-18": "「活動、交通或進程完全停止的狀態」是「standstill」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。"
+        "stand-mcq-16": "本句的「standing invitation」指「長期存在、持續有效或固定安排的」。",
+        "stand-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-16"
     },
@@ -1551,11 +1407,9 @@ export default {
       "masked": "The committee has a ____ every Monday.",
       "options": [
         "stand-mcq-16",
-        "stand-mcq-15",
-        "stand-mcq-17",
-        "stand-mcq-14",
-        "stand-mcq-18",
-        "stand-mcq-13"
+        "stand-mcq-12",
+        "stand-mcq-13",
+        "stand-mcq-15"
       ],
       "explanation": "本句的「standing meeting」指「長期存在、持續有效或固定安排的」。",
       "sentenceIndex": 36,
@@ -1564,12 +1418,10 @@ export default {
         "standing meeting"
       ],
       "optionReasons": {
-        "stand-mcq-16": "本句指「長期存在、持續有效或固定安排的」。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。",
-        "stand-mcq-18": "「活動、交通或進程完全停止的狀態」是「standstill」的用法，與本句語境不同。",
-        "stand-mcq-13": "「體育場內供觀眾觀看比賽的分層觀眾席」是「the stands」的用法，與本句語境不同。"
+        "stand-mcq-16": "本句的「standing meeting」指「長期存在、持續有效或固定安排的」。",
+        "stand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-16"
     },
@@ -1581,11 +1433,9 @@ export default {
       "masked": "From a practical ____, the proposal makes sense.",
       "options": [
         "stand-mcq-17",
-        "stand-mcq-16",
-        "stand-mcq-18",
-        "stand-mcq-15",
-        "stand-mcq-19",
-        "stand-mcq-14"
+        "stand-mcq-01",
+        "stand-mcq-10",
+        "stand-mcq-12"
       ],
       "explanation": "本句的「standpoint」指「理解、分析或評價事情時所採取的角度或觀點」。",
       "sentenceIndex": 37,
@@ -1594,12 +1444,10 @@ export default {
         "standpoint"
       ],
       "optionReasons": {
-        "stand-mcq-17": "本句指「理解、分析或評價事情時所採取的角度或觀點」。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-18": "「活動、交通或進程完全停止的狀態」是「standstill」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-19": "「法庭上供證人宣誓及作供的位置」是「15. the witness stand（法庭） — 證人席」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。"
+        "stand-mcq-17": "本句的「standpoint」指「理解、分析或評價事情時所採取的角度或觀點」。",
+        "stand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-17"
     },
@@ -1611,10 +1459,8 @@ export default {
       "masked": "The issue looks different from the customer’s ____.",
       "options": [
         "stand-mcq-17",
-        "stand-mcq-16",
-        "stand-mcq-18",
-        "stand-mcq-15",
-        "stand-mcq-19",
+        "stand-mcq-02",
+        "stand-mcq-01",
         "stand-mcq-14"
       ],
       "explanation": "本句的「standpoint」指「理解、分析或評價事情時所採取的角度或觀點」。",
@@ -1624,12 +1470,10 @@ export default {
         "standpoint"
       ],
       "optionReasons": {
-        "stand-mcq-17": "本句指「理解、分析或評價事情時所採取的角度或觀點」。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-18": "「活動、交通或進程完全停止的狀態」是「standstill」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-19": "「法庭上供證人宣誓及作供的位置」是「15. the witness stand（法庭） — 證人席」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。"
+        "stand-mcq-17": "本句的「standpoint」指「理解、分析或評價事情時所採取的角度或觀點」。",
+        "stand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-17"
     },
@@ -1641,11 +1485,9 @@ export default {
       "masked": "Traffic came to a ____ after the accident.",
       "options": [
         "stand-mcq-18",
-        "stand-mcq-17",
-        "stand-mcq-19",
         "stand-mcq-16",
-        "stand-mcq-15",
-        "stand-mcq-14"
+        "stand-mcq-10",
+        "stand-mcq-06"
       ],
       "explanation": "本句的「standstill」指「活動、交通或進程完全停止的狀態」。",
       "sentenceIndex": 39,
@@ -1654,12 +1496,10 @@ export default {
         "standstill"
       ],
       "optionReasons": {
-        "stand-mcq-18": "本句指「活動、交通或進程完全停止的狀態」。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-19": "「法庭上供證人宣誓及作供的位置」是「15. the witness stand（法庭） — 證人席」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。"
+        "stand-mcq-18": "本句的「standstill」指「活動、交通或進程完全停止的狀態」。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-18"
     },
@@ -1671,11 +1511,9 @@ export default {
       "masked": "The strike brought production to a ____.",
       "options": [
         "stand-mcq-18",
-        "stand-mcq-17",
-        "stand-mcq-19",
-        "stand-mcq-16",
-        "stand-mcq-15",
-        "stand-mcq-14"
+        "stand-mcq-14",
+        "stand-mcq-12",
+        "stand-mcq-16"
       ],
       "explanation": "本句的「standstill」指「活動、交通或進程完全停止的狀態」。",
       "sentenceIndex": 40,
@@ -1684,12 +1522,10 @@ export default {
         "standstill"
       ],
       "optionReasons": {
-        "stand-mcq-18": "本句指「活動、交通或進程完全停止的狀態」。",
-        "stand-mcq-17": "「理解、分析或評價事情時所採取的角度或觀點」是「standpoint」的用法，與本句語境不同。",
-        "stand-mcq-19": "「法庭上供證人宣誓及作供的位置」是「15. the witness stand（法庭） — 證人席」的用法，與本句語境不同。",
-        "stand-mcq-16": "「長期存在、持續有效或固定安排的」是「standing — continuing」的用法，與本句語境不同。",
-        "stand-mcq-15": "「某人在社會、專業或群體中的地位、聲譽或受尊重程度」是「standing — reputation/status」的用法，與本句語境不同。",
-        "stand-mcq-14": "「因具有明顯、特別或與眾不同的特質，而比周圍同類人物或事物更加突出或顯眼」是「stand out」的用法，與本句語境不同。"
+        "stand-mcq-18": "本句的「standstill」指「活動、交通或進程完全停止的狀態」。",
+        "stand-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stand-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stand-mcq-18"
     }
@@ -1701,5 +1537,7 @@ export default {
     "sha256": "b8edf2d47b59695033505cc07755c9fba0bc1a95c9ec0f3bd8eb3dc823b7f4b1",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

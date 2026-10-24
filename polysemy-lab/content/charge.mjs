@@ -44,26 +44,6 @@ export default {
           "Fast charging can reduce waiting time.",
           "快速充電可以減少等候時間。",
           "為電池／電動車補充電能的過程"
-        ],
-        [
-          "The referee called a charging foul.",
-          "裁判判罰一次進攻撞人犯規。",
-          "為電池／電動車補充電能的過程"
-        ],
-        [
-          "Charging occurs when an offensive player illegally runs into a defender.",
-          "進攻撞人是指進攻球員非法撞向防守球員。",
-          "為電池／電動車補充電能的過程"
-        ],
-        [
-          "The company changed its charging structure.",
-          "公司改變了收費結構。",
-          "為電池／電動車補充電能的過程"
-        ],
-        [
-          "Road charging can reduce congestion.",
-          "道路收費制度可以減少擠塞。",
-          "為電池／電動車補充電能的過程"
         ]
       ],
       "options": [],
@@ -369,11 +349,6 @@ export default {
           "A smaller charge was sufficient.",
           "較少的裝藥量已經足夠。",
           "為爆破目的放置的一定量炸藥"
-        ],
-        [
-          "The weapon was charged with powder.",
-          "武器被裝入火藥。",
-          "為爆破目的放置的一定量炸藥"
         ]
       ],
       "options": [],
@@ -538,6 +513,67 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "charge-reviewed-f9cb51b9a6",
+      "title": "裝填",
+      "form": "charge · source section 48",
+      "en": "裝填",
+      "zh": "裝填",
+      "note": "對照原始教材第 48 節及例句核實。",
+      "examples": [
+        [
+          "The weapon was charged with powder.",
+          "武器被裝入火藥。",
+          "裝填"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "charge-reviewed-4e29a081b7",
+      "title": "帶球撞人／進攻撞人",
+      "form": "charge · source section 62",
+      "en": "帶球撞人／進攻撞人",
+      "zh": "帶球撞人／進攻撞人",
+      "note": "對照原始教材第 62 節及例句核實。",
+      "examples": [
+        [
+          "The referee called a charging foul.",
+          "裁判判罰一次進攻撞人犯規。",
+          "帶球撞人／進攻撞人"
+        ],
+        [
+          "Charging occurs when an offensive player illegally runs into a defender.",
+          "進攻撞人是指進攻球員非法撞向防守球員。",
+          "帶球撞人／進攻撞人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "charge-reviewed-1982a9b53b",
+      "title": "收費；計費",
+      "form": "charge · source section 90",
+      "en": "收費；計費",
+      "zh": "收費；計費",
+      "note": "對照原始教材第 90 節及例句核實。",
+      "examples": [
+        [
+          "The company changed its charging structure.",
+          "公司改變了收費結構。",
+          "收費；計費"
+        ],
+        [
+          "Road charging can reduce congestion.",
+          "道路收費制度可以減少擠塞。",
+          "收費；計費"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -549,11 +585,9 @@ export default {
       "masked": "Drivers need somewhere to ____ their cars overnight.",
       "options": [
         "charge-mcq-01",
-        "charge-mcq-02",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-mcq-14",
+        "charge-mcq-06",
+        "charge-reviewed-f9cb51b9a6"
       ],
       "explanation": "本句的「charge」指「把電能輸入電池，使其儲存能量」。",
       "sentenceIndex": 0,
@@ -562,12 +596,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-01": "本句指「把電能輸入電池，使其儲存能量」。",
-        "charge-mcq-02": "「為電池／電動車補充電能的過程」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-mcq-01": "本句的「charge」指「把電能輸入電池，使其儲存能量」。",
+        "charge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-01"
     },
@@ -579,11 +611,9 @@ export default {
       "masked": "I forgot to ____ my phone.",
       "options": [
         "charge-mcq-01",
-        "charge-mcq-02",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-mcq-22",
+        "charge-reviewed-1982a9b53b",
+        "charge-mcq-11"
       ],
       "explanation": "本句的「charge」指「把電能輸入電池，使其儲存能量」。",
       "sentenceIndex": 1,
@@ -592,12 +622,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-01": "本句指「把電能輸入電池，使其儲存能量」。",
-        "charge-mcq-02": "「為電池／電動車補充電能的過程」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-mcq-01": "本句的「charge」指「把電能輸入電池，使其儲存能量」。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-01"
     },
@@ -609,11 +637,9 @@ export default {
       "masked": "Public ____ remains inconvenient in some areas.",
       "options": [
         "charge-mcq-02",
-        "charge-mcq-01",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-reviewed-4e29a081b7",
+        "charge-reviewed-1982a9b53b",
+        "charge-reviewed-f9cb51b9a6"
       ],
       "explanation": "本句的「charging」指「為電池／電動車補充電能的過程」。",
       "sentenceIndex": 4,
@@ -622,12 +648,10 @@ export default {
         "charging"
       ],
       "optionReasons": {
-        "charge-mcq-02": "本句指「為電池／電動車補充電能的過程」。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-mcq-02": "本句的「charging」指「為電池／電動車補充電能的過程」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-02"
     },
@@ -639,11 +663,9 @@ export default {
       "masked": "Fast ____ can reduce waiting time.",
       "options": [
         "charge-mcq-02",
-        "charge-mcq-01",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-mcq-18",
+        "charge-mcq-22",
+        "charge-reviewed-4e29a081b7"
       ],
       "explanation": "本句的「charging」指「為電池／電動車補充電能的過程」。",
       "sentenceIndex": 5,
@@ -652,12 +674,10 @@ export default {
         "charging"
       ],
       "optionReasons": {
-        "charge-mcq-02": "本句指「為電池／電動車補充電能的過程」。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-mcq-02": "本句的「charging」指「為電池／電動車補充電能的過程」。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-02"
     },
@@ -669,11 +689,9 @@ export default {
       "masked": "The battery has very little ____ left.",
       "options": [
         "charge-mcq-04",
-        "charge-mcq-03",
-        "charge-mcq-05",
-        "charge-mcq-02",
-        "charge-mcq-06",
-        "charge-mcq-01"
+        "charge-mcq-11",
+        "charge-mcq-10",
+        "charge-mcq-17"
       ],
       "explanation": "本句的「charge」指「電池內剩餘／儲存的電量」。",
       "sentenceIndex": 22,
@@ -682,12 +700,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-04": "本句指「電池內剩餘／儲存的電量」。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-02": "「為電池／電動車補充電能的過程」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。"
+        "charge-mcq-04": "本句的「charge」指「電池內剩餘／儲存的電量」。",
+        "charge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-04"
     },
@@ -699,11 +715,9 @@ export default {
       "masked": "The phone holds its ____ well.",
       "options": [
         "charge-mcq-04",
-        "charge-mcq-03",
-        "charge-mcq-05",
-        "charge-mcq-02",
-        "charge-mcq-06",
-        "charge-mcq-01"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-22",
+        "charge-mcq-24"
       ],
       "explanation": "本句的「charge」指「電池內剩餘／儲存的電量」。",
       "sentenceIndex": 23,
@@ -712,12 +726,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-04": "本句指「電池內剩餘／儲存的電量」。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-02": "「為電池／電動車補充電能的過程」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。"
+        "charge-mcq-04": "本句的「charge」指「電池內剩餘／儲存的電量」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-04"
     },
@@ -729,11 +741,9 @@ export default {
       "masked": "The old battery no longer ____.",
       "options": [
         "charge-mcq-05",
-        "charge-mcq-04",
-        "charge-mcq-06",
-        "charge-mcq-03",
-        "charge-mcq-07",
-        "charge-mcq-02"
+        "charge-reviewed-1982a9b53b",
+        "charge-mcq-09",
+        "charge-reviewed-4e29a081b7"
       ],
       "explanation": "本句的「holds a charge」指「電池能長時間保存已儲存的電量」。",
       "sentenceIndex": 24,
@@ -742,12 +752,10 @@ export default {
         "holds a charge"
       ],
       "optionReasons": {
-        "charge-mcq-05": "本句指「電池能長時間保存已儲存的電量」。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-02": "「為電池／電動車補充電能的過程」與本句語境不同。"
+        "charge-mcq-05": "本句的「holds a charge」指「電池能長時間保存已儲存的電量」。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-05"
     },
@@ -759,11 +767,9 @@ export default {
       "masked": "Good batteries should hold a ____ for a long time.",
       "options": [
         "charge-mcq-05",
-        "charge-mcq-04",
         "charge-mcq-06",
-        "charge-mcq-03",
-        "charge-mcq-07",
-        "charge-mcq-02"
+        "charge-mcq-12",
+        "charge-mcq-23"
       ],
       "explanation": "本句的「charge」指「電池能長時間保存已儲存的電量」。",
       "sentenceIndex": 25,
@@ -772,12 +778,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-05": "本句指「電池能長時間保存已儲存的電量」。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-02": "「為電池／電動車補充電能的過程」與本句語境不同。"
+        "charge-mcq-05": "本句的「charge」指「電池能長時間保存已儲存的電量」。",
+        "charge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-05"
     },
@@ -789,11 +793,9 @@ export default {
       "masked": "The garage ____ $500 for the repair.",
       "options": [
         "charge-mcq-06",
-        "charge-mcq-05",
-        "charge-mcq-07",
-        "charge-mcq-04",
-        "charge-mcq-08",
-        "charge-mcq-03"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-02",
+        "charge-mcq-12"
       ],
       "explanation": "本句的「charged me」指「向某人要求支付某筆費用」。",
       "sentenceIndex": 28,
@@ -802,12 +804,10 @@ export default {
         "charged me"
       ],
       "optionReasons": {
-        "charge-mcq-06": "本句指「向某人要求支付某筆費用」。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。"
+        "charge-mcq-06": "本句的「charged me」指「向某人要求支付某筆費用」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-06"
     },
@@ -819,11 +819,9 @@ export default {
       "masked": "Some stations ____ drivers for parking as well.",
       "options": [
         "charge-mcq-06",
-        "charge-mcq-05",
-        "charge-mcq-07",
-        "charge-mcq-04",
-        "charge-mcq-08",
-        "charge-mcq-03"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-02",
+        "charge-mcq-11"
       ],
       "explanation": "本句的「charge」指「向某人要求支付某筆費用」。",
       "sentenceIndex": 29,
@@ -832,12 +830,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-06": "本句指「向某人要求支付某筆費用」。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。"
+        "charge-mcq-06": "本句的「charge」指「向某人要求支付某筆費用」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-06"
     },
@@ -849,11 +845,9 @@ export default {
       "masked": "There is no extra ____ for installation.",
       "options": [
         "charge-mcq-06",
+        "charge-reviewed-4e29a081b7",
         "charge-mcq-05",
-        "charge-mcq-07",
-        "charge-mcq-04",
-        "charge-mcq-08",
-        "charge-mcq-03"
+        "charge-mcq-11"
       ],
       "explanation": "本句的「charge」指「向某人要求支付某筆費用」。",
       "sentenceIndex": 34,
@@ -862,12 +856,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-06": "本句指「向某人要求支付某筆費用」。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。"
+        "charge-mcq-06": "本句的「charge」指「向某人要求支付某筆費用」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-06"
     },
@@ -879,11 +871,9 @@ export default {
       "masked": "The service ____ is included.",
       "options": [
         "charge-mcq-06",
-        "charge-mcq-05",
-        "charge-mcq-07",
-        "charge-mcq-04",
-        "charge-mcq-08",
-        "charge-mcq-03"
+        "charge-mcq-10",
+        "charge-mcq-22",
+        "charge-mcq-02"
       ],
       "explanation": "本句的「charge」指「向某人要求支付某筆費用」。",
       "sentenceIndex": 35,
@@ -892,12 +882,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-06": "本句指「向某人要求支付某筆費用」。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。"
+        "charge-mcq-06": "本句的「charge」指「向某人要求支付某筆費用」。",
+        "charge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-06"
     },
@@ -909,11 +897,9 @@ export default {
       "masked": "The service is provided ____.",
       "options": [
         "charge-mcq-08",
-        "charge-mcq-07",
-        "charge-mcq-09",
-        "charge-mcq-06",
-        "charge-mcq-10",
-        "charge-mcq-05"
+        "charge-mcq-04",
+        "charge-mcq-22",
+        "charge-mcq-09"
       ],
       "explanation": "本句的「free of charge」指「不需要支付費用」。",
       "sentenceIndex": 44,
@@ -922,12 +908,10 @@ export default {
         "free of charge"
       ],
       "optionReasons": {
-        "charge-mcq-08": "本句指「不需要支付費用」。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。"
+        "charge-mcq-08": "本句的「free of charge」指「不需要支付費用」。",
+        "charge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-08"
     },
@@ -939,11 +923,9 @@ export default {
       "masked": "Drivers can ____ their cars free of charge for one hour.",
       "options": [
         "charge-mcq-08",
-        "charge-mcq-07",
         "charge-mcq-09",
-        "charge-mcq-06",
-        "charge-mcq-10",
-        "charge-mcq-05"
+        "charge-mcq-16",
+        "charge-mcq-04"
       ],
       "explanation": "本句的「charge」指「不需要支付費用」。",
       "sentenceIndex": 45,
@@ -952,12 +934,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-08": "本句指「不需要支付費用」。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。"
+        "charge-mcq-08": "本句的「charge」指「不需要支付費用」。",
+        "charge-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-08"
     },
@@ -969,11 +949,9 @@ export default {
       "masked": "Police ____.",
       "options": [
         "charge-mcq-09",
+        "charge-mcq-01",
         "charge-mcq-08",
-        "charge-mcq-10",
-        "charge-mcq-07",
-        "charge-mcq-11",
-        "charge-mcq-06"
+        "charge-mcq-20"
       ],
       "explanation": "本句的「charged him with theft」指「正式指控某人犯某罪」。",
       "sentenceIndex": 46,
@@ -982,12 +960,10 @@ export default {
         "charged him with theft"
       ],
       "optionReasons": {
-        "charge-mcq-09": "本句指「正式指控某人犯某罪」。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-mcq-09": "本句的「charged him with theft」指「正式指控某人犯某罪」。",
+        "charge-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-09"
     },
@@ -999,11 +975,9 @@ export default {
       "masked": "She was ____ with dangerous driving.",
       "options": [
         "charge-mcq-09",
-        "charge-mcq-08",
-        "charge-mcq-10",
-        "charge-mcq-07",
-        "charge-mcq-11",
-        "charge-mcq-06"
+        "charge-mcq-01",
+        "charge-mcq-22",
+        "charge-mcq-16"
       ],
       "explanation": "本句的「charged」指「正式指控某人犯某罪」。",
       "sentenceIndex": 47,
@@ -1012,12 +986,10 @@ export default {
         "charged"
       ],
       "optionReasons": {
-        "charge-mcq-09": "本句指「正式指控某人犯某罪」。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-mcq-09": "本句的「charged」指「正式指控某人犯某罪」。",
+        "charge-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-09"
     },
@@ -1029,11 +1001,9 @@ export default {
       "masked": "He faces several criminal ____.",
       "options": [
         "charge-mcq-10",
-        "charge-mcq-09",
-        "charge-mcq-11",
-        "charge-mcq-08",
-        "charge-mcq-12",
-        "charge-mcq-07"
+        "charge-mcq-17",
+        "charge-mcq-02",
+        "charge-mcq-23"
       ],
       "explanation": "本句的「charges」指「正式提出的刑事控罪」。",
       "sentenceIndex": 50,
@@ -1042,12 +1012,10 @@ export default {
         "charges"
       ],
       "optionReasons": {
-        "charge-mcq-10": "本句指「正式提出的刑事控罪」。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。"
+        "charge-mcq-10": "本句的「charges」指「正式提出的刑事控罪」。",
+        "charge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-10"
     },
@@ -1059,11 +1027,9 @@ export default {
       "masked": "The ____ was later dropped.",
       "options": [
         "charge-mcq-10",
-        "charge-mcq-09",
-        "charge-mcq-11",
-        "charge-mcq-08",
-        "charge-mcq-12",
-        "charge-mcq-07"
+        "charge-reviewed-f9cb51b9a6",
+        "charge-mcq-23",
+        "charge-mcq-13"
       ],
       "explanation": "本句的「charge」指「正式提出的刑事控罪」。",
       "sentenceIndex": 51,
@@ -1072,12 +1038,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-10": "本句指「正式提出的刑事控罪」。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-07": "「商品／服務所收取的費用」與本句語境不同。"
+        "charge-mcq-10": "本句的「charge」指「正式提出的刑事控罪」。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-10"
     },
@@ -1089,11 +1053,9 @@ export default {
       "masked": "Who is ____ of the charging network?",
       "options": [
         "charge-mcq-11",
-        "charge-mcq-10",
-        "charge-mcq-12",
-        "charge-mcq-09",
-        "charge-mcq-13",
-        "charge-mcq-08"
+        "charge-reviewed-1982a9b53b",
+        "charge-mcq-23",
+        "charge-mcq-02"
       ],
       "explanation": "本句的「in charge」指「擁有管理／控制某事的責任」。",
       "sentenceIndex": 56,
@@ -1102,12 +1064,10 @@ export default {
         "in charge"
       ],
       "optionReasons": {
-        "charge-mcq-11": "本句指「擁有管理／控制某事的責任」。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。"
+        "charge-mcq-11": "本句的「in charge」指「擁有管理／控制某事的責任」。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-11"
     },
@@ -1119,11 +1079,9 @@ export default {
       "masked": "She is in ____ of the project.",
       "options": [
         "charge-mcq-11",
-        "charge-mcq-10",
-        "charge-mcq-12",
-        "charge-mcq-09",
-        "charge-mcq-13",
-        "charge-mcq-08"
+        "charge-mcq-06",
+        "charge-reviewed-f9cb51b9a6",
+        "charge-mcq-05"
       ],
       "explanation": "本句的「charge」指「擁有管理／控制某事的責任」。",
       "sentenceIndex": 57,
@@ -1132,12 +1090,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-11": "本句指「擁有管理／控制某事的責任」。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-08": "「不需要支付費用」與本句語境不同。"
+        "charge-mcq-11": "本句的「charge」指「擁有管理／控制某事的責任」。",
+        "charge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-11"
     },
@@ -1149,11 +1105,9 @@ export default {
       "masked": "The manager arrived and ____.",
       "options": [
         "charge-mcq-12",
-        "charge-mcq-11",
-        "charge-mcq-13",
-        "charge-mcq-10",
+        "charge-mcq-20",
         "charge-mcq-14",
-        "charge-mcq-09"
+        "charge-reviewed-1982a9b53b"
       ],
       "explanation": "本句的「took charge」指「主動接管並控制局面」。",
       "sentenceIndex": 60,
@@ -1162,12 +1116,10 @@ export default {
         "took charge"
       ],
       "optionReasons": {
-        "charge-mcq-12": "本句指「主動接管並控制局面」。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。"
+        "charge-mcq-12": "本句的「took charge」指「主動接管並控制局面」。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-12"
     },
@@ -1179,11 +1131,9 @@ export default {
       "masked": "Someone needs to take ____ of the situation.",
       "options": [
         "charge-mcq-12",
-        "charge-mcq-11",
-        "charge-mcq-13",
-        "charge-mcq-10",
-        "charge-mcq-14",
-        "charge-mcq-09"
+        "charge-mcq-22",
+        "charge-mcq-20",
+        "charge-mcq-06"
       ],
       "explanation": "本句的「charge」指「主動接管並控制局面」。",
       "sentenceIndex": 61,
@@ -1192,12 +1142,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-12": "本句指「主動接管並控制局面」。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。"
+        "charge-mcq-12": "本句的「charge」指「主動接管並控制局面」。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-12"
     },
@@ -1209,11 +1157,9 @@ export default {
       "masked": "She took ____ of the investigation.",
       "options": [
         "charge-mcq-12",
-        "charge-mcq-11",
-        "charge-mcq-13",
-        "charge-mcq-10",
-        "charge-mcq-14",
-        "charge-mcq-09"
+        "charge-mcq-18",
+        "charge-mcq-08",
+        "charge-reviewed-4e29a081b7"
       ],
       "explanation": "本句的「charge」指「主動接管並控制局面」。",
       "sentenceIndex": 62,
@@ -1222,12 +1168,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-12": "本句指「主動接管並控制局面」。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。"
+        "charge-mcq-12": "本句的「charge」指「主動接管並控制局面」。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-12"
     },
@@ -1239,11 +1183,9 @@ export default {
       "masked": "He took ____ of the repair team.",
       "options": [
         "charge-mcq-12",
-        "charge-mcq-11",
-        "charge-mcq-13",
-        "charge-mcq-10",
-        "charge-mcq-14",
-        "charge-mcq-09"
+        "charge-mcq-08",
+        "charge-mcq-05",
+        "charge-mcq-16"
       ],
       "explanation": "本句的「charge」指「主動接管並控制局面」。",
       "sentenceIndex": 63,
@@ -1252,12 +1194,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-12": "本句指「主動接管並控制局面」。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-09": "「正式指控某人犯某罪」與本句語境不同。"
+        "charge-mcq-12": "本句的「charge」指「主動接管並控制局面」。",
+        "charge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-12"
     },
@@ -1269,11 +1209,9 @@ export default {
       "masked": "The children were left in her ____.",
       "options": [
         "charge-mcq-13",
-        "charge-mcq-12",
-        "charge-mcq-14",
-        "charge-mcq-11",
-        "charge-mcq-15",
-        "charge-mcq-10"
+        "charge-mcq-05",
+        "charge-reviewed-f9cb51b9a6",
+        "charge-mcq-16"
       ],
       "explanation": "本句的「charge」指「被交由某人負責照顧／管理」。",
       "sentenceIndex": 66,
@@ -1282,12 +1220,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-13": "本句指「被交由某人負責照顧／管理」。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。"
+        "charge-mcq-13": "本句的「charge」指「被交由某人負責照顧／管理」。",
+        "charge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-13"
     },
@@ -1299,11 +1235,9 @@ export default {
       "masked": "The equipment was placed in his ____.",
       "options": [
         "charge-mcq-13",
-        "charge-mcq-12",
-        "charge-mcq-14",
-        "charge-mcq-11",
-        "charge-mcq-15",
-        "charge-mcq-10"
+        "charge-reviewed-1982a9b53b",
+        "charge-mcq-20",
+        "charge-reviewed-f9cb51b9a6"
       ],
       "explanation": "本句的「charge」指「被交由某人負責照顧／管理」。",
       "sentenceIndex": 67,
@@ -1312,12 +1246,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-13": "本句指「被交由某人負責照顧／管理」。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-10": "「正式提出的刑事控罪」與本句語境不同。"
+        "charge-mcq-13": "本句的「charge」指「被交由某人負責照顧／管理」。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-13"
     },
@@ -1329,11 +1261,9 @@ export default {
       "masked": "The troops launched a ____.",
       "options": [
         "charge-mcq-14",
-        "charge-mcq-13",
-        "charge-mcq-15",
-        "charge-mcq-12",
-        "charge-mcq-16",
-        "charge-mcq-11"
+        "charge-mcq-10",
+        "charge-mcq-02",
+        "charge-mcq-23"
       ],
       "explanation": "本句的「charge」指「快速而有力地向目標猛衝／衝鋒」。",
       "sentenceIndex": 76,
@@ -1342,12 +1272,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-14": "本句指「快速而有力地向目標猛衝／衝鋒」。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-16": "「為爆破目的放置的一定量炸藥」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。"
+        "charge-mcq-14": "本句的「charge」指「快速而有力地向目標猛衝／衝鋒」。",
+        "charge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-14"
     },
@@ -1359,11 +1287,9 @@ export default {
       "masked": "The cavalry ____ broke the line.",
       "options": [
         "charge-mcq-14",
-        "charge-mcq-13",
-        "charge-mcq-15",
-        "charge-mcq-12",
-        "charge-mcq-16",
-        "charge-mcq-11"
+        "charge-mcq-09",
+        "charge-mcq-22",
+        "charge-reviewed-f9cb51b9a6"
       ],
       "explanation": "本句的「charge」指「快速而有力地向目標猛衝／衝鋒」。",
       "sentenceIndex": 77,
@@ -1372,12 +1298,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-14": "本句指「快速而有力地向目標猛衝／衝鋒」。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-12": "「主動接管並控制局面」與本句語境不同。",
-        "charge-mcq-16": "「為爆破目的放置的一定量炸藥」與本句語境不同。",
-        "charge-mcq-11": "「擁有管理／控制某事的責任」與本句語境不同。"
+        "charge-mcq-14": "本句的「charge」指「快速而有力地向目標猛衝／衝鋒」。",
+        "charge-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-14"
     },
@@ -1389,11 +1313,9 @@ export default {
       "masked": "Workers placed an explosive ____ in the rock.",
       "options": [
         "charge-mcq-16",
-        "charge-mcq-15",
-        "charge-mcq-17",
-        "charge-mcq-14",
-        "charge-mcq-18",
-        "charge-mcq-13"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-06",
+        "charge-mcq-20"
       ],
       "explanation": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
       "sentenceIndex": 88,
@@ -1402,12 +1324,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-16": "本句指「為爆破目的放置的一定量炸藥」。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。"
+        "charge-mcq-16": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-16"
     },
@@ -1419,11 +1339,9 @@ export default {
       "masked": "The ____ was detonated remotely.",
       "options": [
         "charge-mcq-16",
-        "charge-mcq-15",
-        "charge-mcq-17",
-        "charge-mcq-14",
-        "charge-mcq-18",
-        "charge-mcq-13"
+        "charge-reviewed-1982a9b53b",
+        "charge-mcq-02",
+        "charge-mcq-18"
       ],
       "explanation": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
       "sentenceIndex": 89,
@@ -1432,12 +1350,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-16": "本句指「為爆破目的放置的一定量炸藥」。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。"
+        "charge-mcq-16": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-16"
     },
@@ -1449,11 +1365,9 @@ export default {
       "masked": "The explosive ____ was carefully positioned.",
       "options": [
         "charge-mcq-16",
-        "charge-mcq-15",
-        "charge-mcq-17",
-        "charge-mcq-14",
-        "charge-mcq-18",
-        "charge-mcq-13"
+        "charge-mcq-23",
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-18"
       ],
       "explanation": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
       "sentenceIndex": 90,
@@ -1462,12 +1376,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-16": "本句指「為爆破目的放置的一定量炸藥」。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。"
+        "charge-mcq-16": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-16"
     },
@@ -1479,11 +1391,9 @@ export default {
       "masked": "A smaller ____ was sufficient.",
       "options": [
         "charge-mcq-16",
-        "charge-mcq-15",
-        "charge-mcq-17",
-        "charge-mcq-14",
-        "charge-mcq-18",
-        "charge-mcq-13"
+        "charge-mcq-13",
+        "charge-reviewed-1982a9b53b",
+        "charge-reviewed-f9cb51b9a6"
       ],
       "explanation": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
       "sentenceIndex": 91,
@@ -1492,44 +1402,40 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-16": "本句指「為爆破目的放置的一定量炸藥」。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。"
+        "charge-mcq-16": "本句的「charge」指「為爆破目的放置的一定量炸藥」。",
+        "charge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-1982a9b53b": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-16"
     },
     {
       "id": "charge-48-0",
-      "sense": "charge-mcq-16",
+      "sense": "charge-reviewed-f9cb51b9a6",
       "en": "The weapon was charged with powder.",
       "zh": "武器被裝入火藥。",
       "masked": "The weapon was ____ with powder.",
       "options": [
-        "charge-mcq-16",
-        "charge-mcq-15",
-        "charge-mcq-17",
-        "charge-mcq-14",
-        "charge-mcq-18",
-        "charge-mcq-13"
+        "charge-reviewed-f9cb51b9a6",
+        "charge-mcq-24",
+        "charge-mcq-20",
+        "charge-mcq-18"
       ],
-      "explanation": "本句的「charged」指「為爆破目的放置的一定量炸藥」。",
+      "explanation": "對照完整句子：「武器被裝入火藥。」。這裡的「charged」表示「裝填」。",
       "sentenceIndex": 94,
       "sourcePractice": 48,
       "targets": [
         "charged"
       ],
       "optionReasons": {
-        "charge-mcq-16": "本句指「為爆破目的放置的一定量炸藥」。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-13": "「被交由某人負責照顧／管理」與本句語境不同。"
+        "charge-reviewed-f9cb51b9a6": "對照完整句子：「武器被裝入火藥。」。這裡的「charged」表示「裝填」。",
+        "charge-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "charge-mcq-16"
+      "correctOption": "charge-reviewed-f9cb51b9a6",
+      "previousCorrectOption": "charge-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "charge-49-0",
@@ -1539,11 +1445,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "charge-mcq-17",
-        "charge-mcq-16",
-        "charge-mcq-18",
-        "charge-mcq-15",
-        "charge-mcq-19",
-        "charge-mcq-14"
+        "charge-mcq-13",
+        "charge-mcq-05",
+        "charge-reviewed-4e29a081b7"
       ],
       "explanation": "本句的「charge it to my room」指「把費用記在某帳戶／信用卡上」。",
       "sentenceIndex": 95,
@@ -1552,12 +1456,10 @@ export default {
         "charge it to my room"
       ],
       "optionReasons": {
-        "charge-mcq-17": "本句指「把費用記在某帳戶／信用卡上」。",
-        "charge-mcq-16": "「為爆破目的放置的一定量炸藥」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。"
+        "charge-mcq-17": "本句的「charge it to my room」指「把費用記在某帳戶／信用卡上」。",
+        "charge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-17"
     },
@@ -1569,11 +1471,9 @@ export default {
       "masked": "The meal was ____ to the company account.",
       "options": [
         "charge-mcq-17",
-        "charge-mcq-16",
-        "charge-mcq-18",
-        "charge-mcq-15",
-        "charge-mcq-19",
-        "charge-mcq-14"
+        "charge-reviewed-f9cb51b9a6",
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-13"
       ],
       "explanation": "本句的「charged」指「把費用記在某帳戶／信用卡上」。",
       "sentenceIndex": 96,
@@ -1582,12 +1482,10 @@ export default {
         "charged"
       ],
       "optionReasons": {
-        "charge-mcq-17": "本句指「把費用記在某帳戶／信用卡上」。",
-        "charge-mcq-16": "「為爆破目的放置的一定量炸藥」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。",
-        "charge-mcq-14": "「快速而有力地向目標猛衝／衝鋒」與本句語境不同。"
+        "charge-mcq-17": "本句的「charged」指「把費用記在某帳戶／信用卡上」。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-17"
     },
@@ -1599,11 +1497,9 @@ export default {
       "masked": "The committee was ____.",
       "options": [
         "charge-mcq-18",
-        "charge-mcq-17",
-        "charge-mcq-19",
-        "charge-mcq-16",
-        "charge-mcq-20",
-        "charge-mcq-15"
+        "charge-mcq-14",
+        "charge-mcq-24",
+        "charge-mcq-02"
       ],
       "explanation": "本句的「charged with reviewing the policy」指「正式委託／責成某人負責一項工作」。",
       "sentenceIndex": 103,
@@ -1612,12 +1508,10 @@ export default {
         "charged with reviewing the policy"
       ],
       "optionReasons": {
-        "charge-mcq-18": "本句指「正式委託／責成某人負責一項工作」。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。",
-        "charge-mcq-16": "「為爆破目的放置的一定量炸藥」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。"
+        "charge-mcq-18": "本句的「charged with reviewing the policy」指「正式委託／責成某人負責一項工作」。",
+        "charge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-18"
     },
@@ -1629,11 +1523,9 @@ export default {
       "masked": "She was ____ with leading the project.",
       "options": [
         "charge-mcq-18",
-        "charge-mcq-17",
-        "charge-mcq-19",
-        "charge-mcq-16",
-        "charge-mcq-20",
-        "charge-mcq-15"
+        "charge-mcq-08",
+        "charge-reviewed-f9cb51b9a6",
+        "charge-mcq-22"
       ],
       "explanation": "本句的「charged」指「正式委託／責成某人負責一項工作」。",
       "sentenceIndex": 104,
@@ -1642,74 +1534,68 @@ export default {
         "charged"
       ],
       "optionReasons": {
-        "charge-mcq-18": "本句指「正式委託／責成某人負責一項工作」。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。",
-        "charge-mcq-16": "「為爆破目的放置的一定量炸藥」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。",
-        "charge-mcq-15": "「造成電力相互作用的基本物理性質；電荷」與本句語境不同。"
+        "charge-mcq-18": "本句的「charged」指「正式委託／責成某人負責一項工作」。",
+        "charge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-18"
     },
     {
       "id": "charge-62-0",
-      "sense": "charge-mcq-02",
+      "sense": "charge-reviewed-4e29a081b7",
       "en": "The referee called a charging foul.",
       "zh": "裁判判罰一次進攻撞人犯規。",
       "masked": "The referee called a ____.",
       "options": [
-        "charge-mcq-02",
-        "charge-mcq-01",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-23",
+        "charge-reviewed-f9cb51b9a6",
+        "charge-mcq-09"
       ],
-      "explanation": "本句的「charging foul」指「為電池／電動車補充電能的過程」。",
+      "explanation": "對照完整句子：「裁判判罰一次進攻撞人犯規。」。這裡的「charging foul」表示「帶球撞人／進攻撞人」。",
       "sentenceIndex": 121,
       "sourcePractice": 62,
       "targets": [
         "charging foul"
       ],
       "optionReasons": {
-        "charge-mcq-02": "本句指「為電池／電動車補充電能的過程」。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-reviewed-4e29a081b7": "對照完整句子：「裁判判罰一次進攻撞人犯規。」。這裡的「charging foul」表示「帶球撞人／進攻撞人」。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "charge-mcq-02"
+      "correctOption": "charge-reviewed-4e29a081b7",
+      "previousCorrectOption": "charge-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "charge-62-1",
-      "sense": "charge-mcq-02",
+      "sense": "charge-reviewed-4e29a081b7",
       "en": "Charging occurs when an offensive player illegally runs into a defender.",
       "zh": "進攻撞人是指進攻球員非法撞向防守球員。",
       "masked": "____ occurs when an offensive player illegally runs into a defender.",
       "options": [
-        "charge-mcq-02",
-        "charge-mcq-01",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-08",
+        "charge-mcq-12",
+        "charge-mcq-20"
       ],
-      "explanation": "本句的「Charging」指「為電池／電動車補充電能的過程」。",
+      "explanation": "對照完整句子：「進攻撞人是指進攻球員非法撞向防守球員。」。這裡的「Charging」表示「帶球撞人／進攻撞人」。",
       "sentenceIndex": 122,
       "sourcePractice": 62,
       "targets": [
         "Charging"
       ],
       "optionReasons": {
-        "charge-mcq-02": "本句指「為電池／電動車補充電能的過程」。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-reviewed-4e29a081b7": "對照完整句子：「進攻撞人是指進攻球員非法撞向防守球員。」。這裡的「Charging」表示「帶球撞人／進攻撞人」。",
+        "charge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "charge-mcq-02"
+      "correctOption": "charge-reviewed-4e29a081b7",
+      "previousCorrectOption": "charge-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "charge-64-0",
@@ -1719,11 +1605,9 @@ export default {
       "masked": "The judge ____ before deliberation.",
       "options": [
         "charge-mcq-20",
-        "charge-mcq-19",
-        "charge-mcq-21",
-        "charge-mcq-18",
-        "charge-mcq-22",
-        "charge-mcq-17"
+        "charge-mcq-11",
+        "charge-mcq-04",
+        "charge-mcq-23"
       ],
       "explanation": "本句的「charged the jury」指「法官向陪審團說明適用法律與判斷標準」。",
       "sentenceIndex": 125,
@@ -1732,12 +1616,10 @@ export default {
         "charged the jury"
       ],
       "optionReasons": {
-        "charge-mcq-20": "本句指「法官向陪審團說明適用法律與判斷標準」。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-22": "「針對特定資產設定的固定押記」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。"
+        "charge-mcq-20": "本句的「charged the jury」指「法官向陪審團說明適用法律與判斷標準」。",
+        "charge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-20"
     },
@@ -1749,11 +1631,9 @@ export default {
       "masked": "The jury ____ explained the relevant law.",
       "options": [
         "charge-mcq-20",
-        "charge-mcq-19",
-        "charge-mcq-21",
-        "charge-mcq-18",
-        "charge-mcq-22",
-        "charge-mcq-17"
+        "charge-mcq-01",
+        "charge-mcq-12",
+        "charge-reviewed-4e29a081b7"
       ],
       "explanation": "本句的「charge」指「法官向陪審團說明適用法律與判斷標準」。",
       "sentenceIndex": 126,
@@ -1762,12 +1642,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-20": "本句指「法官向陪審團說明適用法律與判斷標準」。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-18": "「正式委託／責成某人負責一項工作」與本句語境不同。",
-        "charge-mcq-22": "「針對特定資產設定的固定押記」與本句語境不同。",
-        "charge-mcq-17": "「把費用記在某帳戶／信用卡上」與本句語境不同。"
+        "charge-mcq-20": "本句的「charge」指「法官向陪審團說明適用法律與判斷標準」。",
+        "charge-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-20"
     },
@@ -1779,11 +1657,9 @@ export default {
       "masked": "The garage ____ me.",
       "options": [
         "charge-mcq-24",
-        "charge-mcq-23",
-        "charge-mcq-25",
-        "charge-mcq-22",
-        "charge-mcq-21",
-        "charge-mcq-20"
+        "charge-reviewed-4e29a081b7",
+        "charge-mcq-12",
+        "charge-reviewed-f9cb51b9a6"
       ],
       "explanation": "本句的「overcharged」指「向顧客收取過高／過多費用」。",
       "sentenceIndex": 146,
@@ -1792,74 +1668,68 @@ export default {
         "overcharged"
       ],
       "optionReasons": {
-        "charge-mcq-24": "本句指「向顧客收取過高／過多費用」。",
-        "charge-mcq-23": "「可涵蓋變動資產類別的浮動押記」與本句語境不同。",
-        "charge-mcq-25": "「為電池充入超過適當程度的電量」與本句語境不同。",
-        "charge-mcq-22": "「針對特定資產設定的固定押記」與本句語境不同。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。"
+        "charge-mcq-24": "本句的「overcharged」指「向顧客收取過高／過多費用」。",
+        "charge-reviewed-4e29a081b7": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "charge-reviewed-f9cb51b9a6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-24"
     },
     {
       "id": "charge-90-0",
-      "sense": "charge-mcq-02",
+      "sense": "charge-reviewed-1982a9b53b",
       "en": "The company changed its charging structure.",
       "zh": "公司改變了收費結構。",
       "masked": "The company changed its ____.",
       "options": [
+        "charge-reviewed-1982a9b53b",
         "charge-mcq-02",
-        "charge-mcq-01",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-mcq-23",
+        "charge-mcq-16"
       ],
-      "explanation": "本句的「charging structure」指「為電池／電動車補充電能的過程」。",
+      "explanation": "對照完整句子：「公司改變了收費結構。」。這裡的「charging structure」表示「收費；計費」。",
       "sentenceIndex": 154,
       "sourcePractice": 90,
       "targets": [
         "charging structure"
       ],
       "optionReasons": {
-        "charge-mcq-02": "本句指「為電池／電動車補充電能的過程」。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-reviewed-1982a9b53b": "對照完整句子：「公司改變了收費結構。」。這裡的「charging structure」表示「收費；計費」。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "charge-mcq-02"
+      "correctOption": "charge-reviewed-1982a9b53b",
+      "previousCorrectOption": "charge-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "charge-90-1",
-      "sense": "charge-mcq-02",
+      "sense": "charge-reviewed-1982a9b53b",
       "en": "Road charging can reduce congestion.",
       "zh": "道路收費制度可以減少擠塞。",
       "masked": "Road ____ can reduce congestion.",
       "options": [
+        "charge-reviewed-1982a9b53b",
         "charge-mcq-02",
-        "charge-mcq-01",
-        "charge-mcq-03",
-        "charge-mcq-04",
-        "charge-mcq-05",
-        "charge-mcq-06"
+        "charge-mcq-13",
+        "charge-mcq-22"
       ],
-      "explanation": "本句的「charging」指「為電池／電動車補充電能的過程」。",
+      "explanation": "對照完整句子：「道路收費制度可以減少擠塞。」。這裡的「charging」表示「收費；計費」。",
       "sentenceIndex": 155,
       "sourcePractice": 90,
       "targets": [
         "charging"
       ],
       "optionReasons": {
-        "charge-mcq-02": "本句指「為電池／電動車補充電能的過程」。",
-        "charge-mcq-01": "「把電能輸入電池，使其儲存能量」與本句語境不同。",
-        "charge-mcq-03": "「為電池／裝置提供充電電力的設備」與本句語境不同。",
-        "charge-mcq-04": "「電池內剩餘／儲存的電量」與本句語境不同。",
-        "charge-mcq-05": "「電池能長時間保存已儲存的電量」與本句語境不同。",
-        "charge-mcq-06": "「向某人要求支付某筆費用」與本句語境不同。"
+        "charge-reviewed-1982a9b53b": "對照完整句子：「道路收費制度可以減少擠塞。」。這裡的「charging」表示「收費；計費」。",
+        "charge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "charge-mcq-02"
+      "correctOption": "charge-reviewed-1982a9b53b",
+      "previousCorrectOption": "charge-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "charge-95-0",
@@ -1869,11 +1739,9 @@ export default {
       "masked": "The lender holds a fixed ____ over the building.",
       "options": [
         "charge-mcq-22",
-        "charge-mcq-21",
-        "charge-mcq-23",
+        "charge-mcq-04",
         "charge-mcq-20",
-        "charge-mcq-24",
-        "charge-mcq-19"
+        "charge-mcq-13"
       ],
       "explanation": "本句的「charge」指「針對特定資產設定的固定押記」。",
       "sentenceIndex": 164,
@@ -1882,12 +1750,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-22": "本句指「針對特定資產設定的固定押記」。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-23": "「可涵蓋變動資產類別的浮動押記」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。",
-        "charge-mcq-24": "「向顧客收取過高／過多費用」與本句語境不同。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。"
+        "charge-mcq-22": "本句的「charge」指「針對特定資產設定的固定押記」。",
+        "charge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-22"
     },
@@ -1899,11 +1765,9 @@ export default {
       "masked": "A fixed ____ attaches to specific assets.",
       "options": [
         "charge-mcq-22",
-        "charge-mcq-21",
-        "charge-mcq-23",
-        "charge-mcq-20",
-        "charge-mcq-24",
-        "charge-mcq-19"
+        "charge-mcq-09",
+        "charge-mcq-01",
+        "charge-mcq-20"
       ],
       "explanation": "本句的「charge」指「針對特定資產設定的固定押記」。",
       "sentenceIndex": 165,
@@ -1912,12 +1776,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-22": "本句指「針對特定資產設定的固定押記」。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-23": "「可涵蓋變動資產類別的浮動押記」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。",
-        "charge-mcq-24": "「向顧客收取過高／過多費用」與本句語境不同。",
-        "charge-mcq-19": "「充滿強烈情緒、緊張或爭議的」與本句語境不同。"
+        "charge-mcq-22": "本句的「charge」指「針對特定資產設定的固定押記」。",
+        "charge-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-22"
     },
@@ -1929,11 +1791,9 @@ export default {
       "masked": "The bank has a floating ____ over the company’s assets.",
       "options": [
         "charge-mcq-23",
-        "charge-mcq-22",
-        "charge-mcq-24",
-        "charge-mcq-21",
-        "charge-mcq-25",
-        "charge-mcq-20"
+        "charge-mcq-18",
+        "charge-mcq-16",
+        "charge-mcq-04"
       ],
       "explanation": "本句的「charge」指「可涵蓋變動資產類別的浮動押記」。",
       "sentenceIndex": 166,
@@ -1942,12 +1802,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-23": "本句指「可涵蓋變動資產類別的浮動押記」。",
-        "charge-mcq-22": "「針對特定資產設定的固定押記」與本句語境不同。",
-        "charge-mcq-24": "「向顧客收取過高／過多費用」與本句語境不同。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-25": "「為電池充入超過適當程度的電量」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。"
+        "charge-mcq-23": "本句的「charge」指「可涵蓋變動資產類別的浮動押記」。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-23"
     },
@@ -1959,11 +1817,9 @@ export default {
       "masked": "A floating ____ may cover changing classes of assets.",
       "options": [
         "charge-mcq-23",
-        "charge-mcq-22",
-        "charge-mcq-24",
-        "charge-mcq-21",
-        "charge-mcq-25",
-        "charge-mcq-20"
+        "charge-mcq-16",
+        "charge-mcq-04",
+        "charge-mcq-18"
       ],
       "explanation": "本句的「charge」指「可涵蓋變動資產類別的浮動押記」。",
       "sentenceIndex": 167,
@@ -1972,12 +1828,10 @@ export default {
         "charge"
       ],
       "optionReasons": {
-        "charge-mcq-23": "本句指「可涵蓋變動資產類別的浮動押記」。",
-        "charge-mcq-22": "「針對特定資產設定的固定押記」與本句語境不同。",
-        "charge-mcq-24": "「向顧客收取過高／過多費用」與本句語境不同。",
-        "charge-mcq-21": "「債權人對資產享有的法律擔保權／押記」與本句語境不同。",
-        "charge-mcq-25": "「為電池充入超過適當程度的電量」與本句語境不同。",
-        "charge-mcq-20": "「法官向陪審團說明適用法律與判斷標準」與本句語境不同。"
+        "charge-mcq-23": "本句的「charge」指「可涵蓋變動資產類別的浮動押記」。",
+        "charge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "charge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "charge-mcq-23"
     }
@@ -1989,5 +1843,7 @@ export default {
     "sha256": "cc75fc60005d79e59cfe6fc17bd97a02c0f8977863c7e9dd7f6d568b2c049f61",
     "pages": 65
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

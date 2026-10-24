@@ -174,11 +174,7 @@ export default {
       "masked": "The fabric has a soft, smooth ____.",
       "options": [
         "texture-mcq-01",
-        "texture-mcq-02",
-        "texture-mcq-03",
-        "texture-mcq-04",
-        "texture-mcq-05",
-        "texture-mcq-06"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「texture」指「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-01": "本句指「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。"
+        "texture-mcq-01": "本句的「texture」指「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "I like the rough ____ of natural stone.",
       "options": [
         "texture-mcq-01",
-        "texture-mcq-02",
-        "texture-mcq-03",
-        "texture-mcq-04",
-        "texture-mcq-05",
-        "texture-mcq-06"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「texture」指「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-01": "本句指「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。"
+        "texture-mcq-01": "本句的「texture」指「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "The cake has a light, fluffy ____.",
       "options": [
         "texture-mcq-02",
-        "texture-mcq-01",
-        "texture-mcq-03",
-        "texture-mcq-04",
-        "texture-mcq-05",
-        "texture-mcq-06"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「texture」指「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-02": "本句指「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。"
+        "texture-mcq-02": "本句的「texture」指「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-02"
     },
@@ -264,11 +240,7 @@ export default {
       "masked": "The sauce should have a thick, creamy ____.",
       "options": [
         "texture-mcq-02",
-        "texture-mcq-01",
-        "texture-mcq-03",
-        "texture-mcq-04",
-        "texture-mcq-05",
-        "texture-mcq-06"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「texture」指「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」。",
       "sentenceIndex": 3,
@@ -277,12 +249,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-02": "本句指「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。"
+        "texture-mcq-02": "本句的「texture」指「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-02"
     },
@@ -294,11 +262,7 @@ export default {
       "masked": "The photograph captures the ____ of the old brick wall.",
       "options": [
         "texture-mcq-03",
-        "texture-mcq-02",
-        "texture-mcq-04",
-        "texture-mcq-01",
-        "texture-mcq-05",
-        "texture-mcq-06"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「texture」指「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」。",
       "sentenceIndex": 4,
@@ -307,12 +271,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-03": "本句指「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。"
+        "texture-mcq-03": "本句的「texture」指「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-03"
     },
@@ -324,11 +284,7 @@ export default {
       "masked": "The designer added visual ____ to the background.",
       "options": [
         "texture-mcq-03",
-        "texture-mcq-02",
-        "texture-mcq-04",
-        "texture-mcq-01",
-        "texture-mcq-05",
-        "texture-mcq-06"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「texture」指「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」。",
       "sentenceIndex": 5,
@@ -337,12 +293,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-03": "本句指「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。"
+        "texture-mcq-03": "本句的「texture」指「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-03"
     },
@@ -354,11 +306,7 @@ export default {
       "masked": "He can turn a small, everyday scene into a story with ____, humour, and meaning.",
       "options": [
         "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-05",
-        "texture-mcq-02",
-        "texture-mcq-06",
-        "texture-mcq-01"
+        "texture-mcq-06"
       ],
       "explanation": "本句的「texture」指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
       "sentenceIndex": 6,
@@ -367,12 +315,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-04": "本句指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。"
+        "texture-mcq-04": "本句的「texture」指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
+        "texture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-04"
     },
@@ -384,11 +328,7 @@ export default {
       "masked": "The novel has emotional ____ because even the minor characters feel real.",
       "options": [
         "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-05",
-        "texture-mcq-02",
-        "texture-mcq-06",
-        "texture-mcq-01"
+        "texture-mcq-06"
       ],
       "explanation": "本句的「texture」指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
       "sentenceIndex": 7,
@@ -397,12 +337,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-04": "本句指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。"
+        "texture-mcq-04": "本句的「texture」指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
+        "texture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-04"
     },
@@ -414,11 +350,7 @@ export default {
       "masked": "The music gains ____ from the combination of different instruments.",
       "options": [
         "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-05",
-        "texture-mcq-02",
-        "texture-mcq-06",
-        "texture-mcq-01"
+        "texture-mcq-06"
       ],
       "explanation": "本句的「texture」指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
       "sentenceIndex": 8,
@@ -427,12 +359,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-04": "本句指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-01": "「物件表面給人觸摸時產生的質感，例如光滑、粗糙、柔軟或凹凸」是「texture — tactile surface quality」的用法，與本句語境不同。"
+        "texture-mcq-04": "本句的「texture」指「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」。",
+        "texture-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-04"
     },
@@ -444,11 +372,7 @@ export default {
       "masked": "The piece has a dense musical ____.",
       "options": [
         "texture-mcq-05",
-        "texture-mcq-04",
-        "texture-mcq-06",
-        "texture-mcq-03",
-        "texture-mcq-07",
-        "texture-mcq-02"
+        "texture-mcq-03"
       ],
       "explanation": "本句的「texture」指「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」。",
       "sentenceIndex": 9,
@@ -457,12 +381,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-05": "本句指「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-07": "「與質感、紋理、口感或聲音層次有關的」是「textural」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。"
+        "texture-mcq-05": "本句的「texture」指「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」。",
+        "texture-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-05"
     },
@@ -474,10 +394,6 @@ export default {
       "masked": "The composer creates a lighter ____ by using fewer instruments.",
       "options": [
         "texture-mcq-05",
-        "texture-mcq-04",
-        "texture-mcq-06",
-        "texture-mcq-03",
-        "texture-mcq-07",
         "texture-mcq-02"
       ],
       "explanation": "本句的「texture」指「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」。",
@@ -487,12 +403,8 @@ export default {
         "texture"
       ],
       "optionReasons": {
-        "texture-mcq-05": "本句指「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-07": "「與質感、紋理、口感或聲音層次有關的」是「textural」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。"
+        "texture-mcq-05": "本句的「texture」指「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」。",
+        "texture-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-05"
     },
@@ -504,11 +416,7 @@ export default {
       "masked": "The wall has a ____ finish.",
       "options": [
         "texture-mcq-06",
-        "texture-mcq-05",
-        "texture-mcq-07",
-        "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-02"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「textured」指「表面具有明顯紋理、凹凸或質感的」。",
       "sentenceIndex": 11,
@@ -517,12 +425,8 @@ export default {
         "textured"
       ],
       "optionReasons": {
-        "texture-mcq-06": "本句指「表面具有明顯紋理、凹凸或質感的」。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-07": "「與質感、紋理、口感或聲音層次有關的」是「textural」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。"
+        "texture-mcq-06": "本句的「textured」指「表面具有明顯紋理、凹凸或質感的」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-06"
     },
@@ -534,11 +438,7 @@ export default {
       "masked": "She chose a ____ fabric for the curtains.",
       "options": [
         "texture-mcq-06",
-        "texture-mcq-05",
-        "texture-mcq-07",
-        "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-02"
+        "texture-mcq-05"
       ],
       "explanation": "本句的「textured」指「表面具有明顯紋理、凹凸或質感的」。",
       "sentenceIndex": 12,
@@ -547,12 +447,8 @@ export default {
         "textured"
       ],
       "optionReasons": {
-        "texture-mcq-06": "本句指「表面具有明顯紋理、凹凸或質感的」。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-07": "「與質感、紋理、口感或聲音層次有關的」是「textural」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。"
+        "texture-mcq-06": "本句的「textured」指「表面具有明顯紋理、凹凸或質感的」。",
+        "texture-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-06"
     },
@@ -564,11 +460,7 @@ export default {
       "masked": "The painting is interesting because of its ____ contrasts.",
       "options": [
         "texture-mcq-07",
-        "texture-mcq-06",
-        "texture-mcq-05",
-        "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-02"
+        "texture-mcq-04"
       ],
       "explanation": "本句的「textural」指「與質感、紋理、口感或聲音層次有關的」。",
       "sentenceIndex": 13,
@@ -577,12 +469,8 @@ export default {
         "textural"
       ],
       "optionReasons": {
-        "texture-mcq-07": "本句指「與質感、紋理、口感或聲音層次有關的」。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。"
+        "texture-mcq-07": "本句的「textural」指「與質感、紋理、口感或聲音層次有關的」。",
+        "texture-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-07"
     },
@@ -594,11 +482,7 @@ export default {
       "masked": "The chef focused on ____ variety.",
       "options": [
         "texture-mcq-07",
-        "texture-mcq-06",
-        "texture-mcq-05",
-        "texture-mcq-04",
-        "texture-mcq-03",
-        "texture-mcq-02"
+        "texture-mcq-04"
       ],
       "explanation": "本句的「textural」指「與質感、紋理、口感或聲音層次有關的」。",
       "sentenceIndex": 14,
@@ -607,12 +491,8 @@ export default {
         "textural"
       ],
       "optionReasons": {
-        "texture-mcq-07": "本句指「與質感、紋理、口感或聲音層次有關的」。",
-        "texture-mcq-06": "「表面具有明顯紋理、凹凸或質感的」是「textured」的用法，與本句語境不同。",
-        "texture-mcq-05": "「不同旋律線、聲部、樂器或聲音層次彼此組合的方式」是「musical texture」的用法，與本句語境不同。",
-        "texture-mcq-04": "「作品、故事或經驗因包含多層細節、變化、對比和細微元素而產生的豐富感與深度」是「texture — figurative richness/layering」的用法，與本句語境不同。",
-        "texture-mcq-03": "「表面在視覺上呈現出的紋理、粗細、凹凸或材料感」是「texture — visual surface quality」的用法，與本句語境不同。",
-        "texture-mcq-02": "「食物或材料呈現出的物理質地和口感，例如鬆軟、幼滑、脆或黏稠」是「texture — food/material consistency」的用法，與本句語境不同。"
+        "texture-mcq-07": "本句的「textural」指「與質感、紋理、口感或聲音層次有關的」。",
+        "texture-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "texture-mcq-07"
     }
@@ -624,5 +504,7 @@ export default {
     "sha256": "8cba4bb79420c32959d5022b0555f0d9c7c457d1fad84cd0e9a752a1c7ac3e02",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

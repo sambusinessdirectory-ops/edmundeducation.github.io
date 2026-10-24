@@ -410,11 +410,9 @@ export default {
       "masked": "The tablets are ____ to make them easier to swallow.",
       "options": [
         "sugar-coat-mcq-01",
-        "sugar-coat-mcq-02",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-04",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-06"
+        "sugar-coat-mcq-16",
+        "sugar-coat-mcq-07",
+        "sugar-coat-mcq-10"
       ],
       "explanation": "本句的「sugar-coated」指「裹上糖衣」。",
       "sentenceIndex": 0,
@@ -423,12 +421,10 @@ export default {
         "sugar-coated"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-01": "本句指「裹上糖衣」。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。"
+        "sugar-coat-mcq-01": "本句的「sugar-coated」指「裹上糖衣」。",
+        "sugar-coat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-01"
     },
@@ -440,11 +436,9 @@ export default {
       "masked": "The nuts were ____.",
       "options": [
         "sugar-coat-mcq-01",
-        "sugar-coat-mcq-02",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-04",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-06"
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-16",
+        "sugar-coat-mcq-07"
       ],
       "explanation": "本句的「sugar-coated」指「裹上糖衣」。",
       "sentenceIndex": 1,
@@ -453,12 +447,10 @@ export default {
         "sugar-coated"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-01": "本句指「裹上糖衣」。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。"
+        "sugar-coat-mcq-01": "本句的「sugar-coated」指「裹上糖衣」。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-01"
     },
@@ -470,9 +462,7 @@ export default {
       "masked": "The manufacturer ____ to improve the taste.",
       "options": [
         "sugar-coat-mcq-01",
-        "sugar-coat-mcq-02",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-04",
+        "sugar-coat-mcq-07",
         "sugar-coat-mcq-05",
         "sugar-coat-mcq-06"
       ],
@@ -483,12 +473,10 @@ export default {
         "sugar-coated the medicine"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-01": "本句指「裹上糖衣」。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。"
+        "sugar-coat-mcq-01": "本句的「sugar-coated the medicine」指「裹上糖衣」。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-01"
     },
@@ -500,11 +488,9 @@ export default {
       "masked": "These are ____.",
       "options": [
         "sugar-coat-mcq-02",
-        "sugar-coat-mcq-01",
-        "sugar-coat-mcq-03",
         "sugar-coat-mcq-04",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-06"
+        "sugar-coat-mcq-13",
+        "sugar-coat-mcq-10"
       ],
       "explanation": "本句的「sugar-coated tablets」指「糖衣藥片」。",
       "sentenceIndex": 3,
@@ -513,12 +499,10 @@ export default {
         "sugar-coated tablets"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-02": "本句指「糖衣藥片」。",
-        "sugar-coat-mcq-01": "「裹上糖衣」是「sugar-coat (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。"
+        "sugar-coat-mcq-02": "本句的「sugar-coated tablets」指「糖衣藥片」。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-02"
     },
@@ -530,11 +514,8 @@ export default {
       "masked": "The snack consists of ____.",
       "options": [
         "sugar-coat-mcq-02",
-        "sugar-coat-mcq-01",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-04",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-06"
+        "sugar-coat-mcq-08",
+        "sugar-coat-mcq-04"
       ],
       "explanation": "本句的「sugar-coated nuts」指「糖衣藥片」。",
       "sentenceIndex": 4,
@@ -543,12 +524,9 @@ export default {
         "sugar-coated nuts"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-02": "本句指「糖衣藥片」。",
-        "sugar-coat-mcq-01": "「裹上糖衣」是「sugar-coat (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。"
+        "sugar-coat-mcq-02": "本句的「sugar-coated nuts」指「糖衣藥片」。",
+        "sugar-coat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-02"
     },
@@ -560,11 +538,8 @@ export default {
       "masked": "He did not try to ____.",
       "options": [
         "sugar-coat-mcq-04",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-02",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-01"
+        "sugar-coat-mcq-08",
+        "sugar-coat-mcq-19"
       ],
       "explanation": "本句的「sugar-coat it」指「把事情說得較好聽」。",
       "sentenceIndex": 5,
@@ -573,12 +548,9 @@ export default {
         "sugar-coat it"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-04": "本句指「把事情說得較好聽」。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-01": "「裹上糖衣」是「sugar-coat (literal)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-04": "本句的「sugar-coat it」指「把事情說得較好聽」。",
+        "sugar-coat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-04"
     },
@@ -590,11 +562,9 @@ export default {
       "masked": "There's no point trying to ____.",
       "options": [
         "sugar-coat-mcq-04",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-02",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-01"
+        "sugar-coat-mcq-13",
+        "sugar-coat-mcq-19",
+        "sugar-coat-mcq-10"
       ],
       "explanation": "本句的「sugar-coat the situation」指「把事情說得較好聽」。",
       "sentenceIndex": 6,
@@ -603,12 +573,10 @@ export default {
         "sugar-coat the situation"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-04": "本句指「把事情說得較好聽」。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-01": "「裹上糖衣」是「sugar-coat (literal)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-04": "本句的「sugar-coat the situation」指「把事情說得較好聽」。",
+        "sugar-coat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-04"
     },
@@ -620,11 +588,8 @@ export default {
       "masked": "Don't ____. Tell me what actually happened.",
       "options": [
         "sugar-coat-mcq-04",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-02",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-01"
+        "sugar-coat-mcq-19",
+        "sugar-coat-mcq-08"
       ],
       "explanation": "本句的「sugar-coat the problem」指「把事情說得較好聽」。",
       "sentenceIndex": 7,
@@ -633,12 +598,9 @@ export default {
         "sugar-coat the problem"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-04": "本句指「把事情說得較好聽」。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-01": "「裹上糖衣」是「sugar-coat (literal)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-04": "本句的「sugar-coat the problem」指「把事情說得較好聽」。",
+        "sugar-coat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-04"
     },
@@ -650,11 +612,9 @@ export default {
       "masked": "Don't ____ just to make me feel better.",
       "options": [
         "sugar-coat-mcq-05",
-        "sugar-coat-mcq-04",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-03",
         "sugar-coat-mcq-07",
-        "sugar-coat-mcq-02"
+        "sugar-coat-mcq-01",
+        "sugar-coat-mcq-06"
       ],
       "explanation": "本句的「sugar-coat the truth」指「粉飾真相」。",
       "sentenceIndex": 8,
@@ -663,12 +623,10 @@ export default {
         "sugar-coat the truth"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-05": "本句指「粉飾真相」。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。"
+        "sugar-coat-mcq-05": "本句的「sugar-coat the truth」指「粉飾真相」。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-05"
     },
@@ -680,11 +638,9 @@ export default {
       "masked": "She refused to ____.",
       "options": [
         "sugar-coat-mcq-05",
-        "sugar-coat-mcq-04",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-03",
-        "sugar-coat-mcq-07",
-        "sugar-coat-mcq-02"
+        "sugar-coat-mcq-17",
+        "sugar-coat-mcq-12",
+        "sugar-coat-mcq-10"
       ],
       "explanation": "本句的「sugar-coat the truth」指「粉飾真相」。",
       "sentenceIndex": 9,
@@ -693,12 +649,10 @@ export default {
         "sugar-coat the truth"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-05": "本句指「粉飾真相」。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。",
-        "sugar-coat-mcq-02": "「糖衣藥片」是「sugar-coated tablet」的用法，與本句語境不同。"
+        "sugar-coat-mcq-05": "本句的「sugar-coat the truth」指「粉飾真相」。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-05"
     },
@@ -710,11 +664,9 @@ export default {
       "masked": "The report should present the facts clearly rather than ____.",
       "options": [
         "sugar-coat-mcq-06",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-07",
-        "sugar-coat-mcq-04",
-        "sugar-coat-mcq-08",
-        "sugar-coat-mcq-03"
+        "sugar-coat-mcq-02",
+        "sugar-coat-mcq-14",
+        "sugar-coat-mcq-04"
       ],
       "explanation": "本句的「sugar-coat them」指「美化／淡化事實」。",
       "sentenceIndex": 10,
@@ -723,12 +675,10 @@ export default {
         "sugar-coat them"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-06": "本句指「美化／淡化事實」。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-06": "本句的「sugar-coat them」指「美化／淡化事實」。",
+        "sugar-coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-06"
     },
@@ -740,11 +690,9 @@ export default {
       "masked": "He wasn't trying to ____.",
       "options": [
         "sugar-coat-mcq-06",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-07",
         "sugar-coat-mcq-04",
-        "sugar-coat-mcq-08",
-        "sugar-coat-mcq-03"
+        "sugar-coat-mcq-17",
+        "sugar-coat-mcq-11"
       ],
       "explanation": "本句的「sugar-coat the facts」指「美化／淡化事實」。",
       "sentenceIndex": 11,
@@ -753,12 +701,10 @@ export default {
         "sugar-coat the facts"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-06": "本句指「美化／淡化事實」。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。",
-        "sugar-coat-mcq-03": "「粉飾；美化」是「sugar-coat (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-06": "本句的「sugar-coat the facts」指「美化／淡化事實」。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-06"
     },
@@ -770,11 +716,8 @@ export default {
       "masked": "The manager tried to ____.",
       "options": [
         "sugar-coat-mcq-07",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-08",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-04"
+        "sugar-coat-mcq-17",
+        "sugar-coat-mcq-08"
       ],
       "explanation": "本句的「sugar-coat the bad news」指「把壞消息說得較好聽」。",
       "sentenceIndex": 12,
@@ -783,12 +726,9 @@ export default {
         "sugar-coat the bad news"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-07": "本句指「把壞消息說得較好聽」。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。"
+        "sugar-coat-mcq-07": "本句的「sugar-coat the bad news」指「把壞消息說得較好聽」。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-07"
     },
@@ -800,11 +740,9 @@ export default {
       "masked": "There's no easy way to ____.",
       "options": [
         "sugar-coat-mcq-07",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-08",
-        "sugar-coat-mcq-05",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-04"
+        "sugar-coat-mcq-14",
+        "sugar-coat-mcq-02",
+        "sugar-coat-mcq-10"
       ],
       "explanation": "本句的「sugar-coat this news」指「把壞消息說得較好聽」。",
       "sentenceIndex": 13,
@@ -813,12 +751,10 @@ export default {
         "sugar-coat this news"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-07": "本句指「把壞消息說得較好聽」。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-04": "「把事情說得較好聽」是「sugar-coat it」的用法，與本句語境不同。"
+        "sugar-coat-mcq-07": "本句的「sugar-coat this news」指「把壞消息說得較好聽」。",
+        "sugar-coat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-07"
     },
@@ -830,11 +766,8 @@ export default {
       "masked": "He admitted his mistake instead of trying to ____.",
       "options": [
         "sugar-coat-mcq-08",
-        "sugar-coat-mcq-07",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-10",
-        "sugar-coat-mcq-05"
+        "sugar-coat-mcq-17",
+        "sugar-coat-mcq-07"
       ],
       "explanation": "本句的「sugar-coat it」指「淡化／粉飾錯誤」。",
       "sentenceIndex": 14,
@@ -843,12 +776,9 @@ export default {
         "sugar-coat it"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-08": "本句指「淡化／粉飾錯誤」。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。"
+        "sugar-coat-mcq-08": "本句的「sugar-coat it」指「淡化／粉飾錯誤」。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-08"
     },
@@ -860,11 +790,8 @@ export default {
       "masked": "We shouldn't ____.",
       "options": [
         "sugar-coat-mcq-08",
-        "sugar-coat-mcq-07",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-06",
-        "sugar-coat-mcq-10",
-        "sugar-coat-mcq-05"
+        "sugar-coat-mcq-02",
+        "sugar-coat-mcq-12"
       ],
       "explanation": "本句的「sugar-coat the failure」指「淡化／粉飾錯誤」。",
       "sentenceIndex": 15,
@@ -873,12 +800,9 @@ export default {
         "sugar-coat the failure"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-08": "本句指「淡化／粉飾錯誤」。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-06": "「美化／淡化事實」是「sugar-coat the facts」的用法，與本句語境不同。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。",
-        "sugar-coat-mcq-05": "「粉飾真相」是「sugar-coat the truth」的用法，與本句語境不同。"
+        "sugar-coat-mcq-08": "本句的「sugar-coat the failure」指「淡化／粉飾錯誤」。",
+        "sugar-coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-08"
     },
@@ -890,10 +814,8 @@ export default {
       "masked": "The documentary doesn't ____.",
       "options": [
         "sugar-coat-mcq-10",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-11",
-        "sugar-coat-mcq-08",
-        "sugar-coat-mcq-12",
+        "sugar-coat-mcq-16",
+        "sugar-coat-mcq-01",
         "sugar-coat-mcq-07"
       ],
       "explanation": "本句的「sugar-coat reality」指「美化現實」。",
@@ -903,12 +825,10 @@ export default {
         "sugar-coat reality"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-10": "本句指「美化現實」。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。"
+        "sugar-coat-mcq-10": "本句的「sugar-coat reality」指「美化現實」。",
+        "sugar-coat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-10"
     },
@@ -920,11 +840,9 @@ export default {
       "masked": "There's no point ____.",
       "options": [
         "sugar-coat-mcq-10",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-11",
-        "sugar-coat-mcq-08",
+        "sugar-coat-mcq-02",
         "sugar-coat-mcq-12",
-        "sugar-coat-mcq-07"
+        "sugar-coat-mcq-11"
       ],
       "explanation": "本句的「sugar-coating reality」指「美化現實」。",
       "sentenceIndex": 17,
@@ -933,12 +851,10 @@ export default {
         "sugar-coating reality"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-10": "本句指「美化現實」。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-07": "「把壞消息說得較好聽」是「sugar-coat bad news」的用法，與本句語境不同。"
+        "sugar-coat-mcq-10": "本句的「sugar-coating reality」指「美化現實」。",
+        "sugar-coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-10"
     },
@@ -950,11 +866,9 @@ export default {
       "masked": "____ Was my presentation bad?",
       "options": [
         "sugar-coat-mcq-11",
-        "sugar-coat-mcq-10",
-        "sugar-coat-mcq-12",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-13",
-        "sugar-coat-mcq-08"
+        "sugar-coat-mcq-02",
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-04"
       ],
       "explanation": "本句的「Don't sugar-coat it.」指「別粉飾了；有話直說」。",
       "sentenceIndex": 18,
@@ -963,12 +877,10 @@ export default {
         "Don't sugar-coat it."
       ],
       "optionReasons": {
-        "sugar-coat-mcq-11": "本句指「別粉飾了；有話直說」。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。"
+        "sugar-coat-mcq-11": "本句的「Don't sugar-coat it.」指「別粉飾了；有話直說」。",
+        "sugar-coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-11"
     },
@@ -980,11 +892,9 @@ export default {
       "masked": "____—just tell me the truth.",
       "options": [
         "sugar-coat-mcq-11",
-        "sugar-coat-mcq-10",
-        "sugar-coat-mcq-12",
-        "sugar-coat-mcq-09",
-        "sugar-coat-mcq-13",
-        "sugar-coat-mcq-08"
+        "sugar-coat-mcq-17",
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-07"
       ],
       "explanation": "本句的「Don't sugar-coat it」指「別粉飾了；有話直說」。",
       "sentenceIndex": 19,
@@ -993,12 +903,10 @@ export default {
         "Don't sugar-coat it"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-11": "本句指「別粉飾了；有話直說」。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。",
-        "sugar-coat-mcq-08": "「淡化／粉飾錯誤」是「sugar-coat a mistake」的用法，與本句語境不同。"
+        "sugar-coat-mcq-11": "本句的「Don't sugar-coat it」指「別粉飾了；有話直說」。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-11"
     },
@@ -1010,11 +918,9 @@ export default {
       "masked": "____",
       "options": [
         "sugar-coat-mcq-12",
-        "sugar-coat-mcq-11",
-        "sugar-coat-mcq-13",
-        "sugar-coat-mcq-10",
-        "sugar-coat-mcq-14",
-        "sugar-coat-mcq-09"
+        "sugar-coat-mcq-05",
+        "sugar-coat-mcq-17",
+        "sugar-coat-mcq-10"
       ],
       "explanation": "本句的「There's no way to sugar-coat it: we failed.」指「沒辦法說得好聽」。",
       "sentenceIndex": 20,
@@ -1023,12 +929,10 @@ export default {
         "There's no way to sugar-coat it: we failed."
       ],
       "optionReasons": {
-        "sugar-coat-mcq-12": "本句指「沒辦法說得好聽」。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。"
+        "sugar-coat-mcq-12": "本句的「There's no way to sugar-coat it: we failed.」指「沒辦法說得好聽」。",
+        "sugar-coat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-12"
     },
@@ -1040,11 +944,9 @@ export default {
       "masked": "There's really ____.",
       "options": [
         "sugar-coat-mcq-12",
-        "sugar-coat-mcq-11",
-        "sugar-coat-mcq-13",
-        "sugar-coat-mcq-10",
-        "sugar-coat-mcq-14",
-        "sugar-coat-mcq-09"
+        "sugar-coat-mcq-01",
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-14"
       ],
       "explanation": "本句的「no way to sugar-coat the result」指「沒辦法說得好聽」。",
       "sentenceIndex": 21,
@@ -1053,12 +955,10 @@ export default {
         "no way to sugar-coat the result"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-12": "本句指「沒辦法說得好聽」。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-09": "「粉飾失敗」是「sugar-coat a failure」的用法，與本句語境不同。"
+        "sugar-coat-mcq-12": "本句的「no way to sugar-coat the result」指「沒辦法說得好聽」。",
+        "sugar-coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-12"
     },
@@ -1070,11 +970,9 @@ export default {
       "masked": "Tell me what happened ____.",
       "options": [
         "sugar-coat-mcq-13",
-        "sugar-coat-mcq-12",
-        "sugar-coat-mcq-14",
-        "sugar-coat-mcq-11",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-10"
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-01",
+        "sugar-coat-mcq-12"
       ],
       "explanation": "本句的「without sugar-coating it」指「不加粉飾地」。",
       "sentenceIndex": 22,
@@ -1083,12 +981,10 @@ export default {
         "without sugar-coating it"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-13": "本句指「不加粉飾地」。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。"
+        "sugar-coat-mcq-13": "本句的「without sugar-coating it」指「不加粉飾地」。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-13"
     },
@@ -1100,11 +996,9 @@ export default {
       "masked": "She explained the risks ____.",
       "options": [
         "sugar-coat-mcq-13",
-        "sugar-coat-mcq-12",
-        "sugar-coat-mcq-14",
-        "sugar-coat-mcq-11",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-10"
+        "sugar-coat-mcq-04",
+        "sugar-coat-mcq-19",
+        "sugar-coat-mcq-06"
       ],
       "explanation": "本句的「without sugar-coating them」指「不加粉飾地」。",
       "sentenceIndex": 23,
@@ -1113,12 +1007,10 @@ export default {
         "without sugar-coating them"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-13": "本句指「不加粉飾地」。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-10": "「美化現實」是「sugar-coat reality」的用法，與本句語境不同。"
+        "sugar-coat-mcq-13": "本句的「without sugar-coating them」指「不加粉飾地」。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-13"
     },
@@ -1130,11 +1022,9 @@ export default {
       "masked": "I don't want a ____ of what happened.",
       "options": [
         "sugar-coat-mcq-14",
-        "sugar-coat-mcq-13",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-12",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-11"
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-02",
+        "sugar-coat-mcq-12"
       ],
       "explanation": "本句的「sugar-coated version」指「經粉飾的」。",
       "sentenceIndex": 24,
@@ -1143,12 +1033,10 @@ export default {
         "sugar-coated version"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-14": "本句指「經粉飾的」。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。"
+        "sugar-coat-mcq-14": "本句的「sugar-coated version」指「經粉飾的」。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-14"
     },
@@ -1160,11 +1048,9 @@ export default {
       "masked": "The advertisement presents a ____ of the job.",
       "options": [
         "sugar-coat-mcq-14",
-        "sugar-coat-mcq-13",
-        "sugar-coat-mcq-15",
+        "sugar-coat-mcq-01",
         "sugar-coat-mcq-12",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-11"
+        "sugar-coat-mcq-06"
       ],
       "explanation": "本句的「sugar-coated picture」指「經粉飾的」。",
       "sentenceIndex": 25,
@@ -1173,12 +1059,10 @@ export default {
         "sugar-coated picture"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-14": "本句指「經粉飾的」。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-12": "「沒辦法說得好聽」是「no way to sugar-coat it」的用法，與本句語境不同。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-11": "「別粉飾了；有話直說」是「Don't sugar-coat it」的用法，與本句語境不同。"
+        "sugar-coat-mcq-14": "本句的「sugar-coated picture」指「經粉飾的」。",
+        "sugar-coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-14"
     },
@@ -1190,11 +1074,9 @@ export default {
       "masked": "The report avoided ____.",
       "options": [
         "sugar-coat-mcq-16",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-17",
-        "sugar-coat-mcq-14",
-        "sugar-coat-mcq-18",
-        "sugar-coat-mcq-13"
+        "sugar-coat-mcq-19",
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-04"
       ],
       "explanation": "本句的「sugar-coated language」指「粉飾性的說法」。",
       "sentenceIndex": 26,
@@ -1203,12 +1085,10 @@ export default {
         "sugar-coated language"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-16": "本句指「粉飾性的說法」。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-17": "「糖衣」是「sugar coating (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-18": "「粉飾；好聽包裝」是「sugar-coating (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。"
+        "sugar-coat-mcq-16": "本句的「sugar-coated language」指「粉飾性的說法」。",
+        "sugar-coat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-16"
     },
@@ -1220,11 +1100,9 @@ export default {
       "masked": "His ____ hid how serious the problem was.",
       "options": [
         "sugar-coat-mcq-16",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-17",
-        "sugar-coat-mcq-14",
-        "sugar-coat-mcq-18",
-        "sugar-coat-mcq-13"
+        "sugar-coat-mcq-10",
+        "sugar-coat-mcq-19",
+        "sugar-coat-mcq-04"
       ],
       "explanation": "本句的「sugar-coated language」指「粉飾性的說法」。",
       "sentenceIndex": 27,
@@ -1233,12 +1111,10 @@ export default {
         "sugar-coated language"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-16": "本句指「粉飾性的說法」。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-17": "「糖衣」是「sugar coating (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-18": "「粉飾；好聽包裝」是「sugar-coating (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-13": "「不加粉飾地」是「without sugar-coating」的用法，與本句語境不同。"
+        "sugar-coat-mcq-16": "本句的「sugar-coated language」指「粉飾性的說法」。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-16"
     },
@@ -1250,11 +1126,9 @@ export default {
       "masked": "The tablet has a thin ____.",
       "options": [
         "sugar-coat-mcq-17",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-18",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-19",
-        "sugar-coat-mcq-14"
+        "sugar-coat-mcq-10",
+        "sugar-coat-mcq-04",
+        "sugar-coat-mcq-13"
       ],
       "explanation": "本句的「sugar coating」指「糖衣」。",
       "sentenceIndex": 28,
@@ -1263,12 +1137,10 @@ export default {
         "sugar coating"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-17": "本句指「糖衣」。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-18": "「粉飾；好聽包裝」是「sugar-coating (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-19": "「糖衣藥丸／糖衣包裝的苦藥」是「sugar-coated pill」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-17": "本句的「sugar coating」指「糖衣」。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-17"
     },
@@ -1280,11 +1152,9 @@ export default {
       "masked": "The ____ makes the medicine easier to swallow.",
       "options": [
         "sugar-coat-mcq-17",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-18",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-19",
-        "sugar-coat-mcq-14"
+        "sugar-coat-mcq-05",
+        "sugar-coat-mcq-10",
+        "sugar-coat-mcq-07"
       ],
       "explanation": "本句的「sugar coating」指「糖衣」。",
       "sentenceIndex": 29,
@@ -1293,12 +1163,10 @@ export default {
         "sugar coating"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-17": "本句指「糖衣」。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-18": "「粉飾；好聽包裝」是「sugar-coating (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-19": "「糖衣藥丸／糖衣包裝的苦藥」是「sugar-coated pill」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-17": "本句的「sugar coating」指「糖衣」。",
+        "sugar-coat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-17"
     },
@@ -1310,11 +1178,8 @@ export default {
       "masked": "I want the truth without the ____.",
       "options": [
         "sugar-coat-mcq-18",
-        "sugar-coat-mcq-17",
-        "sugar-coat-mcq-19",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-14"
+        "sugar-coat-mcq-01",
+        "sugar-coat-mcq-06"
       ],
       "explanation": "本句的「sugar-coating」指「粉飾；好聽包裝」。",
       "sentenceIndex": 30,
@@ -1323,12 +1188,9 @@ export default {
         "sugar-coating"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-18": "本句指「粉飾；好聽包裝」。",
-        "sugar-coat-mcq-17": "「糖衣」是「sugar coating (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-19": "「糖衣藥丸／糖衣包裝的苦藥」是「sugar-coated pill」的用法，與本句語境不同。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-18": "本句的「sugar-coating」指「粉飾；好聽包裝」。",
+        "sugar-coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-18"
     },
@@ -1341,10 +1203,7 @@ export default {
       "options": [
         "sugar-coat-mcq-18",
         "sugar-coat-mcq-17",
-        "sugar-coat-mcq-19",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-14"
+        "sugar-coat-mcq-06"
       ],
       "explanation": "本句的「sugar-coating」指「粉飾；好聽包裝」。",
       "sentenceIndex": 31,
@@ -1353,12 +1212,9 @@ export default {
         "sugar-coating"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-18": "本句指「粉飾；好聽包裝」。",
-        "sugar-coat-mcq-17": "「糖衣」是「sugar coating (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-19": "「糖衣藥丸／糖衣包裝的苦藥」是「sugar-coated pill」的用法，與本句語境不同。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-18": "本句的「sugar-coating」指「粉飾；好聽包裝」。",
+        "sugar-coat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-18"
     },
@@ -1370,11 +1226,9 @@ export default {
       "masked": "The child found the ____ easier to swallow.",
       "options": [
         "sugar-coat-mcq-19",
-        "sugar-coat-mcq-18",
-        "sugar-coat-mcq-17",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-14"
+        "sugar-coat-mcq-13",
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-12"
       ],
       "explanation": "本句的「sugar-coated pill」指「糖衣藥丸／糖衣包裝的苦藥」。",
       "sentenceIndex": 32,
@@ -1383,12 +1237,10 @@ export default {
         "sugar-coated pill"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-19": "本句指「糖衣藥丸／糖衣包裝的苦藥」。",
-        "sugar-coat-mcq-18": "「粉飾；好聽包裝」是「sugar-coating (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-17": "「糖衣」是「sugar coating (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-19": "本句的「sugar-coated pill」指「糖衣藥丸／糖衣包裝的苦藥」。",
+        "sugar-coat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-19"
     },
@@ -1400,11 +1252,9 @@ export default {
       "masked": "The small bonus was a ____ alongside the unpopular changes.",
       "options": [
         "sugar-coat-mcq-19",
-        "sugar-coat-mcq-18",
-        "sugar-coat-mcq-17",
-        "sugar-coat-mcq-16",
-        "sugar-coat-mcq-15",
-        "sugar-coat-mcq-14"
+        "sugar-coat-mcq-13",
+        "sugar-coat-mcq-06",
+        "sugar-coat-mcq-04"
       ],
       "explanation": "本句的「sugar-coated pill」指「糖衣藥丸／糖衣包裝的苦藥」。",
       "sentenceIndex": 33,
@@ -1413,12 +1263,10 @@ export default {
         "sugar-coated pill"
       ],
       "optionReasons": {
-        "sugar-coat-mcq-19": "本句指「糖衣藥丸／糖衣包裝的苦藥」。",
-        "sugar-coat-mcq-18": "「粉飾；好聽包裝」是「sugar-coating (figurative)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-17": "「糖衣」是「sugar coating (literal)」的用法，與本句語境不同。",
-        "sugar-coat-mcq-16": "「粉飾性的說法」是「sugar-coated language」的用法，與本句語境不同。",
-        "sugar-coat-mcq-15": "「美化過的版本」是「sugar-coated version」的用法，與本句語境不同。",
-        "sugar-coat-mcq-14": "「經粉飾的」是「sugar-coated (figurative)」的用法，與本句語境不同。"
+        "sugar-coat-mcq-19": "本句的「sugar-coated pill」指「糖衣藥丸／糖衣包裝的苦藥」。",
+        "sugar-coat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sugar-coat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sugar-coat-mcq-19"
     }
@@ -1430,5 +1278,7 @@ export default {
     "sha256": "4ca50c548a8f3f3a1ac61f4e69d0060487a95b3d7fe423c4cce571ba25848fcd",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

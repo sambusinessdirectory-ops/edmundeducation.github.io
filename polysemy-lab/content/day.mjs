@@ -424,11 +424,9 @@ export default {
       "masked": "I was commuting ____.",
       "options": [
         "day-mcq-01",
-        "day-mcq-02",
-        "day-mcq-03",
-        "day-mcq-04",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-18",
+        "day-mcq-15",
+        "day-mcq-16"
       ],
       "explanation": "本句的「every day」指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
       "sentenceIndex": 0,
@@ -437,12 +435,10 @@ export default {
         "every day"
       ],
       "optionReasons": {
-        "day-mcq-01": "本句指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-01": "本句的「every day」指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-01"
     },
@@ -454,11 +450,9 @@ export default {
       "masked": "The package should arrive within three ____.",
       "options": [
         "day-mcq-01",
-        "day-mcq-02",
-        "day-mcq-03",
-        "day-mcq-04",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-18",
+        "day-mcq-15",
+        "day-mcq-16"
       ],
       "explanation": "本句的「days」指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
       "sentenceIndex": 1,
@@ -467,12 +461,10 @@ export default {
         "days"
       ],
       "optionReasons": {
-        "day-mcq-01": "本句指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-01": "本句的「days」指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-01"
     },
@@ -484,11 +476,9 @@ export default {
       "masked": "There are seven ____ in a week.",
       "options": [
         "day-mcq-01",
-        "day-mcq-02",
-        "day-mcq-03",
-        "day-mcq-04",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-16",
+        "day-mcq-15",
+        "day-mcq-18"
       ],
       "explanation": "本句的「days」指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
       "sentenceIndex": 2,
@@ -497,12 +487,10 @@ export default {
         "days"
       ],
       "optionReasons": {
-        "day-mcq-01": "本句指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-01": "本句的「days」指「日曆中從一天到下一天的一個基本時間單位，約二十四小時」。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-01"
     },
@@ -514,11 +502,9 @@ export default {
       "masked": "It was warm during the ____ but cold at night.",
       "options": [
         "day-mcq-02",
-        "day-mcq-01",
-        "day-mcq-03",
-        "day-mcq-04",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-18",
+        "day-mcq-08",
+        "day-mcq-13"
       ],
       "explanation": "本句的「day」指「從早上到晚上、有日光的時間，與夜晚相對」。",
       "sentenceIndex": 3,
@@ -527,12 +513,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-02": "本句指「從早上到晚上、有日光的時間，與夜晚相對」。",
-        "day-mcq-01": "「日曆中從一天到下一天的一個基本時間單位，約二十四小時」是「day — 24-hour period」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-02": "本句的「day」指「從早上到晚上、有日光的時間，與夜晚相對」。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-02"
     },
@@ -544,11 +528,9 @@ export default {
       "masked": "The streets are much busier in the ____.",
       "options": [
         "day-mcq-02",
-        "day-mcq-01",
-        "day-mcq-03",
-        "day-mcq-04",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-08",
+        "day-mcq-18",
+        "day-mcq-16"
       ],
       "explanation": "本句的「day」指「從早上到晚上、有日光的時間，與夜晚相對」。",
       "sentenceIndex": 4,
@@ -557,12 +539,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-02": "本句指「從早上到晚上、有日光的時間，與夜晚相對」。",
-        "day-mcq-01": "「日曆中從一天到下一天的一個基本時間單位，約二十四小時」是「day — 24-hour period」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-02": "本句的「day」指「從早上到晚上、有日光的時間，與夜晚相對」。",
+        "day-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-02"
     },
@@ -574,11 +554,9 @@ export default {
       "masked": "The wedding ____ was unforgettable.",
       "options": [
         "day-mcq-03",
-        "day-mcq-02",
-        "day-mcq-04",
-        "day-mcq-01",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-08",
+        "day-mcq-15",
+        "day-mcq-13"
       ],
       "explanation": "本句的「day」指「因特定事件發生而被視為某個具體日子」。",
       "sentenceIndex": 5,
@@ -587,12 +565,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-03": "本句指「因特定事件發生而被視為某個具體日子」。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-01": "「日曆中從一天到下一天的一個基本時間單位，約二十四小時」是「day — 24-hour period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-03": "本句的「day」指「因特定事件發生而被視為某個具體日子」。",
+        "day-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-03"
     },
@@ -604,11 +580,9 @@ export default {
       "masked": "It was the happiest ____ of my life.",
       "options": [
         "day-mcq-03",
-        "day-mcq-02",
-        "day-mcq-04",
-        "day-mcq-01",
-        "day-mcq-05",
-        "day-mcq-06"
+        "day-mcq-07",
+        "day-mcq-15",
+        "day-mcq-11"
       ],
       "explanation": "本句的「day」指「因特定事件發生而被視為某個具體日子」。",
       "sentenceIndex": 6,
@@ -617,12 +591,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-03": "本句指「因特定事件發生而被視為某個具體日子」。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-01": "「日曆中從一天到下一天的一個基本時間單位，約二十四小時」是「day — 24-hour period」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-03": "本句的「day」指「因特定事件發生而被視為某個具體日子」。",
+        "day-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-03"
     },
@@ -634,11 +606,9 @@ export default {
       "masked": "I had a long ____ at work.",
       "options": [
         "day-mcq-04",
-        "day-mcq-03",
-        "day-mcq-05",
-        "day-mcq-02",
-        "day-mcq-06",
-        "day-mcq-01"
+        "day-mcq-15",
+        "day-mcq-16",
+        "day-mcq-13"
       ],
       "explanation": "本句的「day」指「一天中用來工作、上課或履行日常職責的時間段」。",
       "sentenceIndex": 7,
@@ -647,12 +617,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-04": "本句指「一天中用來工作、上課或履行日常職責的時間段」。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-01": "「日曆中從一天到下一天的一個基本時間單位，約二十四小時」是「day — 24-hour period」的用法，與本句語境不同。"
+        "day-mcq-04": "本句的「day」指「一天中用來工作、上課或履行日常職責的時間段」。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-04"
     },
@@ -664,11 +632,9 @@ export default {
       "masked": "She starts her working ____ at eight.",
       "options": [
         "day-mcq-04",
-        "day-mcq-03",
-        "day-mcq-05",
-        "day-mcq-02",
-        "day-mcq-06",
-        "day-mcq-01"
+        "day-mcq-15",
+        "day-mcq-16",
+        "day-mcq-13"
       ],
       "explanation": "本句的「day」指「一天中用來工作、上課或履行日常職責的時間段」。",
       "sentenceIndex": 8,
@@ -677,12 +643,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-04": "本句指「一天中用來工作、上課或履行日常職責的時間段」。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-01": "「日曆中從一天到下一天的一個基本時間單位，約二十四小時」是「day — 24-hour period」的用法，與本句語境不同。"
+        "day-mcq-04": "本句的「day」指「一天中用來工作、上課或履行日常職責的時間段」。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-04"
     },
@@ -694,11 +658,9 @@ export default {
       "masked": "In my ____, people didn’t use smartphones.",
       "options": [
         "day-mcq-05",
-        "day-mcq-04",
-        "day-mcq-06",
-        "day-mcq-03",
-        "day-mcq-07",
-        "day-mcq-02"
+        "day-mcq-11",
+        "day-mcq-08",
+        "day-mcq-15"
       ],
       "explanation": "本句的「day」指「某個人的人生階段或歷史中的特定年代／時期」。",
       "sentenceIndex": 9,
@@ -707,12 +669,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-05": "本句指「某個人的人生階段或歷史中的特定年代／時期」。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-07": "「距離現在不久之前的某一天／前幾天」是「the other day」的用法，與本句語境不同。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。"
+        "day-mcq-05": "本句的「day」指「某個人的人生階段或歷史中的特定年代／時期」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-05"
     },
@@ -724,11 +684,9 @@ export default {
       "masked": "Those inventions were advanced for their ____.",
       "options": [
         "day-mcq-05",
-        "day-mcq-04",
-        "day-mcq-06",
-        "day-mcq-03",
-        "day-mcq-07",
-        "day-mcq-02"
+        "day-mcq-09",
+        "day-mcq-11",
+        "day-mcq-15"
       ],
       "explanation": "本句的「day」指「某個人的人生階段或歷史中的特定年代／時期」。",
       "sentenceIndex": 10,
@@ -737,12 +695,10 @@ export default {
         "day"
       ],
       "optionReasons": {
-        "day-mcq-05": "本句指「某個人的人生階段或歷史中的特定年代／時期」。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-03": "「因特定事件發生而被視為某個具體日子」是「day — occasion/date」的用法，與本句語境不同。",
-        "day-mcq-07": "「距離現在不久之前的某一天／前幾天」是「the other day」的用法，與本句語境不同。",
-        "day-mcq-02": "「從早上到晚上、有日光的時間，與夜晚相對」是「day — daytime」的用法，與本句語境不同。"
+        "day-mcq-05": "本句的「day」指「某個人的人生階段或歷史中的特定年代／時期」。",
+        "day-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-05"
     },
@@ -754,11 +710,9 @@ export default {
       "masked": "I saw her ____.",
       "options": [
         "day-mcq-07",
-        "day-mcq-06",
-        "day-mcq-08",
         "day-mcq-05",
-        "day-mcq-09",
-        "day-mcq-04"
+        "day-mcq-11",
+        "day-mcq-16"
       ],
       "explanation": "本句的「the other day」指「距離現在不久之前的某一天／前幾天」。",
       "sentenceIndex": 11,
@@ -767,12 +721,10 @@ export default {
         "the other day"
       ],
       "optionReasons": {
-        "day-mcq-07": "本句指「距離現在不久之前的某一天／前幾天」。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-08": "「幾乎整個一天持續如此」是「all day」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。"
+        "day-mcq-07": "本句的「the other day」指「距離現在不久之前的某一天／前幾天」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-07"
     },
@@ -784,11 +736,9 @@ export default {
       "masked": "We were talking about that ____.",
       "options": [
         "day-mcq-07",
-        "day-mcq-06",
-        "day-mcq-08",
-        "day-mcq-05",
-        "day-mcq-09",
-        "day-mcq-04"
+        "day-mcq-02",
+        "day-mcq-16",
+        "day-mcq-11"
       ],
       "explanation": "本句的「the other day」指「距離現在不久之前的某一天／前幾天」。",
       "sentenceIndex": 12,
@@ -797,12 +747,10 @@ export default {
         "the other day"
       ],
       "optionReasons": {
-        "day-mcq-07": "本句指「距離現在不久之前的某一天／前幾天」。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-08": "「幾乎整個一天持續如此」是「all day」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。",
-        "day-mcq-04": "「一天中用來工作、上課或履行日常職責的時間段」是「day — working/school period」的用法，與本句語境不同。"
+        "day-mcq-07": "本句的「the other day」指「距離現在不久之前的某一天／前幾天」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-07"
     },
@@ -814,11 +762,9 @@ export default {
       "masked": "I wore the headphones ____.",
       "options": [
         "day-mcq-08",
-        "day-mcq-07",
-        "day-mcq-09",
-        "day-mcq-06",
-        "day-mcq-10",
-        "day-mcq-05"
+        "day-mcq-11",
+        "day-mcq-05",
+        "day-mcq-16"
       ],
       "explanation": "本句的「all day」指「幾乎整個一天持續如此」。",
       "sentenceIndex": 13,
@@ -827,12 +773,10 @@ export default {
         "all day"
       ],
       "optionReasons": {
-        "day-mcq-08": "本句指「幾乎整個一天持續如此」。",
-        "day-mcq-07": "「距離現在不久之前的某一天／前幾天」是「the other day」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。"
+        "day-mcq-08": "本句的「all day」指「幾乎整個一天持續如此」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-08"
     },
@@ -844,11 +788,9 @@ export default {
       "masked": "It rained ____.",
       "options": [
         "day-mcq-08",
-        "day-mcq-07",
-        "day-mcq-09",
-        "day-mcq-06",
-        "day-mcq-10",
-        "day-mcq-05"
+        "day-mcq-02",
+        "day-mcq-16",
+        "day-mcq-11"
       ],
       "explanation": "本句的「all day」指「幾乎整個一天持續如此」。",
       "sentenceIndex": 14,
@@ -857,12 +799,10 @@ export default {
         "all day"
       ],
       "optionReasons": {
-        "day-mcq-08": "本句指「幾乎整個一天持續如此」。",
-        "day-mcq-07": "「距離現在不久之前的某一天／前幾天」是「the other day」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-05": "「某個人的人生階段或歷史中的特定年代／時期」是「day — era」的用法，與本句語境不同。"
+        "day-mcq-08": "本句的「all day」指「幾乎整個一天持續如此」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-08"
     },
@@ -874,11 +814,9 @@ export default {
       "masked": "Her confidence grew ____.",
       "options": [
         "day-mcq-09",
-        "day-mcq-08",
-        "day-mcq-10",
-        "day-mcq-07",
+        "day-mcq-02",
         "day-mcq-11",
-        "day-mcq-06"
+        "day-mcq-16"
       ],
       "explanation": "本句的「day by day」指「隨著每一天過去而逐漸改變」。",
       "sentenceIndex": 15,
@@ -887,12 +825,10 @@ export default {
         "day by day"
       ],
       "optionReasons": {
-        "day-mcq-09": "本句指「隨著每一天過去而逐漸改變」。",
-        "day-mcq-08": "「幾乎整個一天持續如此」是「all day」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-07": "「距離現在不久之前的某一天／前幾天」是「the other day」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-09": "本句的「day by day」指「隨著每一天過去而逐漸改變」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-09"
     },
@@ -904,11 +840,9 @@ export default {
       "masked": "The situation improved ____.",
       "options": [
         "day-mcq-09",
-        "day-mcq-08",
-        "day-mcq-10",
-        "day-mcq-07",
+        "day-mcq-02",
         "day-mcq-11",
-        "day-mcq-06"
+        "day-mcq-16"
       ],
       "explanation": "本句的「day by day」指「隨著每一天過去而逐漸改變」。",
       "sentenceIndex": 16,
@@ -917,12 +851,10 @@ export default {
         "day by day"
       ],
       "optionReasons": {
-        "day-mcq-09": "本句指「隨著每一天過去而逐漸改變」。",
-        "day-mcq-08": "「幾乎整個一天持續如此」是「all day」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-07": "「距離現在不久之前的某一天／前幾天」是「the other day」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-06": "「過去或未來某個未明確指定的日子」是「one day」的用法，與本句語境不同。"
+        "day-mcq-09": "本句的「day by day」指「隨著每一天過去而逐漸改變」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-09"
     },
@@ -934,11 +866,9 @@ export default {
       "masked": "Friday is my ____.",
       "options": [
         "day-mcq-11",
-        "day-mcq-10",
-        "day-mcq-12",
-        "day-mcq-09",
-        "day-mcq-13",
-        "day-mcq-08"
+        "day-mcq-05",
+        "day-mcq-07",
+        "day-mcq-15"
       ],
       "explanation": "本句的「day off」指「原本可能工作／上課，但不用工作的休息日」。",
       "sentenceIndex": 17,
@@ -947,12 +877,10 @@ export default {
         "day off"
       ],
       "optionReasons": {
-        "day-mcq-11": "本句指「原本可能工作／上課，但不用工作的休息日」。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-08": "「幾乎整個一天持續如此」是「all day」的用法，與本句語境不同。"
+        "day-mcq-11": "本句的「day off」指「原本可能工作／上課，但不用工作的休息日」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-11"
     },
@@ -964,11 +892,9 @@ export default {
       "masked": "I took a ____ to rest.",
       "options": [
         "day-mcq-11",
-        "day-mcq-10",
-        "day-mcq-12",
         "day-mcq-09",
-        "day-mcq-13",
-        "day-mcq-08"
+        "day-mcq-05",
+        "day-mcq-15"
       ],
       "explanation": "本句的「day off」指「原本可能工作／上課，但不用工作的休息日」。",
       "sentenceIndex": 18,
@@ -977,12 +903,10 @@ export default {
         "day off"
       ],
       "optionReasons": {
-        "day-mcq-11": "本句指「原本可能工作／上課，但不用工作的休息日」。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-08": "「幾乎整個一天持續如此」是「all day」的用法，與本句語境不同。"
+        "day-mcq-11": "本句的「day off」指「原本可能工作／上課，但不用工作的休息日」。",
+        "day-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-11"
     },
@@ -994,11 +918,9 @@ export default {
       "masked": "Commuting was part of my ____ routine.",
       "options": [
         "day-mcq-12",
-        "day-mcq-11",
-        "day-mcq-13",
-        "day-mcq-10",
-        "day-mcq-14",
-        "day-mcq-09"
+        "day-mcq-18",
+        "day-mcq-02",
+        "day-mcq-15"
       ],
       "explanation": "本句的「daily」指「每一天都發生／每日的；每天」。",
       "sentenceIndex": 19,
@@ -1007,12 +929,10 @@ export default {
         "daily"
       ],
       "optionReasons": {
-        "day-mcq-12": "本句指「每一天都發生／每日的；每天」。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。"
+        "day-mcq-12": "本句的「daily」指「每一天都發生／每日的；每天」。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-12"
     },
@@ -1024,11 +944,9 @@ export default {
       "masked": "The app sends a ____ reminder.",
       "options": [
         "day-mcq-12",
-        "day-mcq-11",
-        "day-mcq-13",
-        "day-mcq-10",
-        "day-mcq-14",
-        "day-mcq-09"
+        "day-mcq-02",
+        "day-mcq-18",
+        "day-mcq-15"
       ],
       "explanation": "本句的「daily」指「每一天都發生／每日的；每天」。",
       "sentenceIndex": 20,
@@ -1037,12 +955,10 @@ export default {
         "daily"
       ],
       "optionReasons": {
-        "day-mcq-12": "本句指「每一天都發生／每日的；每天」。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。"
+        "day-mcq-12": "本句的「daily」指「每一天都發生／每日的；每天」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-12"
     },
@@ -1055,10 +971,8 @@ export default {
       "options": [
         "day-mcq-12",
         "day-mcq-11",
-        "day-mcq-13",
-        "day-mcq-10",
-        "day-mcq-14",
-        "day-mcq-09"
+        "day-mcq-02",
+        "day-mcq-15"
       ],
       "explanation": "本句的「daily」指「每一天都發生／每日的；每天」。",
       "sentenceIndex": 21,
@@ -1067,12 +981,10 @@ export default {
         "daily"
       ],
       "optionReasons": {
-        "day-mcq-12": "本句指「每一天都發生／每日的；每天」。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。"
+        "day-mcq-12": "本句的「daily」指「每一天都發生／每日的；每天」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-12"
     },
@@ -1085,10 +997,8 @@ export default {
       "options": [
         "day-mcq-12",
         "day-mcq-11",
-        "day-mcq-13",
-        "day-mcq-10",
-        "day-mcq-14",
-        "day-mcq-09"
+        "day-mcq-15",
+        "day-mcq-02"
       ],
       "explanation": "本句的「daily」指「每一天都發生／每日的；每天」。",
       "sentenceIndex": 22,
@@ -1097,12 +1007,10 @@ export default {
         "daily"
       ],
       "optionReasons": {
-        "day-mcq-12": "本句指「每一天都發生／每日的；每天」。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-09": "「隨著每一天過去而逐漸改變」是「day by day」的用法，與本句語境不同。"
+        "day-mcq-12": "本句的「daily」指「每一天都發生／每日的；每天」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-12"
     },
@@ -1114,11 +1022,9 @@ export default {
       "masked": "She writes for a national ____.",
       "options": [
         "day-mcq-13",
-        "day-mcq-12",
-        "day-mcq-14",
-        "day-mcq-11",
-        "day-mcq-15",
-        "day-mcq-10"
+        "day-mcq-05",
+        "day-mcq-08",
+        "day-mcq-15"
       ],
       "explanation": "本句的「daily」指「每天出版一次的報紙／日報」。",
       "sentenceIndex": 23,
@@ -1127,12 +1033,10 @@ export default {
         "daily"
       ],
       "optionReasons": {
-        "day-mcq-13": "本句指「每天出版一次的報紙／日報」。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。"
+        "day-mcq-13": "本句的「daily」指「每天出版一次的報紙／日報」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-13"
     },
@@ -1144,11 +1048,9 @@ export default {
       "masked": "Several local ____ reported the story.",
       "options": [
         "day-mcq-13",
-        "day-mcq-12",
-        "day-mcq-14",
-        "day-mcq-11",
+        "day-mcq-05",
         "day-mcq-15",
-        "day-mcq-10"
+        "day-mcq-11"
       ],
       "explanation": "本句的「dailies」指「每天出版一次的報紙／日報」。",
       "sentenceIndex": 24,
@@ -1157,12 +1059,10 @@ export default {
         "dailies"
       ],
       "optionReasons": {
-        "day-mcq-13": "本句指「每天出版一次的報紙／日報」。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-10": "「每天情況不同；亦可指只顧眼前、沒有長遠安排」是「from day to day」的用法，與本句語境不同。"
+        "day-mcq-13": "本句的「dailies」指「每天出版一次的報紙／日報」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-13"
     },
@@ -1174,11 +1074,9 @@ export default {
       "masked": "The temperature is higher during the ____.",
       "options": [
         "day-mcq-14",
-        "day-mcq-13",
-        "day-mcq-15",
-        "day-mcq-12",
+        "day-mcq-17",
         "day-mcq-16",
-        "day-mcq-11"
+        "day-mcq-18"
       ],
       "explanation": "本句的「daytime」指「白天有日光的時間段」。",
       "sentenceIndex": 25,
@@ -1187,12 +1085,10 @@ export default {
         "daytime"
       ],
       "optionReasons": {
-        "day-mcq-14": "本句指「白天有日光的時間段」。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。"
+        "day-mcq-14": "本句的「daytime」指「白天有日光的時間段」。",
+        "day-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-14"
     },
@@ -1204,11 +1100,9 @@ export default {
       "masked": "The restaurant is quieter in the ____.",
       "options": [
         "day-mcq-14",
-        "day-mcq-13",
-        "day-mcq-15",
-        "day-mcq-12",
-        "day-mcq-16",
-        "day-mcq-11"
+        "day-mcq-11",
+        "day-mcq-07",
+        "day-mcq-16"
       ],
       "explanation": "本句的「daytime」指「白天有日光的時間段」。",
       "sentenceIndex": 26,
@@ -1217,12 +1111,10 @@ export default {
         "daytime"
       ],
       "optionReasons": {
-        "day-mcq-14": "本句指「白天有日光的時間段」。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。"
+        "day-mcq-14": "本句的「daytime」指「白天有日光的時間段」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-14"
     },
@@ -1234,11 +1126,9 @@ export default {
       "masked": "She works ____.",
       "options": [
         "day-mcq-14",
-        "day-mcq-13",
-        "day-mcq-15",
-        "day-mcq-12",
+        "day-mcq-17",
         "day-mcq-16",
-        "day-mcq-11"
+        "day-mcq-18"
       ],
       "explanation": "本句的「daytime hours」指「白天有日光的時間段」。",
       "sentenceIndex": 27,
@@ -1247,12 +1137,10 @@ export default {
         "daytime hours"
       ],
       "optionReasons": {
-        "day-mcq-14": "本句指「白天有日光的時間段」。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。"
+        "day-mcq-14": "本句的「daytime hours」指「白天有日光的時間段」。",
+        "day-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-14"
     },
@@ -1264,11 +1152,9 @@ export default {
       "masked": "The programme has a large ____.",
       "options": [
         "day-mcq-14",
-        "day-mcq-13",
-        "day-mcq-15",
-        "day-mcq-12",
+        "day-mcq-11",
         "day-mcq-16",
-        "day-mcq-11"
+        "day-mcq-17"
       ],
       "explanation": "本句的「daytime audience」指「白天有日光的時間段」。",
       "sentenceIndex": 28,
@@ -1277,12 +1163,10 @@ export default {
         "daytime audience"
       ],
       "optionReasons": {
-        "day-mcq-14": "本句指「白天有日光的時間段」。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-11": "「原本可能工作／上課，但不用工作的休息日」是「day off」的用法，與本句語境不同。"
+        "day-mcq-14": "本句的「daytime audience」指「白天有日光的時間段」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-14"
     },
@@ -1294,11 +1178,9 @@ export default {
       "masked": "The room gets plenty of natural ____.",
       "options": [
         "day-mcq-15",
-        "day-mcq-14",
+        "day-mcq-05",
         "day-mcq-16",
-        "day-mcq-13",
-        "day-mcq-17",
-        "day-mcq-12"
+        "day-mcq-11"
       ],
       "explanation": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
       "sentenceIndex": 29,
@@ -1307,12 +1189,10 @@ export default {
         "daylight"
       ],
       "optionReasons": {
-        "day-mcq-15": "本句指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。"
+        "day-mcq-15": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-15"
     },
@@ -1324,11 +1204,9 @@ export default {
       "masked": "We should leave before ____ fades.",
       "options": [
         "day-mcq-15",
-        "day-mcq-14",
-        "day-mcq-16",
-        "day-mcq-13",
-        "day-mcq-17",
-        "day-mcq-12"
+        "day-mcq-05",
+        "day-mcq-11",
+        "day-mcq-16"
       ],
       "explanation": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
       "sentenceIndex": 30,
@@ -1337,12 +1215,10 @@ export default {
         "daylight"
       ],
       "optionReasons": {
-        "day-mcq-15": "本句指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。"
+        "day-mcq-15": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-15"
     },
@@ -1354,11 +1230,9 @@ export default {
       "masked": "We reached the village before ____.",
       "options": [
         "day-mcq-15",
-        "day-mcq-14",
+        "day-mcq-05",
         "day-mcq-16",
-        "day-mcq-13",
-        "day-mcq-17",
-        "day-mcq-12"
+        "day-mcq-11"
       ],
       "explanation": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
       "sentenceIndex": 31,
@@ -1367,12 +1241,10 @@ export default {
         "daylight"
       ],
       "optionReasons": {
-        "day-mcq-15": "本句指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。"
+        "day-mcq-15": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-15"
     },
@@ -1384,11 +1256,9 @@ export default {
       "masked": "They waited until ____ to continue.",
       "options": [
         "day-mcq-15",
-        "day-mcq-14",
-        "day-mcq-16",
-        "day-mcq-13",
-        "day-mcq-17",
-        "day-mcq-12"
+        "day-mcq-11",
+        "day-mcq-05",
+        "day-mcq-16"
       ],
       "explanation": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
       "sentenceIndex": 32,
@@ -1397,12 +1267,10 @@ export default {
         "daylight"
       ],
       "optionReasons": {
-        "day-mcq-15": "本句指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-12": "「每一天都發生／每日的；每天」是「daily — adjective/adverb」的用法，與本句語境不同。"
+        "day-mcq-15": "本句的「daylight」指「白天由太陽提供的自然光；亦可指天亮的狀態」。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-15"
     },
@@ -1416,9 +1284,7 @@ export default {
         "day-mcq-16",
         "day-mcq-15",
         "day-mcq-17",
-        "day-mcq-14",
-        "day-mcq-18",
-        "day-mcq-13"
+        "day-mcq-02"
       ],
       "explanation": "本句的「day-to-day」指「與每日例行生活、管理或實際運作有關的」。",
       "sentenceIndex": 33,
@@ -1427,12 +1293,10 @@ export default {
         "day-to-day"
       ],
       "optionReasons": {
-        "day-mcq-16": "本句指「與每日例行生活、管理或實際運作有關的」。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-18": "「決定停止目前的工作／活動，今天先做到這裡」是「call it a day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。"
+        "day-mcq-16": "本句的「day-to-day」指「與每日例行生活、管理或實際運作有關的」。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-16"
     },
@@ -1445,10 +1309,8 @@ export default {
       "options": [
         "day-mcq-16",
         "day-mcq-15",
-        "day-mcq-17",
-        "day-mcq-14",
-        "day-mcq-18",
-        "day-mcq-13"
+        "day-mcq-08",
+        "day-mcq-02"
       ],
       "explanation": "本句的「day-to-day」指「與每日例行生活、管理或實際運作有關的」。",
       "sentenceIndex": 34,
@@ -1457,12 +1319,10 @@ export default {
         "day-to-day"
       ],
       "optionReasons": {
-        "day-mcq-16": "本句指「與每日例行生活、管理或實際運作有關的」。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-18": "「決定停止目前的工作／活動，今天先做到這裡」是「call it a day」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。"
+        "day-mcq-16": "本句的「day-to-day」指「與每日例行生活、管理或實際運作有關的」。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-16"
     },
@@ -1475,10 +1335,8 @@ export default {
       "options": [
         "day-mcq-17",
         "day-mcq-16",
-        "day-mcq-18",
-        "day-mcq-15",
-        "day-mcq-14",
-        "day-mcq-13"
+        "day-mcq-02",
+        "day-mcq-11"
       ],
       "explanation": "本句的「made my day」指「某件事令某人非常開心，使那一天變得特別美好」。",
       "sentenceIndex": 35,
@@ -1487,12 +1345,10 @@ export default {
         "made my day"
       ],
       "optionReasons": {
-        "day-mcq-17": "本句指「某件事令某人非常開心，使那一天變得特別美好」。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-18": "「決定停止目前的工作／活動，今天先做到這裡」是「call it a day」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。"
+        "day-mcq-17": "本句的「made my day」指「某件事令某人非常開心，使那一天變得特別美好」。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-17"
     },
@@ -1504,11 +1360,9 @@ export default {
       "masked": "Winning the prize ____.",
       "options": [
         "day-mcq-17",
-        "day-mcq-16",
-        "day-mcq-18",
-        "day-mcq-15",
-        "day-mcq-14",
-        "day-mcq-13"
+        "day-mcq-02",
+        "day-mcq-11",
+        "day-mcq-16"
       ],
       "explanation": "本句的「made her day」指「某件事令某人非常開心，使那一天變得特別美好」。",
       "sentenceIndex": 36,
@@ -1517,12 +1371,10 @@ export default {
         "made her day"
       ],
       "optionReasons": {
-        "day-mcq-17": "本句指「某件事令某人非常開心，使那一天變得特別美好」。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-18": "「決定停止目前的工作／活動，今天先做到這裡」是「call it a day」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。"
+        "day-mcq-17": "本句的「made her day」指「某件事令某人非常開心，使那一天變得特別美好」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-17"
     },
@@ -1534,11 +1386,9 @@ export default {
       "masked": "We’ve done enough. Let’s ____.",
       "options": [
         "day-mcq-18",
-        "day-mcq-17",
-        "day-mcq-16",
-        "day-mcq-15",
-        "day-mcq-14",
-        "day-mcq-13"
+        "day-mcq-02",
+        "day-mcq-13",
+        "day-mcq-15"
       ],
       "explanation": "本句的「call it a day」指「決定停止目前的工作／活動，今天先做到這裡」。",
       "sentenceIndex": 37,
@@ -1547,12 +1397,10 @@ export default {
         "call it a day"
       ],
       "optionReasons": {
-        "day-mcq-18": "本句指「決定停止目前的工作／活動，今天先做到這裡」。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。"
+        "day-mcq-18": "本句的「call it a day」指「決定停止目前的工作／活動，今天先做到這裡」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-18"
     },
@@ -1564,11 +1412,9 @@ export default {
       "masked": "After six hours of editing, we decided to ____.",
       "options": [
         "day-mcq-18",
-        "day-mcq-17",
-        "day-mcq-16",
+        "day-mcq-02",
         "day-mcq-15",
-        "day-mcq-14",
-        "day-mcq-13"
+        "day-mcq-17"
       ],
       "explanation": "本句的「call it a day」指「決定停止目前的工作／活動，今天先做到這裡」。",
       "sentenceIndex": 38,
@@ -1577,12 +1423,10 @@ export default {
         "call it a day"
       ],
       "optionReasons": {
-        "day-mcq-18": "本句指「決定停止目前的工作／活動，今天先做到這裡」。",
-        "day-mcq-17": "「某件事令某人非常開心，使那一天變得特別美好」是「make someone’s day」的用法，與本句語境不同。",
-        "day-mcq-16": "「與每日例行生活、管理或實際運作有關的」是「day-to-day」的用法，與本句語境不同。",
-        "day-mcq-15": "「白天由太陽提供的自然光；亦可指天亮的狀態」是「daylight」的用法，與本句語境不同。",
-        "day-mcq-14": "「白天有日光的時間段」是「daytime」的用法，與本句語境不同。",
-        "day-mcq-13": "「每天出版一次的報紙／日報」是「a daily」的用法，與本句語境不同。"
+        "day-mcq-18": "本句的「call it a day」指「決定停止目前的工作／活動，今天先做到這裡」。",
+        "day-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "day-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "day-mcq-18"
     }
@@ -1594,5 +1438,7 @@ export default {
     "sha256": "2c8c342e1ab4f95149d32880fbf535c1e713f5e3d4c819b668babf6b7c429f03",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

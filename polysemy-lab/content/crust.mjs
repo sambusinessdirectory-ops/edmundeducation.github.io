@@ -328,11 +328,9 @@ export default {
       "masked": "The bread has a crisp ____.",
       "options": [
         "crust-mcq-01",
-        "crust-mcq-02",
-        "crust-mcq-03",
-        "crust-mcq-04",
-        "crust-mcq-05",
-        "crust-mcq-06"
+        "crust-mcq-13",
+        "crust-mcq-12",
+        "crust-mcq-11"
       ],
       "explanation": "本句的「crust」指「麵包烘焙後形成的較硬、通常香脆的外層」。",
       "sentenceIndex": 0,
@@ -341,12 +339,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-01": "本句指「麵包烘焙後形成的較硬、通常香脆的外層」。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-01": "本句的「crust」指「麵包烘焙後形成的較硬、通常香脆的外層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-01"
     },
@@ -358,11 +354,9 @@ export default {
       "masked": "I prefer bread with a thick ____.",
       "options": [
         "crust-mcq-01",
-        "crust-mcq-02",
-        "crust-mcq-03",
-        "crust-mcq-04",
-        "crust-mcq-05",
-        "crust-mcq-06"
+        "crust-mcq-13",
+        "crust-mcq-12",
+        "crust-mcq-11"
       ],
       "explanation": "本句的「crust」指「麵包烘焙後形成的較硬、通常香脆的外層」。",
       "sentenceIndex": 1,
@@ -371,12 +365,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-01": "本句指「麵包烘焙後形成的較硬、通常香脆的外層」。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-01": "本句的「crust」指「麵包烘焙後形成的較硬、通常香脆的外層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-01"
     },
@@ -388,11 +380,9 @@ export default {
       "masked": "The apple pie has a buttery ____.",
       "options": [
         "crust-mcq-02",
-        "crust-mcq-01",
-        "crust-mcq-03",
-        "crust-mcq-04",
-        "crust-mcq-05",
-        "crust-mcq-06"
+        "crust-mcq-11",
+        "crust-mcq-13",
+        "crust-mcq-05"
       ],
       "explanation": "本句的「crust」指「包住或承托餡料的烘焙麵皮外殼」。",
       "sentenceIndex": 2,
@@ -401,12 +391,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-02": "本句指「包住或承托餡料的烘焙麵皮外殼」。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-02": "本句的「crust」指「包住或承托餡料的烘焙麵皮外殼」。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-02"
     },
@@ -418,11 +406,9 @@ export default {
       "masked": "Bake the tart until the ____ is golden.",
       "options": [
         "crust-mcq-02",
-        "crust-mcq-01",
-        "crust-mcq-03",
-        "crust-mcq-04",
-        "crust-mcq-05",
-        "crust-mcq-06"
+        "crust-mcq-11",
+        "crust-mcq-08",
+        "crust-mcq-13"
       ],
       "explanation": "本句的「crust」指「包住或承托餡料的烘焙麵皮外殼」。",
       "sentenceIndex": 3,
@@ -431,12 +417,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-02": "本句指「包住或承托餡料的烘焙麵皮外殼」。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-02": "本句的「crust」指「包住或承托餡料的烘焙麵皮外殼」。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-02"
     },
@@ -448,11 +432,9 @@ export default {
       "masked": "I like pizza with a thin ____.",
       "options": [
         "crust-mcq-03",
-        "crust-mcq-02",
-        "crust-mcq-04",
-        "crust-mcq-01",
-        "crust-mcq-05",
-        "crust-mcq-06"
+        "crust-mcq-08",
+        "crust-mcq-13",
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crust」指「薄餅烤熟後的餅底／較厚外邊」。",
       "sentenceIndex": 4,
@@ -461,12 +443,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-03": "本句指「薄餅烤熟後的餅底／較厚外邊」。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-03": "本句的「crust」指「薄餅烤熟後的餅底／較厚外邊」。",
+        "crust-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-03"
     },
@@ -478,10 +458,8 @@ export default {
       "masked": "The ____ was crisp around the edges.",
       "options": [
         "crust-mcq-03",
-        "crust-mcq-02",
-        "crust-mcq-04",
-        "crust-mcq-01",
-        "crust-mcq-05",
+        "crust-mcq-10",
+        "crust-mcq-13",
         "crust-mcq-06"
       ],
       "explanation": "本句的「crust」指「薄餅烤熟後的餅底／較厚外邊」。",
@@ -491,12 +469,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-03": "本句指「薄餅烤熟後的餅底／較厚外邊」。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-03": "本句的「crust」指「薄餅烤熟後的餅底／較厚外邊」。",
+        "crust-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-03"
     },
@@ -508,11 +484,9 @@ export default {
       "masked": "A thin ____ of ice formed on the water.",
       "options": [
         "crust-mcq-04",
-        "crust-mcq-03",
-        "crust-mcq-05",
+        "crust-mcq-13",
         "crust-mcq-02",
-        "crust-mcq-06",
-        "crust-mcq-01"
+        "crust-mcq-03"
       ],
       "explanation": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
       "sentenceIndex": 6,
@@ -521,12 +495,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-04": "本句指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。"
+        "crust-mcq-04": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-04"
     },
@@ -538,11 +510,9 @@ export default {
       "masked": "Salt formed a white ____ on the surface.",
       "options": [
         "crust-mcq-04",
-        "crust-mcq-03",
-        "crust-mcq-05",
         "crust-mcq-02",
-        "crust-mcq-06",
-        "crust-mcq-01"
+        "crust-mcq-13",
+        "crust-mcq-03"
       ],
       "explanation": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
       "sentenceIndex": 7,
@@ -551,12 +521,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-04": "本句指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。"
+        "crust-mcq-04": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-04"
     },
@@ -568,11 +536,9 @@ export default {
       "masked": "The soil developed a hard ____ after the heat.",
       "options": [
         "crust-mcq-04",
-        "crust-mcq-03",
-        "crust-mcq-05",
         "crust-mcq-02",
-        "crust-mcq-06",
-        "crust-mcq-01"
+        "crust-mcq-13",
+        "crust-mcq-11"
       ],
       "explanation": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
       "sentenceIndex": 8,
@@ -581,12 +547,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-04": "本句指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。"
+        "crust-mcq-04": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-04"
     },
@@ -598,11 +562,9 @@ export default {
       "masked": "A ____ of dried mud covered the boots.",
       "options": [
         "crust-mcq-04",
-        "crust-mcq-03",
-        "crust-mcq-05",
+        "crust-mcq-13",
         "crust-mcq-02",
-        "crust-mcq-06",
-        "crust-mcq-01"
+        "crust-mcq-03"
       ],
       "explanation": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
       "sentenceIndex": 9,
@@ -611,12 +573,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-04": "本句指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-01": "「麵包烘焙後形成的較硬、通常香脆的外層」與本句語境不同。"
+        "crust-mcq-04": "本句的「crust」指「某物表面經乾燥、冷卻或沉積後形成的硬層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-04"
     },
@@ -628,11 +588,9 @@ export default {
       "masked": "A small ____ formed over the cut.",
       "options": [
         "crust-mcq-05",
-        "crust-mcq-04",
-        "crust-mcq-06",
-        "crust-mcq-03",
-        "crust-mcq-07",
-        "crust-mcq-02"
+        "crust-mcq-12",
+        "crust-mcq-02",
+        "crust-mcq-13"
       ],
       "explanation": "本句的「crust」指「傷口或分泌物乾掉後形成的結痂硬層」。",
       "sentenceIndex": 10,
@@ -641,12 +599,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-05": "本句指「傷口或分泌物乾掉後形成的結痂硬層」。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。"
+        "crust-mcq-05": "本句的「crust」指「傷口或分泌物乾掉後形成的結痂硬層」。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-05"
     },
@@ -658,11 +614,9 @@ export default {
       "masked": "Do not remove the ____ before the skin heals.",
       "options": [
         "crust-mcq-05",
-        "crust-mcq-04",
-        "crust-mcq-06",
-        "crust-mcq-03",
-        "crust-mcq-07",
-        "crust-mcq-02"
+        "crust-mcq-02",
+        "crust-mcq-13",
+        "crust-mcq-12"
       ],
       "explanation": "本句的「crust」指「傷口或分泌物乾掉後形成的結痂硬層」。",
       "sentenceIndex": 11,
@@ -671,12 +625,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-05": "本句指「傷口或分泌物乾掉後形成的結痂硬層」。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-02": "「包住或承托餡料的烘焙麵皮外殼」與本句語境不同。"
+        "crust-mcq-05": "本句的「crust」指「傷口或分泌物乾掉後形成的結痂硬層」。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-05"
     },
@@ -688,10 +640,8 @@ export default {
       "masked": "The Earth’s ____ is divided into tectonic plates.",
       "options": [
         "crust-mcq-06",
-        "crust-mcq-05",
-        "crust-mcq-07",
-        "crust-mcq-04",
-        "crust-mcq-08",
+        "crust-mcq-10",
+        "crust-mcq-11",
         "crust-mcq-03"
       ],
       "explanation": "本句的「crust」指「地球最外層的固體岩石層」。",
@@ -701,12 +651,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-06": "本句指「地球最外層的固體岩石層」。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。"
+        "crust-mcq-06": "本句的「crust」指「地球最外層的固體岩石層」。",
+        "crust-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-06"
     },
@@ -718,11 +666,9 @@ export default {
       "masked": "The continental ____ is generally thicker than oceanic crust.",
       "options": [
         "crust-mcq-06",
-        "crust-mcq-05",
-        "crust-mcq-07",
-        "crust-mcq-04",
-        "crust-mcq-08",
-        "crust-mcq-03"
+        "crust-mcq-09",
+        "crust-mcq-11",
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crust」指「地球最外層的固體岩石層」。",
       "sentenceIndex": 13,
@@ -731,12 +677,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-06": "本句指「地球最外層的固體岩石層」。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-03": "「薄餅烤熟後的餅底／較厚外邊」與本句語境不同。"
+        "crust-mcq-06": "本句的「crust」指「地球最外層的固體岩石層」。",
+        "crust-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-06"
     },
@@ -748,11 +692,9 @@ export default {
       "masked": "Scientists are studying the Moon’s ____.",
       "options": [
         "crust-mcq-07",
-        "crust-mcq-06",
-        "crust-mcq-08",
-        "crust-mcq-05",
-        "crust-mcq-09",
-        "crust-mcq-04"
+        "crust-mcq-12",
+        "crust-mcq-11",
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crust」指「行星／衛星最外層的固體層」。",
       "sentenceIndex": 14,
@@ -761,12 +703,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-07": "本句指「行星／衛星最外層的固體層」。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。"
+        "crust-mcq-07": "本句的「crust」指「行星／衛星最外層的固體層」。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-07"
     },
@@ -778,11 +718,9 @@ export default {
       "masked": "The planet may have a thin rocky ____.",
       "options": [
         "crust-mcq-07",
-        "crust-mcq-06",
-        "crust-mcq-08",
-        "crust-mcq-05",
+        "crust-mcq-11",
         "crust-mcq-09",
-        "crust-mcq-04"
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crust」指「行星／衛星最外層的固體層」。",
       "sentenceIndex": 15,
@@ -791,12 +729,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-07": "本句指「行星／衛星最外層的固體層」。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-04": "「某物表面經乾燥、冷卻或沉積後形成的硬層」與本句語境不同。"
+        "crust-mcq-07": "本句的「crust」指「行星／衛星最外層的固體層」。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-07"
     },
@@ -808,11 +744,9 @@ export default {
       "masked": "The cheese develops a natural ____ as it ages.",
       "options": [
         "crust-pdf-001",
-        "crust-mcq-07",
-        "crust-mcq-09",
-        "crust-mcq-06",
-        "crust-mcq-10",
-        "crust-mcq-05"
+        "crust-mcq-12",
+        "crust-mcq-13",
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crust」指「某物外面較硬、裡面相對較軟的外層」。",
       "sentenceIndex": 16,
@@ -821,12 +755,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-pdf-001": "本句指「某物外面較硬、裡面相對較軟的外層」。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。"
+        "crust-pdf-001": "本句的「crust」指「某物外面較硬、裡面相對較軟的外層」。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-pdf-001"
     },
@@ -838,11 +770,9 @@ export default {
       "masked": "The material formed a hard ____ while remaining soft inside.",
       "options": [
         "crust-pdf-001",
-        "crust-mcq-07",
-        "crust-mcq-09",
-        "crust-mcq-06",
-        "crust-mcq-10",
-        "crust-mcq-05"
+        "crust-mcq-13",
+        "crust-mcq-12",
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crust」指「某物外面較硬、裡面相對較軟的外層」。",
       "sentenceIndex": 17,
@@ -851,12 +781,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-pdf-001": "本句指「某物外面較硬、裡面相對較軟的外層」。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。"
+        "crust-pdf-001": "本句的「crust」指「某物外面較硬、裡面相對較軟的外層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-pdf-001"
     },
@@ -868,11 +796,9 @@ export default {
       "masked": "Salt ____ around the edge of the container.",
       "options": [
         "crust-mcq-08",
-        "crust-mcq-07",
-        "crust-mcq-09",
-        "crust-mcq-06",
-        "crust-mcq-10",
-        "crust-mcq-05"
+        "crust-mcq-13",
+        "crust-mcq-02",
+        "crust-mcq-03"
       ],
       "explanation": "本句的「crusted」指「在表面形成硬化、乾燥或凝固的層」。",
       "sentenceIndex": 18,
@@ -881,12 +807,10 @@ export default {
         "crusted"
       ],
       "optionReasons": {
-        "crust-mcq-08": "本句指「在表面形成硬化、乾燥或凝固的層」。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。"
+        "crust-mcq-08": "本句的「crusted」指「在表面形成硬化、乾燥或凝固的層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-08"
     },
@@ -898,11 +822,9 @@ export default {
       "masked": "Mud ____ over the surface.",
       "options": [
         "crust-mcq-08",
-        "crust-mcq-07",
-        "crust-mcq-09",
-        "crust-mcq-06",
-        "crust-mcq-10",
-        "crust-mcq-05"
+        "crust-mcq-13",
+        "crust-mcq-03",
+        "crust-mcq-02"
       ],
       "explanation": "本句的「crusted」指「在表面形成硬化、乾燥或凝固的層」。",
       "sentenceIndex": 19,
@@ -911,12 +833,10 @@ export default {
         "crusted"
       ],
       "optionReasons": {
-        "crust-mcq-08": "本句指「在表面形成硬化、乾燥或凝固的層」。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-05": "「傷口或分泌物乾掉後形成的結痂硬層」與本句語境不同。"
+        "crust-mcq-08": "本句的「crusted」指「在表面形成硬化、乾燥或凝固的層」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-08"
     },
@@ -928,11 +848,9 @@ export default {
       "masked": "The bakery sells fresh ____.",
       "options": [
         "crust-mcq-09",
-        "crust-mcq-08",
-        "crust-mcq-10",
-        "crust-mcq-07",
-        "crust-mcq-11",
-        "crust-mcq-06"
+        "crust-mcq-13",
+        "crust-mcq-03",
+        "crust-mcq-07"
       ],
       "explanation": "本句的「crusty bread」指「表面有香脆硬皮的」。",
       "sentenceIndex": 20,
@@ -941,12 +859,10 @@ export default {
         "crusty bread"
       ],
       "optionReasons": {
-        "crust-mcq-09": "本句指「表面有香脆硬皮的」。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-09": "本句的「crusty bread」指「表面有香脆硬皮的」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-09"
     },
@@ -958,11 +874,9 @@ export default {
       "masked": "The roll was warm and ____.",
       "options": [
         "crust-mcq-09",
-        "crust-mcq-08",
-        "crust-mcq-10",
-        "crust-mcq-07",
-        "crust-mcq-11",
-        "crust-mcq-06"
+        "crust-mcq-03",
+        "crust-mcq-13",
+        "crust-mcq-07"
       ],
       "explanation": "本句的「crusty」指「表面有香脆硬皮的」。",
       "sentenceIndex": 21,
@@ -971,12 +885,10 @@ export default {
         "crusty"
       ],
       "optionReasons": {
-        "crust-mcq-09": "本句指「表面有香脆硬皮的」。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-06": "「地球最外層的固體岩石層」與本句語境不同。"
+        "crust-mcq-09": "本句的「crusty」指「表面有香脆硬皮的」。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-09"
     },
@@ -988,11 +900,9 @@ export default {
       "masked": "The paint had become dry and ____.",
       "options": [
         "crust-mcq-10",
-        "crust-mcq-09",
-        "crust-mcq-11",
-        "crust-mcq-08",
-        "crust-mcq-12",
-        "crust-mcq-07"
+        "crust-mcq-07",
+        "crust-mcq-13",
+        "crust-mcq-03"
       ],
       "explanation": "本句的「crusty」指「表面乾硬、結塊或結皮的」。",
       "sentenceIndex": 22,
@@ -1001,12 +911,10 @@ export default {
         "crusty"
       ],
       "optionReasons": {
-        "crust-mcq-10": "本句指「表面乾硬、結塊或結皮的」。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-12": "「表面密集覆蓋或鑲嵌著某物的」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。"
+        "crust-mcq-10": "本句的「crusty」指「表面乾硬、結塊或結皮的」。",
+        "crust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-10"
     },
@@ -1018,11 +926,9 @@ export default {
       "masked": "There was ____ mud on his shoes.",
       "options": [
         "crust-mcq-10",
-        "crust-mcq-09",
-        "crust-mcq-11",
-        "crust-mcq-08",
-        "crust-mcq-12",
-        "crust-mcq-07"
+        "crust-mcq-13",
+        "crust-mcq-03",
+        "crust-mcq-06"
       ],
       "explanation": "本句的「crusty」指「表面乾硬、結塊或結皮的」。",
       "sentenceIndex": 23,
@@ -1031,12 +937,10 @@ export default {
         "crusty"
       ],
       "optionReasons": {
-        "crust-mcq-10": "本句指「表面乾硬、結塊或結皮的」。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。",
-        "crust-mcq-12": "「表面密集覆蓋或鑲嵌著某物的」與本句語境不同。",
-        "crust-mcq-07": "「行星／衛星最外層的固體層」與本句語境不同。"
+        "crust-mcq-10": "本句的「crusty」指「表面乾硬、結塊或結皮的」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-10"
     },
@@ -1048,11 +952,9 @@ export default {
       "masked": "The old man seemed ____ at first.",
       "options": [
         "crust-mcq-11",
-        "crust-mcq-10",
-        "crust-mcq-12",
-        "crust-mcq-09",
-        "crust-mcq-13",
-        "crust-mcq-08"
+        "crust-mcq-07",
+        "crust-mcq-02",
+        "crust-mcq-13"
       ],
       "explanation": "本句的「crusty」指「態度粗硬、容易不耐煩、較難親近的」。",
       "sentenceIndex": 24,
@@ -1061,12 +963,10 @@ export default {
         "crusty"
       ],
       "optionReasons": {
-        "crust-mcq-11": "本句指「態度粗硬、容易不耐煩、較難親近的」。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-12": "「表面密集覆蓋或鑲嵌著某物的」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-13": "「社會中富有、地位最高的一群人」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。"
+        "crust-mcq-11": "本句的「crusty」指「態度粗硬、容易不耐煩、較難親近的」。",
+        "crust-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-11"
     },
@@ -1078,11 +978,9 @@ export default {
       "masked": "He has a ____ manner but is actually very kind.",
       "options": [
         "crust-mcq-11",
-        "crust-mcq-10",
-        "crust-mcq-12",
-        "crust-mcq-09",
-        "crust-mcq-13",
-        "crust-mcq-08"
+        "crust-mcq-02",
+        "crust-mcq-06",
+        "crust-mcq-13"
       ],
       "explanation": "本句的「crusty」指「態度粗硬、容易不耐煩、較難親近的」。",
       "sentenceIndex": 25,
@@ -1091,12 +989,10 @@ export default {
         "crusty"
       ],
       "optionReasons": {
-        "crust-mcq-11": "本句指「態度粗硬、容易不耐煩、較難親近的」。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-12": "「表面密集覆蓋或鑲嵌著某物的」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-13": "「社會中富有、地位最高的一群人」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。"
+        "crust-mcq-11": "本句的「crusty」指「態度粗硬、容易不耐煩、較難親近的」。",
+        "crust-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-11"
     },
@@ -1108,11 +1004,9 @@ export default {
       "masked": "She wore a jewel-____ bracelet.",
       "options": [
         "crust-mcq-12",
-        "crust-mcq-11",
         "crust-mcq-13",
-        "crust-mcq-10",
-        "crust-mcq-09",
-        "crust-mcq-08"
+        "crust-mcq-01",
+        "crust-mcq-03"
       ],
       "explanation": "本句的「encrusted」指「表面密集覆蓋或鑲嵌著某物的」。",
       "sentenceIndex": 27,
@@ -1121,12 +1015,10 @@ export default {
         "encrusted"
       ],
       "optionReasons": {
-        "crust-mcq-12": "本句指「表面密集覆蓋或鑲嵌著某物的」。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-13": "「社會中富有、地位最高的一群人」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。"
+        "crust-mcq-12": "本句的「encrusted」指「表面密集覆蓋或鑲嵌著某物的」。",
+        "crust-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-12"
     },
@@ -1138,11 +1030,9 @@ export default {
       "masked": "The event attracted members of the ____.",
       "options": [
         "crust-mcq-13",
-        "crust-mcq-12",
         "crust-mcq-11",
-        "crust-mcq-10",
-        "crust-mcq-09",
-        "crust-mcq-08"
+        "crust-mcq-05",
+        "crust-mcq-09"
       ],
       "explanation": "本句的「upper crust」指「社會中富有、地位最高的一群人」。",
       "sentenceIndex": 28,
@@ -1151,12 +1041,10 @@ export default {
         "upper crust"
       ],
       "optionReasons": {
-        "crust-mcq-13": "本句指「社會中富有、地位最高的一群人」。",
-        "crust-mcq-12": "「表面密集覆蓋或鑲嵌著某物的」與本句語境不同。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。"
+        "crust-mcq-13": "本句的「upper crust」指「社會中富有、地位最高的一群人」。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-13"
     },
@@ -1168,10 +1056,8 @@ export default {
       "masked": "The hotel was once popular with the upper ____.",
       "options": [
         "crust-mcq-13",
-        "crust-mcq-12",
+        "crust-mcq-03",
         "crust-mcq-11",
-        "crust-mcq-10",
-        "crust-mcq-09",
         "crust-mcq-08"
       ],
       "explanation": "本句的「crust」指「社會中富有、地位最高的一群人」。",
@@ -1181,12 +1067,10 @@ export default {
         "crust"
       ],
       "optionReasons": {
-        "crust-mcq-13": "本句指「社會中富有、地位最高的一群人」。",
-        "crust-mcq-12": "「表面密集覆蓋或鑲嵌著某物的」與本句語境不同。",
-        "crust-mcq-11": "「態度粗硬、容易不耐煩、較難親近的」與本句語境不同。",
-        "crust-mcq-10": "「表面乾硬、結塊或結皮的」與本句語境不同。",
-        "crust-mcq-09": "「表面有香脆硬皮的」與本句語境不同。",
-        "crust-mcq-08": "「在表面形成硬化、乾燥或凝固的層」與本句語境不同。"
+        "crust-mcq-13": "本句的「crust」指「社會中富有、地位最高的一群人」。",
+        "crust-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crust-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crust-mcq-13"
     }
@@ -1198,5 +1082,7 @@ export default {
     "sha256": "089801911876af0bd29fc65df6c0fb6aaf6ffe507e18b0a6232fd4dc303c564d",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

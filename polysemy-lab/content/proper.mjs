@@ -166,7 +166,7 @@ export default {
     },
     {
       "id": "proper-mcq-08",
-      "title": "表示真正地；充分地）",
+      "title": "真正地；充分地）",
       "form": "properly = thoroughly / genuinely（真正地；充分地）",
       "en": "properly = thoroughly / genuinely（真正地；充分地）",
       "zh": "表示真正地；充分地）",
@@ -232,7 +232,7 @@ export default {
     },
     {
       "id": "proper-mcq-11",
-      "title": "表示專有名詞",
+      "title": "專有名詞",
       "form": "Useful construction: proper noun — 專有名詞",
       "en": "Useful construction: proper noun — 專有名詞",
       "zh": "表示專有名詞",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "proper-mcq-12",
-      "title": "表示本身／正式部分",
+      "title": "本身／正式部分",
       "form": "Useful construction: X proper — X 本身／正式部分",
       "en": "Useful construction: X proper — X 本身／正式部分",
       "zh": "表示本身／正式部分",
@@ -279,11 +279,9 @@ export default {
       "masked": "He taught me the importance of doing things ____.",
       "options": [
         "proper-mcq-01",
-        "proper-mcq-02",
-        "proper-mcq-03",
-        "proper-mcq-04",
+        "proper-mcq-06",
         "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-12"
       ],
       "explanation": "本句的「properly」指「符合要求、標準、規則或實際需要的；正確妥當的」。",
       "sentenceIndex": 0,
@@ -292,12 +290,10 @@ export default {
         "properly"
       ],
       "optionReasons": {
-        "proper-mcq-01": "本句指「符合要求、標準、規則或實際需要的；正確妥當的」。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-01": "本句的「properly」指「符合要求、標準、規則或實際需要的；正確妥當的」。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-01"
     },
@@ -309,11 +305,9 @@ export default {
       "masked": "You need the ____ tools for the job.",
       "options": [
         "proper-mcq-01",
-        "proper-mcq-02",
-        "proper-mcq-03",
-        "proper-mcq-04",
+        "proper-mcq-06",
         "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-12"
       ],
       "explanation": "本句的「proper」指「符合要求、標準、規則或實際需要的；正確妥當的」。",
       "sentenceIndex": 1,
@@ -322,12 +316,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-01": "本句指「符合要求、標準、規則或實際需要的；正確妥當的」。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-01": "本句的「proper」指「符合要求、標準、規則或實際需要的；正確妥當的」。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-01"
     },
@@ -339,11 +331,9 @@ export default {
       "masked": "There is a ____ way to handle this equipment.",
       "options": [
         "proper-mcq-01",
-        "proper-mcq-02",
-        "proper-mcq-03",
-        "proper-mcq-04",
+        "proper-mcq-06",
         "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-12"
       ],
       "explanation": "本句的「proper」指「符合要求、標準、規則或實際需要的；正確妥當的」。",
       "sentenceIndex": 2,
@@ -352,12 +342,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-01": "本句指「符合要求、標準、規則或實際需要的；正確妥當的」。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-01": "本句的「proper」指「符合要求、標準、規則或實際需要的；正確妥當的」。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-01"
     },
@@ -369,11 +357,9 @@ export default {
       "masked": "He was taught how to behave in a ____ manner.",
       "options": [
         "proper-mcq-02",
-        "proper-mcq-01",
-        "proper-mcq-03",
-        "proper-mcq-04",
         "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-06",
+        "proper-mcq-08"
       ],
       "explanation": "本句的「proper」指「符合社會禮儀、規矩或場合要求的」。",
       "sentenceIndex": 3,
@@ -382,12 +368,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-02": "本句指「符合社會禮儀、規矩或場合要求的」。",
-        "proper-mcq-01": "「符合要求、標準、規則或實際需要的；正確妥當的」是「proper = correct / appropriate（做法／方式）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-02": "本句的「proper」指「符合社會禮儀、規矩或場合要求的」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-02"
     },
@@ -399,11 +383,9 @@ export default {
       "masked": "She felt that jeans were not ____ for such a formal occasion.",
       "options": [
         "proper-mcq-02",
-        "proper-mcq-01",
-        "proper-mcq-03",
-        "proper-mcq-04",
-        "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-08",
+        "proper-mcq-06",
+        "proper-mcq-05"
       ],
       "explanation": "本句的「proper」指「符合社會禮儀、規矩或場合要求的」。",
       "sentenceIndex": 4,
@@ -412,12 +394,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-02": "本句指「符合社會禮儀、規矩或場合要求的」。",
-        "proper-mcq-01": "「符合要求、標準、規則或實際需要的；正確妥當的」是「proper = correct / appropriate（做法／方式）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-02": "本句的「proper」指「符合社會禮儀、規矩或場合要求的」。",
+        "proper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-02"
     },
@@ -429,11 +409,9 @@ export default {
       "masked": "We haven’t had a ____ meal all day.",
       "options": [
         "proper-mcq-03",
-        "proper-mcq-02",
-        "proper-mcq-04",
-        "proper-mcq-01",
         "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-11",
+        "proper-mcq-12"
       ],
       "explanation": "本句的「proper」指「真正符合某類事物應有的完整程度、品質或標準的」。",
       "sentenceIndex": 5,
@@ -442,12 +420,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-03": "本句指「真正符合某類事物應有的完整程度、品質或標準的」。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-01": "「符合要求、標準、規則或實際需要的；正確妥當的」是「proper = correct / appropriate（做法／方式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-03": "本句的「proper」指「真正符合某類事物應有的完整程度、品質或標準的」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-03"
     },
@@ -459,11 +435,9 @@ export default {
       "masked": "I need a ____ rest after this week.",
       "options": [
         "proper-mcq-03",
-        "proper-mcq-02",
-        "proper-mcq-04",
-        "proper-mcq-01",
         "proper-mcq-05",
-        "proper-mcq-06"
+        "proper-mcq-11",
+        "proper-mcq-12"
       ],
       "explanation": "本句的「proper」指「真正符合某類事物應有的完整程度、品質或標準的」。",
       "sentenceIndex": 6,
@@ -472,12 +446,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-03": "本句指「真正符合某類事物應有的完整程度、品質或標準的」。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-01": "「符合要求、標準、規則或實際需要的；正確妥當的」是「proper = correct / appropriate（做法／方式）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-03": "本句的「proper」指「真正符合某類事物應有的完整程度、品質或標準的」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-03"
     },
@@ -489,11 +461,9 @@ export default {
       "masked": "The ceremony began before the meeting ____.",
       "options": [
         "proper-mcq-04",
-        "proper-mcq-03",
-        "proper-mcq-05",
-        "proper-mcq-02",
-        "proper-mcq-06",
-        "proper-mcq-01"
+        "proper-mcq-11",
+        "proper-mcq-10",
+        "proper-mcq-05"
       ],
       "explanation": "本句的「proper」指「某事物本身的主要、正式或嚴格意義上的部分」。",
       "sentenceIndex": 7,
@@ -502,12 +472,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-04": "本句指「某事物本身的主要、正式或嚴格意義上的部分」。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-01": "「符合要求、標準、規則或實際需要的；正確妥當的」是「proper = correct / appropriate（做法／方式）」的用法，與本句語境不同。"
+        "proper-mcq-04": "本句的「proper」指「某事物本身的主要、正式或嚴格意義上的部分」。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-04"
     },
@@ -519,11 +487,9 @@ export default {
       "masked": "They live outside the city ____.",
       "options": [
         "proper-mcq-04",
-        "proper-mcq-03",
+        "proper-mcq-10",
         "proper-mcq-05",
-        "proper-mcq-02",
-        "proper-mcq-06",
-        "proper-mcq-01"
+        "proper-mcq-11"
       ],
       "explanation": "本句的「proper」指「某事物本身的主要、正式或嚴格意義上的部分」。",
       "sentenceIndex": 8,
@@ -532,12 +498,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-04": "本句指「某事物本身的主要、正式或嚴格意義上的部分」。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-01": "「符合要求、標準、規則或實際需要的；正確妥當的」是「proper = correct / appropriate（做法／方式）」的用法，與本句語境不同。"
+        "proper-mcq-04": "本句的「proper」指「某事物本身的主要、正式或嚴格意義上的部分」。",
+        "proper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-04"
     },
@@ -551,9 +515,7 @@ export default {
         "proper-mcq-05",
         "proper-mcq-04",
         "proper-mcq-06",
-        "proper-mcq-03",
-        "proper-mcq-07",
-        "proper-mcq-02"
+        "proper-mcq-10"
       ],
       "explanation": "本句的「proper」指「特別屬於某人、某物或某職能的」。",
       "sentenceIndex": 9,
@@ -562,12 +524,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-05": "本句指「特別屬於某人、某物或某職能的」。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。"
+        "proper-mcq-05": "本句的「proper」指「特別屬於某人、某物或某職能的」。",
+        "proper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-05"
     },
@@ -579,11 +539,9 @@ export default {
       "masked": "These functions are ____ to the department.",
       "options": [
         "proper-mcq-05",
-        "proper-mcq-04",
-        "proper-mcq-06",
-        "proper-mcq-03",
-        "proper-mcq-07",
-        "proper-mcq-02"
+        "proper-mcq-01",
+        "proper-mcq-11",
+        "proper-mcq-04"
       ],
       "explanation": "本句的「proper」指「特別屬於某人、某物或某職能的」。",
       "sentenceIndex": 10,
@@ -592,12 +550,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-05": "本句指「特別屬於某人、某物或某職能的」。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-02": "「符合社會禮儀、規矩或場合要求的」是「proper = socially acceptable / behaving correctly（禮儀／規矩）」的用法，與本句語境不同。"
+        "proper-mcq-05": "本句的「proper」指「特別屬於某人、某物或某職能的」。",
+        "proper-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-05"
     },
@@ -609,11 +565,9 @@ export default {
       "masked": "‘Hong Kong’ is a ____.",
       "options": [
         "proper-mcq-06",
+        "proper-mcq-09",
         "proper-mcq-05",
-        "proper-mcq-07",
-        "proper-mcq-04",
-        "proper-mcq-08",
-        "proper-mcq-03"
+        "proper-mcq-12"
       ],
       "explanation": "本句的「proper noun」指「語法術語時，表示專有的」。",
       "sentenceIndex": 11,
@@ -622,12 +576,10 @@ export default {
         "proper noun"
       ],
       "optionReasons": {
-        "proper-mcq-06": "本句指「語法術語時，表示專有的」。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。"
+        "proper-mcq-06": "本句的「proper noun」指「語法術語時，表示專有的」。",
+        "proper-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-06"
     },
@@ -639,11 +591,9 @@ export default {
       "masked": "A ____ identifies a particular person or place.",
       "options": [
         "proper-mcq-06",
-        "proper-mcq-05",
-        "proper-mcq-07",
         "proper-mcq-04",
-        "proper-mcq-08",
-        "proper-mcq-03"
+        "proper-mcq-07",
+        "proper-mcq-05"
       ],
       "explanation": "本句的「proper name」指「語法術語時，表示專有的」。",
       "sentenceIndex": 12,
@@ -652,12 +602,10 @@ export default {
         "proper name"
       ],
       "optionReasons": {
-        "proper-mcq-06": "本句指「語法術語時，表示專有的」。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-03": "「真正符合某類事物應有的完整程度、品質或標準的」是「proper = real / complete / of the expected kind（真正的／像樣的）」的用法，與本句語境不同。"
+        "proper-mcq-06": "本句的「proper name」指「語法術語時，表示專有的」。",
+        "proper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-06"
     },
@@ -670,10 +618,8 @@ export default {
       "options": [
         "proper-mcq-07",
         "proper-mcq-06",
-        "proper-mcq-08",
         "proper-mcq-05",
-        "proper-mcq-09",
-        "proper-mcq-04"
+        "proper-mcq-12"
       ],
       "explanation": "本句的「properly」指「以正確、合適、完整或應有的方式」。",
       "sentenceIndex": 13,
@@ -682,12 +628,10 @@ export default {
         "properly"
       ],
       "optionReasons": {
-        "proper-mcq-07": "本句指「以正確、合適、完整或應有的方式」。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。"
+        "proper-mcq-07": "本句的「properly」指「以正確、合適、完整或應有的方式」。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-07"
     },
@@ -700,9 +644,7 @@ export default {
       "options": [
         "proper-mcq-07",
         "proper-mcq-06",
-        "proper-mcq-08",
         "proper-mcq-05",
-        "proper-mcq-09",
         "proper-mcq-04"
       ],
       "explanation": "本句的「properly」指「以正確、合適、完整或應有的方式」。",
@@ -712,12 +654,10 @@ export default {
         "properly"
       ],
       "optionReasons": {
-        "proper-mcq-07": "本句指「以正確、合適、完整或應有的方式」。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-04": "「某事物本身的主要、正式或嚴格意義上的部分」是「proper = specific/main thing itself（本身／正式）」的用法，與本句語境不同。"
+        "proper-mcq-07": "本句的「properly」指「以正確、合適、完整或應有的方式」。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-07"
     },
@@ -729,11 +669,9 @@ export default {
       "masked": "I haven’t ____ eaten all day.",
       "options": [
         "proper-mcq-08",
-        "proper-mcq-07",
-        "proper-mcq-09",
-        "proper-mcq-06",
         "proper-mcq-10",
-        "proper-mcq-05"
+        "proper-mcq-05",
+        "proper-mcq-11"
       ],
       "explanation": "本句的「properly」指「表示真正地；充分地）」。",
       "sentenceIndex": 15,
@@ -742,12 +680,10 @@ export default {
         "properly"
       ],
       "optionReasons": {
-        "proper-mcq-08": "本句指「表示真正地；充分地）」。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。"
+        "proper-mcq-08": "本句的「properly」指「表示真正地；充分地）」。",
+        "proper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-08"
     },
@@ -759,10 +695,8 @@ export default {
       "masked": "We never ____ discussed the issue.",
       "options": [
         "proper-mcq-08",
-        "proper-mcq-07",
-        "proper-mcq-09",
-        "proper-mcq-06",
-        "proper-mcq-10",
+        "proper-mcq-11",
+        "proper-mcq-02",
         "proper-mcq-05"
       ],
       "explanation": "本句的「properly」指「表示真正地；充分地）」。",
@@ -772,12 +706,10 @@ export default {
         "properly"
       ],
       "optionReasons": {
-        "proper-mcq-08": "本句指「表示真正地；充分地）」。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-05": "「特別屬於某人、某物或某職能的」是「proper = belonging specifically/exclusively to something（專屬）」的用法，與本句語境不同。"
+        "proper-mcq-08": "本句的「properly」指「表示真正地；充分地）」。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-08"
     },
@@ -789,11 +721,9 @@ export default {
       "masked": "The machine failed because of ____ use.",
       "options": [
         "proper-mcq-09",
-        "proper-mcq-08",
-        "proper-mcq-10",
-        "proper-mcq-07",
-        "proper-mcq-11",
-        "proper-mcq-06"
+        "proper-mcq-05",
+        "proper-mcq-06",
+        "proper-mcq-04"
       ],
       "explanation": "本句的「improper」指「不符合正確方式、規則、標準或社會禮儀的」。",
       "sentenceIndex": 17,
@@ -802,12 +732,10 @@ export default {
         "improper"
       ],
       "optionReasons": {
-        "proper-mcq-09": "本句指「不符合正確方式、規則、標準或社會禮儀的」。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-11": "「表示專有名詞」是「Useful construction: proper noun — 專有名詞」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-09": "本句的「improper」指「不符合正確方式、規則、標準或社會禮儀的」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-09"
     },
@@ -819,11 +747,9 @@ export default {
       "masked": "His behaviour was considered ____.",
       "options": [
         "proper-mcq-09",
-        "proper-mcq-08",
-        "proper-mcq-10",
-        "proper-mcq-07",
-        "proper-mcq-11",
-        "proper-mcq-06"
+        "proper-mcq-05",
+        "proper-mcq-06",
+        "proper-mcq-12"
       ],
       "explanation": "本句的「improper」指「不符合正確方式、規則、標準或社會禮儀的」。",
       "sentenceIndex": 18,
@@ -832,12 +758,10 @@ export default {
         "improper"
       ],
       "optionReasons": {
-        "proper-mcq-09": "本句指「不符合正確方式、規則、標準或社會禮儀的」。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。",
-        "proper-mcq-11": "「表示專有名詞」是「Useful construction: proper noun — 專有名詞」的用法，與本句語境不同。",
-        "proper-mcq-06": "「語法術語時，表示專有的」是「proper = own / individual（語法術語）」的用法，與本句語境不同。"
+        "proper-mcq-09": "本句的「improper」指「不符合正確方式、規則、標準或社會禮儀的」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-09"
     },
@@ -849,11 +773,9 @@ export default {
       "masked": "She questioned the ____ of his behaviour.",
       "options": [
         "proper-mcq-10",
-        "proper-mcq-09",
-        "proper-mcq-11",
+        "proper-mcq-05",
         "proper-mcq-08",
-        "proper-mcq-12",
-        "proper-mcq-07"
+        "proper-mcq-06"
       ],
       "explanation": "本句的「propriety」指「行為符合禮儀、規矩、道德或社會規範的狀態」。",
       "sentenceIndex": 19,
@@ -862,12 +784,10 @@ export default {
         "propriety"
       ],
       "optionReasons": {
-        "proper-mcq-10": "本句指「行為符合禮儀、規矩、道德或社會規範的狀態」。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-11": "「表示專有名詞」是「Useful construction: proper noun — 專有名詞」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-12": "「表示本身／正式部分」是「Useful construction: X proper — X 本身／正式部分」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。"
+        "proper-mcq-10": "本句的「propriety」指「行為符合禮儀、規矩、道德或社會規範的狀態」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-10"
     },
@@ -879,11 +799,9 @@ export default {
       "masked": "They behaved with complete ____.",
       "options": [
         "proper-mcq-10",
-        "proper-mcq-09",
-        "proper-mcq-11",
-        "proper-mcq-08",
-        "proper-mcq-12",
-        "proper-mcq-07"
+        "proper-mcq-06",
+        "proper-mcq-05",
+        "proper-mcq-08"
       ],
       "explanation": "本句的「propriety」指「行為符合禮儀、規矩、道德或社會規範的狀態」。",
       "sentenceIndex": 20,
@@ -892,12 +810,10 @@ export default {
         "propriety"
       ],
       "optionReasons": {
-        "proper-mcq-10": "本句指「行為符合禮儀、規矩、道德或社會規範的狀態」。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-11": "「表示專有名詞」是「Useful construction: proper noun — 專有名詞」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-12": "「表示本身／正式部分」是「Useful construction: X proper — X 本身／正式部分」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。"
+        "proper-mcq-10": "本句的「propriety」指「行為符合禮儀、規矩、道德或社會規範的狀態」。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-10"
     },
@@ -909,11 +825,9 @@ export default {
       "masked": "Names of cities are usually ____.",
       "options": [
         "proper-mcq-11",
-        "proper-mcq-10",
-        "proper-mcq-12",
-        "proper-mcq-09",
-        "proper-mcq-08",
-        "proper-mcq-07"
+        "proper-mcq-01",
+        "proper-mcq-04",
+        "proper-mcq-05"
       ],
       "explanation": "本句的「proper nouns」指「表示專有名詞」。",
       "sentenceIndex": 21,
@@ -922,12 +836,10 @@ export default {
         "proper nouns"
       ],
       "optionReasons": {
-        "proper-mcq-11": "本句指「表示專有名詞」。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-12": "「表示本身／正式部分」是「Useful construction: X proper — X 本身／正式部分」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。"
+        "proper-mcq-11": "本句的「proper nouns」指「表示專有名詞」。",
+        "proper-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-11"
     },
@@ -939,11 +851,9 @@ export default {
       "masked": "The discussion began before the lecture ____.",
       "options": [
         "proper-mcq-12",
-        "proper-mcq-11",
-        "proper-mcq-10",
-        "proper-mcq-09",
-        "proper-mcq-08",
-        "proper-mcq-07"
+        "proper-mcq-05",
+        "proper-mcq-06",
+        "proper-mcq-10"
       ],
       "explanation": "本句的「proper」指「表示本身／正式部分」。",
       "sentenceIndex": 22,
@@ -952,12 +862,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-12": "本句指「表示本身／正式部分」。",
-        "proper-mcq-11": "「表示專有名詞」是「Useful construction: proper noun — 專有名詞」的用法，與本句語境不同。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。"
+        "proper-mcq-12": "本句的「proper」指「表示本身／正式部分」。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-12"
     },
@@ -969,11 +877,9 @@ export default {
       "masked": "The village lies outside the town ____.",
       "options": [
         "proper-mcq-12",
+        "proper-mcq-02",
         "proper-mcq-11",
-        "proper-mcq-10",
-        "proper-mcq-09",
-        "proper-mcq-08",
-        "proper-mcq-07"
+        "proper-mcq-05"
       ],
       "explanation": "本句的「proper」指「表示本身／正式部分」。",
       "sentenceIndex": 23,
@@ -982,12 +888,10 @@ export default {
         "proper"
       ],
       "optionReasons": {
-        "proper-mcq-12": "本句指「表示本身／正式部分」。",
-        "proper-mcq-11": "「表示專有名詞」是「Useful construction: proper noun — 專有名詞」的用法，與本句語境不同。",
-        "proper-mcq-10": "「行為符合禮儀、規矩、道德或社會規範的狀態」是「Related form: propriety」的用法，與本句語境不同。",
-        "proper-mcq-09": "「不符合正確方式、規則、標準或社會禮儀的」是「Related form: improper」的用法，與本句語境不同。",
-        "proper-mcq-08": "「表示真正地；充分地）」是「properly = thoroughly / genuinely（真正地；充分地）」的用法，與本句語境不同。",
-        "proper-mcq-07": "「以正確、合適、完整或應有的方式」是「properly = correctly / appropriately（正確地；妥善地）」的用法，與本句語境不同。"
+        "proper-mcq-12": "本句的「proper」指「表示本身／正式部分」。",
+        "proper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proper-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proper-mcq-12"
     }
@@ -999,5 +903,7 @@ export default {
     "sha256": "88bae9ae0cd8f62892599ce92cf3aa64fd253b195616137cb270973e62baca20",
     "pages": 11
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

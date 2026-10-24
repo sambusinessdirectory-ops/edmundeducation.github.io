@@ -433,11 +433,9 @@ export default {
       "masked": "We heard ____ in the distance.",
       "options": [
         "thunder-mcq-01",
-        "thunder-mcq-02",
-        "thunder-mcq-03",
-        "thunder-mcq-04",
-        "thunder-mcq-05",
-        "thunder-mcq-06"
+        "thunder-mcq-16",
+        "thunder-mcq-07",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thunder」指「閃電後在天空產生的巨大雷聲／雷鳴」。",
       "sentenceIndex": 2,
@@ -446,12 +444,10 @@ export default {
         "thunder"
       ],
       "optionReasons": {
-        "thunder-mcq-01": "本句指「閃電後在天空產生的巨大雷聲／雷鳴」。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-01": "本句的「thunder」指「閃電後在天空產生的巨大雷聲／雷鳴」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-01"
     },
@@ -463,10 +459,8 @@ export default {
       "masked": "A loud crash of ____ woke me up.",
       "options": [
         "thunder-mcq-01",
-        "thunder-mcq-02",
-        "thunder-mcq-03",
-        "thunder-mcq-04",
-        "thunder-mcq-05",
+        "thunder-mcq-18",
+        "thunder-mcq-16",
         "thunder-mcq-06"
       ],
       "explanation": "本句的「thunder」指「閃電後在天空產生的巨大雷聲／雷鳴」。",
@@ -476,12 +470,10 @@ export default {
         "thunder"
       ],
       "optionReasons": {
-        "thunder-mcq-01": "本句指「閃電後在天空產生的巨大雷聲／雷鳴」。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-01": "本句的「thunder」指「閃電後在天空產生的巨大雷聲／雷鳴」。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-01"
     },
@@ -493,11 +485,9 @@ export default {
       "masked": "It began to ____ during the night.",
       "options": [
         "thunder-mcq-02",
-        "thunder-mcq-01",
-        "thunder-mcq-03",
-        "thunder-mcq-04",
-        "thunder-mcq-05",
-        "thunder-mcq-06"
+        "thunder-mcq-16",
+        "thunder-mcq-06",
+        "thunder-mcq-07"
       ],
       "explanation": "本句的「thunder」指「天空發出雷聲；打雷」。",
       "sentenceIndex": 4,
@@ -506,12 +496,10 @@ export default {
         "thunder"
       ],
       "optionReasons": {
-        "thunder-mcq-02": "本句指「天空發出雷聲；打雷」。",
-        "thunder-mcq-01": "「閃電後在天空產生的巨大雷聲／雷鳴」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-02": "本句的「thunder」指「天空發出雷聲；打雷」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-02"
     },
@@ -523,11 +511,9 @@ export default {
       "masked": "The sky ____ above us.",
       "options": [
         "thunder-mcq-02",
-        "thunder-mcq-01",
-        "thunder-mcq-03",
-        "thunder-mcq-04",
-        "thunder-mcq-05",
-        "thunder-mcq-06"
+        "thunder-mcq-06",
+        "thunder-mcq-07",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thundered」指「天空發出雷聲；打雷」。",
       "sentenceIndex": 5,
@@ -536,12 +522,10 @@ export default {
         "thundered"
       ],
       "optionReasons": {
-        "thunder-mcq-02": "本句指「天空發出雷聲；打雷」。",
-        "thunder-mcq-01": "「閃電後在天空產生的巨大雷聲／雷鳴」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-02": "本句的「thundered」指「天空發出雷聲；打雷」。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-02"
     },
@@ -553,11 +537,9 @@ export default {
       "masked": "We heard the ____.",
       "options": [
         "thunder-mcq-03",
-        "thunder-mcq-02",
-        "thunder-mcq-04",
-        "thunder-mcq-01",
-        "thunder-mcq-05",
-        "thunder-mcq-06"
+        "thunder-mcq-16",
+        "thunder-mcq-14",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thunder of engines」指「類似雷聲的深沉、強烈巨響／轟鳴」。",
       "sentenceIndex": 6,
@@ -566,12 +548,10 @@ export default {
         "thunder of engines"
       ],
       "optionReasons": {
-        "thunder-mcq-03": "本句指「類似雷聲的深沉、強烈巨響／轟鳴」。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-01": "「閃電後在天空產生的巨大雷聲／雷鳴」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-03": "本句的「thunder of engines」指「類似雷聲的深沉、強烈巨響／轟鳴」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-03"
     },
@@ -583,11 +563,9 @@ export default {
       "masked": "The ____ filled the hall.",
       "options": [
         "thunder-mcq-03",
-        "thunder-mcq-02",
-        "thunder-mcq-04",
-        "thunder-mcq-01",
-        "thunder-mcq-05",
-        "thunder-mcq-06"
+        "thunder-mcq-16",
+        "thunder-mcq-18",
+        "thunder-mcq-13"
       ],
       "explanation": "本句的「thunder of applause」指「類似雷聲的深沉、強烈巨響／轟鳴」。",
       "sentenceIndex": 7,
@@ -596,12 +574,10 @@ export default {
         "thunder of applause"
       ],
       "optionReasons": {
-        "thunder-mcq-03": "本句指「類似雷聲的深沉、強烈巨響／轟鳴」。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-01": "「閃電後在天空產生的巨大雷聲／雷鳴」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-03": "本句的「thunder of applause」指「類似雷聲的深沉、強烈巨響／轟鳴」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-03"
     },
@@ -613,11 +589,9 @@ export default {
       "masked": "The performance ended in a ____.",
       "options": [
         "thunder-mcq-04",
-        "thunder-mcq-03",
-        "thunder-mcq-05",
-        "thunder-mcq-02",
-        "thunder-mcq-06",
-        "thunder-mcq-01"
+        "thunder-mcq-15",
+        "thunder-mcq-16",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thunder of applause」指「非常響亮、如雷般的掌聲」。",
       "sentenceIndex": 8,
@@ -626,12 +600,10 @@ export default {
         "thunder of applause"
       ],
       "optionReasons": {
-        "thunder-mcq-04": "本句指「非常響亮、如雷般的掌聲」。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-01": "「閃電後在天空產生的巨大雷聲／雷鳴」與本句語境不同。"
+        "thunder-mcq-04": "本句的「thunder of applause」指「非常響亮、如雷般的掌聲」。",
+        "thunder-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-04"
     },
@@ -643,11 +615,9 @@ export default {
       "masked": "She walked onto the stage to a ____.",
       "options": [
         "thunder-mcq-04",
-        "thunder-mcq-03",
-        "thunder-mcq-05",
-        "thunder-mcq-02",
         "thunder-mcq-06",
-        "thunder-mcq-01"
+        "thunder-mcq-15",
+        "thunder-mcq-16"
       ],
       "explanation": "本句的「thunder of applause」指「非常響亮、如雷般的掌聲」。",
       "sentenceIndex": 9,
@@ -656,12 +626,10 @@ export default {
         "thunder of applause"
       ],
       "optionReasons": {
-        "thunder-mcq-04": "本句指「非常響亮、如雷般的掌聲」。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-01": "「閃電後在天空產生的巨大雷聲／雷鳴」與本句語境不同。"
+        "thunder-mcq-04": "本句的「thunder of applause」指「非常響亮、如雷般的掌聲」。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-04"
     },
@@ -673,11 +641,9 @@ export default {
       "masked": "A train ____ the tunnel.",
       "options": [
         "thunder-mcq-05",
-        "thunder-mcq-04",
-        "thunder-mcq-06",
-        "thunder-mcq-03",
-        "thunder-mcq-07",
-        "thunder-mcq-02"
+        "thunder-mcq-16",
+        "thunder-mcq-14",
+        "thunder-mcq-08"
       ],
       "explanation": "本句的「thundered through」指「伴隨巨大轟鳴聲快速／沉重地移動」。",
       "sentenceIndex": 10,
@@ -686,12 +652,10 @@ export default {
         "thundered through"
       ],
       "optionReasons": {
-        "thunder-mcq-05": "本句指「伴隨巨大轟鳴聲快速／沉重地移動」。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。"
+        "thunder-mcq-05": "本句的「thundered through」指「伴隨巨大轟鳴聲快速／沉重地移動」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-05"
     },
@@ -703,11 +667,9 @@ export default {
       "masked": "Horses ____ the field.",
       "options": [
         "thunder-mcq-05",
-        "thunder-mcq-04",
-        "thunder-mcq-06",
-        "thunder-mcq-03",
-        "thunder-mcq-07",
-        "thunder-mcq-02"
+        "thunder-mcq-14",
+        "thunder-mcq-16",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thundered across」指「伴隨巨大轟鳴聲快速／沉重地移動」。",
       "sentenceIndex": 11,
@@ -716,12 +678,10 @@ export default {
         "thundered across"
       ],
       "optionReasons": {
-        "thunder-mcq-05": "本句指「伴隨巨大轟鳴聲快速／沉重地移動」。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-02": "「天空發出雷聲；打雷」與本句語境不同。"
+        "thunder-mcq-05": "本句的「thundered across」指「伴隨巨大轟鳴聲快速／沉重地移動」。",
+        "thunder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-05"
     },
@@ -733,11 +693,9 @@ export default {
       "masked": "The bus ____ us.",
       "options": [
         "thunder-mcq-06",
-        "thunder-mcq-05",
-        "thunder-mcq-07",
-        "thunder-mcq-04",
+        "thunder-mcq-01",
         "thunder-mcq-08",
-        "thunder-mcq-03"
+        "thunder-mcq-07"
       ],
       "explanation": "本句的「thundered past」指「轟隆隆地駛過／穿過／前進」。",
       "sentenceIndex": 12,
@@ -746,12 +704,10 @@ export default {
         "thundered past"
       ],
       "optionReasons": {
-        "thunder-mcq-06": "本句指「轟隆隆地駛過／穿過／前進」。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。"
+        "thunder-mcq-06": "本句的「thundered past」指「轟隆隆地駛過／穿過／前進」。",
+        "thunder-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-06"
     },
@@ -763,11 +719,9 @@ export default {
       "masked": "The roller coaster ____ the track.",
       "options": [
         "thunder-mcq-06",
-        "thunder-mcq-05",
-        "thunder-mcq-07",
         "thunder-mcq-04",
-        "thunder-mcq-08",
-        "thunder-mcq-03"
+        "thunder-mcq-01",
+        "thunder-mcq-11"
       ],
       "explanation": "本句的「thundered along」指「轟隆隆地駛過／穿過／前進」。",
       "sentenceIndex": 13,
@@ -776,12 +730,10 @@ export default {
         "thundered along"
       ],
       "optionReasons": {
-        "thunder-mcq-06": "本句指「轟隆隆地駛過／穿過／前進」。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-03": "「類似雷聲的深沉、強烈巨響／轟鳴」與本句語境不同。"
+        "thunder-mcq-06": "本句的「thundered along」指「轟隆隆地駛過／穿過／前進」。",
+        "thunder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-06"
     },
@@ -793,11 +745,9 @@ export default {
       "masked": "The children ____.",
       "options": [
         "thunder-mcq-07",
-        "thunder-mcq-06",
-        "thunder-mcq-08",
-        "thunder-mcq-05",
-        "thunder-mcq-09",
-        "thunder-mcq-04"
+        "thunder-mcq-15",
+        "thunder-mcq-11",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thundered down the stairs」指「以沉重、響亮腳步快速奔跑」。",
       "sentenceIndex": 14,
@@ -806,12 +756,10 @@ export default {
         "thundered down the stairs"
       ],
       "optionReasons": {
-        "thunder-mcq-07": "本句指「以沉重、響亮腳步快速奔跑」。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。"
+        "thunder-mcq-07": "本句的「thundered down the stairs」指「以沉重、響亮腳步快速奔跑」。",
+        "thunder-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-07"
     },
@@ -823,11 +771,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "thunder-mcq-07",
-        "thunder-mcq-06",
-        "thunder-mcq-08",
-        "thunder-mcq-05",
-        "thunder-mcq-09",
-        "thunder-mcq-04"
+        "thunder-mcq-16",
+        "thunder-mcq-13",
+        "thunder-mcq-15"
       ],
       "explanation": "本句的「thundered across the room」指「以沉重、響亮腳步快速奔跑」。",
       "sentenceIndex": 15,
@@ -836,12 +782,10 @@ export default {
         "thundered across the room"
       ],
       "optionReasons": {
-        "thunder-mcq-07": "本句指「以沉重、響亮腳步快速奔跑」。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-04": "「非常響亮、如雷般的掌聲」與本句語境不同。"
+        "thunder-mcq-07": "本句的「thundered across the room」指「以沉重、響亮腳步快速奔跑」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-07"
     },
@@ -853,11 +797,9 @@ export default {
       "masked": "Get out!” he ____.",
       "options": [
         "thunder-mcq-08",
-        "thunder-mcq-07",
-        "thunder-mcq-09",
-        "thunder-mcq-06",
-        "thunder-mcq-10",
-        "thunder-mcq-05"
+        "thunder-mcq-18",
+        "thunder-mcq-17",
+        "thunder-mcq-06"
       ],
       "explanation": "本句的「thundered」指「以非常洪亮、憤怒或威嚴的聲音說話」。",
       "sentenceIndex": 16,
@@ -866,12 +808,10 @@ export default {
         "thundered"
       ],
       "optionReasons": {
-        "thunder-mcq-08": "本句指「以非常洪亮、憤怒或威嚴的聲音說話」。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。"
+        "thunder-mcq-08": "本句的「thundered」指「以非常洪亮、憤怒或威嚴的聲音說話」。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-08"
     },
@@ -883,11 +823,9 @@ export default {
       "masked": "The speaker ____ corruption.",
       "options": [
         "thunder-mcq-08",
-        "thunder-mcq-07",
-        "thunder-mcq-09",
+        "thunder-mcq-18",
         "thunder-mcq-06",
-        "thunder-mcq-10",
-        "thunder-mcq-05"
+        "thunder-mcq-16"
       ],
       "explanation": "本句的「thundered against」指「以非常洪亮、憤怒或威嚴的聲音說話」。",
       "sentenceIndex": 17,
@@ -896,12 +834,10 @@ export default {
         "thundered against"
       ],
       "optionReasons": {
-        "thunder-mcq-08": "本句指「以非常洪亮、憤怒或威嚴的聲音說話」。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-05": "「伴隨巨大轟鳴聲快速／沉重地移動」與本句語境不同。"
+        "thunder-mcq-08": "本句的「thundered against」指「以非常洪亮、憤怒或威嚴的聲音說話」。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-08"
     },
@@ -913,11 +849,9 @@ export default {
       "masked": "He ____ the decision.",
       "options": [
         "thunder-mcq-09",
-        "thunder-mcq-08",
-        "thunder-mcq-10",
         "thunder-mcq-07",
-        "thunder-mcq-11",
-        "thunder-mcq-06"
+        "thunder-mcq-17",
+        "thunder-mcq-16"
       ],
       "explanation": "本句的「thundered against」指「大聲斥責、猛烈抨擊」。",
       "sentenceIndex": 18,
@@ -926,12 +860,10 @@ export default {
         "thundered against"
       ],
       "optionReasons": {
-        "thunder-mcq-09": "本句指「大聲斥責、猛烈抨擊」。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-09": "本句的「thundered against」指「大聲斥責、猛烈抨擊」。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-09"
     },
@@ -943,11 +875,9 @@ export default {
       "masked": "The coach ____ the players from the sideline.",
       "options": [
         "thunder-mcq-09",
-        "thunder-mcq-08",
-        "thunder-mcq-10",
-        "thunder-mcq-07",
-        "thunder-mcq-11",
-        "thunder-mcq-06"
+        "thunder-mcq-06",
+        "thunder-mcq-14",
+        "thunder-mcq-07"
       ],
       "explanation": "本句的「thundered at」指「大聲斥責、猛烈抨擊」。",
       "sentenceIndex": 19,
@@ -956,12 +886,10 @@ export default {
         "thundered at"
       ],
       "optionReasons": {
-        "thunder-mcq-09": "本句指「大聲斥責、猛烈抨擊」。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-06": "「轟隆隆地駛過／穿過／前進」與本句語境不同。"
+        "thunder-mcq-09": "本句的「thundered at」指「大聲斥責、猛烈抨擊」。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-09"
     },
@@ -973,11 +901,9 @@ export default {
       "masked": "The audience gave ____.",
       "options": [
         "thunder-mcq-10",
-        "thunder-mcq-09",
-        "thunder-mcq-11",
-        "thunder-mcq-08",
-        "thunder-mcq-12",
-        "thunder-mcq-07"
+        "thunder-mcq-16",
+        "thunder-mcq-07",
+        "thunder-mcq-06"
       ],
       "explanation": "本句的「thunderous applause」指「像雷聲般巨大、震耳欲聾的」。",
       "sentenceIndex": 20,
@@ -986,12 +912,10 @@ export default {
         "thunderous applause"
       ],
       "optionReasons": {
-        "thunder-mcq-10": "本句指「像雷聲般巨大、震耳欲聾的」。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。"
+        "thunder-mcq-10": "本句的「thunderous applause」指「像雷聲般巨大、震耳欲聾的」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-10"
     },
@@ -1003,11 +927,9 @@ export default {
       "masked": "There was a ____.",
       "options": [
         "thunder-mcq-10",
-        "thunder-mcq-09",
-        "thunder-mcq-11",
-        "thunder-mcq-08",
-        "thunder-mcq-12",
-        "thunder-mcq-07"
+        "thunder-mcq-07",
+        "thunder-mcq-18",
+        "thunder-mcq-06"
       ],
       "explanation": "本句的「thunderous crash」指「像雷聲般巨大、震耳欲聾的」。",
       "sentenceIndex": 21,
@@ -1016,12 +938,10 @@ export default {
         "thunderous crash"
       ],
       "optionReasons": {
-        "thunder-mcq-10": "本句指「像雷聲般巨大、震耳欲聾的」。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-07": "「以沉重、響亮腳步快速奔跑」與本句語境不同。"
+        "thunder-mcq-10": "本句的「thunderous crash」指「像雷聲般巨大、震耳欲聾的」。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-10"
     },
@@ -1033,11 +953,9 @@ export default {
       "masked": "The announcement received ____.",
       "options": [
         "thunder-mcq-11",
-        "thunder-mcq-10",
-        "thunder-mcq-12",
-        "thunder-mcq-09",
         "thunder-mcq-13",
-        "thunder-mcq-08"
+        "thunder-mcq-07",
+        "thunder-mcq-06"
       ],
       "explanation": "本句的「thunderous approval」指「極其強烈、聲勢浩大的」。",
       "sentenceIndex": 22,
@@ -1046,12 +964,10 @@ export default {
         "thunderous approval"
       ],
       "optionReasons": {
-        "thunder-mcq-11": "本句指「極其強烈、聲勢浩大的」。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。"
+        "thunder-mcq-11": "本句的「thunderous approval」指「極其強烈、聲勢浩大的」。",
+        "thunder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-11"
     },
@@ -1063,11 +979,9 @@ export default {
       "masked": "His final line drew a ____.",
       "options": [
         "thunder-mcq-11",
-        "thunder-mcq-10",
-        "thunder-mcq-12",
-        "thunder-mcq-09",
-        "thunder-mcq-13",
-        "thunder-mcq-08"
+        "thunder-mcq-07",
+        "thunder-mcq-06",
+        "thunder-mcq-17"
       ],
       "explanation": "本句的「thunderous response」指「極其強烈、聲勢浩大的」。",
       "sentenceIndex": 23,
@@ -1076,12 +990,10 @@ export default {
         "thunderous response"
       ],
       "optionReasons": {
-        "thunder-mcq-11": "本句指「極其強烈、聲勢浩大的」。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-08": "「以非常洪亮、憤怒或威嚴的聲音說話」與本句語境不同。"
+        "thunder-mcq-11": "本句的「thunderous response」指「極其強烈、聲勢浩大的」。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-11"
     },
@@ -1093,11 +1005,9 @@ export default {
       "masked": "A sudden ____ shook the windows.",
       "options": [
         "thunder-mcq-12",
-        "thunder-mcq-11",
-        "thunder-mcq-13",
-        "thunder-mcq-10",
-        "thunder-mcq-14",
-        "thunder-mcq-09"
+        "thunder-mcq-16",
+        "thunder-mcq-18",
+        "thunder-mcq-06"
       ],
       "explanation": "本句的「thunderclap」指「突然而響亮的一聲雷鳴／霹靂」。",
       "sentenceIndex": 24,
@@ -1106,12 +1016,10 @@ export default {
         "thunderclap"
       ],
       "optionReasons": {
-        "thunder-mcq-12": "本句指「突然而響亮的一聲雷鳴／霹靂」。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。"
+        "thunder-mcq-12": "本句的「thunderclap」指「突然而響亮的一聲雷鳴／霹靂」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-12"
     },
@@ -1123,11 +1031,9 @@ export default {
       "masked": "The silence was broken by a ____.",
       "options": [
         "thunder-mcq-12",
-        "thunder-mcq-11",
-        "thunder-mcq-13",
-        "thunder-mcq-10",
-        "thunder-mcq-14",
-        "thunder-mcq-09"
+        "thunder-mcq-18",
+        "thunder-mcq-06",
+        "thunder-mcq-16"
       ],
       "explanation": "本句的「thunderclap」指「突然而響亮的一聲雷鳴／霹靂」。",
       "sentenceIndex": 25,
@@ -1136,12 +1042,10 @@ export default {
         "thunderclap"
       ],
       "optionReasons": {
-        "thunder-mcq-12": "本句指「突然而響亮的一聲雷鳴／霹靂」。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-09": "「大聲斥責、猛烈抨擊」與本句語境不同。"
+        "thunder-mcq-12": "本句的「thunderclap」指「突然而響亮的一聲雷鳴／霹靂」。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-12"
     },
@@ -1153,11 +1057,9 @@ export default {
       "masked": "A ____ developed in the afternoon.",
       "options": [
         "thunder-mcq-13",
-        "thunder-mcq-12",
-        "thunder-mcq-14",
         "thunder-mcq-11",
-        "thunder-mcq-15",
-        "thunder-mcq-10"
+        "thunder-mcq-06",
+        "thunder-mcq-07"
       ],
       "explanation": "本句的「thunderstorm」指「同時有雷、閃電，通常伴雨的雷暴／雷雨」。",
       "sentenceIndex": 26,
@@ -1166,12 +1068,10 @@ export default {
         "thunderstorm"
       ],
       "optionReasons": {
-        "thunder-mcq-13": "本句指「同時有雷、閃電，通常伴雨的雷暴／雷雨」。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。"
+        "thunder-mcq-13": "本句的「thunderstorm」指「同時有雷、閃電，通常伴雨的雷暴／雷雨」。",
+        "thunder-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-13"
     },
@@ -1183,11 +1083,9 @@ export default {
       "masked": "The flight was delayed by a ____.",
       "options": [
         "thunder-mcq-13",
-        "thunder-mcq-12",
-        "thunder-mcq-14",
-        "thunder-mcq-11",
-        "thunder-mcq-15",
-        "thunder-mcq-10"
+        "thunder-mcq-16",
+        "thunder-mcq-06",
+        "thunder-mcq-11"
       ],
       "explanation": "本句的「thunderstorm」指「同時有雷、閃電，通常伴雨的雷暴／雷雨」。",
       "sentenceIndex": 27,
@@ -1196,12 +1094,10 @@ export default {
         "thunderstorm"
       ],
       "optionReasons": {
-        "thunder-mcq-13": "本句指「同時有雷、閃電，通常伴雨的雷暴／雷雨」。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-10": "「像雷聲般巨大、震耳欲聾的」與本句語境不同。"
+        "thunder-mcq-13": "本句的「thunderstorm」指「同時有雷、閃電，通常伴雨的雷暴／雷雨」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-13"
     },
@@ -1213,9 +1109,7 @@ export default {
       "masked": "Zeus is often shown holding a ____.",
       "options": [
         "thunder-mcq-14",
-        "thunder-mcq-13",
-        "thunder-mcq-15",
-        "thunder-mcq-12",
+        "thunder-mcq-06",
         "thunder-mcq-16",
         "thunder-mcq-11"
       ],
@@ -1226,12 +1120,10 @@ export default {
         "thunderbolt"
       ],
       "optionReasons": {
-        "thunder-mcq-14": "本句指「雷電／霹靂；神話中的雷霆」。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。"
+        "thunder-mcq-14": "本句的「thunderbolt」指「雷電／霹靂；神話中的雷霆」。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-14"
     },
@@ -1243,11 +1135,9 @@ export default {
       "masked": "The tree looked as though it had been struck by a ____.",
       "options": [
         "thunder-mcq-14",
-        "thunder-mcq-13",
-        "thunder-mcq-15",
-        "thunder-mcq-12",
-        "thunder-mcq-16",
-        "thunder-mcq-11"
+        "thunder-mcq-09",
+        "thunder-mcq-06",
+        "thunder-mcq-18"
       ],
       "explanation": "本句的「thunderbolt」指「雷電／霹靂；神話中的雷霆」。",
       "sentenceIndex": 29,
@@ -1256,12 +1146,10 @@ export default {
         "thunderbolt"
       ],
       "optionReasons": {
-        "thunder-mcq-14": "本句指「雷電／霹靂；神話中的雷霆」。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-11": "「極其強烈、聲勢浩大的」與本句語境不同。"
+        "thunder-mcq-14": "本句的「thunderbolt」指「雷電／霹靂；神話中的雷霆」。",
+        "thunder-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-14"
     },
@@ -1273,11 +1161,9 @@ export default {
       "masked": "The news came ____.",
       "options": [
         "thunder-mcq-15",
-        "thunder-mcq-14",
         "thunder-mcq-16",
-        "thunder-mcq-13",
-        "thunder-mcq-17",
-        "thunder-mcq-12"
+        "thunder-mcq-08",
+        "thunder-mcq-17"
       ],
       "explanation": "本句的「like a thunderbolt」指「像晴天霹靂一樣突然帶來巨大衝擊」。",
       "sentenceIndex": 30,
@@ -1286,12 +1172,10 @@ export default {
         "like a thunderbolt"
       ],
       "optionReasons": {
-        "thunder-mcq-15": "本句指「像晴天霹靂一樣突然帶來巨大衝擊」。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。"
+        "thunder-mcq-15": "本句的「like a thunderbolt」指「像晴天霹靂一樣突然帶來巨大衝擊」。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-15"
     },
@@ -1303,11 +1187,9 @@ export default {
       "masked": "The announcement hit the family ____.",
       "options": [
         "thunder-mcq-15",
-        "thunder-mcq-14",
-        "thunder-mcq-16",
-        "thunder-mcq-13",
-        "thunder-mcq-17",
-        "thunder-mcq-12"
+        "thunder-mcq-08",
+        "thunder-mcq-18",
+        "thunder-mcq-13"
       ],
       "explanation": "本句的「like a thunderbolt」指「像晴天霹靂一樣突然帶來巨大衝擊」。",
       "sentenceIndex": 31,
@@ -1316,12 +1198,10 @@ export default {
         "like a thunderbolt"
       ],
       "optionReasons": {
-        "thunder-mcq-15": "本句指「像晴天霹靂一樣突然帶來巨大衝擊」。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-12": "「突然而響亮的一聲雷鳴／霹靂」與本句語境不同。"
+        "thunder-mcq-15": "本句的「like a thunderbolt」指「像晴天霹靂一樣突然帶來巨大衝擊」。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-15"
     },
@@ -1333,11 +1213,9 @@ export default {
       "masked": "I didn’t mean to ____ by announcing my news first.",
       "options": [
         "thunder-mcq-16",
-        "thunder-mcq-15",
-        "thunder-mcq-17",
-        "thunder-mcq-14",
-        "thunder-mcq-18",
-        "thunder-mcq-13"
+        "thunder-mcq-03",
+        "thunder-mcq-07",
+        "thunder-mcq-09"
       ],
       "explanation": "本句的「steal your thunder」指「搶先奪去某人的注意、功勞或風頭」。",
       "sentenceIndex": 32,
@@ -1346,12 +1224,10 @@ export default {
         "steal your thunder"
       ],
       "optionReasons": {
-        "thunder-mcq-16": "本句指「搶先奪去某人的注意、功勞或風頭」。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-18": "「充滿暴力、激烈動作和戲劇刺激的內容」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。"
+        "thunder-mcq-16": "本句的「steal your thunder」指「搶先奪去某人的注意、功勞或風頭」。",
+        "thunder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-16"
     },
@@ -1363,11 +1239,9 @@ export default {
       "masked": "A rival company ____ by launching a similar product first.",
       "options": [
         "thunder-mcq-16",
-        "thunder-mcq-15",
-        "thunder-mcq-17",
-        "thunder-mcq-14",
-        "thunder-mcq-18",
-        "thunder-mcq-13"
+        "thunder-mcq-08",
+        "thunder-mcq-10",
+        "thunder-mcq-11"
       ],
       "explanation": "本句的「stole their thunder」指「搶先奪去某人的注意、功勞或風頭」。",
       "sentenceIndex": 33,
@@ -1376,12 +1250,10 @@ export default {
         "stole their thunder"
       ],
       "optionReasons": {
-        "thunder-mcq-16": "本句指「搶先奪去某人的注意、功勞或風頭」。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。",
-        "thunder-mcq-18": "「充滿暴力、激烈動作和戲劇刺激的內容」與本句語境不同。",
-        "thunder-mcq-13": "「同時有雷、閃電，通常伴雨的雷暴／雷雨」與本句語境不同。"
+        "thunder-mcq-16": "本句的「stole their thunder」指「搶先奪去某人的注意、功勞或風頭」。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-16"
     },
@@ -1393,11 +1265,9 @@ export default {
       "masked": "There was ____ all night.",
       "options": [
         "thunder-mcq-17",
-        "thunder-mcq-16",
-        "thunder-mcq-18",
-        "thunder-mcq-15",
-        "thunder-mcq-19",
-        "thunder-mcq-14"
+        "thunder-mcq-08",
+        "thunder-mcq-06",
+        "thunder-mcq-09"
       ],
       "explanation": "本句的「thunder and lightning」指「雷鳴與閃電；雷電」。",
       "sentenceIndex": 34,
@@ -1406,12 +1276,10 @@ export default {
         "thunder and lightning"
       ],
       "optionReasons": {
-        "thunder-mcq-17": "本句指「雷鳴與閃電；雷電」。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-18": "「充滿暴力、激烈動作和戲劇刺激的內容」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-19": "「發出巨大轟鳴／沉重聲響的」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。"
+        "thunder-mcq-17": "本句的「thunder and lightning」指「雷鳴與閃電；雷電」。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-17"
     },
@@ -1423,11 +1291,9 @@ export default {
       "masked": "The children were frightened by the ____.",
       "options": [
         "thunder-mcq-17",
-        "thunder-mcq-16",
-        "thunder-mcq-18",
-        "thunder-mcq-15",
-        "thunder-mcq-19",
-        "thunder-mcq-14"
+        "thunder-mcq-07",
+        "thunder-mcq-08",
+        "thunder-mcq-09"
       ],
       "explanation": "本句的「thunder and lightning」指「雷鳴與閃電；雷電」。",
       "sentenceIndex": 35,
@@ -1436,12 +1302,10 @@ export default {
         "thunder and lightning"
       ],
       "optionReasons": {
-        "thunder-mcq-17": "本句指「雷鳴與閃電；雷電」。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-18": "「充滿暴力、激烈動作和戲劇刺激的內容」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-19": "「發出巨大轟鳴／沉重聲響的」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。"
+        "thunder-mcq-17": "本句的「thunder and lightning」指「雷鳴與閃電；雷電」。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-17"
     },
@@ -1453,11 +1317,9 @@ export default {
       "masked": "It is a classic ____.",
       "options": [
         "thunder-mcq-18",
-        "thunder-mcq-17",
-        "thunder-mcq-19",
-        "thunder-mcq-16",
+        "thunder-mcq-02",
         "thunder-mcq-15",
-        "thunder-mcq-14"
+        "thunder-mcq-07"
       ],
       "explanation": "本句的「blood-and-thunder adventure」指「充滿暴力、激烈動作和戲劇刺激的內容」。",
       "sentenceIndex": 36,
@@ -1466,12 +1328,10 @@ export default {
         "blood-and-thunder adventure"
       ],
       "optionReasons": {
-        "thunder-mcq-18": "本句指「充滿暴力、激烈動作和戲劇刺激的內容」。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-19": "「發出巨大轟鳴／沉重聲響的」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。"
+        "thunder-mcq-18": "本句的「blood-and-thunder adventure」指「充滿暴力、激烈動作和戲劇刺激的內容」。",
+        "thunder-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-18"
     },
@@ -1483,11 +1343,9 @@ export default {
       "masked": "The production has plenty of ____.",
       "options": [
         "thunder-mcq-18",
-        "thunder-mcq-17",
-        "thunder-mcq-19",
-        "thunder-mcq-16",
-        "thunder-mcq-15",
-        "thunder-mcq-14"
+        "thunder-mcq-07",
+        "thunder-mcq-06",
+        "thunder-mcq-01"
       ],
       "explanation": "本句的「blood and thunder」指「充滿暴力、激烈動作和戲劇刺激的內容」。",
       "sentenceIndex": 37,
@@ -1496,12 +1354,10 @@ export default {
         "blood and thunder"
       ],
       "optionReasons": {
-        "thunder-mcq-18": "本句指「充滿暴力、激烈動作和戲劇刺激的內容」。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-19": "「發出巨大轟鳴／沉重聲響的」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。"
+        "thunder-mcq-18": "本句的「blood and thunder」指「充滿暴力、激烈動作和戲劇刺激的內容」。",
+        "thunder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-18"
     },
@@ -1514,10 +1370,8 @@ export default {
       "options": [
         "thunder-mcq-19",
         "thunder-mcq-18",
-        "thunder-mcq-17",
-        "thunder-mcq-16",
-        "thunder-mcq-15",
-        "thunder-mcq-14"
+        "thunder-mcq-13",
+        "thunder-mcq-16"
       ],
       "explanation": "本句的「thundering footsteps」指「發出巨大轟鳴／沉重聲響的」。",
       "sentenceIndex": 38,
@@ -1526,12 +1380,10 @@ export default {
         "thundering footsteps"
       ],
       "optionReasons": {
-        "thunder-mcq-19": "本句指「發出巨大轟鳴／沉重聲響的」。",
-        "thunder-mcq-18": "「充滿暴力、激烈動作和戲劇刺激的內容」與本句語境不同。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。"
+        "thunder-mcq-19": "本句的「thundering footsteps」指「發出巨大轟鳴／沉重聲響的」。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-19"
     },
@@ -1544,10 +1396,8 @@ export default {
       "options": [
         "thunder-mcq-19",
         "thunder-mcq-18",
-        "thunder-mcq-17",
-        "thunder-mcq-16",
-        "thunder-mcq-15",
-        "thunder-mcq-14"
+        "thunder-mcq-14",
+        "thunder-mcq-16"
       ],
       "explanation": "本句的「thundering noise」指「發出巨大轟鳴／沉重聲響的」。",
       "sentenceIndex": 39,
@@ -1556,12 +1406,10 @@ export default {
         "thundering noise"
       ],
       "optionReasons": {
-        "thunder-mcq-19": "本句指「發出巨大轟鳴／沉重聲響的」。",
-        "thunder-mcq-18": "「充滿暴力、激烈動作和戲劇刺激的內容」與本句語境不同。",
-        "thunder-mcq-17": "「雷鳴與閃電；雷電」與本句語境不同。",
-        "thunder-mcq-16": "「搶先奪去某人的注意、功勞或風頭」與本句語境不同。",
-        "thunder-mcq-15": "「像晴天霹靂一樣突然帶來巨大衝擊」與本句語境不同。",
-        "thunder-mcq-14": "「雷電／霹靂；神話中的雷霆」與本句語境不同。"
+        "thunder-mcq-19": "本句的「thundering noise」指「發出巨大轟鳴／沉重聲響的」。",
+        "thunder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "thunder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thunder-mcq-19"
     }
@@ -1573,5 +1421,7 @@ export default {
     "sha256": "bac67df6c6d3bd5e703acfc0b8a4631a57a60a20f98c6a8c9c8de5442cb207bc",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

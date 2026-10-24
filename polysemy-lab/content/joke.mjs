@@ -400,7 +400,7 @@ export default {
     },
     {
       "id": "joke-mcq-18",
-      "title": "表示不相信或震驚；「你在開玩笑吧？」",
+      "title": "不相信或震驚；「你在開玩笑吧？」",
       "form": "you’re joking / you must be joking",
       "en": "you’re joking / you must be joking",
       "zh": "表示不相信或震驚；「你在開玩笑吧？」",
@@ -540,11 +540,9 @@ export default {
       "masked": "He told a funny ____.",
       "options": [
         "joke-mcq-01",
-        "joke-mcq-02",
-        "joke-mcq-03",
-        "joke-mcq-04",
-        "joke-mcq-05",
-        "joke-mcq-06"
+        "joke-mcq-16",
+        "joke-mcq-11",
+        "joke-mcq-08"
       ],
       "explanation": "本句的「joke」指「為了讓人發笑而說的話或故事；笑話」。",
       "sentenceIndex": 2,
@@ -553,12 +551,10 @@ export default {
         "joke"
       ],
       "optionReasons": {
-        "joke-mcq-01": "本句指「為了讓人發笑而說的話或故事；笑話」。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-01": "本句的「joke」指「為了讓人發笑而說的話或故事；笑話」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-01"
     },
@@ -570,11 +566,9 @@ export default {
       "masked": "I didn’t understand the ____.",
       "options": [
         "joke-mcq-01",
-        "joke-mcq-02",
-        "joke-mcq-03",
-        "joke-mcq-04",
-        "joke-mcq-05",
-        "joke-mcq-06"
+        "joke-mcq-08",
+        "joke-mcq-16",
+        "joke-mcq-11"
       ],
       "explanation": "本句的「joke」指「為了讓人發笑而說的話或故事；笑話」。",
       "sentenceIndex": 3,
@@ -583,12 +577,10 @@ export default {
         "joke"
       ],
       "optionReasons": {
-        "joke-mcq-01": "本句指「為了讓人發笑而說的話或故事；笑話」。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-01": "本句的「joke」指「為了讓人發笑而說的話或故事；笑話」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-01"
     },
@@ -600,11 +592,9 @@ export default {
       "masked": "She likes to ____ at dinner.",
       "options": [
         "joke-mcq-02",
-        "joke-mcq-01",
-        "joke-mcq-03",
-        "joke-mcq-04",
-        "joke-mcq-05",
-        "joke-mcq-06"
+        "joke-mcq-08",
+        "joke-mcq-16",
+        "joke-mcq-11"
       ],
       "explanation": "本句的「tell jokes」指「講笑話」。",
       "sentenceIndex": 4,
@@ -613,12 +603,10 @@ export default {
         "tell jokes"
       ],
       "optionReasons": {
-        "joke-mcq-02": "本句指「講笑話」。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-02": "本句的「tell jokes」指「講笑話」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-02"
     },
@@ -630,11 +618,9 @@ export default {
       "masked": "He ____ to relax everyone.",
       "options": [
         "joke-mcq-02",
-        "joke-mcq-01",
-        "joke-mcq-03",
-        "joke-mcq-04",
-        "joke-mcq-05",
-        "joke-mcq-06"
+        "joke-mcq-16",
+        "joke-mcq-08",
+        "joke-mcq-11"
       ],
       "explanation": "本句的「told a joke」指「講笑話」。",
       "sentenceIndex": 5,
@@ -643,12 +629,10 @@ export default {
         "told a joke"
       ],
       "optionReasons": {
-        "joke-mcq-02": "本句指「講笑話」。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-02": "本句的「told a joke」指「講笑話」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-02"
     },
@@ -660,11 +644,9 @@ export default {
       "masked": "We were ____ about the situation.",
       "options": [
         "joke-mcq-04",
-        "joke-mcq-03",
-        "joke-mcq-05",
-        "joke-mcq-02",
-        "joke-mcq-06",
-        "joke-mcq-01"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joking」指「拿某事來說笑／開玩笑」。",
       "sentenceIndex": 6,
@@ -673,12 +655,10 @@ export default {
         "joking"
       ],
       "optionReasons": {
-        "joke-mcq-04": "本句指「拿某事來說笑／開玩笑」。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。"
+        "joke-mcq-04": "本句的「joking」指「拿某事來說笑／開玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-04"
     },
@@ -690,11 +670,9 @@ export default {
       "masked": "He ____ that he needed a holiday.",
       "options": [
         "joke-mcq-04",
-        "joke-mcq-03",
-        "joke-mcq-05",
-        "joke-mcq-02",
-        "joke-mcq-06",
-        "joke-mcq-01"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「joked」指「拿某事來說笑／開玩笑」。",
       "sentenceIndex": 7,
@@ -703,12 +681,10 @@ export default {
         "joked"
       ],
       "optionReasons": {
-        "joke-mcq-04": "本句指「拿某事來說笑／開玩笑」。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。"
+        "joke-mcq-04": "本句的「joked」指「拿某事來說笑／開玩笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-04"
     },
@@ -720,11 +696,9 @@ export default {
       "masked": "They often ____ their old school days.",
       "options": [
         "joke-mcq-04",
-        "joke-mcq-03",
-        "joke-mcq-05",
-        "joke-mcq-02",
-        "joke-mcq-06",
-        "joke-mcq-01"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joke about」指「拿某事來說笑／開玩笑」。",
       "sentenceIndex": 8,
@@ -733,12 +707,10 @@ export default {
         "joke about"
       ],
       "optionReasons": {
-        "joke-mcq-04": "本句指「拿某事來說笑／開玩笑」。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。"
+        "joke-mcq-04": "本句的「joke about」指「拿某事來說笑／開玩笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-04"
     },
@@ -750,11 +722,9 @@ export default {
       "masked": "She ____ being late again.",
       "options": [
         "joke-mcq-04",
-        "joke-mcq-03",
-        "joke-mcq-05",
-        "joke-mcq-02",
-        "joke-mcq-06",
-        "joke-mcq-01"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joked about」指「拿某事來說笑／開玩笑」。",
       "sentenceIndex": 9,
@@ -763,12 +733,10 @@ export default {
         "joked about"
       ],
       "optionReasons": {
-        "joke-mcq-04": "本句指「拿某事來說笑／開玩笑」。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。"
+        "joke-mcq-04": "本句的「joked about」指「拿某事來說笑／開玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-04"
     },
@@ -780,11 +748,9 @@ export default {
       "masked": "He ____ he should retire immediately.",
       "options": [
         "joke-mcq-05",
-        "joke-mcq-04",
-        "joke-mcq-06",
-        "joke-mcq-03",
-        "joke-mcq-07",
-        "joke-mcq-02"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joked that」指「以開玩笑方式說某句話」。",
       "sentenceIndex": 10,
@@ -793,12 +759,10 @@ export default {
         "joked that"
       ],
       "optionReasons": {
-        "joke-mcq-05": "本句指「以開玩笑方式說某句話」。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。"
+        "joke-mcq-05": "本句的「joked that」指「以開玩笑方式說某句話」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-05"
     },
@@ -810,11 +774,9 @@ export default {
       "masked": "She ____ the bag weighed a ton.",
       "options": [
         "joke-mcq-05",
-        "joke-mcq-04",
-        "joke-mcq-06",
-        "joke-mcq-03",
-        "joke-mcq-07",
-        "joke-mcq-02"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joked that」指「以開玩笑方式說某句話」。",
       "sentenceIndex": 11,
@@ -823,12 +785,10 @@ export default {
         "joked that"
       ],
       "optionReasons": {
-        "joke-mcq-05": "本句指「以開玩笑方式說某句話」。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-02": "「講笑話」與本句語境不同。"
+        "joke-mcq-05": "本句的「joked that」指「以開玩笑方式說某句話」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-05"
     },
@@ -840,11 +800,9 @@ export default {
       "masked": "She often ____ her colleagues.",
       "options": [
         "joke-mcq-06",
-        "joke-mcq-05",
-        "joke-mcq-07",
-        "joke-mcq-04",
-        "joke-mcq-08",
-        "joke-mcq-03"
+        "joke-mcq-11",
+        "joke-mcq-16",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「jokes with」指「和某人開玩笑、說笑」。",
       "sentenceIndex": 12,
@@ -853,12 +811,10 @@ export default {
         "jokes with"
       ],
       "optionReasons": {
-        "joke-mcq-06": "本句指「和某人開玩笑、說笑」。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。"
+        "joke-mcq-06": "本句的「jokes with」指「和某人開玩笑、說笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-06"
     },
@@ -870,11 +826,9 @@ export default {
       "masked": "I was just ____.",
       "options": [
         "joke-mcq-06",
-        "joke-mcq-05",
-        "joke-mcq-07",
-        "joke-mcq-04",
-        "joke-mcq-08",
-        "joke-mcq-03"
+        "joke-mcq-11",
+        "joke-mcq-14",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joking with you」指「和某人開玩笑、說笑」。",
       "sentenceIndex": 13,
@@ -883,12 +837,10 @@ export default {
         "joking with you"
       ],
       "optionReasons": {
-        "joke-mcq-06": "本句指「和某人開玩笑、說笑」。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。"
+        "joke-mcq-06": "本句的「joking with you」指「和某人開玩笑、說笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-06"
     },
@@ -900,11 +852,9 @@ export default {
       "masked": "____, this is a serious problem.",
       "options": [
         "joke-mcq-07",
-        "joke-mcq-06",
         "joke-mcq-08",
-        "joke-mcq-05",
-        "joke-mcq-09",
-        "joke-mcq-04"
+        "joke-mcq-11",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「Joking aside」指「停止說笑、轉入正經話題；玩笑歸玩笑」。",
       "sentenceIndex": 14,
@@ -913,12 +863,10 @@ export default {
         "Joking aside"
       ],
       "optionReasons": {
-        "joke-mcq-07": "本句指「停止說笑、轉入正經話題；玩笑歸玩笑」。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。"
+        "joke-mcq-07": "本句的「Joking aside」指「停止說笑、轉入正經話題；玩笑歸玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-07"
     },
@@ -930,11 +878,9 @@ export default {
       "masked": "____, we need to make a decision today.",
       "options": [
         "joke-mcq-07",
-        "joke-mcq-06",
         "joke-mcq-08",
-        "joke-mcq-05",
-        "joke-mcq-09",
-        "joke-mcq-04"
+        "joke-mcq-11",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「Joking aside」指「停止說笑、轉入正經話題；玩笑歸玩笑」。",
       "sentenceIndex": 15,
@@ -943,12 +889,10 @@ export default {
         "Joking aside"
       ],
       "optionReasons": {
-        "joke-mcq-07": "本句指「停止說笑、轉入正經話題；玩笑歸玩笑」。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。"
+        "joke-mcq-07": "本句的「Joking aside」指「停止說笑、轉入正經話題；玩笑歸玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-07"
     },
@@ -960,11 +904,9 @@ export default {
       "masked": "They played a ____ on their friend.",
       "options": [
         "joke-mcq-08",
-        "joke-mcq-07",
-        "joke-mcq-09",
-        "joke-mcq-06",
-        "joke-mcq-10",
-        "joke-mcq-05"
+        "joke-mcq-05",
+        "joke-mcq-16",
+        "joke-mcq-11"
       ],
       "explanation": "本句的「practical joke」指「為取樂而對別人做的惡作劇」。",
       "sentenceIndex": 16,
@@ -973,12 +915,10 @@ export default {
         "practical joke"
       ],
       "optionReasons": {
-        "joke-mcq-08": "本句指「為取樂而對別人做的惡作劇」。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。"
+        "joke-mcq-08": "本句的「practical joke」指「為取樂而對別人做的惡作劇」。",
+        "joke-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-08"
     },
@@ -990,11 +930,9 @@ export default {
       "masked": "The ____ went too far.",
       "options": [
         "joke-mcq-08",
-        "joke-mcq-07",
-        "joke-mcq-09",
-        "joke-mcq-06",
+        "joke-mcq-20",
         "joke-mcq-10",
-        "joke-mcq-05"
+        "joke-mcq-14"
       ],
       "explanation": "本句的「practical joke」指「為取樂而對別人做的惡作劇」。",
       "sentenceIndex": 17,
@@ -1003,12 +941,10 @@ export default {
         "practical joke"
       ],
       "optionReasons": {
-        "joke-mcq-08": "本句指「為取樂而對別人做的惡作劇」。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。"
+        "joke-mcq-08": "本句的「practical joke」指「為取樂而對別人做的惡作劇」。",
+        "joke-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-08"
     },
@@ -1020,11 +956,9 @@ export default {
       "masked": "They made a ____.",
       "options": [
         "joke-mcq-09",
-        "joke-mcq-08",
-        "joke-mcq-10",
-        "joke-mcq-07",
         "joke-mcq-11",
-        "joke-mcq-06"
+        "joke-mcq-07",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「joke at his expense」指「拿某人當笑料，使對方難堪」。",
       "sentenceIndex": 18,
@@ -1033,12 +967,10 @@ export default {
         "joke at his expense"
       ],
       "optionReasons": {
-        "joke-mcq-09": "本句指「拿某人當笑料，使對方難堪」。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-09": "本句的「joke at his expense」指「拿某人當笑料，使對方難堪」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-09"
     },
@@ -1050,11 +982,9 @@ export default {
       "masked": "Humor is less funny when it comes at someone else’s ____.",
       "options": [
         "joke-mcq-09",
-        "joke-mcq-08",
-        "joke-mcq-10",
-        "joke-mcq-07",
         "joke-mcq-11",
-        "joke-mcq-06"
+        "joke-mcq-05",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「expense」指「拿某人當笑料，使對方難堪」。",
       "sentenceIndex": 19,
@@ -1063,12 +993,10 @@ export default {
         "expense"
       ],
       "optionReasons": {
-        "joke-mcq-09": "本句指「拿某人當笑料，使對方難堪」。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-09": "本句的「expense」指「拿某人當笑料，使對方難堪」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-09"
     },
@@ -1080,11 +1008,9 @@ export default {
       "masked": "The service was a complete ____.",
       "options": [
         "joke-mcq-10",
-        "joke-mcq-09",
-        "joke-mcq-11",
+        "joke-mcq-16",
         "joke-mcq-08",
-        "joke-mcq-12",
-        "joke-mcq-07"
+        "joke-mcq-18"
       ],
       "explanation": "本句的「joke」指「糟糕、荒唐到不值得認真看待的事物；笑話」。",
       "sentenceIndex": 20,
@@ -1093,12 +1019,10 @@ export default {
         "joke"
       ],
       "optionReasons": {
-        "joke-mcq-10": "本句指「糟糕、荒唐到不值得認真看待的事物；笑話」。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。"
+        "joke-mcq-10": "本句的「joke」指「糟糕、荒唐到不值得認真看待的事物；笑話」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-10"
     },
@@ -1110,11 +1034,9 @@ export default {
       "masked": "Their security system is a ____.",
       "options": [
         "joke-mcq-10",
-        "joke-mcq-09",
-        "joke-mcq-11",
+        "joke-mcq-16",
         "joke-mcq-08",
-        "joke-mcq-12",
-        "joke-mcq-07"
+        "joke-mcq-04"
       ],
       "explanation": "本句的「joke」指「糟糕、荒唐到不值得認真看待的事物；笑話」。",
       "sentenceIndex": 21,
@@ -1123,12 +1045,10 @@ export default {
         "joke"
       ],
       "optionReasons": {
-        "joke-mcq-10": "本句指「糟糕、荒唐到不值得認真看待的事物；笑話」。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-07": "「停止說笑、轉入正經話題；玩笑歸玩笑」與本句語境不同。"
+        "joke-mcq-10": "本句的「joke」指「糟糕、荒唐到不值得認真看待的事物；笑話」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-10"
     },
@@ -1140,10 +1060,8 @@ export default {
       "masked": "The whole process is ____.",
       "options": [
         "joke-mcq-11",
-        "joke-mcq-10",
-        "joke-mcq-12",
-        "joke-mcq-09",
-        "joke-mcq-13",
+        "joke-mcq-16",
+        "joke-mcq-02",
         "joke-mcq-08"
       ],
       "explanation": "本句的「a joke」指「荒唐、不像樣、不值得認真對待」。",
@@ -1153,12 +1071,10 @@ export default {
         "a joke"
       ],
       "optionReasons": {
-        "joke-mcq-11": "本句指「荒唐、不像樣、不值得認真對待」。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。"
+        "joke-mcq-11": "本句的「a joke」指「荒唐、不像樣、不值得認真對待」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-11"
     },
@@ -1170,11 +1086,9 @@ export default {
       "masked": "That so-called solution is ____.",
       "options": [
         "joke-mcq-11",
-        "joke-mcq-10",
-        "joke-mcq-12",
         "joke-mcq-09",
-        "joke-mcq-13",
-        "joke-mcq-08"
+        "joke-mcq-24",
+        "joke-mcq-01"
       ],
       "explanation": "本句的「a joke」指「荒唐、不像樣、不值得認真對待」。",
       "sentenceIndex": 23,
@@ -1183,12 +1097,10 @@ export default {
         "a joke"
       ],
       "optionReasons": {
-        "joke-mcq-11": "本句指「荒唐、不像樣、不值得認真對待」。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-08": "「為取樂而對別人做的惡作劇」與本句語境不同。"
+        "joke-mcq-11": "本句的「a joke」指「荒唐、不像樣、不值得認真對待」。",
+        "joke-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-11"
     },
@@ -1200,11 +1112,9 @@ export default {
       "masked": "Don’t ____ the situation.",
       "options": [
         "joke-mcq-12",
-        "joke-mcq-11",
-        "joke-mcq-13",
-        "joke-mcq-10",
-        "joke-mcq-14",
-        "joke-mcq-09"
+        "joke-mcq-16",
+        "joke-mcq-05",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「make a joke of」指「把某人／某事弄得可笑、不被認真看待」。",
       "sentenceIndex": 24,
@@ -1213,12 +1123,10 @@ export default {
         "make a joke of"
       ],
       "optionReasons": {
-        "joke-mcq-12": "本句指「把某人／某事弄得可笑、不被認真看待」。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。"
+        "joke-mcq-12": "本句的「make a joke of」指「把某人／某事弄得可笑、不被認真看待」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-12"
     },
@@ -1230,11 +1138,9 @@ export default {
       "masked": "The poor execution ____ the plan.",
       "options": [
         "joke-mcq-12",
-        "joke-mcq-11",
-        "joke-mcq-13",
-        "joke-mcq-10",
-        "joke-mcq-14",
-        "joke-mcq-09"
+        "joke-mcq-16",
+        "joke-mcq-19",
+        "joke-mcq-01"
       ],
       "explanation": "本句的「made a joke of」指「把某人／某事弄得可笑、不被認真看待」。",
       "sentenceIndex": 25,
@@ -1243,12 +1149,10 @@ export default {
         "made a joke of"
       ],
       "optionReasons": {
-        "joke-mcq-12": "本句指「把某人／某事弄得可笑、不被認真看待」。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-09": "「拿某人當笑料，使對方難堪」與本句語境不同。"
+        "joke-mcq-12": "本句的「made a joke of」指「把某人／某事弄得可笑、不被認真看待」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-12"
     },
@@ -1260,11 +1164,9 @@ export default {
       "masked": "It was an ____ between the two of them.",
       "options": [
         "joke-mcq-13",
-        "joke-mcq-12",
-        "joke-mcq-14",
         "joke-mcq-11",
-        "joke-mcq-15",
-        "joke-mcq-10"
+        "joke-mcq-16",
+        "joke-mcq-04"
       ],
       "explanation": "本句的「inside joke」指「只有特定群體因共享背景而懂的笑話」。",
       "sentenceIndex": 26,
@@ -1273,12 +1175,10 @@ export default {
         "inside joke"
       ],
       "optionReasons": {
-        "joke-mcq-13": "本句指「只有特定群體因共享背景而懂的笑話」。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。"
+        "joke-mcq-13": "本句的「inside joke」指「只有特定群體因共享背景而懂的笑話」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-13"
     },
@@ -1290,11 +1190,9 @@ export default {
       "masked": "I didn’t understand because it was a ____.",
       "options": [
         "joke-mcq-13",
-        "joke-mcq-12",
-        "joke-mcq-14",
         "joke-mcq-11",
-        "joke-mcq-15",
-        "joke-mcq-10"
+        "joke-mcq-16",
+        "joke-mcq-20"
       ],
       "explanation": "本句的「private joke」指「只有特定群體因共享背景而懂的笑話」。",
       "sentenceIndex": 27,
@@ -1303,12 +1201,10 @@ export default {
         "private joke"
       ],
       "optionReasons": {
-        "joke-mcq-13": "本句指「只有特定群體因共享背景而懂的笑話」。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-10": "「糟糕、荒唐到不值得認真看待的事物；笑話」與本句語境不同。"
+        "joke-mcq-13": "本句的「private joke」指「只有特定群體因共享背景而懂的笑話」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-13"
     },
@@ -1320,11 +1216,9 @@ export default {
       "masked": "His lateness became a ____ in the office.",
       "options": [
         "joke-mcq-14",
-        "joke-mcq-13",
-        "joke-mcq-15",
-        "joke-mcq-12",
         "joke-mcq-16",
-        "joke-mcq-11"
+        "joke-mcq-11",
+        "joke-mcq-08"
       ],
       "explanation": "本句的「running joke」指「長期反覆出現的笑梗」。",
       "sentenceIndex": 28,
@@ -1333,12 +1227,10 @@ export default {
         "running joke"
       ],
       "optionReasons": {
-        "joke-mcq-14": "本句指「長期反覆出現的笑梗」。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。"
+        "joke-mcq-14": "本句的「running joke」指「長期反覆出現的笑梗」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-14"
     },
@@ -1350,9 +1242,7 @@ export default {
       "masked": "The series has several ____.",
       "options": [
         "joke-mcq-14",
-        "joke-mcq-13",
-        "joke-mcq-15",
-        "joke-mcq-12",
+        "joke-mcq-08",
         "joke-mcq-16",
         "joke-mcq-11"
       ],
@@ -1363,12 +1253,10 @@ export default {
         "running jokes"
       ],
       "optionReasons": {
-        "joke-mcq-14": "本句指「長期反覆出現的笑梗」。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-11": "「荒唐、不像樣、不值得認真對待」與本句語境不同。"
+        "joke-mcq-14": "本句的「running jokes」指「長期反覆出現的笑梗」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-14"
     },
@@ -1380,11 +1268,9 @@ export default {
       "masked": "That’s an ____.",
       "options": [
         "joke-mcq-02",
-        "joke-mcq-01",
-        "joke-mcq-03",
-        "joke-mcq-04",
-        "joke-mcq-05",
-        "joke-mcq-06"
+        "joke-mcq-16",
+        "joke-mcq-11",
+        "joke-mcq-08"
       ],
       "explanation": "本句的「old joke」指「講笑話」。",
       "sentenceIndex": 30,
@@ -1393,12 +1279,10 @@ export default {
         "old joke"
       ],
       "optionReasons": {
-        "joke-mcq-02": "本句指「講笑話」。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-02": "本句的「old joke」指「講笑話」。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-02"
     },
@@ -1410,11 +1294,9 @@ export default {
       "masked": "He keeps repeating the same ____.",
       "options": [
         "joke-mcq-02",
-        "joke-mcq-01",
-        "joke-mcq-03",
-        "joke-mcq-04",
-        "joke-mcq-05",
-        "joke-mcq-06"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「old joke」指「講笑話」。",
       "sentenceIndex": 31,
@@ -1423,12 +1305,10 @@ export default {
         "old joke"
       ],
       "optionReasons": {
-        "joke-mcq-02": "本句指「講笑話」。",
-        "joke-mcq-01": "「為了讓人發笑而說的話或故事；笑話」與本句語境不同。",
-        "joke-mcq-03": "「用幽默、玩笑方式說話；開玩笑」與本句語境不同。",
-        "joke-mcq-04": "「拿某事來說笑／開玩笑」與本句語境不同。",
-        "joke-mcq-05": "「以開玩笑方式說某句話」與本句語境不同。",
-        "joke-mcq-06": "「和某人開玩笑、說笑」與本句語境不同。"
+        "joke-mcq-02": "本句的「old joke」指「講笑話」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-02"
     },
@@ -1440,11 +1320,9 @@ export default {
       "masked": "That was a really ____.",
       "options": [
         "joke-mcq-15",
-        "joke-mcq-14",
-        "joke-mcq-16",
-        "joke-mcq-13",
-        "joke-mcq-17",
-        "joke-mcq-12"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-01"
       ],
       "explanation": "本句的「bad joke」指「只是鬧著玩／當作玩笑」。",
       "sentenceIndex": 32,
@@ -1453,12 +1331,10 @@ export default {
         "bad joke"
       ],
       "optionReasons": {
-        "joke-mcq-15": "本句指「只是鬧著玩／當作玩笑」。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。"
+        "joke-mcq-15": "本句的「bad joke」指「只是鬧著玩／當作玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-15"
     },
@@ -1470,11 +1346,9 @@ export default {
       "masked": "The whole arrangement felt like a ____.",
       "options": [
         "joke-mcq-15",
-        "joke-mcq-14",
-        "joke-mcq-16",
-        "joke-mcq-13",
-        "joke-mcq-17",
-        "joke-mcq-12"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-01"
       ],
       "explanation": "本句的「bad joke」指「只是鬧著玩／當作玩笑」。",
       "sentenceIndex": 33,
@@ -1483,12 +1357,10 @@ export default {
         "bad joke"
       ],
       "optionReasons": {
-        "joke-mcq-15": "本句指「只是鬧著玩／當作玩笑」。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。"
+        "joke-mcq-15": "本句的「bad joke」指「只是鬧著玩／當作玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-15"
     },
@@ -1500,11 +1372,9 @@ export default {
       "masked": "I said it ____.",
       "options": [
         "joke-mcq-15",
-        "joke-mcq-14",
-        "joke-mcq-16",
-        "joke-mcq-13",
-        "joke-mcq-17",
-        "joke-mcq-12"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「as a joke」指「只是鬧著玩／當作玩笑」。",
       "sentenceIndex": 34,
@@ -1513,12 +1383,10 @@ export default {
         "as a joke"
       ],
       "optionReasons": {
-        "joke-mcq-15": "本句指「只是鬧著玩／當作玩笑」。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。"
+        "joke-mcq-15": "本句的「as a joke」指「只是鬧著玩／當作玩笑」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-15"
     },
@@ -1530,11 +1398,9 @@ export default {
       "masked": "He bought the hat ____.",
       "options": [
         "joke-mcq-15",
-        "joke-mcq-14",
-        "joke-mcq-16",
-        "joke-mcq-13",
-        "joke-mcq-17",
-        "joke-mcq-12"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-01"
       ],
       "explanation": "本句的「as a joke」指「只是鬧著玩／當作玩笑」。",
       "sentenceIndex": 35,
@@ -1543,12 +1409,10 @@ export default {
         "as a joke"
       ],
       "optionReasons": {
-        "joke-mcq-15": "本句指「只是鬧著玩／當作玩笑」。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-12": "「把某人／某事弄得可笑、不被認真看待」與本句語境不同。"
+        "joke-mcq-15": "本句的「as a joke」指「只是鬧著玩／當作玩笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-15"
     },
@@ -1560,11 +1424,9 @@ export default {
       "masked": "Running a marathon is ____.",
       "options": [
         "joke-mcq-16",
-        "joke-mcq-15",
-        "joke-mcq-17",
-        "joke-mcq-14",
-        "joke-mcq-18",
-        "joke-mcq-13"
+        "joke-mcq-10",
+        "joke-mcq-08",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「no joke」指「非常嚴肅、困難或厲害；不是鬧著玩的」。",
       "sentenceIndex": 36,
@@ -1573,12 +1435,10 @@ export default {
         "no joke"
       ],
       "optionReasons": {
-        "joke-mcq-16": "本句指「非常嚴肅、困難或厲害；不是鬧著玩的」。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。"
+        "joke-mcq-16": "本句的「no joke」指「非常嚴肅、困難或厲害；不是鬧著玩的」。",
+        "joke-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-16"
     },
@@ -1590,11 +1450,9 @@ export default {
       "masked": "That exam was ____.",
       "options": [
         "joke-mcq-16",
-        "joke-mcq-15",
-        "joke-mcq-17",
-        "joke-mcq-14",
-        "joke-mcq-18",
-        "joke-mcq-13"
+        "joke-mcq-02",
+        "joke-mcq-08",
+        "joke-mcq-11"
       ],
       "explanation": "本句的「no joke」指「非常嚴肅、困難或厲害；不是鬧著玩的」。",
       "sentenceIndex": 37,
@@ -1603,12 +1461,10 @@ export default {
         "no joke"
       ],
       "optionReasons": {
-        "joke-mcq-16": "本句指「非常嚴肅、困難或厲害；不是鬧著玩的」。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-13": "「只有特定群體因共享背景而懂的笑話」與本句語境不同。"
+        "joke-mcq-16": "本句的「no joke」指「非常嚴肅、困難或厲害；不是鬧著玩的」。",
+        "joke-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-16"
     },
@@ -1620,11 +1476,9 @@ export default {
       "masked": "Safety is ____.",
       "options": [
         "joke-mcq-17",
-        "joke-mcq-16",
-        "joke-mcq-18",
-        "joke-mcq-15",
-        "joke-mcq-19",
-        "joke-mcq-14"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-01"
       ],
       "explanation": "本句的「no joking matter」指「嚴肅到不適合拿來開玩笑的事情」。",
       "sentenceIndex": 38,
@@ -1633,12 +1487,10 @@ export default {
         "no joking matter"
       ],
       "optionReasons": {
-        "joke-mcq-17": "本句指「嚴肅到不適合拿來開玩笑的事情」。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。"
+        "joke-mcq-17": "本句的「no joking matter」指「嚴肅到不適合拿來開玩笑的事情」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-17"
     },
@@ -1650,10 +1502,8 @@ export default {
       "masked": "Losing that amount of money is ____.",
       "options": [
         "joke-mcq-17",
-        "joke-mcq-16",
-        "joke-mcq-18",
-        "joke-mcq-15",
-        "joke-mcq-19",
+        "joke-mcq-11",
+        "joke-mcq-08",
         "joke-mcq-14"
       ],
       "explanation": "本句的「no joking matter」指「嚴肅到不適合拿來開玩笑的事情」。",
@@ -1663,12 +1513,10 @@ export default {
         "no joking matter"
       ],
       "optionReasons": {
-        "joke-mcq-17": "本句指「嚴肅到不適合拿來開玩笑的事情」。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-14": "「長期反覆出現的笑梗」與本句語境不同。"
+        "joke-mcq-17": "本句的「no joking matter」指「嚴肅到不適合拿來開玩笑的事情」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-17"
     },
@@ -1680,11 +1528,9 @@ export default {
       "masked": "The tickets cost $500.” “You’re ____!",
       "options": [
         "joke-mcq-18",
-        "joke-mcq-17",
-        "joke-mcq-19",
-        "joke-mcq-16",
-        "joke-mcq-20",
-        "joke-mcq-15"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joking」指「表示不相信或震驚；「你在開玩笑吧？」」。",
       "sentenceIndex": 40,
@@ -1693,12 +1539,10 @@ export default {
         "joking"
       ],
       "optionReasons": {
-        "joke-mcq-18": "本句指「表示不相信或震驚；「你在開玩笑吧？」」。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。"
+        "joke-mcq-18": "本句的「joking」指「表示不相信或震驚；「你在開玩笑吧？」」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-18"
     },
@@ -1710,11 +1554,9 @@ export default {
       "masked": "You ____ if you think I can finish this tonight.",
       "options": [
         "joke-mcq-18",
-        "joke-mcq-17",
-        "joke-mcq-19",
-        "joke-mcq-16",
-        "joke-mcq-20",
-        "joke-mcq-15"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「must be joking」指「表示不相信或震驚；「你在開玩笑吧？」」。",
       "sentenceIndex": 41,
@@ -1723,12 +1565,10 @@ export default {
         "must be joking"
       ],
       "optionReasons": {
-        "joke-mcq-18": "本句指「表示不相信或震驚；「你在開玩笑吧？」」。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-15": "「只是鬧著玩／當作玩笑」與本句語境不同。"
+        "joke-mcq-18": "本句的「must be joking」指「表示不相信或震驚；「你在開玩笑吧？」」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-18"
     },
@@ -1740,11 +1580,9 @@ export default {
       "masked": "He can ____.",
       "options": [
         "joke-mcq-19",
-        "joke-mcq-18",
-        "joke-mcq-20",
-        "joke-mcq-17",
-        "joke-mcq-21",
-        "joke-mcq-16"
+        "joke-mcq-11",
+        "joke-mcq-16",
+        "joke-mcq-09"
       ],
       "explanation": "本句的「take a joke」指「被取笑時不生氣；開得起玩笑」。",
       "sentenceIndex": 42,
@@ -1753,12 +1591,10 @@ export default {
         "take a joke"
       ],
       "optionReasons": {
-        "joke-mcq-19": "本句指「被取笑時不生氣；開得起玩笑」。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-21": "「以玩笑方式；開玩笑地」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。"
+        "joke-mcq-19": "本句的「take a joke」指「被取笑時不生氣；開得起玩笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-19"
     },
@@ -1770,10 +1606,8 @@ export default {
       "masked": "If you tease others, you should be able to ____ yourself.",
       "options": [
         "joke-mcq-19",
-        "joke-mcq-18",
-        "joke-mcq-20",
-        "joke-mcq-17",
-        "joke-mcq-21",
+        "joke-mcq-11",
+        "joke-mcq-13",
         "joke-mcq-16"
       ],
       "explanation": "本句的「take a joke」指「被取笑時不生氣；開得起玩笑」。",
@@ -1783,12 +1617,10 @@ export default {
         "take a joke"
       ],
       "optionReasons": {
-        "joke-mcq-19": "本句指「被取笑時不生氣；開得起玩笑」。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。",
-        "joke-mcq-21": "「以玩笑方式；開玩笑地」與本句語境不同。",
-        "joke-mcq-16": "「非常嚴肅、困難或厲害；不是鬧著玩的」與本句語境不同。"
+        "joke-mcq-19": "本句的「take a joke」指「被取笑時不生氣；開得起玩笑」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-19"
     },
@@ -1800,11 +1632,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "joke-mcq-20",
-        "joke-mcq-19",
-        "joke-mcq-21",
-        "joke-mcq-18",
-        "joke-mcq-22",
-        "joke-mcq-17"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joking」指「開玩笑的；說笑的」。",
       "sentenceIndex": 44,
@@ -1813,12 +1643,10 @@ export default {
         "joking"
       ],
       "optionReasons": {
-        "joke-mcq-20": "本句指「開玩笑的；說笑的」。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-21": "「以玩笑方式；開玩笑地」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-22": "「經常開玩笑、逗人笑的人」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。"
+        "joke-mcq-20": "本句的「joking」指「開玩笑的；說笑的」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-20"
     },
@@ -1830,11 +1658,9 @@ export default {
       "masked": "She spoke in a ____.",
       "options": [
         "joke-mcq-20",
-        "joke-mcq-19",
-        "joke-mcq-21",
-        "joke-mcq-18",
-        "joke-mcq-22",
-        "joke-mcq-17"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「joking tone」指「開玩笑的；說笑的」。",
       "sentenceIndex": 45,
@@ -1843,12 +1669,10 @@ export default {
         "joking tone"
       ],
       "optionReasons": {
-        "joke-mcq-20": "本句指「開玩笑的；說笑的」。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-21": "「以玩笑方式；開玩笑地」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。",
-        "joke-mcq-22": "「經常開玩笑、逗人笑的人」與本句語境不同。",
-        "joke-mcq-17": "「嚴肅到不適合拿來開玩笑的事情」與本句語境不同。"
+        "joke-mcq-20": "本句的「joking tone」指「開玩笑的；說笑的」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-20"
     },
@@ -1860,11 +1684,8 @@ export default {
       "masked": "He ____ called himself an expert.",
       "options": [
         "joke-mcq-21",
-        "joke-mcq-20",
-        "joke-mcq-22",
-        "joke-mcq-19",
-        "joke-mcq-23",
-        "joke-mcq-18"
+        "joke-mcq-08",
+        "joke-mcq-11"
       ],
       "explanation": "本句的「jokingly」指「以玩笑方式；開玩笑地」。",
       "sentenceIndex": 46,
@@ -1873,12 +1694,9 @@ export default {
         "jokingly"
       ],
       "optionReasons": {
-        "joke-mcq-21": "本句指「以玩笑方式；開玩笑地」。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-22": "「經常開玩笑、逗人笑的人」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-23": "「撲克牌中的鬼牌」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。"
+        "joke-mcq-21": "本句的「jokingly」指「以玩笑方式；開玩笑地」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-21"
     },
@@ -1890,11 +1708,8 @@ export default {
       "masked": "She ____ threatened to keep the gift herself.",
       "options": [
         "joke-mcq-21",
-        "joke-mcq-20",
-        "joke-mcq-22",
-        "joke-mcq-19",
-        "joke-mcq-23",
-        "joke-mcq-18"
+        "joke-mcq-11",
+        "joke-mcq-08"
       ],
       "explanation": "本句的「jokingly」指「以玩笑方式；開玩笑地」。",
       "sentenceIndex": 47,
@@ -1903,12 +1718,9 @@ export default {
         "jokingly"
       ],
       "optionReasons": {
-        "joke-mcq-21": "本句指「以玩笑方式；開玩笑地」。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-22": "「經常開玩笑、逗人笑的人」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。",
-        "joke-mcq-23": "「撲克牌中的鬼牌」與本句語境不同。",
-        "joke-mcq-18": "「表示不相信或震驚；「你在開玩笑吧？」」與本句語境不同。"
+        "joke-mcq-21": "本句的「jokingly」指「以玩笑方式；開玩笑地」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-21"
     },
@@ -1920,11 +1732,9 @@ export default {
       "masked": "The conversation had a ____ tone.",
       "options": [
         "joke-mcq-24",
-        "joke-mcq-23",
-        "joke-mcq-22",
-        "joke-mcq-21",
-        "joke-mcq-20",
-        "joke-mcq-19"
+        "joke-mcq-08",
+        "joke-mcq-11",
+        "joke-mcq-16"
       ],
       "explanation": "本句的「jokey」指「帶玩笑意味、輕鬆搞笑的」。",
       "sentenceIndex": 48,
@@ -1933,12 +1743,10 @@ export default {
         "jokey"
       ],
       "optionReasons": {
-        "joke-mcq-24": "本句指「帶玩笑意味、輕鬆搞笑的」。",
-        "joke-mcq-23": "「撲克牌中的鬼牌」與本句語境不同。",
-        "joke-mcq-22": "「經常開玩笑、逗人笑的人」與本句語境不同。",
-        "joke-mcq-21": "「以玩笑方式；開玩笑地」與本句語境不同。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。"
+        "joke-mcq-24": "本句的「jokey」指「帶玩笑意味、輕鬆搞笑的」。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-24"
     },
@@ -1950,11 +1758,9 @@ export default {
       "masked": "His message was deliberately ____.",
       "options": [
         "joke-mcq-24",
-        "joke-mcq-23",
-        "joke-mcq-22",
-        "joke-mcq-21",
-        "joke-mcq-20",
-        "joke-mcq-19"
+        "joke-mcq-11",
+        "joke-mcq-08",
+        "joke-mcq-14"
       ],
       "explanation": "本句的「jokey」指「帶玩笑意味、輕鬆搞笑的」。",
       "sentenceIndex": 49,
@@ -1963,12 +1769,10 @@ export default {
         "jokey"
       ],
       "optionReasons": {
-        "joke-mcq-24": "本句指「帶玩笑意味、輕鬆搞笑的」。",
-        "joke-mcq-23": "「撲克牌中的鬼牌」與本句語境不同。",
-        "joke-mcq-22": "「經常開玩笑、逗人笑的人」與本句語境不同。",
-        "joke-mcq-21": "「以玩笑方式；開玩笑地」與本句語境不同。",
-        "joke-mcq-20": "「開玩笑的；說笑的」與本句語境不同。",
-        "joke-mcq-19": "「被取笑時不生氣；開得起玩笑」與本句語境不同。"
+        "joke-mcq-24": "本句的「jokey」指「帶玩笑意味、輕鬆搞笑的」。",
+        "joke-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "joke-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "joke-mcq-24"
     }
@@ -1980,5 +1784,7 @@ export default {
     "sha256": "ea3512f9d544a9c1035fddbe177fcfa33b08033b6d4790e369c5bb783e5c9d90",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

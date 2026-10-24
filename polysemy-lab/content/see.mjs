@@ -99,7 +99,7 @@ export default {
     },
     {
       "id": "see-mcq-05",
-      "title": "表示自己已明白剛才得到的資訊／解釋",
+      "title": "自己已明白剛才得到的資訊／解釋",
       "form": "I see",
       "en": "I see",
       "zh": "表示自己已明白剛才得到的資訊／解釋",
@@ -479,16 +479,6 @@ export default {
       "note": "來源詞義：根據已知事實引出結果；既然／鑑於",
       "examples": [
         [
-          "Seeing clearly is difficult in the fog.",
-          "在霧中要看清楚很困難。",
-          "根據已知事實引出結果；既然／鑑於"
-        ],
-        [
-          "Seeing is believing.",
-          "眼見為實。",
-          "根據已知事實引出結果；既然／鑑於"
-        ],
-        [
           "Seeing that it was late, we went home.",
           "既然／鑑於已經很晚，我們便回家了。",
           "根據已知事實引出結果；既然／鑑於"
@@ -526,7 +516,7 @@ export default {
     },
     {
       "id": "see-mcq-25",
-      "title": "表示預言者；先知",
+      "title": "預言者；先知",
       "form": "Unmapped practice see-24-0",
       "en": "Unmapped practice see-24-0",
       "zh": "表示預言者；先知",
@@ -543,7 +533,7 @@ export default {
     },
     {
       "id": "see-mcq-26",
-      "title": "表示預言者；先知",
+      "title": "預言者；先知",
       "form": "Unmapped practice see-24-1",
       "en": "Unmapped practice see-24-1",
       "zh": "表示預言者；先知",
@@ -553,6 +543,28 @@ export default {
           "People travelled far to consult the seer.",
           "人們從遠方來請教那位預言者／先知。",
           "表示預言者；先知"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "see-reviewed-6dcf3c9428",
+      "title": "看見；視覺活動",
+      "form": "see · source section 22",
+      "en": "看見；視覺活動",
+      "zh": "看見；視覺活動",
+      "note": "對照原始教材第 22 節及例句核實。",
+      "examples": [
+        [
+          "Seeing clearly is difficult in the fog.",
+          "在霧中要看清楚很困難。",
+          "看見；視覺活動"
+        ],
+        [
+          "Seeing is believing.",
+          "眼見為實。",
+          "看見；視覺活動"
         ]
       ],
       "options": [],
@@ -585,11 +597,9 @@ export default {
       "masked": "我大約一年前____那則廣告。",
       "options": [
         "see-mcq-01",
-        "see-mcq-02",
-        "see-mcq-03",
-        "see-mcq-04",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-16",
+        "see-mcq-25",
+        "see-mcq-14"
       ],
       "explanation": "本句的「saw」指「透過視覺察覺某人／某物存在」。",
       "sentenceIndex": 0,
@@ -598,12 +608,10 @@ export default {
         "saw"
       ],
       "optionReasons": {
-        "see-mcq-01": "本句指「透過視覺察覺某人／某物存在」。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-01": "本句的「saw」指「透過視覺察覺某人／某物存在」。",
+        "see-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-01"
     },
@@ -615,11 +623,9 @@ export default {
       "masked": "我從這裡可以____車站。",
       "options": [
         "see-mcq-01",
-        "see-mcq-02",
-        "see-mcq-03",
-        "see-mcq-04",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-19",
+        "see-mcq-20",
+        "see-mcq-26"
       ],
       "explanation": "本句的「see」指「透過視覺察覺某人／某物存在」。",
       "sentenceIndex": 1,
@@ -628,12 +634,10 @@ export default {
         "see"
       ],
       "optionReasons": {
-        "see-mcq-01": "本句指「透過視覺察覺某人／某物存在」。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-01": "本句的「see」指「透過視覺察覺某人／某物存在」。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-01"
     },
@@ -645,11 +649,9 @@ export default {
       "masked": "你有____那個牌子嗎？",
       "options": [
         "see-mcq-01",
-        "see-mcq-02",
-        "see-mcq-03",
-        "see-mcq-04",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-26",
+        "see-mcq-20",
+        "see-mcq-19"
       ],
       "explanation": "本句的「see」指「透過視覺察覺某人／某物存在」。",
       "sentenceIndex": 2,
@@ -658,12 +660,10 @@ export default {
         "see"
       ],
       "optionReasons": {
-        "see-mcq-01": "本句指「透過視覺察覺某人／某物存在」。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-01": "本句的「see」指「透過視覺察覺某人／某物存在」。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-01"
     },
@@ -675,11 +675,9 @@ export default {
       "masked": "我們昨晚____一部電影。",
       "options": [
         "see-mcq-02",
-        "see-mcq-01",
-        "see-mcq-03",
-        "see-mcq-04",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-08",
+        "see-mcq-16",
+        "see-mcq-26"
       ],
       "explanation": "本句的「saw」指「觀看／看過某部影片、表演或節目」。",
       "sentenceIndex": 3,
@@ -688,12 +686,10 @@ export default {
         "saw"
       ],
       "optionReasons": {
-        "see-mcq-02": "本句指「觀看／看過某部影片、表演或節目」。",
-        "see-mcq-01": "「透過視覺察覺某人／某物存在」是「see — visual」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-02": "本句的「saw」指「觀看／看過某部影片、表演或節目」。",
+        "see-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-02"
     },
@@ -705,11 +701,9 @@ export default {
       "masked": "你____那部新紀錄片嗎？",
       "options": [
         "see-mcq-02",
-        "see-mcq-01",
-        "see-mcq-03",
-        "see-mcq-04",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-10",
+        "see-mcq-26",
+        "see-mcq-20"
       ],
       "explanation": "本句的「seen」指「觀看／看過某部影片、表演或節目」。",
       "sentenceIndex": 4,
@@ -718,12 +712,10 @@ export default {
         "seen"
       ],
       "optionReasons": {
-        "see-mcq-02": "本句指「觀看／看過某部影片、表演或節目」。",
-        "see-mcq-01": "「透過視覺察覺某人／某物存在」是「see — visual」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-02": "本句的「seen」指「觀看／看過某部影片、表演或節目」。",
+        "see-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-02"
     },
@@ -735,11 +727,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-03",
-        "see-mcq-02",
-        "see-mcq-04",
-        "see-mcq-01",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-26",
+        "see-mcq-20",
+        "see-mcq-09"
       ],
       "explanation": "本句的「saw」指「透過視覺察覺到某項值得注意的資訊或變化」。",
       "sentenceIndex": 5,
@@ -748,12 +738,10 @@ export default {
         "saw"
       ],
       "optionReasons": {
-        "see-mcq-03": "本句指「透過視覺察覺到某項值得注意的資訊或變化」。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-01": "「透過視覺察覺某人／某物存在」是「see — visual」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-03": "本句的「saw」指「透過視覺察覺到某項值得注意的資訊或變化」。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-03"
     },
@@ -765,11 +753,9 @@ export default {
       "masked": "她突然____廚房冒出煙來。",
       "options": [
         "see-mcq-03",
-        "see-mcq-02",
-        "see-mcq-04",
-        "see-mcq-01",
-        "see-mcq-05",
-        "see-mcq-06"
+        "see-mcq-08",
+        "see-mcq-22",
+        "see-mcq-26"
       ],
       "explanation": "本句的「saw」指「透過視覺察覺到某項值得注意的資訊或變化」。",
       "sentenceIndex": 6,
@@ -778,12 +764,10 @@ export default {
         "saw"
       ],
       "optionReasons": {
-        "see-mcq-03": "本句指「透過視覺察覺到某項值得注意的資訊或變化」。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-01": "「透過視覺察覺某人／某物存在」是「see — visual」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-03": "本句的「saw」指「透過視覺察覺到某項值得注意的資訊或變化」。",
+        "see-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-03"
     },
@@ -795,11 +779,9 @@ export default {
       "masked": "我____你的意思。",
       "options": [
         "see-mcq-04",
-        "see-mcq-03",
-        "see-mcq-05",
-        "see-mcq-02",
-        "see-mcq-06",
-        "see-mcq-01"
+        "see-mcq-14",
+        "see-mcq-10",
+        "see-mcq-25"
       ],
       "explanation": "本句的「see」指「在思想上理解某個意思、關係、問題或觀點」。",
       "sentenceIndex": 7,
@@ -808,12 +790,10 @@ export default {
         "see"
       ],
       "optionReasons": {
-        "see-mcq-04": "本句指「在思想上理解某個意思、關係、問題或觀點」。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-01": "「透過視覺察覺某人／某物存在」是「see — visual」的用法，與本句語境不同。"
+        "see-mcq-04": "本句的「see」指「在思想上理解某個意思、關係、問題或觀點」。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-04"
     },
@@ -825,11 +805,9 @@ export default {
       "masked": "你____問題所在嗎？",
       "options": [
         "see-mcq-04",
-        "see-mcq-03",
-        "see-mcq-05",
-        "see-mcq-02",
-        "see-mcq-06",
-        "see-mcq-01"
+        "see-mcq-18",
+        "see-reviewed-6dcf3c9428",
+        "see-mcq-26"
       ],
       "explanation": "本句的「see」指「在思想上理解某個意思、關係、問題或觀點」。",
       "sentenceIndex": 8,
@@ -838,12 +816,10 @@ export default {
         "see"
       ],
       "optionReasons": {
-        "see-mcq-04": "本句指「在思想上理解某個意思、關係、問題或觀點」。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-01": "「透過視覺察覺某人／某物存在」是「see — visual」的用法，與本句語境不同。"
+        "see-mcq-04": "本句的「see」指「在思想上理解某個意思、關係、問題或觀點」。",
+        "see-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "see-reviewed-6dcf3c9428": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-04"
     },
@@ -855,11 +831,9 @@ export default {
       "masked": "電池只能用十小時。哦，____。",
       "options": [
         "see-mcq-05",
-        "see-mcq-04",
-        "see-mcq-06",
-        "see-mcq-03",
-        "see-mcq-07",
-        "see-mcq-02"
+        "see-mcq-09",
+        "see-mcq-14",
+        "see-mcq-25"
       ],
       "explanation": "本句的「I see」指「表示自己已明白剛才得到的資訊／解釋」。",
       "sentenceIndex": 9,
@@ -868,12 +842,10 @@ export default {
         "I see"
       ],
       "optionReasons": {
-        "see-mcq-05": "本句指「表示自己已明白剛才得到的資訊／解釋」。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。"
+        "see-mcq-05": "本句的「I see」指「表示自己已明白剛才得到的資訊／解釋」。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-05"
     },
@@ -885,11 +857,9 @@ export default {
       "masked": "你需要先按這個按鈕。____。",
       "options": [
         "see-mcq-05",
-        "see-mcq-04",
-        "see-mcq-06",
-        "see-mcq-03",
-        "see-mcq-07",
-        "see-mcq-02"
+        "see-mcq-21",
+        "see-mcq-02",
+        "see-mcq-25"
       ],
       "explanation": "本句的「I see.」指「表示自己已明白剛才得到的資訊／解釋」。",
       "sentenceIndex": 10,
@@ -898,12 +868,10 @@ export default {
         "I see."
       ],
       "optionReasons": {
-        "see-mcq-05": "本句指「表示自己已明白剛才得到的資訊／解釋」。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-02": "「觀看／看過某部影片、表演或節目」是「see — film/show」的用法，與本句語境不同。"
+        "see-mcq-05": "本句的「I see.」指「表示自己已明白剛才得到的資訊／解釋」。",
+        "see-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-05"
     },
@@ -915,11 +883,9 @@ export default {
       "masked": "我能____這則廣告有效。",
       "options": [
         "see-mcq-06",
-        "see-mcq-05",
-        "see-mcq-07",
-        "see-mcq-04",
-        "see-mcq-08",
-        "see-mcq-03"
+        "see-mcq-12",
+        "see-mcq-16",
+        "see-mcq-22"
       ],
       "explanation": "本句的「see why」指「理解某件事情的原因、方式或機制」。",
       "sentenceIndex": 11,
@@ -928,12 +894,10 @@ export default {
         "see why"
       ],
       "optionReasons": {
-        "see-mcq-06": "本句指「理解某件事情的原因、方式或機制」。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。"
+        "see-mcq-06": "本句的「see why」指「理解某件事情的原因、方式或機制」。",
+        "see-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-06"
     },
@@ -945,11 +909,9 @@ export default {
       "masked": "現在我____這個系統怎樣運作了。",
       "options": [
         "see-mcq-06",
-        "see-mcq-05",
-        "see-mcq-07",
-        "see-mcq-04",
-        "see-mcq-08",
-        "see-mcq-03"
+        "see-mcq-18",
+        "see-mcq-19",
+        "see-mcq-25"
       ],
       "explanation": "本句的「see how」指「理解某件事情的原因、方式或機制」。",
       "sentenceIndex": 12,
@@ -958,12 +920,10 @@ export default {
         "see how"
       ],
       "optionReasons": {
-        "see-mcq-06": "本句指「理解某件事情的原因、方式或機制」。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-03": "「透過視覺察覺到某項值得注意的資訊或變化」是「see — notice」的用法，與本句語境不同。"
+        "see-mcq-06": "本句的「see how」指「理解某件事情的原因、方式或機制」。",
+        "see-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-06"
     },
@@ -975,11 +935,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-07",
-        "see-mcq-06",
-        "see-mcq-08",
-        "see-mcq-05",
-        "see-mcq-09",
-        "see-mcq-04"
+        "see-mcq-15",
+        "see-mcq-13",
+        "see-mcq-18"
       ],
       "explanation": "本句的「seeing」指「與某人見面、碰面或相處」。",
       "sentenceIndex": 13,
@@ -988,12 +946,10 @@ export default {
         "seeing"
       ],
       "optionReasons": {
-        "see-mcq-07": "本句指「與某人見面、碰面或相處」。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。"
+        "see-mcq-07": "本句的「seeing」指「與某人見面、碰面或相處」。",
+        "see-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-07"
     },
@@ -1005,11 +961,9 @@ export default {
       "masked": "我已經幾個月沒有____他。",
       "options": [
         "see-mcq-07",
-        "see-mcq-06",
-        "see-mcq-08",
-        "see-mcq-05",
-        "see-mcq-09",
-        "see-mcq-04"
+        "see-mcq-03",
+        "see-mcq-19",
+        "see-mcq-25"
       ],
       "explanation": "本句的「seen」指「與某人見面、碰面或相處」。",
       "sentenceIndex": 14,
@@ -1018,12 +972,10 @@ export default {
         "seen"
       ],
       "optionReasons": {
-        "see-mcq-07": "本句指「與某人見面、碰面或相處」。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。",
-        "see-mcq-04": "「在思想上理解某個意思、關係、問題或觀點」是「see — understand」的用法，與本句語境不同。"
+        "see-mcq-07": "本句的「seen」指「與某人見面、碰面或相處」。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-07"
     },
@@ -1035,11 +987,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-08",
-        "see-mcq-07",
-        "see-mcq-09",
         "see-mcq-06",
-        "see-mcq-10",
-        "see-mcq-05"
+        "see-mcq-18",
+        "see-mcq-20"
       ],
       "explanation": "本句的「see a doctor」指「親自會見專業人士，以取得診斷、建議或協助」。",
       "sentenceIndex": 15,
@@ -1048,12 +998,10 @@ export default {
         "see a doctor"
       ],
       "optionReasons": {
-        "see-mcq-08": "本句指「親自會見專業人士，以取得診斷、建議或協助」。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。"
+        "see-mcq-08": "本句的「see a doctor」指「親自會見專業人士，以取得診斷、建議或協助」。",
+        "see-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-08"
     },
@@ -1065,11 +1013,9 @@ export default {
       "masked": "她決定找律師____。",
       "options": [
         "see-mcq-08",
-        "see-mcq-07",
-        "see-mcq-09",
-        "see-mcq-06",
-        "see-mcq-10",
-        "see-mcq-05"
+        "see-mcq-02",
+        "see-mcq-17",
+        "see-mcq-20"
       ],
       "explanation": "本句的「see a lawyer」指「親自會見專業人士，以取得診斷、建議或協助」。",
       "sentenceIndex": 16,
@@ -1078,12 +1024,10 @@ export default {
         "see a lawyer"
       ],
       "optionReasons": {
-        "see-mcq-08": "本句指「親自會見專業人士，以取得診斷、建議或協助」。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-05": "「表示自己已明白剛才得到的資訊／解釋」是「I see」的用法，與本句語境不同。"
+        "see-mcq-08": "本句的「see a lawyer」指「親自會見專業人士，以取得診斷、建議或協助」。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-08"
     },
@@ -1095,11 +1039,9 @@ export default {
       "masked": "____？",
       "options": [
         "see-mcq-09",
-        "see-mcq-08",
-        "see-mcq-10",
-        "see-mcq-07",
-        "see-mcq-11",
-        "see-mcq-06"
+        "see-mcq-19",
+        "see-mcq-22",
+        "see-reviewed-6dcf3c9428"
       ],
       "explanation": "本句的「seeing」指「與某人處於約會／戀愛交往關係」。",
       "sentenceIndex": 17,
@@ -1108,12 +1050,10 @@ export default {
         "seeing"
       ],
       "optionReasons": {
-        "see-mcq-09": "本句指「與某人處於約會／戀愛交往關係」。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-09": "本句的「seeing」指「與某人處於約會／戀愛交往關係」。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "see-reviewed-6dcf3c9428": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-09"
     },
@@ -1125,11 +1065,9 @@ export default {
       "masked": "她已經____交往了幾個月。",
       "options": [
         "see-mcq-09",
-        "see-mcq-08",
-        "see-mcq-10",
-        "see-mcq-07",
-        "see-mcq-11",
-        "see-mcq-06"
+        "see-mcq-20",
+        "see-reviewed-6dcf3c9428",
+        "see-mcq-26"
       ],
       "explanation": "本句的「seeing」指「與某人處於約會／戀愛交往關係」。",
       "sentenceIndex": 18,
@@ -1138,12 +1076,10 @@ export default {
         "seeing"
       ],
       "optionReasons": {
-        "see-mcq-09": "本句指「與某人處於約會／戀愛交往關係」。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-06": "「理解某件事情的原因、方式或機制」是「see why/how」的用法，與本句語境不同。"
+        "see-mcq-09": "本句的「seeing」指「與某人處於約會／戀愛交往關係」。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-reviewed-6dcf3c9428": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-09"
     },
@@ -1155,11 +1091,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-10",
-        "see-mcq-09",
-        "see-mcq-11",
-        "see-mcq-08",
-        "see-mcq-12",
-        "see-mcq-07"
+        "see-mcq-05",
+        "see-mcq-02",
+        "see-mcq-25"
       ],
       "explanation": "本句的「seen」指「某人、地方、行業或時期經歷／出現某種事件或變化」。",
       "sentenceIndex": 19,
@@ -1168,12 +1102,10 @@ export default {
         "seen"
       ],
       "optionReasons": {
-        "see-mcq-10": "本句指「某人、地方、行業或時期經歷／出現某種事件或變化」。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。"
+        "see-mcq-10": "本句的「seen」指「某人、地方、行業或時期經歷／出現某種事件或變化」。",
+        "see-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-10"
     },
@@ -1185,11 +1117,9 @@ export default {
       "masked": "這個行業____了快速增長。",
       "options": [
         "see-mcq-10",
-        "see-mcq-09",
-        "see-mcq-11",
-        "see-mcq-08",
-        "see-mcq-12",
-        "see-mcq-07"
+        "see-mcq-25",
+        "see-mcq-15",
+        "see-mcq-13"
       ],
       "explanation": "本句的「seen」指「某人、地方、行業或時期經歷／出現某種事件或變化」。",
       "sentenceIndex": 20,
@@ -1198,12 +1128,10 @@ export default {
         "seen"
       ],
       "optionReasons": {
-        "see-mcq-10": "本句指「某人、地方、行業或時期經歷／出現某種事件或變化」。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-08": "「親自會見專業人士，以取得診斷、建議或協助」是「see a professional」的用法，與本句語境不同。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。",
-        "see-mcq-07": "「與某人見面、碰面或相處」是「see someone — meet」的用法，與本句語境不同。"
+        "see-mcq-10": "本句的「seen」指「某人、地方、行業或時期經歷／出現某種事件或變化」。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-10"
     },
@@ -1215,11 +1143,9 @@ export default {
       "masked": "我____他正在離開辦公室。",
       "options": [
         "see-mcq-12",
-        "see-mcq-11",
-        "see-mcq-13",
-        "see-mcq-10",
         "see-mcq-14",
-        "see-mcq-09"
+        "see-mcq-20",
+        "see-mcq-19"
       ],
       "explanation": "本句的「saw him leaving」指「看見某個動作正在進行」。",
       "sentenceIndex": 21,
@@ -1228,12 +1154,10 @@ export default {
         "saw him leaving"
       ],
       "optionReasons": {
-        "see-mcq-12": "本句指「看見某個動作正在進行」。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。"
+        "see-mcq-12": "本句的「saw him leaving」指「看見某個動作正在進行」。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-12"
     },
@@ -1245,11 +1169,9 @@ export default {
       "masked": "我們____有人正在外面等候。",
       "options": [
         "see-mcq-12",
-        "see-mcq-11",
-        "see-mcq-13",
-        "see-mcq-10",
-        "see-mcq-14",
-        "see-mcq-09"
+        "see-mcq-09",
+        "see-mcq-17",
+        "see-mcq-16"
       ],
       "explanation": "本句的「saw people waiting」指「看見某個動作正在進行」。",
       "sentenceIndex": 22,
@@ -1258,12 +1180,10 @@ export default {
         "saw people waiting"
       ],
       "optionReasons": {
-        "see-mcq-12": "本句指「看見某個動作正在進行」。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。"
+        "see-mcq-12": "本句的「saw people waiting」指「看見某個動作正在進行」。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-12"
     },
@@ -1275,11 +1195,9 @@ export default {
       "masked": "我____他離開了辦公室。",
       "options": [
         "see-mcq-12",
-        "see-mcq-11",
-        "see-mcq-13",
-        "see-mcq-10",
+        "see-mcq-09",
         "see-mcq-14",
-        "see-mcq-09"
+        "see-mcq-26"
       ],
       "explanation": "本句的「saw him leave」指「看見某個動作正在進行」。",
       "sentenceIndex": 23,
@@ -1288,12 +1206,10 @@ export default {
         "saw him leave"
       ],
       "optionReasons": {
-        "see-mcq-12": "本句指「看見某個動作正在進行」。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。"
+        "see-mcq-12": "本句的「saw him leave」指「看見某個動作正在進行」。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-12"
     },
@@ -1305,11 +1221,9 @@ export default {
       "masked": "我們____火車抵達。",
       "options": [
         "see-mcq-12",
-        "see-mcq-11",
-        "see-mcq-13",
-        "see-mcq-10",
-        "see-mcq-14",
-        "see-mcq-09"
+        "see-mcq-20",
+        "see-mcq-04",
+        "see-mcq-21"
       ],
       "explanation": "本句的「saw the train arrive」指「看見某個動作正在進行」。",
       "sentenceIndex": 24,
@@ -1318,12 +1232,10 @@ export default {
         "saw the train arrive"
       ],
       "optionReasons": {
-        "see-mcq-12": "本句指「看見某個動作正在進行」。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-09": "「與某人處於約會／戀愛交往關係」是「see someone — dating」的用法，與本句語境不同。"
+        "see-mcq-12": "本句的「saw the train arrive」指「看見某個動作正在進行」。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-12"
     },
@@ -1335,11 +1247,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-13",
-        "see-mcq-12",
-        "see-mcq-14",
-        "see-mcq-11",
-        "see-mcq-15",
-        "see-mcq-10"
+        "see-mcq-08",
+        "see-mcq-03",
+        "see-mcq-26"
       ],
       "explanation": "本句的「see if」指「主動查明、確認某件事情是否成立」。",
       "sentenceIndex": 25,
@@ -1348,12 +1258,10 @@ export default {
         "see if"
       ],
       "optionReasons": {
-        "see-mcq-13": "本句指「主動查明、確認某件事情是否成立」。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。"
+        "see-mcq-13": "本句的「see if」指「主動查明、確認某件事情是否成立」。",
+        "see-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-13"
     },
@@ -1365,11 +1273,9 @@ export default {
       "masked": "我們____新方法是否有效。",
       "options": [
         "see-mcq-13",
-        "see-mcq-12",
-        "see-mcq-14",
-        "see-mcq-11",
-        "see-mcq-15",
-        "see-mcq-10"
+        "see-mcq-07",
+        "see-mcq-04",
+        "see-mcq-22"
       ],
       "explanation": "本句的「see whether」指「主動查明、確認某件事情是否成立」。",
       "sentenceIndex": 26,
@@ -1378,12 +1284,10 @@ export default {
         "see whether"
       ],
       "optionReasons": {
-        "see-mcq-13": "本句指「主動查明、確認某件事情是否成立」。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-10": "「某人、地方、行業或時期經歷／出現某種事件或變化」是「see — experience」的用法，與本句語境不同。"
+        "see-mcq-13": "本句的「see whether」指「主動查明、確認某件事情是否成立」。",
+        "see-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-13"
     },
@@ -1395,11 +1299,9 @@ export default {
       "masked": "請____門已鎖好。",
       "options": [
         "see-mcq-14",
-        "see-mcq-13",
-        "see-mcq-15",
-        "see-mcq-12",
-        "see-mcq-16",
-        "see-mcq-11"
+        "see-mcq-01",
+        "see-mcq-26",
+        "see-mcq-20"
       ],
       "explanation": "本句的「see that」指「負責確保某件事情確實發生／完成」。",
       "sentenceIndex": 27,
@@ -1408,12 +1310,10 @@ export default {
         "see that"
       ],
       "optionReasons": {
-        "see-mcq-14": "本句指「負責確保某件事情確實發生／完成」。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。"
+        "see-mcq-14": "本句的「see that」指「負責確保某件事情確實發生／完成」。",
+        "see-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-14"
     },
@@ -1425,11 +1325,9 @@ export default {
       "masked": "經理____每位顧客都收到回覆。",
       "options": [
         "see-mcq-14",
-        "see-mcq-13",
-        "see-mcq-15",
-        "see-mcq-12",
-        "see-mcq-16",
-        "see-mcq-11"
+        "see-mcq-04",
+        "see-mcq-20",
+        "see-mcq-26"
       ],
       "explanation": "本句的「saw that」指「負責確保某件事情確實發生／完成」。",
       "sentenceIndex": 28,
@@ -1438,12 +1336,10 @@ export default {
         "saw that"
       ],
       "optionReasons": {
-        "see-mcq-14": "本句指「負責確保某件事情確實發生／完成」。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-11": "「看見某個完整動作發生」是「see someone do」的用法，與本句語境不同。"
+        "see-mcq-14": "本句的「saw that」指「負責確保某件事情確實發生／完成」。",
+        "see-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-14"
     },
@@ -1455,11 +1351,9 @@ export default {
       "masked": "顧客把這個品牌____可靠的品牌。",
       "options": [
         "see-mcq-15",
-        "see-mcq-14",
-        "see-mcq-16",
-        "see-mcq-13",
-        "see-mcq-17",
-        "see-mcq-12"
+        "see-mcq-10",
+        "see-mcq-26",
+        "see-mcq-22"
       ],
       "explanation": "本句的「see」指「以某種觀點理解、評價或看待 A，認為它屬於 B」。",
       "sentenceIndex": 29,
@@ -1469,12 +1363,10 @@ export default {
         "as"
       ],
       "optionReasons": {
-        "see-mcq-15": "本句指「以某種觀點理解、評價或看待 A，認為它屬於 B」。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。"
+        "see-mcq-15": "本句的「see」指「以某種觀點理解、評價或看待 A，認為它屬於 B」。",
+        "see-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-15"
     },
@@ -1486,11 +1378,9 @@ export default {
       "masked": "她把問題____一個機會。",
       "options": [
         "see-mcq-15",
-        "see-mcq-14",
-        "see-mcq-16",
-        "see-mcq-13",
-        "see-mcq-17",
-        "see-mcq-12"
+        "see-mcq-22",
+        "see-mcq-21",
+        "see-mcq-25"
       ],
       "explanation": "本句的「sees」指「以某種觀點理解、評價或看待 A，認為它屬於 B」。",
       "sentenceIndex": 30,
@@ -1500,12 +1390,10 @@ export default {
         "as"
       ],
       "optionReasons": {
-        "see-mcq-15": "本句指「以某種觀點理解、評價或看待 A，認為它屬於 B」。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-12": "「看見某個動作正在進行」是「see someone doing」的用法，與本句語境不同。"
+        "see-mcq-15": "本句的「sees」指「以某種觀點理解、評價或看待 A，認為它屬於 B」。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-15"
     },
@@ -1517,10 +1405,8 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-16",
-        "see-mcq-15",
-        "see-mcq-17",
-        "see-mcq-14",
-        "see-mcq-18",
+        "see-mcq-10",
+        "see-mcq-12",
         "see-mcq-13"
       ],
       "explanation": "本句的「see」指「在腦中想像某種情況或判斷其可能性」。",
@@ -1530,12 +1416,10 @@ export default {
         "see"
       ],
       "optionReasons": {
-        "see-mcq-16": "本句指「在腦中想像某種情況或判斷其可能性」。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。"
+        "see-mcq-16": "本句的「see」指「在腦中想像某種情況或判斷其可能性」。",
+        "see-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-16"
     },
@@ -1547,11 +1431,9 @@ export default {
       "masked": "你能____自己在那裡工作嗎？",
       "options": [
         "see-mcq-16",
-        "see-mcq-15",
-        "see-mcq-17",
+        "see-mcq-03",
         "see-mcq-14",
-        "see-mcq-18",
-        "see-mcq-13"
+        "see-mcq-20"
       ],
       "explanation": "本句的「see yourself」指「在腦中想像某種情況或判斷其可能性」。",
       "sentenceIndex": 32,
@@ -1560,12 +1442,10 @@ export default {
         "see yourself"
       ],
       "optionReasons": {
-        "see-mcq-16": "本句指「在腦中想像某種情況或判斷其可能性」。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-13": "「主動查明、確認某件事情是否成立」是「see if/whether」的用法，與本句語境不同。"
+        "see-mcq-16": "本句的「see yourself」指「在腦中想像某種情況或判斷其可能性」。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-16"
     },
@@ -1577,11 +1457,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-17",
-        "see-mcq-16",
-        "see-mcq-18",
-        "see-mcq-15",
-        "see-mcq-19",
-        "see-mcq-14"
+        "see-mcq-02",
+        "see-mcq-25",
+        "see-mcq-16"
       ],
       "explanation": "本句的「see the value」指「理解某件事情的道理、意義或價值」。",
       "sentenceIndex": 33,
@@ -1590,12 +1468,10 @@ export default {
         "see the value"
       ],
       "optionReasons": {
-        "see-mcq-17": "本句指「理解某件事情的道理、意義或價值」。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。"
+        "see-mcq-17": "本句的「see the value」指「理解某件事情的道理、意義或價值」。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-17"
     },
@@ -1607,11 +1483,9 @@ export default {
       "masked": "我____再買一副有甚麼意義。",
       "options": [
         "see-mcq-17",
-        "see-mcq-16",
-        "see-mcq-18",
-        "see-mcq-15",
-        "see-mcq-19",
-        "see-mcq-14"
+        "see-mcq-26",
+        "see-mcq-02",
+        "see-mcq-18"
       ],
       "explanation": "本句的「see the point」指「理解某件事情的道理、意義或價值」。",
       "sentenceIndex": 34,
@@ -1620,12 +1494,10 @@ export default {
         "see the point"
       ],
       "optionReasons": {
-        "see-mcq-17": "本句指「理解某件事情的道理、意義或價值」。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-14": "「負責確保某件事情確實發生／完成」是「see that」的用法，與本句語境不同。"
+        "see-mcq-17": "本句的「see the point」指「理解某件事情的道理、意義或價值」。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-17"
     },
@@ -1637,11 +1509,9 @@ export default {
       "masked": "更多資料請參見第 ____ 頁。",
       "options": [
         "see-mcq-18",
-        "see-mcq-17",
-        "see-mcq-19",
-        "see-mcq-16",
         "see-mcq-20",
-        "see-mcq-15"
+        "see-mcq-08",
+        "see-mcq-16"
       ],
       "explanation": "本句的「see page 20」指「指示讀者前往另一資料位置查看相關內容」。",
       "sentenceIndex": 35,
@@ -1650,12 +1520,10 @@ export default {
         "see page 20"
       ],
       "optionReasons": {
-        "see-mcq-18": "本句指「指示讀者前往另一資料位置查看相關內容」。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。"
+        "see-mcq-18": "本句的「see page 20」指「指示讀者前往另一資料位置查看相關內容」。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-18"
     },
@@ -1667,22 +1535,18 @@ export default {
       "masked": "詳情請____最後一節。",
       "options": [
         "see-mcq-18",
-        "see-mcq-17",
-        "see-mcq-19",
-        "see-mcq-16",
-        "see-mcq-20",
-        "see-mcq-15"
+        "see-mcq-06",
+        "see-mcq-07",
+        "see-mcq-20"
       ],
       "explanation": "本句的「see」指「指示讀者前往另一資料位置查看相關內容」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "optionReasons": {
-        "see-mcq-18": "本句指「指示讀者前往另一資料位置查看相關內容」。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-15": "「以某種觀點理解、評價或看待 A，認為它屬於 B」是「see A as B」的用法，與本句語境不同。"
+        "see-mcq-18": "本句的「see」指「指示讀者前往另一資料位置查看相關內容」。",
+        "see-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-18"
     },
@@ -1694,11 +1558,9 @@ export default {
       "masked": "你覺得產品會成功嗎？____。",
       "options": [
         "see-mcq-19",
-        "see-mcq-18",
-        "see-mcq-20",
-        "see-mcq-17",
-        "see-mcq-21",
-        "see-mcq-16"
+        "see-mcq-07",
+        "see-mcq-22",
+        "see-mcq-03"
       ],
       "explanation": "本句的「We’ll see.」指「現在不作確定判斷，等待未來情況提供答案」。",
       "sentenceIndex": 37,
@@ -1707,12 +1569,10 @@ export default {
         "We’ll see."
       ],
       "optionReasons": {
-        "see-mcq-19": "本句指「現在不作確定判斷，等待未來情況提供答案」。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。"
+        "see-mcq-19": "本句的「We’ll see.」指「現在不作確定判斷，等待未來情況提供答案」。",
+        "see-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-19"
     },
@@ -1724,11 +1584,9 @@ export default {
       "masked": "我可以再買一副嗎？ ____再說。",
       "options": [
         "see-mcq-19",
-        "see-mcq-18",
-        "see-mcq-20",
-        "see-mcq-17",
-        "see-mcq-21",
-        "see-mcq-16"
+        "see-mcq-02",
+        "see-mcq-09",
+        "see-mcq-22"
       ],
       "explanation": "本句的「We’ll see.」指「現在不作確定判斷，等待未來情況提供答案」。",
       "sentenceIndex": 38,
@@ -1737,12 +1595,10 @@ export default {
         "We’ll see."
       ],
       "optionReasons": {
-        "see-mcq-19": "本句指「現在不作確定判斷，等待未來情況提供答案」。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-16": "「在腦中想像某種情況或判斷其可能性」是「see — imagine/foresee」的用法，與本句語境不同。"
+        "see-mcq-19": "本句的「We’ll see.」指「現在不作確定判斷，等待未來情況提供答案」。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-19"
     },
@@ -1754,11 +1610,9 @@ export default {
       "masked": "我買了它們，____。",
       "options": [
         "see-mcq-20",
-        "see-mcq-19",
-        "see-mcq-21",
-        "see-mcq-18",
-        "see-mcq-22",
-        "see-mcq-17"
+        "see-mcq-26",
+        "see-mcq-14",
+        "see-mcq-02"
       ],
       "explanation": "本句的「you see」指「用來引出解釋、背景或理由」。",
       "sentenceIndex": 39,
@@ -1767,12 +1621,10 @@ export default {
         "you see"
       ],
       "optionReasons": {
-        "see-mcq-20": "本句指「用來引出解釋、背景或理由」。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-22": "「根據已知事實引出結果；既然／鑑於」是「seeing that/as」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。"
+        "see-mcq-20": "本句的「you see」指「用來引出解釋、背景或理由」。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-20"
     },
@@ -1784,11 +1636,9 @@ export default {
       "masked": "事情並不容易，____，我們時間很少。",
       "options": [
         "see-mcq-20",
-        "see-mcq-19",
         "see-mcq-21",
-        "see-mcq-18",
-        "see-mcq-22",
-        "see-mcq-17"
+        "see-mcq-13",
+        "see-mcq-03"
       ],
       "explanation": "本句的「you see」指「用來引出解釋、背景或理由」。",
       "sentenceIndex": 40,
@@ -1797,12 +1647,10 @@ export default {
         "you see"
       ],
       "optionReasons": {
-        "see-mcq-20": "本句指「用來引出解釋、背景或理由」。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。",
-        "see-mcq-22": "「根據已知事實引出結果；既然／鑑於」是「seeing that/as」的用法，與本句語境不同。",
-        "see-mcq-17": "「理解某件事情的道理、意義或價值」是「see the point/value」的用法，與本句語境不同。"
+        "see-mcq-20": "本句的「you see」指「用來引出解釋、背景或理由」。",
+        "see-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-20"
     },
@@ -1814,11 +1662,9 @@ export default {
       "masked": "他把她____送回家。",
       "options": [
         "see-mcq-21",
-        "see-mcq-20",
-        "see-mcq-22",
-        "see-mcq-19",
-        "see-mcq-23",
-        "see-mcq-18"
+        "see-reviewed-6dcf3c9428",
+        "see-mcq-17",
+        "see-mcq-26"
       ],
       "explanation": "本句的「saw her safely home」指「陪同／送某人到目的地並確保安全到達」。",
       "sentenceIndex": 41,
@@ -1827,12 +1673,10 @@ export default {
         "saw her safely home"
       ],
       "optionReasons": {
-        "see-mcq-21": "本句指「陪同／送某人到目的地並確保安全到達」。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-22": "「根據已知事實引出結果；既然／鑑於」是「seeing that/as」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。"
+        "see-mcq-21": "本句的「saw her safely home」指「陪同／送某人到目的地並確保安全到達」。",
+        "see-reviewed-6dcf3c9428": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-21"
     },
@@ -1844,11 +1688,9 @@ export default {
       "masked": "主人把客人____門口。",
       "options": [
         "see-mcq-21",
-        "see-mcq-20",
-        "see-mcq-22",
-        "see-mcq-19",
-        "see-mcq-23",
-        "see-mcq-18"
+        "see-mcq-25",
+        "see-mcq-17",
+        "see-mcq-12"
       ],
       "explanation": "本句的「saw the guests to the door」指「陪同／送某人到目的地並確保安全到達」。",
       "sentenceIndex": 42,
@@ -1857,71 +1699,65 @@ export default {
         "saw the guests to the door"
       ],
       "optionReasons": {
-        "see-mcq-21": "本句指「陪同／送某人到目的地並確保安全到達」。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-22": "「根據已知事實引出結果；既然／鑑於」是「seeing that/as」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-18": "「指示讀者前往另一資料位置查看相關內容」是「see page/section」的用法，與本句語境不同。"
+        "see-mcq-21": "本句的「saw the guests to the door」指「陪同／送某人到目的地並確保安全到達」。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-21"
     },
     {
       "id": "see-22-0",
-      "sense": "see-mcq-22",
+      "sense": "see-reviewed-6dcf3c9428",
       "en": "Seeing clearly is difficult in the fog.",
       "zh": "在霧中要看清楚很困難。",
       "masked": "在霧中要____很困難。",
       "options": [
-        "see-mcq-22",
-        "see-mcq-21",
-        "see-mcq-23",
-        "see-mcq-20",
-        "see-mcq-24",
-        "see-mcq-19"
+        "see-reviewed-6dcf3c9428",
+        "see-mcq-10",
+        "see-mcq-06",
+        "see-mcq-22"
       ],
-      "explanation": "本句的「Seeing」指「根據已知事實引出結果；既然／鑑於」。",
+      "explanation": "對照完整句子：「在霧中要看清楚很困難。」。這裡的「Seeing」表示「看見；視覺活動」。",
       "sentenceIndex": 43,
       "sourcePractice": 44,
       "targets": [
         "Seeing"
       ],
       "optionReasons": {
-        "see-mcq-22": "本句指「根據已知事實引出結果；既然／鑑於」。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-24": "「在事情發生前預料到其可能出現」是「foresee」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。"
+        "see-reviewed-6dcf3c9428": "對照完整句子：「在霧中要看清楚很困難。」。這裡的「Seeing」表示「看見；視覺活動」。",
+        "see-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "see-mcq-22"
+      "correctOption": "see-reviewed-6dcf3c9428",
+      "previousCorrectOption": "see-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "see-22-1",
-      "sense": "see-mcq-22",
+      "sense": "see-reviewed-6dcf3c9428",
       "en": "Seeing is believing.",
       "zh": "眼見為實。",
       "masked": "____為實。",
       "options": [
-        "see-mcq-22",
-        "see-mcq-21",
-        "see-mcq-23",
-        "see-mcq-20",
-        "see-mcq-24",
-        "see-mcq-19"
+        "see-reviewed-6dcf3c9428",
+        "see-mcq-19",
+        "see-mcq-25",
+        "see-mcq-14"
       ],
-      "explanation": "本句的「see」指「根據已知事實引出結果；既然／鑑於」。",
+      "explanation": "對照完整句子：「眼見為實。」。這裡的「see」表示「看見；視覺活動」。",
       "sentenceIndex": 44,
       "sourcePractice": 45,
       "optionReasons": {
-        "see-mcq-22": "本句指「根據已知事實引出結果；既然／鑑於」。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-24": "「在事情發生前預料到其可能出現」是「foresee」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。"
+        "see-reviewed-6dcf3c9428": "對照完整句子：「眼見為實。」。這裡的「see」表示「看見；視覺活動」。",
+        "see-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "see-mcq-22"
+      "correctOption": "see-reviewed-6dcf3c9428",
+      "previousCorrectOption": "see-mcq-22",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "see-23-0",
@@ -1931,11 +1767,9 @@ export default {
       "masked": "____，我們便回家了。",
       "options": [
         "see-mcq-22",
-        "see-mcq-21",
-        "see-mcq-23",
-        "see-mcq-20",
-        "see-mcq-24",
-        "see-mcq-19"
+        "see-mcq-03",
+        "see-mcq-09",
+        "see-mcq-13"
       ],
       "explanation": "本句的「Seeing that」指「根據已知事實引出結果；既然／鑑於」。",
       "sentenceIndex": 45,
@@ -1944,12 +1778,10 @@ export default {
         "Seeing that"
       ],
       "optionReasons": {
-        "see-mcq-22": "本句指「根據已知事實引出結果；既然／鑑於」。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-24": "「在事情發生前預料到其可能出現」是「foresee」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。"
+        "see-mcq-22": "本句的「Seeing that」指「根據已知事實引出結果；既然／鑑於」。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-22"
     },
@@ -1961,11 +1793,9 @@ export default {
       "masked": "____你都來了，不如留下吧。",
       "options": [
         "see-mcq-22",
-        "see-mcq-21",
-        "see-mcq-23",
-        "see-mcq-20",
-        "see-mcq-24",
-        "see-mcq-19"
+        "see-mcq-17",
+        "see-mcq-07",
+        "see-mcq-18"
       ],
       "explanation": "本句的「Seeing as」指「根據已知事實引出結果；既然／鑑於」。",
       "sentenceIndex": 46,
@@ -1974,12 +1804,10 @@ export default {
         "Seeing as"
       ],
       "optionReasons": {
-        "see-mcq-22": "本句指「根據已知事實引出結果；既然／鑑於」。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。",
-        "see-mcq-24": "「在事情發生前預料到其可能出現」是「foresee」的用法，與本句語境不同。",
-        "see-mcq-19": "「現在不作確定判斷，等待未來情況提供答案」是「we’ll see」的用法，與本句語境不同。"
+        "see-mcq-22": "本句的「Seeing as」指「根據已知事實引出結果；既然／鑑於」。",
+        "see-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-22"
     },
@@ -1991,11 +1819,9 @@ export default {
       "masked": "故事描述了一位能預知未來的____。",
       "options": [
         "see-mcq-25",
-        "see-mcq-24",
-        "see-mcq-23",
-        "see-mcq-22",
-        "see-mcq-21",
-        "see-mcq-20"
+        "see-mcq-03",
+        "see-mcq-13",
+        "see-mcq-09"
       ],
       "explanation": "本句的「seer」指「表示預言者；先知」。",
       "sentenceIndex": 47,
@@ -2004,12 +1830,10 @@ export default {
         "seer"
       ],
       "optionReasons": {
-        "see-mcq-25": "本句指「表示預言者；先知」。",
-        "see-mcq-24": "「在事情發生前預料到其可能出現」是「foresee」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-22": "「根據已知事實引出結果；既然／鑑於」是「seeing that/as」的用法，與本句語境不同。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。"
+        "see-mcq-25": "本句的「seer」指「表示預言者；先知」。",
+        "see-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-25"
     },
@@ -2021,11 +1845,9 @@ export default {
       "masked": "____。",
       "options": [
         "see-mcq-26",
-        "see-mcq-24",
-        "see-mcq-23",
-        "see-mcq-22",
-        "see-mcq-21",
-        "see-mcq-20"
+        "see-mcq-14",
+        "see-mcq-20",
+        "see-mcq-15"
       ],
       "explanation": "本句的「seer」指「表示預言者；先知」。",
       "sentenceIndex": 48,
@@ -2034,12 +1856,10 @@ export default {
         "seer"
       ],
       "optionReasons": {
-        "see-mcq-26": "本句指「表示預言者；先知」。",
-        "see-mcq-24": "「在事情發生前預料到其可能出現」是「foresee」的用法，與本句語境不同。",
-        "see-mcq-23": "「被認為能預知未來或隱秘事情的人」是「seer」的用法，與本句語境不同。",
-        "see-mcq-22": "「根據已知事實引出結果；既然／鑑於」是「seeing that/as」的用法，與本句語境不同。",
-        "see-mcq-21": "「陪同／送某人到目的地並確保安全到達」是「see someone home」的用法，與本句語境不同。",
-        "see-mcq-20": "「用來引出解釋、背景或理由」是「you see」的用法，與本句語境不同。"
+        "see-mcq-26": "本句的「seer」指「表示預言者；先知」。",
+        "see-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "see-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "see-mcq-26"
     }
@@ -2049,5 +1869,7 @@ export default {
     "sha256": "499fddd4e7431566a72a75fccb899a2fa9e92254828d8826f23df94760c72a6e",
     "path": "manuals/see.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

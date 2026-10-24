@@ -666,11 +666,9 @@ export default {
       "masked": "She shows love through small ____.",
       "options": [
         "action-mcq-01",
-        "action-mcq-02",
-        "action-mcq-03",
-        "action-mcq-04",
-        "action-mcq-05",
-        "action-mcq-06"
+        "action-mcq-25",
+        "action-mcq-22",
+        "action-mcq-27"
       ],
       "explanation": "本句的「actions」指「一個人實際做出的事情、舉動或行為」。",
       "sentenceIndex": 0,
@@ -679,12 +677,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-01": "本句指「一個人實際做出的事情、舉動或行為」。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-01": "本句的「actions」指「一個人實際做出的事情、舉動或行為」。",
+        "action-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-01"
     },
@@ -696,11 +692,9 @@ export default {
       "masked": "His ____ showed that he cared.",
       "options": [
         "action-mcq-01",
-        "action-mcq-02",
-        "action-mcq-03",
-        "action-mcq-04",
-        "action-mcq-05",
-        "action-mcq-06"
+        "action-mcq-24",
+        "action-pdf-001",
+        "action-mcq-21"
       ],
       "explanation": "本句的「actions」指「一個人實際做出的事情、舉動或行為」。",
       "sentenceIndex": 1,
@@ -709,12 +703,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-01": "本句指「一個人實際做出的事情、舉動或行為」。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-01": "本句的「actions」指「一個人實際做出的事情、舉動或行為」。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-01"
     },
@@ -726,11 +718,9 @@ export default {
       "masked": "Kind ____ can have a big effect.",
       "options": [
         "action-mcq-01",
-        "action-mcq-02",
-        "action-mcq-03",
-        "action-mcq-04",
-        "action-mcq-05",
-        "action-mcq-06"
+        "action-pdf-001",
+        "action-mcq-14",
+        "action-mcq-21"
       ],
       "explanation": "本句的「actions」指「一個人實際做出的事情、舉動或行為」。",
       "sentenceIndex": 2,
@@ -739,12 +729,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-01": "本句指「一個人實際做出的事情、舉動或行為」。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-01": "本句的「actions」指「一個人實際做出的事情、舉動或行為」。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-01"
     },
@@ -756,11 +744,9 @@ export default {
       "masked": "You are responsible for your ____.",
       "options": [
         "action-mcq-02",
-        "action-mcq-01",
-        "action-mcq-03",
-        "action-mcq-04",
-        "action-mcq-05",
-        "action-mcq-06"
+        "action-mcq-18",
+        "action-mcq-22",
+        "action-mcq-20"
       ],
       "explanation": "本句的「actions」指「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」。",
       "sentenceIndex": 3,
@@ -769,12 +755,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-02": "本句指「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」。",
-        "action-mcq-01": "「一個人實際做出的事情、舉動或行為」是「action — something done」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-02": "本句的「actions」指「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-02"
     },
@@ -786,11 +770,9 @@ export default {
       "masked": "Her ____ were more important than her words.",
       "options": [
         "action-mcq-02",
-        "action-mcq-01",
-        "action-mcq-03",
-        "action-mcq-04",
-        "action-mcq-05",
-        "action-mcq-06"
+        "action-mcq-16",
+        "action-mcq-10",
+        "action-mcq-18"
       ],
       "explanation": "本句的「actions」指「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」。",
       "sentenceIndex": 4,
@@ -799,12 +781,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-02": "本句指「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」。",
-        "action-mcq-01": "「一個人實際做出的事情、舉動或行為」是「action — something done」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-02": "本句的「actions」指「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」。",
+        "action-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-02"
     },
@@ -816,11 +796,9 @@ export default {
       "masked": "His words sounded kind, but his ____ were different.",
       "options": [
         "action-mcq-03",
-        "action-mcq-02",
-        "action-mcq-04",
-        "action-mcq-01",
         "action-mcq-05",
-        "action-mcq-06"
+        "action-mcq-20",
+        "action-mcq-25"
       ],
       "explanation": "本句的「actions」指「與言語、承諾或意圖相對的實際行為」。",
       "sentenceIndex": 5,
@@ -829,12 +807,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-03": "本句指「與言語、承諾或意圖相對的實際行為」。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-01": "「一個人實際做出的事情、舉動或行為」是「action — something done」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-03": "本句的「actions」指「與言語、承諾或意圖相對的實際行為」。",
+        "action-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-03"
     },
@@ -846,11 +822,9 @@ export default {
       "masked": "She believes that ____ matter more than promises.",
       "options": [
         "action-mcq-03",
-        "action-mcq-02",
-        "action-mcq-04",
-        "action-mcq-01",
+        "action-mcq-24",
         "action-mcq-05",
-        "action-mcq-06"
+        "action-mcq-22"
       ],
       "explanation": "本句的「actions」指「與言語、承諾或意圖相對的實際行為」。",
       "sentenceIndex": 6,
@@ -859,12 +833,10 @@ export default {
         "actions"
       ],
       "optionReasons": {
-        "action-mcq-03": "本句指「與言語、承諾或意圖相對的實際行為」。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-01": "「一個人實際做出的事情、舉動或行為」是「action — something done」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-03": "本句的「actions」指「與言語、承諾或意圖相對的實際行為」。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-03"
     },
@@ -876,11 +848,9 @@ export default {
       "masked": "We need to ____ immediately.",
       "options": [
         "action-mcq-04",
-        "action-mcq-03",
-        "action-mcq-05",
-        "action-mcq-02",
-        "action-mcq-06",
-        "action-mcq-01"
+        "action-mcq-10",
+        "action-mcq-18",
+        "action-mcq-20"
       ],
       "explanation": "本句的「take action」指「開始做具體事情以處理問題或達成目標」。",
       "sentenceIndex": 7,
@@ -889,12 +859,10 @@ export default {
         "take action"
       ],
       "optionReasons": {
-        "action-mcq-04": "本句指「開始做具體事情以處理問題或達成目標」。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-01": "「一個人實際做出的事情、舉動或行為」是「action — something done」的用法，與本句語境不同。"
+        "action-mcq-04": "本句的「take action」指「開始做具體事情以處理問題或達成目標」。",
+        "action-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-04"
     },
@@ -906,11 +874,9 @@ export default {
       "masked": "The company took ____ to improve safety.",
       "options": [
         "action-mcq-04",
-        "action-mcq-03",
-        "action-mcq-05",
-        "action-mcq-02",
-        "action-mcq-06",
-        "action-mcq-01"
+        "action-mcq-23",
+        "action-mcq-24",
+        "action-mcq-18"
       ],
       "explanation": "本句的「action」指「開始做具體事情以處理問題或達成目標」。",
       "sentenceIndex": 8,
@@ -919,12 +885,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-04": "本句指「開始做具體事情以處理問題或達成目標」。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-01": "「一個人實際做出的事情、舉動或行為」是「action — something done」的用法，與本句語境不同。"
+        "action-mcq-04": "本句的「action」指「開始做具體事情以處理問題或達成目標」。",
+        "action-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-04"
     },
@@ -936,11 +900,9 @@ export default {
       "masked": "The school took ____ repeated bullying.",
       "options": [
         "action-mcq-05",
-        "action-mcq-04",
-        "action-mcq-06",
-        "action-mcq-03",
-        "action-mcq-07",
-        "action-mcq-02"
+        "action-mcq-20",
+        "action-mcq-09",
+        "action-mcq-12"
       ],
       "explanation": "本句的「action against」指「對某個人、機構或問題採取正式處理／限制措施」。",
       "sentenceIndex": 9,
@@ -949,12 +911,10 @@ export default {
         "action against"
       ],
       "optionReasons": {
-        "action-mcq-05": "本句指「對某個人、機構或問題採取正式處理／限制措施」。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。"
+        "action-mcq-05": "本句的「action against」指「對某個人、機構或問題採取正式處理／限制措施」。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-05"
     },
@@ -966,11 +926,9 @@ export default {
       "masked": "The authorities may take ____ the company.",
       "options": [
         "action-mcq-05",
-        "action-mcq-04",
-        "action-mcq-06",
+        "action-mcq-20",
         "action-mcq-03",
-        "action-mcq-07",
-        "action-mcq-02"
+        "action-mcq-21"
       ],
       "explanation": "本句的「action against」指「對某個人、機構或問題採取正式處理／限制措施」。",
       "sentenceIndex": 10,
@@ -979,12 +937,10 @@ export default {
         "action against"
       ],
       "optionReasons": {
-        "action-mcq-05": "本句指「對某個人、機構或問題採取正式處理／限制措施」。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-02": "「一個人實際做過的事情，尤其用來判斷其態度、責任或品格」是「actions — conduct」的用法，與本句語境不同。"
+        "action-mcq-05": "本句的「action against」指「對某個人、機構或問題採取正式處理／限制措施」。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-05"
     },
@@ -996,11 +952,9 @@ export default {
       "masked": "The plan requires immediate ____.",
       "options": [
         "action-mcq-06",
-        "action-mcq-05",
-        "action-mcq-07",
-        "action-mcq-04",
-        "action-mcq-08",
-        "action-mcq-03"
+        "action-pdf-001",
+        "action-mcq-19",
+        "action-mcq-05"
       ],
       "explanation": "本句的「action」指「把想法、計劃或決定實際執行的過程」。",
       "sentenceIndex": 11,
@@ -1009,12 +963,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-06": "本句指「把想法、計劃或決定實際執行的過程」。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。"
+        "action-mcq-06": "本句的「action」指「把想法、計劃或決定實際執行的過程」。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-06"
     },
@@ -1026,11 +978,9 @@ export default {
       "masked": "Discussion is useful, but we also need ____.",
       "options": [
         "action-mcq-06",
-        "action-mcq-05",
-        "action-mcq-07",
-        "action-mcq-04",
-        "action-mcq-08",
-        "action-mcq-03"
+        "action-mcq-16",
+        "action-mcq-15",
+        "action-mcq-20"
       ],
       "explanation": "本句的「action」指「把想法、計劃或決定實際執行的過程」。",
       "sentenceIndex": 12,
@@ -1039,12 +989,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-06": "本句指「把想法、計劃或決定實際執行的過程」。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-03": "「與言語、承諾或意圖相對的實際行為」是「actions vs words」的用法，與本句語境不同。"
+        "action-mcq-06": "本句的「action」指「把想法、計劃或決定實際執行的過程」。",
+        "action-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-06"
     },
@@ -1056,11 +1004,9 @@ export default {
       "masked": "It is time to ____.",
       "options": [
         "action-mcq-07",
-        "action-mcq-06",
-        "action-mcq-08",
-        "action-mcq-05",
-        "action-mcq-09",
-        "action-mcq-04"
+        "action-mcq-16",
+        "action-mcq-12",
+        "action-mcq-20"
       ],
       "explanation": "本句的「put the plan into action」指「把原本只是想法或計劃的內容真正開始實行」。",
       "sentenceIndex": 13,
@@ -1069,12 +1015,10 @@ export default {
         "put the plan into action"
       ],
       "optionReasons": {
-        "action-mcq-07": "本句指「把原本只是想法或計劃的內容真正開始實行」。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。"
+        "action-mcq-07": "本句的「put the plan into action」指「把原本只是想法或計劃的內容真正開始實行」。",
+        "action-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-07"
     },
@@ -1086,11 +1030,9 @@ export default {
       "masked": "She quickly ____.",
       "options": [
         "action-mcq-07",
-        "action-mcq-06",
-        "action-mcq-08",
-        "action-mcq-05",
-        "action-mcq-09",
-        "action-mcq-04"
+        "action-mcq-19",
+        "action-mcq-16",
+        "action-mcq-12"
       ],
       "explanation": "本句的「put her ideas into action」指「把原本只是想法或計劃的內容真正開始實行」。",
       "sentenceIndex": 14,
@@ -1099,12 +1041,10 @@ export default {
         "put her ideas into action"
       ],
       "optionReasons": {
-        "action-mcq-07": "本句指「把原本只是想法或計劃的內容真正開始實行」。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-04": "「開始做具體事情以處理問題或達成目標」是「take action」的用法，與本句語境不同。"
+        "action-mcq-07": "本句的「put her ideas into action」指「把原本只是想法或計劃的內容真正開始實行」。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-07"
     },
@@ -1116,11 +1056,9 @@ export default {
       "masked": "The team created an ____.",
       "options": [
         "action-mcq-08",
-        "action-mcq-07",
-        "action-mcq-09",
-        "action-mcq-06",
-        "action-mcq-10",
-        "action-mcq-05"
+        "action-mcq-16",
+        "action-mcq-18",
+        "action-mcq-13"
       ],
       "explanation": "本句的「action plan」指「為達成目標而列出的具體步驟、責任和時間安排」。",
       "sentenceIndex": 15,
@@ -1129,12 +1067,10 @@ export default {
         "action plan"
       ],
       "optionReasons": {
-        "action-mcq-08": "本句指「為達成目標而列出的具體步驟、責任和時間安排」。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。"
+        "action-mcq-08": "本句的「action plan」指「為達成目標而列出的具體步驟、責任和時間安排」。",
+        "action-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-08"
     },
@@ -1146,11 +1082,9 @@ export default {
       "masked": "The report includes a detailed ____.",
       "options": [
         "action-mcq-08",
-        "action-mcq-07",
+        "action-mcq-25",
         "action-mcq-09",
-        "action-mcq-06",
-        "action-mcq-10",
-        "action-mcq-05"
+        "action-mcq-13"
       ],
       "explanation": "本句的「action plan」指「為達成目標而列出的具體步驟、責任和時間安排」。",
       "sentenceIndex": 16,
@@ -1159,12 +1093,10 @@ export default {
         "action plan"
       ],
       "optionReasons": {
-        "action-mcq-08": "本句指「為達成目標而列出的具體步驟、責任和時間安排」。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-05": "「對某個人、機構或問題採取正式處理／限制措施」是「take action against」的用法，與本句語境不同。"
+        "action-mcq-08": "本句的「action plan」指「為達成目標而列出的具體步驟、責任和時間安排」。",
+        "action-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-08"
     },
@@ -1176,11 +1108,9 @@ export default {
       "masked": "We need to choose the best ____.",
       "options": [
         "action-mcq-09",
+        "action-mcq-24",
         "action-mcq-08",
-        "action-mcq-10",
-        "action-mcq-07",
-        "action-mcq-11",
-        "action-mcq-06"
+        "action-mcq-21"
       ],
       "explanation": "本句的「course of action」指「為應對某情況而選擇的一套行動或做法」。",
       "sentenceIndex": 17,
@@ -1189,12 +1119,10 @@ export default {
         "course of action"
       ],
       "optionReasons": {
-        "action-mcq-09": "本句指「為應對某情況而選擇的一套行動或做法」。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-09": "本句的「course of action」指「為應對某情況而選擇的一套行動或做法」。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-09"
     },
@@ -1206,11 +1134,9 @@ export default {
       "masked": "The doctor recommended a different ____.",
       "options": [
         "action-mcq-09",
-        "action-mcq-08",
-        "action-mcq-10",
-        "action-mcq-07",
-        "action-mcq-11",
-        "action-mcq-06"
+        "action-mcq-15",
+        "action-mcq-26",
+        "action-mcq-08"
       ],
       "explanation": "本句的「course of action」指「為應對某情況而選擇的一套行動或做法」。",
       "sentenceIndex": 18,
@@ -1219,12 +1145,10 @@ export default {
         "course of action"
       ],
       "optionReasons": {
-        "action-mcq-09": "本句指「為應對某情況而選擇的一套行動或做法」。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-06": "「把想法、計劃或決定實際執行的過程」是「action — implementation」的用法，與本句語境不同。"
+        "action-mcq-09": "本句的「course of action」指「為應對某情況而選擇的一套行動或做法」。",
+        "action-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-09"
     },
@@ -1236,11 +1160,9 @@ export default {
       "masked": "The camera captured the ____.",
       "options": [
         "action-mcq-10",
-        "action-mcq-09",
-        "action-mcq-11",
-        "action-mcq-08",
-        "action-mcq-12",
-        "action-mcq-07"
+        "action-mcq-27",
+        "action-mcq-02",
+        "action-mcq-16"
       ],
       "explanation": "本句的「action」指「正在發生的動作、活動或事件」。",
       "sentenceIndex": 19,
@@ -1249,12 +1171,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-10": "本句指「正在發生的動作、活動或事件」。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。"
+        "action-mcq-10": "本句的「action」指「正在發生的動作、活動或事件」。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-10"
     },
@@ -1266,11 +1186,9 @@ export default {
       "masked": "There was a lot of ____ in the city centre.",
       "options": [
         "action-mcq-10",
-        "action-mcq-09",
-        "action-mcq-11",
-        "action-mcq-08",
-        "action-mcq-12",
-        "action-mcq-07"
+        "action-mcq-04",
+        "action-mcq-14",
+        "action-mcq-22"
       ],
       "explanation": "本句的「action」指「正在發生的動作、活動或事件」。",
       "sentenceIndex": 20,
@@ -1279,12 +1197,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-10": "本句指「正在發生的動作、活動或事件」。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-07": "「把原本只是想法或計劃的內容真正開始實行」是「put into action」的用法，與本句語境不同。"
+        "action-mcq-10": "本句的「action」指「正在發生的動作、活動或事件」。",
+        "action-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-10"
     },
@@ -1296,11 +1212,9 @@ export default {
       "masked": "I want to see the machine ____.",
       "options": [
         "action-mcq-11",
-        "action-mcq-10",
-        "action-mcq-12",
-        "action-mcq-09",
-        "action-mcq-13",
-        "action-mcq-08"
+        "action-pdf-001",
+        "action-mcq-14",
+        "action-mcq-19"
       ],
       "explanation": "本句的「in action」指「正在實際運作、使用或執行中」。",
       "sentenceIndex": 21,
@@ -1309,12 +1223,10 @@ export default {
         "in action"
       ],
       "optionReasons": {
-        "action-mcq-11": "本句指「正在實際運作、使用或執行中」。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。"
+        "action-mcq-11": "本句的「in action」指「正在實際運作、使用或執行中」。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-11"
     },
@@ -1326,11 +1238,9 @@ export default {
       "masked": "The new system looks impressive ____.",
       "options": [
         "action-mcq-11",
-        "action-mcq-10",
-        "action-mcq-12",
-        "action-mcq-09",
-        "action-mcq-13",
-        "action-mcq-08"
+        "action-mcq-19",
+        "action-mcq-04",
+        "action-mcq-22"
       ],
       "explanation": "本句的「in action」指「正在實際運作、使用或執行中」。",
       "sentenceIndex": 22,
@@ -1339,12 +1249,10 @@ export default {
         "in action"
       ],
       "optionReasons": {
-        "action-mcq-11": "本句指「正在實際運作、使用或執行中」。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-08": "「為達成目標而列出的具體步驟、責任和時間安排」是「action plan」的用法，與本句語境不同。"
+        "action-mcq-11": "本句的「in action」指「正在實際運作、使用或執行中」。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-11"
     },
@@ -1356,11 +1264,9 @@ export default {
       "masked": "The film has plenty of ____.",
       "options": [
         "action-mcq-12",
-        "action-mcq-11",
-        "action-mcq-13",
-        "action-mcq-10",
-        "action-mcq-14",
-        "action-mcq-09"
+        "action-mcq-26",
+        "action-mcq-08",
+        "action-mcq-17"
       ],
       "explanation": "本句的「action」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
       "sentenceIndex": 23,
@@ -1369,12 +1275,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-12": "本句指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。"
+        "action-mcq-12": "本句的「action」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
+        "action-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-12"
     },
@@ -1386,11 +1290,9 @@ export default {
       "masked": "The second half of the movie is full of ____.",
       "options": [
         "action-mcq-12",
-        "action-mcq-11",
-        "action-mcq-13",
-        "action-mcq-10",
-        "action-mcq-14",
-        "action-mcq-09"
+        "action-mcq-21",
+        "action-mcq-27",
+        "action-mcq-14"
       ],
       "explanation": "本句的「action」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
       "sentenceIndex": 24,
@@ -1399,12 +1301,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-12": "本句指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。"
+        "action-mcq-12": "本句的「action」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-12"
     },
@@ -1416,11 +1316,9 @@ export default {
       "masked": "He enjoys watching ____.",
       "options": [
         "action-mcq-12",
-        "action-mcq-11",
-        "action-mcq-13",
-        "action-mcq-10",
-        "action-mcq-14",
-        "action-mcq-09"
+        "action-mcq-22",
+        "action-mcq-27",
+        "action-mcq-07"
       ],
       "explanation": "本句的「action films」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
       "sentenceIndex": 25,
@@ -1429,12 +1327,10 @@ export default {
         "action films"
       ],
       "optionReasons": {
-        "action-mcq-12": "本句指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。"
+        "action-mcq-12": "本句的「action films」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-12"
     },
@@ -1446,11 +1342,9 @@ export default {
       "masked": "The actor became famous for ____.",
       "options": [
         "action-mcq-12",
-        "action-mcq-11",
-        "action-mcq-13",
-        "action-mcq-10",
-        "action-mcq-14",
-        "action-mcq-09"
+        "action-mcq-03",
+        "action-mcq-21",
+        "action-mcq-14"
       ],
       "explanation": "本句的「action movies」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
       "sentenceIndex": 26,
@@ -1459,12 +1353,10 @@ export default {
         "action movies"
       ],
       "optionReasons": {
-        "action-mcq-12": "本句指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-09": "「為應對某情況而選擇的一套行動或做法」是「course of action」的用法，與本句語境不同。"
+        "action-mcq-12": "本句的「action movies」指「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-12"
     },
@@ -1476,11 +1368,9 @@ export default {
       "masked": "The soldiers were killed in ____.",
       "options": [
         "action-mcq-13",
-        "action-mcq-12",
-        "action-mcq-14",
-        "action-mcq-11",
-        "action-mcq-15",
-        "action-mcq-10"
+        "action-mcq-26",
+        "action-mcq-08",
+        "action-mcq-05"
       ],
       "explanation": "本句的「action」指「軍事衝突中的實際戰鬥或作戰活動」。",
       "sentenceIndex": 27,
@@ -1489,12 +1379,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-13": "本句指「軍事衝突中的實際戰鬥或作戰活動」。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。"
+        "action-mcq-13": "本句的「action」指「軍事衝突中的實際戰鬥或作戰活動」。",
+        "action-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-13"
     },
@@ -1506,11 +1394,9 @@ export default {
       "masked": "The unit saw ____ overseas.",
       "options": [
         "action-mcq-13",
-        "action-mcq-12",
-        "action-mcq-14",
-        "action-mcq-11",
-        "action-mcq-15",
-        "action-mcq-10"
+        "action-mcq-25",
+        "action-mcq-22",
+        "action-mcq-15"
       ],
       "explanation": "本句的「action」指「軍事衝突中的實際戰鬥或作戰活動」。",
       "sentenceIndex": 28,
@@ -1519,12 +1405,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-13": "本句指「軍事衝突中的實際戰鬥或作戰活動」。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-10": "「正在發生的動作、活動或事件」是「action — movement/activity」的用法，與本句語境不同。"
+        "action-mcq-13": "本句的「action」指「軍事衝突中的實際戰鬥或作戰活動」。",
+        "action-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-13"
     },
@@ -1536,11 +1420,9 @@ export default {
       "masked": "The company faces legal ____.",
       "options": [
         "action-mcq-14",
-        "action-mcq-13",
-        "action-mcq-15",
-        "action-mcq-12",
-        "action-mcq-16",
-        "action-mcq-11"
+        "action-pdf-001",
+        "action-mcq-05",
+        "action-mcq-10"
       ],
       "explanation": "本句的「action」指「透過法院或法律程序追究責任／尋求救濟」。",
       "sentenceIndex": 29,
@@ -1549,12 +1431,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-14": "本句指「透過法院或法律程序追究責任／尋求救濟」。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。"
+        "action-mcq-14": "本句的「action」指「透過法院或法律程序追究責任／尋求救濟」。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-14"
     },
@@ -1566,11 +1446,9 @@ export default {
       "masked": "She decided to take legal ____.",
       "options": [
         "action-mcq-14",
-        "action-mcq-13",
-        "action-mcq-15",
-        "action-mcq-12",
-        "action-mcq-16",
-        "action-mcq-11"
+        "action-mcq-17",
+        "action-pdf-001",
+        "action-mcq-10"
       ],
       "explanation": "本句的「action」指「透過法院或法律程序追究責任／尋求救濟」。",
       "sentenceIndex": 30,
@@ -1579,12 +1457,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-14": "本句指「透過法院或法律程序追究責任／尋求救濟」。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-11": "「正在實際運作、使用或執行中」是「in action」的用法，與本句語境不同。"
+        "action-mcq-14": "本句的「action」指「透過法院或法律程序追究責任／尋求救濟」。",
+        "action-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-14"
     },
@@ -1596,11 +1472,9 @@ export default {
       "masked": "The school may take disciplinary ____.",
       "options": [
         "action-mcq-15",
-        "action-mcq-14",
-        "action-mcq-16",
         "action-mcq-13",
-        "action-mcq-17",
-        "action-mcq-12"
+        "action-mcq-21",
+        "action-mcq-22"
       ],
       "explanation": "本句的「action」指「機構針對違規或問題採取的正式紀律措施」。",
       "sentenceIndex": 31,
@@ -1609,12 +1483,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-15": "本句指「機構針對違規或問題採取的正式紀律措施」。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。"
+        "action-mcq-15": "本句的「action」指「機構針對違規或問題採取的正式紀律措施」。",
+        "action-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-15"
     },
@@ -1626,11 +1498,9 @@ export default {
       "masked": "No further ____ will be taken.",
       "options": [
         "action-mcq-15",
-        "action-mcq-14",
-        "action-mcq-16",
-        "action-mcq-13",
-        "action-mcq-17",
-        "action-mcq-12"
+        "action-mcq-06",
+        "action-mcq-22",
+        "action-mcq-19"
       ],
       "explanation": "本句的「action」指「機構針對違規或問題採取的正式紀律措施」。",
       "sentenceIndex": 32,
@@ -1639,12 +1509,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-15": "本句指「機構針對違規或問題採取的正式紀律措施」。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-12": "「電影、小說或遊戲中刺激快速的動作、冒險或衝突場面」是「action — film/story」的用法，與本句語境不同。"
+        "action-mcq-15": "本句的「action」指「機構針對違規或問題採取的正式紀律措施」。",
+        "action-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-15"
     },
@@ -1656,11 +1524,9 @@ export default {
       "masked": "The drug blocks the ____ of a particular enzyme.",
       "options": [
         "action-mcq-16",
-        "action-mcq-15",
-        "action-mcq-17",
-        "action-mcq-14",
-        "action-mcq-18",
-        "action-mcq-13"
+        "action-mcq-08",
+        "action-mcq-20",
+        "action-mcq-18"
       ],
       "explanation": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
       "sentenceIndex": 33,
@@ -1669,12 +1535,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-16": "本句指「某種物質、機器或力量產生效果的方式或作用」。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。"
+        "action-mcq-16": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-16"
     },
@@ -1686,11 +1550,9 @@ export default {
       "masked": "The cleaning ____ of the product removes grease.",
       "options": [
         "action-mcq-16",
-        "action-mcq-15",
-        "action-mcq-17",
-        "action-mcq-14",
-        "action-mcq-18",
-        "action-mcq-13"
+        "action-mcq-20",
+        "action-mcq-01",
+        "action-mcq-18"
       ],
       "explanation": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
       "sentenceIndex": 34,
@@ -1699,12 +1561,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-16": "本句指「某種物質、機器或力量產生效果的方式或作用」。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。"
+        "action-mcq-16": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-16"
     },
@@ -1716,11 +1576,9 @@ export default {
       "masked": "The smooth ____ of the mechanism makes it easy to use.",
       "options": [
         "action-mcq-16",
-        "action-mcq-15",
-        "action-mcq-17",
-        "action-mcq-14",
-        "action-mcq-18",
-        "action-mcq-13"
+        "action-mcq-13",
+        "action-mcq-27",
+        "action-mcq-09"
       ],
       "explanation": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
       "sentenceIndex": 35,
@@ -1729,12 +1587,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-16": "本句指「某種物質、機器或力量產生效果的方式或作用」。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。"
+        "action-mcq-16": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
+        "action-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-16"
     },
@@ -1746,11 +1602,9 @@ export default {
       "masked": "The lever has a simple ____.",
       "options": [
         "action-mcq-16",
-        "action-mcq-15",
-        "action-mcq-17",
-        "action-mcq-14",
         "action-mcq-18",
-        "action-mcq-13"
+        "action-mcq-02",
+        "action-mcq-04"
       ],
       "explanation": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
       "sentenceIndex": 36,
@@ -1759,12 +1613,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-16": "本句指「某種物質、機器或力量產生效果的方式或作用」。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。"
+        "action-mcq-16": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-16"
     },
@@ -1776,11 +1628,9 @@ export default {
       "masked": "The rocks were shaped by the ____ of water.",
       "options": [
         "action-mcq-16",
-        "action-mcq-15",
-        "action-mcq-17",
-        "action-mcq-14",
-        "action-mcq-18",
-        "action-mcq-13"
+        "action-mcq-01",
+        "action-mcq-20",
+        "action-mcq-23"
       ],
       "explanation": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
       "sentenceIndex": 37,
@@ -1789,12 +1639,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-16": "本句指「某種物質、機器或力量產生效果的方式或作用」。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。"
+        "action-mcq-16": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
+        "action-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-16"
     },
@@ -1806,11 +1654,9 @@ export default {
       "masked": "Wind ____ gradually changed the landscape.",
       "options": [
         "action-mcq-16",
-        "action-mcq-15",
-        "action-mcq-17",
-        "action-mcq-14",
-        "action-mcq-18",
-        "action-mcq-13"
+        "action-mcq-12",
+        "action-mcq-08",
+        "action-mcq-11"
       ],
       "explanation": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
       "sentenceIndex": 38,
@@ -1819,12 +1665,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-16": "本句指「某種物質、機器或力量產生效果的方式或作用」。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-13": "「軍事衝突中的實際戰鬥或作戰活動」是「action — military」的用法，與本句語境不同。"
+        "action-mcq-16": "本句的「action」指「某種物質、機器或力量產生效果的方式或作用」。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-16"
     },
@@ -1836,11 +1680,9 @@ export default {
       "masked": "Management promised corrective ____.",
       "options": [
         "action-mcq-27",
-        "action-mcq-26",
-        "action-mcq-25",
-        "action-mcq-24",
-        "action-mcq-23",
-        "action-mcq-22"
+        "action-mcq-22",
+        "action-mcq-02",
+        "action-mcq-21"
       ],
       "explanation": "本句的「action」指「為解決問題、改善情況或執行政策而採取的具體措施」。",
       "sentenceIndex": 39,
@@ -1849,12 +1691,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-27": "本句指「為解決問題、改善情況或執行政策而採取的具體措施」。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-mcq-27": "本句的「action」指「為解決問題、改善情況或執行政策而採取的具體措施」。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-27"
     },
@@ -1867,10 +1707,8 @@ export default {
       "options": [
         "action-mcq-27",
         "action-mcq-26",
-        "action-mcq-25",
-        "action-mcq-24",
-        "action-mcq-23",
-        "action-mcq-22"
+        "action-mcq-10",
+        "action-mcq-20"
       ],
       "explanation": "本句的「action」指「為解決問題、改善情況或執行政策而採取的具體措施」。",
       "sentenceIndex": 40,
@@ -1879,12 +1717,10 @@ export default {
         "action"
       ],
       "optionReasons": {
-        "action-mcq-27": "本句指「為解決問題、改善情況或執行政策而採取的具體措施」。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-mcq-27": "本句的「action」指「為解決問題、改善情況或執行政策而採取的具體措施」。",
+        "action-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-27"
     },
@@ -1896,11 +1732,9 @@ export default {
       "masked": "The company introduced ____ after the audit.",
       "options": [
         "action-mcq-17",
-        "action-mcq-16",
-        "action-mcq-18",
-        "action-mcq-15",
-        "action-mcq-19",
-        "action-mcq-14"
+        "action-mcq-14",
+        "action-mcq-22",
+        "action-mcq-19"
       ],
       "explanation": "本句的「corrective action」指「為修正錯誤、問題或不合規情況而採取的正式措施」。",
       "sentenceIndex": 41,
@@ -1909,12 +1743,10 @@ export default {
         "corrective action"
       ],
       "optionReasons": {
-        "action-mcq-17": "本句指「為修正錯誤、問題或不合規情況而採取的正式措施」。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。"
+        "action-mcq-17": "本句的「corrective action」指「為修正錯誤、問題或不合規情況而採取的正式措施」。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-17"
     },
@@ -1926,11 +1758,9 @@ export default {
       "masked": "Managers must document any ____.",
       "options": [
         "action-mcq-17",
-        "action-mcq-16",
-        "action-mcq-18",
-        "action-mcq-15",
-        "action-mcq-19",
-        "action-mcq-14"
+        "action-mcq-08",
+        "action-mcq-21",
+        "action-mcq-09"
       ],
       "explanation": "本句的「corrective action」指「為修正錯誤、問題或不合規情況而採取的正式措施」。",
       "sentenceIndex": 42,
@@ -1939,12 +1769,10 @@ export default {
         "corrective action"
       ],
       "optionReasons": {
-        "action-mcq-17": "本句指「為修正錯誤、問題或不合規情況而採取的正式措施」。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-14": "「透過法院或法律程序追究責任／尋求救濟」是「legal action」的用法，與本句語境不同。"
+        "action-mcq-17": "本句的「corrective action」指「為修正錯誤、問題或不合規情況而採取的正式措施」。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-17"
     },
@@ -1956,11 +1784,9 @@ export default {
       "masked": "The problem requires ____.",
       "options": [
         "action-mcq-18",
-        "action-mcq-17",
-        "action-mcq-19",
-        "action-mcq-16",
-        "action-mcq-20",
-        "action-mcq-15"
+        "action-mcq-04",
+        "action-mcq-24",
+        "action-mcq-22"
       ],
       "explanation": "本句的「collective action」指「一群人共同協調並採取的行動」。",
       "sentenceIndex": 43,
@@ -1969,12 +1795,10 @@ export default {
         "collective action"
       ],
       "optionReasons": {
-        "action-mcq-18": "本句指「一群人共同協調並採取的行動」。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。"
+        "action-mcq-18": "本句的「collective action」指「一群人共同協調並採取的行動」。",
+        "action-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-18"
     },
@@ -1986,11 +1810,9 @@ export default {
       "masked": "Workers organized ____.",
       "options": [
         "action-mcq-18",
-        "action-mcq-17",
-        "action-mcq-19",
-        "action-mcq-16",
-        "action-mcq-20",
-        "action-mcq-15"
+        "action-mcq-24",
+        "action-mcq-04",
+        "action-mcq-21"
       ],
       "explanation": "本句的「collective action」指「一群人共同協調並採取的行動」。",
       "sentenceIndex": 44,
@@ -1999,12 +1821,10 @@ export default {
         "collective action"
       ],
       "optionReasons": {
-        "action-mcq-18": "本句指「一群人共同協調並採取的行動」。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-15": "「機構針對違規或問題採取的正式紀律措施」是「disciplinary action」的用法，與本句語境不同。"
+        "action-mcq-18": "本句的「collective action」指「一群人共同協調並採取的行動」。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-18"
     },
@@ -2016,11 +1836,9 @@ export default {
       "masked": "She remains very ____ for her age.",
       "options": [
         "action-mcq-19",
-        "action-mcq-18",
-        "action-mcq-20",
-        "action-mcq-17",
+        "action-mcq-27",
         "action-mcq-21",
-        "action-mcq-16"
+        "action-mcq-14"
       ],
       "explanation": "本句的「active」指「經常活動、參與事情或保持活力的」。",
       "sentenceIndex": 45,
@@ -2029,12 +1847,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "action-mcq-19": "本句指「經常活動、參與事情或保持活力的」。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。"
+        "action-mcq-19": "本句的「active」指「經常活動、參與事情或保持活力的」。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-19"
     },
@@ -2046,11 +1862,9 @@ export default {
       "masked": "The children are physically ____ every day.",
       "options": [
         "action-mcq-19",
-        "action-mcq-18",
-        "action-mcq-20",
+        "action-mcq-14",
         "action-mcq-17",
-        "action-mcq-21",
-        "action-mcq-16"
+        "action-mcq-22"
       ],
       "explanation": "本句的「active」指「經常活動、參與事情或保持活力的」。",
       "sentenceIndex": 46,
@@ -2059,12 +1873,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "action-mcq-19": "本句指「經常活動、參與事情或保持活力的」。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-16": "「某種物質、機器或力量產生效果的方式或作用」是「action — effect/mechanism」的用法，與本句語境不同。"
+        "action-mcq-19": "本句的「active」指「經常活動、參與事情或保持活力的」。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-19"
     },
@@ -2076,11 +1888,9 @@ export default {
       "masked": "She is an ____ of the community.",
       "options": [
         "action-mcq-20",
-        "action-mcq-19",
-        "action-mcq-21",
-        "action-mcq-18",
-        "action-mcq-22",
-        "action-mcq-17"
+        "action-mcq-27",
+        "action-mcq-14",
+        "action-mcq-03"
       ],
       "explanation": "本句的「active member」指「主動參與某項事情，而不是被動旁觀的」。",
       "sentenceIndex": 47,
@@ -2089,12 +1899,10 @@ export default {
         "active member"
       ],
       "optionReasons": {
-        "action-mcq-20": "本句指「主動參與某項事情，而不是被動旁觀的」。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。"
+        "action-mcq-20": "本句的「active member」指「主動參與某項事情，而不是被動旁觀的」。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-20"
     },
@@ -2106,11 +1914,9 @@ export default {
       "masked": "He plays an ____ in the project.",
       "options": [
         "action-mcq-20",
-        "action-mcq-19",
-        "action-mcq-21",
-        "action-mcq-18",
         "action-mcq-22",
-        "action-mcq-17"
+        "action-mcq-27",
+        "action-mcq-03"
       ],
       "explanation": "本句的「active role」指「主動參與某項事情，而不是被動旁觀的」。",
       "sentenceIndex": 48,
@@ -2119,12 +1925,10 @@ export default {
         "active role"
       ],
       "optionReasons": {
-        "action-mcq-20": "本句指「主動參與某項事情，而不是被動旁觀的」。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-17": "「為修正錯誤、問題或不合規情況而採取的正式措施」是「corrective action」的用法，與本句語境不同。"
+        "action-mcq-20": "本句的「active role」指「主動參與某項事情，而不是被動旁觀的」。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-20"
     },
@@ -2136,11 +1940,9 @@ export default {
       "masked": "Your account is still ____.",
       "options": [
         "action-mcq-21",
-        "action-mcq-20",
-        "action-mcq-22",
-        "action-mcq-19",
-        "action-mcq-23",
-        "action-mcq-18"
+        "action-mcq-13",
+        "action-mcq-27",
+        "action-mcq-09"
       ],
       "explanation": "本句的「active」指「目前仍在使用、運作或生效中的」。",
       "sentenceIndex": 49,
@@ -2149,12 +1951,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "action-mcq-21": "本句指「目前仍在使用、運作或生效中的」。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。"
+        "action-mcq-21": "本句的「active」指「目前仍在使用、運作或生效中的」。",
+        "action-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-21"
     },
@@ -2166,10 +1966,8 @@ export default {
       "masked": "The system has several ____.",
       "options": [
         "action-mcq-21",
-        "action-mcq-20",
-        "action-mcq-22",
+        "action-mcq-06",
         "action-mcq-19",
-        "action-mcq-23",
         "action-mcq-18"
       ],
       "explanation": "本句的「active users」指「目前仍在使用、運作或生效中的」。",
@@ -2179,12 +1977,10 @@ export default {
         "active users"
       ],
       "optionReasons": {
-        "action-mcq-21": "本句指「目前仍在使用、運作或生效中的」。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-18": "「一群人共同協調並採取的行動」是「collective action」的用法，與本句語境不同。"
+        "action-mcq-21": "本句的「active users」指「目前仍在使用、運作或生效中的」。",
+        "action-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-21"
     },
@@ -2196,11 +1992,9 @@ export default {
       "masked": "This is the ____ in the medicine.",
       "options": [
         "action-mcq-22",
-        "action-mcq-21",
+        "action-mcq-17",
         "action-mcq-23",
-        "action-mcq-20",
-        "action-mcq-24",
-        "action-mcq-19"
+        "action-mcq-09"
       ],
       "explanation": "本句的「active ingredient」指「能產生特定化學、生物或藥理作用的」。",
       "sentenceIndex": 51,
@@ -2209,12 +2003,10 @@ export default {
         "active ingredient"
       ],
       "optionReasons": {
-        "action-mcq-22": "本句指「能產生特定化學、生物或藥理作用的」。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。"
+        "action-mcq-22": "本句的「active ingredient」指「能產生特定化學、生物或藥理作用的」。",
+        "action-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-22"
     },
@@ -2226,11 +2018,9 @@ export default {
       "masked": "The chemical remains ____ for several hours.",
       "options": [
         "action-mcq-22",
-        "action-mcq-21",
         "action-mcq-23",
-        "action-mcq-20",
-        "action-mcq-24",
-        "action-mcq-19"
+        "action-mcq-15",
+        "action-mcq-08"
       ],
       "explanation": "本句的「active」指「能產生特定化學、生物或藥理作用的」。",
       "sentenceIndex": 52,
@@ -2239,12 +2029,10 @@ export default {
         "active"
       ],
       "optionReasons": {
-        "action-mcq-22": "本句指「能產生特定化學、生物或藥理作用的」。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-19": "「經常活動、參與事情或保持活力的」是「active — energetic」的用法，與本句語境不同。"
+        "action-mcq-22": "本句的「active」指「能產生特定化學、生物或藥理作用的」。",
+        "action-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-22"
     },
@@ -2256,11 +2044,9 @@ export default {
       "masked": "Walking is a healthy ____.",
       "options": [
         "action-mcq-23",
-        "action-mcq-22",
+        "action-mcq-15",
         "action-mcq-24",
-        "action-mcq-21",
-        "action-mcq-25",
-        "action-mcq-20"
+        "action-pdf-001"
       ],
       "explanation": "本句的「activity」指「人們進行的任務、運動、娛樂或其他活動」。",
       "sentenceIndex": 53,
@@ -2269,12 +2055,10 @@ export default {
         "activity"
       ],
       "optionReasons": {
-        "action-mcq-23": "本句指「人們進行的任務、運動、娛樂或其他活動」。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。"
+        "action-mcq-23": "本句的「activity」指「人們進行的任務、運動、娛樂或其他活動」。",
+        "action-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "action-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-23"
     },
@@ -2287,10 +2071,8 @@ export default {
       "options": [
         "action-mcq-23",
         "action-mcq-22",
-        "action-mcq-24",
-        "action-mcq-21",
-        "action-mcq-25",
-        "action-mcq-20"
+        "action-mcq-15",
+        "action-mcq-24"
       ],
       "explanation": "本句的「activities」指「人們進行的任務、運動、娛樂或其他活動」。",
       "sentenceIndex": 54,
@@ -2299,12 +2081,10 @@ export default {
         "activities"
       ],
       "optionReasons": {
-        "action-mcq-23": "本句指「人們進行的任務、運動、娛樂或其他活動」。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-20": "「主動參與某項事情，而不是被動旁觀的」是「active — involved」的用法，與本句語境不同。"
+        "action-mcq-23": "本句的「activities」指「人們進行的任務、運動、娛樂或其他活動」。",
+        "action-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-23"
     },
@@ -2316,11 +2096,9 @@ export default {
       "masked": "There was unusual ____ outside the building.",
       "options": [
         "action-mcq-24",
-        "action-mcq-23",
-        "action-mcq-25",
-        "action-mcq-22",
-        "action-mcq-26",
-        "action-mcq-21"
+        "action-mcq-03",
+        "action-mcq-19",
+        "action-mcq-09"
       ],
       "explanation": "本句的「activity」指「某個地方、領域或系統中事情正在發生的程度」。",
       "sentenceIndex": 55,
@@ -2329,12 +2107,10 @@ export default {
         "activity"
       ],
       "optionReasons": {
-        "action-mcq-24": "本句指「某個地方、領域或系統中事情正在發生的程度」。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。"
+        "action-mcq-24": "本句的「activity」指「某個地方、領域或系統中事情正在發生的程度」。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-24"
     },
@@ -2347,10 +2123,8 @@ export default {
       "options": [
         "action-mcq-24",
         "action-mcq-23",
-        "action-mcq-25",
-        "action-mcq-22",
-        "action-mcq-26",
-        "action-mcq-21"
+        "action-mcq-27",
+        "action-mcq-03"
       ],
       "explanation": "本句的「activity」指「某個地方、領域或系統中事情正在發生的程度」。",
       "sentenceIndex": 56,
@@ -2359,12 +2133,10 @@ export default {
         "activity"
       ],
       "optionReasons": {
-        "action-mcq-24": "本句指「某個地方、領域或系統中事情正在發生的程度」。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-21": "「目前仍在使用、運作或生效中的」是「active — operating」的用法，與本句語境不同。"
+        "action-mcq-24": "本句的「activity」指「某個地方、領域或系統中事情正在發生的程度」。",
+        "action-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-24"
     },
@@ -2376,11 +2148,9 @@ export default {
       "masked": "Press the button to ____ the system.",
       "options": [
         "action-mcq-25",
-        "action-mcq-24",
-        "action-mcq-26",
-        "action-mcq-23",
+        "action-mcq-19",
         "action-mcq-27",
-        "action-mcq-22"
+        "action-mcq-03"
       ],
       "explanation": "本句的「activate」指「使系統、功能或機制開始運作／生效」。",
       "sentenceIndex": 57,
@@ -2389,12 +2159,10 @@ export default {
         "activate"
       ],
       "optionReasons": {
-        "action-mcq-25": "本句指「使系統、功能或機制開始運作／生效」。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-mcq-25": "本句的「activate」指「使系統、功能或機制開始運作／生效」。",
+        "action-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-25"
     },
@@ -2406,11 +2174,9 @@ export default {
       "masked": "The alarm is ____ automatically.",
       "options": [
         "action-mcq-25",
-        "action-mcq-24",
-        "action-mcq-26",
-        "action-mcq-23",
-        "action-mcq-27",
-        "action-mcq-22"
+        "action-mcq-06",
+        "action-mcq-12",
+        "action-mcq-18"
       ],
       "explanation": "本句的「activated」指「使系統、功能或機制開始運作／生效」。",
       "sentenceIndex": 58,
@@ -2419,12 +2185,10 @@ export default {
         "activated"
       ],
       "optionReasons": {
-        "action-mcq-25": "本句指「使系統、功能或機制開始運作／生效」。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-mcq-25": "本句的「activated」指「使系統、功能或機制開始運作／生效」。",
+        "action-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-25"
     },
@@ -2436,11 +2200,9 @@ export default {
       "masked": "The protein ____ a cellular response.",
       "options": [
         "action-pdf-001",
-        "action-mcq-24",
-        "action-mcq-26",
-        "action-mcq-23",
-        "action-mcq-27",
-        "action-mcq-22"
+        "action-mcq-01",
+        "action-mcq-20",
+        "action-mcq-12"
       ],
       "explanation": "本句的「activates」指「令某種生物、化學或物理機制開始產生作用」。",
       "sentenceIndex": 59,
@@ -2449,12 +2211,10 @@ export default {
         "activates"
       ],
       "optionReasons": {
-        "action-pdf-001": "本句指「令某種生物、化學或物理機制開始產生作用」。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-pdf-001": "本句的「activates」指「令某種生物、化學或物理機制開始產生作用」。",
+        "action-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-pdf-001"
     },
@@ -2466,11 +2226,9 @@ export default {
       "masked": "Heat ____ the chemical.",
       "options": [
         "action-pdf-001",
-        "action-mcq-24",
-        "action-mcq-26",
         "action-mcq-23",
-        "action-mcq-27",
-        "action-mcq-22"
+        "action-mcq-02",
+        "action-mcq-09"
       ],
       "explanation": "本句的「activates」指「令某種生物、化學或物理機制開始產生作用」。",
       "sentenceIndex": 60,
@@ -2479,12 +2237,10 @@ export default {
         "activates"
       ],
       "optionReasons": {
-        "action-pdf-001": "本句指「令某種生物、化學或物理機制開始產生作用」。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-26": "「令系統、功能或生物機制開始運作的過程」是「activation」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-pdf-001": "本句的「activates」指「令某種生物、化學或物理機制開始產生作用」。",
+        "action-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-pdf-001"
     },
@@ -2496,11 +2252,9 @@ export default {
       "masked": "Account ____ takes only a few minutes.",
       "options": [
         "action-mcq-26",
-        "action-mcq-25",
-        "action-mcq-27",
-        "action-mcq-24",
-        "action-mcq-23",
-        "action-mcq-22"
+        "action-mcq-18",
+        "action-mcq-20",
+        "action-mcq-03"
       ],
       "explanation": "本句的「activation」指「令系統、功能或生物機制開始運作的過程」。",
       "sentenceIndex": 61,
@@ -2509,12 +2263,10 @@ export default {
         "activation"
       ],
       "optionReasons": {
-        "action-mcq-26": "本句指「令系統、功能或生物機制開始運作的過程」。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-mcq-26": "本句的「activation」指「令系統、功能或生物機制開始運作的過程」。",
+        "action-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-26"
     },
@@ -2526,11 +2278,9 @@ export default {
       "masked": "Muscle ____ increased during the exercise.",
       "options": [
         "action-mcq-26",
-        "action-mcq-25",
-        "action-mcq-27",
-        "action-mcq-24",
-        "action-mcq-23",
-        "action-mcq-22"
+        "action-mcq-01",
+        "action-mcq-12",
+        "action-mcq-27"
       ],
       "explanation": "本句的「activation」指「令系統、功能或生物機制開始運作的過程」。",
       "sentenceIndex": 62,
@@ -2539,12 +2289,10 @@ export default {
         "activation"
       ],
       "optionReasons": {
-        "action-mcq-26": "本句指「令系統、功能或生物機制開始運作的過程」。",
-        "action-mcq-25": "「使系統、功能或機制開始運作／生效」是「activate」的用法，與本句語境不同。",
-        "action-mcq-27": "「為解決問題、改善情況或執行政策而採取的具體措施」是「20. action = decision/measure in business or administration（措施） — 措施；處理」的用法，與本句語境不同。",
-        "action-mcq-24": "「某個地方、領域或系統中事情正在發生的程度」是「activity — level of happening」的用法，與本句語境不同。",
-        "action-mcq-23": "「人們進行的任務、運動、娛樂或其他活動」是「activity — thing done」的用法，與本句語境不同。",
-        "action-mcq-22": "「能產生特定化學、生物或藥理作用的」是「active — chemical/medical」的用法，與本句語境不同。"
+        "action-mcq-26": "本句的「activation」指「令系統、功能或生物機制開始運作的過程」。",
+        "action-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "action-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "action-mcq-26"
     }
@@ -2556,5 +2304,7 @@ export default {
     "sha256": "c917ceea9447623b46b0518108b6ce3ac737efc9a859c2bbd1e486c30ef9f472",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

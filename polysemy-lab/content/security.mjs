@@ -982,11 +982,9 @@ export default {
       "masked": "The building has improved its ____.",
       "options": [
         "security-mcq-01",
-        "security-mcq-02",
-        "security-mcq-03",
-        "security-mcq-04",
-        "security-mcq-05",
-        "security-mcq-06"
+        "security-mcq-22",
+        "security-mcq-38",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security」指「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」。",
       "sentenceIndex": 2,
@@ -995,12 +993,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-01": "本句指「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-01": "本句的「security」指「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-01"
     },
@@ -1012,11 +1008,9 @@ export default {
       "masked": "Airport ____ is very strict.",
       "options": [
         "security-mcq-01",
-        "security-mcq-02",
-        "security-mcq-03",
-        "security-mcq-04",
-        "security-mcq-05",
-        "security-mcq-06"
+        "security-mcq-36",
+        "security-mcq-22",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security」指「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」。",
       "sentenceIndex": 3,
@@ -1025,12 +1019,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-01": "本句指「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-01": "本句的「security」指「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-01"
     },
@@ -1042,11 +1034,9 @@ export default {
       "masked": "The hotel has several ____ in place.",
       "options": [
         "security-mcq-02",
-        "security-mcq-01",
-        "security-mcq-03",
-        "security-mcq-04",
-        "security-mcq-05",
-        "security-mcq-06"
+        "security-mcq-37",
+        "security-mcq-21",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security measures」指「用來保持安全的制度、設備、人員和措施」。",
       "sentenceIndex": 4,
@@ -1055,12 +1045,10 @@ export default {
         "security measures"
       ],
       "optionReasons": {
-        "security-mcq-02": "本句指「用來保持安全的制度、設備、人員和措施」。",
-        "security-mcq-01": "「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-02": "本句的「security measures」指「用來保持安全的制度、設備、人員和措施」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-02"
     },
@@ -1072,11 +1060,9 @@ export default {
       "masked": "They increased ____ after the incident.",
       "options": [
         "security-mcq-02",
-        "security-mcq-01",
-        "security-mcq-03",
-        "security-mcq-04",
-        "security-mcq-05",
-        "security-mcq-06"
+        "security-mcq-37",
+        "security-mcq-22",
+        "security-mcq-36"
       ],
       "explanation": "本句的「security」指「用來保持安全的制度、設備、人員和措施」。",
       "sentenceIndex": 5,
@@ -1085,12 +1071,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-02": "本句指「用來保持安全的制度、設備、人員和措施」。",
-        "security-mcq-01": "「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-02": "本句的「security」指「用來保持安全的制度、設備、人員和措施」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-02"
     },
@@ -1102,11 +1086,9 @@ export default {
       "masked": "Ask the ____ for directions.",
       "options": [
         "security-mcq-03",
-        "security-mcq-02",
-        "security-mcq-04",
-        "security-mcq-01",
-        "security-mcq-05",
-        "security-mcq-06"
+        "security-mcq-22",
+        "security-mcq-38",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security guard」指「負責保護建築、財物、人員及監察出入的保安員／警衛」。",
       "sentenceIndex": 6,
@@ -1115,12 +1097,10 @@ export default {
         "security guard"
       ],
       "optionReasons": {
-        "security-mcq-03": "本句指「負責保護建築、財物、人員及監察出入的保安員／警衛」。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-01": "「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-03": "本句的「security guard」指「負責保護建築、財物、人員及監察出入的保安員／警衛」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-03"
     },
@@ -1132,11 +1112,9 @@ export default {
       "masked": "The ____ noticed something unusual.",
       "options": [
         "security-mcq-03",
-        "security-mcq-02",
-        "security-mcq-04",
-        "security-mcq-01",
-        "security-mcq-05",
-        "security-mcq-06"
+        "security-mcq-21",
+        "security-mcq-37",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security guard」指「負責保護建築、財物、人員及監察出入的保安員／警衛」。",
       "sentenceIndex": 7,
@@ -1145,12 +1123,10 @@ export default {
         "security guard"
       ],
       "optionReasons": {
-        "security-mcq-03": "本句指「負責保護建築、財物、人員及監察出入的保安員／警衛」。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-01": "「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-03": "本句的「security guard」指「負責保護建築、財物、人員及監察出入的保安員／警衛」。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-03"
     },
@@ -1162,11 +1138,9 @@ export default {
       "masked": "____ searched the area.",
       "options": [
         "security-mcq-04",
-        "security-mcq-03",
-        "security-mcq-05",
-        "security-mcq-02",
-        "security-mcq-06",
-        "security-mcq-01"
+        "security-mcq-37",
+        "security-mcq-22",
+        "security-mcq-36"
       ],
       "explanation": "本句的「Security staff」指「專門負責安全與保護工作的保安人員」。",
       "sentenceIndex": 8,
@@ -1175,12 +1149,10 @@ export default {
         "Security staff"
       ],
       "optionReasons": {
-        "security-mcq-04": "本句指「專門負責安全與保護工作的保安人員」。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-01": "「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」與本句語境不同。"
+        "security-mcq-04": "本句的「Security staff」指「專門負責安全與保護工作的保安人員」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-04"
     },
@@ -1192,11 +1164,9 @@ export default {
       "masked": "Please follow the instructions of ____.",
       "options": [
         "security-mcq-04",
-        "security-mcq-03",
-        "security-mcq-05",
-        "security-mcq-02",
-        "security-mcq-06",
-        "security-mcq-01"
+        "security-mcq-22",
+        "security-mcq-37",
+        "security-mcq-36"
       ],
       "explanation": "本句的「security personnel」指「專門負責安全與保護工作的保安人員」。",
       "sentenceIndex": 9,
@@ -1205,12 +1175,10 @@ export default {
         "security personnel"
       ],
       "optionReasons": {
-        "security-mcq-04": "本句指「專門負責安全與保護工作的保安人員」。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-01": "「免受危險、犯罪、攻擊、偷竊等威脅的安全／保安」與本句語境不同。"
+        "security-mcq-04": "本句的「security personnel」指「專門負責安全與保護工作的保安人員」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-04"
     },
@@ -1222,11 +1190,9 @@ export default {
       "masked": "Call ____ if you see anything suspicious.",
       "options": [
         "security-mcq-05",
-        "security-mcq-04",
-        "security-mcq-06",
-        "security-mcq-03",
-        "security-mcq-07",
-        "security-mcq-02"
+        "security-mcq-21",
+        "security-mcq-37",
+        "security-mcq-36"
       ],
       "explanation": "本句的「security」指「組織內負責安全工作的保安部門／人員」。",
       "sentenceIndex": 10,
@@ -1235,12 +1201,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-05": "本句指「組織內負責安全工作的保安部門／人員」。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。"
+        "security-mcq-05": "本句的「security」指「組織內負責安全工作的保安部門／人員」。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-05"
     },
@@ -1252,11 +1216,9 @@ export default {
       "masked": "____ escorted him from the building.",
       "options": [
         "security-mcq-05",
-        "security-mcq-04",
-        "security-mcq-06",
-        "security-mcq-03",
-        "security-mcq-07",
-        "security-mcq-02"
+        "security-mcq-36",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「Security」指「組織內負責安全工作的保安部門／人員」。",
       "sentenceIndex": 11,
@@ -1265,12 +1227,10 @@ export default {
         "Security"
       ],
       "optionReasons": {
-        "security-mcq-05": "本句指「組織內負責安全工作的保安部門／人員」。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-02": "「用來保持安全的制度、設備、人員和措施」與本句語境不同。"
+        "security-mcq-05": "本句的「Security」指「組織內負責安全工作的保安部門／人員」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-05"
     },
@@ -1282,11 +1242,9 @@ export default {
       "masked": "The incident was recorded by a ____.",
       "options": [
         "security-mcq-06",
-        "security-mcq-05",
-        "security-mcq-07",
-        "security-mcq-04",
-        "security-mcq-08",
-        "security-mcq-03"
+        "security-mcq-38",
+        "security-mcq-22",
+        "security-mcq-28"
       ],
       "explanation": "本句的「security camera」指「用於監察及防止犯罪的保安／監控攝影機」。",
       "sentenceIndex": 12,
@@ -1295,12 +1253,10 @@ export default {
         "security camera"
       ],
       "optionReasons": {
-        "security-mcq-06": "本句指「用於監察及防止犯罪的保安／監控攝影機」。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。"
+        "security-mcq-06": "本句的「security camera」指「用於監察及防止犯罪的保安／監控攝影機」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-06"
     },
@@ -1312,11 +1268,9 @@ export default {
       "masked": "Several ____ cover the entrance.",
       "options": [
         "security-mcq-06",
-        "security-mcq-05",
-        "security-mcq-07",
-        "security-mcq-04",
-        "security-mcq-08",
-        "security-mcq-03"
+        "security-mcq-37",
+        "security-mcq-28",
+        "security-mcq-21"
       ],
       "explanation": "本句的「security cameras」指「用於監察及防止犯罪的保安／監控攝影機」。",
       "sentenceIndex": 13,
@@ -1325,12 +1279,10 @@ export default {
         "security cameras"
       ],
       "optionReasons": {
-        "security-mcq-06": "本句指「用於監察及防止犯罪的保安／監控攝影機」。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-03": "「負責保護建築、財物、人員及監察出入的保安員／警衛」與本句語境不同。"
+        "security-mcq-06": "本句的「security cameras」指「用於監察及防止犯罪的保安／監控攝影機」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-06"
     },
@@ -1342,11 +1294,9 @@ export default {
       "masked": "The house has a modern ____.",
       "options": [
         "security-mcq-07",
-        "security-mcq-06",
-        "security-mcq-08",
-        "security-mcq-05",
-        "security-mcq-09",
-        "security-mcq-04"
+        "security-mcq-36",
+        "security-mcq-22",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security system」指「用來保護建築、系統等的保安／安全系統」。",
       "sentenceIndex": 14,
@@ -1355,12 +1305,10 @@ export default {
         "security system"
       ],
       "optionReasons": {
-        "security-mcq-07": "本句指「用來保護建築、系統等的保安／安全系統」。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。"
+        "security-mcq-07": "本句的「security system」指「用來保護建築、系統等的保安／安全系統」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-07"
     },
@@ -1372,11 +1320,9 @@ export default {
       "masked": "The company upgraded its ____.",
       "options": [
         "security-mcq-07",
-        "security-mcq-06",
-        "security-mcq-08",
-        "security-mcq-05",
-        "security-mcq-09",
-        "security-mcq-04"
+        "security-mcq-37",
+        "security-mcq-36",
+        "security-mcq-22"
       ],
       "explanation": "本句的「security system」指「用來保護建築、系統等的保安／安全系統」。",
       "sentenceIndex": 15,
@@ -1385,12 +1331,10 @@ export default {
         "security system"
       ],
       "optionReasons": {
-        "security-mcq-07": "本句指「用來保護建築、系統等的保安／安全系統」。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-04": "「專門負責安全與保護工作的保安人員」與本句語境不同。"
+        "security-mcq-07": "本句的「security system」指「用來保護建築、系統等的保安／安全系統」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-07"
     },
@@ -1402,11 +1346,9 @@ export default {
       "masked": "The ____ went off during the night.",
       "options": [
         "security-mcq-08",
-        "security-mcq-07",
-        "security-mcq-09",
-        "security-mcq-06",
-        "security-mcq-10",
-        "security-mcq-05"
+        "security-mcq-22",
+        "security-mcq-37",
+        "security-mcq-36"
       ],
       "explanation": "本句的「security alarm」指「防止或警告入侵、偷竊等的保安警報」。",
       "sentenceIndex": 16,
@@ -1415,12 +1357,10 @@ export default {
         "security alarm"
       ],
       "optionReasons": {
-        "security-mcq-08": "本句指「防止或警告入侵、偷竊等的保安警報」。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。"
+        "security-mcq-08": "本句的「security alarm」指「防止或警告入侵、偷竊等的保安警報」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-08"
     },
@@ -1432,11 +1372,9 @@ export default {
       "masked": "They installed a new ____.",
       "options": [
         "security-mcq-08",
-        "security-mcq-07",
-        "security-mcq-09",
-        "security-mcq-06",
-        "security-mcq-10",
-        "security-mcq-05"
+        "security-mcq-22",
+        "security-mcq-37",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security alarm」指「防止或警告入侵、偷竊等的保安警報」。",
       "sentenceIndex": 17,
@@ -1445,12 +1383,10 @@ export default {
         "security alarm"
       ],
       "optionReasons": {
-        "security-mcq-08": "本句指「防止或警告入侵、偷竊等的保安警報」。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-05": "「組織內負責安全工作的保安部門／人員」與本句語境不同。"
+        "security-mcq-08": "本句的「security alarm」指「防止或警告入侵、偷竊等的保安警報」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-08"
     },
@@ -1462,11 +1398,9 @@ export default {
       "masked": "We went through a ____ before entering.",
       "options": [
         "security-mcq-09",
-        "security-mcq-08",
-        "security-mcq-10",
-        "security-mcq-07",
-        "security-mcq-11",
-        "security-mcq-06"
+        "security-mcq-15",
+        "security-mcq-37",
+        "security-mcq-21"
       ],
       "explanation": "本句的「security check」指「為防止危險物品／人士進入而進行的安全檢查」。",
       "sentenceIndex": 18,
@@ -1475,12 +1409,10 @@ export default {
         "security check"
       ],
       "optionReasons": {
-        "security-mcq-09": "本句指「為防止危險物品／人士進入而進行的安全檢查」。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-09": "本句的「security check」指「為防止危險物品／人士進入而進行的安全檢查」。",
+        "security-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-09"
     },
@@ -1492,11 +1424,9 @@ export default {
       "masked": "Bags may be opened during the ____.",
       "options": [
         "security-mcq-09",
-        "security-mcq-08",
-        "security-mcq-10",
-        "security-mcq-07",
-        "security-mcq-11",
-        "security-mcq-06"
+        "security-mcq-18",
+        "security-mcq-35",
+        "security-mcq-22"
       ],
       "explanation": "本句的「security check」指「為防止危險物品／人士進入而進行的安全檢查」。",
       "sentenceIndex": 19,
@@ -1505,12 +1435,10 @@ export default {
         "security check"
       ],
       "optionReasons": {
-        "security-mcq-09": "本句指「為防止危險物品／人士進入而進行的安全檢查」。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-06": "「用於監察及防止犯罪的保安／監控攝影機」與本句語境不同。"
+        "security-mcq-09": "本句的「security check」指「為防止危險物品／人士進入而進行的安全檢查」。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-09"
     },
@@ -1522,11 +1450,9 @@ export default {
       "masked": "Passengers must complete ____.",
       "options": [
         "security-mcq-10",
-        "security-mcq-09",
-        "security-mcq-11",
-        "security-mcq-08",
-        "security-mcq-12",
-        "security-mcq-07"
+        "security-mcq-15",
+        "security-mcq-37",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security screening」指「對人、行李等進行的正式安全篩查」。",
       "sentenceIndex": 20,
@@ -1535,12 +1461,10 @@ export default {
         "security screening"
       ],
       "optionReasons": {
-        "security-mcq-10": "本句指「對人、行李等進行的正式安全篩查」。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。"
+        "security-mcq-10": "本句的「security screening」指「對人、行李等進行的正式安全篩查」。",
+        "security-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-10"
     },
@@ -1552,11 +1476,9 @@ export default {
       "masked": "The bags passed through ____.",
       "options": [
         "security-mcq-10",
-        "security-mcq-09",
-        "security-mcq-11",
-        "security-mcq-08",
-        "security-mcq-12",
-        "security-mcq-07"
+        "security-mcq-37",
+        "security-mcq-22",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security screening」指「對人、行李等進行的正式安全篩查」。",
       "sentenceIndex": 21,
@@ -1565,12 +1487,10 @@ export default {
         "security screening"
       ],
       "optionReasons": {
-        "security-mcq-10": "本句指「對人、行李等進行的正式安全篩查」。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-07": "「用來保護建築、系統等的保安／安全系統」與本句語境不同。"
+        "security-mcq-10": "本句的「security screening」指「對人、行李等進行的正式安全篩查」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-10"
     },
@@ -1582,11 +1502,9 @@ export default {
       "masked": "Children need a sense of ____.",
       "options": [
         "security-mcq-11",
-        "security-mcq-10",
-        "security-mcq-12",
-        "security-mcq-09",
-        "security-mcq-13",
-        "security-mcq-08"
+        "security-mcq-28",
+        "security-mcq-20",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security」指「感到受保護、無須擔心的安全感」。",
       "sentenceIndex": 22,
@@ -1595,12 +1513,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-11": "本句指「感到受保護、無須擔心的安全感」。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。"
+        "security-mcq-11": "本句的「security」指「感到受保護、無須擔心的安全感」。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-11"
     },
@@ -1612,11 +1528,9 @@ export default {
       "masked": "The familiar routine gave her ____.",
       "options": [
         "security-mcq-11",
-        "security-mcq-10",
-        "security-mcq-12",
-        "security-mcq-09",
-        "security-mcq-13",
-        "security-mcq-08"
+        "security-mcq-37",
+        "security-mcq-20",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security」指「感到受保護、無須擔心的安全感」。",
       "sentenceIndex": 23,
@@ -1625,12 +1539,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-11": "本句指「感到受保護、無須擔心的安全感」。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-08": "「防止或警告入侵、偷竊等的保安警報」與本句語境不同。"
+        "security-mcq-11": "本句的「security」指「感到受保護、無須擔心的安全感」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-11"
     },
@@ -1642,11 +1554,9 @@ export default {
       "masked": "Stable relationships can provide a ____.",
       "options": [
         "security-mcq-12",
-        "security-mcq-11",
-        "security-mcq-13",
-        "security-mcq-10",
-        "security-mcq-14",
-        "security-mcq-09"
+        "security-mcq-38",
+        "security-mcq-37",
+        "security-mcq-22"
       ],
       "explanation": "本句的「sense of security」指「自己處於安全、受保障狀態的感覺」。",
       "sentenceIndex": 24,
@@ -1655,12 +1565,10 @@ export default {
         "sense of security"
       ],
       "optionReasons": {
-        "security-mcq-12": "本句指「自己處於安全、受保障狀態的感覺」。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。"
+        "security-mcq-12": "本句的「sense of security」指「自己處於安全、受保障狀態的感覺」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-12"
     },
@@ -1672,11 +1580,9 @@ export default {
       "masked": "The lock gave him a false ____.",
       "options": [
         "security-mcq-12",
-        "security-mcq-11",
-        "security-mcq-13",
-        "security-mcq-10",
-        "security-mcq-14",
-        "security-mcq-09"
+        "security-mcq-38",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「sense of security」指「自己處於安全、受保障狀態的感覺」。",
       "sentenceIndex": 25,
@@ -1685,12 +1591,10 @@ export default {
         "sense of security"
       ],
       "optionReasons": {
-        "security-mcq-12": "本句指「自己處於安全、受保障狀態的感覺」。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-09": "「為防止危險物品／人士進入而進行的安全檢查」與本句語境不同。"
+        "security-mcq-12": "本句的「sense of security」指「自己處於安全、受保障狀態的感覺」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-12"
     },
@@ -1702,11 +1606,9 @@ export default {
       "masked": "The warning system may create a ____.",
       "options": [
         "security-mcq-13",
-        "security-mcq-12",
         "security-mcq-14",
-        "security-mcq-11",
-        "security-mcq-15",
-        "security-mcq-10"
+        "security-mcq-28",
+        "security-mcq-38"
       ],
       "explanation": "本句的「false sense of security」指「實際並不安全卻誤以為安全的錯覺」。",
       "sentenceIndex": 26,
@@ -1715,12 +1617,10 @@ export default {
         "false sense of security"
       ],
       "optionReasons": {
-        "security-mcq-13": "本句指「實際並不安全卻誤以為安全的錯覺」。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。"
+        "security-mcq-13": "本句的「false sense of security」指「實際並不安全卻誤以為安全的錯覺」。",
+        "security-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-13"
     },
@@ -1732,11 +1632,9 @@ export default {
       "masked": "Don’t let familiarity give you a ____.",
       "options": [
         "security-mcq-13",
-        "security-mcq-12",
-        "security-mcq-14",
-        "security-mcq-11",
-        "security-mcq-15",
-        "security-mcq-10"
+        "security-mcq-17",
+        "security-mcq-18",
+        "security-mcq-19"
       ],
       "explanation": "本句的「false sense of security」指「實際並不安全卻誤以為安全的錯覺」。",
       "sentenceIndex": 27,
@@ -1745,12 +1643,10 @@ export default {
         "false sense of security"
       ],
       "optionReasons": {
-        "security-mcq-13": "本句指「實際並不安全卻誤以為安全的錯覺」。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-10": "「對人、行李等進行的正式安全篩查」與本句語境不同。"
+        "security-mcq-13": "本句的「false sense of security」指「實際並不安全卻誤以為安全的錯覺」。",
+        "security-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-13"
     },
@@ -1762,11 +1658,9 @@ export default {
       "masked": "A steady income gave the family financial ____.",
       "options": [
         "security-mcq-14",
-        "security-mcq-13",
-        "security-mcq-15",
-        "security-mcq-12",
-        "security-mcq-16",
-        "security-mcq-11"
+        "security-mcq-23",
+        "security-mcq-33",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security」指「不容易失去工作、收入、住所等的保障／穩定」。",
       "sentenceIndex": 28,
@@ -1775,12 +1669,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-14": "本句指「不容易失去工作、收入、住所等的保障／穩定」。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。"
+        "security-mcq-14": "本句的「security」指「不容易失去工作、收入、住所等的保障／穩定」。",
+        "security-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-14"
     },
@@ -1793,10 +1685,8 @@ export default {
       "options": [
         "security-mcq-14",
         "security-mcq-13",
-        "security-mcq-15",
-        "security-mcq-12",
-        "security-mcq-16",
-        "security-mcq-11"
+        "security-mcq-37",
+        "security-mcq-33"
       ],
       "explanation": "本句的「security」指「不容易失去工作、收入、住所等的保障／穩定」。",
       "sentenceIndex": 29,
@@ -1805,12 +1695,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-14": "本句指「不容易失去工作、收入、住所等的保障／穩定」。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-11": "「感到受保護、無須擔心的安全感」與本句語境不同。"
+        "security-mcq-14": "本句的「security」指「不容易失去工作、收入、住所等的保障／穩定」。",
+        "security-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-14"
     },
@@ -1822,11 +1710,9 @@ export default {
       "masked": "Many workers value ____.",
       "options": [
         "security-mcq-15",
-        "security-mcq-14",
-        "security-mcq-16",
-        "security-mcq-13",
-        "security-mcq-17",
-        "security-mcq-12"
+        "security-mcq-33",
+        "security-mcq-10",
+        "security-mcq-37"
       ],
       "explanation": "本句的「job security」指「不容易失去工作的職位保障／工作穩定性」。",
       "sentenceIndex": 30,
@@ -1835,12 +1721,10 @@ export default {
         "job security"
       ],
       "optionReasons": {
-        "security-mcq-15": "本句指「不容易失去工作的職位保障／工作穩定性」。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。"
+        "security-mcq-15": "本句的「job security」指「不容易失去工作的職位保障／工作穩定性」。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-15"
     },
@@ -1852,11 +1736,9 @@ export default {
       "masked": "The restructuring created concerns about ____.",
       "options": [
         "security-mcq-15",
-        "security-mcq-14",
-        "security-mcq-16",
-        "security-mcq-13",
-        "security-mcq-17",
-        "security-mcq-12"
+        "security-mcq-27",
+        "security-mcq-22",
+        "security-mcq-37"
       ],
       "explanation": "本句的「job security」指「不容易失去工作的職位保障／工作穩定性」。",
       "sentenceIndex": 31,
@@ -1865,12 +1747,10 @@ export default {
         "job security"
       ],
       "optionReasons": {
-        "security-mcq-15": "本句指「不容易失去工作的職位保障／工作穩定性」。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-12": "「自己處於安全、受保障狀態的感覺」與本句語境不同。"
+        "security-mcq-15": "本句的「job security」指「不容易失去工作的職位保障／工作穩定性」。",
+        "security-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-15"
     },
@@ -1882,11 +1762,9 @@ export default {
       "masked": "She saved money to build long-term ____.",
       "options": [
         "security-mcq-16",
-        "security-mcq-15",
-        "security-mcq-17",
-        "security-mcq-14",
-        "security-mcq-18",
-        "security-mcq-13"
+        "security-mcq-36",
+        "security-mcq-13",
+        "security-mcq-33"
       ],
       "explanation": "本句的「financial security」指「有足夠穩定收入、儲蓄等帶來的財務保障」。",
       "sentenceIndex": 32,
@@ -1895,12 +1773,10 @@ export default {
         "financial security"
       ],
       "optionReasons": {
-        "security-mcq-16": "本句指「有足夠穩定收入、儲蓄等帶來的財務保障」。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。"
+        "security-mcq-16": "本句的「financial security」指「有足夠穩定收入、儲蓄等帶來的財務保障」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-16"
     },
@@ -1912,11 +1788,9 @@ export default {
       "masked": "A stable income can provide greater ____.",
       "options": [
         "security-mcq-16",
-        "security-mcq-15",
-        "security-mcq-17",
-        "security-mcq-14",
-        "security-mcq-18",
-        "security-mcq-13"
+        "security-mcq-23",
+        "security-mcq-37",
+        "security-mcq-36"
       ],
       "explanation": "本句的「financial security」指「有足夠穩定收入、儲蓄等帶來的財務保障」。",
       "sentenceIndex": 33,
@@ -1925,12 +1799,10 @@ export default {
         "financial security"
       ],
       "optionReasons": {
-        "security-mcq-16": "本句指「有足夠穩定收入、儲蓄等帶來的財務保障」。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-13": "「實際並不安全卻誤以為安全的錯覺」與本句語境不同。"
+        "security-mcq-16": "本句的「financial security」指「有足夠穩定收入、儲蓄等帶來的財務保障」。",
+        "security-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-16"
     },
@@ -1942,11 +1814,9 @@ export default {
       "masked": "Tenants wanted greater ____.",
       "options": [
         "security-mcq-17",
-        "security-mcq-16",
-        "security-mcq-18",
-        "security-mcq-15",
-        "security-mcq-19",
-        "security-mcq-14"
+        "security-mcq-32",
+        "security-mcq-22",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security of tenure」指「不會輕易失去租住權／職位等的保障」。",
       "sentenceIndex": 34,
@@ -1955,12 +1825,10 @@ export default {
         "security of tenure"
       ],
       "optionReasons": {
-        "security-mcq-17": "本句指「不會輕易失去租住權／職位等的保障」。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。"
+        "security-mcq-17": "本句的「security of tenure」指「不會輕易失去租住權／職位等的保障」。",
+        "security-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-17"
     },
@@ -1972,11 +1840,9 @@ export default {
       "masked": "The agreement provides some ____.",
       "options": [
         "security-mcq-17",
-        "security-mcq-16",
-        "security-mcq-18",
-        "security-mcq-15",
-        "security-mcq-19",
-        "security-mcq-14"
+        "security-mcq-44",
+        "security-mcq-38",
+        "security-mcq-33"
       ],
       "explanation": "本句的「security of tenure」指「不會輕易失去租住權／職位等的保障」。",
       "sentenceIndex": 35,
@@ -1985,12 +1851,10 @@ export default {
         "security of tenure"
       ],
       "optionReasons": {
-        "security-mcq-17": "本句指「不會輕易失去租住權／職位等的保障」。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-14": "「不容易失去工作、收入、住所等的保障／穩定」與本句語境不同。"
+        "security-mcq-17": "本句的「security of tenure」指「不會輕易失去租住權／職位等的保障」。",
+        "security-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-17"
     },
@@ -2002,11 +1866,9 @@ export default {
       "masked": "The landlord asked for a ____.",
       "options": [
         "security-mcq-18",
-        "security-mcq-17",
-        "security-mcq-19",
-        "security-mcq-16",
-        "security-mcq-20",
-        "security-mcq-15"
+        "security-mcq-33",
+        "security-mcq-42",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security deposit」指「為租賃、合約等預先繳交的按金／保證金」。",
       "sentenceIndex": 36,
@@ -2015,12 +1877,10 @@ export default {
         "security deposit"
       ],
       "optionReasons": {
-        "security-mcq-18": "本句指「為租賃、合約等預先繳交的按金／保證金」。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。"
+        "security-mcq-18": "本句的「security deposit」指「為租賃、合約等預先繳交的按金／保證金」。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-18"
     },
@@ -2032,11 +1892,9 @@ export default {
       "masked": "The ____ may be returned when the lease ends.",
       "options": [
         "security-mcq-18",
-        "security-mcq-17",
-        "security-mcq-19",
-        "security-mcq-16",
-        "security-mcq-20",
-        "security-mcq-15"
+        "security-mcq-38",
+        "security-mcq-39",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security deposit」指「為租賃、合約等預先繳交的按金／保證金」。",
       "sentenceIndex": 37,
@@ -2045,12 +1903,10 @@ export default {
         "security deposit"
       ],
       "optionReasons": {
-        "security-mcq-18": "本句指「為租賃、合約等預先繳交的按金／保證金」。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-15": "「不容易失去工作的職位保障／工作穩定性」與本句語境不同。"
+        "security-mcq-18": "本句的「security deposit」指「為租賃、合約等預先繳交的按金／保證金」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-18"
     },
@@ -2062,11 +1918,9 @@ export default {
       "masked": "The bank required ____ for the loan.",
       "options": [
         "security-mcq-19",
-        "security-mcq-18",
-        "security-mcq-20",
-        "security-mcq-17",
-        "security-mcq-21",
-        "security-mcq-16"
+        "security-mcq-42",
+        "security-mcq-28",
+        "security-mcq-33"
       ],
       "explanation": "本句的「security」指「為債務／貸款提供的抵押品或擔保」。",
       "sentenceIndex": 38,
@@ -2075,12 +1929,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-19": "本句指「為債務／貸款提供的抵押品或擔保」。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。"
+        "security-mcq-19": "本句的「security」指「為債務／貸款提供的抵押品或擔保」。",
+        "security-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-19"
     },
@@ -2092,11 +1944,9 @@ export default {
       "masked": "The property was offered as ____.",
       "options": [
         "security-mcq-19",
-        "security-mcq-18",
-        "security-mcq-20",
-        "security-mcq-17",
-        "security-mcq-21",
-        "security-mcq-16"
+        "security-mcq-23",
+        "security-mcq-38",
+        "security-mcq-33"
       ],
       "explanation": "本句的「security」指「為債務／貸款提供的抵押品或擔保」。",
       "sentenceIndex": 39,
@@ -2105,12 +1955,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-19": "本句指「為債務／貸款提供的抵押品或擔保」。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。"
+        "security-mcq-19": "本句的「security」指「為債務／貸款提供的抵押品或擔保」。",
+        "security-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-19"
     },
@@ -2122,11 +1970,9 @@ export default {
       "masked": "He used the house to ____.",
       "options": [
         "security-mcq-19",
-        "security-mcq-18",
-        "security-mcq-20",
-        "security-mcq-17",
-        "security-mcq-21",
-        "security-mcq-16"
+        "security-mcq-32",
+        "security-mcq-33",
+        "security-mcq-38"
       ],
       "explanation": "本句的「provide security for the loan」指「為債務／貸款提供的抵押品或擔保」。",
       "sentenceIndex": 40,
@@ -2135,12 +1981,10 @@ export default {
         "provide security for the loan"
       ],
       "optionReasons": {
-        "security-mcq-19": "本句指「為債務／貸款提供的抵押品或擔保」。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。"
+        "security-mcq-19": "本句的「provide security for the loan」指「為債務／貸款提供的抵押品或擔保」。",
+        "security-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-19"
     },
@@ -2152,11 +1996,9 @@ export default {
       "masked": "The lender asked for additional ____.",
       "options": [
         "security-mcq-19",
-        "security-mcq-18",
-        "security-mcq-20",
-        "security-mcq-17",
-        "security-mcq-21",
-        "security-mcq-16"
+        "security-mcq-27",
+        "security-mcq-38",
+        "security-mcq-33"
       ],
       "explanation": "本句的「security」指「為債務／貸款提供的抵押品或擔保」。",
       "sentenceIndex": 41,
@@ -2165,12 +2007,10 @@ export default {
         "security"
       ],
       "optionReasons": {
-        "security-mcq-19": "本句指「為債務／貸款提供的抵押品或擔保」。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-16": "「有足夠穩定收入、儲蓄等帶來的財務保障」與本句語境不同。"
+        "security-mcq-19": "本句的「security」指「為債務／貸款提供的抵押品或擔保」。",
+        "security-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-19"
     },
@@ -2182,11 +2022,9 @@ export default {
       "masked": "The fund invests in government ____.",
       "options": [
         "security-mcq-20",
-        "security-mcq-19",
-        "security-mcq-21",
-        "security-mcq-18",
-        "security-mcq-22",
-        "security-mcq-17"
+        "security-mcq-13",
+        "security-mcq-06",
+        "security-mcq-33"
       ],
       "explanation": "本句的「securities」指「股票、債券等可交易的金融證券」。",
       "sentenceIndex": 42,
@@ -2195,12 +2033,10 @@ export default {
         "securities"
       ],
       "optionReasons": {
-        "security-mcq-20": "本句指「股票、債券等可交易的金融證券」。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。"
+        "security-mcq-20": "本句的「securities」指「股票、債券等可交易的金融證券」。",
+        "security-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-20"
     },
@@ -2212,11 +2048,9 @@ export default {
       "masked": "Shares and bonds are types of ____.",
       "options": [
         "security-mcq-20",
-        "security-mcq-19",
-        "security-mcq-21",
-        "security-mcq-18",
-        "security-mcq-22",
-        "security-mcq-17"
+        "security-mcq-39",
+        "security-mcq-33",
+        "security-mcq-38"
       ],
       "explanation": "本句的「securities」指「股票、債券等可交易的金融證券」。",
       "sentenceIndex": 43,
@@ -2225,12 +2059,10 @@ export default {
         "securities"
       ],
       "optionReasons": {
-        "security-mcq-20": "本句指「股票、債券等可交易的金融證券」。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-17": "「不會輕易失去租住權／職位等的保障」與本句語境不同。"
+        "security-mcq-20": "本句的「securities」指「股票、債券等可交易的金融證券」。",
+        "security-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-20"
     },
@@ -2242,11 +2074,9 @@ export default {
       "masked": "The firm trades in ____.",
       "options": [
         "security-mcq-21",
-        "security-mcq-20",
-        "security-mcq-22",
-        "security-mcq-19",
-        "security-mcq-23",
-        "security-mcq-18"
+        "security-mcq-30",
+        "security-mcq-38",
+        "security-mcq-35"
       ],
       "explanation": "本句的「securities」指「股票、債券等證券的統稱」。",
       "sentenceIndex": 44,
@@ -2255,12 +2085,10 @@ export default {
         "securities"
       ],
       "optionReasons": {
-        "security-mcq-21": "本句指「股票、債券等證券的統稱」。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。"
+        "security-mcq-21": "本句的「securities」指「股票、債券等證券的統稱」。",
+        "security-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-21"
     },
@@ -2272,11 +2100,9 @@ export default {
       "masked": "The portfolio includes foreign ____.",
       "options": [
         "security-mcq-21",
-        "security-mcq-20",
-        "security-mcq-22",
-        "security-mcq-19",
-        "security-mcq-23",
-        "security-mcq-18"
+        "security-mcq-42",
+        "security-mcq-36",
+        "security-mcq-03"
       ],
       "explanation": "本句的「securities」指「股票、債券等證券的統稱」。",
       "sentenceIndex": 45,
@@ -2285,12 +2111,10 @@ export default {
         "securities"
       ],
       "optionReasons": {
-        "security-mcq-21": "本句指「股票、債券等證券的統稱」。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-18": "「為租賃、合約等預先繳交的按金／保證金」與本句語境不同。"
+        "security-mcq-21": "本句的「securities」指「股票、債券等證券的統稱」。",
+        "security-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-21"
     },
@@ -2302,11 +2126,9 @@ export default {
       "masked": "The company entered the ____.",
       "options": [
         "security-mcq-22",
-        "security-mcq-21",
-        "security-mcq-23",
-        "security-mcq-20",
-        "security-mcq-24",
-        "security-mcq-19"
+        "security-mcq-29",
+        "security-mcq-33",
+        "security-mcq-38"
       ],
       "explanation": "本句的「securities market」指「買賣證券的市場」。",
       "sentenceIndex": 46,
@@ -2315,12 +2137,10 @@ export default {
         "securities market"
       ],
       "optionReasons": {
-        "security-mcq-22": "本句指「買賣證券的市場」。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。"
+        "security-mcq-22": "本句的「securities market」指「買賣證券的市場」。",
+        "security-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-22"
     },
@@ -2332,11 +2152,9 @@ export default {
       "masked": "Regulations apply to the ____.",
       "options": [
         "security-mcq-22",
-        "security-mcq-21",
-        "security-mcq-23",
-        "security-mcq-20",
-        "security-mcq-24",
-        "security-mcq-19"
+        "security-mcq-44",
+        "security-mcq-08",
+        "security-mcq-33"
       ],
       "explanation": "本句的「securities market」指「買賣證券的市場」。",
       "sentenceIndex": 47,
@@ -2345,12 +2163,10 @@ export default {
         "securities market"
       ],
       "optionReasons": {
-        "security-mcq-22": "本句指「買賣證券的市場」。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-19": "「為債務／貸款提供的抵押品或擔保」與本句語境不同。"
+        "security-mcq-22": "本句的「securities market」指「買賣證券的市場」。",
+        "security-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-22"
     },
@@ -2362,11 +2178,9 @@ export default {
       "masked": "____ is essential for businesses.",
       "options": [
         "security-mcq-23",
-        "security-mcq-22",
-        "security-mcq-24",
-        "security-mcq-21",
-        "security-mcq-25",
-        "security-mcq-20"
+        "security-mcq-38",
+        "security-mcq-19",
+        "security-mcq-18"
       ],
       "explanation": "本句的「Computer security」指「防止電腦／系統遭未授權存取或攻擊的安全措施」。",
       "sentenceIndex": 48,
@@ -2375,12 +2189,10 @@ export default {
         "Computer security"
       ],
       "optionReasons": {
-        "security-mcq-23": "本句指「防止電腦／系統遭未授權存取或攻擊的安全措施」。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。"
+        "security-mcq-23": "本句的「Computer security」指「防止電腦／系統遭未授權存取或攻擊的安全措施」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-23"
     },
@@ -2392,11 +2204,9 @@ export default {
       "masked": "Staff receive training in ____.",
       "options": [
         "security-mcq-23",
-        "security-mcq-22",
-        "security-mcq-24",
-        "security-mcq-21",
-        "security-mcq-25",
-        "security-mcq-20"
+        "security-mcq-16",
+        "security-mcq-38",
+        "security-mcq-18"
       ],
       "explanation": "本句的「computer security」指「防止電腦／系統遭未授權存取或攻擊的安全措施」。",
       "sentenceIndex": 49,
@@ -2405,12 +2215,10 @@ export default {
         "computer security"
       ],
       "optionReasons": {
-        "security-mcq-23": "本句指「防止電腦／系統遭未授權存取或攻擊的安全措施」。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-20": "「股票、債券等可交易的金融證券」與本句語境不同。"
+        "security-mcq-23": "本句的「computer security」指「防止電腦／系統遭未授權存取或攻擊的安全措施」。",
+        "security-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-23"
     },
@@ -2422,11 +2230,9 @@ export default {
       "masked": "The company increased its ____ spending.",
       "options": [
         "security-mcq-24",
-        "security-mcq-23",
-        "security-mcq-25",
-        "security-mcq-22",
-        "security-mcq-26",
-        "security-mcq-21"
+        "security-mcq-37",
+        "security-mcq-20",
+        "security-mcq-38"
       ],
       "explanation": "本句的「cybersecurity」指「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」。",
       "sentenceIndex": 50,
@@ -2435,12 +2241,10 @@ export default {
         "cybersecurity"
       ],
       "optionReasons": {
-        "security-mcq-24": "本句指「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。"
+        "security-mcq-24": "本句的「cybersecurity」指「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-24"
     },
@@ -2452,11 +2256,9 @@ export default {
       "masked": "____ training helps employees recognize threats.",
       "options": [
         "security-mcq-24",
-        "security-mcq-23",
-        "security-mcq-25",
-        "security-mcq-22",
-        "security-mcq-26",
-        "security-mcq-21"
+        "security-mcq-37",
+        "security-mcq-28",
+        "security-mcq-22"
       ],
       "explanation": "本句的「Cyber security」指「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」。",
       "sentenceIndex": 51,
@@ -2465,12 +2267,10 @@ export default {
         "Cyber security"
       ],
       "optionReasons": {
-        "security-mcq-24": "本句指「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-21": "「股票、債券等證券的統稱」與本句語境不同。"
+        "security-mcq-24": "本句的「Cyber security」指「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-24"
     },
@@ -2482,11 +2282,9 @@ export default {
       "masked": "The company has strict ____ rules.",
       "options": [
         "security-mcq-25",
-        "security-mcq-24",
-        "security-mcq-26",
-        "security-mcq-23",
-        "security-mcq-27",
-        "security-mcq-22"
+        "security-mcq-38",
+        "security-mcq-19",
+        "security-mcq-35"
       ],
       "explanation": "本句的「information security」指「防止資訊被未授權存取、修改、披露等的資訊安全」。",
       "sentenceIndex": 52,
@@ -2495,12 +2293,10 @@ export default {
         "information security"
       ],
       "optionReasons": {
-        "security-mcq-25": "本句指「防止資訊被未授權存取、修改、披露等的資訊安全」。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。"
+        "security-mcq-25": "本句的「information security」指「防止資訊被未授權存取、修改、披露等的資訊安全」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-25"
     },
@@ -2512,11 +2308,9 @@ export default {
       "masked": "Password management is part of ____.",
       "options": [
         "security-mcq-25",
-        "security-mcq-24",
-        "security-mcq-26",
-        "security-mcq-23",
-        "security-mcq-27",
-        "security-mcq-22"
+        "security-mcq-22",
+        "security-mcq-35",
+        "security-mcq-36"
       ],
       "explanation": "本句的「information security」指「防止資訊被未授權存取、修改、披露等的資訊安全」。",
       "sentenceIndex": 53,
@@ -2525,12 +2319,10 @@ export default {
         "information security"
       ],
       "optionReasons": {
-        "security-mcq-25": "本句指「防止資訊被未授權存取、修改、披露等的資訊安全」。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-22": "「買賣證券的市場」與本句語境不同。"
+        "security-mcq-25": "本句的「information security」指「防止資訊被未授權存取、修改、披露等的資訊安全」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-25"
     },
@@ -2542,11 +2334,9 @@ export default {
       "masked": "Customers are concerned about ____.",
       "options": [
         "security-mcq-26",
-        "security-mcq-25",
-        "security-mcq-27",
-        "security-mcq-24",
-        "security-mcq-28",
-        "security-mcq-23"
+        "security-mcq-37",
+        "security-mcq-22",
+        "security-mcq-36"
       ],
       "explanation": "本句的「data security」指「保護儲存／傳輸資料免受未授權使用或損害的資料安全」。",
       "sentenceIndex": 54,
@@ -2555,12 +2345,10 @@ export default {
         "data security"
       ],
       "optionReasons": {
-        "security-mcq-26": "本句指「保護儲存／傳輸資料免受未授權使用或損害的資料安全」。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。"
+        "security-mcq-26": "本句的「data security」指「保護儲存／傳輸資料免受未授權使用或損害的資料安全」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-26"
     },
@@ -2572,11 +2360,9 @@ export default {
       "masked": "Encryption can improve ____.",
       "options": [
         "security-mcq-26",
-        "security-mcq-25",
-        "security-mcq-27",
-        "security-mcq-24",
-        "security-mcq-28",
-        "security-mcq-23"
+        "security-mcq-37",
+        "security-mcq-20",
+        "security-mcq-38"
       ],
       "explanation": "本句的「data security」指「保護儲存／傳輸資料免受未授權使用或損害的資料安全」。",
       "sentenceIndex": 55,
@@ -2585,12 +2371,10 @@ export default {
         "data security"
       ],
       "optionReasons": {
-        "security-mcq-26": "本句指「保護儲存／傳輸資料免受未授權使用或損害的資料安全」。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-23": "「防止電腦／系統遭未授權存取或攻擊的安全措施」與本句語境不同。"
+        "security-mcq-26": "本句的「data security」指「保護儲存／傳輸資料免受未授權使用或損害的資料安全」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-26"
     },
@@ -2602,11 +2386,9 @@ export default {
       "masked": "The role requires a high-level ____.",
       "options": [
         "security-mcq-27",
-        "security-mcq-26",
-        "security-mcq-28",
-        "security-mcq-25",
-        "security-mcq-29",
-        "security-mcq-24"
+        "security-mcq-20",
+        "security-mcq-38",
+        "security-mcq-35"
       ],
       "explanation": "本句的「security clearance」指「可接觸機密資訊／限制區域的正式安全許可」。",
       "sentenceIndex": 56,
@@ -2615,12 +2397,10 @@ export default {
         "security clearance"
       ],
       "optionReasons": {
-        "security-mcq-27": "本句指「可接觸機密資訊／限制區域的正式安全許可」。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。"
+        "security-mcq-27": "本句的「security clearance」指「可接觸機密資訊／限制區域的正式安全許可」。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-27"
     },
@@ -2632,11 +2412,9 @@ export default {
       "masked": "She received ____ before joining the project.",
       "options": [
         "security-mcq-27",
-        "security-mcq-26",
-        "security-mcq-28",
-        "security-mcq-25",
-        "security-mcq-29",
-        "security-mcq-24"
+        "security-mcq-35",
+        "security-mcq-18",
+        "security-mcq-21"
       ],
       "explanation": "本句的「security clearance」指「可接觸機密資訊／限制區域的正式安全許可」。",
       "sentenceIndex": 57,
@@ -2645,12 +2423,10 @@ export default {
         "security clearance"
       ],
       "optionReasons": {
-        "security-mcq-27": "本句指「可接觸機密資訊／限制區域的正式安全許可」。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-24": "「保護網絡、裝置、系統與資料免受數碼攻擊的網絡安全」與本句語境不同。"
+        "security-mcq-27": "本句的「security clearance」指「可接觸機密資訊／限制區域的正式安全許可」。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-27"
     },
@@ -2662,11 +2438,9 @@ export default {
       "masked": "Employees must wear a ____.",
       "options": [
         "security-mcq-28",
-        "security-mcq-27",
-        "security-mcq-29",
-        "security-mcq-26",
-        "security-mcq-30",
-        "security-mcq-25"
+        "security-mcq-07",
+        "security-mcq-33",
+        "security-mcq-31"
       ],
       "explanation": "本句的「security badge」指「允許獲授權人士進入特定區域的證件／通行證」。",
       "sentenceIndex": 58,
@@ -2675,12 +2449,10 @@ export default {
         "security badge"
       ],
       "optionReasons": {
-        "security-mcq-28": "本句指「允許獲授權人士進入特定區域的證件／通行證」。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。"
+        "security-mcq-28": "本句的「security badge」指「允許獲授權人士進入特定區域的證件／通行證」。",
+        "security-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-28"
     },
@@ -2692,11 +2464,9 @@ export default {
       "masked": "Show your ____ at the entrance.",
       "options": [
         "security-mcq-28",
-        "security-mcq-27",
-        "security-mcq-29",
-        "security-mcq-26",
-        "security-mcq-30",
-        "security-mcq-25"
+        "security-mcq-34",
+        "security-mcq-33",
+        "security-mcq-19"
       ],
       "explanation": "本句的「security pass」指「允許獲授權人士進入特定區域的證件／通行證」。",
       "sentenceIndex": 59,
@@ -2705,12 +2475,10 @@ export default {
         "security pass"
       ],
       "optionReasons": {
-        "security-mcq-28": "本句指「允許獲授權人士進入特定區域的證件／通行證」。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-25": "「防止資訊被未授權存取、修改、披露等的資訊安全」與本句語境不同。"
+        "security-mcq-28": "本句的「security pass」指「允許獲授權人士進入特定區域的證件／通行證」。",
+        "security-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-28"
     },
@@ -2722,11 +2490,9 @@ export default {
       "masked": "The information was classified on ____ grounds.",
       "options": [
         "security-mcq-29",
-        "security-mcq-28",
-        "security-mcq-30",
-        "security-mcq-27",
-        "security-mcq-31",
-        "security-mcq-26"
+        "security-mcq-36",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「national security」指「保護國家、人民、領土及重要制度免受重大威脅的國家安全」。",
       "sentenceIndex": 60,
@@ -2735,12 +2501,10 @@ export default {
         "national security"
       ],
       "optionReasons": {
-        "security-mcq-29": "本句指「保護國家、人民、領土及重要制度免受重大威脅的國家安全」。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。"
+        "security-mcq-29": "本句的「national security」指「保護國家、人民、領土及重要制度免受重大威脅的國家安全」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-29"
     },
@@ -2752,11 +2516,9 @@ export default {
       "masked": "The agency deals with matters of ____.",
       "options": [
         "security-mcq-29",
-        "security-mcq-28",
-        "security-mcq-30",
-        "security-mcq-27",
-        "security-mcq-31",
-        "security-mcq-26"
+        "security-mcq-37",
+        "security-mcq-36",
+        "security-mcq-22"
       ],
       "explanation": "本句的「national security」指「保護國家、人民、領土及重要制度免受重大威脅的國家安全」。",
       "sentenceIndex": 61,
@@ -2765,12 +2527,10 @@ export default {
         "national security"
       ],
       "optionReasons": {
-        "security-mcq-29": "本句指「保護國家、人民、領土及重要制度免受重大威脅的國家安全」。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-26": "「保護儲存／傳輸資料免受未授權使用或損害的資料安全」與本句語境不同。"
+        "security-mcq-29": "本句的「national security」指「保護國家、人民、領土及重要制度免受重大威脅的國家安全」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-29"
     },
@@ -2782,11 +2542,9 @@ export default {
       "masked": "New technology was introduced for ____.",
       "options": [
         "security-mcq-30",
-        "security-mcq-29",
-        "security-mcq-31",
-        "security-mcq-28",
-        "security-mcq-32",
-        "security-mcq-27"
+        "security-mcq-36",
+        "security-mcq-22",
+        "security-mcq-37"
       ],
       "explanation": "本句的「border security」指「保護及管理國家邊境的安全／保安措施」。",
       "sentenceIndex": 62,
@@ -2795,12 +2553,10 @@ export default {
         "border security"
       ],
       "optionReasons": {
-        "security-mcq-30": "本句指「保護及管理國家邊境的安全／保安措施」。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。"
+        "security-mcq-30": "本句的「border security」指「保護及管理國家邊境的安全／保安措施」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-30"
     },
@@ -2812,11 +2568,9 @@ export default {
       "masked": "The system is used in ____.",
       "options": [
         "security-mcq-30",
-        "security-mcq-29",
-        "security-mcq-31",
-        "security-mcq-28",
-        "security-mcq-32",
-        "security-mcq-27"
+        "security-mcq-20",
+        "security-mcq-36",
+        "security-mcq-37"
       ],
       "explanation": "本句的「border security」指「保護及管理國家邊境的安全／保安措施」。",
       "sentenceIndex": 63,
@@ -2825,12 +2579,10 @@ export default {
         "border security"
       ],
       "optionReasons": {
-        "security-mcq-30": "本句指「保護及管理國家邊境的安全／保安措施」。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-27": "「可接觸機密資訊／限制區域的正式安全許可」與本句語境不同。"
+        "security-mcq-30": "本句的「border security」指「保護及管理國家邊境的安全／保安措施」。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-30"
     },
@@ -2842,11 +2594,9 @@ export default {
       "masked": "Many older people depend partly on ____ payments.",
       "options": [
         "security-mcq-31",
-        "security-mcq-30",
-        "security-mcq-32",
-        "security-mcq-29",
-        "security-mcq-33",
-        "security-mcq-28"
+        "security-mcq-28",
+        "security-mcq-38",
+        "security-mcq-13"
       ],
       "explanation": "本句的「social security」指「政府提供養老金、福利等財政支援的社會保障制度」。",
       "sentenceIndex": 64,
@@ -2855,12 +2605,10 @@ export default {
         "social security"
       ],
       "optionReasons": {
-        "security-mcq-31": "本句指「政府提供養老金、福利等財政支援的社會保障制度」。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。"
+        "security-mcq-31": "本句的「social security」指「政府提供養老金、福利等財政支援的社會保障制度」。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-31"
     },
@@ -2872,10 +2620,8 @@ export default {
       "masked": "The form asks about ____ benefits.",
       "options": [
         "security-mcq-31",
-        "security-mcq-30",
-        "security-mcq-32",
-        "security-mcq-29",
-        "security-mcq-33",
+        "security-mcq-38",
+        "security-mcq-42",
         "security-mcq-28"
       ],
       "explanation": "本句的「social security」指「政府提供養老金、福利等財政支援的社會保障制度」。",
@@ -2885,12 +2631,10 @@ export default {
         "social security"
       ],
       "optionReasons": {
-        "security-mcq-31": "本句指「政府提供養老金、福利等財政支援的社會保障制度」。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-28": "「允許獲授權人士進入特定區域的證件／通行證」與本句語境不同。"
+        "security-mcq-31": "本句的「social security」指「政府提供養老金、福利等財政支援的社會保障制度」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-31"
     },
@@ -2902,11 +2646,9 @@ export default {
       "masked": "The child carried a ____ everywhere.",
       "options": [
         "security-mcq-32",
-        "security-mcq-31",
-        "security-mcq-33",
-        "security-mcq-30",
-        "security-mcq-34",
-        "security-mcq-29"
+        "security-mcq-38",
+        "security-mcq-37",
+        "security-mcq-15"
       ],
       "explanation": "本句的「security blanket」指「給孩子帶來安慰、安全感的熟悉毛毯／物件」。",
       "sentenceIndex": 66,
@@ -2915,12 +2657,10 @@ export default {
         "security blanket"
       ],
       "optionReasons": {
-        "security-mcq-32": "本句指「給孩子帶來安慰、安全感的熟悉毛毯／物件」。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。"
+        "security-mcq-32": "本句的「security blanket」指「給孩子帶來安慰、安全感的熟悉毛毯／物件」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-32"
     },
@@ -2932,11 +2672,9 @@ export default {
       "masked": "The toy acted as a ____.",
       "options": [
         "security-mcq-32",
-        "security-mcq-31",
-        "security-mcq-33",
-        "security-mcq-30",
-        "security-mcq-34",
-        "security-mcq-29"
+        "security-mcq-36",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「security blanket」指「給孩子帶來安慰、安全感的熟悉毛毯／物件」。",
       "sentenceIndex": 67,
@@ -2945,12 +2683,10 @@ export default {
         "security blanket"
       ],
       "optionReasons": {
-        "security-mcq-32": "本句指「給孩子帶來安慰、安全感的熟悉毛毯／物件」。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-29": "「保護國家、人民、領土及重要制度免受重大威脅的國家安全」與本句語境不同。"
+        "security-mcq-32": "本句的「security blanket」指「給孩子帶來安慰、安全感的熟悉毛毯／物件」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-32"
     },
@@ -2962,11 +2698,9 @@ export default {
       "masked": "Savings can become a psychological ____.",
       "options": [
         "security-mcq-33",
-        "security-mcq-32",
-        "security-mcq-34",
-        "security-mcq-31",
+        "security-mcq-19",
         "security-mcq-35",
-        "security-mcq-30"
+        "security-mcq-28"
       ],
       "explanation": "本句的「security blanket」指「令人心理上覺得安心的依靠」。",
       "sentenceIndex": 68,
@@ -2975,12 +2709,10 @@ export default {
         "security blanket"
       ],
       "optionReasons": {
-        "security-mcq-33": "本句指「令人心理上覺得安心的依靠」。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。"
+        "security-mcq-33": "本句的「security blanket」指「令人心理上覺得安心的依靠」。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-33"
     },
@@ -2992,11 +2724,9 @@ export default {
       "masked": "She used routine as a ____.",
       "options": [
         "security-mcq-33",
-        "security-mcq-32",
-        "security-mcq-34",
-        "security-mcq-31",
-        "security-mcq-35",
-        "security-mcq-30"
+        "security-mcq-14",
+        "security-mcq-28",
+        "security-mcq-38"
       ],
       "explanation": "本句的「security blanket」指「令人心理上覺得安心的依靠」。",
       "sentenceIndex": 69,
@@ -3005,12 +2735,10 @@ export default {
         "security blanket"
       ],
       "optionReasons": {
-        "security-mcq-33": "本句指「令人心理上覺得安心的依靠」。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-30": "「保護及管理國家邊境的安全／保安措施」與本句語境不同。"
+        "security-mcq-33": "本句的「security blanket」指「令人心理上覺得安心的依靠」。",
+        "security-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-33"
     },
@@ -3022,11 +2750,9 @@ export default {
       "masked": "Keep your belongings ____.",
       "options": [
         "security-mcq-34",
-        "security-mcq-33",
-        "security-mcq-35",
-        "security-mcq-32",
-        "security-mcq-36",
-        "security-mcq-31"
+        "security-mcq-38",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「secure」指「受到保護、不容易遭危險或損失的」。",
       "sentenceIndex": 70,
@@ -3035,12 +2761,10 @@ export default {
         "secure"
       ],
       "optionReasons": {
-        "security-mcq-34": "本句指「受到保護、不容易遭危險或損失的」。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。"
+        "security-mcq-34": "本句的「secure」指「受到保護、不容易遭危險或損失的」。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-34"
     },
@@ -3052,11 +2776,9 @@ export default {
       "masked": "The building is ____ at night.",
       "options": [
         "security-mcq-34",
-        "security-mcq-33",
-        "security-mcq-35",
-        "security-mcq-32",
-        "security-mcq-36",
-        "security-mcq-31"
+        "security-mcq-28",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「secure」指「受到保護、不容易遭危險或損失的」。",
       "sentenceIndex": 71,
@@ -3065,12 +2787,10 @@ export default {
         "secure"
       ],
       "optionReasons": {
-        "security-mcq-34": "本句指「受到保護、不容易遭危險或損失的」。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-31": "「政府提供養老金、福利等財政支援的社會保障制度」與本句語境不同。"
+        "security-mcq-34": "本句的「secure」指「受到保護、不容易遭危險或損失的」。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-34"
     },
@@ -3082,11 +2802,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "security-mcq-35",
-        "security-mcq-34",
-        "security-mcq-36",
-        "security-mcq-33",
-        "security-mcq-37",
-        "security-mcq-32"
+        "security-mcq-23",
+        "security-mcq-22",
+        "security-mcq-33"
       ],
       "explanation": "本句的「secure job」指「穩定、有保障、不易失去的」。",
       "sentenceIndex": 72,
@@ -3095,12 +2813,10 @@ export default {
         "secure job"
       ],
       "optionReasons": {
-        "security-mcq-35": "本句指「穩定、有保障、不易失去的」。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。"
+        "security-mcq-35": "本句的「secure job」指「穩定、有保障、不易失去的」。",
+        "security-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-35"
     },
@@ -3112,11 +2828,9 @@ export default {
       "masked": "They wanted a more ____.",
       "options": [
         "security-mcq-35",
-        "security-mcq-34",
-        "security-mcq-36",
-        "security-mcq-33",
-        "security-mcq-37",
-        "security-mcq-32"
+        "security-mcq-09",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「secure future」指「穩定、有保障、不易失去的」。",
       "sentenceIndex": 73,
@@ -3125,12 +2839,10 @@ export default {
         "secure future"
       ],
       "optionReasons": {
-        "security-mcq-35": "本句指「穩定、有保障、不易失去的」。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-32": "「給孩子帶來安慰、安全感的熟悉毛毯／物件」與本句語境不同。"
+        "security-mcq-35": "本句的「secure future」指「穩定、有保障、不易失去的」。",
+        "security-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-35"
     },
@@ -3142,11 +2854,9 @@ export default {
       "masked": "Make sure the lid is ____.",
       "options": [
         "security-mcq-36",
-        "security-mcq-35",
-        "security-mcq-37",
-        "security-mcq-34",
-        "security-mcq-38",
-        "security-mcq-33"
+        "security-mcq-05",
+        "security-mcq-21",
+        "security-mcq-31"
       ],
       "explanation": "本句的「secure」指「牢固、不容易鬆脫或移動的」。",
       "sentenceIndex": 74,
@@ -3155,12 +2865,10 @@ export default {
         "secure"
       ],
       "optionReasons": {
-        "security-mcq-36": "本句指「牢固、不容易鬆脫或移動的」。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。"
+        "security-mcq-36": "本句的「secure」指「牢固、不容易鬆脫或移動的」。",
+        "security-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-36"
     },
@@ -3172,11 +2880,9 @@ export default {
       "masked": "The ladder did not feel ____.",
       "options": [
         "security-mcq-36",
-        "security-mcq-35",
-        "security-mcq-37",
-        "security-mcq-34",
-        "security-mcq-38",
-        "security-mcq-33"
+        "security-mcq-30",
+        "security-mcq-21",
+        "security-mcq-19"
       ],
       "explanation": "本句的「secure」指「牢固、不容易鬆脫或移動的」。",
       "sentenceIndex": 75,
@@ -3185,12 +2891,10 @@ export default {
         "secure"
       ],
       "optionReasons": {
-        "security-mcq-36": "本句指「牢固、不容易鬆脫或移動的」。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。",
-        "security-mcq-33": "「令人心理上覺得安心的依靠」與本句語境不同。"
+        "security-mcq-36": "本句的「secure」指「牢固、不容易鬆脫或移動的」。",
+        "security-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-36"
     },
@@ -3202,11 +2906,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "security-mcq-37",
-        "security-mcq-36",
-        "security-mcq-38",
-        "security-mcq-35",
-        "security-mcq-39",
-        "security-mcq-34"
+        "security-mcq-03",
+        "security-mcq-12",
+        "security-mcq-36"
       ],
       "explanation": "本句的「secured a contract」指「經努力成功取得／獲得」。",
       "sentenceIndex": 76,
@@ -3215,12 +2917,10 @@ export default {
         "secured a contract"
       ],
       "optionReasons": {
-        "security-mcq-37": "本句指「經努力成功取得／獲得」。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。"
+        "security-mcq-37": "本句的「secured a contract」指「經努力成功取得／獲得」。",
+        "security-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-37"
     },
@@ -3232,11 +2932,9 @@ export default {
       "masked": "She ____ at university.",
       "options": [
         "security-mcq-37",
-        "security-mcq-36",
-        "security-mcq-38",
-        "security-mcq-35",
-        "security-mcq-39",
-        "security-mcq-34"
+        "security-mcq-29",
+        "security-mcq-20",
+        "security-mcq-17"
       ],
       "explanation": "本句的「secured a place」指「經努力成功取得／獲得」。",
       "sentenceIndex": 77,
@@ -3245,12 +2943,10 @@ export default {
         "secured a place"
       ],
       "optionReasons": {
-        "security-mcq-37": "本句指「經努力成功取得／獲得」。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。",
-        "security-mcq-34": "「受到保護、不容易遭危險或損失的」與本句語境不同。"
+        "security-mcq-37": "本句的「secured a place」指「經努力成功取得／獲得」。",
+        "security-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-37"
     },
@@ -3262,11 +2958,9 @@ export default {
       "masked": "____ with tape.",
       "options": [
         "security-mcq-38",
-        "security-mcq-37",
-        "security-mcq-39",
-        "security-mcq-36",
-        "security-mcq-40",
-        "security-mcq-35"
+        "security-mcq-30",
+        "security-mcq-18",
+        "security-mcq-31"
       ],
       "explanation": "本句的「Secure the box」指「把某物固定／繫牢」。",
       "sentenceIndex": 78,
@@ -3275,12 +2969,10 @@ export default {
         "Secure the box"
       ],
       "optionReasons": {
-        "security-mcq-38": "本句指「把某物固定／繫牢」。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。"
+        "security-mcq-38": "本句的「Secure the box」指「把某物固定／繫牢」。",
+        "security-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-38"
     },
@@ -3292,11 +2984,9 @@ export default {
       "masked": "He ____ to the post.",
       "options": [
         "security-mcq-38",
-        "security-mcq-37",
-        "security-mcq-39",
-        "security-mcq-36",
-        "security-mcq-40",
-        "security-mcq-35"
+        "security-mcq-01",
+        "security-mcq-22",
+        "security-mcq-33"
       ],
       "explanation": "本句的「secured the rope」指「把某物固定／繫牢」。",
       "sentenceIndex": 79,
@@ -3305,12 +2995,10 @@ export default {
         "secured the rope"
       ],
       "optionReasons": {
-        "security-mcq-38": "本句指「把某物固定／繫牢」。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-35": "「穩定、有保障、不易失去的」與本句語境不同。"
+        "security-mcq-38": "本句的「secured the rope」指「把某物固定／繫牢」。",
+        "security-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-38"
     },
@@ -3322,11 +3010,9 @@ export default {
       "masked": "Police ____.",
       "options": [
         "security-mcq-39",
-        "security-mcq-38",
-        "security-mcq-40",
-        "security-mcq-37",
-        "security-mcq-41",
-        "security-mcq-36"
+        "security-mcq-20",
+        "security-mcq-15",
+        "security-mcq-38"
       ],
       "explanation": "本句的「secured the area」指「使某地／某物安全，防止危險或未授權進入」。",
       "sentenceIndex": 80,
@@ -3335,12 +3021,10 @@ export default {
         "secured the area"
       ],
       "optionReasons": {
-        "security-mcq-39": "本句指「使某地／某物安全，防止危險或未授權進入」。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。"
+        "security-mcq-39": "本句的「secured the area」指「使某地／某物安全，防止危險或未授權進入」。",
+        "security-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-39"
     },
@@ -3352,11 +3036,9 @@ export default {
       "masked": "Please ____ before leaving.",
       "options": [
         "security-mcq-39",
-        "security-mcq-38",
-        "security-mcq-40",
-        "security-mcq-37",
-        "security-mcq-41",
-        "security-mcq-36"
+        "security-mcq-21",
+        "security-mcq-15",
+        "security-mcq-37"
       ],
       "explanation": "本句的「secure the building」指「使某地／某物安全，防止危險或未授權進入」。",
       "sentenceIndex": 81,
@@ -3365,12 +3047,10 @@ export default {
         "secure the building"
       ],
       "optionReasons": {
-        "security-mcq-39": "本句指「使某地／某物安全，防止危險或未授權進入」。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-37": "「經努力成功取得／獲得」與本句語境不同。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-36": "「牢固、不容易鬆脫或移動的」與本句語境不同。"
+        "security-mcq-39": "本句的「secure the building」指「使某地／某物安全，防止危險或未授權進入」。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-39"
     },
@@ -3382,11 +3062,9 @@ export default {
       "masked": "Economic ____ affected many families.",
       "options": [
         "security-mcq-41",
-        "security-mcq-40",
-        "security-mcq-42",
-        "security-mcq-39",
-        "security-mcq-43",
-        "security-mcq-38"
+        "security-mcq-36",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「insecurity」指「缺乏安全／穩定保障的狀態」。",
       "sentenceIndex": 82,
@@ -3395,12 +3073,10 @@ export default {
         "insecurity"
       ],
       "optionReasons": {
-        "security-mcq-41": "本句指「缺乏安全／穩定保障的狀態」。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-42": "「對自己缺乏信心而產生的不安全感」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。",
-        "security-mcq-43": "「不安全、缺乏保障或不穩固的」與本句語境不同。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。"
+        "security-mcq-41": "本句的「insecurity」指「缺乏安全／穩定保障的狀態」。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-41"
     },
@@ -3412,11 +3088,9 @@ export default {
       "masked": "Job ____ can cause stress.",
       "options": [
         "security-mcq-41",
-        "security-mcq-40",
-        "security-mcq-42",
-        "security-mcq-39",
-        "security-mcq-43",
-        "security-mcq-38"
+        "security-mcq-37",
+        "security-mcq-22",
+        "security-mcq-36"
       ],
       "explanation": "本句的「insecurity」指「缺乏安全／穩定保障的狀態」。",
       "sentenceIndex": 83,
@@ -3425,12 +3099,10 @@ export default {
         "insecurity"
       ],
       "optionReasons": {
-        "security-mcq-41": "本句指「缺乏安全／穩定保障的狀態」。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-42": "「對自己缺乏信心而產生的不安全感」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。",
-        "security-mcq-43": "「不安全、缺乏保障或不穩固的」與本句語境不同。",
-        "security-mcq-38": "「把某物固定／繫牢」與本句語境不同。"
+        "security-mcq-41": "本句的「insecurity」指「缺乏安全／穩定保障的狀態」。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-41"
     },
@@ -3442,11 +3114,9 @@ export default {
       "masked": "His behavior came partly from ____.",
       "options": [
         "security-mcq-42",
-        "security-mcq-41",
-        "security-mcq-43",
-        "security-mcq-40",
-        "security-mcq-44",
-        "security-mcq-39"
+        "security-mcq-35",
+        "security-mcq-21",
+        "security-mcq-19"
       ],
       "explanation": "本句的「insecurity」指「對自己缺乏信心而產生的不安全感」。",
       "sentenceIndex": 84,
@@ -3455,12 +3125,10 @@ export default {
         "insecurity"
       ],
       "optionReasons": {
-        "security-mcq-42": "本句指「對自己缺乏信心而產生的不安全感」。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-43": "「不安全、缺乏保障或不穩固的」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-44": "「缺乏自信、需要肯定、沒有安全感的」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。"
+        "security-mcq-42": "本句的「insecurity」指「對自己缺乏信心而產生的不安全感」。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-42"
     },
@@ -3472,11 +3140,9 @@ export default {
       "masked": "She gradually overcame her ____.",
       "options": [
         "security-mcq-42",
-        "security-mcq-41",
-        "security-mcq-43",
-        "security-mcq-40",
-        "security-mcq-44",
-        "security-mcq-39"
+        "security-mcq-28",
+        "security-mcq-35",
+        "security-mcq-37"
       ],
       "explanation": "本句的「insecurities」指「對自己缺乏信心而產生的不安全感」。",
       "sentenceIndex": 85,
@@ -3485,12 +3151,10 @@ export default {
         "insecurities"
       ],
       "optionReasons": {
-        "security-mcq-42": "本句指「對自己缺乏信心而產生的不安全感」。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-43": "「不安全、缺乏保障或不穩固的」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-44": "「缺乏自信、需要肯定、沒有安全感的」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。"
+        "security-mcq-42": "本句的「insecurities」指「對自己缺乏信心而產生的不安全感」。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-42"
     },
@@ -3502,11 +3166,9 @@ export default {
       "masked": "The door was ____.",
       "options": [
         "security-mcq-43",
-        "security-mcq-42",
-        "security-mcq-44",
-        "security-mcq-41",
-        "security-mcq-40",
-        "security-mcq-39"
+        "security-mcq-28",
+        "security-mcq-21",
+        "security-mcq-37"
       ],
       "explanation": "本句的「insecure」指「不安全、缺乏保障或不穩固的」。",
       "sentenceIndex": 86,
@@ -3515,12 +3177,10 @@ export default {
         "insecure"
       ],
       "optionReasons": {
-        "security-mcq-43": "本句指「不安全、缺乏保障或不穩固的」。",
-        "security-mcq-42": "「對自己缺乏信心而產生的不安全感」與本句語境不同。",
-        "security-mcq-44": "「缺乏自信、需要肯定、沒有安全感的」與本句語境不同。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。"
+        "security-mcq-43": "本句的「insecure」指「不安全、缺乏保障或不穩固的」。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-43"
     },
@@ -3532,11 +3192,9 @@ export default {
       "masked": "Many workers felt their jobs were ____.",
       "options": [
         "security-mcq-43",
-        "security-mcq-42",
-        "security-mcq-44",
-        "security-mcq-41",
-        "security-mcq-40",
-        "security-mcq-39"
+        "security-mcq-28",
+        "security-mcq-22",
+        "security-mcq-37"
       ],
       "explanation": "本句的「insecure」指「不安全、缺乏保障或不穩固的」。",
       "sentenceIndex": 87,
@@ -3545,12 +3203,10 @@ export default {
         "insecure"
       ],
       "optionReasons": {
-        "security-mcq-43": "本句指「不安全、缺乏保障或不穩固的」。",
-        "security-mcq-42": "「對自己缺乏信心而產生的不安全感」與本句語境不同。",
-        "security-mcq-44": "「缺乏自信、需要肯定、沒有安全感的」與本句語境不同。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。"
+        "security-mcq-43": "本句的「insecure」指「不安全、缺乏保障或不穩固的」。",
+        "security-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-43"
     },
@@ -3562,11 +3218,9 @@ export default {
       "masked": "He felt ____ about his appearance.",
       "options": [
         "security-mcq-44",
-        "security-mcq-43",
-        "security-mcq-42",
-        "security-mcq-41",
-        "security-mcq-40",
-        "security-mcq-39"
+        "security-mcq-31",
+        "security-mcq-21",
+        "security-mcq-36"
       ],
       "explanation": "本句的「insecure」指「缺乏自信、需要肯定、沒有安全感的」。",
       "sentenceIndex": 88,
@@ -3575,12 +3229,10 @@ export default {
         "insecure"
       ],
       "optionReasons": {
-        "security-mcq-44": "本句指「缺乏自信、需要肯定、沒有安全感的」。",
-        "security-mcq-43": "「不安全、缺乏保障或不穩固的」與本句語境不同。",
-        "security-mcq-42": "「對自己缺乏信心而產生的不安全感」與本句語境不同。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。"
+        "security-mcq-44": "本句的「insecure」指「缺乏自信、需要肯定、沒有安全感的」。",
+        "security-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-44"
     },
@@ -3592,11 +3244,9 @@ export default {
       "masked": "She became ____ in the relationship.",
       "options": [
         "security-mcq-44",
-        "security-mcq-43",
-        "security-mcq-42",
-        "security-mcq-41",
-        "security-mcq-40",
-        "security-mcq-39"
+        "security-mcq-22",
+        "security-mcq-37",
+        "security-mcq-18"
       ],
       "explanation": "本句的「insecure」指「缺乏自信、需要肯定、沒有安全感的」。",
       "sentenceIndex": 89,
@@ -3605,12 +3255,10 @@ export default {
         "insecure"
       ],
       "optionReasons": {
-        "security-mcq-44": "本句指「缺乏自信、需要肯定、沒有安全感的」。",
-        "security-mcq-43": "「不安全、缺乏保障或不穩固的」與本句語境不同。",
-        "security-mcq-42": "「對自己缺乏信心而產生的不安全感」與本句語境不同。",
-        "security-mcq-41": "「缺乏安全／穩定保障的狀態」與本句語境不同。",
-        "security-mcq-40": "「安全地；牢固地」與本句語境不同。",
-        "security-mcq-39": "「使某地／某物安全，防止危險或未授權進入」與本句語境不同。"
+        "security-mcq-44": "本句的「insecure」指「缺乏自信、需要肯定、沒有安全感的」。",
+        "security-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "security-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "security-mcq-44"
     }
@@ -3622,5 +3270,7 @@ export default {
     "sha256": "63b696877bca8592bbeb64f21dd4780a609d1e00ed05e63d14b0cc2c1119218d",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

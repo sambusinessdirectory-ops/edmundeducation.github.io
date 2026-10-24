@@ -201,16 +201,6 @@ export default {
           "He was deeply concerned by the news.",
           "那個消息令他非常擔心。",
           "憂慮程度很高、深感擔心"
-        ],
-        [
-          "She was deeply disappointed.",
-          "她感到非常失望。",
-          "憂慮程度很高、深感擔心"
-        ],
-        [
-          "I was deeply disappointed by the result.",
-          "我對結果感到極度失望。",
-          "憂慮程度很高、深感擔心"
         ]
       ],
       "options": [],
@@ -801,6 +791,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "deep-reviewed-b550a076ac",
+      "title": "非常失望",
+      "form": "deep · source section 12",
+      "en": "非常失望",
+      "zh": "非常失望",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "She was deeply disappointed.",
+          "她感到非常失望。",
+          "非常失望"
+        ],
+        [
+          "I was deeply disappointed by the result.",
+          "我對結果感到極度失望。",
+          "非常失望"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -812,11 +824,9 @@ export default {
       "masked": "The water is very ____.",
       "options": [
         "deep-mcq-01",
-        "deep-mcq-02",
-        "deep-mcq-03",
-        "deep-mcq-04",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-06",
+        "deep-mcq-12",
+        "deep-mcq-18"
       ],
       "explanation": "本句的「deep」指「從表面往下／往內延伸的距離很大」。",
       "sentenceIndex": 0,
@@ -825,12 +835,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-01": "本句指「從表面往下／往內延伸的距離很大」。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-01": "本句的「deep」指「從表面往下／往內延伸的距離很大」。",
+        "deep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-01"
     },
@@ -842,11 +850,9 @@ export default {
       "masked": "They dug a ____.",
       "options": [
         "deep-mcq-01",
-        "deep-mcq-02",
-        "deep-mcq-03",
-        "deep-mcq-04",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-25",
+        "deep-mcq-07",
+        "deep-mcq-23"
       ],
       "explanation": "本句的「deep hole」指「從表面往下／往內延伸的距離很大」。",
       "sentenceIndex": 1,
@@ -855,12 +861,10 @@ export default {
         "deep hole"
       ],
       "optionReasons": {
-        "deep-mcq-01": "本句指「從表面往下／往內延伸的距離很大」。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-01": "本句的「deep hole」指「從表面往下／往內延伸的距離很大」。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-01"
     },
@@ -872,11 +876,9 @@ export default {
       "masked": "Do not swim in ____.",
       "options": [
         "deep-mcq-26",
-        "deep-mcq-25",
-        "deep-mcq-27",
-        "deep-mcq-24",
-        "deep-mcq-28",
-        "deep-mcq-23"
+        "deep-mcq-22",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-21"
       ],
       "explanation": "本句的「deep water」指「某物由表面到內部／底部的距離很大」。",
       "sentenceIndex": 2,
@@ -885,12 +887,10 @@ export default {
         "deep water"
       ],
       "optionReasons": {
-        "deep-mcq-26": "本句指「某物由表面到內部／底部的距離很大」。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-27": "「注意力高度集中、完全沉浸於某項活動／狀態」是「16. deep in thought/work/conversation（全神貫注） — 沉浸；專注」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-28": "「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」是「33. deep = extensive in number/layers（陣容深厚／層次多） — 深度足；人手充足」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。"
+        "deep-mcq-26": "本句的「deep water」指「某物由表面到內部／底部的距離很大」。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-26"
     },
@@ -902,11 +902,9 @@ export default {
       "masked": "The well is surprisingly ____.",
       "options": [
         "deep-mcq-26",
-        "deep-mcq-25",
-        "deep-mcq-27",
-        "deep-mcq-24",
-        "deep-mcq-28",
-        "deep-mcq-23"
+        "deep-mcq-10",
+        "deep-mcq-12",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep」指「某物由表面到內部／底部的距離很大」。",
       "sentenceIndex": 3,
@@ -915,12 +913,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-26": "本句指「某物由表面到內部／底部的距離很大」。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-27": "「注意力高度集中、完全沉浸於某項活動／狀態」是「16. deep in thought/work/conversation（全神貫注） — 沉浸；專注」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-28": "「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」是「33. deep = extensive in number/layers（陣容深厚／層次多） — 深度足；人手充足」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。"
+        "deep-mcq-26": "本句的「deep」指「某物由表面到內部／底部的距離很大」。",
+        "deep-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-26"
     },
@@ -932,11 +928,9 @@ export default {
       "masked": "The treasure was buried ____.",
       "options": [
         "deep-mcq-02",
-        "deep-mcq-01",
-        "deep-mcq-03",
-        "deep-mcq-04",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-11",
+        "deep-mcq-24",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deep underground」指「位於／進入某地遠離外層或入口的深處」。",
       "sentenceIndex": 4,
@@ -945,12 +939,10 @@ export default {
         "deep underground"
       ],
       "optionReasons": {
-        "deep-mcq-02": "本句指「位於／進入某地遠離外層或入口的深處」。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-02": "本句的「deep underground」指「位於／進入某地遠離外層或入口的深處」。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-02"
     },
@@ -962,11 +954,9 @@ export default {
       "masked": "The roots grow ____ into the soil.",
       "options": [
         "deep-mcq-02",
-        "deep-mcq-01",
-        "deep-mcq-03",
         "deep-mcq-04",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-11",
+        "deep-mcq-14"
       ],
       "explanation": "本句的「deep」指「位於／進入某地遠離外層或入口的深處」。",
       "sentenceIndex": 5,
@@ -975,12 +965,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-02": "本句指「位於／進入某地遠離外層或入口的深處」。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-02": "本句的「deep」指「位於／進入某地遠離外層或入口的深處」。",
+        "deep-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-02"
     },
@@ -992,11 +980,9 @@ export default {
       "masked": "They walked ____.",
       "options": [
         "deep-mcq-02",
-        "deep-mcq-01",
-        "deep-mcq-03",
-        "deep-mcq-04",
         "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-16",
+        "deep-mcq-13"
       ],
       "explanation": "本句的「deep into the forest」指「位於／進入某地遠離外層或入口的深處」。",
       "sentenceIndex": 6,
@@ -1005,12 +991,10 @@ export default {
         "deep into the forest"
       ],
       "optionReasons": {
-        "deep-mcq-02": "本句指「位於／進入某地遠離外層或入口的深處」。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-02": "本句的「deep into the forest」指「位於／進入某地遠離外層或入口的深處」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-02"
     },
@@ -1022,11 +1006,9 @@ export default {
       "masked": "The village lies ____ in the mountains.",
       "options": [
         "deep-mcq-02",
-        "deep-mcq-01",
-        "deep-mcq-03",
-        "deep-mcq-04",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-24",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep」指「位於／進入某地遠離外層或入口的深處」。",
       "sentenceIndex": 7,
@@ -1035,12 +1017,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-02": "本句指「位於／進入某地遠離外層或入口的深處」。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-02": "本句的「deep」指「位於／進入某地遠離外層或入口的深處」。",
+        "deep-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-02"
     },
@@ -1052,11 +1032,9 @@ export default {
       "masked": "They had a ____.",
       "options": [
         "deep-mcq-03",
-        "deep-mcq-02",
-        "deep-mcq-04",
-        "deep-mcq-01",
         "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-16",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep discussion」指「對重要或複雜問題進行集中而深入的思考」。",
       "sentenceIndex": 8,
@@ -1065,12 +1043,10 @@ export default {
         "deep discussion"
       ],
       "optionReasons": {
-        "deep-mcq-03": "本句指「對重要或複雜問題進行集中而深入的思考」。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-03": "本句的「deep discussion」指「對重要或複雜問題進行集中而深入的思考」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-03"
     },
@@ -1082,11 +1058,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "deep-mcq-03",
-        "deep-mcq-02",
-        "deep-mcq-04",
-        "deep-mcq-01",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-16",
+        "deep-mcq-22",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep thinker」指「對重要或複雜問題進行集中而深入的思考」。",
       "sentenceIndex": 9,
@@ -1095,12 +1069,10 @@ export default {
         "deep thinker"
       ],
       "optionReasons": {
-        "deep-mcq-03": "本句指「對重要或複雜問題進行集中而深入的思考」。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-03": "本句的「deep thinker」指「對重要或複雜問題進行集中而深入的思考」。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-03"
     },
@@ -1112,11 +1084,9 @@ export default {
       "masked": "He sat in ____.",
       "options": [
         "deep-mcq-03",
-        "deep-mcq-02",
-        "deep-mcq-04",
-        "deep-mcq-01",
+        "deep-mcq-26",
         "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep thought」指「對重要或複雜問題進行集中而深入的思考」。",
       "sentenceIndex": 10,
@@ -1125,12 +1095,10 @@ export default {
         "deep thought"
       ],
       "optionReasons": {
-        "deep-mcq-03": "本句指「對重要或複雜問題進行集中而深入的思考」。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-03": "本句的「deep thought」指「對重要或複雜問題進行集中而深入的思考」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-03"
     },
@@ -1142,11 +1110,9 @@ export default {
       "masked": "The question requires ____ thought.",
       "options": [
         "deep-mcq-03",
-        "deep-mcq-02",
-        "deep-mcq-04",
         "deep-mcq-01",
-        "deep-mcq-05",
-        "deep-mcq-06"
+        "deep-mcq-22",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deep」指「對重要或複雜問題進行集中而深入的思考」。",
       "sentenceIndex": 11,
@@ -1155,12 +1121,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-03": "本句指「對重要或複雜問題進行集中而深入的思考」。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-03": "本句的「deep」指「對重要或複雜問題進行集中而深入的思考」。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-03"
     },
@@ -1172,11 +1136,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "deep-mcq-04",
-        "deep-mcq-03",
-        "deep-mcq-05",
-        "deep-mcq-02",
-        "deep-mcq-06",
-        "deep-mcq-01"
+        "deep-mcq-21",
+        "deep-mcq-19",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deep sadness」指「情感、態度或感受程度非常強烈而真切」。",
       "sentenceIndex": 12,
@@ -1185,12 +1147,10 @@ export default {
         "deep sadness"
       ],
       "optionReasons": {
-        "deep-mcq-04": "本句指「情感、態度或感受程度非常強烈而真切」。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。"
+        "deep-mcq-04": "本句的「deep sadness」指「情感、態度或感受程度非常強烈而真切」。",
+        "deep-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-04"
     },
@@ -1202,11 +1162,9 @@ export default {
       "masked": "They have a ____ for her.",
       "options": [
         "deep-mcq-04",
-        "deep-mcq-03",
-        "deep-mcq-05",
+        "deep-mcq-26",
         "deep-mcq-02",
-        "deep-mcq-06",
-        "deep-mcq-01"
+        "deep-mcq-17"
       ],
       "explanation": "本句的「deep respect」指「情感、態度或感受程度非常強烈而真切」。",
       "sentenceIndex": 13,
@@ -1215,12 +1173,10 @@ export default {
         "deep respect"
       ],
       "optionReasons": {
-        "deep-mcq-04": "本句指「情感、態度或感受程度非常強烈而真切」。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-01": "「從表面往下／往內延伸的距離很大」是「deep — physical」的用法，與本句語境不同。"
+        "deep-mcq-04": "本句的「deep respect」指「情感、態度或感受程度非常強烈而真切」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-04"
     },
@@ -1232,11 +1188,9 @@ export default {
       "masked": "He has a ____ for his family.",
       "options": [
         "deep-mcq-05",
-        "deep-mcq-04",
-        "deep-mcq-06",
-        "deep-mcq-03",
-        "deep-mcq-07",
-        "deep-mcq-02"
+        "deep-pdf-003",
+        "deep-mcq-17",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep love」指「持久、真切而強烈的愛／敬意」。",
       "sentenceIndex": 14,
@@ -1245,12 +1199,10 @@ export default {
         "deep love"
       ],
       "optionReasons": {
-        "deep-mcq-05": "本句指「持久、真切而強烈的愛／敬意」。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。"
+        "deep-mcq-05": "本句的「deep love」指「持久、真切而強烈的愛／敬意」。",
+        "deep-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-05"
     },
@@ -1262,11 +1214,9 @@ export default {
       "masked": "There is ____ concern about the problem.",
       "options": [
         "deep-mcq-05",
-        "deep-mcq-04",
-        "deep-mcq-06",
-        "deep-mcq-03",
-        "deep-mcq-07",
-        "deep-mcq-02"
+        "deep-mcq-14",
+        "deep-mcq-02",
+        "deep-mcq-23"
       ],
       "explanation": "本句的「deep」指「持久、真切而強烈的愛／敬意」。",
       "sentenceIndex": 15,
@@ -1275,12 +1225,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-05": "本句指「持久、真切而強烈的愛／敬意」。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-02": "「位於／進入某地遠離外層或入口的深處」是「deep in/into a place」的用法，與本句語境不同。"
+        "deep-mcq-05": "本句的「deep」指「持久、真切而強烈的愛／敬意」。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-05"
     },
@@ -1292,11 +1240,9 @@ export default {
       "masked": "Kindness can be quiet, steady, and ____.",
       "options": [
         "deep-mcq-06",
-        "deep-mcq-05",
-        "deep-mcq-07",
-        "deep-mcq-04",
-        "deep-mcq-08",
-        "deep-mcq-03"
+        "deep-mcq-19",
+        "deep-mcq-11",
+        "deep-mcq-17"
       ],
       "explanation": "本句的「deeply powerful」指「某種情感、影響、態度或程度非常強烈／深入」。",
       "sentenceIndex": 16,
@@ -1305,12 +1251,10 @@ export default {
         "deeply powerful"
       ],
       "optionReasons": {
-        "deep-mcq-06": "本句指「某種情感、影響、態度或程度非常強烈／深入」。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。"
+        "deep-mcq-06": "本句的「deeply powerful」指「某種情感、影響、態度或程度非常強烈／深入」。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-06"
     },
@@ -1322,11 +1266,9 @@ export default {
       "masked": "I was ____ by her kindness.",
       "options": [
         "deep-mcq-06",
-        "deep-mcq-05",
-        "deep-mcq-07",
-        "deep-mcq-04",
-        "deep-mcq-08",
-        "deep-mcq-03"
+        "deep-mcq-26",
+        "deep-mcq-11",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deeply impressed」指「某種情感、影響、態度或程度非常強烈／深入」。",
       "sentenceIndex": 17,
@@ -1335,12 +1277,10 @@ export default {
         "deeply impressed"
       ],
       "optionReasons": {
-        "deep-mcq-06": "本句指「某種情感、影響、態度或程度非常強烈／深入」。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。"
+        "deep-mcq-06": "本句的「deeply impressed」指「某種情感、影響、態度或程度非常強烈／深入」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-06"
     },
@@ -1352,11 +1292,9 @@ export default {
       "masked": "She is ____ respected.",
       "options": [
         "deep-mcq-06",
-        "deep-mcq-05",
-        "deep-mcq-07",
-        "deep-mcq-04",
-        "deep-mcq-08",
-        "deep-mcq-03"
+        "deep-mcq-11",
+        "deep-mcq-19",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deeply」指「某種情感、影響、態度或程度非常強烈／深入」。",
       "sentenceIndex": 18,
@@ -1365,12 +1303,10 @@ export default {
         "deeply"
       ],
       "optionReasons": {
-        "deep-mcq-06": "本句指「某種情感、影響、態度或程度非常強烈／深入」。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-03": "「對重要或複雜問題進行集中而深入的思考」是「deep thought」的用法，與本句語境不同。"
+        "deep-mcq-06": "本句的「deeply」指「某種情感、影響、態度或程度非常強烈／深入」。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-06"
     },
@@ -1382,11 +1318,9 @@ export default {
       "masked": "I was ____ by her words.",
       "options": [
         "deep-mcq-07",
-        "deep-mcq-06",
-        "deep-mcq-08",
-        "deep-mcq-05",
-        "deep-mcq-09",
-        "deep-mcq-04"
+        "deep-mcq-11",
+        "deep-mcq-01",
+        "deep-mcq-10"
       ],
       "explanation": "本句的「deeply moved」指「情緒受到非常強烈而深刻的觸動」。",
       "sentenceIndex": 19,
@@ -1395,12 +1329,10 @@ export default {
         "deeply moved"
       ],
       "optionReasons": {
-        "deep-mcq-07": "本句指「情緒受到非常強烈而深刻的觸動」。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。"
+        "deep-mcq-07": "本句的「deeply moved」指「情緒受到非常強烈而深刻的觸動」。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-07"
     },
@@ -1412,11 +1344,9 @@ export default {
       "masked": "The audience was ____ moved.",
       "options": [
         "deep-mcq-07",
-        "deep-mcq-06",
-        "deep-mcq-08",
-        "deep-mcq-05",
-        "deep-mcq-09",
-        "deep-mcq-04"
+        "deep-mcq-19",
+        "deep-mcq-10",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deeply」指「情緒受到非常強烈而深刻的觸動」。",
       "sentenceIndex": 20,
@@ -1425,12 +1355,10 @@ export default {
         "deeply"
       ],
       "optionReasons": {
-        "deep-mcq-07": "本句指「情緒受到非常強烈而深刻的觸動」。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-04": "「情感、態度或感受程度非常強烈而真切」是「deep — emotion」的用法，與本句語境不同。"
+        "deep-mcq-07": "本句的「deeply」指「情緒受到非常強烈而深刻的觸動」。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-07"
     },
@@ -1442,11 +1370,9 @@ export default {
       "masked": "We are ____ about her health.",
       "options": [
         "deep-mcq-08",
-        "deep-mcq-07",
-        "deep-mcq-09",
-        "deep-mcq-06",
-        "deep-mcq-10",
-        "deep-mcq-05"
+        "deep-mcq-01",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deeply concerned」指「憂慮程度很高、深感擔心」。",
       "sentenceIndex": 21,
@@ -1455,12 +1381,10 @@ export default {
         "deeply concerned"
       ],
       "optionReasons": {
-        "deep-mcq-08": "本句指「憂慮程度很高、深感擔心」。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。"
+        "deep-mcq-08": "本句的「deeply concerned」指「憂慮程度很高、深感擔心」。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-08"
     },
@@ -1472,11 +1396,9 @@ export default {
       "masked": "He was ____ concerned by the news.",
       "options": [
         "deep-mcq-08",
-        "deep-mcq-07",
-        "deep-mcq-09",
-        "deep-mcq-06",
-        "deep-mcq-10",
-        "deep-mcq-05"
+        "deep-mcq-01",
+        "deep-mcq-16",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deeply」指「憂慮程度很高、深感擔心」。",
       "sentenceIndex": 22,
@@ -1485,74 +1407,68 @@ export default {
         "deeply"
       ],
       "optionReasons": {
-        "deep-mcq-08": "本句指「憂慮程度很高、深感擔心」。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。"
+        "deep-mcq-08": "本句的「deeply」指「憂慮程度很高、深感擔心」。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-08"
     },
     {
       "id": "deep-12-0",
-      "sense": "deep-mcq-08",
+      "sense": "deep-reviewed-b550a076ac",
       "en": "She was deeply disappointed.",
       "zh": "她感到非常失望。",
       "masked": "She was ____.",
       "options": [
-        "deep-mcq-08",
-        "deep-mcq-07",
-        "deep-mcq-09",
-        "deep-mcq-06",
-        "deep-mcq-10",
-        "deep-mcq-05"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-12",
+        "deep-mcq-23",
+        "deep-mcq-19"
       ],
-      "explanation": "本句的「deeply disappointed」指「憂慮程度很高、深感擔心」。",
+      "explanation": "對照完整句子：「她感到非常失望。」。這裡的「deeply disappointed」表示「非常失望」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "deeply disappointed"
       ],
       "optionReasons": {
-        "deep-mcq-08": "本句指「憂慮程度很高、深感擔心」。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。"
+        "deep-reviewed-b550a076ac": "對照完整句子：「她感到非常失望。」。這裡的「deeply disappointed」表示「非常失望」。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "deep-mcq-08"
+      "correctOption": "deep-reviewed-b550a076ac",
+      "previousCorrectOption": "deep-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "deep-12-1",
-      "sense": "deep-mcq-08",
+      "sense": "deep-reviewed-b550a076ac",
       "en": "I was deeply disappointed by the result.",
       "zh": "我對結果感到極度失望。",
       "masked": "I was ____ disappointed by the result.",
       "options": [
-        "deep-mcq-08",
-        "deep-mcq-07",
-        "deep-mcq-09",
-        "deep-mcq-06",
-        "deep-mcq-10",
-        "deep-mcq-05"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-15",
+        "deep-pdf-003",
+        "deep-mcq-17"
       ],
-      "explanation": "本句的「deeply」指「憂慮程度很高、深感擔心」。",
+      "explanation": "對照完整句子：「我對結果感到極度失望。」。這裡的「deeply」表示「非常失望」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "targets": [
         "deeply"
       ],
       "optionReasons": {
-        "deep-mcq-08": "本句指「憂慮程度很高、深感擔心」。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-05": "「持久、真切而強烈的愛／敬意」是「deep love/respect」的用法，與本句語境不同。"
+        "deep-reviewed-b550a076ac": "對照完整句子：「我對結果感到極度失望。」。這裡的「deeply」表示「非常失望」。",
+        "deep-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "deep-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "deep-mcq-08"
+      "correctOption": "deep-reviewed-b550a076ac",
+      "previousCorrectOption": "deep-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "deep-13-0",
@@ -1562,11 +1478,9 @@ export default {
       "masked": "The experience had a ____ on her.",
       "options": [
         "deep-mcq-09",
-        "deep-mcq-08",
-        "deep-mcq-10",
-        "deep-mcq-07",
-        "deep-mcq-11",
-        "deep-mcq-06"
+        "deep-mcq-16",
+        "deep-mcq-26",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep effect」指「影響／印象深入而持久」。",
       "sentenceIndex": 25,
@@ -1575,12 +1489,10 @@ export default {
         "deep effect"
       ],
       "optionReasons": {
-        "deep-mcq-09": "本句指「影響／印象深入而持久」。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-09": "本句的「deep effect」指「影響／印象深入而持久」。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-09"
     },
@@ -1592,11 +1504,9 @@ export default {
       "masked": "The event left a ____ impression.",
       "options": [
         "deep-mcq-09",
-        "deep-mcq-08",
-        "deep-mcq-10",
-        "deep-mcq-07",
-        "deep-mcq-11",
-        "deep-mcq-06"
+        "deep-mcq-28",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep」指「影響／印象深入而持久」。",
       "sentenceIndex": 26,
@@ -1605,12 +1515,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-09": "本句指「影響／印象深入而持久」。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-09": "本句的「deep」指「影響／印象深入而持久」。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-09"
     },
@@ -1622,11 +1530,9 @@ export default {
       "masked": "Her kindness made a ____ on me.",
       "options": [
         "deep-mcq-09",
-        "deep-mcq-08",
-        "deep-mcq-10",
-        "deep-mcq-07",
         "deep-mcq-11",
-        "deep-mcq-06"
+        "deep-mcq-28",
+        "deep-mcq-13"
       ],
       "explanation": "本句的「deep impression」指「影響／印象深入而持久」。",
       "sentenceIndex": 27,
@@ -1635,12 +1541,10 @@ export default {
         "deep impression"
       ],
       "optionReasons": {
-        "deep-mcq-09": "本句指「影響／印象深入而持久」。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-09": "本句的「deep impression」指「影響／印象深入而持久」。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-09"
     },
@@ -1652,11 +1556,9 @@ export default {
       "masked": "The speech left a ____ impression on the audience.",
       "options": [
         "deep-mcq-09",
-        "deep-mcq-08",
-        "deep-mcq-10",
-        "deep-mcq-07",
         "deep-mcq-11",
-        "deep-mcq-06"
+        "deep-mcq-19",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep」指「影響／印象深入而持久」。",
       "sentenceIndex": 28,
@@ -1665,12 +1567,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-09": "本句指「影響／印象深入而持久」。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-06": "「某種情感、影響、態度或程度非常強烈／深入」是「deeply — degree」的用法，與本句語境不同。"
+        "deep-mcq-09": "本句的「deep」指「影響／印象深入而持久」。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-09"
     },
@@ -1682,11 +1582,9 @@ export default {
       "masked": "She is ____ in the project.",
       "options": [
         "deep-mcq-10",
-        "deep-mcq-09",
-        "deep-mcq-11",
-        "deep-mcq-08",
-        "deep-mcq-12",
-        "deep-mcq-07"
+        "deep-mcq-05",
+        "deep-mcq-14",
+        "deep-mcq-17"
       ],
       "explanation": "本句的「deeply involved」指「參與程度很高、投入很多時間或精力」。",
       "sentenceIndex": 29,
@@ -1695,12 +1593,10 @@ export default {
         "deeply involved"
       ],
       "optionReasons": {
-        "deep-mcq-10": "本句指「參與程度很高、投入很多時間或精力」。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。"
+        "deep-mcq-10": "本句的「deeply involved」指「參與程度很高、投入很多時間或精力」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-10"
     },
@@ -1712,11 +1608,9 @@ export default {
       "masked": "He became ____ involved in community work.",
       "options": [
         "deep-mcq-10",
-        "deep-mcq-09",
-        "deep-mcq-11",
-        "deep-mcq-08",
-        "deep-mcq-12",
-        "deep-mcq-07"
+        "deep-mcq-26",
+        "deep-mcq-05",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deeply」指「參與程度很高、投入很多時間或精力」。",
       "sentenceIndex": 30,
@@ -1725,12 +1619,10 @@ export default {
         "deeply"
       ],
       "optionReasons": {
-        "deep-mcq-10": "本句指「參與程度很高、投入很多時間或精力」。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-07": "「情緒受到非常強烈而深刻的觸動」是「deeply moved」的用法，與本句語境不同。"
+        "deep-mcq-10": "本句的「deeply」指「參與程度很高、投入很多時間或精力」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-10"
     },
@@ -1742,11 +1634,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "deep-mcq-27",
-        "deep-mcq-26",
-        "deep-mcq-28",
-        "deep-mcq-25",
-        "deep-mcq-24",
-        "deep-mcq-23"
+        "deep-mcq-17",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-18"
       ],
       "explanation": "本句的「deep in thought」指「注意力高度集中、完全沉浸於某項活動／狀態」。",
       "sentenceIndex": 31,
@@ -1755,12 +1645,10 @@ export default {
         "deep in thought"
       ],
       "optionReasons": {
-        "deep-mcq-27": "本句指「注意力高度集中、完全沉浸於某項活動／狀態」。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-28": "「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」是「33. deep = extensive in number/layers（陣容深厚／層次多） — 深度足；人手充足」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。"
+        "deep-mcq-27": "本句的「deep in thought」指「注意力高度集中、完全沉浸於某項活動／狀態」。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-27"
     },
@@ -1772,11 +1660,9 @@ export default {
       "masked": "They were ____ in conversation.",
       "options": [
         "deep-mcq-27",
-        "deep-mcq-26",
-        "deep-mcq-28",
         "deep-mcq-25",
-        "deep-mcq-24",
-        "deep-mcq-23"
+        "deep-mcq-21",
+        "deep-mcq-01"
       ],
       "explanation": "本句的「deep」指「注意力高度集中、完全沉浸於某項活動／狀態」。",
       "sentenceIndex": 32,
@@ -1785,12 +1671,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-27": "本句指「注意力高度集中、完全沉浸於某項活動／狀態」。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-28": "「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」是「33. deep = extensive in number/layers（陣容深厚／層次多） — 深度足；人手充足」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。"
+        "deep-mcq-27": "本句的「deep」指「注意力高度集中、完全沉浸於某項活動／狀態」。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-27"
     },
@@ -1802,11 +1686,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "deep-mcq-11",
-        "deep-mcq-10",
-        "deep-mcq-12",
         "deep-mcq-09",
-        "deep-mcq-13",
-        "deep-mcq-08"
+        "deep-mcq-16",
+        "deep-mcq-19"
       ],
       "explanation": "本句的「deep voice」指「音高較低、聲音厚重」。",
       "sentenceIndex": 33,
@@ -1815,12 +1697,10 @@ export default {
         "deep voice"
       ],
       "optionReasons": {
-        "deep-mcq-11": "本句指「音高較低、聲音厚重」。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。"
+        "deep-mcq-11": "本句的「deep voice」指「音高較低、聲音厚重」。",
+        "deep-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-11"
     },
@@ -1832,11 +1712,9 @@ export default {
       "masked": "A ____ sound came from outside.",
       "options": [
         "deep-mcq-11",
-        "deep-mcq-10",
-        "deep-mcq-12",
-        "deep-mcq-09",
-        "deep-mcq-13",
-        "deep-mcq-08"
+        "deep-reviewed-b550a076ac",
+        "deep-pdf-001",
+        "deep-mcq-02"
       ],
       "explanation": "本句的「deep」指「音高較低、聲音厚重」。",
       "sentenceIndex": 34,
@@ -1845,12 +1723,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-11": "本句指「音高較低、聲音厚重」。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。"
+        "deep-mcq-11": "本句的「deep」指「音高較低、聲音厚重」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-11"
     },
@@ -1862,11 +1738,9 @@ export default {
       "masked": "She recognized his ____ immediately.",
       "options": [
         "deep-mcq-11",
-        "deep-mcq-10",
-        "deep-mcq-12",
-        "deep-mcq-09",
-        "deep-mcq-13",
-        "deep-mcq-08"
+        "deep-mcq-24",
+        "deep-mcq-01",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deep voice」指「音高較低、聲音厚重」。",
       "sentenceIndex": 35,
@@ -1875,12 +1749,10 @@ export default {
         "deep voice"
       ],
       "optionReasons": {
-        "deep-mcq-11": "本句指「音高較低、聲音厚重」。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。"
+        "deep-mcq-11": "本句的「deep voice」指「音高較低、聲音厚重」。",
+        "deep-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-11"
     },
@@ -1892,11 +1764,9 @@ export default {
       "masked": "The actor spoke in a ____ voice.",
       "options": [
         "deep-mcq-11",
-        "deep-mcq-10",
-        "deep-mcq-12",
-        "deep-mcq-09",
-        "deep-mcq-13",
-        "deep-mcq-08"
+        "deep-mcq-06",
+        "deep-mcq-28",
+        "deep-mcq-02"
       ],
       "explanation": "本句的「deep」指「音高較低、聲音厚重」。",
       "sentenceIndex": 36,
@@ -1905,12 +1775,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-11": "本句指「音高較低、聲音厚重」。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-08": "「憂慮程度很高、深感擔心」是「deeply concerned」的用法，與本句語境不同。"
+        "deep-mcq-11": "本句的「deep」指「音高較低、聲音厚重」。",
+        "deep-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-11"
     },
@@ -1922,11 +1790,9 @@ export default {
       "masked": "She wore a ____ dress.",
       "options": [
         "deep-mcq-12",
-        "deep-mcq-11",
-        "deep-mcq-13",
-        "deep-mcq-10",
-        "deep-mcq-14",
-        "deep-mcq-09"
+        "deep-mcq-19",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deep blue」指「顏色濃、深、飽和度高」。",
       "sentenceIndex": 37,
@@ -1935,12 +1801,10 @@ export default {
         "deep blue"
       ],
       "optionReasons": {
-        "deep-mcq-12": "本句指「顏色濃、深、飽和度高」。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。"
+        "deep-mcq-12": "本句的「deep blue」指「顏色濃、深、飽和度高」。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-12"
     },
@@ -1952,11 +1816,9 @@ export default {
       "masked": "The walls were painted ____ red.",
       "options": [
         "deep-mcq-12",
-        "deep-mcq-11",
-        "deep-mcq-13",
-        "deep-mcq-10",
         "deep-mcq-14",
-        "deep-mcq-09"
+        "deep-mcq-16",
+        "deep-mcq-22"
       ],
       "explanation": "本句的「deep」指「顏色濃、深、飽和度高」。",
       "sentenceIndex": 38,
@@ -1965,12 +1827,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-12": "本句指「顏色濃、深、飽和度高」。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。"
+        "deep-mcq-12": "本句的「deep」指「顏色濃、深、飽和度高」。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-12"
     },
@@ -1982,11 +1842,9 @@ export default {
       "masked": "The sky turned ____.",
       "options": [
         "deep-mcq-12",
-        "deep-mcq-11",
-        "deep-mcq-13",
-        "deep-mcq-10",
-        "deep-mcq-14",
-        "deep-mcq-09"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-19",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deep blue」指「顏色濃、深、飽和度高」。",
       "sentenceIndex": 39,
@@ -1995,12 +1853,10 @@ export default {
         "deep blue"
       ],
       "optionReasons": {
-        "deep-mcq-12": "本句指「顏色濃、深、飽和度高」。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。"
+        "deep-mcq-12": "本句的「deep blue」指「顏色濃、深、飽和度高」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-12"
     },
@@ -2012,11 +1868,9 @@ export default {
       "masked": "The leaves were a ____ green.",
       "options": [
         "deep-mcq-12",
-        "deep-mcq-11",
-        "deep-mcq-13",
-        "deep-mcq-10",
-        "deep-mcq-14",
-        "deep-mcq-09"
+        "deep-mcq-26",
+        "deep-mcq-22",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep」指「顏色濃、深、飽和度高」。",
       "sentenceIndex": 40,
@@ -2025,12 +1879,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-12": "本句指「顏色濃、深、飽和度高」。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-09": "「影響／印象深入而持久」是「deep effect/impression」的用法，與本句語境不同。"
+        "deep-mcq-12": "本句的「deep」指「顏色濃、深、飽和度高」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-12"
     },
@@ -2042,11 +1894,9 @@ export default {
       "masked": "The country was in ____.",
       "options": [
         "deep-mcq-13",
-        "deep-mcq-12",
         "deep-mcq-14",
-        "deep-mcq-11",
-        "deep-mcq-15",
-        "deep-mcq-10"
+        "deep-mcq-18",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deep crisis」指「問題或危機的嚴重程度非常高」。",
       "sentenceIndex": 41,
@@ -2055,12 +1905,10 @@ export default {
         "deep crisis"
       ],
       "optionReasons": {
-        "deep-mcq-13": "本句指「問題或危機的嚴重程度非常高」。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。"
+        "deep-mcq-13": "本句的「deep crisis」指「問題或危機的嚴重程度非常高」。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-13"
     },
@@ -2072,11 +1920,9 @@ export default {
       "masked": "She was in ____ trouble.",
       "options": [
         "deep-mcq-13",
-        "deep-mcq-12",
-        "deep-mcq-14",
-        "deep-mcq-11",
-        "deep-mcq-15",
-        "deep-mcq-10"
+        "deep-pdf-003",
+        "deep-mcq-02",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deep」指「問題或危機的嚴重程度非常高」。",
       "sentenceIndex": 42,
@@ -2085,12 +1931,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-13": "本句指「問題或危機的嚴重程度非常高」。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。"
+        "deep-mcq-13": "本句的「deep」指「問題或危機的嚴重程度非常高」。",
+        "deep-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-13"
     },
@@ -2102,11 +1946,9 @@ export default {
       "masked": "He knew he was ____.",
       "options": [
         "deep-mcq-13",
-        "deep-mcq-12",
-        "deep-mcq-14",
-        "deep-mcq-11",
-        "deep-mcq-15",
-        "deep-mcq-10"
+        "deep-pdf-003",
+        "deep-mcq-02",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「in deep trouble」指「問題或危機的嚴重程度非常高」。",
       "sentenceIndex": 43,
@@ -2115,12 +1957,10 @@ export default {
         "in deep trouble"
       ],
       "optionReasons": {
-        "deep-mcq-13": "本句指「問題或危機的嚴重程度非常高」。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。"
+        "deep-mcq-13": "本句的「in deep trouble」指「問題或危機的嚴重程度非常高」。",
+        "deep-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-13"
     },
@@ -2132,11 +1972,9 @@ export default {
       "masked": "The company could be in ____ trouble.",
       "options": [
         "deep-mcq-13",
-        "deep-mcq-12",
-        "deep-mcq-14",
-        "deep-mcq-11",
-        "deep-mcq-15",
-        "deep-mcq-10"
+        "deep-mcq-26",
+        "deep-mcq-25",
+        "deep-mcq-18"
       ],
       "explanation": "本句的「deep」指「問題或危機的嚴重程度非常高」。",
       "sentenceIndex": 44,
@@ -2145,12 +1983,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-13": "本句指「問題或危機的嚴重程度非常高」。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-10": "「參與程度很高、投入很多時間或精力」是「deeply involved」的用法，與本句語境不同。"
+        "deep-mcq-13": "本句的「deep」指「問題或危機的嚴重程度非常高」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-13"
     },
@@ -2162,11 +1998,9 @@ export default {
       "masked": "The course goes into ____.",
       "options": [
         "deep-pdf-001",
-        "deep-mcq-13",
-        "deep-mcq-15",
-        "deep-mcq-12",
-        "deep-mcq-16",
-        "deep-mcq-11"
+        "deep-mcq-22",
+        "deep-mcq-11",
+        "deep-mcq-12"
       ],
       "explanation": "本句的「deep technical detail」指「對某個主題有全面、深入而非表面的理解」。",
       "sentenceIndex": 45,
@@ -2175,12 +2009,10 @@ export default {
         "deep technical detail"
       ],
       "optionReasons": {
-        "deep-pdf-001": "本句指「對某個主題有全面、深入而非表面的理解」。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。"
+        "deep-pdf-001": "本句的「deep technical detail」指「對某個主題有全面、深入而非表面的理解」。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-pdf-001"
     },
@@ -2192,11 +2024,9 @@ export default {
       "masked": "You don’t need ____ knowledge of the subject.",
       "options": [
         "deep-pdf-001",
-        "deep-mcq-13",
-        "deep-mcq-15",
-        "deep-mcq-12",
-        "deep-mcq-16",
-        "deep-mcq-11"
+        "deep-mcq-22",
+        "deep-mcq-11",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deep」指「對某個主題有全面、深入而非表面的理解」。",
       "sentenceIndex": 46,
@@ -2205,12 +2035,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-pdf-001": "本句指「對某個主題有全面、深入而非表面的理解」。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。"
+        "deep-pdf-001": "本句的「deep」指「對某個主題有全面、深入而非表面的理解」。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-pdf-001"
     },
@@ -2223,10 +2051,8 @@ export default {
       "options": [
         "deep-mcq-14",
         "deep-mcq-13",
-        "deep-mcq-15",
         "deep-mcq-12",
-        "deep-mcq-16",
-        "deep-mcq-11"
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deep understanding」指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
       "sentenceIndex": 47,
@@ -2235,12 +2061,10 @@ export default {
         "deep understanding"
       ],
       "optionReasons": {
-        "deep-mcq-14": "本句指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。"
+        "deep-mcq-14": "本句的「deep understanding」指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
+        "deep-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-14"
     },
@@ -2252,11 +2076,9 @@ export default {
       "masked": "Experience gave him a ____ understanding of the problem.",
       "options": [
         "deep-mcq-14",
-        "deep-mcq-13",
-        "deep-mcq-15",
-        "deep-mcq-12",
-        "deep-mcq-16",
-        "deep-mcq-11"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-17",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deeper」指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
       "sentenceIndex": 48,
@@ -2265,12 +2087,10 @@ export default {
         "deeper"
       ],
       "optionReasons": {
-        "deep-mcq-14": "本句指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-11": "「音高較低、聲音厚重」是「deep voice」的用法，與本句語境不同。"
+        "deep-mcq-14": "本句的「deeper」指「不只掌握表面資訊，而是理解原因、關係和核心本質」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-14"
     },
@@ -2282,11 +2102,9 @@ export default {
       "masked": "He was in a ____.",
       "options": [
         "deep-mcq-15",
-        "deep-mcq-14",
         "deep-mcq-16",
-        "deep-mcq-13",
-        "deep-mcq-17",
-        "deep-mcq-12"
+        "deep-mcq-05",
+        "deep-mcq-19"
       ],
       "explanation": "本句的「deep sleep」指「睡眠程度很深、較難被喚醒」。",
       "sentenceIndex": 49,
@@ -2295,12 +2113,10 @@ export default {
         "deep sleep"
       ],
       "optionReasons": {
-        "deep-mcq-15": "本句指「睡眠程度很深、較難被喚醒」。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。"
+        "deep-mcq-15": "本句的「deep sleep」指「睡眠程度很深、較難被喚醒」。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-15"
     },
@@ -2312,11 +2128,9 @@ export default {
       "masked": "She fell into a ____ sleep.",
       "options": [
         "deep-mcq-15",
-        "deep-mcq-14",
-        "deep-mcq-16",
-        "deep-mcq-13",
-        "deep-mcq-17",
-        "deep-mcq-12"
+        "deep-mcq-05",
+        "deep-mcq-01",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep」指「睡眠程度很深、較難被喚醒」。",
       "sentenceIndex": 50,
@@ -2325,12 +2139,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-15": "本句指「睡眠程度很深、較難被喚醒」。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。"
+        "deep-mcq-15": "本句的「deep」指「睡眠程度很深、較難被喚醒」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-15"
     },
@@ -2342,11 +2154,9 @@ export default {
       "masked": "The child was in a ____.",
       "options": [
         "deep-mcq-15",
-        "deep-mcq-14",
         "deep-mcq-16",
-        "deep-mcq-13",
-        "deep-mcq-17",
-        "deep-mcq-12"
+        "deep-mcq-05",
+        "deep-mcq-14"
       ],
       "explanation": "本句的「deep sleep」指「睡眠程度很深、較難被喚醒」。",
       "sentenceIndex": 51,
@@ -2355,12 +2165,10 @@ export default {
         "deep sleep"
       ],
       "optionReasons": {
-        "deep-mcq-15": "本句指「睡眠程度很深、較難被喚醒」。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。"
+        "deep-mcq-15": "本句的「deep sleep」指「睡眠程度很深、較難被喚醒」。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-15"
     },
@@ -2372,11 +2180,9 @@ export default {
       "masked": "Exercise can sometimes help people sleep more ____.",
       "options": [
         "deep-mcq-15",
-        "deep-mcq-14",
-        "deep-mcq-16",
-        "deep-mcq-13",
-        "deep-mcq-17",
-        "deep-mcq-12"
+        "deep-mcq-28",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deeply」指「睡眠程度很深、較難被喚醒」。",
       "sentenceIndex": 52,
@@ -2385,12 +2191,10 @@ export default {
         "deeply"
       ],
       "optionReasons": {
-        "deep-mcq-15": "本句指「睡眠程度很深、較難被喚醒」。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-12": "「顏色濃、深、飽和度高」是「deep colour」的用法，與本句語境不同。"
+        "deep-mcq-15": "本句的「deeply」指「睡眠程度很深、較難被喚醒」。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-15"
     },
@@ -2402,11 +2206,9 @@ export default {
       "masked": "Take a ____.",
       "options": [
         "deep-mcq-16",
-        "deep-mcq-15",
-        "deep-mcq-17",
-        "deep-mcq-14",
-        "deep-mcq-18",
-        "deep-mcq-13"
+        "deep-mcq-02",
+        "deep-mcq-09",
+        "deep-mcq-12"
       ],
       "explanation": "本句的「deep breath」指「比平常更大、更充分的一次呼吸」。",
       "sentenceIndex": 53,
@@ -2415,12 +2217,10 @@ export default {
         "deep breath"
       ],
       "optionReasons": {
-        "deep-mcq-16": "本句指「比平常更大、更充分的一次呼吸」。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。"
+        "deep-mcq-16": "本句的「deep breath」指「比平常更大、更充分的一次呼吸」。",
+        "deep-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-16"
     },
@@ -2432,11 +2232,9 @@ export default {
       "masked": "She took a ____ breath before speaking.",
       "options": [
         "deep-mcq-16",
-        "deep-mcq-15",
-        "deep-mcq-17",
+        "deep-mcq-12",
         "deep-mcq-14",
-        "deep-mcq-18",
-        "deep-mcq-13"
+        "deep-mcq-23"
       ],
       "explanation": "本句的「deep」指「比平常更大、更充分的一次呼吸」。",
       "sentenceIndex": 54,
@@ -2445,12 +2243,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-16": "本句指「比平常更大、更充分的一次呼吸」。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。"
+        "deep-mcq-16": "本句的「deep」指「比平常更大、更充分的一次呼吸」。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-16"
     },
@@ -2462,11 +2258,9 @@ export default {
       "masked": "Take a few ____.",
       "options": [
         "deep-mcq-16",
-        "deep-mcq-15",
-        "deep-mcq-17",
-        "deep-mcq-14",
-        "deep-mcq-18",
-        "deep-mcq-13"
+        "deep-mcq-24",
+        "deep-mcq-19",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deep breaths」指「比平常更大、更充分的一次呼吸」。",
       "sentenceIndex": 55,
@@ -2475,12 +2269,10 @@ export default {
         "deep breaths"
       ],
       "optionReasons": {
-        "deep-mcq-16": "本句指「比平常更大、更充分的一次呼吸」。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。"
+        "deep-mcq-16": "本句的「deep breaths」指「比平常更大、更充分的一次呼吸」。",
+        "deep-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-16"
     },
@@ -2492,11 +2284,9 @@ export default {
       "masked": "A ____ breath helped her calm down.",
       "options": [
         "deep-mcq-16",
-        "deep-mcq-15",
-        "deep-mcq-17",
-        "deep-mcq-14",
-        "deep-mcq-18",
-        "deep-mcq-13"
+        "deep-mcq-05",
+        "deep-mcq-03",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep」指「比平常更大、更充分的一次呼吸」。",
       "sentenceIndex": 56,
@@ -2505,12 +2295,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-16": "本句指「比平常更大、更充分的一次呼吸」。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-13": "「問題或危機的嚴重程度非常高」是「deep trouble/crisis」的用法，與本句語境不同。"
+        "deep-mcq-16": "本句的「deep」指「比平常更大、更充分的一次呼吸」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-16"
     },
@@ -2522,11 +2310,9 @@ export default {
       "masked": "The tradition has ____.",
       "options": [
         "deep-mcq-17",
-        "deep-mcq-16",
-        "deep-mcq-18",
-        "deep-mcq-15",
-        "deep-mcq-19",
-        "deep-mcq-14"
+        "deep-mcq-05",
+        "deep-mcq-26",
+        "deep-mcq-10"
       ],
       "explanation": "本句的「deep roots」指「某現象／傳統／問題長期形成，根基深厚」。",
       "sentenceIndex": 57,
@@ -2535,12 +2321,10 @@ export default {
         "deep roots"
       ],
       "optionReasons": {
-        "deep-mcq-17": "本句指「某現象／傳統／問題長期形成，根基深厚」。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。"
+        "deep-mcq-17": "本句的「deep roots」指「某現象／傳統／問題長期形成，根基深厚」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-17"
     },
@@ -2552,11 +2336,9 @@ export default {
       "masked": "The conflict has ____ historical roots.",
       "options": [
         "deep-mcq-17",
-        "deep-mcq-16",
-        "deep-mcq-18",
-        "deep-mcq-15",
-        "deep-mcq-19",
-        "deep-mcq-14"
+        "deep-mcq-22",
+        "deep-mcq-26",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「deep」指「某現象／傳統／問題長期形成，根基深厚」。",
       "sentenceIndex": 58,
@@ -2565,12 +2347,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-17": "本句指「某現象／傳統／問題長期形成，根基深厚」。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。"
+        "deep-mcq-17": "本句的「deep」指「某現象／傳統／問題長期形成，根基深厚」。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-17"
     },
@@ -2582,11 +2362,9 @@ export default {
       "masked": "The custom has ____ in local culture.",
       "options": [
         "deep-mcq-17",
-        "deep-mcq-16",
-        "deep-mcq-18",
-        "deep-mcq-15",
-        "deep-mcq-19",
-        "deep-mcq-14"
+        "deep-mcq-22",
+        "deep-mcq-01",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deep roots」指「某現象／傳統／問題長期形成，根基深厚」。",
       "sentenceIndex": 59,
@@ -2595,12 +2373,10 @@ export default {
         "deep roots"
       ],
       "optionReasons": {
-        "deep-mcq-17": "本句指「某現象／傳統／問題長期形成，根基深厚」。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。"
+        "deep-mcq-17": "本句的「deep roots」指「某現象／傳統／問題長期形成，根基深厚」。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-17"
     },
@@ -2613,10 +2389,8 @@ export default {
       "options": [
         "deep-mcq-17",
         "deep-mcq-16",
-        "deep-mcq-18",
-        "deep-mcq-15",
-        "deep-mcq-19",
-        "deep-mcq-14"
+        "deep-mcq-26",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deep」指「某現象／傳統／問題長期形成，根基深厚」。",
       "sentenceIndex": 60,
@@ -2625,12 +2399,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-17": "本句指「某現象／傳統／問題長期形成，根基深厚」。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-14": "「不只掌握表面資訊，而是理解原因、關係和核心本質」是「deep understanding」的用法，與本句語境不同。"
+        "deep-mcq-17": "本句的「deep」指「某現象／傳統／問題長期形成，根基深厚」。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-17"
     },
@@ -2642,11 +2414,9 @@ export default {
       "masked": "They worked ____.",
       "options": [
         "deep-mcq-18",
-        "deep-mcq-17",
-        "deep-mcq-19",
-        "deep-mcq-16",
-        "deep-mcq-20",
-        "deep-mcq-15"
+        "deep-mcq-14",
+        "deep-mcq-22",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep into the night」指「夜晚已進入很後面的時段；到深夜」。",
       "sentenceIndex": 61,
@@ -2655,12 +2425,10 @@ export default {
         "deep into the night"
       ],
       "optionReasons": {
-        "deep-mcq-18": "本句指「夜晚已進入很後面的時段；到深夜」。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。"
+        "deep-mcq-18": "本句的「deep into the night」指「夜晚已進入很後面的時段；到深夜」。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-18"
     },
@@ -2672,11 +2440,9 @@ export default {
       "masked": "The village was covered in snow ____ into winter.",
       "options": [
         "deep-mcq-18",
-        "deep-mcq-17",
-        "deep-mcq-19",
-        "deep-mcq-16",
-        "deep-mcq-20",
-        "deep-mcq-15"
+        "deep-mcq-14",
+        "deep-mcq-27",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deep」指「夜晚已進入很後面的時段；到深夜」。",
       "sentenceIndex": 62,
@@ -2685,12 +2451,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-18": "本句指「夜晚已進入很後面的時段；到深夜」。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。"
+        "deep-mcq-18": "本句的「deep」指「夜晚已進入很後面的時段；到深夜」。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-18"
     },
@@ -2702,11 +2466,9 @@ export default {
       "masked": "They talked ____.",
       "options": [
         "deep-mcq-18",
-        "deep-mcq-17",
-        "deep-mcq-19",
-        "deep-mcq-16",
-        "deep-mcq-20",
-        "deep-mcq-15"
+        "deep-mcq-28",
+        "deep-mcq-11",
+        "deep-mcq-22"
       ],
       "explanation": "本句的「deep into the night」指「夜晚已進入很後面的時段；到深夜」。",
       "sentenceIndex": 63,
@@ -2715,12 +2477,10 @@ export default {
         "deep into the night"
       ],
       "optionReasons": {
-        "deep-mcq-18": "本句指「夜晚已進入很後面的時段；到深夜」。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。"
+        "deep-mcq-18": "本句的「deep into the night」指「夜晚已進入很後面的時段；到深夜」。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-18"
     },
@@ -2732,11 +2492,9 @@ export default {
       "masked": "She studied ____ into the night.",
       "options": [
         "deep-mcq-18",
-        "deep-mcq-17",
-        "deep-mcq-19",
+        "deep-reviewed-b550a076ac",
         "deep-mcq-16",
-        "deep-mcq-20",
-        "deep-mcq-15"
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep」指「夜晚已進入很後面的時段；到深夜」。",
       "sentenceIndex": 64,
@@ -2745,12 +2503,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-18": "本句指「夜晚已進入很後面的時段；到深夜」。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-15": "「睡眠程度很深、較難被喚醒」是「deep sleep」的用法，與本句語境不同。"
+        "deep-mcq-18": "本句的「deep」指「夜晚已進入很後面的時段；到深夜」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-18"
     },
@@ -2762,11 +2518,9 @@ export default {
       "masked": "The team has a ____.",
       "options": [
         "deep-mcq-28",
-        "deep-mcq-27",
-        "deep-mcq-26",
-        "deep-mcq-25",
-        "deep-mcq-24",
-        "deep-mcq-23"
+        "deep-mcq-22",
+        "deep-mcq-21",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「deep squad」指「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」。",
       "sentenceIndex": 65,
@@ -2775,12 +2529,10 @@ export default {
         "deep squad"
       ],
       "optionReasons": {
-        "deep-mcq-28": "本句指「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」。",
-        "deep-mcq-27": "「注意力高度集中、完全沉浸於某項活動／狀態」是「16. deep in thought/work/conversation（全神貫注） — 沉浸；專注」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。"
+        "deep-mcq-28": "本句的「deep squad」指「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-28"
     },
@@ -2792,11 +2544,9 @@ export default {
       "masked": "They have a ____ pool of experienced staff.",
       "options": [
         "deep-mcq-28",
-        "deep-mcq-27",
-        "deep-mcq-26",
+        "deep-mcq-04",
         "deep-mcq-25",
-        "deep-mcq-24",
-        "deep-mcq-23"
+        "deep-mcq-18"
       ],
       "explanation": "本句的「deep」指「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」。",
       "sentenceIndex": 66,
@@ -2805,12 +2555,10 @@ export default {
         "deep"
       ],
       "optionReasons": {
-        "deep-mcq-28": "本句指「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」。",
-        "deep-mcq-27": "「注意力高度集中、完全沉浸於某項活動／狀態」是「16. deep in thought/work/conversation（全神貫注） — 沉浸；專注」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。"
+        "deep-mcq-28": "本句的「deep」指「可用人員／資源不只集中於表面或少數幾個，而是層次／儲備充足」。",
+        "deep-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-28"
     },
@@ -2822,11 +2570,9 @@ export default {
       "masked": "What is the ____ of the pool?",
       "options": [
         "deep-mcq-19",
-        "deep-mcq-18",
-        "deep-mcq-20",
-        "deep-mcq-17",
-        "deep-mcq-21",
-        "deep-mcq-16"
+        "deep-mcq-10",
+        "deep-mcq-25",
+        "deep-mcq-07"
       ],
       "explanation": "本句的「depth」指「從表面到下面／內部的距離」。",
       "sentenceIndex": 67,
@@ -2835,12 +2581,10 @@ export default {
         "depth"
       ],
       "optionReasons": {
-        "deep-mcq-19": "本句指「從表面到下面／內部的距離」。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。"
+        "deep-mcq-19": "本句的「depth」指「從表面到下面／內部的距離」。",
+        "deep-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-19"
     },
@@ -2852,11 +2596,9 @@ export default {
       "masked": "The water reaches a ____ of three metres.",
       "options": [
         "deep-mcq-19",
-        "deep-mcq-18",
-        "deep-mcq-20",
-        "deep-mcq-17",
-        "deep-mcq-21",
-        "deep-mcq-16"
+        "deep-mcq-25",
+        "deep-mcq-16",
+        "deep-pdf-002"
       ],
       "explanation": "本句的「depth」指「從表面到下面／內部的距離」。",
       "sentenceIndex": 68,
@@ -2865,12 +2607,10 @@ export default {
         "depth"
       ],
       "optionReasons": {
-        "deep-mcq-19": "本句指「從表面到下面／內部的距離」。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-16": "「比平常更大、更充分的一次呼吸」是「deep breath」的用法，與本句語境不同。"
+        "deep-mcq-19": "本句的「depth」指「從表面到下面／內部的距離」。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-19"
     },
@@ -2883,10 +2623,8 @@ export default {
       "options": [
         "deep-mcq-20",
         "deep-mcq-19",
-        "deep-mcq-21",
-        "deep-mcq-18",
-        "deep-mcq-22",
-        "deep-mcq-17"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「depth of her knowledge」指「思想、知識、感情或分析深入的程度」。",
       "sentenceIndex": 69,
@@ -2895,12 +2633,10 @@ export default {
         "depth of her knowledge"
       ],
       "optionReasons": {
-        "deep-mcq-20": "本句指「思想、知識、感情或分析深入的程度」。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。"
+        "deep-mcq-20": "本句的「depth of her knowledge」指「思想、知識、感情或分析深入的程度」。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-20"
     },
@@ -2912,11 +2648,9 @@ export default {
       "masked": "The book explores the issue in ____.",
       "options": [
         "deep-mcq-20",
-        "deep-mcq-19",
-        "deep-mcq-21",
-        "deep-mcq-18",
-        "deep-mcq-22",
-        "deep-mcq-17"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-05",
+        "deep-mcq-01"
       ],
       "explanation": "本句的「depth」指「思想、知識、感情或分析深入的程度」。",
       "sentenceIndex": 70,
@@ -2925,12 +2659,10 @@ export default {
         "depth"
       ],
       "optionReasons": {
-        "deep-mcq-20": "本句指「思想、知識、感情或分析深入的程度」。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-17": "「某現象／傳統／問題長期形成，根基深厚」是「deep roots」的用法，與本句語境不同。"
+        "deep-mcq-20": "本句的「depth」指「思想、知識、感情或分析深入的程度」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-20"
     },
@@ -2942,11 +2674,9 @@ export default {
       "masked": "We discussed the issue ____.",
       "options": [
         "deep-mcq-21",
-        "deep-mcq-20",
-        "deep-mcq-22",
-        "deep-mcq-19",
-        "deep-mcq-23",
-        "deep-mcq-18"
+        "deep-mcq-13",
+        "deep-mcq-11",
+        "deep-mcq-01"
       ],
       "explanation": "本句的「in depth」指「詳細而深入地處理／分析某事」。",
       "sentenceIndex": 71,
@@ -2955,12 +2685,10 @@ export default {
         "in depth"
       ],
       "optionReasons": {
-        "deep-mcq-21": "本句指「詳細而深入地處理／分析某事」。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。"
+        "deep-mcq-21": "本句的「in depth」指「詳細而深入地處理／分析某事」。",
+        "deep-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-21"
     },
@@ -2972,11 +2700,9 @@ export default {
       "masked": "The report examines the problem in ____.",
       "options": [
         "deep-mcq-21",
-        "deep-mcq-20",
-        "deep-mcq-22",
+        "deep-mcq-13",
         "deep-mcq-19",
-        "deep-mcq-23",
-        "deep-mcq-18"
+        "deep-mcq-11"
       ],
       "explanation": "本句的「depth」指「詳細而深入地處理／分析某事」。",
       "sentenceIndex": 72,
@@ -2985,12 +2711,10 @@ export default {
         "depth"
       ],
       "optionReasons": {
-        "deep-mcq-21": "本句指「詳細而深入地處理／分析某事」。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。"
+        "deep-mcq-21": "本句的「depth」指「詳細而深入地處理／分析某事」。",
+        "deep-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-21"
     },
@@ -3002,11 +2726,9 @@ export default {
       "masked": "Her voice revealed the ____.",
       "options": [
         "deep-pdf-002",
-        "deep-mcq-20",
-        "deep-mcq-22",
-        "deep-mcq-19",
-        "deep-mcq-23",
-        "deep-mcq-18"
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-01",
+        "deep-mcq-16"
       ],
       "explanation": "本句的「depth of her feeling」指「情緒／感情強烈、深厚的程度」。",
       "sentenceIndex": 73,
@@ -3015,12 +2737,10 @@ export default {
         "depth of her feeling"
       ],
       "optionReasons": {
-        "deep-pdf-002": "本句指「情緒／感情強烈、深厚的程度」。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。"
+        "deep-pdf-002": "本句的「depth of her feeling」指「情緒／感情強烈、深厚的程度」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-pdf-002"
     },
@@ -3032,11 +2752,9 @@ export default {
       "masked": "I did not realize the ____ of his concern.",
       "options": [
         "deep-pdf-002",
-        "deep-mcq-20",
-        "deep-mcq-22",
-        "deep-mcq-19",
-        "deep-mcq-23",
-        "deep-mcq-18"
+        "deep-mcq-28",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-25"
       ],
       "explanation": "本句的「depth」指「情緒／感情強烈、深厚的程度」。",
       "sentenceIndex": 74,
@@ -3045,12 +2763,10 @@ export default {
         "depth"
       ],
       "optionReasons": {
-        "deep-pdf-002": "本句指「情緒／感情強烈、深厚的程度」。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-18": "「夜晚已進入很後面的時段；到深夜」是「deep into the night」的用法，與本句語境不同。"
+        "deep-pdf-002": "本句的「depth」指「情緒／感情強烈、深厚的程度」。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-pdf-002"
     },
@@ -3062,11 +2778,9 @@ export default {
       "masked": "I felt ____ in the advanced class.",
       "options": [
         "deep-mcq-22",
-        "deep-mcq-21",
-        "deep-mcq-23",
-        "deep-mcq-20",
-        "deep-mcq-24",
-        "deep-mcq-19"
+        "deep-mcq-14",
+        "deep-mcq-12",
+        "deep-mcq-18"
       ],
       "explanation": "本句的「out of my depth」指「面對超出自己知識、能力或經驗範圍的事情」。",
       "sentenceIndex": 75,
@@ -3075,12 +2789,10 @@ export default {
         "out of my depth"
       ],
       "optionReasons": {
-        "deep-mcq-22": "本句指「面對超出自己知識、能力或經驗範圍的事情」。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。"
+        "deep-mcq-22": "本句的「out of my depth」指「面對超出自己知識、能力或經驗範圍的事情」。",
+        "deep-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-22"
     },
@@ -3092,11 +2804,9 @@ export default {
       "masked": "He was out of his ____ in the new role.",
       "options": [
         "deep-mcq-22",
+        "deep-reviewed-b550a076ac",
         "deep-mcq-21",
-        "deep-mcq-23",
-        "deep-mcq-20",
-        "deep-mcq-24",
-        "deep-mcq-19"
+        "deep-mcq-12"
       ],
       "explanation": "本句的「depth」指「面對超出自己知識、能力或經驗範圍的事情」。",
       "sentenceIndex": 76,
@@ -3105,12 +2815,10 @@ export default {
         "depth"
       ],
       "optionReasons": {
-        "deep-mcq-22": "本句指「面對超出自己知識、能力或經驗範圍的事情」。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-19": "「從表面到下面／內部的距離」是「depth — physical」的用法，與本句語境不同。"
+        "deep-mcq-22": "本句的「depth」指「面對超出自己知識、能力或經驗範圍的事情」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-22"
     },
@@ -3122,11 +2830,9 @@ export default {
       "masked": "They plan to ____.",
       "options": [
         "deep-mcq-23",
-        "deep-mcq-22",
-        "deep-mcq-24",
-        "deep-mcq-21",
-        "deep-mcq-25",
-        "deep-mcq-20"
+        "deep-mcq-28",
+        "deep-mcq-05",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deepen the channel」指「令實際深度增加，或本身變得更深」。",
       "sentenceIndex": 77,
@@ -3135,12 +2841,10 @@ export default {
         "deepen the channel"
       ],
       "optionReasons": {
-        "deep-mcq-23": "本句指「令實際深度增加，或本身變得更深」。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。"
+        "deep-mcq-23": "本句的「deepen the channel」指「令實際深度增加，或本身變得更深」。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-23"
     },
@@ -3152,11 +2856,9 @@ export default {
       "masked": "The river ____ near the bridge.",
       "options": [
         "deep-mcq-23",
-        "deep-mcq-22",
-        "deep-mcq-24",
-        "deep-mcq-21",
-        "deep-mcq-25",
-        "deep-mcq-20"
+        "deep-mcq-28",
+        "deep-reviewed-b550a076ac",
+        "deep-mcq-05"
       ],
       "explanation": "本句的「deepens」指「令實際深度增加，或本身變得更深」。",
       "sentenceIndex": 78,
@@ -3165,12 +2867,10 @@ export default {
         "deepens"
       ],
       "optionReasons": {
-        "deep-mcq-23": "本句指「令實際深度增加，或本身變得更深」。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-20": "「思想、知識、感情或分析深入的程度」是「depth — figurative」的用法，與本句語境不同。"
+        "deep-mcq-23": "本句的「deepens」指「令實際深度增加，或本身變得更深」。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-23"
     },
@@ -3182,11 +2882,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "deep-mcq-24",
-        "deep-mcq-23",
-        "deep-mcq-25",
-        "deep-mcq-22",
         "deep-mcq-26",
-        "deep-mcq-21"
+        "deep-mcq-18",
+        "deep-reviewed-b550a076ac"
       ],
       "explanation": "本句的「deepened their friendship」指「令感情、理解、問題或危機程度增加／更強烈」。",
       "sentenceIndex": 79,
@@ -3195,12 +2893,10 @@ export default {
         "deepened their friendship"
       ],
       "optionReasons": {
-        "deep-mcq-24": "本句指「令感情、理解、問題或危機程度增加／更強烈」。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。"
+        "deep-mcq-24": "本句的「deepened their friendship」指「令感情、理解、問題或危機程度增加／更強烈」。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-24"
     },
@@ -3212,11 +2908,9 @@ export default {
       "masked": "The crisis ____.",
       "options": [
         "deep-mcq-24",
-        "deep-mcq-23",
         "deep-mcq-25",
-        "deep-mcq-22",
-        "deep-mcq-26",
-        "deep-mcq-21"
+        "deep-mcq-28",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deepened」指「令感情、理解、問題或危機程度增加／更強烈」。",
       "sentenceIndex": 80,
@@ -3225,12 +2919,10 @@ export default {
         "deepened"
       ],
       "optionReasons": {
-        "deep-mcq-24": "本句指「令感情、理解、問題或危機程度增加／更強烈」。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。"
+        "deep-mcq-24": "本句的「deepened」指「令感情、理解、問題或危機程度增加／更強烈」。",
+        "deep-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-24"
     },
@@ -3242,11 +2934,9 @@ export default {
       "masked": "Reading can ____.",
       "options": [
         "deep-pdf-003",
-        "deep-mcq-23",
-        "deep-mcq-25",
-        "deep-mcq-22",
-        "deep-mcq-26",
-        "deep-mcq-21"
+        "deep-mcq-05",
+        "deep-mcq-11",
+        "deep-mcq-13"
       ],
       "explanation": "本句的「deepen your understanding」指「令理解由表面變得更全面、更深入」。",
       "sentenceIndex": 81,
@@ -3255,12 +2945,10 @@ export default {
         "deepen your understanding"
       ],
       "optionReasons": {
-        "deep-pdf-003": "本句指「令理解由表面變得更全面、更深入」。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。"
+        "deep-pdf-003": "本句的「deepen your understanding」指「令理解由表面變得更全面、更深入」。",
+        "deep-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-pdf-003"
     },
@@ -3272,11 +2960,9 @@ export default {
       "masked": "The course ____ her knowledge of the subject.",
       "options": [
         "deep-pdf-003",
-        "deep-mcq-23",
-        "deep-mcq-25",
+        "deep-reviewed-b550a076ac",
         "deep-mcq-22",
-        "deep-mcq-26",
-        "deep-mcq-21"
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deepened」指「令理解由表面變得更全面、更深入」。",
       "sentenceIndex": 82,
@@ -3285,12 +2971,10 @@ export default {
         "deepened"
       ],
       "optionReasons": {
-        "deep-pdf-003": "本句指「令理解由表面變得更全面、更深入」。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-25": "「長期形成、根深蒂固而不容易改變的」是「deep-seated」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-21": "「詳細而深入地處理／分析某事」是「in depth」的用法，與本句語境不同。"
+        "deep-pdf-003": "本句的「deepened」指「令理解由表面變得更全面、更深入」。",
+        "deep-reviewed-b550a076ac": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-pdf-003"
     },
@@ -3302,11 +2986,9 @@ export default {
       "masked": "He has a ____ of failure.",
       "options": [
         "deep-mcq-25",
-        "deep-mcq-24",
-        "deep-mcq-26",
-        "deep-mcq-23",
-        "deep-mcq-27",
-        "deep-mcq-22"
+        "deep-mcq-19",
+        "deep-mcq-04",
+        "deep-mcq-11"
       ],
       "explanation": "本句的「deep-seated fear」指「長期形成、根深蒂固而不容易改變的」。",
       "sentenceIndex": 83,
@@ -3315,12 +2997,10 @@ export default {
         "deep-seated fear"
       ],
       "optionReasons": {
-        "deep-mcq-25": "本句指「長期形成、根深蒂固而不容易改變的」。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-27": "「注意力高度集中、完全沉浸於某項活動／狀態」是「16. deep in thought/work/conversation（全神貫注） — 沉浸；專注」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。"
+        "deep-mcq-25": "本句的「deep-seated fear」指「長期形成、根深蒂固而不容易改變的」。",
+        "deep-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-25"
     },
@@ -3332,11 +3012,9 @@ export default {
       "masked": "The conflict reflects ____ problems.",
       "options": [
         "deep-mcq-25",
+        "deep-mcq-16",
         "deep-mcq-24",
-        "deep-mcq-26",
-        "deep-mcq-23",
-        "deep-mcq-27",
-        "deep-mcq-22"
+        "deep-mcq-26"
       ],
       "explanation": "本句的「deep-seated」指「長期形成、根深蒂固而不容易改變的」。",
       "sentenceIndex": 84,
@@ -3345,12 +3023,10 @@ export default {
         "deep-seated"
       ],
       "optionReasons": {
-        "deep-mcq-25": "本句指「長期形成、根深蒂固而不容易改變的」。",
-        "deep-mcq-24": "「令感情、理解、問題或危機程度增加／更強烈」是「deepen — figurative」的用法，與本句語境不同。",
-        "deep-mcq-26": "「某物由表面到內部／底部的距離很大」是「2. deep water/hole/container（深水／深洞／深容器） — 深的」的用法，與本句語境不同。",
-        "deep-mcq-23": "「令實際深度增加，或本身變得更深」是「deepen — physical」的用法，與本句語境不同。",
-        "deep-mcq-27": "「注意力高度集中、完全沉浸於某項活動／狀態」是「16. deep in thought/work/conversation（全神貫注） — 沉浸；專注」的用法，與本句語境不同。",
-        "deep-mcq-22": "「面對超出自己知識、能力或經驗範圍的事情」是「out of your depth」的用法，與本句語境不同。"
+        "deep-mcq-25": "本句的「deep-seated」指「長期形成、根深蒂固而不容易改變的」。",
+        "deep-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "deep-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deep-mcq-25"
     }
@@ -3362,5 +3038,7 @@ export default {
     "sha256": "c9adbd209abd633b4867a68a5c2e5ac8b2c96ba5289a1b1ba46b4972dfd81b6d",
     "pages": 32
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

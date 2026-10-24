@@ -286,7 +286,7 @@ export default {
     },
     {
       "id": "sense-mcq-13",
-      "title": "表示恢復清醒、理智或正常判斷",
+      "title": "恢復清醒、理智或正常判斷",
       "form": "Fixed expression: come to your senses — 恢復理智",
       "en": "Fixed expression: come to your senses — 恢復理智",
       "zh": "表示恢復清醒、理智或正常判斷",
@@ -303,7 +303,7 @@ export default {
     },
     {
       "id": "sense-mcq-14",
-      "title": "表示失去知覺／失去理智",
+      "title": "失去知覺／失去理智",
       "form": "Fixed expression: lose your senses — 失去知覺／失去理智",
       "en": "Fixed expression: lose your senses — 失去知覺／失去理智",
       "zh": "表示失去知覺／失去理智",
@@ -345,11 +345,9 @@ export default {
       "masked": "Dogs have a very strong ____ of smell.",
       "options": [
         "sense-mcq-01",
-        "sense-mcq-02",
-        "sense-mcq-03",
-        "sense-mcq-04",
+        "sense-pdf-001",
         "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-mcq-12"
       ],
       "explanation": "本句的「sense」指「身體接收外界刺激並形成知覺的感官能力」。",
       "sentenceIndex": 0,
@@ -358,12 +356,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-01": "本句指「身體接收外界刺激並形成知覺的感官能力」。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-01": "本句的「sense」指「身體接收外界刺激並形成知覺的感官能力」。",
+        "sense-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-01"
     },
@@ -375,11 +371,9 @@ export default {
       "masked": "His ____ of taste gradually returned.",
       "options": [
         "sense-mcq-01",
-        "sense-mcq-02",
-        "sense-mcq-03",
-        "sense-mcq-04",
-        "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-mcq-07",
+        "sense-mcq-13",
+        "sense-mcq-05"
       ],
       "explanation": "本句的「sense」指「身體接收外界刺激並形成知覺的感官能力」。",
       "sentenceIndex": 1,
@@ -388,12 +382,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-01": "本句指「身體接收外界刺激並形成知覺的感官能力」。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-01": "本句的「sense」指「身體接收外界刺激並形成知覺的感官能力」。",
+        "sense-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-01"
     },
@@ -405,11 +397,9 @@ export default {
       "masked": "I had a strange ____ that something was wrong.",
       "options": [
         "sense-mcq-02",
-        "sense-mcq-01",
-        "sense-mcq-03",
-        "sense-mcq-04",
+        "sense-mcq-13",
         "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-pdf-001"
       ],
       "explanation": "本句的「sense」指「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」。",
       "sentenceIndex": 2,
@@ -418,12 +408,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-02": "本句指「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-02": "本句的「sense」指「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-02"
     },
@@ -435,11 +423,9 @@ export default {
       "masked": "There was a strong ____ of excitement in the room.",
       "options": [
         "sense-mcq-02",
-        "sense-mcq-01",
-        "sense-mcq-03",
-        "sense-mcq-04",
-        "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-pdf-001",
+        "sense-mcq-13",
+        "sense-mcq-05"
       ],
       "explanation": "本句的「sense」指「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」。",
       "sentenceIndex": 3,
@@ -448,12 +434,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-02": "本句指「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-02": "本句的「sense」指「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」。",
+        "sense-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-02"
     },
@@ -465,11 +449,9 @@ export default {
       "masked": "He had a great ____.",
       "options": [
         "sense-mcq-03",
-        "sense-mcq-02",
-        "sense-mcq-04",
-        "sense-mcq-01",
         "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-mcq-14",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense of humour」指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
       "sentenceIndex": 4,
@@ -478,12 +460,10 @@ export default {
         "sense of humour"
       ],
       "optionReasons": {
-        "sense-mcq-03": "本句指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-03": "本句的「sense of humour」指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-03"
     },
@@ -495,11 +475,9 @@ export default {
       "masked": "She has an excellent ____.",
       "options": [
         "sense-mcq-03",
-        "sense-mcq-02",
-        "sense-mcq-04",
-        "sense-mcq-01",
         "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-mcq-14",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense of direction」指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
       "sentenceIndex": 5,
@@ -508,12 +486,10 @@ export default {
         "sense of direction"
       ],
       "optionReasons": {
-        "sense-mcq-03": "本句指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-03": "本句的「sense of direction」指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-03"
     },
@@ -525,11 +501,9 @@ export default {
       "masked": "He has a strong ____.",
       "options": [
         "sense-mcq-03",
-        "sense-mcq-02",
-        "sense-mcq-04",
-        "sense-mcq-01",
         "sense-mcq-05",
-        "sense-mcq-06"
+        "sense-mcq-14",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense of responsibility」指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
       "sentenceIndex": 6,
@@ -538,12 +512,10 @@ export default {
         "sense of responsibility"
       ],
       "optionReasons": {
-        "sense-mcq-03": "本句指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-03": "本句的「sense of responsibility」指「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-03"
     },
@@ -555,11 +527,9 @@ export default {
       "masked": "Use your ____ and think before you act.",
       "options": [
         "sense-mcq-04",
-        "sense-mcq-03",
-        "sense-mcq-05",
-        "sense-mcq-02",
-        "sense-mcq-06",
-        "sense-mcq-01"
+        "sense-mcq-08",
+        "sense-mcq-10",
+        "sense-mcq-05"
       ],
       "explanation": "本句的「sense」指「作出合理、實際決定的判斷能力；理智／常識」。",
       "sentenceIndex": 7,
@@ -568,12 +538,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-04": "本句指「作出合理、實際決定的判斷能力；理智／常識」。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。"
+        "sense-mcq-04": "本句的「sense」指「作出合理、實際決定的判斷能力；理智／常識」。",
+        "sense-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-04"
     },
@@ -585,11 +553,9 @@ export default {
       "masked": "She had enough ____ to ask for help.",
       "options": [
         "sense-mcq-04",
-        "sense-mcq-03",
-        "sense-mcq-05",
         "sense-mcq-02",
-        "sense-mcq-06",
-        "sense-mcq-01"
+        "sense-mcq-05",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense」指「作出合理、實際決定的判斷能力；理智／常識」。",
       "sentenceIndex": 8,
@@ -598,12 +564,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-04": "本句指「作出合理、實際決定的判斷能力；理智／常識」。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-01": "「身體接收外界刺激並形成知覺的感官能力」是「sense — physical perception」的用法，與本句語境不同。"
+        "sense-mcq-04": "本句的「sense」指「作出合理、實際決定的判斷能力；理智／常識」。",
+        "sense-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-04"
     },
@@ -615,11 +579,9 @@ export default {
       "masked": "The word has several different ____.",
       "options": [
         "sense-mcq-05",
-        "sense-mcq-04",
         "sense-mcq-06",
-        "sense-mcq-03",
-        "sense-mcq-07",
-        "sense-mcq-02"
+        "sense-mcq-14",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「senses」指「一個詞或表達方式在某個語境中的特定義項或語義」。",
       "sentenceIndex": 9,
@@ -628,12 +590,10 @@ export default {
         "senses"
       ],
       "optionReasons": {
-        "sense-mcq-05": "本句指「一個詞或表達方式在某個語境中的特定義項或語義」。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。"
+        "sense-mcq-05": "本句的「senses」指「一個詞或表達方式在某個語境中的特定義項或語義」。",
+        "sense-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-05"
     },
@@ -645,11 +605,9 @@ export default {
       "masked": "In this ____, the word refers to physical movement.",
       "options": [
         "sense-mcq-05",
-        "sense-mcq-04",
-        "sense-mcq-06",
-        "sense-mcq-03",
-        "sense-mcq-07",
-        "sense-mcq-02"
+        "sense-mcq-02",
+        "sense-mcq-14",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense」指「一個詞或表達方式在某個語境中的特定義項或語義」。",
       "sentenceIndex": 10,
@@ -658,12 +616,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-05": "本句指「一個詞或表達方式在某個語境中的特定義項或語義」。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-02": "「對某種情況、情緒或可能存在的事情所產生的感覺或察覺」是「sense — awareness/feeling」的用法，與本句語境不同。"
+        "sense-mcq-05": "本句的「sense」指「一個詞或表達方式在某個語境中的特定義項或語義」。",
+        "sense-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-05"
     },
@@ -676,10 +632,8 @@ export default {
       "options": [
         "sense-mcq-06",
         "sense-mcq-05",
-        "sense-mcq-07",
-        "sense-mcq-04",
-        "sense-mcq-08",
-        "sense-mcq-03"
+        "sense-mcq-01",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
       "sentenceIndex": 11,
@@ -688,12 +642,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-06": "本句指「在邏輯上合理、容易理解或說得通」。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。"
+        "sense-mcq-06": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-06"
     },
@@ -706,10 +658,8 @@ export default {
       "options": [
         "sense-mcq-06",
         "sense-mcq-05",
-        "sense-mcq-07",
-        "sense-mcq-04",
-        "sense-mcq-08",
-        "sense-mcq-03"
+        "sense-mcq-01",
+        "sense-mcq-13"
       ],
       "explanation": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
       "sentenceIndex": 12,
@@ -718,12 +668,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-06": "本句指「在邏輯上合理、容易理解或說得通」。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。"
+        "sense-mcq-06": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-06"
     },
@@ -735,11 +683,9 @@ export default {
       "masked": "In one ____, the two ideas are quite similar.",
       "options": [
         "sense-mcq-07",
-        "sense-mcq-06",
-        "sense-mcq-08",
-        "sense-mcq-05",
-        "sense-mcq-09",
-        "sense-mcq-04"
+        "sense-mcq-01",
+        "sense-mcq-11",
+        "sense-mcq-05"
       ],
       "explanation": "本句的「sense」指「從某種理解方式、意義或角度來看；與 interpretation 義相關」。",
       "sentenceIndex": 13,
@@ -748,12 +694,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-07": "本句指「從某種理解方式、意義或角度來看；與 interpretation 義相關」。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。"
+        "sense-mcq-07": "本句的「sense」指「從某種理解方式、意義或角度來看；與 interpretation 義相關」。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-07"
     },
@@ -765,11 +709,9 @@ export default {
       "masked": "In a ____, we were all beginners.",
       "options": [
         "sense-mcq-07",
-        "sense-mcq-06",
-        "sense-mcq-08",
-        "sense-mcq-05",
-        "sense-mcq-09",
-        "sense-mcq-04"
+        "sense-mcq-01",
+        "sense-mcq-13",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense」指「從某種理解方式、意義或角度來看；與 interpretation 義相關」。",
       "sentenceIndex": 14,
@@ -778,12 +720,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-07": "本句指「從某種理解方式、意義或角度來看；與 interpretation 義相關」。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。"
+        "sense-mcq-07": "本句的「sense」指「從某種理解方式、意義或角度來看；與 interpretation 義相關」。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-07"
     },
@@ -795,11 +735,9 @@ export default {
       "masked": "She ____ that he was nervous.",
       "options": [
         "sense-mcq-08",
-        "sense-mcq-07",
         "sense-mcq-09",
-        "sense-mcq-06",
-        "sense-mcq-10",
-        "sense-mcq-05"
+        "sense-mcq-05",
+        "sense-mcq-10"
       ],
       "explanation": "本句的「sensed」指「透過感官、直覺、線索或設備察覺／偵測某事物」。",
       "sentenceIndex": 15,
@@ -808,12 +746,10 @@ export default {
         "sensed"
       ],
       "optionReasons": {
-        "sense-mcq-08": "本句指「透過感官、直覺、線索或設備察覺／偵測某事物」。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。"
+        "sense-mcq-08": "本句的「sensed」指「透過感官、直覺、線索或設備察覺／偵測某事物」。",
+        "sense-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-08"
     },
@@ -825,11 +761,9 @@ export default {
       "masked": "I could ____ tension in the room.",
       "options": [
         "sense-mcq-08",
-        "sense-mcq-07",
-        "sense-mcq-09",
-        "sense-mcq-06",
-        "sense-mcq-10",
-        "sense-mcq-05"
+        "sense-mcq-13",
+        "sense-mcq-05",
+        "sense-pdf-001"
       ],
       "explanation": "本句的「sense」指「透過感官、直覺、線索或設備察覺／偵測某事物」。",
       "sentenceIndex": 16,
@@ -838,12 +772,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-08": "本句指「透過感官、直覺、線索或設備察覺／偵測某事物」。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。"
+        "sense-mcq-08": "本句的「sense」指「透過感官、直覺、線索或設備察覺／偵測某事物」。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-08"
     },
@@ -855,11 +787,9 @@ export default {
       "masked": "The device ____ changes in temperature.",
       "options": [
         "sense-mcq-11",
-        "sense-mcq-10",
-        "sense-mcq-12",
-        "sense-mcq-09",
-        "sense-mcq-13",
-        "sense-mcq-08"
+        "sense-mcq-05",
+        "sense-mcq-07",
+        "sense-mcq-09"
       ],
       "explanation": "本句的「senses」指「由感測器或系統偵測物理變化或訊號」。",
       "sentenceIndex": 17,
@@ -868,12 +798,10 @@ export default {
         "senses"
       ],
       "optionReasons": {
-        "sense-mcq-11": "本句指「由感測器或系統偵測物理變化或訊號」。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-13": "「表示恢復清醒、理智或正常判斷」是「Fixed expression: come to your senses — 恢復理智」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。"
+        "sense-mcq-11": "本句的「senses」指「由感測器或系統偵測物理變化或訊號」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-11"
     },
@@ -885,11 +813,9 @@ export default {
       "masked": "The lights turn on when the system ____ movement.",
       "options": [
         "sense-mcq-11",
-        "sense-mcq-10",
-        "sense-mcq-12",
-        "sense-mcq-09",
-        "sense-mcq-13",
-        "sense-mcq-08"
+        "sense-mcq-05",
+        "sense-mcq-02",
+        "sense-mcq-04"
       ],
       "explanation": "本句的「senses」指「由感測器或系統偵測物理變化或訊號」。",
       "sentenceIndex": 18,
@@ -898,12 +824,10 @@ export default {
         "senses"
       ],
       "optionReasons": {
-        "sense-mcq-11": "本句指「由感測器或系統偵測物理變化或訊號」。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-13": "「表示恢復清醒、理智或正常判斷」是「Fixed expression: come to your senses — 恢復理智」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。"
+        "sense-mcq-11": "本句的「senses」指「由感測器或系統偵測物理變化或訊號」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-11"
     },
@@ -915,11 +839,9 @@ export default {
       "masked": "That sounds like a ____ solution.",
       "options": [
         "sense-mcq-09",
-        "sense-mcq-08",
-        "sense-mcq-10",
-        "sense-mcq-07",
-        "sense-mcq-11",
-        "sense-mcq-06"
+        "sense-mcq-02",
+        "sense-mcq-05",
+        "sense-mcq-10"
       ],
       "explanation": "本句的「sensible」指「合理、實際並顯示良好判斷力的」。",
       "sentenceIndex": 19,
@@ -928,12 +850,10 @@ export default {
         "sensible"
       ],
       "optionReasons": {
-        "sense-mcq-09": "本句指「合理、實際並顯示良好判斷力的」。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-09": "本句的「sensible」指「合理、實際並顯示良好判斷力的」。",
+        "sense-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-09"
     },
@@ -946,10 +866,8 @@ export default {
       "options": [
         "sense-mcq-09",
         "sense-mcq-08",
-        "sense-mcq-10",
-        "sense-mcq-07",
-        "sense-mcq-11",
-        "sense-mcq-06"
+        "sense-mcq-05",
+        "sense-mcq-14"
       ],
       "explanation": "本句的「sensible」指「合理、實際並顯示良好判斷力的」。",
       "sentenceIndex": 20,
@@ -958,12 +876,10 @@ export default {
         "sensible"
       ],
       "optionReasons": {
-        "sense-mcq-09": "本句指「合理、實際並顯示良好判斷力的」。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-09": "本句的「sensible」指「合理、實際並顯示良好判斷力的」。",
+        "sense-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-09"
     },
@@ -975,11 +891,9 @@ export default {
       "masked": "She dealt with the problem ____.",
       "options": [
         "sense-mcq-09",
-        "sense-mcq-08",
-        "sense-mcq-10",
-        "sense-mcq-07",
-        "sense-mcq-11",
-        "sense-mcq-06"
+        "sense-mcq-05",
+        "sense-mcq-02",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sensibly」指「合理、實際並顯示良好判斷力的」。",
       "sentenceIndex": 21,
@@ -988,12 +902,10 @@ export default {
         "sensibly"
       ],
       "optionReasons": {
-        "sense-mcq-09": "本句指「合理、實際並顯示良好判斷力的」。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-06": "「在邏輯上合理、容易理解或說得通」是「make sense — logic/intelligibility」的用法，與本句語境不同。"
+        "sense-mcq-09": "本句的「sensibly」指「合理、實際並顯示良好判斷力的」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-09"
     },
@@ -1005,11 +917,9 @@ export default {
       "masked": "It was a ____ act of destruction.",
       "options": [
         "sense-pdf-001",
-        "sense-mcq-09",
-        "sense-mcq-11",
-        "sense-mcq-08",
-        "sense-mcq-12",
-        "sense-mcq-07"
+        "sense-mcq-01",
+        "sense-mcq-05",
+        "sense-mcq-12"
       ],
       "explanation": "本句的「senseless」指「沒有合理目的、理由或意義的」。",
       "sentenceIndex": 22,
@@ -1018,12 +928,10 @@ export default {
         "senseless"
       ],
       "optionReasons": {
-        "sense-pdf-001": "本句指「沒有合理目的、理由或意義的」。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。"
+        "sense-pdf-001": "本句的「senseless」指「沒有合理目的、理由或意義的」。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-pdf-001"
     },
@@ -1036,10 +944,8 @@ export default {
       "options": [
         "sense-mcq-10",
         "sense-mcq-09",
-        "sense-mcq-11",
-        "sense-mcq-08",
-        "sense-mcq-12",
-        "sense-mcq-07"
+        "sense-mcq-02",
+        "sense-mcq-05"
       ],
       "explanation": "本句的「senseless」指「毫無道理／意義的；或失去知覺的」。",
       "sentenceIndex": 23,
@@ -1048,12 +954,10 @@ export default {
         "senseless"
       ],
       "optionReasons": {
-        "sense-mcq-10": "本句指「毫無道理／意義的；或失去知覺的」。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。"
+        "sense-mcq-10": "本句的「senseless」指「毫無道理／意義的；或失去知覺的」。",
+        "sense-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-10"
     },
@@ -1065,11 +969,9 @@ export default {
       "masked": "That explanation makes ____.",
       "options": [
         "sense-mcq-06",
+        "sense-mcq-01",
         "sense-mcq-05",
-        "sense-mcq-07",
-        "sense-mcq-04",
-        "sense-mcq-08",
-        "sense-mcq-03"
+        "sense-mcq-13"
       ],
       "explanation": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
       "sentenceIndex": 24,
@@ -1078,12 +980,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-06": "本句指「在邏輯上合理、容易理解或說得通」。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。"
+        "sense-mcq-06": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-06"
     },
@@ -1096,10 +996,8 @@ export default {
       "options": [
         "sense-mcq-06",
         "sense-mcq-05",
-        "sense-mcq-07",
-        "sense-mcq-04",
-        "sense-mcq-08",
-        "sense-mcq-03"
+        "sense-mcq-01",
+        "sense-mcq-11"
       ],
       "explanation": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
       "sentenceIndex": 25,
@@ -1108,12 +1006,10 @@ export default {
         "sense"
       ],
       "optionReasons": {
-        "sense-mcq-06": "本句指「在邏輯上合理、容易理解或說得通」。",
-        "sense-mcq-05": "「一個詞或表達方式在某個語境中的特定義項或語義」是「sense — lexical meaning」的用法，與本句語境不同。",
-        "sense-mcq-07": "「從某種理解方式、意義或角度來看；與 interpretation 義相關」是「in a sense」的用法，與本句語境不同。",
-        "sense-mcq-04": "「作出合理、實際決定的判斷能力；理智／常識」是「sense — judgment」的用法，與本句語境不同。",
-        "sense-mcq-08": "「透過感官、直覺、線索或設備察覺／偵測某事物」是「sense — verb」的用法，與本句語境不同。",
-        "sense-mcq-03": "「對某方面具有理解、判斷、欣賞或意識的能力，如幽默感、方向感」是「sense of X — ability/awareness」的用法，與本句語境不同。"
+        "sense-mcq-06": "本句的「sense」指「在邏輯上合理、容易理解或說得通」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-06"
     },
@@ -1125,10 +1021,8 @@ export default {
       "masked": "I’m trying to ____ these results.",
       "options": [
         "sense-mcq-12",
-        "sense-mcq-11",
-        "sense-mcq-13",
-        "sense-mcq-10",
-        "sense-mcq-14",
+        "sense-mcq-01",
+        "sense-mcq-05",
         "sense-mcq-09"
       ],
       "explanation": "本句的「make sense of」指「理解原本混亂、複雜或不清楚的事情」。",
@@ -1138,12 +1032,10 @@ export default {
         "make sense of"
       ],
       "optionReasons": {
-        "sense-mcq-12": "本句指「理解原本混亂、複雜或不清楚的事情」。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-13": "「表示恢復清醒、理智或正常判斷」是「Fixed expression: come to your senses — 恢復理智」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-14": "「表示失去知覺／失去理智」是「Fixed expression: lose your senses — 失去知覺／失去理智」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。"
+        "sense-mcq-12": "本句的「make sense of」指「理解原本混亂、複雜或不清楚的事情」。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-12"
     },
@@ -1155,11 +1047,9 @@ export default {
       "masked": "She could not ____ his message.",
       "options": [
         "sense-mcq-12",
-        "sense-mcq-11",
-        "sense-mcq-13",
-        "sense-mcq-10",
-        "sense-mcq-14",
-        "sense-mcq-09"
+        "sense-mcq-01",
+        "sense-mcq-05",
+        "sense-pdf-001"
       ],
       "explanation": "本句的「make sense of」指「理解原本混亂、複雜或不清楚的事情」。",
       "sentenceIndex": 27,
@@ -1168,12 +1058,10 @@ export default {
         "make sense of"
       ],
       "optionReasons": {
-        "sense-mcq-12": "本句指「理解原本混亂、複雜或不清楚的事情」。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-13": "「表示恢復清醒、理智或正常判斷」是「Fixed expression: come to your senses — 恢復理智」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-14": "「表示失去知覺／失去理智」是「Fixed expression: lose your senses — 失去知覺／失去理智」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。"
+        "sense-mcq-12": "本句的「make sense of」指「理解原本混亂、複雜或不清楚的事情」。",
+        "sense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-12"
     },
@@ -1185,11 +1073,9 @@ export default {
       "masked": "He eventually ____ and apologized.",
       "options": [
         "sense-mcq-13",
-        "sense-mcq-12",
-        "sense-mcq-14",
-        "sense-mcq-11",
-        "sense-mcq-10",
-        "sense-mcq-09"
+        "sense-mcq-08",
+        "sense-mcq-05",
+        "sense-pdf-001"
       ],
       "explanation": "本句的「came to his senses」指「表示恢復清醒、理智或正常判斷」。",
       "sentenceIndex": 28,
@@ -1198,12 +1084,10 @@ export default {
         "came to his senses"
       ],
       "optionReasons": {
-        "sense-mcq-13": "本句指「表示恢復清醒、理智或正常判斷」。",
-        "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
-        "sense-mcq-14": "「表示失去知覺／失去理智」是「Fixed expression: lose your senses — 失去知覺／失去理智」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。"
+        "sense-mcq-13": "本句的「came to his senses」指「表示恢復清醒、理智或正常判斷」。",
+        "sense-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-13"
     },
@@ -1215,10 +1099,8 @@ export default {
       "masked": "For a moment, he seemed to have ____.",
       "options": [
         "sense-mcq-14",
-        "sense-mcq-13",
-        "sense-mcq-12",
-        "sense-mcq-11",
-        "sense-mcq-10",
+        "sense-mcq-05",
+        "sense-mcq-08",
         "sense-mcq-09"
       ],
       "explanation": "本句的「lost his senses」指「表示失去知覺／失去理智」。",
@@ -1228,12 +1110,10 @@ export default {
         "lost his senses"
       ],
       "optionReasons": {
-        "sense-mcq-14": "本句指「表示失去知覺／失去理智」。",
-        "sense-mcq-13": "「表示恢復清醒、理智或正常判斷」是「Fixed expression: come to your senses — 恢復理智」的用法，與本句語境不同。",
-        "sense-mcq-12": "「理解原本混亂、複雜或不清楚的事情」是「Fixed expression: make sense of something — 弄懂；理解」的用法，與本句語境不同。",
-        "sense-mcq-11": "「由感測器或系統偵測物理變化或訊號」是「9. sense = detect by a device/system（科技） — 感測；偵測」的用法，與本句語境不同。",
-        "sense-mcq-10": "「毫無道理／意義的；或失去知覺的」是「senseless」的用法，與本句語境不同。",
-        "sense-mcq-09": "「合理、實際並顯示良好判斷力的」是「sensible」的用法，與本句語境不同。"
+        "sense-mcq-14": "本句的「lost his senses」指「表示失去知覺／失去理智」。",
+        "sense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sense-mcq-14"
     }
@@ -1245,5 +1125,7 @@ export default {
     "sha256": "26bc74bdb7ea0f12642870ed64f7f4d9fa4bbf036a961459657932fbbcfeac90",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

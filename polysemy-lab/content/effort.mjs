@@ -301,16 +301,6 @@ export default {
           "She managed, with some effort, to remain calm.",
           "她費了一番功夫才保持冷靜。",
           "費力地"
-        ],
-        [
-          "The door opened without effort.",
-          "這道門毫不費力便打開了。",
-          "費力地"
-        ],
-        [
-          "Real teamwork does not happen without effort.",
-          "真正的團隊合作不會不用付出便自然出現。",
-          "費力地"
         ]
       ],
       "options": [],
@@ -656,6 +646,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "effort-reviewed-02b928e0b9",
+      "title": "不需要明顯的力量、時間或心力",
+      "form": "effort · source section 17",
+      "en": "不需要明顯的力量、時間或心力",
+      "zh": "不需要明顯的力量、時間或心力",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "The door opened without effort.",
+          "這道門毫不費力便打開了。",
+          "不需要明顯的力量、時間或心力"
+        ],
+        [
+          "Real teamwork does not happen without effort.",
+          "真正的團隊合作不會不用付出便自然出現。",
+          "不需要明顯的力量、時間或心力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -667,11 +679,9 @@ export default {
       "masked": "Workers often complain about ____ in group work.",
       "options": [
         "effort-mcq-01",
-        "effort-mcq-02",
-        "effort-mcq-03",
-        "effort-mcq-04",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-mcq-23",
+        "effort-mcq-22",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「uneven effort」指「努力；付出」。",
       "sentenceIndex": 0,
@@ -680,12 +690,10 @@ export default {
         "uneven effort"
       ],
       "optionReasons": {
-        "effort-mcq-01": "本句指「努力；付出」。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-01": "本句的「uneven effort」指「努力；付出」。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-01"
     },
@@ -697,11 +705,9 @@ export default {
       "masked": "Everyone should put in the same level of ____.",
       "options": [
         "effort-mcq-01",
-        "effort-mcq-02",
-        "effort-mcq-03",
-        "effort-mcq-04",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-pdf-002",
+        "effort-mcq-26",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「effort」指「努力；付出」。",
       "sentenceIndex": 1,
@@ -710,12 +716,10 @@ export default {
         "effort"
       ],
       "optionReasons": {
-        "effort-mcq-01": "本句指「努力；付出」。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-01": "本句的「effort」指「努力；付出」。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-01"
     },
@@ -727,11 +731,9 @@ export default {
       "masked": "The project required a great deal of ____.",
       "options": [
         "effort-mcq-01",
-        "effort-mcq-02",
-        "effort-mcq-03",
-        "effort-mcq-04",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-mcq-26",
+        "effort-mcq-16",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「effort」指「努力；付出」。",
       "sentenceIndex": 2,
@@ -740,12 +742,10 @@ export default {
         "effort"
       ],
       "optionReasons": {
-        "effort-mcq-01": "本句指「努力；付出」。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-01": "本句的「effort」指「努力；付出」。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-01"
     },
@@ -757,11 +757,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "effort-mcq-02",
-        "effort-mcq-01",
-        "effort-mcq-03",
-        "effort-mcq-04",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-mcq-26",
+        "effort-mcq-24",
+        "effort-mcq-11"
       ],
       "explanation": "本句的「put a lot of effort into the presentation」指「在 X 上投入心力」。",
       "sentenceIndex": 3,
@@ -770,12 +768,10 @@ export default {
         "put a lot of effort into the presentation"
       ],
       "optionReasons": {
-        "effort-mcq-02": "本句指「在 X 上投入心力」。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-02": "本句的「put a lot of effort into the presentation」指「在 X 上投入心力」。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-02"
     },
@@ -787,11 +783,9 @@ export default {
       "masked": "If everyone ____, resentment is less likely.",
       "options": [
         "effort-mcq-02",
-        "effort-mcq-01",
-        "effort-mcq-03",
-        "effort-mcq-04",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-mcq-14",
+        "effort-mcq-11",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「puts equal effort into the project」指「在 X 上投入心力」。",
       "sentenceIndex": 4,
@@ -800,12 +794,10 @@ export default {
         "puts equal effort into the project"
       ],
       "optionReasons": {
-        "effort-mcq-02": "本句指「在 X 上投入心力」。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-02": "本句的「puts equal effort into the project」指「在 X 上投入心力」。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-02"
     },
@@ -817,11 +809,9 @@ export default {
       "masked": "Some members simply did not ____.",
       "options": [
         "effort-mcq-03",
-        "effort-mcq-02",
-        "effort-mcq-04",
-        "effort-mcq-01",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-mcq-14",
+        "effort-mcq-23",
+        "effort-mcq-26"
       ],
       "explanation": "本句的「put in enough effort」指「付出努力」。",
       "sentenceIndex": 5,
@@ -830,12 +820,10 @@ export default {
         "put in enough effort"
       ],
       "optionReasons": {
-        "effort-mcq-03": "本句指「付出努力」。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-03": "本句的「put in enough effort」指「付出努力」。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-03"
     },
@@ -847,11 +835,9 @@ export default {
       "masked": "You will improve if you ____.",
       "options": [
         "effort-mcq-03",
-        "effort-mcq-02",
-        "effort-mcq-04",
-        "effort-mcq-01",
-        "effort-mcq-05",
-        "effort-mcq-06"
+        "effort-pdf-002",
+        "effort-mcq-26",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「put in the effort」指「付出努力」。",
       "sentenceIndex": 6,
@@ -860,12 +846,10 @@ export default {
         "put in the effort"
       ],
       "optionReasons": {
-        "effort-mcq-03": "本句指「付出努力」。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-03": "本句的「put in the effort」指「付出努力」。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-03"
     },
@@ -877,11 +861,9 @@ export default {
       "masked": "Everyone should ____.",
       "options": [
         "effort-mcq-04",
-        "effort-mcq-03",
-        "effort-mcq-05",
-        "effort-mcq-02",
-        "effort-mcq-06",
-        "effort-mcq-01"
+        "effort-mcq-22",
+        "effort-mcq-21",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「make an effort to communicate clearly」指「作出努力」。",
       "sentenceIndex": 7,
@@ -890,12 +872,10 @@ export default {
         "make an effort to communicate clearly"
       ],
       "optionReasons": {
-        "effort-mcq-04": "本句指「作出努力」。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。"
+        "effort-mcq-04": "本句的「make an effort to communicate clearly」指「作出努力」。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-04"
     },
@@ -907,11 +887,9 @@ export default {
       "masked": "He made an ____.",
       "options": [
         "effort-mcq-04",
-        "effort-mcq-03",
-        "effort-mcq-05",
-        "effort-mcq-02",
-        "effort-mcq-06",
-        "effort-mcq-01"
+        "effort-mcq-14",
+        "effort-mcq-21",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「effort to include quieter members」指「作出努力」。",
       "sentenceIndex": 8,
@@ -920,12 +898,10 @@ export default {
         "effort to include quieter members"
       ],
       "optionReasons": {
-        "effort-mcq-04": "本句指「作出努力」。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。"
+        "effort-mcq-04": "本句的「effort to include quieter members」指「作出努力」。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-04"
     },
@@ -937,11 +913,9 @@ export default {
       "masked": "I made an ____.",
       "options": [
         "effort-mcq-04",
-        "effort-mcq-03",
-        "effort-mcq-05",
-        "effort-mcq-02",
-        "effort-mcq-06",
-        "effort-mcq-01"
+        "effort-mcq-16",
+        "effort-mcq-22",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「effort to arrive on time」指「作出努力」。",
       "sentenceIndex": 9,
@@ -950,12 +924,10 @@ export default {
         "effort to arrive on time"
       ],
       "optionReasons": {
-        "effort-mcq-04": "本句指「作出努力」。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。"
+        "effort-mcq-04": "本句的「effort to arrive on time」指「作出努力」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-04"
     },
@@ -967,11 +939,9 @@ export default {
       "masked": "Managers should make an ____.",
       "options": [
         "effort-mcq-04",
-        "effort-mcq-03",
-        "effort-mcq-05",
-        "effort-mcq-02",
-        "effort-mcq-06",
-        "effort-mcq-01"
+        "effort-mcq-26",
+        "effort-mcq-21",
+        "effort-pdf-002"
       ],
       "explanation": "本句的「effort to recognise individual contributions」指「作出努力」。",
       "sentenceIndex": 10,
@@ -980,12 +950,10 @@ export default {
         "effort to recognise individual contributions"
       ],
       "optionReasons": {
-        "effort-mcq-04": "本句指「作出努力」。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-01": "「努力；付出」與本句語境不同。"
+        "effort-mcq-04": "本句的「effort to recognise individual contributions」指「作出努力」。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-04"
     },
@@ -997,11 +965,9 @@ export default {
       "masked": "We will ____ to finish on time.",
       "options": [
         "effort-mcq-05",
-        "effort-mcq-04",
-        "effort-mcq-06",
-        "effort-mcq-03",
-        "effort-mcq-07",
-        "effort-mcq-02"
+        "effort-pdf-002",
+        "effort-mcq-12",
+        "effort-mcq-26"
       ],
       "explanation": "本句的「make every effort」指「盡一切努力」。",
       "sentenceIndex": 11,
@@ -1010,12 +976,10 @@ export default {
         "make every effort"
       ],
       "optionReasons": {
-        "effort-mcq-05": "本句指「盡一切努力」。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。"
+        "effort-mcq-05": "本句的「make every effort」指「盡一切努力」。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-05"
     },
@@ -1027,11 +991,9 @@ export default {
       "masked": "The team made ____.",
       "options": [
         "effort-mcq-05",
-        "effort-mcq-04",
-        "effort-mcq-06",
-        "effort-mcq-03",
-        "effort-mcq-07",
-        "effort-mcq-02"
+        "effort-mcq-24",
+        "effort-mcq-11",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「every effort to resolve the conflict」指「盡一切努力」。",
       "sentenceIndex": 12,
@@ -1040,12 +1002,10 @@ export default {
         "every effort to resolve the conflict"
       ],
       "optionReasons": {
-        "effort-mcq-05": "本句指「盡一切努力」。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-02": "「在 X 上投入心力」與本句語境不同。"
+        "effort-mcq-05": "本句的「every effort to resolve the conflict」指「盡一切努力」。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-05"
     },
@@ -1057,11 +1017,9 @@ export default {
       "masked": "Good teamwork ____ from everyone.",
       "options": [
         "effort-mcq-06",
-        "effort-mcq-05",
-        "effort-mcq-07",
-        "effort-mcq-04",
-        "effort-mcq-08",
-        "effort-mcq-03"
+        "effort-mcq-11",
+        "effort-pdf-002",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「requires effort」指「需要努力」。",
       "sentenceIndex": 13,
@@ -1070,12 +1028,10 @@ export default {
         "requires effort"
       ],
       "optionReasons": {
-        "effort-mcq-06": "本句指「需要努力」。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。"
+        "effort-mcq-06": "本句的「requires effort」指「需要努力」。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-06"
     },
@@ -1087,11 +1043,9 @@ export default {
       "masked": "Building trust takes time and ____.",
       "options": [
         "effort-mcq-06",
-        "effort-mcq-05",
-        "effort-mcq-07",
-        "effort-mcq-04",
-        "effort-mcq-08",
-        "effort-mcq-03"
+        "effort-mcq-16",
+        "effort-mcq-12",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「requires effort」指「需要努力」。",
       "sentenceIndex": 14,
@@ -1100,12 +1054,10 @@ export default {
         "requires effort"
       ],
       "optionReasons": {
-        "effort-mcq-06": "本句指「需要努力」。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。"
+        "effort-mcq-06": "本句的「requires effort」指「需要努力」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-06"
     },
@@ -1117,11 +1069,9 @@ export default {
       "masked": "Staying calm under pressure ____.",
       "options": [
         "effort-pdf-001",
-        "effort-mcq-05",
-        "effort-mcq-07",
-        "effort-mcq-04",
-        "effort-mcq-08",
-        "effort-mcq-03"
+        "effort-mcq-22",
+        "effort-mcq-23",
+        "effort-mcq-14"
       ],
       "explanation": "本句的「takes effort」指「完成或維持某件事需要投入心力」。",
       "sentenceIndex": 15,
@@ -1130,12 +1080,10 @@ export default {
         "takes effort"
       ],
       "optionReasons": {
-        "effort-pdf-001": "本句指「完成或維持某件事需要投入心力」。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。"
+        "effort-pdf-001": "本句的「takes effort」指「完成或維持某件事需要投入心力」。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-pdf-001"
     },
@@ -1147,11 +1095,9 @@ export default {
       "masked": "Good communication ____.",
       "options": [
         "effort-pdf-001",
-        "effort-mcq-05",
-        "effort-mcq-07",
-        "effort-mcq-04",
-        "effort-mcq-08",
-        "effort-mcq-03"
+        "effort-mcq-11",
+        "effort-mcq-24",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「takes effort」指「完成或維持某件事需要投入心力」。",
       "sentenceIndex": 16,
@@ -1160,12 +1106,10 @@ export default {
         "takes effort"
       ],
       "optionReasons": {
-        "effort-pdf-001": "本句指「完成或維持某件事需要投入心力」。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-03": "「付出努力」與本句語境不同。"
+        "effort-pdf-001": "本句的「takes effort」指「完成或維持某件事需要投入心力」。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-pdf-001"
     },
@@ -1177,11 +1121,9 @@ export default {
       "masked": "Moving the equipment required considerable ____.",
       "options": [
         "effort-mcq-07",
-        "effort-mcq-06",
-        "effort-mcq-08",
-        "effort-mcq-05",
-        "effort-mcq-09",
-        "effort-mcq-04"
+        "effort-mcq-16",
+        "effort-mcq-26",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「physical effort」指「體力」。",
       "sentenceIndex": 17,
@@ -1190,12 +1132,10 @@ export default {
         "physical effort"
       ],
       "optionReasons": {
-        "effort-mcq-07": "本句指「體力」。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。"
+        "effort-mcq-07": "本句的「physical effort」指「體力」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-07"
     },
@@ -1207,11 +1147,9 @@ export default {
       "masked": "Climbing the hill took a lot of ____.",
       "options": [
         "effort-mcq-07",
-        "effort-mcq-06",
-        "effort-mcq-08",
-        "effort-mcq-05",
-        "effort-mcq-09",
-        "effort-mcq-04"
+        "effort-mcq-16",
+        "effort-mcq-12",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「physical effort」指「體力」。",
       "sentenceIndex": 18,
@@ -1220,12 +1158,10 @@ export default {
         "physical effort"
       ],
       "optionReasons": {
-        "effort-mcq-07": "本句指「體力」。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-04": "「作出努力」與本句語境不同。"
+        "effort-mcq-07": "本句的「physical effort」指「體力」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-07"
     },
@@ -1237,11 +1173,9 @@ export default {
       "masked": "Solving a complex problem requires ____.",
       "options": [
         "effort-mcq-08",
-        "effort-mcq-07",
-        "effort-mcq-09",
-        "effort-mcq-06",
-        "effort-mcq-10",
-        "effort-mcq-05"
+        "effort-mcq-23",
+        "effort-mcq-14",
+        "effort-mcq-11"
       ],
       "explanation": "本句的「mental effort」指「腦力；精神努力」。",
       "sentenceIndex": 19,
@@ -1250,12 +1184,10 @@ export default {
         "mental effort"
       ],
       "optionReasons": {
-        "effort-mcq-08": "本句指「腦力；精神努力」。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。"
+        "effort-mcq-08": "本句的「mental effort」指「腦力；精神努力」。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-08"
     },
@@ -1267,11 +1199,9 @@ export default {
       "masked": "Staying focused for hours takes considerable ____.",
       "options": [
         "effort-mcq-08",
-        "effort-mcq-07",
-        "effort-mcq-09",
-        "effort-mcq-06",
-        "effort-mcq-10",
-        "effort-mcq-05"
+        "effort-mcq-22",
+        "effort-mcq-16",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「mental effort」指「腦力；精神努力」。",
       "sentenceIndex": 20,
@@ -1280,12 +1210,10 @@ export default {
         "mental effort"
       ],
       "optionReasons": {
-        "effort-mcq-08": "本句指「腦力；精神努力」。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-05": "「盡一切努力」與本句語境不同。"
+        "effort-mcq-08": "本句的「mental effort」指「腦力；精神努力」。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-08"
     },
@@ -1297,11 +1225,9 @@ export default {
       "masked": "Good listening sometimes requires a ____.",
       "options": [
         "effort-mcq-09",
-        "effort-mcq-08",
-        "effort-mcq-10",
-        "effort-mcq-07",
-        "effort-mcq-11",
-        "effort-mcq-06"
+        "effort-pdf-002",
+        "effort-mcq-21",
+        "effort-mcq-12"
       ],
       "explanation": "本句的「conscious effort」指「刻意努力」。",
       "sentenceIndex": 21,
@@ -1310,12 +1236,10 @@ export default {
         "conscious effort"
       ],
       "optionReasons": {
-        "effort-mcq-09": "本句指「刻意努力」。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-09": "本句的「conscious effort」指「刻意努力」。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-09"
     },
@@ -1327,11 +1251,9 @@ export default {
       "masked": "She made a ____ not to dominate the discussion.",
       "options": [
         "effort-mcq-09",
-        "effort-mcq-08",
-        "effort-mcq-10",
-        "effort-mcq-07",
-        "effort-mcq-11",
-        "effort-mcq-06"
+        "effort-mcq-21",
+        "effort-mcq-12",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「conscious effort」指「刻意努力」。",
       "sentenceIndex": 22,
@@ -1340,12 +1262,10 @@ export default {
         "conscious effort"
       ],
       "optionReasons": {
-        "effort-mcq-09": "本句指「刻意努力」。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-06": "「需要努力」與本句語境不同。"
+        "effort-mcq-09": "本句的「conscious effort」指「刻意努力」。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-09"
     },
@@ -1357,11 +1277,9 @@ export default {
       "masked": "She put in ____ to help the group.",
       "options": [
         "effort-mcq-10",
-        "effort-mcq-09",
-        "effort-mcq-11",
-        "effort-mcq-08",
-        "effort-mcq-12",
-        "effort-mcq-07"
+        "effort-mcq-21",
+        "effort-mcq-24",
+        "effort-mcq-12"
       ],
       "explanation": "本句的「extra effort」指「額外努力」。",
       "sentenceIndex": 23,
@@ -1370,12 +1288,10 @@ export default {
         "extra effort"
       ],
       "optionReasons": {
-        "effort-mcq-10": "本句指「額外努力」。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。"
+        "effort-mcq-10": "本句的「extra effort」指「額外努力」。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-10"
     },
@@ -1387,11 +1303,9 @@ export default {
       "masked": "The task required some ____.",
       "options": [
         "effort-mcq-10",
-        "effort-mcq-09",
-        "effort-mcq-11",
-        "effort-mcq-08",
-        "effort-mcq-12",
-        "effort-mcq-07"
+        "effort-mcq-21",
+        "effort-mcq-23",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「extra effort」指「額外努力」。",
       "sentenceIndex": 24,
@@ -1400,12 +1314,10 @@ export default {
         "extra effort"
       ],
       "optionReasons": {
-        "effort-mcq-10": "本句指「額外努力」。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-07": "「體力」與本句語境不同。"
+        "effort-mcq-10": "本句的「extra effort」指「額外努力」。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-10"
     },
@@ -1417,11 +1329,9 @@ export default {
       "masked": "____ can create resentment within a team.",
       "options": [
         "effort-mcq-11",
-        "effort-mcq-10",
-        "effort-mcq-12",
-        "effort-mcq-09",
-        "effort-mcq-13",
-        "effort-mcq-08"
+        "effort-reviewed-02b928e0b9",
+        "effort-mcq-24",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「Uneven effort」指「付出不均」。",
       "sentenceIndex": 25,
@@ -1430,12 +1340,10 @@ export default {
         "Uneven effort"
       ],
       "optionReasons": {
-        "effort-mcq-11": "本句指「付出不均」。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。"
+        "effort-mcq-11": "本句的「Uneven effort」指「付出不均」。",
+        "effort-reviewed-02b928e0b9": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-11"
     },
@@ -1447,11 +1355,9 @@ export default {
       "masked": "The project suffered because of ____.",
       "options": [
         "effort-mcq-11",
-        "effort-mcq-10",
-        "effort-mcq-12",
-        "effort-mcq-09",
-        "effort-mcq-13",
-        "effort-mcq-08"
+        "effort-pdf-001",
+        "effort-mcq-21",
+        "effort-mcq-26"
       ],
       "explanation": "本句的「uneven effort among team members」指「付出不均」。",
       "sentenceIndex": 26,
@@ -1460,12 +1366,10 @@ export default {
         "uneven effort among team members"
       ],
       "optionReasons": {
-        "effort-mcq-11": "本句指「付出不均」。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-08": "「腦力；精神努力」與本句語境不同。"
+        "effort-mcq-11": "本句的「uneven effort among team members」指「付出不均」。",
+        "effort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-11"
     },
@@ -1477,11 +1381,9 @@ export default {
       "masked": "Group work feels fairer when everyone makes an ____.",
       "options": [
         "effort-mcq-12",
-        "effort-mcq-11",
-        "effort-mcq-13",
-        "effort-mcq-10",
-        "effort-mcq-14",
-        "effort-mcq-09"
+        "effort-mcq-16",
+        "effort-mcq-17",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「equal effort」指「相若的付出」。",
       "sentenceIndex": 27,
@@ -1490,12 +1392,10 @@ export default {
         "equal effort"
       ],
       "optionReasons": {
-        "effort-mcq-12": "本句指「相若的付出」。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。"
+        "effort-mcq-12": "本句的「equal effort」指「相若的付出」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-12"
     },
@@ -1507,11 +1407,9 @@ export default {
       "masked": "The members did not contribute ____.",
       "options": [
         "effort-mcq-12",
-        "effort-mcq-11",
-        "effort-mcq-13",
         "effort-mcq-10",
-        "effort-mcq-14",
-        "effort-mcq-09"
+        "effort-mcq-24",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「equal effort」指「相若的付出」。",
       "sentenceIndex": 28,
@@ -1520,12 +1418,10 @@ export default {
         "equal effort"
       ],
       "optionReasons": {
-        "effort-mcq-12": "本句指「相若的付出」。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-09": "「刻意努力」與本句語境不同。"
+        "effort-mcq-12": "本句的「equal effort」指「相若的付出」。",
+        "effort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-12"
     },
@@ -1537,11 +1433,9 @@ export default {
       "masked": "He lifted the box ____.",
       "options": [
         "effort-mcq-13",
-        "effort-mcq-12",
-        "effort-mcq-14",
-        "effort-mcq-11",
-        "effort-mcq-15",
-        "effort-mcq-10"
+        "effort-mcq-24",
+        "effort-mcq-23",
+        "effort-mcq-11"
       ],
       "explanation": "本句的「with effort」指「費力地」。",
       "sentenceIndex": 31,
@@ -1550,12 +1444,10 @@ export default {
         "with effort"
       ],
       "optionReasons": {
-        "effort-mcq-13": "本句指「費力地」。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。"
+        "effort-mcq-13": "本句的「with effort」指「費力地」。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-13"
     },
@@ -1567,11 +1459,9 @@ export default {
       "masked": "She managed, ____, to remain calm.",
       "options": [
         "effort-mcq-13",
-        "effort-mcq-12",
+        "effort-mcq-21",
         "effort-mcq-14",
-        "effort-mcq-11",
-        "effort-mcq-15",
-        "effort-mcq-10"
+        "effort-mcq-23"
       ],
       "explanation": "本句的「with some effort」指「費力地」。",
       "sentenceIndex": 32,
@@ -1580,74 +1470,68 @@ export default {
         "with some effort"
       ],
       "optionReasons": {
-        "effort-mcq-13": "本句指「費力地」。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。"
+        "effort-mcq-13": "本句的「with some effort」指「費力地」。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-13"
     },
     {
       "id": "effort-17-0",
-      "sense": "effort-mcq-13",
+      "sense": "effort-reviewed-02b928e0b9",
       "en": "The door opened without effort.",
       "zh": "這道門毫不費力便打開了。",
       "masked": "The door opened ____.",
       "options": [
-        "effort-mcq-13",
-        "effort-mcq-12",
-        "effort-mcq-14",
+        "effort-reviewed-02b928e0b9",
+        "effort-mcq-21",
         "effort-mcq-11",
-        "effort-mcq-15",
-        "effort-mcq-10"
+        "effort-mcq-24"
       ],
-      "explanation": "本句的「without effort」指「費力地」。",
+      "explanation": "對照完整句子：「這道門毫不費力便打開了。」。這裡的「without effort」表示「不需要明顯的力量、時間或心力」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "without effort"
       ],
       "optionReasons": {
-        "effort-mcq-13": "本句指「費力地」。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。"
+        "effort-reviewed-02b928e0b9": "對照完整句子：「這道門毫不費力便打開了。」。這裡的「without effort」表示「不需要明顯的力量、時間或心力」。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "effort-mcq-13"
+      "correctOption": "effort-reviewed-02b928e0b9",
+      "previousCorrectOption": "effort-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "effort-17-1",
-      "sense": "effort-mcq-13",
+      "sense": "effort-reviewed-02b928e0b9",
       "en": "Real teamwork does not happen without effort.",
       "zh": "真正的團隊合作不會不用付出便自然出現。",
       "masked": "Real teamwork does not happen ____.",
       "options": [
-        "effort-mcq-13",
-        "effort-mcq-12",
+        "effort-reviewed-02b928e0b9",
         "effort-mcq-14",
-        "effort-mcq-11",
-        "effort-mcq-15",
-        "effort-mcq-10"
+        "effort-mcq-26",
+        "effort-mcq-11"
       ],
-      "explanation": "本句的「without effort」指「費力地」。",
+      "explanation": "對照完整句子：「真正的團隊合作不會不用付出便自然出現。」。這裡的「without effort」表示「不需要明顯的力量、時間或心力」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "without effort"
       ],
       "optionReasons": {
-        "effort-mcq-13": "本句指「費力地」。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-10": "「額外努力」與本句語境不同。"
+        "effort-reviewed-02b928e0b9": "對照完整句子：「真正的團隊合作不會不用付出便自然出現。」。這裡的「without effort」表示「不需要明顯的力量、時間或心力」。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "effort-mcq-13"
+      "correctOption": "effort-reviewed-02b928e0b9",
+      "previousCorrectOption": "effort-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "effort-18-0",
@@ -1657,11 +1541,9 @@ export default {
       "masked": "His first ____ failed.",
       "options": [
         "effort-mcq-14",
-        "effort-mcq-13",
-        "effort-mcq-15",
-        "effort-mcq-12",
-        "effort-mcq-16",
-        "effort-mcq-11"
+        "effort-mcq-10",
+        "effort-mcq-26",
+        "effort-mcq-12"
       ],
       "explanation": "本句的「effort」指「一次嘗試」。",
       "sentenceIndex": 35,
@@ -1670,12 +1552,10 @@ export default {
         "effort"
       ],
       "optionReasons": {
-        "effort-mcq-14": "本句指「一次嘗試」。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。"
+        "effort-mcq-14": "本句的「effort」指「一次嘗試」。",
+        "effort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-14"
     },
@@ -1687,11 +1567,9 @@ export default {
       "masked": "The team made another ____ to solve the problem.",
       "options": [
         "effort-mcq-14",
-        "effort-mcq-13",
-        "effort-mcq-15",
-        "effort-mcq-12",
-        "effort-mcq-16",
-        "effort-mcq-11"
+        "effort-mcq-05",
+        "effort-mcq-21",
+        "effort-mcq-12"
       ],
       "explanation": "本句的「effort」指「一次嘗試」。",
       "sentenceIndex": 36,
@@ -1700,12 +1578,10 @@ export default {
         "effort"
       ],
       "optionReasons": {
-        "effort-mcq-14": "本句指「一次嘗試」。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-11": "「付出不均」與本句語境不同。"
+        "effort-mcq-14": "本句的「effort」指「一次嘗試」。",
+        "effort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-14"
     },
@@ -1717,11 +1593,9 @@ export default {
       "masked": "The company made an ____.",
       "options": [
         "effort-pdf-002",
-        "effort-mcq-14",
-        "effort-mcq-16",
-        "effort-mcq-13",
-        "effort-mcq-17",
-        "effort-mcq-12"
+        "effort-mcq-10",
+        "effort-mcq-11",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「effort to improve communication」指「以達成 X 為目的的具體行動或嘗試」。",
       "sentenceIndex": 37,
@@ -1730,12 +1604,10 @@ export default {
         "effort to improve communication"
       ],
       "optionReasons": {
-        "effort-pdf-002": "本句指「以達成 X 為目的的具體行動或嘗試」。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。"
+        "effort-pdf-002": "本句的「effort to improve communication」指「以達成 X 為目的的具體行動或嘗試」。",
+        "effort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-pdf-002"
     },
@@ -1747,11 +1619,9 @@ export default {
       "masked": "In an ____, the manager changed the meeting format.",
       "options": [
         "effort-pdf-002",
-        "effort-mcq-14",
-        "effort-mcq-16",
-        "effort-mcq-13",
-        "effort-mcq-17",
-        "effort-mcq-12"
+        "effort-mcq-08",
+        "effort-mcq-12",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「effort to reduce conflict」指「以達成 X 為目的的具體行動或嘗試」。",
       "sentenceIndex": 38,
@@ -1760,12 +1630,10 @@ export default {
         "effort to reduce conflict"
       ],
       "optionReasons": {
-        "effort-pdf-002": "本句指「以達成 X 為目的的具體行動或嘗試」。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-12": "「相若的付出」與本句語境不同。"
+        "effort-pdf-002": "本句的「effort to reduce conflict」指「以達成 X 為目的的具體行動或嘗試」。",
+        "effort-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-pdf-002"
     },
@@ -1777,11 +1645,9 @@ export default {
       "masked": "The team introduced weekly meetings ____.",
       "options": [
         "effort-mcq-16",
-        "effort-mcq-15",
-        "effort-mcq-17",
-        "effort-mcq-14",
-        "effort-mcq-18",
-        "effort-mcq-13"
+        "effort-reviewed-02b928e0b9",
+        "effort-mcq-12",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「in an effort to improve communication」指「為了；試圖」。",
       "sentenceIndex": 39,
@@ -1790,12 +1656,10 @@ export default {
         "in an effort to improve communication"
       ],
       "optionReasons": {
-        "effort-mcq-16": "本句指「為了；試圖」。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。"
+        "effort-mcq-16": "本句的「in an effort to improve communication」指「為了；試圖」。",
+        "effort-reviewed-02b928e0b9": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-16"
     },
@@ -1807,11 +1671,9 @@ export default {
       "masked": "Managers clarified roles ____.",
       "options": [
         "effort-mcq-16",
-        "effort-mcq-15",
-        "effort-mcq-17",
-        "effort-mcq-14",
-        "effort-mcq-18",
-        "effort-mcq-13"
+        "effort-mcq-11",
+        "effort-mcq-06",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「in an effort to reduce confusion」指「為了；試圖」。",
       "sentenceIndex": 40,
@@ -1820,12 +1682,10 @@ export default {
         "in an effort to reduce confusion"
       ],
       "optionReasons": {
-        "effort-mcq-16": "本句指「為了；試圖」。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-13": "「費力地」與本句語境不同。"
+        "effort-mcq-16": "本句的「in an effort to reduce confusion」指「為了；試圖」。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-16"
     },
@@ -1837,11 +1697,9 @@ export default {
       "masked": "Their ____ eventually paid off.",
       "options": [
         "effort-mcq-17",
-        "effort-mcq-16",
-        "effort-mcq-18",
-        "effort-mcq-15",
-        "effort-mcq-19",
-        "effort-mcq-14"
+        "effort-pdf-002",
+        "effort-mcq-11",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「efforts」指「各種／多次努力」。",
       "sentenceIndex": 41,
@@ -1850,12 +1708,10 @@ export default {
         "efforts"
       ],
       "optionReasons": {
-        "effort-mcq-17": "本句指「各種／多次努力」。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。"
+        "effort-mcq-17": "本句的「efforts」指「各種／多次努力」。",
+        "effort-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-17"
     },
@@ -1867,11 +1723,9 @@ export default {
       "masked": "We appreciate your ____.",
       "options": [
         "effort-mcq-17",
-        "effort-mcq-16",
-        "effort-mcq-18",
-        "effort-mcq-15",
-        "effort-mcq-19",
-        "effort-mcq-14"
+        "effort-mcq-22",
+        "effort-mcq-21",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「efforts to improve the system」指「各種／多次努力」。",
       "sentenceIndex": 42,
@@ -1880,12 +1734,10 @@ export default {
         "efforts to improve the system"
       ],
       "optionReasons": {
-        "effort-mcq-17": "本句指「各種／多次努力」。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-14": "「一次嘗試」與本句語境不同。"
+        "effort-mcq-17": "本句的「efforts to improve the system」指「各種／多次努力」。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-17"
     },
@@ -1897,11 +1749,9 @@ export default {
       "masked": "The project was a ____ between several departments.",
       "options": [
         "effort-mcq-18",
-        "effort-mcq-17",
-        "effort-mcq-19",
-        "effort-mcq-16",
-        "effort-mcq-20",
-        "effort-mcq-15"
+        "effort-mcq-12",
+        "effort-mcq-21",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「joint effort」指「共同努力」。",
       "sentenceIndex": 43,
@@ -1910,12 +1760,10 @@ export default {
         "joint effort"
       ],
       "optionReasons": {
-        "effort-mcq-18": "本句指「共同努力」。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。"
+        "effort-mcq-18": "本句的「joint effort」指「共同努力」。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-18"
     },
@@ -1927,11 +1775,9 @@ export default {
       "masked": "Solving the problem will require a ____.",
       "options": [
         "effort-mcq-18",
-        "effort-mcq-17",
-        "effort-mcq-19",
-        "effort-mcq-16",
-        "effort-mcq-20",
-        "effort-mcq-15"
+        "effort-mcq-24",
+        "effort-mcq-12",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「joint effort」指「共同努力」。",
       "sentenceIndex": 44,
@@ -1940,12 +1786,10 @@ export default {
         "joint effort"
       ],
       "optionReasons": {
-        "effort-mcq-18": "本句指「共同努力」。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-15": "「為 X 作出的努力」與本句語境不同。"
+        "effort-mcq-18": "本句的「joint effort」指「共同努力」。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-18"
     },
@@ -1957,11 +1801,9 @@ export default {
       "masked": "The successful presentation was a ____.",
       "options": [
         "effort-mcq-19",
-        "effort-mcq-18",
-        "effort-mcq-20",
-        "effort-mcq-17",
+        "effort-mcq-14",
         "effort-mcq-21",
-        "effort-mcq-16"
+        "effort-mcq-26"
       ],
       "explanation": "本句的「team effort」指「團隊共同努力」。",
       "sentenceIndex": 45,
@@ -1970,12 +1812,10 @@ export default {
         "team effort"
       ],
       "optionReasons": {
-        "effort-mcq-19": "本句指「團隊共同努力」。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。"
+        "effort-mcq-19": "本句的「team effort」指「團隊共同努力」。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-19"
     },
@@ -1987,11 +1827,9 @@ export default {
       "masked": "Good teamwork should feel like a genuine ____.",
       "options": [
         "effort-mcq-19",
-        "effort-mcq-18",
-        "effort-mcq-20",
-        "effort-mcq-17",
-        "effort-mcq-21",
-        "effort-mcq-16"
+        "effort-mcq-16",
+        "effort-mcq-22",
+        "effort-mcq-21"
       ],
       "explanation": "本句的「team effort」指「團隊共同努力」。",
       "sentenceIndex": 46,
@@ -2000,12 +1838,10 @@ export default {
         "team effort"
       ],
       "optionReasons": {
-        "effort-mcq-19": "本句指「團隊共同努力」。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-16": "「為了；試圖」與本句語境不同。"
+        "effort-mcq-19": "本句的「team effort」指「團隊共同努力」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-19"
     },
@@ -2017,11 +1853,9 @@ export default {
       "masked": "Improving workplace culture requires ____.",
       "options": [
         "effort-mcq-20",
-        "effort-mcq-19",
-        "effort-mcq-21",
-        "effort-mcq-18",
-        "effort-mcq-22",
-        "effort-mcq-17"
+        "effort-mcq-16",
+        "effort-mcq-26",
+        "effort-mcq-23"
       ],
       "explanation": "本句的「collective effort」指「集體努力」。",
       "sentenceIndex": 47,
@@ -2030,12 +1864,10 @@ export default {
         "collective effort"
       ],
       "optionReasons": {
-        "effort-mcq-20": "本句指「集體努力」。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。"
+        "effort-mcq-20": "本句的「collective effort」指「集體努力」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-20"
     },
@@ -2047,11 +1879,9 @@ export default {
       "masked": "The outcome was achieved through ____.",
       "options": [
         "effort-mcq-20",
-        "effort-mcq-19",
-        "effort-mcq-21",
-        "effort-mcq-18",
+        "effort-mcq-12",
         "effort-mcq-22",
-        "effort-mcq-17"
+        "effort-mcq-23"
       ],
       "explanation": "本句的「collective effort」指「集體努力」。",
       "sentenceIndex": 48,
@@ -2060,12 +1890,10 @@ export default {
         "collective effort"
       ],
       "optionReasons": {
-        "effort-mcq-20": "本句指「集體努力」。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-17": "「各種／多次努力」與本句語境不同。"
+        "effort-mcq-20": "本句的「collective effort」指「集體努力」。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-20"
     },
@@ -2077,11 +1905,9 @@ export default {
       "masked": "Volunteers joined the ____ after the disaster.",
       "options": [
         "effort-mcq-21",
-        "effort-mcq-20",
-        "effort-mcq-22",
-        "effort-mcq-19",
-        "effort-mcq-23",
-        "effort-mcq-18"
+        "effort-mcq-18",
+        "effort-mcq-16",
+        "effort-mcq-22"
       ],
       "explanation": "本句的「relief effort」指「賑災工作」。",
       "sentenceIndex": 49,
@@ -2090,12 +1916,10 @@ export default {
         "relief effort"
       ],
       "optionReasons": {
-        "effort-mcq-21": "本句指「賑災工作」。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。"
+        "effort-mcq-21": "本句的「relief effort」指「賑災工作」。",
+        "effort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-21"
     },
@@ -2107,11 +1931,9 @@ export default {
       "masked": "International organisations supported the ____.",
       "options": [
         "effort-mcq-21",
-        "effort-mcq-20",
         "effort-mcq-22",
-        "effort-mcq-19",
-        "effort-mcq-23",
-        "effort-mcq-18"
+        "effort-mcq-11",
+        "effort-mcq-27"
       ],
       "explanation": "本句的「relief effort」指「賑災工作」。",
       "sentenceIndex": 50,
@@ -2120,12 +1942,10 @@ export default {
         "relief effort"
       ],
       "optionReasons": {
-        "effort-mcq-21": "本句指「賑災工作」。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-18": "「共同努力」與本句語境不同。"
+        "effort-mcq-21": "本句的「relief effort」指「賑災工作」。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-21"
     },
@@ -2137,11 +1957,9 @@ export default {
       "masked": "Bad weather delayed the ____.",
       "options": [
         "effort-mcq-22",
-        "effort-mcq-21",
-        "effort-mcq-23",
+        "effort-mcq-11",
         "effort-mcq-20",
-        "effort-mcq-24",
-        "effort-mcq-19"
+        "effort-mcq-16"
       ],
       "explanation": "本句的「rescue effort」指「救援行動」。",
       "sentenceIndex": 51,
@@ -2150,12 +1968,10 @@ export default {
         "rescue effort"
       ],
       "optionReasons": {
-        "effort-mcq-22": "本句指「救援行動」。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。"
+        "effort-mcq-22": "本句的「rescue effort」指「救援行動」。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-22"
     },
@@ -2167,11 +1983,9 @@ export default {
       "masked": "Hundreds of people took part in the ____.",
       "options": [
         "effort-mcq-22",
-        "effort-mcq-21",
-        "effort-mcq-23",
-        "effort-mcq-20",
-        "effort-mcq-24",
-        "effort-mcq-19"
+        "effort-mcq-11",
+        "effort-mcq-05",
+        "effort-mcq-16"
       ],
       "explanation": "本句的「rescue effort」指「救援行動」。",
       "sentenceIndex": 52,
@@ -2180,12 +1994,10 @@ export default {
         "rescue effort"
       ],
       "optionReasons": {
-        "effort-mcq-22": "本句指「救援行動」。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-19": "「團隊共同努力」與本句語境不同。"
+        "effort-mcq-22": "本句的「rescue effort」指「救援行動」。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-22"
     },
@@ -2197,11 +2009,9 @@ export default {
       "masked": "Factories were redirected to support the ____.",
       "options": [
         "effort-mcq-23",
-        "effort-mcq-22",
-        "effort-mcq-24",
-        "effort-mcq-21",
-        "effort-mcq-25",
-        "effort-mcq-20"
+        "effort-mcq-26",
+        "effort-pdf-001",
+        "effort-mcq-12"
       ],
       "explanation": "本句的「war effort」指「戰時總動員」。",
       "sentenceIndex": 53,
@@ -2210,12 +2020,10 @@ export default {
         "war effort"
       ],
       "optionReasons": {
-        "effort-mcq-23": "本句指「戰時總動員」。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。"
+        "effort-mcq-23": "本句的「war effort」指「戰時總動員」。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-23"
     },
@@ -2227,11 +2035,9 @@ export default {
       "masked": "Civilians also contributed to the ____.",
       "options": [
         "effort-mcq-23",
-        "effort-mcq-22",
-        "effort-mcq-24",
-        "effort-mcq-21",
-        "effort-mcq-25",
-        "effort-mcq-20"
+        "effort-mcq-18",
+        "effort-mcq-16",
+        "effort-mcq-26"
       ],
       "explanation": "本句的「war effort」指「戰時總動員」。",
       "sentenceIndex": 54,
@@ -2240,12 +2046,10 @@ export default {
         "war effort"
       ],
       "optionReasons": {
-        "effort-mcq-23": "本句指「戰時總動員」。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-20": "「集體努力」與本句語境不同。"
+        "effort-mcq-23": "本句的「war effort」指「戰時總動員」。",
+        "effort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-23"
     },
@@ -2257,11 +2061,9 @@ export default {
       "masked": "You didn't win, but it was a ____.",
       "options": [
         "effort-mcq-24",
-        "effort-mcq-23",
-        "effort-mcq-25",
-        "effort-mcq-22",
+        "effort-mcq-18",
         "effort-mcq-26",
-        "effort-mcq-21"
+        "effort-mcq-12"
       ],
       "explanation": "本句的「good effort」指「做得不錯；好的嘗試」。",
       "sentenceIndex": 55,
@@ -2270,12 +2072,10 @@ export default {
         "good effort"
       ],
       "optionReasons": {
-        "effort-mcq-24": "本句指「做得不錯；好的嘗試」。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-26": "「輕鬆地」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。"
+        "effort-mcq-24": "本句的「good effort」指「做得不錯；好的嘗試」。",
+        "effort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-24"
     },
@@ -2287,11 +2087,9 @@ export default {
       "masked": "____—your argument is much clearer now.",
       "options": [
         "effort-mcq-24",
-        "effort-mcq-23",
-        "effort-mcq-25",
-        "effort-mcq-22",
-        "effort-mcq-26",
-        "effort-mcq-21"
+        "effort-mcq-09",
+        "effort-mcq-11",
+        "effort-mcq-26"
       ],
       "explanation": "本句的「Good effort」指「做得不錯；好的嘗試」。",
       "sentenceIndex": 56,
@@ -2300,12 +2098,10 @@ export default {
         "Good effort"
       ],
       "optionReasons": {
-        "effort-mcq-24": "本句指「做得不錯；好的嘗試」。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。",
-        "effort-mcq-26": "「輕鬆地」與本句語境不同。",
-        "effort-mcq-21": "「賑災工作」與本句語境不同。"
+        "effort-mcq-24": "本句的「Good effort」指「做得不錯；好的嘗試」。",
+        "effort-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-24"
     },
@@ -2317,11 +2113,9 @@ export default {
       "masked": "She made the presentation look ____.",
       "options": [
         "effort-mcq-25",
-        "effort-mcq-24",
-        "effort-mcq-26",
-        "effort-mcq-23",
-        "effort-mcq-27",
-        "effort-mcq-22"
+        "effort-mcq-21",
+        "effort-mcq-22",
+        "effort-mcq-11"
       ],
       "explanation": "本句的「effortless」指「毫不費力的」。",
       "sentenceIndex": 57,
@@ -2330,12 +2124,10 @@ export default {
         "effortless"
       ],
       "optionReasons": {
-        "effort-mcq-25": "本句指「毫不費力的」。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-26": "「輕鬆地」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-27": "「費力的」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。"
+        "effort-mcq-25": "本句的「effortless」指「毫不費力的」。",
+        "effort-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-25"
     },
@@ -2347,11 +2139,9 @@ export default {
       "masked": "His movements looked completely ____.",
       "options": [
         "effort-mcq-25",
-        "effort-mcq-24",
         "effort-mcq-26",
-        "effort-mcq-23",
-        "effort-mcq-27",
-        "effort-mcq-22"
+        "effort-mcq-22",
+        "effort-mcq-14"
       ],
       "explanation": "本句的「effortless」指「毫不費力的」。",
       "sentenceIndex": 58,
@@ -2360,12 +2150,10 @@ export default {
         "effortless"
       ],
       "optionReasons": {
-        "effort-mcq-25": "本句指「毫不費力的」。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-26": "「輕鬆地」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-27": "「費力的」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。"
+        "effort-mcq-25": "本句的「effortless」指「毫不費力的」。",
+        "effort-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-25"
     },
@@ -2377,11 +2165,9 @@ export default {
       "masked": "She moved ____ between different tasks.",
       "options": [
         "effort-mcq-26",
-        "effort-mcq-25",
-        "effort-mcq-27",
-        "effort-mcq-24",
-        "effort-mcq-23",
-        "effort-mcq-22"
+        "effort-mcq-12",
+        "effort-reviewed-02b928e0b9",
+        "effort-mcq-14"
       ],
       "explanation": "本句的「effortlessly」指「輕鬆地」。",
       "sentenceIndex": 59,
@@ -2390,12 +2176,10 @@ export default {
         "effortlessly"
       ],
       "optionReasons": {
-        "effort-mcq-26": "本句指「輕鬆地」。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-27": "「費力的」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。"
+        "effort-mcq-26": "本句的「effortlessly」指「輕鬆地」。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "effort-reviewed-02b928e0b9": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-26"
     },
@@ -2407,11 +2191,9 @@ export default {
       "masked": "The speaker answered the questions ____.",
       "options": [
         "effort-mcq-26",
-        "effort-mcq-25",
-        "effort-mcq-27",
-        "effort-mcq-24",
-        "effort-mcq-23",
-        "effort-mcq-22"
+        "effort-mcq-14",
+        "effort-mcq-06",
+        "effort-mcq-12"
       ],
       "explanation": "本句的「effortlessly」指「輕鬆地」。",
       "sentenceIndex": 60,
@@ -2420,12 +2202,10 @@ export default {
         "effortlessly"
       ],
       "optionReasons": {
-        "effort-mcq-26": "本句指「輕鬆地」。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-27": "「費力的」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。"
+        "effort-mcq-26": "本句的「effortlessly」指「輕鬆地」。",
+        "effort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-26"
     },
@@ -2437,11 +2217,9 @@ export default {
       "masked": "Careful reasoning can be mentally ____.",
       "options": [
         "effort-mcq-27",
-        "effort-mcq-26",
-        "effort-mcq-25",
-        "effort-mcq-24",
+        "effort-mcq-16",
         "effort-mcq-23",
-        "effort-mcq-22"
+        "effort-mcq-11"
       ],
       "explanation": "本句的「effortful」指「費力的」。",
       "sentenceIndex": 61,
@@ -2450,12 +2228,10 @@ export default {
         "effortful"
       ],
       "optionReasons": {
-        "effort-mcq-27": "本句指「費力的」。",
-        "effort-mcq-26": "「輕鬆地」與本句語境不同。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。"
+        "effort-mcq-27": "本句的「effortful」指「費力的」。",
+        "effort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-27"
     },
@@ -2467,10 +2243,8 @@ export default {
       "masked": "At first, the new habit felt ____.",
       "options": [
         "effort-mcq-27",
-        "effort-mcq-26",
-        "effort-mcq-25",
-        "effort-mcq-24",
         "effort-mcq-23",
+        "effort-mcq-24",
         "effort-mcq-22"
       ],
       "explanation": "本句的「effortful」指「費力的」。",
@@ -2480,12 +2254,10 @@ export default {
         "effortful"
       ],
       "optionReasons": {
-        "effort-mcq-27": "本句指「費力的」。",
-        "effort-mcq-26": "「輕鬆地」與本句語境不同。",
-        "effort-mcq-25": "「毫不費力的」與本句語境不同。",
-        "effort-mcq-24": "「做得不錯；好的嘗試」與本句語境不同。",
-        "effort-mcq-23": "「戰時總動員」與本句語境不同。",
-        "effort-mcq-22": "「救援行動」與本句語境不同。"
+        "effort-mcq-27": "本句的「effortful」指「費力的」。",
+        "effort-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "effort-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effort-mcq-27"
     }
@@ -2497,5 +2269,7 @@ export default {
     "sha256": "8409793e4b7c76026a54b44d4ed2fa049b7cb78280267f686b46609e97c843ae",
     "pages": 23
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

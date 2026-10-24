@@ -174,11 +174,7 @@ export default {
       "masked": "The book does not focus on just one ____.",
       "options": [
         "country-mcq-01",
-        "country-mcq-02",
-        "country-mcq-03",
-        "country-mcq-04",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-07"
       ],
       "explanation": "本句的「country」指「具有自己政府、人口與領土的國家政治實體」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-01": "本句指「具有自己政府、人口與領土的國家政治實體」。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-01": "本句的「country」指「具有自己政府、人口與領土的國家政治實體」。",
+        "country-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "She has visited more than twenty ____.",
       "options": [
         "country-mcq-01",
-        "country-mcq-02",
-        "country-mcq-03",
-        "country-mcq-04",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-03"
       ],
       "explanation": "本句的「countries」指「具有自己政府、人口與領土的國家政治實體」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "countries"
       ],
       "optionReasons": {
-        "country-mcq-01": "本句指「具有自己政府、人口與領土的國家政治實體」。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-01": "本句的「countries」指「具有自己政府、人口與領土的國家政治實體」。",
+        "country-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "The ____ introduced a new education policy.",
       "options": [
         "country-mcq-01",
-        "country-mcq-02",
-        "country-mcq-03",
-        "country-mcq-04",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-07"
       ],
       "explanation": "本句的「country」指「具有自己政府、人口與領土的國家政治實體」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-01": "本句指「具有自己政府、人口與領土的國家政治實體」。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-01": "本句的「country」指「具有自己政府、人口與領土的國家政治實體」。",
+        "country-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-01"
     },
@@ -264,11 +240,8 @@ export default {
       "masked": "The whole ____ celebrated the victory.",
       "options": [
         "country-mcq-02",
-        "country-mcq-01",
-        "country-mcq-03",
-        "country-mcq-04",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-07",
+        "country-mcq-05"
       ],
       "explanation": "本句的「country」指「一個國家的人民整體；通常可併入 nation 義」。",
       "sentenceIndex": 3,
@@ -277,12 +250,9 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-02": "本句指「一個國家的人民整體；通常可併入 nation 義」。",
-        "country-mcq-01": "「具有自己政府、人口與領土的國家政治實體」是「country — nation/state」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-02": "本句的「country」指「一個國家的人民整體；通常可併入 nation 義」。",
+        "country-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-02"
     },
@@ -294,11 +264,9 @@ export default {
       "masked": "The news shocked the ____.",
       "options": [
         "country-mcq-02",
-        "country-mcq-01",
-        "country-mcq-03",
         "country-mcq-04",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-06",
+        "country-mcq-05"
       ],
       "explanation": "本句的「country」指「一個國家的人民整體；通常可併入 nation 義」。",
       "sentenceIndex": 4,
@@ -307,12 +275,10 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-02": "本句指「一個國家的人民整體；通常可併入 nation 義」。",
-        "country-mcq-01": "「具有自己政府、人口與領土的國家政治實體」是「country — nation/state」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-02": "本句的「country」指「一個國家的人民整體；通常可併入 nation 義」。",
+        "country-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-02"
     },
@@ -325,10 +291,7 @@ export default {
       "options": [
         "country-mcq-03",
         "country-mcq-02",
-        "country-mcq-04",
-        "country-mcq-01",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-05"
       ],
       "explanation": "本句的「country」指「城市以外的鄉村、郊野地區」。",
       "sentenceIndex": 5,
@@ -337,12 +300,9 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-03": "本句指「城市以外的鄉村、郊野地區」。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-01": "「具有自己政府、人口與領土的國家政治實體」是「country — nation/state」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-03": "本句的「country」指「城市以外的鄉村、郊野地區」。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-03"
     },
@@ -355,10 +315,7 @@ export default {
       "options": [
         "country-mcq-03",
         "country-mcq-02",
-        "country-mcq-04",
-        "country-mcq-01",
-        "country-mcq-05",
-        "country-mcq-06"
+        "country-mcq-05"
       ],
       "explanation": "本句的「country」指「城市以外的鄉村、郊野地區」。",
       "sentenceIndex": 6,
@@ -367,12 +324,9 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-03": "本句指「城市以外的鄉村、郊野地區」。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-01": "「具有自己政府、人口與領土的國家政治實體」是「country — nation/state」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。"
+        "country-mcq-03": "本句的「country」指「城市以外的鄉村、郊野地區」。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-03"
     },
@@ -384,11 +338,9 @@ export default {
       "masked": "They travelled through rough mountain ____.",
       "options": [
         "country-mcq-04",
-        "country-mcq-03",
         "country-mcq-05",
         "country-mcq-02",
-        "country-mcq-06",
-        "country-mcq-01"
+        "country-mcq-06"
       ],
       "explanation": "本句的「country」指「某種具有特定地貌或特性的土地區域」。",
       "sentenceIndex": 7,
@@ -397,12 +349,10 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-04": "本句指「某種具有特定地貌或特性的土地區域」。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。",
-        "country-mcq-01": "「具有自己政府、人口與領土的國家政治實體」是「country — nation/state」的用法，與本句語境不同。"
+        "country-mcq-04": "本句的「country」指「某種具有特定地貌或特性的土地區域」。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-04"
     },
@@ -414,11 +364,9 @@ export default {
       "masked": "This is good walking ____.",
       "options": [
         "country-mcq-04",
-        "country-mcq-03",
         "country-mcq-05",
-        "country-mcq-02",
         "country-mcq-06",
-        "country-mcq-01"
+        "country-mcq-02"
       ],
       "explanation": "本句的「country」指「某種具有特定地貌或特性的土地區域」。",
       "sentenceIndex": 8,
@@ -427,12 +375,10 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-04": "本句指「某種具有特定地貌或特性的土地區域」。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。",
-        "country-mcq-01": "「具有自己政府、人口與領土的國家政治實體」是「country — nation/state」的用法，與本句語境不同。"
+        "country-mcq-04": "本句的「country」指「某種具有特定地貌或特性的土地區域」。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-04"
     },
@@ -444,10 +390,7 @@ export default {
       "masked": "He returned to his ____ after many years abroad.",
       "options": [
         "country-mcq-05",
-        "country-mcq-04",
-        "country-mcq-06",
         "country-mcq-03",
-        "country-mcq-07",
         "country-mcq-02"
       ],
       "explanation": "本句的「country」指「自己的祖國／本國；屬於 nation 義」。",
@@ -457,12 +400,9 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-05": "本句指「自己的祖國／本國；屬於 nation 義」。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-07": "「鄉村、郊野、非都市地區」是「countryside」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。"
+        "country-mcq-05": "本句的「country」指「自己的祖國／本國；屬於 nation 義」。",
+        "country-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-05"
     },
@@ -474,9 +414,6 @@ export default {
       "masked": "She wanted to serve her ____.",
       "options": [
         "country-mcq-05",
-        "country-mcq-04",
-        "country-mcq-06",
-        "country-mcq-03",
         "country-mcq-07",
         "country-mcq-02"
       ],
@@ -487,12 +424,9 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-05": "本句指「自己的祖國／本國；屬於 nation 義」。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-07": "「鄉村、郊野、非都市地區」是「countryside」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。"
+        "country-mcq-05": "本句的「country」指「自己的祖國／本國；屬於 nation 義」。",
+        "country-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-05"
     },
@@ -505,10 +439,8 @@ export default {
       "options": [
         "country-mcq-06",
         "country-mcq-05",
-        "country-mcq-07",
-        "country-mcq-04",
-        "country-mcq-03",
-        "country-mcq-02"
+        "country-mcq-02",
+        "country-mcq-04"
       ],
       "explanation": "本句的「country」指「鄉村音樂；詞彙化文化用法」。",
       "sentenceIndex": 11,
@@ -517,12 +449,10 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-06": "本句指「鄉村音樂；詞彙化文化用法」。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-07": "「鄉村、郊野、非都市地區」是「countryside」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。"
+        "country-mcq-06": "本句的「country」指「鄉村音樂；詞彙化文化用法」。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-06"
     },
@@ -534,10 +464,8 @@ export default {
       "masked": "She is a well-known ____ singer.",
       "options": [
         "country-mcq-06",
-        "country-mcq-05",
-        "country-mcq-07",
         "country-mcq-04",
-        "country-mcq-03",
+        "country-mcq-05",
         "country-mcq-02"
       ],
       "explanation": "本句的「country」指「鄉村音樂；詞彙化文化用法」。",
@@ -547,12 +475,10 @@ export default {
         "country"
       ],
       "optionReasons": {
-        "country-mcq-06": "本句指「鄉村音樂；詞彙化文化用法」。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-07": "「鄉村、郊野、非都市地區」是「countryside」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。"
+        "country-mcq-06": "本句的「country」指「鄉村音樂；詞彙化文化用法」。",
+        "country-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "country-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-06"
     },
@@ -564,11 +490,7 @@ export default {
       "masked": "They went for a drive in the ____.",
       "options": [
         "country-mcq-07",
-        "country-mcq-06",
-        "country-mcq-05",
-        "country-mcq-04",
-        "country-mcq-03",
-        "country-mcq-02"
+        "country-mcq-01"
       ],
       "explanation": "本句的「countryside」指「鄉村、郊野、非都市地區」。",
       "sentenceIndex": 13,
@@ -577,12 +499,8 @@ export default {
         "countryside"
       ],
       "optionReasons": {
-        "country-mcq-07": "本句指「鄉村、郊野、非都市地區」。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。"
+        "country-mcq-07": "本句的「countryside」指「鄉村、郊野、非都市地區」。",
+        "country-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-07"
     },
@@ -594,11 +512,7 @@ export default {
       "masked": "The ____ is especially beautiful in spring.",
       "options": [
         "country-mcq-07",
-        "country-mcq-06",
-        "country-mcq-05",
-        "country-mcq-04",
-        "country-mcq-03",
-        "country-mcq-02"
+        "country-mcq-01"
       ],
       "explanation": "本句的「countryside」指「鄉村、郊野、非都市地區」。",
       "sentenceIndex": 14,
@@ -607,12 +521,8 @@ export default {
         "countryside"
       ],
       "optionReasons": {
-        "country-mcq-07": "本句指「鄉村、郊野、非都市地區」。",
-        "country-mcq-06": "「鄉村音樂；詞彙化文化用法」是「country — music」的用法，與本句語境不同。",
-        "country-mcq-05": "「自己的祖國／本國；屬於 nation 義」是「country — homeland」的用法，與本句語境不同。",
-        "country-mcq-04": "「某種具有特定地貌或特性的土地區域」是「country — terrain/land」的用法，與本句語境不同。",
-        "country-mcq-03": "「城市以外的鄉村、郊野地區」是「the country — rural area」的用法，與本句語境不同。",
-        "country-mcq-02": "「一個國家的人民整體；通常可併入 nation 義」是「country — people of a nation」的用法，與本句語境不同。"
+        "country-mcq-07": "本句的「countryside」指「鄉村、郊野、非都市地區」。",
+        "country-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "country-mcq-07"
     }
@@ -624,5 +534,7 @@ export default {
     "sha256": "b97b505dc8bfff16b9fbf6a6ba9faa2aea8cfbae71b9e6463ab8bf2a8245a8c4",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -262,11 +262,9 @@ export default {
       "masked": "I wanted to become more ____.",
       "options": [
         "independent-mcq-01",
-        "independent-mcq-02",
-        "independent-mcq-03",
-        "independent-mcq-04",
         "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-08",
+        "independent-mcq-03"
       ],
       "explanation": "本句的「independent」指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
       "sentenceIndex": 0,
@@ -275,12 +273,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-01": "本句指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-01": "本句的「independent」指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-01"
     },
@@ -292,11 +288,9 @@ export default {
       "masked": "She became financially ____ in her twenties.",
       "options": [
         "independent-mcq-01",
-        "independent-mcq-02",
-        "independent-mcq-03",
-        "independent-mcq-04",
+        "independent-mcq-08",
         "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-03"
       ],
       "explanation": "本句的「independent」指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
       "sentenceIndex": 1,
@@ -305,12 +299,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-01": "本句指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-01": "本句的「independent」指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-01"
     },
@@ -322,11 +314,9 @@ export default {
       "masked": "Children gradually learn to be more ____.",
       "options": [
         "independent-mcq-01",
-        "independent-mcq-02",
-        "independent-mcq-03",
-        "independent-mcq-04",
         "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-08",
+        "independent-mcq-03"
       ],
       "explanation": "本句的「independent」指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
       "sentenceIndex": 2,
@@ -335,12 +325,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-01": "本句指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-01": "本句的「independent」指「能自己作決定、處理事情和承擔責任，不過度依賴別人的」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-01"
     },
@@ -352,11 +340,7 @@ export default {
       "masked": "The newspaper is politically ____.",
       "options": [
         "independent-mcq-02",
-        "independent-mcq-01",
-        "independent-mcq-03",
-        "independent-mcq-04",
-        "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independent」指「不受另一個機構、權力或個人控制的」。",
       "sentenceIndex": 3,
@@ -365,12 +349,8 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-02": "本句指「不受另一個機構、權力或個人控制的」。",
-        "independent-mcq-01": "「能自己作決定、處理事情和承擔責任，不過度依賴別人的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-02": "本句的「independent」指「不受另一個機構、權力或個人控制的」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-02"
     },
@@ -382,11 +362,7 @@ export default {
       "masked": "The organization is fully ____ of the government.",
       "options": [
         "independent-mcq-02",
-        "independent-mcq-01",
-        "independent-mcq-03",
-        "independent-mcq-04",
-        "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independent」指「不受另一個機構、權力或個人控制的」。",
       "sentenceIndex": 4,
@@ -395,12 +371,8 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-02": "本句指「不受另一個機構、權力或個人控制的」。",
-        "independent-mcq-01": "「能自己作決定、處理事情和承擔責任，不過度依賴別人的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-02": "本句的「independent」指「不受另一個機構、權力或個人控制的」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-02"
     },
@@ -412,11 +384,9 @@ export default {
       "masked": "The country became ____ in the twentieth century.",
       "options": [
         "independent-mcq-03",
-        "independent-mcq-02",
-        "independent-mcq-04",
-        "independent-mcq-01",
         "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-08",
+        "independent-mcq-01"
       ],
       "explanation": "本句的「independent」指「具有自身政治主權、不受其他國家統治的」。",
       "sentenceIndex": 5,
@@ -425,12 +395,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-03": "本句指「具有自身政治主權、不受其他國家統治的」。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-01": "「能自己作決定、處理事情和承擔責任，不過度依賴別人的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-03": "本句的「independent」指「具有自身政治主權、不受其他國家統治的」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-03"
     },
@@ -442,11 +410,9 @@ export default {
       "masked": "They wanted to establish an ____ state.",
       "options": [
         "independent-mcq-03",
-        "independent-mcq-02",
-        "independent-mcq-04",
-        "independent-mcq-01",
+        "independent-mcq-08",
         "independent-mcq-05",
-        "independent-mcq-06"
+        "independent-mcq-01"
       ],
       "explanation": "本句的「independent」指「具有自身政治主權、不受其他國家統治的」。",
       "sentenceIndex": 6,
@@ -455,12 +421,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-03": "本句指「具有自身政治主權、不受其他國家統治的」。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-01": "「能自己作決定、處理事情和承擔責任，不過度依賴別人的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。"
+        "independent-mcq-03": "本句的「independent」指「具有自身政治主權、不受其他國家統治的」。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-03"
     },
@@ -472,11 +436,8 @@ export default {
       "masked": "The two systems operate ____.",
       "options": [
         "independent-mcq-04",
-        "independent-mcq-03",
-        "independent-mcq-05",
-        "independent-mcq-02",
-        "independent-mcq-06",
-        "independent-mcq-01"
+        "independent-mcq-07",
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independently」指「不依賴、不取決於或不受某因素影響的」。",
       "sentenceIndex": 7,
@@ -485,12 +446,9 @@ export default {
         "independently"
       ],
       "optionReasons": {
-        "independent-mcq-04": "本句指「不依賴、不取決於或不受某因素影響的」。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-01": "「能自己作決定、處理事情和承擔責任，不過度依賴別人的」與本句語境不同。"
+        "independent-mcq-04": "本句的「independently」指「不依賴、不取決於或不受某因素影響的」。",
+        "independent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-04"
     },
@@ -502,11 +460,8 @@ export default {
       "masked": "The result is ____ age.",
       "options": [
         "independent-mcq-04",
-        "independent-mcq-03",
-        "independent-mcq-05",
-        "independent-mcq-02",
         "independent-mcq-06",
-        "independent-mcq-01"
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independent of」指「不依賴、不取決於或不受某因素影響的」。",
       "sentenceIndex": 8,
@@ -515,12 +470,9 @@ export default {
         "independent of"
       ],
       "optionReasons": {
-        "independent-mcq-04": "本句指「不依賴、不取決於或不受某因素影響的」。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-01": "「能自己作決定、處理事情和承擔責任，不過度依賴別人的」與本句語境不同。"
+        "independent-mcq-04": "本句的「independent of」指「不依賴、不取決於或不受某因素影響的」。",
+        "independent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-04"
     },
@@ -532,11 +484,9 @@ export default {
       "masked": "The case was reviewed by an ____ expert.",
       "options": [
         "independent-mcq-05",
-        "independent-mcq-04",
-        "independent-mcq-06",
-        "independent-mcq-03",
-        "independent-mcq-07",
-        "independent-mcq-02"
+        "independent-mcq-09",
+        "independent-mcq-08",
+        "independent-mcq-03"
       ],
       "explanation": "本句的「independent」指「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」。",
       "sentenceIndex": 9,
@@ -545,12 +495,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-05": "本句指「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。"
+        "independent-mcq-05": "本句的「independent」指「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」。",
+        "independent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-05"
     },
@@ -562,10 +510,6 @@ export default {
       "masked": "They called for an ____ investigation.",
       "options": [
         "independent-mcq-05",
-        "independent-mcq-04",
-        "independent-mcq-06",
-        "independent-mcq-03",
-        "independent-mcq-07",
         "independent-mcq-02"
       ],
       "explanation": "本句的「independent」指「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」。",
@@ -575,12 +519,8 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-05": "本句指「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-02": "「不受另一個機構、權力或個人控制的」與本句語境不同。"
+        "independent-mcq-05": "本句的「independent」指「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」。",
+        "independent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-05"
     },
@@ -592,11 +532,8 @@ export default {
       "masked": "The street is full of ____ shops.",
       "options": [
         "independent-mcq-06",
-        "independent-mcq-05",
-        "independent-mcq-07",
         "independent-mcq-04",
-        "independent-mcq-08",
-        "independent-mcq-03"
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independent」指「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」。",
       "sentenceIndex": 11,
@@ -605,12 +542,9 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-06": "本句指「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。"
+        "independent-mcq-06": "本句的「independent」指「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」。",
+        "independent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-06"
     },
@@ -623,10 +557,8 @@ export default {
       "options": [
         "independent-mcq-06",
         "independent-mcq-05",
-        "independent-mcq-07",
-        "independent-mcq-04",
         "independent-mcq-08",
-        "independent-mcq-03"
+        "independent-mcq-10"
       ],
       "explanation": "本句的「independent」指「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」。",
       "sentenceIndex": 12,
@@ -635,12 +567,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-06": "本句指「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-03": "「具有自身政治主權、不受其他國家統治的」與本句語境不同。"
+        "independent-mcq-06": "本句的「independent」指「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-06"
     },
@@ -652,11 +582,8 @@ export default {
       "masked": "The film was made by an ____ studio.",
       "options": [
         "independent-mcq-07",
-        "independent-mcq-06",
-        "independent-mcq-08",
-        "independent-mcq-05",
-        "independent-mcq-09",
-        "independent-mcq-04"
+        "independent-mcq-04",
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independent」指「不作為單一機構固定僱員，而自行承接工作的」。",
       "sentenceIndex": 13,
@@ -665,12 +592,9 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-07": "本句指「不作為單一機構固定僱員，而自行承接工作的」。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。"
+        "independent-mcq-07": "本句的「independent」指「不作為單一機構固定僱員，而自行承接工作的」。",
+        "independent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-07"
     },
@@ -682,11 +606,8 @@ export default {
       "masked": "She releases music through an ____ label.",
       "options": [
         "independent-mcq-07",
-        "independent-mcq-06",
-        "independent-mcq-08",
-        "independent-mcq-05",
-        "independent-mcq-09",
-        "independent-mcq-04"
+        "independent-mcq-04",
+        "independent-mcq-05"
       ],
       "explanation": "本句的「independent」指「不作為單一機構固定僱員，而自行承接工作的」。",
       "sentenceIndex": 14,
@@ -695,12 +616,9 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-07": "本句指「不作為單一機構固定僱員，而自行承接工作的」。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-04": "「不依賴、不取決於或不受某因素影響的」與本句語境不同。"
+        "independent-mcq-07": "本句的「independent」指「不作為單一機構固定僱員，而自行承接工作的」。",
+        "independent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-07"
     },
@@ -712,11 +630,8 @@ export default {
       "masked": "He works as an ____ consultant.",
       "options": [
         "independent-pdf-001",
-        "independent-mcq-07",
-        "independent-mcq-09",
-        "independent-mcq-06",
-        "independent-mcq-10",
-        "independent-mcq-05"
+        "independent-mcq-08",
+        "independent-mcq-09"
       ],
       "explanation": "本句的「independent」指「不受單一僱主直接聘用，而自行承接工作的」。",
       "sentenceIndex": 15,
@@ -725,12 +640,9 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-pdf-001": "本句指「不受單一僱主直接聘用，而自行承接工作的」。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-pdf-001": "本句的「independent」指「不受單一僱主直接聘用，而自行承接工作的」。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-pdf-001"
     },
@@ -742,11 +654,8 @@ export default {
       "masked": "She became an ____ contractor.",
       "options": [
         "independent-pdf-001",
-        "independent-mcq-07",
-        "independent-mcq-09",
-        "independent-mcq-06",
-        "independent-mcq-10",
-        "independent-mcq-05"
+        "independent-mcq-08",
+        "independent-mcq-09"
       ],
       "explanation": "本句的「independent」指「不受單一僱主直接聘用，而自行承接工作的」。",
       "sentenceIndex": 16,
@@ -755,12 +664,9 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-pdf-001": "本句指「不受單一僱主直接聘用，而自行承接工作的」。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-pdf-001": "本句的「independent」指「不受單一僱主直接聘用，而自行承接工作的」。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-pdf-001"
     },
@@ -772,10 +678,8 @@ export default {
       "masked": "The two events are statistically ____.",
       "options": [
         "independent-mcq-08",
-        "independent-mcq-07",
-        "independent-mcq-09",
-        "independent-mcq-06",
         "independent-mcq-10",
+        "independent-mcq-06",
         "independent-mcq-05"
       ],
       "explanation": "本句的「independent」指「一個事件或變數的結果不會影響另一個」。",
@@ -785,12 +689,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-08": "本句指「一個事件或變數的結果不會影響另一個」。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-mcq-08": "本句的「independent」指「一個事件或變數的結果不會影響另一個」。",
+        "independent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-08"
     },
@@ -802,11 +704,9 @@ export default {
       "masked": "The variables are assumed to be ____.",
       "options": [
         "independent-mcq-08",
-        "independent-mcq-07",
-        "independent-mcq-09",
-        "independent-mcq-06",
-        "independent-mcq-10",
-        "independent-mcq-05"
+        "independent-mcq-03",
+        "independent-mcq-05",
+        "independent-mcq-09"
       ],
       "explanation": "本句的「independent」指「一個事件或變數的結果不會影響另一個」。",
       "sentenceIndex": 18,
@@ -815,12 +715,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-08": "本句指「一個事件或變數的結果不會影響另一個」。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-mcq-08": "本句的「independent」指「一個事件或變數的結果不會影響另一個」。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-08"
     },
@@ -832,11 +730,9 @@ export default {
       "masked": "Each unit has an ____ power supply.",
       "options": [
         "independent-mcq-10",
-        "independent-mcq-09",
+        "independent-mcq-05",
         "independent-mcq-08",
-        "independent-mcq-07",
-        "independent-mcq-06",
-        "independent-mcq-05"
+        "independent-mcq-07"
       ],
       "explanation": "本句的「independent」指「獨立、自主、不受控制或依賴的狀態」。",
       "sentenceIndex": 19,
@@ -845,12 +741,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-10": "本句指「獨立、自主、不受控制或依賴的狀態」。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-mcq-10": "本句的「independent」指「獨立、自主、不受控制或依賴的狀態」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-10"
     },
@@ -862,11 +756,9 @@ export default {
       "masked": "The two departments operate as ____ units.",
       "options": [
         "independent-mcq-10",
-        "independent-mcq-09",
         "independent-mcq-08",
-        "independent-mcq-07",
-        "independent-mcq-06",
-        "independent-mcq-05"
+        "independent-mcq-05",
+        "independent-mcq-07"
       ],
       "explanation": "本句的「independent」指「獨立、自主、不受控制或依賴的狀態」。",
       "sentenceIndex": 20,
@@ -875,12 +767,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "independent-mcq-10": "本句指「獨立、自主、不受控制或依賴的狀態」。",
-        "independent-mcq-09": "「獨立地；不依靠別人；各自地」與本句語境不同。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-mcq-10": "本句的「independent」指「獨立、自主、不受控制或依賴的狀態」。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-10"
     },
@@ -893,10 +783,8 @@ export default {
       "options": [
         "independent-mcq-09",
         "independent-mcq-08",
-        "independent-mcq-10",
-        "independent-mcq-07",
-        "independent-mcq-06",
-        "independent-mcq-05"
+        "independent-mcq-05",
+        "independent-mcq-03"
       ],
       "explanation": "本句的「independently」指「獨立地；不依靠別人；各自地」。",
       "sentenceIndex": 21,
@@ -905,12 +793,10 @@ export default {
         "independently"
       ],
       "optionReasons": {
-        "independent-mcq-09": "本句指「獨立地；不依靠別人；各自地」。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-mcq-09": "本句的「independently」指「獨立地；不依靠別人；各自地」。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-09"
     },
@@ -922,11 +808,9 @@ export default {
       "masked": "The two researchers reached the same conclusion ____.",
       "options": [
         "independent-mcq-09",
+        "independent-mcq-05",
         "independent-mcq-08",
-        "independent-mcq-10",
-        "independent-mcq-07",
-        "independent-mcq-06",
-        "independent-mcq-05"
+        "independent-mcq-03"
       ],
       "explanation": "本句的「independently」指「獨立地；不依靠別人；各自地」。",
       "sentenceIndex": 22,
@@ -935,12 +819,10 @@ export default {
         "independently"
       ],
       "optionReasons": {
-        "independent-mcq-09": "本句指「獨立地；不依靠別人；各自地」。",
-        "independent-mcq-08": "「一個事件或變數的結果不會影響另一個」與本句語境不同。",
-        "independent-mcq-10": "「獨立、自主、不受控制或依賴的狀態」與本句語境不同。",
-        "independent-mcq-07": "「不作為單一機構固定僱員，而自行承接工作的」與本句語境不同。",
-        "independent-mcq-06": "「不隸屬大型連鎖、母公司或主要商業集團而自行經營／製作的」與本句語境不同。",
-        "independent-mcq-05": "「與涉事方沒有直接利益關係，因此能較客觀地作判斷的」與本句語境不同。"
+        "independent-mcq-09": "本句的「independently」指「獨立地；不依靠別人；各自地」。",
+        "independent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "independent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "independent-mcq-09"
     }
@@ -952,5 +834,7 @@ export default {
     "sha256": "3194f0fb8127832bd99cfe6397deab2d2508d56bdd2257ce7b9da819e88c8ba0",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -694,11 +694,8 @@ export default {
       "masked": "This material can be used as a ____ for wood.",
       "options": [
         "substitute-mcq-01",
-        "substitute-mcq-02",
-        "substitute-mcq-03",
-        "substitute-mcq-04",
-        "substitute-mcq-05",
-        "substitute-mcq-06"
+        "substitute-mcq-50",
+        "substitute-mcq-26"
       ],
       "explanation": "本句的「substitute」指「用來代替原本物件／方案的替代品」。",
       "sentenceIndex": 0,
@@ -707,12 +704,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-01": "本句指「用來代替原本物件／方案的替代品」。",
-        "substitute-mcq-02": "「可在某功能上取代 X 的東西」與本句語境不同。",
-        "substitute-mcq-03": "「沒有其他東西能充分取代 X；X 無可取代」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。"
+        "substitute-mcq-01": "本句的「substitute」指「用來代替原本物件／方案的替代品」。",
+        "substitute-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-01"
     },
@@ -724,11 +718,8 @@ export default {
       "masked": "There is no simple ____ for experience.",
       "options": [
         "substitute-mcq-01",
-        "substitute-mcq-02",
         "substitute-mcq-03",
-        "substitute-mcq-04",
-        "substitute-mcq-05",
-        "substitute-mcq-06"
+        "substitute-mcq-26"
       ],
       "explanation": "本句的「substitute」指「用來代替原本物件／方案的替代品」。",
       "sentenceIndex": 1,
@@ -737,12 +728,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-01": "本句指「用來代替原本物件／方案的替代品」。",
-        "substitute-mcq-02": "「可在某功能上取代 X 的東西」與本句語境不同。",
-        "substitute-mcq-03": "「沒有其他東西能充分取代 X；X 無可取代」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。"
+        "substitute-mcq-01": "本句的「substitute」指「用來代替原本物件／方案的替代品」。",
+        "substitute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-01"
     },
@@ -754,11 +742,8 @@ export default {
       "masked": "Online videos are useful, but they are not always a ____ for direct instruction.",
       "options": [
         "substitute-mcq-12",
-        "substitute-mcq-11",
-        "substitute-mcq-13",
-        "substitute-mcq-10",
-        "substitute-mcq-14",
-        "substitute-mcq-09"
+        "substitute-mcq-26",
+        "substitute-mcq-50"
       ],
       "explanation": "本句的「substitute」指「充當 X 的替代物／代替 X」。",
       "sentenceIndex": 2,
@@ -767,12 +752,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-12": "本句指「充當 X 的替代物／代替 X」。",
-        "substitute-mcq-11": "「把 B 換成 A」與本句語境不同。",
-        "substitute-mcq-13": "「代糖／代鹽等食品替代品」與本句語境不同。",
-        "substitute-mcq-10": "「用 A 代替 B」與本句語境不同。",
-        "substitute-mcq-14": "「肉類／乳品替代品」與本句語境不同。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。"
+        "substitute-mcq-12": "本句的「substitute」指「充當 X 的替代物／代替 X」。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-12"
     },
@@ -784,11 +766,8 @@ export default {
       "masked": "There is no ____ for careful preparation.",
       "options": [
         "substitute-mcq-03",
-        "substitute-mcq-02",
-        "substitute-mcq-04",
-        "substitute-mcq-01",
-        "substitute-mcq-05",
-        "substitute-mcq-06"
+        "substitute-mcq-08",
+        "substitute-mcq-36"
       ],
       "explanation": "本句的「substitute」指「沒有其他東西能充分取代 X；X 無可取代」。",
       "sentenceIndex": 3,
@@ -797,12 +776,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-03": "本句指「沒有其他東西能充分取代 X；X 無可取代」。",
-        "substitute-mcq-02": "「可在某功能上取代 X 的東西」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。",
-        "substitute-mcq-01": "「用來代替原本物件／方案的替代品」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。"
+        "substitute-mcq-03": "本句的「substitute」指「沒有其他東西能充分取代 X；X 無可取代」。",
+        "substitute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-03"
     },
@@ -814,11 +790,9 @@ export default {
       "masked": "There is no ____ for a proper classroom.",
       "options": [
         "substitute-mcq-03",
-        "substitute-mcq-02",
-        "substitute-mcq-04",
-        "substitute-mcq-01",
-        "substitute-mcq-05",
-        "substitute-mcq-06"
+        "substitute-mcq-07",
+        "substitute-mcq-26",
+        "substitute-mcq-04"
       ],
       "explanation": "本句的「substitute」指「沒有其他東西能充分取代 X；X 無可取代」。",
       "sentenceIndex": 4,
@@ -827,12 +801,10 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-03": "本句指「沒有其他東西能充分取代 X；X 無可取代」。",
-        "substitute-mcq-02": "「可在某功能上取代 X 的東西」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。",
-        "substitute-mcq-01": "「用來代替原本物件／方案的替代品」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。"
+        "substitute-mcq-03": "本句的「substitute」指「沒有其他東西能充分取代 X；X 無可取代」。",
+        "substitute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-03"
     },
@@ -844,11 +816,8 @@ export default {
       "masked": "Convenience is no ____ for safety.",
       "options": [
         "substitute-mcq-03",
-        "substitute-mcq-02",
-        "substitute-mcq-04",
-        "substitute-mcq-01",
-        "substitute-mcq-05",
-        "substitute-mcq-06"
+        "substitute-mcq-36",
+        "substitute-mcq-07"
       ],
       "explanation": "本句的「substitute」指「沒有其他東西能充分取代 X；X 無可取代」。",
       "sentenceIndex": 5,
@@ -857,12 +826,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-03": "本句指「沒有其他東西能充分取代 X；X 無可取代」。",
-        "substitute-mcq-02": "「可在某功能上取代 X 的東西」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。",
-        "substitute-mcq-01": "「用來代替原本物件／方案的替代品」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。"
+        "substitute-mcq-03": "本句的「substitute」指「沒有其他東西能充分取代 X；X 無可取代」。",
+        "substitute-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-03"
     },
@@ -874,11 +840,9 @@ export default {
       "masked": "A rushed online meeting was a poor ____ for face-to-face discussion.",
       "options": [
         "substitute-mcq-04",
+        "substitute-mcq-26",
         "substitute-mcq-03",
-        "substitute-mcq-05",
-        "substitute-mcq-02",
-        "substitute-mcq-06",
-        "substitute-mcq-01"
+        "substitute-mcq-07"
       ],
       "explanation": "本句的「substitute」指「功能／品質遠遜於原物的替代品」。",
       "sentenceIndex": 6,
@@ -887,12 +851,10 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-04": "本句指「功能／品質遠遜於原物的替代品」。",
-        "substitute-mcq-03": "「沒有其他東西能充分取代 X；X 無可取代」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-02": "「可在某功能上取代 X 的東西」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。",
-        "substitute-mcq-01": "「用來代替原本物件／方案的替代品」與本句語境不同。"
+        "substitute-mcq-04": "本句的「substitute」指「功能／品質遠遜於原物的替代品」。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-04"
     },
@@ -904,11 +866,9 @@ export default {
       "masked": "A ____ was called in when the regular worker was absent.",
       "options": [
         "substitute-mcq-06",
-        "substitute-mcq-05",
-        "substitute-mcq-07",
-        "substitute-mcq-04",
-        "substitute-mcq-08",
-        "substitute-mcq-03"
+        "substitute-mcq-03",
+        "substitute-mcq-26",
+        "substitute-mcq-04"
       ],
       "explanation": "本句的「substitute」指「臨時代替另一人履行工作／角色的人」。",
       "sentenceIndex": 7,
@@ -917,12 +877,10 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-06": "本句指「臨時代替另一人履行工作／角色的人」。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-07": "「代替缺勤正式教師授課的代課老師」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。",
-        "substitute-mcq-08": "「可／已換入代替另一球員的後備球員」與本句語境不同。",
-        "substitute-mcq-03": "「沒有其他東西能充分取代 X；X 無可取代」與本句語境不同。"
+        "substitute-mcq-06": "本句的「substitute」指「臨時代替另一人履行工作／角色的人」。",
+        "substitute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-06"
     },
@@ -934,10 +892,8 @@ export default {
       "masked": "A ____ teacher took the class.",
       "options": [
         "substitute-mcq-07",
-        "substitute-mcq-06",
-        "substitute-mcq-08",
-        "substitute-mcq-05",
-        "substitute-mcq-09",
+        "substitute-mcq-50",
+        "substitute-mcq-26",
         "substitute-mcq-04"
       ],
       "explanation": "本句的「substitute」指「代替缺勤正式教師授課的代課老師」。",
@@ -947,12 +903,10 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-07": "本句指「代替缺勤正式教師授課的代課老師」。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。",
-        "substitute-mcq-08": "「可／已換入代替另一球員的後備球員」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。",
-        "substitute-mcq-04": "「功能／品質遠遜於原物的替代品」與本句語境不同。"
+        "substitute-mcq-07": "本句的「substitute」指「代替缺勤正式教師授課的代課老師」。",
+        "substitute-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-07"
     },
@@ -964,11 +918,9 @@ export default {
       "masked": "The coach brought on a ____ in the second half.",
       "options": [
         "substitute-mcq-08",
-        "substitute-mcq-07",
-        "substitute-mcq-09",
-        "substitute-mcq-06",
-        "substitute-mcq-10",
-        "substitute-mcq-05"
+        "substitute-mcq-03",
+        "substitute-mcq-26",
+        "substitute-mcq-04"
       ],
       "explanation": "本句的「substitute」指「可／已換入代替另一球員的後備球員」。",
       "sentenceIndex": 9,
@@ -977,12 +929,10 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-08": "本句指「可／已換入代替另一球員的後備球員」。",
-        "substitute-mcq-07": "「代替缺勤正式教師授課的代課老師」與本句語境不同。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。",
-        "substitute-mcq-06": "「臨時代替另一人履行工作／角色的人」與本句語境不同。",
-        "substitute-mcq-10": "「用 A 代替 B」與本句語境不同。",
-        "substitute-mcq-05": "「能達到最低要求、可以接受的替代方案」與本句語境不同。"
+        "substitute-mcq-08": "本句的「substitute」指「可／已換入代替另一球員的後備球員」。",
+        "substitute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-08"
     },
@@ -994,11 +944,7 @@ export default {
       "masked": "You can ____ yogurt for cream.",
       "options": [
         "substitute-mcq-10",
-        "substitute-mcq-09",
-        "substitute-mcq-11",
-        "substitute-mcq-08",
-        "substitute-mcq-12",
-        "substitute-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「substitute」指「用 A 代替 B」。",
       "sentenceIndex": 10,
@@ -1007,12 +953,8 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-10": "本句指「用 A 代替 B」。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。",
-        "substitute-mcq-11": "「把 B 換成 A」與本句語境不同。",
-        "substitute-mcq-08": "「可／已換入代替另一球員的後備球員」與本句語境不同。",
-        "substitute-mcq-12": "「充當 X 的替代物／代替 X」與本句語境不同。",
-        "substitute-mcq-07": "「代替缺勤正式教師授課的代課老師」與本句語境不同。"
+        "substitute-mcq-10": "本句的「substitute」指「用 A 代替 B」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-10"
     },
@@ -1024,11 +966,7 @@ export default {
       "masked": "She ____ for the regular teacher.",
       "options": [
         "substitute-mcq-10",
-        "substitute-mcq-09",
-        "substitute-mcq-11",
-        "substitute-mcq-08",
-        "substitute-mcq-12",
-        "substitute-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「substituted」指「用 A 代替 B」。",
       "sentenceIndex": 11,
@@ -1037,12 +975,8 @@ export default {
         "substituted"
       ],
       "optionReasons": {
-        "substitute-mcq-10": "本句指「用 A 代替 B」。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。",
-        "substitute-mcq-11": "「把 B 換成 A」與本句語境不同。",
-        "substitute-mcq-08": "「可／已換入代替另一球員的後備球員」與本句語境不同。",
-        "substitute-mcq-12": "「充當 X 的替代物／代替 X」與本句語境不同。",
-        "substitute-mcq-07": "「代替缺勤正式教師授課的代課老師」與本句語境不同。"
+        "substitute-mcq-10": "本句的「substituted」指「用 A 代替 B」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-10"
     },
@@ -1054,11 +988,7 @@ export default {
       "masked": "Nothing can fully ____ for practical experience.",
       "options": [
         "substitute-mcq-10",
-        "substitute-mcq-09",
-        "substitute-mcq-11",
-        "substitute-mcq-08",
-        "substitute-mcq-12",
-        "substitute-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「substitute」指「用 A 代替 B」。",
       "sentenceIndex": 12,
@@ -1067,12 +997,8 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-10": "本句指「用 A 代替 B」。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。",
-        "substitute-mcq-11": "「把 B 換成 A」與本句語境不同。",
-        "substitute-mcq-08": "「可／已換入代替另一球員的後備球員」與本句語境不同。",
-        "substitute-mcq-12": "「充當 X 的替代物／代替 X」與本句語境不同。",
-        "substitute-mcq-07": "「代替缺勤正式教師授課的代課老師」與本句語境不同。"
+        "substitute-mcq-10": "本句的「substitute」指「用 A 代替 B」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-10"
     },
@@ -1084,11 +1010,8 @@ export default {
       "masked": "Use this as a ____ ingredient if eggs are unavailable.",
       "options": [
         "substitute-mcq-12",
-        "substitute-mcq-11",
-        "substitute-mcq-13",
-        "substitute-mcq-10",
-        "substitute-mcq-14",
-        "substitute-mcq-09"
+        "substitute-mcq-26",
+        "substitute-mcq-50"
       ],
       "explanation": "本句的「substitute」指「充當 X 的替代物／代替 X」。",
       "sentenceIndex": 13,
@@ -1097,12 +1020,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-12": "本句指「充當 X 的替代物／代替 X」。",
-        "substitute-mcq-11": "「把 B 換成 A」與本句語境不同。",
-        "substitute-mcq-13": "「代糖／代鹽等食品替代品」與本句語境不同。",
-        "substitute-mcq-10": "「用 A 代替 B」與本句語境不同。",
-        "substitute-mcq-14": "「肉類／乳品替代品」與本句語境不同。",
-        "substitute-mcq-09": "「比賽中以一名球員換另一名球員；換人」與本句語境不同。"
+        "substitute-mcq-12": "本句的「substitute」指「充當 X 的替代物／代替 X」。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-12"
     },
@@ -1114,11 +1034,9 @@ export default {
       "masked": "____ \\(x=3\\) into the equation.",
       "options": [
         "substitute-mcq-26",
-        "substitute-mcq-25",
-        "substitute-mcq-27",
-        "substitute-mcq-24",
-        "substitute-mcq-28",
-        "substitute-mcq-23"
+        "substitute-mcq-50",
+        "substitute-mcq-07",
+        "substitute-mcq-04"
       ],
       "explanation": "本句的「Substitute」指「把數值代入變數位置」。",
       "sentenceIndex": 14,
@@ -1127,12 +1045,10 @@ export default {
         "Substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-26": "本句指「把數值代入變數位置」。",
-        "substitute-mcq-25": "「序列比對中評分不同殘基互換的置換矩陣」與本句語境不同。",
-        "substitute-mcq-27": "「聯立方程中的代入法」與本句語境不同。",
-        "substitute-mcq-24": "「蛋白質中的一種胺基酸被另一種取代」與本句語境不同。",
-        "substitute-mcq-28": "「微積分中的換元／u 代換」與本句語境不同。",
-        "substitute-mcq-23": "「DNA/RNA 中一個鹼基被另一個取代」與本句語境不同。"
+        "substitute-mcq-26": "本句的「Substitute」指「把數值代入變數位置」。",
+        "substitute-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-26"
     },
@@ -1144,11 +1060,8 @@ export default {
       "masked": "Tea and coffee may act as ____ goods for some consumers.",
       "options": [
         "substitute-mcq-36",
-        "substitute-mcq-35",
-        "substitute-mcq-37",
-        "substitute-mcq-34",
-        "substitute-mcq-38",
-        "substitute-mcq-33"
+        "substitute-mcq-03",
+        "substitute-mcq-06"
       ],
       "explanation": "本句的「substitute」指「消費者可在一定程度互相轉換選擇的替代商品」。",
       "sentenceIndex": 15,
@@ -1157,12 +1070,9 @@ export default {
         "substitute"
       ],
       "optionReasons": {
-        "substitute-mcq-36": "本句指「消費者可在一定程度互相轉換選擇的替代商品」。",
-        "substitute-mcq-35": "「語言課堂中把指定詞換入同一句型的替換操練」與本句語境不同。",
-        "substitute-mcq-37": "「模型中可以固定比率完全互相替代的商品」與本句語境不同。",
-        "substitute-mcq-34": "「用代詞、one、do、so 等替代先前語言內容」與本句語境不同。",
-        "substitute-mcq-38": "「相對價格改變令消費者轉向較相對便宜商品的替代效應」與本句語境不同。",
-        "substitute-mcq-33": "「把明文符號依規則替換成其他符號的替換式密碼」與本句語境不同。"
+        "substitute-mcq-36": "本句的「substitute」指「消費者可在一定程度互相轉換選擇的替代商品」。",
+        "substitute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-36"
     },
@@ -1174,11 +1084,8 @@ export default {
       "masked": "The two materials are not fully ____.",
       "options": [
         "substitute-mcq-50",
-        "substitute-mcq-49",
-        "substitute-mcq-51",
-        "substitute-mcq-48",
-        "substitute-mcq-52",
-        "substitute-mcq-47"
+        "substitute-mcq-01",
+        "substitute-mcq-26"
       ],
       "explanation": "本句的「substitutable」指「可以由另一東西取代的」。",
       "sentenceIndex": 16,
@@ -1187,12 +1094,9 @@ export default {
         "substitutable"
       ],
       "optionReasons": {
-        "substitute-mcq-50": "本句指「可以由另一東西取代的」。",
-        "substitute-mcq-49": "「以不同藥物替代以達到相近治療目的」與本句語境不同。",
-        "substitute-mcq-51": "「一種東西能被另一種替代的程度」與本句語境不同。",
-        "substitute-mcq-48": "「以學名藥／通用藥替代品牌藥」與本句語境不同。",
-        "substitute-mcq-52": "「晶格位置中以雜質原子取代母體原子的置換型雜質」與本句語境不同。",
-        "substitute-mcq-47": "「代某人判斷其本人若有能力時可能會作的決定」與本句語境不同。"
+        "substitute-mcq-50": "本句的「substitutable」指「可以由另一東西取代的」。",
+        "substitute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "substitute-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "substitute-mcq-50"
     }
@@ -1204,5 +1108,12 @@ export default {
     "sha256": "4ec39b35386f3a3aa92fd0bdb0791a1458a0932625df55876813f6af3d79e42d",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

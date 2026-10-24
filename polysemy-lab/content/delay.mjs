@@ -422,11 +422,9 @@ export default {
       "masked": "Poor communication can ____.",
       "options": [
         "delay-mcq-02",
-        "delay-mcq-01",
         "delay-mcq-03",
-        "delay-mcq-04",
-        "delay-mcq-05",
-        "delay-mcq-06"
+        "delay-mcq-07",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「delay a project」指「拖慢項目」。",
       "sentenceIndex": 3,
@@ -435,12 +433,10 @@ export default {
         "delay a project"
       ],
       "optionReasons": {
-        "delay-mcq-02": "本句指「拖慢項目」。",
-        "delay-mcq-01": "「延誤；拖慢」與本句語境不同。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。"
+        "delay-mcq-02": "本句的「delay a project」指「拖慢項目」。",
+        "delay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-02"
     },
@@ -452,11 +448,9 @@ export default {
       "masked": "The weather ____ by several days.",
       "options": [
         "delay-mcq-02",
-        "delay-mcq-01",
-        "delay-mcq-03",
-        "delay-mcq-04",
-        "delay-mcq-05",
-        "delay-mcq-06"
+        "delay-mcq-14",
+        "delay-mcq-19",
+        "delay-mcq-03"
       ],
       "explanation": "本句的「delayed the project」指「拖慢項目」。",
       "sentenceIndex": 4,
@@ -465,12 +459,10 @@ export default {
         "delayed the project"
       ],
       "optionReasons": {
-        "delay-mcq-02": "本句指「拖慢項目」。",
-        "delay-mcq-01": "「延誤；拖慢」與本句語境不同。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。"
+        "delay-mcq-02": "本句的「delayed the project」指「拖慢項目」。",
+        "delay-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-02"
     },
@@ -482,11 +474,9 @@ export default {
       "masked": "They decided to ____ until next week.",
       "options": [
         "delay-mcq-03",
+        "delay-mcq-13",
         "delay-mcq-02",
-        "delay-mcq-04",
-        "delay-mcq-01",
-        "delay-mcq-05",
-        "delay-mcq-06"
+        "delay-mcq-07"
       ],
       "explanation": "本句的「delay the decision」指「延遲決定」。",
       "sentenceIndex": 5,
@@ -495,12 +485,10 @@ export default {
         "delay the decision"
       ],
       "optionReasons": {
-        "delay-mcq-03": "本句指「延遲決定」。",
-        "delay-mcq-02": "「拖慢項目」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-01": "「延誤；拖慢」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。"
+        "delay-mcq-03": "本句的「delay the decision」指「延遲決定」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-03"
     },
@@ -513,10 +501,8 @@ export default {
       "options": [
         "delay-mcq-03",
         "delay-mcq-02",
-        "delay-mcq-04",
-        "delay-mcq-01",
-        "delay-mcq-05",
-        "delay-mcq-06"
+        "delay-mcq-13",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「delay the decision」指「延遲決定」。",
       "sentenceIndex": 6,
@@ -525,12 +511,10 @@ export default {
         "delay the decision"
       ],
       "optionReasons": {
-        "delay-mcq-03": "本句指「延遲決定」。",
-        "delay-mcq-02": "「拖慢項目」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-01": "「延誤；拖慢」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。"
+        "delay-mcq-03": "本句的「delay the decision」指「延遲決定」。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-03"
     },
@@ -542,11 +526,8 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "delay-mcq-04",
-        "delay-mcq-03",
         "delay-mcq-05",
-        "delay-mcq-02",
-        "delay-mcq-06",
-        "delay-mcq-01"
+        "delay-mcq-02"
       ],
       "explanation": "本句的「delay sending the email」指「延遲做 X」。",
       "sentenceIndex": 7,
@@ -555,12 +536,9 @@ export default {
         "delay sending the email"
       ],
       "optionReasons": {
-        "delay-mcq-04": "本句指「延遲做 X」。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-02": "「拖慢項目」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-01": "「延誤；拖慢」與本句語境不同。"
+        "delay-mcq-04": "本句的「delay sending the email」指「延遲做 X」。",
+        "delay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-04"
     },
@@ -572,11 +550,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "delay-mcq-04",
-        "delay-mcq-03",
         "delay-mcq-05",
-        "delay-mcq-02",
-        "delay-mcq-06",
-        "delay-mcq-01"
+        "delay-mcq-02"
       ],
       "explanation": "本句的「delayed making a decision」指「延遲做 X」。",
       "sentenceIndex": 8,
@@ -585,12 +560,9 @@ export default {
         "delayed making a decision"
       ],
       "optionReasons": {
-        "delay-mcq-04": "本句指「延遲做 X」。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-02": "「拖慢項目」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-01": "「延誤；拖慢」與本句語境不同。"
+        "delay-mcq-04": "本句的「delayed making a decision」指「延遲做 X」。",
+        "delay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-04"
     },
@@ -602,10 +574,8 @@ export default {
       "masked": "Sorry to ____.",
       "options": [
         "delay-mcq-05",
-        "delay-mcq-04",
-        "delay-mcq-06",
         "delay-mcq-03",
-        "delay-mcq-07",
+        "delay-mcq-19",
         "delay-mcq-02"
       ],
       "explanation": "本句的「delay you」指「耽誤某人」。",
@@ -615,12 +585,10 @@ export default {
         "delay you"
       ],
       "optionReasons": {
-        "delay-mcq-05": "本句指「耽誤某人」。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。",
-        "delay-mcq-07": "「延誤航班」與本句語境不同。",
-        "delay-mcq-02": "「拖慢項目」與本句語境不同。"
+        "delay-mcq-05": "本句的「delay you」指「耽誤某人」。",
+        "delay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-05"
     },
@@ -633,9 +601,6 @@ export default {
       "options": [
         "delay-mcq-05",
         "delay-mcq-04",
-        "delay-mcq-06",
-        "delay-mcq-03",
-        "delay-mcq-07",
         "delay-mcq-02"
       ],
       "explanation": "本句的「delayed us」指「耽誤某人」。",
@@ -645,12 +610,9 @@ export default {
         "delayed us"
       ],
       "optionReasons": {
-        "delay-mcq-05": "本句指「耽誤某人」。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。",
-        "delay-mcq-07": "「延誤航班」與本句語境不同。",
-        "delay-mcq-02": "「拖慢項目」與本句語境不同。"
+        "delay-mcq-05": "本句的「delayed us」指「耽誤某人」。",
+        "delay-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-05"
     },
@@ -662,11 +624,9 @@ export default {
       "masked": "The flight was ____.",
       "options": [
         "delay-mcq-06",
-        "delay-mcq-05",
-        "delay-mcq-07",
-        "delay-mcq-04",
-        "delay-mcq-08",
-        "delay-mcq-03"
+        "delay-mcq-13",
+        "delay-mcq-02",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「delayed」指「被延誤」。",
       "sentenceIndex": 11,
@@ -675,12 +635,10 @@ export default {
         "delayed"
       ],
       "optionReasons": {
-        "delay-mcq-06": "本句指「被延誤」。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-07": "「延誤航班」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-08": "「延誤；耽擱」與本句語境不同。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。"
+        "delay-mcq-06": "本句的「delayed」指「被延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-06"
     },
@@ -692,11 +650,9 @@ export default {
       "masked": "The meeting was ____.",
       "options": [
         "delay-mcq-06",
-        "delay-mcq-05",
-        "delay-mcq-07",
-        "delay-mcq-04",
-        "delay-mcq-08",
-        "delay-mcq-03"
+        "delay-mcq-02",
+        "delay-mcq-19",
+        "delay-mcq-13"
       ],
       "explanation": "本句的「delayed by thirty minutes」指「被延誤」。",
       "sentenceIndex": 12,
@@ -705,12 +661,10 @@ export default {
         "delayed by thirty minutes"
       ],
       "optionReasons": {
-        "delay-mcq-06": "本句指「被延誤」。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-07": "「延誤航班」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。",
-        "delay-mcq-08": "「延誤；耽擱」與本句語境不同。",
-        "delay-mcq-03": "「延遲決定」與本句語境不同。"
+        "delay-mcq-06": "本句的「delayed by thirty minutes」指「被延誤」。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-06"
     },
@@ -722,11 +676,9 @@ export default {
       "masked": "Our flight was ____ because of bad weather.",
       "options": [
         "delay-mcq-07",
-        "delay-mcq-06",
-        "delay-mcq-08",
-        "delay-mcq-05",
-        "delay-mcq-09",
-        "delay-mcq-04"
+        "delay-mcq-13",
+        "delay-mcq-02",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「delayed」指「延誤航班」。",
       "sentenceIndex": 13,
@@ -735,12 +687,10 @@ export default {
         "delayed"
       ],
       "optionReasons": {
-        "delay-mcq-07": "本句指「延誤航班」。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-08": "「延誤；耽擱」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。"
+        "delay-mcq-07": "本句的「delayed」指「延誤航班」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-07"
     },
@@ -752,11 +702,9 @@ export default {
       "masked": "The ____ finally arrived.",
       "options": [
         "delay-mcq-07",
-        "delay-mcq-06",
-        "delay-mcq-08",
-        "delay-mcq-05",
-        "delay-mcq-09",
-        "delay-mcq-04"
+        "delay-mcq-02",
+        "delay-mcq-19",
+        "delay-mcq-13"
       ],
       "explanation": "本句的「delayed train」指「延誤航班」。",
       "sentenceIndex": 14,
@@ -765,12 +713,10 @@ export default {
         "delayed train"
       ],
       "optionReasons": {
-        "delay-mcq-07": "本句指「延誤航班」。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-08": "「延誤；耽擱」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。",
-        "delay-mcq-04": "「延遲做 X」與本句語境不同。"
+        "delay-mcq-07": "本句的「delayed train」指「延誤航班」。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-07"
     },
@@ -782,11 +728,9 @@ export default {
       "masked": "There was a long ____.",
       "options": [
         "delay-mcq-08",
-        "delay-mcq-07",
-        "delay-mcq-09",
-        "delay-mcq-06",
-        "delay-mcq-10",
-        "delay-mcq-05"
+        "delay-mcq-19",
+        "delay-mcq-02",
+        "delay-mcq-18"
       ],
       "explanation": "本句的「delay」指「延誤；耽擱」。",
       "sentenceIndex": 15,
@@ -795,12 +739,10 @@ export default {
         "delay"
       ],
       "optionReasons": {
-        "delay-mcq-08": "本句指「延誤；耽擱」。",
-        "delay-mcq-07": "「延誤航班」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。"
+        "delay-mcq-08": "本句的「delay」指「延誤；耽擱」。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-08"
     },
@@ -812,11 +754,9 @@ export default {
       "masked": "We apologized for the ____.",
       "options": [
         "delay-mcq-08",
-        "delay-mcq-07",
-        "delay-mcq-09",
-        "delay-mcq-06",
-        "delay-mcq-10",
-        "delay-mcq-05"
+        "delay-mcq-19",
+        "delay-mcq-02",
+        "delay-mcq-17"
       ],
       "explanation": "本句的「delay」指「延誤；耽擱」。",
       "sentenceIndex": 16,
@@ -825,12 +765,10 @@ export default {
         "delay"
       ],
       "optionReasons": {
-        "delay-mcq-08": "本句指「延誤；耽擱」。",
-        "delay-mcq-07": "「延誤航班」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。",
-        "delay-mcq-06": "「被延誤」與本句語境不同。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。",
-        "delay-mcq-05": "「耽誤某人」與本句語境不同。"
+        "delay-mcq-08": "本句的「delay」指「延誤；耽擱」。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-08"
     },
@@ -842,11 +780,9 @@ export default {
       "masked": "The missing document ____.",
       "options": [
         "delay-mcq-11",
-        "delay-mcq-10",
-        "delay-mcq-12",
-        "delay-mcq-09",
-        "delay-mcq-13",
-        "delay-mcq-08"
+        "delay-mcq-02",
+        "delay-mcq-19",
+        "delay-mcq-13"
       ],
       "explanation": "本句的「caused a delay」指「造成延誤」。",
       "sentenceIndex": 21,
@@ -855,12 +791,10 @@ export default {
         "caused a delay"
       ],
       "optionReasons": {
-        "delay-mcq-11": "本句指「造成延誤」。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-08": "「延誤；耽擱」與本句語境不同。"
+        "delay-mcq-11": "本句的「caused a delay」指「造成延誤」。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-11"
     },
@@ -872,11 +806,9 @@ export default {
       "masked": "Roadworks may ____.",
       "options": [
         "delay-mcq-11",
-        "delay-mcq-10",
-        "delay-mcq-12",
-        "delay-mcq-09",
         "delay-mcq-13",
-        "delay-mcq-08"
+        "delay-mcq-19",
+        "delay-mcq-02"
       ],
       "explanation": "本句的「cause delays」指「造成延誤」。",
       "sentenceIndex": 22,
@@ -885,12 +817,10 @@ export default {
         "cause delays"
       ],
       "optionReasons": {
-        "delay-mcq-11": "本句指「造成延誤」。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-08": "「延誤；耽擱」與本句語境不同。"
+        "delay-mcq-11": "本句的「cause delays」指「造成延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-11"
     },
@@ -902,11 +832,9 @@ export default {
       "masked": "Passengers ____.",
       "options": [
         "delay-mcq-12",
-        "delay-mcq-11",
         "delay-mcq-13",
-        "delay-mcq-10",
-        "delay-mcq-14",
-        "delay-mcq-09"
+        "delay-mcq-19",
+        "delay-mcq-02"
       ],
       "explanation": "本句的「experienced a delay」指「遇到延誤」。",
       "sentenceIndex": 23,
@@ -915,12 +843,10 @@ export default {
         "experienced a delay"
       ],
       "optionReasons": {
-        "delay-mcq-12": "本句指「遇到延誤」。",
-        "delay-mcq-11": "「造成延誤」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。"
+        "delay-mcq-12": "本句的「experienced a delay」指「遇到延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-12"
     },
@@ -932,11 +858,9 @@ export default {
       "masked": "The project ____.",
       "options": [
         "delay-mcq-12",
-        "delay-mcq-11",
-        "delay-mcq-13",
-        "delay-mcq-10",
-        "delay-mcq-14",
-        "delay-mcq-09"
+        "delay-mcq-19",
+        "delay-mcq-02",
+        "delay-mcq-13"
       ],
       "explanation": "本句的「faced several delays」指「遇到延誤」。",
       "sentenceIndex": 24,
@@ -945,12 +869,10 @@ export default {
         "faced several delays"
       ],
       "optionReasons": {
-        "delay-mcq-12": "本句指「遇到延誤」。",
-        "delay-mcq-11": "「造成延誤」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-09": "「X 的延誤」與本句語境不同。"
+        "delay-mcq-12": "本句的「faced several delays」指「遇到延誤」。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-12"
     },
@@ -962,11 +884,9 @@ export default {
       "masked": "Please respond ____.",
       "options": [
         "delay-mcq-13",
-        "delay-mcq-12",
         "delay-mcq-14",
-        "delay-mcq-11",
-        "delay-mcq-15",
-        "delay-mcq-10"
+        "delay-mcq-18",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「without delay」指「立即；毫不耽擱」。",
       "sentenceIndex": 25,
@@ -975,12 +895,10 @@ export default {
         "without delay"
       ],
       "optionReasons": {
-        "delay-mcq-13": "本句指「立即；毫不耽擱」。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-11": "「造成延誤」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。"
+        "delay-mcq-13": "本句的「without delay」指「立即；毫不耽擱」。",
+        "delay-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-13"
     },
@@ -992,11 +910,9 @@ export default {
       "masked": "The problem needs to be fixed ____.",
       "options": [
         "delay-mcq-13",
-        "delay-mcq-12",
-        "delay-mcq-14",
-        "delay-mcq-11",
-        "delay-mcq-15",
-        "delay-mcq-10"
+        "delay-mcq-18",
+        "delay-mcq-19",
+        "delay-mcq-11"
       ],
       "explanation": "本句的「without delay」指「立即；毫不耽擱」。",
       "sentenceIndex": 26,
@@ -1005,12 +921,10 @@ export default {
         "without delay"
       ],
       "optionReasons": {
-        "delay-mcq-13": "本句指「立即；毫不耽擱」。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-11": "「造成延誤」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-10": "「延誤兩小時」與本句語境不同。"
+        "delay-mcq-13": "本句的「without delay」指「立即；毫不耽擱」。",
+        "delay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-13"
     },
@@ -1023,10 +937,8 @@ export default {
       "options": [
         "delay-mcq-14",
         "delay-mcq-13",
-        "delay-mcq-15",
-        "delay-mcq-12",
-        "delay-mcq-16",
-        "delay-mcq-11"
+        "delay-mcq-02",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「unexpected delay」指「意外延誤」。",
       "sentenceIndex": 27,
@@ -1035,12 +947,10 @@ export default {
         "unexpected delay"
       ],
       "optionReasons": {
-        "delay-mcq-14": "本句指「意外延誤」。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-11": "「造成延誤」與本句語境不同。"
+        "delay-mcq-14": "本句的「unexpected delay」指「意外延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-14"
     },
@@ -1053,10 +963,8 @@ export default {
       "options": [
         "delay-mcq-14",
         "delay-mcq-13",
-        "delay-mcq-15",
-        "delay-mcq-12",
-        "delay-mcq-16",
-        "delay-mcq-11"
+        "delay-mcq-02",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「unexpected delay」指「意外延誤」。",
       "sentenceIndex": 28,
@@ -1065,12 +973,10 @@ export default {
         "unexpected delay"
       ],
       "optionReasons": {
-        "delay-mcq-14": "本句指「意外延誤」。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-11": "「造成延誤」與本句語境不同。"
+        "delay-mcq-14": "本句的「unexpected delay」指「意外延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-14"
     },
@@ -1082,11 +988,9 @@ export default {
       "masked": "There may be a ____.",
       "options": [
         "delay-mcq-15",
-        "delay-mcq-14",
-        "delay-mcq-16",
-        "delay-mcq-13",
-        "delay-mcq-17",
-        "delay-mcq-12"
+        "delay-mcq-19",
+        "delay-mcq-02",
+        "delay-mcq-13"
       ],
       "explanation": "本句的「slight delay」指「輕微延誤」。",
       "sentenceIndex": 29,
@@ -1095,12 +999,10 @@ export default {
         "slight delay"
       ],
       "optionReasons": {
-        "delay-mcq-15": "本句指「輕微延誤」。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。"
+        "delay-mcq-15": "本句的「slight delay」指「輕微延誤」。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-15"
     },
@@ -1112,11 +1014,9 @@ export default {
       "masked": "After a ____, the meeting began.",
       "options": [
         "delay-mcq-15",
-        "delay-mcq-14",
-        "delay-mcq-16",
         "delay-mcq-13",
-        "delay-mcq-17",
-        "delay-mcq-12"
+        "delay-mcq-02",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「short delay」指「輕微延誤」。",
       "sentenceIndex": 30,
@@ -1125,12 +1025,10 @@ export default {
         "short delay"
       ],
       "optionReasons": {
-        "delay-mcq-15": "本句指「輕微延誤」。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-12": "「遇到延誤」與本句語境不同。"
+        "delay-mcq-15": "本句的「short delay」指「輕微延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-15"
     },
@@ -1142,11 +1040,9 @@ export default {
       "masked": "The repairs caused a ____.",
       "options": [
         "delay-mcq-16",
-        "delay-mcq-15",
-        "delay-mcq-17",
-        "delay-mcq-14",
-        "delay-mcq-18",
-        "delay-mcq-13"
+        "delay-mcq-13",
+        "delay-mcq-19",
+        "delay-mcq-02"
       ],
       "explanation": "本句的「significant delay」指「重大延誤」。",
       "sentenceIndex": 31,
@@ -1155,12 +1051,10 @@ export default {
         "significant delay"
       ],
       "optionReasons": {
-        "delay-mcq-16": "本句指「重大延誤」。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。"
+        "delay-mcq-16": "本句的「significant delay」指「重大延誤」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-16"
     },
@@ -1172,11 +1066,9 @@ export default {
       "masked": "There was a ____ at the airport.",
       "options": [
         "delay-mcq-16",
-        "delay-mcq-15",
-        "delay-mcq-17",
-        "delay-mcq-14",
-        "delay-mcq-18",
-        "delay-mcq-13"
+        "delay-mcq-19",
+        "delay-mcq-13",
+        "delay-mcq-02"
       ],
       "explanation": "本句的「long delay」指「重大延誤」。",
       "sentenceIndex": 32,
@@ -1185,12 +1077,10 @@ export default {
         "long delay"
       ],
       "optionReasons": {
-        "delay-mcq-16": "本句指「重大延誤」。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-13": "「立即；毫不耽擱」與本句語境不同。"
+        "delay-mcq-16": "本句的「long delay」指「重大延誤」。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-16"
     },
@@ -1202,11 +1092,9 @@ export default {
       "masked": "The medicine may cause a ____.",
       "options": [
         "delay-mcq-17",
-        "delay-mcq-16",
-        "delay-mcq-18",
-        "delay-mcq-15",
-        "delay-mcq-19",
-        "delay-mcq-14"
+        "delay-mcq-13",
+        "delay-mcq-02",
+        "delay-mcq-07"
       ],
       "explanation": "本句的「delayed reaction」指「延遲反應」。",
       "sentenceIndex": 35,
@@ -1215,12 +1103,10 @@ export default {
         "delayed reaction"
       ],
       "optionReasons": {
-        "delay-mcq-17": "本句指「延遲反應」。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-19": "「發展遲緩」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。"
+        "delay-mcq-17": "本句的「delayed reaction」指「延遲反應」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-17"
     },
@@ -1232,11 +1118,9 @@ export default {
       "masked": "There was a ____ to the announcement.",
       "options": [
         "delay-mcq-17",
-        "delay-mcq-16",
-        "delay-mcq-18",
-        "delay-mcq-15",
-        "delay-mcq-19",
-        "delay-mcq-14"
+        "delay-mcq-02",
+        "delay-mcq-13",
+        "delay-mcq-16"
       ],
       "explanation": "本句的「delayed response」指「延遲反應」。",
       "sentenceIndex": 36,
@@ -1245,12 +1129,10 @@ export default {
         "delayed response"
       ],
       "optionReasons": {
-        "delay-mcq-17": "本句指「延遲反應」。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。",
-        "delay-mcq-19": "「發展遲緩」與本句語境不同。",
-        "delay-mcq-14": "「意外延誤」與本句語境不同。"
+        "delay-mcq-17": "本句的「delayed response」指「延遲反應」。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-17"
     },
@@ -1262,11 +1144,9 @@ export default {
       "masked": "The policy may have a ____.",
       "options": [
         "delay-mcq-18",
-        "delay-mcq-17",
-        "delay-mcq-19",
-        "delay-mcq-16",
-        "delay-mcq-20",
-        "delay-mcq-15"
+        "delay-mcq-13",
+        "delay-mcq-02",
+        "delay-mcq-14"
       ],
       "explanation": "本句的「delayed effect」指「延遲效應」。",
       "sentenceIndex": 37,
@@ -1275,12 +1155,10 @@ export default {
         "delayed effect"
       ],
       "optionReasons": {
-        "delay-mcq-18": "本句指「延遲效應」。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-19": "「發展遲緩」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-20": "「時延」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。"
+        "delay-mcq-18": "本句的「delayed effect」指「延遲效應」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-18"
     },
@@ -1292,11 +1170,9 @@ export default {
       "masked": "Some treatments have ____.",
       "options": [
         "delay-mcq-18",
-        "delay-mcq-17",
-        "delay-mcq-19",
-        "delay-mcq-16",
-        "delay-mcq-20",
-        "delay-mcq-15"
+        "delay-mcq-13",
+        "delay-mcq-02",
+        "delay-mcq-14"
       ],
       "explanation": "本句的「delayed effects」指「延遲效應」。",
       "sentenceIndex": 38,
@@ -1305,12 +1181,10 @@ export default {
         "delayed effects"
       ],
       "optionReasons": {
-        "delay-mcq-18": "本句指「延遲效應」。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-19": "「發展遲緩」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-20": "「時延」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。"
+        "delay-mcq-18": "本句的「delayed effects」指「延遲效應」。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-18"
     },
@@ -1322,11 +1196,9 @@ export default {
       "masked": "The child was assessed for ____.",
       "options": [
         "delay-mcq-19",
-        "delay-mcq-18",
-        "delay-mcq-20",
-        "delay-mcq-17",
-        "delay-mcq-16",
-        "delay-mcq-15"
+        "delay-mcq-15",
+        "delay-mcq-02",
+        "delay-mcq-13"
       ],
       "explanation": "本句的「developmental delay」指「發展遲緩」。",
       "sentenceIndex": 39,
@@ -1335,12 +1207,10 @@ export default {
         "developmental delay"
       ],
       "optionReasons": {
-        "delay-mcq-19": "本句指「發展遲緩」。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-20": "「時延」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。"
+        "delay-mcq-19": "本句的「developmental delay」指「發展遲緩」。",
+        "delay-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-19"
     },
@@ -1352,11 +1222,9 @@ export default {
       "masked": "Early support may help children with ____.",
       "options": [
         "delay-mcq-19",
-        "delay-mcq-18",
-        "delay-mcq-20",
-        "delay-mcq-17",
-        "delay-mcq-16",
-        "delay-mcq-15"
+        "delay-mcq-08",
+        "delay-mcq-02",
+        "delay-mcq-18"
       ],
       "explanation": "本句的「developmental delays」指「發展遲緩」。",
       "sentenceIndex": 40,
@@ -1365,12 +1233,10 @@ export default {
         "developmental delays"
       ],
       "optionReasons": {
-        "delay-mcq-19": "本句指「發展遲緩」。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-20": "「時延」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。"
+        "delay-mcq-19": "本句的「developmental delays」指「發展遲緩」。",
+        "delay-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-19"
     },
@@ -1382,11 +1248,9 @@ export default {
       "masked": "There is a short ____ in the signal.",
       "options": [
         "delay-mcq-20",
-        "delay-mcq-19",
-        "delay-mcq-18",
-        "delay-mcq-17",
-        "delay-mcq-16",
-        "delay-mcq-15"
+        "delay-mcq-02",
+        "delay-mcq-13",
+        "delay-mcq-19"
       ],
       "explanation": "本句的「time delay」指「時延」。",
       "sentenceIndex": 41,
@@ -1395,12 +1259,10 @@ export default {
         "time delay"
       ],
       "optionReasons": {
-        "delay-mcq-20": "本句指「時延」。",
-        "delay-mcq-19": "「發展遲緩」與本句語境不同。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。"
+        "delay-mcq-20": "本句的「time delay」指「時延」。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-20"
     },
@@ -1412,11 +1274,9 @@ export default {
       "masked": "The broadcast has a few seconds of ____.",
       "options": [
         "delay-mcq-20",
+        "delay-mcq-05",
         "delay-mcq-19",
-        "delay-mcq-18",
-        "delay-mcq-17",
-        "delay-mcq-16",
-        "delay-mcq-15"
+        "delay-mcq-02"
       ],
       "explanation": "本句的「delay」指「時延」。",
       "sentenceIndex": 42,
@@ -1425,12 +1285,10 @@ export default {
         "delay"
       ],
       "optionReasons": {
-        "delay-mcq-20": "本句指「時延」。",
-        "delay-mcq-19": "「發展遲緩」與本句語境不同。",
-        "delay-mcq-18": "「延遲效應」與本句語境不同。",
-        "delay-mcq-17": "「延遲反應」與本句語境不同。",
-        "delay-mcq-16": "「重大延誤」與本句語境不同。",
-        "delay-mcq-15": "「輕微延誤」與本句語境不同。"
+        "delay-mcq-20": "本句的「delay」指「時延」。",
+        "delay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delay-mcq-20"
     }
@@ -1442,5 +1300,7 @@ export default {
     "sha256": "ec18534457eedf215577dadcea83660d021a6db25547ca9b47d43a10c670568e",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

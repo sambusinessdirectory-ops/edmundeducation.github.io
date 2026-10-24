@@ -278,10 +278,8 @@ export default {
       "masked": "She is very ____ with children.",
       "options": [
         "gentle-mcq-01",
-        "gentle-mcq-02",
-        "gentle-mcq-03",
-        "gentle-mcq-04",
         "gentle-mcq-05",
+        "gentle-mcq-04",
         "gentle-mcq-06"
       ],
       "explanation": "本句的「gentle」指「對人或動物和善、不粗暴、不具攻擊性的」。",
@@ -291,12 +289,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-01": "本句指「對人或動物和善、不粗暴、不具攻擊性的」。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-01": "本句的「gentle」指「對人或動物和善、不粗暴、不具攻擊性的」。",
+        "gentle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-01"
     },
@@ -308,11 +304,9 @@ export default {
       "masked": "The dog has a ____ nature.",
       "options": [
         "gentle-mcq-01",
-        "gentle-mcq-02",
-        "gentle-mcq-03",
-        "gentle-mcq-04",
-        "gentle-mcq-05",
-        "gentle-mcq-06"
+        "gentle-mcq-07",
+        "gentle-mcq-08",
+        "gentle-mcq-04"
       ],
       "explanation": "本句的「gentle」指「對人或動物和善、不粗暴、不具攻擊性的」。",
       "sentenceIndex": 1,
@@ -321,12 +315,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-01": "本句指「對人或動物和善、不粗暴、不具攻擊性的」。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-01": "本句的「gentle」指「對人或動物和善、不粗暴、不具攻擊性的」。",
+        "gentle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-01"
     },
@@ -338,11 +330,9 @@ export default {
       "masked": "The painting felt ____ and almost dreamlike.",
       "options": [
         "gentle-pdf-001",
-        "gentle-mcq-01",
-        "gentle-mcq-03",
+        "gentle-mcq-08",
         "gentle-mcq-04",
-        "gentle-mcq-05",
-        "gentle-mcq-06"
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gentle」指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
       "sentenceIndex": 2,
@@ -351,12 +341,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-pdf-001": "本句指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
-        "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-pdf-001": "本句的「gentle」指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-pdf-001"
     },
@@ -368,11 +356,9 @@ export default {
       "masked": "The room was filled with ____ colours.",
       "options": [
         "gentle-pdf-001",
-        "gentle-mcq-01",
-        "gentle-mcq-03",
+        "gentle-mcq-10",
         "gentle-mcq-04",
-        "gentle-mcq-05",
-        "gentle-mcq-06"
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gentle」指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
       "sentenceIndex": 3,
@@ -381,12 +367,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-pdf-001": "本句指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
-        "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-pdf-001": "本句的「gentle」指「在視覺、氣氛、風格或情緒上不強烈、不刺眼、不具壓迫感」。",
+        "gentle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-pdf-001"
     },
@@ -398,11 +382,9 @@ export default {
       "masked": "Use ____ when cleaning the surface.",
       "options": [
         "gentle-mcq-03",
-        "gentle-mcq-02",
-        "gentle-mcq-04",
-        "gentle-mcq-01",
-        "gentle-mcq-05",
-        "gentle-mcq-06"
+        "gentle-mcq-09",
+        "gentle-mcq-06",
+        "gentle-mcq-08"
       ],
       "explanation": "本句的「gentle pressure」指「使用力度較小、不猛烈或粗暴的」。",
       "sentenceIndex": 4,
@@ -411,12 +393,10 @@ export default {
         "gentle pressure"
       ],
       "optionReasons": {
-        "gentle-mcq-03": "本句指「使用力度較小、不猛烈或粗暴的」。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-03": "本句的「gentle pressure」指「使用力度較小、不猛烈或粗暴的」。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-03"
     },
@@ -428,11 +408,9 @@ export default {
       "masked": "She gave the door a ____ push.",
       "options": [
         "gentle-mcq-03",
-        "gentle-mcq-02",
-        "gentle-mcq-04",
-        "gentle-mcq-01",
-        "gentle-mcq-05",
-        "gentle-mcq-06"
+        "gentle-mcq-09",
+        "gentle-mcq-06",
+        "gentle-mcq-04"
       ],
       "explanation": "本句的「gentle」指「使用力度較小、不猛烈或粗暴的」。",
       "sentenceIndex": 5,
@@ -441,12 +419,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-03": "本句指「使用力度較小、不猛烈或粗暴的」。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-03": "本句的「gentle」指「使用力度較小、不猛烈或粗暴的」。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-03"
     },
@@ -458,11 +434,9 @@ export default {
       "masked": "The path has a ____.",
       "options": [
         "gentle-mcq-04",
-        "gentle-mcq-03",
-        "gentle-mcq-05",
-        "gentle-mcq-02",
-        "gentle-mcq-06",
-        "gentle-mcq-01"
+        "gentle-mcq-08",
+        "gentle-pdf-001",
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gentle slope」指「坡度或曲線不陡、不急的」。",
       "sentenceIndex": 6,
@@ -471,12 +445,10 @@ export default {
         "gentle slope"
       ],
       "optionReasons": {
-        "gentle-mcq-04": "本句指「坡度或曲線不陡、不急的」。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。"
+        "gentle-mcq-04": "本句的「gentle slope」指「坡度或曲線不陡、不急的」。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gentle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-04"
     },
@@ -488,11 +460,9 @@ export default {
       "masked": "The hill rises in a ____ curve.",
       "options": [
         "gentle-mcq-04",
-        "gentle-mcq-03",
-        "gentle-mcq-05",
-        "gentle-mcq-02",
-        "gentle-mcq-06",
-        "gentle-mcq-01"
+        "gentle-mcq-10",
+        "gentle-mcq-09",
+        "gentle-pdf-001"
       ],
       "explanation": "本句的「gentle」指「坡度或曲線不陡、不急的」。",
       "sentenceIndex": 7,
@@ -501,12 +471,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-04": "本句指「坡度或曲線不陡、不急的」。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-01": "「對人或動物和善、不粗暴、不具攻擊性的」是「gentle — person/behaviour」的用法，與本句語境不同。"
+        "gentle-mcq-04": "本句的「gentle」指「坡度或曲線不陡、不急的」。",
+        "gentle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-04"
     },
@@ -518,11 +486,9 @@ export default {
       "masked": "We went for some ____.",
       "options": [
         "gentle-mcq-05",
-        "gentle-mcq-04",
         "gentle-mcq-06",
-        "gentle-mcq-03",
-        "gentle-mcq-07",
-        "gentle-mcq-02"
+        "gentle-mcq-10",
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gentle exercise」指「強度低、不劇烈的」。",
       "sentenceIndex": 8,
@@ -531,12 +497,10 @@ export default {
         "gentle exercise"
       ],
       "optionReasons": {
-        "gentle-mcq-05": "本句指「強度低、不劇烈的」。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。"
+        "gentle-mcq-05": "本句的「gentle exercise」指「強度低、不劇烈的」。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-05"
     },
@@ -548,11 +512,9 @@ export default {
       "masked": "The doctor recommended ____ stretching.",
       "options": [
         "gentle-mcq-05",
-        "gentle-mcq-04",
+        "gentle-mcq-08",
         "gentle-mcq-06",
-        "gentle-mcq-03",
-        "gentle-mcq-07",
-        "gentle-mcq-02"
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gentle」指「強度低、不劇烈的」。",
       "sentenceIndex": 9,
@@ -561,12 +523,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-05": "本句指「強度低、不劇烈的」。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-02": "「給人柔和、平靜、舒緩而不強烈的感覺」是「gentle — style/atmosphere」的用法，與本句語境不同。"
+        "gentle-mcq-05": "本句的「gentle」指「強度低、不劇烈的」。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-05"
     },
@@ -579,10 +539,8 @@ export default {
       "options": [
         "gentle-mcq-06",
         "gentle-mcq-05",
-        "gentle-mcq-07",
-        "gentle-mcq-04",
-        "gentle-mcq-08",
-        "gentle-mcq-03"
+        "gentle-mcq-01",
+        "gentle-mcq-04"
       ],
       "explanation": "本句的「gentle voice」指「聲音柔和、不響亮、不刺耳的」。",
       "sentenceIndex": 10,
@@ -591,12 +549,10 @@ export default {
         "gentle voice"
       ],
       "optionReasons": {
-        "gentle-mcq-06": "本句指「聲音柔和、不響亮、不刺耳的」。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。"
+        "gentle-mcq-06": "本句的「gentle voice」指「聲音柔和、不響亮、不刺耳的」。",
+        "gentle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-06"
     },
@@ -608,11 +564,9 @@ export default {
       "masked": "The music has a ____ rhythm.",
       "options": [
         "gentle-mcq-06",
-        "gentle-mcq-05",
-        "gentle-mcq-07",
-        "gentle-mcq-04",
-        "gentle-mcq-08",
-        "gentle-mcq-03"
+        "gentle-mcq-09",
+        "gentle-mcq-03",
+        "gentle-mcq-04"
       ],
       "explanation": "本句的「gentle」指「聲音柔和、不響亮、不刺耳的」。",
       "sentenceIndex": 11,
@@ -621,12 +575,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-06": "本句指「聲音柔和、不響亮、不刺耳的」。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-03": "「使用力度較小、不猛烈或粗暴的」是「gentle — physical force」的用法，與本句語境不同。"
+        "gentle-mcq-06": "本句的「gentle」指「聲音柔和、不響亮、不刺耳的」。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-06"
     },
@@ -638,11 +590,9 @@ export default {
       "masked": "A ____ moved across the lake.",
       "options": [
         "gentle-mcq-07",
-        "gentle-mcq-06",
-        "gentle-mcq-08",
-        "gentle-mcq-05",
-        "gentle-mcq-09",
-        "gentle-mcq-04"
+        "gentle-mcq-01",
+        "gentle-mcq-04",
+        "gentle-mcq-08"
       ],
       "explanation": "本句的「gentle breeze」指「風、雨等力度較小、柔和的」。",
       "sentenceIndex": 12,
@@ -651,12 +601,10 @@ export default {
         "gentle breeze"
       ],
       "optionReasons": {
-        "gentle-mcq-07": "本句指「風、雨等力度較小、柔和的」。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。"
+        "gentle-mcq-07": "本句的「gentle breeze」指「風、雨等力度較小、柔和的」。",
+        "gentle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-07"
     },
@@ -668,10 +616,8 @@ export default {
       "masked": "A ____ rain began to fall.",
       "options": [
         "gentle-mcq-07",
-        "gentle-mcq-06",
-        "gentle-mcq-08",
-        "gentle-mcq-05",
         "gentle-mcq-09",
+        "gentle-mcq-10",
         "gentle-mcq-04"
       ],
       "explanation": "本句的「gentle」指「風、雨等力度較小、柔和的」。",
@@ -681,12 +627,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-07": "本句指「風、雨等力度較小、柔和的」。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-04": "「坡度或曲線不陡、不急的」是「gentle — slope/curve」的用法，與本句語境不同。"
+        "gentle-mcq-07": "本句的「gentle」指「風、雨等力度較小、柔和的」。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-07"
     },
@@ -698,11 +642,9 @@ export default {
       "masked": "Be ____ with the old painting.",
       "options": [
         "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-09",
-        "gentle-mcq-06",
-        "gentle-mcq-10",
-        "gentle-mcq-05"
+        "gentle-mcq-05",
+        "gentle-mcq-04",
+        "gentle-mcq-01"
       ],
       "explanation": "本句的「gentle」指「處理脆弱物件或身體部位時小心、輕柔的」。",
       "sentenceIndex": 14,
@@ -711,12 +653,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-08": "本句指「處理脆弱物件或身體部位時小心、輕柔的」。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-10": "「以輕柔、和緩、不粗暴或漸進的方式」是「gently」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。"
+        "gentle-mcq-08": "本句的「gentle」指「處理脆弱物件或身體部位時小心、輕柔的」。",
+        "gentle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-08"
     },
@@ -728,11 +668,9 @@ export default {
       "masked": "Use a ____ touch around the damaged area.",
       "options": [
         "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-09",
-        "gentle-mcq-06",
-        "gentle-mcq-10",
-        "gentle-mcq-05"
+        "gentle-mcq-04",
+        "gentle-pdf-001",
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gentle」指「處理脆弱物件或身體部位時小心、輕柔的」。",
       "sentenceIndex": 15,
@@ -741,12 +679,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-08": "本句指「處理脆弱物件或身體部位時小心、輕柔的」。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。",
-        "gentle-mcq-10": "「以輕柔、和緩、不粗暴或漸進的方式」是「gently」的用法，與本句語境不同。",
-        "gentle-mcq-05": "「強度低、不劇烈的」是「gentle — exercise/intensity」的用法，與本句語境不同。"
+        "gentle-mcq-08": "本句的「gentle」指「處理脆弱物件或身體部位時小心、輕柔的」。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-08"
     },
@@ -759,9 +695,7 @@ export default {
       "options": [
         "gentle-mcq-09",
         "gentle-mcq-08",
-        "gentle-mcq-10",
-        "gentle-mcq-07",
-        "gentle-mcq-11",
+        "gentle-mcq-03",
         "gentle-mcq-06"
       ],
       "explanation": "本句的「gentle change」指「變化自然、逐步、沒有突然轉折的」。",
@@ -771,12 +705,10 @@ export default {
         "gentle change"
       ],
       "optionReasons": {
-        "gentle-mcq-09": "本句指「變化自然、逐步、沒有突然轉折的」。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-10": "「以輕柔、和緩、不粗暴或漸進的方式」是「gently」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-11": "「溫柔、不粗暴、柔和或不強烈的特質」是「gentleness」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-09": "本句的「gentle change」指「變化自然、逐步、沒有突然轉折的」。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-09"
     },
@@ -788,11 +720,9 @@ export default {
       "masked": "The music ends with a ____ transition.",
       "options": [
         "gentle-mcq-09",
+        "gentle-mcq-06",
         "gentle-mcq-08",
-        "gentle-mcq-10",
-        "gentle-mcq-07",
-        "gentle-mcq-11",
-        "gentle-mcq-06"
+        "gentle-mcq-05"
       ],
       "explanation": "本句的「gentle」指「變化自然、逐步、沒有突然轉折的」。",
       "sentenceIndex": 17,
@@ -801,12 +731,10 @@ export default {
         "gentle"
       ],
       "optionReasons": {
-        "gentle-mcq-09": "本句指「變化自然、逐步、沒有突然轉折的」。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-10": "「以輕柔、和緩、不粗暴或漸進的方式」是「gently」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-11": "「溫柔、不粗暴、柔和或不強烈的特質」是「gentleness」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-09": "本句的「gentle」指「變化自然、逐步、沒有突然轉折的」。",
+        "gentle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-09"
     },
@@ -818,11 +746,9 @@ export default {
       "masked": "She ____ touched the frame.",
       "options": [
         "gentle-mcq-10",
-        "gentle-mcq-09",
-        "gentle-mcq-11",
-        "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-06"
+        "gentle-mcq-04",
+        "gentle-mcq-05",
+        "gentle-mcq-09"
       ],
       "explanation": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
       "sentenceIndex": 18,
@@ -831,12 +757,10 @@ export default {
         "gently"
       ],
       "optionReasons": {
-        "gentle-mcq-10": "本句指「以輕柔、和緩、不粗暴或漸進的方式」。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-11": "「溫柔、不粗暴、柔和或不強烈的特質」是「gentleness」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-10": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-10"
     },
@@ -848,11 +772,9 @@ export default {
       "masked": "The colours blend ____ into one another.",
       "options": [
         "gentle-mcq-10",
+        "gentle-pdf-001",
         "gentle-mcq-09",
-        "gentle-mcq-11",
-        "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-06"
+        "gentle-mcq-04"
       ],
       "explanation": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
       "sentenceIndex": 19,
@@ -861,12 +783,10 @@ export default {
         "gently"
       ],
       "optionReasons": {
-        "gentle-mcq-10": "本句指「以輕柔、和緩、不粗暴或漸進的方式」。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-11": "「溫柔、不粗暴、柔和或不強烈的特質」是「gentleness」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-10": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
+        "gentle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-10"
     },
@@ -878,11 +798,9 @@ export default {
       "masked": "The road slopes ____ downward.",
       "options": [
         "gentle-mcq-10",
+        "gentle-pdf-001",
         "gentle-mcq-09",
-        "gentle-mcq-11",
-        "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-06"
+        "gentle-mcq-04"
       ],
       "explanation": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
       "sentenceIndex": 20,
@@ -891,12 +809,10 @@ export default {
         "gently"
       ],
       "optionReasons": {
-        "gentle-mcq-10": "本句指「以輕柔、和緩、不粗暴或漸進的方式」。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-11": "「溫柔、不粗暴、柔和或不強烈的特質」是「gentleness」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-10": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
+        "gentle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-10"
     },
@@ -908,11 +824,9 @@ export default {
       "masked": "The light faded ____ across the water.",
       "options": [
         "gentle-mcq-10",
+        "gentle-mcq-04",
         "gentle-mcq-09",
-        "gentle-mcq-11",
-        "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-06"
+        "gentle-mcq-05"
       ],
       "explanation": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
       "sentenceIndex": 21,
@@ -921,12 +835,10 @@ export default {
         "gently"
       ],
       "optionReasons": {
-        "gentle-mcq-10": "本句指「以輕柔、和緩、不粗暴或漸進的方式」。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-11": "「溫柔、不粗暴、柔和或不強烈的特質」是「gentleness」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-10": "本句的「gently」指「以輕柔、和緩、不粗暴或漸進的方式」。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-10"
     },
@@ -938,11 +850,9 @@ export default {
       "masked": "She spoke with great ____.",
       "options": [
         "gentle-mcq-11",
-        "gentle-mcq-10",
         "gentle-mcq-09",
-        "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-06"
+        "gentle-mcq-04",
+        "gentle-mcq-08"
       ],
       "explanation": "本句的「gentleness」指「溫柔、不粗暴、柔和或不強烈的特質」。",
       "sentenceIndex": 22,
@@ -951,12 +861,10 @@ export default {
         "gentleness"
       ],
       "optionReasons": {
-        "gentle-mcq-11": "本句指「溫柔、不粗暴、柔和或不強烈的特質」。",
-        "gentle-mcq-10": "「以輕柔、和緩、不粗暴或漸進的方式」是「gently」的用法，與本句語境不同。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-11": "本句的「gentleness」指「溫柔、不粗暴、柔和或不強烈的特質」。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-11"
     },
@@ -968,11 +876,9 @@ export default {
       "masked": "The ____ of the colours makes the painting calming.",
       "options": [
         "gentle-mcq-11",
-        "gentle-mcq-10",
+        "gentle-mcq-04",
         "gentle-mcq-09",
-        "gentle-mcq-08",
-        "gentle-mcq-07",
-        "gentle-mcq-06"
+        "gentle-mcq-08"
       ],
       "explanation": "本句的「gentleness」指「溫柔、不粗暴、柔和或不強烈的特質」。",
       "sentenceIndex": 23,
@@ -981,12 +887,10 @@ export default {
         "gentleness"
       ],
       "optionReasons": {
-        "gentle-mcq-11": "本句指「溫柔、不粗暴、柔和或不強烈的特質」。",
-        "gentle-mcq-10": "「以輕柔、和緩、不粗暴或漸進的方式」是「gently」的用法，與本句語境不同。",
-        "gentle-mcq-09": "「變化自然、逐步、沒有突然轉折的」是「gentle — change」的用法，與本句語境不同。",
-        "gentle-mcq-08": "「處理脆弱物件或身體部位時小心、輕柔的」是「gentle — handling」的用法，與本句語境不同。",
-        "gentle-mcq-07": "「風、雨等力度較小、柔和的」是「gentle — weather」的用法，與本句語境不同。",
-        "gentle-mcq-06": "「聲音柔和、不響亮、不刺耳的」是「gentle — sound」的用法，與本句語境不同。"
+        "gentle-mcq-11": "本句的「gentleness」指「溫柔、不粗暴、柔和或不強烈的特質」。",
+        "gentle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gentle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gentle-mcq-11"
     }
@@ -998,5 +902,7 @@ export default {
     "sha256": "f6e1aa94a8476b5381f31354a014c5bbf5c44f6720a8d49c0e5968f6354495a4",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -262,11 +262,8 @@ export default {
       "masked": "____ her tomatoes or lemons are ready, she gives some away.",
       "options": [
         "whenever-mcq-01",
-        "whenever-mcq-02",
-        "whenever-mcq-03",
-        "whenever-mcq-04",
-        "whenever-mcq-05",
-        "whenever-mcq-06"
+        "whenever-mcq-09",
+        "whenever-mcq-04"
       ],
       "explanation": "本句的「Whenever」指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
       "sentenceIndex": 0,
@@ -275,12 +272,9 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-01": "本句指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-01": "本句的「Whenever」指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-01"
     },
@@ -292,11 +286,8 @@ export default {
       "masked": "____ I visit her, she shows me the garden.",
       "options": [
         "whenever-mcq-01",
-        "whenever-mcq-02",
-        "whenever-mcq-03",
-        "whenever-mcq-04",
-        "whenever-mcq-05",
-        "whenever-mcq-06"
+        "whenever-mcq-09",
+        "whenever-mcq-04"
       ],
       "explanation": "本句的「Whenever」指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
       "sentenceIndex": 1,
@@ -305,12 +296,9 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-01": "本句指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-01": "本句的「Whenever」指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-01"
     },
@@ -322,11 +310,8 @@ export default {
       "masked": "Call me ____ you need help.",
       "options": [
         "whenever-mcq-01",
-        "whenever-mcq-02",
-        "whenever-mcq-03",
         "whenever-mcq-04",
-        "whenever-mcq-05",
-        "whenever-mcq-06"
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「whenever」指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
       "sentenceIndex": 2,
@@ -335,12 +320,9 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-01": "本句指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-01": "本句的「whenever」指「某件事情每一次發生時，另一件事也發生；每當／每次」。",
+        "whenever-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-01"
     },
@@ -352,11 +334,9 @@ export default {
       "masked": "Come ____ you like.",
       "options": [
         "whenever-mcq-02",
-        "whenever-mcq-01",
-        "whenever-mcq-03",
-        "whenever-mcq-04",
-        "whenever-mcq-05",
-        "whenever-mcq-06"
+        "whenever-mcq-06",
+        "whenever-pdf-001",
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「whenever」指「不限定具體時間，在任何符合條件的時間都可以」。",
       "sentenceIndex": 3,
@@ -365,12 +345,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-02": "本句指「不限定具體時間，在任何符合條件的時間都可以」。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-02": "本句的「whenever」指「不限定具體時間，在任何符合條件的時間都可以」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-02"
     },
@@ -382,11 +360,9 @@ export default {
       "masked": "You can water the plants ____ it is convenient.",
       "options": [
         "whenever-mcq-02",
-        "whenever-mcq-01",
-        "whenever-mcq-03",
-        "whenever-mcq-04",
-        "whenever-mcq-05",
-        "whenever-mcq-06"
+        "whenever-mcq-06",
+        "whenever-mcq-09",
+        "whenever-pdf-001"
       ],
       "explanation": "本句的「whenever」指「不限定具體時間，在任何符合條件的時間都可以」。",
       "sentenceIndex": 4,
@@ -395,12 +371,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-02": "本句指「不限定具體時間，在任何符合條件的時間都可以」。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-02": "本句的「whenever」指「不限定具體時間，在任何符合條件的時間都可以」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-02"
     },
@@ -412,10 +386,6 @@ export default {
       "masked": "____ you decide to start, I’ll support you.",
       "options": [
         "whenever-mcq-03",
-        "whenever-mcq-02",
-        "whenever-mcq-04",
-        "whenever-mcq-01",
-        "whenever-mcq-05",
         "whenever-mcq-06"
       ],
       "explanation": "本句的「Whenever」指「無論事情在甚麼時間發生，主句內容都成立」。",
@@ -425,12 +395,8 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-03": "本句指「無論事情在甚麼時間發生，主句內容都成立」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-03": "本句的「Whenever」指「無論事情在甚麼時間發生，主句內容都成立」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-03"
     },
@@ -442,10 +408,6 @@ export default {
       "masked": "____ he arrives, we’ll be ready.",
       "options": [
         "whenever-mcq-03",
-        "whenever-mcq-02",
-        "whenever-mcq-04",
-        "whenever-mcq-01",
-        "whenever-mcq-05",
         "whenever-mcq-06"
       ],
       "explanation": "本句的「Whenever」指「無論事情在甚麼時間發生，主句內容都成立」。",
@@ -455,12 +417,8 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-03": "本句指「無論事情在甚麼時間發生，主句內容都成立」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-mcq-03": "本句的「Whenever」指「無論事情在甚麼時間發生，主句內容都成立」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-03"
     },
@@ -472,11 +430,9 @@ export default {
       "masked": "She smiles ____ she talks about gardening.",
       "options": [
         "whenever-pdf-001",
-        "whenever-mcq-02",
         "whenever-mcq-04",
-        "whenever-mcq-01",
-        "whenever-mcq-05",
-        "whenever-mcq-06"
+        "whenever-mcq-09",
+        "whenever-mcq-07"
       ],
       "explanation": "本句的「whenever」指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
       "sentenceIndex": 7,
@@ -485,12 +441,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-pdf-001": "本句指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-pdf-001": "本句的「whenever」指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
+        "whenever-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-pdf-001"
     },
@@ -502,10 +456,8 @@ export default {
       "masked": "The dog barks ____ someone approaches the gate.",
       "options": [
         "whenever-pdf-001",
-        "whenever-mcq-02",
-        "whenever-mcq-04",
-        "whenever-mcq-01",
-        "whenever-mcq-05",
+        "whenever-mcq-10",
+        "whenever-mcq-09",
         "whenever-mcq-06"
       ],
       "explanation": "本句的「whenever」指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
@@ -515,12 +467,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-pdf-001": "本句指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。"
+        "whenever-pdf-001": "本句的「whenever」指「描述有規律重複的情況：A 每次發生，B 都跟著發生」。",
+        "whenever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-pdf-001"
     },
@@ -532,11 +482,9 @@ export default {
       "masked": "I’ll help you ____.",
       "options": [
         "whenever-mcq-04",
-        "whenever-mcq-03",
-        "whenever-mcq-05",
-        "whenever-mcq-02",
+        "whenever-pdf-001",
         "whenever-mcq-06",
-        "whenever-mcq-01"
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「whenever you need me」指「表未來時間時，whenever 子句通常仍使用現在式」。",
       "sentenceIndex": 9,
@@ -545,12 +493,10 @@ export default {
         "whenever you need me"
       ],
       "optionReasons": {
-        "whenever-mcq-04": "本句指「表未來時間時，whenever 子句通常仍使用現在式」。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。"
+        "whenever-mcq-04": "本句的「whenever you need me」指「表未來時間時，whenever 子句通常仍使用現在式」。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-04"
     },
@@ -562,11 +508,9 @@ export default {
       "masked": "____ the fruit is ready, we’ll pick it.",
       "options": [
         "whenever-mcq-04",
-        "whenever-mcq-03",
-        "whenever-mcq-05",
-        "whenever-mcq-02",
         "whenever-mcq-06",
-        "whenever-mcq-01"
+        "whenever-pdf-001",
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「Whenever」指「表未來時間時，whenever 子句通常仍使用現在式」。",
       "sentenceIndex": 10,
@@ -575,12 +519,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-04": "本句指「表未來時間時，whenever 子句通常仍使用現在式」。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-01": "「某件事情每一次發生時，另一件事也發生；每當／每次」與本句語境不同。"
+        "whenever-mcq-04": "本句的「Whenever」指「表未來時間時，whenever 子句通常仍使用現在式」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-04"
     },
@@ -592,11 +534,9 @@ export default {
       "masked": "____ I visited her as a child, the house was full of plants.",
       "options": [
         "whenever-mcq-05",
-        "whenever-mcq-04",
         "whenever-mcq-06",
-        "whenever-mcq-03",
-        "whenever-mcq-07",
-        "whenever-mcq-02"
+        "whenever-mcq-10",
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「Whenever」指「描述過去每次某情況發生時都出現的結果」。",
       "sentenceIndex": 11,
@@ -605,12 +545,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-05": "本句指「描述過去每次某情況發生時都出現的結果」。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。"
+        "whenever-mcq-05": "本句的「Whenever」指「描述過去每次某情況發生時都出現的結果」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-05"
     },
@@ -622,11 +560,9 @@ export default {
       "masked": "She brought us fruit ____ she came.",
       "options": [
         "whenever-mcq-05",
-        "whenever-mcq-04",
-        "whenever-mcq-06",
-        "whenever-mcq-03",
-        "whenever-mcq-07",
-        "whenever-mcq-02"
+        "whenever-mcq-10",
+        "whenever-mcq-09",
+        "whenever-mcq-06"
       ],
       "explanation": "本句的「whenever」指「描述過去每次某情況發生時都出現的結果」。",
       "sentenceIndex": 12,
@@ -635,12 +571,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-05": "本句指「描述過去每次某情況發生時都出現的結果」。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-02": "「不限定具體時間，在任何符合條件的時間都可以」與本句語境不同。"
+        "whenever-mcq-05": "本句的「whenever」指「描述過去每次某情況發生時都出現的結果」。",
+        "whenever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-05"
     },
@@ -652,11 +586,8 @@ export default {
       "masked": "Use fresh ingredients ____.",
       "options": [
         "whenever-mcq-06",
-        "whenever-mcq-05",
-        "whenever-mcq-07",
-        "whenever-mcq-04",
         "whenever-mcq-08",
-        "whenever-mcq-03"
+        "whenever-mcq-05"
       ],
       "explanation": "本句的「whenever possible」指「在每一個可行的情況下；只要可以」。",
       "sentenceIndex": 13,
@@ -665,12 +596,9 @@ export default {
         "whenever possible"
       ],
       "optionReasons": {
-        "whenever-mcq-06": "本句指「在每一個可行的情況下；只要可以」。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。"
+        "whenever-mcq-06": "本句的「whenever possible」指「在每一個可行的情況下；只要可以」。",
+        "whenever-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-06"
     },
@@ -682,11 +610,9 @@ export default {
       "masked": "She walks instead of driving ____ possible.",
       "options": [
         "whenever-mcq-06",
-        "whenever-mcq-05",
-        "whenever-mcq-07",
         "whenever-mcq-04",
-        "whenever-mcq-08",
-        "whenever-mcq-03"
+        "whenever-mcq-09",
+        "whenever-mcq-05"
       ],
       "explanation": "本句的「whenever」指「在每一個可行的情況下；只要可以」。",
       "sentenceIndex": 14,
@@ -695,12 +621,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-06": "本句指「在每一個可行的情況下；只要可以」。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-03": "「無論事情在甚麼時間發生，主句內容都成立」與本句語境不同。"
+        "whenever-mcq-06": "本句的「whenever」指「在每一個可行的情況下；只要可以」。",
+        "whenever-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-06"
     },
@@ -712,11 +636,9 @@ export default {
       "masked": "Water the plants ____.",
       "options": [
         "whenever-mcq-07",
-        "whenever-mcq-06",
-        "whenever-mcq-08",
-        "whenever-mcq-05",
+        "whenever-pdf-001",
         "whenever-mcq-09",
-        "whenever-mcq-04"
+        "whenever-mcq-02"
       ],
       "explanation": "本句的「whenever necessary」指「每當有需要時」。",
       "sentenceIndex": 15,
@@ -725,12 +647,10 @@ export default {
         "whenever necessary"
       ],
       "optionReasons": {
-        "whenever-mcq-07": "本句指「每當有需要時」。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-09": "「用來加強「到底甚麼時候」的疑問；較口語／區域性」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。"
+        "whenever-mcq-07": "本句的「whenever necessary」指「每當有需要時」。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-07"
     },
@@ -742,11 +662,9 @@ export default {
       "masked": "The schedule can be changed ____ necessary.",
       "options": [
         "whenever-mcq-07",
-        "whenever-mcq-06",
-        "whenever-mcq-08",
-        "whenever-mcq-05",
+        "whenever-mcq-10",
         "whenever-mcq-09",
-        "whenever-mcq-04"
+        "whenever-pdf-001"
       ],
       "explanation": "本句的「whenever」指「每當有需要時」。",
       "sentenceIndex": 16,
@@ -755,12 +673,10 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-07": "本句指「每當有需要時」。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。",
-        "whenever-mcq-09": "「用來加強「到底甚麼時候」的疑問；較口語／區域性」與本句語境不同。",
-        "whenever-mcq-04": "「表未來時間時，whenever 子句通常仍使用現在式」與本句語境不同。"
+        "whenever-mcq-07": "本句的「whenever」指「每當有需要時」。",
+        "whenever-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-07"
     },
@@ -772,11 +688,8 @@ export default {
       "masked": "Visit ____.",
       "options": [
         "whenever-mcq-08",
-        "whenever-mcq-07",
-        "whenever-mcq-09",
         "whenever-mcq-06",
-        "whenever-mcq-10",
-        "whenever-mcq-05"
+        "whenever-pdf-001"
       ],
       "explanation": "本句的「whenever you like」指「時間由對方自由選擇；甚麼時候想……都可以」。",
       "sentenceIndex": 17,
@@ -785,12 +698,9 @@ export default {
         "whenever you like"
       ],
       "optionReasons": {
-        "whenever-mcq-08": "本句指「時間由對方自由選擇；甚麼時候想……都可以」。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-09": "「用來加強「到底甚麼時候」的疑問；較口語／區域性」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-10": "「任何符合條件、適合的時間」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。"
+        "whenever-mcq-08": "本句的「whenever you like」指「時間由對方自由選擇；甚麼時候想……都可以」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-08"
     },
@@ -802,11 +712,8 @@ export default {
       "masked": "You can take a break ____ you want.",
       "options": [
         "whenever-mcq-08",
-        "whenever-mcq-07",
-        "whenever-mcq-09",
         "whenever-mcq-06",
-        "whenever-mcq-10",
-        "whenever-mcq-05"
+        "whenever-pdf-001"
       ],
       "explanation": "本句的「whenever」指「時間由對方自由選擇；甚麼時候想……都可以」。",
       "sentenceIndex": 18,
@@ -815,12 +722,9 @@ export default {
         "whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-08": "本句指「時間由對方自由選擇；甚麼時候想……都可以」。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-09": "「用來加強「到底甚麼時候」的疑問；較口語／區域性」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-10": "「任何符合條件、適合的時間」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。"
+        "whenever-mcq-08": "本句的「whenever」指「時間由對方自由選擇；甚麼時候想……都可以」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-08"
     },
@@ -832,11 +736,9 @@ export default {
       "masked": "____ did you find time to do all that?",
       "options": [
         "whenever-mcq-09",
-        "whenever-mcq-08",
-        "whenever-mcq-10",
-        "whenever-mcq-07",
         "whenever-mcq-06",
-        "whenever-mcq-05"
+        "whenever-pdf-001",
+        "whenever-mcq-02"
       ],
       "explanation": "本句的「Whenever」指「用來加強「到底甚麼時候」的疑問；較口語／區域性」。",
       "sentenceIndex": 19,
@@ -845,12 +747,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-09": "本句指「用來加強「到底甚麼時候」的疑問；較口語／區域性」。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-10": "「任何符合條件、適合的時間」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。"
+        "whenever-mcq-09": "本句的「Whenever」指「用來加強「到底甚麼時候」的疑問；較口語／區域性」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-09"
     },
@@ -862,11 +762,9 @@ export default {
       "masked": "____ did that happen?",
       "options": [
         "whenever-mcq-09",
-        "whenever-mcq-08",
-        "whenever-mcq-10",
-        "whenever-mcq-07",
         "whenever-mcq-06",
-        "whenever-mcq-05"
+        "whenever-pdf-001",
+        "whenever-mcq-10"
       ],
       "explanation": "本句的「Whenever」指「用來加強「到底甚麼時候」的疑問；較口語／區域性」。",
       "sentenceIndex": 20,
@@ -875,12 +773,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-09": "本句指「用來加強「到底甚麼時候」的疑問；較口語／區域性」。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-10": "「任何符合條件、適合的時間」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。"
+        "whenever-mcq-09": "本句的「Whenever」指「用來加強「到底甚麼時候」的疑問；較口語／區域性」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-09"
     },
@@ -892,11 +788,9 @@ export default {
       "masked": "Choose ____.",
       "options": [
         "whenever-mcq-10",
-        "whenever-mcq-09",
-        "whenever-mcq-08",
-        "whenever-mcq-07",
         "whenever-mcq-06",
-        "whenever-mcq-05"
+        "whenever-pdf-001",
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「whenever works best for you」指「任何符合條件、適合的時間」。",
       "sentenceIndex": 21,
@@ -905,12 +799,10 @@ export default {
         "whenever works best for you"
       ],
       "optionReasons": {
-        "whenever-mcq-10": "本句指「任何符合條件、適合的時間」。",
-        "whenever-mcq-09": "「用來加強「到底甚麼時候」的疑問；較口語／區域性」與本句語境不同。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。"
+        "whenever-mcq-10": "本句的「whenever works best for you」指「任何符合條件、適合的時間」。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-10"
     },
@@ -922,11 +814,9 @@ export default {
       "masked": "____ you choose will be fine.",
       "options": [
         "whenever-mcq-10",
-        "whenever-mcq-09",
-        "whenever-mcq-08",
-        "whenever-mcq-07",
+        "whenever-pdf-001",
         "whenever-mcq-06",
-        "whenever-mcq-05"
+        "whenever-mcq-09"
       ],
       "explanation": "本句的「Whenever」指「任何符合條件、適合的時間」。",
       "sentenceIndex": 22,
@@ -935,12 +825,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "whenever-mcq-10": "本句指「任何符合條件、適合的時間」。",
-        "whenever-mcq-09": "「用來加強「到底甚麼時候」的疑問；較口語／區域性」與本句語境不同。",
-        "whenever-mcq-08": "「時間由對方自由選擇；甚麼時候想……都可以」與本句語境不同。",
-        "whenever-mcq-07": "「每當有需要時」與本句語境不同。",
-        "whenever-mcq-06": "「在每一個可行的情況下；只要可以」與本句語境不同。",
-        "whenever-mcq-05": "「描述過去每次某情況發生時都出現的結果」與本句語境不同。"
+        "whenever-mcq-10": "本句的「Whenever」指「任何符合條件、適合的時間」。",
+        "whenever-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "whenever-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "whenever-mcq-10"
     }
@@ -952,5 +840,7 @@ export default {
     "sha256": "062dd4849937888815fe2fe20b58cb36c4361c7001417ef03b39bfdb103b63cf",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

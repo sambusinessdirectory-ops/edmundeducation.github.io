@@ -575,11 +575,9 @@ export default {
       "masked": "Make a ____ of the materials you need.",
       "options": [
         "list-mcq-01",
-        "list-mcq-02",
-        "list-mcq-03",
-        "list-mcq-04",
-        "list-mcq-05",
-        "list-mcq-06"
+        "list-mcq-18",
+        "list-mcq-14",
+        "list-mcq-24"
       ],
       "explanation": "本句的「list」指「按順序列出的名稱、物品、任務等；清單／列表」。",
       "sentenceIndex": 2,
@@ -588,12 +586,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-01": "本句指「按順序列出的名稱、物品、任務等；清單／列表」。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。"
+        "list-mcq-01": "本句的「list」指「按順序列出的名稱、物品、任務等；清單／列表」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-01"
     },
@@ -605,11 +601,9 @@ export default {
       "masked": "Her name was at the top of the ____.",
       "options": [
         "list-mcq-01",
-        "list-mcq-02",
-        "list-mcq-03",
-        "list-mcq-04",
-        "list-mcq-05",
-        "list-mcq-06"
+        "list-mcq-18",
+        "list-mcq-15",
+        "list-mcq-17"
       ],
       "explanation": "本句的「list」指「按順序列出的名稱、物品、任務等；清單／列表」。",
       "sentenceIndex": 3,
@@ -618,12 +612,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-01": "本句指「按順序列出的名稱、物品、任務等；清單／列表」。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。"
+        "list-mcq-01": "本句的「list」指「按順序列出的名稱、物品、任務等；清單／列表」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-01"
     },
@@ -635,11 +627,9 @@ export default {
       "masked": "I crossed three tasks off my ____.",
       "options": [
         "list-mcq-02",
-        "list-mcq-01",
-        "list-mcq-03",
-        "list-mcq-04",
-        "list-mcq-05",
-        "list-mcq-06"
+        "list-mcq-08",
+        "list-mcq-15",
+        "list-mcq-18"
       ],
       "explanation": "本句的「to-do list」指「記錄需要完成事項的待辦清單」。",
       "sentenceIndex": 4,
@@ -648,12 +638,10 @@ export default {
         "to-do list"
       ],
       "optionReasons": {
-        "list-mcq-02": "本句指「記錄需要完成事項的待辦清單」。",
-        "list-mcq-01": "「按順序列出的名稱、物品、任務等；清單／列表」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。"
+        "list-mcq-02": "本句的「to-do list」指「記錄需要完成事項的待辦清單」。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-02"
     },
@@ -665,11 +653,9 @@ export default {
       "masked": "My ____ is getting longer.",
       "options": [
         "list-mcq-02",
-        "list-mcq-01",
-        "list-mcq-03",
-        "list-mcq-04",
-        "list-mcq-05",
-        "list-mcq-06"
+        "list-mcq-10",
+        "list-mcq-18",
+        "list-mcq-08"
       ],
       "explanation": "本句的「to-do list」指「記錄需要完成事項的待辦清單」。",
       "sentenceIndex": 5,
@@ -678,12 +664,10 @@ export default {
         "to-do list"
       ],
       "optionReasons": {
-        "list-mcq-02": "本句指「記錄需要完成事項的待辦清單」。",
-        "list-mcq-01": "「按順序列出的名稱、物品、任務等；清單／列表」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。"
+        "list-mcq-02": "本句的「to-do list」指「記錄需要完成事項的待辦清單」。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-02"
     },
@@ -695,11 +679,9 @@ export default {
       "masked": "Milk is on the ____.",
       "options": [
         "list-mcq-03",
-        "list-mcq-02",
-        "list-mcq-04",
-        "list-mcq-01",
-        "list-mcq-05",
-        "list-mcq-06"
+        "list-mcq-14",
+        "list-mcq-08",
+        "list-mcq-18"
       ],
       "explanation": "本句的「shopping list」指「記錄需要購買物品的購物清單」。",
       "sentenceIndex": 6,
@@ -708,12 +690,10 @@ export default {
         "shopping list"
       ],
       "optionReasons": {
-        "list-mcq-03": "本句指「記錄需要購買物品的購物清單」。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-01": "「按順序列出的名稱、物品、任務等；清單／列表」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。"
+        "list-mcq-03": "本句的「shopping list」指「記錄需要購買物品的購物清單」。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-03"
     },
@@ -725,11 +705,9 @@ export default {
       "masked": "I forgot to bring my ____.",
       "options": [
         "list-mcq-03",
-        "list-mcq-02",
-        "list-mcq-04",
-        "list-mcq-01",
-        "list-mcq-05",
-        "list-mcq-06"
+        "list-mcq-18",
+        "list-mcq-08",
+        "list-mcq-10"
       ],
       "explanation": "本句的「shopping list」指「記錄需要購買物品的購物清單」。",
       "sentenceIndex": 7,
@@ -738,12 +716,10 @@ export default {
         "shopping list"
       ],
       "optionReasons": {
-        "list-mcq-03": "本句指「記錄需要購買物品的購物清單」。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-01": "「按順序列出的名稱、物品、任務等；清單／列表」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。"
+        "list-mcq-03": "本句的「shopping list」指「記錄需要購買物品的購物清單」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-03"
     },
@@ -755,11 +731,9 @@ export default {
       "masked": "Her name is on the ____.",
       "options": [
         "list-mcq-04",
-        "list-mcq-03",
-        "list-mcq-05",
-        "list-mcq-02",
-        "list-mcq-06",
-        "list-mcq-01"
+        "list-mcq-12",
+        "list-mcq-19",
+        "list-mcq-15"
       ],
       "explanation": "本句的「guest list」指「為特定用途整理的賓客／閱讀／聯絡人名單」。",
       "sentenceIndex": 8,
@@ -768,12 +742,10 @@ export default {
         "guest list"
       ],
       "optionReasons": {
-        "list-mcq-04": "本句指「為特定用途整理的賓客／閱讀／聯絡人名單」。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-01": "「按順序列出的名稱、物品、任務等；清單／列表」與本句語境不同。"
+        "list-mcq-04": "本句的「guest list」指「為特定用途整理的賓客／閱讀／聯絡人名單」。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-04"
     },
@@ -785,11 +757,9 @@ export default {
       "masked": "The professor gave us a ____.",
       "options": [
         "list-mcq-04",
-        "list-mcq-03",
-        "list-mcq-05",
-        "list-mcq-02",
-        "list-mcq-06",
-        "list-mcq-01"
+        "list-mcq-19",
+        "list-mcq-26",
+        "list-mcq-23"
       ],
       "explanation": "本句的「reading list」指「為特定用途整理的賓客／閱讀／聯絡人名單」。",
       "sentenceIndex": 9,
@@ -798,12 +768,10 @@ export default {
         "reading list"
       ],
       "optionReasons": {
-        "list-mcq-04": "本句指「為特定用途整理的賓客／閱讀／聯絡人名單」。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-01": "「按順序列出的名稱、物品、任務等；清單／列表」與本句語境不同。"
+        "list-mcq-04": "本句的「reading list」指「為特定用途整理的賓客／閱讀／聯絡人名單」。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-04"
     },
@@ -815,11 +783,9 @@ export default {
       "masked": "His name was added to the waiting ____.",
       "options": [
         "list-mcq-05",
-        "list-mcq-04",
-        "list-mcq-06",
-        "list-mcq-03",
-        "list-mcq-07",
-        "list-mcq-02"
+        "list-mcq-19",
+        "list-mcq-12",
+        "list-mcq-23"
       ],
       "explanation": "本句的「list」指「正式記錄人名、機構等的名單／名冊」。",
       "sentenceIndex": 10,
@@ -828,12 +794,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-05": "本句指「正式記錄人名、機構等的名單／名冊」。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。"
+        "list-mcq-05": "本句的「list」指「正式記錄人名、機構等的名單／名冊」。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-05"
     },
@@ -845,11 +809,9 @@ export default {
       "masked": "The school published a ____ of successful applicants.",
       "options": [
         "list-mcq-05",
-        "list-mcq-04",
-        "list-mcq-06",
-        "list-mcq-03",
-        "list-mcq-07",
-        "list-mcq-02"
+        "list-mcq-12",
+        "list-mcq-19",
+        "list-mcq-23"
       ],
       "explanation": "本句的「list」指「正式記錄人名、機構等的名單／名冊」。",
       "sentenceIndex": 11,
@@ -858,12 +820,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-05": "本句指「正式記錄人名、機構等的名單／名冊」。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-02": "「記錄需要完成事項的待辦清單」與本句語境不同。"
+        "list-mcq-05": "本句的「list」指「正式記錄人名、機構等的名單／名冊」。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-05"
     },
@@ -875,11 +835,9 @@ export default {
       "masked": "I was placed on the ____.",
       "options": [
         "list-mcq-06",
-        "list-mcq-05",
-        "list-mcq-07",
-        "list-mcq-04",
-        "list-mcq-08",
-        "list-mcq-03"
+        "list-mcq-12",
+        "list-mcq-15",
+        "list-mcq-19"
       ],
       "explanation": "本句的「waiting list」指「等候名額、服務等的候補／輪候名單」。",
       "sentenceIndex": 12,
@@ -888,12 +846,10 @@ export default {
         "waiting list"
       ],
       "optionReasons": {
-        "list-mcq-06": "本句指「等候名額、服務等的候補／輪候名單」。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。"
+        "list-mcq-06": "本句的「waiting list」指「等候名額、服務等的候補／輪候名單」。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-06"
     },
@@ -905,11 +861,9 @@ export default {
       "masked": "There is a long ____ for the course.",
       "options": [
         "list-mcq-06",
-        "list-mcq-05",
-        "list-mcq-07",
-        "list-mcq-04",
-        "list-mcq-08",
-        "list-mcq-03"
+        "list-mcq-10",
+        "list-mcq-26",
+        "list-mcq-18"
       ],
       "explanation": "本句的「waiting list」指「等候名額、服務等的候補／輪候名單」。",
       "sentenceIndex": 13,
@@ -918,12 +872,10 @@ export default {
         "waiting list"
       ],
       "optionReasons": {
-        "list-mcq-06": "本句指「等候名額、服務等的候補／輪候名單」。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。",
-        "list-mcq-03": "「記錄需要購買物品的購物清單」與本句語境不同。"
+        "list-mcq-06": "本句的「waiting list」指「等候名額、服務等的候補／輪候名單」。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-06"
     },
@@ -935,11 +887,9 @@ export default {
       "masked": "She made the ____ for the award.",
       "options": [
         "list-mcq-07",
-        "list-mcq-06",
-        "list-mcq-08",
-        "list-mcq-05",
-        "list-mcq-09",
-        "list-mcq-04"
+        "list-mcq-13",
+        "list-mcq-18",
+        "list-mcq-14"
       ],
       "explanation": "本句的「shortlist」指「經篩選後留下的少數候選人／選項名單」。",
       "sentenceIndex": 14,
@@ -948,12 +898,10 @@ export default {
         "shortlist"
       ],
       "optionReasons": {
-        "list-mcq-07": "本句指「經篩選後留下的少數候選人／選項名單」。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。"
+        "list-mcq-07": "本句的「shortlist」指「經篩選後留下的少數候選人／選項名單」。",
+        "list-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-07"
     },
@@ -965,11 +913,9 @@ export default {
       "masked": "We narrowed the applicants down to a ____ of five.",
       "options": [
         "list-mcq-07",
-        "list-mcq-06",
-        "list-mcq-08",
-        "list-mcq-05",
-        "list-mcq-09",
-        "list-mcq-04"
+        "list-mcq-15",
+        "list-mcq-13",
+        "list-mcq-18"
       ],
       "explanation": "本句的「shortlist」指「經篩選後留下的少數候選人／選項名單」。",
       "sentenceIndex": 15,
@@ -978,12 +924,10 @@ export default {
         "shortlist"
       ],
       "optionReasons": {
-        "list-mcq-07": "本句指「經篩選後留下的少數候選人／選項名單」。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-04": "「為特定用途整理的賓客／閱讀／聯絡人名單」與本句語境不同。"
+        "list-mcq-07": "本句的「shortlist」指「經篩選後留下的少數候選人／選項名單」。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-07"
     },
@@ -995,11 +939,9 @@ export default {
       "masked": "The song reached the top of the ____.",
       "options": [
         "list-mcq-08",
-        "list-mcq-07",
-        "list-mcq-09",
-        "list-mcq-06",
-        "list-mcq-10",
-        "list-mcq-05"
+        "list-mcq-14",
+        "list-mcq-23",
+        "list-mcq-18"
       ],
       "explanation": "本句的「list」指「按表現、人氣等排序的排行榜／排名表」。",
       "sentenceIndex": 16,
@@ -1008,12 +950,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-08": "本句指「按表現、人氣等排序的排行榜／排名表」。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。"
+        "list-mcq-08": "本句的「list」指「按表現、人氣等排序的排行榜／排名表」。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-08"
     },
@@ -1025,11 +965,9 @@ export default {
       "masked": "She appears on several “best of” ____.",
       "options": [
         "list-mcq-08",
-        "list-mcq-07",
-        "list-mcq-09",
-        "list-mcq-06",
-        "list-mcq-10",
-        "list-mcq-05"
+        "list-mcq-03",
+        "list-mcq-12",
+        "list-mcq-18"
       ],
       "explanation": "本句的「lists」指「按表現、人氣等排序的排行榜／排名表」。",
       "sentenceIndex": 17,
@@ -1038,12 +976,10 @@ export default {
         "lists"
       ],
       "optionReasons": {
-        "list-mcq-08": "本句指「按表現、人氣等排序的排行榜／排名表」。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。"
+        "list-mcq-08": "本句的「lists」指「按表現、人氣等排序的排行榜／排名表」。",
+        "list-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-08"
     },
@@ -1055,11 +991,9 @@ export default {
       "masked": "The film entered the ____.",
       "options": [
         "list-mcq-08",
-        "list-mcq-07",
-        "list-mcq-09",
-        "list-mcq-06",
-        "list-mcq-10",
-        "list-mcq-05"
+        "list-mcq-20",
+        "list-mcq-14",
+        "list-mcq-19"
       ],
       "explanation": "本句的「top-ten list」指「按表現、人氣等排序的排行榜／排名表」。",
       "sentenceIndex": 18,
@@ -1068,12 +1002,10 @@ export default {
         "top-ten list"
       ],
       "optionReasons": {
-        "list-mcq-08": "本句指「按表現、人氣等排序的排行榜／排名表」。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。"
+        "list-mcq-08": "本句的「top-ten list」指「按表現、人氣等排序的排行榜／排名表」。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-08"
     },
@@ -1085,11 +1017,9 @@ export default {
       "masked": "He made a ____ of his favourite books.",
       "options": [
         "list-mcq-08",
-        "list-mcq-07",
-        "list-mcq-09",
-        "list-mcq-06",
-        "list-mcq-10",
-        "list-mcq-05"
+        "list-mcq-18",
+        "list-mcq-12",
+        "list-mcq-23"
       ],
       "explanation": "本句的「top-ten list」指「按表現、人氣等排序的排行榜／排名表」。",
       "sentenceIndex": 19,
@@ -1098,12 +1028,10 @@ export default {
         "top-ten list"
       ],
       "optionReasons": {
-        "list-mcq-08": "本句指「按表現、人氣等排序的排行榜／排名表」。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-06": "「等候名額、服務等的候補／輪候名單」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-05": "「正式記錄人名、機構等的名單／名冊」與本句語境不同。"
+        "list-mcq-08": "本句的「top-ten list」指「按表現、人氣等排序的排行榜／排名表」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-08"
     },
@@ -1115,11 +1043,9 @@ export default {
       "masked": "The property is ____ a historic building.",
       "options": [
         "list-mcq-10",
-        "list-mcq-09",
-        "list-mcq-11",
-        "list-mcq-08",
-        "list-mcq-12",
-        "list-mcq-07"
+        "list-mcq-18",
+        "list-mcq-06",
+        "list-mcq-20"
       ],
       "explanation": "本句的「listed as」指「把某人／某物正式列為某一類別或狀態」。",
       "sentenceIndex": 22,
@@ -1128,12 +1054,10 @@ export default {
         "listed as"
       ],
       "optionReasons": {
-        "list-mcq-10": "本句指「把某人／某物正式列為某一類別或狀態」。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。"
+        "list-mcq-10": "本句的「listed as」指「把某人／某物正式列為某一類別或狀態」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-10"
     },
@@ -1145,11 +1069,9 @@ export default {
       "masked": "Her occupation was ____ teacher.",
       "options": [
         "list-mcq-10",
-        "list-mcq-09",
-        "list-mcq-11",
-        "list-mcq-08",
+        "list-mcq-25",
         "list-mcq-12",
-        "list-mcq-07"
+        "list-mcq-24"
       ],
       "explanation": "本句的「listed as」指「把某人／某物正式列為某一類別或狀態」。",
       "sentenceIndex": 23,
@@ -1158,12 +1080,10 @@ export default {
         "listed as"
       ],
       "optionReasons": {
-        "list-mcq-10": "本句指「把某人／某物正式列為某一類別或狀態」。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-07": "「經篩選後留下的少數候選人／選項名單」與本句語境不同。"
+        "list-mcq-10": "本句的「listed as」指「把某人／某物正式列為某一類別或狀態」。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-10"
     },
@@ -1175,11 +1095,9 @@ export default {
       "masked": "The building is ____ for historical importance.",
       "options": [
         "list-mcq-11",
-        "list-mcq-10",
-        "list-mcq-12",
-        "list-mcq-09",
-        "list-mcq-13",
-        "list-mcq-08"
+        "list-mcq-19",
+        "list-mcq-14",
+        "list-mcq-23"
       ],
       "explanation": "本句的「listed」指「被列入名單、名冊、目錄等」。",
       "sentenceIndex": 24,
@@ -1188,12 +1106,10 @@ export default {
         "listed"
       ],
       "optionReasons": {
-        "list-mcq-11": "本句指「被列入名單、名冊、目錄等」。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。"
+        "list-mcq-11": "本句的「listed」指「被列入名單、名冊、目錄等」。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-11"
     },
@@ -1205,11 +1121,9 @@ export default {
       "masked": "His name is ____ on the website.",
       "options": [
         "list-mcq-11",
-        "list-mcq-10",
-        "list-mcq-12",
-        "list-mcq-09",
-        "list-mcq-13",
-        "list-mcq-08"
+        "list-mcq-14",
+        "list-mcq-18",
+        "list-mcq-23"
       ],
       "explanation": "本句的「listed」指「被列入名單、名冊、目錄等」。",
       "sentenceIndex": 25,
@@ -1218,12 +1132,10 @@ export default {
         "listed"
       ],
       "optionReasons": {
-        "list-mcq-11": "本句指「被列入名單、名冊、目錄等」。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-08": "「按表現、人氣等排序的排行榜／排名表」與本句語境不同。"
+        "list-mcq-11": "本句的「listed」指「被列入名單、名冊、目錄等」。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-11"
     },
@@ -1235,11 +1147,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "list-mcq-12",
-        "list-mcq-11",
-        "list-mcq-13",
-        "list-mcq-10",
-        "list-mcq-14",
-        "list-mcq-09"
+        "list-mcq-04",
+        "list-mcq-25",
+        "list-mcq-18"
       ],
       "explanation": "本句的「listed the house for sale」指「把商品／房屋公開刊登、掛牌出售」。",
       "sentenceIndex": 26,
@@ -1248,12 +1158,10 @@ export default {
         "listed the house for sale"
       ],
       "optionReasons": {
-        "list-mcq-12": "本句指「把商品／房屋公開刊登、掛牌出售」。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。"
+        "list-mcq-12": "本句的「listed the house for sale」指「把商品／房屋公開刊登、掛牌出售」。",
+        "list-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-12"
     },
@@ -1265,11 +1173,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "list-mcq-12",
-        "list-mcq-11",
-        "list-mcq-13",
-        "list-mcq-10",
-        "list-mcq-14",
-        "list-mcq-09"
+        "list-mcq-20",
+        "list-mcq-04",
+        "list-mcq-19"
       ],
       "explanation": "本句的「listed the bag online」指「把商品／房屋公開刊登、掛牌出售」。",
       "sentenceIndex": 27,
@@ -1278,12 +1184,10 @@ export default {
         "listed the bag online"
       ],
       "optionReasons": {
-        "list-mcq-12": "本句指「把商品／房屋公開刊登、掛牌出售」。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。",
-        "list-mcq-09": "「把多項內容逐一列出」與本句語境不同。"
+        "list-mcq-12": "本句的「listed the bag online」指「把商品／房屋公開刊登、掛牌出售」。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-12"
     },
@@ -1295,10 +1199,8 @@ export default {
       "masked": "I found the apartment through an online ____.",
       "options": [
         "list-mcq-13",
-        "list-mcq-12",
-        "list-mcq-14",
-        "list-mcq-11",
-        "list-mcq-15",
+        "list-mcq-07",
+        "list-mcq-18",
         "list-mcq-10"
       ],
       "explanation": "本句的「listing」指「商品、房源等的公開刊登資料／條目」。",
@@ -1308,12 +1210,10 @@ export default {
         "listing"
       ],
       "optionReasons": {
-        "list-mcq-13": "本句指「商品、房源等的公開刊登資料／條目」。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。"
+        "list-mcq-13": "本句的「listing」指「商品、房源等的公開刊登資料／條目」。",
+        "list-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-13"
     },
@@ -1325,11 +1225,9 @@ export default {
       "masked": "The product ____ includes several photos.",
       "options": [
         "list-mcq-13",
-        "list-mcq-12",
-        "list-mcq-14",
-        "list-mcq-11",
-        "list-mcq-15",
-        "list-mcq-10"
+        "list-mcq-24",
+        "list-mcq-10",
+        "list-mcq-18"
       ],
       "explanation": "本句的「listing」指「商品、房源等的公開刊登資料／條目」。",
       "sentenceIndex": 29,
@@ -1338,12 +1236,10 @@ export default {
         "listing"
       ],
       "optionReasons": {
-        "list-mcq-13": "本句指「商品、房源等的公開刊登資料／條目」。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。",
-        "list-mcq-10": "「把某人／某物正式列為某一類別或狀態」與本句語境不同。"
+        "list-mcq-13": "本句的「listing」指「商品、房源等的公開刊登資料／條目」。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-13"
     },
@@ -1355,11 +1251,9 @@ export default {
       "masked": "The company plans to ____ next year.",
       "options": [
         "list-mcq-14",
-        "list-mcq-13",
-        "list-mcq-15",
-        "list-mcq-12",
-        "list-mcq-16",
-        "list-mcq-11"
+        "list-mcq-25",
+        "list-mcq-18",
+        "list-mcq-07"
       ],
       "explanation": "本句的「list」指「使公司或股份在證券交易所上市／掛牌」。",
       "sentenceIndex": 30,
@@ -1368,12 +1262,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-14": "本句指「使公司或股份在證券交易所上市／掛牌」。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。"
+        "list-mcq-14": "本句的「list」指「使公司或股份在證券交易所上市／掛牌」。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-14"
     },
@@ -1385,11 +1277,9 @@ export default {
       "masked": "Its shares are ____ on the exchange.",
       "options": [
         "list-mcq-14",
-        "list-mcq-13",
-        "list-mcq-15",
-        "list-mcq-12",
-        "list-mcq-16",
-        "list-mcq-11"
+        "list-mcq-21",
+        "list-mcq-08",
+        "list-mcq-18"
       ],
       "explanation": "本句的「listed」指「使公司或股份在證券交易所上市／掛牌」。",
       "sentenceIndex": 31,
@@ -1398,12 +1288,10 @@ export default {
         "listed"
       ],
       "optionReasons": {
-        "list-mcq-14": "本句指「使公司或股份在證券交易所上市／掛牌」。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-11": "「被列入名單、名冊、目錄等」與本句語境不同。"
+        "list-mcq-14": "本句的「listed」指「使公司或股份在證券交易所上市／掛牌」。",
+        "list-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-14"
     },
@@ -1415,11 +1303,9 @@ export default {
       "masked": "It is a publicly ____.",
       "options": [
         "list-mcq-15",
-        "list-mcq-14",
-        "list-mcq-16",
-        "list-mcq-13",
-        "list-mcq-17",
-        "list-mcq-12"
+        "list-mcq-20",
+        "list-mcq-24",
+        "list-mcq-08"
       ],
       "explanation": "本句的「listed company」指「股票可在交易所買賣的上市公司」。",
       "sentenceIndex": 32,
@@ -1428,12 +1314,10 @@ export default {
         "listed company"
       ],
       "optionReasons": {
-        "list-mcq-15": "本句指「股票可在交易所買賣的上市公司」。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。"
+        "list-mcq-15": "本句的「listed company」指「股票可在交易所買賣的上市公司」。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-15"
     },
@@ -1445,11 +1329,9 @@ export default {
       "masked": "The rules apply to all ____.",
       "options": [
         "list-mcq-15",
-        "list-mcq-14",
-        "list-mcq-16",
-        "list-mcq-13",
-        "list-mcq-17",
-        "list-mcq-12"
+        "list-mcq-18",
+        "list-mcq-25",
+        "list-mcq-17"
       ],
       "explanation": "本句的「listed companies」指「股票可在交易所買賣的上市公司」。",
       "sentenceIndex": 33,
@@ -1458,12 +1340,10 @@ export default {
         "listed companies"
       ],
       "optionReasons": {
-        "list-mcq-15": "本句指「股票可在交易所買賣的上市公司」。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-13": "「商品、房源等的公開刊登資料／條目」與本句語境不同。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。",
-        "list-mcq-12": "「把商品／房屋公開刊登、掛牌出售」與本句語境不同。"
+        "list-mcq-15": "本句的「listed companies」指「股票可在交易所買賣的上市公司」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-15"
     },
@@ -1475,11 +1355,9 @@ export default {
       "masked": "Join our ____ for updates.",
       "options": [
         "list-mcq-17",
-        "list-mcq-16",
-        "list-mcq-18",
-        "list-mcq-15",
-        "list-mcq-19",
-        "list-mcq-14"
+        "list-mcq-10",
+        "list-mcq-12",
+        "list-mcq-18"
       ],
       "explanation": "本句的「mailing list」指「用於群發訊息的郵寄／電郵名單」。",
       "sentenceIndex": 36,
@@ -1488,12 +1366,10 @@ export default {
         "mailing list"
       ],
       "optionReasons": {
-        "list-mcq-17": "本句指「用於群發訊息的郵寄／電郵名單」。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。"
+        "list-mcq-17": "本句的「mailing list」指「用於群發訊息的郵寄／電郵名單」。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-17"
     },
@@ -1505,11 +1381,9 @@ export default {
       "masked": "She removed her address from the ____.",
       "options": [
         "list-mcq-17",
-        "list-mcq-16",
-        "list-mcq-18",
-        "list-mcq-15",
+        "list-mcq-14",
         "list-mcq-19",
-        "list-mcq-14"
+        "list-mcq-08"
       ],
       "explanation": "本句的「mailing list」指「用於群發訊息的郵寄／電郵名單」。",
       "sentenceIndex": 37,
@@ -1518,12 +1392,10 @@ export default {
         "mailing list"
       ],
       "optionReasons": {
-        "list-mcq-17": "本句指「用於群發訊息的郵寄／電郵名單」。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-14": "「使公司或股份在證券交易所上市／掛牌」與本句語境不同。"
+        "list-mcq-17": "本句的「mailing list」指「用於群發訊息的郵寄／電郵名單」。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-17"
     },
@@ -1535,11 +1407,9 @@ export default {
       "masked": "The ship began to ____ badly.",
       "options": [
         "list-mcq-18",
+        "list-mcq-15",
         "list-mcq-17",
-        "list-mcq-19",
-        "list-mcq-16",
-        "list-mcq-20",
-        "list-mcq-15"
+        "list-mcq-25"
       ],
       "explanation": "本句的「list」指「船身向一側傾斜」。",
       "sentenceIndex": 38,
@@ -1548,12 +1418,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-18": "本句指「船身向一側傾斜」。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。"
+        "list-mcq-18": "本句的「list」指「船身向一側傾斜」。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-18"
     },
@@ -1566,10 +1434,8 @@ export default {
       "options": [
         "list-mcq-18",
         "list-mcq-17",
-        "list-mcq-19",
-        "list-mcq-16",
-        "list-mcq-20",
-        "list-mcq-15"
+        "list-mcq-25",
+        "list-mcq-10"
       ],
       "explanation": "本句的「listing to port」指「船身向一側傾斜」。",
       "sentenceIndex": 39,
@@ -1578,12 +1444,10 @@ export default {
         "listing to port"
       ],
       "optionReasons": {
-        "list-mcq-18": "本句指「船身向一側傾斜」。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-15": "「股票可在交易所買賣的上市公司」與本句語境不同。"
+        "list-mcq-18": "本句的「listing to port」指「船身向一側傾斜」。",
+        "list-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-18"
     },
@@ -1595,11 +1459,9 @@ export default {
       "masked": "The ship developed a dangerous ____.",
       "options": [
         "list-mcq-19",
-        "list-mcq-18",
         "list-mcq-20",
-        "list-mcq-17",
-        "list-mcq-21",
-        "list-mcq-16"
+        "list-mcq-24",
+        "list-mcq-12"
       ],
       "explanation": "本句的「list」指「船隻向一側傾斜的狀態；側傾」。",
       "sentenceIndex": 40,
@@ -1608,12 +1470,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-19": "本句指「船隻向一側傾斜的狀態；側傾」。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。"
+        "list-mcq-19": "本句的「list」指「船隻向一側傾斜的狀態；側傾」。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-19"
     },
@@ -1625,11 +1485,9 @@ export default {
       "masked": "The crew tried to correct the ____.",
       "options": [
         "list-mcq-19",
-        "list-mcq-18",
-        "list-mcq-20",
-        "list-mcq-17",
-        "list-mcq-21",
-        "list-mcq-16"
+        "list-mcq-15",
+        "list-mcq-25",
+        "list-mcq-07"
       ],
       "explanation": "本句的「list」指「船隻向一側傾斜的狀態；側傾」。",
       "sentenceIndex": 41,
@@ -1638,12 +1496,10 @@ export default {
         "list"
       ],
       "optionReasons": {
-        "list-mcq-19": "本句指「船隻向一側傾斜的狀態；側傾」。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-16": "「按順序儲存多個資料項目的列表／串列」與本句語境不同。"
+        "list-mcq-19": "本句的「list」指「船隻向一側傾斜的狀態；側傾」。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-19"
     },
@@ -1655,11 +1511,9 @@ export default {
       "masked": "____ before you go shopping.",
       "options": [
         "list-mcq-20",
+        "list-mcq-14",
         "list-mcq-19",
-        "list-mcq-21",
-        "list-mcq-18",
-        "list-mcq-22",
-        "list-mcq-17"
+        "list-mcq-08"
       ],
       "explanation": "本句的「Make a list」指「把多項內容寫成清單」。",
       "sentenceIndex": 42,
@@ -1668,12 +1522,10 @@ export default {
         "Make a list"
       ],
       "optionReasons": {
-        "list-mcq-20": "本句指「把多項內容寫成清單」。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。"
+        "list-mcq-20": "本句的「Make a list」指「把多項內容寫成清單」。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-20"
     },
@@ -1686,10 +1538,8 @@ export default {
       "options": [
         "list-mcq-20",
         "list-mcq-19",
-        "list-mcq-21",
-        "list-mcq-18",
-        "list-mcq-22",
-        "list-mcq-17"
+        "list-mcq-12",
+        "list-mcq-08"
       ],
       "explanation": "本句的「made a list」指「把多項內容寫成清單」。",
       "sentenceIndex": 43,
@@ -1698,12 +1548,10 @@ export default {
         "made a list"
       ],
       "optionReasons": {
-        "list-mcq-20": "本句指「把多項內容寫成清單」。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-17": "「用於群發訊息的郵寄／電郵名單」與本句語境不同。"
+        "list-mcq-20": "本句的「made a list」指「把多項內容寫成清單」。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-20"
     },
@@ -1715,11 +1563,9 @@ export default {
       "masked": "Put my name ____.",
       "options": [
         "list-mcq-21",
-        "list-mcq-20",
-        "list-mcq-22",
         "list-mcq-19",
-        "list-mcq-23",
-        "list-mcq-18"
+        "list-mcq-12",
+        "list-mcq-15"
       ],
       "explanation": "本句的「on the list」指「把某項目加入清單／名單」。",
       "sentenceIndex": 44,
@@ -1728,12 +1574,10 @@ export default {
         "on the list"
       ],
       "optionReasons": {
-        "list-mcq-21": "本句指「把某項目加入清單／名單」。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。"
+        "list-mcq-21": "本句的「on the list」指「把某項目加入清單／名單」。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-21"
     },
@@ -1745,11 +1589,9 @@ export default {
       "masked": "I added the book ____.",
       "options": [
         "list-mcq-21",
-        "list-mcq-20",
-        "list-mcq-22",
+        "list-mcq-14",
         "list-mcq-19",
-        "list-mcq-23",
-        "list-mcq-18"
+        "list-mcq-08"
       ],
       "explanation": "本句的「to my reading list」指「把某項目加入清單／名單」。",
       "sentenceIndex": 45,
@@ -1758,12 +1600,10 @@ export default {
         "to my reading list"
       ],
       "optionReasons": {
-        "list-mcq-21": "本句指「把某項目加入清單／名單」。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-18": "「船身向一側傾斜」與本句語境不同。"
+        "list-mcq-21": "本句的「to my reading list」指「把某項目加入清單／名單」。",
+        "list-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-21"
     },
@@ -1775,11 +1615,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "list-mcq-22",
-        "list-mcq-21",
-        "list-mcq-23",
-        "list-mcq-20",
-        "list-mcq-24",
-        "list-mcq-19"
+        "list-mcq-15",
+        "list-mcq-18",
+        "list-mcq-12"
       ],
       "explanation": "本句的「take my name off the list」指「把某項目從清單／名單刪除」。",
       "sentenceIndex": 46,
@@ -1788,12 +1626,10 @@ export default {
         "take my name off the list"
       ],
       "optionReasons": {
-        "list-mcq-22": "本句指「把某項目從清單／名單刪除」。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。"
+        "list-mcq-22": "本句的「take my name off the list」指「把某項目從清單／名單刪除」。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-22"
     },
@@ -1805,11 +1641,9 @@ export default {
       "masked": "The item was ____.",
       "options": [
         "list-mcq-22",
-        "list-mcq-21",
-        "list-mcq-23",
-        "list-mcq-20",
-        "list-mcq-24",
-        "list-mcq-19"
+        "list-mcq-15",
+        "list-mcq-18",
+        "list-mcq-12"
       ],
       "explanation": "本句的「removed from the list」指「把某項目從清單／名單刪除」。",
       "sentenceIndex": 47,
@@ -1818,12 +1652,10 @@ export default {
         "removed from the list"
       ],
       "optionReasons": {
-        "list-mcq-22": "本句指「把某項目從清單／名單刪除」。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-19": "「船隻向一側傾斜的狀態；側傾」與本句語境不同。"
+        "list-mcq-22": "本句的「removed from the list」指「把某項目從清單／名單刪除」。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-22"
     },
@@ -1835,11 +1667,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "list-mcq-23",
-        "list-mcq-22",
-        "list-mcq-24",
-        "list-mcq-21",
-        "list-mcq-25",
-        "list-mcq-20"
+        "list-mcq-18",
+        "list-mcq-13",
+        "list-mcq-15"
       ],
       "explanation": "本句的「crossed it off my list」指「完成某事項後從清單劃掉／打勾」。",
       "sentenceIndex": 48,
@@ -1848,12 +1678,10 @@ export default {
         "crossed it off my list"
       ],
       "optionReasons": {
-        "list-mcq-23": "本句指「完成某事項後從清單劃掉／打勾」。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-25": "「清單、目錄等中的單一條目」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。"
+        "list-mcq-23": "本句的「crossed it off my list」指「完成某事項後從清單劃掉／打勾」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-23"
     },
@@ -1865,11 +1693,9 @@ export default {
       "masked": "She ____ as she finished it.",
       "options": [
         "list-mcq-23",
-        "list-mcq-22",
-        "list-mcq-24",
-        "list-mcq-21",
-        "list-mcq-25",
-        "list-mcq-20"
+        "list-mcq-12",
+        "list-mcq-15",
+        "list-mcq-18"
       ],
       "explanation": "本句的「ticked each task off」指「完成某事項後從清單劃掉／打勾」。",
       "sentenceIndex": 49,
@@ -1878,12 +1704,10 @@ export default {
         "ticked each task off"
       ],
       "optionReasons": {
-        "list-mcq-23": "本句指「完成某事項後從清單劃掉／打勾」。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。",
-        "list-mcq-25": "「清單、目錄等中的單一條目」與本句語境不同。",
-        "list-mcq-20": "「把多項內容寫成清單」與本句語境不同。"
+        "list-mcq-23": "本句的「ticked each task off」指「完成某事項後從清單劃掉／打勾」。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-23"
     },
@@ -1895,11 +1719,9 @@ export default {
       "masked": "Safety is at the ____.",
       "options": [
         "list-mcq-24",
-        "list-mcq-23",
-        "list-mcq-25",
-        "list-mcq-22",
-        "list-mcq-26",
-        "list-mcq-21"
+        "list-mcq-10",
+        "list-mcq-12",
+        "list-mcq-18"
       ],
       "explanation": "本句的「top of the list」指「名單或優先事項中的最高／最低位置」。",
       "sentenceIndex": 50,
@@ -1908,12 +1730,10 @@ export default {
         "top of the list"
       ],
       "optionReasons": {
-        "list-mcq-24": "本句指「名單或優先事項中的最高／最低位置」。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-25": "「清單、目錄等中的單一條目」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-26": "「沒有公開列出、未上市或未登錄的」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。"
+        "list-mcq-24": "本句的「top of the list」指「名單或優先事項中的最高／最低位置」。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-24"
     },
@@ -1925,11 +1745,9 @@ export default {
       "masked": "That task is near the ____.",
       "options": [
         "list-mcq-24",
-        "list-mcq-23",
-        "list-mcq-25",
-        "list-mcq-22",
-        "list-mcq-26",
-        "list-mcq-21"
+        "list-mcq-12",
+        "list-mcq-19",
+        "list-mcq-15"
       ],
       "explanation": "本句的「bottom of my list」指「名單或優先事項中的最高／最低位置」。",
       "sentenceIndex": 51,
@@ -1938,12 +1756,10 @@ export default {
         "bottom of my list"
       ],
       "optionReasons": {
-        "list-mcq-24": "本句指「名單或優先事項中的最高／最低位置」。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-25": "「清單、目錄等中的單一條目」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-26": "「沒有公開列出、未上市或未登錄的」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。"
+        "list-mcq-24": "本句的「bottom of my list」指「名單或優先事項中的最高／最低位置」。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-24"
     },
@@ -1955,11 +1771,9 @@ export default {
       "masked": "Check the individual ____ for details.",
       "options": [
         "list-mcq-25",
-        "list-mcq-24",
-        "list-mcq-26",
-        "list-mcq-23",
-        "list-mcq-22",
-        "list-mcq-21"
+        "list-mcq-12",
+        "list-mcq-18",
+        "list-mcq-15"
       ],
       "explanation": "本句的「listing」指「清單、目錄等中的單一條目」。",
       "sentenceIndex": 54,
@@ -1968,12 +1782,10 @@ export default {
         "listing"
       ],
       "optionReasons": {
-        "list-mcq-25": "本句指「清單、目錄等中的單一條目」。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-26": "「沒有公開列出、未上市或未登錄的」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。"
+        "list-mcq-25": "本句的「listing」指「清單、目錄等中的單一條目」。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-25"
     },
@@ -1985,11 +1797,9 @@ export default {
       "masked": "The property ____ was updated yesterday.",
       "options": [
         "list-mcq-25",
-        "list-mcq-24",
-        "list-mcq-26",
-        "list-mcq-23",
-        "list-mcq-22",
-        "list-mcq-21"
+        "list-mcq-18",
+        "list-mcq-12",
+        "list-mcq-10"
       ],
       "explanation": "本句的「listing」指「清單、目錄等中的單一條目」。",
       "sentenceIndex": 55,
@@ -1998,12 +1808,10 @@ export default {
         "listing"
       ],
       "optionReasons": {
-        "list-mcq-25": "本句指「清單、目錄等中的單一條目」。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-26": "「沒有公開列出、未上市或未登錄的」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。"
+        "list-mcq-25": "本句的「listing」指「清單、目錄等中的單一條目」。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-25"
     },
@@ -2015,11 +1823,9 @@ export default {
       "masked": "The number is ____.",
       "options": [
         "list-mcq-26",
-        "list-mcq-25",
         "list-mcq-24",
-        "list-mcq-23",
-        "list-mcq-22",
-        "list-mcq-21"
+        "list-mcq-19",
+        "list-mcq-20"
       ],
       "explanation": "本句的「unlisted」指「沒有公開列出、未上市或未登錄的」。",
       "sentenceIndex": 56,
@@ -2028,12 +1834,10 @@ export default {
         "unlisted"
       ],
       "optionReasons": {
-        "list-mcq-26": "本句指「沒有公開列出、未上市或未登錄的」。",
-        "list-mcq-25": "「清單、目錄等中的單一條目」與本句語境不同。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。"
+        "list-mcq-26": "本句的「unlisted」指「沒有公開列出、未上市或未登錄的」。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-26"
     },
@@ -2045,11 +1849,9 @@ export default {
       "masked": "The company remains ____.",
       "options": [
         "list-mcq-26",
-        "list-mcq-25",
         "list-mcq-24",
-        "list-mcq-23",
-        "list-mcq-22",
-        "list-mcq-21"
+        "list-mcq-20",
+        "list-mcq-18"
       ],
       "explanation": "本句的「unlisted」指「沒有公開列出、未上市或未登錄的」。",
       "sentenceIndex": 57,
@@ -2058,12 +1860,10 @@ export default {
         "unlisted"
       ],
       "optionReasons": {
-        "list-mcq-26": "本句指「沒有公開列出、未上市或未登錄的」。",
-        "list-mcq-25": "「清單、目錄等中的單一條目」與本句語境不同。",
-        "list-mcq-24": "「名單或優先事項中的最高／最低位置」與本句語境不同。",
-        "list-mcq-23": "「完成某事項後從清單劃掉／打勾」與本句語境不同。",
-        "list-mcq-22": "「把某項目從清單／名單刪除」與本句語境不同。",
-        "list-mcq-21": "「把某項目加入清單／名單」與本句語境不同。"
+        "list-mcq-26": "本句的「unlisted」指「沒有公開列出、未上市或未登錄的」。",
+        "list-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "list-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "list-mcq-26"
     }
@@ -2075,5 +1875,7 @@ export default {
     "sha256": "8ef1c919afe2b3708231424c8a9403846ab1f37e48cc40190a2a7738cf4c61e0",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

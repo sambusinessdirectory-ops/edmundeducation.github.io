@@ -207,10 +207,7 @@ export default {
       "options": [
         "neighbour-mcq-01",
         "neighbour-mcq-02",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbour」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
       "sentenceIndex": 0,
@@ -219,12 +216,9 @@ export default {
         "neighbour"
       ],
       "optionReasons": {
-        "neighbour-mcq-01": "本句指「居住在自己住所附近、同一大樓、街道或社區的人」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-01": "本句的「neighbour」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-01"
     },
@@ -237,10 +231,7 @@ export default {
       "options": [
         "neighbour-mcq-01",
         "neighbour-mcq-02",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbours」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
       "sentenceIndex": 1,
@@ -249,12 +240,9 @@ export default {
         "neighbours"
       ],
       "optionReasons": {
-        "neighbour-mcq-01": "本句指「居住在自己住所附近、同一大樓、街道或社區的人」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-01": "本句的「neighbours」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-01"
     },
@@ -267,10 +255,7 @@ export default {
       "options": [
         "neighbour-mcq-01",
         "neighbour-mcq-02",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbour」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
       "sentenceIndex": 2,
@@ -279,12 +264,9 @@ export default {
         "neighbour"
       ],
       "optionReasons": {
-        "neighbour-mcq-01": "本句指「居住在自己住所附近、同一大樓、街道或社區的人」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-01": "本句的「neighbour」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-01"
     },
@@ -297,10 +279,7 @@ export default {
       "options": [
         "neighbour-mcq-02",
         "neighbour-mcq-01",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbour」指「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」。",
       "sentenceIndex": 3,
@@ -309,12 +288,9 @@ export default {
         "neighbour"
       ],
       "optionReasons": {
-        "neighbour-mcq-02": "本句指「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」。",
-        "neighbour-mcq-01": "「居住在自己住所附近、同一大樓、街道或社區的人」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-02": "本句的「neighbour」指「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」。",
+        "neighbour-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-02"
     },
@@ -327,10 +303,7 @@ export default {
       "options": [
         "neighbour-mcq-02",
         "neighbour-mcq-01",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbour」指「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」。",
       "sentenceIndex": 4,
@@ -339,12 +312,9 @@ export default {
         "neighbour"
       ],
       "optionReasons": {
-        "neighbour-mcq-02": "本句指「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」。",
-        "neighbour-mcq-01": "「居住在自己住所附近、同一大樓、街道或社區的人」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-02": "本句的「neighbour」指「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」。",
+        "neighbour-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-02"
     },
@@ -356,11 +326,8 @@ export default {
       "masked": "Each square interacts with its immediate ____.",
       "options": [
         "neighbour-mcq-03",
-        "neighbour-mcq-02",
-        "neighbour-mcq-04",
-        "neighbour-mcq-01",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-08",
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbours」指「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」。",
       "sentenceIndex": 5,
@@ -369,12 +336,9 @@ export default {
         "neighbours"
       ],
       "optionReasons": {
-        "neighbour-mcq-03": "本句指「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-01": "「居住在自己住所附近、同一大樓、街道或社區的人」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-03": "本句的「neighbours」指「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」。",
+        "neighbour-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-03"
     },
@@ -386,11 +350,8 @@ export default {
       "masked": "The algorithm compares each point with its nearest ____.",
       "options": [
         "neighbour-mcq-03",
-        "neighbour-mcq-02",
-        "neighbour-mcq-04",
-        "neighbour-mcq-01",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-08",
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbours」指「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」。",
       "sentenceIndex": 6,
@@ -399,12 +360,9 @@ export default {
         "neighbours"
       ],
       "optionReasons": {
-        "neighbour-mcq-03": "本句指「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-01": "「居住在自己住所附近、同一大樓、街道或社區的人」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-03": "本句的「neighbours」指「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」。",
+        "neighbour-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-03"
     },
@@ -417,10 +375,7 @@ export default {
       "options": [
         "neighbour-mcq-01",
         "neighbour-mcq-02",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbour」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
       "sentenceIndex": 7,
@@ -429,12 +384,9 @@ export default {
         "neighbour"
       ],
       "optionReasons": {
-        "neighbour-mcq-01": "本句指「居住在自己住所附近、同一大樓、街道或社區的人」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-01": "本句的「neighbour」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-01"
     },
@@ -447,10 +399,7 @@ export default {
       "options": [
         "neighbour-mcq-01",
         "neighbour-mcq-02",
-        "neighbour-mcq-03",
-        "neighbour-mcq-04",
-        "neighbour-mcq-05",
-        "neighbour-mcq-06"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbours」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
       "sentenceIndex": 8,
@@ -459,12 +408,9 @@ export default {
         "neighbours"
       ],
       "optionReasons": {
-        "neighbour-mcq-01": "本句指「居住在自己住所附近、同一大樓、街道或社區的人」。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。"
+        "neighbour-mcq-01": "本句的「neighbours」指「居住在自己住所附近、同一大樓、街道或社區的人」。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-01"
     },
@@ -476,11 +422,7 @@ export default {
       "masked": "They visited several ____ villages.",
       "options": [
         "neighbour-mcq-05",
-        "neighbour-mcq-04",
-        "neighbour-mcq-06",
-        "neighbour-mcq-03",
-        "neighbour-mcq-07",
-        "neighbour-mcq-02"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbouring」指「位於附近、相鄰或緊接另一地方的」。",
       "sentenceIndex": 9,
@@ -489,12 +431,8 @@ export default {
         "neighbouring"
       ],
       "optionReasons": {
-        "neighbour-mcq-05": "本句指「位於附近、相鄰或緊接另一地方的」。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-07": "「對鄰居友善、願意幫助及互相照應的」與本句語境不同。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。"
+        "neighbour-mcq-05": "本句的「neighbouring」指「位於附近、相鄰或緊接另一地方的」。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-05"
     },
@@ -506,11 +444,7 @@ export default {
       "masked": "The fire spread to a ____ building.",
       "options": [
         "neighbour-mcq-05",
-        "neighbour-mcq-04",
-        "neighbour-mcq-06",
-        "neighbour-mcq-03",
-        "neighbour-mcq-07",
-        "neighbour-mcq-02"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbouring」指「位於附近、相鄰或緊接另一地方的」。",
       "sentenceIndex": 10,
@@ -519,12 +453,8 @@ export default {
         "neighbouring"
       ],
       "optionReasons": {
-        "neighbour-mcq-05": "本句指「位於附近、相鄰或緊接另一地方的」。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-07": "「對鄰居友善、願意幫助及互相照應的」與本句語境不同。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。"
+        "neighbour-mcq-05": "本句的「neighbouring」指「位於附近、相鄰或緊接另一地方的」。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-05"
     },
@@ -536,11 +466,7 @@ export default {
       "masked": "It is a quiet residential ____.",
       "options": [
         "neighbour-mcq-06",
-        "neighbour-mcq-05",
-        "neighbour-mcq-07",
-        "neighbour-mcq-04",
-        "neighbour-mcq-08",
-        "neighbour-mcq-03"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbourhood」指「由住宅、街道及附近設施構成的一個本地社區或區域」。",
       "sentenceIndex": 11,
@@ -549,12 +475,8 @@ export default {
         "neighbourhood"
       ],
       "optionReasons": {
-        "neighbour-mcq-06": "本句指「由住宅、街道及附近設施構成的一個本地社區或區域」。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-07": "「對鄰居友善、願意幫助及互相照應的」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-08": "「大約在某個數字或數量附近；約莫」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。"
+        "neighbour-mcq-06": "本句的「neighbourhood」指「由住宅、街道及附近設施構成的一個本地社區或區域」。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-06"
     },
@@ -566,11 +488,7 @@ export default {
       "masked": "There are several cafés in the ____.",
       "options": [
         "neighbour-mcq-06",
-        "neighbour-mcq-05",
-        "neighbour-mcq-07",
-        "neighbour-mcq-04",
-        "neighbour-mcq-08",
-        "neighbour-mcq-03"
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbourhood」指「由住宅、街道及附近設施構成的一個本地社區或區域」。",
       "sentenceIndex": 12,
@@ -579,12 +497,8 @@ export default {
         "neighbourhood"
       ],
       "optionReasons": {
-        "neighbour-mcq-06": "本句指「由住宅、街道及附近設施構成的一個本地社區或區域」。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-07": "「對鄰居友善、願意幫助及互相照應的」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-08": "「大約在某個數字或數量附近；約莫」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。"
+        "neighbour-mcq-06": "本句的「neighbourhood」指「由住宅、街道及附近設施構成的一個本地社區或區域」。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-06"
     },
@@ -596,11 +510,8 @@ export default {
       "masked": "The repair will cost ____ $5,000.",
       "options": [
         "neighbour-mcq-08",
-        "neighbour-mcq-07",
-        "neighbour-mcq-06",
-        "neighbour-mcq-05",
-        "neighbour-mcq-04",
-        "neighbour-mcq-03"
+        "neighbour-mcq-02",
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「in the neighbourhood of」指「大約在某個數字或數量附近；約莫」。",
       "sentenceIndex": 13,
@@ -609,12 +520,9 @@ export default {
         "in the neighbourhood of"
       ],
       "optionReasons": {
-        "neighbour-mcq-08": "本句指「大約在某個數字或數量附近；約莫」。",
-        "neighbour-mcq-07": "「對鄰居友善、願意幫助及互相照應的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。"
+        "neighbour-mcq-08": "本句的「in the neighbourhood of」指「大約在某個數字或數量附近；約莫」。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-08"
     },
@@ -627,10 +535,7 @@ export default {
       "options": [
         "neighbour-mcq-08",
         "neighbour-mcq-07",
-        "neighbour-mcq-06",
-        "neighbour-mcq-05",
-        "neighbour-mcq-04",
-        "neighbour-mcq-03"
+        "neighbour-mcq-02"
       ],
       "explanation": "本句的「in the neighbourhood of」指「大約在某個數字或數量附近；約莫」。",
       "sentenceIndex": 14,
@@ -639,12 +544,9 @@ export default {
         "in the neighbourhood of"
       ],
       "optionReasons": {
-        "neighbour-mcq-08": "本句指「大約在某個數字或數量附近；約莫」。",
-        "neighbour-mcq-07": "「對鄰居友善、願意幫助及互相照應的」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。"
+        "neighbour-mcq-08": "本句的「in the neighbourhood of」指「大約在某個數字或數量附近；約莫」。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-08"
     },
@@ -656,11 +558,8 @@ export default {
       "masked": "It was very ____ of him to help carry the boxes.",
       "options": [
         "neighbour-mcq-07",
-        "neighbour-mcq-06",
         "neighbour-mcq-08",
-        "neighbour-mcq-05",
-        "neighbour-mcq-04",
-        "neighbour-mcq-03"
+        "neighbour-mcq-04"
       ],
       "explanation": "本句的「neighbourly」指「對鄰居友善、願意幫助及互相照應的」。",
       "sentenceIndex": 15,
@@ -669,12 +568,9 @@ export default {
         "neighbourly"
       ],
       "optionReasons": {
-        "neighbour-mcq-07": "本句指「對鄰居友善、願意幫助及互相照應的」。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-08": "「大約在某個數字或數量附近；約莫」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。"
+        "neighbour-mcq-07": "本句的「neighbourly」指「對鄰居友善、願意幫助及互相照應的」。",
+        "neighbour-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-07"
     },
@@ -686,11 +582,7 @@ export default {
       "masked": "They have always been warm and ____.",
       "options": [
         "neighbour-mcq-07",
-        "neighbour-mcq-06",
-        "neighbour-mcq-08",
-        "neighbour-mcq-05",
-        "neighbour-mcq-04",
-        "neighbour-mcq-03"
+        "neighbour-mcq-06"
       ],
       "explanation": "本句的「neighbourly」指「對鄰居友善、願意幫助及互相照應的」。",
       "sentenceIndex": 16,
@@ -699,12 +591,8 @@ export default {
         "neighbourly"
       ],
       "optionReasons": {
-        "neighbour-mcq-07": "本句指「對鄰居友善、願意幫助及互相照應的」。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-08": "「大約在某個數字或數量附近；約莫」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-04": "「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」與本句語境不同。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。"
+        "neighbour-mcq-07": "本句的「neighbourly」指「對鄰居友善、願意幫助及互相照應的」。",
+        "neighbour-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-07"
     },
@@ -716,11 +604,8 @@ export default {
       "masked": "The property ____ a public park.",
       "options": [
         "neighbour-mcq-04",
-        "neighbour-mcq-03",
-        "neighbour-mcq-05",
-        "neighbour-mcq-02",
-        "neighbour-mcq-06",
-        "neighbour-mcq-01"
+        "neighbour-mcq-08",
+        "neighbour-mcq-07"
       ],
       "explanation": "本句的「neighbours」指「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」。",
       "sentenceIndex": 17,
@@ -729,12 +614,9 @@ export default {
         "neighbours"
       ],
       "optionReasons": {
-        "neighbour-mcq-04": "本句指「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-01": "「居住在自己住所附近、同一大樓、街道或社區的人」與本句語境不同。"
+        "neighbour-mcq-04": "本句的「neighbours」指「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」。",
+        "neighbour-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-04"
     },
@@ -746,10 +628,7 @@ export default {
       "masked": "The region ____ several major cities.",
       "options": [
         "neighbour-mcq-04",
-        "neighbour-mcq-03",
-        "neighbour-mcq-05",
-        "neighbour-mcq-02",
-        "neighbour-mcq-06",
+        "neighbour-mcq-07",
         "neighbour-mcq-01"
       ],
       "explanation": "本句的「neighbours」指「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」。",
@@ -759,12 +638,9 @@ export default {
         "neighbours"
       ],
       "optionReasons": {
-        "neighbour-mcq-04": "本句指「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」。",
-        "neighbour-mcq-03": "「在排列、網格、網絡或其他系統中與另一項直接相鄰或位置最接近的項目」與本句語境不同。",
-        "neighbour-mcq-05": "「位於附近、相鄰或緊接另一地方的」與本句語境不同。",
-        "neighbour-mcq-02": "「在地理位置上與另一個國家、地方、建築或單位相鄰的對象」與本句語境不同。",
-        "neighbour-mcq-06": "「由住宅、街道及附近設施構成的一個本地社區或區域」與本句語境不同。",
-        "neighbour-mcq-01": "「居住在自己住所附近、同一大樓、街道或社區的人」與本句語境不同。"
+        "neighbour-mcq-04": "本句的「neighbours」指「位於某個地方旁邊、鄰近或與其相鄰；較少見／較正式」。",
+        "neighbour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neighbour-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neighbour-mcq-04"
     }
@@ -776,5 +652,7 @@ export default {
     "sha256": "6f2baa060f2fccd562a6b0f5920636cfe92875dd1f773c2e6794031e067e3524",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

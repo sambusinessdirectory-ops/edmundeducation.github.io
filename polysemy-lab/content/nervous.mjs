@@ -447,11 +447,9 @@ export default {
       "masked": "I was a bit ____ before she opened it.",
       "options": [
         "nervous-mcq-01",
-        "nervous-mcq-02",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-12",
+        "nervous-mcq-17",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nervous」指「緊張的；不安的」。",
       "sentenceIndex": 0,
@@ -460,12 +458,10 @@ export default {
         "nervous"
       ],
       "optionReasons": {
-        "nervous-mcq-01": "本句指「緊張的；不安的」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-01": "本句的「nervous」指「緊張的；不安的」。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-01"
     },
@@ -477,11 +473,9 @@ export default {
       "masked": "She felt ____ before the interview.",
       "options": [
         "nervous-mcq-01",
-        "nervous-mcq-02",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-07",
+        "nervous-mcq-18",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nervous」指「緊張的；不安的」。",
       "sentenceIndex": 1,
@@ -490,12 +484,10 @@ export default {
         "nervous"
       ],
       "optionReasons": {
-        "nervous-mcq-01": "本句指「緊張的；不安的」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-01": "本句的「nervous」指「緊張的；不安的」。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-01"
     },
@@ -507,11 +499,9 @@ export default {
       "masked": "I always get ____ when I have to speak in public.",
       "options": [
         "nervous-mcq-01",
-        "nervous-mcq-02",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-18",
+        "nervous-mcq-16",
+        "nervous-mcq-12"
       ],
       "explanation": "本句的「nervous」指「緊張的；不安的」。",
       "sentenceIndex": 2,
@@ -520,12 +510,10 @@ export default {
         "nervous"
       ],
       "optionReasons": {
-        "nervous-mcq-01": "本句指「緊張的；不安的」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-01": "本句的「nervous」指「緊張的；不安的」。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-01"
     },
@@ -537,11 +525,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "nervous-mcq-02",
-        "nervous-mcq-01",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-15",
+        "nervous-mcq-17",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nervous about the exam」指「對 X 緊張」。",
       "sentenceIndex": 3,
@@ -550,12 +536,10 @@ export default {
         "nervous about the exam"
       ],
       "optionReasons": {
-        "nervous-mcq-02": "本句指「對 X 緊張」。",
-        "nervous-mcq-01": "「緊張的；不安的」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-02": "本句的「nervous about the exam」指「對 X 緊張」。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-02"
     },
@@ -567,11 +551,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "nervous-mcq-02",
-        "nervous-mcq-01",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-17",
+        "nervous-mcq-12",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nervous about meeting her parents」指「對 X 緊張」。",
       "sentenceIndex": 4,
@@ -580,12 +562,10 @@ export default {
         "nervous about meeting her parents"
       ],
       "optionReasons": {
-        "nervous-mcq-02": "本句指「對 X 緊張」。",
-        "nervous-mcq-01": "「緊張的；不安的」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-02": "本句的「nervous about meeting her parents」指「對 X 緊張」。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-02"
     },
@@ -597,11 +577,9 @@ export default {
       "masked": "The child is ____.",
       "options": [
         "nervous-mcq-03",
-        "nervous-mcq-02",
-        "nervous-mcq-04",
-        "nervous-mcq-01",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-16",
+        "nervous-mcq-17",
+        "nervous-mcq-15"
       ],
       "explanation": "本句的「nervous of large dogs」指「對 X 害怕／有戒心」。",
       "sentenceIndex": 5,
@@ -610,12 +588,10 @@ export default {
         "nervous of large dogs"
       ],
       "optionReasons": {
-        "nervous-mcq-03": "本句指「對 X 害怕／有戒心」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-01": "「緊張的；不安的」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-03": "本句的「nervous of large dogs」指「對 X 害怕／有戒心」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-03"
     },
@@ -627,11 +603,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "nervous-mcq-03",
-        "nervous-mcq-02",
-        "nervous-mcq-04",
-        "nervous-mcq-01",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-16",
+        "nervous-mcq-07",
+        "nervous-mcq-19"
       ],
       "explanation": "本句的「nervous of flying」指「對 X 害怕／有戒心」。",
       "sentenceIndex": 6,
@@ -640,12 +614,10 @@ export default {
         "nervous of flying"
       ],
       "optionReasons": {
-        "nervous-mcq-03": "本句指「對 X 害怕／有戒心」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-01": "「緊張的；不安的」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-03": "本句的「nervous of flying」指「對 X 害怕／有戒心」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-03"
     },
@@ -657,11 +629,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "nervous-mcq-05",
-        "nervous-mcq-04",
-        "nervous-mcq-06",
-        "nervous-mcq-03",
-        "nervous-mcq-07",
-        "nervous-mcq-02"
+        "nervous-mcq-19",
+        "nervous-mcq-17",
+        "nervous-mcq-07"
       ],
       "explanation": "本句的「nervous smile」指「緊張的笑」。",
       "sentenceIndex": 9,
@@ -670,12 +640,10 @@ export default {
         "nervous smile"
       ],
       "optionReasons": {
-        "nervous-mcq-05": "本句指「緊張的笑」。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。"
+        "nervous-mcq-05": "本句的「nervous smile」指「緊張的笑」。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-05"
     },
@@ -687,11 +655,9 @@ export default {
       "masked": "He let out a ____.",
       "options": [
         "nervous-mcq-05",
-        "nervous-mcq-04",
-        "nervous-mcq-06",
-        "nervous-mcq-03",
-        "nervous-mcq-07",
-        "nervous-mcq-02"
+        "nervous-mcq-19",
+        "nervous-mcq-18",
+        "nervous-mcq-07"
       ],
       "explanation": "本句的「nervous laugh」指「緊張的笑」。",
       "sentenceIndex": 10,
@@ -700,12 +666,10 @@ export default {
         "nervous laugh"
       ],
       "optionReasons": {
-        "nervous-mcq-05": "本句指「緊張的笑」。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。"
+        "nervous-mcq-05": "本句的「nervous laugh」指「緊張的笑」。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-05"
     },
@@ -717,11 +681,9 @@ export default {
       "masked": "Biting her nails is a ____.",
       "options": [
         "nervous-mcq-06",
-        "nervous-mcq-05",
+        "nervous-mcq-17",
         "nervous-mcq-07",
-        "nervous-mcq-04",
-        "nervous-mcq-08",
-        "nervous-mcq-03"
+        "nervous-mcq-18"
       ],
       "explanation": "本句的「nervous habit」指「緊張小動作」。",
       "sentenceIndex": 11,
@@ -730,12 +692,10 @@ export default {
         "nervous habit"
       ],
       "optionReasons": {
-        "nervous-mcq-06": "本句指「緊張小動作」。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。"
+        "nervous-mcq-06": "本句的「nervous habit」指「緊張小動作」。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-06"
     },
@@ -747,11 +707,9 @@ export default {
       "masked": "He taps his foot as a ____.",
       "options": [
         "nervous-mcq-06",
-        "nervous-mcq-05",
-        "nervous-mcq-07",
-        "nervous-mcq-04",
-        "nervous-mcq-08",
-        "nervous-mcq-03"
+        "nervous-mcq-15",
+        "nervous-mcq-19",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「nervous habit」指「緊張小動作」。",
       "sentenceIndex": 12,
@@ -760,12 +718,10 @@ export default {
         "nervous habit"
       ],
       "optionReasons": {
-        "nervous-mcq-06": "本句指「緊張小動作」。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。"
+        "nervous-mcq-06": "本句的「nervous habit」指「緊張小動作」。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-06"
     },
@@ -777,11 +733,9 @@ export default {
       "masked": "She has always been a ____.",
       "options": [
         "nervous-mcq-01",
-        "nervous-mcq-02",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-15",
+        "nervous-mcq-16",
+        "nervous-mcq-19"
       ],
       "explanation": "本句的「nervous person」指「緊張的；不安的」。",
       "sentenceIndex": 13,
@@ -790,12 +744,10 @@ export default {
         "nervous person"
       ],
       "optionReasons": {
-        "nervous-mcq-01": "本句指「緊張的；不安的」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-01": "本句的「nervous person」指「緊張的；不安的」。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-01"
     },
@@ -807,11 +759,9 @@ export default {
       "masked": "He's quite ____.",
       "options": [
         "nervous-mcq-01",
-        "nervous-mcq-02",
-        "nervous-mcq-03",
-        "nervous-mcq-04",
-        "nervous-mcq-05",
-        "nervous-mcq-06"
+        "nervous-mcq-16",
+        "nervous-mcq-17",
+        "nervous-mcq-19"
       ],
       "explanation": "本句的「nervous by nature」指「緊張的；不安的」。",
       "sentenceIndex": 14,
@@ -820,12 +770,10 @@ export default {
         "nervous by nature"
       ],
       "optionReasons": {
-        "nervous-mcq-01": "本句指「緊張的；不安的」。",
-        "nervous-mcq-02": "「對 X 緊張」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-01": "本句的「nervous by nature」指「緊張的；不安的」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-01"
     },
@@ -837,11 +785,9 @@ export default {
       "masked": "Horses can be ____.",
       "options": [
         "nervous-pdf-001",
-        "nervous-mcq-05",
         "nervous-mcq-07",
-        "nervous-mcq-04",
-        "nervous-mcq-08",
-        "nervous-mcq-03"
+        "nervous-mcq-18",
+        "nervous-mcq-19"
       ],
       "explanation": "本句的「nervous animals」指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
       "sentenceIndex": 15,
@@ -850,12 +796,10 @@ export default {
         "nervous animals"
       ],
       "optionReasons": {
-        "nervous-pdf-001": "本句指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。"
+        "nervous-pdf-001": "本句的「nervous animals」指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-pdf-001"
     },
@@ -867,11 +811,9 @@ export default {
       "masked": "The dog became ____ around strangers.",
       "options": [
         "nervous-pdf-001",
-        "nervous-mcq-05",
-        "nervous-mcq-07",
-        "nervous-mcq-04",
-        "nervous-mcq-08",
-        "nervous-mcq-03"
+        "nervous-mcq-15",
+        "nervous-mcq-19",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「nervous」指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
       "sentenceIndex": 16,
@@ -880,12 +822,10 @@ export default {
         "nervous"
       ],
       "optionReasons": {
-        "nervous-pdf-001": "本句指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-03": "「對 X 害怕／有戒心」與本句語境不同。"
+        "nervous-pdf-001": "本句的「nervous」指「對聲音、陌生人或環境變化容易產生害怕或不安反應」。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-pdf-001"
     },
@@ -897,11 +837,9 @@ export default {
       "masked": "The brain is part of the ____.",
       "options": [
         "nervous-mcq-07",
-        "nervous-mcq-06",
-        "nervous-mcq-08",
-        "nervous-mcq-05",
         "nervous-mcq-09",
-        "nervous-mcq-04"
+        "nervous-mcq-16",
+        "nervous-mcq-15"
       ],
       "explanation": "本句的「nervous system」指「神經系統」。",
       "sentenceIndex": 17,
@@ -910,12 +848,10 @@ export default {
         "nervous system"
       ],
       "optionReasons": {
-        "nervous-mcq-07": "本句指「神經系統」。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。"
+        "nervous-mcq-07": "本句的「nervous system」指「神經系統」。",
+        "nervous-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-07"
     },
@@ -927,11 +863,9 @@ export default {
       "masked": "The disease affects the central ____.",
       "options": [
         "nervous-mcq-07",
-        "nervous-mcq-06",
-        "nervous-mcq-08",
-        "nervous-mcq-05",
-        "nervous-mcq-09",
-        "nervous-mcq-04"
+        "nervous-mcq-11",
+        "nervous-mcq-15",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「nervous system」指「神經系統」。",
       "sentenceIndex": 18,
@@ -940,12 +874,10 @@ export default {
         "nervous system"
       ],
       "optionReasons": {
-        "nervous-mcq-07": "本句指「神經系統」。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。"
+        "nervous-mcq-07": "本句的「nervous system」指「神經系統」。",
+        "nervous-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-07"
     },
@@ -957,11 +889,9 @@ export default {
       "masked": "____ carries electrical signals.",
       "options": [
         "nervous-mcq-07",
-        "nervous-mcq-06",
         "nervous-mcq-08",
-        "nervous-mcq-05",
-        "nervous-mcq-09",
-        "nervous-mcq-04"
+        "nervous-mcq-17",
+        "nervous-mcq-15"
       ],
       "explanation": "本句的「Nervous tissue」指「神經系統」。",
       "sentenceIndex": 19,
@@ -970,12 +900,10 @@ export default {
         "Nervous tissue"
       ],
       "optionReasons": {
-        "nervous-mcq-07": "本句指「神經系統」。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。"
+        "nervous-mcq-07": "本句的「Nervous tissue」指「神經系統」。",
+        "nervous-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-07"
     },
@@ -987,11 +915,9 @@ export default {
       "masked": "The condition is classified as a ____.",
       "options": [
         "nervous-mcq-07",
-        "nervous-mcq-06",
-        "nervous-mcq-08",
-        "nervous-mcq-05",
-        "nervous-mcq-09",
-        "nervous-mcq-04"
+        "nervous-mcq-18",
+        "nervous-mcq-16",
+        "nervous-mcq-05"
       ],
       "explanation": "本句的「nervous disorder」指「神經系統」。",
       "sentenceIndex": 20,
@@ -1000,12 +926,10 @@ export default {
         "nervous disorder"
       ],
       "optionReasons": {
-        "nervous-mcq-07": "本句指「神經系統」。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-04": "「容易緊張的人」與本句語境不同。"
+        "nervous-mcq-07": "本句的「nervous disorder」指「神經系統」。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-07"
     },
@@ -1017,11 +941,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "nervous-mcq-08",
-        "nervous-mcq-07",
-        "nervous-mcq-09",
-        "nervous-mcq-06",
-        "nervous-mcq-10",
-        "nervous-mcq-05"
+        "nervous-mcq-12",
+        "nervous-mcq-16",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「nervously」指「緊張地」。",
       "sentenceIndex": 21,
@@ -1030,12 +952,10 @@ export default {
         "nervously"
       ],
       "optionReasons": {
-        "nervous-mcq-08": "本句指「緊張地」。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。"
+        "nervous-mcq-08": "本句的「nervously」指「緊張地」。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-08"
     },
@@ -1048,10 +968,8 @@ export default {
       "options": [
         "nervous-mcq-08",
         "nervous-mcq-07",
-        "nervous-mcq-09",
-        "nervous-mcq-06",
-        "nervous-mcq-10",
-        "nervous-mcq-05"
+        "nervous-mcq-15",
+        "nervous-mcq-18"
       ],
       "explanation": "本句的「nervously」指「緊張地」。",
       "sentenceIndex": 22,
@@ -1060,12 +978,10 @@ export default {
         "nervously"
       ],
       "optionReasons": {
-        "nervous-mcq-08": "本句指「緊張地」。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-05": "「緊張的笑」與本句語境不同。"
+        "nervous-mcq-08": "本句的「nervously」指「緊張地」。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-08"
     },
@@ -1077,11 +993,9 @@ export default {
       "masked": "Her ____ disappeared after the first few minutes.",
       "options": [
         "nervous-mcq-09",
-        "nervous-mcq-08",
-        "nervous-mcq-10",
-        "nervous-mcq-07",
-        "nervous-mcq-11",
-        "nervous-mcq-06"
+        "nervous-mcq-17",
+        "nervous-mcq-12",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nervousness」指「緊張；焦慮」。",
       "sentenceIndex": 23,
@@ -1090,12 +1004,10 @@ export default {
         "nervousness"
       ],
       "optionReasons": {
-        "nervous-mcq-09": "本句指「緊張；焦慮」。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-11": "「緊張得不得了」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-09": "本句的「nervousness」指「緊張；焦慮」。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-09"
     },
@@ -1107,11 +1019,9 @@ export default {
       "masked": "I could hear the ____ in his voice.",
       "options": [
         "nervous-mcq-09",
-        "nervous-mcq-08",
-        "nervous-mcq-10",
-        "nervous-mcq-07",
-        "nervous-mcq-11",
-        "nervous-mcq-06"
+        "nervous-mcq-19",
+        "nervous-mcq-15",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「nervousness」指「緊張；焦慮」。",
       "sentenceIndex": 24,
@@ -1120,12 +1030,10 @@ export default {
         "nervousness"
       ],
       "optionReasons": {
-        "nervous-mcq-09": "本句指「緊張；焦慮」。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。",
-        "nervous-mcq-11": "「緊張得不得了」與本句語境不同。",
-        "nervous-mcq-06": "「緊張小動作」與本句語境不同。"
+        "nervous-mcq-09": "本句的「nervousness」指「緊張；焦慮」。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-09"
     },
@@ -1137,10 +1045,8 @@ export default {
       "masked": "My ____ were terrible before the interview.",
       "options": [
         "nervous-mcq-10",
-        "nervous-mcq-09",
-        "nervous-mcq-11",
-        "nervous-mcq-08",
-        "nervous-mcq-12",
+        "nervous-mcq-16",
+        "nervous-mcq-18",
         "nervous-mcq-07"
       ],
       "explanation": "本句的「nerves」指「緊張情緒」。",
@@ -1150,12 +1056,10 @@ export default {
         "nerves"
       ],
       "optionReasons": {
-        "nervous-mcq-10": "本句指「緊張情緒」。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-11": "「緊張得不得了」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-12": "「神經」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。"
+        "nervous-mcq-10": "本句的「nerves」指「緊張情緒」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-10"
     },
@@ -1167,11 +1071,9 @@ export default {
       "masked": "She managed to control her ____.",
       "options": [
         "nervous-mcq-10",
-        "nervous-mcq-09",
-        "nervous-mcq-11",
-        "nervous-mcq-08",
         "nervous-mcq-12",
-        "nervous-mcq-07"
+        "nervous-mcq-15",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nerves」指「緊張情緒」。",
       "sentenceIndex": 26,
@@ -1180,12 +1082,10 @@ export default {
         "nerves"
       ],
       "optionReasons": {
-        "nervous-mcq-10": "本句指「緊張情緒」。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-11": "「緊張得不得了」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。",
-        "nervous-mcq-12": "「神經」與本句語境不同。",
-        "nervous-mcq-07": "「神經系統」與本句語境不同。"
+        "nervous-mcq-10": "本句的「nerves」指「緊張情緒」。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-10"
     },
@@ -1197,11 +1097,9 @@ export default {
       "masked": "I was ____ before the presentation.",
       "options": [
         "nervous-mcq-11",
-        "nervous-mcq-10",
-        "nervous-mcq-12",
-        "nervous-mcq-09",
-        "nervous-mcq-13",
-        "nervous-mcq-08"
+        "nervous-mcq-07",
+        "nervous-mcq-15",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「a bundle of nerves」指「緊張得不得了」。",
       "sentenceIndex": 27,
@@ -1210,12 +1108,10 @@ export default {
         "a bundle of nerves"
       ],
       "optionReasons": {
-        "nervous-mcq-11": "本句指「緊張得不得了」。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-12": "「神經」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。"
+        "nervous-mcq-11": "本句的「a bundle of nerves」指「緊張得不得了」。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-11"
     },
@@ -1227,11 +1123,9 @@ export default {
       "masked": "He was ____ while waiting for the results.",
       "options": [
         "nervous-mcq-11",
-        "nervous-mcq-10",
-        "nervous-mcq-12",
-        "nervous-mcq-09",
-        "nervous-mcq-13",
-        "nervous-mcq-08"
+        "nervous-mcq-16",
+        "nervous-mcq-17",
+        "nervous-mcq-18"
       ],
       "explanation": "本句的「a bundle of nerves」指「緊張得不得了」。",
       "sentenceIndex": 28,
@@ -1240,12 +1134,10 @@ export default {
         "a bundle of nerves"
       ],
       "optionReasons": {
-        "nervous-mcq-11": "本句指「緊張得不得了」。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-12": "「神經」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。",
-        "nervous-mcq-08": "「緊張地」與本句語境不同。"
+        "nervous-mcq-11": "本句的「a bundle of nerves」指「緊張得不得了」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-11"
     },
@@ -1257,11 +1149,9 @@ export default {
       "masked": "The injury damaged a ____ in his hand.",
       "options": [
         "nervous-mcq-12",
-        "nervous-mcq-11",
-        "nervous-mcq-13",
-        "nervous-mcq-10",
-        "nervous-mcq-14",
-        "nervous-mcq-09"
+        "nervous-mcq-08",
+        "nervous-mcq-18",
+        "nervous-mcq-15"
       ],
       "explanation": "本句的「nerve」指「神經」。",
       "sentenceIndex": 29,
@@ -1270,12 +1160,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nervous-mcq-12": "本句指「神經」。",
-        "nervous-mcq-11": "「緊張得不得了」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。"
+        "nervous-mcq-12": "本句的「nerve」指「神經」。",
+        "nervous-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-12"
     },
@@ -1287,11 +1175,9 @@ export default {
       "masked": "The dentist may need to treat the ____ inside the tooth.",
       "options": [
         "nervous-mcq-12",
-        "nervous-mcq-11",
-        "nervous-mcq-13",
-        "nervous-mcq-10",
-        "nervous-mcq-14",
-        "nervous-mcq-09"
+        "nervous-mcq-17",
+        "nervous-mcq-18",
+        "nervous-mcq-05"
       ],
       "explanation": "本句的「nerve」指「神經」。",
       "sentenceIndex": 30,
@@ -1300,12 +1186,10 @@ export default {
         "nerve"
       ],
       "optionReasons": {
-        "nervous-mcq-12": "本句指「神經」。",
-        "nervous-mcq-11": "「緊張得不得了」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。",
-        "nervous-mcq-10": "「緊張情緒」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。",
-        "nervous-mcq-09": "「緊張；焦慮」與本句語境不同。"
+        "nervous-mcq-12": "本句的「nerve」指「神經」。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-12"
     },
@@ -1317,11 +1201,9 @@ export default {
       "masked": "He was going to jump, but he ____.",
       "options": [
         "nervous-mcq-15",
-        "nervous-mcq-14",
-        "nervous-mcq-16",
-        "nervous-mcq-13",
-        "nervous-mcq-17",
-        "nervous-mcq-12"
+        "nervous-mcq-10",
+        "nervous-mcq-07",
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「lost his nerve」指「失去勇氣；退縮」。",
       "sentenceIndex": 33,
@@ -1330,12 +1212,10 @@ export default {
         "lost his nerve"
       ],
       "optionReasons": {
-        "nervous-mcq-15": "本句指「失去勇氣；退縮」。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-12": "「神經」與本句語境不同。"
+        "nervous-mcq-15": "本句的「lost his nerve」指「失去勇氣；退縮」。",
+        "nervous-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-15"
     },
@@ -1347,11 +1227,9 @@ export default {
       "masked": "Don't ____ now.",
       "options": [
         "nervous-mcq-15",
-        "nervous-mcq-14",
-        "nervous-mcq-16",
-        "nervous-mcq-13",
-        "nervous-mcq-17",
-        "nervous-mcq-12"
+        "nervous-mcq-02",
+        "nervous-mcq-07",
+        "nervous-mcq-17"
       ],
       "explanation": "本句的「lose your nerve」指「失去勇氣；退縮」。",
       "sentenceIndex": 34,
@@ -1360,12 +1238,10 @@ export default {
         "lose your nerve"
       ],
       "optionReasons": {
-        "nervous-mcq-15": "本句指「失去勇氣；退縮」。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-12": "「神經」與本句語境不同。"
+        "nervous-mcq-15": "本句的「lose your nerve」指「失去勇氣；退縮」。",
+        "nervous-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-15"
     },
@@ -1377,11 +1253,9 @@ export default {
       "masked": "She ____ and finished the speech.",
       "options": [
         "nervous-mcq-16",
-        "nervous-mcq-15",
-        "nervous-mcq-17",
-        "nervous-mcq-14",
-        "nervous-mcq-18",
-        "nervous-mcq-13"
+        "nervous-mcq-07",
+        "nervous-mcq-05",
+        "nervous-mcq-15"
       ],
       "explanation": "本句的「held her nerve」指「保持鎮定」。",
       "sentenceIndex": 35,
@@ -1390,12 +1264,10 @@ export default {
         "held her nerve"
       ],
       "optionReasons": {
-        "nervous-mcq-16": "本句指「保持鎮定」。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。",
-        "nervous-mcq-18": "「令某人很煩」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。"
+        "nervous-mcq-16": "本句的「held her nerve」指「保持鎮定」。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-16"
     },
@@ -1407,11 +1279,9 @@ export default {
       "masked": "The player ____ under pressure.",
       "options": [
         "nervous-mcq-16",
-        "nervous-mcq-15",
-        "nervous-mcq-17",
-        "nervous-mcq-14",
-        "nervous-mcq-18",
-        "nervous-mcq-13"
+        "nervous-mcq-03",
+        "nervous-mcq-19",
+        "nervous-mcq-18"
       ],
       "explanation": "本句的「kept his nerve」指「保持鎮定」。",
       "sentenceIndex": 36,
@@ -1420,12 +1290,10 @@ export default {
         "kept his nerve"
       ],
       "optionReasons": {
-        "nervous-mcq-16": "本句指「保持鎮定」。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。",
-        "nervous-mcq-18": "「令某人很煩」與本句語境不同。",
-        "nervous-mcq-13": "「勇氣；膽量」與本句語境不同。"
+        "nervous-mcq-16": "本句的「kept his nerve」指「保持鎮定」。",
+        "nervous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-16"
     },
@@ -1437,11 +1305,9 @@ export default {
       "masked": "He ____ after arriving an hour late.",
       "options": [
         "nervous-mcq-17",
-        "nervous-mcq-16",
-        "nervous-mcq-18",
-        "nervous-mcq-15",
-        "nervous-mcq-19",
-        "nervous-mcq-14"
+        "nervous-mcq-12",
+        "nervous-pdf-001",
+        "nervous-mcq-15"
       ],
       "explanation": "本句的「had the nerve to complain」指「竟敢；厚着臉皮」。",
       "sentenceIndex": 37,
@@ -1450,12 +1316,10 @@ export default {
         "had the nerve to complain"
       ],
       "optionReasons": {
-        "nervous-mcq-17": "本句指「竟敢；厚着臉皮」。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-18": "「令某人很煩」與本句語境不同。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-19": "「精神崩潰」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。"
+        "nervous-mcq-17": "本句的「had the nerve to complain」指「竟敢；厚着臉皮」。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "nervous-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-17"
     },
@@ -1467,11 +1331,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "nervous-mcq-17",
-        "nervous-mcq-16",
-        "nervous-mcq-18",
-        "nervous-mcq-15",
-        "nervous-mcq-19",
-        "nervous-mcq-14"
+        "nervous-mcq-07",
+        "nervous-mcq-09",
+        "nervous-mcq-19"
       ],
       "explanation": "本句的「had the nerve to ask for more money」指「竟敢；厚着臉皮」。",
       "sentenceIndex": 38,
@@ -1480,12 +1342,10 @@ export default {
         "had the nerve to ask for more money"
       ],
       "optionReasons": {
-        "nervous-mcq-17": "本句指「竟敢；厚着臉皮」。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-18": "「令某人很煩」與本句語境不同。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-19": "「精神崩潰」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。"
+        "nervous-mcq-17": "本句的「had the nerve to ask for more money」指「竟敢；厚着臉皮」。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-17"
     },
@@ -1497,11 +1357,9 @@ export default {
       "masked": "That constant noise is ____.",
       "options": [
         "nervous-mcq-18",
-        "nervous-mcq-17",
-        "nervous-mcq-19",
         "nervous-mcq-16",
-        "nervous-mcq-15",
-        "nervous-mcq-14"
+        "nervous-mcq-10",
+        "nervous-mcq-12"
       ],
       "explanation": "本句的「getting on my nerves」指「令某人很煩」。",
       "sentenceIndex": 39,
@@ -1510,12 +1368,10 @@ export default {
         "getting on my nerves"
       ],
       "optionReasons": {
-        "nervous-mcq-18": "本句指「令某人很煩」。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-19": "「精神崩潰」與本句語境不同。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。"
+        "nervous-mcq-18": "本句的「getting on my nerves」指「令某人很煩」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-18"
     },
@@ -1527,11 +1383,9 @@ export default {
       "masked": "His complaining ____.",
       "options": [
         "nervous-mcq-18",
-        "nervous-mcq-17",
-        "nervous-mcq-19",
-        "nervous-mcq-16",
         "nervous-mcq-15",
-        "nervous-mcq-14"
+        "nervous-mcq-07",
+        "nervous-mcq-01"
       ],
       "explanation": "本句的「gets on everyone's nerves」指「令某人很煩」。",
       "sentenceIndex": 40,
@@ -1540,12 +1394,10 @@ export default {
         "gets on everyone's nerves"
       ],
       "optionReasons": {
-        "nervous-mcq-18": "本句指「令某人很煩」。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-19": "「精神崩潰」與本句語境不同。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。"
+        "nervous-mcq-18": "本句的「gets on everyone's nerves」指「令某人很煩」。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-18"
     },
@@ -1557,11 +1409,9 @@ export default {
       "masked": "He took time off work after a ____.",
       "options": [
         "nervous-mcq-19",
-        "nervous-mcq-18",
-        "nervous-mcq-17",
-        "nervous-mcq-16",
+        "nervous-mcq-09",
         "nervous-mcq-15",
-        "nervous-mcq-14"
+        "nervous-mcq-16"
       ],
       "explanation": "本句的「nervous breakdown」指「精神崩潰」。",
       "sentenceIndex": 41,
@@ -1570,12 +1420,10 @@ export default {
         "nervous breakdown"
       ],
       "optionReasons": {
-        "nervous-mcq-19": "本句指「精神崩潰」。",
-        "nervous-mcq-18": "「令某人很煩」與本句語境不同。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。"
+        "nervous-mcq-19": "本句的「nervous breakdown」指「精神崩潰」。",
+        "nervous-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-19"
     },
@@ -1587,11 +1435,9 @@ export default {
       "masked": "The phrase ____ is common in everyday speech but is not a precise medical diagnosis.",
       "options": [
         "nervous-mcq-19",
-        "nervous-mcq-18",
-        "nervous-mcq-17",
         "nervous-mcq-16",
-        "nervous-mcq-15",
-        "nervous-mcq-14"
+        "nervous-mcq-10",
+        "nervous-mcq-18"
       ],
       "explanation": "本句的「nervous breakdown」指「精神崩潰」。",
       "sentenceIndex": 42,
@@ -1600,12 +1446,10 @@ export default {
         "nervous breakdown"
       ],
       "optionReasons": {
-        "nervous-mcq-19": "本句指「精神崩潰」。",
-        "nervous-mcq-18": "「令某人很煩」與本句語境不同。",
-        "nervous-mcq-17": "「竟敢；厚着臉皮」與本句語境不同。",
-        "nervous-mcq-16": "「保持鎮定」與本句語境不同。",
-        "nervous-mcq-15": "「失去勇氣；退縮」與本句語境不同。",
-        "nervous-mcq-14": "「鼓起勇氣」與本句語境不同。"
+        "nervous-mcq-19": "本句的「nervous breakdown」指「精神崩潰」。",
+        "nervous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "nervous-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nervous-mcq-19"
     }
@@ -1617,5 +1461,7 @@ export default {
     "sha256": "7b8415b6f959de895ee29e46ac442263a5e686956f89ea84cb464bfbfb24b07c",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

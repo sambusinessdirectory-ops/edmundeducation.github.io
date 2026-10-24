@@ -524,11 +524,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "want-mcq-01",
-        "want-mcq-02",
-        "want-mcq-03",
-        "want-mcq-04",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-12",
+        "want-mcq-10",
+        "want-mcq-09"
       ],
       "explanation": "本句的「want some water」指「對某物有取得、擁有或使用它的願望」。",
       "sentenceIndex": 0,
@@ -537,12 +535,10 @@ export default {
         "want some water"
       ],
       "optionReasons": {
-        "want-mcq-01": "本句指「對某物有取得、擁有或使用它的願望」。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-01": "本句的「want some water」指「對某物有取得、擁有或使用它的願望」。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-01"
     },
@@ -554,11 +550,9 @@ export default {
       "masked": "She ____ a new phone.",
       "options": [
         "want-mcq-01",
-        "want-mcq-02",
-        "want-mcq-03",
-        "want-mcq-04",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-07",
+        "want-mcq-15",
+        "want-mcq-09"
       ],
       "explanation": "本句的「wants」指「對某物有取得、擁有或使用它的願望」。",
       "sentenceIndex": 1,
@@ -567,12 +561,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-01": "本句指「對某物有取得、擁有或使用它的願望」。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-01": "本句的「wants」指「對某物有取得、擁有或使用它的願望」。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-01"
     },
@@ -584,11 +576,9 @@ export default {
       "masked": "I ____ while I can.",
       "options": [
         "want-mcq-02",
-        "want-mcq-01",
-        "want-mcq-03",
-        "want-mcq-04",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-09",
+        "want-mcq-08",
+        "want-mcq-15"
       ],
       "explanation": "本句的「want to learn from her」指「有進行某項行動的個人願望／意圖」。",
       "sentenceIndex": 2,
@@ -597,12 +587,10 @@ export default {
         "want to learn from her"
       ],
       "optionReasons": {
-        "want-mcq-02": "本句指「有進行某項行動的個人願望／意圖」。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-02": "本句的「want to learn from her」指「有進行某項行動的個人願望／意圖」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-02"
     },
@@ -614,11 +602,9 @@ export default {
       "masked": "I ____ her this weekend.",
       "options": [
         "want-mcq-02",
-        "want-mcq-01",
-        "want-mcq-03",
-        "want-mcq-04",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-17",
+        "want-mcq-08",
+        "want-mcq-09"
       ],
       "explanation": "本句的「want to visit」指「有進行某項行動的個人願望／意圖」。",
       "sentenceIndex": 3,
@@ -627,12 +613,10 @@ export default {
         "want to visit"
       ],
       "optionReasons": {
-        "want-mcq-02": "本句指「有進行某項行動的個人願望／意圖」。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-02": "本句的「want to visit」指「有進行某項行動的個人願望／意圖」。",
+        "want-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-02"
     },
@@ -644,11 +628,9 @@ export default {
       "masked": "She ____ to spend more time with her family.",
       "options": [
         "want-mcq-02",
-        "want-mcq-01",
-        "want-mcq-03",
-        "want-mcq-04",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-12",
+        "want-mcq-17",
+        "want-mcq-09"
       ],
       "explanation": "本句的「wants」指「有進行某項行動的個人願望／意圖」。",
       "sentenceIndex": 4,
@@ -657,12 +639,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-02": "本句指「有進行某項行動的個人願望／意圖」。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-02": "本句的「wants」指「有進行某項行動的個人願望／意圖」。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-02"
     },
@@ -674,11 +654,9 @@ export default {
       "masked": "I ____ carefully.",
       "options": [
         "want-mcq-03",
-        "want-mcq-02",
-        "want-mcq-04",
-        "want-mcq-01",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-09",
+        "want-mcq-17",
+        "want-mcq-08"
       ],
       "explanation": "本句的「want you to listen」指「希望某人進行某項行動／處於某狀態」。",
       "sentenceIndex": 5,
@@ -687,12 +665,10 @@ export default {
         "want you to listen"
       ],
       "optionReasons": {
-        "want-mcq-03": "本句指「希望某人進行某項行動／處於某狀態」。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-03": "本句的「want you to listen」指「希望某人進行某項行動／處於某狀態」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-03"
     },
@@ -704,11 +680,9 @@ export default {
       "masked": "She ____ her children to be happy.",
       "options": [
         "want-mcq-03",
-        "want-mcq-02",
-        "want-mcq-04",
-        "want-mcq-01",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-10",
+        "want-mcq-09",
+        "want-mcq-11"
       ],
       "explanation": "本句的「wants」指「希望某人進行某項行動／處於某狀態」。",
       "sentenceIndex": 6,
@@ -717,12 +691,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-03": "本句指「希望某人進行某項行動／處於某狀態」。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-03": "本句的「wants」指「希望某人進行某項行動／處於某狀態」。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-03"
     },
@@ -734,11 +706,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "want-mcq-03",
-        "want-mcq-02",
-        "want-mcq-04",
-        "want-mcq-01",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-09",
+        "want-mcq-15",
+        "want-mcq-01"
       ],
       "explanation": "本句的「don’t want you to worry」指「希望某人進行某項行動／處於某狀態」。",
       "sentenceIndex": 7,
@@ -747,12 +717,10 @@ export default {
         "don’t want you to worry"
       ],
       "optionReasons": {
-        "want-mcq-03": "本句指「希望某人進行某項行動／處於某狀態」。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-03": "本句的「don’t want you to worry」指「希望某人進行某項行動／處於某狀態」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-03"
     },
@@ -764,11 +732,9 @@ export default {
       "masked": "She didn’t ____ him to leave.",
       "options": [
         "want-mcq-03",
-        "want-mcq-02",
-        "want-mcq-04",
-        "want-mcq-01",
-        "want-mcq-05",
-        "want-mcq-06"
+        "want-mcq-10",
+        "want-mcq-09",
+        "want-pdf-002"
       ],
       "explanation": "本句的「want」指「希望某人進行某項行動／處於某狀態」。",
       "sentenceIndex": 8,
@@ -777,12 +743,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-03": "本句指「希望某人進行某項行動／處於某狀態」。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-03": "本句的「want」指「希望某人進行某項行動／處於某狀態」。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-03"
     },
@@ -794,11 +758,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "want-mcq-04",
-        "want-mcq-03",
-        "want-mcq-05",
-        "want-mcq-02",
-        "want-mcq-06",
-        "want-mcq-01"
+        "want-mcq-16",
+        "want-mcq-07",
+        "want-mcq-08"
       ],
       "explanation": "本句的「want things to improve」指「希望某個情況或結果出現」。",
       "sentenceIndex": 9,
@@ -807,12 +769,10 @@ export default {
         "want things to improve"
       ],
       "optionReasons": {
-        "want-mcq-04": "本句指「希望某個情況或結果出現」。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。"
+        "want-mcq-04": "本句的「want things to improve」指「希望某個情況或結果出現」。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-04"
     },
@@ -824,11 +784,9 @@ export default {
       "masked": "They ____ the project to succeed.",
       "options": [
         "want-mcq-04",
-        "want-mcq-03",
-        "want-mcq-05",
-        "want-mcq-02",
-        "want-mcq-06",
-        "want-mcq-01"
+        "want-mcq-07",
+        "want-mcq-10",
+        "want-mcq-11"
       ],
       "explanation": "本句的「want」指「希望某個情況或結果出現」。",
       "sentenceIndex": 10,
@@ -837,12 +795,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-04": "本句指「希望某個情況或結果出現」。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-01": "「對某物有取得、擁有或使用它的願望」是「want something」的用法，與本句語境不同。"
+        "want-mcq-04": "本句的「want」指「希望某個情況或結果出現」。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-04"
     },
@@ -854,11 +810,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "want-mcq-05",
-        "want-mcq-04",
-        "want-mcq-06",
-        "want-mcq-03",
+        "want-mcq-09",
         "want-mcq-07",
-        "want-mcq-02"
+        "want-mcq-10"
       ],
       "explanation": "本句的「want this finished today」指「希望／要求某件事情被處理到指定狀態」。",
       "sentenceIndex": 11,
@@ -867,12 +821,10 @@ export default {
         "want this finished today"
       ],
       "optionReasons": {
-        "want-mcq-05": "本句指「希望／要求某件事情被處理到指定狀態」。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
+        "want-mcq-05": "本句的「want this finished today」指「希望／要求某件事情被處理到指定狀態」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-05"
     },
@@ -884,11 +836,9 @@ export default {
       "masked": "She ____ the room cleaned before the guests arrive.",
       "options": [
         "want-mcq-05",
-        "want-mcq-04",
-        "want-mcq-06",
-        "want-mcq-03",
-        "want-mcq-07",
-        "want-mcq-02"
+        "want-mcq-10",
+        "want-mcq-12",
+        "want-mcq-09"
       ],
       "explanation": "本句的「wants」指「希望／要求某件事情被處理到指定狀態」。",
       "sentenceIndex": 12,
@@ -897,12 +847,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-05": "本句指「希望／要求某件事情被處理到指定狀態」。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
+        "want-mcq-05": "本句的「wants」指「希望／要求某件事情被處理到指定狀態」。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-05"
     },
@@ -914,11 +862,9 @@ export default {
       "masked": "Everyone ____.",
       "options": [
         "want-pdf-001",
-        "want-mcq-04",
-        "want-mcq-06",
-        "want-mcq-03",
-        "want-mcq-07",
-        "want-mcq-02"
+        "want-mcq-17",
+        "want-mcq-08",
+        "want-mcq-12"
       ],
       "explanation": "本句的「wants success」指「對某種結果／狀態具有明確願望」。",
       "sentenceIndex": 13,
@@ -927,12 +873,10 @@ export default {
         "wants success"
       ],
       "optionReasons": {
-        "want-pdf-001": "本句指「對某種結果／狀態具有明確願望」。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
+        "want-pdf-001": "本句的「wants success」指「對某種結果／狀態具有明確願望」。",
+        "want-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-pdf-001"
     },
@@ -944,11 +888,9 @@ export default {
       "masked": "What she really ____ is peace.",
       "options": [
         "want-pdf-001",
-        "want-mcq-04",
-        "want-mcq-06",
-        "want-mcq-03",
-        "want-mcq-07",
-        "want-mcq-02"
+        "want-mcq-16",
+        "want-mcq-08",
+        "want-mcq-12"
       ],
       "explanation": "本句的「wants」指「對某種結果／狀態具有明確願望」。",
       "sentenceIndex": 14,
@@ -957,12 +899,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-pdf-001": "本句指「對某種結果／狀態具有明確願望」。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
+        "want-pdf-001": "本句的「wants」指「對某種結果／狀態具有明確願望」。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-pdf-001"
     },
@@ -974,11 +914,9 @@ export default {
       "masked": "____.",
       "options": [
         "want-pdf-002",
-        "want-mcq-04",
-        "want-mcq-06",
-        "want-mcq-03",
-        "want-mcq-07",
-        "want-mcq-02"
+        "want-mcq-10",
+        "want-mcq-12",
+        "want-mcq-09"
       ],
       "explanation": "本句的「All I want is some quiet」指「強調某個願望是最主要／唯一要求」。",
       "sentenceIndex": 15,
@@ -987,12 +925,10 @@ export default {
         "All I want is some quiet"
       ],
       "optionReasons": {
-        "want-pdf-002": "本句指「強調某個願望是最主要／唯一要求」。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
+        "want-pdf-002": "本句的「All I want is some quiet」指「強調某個願望是最主要／唯一要求」。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-pdf-002"
     },
@@ -1004,11 +940,9 @@ export default {
       "masked": "All she ____ is to spend time with her family.",
       "options": [
         "want-pdf-002",
-        "want-mcq-04",
-        "want-mcq-06",
-        "want-mcq-03",
-        "want-mcq-07",
-        "want-mcq-02"
+        "want-mcq-16",
+        "want-mcq-12",
+        "want-mcq-04"
       ],
       "explanation": "本句的「wants」指「強調某個願望是最主要／唯一要求」。",
       "sentenceIndex": 16,
@@ -1017,12 +951,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-pdf-002": "本句指「強調某個願望是最主要／唯一要求」。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-02": "「有進行某項行動的個人願望／意圖」是「want to do」的用法，與本句語境不同。"
+        "want-pdf-002": "本句的「wants」指「強調某個願望是最主要／唯一要求」。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-pdf-002"
     },
@@ -1034,11 +966,9 @@ export default {
       "masked": "What do you ____ for dinner?",
       "options": [
         "want-mcq-18",
-        "want-mcq-17",
-        "want-mcq-19",
-        "want-mcq-16",
-        "want-mcq-15",
-        "want-mcq-14"
+        "want-mcq-09",
+        "want-mcq-10",
+        "want-mcq-11"
       ],
       "explanation": "本句的「want」指「詢問某人的願望、選擇或要求」。",
       "sentenceIndex": 17,
@@ -1047,12 +977,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-18": "本句指「詢問某人的願望、選擇或要求」。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-19": "「因警方／當局希望找到某人而形成的詞彙化形容詞」是「19. wanted person / wanted poster（通緝犯／通緝海報） — 通緝」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。"
+        "want-mcq-18": "本句的「want」指「詢問某人的願望、選擇或要求」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-18"
     },
@@ -1064,11 +992,9 @@ export default {
       "masked": "What do you ____ from me?",
       "options": [
         "want-mcq-18",
-        "want-mcq-17",
-        "want-mcq-19",
-        "want-mcq-16",
-        "want-mcq-15",
-        "want-mcq-14"
+        "want-mcq-09",
+        "want-mcq-10",
+        "want-mcq-11"
       ],
       "explanation": "本句的「want」指「詢問某人的願望、選擇或要求」。",
       "sentenceIndex": 18,
@@ -1077,12 +1003,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-18": "本句指「詢問某人的願望、選擇或要求」。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-19": "「因警方／當局希望找到某人而形成的詞彙化形容詞」是「19. wanted person / wanted poster（通緝犯／通緝海報） — 通緝」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。"
+        "want-mcq-18": "本句的「want」指「詢問某人的願望、選擇或要求」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-18"
     },
@@ -1094,11 +1018,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "want-mcq-06",
-        "want-mcq-05",
-        "want-mcq-07",
-        "want-mcq-04",
-        "want-mcq-08",
-        "want-mcq-03"
+        "want-mcq-12",
+        "want-mcq-10",
+        "want-mcq-09"
       ],
       "explanation": "本句的「want tea or coffee」指「在幾個選項中表示自己希望選擇／取得哪一個」。",
       "sentenceIndex": 19,
@@ -1107,12 +1029,10 @@ export default {
         "want tea or coffee"
       ],
       "optionReasons": {
-        "want-mcq-06": "本句指「在幾個選項中表示自己希望選擇／取得哪一個」。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。"
+        "want-mcq-06": "本句的「want tea or coffee」指「在幾個選項中表示自己希望選擇／取得哪一個」。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-06"
     },
@@ -1124,11 +1044,9 @@ export default {
       "masked": "I ____ the smaller one.",
       "options": [
         "want-mcq-06",
-        "want-mcq-05",
-        "want-mcq-07",
-        "want-mcq-04",
-        "want-mcq-08",
-        "want-mcq-03"
+        "want-mcq-09",
+        "want-mcq-14",
+        "want-mcq-07"
       ],
       "explanation": "本句的「want」指「在幾個選項中表示自己希望選擇／取得哪一個」。",
       "sentenceIndex": 20,
@@ -1137,12 +1055,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-06": "本句指「在幾個選項中表示自己希望選擇／取得哪一個」。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-03": "「希望某人進行某項行動／處於某狀態」是「want someone to do」的用法，與本句語境不同。"
+        "want-mcq-06": "本句的「want」指「在幾個選項中表示自己希望選擇／取得哪一個」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-06"
     },
@@ -1154,11 +1070,9 @@ export default {
       "masked": "It was obvious that he ____.",
       "options": [
         "want-mcq-07",
-        "want-mcq-06",
-        "want-mcq-08",
-        "want-mcq-05",
-        "want-mcq-09",
-        "want-mcq-04"
+        "want-pdf-003",
+        "want-mcq-01",
+        "want-mcq-09"
       ],
       "explanation": "本句的「wanted her」指「對某人有強烈愛慕／性吸引；須依語境判斷」。",
       "sentenceIndex": 21,
@@ -1167,12 +1081,10 @@ export default {
         "wanted her"
       ],
       "optionReasons": {
-        "want-mcq-07": "本句指「對某人有強烈愛慕／性吸引；須依語境判斷」。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。"
+        "want-mcq-07": "本句的「wanted her」指「對某人有強烈愛慕／性吸引；須依語境判斷」。",
+        "want-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-07"
     },
@@ -1184,11 +1096,9 @@ export default {
       "masked": "She knew he still ____ her.",
       "options": [
         "want-mcq-07",
-        "want-mcq-06",
-        "want-mcq-08",
-        "want-mcq-05",
+        "want-mcq-11",
         "want-mcq-09",
-        "want-mcq-04"
+        "want-mcq-15"
       ],
       "explanation": "本句的「wanted」指「對某人有強烈愛慕／性吸引；須依語境判斷」。",
       "sentenceIndex": 22,
@@ -1197,12 +1107,10 @@ export default {
         "wanted"
       ],
       "optionReasons": {
-        "want-mcq-07": "本句指「對某人有強烈愛慕／性吸引；須依語境判斷」。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-04": "「希望某個情況或結果出現」是「want something to happen」的用法，與本句語境不同。"
+        "want-mcq-07": "本句的「wanted」指「對某人有強烈愛慕／性吸引；須依語境判斷」。",
+        "want-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-07"
     },
@@ -1214,11 +1122,9 @@ export default {
       "masked": "The car ____.",
       "options": [
         "want-mcq-08",
-        "want-mcq-07",
-        "want-mcq-09",
-        "want-mcq-06",
-        "want-mcq-10",
-        "want-mcq-05"
+        "want-mcq-19",
+        "want-mcq-16",
+        "want-mcq-02"
       ],
       "explanation": "本句的「wants washing」指「某物需要接受某種處理；較常見於部分英式用法」。",
       "sentenceIndex": 23,
@@ -1227,12 +1133,10 @@ export default {
         "wants washing"
       ],
       "optionReasons": {
-        "want-mcq-08": "本句指「某物需要接受某種處理；較常見於部分英式用法」。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。"
+        "want-mcq-08": "本句的「wants washing」指「某物需要接受某種處理；較常見於部分英式用法」。",
+        "want-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-08"
     },
@@ -1245,10 +1149,8 @@ export default {
       "options": [
         "want-mcq-08",
         "want-mcq-07",
-        "want-mcq-09",
-        "want-mcq-06",
-        "want-mcq-10",
-        "want-mcq-05"
+        "want-mcq-16",
+        "want-mcq-02"
       ],
       "explanation": "本句的「wants」指「某物需要接受某種處理；較常見於部分英式用法」。",
       "sentenceIndex": 24,
@@ -1257,12 +1159,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-08": "本句指「某物需要接受某種處理；較常見於部分英式用法」。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-05": "「希望／要求某件事情被處理到指定狀態」是「want something done」的用法，與本句語境不同。"
+        "want-mcq-08": "本句的「wants」指「某物需要接受某種處理；較常見於部分英式用法」。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-08"
     },
@@ -1274,11 +1174,9 @@ export default {
       "masked": "The plan failed ____ money.",
       "options": [
         "want-pdf-003",
-        "want-mcq-08",
-        "want-mcq-10",
-        "want-mcq-07",
-        "want-mcq-11",
-        "want-mcq-06"
+        "want-pdf-001",
+        "want-mcq-12",
+        "want-mcq-08"
       ],
       "explanation": "本句的「for want of」指「lack / absence；缺少某項必要事物」。",
       "sentenceIndex": 25,
@@ -1287,12 +1185,10 @@ export default {
         "for want of"
       ],
       "optionReasons": {
-        "want-pdf-003": "本句指「lack / absence；缺少某項必要事物」。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-pdf-003": "本句的「for want of」指「lack / absence；缺少某項必要事物」。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-pdf-003"
     },
@@ -1304,11 +1200,9 @@ export default {
       "masked": "The project stopped for ____ of support.",
       "options": [
         "want-pdf-003",
-        "want-mcq-08",
-        "want-mcq-10",
-        "want-mcq-07",
-        "want-mcq-11",
-        "want-mcq-06"
+        "want-mcq-12",
+        "want-pdf-001",
+        "want-mcq-08"
       ],
       "explanation": "本句的「want」指「lack / absence；缺少某項必要事物」。",
       "sentenceIndex": 26,
@@ -1317,12 +1211,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-pdf-003": "本句指「lack / absence；缺少某項必要事物」。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-pdf-003": "本句的「want」指「lack / absence；缺少某項必要事物」。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-pdf-003"
     },
@@ -1334,11 +1226,9 @@ export default {
       "masked": "The plants died ____.",
       "options": [
         "want-mcq-09",
-        "want-mcq-08",
-        "want-mcq-10",
-        "want-mcq-07",
-        "want-mcq-11",
-        "want-mcq-06"
+        "want-mcq-05",
+        "want-mcq-14",
+        "want-mcq-12"
       ],
       "explanation": "本句的「for want of water」指「因為欠缺 X 而導致某結果」。",
       "sentenceIndex": 27,
@@ -1347,12 +1237,10 @@ export default {
         "for want of water"
       ],
       "optionReasons": {
-        "want-mcq-09": "本句指「因為欠缺 X 而導致某結果」。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-09": "本句的「for want of water」指「因為欠缺 X 而導致某結果」。",
+        "want-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-09"
     },
@@ -1364,11 +1252,8 @@ export default {
       "masked": "The idea was abandoned for ____ of funding.",
       "options": [
         "want-mcq-09",
-        "want-mcq-08",
-        "want-mcq-10",
-        "want-mcq-07",
-        "want-mcq-11",
-        "want-mcq-06"
+        "want-mcq-18",
+        "want-mcq-14"
       ],
       "explanation": "本句的「want」指「因為欠缺 X 而導致某結果」。",
       "sentenceIndex": 28,
@@ -1377,12 +1262,9 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-09": "本句指「因為欠缺 X 而導致某結果」。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-06": "「在幾個選項中表示自己希望選擇／取得哪一個」是「want — choice/order」的用法，與本句語境不同。"
+        "want-mcq-09": "本句的「want」指「因為欠缺 X 而導致某結果」。",
+        "want-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-09"
     },
@@ -1394,10 +1276,8 @@ export default {
       "masked": "Many families suffered ____ during the crisis.",
       "options": [
         "want-mcq-10",
-        "want-mcq-09",
-        "want-mcq-11",
-        "want-mcq-08",
-        "want-mcq-12",
+        "want-mcq-06",
+        "want-mcq-02",
         "want-mcq-07"
       ],
       "explanation": "本句的「want」指「缺乏生活必需品／物質匱乏；正式或文學用法」。",
@@ -1407,12 +1287,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-10": "本句指「缺乏生活必需品／物質匱乏；正式或文學用法」。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。"
+        "want-mcq-10": "本句的「want」指「缺乏生活必需品／物質匱乏；正式或文學用法」。",
+        "want-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-10"
     },
@@ -1424,11 +1302,9 @@ export default {
       "masked": "They lived in poverty and ____.",
       "options": [
         "want-mcq-10",
-        "want-mcq-09",
-        "want-mcq-11",
-        "want-mcq-08",
-        "want-mcq-12",
-        "want-mcq-07"
+        "want-pdf-002",
+        "want-mcq-03",
+        "want-mcq-09"
       ],
       "explanation": "本句的「want」指「缺乏生活必需品／物質匱乏；正式或文學用法」。",
       "sentenceIndex": 30,
@@ -1437,12 +1313,10 @@ export default {
         "want"
       ],
       "optionReasons": {
-        "want-mcq-10": "本句指「缺乏生活必需品／物質匱乏；正式或文學用法」。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-07": "「對某人有強烈愛慕／性吸引；須依語境判斷」是「want someone — romantic」的用法，與本句語境不同。"
+        "want-mcq-10": "本句的「want」指「缺乏生活必需品／物質匱乏；正式或文學用法」。",
+        "want-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-10"
     },
@@ -1454,11 +1328,9 @@ export default {
       "masked": "People have different ____.",
       "options": [
         "want-mcq-11",
-        "want-mcq-10",
-        "want-mcq-12",
         "want-mcq-09",
-        "want-mcq-13",
-        "want-mcq-08"
+        "want-mcq-07",
+        "want-mcq-02"
       ],
       "explanation": "本句的「wants and needs」指「人想得到但未必真正必要的東西／欲望」。",
       "sentenceIndex": 31,
@@ -1467,12 +1339,10 @@ export default {
         "wants and needs"
       ],
       "optionReasons": {
-        "want-mcq-11": "本句指「人想得到但未必真正必要的東西／欲望」。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。"
+        "want-mcq-11": "本句的「wants and needs」指「人想得到但未必真正必要的東西／欲望」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-11"
     },
@@ -1484,11 +1354,9 @@ export default {
       "masked": "The product is designed around customer ____.",
       "options": [
         "want-mcq-11",
-        "want-mcq-10",
-        "want-mcq-12",
-        "want-mcq-09",
-        "want-mcq-13",
-        "want-mcq-08"
+        "want-mcq-16",
+        "want-mcq-07",
+        "want-pdf-001"
       ],
       "explanation": "本句的「wants」指「人想得到但未必真正必要的東西／欲望」。",
       "sentenceIndex": 32,
@@ -1497,12 +1365,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-11": "本句指「人想得到但未必真正必要的東西／欲望」。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。"
+        "want-mcq-11": "本句的「wants」指「人想得到但未必真正必要的東西／欲望」。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-11"
     },
@@ -1514,11 +1380,9 @@ export default {
       "masked": "Children gradually learn the difference between ____.",
       "options": [
         "want-mcq-11",
-        "want-mcq-10",
-        "want-mcq-12",
-        "want-mcq-09",
-        "want-mcq-13",
-        "want-mcq-08"
+        "want-mcq-16",
+        "want-mcq-07",
+        "want-mcq-04"
       ],
       "explanation": "本句的「wants and needs」指「人想得到但未必真正必要的東西／欲望」。",
       "sentenceIndex": 33,
@@ -1527,12 +1391,10 @@ export default {
         "wants and needs"
       ],
       "optionReasons": {
-        "want-mcq-11": "本句指「人想得到但未必真正必要的東西／欲望」。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。"
+        "want-mcq-11": "本句的「wants and needs」指「人想得到但未必真正必要的東西／欲望」。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-11"
     },
@@ -1544,11 +1406,9 @@ export default {
       "masked": "Budgeting requires separating ____ from needs.",
       "options": [
         "want-mcq-11",
-        "want-mcq-10",
-        "want-mcq-12",
         "want-mcq-09",
-        "want-mcq-13",
-        "want-mcq-08"
+        "want-mcq-07",
+        "want-mcq-02"
       ],
       "explanation": "本句的「wants」指「人想得到但未必真正必要的東西／欲望」。",
       "sentenceIndex": 34,
@@ -1557,12 +1417,10 @@ export default {
         "wants"
       ],
       "optionReasons": {
-        "want-mcq-11": "本句指「人想得到但未必真正必要的東西／欲望」。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-08": "「某物需要接受某種處理；較常見於部分英式用法」是「want + -ing — need」的用法，與本句語境不同。"
+        "want-mcq-11": "本句的「wants」指「人想得到但未必真正必要的東西／欲望」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-11"
     },
@@ -1574,11 +1432,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "want-mcq-12",
-        "want-mcq-11",
-        "want-mcq-13",
-        "want-mcq-10",
-        "want-mcq-14",
-        "want-mcq-09"
+        "want-pdf-002",
+        "want-pdf-003",
+        "want-mcq-08"
       ],
       "explanation": "本句的「wanted by the police」指「正被警方／某組織積極尋找的」。",
       "sentenceIndex": 35,
@@ -1587,12 +1443,10 @@ export default {
         "wanted by the police"
       ],
       "optionReasons": {
-        "want-mcq-12": "本句指「正被警方／某組織積極尋找的」。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。"
+        "want-mcq-12": "本句的「wanted by the police」指「正被警方／某組織積極尋找的」。",
+        "want-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-12"
     },
@@ -1604,11 +1458,9 @@ export default {
       "masked": "The suspect is ____ for questioning.",
       "options": [
         "want-mcq-12",
-        "want-mcq-11",
-        "want-mcq-13",
-        "want-mcq-10",
-        "want-mcq-14",
-        "want-mcq-09"
+        "want-pdf-003",
+        "want-mcq-01",
+        "want-mcq-05"
       ],
       "explanation": "本句的「wanted」指「正被警方／某組織積極尋找的」。",
       "sentenceIndex": 36,
@@ -1617,12 +1469,10 @@ export default {
         "wanted"
       ],
       "optionReasons": {
-        "want-mcq-12": "本句指「正被警方／某組織積極尋找的」。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-09": "「因為欠缺 X 而導致某結果」是「for want of X」的用法，與本句語境不同。"
+        "want-mcq-12": "本句的「wanted」指「正被警方／某組織積極尋找的」。",
+        "want-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-12"
     },
@@ -1634,11 +1484,8 @@ export default {
       "masked": "His face appeared on a ____.",
       "options": [
         "want-mcq-19",
-        "want-mcq-18",
-        "want-mcq-17",
-        "want-mcq-16",
-        "want-mcq-15",
-        "want-mcq-14"
+        "want-mcq-10",
+        "want-mcq-01"
       ],
       "explanation": "本句的「wanted poster」指「因警方／當局希望找到某人而形成的詞彙化形容詞」。",
       "sentenceIndex": 37,
@@ -1647,12 +1494,9 @@ export default {
         "wanted poster"
       ],
       "optionReasons": {
-        "want-mcq-19": "本句指「因警方／當局希望找到某人而形成的詞彙化形容詞」。",
-        "want-mcq-18": "「詢問某人的願望、選擇或要求」是「9. what do you want?（你想要甚麼？） — 想要甚麼／有甚麼要求」的用法，與本句語境不同。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。"
+        "want-mcq-19": "本句的「wanted poster」指「因警方／當局希望找到某人而形成的詞彙化形容詞」。",
+        "want-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-19"
     },
@@ -1664,11 +1508,9 @@ export default {
       "masked": "The police released information about the ____ man.",
       "options": [
         "want-mcq-19",
-        "want-mcq-18",
-        "want-mcq-17",
-        "want-mcq-16",
-        "want-mcq-15",
-        "want-mcq-14"
+        "want-pdf-003",
+        "want-mcq-08",
+        "want-pdf-002"
       ],
       "explanation": "本句的「wanted」指「因警方／當局希望找到某人而形成的詞彙化形容詞」。",
       "sentenceIndex": 38,
@@ -1677,12 +1519,10 @@ export default {
         "wanted"
       ],
       "optionReasons": {
-        "want-mcq-19": "本句指「因警方／當局希望找到某人而形成的詞彙化形容詞」。",
-        "want-mcq-18": "「詢問某人的願望、選擇或要求」是「9. what do you want?（你想要甚麼？） — 想要甚麼／有甚麼要求」的用法，與本句語境不同。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。"
+        "want-mcq-19": "本句的「wanted」指「因警方／當局希望找到某人而形成的詞彙化形容詞」。",
+        "want-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-19"
     },
@@ -1694,11 +1534,9 @@ export default {
       "masked": "The child needed to feel ____.",
       "options": [
         "want-mcq-13",
-        "want-mcq-12",
-        "want-mcq-14",
-        "want-mcq-11",
-        "want-mcq-15",
-        "want-mcq-10"
+        "want-mcq-09",
+        "want-mcq-17",
+        "want-mcq-02"
       ],
       "explanation": "本句的「wanted」指「被別人真正希望存在、需要或重視的」。",
       "sentenceIndex": 39,
@@ -1707,12 +1545,10 @@ export default {
         "wanted"
       ],
       "optionReasons": {
-        "want-mcq-13": "本句指「被別人真正希望存在、需要或重視的」。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。"
+        "want-mcq-13": "本句的「wanted」指「被別人真正希望存在、需要或重視的」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-13"
     },
@@ -1724,11 +1560,8 @@ export default {
       "masked": "She finally felt ____ and accepted.",
       "options": [
         "want-mcq-13",
-        "want-mcq-12",
-        "want-mcq-14",
-        "want-mcq-11",
-        "want-mcq-15",
-        "want-mcq-10"
+        "want-mcq-16",
+        "want-pdf-001"
       ],
       "explanation": "本句的「wanted」指「被別人真正希望存在、需要或重視的」。",
       "sentenceIndex": 40,
@@ -1737,12 +1570,9 @@ export default {
         "wanted"
       ],
       "optionReasons": {
-        "want-mcq-13": "本句指「被別人真正希望存在、需要或重視的」。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-10": "「缺乏生活必需品／物質匱乏；正式或文學用法」是「want — noun: lack」的用法，與本句語境不同。"
+        "want-mcq-13": "本句的「wanted」指「被別人真正希望存在、需要或重視的」。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-13"
     },
@@ -1754,11 +1584,9 @@ export default {
       "masked": "We received several ____.",
       "options": [
         "want-mcq-14",
-        "want-mcq-13",
-        "want-mcq-15",
-        "want-mcq-12",
+        "want-mcq-03",
         "want-mcq-16",
-        "want-mcq-11"
+        "want-mcq-01"
       ],
       "explanation": "本句的「unwanted emails」指「沒有人想要／需要／歡迎的」。",
       "sentenceIndex": 41,
@@ -1767,12 +1595,10 @@ export default {
         "unwanted emails"
       ],
       "optionReasons": {
-        "want-mcq-14": "本句指「沒有人想要／需要／歡迎的」。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。"
+        "want-mcq-14": "本句的「unwanted emails」指「沒有人想要／需要／歡迎的」。",
+        "want-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-14"
     },
@@ -1784,11 +1610,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "want-mcq-14",
-        "want-mcq-13",
-        "want-mcq-15",
-        "want-mcq-12",
-        "want-mcq-16",
-        "want-mcq-11"
+        "want-mcq-09",
+        "want-mcq-02",
+        "want-mcq-12"
       ],
       "explanation": "本句的「unwanted」指「沒有人想要／需要／歡迎的」。",
       "sentenceIndex": 42,
@@ -1797,12 +1621,10 @@ export default {
         "unwanted"
       ],
       "optionReasons": {
-        "want-mcq-14": "本句指「沒有人想要／需要／歡迎的」。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-11": "「人想得到但未必真正必要的東西／欲望」是「wants — desires」的用法，與本句語境不同。"
+        "want-mcq-14": "本句的「unwanted」指「沒有人想要／需要／歡迎的」。",
+        "want-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-14"
     },
@@ -1814,11 +1636,9 @@ export default {
       "masked": "His explanation was ____.",
       "options": [
         "want-mcq-15",
-        "want-mcq-14",
-        "want-mcq-16",
-        "want-mcq-13",
-        "want-mcq-17",
-        "want-mcq-12"
+        "want-pdf-001",
+        "want-mcq-07",
+        "want-mcq-06"
       ],
       "explanation": "本句的「wanting in detail」指「缺少重要品質、因此不夠充分／未達要求」。",
       "sentenceIndex": 43,
@@ -1827,12 +1647,10 @@ export default {
         "wanting in detail"
       ],
       "optionReasons": {
-        "want-mcq-15": "本句指「缺少重要品質、因此不夠充分／未達要求」。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。"
+        "want-mcq-15": "本句的「wanting in detail」指「缺少重要品質、因此不夠充分／未達要求」。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-15"
     },
@@ -1844,11 +1662,9 @@ export default {
       "masked": "The report was found ____.",
       "options": [
         "want-mcq-15",
-        "want-mcq-14",
-        "want-mcq-16",
-        "want-mcq-13",
-        "want-mcq-17",
-        "want-mcq-12"
+        "want-mcq-07",
+        "want-pdf-001",
+        "want-mcq-06"
       ],
       "explanation": "本句的「wanting」指「缺少重要品質、因此不夠充分／未達要求」。",
       "sentenceIndex": 44,
@@ -1857,12 +1673,10 @@ export default {
         "wanting"
       ],
       "optionReasons": {
-        "want-mcq-15": "本句指「缺少重要品質、因此不夠充分／未達要求」。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-12": "「正被警方／某組織積極尋找的」是「wanted — sought」的用法，與本句語境不同。"
+        "want-mcq-15": "本句的「wanting」指「缺少重要品質、因此不夠充分／未達要求」。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-15"
     },
@@ -1874,11 +1688,9 @@ export default {
       "masked": "The plan is ____.",
       "options": [
         "want-mcq-16",
-        "want-mcq-15",
-        "want-mcq-17",
-        "want-mcq-14",
-        "want-mcq-18",
-        "want-mcq-13"
+        "want-mcq-11",
+        "want-pdf-002",
+        "want-mcq-07"
       ],
       "explanation": "本句的「wanting in clarity」指「在 X 這方面有所欠缺」。",
       "sentenceIndex": 45,
@@ -1887,12 +1699,10 @@ export default {
         "wanting in clarity"
       ],
       "optionReasons": {
-        "want-mcq-16": "本句指「在 X 這方面有所欠缺」。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-18": "「詢問某人的願望、選擇或要求」是「9. what do you want?（你想要甚麼？） — 想要甚麼／有甚麼要求」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。"
+        "want-mcq-16": "本句的「wanting in clarity」指「在 X 這方面有所欠缺」。",
+        "want-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-16"
     },
@@ -1904,11 +1714,9 @@ export default {
       "masked": "His argument was ____ in evidence.",
       "options": [
         "want-mcq-16",
-        "want-mcq-15",
-        "want-mcq-17",
-        "want-mcq-14",
-        "want-mcq-18",
-        "want-mcq-13"
+        "want-mcq-12",
+        "want-mcq-01",
+        "want-mcq-04"
       ],
       "explanation": "本句的「wanting」指「在 X 這方面有所欠缺」。",
       "sentenceIndex": 46,
@@ -1917,12 +1725,10 @@ export default {
         "wanting"
       ],
       "optionReasons": {
-        "want-mcq-16": "本句指「在 X 這方面有所欠缺」。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-17": "「經評估後認為 X 缺乏必要品質／未達標」是「find X wanting」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。",
-        "want-mcq-18": "「詢問某人的願望、選擇或要求」是「9. what do you want?（你想要甚麼？） — 想要甚麼／有甚麼要求」的用法，與本句語境不同。",
-        "want-mcq-13": "「被別人真正希望存在、需要或重視的」是「wanted — desired」的用法，與本句語境不同。"
+        "want-mcq-16": "本句的「wanting」指「在 X 這方面有所欠缺」。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-16"
     },
@@ -1934,11 +1740,9 @@ export default {
       "masked": "The committee ____.",
       "options": [
         "want-mcq-17",
-        "want-mcq-16",
-        "want-mcq-18",
-        "want-mcq-15",
-        "want-mcq-19",
-        "want-mcq-14"
+        "want-mcq-06",
+        "want-pdf-001",
+        "want-mcq-12"
       ],
       "explanation": "本句的「found the proposal wanting」指「經評估後認為 X 缺乏必要品質／未達標」。",
       "sentenceIndex": 47,
@@ -1947,12 +1751,10 @@ export default {
         "found the proposal wanting"
       ],
       "optionReasons": {
-        "want-mcq-17": "本句指「經評估後認為 X 缺乏必要品質／未達標」。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-18": "「詢問某人的願望、選擇或要求」是「9. what do you want?（你想要甚麼？） — 想要甚麼／有甚麼要求」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-19": "「因警方／當局希望找到某人而形成的詞彙化形容詞」是「19. wanted person / wanted poster（通緝犯／通緝海報） — 通緝」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。"
+        "want-mcq-17": "本句的「found the proposal wanting」指「經評估後認為 X 缺乏必要品質／未達標」。",
+        "want-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "want-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-17"
     },
@@ -1964,11 +1766,9 @@ export default {
       "masked": "The evidence was found ____.",
       "options": [
         "want-mcq-17",
-        "want-mcq-16",
-        "want-mcq-18",
-        "want-mcq-15",
-        "want-mcq-19",
-        "want-mcq-14"
+        "want-mcq-04",
+        "want-mcq-01",
+        "want-mcq-12"
       ],
       "explanation": "本句的「wanting」指「經評估後認為 X 缺乏必要品質／未達標」。",
       "sentenceIndex": 48,
@@ -1977,12 +1777,10 @@ export default {
         "wanting"
       ],
       "optionReasons": {
-        "want-mcq-17": "本句指「經評估後認為 X 缺乏必要品質／未達標」。",
-        "want-mcq-16": "「在 X 這方面有所欠缺」是「be wanting in X」的用法，與本句語境不同。",
-        "want-mcq-18": "「詢問某人的願望、選擇或要求」是「9. what do you want?（你想要甚麼？） — 想要甚麼／有甚麼要求」的用法，與本句語境不同。",
-        "want-mcq-15": "「缺少重要品質、因此不夠充分／未達要求」是「wanting — deficient」的用法，與本句語境不同。",
-        "want-mcq-19": "「因警方／當局希望找到某人而形成的詞彙化形容詞」是「19. wanted person / wanted poster（通緝犯／通緝海報） — 通緝」的用法，與本句語境不同。",
-        "want-mcq-14": "「沒有人想要／需要／歡迎的」是「unwanted」的用法，與本句語境不同。"
+        "want-mcq-17": "本句的「wanting」指「經評估後認為 X 缺乏必要品質／未達標」。",
+        "want-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "want-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "want-mcq-17"
     }
@@ -1994,5 +1792,7 @@ export default {
     "sha256": "84275883f13c5e26365e2dc4eb0fa16b0e70f3f9a193c70f7bc4b9c27c106dc4",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

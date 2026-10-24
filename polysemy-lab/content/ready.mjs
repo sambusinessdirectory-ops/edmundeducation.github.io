@@ -438,11 +438,9 @@ export default {
       "masked": "I’m ____ to leave.",
       "options": [
         "ready-mcq-01",
-        "ready-mcq-02",
-        "ready-mcq-03",
-        "ready-mcq-04",
-        "ready-mcq-05",
-        "ready-mcq-06"
+        "ready-mcq-14",
+        "ready-mcq-15",
+        "ready-mcq-02"
       ],
       "explanation": "本句的「ready」指「已完成必要準備，可以立即開始某項行動／活動」。",
       "sentenceIndex": 0,
@@ -451,12 +449,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-01": "本句指「已完成必要準備，可以立即開始某項行動／活動」。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-01": "本句的「ready」指「已完成必要準備，可以立即開始某項行動／活動」。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-01"
     },
@@ -468,11 +464,9 @@ export default {
       "masked": "Are you ____ for the meeting?",
       "options": [
         "ready-mcq-01",
-        "ready-mcq-02",
-        "ready-mcq-03",
+        "ready-mcq-14",
         "ready-mcq-04",
-        "ready-mcq-05",
-        "ready-mcq-06"
+        "ready-mcq-07"
       ],
       "explanation": "本句的「ready」指「已完成必要準備，可以立即開始某項行動／活動」。",
       "sentenceIndex": 1,
@@ -481,12 +475,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-01": "本句指「已完成必要準備，可以立即開始某項行動／活動」。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-01": "本句的「ready」指「已完成必要準備，可以立即開始某項行動／活動」。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-01"
     },
@@ -498,11 +490,9 @@ export default {
       "masked": "She wasn’t ____ to talk about the problem.",
       "options": [
         "ready-mcq-02",
-        "ready-mcq-01",
         "ready-mcq-03",
-        "ready-mcq-04",
-        "ready-mcq-05",
-        "ready-mcq-06"
+        "ready-mcq-15",
+        "ready-mcq-13"
       ],
       "explanation": "本句的「ready」指「心理上已能夠接受、面對或處理某事」。",
       "sentenceIndex": 2,
@@ -511,12 +501,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-02": "本句指「心理上已能夠接受、面對或處理某事」。",
-        "ready-mcq-01": "「已完成必要準備，可以立即開始某項行動／活動」是「ready — prepared」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-02": "本句的「ready」指「心理上已能夠接受、面對或處理某事」。",
+        "ready-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-02"
     },
@@ -528,11 +516,9 @@ export default {
       "masked": "He finally felt ____ for a new challenge.",
       "options": [
         "ready-mcq-02",
-        "ready-mcq-01",
-        "ready-mcq-03",
-        "ready-mcq-04",
-        "ready-mcq-05",
-        "ready-mcq-06"
+        "ready-mcq-17",
+        "ready-mcq-13",
+        "ready-mcq-15"
       ],
       "explanation": "本句的「ready」指「心理上已能夠接受、面對或處理某事」。",
       "sentenceIndex": 3,
@@ -541,12 +527,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-02": "本句指「心理上已能夠接受、面對或處理某事」。",
-        "ready-mcq-01": "「已完成必要準備，可以立即開始某項行動／活動」是「ready — prepared」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-02": "本句的「ready」指「心理上已能夠接受、面對或處理某事」。",
+        "ready-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-02"
     },
@@ -558,11 +542,9 @@ export default {
       "masked": "She is always ____.",
       "options": [
         "ready-mcq-03",
+        "ready-mcq-15",
         "ready-mcq-02",
-        "ready-mcq-04",
-        "ready-mcq-01",
-        "ready-mcq-05",
-        "ready-mcq-06"
+        "ready-mcq-08"
       ],
       "explanation": "本句的「ready to help」指「願意並準備採取某項行動」。",
       "sentenceIndex": 4,
@@ -571,12 +553,10 @@ export default {
         "ready to help"
       ],
       "optionReasons": {
-        "ready-mcq-03": "本句指「願意並準備採取某項行動」。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-01": "「已完成必要準備，可以立即開始某項行動／活動」是「ready — prepared」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-03": "本句的「ready to help」指「願意並準備採取某項行動」。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-03"
     },
@@ -588,11 +568,9 @@ export default {
       "masked": "He was ____ to admit his mistake.",
       "options": [
         "ready-mcq-03",
-        "ready-mcq-02",
-        "ready-mcq-04",
-        "ready-mcq-01",
-        "ready-mcq-05",
-        "ready-mcq-06"
+        "ready-mcq-08",
+        "ready-mcq-15",
+        "ready-mcq-02"
       ],
       "explanation": "本句的「ready」指「願意並準備採取某項行動」。",
       "sentenceIndex": 5,
@@ -601,12 +579,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-03": "本句指「願意並準備採取某項行動」。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-01": "「已完成必要準備，可以立即開始某項行動／活動」是「ready — prepared」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-03": "本句的「ready」指「願意並準備採取某項行動」。",
+        "ready-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-03"
     },
@@ -618,11 +594,9 @@ export default {
       "masked": "He is too ____ others.",
       "options": [
         "ready-mcq-04",
-        "ready-mcq-03",
         "ready-mcq-05",
-        "ready-mcq-02",
-        "ready-mcq-06",
-        "ready-mcq-01"
+        "ready-mcq-17",
+        "ready-mcq-07"
       ],
       "explanation": "本句的「ready to criticize」指「很容易、很快就作出某種反應或提供某物」。",
       "sentenceIndex": 6,
@@ -631,12 +605,10 @@ export default {
         "ready to criticize"
       ],
       "optionReasons": {
-        "ready-mcq-04": "本句指「很容易、很快就作出某種反應或提供某物」。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-01": "「已完成必要準備，可以立即開始某項行動／活動」是「ready — prepared」的用法，與本句語境不同。"
+        "ready-mcq-04": "本句的「ready to criticize」指「很容易、很快就作出某種反應或提供某物」。",
+        "ready-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-04"
     },
@@ -649,10 +621,8 @@ export default {
       "options": [
         "ready-mcq-04",
         "ready-mcq-03",
-        "ready-mcq-05",
-        "ready-mcq-02",
-        "ready-mcq-06",
-        "ready-mcq-01"
+        "ready-mcq-07",
+        "ready-mcq-13"
       ],
       "explanation": "本句的「ready」指「很容易、很快就作出某種反應或提供某物」。",
       "sentenceIndex": 7,
@@ -661,12 +631,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-04": "本句指「很容易、很快就作出某種反應或提供某物」。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-01": "「已完成必要準備，可以立即開始某項行動／活動」是「ready — prepared」的用法，與本句語境不同。"
+        "ready-mcq-04": "本句的「ready」指「很容易、很快就作出某種反應或提供某物」。",
+        "ready-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-04"
     },
@@ -678,11 +646,9 @@ export default {
       "masked": "The room is ____ for the guests.",
       "options": [
         "ready-mcq-05",
+        "ready-mcq-14",
         "ready-mcq-04",
-        "ready-mcq-06",
-        "ready-mcq-03",
-        "ready-mcq-07",
-        "ready-mcq-02"
+        "ready-mcq-07"
       ],
       "explanation": "本句的「ready」指「已經準備妥當，可以立即被使用、享用或投入運作」。",
       "sentenceIndex": 8,
@@ -691,12 +657,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-05": "本句指「已經準備妥當，可以立即被使用、享用或投入運作」。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。"
+        "ready-mcq-05": "本句的「ready」指「已經準備妥當，可以立即被使用、享用或投入運作」。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-05"
     },
@@ -709,10 +673,8 @@ export default {
       "options": [
         "ready-mcq-05",
         "ready-mcq-04",
-        "ready-mcq-06",
-        "ready-mcq-03",
-        "ready-mcq-07",
-        "ready-mcq-02"
+        "ready-mcq-17",
+        "ready-mcq-07"
       ],
       "explanation": "本句的「ready」指「已經準備妥當，可以立即被使用、享用或投入運作」。",
       "sentenceIndex": 9,
@@ -721,12 +683,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-05": "本句指「已經準備妥當，可以立即被使用、享用或投入運作」。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-02": "「心理上已能夠接受、面對或處理某事」是「ready — psychological」的用法，與本句語境不同。"
+        "ready-mcq-05": "本句的「ready」指「已經準備妥當，可以立即被使用、享用或投入運作」。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-05"
     },
@@ -738,11 +698,9 @@ export default {
       "masked": "Your report is ____.",
       "options": [
         "ready-mcq-06",
-        "ready-mcq-05",
-        "ready-mcq-07",
-        "ready-mcq-04",
-        "ready-mcq-08",
-        "ready-mcq-03"
+        "ready-mcq-14",
+        "ready-mcq-11",
+        "ready-mcq-13"
       ],
       "explanation": "本句的「ready」指「某項工作／產品已完成並可以交付或使用」。",
       "sentenceIndex": 10,
@@ -751,12 +709,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-06": "本句指「某項工作／產品已完成並可以交付或使用」。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。"
+        "ready-mcq-06": "本句的「ready」指「某項工作／產品已完成並可以交付或使用」。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-06"
     },
@@ -768,11 +724,9 @@ export default {
       "masked": "The final version should be ____ tomorrow.",
       "options": [
         "ready-mcq-06",
-        "ready-mcq-05",
-        "ready-mcq-07",
-        "ready-mcq-04",
-        "ready-mcq-08",
-        "ready-mcq-03"
+        "ready-mcq-12",
+        "ready-mcq-15",
+        "ready-mcq-14"
       ],
       "explanation": "本句的「ready」指「某項工作／產品已完成並可以交付或使用」。",
       "sentenceIndex": 11,
@@ -781,12 +735,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-06": "本句指「某項工作／產品已完成並可以交付或使用」。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-03": "「願意並準備採取某項行動」是「ready — willing」的用法，與本句語境不同。"
+        "ready-mcq-06": "本句的「ready」指「某項工作／產品已完成並可以交付或使用」。",
+        "ready-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-06"
     },
@@ -798,11 +750,9 @@ export default {
       "masked": "Whenever her tomatoes or lemons are ____, she gives some away.",
       "options": [
         "ready-mcq-07",
-        "ready-mcq-06",
-        "ready-mcq-08",
-        "ready-mcq-05",
         "ready-mcq-09",
-        "ready-mcq-04"
+        "ready-mcq-15",
+        "ready-mcq-14"
       ],
       "explanation": "本句的「ready」指「已成熟到可以採收、食用或使用的階段」。",
       "sentenceIndex": 12,
@@ -811,12 +761,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-07": "本句指「已成熟到可以採收、食用或使用的階段」。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。"
+        "ready-mcq-07": "本句的「ready」指「已成熟到可以採收、食用或使用的階段」。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-07"
     },
@@ -828,11 +776,9 @@ export default {
       "masked": "The strawberries are nearly ____.",
       "options": [
         "ready-mcq-07",
-        "ready-mcq-06",
-        "ready-mcq-08",
-        "ready-mcq-05",
-        "ready-mcq-09",
-        "ready-mcq-04"
+        "ready-mcq-04",
+        "ready-mcq-13",
+        "ready-mcq-14"
       ],
       "explanation": "本句的「ready」指「已成熟到可以採收、食用或使用的階段」。",
       "sentenceIndex": 13,
@@ -841,12 +787,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-07": "本句指「已成熟到可以採收、食用或使用的階段」。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。"
+        "ready-mcq-07": "本句的「ready」指「已成熟到可以採收、食用或使用的階段」。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-07"
     },
@@ -858,11 +802,9 @@ export default {
       "masked": "These peppers aren’t ____ yet.",
       "options": [
         "ready-mcq-07",
-        "ready-mcq-06",
-        "ready-mcq-08",
-        "ready-mcq-05",
         "ready-mcq-09",
-        "ready-mcq-04"
+        "ready-mcq-14",
+        "ready-mcq-15"
       ],
       "explanation": "本句的「ready」指「已成熟到可以採收、食用或使用的階段」。",
       "sentenceIndex": 14,
@@ -871,12 +813,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-07": "本句指「已成熟到可以採收、食用或使用的階段」。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-04": "「很容易、很快就作出某種反應或提供某物」是「ready — inclined/quick」的用法，與本句語境不同。"
+        "ready-mcq-07": "本句的「ready」指「已成熟到可以採收、食用或使用的階段」。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-07"
     },
@@ -888,11 +828,9 @@ export default {
       "masked": "The paint is dry and the wall is ____.",
       "options": [
         "ready-mcq-08",
-        "ready-mcq-07",
+        "ready-mcq-11",
         "ready-mcq-09",
-        "ready-mcq-06",
-        "ready-mcq-10",
-        "ready-mcq-05"
+        "ready-mcq-15"
       ],
       "explanation": "本句的「ready」指「已達到可以開始下一階段或投入使用的狀態」。",
       "sentenceIndex": 15,
@@ -901,12 +839,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-08": "本句指「已達到可以開始下一階段或投入使用的狀態」。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。"
+        "ready-mcq-08": "本句的「ready」指「已達到可以開始下一階段或投入使用的狀態」。",
+        "ready-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-08"
     },
@@ -918,11 +854,9 @@ export default {
       "masked": "The soil is ____ for planting.",
       "options": [
         "ready-mcq-08",
-        "ready-mcq-07",
+        "ready-mcq-14",
         "ready-mcq-09",
-        "ready-mcq-06",
-        "ready-mcq-10",
-        "ready-mcq-05"
+        "ready-mcq-15"
       ],
       "explanation": "本句的「ready」指「已達到可以開始下一階段或投入使用的狀態」。",
       "sentenceIndex": 16,
@@ -931,12 +865,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-08": "本句指「已達到可以開始下一階段或投入使用的狀態」。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-05": "「已經準備妥當，可以立即被使用、享用或投入運作」是「ready — usable」的用法，與本句語境不同。"
+        "ready-mcq-08": "本句的「ready」指「已達到可以開始下一階段或投入使用的狀態」。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-08"
     },
@@ -948,11 +880,9 @@ export default {
       "masked": "We need a ____ of clean water.",
       "options": [
         "ready-mcq-09",
-        "ready-mcq-08",
-        "ready-mcq-10",
         "ready-mcq-07",
-        "ready-mcq-11",
-        "ready-mcq-06"
+        "ready-mcq-15",
+        "ready-mcq-19"
       ],
       "explanation": "本句的「ready supply」指「可以很快／立即取得、使用或接觸到的」。",
       "sentenceIndex": 17,
@@ -961,12 +891,10 @@ export default {
         "ready supply"
       ],
       "optionReasons": {
-        "ready-mcq-09": "本句指「可以很快／立即取得、使用或接觸到的」。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-09": "本句的「ready supply」指「可以很快／立即取得、使用或接觸到的」。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-09"
     },
@@ -978,11 +906,9 @@ export default {
       "masked": "She had ____ access to fresh vegetables.",
       "options": [
         "ready-mcq-09",
-        "ready-mcq-08",
         "ready-mcq-10",
-        "ready-mcq-07",
-        "ready-mcq-11",
-        "ready-mcq-06"
+        "ready-mcq-14",
+        "ready-mcq-07"
       ],
       "explanation": "本句的「ready」指「可以很快／立即取得、使用或接觸到的」。",
       "sentenceIndex": 18,
@@ -991,12 +917,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-09": "本句指「可以很快／立即取得、使用或接觸到的」。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-06": "「某項工作／產品已完成並可以交付或使用」是「ready — completed」的用法，與本句語境不同。"
+        "ready-mcq-09": "本句的「ready」指「可以很快／立即取得、使用或接觸到的」。",
+        "ready-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-09"
     },
@@ -1008,11 +932,9 @@ export default {
       "masked": "They bought ____ curtains.",
       "options": [
         "ready-mcq-10",
-        "ready-mcq-09",
-        "ready-mcq-11",
-        "ready-mcq-08",
-        "ready-mcq-12",
-        "ready-mcq-07"
+        "ready-mcq-15",
+        "ready-mcq-13",
+        "ready-mcq-17"
       ],
       "explanation": "本句的「ready-made」指「已經製作完成、不需特別訂製或重新準備的」。",
       "sentenceIndex": 19,
@@ -1021,12 +943,10 @@ export default {
         "ready-made"
       ],
       "optionReasons": {
-        "ready-mcq-10": "本句指「已經製作完成、不需特別訂製或重新準備的」。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。"
+        "ready-mcq-10": "本句的「ready-made」指「已經製作完成、不需特別訂製或重新準備的」。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-10"
     },
@@ -1039,10 +959,8 @@ export default {
       "options": [
         "ready-mcq-10",
         "ready-mcq-09",
-        "ready-mcq-11",
-        "ready-mcq-08",
-        "ready-mcq-12",
-        "ready-mcq-07"
+        "ready-mcq-14",
+        "ready-mcq-15"
       ],
       "explanation": "本句的「ready-made」指「已經製作完成、不需特別訂製或重新準備的」。",
       "sentenceIndex": 20,
@@ -1051,12 +969,10 @@ export default {
         "ready-made"
       ],
       "optionReasons": {
-        "ready-mcq-10": "本句指「已經製作完成、不需特別訂製或重新準備的」。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-07": "「已成熟到可以採收、食用或使用的階段」是「ready — produce」的用法，與本句語境不同。"
+        "ready-mcq-10": "本句的「ready-made」指「已經製作完成、不需特別訂製或重新準備的」。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-10"
     },
@@ -1068,11 +984,9 @@ export default {
       "masked": "These vegetables are washed and ____.",
       "options": [
         "ready-mcq-11",
-        "ready-mcq-10",
-        "ready-mcq-12",
-        "ready-mcq-09",
         "ready-mcq-13",
-        "ready-mcq-08"
+        "ready-mcq-06",
+        "ready-mcq-15"
       ],
       "explanation": "本句的「ready to eat」指「不需要主要額外準備便可直接食用／使用的」。",
       "sentenceIndex": 21,
@@ -1081,12 +995,10 @@ export default {
         "ready to eat"
       ],
       "optionReasons": {
-        "ready-mcq-11": "本句指「不需要主要額外準備便可直接食用／使用的」。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。"
+        "ready-mcq-11": "本句的「ready to eat」指「不需要主要額外準備便可直接食用／使用的」。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-11"
     },
@@ -1098,11 +1010,9 @@ export default {
       "masked": "The software comes ____ to use.",
       "options": [
         "ready-mcq-11",
-        "ready-mcq-10",
-        "ready-mcq-12",
-        "ready-mcq-09",
         "ready-mcq-13",
-        "ready-mcq-08"
+        "ready-mcq-04",
+        "ready-mcq-14"
       ],
       "explanation": "本句的「ready」指「不需要主要額外準備便可直接食用／使用的」。",
       "sentenceIndex": 22,
@@ -1111,12 +1021,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-11": "本句指「不需要主要額外準備便可直接食用／使用的」。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-08": "「已達到可以開始下一階段或投入使用的狀態」是「ready — suitable for next stage」的用法，與本句語境不同。"
+        "ready-mcq-11": "本句的「ready」指「不需要主要額外準備便可直接食用／使用的」。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-11"
     },
@@ -1128,10 +1036,8 @@ export default {
       "masked": "We need to ____ for the trip.",
       "options": [
         "ready-mcq-18",
-        "ready-mcq-17",
-        "ready-mcq-19",
-        "ready-mcq-16",
-        "ready-mcq-15",
+        "ready-mcq-13",
+        "ready-mcq-04",
         "ready-mcq-14"
       ],
       "explanation": "本句的「get ready」指「使自己／某事進入準備完成的狀態」。",
@@ -1141,12 +1047,10 @@ export default {
         "get ready"
       ],
       "optionReasons": {
-        "ready-mcq-18": "本句指「使自己／某事進入準備完成的狀態」。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-19": "「我已經準備好，等你就可以開始」是「13. ready when you are（口語） — 你準備好我就可以開始」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。"
+        "ready-mcq-18": "本句的「get ready」指「使自己／某事進入準備完成的狀態」。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-18"
     },
@@ -1158,9 +1062,7 @@ export default {
       "masked": "She got ____ quickly.",
       "options": [
         "ready-mcq-18",
-        "ready-mcq-17",
-        "ready-mcq-19",
-        "ready-mcq-16",
+        "ready-mcq-12",
         "ready-mcq-15",
         "ready-mcq-14"
       ],
@@ -1171,12 +1073,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-18": "本句指「使自己／某事進入準備完成的狀態」。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-19": "「我已經準備好，等你就可以開始」是「13. ready when you are（口語） — 你準備好我就可以開始」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。"
+        "ready-mcq-18": "本句的「ready」指「使自己／某事進入準備完成的狀態」。",
+        "ready-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-18"
     },
@@ -1188,11 +1088,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "ready-mcq-19",
-        "ready-mcq-18",
-        "ready-mcq-17",
-        "ready-mcq-16",
+        "ready-mcq-14",
         "ready-mcq-15",
-        "ready-mcq-14"
+        "ready-mcq-13"
       ],
       "explanation": "本句的「ready when you are」指「我已經準備好，等你就可以開始」。",
       "sentenceIndex": 25,
@@ -1201,12 +1099,10 @@ export default {
         "ready when you are"
       ],
       "optionReasons": {
-        "ready-mcq-19": "本句指「我已經準備好，等你就可以開始」。",
-        "ready-mcq-18": "「使自己／某事進入準備完成的狀態」是「12. get ready（固定搭配） — 準備好；作準備」的用法，與本句語境不同。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。"
+        "ready-mcq-19": "本句的「ready when you are」指「我已經準備好，等你就可以開始」。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-19"
     },
@@ -1218,9 +1114,7 @@ export default {
       "masked": "____ when you are — just give me the signal.",
       "options": [
         "ready-mcq-19",
-        "ready-mcq-18",
-        "ready-mcq-17",
-        "ready-mcq-16",
+        "ready-mcq-12",
         "ready-mcq-15",
         "ready-mcq-14"
       ],
@@ -1231,12 +1125,10 @@ export default {
         "Ready"
       ],
       "optionReasons": {
-        "ready-mcq-19": "本句指「我已經準備好，等你就可以開始」。",
-        "ready-mcq-18": "「使自己／某事進入準備完成的狀態」是「12. get ready（固定搭配） — 準備好；作準備」的用法，與本句語境不同。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。"
+        "ready-mcq-19": "本句的「Ready」指「我已經準備好，等你就可以開始」。",
+        "ready-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-19"
     },
@@ -1248,11 +1140,9 @@ export default {
       "masked": "The staff kept emergency equipment ____.",
       "options": [
         "ready-mcq-12",
-        "ready-mcq-11",
-        "ready-mcq-13",
-        "ready-mcq-10",
-        "ready-mcq-14",
-        "ready-mcq-09"
+        "ready-mcq-19",
+        "ready-mcq-07",
+        "ready-mcq-15"
       ],
       "explanation": "本句的「at the ready」指「放在方便位置，隨時可立即使用／行動」。",
       "sentenceIndex": 27,
@@ -1261,12 +1151,10 @@ export default {
         "at the ready"
       ],
       "optionReasons": {
-        "ready-mcq-12": "本句指「放在方便位置，隨時可立即使用／行動」。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。"
+        "ready-mcq-12": "本句的「at the ready」指「放在方便位置，隨時可立即使用／行動」。",
+        "ready-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-12"
     },
@@ -1278,11 +1166,9 @@ export default {
       "masked": "She stood with her camera at the ____.",
       "options": [
         "ready-mcq-12",
-        "ready-mcq-11",
-        "ready-mcq-13",
-        "ready-mcq-10",
-        "ready-mcq-14",
-        "ready-mcq-09"
+        "ready-mcq-18",
+        "ready-mcq-07",
+        "ready-mcq-04"
       ],
       "explanation": "本句的「ready」指「放在方便位置，隨時可立即使用／行動」。",
       "sentenceIndex": 28,
@@ -1291,12 +1177,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-12": "本句指「放在方便位置，隨時可立即使用／行動」。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-09": "「可以很快／立即取得、使用或接觸到的」是「ready + noun」的用法，與本句語境不同。"
+        "ready-mcq-12": "本句的「ready」指「放在方便位置，隨時可立即使用／行動」。",
+        "ready-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-12"
     },
@@ -1308,11 +1192,9 @@ export default {
       "masked": "They did not have enough ____.",
       "options": [
         "ready-mcq-13",
-        "ready-mcq-12",
-        "ready-mcq-14",
-        "ready-mcq-11",
-        "ready-mcq-15",
-        "ready-mcq-10"
+        "ready-mcq-07",
+        "ready-mcq-18",
+        "ready-mcq-04"
       ],
       "explanation": "本句的「ready cash」指「可以立即動用的現金」。",
       "sentenceIndex": 29,
@@ -1321,12 +1203,10 @@ export default {
         "ready cash"
       ],
       "optionReasons": {
-        "ready-mcq-13": "本句指「可以立即動用的現金」。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。"
+        "ready-mcq-13": "本句的「ready cash」指「可以立即動用的現金」。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-13"
     },
@@ -1338,11 +1218,9 @@ export default {
       "masked": "He sold the item because he needed ____ money.",
       "options": [
         "ready-mcq-13",
-        "ready-mcq-12",
-        "ready-mcq-14",
-        "ready-mcq-11",
+        "ready-mcq-07",
         "ready-mcq-15",
-        "ready-mcq-10"
+        "ready-mcq-18"
       ],
       "explanation": "本句的「ready」指「可以立即動用的現金」。",
       "sentenceIndex": 30,
@@ -1351,12 +1229,10 @@ export default {
         "ready"
       ],
       "optionReasons": {
-        "ready-mcq-13": "本句指「可以立即動用的現金」。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-10": "「已經製作完成、不需特別訂製或重新準備的」是「ready-made」的用法，與本句語境不同。"
+        "ready-mcq-13": "本句的「ready」指「可以立即動用的現金」。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-13"
     },
@@ -1368,11 +1244,9 @@ export default {
       "masked": "She ____ to help.",
       "options": [
         "ready-mcq-14",
+        "ready-mcq-10",
         "ready-mcq-13",
-        "ready-mcq-15",
-        "ready-mcq-12",
-        "ready-mcq-16",
-        "ready-mcq-11"
+        "ready-mcq-07"
       ],
       "explanation": "本句的「readily agreed」指「願意而不抗拒地；欣然地」。",
       "sentenceIndex": 31,
@@ -1381,12 +1255,10 @@ export default {
         "readily agreed"
       ],
       "optionReasons": {
-        "ready-mcq-14": "本句指「願意而不抗拒地；欣然地」。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。"
+        "ready-mcq-14": "本句的「readily agreed」指「願意而不抗拒地；欣然地」。",
+        "ready-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-14"
     },
@@ -1398,11 +1270,9 @@ export default {
       "masked": "He ____ admitted the mistake.",
       "options": [
         "ready-mcq-14",
-        "ready-mcq-13",
-        "ready-mcq-15",
-        "ready-mcq-12",
-        "ready-mcq-16",
-        "ready-mcq-11"
+        "ready-mcq-09",
+        "ready-mcq-07",
+        "ready-mcq-16"
       ],
       "explanation": "本句的「readily」指「願意而不抗拒地；欣然地」。",
       "sentenceIndex": 32,
@@ -1411,12 +1281,10 @@ export default {
         "readily"
       ],
       "optionReasons": {
-        "ready-mcq-14": "本句指「願意而不抗拒地；欣然地」。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-11": "「不需要主要額外準備便可直接食用／使用的」是「ready-to-eat/use」的用法，與本句語境不同。"
+        "ready-mcq-14": "本句的「readily」指「願意而不抗拒地；欣然地」。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-14"
     },
@@ -1428,11 +1296,9 @@ export default {
       "masked": "The information is ____ online.",
       "options": [
         "ready-mcq-15",
-        "ready-mcq-14",
-        "ready-mcq-16",
+        "ready-mcq-06",
         "ready-mcq-13",
-        "ready-mcq-17",
-        "ready-mcq-12"
+        "ready-mcq-14"
       ],
       "explanation": "本句的「readily available」指「很容易、沒有太大困難地」。",
       "sentenceIndex": 33,
@@ -1441,12 +1307,10 @@ export default {
         "readily available"
       ],
       "optionReasons": {
-        "ready-mcq-15": "本句指「很容易、沒有太大困難地」。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。"
+        "ready-mcq-15": "本句的「readily available」指「很容易、沒有太大困難地」。",
+        "ready-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-15"
     },
@@ -1458,11 +1322,9 @@ export default {
       "masked": "Water is ____ absorbed by the soil.",
       "options": [
         "ready-mcq-15",
-        "ready-mcq-14",
-        "ready-mcq-16",
-        "ready-mcq-13",
-        "ready-mcq-17",
-        "ready-mcq-12"
+        "ready-mcq-05",
+        "ready-mcq-06",
+        "ready-mcq-14"
       ],
       "explanation": "本句的「readily」指「很容易、沒有太大困難地」。",
       "sentenceIndex": 34,
@@ -1471,12 +1333,10 @@ export default {
         "readily"
       ],
       "optionReasons": {
-        "ready-mcq-15": "本句指「很容易、沒有太大困難地」。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-12": "「放在方便位置，隨時可立即使用／行動」是「at the ready」的用法，與本句語境不同。"
+        "ready-mcq-15": "本句的「readily」指「很容易、沒有太大困難地」。",
+        "ready-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-15"
     },
@@ -1489,10 +1349,8 @@ export default {
       "options": [
         "ready-mcq-16",
         "ready-mcq-15",
-        "ready-mcq-17",
         "ready-mcq-14",
-        "ready-mcq-18",
-        "ready-mcq-13"
+        "ready-mcq-09"
       ],
       "explanation": "本句的「readiness」指「已準備好採取行動的狀態／程度」。",
       "sentenceIndex": 35,
@@ -1501,12 +1359,10 @@ export default {
         "readiness"
       ],
       "optionReasons": {
-        "ready-mcq-16": "本句指「已準備好採取行動的狀態／程度」。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-18": "「使自己／某事進入準備完成的狀態」是「12. get ready（固定搭配） — 準備好；作準備」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。"
+        "ready-mcq-16": "本句的「readiness」指「已準備好採取行動的狀態／程度」。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-16"
     },
@@ -1519,9 +1375,7 @@ export default {
       "options": [
         "ready-mcq-16",
         "ready-mcq-15",
-        "ready-mcq-17",
         "ready-mcq-14",
-        "ready-mcq-18",
         "ready-mcq-13"
       ],
       "explanation": "本句的「readiness」指「已準備好採取行動的狀態／程度」。",
@@ -1531,12 +1385,10 @@ export default {
         "readiness"
       ],
       "optionReasons": {
-        "ready-mcq-16": "本句指「已準備好採取行動的狀態／程度」。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-17": "「願意、樂於採取某項行動的態度」是「readiness — willingness」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。",
-        "ready-mcq-18": "「使自己／某事進入準備完成的狀態」是「12. get ready（固定搭配） — 準備好；作準備」的用法，與本句語境不同。",
-        "ready-mcq-13": "「可以立即動用的現金」是「ready cash/money」的用法，與本句語境不同。"
+        "ready-mcq-16": "本句的「readiness」指「已準備好採取行動的狀態／程度」。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-16"
     },
@@ -1548,11 +1400,9 @@ export default {
       "masked": "Her ____ impressed everyone.",
       "options": [
         "ready-mcq-17",
-        "ready-mcq-16",
-        "ready-mcq-18",
-        "ready-mcq-15",
-        "ready-mcq-19",
-        "ready-mcq-14"
+        "ready-mcq-04",
+        "ready-mcq-10",
+        "ready-mcq-07"
       ],
       "explanation": "本句的「readiness to help」指「願意、樂於採取某項行動的態度」。",
       "sentenceIndex": 37,
@@ -1561,12 +1411,10 @@ export default {
         "readiness to help"
       ],
       "optionReasons": {
-        "ready-mcq-17": "本句指「願意、樂於採取某項行動的態度」。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-18": "「使自己／某事進入準備完成的狀態」是「12. get ready（固定搭配） — 準備好；作準備」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-19": "「我已經準備好，等你就可以開始」是「13. ready when you are（口語） — 你準備好我就可以開始」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。"
+        "ready-mcq-17": "本句的「readiness to help」指「願意、樂於採取某項行動的態度」。",
+        "ready-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-17"
     },
@@ -1578,11 +1426,9 @@ export default {
       "masked": "He showed a ____ to learn.",
       "options": [
         "ready-mcq-17",
-        "ready-mcq-16",
-        "ready-mcq-18",
-        "ready-mcq-15",
-        "ready-mcq-19",
-        "ready-mcq-14"
+        "ready-mcq-11",
+        "ready-mcq-02",
+        "ready-mcq-15"
       ],
       "explanation": "本句的「readiness」指「願意、樂於採取某項行動的態度」。",
       "sentenceIndex": 38,
@@ -1591,12 +1437,10 @@ export default {
         "readiness"
       ],
       "optionReasons": {
-        "ready-mcq-17": "本句指「願意、樂於採取某項行動的態度」。",
-        "ready-mcq-16": "「已準備好採取行動的狀態／程度」是「readiness — preparedness」的用法，與本句語境不同。",
-        "ready-mcq-18": "「使自己／某事進入準備完成的狀態」是「12. get ready（固定搭配） — 準備好；作準備」的用法，與本句語境不同。",
-        "ready-mcq-15": "「很容易、沒有太大困難地」是「readily — easily」的用法，與本句語境不同。",
-        "ready-mcq-19": "「我已經準備好，等你就可以開始」是「13. ready when you are（口語） — 你準備好我就可以開始」的用法，與本句語境不同。",
-        "ready-mcq-14": "「願意而不抗拒地；欣然地」是「readily — willingly」的用法，與本句語境不同。"
+        "ready-mcq-17": "本句的「readiness」指「願意、樂於採取某項行動的態度」。",
+        "ready-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ready-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ready-mcq-17"
     }
@@ -1608,5 +1452,7 @@ export default {
     "sha256": "414f0baf6096bd1dd2f4e683906aabf7f46a4f0d6d5185fd339c00ab4667de46",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

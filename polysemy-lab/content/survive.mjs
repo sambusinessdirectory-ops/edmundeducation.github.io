@@ -56,7 +56,7 @@ export default {
     },
     {
       "id": "survive-mcq-03",
-      "title": "組織、企業或系統在壓力或危機下仍維持運作；屬於",
+      "title": "組織、企業或系統在壓力或危機下仍維持運作",
       "form": "survive — continue operating",
       "en": "survive — continue operating",
       "zh": "組織、企業或系統在壓力或危機下仍維持運作；屬於",
@@ -218,11 +218,8 @@ export default {
       "masked": "Sea turtles ____ long journeys and harsh natural conditions.",
       "options": [
         "survive-mcq-01",
-        "survive-mcq-02",
-        "survive-mcq-03",
-        "survive-mcq-04",
         "survive-mcq-05",
-        "survive-mcq-06"
+        "survive-mcq-04"
       ],
       "explanation": "本句的「survive」指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
       "sentenceIndex": 0,
@@ -231,12 +228,9 @@ export default {
         "survive"
       ],
       "optionReasons": {
-        "survive-mcq-01": "本句指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-01": "本句的「survive」指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-01"
     },
@@ -248,11 +242,8 @@ export default {
       "masked": "Very few plants can ____ in such dry conditions.",
       "options": [
         "survive-mcq-01",
-        "survive-mcq-02",
-        "survive-mcq-03",
-        "survive-mcq-04",
         "survive-mcq-05",
-        "survive-mcq-06"
+        "survive-mcq-04"
       ],
       "explanation": "本句的「survive」指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
       "sentenceIndex": 1,
@@ -261,12 +252,9 @@ export default {
         "survive"
       ],
       "optionReasons": {
-        "survive-mcq-01": "本句指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-01": "本句的「survive」指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-01"
     },
@@ -278,11 +266,8 @@ export default {
       "masked": "The animal ____ the winter.",
       "options": [
         "survive-mcq-01",
-        "survive-mcq-02",
-        "survive-mcq-03",
-        "survive-mcq-04",
         "survive-mcq-05",
-        "survive-mcq-06"
+        "survive-mcq-04"
       ],
       "explanation": "本句的「survived」指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
       "sentenceIndex": 2,
@@ -291,12 +276,9 @@ export default {
         "survived"
       ],
       "optionReasons": {
-        "survive-mcq-01": "本句指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-01": "本句的「survived」指「面對危險、疾病、惡劣環境等威脅時仍繼續活着」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-01"
     },
@@ -308,11 +290,7 @@ export default {
       "masked": "Several ancient buildings have ____.",
       "options": [
         "survive-mcq-02",
-        "survive-mcq-01",
-        "survive-mcq-03",
-        "survive-mcq-04",
-        "survive-mcq-05",
-        "survive-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「survived」指「傳統、建築、組織、制度等在時間或困難中仍然存在」。",
       "sentenceIndex": 3,
@@ -321,12 +299,8 @@ export default {
         "survived"
       ],
       "optionReasons": {
-        "survive-mcq-02": "本句指「傳統、建築、組織、制度等在時間或困難中仍然存在」。",
-        "survive-mcq-01": "「面對危險、疾病、惡劣環境等威脅時仍繼續活着」是「survive — stay alive」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-02": "本句的「survived」指「傳統、建築、組織、制度等在時間或困難中仍然存在」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-02"
     },
@@ -338,11 +312,7 @@ export default {
       "masked": "The tradition has ____ for hundreds of years.",
       "options": [
         "survive-mcq-02",
-        "survive-mcq-01",
-        "survive-mcq-03",
-        "survive-mcq-04",
-        "survive-mcq-05",
-        "survive-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「survived」指「傳統、建築、組織、制度等在時間或困難中仍然存在」。",
       "sentenceIndex": 4,
@@ -351,12 +321,8 @@ export default {
         "survived"
       ],
       "optionReasons": {
-        "survive-mcq-02": "本句指「傳統、建築、組織、制度等在時間或困難中仍然存在」。",
-        "survive-mcq-01": "「面對危險、疾病、惡劣環境等威脅時仍繼續活着」是「survive — stay alive」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-02": "本句的「survived」指「傳統、建築、組織、制度等在時間或困難中仍然存在」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-02"
     },
@@ -368,11 +334,7 @@ export default {
       "masked": "Many small businesses struggled to ____.",
       "options": [
         "survive-mcq-03",
-        "survive-mcq-02",
-        "survive-mcq-04",
-        "survive-mcq-01",
-        "survive-mcq-05",
-        "survive-mcq-06"
+        "survive-mcq-05"
       ],
       "explanation": "本句的「survive」指「組織、企業或系統在壓力或危機下仍維持運作；屬於」。",
       "sentenceIndex": 5,
@@ -381,12 +343,8 @@ export default {
         "survive"
       ],
       "optionReasons": {
-        "survive-mcq-03": "本句指「組織、企業或系統在壓力或危機下仍維持運作；屬於」。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-01": "「面對危險、疾病、惡劣環境等威脅時仍繼續活着」是「survive — stay alive」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-03": "本句的「survive」指「組織、企業或系統在壓力或危機下仍維持運作；屬於」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-03"
     },
@@ -398,11 +356,7 @@ export default {
       "masked": "The organization cannot ____ without funding.",
       "options": [
         "survive-mcq-03",
-        "survive-mcq-02",
-        "survive-mcq-04",
-        "survive-mcq-01",
-        "survive-mcq-05",
-        "survive-mcq-06"
+        "survive-mcq-05"
       ],
       "explanation": "本句的「survive」指「組織、企業或系統在壓力或危機下仍維持運作；屬於」。",
       "sentenceIndex": 6,
@@ -411,12 +365,8 @@ export default {
         "survive"
       ],
       "optionReasons": {
-        "survive-mcq-03": "本句指「組織、企業或系統在壓力或危機下仍維持運作；屬於」。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-01": "「面對危險、疾病、惡劣環境等威脅時仍繼續活着」是「survive — stay alive」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。"
+        "survive-mcq-03": "本句的「survive」指「組織、企業或系統在壓力或危機下仍維持運作；屬於」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-03"
     },
@@ -428,11 +378,8 @@ export default {
       "masked": "She ____ her husband by ten years.",
       "options": [
         "survive-mcq-04",
-        "survive-mcq-03",
         "survive-mcq-05",
-        "survive-mcq-02",
-        "survive-mcq-06",
-        "survive-mcq-01"
+        "survive-mcq-06"
       ],
       "explanation": "本句的「survived」指「比某人活得更久，在對方死後仍然在世」。",
       "sentenceIndex": 7,
@@ -441,12 +388,9 @@ export default {
         "survived"
       ],
       "optionReasons": {
-        "survive-mcq-04": "本句指「比某人活得更久，在對方死後仍然在世」。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-01": "「面對危險、疾病、惡劣環境等威脅時仍繼續活着」是「survive — stay alive」的用法，與本句語境不同。"
+        "survive-mcq-04": "本句的「survived」指「比某人活得更久，在對方死後仍然在世」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-04"
     },
@@ -458,11 +402,8 @@ export default {
       "masked": "He is ____ two children.",
       "options": [
         "survive-mcq-04",
-        "survive-mcq-03",
-        "survive-mcq-05",
-        "survive-mcq-02",
         "survive-mcq-06",
-        "survive-mcq-01"
+        "survive-mcq-05"
       ],
       "explanation": "本句的「survived by」指「比某人活得更久，在對方死後仍然在世」。",
       "sentenceIndex": 8,
@@ -471,12 +412,9 @@ export default {
         "survived by"
       ],
       "optionReasons": {
-        "survive-mcq-04": "本句指「比某人活得更久，在對方死後仍然在世」。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-01": "「面對危險、疾病、惡劣環境等威脅時仍繼續活着」是「survive — stay alive」的用法，與本句語境不同。"
+        "survive-mcq-04": "本句的「survived by」指「比某人活得更久，在對方死後仍然在世」。",
+        "survive-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-04"
     },
@@ -489,10 +427,7 @@ export default {
       "options": [
         "survive-mcq-05",
         "survive-mcq-04",
-        "survive-mcq-06",
-        "survive-mcq-03",
-        "survive-mcq-07",
-        "survive-mcq-02"
+        "survive-mcq-06"
       ],
       "explanation": "本句的「survived」指「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」。",
       "sentenceIndex": 9,
@@ -501,12 +436,9 @@ export default {
         "survived"
       ],
       "optionReasons": {
-        "survive-mcq-05": "本句指「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。"
+        "survive-mcq-05": "本句的「survived」指「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-05"
     },
@@ -518,11 +450,7 @@ export default {
       "masked": "How did you ____ the exam week?",
       "options": [
         "survive-mcq-05",
-        "survive-mcq-04",
-        "survive-mcq-06",
-        "survive-mcq-03",
-        "survive-mcq-07",
-        "survive-mcq-02"
+        "survive-mcq-03"
       ],
       "explanation": "本句的「survive」指「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」。",
       "sentenceIndex": 10,
@@ -531,12 +459,8 @@ export default {
         "survive"
       ],
       "optionReasons": {
-        "survive-mcq-05": "本句指「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-02": "「傳統、建築、組織、制度等在時間或困難中仍然存在」是「survive — continue to exist」的用法，與本句語境不同。"
+        "survive-mcq-05": "本句的「survive」指「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」。",
+        "survive-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-05"
     },
@@ -548,9 +472,6 @@ export default {
       "masked": "The animals can ____ very little food.",
       "options": [
         "survive-mcq-09",
-        "survive-mcq-08",
-        "survive-mcq-07",
-        "survive-mcq-06",
         "survive-mcq-05",
         "survive-mcq-04"
       ],
@@ -561,12 +482,9 @@ export default {
         "survive on"
       ],
       "optionReasons": {
-        "survive-mcq-09": "本句指「依靠有限的食物、金錢或資源維持生命／生活」。",
-        "survive-mcq-08": "「在其他人／物已消失後仍然存在或活着的」是「surviving」的用法，與本句語境不同。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。"
+        "survive-mcq-09": "本句的「survive on」指「依靠有限的食物、金錢或資源維持生命／生活」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-09"
     },
@@ -578,9 +496,6 @@ export default {
       "masked": "He had to ____ a very small income.",
       "options": [
         "survive-mcq-09",
-        "survive-mcq-08",
-        "survive-mcq-07",
-        "survive-mcq-06",
         "survive-mcq-05",
         "survive-mcq-04"
       ],
@@ -591,12 +506,9 @@ export default {
         "survive on"
       ],
       "optionReasons": {
-        "survive-mcq-09": "本句指「依靠有限的食物、金錢或資源維持生命／生活」。",
-        "survive-mcq-08": "「在其他人／物已消失後仍然存在或活着的」是「surviving」的用法，與本句語境不同。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。"
+        "survive-mcq-09": "本句的「survive on」指「依靠有限的食物、金錢或資源維持生命／生活」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-09"
     },
@@ -609,10 +521,7 @@ export default {
       "options": [
         "survive-mcq-06",
         "survive-mcq-05",
-        "survive-mcq-07",
-        "survive-mcq-04",
-        "survive-mcq-08",
-        "survive-mcq-03"
+        "survive-mcq-04"
       ],
       "explanation": "本句的「survival」指「繼續生存或存在的狀態／能力」。",
       "sentenceIndex": 13,
@@ -621,12 +530,9 @@ export default {
         "survival"
       ],
       "optionReasons": {
-        "survive-mcq-06": "本句指「繼續生存或存在的狀態／能力」。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-08": "「在其他人／物已消失後仍然存在或活着的」是「surviving」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。"
+        "survive-mcq-06": "本句的「survival」指「繼續生存或存在的狀態／能力」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-06"
     },
@@ -638,11 +544,8 @@ export default {
       "masked": "The company’s ____ depends on reducing costs.",
       "options": [
         "survive-mcq-06",
-        "survive-mcq-05",
-        "survive-mcq-07",
         "survive-mcq-04",
-        "survive-mcq-08",
-        "survive-mcq-03"
+        "survive-mcq-05"
       ],
       "explanation": "本句的「survival」指「繼續生存或存在的狀態／能力」。",
       "sentenceIndex": 14,
@@ -651,12 +554,9 @@ export default {
         "survival"
       ],
       "optionReasons": {
-        "survive-mcq-06": "本句指「繼續生存或存在的狀態／能力」。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。",
-        "survive-mcq-08": "「在其他人／物已消失後仍然存在或活着的」是「surviving」的用法，與本句語境不同。",
-        "survive-mcq-03": "「組織、企業或系統在壓力或危機下仍維持運作；屬於」是「survive — continue operating」的用法，與本句語境不同。"
+        "survive-mcq-06": "本句的「survival」指「繼續生存或存在的狀態／能力」。",
+        "survive-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-06"
     },
@@ -668,11 +568,7 @@ export default {
       "masked": "She was the only ____ of the accident.",
       "options": [
         "survive-mcq-07",
-        "survive-mcq-06",
-        "survive-mcq-08",
-        "survive-mcq-05",
-        "survive-mcq-09",
-        "survive-mcq-04"
+        "survive-mcq-06"
       ],
       "explanation": "本句的「survivor」指「經歷危險、災難、疾病等後仍然活着的人／生物」。",
       "sentenceIndex": 15,
@@ -681,12 +577,8 @@ export default {
         "survivor"
       ],
       "optionReasons": {
-        "survive-mcq-07": "本句指「經歷危險、災難、疾病等後仍然活着的人／生物」。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-08": "「在其他人／物已消失後仍然存在或活着的」是「surviving」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-09": "「依靠有限的食物、金錢或資源維持生命／生活」是「6. survive on something（靠……維生） — 靠……生存」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。"
+        "survive-mcq-07": "本句的「survivor」指「經歷危險、災難、疾病等後仍然活着的人／生物」。",
+        "survive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-07"
     },
@@ -698,11 +590,7 @@ export default {
       "masked": "The tree is a remarkable ____.",
       "options": [
         "survive-mcq-07",
-        "survive-mcq-06",
-        "survive-mcq-08",
-        "survive-mcq-05",
-        "survive-mcq-09",
-        "survive-mcq-04"
+        "survive-mcq-06"
       ],
       "explanation": "本句的「survivor」指「經歷危險、災難、疾病等後仍然活着的人／生物」。",
       "sentenceIndex": 16,
@@ -711,12 +599,8 @@ export default {
         "survivor"
       ],
       "optionReasons": {
-        "survive-mcq-07": "本句指「經歷危險、災難、疾病等後仍然活着的人／生物」。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-08": "「在其他人／物已消失後仍然存在或活着的」是「surviving」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-09": "「依靠有限的食物、金錢或資源維持生命／生活」是「6. survive on something（靠……維生） — 靠……生存」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。"
+        "survive-mcq-07": "本句的「survivor」指「經歷危險、災難、疾病等後仍然活着的人／生物」。",
+        "survive-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-07"
     },
@@ -728,11 +612,7 @@ export default {
       "masked": "The ____ members of the group returned home.",
       "options": [
         "survive-mcq-08",
-        "survive-mcq-07",
-        "survive-mcq-09",
-        "survive-mcq-06",
-        "survive-mcq-05",
-        "survive-mcq-04"
+        "survive-mcq-05"
       ],
       "explanation": "本句的「surviving」指「在其他人／物已消失後仍然存在或活着的」。",
       "sentenceIndex": 17,
@@ -741,12 +621,8 @@ export default {
         "surviving"
       ],
       "optionReasons": {
-        "survive-mcq-08": "本句指「在其他人／物已消失後仍然存在或活着的」。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-09": "「依靠有限的食物、金錢或資源維持生命／生活」是「6. survive on something（靠……維生） — 靠……生存」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。"
+        "survive-mcq-08": "本句的「surviving」指「在其他人／物已消失後仍然存在或活着的」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-08"
     },
@@ -758,11 +634,7 @@ export default {
       "masked": "One ____ copy of the document remains.",
       "options": [
         "survive-mcq-08",
-        "survive-mcq-07",
-        "survive-mcq-09",
-        "survive-mcq-06",
-        "survive-mcq-05",
-        "survive-mcq-04"
+        "survive-mcq-05"
       ],
       "explanation": "本句的「surviving」指「在其他人／物已消失後仍然存在或活着的」。",
       "sentenceIndex": 18,
@@ -771,12 +643,8 @@ export default {
         "surviving"
       ],
       "optionReasons": {
-        "survive-mcq-08": "本句指「在其他人／物已消失後仍然存在或活着的」。",
-        "survive-mcq-07": "「經歷危險、災難、疾病等後仍然活着的人／生物」是「survivor」的用法，與本句語境不同。",
-        "survive-mcq-09": "「依靠有限的食物、金錢或資源維持生命／生活」是「6. survive on something（靠……維生） — 靠……生存」的用法，與本句語境不同。",
-        "survive-mcq-06": "「繼續生存或存在的狀態／能力」是「survival」的用法，與本句語境不同。",
-        "survive-mcq-05": "「成功熬過困難、疲累或不愉快的經歷；與 endure/stay-alive 義相關」是「survive an experience」的用法，與本句語境不同。",
-        "survive-mcq-04": "「比某人活得更久，在對方死後仍然在世」是「survive someone」的用法，與本句語境不同。"
+        "survive-mcq-08": "本句的「surviving」指「在其他人／物已消失後仍然存在或活着的」。",
+        "survive-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "survive-mcq-08"
     }
@@ -788,5 +656,12 @@ export default {
     "sha256": "542bd1d2313fc69a7fb780a987f97abb910983bc3076692b6cfbd830db4177c2",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

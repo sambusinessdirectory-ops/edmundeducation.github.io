@@ -514,11 +514,8 @@ export default {
       "masked": "He had blamed me ____.",
       "options": [
         "unfairly-mcq-01",
-        "unfairly-mcq-02",
-        "unfairly-mcq-03",
-        "unfairly-mcq-04",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「unfairly」指「不公平地；不公正地」。",
       "sentenceIndex": 0,
@@ -527,12 +524,9 @@ export default {
         "unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-01": "本句指「不公平地；不公正地」。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-01": "本句的「unfairly」指「不公平地；不公正地」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-01"
     },
@@ -544,11 +538,8 @@ export default {
       "masked": "She felt that she had been treated ____.",
       "options": [
         "unfairly-mcq-01",
-        "unfairly-mcq-02",
-        "unfairly-mcq-03",
-        "unfairly-mcq-04",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfairly」指「不公平地；不公正地」。",
       "sentenceIndex": 1,
@@ -557,12 +548,9 @@ export default {
         "unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-01": "本句指「不公平地；不公正地」。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-01": "本句的「unfairly」指「不公平地；不公正地」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-01"
     },
@@ -574,11 +562,8 @@ export default {
       "masked": "The teacher was accused of judging the students ____.",
       "options": [
         "unfairly-mcq-01",
-        "unfairly-mcq-02",
-        "unfairly-mcq-03",
-        "unfairly-mcq-04",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-mcq-21",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「unfairly」指「不公平地；不公正地」。",
       "sentenceIndex": 2,
@@ -587,12 +572,9 @@ export default {
         "unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-01": "本句指「不公平地；不公正地」。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-01": "本句的「unfairly」指「不公平地；不公正地」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-01"
     },
@@ -604,11 +586,8 @@ export default {
       "masked": "Nobody should be ____ because of a misunderstanding.",
       "options": [
         "unfairly-mcq-02",
-        "unfairly-mcq-01",
-        "unfairly-mcq-03",
-        "unfairly-mcq-04",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「treated unfairly」指「不公平對待」。",
       "sentenceIndex": 3,
@@ -617,12 +596,9 @@ export default {
         "treated unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-02": "本句指「不公平對待」。",
-        "unfairly-mcq-01": "「不公平地；不公正地」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-02": "本句的「treated unfairly」指「不公平對待」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-02"
     },
@@ -634,11 +610,8 @@ export default {
       "masked": "He felt the company had ____.",
       "options": [
         "unfairly-mcq-02",
-        "unfairly-mcq-01",
-        "unfairly-mcq-03",
-        "unfairly-mcq-04",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「treated him unfairly」指「不公平對待」。",
       "sentenceIndex": 4,
@@ -647,12 +620,9 @@ export default {
         "treated him unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-02": "本句指「不公平對待」。",
-        "unfairly-mcq-01": "「不公平地；不公正地」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-02": "本句的「treated him unfairly」指「不公平對待」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-02"
     },
@@ -664,11 +634,8 @@ export default {
       "masked": "Kevin ____ for the delay.",
       "options": [
         "unfairly-mcq-03",
-        "unfairly-mcq-02",
-        "unfairly-mcq-04",
-        "unfairly-mcq-01",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「blamed me unfairly」指「不公平地怪責」。",
       "sentenceIndex": 5,
@@ -677,12 +644,9 @@ export default {
         "blamed me unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-03": "本句指「不公平地怪責」。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-01": "「不公平地；不公正地」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-03": "本句的「blamed me unfairly」指「不公平地怪責」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-03"
     },
@@ -694,11 +658,8 @@ export default {
       "masked": "Don't ____ before checking the facts.",
       "options": [
         "unfairly-mcq-03",
-        "unfairly-mcq-02",
-        "unfairly-mcq-04",
-        "unfairly-mcq-01",
-        "unfairly-mcq-05",
-        "unfairly-mcq-06"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「blame someone unfairly」指「不公平地怪責」。",
       "sentenceIndex": 6,
@@ -707,12 +668,9 @@ export default {
         "blame someone unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-03": "本句指「不公平地怪責」。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-01": "「不公平地；不公正地」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-03": "本句的「blame someone unfairly」指「不公平地怪責」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-03"
     },
@@ -724,11 +682,8 @@ export default {
       "masked": "We shouldn't ____ based on one mistake.",
       "options": [
         "unfairly-mcq-04",
-        "unfairly-mcq-03",
-        "unfairly-mcq-05",
-        "unfairly-mcq-02",
-        "unfairly-mcq-06",
-        "unfairly-mcq-01"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「judge people unfairly」指「不公平地評價」。",
       "sentenceIndex": 7,
@@ -737,12 +692,9 @@ export default {
         "judge people unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-04": "本句指「不公平地評價」。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-01": "「不公平地；不公正地」與本句語境不同。"
+        "unfairly-mcq-04": "本句的「judge people unfairly」指「不公平地評價」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-04"
     },
@@ -754,11 +706,8 @@ export default {
       "masked": "She felt she had been ____.",
       "options": [
         "unfairly-mcq-04",
-        "unfairly-mcq-03",
-        "unfairly-mcq-05",
-        "unfairly-mcq-02",
-        "unfairly-mcq-06",
-        "unfairly-mcq-01"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「judged unfairly」指「不公平地評價」。",
       "sentenceIndex": 8,
@@ -767,12 +716,9 @@ export default {
         "judged unfairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-04": "本句指「不公平地評價」。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-01": "「不公平地；不公正地」與本句語境不同。"
+        "unfairly-mcq-04": "本句的「judged unfairly」指「不公平地評價」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-04"
     },
@@ -784,11 +730,8 @@ export default {
       "masked": "That was an ____.",
       "options": [
         "unfairly-mcq-05",
-        "unfairly-mcq-04",
-        "unfairly-mcq-06",
-        "unfairly-mcq-03",
-        "unfairly-mcq-07",
-        "unfairly-mcq-02"
+        "unfairly-mcq-21",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「unfair accusation」指「不公平的」。",
       "sentenceIndex": 9,
@@ -797,12 +740,9 @@ export default {
         "unfair accusation"
       ],
       "optionReasons": {
-        "unfairly-mcq-05": "本句指「不公平的」。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。"
+        "unfairly-mcq-05": "本句的「unfair accusation」指「不公平的」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-05"
     },
@@ -814,11 +754,8 @@ export default {
       "masked": "The decision seemed ____.",
       "options": [
         "unfairly-mcq-05",
-        "unfairly-mcq-04",
-        "unfairly-mcq-06",
-        "unfairly-mcq-03",
-        "unfairly-mcq-07",
-        "unfairly-mcq-02"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair」指「不公平的」。",
       "sentenceIndex": 10,
@@ -827,12 +764,9 @@ export default {
         "unfair"
       ],
       "optionReasons": {
-        "unfairly-mcq-05": "本句指「不公平的」。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-02": "「不公平對待」與本句語境不同。"
+        "unfairly-mcq-05": "本句的「unfair」指「不公平的」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-05"
     },
@@ -844,11 +778,8 @@ export default {
       "masked": "It was ____ to assume I had done nothing.",
       "options": [
         "unfairly-mcq-06",
-        "unfairly-mcq-05",
-        "unfairly-mcq-07",
-        "unfairly-mcq-04",
-        "unfairly-mcq-08",
-        "unfairly-mcq-03"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair to me」指「對某人不公平」。",
       "sentenceIndex": 11,
@@ -857,12 +788,9 @@ export default {
         "unfair to me"
       ],
       "optionReasons": {
-        "unfairly-mcq-06": "本句指「對某人不公平」。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。"
+        "unfairly-mcq-06": "本句的「unfair to me」指「對某人不公平」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-06"
     },
@@ -874,11 +802,8 @@ export default {
       "masked": "Don't be ____.",
       "options": [
         "unfairly-mcq-06",
-        "unfairly-mcq-05",
-        "unfairly-mcq-07",
-        "unfairly-mcq-04",
-        "unfairly-mcq-08",
-        "unfairly-mcq-03"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair to your teammate」指「對某人不公平」。",
       "sentenceIndex": 12,
@@ -887,12 +812,9 @@ export default {
         "unfair to your teammate"
       ],
       "optionReasons": {
-        "unfairly-mcq-06": "本句指「對某人不公平」。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-03": "「不公平地怪責」與本句語境不同。"
+        "unfairly-mcq-06": "本句的「unfair to your teammate」指「對某人不公平」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-06"
     },
@@ -904,11 +826,8 @@ export default {
       "masked": "You have to do all the work.” > “That's ____.",
       "options": [
         "unfairly-mcq-07",
-        "unfairly-mcq-06",
-        "unfairly-mcq-08",
-        "unfairly-mcq-05",
-        "unfairly-mcq-09",
-        "unfairly-mcq-04"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair」指「這不公平」。",
       "sentenceIndex": 13,
@@ -917,12 +836,9 @@ export default {
         "unfair"
       ],
       "optionReasons": {
-        "unfairly-mcq-07": "本句指「這不公平」。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。"
+        "unfairly-mcq-07": "本句的「unfair」指「這不公平」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-07"
     },
@@ -934,11 +850,8 @@ export default {
       "masked": "I think the punishment is ____.",
       "options": [
         "unfairly-mcq-07",
-        "unfairly-mcq-06",
-        "unfairly-mcq-08",
-        "unfairly-mcq-05",
-        "unfairly-mcq-09",
-        "unfairly-mcq-04"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair」指「這不公平」。",
       "sentenceIndex": 14,
@@ -947,12 +860,9 @@ export default {
         "unfair"
       ],
       "optionReasons": {
-        "unfairly-mcq-07": "本句指「這不公平」。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-04": "「不公平地評價」與本句語境不同。"
+        "unfairly-mcq-07": "本句的「unfair」指「這不公平」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-07"
     },
@@ -964,11 +874,8 @@ export default {
       "masked": "Employees complained about ____.",
       "options": [
         "unfairly-mcq-08",
-        "unfairly-mcq-07",
-        "unfairly-mcq-09",
-        "unfairly-mcq-06",
-        "unfairly-mcq-10",
-        "unfairly-mcq-05"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair treatment」指「不公平待遇」。",
       "sentenceIndex": 15,
@@ -977,12 +884,9 @@ export default {
         "unfair treatment"
       ],
       "optionReasons": {
-        "unfairly-mcq-08": "本句指「不公平待遇」。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。"
+        "unfairly-mcq-08": "本句的「unfair treatment」指「不公平待遇」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-08"
     },
@@ -994,11 +898,8 @@ export default {
       "masked": "The policy led to ____ of some applicants.",
       "options": [
         "unfairly-mcq-08",
-        "unfairly-mcq-07",
-        "unfairly-mcq-09",
-        "unfairly-mcq-06",
-        "unfairly-mcq-10",
-        "unfairly-mcq-05"
+        "unfairly-mcq-21",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「unfair treatment」指「不公平待遇」。",
       "sentenceIndex": 16,
@@ -1007,12 +908,9 @@ export default {
         "unfair treatment"
       ],
       "optionReasons": {
-        "unfairly-mcq-08": "本句指「不公平待遇」。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-05": "「不公平的」與本句語境不同。"
+        "unfairly-mcq-08": "本句的「unfair treatment」指「不公平待遇」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-08"
     },
@@ -1024,11 +922,8 @@ export default {
       "masked": "She received a lot of ____.",
       "options": [
         "unfairly-mcq-09",
-        "unfairly-mcq-08",
-        "unfairly-mcq-10",
-        "unfairly-mcq-07",
-        "unfairly-mcq-11",
-        "unfairly-mcq-06"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「unfair criticism」指「不公允批評」。",
       "sentenceIndex": 17,
@@ -1037,12 +932,9 @@ export default {
         "unfair criticism"
       ],
       "optionReasons": {
-        "unfairly-mcq-09": "本句指「不公允批評」。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-09": "本句的「unfair criticism」指「不公允批評」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-09"
     },
@@ -1054,11 +946,8 @@ export default {
       "masked": "The article contained some ____ of the team.",
       "options": [
         "unfairly-mcq-09",
-        "unfairly-mcq-08",
-        "unfairly-mcq-10",
-        "unfairly-mcq-07",
-        "unfairly-mcq-11",
-        "unfairly-mcq-06"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair criticism」指「不公允批評」。",
       "sentenceIndex": 18,
@@ -1067,12 +956,9 @@ export default {
         "unfair criticism"
       ],
       "optionReasons": {
-        "unfairly-mcq-09": "本句指「不公允批評」。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-06": "「對某人不公平」與本句語境不同。"
+        "unfairly-mcq-09": "本句的「unfair criticism」指「不公允批評」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-09"
     },
@@ -1084,11 +970,8 @@ export default {
       "masked": "Kevin's comment felt like an ____.",
       "options": [
         "unfairly-mcq-10",
-        "unfairly-mcq-09",
-        "unfairly-mcq-11",
-        "unfairly-mcq-08",
-        "unfairly-mcq-12",
-        "unfairly-mcq-07"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair accusation」指「無理／不公平指責」。",
       "sentenceIndex": 19,
@@ -1097,12 +980,9 @@ export default {
         "unfair accusation"
       ],
       "optionReasons": {
-        "unfairly-mcq-10": "本句指「無理／不公平指責」。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。"
+        "unfairly-mcq-10": "本句的「unfair accusation」指「無理／不公平指責」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-10"
     },
@@ -1114,11 +994,8 @@ export default {
       "masked": "He apologized for making an ____.",
       "options": [
         "unfairly-mcq-10",
-        "unfairly-mcq-09",
-        "unfairly-mcq-11",
-        "unfairly-mcq-08",
-        "unfairly-mcq-12",
-        "unfairly-mcq-07"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair accusation」指「無理／不公平指責」。",
       "sentenceIndex": 20,
@@ -1127,12 +1004,9 @@ export default {
         "unfair accusation"
       ],
       "optionReasons": {
-        "unfairly-mcq-10": "本句指「無理／不公平指責」。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-07": "「這不公平」與本句語境不同。"
+        "unfairly-mcq-10": "本句的「unfair accusation」指「無理／不公平指責」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-10"
     },
@@ -1144,11 +1018,8 @@ export default {
       "masked": "The students protested against the ____.",
       "options": [
         "unfairly-mcq-11",
-        "unfairly-mcq-10",
-        "unfairly-mcq-12",
-        "unfairly-mcq-09",
-        "unfairly-mcq-13",
-        "unfairly-mcq-08"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair decision」指「不公平決定」。",
       "sentenceIndex": 21,
@@ -1157,12 +1028,9 @@ export default {
         "unfair decision"
       ],
       "optionReasons": {
-        "unfairly-mcq-11": "本句指「不公平決定」。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。"
+        "unfairly-mcq-11": "本句的「unfair decision」指「不公平決定」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-11"
     },
@@ -1174,11 +1042,8 @@ export default {
       "masked": "She believed the result was based on an ____.",
       "options": [
         "unfairly-mcq-11",
-        "unfairly-mcq-10",
-        "unfairly-mcq-12",
-        "unfairly-mcq-09",
-        "unfairly-mcq-13",
-        "unfairly-mcq-08"
+        "unfairly-mcq-21",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「unfair decision」指「不公平決定」。",
       "sentenceIndex": 22,
@@ -1187,12 +1052,9 @@ export default {
         "unfair decision"
       ],
       "optionReasons": {
-        "unfairly-mcq-11": "本句指「不公平決定」。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-08": "「不公平待遇」與本句語境不同。"
+        "unfairly-mcq-11": "本句的「unfair decision」指「不公平決定」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-11"
     },
@@ -1204,11 +1066,8 @@ export default {
       "masked": "The rule gave one team an ____.",
       "options": [
         "unfairly-mcq-12",
-        "unfairly-mcq-11",
-        "unfairly-mcq-13",
-        "unfairly-mcq-10",
-        "unfairly-mcq-14",
-        "unfairly-mcq-09"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「unfair advantage」指「不公平優勢」。",
       "sentenceIndex": 23,
@@ -1217,12 +1076,9 @@ export default {
         "unfair advantage"
       ],
       "optionReasons": {
-        "unfairly-mcq-12": "本句指「不公平優勢」。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。"
+        "unfairly-mcq-12": "本句的「unfair advantage」指「不公平優勢」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-12"
     },
@@ -1234,11 +1090,8 @@ export default {
       "masked": "Using hidden information would give you an ____.",
       "options": [
         "unfairly-mcq-12",
-        "unfairly-mcq-11",
-        "unfairly-mcq-13",
-        "unfairly-mcq-10",
-        "unfairly-mcq-14",
-        "unfairly-mcq-09"
+        "unfairly-mcq-21",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「unfair advantage」指「不公平優勢」。",
       "sentenceIndex": 24,
@@ -1247,12 +1100,9 @@ export default {
         "unfair advantage"
       ],
       "optionReasons": {
-        "unfairly-mcq-12": "本句指「不公平優勢」。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-09": "「不公允批評」與本句語境不同。"
+        "unfairly-mcq-12": "本句的「unfair advantage」指「不公平優勢」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-12"
     },
@@ -1264,11 +1114,8 @@ export default {
       "masked": "Comparing a beginner with an expert is an ____.",
       "options": [
         "unfairly-mcq-13",
-        "unfairly-mcq-12",
-        "unfairly-mcq-14",
-        "unfairly-mcq-11",
-        "unfairly-mcq-15",
-        "unfairly-mcq-10"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair comparison」指「不公允比較」。",
       "sentenceIndex": 25,
@@ -1277,12 +1124,9 @@ export default {
         "unfair comparison"
       ],
       "optionReasons": {
-        "unfairly-mcq-13": "本句指「不公允比較」。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。"
+        "unfairly-mcq-13": "本句的「unfair comparison」指「不公允比較」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-13"
     },
@@ -1294,11 +1138,8 @@ export default {
       "masked": "That's an ____ because the situations are different.",
       "options": [
         "unfairly-mcq-13",
-        "unfairly-mcq-12",
-        "unfairly-mcq-14",
-        "unfairly-mcq-11",
-        "unfairly-mcq-15",
-        "unfairly-mcq-10"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair comparison」指「不公允比較」。",
       "sentenceIndex": 26,
@@ -1307,12 +1148,9 @@ export default {
         "unfair comparison"
       ],
       "optionReasons": {
-        "unfairly-mcq-13": "本句指「不公允比較」。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-10": "「無理／不公平指責」與本句語境不同。"
+        "unfairly-mcq-13": "本句的「unfair comparison」指「不公允比較」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-13"
     },
@@ -1324,11 +1162,8 @@ export default {
       "masked": "The company complained about ____.",
       "options": [
         "unfairly-mcq-14",
-        "unfairly-mcq-13",
-        "unfairly-mcq-15",
-        "unfairly-mcq-12",
-        "unfairly-mcq-16",
-        "unfairly-mcq-11"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair competition」指「不公平競爭」。",
       "sentenceIndex": 27,
@@ -1337,12 +1172,9 @@ export default {
         "unfair competition"
       ],
       "optionReasons": {
-        "unfairly-mcq-14": "本句指「不公平競爭」。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。"
+        "unfairly-mcq-14": "本句的「unfair competition」指「不公平競爭」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-14"
     },
@@ -1354,11 +1186,8 @@ export default {
       "masked": "Rules are intended to prevent ____.",
       "options": [
         "unfairly-mcq-14",
-        "unfairly-mcq-13",
-        "unfairly-mcq-15",
-        "unfairly-mcq-12",
-        "unfairly-mcq-16",
-        "unfairly-mcq-11"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfair competition」指「不公平競爭」。",
       "sentenceIndex": 28,
@@ -1367,12 +1196,9 @@ export default {
         "unfair competition"
       ],
       "optionReasons": {
-        "unfairly-mcq-14": "本句指「不公平競爭」。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-11": "「不公平決定」與本句語境不同。"
+        "unfairly-mcq-14": "本句的「unfair competition」指「不公平競爭」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-14"
     },
@@ -1384,11 +1210,8 @@ export default {
       "masked": "She was angry at the ____ of the situation.",
       "options": [
         "unfairly-mcq-15",
-        "unfairly-mcq-14",
-        "unfairly-mcq-16",
-        "unfairly-mcq-13",
-        "unfairly-mcq-17",
-        "unfairly-mcq-12"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfairness」指「不公平；不公正」。",
       "sentenceIndex": 29,
@@ -1397,12 +1220,9 @@ export default {
         "unfairness"
       ],
       "optionReasons": {
-        "unfairly-mcq-15": "本句指「不公平；不公正」。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。"
+        "unfairly-mcq-15": "本句的「unfairness」指「不公平；不公正」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-15"
     },
@@ -1414,11 +1234,8 @@ export default {
       "masked": "The incident exposed the ____ in the system.",
       "options": [
         "unfairly-mcq-15",
-        "unfairly-mcq-14",
-        "unfairly-mcq-16",
-        "unfairly-mcq-13",
-        "unfairly-mcq-17",
-        "unfairly-mcq-12"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfairness」指「不公平；不公正」。",
       "sentenceIndex": 30,
@@ -1427,12 +1244,9 @@ export default {
         "unfairness"
       ],
       "optionReasons": {
-        "unfairly-mcq-15": "本句指「不公平；不公正」。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。"
+        "unfairly-mcq-15": "本句的「unfairness」指「不公平；不公正」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-15"
     },
@@ -1444,11 +1258,8 @@ export default {
       "masked": "He finally understood the ____.",
       "options": [
         "unfairly-mcq-15",
-        "unfairly-mcq-14",
-        "unfairly-mcq-16",
-        "unfairly-mcq-13",
-        "unfairly-mcq-17",
-        "unfairly-mcq-12"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfairness of his accusation」指「不公平；不公正」。",
       "sentenceIndex": 31,
@@ -1457,12 +1268,9 @@ export default {
         "unfairness of his accusation"
       ],
       "optionReasons": {
-        "unfairly-mcq-15": "本句指「不公平；不公正」。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。"
+        "unfairly-mcq-15": "本句的「unfairness of his accusation」指「不公平；不公正」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-15"
     },
@@ -1474,11 +1282,8 @@ export default {
       "masked": "We discussed the ____.",
       "options": [
         "unfairly-mcq-15",
-        "unfairly-mcq-14",
-        "unfairly-mcq-16",
-        "unfairly-mcq-13",
-        "unfairly-mcq-17",
-        "unfairly-mcq-12"
+        "unfairly-mcq-18",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「unfairness of the rule」指「不公平；不公正」。",
       "sentenceIndex": 32,
@@ -1487,12 +1292,9 @@ export default {
         "unfairness of the rule"
       ],
       "optionReasons": {
-        "unfairly-mcq-15": "本句指「不公平；不公正」。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-12": "「不公平優勢」與本句語境不同。"
+        "unfairly-mcq-15": "本句的「unfairness of the rule」指「不公平；不公正」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-15"
     },
@@ -1504,11 +1306,8 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "unfairly-mcq-16",
-        "unfairly-mcq-15",
-        "unfairly-mcq-17",
-        "unfairly-mcq-14",
-        "unfairly-mcq-18",
-        "unfairly-mcq-13"
+        "unfairly-mcq-21",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「fair decision」指「公平的」。",
       "sentenceIndex": 33,
@@ -1517,12 +1316,9 @@ export default {
         "fair decision"
       ],
       "optionReasons": {
-        "unfairly-mcq-16": "本句指「公平的」。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。"
+        "unfairly-mcq-16": "本句的「fair decision」指「公平的」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-16"
     },
@@ -1534,11 +1330,8 @@ export default {
       "masked": "Everyone deserves a ____.",
       "options": [
         "unfairly-mcq-16",
-        "unfairly-mcq-15",
-        "unfairly-mcq-17",
-        "unfairly-mcq-14",
         "unfairly-mcq-18",
-        "unfairly-mcq-13"
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fair chance」指「公平的」。",
       "sentenceIndex": 34,
@@ -1547,12 +1340,9 @@ export default {
         "fair chance"
       ],
       "optionReasons": {
-        "unfairly-mcq-16": "本句指「公平的」。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-13": "「不公允比較」與本句語境不同。"
+        "unfairly-mcq-16": "本句的「fair chance」指「公平的」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-16"
     },
@@ -1564,11 +1354,8 @@ export default {
       "masked": "Everyone should be ____.",
       "options": [
         "unfairly-mcq-17",
-        "unfairly-mcq-16",
-        "unfairly-mcq-18",
-        "unfairly-mcq-15",
-        "unfairly-mcq-19",
-        "unfairly-mcq-14"
+        "unfairly-mcq-21",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「treated fairly」指「公平地」。",
       "sentenceIndex": 35,
@@ -1577,12 +1364,9 @@ export default {
         "treated fairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-17": "本句指「公平地」。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。"
+        "unfairly-mcq-17": "本句的「treated fairly」指「公平地」。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-17"
     },
@@ -1594,11 +1378,8 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "unfairly-mcq-17",
-        "unfairly-mcq-16",
         "unfairly-mcq-18",
-        "unfairly-mcq-15",
-        "unfairly-mcq-19",
-        "unfairly-mcq-14"
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「graded everyone fairly」指「公平地」。",
       "sentenceIndex": 36,
@@ -1607,12 +1388,9 @@ export default {
         "graded everyone fairly"
       ],
       "optionReasons": {
-        "unfairly-mcq-17": "本句指「公平地」。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-14": "「不公平競爭」與本句語境不同。"
+        "unfairly-mcq-17": "本句的「graded everyone fairly」指「公平地」。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-17"
     },
@@ -1624,11 +1402,8 @@ export default {
       "masked": "The task was ____.",
       "options": [
         "unfairly-mcq-18",
-        "unfairly-mcq-17",
-        "unfairly-mcq-19",
-        "unfairly-mcq-16",
-        "unfairly-mcq-20",
-        "unfairly-mcq-15"
+        "unfairly-mcq-09",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fairly difficult」指「相當；頗為」。",
       "sentenceIndex": 37,
@@ -1637,12 +1412,9 @@ export default {
         "fairly difficult"
       ],
       "optionReasons": {
-        "unfairly-mcq-18": "本句指「相當；頗為」。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。"
+        "unfairly-mcq-18": "本句的「fairly difficult」指「相當；頗為」。",
+        "unfairly-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-18"
     },
@@ -1654,11 +1426,8 @@ export default {
       "masked": "She speaks English ____.",
       "options": [
         "unfairly-mcq-18",
-        "unfairly-mcq-17",
-        "unfairly-mcq-19",
-        "unfairly-mcq-16",
-        "unfairly-mcq-20",
-        "unfairly-mcq-15"
+        "unfairly-mcq-15",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fairly well」指「相當；頗為」。",
       "sentenceIndex": 38,
@@ -1667,12 +1436,9 @@ export default {
         "fairly well"
       ],
       "optionReasons": {
-        "unfairly-mcq-18": "本句指「相當；頗為」。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。"
+        "unfairly-mcq-18": "本句的「fairly well」指「相當；頗為」。",
+        "unfairly-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-18"
     },
@@ -1684,11 +1450,8 @@ export default {
       "masked": "I'm ____ that the file was uploaded.",
       "options": [
         "unfairly-pdf-001",
-        "unfairly-mcq-17",
         "unfairly-mcq-19",
-        "unfairly-mcq-16",
-        "unfairly-mcq-20",
-        "unfairly-mcq-15"
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fairly certain」指「程度相當高，但通常沒有 very 那麼強」。",
       "sentenceIndex": 39,
@@ -1697,12 +1460,9 @@ export default {
         "fairly certain"
       ],
       "optionReasons": {
-        "unfairly-pdf-001": "本句指「程度相當高，但通常沒有 very 那麼強」。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。"
+        "unfairly-pdf-001": "本句的「fairly certain」指「程度相當高，但通常沒有 very 那麼強」。",
+        "unfairly-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-pdf-001"
     },
@@ -1714,11 +1474,8 @@ export default {
       "masked": "This is a ____ mistake.",
       "options": [
         "unfairly-pdf-001",
-        "unfairly-mcq-17",
-        "unfairly-mcq-19",
-        "unfairly-mcq-16",
-        "unfairly-mcq-20",
-        "unfairly-mcq-15"
+        "unfairly-mcq-12",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fairly common」指「程度相當高，但通常沒有 very 那麼強」。",
       "sentenceIndex": 40,
@@ -1727,12 +1484,9 @@ export default {
         "fairly common"
       ],
       "optionReasons": {
-        "unfairly-pdf-001": "本句指「程度相當高，但通常沒有 very 那麼強」。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-15": "「不公平；不公正」與本句語境不同。"
+        "unfairly-pdf-001": "本句的「fairly common」指「程度相當高，但通常沒有 very 那麼強」。",
+        "unfairly-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-pdf-001"
     },
@@ -1744,11 +1498,8 @@ export default {
       "masked": "The decision was praised for its ____.",
       "options": [
         "unfairly-mcq-19",
-        "unfairly-mcq-18",
-        "unfairly-mcq-20",
-        "unfairly-mcq-17",
-        "unfairly-mcq-21",
-        "unfairly-mcq-16"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fairness」指「公平性」。",
       "sentenceIndex": 41,
@@ -1757,12 +1508,9 @@ export default {
         "fairness"
       ],
       "optionReasons": {
-        "unfairly-mcq-19": "本句指「公平性」。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-21": "「有道理；可以接受」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。"
+        "unfairly-mcq-19": "本句的「fairness」指「公平性」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-19"
     },
@@ -1774,11 +1522,8 @@ export default {
       "masked": "Students care about ____ in grading.",
       "options": [
         "unfairly-mcq-19",
-        "unfairly-mcq-18",
-        "unfairly-mcq-20",
-        "unfairly-mcq-17",
-        "unfairly-mcq-21",
-        "unfairly-mcq-16"
+        "unfairly-pdf-001",
+        "unfairly-mcq-21"
       ],
       "explanation": "本句的「fairness」指「公平性」。",
       "sentenceIndex": 42,
@@ -1787,12 +1532,9 @@ export default {
         "fairness"
       ],
       "optionReasons": {
-        "unfairly-mcq-19": "本句指「公平性」。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-21": "「有道理；可以接受」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。"
+        "unfairly-mcq-19": "本句的「fairness」指「公平性」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-19"
     },
@@ -1804,11 +1546,7 @@ export default {
       "masked": "____, he apologised properly afterward.",
       "options": [
         "unfairly-mcq-20",
-        "unfairly-mcq-19",
-        "unfairly-mcq-21",
-        "unfairly-mcq-18",
-        "unfairly-mcq-17",
-        "unfairly-mcq-16"
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「In fairness to Kevin」指「公道地說」。",
       "sentenceIndex": 43,
@@ -1817,12 +1555,8 @@ export default {
         "In fairness to Kevin"
       ],
       "optionReasons": {
-        "unfairly-mcq-20": "本句指「公道地說」。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-21": "「有道理；可以接受」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。"
+        "unfairly-mcq-20": "本句的「In fairness to Kevin」指「公道地說」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-20"
     },
@@ -1834,11 +1568,7 @@ export default {
       "masked": "____, everyone was under a lot of pressure.",
       "options": [
         "unfairly-mcq-20",
-        "unfairly-mcq-19",
-        "unfairly-mcq-21",
-        "unfairly-mcq-18",
-        "unfairly-mcq-17",
-        "unfairly-mcq-16"
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「In fairness」指「公道地說」。",
       "sentenceIndex": 44,
@@ -1847,12 +1577,8 @@ export default {
         "In fairness"
       ],
       "optionReasons": {
-        "unfairly-mcq-20": "本句指「公道地說」。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-21": "「有道理；可以接受」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。"
+        "unfairly-mcq-20": "本句的「In fairness」指「公道地說」。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-20"
     },
@@ -1864,11 +1590,8 @@ export default {
       "masked": "I need more time.” > “____.",
       "options": [
         "unfairly-mcq-21",
-        "unfairly-mcq-20",
-        "unfairly-mcq-19",
-        "unfairly-mcq-18",
-        "unfairly-mcq-17",
-        "unfairly-mcq-16"
+        "unfairly-mcq-05",
+        "unfairly-mcq-18"
       ],
       "explanation": "本句的「Fair enough」指「有道理；可以接受」。",
       "sentenceIndex": 45,
@@ -1877,12 +1600,9 @@ export default {
         "Fair enough"
       ],
       "optionReasons": {
-        "unfairly-mcq-21": "本句指「有道理；可以接受」。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。"
+        "unfairly-mcq-21": "本句的「Fair enough」指「有道理；可以接受」。",
+        "unfairly-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "unfairly-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-21"
     },
@@ -1894,11 +1614,8 @@ export default {
       "masked": "____, but you should have told us earlier.",
       "options": [
         "unfairly-mcq-21",
-        "unfairly-mcq-20",
-        "unfairly-mcq-19",
-        "unfairly-mcq-18",
-        "unfairly-mcq-17",
-        "unfairly-mcq-16"
+        "unfairly-mcq-11",
+        "unfairly-pdf-001"
       ],
       "explanation": "本句的「Fair enough」指「有道理；可以接受」。",
       "sentenceIndex": 46,
@@ -1907,12 +1624,9 @@ export default {
         "Fair enough"
       ],
       "optionReasons": {
-        "unfairly-mcq-21": "本句指「有道理；可以接受」。",
-        "unfairly-mcq-20": "「公道地說」與本句語境不同。",
-        "unfairly-mcq-19": "「公平性」與本句語境不同。",
-        "unfairly-mcq-18": "「相當；頗為」與本句語境不同。",
-        "unfairly-mcq-17": "「公平地」與本句語境不同。",
-        "unfairly-mcq-16": "「公平的」與本句語境不同。"
+        "unfairly-mcq-21": "本句的「Fair enough」指「有道理；可以接受」。",
+        "unfairly-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "unfairly-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "unfairly-mcq-21"
     }
@@ -1924,5 +1638,7 @@ export default {
     "sha256": "179f2bfaecda59473010487f9af97712e99869f80b2ea8f276df2bb702f50a52",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

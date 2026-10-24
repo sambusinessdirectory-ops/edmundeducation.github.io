@@ -243,10 +243,8 @@ export default {
       "options": [
         "jacket-mcq-01",
         "jacket-mcq-02",
-        "jacket-mcq-03",
-        "jacket-mcq-04",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-08",
+        "jacket-mcq-04"
       ],
       "explanation": "本句的「jacket」指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
       "sentenceIndex": 0,
@@ -255,12 +253,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-01": "本句指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-01": "本句的「jacket」指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-01"
     },
@@ -273,10 +269,8 @@ export default {
       "options": [
         "jacket-mcq-01",
         "jacket-mcq-02",
-        "jacket-mcq-03",
-        "jacket-mcq-04",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-08",
+        "jacket-mcq-04"
       ],
       "explanation": "本句的「jacket」指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
       "sentenceIndex": 1,
@@ -285,12 +279,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-01": "本句指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-01": "本句的「jacket」指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-01"
     },
@@ -303,10 +295,8 @@ export default {
       "options": [
         "jacket-mcq-01",
         "jacket-mcq-02",
-        "jacket-mcq-03",
-        "jacket-mcq-04",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-08",
+        "jacket-mcq-04"
       ],
       "explanation": "本句的「jacket」指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
       "sentenceIndex": 2,
@@ -315,12 +305,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-01": "本句指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-01": "本句的「jacket」指「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-01"
     },
@@ -332,11 +320,8 @@ export default {
       "masked": "He wore a dark suit ____.",
       "options": [
         "jacket-mcq-02",
-        "jacket-mcq-01",
-        "jacket-mcq-03",
-        "jacket-mcq-04",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-11",
+        "jacket-mcq-08"
       ],
       "explanation": "本句的「jacket」指「西裝或正式服裝的上衣部分；屬於 clothing 義」。",
       "sentenceIndex": 3,
@@ -345,12 +330,9 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-02": "本句指「西裝或正式服裝的上衣部分；屬於 clothing 義」。",
-        "jacket-mcq-01": "「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-02": "本句的「jacket」指「西裝或正式服裝的上衣部分；屬於 clothing 義」。",
+        "jacket-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-02"
     },
@@ -362,11 +344,9 @@ export default {
       "masked": "Please wear a ____ and tie.",
       "options": [
         "jacket-mcq-02",
-        "jacket-mcq-01",
         "jacket-mcq-03",
-        "jacket-mcq-04",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-08",
+        "jacket-mcq-01"
       ],
       "explanation": "本句的「jacket」指「西裝或正式服裝的上衣部分；屬於 clothing 義」。",
       "sentenceIndex": 4,
@@ -375,12 +355,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-02": "本句指「西裝或正式服裝的上衣部分；屬於 clothing 義」。",
-        "jacket-mcq-01": "「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-02": "本句的「jacket」指「西裝或正式服裝的上衣部分；屬於 clothing 義」。",
+        "jacket-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-02"
     },
@@ -393,10 +371,8 @@ export default {
       "options": [
         "jacket-mcq-03",
         "jacket-mcq-02",
-        "jacket-mcq-04",
-        "jacket-mcq-01",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-08",
+        "jacket-mcq-01"
       ],
       "explanation": "本句的「jacket」指「包在物件外面的保護、絕緣、隔熱或支撐層」。",
       "sentenceIndex": 5,
@@ -405,12 +381,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-03": "本句指「包在物件外面的保護、絕緣、隔熱或支撐層」。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-01": "「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-03": "本句的「jacket」指「包在物件外面的保護、絕緣、隔熱或支撐層」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-03"
     },
@@ -423,10 +397,8 @@ export default {
       "options": [
         "jacket-mcq-03",
         "jacket-mcq-02",
-        "jacket-mcq-04",
-        "jacket-mcq-01",
-        "jacket-mcq-05",
-        "jacket-mcq-06"
+        "jacket-mcq-08",
+        "jacket-mcq-01"
       ],
       "explanation": "本句的「jacket」指「包在物件外面的保護、絕緣、隔熱或支撐層」。",
       "sentenceIndex": 6,
@@ -435,12 +407,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-03": "本句指「包在物件外面的保護、絕緣、隔熱或支撐層」。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-01": "「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。"
+        "jacket-mcq-03": "本句的「jacket」指「包在物件外面的保護、絕緣、隔熱或支撐層」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-03"
     },
@@ -452,11 +422,9 @@ export default {
       "masked": "The original ____ of the book is quite valuable.",
       "options": [
         "jacket-mcq-04",
-        "jacket-mcq-03",
-        "jacket-mcq-05",
-        "jacket-mcq-02",
-        "jacket-mcq-06",
-        "jacket-mcq-01"
+        "jacket-mcq-01",
+        "jacket-mcq-08",
+        "jacket-mcq-12"
       ],
       "explanation": "本句的「jacket」指「精裝書外面的裝飾／保護性書衣或護封」。",
       "sentenceIndex": 7,
@@ -465,12 +433,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-04": "本句指「精裝書外面的裝飾／保護性書衣或護封」。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。",
-        "jacket-mcq-01": "「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」與本句語境不同。"
+        "jacket-mcq-04": "本句的「jacket」指「精裝書外面的裝飾／保護性書衣或護封」。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-04"
     },
@@ -482,11 +448,9 @@ export default {
       "masked": "The title appears on the front of the ____.",
       "options": [
         "jacket-mcq-04",
-        "jacket-mcq-03",
-        "jacket-mcq-05",
-        "jacket-mcq-02",
-        "jacket-mcq-06",
-        "jacket-mcq-01"
+        "jacket-mcq-01",
+        "jacket-mcq-08",
+        "jacket-mcq-12"
       ],
       "explanation": "本句的「jacket」指「精裝書外面的裝飾／保護性書衣或護封」。",
       "sentenceIndex": 8,
@@ -495,12 +459,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-04": "本句指「精裝書外面的裝飾／保護性書衣或護封」。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。",
-        "jacket-mcq-01": "「穿在上半身外層、通常有袖並可在前方開合的短外套／夾克」與本句語境不同。"
+        "jacket-mcq-04": "本句的「jacket」指「精裝書外面的裝飾／保護性書衣或護封」。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-04"
     },
@@ -512,11 +474,8 @@ export default {
       "masked": "The record still has its original ____.",
       "options": [
         "jacket-mcq-05",
-        "jacket-mcq-04",
-        "jacket-mcq-06",
-        "jacket-mcq-03",
-        "jacket-mcq-07",
-        "jacket-mcq-02"
+        "jacket-mcq-10",
+        "jacket-mcq-08"
       ],
       "explanation": "本句的「jacket」指「唱片等外面的封套；屬於 covering 義」。",
       "sentenceIndex": 9,
@@ -525,12 +484,9 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-05": "本句指「唱片等外面的封套；屬於 covering 義」。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。",
-        "jacket-mcq-02": "「西裝或正式服裝的上衣部分；屬於 clothing 義」與本句語境不同。"
+        "jacket-mcq-05": "本句的「jacket」指「唱片等外面的封套；屬於 covering 義」。",
+        "jacket-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-05"
     },
@@ -542,11 +498,9 @@ export default {
       "masked": "The bullet has a copper ____.",
       "options": [
         "jacket-mcq-06",
-        "jacket-mcq-05",
-        "jacket-mcq-07",
-        "jacket-mcq-04",
-        "jacket-mcq-08",
-        "jacket-mcq-03"
+        "jacket-mcq-02",
+        "jacket-mcq-01",
+        "jacket-mcq-08"
       ],
       "explanation": "本句的「jacket」指「包在彈頭核心外面的金屬被甲」。",
       "sentenceIndex": 10,
@@ -555,12 +509,10 @@ export default {
         "jacket"
       ],
       "optionReasons": {
-        "jacket-mcq-06": "本句指「包在彈頭核心外面的金屬被甲」。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。",
-        "jacket-mcq-04": "「精裝書外面的裝飾／保護性書衣或護封」與本句語境不同。",
-        "jacket-mcq-08": "「連皮焗薯；jacket 指外皮的用法較低頻」與本句語境不同。",
-        "jacket-mcq-03": "「包在物件外面的保護、絕緣、隔熱或支撐層」與本句語境不同。"
+        "jacket-mcq-06": "本句的「jacket」指「包在彈頭核心外面的金屬被甲」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-06"
     },
@@ -572,11 +524,9 @@ export default {
       "masked": "The potatoes were cooked in their ____.",
       "options": [
         "jacket-mcq-08",
-        "jacket-mcq-07",
-        "jacket-mcq-09",
-        "jacket-mcq-06",
-        "jacket-mcq-10",
-        "jacket-mcq-05"
+        "jacket-mcq-02",
+        "jacket-mcq-04",
+        "jacket-mcq-01"
       ],
       "explanation": "本句的「jackets」指「連皮焗薯；jacket 指外皮的用法較低頻」。",
       "sentenceIndex": 13,
@@ -585,12 +535,10 @@ export default {
         "jackets"
       ],
       "optionReasons": {
-        "jacket-mcq-08": "本句指「連皮焗薯；jacket 指外皮的用法較低頻」。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。",
-        "jacket-mcq-09": "「海上平台的鋼製外部支撐套架；專門」與本句語境不同。",
-        "jacket-mcq-06": "「包在彈頭核心外面的金屬被甲」與本句語境不同。",
-        "jacket-mcq-10": "「用保護、隔熱或其他功能性的外層把某物包覆起來」與本句語境不同。",
-        "jacket-mcq-05": "「唱片等外面的封套；屬於 covering 義」與本句語境不同。"
+        "jacket-mcq-08": "本句的「jackets」指「連皮焗薯；jacket 指外皮的用法較低頻」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-08"
     },
@@ -602,11 +550,9 @@ export default {
       "masked": "The pipe was ____ with insulating material.",
       "options": [
         "jacket-mcq-10",
-        "jacket-mcq-09",
-        "jacket-mcq-11",
+        "jacket-mcq-02",
         "jacket-mcq-08",
-        "jacket-mcq-12",
-        "jacket-mcq-07"
+        "jacket-mcq-06"
       ],
       "explanation": "本句的「jacketed」指「用保護、隔熱或其他功能性的外層把某物包覆起來」。",
       "sentenceIndex": 14,
@@ -615,12 +561,10 @@ export default {
         "jacketed"
       ],
       "optionReasons": {
-        "jacket-mcq-10": "本句指「用保護、隔熱或其他功能性的外層把某物包覆起來」。",
-        "jacket-mcq-09": "「海上平台的鋼製外部支撐套架；專門」與本句語境不同。",
-        "jacket-mcq-11": "「被外層／護套包覆的」與本句語境不同。",
-        "jacket-mcq-08": "「連皮焗薯；jacket 指外皮的用法較低頻」與本句語境不同。",
-        "jacket-mcq-12": "「外護套材料或包覆處理」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。"
+        "jacket-mcq-10": "本句的「jacketed」指「用保護、隔熱或其他功能性的外層把某物包覆起來」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-10"
     },
@@ -632,11 +576,9 @@ export default {
       "masked": "The cable is ____ in plastic.",
       "options": [
         "jacket-mcq-10",
-        "jacket-mcq-09",
-        "jacket-mcq-11",
+        "jacket-mcq-02",
         "jacket-mcq-08",
-        "jacket-mcq-12",
-        "jacket-mcq-07"
+        "jacket-mcq-06"
       ],
       "explanation": "本句的「jacketed」指「用保護、隔熱或其他功能性的外層把某物包覆起來」。",
       "sentenceIndex": 15,
@@ -645,12 +587,10 @@ export default {
         "jacketed"
       ],
       "optionReasons": {
-        "jacket-mcq-10": "本句指「用保護、隔熱或其他功能性的外層把某物包覆起來」。",
-        "jacket-mcq-09": "「海上平台的鋼製外部支撐套架；專門」與本句語境不同。",
-        "jacket-mcq-11": "「被外層／護套包覆的」與本句語境不同。",
-        "jacket-mcq-08": "「連皮焗薯；jacket 指外皮的用法較低頻」與本句語境不同。",
-        "jacket-mcq-12": "「外護套材料或包覆處理」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。"
+        "jacket-mcq-10": "本句的「jacketed」指「用保護、隔熱或其他功能性的外層把某物包覆起來」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-10"
     },
@@ -662,11 +602,8 @@ export default {
       "masked": "The laboratory uses a ____ vessel.",
       "options": [
         "jacket-mcq-11",
-        "jacket-mcq-10",
-        "jacket-mcq-12",
-        "jacket-mcq-09",
-        "jacket-mcq-08",
-        "jacket-mcq-07"
+        "jacket-mcq-02",
+        "jacket-mcq-08"
       ],
       "explanation": "本句的「jacketed」指「被外層／護套包覆的」。",
       "sentenceIndex": 16,
@@ -675,12 +612,9 @@ export default {
         "jacketed"
       ],
       "optionReasons": {
-        "jacket-mcq-11": "本句指「被外層／護套包覆的」。",
-        "jacket-mcq-10": "「用保護、隔熱或其他功能性的外層把某物包覆起來」與本句語境不同。",
-        "jacket-mcq-12": "「外護套材料或包覆處理」與本句語境不同。",
-        "jacket-mcq-09": "「海上平台的鋼製外部支撐套架；專門」與本句語境不同。",
-        "jacket-mcq-08": "「連皮焗薯；jacket 指外皮的用法較低頻」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。"
+        "jacket-mcq-11": "本句的「jacketed」指「被外層／護套包覆的」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-11"
     },
@@ -692,11 +626,8 @@ export default {
       "masked": "The wire is fully ____.",
       "options": [
         "jacket-mcq-11",
-        "jacket-mcq-10",
-        "jacket-mcq-12",
-        "jacket-mcq-09",
-        "jacket-mcq-08",
-        "jacket-mcq-07"
+        "jacket-mcq-02",
+        "jacket-mcq-08"
       ],
       "explanation": "本句的「jacketed」指「被外層／護套包覆的」。",
       "sentenceIndex": 17,
@@ -705,12 +636,9 @@ export default {
         "jacketed"
       ],
       "optionReasons": {
-        "jacket-mcq-11": "本句指「被外層／護套包覆的」。",
-        "jacket-mcq-10": "「用保護、隔熱或其他功能性的外層把某物包覆起來」與本句語境不同。",
-        "jacket-mcq-12": "「外護套材料或包覆處理」與本句語境不同。",
-        "jacket-mcq-09": "「海上平台的鋼製外部支撐套架；專門」與本句語境不同。",
-        "jacket-mcq-08": "「連皮焗薯；jacket 指外皮的用法較低頻」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。"
+        "jacket-mcq-11": "本句的「jacketed」指「被外層／護套包覆的」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-11"
     },
@@ -722,11 +650,9 @@ export default {
       "masked": "The cable requires weather-resistant ____.",
       "options": [
         "jacket-mcq-12",
-        "jacket-mcq-11",
-        "jacket-mcq-10",
-        "jacket-mcq-09",
+        "jacket-mcq-02",
         "jacket-mcq-08",
-        "jacket-mcq-07"
+        "jacket-mcq-04"
       ],
       "explanation": "本句的「jacketing」指「外護套材料或包覆處理」。",
       "sentenceIndex": 18,
@@ -735,12 +661,10 @@ export default {
         "jacketing"
       ],
       "optionReasons": {
-        "jacket-mcq-12": "本句指「外護套材料或包覆處理」。",
-        "jacket-mcq-11": "「被外層／護套包覆的」與本句語境不同。",
-        "jacket-mcq-10": "「用保護、隔熱或其他功能性的外層把某物包覆起來」與本句語境不同。",
-        "jacket-mcq-09": "「海上平台的鋼製外部支撐套架；專門」與本句語境不同。",
-        "jacket-mcq-08": "「連皮焗薯；jacket 指外皮的用法較低頻」與本句語境不同。",
-        "jacket-mcq-07": "「包圍設備供加熱／冷卻流體通過的夾套」與本句語境不同。"
+        "jacket-mcq-12": "本句的「jacketing」指「外護套材料或包覆處理」。",
+        "jacket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jacket-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jacket-mcq-12"
     }
@@ -752,5 +676,7 @@ export default {
     "sha256": "4abf08bc88261a2c7045305091f0094ca89a5bc4db7a89053b0b4d6d5c1392a9",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

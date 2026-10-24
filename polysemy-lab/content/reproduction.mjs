@@ -374,11 +374,8 @@ export default {
       "masked": "I would be happy with a high-quality ____ of the painting.",
       "options": [
         "reproduction-mcq-01",
-        "reproduction-mcq-02",
-        "reproduction-mcq-03",
-        "reproduction-mcq-04",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-11",
+        "reproduction-mcq-05"
       ],
       "explanation": "本句的「reproduction」指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
       "sentenceIndex": 0,
@@ -387,12 +384,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-01": "本句指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-01": "本句的「reproduction」指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-01"
     },
@@ -404,11 +398,8 @@ export default {
       "masked": "The museum shop sells ____ of famous paintings.",
       "options": [
         "reproduction-mcq-01",
-        "reproduction-mcq-02",
-        "reproduction-mcq-03",
-        "reproduction-mcq-04",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-11",
+        "reproduction-mcq-05"
       ],
       "explanation": "本句的「reproductions」指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
       "sentenceIndex": 1,
@@ -417,12 +408,9 @@ export default {
         "reproductions"
       ],
       "optionReasons": {
-        "reproduction-mcq-01": "本句指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-01": "本句的「reproductions」指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-01"
     },
@@ -434,11 +422,8 @@ export default {
       "masked": "The ____ looks surprisingly close to the original.",
       "options": [
         "reproduction-mcq-01",
-        "reproduction-mcq-02",
-        "reproduction-mcq-03",
-        "reproduction-mcq-04",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-11",
+        "reproduction-mcq-05"
       ],
       "explanation": "本句的「reproduction」指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
       "sentenceIndex": 2,
@@ -447,12 +432,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-01": "本句指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-01": "本句的「reproduction」指「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-01"
     },
@@ -464,11 +446,8 @@ export default {
       "masked": "The book contains high-quality ____ of the original images.",
       "options": [
         "reproduction-mcq-02",
-        "reproduction-mcq-01",
-        "reproduction-mcq-03",
-        "reproduction-mcq-04",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-11",
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproduction」指「把原有文字、圖像、聲音或物件重新製作成副本的過程」。",
       "sentenceIndex": 3,
@@ -477,12 +456,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-02": "本句指「把原有文字、圖像、聲音或物件重新製作成副本的過程」。",
-        "reproduction-mcq-01": "「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-02": "本句的「reproduction」指「把原有文字、圖像、聲音或物件重新製作成副本的過程」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-02"
     },
@@ -494,11 +470,8 @@ export default {
       "masked": "Digital ____ has made rare documents easier to access.",
       "options": [
         "reproduction-mcq-02",
-        "reproduction-mcq-01",
-        "reproduction-mcq-03",
-        "reproduction-mcq-04",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-11",
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproduction」指「把原有文字、圖像、聲音或物件重新製作成副本的過程」。",
       "sentenceIndex": 4,
@@ -507,12 +480,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-02": "本句指「把原有文字、圖像、聲音或物件重新製作成副本的過程」。",
-        "reproduction-mcq-01": "「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-02": "本句的「reproduction」指「把原有文字、圖像、聲音或物件重新製作成副本的過程」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-02"
     },
@@ -524,11 +494,8 @@ export default {
       "masked": "The article includes a ____ of Monet’s signature.",
       "options": [
         "reproduction-mcq-03",
-        "reproduction-mcq-02",
-        "reproduction-mcq-04",
-        "reproduction-mcq-01",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-10",
+        "reproduction-mcq-13"
       ],
       "explanation": "本句的「reproduction」指「由原圖、照片、文件等翻印／複製出來的版本」。",
       "sentenceIndex": 5,
@@ -537,12 +504,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-03": "本句指「由原圖、照片、文件等翻印／複製出來的版本」。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-01": "「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-03": "本句的「reproduction」指「由原圖、照片、文件等翻印／複製出來的版本」。",
+        "reproduction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-03"
     },
@@ -554,11 +518,8 @@ export default {
       "masked": "The ____ of the old map is very clear.",
       "options": [
         "reproduction-mcq-03",
-        "reproduction-mcq-02",
-        "reproduction-mcq-04",
-        "reproduction-mcq-01",
-        "reproduction-mcq-05",
-        "reproduction-mcq-06"
+        "reproduction-mcq-10",
+        "reproduction-mcq-13"
       ],
       "explanation": "本句的「reproduction」指「由原圖、照片、文件等翻印／複製出來的版本」。",
       "sentenceIndex": 6,
@@ -567,12 +528,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-03": "本句指「由原圖、照片、文件等翻印／複製出來的版本」。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-01": "「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。"
+        "reproduction-mcq-03": "本句的「reproduction」指「由原圖、照片、文件等翻印／複製出來的版本」。",
+        "reproduction-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-03"
     },
@@ -584,11 +542,8 @@ export default {
       "masked": "Sexual ____ involves genetic material from two parents.",
       "options": [
         "reproduction-mcq-04",
-        "reproduction-mcq-03",
-        "reproduction-mcq-05",
-        "reproduction-mcq-02",
-        "reproduction-mcq-06",
-        "reproduction-mcq-01"
+        "reproduction-mcq-11",
+        "reproduction-mcq-05"
       ],
       "explanation": "本句的「reproduction」指「生物產生後代、令物種延續的生殖／繁殖過程」。",
       "sentenceIndex": 7,
@@ -597,12 +552,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-04": "本句指「生物產生後代、令物種延續的生殖／繁殖過程」。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-01": "「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」與本句語境不同。"
+        "reproduction-mcq-04": "本句的「reproduction」指「生物產生後代、令物種延續的生殖／繁殖過程」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-04"
     },
@@ -614,11 +566,9 @@ export default {
       "masked": "____ is essential for the survival of a species.",
       "options": [
         "reproduction-mcq-04",
-        "reproduction-mcq-03",
-        "reproduction-mcq-05",
-        "reproduction-mcq-02",
-        "reproduction-mcq-06",
-        "reproduction-mcq-01"
+        "reproduction-mcq-07",
+        "reproduction-mcq-11",
+        "reproduction-mcq-03"
       ],
       "explanation": "本句的「Reproduction」指「生物產生後代、令物種延續的生殖／繁殖過程」。",
       "sentenceIndex": 8,
@@ -627,12 +577,10 @@ export default {
         "Reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-04": "本句指「生物產生後代、令物種延續的生殖／繁殖過程」。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-01": "「以印刷、攝影等方式盡量忠實重現原作外觀的複製作品」與本句語境不同。"
+        "reproduction-mcq-04": "本句的「Reproduction」指「生物產生後代、令物種延續的生殖／繁殖過程」。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-04"
     },
@@ -644,11 +592,8 @@ export default {
       "masked": "Temperature can affect plant ____.",
       "options": [
         "reproduction-pdf-001",
-        "reproduction-mcq-04",
-        "reproduction-mcq-06",
-        "reproduction-mcq-03",
-        "reproduction-mcq-07",
-        "reproduction-mcq-02"
+        "reproduction-mcq-12",
+        "reproduction-mcq-03"
       ],
       "explanation": "本句的「reproduction」指「生物產生新個體的繁殖過程」。",
       "sentenceIndex": 9,
@@ -657,12 +602,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-pdf-001": "本句指「生物產生新個體的繁殖過程」。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。"
+        "reproduction-pdf-001": "本句的「reproduction」指「生物產生新個體的繁殖過程」。",
+        "reproduction-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-pdf-001"
     },
@@ -674,11 +616,8 @@ export default {
       "masked": "The programme studies animal ____.",
       "options": [
         "reproduction-pdf-001",
-        "reproduction-mcq-04",
         "reproduction-mcq-06",
-        "reproduction-mcq-03",
-        "reproduction-mcq-07",
-        "reproduction-mcq-02"
+        "reproduction-mcq-11"
       ],
       "explanation": "本句的「reproduction」指「生物產生新個體的繁殖過程」。",
       "sentenceIndex": 10,
@@ -687,12 +626,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-pdf-001": "本句指「生物產生新個體的繁殖過程」。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。"
+        "reproduction-pdf-001": "本句的「reproduction」指「生物產生新個體的繁殖過程」。",
+        "reproduction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-pdf-001"
     },
@@ -704,11 +640,9 @@ export default {
       "masked": "The study examines the plant’s ____.",
       "options": [
         "reproduction-mcq-16",
-        "reproduction-mcq-15",
-        "reproduction-mcq-14",
-        "reproduction-mcq-13",
-        "reproduction-mcq-12",
-        "reproduction-mcq-11"
+        "reproduction-mcq-11",
+        "reproduction-mcq-03",
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproductive cycle」指「與生殖、繁殖或產生後代有關的」。",
       "sentenceIndex": 11,
@@ -717,12 +651,10 @@ export default {
         "reproductive cycle"
       ],
       "optionReasons": {
-        "reproduction-mcq-16": "本句指「與生殖、繁殖或產生後代有關的」。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-14": "「合法複製、出版或重製作品的權利」與本句語境不同。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-mcq-16": "本句的「reproductive cycle」指「與生殖、繁殖或產生後代有關的」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-16"
     },
@@ -734,10 +666,7 @@ export default {
       "masked": "The reproductive system includes organs involved in ____.",
       "options": [
         "reproduction-mcq-16",
-        "reproduction-mcq-15",
-        "reproduction-mcq-14",
-        "reproduction-mcq-13",
-        "reproduction-mcq-12",
+        "reproduction-mcq-06",
         "reproduction-mcq-11"
       ],
       "explanation": "本句的「reproduction」指「與生殖、繁殖或產生後代有關的」。",
@@ -747,12 +676,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-16": "本句指「與生殖、繁殖或產生後代有關的」。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-14": "「合法複製、出版或重製作品的權利」與本句語境不同。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-mcq-16": "本句的「reproduction」指「與生殖、繁殖或產生後代有關的」。",
+        "reproduction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-16"
     },
@@ -764,11 +690,8 @@ export default {
       "masked": "The speakers provide excellent sound ____.",
       "options": [
         "reproduction-mcq-05",
-        "reproduction-mcq-04",
-        "reproduction-mcq-06",
-        "reproduction-mcq-03",
-        "reproduction-mcq-07",
-        "reproduction-mcq-02"
+        "reproduction-mcq-16",
+        "reproduction-mcq-11"
       ],
       "explanation": "本句的「reproduction」指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
       "sentenceIndex": 13,
@@ -777,12 +700,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-05": "本句指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。"
+        "reproduction-mcq-05": "本句的「reproduction」指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-05"
     },
@@ -794,11 +714,8 @@ export default {
       "masked": "The screen offers accurate colour ____.",
       "options": [
         "reproduction-mcq-05",
-        "reproduction-mcq-04",
-        "reproduction-mcq-06",
-        "reproduction-mcq-03",
-        "reproduction-mcq-07",
-        "reproduction-mcq-02"
+        "reproduction-mcq-16",
+        "reproduction-mcq-11"
       ],
       "explanation": "本句的「reproduction」指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
       "sentenceIndex": 14,
@@ -807,12 +724,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-05": "本句指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
-        "reproduction-mcq-02": "「把原有文字、圖像、聲音或物件重新製作成副本的過程」與本句語境不同。"
+        "reproduction-mcq-05": "本句的「reproduction」指「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-05"
     },
@@ -824,11 +738,8 @@ export default {
       "masked": "The system is designed for accurate ____.",
       "options": [
         "reproduction-mcq-06",
-        "reproduction-mcq-05",
-        "reproduction-mcq-07",
-        "reproduction-mcq-04",
-        "reproduction-mcq-08",
-        "reproduction-mcq-03"
+        "reproduction-mcq-16",
+        "reproduction-mcq-12"
       ],
       "explanation": "本句的「sound reproduction」指「把錄製／傳輸聲音盡量忠實重播出來的還原效果」。",
       "sentenceIndex": 15,
@@ -837,12 +748,9 @@ export default {
         "sound reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-06": "本句指「把錄製／傳輸聲音盡量忠實重播出來的還原效果」。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-08": "「重新製作某物、圖像或內容的副本」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。"
+        "reproduction-mcq-06": "本句的「sound reproduction」指「把錄製／傳輸聲音盡量忠實重播出來的還原效果」。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-06"
     },
@@ -854,11 +762,8 @@ export default {
       "masked": "Poor speakers can distort sound ____.",
       "options": [
         "reproduction-mcq-06",
-        "reproduction-mcq-05",
-        "reproduction-mcq-07",
-        "reproduction-mcq-04",
-        "reproduction-mcq-08",
-        "reproduction-mcq-03"
+        "reproduction-mcq-16",
+        "reproduction-mcq-11"
       ],
       "explanation": "本句的「reproduction」指「把錄製／傳輸聲音盡量忠實重播出來的還原效果」。",
       "sentenceIndex": 16,
@@ -867,12 +772,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-06": "本句指「把錄製／傳輸聲音盡量忠實重播出來的還原效果」。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。",
-        "reproduction-mcq-08": "「重新製作某物、圖像或內容的副本」與本句語境不同。",
-        "reproduction-mcq-03": "「由原圖、照片、文件等翻印／複製出來的版本」與本句語境不同。"
+        "reproduction-mcq-06": "本句的「reproduction」指「把錄製／傳輸聲音盡量忠實重播出來的還原效果」。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-06"
     },
@@ -884,11 +786,9 @@ export default {
       "masked": "The catalogue has excellent ____.",
       "options": [
         "reproduction-mcq-07",
-        "reproduction-mcq-06",
-        "reproduction-mcq-08",
-        "reproduction-mcq-05",
-        "reproduction-mcq-09",
-        "reproduction-mcq-04"
+        "reproduction-mcq-16",
+        "reproduction-mcq-11",
+        "reproduction-mcq-03"
       ],
       "explanation": "本句的「colour reproduction」指「在印刷／螢幕上準確重現原始顏色的能力」。",
       "sentenceIndex": 17,
@@ -897,12 +797,10 @@ export default {
         "colour reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-07": "本句指「在印刷／螢幕上準確重現原始顏色的能力」。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-08": "「重新製作某物、圖像或內容的副本」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-09": "「重新呈現原有的效果、特徵、條件或氣氛」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。"
+        "reproduction-mcq-07": "本句的「colour reproduction」指「在印刷／螢幕上準確重現原始顏色的能力」。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-07"
     },
@@ -914,11 +812,9 @@ export default {
       "masked": "Accurate colour ____ is important when printing art books.",
       "options": [
         "reproduction-mcq-07",
-        "reproduction-mcq-06",
-        "reproduction-mcq-08",
-        "reproduction-mcq-05",
-        "reproduction-mcq-09",
-        "reproduction-mcq-04"
+        "reproduction-mcq-11",
+        "reproduction-mcq-04",
+        "reproduction-mcq-03"
       ],
       "explanation": "本句的「reproduction」指「在印刷／螢幕上準確重現原始顏色的能力」。",
       "sentenceIndex": 18,
@@ -927,12 +823,10 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-07": "本句指「在印刷／螢幕上準確重現原始顏色的能力」。",
-        "reproduction-mcq-06": "「把錄製／傳輸聲音盡量忠實重播出來的還原效果」與本句語境不同。",
-        "reproduction-mcq-08": "「重新製作某物、圖像或內容的副本」與本句語境不同。",
-        "reproduction-mcq-05": "「設備把原來聲音、影像或顏色重新呈現出來的能力／效果」與本句語境不同。",
-        "reproduction-mcq-09": "「重新呈現原有的效果、特徵、條件或氣氛」與本句語境不同。",
-        "reproduction-mcq-04": "「生物產生後代、令物種延續的生殖／繁殖過程」與本句語境不同。"
+        "reproduction-mcq-07": "本句的「reproduction」指「在印刷／螢幕上準確重現原始顏色的能力」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-07"
     },
@@ -944,11 +838,8 @@ export default {
       "masked": "Some plants can ____ without seeds.",
       "options": [
         "reproduction-mcq-10",
-        "reproduction-mcq-09",
         "reproduction-mcq-11",
-        "reproduction-mcq-08",
-        "reproduction-mcq-12",
-        "reproduction-mcq-07"
+        "reproduction-mcq-06"
       ],
       "explanation": "本句的「reproduce」指「產生新的個體／後代；繁殖」。",
       "sentenceIndex": 19,
@@ -957,12 +848,9 @@ export default {
         "reproduce"
       ],
       "optionReasons": {
-        "reproduction-mcq-10": "本句指「產生新的個體／後代；繁殖」。",
-        "reproduction-mcq-09": "「重新呈現原有的效果、特徵、條件或氣氛」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。",
-        "reproduction-mcq-08": "「重新製作某物、圖像或內容的副本」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-07": "「在印刷／螢幕上準確重現原始顏色的能力」與本句語境不同。"
+        "reproduction-mcq-10": "本句的「reproduce」指「產生新的個體／後代；繁殖」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-10"
     },
@@ -974,11 +862,8 @@ export default {
       "masked": "Other researchers were unable to ____ the result.",
       "options": [
         "reproduction-mcq-11",
-        "reproduction-mcq-10",
-        "reproduction-mcq-12",
-        "reproduction-mcq-09",
-        "reproduction-mcq-13",
-        "reproduction-mcq-08"
+        "reproduction-mcq-14",
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproduce」指「在相同／相似條件下再次得到相同或相近結果」。",
       "sentenceIndex": 20,
@@ -987,12 +872,9 @@ export default {
         "reproduce"
       ],
       "optionReasons": {
-        "reproduction-mcq-11": "本句指「在相同／相似條件下再次得到相同或相近結果」。",
-        "reproduction-mcq-10": "「產生新的個體／後代；繁殖」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-09": "「重新呈現原有的效果、特徵、條件或氣氛」與本句語境不同。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-08": "「重新製作某物、圖像或內容的副本」與本句語境不同。"
+        "reproduction-mcq-11": "本句的「reproduce」指「在相同／相似條件下再次得到相同或相近結果」。",
+        "reproduction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-11"
     },
@@ -1004,11 +886,8 @@ export default {
       "masked": "The results must be ____.",
       "options": [
         "reproduction-mcq-12",
-        "reproduction-mcq-11",
-        "reproduction-mcq-13",
-        "reproduction-mcq-10",
-        "reproduction-mcq-14",
-        "reproduction-mcq-09"
+        "reproduction-mcq-16",
+        "reproduction-mcq-03"
       ],
       "explanation": "本句的「reproducible」指「能在相同／相似條件下再次被重現或得到的」。",
       "sentenceIndex": 21,
@@ -1017,12 +896,9 @@ export default {
         "reproducible"
       ],
       "optionReasons": {
-        "reproduction-mcq-12": "本句指「能在相同／相似條件下再次被重現或得到的」。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-10": "「產生新的個體／後代；繁殖」與本句語境不同。",
-        "reproduction-mcq-14": "「合法複製、出版或重製作品的權利」與本句語境不同。",
-        "reproduction-mcq-09": "「重新呈現原有的效果、特徵、條件或氣氛」與本句語境不同。"
+        "reproduction-mcq-12": "本句的「reproducible」指「能在相同／相似條件下再次被重現或得到的」。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-12"
     },
@@ -1034,11 +910,8 @@ export default {
       "masked": "The study raised questions about ____.",
       "options": [
         "reproduction-mcq-13",
-        "reproduction-mcq-12",
-        "reproduction-mcq-14",
-        "reproduction-mcq-11",
-        "reproduction-mcq-15",
-        "reproduction-mcq-10"
+        "reproduction-mcq-03",
+        "reproduction-mcq-16"
       ],
       "explanation": "本句的「reproducibility」指「研究結果可否被再次獨立重現的程度」。",
       "sentenceIndex": 22,
@@ -1047,12 +920,9 @@ export default {
         "reproducibility"
       ],
       "optionReasons": {
-        "reproduction-mcq-13": "本句指「研究結果可否被再次獨立重現的程度」。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-14": "「合法複製、出版或重製作品的權利」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-10": "「產生新的個體／後代；繁殖」與本句語境不同。"
+        "reproduction-mcq-13": "本句的「reproducibility」指「研究結果可否被再次獨立重現的程度」。",
+        "reproduction-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-13"
     },
@@ -1064,11 +934,7 @@ export default {
       "masked": "The exact ____ of the conditions was impossible.",
       "options": [
         "reproduction-pdf-002",
-        "reproduction-mcq-13",
-        "reproduction-mcq-15",
-        "reproduction-mcq-12",
-        "reproduction-mcq-16",
-        "reproduction-mcq-11"
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproduction」指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
       "sentenceIndex": 23,
@@ -1077,12 +943,8 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-pdf-002": "本句指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-pdf-002": "本句的「reproduction」指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-pdf-002"
     },
@@ -1094,11 +956,7 @@ export default {
       "masked": "The simulation aims at ____ of real-world behaviour.",
       "options": [
         "reproduction-pdf-002",
-        "reproduction-mcq-13",
-        "reproduction-mcq-15",
-        "reproduction-mcq-12",
-        "reproduction-mcq-16",
-        "reproduction-mcq-11"
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproduction」指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
       "sentenceIndex": 24,
@@ -1107,12 +965,8 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-pdf-002": "本句指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-pdf-002": "本句的「reproduction」指「把某種情況、條件、結果或行為再次建立／呈現出來」。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-pdf-002"
     },
@@ -1124,11 +978,8 @@ export default {
       "masked": "The publisher obtained ____ for the image.",
       "options": [
         "reproduction-mcq-14",
-        "reproduction-mcq-13",
-        "reproduction-mcq-15",
-        "reproduction-mcq-12",
-        "reproduction-mcq-16",
-        "reproduction-mcq-11"
+        "reproduction-mcq-11",
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「reproduction rights」指「合法複製、出版或重製作品的權利」。",
       "sentenceIndex": 25,
@@ -1137,12 +988,9 @@ export default {
         "reproduction rights"
       ],
       "optionReasons": {
-        "reproduction-mcq-14": "本句指「合法複製、出版或重製作品的權利」。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-mcq-14": "本句的「reproduction rights」指「合法複製、出版或重製作品的權利」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-14"
     },
@@ -1154,11 +1002,8 @@ export default {
       "masked": "____ rights may be needed before printing the photograph.",
       "options": [
         "reproduction-mcq-14",
-        "reproduction-mcq-13",
-        "reproduction-mcq-15",
-        "reproduction-mcq-12",
-        "reproduction-mcq-16",
-        "reproduction-mcq-11"
+        "reproduction-mcq-11",
+        "reproduction-mcq-07"
       ],
       "explanation": "本句的「Reproduction」指「合法複製、出版或重製作品的權利」。",
       "sentenceIndex": 26,
@@ -1167,12 +1012,9 @@ export default {
         "Reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-14": "本句指「合法複製、出版或重製作品的權利」。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-15": "「按舊式／原物外觀製作，但不是原件的仿製／復刻品」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-mcq-14": "本句的「Reproduction」指「合法複製、出版或重製作品的權利」。",
+        "reproduction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-14"
     },
@@ -1184,11 +1026,8 @@ export default {
       "masked": "The room contains ____ in an eighteenth-century style.",
       "options": [
         "reproduction-mcq-15",
-        "reproduction-mcq-14",
-        "reproduction-mcq-16",
         "reproduction-mcq-13",
-        "reproduction-mcq-12",
-        "reproduction-mcq-11"
+        "reproduction-mcq-05"
       ],
       "explanation": "本句的「reproduction furniture」指「按舊式／原物外觀製作，但不是原件的仿製／復刻品」。",
       "sentenceIndex": 27,
@@ -1197,12 +1036,9 @@ export default {
         "reproduction furniture"
       ],
       "optionReasons": {
-        "reproduction-mcq-15": "本句指「按舊式／原物外觀製作，但不是原件的仿製／復刻品」。",
-        "reproduction-mcq-14": "「合法複製、出版或重製作品的權利」與本句語境不同。",
-        "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-mcq-15": "本句的「reproduction furniture」指「按舊式／原物外觀製作，但不是原件的仿製／復刻品」。",
+        "reproduction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-15"
     },
@@ -1214,11 +1050,8 @@ export default {
       "masked": "This is a ____ clock, not an antique.",
       "options": [
         "reproduction-mcq-15",
-        "reproduction-mcq-14",
-        "reproduction-mcq-16",
         "reproduction-mcq-13",
-        "reproduction-mcq-12",
-        "reproduction-mcq-11"
+        "reproduction-mcq-05"
       ],
       "explanation": "本句的「reproduction」指「按舊式／原物外觀製作，但不是原件的仿製／復刻品」。",
       "sentenceIndex": 28,
@@ -1227,12 +1060,9 @@ export default {
         "reproduction"
       ],
       "optionReasons": {
-        "reproduction-mcq-15": "本句指「按舊式／原物外觀製作，但不是原件的仿製／復刻品」。",
-        "reproduction-mcq-14": "「合法複製、出版或重製作品的權利」與本句語境不同。",
-        "reproduction-mcq-16": "「與生殖、繁殖或產生後代有關的」與本句語境不同。",
-        "reproduction-mcq-13": "「研究結果可否被再次獨立重現的程度」與本句語境不同。",
-        "reproduction-mcq-12": "「能在相同／相似條件下再次被重現或得到的」與本句語境不同。",
-        "reproduction-mcq-11": "「在相同／相似條件下再次得到相同或相近結果」與本句語境不同。"
+        "reproduction-mcq-15": "本句的「reproduction」指「按舊式／原物外觀製作，但不是原件的仿製／復刻品」。",
+        "reproduction-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reproduction-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reproduction-mcq-15"
     }
@@ -1244,5 +1074,7 @@ export default {
     "sha256": "6a6de4beec64c233d222a5dad859d4d562ae28e5744e951e8f7be8fe93879d24",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

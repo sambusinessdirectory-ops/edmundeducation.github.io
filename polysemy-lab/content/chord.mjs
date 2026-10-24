@@ -257,11 +257,9 @@ export default {
       "masked": "She ____ on the guitar.",
       "options": [
         "chord-mcq-02",
-        "chord-mcq-01",
-        "chord-mcq-03",
-        "chord-mcq-04",
         "chord-mcq-05",
-        "chord-mcq-06"
+        "chord-mcq-10",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「played a chord」指「在樂器上彈／奏出一個和弦」。",
       "sentenceIndex": 4,
@@ -270,12 +268,10 @@ export default {
         "played a chord"
       ],
       "optionReasons": {
-        "chord-mcq-02": "本句指「在樂器上彈／奏出一個和弦」。",
-        "chord-mcq-01": "「兩個或以上音符同時發聲形成的和弦」與本句語境不同。",
-        "chord-mcq-03": "「大和弦／小和弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。"
+        "chord-mcq-02": "本句的「played a chord」指「在樂器上彈／奏出一個和弦」。",
+        "chord-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-02"
     },
@@ -287,11 +283,9 @@ export default {
       "masked": "He learned how to ____.",
       "options": [
         "chord-mcq-02",
-        "chord-mcq-01",
-        "chord-mcq-03",
-        "chord-mcq-04",
-        "chord-mcq-05",
-        "chord-mcq-06"
+        "chord-mcq-06",
+        "chord-mcq-09",
+        "chord-mcq-10"
       ],
       "explanation": "本句的「play basic chords」指「在樂器上彈／奏出一個和弦」。",
       "sentenceIndex": 5,
@@ -300,12 +294,10 @@ export default {
         "play basic chords"
       ],
       "optionReasons": {
-        "chord-mcq-02": "本句指「在樂器上彈／奏出一個和弦」。",
-        "chord-mcq-01": "「兩個或以上音符同時發聲形成的和弦」與本句語境不同。",
-        "chord-mcq-03": "「大和弦／小和弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。"
+        "chord-mcq-02": "本句的「play basic chords」指「在樂器上彈／奏出一個和弦」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-02"
     },
@@ -317,10 +309,6 @@ export default {
       "masked": "The song moves from a ____ to a minor one.",
       "options": [
         "chord-mcq-03",
-        "chord-mcq-02",
-        "chord-mcq-04",
-        "chord-mcq-01",
-        "chord-mcq-05",
         "chord-mcq-06"
       ],
       "explanation": "本句的「major chord」指「大和弦／小和弦」。",
@@ -330,12 +318,8 @@ export default {
         "major chord"
       ],
       "optionReasons": {
-        "chord-mcq-03": "本句指「大和弦／小和弦」。",
-        "chord-mcq-02": "「在樂器上彈／奏出一個和弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-01": "「兩個或以上音符同時發聲形成的和弦」與本句語境不同。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。"
+        "chord-mcq-03": "本句的「major chord」指「大和弦／小和弦」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-03"
     },
@@ -347,10 +331,6 @@ export default {
       "masked": "A ____ can sound darker or sadder.",
       "options": [
         "chord-mcq-03",
-        "chord-mcq-02",
-        "chord-mcq-04",
-        "chord-mcq-01",
-        "chord-mcq-05",
         "chord-mcq-06"
       ],
       "explanation": "本句的「minor chord」指「大和弦／小和弦」。",
@@ -360,12 +340,8 @@ export default {
         "minor chord"
       ],
       "optionReasons": {
-        "chord-mcq-03": "本句指「大和弦／小和弦」。",
-        "chord-mcq-02": "「在樂器上彈／奏出一個和弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-01": "「兩個或以上音符同時發聲形成的和弦」與本句語境不同。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。"
+        "chord-mcq-03": "本句的「minor chord」指「大和弦／小和弦」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-03"
     },
@@ -377,11 +353,9 @@ export default {
       "masked": "The film ____ with audiences.",
       "options": [
         "chord-mcq-05",
-        "chord-mcq-04",
-        "chord-mcq-06",
-        "chord-mcq-03",
-        "chord-mcq-07",
-        "chord-mcq-02"
+        "chord-mcq-12",
+        "chord-mcq-10",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「struck a chord」指「使人產生情感或經歷上的共鳴；打動人」。",
       "sentenceIndex": 8,
@@ -390,12 +364,10 @@ export default {
         "struck a chord"
       ],
       "optionReasons": {
-        "chord-mcq-05": "本句指「使人產生情感或經歷上的共鳴；打動人」。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。",
-        "chord-mcq-03": "「大和弦／小和弦」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。",
-        "chord-mcq-02": "「在樂器上彈／奏出一個和弦」與本句語境不同。"
+        "chord-mcq-05": "本句的「struck a chord」指「使人產生情感或經歷上的共鳴；打動人」。",
+        "chord-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-05"
     },
@@ -407,11 +379,9 @@ export default {
       "masked": "His comments ____ with me.",
       "options": [
         "chord-mcq-05",
-        "chord-mcq-04",
-        "chord-mcq-06",
-        "chord-mcq-03",
-        "chord-mcq-07",
-        "chord-mcq-02"
+        "chord-mcq-09",
+        "chord-mcq-10",
+        "chord-mcq-12"
       ],
       "explanation": "本句的「struck a chord」指「使人產生情感或經歷上的共鳴；打動人」。",
       "sentenceIndex": 9,
@@ -420,12 +390,10 @@ export default {
         "struck a chord"
       ],
       "optionReasons": {
-        "chord-mcq-05": "本句指「使人產生情感或經歷上的共鳴；打動人」。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。",
-        "chord-mcq-03": "「大和弦／小和弦」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。",
-        "chord-mcq-02": "「在樂器上彈／奏出一個和弦」與本句語境不同。"
+        "chord-mcq-05": "本句的「struck a chord」指「使人產生情感或經歷上的共鳴；打動人」。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-05"
     },
@@ -437,11 +405,8 @@ export default {
       "masked": "Her description of uncertainty ____.",
       "options": [
         "chord-mcq-06",
-        "chord-mcq-05",
-        "chord-mcq-07",
-        "chord-mcq-04",
-        "chord-mcq-08",
-        "chord-mcq-03"
+        "chord-mcq-11",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「struck a chord with me」指「某件事與某人的感受、經歷或想法產生強烈共鳴」。",
       "sentenceIndex": 10,
@@ -450,12 +415,9 @@ export default {
         "struck a chord with me"
       ],
       "optionReasons": {
-        "chord-mcq-06": "本句指「某件事與某人的感受、經歷或想法產生強烈共鳴」。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-03": "「大和弦／小和弦」與本句語境不同。"
+        "chord-mcq-06": "本句的「struck a chord with me」指「某件事與某人的感受、經歷或想法產生強烈共鳴」。",
+        "chord-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-06"
     },
@@ -467,10 +429,6 @@ export default {
       "masked": "The campaign message ____.",
       "options": [
         "chord-mcq-06",
-        "chord-mcq-05",
-        "chord-mcq-07",
-        "chord-mcq-04",
-        "chord-mcq-08",
         "chord-mcq-03"
       ],
       "explanation": "本句的「struck a chord with parents」指「某件事與某人的感受、經歷或想法產生強烈共鳴」。",
@@ -480,12 +438,8 @@ export default {
         "struck a chord with parents"
       ],
       "optionReasons": {
-        "chord-mcq-06": "本句指「某件事與某人的感受、經歷或想法產生強烈共鳴」。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-03": "「大和弦／小和弦」與本句語境不同。"
+        "chord-mcq-06": "本句的「struck a chord with parents」指「某件事與某人的感受、經歷或想法產生強烈共鳴」。",
+        "chord-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-06"
     },
@@ -497,11 +451,9 @@ export default {
       "masked": "The story ____ in many readers.",
       "options": [
         "chord-mcq-07",
-        "chord-mcq-06",
-        "chord-mcq-08",
-        "chord-mcq-05",
+        "chord-mcq-11",
         "chord-mcq-09",
-        "chord-mcq-04"
+        "chord-mcq-05"
       ],
       "explanation": "本句的「touched a chord」指「較少見：觸動某人的感情／心弦」。",
       "sentenceIndex": 12,
@@ -510,12 +462,10 @@ export default {
         "touched a chord"
       ],
       "optionReasons": {
-        "chord-mcq-07": "本句指「較少見：觸動某人的感情／心弦」。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。"
+        "chord-mcq-07": "本句的「touched a chord」指「較少見：觸動某人的感情／心弦」。",
+        "chord-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-07"
     },
@@ -527,11 +477,9 @@ export default {
       "masked": "Her words ____ with the audience.",
       "options": [
         "chord-mcq-07",
-        "chord-mcq-06",
-        "chord-mcq-08",
-        "chord-mcq-05",
-        "chord-mcq-09",
-        "chord-mcq-04"
+        "chord-mcq-02",
+        "chord-mcq-10",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「touched a chord」指「較少見：觸動某人的感情／心弦」。",
       "sentenceIndex": 13,
@@ -540,12 +488,10 @@ export default {
         "touched a chord"
       ],
       "optionReasons": {
-        "chord-mcq-07": "本句指「較少見：觸動某人的感情／心弦」。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-05": "「使人產生情感或經歷上的共鳴；打動人」與本句語境不同。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-04": "「奏出一個和弦」與本句語境不同。"
+        "chord-mcq-07": "本句的「touched a chord」指「較少見：觸動某人的感情／心弦」。",
+        "chord-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-07"
     },
@@ -557,11 +503,9 @@ export default {
       "masked": "Draw a ____.",
       "options": [
         "chord-mcq-09",
-        "chord-mcq-08",
-        "chord-mcq-10",
+        "chord-mcq-05",
         "chord-mcq-07",
-        "chord-mcq-11",
-        "chord-mcq-06"
+        "chord-mcq-02"
       ],
       "explanation": "本句的「chord of the circle」指「連接圓周上兩點的線段；圓的弦」。",
       "sentenceIndex": 16,
@@ -570,12 +514,10 @@ export default {
         "chord of the circle"
       ],
       "optionReasons": {
-        "chord-mcq-09": "本句指「連接圓周上兩點的線段；圓的弦」。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-10": "「機翼、桁架等結構中的翼弦／弦材／弦長」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。",
-        "chord-mcq-11": "「與和弦或和聲結構有關的」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。"
+        "chord-mcq-09": "本句的「chord of the circle」指「連接圓周上兩點的線段；圓的弦」。",
+        "chord-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-09"
     },
@@ -587,11 +529,9 @@ export default {
       "masked": "Every diameter is a ____, but not every chord is a diameter.",
       "options": [
         "chord-mcq-09",
-        "chord-mcq-08",
-        "chord-mcq-10",
-        "chord-mcq-07",
-        "chord-mcq-11",
-        "chord-mcq-06"
+        "chord-mcq-06",
+        "chord-mcq-02",
+        "chord-mcq-10"
       ],
       "explanation": "本句的「chord」指「連接圓周上兩點的線段；圓的弦」。",
       "sentenceIndex": 17,
@@ -600,12 +540,10 @@ export default {
         "chord"
       ],
       "optionReasons": {
-        "chord-mcq-09": "本句指「連接圓周上兩點的線段；圓的弦」。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-10": "「機翼、桁架等結構中的翼弦／弦材／弦長」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。",
-        "chord-mcq-11": "「與和弦或和聲結構有關的」與本句語境不同。",
-        "chord-mcq-06": "「某件事與某人的感受、經歷或想法產生強烈共鳴」與本句語境不同。"
+        "chord-mcq-09": "本句的「chord」指「連接圓周上兩點的線段；圓的弦」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-09"
     },
@@ -617,11 +555,9 @@ export default {
       "masked": "The wing ____ was measured carefully.",
       "options": [
         "chord-mcq-10",
-        "chord-mcq-09",
-        "chord-mcq-11",
-        "chord-mcq-08",
-        "chord-mcq-12",
-        "chord-mcq-07"
+        "chord-mcq-06",
+        "chord-mcq-02",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「chord」指「機翼、桁架等結構中的翼弦／弦材／弦長」。",
       "sentenceIndex": 18,
@@ -630,12 +566,10 @@ export default {
         "chord"
       ],
       "optionReasons": {
-        "chord-mcq-10": "本句指「機翼、桁架等結構中的翼弦／弦材／弦長」。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-11": "「與和弦或和聲結構有關的」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-12": "「一連串依次出現的和弦；和弦進行」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。"
+        "chord-mcq-10": "本句的「chord」指「機翼、桁架等結構中的翼弦／弦材／弦長」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-10"
     },
@@ -647,10 +581,8 @@ export default {
       "masked": "The truss has upper and lower ____.",
       "options": [
         "chord-mcq-10",
+        "chord-mcq-05",
         "chord-mcq-09",
-        "chord-mcq-11",
-        "chord-mcq-08",
-        "chord-mcq-12",
         "chord-mcq-07"
       ],
       "explanation": "本句的「chords」指「機翼、桁架等結構中的翼弦／弦材／弦長」。",
@@ -660,12 +592,10 @@ export default {
         "chords"
       ],
       "optionReasons": {
-        "chord-mcq-10": "本句指「機翼、桁架等結構中的翼弦／弦材／弦長」。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-11": "「與和弦或和聲結構有關的」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。",
-        "chord-mcq-12": "「一連串依次出現的和弦；和弦進行」與本句語境不同。",
-        "chord-mcq-07": "「較少見：觸動某人的感情／心弦」與本句語境不同。"
+        "chord-mcq-10": "本句的「chords」指「機翼、桁架等結構中的翼弦／弦材／弦長」。",
+        "chord-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-10"
     },
@@ -677,11 +607,9 @@ export default {
       "masked": "The piece has a simple ____.",
       "options": [
         "chord-mcq-11",
-        "chord-mcq-10",
-        "chord-mcq-12",
-        "chord-mcq-09",
-        "chord-mcq-13",
-        "chord-mcq-08"
+        "chord-mcq-05",
+        "chord-mcq-07",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「chordal texture」指「與和弦或和聲結構有關的」。",
       "sentenceIndex": 22,
@@ -690,12 +618,10 @@ export default {
         "chordal texture"
       ],
       "optionReasons": {
-        "chord-mcq-11": "本句指「與和弦或和聲結構有關的」。",
-        "chord-mcq-10": "「機翼、桁架等結構中的翼弦／弦材／弦長」與本句語境不同。",
-        "chord-mcq-12": "「一連串依次出現的和弦；和弦進行」與本句語境不同。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-13": "「chord = 和弦／幾何弦；cord = 繩／電線／聲帶等」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。"
+        "chord-mcq-11": "本句的「chordal texture」指「與和弦或和聲結構有關的」。",
+        "chord-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-11"
     },
@@ -707,11 +633,8 @@ export default {
       "masked": "The composer uses dense ____.",
       "options": [
         "chord-mcq-11",
-        "chord-mcq-10",
-        "chord-mcq-12",
-        "chord-mcq-09",
-        "chord-mcq-13",
-        "chord-mcq-08"
+        "chord-mcq-06",
+        "chord-mcq-09"
       ],
       "explanation": "本句的「chordal writing」指「與和弦或和聲結構有關的」。",
       "sentenceIndex": 23,
@@ -720,12 +643,9 @@ export default {
         "chordal writing"
       ],
       "optionReasons": {
-        "chord-mcq-11": "本句指「與和弦或和聲結構有關的」。",
-        "chord-mcq-10": "「機翼、桁架等結構中的翼弦／弦材／弦長」與本句語境不同。",
-        "chord-mcq-12": "「一連串依次出現的和弦；和弦進行」與本句語境不同。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-13": "「chord = 和弦／幾何弦；cord = 繩／電線／聲帶等」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。"
+        "chord-mcq-11": "本句的「chordal writing」指「與和弦或和聲結構有關的」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-11"
     },
@@ -737,11 +657,9 @@ export default {
       "masked": "The song uses a simple ____.",
       "options": [
         "chord-mcq-12",
-        "chord-mcq-11",
-        "chord-mcq-13",
+        "chord-mcq-06",
         "chord-mcq-10",
-        "chord-mcq-09",
-        "chord-mcq-08"
+        "chord-mcq-09"
       ],
       "explanation": "本句的「chord progression」指「一連串依次出現的和弦；和弦進行」。",
       "sentenceIndex": 24,
@@ -750,12 +668,10 @@ export default {
         "chord progression"
       ],
       "optionReasons": {
-        "chord-mcq-12": "本句指「一連串依次出現的和弦；和弦進行」。",
-        "chord-mcq-11": "「與和弦或和聲結構有關的」與本句語境不同。",
-        "chord-mcq-13": "「chord = 和弦／幾何弦；cord = 繩／電線／聲帶等」與本句語境不同。",
-        "chord-mcq-10": "「機翼、桁架等結構中的翼弦／弦材／弦長」與本句語境不同。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。"
+        "chord-mcq-12": "本句的「chord progression」指「一連串依次出現的和弦；和弦進行」。",
+        "chord-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-12"
     },
@@ -767,11 +683,9 @@ export default {
       "masked": "I like the ____ in the chorus.",
       "options": [
         "chord-mcq-12",
-        "chord-mcq-11",
-        "chord-mcq-13",
+        "chord-mcq-05",
         "chord-mcq-10",
-        "chord-mcq-09",
-        "chord-mcq-08"
+        "chord-mcq-07"
       ],
       "explanation": "本句的「chord progression」指「一連串依次出現的和弦；和弦進行」。",
       "sentenceIndex": 25,
@@ -780,12 +694,10 @@ export default {
         "chord progression"
       ],
       "optionReasons": {
-        "chord-mcq-12": "本句指「一連串依次出現的和弦；和弦進行」。",
-        "chord-mcq-11": "「與和弦或和聲結構有關的」與本句語境不同。",
-        "chord-mcq-13": "「chord = 和弦／幾何弦；cord = 繩／電線／聲帶等」與本句語境不同。",
-        "chord-mcq-10": "「機翼、桁架等結構中的翼弦／弦材／弦長」與本句語境不同。",
-        "chord-mcq-09": "「連接圓周上兩點的線段；圓的弦」與本句語境不同。",
-        "chord-mcq-08": "「連接圓或曲線上兩點的線段；弦」與本句語境不同。"
+        "chord-mcq-12": "本句的「chord progression」指「一連串依次出現的和弦；和弦進行」。",
+        "chord-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chord-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chord-mcq-12"
     }
@@ -797,5 +709,7 @@ export default {
     "sha256": "8d405f2a17c5f510d72502a02703ab3061b5e41fcc529ee759c44e8f38918500",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

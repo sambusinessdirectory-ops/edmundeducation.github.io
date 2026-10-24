@@ -118,10 +118,7 @@ export default {
       "masked": "The headphones seemed like a small escape from ____ chaos.",
       "options": [
         "everyday-mcq-01",
-        "everyday-mcq-02",
-        "everyday-mcq-03",
-        "everyday-mcq-04",
-        "everyday-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「everyday」指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
       "sentenceIndex": 0,
@@ -130,11 +127,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-01": "本句指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-01": "本句的「everyday」指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-01"
     },
@@ -146,10 +140,7 @@ export default {
       "masked": "The course teaches English for ____ situations.",
       "options": [
         "everyday-mcq-01",
-        "everyday-mcq-02",
-        "everyday-mcq-03",
-        "everyday-mcq-04",
-        "everyday-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「everyday」指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
       "sentenceIndex": 1,
@@ -158,11 +149,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-01": "本句指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-01": "本句的「everyday」指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-01"
     },
@@ -174,10 +162,7 @@ export default {
       "masked": "Technology has become part of ____ life.",
       "options": [
         "everyday-mcq-01",
-        "everyday-mcq-02",
-        "everyday-mcq-03",
-        "everyday-mcq-04",
-        "everyday-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「everyday」指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
       "sentenceIndex": 2,
@@ -186,11 +171,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-01": "本句指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-01": "本句的「everyday」指「屬於普通日常生活、經常遇到而並非特殊或罕見的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-01"
     },
@@ -202,10 +184,7 @@ export default {
       "masked": "These shoes are comfortable enough for ____ wear.",
       "options": [
         "everyday-mcq-02",
-        "everyday-mcq-01",
-        "everyday-mcq-03",
-        "everyday-mcq-04",
-        "everyday-mcq-05"
+        "everyday-mcq-04"
       ],
       "explanation": "本句的「everyday」指「適合平常經常使用，而不是專門留給特殊場合的」。",
       "sentenceIndex": 3,
@@ -214,11 +193,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-02": "本句指「適合平常經常使用，而不是專門留給特殊場合的」。",
-        "everyday-mcq-01": "「屬於普通日常生活、經常遇到而並非特殊或罕見的」是「everyday — main adjective」的用法，與本句語境不同。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-02": "本句的「everyday」指「適合平常經常使用，而不是專門留給特殊場合的」。",
+        "everyday-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-02"
     },
@@ -230,10 +206,7 @@ export default {
       "masked": "I need an ____ bag, not something for formal occasions.",
       "options": [
         "everyday-mcq-02",
-        "everyday-mcq-01",
-        "everyday-mcq-03",
-        "everyday-mcq-04",
-        "everyday-mcq-05"
+        "everyday-mcq-04"
       ],
       "explanation": "本句的「everyday」指「適合平常經常使用，而不是專門留給特殊場合的」。",
       "sentenceIndex": 4,
@@ -242,11 +215,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-02": "本句指「適合平常經常使用，而不是專門留給特殊場合的」。",
-        "everyday-mcq-01": "「屬於普通日常生活、經常遇到而並非特殊或罕見的」是「everyday — main adjective」的用法，與本句語境不同。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-02": "本句的「everyday」指「適合平常經常使用，而不是專門留給特殊場合的」。",
+        "everyday-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-02"
     },
@@ -258,10 +228,7 @@ export default {
       "masked": "The documentary tells the stories of ____ people.",
       "options": [
         "everyday-mcq-03",
-        "everyday-mcq-02",
-        "everyday-mcq-04",
-        "everyday-mcq-01",
-        "everyday-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「everyday」指「屬於一般普通人的平常生活，而非非凡或特殊的」。",
       "sentenceIndex": 5,
@@ -270,11 +237,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-03": "本句指「屬於一般普通人的平常生活，而非非凡或特殊的」。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-01": "「屬於普通日常生活、經常遇到而並非特殊或罕見的」是「everyday — main adjective」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-03": "本句的「everyday」指「屬於一般普通人的平常生活，而非非凡或特殊的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-03"
     },
@@ -286,10 +250,7 @@ export default {
       "masked": "The film finds humour in ____ experiences.",
       "options": [
         "everyday-mcq-03",
-        "everyday-mcq-02",
-        "everyday-mcq-04",
-        "everyday-mcq-01",
-        "everyday-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「everyday」指「屬於一般普通人的平常生活，而非非凡或特殊的」。",
       "sentenceIndex": 6,
@@ -298,11 +259,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-03": "本句指「屬於一般普通人的平常生活，而非非凡或特殊的」。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-04": "「被視為整體概念的平凡日常生活及普通經歷」是「the everyday」的用法，與本句語境不同。",
-        "everyday-mcq-01": "「屬於普通日常生活、經常遇到而並非特殊或罕見的」是「everyday — main adjective」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。"
+        "everyday-mcq-03": "本句的「everyday」指「屬於一般普通人的平常生活，而非非凡或特殊的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-03"
     },
@@ -314,10 +272,7 @@ export default {
       "masked": "The artist finds beauty in the ____.",
       "options": [
         "everyday-mcq-04",
-        "everyday-mcq-03",
-        "everyday-mcq-05",
-        "everyday-mcq-02",
-        "everyday-mcq-01"
+        "everyday-mcq-02"
       ],
       "explanation": "本句的「everyday」指「被視為整體概念的平凡日常生活及普通經歷」。",
       "sentenceIndex": 7,
@@ -326,11 +281,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-04": "本句指「被視為整體概念的平凡日常生活及普通經歷」。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-01": "「屬於普通日常生活、經常遇到而並非特殊或罕見的」是「everyday — main adjective」的用法，與本句語境不同。"
+        "everyday-mcq-04": "本句的「everyday」指「被視為整體概念的平凡日常生活及普通經歷」。",
+        "everyday-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-04"
     },
@@ -342,10 +294,7 @@ export default {
       "masked": "The novel explores the relationship between history and the ____.",
       "options": [
         "everyday-mcq-04",
-        "everyday-mcq-03",
-        "everyday-mcq-05",
-        "everyday-mcq-02",
-        "everyday-mcq-01"
+        "everyday-mcq-02"
       ],
       "explanation": "本句的「everyday」指「被視為整體概念的平凡日常生活及普通經歷」。",
       "sentenceIndex": 8,
@@ -354,11 +303,8 @@ export default {
         "everyday"
       ],
       "optionReasons": {
-        "everyday-mcq-04": "本句指「被視為整體概念的平凡日常生活及普通經歷」。",
-        "everyday-mcq-03": "「屬於一般普通人的平常生活，而非非凡或特殊的」是「everyday people/experiences」的用法，與本句語境不同。",
-        "everyday-mcq-05": "「每一天／每天；表示某件事發生的頻率」是「every day ⚠️」的用法，與本句語境不同。",
-        "everyday-mcq-02": "「適合平常經常使用，而不是專門留給特殊場合的」是「everyday clothes/items」的用法，與本句語境不同。",
-        "everyday-mcq-01": "「屬於普通日常生活、經常遇到而並非特殊或罕見的」是「everyday — main adjective」的用法，與本句語境不同。"
+        "everyday-mcq-04": "本句的「everyday」指「被視為整體概念的平凡日常生活及普通經歷」。",
+        "everyday-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "everyday-mcq-04"
     }
@@ -370,5 +316,12 @@ export default {
     "sha256": "a6a7af2d1fbfee163cdadf2bd79c72f34877806f38f847783650e979e9063e8f",
     "pages": 8
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

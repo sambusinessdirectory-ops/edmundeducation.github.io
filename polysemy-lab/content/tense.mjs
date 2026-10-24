@@ -612,11 +612,9 @@ export default {
       "masked": "Everyone was tired, ____, and a little irritable.",
       "options": [
         "tense-mcq-01",
-        "tense-mcq-02",
-        "tense-mcq-03",
-        "tense-mcq-04",
-        "tense-mcq-05",
-        "tense-mcq-06"
+        "tense-mcq-26",
+        "tense-mcq-27",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense」指「緊張的；精神繃緊的」。",
       "sentenceIndex": 0,
@@ -625,12 +623,10 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-01": "本句指「緊張的；精神繃緊的」。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-01": "本句的「tense」指「緊張的；精神繃緊的」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-01"
     },
@@ -642,11 +638,9 @@ export default {
       "masked": "I always feel ____ before an important presentation.",
       "options": [
         "tense-mcq-01",
-        "tense-mcq-02",
-        "tense-mcq-03",
-        "tense-mcq-04",
-        "tense-mcq-05",
-        "tense-mcq-06"
+        "tense-mcq-27",
+        "tense-mcq-26",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense」指「緊張的；精神繃緊的」。",
       "sentenceIndex": 1,
@@ -655,12 +649,10 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-01": "本句指「緊張的；精神繃緊的」。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-01": "本句的「tense」指「緊張的；精神繃緊的」。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-01"
     },
@@ -672,11 +664,9 @@ export default {
       "masked": "She looked ____ while waiting for the results.",
       "options": [
         "tense-mcq-01",
-        "tense-mcq-02",
-        "tense-mcq-03",
-        "tense-mcq-04",
-        "tense-mcq-05",
-        "tense-mcq-06"
+        "tense-mcq-16",
+        "tense-mcq-26",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense」指「緊張的；精神繃緊的」。",
       "sentenceIndex": 2,
@@ -685,12 +675,10 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-01": "本句指「緊張的；精神繃緊的」。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-01": "本句的「tense」指「緊張的；精神繃緊的」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-01"
     },
@@ -702,11 +690,9 @@ export default {
       "masked": "You ____. Is everything okay?",
       "options": [
         "tense-mcq-03",
-        "tense-mcq-02",
-        "tense-mcq-04",
-        "tense-mcq-01",
-        "tense-mcq-05",
-        "tense-mcq-06"
+        "tense-mcq-15",
+        "tense-mcq-22",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「look tense」指「看／聽起來緊張」。",
       "sentenceIndex": 3,
@@ -715,12 +701,10 @@ export default {
         "look tense"
       ],
       "optionReasons": {
-        "tense-mcq-03": "本句指「看／聽起來緊張」。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-01": "「緊張的；精神繃緊的」是「tense (person)」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-03": "本句的「look tense」指「看／聽起來緊張」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-03"
     },
@@ -732,11 +716,9 @@ export default {
       "masked": "His voice ____.",
       "options": [
         "tense-mcq-03",
-        "tense-mcq-02",
-        "tense-mcq-04",
-        "tense-mcq-01",
-        "tense-mcq-05",
-        "tense-mcq-06"
+        "tense-mcq-26",
+        "tense-mcq-15",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「sounded tense」指「看／聽起來緊張」。",
       "sentenceIndex": 4,
@@ -745,12 +727,10 @@ export default {
         "sounded tense"
       ],
       "optionReasons": {
-        "tense-mcq-03": "本句指「看／聽起來緊張」。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-01": "「緊張的；精神繃緊的」是「tense (person)」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-03": "本句的「sounded tense」指「看／聽起來緊張」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-03"
     },
@@ -762,11 +742,8 @@ export default {
       "masked": "Everyone ____ as the deadline approached.",
       "options": [
         "tense-mcq-04",
-        "tense-mcq-03",
-        "tense-mcq-05",
-        "tense-mcq-02",
-        "tense-mcq-06",
-        "tense-mcq-01"
+        "tense-mcq-26",
+        "tense-mcq-17"
       ],
       "explanation": "本句的「became tense」指「變得緊張」。",
       "sentenceIndex": 5,
@@ -775,12 +752,9 @@ export default {
         "became tense"
       ],
       "optionReasons": {
-        "tense-mcq-04": "本句指「變得緊張」。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-01": "「緊張的；精神繃緊的」是「tense (person)」的用法，與本句語境不同。"
+        "tense-mcq-04": "本句的「became tense」指「變得緊張」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-04"
     },
@@ -792,11 +766,8 @@ export default {
       "masked": "The room suddenly ____.",
       "options": [
         "tense-mcq-04",
-        "tense-mcq-03",
-        "tense-mcq-05",
-        "tense-mcq-02",
-        "tense-mcq-06",
-        "tense-mcq-01"
+        "tense-mcq-17",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「got tense」指「變得緊張」。",
       "sentenceIndex": 6,
@@ -805,12 +776,9 @@ export default {
         "got tense"
       ],
       "optionReasons": {
-        "tense-mcq-04": "本句指「變得緊張」。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-01": "「緊張的；精神繃緊的」是「tense (person)」的用法，與本句語境不同。"
+        "tense-mcq-04": "本句的「got tense」指「變得緊張」。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-04"
     },
@@ -822,11 +790,9 @@ export default {
       "masked": "There was a ____ in the meeting.",
       "options": [
         "tense-mcq-05",
-        "tense-mcq-04",
-        "tense-mcq-06",
-        "tense-mcq-03",
-        "tense-mcq-07",
-        "tense-mcq-02"
+        "tense-mcq-16",
+        "tense-mcq-22",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「tense atmosphere」指「緊張氣氛」。",
       "sentenceIndex": 7,
@@ -835,12 +801,10 @@ export default {
         "tense atmosphere"
       ],
       "optionReasons": {
-        "tense-mcq-05": "本句指「緊張氣氛」。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。"
+        "tense-mcq-05": "本句的「tense atmosphere」指「緊張氣氛」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-05"
     },
@@ -852,11 +816,9 @@ export default {
       "masked": "His angry comment created a ____.",
       "options": [
         "tense-mcq-05",
-        "tense-mcq-04",
-        "tense-mcq-06",
-        "tense-mcq-03",
-        "tense-mcq-07",
-        "tense-mcq-02"
+        "tense-mcq-22",
+        "tense-mcq-27",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense atmosphere」指「緊張氣氛」。",
       "sentenceIndex": 8,
@@ -865,12 +827,10 @@ export default {
         "tense atmosphere"
       ],
       "optionReasons": {
-        "tense-mcq-05": "本句指「緊張氣氛」。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-02": "「感到緊張」是「feel tense」的用法，與本句語境不同。"
+        "tense-mcq-05": "本句的「tense atmosphere」指「緊張氣氛」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-05"
     },
@@ -882,11 +842,8 @@ export default {
       "masked": "The manager tried to calm the ____.",
       "options": [
         "tense-mcq-06",
-        "tense-mcq-05",
-        "tense-mcq-07",
-        "tense-mcq-04",
-        "tense-mcq-08",
-        "tense-mcq-03"
+        "tense-mcq-27",
+        "tense-mcq-22"
       ],
       "explanation": "本句的「tense situation」指「緊張局面」。",
       "sentenceIndex": 9,
@@ -895,12 +852,9 @@ export default {
         "tense situation"
       ],
       "optionReasons": {
-        "tense-mcq-06": "本句指「緊張局面」。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。"
+        "tense-mcq-06": "本句的「tense situation」指「緊張局面」。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-06"
     },
@@ -912,11 +866,8 @@ export default {
       "masked": "It was a ____, but nobody raised their voice.",
       "options": [
         "tense-mcq-06",
-        "tense-mcq-05",
-        "tense-mcq-07",
-        "tense-mcq-04",
-        "tense-mcq-08",
-        "tense-mcq-03"
+        "tense-mcq-22",
+        "tense-mcq-17"
       ],
       "explanation": "本句的「tense situation」指「緊張局面」。",
       "sentenceIndex": 10,
@@ -925,12 +876,9 @@ export default {
         "tense situation"
       ],
       "optionReasons": {
-        "tense-mcq-06": "本句指「緊張局面」。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-03": "「看／聽起來緊張」是「look/sound tense」的用法，與本句語境不同。"
+        "tense-mcq-06": "本句的「tense situation」指「緊張局面」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-06"
     },
@@ -942,11 +890,8 @@ export default {
       "masked": "Their relationship became ____ after the argument.",
       "options": [
         "tense-mcq-07",
-        "tense-mcq-06",
-        "tense-mcq-08",
-        "tense-mcq-05",
-        "tense-mcq-09",
-        "tense-mcq-04"
+        "tense-mcq-15",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tense」指「緊張關係」。",
       "sentenceIndex": 11,
@@ -955,12 +900,9 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-07": "本句指「緊張關係」。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。"
+        "tense-mcq-07": "本句的「tense」指「緊張關係」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-07"
     },
@@ -972,11 +914,8 @@ export default {
       "masked": "Relations between the two departments were ____.",
       "options": [
         "tense-mcq-07",
-        "tense-mcq-06",
-        "tense-mcq-08",
-        "tense-mcq-05",
-        "tense-mcq-09",
-        "tense-mcq-04"
+        "tense-mcq-22",
+        "tense-mcq-15"
       ],
       "explanation": "本句的「tense」指「緊張關係」。",
       "sentenceIndex": 12,
@@ -985,12 +924,9 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-07": "本句指「緊張關係」。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-04": "「變得緊張」是「get tense」的用法，與本句語境不同。"
+        "tense-mcq-07": "本句的「tense」指「緊張關係」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-07"
     },
@@ -1002,11 +938,9 @@ export default {
       "masked": "A ____ followed his accusation.",
       "options": [
         "tense-mcq-08",
-        "tense-mcq-07",
-        "tense-mcq-09",
-        "tense-mcq-06",
-        "tense-mcq-10",
-        "tense-mcq-05"
+        "tense-mcq-27",
+        "tense-mcq-26",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「tense silence」指「緊張的沉默」。",
       "sentenceIndex": 13,
@@ -1015,12 +949,10 @@ export default {
         "tense silence"
       ],
       "optionReasons": {
-        "tense-mcq-08": "本句指「緊張的沉默」。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。"
+        "tense-mcq-08": "本句的「tense silence」指「緊張的沉默」。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-08"
     },
@@ -1032,11 +964,9 @@ export default {
       "masked": "They sat in ____.",
       "options": [
         "tense-mcq-08",
-        "tense-mcq-07",
-        "tense-mcq-09",
-        "tense-mcq-06",
-        "tense-mcq-10",
-        "tense-mcq-05"
+        "tense-mcq-16",
+        "tense-mcq-22",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「tense silence」指「緊張的沉默」。",
       "sentenceIndex": 14,
@@ -1045,12 +975,10 @@ export default {
         "tense silence"
       ],
       "optionReasons": {
-        "tense-mcq-08": "本句指「緊張的沉默」。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。"
+        "tense-mcq-08": "本句的「tense silence」指「緊張的沉默」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-08"
     },
@@ -1062,11 +990,9 @@ export default {
       "masked": "My shoulders felt ____ after hours at the computer.",
       "options": [
         "tense-mcq-09",
-        "tense-mcq-08",
-        "tense-mcq-10",
-        "tense-mcq-07",
-        "tense-mcq-11",
-        "tense-mcq-06"
+        "tense-mcq-22",
+        "tense-mcq-15",
+        "tense-mcq-08"
       ],
       "explanation": "本句的「tense」指「繃緊的肌肉」。",
       "sentenceIndex": 15,
@@ -1075,12 +1001,10 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-09": "本句指「繃緊的肌肉」。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-09": "本句的「tense」指「繃緊的肌肉」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-09"
     },
@@ -1092,11 +1016,9 @@ export default {
       "masked": "His muscles were ____.",
       "options": [
         "tense-mcq-09",
-        "tense-mcq-08",
-        "tense-mcq-10",
-        "tense-mcq-07",
-        "tense-mcq-11",
-        "tense-mcq-06"
+        "tense-mcq-16",
+        "tense-mcq-26",
+        "tense-mcq-23"
       ],
       "explanation": "本句的「tense」指「繃緊的肌肉」。",
       "sentenceIndex": 16,
@@ -1105,12 +1027,10 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-09": "本句指「繃緊的肌肉」。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-06": "「緊張局面」是「tense situation」的用法，與本句語境不同。"
+        "tense-mcq-09": "本句的「tense」指「繃緊的肌肉」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-09"
     },
@@ -1122,11 +1042,9 @@ export default {
       "masked": "____ for a few seconds.",
       "options": [
         "tense-mcq-10",
-        "tense-mcq-09",
-        "tense-mcq-11",
-        "tense-mcq-08",
-        "tense-mcq-12",
-        "tense-mcq-07"
+        "tense-mcq-22",
+        "tense-mcq-15",
+        "tense-mcq-01"
       ],
       "explanation": "本句的「Tense your stomach muscles」指「收緊肌肉」。",
       "sentenceIndex": 17,
@@ -1135,12 +1053,10 @@ export default {
         "Tense your stomach muscles"
       ],
       "optionReasons": {
-        "tense-mcq-10": "本句指「收緊肌肉」。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。"
+        "tense-mcq-10": "本句的「Tense your stomach muscles」指「收緊肌肉」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-10"
     },
@@ -1152,11 +1068,9 @@ export default {
       "masked": "He ____ when he heard the noise.",
       "options": [
         "tense-mcq-10",
-        "tense-mcq-09",
-        "tense-mcq-11",
-        "tense-mcq-08",
-        "tense-mcq-12",
-        "tense-mcq-07"
+        "tense-mcq-22",
+        "tense-mcq-15",
+        "tense-mcq-24"
       ],
       "explanation": "本句的「tensed his shoulders」指「收緊肌肉」。",
       "sentenceIndex": 18,
@@ -1165,12 +1079,10 @@ export default {
         "tensed his shoulders"
       ],
       "optionReasons": {
-        "tense-mcq-10": "本句指「收緊肌肉」。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。",
-        "tense-mcq-07": "「緊張關係」是「tense relationship」的用法，與本句語境不同。"
+        "tense-mcq-10": "本句的「tensed his shoulders」指「收緊肌肉」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-10"
     },
@@ -1182,11 +1094,9 @@ export default {
       "masked": "I always ____ before speaking in public.",
       "options": [
         "tense-mcq-11",
-        "tense-mcq-10",
-        "tense-mcq-12",
-        "tense-mcq-09",
-        "tense-mcq-13",
-        "tense-mcq-08"
+        "tense-mcq-26",
+        "tense-mcq-15",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense up」指「緊張／繃緊起來」。",
       "sentenceIndex": 19,
@@ -1195,12 +1105,10 @@ export default {
         "tense up"
       ],
       "optionReasons": {
-        "tense-mcq-11": "本句指「緊張／繃緊起來」。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。"
+        "tense-mcq-11": "本句的「tense up」指「緊張／繃緊起來」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-11"
     },
@@ -1212,11 +1120,9 @@ export default {
       "masked": "Don't ____—try to relax your shoulders.",
       "options": [
         "tense-mcq-11",
-        "tense-mcq-10",
-        "tense-mcq-12",
-        "tense-mcq-09",
-        "tense-mcq-13",
-        "tense-mcq-08"
+        "tense-mcq-15",
+        "tense-mcq-26",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense up」指「緊張／繃緊起來」。",
       "sentenceIndex": 20,
@@ -1225,12 +1131,10 @@ export default {
         "tense up"
       ],
       "optionReasons": {
-        "tense-mcq-11": "本句指「緊張／繃緊起來」。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。",
-        "tense-mcq-08": "「緊張的沉默」是「tense silence」的用法，與本句語境不同。"
+        "tense-mcq-11": "本句的「tense up」指「緊張／繃緊起來」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-11"
     },
@@ -1242,11 +1146,8 @@ export default {
       "masked": "They waited ____ for the announcement.",
       "options": [
         "tense-mcq-12",
-        "tense-mcq-11",
-        "tense-mcq-13",
-        "tense-mcq-10",
-        "tense-mcq-14",
-        "tense-mcq-09"
+        "tense-mcq-16",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tensely」指「緊張地」。",
       "sentenceIndex": 21,
@@ -1255,12 +1156,9 @@ export default {
         "tensely"
       ],
       "optionReasons": {
-        "tense-mcq-12": "本句指「緊張地」。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。"
+        "tense-mcq-12": "本句的「tensely」指「緊張地」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-12"
     },
@@ -1272,11 +1170,8 @@ export default {
       "masked": "What happened?” she asked ____.",
       "options": [
         "tense-mcq-12",
-        "tense-mcq-11",
-        "tense-mcq-13",
-        "tense-mcq-10",
-        "tense-mcq-14",
-        "tense-mcq-09"
+        "tense-mcq-17",
+        "tense-mcq-22"
       ],
       "explanation": "本句的「tensely」指「緊張地」。",
       "sentenceIndex": 22,
@@ -1285,12 +1180,9 @@ export default {
         "tensely"
       ],
       "optionReasons": {
-        "tense-mcq-12": "本句指「緊張地」。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-09": "「繃緊的肌肉」是「tense muscles」的用法，與本句語境不同。"
+        "tense-mcq-12": "本句的「tensely」指「緊張地」。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-12"
     },
@@ -1302,11 +1194,9 @@ export default {
       "masked": "I could feel the ____ in his shoulders.",
       "options": [
         "tense-mcq-13",
-        "tense-mcq-12",
-        "tense-mcq-14",
-        "tense-mcq-11",
-        "tense-mcq-15",
-        "tense-mcq-10"
+        "tense-mcq-26",
+        "tense-mcq-10",
+        "tense-mcq-15"
       ],
       "explanation": "本句的「tenseness」指「緊張／繃緊狀態」。",
       "sentenceIndex": 23,
@@ -1315,12 +1205,10 @@ export default {
         "tenseness"
       ],
       "optionReasons": {
-        "tense-mcq-13": "本句指「緊張／繃緊狀態」。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。"
+        "tense-mcq-13": "本句的「tenseness」指「緊張／繃緊狀態」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-13"
     },
@@ -1332,10 +1220,8 @@ export default {
       "masked": "The ____ in the room slowly disappeared.",
       "options": [
         "tense-mcq-13",
-        "tense-mcq-12",
-        "tense-mcq-14",
-        "tense-mcq-11",
-        "tense-mcq-15",
+        "tense-mcq-22",
+        "tense-mcq-17",
         "tense-mcq-10"
       ],
       "explanation": "本句的「tenseness」指「緊張／繃緊狀態」。",
@@ -1345,12 +1231,10 @@ export default {
         "tenseness"
       ],
       "optionReasons": {
-        "tense-mcq-13": "本句指「緊張／繃緊狀態」。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-11": "「緊張／繃緊起來」是「tense up」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。",
-        "tense-mcq-10": "「收緊肌肉」是「tense your muscles」的用法，與本句語境不同。"
+        "tense-mcq-13": "本句的「tenseness」指「緊張／繃緊狀態」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-13"
     },
@@ -1362,10 +1246,7 @@ export default {
       "masked": "This sentence is in the past ____.",
       "options": [
         "tense-mcq-27",
-        "tense-mcq-26",
         "tense-mcq-25",
-        "tense-mcq-24",
-        "tense-mcq-23",
         "tense-mcq-22"
       ],
       "explanation": "本句的「tense」指「文法上用來表示事件或狀態與時間關係的一種形式或系統」。",
@@ -1375,12 +1256,9 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-27": "本句指「文法上用來表示事件或狀態與時間關係的一種形式或系統」。",
-        "tense-mcq-26": "「X 與 Y 之間的矛盾／拉扯」是「tension between X and Y」的用法，與本句語境不同。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。"
+        "tense-mcq-27": "本句的「tense」指「文法上用來表示事件或狀態與時間關係的一種形式或系統」。",
+        "tense-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-27"
     },
@@ -1392,11 +1270,9 @@ export default {
       "masked": "Which ____ should I use here?",
       "options": [
         "tense-mcq-27",
-        "tense-mcq-26",
-        "tense-mcq-25",
-        "tense-mcq-24",
-        "tense-mcq-23",
-        "tense-mcq-22"
+        "tense-mcq-22",
+        "tense-mcq-01",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tense」指「文法上用來表示事件或狀態與時間關係的一種形式或系統」。",
       "sentenceIndex": 26,
@@ -1405,12 +1281,10 @@ export default {
         "tense"
       ],
       "optionReasons": {
-        "tense-mcq-27": "本句指「文法上用來表示事件或狀態與時間關係的一種形式或系統」。",
-        "tense-mcq-26": "「X 與 Y 之間的矛盾／拉扯」是「tension between X and Y」的用法，與本句語境不同。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。"
+        "tense-mcq-27": "本句的「tense」指「文法上用來表示事件或狀態與時間關係的一種形式或系統」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-27"
     },
@@ -1422,11 +1296,9 @@ export default {
       "masked": "The story is written mainly in the ____.",
       "options": [
         "tense-mcq-15",
-        "tense-mcq-14",
-        "tense-mcq-16",
-        "tense-mcq-13",
-        "tense-mcq-17",
-        "tense-mcq-12"
+        "tense-mcq-09",
+        "tense-mcq-05",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「past tense」指「過去時態」。",
       "sentenceIndex": 27,
@@ -1435,12 +1307,10 @@ export default {
         "past tense"
       ],
       "optionReasons": {
-        "tense-mcq-15": "本句指「過去時態」。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。"
+        "tense-mcq-15": "本句的「past tense」指「過去時態」。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-15"
     },
@@ -1452,11 +1322,9 @@ export default {
       "masked": "Change the verb into the ____.",
       "options": [
         "tense-mcq-15",
-        "tense-mcq-14",
-        "tense-mcq-16",
-        "tense-mcq-13",
-        "tense-mcq-17",
-        "tense-mcq-12"
+        "tense-mcq-01",
+        "tense-mcq-26",
+        "tense-mcq-10"
       ],
       "explanation": "本句的「past tense」指「過去時態」。",
       "sentenceIndex": 28,
@@ -1465,12 +1333,10 @@ export default {
         "past tense"
       ],
       "optionReasons": {
-        "tense-mcq-15": "本句指「過去時態」。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-12": "「緊張地」是「tensely」的用法，與本句語境不同。"
+        "tense-mcq-15": "本句的「past tense」指「過去時態」。",
+        "tense-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-15"
     },
@@ -1482,11 +1348,8 @@ export default {
       "masked": "The writer suddenly switches to the ____.",
       "options": [
         "tense-mcq-16",
-        "tense-mcq-15",
-        "tense-mcq-17",
-        "tense-mcq-14",
-        "tense-mcq-18",
-        "tense-mcq-13"
+        "tense-mcq-21",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「present tense」指「現在時態」。",
       "sentenceIndex": 29,
@@ -1495,12 +1358,9 @@ export default {
         "present tense"
       ],
       "optionReasons": {
-        "tense-mcq-16": "本句指「現在時態」。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。"
+        "tense-mcq-16": "本句的「present tense」指「現在時態」。",
+        "tense-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-16"
     },
@@ -1512,11 +1372,9 @@ export default {
       "masked": "Use the ____ for general facts.",
       "options": [
         "tense-mcq-16",
-        "tense-mcq-15",
-        "tense-mcq-17",
-        "tense-mcq-14",
-        "tense-mcq-18",
-        "tense-mcq-13"
+        "tense-mcq-24",
+        "tense-mcq-10",
+        "tense-mcq-22"
       ],
       "explanation": "本句的「present tense」指「現在時態」。",
       "sentenceIndex": 30,
@@ -1525,12 +1383,10 @@ export default {
         "present tense"
       ],
       "optionReasons": {
-        "tense-mcq-16": "本句指「現在時態」。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-13": "「緊張／繃緊狀態」是「tenseness」的用法，與本句語境不同。"
+        "tense-mcq-16": "本句的「present tense」指「現在時態」。",
+        "tense-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-16"
     },
@@ -1542,11 +1398,9 @@ export default {
       "masked": "Students often call “will + verb” the ____.",
       "options": [
         "tense-mcq-17",
-        "tense-mcq-16",
-        "tense-mcq-18",
-        "tense-mcq-15",
-        "tense-mcq-19",
-        "tense-mcq-14"
+        "tense-mcq-05",
+        "tense-mcq-09",
+        "tense-mcq-22"
       ],
       "explanation": "本句的「future tense」指「未來時態」。",
       "sentenceIndex": 31,
@@ -1555,12 +1409,10 @@ export default {
         "future tense"
       ],
       "optionReasons": {
-        "tense-mcq-17": "本句指「未來時態」。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。"
+        "tense-mcq-17": "本句的「future tense」指「未來時態」。",
+        "tense-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-17"
     },
@@ -1572,11 +1424,8 @@ export default {
       "masked": "Different languages express future time in different ways rather than always having one grammatical ____.",
       "options": [
         "tense-mcq-17",
-        "tense-mcq-16",
         "tense-mcq-18",
-        "tense-mcq-15",
-        "tense-mcq-19",
-        "tense-mcq-14"
+        "tense-mcq-26"
       ],
       "explanation": "本句的「future tense」指「未來時態」。",
       "sentenceIndex": 32,
@@ -1585,12 +1434,9 @@ export default {
         "future tense"
       ],
       "optionReasons": {
-        "tense-mcq-17": "本句指「未來時態」。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-14": "「時態」是「tense (grammar)」的用法，與本句語境不同。"
+        "tense-mcq-17": "本句的「future tense」指「未來時態」。",
+        "tense-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-17"
     },
@@ -1602,11 +1448,8 @@ export default {
       "masked": "There was obvious ____ in the room.",
       "options": [
         "tense-mcq-18",
-        "tense-mcq-17",
-        "tense-mcq-19",
-        "tense-mcq-16",
-        "tense-mcq-20",
-        "tense-mcq-15"
+        "tense-mcq-26",
+        "tense-mcq-27"
       ],
       "explanation": "本句的「tension」指「緊張；張力」。",
       "sentenceIndex": 33,
@@ -1615,12 +1458,9 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-18": "本句指「緊張；張力」。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。"
+        "tense-mcq-18": "本句的「tension」指「緊張；張力」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-18"
     },
@@ -1632,10 +1472,7 @@ export default {
       "masked": "The joke helped reduce the ____.",
       "options": [
         "tense-mcq-18",
-        "tense-mcq-17",
-        "tense-mcq-19",
-        "tense-mcq-16",
-        "tense-mcq-20",
+        "tense-mcq-26",
         "tense-mcq-15"
       ],
       "explanation": "本句的「tension」指「緊張；張力」。",
@@ -1645,12 +1482,9 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-18": "本句指「緊張；張力」。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。"
+        "tense-mcq-18": "本句的「tension」指「緊張；張力」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-18"
     },
@@ -1662,11 +1496,8 @@ export default {
       "masked": "There was growing ____.",
       "options": [
         "tense-mcq-19",
-        "tense-mcq-18",
-        "tense-mcq-20",
-        "tense-mcq-17",
-        "tense-mcq-21",
-        "tense-mcq-16"
+        "tense-mcq-15",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tension between the two teammates」指「人際緊張」。",
       "sentenceIndex": 35,
@@ -1675,12 +1506,9 @@ export default {
         "tension between the two teammates"
       ],
       "optionReasons": {
-        "tense-mcq-19": "本句指「人際緊張」。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。"
+        "tense-mcq-19": "本句的「tension between the two teammates」指「人際緊張」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-19"
     },
@@ -1692,11 +1520,8 @@ export default {
       "masked": "The disagreement created ____.",
       "options": [
         "tense-mcq-19",
-        "tense-mcq-18",
-        "tense-mcq-20",
-        "tense-mcq-17",
-        "tense-mcq-21",
-        "tense-mcq-16"
+        "tense-mcq-22",
+        "tense-mcq-27"
       ],
       "explanation": "本句的「tension between the departments」指「人際緊張」。",
       "sentenceIndex": 36,
@@ -1705,12 +1530,9 @@ export default {
         "tension between the departments"
       ],
       "optionReasons": {
-        "tense-mcq-19": "本句指「人際緊張」。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。"
+        "tense-mcq-19": "本句的「tension between the departments」指「人際緊張」。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-19"
     },
@@ -1722,11 +1544,9 @@ export default {
       "masked": "Social ____ increased after the incident.",
       "options": [
         "tense-mcq-20",
-        "tense-mcq-19",
-        "tense-mcq-21",
-        "tense-mcq-18",
-        "tense-mcq-22",
-        "tense-mcq-17"
+        "tense-mcq-27",
+        "tense-mcq-26",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「tensions」指「政治／社會緊張」。",
       "sentenceIndex": 37,
@@ -1735,12 +1555,10 @@ export default {
         "tensions"
       ],
       "optionReasons": {
-        "tense-mcq-20": "本句指「政治／社會緊張」。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。"
+        "tense-mcq-20": "本句的「tensions」指「政治／社會緊張」。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-20"
     },
@@ -1752,11 +1570,9 @@ export default {
       "masked": "The agreement helped ease political ____.",
       "options": [
         "tense-mcq-20",
-        "tense-mcq-19",
-        "tense-mcq-21",
-        "tense-mcq-18",
+        "tense-mcq-27",
         "tense-mcq-22",
-        "tense-mcq-17"
+        "tense-mcq-10"
       ],
       "explanation": "本句的「tension」指「政治／社會緊張」。",
       "sentenceIndex": 38,
@@ -1765,12 +1581,10 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-20": "本句指「政治／社會緊張」。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。"
+        "tense-mcq-20": "本句的「tension」指「政治／社會緊張」。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-20"
     },
@@ -1782,11 +1596,8 @@ export default {
       "masked": "Stress can cause ____.",
       "options": [
         "tense-mcq-21",
-        "tense-mcq-20",
-        "tense-mcq-22",
-        "tense-mcq-19",
-        "tense-mcq-23",
-        "tense-mcq-18"
+        "tense-mcq-26",
+        "tense-mcq-16"
       ],
       "explanation": "本句的「muscle tension」指「肌肉緊張」。",
       "sentenceIndex": 39,
@@ -1795,12 +1606,9 @@ export default {
         "muscle tension"
       ],
       "optionReasons": {
-        "tense-mcq-21": "本句指「肌肉緊張」。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。"
+        "tense-mcq-21": "本句的「muscle tension」指「肌肉緊張」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-21"
     },
@@ -1812,11 +1620,8 @@ export default {
       "masked": "Stretching can reduce ____.",
       "options": [
         "tense-mcq-21",
-        "tense-mcq-20",
-        "tense-mcq-22",
-        "tense-mcq-19",
-        "tense-mcq-23",
-        "tense-mcq-18"
+        "tense-mcq-17",
+        "tense-mcq-22"
       ],
       "explanation": "本句的「muscle tension」指「肌肉緊張」。",
       "sentenceIndex": 40,
@@ -1825,12 +1630,9 @@ export default {
         "muscle tension"
       ],
       "optionReasons": {
-        "tense-mcq-21": "本句指「肌肉緊張」。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-18": "「緊張；張力」是「tension」的用法，與本句語境不同。"
+        "tense-mcq-21": "本句的「muscle tension」指「肌肉緊張」。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-21"
     },
@@ -1843,10 +1645,7 @@ export default {
       "options": [
         "tense-mcq-18",
         "tense-mcq-17",
-        "tense-mcq-19",
-        "tense-mcq-16",
-        "tense-mcq-20",
-        "tense-mcq-15"
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tension」指「緊張；張力」。",
       "sentenceIndex": 41,
@@ -1855,12 +1654,9 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-18": "本句指「緊張；張力」。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。"
+        "tense-mcq-18": "本句的「tension」指「緊張；張力」。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-18"
     },
@@ -1872,11 +1668,8 @@ export default {
       "masked": "Too much ____ may cause the cable to break.",
       "options": [
         "tense-mcq-18",
-        "tense-mcq-17",
-        "tense-mcq-19",
         "tense-mcq-16",
-        "tense-mcq-20",
-        "tense-mcq-15"
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tension」指「緊張；張力」。",
       "sentenceIndex": 42,
@@ -1885,12 +1678,9 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-18": "本句指「緊張；張力」。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。"
+        "tense-mcq-18": "本句的「tension」指「緊張；張力」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-18"
     },
@@ -1902,11 +1692,9 @@ export default {
       "masked": "The cable remains ____.",
       "options": [
         "tense-mcq-22",
-        "tense-mcq-21",
-        "tense-mcq-23",
+        "tense-mcq-15",
         "tense-mcq-20",
-        "tense-mcq-24",
-        "tense-mcq-19"
+        "tense-mcq-09"
       ],
       "explanation": "本句的「under tension」指「受拉力」。",
       "sentenceIndex": 43,
@@ -1915,12 +1703,10 @@ export default {
         "under tension"
       ],
       "optionReasons": {
-        "tense-mcq-22": "本句指「受拉力」。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。"
+        "tense-mcq-22": "本句的「under tension」指「受拉力」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-22"
     },
@@ -1933,10 +1719,7 @@ export default {
       "options": [
         "tense-mcq-22",
         "tense-mcq-21",
-        "tense-mcq-23",
-        "tense-mcq-20",
-        "tense-mcq-24",
-        "tense-mcq-19"
+        "tense-mcq-15"
       ],
       "explanation": "本句的「under tension」指「受拉力」。",
       "sentenceIndex": 44,
@@ -1945,12 +1728,9 @@ export default {
         "under tension"
       ],
       "optionReasons": {
-        "tense-mcq-22": "本句指「受拉力」。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。"
+        "tense-mcq-22": "本句的「under tension」指「受拉力」。",
+        "tense-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-22"
     },
@@ -1962,11 +1742,9 @@ export default {
       "masked": "Water has relatively high ____.",
       "options": [
         "tense-mcq-23",
-        "tense-mcq-22",
-        "tense-mcq-24",
-        "tense-mcq-21",
-        "tense-mcq-25",
-        "tense-mcq-20"
+        "tense-mcq-16",
+        "tense-mcq-09",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「surface tension」指「表面張力」。",
       "sentenceIndex": 45,
@@ -1975,12 +1753,10 @@ export default {
         "surface tension"
       ],
       "optionReasons": {
-        "tense-mcq-23": "本句指「表面張力」。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。"
+        "tense-mcq-23": "本句的「surface tension」指「表面張力」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-23"
     },
@@ -1992,11 +1768,9 @@ export default {
       "masked": "Soap reduces the ____ of water.",
       "options": [
         "tense-mcq-23",
-        "tense-mcq-22",
-        "tense-mcq-24",
-        "tense-mcq-21",
-        "tense-mcq-25",
-        "tense-mcq-20"
+        "tense-mcq-15",
+        "tense-mcq-09",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「surface tension」指「表面張力」。",
       "sentenceIndex": 46,
@@ -2005,12 +1779,10 @@ export default {
         "surface tension"
       ],
       "optionReasons": {
-        "tense-mcq-23": "本句指「表面張力」。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。"
+        "tense-mcq-23": "本句的「surface tension」指「表面張力」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-23"
     },
@@ -2022,11 +1794,8 @@ export default {
       "masked": "The director builds ____ slowly throughout the film.",
       "options": [
         "tense-mcq-18",
-        "tense-mcq-17",
-        "tense-mcq-19",
-        "tense-mcq-16",
-        "tense-mcq-20",
-        "tense-mcq-15"
+        "tense-mcq-27",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tension」指「緊張；張力」。",
       "sentenceIndex": 47,
@@ -2035,12 +1804,9 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-18": "本句指「緊張；張力」。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。"
+        "tense-mcq-18": "本句的「tension」指「緊張；張力」。",
+        "tense-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-18"
     },
@@ -2052,11 +1818,8 @@ export default {
       "masked": "The silence increased the ____ in the scene.",
       "options": [
         "tense-mcq-18",
-        "tense-mcq-17",
-        "tense-mcq-19",
         "tense-mcq-16",
-        "tense-mcq-20",
-        "tense-mcq-15"
+        "tense-mcq-26"
       ],
       "explanation": "本句的「tension」指「緊張；張力」。",
       "sentenceIndex": 48,
@@ -2065,12 +1828,9 @@ export default {
         "tension"
       ],
       "optionReasons": {
-        "tense-mcq-18": "本句指「緊張；張力」。",
-        "tense-mcq-17": "「未來時態」是「future tense」的用法，與本句語境不同。",
-        "tense-mcq-19": "「人際緊張」是「tension between people」的用法，與本句語境不同。",
-        "tense-mcq-16": "「現在時態」是「present tense」的用法，與本句語境不同。",
-        "tense-mcq-20": "「政治／社會緊張」是「political/social tension」的用法，與本句語境不同。",
-        "tense-mcq-15": "「過去時態」是「past tense」的用法，與本句語境不同。"
+        "tense-mcq-18": "本句的「tension」指「緊張；張力」。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-18"
     },
@@ -2082,11 +1842,9 @@ export default {
       "masked": "The music helps ____.",
       "options": [
         "tense-mcq-24",
-        "tense-mcq-23",
-        "tense-mcq-25",
+        "tense-mcq-17",
         "tense-mcq-22",
-        "tense-mcq-26",
-        "tense-mcq-21"
+        "tense-mcq-09"
       ],
       "explanation": "本句的「build tension」指「營造／加劇緊張感」。",
       "sentenceIndex": 49,
@@ -2095,12 +1853,10 @@ export default {
         "build tension"
       ],
       "optionReasons": {
-        "tense-mcq-24": "本句指「營造／加劇緊張感」。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-26": "「X 與 Y 之間的矛盾／拉扯」是「tension between X and Y」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。"
+        "tense-mcq-24": "本句的「build tension」指「營造／加劇緊張感」。",
+        "tense-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-24"
     },
@@ -2112,11 +1868,9 @@ export default {
       "masked": "The argument gradually ____ within the group.",
       "options": [
         "tense-mcq-24",
-        "tense-mcq-23",
-        "tense-mcq-25",
-        "tense-mcq-22",
         "tense-mcq-26",
-        "tense-mcq-21"
+        "tense-mcq-15",
+        "tense-mcq-09"
       ],
       "explanation": "本句的「built tension」指「營造／加劇緊張感」。",
       "sentenceIndex": 50,
@@ -2125,12 +1879,10 @@ export default {
         "built tension"
       ],
       "optionReasons": {
-        "tense-mcq-24": "本句指「營造／加劇緊張感」。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。",
-        "tense-mcq-26": "「X 與 Y 之間的矛盾／拉扯」是「tension between X and Y」的用法，與本句語境不同。",
-        "tense-mcq-21": "「肌肉緊張」是「muscle tension」的用法，與本句語境不同。"
+        "tense-mcq-24": "本句的「built tension」指「營造／加劇緊張感」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-24"
     },
@@ -2142,11 +1894,8 @@ export default {
       "masked": "His apology ____.",
       "options": [
         "tense-mcq-25",
-        "tense-mcq-24",
-        "tense-mcq-26",
-        "tense-mcq-23",
-        "tense-mcq-27",
-        "tense-mcq-22"
+        "tense-mcq-15",
+        "tense-mcq-26"
       ],
       "explanation": "本句的「eased the tension」指「緩和緊張」。",
       "sentenceIndex": 51,
@@ -2155,12 +1904,9 @@ export default {
         "eased the tension"
       ],
       "optionReasons": {
-        "tense-mcq-25": "本句指「緩和緊張」。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-26": "「X 與 Y 之間的矛盾／拉扯」是「tension between X and Y」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-27": "「文法上用來表示事件或狀態與時間關係的一種形式或系統」是「13. tense（grammar：時態） — 時態」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。"
+        "tense-mcq-25": "本句的「eased the tension」指「緩和緊張」。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-25"
     },
@@ -2172,11 +1918,8 @@ export default {
       "masked": "She made a joke to ____.",
       "options": [
         "tense-mcq-25",
-        "tense-mcq-24",
         "tense-mcq-26",
-        "tense-mcq-23",
-        "tense-mcq-27",
-        "tense-mcq-22"
+        "tense-mcq-15"
       ],
       "explanation": "本句的「reduce the tension」指「緩和緊張」。",
       "sentenceIndex": 52,
@@ -2185,12 +1928,9 @@ export default {
         "reduce the tension"
       ],
       "optionReasons": {
-        "tense-mcq-25": "本句指「緩和緊張」。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-26": "「X 與 Y 之間的矛盾／拉扯」是「tension between X and Y」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-27": "「文法上用來表示事件或狀態與時間關係的一種形式或系統」是「13. tense（grammar：時態） — 時態」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。"
+        "tense-mcq-25": "本句的「reduce the tension」指「緩和緊張」。",
+        "tense-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-25"
     },
@@ -2202,11 +1942,9 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "tense-mcq-26",
-        "tense-mcq-25",
-        "tense-mcq-27",
-        "tense-mcq-24",
-        "tense-mcq-23",
-        "tense-mcq-22"
+        "tense-mcq-13",
+        "tense-mcq-10",
+        "tense-mcq-15"
       ],
       "explanation": "本句的「tension between speed and accuracy」指「X 與 Y 之間的矛盾／拉扯」。",
       "sentenceIndex": 53,
@@ -2215,12 +1953,10 @@ export default {
         "tension between speed and accuracy"
       ],
       "optionReasons": {
-        "tense-mcq-26": "本句指「X 與 Y 之間的矛盾／拉扯」。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-27": "「文法上用來表示事件或狀態與時間關係的一種形式或系統」是「13. tense（grammar：時態） — 時態」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。"
+        "tense-mcq-26": "本句的「tension between speed and accuracy」指「X 與 Y 之間的矛盾／拉扯」。",
+        "tense-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-26"
     },
@@ -2233,10 +1969,7 @@ export default {
       "options": [
         "tense-mcq-26",
         "tense-mcq-25",
-        "tense-mcq-27",
-        "tense-mcq-24",
-        "tense-mcq-23",
-        "tense-mcq-22"
+        "tense-mcq-16"
       ],
       "explanation": "本句的「tension between privacy and convenience」指「X 與 Y 之間的矛盾／拉扯」。",
       "sentenceIndex": 54,
@@ -2245,12 +1978,9 @@ export default {
         "tension between privacy and convenience"
       ],
       "optionReasons": {
-        "tense-mcq-26": "本句指「X 與 Y 之間的矛盾／拉扯」。",
-        "tense-mcq-25": "「緩和緊張」是「ease tension」的用法，與本句語境不同。",
-        "tense-mcq-27": "「文法上用來表示事件或狀態與時間關係的一種形式或系統」是「13. tense（grammar：時態） — 時態」的用法，與本句語境不同。",
-        "tense-mcq-24": "「營造／加劇緊張感」是「build tension」的用法，與本句語境不同。",
-        "tense-mcq-23": "「表面張力」是「surface tension」的用法，與本句語境不同。",
-        "tense-mcq-22": "「受拉力」是「under tension」的用法，與本句語境不同。"
+        "tense-mcq-26": "本句的「tension between privacy and convenience」指「X 與 Y 之間的矛盾／拉扯」。",
+        "tense-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tense-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tense-mcq-26"
     }
@@ -2262,5 +1992,7 @@ export default {
     "sha256": "4cb37e7c39ff41d05da7db409754f8ccace28638a64477ba4360902caf7688b4",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

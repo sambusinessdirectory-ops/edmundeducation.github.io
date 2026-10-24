@@ -234,11 +234,8 @@ export default {
       "masked": "The hotel offers a high level of ____.",
       "options": [
         "luxury-mcq-01",
-        "luxury-mcq-02",
-        "luxury-mcq-03",
         "luxury-mcq-04",
-        "luxury-mcq-05",
-        "luxury-mcq-06"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxury」指「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」。",
       "sentenceIndex": 0,
@@ -247,12 +244,9 @@ export default {
         "luxury"
       ],
       "optionReasons": {
-        "luxury-mcq-01": "本句指「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。"
+        "luxury-mcq-01": "本句的「luxury」指「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-01"
     },
@@ -264,11 +258,8 @@ export default {
       "masked": "They wanted comfort without unnecessary ____.",
       "options": [
         "luxury-mcq-01",
-        "luxury-mcq-02",
-        "luxury-mcq-03",
         "luxury-mcq-04",
-        "luxury-mcq-05",
-        "luxury-mcq-06"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxury」指「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」。",
       "sentenceIndex": 1,
@@ -277,12 +268,9 @@ export default {
         "luxury"
       ],
       "optionReasons": {
-        "luxury-mcq-01": "本句指「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。"
+        "luxury-mcq-01": "本句的「luxury」指「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-01"
     },
@@ -294,11 +282,7 @@ export default {
       "masked": "For many people, expensive headphones are a ____.",
       "options": [
         "luxury-mcq-02",
-        "luxury-mcq-01",
-        "luxury-mcq-03",
-        "luxury-mcq-04",
-        "luxury-mcq-05",
-        "luxury-mcq-06"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxury」指「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」。",
       "sentenceIndex": 2,
@@ -307,12 +291,8 @@ export default {
         "luxury"
       ],
       "optionReasons": {
-        "luxury-mcq-02": "本句指「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」。",
-        "luxury-mcq-01": "「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」是「luxury — state/experience」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。"
+        "luxury-mcq-02": "本句的「luxury」指「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-02"
     },
@@ -324,11 +304,7 @@ export default {
       "masked": "Eating at restaurants every night is a ____ we can’t afford.",
       "options": [
         "luxury-mcq-02",
-        "luxury-mcq-01",
-        "luxury-mcq-03",
-        "luxury-mcq-04",
-        "luxury-mcq-05",
-        "luxury-mcq-06"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxury」指「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」。",
       "sentenceIndex": 3,
@@ -337,12 +313,8 @@ export default {
         "luxury"
       ],
       "optionReasons": {
-        "luxury-mcq-02": "本句指「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」。",
-        "luxury-mcq-01": "「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」是「luxury — state/experience」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。"
+        "luxury-mcq-02": "本句的「luxury」指「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-02"
     },
@@ -354,11 +326,8 @@ export default {
       "masked": "Good coffee is one of my little ____.",
       "options": [
         "luxury-mcq-03",
-        "luxury-mcq-02",
-        "luxury-mcq-04",
-        "luxury-mcq-01",
-        "luxury-mcq-05",
-        "luxury-mcq-06"
+        "luxury-mcq-10",
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuries」指「規模不大但能令人享受、像犒賞自己的非必要事物」。",
       "sentenceIndex": 4,
@@ -367,12 +336,9 @@ export default {
         "luxuries"
       ],
       "optionReasons": {
-        "luxury-mcq-03": "本句指「規模不大但能令人享受、像犒賞自己的非必要事物」。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-01": "「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」是「luxury — state/experience」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。"
+        "luxury-mcq-03": "本句的「luxuries」指「規模不大但能令人享受、像犒賞自己的非必要事物」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-03"
     },
@@ -384,11 +350,8 @@ export default {
       "masked": "She allows herself a few small ____ each month.",
       "options": [
         "luxury-mcq-03",
-        "luxury-mcq-02",
-        "luxury-mcq-04",
-        "luxury-mcq-01",
-        "luxury-mcq-05",
-        "luxury-mcq-06"
+        "luxury-mcq-10",
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuries」指「規模不大但能令人享受、像犒賞自己的非必要事物」。",
       "sentenceIndex": 5,
@@ -397,12 +360,9 @@ export default {
         "luxuries"
       ],
       "optionReasons": {
-        "luxury-mcq-03": "本句指「規模不大但能令人享受、像犒賞自己的非必要事物」。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-01": "「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」是「luxury — state/experience」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。"
+        "luxury-mcq-03": "本句的「luxuries」指「規模不大但能令人享受、像犒賞自己的非必要事物」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-03"
     },
@@ -414,11 +374,8 @@ export default {
       "masked": "Working from home gives me the ____ in the morning.",
       "options": [
         "luxury-mcq-04",
-        "luxury-mcq-03",
-        "luxury-mcq-05",
-        "luxury-mcq-02",
         "luxury-mcq-06",
-        "luxury-mcq-01"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxury of more time」指「並非人人都能擁有的便利、時間、自由、選擇或餘裕」。",
       "sentenceIndex": 6,
@@ -427,12 +384,9 @@ export default {
         "luxury of more time"
       ],
       "optionReasons": {
-        "luxury-mcq-04": "本句指「並非人人都能擁有的便利、時間、自由、選擇或餘裕」。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-01": "「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」是「luxury — state/experience」的用法，與本句語境不同。"
+        "luxury-mcq-04": "本句的「luxury of more time」指「並非人人都能擁有的便利、時間、自由、選擇或餘裕」。",
+        "luxury-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-04"
     },
@@ -444,11 +398,8 @@ export default {
       "masked": "We didn’t have the ____.",
       "options": [
         "luxury-mcq-04",
-        "luxury-mcq-03",
-        "luxury-mcq-05",
-        "luxury-mcq-02",
         "luxury-mcq-06",
-        "luxury-mcq-01"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxury of waiting」指「並非人人都能擁有的便利、時間、自由、選擇或餘裕」。",
       "sentenceIndex": 7,
@@ -457,12 +408,9 @@ export default {
         "luxury of waiting"
       ],
       "optionReasons": {
-        "luxury-mcq-04": "本句指「並非人人都能擁有的便利、時間、自由、選擇或餘裕」。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-01": "「超越基本需要，以高品質、舒適和享受為特點的奢華狀態／體驗」是「luxury — state/experience」的用法，與本句語境不同。"
+        "luxury-mcq-04": "本句的「luxury of waiting」指「並非人人都能擁有的便利、時間、自由、選擇或餘裕」。",
+        "luxury-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-04"
     },
@@ -474,11 +422,8 @@ export default {
       "masked": "The company sells ____.",
       "options": [
         "luxury-mcq-05",
-        "luxury-mcq-04",
-        "luxury-mcq-06",
-        "luxury-mcq-03",
-        "luxury-mcq-07",
-        "luxury-mcq-02"
+        "luxury-mcq-10",
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxury cars」指「定位於高價格、高品質、高端享受市場的」。",
       "sentenceIndex": 8,
@@ -487,12 +432,9 @@ export default {
         "luxury cars"
       ],
       "optionReasons": {
-        "luxury-mcq-05": "本句指「定位於高價格、高品質、高端享受市場的」。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。"
+        "luxury-mcq-05": "本句的「luxury cars」指「定位於高價格、高品質、高端享受市場的」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-05"
     },
@@ -504,11 +446,8 @@ export default {
       "masked": "She works in the ____ industry.",
       "options": [
         "luxury-mcq-05",
-        "luxury-mcq-04",
-        "luxury-mcq-06",
-        "luxury-mcq-03",
-        "luxury-mcq-07",
-        "luxury-mcq-02"
+        "luxury-mcq-10",
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxury goods」指「定位於高價格、高品質、高端享受市場的」。",
       "sentenceIndex": 9,
@@ -517,12 +456,9 @@ export default {
         "luxury goods"
       ],
       "optionReasons": {
-        "luxury-mcq-05": "本句指「定位於高價格、高品質、高端享受市場的」。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-02": "「並非生活必需，但因舒適、品質或享受而令人想擁有的事物／體驗」是「a luxury」的用法，與本句語境不同。"
+        "luxury-mcq-05": "本句的「luxury goods」指「定位於高價格、高品質、高端享受市場的」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-05"
     },
@@ -534,11 +470,8 @@ export default {
       "masked": "The hotel room felt extremely ____.",
       "options": [
         "luxury-mcq-06",
-        "luxury-mcq-05",
-        "luxury-mcq-07",
-        "luxury-mcq-04",
-        "luxury-mcq-08",
-        "luxury-mcq-03"
+        "luxury-mcq-10",
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxurious」指「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」。",
       "sentenceIndex": 10,
@@ -547,12 +480,9 @@ export default {
         "luxurious"
       ],
       "optionReasons": {
-        "luxury-mcq-06": "本句指「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。"
+        "luxury-mcq-06": "本句的「luxurious」指「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-06"
     },
@@ -564,11 +494,8 @@ export default {
       "masked": "The headphones have a ____ finish.",
       "options": [
         "luxury-mcq-06",
-        "luxury-mcq-05",
-        "luxury-mcq-07",
         "luxury-mcq-04",
-        "luxury-mcq-08",
-        "luxury-mcq-03"
+        "luxury-mcq-10"
       ],
       "explanation": "本句的「luxurious」指「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」。",
       "sentenceIndex": 11,
@@ -577,12 +504,9 @@ export default {
         "luxurious"
       ],
       "optionReasons": {
-        "luxury-mcq-06": "本句指「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-03": "「規模不大但能令人享受、像犒賞自己的非必要事物」是「little luxury」的用法，與本句語境不同。"
+        "luxury-mcq-06": "本句的「luxurious」指「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-06"
     },
@@ -594,10 +518,7 @@ export default {
       "masked": "Taking a long bath after work felt ____.",
       "options": [
         "luxury-mcq-07",
-        "luxury-mcq-06",
-        "luxury-mcq-08",
-        "luxury-mcq-05",
-        "luxury-mcq-09",
+        "luxury-mcq-10",
         "luxury-mcq-04"
       ],
       "explanation": "本句的「luxurious」指「帶來高度舒適、愉悅和自我享受感的」。",
@@ -607,12 +528,9 @@ export default {
         "luxurious"
       ],
       "optionReasons": {
-        "luxury-mcq-07": "本句指「帶來高度舒適、愉悅和自我享受感的」。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-09": "「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」是「luxuriate」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。"
+        "luxury-mcq-07": "本句的「luxurious」指「帶來高度舒適、愉悅和自我享受感的」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-07"
     },
@@ -624,10 +542,7 @@ export default {
       "masked": "The soft blanket feels wonderfully ____.",
       "options": [
         "luxury-mcq-07",
-        "luxury-mcq-06",
-        "luxury-mcq-08",
-        "luxury-mcq-05",
-        "luxury-mcq-09",
+        "luxury-mcq-10",
         "luxury-mcq-04"
       ],
       "explanation": "本句的「luxurious」指「帶來高度舒適、愉悅和自我享受感的」。",
@@ -637,12 +552,9 @@ export default {
         "luxurious"
       ],
       "optionReasons": {
-        "luxury-mcq-07": "本句指「帶來高度舒適、愉悅和自我享受感的」。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。",
-        "luxury-mcq-09": "「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」是「luxuriate」的用法，與本句語境不同。",
-        "luxury-mcq-04": "「並非人人都能擁有的便利、時間、自由、選擇或餘裕」是「the luxury of…」的用法，與本句語境不同。"
+        "luxury-mcq-07": "本句的「luxurious」指「帶來高度舒適、愉悅和自我享受感的」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-07"
     },
@@ -654,11 +566,8 @@ export default {
       "masked": "The room was ____ furnished.",
       "options": [
         "luxury-mcq-08",
-        "luxury-mcq-07",
-        "luxury-mcq-09",
-        "luxury-mcq-06",
         "luxury-mcq-10",
-        "luxury-mcq-05"
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuriously」指「以高級、舒適、精緻並令人享受的方式」。",
       "sentenceIndex": 14,
@@ -667,12 +576,9 @@ export default {
         "luxuriously"
       ],
       "optionReasons": {
-        "luxury-mcq-08": "本句指「以高級、舒適、精緻並令人享受的方式」。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-09": "「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」是「luxuriate」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-10": "「植物、毛髮等生長得非常茂盛、濃密或豐富的」是「luxuriant」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。"
+        "luxury-mcq-08": "本句的「luxuriously」指「以高級、舒適、精緻並令人享受的方式」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-08"
     },
@@ -684,11 +590,8 @@ export default {
       "masked": "The seats are ____ soft.",
       "options": [
         "luxury-mcq-08",
-        "luxury-mcq-07",
-        "luxury-mcq-09",
-        "luxury-mcq-06",
         "luxury-mcq-10",
-        "luxury-mcq-05"
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuriously」指「以高級、舒適、精緻並令人享受的方式」。",
       "sentenceIndex": 15,
@@ -697,12 +600,9 @@ export default {
         "luxuriously"
       ],
       "optionReasons": {
-        "luxury-mcq-08": "本句指「以高級、舒適、精緻並令人享受的方式」。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-09": "「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」是「luxuriate」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-10": "「植物、毛髮等生長得非常茂盛、濃密或豐富的」是「luxuriant」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。"
+        "luxury-mcq-08": "本句的「luxuriously」指「以高級、舒適、精緻並令人享受的方式」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-08"
     },
@@ -714,11 +614,8 @@ export default {
       "masked": "She ____ in the peace and quiet.",
       "options": [
         "luxury-mcq-09",
-        "luxury-mcq-08",
         "luxury-mcq-10",
-        "luxury-mcq-07",
-        "luxury-mcq-06",
-        "luxury-mcq-05"
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuriated」指「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」。",
       "sentenceIndex": 16,
@@ -727,12 +624,9 @@ export default {
         "luxuriated"
       ],
       "optionReasons": {
-        "luxury-mcq-09": "本句指「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-10": "「植物、毛髮等生長得非常茂盛、濃密或豐富的」是「luxuriant」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。"
+        "luxury-mcq-09": "本句的「luxuriated」指「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-09"
     },
@@ -744,11 +638,8 @@ export default {
       "masked": "After the long journey, he ____ in a hot bath.",
       "options": [
         "luxury-mcq-09",
-        "luxury-mcq-08",
         "luxury-mcq-10",
-        "luxury-mcq-07",
-        "luxury-mcq-06",
-        "luxury-mcq-05"
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuriated」指「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」。",
       "sentenceIndex": 17,
@@ -757,12 +648,9 @@ export default {
         "luxuriated"
       ],
       "optionReasons": {
-        "luxury-mcq-09": "本句指「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-10": "「植物、毛髮等生長得非常茂盛、濃密或豐富的」是「luxuriant」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。"
+        "luxury-mcq-09": "本句的「luxuriated」指「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」。",
+        "luxury-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-09"
     },
@@ -774,11 +662,8 @@ export default {
       "masked": "The garden was filled with ____ vegetation.",
       "options": [
         "luxury-mcq-10",
-        "luxury-mcq-09",
-        "luxury-mcq-08",
         "luxury-mcq-07",
-        "luxury-mcq-06",
-        "luxury-mcq-05"
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuriant」指「植物、毛髮等生長得非常茂盛、濃密或豐富的」。",
       "sentenceIndex": 18,
@@ -787,12 +672,9 @@ export default {
         "luxuriant"
       ],
       "optionReasons": {
-        "luxury-mcq-10": "本句指「植物、毛髮等生長得非常茂盛、濃密或豐富的」。",
-        "luxury-mcq-09": "「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」是「luxuriate」的用法，與本句語境不同。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。"
+        "luxury-mcq-10": "本句的「luxuriant」指「植物、毛髮等生長得非常茂盛、濃密或豐富的」。",
+        "luxury-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-10"
     },
@@ -804,11 +686,8 @@ export default {
       "masked": "She has thick, ____ hair.",
       "options": [
         "luxury-mcq-10",
-        "luxury-mcq-09",
         "luxury-mcq-08",
-        "luxury-mcq-07",
-        "luxury-mcq-06",
-        "luxury-mcq-05"
+        "luxury-mcq-04"
       ],
       "explanation": "本句的「luxuriant」指「植物、毛髮等生長得非常茂盛、濃密或豐富的」。",
       "sentenceIndex": 19,
@@ -817,12 +696,9 @@ export default {
         "luxuriant"
       ],
       "optionReasons": {
-        "luxury-mcq-10": "本句指「植物、毛髮等生長得非常茂盛、濃密或豐富的」。",
-        "luxury-mcq-09": "「放鬆地沉浸並盡情享受某種高度舒適或愉快的感受」是「luxuriate」的用法，與本句語境不同。",
-        "luxury-mcq-08": "「以高級、舒適、精緻並令人享受的方式」是「luxuriously」的用法，與本句語境不同。",
-        "luxury-mcq-07": "「帶來高度舒適、愉悅和自我享受感的」是「luxurious — experience」的用法，與本句語境不同。",
-        "luxury-mcq-06": "「因設計、材料、品質或舒適度而令人感到高級、昂貴和精緻的」是「luxurious — product/place」的用法，與本句語境不同。",
-        "luxury-mcq-05": "「定位於高價格、高品質、高端享受市場的」是「luxury + noun」的用法，與本句語境不同。"
+        "luxury-mcq-10": "本句的「luxuriant」指「植物、毛髮等生長得非常茂盛、濃密或豐富的」。",
+        "luxury-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "luxury-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "luxury-mcq-10"
     }
@@ -834,5 +710,7 @@ export default {
     "sha256": "c683f46d96d0cabb0b208d292117cf470a61b589eb01b7c40439653cedc23ac2",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

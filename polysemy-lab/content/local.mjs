@@ -425,11 +425,7 @@ export default {
       "masked": "The bakery has built a niche in the ____.",
       "options": [
         "local-pdf-001",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-04"
       ],
       "explanation": "本句的「local area」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
       "sentenceIndex": 0,
@@ -438,12 +434,8 @@ export default {
         "local area"
       ],
       "optionReasons": {
-        "local-pdf-001": "本句指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-pdf-001": "本句的「local area」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-001"
     },
@@ -455,11 +447,7 @@ export default {
       "masked": "____ shops depend on regular customers.",
       "options": [
         "local-pdf-001",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-04"
       ],
       "explanation": "本句的「Local」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
       "sentenceIndex": 1,
@@ -468,12 +456,8 @@ export default {
         "Local"
       ],
       "optionReasons": {
-        "local-pdf-001": "本句指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-pdf-001": "本句的「Local」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-001"
     },
@@ -485,11 +469,7 @@ export default {
       "masked": "She knows the ____ neighbourhood well.",
       "options": [
         "local-pdf-001",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
       "sentenceIndex": 2,
@@ -498,12 +478,8 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-pdf-001": "本句指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-pdf-001": "本句的「local」指「與某個特定附近地區有關，而不是較遠地方或全國性的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-001"
     },
@@ -515,11 +491,8 @@ export default {
       "masked": "The bakery uses ____.",
       "options": [
         "local-mcq-02",
-        "local-mcq-01",
-        "local-mcq-03",
         "local-mcq-04",
-        "local-mcq-05",
-        "local-mcq-06"
+        "local-mcq-08"
       ],
       "explanation": "本句的「local ingredients」指「在附近地區種植、製作、生產或供應的」。",
       "sentenceIndex": 3,
@@ -528,12 +501,9 @@ export default {
         "local ingredients"
       ],
       "optionReasons": {
-        "local-mcq-02": "本句指「在附近地區種植、製作、生產或供應的」。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。"
+        "local-mcq-02": "本句的「local ingredients」指「在附近地區種植、製作、生產或供應的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-02"
     },
@@ -545,11 +515,8 @@ export default {
       "masked": "They sell ____ honey.",
       "options": [
         "local-mcq-02",
-        "local-mcq-01",
-        "local-mcq-03",
-        "local-mcq-04",
-        "local-mcq-05",
-        "local-mcq-06"
+        "local-mcq-12",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「在附近地區種植、製作、生產或供應的」。",
       "sentenceIndex": 4,
@@ -558,12 +525,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-02": "本句指「在附近地區種植、製作、生產或供應的」。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。"
+        "local-mcq-02": "本句的「local」指「在附近地區種植、製作、生產或供應的」。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-02"
     },
@@ -575,11 +539,7 @@ export default {
       "masked": "The bakery has strong ____.",
       "options": [
         "local-mcq-03",
-        "local-mcq-02",
-        "local-mcq-04",
-        "local-mcq-01",
-        "local-mcq-05",
-        "local-mcq-06"
+        "local-mcq-12"
       ],
       "explanation": "本句的「local support」指「與住在／活動於該地區的人有關的」。",
       "sentenceIndex": 5,
@@ -588,12 +548,8 @@ export default {
         "local support"
       ],
       "optionReasons": {
-        "local-mcq-03": "本句指「與住在／活動於該地區的人有關的」。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。"
+        "local-mcq-03": "本句的「local support」指「與住在／活動於該地區的人有關的」。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-03"
     },
@@ -605,11 +561,7 @@ export default {
       "masked": "____ residents complained about the traffic.",
       "options": [
         "local-mcq-03",
-        "local-mcq-02",
-        "local-mcq-04",
-        "local-mcq-01",
-        "local-mcq-05",
-        "local-mcq-06"
+        "local-mcq-08"
       ],
       "explanation": "本句的「Local」指「與住在／活動於該地區的人有關的」。",
       "sentenceIndex": 6,
@@ -618,12 +570,8 @@ export default {
         "Local"
       ],
       "optionReasons": {
-        "local-mcq-03": "本句指「與住在／活動於該地區的人有關的」。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。"
+        "local-mcq-03": "本句的「Local」指「與住在／活動於該地區的人有關的」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-03"
     },
@@ -635,11 +583,8 @@ export default {
       "masked": "The café is popular with ____.",
       "options": [
         "local-mcq-04",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-12",
+        "local-pdf-002"
       ],
       "explanation": "本句的「locals」指「居住在某地並熟悉當地的人」。",
       "sentenceIndex": 7,
@@ -648,12 +593,9 @@ export default {
         "locals"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-mcq-04": "本句的「locals」指「居住在某地並熟悉當地的人」。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "local-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-04"
     },
@@ -665,11 +607,7 @@ export default {
       "masked": "Ask a ____ for directions.",
       "options": [
         "local-mcq-04",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-pdf-001"
       ],
       "explanation": "本句的「local」指「居住在某地並熟悉當地的人」。",
       "sentenceIndex": 8,
@@ -678,12 +616,8 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-mcq-04": "本句的「local」指「居住在某地並熟悉當地的人」。",
+        "local-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-04"
     },
@@ -695,11 +629,8 @@ export default {
       "masked": "The bakery is well loved by ____.",
       "options": [
         "local-mcq-04",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-08",
+        "local-pdf-004"
       ],
       "explanation": "本句的「the locals」指「居住在某地並熟悉當地的人」。",
       "sentenceIndex": 9,
@@ -708,12 +639,9 @@ export default {
         "the locals"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-mcq-04": "本句的「the locals」指「居住在某地並熟悉當地的人」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-04"
     },
@@ -725,11 +653,7 @@ export default {
       "masked": "The ____ know which cafés are best.",
       "options": [
         "local-mcq-04",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-pdf-001"
       ],
       "explanation": "本句的「locals」指「居住在某地並熟悉當地的人」。",
       "sentenceIndex": 10,
@@ -738,12 +662,8 @@ export default {
         "locals"
       ],
       "optionReasons": {
-        "local-mcq-04": "本句指「居住在某地並熟悉當地的人」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-mcq-04": "本句的「locals」指「居住在某地並熟悉當地的人」。",
+        "local-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-04"
     },
@@ -756,10 +676,7 @@ export default {
       "options": [
         "local-mcq-05",
         "local-mcq-04",
-        "local-mcq-06",
-        "local-mcq-03",
-        "local-mcq-07",
-        "local-mcq-02"
+        "local-mcq-08"
       ],
       "explanation": "本句的「local business」指「服務／營運範圍主要限於某個地區的」。",
       "sentenceIndex": 11,
@@ -768,12 +685,9 @@ export default {
         "local business"
       ],
       "optionReasons": {
-        "local-mcq-05": "本句指「服務／營運範圍主要限於某個地區的」。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。"
+        "local-mcq-05": "本句的「local business」指「服務／營運範圍主要限於某個地區的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-05"
     },
@@ -785,11 +699,8 @@ export default {
       "masked": "The story was covered by ____ media.",
       "options": [
         "local-mcq-05",
-        "local-mcq-04",
-        "local-mcq-06",
-        "local-mcq-03",
-        "local-mcq-07",
-        "local-mcq-02"
+        "local-mcq-08",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「服務／營運範圍主要限於某個地區的」。",
       "sentenceIndex": 12,
@@ -798,12 +709,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-05": "本句指「服務／營運範圍主要限於某個地區的」。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。"
+        "local-mcq-05": "本句的「local」指「服務／營運範圍主要限於某個地區的」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-05"
     },
@@ -815,11 +723,8 @@ export default {
       "masked": "The ____ supports small businesses.",
       "options": [
         "local-mcq-06",
-        "local-mcq-05",
-        "local-mcq-07",
-        "local-mcq-04",
         "local-mcq-08",
-        "local-mcq-03"
+        "local-mcq-04"
       ],
       "explanation": "本句的「local government」指「負責某城市／地區行政事務的地方政府」。",
       "sentenceIndex": 13,
@@ -828,12 +733,9 @@ export default {
         "local government"
       ],
       "optionReasons": {
-        "local-mcq-06": "本句指「負責某城市／地區行政事務的地方政府」。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。"
+        "local-mcq-06": "本句的「local government」指「負責某城市／地區行政事務的地方政府」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-06"
     },
@@ -845,11 +747,8 @@ export default {
       "masked": "____ government is responsible for several public services.",
       "options": [
         "local-mcq-06",
-        "local-mcq-05",
-        "local-mcq-07",
         "local-mcq-04",
-        "local-mcq-08",
-        "local-mcq-03"
+        "local-mcq-12"
       ],
       "explanation": "本句的「Local」指「負責某城市／地區行政事務的地方政府」。",
       "sentenceIndex": 14,
@@ -858,12 +757,9 @@ export default {
         "Local"
       ],
       "optionReasons": {
-        "local-mcq-06": "本句指「負責某城市／地區行政事務的地方政府」。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。"
+        "local-mcq-06": "本句的「Local」指「負責某城市／地區行政事務的地方政府」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-06"
     },
@@ -875,11 +771,8 @@ export default {
       "masked": "The ____ approved the plan.",
       "options": [
         "local-pdf-002",
-        "local-mcq-06",
-        "local-mcq-08",
-        "local-mcq-05",
-        "local-mcq-09",
-        "local-mcq-04"
+        "local-mcq-04",
+        "local-mcq-12"
       ],
       "explanation": "本句的「local authority」指「負責某地區公共行政的地方政府單位」。",
       "sentenceIndex": 15,
@@ -888,12 +781,9 @@ export default {
         "local authority"
       ],
       "optionReasons": {
-        "local-pdf-002": "本句指「負責某地區公共行政的地方政府單位」。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。"
+        "local-pdf-002": "本句的「local authority」指「負責某地區公共行政的地方政府單位」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-002"
     },
@@ -905,10 +795,7 @@ export default {
       "masked": "Businesses must follow ____ authority regulations.",
       "options": [
         "local-pdf-002",
-        "local-mcq-06",
-        "local-mcq-08",
-        "local-mcq-05",
-        "local-mcq-09",
+        "local-mcq-11",
         "local-mcq-04"
       ],
       "explanation": "本句的「local」指「負責某地區公共行政的地方政府單位」。",
@@ -918,12 +805,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-pdf-002": "本句指「負責某地區公共行政的地方政府單位」。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。"
+        "local-pdf-002": "本句的「local」指「負責某地區公共行政的地方政府單位」。",
+        "local-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-002"
     },
@@ -935,11 +819,8 @@ export default {
       "masked": "Take the ____, not the express.",
       "options": [
         "local-mcq-07",
-        "local-mcq-06",
-        "local-mcq-08",
-        "local-mcq-05",
-        "local-mcq-09",
-        "local-mcq-04"
+        "local-mcq-04",
+        "local-mcq-12"
       ],
       "explanation": "本句的「local train」指「服務較小地區或停站較多、非快速／長途的」。",
       "sentenceIndex": 17,
@@ -948,12 +829,9 @@ export default {
         "local train"
       ],
       "optionReasons": {
-        "local-mcq-07": "本句指「服務較小地區或停站較多、非快速／長途的」。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。"
+        "local-mcq-07": "本句的「local train」指「服務較小地區或停站較多、非快速／長途的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-07"
     },
@@ -965,10 +843,7 @@ export default {
       "masked": "The ____ bus stops near the bakery.",
       "options": [
         "local-mcq-07",
-        "local-mcq-06",
-        "local-mcq-08",
-        "local-mcq-05",
-        "local-mcq-09",
+        "local-mcq-12",
         "local-mcq-04"
       ],
       "explanation": "本句的「local」指「服務較小地區或停站較多、非快速／長途的」。",
@@ -978,12 +853,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-07": "本句指「服務較小地區或停站較多、非快速／長途的」。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-04": "「居住在某地並熟悉當地的人」與本句語境不同。"
+        "local-mcq-07": "本句的「local」指「服務較小地區或停站較多、非快速／長途的」。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-07"
     },
@@ -995,11 +867,8 @@ export default {
       "masked": "The patient received a ____.",
       "options": [
         "local-mcq-08",
-        "local-mcq-07",
-        "local-mcq-09",
-        "local-mcq-06",
-        "local-mcq-10",
-        "local-mcq-05"
+        "local-mcq-02",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local anaesthetic」指「只影響身體某一特定部位，而非全身性的」。",
       "sentenceIndex": 19,
@@ -1008,12 +877,9 @@ export default {
         "local anaesthetic"
       ],
       "optionReasons": {
-        "local-mcq-08": "本句指「只影響身體某一特定部位，而非全身性的」。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。"
+        "local-mcq-08": "本句的「local anaesthetic」指「只影響身體某一特定部位，而非全身性的」。",
+        "local-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-08"
     },
@@ -1025,11 +891,8 @@ export default {
       "masked": "There was ____ swelling around the injury.",
       "options": [
         "local-mcq-08",
-        "local-mcq-07",
-        "local-mcq-09",
-        "local-mcq-06",
-        "local-mcq-10",
-        "local-mcq-05"
+        "local-mcq-02",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「只影響身體某一特定部位，而非全身性的」。",
       "sentenceIndex": 20,
@@ -1038,12 +901,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-08": "本句指「只影響身體某一特定部位，而非全身性的」。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。"
+        "local-mcq-08": "本句的「local」指「只影響身體某一特定部位，而非全身性的」。",
+        "local-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-08"
     },
@@ -1055,11 +915,8 @@ export default {
       "masked": "The dentist used a ____.",
       "options": [
         "local-mcq-08",
-        "local-mcq-07",
-        "local-mcq-09",
         "local-mcq-06",
-        "local-mcq-10",
-        "local-mcq-05"
+        "local-mcq-04"
       ],
       "explanation": "本句的「local anaesthetic」指「只影響身體某一特定部位，而非全身性的」。",
       "sentenceIndex": 21,
@@ -1068,12 +925,9 @@ export default {
         "local anaesthetic"
       ],
       "optionReasons": {
-        "local-mcq-08": "本句指「只影響身體某一特定部位，而非全身性的」。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。"
+        "local-mcq-08": "本句的「local anaesthetic」指「只影響身體某一特定部位，而非全身性的」。",
+        "local-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-08"
     },
@@ -1085,11 +939,8 @@ export default {
       "masked": "The procedure can be done under ____ anaesthetic.",
       "options": [
         "local-mcq-08",
-        "local-mcq-07",
-        "local-mcq-09",
-        "local-mcq-06",
-        "local-mcq-10",
-        "local-mcq-05"
+        "local-pdf-004",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「只影響身體某一特定部位，而非全身性的」。",
       "sentenceIndex": 22,
@@ -1098,12 +949,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-08": "本句指「只影響身體某一特定部位，而非全身性的」。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。"
+        "local-mcq-08": "本句的「local」指「只影響身體某一特定部位，而非全身性的」。",
+        "local-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-08"
     },
@@ -1115,11 +963,7 @@ export default {
       "masked": "The file is stored on the ____.",
       "options": [
         "local-mcq-09",
-        "local-mcq-08",
-        "local-mcq-10",
-        "local-mcq-07",
-        "local-mcq-11",
-        "local-mcq-06"
+        "local-mcq-04"
       ],
       "explanation": "本句的「local drive」指「位於目前裝置／本地系統內，而非遠端或雲端的」。",
       "sentenceIndex": 23,
@@ -1128,12 +972,8 @@ export default {
         "local drive"
       ],
       "optionReasons": {
-        "local-mcq-09": "本句指「位於目前裝置／本地系統內，而非遠端或雲端的」。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。"
+        "local-mcq-09": "本句的「local drive」指「位於目前裝置／本地系統內，而非遠端或雲端的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-09"
     },
@@ -1145,11 +985,7 @@ export default {
       "masked": "The app can run on a ____ server.",
       "options": [
         "local-mcq-09",
-        "local-mcq-08",
-        "local-mcq-10",
-        "local-mcq-07",
-        "local-mcq-11",
-        "local-mcq-06"
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「位於目前裝置／本地系統內，而非遠端或雲端的」。",
       "sentenceIndex": 24,
@@ -1158,12 +994,8 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-09": "本句指「位於目前裝置／本地系統內，而非遠端或雲端的」。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。"
+        "local-mcq-09": "本句的「local」指「位於目前裝置／本地系統內，而非遠端或雲端的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-09"
     },
@@ -1175,11 +1007,8 @@ export default {
       "masked": "The problem appears to be ____, not system-wide.",
       "options": [
         "local-mcq-10",
-        "local-mcq-09",
-        "local-mcq-11",
-        "local-mcq-08",
-        "local-mcq-12",
-        "local-mcq-07"
+        "local-mcq-04",
+        "local-mcq-12"
       ],
       "explanation": "本句的「local」指「只限制在某個部分／區域，不影響整體的」。",
       "sentenceIndex": 27,
@@ -1188,12 +1017,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-10": "本句指「只限制在某個部分／區域，不影響整體的」。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。"
+        "local-mcq-10": "本句的「local」指「只限制在某個部分／區域，不影響整體的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-10"
     },
@@ -1205,11 +1031,8 @@ export default {
       "masked": "The change had only a ____ effect.",
       "options": [
         "local-mcq-10",
-        "local-mcq-09",
-        "local-mcq-11",
-        "local-mcq-08",
-        "local-mcq-12",
-        "local-mcq-07"
+        "local-mcq-04",
+        "local-mcq-12"
       ],
       "explanation": "本句的「local」指「只限制在某個部分／區域，不影響整體的」。",
       "sentenceIndex": 28,
@@ -1218,12 +1041,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-10": "本句指「只限制在某個部分／區域，不影響整體的」。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-07": "「服務較小地區或停站較多、非快速／長途的」與本句語境不同。"
+        "local-mcq-10": "本句的「local」指「只限制在某個部分／區域，不影響整體的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-10"
     },
@@ -1235,11 +1055,8 @@ export default {
       "masked": "The function has a ____.",
       "options": [
         "local-mcq-11",
-        "local-mcq-10",
-        "local-mcq-12",
-        "local-mcq-09",
-        "local-mcq-13",
-        "local-mcq-08"
+        "local-pdf-003",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local maximum」指「只考慮某點附近小範圍，而非整體範圍的」。",
       "sentenceIndex": 29,
@@ -1248,12 +1065,9 @@ export default {
         "local maximum"
       ],
       "optionReasons": {
-        "local-mcq-11": "本句指「只考慮某點附近小範圍，而非整體範圍的」。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。"
+        "local-mcq-11": "本句的「local maximum」指「只考慮某點附近小範圍，而非整體範圍的」。",
+        "local-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-11"
     },
@@ -1265,11 +1079,8 @@ export default {
       "masked": "We first examine the ____ behaviour of the function.",
       "options": [
         "local-mcq-11",
-        "local-mcq-10",
-        "local-mcq-12",
-        "local-mcq-09",
-        "local-mcq-13",
-        "local-mcq-08"
+        "local-mcq-04",
+        "local-pdf-002"
       ],
       "explanation": "本句的「local」指「只考慮某點附近小範圍，而非整體範圍的」。",
       "sentenceIndex": 30,
@@ -1278,12 +1089,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-mcq-11": "本句指「只考慮某點附近小範圍，而非整體範圍的」。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-08": "「只影響身體某一特定部位，而非全身性的」與本句語境不同。"
+        "local-mcq-11": "本句的「local」指「只考慮某點附近小範圍，而非整體範圍的」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-11"
     },
@@ -1295,11 +1103,8 @@ export default {
       "masked": "She joined the ____ of the organisation.",
       "options": [
         "local-pdf-003",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-08",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local branch」指「屬於較大型組織、但負責某一地區的」。",
       "sentenceIndex": 31,
@@ -1308,12 +1113,9 @@ export default {
         "local branch"
       ],
       "optionReasons": {
-        "local-pdf-003": "本句指「屬於較大型組織、但負責某一地區的」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-pdf-003": "本句的「local branch」指「屬於較大型組織、但負責某一地區的」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-003"
     },
@@ -1325,11 +1127,8 @@ export default {
       "masked": "The ____ office handles customer enquiries.",
       "options": [
         "local-pdf-003",
-        "local-mcq-03",
-        "local-mcq-05",
-        "local-mcq-02",
-        "local-mcq-06",
-        "local-mcq-01"
+        "local-mcq-08",
+        "local-mcq-04"
       ],
       "explanation": "本句的「local」指「屬於較大型組織、但負責某一地區的」。",
       "sentenceIndex": 32,
@@ -1338,12 +1137,9 @@ export default {
         "local"
       ],
       "optionReasons": {
-        "local-pdf-003": "本句指「屬於較大型組織、但負責某一地區的」。",
-        "local-mcq-03": "「與住在／活動於該地區的人有關的」與本句語境不同。",
-        "local-mcq-05": "「服務／營運範圍主要限於某個地區的」與本句語境不同。",
-        "local-mcq-02": "「在附近地區種植、製作、生產或供應的」與本句語境不同。",
-        "local-mcq-06": "「負責某城市／地區行政事務的地方政府」與本句語境不同。",
-        "local-mcq-01": "「與附近某個特定地區、社區或城市範圍有關的」與本句語境不同。"
+        "local-pdf-003": "本句的「local」指「屬於較大型組織、但負責某一地區的」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-003"
     },
@@ -1355,11 +1151,8 @@ export default {
       "masked": "The bread is made ____.",
       "options": [
         "local-pdf-004",
-        "local-mcq-11",
-        "local-mcq-13",
-        "local-mcq-10",
-        "local-mcq-14",
-        "local-mcq-09"
+        "local-mcq-08",
+        "local-mcq-04"
       ],
       "explanation": "本句的「locally」指「在附近地區／本地進行或取得」。",
       "sentenceIndex": 33,
@@ -1368,12 +1161,9 @@ export default {
         "locally"
       ],
       "optionReasons": {
-        "local-pdf-004": "本句指「在附近地區／本地進行或取得」。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-pdf-004": "本句的「locally」指「在附近地區／本地進行或取得」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-004"
     },
@@ -1385,11 +1175,8 @@ export default {
       "masked": "Most ingredients are sourced ____.",
       "options": [
         "local-pdf-004",
-        "local-mcq-11",
-        "local-mcq-13",
-        "local-mcq-10",
-        "local-mcq-14",
-        "local-mcq-09"
+        "local-mcq-08",
+        "local-mcq-04"
       ],
       "explanation": "本句的「locally」指「在附近地區／本地進行或取得」。",
       "sentenceIndex": 34,
@@ -1398,12 +1185,9 @@ export default {
         "locally"
       ],
       "optionReasons": {
-        "local-pdf-004": "本句指「在附近地區／本地進行或取得」。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-pdf-004": "本句的「locally」指「在附近地區／本地進行或取得」。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-pdf-004"
     },
@@ -1415,11 +1199,8 @@ export default {
       "masked": "The cream works ____ on the skin.",
       "options": [
         "local-mcq-12",
-        "local-mcq-11",
-        "local-mcq-13",
-        "local-mcq-10",
-        "local-mcq-14",
-        "local-mcq-09"
+        "local-pdf-002",
+        "local-mcq-04"
       ],
       "explanation": "本句的「locally」指「在本地；或在特定局部／本機範圍內」。",
       "sentenceIndex": 35,
@@ -1428,12 +1209,9 @@ export default {
         "locally"
       ],
       "optionReasons": {
-        "local-mcq-12": "本句指「在本地；或在特定局部／本機範圍內」。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-mcq-12": "本句的「locally」指「在本地；或在特定局部／本機範圍內」。",
+        "local-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-12"
     },
@@ -1445,11 +1223,7 @@ export default {
       "masked": "The software stores some data ____.",
       "options": [
         "local-mcq-12",
-        "local-mcq-11",
-        "local-mcq-13",
-        "local-mcq-10",
-        "local-mcq-14",
-        "local-mcq-09"
+        "local-mcq-03"
       ],
       "explanation": "本句的「locally」指「在本地；或在特定局部／本機範圍內」。",
       "sentenceIndex": 36,
@@ -1458,12 +1232,8 @@ export default {
         "locally"
       ],
       "optionReasons": {
-        "local-mcq-12": "本句指「在本地；或在特定局部／本機範圍內」。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-mcq-12": "本句的「locally」指「在本地；或在特定局部／本機範圍內」。",
+        "local-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-12"
     },
@@ -1475,11 +1245,8 @@ export default {
       "masked": "The bakery is well known in the ____.",
       "options": [
         "local-mcq-13",
-        "local-mcq-12",
-        "local-mcq-14",
-        "local-mcq-11",
-        "local-mcq-10",
-        "local-mcq-09"
+        "local-mcq-04",
+        "local-mcq-12"
       ],
       "explanation": "本句的「locality」指「某個具體地方／地區」。",
       "sentenceIndex": 37,
@@ -1488,12 +1255,9 @@ export default {
         "locality"
       ],
       "optionReasons": {
-        "local-mcq-13": "本句指「某個具體地方／地區」。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-mcq-13": "本句的「locality」指「某個具體地方／地區」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-13"
     },
@@ -1505,11 +1269,8 @@ export default {
       "masked": "Several cafés operate in the same ____.",
       "options": [
         "local-mcq-13",
-        "local-mcq-12",
-        "local-mcq-14",
-        "local-mcq-11",
-        "local-mcq-10",
-        "local-mcq-09"
+        "local-mcq-04",
+        "local-mcq-12"
       ],
       "explanation": "本句的「locality」指「某個具體地方／地區」。",
       "sentenceIndex": 38,
@@ -1518,12 +1279,9 @@ export default {
         "locality"
       ],
       "optionReasons": {
-        "local-mcq-13": "本句指「某個具體地方／地區」。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-14": "「作用／資料集中在相近位置或範圍的特性」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-mcq-13": "本句的「locality」指「某個具體地方／地區」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-13"
     },
@@ -1535,11 +1293,8 @@ export default {
       "masked": "The system is designed to improve data ____.",
       "options": [
         "local-mcq-14",
-        "local-mcq-13",
-        "local-mcq-12",
-        "local-mcq-11",
-        "local-mcq-10",
-        "local-mcq-09"
+        "local-mcq-04",
+        "local-mcq-08"
       ],
       "explanation": "本句的「locality」指「作用／資料集中在相近位置或範圍的特性」。",
       "sentenceIndex": 39,
@@ -1548,12 +1303,9 @@ export default {
         "locality"
       ],
       "optionReasons": {
-        "local-mcq-14": "本句指「作用／資料集中在相近位置或範圍的特性」。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-mcq-14": "本句的「locality」指「作用／資料集中在相近位置或範圍的特性」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-14"
     },
@@ -1565,11 +1317,8 @@ export default {
       "masked": "____ can affect computing performance.",
       "options": [
         "local-mcq-14",
-        "local-mcq-13",
-        "local-mcq-12",
-        "local-mcq-11",
-        "local-mcq-10",
-        "local-mcq-09"
+        "local-mcq-04",
+        "local-mcq-08"
       ],
       "explanation": "本句的「Locality」指「作用／資料集中在相近位置或範圍的特性」。",
       "sentenceIndex": 40,
@@ -1578,12 +1327,9 @@ export default {
         "Locality"
       ],
       "optionReasons": {
-        "local-mcq-14": "本句指「作用／資料集中在相近位置或範圍的特性」。",
-        "local-mcq-13": "「某個具體地方／地區」與本句語境不同。",
-        "local-mcq-12": "「在本地；或在特定局部／本機範圍內」與本句語境不同。",
-        "local-mcq-11": "「只考慮某點附近小範圍，而非整體範圍的」與本句語境不同。",
-        "local-mcq-10": "「只限制在某個部分／區域，不影響整體的」與本句語境不同。",
-        "local-mcq-09": "「位於目前裝置／本地系統內，而非遠端或雲端的」與本句語境不同。"
+        "local-mcq-14": "本句的「Locality」指「作用／資料集中在相近位置或範圍的特性」。",
+        "local-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "local-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "local-mcq-14"
     }
@@ -1595,5 +1341,7 @@ export default {
     "sha256": "70e625b746906d6372247a7c480dc98ecd9544bd9dbd4eed451b60ad69b10dc1",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -382,11 +382,7 @@ export default {
       "masked": "The car must have valid ____.",
       "options": [
         "insurance-pdf-001",
-        "insurance-mcq-02",
-        "insurance-mcq-03",
-        "insurance-mcq-04",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「insurance」指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
       "sentenceIndex": 0,
@@ -395,12 +391,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-pdf-001": "本句指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-pdf-001": "本句的「insurance」指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-pdf-001"
     },
@@ -412,11 +404,7 @@ export default {
       "masked": "____ protects owners against certain financial losses.",
       "options": [
         "insurance-pdf-001",
-        "insurance-mcq-02",
-        "insurance-mcq-03",
-        "insurance-mcq-04",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「Insurance」指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
       "sentenceIndex": 1,
@@ -425,12 +413,8 @@ export default {
         "Insurance"
       ],
       "optionReasons": {
-        "insurance-pdf-001": "本句指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-pdf-001": "本句的「Insurance」指「投保人支付保費，由保險公司按保單條款承擔指定風險」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-pdf-001"
     },
@@ -442,11 +426,7 @@ export default {
       "masked": "Electric-car ____ may cost more for some models.",
       "options": [
         "insurance-mcq-02",
-        "insurance-mcq-01",
-        "insurance-mcq-03",
-        "insurance-mcq-04",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「insurance」指「保障汽車事故、損壞、責任等指定風險的汽車保險」。",
       "sentenceIndex": 2,
@@ -455,12 +435,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-02": "本句指「保障汽車事故、損壞、責任等指定風險的汽車保險」。",
-        "insurance-mcq-01": "「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」與本句語境不同。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-mcq-02": "本句的「insurance」指「保障汽車事故、損壞、責任等指定風險的汽車保險」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-02"
     },
@@ -472,11 +448,7 @@ export default {
       "masked": "Drivers compare ____ costs before buying a car.",
       "options": [
         "insurance-mcq-02",
-        "insurance-mcq-01",
-        "insurance-mcq-03",
-        "insurance-mcq-04",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「insurance」指「保障汽車事故、損壞、責任等指定風險的汽車保險」。",
       "sentenceIndex": 3,
@@ -485,12 +457,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-02": "本句指「保障汽車事故、損壞、責任等指定風險的汽車保險」。",
-        "insurance-mcq-01": "「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」與本句語境不同。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-mcq-02": "本句的「insurance」指「保障汽車事故、損壞、責任等指定風險的汽車保險」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-02"
     },
@@ -502,11 +470,7 @@ export default {
       "masked": "The policy provides insurance ____ for theft.",
       "options": [
         "insurance-mcq-06",
-        "insurance-mcq-05",
-        "insurance-mcq-07",
-        "insurance-mcq-04",
-        "insurance-mcq-08",
-        "insurance-mcq-03"
+        "insurance-mcq-05"
       ],
       "explanation": "本句的「cover」指「保單實際保障哪些風險／損失的範圍」。",
       "sentenceIndex": 4,
@@ -515,12 +479,8 @@ export default {
         "cover"
       ],
       "optionReasons": {
-        "insurance-mcq-06": "本句指「保單實際保障哪些風險／損失的範圍」。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-07": "「保單明確不提供保障的情況／損失」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-08": "「為某人／某物安排或提供保險保障」與本句語境不同。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。"
+        "insurance-mcq-06": "本句的「cover」指「保單實際保障哪些風險／損失的範圍」。",
+        "insurance-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-06"
     },
@@ -532,11 +492,7 @@ export default {
       "masked": "Read the ____ carefully.",
       "options": [
         "insurance-mcq-03",
-        "insurance-mcq-02",
-        "insurance-mcq-04",
-        "insurance-mcq-01",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "insurance-mcq-10"
       ],
       "explanation": "本句的「insurance policy」指「列明承保範圍、除外責任、保費等條款的保險合約」。",
       "sentenceIndex": 5,
@@ -545,12 +501,8 @@ export default {
         "insurance policy"
       ],
       "optionReasons": {
-        "insurance-mcq-03": "本句指「列明承保範圍、除外責任、保費等條款的保險合約」。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-01": "「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-mcq-03": "本句的「insurance policy」指「列明承保範圍、除外責任、保費等條款的保險合約」。",
+        "insurance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-03"
     },
@@ -562,11 +514,7 @@ export default {
       "masked": "The annual ____ increased.",
       "options": [
         "insurance-mcq-04",
-        "insurance-mcq-03",
-        "insurance-mcq-05",
-        "insurance-mcq-02",
-        "insurance-mcq-06",
-        "insurance-mcq-01"
+        "contrast-duration"
       ],
       "explanation": "本句的「insurance premium」指「為獲得保險保障而定期／一次支付的保費」。",
       "sentenceIndex": 6,
@@ -575,12 +523,8 @@ export default {
         "insurance premium"
       ],
       "optionReasons": {
-        "insurance-mcq-04": "本句指「為獲得保險保障而定期／一次支付的保費」。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。",
-        "insurance-mcq-01": "「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」與本句語境不同。"
+        "insurance-mcq-04": "本句的「insurance premium」指「為獲得保險保障而定期／一次支付的保費」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-04"
     },
@@ -592,11 +536,7 @@ export default {
       "masked": "She made an ____ after the accident.",
       "options": [
         "insurance-mcq-05",
-        "insurance-mcq-04",
-        "insurance-mcq-06",
-        "insurance-mcq-03",
-        "insurance-mcq-07",
-        "insurance-mcq-02"
+        "insurance-mcq-06"
       ],
       "explanation": "本句的「insurance claim」指「受保事件發生後向保險公司正式要求賠付的申請」。",
       "sentenceIndex": 7,
@@ -605,12 +545,8 @@ export default {
         "insurance claim"
       ],
       "optionReasons": {
-        "insurance-mcq-05": "本句指「受保事件發生後向保險公司正式要求賠付的申請」。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。",
-        "insurance-mcq-03": "「列明承保範圍、除外責任、保費等條款的保險合約」與本句語境不同。",
-        "insurance-mcq-07": "「保單明確不提供保障的情況／損失」與本句語境不同。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。"
+        "insurance-mcq-05": "本句的「insurance claim」指「受保事件發生後向保險公司正式要求賠付的申請」。",
+        "insurance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-05"
     },
@@ -622,11 +558,7 @@ export default {
       "masked": "The ____ must notify the insurer promptly.",
       "options": [
         "insurance-mcq-10",
-        "insurance-mcq-09",
-        "insurance-mcq-11",
-        "insurance-mcq-08",
-        "insurance-mcq-12",
-        "insurance-mcq-07"
+        "insurance-mcq-21"
       ],
       "explanation": "本句的「insured」指「保單中受到保障的人／實體」。",
       "sentenceIndex": 14,
@@ -635,12 +567,8 @@ export default {
         "insured"
       ],
       "optionReasons": {
-        "insurance-mcq-10": "本句指「保單中受到保障的人／實體」。",
-        "insurance-mcq-09": "「已受到保單保障的」與本句語境不同。",
-        "insurance-mcq-11": "「接受保險風險並按合約提供賠付的保險公司／承保人」與本句語境不同。",
-        "insurance-mcq-08": "「為某人／某物安排或提供保險保障」與本句語境不同。",
-        "insurance-mcq-12": "「持有保單、通常負責保費及合約權利義務的人」與本句語境不同。",
-        "insurance-mcq-07": "「保單明確不提供保障的情況／損失」與本句語境不同。"
+        "insurance-mcq-10": "本句的「insured」指「保單中受到保障的人／實體」。",
+        "insurance-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-10"
     },
@@ -652,11 +580,7 @@ export default {
       "masked": "The ____ approved the claim.",
       "options": [
         "insurance-mcq-11",
-        "insurance-mcq-10",
-        "insurance-mcq-12",
-        "insurance-mcq-09",
-        "insurance-mcq-13",
-        "insurance-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「insurer」指「接受保險風險並按合約提供賠付的保險公司／承保人」。",
       "sentenceIndex": 15,
@@ -665,12 +589,8 @@ export default {
         "insurer"
       ],
       "optionReasons": {
-        "insurance-mcq-11": "本句指「接受保險風險並按合約提供賠付的保險公司／承保人」。",
-        "insurance-mcq-10": "「保單中受到保障的人／實體」與本句語境不同。",
-        "insurance-mcq-12": "「持有保單、通常負責保費及合約權利義務的人」與本句語境不同。",
-        "insurance-mcq-09": "「已受到保單保障的」與本句語境不同。",
-        "insurance-mcq-13": "「在指定條件下取得保險給付的人」與本句語境不同。",
-        "insurance-mcq-08": "「為某人／某物安排或提供保險保障」與本句語境不同。"
+        "insurance-mcq-11": "本句的「insurer」指「接受保險風險並按合約提供賠付的保險公司／承保人」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-11"
     },
@@ -682,11 +602,7 @@ export default {
       "masked": "The property must be ____.",
       "options": [
         "insurance-mcq-14",
-        "insurance-mcq-13",
-        "insurance-mcq-15",
-        "insurance-mcq-12",
-        "insurance-mcq-16",
-        "insurance-mcq-11"
+        "insurance-mcq-10"
       ],
       "explanation": "本句的「insurable」指「風險性質容許保險公司承保的」。",
       "sentenceIndex": 16,
@@ -695,12 +611,8 @@ export default {
         "insurable"
       ],
       "optionReasons": {
-        "insurance-mcq-14": "本句指「風險性質容許保險公司承保的」。",
-        "insurance-mcq-13": "「在指定條件下取得保險給付的人」與本句語境不同。",
-        "insurance-mcq-15": "「沒有保險保障的」與本句語境不同。",
-        "insurance-mcq-12": "「持有保單、通常負責保費及合約權利義務的人」與本句語境不同。",
-        "insurance-mcq-16": "「保險金額／保障程度不足以應付實際風險的」與本句語境不同。",
-        "insurance-mcq-11": "「接受保險風險並按合約提供賠付的保險公司／承保人」與本句語境不同。"
+        "insurance-mcq-14": "本句的「insurable」指「風險性質容許保險公司承保的」。",
+        "insurance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-14"
     },
@@ -712,11 +624,7 @@ export default {
       "masked": "Driving an ____ vehicle may be illegal.",
       "options": [
         "insurance-mcq-15",
-        "insurance-mcq-14",
-        "insurance-mcq-16",
-        "insurance-mcq-13",
-        "insurance-mcq-17",
-        "insurance-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uninsured」指「沒有保險保障的」。",
       "sentenceIndex": 17,
@@ -725,12 +633,8 @@ export default {
         "uninsured"
       ],
       "optionReasons": {
-        "insurance-mcq-15": "本句指「沒有保險保障的」。",
-        "insurance-mcq-14": "「風險性質容許保險公司承保的」與本句語境不同。",
-        "insurance-mcq-16": "「保險金額／保障程度不足以應付實際風險的」與本句語境不同。",
-        "insurance-mcq-13": "「在指定條件下取得保險給付的人」與本句語境不同。",
-        "insurance-mcq-17": "「保障被保險人對第三方承擔某些法律賠償責任的保險」與本句語境不同。",
-        "insurance-mcq-12": "「持有保單、通常負責保費及合約權利義務的人」與本句語境不同。"
+        "insurance-mcq-15": "本句的「uninsured」指「沒有保險保障的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-15"
     },
@@ -742,11 +646,7 @@ export default {
       "masked": "The building was seriously ____.",
       "options": [
         "insurance-mcq-16",
-        "insurance-mcq-15",
-        "insurance-mcq-17",
-        "insurance-mcq-14",
-        "insurance-mcq-18",
-        "insurance-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「underinsured」指「保險金額／保障程度不足以應付實際風險的」。",
       "sentenceIndex": 18,
@@ -755,12 +655,8 @@ export default {
         "underinsured"
       ],
       "optionReasons": {
-        "insurance-mcq-16": "本句指「保險金額／保障程度不足以應付實際風險的」。",
-        "insurance-mcq-15": "「沒有保險保障的」與本句語境不同。",
-        "insurance-mcq-17": "「保障被保險人對第三方承擔某些法律賠償責任的保險」與本句語境不同。",
-        "insurance-mcq-14": "「風險性質容許保險公司承保的」與本句語境不同。",
-        "insurance-mcq-18": "「承保範圍較廣的汽車綜合保險」與本句語境不同。",
-        "insurance-mcq-13": "「在指定條件下取得保險給付的人」與本句語境不同。"
+        "insurance-mcq-16": "本句的「underinsured」指「保險金額／保障程度不足以應付實際風險的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-16"
     },
@@ -772,11 +668,7 @@ export default {
       "masked": "Businesses often carry liability ____.",
       "options": [
         "insurance-mcq-17",
-        "insurance-mcq-16",
-        "insurance-mcq-18",
-        "insurance-mcq-15",
-        "insurance-mcq-19",
-        "insurance-mcq-14"
+        "contrast-duration"
       ],
       "explanation": "本句的「insurance」指「保障被保險人對第三方承擔某些法律賠償責任的保險」。",
       "sentenceIndex": 27,
@@ -785,12 +677,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-17": "本句指「保障被保險人對第三方承擔某些法律賠償責任的保險」。",
-        "insurance-mcq-16": "「保險金額／保障程度不足以應付實際風險的」與本句語境不同。",
-        "insurance-mcq-18": "「承保範圍較廣的汽車綜合保險」與本句語境不同。",
-        "insurance-mcq-15": "「沒有保險保障的」與本句語境不同。",
-        "insurance-mcq-19": "「一份安排下保障多輛商業／機構車輛的保險」與本句語境不同。",
-        "insurance-mcq-14": "「風險性質容許保險公司承保的」與本句語境不同。"
+        "insurance-mcq-17": "本句的「insurance」指「保障被保險人對第三方承擔某些法律賠償責任的保險」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-17"
     },
@@ -802,11 +690,7 @@ export default {
       "masked": "Liability ____ can cover certain claims made by third parties.",
       "options": [
         "insurance-mcq-17",
-        "insurance-mcq-16",
-        "insurance-mcq-18",
-        "insurance-mcq-15",
-        "insurance-mcq-19",
-        "insurance-mcq-14"
+        "contrast-duration"
       ],
       "explanation": "本句的「insurance」指「保障被保險人對第三方承擔某些法律賠償責任的保險」。",
       "sentenceIndex": 28,
@@ -815,12 +699,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-17": "本句指「保障被保險人對第三方承擔某些法律賠償責任的保險」。",
-        "insurance-mcq-16": "「保險金額／保障程度不足以應付實際風險的」與本句語境不同。",
-        "insurance-mcq-18": "「承保範圍較廣的汽車綜合保險」與本句語境不同。",
-        "insurance-mcq-15": "「沒有保險保障的」與本句語境不同。",
-        "insurance-mcq-19": "「一份安排下保障多輛商業／機構車輛的保險」與本句語境不同。",
-        "insurance-mcq-14": "「風險性質容許保險公司承保的」與本句語境不同。"
+        "insurance-mcq-17": "本句的「insurance」指「保障被保險人對第三方承擔某些法律賠償責任的保險」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-17"
     },
@@ -832,11 +712,7 @@ export default {
       "masked": "The delivery company uses fleet ____.",
       "options": [
         "insurance-mcq-19",
-        "insurance-mcq-18",
-        "insurance-mcq-20",
-        "insurance-mcq-17",
-        "insurance-mcq-21",
-        "insurance-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「insurance」指「一份安排下保障多輛商業／機構車輛的保險」。",
       "sentenceIndex": 36,
@@ -845,12 +721,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-19": "本句指「一份安排下保障多輛商業／機構車輛的保險」。",
-        "insurance-mcq-18": "「承保範圍較廣的汽車綜合保險」與本句語境不同。",
-        "insurance-mcq-20": "「為防範失敗／損失而保留的後備措施」與本句語境不同。",
-        "insurance-mcq-17": "「保障被保險人對第三方承擔某些法律賠償責任的保險」與本句語境不同。",
-        "insurance-mcq-21": "「保險公司評估風險並決定是否承保、保費及條款的過程」與本句語境不同。",
-        "insurance-mcq-16": "「保險金額／保障程度不足以應付實際風險的」與本句語境不同。"
+        "insurance-mcq-19": "本句的「insurance」指「一份安排下保障多輛商業／機構車輛的保險」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-19"
     },
@@ -862,11 +734,7 @@ export default {
       "masked": "Fleet ____ can cover multiple vehicles under one arrangement.",
       "options": [
         "insurance-mcq-19",
-        "insurance-mcq-18",
-        "insurance-mcq-20",
-        "insurance-mcq-17",
-        "insurance-mcq-21",
-        "insurance-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「insurance」指「一份安排下保障多輛商業／機構車輛的保險」。",
       "sentenceIndex": 37,
@@ -875,12 +743,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-19": "本句指「一份安排下保障多輛商業／機構車輛的保險」。",
-        "insurance-mcq-18": "「承保範圍較廣的汽車綜合保險」與本句語境不同。",
-        "insurance-mcq-20": "「為防範失敗／損失而保留的後備措施」與本句語境不同。",
-        "insurance-mcq-17": "「保障被保險人對第三方承擔某些法律賠償責任的保險」與本句語境不同。",
-        "insurance-mcq-21": "「保險公司評估風險並決定是否承保、保費及條款的過程」與本句語境不同。",
-        "insurance-mcq-16": "「保險金額／保障程度不足以應付實際風險的」與本句語境不同。"
+        "insurance-mcq-19": "本句的「insurance」指「一份安排下保障多輛商業／機構車輛的保險」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-19"
     },
@@ -892,11 +756,7 @@ export default {
       "masked": "The extra battery acts as an ____ against power failure.",
       "options": [
         "insurance-mcq-03",
-        "insurance-mcq-02",
-        "insurance-mcq-04",
-        "insurance-mcq-01",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "insurance-mcq-10"
       ],
       "explanation": "本句的「insurance policy」指「列明承保範圍、除外責任、保費等條款的保險合約」。",
       "sentenceIndex": 41,
@@ -905,12 +765,8 @@ export default {
         "insurance policy"
       ],
       "optionReasons": {
-        "insurance-mcq-03": "本句指「列明承保範圍、除外責任、保費等條款的保險合約」。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-01": "「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-mcq-03": "本句的「insurance policy」指「列明承保範圍、除外責任、保費等條款的保險合約」。",
+        "insurance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-03"
     },
@@ -922,11 +778,7 @@ export default {
       "masked": "Keeping cash reserves is an ____ policy against uncertainty.",
       "options": [
         "insurance-mcq-03",
-        "insurance-mcq-02",
-        "insurance-mcq-04",
-        "insurance-mcq-01",
-        "insurance-mcq-05",
-        "insurance-mcq-06"
+        "insurance-mcq-10"
       ],
       "explanation": "本句的「insurance」指「列明承保範圍、除外責任、保費等條款的保險合約」。",
       "sentenceIndex": 42,
@@ -935,12 +787,8 @@ export default {
         "insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-03": "本句指「列明承保範圍、除外責任、保費等條款的保險合約」。",
-        "insurance-mcq-02": "「保障汽車事故、損壞、責任等指定風險的汽車保險」與本句語境不同。",
-        "insurance-mcq-04": "「為獲得保險保障而定期／一次支付的保費」與本句語境不同。",
-        "insurance-mcq-01": "「透過支付保費，把指定未來財務風險轉移給保險人的保障安排」與本句語境不同。",
-        "insurance-mcq-05": "「受保事件發生後向保險公司正式要求賠付的申請」與本句語境不同。",
-        "insurance-mcq-06": "「保單實際保障哪些風險／損失的範圍」與本句語境不同。"
+        "insurance-mcq-03": "本句的「insurance」指「列明承保範圍、除外責任、保費等條款的保險合約」。",
+        "insurance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-03"
     },
@@ -952,11 +800,7 @@ export default {
       "masked": "____ underwriting considers risk factors.",
       "options": [
         "insurance-mcq-21",
-        "insurance-mcq-20",
-        "insurance-mcq-22",
-        "insurance-mcq-19",
-        "insurance-mcq-18",
-        "insurance-mcq-17"
+        "insurance-mcq-10"
       ],
       "explanation": "本句的「Insurance」指「保險公司評估風險並決定是否承保、保費及條款的過程」。",
       "sentenceIndex": 47,
@@ -965,12 +809,8 @@ export default {
         "Insurance"
       ],
       "optionReasons": {
-        "insurance-mcq-21": "本句指「保險公司評估風險並決定是否承保、保費及條款的過程」。",
-        "insurance-mcq-20": "「為防範失敗／損失而保留的後備措施」與本句語境不同。",
-        "insurance-mcq-22": "「保險公司把自身承擔的部分保險風險再轉移給另一保險人的安排」與本句語境不同。",
-        "insurance-mcq-19": "「一份安排下保障多輛商業／機構車輛的保險」與本句語境不同。",
-        "insurance-mcq-18": "「承保範圍較廣的汽車綜合保險」與本句語境不同。",
-        "insurance-mcq-17": "「保障被保險人對第三方承擔某些法律賠償責任的保險」與本句語境不同。"
+        "insurance-mcq-21": "本句的「Insurance」指「保險公司評估風險並決定是否承保、保費及條款的過程」。",
+        "insurance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insurance-mcq-21"
     }
@@ -982,5 +822,16 @@ export default {
     "sha256": "02f563c7c58efe703f77b85a3270d873fab10f129d2a5e0e4f011aafa473d3ae",
     "pages": 55
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    },
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

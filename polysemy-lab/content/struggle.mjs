@@ -338,11 +338,8 @@ export default {
       "masked": "People are not alone in their daily ____.",
       "options": [
         "struggle-mcq-01",
-        "struggle-mcq-02",
-        "struggle-mcq-03",
-        "struggle-mcq-04",
-        "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggles」指「一個人正在努力應付的困難、壓力或難處」。",
       "sentenceIndex": 0,
@@ -351,12 +348,9 @@ export default {
         "struggles"
       ],
       "optionReasons": {
-        "struggle-mcq-01": "本句指「一個人正在努力應付的困難、壓力或難處」。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-01": "本句的「struggles」指「一個人正在努力應付的困難、壓力或難處」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-01"
     },
@@ -368,11 +362,8 @@ export default {
       "masked": "Financial ____ affected the whole family.",
       "options": [
         "struggle-mcq-01",
-        "struggle-mcq-02",
-        "struggle-mcq-03",
-        "struggle-mcq-04",
-        "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggles」指「一個人正在努力應付的困難、壓力或難處」。",
       "sentenceIndex": 1,
@@ -381,12 +372,9 @@ export default {
         "struggles"
       ],
       "optionReasons": {
-        "struggle-mcq-01": "本句指「一個人正在努力應付的困難、壓力或難處」。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-01": "本句的「struggles」指「一個人正在努力應付的困難、壓力或難處」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-01"
     },
@@ -398,11 +386,8 @@ export default {
       "masked": "She spoke openly about her ____ at school.",
       "options": [
         "struggle-mcq-01",
-        "struggle-mcq-02",
-        "struggle-mcq-03",
-        "struggle-mcq-04",
-        "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggles」指「一個人正在努力應付的困難、壓力或難處」。",
       "sentenceIndex": 2,
@@ -411,12 +396,9 @@ export default {
         "struggles"
       ],
       "optionReasons": {
-        "struggle-mcq-01": "本句指「一個人正在努力應付的困難、壓力或難處」。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-01": "本句的「struggles」指「一個人正在努力應付的困難、壓力或難處」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-01"
     },
@@ -428,11 +410,9 @@ export default {
       "masked": "I ____ my homework.",
       "options": [
         "struggle-mcq-02",
-        "struggle-mcq-01",
-        "struggle-mcq-03",
-        "struggle-mcq-04",
         "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-03"
       ],
       "explanation": "本句的「struggled to finish」指「因事情很難而非常吃力地嘗試完成」。",
       "sentenceIndex": 3,
@@ -441,12 +421,10 @@ export default {
         "struggled to finish"
       ],
       "optionReasons": {
-        "struggle-mcq-02": "本句指「因事情很難而非常吃力地嘗試完成」。",
-        "struggle-mcq-01": "「一個人正在努力應付的困難、壓力或難處」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-02": "本句的「struggled to finish」指「因事情很難而非常吃力地嘗試完成」。",
+        "struggle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-02"
     },
@@ -458,11 +436,9 @@ export default {
       "masked": "She ____ to stay awake in class.",
       "options": [
         "struggle-mcq-02",
-        "struggle-mcq-01",
-        "struggle-mcq-03",
-        "struggle-mcq-04",
         "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-03"
       ],
       "explanation": "本句的「struggled」指「因事情很難而非常吃力地嘗試完成」。",
       "sentenceIndex": 4,
@@ -471,12 +447,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-02": "本句指「因事情很難而非常吃力地嘗試完成」。",
-        "struggle-mcq-01": "「一個人正在努力應付的困難、壓力或難處」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-02": "本句的「struggled」指「因事情很難而非常吃力地嘗試完成」。",
+        "struggle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-02"
     },
@@ -488,11 +462,9 @@ export default {
       "masked": "Many students ____ time management.",
       "options": [
         "struggle-mcq-03",
-        "struggle-mcq-02",
-        "struggle-mcq-04",
-        "struggle-mcq-01",
         "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle with」指「在理解、處理或應付某件事方面有困難」。",
       "sentenceIndex": 5,
@@ -501,12 +473,10 @@ export default {
         "struggle with"
       ],
       "optionReasons": {
-        "struggle-mcq-03": "本句指「在理解、處理或應付某件事方面有困難」。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-01": "「一個人正在努力應付的困難、壓力或難處」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-03": "本句的「struggle with」指「在理解、處理或應付某件事方面有困難」。",
+        "struggle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-03"
     },
@@ -518,11 +488,9 @@ export default {
       "masked": "He ____ with anxiety before exams.",
       "options": [
         "struggle-mcq-03",
-        "struggle-mcq-02",
         "struggle-mcq-04",
-        "struggle-mcq-01",
-        "struggle-mcq-05",
-        "struggle-mcq-06"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggles」指「在理解、處理或應付某件事方面有困難」。",
       "sentenceIndex": 6,
@@ -531,12 +499,10 @@ export default {
         "struggles"
       ],
       "optionReasons": {
-        "struggle-mcq-03": "本句指「在理解、處理或應付某件事方面有困難」。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-01": "「一個人正在努力應付的困難、壓力或難處」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-03": "本句的「struggles」指「在理解、處理或應付某件事方面有困難」。",
+        "struggle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-03"
     },
@@ -548,11 +514,9 @@ export default {
       "masked": "She ____ against the strong current.",
       "options": [
         "struggle-mcq-04",
+        "struggle-mcq-09",
         "struggle-mcq-03",
-        "struggle-mcq-05",
-        "struggle-mcq-02",
-        "struggle-mcq-06",
-        "struggle-mcq-01"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggled」指「努力抵抗某種力量、問題或不利情況」。",
       "sentenceIndex": 7,
@@ -561,12 +525,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-04": "本句指「努力抵抗某種力量、問題或不利情況」。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-01": "「一個人正在努力應付的困難、壓力或難處」與本句語境不同。"
+        "struggle-mcq-04": "本句的「struggled」指「努力抵抗某種力量、問題或不利情況」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-04"
     },
@@ -578,11 +540,9 @@ export default {
       "masked": "The company ____ against rising costs.",
       "options": [
         "struggle-mcq-04",
+        "struggle-mcq-09",
         "struggle-mcq-03",
-        "struggle-mcq-05",
-        "struggle-mcq-02",
-        "struggle-mcq-06",
-        "struggle-mcq-01"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggled」指「努力抵抗某種力量、問題或不利情況」。",
       "sentenceIndex": 8,
@@ -591,12 +551,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-04": "本句指「努力抵抗某種力量、問題或不利情況」。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-01": "「一個人正在努力應付的困難、壓力或難處」與本句語境不同。"
+        "struggle-mcq-04": "本句的「struggled」指「努力抵抗某種力量、問題或不利情況」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-04"
     },
@@ -608,11 +566,8 @@ export default {
       "masked": "They ____ equal rights.",
       "options": [
         "struggle-mcq-05",
-        "struggle-mcq-04",
-        "struggle-mcq-06",
-        "struggle-mcq-03",
-        "struggle-mcq-07",
-        "struggle-mcq-02"
+        "struggle-mcq-12",
+        "struggle-pdf-001"
       ],
       "explanation": "本句的「struggled for」指「為取得某個目標、權利、資源或控制權而奮鬥」。",
       "sentenceIndex": 9,
@@ -621,12 +576,9 @@ export default {
         "struggled for"
       ],
       "optionReasons": {
-        "struggle-mcq-05": "本句指「為取得某個目標、權利、資源或控制權而奮鬥」。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。"
+        "struggle-mcq-05": "本句的「struggled for」指「為取得某個目標、權利、資源或控制權而奮鬥」。",
+        "struggle-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "struggle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-05"
     },
@@ -638,10 +590,8 @@ export default {
       "masked": "The two groups ____ for control.",
       "options": [
         "struggle-mcq-05",
-        "struggle-mcq-04",
-        "struggle-mcq-06",
-        "struggle-mcq-03",
-        "struggle-mcq-07",
+        "struggle-mcq-09",
+        "struggle-mcq-08",
         "struggle-mcq-02"
       ],
       "explanation": "本句的「struggled」指「為取得某個目標、權利、資源或控制權而奮鬥」。",
@@ -651,12 +601,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-05": "本句指「為取得某個目標、權利、資源或控制權而奮鬥」。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-02": "「因事情很難而非常吃力地嘗試完成」與本句語境不同。"
+        "struggle-mcq-05": "本句的「struggled」指「為取得某個目標、權利、資源或控制權而奮鬥」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-05"
     },
@@ -668,11 +616,9 @@ export default {
       "masked": "The two men ____ on the ground.",
       "options": [
         "struggle-mcq-06",
-        "struggle-mcq-05",
-        "struggle-mcq-07",
-        "struggle-mcq-04",
         "struggle-mcq-08",
-        "struggle-mcq-03"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggled」指「用身體力量與人、束縛或阻力對抗」。",
       "sentenceIndex": 11,
@@ -681,12 +627,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-06": "本句指「用身體力量與人、束縛或阻力對抗」。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。"
+        "struggle-mcq-06": "本句的「struggled」指「用身體力量與人、束縛或阻力對抗」。",
+        "struggle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-06"
     },
@@ -698,11 +642,9 @@ export default {
       "masked": "She ____ to free herself.",
       "options": [
         "struggle-mcq-06",
-        "struggle-mcq-05",
-        "struggle-mcq-07",
-        "struggle-mcq-04",
         "struggle-mcq-08",
-        "struggle-mcq-03"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggled」指「用身體力量與人、束縛或阻力對抗」。",
       "sentenceIndex": 12,
@@ -711,12 +653,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-06": "本句指「用身體力量與人、束縛或阻力對抗」。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。"
+        "struggle-mcq-06": "本句的「struggled」指「用身體力量與人、束縛或阻力對抗」。",
+        "struggle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-06"
     },
@@ -728,11 +668,8 @@ export default {
       "masked": "There was a brief ____ near the door.",
       "options": [
         "struggle-mcq-06",
-        "struggle-mcq-05",
-        "struggle-mcq-07",
-        "struggle-mcq-04",
-        "struggle-mcq-08",
-        "struggle-mcq-03"
+        "struggle-mcq-09",
+        "struggle-mcq-12"
       ],
       "explanation": "本句的「struggle」指「用身體力量與人、束縛或阻力對抗」。",
       "sentenceIndex": 13,
@@ -741,12 +678,9 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-06": "本句指「用身體力量與人、束縛或阻力對抗」。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。"
+        "struggle-mcq-06": "本句的「struggle」指「用身體力量與人、束縛或阻力對抗」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-06"
     },
@@ -758,11 +692,9 @@ export default {
       "masked": "He dropped the bag during the ____.",
       "options": [
         "struggle-mcq-06",
-        "struggle-mcq-05",
-        "struggle-mcq-07",
-        "struggle-mcq-04",
-        "struggle-mcq-08",
-        "struggle-mcq-03"
+        "struggle-pdf-001",
+        "struggle-mcq-03",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle」指「用身體力量與人、束縛或阻力對抗」。",
       "sentenceIndex": 14,
@@ -771,12 +703,10 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-06": "本句指「用身體力量與人、束縛或阻力對抗」。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-03": "「在理解、處理或應付某件事方面有困難」與本句語境不同。"
+        "struggle-mcq-06": "本句的「struggle」指「用身體力量與人、束縛或阻力對抗」。",
+        "struggle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-06"
     },
@@ -788,11 +718,8 @@ export default {
       "masked": "The small business is ____.",
       "options": [
         "struggle-mcq-07",
-        "struggle-mcq-06",
-        "struggle-mcq-08",
-        "struggle-mcq-05",
         "struggle-mcq-09",
-        "struggle-mcq-04"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggling to survive」指「在困難環境下努力維持生存／運作」。",
       "sentenceIndex": 15,
@@ -801,12 +728,9 @@ export default {
         "struggling to survive"
       ],
       "optionReasons": {
-        "struggle-mcq-07": "本句指「在困難環境下努力維持生存／運作」。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。"
+        "struggle-mcq-07": "本句的「struggling to survive」指「在困難環境下努力維持生存／運作」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-07"
     },
@@ -818,11 +742,8 @@ export default {
       "masked": "Many families ____ to make ends meet.",
       "options": [
         "struggle-mcq-07",
-        "struggle-mcq-06",
-        "struggle-mcq-08",
-        "struggle-mcq-05",
         "struggle-mcq-09",
-        "struggle-mcq-04"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle」指「在困難環境下努力維持生存／運作」。",
       "sentenceIndex": 16,
@@ -831,12 +752,9 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-07": "本句指「在困難環境下努力維持生存／運作」。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-04": "「努力抵抗某種力量、問題或不利情況」與本句語境不同。"
+        "struggle-mcq-07": "本句的「struggle」指「在困難環境下努力維持生存／運作」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-07"
     },
@@ -848,11 +766,9 @@ export default {
       "masked": "The café is a ____.",
       "options": [
         "struggle-mcq-08",
-        "struggle-mcq-07",
+        "struggle-mcq-04",
         "struggle-mcq-09",
-        "struggle-mcq-06",
-        "struggle-mcq-10",
-        "struggle-mcq-05"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggling business」指「正明顯面對困難、難以維持正常表現的」。",
       "sentenceIndex": 17,
@@ -861,12 +777,10 @@ export default {
         "struggling business"
       ],
       "optionReasons": {
-        "struggle-mcq-08": "本句指「正明顯面對困難、難以維持正常表現的」。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。"
+        "struggle-mcq-08": "本句的「struggling business」指「正明顯面對困難、難以維持正常表現的」。",
+        "struggle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-08"
     },
@@ -878,11 +792,9 @@ export default {
       "masked": "The teacher gave extra help to ____ students.",
       "options": [
         "struggle-mcq-08",
-        "struggle-mcq-07",
+        "struggle-mcq-05",
         "struggle-mcq-09",
-        "struggle-mcq-06",
-        "struggle-mcq-10",
-        "struggle-mcq-05"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggling」指「正明顯面對困難、難以維持正常表現的」。",
       "sentenceIndex": 18,
@@ -891,12 +803,10 @@ export default {
         "struggling"
       ],
       "optionReasons": {
-        "struggle-mcq-08": "本句指「正明顯面對困難、難以維持正常表現的」。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-05": "「為取得某個目標、權利、資源或控制權而奮鬥」與本句語境不同。"
+        "struggle-mcq-08": "本句的「struggling」指「正明顯面對困難、難以維持正常表現的」。",
+        "struggle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-08"
     },
@@ -908,11 +818,9 @@ export default {
       "masked": "He faced an internal ____ over whether to speak out.",
       "options": [
         "struggle-mcq-09",
-        "struggle-mcq-08",
         "struggle-mcq-10",
-        "struggle-mcq-07",
-        "struggle-mcq-11",
-        "struggle-mcq-06"
+        "struggle-mcq-02",
+        "struggle-mcq-08"
       ],
       "explanation": "本句的「struggle」指「兩種相反的情感、價值或選擇在心中互相衝突」。",
       "sentenceIndex": 19,
@@ -921,12 +829,10 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-09": "本句指「兩種相反的情感、價值或選擇在心中互相衝突」。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-09": "本句的「struggle」指「兩種相反的情感、價值或選擇在心中互相衝突」。",
+        "struggle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-09"
     },
@@ -938,11 +844,7 @@ export default {
       "masked": "Her ____ between ambition and fear lasted for months.",
       "options": [
         "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-10",
-        "struggle-mcq-07",
-        "struggle-mcq-11",
-        "struggle-mcq-06"
+        "struggle-pdf-002"
       ],
       "explanation": "本句的「struggle」指「兩種相反的情感、價值或選擇在心中互相衝突」。",
       "sentenceIndex": 20,
@@ -951,12 +853,8 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-09": "本句指「兩種相反的情感、價值或選擇在心中互相衝突」。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-mcq-09": "本句的「struggle」指「兩種相反的情感、價值或選擇在心中互相衝突」。",
+        "struggle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-09"
     },
@@ -968,11 +866,9 @@ export default {
       "masked": "She ____ with herself before replying.",
       "options": [
         "struggle-pdf-001",
-        "struggle-mcq-08",
-        "struggle-mcq-10",
-        "struggle-mcq-07",
-        "struggle-mcq-11",
-        "struggle-mcq-06"
+        "struggle-mcq-04",
+        "struggle-mcq-03",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggled」指「因兩種相反想法／欲望而難以下決定」。",
       "sentenceIndex": 21,
@@ -981,12 +877,10 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-pdf-001": "本句指「因兩種相反想法／欲望而難以下決定」。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-pdf-001": "本句的「struggled」指「因兩種相反想法／欲望而難以下決定」。",
+        "struggle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-pdf-001"
     },
@@ -998,11 +892,8 @@ export default {
       "masked": "He was clearly ____ with himself.",
       "options": [
         "struggle-pdf-001",
-        "struggle-mcq-08",
-        "struggle-mcq-10",
-        "struggle-mcq-07",
-        "struggle-mcq-11",
-        "struggle-mcq-06"
+        "struggle-mcq-06",
+        "struggle-mcq-12"
       ],
       "explanation": "本句的「struggling」指「因兩種相反想法／欲望而難以下決定」。",
       "sentenceIndex": 22,
@@ -1011,12 +902,9 @@ export default {
         "struggling"
       ],
       "optionReasons": {
-        "struggle-pdf-001": "本句指「因兩種相反想法／欲望而難以下決定」。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-06": "「用身體力量與人、束縛或阻力對抗」與本句語境不同。"
+        "struggle-pdf-001": "本句的「struggling」指「因兩種相反想法／欲望而難以下決定」。",
+        "struggle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-pdf-001"
     },
@@ -1029,10 +917,8 @@ export default {
       "options": [
         "struggle-mcq-10",
         "struggle-mcq-09",
-        "struggle-mcq-11",
-        "struggle-mcq-08",
-        "struggle-mcq-12",
-        "struggle-mcq-07"
+        "struggle-mcq-03",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle for power」指「為權力、資源、地位或優勢而長期對抗」。",
       "sentenceIndex": 23,
@@ -1041,12 +927,10 @@ export default {
         "struggle for power"
       ],
       "optionReasons": {
-        "struggle-mcq-10": "本句指「為權力、資源、地位或優勢而長期對抗」。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-mcq-10": "本句的「struggle for power」指「為權力、資源、地位或優勢而長期對抗」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-10"
     },
@@ -1058,11 +942,9 @@ export default {
       "masked": "There was a ____ between the two departments.",
       "options": [
         "struggle-mcq-10",
-        "struggle-mcq-09",
-        "struggle-mcq-11",
         "struggle-mcq-08",
-        "struggle-mcq-12",
-        "struggle-mcq-07"
+        "struggle-mcq-09",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle」指「為權力、資源、地位或優勢而長期對抗」。",
       "sentenceIndex": 24,
@@ -1071,12 +953,10 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-10": "本句指「為權力、資源、地位或優勢而長期對抗」。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-mcq-10": "本句的「struggle」指「為權力、資源、地位或優勢而長期對抗」。",
+        "struggle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-10"
     },
@@ -1088,11 +968,9 @@ export default {
       "masked": "The match was a real ____.",
       "options": [
         "struggle-mcq-11",
-        "struggle-mcq-10",
-        "struggle-mcq-12",
         "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-07"
+        "struggle-mcq-05",
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle」指「在困難／實力接近情況下進行的艱苦競爭」。",
       "sentenceIndex": 29,
@@ -1101,12 +979,10 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-11": "本句指「在困難／實力接近情況下進行的艱苦競爭」。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-mcq-11": "本句的「struggle」指「在困難／實力接近情況下進行的艱苦競爭」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-11"
     },
@@ -1118,11 +994,9 @@ export default {
       "masked": "They faced a tough ____ for first place.",
       "options": [
         "struggle-mcq-11",
-        "struggle-mcq-10",
-        "struggle-mcq-12",
+        "struggle-mcq-05",
         "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-07"
+        "struggle-mcq-02"
       ],
       "explanation": "本句的「struggle」指「在困難／實力接近情況下進行的艱苦競爭」。",
       "sentenceIndex": 30,
@@ -1131,12 +1005,10 @@ export default {
         "struggle"
       ],
       "optionReasons": {
-        "struggle-mcq-11": "本句指「在困難／實力接近情況下進行的艱苦競爭」。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-mcq-11": "本句的「struggle」指「在困難／實力接近情況下進行的艱苦競爭」。",
+        "struggle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-11"
     },
@@ -1148,11 +1020,7 @@ export default {
       "masked": "They ____ the deep snow.",
       "options": [
         "struggle-pdf-002",
-        "struggle-mcq-10",
-        "struggle-mcq-12",
-        "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-07"
+        "struggle-mcq-09"
       ],
       "explanation": "本句的「struggled through」指「因阻力、疲勞或困難而費力移動」。",
       "sentenceIndex": 31,
@@ -1161,12 +1029,8 @@ export default {
         "struggled through"
       ],
       "optionReasons": {
-        "struggle-pdf-002": "本句指「因阻力、疲勞或困難而費力移動」。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-pdf-002": "本句的「struggled through」指「因阻力、疲勞或困難而費力移動」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-pdf-002"
     },
@@ -1178,11 +1042,7 @@ export default {
       "masked": "He ____ up the stairs with the heavy box.",
       "options": [
         "struggle-pdf-002",
-        "struggle-mcq-10",
-        "struggle-mcq-12",
-        "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-07"
+        "struggle-mcq-09"
       ],
       "explanation": "本句的「struggled」指「因阻力、疲勞或困難而費力移動」。",
       "sentenceIndex": 32,
@@ -1191,12 +1051,8 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-pdf-002": "本句指「因阻力、疲勞或困難而費力移動」。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-12": "「在很困難的情況下勉強完成／捱過」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-pdf-002": "本句的「struggled」指「因阻力、疲勞或困難而費力移動」。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-pdf-002"
     },
@@ -1208,11 +1064,8 @@ export default {
       "masked": "I ____ the long article.",
       "options": [
         "struggle-mcq-12",
-        "struggle-mcq-11",
         "struggle-mcq-10",
-        "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-07"
+        "struggle-mcq-09"
       ],
       "explanation": "本句的「struggled through」指「在很困難的情況下勉強完成／捱過」。",
       "sentenceIndex": 33,
@@ -1221,12 +1074,9 @@ export default {
         "struggled through"
       ],
       "optionReasons": {
-        "struggle-mcq-12": "本句指「在很困難的情況下勉強完成／捱過」。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-mcq-12": "本句的「struggled through」指「在很困難的情況下勉強完成／捱過」。",
+        "struggle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-12"
     },
@@ -1238,11 +1088,8 @@ export default {
       "masked": "She ____ through the final week of exams.",
       "options": [
         "struggle-mcq-12",
-        "struggle-mcq-11",
-        "struggle-mcq-10",
-        "struggle-mcq-09",
-        "struggle-mcq-08",
-        "struggle-mcq-07"
+        "struggle-mcq-04",
+        "struggle-mcq-09"
       ],
       "explanation": "本句的「struggled」指「在很困難的情況下勉強完成／捱過」。",
       "sentenceIndex": 34,
@@ -1251,12 +1098,9 @@ export default {
         "struggled"
       ],
       "optionReasons": {
-        "struggle-mcq-12": "本句指「在很困難的情況下勉強完成／捱過」。",
-        "struggle-mcq-11": "「在困難／實力接近情況下進行的艱苦競爭」與本句語境不同。",
-        "struggle-mcq-10": "「為權力、資源、地位或優勢而長期對抗」與本句語境不同。",
-        "struggle-mcq-09": "「兩種相反的情感、價值或選擇在心中互相衝突」與本句語境不同。",
-        "struggle-mcq-08": "「正明顯面對困難、難以維持正常表現的」與本句語境不同。",
-        "struggle-mcq-07": "「在困難環境下努力維持生存／運作」與本句語境不同。"
+        "struggle-mcq-12": "本句的「struggled」指「在很困難的情況下勉強完成／捱過」。",
+        "struggle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "struggle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "struggle-mcq-12"
     }
@@ -1268,5 +1112,7 @@ export default {
     "sha256": "7c7648c9297d9ab114923e271c882cb2756b65d27a46727cd03d20437fe5f979",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

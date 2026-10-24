@@ -394,11 +394,7 @@ export default {
       "masked": "He told an ____.",
       "options": [
         "incredible-mcq-01",
-        "incredible-mcq-02",
-        "incredible-mcq-03",
-        "incredible-mcq-04",
-        "incredible-mcq-05",
-        "incredible-mcq-06"
+        "incredible-mcq-04"
       ],
       "explanation": "本句的「incredible story」指「事情極不尋常、極不可能或極令人驚訝，因此難以相信」。",
       "sentenceIndex": 0,
@@ -407,12 +403,8 @@ export default {
         "incredible story"
       ],
       "optionReasons": {
-        "incredible-mcq-01": "本句指「事情極不尋常、極不可能或極令人驚訝，因此難以相信」。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-01": "本句的「incredible story」指「事情極不尋常、極不可能或極令人驚訝，因此難以相信」。",
+        "incredible-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-01"
     },
@@ -424,11 +416,7 @@ export default {
       "masked": "The claim sounds ____.",
       "options": [
         "incredible-mcq-01",
-        "incredible-mcq-02",
-        "incredible-mcq-03",
-        "incredible-mcq-04",
-        "incredible-mcq-05",
-        "incredible-mcq-06"
+        "incredible-mcq-04"
       ],
       "explanation": "本句的「incredible」指「事情極不尋常、極不可能或極令人驚訝，因此難以相信」。",
       "sentenceIndex": 1,
@@ -437,12 +425,8 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-01": "本句指「事情極不尋常、極不可能或極令人驚訝，因此難以相信」。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-01": "本句的「incredible」指「事情極不尋常、極不可能或極令人驚訝，因此難以相信」。",
+        "incredible-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-01"
     },
@@ -454,11 +438,9 @@ export default {
       "masked": "That is an ____ without evidence.",
       "options": [
         "incredible-mcq-02",
-        "incredible-mcq-01",
-        "incredible-mcq-03",
-        "incredible-mcq-04",
-        "incredible-mcq-05",
-        "incredible-mcq-06"
+        "incredible-mcq-16",
+        "incredible-mcq-09",
+        "incredible-mcq-11"
       ],
       "explanation": "本句的「incredible claim」指「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」。",
       "sentenceIndex": 2,
@@ -467,12 +449,10 @@ export default {
         "incredible claim"
       ],
       "optionReasons": {
-        "incredible-mcq-02": "本句指「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」。",
-        "incredible-mcq-01": "「事情極不尋常、極不可能或極令人驚訝，因此難以相信」是「incredible = very difficult to believe（難以置信的）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-02": "本句的「incredible claim」指「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-02"
     },
@@ -484,11 +464,8 @@ export default {
       "masked": "The report sounded almost ____.",
       "options": [
         "incredible-mcq-02",
-        "incredible-mcq-01",
-        "incredible-mcq-03",
-        "incredible-mcq-04",
-        "incredible-mcq-05",
-        "incredible-mcq-06"
+        "incredible-mcq-14",
+        "incredible-mcq-08"
       ],
       "explanation": "本句的「incredible」指「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」。",
       "sentenceIndex": 3,
@@ -497,12 +474,9 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-02": "本句指「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」。",
-        "incredible-mcq-01": "「事情極不尋常、極不可能或極令人驚訝，因此難以相信」是「incredible = very difficult to believe（難以置信的）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-02": "本句的「incredible」指「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」。",
+        "incredible-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-02"
     },
@@ -514,11 +488,9 @@ export default {
       "masked": "She gave an ____.",
       "options": [
         "incredible-mcq-03",
-        "incredible-mcq-02",
-        "incredible-mcq-04",
-        "incredible-mcq-01",
-        "incredible-mcq-05",
-        "incredible-mcq-06"
+        "incredible-mcq-14",
+        "incredible-mcq-11",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible performance」指「好、漂亮、出色或 impressive 到令人驚嘆的程度」。",
       "sentenceIndex": 4,
@@ -527,12 +499,10 @@ export default {
         "incredible performance"
       ],
       "optionReasons": {
-        "incredible-mcq-03": "本句指「好、漂亮、出色或 impressive 到令人驚嘆的程度」。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-01": "「事情極不尋常、極不可能或極令人驚訝，因此難以相信」是「incredible = very difficult to believe（難以置信的）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-03": "本句的「incredible performance」指「好、漂亮、出色或 impressive 到令人驚嘆的程度」。",
+        "incredible-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-03"
     },
@@ -544,11 +514,9 @@ export default {
       "masked": "The view was ____.",
       "options": [
         "incredible-mcq-03",
+        "incredible-mcq-14",
         "incredible-mcq-02",
-        "incredible-mcq-04",
-        "incredible-mcq-01",
-        "incredible-mcq-05",
-        "incredible-mcq-06"
+        "incredible-mcq-11"
       ],
       "explanation": "本句的「incredible」指「好、漂亮、出色或 impressive 到令人驚嘆的程度」。",
       "sentenceIndex": 5,
@@ -557,12 +525,10 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-03": "本句指「好、漂亮、出色或 impressive 到令人驚嘆的程度」。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-01": "「事情極不尋常、極不可能或極令人驚訝，因此難以相信」是「incredible = very difficult to believe（難以置信的）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-03": "本句的「incredible」指「好、漂亮、出色或 impressive 到令人驚嘆的程度」。",
+        "incredible-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-03"
     },
@@ -574,11 +540,8 @@ export default {
       "masked": "Winning the competition was an ____.",
       "options": [
         "incredible-mcq-04",
-        "incredible-mcq-03",
         "incredible-mcq-05",
-        "incredible-mcq-02",
-        "incredible-mcq-06",
-        "incredible-mcq-01"
+        "incredible-mcq-16"
       ],
       "explanation": "本句的「incredible achievement」指「成就／結果的程度遠超一般預期」。",
       "sentenceIndex": 6,
@@ -587,12 +550,9 @@ export default {
         "incredible achievement"
       ],
       "optionReasons": {
-        "incredible-mcq-04": "本句指「成就／結果的程度遠超一般預期」。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-01": "「事情極不尋常、極不可能或極令人驚訝，因此難以相信」是「incredible = very difficult to believe（難以置信的）」的用法，與本句語境不同。"
+        "incredible-mcq-04": "本句的「incredible achievement」指「成就／結果的程度遠超一般預期」。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-04"
     },
@@ -604,11 +564,8 @@ export default {
       "masked": "The team achieved ____ results.",
       "options": [
         "incredible-mcq-04",
-        "incredible-mcq-03",
-        "incredible-mcq-05",
-        "incredible-mcq-02",
-        "incredible-mcq-06",
-        "incredible-mcq-01"
+        "incredible-mcq-15",
+        "incredible-mcq-11"
       ],
       "explanation": "本句的「incredible」指「成就／結果的程度遠超一般預期」。",
       "sentenceIndex": 7,
@@ -617,12 +574,9 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-04": "本句指「成就／結果的程度遠超一般預期」。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-01": "「事情極不尋常、極不可能或極令人驚訝，因此難以相信」是「incredible = very difficult to believe（難以置信的）」的用法，與本句語境不同。"
+        "incredible-mcq-04": "本句的「incredible」指「成就／結果的程度遠超一般預期」。",
+        "incredible-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-04"
     },
@@ -634,10 +588,8 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "incredible-mcq-05",
-        "incredible-mcq-04",
-        "incredible-mcq-06",
-        "incredible-mcq-03",
-        "incredible-mcq-07",
+        "incredible-mcq-12",
+        "incredible-mcq-09",
         "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible teacher」指「人或能力表現極其出色、令人印象深刻」。",
@@ -647,12 +599,10 @@ export default {
         "incredible teacher"
       ],
       "optionReasons": {
-        "incredible-mcq-05": "本句指「人或能力表現極其出色、令人印象深刻」。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。"
+        "incredible-mcq-05": "本句的「incredible teacher」指「人或能力表現極其出色、令人印象深刻」。",
+        "incredible-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-05"
     },
@@ -664,10 +614,8 @@ export default {
       "masked": "He has ____ talent.",
       "options": [
         "incredible-mcq-05",
-        "incredible-mcq-04",
+        "incredible-mcq-17",
         "incredible-mcq-06",
-        "incredible-mcq-03",
-        "incredible-mcq-07",
         "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible」指「人或能力表現極其出色、令人印象深刻」。",
@@ -677,12 +625,10 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-05": "本句指「人或能力表現極其出色、令人印象深刻」。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-02": "「某項陳述／故事超出正常預期，因此讓人懷疑其真實性」是「incredible claim/story/report（難以相信的說法）」的用法，與本句語境不同。"
+        "incredible-mcq-05": "本句的「incredible」指「人或能力表現極其出色、令人印象深刻」。",
+        "incredible-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-05"
     },
@@ -695,10 +641,8 @@ export default {
       "options": [
         "incredible-mcq-06",
         "incredible-mcq-05",
-        "incredible-mcq-07",
-        "incredible-mcq-04",
-        "incredible-mcq-08",
-        "incredible-mcq-03"
+        "incredible-mcq-17",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible amount of money」指「數量、程度或規模大得異乎尋常」。",
       "sentenceIndex": 10,
@@ -707,12 +651,10 @@ export default {
         "incredible amount of money"
       ],
       "optionReasons": {
-        "incredible-mcq-06": "本句指「數量、程度或規模大得異乎尋常」。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。"
+        "incredible-mcq-06": "本句的「incredible amount of money」指「數量、程度或規模大得異乎尋常」。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-06"
     },
@@ -724,11 +666,9 @@ export default {
       "masked": "The project required an ____ amount of work.",
       "options": [
         "incredible-mcq-06",
+        "incredible-mcq-16",
         "incredible-mcq-05",
-        "incredible-mcq-07",
-        "incredible-mcq-04",
-        "incredible-mcq-08",
-        "incredible-mcq-03"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible」指「數量、程度或規模大得異乎尋常」。",
       "sentenceIndex": 11,
@@ -737,12 +677,10 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-06": "本句指「數量、程度或規模大得異乎尋常」。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-03": "「好、漂亮、出色或 impressive 到令人驚嘆的程度」是「incredible = amazing / extremely impressive（驚人的）」的用法，與本句語境不同。"
+        "incredible-mcq-06": "本句的「incredible」指「數量、程度或規模大得異乎尋常」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-06"
     },
@@ -754,11 +692,9 @@ export default {
       "masked": "She has an ____.",
       "options": [
         "incredible-mcq-07",
-        "incredible-mcq-06",
-        "incredible-mcq-08",
+        "incredible-mcq-14",
         "incredible-mcq-05",
-        "incredible-mcq-09",
-        "incredible-mcq-04"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibly strong spirit」指「用來加強形容詞／副詞，表示程度非常高」。",
       "sentenceIndex": 12,
@@ -767,12 +703,10 @@ export default {
         "incredibly strong spirit"
       ],
       "optionReasons": {
-        "incredible-mcq-07": "本句指「用來加強形容詞／副詞，表示程度非常高」。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。"
+        "incredible-mcq-07": "本句的「incredibly strong spirit」指「用來加強形容詞／副詞，表示程度非常高」。",
+        "incredible-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-07"
     },
@@ -784,11 +718,9 @@ export default {
       "masked": "The test was ____.",
       "options": [
         "incredible-mcq-07",
-        "incredible-mcq-06",
-        "incredible-mcq-08",
+        "incredible-mcq-16",
         "incredible-mcq-05",
-        "incredible-mcq-09",
-        "incredible-mcq-04"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibly difficult」指「用來加強形容詞／副詞，表示程度非常高」。",
       "sentenceIndex": 13,
@@ -797,12 +729,10 @@ export default {
         "incredibly difficult"
       ],
       "optionReasons": {
-        "incredible-mcq-07": "本句指「用來加強形容詞／副詞，表示程度非常高」。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。"
+        "incredible-mcq-07": "本句的「incredibly difficult」指「用來加強形容詞／副詞，表示程度非常高」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-07"
     },
@@ -814,11 +744,9 @@ export default {
       "masked": "She is ____ patient.",
       "options": [
         "incredible-mcq-07",
-        "incredible-mcq-06",
-        "incredible-mcq-08",
+        "incredible-mcq-16",
         "incredible-mcq-05",
-        "incredible-mcq-09",
-        "incredible-mcq-04"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibly」指「用來加強形容詞／副詞，表示程度非常高」。",
       "sentenceIndex": 14,
@@ -827,12 +755,10 @@ export default {
         "incredibly"
       ],
       "optionReasons": {
-        "incredible-mcq-07": "本句指「用來加強形容詞／副詞，表示程度非常高」。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-04": "「成就／結果的程度遠超一般預期」是「incredible achievement/result（驚人成就／結果）」的用法，與本句語境不同。"
+        "incredible-mcq-07": "本句的「incredibly」指「用來加強形容詞／副詞，表示程度非常高」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-07"
     },
@@ -844,11 +770,7 @@ export default {
       "masked": "The food was ____.",
       "options": [
         "incredible-mcq-08",
-        "incredible-mcq-07",
-        "incredible-mcq-09",
-        "incredible-mcq-06",
-        "incredible-mcq-10",
-        "incredible-mcq-05"
+        "incredible-mcq-15"
       ],
       "explanation": "本句的「incredibly good」指「強烈程度副詞，可加強正面評價」。",
       "sentenceIndex": 15,
@@ -857,12 +779,8 @@ export default {
         "incredibly good"
       ],
       "optionReasons": {
-        "incredible-mcq-08": "本句指「強烈程度副詞，可加強正面評價」。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。"
+        "incredible-mcq-08": "本句的「incredibly good」指「強烈程度副詞，可加強正面評價」。",
+        "incredible-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-08"
     },
@@ -874,11 +792,8 @@ export default {
       "masked": "She was ____ kind.",
       "options": [
         "incredible-mcq-08",
-        "incredible-mcq-07",
-        "incredible-mcq-09",
-        "incredible-mcq-06",
-        "incredible-mcq-10",
-        "incredible-mcq-05"
+        "incredible-mcq-16",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibly」指「強烈程度副詞，可加強正面評價」。",
       "sentenceIndex": 16,
@@ -887,12 +802,9 @@ export default {
         "incredibly"
       ],
       "optionReasons": {
-        "incredible-mcq-08": "本句指「強烈程度副詞，可加強正面評價」。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-05": "「人或能力表現極其出色、令人印象深刻」是「incredible person/talent（非常厲害的人／才能）」的用法，與本句語境不同。"
+        "incredible-mcq-08": "本句的「incredibly」指「強烈程度副詞，可加強正面評價」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-08"
     },
@@ -904,11 +816,9 @@ export default {
       "masked": "The journey was ____.",
       "options": [
         "incredible-mcq-09",
-        "incredible-mcq-08",
-        "incredible-mcq-10",
-        "incredible-mcq-07",
+        "incredible-mcq-13",
         "incredible-mcq-11",
-        "incredible-mcq-06"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibly tiring」指「只表示程度很高，本身不一定正面」。",
       "sentenceIndex": 17,
@@ -917,12 +827,10 @@ export default {
         "incredibly tiring"
       ],
       "optionReasons": {
-        "incredible-mcq-09": "本句指「只表示程度很高，本身不一定正面」。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-09": "本句的「incredibly tiring」指「只表示程度很高，本身不一定正面」。",
+        "incredible-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-09"
     },
@@ -934,11 +842,9 @@ export default {
       "masked": "The room was ____ noisy.",
       "options": [
         "incredible-mcq-09",
-        "incredible-mcq-08",
-        "incredible-mcq-10",
-        "incredible-mcq-07",
-        "incredible-mcq-11",
-        "incredible-mcq-06"
+        "incredible-mcq-16",
+        "incredible-mcq-05",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibly」指「只表示程度很高，本身不一定正面」。",
       "sentenceIndex": 18,
@@ -947,12 +853,10 @@ export default {
         "incredibly"
       ],
       "optionReasons": {
-        "incredible-mcq-09": "本句指「只表示程度很高，本身不一定正面」。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-06": "「數量、程度或規模大得異乎尋常」是「incredible = extraordinary in scale/degree（驚人的程度）」的用法，與本句語境不同。"
+        "incredible-mcq-09": "本句的「incredibly」指「只表示程度很高，本身不一定正面」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-09"
     },
@@ -965,10 +869,7 @@ export default {
       "options": [
         "incredible-mcq-10",
         "incredible-mcq-09",
-        "incredible-mcq-11",
-        "incredible-mcq-08",
-        "incredible-mcq-12",
-        "incredible-mcq-07"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「Incredibly」指「句子副詞，表示整件事情令人非常驚訝／難以相信」。",
       "sentenceIndex": 19,
@@ -977,12 +878,9 @@ export default {
         "Incredibly"
       ],
       "optionReasons": {
-        "incredible-mcq-10": "本句指「句子副詞，表示整件事情令人非常驚訝／難以相信」。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。"
+        "incredible-mcq-10": "本句的「Incredibly」指「句子副詞，表示整件事情令人非常驚訝／難以相信」。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-10"
     },
@@ -994,11 +892,7 @@ export default {
       "masked": "____, she finished the task in ten minutes.",
       "options": [
         "incredible-mcq-10",
-        "incredible-mcq-09",
-        "incredible-mcq-11",
-        "incredible-mcq-08",
-        "incredible-mcq-12",
-        "incredible-mcq-07"
+        "incredible-mcq-04"
       ],
       "explanation": "本句的「Incredibly」指「句子副詞，表示整件事情令人非常驚訝／難以相信」。",
       "sentenceIndex": 20,
@@ -1007,12 +901,8 @@ export default {
         "Incredibly"
       ],
       "optionReasons": {
-        "incredible-mcq-10": "本句指「句子副詞，表示整件事情令人非常驚訝／難以相信」。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-07": "「用來加強形容詞／副詞，表示程度非常高」是「incredibly = extremely（極其；非常）」的用法，與本句語境不同。"
+        "incredible-mcq-10": "本句的「Incredibly」指「句子副詞，表示整件事情令人非常驚訝／難以相信」。",
+        "incredible-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-10"
     },
@@ -1024,11 +914,8 @@ export default {
       "masked": "The final performance was ____.",
       "options": [
         "incredible-mcq-11",
-        "incredible-mcq-10",
-        "incredible-mcq-12",
-        "incredible-mcq-09",
-        "incredible-mcq-13",
-        "incredible-mcq-08"
+        "incredible-mcq-15",
+        "incredible-mcq-09"
       ],
       "explanation": "本句的「absolutely incredible」指「對驚訝／讚賞作非常強烈的強調」。",
       "sentenceIndex": 21,
@@ -1037,12 +924,9 @@ export default {
         "absolutely incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-11": "本句指「對驚訝／讚賞作非常強烈的強調」。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。"
+        "incredible-mcq-11": "本句的「absolutely incredible」指「對驚訝／讚賞作非常強烈的強調」。",
+        "incredible-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-11"
     },
@@ -1054,11 +938,9 @@ export default {
       "masked": "What she achieved was absolutely ____.",
       "options": [
         "incredible-mcq-11",
-        "incredible-mcq-10",
-        "incredible-mcq-12",
+        "incredible-mcq-16",
         "incredible-mcq-09",
-        "incredible-mcq-13",
-        "incredible-mcq-08"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible」指「對驚訝／讚賞作非常強烈的強調」。",
       "sentenceIndex": 22,
@@ -1067,12 +949,10 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-11": "本句指「對驚訝／讚賞作非常強烈的強調」。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-08": "「強烈程度副詞，可加強正面評價」是「incredibly + positive adjective（非常……）」的用法，與本句語境不同。"
+        "incredible-mcq-11": "本句的「incredible」指「對驚訝／讚賞作非常強烈的強調」。",
+        "incredible-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-11"
     },
@@ -1084,11 +964,8 @@ export default {
       "masked": "The speed of the change was ____.",
       "options": [
         "incredible-mcq-12",
-        "incredible-mcq-11",
-        "incredible-mcq-13",
-        "incredible-mcq-10",
-        "incredible-mcq-14",
-        "incredible-mcq-09"
+        "incredible-mcq-08",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「almost incredible」指「非常驚人，以致接近難以相信」。",
       "sentenceIndex": 23,
@@ -1097,12 +974,9 @@ export default {
         "almost incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-12": "本句指「非常驚人，以致接近難以相信」。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。"
+        "incredible-mcq-12": "本句的「almost incredible」指「非常驚人，以致接近難以相信」。",
+        "incredible-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-12"
     },
@@ -1114,11 +988,9 @@ export default {
       "masked": "His recovery was almost ____.",
       "options": [
         "incredible-mcq-12",
-        "incredible-mcq-11",
-        "incredible-mcq-13",
-        "incredible-mcq-10",
-        "incredible-mcq-14",
-        "incredible-mcq-09"
+        "incredible-mcq-05",
+        "incredible-mcq-09",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredible」指「非常驚人，以致接近難以相信」。",
       "sentenceIndex": 24,
@@ -1127,12 +999,10 @@ export default {
         "incredible"
       ],
       "optionReasons": {
-        "incredible-mcq-12": "本句指「非常驚人，以致接近難以相信」。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-09": "「只表示程度很高，本身不一定正面」是「incredibly + negative adjective（非常……）」的用法，與本句語境不同。"
+        "incredible-mcq-12": "本句的「incredible」指「非常驚人，以致接近難以相信」。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-12"
     },
@@ -1144,11 +1014,9 @@ export default {
       "masked": "The ____ of the claim made people suspicious.",
       "options": [
         "incredible-mcq-13",
-        "incredible-mcq-12",
-        "incredible-mcq-14",
         "incredible-mcq-11",
-        "incredible-mcq-15",
-        "incredible-mcq-10"
+        "incredible-mcq-06",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibility」指「某事令人難以相信／缺乏可信性的性質」。",
       "sentenceIndex": 25,
@@ -1157,12 +1025,10 @@ export default {
         "incredibility"
       ],
       "optionReasons": {
-        "incredible-mcq-13": "本句指「某事令人難以相信／缺乏可信性的性質」。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。"
+        "incredible-mcq-13": "本句的「incredibility」指「某事令人難以相信／缺乏可信性的性質」。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-13"
     },
@@ -1174,11 +1040,9 @@ export default {
       "masked": "He pointed out the ____ of the story.",
       "options": [
         "incredible-mcq-13",
-        "incredible-mcq-12",
-        "incredible-mcq-14",
+        "incredible-mcq-06",
         "incredible-mcq-11",
-        "incredible-mcq-15",
-        "incredible-mcq-10"
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredibility」指「某事令人難以相信／缺乏可信性的性質」。",
       "sentenceIndex": 26,
@@ -1187,12 +1051,10 @@ export default {
         "incredibility"
       ],
       "optionReasons": {
-        "incredible-mcq-13": "本句指「某事令人難以相信／缺乏可信性的性質」。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-10": "「句子副詞，表示整件事情令人非常驚訝／難以相信」是「incredibly = in a surprising way（令人驚訝地）」的用法，與本句語境不同。"
+        "incredible-mcq-13": "本句的「incredibility」指「某事令人難以相信／缺乏可信性的性質」。",
+        "incredible-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-13"
     },
@@ -1204,10 +1066,8 @@ export default {
       "masked": "She gave me an ____.",
       "options": [
         "incredible-mcq-14",
-        "incredible-mcq-13",
-        "incredible-mcq-15",
-        "incredible-mcq-12",
-        "incredible-mcq-16",
+        "incredible-mcq-02",
+        "incredible-mcq-03",
         "incredible-mcq-11"
       ],
       "explanation": "本句的「incredulous look」指「對所聽／所見的事情表示難以相信」。",
@@ -1217,12 +1077,10 @@ export default {
         "incredulous look"
       ],
       "optionReasons": {
-        "incredible-mcq-14": "本句指「對所聽／所見的事情表示難以相信」。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-16": "「以顯示難以相信的方式說話／看人」是「incredulously（難以置信地）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。"
+        "incredible-mcq-14": "本句的「incredulous look」指「對所聽／所見的事情表示難以相信」。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-14"
     },
@@ -1234,11 +1092,9 @@ export default {
       "masked": "He was ____ when he heard the news.",
       "options": [
         "incredible-mcq-14",
-        "incredible-mcq-13",
-        "incredible-mcq-15",
-        "incredible-mcq-12",
-        "incredible-mcq-16",
-        "incredible-mcq-11"
+        "incredible-mcq-11",
+        "incredible-mcq-06",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredulous」指「對所聽／所見的事情表示難以相信」。",
       "sentenceIndex": 28,
@@ -1247,12 +1103,10 @@ export default {
         "incredulous"
       ],
       "optionReasons": {
-        "incredible-mcq-14": "本句指「對所聽／所見的事情表示難以相信」。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-16": "「以顯示難以相信的方式說話／看人」是「incredulously（難以置信地）」的用法，與本句語境不同。",
-        "incredible-mcq-11": "「對驚訝／讚賞作非常強烈的強調」是「absolutely incredible（非常驚人）」的用法，與本句語境不同。"
+        "incredible-mcq-14": "本句的「incredulous」指「對所聽／所見的事情表示難以相信」。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-14"
     },
@@ -1264,11 +1118,7 @@ export default {
       "masked": "His face showed an ____.",
       "options": [
         "incredible-mcq-15",
-        "incredible-mcq-14",
-        "incredible-mcq-16",
-        "incredible-mcq-13",
-        "incredible-mcq-17",
-        "incredible-mcq-12"
+        "incredible-mcq-08"
       ],
       "explanation": "本句的「incredulous expression」指「顯示某人不相信／很難接受某件事是真的」。",
       "sentenceIndex": 29,
@@ -1277,12 +1127,8 @@ export default {
         "incredulous expression"
       ],
       "optionReasons": {
-        "incredible-mcq-15": "本句指「顯示某人不相信／很難接受某件事是真的」。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-16": "「以顯示難以相信的方式說話／看人」是「incredulously（難以置信地）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-17": "「因某件事太難相信而產生的不信／驚訝反應」是「incredulity（難以置信／懷疑）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。"
+        "incredible-mcq-15": "本句的「incredulous expression」指「顯示某人不相信／很難接受某件事是真的」。",
+        "incredible-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-15"
     },
@@ -1294,11 +1140,8 @@ export default {
       "masked": "She raised her eyebrows in an ____ look.",
       "options": [
         "incredible-mcq-15",
-        "incredible-mcq-14",
-        "incredible-mcq-16",
-        "incredible-mcq-13",
-        "incredible-mcq-17",
-        "incredible-mcq-12"
+        "incredible-mcq-06",
+        "incredible-mcq-11"
       ],
       "explanation": "本句的「incredulous」指「顯示某人不相信／很難接受某件事是真的」。",
       "sentenceIndex": 30,
@@ -1307,12 +1150,9 @@ export default {
         "incredulous"
       ],
       "optionReasons": {
-        "incredible-mcq-15": "本句指「顯示某人不相信／很難接受某件事是真的」。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-16": "「以顯示難以相信的方式說話／看人」是「incredulously（難以置信地）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-17": "「因某件事太難相信而產生的不信／驚訝反應」是「incredulity（難以置信／懷疑）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。"
+        "incredible-mcq-15": "本句的「incredulous」指「顯示某人不相信／很難接受某件事是真的」。",
+        "incredible-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-15"
     },
@@ -1324,11 +1164,9 @@ export default {
       "masked": "‘You did what?’ she asked ____.",
       "options": [
         "incredible-mcq-16",
-        "incredible-mcq-15",
-        "incredible-mcq-17",
-        "incredible-mcq-14",
-        "incredible-mcq-13",
-        "incredible-mcq-12"
+        "incredible-mcq-05",
+        "incredible-mcq-07",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredulously」指「以顯示難以相信的方式說話／看人」。",
       "sentenceIndex": 31,
@@ -1337,12 +1175,10 @@ export default {
         "incredulously"
       ],
       "optionReasons": {
-        "incredible-mcq-16": "本句指「以顯示難以相信的方式說話／看人」。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-17": "「因某件事太難相信而產生的不信／驚訝反應」是「incredulity（難以置信／懷疑）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。"
+        "incredible-mcq-16": "本句的「incredulously」指「以顯示難以相信的方式說話／看人」。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-16"
     },
@@ -1354,11 +1190,9 @@ export default {
       "masked": "He stared at me ____.",
       "options": [
         "incredible-mcq-16",
-        "incredible-mcq-15",
-        "incredible-mcq-17",
-        "incredible-mcq-14",
-        "incredible-mcq-13",
-        "incredible-mcq-12"
+        "incredible-mcq-09",
+        "incredible-mcq-05",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredulously」指「以顯示難以相信的方式說話／看人」。",
       "sentenceIndex": 32,
@@ -1367,12 +1201,10 @@ export default {
         "incredulously"
       ],
       "optionReasons": {
-        "incredible-mcq-16": "本句指「以顯示難以相信的方式說話／看人」。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-17": "「因某件事太難相信而產生的不信／驚訝反應」是「incredulity（難以置信／懷疑）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。"
+        "incredible-mcq-16": "本句的「incredulously」指「以顯示難以相信的方式說話／看人」。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-16"
     },
@@ -1384,11 +1216,9 @@ export default {
       "masked": "She stared at him in ____.",
       "options": [
         "incredible-mcq-17",
-        "incredible-mcq-16",
-        "incredible-mcq-15",
-        "incredible-mcq-14",
-        "incredible-mcq-13",
-        "incredible-mcq-12"
+        "incredible-mcq-09",
+        "incredible-mcq-05",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredulity」指「因某件事太難相信而產生的不信／驚訝反應」。",
       "sentenceIndex": 33,
@@ -1397,12 +1227,10 @@ export default {
         "incredulity"
       ],
       "optionReasons": {
-        "incredible-mcq-17": "本句指「因某件事太難相信而產生的不信／驚訝反應」。",
-        "incredible-mcq-16": "「以顯示難以相信的方式說話／看人」是「incredulously（難以置信地）」的用法，與本句語境不同。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。"
+        "incredible-mcq-17": "本句的「incredulity」指「因某件事太難相信而產生的不信／驚訝反應」。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-17"
     },
@@ -1414,11 +1242,9 @@ export default {
       "masked": "The announcement was met with ____.",
       "options": [
         "incredible-mcq-17",
-        "incredible-mcq-16",
-        "incredible-mcq-15",
-        "incredible-mcq-14",
-        "incredible-mcq-13",
-        "incredible-mcq-12"
+        "incredible-mcq-05",
+        "incredible-mcq-09",
+        "incredible-mcq-02"
       ],
       "explanation": "本句的「incredulity」指「因某件事太難相信而產生的不信／驚訝反應」。",
       "sentenceIndex": 34,
@@ -1427,12 +1253,10 @@ export default {
         "incredulity"
       ],
       "optionReasons": {
-        "incredible-mcq-17": "本句指「因某件事太難相信而產生的不信／驚訝反應」。",
-        "incredible-mcq-16": "「以顯示難以相信的方式說話／看人」是「incredulously（難以置信地）」的用法，與本句語境不同。",
-        "incredible-mcq-15": "「顯示某人不相信／很難接受某件事是真的」是「incredulous look/expression（難以置信的表情）」的用法，與本句語境不同。",
-        "incredible-mcq-14": "「對所聽／所見的事情表示難以相信」是「incredulous = unable/unwilling to believe（不相信的；懷疑的）」的用法，與本句語境不同。",
-        "incredible-mcq-13": "「某事令人難以相信／缺乏可信性的性質」是「incredibility（難以置信）」的用法，與本句語境不同。",
-        "incredible-mcq-12": "「非常驚人，以致接近難以相信」是「almost incredible（幾乎令人難以置信）」的用法，與本句語境不同。"
+        "incredible-mcq-17": "本句的「incredulity」指「因某件事太難相信而產生的不信／驚訝反應」。",
+        "incredible-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incredible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incredible-mcq-17"
     }
@@ -1444,5 +1268,7 @@ export default {
     "sha256": "54ad3734324a8e1cefbd6bd1e9e6bf895577f8338b00a1e4a00a662411d9b2f3",
     "pages": 19
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -470,11 +470,9 @@ export default {
       "masked": "The ____ moves around the Sun.",
       "options": [
         "earth-mcq-01",
-        "earth-mcq-02",
-        "earth-mcq-03",
-        "earth-mcq-04",
-        "earth-mcq-05",
-        "earth-mcq-06"
+        "earth-mcq-12",
+        "earth-mcq-17",
+        "earth-mcq-18"
       ],
       "explanation": "本句的「Earth」指「人類居住的太陽系第三顆行星；地球」。",
       "sentenceIndex": 0,
@@ -483,12 +481,10 @@ export default {
         "Earth"
       ],
       "optionReasons": {
-        "earth-mcq-01": "本句指「人類居住的太陽系第三顆行星；地球」。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-01": "本句的「Earth」指「人類居住的太陽系第三顆行星；地球」。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-01"
     },
@@ -500,11 +496,9 @@ export default {
       "masked": "Most of the ____’s surface is covered by water.",
       "options": [
         "earth-mcq-01",
-        "earth-mcq-02",
+        "earth-mcq-18",
         "earth-mcq-03",
-        "earth-mcq-04",
-        "earth-mcq-05",
-        "earth-mcq-06"
+        "earth-mcq-17"
       ],
       "explanation": "本句的「Earth」指「人類居住的太陽系第三顆行星；地球」。",
       "sentenceIndex": 1,
@@ -513,12 +507,10 @@ export default {
         "Earth"
       ],
       "optionReasons": {
-        "earth-mcq-01": "本句指「人類居住的太陽系第三顆行星；地球」。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-01": "本句的「Earth」指「人類居住的太陽系第三顆行星；地球」。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-01"
     },
@@ -530,11 +522,9 @@ export default {
       "masked": "The leaves fell to the ____.",
       "options": [
         "earth-mcq-02",
-        "earth-mcq-01",
-        "earth-mcq-03",
+        "earth-mcq-08",
         "earth-mcq-04",
-        "earth-mcq-05",
-        "earth-mcq-06"
+        "earth-mcq-18"
       ],
       "explanation": "本句的「earth」指「與天空、水面等相對的天然地面／大地」。",
       "sentenceIndex": 2,
@@ -543,12 +533,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-02": "本句指「與天空、水面等相對的天然地面／大地」。",
-        "earth-mcq-01": "「人類居住的太陽系第三顆行星；地球」是「Earth — planet」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-02": "本句的「earth」指「與天空、水面等相對的天然地面／大地」。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-02"
     },
@@ -561,10 +549,8 @@ export default {
       "options": [
         "earth-mcq-02",
         "earth-mcq-01",
-        "earth-mcq-03",
-        "earth-mcq-04",
-        "earth-mcq-05",
-        "earth-mcq-06"
+        "earth-mcq-06",
+        "earth-mcq-09"
       ],
       "explanation": "本句的「earth」指「與天空、水面等相對的天然地面／大地」。",
       "sentenceIndex": 3,
@@ -573,12 +559,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-02": "本句指「與天空、水面等相對的天然地面／大地」。",
-        "earth-mcq-01": "「人類居住的太陽系第三顆行星；地球」是「Earth — planet」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-02": "本句的「earth」指「與天空、水面等相對的天然地面／大地」。",
+        "earth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-02"
     },
@@ -590,11 +574,9 @@ export default {
       "masked": "The seeds were covered with a thin layer of ____.",
       "options": [
         "earth-mcq-03",
-        "earth-mcq-02",
-        "earth-mcq-04",
-        "earth-mcq-01",
-        "earth-mcq-05",
-        "earth-mcq-06"
+        "earth-mcq-16",
+        "earth-mcq-08",
+        "earth-mcq-05"
       ],
       "explanation": "本句的「earth」指「植物生長其中的天然泥土／土壤」。",
       "sentenceIndex": 4,
@@ -603,12 +585,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-03": "本句指「植物生長其中的天然泥土／土壤」。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-01": "「人類居住的太陽系第三顆行星；地球」是「Earth — planet」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-03": "本句的「earth」指「植物生長其中的天然泥土／土壤」。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-03"
     },
@@ -620,11 +600,9 @@ export default {
       "masked": "The ____ was dark and rich.",
       "options": [
         "earth-mcq-03",
-        "earth-mcq-02",
-        "earth-mcq-04",
-        "earth-mcq-01",
-        "earth-mcq-05",
-        "earth-mcq-06"
+        "earth-mcq-17",
+        "earth-mcq-16",
+        "earth-mcq-05"
       ],
       "explanation": "本句的「earth」指「植物生長其中的天然泥土／土壤」。",
       "sentenceIndex": 5,
@@ -633,12 +611,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-03": "本句指「植物生長其中的天然泥土／土壤」。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-01": "「人類居住的太陽系第三顆行星；地球」是「Earth — planet」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-03": "本句的「earth」指「植物生長其中的天然泥土／土壤」。",
+        "earth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-03"
     },
@@ -650,11 +626,9 @@ export default {
       "masked": "There is no place on ____ quite like this.",
       "options": [
         "earth-mcq-04",
-        "earth-mcq-03",
-        "earth-mcq-05",
         "earth-mcq-02",
-        "earth-mcq-06",
-        "earth-mcq-01"
+        "earth-pdf-001",
+        "earth-mcq-18"
       ],
       "explanation": "本句的「earth」指「人類生活的世界／世間」。",
       "sentenceIndex": 6,
@@ -663,12 +637,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-04": "本句指「人類生活的世界／世間」。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-01": "「人類居住的太陽系第三顆行星；地球」是「Earth — planet」的用法，與本句語境不同。"
+        "earth-mcq-04": "本句的「earth」指「人類生活的世界／世間」。",
+        "earth-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-04"
     },
@@ -680,11 +652,9 @@ export default {
       "masked": "She believes every person on ____ deserves respect.",
       "options": [
         "earth-mcq-04",
-        "earth-mcq-03",
-        "earth-mcq-05",
-        "earth-mcq-02",
-        "earth-mcq-06",
-        "earth-mcq-01"
+        "earth-mcq-15",
+        "earth-mcq-12",
+        "earth-mcq-06"
       ],
       "explanation": "本句的「earth」指「人類生活的世界／世間」。",
       "sentenceIndex": 7,
@@ -693,12 +663,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-04": "本句指「人類生活的世界／世間」。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-01": "「人類居住的太陽系第三顆行星；地球」是「Earth — planet」的用法，與本句語境不同。"
+        "earth-mcq-04": "本句的「earth」指「人類生活的世界／世間」。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-04"
     },
@@ -710,11 +678,9 @@ export default {
       "masked": "What on ____ are you doing?",
       "options": [
         "earth-mcq-05",
+        "earth-mcq-18",
         "earth-mcq-04",
-        "earth-mcq-06",
-        "earth-mcq-03",
-        "earth-mcq-07",
-        "earth-mcq-02"
+        "earth-mcq-10"
       ],
       "explanation": "本句的「earth」指「用來加強疑問、驚訝或不解；到底／究竟」。",
       "sentenceIndex": 8,
@@ -723,12 +689,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-05": "本句指「用來加強疑問、驚訝或不解；到底／究竟」。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。"
+        "earth-mcq-05": "本句的「earth」指「用來加強疑問、驚訝或不解；到底／究竟」。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-05"
     },
@@ -740,11 +704,9 @@ export default {
       "masked": "Why on ____ would he say that?",
       "options": [
         "earth-mcq-05",
-        "earth-mcq-04",
-        "earth-mcq-06",
-        "earth-mcq-03",
         "earth-mcq-07",
-        "earth-mcq-02"
+        "earth-mcq-19",
+        "earth-mcq-15"
       ],
       "explanation": "本句的「earth」指「用來加強疑問、驚訝或不解；到底／究竟」。",
       "sentenceIndex": 9,
@@ -753,12 +715,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-05": "本句指「用來加強疑問、驚訝或不解；到底／究竟」。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-02": "「與天空、水面等相對的天然地面／大地」是「earth — ground」的用法，與本句語境不同。"
+        "earth-mcq-05": "本句的「earth」指「用來加強疑問、驚訝或不解；到底／究竟」。",
+        "earth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-05"
     },
@@ -770,11 +730,9 @@ export default {
       "masked": "Plants ____.",
       "options": [
         "earth-mcq-06",
-        "earth-mcq-05",
-        "earth-mcq-07",
-        "earth-mcq-04",
-        "earth-mcq-08",
-        "earth-mcq-03"
+        "earth-mcq-09",
+        "earth-mcq-14",
+        "earth-mcq-05"
       ],
       "explanation": "本句的「bring her back to earth」指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
       "sentenceIndex": 10,
@@ -783,12 +741,10 @@ export default {
         "bring her back to earth"
       ],
       "optionReasons": {
-        "earth-mcq-06": "本句指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。"
+        "earth-mcq-06": "本句的「bring her back to earth」指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
+        "earth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-06"
     },
@@ -800,11 +756,9 @@ export default {
       "masked": "The disappointing result brought him back to ____.",
       "options": [
         "earth-mcq-06",
-        "earth-mcq-05",
-        "earth-mcq-07",
-        "earth-mcq-04",
-        "earth-mcq-08",
-        "earth-mcq-03"
+        "earth-pdf-001",
+        "earth-mcq-01",
+        "earth-mcq-12"
       ],
       "explanation": "本句的「earth」指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
       "sentenceIndex": 11,
@@ -813,12 +767,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-06": "本句指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。"
+        "earth-mcq-06": "本句的「earth」指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-06"
     },
@@ -830,11 +782,9 @@ export default {
       "masked": "A quiet walk helps bring me back to ____ after a stressful day.",
       "options": [
         "earth-mcq-06",
+        "earth-mcq-12",
         "earth-mcq-05",
-        "earth-mcq-07",
-        "earth-mcq-04",
-        "earth-mcq-08",
-        "earth-mcq-03"
+        "earth-mcq-04"
       ],
       "explanation": "本句的「earth」指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
       "sentenceIndex": 12,
@@ -843,12 +793,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-06": "本句指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-03": "「植物生長其中的天然泥土／土壤」是「earth — soil」的用法，與本句語境不同。"
+        "earth-mcq-06": "本句的「earth」指「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-06"
     },
@@ -860,11 +808,9 @@ export default {
       "masked": "After the excitement of winning, she slowly came back down to ____.",
       "options": [
         "earth-mcq-07",
-        "earth-mcq-06",
-        "earth-mcq-08",
-        "earth-mcq-05",
-        "earth-mcq-09",
-        "earth-mcq-04"
+        "earth-mcq-19",
+        "earth-mcq-15",
+        "earth-mcq-05"
       ],
       "explanation": "本句的「earth」指「從過度興奮／不切實際狀態重新回到現實」。",
       "sentenceIndex": 13,
@@ -873,12 +819,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-07": "本句指「從過度興奮／不切實際狀態重新回到現實」。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。"
+        "earth-mcq-07": "本句的「earth」指「從過度興奮／不切實際狀態重新回到現實」。",
+        "earth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-07"
     },
@@ -890,11 +834,9 @@ export default {
       "masked": "He needs to come back down to ____ and think realistically.",
       "options": [
         "earth-mcq-07",
-        "earth-mcq-06",
-        "earth-mcq-08",
-        "earth-mcq-05",
-        "earth-mcq-09",
-        "earth-mcq-04"
+        "earth-mcq-03",
+        "earth-mcq-01",
+        "earth-mcq-15"
       ],
       "explanation": "本句的「earth」指「從過度興奮／不切實際狀態重新回到現實」。",
       "sentenceIndex": 14,
@@ -903,12 +845,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-07": "本句指「從過度興奮／不切實際狀態重新回到現實」。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-04": "「人類生活的世界／世間」是「earth — world」的用法，與本句語境不同。"
+        "earth-mcq-07": "本句的「earth」指「從過度興奮／不切實際狀態重新回到現實」。",
+        "earth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-07"
     },
@@ -920,11 +860,9 @@ export default {
       "masked": "She is very ____ despite her success.",
       "options": [
         "earth-mcq-08",
-        "earth-mcq-07",
-        "earth-mcq-09",
-        "earth-mcq-06",
-        "earth-mcq-10",
-        "earth-mcq-05"
+        "earth-mcq-14",
+        "earth-mcq-04",
+        "earth-mcq-18"
       ],
       "explanation": "本句的「down-to-earth」指「實際、腳踏實地、不浮誇；亦可指平易近人」。",
       "sentenceIndex": 15,
@@ -933,12 +871,10 @@ export default {
         "down-to-earth"
       ],
       "optionReasons": {
-        "earth-mcq-08": "本句指「實際、腳踏實地、不浮誇；亦可指平易近人」。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。"
+        "earth-mcq-08": "本句的「down-to-earth」指「實際、腳踏實地、不浮誇；亦可指平易近人」。",
+        "earth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-08"
     },
@@ -950,10 +886,8 @@ export default {
       "masked": "He gave us some down-to-____ advice.",
       "options": [
         "earth-mcq-08",
-        "earth-mcq-07",
-        "earth-mcq-09",
-        "earth-mcq-06",
-        "earth-mcq-10",
+        "earth-mcq-18",
+        "earth-mcq-12",
         "earth-mcq-05"
       ],
       "explanation": "本句的「earth」指「實際、腳踏實地、不浮誇；亦可指平易近人」。",
@@ -963,12 +897,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-08": "本句指「實際、腳踏實地、不浮誇；亦可指平易近人」。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-05": "「用來加強疑問、驚訝或不解；到底／究竟」是「on earth」的用法，與本句語境不同。"
+        "earth-mcq-08": "本句的「earth」指「實際、腳踏實地、不浮誇；亦可指平易近人」。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-08"
     },
@@ -980,11 +912,9 @@ export default {
       "masked": "The appliance must be connected to ____.",
       "options": [
         "earth-mcq-09",
+        "earth-mcq-16",
         "earth-mcq-08",
-        "earth-mcq-10",
-        "earth-mcq-07",
-        "earth-mcq-11",
-        "earth-mcq-06"
+        "earth-mcq-05"
       ],
       "explanation": "本句的「earth」指「把電路與接地系統相連，以提供安全電流路徑」。",
       "sentenceIndex": 17,
@@ -993,12 +923,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-09": "本句指「把電路與接地系統相連，以提供安全電流路徑」。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-09": "本句的「earth」指「把電路與接地系統相連，以提供安全電流路徑」。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-09"
     },
@@ -1010,11 +938,9 @@ export default {
       "masked": "Check that the ____ wire is connected properly.",
       "options": [
         "earth-mcq-09",
-        "earth-mcq-08",
         "earth-mcq-10",
-        "earth-mcq-07",
-        "earth-mcq-11",
-        "earth-mcq-06"
+        "earth-mcq-06",
+        "earth-mcq-16"
       ],
       "explanation": "本句的「earth」指「把電路與接地系統相連，以提供安全電流路徑」。",
       "sentenceIndex": 18,
@@ -1023,12 +949,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-09": "本句指「把電路與接地系統相連，以提供安全電流路徑」。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-09": "本句的「earth」指「把電路與接地系統相連，以提供安全電流路徑」。",
+        "earth-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-09"
     },
@@ -1040,11 +964,9 @@ export default {
       "masked": "The metal casing must be properly ____.",
       "options": [
         "earth-mcq-09",
-        "earth-mcq-08",
-        "earth-mcq-10",
-        "earth-mcq-07",
-        "earth-mcq-11",
-        "earth-mcq-06"
+        "earth-mcq-05",
+        "earth-mcq-17",
+        "earth-mcq-04"
       ],
       "explanation": "本句的「earthed」指「把電路與接地系統相連，以提供安全電流路徑」。",
       "sentenceIndex": 19,
@@ -1053,12 +975,10 @@ export default {
         "earthed"
       ],
       "optionReasons": {
-        "earth-mcq-09": "本句指「把電路與接地系統相連，以提供安全電流路徑」。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-09": "本句的「earthed」指「把電路與接地系統相連，以提供安全電流路徑」。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-09"
     },
@@ -1070,11 +990,9 @@ export default {
       "masked": "The electrician ____ the system before testing it.",
       "options": [
         "earth-mcq-09",
-        "earth-mcq-08",
-        "earth-mcq-10",
         "earth-mcq-07",
-        "earth-mcq-11",
-        "earth-mcq-06"
+        "earth-mcq-03",
+        "earth-mcq-04"
       ],
       "explanation": "本句的「earthed」指「把電路與接地系統相連，以提供安全電流路徑」。",
       "sentenceIndex": 20,
@@ -1083,12 +1001,10 @@ export default {
         "earthed"
       ],
       "optionReasons": {
-        "earth-mcq-09": "本句指「把電路與接地系統相連，以提供安全電流路徑」。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-06": "「讓某人從興奮、幻想、壓力或精神紛亂中重新變得踏實、平靜、現實」是「bring someone back to earth」的用法，與本句語境不同。"
+        "earth-mcq-09": "本句的「earthed」指「把電路與接地系統相連，以提供安全電流路徑」。",
+        "earth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-09"
     },
@@ -1100,11 +1016,9 @@ export default {
       "masked": "The fox disappeared into its ____.",
       "options": [
         "earth-mcq-10",
-        "earth-mcq-09",
-        "earth-mcq-11",
-        "earth-mcq-08",
-        "earth-mcq-12",
-        "earth-mcq-07"
+        "earth-mcq-05",
+        "earth-mcq-15",
+        "earth-mcq-09"
       ],
       "explanation": "本句的「earth」指「狐狸、獾等動物居住的地下洞穴」。",
       "sentenceIndex": 21,
@@ -1113,12 +1027,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-10": "本句指「狐狸、獾等動物居住的地下洞穴」。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。"
+        "earth-mcq-10": "本句的「earth」指「狐狸、獾等動物居住的地下洞穴」。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-10"
     },
@@ -1130,11 +1042,9 @@ export default {
       "masked": "The badgers returned to the ____ before sunrise.",
       "options": [
         "earth-mcq-10",
-        "earth-mcq-09",
-        "earth-mcq-11",
-        "earth-mcq-08",
-        "earth-mcq-12",
-        "earth-mcq-07"
+        "earth-mcq-16",
+        "earth-mcq-06",
+        "earth-mcq-15"
       ],
       "explanation": "本句的「earth」指「狐狸、獾等動物居住的地下洞穴」。",
       "sentenceIndex": 22,
@@ -1143,12 +1053,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-10": "本句指「狐狸、獾等動物居住的地下洞穴」。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-07": "「從過度興奮／不切實際狀態重新回到現實」是「come back down to earth」的用法，與本句語境不同。"
+        "earth-mcq-10": "本句的「earth」指「狐狸、獾等動物居住的地下洞穴」。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-10"
     },
@@ -1160,11 +1068,9 @@ export default {
       "masked": "They were concerned with ____ matters.",
       "options": [
         "earth-mcq-11",
-        "earth-mcq-10",
-        "earth-mcq-12",
-        "earth-mcq-09",
-        "earth-mcq-13",
-        "earth-mcq-08"
+        "earth-mcq-18",
+        "earth-mcq-14",
+        "earth-pdf-001"
       ],
       "explanation": "本句的「earthly」指「與地球上的現實生活／人世間有關的」。",
       "sentenceIndex": 23,
@@ -1173,12 +1079,10 @@ export default {
         "earthly"
       ],
       "optionReasons": {
-        "earth-mcq-11": "本句指「與地球上的現實生活／人世間有關的」。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。"
+        "earth-mcq-11": "本句的「earthly」指「與地球上的現實生活／人世間有關的」。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-11"
     },
@@ -1190,11 +1094,9 @@ export default {
       "masked": "The poem contrasts ____ life with the spiritual world.",
       "options": [
         "earth-mcq-11",
-        "earth-mcq-10",
-        "earth-mcq-12",
         "earth-mcq-09",
-        "earth-mcq-13",
-        "earth-mcq-08"
+        "earth-mcq-12",
+        "earth-pdf-001"
       ],
       "explanation": "本句的「earthly」指「與地球上的現實生活／人世間有關的」。",
       "sentenceIndex": 24,
@@ -1203,12 +1105,10 @@ export default {
         "earthly"
       ],
       "optionReasons": {
-        "earth-mcq-11": "本句指「與地球上的現實生活／人世間有關的」。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。"
+        "earth-mcq-11": "本句的「earthly」指「與地球上的現實生活／人世間有關的」。",
+        "earth-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-11"
     },
@@ -1220,11 +1120,9 @@ export default {
       "masked": "There was no ____ reason for him to leave.",
       "options": [
         "earth-pdf-001",
-        "earth-mcq-10",
-        "earth-mcq-12",
-        "earth-mcq-09",
-        "earth-mcq-13",
-        "earth-mcq-08"
+        "earth-mcq-17",
+        "earth-mcq-03",
+        "earth-mcq-15"
       ],
       "explanation": "本句的「earthly」指「用來加強「完全沒有／根本沒有」等意思」。",
       "sentenceIndex": 25,
@@ -1233,12 +1131,10 @@ export default {
         "earthly"
       ],
       "optionReasons": {
-        "earth-pdf-001": "本句指「用來加強「完全沒有／根本沒有」等意思」。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。"
+        "earth-pdf-001": "本句的「earthly」指「用來加強「完全沒有／根本沒有」等意思」。",
+        "earth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-pdf-001"
     },
@@ -1250,11 +1146,9 @@ export default {
       "masked": "I have no ____ idea where she went.",
       "options": [
         "earth-pdf-001",
-        "earth-mcq-10",
+        "earth-mcq-18",
         "earth-mcq-12",
-        "earth-mcq-09",
-        "earth-mcq-13",
-        "earth-mcq-08"
+        "earth-mcq-06"
       ],
       "explanation": "本句的「earthly」指「用來加強「完全沒有／根本沒有」等意思」。",
       "sentenceIndex": 26,
@@ -1263,12 +1157,10 @@ export default {
         "earthly"
       ],
       "optionReasons": {
-        "earth-pdf-001": "本句指「用來加強「完全沒有／根本沒有」等意思」。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-08": "「實際、腳踏實地、不浮誇；亦可指平易近人」是「down-to-earth」的用法，與本句語境不同。"
+        "earth-pdf-001": "本句的「earthly」指「用來加強「完全沒有／根本沒有」等意思」。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-pdf-001"
     },
@@ -1280,11 +1172,9 @@ export default {
       "masked": "The mushrooms had a rich, ____ smell.",
       "options": [
         "earth-mcq-12",
-        "earth-mcq-11",
-        "earth-mcq-13",
-        "earth-mcq-10",
-        "earth-mcq-14",
-        "earth-mcq-09"
+        "earth-mcq-05",
+        "earth-mcq-17",
+        "earth-mcq-16"
       ],
       "explanation": "本句的「earthy」指「味道、氣味或顏色帶有泥土般的自然特徵」。",
       "sentenceIndex": 27,
@@ -1293,12 +1183,10 @@ export default {
         "earthy"
       ],
       "optionReasons": {
-        "earth-mcq-12": "本句指「味道、氣味或顏色帶有泥土般的自然特徵」。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。"
+        "earth-mcq-12": "本句的「earthy」指「味道、氣味或顏色帶有泥土般的自然特徵」。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-12"
     },
@@ -1310,10 +1198,8 @@ export default {
       "masked": "The wine has an ____ flavour.",
       "options": [
         "earth-mcq-12",
-        "earth-mcq-11",
-        "earth-mcq-13",
-        "earth-mcq-10",
-        "earth-mcq-14",
+        "earth-mcq-01",
+        "earth-pdf-001",
         "earth-mcq-09"
       ],
       "explanation": "本句的「earthy」指「味道、氣味或顏色帶有泥土般的自然特徵」。",
@@ -1323,12 +1209,10 @@ export default {
         "earthy"
       ],
       "optionReasons": {
-        "earth-mcq-12": "本句指「味道、氣味或顏色帶有泥土般的自然特徵」。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-09": "「把電路與接地系統相連，以提供安全電流路徑」是「earth — electrical」的用法，與本句語境不同。"
+        "earth-mcq-12": "本句的「earthy」指「味道、氣味或顏色帶有泥土般的自然特徵」。",
+        "earth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-12"
     },
@@ -1340,11 +1224,9 @@ export default {
       "masked": "She has an ____ sense of humour.",
       "options": [
         "earth-mcq-13",
-        "earth-mcq-12",
-        "earth-mcq-14",
-        "earth-mcq-11",
-        "earth-mcq-15",
-        "earth-mcq-10"
+        "earth-pdf-001",
+        "earth-mcq-04",
+        "earth-mcq-14"
       ],
       "explanation": "本句的「earthy」指「自然樸實、不造作；某些語境可指粗獷直接」。",
       "sentenceIndex": 29,
@@ -1353,12 +1235,10 @@ export default {
         "earthy"
       ],
       "optionReasons": {
-        "earth-mcq-13": "本句指「自然樸實、不造作；某些語境可指粗獷直接」。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。"
+        "earth-mcq-13": "本句的「earthy」指「自然樸實、不造作；某些語境可指粗獷直接」。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-13"
     },
@@ -1370,11 +1250,9 @@ export default {
       "masked": "The restaurant has a warm, ____ style.",
       "options": [
         "earth-mcq-13",
-        "earth-mcq-12",
-        "earth-mcq-14",
-        "earth-mcq-11",
-        "earth-mcq-15",
-        "earth-mcq-10"
+        "earth-mcq-18",
+        "earth-mcq-16",
+        "earth-mcq-14"
       ],
       "explanation": "本句的「earthy」指「自然樸實、不造作；某些語境可指粗獷直接」。",
       "sentenceIndex": 30,
@@ -1383,12 +1261,10 @@ export default {
         "earthy"
       ],
       "optionReasons": {
-        "earth-mcq-13": "本句指「自然樸實、不造作；某些語境可指粗獷直接」。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-10": "「狐狸、獾等動物居住的地下洞穴」是「earth — animal den」的用法，與本句語境不同。"
+        "earth-mcq-13": "本句的「earthy」指「自然樸實、不造作；某些語境可指粗獷直接」。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-13"
     },
@@ -1400,11 +1276,9 @@ export default {
       "masked": "Water was stored in an ____ pot.",
       "options": [
         "earth-mcq-14",
-        "earth-mcq-13",
-        "earth-mcq-15",
-        "earth-mcq-12",
-        "earth-mcq-16",
-        "earth-mcq-11"
+        "earth-mcq-07",
+        "earth-mcq-05",
+        "earth-mcq-04"
       ],
       "explanation": "本句的「earthen」指「由泥土、黏土等土質材料製成的」。",
       "sentenceIndex": 31,
@@ -1413,12 +1287,10 @@ export default {
         "earthen"
       ],
       "optionReasons": {
-        "earth-mcq-14": "本句指「由泥土、黏土等土質材料製成的」。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。"
+        "earth-mcq-14": "本句的「earthen」指「由泥土、黏土等土質材料製成的」。",
+        "earth-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-14"
     },
@@ -1430,11 +1302,9 @@ export default {
       "masked": "The village had simple ____ walls.",
       "options": [
         "earth-mcq-14",
-        "earth-mcq-13",
-        "earth-mcq-15",
-        "earth-mcq-12",
-        "earth-mcq-16",
-        "earth-mcq-11"
+        "earth-mcq-04",
+        "earth-mcq-06",
+        "earth-mcq-13"
       ],
       "explanation": "本句的「earthen」指「由泥土、黏土等土質材料製成的」。",
       "sentenceIndex": 32,
@@ -1443,12 +1313,10 @@ export default {
         "earthen"
       ],
       "optionReasons": {
-        "earth-mcq-14": "本句指「由泥土、黏土等土質材料製成的」。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-11": "「與地球上的現實生活／人世間有關的」是「earthly」的用法，與本句語境不同。"
+        "earth-mcq-14": "本句的「earthen」指「由泥土、黏土等土質材料製成的」。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-14"
     },
@@ -1460,11 +1328,9 @@ export default {
       "masked": "The museum displays ancient ____.",
       "options": [
         "earth-mcq-15",
-        "earth-mcq-14",
-        "earth-mcq-16",
-        "earth-mcq-13",
-        "earth-mcq-17",
-        "earth-mcq-12"
+        "earth-mcq-04",
+        "earth-pdf-001",
+        "earth-mcq-02"
       ],
       "explanation": "本句的「earthenware」指「以陶土燒製的器皿／材料」。",
       "sentenceIndex": 33,
@@ -1473,12 +1339,10 @@ export default {
         "earthenware"
       ],
       "optionReasons": {
-        "earth-mcq-15": "本句指「以陶土燒製的器皿／材料」。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。"
+        "earth-mcq-15": "本句的「earthenware」指「以陶土燒製的器皿／材料」。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-15"
     },
@@ -1490,11 +1354,9 @@ export default {
       "masked": "The bowl is made of ____.",
       "options": [
         "earth-mcq-15",
-        "earth-mcq-14",
-        "earth-mcq-16",
-        "earth-mcq-13",
-        "earth-mcq-17",
-        "earth-mcq-12"
+        "earth-mcq-08",
+        "earth-mcq-05",
+        "earth-mcq-09"
       ],
       "explanation": "本句的「earthenware」指「以陶土燒製的器皿／材料」。",
       "sentenceIndex": 34,
@@ -1503,12 +1365,10 @@ export default {
         "earthenware"
       ],
       "optionReasons": {
-        "earth-mcq-15": "本句指「以陶土燒製的器皿／材料」。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-12": "「味道、氣味或顏色帶有泥土般的自然特徵」是「earthy — literal」的用法，與本句語境不同。"
+        "earth-mcq-15": "本句的「earthenware」指「以陶土燒製的器皿／材料」。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-15"
     },
@@ -1520,11 +1380,9 @@ export default {
       "masked": "Humans were once entirely ____.",
       "options": [
         "earth-mcq-16",
-        "earth-mcq-15",
-        "earth-mcq-17",
-        "earth-mcq-14",
+        "earth-mcq-03",
         "earth-mcq-18",
-        "earth-mcq-13"
+        "earth-mcq-08"
       ],
       "explanation": "本句的「earthbound」指「不能離開地面或受限於地球的」。",
       "sentenceIndex": 35,
@@ -1533,12 +1391,10 @@ export default {
         "earthbound"
       ],
       "optionReasons": {
-        "earth-mcq-16": "本句指「不能離開地面或受限於地球的」。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-18": "「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」是「rare earth」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。"
+        "earth-mcq-16": "本句的「earthbound」指「不能離開地面或受限於地球的」。",
+        "earth-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-16"
     },
@@ -1551,10 +1407,8 @@ export default {
       "options": [
         "earth-mcq-16",
         "earth-mcq-15",
-        "earth-mcq-17",
-        "earth-mcq-14",
-        "earth-mcq-18",
-        "earth-mcq-13"
+        "earth-mcq-04",
+        "earth-mcq-05"
       ],
       "explanation": "本句的「earthbound」指「不能離開地面或受限於地球的」。",
       "sentenceIndex": 36,
@@ -1563,12 +1417,10 @@ export default {
         "earthbound"
       ],
       "optionReasons": {
-        "earth-mcq-16": "本句指「不能離開地面或受限於地球的」。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。",
-        "earth-mcq-18": "「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」是「rare earth」的用法，與本句語境不同。",
-        "earth-mcq-13": "「自然樸實、不造作；某些語境可指粗獷直接」是「earthy — figurative」的用法，與本句語境不同。"
+        "earth-mcq-16": "本句的「earthbound」指「不能離開地面或受限於地球的」。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-16"
     },
@@ -1580,11 +1432,9 @@ export default {
       "masked": "The story combines fantasy with more ____ concerns.",
       "options": [
         "earth-mcq-17",
-        "earth-mcq-16",
-        "earth-mcq-18",
-        "earth-mcq-15",
-        "earth-mcq-19",
-        "earth-mcq-14"
+        "earth-mcq-05",
+        "earth-mcq-01",
+        "earth-mcq-03"
       ],
       "explanation": "本句的「earthbound」指「集中於日常現實／世俗事務的」。",
       "sentenceIndex": 37,
@@ -1593,12 +1443,10 @@ export default {
         "earthbound"
       ],
       "optionReasons": {
-        "earth-mcq-17": "本句指「集中於日常現實／世俗事務的」。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-18": "「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」是「rare earth」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-19": "「模仿泥土、沙、石頭等自然色彩的大地色系」是「earth tones」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。"
+        "earth-mcq-17": "本句的「earthbound」指「集中於日常現實／世俗事務的」。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-17"
     },
@@ -1610,11 +1458,9 @@ export default {
       "masked": "His ambitions were surprisingly ____.",
       "options": [
         "earth-mcq-17",
-        "earth-mcq-16",
-        "earth-mcq-18",
-        "earth-mcq-15",
         "earth-mcq-19",
-        "earth-mcq-14"
+        "earth-mcq-15",
+        "earth-mcq-18"
       ],
       "explanation": "本句的「earthbound」指「集中於日常現實／世俗事務的」。",
       "sentenceIndex": 38,
@@ -1623,12 +1469,10 @@ export default {
         "earthbound"
       ],
       "optionReasons": {
-        "earth-mcq-17": "本句指「集中於日常現實／世俗事務的」。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-18": "「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」是「rare earth」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-19": "「模仿泥土、沙、石頭等自然色彩的大地色系」是「earth tones」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。"
+        "earth-mcq-17": "本句的「earthbound」指「集中於日常現實／世俗事務的」。",
+        "earth-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-17"
     },
@@ -1640,11 +1484,9 @@ export default {
       "masked": "Rare-____ elements are used in many electronic devices.",
       "options": [
         "earth-mcq-18",
-        "earth-mcq-17",
-        "earth-mcq-19",
-        "earth-mcq-16",
-        "earth-mcq-15",
-        "earth-mcq-14"
+        "earth-mcq-02",
+        "earth-mcq-11",
+        "earth-pdf-001"
       ],
       "explanation": "本句的「earth」指「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」。",
       "sentenceIndex": 39,
@@ -1653,12 +1495,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-18": "本句指「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-19": "「模仿泥土、沙、石頭等自然色彩的大地色系」是「earth tones」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。"
+        "earth-mcq-18": "本句的「earth」指「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」。",
+        "earth-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-18"
     },
@@ -1670,11 +1510,9 @@ export default {
       "masked": "The country has large reserves of rare ____.",
       "options": [
         "earth-mcq-18",
-        "earth-mcq-17",
-        "earth-mcq-19",
-        "earth-mcq-16",
-        "earth-mcq-15",
-        "earth-mcq-14"
+        "earth-mcq-13",
+        "earth-pdf-001",
+        "earth-mcq-11"
       ],
       "explanation": "本句的「earths」指「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」。",
       "sentenceIndex": 40,
@@ -1683,12 +1521,10 @@ export default {
         "earths"
       ],
       "optionReasons": {
-        "earth-mcq-18": "本句指「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-19": "「模仿泥土、沙、石頭等自然色彩的大地色系」是「earth tones」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。"
+        "earth-mcq-18": "本句的「earths」指「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」。",
+        "earth-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "earth-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-18"
     },
@@ -1700,11 +1536,9 @@ export default {
       "masked": "The room is decorated in warm ____.",
       "options": [
         "earth-mcq-19",
-        "earth-mcq-18",
-        "earth-mcq-17",
+        "earth-mcq-08",
         "earth-mcq-16",
-        "earth-mcq-15",
-        "earth-mcq-14"
+        "earth-mcq-05"
       ],
       "explanation": "本句的「earth tones」指「模仿泥土、沙、石頭等自然色彩的大地色系」。",
       "sentenceIndex": 41,
@@ -1713,12 +1547,10 @@ export default {
         "earth tones"
       ],
       "optionReasons": {
-        "earth-mcq-19": "本句指「模仿泥土、沙、石頭等自然色彩的大地色系」。",
-        "earth-mcq-18": "「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」是「rare earth」的用法，與本句語境不同。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。"
+        "earth-mcq-19": "本句的「earth tones」指「模仿泥土、沙、石頭等自然色彩的大地色系」。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-19"
     },
@@ -1730,11 +1562,9 @@ export default {
       "masked": "She prefers clothes in ____ colours.",
       "options": [
         "earth-mcq-19",
-        "earth-mcq-18",
-        "earth-mcq-17",
         "earth-mcq-16",
-        "earth-mcq-15",
-        "earth-mcq-14"
+        "earth-mcq-05",
+        "earth-mcq-08"
       ],
       "explanation": "本句的「earth」指「模仿泥土、沙、石頭等自然色彩的大地色系」。",
       "sentenceIndex": 42,
@@ -1743,12 +1573,10 @@ export default {
         "earth"
       ],
       "optionReasons": {
-        "earth-mcq-19": "本句指「模仿泥土、沙、石頭等自然色彩的大地色系」。",
-        "earth-mcq-18": "「一組具有相似化學性質、廣泛用於高科技產業的稀土元素」是「rare earth」的用法，與本句語境不同。",
-        "earth-mcq-17": "「集中於日常現實／世俗事務的」是「earthbound — figurative」的用法，與本句語境不同。",
-        "earth-mcq-16": "「不能離開地面或受限於地球的」是「earthbound — literal」的用法，與本句語境不同。",
-        "earth-mcq-15": "「以陶土燒製的器皿／材料」是「earthenware」的用法，與本句語境不同。",
-        "earth-mcq-14": "「由泥土、黏土等土質材料製成的」是「earthen」的用法，與本句語境不同。"
+        "earth-mcq-19": "本句的「earth」指「模仿泥土、沙、石頭等自然色彩的大地色系」。",
+        "earth-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "earth-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "earth-mcq-19"
     }
@@ -1760,5 +1588,7 @@ export default {
     "sha256": "405777551953ee84cbc667a4185d297eacefba3cf2a4ea64fcc1358ff7bca51d",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

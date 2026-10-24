@@ -669,7 +669,7 @@ export default {
     },
     {
       "id": "bed-mcq-32",
-      "title": "表示上床睡覺；就寢",
+      "title": "上床睡覺；就寢",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示上床睡覺；就寢",
@@ -691,7 +691,7 @@ export default {
     },
     {
       "id": "bed-mcq-33",
-      "title": "表示單人床／雙人床／特大床",
+      "title": "單人床／雙人床／特大床",
       "form": "3. single / double / king-size bed",
       "en": "3. single / double / king-size bed",
       "zh": "表示單人床／雙人床／特大床",
@@ -713,7 +713,7 @@ export default {
     },
     {
       "id": "bed-mcq-34",
-      "title": "表示花圃；苗床；種植區",
+      "title": "花圃；苗床；種植區",
       "form": "13. bed — area of soil for plants",
       "en": "13. bed — area of soil for plants",
       "zh": "表示花圃；苗床；種植區",
@@ -743,11 +743,9 @@ export default {
       "masked": "I usually read for twenty minutes before going to ____.",
       "options": [
         "bed-mcq-32",
-        "bed-mcq-31",
-        "bed-mcq-33",
-        "bed-mcq-30",
-        "bed-mcq-34",
-        "bed-mcq-29"
+        "bed-mcq-09",
+        "bed-mcq-25",
+        "bed-mcq-07"
       ],
       "explanation": "本句的「bed」指「表示上床睡覺；就寢」。",
       "sentenceIndex": 0,
@@ -756,12 +754,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-32": "本句指「表示上床睡覺；就寢」。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-33": "「表示單人床／雙人床／特大床」是「3. single / double / king-size bed」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-34": "「表示花圃；苗床；種植區」是「13. bed — area of soil for plants」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。"
+        "bed-mcq-32": "本句的「bed」指「表示上床睡覺；就寢」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-32"
     },
@@ -773,11 +769,9 @@ export default {
       "masked": "She went to ____ early because she was tired.",
       "options": [
         "bed-mcq-32",
-        "bed-mcq-31",
-        "bed-mcq-33",
-        "bed-mcq-30",
-        "bed-mcq-34",
-        "bed-mcq-29"
+        "bed-mcq-12",
+        "bed-mcq-25",
+        "bed-mcq-15"
       ],
       "explanation": "本句的「bed」指「表示上床睡覺；就寢」。",
       "sentenceIndex": 1,
@@ -786,12 +780,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-32": "本句指「表示上床睡覺；就寢」。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-33": "「表示單人床／雙人床／特大床」是「3. single / double / king-size bed」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-34": "「表示花圃；苗床；種植區」是「13. bed — area of soil for plants」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。"
+        "bed-mcq-32": "本句的「bed」指「表示上床睡覺；就寢」。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-32"
     },
@@ -803,11 +795,9 @@ export default {
       "masked": "The cat was sleeping on the ____.",
       "options": [
         "bed-mcq-01",
-        "bed-mcq-02",
-        "bed-mcq-03",
-        "bed-mcq-04",
-        "bed-mcq-05",
-        "bed-mcq-06"
+        "bed-mcq-20",
+        "bed-mcq-24",
+        "bed-mcq-09"
       ],
       "explanation": "本句的「bed」指「用來睡覺或休息的床」。",
       "sentenceIndex": 2,
@@ -816,12 +806,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-01": "本句指「用來睡覺或休息的床」。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-01": "本句的「bed」指「用來睡覺或休息的床」。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-01"
     },
@@ -833,11 +821,9 @@ export default {
       "masked": "There is a small ____ beside the window.",
       "options": [
         "bed-mcq-01",
-        "bed-mcq-02",
-        "bed-mcq-03",
-        "bed-mcq-04",
-        "bed-mcq-05",
-        "bed-mcq-06"
+        "bed-mcq-18",
+        "bed-mcq-09",
+        "bed-mcq-15"
       ],
       "explanation": "本句的「bed」指「用來睡覺或休息的床」。",
       "sentenceIndex": 3,
@@ -846,12 +832,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-01": "本句指「用來睡覺或休息的床」。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-01": "本句的「bed」指「用來睡覺或休息的床」。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-01"
     },
@@ -863,11 +847,9 @@ export default {
       "masked": "The room has a ____.",
       "options": [
         "bed-mcq-33",
-        "bed-mcq-32",
-        "bed-mcq-34",
-        "bed-mcq-31",
-        "bed-mcq-30",
-        "bed-mcq-29"
+        "bed-mcq-12",
+        "bed-mcq-25",
+        "bed-mcq-23"
       ],
       "explanation": "本句的「double bed」指「表示單人床／雙人床／特大床」。",
       "sentenceIndex": 4,
@@ -876,12 +858,10 @@ export default {
         "double bed"
       ],
       "optionReasons": {
-        "bed-mcq-33": "本句指「表示單人床／雙人床／特大床」。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-34": "「表示花圃；苗床；種植區」是「13. bed — area of soil for plants」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。"
+        "bed-mcq-33": "本句的「double bed」指「表示單人床／雙人床／特大床」。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-33"
     },
@@ -893,11 +873,9 @@ export default {
       "masked": "We booked a room with two ____.",
       "options": [
         "bed-mcq-33",
-        "bed-mcq-32",
-        "bed-mcq-34",
-        "bed-mcq-31",
-        "bed-mcq-30",
-        "bed-mcq-29"
+        "bed-mcq-07",
+        "bed-mcq-17",
+        "bed-mcq-20"
       ],
       "explanation": "本句的「single beds」指「表示單人床／雙人床／特大床」。",
       "sentenceIndex": 5,
@@ -906,12 +884,10 @@ export default {
         "single beds"
       ],
       "optionReasons": {
-        "bed-mcq-33": "本句指「表示單人床／雙人床／特大床」。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-34": "「表示花圃；苗床；種植區」是「13. bed — area of soil for plants」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。"
+        "bed-mcq-33": "本句的「single beds」指「表示單人床／雙人床／特大床」。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-33"
     },
@@ -923,11 +899,9 @@ export default {
       "masked": "I usually ____ at eleven.",
       "options": [
         "bed-mcq-02",
-        "bed-mcq-01",
-        "bed-mcq-03",
-        "bed-mcq-04",
-        "bed-mcq-05",
-        "bed-mcq-06"
+        "bed-mcq-25",
+        "bed-mcq-07",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「go to bed」指「上床準備睡覺／就寢」。",
       "sentenceIndex": 6,
@@ -936,12 +910,10 @@ export default {
         "go to bed"
       ],
       "optionReasons": {
-        "bed-mcq-02": "本句指「上床準備睡覺／就寢」。",
-        "bed-mcq-01": "「用來睡覺或休息的床」是「bed — sleeping furniture」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-02": "本句的「go to bed」指「上床準備睡覺／就寢」。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-02"
     },
@@ -953,11 +925,9 @@ export default {
       "masked": "The children ____ early.",
       "options": [
         "bed-mcq-02",
-        "bed-mcq-01",
-        "bed-mcq-03",
-        "bed-mcq-04",
-        "bed-mcq-05",
-        "bed-mcq-06"
+        "bed-mcq-12",
+        "bed-mcq-07",
+        "bed-mcq-09"
       ],
       "explanation": "本句的「went to bed」指「上床準備睡覺／就寢」。",
       "sentenceIndex": 7,
@@ -966,12 +936,10 @@ export default {
         "went to bed"
       ],
       "optionReasons": {
-        "bed-mcq-02": "本句指「上床準備睡覺／就寢」。",
-        "bed-mcq-01": "「用來睡覺或休息的床」是「bed — sleeping furniture」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-02": "本句的「went to bed」指「上床準備睡覺／就寢」。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-02"
     },
@@ -983,11 +951,9 @@ export default {
       "masked": "She was already ____ when I called.",
       "options": [
         "bed-mcq-03",
-        "bed-mcq-02",
-        "bed-mcq-04",
-        "bed-mcq-01",
-        "bed-mcq-05",
-        "bed-mcq-06"
+        "bed-mcq-15",
+        "bed-mcq-24",
+        "bed-mcq-09"
       ],
       "explanation": "本句的「in bed」指「躺在床上，通常在睡覺、休息或生病」。",
       "sentenceIndex": 8,
@@ -996,12 +962,10 @@ export default {
         "in bed"
       ],
       "optionReasons": {
-        "bed-mcq-03": "本句指「躺在床上，通常在睡覺、休息或生病」。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-01": "「用來睡覺或休息的床」是「bed — sleeping furniture」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-03": "本句的「in bed」指「躺在床上，通常在睡覺、休息或生病」。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-03"
     },
@@ -1013,11 +977,9 @@ export default {
       "masked": "He stayed ____ all morning because he was ill.",
       "options": [
         "bed-mcq-03",
-        "bed-mcq-02",
-        "bed-mcq-04",
-        "bed-mcq-01",
-        "bed-mcq-05",
-        "bed-mcq-06"
+        "bed-mcq-18",
+        "bed-mcq-23",
+        "bed-mcq-25"
       ],
       "explanation": "本句的「in bed」指「躺在床上，通常在睡覺、休息或生病」。",
       "sentenceIndex": 9,
@@ -1026,12 +988,10 @@ export default {
         "in bed"
       ],
       "optionReasons": {
-        "bed-mcq-03": "本句指「躺在床上，通常在睡覺、休息或生病」。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-01": "「用來睡覺或休息的床」是「bed — sleeping furniture」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-03": "本句的「in bed」指「躺在床上，通常在睡覺、休息或生病」。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-03"
     },
@@ -1043,11 +1003,9 @@ export default {
       "masked": "I didn’t want to ____ this morning.",
       "options": [
         "bed-mcq-04",
-        "bed-mcq-03",
-        "bed-mcq-05",
-        "bed-mcq-02",
-        "bed-mcq-06",
-        "bed-mcq-01"
+        "bed-mcq-12",
+        "bed-mcq-25",
+        "bed-mcq-07"
       ],
       "explanation": "本句的「get out of bed」指「起床／下床」。",
       "sentenceIndex": 10,
@@ -1056,12 +1014,10 @@ export default {
         "get out of bed"
       ],
       "optionReasons": {
-        "bed-mcq-04": "本句指「起床／下床」。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-01": "「用來睡覺或休息的床」是「bed — sleeping furniture」的用法，與本句語境不同。"
+        "bed-mcq-04": "本句的「get out of bed」指「起床／下床」。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-04"
     },
@@ -1073,11 +1029,9 @@ export default {
       "masked": "He slowly ____.",
       "options": [
         "bed-mcq-04",
-        "bed-mcq-03",
-        "bed-mcq-05",
-        "bed-mcq-02",
-        "bed-mcq-06",
-        "bed-mcq-01"
+        "bed-mcq-26",
+        "bed-mcq-24",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「got out of bed」指「起床／下床」。",
       "sentenceIndex": 11,
@@ -1086,12 +1040,10 @@ export default {
         "got out of bed"
       ],
       "optionReasons": {
-        "bed-mcq-04": "本句指「起床／下床」。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-01": "「用來睡覺或休息的床」是「bed — sleeping furniture」的用法，與本句語境不同。"
+        "bed-mcq-04": "本句的「got out of bed」指「起床／下床」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-04"
     },
@@ -1103,11 +1055,9 @@ export default {
       "masked": "The hospital added twenty new ____.",
       "options": [
         "bed-mcq-05",
-        "bed-mcq-04",
-        "bed-mcq-06",
-        "bed-mcq-03",
-        "bed-mcq-07",
-        "bed-mcq-02"
+        "bed-mcq-17",
+        "bed-mcq-18",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「beds」指「病床；亦可指醫院可收治病人的床位」。",
       "sentenceIndex": 12,
@@ -1116,12 +1066,10 @@ export default {
         "beds"
       ],
       "optionReasons": {
-        "bed-mcq-05": "本句指「病床；亦可指醫院可收治病人的床位」。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。"
+        "bed-mcq-05": "本句的「beds」指「病床；亦可指醫院可收治病人的床位」。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-05"
     },
@@ -1133,11 +1081,9 @@ export default {
       "masked": "There were no ____ available that night.",
       "options": [
         "bed-mcq-05",
-        "bed-mcq-04",
-        "bed-mcq-06",
-        "bed-mcq-03",
-        "bed-mcq-07",
-        "bed-mcq-02"
+        "bed-mcq-12",
+        "bed-mcq-23",
+        "bed-mcq-18"
       ],
       "explanation": "本句的「beds」指「病床；亦可指醫院可收治病人的床位」。",
       "sentenceIndex": 13,
@@ -1146,12 +1092,10 @@ export default {
         "beds"
       ],
       "optionReasons": {
-        "bed-mcq-05": "本句指「病床；亦可指醫院可收治病人的床位」。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。"
+        "bed-mcq-05": "本句的「beds」指「病床；亦可指醫院可收治病人的床位」。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-05"
     },
@@ -1163,11 +1107,9 @@ export default {
       "masked": "He spent three days in a ____.",
       "options": [
         "bed-mcq-05",
-        "bed-mcq-04",
-        "bed-mcq-06",
-        "bed-mcq-03",
-        "bed-mcq-07",
-        "bed-mcq-02"
+        "bed-mcq-09",
+        "bed-mcq-15",
+        "bed-mcq-29"
       ],
       "explanation": "本句的「hospital bed」指「病床；亦可指醫院可收治病人的床位」。",
       "sentenceIndex": 14,
@@ -1176,12 +1118,10 @@ export default {
         "hospital bed"
       ],
       "optionReasons": {
-        "bed-mcq-05": "本句指「病床；亦可指醫院可收治病人的床位」。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。"
+        "bed-mcq-05": "本句的「hospital bed」指「病床；亦可指醫院可收治病人的床位」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-05"
     },
@@ -1193,11 +1133,9 @@ export default {
       "masked": "The patient was moved to another ____.",
       "options": [
         "bed-mcq-05",
-        "bed-mcq-04",
-        "bed-mcq-06",
-        "bed-mcq-03",
-        "bed-mcq-07",
-        "bed-mcq-02"
+        "bed-mcq-23",
+        "bed-mcq-17",
+        "bed-mcq-18"
       ],
       "explanation": "本句的「bed」指「病床；亦可指醫院可收治病人的床位」。",
       "sentenceIndex": 15,
@@ -1206,12 +1144,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-05": "本句指「病床；亦可指醫院可收治病人的床位」。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-02": "「上床準備睡覺／就寢」是「go to bed」的用法，與本句語境不同。"
+        "bed-mcq-05": "本句的「bed」指「病床；亦可指醫院可收治病人的床位」。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-05"
     },
@@ -1223,11 +1159,9 @@ export default {
       "masked": "The river ____ was covered with stones.",
       "options": [
         "bed-mcq-06",
-        "bed-mcq-05",
-        "bed-mcq-07",
-        "bed-mcq-04",
-        "bed-mcq-08",
-        "bed-mcq-03"
+        "bed-mcq-29",
+        "bed-mcq-26",
+        "bed-mcq-20"
       ],
       "explanation": "本句的「bed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
       "sentenceIndex": 16,
@@ -1236,12 +1170,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-06": "本句指「河、海、湖等水體的底部；河床／海床／湖床」。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。"
+        "bed-mcq-06": "本句的「bed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-06"
     },
@@ -1253,11 +1185,9 @@ export default {
       "masked": "Researchers studied the sea ____.",
       "options": [
         "bed-mcq-06",
-        "bed-mcq-05",
-        "bed-mcq-07",
-        "bed-mcq-04",
-        "bed-mcq-08",
-        "bed-mcq-03"
+        "bed-mcq-20",
+        "bed-mcq-24",
+        "bed-mcq-15"
       ],
       "explanation": "本句的「bed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
       "sentenceIndex": 17,
@@ -1266,12 +1196,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-06": "本句指「河、海、湖等水體的底部；河床／海床／湖床」。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。"
+        "bed-mcq-06": "本句的「bed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-06"
     },
@@ -1283,11 +1211,9 @@ export default {
       "masked": "The ____ was almost dry.",
       "options": [
         "bed-mcq-06",
-        "bed-mcq-05",
-        "bed-mcq-07",
-        "bed-mcq-04",
-        "bed-mcq-08",
-        "bed-mcq-03"
+        "bed-mcq-17",
+        "bed-mcq-09",
+        "bed-mcq-26"
       ],
       "explanation": "本句的「riverbed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
       "sentenceIndex": 18,
@@ -1296,12 +1222,10 @@ export default {
         "riverbed"
       ],
       "optionReasons": {
-        "bed-mcq-06": "本句指「河、海、湖等水體的底部；河床／海床／湖床」。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。"
+        "bed-mcq-06": "本句的「riverbed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-06"
     },
@@ -1313,11 +1237,9 @@ export default {
       "masked": "The cable lies on the ____.",
       "options": [
         "bed-mcq-06",
-        "bed-mcq-05",
-        "bed-mcq-07",
-        "bed-mcq-04",
-        "bed-mcq-08",
-        "bed-mcq-03"
+        "bed-mcq-26",
+        "bed-mcq-15",
+        "bed-mcq-24"
       ],
       "explanation": "本句的「seabed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
       "sentenceIndex": 19,
@@ -1326,12 +1248,10 @@ export default {
         "seabed"
       ],
       "optionReasons": {
-        "bed-mcq-06": "本句指「河、海、湖等水體的底部；河床／海床／湖床」。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-03": "「躺在床上，通常在睡覺、休息或生病」是「be in bed」的用法，與本句語境不同。"
+        "bed-mcq-06": "本句的「seabed」指「河、海、湖等水體的底部；河床／海床／湖床」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-06"
     },
@@ -1343,11 +1263,9 @@ export default {
       "masked": "The geologists examined a ____.",
       "options": [
         "bed-mcq-07",
-        "bed-mcq-06",
-        "bed-mcq-08",
-        "bed-mcq-05",
-        "bed-mcq-09",
-        "bed-mcq-04"
+        "bed-mcq-31",
+        "bed-mcq-16",
+        "bed-mcq-10"
       ],
       "explanation": "本句的「bed of limestone」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
       "sentenceIndex": 20,
@@ -1356,12 +1274,10 @@ export default {
         "bed of limestone"
       ],
       "optionReasons": {
-        "bed-mcq-07": "本句指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。"
+        "bed-mcq-07": "本句的「bed of limestone」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
+        "bed-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-07"
     },
@@ -1373,11 +1289,9 @@ export default {
       "masked": "Coal was found in a deep ____.",
       "options": [
         "bed-mcq-07",
-        "bed-mcq-06",
-        "bed-mcq-08",
-        "bed-mcq-05",
-        "bed-mcq-09",
-        "bed-mcq-04"
+        "bed-mcq-34",
+        "bed-mcq-23",
+        "bed-mcq-30"
       ],
       "explanation": "本句的「bed」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
       "sentenceIndex": 21,
@@ -1386,12 +1300,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-07": "本句指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。"
+        "bed-mcq-07": "本句的「bed」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
+        "bed-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-07"
     },
@@ -1403,11 +1315,9 @@ export default {
       "masked": "The mine follows a narrow ____.",
       "options": [
         "bed-mcq-07",
-        "bed-mcq-06",
-        "bed-mcq-08",
-        "bed-mcq-05",
         "bed-mcq-09",
-        "bed-mcq-04"
+        "bed-mcq-29",
+        "bed-mcq-05"
       ],
       "explanation": "本句的「coal bed」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
       "sentenceIndex": 22,
@@ -1416,12 +1326,10 @@ export default {
         "coal bed"
       ],
       "optionReasons": {
-        "bed-mcq-07": "本句指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。"
+        "bed-mcq-07": "本句的「coal bed」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-07"
     },
@@ -1433,11 +1341,9 @@ export default {
       "masked": "The road was built over a stable ____.",
       "options": [
         "bed-mcq-07",
-        "bed-mcq-06",
-        "bed-mcq-08",
-        "bed-mcq-05",
-        "bed-mcq-09",
-        "bed-mcq-04"
+        "bed-mcq-29",
+        "bed-mcq-04",
+        "bed-mcq-20"
       ],
       "explanation": "本句的「rock bed」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
       "sentenceIndex": 23,
@@ -1446,12 +1352,10 @@ export default {
         "rock bed"
       ],
       "optionReasons": {
-        "bed-mcq-07": "本句指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-05": "「病床；亦可指醫院可收治病人的床位」是「bed — hospital capacity」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。",
-        "bed-mcq-04": "「起床／下床」是「get out of bed」的用法，與本句語境不同。"
+        "bed-mcq-07": "本句的「rock bed」指「岩石、煤、砂等自然形成的一層；岩層／礦層」。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-07"
     },
@@ -1463,11 +1367,9 @@ export default {
       "masked": "She planted roses in the flower ____.",
       "options": [
         "bed-mcq-34",
-        "bed-mcq-33",
-        "bed-mcq-32",
-        "bed-mcq-31",
-        "bed-mcq-30",
-        "bed-mcq-29"
+        "bed-mcq-23",
+        "bed-mcq-25",
+        "bed-mcq-20"
       ],
       "explanation": "本句的「bed」指「表示花圃；苗床；種植區」。",
       "sentenceIndex": 24,
@@ -1476,12 +1378,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-34": "本句指「表示花圃；苗床；種植區」。",
-        "bed-mcq-33": "「表示單人床／雙人床／特大床」是「3. single / double / king-size bed」的用法，與本句語境不同。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。"
+        "bed-mcq-34": "本句的「bed」指「表示花圃；苗床；種植區」。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-34"
     },
@@ -1493,11 +1393,9 @@ export default {
       "masked": "The vegetable ____ need watering.",
       "options": [
         "bed-mcq-34",
-        "bed-mcq-33",
-        "bed-mcq-32",
-        "bed-mcq-31",
-        "bed-mcq-30",
-        "bed-mcq-29"
+        "bed-mcq-26",
+        "bed-mcq-18",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「beds」指「表示花圃；苗床；種植區」。",
       "sentenceIndex": 25,
@@ -1506,12 +1404,10 @@ export default {
         "beds"
       ],
       "optionReasons": {
-        "bed-mcq-34": "本句指「表示花圃；苗床；種植區」。",
-        "bed-mcq-33": "「表示單人床／雙人床／特大床」是「3. single / double / king-size bed」的用法，與本句語境不同。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。"
+        "bed-mcq-34": "本句的「beds」指「表示花圃；苗床；種植區」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-34"
     },
@@ -1523,11 +1419,9 @@ export default {
       "masked": "The garden has several colorful ____.",
       "options": [
         "bed-mcq-09",
-        "bed-mcq-08",
-        "bed-mcq-10",
-        "bed-mcq-07",
-        "bed-mcq-11",
-        "bed-mcq-06"
+        "bed-mcq-15",
+        "bed-mcq-22",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「flower beds」指「種植花卉的花圃／花壇」。",
       "sentenceIndex": 26,
@@ -1536,12 +1430,10 @@ export default {
         "flower beds"
       ],
       "optionReasons": {
-        "bed-mcq-09": "本句指「種植花卉的花圃／花壇」。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-09": "本句的「flower beds」指「種植花卉的花圃／花壇」。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-09"
     },
@@ -1553,11 +1445,9 @@ export default {
       "masked": "Don’t step into the ____.",
       "options": [
         "bed-mcq-09",
-        "bed-mcq-08",
-        "bed-mcq-10",
-        "bed-mcq-07",
-        "bed-mcq-11",
-        "bed-mcq-06"
+        "bed-mcq-20",
+        "bed-mcq-01",
+        "bed-mcq-18"
       ],
       "explanation": "本句的「flower bed」指「種植花卉的花圃／花壇」。",
       "sentenceIndex": 27,
@@ -1566,12 +1456,10 @@ export default {
         "flower bed"
       ],
       "optionReasons": {
-        "bed-mcq-09": "本句指「種植花卉的花圃／花壇」。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-06": "「河、海、湖等水體的底部；河床／海床／湖床」是「bed — river/sea/lake」的用法，與本句語境不同。"
+        "bed-mcq-09": "本句的「flower bed」指「種植花卉的花圃／花壇」。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-09"
     },
@@ -1583,11 +1471,9 @@ export default {
       "masked": "The seedlings were started in a ____.",
       "options": [
         "bed-mcq-10",
-        "bed-mcq-09",
-        "bed-mcq-11",
-        "bed-mcq-08",
-        "bed-mcq-12",
-        "bed-mcq-07"
+        "bed-mcq-18",
+        "bed-mcq-24",
+        "bed-mcq-20"
       ],
       "explanation": "本句的「seedbed」指「播種、育苗用的苗床」。",
       "sentenceIndex": 28,
@@ -1596,12 +1482,10 @@ export default {
         "seedbed"
       ],
       "optionReasons": {
-        "bed-mcq-10": "本句指「播種、育苗用的苗床」。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。"
+        "bed-mcq-10": "本句的「seedbed」指「播種、育苗用的苗床」。",
+        "bed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-10"
     },
@@ -1613,11 +1497,9 @@ export default {
       "masked": "Corruption can become a ____ for further instability.",
       "options": [
         "bed-mcq-10",
-        "bed-mcq-09",
-        "bed-mcq-11",
-        "bed-mcq-08",
-        "bed-mcq-12",
-        "bed-mcq-07"
+        "bed-mcq-24",
+        "bed-mcq-17",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「seedbed」指「播種、育苗用的苗床」。",
       "sentenceIndex": 29,
@@ -1626,12 +1508,10 @@ export default {
         "seedbed"
       ],
       "optionReasons": {
-        "bed-mcq-10": "本句指「播種、育苗用的苗床」。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-08": "「專門種植花草、蔬菜等的一塊土壤；花圃／花壇」是「bed — garden」的用法，與本句語境不同。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。",
-        "bed-mcq-07": "「岩石、煤、砂等自然形成的一層；岩層／礦層」是「bed — geological layer」的用法，與本句語境不同。"
+        "bed-mcq-10": "本句的「seedbed」指「播種、育苗用的苗床」。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-10"
     },
@@ -1643,11 +1523,9 @@ export default {
       "masked": "The boxes were loaded into the truck ____.",
       "options": [
         "bed-mcq-12",
-        "bed-mcq-11",
-        "bed-mcq-13",
-        "bed-mcq-10",
-        "bed-mcq-14",
-        "bed-mcq-09"
+        "bed-mcq-26",
+        "bed-mcq-16",
+        "bed-mcq-21"
       ],
       "explanation": "本句的「bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
       "sentenceIndex": 30,
@@ -1656,12 +1534,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-12": "本句指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。"
+        "bed-mcq-12": "本句的「bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-12"
     },
@@ -1673,11 +1549,9 @@ export default {
       "masked": "Tools were lying in the pickup ____.",
       "options": [
         "bed-mcq-12",
-        "bed-mcq-11",
-        "bed-mcq-13",
-        "bed-mcq-10",
-        "bed-mcq-14",
-        "bed-mcq-09"
+        "bed-mcq-06",
+        "bed-mcq-33",
+        "bed-mcq-25"
       ],
       "explanation": "本句的「bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
       "sentenceIndex": 31,
@@ -1686,12 +1560,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-12": "本句指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。"
+        "bed-mcq-12": "本句的「bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
+        "bed-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-12"
     },
@@ -1703,11 +1575,9 @@ export default {
       "masked": "The bicycle fit easily in the ____.",
       "options": [
         "bed-mcq-12",
-        "bed-mcq-11",
-        "bed-mcq-13",
-        "bed-mcq-10",
+        "bed-mcq-30",
         "bed-mcq-14",
-        "bed-mcq-09"
+        "bed-mcq-32"
       ],
       "explanation": "本句的「truck bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
       "sentenceIndex": 32,
@@ -1716,12 +1586,10 @@ export default {
         "truck bed"
       ],
       "optionReasons": {
-        "bed-mcq-12": "本句指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。"
+        "bed-mcq-12": "本句的「truck bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
+        "bed-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-12"
     },
@@ -1733,11 +1601,9 @@ export default {
       "masked": "They covered the ____ before the rain.",
       "options": [
         "bed-mcq-12",
-        "bed-mcq-11",
-        "bed-mcq-13",
-        "bed-mcq-10",
-        "bed-mcq-14",
-        "bed-mcq-09"
+        "bed-mcq-22",
+        "bed-mcq-25",
+        "bed-mcq-13"
       ],
       "explanation": "本句的「pickup bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
       "sentenceIndex": 33,
@@ -1746,12 +1612,10 @@ export default {
         "pickup bed"
       ],
       "optionReasons": {
-        "bed-mcq-12": "本句指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-09": "「種植花卉的花圃／花壇」是「flower bed」的用法，與本句語境不同。"
+        "bed-mcq-12": "本句的「pickup bed」指「卡車／皮卡後方用來載貨的車斗／貨斗」。",
+        "bed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-12"
     },
@@ -1763,11 +1627,9 @@ export default {
       "masked": "The pipes were laid on a ____.",
       "options": [
         "bed-mcq-13",
-        "bed-mcq-12",
-        "bed-mcq-14",
-        "bed-mcq-11",
-        "bed-mcq-15",
-        "bed-mcq-10"
+        "bed-mcq-09",
+        "bed-mcq-20",
+        "bed-mcq-29"
       ],
       "explanation": "本句的「bed of sand」指「讓物件安放其上的基床／墊層」。",
       "sentenceIndex": 34,
@@ -1776,12 +1638,10 @@ export default {
         "bed of sand"
       ],
       "optionReasons": {
-        "bed-mcq-13": "本句指「讓物件安放其上的基床／墊層」。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。"
+        "bed-mcq-13": "本句的「bed of sand」指「讓物件安放其上的基床／墊層」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-13"
     },
@@ -1793,11 +1653,9 @@ export default {
       "masked": "The road was built on a gravel ____.",
       "options": [
         "bed-mcq-13",
-        "bed-mcq-12",
-        "bed-mcq-14",
-        "bed-mcq-11",
-        "bed-mcq-15",
-        "bed-mcq-10"
+        "bed-mcq-09",
+        "bed-mcq-25",
+        "bed-mcq-12"
       ],
       "explanation": "本句的「bed」指「讓物件安放其上的基床／墊層」。",
       "sentenceIndex": 35,
@@ -1806,12 +1664,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-13": "本句指「讓物件安放其上的基床／墊層」。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-10": "「播種、育苗用的苗床」是「seedbed — literal」的用法，與本句語境不同。"
+        "bed-mcq-13": "本句的「bed」指「讓物件安放其上的基床／墊層」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-13"
     },
@@ -1823,11 +1679,9 @@ export default {
       "masked": "The lathe ____ must remain rigid.",
       "options": [
         "bed-mcq-14",
-        "bed-mcq-13",
-        "bed-mcq-15",
-        "bed-mcq-12",
-        "bed-mcq-16",
-        "bed-mcq-11"
+        "bed-mcq-09",
+        "bed-mcq-07",
+        "bed-mcq-26"
       ],
       "explanation": "本句的「bed」指「支撐機械主要部件的床身／底座」。",
       "sentenceIndex": 36,
@@ -1836,12 +1690,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-14": "本句指「支撐機械主要部件的床身／底座」。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。"
+        "bed-mcq-14": "本句的「bed」指「支撐機械主要部件的床身／底座」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-14"
     },
@@ -1853,11 +1705,9 @@ export default {
       "masked": "The machine was mounted on a solid ____.",
       "options": [
         "bed-mcq-14",
-        "bed-mcq-13",
-        "bed-mcq-15",
-        "bed-mcq-12",
-        "bed-mcq-16",
-        "bed-mcq-11"
+        "bed-mcq-07",
+        "bed-mcq-09",
+        "bed-mcq-29"
       ],
       "explanation": "本句的「bed」指「支撐機械主要部件的床身／底座」。",
       "sentenceIndex": 37,
@@ -1866,12 +1716,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-14": "本句指「支撐機械主要部件的床身／底座」。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-11": "「某種思想、問題或現象滋長的溫床」是「seedbed — figurative」的用法，與本句語境不同。"
+        "bed-mcq-14": "本句的「bed」指「支撐機械主要部件的床身／底座」。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-14"
     },
@@ -1883,11 +1731,9 @@ export default {
       "masked": "The fish was served on a ____.",
       "options": [
         "bed-mcq-15",
-        "bed-mcq-14",
-        "bed-mcq-16",
-        "bed-mcq-13",
-        "bed-mcq-17",
-        "bed-mcq-12"
+        "bed-mcq-29",
+        "bed-mcq-24",
+        "bed-mcq-30"
       ],
       "explanation": "本句的「bed of rice」指「墊在另一物件下的一層食物或材料」。",
       "sentenceIndex": 38,
@@ -1896,12 +1742,10 @@ export default {
         "bed of rice"
       ],
       "optionReasons": {
-        "bed-mcq-15": "本句指「墊在另一物件下的一層食物或材料」。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。"
+        "bed-mcq-15": "本句的「bed of rice」指「墊在另一物件下的一層食物或材料」。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-15"
     },
@@ -1913,11 +1757,9 @@ export default {
       "masked": "The vegetables sat on a ____.",
       "options": [
         "bed-mcq-15",
-        "bed-mcq-14",
-        "bed-mcq-16",
-        "bed-mcq-13",
-        "bed-mcq-17",
-        "bed-mcq-12"
+        "bed-mcq-32",
+        "bed-mcq-23",
+        "bed-mcq-24"
       ],
       "explanation": "本句的「bed of lettuce」指「墊在另一物件下的一層食物或材料」。",
       "sentenceIndex": 39,
@@ -1926,12 +1768,10 @@ export default {
         "bed of lettuce"
       ],
       "optionReasons": {
-        "bed-mcq-15": "本句指「墊在另一物件下的一層食物或材料」。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。",
-        "bed-mcq-12": "「卡車／皮卡後方用來載貨的車斗／貨斗」是「bed — truck」的用法，與本句語境不同。"
+        "bed-mcq-15": "本句的「bed of lettuce」指「墊在另一物件下的一層食物或材料」。",
+        "bed-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-15"
     },
@@ -1944,10 +1784,8 @@ export default {
       "options": [
         "bed-mcq-16",
         "bed-mcq-15",
-        "bed-mcq-17",
-        "bed-mcq-14",
-        "bed-mcq-18",
-        "bed-mcq-13"
+        "bed-mcq-09",
+        "bed-mcq-23"
       ],
       "explanation": "本句的「put the children to bed」指「安頓／哄某人上床睡覺」。",
       "sentenceIndex": 40,
@@ -1956,12 +1794,10 @@ export default {
         "put the children to bed"
       ],
       "optionReasons": {
-        "bed-mcq-16": "本句指「安頓／哄某人上床睡覺」。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。"
+        "bed-mcq-16": "本句的「put the children to bed」指「安頓／哄某人上床睡覺」。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-16"
     },
@@ -1973,11 +1809,9 @@ export default {
       "masked": "He read a story before ____.",
       "options": [
         "bed-mcq-16",
-        "bed-mcq-15",
-        "bed-mcq-17",
-        "bed-mcq-14",
-        "bed-mcq-18",
-        "bed-mcq-13"
+        "bed-mcq-09",
+        "bed-mcq-23",
+        "bed-mcq-17"
       ],
       "explanation": "本句的「putting his son to bed」指「安頓／哄某人上床睡覺」。",
       "sentenceIndex": 41,
@@ -1986,12 +1820,10 @@ export default {
         "putting his son to bed"
       ],
       "optionReasons": {
-        "bed-mcq-16": "本句指「安頓／哄某人上床睡覺」。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。",
-        "bed-mcq-13": "「讓物件安放其上的基床／墊層」是「bed — supporting layer」的用法，與本句語境不同。"
+        "bed-mcq-16": "本句的「putting his son to bed」指「安頓／哄某人上床睡覺」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-16"
     },
@@ -2003,11 +1835,9 @@ export default {
       "masked": "The stones were ____.",
       "options": [
         "bed-mcq-17",
-        "bed-mcq-16",
-        "bed-mcq-18",
-        "bed-mcq-15",
-        "bed-mcq-19",
-        "bed-mcq-14"
+        "bed-mcq-22",
+        "bed-mcq-24",
+        "bed-mcq-02"
       ],
       "explanation": "本句的「bedded in concrete」指「把某物嵌入或固定在支撐材料中」。",
       "sentenceIndex": 42,
@@ -2016,12 +1846,10 @@ export default {
         "bedded in concrete"
       ],
       "optionReasons": {
-        "bed-mcq-17": "本句指「把某物嵌入或固定在支撐材料中」。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。"
+        "bed-mcq-17": "本句的「bedded in concrete」指「把某物嵌入或固定在支撐材料中」。",
+        "bed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-17"
     },
@@ -2033,11 +1861,9 @@ export default {
       "masked": "The pipe must be properly ____.",
       "options": [
         "bed-mcq-17",
-        "bed-mcq-16",
-        "bed-mcq-18",
-        "bed-mcq-15",
-        "bed-mcq-19",
-        "bed-mcq-14"
+        "bed-mcq-23",
+        "bed-mcq-21",
+        "bed-mcq-16"
       ],
       "explanation": "本句的「bedded in sand」指「把某物嵌入或固定在支撐材料中」。",
       "sentenceIndex": 43,
@@ -2046,12 +1872,10 @@ export default {
         "bedded in sand"
       ],
       "optionReasons": {
-        "bed-mcq-17": "本句指「把某物嵌入或固定在支撐材料中」。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-14": "「支撐機械主要部件的床身／底座」是「bed — machine base」的用法，與本句語境不同。"
+        "bed-mcq-17": "本句的「bedded in sand」指「把某物嵌入或固定在支撐材料中」。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-17"
     },
@@ -2063,11 +1887,9 @@ export default {
       "masked": "The new system needs time to ____.",
       "options": [
         "bed-mcq-18",
-        "bed-mcq-17",
-        "bed-mcq-19",
-        "bed-mcq-16",
-        "bed-mcq-20",
-        "bed-mcq-15"
+        "bed-mcq-31",
+        "bed-mcq-03",
+        "bed-mcq-30"
       ],
       "explanation": "本句的「bed in」指「新制度、設備、安排等逐漸磨合並穩定」。",
       "sentenceIndex": 44,
@@ -2076,12 +1898,10 @@ export default {
         "bed in"
       ],
       "optionReasons": {
-        "bed-mcq-18": "本句指「新制度、設備、安排等逐漸磨合並穩定」。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。"
+        "bed-mcq-18": "本句的「bed in」指「新制度、設備、安排等逐漸磨合並穩定」。",
+        "bed-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-18"
     },
@@ -2093,11 +1913,9 @@ export default {
       "masked": "The changes are beginning to ____.",
       "options": [
         "bed-mcq-18",
-        "bed-mcq-17",
-        "bed-mcq-19",
-        "bed-mcq-16",
-        "bed-mcq-20",
-        "bed-mcq-15"
+        "bed-mcq-03",
+        "bed-mcq-24",
+        "bed-mcq-10"
       ],
       "explanation": "本句的「bed in」指「新制度、設備、安排等逐漸磨合並穩定」。",
       "sentenceIndex": 45,
@@ -2106,12 +1924,10 @@ export default {
         "bed in"
       ],
       "optionReasons": {
-        "bed-mcq-18": "本句指「新制度、設備、安排等逐漸磨合並穩定」。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-16": "「安頓／哄某人上床睡覺」是「put someone to bed」的用法，與本句語境不同。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。",
-        "bed-mcq-15": "「墊在另一物件下的一層食物或材料」是「bed of food/material」的用法，與本句語境不同。"
+        "bed-mcq-18": "本句的「bed in」指「新制度、設備、安排等逐漸磨合並穩定」。",
+        "bed-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-18"
     },
@@ -2123,11 +1939,9 @@ export default {
       "masked": "The novel depicts him trying to ____ several characters.",
       "options": [
         "bed-mcq-20",
-        "bed-mcq-19",
-        "bed-mcq-21",
-        "bed-mcq-18",
+        "bed-mcq-07",
         "bed-mcq-22",
-        "bed-mcq-17"
+        "bed-mcq-01"
       ],
       "explanation": "本句的「bed」指「較文學／直接：與某人發生性關係」。",
       "sentenceIndex": 46,
@@ -2136,12 +1950,10 @@ export default {
         "bed"
       ],
       "optionReasons": {
-        "bed-mcq-20": "本句指「較文學／直接：與某人發生性關係」。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-17": "「把某物嵌入或固定在支撐材料中」是「bed something in」的用法，與本句語境不同。"
+        "bed-mcq-20": "本句的「bed」指「較文學／直接：與某人發生性關係」。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-20"
     },
@@ -2153,11 +1965,9 @@ export default {
       "masked": "I ____ every morning.",
       "options": [
         "bed-mcq-21",
+        "bed-mcq-09",
         "bed-mcq-20",
-        "bed-mcq-22",
-        "bed-mcq-19",
-        "bed-mcq-23",
-        "bed-mcq-18"
+        "bed-mcq-29"
       ],
       "explanation": "本句的「make my bed」指「整理床單、被子等；鋪床」。",
       "sentenceIndex": 47,
@@ -2166,12 +1976,10 @@ export default {
         "make my bed"
       ],
       "optionReasons": {
-        "bed-mcq-21": "本句指「整理床單、被子等；鋪床」。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。"
+        "bed-mcq-21": "本句的「make my bed」指「整理床單、被子等；鋪床」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-21"
     },
@@ -2183,11 +1991,9 @@ export default {
       "masked": "She forgot to ____.",
       "options": [
         "bed-mcq-21",
+        "bed-mcq-26",
         "bed-mcq-20",
-        "bed-mcq-22",
-        "bed-mcq-19",
-        "bed-mcq-23",
-        "bed-mcq-18"
+        "bed-mcq-09"
       ],
       "explanation": "本句的「make the bed」指「整理床單、被子等；鋪床」。",
       "sentenceIndex": 48,
@@ -2196,12 +2002,10 @@ export default {
         "make the bed"
       ],
       "optionReasons": {
-        "bed-mcq-21": "本句指「整理床單、被子等；鋪床」。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-18": "「新制度、設備、安排等逐漸磨合並穩定」是「bed in」的用法，與本句語境不同。"
+        "bed-mcq-21": "本句的「make the bed」指「整理床單、被子等；鋪床」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-21"
     },
@@ -2213,11 +2017,9 @@ export default {
       "masked": "He ____ with a fever.",
       "options": [
         "bed-mcq-22",
-        "bed-mcq-21",
-        "bed-mcq-23",
-        "bed-mcq-20",
-        "bed-mcq-24",
-        "bed-mcq-19"
+        "bed-mcq-09",
+        "bed-mcq-12",
+        "bed-mcq-26"
       ],
       "explanation": "本句的「took to his bed」指「因病等而臥床」。",
       "sentenceIndex": 49,
@@ -2226,12 +2028,10 @@ export default {
         "took to his bed"
       ],
       "optionReasons": {
-        "bed-mcq-22": "本句指「因病等而臥床」。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。"
+        "bed-mcq-22": "本句的「took to his bed」指「因病等而臥床」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-22"
     },
@@ -2243,11 +2043,9 @@ export default {
       "masked": "She ____ for several days.",
       "options": [
         "bed-mcq-22",
-        "bed-mcq-21",
-        "bed-mcq-23",
+        "bed-mcq-26",
         "bed-mcq-20",
-        "bed-mcq-24",
-        "bed-mcq-19"
+        "bed-mcq-24"
       ],
       "explanation": "本句的「took to her bed」指「因病等而臥床」。",
       "sentenceIndex": 50,
@@ -2256,12 +2054,10 @@ export default {
         "took to her bed"
       ],
       "optionReasons": {
-        "bed-mcq-22": "本句指「因病等而臥床」。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-19": "「安頓下來睡覺／過夜」是「bed down」的用法，與本句語境不同。"
+        "bed-mcq-22": "本句的「took to her bed」指「因病等而臥床」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-22"
     },
@@ -2273,11 +2069,9 @@ export default {
       "masked": "Did you ____ this morning?",
       "options": [
         "bed-mcq-23",
-        "bed-mcq-22",
-        "bed-mcq-24",
-        "bed-mcq-21",
-        "bed-mcq-25",
-        "bed-mcq-20"
+        "bed-mcq-34",
+        "bed-mcq-03",
+        "bed-mcq-24"
       ],
       "explanation": "本句的「get out of bed on the wrong side」指「一早就心情差、脾氣不好」。",
       "sentenceIndex": 51,
@@ -2286,12 +2080,10 @@ export default {
         "get out of bed on the wrong side"
       ],
       "optionReasons": {
-        "bed-mcq-23": "本句指「一早就心情差、脾氣不好」。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。",
-        "bed-mcq-25": "「把問題、傳聞等徹底處理完／讓其告一段落」是「put something to bed」的用法，與本句語境不同。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。"
+        "bed-mcq-23": "本句的「get out of bed on the wrong side」指「一早就心情差、脾氣不好」。",
+        "bed-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-23"
     },
@@ -2303,9 +2095,7 @@ export default {
       "masked": "He seems to have ____.",
       "options": [
         "bed-mcq-23",
-        "bed-mcq-22",
-        "bed-mcq-24",
-        "bed-mcq-21",
+        "bed-mcq-04",
         "bed-mcq-25",
         "bed-mcq-20"
       ],
@@ -2316,12 +2106,10 @@ export default {
         "got up on the wrong side of the bed"
       ],
       "optionReasons": {
-        "bed-mcq-23": "本句指「一早就心情差、脾氣不好」。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。",
-        "bed-mcq-25": "「把問題、傳聞等徹底處理完／讓其告一段落」是「put something to bed」的用法，與本句語境不同。",
-        "bed-mcq-20": "「較文學／直接：與某人發生性關係」是「bed someone」的用法，與本句語境不同。"
+        "bed-mcq-23": "本句的「got up on the wrong side of the bed」指「一早就心情差、脾氣不好」。",
+        "bed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-23"
     },
@@ -2333,11 +2121,9 @@ export default {
       "masked": "He made the decision himself; now he must ____.",
       "options": [
         "bed-mcq-24",
-        "bed-mcq-23",
-        "bed-mcq-25",
-        "bed-mcq-22",
-        "bed-mcq-26",
-        "bed-mcq-21"
+        "bed-mcq-29",
+        "bed-mcq-34",
+        "bed-mcq-22"
       ],
       "explanation": "本句的「make his bed and lie in it」指「自己作出的選擇所造成的後果要自己承擔」。",
       "sentenceIndex": 53,
@@ -2346,12 +2132,10 @@ export default {
         "make his bed and lie in it"
       ],
       "optionReasons": {
-        "bed-mcq-24": "本句指「自己作出的選擇所造成的後果要自己承擔」。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-25": "「把問題、傳聞等徹底處理完／讓其告一段落」是「put something to bed」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-26": "「安逸、沒有困難的處境，常用於否定」是「bed of roses」的用法，與本句語境不同。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。"
+        "bed-mcq-24": "本句的「make his bed and lie in it」指「自己作出的選擇所造成的後果要自己承擔」。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-24"
     },
@@ -2363,11 +2147,9 @@ export default {
       "masked": "You chose this path, so you may have to ____.",
       "options": [
         "bed-mcq-24",
-        "bed-mcq-23",
-        "bed-mcq-25",
-        "bed-mcq-22",
         "bed-mcq-26",
-        "bed-mcq-21"
+        "bed-mcq-05",
+        "bed-mcq-29"
       ],
       "explanation": "本句的「lie in the bed you made」指「自己作出的選擇所造成的後果要自己承擔」。",
       "sentenceIndex": 54,
@@ -2376,12 +2158,10 @@ export default {
         "lie in the bed you made"
       ],
       "optionReasons": {
-        "bed-mcq-24": "本句指「自己作出的選擇所造成的後果要自己承擔」。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-25": "「把問題、傳聞等徹底處理完／讓其告一段落」是「put something to bed」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。",
-        "bed-mcq-26": "「安逸、沒有困難的處境，常用於否定」是「bed of roses」的用法，與本句語境不同。",
-        "bed-mcq-21": "「整理床單、被子等；鋪床」是「make the bed」的用法，與本句語境不同。"
+        "bed-mcq-24": "本句的「lie in the bed you made」指「自己作出的選擇所造成的後果要自己承擔」。",
+        "bed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-24"
     },
@@ -2393,11 +2173,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "bed-mcq-25",
-        "bed-mcq-24",
-        "bed-mcq-26",
-        "bed-mcq-23",
-        "bed-mcq-27",
-        "bed-mcq-22"
+        "bed-mcq-32",
+        "bed-mcq-31",
+        "bed-mcq-09"
       ],
       "explanation": "本句的「put this issue to bed」指「把問題、傳聞等徹底處理完／讓其告一段落」。",
       "sentenceIndex": 55,
@@ -2406,12 +2184,10 @@ export default {
         "put this issue to bed"
       ],
       "optionReasons": {
-        "bed-mcq-25": "本句指「把問題、傳聞等徹底處理完／讓其告一段落」。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-26": "「安逸、沒有困難的處境，常用於否定」是「bed of roses」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。"
+        "bed-mcq-25": "本句的「put this issue to bed」指「把問題、傳聞等徹底處理完／讓其告一段落」。",
+        "bed-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-25"
     },
@@ -2423,11 +2199,9 @@ export default {
       "masked": "The new evidence finally ____.",
       "options": [
         "bed-mcq-25",
-        "bed-mcq-24",
-        "bed-mcq-26",
-        "bed-mcq-23",
-        "bed-mcq-27",
-        "bed-mcq-22"
+        "bed-mcq-09",
+        "bed-mcq-32",
+        "bed-mcq-10"
       ],
       "explanation": "本句的「put the rumor to bed」指「把問題、傳聞等徹底處理完／讓其告一段落」。",
       "sentenceIndex": 56,
@@ -2436,12 +2210,10 @@ export default {
         "put the rumor to bed"
       ],
       "optionReasons": {
-        "bed-mcq-25": "本句指「把問題、傳聞等徹底處理完／讓其告一段落」。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-26": "「安逸、沒有困難的處境，常用於否定」是「bed of roses」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。",
-        "bed-mcq-22": "「因病等而臥床」是「take to your bed」的用法，與本句語境不同。"
+        "bed-mcq-25": "本句的「put the rumor to bed」指「把問題、傳聞等徹底處理完／讓其告一段落」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-25"
     },
@@ -2453,11 +2225,9 @@ export default {
       "masked": "Running a business is not a ____.",
       "options": [
         "bed-mcq-26",
-        "bed-mcq-25",
-        "bed-mcq-27",
-        "bed-mcq-24",
-        "bed-mcq-28",
-        "bed-mcq-23"
+        "bed-mcq-07",
+        "bed-mcq-10",
+        "bed-mcq-30"
       ],
       "explanation": "本句的「bed of roses」指「安逸、沒有困難的處境，常用於否定」。",
       "sentenceIndex": 57,
@@ -2466,12 +2236,10 @@ export default {
         "bed of roses"
       ],
       "optionReasons": {
-        "bed-mcq-26": "本句指「安逸、沒有困難的處境，常用於否定」。",
-        "bed-mcq-25": "「把問題、傳聞等徹底處理完／讓其告一段落」是「put something to bed」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。"
+        "bed-mcq-26": "本句的「bed of roses」指「安逸、沒有困難的處境，常用於否定」。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-26"
     },
@@ -2483,10 +2251,8 @@ export default {
       "masked": "Their early years were far from a ____.",
       "options": [
         "bed-mcq-26",
-        "bed-mcq-25",
-        "bed-mcq-27",
-        "bed-mcq-24",
-        "bed-mcq-28",
+        "bed-mcq-09",
+        "bed-mcq-21",
         "bed-mcq-23"
       ],
       "explanation": "本句的「bed of roses」指「安逸、沒有困難的處境，常用於否定」。",
@@ -2496,12 +2262,10 @@ export default {
         "bed of roses"
       ],
       "optionReasons": {
-        "bed-mcq-26": "本句指「安逸、沒有困難的處境，常用於否定」。",
-        "bed-mcq-25": "「把問題、傳聞等徹底處理完／讓其告一段落」是「put something to bed」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。",
-        "bed-mcq-24": "「自己作出的選擇所造成的後果要自己承擔」是「make your bed and lie in it」的用法，與本句語境不同。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。",
-        "bed-mcq-23": "「一早就心情差、脾氣不好」是「get up on the wrong side of the bed」的用法，與本句語境不同。"
+        "bed-mcq-26": "本句的「bed of roses」指「安逸、沒有困難的處境，常用於否定」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-26"
     },
@@ -2513,11 +2277,9 @@ export default {
       "masked": "The apartment has two ____.",
       "options": [
         "bed-mcq-29",
-        "bed-mcq-28",
-        "bed-mcq-30",
-        "bed-mcq-27",
-        "bed-mcq-31",
-        "bed-mcq-26"
+        "bed-mcq-05",
+        "bed-mcq-34",
+        "bed-mcq-17"
       ],
       "explanation": "本句的「bedrooms」指「用來睡覺的房間；睡房／臥室」。",
       "sentenceIndex": 59,
@@ -2526,12 +2288,10 @@ export default {
         "bedrooms"
       ],
       "optionReasons": {
-        "bed-mcq-29": "本句指「用來睡覺的房間；睡房／臥室」。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-26": "「安逸、沒有困難的處境，常用於否定」是「bed of roses」的用法，與本句語境不同。"
+        "bed-mcq-29": "本句的「bedrooms」指「用來睡覺的房間；睡房／臥室」。",
+        "bed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-29"
     },
@@ -2543,11 +2303,9 @@ export default {
       "masked": "Her ____ overlooks the garden.",
       "options": [
         "bed-mcq-29",
-        "bed-mcq-28",
-        "bed-mcq-30",
-        "bed-mcq-27",
-        "bed-mcq-31",
-        "bed-mcq-26"
+        "bed-mcq-20",
+        "bed-mcq-04",
+        "bed-mcq-15"
       ],
       "explanation": "本句的「bedroom」指「用來睡覺的房間；睡房／臥室」。",
       "sentenceIndex": 60,
@@ -2556,12 +2314,10 @@ export default {
         "bedroom"
       ],
       "optionReasons": {
-        "bed-mcq-29": "本句指「用來睡覺的房間；睡房／臥室」。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-26": "「安逸、沒有困難的處境，常用於否定」是「bed of roses」的用法，與本句語境不同。"
+        "bed-mcq-29": "本句的「bedroom」指「用來睡覺的房間；睡房／臥室」。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-29"
     },
@@ -2573,11 +2329,9 @@ export default {
       "masked": "There is a lamp on the ____.",
       "options": [
         "bed-mcq-30",
-        "bed-mcq-29",
-        "bed-mcq-31",
-        "bed-mcq-28",
-        "bed-mcq-32",
-        "bed-mcq-27"
+        "bed-mcq-17",
+        "bed-mcq-07",
+        "bed-mcq-23"
       ],
       "explanation": "本句的「bedside table」指「床旁的位置；床邊」。",
       "sentenceIndex": 61,
@@ -2586,12 +2340,10 @@ export default {
         "bedside table"
       ],
       "optionReasons": {
-        "bed-mcq-30": "本句指「床旁的位置；床邊」。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。"
+        "bed-mcq-30": "本句的「bedside table」指「床旁的位置；床邊」。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-30"
     },
@@ -2603,11 +2355,9 @@ export default {
       "masked": "She sat at his ____.",
       "options": [
         "bed-mcq-30",
-        "bed-mcq-29",
-        "bed-mcq-31",
-        "bed-mcq-28",
-        "bed-mcq-32",
-        "bed-mcq-27"
+        "bed-mcq-25",
+        "bed-mcq-24",
+        "bed-mcq-20"
       ],
       "explanation": "本句的「bedside」指「床旁的位置；床邊」。",
       "sentenceIndex": 62,
@@ -2616,12 +2366,10 @@ export default {
         "bedside"
       ],
       "optionReasons": {
-        "bed-mcq-30": "本句指「床旁的位置；床邊」。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。",
-        "bed-mcq-31": "「因病或虛弱而無法下床；臥床不起的」是「bedridden」的用法，與本句語境不同。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-27": "「床單、被子等床上用品」是「bedding — sleep」的用法，與本句語境不同。"
+        "bed-mcq-30": "本句的「bedside」指「床旁的位置；床邊」。",
+        "bed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-30"
     },
@@ -2633,11 +2381,9 @@ export default {
       "masked": "He was ____ for several weeks.",
       "options": [
         "bed-mcq-31",
-        "bed-mcq-30",
-        "bed-mcq-32",
-        "bed-mcq-29",
-        "bed-mcq-33",
-        "bed-mcq-28"
+        "bed-mcq-23",
+        "bed-mcq-12",
+        "bed-mcq-17"
       ],
       "explanation": "本句的「bedridden」指「因病或虛弱而無法下床；臥床不起的」。",
       "sentenceIndex": 63,
@@ -2646,12 +2392,10 @@ export default {
         "bedridden"
       ],
       "optionReasons": {
-        "bed-mcq-31": "本句指「因病或虛弱而無法下床；臥床不起的」。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。",
-        "bed-mcq-33": "「表示單人床／雙人床／特大床」是「3. single / double / king-size bed」的用法，與本句語境不同。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。"
+        "bed-mcq-31": "本句的「bedridden」指「因病或虛弱而無法下床；臥床不起的」。",
+        "bed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-31"
     },
@@ -2663,11 +2407,9 @@ export default {
       "masked": "The illness left her temporarily ____.",
       "options": [
         "bed-mcq-31",
-        "bed-mcq-30",
-        "bed-mcq-32",
-        "bed-mcq-29",
-        "bed-mcq-33",
-        "bed-mcq-28"
+        "bed-mcq-09",
+        "bed-mcq-12",
+        "bed-mcq-07"
       ],
       "explanation": "本句的「bedridden」指「因病或虛弱而無法下床；臥床不起的」。",
       "sentenceIndex": 64,
@@ -2676,12 +2418,10 @@ export default {
         "bedridden"
       ],
       "optionReasons": {
-        "bed-mcq-31": "本句指「因病或虛弱而無法下床；臥床不起的」。",
-        "bed-mcq-30": "「床旁的位置；床邊」是「bedside」的用法，與本句語境不同。",
-        "bed-mcq-32": "「表示上床睡覺；就寢」是「Passage meaning」的用法，與本句語境不同。",
-        "bed-mcq-29": "「用來睡覺的房間；睡房／臥室」是「bedroom」的用法，與本句語境不同。",
-        "bed-mcq-33": "「表示單人床／雙人床／特大床」是「3. single / double / king-size bed」的用法，與本句語境不同。",
-        "bed-mcq-28": "「支撐管道等的墊層材料」是「bedding — technical」的用法，與本句語境不同。"
+        "bed-mcq-31": "本句的「bedridden」指「因病或虛弱而無法下床；臥床不起的」。",
+        "bed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bed-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bed-mcq-31"
     }
@@ -2693,5 +2433,7 @@ export default {
     "sha256": "7aa489bee0a7294ab5c641a32515d585eb472165b73252633ef7dabff0e36e97",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

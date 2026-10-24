@@ -272,11 +272,8 @@ export default {
       "masked": "Most of us ____ straight past those tiny details.",
       "options": [
         "walk-mcq-01",
-        "walk-mcq-02",
-        "walk-mcq-03",
-        "walk-mcq-04",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07",
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk」指「用雙腳以一般步速從一個位置移動到另一個位置」。",
       "sentenceIndex": 0,
@@ -285,12 +282,9 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-01": "本句指「用雙腳以一般步速從一個位置移動到另一個位置」。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-01": "本句的「walk」指「用雙腳以一般步速從一個位置移動到另一個位置」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-01"
     },
@@ -302,11 +296,8 @@ export default {
       "masked": "I usually ____ to the station.",
       "options": [
         "walk-mcq-01",
-        "walk-mcq-02",
-        "walk-mcq-03",
-        "walk-mcq-04",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07",
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk」指「用雙腳以一般步速從一個位置移動到另一個位置」。",
       "sentenceIndex": 1,
@@ -315,12 +306,9 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-01": "本句指「用雙腳以一般步速從一個位置移動到另一個位置」。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-01": "本句的「walk」指「用雙腳以一般步速從一個位置移動到另一個位置」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-01"
     },
@@ -332,11 +320,8 @@ export default {
       "masked": "They ____ slowly along the river.",
       "options": [
         "walk-mcq-01",
-        "walk-mcq-02",
-        "walk-mcq-03",
-        "walk-mcq-04",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07",
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walked」指「用雙腳以一般步速從一個位置移動到另一個位置」。",
       "sentenceIndex": 2,
@@ -345,12 +330,9 @@ export default {
         "walked"
       ],
       "optionReasons": {
-        "walk-mcq-01": "本句指「用雙腳以一般步速從一個位置移動到另一個位置」。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-01": "本句的「walked」指「用雙腳以一般步速從一個位置移動到另一個位置」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-01"
     },
@@ -362,11 +344,7 @@ export default {
       "masked": "I’ll ____ to the station.",
       "options": [
         "walk-mcq-02",
-        "walk-mcq-01",
-        "walk-mcq-03",
-        "walk-mcq-04",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07"
       ],
       "explanation": "本句的「walk you」指「陪同、帶領或使某人／動物以步行方式前往某處」。",
       "sentenceIndex": 3,
@@ -375,12 +353,8 @@ export default {
         "walk you"
       ],
       "optionReasons": {
-        "walk-mcq-02": "本句指「陪同、帶領或使某人／動物以步行方式前往某處」。",
-        "walk-mcq-01": "「用雙腳以一般步速從一個位置移動到另一個位置」是「walk — move on foot」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-02": "本句的「walk you」指「陪同、帶領或使某人／動物以步行方式前往某處」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-02"
     },
@@ -392,11 +366,7 @@ export default {
       "masked": "She ____ every morning.",
       "options": [
         "walk-mcq-02",
-        "walk-mcq-01",
-        "walk-mcq-03",
-        "walk-mcq-04",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07"
       ],
       "explanation": "本句的「walks the dog」指「陪同、帶領或使某人／動物以步行方式前往某處」。",
       "sentenceIndex": 4,
@@ -405,12 +375,8 @@ export default {
         "walks the dog"
       ],
       "optionReasons": {
-        "walk-mcq-02": "本句指「陪同、帶領或使某人／動物以步行方式前往某處」。",
-        "walk-mcq-01": "「用雙腳以一般步速從一個位置移動到另一個位置」是「walk — move on foot」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-02": "本句的「walks the dog」指「陪同、帶領或使某人／動物以步行方式前往某處」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-02"
     },
@@ -422,11 +388,8 @@ export default {
       "masked": "We went for a ____ after dinner.",
       "options": [
         "walk-mcq-03",
-        "walk-mcq-02",
-        "walk-mcq-04",
-        "walk-mcq-01",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07",
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk」指「一段步行、散步活動，或以步行計算的一段路程」。",
       "sentenceIndex": 5,
@@ -435,12 +398,9 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-03": "本句指「一段步行、散步活動，或以步行計算的一段路程」。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-01": "「用雙腳以一般步速從一個位置移動到另一個位置」是「walk — move on foot」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-03": "本句的「walk」指「一段步行、散步活動，或以步行計算的一段路程」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-03"
     },
@@ -452,11 +412,8 @@ export default {
       "masked": "It’s only a ten-minute ____ from here.",
       "options": [
         "walk-mcq-03",
-        "walk-mcq-02",
-        "walk-mcq-04",
-        "walk-mcq-01",
-        "walk-mcq-05",
-        "walk-mcq-06"
+        "walk-mcq-07",
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk」指「一段步行、散步活動，或以步行計算的一段路程」。",
       "sentenceIndex": 6,
@@ -465,12 +422,9 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-03": "本句指「一段步行、散步活動，或以步行計算的一段路程」。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-01": "「用雙腳以一般步速從一個位置移動到另一個位置」是「walk — move on foot」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-03": "本句的「walk」指「一段步行、散步活動，或以步行計算的一段路程」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-03"
     },
@@ -482,11 +436,7 @@ export default {
       "masked": "I recognized him by his ____.",
       "options": [
         "walk-mcq-04",
-        "walk-mcq-03",
-        "walk-mcq-05",
-        "walk-mcq-02",
-        "walk-mcq-06",
-        "walk-mcq-01"
+        "walk-mcq-07"
       ],
       "explanation": "本句的「walk」指「某人走路時特有的姿勢、節奏或動作方式」。",
       "sentenceIndex": 7,
@@ -495,12 +445,8 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-04": "本句指「某人走路時特有的姿勢、節奏或動作方式」。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-01": "「用雙腳以一般步速從一個位置移動到另一個位置」是「walk — move on foot」的用法，與本句語境不同。"
+        "walk-mcq-04": "本句的「walk」指「某人走路時特有的姿勢、節奏或動作方式」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-04"
     },
@@ -512,11 +458,7 @@ export default {
       "masked": "She has a confident ____.",
       "options": [
         "walk-mcq-04",
-        "walk-mcq-03",
-        "walk-mcq-05",
-        "walk-mcq-02",
-        "walk-mcq-06",
-        "walk-mcq-01"
+        "walk-mcq-07"
       ],
       "explanation": "本句的「walk」指「某人走路時特有的姿勢、節奏或動作方式」。",
       "sentenceIndex": 8,
@@ -525,12 +467,8 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-04": "本句指「某人走路時特有的姿勢、節奏或動作方式」。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-01": "「用雙腳以一般步速從一個位置移動到另一個位置」是「walk — move on foot」的用法，與本句語境不同。"
+        "walk-mcq-04": "本句的「walk」指「某人走路時特有的姿勢、節奏或動作方式」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-04"
     },
@@ -542,11 +480,8 @@ export default {
       "masked": "If they refuse to negotiate, we may have to ____.",
       "options": [
         "walk-mcq-05",
-        "walk-mcq-04",
-        "walk-mcq-06",
-        "walk-mcq-03",
         "walk-mcq-07",
-        "walk-mcq-02"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk」指「主動離開某個地方、工作、談判或處境，不再繼續」。",
       "sentenceIndex": 9,
@@ -555,12 +490,9 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-05": "本句指「主動離開某個地方、工作、談判或處境，不再繼續」。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。"
+        "walk-mcq-05": "本句的「walk」指「主動離開某個地方、工作、談判或處境，不再繼續」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-05"
     },
@@ -572,11 +504,8 @@ export default {
       "masked": "He ____ from the job after the dispute.",
       "options": [
         "walk-mcq-05",
-        "walk-mcq-04",
-        "walk-mcq-06",
-        "walk-mcq-03",
-        "walk-mcq-07",
-        "walk-mcq-02"
+        "walk-mcq-11",
+        "walk-mcq-07"
       ],
       "explanation": "本句的「walked」指「主動離開某個地方、工作、談判或處境，不再繼續」。",
       "sentenceIndex": 10,
@@ -585,12 +514,9 @@ export default {
         "walked"
       ],
       "optionReasons": {
-        "walk-mcq-05": "本句指「主動離開某個地方、工作、談判或處境，不再繼續」。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-02": "「陪同、帶領或使某人／動物以步行方式前往某處」是「walk someone / walk the dog」的用法，與本句語境不同。"
+        "walk-mcq-05": "本句的「walked」指「主動離開某個地方、工作、談判或處境，不再繼續」。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-05"
     },
@@ -602,11 +528,8 @@ export default {
       "masked": "The suspect ____ after the charges were dropped.",
       "options": [
         "walk-mcq-06",
-        "walk-mcq-05",
         "walk-mcq-07",
-        "walk-mcq-04",
-        "walk-mcq-08",
-        "walk-mcq-03"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walked free」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
       "sentenceIndex": 11,
@@ -615,12 +538,9 @@ export default {
         "walked free"
       ],
       "optionReasons": {
-        "walk-mcq-06": "本句指「沒有被定罪、處罰或拘留而離開；獲釋」。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。"
+        "walk-mcq-06": "本句的「walked free」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-06"
     },
@@ -632,11 +552,8 @@ export default {
       "masked": "He could ____ if there isn’t enough evidence.",
       "options": [
         "walk-mcq-06",
-        "walk-mcq-05",
         "walk-mcq-07",
-        "walk-mcq-04",
-        "walk-mcq-08",
-        "walk-mcq-03"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
       "sentenceIndex": 12,
@@ -645,12 +562,9 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-06": "本句指「沒有被定罪、處罰或拘留而離開；獲釋」。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。"
+        "walk-mcq-06": "本句的「walk」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-06"
     },
@@ -662,11 +576,8 @@ export default {
       "masked": "Can you ____ the process?",
       "options": [
         "walk-mcq-11",
-        "walk-mcq-10",
-        "walk-mcq-09",
-        "walk-mcq-08",
-        "walk-mcq-07",
-        "walk-mcq-06"
+        "walk-mcq-05",
+        "walk-mcq-07"
       ],
       "explanation": "本句的「walk me through」指「按步驟逐一解釋或帶領某人完成一個流程」。",
       "sentenceIndex": 13,
@@ -675,12 +586,9 @@ export default {
         "walk me through"
       ],
       "optionReasons": {
-        "walk-mcq-11": "本句指「按步驟逐一解釋或帶領某人完成一個流程」。",
-        "walk-mcq-10": "「專供行人步行使用的通道或路徑」是「walkway」的用法，與本句語境不同。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-11": "本句的「walk me through」指「按步驟逐一解釋或帶領某人完成一個流程」。",
+        "walk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-11"
     },
@@ -692,11 +600,8 @@ export default {
       "masked": "She ____ the new system.",
       "options": [
         "walk-mcq-11",
-        "walk-mcq-10",
-        "walk-mcq-09",
-        "walk-mcq-08",
         "walk-mcq-07",
-        "walk-mcq-06"
+        "walk-mcq-05"
       ],
       "explanation": "本句的「walked us through」指「按步驟逐一解釋或帶領某人完成一個流程」。",
       "sentenceIndex": 14,
@@ -705,12 +610,9 @@ export default {
         "walked us through"
       ],
       "optionReasons": {
-        "walk-mcq-11": "本句指「按步驟逐一解釋或帶領某人完成一個流程」。",
-        "walk-mcq-10": "「專供行人步行使用的通道或路徑」是「walkway」的用法，與本句語境不同。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-11": "本句的「walked us through」指「按步驟逐一解釋或帶領某人完成一個流程」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-11"
     },
@@ -722,11 +624,8 @@ export default {
       "masked": "She ____ of the meeting.",
       "options": [
         "walk-mcq-06",
-        "walk-mcq-05",
         "walk-mcq-07",
-        "walk-mcq-04",
-        "walk-mcq-08",
-        "walk-mcq-03"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walked out」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
       "sentenceIndex": 15,
@@ -735,12 +634,9 @@ export default {
         "walked out"
       ],
       "optionReasons": {
-        "walk-mcq-06": "本句指「沒有被定罪、處罰或拘留而離開；獲釋」。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。"
+        "walk-mcq-06": "本句的「walked out」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-06"
     },
@@ -752,11 +648,8 @@ export default {
       "masked": "He decided to ____ from the deal.",
       "options": [
         "walk-mcq-06",
-        "walk-mcq-05",
         "walk-mcq-07",
-        "walk-mcq-04",
-        "walk-mcq-08",
-        "walk-mcq-03"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walk away」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
       "sentenceIndex": 16,
@@ -765,12 +658,9 @@ export default {
         "walk away"
       ],
       "optionReasons": {
-        "walk-mcq-06": "本句指「沒有被定罪、處罰或拘留而離開；獲釋」。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-03": "「一段步行、散步活動，或以步行計算的一段路程」是「a walk — walking activity/journey」的用法，與本句語境不同。"
+        "walk-mcq-06": "本句的「walk away」指「沒有被定罪、處罰或拘留而離開；獲釋」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-06"
     },
@@ -782,10 +672,6 @@ export default {
       "masked": "The batter drew a ____.",
       "options": [
         "walk-mcq-07",
-        "walk-mcq-06",
-        "walk-mcq-08",
-        "walk-mcq-05",
-        "walk-mcq-09",
         "walk-mcq-04"
       ],
       "explanation": "本句的「walk」指「因四壞球而讓打者保送上一壘」。",
@@ -795,12 +681,8 @@ export default {
         "walk"
       ],
       "optionReasons": {
-        "walk-mcq-07": "本句指「因四壞球而讓打者保送上一壘」。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。"
+        "walk-mcq-07": "本句的「walk」指「因四壞球而讓打者保送上一壘」。",
+        "walk-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-07"
     },
@@ -812,11 +694,8 @@ export default {
       "masked": "The pitcher ____ two batters in the inning.",
       "options": [
         "walk-mcq-07",
-        "walk-mcq-06",
-        "walk-mcq-08",
-        "walk-mcq-05",
         "walk-mcq-09",
-        "walk-mcq-04"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walked」指「因四壞球而讓打者保送上一壘」。",
       "sentenceIndex": 18,
@@ -825,12 +704,9 @@ export default {
         "walked"
       ],
       "optionReasons": {
-        "walk-mcq-07": "本句指「因四壞球而讓打者保送上一壘」。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-04": "「某人走路時特有的姿勢、節奏或動作方式」是「walk — manner of walking」的用法，與本句語境不同。"
+        "walk-mcq-07": "本句的「walked」指「因四壞球而讓打者保送上一壘」。",
+        "walk-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-07"
     },
@@ -843,10 +719,7 @@ export default {
       "options": [
         "walk-mcq-08",
         "walk-mcq-07",
-        "walk-mcq-09",
-        "walk-mcq-06",
-        "walk-mcq-10",
-        "walk-mcq-05"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「Walking」指「以雙腳正常步速移動的活動」。",
       "sentenceIndex": 19,
@@ -855,12 +728,9 @@ export default {
         "Walking"
       ],
       "optionReasons": {
-        "walk-mcq-08": "本句指「以雙腳正常步速移動的活動」。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-10": "「專供行人步行使用的通道或路徑」是「walkway」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。"
+        "walk-mcq-08": "本句的「Walking」指「以雙腳正常步速移動的活動」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-08"
     },
@@ -873,10 +743,7 @@ export default {
       "options": [
         "walk-mcq-08",
         "walk-mcq-07",
-        "walk-mcq-09",
-        "walk-mcq-06",
-        "walk-mcq-10",
-        "walk-mcq-05"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walking」指「以雙腳正常步速移動的活動」。",
       "sentenceIndex": 20,
@@ -885,12 +752,9 @@ export default {
         "walking"
       ],
       "optionReasons": {
-        "walk-mcq-08": "本句指「以雙腳正常步速移動的活動」。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。",
-        "walk-mcq-10": "「專供行人步行使用的通道或路徑」是「walkway」的用法，與本句語境不同。",
-        "walk-mcq-05": "「主動離開某個地方、工作、談判或處境，不再繼續」是「walk — leave/quit」的用法，與本句語境不同。"
+        "walk-mcq-08": "本句的「walking」指「以雙腳正常步速移動的活動」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-08"
     },
@@ -902,11 +766,8 @@ export default {
       "masked": "The path is popular with ____.",
       "options": [
         "walk-mcq-09",
-        "walk-mcq-08",
-        "walk-mcq-10",
         "walk-mcq-07",
-        "walk-mcq-11",
-        "walk-mcq-06"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walkers」指「經常步行、散步或健行的人；另可指助行架」。",
       "sentenceIndex": 21,
@@ -915,12 +776,9 @@ export default {
         "walkers"
       ],
       "optionReasons": {
-        "walk-mcq-09": "本句指「經常步行、散步或健行的人；另可指助行架」。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-10": "「專供行人步行使用的通道或路徑」是「walkway」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-11": "「按步驟逐一解釋或帶領某人完成一個流程」是「7. walk someone through + process（逐步講解） — 帶着……一步步完成；逐步解釋」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-09": "本句的「walkers」指「經常步行、散步或健行的人；另可指助行架」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-09"
     },
@@ -932,11 +790,8 @@ export default {
       "masked": "She is a keen long-distance ____.",
       "options": [
         "walk-mcq-09",
-        "walk-mcq-08",
-        "walk-mcq-10",
         "walk-mcq-07",
-        "walk-mcq-11",
-        "walk-mcq-06"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walker」指「經常步行、散步或健行的人；另可指助行架」。",
       "sentenceIndex": 22,
@@ -945,12 +800,9 @@ export default {
         "walker"
       ],
       "optionReasons": {
-        "walk-mcq-09": "本句指「經常步行、散步或健行的人；另可指助行架」。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-10": "「專供行人步行使用的通道或路徑」是「walkway」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-11": "「按步驟逐一解釋或帶領某人完成一個流程」是「7. walk someone through + process（逐步講解） — 帶着……一步步完成；逐步解釋」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-09": "本句的「walker」指「經常步行、散步或健行的人；另可指助行架」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-09"
     },
@@ -962,11 +814,8 @@ export default {
       "masked": "A covered ____ connects the two buildings.",
       "options": [
         "walk-mcq-10",
-        "walk-mcq-09",
-        "walk-mcq-11",
-        "walk-mcq-08",
         "walk-mcq-07",
-        "walk-mcq-06"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walkway」指「專供行人步行使用的通道或路徑」。",
       "sentenceIndex": 23,
@@ -975,12 +824,9 @@ export default {
         "walkway"
       ],
       "optionReasons": {
-        "walk-mcq-10": "本句指「專供行人步行使用的通道或路徑」。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-11": "「按步驟逐一解釋或帶領某人完成一個流程」是「7. walk someone through + process（逐步講解） — 帶着……一步步完成；逐步解釋」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-10": "本句的「walkway」指「專供行人步行使用的通道或路徑」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-10"
     },
@@ -992,11 +838,8 @@ export default {
       "masked": "Please keep the ____ clear.",
       "options": [
         "walk-mcq-10",
-        "walk-mcq-09",
-        "walk-mcq-11",
-        "walk-mcq-08",
         "walk-mcq-07",
-        "walk-mcq-06"
+        "walk-mcq-11"
       ],
       "explanation": "本句的「walkway」指「專供行人步行使用的通道或路徑」。",
       "sentenceIndex": 24,
@@ -1005,12 +848,9 @@ export default {
         "walkway"
       ],
       "optionReasons": {
-        "walk-mcq-10": "本句指「專供行人步行使用的通道或路徑」。",
-        "walk-mcq-09": "「經常步行、散步或健行的人；另可指助行架」是「walker」的用法，與本句語境不同。",
-        "walk-mcq-11": "「按步驟逐一解釋或帶領某人完成一個流程」是「7. walk someone through + process（逐步講解） — 帶着……一步步完成；逐步解釋」的用法，與本句語境不同。",
-        "walk-mcq-08": "「以雙腳正常步速移動的活動」是「walking」的用法，與本句語境不同。",
-        "walk-mcq-07": "「因四壞球而讓打者保送上一壘」是「walk — baseball」的用法，與本句語境不同。",
-        "walk-mcq-06": "「沒有被定罪、處罰或拘留而離開；獲釋」是「walk free / walk — legal」的用法，與本句語境不同。"
+        "walk-mcq-10": "本句的「walkway」指「專供行人步行使用的通道或路徑」。",
+        "walk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "walk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "walk-mcq-10"
     }
@@ -1022,5 +862,7 @@ export default {
     "sha256": "6dad5df02dc6e6e682c6bb868c6661c583679589f3dfacc0fa44da710118d608",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

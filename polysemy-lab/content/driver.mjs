@@ -373,11 +373,9 @@ export default {
       "masked": "____ need reliable charging facilities.",
       "options": [
         "driver-mcq-01",
-        "driver-mcq-02",
-        "driver-mcq-03",
-        "driver-mcq-04",
-        "driver-mcq-05",
-        "driver-mcq-06"
+        "driver-mcq-11",
+        "driver-mcq-09",
+        "driver-mcq-15"
       ],
       "explanation": "本句的「Drivers」指「實際控制和操作道路車輛的人」。",
       "sentenceIndex": 0,
@@ -386,12 +384,10 @@ export default {
         "Drivers"
       ],
       "optionReasons": {
-        "driver-mcq-01": "本句指「實際控制和操作道路車輛的人」。",
-        "driver-mcq-02": "「以駕駛車輛作為職業主要工作的人」與本句語境不同。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-01": "本句的「Drivers」指「實際控制和操作道路車輛的人」。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-01"
     },
@@ -403,11 +399,9 @@ export default {
       "masked": "The ____ stopped at the traffic light.",
       "options": [
         "driver-mcq-01",
-        "driver-mcq-02",
-        "driver-mcq-03",
-        "driver-mcq-04",
-        "driver-mcq-05",
-        "driver-mcq-06"
+        "driver-mcq-15",
+        "driver-mcq-08",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driver」指「實際控制和操作道路車輛的人」。",
       "sentenceIndex": 1,
@@ -416,12 +410,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-01": "本句指「實際控制和操作道路車輛的人」。",
-        "driver-mcq-02": "「以駕駛車輛作為職業主要工作的人」與本句語境不同。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-01": "本句的「driver」指「實際控制和操作道路車輛的人」。",
+        "driver-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-01"
     },
@@ -433,11 +425,9 @@ export default {
       "masked": "Professional ____ may travel hundreds of kilometres a day.",
       "options": [
         "driver-mcq-02",
-        "driver-mcq-01",
-        "driver-mcq-03",
-        "driver-mcq-04",
-        "driver-mcq-05",
-        "driver-mcq-06"
+        "driver-mcq-14",
+        "driver-mcq-10",
+        "driver-mcq-15"
       ],
       "explanation": "本句的「drivers」指「以駕駛車輛作為職業主要工作的人」。",
       "sentenceIndex": 12,
@@ -446,12 +436,10 @@ export default {
         "drivers"
       ],
       "optionReasons": {
-        "driver-mcq-02": "本句指「以駕駛車輛作為職業主要工作的人」。",
-        "driver-mcq-01": "「實際控制和操作道路車輛的人」與本句語境不同。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-02": "本句的「drivers」指「以駕駛車輛作為職業主要工作的人」。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-02"
     },
@@ -463,11 +451,9 @@ export default {
       "masked": "Charging infrastructure matters especially to professional ____.",
       "options": [
         "driver-mcq-02",
-        "driver-mcq-01",
-        "driver-mcq-03",
-        "driver-mcq-04",
-        "driver-mcq-05",
-        "driver-mcq-06"
+        "driver-mcq-06",
+        "driver-mcq-15",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「drivers」指「以駕駛車輛作為職業主要工作的人」。",
       "sentenceIndex": 13,
@@ -476,12 +462,10 @@ export default {
         "drivers"
       ],
       "optionReasons": {
-        "driver-mcq-02": "本句指「以駕駛車輛作為職業主要工作的人」。",
-        "driver-mcq-01": "「實際控制和操作道路車輛的人」與本句語境不同。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-02": "本句的「drivers」指「以駕駛車輛作為職業主要工作的人」。",
+        "driver-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-02"
     },
@@ -493,11 +477,9 @@ export default {
       "masked": "She was the ____ for the evening.",
       "options": [
         "driver-mcq-03",
-        "driver-mcq-02",
-        "driver-mcq-04",
-        "driver-mcq-01",
-        "driver-mcq-05",
-        "driver-mcq-06"
+        "driver-mcq-08",
+        "driver-mcq-11",
+        "driver-pdf-001"
       ],
       "explanation": "本句的「designated driver」指「聚會中事先指定不飲酒、負責安全駕車的人」。",
       "sentenceIndex": 22,
@@ -506,12 +488,10 @@ export default {
         "designated driver"
       ],
       "optionReasons": {
-        "driver-mcq-03": "本句指「聚會中事先指定不飲酒、負責安全駕車的人」。",
-        "driver-mcq-02": "「以駕駛車輛作為職業主要工作的人」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-01": "「實際控制和操作道路車輛的人」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-03": "本句的「designated driver」指「聚會中事先指定不飲酒、負責安全駕車的人」。",
+        "driver-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-03"
     },
@@ -523,11 +503,9 @@ export default {
       "masked": "A designated ____ agrees not to drink alcohol.",
       "options": [
         "driver-mcq-03",
-        "driver-mcq-02",
-        "driver-mcq-04",
-        "driver-mcq-01",
-        "driver-mcq-05",
-        "driver-mcq-06"
+        "driver-mcq-06",
+        "driver-mcq-15",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driver」指「聚會中事先指定不飲酒、負責安全駕車的人」。",
       "sentenceIndex": 23,
@@ -536,12 +514,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-03": "本句指「聚會中事先指定不飲酒、負責安全駕車的人」。",
-        "driver-mcq-02": "「以駕駛車輛作為職業主要工作的人」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-01": "「實際控制和操作道路車輛的人」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-03": "本句的「driver」指「聚會中事先指定不飲酒、負責安全駕車的人」。",
+        "driver-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-03"
     },
@@ -553,11 +529,9 @@ export default {
       "masked": "She sat in the ____’s seat.",
       "options": [
         "driver-mcq-04",
-        "driver-mcq-03",
-        "driver-mcq-05",
-        "driver-mcq-02",
-        "driver-mcq-06",
-        "driver-mcq-01"
+        "driver-mcq-07",
+        "driver-mcq-11",
+        "driver-mcq-14"
       ],
       "explanation": "本句的「driver」指「車輛中供駕駛者操作車輛的位置」。",
       "sentenceIndex": 30,
@@ -566,12 +540,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-04": "本句指「車輛中供駕駛者操作車輛的位置」。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-02": "「以駕駛車輛作為職業主要工作的人」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-01": "「實際控制和操作道路車輛的人」與本句語境不同。"
+        "driver-mcq-04": "本句的「driver」指「車輛中供駕駛者操作車輛的位置」。",
+        "driver-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-04"
     },
@@ -583,11 +555,9 @@ export default {
       "masked": "The controls are beside the ____’s seat.",
       "options": [
         "driver-mcq-04",
-        "driver-mcq-03",
-        "driver-mcq-05",
-        "driver-mcq-02",
-        "driver-mcq-06",
-        "driver-mcq-01"
+        "driver-mcq-14",
+        "driver-mcq-10",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driver」指「車輛中供駕駛者操作車輛的位置」。",
       "sentenceIndex": 31,
@@ -596,12 +566,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-04": "本句指「車輛中供駕駛者操作車輛的位置」。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-02": "「以駕駛車輛作為職業主要工作的人」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-01": "「實際控制和操作道路車輛的人」與本句語境不同。"
+        "driver-mcq-04": "本句的「driver」指「車輛中供駕駛者操作車輛的位置」。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-04"
     },
@@ -613,10 +581,8 @@ export default {
       "masked": "Cost is a major ____.",
       "options": [
         "driver-mcq-06",
-        "driver-mcq-05",
-        "driver-mcq-07",
-        "driver-mcq-04",
-        "driver-mcq-08",
+        "driver-mcq-11",
+        "driver-mcq-01",
         "driver-mcq-03"
       ],
       "explanation": "本句的「driver of demand」指「對某結果／變化具有強烈推動作用的因素」。",
@@ -626,12 +592,10 @@ export default {
         "driver of demand"
       ],
       "optionReasons": {
-        "driver-mcq-06": "本句指「對某結果／變化具有強烈推動作用的因素」。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。"
+        "driver-mcq-06": "本句的「driver of demand」指「對某結果／變化具有強烈推動作用的因素」。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-06"
     },
@@ -643,11 +607,9 @@ export default {
       "masked": "Technology is a key ____ of productivity.",
       "options": [
         "driver-mcq-06",
-        "driver-mcq-05",
-        "driver-mcq-07",
-        "driver-mcq-04",
-        "driver-mcq-08",
-        "driver-mcq-03"
+        "driver-mcq-03",
+        "driver-mcq-11",
+        "driver-mcq-01"
       ],
       "explanation": "本句的「driver」指「對某結果／變化具有強烈推動作用的因素」。",
       "sentenceIndex": 37,
@@ -656,12 +618,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-06": "本句指「對某結果／變化具有強烈推動作用的因素」。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-03": "「聚會中事先指定不飲酒、負責安全駕車的人」與本句語境不同。"
+        "driver-mcq-06": "本句的「driver」指「對某結果／變化具有強烈推動作用的因素」。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-06"
     },
@@ -673,11 +633,9 @@ export default {
       "masked": "Convenience is a key ____ of consumer choice.",
       "options": [
         "driver-mcq-07",
-        "driver-mcq-06",
-        "driver-mcq-08",
-        "driver-mcq-05",
-        "driver-mcq-09",
-        "driver-mcq-04"
+        "driver-mcq-03",
+        "driver-mcq-04",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driver」指「對結果影響最大或最重要的推動因素之一」。",
       "sentenceIndex": 38,
@@ -686,12 +644,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-07": "本句指「對結果影響最大或最重要的推動因素之一」。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。"
+        "driver-mcq-07": "本句的「driver」指「對結果影響最大或最重要的推動因素之一」。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-07"
     },
@@ -703,11 +659,9 @@ export default {
       "masked": "Battery cost remains a key ____ of electric-car prices.",
       "options": [
         "driver-mcq-07",
-        "driver-mcq-06",
-        "driver-mcq-08",
-        "driver-mcq-05",
-        "driver-mcq-09",
-        "driver-mcq-04"
+        "driver-mcq-03",
+        "driver-mcq-11",
+        "driver-mcq-14"
       ],
       "explanation": "本句的「driver」指「對結果影響最大或最重要的推動因素之一」。",
       "sentenceIndex": 39,
@@ -716,12 +670,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-07": "本句指「對結果影響最大或最重要的推動因素之一」。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。"
+        "driver-mcq-07": "本句的「driver」指「對結果影響最大或最重要的推動因素之一」。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-07"
     },
@@ -733,11 +685,9 @@ export default {
       "masked": "Exports are an important ____ of economic growth.",
       "options": [
         "driver-mcq-09",
-        "driver-mcq-08",
-        "driver-mcq-10",
-        "driver-mcq-07",
         "driver-mcq-11",
-        "driver-mcq-06"
+        "driver-mcq-03",
+        "driver-mcq-14"
       ],
       "explanation": "本句的「driver」指「推動增長的主要力量／因素」。",
       "sentenceIndex": 42,
@@ -746,12 +696,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-09": "本句指「推動增長的主要力量／因素」。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-10": "「推動某種行為的深層心理因素」與本句語境不同。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。",
-        "driver-mcq-11": "「讓作業系統／軟件能與硬件設備溝通的程式」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-09": "本句的「driver」指「推動增長的主要力量／因素」。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-09"
     },
@@ -763,11 +711,9 @@ export default {
       "masked": "Innovation can become a ____ of growth.",
       "options": [
         "driver-mcq-09",
-        "driver-mcq-08",
-        "driver-mcq-10",
-        "driver-mcq-07",
-        "driver-mcq-11",
-        "driver-mcq-06"
+        "driver-mcq-14",
+        "driver-mcq-03",
+        "driver-mcq-04"
       ],
       "explanation": "本句的「driver」指「推動增長的主要力量／因素」。",
       "sentenceIndex": 43,
@@ -776,12 +722,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-09": "本句指「推動增長的主要力量／因素」。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-10": "「推動某種行為的深層心理因素」與本句語境不同。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。",
-        "driver-mcq-11": "「讓作業系統／軟件能與硬件設備溝通的程式」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。"
+        "driver-mcq-09": "本句的「driver」指「推動增長的主要力量／因素」。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-09"
     },
@@ -793,11 +737,9 @@ export default {
       "masked": "Labour hours are a major ____.",
       "options": [
         "driver-mcq-08",
-        "driver-mcq-07",
-        "driver-mcq-09",
-        "driver-mcq-06",
-        "driver-mcq-10",
-        "driver-mcq-05"
+        "driver-mcq-01",
+        "driver-mcq-03",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「cost driver」指「導致成本水平發生變化的活動／因素」。",
       "sentenceIndex": 44,
@@ -806,12 +748,10 @@ export default {
         "cost driver"
       ],
       "optionReasons": {
-        "driver-mcq-08": "本句指「導致成本水平發生變化的活動／因素」。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-10": "「推動某種行為的深層心理因素」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。"
+        "driver-mcq-08": "本句的「cost driver」指「導致成本水平發生變化的活動／因素」。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-08"
     },
@@ -823,11 +763,9 @@ export default {
       "masked": "Energy prices are a key cost ____.",
       "options": [
         "driver-mcq-08",
-        "driver-mcq-07",
-        "driver-mcq-09",
-        "driver-mcq-06",
-        "driver-mcq-10",
-        "driver-mcq-05"
+        "driver-mcq-02",
+        "driver-mcq-11",
+        "driver-mcq-03"
       ],
       "explanation": "本句的「driver」指「導致成本水平發生變化的活動／因素」。",
       "sentenceIndex": 45,
@@ -836,12 +774,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-08": "本句指「導致成本水平發生變化的活動／因素」。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-10": "「推動某種行為的深層心理因素」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。"
+        "driver-mcq-08": "本句的「driver」指「導致成本水平發生變化的活動／因素」。",
+        "driver-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-08"
     },
@@ -853,11 +789,9 @@ export default {
       "masked": "Researchers examined the psychological ____ of online behaviour.",
       "options": [
         "driver-mcq-10",
-        "driver-mcq-09",
-        "driver-mcq-11",
-        "driver-mcq-08",
-        "driver-mcq-12",
-        "driver-mcq-07"
+        "driver-mcq-01",
+        "driver-mcq-14",
+        "driver-mcq-03"
       ],
       "explanation": "本句的「drivers」指「推動某種行為的深層心理因素」。",
       "sentenceIndex": 58,
@@ -866,12 +800,10 @@ export default {
         "drivers"
       ],
       "optionReasons": {
-        "driver-mcq-10": "本句指「推動某種行為的深層心理因素」。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-11": "「讓作業系統／軟件能與硬件設備溝通的程式」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。"
+        "driver-mcq-10": "本句的「drivers」指「推動某種行為的深層心理因素」。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-10"
     },
@@ -883,11 +815,9 @@ export default {
       "masked": "Social approval can be a strong psychological ____.",
       "options": [
         "driver-mcq-10",
-        "driver-mcq-09",
-        "driver-mcq-11",
-        "driver-mcq-08",
-        "driver-mcq-12",
-        "driver-mcq-07"
+        "driver-mcq-03",
+        "driver-mcq-04",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driver」指「推動某種行為的深層心理因素」。",
       "sentenceIndex": 59,
@@ -896,12 +826,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-10": "本句指「推動某種行為的深層心理因素」。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-11": "「讓作業系統／軟件能與硬件設備溝通的程式」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。",
-        "driver-mcq-07": "「對結果影響最大或最重要的推動因素之一」與本句語境不同。"
+        "driver-mcq-10": "本句的「driver」指「推動某種行為的深層心理因素」。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-10"
     },
@@ -913,11 +841,9 @@ export default {
       "masked": "You need to install the printer ____.",
       "options": [
         "driver-mcq-11",
-        "driver-mcq-10",
-        "driver-mcq-12",
-        "driver-mcq-09",
-        "driver-mcq-13",
-        "driver-mcq-08"
+        "driver-mcq-08",
+        "driver-mcq-01",
+        "driver-mcq-15"
       ],
       "explanation": "本句的「driver」指「讓作業系統／軟件能與硬件設備溝通的程式」。",
       "sentenceIndex": 60,
@@ -926,12 +852,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-11": "本句指「讓作業系統／軟件能與硬件設備溝通的程式」。",
-        "driver-mcq-10": "「推動某種行為的深層心理因素」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。"
+        "driver-mcq-11": "本句的「driver」指「讓作業系統／軟件能與硬件設備溝通的程式」。",
+        "driver-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-11"
     },
@@ -943,11 +867,9 @@ export default {
       "masked": "The device stopped working after the ____ update.",
       "options": [
         "driver-mcq-11",
-        "driver-mcq-10",
-        "driver-mcq-12",
-        "driver-mcq-09",
-        "driver-mcq-13",
-        "driver-mcq-08"
+        "driver-mcq-03",
+        "driver-mcq-01",
+        "driver-mcq-06"
       ],
       "explanation": "本句的「driver」指「讓作業系統／軟件能與硬件設備溝通的程式」。",
       "sentenceIndex": 61,
@@ -956,12 +878,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-11": "本句指「讓作業系統／軟件能與硬件設備溝通的程式」。",
-        "driver-mcq-10": "「推動某種行為的深層心理因素」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。"
+        "driver-mcq-11": "本句的「driver」指「讓作業系統／軟件能與硬件設備溝通的程式」。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-11"
     },
@@ -973,11 +893,9 @@ export default {
       "masked": "The lamp requires a compatible ____.",
       "options": [
         "driver-mcq-15",
-        "driver-mcq-14",
-        "driver-mcq-16",
-        "driver-mcq-13",
-        "driver-mcq-17",
-        "driver-mcq-12"
+        "driver-mcq-03",
+        "driver-mcq-11",
+        "driver-mcq-01"
       ],
       "explanation": "本句的「LED driver」指「調節並供應 LED 所需電流／電壓的驅動器」。",
       "sentenceIndex": 78,
@@ -986,12 +904,10 @@ export default {
         "LED driver"
       ],
       "optionReasons": {
-        "driver-mcq-15": "本句指「調節並供應 LED 所需電流／電壓的驅動器」。",
-        "driver-mcq-14": "「把電訊號轉化成聲音的揚聲器發聲單元」與本句語境不同。",
-        "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。",
-        "driver-mcq-17": "「被強烈目標／野心驅動、非常有幹勁的」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。"
+        "driver-mcq-15": "本句的「LED driver」指「調節並供應 LED 所需電流／電壓的驅動器」。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-15"
     },
@@ -1003,11 +919,9 @@ export default {
       "masked": "The ____ regulates current to the LEDs.",
       "options": [
         "driver-mcq-15",
-        "driver-mcq-14",
-        "driver-mcq-16",
-        "driver-mcq-13",
-        "driver-mcq-17",
-        "driver-mcq-12"
+        "driver-mcq-02",
+        "driver-mcq-03",
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driver」指「調節並供應 LED 所需電流／電壓的驅動器」。",
       "sentenceIndex": 79,
@@ -1016,12 +930,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-15": "本句指「調節並供應 LED 所需電流／電壓的驅動器」。",
-        "driver-mcq-14": "「把電訊號轉化成聲音的揚聲器發聲單元」與本句語境不同。",
-        "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。",
-        "driver-mcq-17": "「被強烈目標／野心驅動、非常有幹勁的」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。"
+        "driver-mcq-15": "本句的「driver」指「調節並供應 LED 所需電流／電壓的驅動器」。",
+        "driver-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-15"
     },
@@ -1033,11 +945,9 @@ export default {
       "masked": "The speaker contains two ____.",
       "options": [
         "driver-mcq-14",
-        "driver-mcq-13",
-        "driver-mcq-15",
-        "driver-mcq-12",
-        "driver-mcq-16",
-        "driver-mcq-11"
+        "driver-mcq-07",
+        "driver-mcq-11",
+        "driver-mcq-01"
       ],
       "explanation": "本句的「drivers」指「把電訊號轉化成聲音的揚聲器發聲單元」。",
       "sentenceIndex": 82,
@@ -1046,12 +956,10 @@ export default {
         "drivers"
       ],
       "optionReasons": {
-        "driver-mcq-14": "本句指「把電訊號轉化成聲音的揚聲器發聲單元」。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。",
-        "driver-mcq-15": "「調節並供應 LED 所需電流／電壓的驅動器」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。",
-        "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
-        "driver-mcq-11": "「讓作業系統／軟件能與硬件設備溝通的程式」與本句語境不同。"
+        "driver-mcq-14": "本句的「drivers」指「把電訊號轉化成聲音的揚聲器發聲單元」。",
+        "driver-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-14"
     },
@@ -1063,11 +971,9 @@ export default {
       "masked": "A larger ____ can reproduce lower frequencies.",
       "options": [
         "driver-mcq-14",
-        "driver-mcq-13",
-        "driver-mcq-15",
-        "driver-mcq-12",
-        "driver-mcq-16",
-        "driver-mcq-11"
+        "driver-mcq-01",
+        "driver-mcq-03",
+        "driver-pdf-001"
       ],
       "explanation": "本句的「driver」指「把電訊號轉化成聲音的揚聲器發聲單元」。",
       "sentenceIndex": 83,
@@ -1076,12 +982,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-14": "本句指「把電訊號轉化成聲音的揚聲器發聲單元」。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。",
-        "driver-mcq-15": "「調節並供應 LED 所需電流／電壓的驅動器」與本句語境不同。",
-        "driver-mcq-12": "「通常用於開球、追求長距離的一號木桿」與本句語境不同。",
-        "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
-        "driver-mcq-11": "「讓作業系統／軟件能與硬件設備溝通的程式」與本句語境不同。"
+        "driver-mcq-14": "本句的「driver」指「把電訊號轉化成聲音的揚聲器發聲單元」。",
+        "driver-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "driver-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-14"
     },
@@ -1093,11 +997,9 @@ export default {
       "masked": "She is extremely ____.",
       "options": [
         "driver-pdf-001",
-        "driver-mcq-17",
-        "driver-mcq-16",
-        "driver-mcq-15",
+        "driver-mcq-04",
         "driver-mcq-14",
-        "driver-mcq-13"
+        "driver-mcq-11"
       ],
       "explanation": "本句的「driven」指「被強烈目標／野心推動而非常努力的」。",
       "sentenceIndex": 93,
@@ -1106,12 +1008,10 @@ export default {
         "driven"
       ],
       "optionReasons": {
-        "driver-pdf-001": "本句指「被強烈目標／野心推動而非常努力的」。",
-        "driver-mcq-17": "「被強烈目標／野心驅動、非常有幹勁的」與本句語境不同。",
-        "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
-        "driver-mcq-15": "「調節並供應 LED 所需電流／電壓的驅動器」與本句語境不同。",
-        "driver-mcq-14": "「把電訊號轉化成聲音的揚聲器發聲單元」與本句語境不同。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。"
+        "driver-pdf-001": "本句的「driven」指「被強烈目標／野心推動而非常努力的」。",
+        "driver-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-pdf-001"
     },
@@ -1123,11 +1023,9 @@ export default {
       "masked": "The company uses a ____ approach.",
       "options": [
         "driver-mcq-18",
-        "driver-mcq-17",
-        "driver-mcq-16",
-        "driver-mcq-15",
-        "driver-mcq-14",
-        "driver-mcq-13"
+        "driver-mcq-04",
+        "driver-mcq-11",
+        "driver-mcq-14"
       ],
       "explanation": "本句的「data-driven」指「主要由 X 推動、控制或決定的」。",
       "sentenceIndex": 94,
@@ -1136,12 +1034,10 @@ export default {
         "data-driven"
       ],
       "optionReasons": {
-        "driver-mcq-18": "本句指「主要由 X 推動、控制或決定的」。",
-        "driver-mcq-17": "「被強烈目標／野心驅動、非常有幹勁的」與本句語境不同。",
-        "driver-mcq-16": "「強力推動事情發展的人／因素」與本句語境不同。",
-        "driver-mcq-15": "「調節並供應 LED 所需電流／電壓的驅動器」與本句語境不同。",
-        "driver-mcq-14": "「把電訊號轉化成聲音的揚聲器發聲單元」與本句語境不同。",
-        "driver-mcq-13": "「提供／控制動力並帶動另一部件的驅動裝置」與本句語境不同。"
+        "driver-mcq-18": "本句的「data-driven」指「主要由 X 推動、控制或決定的」。",
+        "driver-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-18"
     },
@@ -1153,10 +1049,8 @@ export default {
       "masked": "Key ____ analysis identified convenience as the strongest influence.",
       "options": [
         "driver-mcq-07",
-        "driver-mcq-06",
-        "driver-mcq-08",
-        "driver-mcq-05",
-        "driver-mcq-09",
+        "driver-mcq-11",
+        "driver-mcq-14",
         "driver-mcq-04"
       ],
       "explanation": "本句的「driver」指「對結果影響最大或最重要的推動因素之一」。",
@@ -1166,12 +1060,10 @@ export default {
         "driver"
       ],
       "optionReasons": {
-        "driver-mcq-07": "本句指「對結果影響最大或最重要的推動因素之一」。",
-        "driver-mcq-06": "「對某結果／變化具有強烈推動作用的因素」與本句語境不同。",
-        "driver-mcq-08": "「導致成本水平發生變化的活動／因素」與本句語境不同。",
-        "driver-mcq-05": "「掌握控制權／主導局面」與本句語境不同。",
-        "driver-mcq-09": "「推動增長的主要力量／因素」與本句語境不同。",
-        "driver-mcq-04": "「車輛中供駕駛者操作車輛的位置」與本句語境不同。"
+        "driver-mcq-07": "本句的「driver」指「對結果影響最大或最重要的推動因素之一」。",
+        "driver-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "driver-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "driver-mcq-07"
     }
@@ -1183,5 +1075,7 @@ export default {
     "sha256": "1f92788caf3786ccf4558d798fee9c328f40243b2274dc0a058c01a15e9e2e14",
     "pages": 43
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

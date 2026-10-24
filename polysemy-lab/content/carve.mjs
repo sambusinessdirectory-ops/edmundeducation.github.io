@@ -301,11 +301,9 @@ export default {
       "masked": "He ____ a bird from wood.",
       "options": [
         "carve-mcq-01",
-        "carve-mcq-02",
-        "carve-mcq-03",
-        "carve-mcq-04",
-        "carve-mcq-05",
-        "carve-mcq-06"
+        "carve-mcq-09",
+        "carve-pdf-001",
+        "carve-mcq-11"
       ],
       "explanation": "本句的「carved」指「用刀具切削木頭、石頭等，使其形成形狀或圖案」。",
       "sentenceIndex": 0,
@@ -314,12 +312,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-01": "本句指「用刀具切削木頭、石頭等，使其形成形狀或圖案」。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-01": "本句的「carved」指「用刀具切削木頭、石頭等，使其形成形狀或圖案」。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-01"
     },
@@ -331,11 +327,9 @@ export default {
       "masked": "The statue was ____ from stone.",
       "options": [
         "carve-mcq-01",
-        "carve-mcq-02",
-        "carve-mcq-03",
-        "carve-mcq-04",
-        "carve-mcq-05",
-        "carve-mcq-06"
+        "carve-mcq-09",
+        "carve-mcq-11",
+        "carve-mcq-05"
       ],
       "explanation": "本句的「carved」指「用刀具切削木頭、石頭等，使其形成形狀或圖案」。",
       "sentenceIndex": 1,
@@ -344,12 +338,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-01": "本句指「用刀具切削木頭、石頭等，使其形成形狀或圖案」。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-01": "本句的「carved」指「用刀具切削木頭、石頭等，使其形成形狀或圖案」。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-01"
     },
@@ -361,11 +353,9 @@ export default {
       "masked": "Someone had ____ a name into the table.",
       "options": [
         "carve-mcq-02",
-        "carve-mcq-01",
-        "carve-mcq-03",
         "carve-mcq-04",
-        "carve-mcq-05",
-        "carve-mcq-06"
+        "carve-mcq-08",
+        "carve-mcq-11"
       ],
       "explanation": "本句的「carved」指「在表面切出文字、圖案或記號」。",
       "sentenceIndex": 2,
@@ -374,12 +364,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-02": "本句指「在表面切出文字、圖案或記號」。",
-        "carve-mcq-01": "「用刀具切削木頭、石頭等，使其形成形狀或圖案」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-02": "本句的「carved」指「在表面切出文字、圖案或記號」。",
+        "carve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-02"
     },
@@ -391,11 +379,9 @@ export default {
       "masked": "The date was ____ into the stone.",
       "options": [
         "carve-mcq-02",
-        "carve-mcq-01",
-        "carve-mcq-03",
-        "carve-mcq-04",
-        "carve-mcq-05",
-        "carve-mcq-06"
+        "carve-pdf-001",
+        "carve-mcq-11",
+        "carve-mcq-08"
       ],
       "explanation": "本句的「carved」指「在表面切出文字、圖案或記號」。",
       "sentenceIndex": 3,
@@ -404,12 +390,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-02": "本句指「在表面切出文字、圖案或記號」。",
-        "carve-mcq-01": "「用刀具切削木頭、石頭等，使其形成形狀或圖案」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-02": "本句的「carved」指「在表面切出文字、圖案或記號」。",
+        "carve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-02"
     },
@@ -421,11 +405,9 @@ export default {
       "masked": "He ____ the roast chicken.",
       "options": [
         "carve-mcq-03",
-        "carve-mcq-02",
-        "carve-mcq-04",
-        "carve-mcq-01",
-        "carve-mcq-05",
-        "carve-mcq-06"
+        "carve-mcq-11",
+        "carve-mcq-09",
+        "carve-mcq-12"
       ],
       "explanation": "本句的「carved」指「把整塊熟肉／家禽切成可食用的片或份量」。",
       "sentenceIndex": 4,
@@ -434,12 +416,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-03": "本句指「把整塊熟肉／家禽切成可食用的片或份量」。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-01": "「用刀具切削木頭、石頭等，使其形成形狀或圖案」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-03": "本句的「carved」指「把整塊熟肉／家禽切成可食用的片或份量」。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-03"
     },
@@ -451,11 +431,9 @@ export default {
       "masked": "She ____ the turkey at the table.",
       "options": [
         "carve-mcq-03",
-        "carve-mcq-02",
-        "carve-mcq-04",
-        "carve-mcq-01",
-        "carve-mcq-05",
-        "carve-mcq-06"
+        "carve-mcq-12",
+        "carve-mcq-07",
+        "carve-mcq-09"
       ],
       "explanation": "本句的「carved」指「把整塊熟肉／家禽切成可食用的片或份量」。",
       "sentenceIndex": 5,
@@ -464,12 +442,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-03": "本句指「把整塊熟肉／家禽切成可食用的片或份量」。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-01": "「用刀具切削木頭、石頭等，使其形成形狀或圖案」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-03": "本句的「carved」指「把整塊熟肉／家禽切成可食用的片或份量」。",
+        "carve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-03"
     },
@@ -481,11 +457,9 @@ export default {
       "masked": "The museum displayed a wooden ____.",
       "options": [
         "carve-mcq-04",
-        "carve-mcq-03",
-        "carve-mcq-05",
-        "carve-mcq-02",
-        "carve-mcq-06",
-        "carve-mcq-01"
+        "carve-mcq-11",
+        "carve-mcq-08",
+        "carve-mcq-02"
       ],
       "explanation": "本句的「carving」指「經雕刻製成的物件／藝術作品」。",
       "sentenceIndex": 6,
@@ -494,12 +468,10 @@ export default {
         "carving"
       ],
       "optionReasons": {
-        "carve-mcq-04": "本句指「經雕刻製成的物件／藝術作品」。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-01": "「用刀具切削木頭、石頭等，使其形成形狀或圖案」與本句語境不同。"
+        "carve-mcq-04": "本句的「carving」指「經雕刻製成的物件／藝術作品」。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-04"
     },
@@ -511,11 +483,9 @@ export default {
       "masked": "The ____ showed a traditional pattern.",
       "options": [
         "carve-mcq-04",
-        "carve-mcq-03",
-        "carve-mcq-05",
+        "carve-mcq-08",
         "carve-mcq-02",
-        "carve-mcq-06",
-        "carve-mcq-01"
+        "carve-mcq-11"
       ],
       "explanation": "本句的「carving」指「經雕刻製成的物件／藝術作品」。",
       "sentenceIndex": 7,
@@ -524,12 +494,10 @@ export default {
         "carving"
       ],
       "optionReasons": {
-        "carve-mcq-04": "本句指「經雕刻製成的物件／藝術作品」。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-01": "「用刀具切削木頭、石頭等，使其形成形狀或圖案」與本句語境不同。"
+        "carve-mcq-04": "本句的「carving」指「經雕刻製成的物件／藝術作品」。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-04"
     },
@@ -541,11 +509,9 @@ export default {
       "masked": "Wood ____ requires patience.",
       "options": [
         "carve-mcq-05",
-        "carve-mcq-04",
         "carve-mcq-06",
-        "carve-mcq-03",
-        "carve-mcq-07",
-        "carve-mcq-02"
+        "carve-mcq-11",
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carving」指「雕刻這項工藝或技術」。",
       "sentenceIndex": 8,
@@ -554,12 +520,10 @@ export default {
         "carving"
       ],
       "optionReasons": {
-        "carve-mcq-05": "本句指「雕刻這項工藝或技術」。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。"
+        "carve-mcq-05": "本句的「carving」指「雕刻這項工藝或技術」。",
+        "carve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-05"
     },
@@ -571,11 +535,9 @@ export default {
       "masked": "She learned stone ____.",
       "options": [
         "carve-mcq-05",
-        "carve-mcq-04",
-        "carve-mcq-06",
-        "carve-mcq-03",
-        "carve-mcq-07",
-        "carve-mcq-02"
+        "carve-mcq-11",
+        "carve-mcq-01",
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carving」指「雕刻這項工藝或技術」。",
       "sentenceIndex": 9,
@@ -584,12 +546,10 @@ export default {
         "carving"
       ],
       "optionReasons": {
-        "carve-mcq-05": "本句指「雕刻這項工藝或技術」。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。"
+        "carve-mcq-05": "本句的「carving」指「雕刻這項工藝或技術」。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-05"
     },
@@ -601,11 +561,9 @@ export default {
       "masked": "The ____ worked carefully on the wood.",
       "options": [
         "carve-pdf-001",
-        "carve-mcq-04",
-        "carve-mcq-06",
-        "carve-mcq-03",
-        "carve-mcq-07",
-        "carve-mcq-02"
+        "carve-mcq-02",
+        "carve-mcq-11",
+        "carve-mcq-06"
       ],
       "explanation": "本句的「carver」指「以雕刻為工作／技能的人」。",
       "sentenceIndex": 10,
@@ -614,12 +572,10 @@ export default {
         "carver"
       ],
       "optionReasons": {
-        "carve-pdf-001": "本句指「以雕刻為工作／技能的人」。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。"
+        "carve-pdf-001": "本句的「carver」指「以雕刻為工作／技能的人」。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-pdf-001"
     },
@@ -631,11 +587,9 @@ export default {
       "masked": "He trained as a stone ____.",
       "options": [
         "carve-pdf-001",
-        "carve-mcq-04",
-        "carve-mcq-06",
-        "carve-mcq-03",
-        "carve-mcq-07",
-        "carve-mcq-02"
+        "carve-mcq-11",
+        "carve-mcq-02",
+        "carve-mcq-06"
       ],
       "explanation": "本句的「carver」指「以雕刻為工作／技能的人」。",
       "sentenceIndex": 11,
@@ -644,12 +598,10 @@ export default {
         "carver"
       ],
       "optionReasons": {
-        "carve-pdf-001": "本句指「以雕刻為工作／技能的人」。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-02": "「在表面切出文字、圖案或記號」與本句語境不同。"
+        "carve-pdf-001": "本句的「carver」指「以雕刻為工作／技能的人」。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-pdf-001"
     },
@@ -661,11 +613,9 @@ export default {
       "masked": "The river ____ a deep valley.",
       "options": [
         "carve-mcq-06",
-        "carve-mcq-05",
-        "carve-mcq-07",
-        "carve-mcq-04",
-        "carve-mcq-08",
-        "carve-mcq-03"
+        "carve-mcq-12",
+        "carve-mcq-11",
+        "carve-mcq-09"
       ],
       "explanation": "本句的「carved out」指「透過切削、侵蝕或挖掘形成空間／形狀」。",
       "sentenceIndex": 12,
@@ -674,12 +624,10 @@ export default {
         "carved out"
       ],
       "optionReasons": {
-        "carve-mcq-06": "本句指「透過切削、侵蝕或挖掘形成空間／形狀」。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。"
+        "carve-mcq-06": "本句的「carved out」指「透過切削、侵蝕或挖掘形成空間／形狀」。",
+        "carve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-06"
     },
@@ -691,11 +639,9 @@ export default {
       "masked": "Workers ____ out a passage through the rock.",
       "options": [
         "carve-mcq-06",
-        "carve-mcq-05",
-        "carve-mcq-07",
-        "carve-mcq-04",
-        "carve-mcq-08",
-        "carve-mcq-03"
+        "carve-mcq-12",
+        "carve-mcq-11",
+        "carve-mcq-02"
       ],
       "explanation": "本句的「carved」指「透過切削、侵蝕或挖掘形成空間／形狀」。",
       "sentenceIndex": 13,
@@ -704,12 +650,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-06": "本句指「透過切削、侵蝕或挖掘形成空間／形狀」。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-03": "「把整塊熟肉／家禽切成可食用的片或份量」與本句語境不同。"
+        "carve-mcq-06": "本句的「carved」指「透過切削、侵蝕或挖掘形成空間／形狀」。",
+        "carve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-06"
     },
@@ -721,11 +665,9 @@ export default {
       "masked": "She ____ a successful career in design.",
       "options": [
         "carve-mcq-07",
-        "carve-mcq-06",
-        "carve-mcq-08",
-        "carve-mcq-05",
         "carve-mcq-09",
-        "carve-mcq-04"
+        "carve-mcq-11",
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carved out」指「經努力在競爭環境中逐步建立位置、事業或領域」。",
       "sentenceIndex": 14,
@@ -734,12 +676,10 @@ export default {
         "carved out"
       ],
       "optionReasons": {
-        "carve-mcq-07": "本句指「經努力在競爭環境中逐步建立位置、事業或領域」。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。"
+        "carve-mcq-07": "本句的「carved out」指「經努力在競爭環境中逐步建立位置、事業或領域」。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-07"
     },
@@ -751,11 +691,9 @@ export default {
       "masked": "The company ____ out a strong position in the market.",
       "options": [
         "carve-mcq-07",
-        "carve-mcq-06",
-        "carve-mcq-08",
-        "carve-mcq-05",
         "carve-mcq-09",
-        "carve-mcq-04"
+        "carve-mcq-02",
+        "carve-mcq-11"
       ],
       "explanation": "本句的「carved」指「經努力在競爭環境中逐步建立位置、事業或領域」。",
       "sentenceIndex": 15,
@@ -764,12 +702,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-07": "本句指「經努力在競爭環境中逐步建立位置、事業或領域」。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-04": "「經雕刻製成的物件／藝術作品」與本句語境不同。"
+        "carve-mcq-07": "本句的「carved」指「經努力在競爭環境中逐步建立位置、事業或領域」。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-07"
     },
@@ -781,11 +717,9 @@ export default {
       "masked": "The bakery has ____ in the local area.",
       "options": [
         "carve-mcq-08",
-        "carve-mcq-07",
-        "carve-mcq-09",
-        "carve-mcq-06",
-        "carve-mcq-10",
-        "carve-mcq-05"
+        "carve-mcq-05",
+        "carve-mcq-03",
+        "carve-mcq-02"
       ],
       "explanation": "本句的「carved out a niche」指「靠專門化／差異化建立獨特市場定位」。",
       "sentenceIndex": 16,
@@ -794,12 +728,10 @@ export default {
         "carved out a niche"
       ],
       "optionReasons": {
-        "carve-mcq-08": "本句指「靠專門化／差異化建立獨特市場定位」。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。"
+        "carve-mcq-08": "本句的「carved out a niche」指「靠專門化／差異化建立獨特市場定位」。",
+        "carve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-08"
     },
@@ -811,11 +743,9 @@ export default {
       "masked": "The brand ____ out a niche by focusing on handmade products.",
       "options": [
         "carve-mcq-08",
-        "carve-mcq-07",
-        "carve-mcq-09",
-        "carve-mcq-06",
-        "carve-mcq-10",
-        "carve-mcq-05"
+        "carve-mcq-05",
+        "carve-mcq-03",
+        "carve-mcq-09"
       ],
       "explanation": "本句的「carved」指「靠專門化／差異化建立獨特市場定位」。",
       "sentenceIndex": 17,
@@ -824,12 +754,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-08": "本句指「靠專門化／差異化建立獨特市場定位」。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-05": "「雕刻這項工藝或技術」與本句語境不同。"
+        "carve-mcq-08": "本句的「carved」指「靠專門化／差異化建立獨特市場定位」。",
+        "carve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-08"
     },
@@ -842,10 +770,8 @@ export default {
       "options": [
         "carve-mcq-09",
         "carve-mcq-08",
-        "carve-mcq-10",
-        "carve-mcq-07",
         "carve-mcq-11",
-        "carve-mcq-06"
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carved out time」指「從繁忙安排中刻意騰出時間」。",
       "sentenceIndex": 18,
@@ -854,12 +780,10 @@ export default {
         "carved out time"
       ],
       "optionReasons": {
-        "carve-mcq-09": "本句指「從繁忙安排中刻意騰出時間」。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-11": "「開闢道路；比喻開創自己的方向」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-09": "本句的「carved out time」指「從繁忙安排中刻意騰出時間」。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-09"
     },
@@ -872,10 +796,8 @@ export default {
       "options": [
         "carve-mcq-09",
         "carve-mcq-08",
-        "carve-mcq-10",
-        "carve-mcq-07",
         "carve-mcq-11",
-        "carve-mcq-06"
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carve」指「從繁忙安排中刻意騰出時間」。",
       "sentenceIndex": 19,
@@ -884,12 +806,10 @@ export default {
         "carve"
       ],
       "optionReasons": {
-        "carve-mcq-09": "本句指「從繁忙安排中刻意騰出時間」。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。",
-        "carve-mcq-11": "「開闢道路；比喻開創自己的方向」與本句語境不同。",
-        "carve-mcq-06": "「透過切削、侵蝕或挖掘形成空間／形狀」與本句語境不同。"
+        "carve-mcq-09": "本句的「carve」指「從繁忙安排中刻意騰出時間」。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-09"
     },
@@ -902,10 +822,8 @@ export default {
       "options": [
         "carve-mcq-10",
         "carve-mcq-09",
-        "carve-mcq-11",
-        "carve-mcq-08",
         "carve-mcq-12",
-        "carve-mcq-07"
+        "carve-mcq-02"
       ],
       "explanation": "本句的「carved」指「為自己逐步建立角色、身份或定位」。",
       "sentenceIndex": 20,
@@ -914,12 +832,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-10": "本句指「為自己逐步建立角色、身份或定位」。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-11": "「開闢道路；比喻開創自己的方向」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-12": "「經雕刻加工或帶有刻紋的」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。"
+        "carve-mcq-10": "本句的「carved」指「為自己逐步建立角色、身份或定位」。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-10"
     },
@@ -931,11 +847,9 @@ export default {
       "masked": "The brand ____ out a distinct identity.",
       "options": [
         "carve-mcq-10",
-        "carve-mcq-09",
-        "carve-mcq-11",
-        "carve-mcq-08",
-        "carve-mcq-12",
-        "carve-mcq-07"
+        "carve-pdf-001",
+        "carve-mcq-02",
+        "carve-mcq-09"
       ],
       "explanation": "本句的「carved」指「為自己逐步建立角色、身份或定位」。",
       "sentenceIndex": 21,
@@ -944,12 +858,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-10": "本句指「為自己逐步建立角色、身份或定位」。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-11": "「開闢道路；比喻開創自己的方向」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-12": "「經雕刻加工或帶有刻紋的」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。"
+        "carve-mcq-10": "本句的「carved」指「為自己逐步建立角色、身份或定位」。",
+        "carve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-10"
     },
@@ -961,11 +873,9 @@ export default {
       "masked": "The company ____ a path into a new market.",
       "options": [
         "carve-mcq-11",
-        "carve-mcq-10",
-        "carve-mcq-12",
-        "carve-mcq-09",
-        "carve-mcq-08",
-        "carve-mcq-07"
+        "carve-mcq-04",
+        "carve-mcq-01",
+        "carve-mcq-09"
       ],
       "explanation": "本句的「carved」指「開闢道路；比喻開創自己的方向」。",
       "sentenceIndex": 22,
@@ -974,12 +884,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-11": "本句指「開闢道路；比喻開創自己的方向」。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-12": "「經雕刻加工或帶有刻紋的」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。"
+        "carve-mcq-11": "本句的「carved」指「開闢道路；比喻開創自己的方向」。",
+        "carve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-11"
     },
@@ -991,11 +899,9 @@ export default {
       "masked": "She ____ her own path instead of following others.",
       "options": [
         "carve-mcq-11",
-        "carve-mcq-10",
-        "carve-mcq-12",
+        "carve-mcq-07",
         "carve-mcq-09",
-        "carve-mcq-08",
-        "carve-mcq-07"
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carved」指「開闢道路；比喻開創自己的方向」。",
       "sentenceIndex": 23,
@@ -1004,12 +910,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-11": "本句指「開闢道路；比喻開創自己的方向」。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-12": "「經雕刻加工或帶有刻紋的」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。"
+        "carve-mcq-11": "本句的「carved」指「開闢道路；比喻開創自己的方向」。",
+        "carve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-11"
     },
@@ -1022,10 +926,8 @@ export default {
       "options": [
         "carve-mcq-12",
         "carve-mcq-11",
-        "carve-mcq-10",
-        "carve-mcq-09",
-        "carve-mcq-08",
-        "carve-mcq-07"
+        "carve-mcq-06",
+        "carve-mcq-03"
       ],
       "explanation": "本句的「carved」指「經雕刻加工或帶有刻紋的」。",
       "sentenceIndex": 24,
@@ -1034,12 +936,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-12": "本句指「經雕刻加工或帶有刻紋的」。",
-        "carve-mcq-11": "「開闢道路；比喻開創自己的方向」與本句語境不同。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。"
+        "carve-mcq-12": "本句的「carved」指「經雕刻加工或帶有刻紋的」。",
+        "carve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-12"
     },
@@ -1051,11 +951,9 @@ export default {
       "masked": "The door had beautifully ____ patterns.",
       "options": [
         "carve-mcq-12",
-        "carve-mcq-11",
-        "carve-mcq-10",
-        "carve-mcq-09",
+        "carve-mcq-03",
         "carve-mcq-08",
-        "carve-mcq-07"
+        "carve-mcq-02"
       ],
       "explanation": "本句的「carved」指「經雕刻加工或帶有刻紋的」。",
       "sentenceIndex": 25,
@@ -1064,12 +962,10 @@ export default {
         "carved"
       ],
       "optionReasons": {
-        "carve-mcq-12": "本句指「經雕刻加工或帶有刻紋的」。",
-        "carve-mcq-11": "「開闢道路；比喻開創自己的方向」與本句語境不同。",
-        "carve-mcq-10": "「為自己逐步建立角色、身份或定位」與本句語境不同。",
-        "carve-mcq-09": "「從繁忙安排中刻意騰出時間」與本句語境不同。",
-        "carve-mcq-08": "「靠專門化／差異化建立獨特市場定位」與本句語境不同。",
-        "carve-mcq-07": "「經努力在競爭環境中逐步建立位置、事業或領域」與本句語境不同。"
+        "carve-mcq-12": "本句的「carved」指「經雕刻加工或帶有刻紋的」。",
+        "carve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "carve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "carve-mcq-12"
     }
@@ -1081,5 +977,7 @@ export default {
     "sha256": "6f35d3dfe4f88c6ee9f8e5dfe390faa41a8864c3a5e905e20ccd3a221d9d2ca9",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

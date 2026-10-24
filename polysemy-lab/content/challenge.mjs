@@ -442,11 +442,8 @@ export default {
       "masked": "To handle the ____, I prepared in a very practical way.",
       "options": [
         "challenge-mcq-01",
-        "challenge-mcq-02",
-        "challenge-mcq-03",
-        "challenge-mcq-04",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-13",
+        "challenge-mcq-18"
       ],
       "explanation": "本句的「challenge」指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
       "sentenceIndex": 0,
@@ -455,12 +452,9 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-01": "本句指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-01": "本句的「challenge」指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-01"
     },
@@ -472,11 +466,8 @@ export default {
       "masked": "Learning to manage a large team was a major ____ for her.",
       "options": [
         "challenge-mcq-01",
-        "challenge-mcq-02",
-        "challenge-mcq-03",
-        "challenge-mcq-04",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-12",
+        "challenge-mcq-18"
       ],
       "explanation": "本句的「challenge」指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
       "sentenceIndex": 1,
@@ -485,12 +476,9 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-01": "本句指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-01": "本句的「challenge」指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-01"
     },
@@ -502,11 +490,8 @@ export default {
       "masked": "Finding enough qualified staff remains a serious ____ for the company.",
       "options": [
         "challenge-mcq-01",
-        "challenge-mcq-02",
-        "challenge-mcq-03",
-        "challenge-mcq-04",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-12",
+        "challenge-mcq-08"
       ],
       "explanation": "本句的「challenge」指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
       "sentenceIndex": 2,
@@ -515,12 +500,9 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-01": "本句指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-01": "本句的「challenge」指「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-01"
     },
@@ -532,11 +514,8 @@ export default {
       "masked": "One of the most ____ things I have ever done was giving a formal presentation in English.",
       "options": [
         "challenge-mcq-02",
-        "challenge-mcq-01",
-        "challenge-mcq-03",
-        "challenge-mcq-04",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-08",
+        "challenge-mcq-13"
       ],
       "explanation": "本句的「challenging」指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
       "sentenceIndex": 0,
@@ -545,12 +524,9 @@ export default {
         "challenging"
       ],
       "optionReasons": {
-        "challenge-mcq-02": "本句指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-02": "本句的「challenging」指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-02"
     },
@@ -562,11 +538,9 @@ export default {
       "masked": "The course is ____, but I am learning a lot.",
       "options": [
         "challenge-mcq-02",
-        "challenge-mcq-01",
-        "challenge-mcq-03",
-        "challenge-mcq-04",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-14",
+        "challenge-mcq-08",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenging」指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
       "sentenceIndex": 1,
@@ -575,12 +549,10 @@ export default {
         "challenging"
       ],
       "optionReasons": {
-        "challenge-mcq-02": "本句指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-02": "本句的「challenging」指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-02"
     },
@@ -592,11 +564,8 @@ export default {
       "masked": "Managing several projects at the same time can be extremely ____.",
       "options": [
         "challenge-mcq-02",
-        "challenge-mcq-01",
-        "challenge-mcq-03",
-        "challenge-mcq-04",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-13",
+        "challenge-mcq-08"
       ],
       "explanation": "本句的「challenging」指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
       "sentenceIndex": 2,
@@ -605,12 +574,9 @@ export default {
         "challenging"
       ],
       "optionReasons": {
-        "challenge-mcq-02": "本句指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-02": "本句的「challenging」指「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-02"
     },
@@ -622,11 +588,8 @@ export default {
       "masked": "The new role will ____ you in ways your previous job did not.",
       "options": [
         "challenge-mcq-03",
-        "challenge-mcq-02",
-        "challenge-mcq-04",
-        "challenge-mcq-01",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-13",
+        "challenge-mcq-07"
       ],
       "explanation": "本句的「challenge」指「令某人的能力、思考或承受力受到較高程度的考驗」。",
       "sentenceIndex": 0,
@@ -635,12 +598,9 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-03": "本句指「令某人的能力、思考或承受力受到較高程度的考驗」。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-03": "本句的「challenge」指「令某人的能力、思考或承受力受到較高程度的考驗」。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-03"
     },
@@ -652,11 +612,8 @@ export default {
       "masked": "The exercise is designed to ____ students without overwhelming them.",
       "options": [
         "challenge-mcq-03",
-        "challenge-mcq-02",
-        "challenge-mcq-04",
-        "challenge-mcq-01",
-        "challenge-mcq-05",
-        "challenge-mcq-06"
+        "challenge-mcq-13",
+        "challenge-mcq-07"
       ],
       "explanation": "本句的「challenge」指「令某人的能力、思考或承受力受到較高程度的考驗」。",
       "sentenceIndex": 1,
@@ -665,12 +622,9 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-03": "本句指「令某人的能力、思考或承受力受到較高程度的考驗」。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-03": "本句的「challenge」指「令某人的能力、思考或承受力受到較高程度的考驗」。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-03"
     },
@@ -682,11 +636,8 @@ export default {
       "masked": "I decided to ____ by volunteering to give the presentation.",
       "options": [
         "challenge-mcq-04",
-        "challenge-mcq-03",
-        "challenge-mcq-05",
-        "challenge-mcq-02",
-        "challenge-mcq-06",
-        "challenge-mcq-01"
+        "challenge-mcq-18",
+        "challenge-mcq-13"
       ],
       "explanation": "本句的「challenge myself」指「主動嘗試有難度的事情，以測試、提升或突破自己的能力」。",
       "sentenceIndex": 0,
@@ -695,12 +646,9 @@ export default {
         "challenge myself"
       ],
       "optionReasons": {
-        "challenge-mcq-04": "本句指「主動嘗試有難度的事情，以測試、提升或突破自己的能力」。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。"
+        "challenge-mcq-04": "本句的「challenge myself」指「主動嘗試有難度的事情，以測試、提升或突破自己的能力」。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-04"
     },
@@ -712,11 +660,8 @@ export default {
       "masked": "Try to ____ instead of always choosing the easiest option.",
       "options": [
         "challenge-mcq-04",
-        "challenge-mcq-03",
-        "challenge-mcq-05",
-        "challenge-mcq-02",
-        "challenge-mcq-06",
-        "challenge-mcq-01"
+        "challenge-mcq-07",
+        "challenge-mcq-13"
       ],
       "explanation": "本句的「challenge yourself」指「主動嘗試有難度的事情，以測試、提升或突破自己的能力」。",
       "sentenceIndex": 1,
@@ -725,12 +670,9 @@ export default {
         "challenge yourself"
       ],
       "optionReasons": {
-        "challenge-mcq-04": "本句指「主動嘗試有難度的事情，以測試、提升或突破自己的能力」。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-01": "「一件因難度、限制或要求較高，需要運用相當努力、能力、勇氣或資源才能應付的事情」是「a challenge — difficult task/situation」的用法，與本句語境不同。"
+        "challenge-mcq-04": "本句的「challenge yourself」指「主動嘗試有難度的事情，以測試、提升或突破自己的能力」。",
+        "challenge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-04"
     },
@@ -742,11 +684,9 @@ export default {
       "masked": "Several researchers ____ the assumption that the method was effective.",
       "options": [
         "challenge-mcq-05",
-        "challenge-mcq-04",
-        "challenge-mcq-06",
-        "challenge-mcq-03",
-        "challenge-mcq-07",
-        "challenge-mcq-02"
+        "challenge-mcq-15",
+        "challenge-mcq-14",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenged」指「質疑某項說法、觀點或假設是否正確、合理或有充分根據」。",
       "sentenceIndex": 0,
@@ -755,12 +695,10 @@ export default {
         "challenged"
       ],
       "optionReasons": {
-        "challenge-mcq-05": "本句指「質疑某項說法、觀點或假設是否正確、合理或有充分根據」。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。"
+        "challenge-mcq-05": "本句的「challenged」指「質疑某項說法、觀點或假設是否正確、合理或有充分根據」。",
+        "challenge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-05"
     },
@@ -772,11 +710,8 @@ export default {
       "masked": "The evidence ____ the traditional view of what happened.",
       "options": [
         "challenge-mcq-05",
-        "challenge-mcq-04",
-        "challenge-mcq-06",
-        "challenge-mcq-03",
-        "challenge-mcq-07",
-        "challenge-mcq-02"
+        "challenge-mcq-01",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenges」指「質疑某項說法、觀點或假設是否正確、合理或有充分根據」。",
       "sentenceIndex": 1,
@@ -785,12 +720,9 @@ export default {
         "challenges"
       ],
       "optionReasons": {
-        "challenge-mcq-05": "本句指「質疑某項說法、觀點或假設是否正確、合理或有充分根據」。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-02": "「難度較高，需要運用能力、思考、努力或毅力才能妥善應付的」是「challenging」的用法，與本句語境不同。"
+        "challenge-mcq-05": "本句的「challenges」指「質疑某項說法、觀點或假設是否正確、合理或有充分根據」。",
+        "challenge-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-05"
     },
@@ -802,11 +734,8 @@ export default {
       "masked": "The report represents a serious ____ the official explanation.",
       "options": [
         "challenge-mcq-06",
-        "challenge-mcq-05",
-        "challenge-mcq-07",
-        "challenge-mcq-04",
-        "challenge-mcq-08",
-        "challenge-mcq-03"
+        "challenge-mcq-16",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenge to」指「對某項說法、規則、權威或既有觀點提出異議或質疑」。",
       "sentenceIndex": 0,
@@ -815,12 +744,9 @@ export default {
         "challenge to"
       ],
       "optionReasons": {
-        "challenge-mcq-06": "本句指「對某項說法、規則、權威或既有觀點提出異議或質疑」。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。"
+        "challenge-mcq-06": "本句的「challenge to」指「對某項說法、規則、權威或既有觀點提出異議或質疑」。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-06"
     },
@@ -832,11 +758,8 @@ export default {
       "masked": "His argument was seen as a direct ____ the traditional view.",
       "options": [
         "challenge-mcq-06",
-        "challenge-mcq-05",
-        "challenge-mcq-07",
-        "challenge-mcq-04",
-        "challenge-mcq-08",
-        "challenge-mcq-03"
+        "challenge-mcq-12",
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「challenge to」指「對某項說法、規則、權威或既有觀點提出異議或質疑」。",
       "sentenceIndex": 1,
@@ -845,12 +768,9 @@ export default {
         "challenge to"
       ],
       "optionReasons": {
-        "challenge-mcq-06": "本句指「對某項說法、規則、權威或既有觀點提出異議或質疑」。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-03": "「令某人的能力、思考或承受力受到較高程度的考驗」是「challenge someone’s ability」的用法，與本句語境不同。"
+        "challenge-mcq-06": "本句的「challenge to」指「對某項說法、規則、權威或既有觀點提出異議或質疑」。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-06"
     },
@@ -862,11 +782,9 @@ export default {
       "masked": "The company plans to ____ the court’s decision.",
       "options": [
         "challenge-mcq-07",
-        "challenge-mcq-06",
-        "challenge-mcq-08",
-        "challenge-mcq-05",
-        "challenge-mcq-09",
-        "challenge-mcq-04"
+        "challenge-mcq-16",
+        "challenge-mcq-13",
+        "challenge-mcq-15"
       ],
       "explanation": "本句的「challenge」指「正式質疑某項決定或裁決，並要求重新審查或改變」。",
       "sentenceIndex": 0,
@@ -875,12 +793,10 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-07": "本句指「正式質疑某項決定或裁決，並要求重新審查或改變」。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。"
+        "challenge-mcq-07": "本句的「challenge」指「正式質疑某項決定或裁決，並要求重新審查或改變」。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-07"
     },
@@ -892,11 +808,8 @@ export default {
       "masked": "Employees can ____ the decision through the formal appeals process.",
       "options": [
         "challenge-mcq-07",
-        "challenge-mcq-06",
-        "challenge-mcq-08",
-        "challenge-mcq-05",
-        "challenge-mcq-09",
-        "challenge-mcq-04"
+        "challenge-mcq-04",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenge」指「正式質疑某項決定或裁決，並要求重新審查或改變」。",
       "sentenceIndex": 1,
@@ -905,12 +818,9 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-07": "本句指「正式質疑某項決定或裁決，並要求重新審查或改變」。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-04": "「主動嘗試有難度的事情，以測試、提升或突破自己的能力」是「challenge yourself」的用法，與本句語境不同。"
+        "challenge-mcq-07": "本句的「challenge」指「正式質疑某項決定或裁決，並要求重新審查或改變」。",
+        "challenge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-07"
     },
@@ -922,11 +832,8 @@ export default {
       "masked": "The new regulation is facing a ____.",
       "options": [
         "challenge-mcq-08",
-        "challenge-mcq-07",
-        "challenge-mcq-09",
-        "challenge-mcq-06",
-        "challenge-mcq-10",
-        "challenge-mcq-05"
+        "challenge-mcq-12",
+        "challenge-mcq-01"
       ],
       "explanation": "本句的「legal challenge」指「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」。",
       "sentenceIndex": 0,
@@ -935,12 +842,9 @@ export default {
         "legal challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-08": "本句指「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。"
+        "challenge-mcq-08": "本句的「legal challenge」指「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-08"
     },
@@ -952,11 +856,8 @@ export default {
       "masked": "The organization launched a ____ against the decision.",
       "options": [
         "challenge-mcq-08",
-        "challenge-mcq-07",
-        "challenge-mcq-09",
-        "challenge-mcq-06",
-        "challenge-mcq-10",
-        "challenge-mcq-05"
+        "challenge-mcq-16",
+        "challenge-mcq-19"
       ],
       "explanation": "本句的「legal challenge」指「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」。",
       "sentenceIndex": 1,
@@ -965,12 +866,9 @@ export default {
         "legal challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-08": "本句指「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-05": "「質疑某項說法、觀點或假設是否正確、合理或有充分根據」是「challenge a claim/idea/assumption」的用法，與本句語境不同。"
+        "challenge-mcq-08": "本句的「legal challenge」指「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-08"
     },
@@ -982,11 +880,8 @@ export default {
       "masked": "He ____ his colleague to a game of chess.",
       "options": [
         "challenge-mcq-09",
-        "challenge-mcq-08",
-        "challenge-mcq-10",
-        "challenge-mcq-07",
-        "challenge-mcq-11",
-        "challenge-mcq-06"
+        "challenge-mcq-05",
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「challenged」指「向某人提出比試或競爭，要求對方證明能力」。",
       "sentenceIndex": 0,
@@ -995,12 +890,9 @@ export default {
         "challenged"
       ],
       "optionReasons": {
-        "challenge-mcq-09": "本句指「向某人提出比試或競爭，要求對方證明能力」。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-09": "本句的「challenged」指「向某人提出比試或競爭，要求對方證明能力」。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-09"
     },
@@ -1013,10 +905,7 @@ export default {
       "options": [
         "challenge-mcq-09",
         "challenge-mcq-08",
-        "challenge-mcq-10",
-        "challenge-mcq-07",
-        "challenge-mcq-11",
-        "challenge-mcq-06"
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「challenged」指「向某人提出比試或競爭，要求對方證明能力」。",
       "sentenceIndex": 1,
@@ -1025,12 +914,9 @@ export default {
         "challenged"
       ],
       "optionReasons": {
-        "challenge-mcq-09": "本句指「向某人提出比試或競爭，要求對方證明能力」。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-06": "「對某項說法、規則、權威或既有觀點提出異議或質疑」是「a challenge to a claim/authority」的用法，與本句語境不同。"
+        "challenge-mcq-09": "本句的「challenged」指「向某人提出比試或競爭，要求對方證明能力」。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-09"
     },
@@ -1042,11 +928,9 @@ export default {
       "masked": "I ____ the presentation without reading from your notes.",
       "options": [
         "challenge-mcq-10",
-        "challenge-mcq-09",
-        "challenge-mcq-11",
-        "challenge-mcq-08",
-        "challenge-mcq-12",
-        "challenge-mcq-07"
+        "challenge-mcq-13",
+        "challenge-mcq-18",
+        "challenge-mcq-15"
       ],
       "explanation": "本句的「challenge you to give」指「要求、激勵或激將某人嘗試完成一件具有難度的事情」。",
       "sentenceIndex": 0,
@@ -1055,12 +939,10 @@ export default {
         "challenge you to give"
       ],
       "optionReasons": {
-        "challenge-mcq-10": "本句指「要求、激勵或激將某人嘗試完成一件具有難度的事情」。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。"
+        "challenge-mcq-10": "本句的「challenge you to give」指「要求、激勵或激將某人嘗試完成一件具有難度的事情」。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-10"
     },
@@ -1072,11 +954,9 @@ export default {
       "masked": "She ____ a better solution.",
       "options": [
         "challenge-mcq-10",
-        "challenge-mcq-09",
-        "challenge-mcq-11",
-        "challenge-mcq-08",
-        "challenge-mcq-12",
-        "challenge-mcq-07"
+        "challenge-mcq-05",
+        "challenge-mcq-13",
+        "challenge-mcq-15"
       ],
       "explanation": "本句的「challenged the team to find」指「要求、激勵或激將某人嘗試完成一件具有難度的事情」。",
       "sentenceIndex": 1,
@@ -1085,12 +965,10 @@ export default {
         "challenged the team to find"
       ],
       "optionReasons": {
-        "challenge-mcq-10": "本句指「要求、激勵或激將某人嘗試完成一件具有難度的事情」。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-07": "「正式質疑某項決定或裁決，並要求重新審查或改變」是「challenge a decision/ruling」的用法，與本句語境不同。"
+        "challenge-mcq-10": "本句的「challenged the team to find」指「要求、激勵或激將某人嘗試完成一件具有難度的事情」。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-10"
     },
@@ -1102,11 +980,9 @@ export default {
       "masked": "The champion accepted his opponent’s ____.",
       "options": [
         "challenge-mcq-11",
-        "challenge-mcq-10",
+        "challenge-mcq-18",
         "challenge-mcq-12",
-        "challenge-mcq-09",
-        "challenge-mcq-13",
-        "challenge-mcq-08"
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「challenge」指「向另一人提出比試、競爭或能力較量的要求」。",
       "sentenceIndex": 0,
@@ -1115,12 +991,10 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-11": "本句指「向另一人提出比試、競爭或能力較量的要求」。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。"
+        "challenge-mcq-11": "本句的「challenge」指「向另一人提出比試、競爭或能力較量的要求」。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-11"
     },
@@ -1132,11 +1006,9 @@ export default {
       "masked": "She issued a ____ to anyone who thought they could beat her.",
       "options": [
         "challenge-mcq-11",
-        "challenge-mcq-10",
-        "challenge-mcq-12",
-        "challenge-mcq-09",
-        "challenge-mcq-13",
-        "challenge-mcq-08"
+        "challenge-mcq-08",
+        "challenge-mcq-16",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenge」指「向另一人提出比試、競爭或能力較量的要求」。",
       "sentenceIndex": 1,
@@ -1145,12 +1017,10 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-11": "本句指「向另一人提出比試、競爭或能力較量的要求」。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-08": "「透過法院或法律程序正式質疑某項決定、規例或行動是否合法／有效」是「legal challenge」的用法，與本句語境不同。"
+        "challenge-mcq-11": "本句的「challenge」指「向另一人提出比試、競爭或能力較量的要求」。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-11"
     },
@@ -1162,11 +1032,9 @@ export default {
       "masked": "The champion defeated the ____ in the final round.",
       "options": [
         "challenge-mcq-12",
-        "challenge-mcq-11",
-        "challenge-mcq-13",
-        "challenge-mcq-10",
-        "challenge-mcq-14",
-        "challenge-mcq-09"
+        "challenge-mcq-02",
+        "challenge-mcq-08",
+        "challenge-mcq-14"
       ],
       "explanation": "本句的「challenger」指「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」。",
       "sentenceIndex": 0,
@@ -1175,12 +1043,10 @@ export default {
         "challenger"
       ],
       "optionReasons": {
-        "challenge-mcq-12": "本句指「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。"
+        "challenge-mcq-12": "本句的「challenger」指「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」。",
+        "challenge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-12"
     },
@@ -1192,11 +1058,9 @@ export default {
       "masked": "A strong new ____ has entered the market.",
       "options": [
         "challenge-mcq-12",
-        "challenge-mcq-11",
-        "challenge-mcq-13",
-        "challenge-mcq-10",
-        "challenge-mcq-14",
-        "challenge-mcq-09"
+        "challenge-mcq-02",
+        "challenge-mcq-08",
+        "challenge-mcq-14"
       ],
       "explanation": "本句的「challenger」指「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」。",
       "sentenceIndex": 1,
@@ -1205,12 +1069,10 @@ export default {
         "challenger"
       ],
       "optionReasons": {
-        "challenge-mcq-12": "本句指「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-09": "「向某人提出比試或競爭，要求對方證明能力」是「challenge someone to a contest」的用法，與本句語境不同。"
+        "challenge-mcq-12": "本句的「challenger」指「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」。",
+        "challenge-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-12"
     },
@@ -1222,11 +1084,8 @@ export default {
       "masked": "The team is expected to ____ this season.",
       "options": [
         "challenge-mcq-13",
-        "challenge-mcq-12",
-        "challenge-mcq-14",
-        "challenge-mcq-11",
-        "challenge-mcq-15",
-        "challenge-mcq-10"
+        "challenge-mcq-03",
+        "challenge-mcq-08"
       ],
       "explanation": "本句的「challenge for the title」指「積極參與競爭，希望取得某個冠軍、名次或地位」。",
       "sentenceIndex": 0,
@@ -1235,12 +1094,9 @@ export default {
         "challenge for the title"
       ],
       "optionReasons": {
-        "challenge-mcq-13": "本句指「積極參與競爭，希望取得某個冠軍、名次或地位」。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。"
+        "challenge-mcq-13": "本句的「challenge for the title」指「積極參與競爭，希望取得某個冠軍、名次或地位」。",
+        "challenge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-13"
     },
@@ -1252,11 +1108,9 @@ export default {
       "masked": "Several athletes are ____ first place.",
       "options": [
         "challenge-mcq-13",
-        "challenge-mcq-12",
-        "challenge-mcq-14",
-        "challenge-mcq-11",
+        "challenge-mcq-10",
         "challenge-mcq-15",
-        "challenge-mcq-10"
+        "challenge-mcq-18"
       ],
       "explanation": "本句的「challenging for」指「積極參與競爭，希望取得某個冠軍、名次或地位」。",
       "sentenceIndex": 1,
@@ -1265,12 +1119,10 @@ export default {
         "challenging for"
       ],
       "optionReasons": {
-        "challenge-mcq-13": "本句指「積極參與競爭，希望取得某個冠軍、名次或地位」。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-10": "「要求、激勵或激將某人嘗試完成一件具有難度的事情」是「challenge someone to do something」的用法，與本句語境不同。"
+        "challenge-mcq-13": "本句的「challenging for」指「積極參與競爭，希望取得某個冠軍、名次或地位」。",
+        "challenge-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-13"
     },
@@ -1282,11 +1134,9 @@ export default {
       "masked": "The defender made a clean ____ and won the ball.",
       "options": [
         "challenge-mcq-14",
-        "challenge-mcq-13",
-        "challenge-mcq-15",
-        "challenge-mcq-12",
-        "challenge-mcq-16",
-        "challenge-mcq-11"
+        "challenge-mcq-17",
+        "challenge-mcq-18",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenge」指「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」。",
       "sentenceIndex": 0,
@@ -1295,12 +1145,10 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-14": "本句指「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。"
+        "challenge-mcq-14": "本句的「challenge」指「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」。",
+        "challenge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-14"
     },
@@ -1312,11 +1160,9 @@ export default {
       "masked": "The referee gave him a yellow card for a dangerous ____.",
       "options": [
         "challenge-mcq-14",
-        "challenge-mcq-13",
-        "challenge-mcq-15",
-        "challenge-mcq-12",
-        "challenge-mcq-16",
-        "challenge-mcq-11"
+        "challenge-mcq-05",
+        "challenge-mcq-17",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「challenge」指「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」。",
       "sentenceIndex": 1,
@@ -1325,12 +1171,10 @@ export default {
         "challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-14": "本句指「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-11": "「向另一人提出比試、競爭或能力較量的要求」是「a challenge — competition invitation」的用法，與本句語境不同。"
+        "challenge-mcq-14": "本句的「challenge」指「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-14"
     },
@@ -1342,11 +1186,9 @@ export default {
       "masked": "The tight deadline ____ for the team.",
       "options": [
         "challenge-mcq-15",
-        "challenge-mcq-14",
-        "challenge-mcq-16",
-        "challenge-mcq-13",
-        "challenge-mcq-17",
-        "challenge-mcq-12"
+        "challenge-mcq-12",
+        "challenge-mcq-05",
+        "challenge-mcq-14"
       ],
       "explanation": "本句的「poses a major challenge」指「某種情況本身造成需要投入能力、努力或資源才能解決的困難」。",
       "sentenceIndex": 0,
@@ -1355,12 +1197,10 @@ export default {
         "poses a major challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-15": "本句指「某種情況本身造成需要投入能力、努力或資源才能解決的困難」。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。"
+        "challenge-mcq-15": "本句的「poses a major challenge」指「某種情況本身造成需要投入能力、努力或資源才能解決的困難」。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-15"
     },
@@ -1372,10 +1212,8 @@ export default {
       "masked": "Rapid population growth ____ for city planners.",
       "options": [
         "challenge-mcq-15",
+        "challenge-mcq-05",
         "challenge-mcq-14",
-        "challenge-mcq-16",
-        "challenge-mcq-13",
-        "challenge-mcq-17",
         "challenge-mcq-12"
       ],
       "explanation": "本句的「presents significant challenges」指「某種情況本身造成需要投入能力、努力或資源才能解決的困難」。",
@@ -1385,12 +1223,10 @@ export default {
         "presents significant challenges"
       ],
       "optionReasons": {
-        "challenge-mcq-15": "本句指「某種情況本身造成需要投入能力、努力或資源才能解決的困難」。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-12": "「試圖擊敗目前冠軍、領先者或主導者的人、團隊或組織」是「challenger」的用法，與本句語境不同。"
+        "challenge-mcq-15": "本句的「presents significant challenges」指「某種情況本身造成需要投入能力、努力或資源才能解決的困難」。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-15"
     },
@@ -1402,11 +1238,9 @@ export default {
       "masked": "She decided to ____ of managing the new department.",
       "options": [
         "challenge-mcq-16",
-        "challenge-mcq-15",
-        "challenge-mcq-17",
-        "challenge-mcq-14",
         "challenge-mcq-18",
-        "challenge-mcq-13"
+        "challenge-mcq-13",
+        "challenge-mcq-17"
       ],
       "explanation": "本句的「take on the challenge」指「願意承擔或嘗試完成一件具有相當難度的事情」。",
       "sentenceIndex": 0,
@@ -1415,12 +1249,10 @@ export default {
         "take on the challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-16": "本句指「願意承擔或嘗試完成一件具有相當難度的事情」。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-18": "「某項說法、觀點或決定沒有受到質疑、異議或反駁」是「unchallenged — not disputed」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。"
+        "challenge-mcq-16": "本句的「take on the challenge」指「願意承擔或嘗試完成一件具有相當難度的事情」。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-16"
     },
@@ -1432,11 +1264,9 @@ export default {
       "masked": "I was nervous, but I eventually ____.",
       "options": [
         "challenge-mcq-16",
-        "challenge-mcq-15",
-        "challenge-mcq-17",
-        "challenge-mcq-14",
-        "challenge-mcq-18",
-        "challenge-mcq-13"
+        "challenge-mcq-07",
+        "challenge-mcq-13",
+        "challenge-mcq-15"
       ],
       "explanation": "本句的「accepted the challenge」指「願意承擔或嘗試完成一件具有相當難度的事情」。",
       "sentenceIndex": 1,
@@ -1445,12 +1275,10 @@ export default {
         "accepted the challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-16": "本句指「願意承擔或嘗試完成一件具有相當難度的事情」。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。",
-        "challenge-mcq-18": "「某項說法、觀點或決定沒有受到質疑、異議或反駁」是「unchallenged — not disputed」的用法，與本句語境不同。",
-        "challenge-mcq-13": "「積極參與競爭，希望取得某個冠軍、名次或地位」是「challenge for a title/position」的用法，與本句語境不同。"
+        "challenge-mcq-16": "本句的「accepted the challenge」指「願意承擔或嘗試完成一件具有相當難度的事情」。",
+        "challenge-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-16"
     },
@@ -1462,10 +1290,8 @@ export default {
       "masked": "She was nervous at first, but she ____.",
       "options": [
         "challenge-mcq-17",
-        "challenge-mcq-16",
-        "challenge-mcq-18",
-        "challenge-mcq-15",
-        "challenge-mcq-19",
+        "challenge-mcq-08",
+        "challenge-mcq-12",
         "challenge-mcq-14"
       ],
       "explanation": "本句的「rose to the challenge」指「面對困難要求時迎難而上，發揮能力並成功應付」。",
@@ -1475,12 +1301,10 @@ export default {
         "rose to the challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-17": "本句指「面對困難要求時迎難而上，發揮能力並成功應付」。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-18": "「某項說法、觀點或決定沒有受到質疑、異議或反駁」是「unchallenged — not disputed」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-19": "「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」是「unchallenged — without rival」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。"
+        "challenge-mcq-17": "本句的「rose to the challenge」指「面對困難要求時迎難而上，發揮能力並成功應付」。",
+        "challenge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-17"
     },
@@ -1492,11 +1316,9 @@ export default {
       "masked": "The team ____ and completed the project on time.",
       "options": [
         "challenge-mcq-17",
-        "challenge-mcq-16",
         "challenge-mcq-18",
-        "challenge-mcq-15",
-        "challenge-mcq-19",
-        "challenge-mcq-14"
+        "challenge-mcq-13",
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「rose to the challenge」指「面對困難要求時迎難而上，發揮能力並成功應付」。",
       "sentenceIndex": 1,
@@ -1505,12 +1327,10 @@ export default {
         "rose to the challenge"
       ],
       "optionReasons": {
-        "challenge-mcq-17": "本句指「面對困難要求時迎難而上，發揮能力並成功應付」。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-18": "「某項說法、觀點或決定沒有受到質疑、異議或反駁」是「unchallenged — not disputed」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-19": "「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」是「unchallenged — without rival」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。"
+        "challenge-mcq-17": "本句的「rose to the challenge」指「面對困難要求時迎難而上，發揮能力並成功應付」。",
+        "challenge-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-17"
     },
@@ -1523,10 +1343,8 @@ export default {
       "options": [
         "challenge-mcq-18",
         "challenge-mcq-17",
-        "challenge-mcq-19",
-        "challenge-mcq-16",
-        "challenge-mcq-15",
-        "challenge-mcq-14"
+        "challenge-mcq-14",
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「unchallenged」指「某項說法、觀點或決定沒有受到質疑、異議或反駁」。",
       "sentenceIndex": 0,
@@ -1535,12 +1353,10 @@ export default {
         "unchallenged"
       ],
       "optionReasons": {
-        "challenge-mcq-18": "本句指「某項說法、觀點或決定沒有受到質疑、異議或反駁」。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-19": "「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」是「unchallenged — without rival」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。"
+        "challenge-mcq-18": "本句的「unchallenged」指「某項說法、觀點或決定沒有受到質疑、異議或反駁」。",
+        "challenge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-18"
     },
@@ -1552,11 +1368,9 @@ export default {
       "masked": "The assumption should not be allowed to go ____.",
       "options": [
         "challenge-mcq-18",
+        "challenge-mcq-14",
         "challenge-mcq-17",
-        "challenge-mcq-19",
-        "challenge-mcq-16",
-        "challenge-mcq-15",
-        "challenge-mcq-14"
+        "challenge-mcq-12"
       ],
       "explanation": "本句的「unchallenged」指「某項說法、觀點或決定沒有受到質疑、異議或反駁」。",
       "sentenceIndex": 1,
@@ -1565,12 +1379,10 @@ export default {
         "unchallenged"
       ],
       "optionReasons": {
-        "challenge-mcq-18": "本句指「某項說法、觀點或決定沒有受到質疑、異議或反駁」。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-19": "「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」是「unchallenged — without rival」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。"
+        "challenge-mcq-18": "本句的「unchallenged」指「某項說法、觀點或決定沒有受到質疑、異議或反駁」。",
+        "challenge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-18"
     },
@@ -1582,11 +1394,8 @@ export default {
       "masked": "For years, the company remained the ____ market leader.",
       "options": [
         "challenge-mcq-19",
-        "challenge-mcq-18",
-        "challenge-mcq-17",
-        "challenge-mcq-16",
-        "challenge-mcq-15",
-        "challenge-mcq-14"
+        "challenge-mcq-05",
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「unchallenged」指「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」。",
       "sentenceIndex": 0,
@@ -1595,12 +1404,9 @@ export default {
         "unchallenged"
       ],
       "optionReasons": {
-        "challenge-mcq-19": "本句指「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」。",
-        "challenge-mcq-18": "「某項說法、觀點或決定沒有受到質疑、異議或反駁」是「unchallenged — not disputed」的用法，與本句語境不同。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。"
+        "challenge-mcq-19": "本句的「unchallenged」指「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-19"
     },
@@ -1612,11 +1418,8 @@ export default {
       "masked": "She was the ____ champion in her category.",
       "options": [
         "challenge-mcq-19",
-        "challenge-mcq-18",
-        "challenge-mcq-17",
-        "challenge-mcq-16",
-        "challenge-mcq-15",
-        "challenge-mcq-14"
+        "challenge-mcq-05",
+        "challenge-mcq-16"
       ],
       "explanation": "本句的「unchallenged」指「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」。",
       "sentenceIndex": 1,
@@ -1625,12 +1428,9 @@ export default {
         "unchallenged"
       ],
       "optionReasons": {
-        "challenge-mcq-19": "本句指「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」。",
-        "challenge-mcq-18": "「某項說法、觀點或決定沒有受到質疑、異議或反駁」是「unchallenged — not disputed」的用法，與本句語境不同。",
-        "challenge-mcq-17": "「面對困難要求時迎難而上，發揮能力並成功應付」是「rise to the challenge」的用法，與本句語境不同。",
-        "challenge-mcq-16": "「願意承擔或嘗試完成一件具有相當難度的事情」是「take on / accept a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-15": "「某種情況本身造成需要投入能力、努力或資源才能解決的困難」是「pose/present a challenge」的用法，與本句語境不同。",
-        "challenge-mcq-14": "「球員嘗試從對手取得球權或阻止對方前進的攔截／搶球動作」是「challenge — sport」的用法，與本句語境不同。"
+        "challenge-mcq-19": "本句的「unchallenged」指「某人的領先、冠軍或主導地位沒有受到有力競爭者威脅」。",
+        "challenge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "challenge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "challenge-mcq-19"
     }
@@ -1643,5 +1443,7 @@ export default {
     "pages": 20,
     "sha256": "3f773519b23f2a1dd9f3c8d60b9745c643c1563bfbc192ea9ea07c2a5a9c024c"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -368,7 +368,7 @@ export default {
     },
     {
       "id": "shy-mcq-17",
-      "title": "表示害羞的；靦腆的；怕生的",
+      "title": "害羞的；靦腆的；怕生的",
       "form": "2. shy — nervous or uncomfortable with people",
       "en": "2. shy — nervous or uncomfortable with people",
       "zh": "表示害羞的；靦腆的；怕生的",
@@ -398,11 +398,9 @@ export default {
       "masked": "I was very ____ when I first joined the class.",
       "options": [
         "shy-mcq-16",
-        "shy-mcq-15",
-        "shy-mcq-17",
-        "shy-mcq-14",
-        "shy-mcq-13",
-        "shy-mcq-12"
+        "shy-mcq-08",
+        "shy-mcq-11",
+        "shy-mcq-15"
       ],
       "explanation": "本句的「shy」指「害羞的；靦腆的；不太敢表現自己的」。",
       "sentenceIndex": 0,
@@ -411,12 +409,10 @@ export default {
         "shy"
       ],
       "optionReasons": {
-        "shy-mcq-16": "本句指「害羞的；靦腆的；不太敢表現自己的」。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-17": "「表示害羞的；靦腆的；怕生的」是「2. shy — nervous or uncomfortable with people」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。"
+        "shy-mcq-16": "本句的「shy」指「害羞的；靦腆的；不太敢表現自己的」。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-16"
     },
@@ -428,11 +424,9 @@ export default {
       "masked": "She is ____ around new people but becomes talkative once she feels comfortable.",
       "options": [
         "shy-mcq-16",
-        "shy-mcq-15",
-        "shy-mcq-17",
+        "shy-mcq-11",
         "shy-mcq-14",
-        "shy-mcq-13",
-        "shy-mcq-12"
+        "shy-mcq-08"
       ],
       "explanation": "本句的「shy」指「害羞的；靦腆的；不太敢表現自己的」。",
       "sentenceIndex": 1,
@@ -441,12 +435,10 @@ export default {
         "shy"
       ],
       "optionReasons": {
-        "shy-mcq-16": "本句指「害羞的；靦腆的；不太敢表現自己的」。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-17": "「表示害羞的；靦腆的；怕生的」是「2. shy — nervous or uncomfortable with people」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。"
+        "shy-mcq-16": "本句的「shy」指「害羞的；靦腆的；不太敢表現自己的」。",
+        "shy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-16"
     },
@@ -458,11 +450,9 @@ export default {
       "masked": "He is too ____ to speak in front of the class.",
       "options": [
         "shy-mcq-17",
-        "shy-mcq-16",
-        "shy-mcq-15",
-        "shy-mcq-14",
-        "shy-mcq-13",
-        "shy-mcq-12"
+        "shy-mcq-09",
+        "shy-mcq-03",
+        "shy-mcq-14"
       ],
       "explanation": "本句的「shy」指「表示害羞的；靦腆的；怕生的」。",
       "sentenceIndex": 2,
@@ -471,12 +461,10 @@ export default {
         "shy"
       ],
       "optionReasons": {
-        "shy-mcq-17": "本句指「表示害羞的；靦腆的；怕生的」。",
-        "shy-mcq-16": "「害羞的；靦腆的；不太敢表現自己的」是「Passage meaning」的用法，與本句語境不同。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。"
+        "shy-mcq-17": "本句的「shy」指「表示害羞的；靦腆的；怕生的」。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-17"
     },
@@ -488,11 +476,9 @@ export default {
       "masked": "She has always been a little ____ with strangers.",
       "options": [
         "shy-mcq-17",
-        "shy-mcq-16",
-        "shy-mcq-15",
         "shy-mcq-14",
-        "shy-mcq-13",
-        "shy-mcq-12"
+        "shy-mcq-02",
+        "shy-mcq-10"
       ],
       "explanation": "本句的「shy」指「表示害羞的；靦腆的；怕生的」。",
       "sentenceIndex": 3,
@@ -501,12 +487,10 @@ export default {
         "shy"
       ],
       "optionReasons": {
-        "shy-mcq-17": "本句指「表示害羞的；靦腆的；怕生的」。",
-        "shy-mcq-16": "「害羞的；靦腆的；不太敢表現自己的」是「Passage meaning」的用法，與本句語境不同。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。"
+        "shy-mcq-17": "本句的「shy」指「表示害羞的；靦腆的；怕生的」。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-17"
     },
@@ -518,11 +502,9 @@ export default {
       "masked": "The child is ____.",
       "options": [
         "shy-mcq-02",
-        "shy-mcq-01",
-        "shy-mcq-03",
-        "shy-mcq-04",
-        "shy-mcq-05",
-        "shy-mcq-06"
+        "shy-mcq-06",
+        "shy-mcq-09",
+        "shy-mcq-15"
       ],
       "explanation": "本句的「shy around adults」指「在某人或某類人面前感到拘謹、不自在」。",
       "sentenceIndex": 4,
@@ -531,12 +513,10 @@ export default {
         "shy around adults"
       ],
       "optionReasons": {
-        "shy-mcq-02": "本句指「在某人或某類人面前感到拘謹、不自在」。",
-        "shy-mcq-01": "「在與人互動時因緊張、不自信或怕被注意而顯得害羞／靦腆」是「shy — social」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。"
+        "shy-mcq-02": "本句的「shy around adults」指「在某人或某類人面前感到拘謹、不自在」。",
+        "shy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-02"
     },
@@ -548,11 +528,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "shy-mcq-02",
-        "shy-mcq-01",
-        "shy-mcq-03",
-        "shy-mcq-04",
-        "shy-mcq-05",
-        "shy-mcq-06"
+        "shy-mcq-11",
+        "shy-mcq-17",
+        "shy-mcq-08"
       ],
       "explanation": "本句的「shy with people he didn’t know well」指「在某人或某類人面前感到拘謹、不自在」。",
       "sentenceIndex": 5,
@@ -561,12 +539,10 @@ export default {
         "shy with people he didn’t know well"
       ],
       "optionReasons": {
-        "shy-mcq-02": "本句指「在某人或某類人面前感到拘謹、不自在」。",
-        "shy-mcq-01": "「在與人互動時因緊張、不自信或怕被注意而顯得害羞／靦腆」是「shy — social」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。"
+        "shy-mcq-02": "本句的「shy with people he didn’t know well」指「在某人或某類人面前感到拘謹、不自在」。",
+        "shy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-02"
     },
@@ -578,11 +554,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "shy-mcq-03",
-        "shy-mcq-02",
-        "shy-mcq-04",
-        "shy-mcq-01",
-        "shy-mcq-05",
-        "shy-mcq-06"
+        "shy-mcq-13",
+        "shy-mcq-14",
+        "shy-mcq-08"
       ],
       "explanation": "本句的「shy about speaking English」指「對某件事感到不好意思、缺乏自信或不願公開表現」。",
       "sentenceIndex": 6,
@@ -591,12 +565,10 @@ export default {
         "shy about speaking English"
       ],
       "optionReasons": {
-        "shy-mcq-03": "本句指「對某件事感到不好意思、缺乏自信或不願公開表現」。",
-        "shy-mcq-02": "「在某人或某類人面前感到拘謹、不自在」是「shy around/with someone」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-01": "「在與人互動時因緊張、不自信或怕被注意而顯得害羞／靦腆」是「shy — social」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。"
+        "shy-mcq-03": "本句的「shy about speaking English」指「對某件事感到不好意思、缺乏自信或不願公開表現」。",
+        "shy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-03"
     },
@@ -608,11 +580,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "shy-mcq-03",
-        "shy-mcq-02",
-        "shy-mcq-04",
-        "shy-mcq-01",
-        "shy-mcq-05",
-        "shy-mcq-06"
+        "shy-mcq-08",
+        "shy-mcq-13",
+        "shy-mcq-14"
       ],
       "explanation": "本句的「shy about showing his work」指「對某件事感到不好意思、缺乏自信或不願公開表現」。",
       "sentenceIndex": 7,
@@ -621,12 +591,10 @@ export default {
         "shy about showing his work"
       ],
       "optionReasons": {
-        "shy-mcq-03": "本句指「對某件事感到不好意思、缺乏自信或不願公開表現」。",
-        "shy-mcq-02": "「在某人或某類人面前感到拘謹、不自在」是「shy around/with someone」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-01": "「在與人互動時因緊張、不自信或怕被注意而顯得害羞／靦腆」是「shy — social」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。"
+        "shy-mcq-03": "本句的「shy about showing his work」指「對某件事感到不好意思、缺乏自信或不願公開表現」。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-03"
     },
@@ -638,11 +606,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "shy-mcq-04",
-        "shy-mcq-03",
-        "shy-mcq-05",
-        "shy-mcq-02",
-        "shy-mcq-06",
-        "shy-mcq-01"
+        "shy-mcq-15",
+        "shy-mcq-07",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「too shy to ask a question」指「因害羞或缺乏社交自信而不敢做某事」。",
       "sentenceIndex": 8,
@@ -651,12 +617,10 @@ export default {
         "too shy to ask a question"
       ],
       "optionReasons": {
-        "shy-mcq-04": "本句指「因害羞或缺乏社交自信而不敢做某事」。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-02": "「在某人或某類人面前感到拘謹、不自在」是「shy around/with someone」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-01": "「在與人互動時因緊張、不自信或怕被注意而顯得害羞／靦腆」是「shy — social」的用法，與本句語境不同。"
+        "shy-mcq-04": "本句的「too shy to ask a question」指「因害羞或缺乏社交自信而不敢做某事」。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-04"
     },
@@ -668,11 +632,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "shy-mcq-04",
-        "shy-mcq-03",
-        "shy-mcq-05",
-        "shy-mcq-02",
-        "shy-mcq-06",
-        "shy-mcq-01"
+        "shy-mcq-09",
+        "shy-mcq-15",
+        "shy-mcq-07"
       ],
       "explanation": "本句的「too shy to introduce herself」指「因害羞或缺乏社交自信而不敢做某事」。",
       "sentenceIndex": 9,
@@ -681,12 +643,10 @@ export default {
         "too shy to introduce herself"
       ],
       "optionReasons": {
-        "shy-mcq-04": "本句指「因害羞或缺乏社交自信而不敢做某事」。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-02": "「在某人或某類人面前感到拘謹、不自在」是「shy around/with someone」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-01": "「在與人互動時因緊張、不自信或怕被注意而顯得害羞／靦腆」是「shy — social」的用法，與本句語境不同。"
+        "shy-mcq-04": "本句的「too shy to introduce herself」指「因害羞或缺乏社交自信而不敢做某事」。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-04"
     },
@@ -698,11 +658,9 @@ export default {
       "masked": "He was a ____.",
       "options": [
         "shy-mcq-05",
-        "shy-mcq-04",
-        "shy-mcq-06",
-        "shy-mcq-03",
-        "shy-mcq-07",
-        "shy-mcq-02"
+        "shy-mcq-09",
+        "shy-mcq-14",
+        "shy-mcq-08"
       ],
       "explanation": "本句的「shy, quiet student」指「個性較害羞、拘謹、不愛成為注意焦點的人」。",
       "sentenceIndex": 10,
@@ -711,12 +669,10 @@ export default {
         "shy, quiet student"
       ],
       "optionReasons": {
-        "shy-mcq-05": "本句指「個性較害羞、拘謹、不愛成為注意焦點的人」。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-02": "「在某人或某類人面前感到拘謹、不自在」是「shy around/with someone」的用法，與本句語境不同。"
+        "shy-mcq-05": "本句的「shy, quiet student」指「個性較害羞、拘謹、不愛成為注意焦點的人」。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-05"
     },
@@ -728,11 +684,9 @@ export default {
       "masked": "She has a naturally ____.",
       "options": [
         "shy-mcq-05",
-        "shy-mcq-04",
-        "shy-mcq-06",
-        "shy-mcq-03",
-        "shy-mcq-07",
-        "shy-mcq-02"
+        "shy-mcq-08",
+        "shy-mcq-14",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「shy personality」指「個性較害羞、拘謹、不愛成為注意焦點的人」。",
       "sentenceIndex": 11,
@@ -741,12 +695,10 @@ export default {
         "shy personality"
       ],
       "optionReasons": {
-        "shy-mcq-05": "本句指「個性較害羞、拘謹、不愛成為注意焦點的人」。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-02": "「在某人或某類人面前感到拘謹、不自在」是「shy around/with someone」的用法，與本句語境不同。"
+        "shy-mcq-05": "本句的「shy personality」指「個性較害羞、拘謹、不愛成為注意焦點的人」。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-05"
     },
@@ -758,11 +710,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "shy-mcq-06",
-        "shy-mcq-05",
-        "shy-mcq-07",
-        "shy-mcq-04",
-        "shy-mcq-08",
-        "shy-mcq-03"
+        "shy-mcq-15",
+        "shy-mcq-09",
+        "shy-mcq-02"
       ],
       "explanation": "本句的「shy away from difficult questions」指「因害怕、不安或缺乏信心而迴避某事」。",
       "sentenceIndex": 12,
@@ -771,12 +721,10 @@ export default {
         "shy away from difficult questions"
       ],
       "optionReasons": {
-        "shy-mcq-06": "本句指「因害怕、不安或缺乏信心而迴避某事」。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。"
+        "shy-mcq-06": "本句的「shy away from difficult questions」指「因害怕、不安或缺乏信心而迴避某事」。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-06"
     },
@@ -788,11 +736,9 @@ export default {
       "masked": "She used to ____.",
       "options": [
         "shy-mcq-06",
-        "shy-mcq-05",
-        "shy-mcq-07",
-        "shy-mcq-04",
-        "shy-mcq-08",
-        "shy-mcq-03"
+        "shy-mcq-02",
+        "shy-mcq-15",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「shy away from public speaking」指「因害怕、不安或缺乏信心而迴避某事」。",
       "sentenceIndex": 13,
@@ -801,12 +747,10 @@ export default {
         "shy away from public speaking"
       ],
       "optionReasons": {
-        "shy-mcq-06": "本句指「因害怕、不安或缺乏信心而迴避某事」。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。"
+        "shy-mcq-06": "本句的「shy away from public speaking」指「因害怕、不安或缺乏信心而迴避某事」。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-06"
     },
@@ -818,11 +762,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "shy-mcq-06",
-        "shy-mcq-05",
-        "shy-mcq-07",
-        "shy-mcq-04",
-        "shy-mcq-08",
-        "shy-mcq-03"
+        "shy-mcq-14",
+        "shy-mcq-02",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「shied away from taking responsibility」指「因害怕、不安或缺乏信心而迴避某事」。",
       "sentenceIndex": 14,
@@ -831,12 +773,10 @@ export default {
         "shied away from taking responsibility"
       ],
       "optionReasons": {
-        "shy-mcq-06": "本句指「因害怕、不安或缺乏信心而迴避某事」。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。"
+        "shy-mcq-06": "本句的「shied away from taking responsibility」指「因害怕、不安或缺乏信心而迴避某事」。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-06"
     },
@@ -848,11 +788,9 @@ export default {
       "masked": "She no longer ____.",
       "options": [
         "shy-mcq-06",
-        "shy-mcq-05",
-        "shy-mcq-07",
-        "shy-mcq-04",
-        "shy-mcq-08",
-        "shy-mcq-03"
+        "shy-mcq-02",
+        "shy-mcq-14",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「shies away from expressing her opinion」指「因害怕、不安或缺乏信心而迴避某事」。",
       "sentenceIndex": 15,
@@ -861,12 +799,10 @@ export default {
         "shies away from expressing her opinion"
       ],
       "optionReasons": {
-        "shy-mcq-06": "本句指「因害怕、不安或缺乏信心而迴避某事」。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-03": "「對某件事感到不好意思、缺乏自信或不願公開表現」是「shy about something」的用法，與本句語境不同。"
+        "shy-mcq-06": "本句的「shies away from expressing her opinion」指「因害怕、不安或缺乏信心而迴避某事」。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-06"
     },
@@ -878,11 +814,9 @@ export default {
       "masked": "The horse is very ____ around traffic.",
       "options": [
         "shy-mcq-07",
-        "shy-mcq-06",
-        "shy-mcq-08",
-        "shy-mcq-05",
-        "shy-mcq-09",
-        "shy-mcq-04"
+        "shy-mcq-15",
+        "shy-mcq-10",
+        "shy-mcq-13"
       ],
       "explanation": "本句的「shy」指「動物容易受驚、怕人或對刺激反應敏感」。",
       "sentenceIndex": 16,
@@ -891,12 +825,10 @@ export default {
         "shy"
       ],
       "optionReasons": {
-        "shy-mcq-07": "本句指「動物容易受驚、怕人或對刺激反應敏感」。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。"
+        "shy-mcq-07": "本句的「shy」指「動物容易受驚、怕人或對刺激反應敏感」。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-07"
     },
@@ -908,11 +840,9 @@ export default {
       "masked": "Some wild animals are naturally ____.",
       "options": [
         "shy-mcq-07",
-        "shy-mcq-06",
-        "shy-mcq-08",
-        "shy-mcq-05",
-        "shy-mcq-09",
-        "shy-mcq-04"
+        "shy-mcq-15",
+        "shy-mcq-04",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「shy」指「動物容易受驚、怕人或對刺激反應敏感」。",
       "sentenceIndex": 17,
@@ -921,12 +851,10 @@ export default {
         "shy"
       ],
       "optionReasons": {
-        "shy-mcq-07": "本句指「動物容易受驚、怕人或對刺激反應敏感」。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-04": "「因害羞或缺乏社交自信而不敢做某事」是「too shy to do」的用法，與本句語境不同。"
+        "shy-mcq-07": "本句的「shy」指「動物容易受驚、怕人或對刺激反應敏感」。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-07"
     },
@@ -938,11 +866,9 @@ export default {
       "masked": "The horse ____.",
       "options": [
         "shy-mcq-08",
-        "shy-mcq-07",
-        "shy-mcq-09",
-        "shy-mcq-06",
-        "shy-mcq-10",
-        "shy-mcq-05"
+        "shy-mcq-16",
+        "shy-mcq-14",
+        "shy-mcq-02"
       ],
       "explanation": "本句的「shied at the sudden noise」指「動物因受驚而突然閃避某物」。",
       "sentenceIndex": 18,
@@ -951,12 +877,10 @@ export default {
         "shied at the sudden noise"
       ],
       "optionReasons": {
-        "shy-mcq-08": "本句指「動物因受驚而突然閃避某物」。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。"
+        "shy-mcq-08": "本句的「shied at the sudden noise」指「動物因受驚而突然閃避某物」。",
+        "shy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-08"
     },
@@ -968,11 +892,9 @@ export default {
       "masked": "The pony ____.",
       "options": [
         "shy-mcq-08",
-        "shy-mcq-07",
         "shy-mcq-09",
-        "shy-mcq-06",
-        "shy-mcq-10",
-        "shy-mcq-05"
+        "shy-mcq-15",
+        "shy-mcq-02"
       ],
       "explanation": "本句的「shied at the umbrella」指「動物因受驚而突然閃避某物」。",
       "sentenceIndex": 19,
@@ -981,12 +903,10 @@ export default {
         "shied at the umbrella"
       ],
       "optionReasons": {
-        "shy-mcq-08": "本句指「動物因受驚而突然閃避某物」。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-05": "「個性較害羞、拘謹、不愛成為注意焦點的人」是「shy personality/person」的用法，與本句語境不同。"
+        "shy-mcq-08": "本句的「shied at the umbrella」指「動物因受驚而突然閃避某物」。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-08"
     },
@@ -998,11 +918,9 @@ export default {
       "masked": "The total was just ____.",
       "options": [
         "shy-mcq-09",
-        "shy-mcq-08",
-        "shy-mcq-10",
-        "shy-mcq-07",
-        "shy-mcq-11",
-        "shy-mcq-06"
+        "shy-mcq-06",
+        "shy-mcq-02",
+        "shy-mcq-15"
       ],
       "explanation": "本句的「shy of $1,000」指「數量、距離、時間等略低於某個數值；不到」。",
       "sentenceIndex": 20,
@@ -1011,12 +929,10 @@ export default {
         "shy of $1,000"
       ],
       "optionReasons": {
-        "shy-mcq-09": "本句指「數量、距離、時間等略低於某個數值；不到」。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。"
+        "shy-mcq-09": "本句的「shy of $1,000」指「數量、距離、時間等略低於某個數值；不到」。",
+        "shy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-09"
     },
@@ -1028,11 +944,9 @@ export default {
       "masked": "The journey took just ____.",
       "options": [
         "shy-mcq-09",
-        "shy-mcq-08",
-        "shy-mcq-10",
-        "shy-mcq-07",
-        "shy-mcq-11",
-        "shy-mcq-06"
+        "shy-mcq-12",
+        "shy-mcq-02",
+        "shy-mcq-15"
       ],
       "explanation": "本句的「shy of three hours」指「數量、距離、時間等略低於某個數值；不到」。",
       "sentenceIndex": 21,
@@ -1041,12 +955,10 @@ export default {
         "shy of three hours"
       ],
       "optionReasons": {
-        "shy-mcq-09": "本句指「數量、距離、時間等略低於某個數值；不到」。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-06": "「因害怕、不安或缺乏信心而迴避某事」是「shy away from something」的用法，與本句語境不同。"
+        "shy-mcq-09": "本句的「shy of three hours」指「數量、距離、時間等略低於某個數值；不到」。",
+        "shy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-09"
     },
@@ -1058,11 +970,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "shy-mcq-10",
-        "shy-mcq-09",
-        "shy-mcq-11",
-        "shy-mcq-08",
-        "shy-mcq-12",
-        "shy-mcq-07"
+        "shy-mcq-02",
+        "shy-mcq-14",
+        "shy-mcq-08"
       ],
       "explanation": "本句的「just shy of six feet tall」指「接近某數值但仍稍微不足」。",
       "sentenceIndex": 22,
@@ -1071,12 +981,10 @@ export default {
         "just shy of six feet tall"
       ],
       "optionReasons": {
-        "shy-mcq-10": "本句指「接近某數值但仍稍微不足」。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。"
+        "shy-mcq-10": "本句的「just shy of six feet tall」指「接近某數值但仍稍微不足」。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-10"
     },
@@ -1088,10 +996,8 @@ export default {
       "masked": "Sales reached ____.",
       "options": [
         "shy-mcq-10",
-        "shy-mcq-09",
-        "shy-mcq-11",
-        "shy-mcq-08",
-        "shy-mcq-12",
+        "shy-mcq-16",
+        "shy-mcq-02",
         "shy-mcq-07"
       ],
       "explanation": "本句的「just shy of one million units」指「接近某數值但仍稍微不足」。",
@@ -1101,12 +1007,10 @@ export default {
         "just shy of one million units"
       ],
       "optionReasons": {
-        "shy-mcq-10": "本句指「接近某數值但仍稍微不足」。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-07": "「動物容易受驚、怕人或對刺激反應敏感」是「shy — animal」的用法，與本句語境不同。"
+        "shy-mcq-10": "本句的「just shy of one million units」指「接近某數值但仍稍微不足」。",
+        "shy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-10"
     },
@@ -1118,11 +1022,9 @@ export default {
       "masked": "The team is still ____.",
       "options": [
         "shy-mcq-11",
-        "shy-mcq-10",
-        "shy-mcq-12",
-        "shy-mcq-09",
-        "shy-mcq-13",
-        "shy-mcq-08"
+        "shy-mcq-08",
+        "shy-mcq-15",
+        "shy-mcq-16"
       ],
       "explanation": "本句的「shy of experience」指「在某項資源、條件或數量上不足」。",
       "sentenceIndex": 24,
@@ -1131,12 +1033,10 @@ export default {
         "shy of experience"
       ],
       "optionReasons": {
-        "shy-mcq-11": "本句指「在某項資源、條件或數量上不足」。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。"
+        "shy-mcq-11": "本句的「shy of experience」指「在某項資源、條件或數量上不足」。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-11"
     },
@@ -1148,9 +1048,7 @@ export default {
       "masked": "We are a few people ____.",
       "options": [
         "shy-mcq-11",
-        "shy-mcq-10",
-        "shy-mcq-12",
-        "shy-mcq-09",
+        "shy-mcq-14",
         "shy-mcq-13",
         "shy-mcq-08"
       ],
@@ -1161,12 +1059,10 @@ export default {
         "shy of the required number"
       ],
       "optionReasons": {
-        "shy-mcq-11": "本句指「在某項資源、條件或數量上不足」。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。"
+        "shy-mcq-11": "本句的「shy of the required number」指「在某項資源、條件或數量上不足」。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-11"
     },
@@ -1178,11 +1074,9 @@ export default {
       "masked": "He ____ at the fence.",
       "options": [
         "shy-mcq-11",
-        "shy-mcq-10",
-        "shy-mcq-12",
-        "shy-mcq-09",
-        "shy-mcq-13",
-        "shy-mcq-08"
+        "shy-mcq-07",
+        "shy-mcq-14",
+        "shy-mcq-16"
       ],
       "explanation": "本句的「shied a stone」指「在某項資源、條件或數量上不足」。",
       "sentenceIndex": 26,
@@ -1191,12 +1085,10 @@ export default {
         "shied a stone"
       ],
       "optionReasons": {
-        "shy-mcq-11": "本句指「在某項資源、條件或數量上不足」。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。"
+        "shy-mcq-11": "本句的「shied a stone」指「在某項資源、條件或數量上不足」。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-11"
     },
@@ -1208,11 +1100,9 @@ export default {
       "masked": "The boy ____ across the yard.",
       "options": [
         "shy-mcq-11",
-        "shy-mcq-10",
-        "shy-mcq-12",
-        "shy-mcq-09",
-        "shy-mcq-13",
-        "shy-mcq-08"
+        "shy-mcq-14",
+        "shy-mcq-02",
+        "shy-mcq-17"
       ],
       "explanation": "本句的「shied a ball」指「在某項資源、條件或數量上不足」。",
       "sentenceIndex": 27,
@@ -1221,12 +1111,10 @@ export default {
         "shied a ball"
       ],
       "optionReasons": {
-        "shy-mcq-11": "本句指「在某項資源、條件或數量上不足」。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-08": "「動物因受驚而突然閃避某物」是「shy at something — animal」的用法，與本句語境不同。"
+        "shy-mcq-11": "本句的「shied a ball」指「在某項資源、條件或數量上不足」。",
+        "shy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-11"
     },
@@ -1238,11 +1126,9 @@ export default {
       "masked": "Her ____ made public speaking difficult.",
       "options": [
         "shy-mcq-12",
-        "shy-mcq-11",
-        "shy-mcq-13",
-        "shy-mcq-10",
-        "shy-mcq-14",
-        "shy-mcq-09"
+        "shy-mcq-09",
+        "shy-mcq-15",
+        "shy-mcq-08"
       ],
       "explanation": "本句的「shyness」指「害羞、羞怯或社交上缺乏自信的特質」。",
       "sentenceIndex": 28,
@@ -1251,12 +1137,10 @@ export default {
         "shyness"
       ],
       "optionReasons": {
-        "shy-mcq-12": "本句指「害羞、羞怯或社交上缺乏自信的特質」。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。"
+        "shy-mcq-12": "本句的「shyness」指「害羞、羞怯或社交上缺乏自信的特質」。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-12"
     },
@@ -1268,10 +1152,8 @@ export default {
       "masked": "He gradually overcame his ____.",
       "options": [
         "shy-mcq-12",
-        "shy-mcq-11",
-        "shy-mcq-13",
-        "shy-mcq-10",
-        "shy-mcq-14",
+        "shy-mcq-15",
+        "shy-mcq-08",
         "shy-mcq-09"
       ],
       "explanation": "本句的「shyness」指「害羞、羞怯或社交上缺乏自信的特質」。",
@@ -1281,12 +1163,10 @@ export default {
         "shyness"
       ],
       "optionReasons": {
-        "shy-mcq-12": "本句指「害羞、羞怯或社交上缺乏自信的特質」。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-09": "「數量、距離、時間等略低於某個數值；不到」是「shy of + amount」的用法，與本句語境不同。"
+        "shy-mcq-12": "本句的「shyness」指「害羞、羞怯或社交上缺乏自信的特質」。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-12"
     },
@@ -1298,11 +1178,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "shy-mcq-13",
-        "shy-mcq-12",
-        "shy-mcq-14",
-        "shy-mcq-11",
         "shy-mcq-15",
-        "shy-mcq-10"
+        "shy-mcq-11",
+        "shy-mcq-07"
       ],
       "explanation": "本句的「shyly」指「以害羞、靦腆或拘謹的方式」。",
       "sentenceIndex": 30,
@@ -1311,12 +1189,10 @@ export default {
         "shyly"
       ],
       "optionReasons": {
-        "shy-mcq-13": "本句指「以害羞、靦腆或拘謹的方式」。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。"
+        "shy-mcq-13": "本句的「shyly」指「以害羞、靦腆或拘謹的方式」。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-13"
     },
@@ -1328,11 +1204,9 @@ export default {
       "masked": "He ____ introduced himself.",
       "options": [
         "shy-mcq-13",
-        "shy-mcq-12",
-        "shy-mcq-14",
+        "shy-mcq-08",
         "shy-mcq-11",
-        "shy-mcq-15",
-        "shy-mcq-10"
+        "shy-mcq-15"
       ],
       "explanation": "本句的「shyly」指「以害羞、靦腆或拘謹的方式」。",
       "sentenceIndex": 31,
@@ -1341,12 +1215,10 @@ export default {
         "shyly"
       ],
       "optionReasons": {
-        "shy-mcq-13": "本句指「以害羞、靦腆或拘謹的方式」。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-10": "「接近某數值但仍稍微不足」是「just shy of」的用法，與本句語境不同。"
+        "shy-mcq-13": "本句的「shyly」指「以害羞、靦腆或拘謹的方式」。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-13"
     },
@@ -1358,11 +1230,9 @@ export default {
       "masked": "He is extremely ____.",
       "options": [
         "shy-mcq-14",
-        "shy-mcq-13",
-        "shy-mcq-15",
-        "shy-mcq-12",
-        "shy-mcq-16",
-        "shy-mcq-11"
+        "shy-mcq-04",
+        "shy-mcq-08",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「camera-shy」指「不喜歡被拍照、上鏡或面對鏡頭」。",
       "sentenceIndex": 32,
@@ -1371,12 +1241,10 @@ export default {
         "camera-shy"
       ],
       "optionReasons": {
-        "shy-mcq-14": "本句指「不喜歡被拍照、上鏡或面對鏡頭」。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-16": "「害羞的；靦腆的；不太敢表現自己的」是「Passage meaning」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。"
+        "shy-mcq-14": "本句的「camera-shy」指「不喜歡被拍照、上鏡或面對鏡頭」。",
+        "shy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-14"
     },
@@ -1388,11 +1256,9 @@ export default {
       "masked": "She used to be ____ as a teenager.",
       "options": [
         "shy-mcq-14",
-        "shy-mcq-13",
-        "shy-mcq-15",
-        "shy-mcq-12",
-        "shy-mcq-16",
-        "shy-mcq-11"
+        "shy-mcq-03",
+        "shy-mcq-05",
+        "shy-mcq-07"
       ],
       "explanation": "本句的「camera-shy」指「不喜歡被拍照、上鏡或面對鏡頭」。",
       "sentenceIndex": 33,
@@ -1401,12 +1267,10 @@ export default {
         "camera-shy"
       ],
       "optionReasons": {
-        "shy-mcq-14": "本句指「不喜歡被拍照、上鏡或面對鏡頭」。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-15": "「不喜歡公開曝光或面對媒體注意」是「media/publicity-shy」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。",
-        "shy-mcq-16": "「害羞的；靦腆的；不太敢表現自己的」是「Passage meaning」的用法，與本句語境不同。",
-        "shy-mcq-11": "「在某項資源、條件或數量上不足」是「shy of something — lacking」的用法，與本句語境不同。"
+        "shy-mcq-14": "本句的「camera-shy」指「不喜歡被拍照、上鏡或面對鏡頭」。",
+        "shy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-14"
     },
@@ -1418,11 +1282,9 @@ export default {
       "masked": "The writer is famously ____.",
       "options": [
         "shy-mcq-15",
-        "shy-mcq-14",
-        "shy-mcq-16",
-        "shy-mcq-13",
-        "shy-mcq-17",
-        "shy-mcq-12"
+        "shy-mcq-12",
+        "shy-mcq-07",
+        "shy-mcq-02"
       ],
       "explanation": "本句的「publicity-shy」指「不喜歡公開曝光或面對媒體注意」。",
       "sentenceIndex": 34,
@@ -1431,12 +1293,10 @@ export default {
         "publicity-shy"
       ],
       "optionReasons": {
-        "shy-mcq-15": "本句指「不喜歡公開曝光或面對媒體注意」。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-16": "「害羞的；靦腆的；不太敢表現自己的」是「Passage meaning」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-17": "「表示害羞的；靦腆的；怕生的」是「2. shy — nervous or uncomfortable with people」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。"
+        "shy-mcq-15": "本句的「publicity-shy」指「不喜歡公開曝光或面對媒體注意」。",
+        "shy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-15"
     },
@@ -1448,11 +1308,9 @@ export default {
       "masked": "He remains ____ despite his success.",
       "options": [
         "shy-mcq-15",
-        "shy-mcq-14",
-        "shy-mcq-16",
-        "shy-mcq-13",
-        "shy-mcq-17",
-        "shy-mcq-12"
+        "shy-mcq-12",
+        "shy-mcq-07",
+        "shy-mcq-09"
       ],
       "explanation": "本句的「media-shy」指「不喜歡公開曝光或面對媒體注意」。",
       "sentenceIndex": 35,
@@ -1461,12 +1319,10 @@ export default {
         "media-shy"
       ],
       "optionReasons": {
-        "shy-mcq-15": "本句指「不喜歡公開曝光或面對媒體注意」。",
-        "shy-mcq-14": "「不喜歡被拍照、上鏡或面對鏡頭」是「camera-shy」的用法，與本句語境不同。",
-        "shy-mcq-16": "「害羞的；靦腆的；不太敢表現自己的」是「Passage meaning」的用法，與本句語境不同。",
-        "shy-mcq-13": "「以害羞、靦腆或拘謹的方式」是「shyly」的用法，與本句語境不同。",
-        "shy-mcq-17": "「表示害羞的；靦腆的；怕生的」是「2. shy — nervous or uncomfortable with people」的用法，與本句語境不同。",
-        "shy-mcq-12": "「害羞、羞怯或社交上缺乏自信的特質」是「shyness」的用法，與本句語境不同。"
+        "shy-mcq-15": "本句的「media-shy」指「不喜歡公開曝光或面對媒體注意」。",
+        "shy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shy-mcq-15"
     }
@@ -1478,5 +1334,7 @@ export default {
     "sha256": "04248d06ba62d235bf2c7c9b674f700119b374c226fd412c80d66d973ef089ee",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

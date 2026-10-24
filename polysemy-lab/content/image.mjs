@@ -319,7 +319,7 @@ export default {
     },
     {
       "id": "image-mcq-16",
-      "title": "表示映像；映像檔",
+      "title": "映像；映像檔",
       "form": "Unmapped practice image-09-0",
       "en": "Unmapped practice image-09-0",
       "zh": "表示映像；映像檔",
@@ -336,7 +336,7 @@ export default {
     },
     {
       "id": "image-mcq-17",
-      "title": "表示映像；映像檔",
+      "title": "映像；映像檔",
       "form": "Unmapped practice image-09-1",
       "en": "Unmapped practice image-09-1",
       "zh": "表示映像；映像檔",
@@ -353,7 +353,7 @@ export default {
     },
     {
       "id": "image-mcq-18",
-      "title": "表示意象；形象化描寫",
+      "title": "意象；形象化描寫",
       "form": "Unmapped practice image-12-0",
       "en": "Unmapped practice image-12-0",
       "zh": "表示意象；形象化描寫",
@@ -370,7 +370,7 @@ export default {
     },
     {
       "id": "image-mcq-19",
-      "title": "表示意象；形象化描寫",
+      "title": "意象；形象化描寫",
       "form": "Unmapped practice image-12-1",
       "en": "Unmapped practice image-12-1",
       "zh": "表示意象；形象化描寫",
@@ -395,11 +395,9 @@ export default {
       "masked": "The website contains several ____ of the product.",
       "options": [
         "image-mcq-01",
-        "image-mcq-02",
-        "image-mcq-03",
-        "image-mcq-04",
-        "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-14",
+        "image-mcq-07",
+        "image-mcq-15"
       ],
       "explanation": "本句的「images」指「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」。",
       "sentenceIndex": 0,
@@ -408,12 +406,10 @@ export default {
         "images"
       ],
       "optionReasons": {
-        "image-mcq-01": "本句指「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-01": "本句的「images」指「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」。",
+        "image-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-01"
     },
@@ -425,11 +421,8 @@ export default {
       "masked": "Click the ____ to enlarge it.",
       "options": [
         "image-mcq-01",
-        "image-mcq-02",
-        "image-mcq-03",
-        "image-mcq-04",
-        "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-13",
+        "image-mcq-07"
       ],
       "explanation": "本句的「image」指「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」。",
       "sentenceIndex": 1,
@@ -438,12 +431,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-01": "本句指「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-01": "本句的「image」指「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」。",
+        "image-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-01"
     },
@@ -455,11 +445,8 @@ export default {
       "masked": "That ____ really stayed with me.",
       "options": [
         "image-mcq-02",
-        "image-mcq-01",
-        "image-mcq-03",
-        "image-mcq-04",
-        "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-17",
+        "image-mcq-05"
       ],
       "explanation": "本句的「image」指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
       "sentenceIndex": 2,
@@ -468,12 +455,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-02": "本句指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-02": "本句的「image」指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
+        "image-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-02"
     },
@@ -485,11 +469,8 @@ export default {
       "masked": "The story created a powerful ____ in my mind.",
       "options": [
         "image-mcq-02",
-        "image-mcq-01",
-        "image-mcq-03",
-        "image-mcq-04",
-        "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-17",
+        "image-mcq-05"
       ],
       "explanation": "本句的「image」指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
       "sentenceIndex": 3,
@@ -498,12 +479,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-02": "本句指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-02": "本句的「image」指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
+        "image-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-02"
     },
@@ -515,11 +493,8 @@ export default {
       "masked": "I still have a clear ____ of the old house in my mind.",
       "options": [
         "image-mcq-02",
-        "image-mcq-01",
-        "image-mcq-03",
-        "image-mcq-04",
-        "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-16",
+        "image-mcq-19"
       ],
       "explanation": "本句的「image」指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
       "sentenceIndex": 4,
@@ -528,12 +503,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-02": "本句指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-02": "本句的「image」指「並非真正出現在眼前，而是在腦海中形成的具體畫面」。",
+        "image-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-02"
     },
@@ -545,11 +517,8 @@ export default {
       "masked": "The writer uses the ____ of a locked door to represent fear.",
       "options": [
         "image-mcq-03",
-        "image-mcq-02",
-        "image-mcq-04",
-        "image-mcq-01",
         "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-07"
       ],
       "explanation": "本句的「image」指「透過文字或比喻建立、能讓人形成鮮明想像的意象」。",
       "sentenceIndex": 5,
@@ -558,12 +527,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-03": "本句指「透過文字或比喻建立、能讓人形成鮮明想像的意象」。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-03": "本句的「image」指「透過文字或比喻建立、能讓人形成鮮明想像的意象」。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-03"
     },
@@ -575,11 +541,8 @@ export default {
       "masked": "The ____ of the city waking up gives the passage energy.",
       "options": [
         "image-mcq-03",
-        "image-mcq-02",
-        "image-mcq-04",
-        "image-mcq-01",
         "image-mcq-05",
-        "image-mcq-06"
+        "image-mcq-07"
       ],
       "explanation": "本句的「image」指「透過文字或比喻建立、能讓人形成鮮明想像的意象」。",
       "sentenceIndex": 6,
@@ -588,12 +551,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-03": "本句指「透過文字或比喻建立、能讓人形成鮮明想像的意象」。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。"
+        "image-mcq-03": "本句的「image」指「透過文字或比喻建立、能讓人形成鮮明想像的意象」。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-03"
     },
@@ -605,11 +565,8 @@ export default {
       "masked": "The company is trying to improve its public ____.",
       "options": [
         "image-mcq-04",
-        "image-mcq-03",
-        "image-mcq-05",
-        "image-mcq-02",
-        "image-mcq-06",
-        "image-mcq-01"
+        "image-mcq-07",
+        "image-mcq-15"
       ],
       "explanation": "本句的「image」指「某人、品牌或機構在別人眼中形成的整體形象」。",
       "sentenceIndex": 7,
@@ -618,12 +575,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-04": "本句指「某人、品牌或機構在別人眼中形成的整體形象」。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。"
+        "image-mcq-04": "本句的「image」指「某人、品牌或機構在別人眼中形成的整體形象」。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-04"
     },
@@ -635,11 +589,7 @@ export default {
       "masked": "The advertisement helped create a more modern ____ for the brand.",
       "options": [
         "image-mcq-04",
-        "image-mcq-03",
-        "image-mcq-05",
-        "image-mcq-02",
-        "image-mcq-06",
-        "image-mcq-01"
+        "image-mcq-17"
       ],
       "explanation": "本句的「image」指「某人、品牌或機構在別人眼中形成的整體形象」。",
       "sentenceIndex": 8,
@@ -648,12 +598,8 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-04": "本句指「某人、品牌或機構在別人眼中形成的整體形象」。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-01": "「以照片、繪圖或數碼方式呈現某人／某物外觀的視覺圖像」是「image — visual picture」的用法，與本句語境不同。"
+        "image-mcq-04": "本句的「image」指「某人、品牌或機構在別人眼中形成的整體形象」。",
+        "image-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-04"
     },
@@ -665,11 +611,8 @@ export default {
       "masked": "Social media can affect a teenager’s self-____.",
       "options": [
         "image-mcq-05",
-        "image-mcq-04",
-        "image-mcq-06",
-        "image-mcq-03",
-        "image-mcq-07",
-        "image-mcq-02"
+        "image-mcq-16",
+        "image-mcq-13"
       ],
       "explanation": "本句的「image」指「一個人對自己的外貌、能力、性格及價值的整體看法」。",
       "sentenceIndex": 9,
@@ -678,12 +621,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-05": "本句指「一個人對自己的外貌、能力、性格及價值的整體看法」。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。"
+        "image-mcq-05": "本句的「image」指「一個人對自己的外貌、能力、性格及價值的整體看法」。",
+        "image-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-05"
     },
@@ -695,11 +635,8 @@ export default {
       "masked": "Success improved his self-____.",
       "options": [
         "image-mcq-05",
-        "image-mcq-04",
-        "image-mcq-06",
-        "image-mcq-03",
-        "image-mcq-07",
-        "image-mcq-02"
+        "image-mcq-13",
+        "image-mcq-16"
       ],
       "explanation": "本句的「image」指「一個人對自己的外貌、能力、性格及價值的整體看法」。",
       "sentenceIndex": 10,
@@ -708,12 +645,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-05": "本句指「一個人對自己的外貌、能力、性格及價值的整體看法」。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。",
-        "image-mcq-02": "「並非真正出現在眼前，而是在腦海中形成的具體畫面」是「image — mental picture」的用法，與本句語境不同。"
+        "image-mcq-05": "本句的「image」指「一個人對自己的外貌、能力、性格及價值的整體看法」。",
+        "image-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-05"
     },
@@ -725,11 +659,8 @@ export default {
       "masked": "She looked at her ____ in the mirror.",
       "options": [
         "image-mcq-06",
-        "image-mcq-05",
-        "image-mcq-07",
-        "image-mcq-04",
-        "image-mcq-08",
-        "image-mcq-03"
+        "image-mcq-15",
+        "image-mcq-07"
       ],
       "explanation": "本句的「image」指「經鏡子、鏡頭等形成的映像或相似形象」。",
       "sentenceIndex": 11,
@@ -738,12 +669,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-06": "本句指「經鏡子、鏡頭等形成的映像或相似形象」。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。"
+        "image-mcq-06": "本句的「image」指「經鏡子、鏡頭等形成的映像或相似形象」。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-06"
     },
@@ -755,11 +683,8 @@ export default {
       "masked": "The lens produces a clear ____.",
       "options": [
         "image-mcq-06",
-        "image-mcq-05",
-        "image-mcq-07",
-        "image-mcq-04",
-        "image-mcq-08",
-        "image-mcq-03"
+        "image-mcq-15",
+        "image-mcq-07"
       ],
       "explanation": "本句的「image」指「經鏡子、鏡頭等形成的映像或相似形象」。",
       "sentenceIndex": 12,
@@ -768,12 +693,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-06": "本句指「經鏡子、鏡頭等形成的映像或相似形象」。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。",
-        "image-mcq-03": "「透過文字或比喻建立、能讓人形成鮮明想像的意象」是「image — figurative/literary」的用法，與本句語境不同。"
+        "image-mcq-06": "本句的「image」指「經鏡子、鏡頭等形成的映像或相似形象」。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-06"
     },
@@ -785,11 +707,8 @@ export default {
       "masked": "The design on the right is a mirror ____ of the one on the left.",
       "options": [
         "image-mcq-07",
-        "image-mcq-06",
-        "image-mcq-08",
-        "image-mcq-05",
-        "image-mcq-09",
-        "image-mcq-04"
+        "image-mcq-13",
+        "image-mcq-05"
       ],
       "explanation": "本句的「image」指「像鏡中倒影般反轉或高度對應的版本」。",
       "sentenceIndex": 13,
@@ -798,12 +717,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-07": "本句指「像鏡中倒影般反轉或高度對應的版本」。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。"
+        "image-mcq-07": "本句的「image」指「像鏡中倒影般反轉或高度對應的版本」。",
+        "image-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-07"
     },
@@ -815,11 +731,9 @@ export default {
       "masked": "Her career was almost a mirror ____ of her mother’s.",
       "options": [
         "image-mcq-07",
-        "image-mcq-06",
         "image-mcq-08",
-        "image-mcq-05",
-        "image-mcq-09",
-        "image-mcq-04"
+        "image-mcq-14",
+        "image-mcq-15"
       ],
       "explanation": "本句的「image」指「像鏡中倒影般反轉或高度對應的版本」。",
       "sentenceIndex": 14,
@@ -828,12 +742,10 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-07": "本句指「像鏡中倒影般反轉或高度對應的版本」。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-04": "「某人、品牌或機構在別人眼中形成的整體形象」是「image — public reputation」的用法，與本句語境不同。"
+        "image-mcq-07": "本句的「image」指「像鏡中倒影般反轉或高度對應的版本」。",
+        "image-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-07"
     },
@@ -846,10 +758,8 @@ export default {
       "options": [
         "image-mcq-08",
         "image-mcq-07",
-        "image-mcq-09",
-        "image-mcq-06",
-        "image-mcq-10",
-        "image-mcq-05"
+        "image-mcq-11",
+        "image-mcq-15"
       ],
       "explanation": "本句的「image」指「外貌或整體形象與某人非常相似」。",
       "sentenceIndex": 15,
@@ -858,12 +768,10 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-08": "本句指「外貌或整體形象與某人非常相似」。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-10": "「利用醫療、科學或電子設備為某物產生可觀察影像」是「image — verb」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。"
+        "image-mcq-08": "本句的「image」指「外貌或整體形象與某人非常相似」。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-08"
     },
@@ -875,11 +783,8 @@ export default {
       "masked": "She was the ____ of her mother at that age.",
       "options": [
         "image-mcq-08",
-        "image-mcq-07",
-        "image-mcq-09",
-        "image-mcq-06",
-        "image-mcq-10",
-        "image-mcq-05"
+        "image-mcq-16",
+        "image-mcq-14"
       ],
       "explanation": "本句的「image」指「外貌或整體形象與某人非常相似」。",
       "sentenceIndex": 16,
@@ -888,12 +793,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-08": "本句指「外貌或整體形象與某人非常相似」。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-06": "「經鏡子、鏡頭等形成的映像或相似形象」是「image — reflection/likeness」的用法，與本句語境不同。",
-        "image-mcq-10": "「利用醫療、科學或電子設備為某物產生可觀察影像」是「image — verb」的用法，與本句語境不同。",
-        "image-mcq-05": "「一個人對自己的外貌、能力、性格及價值的整體看法」是「self-image」的用法，與本句語境不同。"
+        "image-mcq-08": "本句的「image」指「外貌或整體形象與某人非常相似」。",
+        "image-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-08"
     },
@@ -905,11 +807,8 @@ export default {
       "masked": "The technician created a disk ____ before replacing the drive.",
       "options": [
         "image-mcq-16",
-        "image-mcq-15",
-        "image-mcq-14",
-        "image-mcq-18",
-        "image-mcq-13",
-        "image-mcq-12"
+        "image-mcq-05",
+        "image-mcq-13"
       ],
       "explanation": "本句的「image」指「表示映像；映像檔」。",
       "sentenceIndex": 17,
@@ -918,12 +817,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-16": "本句指「表示映像；映像檔」。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-18": "「表示意象；形象化描寫」是「Unmapped practice image-12-0」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。"
+        "image-mcq-16": "本句的「image」指「表示映像；映像檔」。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-16"
     },
@@ -935,11 +831,8 @@ export default {
       "masked": "The system ____ can be used to restore the computer.",
       "options": [
         "image-mcq-17",
-        "image-mcq-18",
-        "image-mcq-15",
-        "image-mcq-14",
         "image-mcq-13",
-        "image-mcq-12"
+        "image-mcq-08"
       ],
       "explanation": "本句的「image」指「表示映像；映像檔」。",
       "sentenceIndex": 18,
@@ -948,12 +841,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-17": "本句指「表示映像；映像檔」。",
-        "image-mcq-18": "「表示意象；形象化描寫」是「Unmapped practice image-12-0」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。"
+        "image-mcq-17": "本句的「image」指「表示映像；映像檔」。",
+        "image-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-17"
     },
@@ -965,10 +855,7 @@ export default {
       "masked": "Doctors used MRI to ____ the patient’s brain.",
       "options": [
         "image-mcq-10",
-        "image-mcq-09",
-        "image-mcq-11",
-        "image-mcq-08",
-        "image-mcq-12",
+        "image-mcq-15",
         "image-mcq-07"
       ],
       "explanation": "本句的「image」指「利用醫療、科學或電子設備為某物產生可觀察影像」。",
@@ -978,12 +865,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-10": "本句指「利用醫療、科學或電子設備為某物產生可觀察影像」。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-11": "「利用技術產生可分析影像的過程／技術」是「imaging」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。"
+        "image-mcq-10": "本句的「image」指「利用醫療、科學或電子設備為某物產生可觀察影像」。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-10"
     },
@@ -995,10 +879,7 @@ export default {
       "masked": "The telescope can ____ extremely distant objects.",
       "options": [
         "image-mcq-10",
-        "image-mcq-09",
-        "image-mcq-11",
-        "image-mcq-08",
-        "image-mcq-12",
+        "image-mcq-15",
         "image-mcq-07"
       ],
       "explanation": "本句的「image」指「利用醫療、科學或電子設備為某物產生可觀察影像」。",
@@ -1008,12 +889,9 @@ export default {
         "image"
       ],
       "optionReasons": {
-        "image-mcq-10": "本句指「利用醫療、科學或電子設備為某物產生可觀察影像」。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-11": "「利用技術產生可分析影像的過程／技術」是「imaging」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-07": "「像鏡中倒影般反轉或高度對應的版本」是「mirror image」的用法，與本句語境不同。"
+        "image-mcq-10": "本句的「image」指「利用醫療、科學或電子設備為某物產生可觀察影像」。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-10"
     },
@@ -1025,11 +903,9 @@ export default {
       "masked": "Medical ____ helps doctors examine internal organs.",
       "options": [
         "image-mcq-11",
-        "image-mcq-10",
-        "image-mcq-12",
-        "image-mcq-09",
-        "image-mcq-13",
-        "image-mcq-08"
+        "image-mcq-19",
+        "image-mcq-15",
+        "image-mcq-07"
       ],
       "explanation": "本句的「imaging」指「利用技術產生可分析影像的過程／技術」。",
       "sentenceIndex": 21,
@@ -1038,12 +914,10 @@ export default {
         "imaging"
       ],
       "optionReasons": {
-        "image-mcq-11": "本句指「利用技術產生可分析影像的過程／技術」。",
-        "image-mcq-10": "「利用醫療、科學或電子設備為某物產生可觀察影像」是「image — verb」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。"
+        "image-mcq-11": "本句的「imaging」指「利用技術產生可分析影像的過程／技術」。",
+        "image-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-11"
     },
@@ -1055,11 +929,9 @@ export default {
       "masked": "The clinic has modern diagnostic ____ equipment.",
       "options": [
         "image-mcq-11",
-        "image-mcq-10",
-        "image-mcq-12",
-        "image-mcq-09",
-        "image-mcq-13",
-        "image-mcq-08"
+        "image-mcq-08",
+        "image-mcq-15",
+        "image-mcq-07"
       ],
       "explanation": "本句的「imaging」指「利用技術產生可分析影像的過程／技術」。",
       "sentenceIndex": 22,
@@ -1068,12 +940,10 @@ export default {
         "imaging"
       ],
       "optionReasons": {
-        "image-mcq-11": "本句指「利用技術產生可分析影像的過程／技術」。",
-        "image-mcq-10": "「利用醫療、科學或電子設備為某物產生可觀察影像」是「image — verb」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-09": "「以數碼形式保存系統或磁碟完整內容的映像副本」是「system/disk image」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-08": "「外貌或整體形象與某人非常相似」是「be the image of someone」的用法，與本句語境不同。"
+        "image-mcq-11": "本句的「imaging」指「利用技術產生可分析影像的過程／技術」。",
+        "image-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-11"
     },
@@ -1085,11 +955,9 @@ export default {
       "masked": "The poem uses powerful natural ____.",
       "options": [
         "image-mcq-18",
-        "image-mcq-17",
+        "image-mcq-11",
         "image-mcq-15",
-        "image-mcq-14",
-        "image-mcq-13",
-        "image-mcq-12"
+        "image-mcq-07"
       ],
       "explanation": "本句的「imagery」指「表示意象；形象化描寫」。",
       "sentenceIndex": 23,
@@ -1098,12 +966,10 @@ export default {
         "imagery"
       ],
       "optionReasons": {
-        "image-mcq-18": "本句指「表示意象；形象化描寫」。",
-        "image-mcq-17": "「表示映像；映像檔」是「Unmapped practice image-09-1」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。"
+        "image-mcq-18": "本句的「imagery」指「表示意象；形象化描寫」。",
+        "image-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-18"
     },
@@ -1115,11 +981,9 @@ export default {
       "masked": "The writer’s ____ makes the scene easy to visualize.",
       "options": [
         "image-mcq-19",
-        "image-mcq-17",
         "image-mcq-15",
-        "image-mcq-14",
-        "image-mcq-13",
-        "image-mcq-12"
+        "image-mcq-07",
+        "image-mcq-11"
       ],
       "explanation": "本句的「imagery」指「表示意象；形象化描寫」。",
       "sentenceIndex": 24,
@@ -1128,12 +992,10 @@ export default {
         "imagery"
       ],
       "optionReasons": {
-        "image-mcq-19": "本句指「表示意象；形象化描寫」。",
-        "image-mcq-17": "「表示映像；映像檔」是「Unmapped practice image-09-1」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。"
+        "image-mcq-19": "本句的「imagery」指「表示意象；形象化描寫」。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-19"
     },
@@ -1145,11 +1007,8 @@ export default {
       "masked": "____ sitting in complete silence on a crowded train.",
       "options": [
         "image-mcq-13",
-        "image-mcq-12",
-        "image-mcq-14",
-        "image-mcq-11",
-        "image-mcq-15",
-        "image-mcq-10"
+        "image-mcq-16",
+        "image-mcq-05"
       ],
       "explanation": "本句的「Imagine」指「在腦海中設想並形成未必真實存在的情境或概念」。",
       "sentenceIndex": 25,
@@ -1158,12 +1017,9 @@ export default {
         "Imagine"
       ],
       "optionReasons": {
-        "image-mcq-13": "本句指「在腦海中設想並形成未必真實存在的情境或概念」。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-11": "「利用技術產生可分析影像的過程／技術」是「imaging」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-10": "「利用醫療、科學或電子設備為某物產生可觀察影像」是「image — verb」的用法，與本句語境不同。"
+        "image-mcq-13": "本句的「Imagine」指「在腦海中設想並形成未必真實存在的情境或概念」。",
+        "image-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-13"
     },
@@ -1175,11 +1031,8 @@ export default {
       "masked": "I can’t ____ living without music.",
       "options": [
         "image-mcq-13",
-        "image-mcq-12",
-        "image-mcq-14",
-        "image-mcq-11",
-        "image-mcq-15",
-        "image-mcq-10"
+        "image-mcq-01",
+        "image-mcq-07"
       ],
       "explanation": "本句的「imagine」指「在腦海中設想並形成未必真實存在的情境或概念」。",
       "sentenceIndex": 26,
@@ -1188,12 +1041,9 @@ export default {
         "imagine"
       ],
       "optionReasons": {
-        "image-mcq-13": "本句指「在腦海中設想並形成未必真實存在的情境或概念」。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-11": "「利用技術產生可分析影像的過程／技術」是「imaging」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-10": "「利用醫療、科學或電子設備為某物產生可觀察影像」是「image — verb」的用法，與本句語境不同。"
+        "image-mcq-13": "本句的「imagine」指「在腦海中設想並形成未必真實存在的情境或概念」。",
+        "image-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-13"
     },
@@ -1205,11 +1055,8 @@ export default {
       "masked": "Children often have vivid ____.",
       "options": [
         "image-mcq-14",
-        "image-mcq-13",
-        "image-mcq-15",
-        "image-mcq-12",
         "image-mcq-16",
-        "image-mcq-11"
+        "image-mcq-18"
       ],
       "explanation": "本句的「imaginations」指「在腦海中創造、組合或設想新情境和概念的能力」。",
       "sentenceIndex": 27,
@@ -1218,12 +1065,9 @@ export default {
         "imaginations"
       ],
       "optionReasons": {
-        "image-mcq-14": "本句指「在腦海中創造、組合或設想新情境和概念的能力」。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-16": "「表示映像；映像檔」是「Unmapped practice image-09-0」的用法，與本句語境不同。",
-        "image-mcq-11": "「利用技術產生可分析影像的過程／技術」是「imaging」的用法，與本句語境不同。"
+        "image-mcq-14": "本句的「imaginations」指「在腦海中創造、組合或設想新情境和概念的能力」。",
+        "image-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-14"
     },
@@ -1235,11 +1079,9 @@ export default {
       "masked": "The story captured my ____.",
       "options": [
         "image-mcq-14",
-        "image-mcq-13",
-        "image-mcq-15",
-        "image-mcq-12",
-        "image-mcq-16",
-        "image-mcq-11"
+        "image-mcq-01",
+        "image-mcq-07",
+        "image-mcq-15"
       ],
       "explanation": "本句的「imagination」指「在腦海中創造、組合或設想新情境和概念的能力」。",
       "sentenceIndex": 28,
@@ -1248,12 +1090,10 @@ export default {
         "imagination"
       ],
       "optionReasons": {
-        "image-mcq-14": "本句指「在腦海中創造、組合或設想新情境和概念的能力」。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-15": "「只存在於想像中，而非真實存在的」是「imaginary」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-16": "「表示映像；映像檔」是「Unmapped practice image-09-0」的用法，與本句語境不同。",
-        "image-mcq-11": "「利用技術產生可分析影像的過程／技術」是「imaging」的用法，與本句語境不同。"
+        "image-mcq-14": "本句的「imagination」指「在腦海中創造、組合或設想新情境和概念的能力」。",
+        "image-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-14"
     },
@@ -1265,11 +1105,8 @@ export default {
       "masked": "The child has an ____ friend.",
       "options": [
         "image-mcq-15",
-        "image-mcq-14",
-        "image-mcq-16",
-        "image-mcq-13",
-        "image-mcq-12",
-        "image-mcq-18"
+        "image-mcq-04",
+        "image-mcq-07"
       ],
       "explanation": "本句的「imaginary」指「只存在於想像中，而非真實存在的」。",
       "sentenceIndex": 29,
@@ -1278,12 +1115,9 @@ export default {
         "imaginary"
       ],
       "optionReasons": {
-        "image-mcq-15": "本句指「只存在於想像中，而非真實存在的」。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-16": "「表示映像；映像檔」是「Unmapped practice image-09-0」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-18": "「表示意象；形象化描寫」是「Unmapped practice image-12-0」的用法，與本句語境不同。"
+        "image-mcq-15": "本句的「imaginary」指「只存在於想像中，而非真實存在的」。",
+        "image-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-15"
     },
@@ -1295,11 +1129,9 @@ export default {
       "masked": "The story takes place in an ____ country.",
       "options": [
         "image-mcq-15",
-        "image-mcq-14",
-        "image-mcq-16",
-        "image-mcq-13",
-        "image-mcq-12",
-        "image-mcq-18"
+        "image-mcq-18",
+        "image-mcq-11",
+        "image-mcq-07"
       ],
       "explanation": "本句的「imaginary」指「只存在於想像中，而非真實存在的」。",
       "sentenceIndex": 30,
@@ -1308,12 +1140,10 @@ export default {
         "imaginary"
       ],
       "optionReasons": {
-        "image-mcq-15": "本句指「只存在於想像中，而非真實存在的」。",
-        "image-mcq-14": "「在腦海中創造、組合或設想新情境和概念的能力」是「imagination」的用法，與本句語境不同。",
-        "image-mcq-16": "「表示映像；映像檔」是「Unmapped practice image-09-0」的用法，與本句語境不同。",
-        "image-mcq-13": "「在腦海中設想並形成未必真實存在的情境或概念」是「imagine」的用法，與本句語境不同。",
-        "image-mcq-12": "「透過文字或藝術細節製造鮮明心像的描寫手法／意象」是「imagery」的用法，與本句語境不同。",
-        "image-mcq-18": "「表示意象；形象化描寫」是「Unmapped practice image-12-0」的用法，與本句語境不同。"
+        "image-mcq-15": "本句的「imaginary」指「只存在於想像中，而非真實存在的」。",
+        "image-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "image-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "image-mcq-15"
     }
@@ -1325,5 +1155,7 @@ export default {
     "sha256": "5a7f65490eb8e0d249ae5fd8643e8ebe69159b50c3fa8c092039d05e2b5dd34e",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

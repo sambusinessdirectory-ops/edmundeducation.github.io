@@ -613,11 +613,9 @@ export default {
       "masked": "She has a ____ for cooking.",
       "options": [
         "passion-mcq-01",
-        "passion-mcq-02",
-        "passion-mcq-03",
-        "passion-mcq-04",
-        "passion-mcq-05",
-        "passion-mcq-06"
+        "passion-mcq-35",
+        "passion-mcq-25",
+        "passion-mcq-23"
       ],
       "explanation": "本句的「passion」指「對某事物非常強烈而持久的熱情／熱愛」。",
       "sentenceIndex": 0,
@@ -626,12 +624,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-01": "本句指「對某事物非常強烈而持久的熱情／熱愛」。",
-        "passion-mcq-02": "「非常熱愛 X」與本句語境不同。",
-        "passion-mcq-03": "「X 是某人最熱愛、非常投入的事情」與本句語境不同。",
-        "passion-mcq-04": "「逐漸發現／形成對 X 的強烈熱愛」與本句語境不同。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。"
+        "passion-mcq-01": "本句的「passion」指「對某事物非常強烈而持久的熱情／熱愛」。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-01"
     },
@@ -643,11 +639,9 @@ export default {
       "masked": "His ____ for coffee led him to open a café.",
       "options": [
         "passion-mcq-01",
-        "passion-mcq-02",
-        "passion-mcq-03",
-        "passion-mcq-04",
-        "passion-mcq-05",
-        "passion-mcq-06"
+        "passion-mcq-35",
+        "passion-mcq-25",
+        "passion-mcq-23"
       ],
       "explanation": "本句的「passion」指「對某事物非常強烈而持久的熱情／熱愛」。",
       "sentenceIndex": 1,
@@ -656,12 +650,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-01": "本句指「對某事物非常強烈而持久的熱情／熱愛」。",
-        "passion-mcq-02": "「非常熱愛 X」與本句語境不同。",
-        "passion-mcq-03": "「X 是某人最熱愛、非常投入的事情」與本句語境不同。",
-        "passion-mcq-04": "「逐漸發現／形成對 X 的強烈熱愛」與本句語境不同。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。"
+        "passion-mcq-01": "本句的「passion」指「對某事物非常強烈而持久的熱情／熱愛」。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-01"
     },
@@ -673,11 +665,9 @@ export default {
       "masked": "He has a ____ for design.",
       "options": [
         "passion-mcq-02",
-        "passion-mcq-01",
-        "passion-mcq-03",
-        "passion-mcq-04",
-        "passion-mcq-05",
-        "passion-mcq-06"
+        "passion-mcq-18",
+        "passion-mcq-35",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「passion」指「非常熱愛 X」。",
       "sentenceIndex": 2,
@@ -686,12 +676,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-02": "本句指「非常熱愛 X」。",
-        "passion-mcq-01": "「對某事物非常強烈而持久的熱情／熱愛」與本句語境不同。",
-        "passion-mcq-03": "「X 是某人最熱愛、非常投入的事情」與本句語境不同。",
-        "passion-mcq-04": "「逐漸發現／形成對 X 的強烈熱愛」與本句語境不同。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。"
+        "passion-mcq-02": "本句的「passion」指「非常熱愛 X」。",
+        "passion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-02"
     },
@@ -703,11 +691,9 @@ export default {
       "masked": "He discovered a ____ for teaching.",
       "options": [
         "passion-mcq-04",
-        "passion-mcq-03",
-        "passion-mcq-05",
-        "passion-mcq-02",
-        "passion-mcq-06",
-        "passion-mcq-01"
+        "passion-mcq-35",
+        "passion-mcq-20",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「passion」指「逐漸發現／形成對 X 的強烈熱愛」。",
       "sentenceIndex": 4,
@@ -716,12 +702,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-04": "本句指「逐漸發現／形成對 X 的強烈熱愛」。",
-        "passion-mcq-03": "「X 是某人最熱愛、非常投入的事情」與本句語境不同。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。",
-        "passion-mcq-02": "「非常熱愛 X」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。",
-        "passion-mcq-01": "「對某事物非常強烈而持久的熱情／熱愛」與本句語境不同。"
+        "passion-mcq-04": "本句的「passion」指「逐漸發現／形成對 X 的強烈熱愛」。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-04"
     },
@@ -733,11 +717,9 @@ export default {
       "masked": "Photography is her ____.",
       "options": [
         "passion-mcq-11",
-        "passion-mcq-10",
-        "passion-mcq-12",
-        "passion-mcq-09",
-        "passion-mcq-13",
-        "passion-mcq-08"
+        "passion-mcq-25",
+        "passion-mcq-35",
+        "passion-mcq-13"
       ],
       "explanation": "本句的「passion」指「對 X 極具熱情和投入」。",
       "sentenceIndex": 5,
@@ -746,12 +728,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-11": "本句指「對 X 極具熱情和投入」。",
-        "passion-mcq-10": "「以非常強烈、投入的情感方式」與本句語境不同。",
-        "passion-mcq-12": "「對某理念／對象極熱心的倡議者／支持者」與本句語境不同。",
-        "passion-mcq-09": "「對生活本身充滿熱情」與本句語境不同。",
-        "passion-mcq-13": "「非常強烈的信念」與本句語境不同。",
-        "passion-mcq-08": "「非常強烈、甚至支配注意力的熱情」與本句語境不同。"
+        "passion-mcq-11": "本句的「passion」指「對 X 極具熱情和投入」。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-11"
     },
@@ -763,11 +743,9 @@ export default {
       "masked": "Follow your ____.",
       "options": [
         "passion-mcq-05",
-        "passion-mcq-04",
-        "passion-mcq-06",
-        "passion-mcq-03",
-        "passion-mcq-07",
-        "passion-mcq-02"
+        "passion-mcq-25",
+        "passion-mcq-13",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「passion」指「主動投入自己真正熱愛的事情」。",
       "sentenceIndex": 8,
@@ -776,12 +754,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-05": "本句指「主動投入自己真正熱愛的事情」。",
-        "passion-mcq-04": "「逐漸發現／形成對 X 的強烈熱愛」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。",
-        "passion-mcq-03": "「X 是某人最熱愛、非常投入的事情」與本句語境不同。",
-        "passion-mcq-07": "「一生長期保持的熱愛」與本句語境不同。",
-        "passion-mcq-02": "「非常熱愛 X」與本句語境不同。"
+        "passion-mcq-05": "本句的「passion」指「主動投入自己真正熱愛的事情」。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-05"
     },
@@ -793,11 +769,9 @@ export default {
       "masked": "The documentary began as a ____ project.",
       "options": [
         "passion-mcq-06",
-        "passion-mcq-05",
-        "passion-mcq-07",
-        "passion-mcq-04",
-        "passion-mcq-08",
-        "passion-mcq-03"
+        "passion-mcq-18",
+        "passion-mcq-35",
+        "passion-mcq-09"
       ],
       "explanation": "本句的「passion」指「主要因個人深厚興趣而投入完成的心血項目」。",
       "sentenceIndex": 10,
@@ -806,12 +780,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-06": "本句指「主要因個人深厚興趣而投入完成的心血項目」。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。",
-        "passion-mcq-07": "「一生長期保持的熱愛」與本句語境不同。",
-        "passion-mcq-04": "「逐漸發現／形成對 X 的強烈熱愛」與本句語境不同。",
-        "passion-mcq-08": "「非常強烈、甚至支配注意力的熱情」與本句語境不同。",
-        "passion-mcq-03": "「X 是某人最熱愛、非常投入的事情」與本句語境不同。"
+        "passion-mcq-06": "本句的「passion」指「主要因個人深厚興趣而投入完成的心血項目」。",
+        "passion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-06"
     },
@@ -823,11 +795,9 @@ export default {
       "masked": "Jazz was his lifelong ____.",
       "options": [
         "passion-mcq-07",
-        "passion-mcq-06",
-        "passion-mcq-08",
-        "passion-mcq-05",
-        "passion-mcq-09",
-        "passion-mcq-04"
+        "passion-mcq-25",
+        "passion-mcq-17",
+        "passion-mcq-20"
       ],
       "explanation": "本句的「passion」指「一生長期保持的熱愛」。",
       "sentenceIndex": 11,
@@ -836,12 +806,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-07": "本句指「一生長期保持的熱愛」。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。",
-        "passion-mcq-08": "「非常強烈、甚至支配注意力的熱情」與本句語境不同。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。",
-        "passion-mcq-09": "「對生活本身充滿熱情」與本句語境不同。",
-        "passion-mcq-04": "「逐漸發現／形成對 X 的強烈熱愛」與本句語境不同。"
+        "passion-mcq-07": "本句的「passion」指「一生長期保持的熱愛」。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-07"
     },
@@ -853,11 +821,9 @@ export default {
       "masked": "Painting became a consuming ____.",
       "options": [
         "passion-mcq-08",
-        "passion-mcq-07",
-        "passion-mcq-09",
-        "passion-mcq-06",
-        "passion-mcq-10",
-        "passion-mcq-05"
+        "passion-mcq-35",
+        "passion-mcq-25",
+        "passion-mcq-23"
       ],
       "explanation": "本句的「passion」指「非常強烈、甚至支配注意力的熱情」。",
       "sentenceIndex": 13,
@@ -866,12 +832,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-08": "本句指「非常強烈、甚至支配注意力的熱情」。",
-        "passion-mcq-07": "「一生長期保持的熱愛」與本句語境不同。",
-        "passion-mcq-09": "「對生活本身充滿熱情」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。",
-        "passion-mcq-10": "「以非常強烈、投入的情感方式」與本句語境不同。",
-        "passion-mcq-05": "「主動投入自己真正熱愛的事情」與本句語境不同。"
+        "passion-mcq-08": "本句的「passion」指「非常強烈、甚至支配注意力的熱情」。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-08"
     },
@@ -883,11 +847,9 @@ export default {
       "masked": "She has tremendous energy and a ____ for life.",
       "options": [
         "passion-mcq-09",
-        "passion-mcq-08",
-        "passion-mcq-10",
-        "passion-mcq-07",
-        "passion-mcq-11",
-        "passion-mcq-06"
+        "passion-mcq-35",
+        "passion-mcq-20",
+        "passion-mcq-15"
       ],
       "explanation": "本句的「passion」指「對生活本身充滿熱情」。",
       "sentenceIndex": 14,
@@ -896,12 +858,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-09": "本句指「對生活本身充滿熱情」。",
-        "passion-mcq-08": "「非常強烈、甚至支配注意力的熱情」與本句語境不同。",
-        "passion-mcq-10": "「以非常強烈、投入的情感方式」與本句語境不同。",
-        "passion-mcq-07": "「一生長期保持的熱愛」與本句語境不同。",
-        "passion-mcq-11": "「對 X 極具熱情和投入」與本句語境不同。",
-        "passion-mcq-06": "「主要因個人深厚興趣而投入完成的心血項目」與本句語境不同。"
+        "passion-mcq-09": "本句的「passion」指「對生活本身充滿熱情」。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-09"
     },
@@ -913,11 +873,9 @@ export default {
       "masked": "He's ____ about coffee.",
       "options": [
         "passion-mcq-11",
-        "passion-mcq-10",
-        "passion-mcq-12",
-        "passion-mcq-09",
-        "passion-mcq-13",
-        "passion-mcq-08"
+        "passion-mcq-18",
+        "passion-mcq-35",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「passionate」指「對 X 極具熱情和投入」。",
       "sentenceIndex": 17,
@@ -926,12 +884,10 @@ export default {
         "passionate"
       ],
       "optionReasons": {
-        "passion-mcq-11": "本句指「對 X 極具熱情和投入」。",
-        "passion-mcq-10": "「以非常強烈、投入的情感方式」與本句語境不同。",
-        "passion-mcq-12": "「對某理念／對象極熱心的倡議者／支持者」與本句語境不同。",
-        "passion-mcq-09": "「對生活本身充滿熱情」與本句語境不同。",
-        "passion-mcq-13": "「非常強烈的信念」與本句語境不同。",
-        "passion-mcq-08": "「非常強烈、甚至支配注意力的熱情」與本句語境不同。"
+        "passion-mcq-11": "本句的「passionate」指「對 X 極具熱情和投入」。",
+        "passion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-11"
     },
@@ -943,11 +899,9 @@ export default {
       "masked": "She is a ____ advocate for better education.",
       "options": [
         "passion-mcq-12",
-        "passion-mcq-11",
-        "passion-mcq-13",
-        "passion-mcq-10",
-        "passion-mcq-14",
-        "passion-mcq-09"
+        "passion-mcq-20",
+        "passion-mcq-17",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「passionate」指「對某理念／對象極熱心的倡議者／支持者」。",
       "sentenceIndex": 20,
@@ -956,12 +910,10 @@ export default {
         "passionate"
       ],
       "optionReasons": {
-        "passion-mcq-12": "本句指「對某理念／對象極熱心的倡議者／支持者」。",
-        "passion-mcq-11": "「對 X 極具熱情和投入」與本句語境不同。",
-        "passion-mcq-13": "「非常強烈的信念」與本句語境不同。",
-        "passion-mcq-10": "「以非常強烈、投入的情感方式」與本句語境不同。",
-        "passion-mcq-14": "「充滿強烈情感的演說／呼籲」與本句語境不同。",
-        "passion-mcq-09": "「對生活本身充滿熱情」與本句語境不同。"
+        "passion-mcq-12": "本句的「passionate」指「對某理念／對象極熱心的倡議者／支持者」。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-12"
     },
@@ -973,11 +925,9 @@ export default {
       "masked": "He has a ____ belief in equality.",
       "options": [
         "passion-mcq-13",
-        "passion-mcq-12",
-        "passion-mcq-14",
-        "passion-mcq-11",
-        "passion-mcq-15",
-        "passion-mcq-10"
+        "passion-mcq-06",
+        "passion-mcq-23",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「passionate」指「非常強烈的信念」。",
       "sentenceIndex": 21,
@@ -986,12 +936,10 @@ export default {
         "passionate"
       ],
       "optionReasons": {
-        "passion-mcq-13": "本句指「非常強烈的信念」。",
-        "passion-mcq-12": "「對某理念／對象極熱心的倡議者／支持者」與本句語境不同。",
-        "passion-mcq-14": "「充滿強烈情感的演說／呼籲」與本句語境不同。",
-        "passion-mcq-11": "「對 X 極具熱情和投入」與本句語境不同。",
-        "passion-mcq-15": "「泛指極強烈的情感、欲望或衝動」與本句語境不同。",
-        "passion-mcq-10": "「以非常強烈、投入的情感方式」與本句語境不同。"
+        "passion-mcq-13": "本句的「passionate」指「非常強烈的信念」。",
+        "passion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-13"
     },
@@ -1003,11 +951,9 @@ export default {
       "masked": "He gave a ____ speech.",
       "options": [
         "passion-mcq-14",
-        "passion-mcq-13",
-        "passion-mcq-15",
-        "passion-mcq-12",
-        "passion-mcq-16",
-        "passion-mcq-11"
+        "passion-mcq-20",
+        "passion-mcq-25",
+        "passion-mcq-12"
       ],
       "explanation": "本句的「passionate」指「充滿強烈情感的演說／呼籲」。",
       "sentenceIndex": 23,
@@ -1016,12 +962,10 @@ export default {
         "passionate"
       ],
       "optionReasons": {
-        "passion-mcq-14": "本句指「充滿強烈情感的演說／呼籲」。",
-        "passion-mcq-13": "「非常強烈的信念」與本句語境不同。",
-        "passion-mcq-15": "「泛指極強烈的情感、欲望或衝動」與本句語境不同。",
-        "passion-mcq-12": "「對某理念／對象極熱心的倡議者／支持者」與本句語境不同。",
-        "passion-mcq-16": "「正式／舊式：人的強烈情感與欲望」與本句語境不同。",
-        "passion-mcq-11": "「對 X 極具熱情和投入」與本句語境不同。"
+        "passion-mcq-14": "本句的「passionate」指「充滿強烈情感的演說／呼籲」。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-14"
     },
@@ -1033,11 +977,9 @@ export default {
       "masked": "His speech was full of ____.",
       "options": [
         "passion-mcq-15",
-        "passion-mcq-14",
-        "passion-mcq-16",
-        "passion-mcq-13",
-        "passion-mcq-17",
-        "passion-mcq-12"
+        "passion-mcq-07",
+        "passion-mcq-09",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「passion」指「泛指極強烈的情感、欲望或衝動」。",
       "sentenceIndex": 27,
@@ -1046,12 +988,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-15": "本句指「泛指極強烈的情感、欲望或衝動」。",
-        "passion-mcq-14": "「充滿強烈情感的演說／呼籲」與本句語境不同。",
-        "passion-mcq-16": "「正式／舊式：人的強烈情感與欲望」與本句語境不同。",
-        "passion-mcq-13": "「非常強烈的信念」與本句語境不同。",
-        "passion-mcq-17": "「克制自己的強烈情感／欲望」與本句語境不同。",
-        "passion-mcq-12": "「對某理念／對象極熱心的倡議者／支持者」與本句語境不同。"
+        "passion-mcq-15": "本句的「passion」指「泛指極強烈的情感、欲望或衝動」。",
+        "passion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-15"
     },
@@ -1063,11 +1003,9 @@ export default {
       "masked": "He struggled to control his ____.",
       "options": [
         "passion-mcq-17",
-        "passion-mcq-16",
-        "passion-mcq-18",
-        "passion-mcq-15",
-        "passion-mcq-19",
-        "passion-mcq-14"
+        "passion-mcq-12",
+        "passion-mcq-20",
+        "passion-mcq-09"
       ],
       "explanation": "本句的「passions」指「克制自己的強烈情感／欲望」。",
       "sentenceIndex": 29,
@@ -1076,12 +1014,10 @@ export default {
         "passions"
       ],
       "optionReasons": {
-        "passion-mcq-17": "本句指「克制自己的強烈情感／欲望」。",
-        "passion-mcq-16": "「正式／舊式：人的強烈情感與欲望」與本句語境不同。",
-        "passion-mcq-18": "「激起人們強烈的情緒」與本句語境不同。",
-        "passion-mcq-15": "「泛指極強烈的情感、欲望或衝動」與本句語境不同。",
-        "passion-mcq-19": "「令本來強烈的情緒更加激化」與本句語境不同。",
-        "passion-mcq-14": "「充滿強烈情感的演說／呼籲」與本句語境不同。"
+        "passion-mcq-17": "本句的「passions」指「克制自己的強烈情感／欲望」。",
+        "passion-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-17"
     },
@@ -1093,11 +1029,9 @@ export default {
       "masked": "The issue aroused strong ____.",
       "options": [
         "passion-mcq-18",
-        "passion-mcq-17",
-        "passion-mcq-19",
-        "passion-mcq-16",
-        "passion-mcq-20",
-        "passion-mcq-15"
+        "passion-mcq-07",
+        "passion-mcq-09",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「passions」指「激起人們強烈的情緒」。",
       "sentenceIndex": 30,
@@ -1106,12 +1040,10 @@ export default {
         "passions"
       ],
       "optionReasons": {
-        "passion-mcq-18": "本句指「激起人們強烈的情緒」。",
-        "passion-mcq-17": "「克制自己的強烈情感／欲望」與本句語境不同。",
-        "passion-mcq-19": "「令本來強烈的情緒更加激化」與本句語境不同。",
-        "passion-mcq-16": "「正式／舊式：人的強烈情感與欲望」與本句語境不同。",
-        "passion-mcq-20": "「群眾／各方情緒非常激動」與本句語境不同。",
-        "passion-mcq-15": "「泛指極強烈的情感、欲望或衝動」與本句語境不同。"
+        "passion-mcq-18": "本句的「passions」指「激起人們強烈的情緒」。",
+        "passion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-18"
     },
@@ -1123,11 +1055,9 @@ export default {
       "masked": "The debate stirred ____ on both sides.",
       "options": [
         "passion-mcq-18",
-        "passion-mcq-17",
-        "passion-mcq-19",
-        "passion-mcq-16",
-        "passion-mcq-20",
-        "passion-mcq-15"
+        "passion-mcq-06",
+        "passion-mcq-25",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「passions」指「激起人們強烈的情緒」。",
       "sentenceIndex": 31,
@@ -1136,12 +1066,10 @@ export default {
         "passions"
       ],
       "optionReasons": {
-        "passion-mcq-18": "本句指「激起人們強烈的情緒」。",
-        "passion-mcq-17": "「克制自己的強烈情感／欲望」與本句語境不同。",
-        "passion-mcq-19": "「令本來強烈的情緒更加激化」與本句語境不同。",
-        "passion-mcq-16": "「正式／舊式：人的強烈情感與欲望」與本句語境不同。",
-        "passion-mcq-20": "「群眾／各方情緒非常激動」與本句語境不同。",
-        "passion-mcq-15": "「泛指極強烈的情感、欲望或衝動」與本句語境不同。"
+        "passion-mcq-18": "本句的「passions」指「激起人們強烈的情緒」。",
+        "passion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-18"
     },
@@ -1153,11 +1081,9 @@ export default {
       "masked": "The speech inflamed ____.",
       "options": [
         "passion-mcq-19",
-        "passion-mcq-18",
-        "passion-mcq-20",
-        "passion-mcq-17",
-        "passion-mcq-21",
-        "passion-mcq-16"
+        "passion-mcq-07",
+        "passion-mcq-11",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「passions」指「令本來強烈的情緒更加激化」。",
       "sentenceIndex": 32,
@@ -1166,12 +1092,10 @@ export default {
         "passions"
       ],
       "optionReasons": {
-        "passion-mcq-19": "本句指「令本來強烈的情緒更加激化」。",
-        "passion-mcq-18": "「激起人們強烈的情緒」與本句語境不同。",
-        "passion-mcq-20": "「群眾／各方情緒非常激動」與本句語境不同。",
-        "passion-mcq-17": "「克制自己的強烈情感／欲望」與本句語境不同。",
-        "passion-mcq-21": "「強烈的愛情與性吸引；激情」與本句語境不同。",
-        "passion-mcq-16": "「正式／舊式：人的強烈情感與欲望」與本句語境不同。"
+        "passion-mcq-19": "本句的「passions」指「令本來強烈的情緒更加激化」。",
+        "passion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-19"
     },
@@ -1183,11 +1107,9 @@ export default {
       "masked": "____ ran high during the meeting.",
       "options": [
         "passion-mcq-20",
-        "passion-mcq-19",
-        "passion-mcq-21",
-        "passion-mcq-18",
-        "passion-mcq-22",
-        "passion-mcq-17"
+        "passion-mcq-09",
+        "passion-mcq-25",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「Passions」指「群眾／各方情緒非常激動」。",
       "sentenceIndex": 33,
@@ -1196,12 +1118,10 @@ export default {
         "Passions"
       ],
       "optionReasons": {
-        "passion-mcq-20": "本句指「群眾／各方情緒非常激動」。",
-        "passion-mcq-19": "「令本來強烈的情緒更加激化」與本句語境不同。",
-        "passion-mcq-21": "「強烈的愛情與性吸引；激情」與本句語境不同。",
-        "passion-mcq-18": "「激起人們強烈的情緒」與本句語境不同。",
-        "passion-mcq-22": "「感情及吸引力非常強烈的愛情／關係」與本句語境不同。",
-        "passion-mcq-17": "「克制自己的強烈情感／欲望」與本句語境不同。"
+        "passion-mcq-20": "本句的「Passions」指「群眾／各方情緒非常激動」。",
+        "passion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-20"
     },
@@ -1213,11 +1133,9 @@ export default {
       "masked": "There was obvious ____ between them.",
       "options": [
         "passion-mcq-21",
-        "passion-mcq-20",
-        "passion-mcq-22",
-        "passion-mcq-19",
-        "passion-mcq-23",
-        "passion-mcq-18"
+        "passion-mcq-25",
+        "passion-mcq-12",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「passion」指「強烈的愛情與性吸引；激情」。",
       "sentenceIndex": 34,
@@ -1226,12 +1144,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-21": "本句指「強烈的愛情與性吸引；激情」。",
-        "passion-mcq-20": "「群眾／各方情緒非常激動」與本句語境不同。",
-        "passion-mcq-22": "「感情及吸引力非常強烈的愛情／關係」與本句語境不同。",
-        "passion-mcq-19": "「令本來強烈的情緒更加激化」與本句語境不同。",
-        "passion-mcq-23": "「充滿愛慾／激情的吻」與本句語境不同。",
-        "passion-mcq-18": "「激起人們強烈的情緒」與本句語境不同。"
+        "passion-mcq-21": "本句的「passion」指「強烈的愛情與性吸引；激情」。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-21"
     },
@@ -1243,11 +1159,9 @@ export default {
       "masked": "They had a ____ relationship.",
       "options": [
         "passion-mcq-22",
-        "passion-mcq-21",
-        "passion-mcq-23",
-        "passion-mcq-20",
-        "passion-mcq-24",
-        "passion-mcq-19"
+        "passion-mcq-35",
+        "passion-mcq-25",
+        "passion-mcq-09"
       ],
       "explanation": "本句的「passionate」指「感情及吸引力非常強烈的愛情／關係」。",
       "sentenceIndex": 35,
@@ -1256,12 +1170,10 @@ export default {
         "passionate"
       ],
       "optionReasons": {
-        "passion-mcq-22": "本句指「感情及吸引力非常強烈的愛情／關係」。",
-        "passion-mcq-21": "「強烈的愛情與性吸引；激情」與本句語境不同。",
-        "passion-mcq-23": "「充滿愛慾／激情的吻」與本句語境不同。",
-        "passion-mcq-20": "「群眾／各方情緒非常激動」與本句語境不同。",
-        "passion-mcq-24": "「委婉：一夜激烈的性／愛情親密」與本句語境不同。",
-        "passion-mcq-19": "「令本來強烈的情緒更加激化」與本句語境不同。"
+        "passion-mcq-22": "本句的「passionate」指「感情及吸引力非常強烈的愛情／關係」。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-22"
     },
@@ -1273,11 +1185,9 @@ export default {
       "masked": "They shared a ____ kiss.",
       "options": [
         "passion-mcq-23",
-        "passion-mcq-22",
-        "passion-mcq-24",
-        "passion-mcq-21",
-        "passion-mcq-25",
-        "passion-mcq-20"
+        "passion-mcq-06",
+        "passion-mcq-08",
+        "passion-mcq-35"
       ],
       "explanation": "本句的「passionate」指「充滿愛慾／激情的吻」。",
       "sentenceIndex": 36,
@@ -1286,12 +1196,10 @@ export default {
         "passionate"
       ],
       "optionReasons": {
-        "passion-mcq-23": "本句指「充滿愛慾／激情的吻」。",
-        "passion-mcq-22": "「感情及吸引力非常強烈的愛情／關係」與本句語境不同。",
-        "passion-mcq-24": "「委婉：一夜激烈的性／愛情親密」與本句語境不同。",
-        "passion-mcq-21": "「強烈的愛情與性吸引；激情」與本句語境不同。",
-        "passion-mcq-25": "「舊式：盛怒、暴怒」與本句語境不同。",
-        "passion-mcq-20": "「群眾／各方情緒非常激動」與本句語境不同。"
+        "passion-mcq-23": "本句的「passionate」指「充滿愛慾／激情的吻」。",
+        "passion-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-23"
     },
@@ -1303,11 +1211,9 @@ export default {
       "masked": "He flew into a ____.",
       "options": [
         "passion-mcq-25",
-        "passion-mcq-24",
-        "passion-mcq-26",
-        "passion-mcq-23",
-        "passion-mcq-27",
-        "passion-mcq-22"
+        "passion-mcq-21",
+        "passion-mcq-35",
+        "passion-mcq-20"
       ],
       "explanation": "本句的「passion」指「舊式：盛怒、暴怒」。",
       "sentenceIndex": 38,
@@ -1316,12 +1222,10 @@ export default {
         "passion"
       ],
       "optionReasons": {
-        "passion-mcq-25": "本句指「舊式：盛怒、暴怒」。",
-        "passion-mcq-24": "「委婉：一夜激烈的性／愛情親密」與本句語境不同。",
-        "passion-mcq-26": "「舊式：突然勃然大怒」與本句語境不同。",
-        "passion-mcq-23": "「充滿愛慾／激情的吻」與本句語境不同。",
-        "passion-mcq-27": "「因突發而強烈的情緒如嫉妒／憤怒而犯下的暴力罪行；不一定是獨立法律罪名」與本句語境不同。",
-        "passion-mcq-22": "「感情及吸引力非常強烈的愛情／關係」與本句語境不同。"
+        "passion-mcq-25": "本句的「passion」指「舊式：盛怒、暴怒」。",
+        "passion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-25"
     },
@@ -1333,11 +1237,9 @@ export default {
       "masked": "* St Matthew ____ * St John Passion.",
       "options": [
         "passion-mcq-35",
-        "passion-mcq-34",
-        "passion-mcq-36",
-        "passion-mcq-33",
-        "passion-mcq-37",
-        "passion-mcq-32"
+        "passion-mcq-01",
+        "passion-mcq-12",
+        "passion-mcq-25"
       ],
       "explanation": "本句的「Passion」指「演出基督受難故事的受難劇」。",
       "sentenceIndex": 47,
@@ -1346,12 +1248,10 @@ export default {
         "Passion"
       ],
       "optionReasons": {
-        "passion-mcq-35": "本句指「演出基督受難故事的受難劇」。",
-        "passion-mcq-34": "「福音書中敘述耶穌受難事件的部分」與本句語境不同。",
-        "passion-mcq-36": "「以基督受難故事為內容的宗教音樂作品；受難曲」與本句語境不同。",
-        "passion-mcq-33": "「基督在受難及被釘十字架期間的苦難；基督受難」與本句語境不同。",
-        "passion-mcq-37": "「古義：受苦、受難」與本句語境不同。",
-        "passion-mcq-32": "「缺乏激情、熱情或情感投入的」與本句語境不同。"
+        "passion-mcq-35": "本句的「Passion」指「演出基督受難故事的受難劇」。",
+        "passion-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "passion-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "passion-mcq-35"
     }
@@ -1363,5 +1263,7 @@ export default {
     "sha256": "50531afc7742d30249936f4d7e0bbab43886dfd983a02f1df99eb9c2d827a7e5",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

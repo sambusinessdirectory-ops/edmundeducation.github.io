@@ -284,11 +284,7 @@ export default {
       "masked": "She is receiving ____ for anxiety.",
       "options": [
         "therapy-mcq-01",
-        "therapy-mcq-02",
-        "therapy-mcq-03",
-        "therapy-mcq-04",
-        "therapy-mcq-05",
-        "therapy-mcq-06"
+        "therapy-mcq-03"
       ],
       "explanation": "本句的「therapy」指「為改善身體或心理健康問題而採用的系統性治療方法」。",
       "sentenceIndex": 0,
@@ -297,12 +293,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-01": "本句指「為改善身體或心理健康問題而採用的系統性治療方法」。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-01": "本句的「therapy」指「為改善身體或心理健康問題而採用的系統性治療方法」。",
+        "therapy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-01"
     },
@@ -314,11 +306,7 @@ export default {
       "masked": "The doctor recommended a different ____.",
       "options": [
         "therapy-mcq-01",
-        "therapy-mcq-02",
-        "therapy-mcq-03",
-        "therapy-mcq-04",
-        "therapy-mcq-05",
-        "therapy-mcq-06"
+        "therapy-mcq-03"
       ],
       "explanation": "本句的「therapy」指「為改善身體或心理健康問題而採用的系統性治療方法」。",
       "sentenceIndex": 1,
@@ -327,12 +315,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-01": "本句指「為改善身體或心理健康問題而採用的系統性治療方法」。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-01": "本句的「therapy」指「為改善身體或心理健康問題而採用的系統性治療方法」。",
+        "therapy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-01"
     },
@@ -344,11 +328,7 @@ export default {
       "masked": "He started ____ after a difficult year.",
       "options": [
         "therapy-mcq-02",
-        "therapy-mcq-01",
-        "therapy-mcq-03",
-        "therapy-mcq-04",
-        "therapy-mcq-05",
-        "therapy-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「therapy」指「由專業人士協助處理情緒、心理或行為問題的治療」。",
       "sentenceIndex": 2,
@@ -357,12 +337,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-02": "本句指「由專業人士協助處理情緒、心理或行為問題的治療」。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-02": "本句的「therapy」指「由專業人士協助處理情緒、心理或行為問題的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-02"
     },
@@ -374,11 +350,7 @@ export default {
       "masked": "____ helped her understand her emotions better.",
       "options": [
         "therapy-mcq-02",
-        "therapy-mcq-01",
-        "therapy-mcq-03",
-        "therapy-mcq-04",
-        "therapy-mcq-05",
-        "therapy-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Therapy」指「由專業人士協助處理情緒、心理或行為問題的治療」。",
       "sentenceIndex": 3,
@@ -387,12 +359,8 @@ export default {
         "Therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-02": "本句指「由專業人士協助處理情緒、心理或行為問題的治療」。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-02": "本句的「Therapy」指「由專業人士協助處理情緒、心理或行為問題的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-02"
     },
@@ -404,11 +372,7 @@ export default {
       "masked": "Gardening is a form of quiet ____ for her.",
       "options": [
         "therapy-mcq-03",
-        "therapy-mcq-02",
-        "therapy-mcq-04",
-        "therapy-mcq-01",
-        "therapy-mcq-05",
-        "therapy-mcq-06"
+        "therapy-mcq-01"
       ],
       "explanation": "本句的「therapy」指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
       "sentenceIndex": 4,
@@ -417,12 +381,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-03": "本句指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-03": "本句的「therapy」指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
+        "therapy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-03"
     },
@@ -434,11 +394,7 @@ export default {
       "masked": "For me, cooking is almost like ____.",
       "options": [
         "therapy-mcq-03",
-        "therapy-mcq-02",
-        "therapy-mcq-04",
-        "therapy-mcq-01",
-        "therapy-mcq-05",
-        "therapy-mcq-06"
+        "therapy-mcq-01"
       ],
       "explanation": "本句的「therapy」指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
       "sentenceIndex": 5,
@@ -447,12 +403,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-03": "本句指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-03": "本句的「therapy」指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
+        "therapy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-03"
     },
@@ -464,10 +416,6 @@ export default {
       "masked": "A long walk can feel like ____ after a stressful day.",
       "options": [
         "therapy-mcq-03",
-        "therapy-mcq-02",
-        "therapy-mcq-04",
-        "therapy-mcq-01",
-        "therapy-mcq-05",
         "therapy-mcq-06"
       ],
       "explanation": "本句的「therapy」指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
@@ -477,12 +425,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-03": "本句指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-03": "本句的「therapy」指「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」。",
+        "therapy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-03"
     },
@@ -494,11 +438,7 @@ export default {
       "masked": "He needed ____ after the injury.",
       "options": [
         "therapy-mcq-04",
-        "therapy-mcq-03",
-        "therapy-mcq-05",
-        "therapy-mcq-02",
-        "therapy-mcq-06",
-        "therapy-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「physical therapy」指「透過運動、手法等改善身體活動能力的治療」。",
       "sentenceIndex": 7,
@@ -507,12 +447,8 @@ export default {
         "physical therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-04": "本句指「透過運動、手法等改善身體活動能力的治療」。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。"
+        "therapy-mcq-04": "本句的「physical therapy」指「透過運動、手法等改善身體活動能力的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-04"
     },
@@ -524,11 +460,7 @@ export default {
       "masked": "Physical ____ helped her regain movement.",
       "options": [
         "therapy-mcq-04",
-        "therapy-mcq-03",
-        "therapy-mcq-05",
-        "therapy-mcq-02",
-        "therapy-mcq-06",
-        "therapy-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「therapy」指「透過運動、手法等改善身體活動能力的治療」。",
       "sentenceIndex": 8,
@@ -537,12 +469,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-04": "本句指「透過運動、手法等改善身體活動能力的治療」。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-01": "「為改善身體或心理健康問題而採用的系統性治療方法」是「therapy — general treatment」的用法，與本句語境不同。"
+        "therapy-mcq-04": "本句的「therapy」指「透過運動、手法等改善身體活動能力的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-04"
     },
@@ -554,11 +482,7 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "therapy-mcq-05",
-        "therapy-mcq-04",
-        "therapy-mcq-06",
-        "therapy-mcq-03",
-        "therapy-mcq-07",
-        "therapy-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「occupational therapy」指「幫助患者恢復／提升日常生活活動能力的治療」。",
       "sentenceIndex": 9,
@@ -567,12 +491,8 @@ export default {
         "occupational therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-05": "本句指「幫助患者恢復／提升日常生活活動能力的治療」。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。"
+        "therapy-mcq-05": "本句的「occupational therapy」指「幫助患者恢復／提升日常生活活動能力的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-05"
     },
@@ -584,11 +504,7 @@ export default {
       "masked": "Occupational ____ can help patients manage everyday activities.",
       "options": [
         "therapy-mcq-05",
-        "therapy-mcq-04",
-        "therapy-mcq-06",
-        "therapy-mcq-03",
-        "therapy-mcq-07",
-        "therapy-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「therapy」指「幫助患者恢復／提升日常生活活動能力的治療」。",
       "sentenceIndex": 10,
@@ -597,12 +513,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-05": "本句指「幫助患者恢復／提升日常生活活動能力的治療」。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-02": "「由專業人士協助處理情緒、心理或行為問題的治療」是「therapy — psychological」的用法，與本句語境不同。"
+        "therapy-mcq-05": "本句的「therapy」指「幫助患者恢復／提升日常生活活動能力的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-05"
     },
@@ -614,10 +526,6 @@ export default {
       "masked": "The child receives ____.",
       "options": [
         "therapy-mcq-06",
-        "therapy-mcq-05",
-        "therapy-mcq-07",
-        "therapy-mcq-04",
-        "therapy-mcq-08",
         "therapy-mcq-03"
       ],
       "explanation": "本句的「speech therapy」指「改善說話、語言、聲音或吞嚥能力的治療」。",
@@ -627,12 +535,8 @@ export default {
         "speech therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-06": "本句指「改善說話、語言、聲音或吞嚥能力的治療」。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。"
+        "therapy-mcq-06": "本句的「speech therapy」指「改善說話、語言、聲音或吞嚥能力的治療」。",
+        "therapy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-06"
     },
@@ -644,10 +548,6 @@ export default {
       "masked": "Speech ____ can improve communication skills.",
       "options": [
         "therapy-mcq-06",
-        "therapy-mcq-05",
-        "therapy-mcq-07",
-        "therapy-mcq-04",
-        "therapy-mcq-08",
         "therapy-mcq-03"
       ],
       "explanation": "本句的「therapy」指「改善說話、語言、聲音或吞嚥能力的治療」。",
@@ -657,12 +557,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-06": "本句指「改善說話、語言、聲音或吞嚥能力的治療」。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-03": "「因能放鬆、紓壓或恢復情緒，而被比喻成「療癒」的活動」是「therapy — figurative」的用法，與本句語境不同。"
+        "therapy-mcq-06": "本句的「therapy」指「改善說話、語言、聲音或吞嚥能力的治療」。",
+        "therapy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-06"
     },
@@ -674,11 +570,7 @@ export default {
       "masked": "She trained in ____.",
       "options": [
         "therapy-mcq-07",
-        "therapy-mcq-06",
-        "therapy-mcq-08",
-        "therapy-mcq-05",
-        "therapy-mcq-09",
-        "therapy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「psychotherapy」指「透過心理方法和談話處理心理／情緒問題的治療」。",
       "sentenceIndex": 13,
@@ -687,12 +579,8 @@ export default {
         "psychotherapy"
       ],
       "optionReasons": {
-        "therapy-mcq-07": "本句指「透過心理方法和談話處理心理／情緒問題的治療」。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。"
+        "therapy-mcq-07": "本句的「psychotherapy」指「透過心理方法和談話處理心理／情緒問題的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-07"
     },
@@ -704,11 +592,7 @@ export default {
       "masked": "____ can take different forms.",
       "options": [
         "therapy-mcq-07",
-        "therapy-mcq-06",
-        "therapy-mcq-08",
-        "therapy-mcq-05",
-        "therapy-mcq-09",
-        "therapy-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「Psychotherapy」指「透過心理方法和談話處理心理／情緒問題的治療」。",
       "sentenceIndex": 14,
@@ -717,12 +601,8 @@ export default {
         "Psychotherapy"
       ],
       "optionReasons": {
-        "therapy-mcq-07": "本句指「透過心理方法和談話處理心理／情緒問題的治療」。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-04": "「透過運動、手法等改善身體活動能力的治療」是「physical therapy」的用法，與本句語境不同。"
+        "therapy-mcq-07": "本句的「Psychotherapy」指「透過心理方法和談話處理心理／情緒問題的治療」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-07"
     },
@@ -734,11 +614,7 @@ export default {
       "masked": "He attends ____ once a week.",
       "options": [
         "therapy-mcq-08",
-        "therapy-mcq-07",
-        "therapy-mcq-09",
-        "therapy-mcq-06",
-        "therapy-mcq-10",
-        "therapy-mcq-05"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「group therapy」指「多名參加者在專業人員帶領下共同進行的治療」。",
       "sentenceIndex": 15,
@@ -747,12 +623,8 @@ export default {
         "group therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-08": "本句指「多名參加者在專業人員帶領下共同進行的治療」。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。"
+        "therapy-mcq-08": "本句的「group therapy」指「多名參加者在專業人員帶領下共同進行的治療」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-08"
     },
@@ -764,11 +636,7 @@ export default {
       "masked": "Group ____ allows people to share experiences.",
       "options": [
         "therapy-mcq-08",
-        "therapy-mcq-07",
-        "therapy-mcq-09",
-        "therapy-mcq-06",
-        "therapy-mcq-10",
-        "therapy-mcq-05"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapy」指「多名參加者在專業人員帶領下共同進行的治療」。",
       "sentenceIndex": 16,
@@ -777,12 +645,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-08": "本句指「多名參加者在專業人員帶領下共同進行的治療」。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-05": "「幫助患者恢復／提升日常生活活動能力的治療」是「occupational therapy」的用法，與本句語境不同。"
+        "therapy-mcq-08": "本句的「therapy」指「多名參加者在專業人員帶領下共同進行的治療」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-08"
     },
@@ -794,11 +658,7 @@ export default {
       "masked": "She spoke to a ____.",
       "options": [
         "therapy-mcq-09",
-        "therapy-mcq-08",
-        "therapy-mcq-10",
-        "therapy-mcq-07",
-        "therapy-mcq-11",
-        "therapy-mcq-06"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapist」指「接受專業訓練並提供某種治療的人」。",
       "sentenceIndex": 17,
@@ -807,12 +667,8 @@ export default {
         "therapist"
       ],
       "optionReasons": {
-        "therapy-mcq-09": "本句指「接受專業訓練並提供某種治療的人」。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-11": "「能帶來放鬆、情緒舒緩或心理恢復效果的」是「therapeutic — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-09": "本句的「therapist」指「接受專業訓練並提供某種治療的人」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-09"
     },
@@ -824,11 +680,7 @@ export default {
       "masked": "The ____ helped him develop coping strategies.",
       "options": [
         "therapy-mcq-09",
-        "therapy-mcq-08",
-        "therapy-mcq-10",
-        "therapy-mcq-07",
-        "therapy-mcq-11",
-        "therapy-mcq-06"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapist」指「接受專業訓練並提供某種治療的人」。",
       "sentenceIndex": 18,
@@ -837,12 +689,8 @@ export default {
         "therapist"
       ],
       "optionReasons": {
-        "therapy-mcq-09": "本句指「接受專業訓練並提供某種治療的人」。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。",
-        "therapy-mcq-11": "「能帶來放鬆、情緒舒緩或心理恢復效果的」是「therapeutic — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-06": "「改善說話、語言、聲音或吞嚥能力的治療」是「speech therapy」的用法，與本句語境不同。"
+        "therapy-mcq-09": "本句的「therapist」指「接受專業訓練並提供某種治療的人」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-09"
     },
@@ -854,11 +702,7 @@ export default {
       "masked": "The drug has several ____ uses.",
       "options": [
         "therapy-mcq-10",
-        "therapy-mcq-09",
-        "therapy-mcq-11",
-        "therapy-mcq-08",
-        "therapy-mcq-12",
-        "therapy-mcq-07"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapeutic」指「與治療、改善健康或疾病管理有關的」。",
       "sentenceIndex": 19,
@@ -867,12 +711,8 @@ export default {
         "therapeutic"
       ],
       "optionReasons": {
-        "therapy-mcq-10": "本句指「與治療、改善健康或疾病管理有關的」。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-11": "「能帶來放鬆、情緒舒緩或心理恢復效果的」是「therapeutic — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-12": "「一次正式治療安排／治療面談」是「12. therapy session — 治療時段；治療節數」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。"
+        "therapy-mcq-10": "本句的「therapeutic」指「與治療、改善健康或疾病管理有關的」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-10"
     },
@@ -884,11 +724,7 @@ export default {
       "masked": "The clinic offers ____ support.",
       "options": [
         "therapy-mcq-10",
-        "therapy-mcq-09",
-        "therapy-mcq-11",
-        "therapy-mcq-08",
-        "therapy-mcq-12",
-        "therapy-mcq-07"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapeutic」指「與治療、改善健康或疾病管理有關的」。",
       "sentenceIndex": 20,
@@ -897,12 +733,8 @@ export default {
         "therapeutic"
       ],
       "optionReasons": {
-        "therapy-mcq-10": "本句指「與治療、改善健康或疾病管理有關的」。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-11": "「能帶來放鬆、情緒舒緩或心理恢復效果的」是「therapeutic — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-12": "「一次正式治療安排／治療面談」是「12. therapy session — 治療時段；治療節數」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。"
+        "therapy-mcq-10": "本句的「therapeutic」指「與治療、改善健康或疾病管理有關的」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-10"
     },
@@ -914,11 +746,7 @@ export default {
       "masked": "Gardening can be very ____.",
       "options": [
         "therapy-mcq-11",
-        "therapy-mcq-10",
-        "therapy-mcq-12",
-        "therapy-mcq-09",
-        "therapy-mcq-08",
-        "therapy-mcq-07"
+        "therapy-mcq-12"
       ],
       "explanation": "本句的「therapeutic」指「能帶來放鬆、情緒舒緩或心理恢復效果的」。",
       "sentenceIndex": 21,
@@ -927,12 +755,8 @@ export default {
         "therapeutic"
       ],
       "optionReasons": {
-        "therapy-mcq-11": "本句指「能帶來放鬆、情緒舒緩或心理恢復效果的」。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-12": "「一次正式治療安排／治療面談」是「12. therapy session — 治療時段；治療節數」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。"
+        "therapy-mcq-11": "本句的「therapeutic」指「能帶來放鬆、情緒舒緩或心理恢復效果的」。",
+        "therapy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-11"
     },
@@ -944,11 +768,7 @@ export default {
       "masked": "She finds painting ____.",
       "options": [
         "therapy-mcq-11",
-        "therapy-mcq-10",
-        "therapy-mcq-12",
-        "therapy-mcq-09",
-        "therapy-mcq-08",
-        "therapy-mcq-07"
+        "therapy-mcq-12"
       ],
       "explanation": "本句的「therapeutic」指「能帶來放鬆、情緒舒緩或心理恢復效果的」。",
       "sentenceIndex": 22,
@@ -957,12 +777,8 @@ export default {
         "therapeutic"
       ],
       "optionReasons": {
-        "therapy-mcq-11": "本句指「能帶來放鬆、情緒舒緩或心理恢復效果的」。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-12": "「一次正式治療安排／治療面談」是「12. therapy session — 治療時段；治療節數」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。"
+        "therapy-mcq-11": "本句的「therapeutic」指「能帶來放鬆、情緒舒緩或心理恢復效果的」。",
+        "therapy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-11"
     },
@@ -974,11 +790,7 @@ export default {
       "masked": "She has a ____ on Friday.",
       "options": [
         "therapy-mcq-12",
-        "therapy-mcq-11",
-        "therapy-mcq-10",
-        "therapy-mcq-09",
-        "therapy-mcq-08",
-        "therapy-mcq-07"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapy session」指「一次正式治療安排／治療面談」。",
       "sentenceIndex": 23,
@@ -987,12 +799,8 @@ export default {
         "therapy session"
       ],
       "optionReasons": {
-        "therapy-mcq-12": "本句指「一次正式治療安排／治療面談」。",
-        "therapy-mcq-11": "「能帶來放鬆、情緒舒緩或心理恢復效果的」是「therapeutic — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。"
+        "therapy-mcq-12": "本句的「therapy session」指「一次正式治療安排／治療面談」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-12"
     },
@@ -1004,11 +812,7 @@ export default {
       "masked": "Each ____ session lasts an hour.",
       "options": [
         "therapy-mcq-12",
-        "therapy-mcq-11",
-        "therapy-mcq-10",
-        "therapy-mcq-09",
-        "therapy-mcq-08",
-        "therapy-mcq-07"
+        "therapy-mcq-11"
       ],
       "explanation": "本句的「therapy」指「一次正式治療安排／治療面談」。",
       "sentenceIndex": 24,
@@ -1017,12 +821,8 @@ export default {
         "therapy"
       ],
       "optionReasons": {
-        "therapy-mcq-12": "本句指「一次正式治療安排／治療面談」。",
-        "therapy-mcq-11": "「能帶來放鬆、情緒舒緩或心理恢復效果的」是「therapeutic — figurative」的用法，與本句語境不同。",
-        "therapy-mcq-10": "「與治療、改善健康或疾病管理有關的」是「therapeutic — clinical」的用法，與本句語境不同。",
-        "therapy-mcq-09": "「接受專業訓練並提供某種治療的人」是「therapist」的用法，與本句語境不同。",
-        "therapy-mcq-08": "「多名參加者在專業人員帶領下共同進行的治療」是「group therapy」的用法，與本句語境不同。",
-        "therapy-mcq-07": "「透過心理方法和談話處理心理／情緒問題的治療」是「psychotherapy」的用法，與本句語境不同。"
+        "therapy-mcq-12": "本句的「therapy」指「一次正式治療安排／治療面談」。",
+        "therapy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "therapy-mcq-12"
     }
@@ -1034,5 +834,12 @@ export default {
     "sha256": "cc11467062492f433490bbdf60d5ebe4d4ce8a4e76cfdd6be4cb2130a5c82936",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -818,11 +818,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "tell-mcq-01",
-        "tell-mcq-02",
-        "tell-mcq-03",
-        "tell-mcq-04",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-mcq-26",
+        "tell-mcq-28",
+        "tell-pdf-003"
       ],
       "explanation": "本句的「tell her to rest」指「直接指示／要求某人進行某項行動」。",
       "sentenceIndex": 0,
@@ -831,12 +829,10 @@ export default {
         "tell her to rest"
       ],
       "optionReasons": {
-        "tell-mcq-01": "本句指「直接指示／要求某人進行某項行動」。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-01": "本句的「tell her to rest」指「直接指示／要求某人進行某項行動」。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-01"
     },
@@ -848,11 +844,9 @@ export default {
       "masked": "The doctor ____ more.",
       "options": [
         "tell-mcq-01",
-        "tell-mcq-02",
-        "tell-mcq-03",
-        "tell-mcq-04",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-pdf-003",
+        "tell-mcq-26",
+        "tell-mcq-28"
       ],
       "explanation": "本句的「told him to exercise」指「直接指示／要求某人進行某項行動」。",
       "sentenceIndex": 1,
@@ -861,12 +855,10 @@ export default {
         "told him to exercise"
       ],
       "optionReasons": {
-        "tell-mcq-01": "本句指「直接指示／要求某人進行某項行動」。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-01": "本句的「told him to exercise」指「直接指示／要求某人進行某項行動」。",
+        "tell-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-01"
     },
@@ -878,11 +870,9 @@ export default {
       "masked": "My manager ____ early.",
       "options": [
         "tell-mcq-01",
-        "tell-mcq-02",
-        "tell-mcq-03",
-        "tell-mcq-04",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-pdf-002",
+        "tell-mcq-18",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「told me to arrive」指「直接指示／要求某人進行某項行動」。",
       "sentenceIndex": 2,
@@ -891,12 +881,10 @@ export default {
         "told me to arrive"
       ],
       "optionReasons": {
-        "tell-mcq-01": "本句指「直接指示／要求某人進行某項行動」。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-01": "本句的「told me to arrive」指「直接指示／要求某人進行某項行動」。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-01"
     },
@@ -908,11 +896,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "tell-mcq-02",
-        "tell-mcq-01",
-        "tell-mcq-03",
-        "tell-mcq-04",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-mcq-09",
+        "tell-mcq-10",
+        "tell-pdf-002"
       ],
       "explanation": "本句的「told me not to worry」指「指示／要求某人不要進行某項行動」。",
       "sentenceIndex": 3,
@@ -921,12 +907,10 @@ export default {
         "told me not to worry"
       ],
       "optionReasons": {
-        "tell-mcq-02": "本句指「指示／要求某人不要進行某項行動」。",
-        "tell-mcq-01": "「直接指示／要求某人進行某項行動」是「tell someone to do」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-02": "本句的「told me not to worry」指「指示／要求某人不要進行某項行動」。",
+        "tell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-02"
     },
@@ -938,11 +922,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "tell-mcq-02",
-        "tell-mcq-01",
-        "tell-mcq-03",
-        "tell-mcq-04",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-mcq-19",
+        "tell-mcq-09",
+        "tell-mcq-17"
       ],
       "explanation": "本句的「told us not to talk」指「指示／要求某人不要進行某項行動」。",
       "sentenceIndex": 4,
@@ -951,12 +933,10 @@ export default {
         "told us not to talk"
       ],
       "optionReasons": {
-        "tell-mcq-02": "本句指「指示／要求某人不要進行某項行動」。",
-        "tell-mcq-01": "「直接指示／要求某人進行某項行動」是「tell someone to do」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-02": "本句的「told us not to talk」指「指示／要求某人不要進行某項行動」。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-02"
     },
@@ -968,11 +948,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "tell-mcq-03",
-        "tell-mcq-02",
-        "tell-mcq-04",
-        "tell-mcq-01",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-mcq-16",
+        "tell-mcq-19",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「told me the news」指「把特定資訊、事實或內容傳達給某人」。",
       "sentenceIndex": 5,
@@ -981,12 +959,10 @@ export default {
         "told me the news"
       ],
       "optionReasons": {
-        "tell-mcq-03": "本句指「把特定資訊、事實或內容傳達給某人」。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-01": "「直接指示／要求某人進行某項行動」是「tell someone to do」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-03": "本句的「told me the news」指「把特定資訊、事實或內容傳達給某人」。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-03"
     },
@@ -998,11 +974,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "tell-mcq-03",
-        "tell-mcq-02",
-        "tell-mcq-04",
-        "tell-mcq-01",
-        "tell-mcq-05",
-        "tell-mcq-06"
+        "tell-mcq-12",
+        "tell-mcq-30",
+        "tell-mcq-24"
       ],
       "explanation": "本句的「tell me your name」指「把特定資訊、事實或內容傳達給某人」。",
       "sentenceIndex": 6,
@@ -1011,12 +985,10 @@ export default {
         "tell me your name"
       ],
       "optionReasons": {
-        "tell-mcq-03": "本句指「把特定資訊、事實或內容傳達給某人」。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-01": "「直接指示／要求某人進行某項行動」是「tell someone to do」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-03": "本句的「tell me your name」指「把特定資訊、事實或內容傳達給某人」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-03"
     },
@@ -1028,11 +1000,9 @@ export default {
       "masked": "She ____ she was tired.",
       "options": [
         "tell-mcq-04",
-        "tell-mcq-03",
-        "tell-mcq-05",
-        "tell-mcq-02",
-        "tell-mcq-06",
-        "tell-mcq-01"
+        "tell-mcq-28",
+        "tell-mcq-24",
+        "tell-mcq-30"
       ],
       "explanation": "本句的「told me that」指「把一個完整事實／消息直接告知某人」。",
       "sentenceIndex": 7,
@@ -1041,12 +1011,10 @@ export default {
         "told me that"
       ],
       "optionReasons": {
-        "tell-mcq-04": "本句指「把一個完整事實／消息直接告知某人」。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-01": "「直接指示／要求某人進行某項行動」是「tell someone to do」的用法，與本句語境不同。"
+        "tell-mcq-04": "本句的「told me that」指「把一個完整事實／消息直接告知某人」。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-04"
     },
@@ -1058,11 +1026,9 @@ export default {
       "masked": "They ____ us that the meeting had been cancelled.",
       "options": [
         "tell-mcq-04",
-        "tell-mcq-03",
-        "tell-mcq-05",
-        "tell-mcq-02",
         "tell-mcq-06",
-        "tell-mcq-01"
+        "tell-mcq-29",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「told」指「把一個完整事實／消息直接告知某人」。",
       "sentenceIndex": 8,
@@ -1071,12 +1037,10 @@ export default {
         "told"
       ],
       "optionReasons": {
-        "tell-mcq-04": "本句指「把一個完整事實／消息直接告知某人」。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-01": "「直接指示／要求某人進行某項行動」是「tell someone to do」的用法，與本句語境不同。"
+        "tell-mcq-04": "本句的「told」指「把一個完整事實／消息直接告知某人」。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-04"
     },
@@ -1088,11 +1052,9 @@ export default {
       "masked": "She ____ her childhood.",
       "options": [
         "tell-mcq-05",
-        "tell-mcq-04",
-        "tell-mcq-06",
-        "tell-mcq-03",
-        "tell-mcq-07",
-        "tell-mcq-02"
+        "tell-mcq-16",
+        "tell-mcq-31",
+        "tell-mcq-26"
       ],
       "explanation": "本句的「told me about」指「向某人提供關於某人／某事的資訊或經歷」。",
       "sentenceIndex": 9,
@@ -1101,12 +1063,10 @@ export default {
         "told me about"
       ],
       "optionReasons": {
-        "tell-mcq-05": "本句指「向某人提供關於某人／某事的資訊或經歷」。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。"
+        "tell-mcq-05": "本句的「told me about」指「向某人提供關於某人／某事的資訊或經歷」。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-05"
     },
@@ -1118,11 +1078,9 @@ export default {
       "masked": "Let me ____ the project.",
       "options": [
         "tell-mcq-05",
-        "tell-mcq-04",
-        "tell-mcq-06",
-        "tell-mcq-03",
-        "tell-mcq-07",
-        "tell-mcq-02"
+        "tell-mcq-12",
+        "tell-mcq-11",
+        "tell-mcq-24"
       ],
       "explanation": "本句的「tell you about」指「向某人提供關於某人／某事的資訊或經歷」。",
       "sentenceIndex": 10,
@@ -1131,12 +1089,10 @@ export default {
         "tell you about"
       ],
       "optionReasons": {
-        "tell-mcq-05": "本句指「向某人提供關於某人／某事的資訊或經歷」。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。"
+        "tell-mcq-05": "本句的「tell you about」指「向某人提供關於某人／某事的資訊或經歷」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-05"
     },
@@ -1148,11 +1104,9 @@ export default {
       "masked": "Please ____ what happened.",
       "options": [
         "tell-pdf-001",
-        "tell-mcq-04",
-        "tell-mcq-06",
-        "tell-mcq-03",
-        "tell-mcq-07",
-        "tell-mcq-02"
+        "tell-mcq-13",
+        "tell-mcq-27",
+        "tell-mcq-29"
       ],
       "explanation": "本句的「tell me」指「把某項資訊傳遞給特定的人」。",
       "sentenceIndex": 11,
@@ -1161,12 +1115,10 @@ export default {
         "tell me"
       ],
       "optionReasons": {
-        "tell-pdf-001": "本句指「把某項資訊傳遞給特定的人」。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。"
+        "tell-pdf-001": "本句的「tell me」指「把某項資訊傳遞給特定的人」。",
+        "tell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-pdf-001"
     },
@@ -1178,11 +1130,9 @@ export default {
       "masked": "Nobody ____.",
       "options": [
         "tell-pdf-001",
-        "tell-mcq-04",
-        "tell-mcq-06",
-        "tell-mcq-03",
-        "tell-mcq-07",
-        "tell-mcq-02"
+        "tell-mcq-11",
+        "tell-mcq-20",
+        "tell-mcq-10"
       ],
       "explanation": "本句的「told us」指「把某項資訊傳遞給特定的人」。",
       "sentenceIndex": 12,
@@ -1191,12 +1141,10 @@ export default {
         "told us"
       ],
       "optionReasons": {
-        "tell-pdf-001": "本句指「把某項資訊傳遞給特定的人」。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-02": "「指示／要求某人不要進行某項行動」是「tell someone not to do」的用法，與本句語境不同。"
+        "tell-pdf-001": "本句的「told us」指「把某項資訊傳遞給特定的人」。",
+        "tell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-pdf-001"
     },
@@ -1208,11 +1156,9 @@ export default {
       "masked": "She ____ about her childhood.",
       "options": [
         "tell-mcq-06",
-        "tell-mcq-05",
-        "tell-mcq-07",
-        "tell-mcq-04",
-        "tell-mcq-08",
-        "tell-mcq-03"
+        "tell-mcq-02",
+        "tell-mcq-29",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「told us a story」指「按一定次序講述一系列事件／經歷」。",
       "sentenceIndex": 13,
@@ -1221,12 +1167,10 @@ export default {
         "told us a story"
       ],
       "optionReasons": {
-        "tell-mcq-06": "本句指「按一定次序講述一系列事件／經歷」。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。"
+        "tell-mcq-06": "本句的「told us a story」指「按一定次序講述一系列事件／經歷」。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-06"
     },
@@ -1238,11 +1182,9 @@ export default {
       "masked": "He ____ very well.",
       "options": [
         "tell-mcq-06",
-        "tell-mcq-05",
-        "tell-mcq-07",
-        "tell-mcq-04",
-        "tell-mcq-08",
-        "tell-mcq-03"
+        "tell-mcq-24",
+        "tell-mcq-19",
+        "tell-mcq-27"
       ],
       "explanation": "本句的「told the story」指「按一定次序講述一系列事件／經歷」。",
       "sentenceIndex": 14,
@@ -1251,12 +1193,10 @@ export default {
         "told the story"
       ],
       "optionReasons": {
-        "tell-mcq-06": "本句指「按一定次序講述一系列事件／經歷」。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。"
+        "tell-mcq-06": "本句的「told the story」指「按一定次序講述一系列事件／經歷」。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-06"
     },
@@ -1268,11 +1208,9 @@ export default {
       "masked": "My grandmother used to ____.",
       "options": [
         "tell-mcq-06",
-        "tell-mcq-05",
-        "tell-mcq-07",
-        "tell-mcq-04",
-        "tell-mcq-08",
-        "tell-mcq-03"
+        "tell-mcq-31",
+        "tell-mcq-27",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「tell me stories」指「按一定次序講述一系列事件／經歷」。",
       "sentenceIndex": 15,
@@ -1281,12 +1219,10 @@ export default {
         "tell me stories"
       ],
       "optionReasons": {
-        "tell-mcq-06": "本句指「按一定次序講述一系列事件／經歷」。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。"
+        "tell-mcq-06": "本句的「tell me stories」指「按一定次序講述一系列事件／經歷」。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-06"
     },
@@ -1298,11 +1234,9 @@ export default {
       "masked": "The film ____ a family.",
       "options": [
         "tell-mcq-06",
-        "tell-mcq-05",
-        "tell-mcq-07",
-        "tell-mcq-04",
-        "tell-mcq-08",
-        "tell-mcq-03"
+        "tell-mcq-12",
+        "tell-mcq-31",
+        "tell-mcq-20"
       ],
       "explanation": "本句的「tells the story of」指「按一定次序講述一系列事件／經歷」。",
       "sentenceIndex": 16,
@@ -1311,12 +1245,10 @@ export default {
         "tells the story of"
       ],
       "optionReasons": {
-        "tell-mcq-06": "本句指「按一定次序講述一系列事件／經歷」。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-03": "「把特定資訊、事實或內容傳達給某人」是「tell someone something」的用法，與本句語境不同。"
+        "tell-mcq-06": "本句的「tells the story of」指「按一定次序講述一系列事件／經歷」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-06"
     },
@@ -1328,11 +1260,9 @@ export default {
       "masked": "The photographs ____.",
       "options": [
         "tell-mcq-07",
-        "tell-mcq-06",
-        "tell-mcq-08",
-        "tell-mcq-05",
-        "tell-mcq-09",
-        "tell-mcq-04"
+        "tell-mcq-16",
+        "tell-mcq-25",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「tell a powerful story」指「資料、圖片、證據等共同呈現某種情況／訊息」。",
       "sentenceIndex": 17,
@@ -1341,12 +1271,10 @@ export default {
         "tell a powerful story"
       ],
       "optionReasons": {
-        "tell-mcq-07": "本句指「資料、圖片、證據等共同呈現某種情況／訊息」。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。"
+        "tell-mcq-07": "本句的「tell a powerful story」指「資料、圖片、證據等共同呈現某種情況／訊息」。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-07"
     },
@@ -1358,11 +1286,9 @@ export default {
       "masked": "The numbers ____.",
       "options": [
         "tell-mcq-07",
-        "tell-mcq-06",
-        "tell-mcq-08",
-        "tell-mcq-05",
-        "tell-mcq-09",
-        "tell-mcq-04"
+        "tell-mcq-28",
+        "tell-mcq-02",
+        "tell-pdf-002"
       ],
       "explanation": "本句的「tell a different story」指「資料、圖片、證據等共同呈現某種情況／訊息」。",
       "sentenceIndex": 18,
@@ -1371,12 +1297,10 @@ export default {
         "tell a different story"
       ],
       "optionReasons": {
-        "tell-mcq-07": "本句指「資料、圖片、證據等共同呈現某種情況／訊息」。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-04": "「把一個完整事實／消息直接告知某人」是「tell someone that…」的用法，與本句語境不同。"
+        "tell-mcq-07": "本句的「tell a different story」指「資料、圖片、證據等共同呈現某種情況／訊息」。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-07"
     },
@@ -1388,11 +1312,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "tell-mcq-08",
-        "tell-mcq-07",
-        "tell-mcq-09",
-        "tell-mcq-06",
-        "tell-mcq-10",
-        "tell-mcq-05"
+        "tell-mcq-20",
+        "tell-mcq-12",
+        "tell-mcq-24"
       ],
       "explanation": "本句的「tell the truth」指「說出與實際事實相符的內容」。",
       "sentenceIndex": 19,
@@ -1401,12 +1323,10 @@ export default {
         "tell the truth"
       ],
       "optionReasons": {
-        "tell-mcq-08": "本句指「說出與實際事實相符的內容」。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。"
+        "tell-mcq-08": "本句的「tell the truth」指「說出與實際事實相符的內容」。",
+        "tell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-08"
     },
@@ -1418,11 +1338,9 @@ export default {
       "masked": "She always ____.",
       "options": [
         "tell-mcq-08",
-        "tell-mcq-07",
-        "tell-mcq-09",
-        "tell-mcq-06",
-        "tell-mcq-10",
-        "tell-mcq-05"
+        "tell-mcq-16",
+        "tell-mcq-12",
+        "tell-mcq-31"
       ],
       "explanation": "本句的「tells the truth」指「說出與實際事實相符的內容」。",
       "sentenceIndex": 20,
@@ -1431,12 +1349,10 @@ export default {
         "tells the truth"
       ],
       "optionReasons": {
-        "tell-mcq-08": "本句指「說出與實際事實相符的內容」。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-05": "「向某人提供關於某人／某事的資訊或經歷」是「tell someone about」的用法，與本句語境不同。"
+        "tell-mcq-08": "本句的「tells the truth」指「說出與實際事實相符的內容」。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-08"
     },
@@ -1448,11 +1364,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "tell-mcq-09",
-        "tell-mcq-08",
-        "tell-mcq-10",
-        "tell-mcq-07",
-        "tell-mcq-11",
-        "tell-mcq-06"
+        "tell-mcq-27",
+        "tell-mcq-31",
+        "tell-pdf-002"
       ],
       "explanation": "本句的「told a lie」指「故意說出自己知道並不真實的內容」。",
       "sentenceIndex": 21,
@@ -1461,12 +1375,10 @@ export default {
         "told a lie"
       ],
       "optionReasons": {
-        "tell-mcq-09": "本句指「故意說出自己知道並不真實的內容」。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-09": "本句的「told a lie」指「故意說出自己知道並不真實的內容」。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-09"
     },
@@ -1478,11 +1390,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "tell-mcq-09",
-        "tell-mcq-08",
-        "tell-mcq-10",
-        "tell-mcq-07",
-        "tell-mcq-11",
-        "tell-mcq-06"
+        "tell-pdf-002",
+        "tell-mcq-20",
+        "tell-mcq-10"
       ],
       "explanation": "本句的「tell lies」指「故意說出自己知道並不真實的內容」。",
       "sentenceIndex": 22,
@@ -1491,12 +1401,10 @@ export default {
         "tell lies"
       ],
       "optionReasons": {
-        "tell-mcq-09": "本句指「故意說出自己知道並不真實的內容」。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-06": "「按一定次序講述一系列事件／經歷」是「tell a story」的用法，與本句語境不同。"
+        "tell-mcq-09": "本句的「tell lies」指「故意說出自己知道並不真實的內容」。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-09"
     },
@@ -1508,11 +1416,9 @@ export default {
       "masked": "Can you ____ between the two versions?",
       "options": [
         "tell-mcq-10",
-        "tell-mcq-09",
-        "tell-mcq-11",
-        "tell-mcq-08",
-        "tell-mcq-12",
-        "tell-mcq-07"
+        "tell-mcq-23",
+        "tell-mcq-16",
+        "tell-mcq-06"
       ],
       "explanation": "本句的「tell the difference」指「辨認兩個／多個事物之間的不同」。",
       "sentenceIndex": 23,
@@ -1521,12 +1427,10 @@ export default {
         "tell the difference"
       ],
       "optionReasons": {
-        "tell-mcq-10": "本句指「辨認兩個／多個事物之間的不同」。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。"
+        "tell-mcq-10": "本句的「tell the difference」指「辨認兩個／多個事物之間的不同」。",
+        "tell-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-10"
     },
@@ -1538,11 +1442,9 @@ export default {
       "masked": "I can hardly ____.",
       "options": [
         "tell-mcq-10",
-        "tell-mcq-09",
-        "tell-mcq-11",
-        "tell-mcq-08",
-        "tell-mcq-12",
-        "tell-mcq-07"
+        "tell-mcq-16",
+        "tell-mcq-25",
+        "tell-mcq-24"
       ],
       "explanation": "本句的「tell the difference」指「辨認兩個／多個事物之間的不同」。",
       "sentenceIndex": 24,
@@ -1551,12 +1453,10 @@ export default {
         "tell the difference"
       ],
       "optionReasons": {
-        "tell-mcq-10": "本句指「辨認兩個／多個事物之間的不同」。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-07": "「資料、圖片、證據等共同呈現某種情況／訊息」是「tell a story — figurative」的用法，與本句語境不同。"
+        "tell-mcq-10": "本句的「tell the difference」指「辨認兩個／多個事物之間的不同」。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-10"
     },
@@ -1568,11 +1468,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "tell-mcq-11",
-        "tell-mcq-10",
-        "tell-mcq-12",
-        "tell-mcq-09",
-        "tell-mcq-13",
-        "tell-mcq-08"
+        "tell-mcq-02",
+        "tell-mcq-28",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「tell real gold from fake gold」指「正確分辨 A 和 B，知道哪個是哪個」。",
       "sentenceIndex": 25,
@@ -1581,12 +1479,10 @@ export default {
         "tell real gold from fake gold"
       ],
       "optionReasons": {
-        "tell-mcq-11": "本句指「正確分辨 A 和 B，知道哪個是哪個」。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。"
+        "tell-mcq-11": "本句的「tell real gold from fake gold」指「正確分辨 A 和 B，知道哪個是哪個」。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-11"
     },
@@ -1598,11 +1494,9 @@ export default {
       "masked": "I can’t ____.",
       "options": [
         "tell-mcq-11",
-        "tell-mcq-10",
-        "tell-mcq-12",
-        "tell-mcq-09",
-        "tell-mcq-13",
-        "tell-mcq-08"
+        "tell-mcq-28",
+        "tell-mcq-30",
+        "tell-mcq-31"
       ],
       "explanation": "本句的「tell one twin from the other」指「正確分辨 A 和 B，知道哪個是哪個」。",
       "sentenceIndex": 26,
@@ -1611,12 +1505,10 @@ export default {
         "tell one twin from the other"
       ],
       "optionReasons": {
-        "tell-mcq-11": "本句指「正確分辨 A 和 B，知道哪個是哪個」。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-08": "「說出與實際事實相符的內容」是「tell the truth」的用法，與本句語境不同。"
+        "tell-mcq-11": "本句的「tell one twin from the other」指「正確分辨 A 和 B，知道哪個是哪個」。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-11"
     },
@@ -1628,11 +1520,9 @@ export default {
       "masked": "The two brothers are difficult to ____.",
       "options": [
         "tell-mcq-12",
-        "tell-mcq-11",
-        "tell-mcq-13",
-        "tell-mcq-10",
-        "tell-mcq-14",
-        "tell-mcq-09"
+        "tell-mcq-08",
+        "tell-mcq-22",
+        "tell-mcq-14"
       ],
       "explanation": "本句的「tell apart」指「辨認兩個相似的人／物並區分開來」。",
       "sentenceIndex": 27,
@@ -1641,12 +1531,10 @@ export default {
         "tell apart"
       ],
       "optionReasons": {
-        "tell-mcq-12": "本句指「辨認兩個相似的人／物並區分開來」。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。"
+        "tell-mcq-12": "本句的「tell apart」指「辨認兩個相似的人／物並區分開來」。",
+        "tell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-12"
     },
@@ -1658,11 +1546,9 @@ export default {
       "masked": "I can’t ____.",
       "options": [
         "tell-mcq-12",
-        "tell-mcq-11",
-        "tell-mcq-13",
-        "tell-mcq-10",
-        "tell-mcq-14",
-        "tell-mcq-09"
+        "tell-mcq-05",
+        "tell-mcq-16",
+        "tell-mcq-31"
       ],
       "explanation": "本句的「tell the two designs apart」指「辨認兩個相似的人／物並區分開來」。",
       "sentenceIndex": 28,
@@ -1671,12 +1557,10 @@ export default {
         "tell the two designs apart"
       ],
       "optionReasons": {
-        "tell-mcq-12": "本句指「辨認兩個相似的人／物並區分開來」。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-09": "「故意說出自己知道並不真實的內容」是「tell a lie」的用法，與本句語境不同。"
+        "tell-mcq-12": "本句的「tell the two designs apart」指「辨認兩個相似的人／物並區分開來」。",
+        "tell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-12"
     },
@@ -1688,11 +1572,9 @@ export default {
       "masked": "I could ____ that she was tired.",
       "options": [
         "tell-mcq-13",
-        "tell-mcq-12",
-        "tell-mcq-14",
-        "tell-mcq-11",
-        "tell-mcq-15",
-        "tell-mcq-10"
+        "tell-mcq-05",
+        "tell-mcq-28",
+        "tell-pdf-002"
       ],
       "explanation": "本句的「tell」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
       "sentenceIndex": 29,
@@ -1701,12 +1583,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-13": "本句指「根據表情、聲音、行為或證據察覺／判斷某事」。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。"
+        "tell-mcq-13": "本句的「tell」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
+        "tell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-13"
     },
@@ -1718,11 +1598,9 @@ export default {
       "masked": "You can ____ he is nervous.",
       "options": [
         "tell-mcq-13",
+        "tell-mcq-05",
         "tell-mcq-12",
-        "tell-mcq-14",
-        "tell-mcq-11",
-        "tell-mcq-15",
-        "tell-mcq-10"
+        "tell-pdf-002"
       ],
       "explanation": "本句的「tell」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
       "sentenceIndex": 30,
@@ -1731,12 +1609,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-13": "本句指「根據表情、聲音、行為或證據察覺／判斷某事」。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。"
+        "tell-mcq-13": "本句的「tell」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
+        "tell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-13"
     },
@@ -1748,11 +1624,9 @@ export default {
       "masked": "I could ____ my grandmother was tired.",
       "options": [
         "tell-mcq-13",
-        "tell-mcq-12",
-        "tell-mcq-14",
-        "tell-mcq-11",
-        "tell-mcq-15",
-        "tell-mcq-10"
+        "tell-mcq-05",
+        "tell-pdf-002",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「tell that」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
       "sentenceIndex": 31,
@@ -1761,12 +1635,10 @@ export default {
         "tell that"
       ],
       "optionReasons": {
-        "tell-mcq-13": "本句指「根據表情、聲音、行為或證據察覺／判斷某事」。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。"
+        "tell-mcq-13": "本句的「tell that」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
+        "tell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-13"
     },
@@ -1779,10 +1651,8 @@ export default {
       "options": [
         "tell-mcq-13",
         "tell-mcq-12",
-        "tell-mcq-14",
-        "tell-mcq-11",
-        "tell-mcq-15",
-        "tell-mcq-10"
+        "tell-pdf-002",
+        "tell-mcq-23"
       ],
       "explanation": "本句的「tell」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
       "sentenceIndex": 32,
@@ -1791,12 +1661,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-13": "本句指「根據表情、聲音、行為或證據察覺／判斷某事」。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-10": "「辨認兩個／多個事物之間的不同」是「tell the difference」的用法，與本句語境不同。"
+        "tell-mcq-13": "本句的「tell」指「根據表情、聲音、行為或證據察覺／判斷某事」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-13"
     },
@@ -1808,11 +1676,9 @@ export default {
       "masked": "I could ____ that she was tired.",
       "options": [
         "tell-mcq-14",
-        "tell-mcq-13",
-        "tell-mcq-15",
         "tell-mcq-12",
-        "tell-mcq-16",
-        "tell-mcq-11"
+        "tell-mcq-02",
+        "tell-mcq-29"
       ],
       "explanation": "本句的「tell from her voice」指「根據特定跡象看出、聽出或判斷出某事」。",
       "sentenceIndex": 33,
@@ -1821,12 +1687,10 @@ export default {
         "tell from her voice"
       ],
       "optionReasons": {
-        "tell-mcq-14": "本句指「根據特定跡象看出、聽出或判斷出某事」。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。"
+        "tell-mcq-14": "本句的「tell from her voice」指「根據特定跡象看出、聽出或判斷出某事」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-14"
     },
@@ -1838,11 +1702,9 @@ export default {
       "masked": "You can ____ that he is worried.",
       "options": [
         "tell-mcq-14",
-        "tell-mcq-13",
-        "tell-mcq-15",
-        "tell-mcq-12",
-        "tell-mcq-16",
-        "tell-mcq-11"
+        "tell-mcq-28",
+        "tell-mcq-01",
+        "tell-mcq-26"
       ],
       "explanation": "本句的「tell from his face」指「根據特定跡象看出、聽出或判斷出某事」。",
       "sentenceIndex": 34,
@@ -1851,12 +1713,10 @@ export default {
         "tell from his face"
       ],
       "optionReasons": {
-        "tell-mcq-14": "本句指「根據特定跡象看出、聽出或判斷出某事」。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-11": "「正確分辨 A 和 B，知道哪個是哪個」是「tell A from B」的用法，與本句語境不同。"
+        "tell-mcq-14": "本句的「tell from his face」指「根據特定跡象看出、聽出或判斷出某事」。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-14"
     },
@@ -1868,11 +1728,9 @@ export default {
       "masked": "It’s ____ whether she is tired.",
       "options": [
         "tell-mcq-15",
-        "tell-mcq-14",
-        "tell-mcq-16",
-        "tell-mcq-13",
-        "tell-mcq-17",
-        "tell-mcq-12"
+        "tell-mcq-12",
+        "tell-mcq-27",
+        "tell-mcq-29"
       ],
       "explanation": "本句的「hard to tell」指「根據目前資訊很難知道／確定答案」。",
       "sentenceIndex": 35,
@@ -1881,12 +1739,10 @@ export default {
         "hard to tell"
       ],
       "optionReasons": {
-        "tell-mcq-15": "本句指「根據目前資訊很難知道／確定答案」。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。"
+        "tell-mcq-15": "本句的「hard to tell」指「根據目前資訊很難知道／確定答案」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-15"
     },
@@ -1898,11 +1754,9 @@ export default {
       "masked": "It is ____ what will happen.",
       "options": [
         "tell-mcq-15",
-        "tell-mcq-14",
-        "tell-mcq-16",
-        "tell-mcq-13",
-        "tell-mcq-17",
-        "tell-mcq-12"
+        "tell-mcq-01",
+        "tell-mcq-26",
+        "tell-mcq-29"
       ],
       "explanation": "本句的「impossible to tell」指「根據目前資訊很難知道／確定答案」。",
       "sentenceIndex": 36,
@@ -1911,12 +1765,10 @@ export default {
         "impossible to tell"
       ],
       "optionReasons": {
-        "tell-mcq-15": "本句指「根據目前資訊很難知道／確定答案」。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。"
+        "tell-mcq-15": "本句的「impossible to tell」指「根據目前資訊很難知道／確定答案」。",
+        "tell-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-15"
     },
@@ -1928,11 +1780,9 @@ export default {
       "masked": "Will the plan work? ____",
       "options": [
         "tell-pdf-002",
-        "tell-mcq-14",
-        "tell-mcq-16",
-        "tell-mcq-13",
-        "tell-mcq-17",
-        "tell-mcq-12"
+        "tell-mcq-05",
+        "tell-mcq-10",
+        "tell-mcq-31"
       ],
       "explanation": "本句的「Who can tell?」指「沒有人能確定／預測答案」。",
       "sentenceIndex": 37,
@@ -1941,12 +1791,10 @@ export default {
         "Who can tell?"
       ],
       "optionReasons": {
-        "tell-pdf-002": "本句指「沒有人能確定／預測答案」。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。"
+        "tell-pdf-002": "本句的「Who can tell?」指「沒有人能確定／預測答案」。",
+        "tell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-pdf-002"
     },
@@ -1958,10 +1806,8 @@ export default {
       "masked": "What will happen next? Who can ____?",
       "options": [
         "tell-pdf-002",
-        "tell-mcq-14",
-        "tell-mcq-16",
-        "tell-mcq-13",
-        "tell-mcq-17",
+        "tell-mcq-21",
+        "tell-mcq-07",
         "tell-mcq-12"
       ],
       "explanation": "本句的「tell」指「沒有人能確定／預測答案」。",
@@ -1971,12 +1817,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-pdf-002": "本句指「沒有人能確定／預測答案」。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-12": "「辨認兩個相似的人／物並區分開來」是「tell apart」的用法，與本句語境不同。"
+        "tell-pdf-002": "本句的「tell」指「沒有人能確定／預測答案」。",
+        "tell-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-pdf-002"
     },
@@ -1988,11 +1832,9 @@ export default {
       "masked": "There’s ____ what might happen.",
       "options": [
         "tell-mcq-16",
-        "tell-mcq-15",
-        "tell-mcq-17",
-        "tell-mcq-14",
-        "tell-mcq-18",
-        "tell-mcq-13"
+        "tell-mcq-12",
+        "tell-mcq-02",
+        "tell-mcq-14"
       ],
       "explanation": "本句的「no telling」指「沒有可靠方法知道／預測某件事情」。",
       "sentenceIndex": 39,
@@ -2001,12 +1843,10 @@ export default {
         "no telling"
       ],
       "optionReasons": {
-        "tell-mcq-16": "本句指「沒有可靠方法知道／預測某件事情」。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。"
+        "tell-mcq-16": "本句的「no telling」指「沒有可靠方法知道／預測某件事情」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-16"
     },
@@ -2018,11 +1858,9 @@ export default {
       "masked": "There’s no ____ how long the process will take.",
       "options": [
         "tell-mcq-16",
-        "tell-mcq-15",
-        "tell-mcq-17",
-        "tell-mcq-14",
-        "tell-mcq-18",
-        "tell-mcq-13"
+        "tell-mcq-03",
+        "tell-mcq-12",
+        "tell-mcq-30"
       ],
       "explanation": "本句的「telling」指「沒有可靠方法知道／預測某件事情」。",
       "sentenceIndex": 40,
@@ -2031,12 +1869,10 @@ export default {
         "telling"
       ],
       "optionReasons": {
-        "tell-mcq-16": "本句指「沒有可靠方法知道／預測某件事情」。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-13": "「根據表情、聲音、行為或證據察覺／判斷某事」是「can tell」的用法，與本句語境不同。"
+        "tell-mcq-16": "本句的「telling」指「沒有可靠方法知道／預測某件事情」。",
+        "tell-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-16"
     },
@@ -2048,11 +1884,9 @@ export default {
       "masked": "Will the decision work? ____.",
       "options": [
         "tell-mcq-17",
-        "tell-mcq-16",
-        "tell-mcq-18",
-        "tell-mcq-15",
+        "tell-mcq-04",
         "tell-mcq-19",
-        "tell-mcq-14"
+        "tell-mcq-31"
       ],
       "explanation": "本句的「Time will tell」指「現在無法確定，但未來發展最終會顯示結果」。",
       "sentenceIndex": 41,
@@ -2061,12 +1895,10 @@ export default {
         "Time will tell"
       ],
       "optionReasons": {
-        "tell-mcq-17": "本句指「現在無法確定，但未來發展最終會顯示結果」。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。"
+        "tell-mcq-17": "本句的「Time will tell」指「現在無法確定，但未來發展最終會顯示結果」。",
+        "tell-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-17"
     },
@@ -2078,11 +1910,9 @@ export default {
       "masked": "Only time will ____ whether the change is permanent.",
       "options": [
         "tell-mcq-17",
-        "tell-mcq-16",
-        "tell-mcq-18",
-        "tell-mcq-15",
-        "tell-mcq-19",
-        "tell-mcq-14"
+        "tell-mcq-02",
+        "tell-mcq-10",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「tell」指「現在無法確定，但未來發展最終會顯示結果」。",
       "sentenceIndex": 42,
@@ -2091,12 +1921,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-17": "本句指「現在無法確定，但未來發展最終會顯示結果」。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-14": "「根據特定跡象看出、聽出或判斷出某事」是「tell from」的用法，與本句語境不同。"
+        "tell-mcq-17": "本句的「tell」指「現在無法確定，但未來發展最終會顯示結果」。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-17"
     },
@@ -2108,11 +1936,9 @@ export default {
       "masked": "The data ____ that demand is increasing.",
       "options": [
         "tell-mcq-18",
-        "tell-mcq-17",
-        "tell-mcq-19",
-        "tell-mcq-16",
-        "tell-mcq-20",
-        "tell-mcq-15"
+        "tell-pdf-002",
+        "tell-mcq-10",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「tells us」指「某種證據、資訊或表情顯示／透露某個事實」。",
       "sentenceIndex": 43,
@@ -2121,12 +1947,10 @@ export default {
         "tells us"
       ],
       "optionReasons": {
-        "tell-mcq-18": "本句指「某種證據、資訊或表情顯示／透露某個事實」。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。"
+        "tell-mcq-18": "本句的「tells us」指「某種證據、資訊或表情顯示／透露某個事實」。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-18"
     },
@@ -2138,11 +1962,9 @@ export default {
       "masked": "Her expression ____ everything I needed to know.",
       "options": [
         "tell-mcq-18",
-        "tell-mcq-17",
-        "tell-mcq-19",
-        "tell-mcq-16",
-        "tell-mcq-20",
-        "tell-mcq-15"
+        "tell-mcq-21",
+        "tell-pdf-002",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「told me」指「某種證據、資訊或表情顯示／透露某個事實」。",
       "sentenceIndex": 44,
@@ -2151,12 +1973,10 @@ export default {
         "told me"
       ],
       "optionReasons": {
-        "tell-mcq-18": "本句指「某種證據、資訊或表情顯示／透露某個事實」。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-15": "「根據目前資訊很難知道／確定答案」是「hard to tell」的用法，與本句語境不同。"
+        "tell-mcq-18": "本句的「told me」指「某種證據、資訊或表情顯示／透露某個事實」。",
+        "tell-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-18"
     },
@@ -2168,11 +1988,9 @@ export default {
       "masked": "The empty shelves ____.",
       "options": [
         "tell-mcq-30",
-        "tell-mcq-29",
-        "tell-mcq-31",
-        "tell-mcq-28",
-        "tell-mcq-27",
-        "tell-mcq-26"
+        "tell-mcq-06",
+        "tell-mcq-24",
+        "tell-mcq-10"
       ],
       "explanation": "本句的「tell their own story」指「不需額外解釋，某個現象／證據本身已足以顯示情況」。",
       "sentenceIndex": 45,
@@ -2181,12 +1999,10 @@ export default {
         "tell their own story"
       ],
       "optionReasons": {
-        "tell-mcq-30": "本句指「不需額外解釋，某個現象／證據本身已足以顯示情況」。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-31": "「根據語氣和關係，可從普通指示到較強的命令」是「27. tell = order/command（命令） — 命令；吩咐」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。"
+        "tell-mcq-30": "本句的「tell their own story」指「不需額外解釋，某個現象／證據本身已足以顯示情況」。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-30"
     },
@@ -2198,11 +2014,9 @@ export default {
       "masked": "The photographs ____ their own story.",
       "options": [
         "tell-mcq-30",
-        "tell-mcq-29",
-        "tell-mcq-31",
-        "tell-mcq-28",
-        "tell-mcq-27",
-        "tell-mcq-26"
+        "tell-mcq-12",
+        "tell-pdf-002",
+        "tell-mcq-23"
       ],
       "explanation": "本句的「tell」指「不需額外解釋，某個現象／證據本身已足以顯示情況」。",
       "sentenceIndex": 46,
@@ -2211,12 +2025,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-30": "本句指「不需額外解釋，某個現象／證據本身已足以顯示情況」。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-31": "「根據語氣和關係，可從普通指示到較強的命令」是「27. tell = order/command（命令） — 命令；吩咐」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。"
+        "tell-mcq-30": "本句的「tell」指「不需額外解釋，某個現象／證據本身已足以顯示情況」。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-30"
     },
@@ -2228,11 +2040,9 @@ export default {
       "masked": "The years were beginning to ____ on him.",
       "options": [
         "tell-mcq-19",
-        "tell-mcq-18",
-        "tell-mcq-20",
-        "tell-mcq-17",
-        "tell-mcq-21",
-        "tell-mcq-16"
+        "tell-mcq-08",
+        "tell-mcq-30",
+        "tell-mcq-01"
       ],
       "explanation": "本句的「tell」指「某個長期因素開始產生可觀察到的影響」。",
       "sentenceIndex": 47,
@@ -2241,12 +2051,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-19": "本句指「某個長期因素開始產生可觀察到的影響」。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。"
+        "tell-mcq-19": "本句的「tell」指「某個長期因素開始產生可觀察到的影響」。",
+        "tell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-19"
     },
@@ -2258,11 +2066,9 @@ export default {
       "masked": "The pressure eventually began to ____.",
       "options": [
         "tell-mcq-19",
-        "tell-mcq-18",
-        "tell-mcq-20",
-        "tell-mcq-17",
-        "tell-mcq-21",
-        "tell-mcq-16"
+        "tell-pdf-003",
+        "tell-mcq-24",
+        "tell-mcq-11"
       ],
       "explanation": "本句的「tell」指「某個長期因素開始產生可觀察到的影響」。",
       "sentenceIndex": 48,
@@ -2271,12 +2077,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-19": "本句指「某個長期因素開始產生可觀察到的影響」。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-16": "「沒有可靠方法知道／預測某件事情」是「there’s no telling」的用法，與本句語境不同。"
+        "tell-mcq-19": "本句的「tell」指「某個長期因素開始產生可觀察到的影響」。",
+        "tell-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-19"
     },
@@ -2288,11 +2092,9 @@ export default {
       "masked": "The long hours began to ____ her health.",
       "options": [
         "tell-mcq-20",
-        "tell-mcq-19",
-        "tell-mcq-21",
-        "tell-mcq-18",
-        "tell-mcq-22",
-        "tell-mcq-17"
+        "tell-mcq-14",
+        "tell-mcq-08",
+        "tell-mcq-29"
       ],
       "explanation": "本句的「tell on」指「對某人的健康、表現等逐漸造成明顯負面影響」。",
       "sentenceIndex": 49,
@@ -2301,12 +2103,10 @@ export default {
         "tell on"
       ],
       "optionReasons": {
-        "tell-mcq-20": "本句指「對某人的健康、表現等逐漸造成明顯負面影響」。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。"
+        "tell-mcq-20": "本句的「tell on」指「對某人的健康、表現等逐漸造成明顯負面影響」。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-20"
     },
@@ -2318,11 +2118,9 @@ export default {
       "masked": "Lack of sleep was ____ on him.",
       "options": [
         "tell-mcq-20",
-        "tell-mcq-19",
-        "tell-mcq-21",
-        "tell-mcq-18",
-        "tell-mcq-22",
-        "tell-mcq-17"
+        "tell-mcq-15",
+        "tell-mcq-10",
+        "tell-mcq-29"
       ],
       "explanation": "本句的「telling」指「對某人的健康、表現等逐漸造成明顯負面影響」。",
       "sentenceIndex": 50,
@@ -2331,12 +2129,10 @@ export default {
         "telling"
       ],
       "optionReasons": {
-        "tell-mcq-20": "本句指「對某人的健康、表現等逐漸造成明顯負面影響」。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-17": "「現在無法確定，但未來發展最終會顯示結果」是「time will tell」的用法，與本句語境不同。"
+        "tell-mcq-20": "本句的「telling」指「對某人的健康、表現等逐漸造成明顯負面影響」。",
+        "tell-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-20"
     },
@@ -2348,11 +2144,9 @@ export default {
       "masked": "The child threatened to ____ his brother.",
       "options": [
         "tell-mcq-21",
-        "tell-mcq-20",
-        "tell-mcq-22",
-        "tell-mcq-19",
-        "tell-mcq-23",
-        "tell-mcq-18"
+        "tell-mcq-14",
+        "tell-pdf-002",
+        "tell-mcq-30"
       ],
       "explanation": "本句的「tell on」指「把某人的不當行為告訴老師、家長或其他有權人士」。",
       "sentenceIndex": 51,
@@ -2361,12 +2155,10 @@ export default {
         "tell on"
       ],
       "optionReasons": {
-        "tell-mcq-21": "本句指「把某人的不當行為告訴老師、家長或其他有權人士」。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。"
+        "tell-mcq-21": "本句的「tell on」指「把某人的不當行為告訴老師、家長或其他有權人士」。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-21"
     },
@@ -2378,11 +2170,9 @@ export default {
       "masked": "Don’t ____ on me!",
       "options": [
         "tell-mcq-21",
-        "tell-mcq-20",
-        "tell-mcq-22",
-        "tell-mcq-19",
-        "tell-mcq-23",
-        "tell-mcq-18"
+        "tell-mcq-17",
+        "tell-mcq-11",
+        "tell-mcq-24"
       ],
       "explanation": "本句的「tell」指「把某人的不當行為告訴老師、家長或其他有權人士」。",
       "sentenceIndex": 52,
@@ -2391,12 +2181,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-21": "本句指「把某人的不當行為告訴老師、家長或其他有權人士」。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-18": "「某種證據、資訊或表情顯示／透露某個事實」是「tell — reveal/show」的用法，與本句語境不同。"
+        "tell-mcq-21": "本句的「tell」指「把某人的不當行為告訴老師、家長或其他有權人士」。",
+        "tell-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-21"
     },
@@ -2408,11 +2196,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "tell-mcq-31",
-        "tell-mcq-30",
-        "tell-mcq-29",
-        "tell-mcq-28",
         "tell-mcq-27",
-        "tell-mcq-26"
+        "tell-mcq-08",
+        "tell-mcq-17"
       ],
       "explanation": "本句的「telling you to stop」指「根據語氣和關係，可從普通指示到較強的命令」。",
       "sentenceIndex": 53,
@@ -2421,12 +2207,10 @@ export default {
         "telling you to stop"
       ],
       "optionReasons": {
-        "tell-mcq-31": "本句指「根據語氣和關係，可從普通指示到較強的命令」。",
-        "tell-mcq-30": "「不需額外解釋，某個現象／證據本身已足以顯示情況」是「23. tell its own story（本身已說明一切） — 不言自明；自己說明情況」的用法，與本句語境不同。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。"
+        "tell-mcq-31": "本句的「telling you to stop」指「根據語氣和關係，可從普通指示到較強的命令」。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-31"
     },
@@ -2438,11 +2222,9 @@ export default {
       "masked": "He doesn’t like being ____.",
       "options": [
         "tell-mcq-31",
-        "tell-mcq-30",
-        "tell-mcq-29",
-        "tell-mcq-28",
+        "tell-mcq-06",
         "tell-mcq-27",
-        "tell-mcq-26"
+        "tell-mcq-16"
       ],
       "explanation": "本句的「told what to do」指「根據語氣和關係，可從普通指示到較強的命令」。",
       "sentenceIndex": 54,
@@ -2451,12 +2233,10 @@ export default {
         "told what to do"
       ],
       "optionReasons": {
-        "tell-mcq-31": "本句指「根據語氣和關係，可從普通指示到較強的命令」。",
-        "tell-mcq-30": "「不需額外解釋，某個現象／證據本身已足以顯示情況」是「23. tell its own story（本身已說明一切） — 不言自明；自己說明情況」的用法，與本句語境不同。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。"
+        "tell-mcq-31": "本句的「told what to do」指「根據語氣和關係，可從普通指示到較強的命令」。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-31"
     },
@@ -2468,11 +2248,9 @@ export default {
       "masked": "I was ____ outside.",
       "options": [
         "tell-mcq-22",
-        "tell-mcq-21",
-        "tell-mcq-23",
-        "tell-mcq-20",
-        "tell-mcq-24",
-        "tell-mcq-19"
+        "tell-mcq-29",
+        "tell-mcq-15",
+        "tell-mcq-12"
       ],
       "explanation": "本句的「told to wait」指「收到某人的指示／要求去進行某項行動」。",
       "sentenceIndex": 55,
@@ -2481,12 +2259,10 @@ export default {
         "told to wait"
       ],
       "optionReasons": {
-        "tell-mcq-22": "本句指「收到某人的指示／要求去進行某項行動」。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。"
+        "tell-mcq-22": "本句的「told to wait」指「收到某人的指示／要求去進行某項行動」。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-22"
     },
@@ -2498,11 +2274,9 @@ export default {
       "masked": "Employees were ____ to arrive early.",
       "options": [
         "tell-mcq-22",
-        "tell-mcq-21",
-        "tell-mcq-23",
-        "tell-mcq-20",
-        "tell-mcq-24",
-        "tell-mcq-19"
+        "tell-pdf-002",
+        "tell-mcq-12",
+        "tell-mcq-18"
       ],
       "explanation": "本句的「told」指「收到某人的指示／要求去進行某項行動」。",
       "sentenceIndex": 56,
@@ -2511,12 +2285,10 @@ export default {
         "told"
       ],
       "optionReasons": {
-        "tell-mcq-22": "本句指「收到某人的指示／要求去進行某項行動」。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-19": "「某個長期因素開始產生可觀察到的影響」是「tell — effect」的用法，與本句語境不同。"
+        "tell-mcq-22": "本句的「told」指「收到某人的指示／要求去進行某項行動」。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-22"
     },
@@ -2528,11 +2300,9 @@ export default {
       "masked": "Can you ____ the meeting room is?",
       "options": [
         "tell-mcq-23",
-        "tell-mcq-22",
-        "tell-mcq-24",
-        "tell-mcq-21",
-        "tell-mcq-25",
-        "tell-mcq-20"
+        "tell-mcq-13",
+        "tell-pdf-002",
+        "tell-mcq-10"
       ],
       "explanation": "本句的「tell me where」指「向某人提供做法、位置、內容等具體資訊」。",
       "sentenceIndex": 57,
@@ -2541,12 +2311,10 @@ export default {
         "tell me where"
       ],
       "optionReasons": {
-        "tell-mcq-23": "本句指「向某人提供做法、位置、內容等具體資訊」。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。"
+        "tell-mcq-23": "本句的「tell me where」指「向某人提供做法、位置、內容等具體資訊」。",
+        "tell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-23"
     },
@@ -2558,11 +2326,9 @@ export default {
       "masked": "Tell me ____.",
       "options": [
         "tell-mcq-23",
-        "tell-mcq-22",
-        "tell-mcq-24",
-        "tell-mcq-21",
-        "tell-mcq-25",
-        "tell-mcq-20"
+        "tell-mcq-31",
+        "tell-mcq-29",
+        "tell-mcq-28"
       ],
       "explanation": "本句的「what happened」指「向某人提供做法、位置、內容等具體資訊」。",
       "sentenceIndex": 58,
@@ -2571,12 +2337,10 @@ export default {
         "what happened"
       ],
       "optionReasons": {
-        "tell-mcq-23": "本句指「向某人提供做法、位置、內容等具體資訊」。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。"
+        "tell-mcq-23": "本句的「what happened」指「向某人提供做法、位置、內容等具體資訊」。",
+        "tell-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-23"
     },
@@ -2588,11 +2352,9 @@ export default {
       "masked": "She ____ the tea.",
       "options": [
         "tell-mcq-23",
-        "tell-mcq-22",
-        "tell-mcq-24",
-        "tell-mcq-21",
-        "tell-mcq-25",
-        "tell-mcq-20"
+        "tell-mcq-28",
+        "tell-pdf-002",
+        "tell-mcq-11"
       ],
       "explanation": "本句的「told me how to make」指「向某人提供做法、位置、內容等具體資訊」。",
       "sentenceIndex": 59,
@@ -2601,12 +2363,10 @@ export default {
         "told me how to make"
       ],
       "optionReasons": {
-        "tell-mcq-23": "本句指「向某人提供做法、位置、內容等具體資訊」。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。"
+        "tell-mcq-23": "本句的「told me how to make」指「向某人提供做法、位置、內容等具體資訊」。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-23"
     },
@@ -2618,11 +2378,9 @@ export default {
       "masked": "Can you ____ me how to use this?",
       "options": [
         "tell-mcq-23",
-        "tell-mcq-22",
-        "tell-mcq-24",
-        "tell-mcq-21",
-        "tell-mcq-25",
-        "tell-mcq-20"
+        "tell-mcq-26",
+        "tell-mcq-14",
+        "tell-mcq-06"
       ],
       "explanation": "本句的「tell」指「向某人提供做法、位置、內容等具體資訊」。",
       "sentenceIndex": 60,
@@ -2631,12 +2389,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-mcq-23": "本句指「向某人提供做法、位置、內容等具體資訊」。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。"
+        "tell-mcq-23": "本句的「tell」指「向某人提供做法、位置、內容等具體資訊」。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-23"
     },
@@ -2648,11 +2404,9 @@ export default {
       "masked": "The receptionist ____.",
       "options": [
         "tell-mcq-23",
-        "tell-mcq-22",
-        "tell-mcq-24",
-        "tell-mcq-21",
-        "tell-mcq-25",
-        "tell-mcq-20"
+        "tell-mcq-10",
+        "tell-mcq-19",
+        "tell-mcq-14"
       ],
       "explanation": "本句的「told us where to wait」指「向某人提供做法、位置、內容等具體資訊」。",
       "sentenceIndex": 61,
@@ -2661,12 +2415,10 @@ export default {
         "told us where to wait"
       ],
       "optionReasons": {
-        "tell-mcq-23": "本句指「向某人提供做法、位置、內容等具體資訊」。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。"
+        "tell-mcq-23": "本句的「told us where to wait」指「向某人提供做法、位置、內容等具體資訊」。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-23"
     },
@@ -2678,11 +2430,9 @@ export default {
       "masked": "Nobody ____ me what to do.",
       "options": [
         "tell-mcq-23",
-        "tell-mcq-22",
-        "tell-mcq-24",
-        "tell-mcq-21",
-        "tell-mcq-25",
-        "tell-mcq-20"
+        "tell-mcq-10",
+        "tell-mcq-11",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「told」指「向某人提供做法、位置、內容等具體資訊」。",
       "sentenceIndex": 62,
@@ -2691,12 +2441,10 @@ export default {
         "told"
       ],
       "optionReasons": {
-        "tell-mcq-23": "本句指「向某人提供做法、位置、內容等具體資訊」。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-20": "「對某人的健康、表現等逐漸造成明顯負面影響」是「tell on — effect」的用法，與本句語境不同。"
+        "tell-mcq-23": "本句的「told」指「向某人提供做法、位置、內容等具體資訊」。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-23"
     },
@@ -2708,11 +2456,9 @@ export default {
       "masked": "I ____ to stay calm.",
       "options": [
         "tell-mcq-24",
-        "tell-mcq-23",
-        "tell-mcq-25",
-        "tell-mcq-22",
-        "tell-mcq-26",
-        "tell-mcq-21"
+        "tell-mcq-28",
+        "tell-mcq-10",
+        "tell-mcq-04"
       ],
       "explanation": "本句的「told myself」指「在心裡對自己重複某種指示、想法或安慰」。",
       "sentenceIndex": 63,
@@ -2721,12 +2467,10 @@ export default {
         "told myself"
       ],
       "optionReasons": {
-        "tell-mcq-24": "本句指「在心裡對自己重複某種指示、想法或安慰」。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。"
+        "tell-mcq-24": "本句的「told myself」指「在心裡對自己重複某種指示、想法或安慰」。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-24"
     },
@@ -2738,11 +2482,9 @@ export default {
       "masked": "She kept ____ herself that everything would be fine.",
       "options": [
         "tell-mcq-24",
-        "tell-mcq-23",
         "tell-mcq-25",
-        "tell-mcq-22",
-        "tell-mcq-26",
-        "tell-mcq-21"
+        "tell-mcq-19",
+        "tell-mcq-10"
       ],
       "explanation": "本句的「telling」指「在心裡對自己重複某種指示、想法或安慰」。",
       "sentenceIndex": 64,
@@ -2751,12 +2493,10 @@ export default {
         "telling"
       ],
       "optionReasons": {
-        "tell-mcq-24": "本句指「在心裡對自己重複某種指示、想法或安慰」。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-21": "「把某人的不當行為告訴老師、家長或其他有權人士」是「tell on — report」的用法，與本句語境不同。"
+        "tell-mcq-24": "本句的「telling」指「在心裡對自己重複某種指示、想法或安慰」。",
+        "tell-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-24"
     },
@@ -2768,11 +2508,9 @@ export default {
       "masked": "The teacher ____ for being rude.",
       "options": [
         "tell-mcq-25",
-        "tell-mcq-24",
-        "tell-mcq-26",
-        "tell-mcq-23",
-        "tell-mcq-27",
-        "tell-mcq-22"
+        "tell-mcq-07",
+        "tell-mcq-10",
+        "tell-mcq-19"
       ],
       "explanation": "本句的「told him off」指「嚴厲批評／責罵某人的錯誤行為」。",
       "sentenceIndex": 65,
@@ -2781,12 +2519,10 @@ export default {
         "told him off"
       ],
       "optionReasons": {
-        "tell-mcq-25": "本句指「嚴厲批評／責罵某人的錯誤行為」。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。"
+        "tell-mcq-25": "本句的「told him off」指「嚴厲批評／責罵某人的錯誤行為」。",
+        "tell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-25"
     },
@@ -2798,11 +2534,9 @@ export default {
       "masked": "She was ____ off for arriving late.",
       "options": [
         "tell-mcq-25",
-        "tell-mcq-24",
-        "tell-mcq-26",
-        "tell-mcq-23",
-        "tell-mcq-27",
-        "tell-mcq-22"
+        "tell-mcq-16",
+        "tell-mcq-06",
+        "tell-mcq-10"
       ],
       "explanation": "本句的「told」指「嚴厲批評／責罵某人的錯誤行為」。",
       "sentenceIndex": 66,
@@ -2811,12 +2545,10 @@ export default {
         "told"
       ],
       "optionReasons": {
-        "tell-mcq-25": "本句指「嚴厲批評／責罵某人的錯誤行為」。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。"
+        "tell-mcq-25": "本句的「told」指「嚴厲批評／責罵某人的錯誤行為」。",
+        "tell-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-25"
     },
@@ -2828,11 +2560,9 @@ export default {
       "masked": "I can’t ____ whether he is serious.",
       "options": [
         "tell-pdf-003",
-        "tell-mcq-24",
-        "tell-mcq-26",
-        "tell-mcq-23",
+        "tell-mcq-19",
         "tell-mcq-27",
-        "tell-mcq-22"
+        "tell-mcq-24"
       ],
       "explanation": "本句的「tell」指「根據資訊辨認／確定某件事情」。",
       "sentenceIndex": 67,
@@ -2841,12 +2571,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-pdf-003": "本句指「根據資訊辨認／確定某件事情」。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。"
+        "tell-pdf-003": "本句的「tell」指「根據資訊辨認／確定某件事情」。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-pdf-003"
     },
@@ -2858,11 +2586,9 @@ export default {
       "masked": "Can you ____ which answer is correct?",
       "options": [
         "tell-pdf-003",
-        "tell-mcq-24",
-        "tell-mcq-26",
-        "tell-mcq-23",
-        "tell-mcq-27",
-        "tell-mcq-22"
+        "tell-mcq-01",
+        "tell-mcq-28",
+        "tell-mcq-26"
       ],
       "explanation": "本句的「tell」指「根據資訊辨認／確定某件事情」。",
       "sentenceIndex": 68,
@@ -2871,12 +2597,10 @@ export default {
         "tell"
       ],
       "optionReasons": {
-        "tell-pdf-003": "本句指「根據資訊辨認／確定某件事情」。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-22": "「收到某人的指示／要求去進行某項行動」是「be told to do」的用法，與本句語境不同。"
+        "tell-pdf-003": "本句的「tell」指「根據資訊辨認／確定某件事情」。",
+        "tell-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-pdf-003"
     },
@@ -2888,11 +2612,9 @@ export default {
       "masked": "Her silence was ____.",
       "options": [
         "tell-mcq-26",
-        "tell-mcq-25",
-        "tell-mcq-27",
-        "tell-mcq-24",
+        "tell-pdf-003",
         "tell-mcq-28",
-        "tell-mcq-23"
+        "tell-mcq-22"
       ],
       "explanation": "本句的「telling」指「能強烈透露真實情況、很能說明問題的」。",
       "sentenceIndex": 69,
@@ -2901,12 +2623,10 @@ export default {
         "telling"
       ],
       "optionReasons": {
-        "tell-mcq-26": "本句指「能強烈透露真實情況、很能說明問題的」。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。"
+        "tell-mcq-26": "本句的「telling」指「能強烈透露真實情況、很能說明問題的」。",
+        "tell-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-26"
     },
@@ -2918,11 +2638,9 @@ export default {
       "masked": "One particularly ____ was missing.",
       "options": [
         "tell-mcq-26",
-        "tell-mcq-25",
-        "tell-mcq-27",
-        "tell-mcq-24",
-        "tell-mcq-28",
-        "tell-mcq-23"
+        "tell-mcq-21",
+        "tell-mcq-10",
+        "tell-mcq-15"
       ],
       "explanation": "本句的「telling detail」指「能強烈透露真實情況、很能說明問題的」。",
       "sentenceIndex": 70,
@@ -2931,12 +2649,10 @@ export default {
         "telling detail"
       ],
       "optionReasons": {
-        "tell-mcq-26": "本句指「能強烈透露真實情況、很能說明問題的」。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。"
+        "tell-mcq-26": "本句的「telling detail」指「能強烈透露真實情況、很能說明問題的」。",
+        "tell-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-26"
     },
@@ -2948,11 +2664,9 @@ export default {
       "masked": "The most ____ was her expression.",
       "options": [
         "tell-mcq-26",
-        "tell-mcq-25",
-        "tell-mcq-27",
-        "tell-mcq-24",
-        "tell-mcq-28",
-        "tell-mcq-23"
+        "tell-mcq-29",
+        "tell-mcq-15",
+        "tell-mcq-21"
       ],
       "explanation": "本句的「telling sign」指「能強烈透露真實情況、很能說明問題的」。",
       "sentenceIndex": 71,
@@ -2961,12 +2675,10 @@ export default {
         "telling sign"
       ],
       "optionReasons": {
-        "tell-mcq-26": "本句指「能強烈透露真實情況、很能說明問題的」。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。"
+        "tell-mcq-26": "本句的「telling sign」指「能強烈透露真實情況、很能說明問題的」。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-26"
     },
@@ -2978,11 +2690,9 @@ export default {
       "masked": "The figures provide a ____ example of the problem.",
       "options": [
         "tell-mcq-26",
-        "tell-mcq-25",
-        "tell-mcq-27",
-        "tell-mcq-24",
-        "tell-mcq-28",
-        "tell-mcq-23"
+        "tell-mcq-22",
+        "tell-mcq-29",
+        "tell-pdf-003"
       ],
       "explanation": "本句的「telling」指「能強烈透露真實情況、很能說明問題的」。",
       "sentenceIndex": 72,
@@ -2991,12 +2701,10 @@ export default {
         "telling"
       ],
       "optionReasons": {
-        "tell-mcq-26": "本句指「能強烈透露真實情況、很能說明問題的」。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-23": "「向某人提供做法、位置、內容等具體資訊」是「tell someone how/where/what」的用法，與本句語境不同。"
+        "tell-mcq-26": "本句的「telling」指「能強烈透露真實情況、很能說明問題的」。",
+        "tell-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-26"
     },
@@ -3008,11 +2716,9 @@ export default {
       "masked": "The ____ helped me with the deposit.",
       "options": [
         "tell-mcq-27",
-        "tell-mcq-26",
-        "tell-mcq-28",
-        "tell-mcq-25",
-        "tell-mcq-29",
-        "tell-mcq-24"
+        "tell-mcq-30",
+        "tell-pdf-002",
+        "tell-mcq-09"
       ],
       "explanation": "本句的「bank teller」指「在銀行櫃台處理客戶交易的職員」。",
       "sentenceIndex": 73,
@@ -3021,12 +2727,10 @@ export default {
         "bank teller"
       ],
       "optionReasons": {
-        "tell-mcq-27": "本句指「在銀行櫃台處理客戶交易的職員」。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。"
+        "tell-mcq-27": "本句的「bank teller」指「在銀行櫃台處理客戶交易的職員」。",
+        "tell-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "tell-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-27"
     },
@@ -3038,11 +2742,9 @@ export default {
       "masked": "She works as a ____ at a bank.",
       "options": [
         "tell-mcq-27",
-        "tell-mcq-26",
-        "tell-mcq-28",
-        "tell-mcq-25",
-        "tell-mcq-29",
-        "tell-mcq-24"
+        "tell-mcq-19",
+        "tell-mcq-24",
+        "tell-mcq-18"
       ],
       "explanation": "本句的「teller」指「在銀行櫃台處理客戶交易的職員」。",
       "sentenceIndex": 74,
@@ -3051,12 +2753,10 @@ export default {
         "teller"
       ],
       "optionReasons": {
-        "tell-mcq-27": "本句指「在銀行櫃台處理客戶交易的職員」。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-24": "「在心裡對自己重複某種指示、想法或安慰」是「tell yourself」的用法，與本句語境不同。"
+        "tell-mcq-27": "本句的「teller」指「在銀行櫃台處理客戶交易的職員」。",
+        "tell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-27"
     },
@@ -3068,11 +2768,9 @@ export default {
       "masked": "My grandmother is a wonderful ____.",
       "options": [
         "tell-mcq-28",
-        "tell-mcq-27",
-        "tell-mcq-29",
-        "tell-mcq-26",
-        "tell-mcq-30",
-        "tell-mcq-25"
+        "tell-pdf-003",
+        "tell-mcq-24",
+        "tell-mcq-27"
       ],
       "explanation": "本句的「storyteller」指「擅長／負責講述故事的人」。",
       "sentenceIndex": 75,
@@ -3081,12 +2779,10 @@ export default {
         "storyteller"
       ],
       "optionReasons": {
-        "tell-mcq-28": "本句指「擅長／負責講述故事的人」。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-30": "「不需額外解釋，某個現象／證據本身已足以顯示情況」是「23. tell its own story（本身已說明一切） — 不言自明；自己說明情況」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。"
+        "tell-mcq-28": "本句的「storyteller」指「擅長／負責講述故事的人」。",
+        "tell-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-28"
     },
@@ -3098,11 +2794,9 @@ export default {
       "masked": "He is known as a gifted ____.",
       "options": [
         "tell-mcq-28",
-        "tell-mcq-27",
-        "tell-mcq-29",
-        "tell-mcq-26",
-        "tell-mcq-30",
-        "tell-mcq-25"
+        "tell-mcq-17",
+        "tell-mcq-02",
+        "tell-mcq-14"
       ],
       "explanation": "本句的「storyteller」指「擅長／負責講述故事的人」。",
       "sentenceIndex": 76,
@@ -3111,12 +2805,10 @@ export default {
         "storyteller"
       ],
       "optionReasons": {
-        "tell-mcq-28": "本句指「擅長／負責講述故事的人」。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-29": "「聲稱能預測未來或命運的人」是「fortune-teller」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。",
-        "tell-mcq-30": "「不需額外解釋，某個現象／證據本身已足以顯示情況」是「23. tell its own story（本身已說明一切） — 不言自明；自己說明情況」的用法，與本句語境不同。",
-        "tell-mcq-25": "「嚴厲批評／責罵某人的錯誤行為」是「tell off」的用法，與本句語境不同。"
+        "tell-mcq-28": "本句的「storyteller」指「擅長／負責講述故事的人」。",
+        "tell-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-28"
     },
@@ -3128,11 +2820,9 @@ export default {
       "masked": "She visited a ____.",
       "options": [
         "tell-mcq-29",
-        "tell-mcq-28",
-        "tell-mcq-30",
-        "tell-mcq-27",
-        "tell-mcq-31",
-        "tell-mcq-26"
+        "tell-mcq-04",
+        "tell-mcq-10",
+        "tell-mcq-06"
       ],
       "explanation": "本句的「fortune-teller」指「聲稱能預測未來或命運的人」。",
       "sentenceIndex": 77,
@@ -3141,12 +2831,10 @@ export default {
         "fortune-teller"
       ],
       "optionReasons": {
-        "tell-mcq-29": "本句指「聲稱能預測未來或命運的人」。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-30": "「不需額外解釋，某個現象／證據本身已足以顯示情況」是「23. tell its own story（本身已說明一切） — 不言自明；自己說明情況」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-31": "「根據語氣和關係，可從普通指示到較強的命令」是「27. tell = order/command（命令） — 命令；吩咐」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。"
+        "tell-mcq-29": "本句的「fortune-teller」指「聲稱能預測未來或命運的人」。",
+        "tell-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-29"
     },
@@ -3158,11 +2846,9 @@ export default {
       "masked": "The fortune-____ claimed to predict the future.",
       "options": [
         "tell-mcq-29",
-        "tell-mcq-28",
-        "tell-mcq-30",
-        "tell-mcq-27",
-        "tell-mcq-31",
-        "tell-mcq-26"
+        "tell-mcq-06",
+        "tell-mcq-18",
+        "tell-mcq-20"
       ],
       "explanation": "本句的「teller」指「聲稱能預測未來或命運的人」。",
       "sentenceIndex": 78,
@@ -3171,12 +2857,10 @@ export default {
         "teller"
       ],
       "optionReasons": {
-        "tell-mcq-29": "本句指「聲稱能預測未來或命運的人」。",
-        "tell-mcq-28": "「擅長／負責講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "tell-mcq-30": "「不需額外解釋，某個現象／證據本身已足以顯示情況」是「23. tell its own story（本身已說明一切） — 不言自明；自己說明情況」的用法，與本句語境不同。",
-        "tell-mcq-27": "「在銀行櫃台處理客戶交易的職員」是「bank teller」的用法，與本句語境不同。",
-        "tell-mcq-31": "「根據語氣和關係，可從普通指示到較強的命令」是「27. tell = order/command（命令） — 命令；吩咐」的用法，與本句語境不同。",
-        "tell-mcq-26": "「能強烈透露真實情況、很能說明問題的」是「telling — adjective」的用法，與本句語境不同。"
+        "tell-mcq-29": "本句的「teller」指「聲稱能預測未來或命運的人」。",
+        "tell-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tell-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tell-mcq-29"
     }
@@ -3188,5 +2872,7 @@ export default {
     "sha256": "969aee7a2d4d8e13e7141616a1c947d6fd5bbf4a1962ffb1ef03e2c0812481af",
     "pages": 32
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

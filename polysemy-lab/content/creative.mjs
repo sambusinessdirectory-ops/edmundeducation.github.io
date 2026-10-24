@@ -12,23 +12,7 @@ export default {
       "en": "creative person",
       "zh": "有創意的人",
       "note": "來源詞義：有創意的人",
-      "examples": [
-        [
-          "I think he will grow into a very creative person.",
-          "我覺得他會成長為一個非常有創意的人。",
-          "有創意的人"
-        ],
-        [
-          "She is one of the most creative people I know.",
-          "她是我認識的人當中最有創意的之一。",
-          "有創意的人"
-        ],
-        [
-          "Leo is extremely creative when he plays.",
-          "Leo 玩耍時非常有創造力。",
-          "有創意的人"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -314,18 +298,7 @@ export default {
       "en": "creation (process)",
       "zh": "創造；創作",
       "note": "來源詞義：創造；創作",
-      "examples": [
-        [
-          "The creation of the new system took several years.",
-          "新系統的建立／創造花了數年。",
-          "創造；創作"
-        ],
-        [
-          "The project focuses on the creation of new jobs.",
-          "這個項目着重創造新的職位。",
-          "創造；創作"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -438,98 +411,141 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "creative-reviewed-281f89dce1",
+      "title": "擅長產生新穎、富想像力或原創想法的",
+      "form": "creative · source section 1",
+      "en": "擅長產生新穎、富想像力或原創想法的",
+      "zh": "擅長產生新穎、富想像力或原創想法的",
+      "note": "對照原始教材第 1 節及例句核實。",
+      "examples": [
+        [
+          "I think he will grow into a very creative person.",
+          "我覺得他會成長為一個非常有創意的人。",
+          "擅長產生新穎、富想像力或原創想法的"
+        ],
+        [
+          "She is one of the most creative people I know.",
+          "她是我認識的人當中最有創意的之一。",
+          "擅長產生新穎、富想像力或原創想法的"
+        ],
+        [
+          "Leo is extremely creative when he plays.",
+          "Leo 玩耍時非常有創造力。",
+          "擅長產生新穎、富想像力或原創想法的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "creative-reviewed-a4f50331d1",
+      "title": "使新事物出現的過程或行為",
+      "form": "creative · source section 15",
+      "en": "使新事物出現的過程或行為",
+      "zh": "使新事物出現的過程或行為",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "The creation of the new system took several years.",
+          "新系統的建立／創造花了數年。",
+          "使新事物出現的過程或行為"
+        ],
+        [
+          "The project focuses on the creation of new jobs.",
+          "這個項目着重創造新的職位。",
+          "使新事物出現的過程或行為"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "creative-01-0",
-      "sense": "creative-mcq-01",
+      "sense": "creative-reviewed-281f89dce1",
       "en": "I think he will grow into a very creative person.",
       "zh": "我覺得他會成長為一個非常有創意的人。",
       "masked": "I think he will grow into a very ____ person.",
       "options": [
-        "creative-mcq-01",
-        "creative-mcq-02",
-        "creative-mcq-03",
-        "creative-mcq-04",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-reviewed-281f89dce1",
+        "creative-mcq-14",
+        "creative-mcq-20",
+        "creative-mcq-04"
       ],
-      "explanation": "本句的「creative」指「有創意的人」。",
+      "explanation": "對照完整句子：「我覺得他會成長為一個非常有創意的人。」。這裡的「creative」表示「擅長產生新穎、富想像力或原創想法的」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "creative"
       ],
       "optionReasons": {
-        "creative-mcq-01": "本句指「有創意的人」。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-reviewed-281f89dce1": "對照完整句子：「我覺得他會成長為一個非常有創意的人。」。這裡的「creative」表示「擅長產生新穎、富想像力或原創想法的」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "creative-mcq-01"
+      "correctOption": "creative-reviewed-281f89dce1",
+      "previousCorrectOption": "creative-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "creative-01-1",
-      "sense": "creative-mcq-01",
+      "sense": "creative-reviewed-281f89dce1",
       "en": "She is one of the most creative people I know.",
       "zh": "她是我認識的人當中最有創意的之一。",
       "masked": "She is one of the most ____ people I know.",
       "options": [
-        "creative-mcq-01",
-        "creative-mcq-02",
-        "creative-mcq-03",
-        "creative-mcq-04",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-reviewed-281f89dce1",
+        "creative-mcq-14",
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1"
       ],
-      "explanation": "本句的「creative」指「有創意的人」。",
+      "explanation": "對照完整句子：「她是我認識的人當中最有創意的之一。」。這裡的「creative」表示「擅長產生新穎、富想像力或原創想法的」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "creative"
       ],
       "optionReasons": {
-        "creative-mcq-01": "本句指「有創意的人」。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-reviewed-281f89dce1": "對照完整句子：「她是我認識的人當中最有創意的之一。」。這裡的「creative」表示「擅長產生新穎、富想像力或原創想法的」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "creative-mcq-01"
+      "correctOption": "creative-reviewed-281f89dce1",
+      "previousCorrectOption": "creative-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "creative-01-2",
-      "sense": "creative-mcq-01",
+      "sense": "creative-reviewed-281f89dce1",
       "en": "Leo is extremely creative when he plays.",
       "zh": "Leo 玩耍時非常有創造力。",
       "masked": "Leo is extremely ____ when he plays.",
       "options": [
-        "creative-mcq-01",
-        "creative-mcq-02",
-        "creative-mcq-03",
-        "creative-mcq-04",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-reviewed-281f89dce1",
+        "creative-mcq-20",
+        "creative-mcq-14",
+        "creative-reviewed-a4f50331d1"
       ],
-      "explanation": "本句的「creative」指「有創意的人」。",
+      "explanation": "對照完整句子：「Leo 玩耍時非常有創造力。」。這裡的「creative」表示「擅長產生新穎、富想像力或原創想法的」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "creative"
       ],
       "optionReasons": {
-        "creative-mcq-01": "本句指「有創意的人」。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-reviewed-281f89dce1": "對照完整句子：「Leo 玩耍時非常有創造力。」。這裡的「creative」表示「擅長產生新穎、富想像力或原創想法的」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "creative-mcq-01"
+      "correctOption": "creative-reviewed-281f89dce1",
+      "previousCorrectOption": "creative-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "creative-02-0",
@@ -539,11 +555,9 @@ export default {
       "masked": "That's a very ____.",
       "options": [
         "creative-mcq-02",
-        "creative-mcq-01",
-        "creative-mcq-03",
-        "creative-mcq-04",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creative idea」指「有創意的想法」。",
       "sentenceIndex": 3,
@@ -552,12 +566,10 @@ export default {
         "creative idea"
       ],
       "optionReasons": {
-        "creative-mcq-02": "本句指「有創意的想法」。",
-        "creative-mcq-01": "「有創意的人」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-mcq-02": "本句的「creative idea」指「有創意的想法」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-02"
     },
@@ -569,11 +581,9 @@ export default {
       "masked": "The team came up with several ____.",
       "options": [
         "creative-mcq-02",
-        "creative-mcq-01",
-        "creative-mcq-03",
-        "creative-mcq-04",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creative ideas」指「有創意的想法」。",
       "sentenceIndex": 4,
@@ -582,12 +592,10 @@ export default {
         "creative ideas"
       ],
       "optionReasons": {
-        "creative-mcq-02": "本句指「有創意的想法」。",
-        "creative-mcq-01": "「有創意的人」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-mcq-02": "本句的「creative ideas」指「有創意的想法」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-02"
     },
@@ -599,11 +607,9 @@ export default {
       "masked": "We need a ____ to this problem.",
       "options": [
         "creative-mcq-03",
-        "creative-mcq-02",
-        "creative-mcq-04",
-        "creative-mcq-01",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-mcq-20",
+        "creative-mcq-14",
+        "creative-mcq-13"
       ],
       "explanation": "本句的「creative solution」指「創新的解決方法」。",
       "sentenceIndex": 5,
@@ -612,12 +618,10 @@ export default {
         "creative solution"
       ],
       "optionReasons": {
-        "creative-mcq-03": "本句指「創新的解決方法」。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-01": "「有創意的人」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-mcq-03": "本句的「creative solution」指「創新的解決方法」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-03"
     },
@@ -629,11 +633,9 @@ export default {
       "masked": "She found a ____ to save space.",
       "options": [
         "creative-mcq-03",
-        "creative-mcq-02",
-        "creative-mcq-04",
-        "creative-mcq-01",
-        "creative-mcq-05",
-        "creative-mcq-06"
+        "creative-mcq-13",
+        "creative-mcq-14",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creative way」指「創新的解決方法」。",
       "sentenceIndex": 6,
@@ -642,12 +644,10 @@ export default {
         "creative way"
       ],
       "optionReasons": {
-        "creative-mcq-03": "本句指「創新的解決方法」。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-01": "「有創意的人」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-mcq-03": "本句的「creative way」指「創新的解決方法」。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-03"
     },
@@ -659,11 +659,9 @@ export default {
       "masked": "The activity encourages ____.",
       "options": [
         "creative-mcq-04",
-        "creative-mcq-03",
-        "creative-mcq-05",
-        "creative-mcq-02",
-        "creative-mcq-06",
-        "creative-mcq-01"
+        "creative-mcq-14",
+        "creative-mcq-20",
+        "creative-mcq-13"
       ],
       "explanation": "本句的「creative thinking」指「創意思維」。",
       "sentenceIndex": 7,
@@ -672,12 +670,10 @@ export default {
         "creative thinking"
       ],
       "optionReasons": {
-        "creative-mcq-04": "本句指「創意思維」。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-01": "「有創意的人」與本句語境不同。"
+        "creative-mcq-04": "本句的「creative thinking」指「創意思維」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-04"
     },
@@ -689,11 +685,9 @@ export default {
       "masked": "Good design requires both logic and ____.",
       "options": [
         "creative-mcq-04",
-        "creative-mcq-03",
-        "creative-mcq-05",
-        "creative-mcq-02",
-        "creative-mcq-06",
-        "creative-mcq-01"
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creative thinking」指「創意思維」。",
       "sentenceIndex": 8,
@@ -702,12 +696,10 @@ export default {
         "creative thinking"
       ],
       "optionReasons": {
-        "creative-mcq-04": "本句指「創意思維」。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-01": "「有創意的人」與本句語境不同。"
+        "creative-mcq-04": "本句的「creative thinking」指「創意思維」。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-04"
     },
@@ -719,11 +711,9 @@ export default {
       "masked": "She is taking a ____ course.",
       "options": [
         "creative-mcq-05",
-        "creative-mcq-04",
-        "creative-mcq-06",
-        "creative-mcq-03",
-        "creative-mcq-07",
-        "creative-mcq-02"
+        "creative-mcq-14",
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「creative writing」指「創意寫作」。",
       "sentenceIndex": 9,
@@ -732,12 +722,10 @@ export default {
         "creative writing"
       ],
       "optionReasons": {
-        "creative-mcq-05": "本句指「創意寫作」。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。"
+        "creative-mcq-05": "本句的「creative writing」指「創意寫作」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-05"
     },
@@ -749,11 +737,9 @@ export default {
       "masked": "____ includes fiction, poetry, and scripts.",
       "options": [
         "creative-mcq-05",
-        "creative-mcq-04",
-        "creative-mcq-06",
-        "creative-mcq-03",
-        "creative-mcq-07",
-        "creative-mcq-02"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「Creative writing」指「創意寫作」。",
       "sentenceIndex": 10,
@@ -762,12 +748,10 @@ export default {
         "Creative writing"
       ],
       "optionReasons": {
-        "creative-mcq-05": "本句指「創意寫作」。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-02": "「有創意的想法」與本句語境不同。"
+        "creative-mcq-05": "本句的「Creative writing」指「創意寫作」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-05"
     },
@@ -779,11 +763,9 @@ export default {
       "masked": "He enjoys ____ more than repetitive tasks.",
       "options": [
         "creative-mcq-06",
-        "creative-mcq-05",
-        "creative-mcq-07",
-        "creative-mcq-04",
-        "creative-mcq-08",
-        "creative-mcq-03"
+        "creative-mcq-13",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creative work」指「創意工作」。",
       "sentenceIndex": 11,
@@ -792,12 +774,10 @@ export default {
         "creative work"
       ],
       "optionReasons": {
-        "creative-mcq-06": "本句指「創意工作」。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。"
+        "creative-mcq-06": "本句的「creative work」指「創意工作」。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-06"
     },
@@ -809,11 +789,9 @@ export default {
       "masked": "The job involves a lot of ____.",
       "options": [
         "creative-mcq-06",
-        "creative-mcq-05",
-        "creative-mcq-07",
-        "creative-mcq-04",
-        "creative-mcq-08",
-        "creative-mcq-03"
+        "creative-mcq-13",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creative work」指「創意工作」。",
       "sentenceIndex": 12,
@@ -822,12 +800,10 @@ export default {
         "creative work"
       ],
       "optionReasons": {
-        "creative-mcq-06": "本句指「創意工作」。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-03": "「創新的解決方法」與本句語境不同。"
+        "creative-mcq-06": "本句的「creative work」指「創意工作」。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-06"
     },
@@ -839,11 +815,9 @@ export default {
       "masked": "She works in a ____.",
       "options": [
         "creative-mcq-07",
-        "creative-mcq-06",
-        "creative-mcq-08",
-        "creative-mcq-05",
-        "creative-mcq-09",
-        "creative-mcq-04"
+        "creative-mcq-20",
+        "creative-mcq-14",
+        "creative-mcq-13"
       ],
       "explanation": "本句的「creative industry」指「創意產業」。",
       "sentenceIndex": 13,
@@ -852,12 +826,10 @@ export default {
         "creative industry"
       ],
       "optionReasons": {
-        "creative-mcq-07": "本句指「創意產業」。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。"
+        "creative-mcq-07": "本句的「creative industry」指「創意產業」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-07"
     },
@@ -869,11 +841,9 @@ export default {
       "masked": "Many people in ____ work as designers, writers, or artists.",
       "options": [
         "creative-mcq-07",
-        "creative-mcq-06",
-        "creative-mcq-08",
-        "creative-mcq-05",
-        "creative-mcq-09",
-        "creative-mcq-04"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creative fields」指「創意產業」。",
       "sentenceIndex": 14,
@@ -882,12 +852,10 @@ export default {
         "creative fields"
       ],
       "optionReasons": {
-        "creative-mcq-07": "本句指「創意產業」。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-04": "「創意思維」與本句語境不同。"
+        "creative-mcq-07": "本句的「creative fields」指「創意產業」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-07"
     },
@@ -899,11 +867,8 @@ export default {
       "masked": "Everyone has a different ____.",
       "options": [
         "creative-mcq-08",
-        "creative-mcq-07",
-        "creative-mcq-09",
-        "creative-mcq-06",
-        "creative-mcq-10",
-        "creative-mcq-05"
+        "creative-mcq-14",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creative process」指「創作過程」。",
       "sentenceIndex": 15,
@@ -912,12 +877,9 @@ export default {
         "creative process"
       ],
       "optionReasons": {
-        "creative-mcq-08": "本句指「創作過程」。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。"
+        "creative-mcq-08": "本句的「creative process」指「創作過程」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-08"
     },
@@ -929,11 +891,8 @@ export default {
       "masked": "Experimentation is an important part of the ____.",
       "options": [
         "creative-mcq-08",
-        "creative-mcq-07",
-        "creative-mcq-09",
-        "creative-mcq-06",
-        "creative-mcq-10",
-        "creative-mcq-05"
+        "creative-mcq-14",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creative process」指「創作過程」。",
       "sentenceIndex": 16,
@@ -942,12 +901,9 @@ export default {
         "creative process"
       ],
       "optionReasons": {
-        "creative-mcq-08": "本句指「創作過程」。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。",
-        "creative-mcq-05": "「創意寫作」與本句語境不同。"
+        "creative-mcq-08": "本句的「creative process」指「創作過程」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-08"
     },
@@ -959,11 +915,9 @@ export default {
       "masked": "We don't have much money, so we'll have to ____.",
       "options": [
         "creative-mcq-09",
-        "creative-mcq-08",
-        "creative-mcq-10",
-        "creative-mcq-07",
-        "creative-mcq-11",
-        "creative-mcq-06"
+        "creative-mcq-13",
+        "creative-mcq-14",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「get creative」指「發揮創意」。",
       "sentenceIndex": 17,
@@ -972,12 +926,10 @@ export default {
         "get creative"
       ],
       "optionReasons": {
-        "creative-mcq-09": "本句指「發揮創意」。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-mcq-09": "本句的「get creative」指「發揮創意」。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-09"
     },
@@ -989,11 +941,9 @@ export default {
       "masked": "Let's ____ and build something different.",
       "options": [
         "creative-mcq-09",
-        "creative-mcq-08",
-        "creative-mcq-10",
-        "creative-mcq-07",
-        "creative-mcq-11",
-        "creative-mcq-06"
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14",
+        "creative-mcq-13"
       ],
       "explanation": "本句的「get creative」指「發揮創意」。",
       "sentenceIndex": 18,
@@ -1002,12 +952,10 @@ export default {
         "get creative"
       ],
       "optionReasons": {
-        "creative-mcq-09": "本句指「發揮創意」。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。",
-        "creative-mcq-06": "「創意工作」與本句語境不同。"
+        "creative-mcq-09": "本句的「get creative」指「發揮創意」。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-09"
     },
@@ -1019,11 +967,9 @@ export default {
       "masked": "She solved the problem ____.",
       "options": [
         "creative-mcq-10",
-        "creative-mcq-09",
-        "creative-mcq-11",
-        "creative-mcq-08",
-        "creative-mcq-12",
-        "creative-mcq-07"
+        "creative-mcq-13",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creatively」指「有創意地」。",
       "sentenceIndex": 19,
@@ -1032,12 +978,10 @@ export default {
         "creatively"
       ],
       "optionReasons": {
-        "creative-mcq-10": "本句指「有創意地」。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。"
+        "creative-mcq-10": "本句的「creatively」指「有創意地」。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-10"
     },
@@ -1049,11 +993,9 @@ export default {
       "masked": "Children often use ordinary objects ____.",
       "options": [
         "creative-mcq-10",
-        "creative-mcq-09",
-        "creative-mcq-11",
-        "creative-mcq-08",
-        "creative-mcq-12",
-        "creative-mcq-07"
+        "creative-mcq-20",
+        "creative-mcq-13",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creatively」指「有創意地」。",
       "sentenceIndex": 20,
@@ -1062,12 +1004,10 @@ export default {
         "creatively"
       ],
       "optionReasons": {
-        "creative-mcq-10": "本句指「有創意地」。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-07": "「創意產業」與本句語境不同。"
+        "creative-mcq-10": "本句的「creatively」指「有創意地」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-10"
     },
@@ -1079,11 +1019,9 @@ export default {
       "masked": "The project gives children a chance to use their ____.",
       "options": [
         "creative-mcq-11",
-        "creative-mcq-10",
-        "creative-mcq-12",
-        "creative-mcq-09",
-        "creative-mcq-13",
-        "creative-mcq-08"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creativity」指「創造力；創意」。",
       "sentenceIndex": 21,
@@ -1092,12 +1030,10 @@ export default {
         "creativity"
       ],
       "optionReasons": {
-        "creative-mcq-11": "本句指「創造力；創意」。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。"
+        "creative-mcq-11": "本句的「creativity」指「創造力；創意」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-11"
     },
@@ -1109,11 +1045,9 @@ export default {
       "masked": "Her ____ impressed everyone.",
       "options": [
         "creative-mcq-11",
-        "creative-mcq-10",
-        "creative-mcq-12",
-        "creative-mcq-09",
-        "creative-mcq-13",
-        "creative-mcq-08"
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-20",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creativity」指「創造力；創意」。",
       "sentenceIndex": 22,
@@ -1122,12 +1056,10 @@ export default {
         "creativity"
       ],
       "optionReasons": {
-        "creative-mcq-11": "本句指「創造力；創意」。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-09": "「發揮創意」與本句語境不同。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。",
-        "creative-mcq-08": "「創作過程」與本句語境不同。"
+        "creative-mcq-11": "本句的「creativity」指「創造力；創意」。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-11"
     },
@@ -1139,11 +1071,9 @@ export default {
       "masked": "The delay ____ for the team.",
       "options": [
         "creative-mcq-13",
-        "creative-mcq-12",
-        "creative-mcq-14",
-        "creative-mcq-11",
-        "creative-mcq-15",
-        "creative-mcq-10"
+        "creative-mcq-05",
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「created a problem」指「造成問題」。",
       "sentenceIndex": 25,
@@ -1152,12 +1082,10 @@ export default {
         "created a problem"
       ],
       "optionReasons": {
-        "creative-mcq-13": "本句指「造成問題」。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。"
+        "creative-mcq-13": "本句的「created a problem」指「造成問題」。",
+        "creative-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-13"
     },
@@ -1169,11 +1097,9 @@ export default {
       "masked": "Poor communication can ____.",
       "options": [
         "creative-mcq-13",
-        "creative-mcq-12",
-        "creative-mcq-14",
-        "creative-mcq-11",
-        "creative-mcq-15",
-        "creative-mcq-10"
+        "creative-mcq-10",
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「create confusion」指「造成問題」。",
       "sentenceIndex": 26,
@@ -1182,12 +1108,10 @@ export default {
         "create confusion"
       ],
       "optionReasons": {
-        "creative-mcq-13": "本句指「造成問題」。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-10": "「有創意地」與本句語境不同。"
+        "creative-mcq-13": "本句的「create confusion」指「造成問題」。",
+        "creative-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-13"
     },
@@ -1199,11 +1123,9 @@ export default {
       "masked": "Soft lighting ____.",
       "options": [
         "creative-mcq-14",
-        "creative-mcq-13",
-        "creative-mcq-15",
-        "creative-mcq-12",
-        "creative-mcq-16",
-        "creative-mcq-11"
+        "creative-mcq-06",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「creates a warm atmosphere」指「營造氣氛」。",
       "sentenceIndex": 27,
@@ -1212,12 +1134,10 @@ export default {
         "creates a warm atmosphere"
       ],
       "optionReasons": {
-        "creative-mcq-14": "本句指「營造氣氛」。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。"
+        "creative-mcq-14": "本句的「creates a warm atmosphere」指「營造氣氛」。",
+        "creative-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-14"
     },
@@ -1229,11 +1149,9 @@ export default {
       "masked": "His clothes ____ that he was very formal.",
       "options": [
         "creative-mcq-14",
-        "creative-mcq-13",
-        "creative-mcq-15",
-        "creative-mcq-12",
         "creative-mcq-16",
-        "creative-mcq-11"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「created the impression」指「營造氣氛」。",
       "sentenceIndex": 28,
@@ -1242,74 +1160,68 @@ export default {
         "created the impression"
       ],
       "optionReasons": {
-        "creative-mcq-14": "本句指「營造氣氛」。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-11": "「創造力；創意」與本句語境不同。"
+        "creative-mcq-14": "本句的「created the impression」指「營造氣氛」。",
+        "creative-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-14"
     },
     {
       "id": "creative-15-0",
-      "sense": "creative-mcq-15",
+      "sense": "creative-reviewed-a4f50331d1",
       "en": "The creation of the new system took several years.",
       "zh": "新系統的建立／創造花了數年。",
       "masked": "The ____ of the new system took several years.",
       "options": [
-        "creative-mcq-15",
+        "creative-reviewed-a4f50331d1",
         "creative-mcq-14",
-        "creative-mcq-16",
-        "creative-mcq-13",
-        "creative-mcq-17",
-        "creative-mcq-12"
+        "creative-mcq-20",
+        "creative-mcq-10"
       ],
-      "explanation": "本句的「creation」指「創造；創作」。",
+      "explanation": "對照完整句子：「新系統的建立／創造花了數年。」。這裡的「creation」表示「使新事物出現的過程或行為」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "creation"
       ],
       "optionReasons": {
-        "creative-mcq-15": "本句指「創造；創作」。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。"
+        "creative-reviewed-a4f50331d1": "對照完整句子：「新系統的建立／創造花了數年。」。這裡的「creation」表示「使新事物出現的過程或行為」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "creative-mcq-15"
+      "correctOption": "creative-reviewed-a4f50331d1",
+      "previousCorrectOption": "creative-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "creative-15-1",
-      "sense": "creative-mcq-15",
+      "sense": "creative-reviewed-a4f50331d1",
       "en": "The project focuses on the creation of new jobs.",
       "zh": "這個項目着重創造新的職位。",
       "masked": "The project focuses on the ____ of new jobs.",
       "options": [
-        "creative-mcq-15",
-        "creative-mcq-14",
-        "creative-mcq-16",
+        "creative-reviewed-a4f50331d1",
         "creative-mcq-13",
-        "creative-mcq-17",
-        "creative-mcq-12"
+        "creative-mcq-05",
+        "creative-mcq-20"
       ],
-      "explanation": "本句的「creation」指「創造；創作」。",
+      "explanation": "對照完整句子：「這個項目着重創造新的職位。」。這裡的「creation」表示「使新事物出現的過程或行為」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "creation"
       ],
       "optionReasons": {
-        "creative-mcq-15": "本句指「創造；創作」。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-12": "「創造；製作」與本句語境不同。"
+        "creative-reviewed-a4f50331d1": "對照完整句子：「這個項目着重創造新的職位。」。這裡的「creation」表示「使新事物出現的過程或行為」。",
+        "creative-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "creative-mcq-15"
+      "correctOption": "creative-reviewed-a4f50331d1",
+      "previousCorrectOption": "creative-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "creative-16-0",
@@ -1319,11 +1231,9 @@ export default {
       "masked": "The cake was one of her finest ____.",
       "options": [
         "creative-mcq-16",
-        "creative-mcq-15",
-        "creative-mcq-17",
-        "creative-mcq-14",
-        "creative-mcq-18",
-        "creative-mcq-13"
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-20",
+        "creative-mcq-14"
       ],
       "explanation": "本句的「creations」指「創作物；作品」。",
       "sentenceIndex": 31,
@@ -1332,12 +1242,10 @@ export default {
         "creations"
       ],
       "optionReasons": {
-        "creative-mcq-16": "本句指「創作物；作品」。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。"
+        "creative-mcq-16": "本句的「creations」指「創作物；作品」。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-16"
     },
@@ -1349,11 +1257,9 @@ export default {
       "masked": "The sculpture is an extraordinary ____.",
       "options": [
         "creative-mcq-16",
-        "creative-mcq-15",
-        "creative-mcq-17",
         "creative-mcq-14",
-        "creative-mcq-18",
-        "creative-mcq-13"
+        "creative-mcq-20",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「creation」指「創作物；作品」。",
       "sentenceIndex": 32,
@@ -1362,12 +1268,10 @@ export default {
         "creation"
       ],
       "optionReasons": {
-        "creative-mcq-16": "本句指「創作物；作品」。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-13": "「造成問題」與本句語境不同。"
+        "creative-mcq-16": "本句的「creation」指「創作物；作品」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-16"
     },
@@ -1379,11 +1283,9 @@ export default {
       "masked": "She is the ____ of the series.",
       "options": [
         "creative-mcq-17",
-        "creative-mcq-16",
-        "creative-mcq-18",
-        "creative-mcq-15",
-        "creative-mcq-19",
-        "creative-mcq-14"
+        "creative-mcq-20",
+        "creative-mcq-14",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「creator」指「創作者」。",
       "sentenceIndex": 33,
@@ -1392,12 +1294,10 @@ export default {
         "creator"
       ],
       "optionReasons": {
-        "creative-mcq-17": "本句指「創作者」。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-19": "「重現；再創造」與本句語境不同。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。"
+        "creative-mcq-17": "本句的「creator」指「創作者」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-17"
     },
@@ -1409,11 +1309,9 @@ export default {
       "masked": "Content ____ often work across several platforms.",
       "options": [
         "creative-mcq-17",
-        "creative-mcq-16",
-        "creative-mcq-18",
-        "creative-mcq-15",
-        "creative-mcq-19",
-        "creative-mcq-14"
+        "creative-mcq-20",
+        "creative-mcq-14",
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「creators」指「創作者」。",
       "sentenceIndex": 34,
@@ -1422,12 +1320,10 @@ export default {
         "creators"
       ],
       "optionReasons": {
-        "creative-mcq-17": "本句指「創作者」。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。",
-        "creative-mcq-19": "「重現；再創造」與本句語境不同。",
-        "creative-mcq-14": "「營造氣氛」與本句語境不同。"
+        "creative-mcq-17": "本句的「creators」指「創作者」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-17"
     },
@@ -1439,11 +1335,9 @@ export default {
       "masked": "He works as a ____.",
       "options": [
         "creative-mcq-18",
-        "creative-mcq-17",
-        "creative-mcq-19",
-        "creative-mcq-16",
-        "creative-mcq-20",
-        "creative-mcq-15"
+        "creative-mcq-14",
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-20"
       ],
       "explanation": "本句的「content creator」指「內容創作者」。",
       "sentenceIndex": 35,
@@ -1452,12 +1346,10 @@ export default {
         "content creator"
       ],
       "optionReasons": {
-        "creative-mcq-18": "本句指「內容創作者」。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-19": "「重現；再創造」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-20": "「娛樂；消遣」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。"
+        "creative-mcq-18": "本句的「content creator」指「內容創作者」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-18"
     },
@@ -1469,11 +1361,9 @@ export default {
       "masked": "Many ____ produce videos, articles, and podcasts.",
       "options": [
         "creative-mcq-18",
-        "creative-mcq-17",
-        "creative-mcq-19",
-        "creative-mcq-16",
+        "creative-mcq-14",
         "creative-mcq-20",
-        "creative-mcq-15"
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「content creators」指「內容創作者」。",
       "sentenceIndex": 36,
@@ -1482,12 +1372,10 @@ export default {
         "content creators"
       ],
       "optionReasons": {
-        "creative-mcq-18": "本句指「內容創作者」。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-19": "「重現；再創造」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-20": "「娛樂；消遣」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。"
+        "creative-mcq-18": "本句的「content creators」指「內容創作者」。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-18"
     },
@@ -1499,11 +1387,9 @@ export default {
       "masked": "The museum ____ a traditional village.",
       "options": [
         "creative-mcq-19",
-        "creative-mcq-18",
         "creative-mcq-20",
-        "creative-mcq-17",
-        "creative-mcq-16",
-        "creative-mcq-15"
+        "creative-mcq-03",
+        "creative-mcq-04"
       ],
       "explanation": "本句的「recreated」指「重現；再創造」。",
       "sentenceIndex": 37,
@@ -1512,12 +1398,10 @@ export default {
         "recreated"
       ],
       "optionReasons": {
-        "creative-mcq-19": "本句指「重現；再創造」。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-20": "「娛樂；消遣」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。"
+        "creative-mcq-19": "本句的「recreated」指「重現；再創造」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-19"
     },
@@ -1529,11 +1413,9 @@ export default {
       "masked": "We tried to ____ of the original event.",
       "options": [
         "creative-mcq-19",
-        "creative-mcq-18",
         "creative-mcq-20",
-        "creative-mcq-17",
-        "creative-mcq-16",
-        "creative-mcq-15"
+        "creative-reviewed-a4f50331d1",
+        "creative-mcq-07"
       ],
       "explanation": "本句的「recreate the atmosphere」指「重現；再創造」。",
       "sentenceIndex": 38,
@@ -1542,12 +1424,10 @@ export default {
         "recreate the atmosphere"
       ],
       "optionReasons": {
-        "creative-mcq-19": "本句指「重現；再創造」。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-20": "「娛樂；消遣」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。"
+        "creative-mcq-19": "本句的「recreate the atmosphere」指「重現；再創造」。",
+        "creative-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-19"
     },
@@ -1559,11 +1439,9 @@ export default {
       "masked": "Walking is her main form of ____.",
       "options": [
         "creative-mcq-20",
-        "creative-mcq-19",
-        "creative-mcq-18",
-        "creative-mcq-17",
-        "creative-mcq-16",
-        "creative-mcq-15"
+        "creative-mcq-09",
+        "creative-mcq-14",
+        "creative-mcq-03"
       ],
       "explanation": "本句的「recreation」指「娛樂；消遣」。",
       "sentenceIndex": 39,
@@ -1572,12 +1450,10 @@ export default {
         "recreation"
       ],
       "optionReasons": {
-        "creative-mcq-20": "本句指「娛樂；消遣」。",
-        "creative-mcq-19": "「重現；再創造」與本句語境不同。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。"
+        "creative-mcq-20": "本句的「recreation」指「娛樂；消遣」。",
+        "creative-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-20"
     },
@@ -1589,11 +1465,9 @@ export default {
       "masked": "The park provides space for sport and ____.",
       "options": [
         "creative-mcq-20",
+        "creative-mcq-02",
         "creative-mcq-19",
-        "creative-mcq-18",
-        "creative-mcq-17",
-        "creative-mcq-16",
-        "creative-mcq-15"
+        "creative-reviewed-a4f50331d1"
       ],
       "explanation": "本句的「recreation」指「娛樂；消遣」。",
       "sentenceIndex": 40,
@@ -1602,12 +1476,10 @@ export default {
         "recreation"
       ],
       "optionReasons": {
-        "creative-mcq-20": "本句指「娛樂；消遣」。",
-        "creative-mcq-19": "「重現；再創造」與本句語境不同。",
-        "creative-mcq-18": "「內容創作者」與本句語境不同。",
-        "creative-mcq-17": "「創作者」與本句語境不同。",
-        "creative-mcq-16": "「創作物；作品」與本句語境不同。",
-        "creative-mcq-15": "「創造；創作」與本句語境不同。"
+        "creative-mcq-20": "本句的「recreation」指「娛樂；消遣」。",
+        "creative-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "creative-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "creative-reviewed-a4f50331d1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "creative-mcq-20"
     }
@@ -1619,5 +1491,7 @@ export default {
     "sha256": "5f5ce10b3d68956b3154e0e3b8d1517dca097aae0271fc84d0f8ae755710273e",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

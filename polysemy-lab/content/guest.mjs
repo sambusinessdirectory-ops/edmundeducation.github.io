@@ -680,11 +680,9 @@ export default {
       "masked": "We have several ____ coming for dinner tonight.",
       "options": [
         "guest-mcq-01",
-        "guest-mcq-02",
-        "guest-mcq-03",
-        "guest-mcq-04",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-24",
+        "guest-mcq-31",
+        "guest-mcq-16"
       ],
       "explanation": "本句的「guests」指「受某人邀請到其家中作客或暫住的人」。",
       "sentenceIndex": 0,
@@ -693,12 +691,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-01": "本句指「受某人邀請到其家中作客或暫住的人」。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-01": "本句的「guests」指「受某人邀請到其家中作客或暫住的人」。",
+        "guest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-01"
     },
@@ -710,11 +706,9 @@ export default {
       "masked": "She showed the ____ into the living room.",
       "options": [
         "guest-mcq-01",
-        "guest-mcq-02",
-        "guest-mcq-03",
-        "guest-mcq-04",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-24",
+        "guest-mcq-30",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guests」指「受某人邀請到其家中作客或暫住的人」。",
       "sentenceIndex": 1,
@@ -723,12 +717,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-01": "本句指「受某人邀請到其家中作客或暫住的人」。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-01": "本句的「guests」指「受某人邀請到其家中作客或暫住的人」。",
+        "guest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-01"
     },
@@ -740,11 +732,9 @@ export default {
       "masked": "Staff welcomed international ____ before the competition.",
       "options": [
         "guest-mcq-02",
-        "guest-mcq-01",
-        "guest-mcq-03",
-        "guest-mcq-04",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-24",
+        "guest-mcq-31",
+        "guest-mcq-09"
       ],
       "explanation": "本句的「guests」指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
       "sentenceIndex": 2,
@@ -753,12 +743,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-02": "本句指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-02": "本句的「guests」指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
+        "guest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-02"
     },
@@ -770,11 +758,9 @@ export default {
       "masked": "More than two hundred ____ attended the wedding.",
       "options": [
         "guest-mcq-02",
-        "guest-mcq-01",
-        "guest-mcq-03",
-        "guest-mcq-04",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-31",
+        "guest-mcq-25",
+        "guest-mcq-09"
       ],
       "explanation": "本句的「guests」指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
       "sentenceIndex": 3,
@@ -783,12 +769,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-02": "本句指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-02": "本句的「guests」指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-02"
     },
@@ -800,11 +784,9 @@ export default {
       "masked": "All ____ must register at reception.",
       "options": [
         "guest-mcq-02",
-        "guest-mcq-01",
-        "guest-mcq-03",
-        "guest-mcq-04",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-31",
+        "guest-mcq-25",
+        "guest-mcq-20"
       ],
       "explanation": "本句的「guests」指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
       "sentenceIndex": 4,
@@ -813,12 +795,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-02": "本句指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-02": "本句的「guests」指「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-02"
     },
@@ -830,11 +810,9 @@ export default {
       "masked": "The Foundation arranged transport for its overseas ____.",
       "options": [
         "guest-mcq-03",
-        "guest-mcq-02",
-        "guest-mcq-04",
-        "guest-mcq-01",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-31",
+        "guest-mcq-20",
+        "guest-mcq-14"
       ],
       "explanation": "本句的「guests」指「由機構正式邀請、接待或歡迎前來參與活動的外來人士」。",
       "sentenceIndex": 5,
@@ -843,12 +821,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-03": "本句指「由機構正式邀請、接待或歡迎前來參與活動的外來人士」。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-03": "本句的「guests」指「由機構正式邀請、接待或歡迎前來參與活動的外來人士」。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-03"
     },
@@ -860,11 +836,9 @@ export default {
       "masked": "Students were asked to welcome the visiting ____.",
       "options": [
         "guest-mcq-03",
-        "guest-mcq-02",
-        "guest-mcq-04",
-        "guest-mcq-01",
-        "guest-mcq-05",
-        "guest-mcq-06"
+        "guest-mcq-27",
+        "guest-mcq-23",
+        "guest-mcq-20"
       ],
       "explanation": "本句的「guests」指「由機構正式邀請、接待或歡迎前來參與活動的外來人士」。",
       "sentenceIndex": 6,
@@ -873,12 +847,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-03": "本句指「由機構正式邀請、接待或歡迎前來參與活動的外來人士」。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-03": "本句的「guests」指「由機構正式邀請、接待或歡迎前來參與活動的外來人士」。",
+        "guest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-03"
     },
@@ -890,11 +862,9 @@ export default {
       "masked": "Hotel ____ can use the swimming pool free of charge.",
       "options": [
         "guest-mcq-04",
-        "guest-mcq-03",
-        "guest-mcq-05",
-        "guest-mcq-02",
-        "guest-mcq-06",
-        "guest-mcq-01"
+        "guest-mcq-09",
+        "guest-mcq-14",
+        "guest-mcq-28"
       ],
       "explanation": "本句的「guests」指「暫時入住酒店、度假村等住宿設施並接受其服務的住客」。",
       "sentenceIndex": 7,
@@ -903,12 +873,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-04": "本句指「暫時入住酒店、度假村等住宿設施並接受其服務的住客」。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。"
+        "guest-mcq-04": "本句的「guests」指「暫時入住酒店、度假村等住宿設施並接受其服務的住客」。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-04"
     },
@@ -920,11 +888,9 @@ export default {
       "masked": "The hotel can accommodate three hundred ____.",
       "options": [
         "guest-mcq-04",
-        "guest-mcq-03",
-        "guest-mcq-05",
-        "guest-mcq-02",
-        "guest-mcq-06",
-        "guest-mcq-01"
+        "guest-mcq-08",
+        "guest-mcq-27",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guests」指「暫時入住酒店、度假村等住宿設施並接受其服務的住客」。",
       "sentenceIndex": 8,
@@ -933,12 +899,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-04": "本句指「暫時入住酒店、度假村等住宿設施並接受其服務的住客」。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-01": "「受某人邀請到其家中作客或暫住的人」與本句語境不同。"
+        "guest-mcq-04": "本句的「guests」指「暫時入住酒店、度假村等住宿設施並接受其服務的住客」。",
+        "guest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-04"
     },
@@ -950,11 +914,9 @@ export default {
       "masked": "Our staff aim to give every ____ excellent service.",
       "options": [
         "guest-mcq-05",
-        "guest-mcq-04",
-        "guest-mcq-06",
-        "guest-mcq-03",
-        "guest-mcq-07",
-        "guest-mcq-02"
+        "guest-mcq-08",
+        "guest-mcq-31",
+        "guest-mcq-25"
       ],
       "explanation": "本句的「guest」指「款待或服務行業中被視為接受接待與服務的顧客」。",
       "sentenceIndex": 9,
@@ -963,12 +925,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-05": "本句指「款待或服務行業中被視為接受接待與服務的顧客」。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。"
+        "guest-mcq-05": "本句的「guest」指「款待或服務行業中被視為接受接待與服務的顧客」。",
+        "guest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-05"
     },
@@ -980,11 +940,9 @@ export default {
       "masked": "The restaurant asks ____ to make reservations in advance.",
       "options": [
         "guest-mcq-05",
-        "guest-mcq-04",
-        "guest-mcq-06",
-        "guest-mcq-03",
-        "guest-mcq-07",
-        "guest-mcq-02"
+        "guest-mcq-25",
+        "guest-mcq-31",
+        "guest-mcq-14"
       ],
       "explanation": "本句的「guests」指「款待或服務行業中被視為接受接待與服務的顧客」。",
       "sentenceIndex": 10,
@@ -993,12 +951,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-05": "本句指「款待或服務行業中被視為接受接待與服務的顧客」。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-02": "「受邀出席活動、典禮、宴會、會議或其他場合的賓客／來賓」與本句語境不同。"
+        "guest-mcq-05": "本句的「guests」指「款待或服務行業中被視為接受接待與服務的顧客」。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-05"
     },
@@ -1010,11 +966,9 @@ export default {
       "masked": "Tonight’s ____ is an Olympic athlete.",
       "options": [
         "guest-mcq-06",
-        "guest-mcq-05",
-        "guest-mcq-07",
-        "guest-mcq-04",
-        "guest-mcq-08",
-        "guest-mcq-03"
+        "guest-mcq-25",
+        "guest-mcq-14",
+        "guest-mcq-04"
       ],
       "explanation": "本句的「guest」指「獲邀參與電視、電台、播客或訪談節目的嘉賓」。",
       "sentenceIndex": 11,
@@ -1023,12 +977,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-06": "本句指「獲邀參與電視、電台、播客或訪談節目的嘉賓」。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。"
+        "guest-mcq-06": "本句的「guest」指「獲邀參與電視、電台、播客或訪談節目的嘉賓」。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-06"
     },
@@ -1040,11 +992,9 @@ export default {
       "masked": "The podcast regularly invites experts as ____.",
       "options": [
         "guest-mcq-06",
-        "guest-mcq-05",
-        "guest-mcq-07",
-        "guest-mcq-04",
-        "guest-mcq-08",
-        "guest-mcq-03"
+        "guest-mcq-25",
+        "guest-mcq-14",
+        "guest-mcq-28"
       ],
       "explanation": "本句的「guests」指「獲邀參與電視、電台、播客或訪談節目的嘉賓」。",
       "sentenceIndex": 12,
@@ -1053,12 +1003,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-06": "本句指「獲邀參與電視、電台、播客或訪談節目的嘉賓」。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-03": "「由機構正式邀請、接待或歡迎前來參與活動的外來人士」與本句語境不同。"
+        "guest-mcq-06": "本句的「guests」指「獲邀參與電視、電台、播客或訪談節目的嘉賓」。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-06"
     },
@@ -1070,11 +1018,9 @@ export default {
       "masked": "A former Olympic champion was invited as a ____.",
       "options": [
         "guest-mcq-07",
-        "guest-mcq-06",
-        "guest-mcq-08",
-        "guest-mcq-05",
-        "guest-mcq-09",
-        "guest-mcq-04"
+        "guest-mcq-20",
+        "guest-mcq-25",
+        "guest-mcq-02"
       ],
       "explanation": "本句的「guest speaker」指「暫時獲邀以某種專業身分參與、但並非固定成員的人」。",
       "sentenceIndex": 13,
@@ -1083,12 +1029,10 @@ export default {
         "guest speaker"
       ],
       "optionReasons": {
-        "guest-mcq-07": "本句指「暫時獲邀以某種專業身分參與、但並非固定成員的人」。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。"
+        "guest-mcq-07": "本句的「guest speaker」指「暫時獲邀以某種專業身分參與、但並非固定成員的人」。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-07"
     },
@@ -1100,11 +1044,8 @@ export default {
       "masked": "The orchestra will be led by a ____.",
       "options": [
         "guest-mcq-07",
-        "guest-mcq-06",
-        "guest-mcq-08",
-        "guest-mcq-05",
-        "guest-mcq-09",
-        "guest-mcq-04"
+        "guest-mcq-19",
+        "guest-mcq-28"
       ],
       "explanation": "本句的「guest conductor」指「暫時獲邀以某種專業身分參與、但並非固定成員的人」。",
       "sentenceIndex": 14,
@@ -1113,12 +1054,9 @@ export default {
         "guest conductor"
       ],
       "optionReasons": {
-        "guest-mcq-07": "本句指「暫時獲邀以某種專業身分參與、但並非固定成員的人」。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-04": "「暫時入住酒店、度假村等住宿設施並接受其服務的住客」與本句語境不同。"
+        "guest-mcq-07": "本句的「guest conductor」指「暫時獲邀以某種專業身分參與、但並非固定成員的人」。",
+        "guest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-07"
     },
@@ -1130,11 +1068,9 @@ export default {
       "masked": "Our ____ will discuss athlete development.",
       "options": [
         "guest-mcq-08",
-        "guest-mcq-07",
-        "guest-mcq-09",
-        "guest-mcq-06",
-        "guest-mcq-10",
-        "guest-mcq-05"
+        "guest-mcq-05",
+        "guest-mcq-20",
+        "guest-mcq-27"
       ],
       "explanation": "本句的「guest speaker」指「特別獲邀到某項活動或機構發表演講的人」。",
       "sentenceIndex": 15,
@@ -1143,12 +1079,10 @@ export default {
         "guest speaker"
       ],
       "optionReasons": {
-        "guest-mcq-08": "本句指「特別獲邀到某項活動或機構發表演講的人」。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。"
+        "guest-mcq-08": "本句的「guest speaker」指「特別獲邀到某項活動或機構發表演講的人」。",
+        "guest-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-08"
     },
@@ -1160,11 +1094,9 @@ export default {
       "masked": "The school invited a doctor to be the ____.",
       "options": [
         "guest-mcq-08",
-        "guest-mcq-07",
-        "guest-mcq-09",
-        "guest-mcq-06",
-        "guest-mcq-10",
-        "guest-mcq-05"
+        "guest-mcq-24",
+        "guest-mcq-20",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guest speaker」指「特別獲邀到某項活動或機構發表演講的人」。",
       "sentenceIndex": 16,
@@ -1173,12 +1105,10 @@ export default {
         "guest speaker"
       ],
       "optionReasons": {
-        "guest-mcq-08": "本句指「特別獲邀到某項活動或機構發表演講的人」。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-05": "「款待或服務行業中被視為接受接待與服務的顧客」與本句語境不同。"
+        "guest-mcq-08": "本句的「guest speaker」指「特別獲邀到某項活動或機構發表演講的人」。",
+        "guest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-08"
     },
@@ -1190,11 +1120,9 @@ export default {
       "masked": "A sports psychologist gave the class as a ____.",
       "options": [
         "guest-mcq-09",
-        "guest-mcq-08",
-        "guest-mcq-10",
-        "guest-mcq-07",
-        "guest-mcq-11",
-        "guest-mcq-06"
+        "guest-mcq-25",
+        "guest-mcq-20",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guest lecturer」指「短期或一次性獲邀到教育機構授課的人」。",
       "sentenceIndex": 17,
@@ -1203,12 +1131,10 @@ export default {
         "guest lecturer"
       ],
       "optionReasons": {
-        "guest-mcq-09": "本句指「短期或一次性獲邀到教育機構授課的人」。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-09": "本句的「guest lecturer」指「短期或一次性獲邀到教育機構授課的人」。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-09"
     },
@@ -1220,11 +1146,9 @@ export default {
       "masked": "The university invites industry experts as ____.",
       "options": [
         "guest-mcq-09",
-        "guest-mcq-08",
-        "guest-mcq-10",
-        "guest-mcq-07",
-        "guest-mcq-11",
-        "guest-mcq-06"
+        "guest-mcq-30",
+        "guest-mcq-25",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guest lecturers」指「短期或一次性獲邀到教育機構授課的人」。",
       "sentenceIndex": 18,
@@ -1233,12 +1157,10 @@ export default {
         "guest lecturers"
       ],
       "optionReasons": {
-        "guest-mcq-09": "本句指「短期或一次性獲邀到教育機構授課的人」。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。",
-        "guest-mcq-06": "「獲邀參與電視、電台、播客或訪談節目的嘉賓」與本句語境不同。"
+        "guest-mcq-09": "本句的「guest lecturers」指「短期或一次性獲邀到教育機構授課的人」。",
+        "guest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-09"
     },
@@ -1250,11 +1172,9 @@ export default {
       "masked": "The concert featured several ____.",
       "options": [
         "guest-mcq-10",
-        "guest-mcq-09",
-        "guest-mcq-11",
-        "guest-mcq-08",
-        "guest-mcq-12",
-        "guest-mcq-07"
+        "guest-mcq-19",
+        "guest-mcq-23",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guest artists」指「並非固定成員、但特別獲邀參與演出的人」。",
       "sentenceIndex": 19,
@@ -1263,12 +1183,10 @@ export default {
         "guest artists"
       ],
       "optionReasons": {
-        "guest-mcq-10": "本句指「並非固定成員、但特別獲邀參與演出的人」。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。"
+        "guest-mcq-10": "本句的「guest artists」指「並非固定成員、但特別獲邀參與演出的人」。",
+        "guest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-10"
     },
@@ -1280,11 +1198,9 @@ export default {
       "masked": "She appeared as a ____ for one night.",
       "options": [
         "guest-mcq-10",
-        "guest-mcq-09",
-        "guest-mcq-11",
-        "guest-mcq-08",
-        "guest-mcq-12",
-        "guest-mcq-07"
+        "guest-mcq-27",
+        "guest-mcq-23",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guest performer」指「並非固定成員、但特別獲邀參與演出的人」。",
       "sentenceIndex": 20,
@@ -1293,12 +1209,10 @@ export default {
         "guest performer"
       ],
       "optionReasons": {
-        "guest-mcq-10": "本句指「並非固定成員、但特別獲邀參與演出的人」。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。",
-        "guest-mcq-07": "「暫時獲邀以某種專業身分參與、但並非固定成員的人」與本句語境不同。"
+        "guest-mcq-10": "本句的「guest performer」指「並非固定成員、但特別獲邀參與演出的人」。",
+        "guest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-10"
     },
@@ -1310,11 +1224,9 @@ export default {
       "masked": "A retired athlete served as a ____.",
       "options": [
         "guest-mcq-11",
-        "guest-mcq-10",
-        "guest-mcq-12",
-        "guest-mcq-09",
-        "guest-mcq-13",
-        "guest-mcq-08"
+        "guest-mcq-15",
+        "guest-mcq-27",
+        "guest-mcq-22"
       ],
       "explanation": "本句的「guest judge」指「臨時獲邀擔任比賽評判的人」。",
       "sentenceIndex": 21,
@@ -1323,12 +1235,10 @@ export default {
         "guest judge"
       ],
       "optionReasons": {
-        "guest-mcq-11": "本句指「臨時獲邀擔任比賽評判的人」。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。"
+        "guest-mcq-11": "本句的「guest judge」指「臨時獲邀擔任比賽評判的人」。",
+        "guest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-11"
     },
@@ -1340,11 +1250,9 @@ export default {
       "masked": "Each episode has a different ____.",
       "options": [
         "guest-mcq-11",
-        "guest-mcq-10",
-        "guest-mcq-12",
-        "guest-mcq-09",
-        "guest-mcq-13",
-        "guest-mcq-08"
+        "guest-mcq-30",
+        "guest-mcq-27",
+        "guest-mcq-05"
       ],
       "explanation": "本句的「guest judge」指「臨時獲邀擔任比賽評判的人」。",
       "sentenceIndex": 22,
@@ -1353,12 +1261,10 @@ export default {
         "guest judge"
       ],
       "optionReasons": {
-        "guest-mcq-11": "本句指「臨時獲邀擔任比賽評判的人」。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-08": "「特別獲邀到某項活動或機構發表演講的人」與本句語境不同。"
+        "guest-mcq-11": "本句的「guest judge」指「臨時獲邀擔任比賽評判的人」。",
+        "guest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-11"
     },
@@ -1370,11 +1276,9 @@ export default {
       "masked": "The magazine invited her to act as ____.",
       "options": [
         "guest-mcq-12",
-        "guest-mcq-11",
-        "guest-mcq-13",
-        "guest-mcq-10",
-        "guest-mcq-14",
-        "guest-mcq-09"
+        "guest-mcq-22",
+        "guest-mcq-28",
+        "guest-mcq-20"
       ],
       "explanation": "本句的「guest editor」指「暫時獲邀負責某期出版物或項目的編輯」。",
       "sentenceIndex": 23,
@@ -1383,12 +1287,10 @@ export default {
         "guest editor"
       ],
       "optionReasons": {
-        "guest-mcq-12": "本句指「暫時獲邀負責某期出版物或項目的編輯」。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。"
+        "guest-mcq-12": "本句的「guest editor」指「暫時獲邀負責某期出版物或項目的編輯」。",
+        "guest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-12"
     },
@@ -1400,11 +1302,9 @@ export default {
       "masked": "The special issue was produced by a ____.",
       "options": [
         "guest-mcq-12",
-        "guest-mcq-11",
-        "guest-mcq-13",
-        "guest-mcq-10",
-        "guest-mcq-14",
-        "guest-mcq-09"
+        "guest-mcq-30",
+        "guest-mcq-05",
+        "guest-mcq-28"
       ],
       "explanation": "本句的「guest editor」指「暫時獲邀負責某期出版物或項目的編輯」。",
       "sentenceIndex": 24,
@@ -1413,12 +1313,10 @@ export default {
         "guest editor"
       ],
       "optionReasons": {
-        "guest-mcq-12": "本句指「暫時獲邀負責某期出版物或項目的編輯」。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-10": "「並非固定成員、但特別獲邀參與演出的人」與本句語境不同。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。",
-        "guest-mcq-09": "「短期或一次性獲邀到教育機構授課的人」與本句語境不同。"
+        "guest-mcq-12": "本句的「guest editor」指「暫時獲邀負責某期出版物或項目的編輯」。",
+        "guest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-12"
     },
@@ -1430,11 +1328,9 @@ export default {
       "masked": "She appeared as ____ while the regular presenter was away.",
       "options": [
         "guest-mcq-31",
-        "guest-mcq-30",
-        "guest-mcq-29",
-        "guest-mcq-28",
-        "guest-mcq-27",
-        "guest-mcq-26"
+        "guest-mcq-14",
+        "guest-mcq-09",
+        "guest-mcq-20"
       ],
       "explanation": "本句的「guest host」指「暫時擔任節目主持／代班主持」。",
       "sentenceIndex": 25,
@@ -1443,12 +1339,10 @@ export default {
         "guest host"
       ],
       "optionReasons": {
-        "guest-mcq-31": "本句指「暫時擔任節目主持／代班主持」。",
-        "guest-mcq-30": "「以非固定演員身分特別客串影視作品」與本句語境不同。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。"
+        "guest-mcq-31": "本句的「guest host」指「暫時擔任節目主持／代班主持」。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-31"
     },
@@ -1460,11 +1354,9 @@ export default {
       "masked": "The programme has a different ____ every Friday.",
       "options": [
         "guest-mcq-31",
-        "guest-mcq-30",
-        "guest-mcq-29",
-        "guest-mcq-28",
-        "guest-mcq-27",
-        "guest-mcq-26"
+        "guest-mcq-03",
+        "guest-mcq-20",
+        "guest-mcq-14"
       ],
       "explanation": "本句的「guest host」指「暫時擔任節目主持／代班主持」。",
       "sentenceIndex": 26,
@@ -1473,12 +1365,10 @@ export default {
         "guest host"
       ],
       "optionReasons": {
-        "guest-mcq-31": "本句指「暫時擔任節目主持／代班主持」。",
-        "guest-mcq-30": "「以非固定演員身分特別客串影視作品」與本句語境不同。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。"
+        "guest-mcq-31": "本句的「guest host」指「暫時擔任節目主持／代班主持」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-31"
     },
@@ -1490,11 +1380,9 @@ export default {
       "masked": "The episode features a famous actor as a ____.",
       "options": [
         "guest-mcq-14",
-        "guest-mcq-13",
-        "guest-mcq-15",
-        "guest-mcq-12",
-        "guest-mcq-16",
-        "guest-mcq-11"
+        "guest-mcq-19",
+        "guest-mcq-11",
+        "guest-mcq-01"
       ],
       "explanation": "本句的「guest star」指「並非固定演員、但特別在有限集數或場次中演出的知名演員」。",
       "sentenceIndex": 27,
@@ -1503,12 +1391,10 @@ export default {
         "guest star"
       ],
       "optionReasons": {
-        "guest-mcq-14": "本句指「並非固定演員、但特別在有限集數或場次中演出的知名演員」。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。"
+        "guest-mcq-14": "本句的「guest star」指「並非固定演員、但特別在有限集數或場次中演出的知名演員」。",
+        "guest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-14"
     },
@@ -1520,11 +1406,9 @@ export default {
       "masked": "Several former cast members returned as ____.",
       "options": [
         "guest-mcq-14",
-        "guest-mcq-13",
-        "guest-mcq-15",
-        "guest-mcq-12",
-        "guest-mcq-16",
-        "guest-mcq-11"
+        "guest-mcq-31",
+        "guest-mcq-20",
+        "guest-mcq-22"
       ],
       "explanation": "本句的「guest stars」指「並非固定演員、但特別在有限集數或場次中演出的知名演員」。",
       "sentenceIndex": 28,
@@ -1533,12 +1417,10 @@ export default {
         "guest stars"
       ],
       "optionReasons": {
-        "guest-mcq-14": "本句指「並非固定演員、但特別在有限集數或場次中演出的知名演員」。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-11": "「臨時獲邀擔任比賽評判的人」與本句語境不同。"
+        "guest-mcq-14": "本句的「guest stars」指「並非固定演員、但特別在有限集數或場次中演出的知名演員」。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-14"
     },
@@ -1550,11 +1432,9 @@ export default {
       "masked": "The singer made a surprise ____.",
       "options": [
         "guest-mcq-15",
-        "guest-mcq-14",
-        "guest-mcq-16",
-        "guest-mcq-13",
         "guest-mcq-17",
-        "guest-mcq-12"
+        "guest-mcq-28",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guest appearance」指「以非固定參與者身分短暫客串或亮相」。",
       "sentenceIndex": 29,
@@ -1563,12 +1443,10 @@ export default {
         "guest appearance"
       ],
       "optionReasons": {
-        "guest-mcq-15": "本句指「以非固定參與者身分短暫客串或亮相」。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。"
+        "guest-mcq-15": "本句的「guest appearance」指「以非固定參與者身分短暫客串或亮相」。",
+        "guest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-15"
     },
@@ -1580,11 +1458,9 @@ export default {
       "masked": "He made several ____ on television.",
       "options": [
         "guest-mcq-15",
-        "guest-mcq-14",
-        "guest-mcq-16",
-        "guest-mcq-13",
-        "guest-mcq-17",
-        "guest-mcq-12"
+        "guest-mcq-11",
+        "guest-mcq-23",
+        "guest-mcq-19"
       ],
       "explanation": "本句的「guest appearances」指「以非固定參與者身分短暫客串或亮相」。",
       "sentenceIndex": 30,
@@ -1593,12 +1469,10 @@ export default {
         "guest appearances"
       ],
       "optionReasons": {
-        "guest-mcq-15": "本句指「以非固定參與者身分短暫客串或亮相」。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-12": "「暫時獲邀負責某期出版物或項目的編輯」與本句語境不同。"
+        "guest-mcq-15": "本句的「guest appearances」指「以非固定參與者身分短暫客串或亮相」。",
+        "guest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-15"
     },
@@ -1610,11 +1484,9 @@ export default {
       "masked": "The Olympic champion was the ____ at the dinner.",
       "options": [
         "guest-mcq-16",
-        "guest-mcq-15",
-        "guest-mcq-17",
-        "guest-mcq-14",
-        "guest-mcq-18",
-        "guest-mcq-13"
+        "guest-mcq-20",
+        "guest-mcq-25",
+        "guest-mcq-09"
       ],
       "explanation": "本句的「guest of honour」指「在活動中受到特別尊重並具有突出身分的主要嘉賓」。",
       "sentenceIndex": 31,
@@ -1623,12 +1495,10 @@ export default {
         "guest of honour"
       ],
       "optionReasons": {
-        "guest-mcq-16": "本句指「在活動中受到特別尊重並具有突出身分的主要嘉賓」。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。"
+        "guest-mcq-16": "本句的「guest of honour」指「在活動中受到特別尊重並具有突出身分的主要嘉賓」。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-16"
     },
@@ -1640,11 +1510,9 @@ export default {
       "masked": "The mayor attended as ____.",
       "options": [
         "guest-mcq-16",
-        "guest-mcq-15",
-        "guest-mcq-17",
-        "guest-mcq-14",
-        "guest-mcq-18",
-        "guest-mcq-13"
+        "guest-mcq-09",
+        "guest-mcq-25",
+        "guest-mcq-20"
       ],
       "explanation": "本句的「guest of honour」指「在活動中受到特別尊重並具有突出身分的主要嘉賓」。",
       "sentenceIndex": 32,
@@ -1653,12 +1521,10 @@ export default {
         "guest of honour"
       ],
       "optionReasons": {
-        "guest-mcq-16": "本句指「在活動中受到特別尊重並具有突出身分的主要嘉賓」。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-13": "「暫時代替或加入固定主持人主持節目的人」與本句語境不同。"
+        "guest-mcq-16": "本句的「guest of honour」指「在活動中受到特別尊重並具有突出身分的主要嘉賓」。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-16"
     },
@@ -1670,11 +1536,9 @@ export default {
       "masked": "Her name was not on the ____.",
       "options": [
         "guest-mcq-17",
-        "guest-mcq-16",
-        "guest-mcq-18",
-        "guest-mcq-15",
-        "guest-mcq-19",
-        "guest-mcq-14"
+        "guest-mcq-28",
+        "guest-mcq-23",
+        "guest-mcq-04"
       ],
       "explanation": "本句的「guest list」指「獲邀或獲准出席某項活動的人員名單」。",
       "sentenceIndex": 33,
@@ -1683,12 +1547,10 @@ export default {
         "guest list"
       ],
       "optionReasons": {
-        "guest-mcq-17": "本句指「獲邀或獲准出席某項活動的人員名單」。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。"
+        "guest-mcq-17": "本句的「guest list」指「獲邀或獲准出席某項活動的人員名單」。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-17"
     },
@@ -1700,11 +1562,9 @@ export default {
       "masked": "The organisers finalized the ____ yesterday.",
       "options": [
         "guest-mcq-17",
-        "guest-mcq-16",
-        "guest-mcq-18",
-        "guest-mcq-15",
-        "guest-mcq-19",
-        "guest-mcq-14"
+        "guest-mcq-28",
+        "guest-mcq-04",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guest list」指「獲邀或獲准出席某項活動的人員名單」。",
       "sentenceIndex": 34,
@@ -1713,12 +1573,10 @@ export default {
         "guest list"
       ],
       "optionReasons": {
-        "guest-mcq-17": "本句指「獲邀或獲准出席某項活動的人員名單」。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-14": "「並非固定演員、但特別在有限集數或場次中演出的知名演員」與本句語境不同。"
+        "guest-mcq-17": "本句的「guest list」指「獲邀或獲准出席某項活動的人員名單」。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-17"
     },
@@ -1730,11 +1588,9 @@ export default {
       "masked": "You can sleep in the ____.",
       "options": [
         "guest-mcq-18",
-        "guest-mcq-17",
-        "guest-mcq-19",
-        "guest-mcq-16",
-        "guest-mcq-20",
-        "guest-mcq-15"
+        "guest-mcq-10",
+        "guest-mcq-02",
+        "guest-mcq-05"
       ],
       "explanation": "本句的「guest room」指「專門讓訪客或客人暫時住宿的房間」。",
       "sentenceIndex": 35,
@@ -1743,12 +1599,10 @@ export default {
         "guest room"
       ],
       "optionReasons": {
-        "guest-mcq-18": "本句指「專門讓訪客或客人暫時住宿的房間」。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。"
+        "guest-mcq-18": "本句的「guest room」指「專門讓訪客或客人暫時住宿的房間」。",
+        "guest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-18"
     },
@@ -1760,11 +1614,9 @@ export default {
       "masked": "They converted the study into a ____.",
       "options": [
         "guest-mcq-18",
-        "guest-mcq-17",
-        "guest-mcq-19",
-        "guest-mcq-16",
-        "guest-mcq-20",
-        "guest-mcq-15"
+        "guest-mcq-03",
+        "guest-mcq-14",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guest room」指「專門讓訪客或客人暫時住宿的房間」。",
       "sentenceIndex": 36,
@@ -1773,12 +1625,10 @@ export default {
         "guest room"
       ],
       "optionReasons": {
-        "guest-mcq-18": "本句指「專門讓訪客或客人暫時住宿的房間」。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-15": "「以非固定參與者身分短暫客串或亮相」與本句語境不同。"
+        "guest-mcq-18": "本句的「guest room」指「專門讓訪客或客人暫時住宿的房間」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-18"
     },
@@ -1790,10 +1640,8 @@ export default {
       "masked": "We stayed in a small family-run ____.",
       "options": [
         "guest-mcq-19",
-        "guest-mcq-18",
-        "guest-mcq-20",
-        "guest-mcq-17",
-        "guest-mcq-21",
+        "guest-mcq-12",
+        "guest-mcq-24",
         "guest-mcq-16"
       ],
       "explanation": "本句的「guesthouse」指「通常規模較小、為旅客提供住宿的賓館／旅舍」。",
@@ -1803,12 +1651,10 @@ export default {
         "guesthouse"
       ],
       "optionReasons": {
-        "guest-mcq-19": "本句指「通常規模較小、為旅客提供住宿的賓館／旅舍」。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。"
+        "guest-mcq-19": "本句的「guesthouse」指「通常規模較小、為旅客提供住宿的賓館／旅舍」。",
+        "guest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-19"
     },
@@ -1820,11 +1666,9 @@ export default {
       "masked": "The village has several affordable ____.",
       "options": [
         "guest-mcq-19",
-        "guest-mcq-18",
-        "guest-mcq-20",
-        "guest-mcq-17",
-        "guest-mcq-21",
-        "guest-mcq-16"
+        "guest-mcq-08",
+        "guest-mcq-24",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guesthouses」指「通常規模較小、為旅客提供住宿的賓館／旅舍」。",
       "sentenceIndex": 38,
@@ -1833,12 +1677,10 @@ export default {
         "guesthouses"
       ],
       "optionReasons": {
-        "guest-mcq-19": "本句指「通常規模較小、為旅客提供住宿的賓館／旅舍」。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-16": "「在活動中受到特別尊重並具有突出身分的主要嘉賓」與本句語境不同。"
+        "guest-mcq-19": "本句的「guesthouses」指「通常規模較小、為旅客提供住宿的賓館／旅舍」。",
+        "guest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-19"
     },
@@ -1850,11 +1692,9 @@ export default {
       "masked": "The family takes in paying ____ during the summer.",
       "options": [
         "guest-mcq-20",
-        "guest-mcq-19",
-        "guest-mcq-21",
-        "guest-mcq-18",
-        "guest-mcq-22",
-        "guest-mcq-17"
+        "guest-mcq-03",
+        "guest-mcq-14",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guests」指「付費住在私人住宅中的寄宿客／住客」。",
       "sentenceIndex": 39,
@@ -1863,12 +1703,10 @@ export default {
         "guests"
       ],
       "optionReasons": {
-        "guest-mcq-20": "本句指「付費住在私人住宅中的寄宿客／住客」。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。"
+        "guest-mcq-20": "本句的「guests」指「付費住在私人住宅中的寄宿客／住客」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-20"
     },
@@ -1880,11 +1718,9 @@ export default {
       "masked": "She stayed there as a paying ____ for three months.",
       "options": [
         "guest-mcq-20",
-        "guest-mcq-19",
-        "guest-mcq-21",
-        "guest-mcq-18",
-        "guest-mcq-22",
-        "guest-mcq-17"
+        "guest-mcq-10",
+        "guest-mcq-25",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guest」指「付費住在私人住宅中的寄宿客／住客」。",
       "sentenceIndex": 40,
@@ -1893,12 +1729,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-20": "本句指「付費住在私人住宅中的寄宿客／住客」。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-17": "「獲邀或獲准出席某項活動的人員名單」與本句語境不同。"
+        "guest-mcq-20": "本句的「guest」指「付費住在私人住宅中的寄宿客／住客」。",
+        "guest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-20"
     },
@@ -1910,11 +1744,9 @@ export default {
       "masked": "Visitors must collect a ____ at reception.",
       "options": [
         "guest-mcq-21",
+        "guest-mcq-12",
         "guest-mcq-20",
-        "guest-mcq-22",
-        "guest-mcq-19",
-        "guest-mcq-23",
-        "guest-mcq-18"
+        "guest-mcq-14"
       ],
       "explanation": "本句的「guest pass」指「讓非正式成員臨時進入設施或活動的訪客通行證」。",
       "sentenceIndex": 41,
@@ -1923,12 +1755,10 @@ export default {
         "guest pass"
       ],
       "optionReasons": {
-        "guest-mcq-21": "本句指「讓非正式成員臨時進入設施或活動的訪客通行證」。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。"
+        "guest-mcq-21": "本句的「guest pass」指「讓非正式成員臨時進入設施或活動的訪客通行證」。",
+        "guest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-21"
     },
@@ -1940,11 +1770,9 @@ export default {
       "masked": "Members can request a one-day ____.",
       "options": [
         "guest-mcq-21",
+        "guest-mcq-12",
         "guest-mcq-20",
-        "guest-mcq-22",
-        "guest-mcq-19",
-        "guest-mcq-23",
-        "guest-mcq-18"
+        "guest-mcq-28"
       ],
       "explanation": "本句的「guest pass」指「讓非正式成員臨時進入設施或活動的訪客通行證」。",
       "sentenceIndex": 42,
@@ -1953,12 +1781,10 @@ export default {
         "guest pass"
       ],
       "optionReasons": {
-        "guest-mcq-21": "本句指「讓非正式成員臨時進入設施或活動的訪客通行證」。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-18": "「專門讓訪客或客人暫時住宿的房間」與本句語境不同。"
+        "guest-mcq-21": "本句的「guest pass」指「讓非正式成員臨時進入設施或活動的訪客通行證」。",
+        "guest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-21"
     },
@@ -1970,11 +1796,9 @@ export default {
       "masked": "Please contact ____ if you need assistance.",
       "options": [
         "guest-mcq-22",
-        "guest-mcq-21",
-        "guest-mcq-23",
-        "guest-mcq-20",
-        "guest-mcq-24",
-        "guest-mcq-19"
+        "guest-mcq-11",
+        "guest-mcq-14",
+        "guest-mcq-20"
       ],
       "explanation": "本句的「guest services」指「專門處理賓客需要、查詢和服務體驗的部門／工作」。",
       "sentenceIndex": 43,
@@ -1983,12 +1807,10 @@ export default {
         "guest services"
       ],
       "optionReasons": {
-        "guest-mcq-22": "本句指「專門處理賓客需要、查詢和服務體驗的部門／工作」。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。"
+        "guest-mcq-22": "本句的「guest services」指「專門處理賓客需要、查詢和服務體驗的部門／工作」。",
+        "guest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-22"
     },
@@ -2000,11 +1822,9 @@ export default {
       "masked": "She works in ____ at the resort.",
       "options": [
         "guest-mcq-22",
-        "guest-mcq-21",
-        "guest-mcq-23",
-        "guest-mcq-20",
-        "guest-mcq-24",
-        "guest-mcq-19"
+        "guest-mcq-31",
+        "guest-mcq-14",
+        "guest-mcq-25"
       ],
       "explanation": "本句的「guest services」指「專門處理賓客需要、查詢和服務體驗的部門／工作」。",
       "sentenceIndex": 44,
@@ -2013,12 +1833,10 @@ export default {
         "guest services"
       ],
       "optionReasons": {
-        "guest-mcq-22": "本句指「專門處理賓客需要、查詢和服務體驗的部門／工作」。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。",
-        "guest-mcq-19": "「通常規模較小、為旅客提供住宿的賓館／旅舍」與本句語境不同。"
+        "guest-mcq-22": "本句的「guest services」指「專門處理賓客需要、查詢和服務體驗的部門／工作」。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-22"
     },
@@ -2030,9 +1848,7 @@ export default {
       "masked": "The complaint was referred to the ____ manager.",
       "options": [
         "guest-mcq-23",
-        "guest-mcq-22",
-        "guest-mcq-24",
-        "guest-mcq-21",
+        "guest-mcq-08",
         "guest-mcq-25",
         "guest-mcq-20"
       ],
@@ -2043,12 +1859,10 @@ export default {
         "guest relations"
       ],
       "optionReasons": {
-        "guest-mcq-23": "本句指「負責維持賓客關係、處理需要及改善體驗的工作」。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。"
+        "guest-mcq-23": "本句的「guest relations」指「負責維持賓客關係、處理需要及改善體驗的工作」。",
+        "guest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-23"
     },
@@ -2060,11 +1874,9 @@ export default {
       "masked": "____ relations staff welcomed the international delegation.",
       "options": [
         "guest-mcq-23",
-        "guest-mcq-22",
-        "guest-mcq-24",
-        "guest-mcq-21",
-        "guest-mcq-25",
-        "guest-mcq-20"
+        "guest-mcq-03",
+        "guest-mcq-11",
+        "guest-mcq-14"
       ],
       "explanation": "本句的「Guest」指「負責維持賓客關係、處理需要及改善體驗的工作」。",
       "sentenceIndex": 46,
@@ -2073,12 +1885,10 @@ export default {
         "Guest"
       ],
       "optionReasons": {
-        "guest-mcq-23": "本句指「負責維持賓客關係、處理需要及改善體驗的工作」。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。",
-        "guest-mcq-20": "「付費住在私人住宅中的寄宿客／住客」與本句語境不同。"
+        "guest-mcq-23": "本句的「Guest」指「負責維持賓客關係、處理需要及改善體驗的工作」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-23"
     },
@@ -2090,11 +1900,9 @@ export default {
       "masked": "You can continue as a ____ without creating an account.",
       "options": [
         "guest-mcq-24",
+        "guest-mcq-08",
         "guest-mcq-23",
-        "guest-mcq-25",
-        "guest-mcq-22",
-        "guest-mcq-26",
-        "guest-mcq-21"
+        "guest-mcq-19"
       ],
       "explanation": "本句的「guest」指「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」。",
       "sentenceIndex": 47,
@@ -2103,12 +1911,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-24": "本句指「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。"
+        "guest-mcq-24": "本句的「guest」指「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」。",
+        "guest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-24"
     },
@@ -2121,10 +1927,8 @@ export default {
       "options": [
         "guest-mcq-24",
         "guest-mcq-23",
-        "guest-mcq-25",
-        "guest-mcq-22",
-        "guest-mcq-26",
-        "guest-mcq-21"
+        "guest-mcq-08",
+        "guest-mcq-19"
       ],
       "explanation": "本句的「Guests」指「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」。",
       "sentenceIndex": 48,
@@ -2133,12 +1937,10 @@ export default {
         "Guests"
       ],
       "optionReasons": {
-        "guest-mcq-24": "本句指「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-21": "「讓非正式成員臨時進入設施或活動的訪客通行證」與本句語境不同。"
+        "guest-mcq-24": "本句的「Guests」指「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-24"
     },
@@ -2150,11 +1952,9 @@ export default {
       "masked": "The computer has a separate ____.",
       "options": [
         "guest-mcq-25",
-        "guest-mcq-24",
-        "guest-mcq-26",
-        "guest-mcq-23",
-        "guest-mcq-27",
-        "guest-mcq-22"
+        "guest-mcq-03",
+        "guest-mcq-20",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guest account」指「為臨時使用者而設、通常權限較低的帳戶」。",
       "sentenceIndex": 49,
@@ -2163,12 +1963,10 @@ export default {
         "guest account"
       ],
       "optionReasons": {
-        "guest-mcq-25": "本句指「為臨時使用者而設、通常權限較低的帳戶」。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。"
+        "guest-mcq-25": "本句的「guest account」指「為臨時使用者而設、通常權限較低的帳戶」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-25"
     },
@@ -2180,11 +1978,9 @@ export default {
       "masked": "The ____ account has limited permissions.",
       "options": [
         "guest-mcq-25",
-        "guest-mcq-24",
-        "guest-mcq-26",
-        "guest-mcq-23",
-        "guest-mcq-27",
-        "guest-mcq-22"
+        "guest-mcq-03",
+        "guest-mcq-30",
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guest」指「為臨時使用者而設、通常權限較低的帳戶」。",
       "sentenceIndex": 50,
@@ -2193,12 +1989,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-25": "本句指「為臨時使用者而設、通常權限較低的帳戶」。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-23": "「負責維持賓客關係、處理需要及改善體驗的工作」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-22": "「專門處理賓客需要、查詢和服務體驗的部門／工作」與本句語境不同。"
+        "guest-mcq-25": "本句的「guest」指「為臨時使用者而設、通常權限較低的帳戶」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-25"
     },
@@ -2210,11 +2004,9 @@ export default {
       "masked": "Visitors should connect to the ____.",
       "options": [
         "guest-mcq-27",
-        "guest-mcq-26",
-        "guest-mcq-28",
-        "guest-mcq-25",
-        "guest-mcq-29",
-        "guest-mcq-24"
+        "guest-mcq-14",
+        "guest-mcq-09",
+        "guest-mcq-05"
       ],
       "explanation": "本句的「guest Wi-Fi」指「專供訪客使用、通常與內部主網絡分開的網絡」。",
       "sentenceIndex": 51,
@@ -2223,12 +2015,10 @@ export default {
         "guest Wi-Fi"
       ],
       "optionReasons": {
-        "guest-mcq-27": "本句指「專供訪客使用、通常與內部主網絡分開的網絡」。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。"
+        "guest-mcq-27": "本句的「guest Wi-Fi」指「專供訪客使用、通常與內部主網絡分開的網絡」。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-27"
     },
@@ -2240,11 +2030,9 @@ export default {
       "masked": "The office keeps its ____ network separate from internal systems.",
       "options": [
         "guest-mcq-27",
-        "guest-mcq-26",
-        "guest-mcq-28",
-        "guest-mcq-25",
-        "guest-mcq-29",
-        "guest-mcq-24"
+        "guest-mcq-03",
+        "guest-mcq-11",
+        "guest-mcq-14"
       ],
       "explanation": "本句的「guest」指「專供訪客使用、通常與內部主網絡分開的網絡」。",
       "sentenceIndex": 52,
@@ -2253,12 +2041,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-27": "本句指「專供訪客使用、通常與內部主網絡分開的網絡」。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-24": "「在電腦、平台或服務中只有臨時／有限權限的非正式使用者」與本句語境不同。"
+        "guest-mcq-27": "本句的「guest」指「專供訪客使用、通常與內部主網絡分開的網絡」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-27"
     },
@@ -2270,11 +2056,9 @@ export default {
       "masked": "Linux is running as the ____.",
       "options": [
         "guest-mcq-28",
-        "guest-mcq-27",
-        "guest-mcq-29",
-        "guest-mcq-26",
-        "guest-mcq-30",
-        "guest-mcq-25"
+        "guest-mcq-11",
+        "guest-mcq-14",
+        "guest-mcq-01"
       ],
       "explanation": "本句的「guest operating system」指「在主機／虛擬化系統內運行的客體作業系統」。",
       "sentenceIndex": 53,
@@ -2283,12 +2067,10 @@ export default {
         "guest operating system"
       ],
       "optionReasons": {
-        "guest-mcq-28": "本句指「在主機／虛擬化系統內運行的客體作業系統」。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-30": "「以非固定演員身分特別客串影視作品」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。"
+        "guest-mcq-28": "本句的「guest operating system」指「在主機／虛擬化系統內運行的客體作業系統」。",
+        "guest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-28"
     },
@@ -2300,11 +2082,9 @@ export default {
       "masked": "The host computer can run several ____ operating systems.",
       "options": [
         "guest-mcq-28",
-        "guest-mcq-27",
-        "guest-mcq-29",
-        "guest-mcq-26",
-        "guest-mcq-30",
-        "guest-mcq-25"
+        "guest-mcq-14",
+        "guest-mcq-25",
+        "guest-mcq-17"
       ],
       "explanation": "本句的「guest」指「在主機／虛擬化系統內運行的客體作業系統」。",
       "sentenceIndex": 54,
@@ -2313,12 +2093,10 @@ export default {
         "guest"
       ],
       "optionReasons": {
-        "guest-mcq-28": "本句指「在主機／虛擬化系統內運行的客體作業系統」。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。",
-        "guest-mcq-30": "「以非固定演員身分特別客串影視作品」與本句語境不同。",
-        "guest-mcq-25": "「為臨時使用者而設、通常權限較低的帳戶」與本句語境不同。"
+        "guest-mcq-28": "本句的「guest」指「在主機／虛擬化系統內運行的客體作業系統」。",
+        "guest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-28"
     },
@@ -2330,11 +2108,9 @@ export default {
       "masked": "She ____ on the programme last year.",
       "options": [
         "guest-mcq-29",
+        "guest-mcq-20",
         "guest-mcq-28",
-        "guest-mcq-30",
-        "guest-mcq-27",
-        "guest-mcq-31",
-        "guest-mcq-26"
+        "guest-mcq-09"
       ],
       "explanation": "本句的「guested」指「暫時以受邀嘉賓身分參與節目、作品或演出」。",
       "sentenceIndex": 55,
@@ -2343,12 +2119,10 @@ export default {
         "guested"
       ],
       "optionReasons": {
-        "guest-mcq-29": "本句指「暫時以受邀嘉賓身分參與節目、作品或演出」。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-30": "「以非固定演員身分特別客串影視作品」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-31": "「暫時擔任節目主持／代班主持」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。"
+        "guest-mcq-29": "本句的「guested」指「暫時以受邀嘉賓身分參與節目、作品或演出」。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-29"
     },
@@ -2360,11 +2134,9 @@ export default {
       "masked": "Several musicians have ____ on the album.",
       "options": [
         "guest-mcq-29",
+        "guest-mcq-20",
         "guest-mcq-28",
-        "guest-mcq-30",
-        "guest-mcq-27",
-        "guest-mcq-31",
-        "guest-mcq-26"
+        "guest-mcq-23"
       ],
       "explanation": "本句的「guested」指「暫時以受邀嘉賓身分參與節目、作品或演出」。",
       "sentenceIndex": 56,
@@ -2373,12 +2145,10 @@ export default {
         "guested"
       ],
       "optionReasons": {
-        "guest-mcq-29": "本句指「暫時以受邀嘉賓身分參與節目、作品或演出」。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-30": "「以非固定演員身分特別客串影視作品」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-31": "「暫時擔任節目主持／代班主持」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。"
+        "guest-mcq-29": "本句的「guested」指「暫時以受邀嘉賓身分參與節目、作品或演出」。",
+        "guest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-29"
     },
@@ -2390,11 +2160,9 @@ export default {
       "masked": "She ____ in two episodes.",
       "options": [
         "guest-mcq-30",
-        "guest-mcq-29",
-        "guest-mcq-31",
-        "guest-mcq-28",
-        "guest-mcq-27",
-        "guest-mcq-26"
+        "guest-mcq-25",
+        "guest-mcq-03",
+        "guest-mcq-31"
       ],
       "explanation": "本句的「guest-starred」指「以非固定演員身分特別客串影視作品」。",
       "sentenceIndex": 57,
@@ -2403,12 +2171,10 @@ export default {
         "guest-starred"
       ],
       "optionReasons": {
-        "guest-mcq-30": "本句指「以非固定演員身分特別客串影視作品」。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-31": "「暫時擔任節目主持／代班主持」與本句語境不同。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。"
+        "guest-mcq-30": "本句的「guest-starred」指「以非固定演員身分特別客串影視作品」。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-30"
     },
@@ -2420,11 +2186,9 @@ export default {
       "masked": "A famous comedian will ____ next week.",
       "options": [
         "guest-mcq-30",
-        "guest-mcq-29",
-        "guest-mcq-31",
-        "guest-mcq-28",
-        "guest-mcq-27",
-        "guest-mcq-26"
+        "guest-mcq-03",
+        "guest-mcq-25",
+        "guest-mcq-12"
       ],
       "explanation": "本句的「guest-star」指「以非固定演員身分特別客串影視作品」。",
       "sentenceIndex": 58,
@@ -2433,12 +2197,10 @@ export default {
         "guest-star"
       ],
       "optionReasons": {
-        "guest-mcq-30": "本句指「以非固定演員身分特別客串影視作品」。",
-        "guest-mcq-29": "「暫時以受邀嘉賓身分參與節目、作品或演出」與本句語境不同。",
-        "guest-mcq-31": "「暫時擔任節目主持／代班主持」與本句語境不同。",
-        "guest-mcq-28": "「在主機／虛擬化系統內運行的客體作業系統」與本句語境不同。",
-        "guest-mcq-27": "「專供訪客使用、通常與內部主網絡分開的網絡」與本句語境不同。",
-        "guest-mcq-26": "「向外來或非永久成員提供的有限／臨時存取權」與本句語境不同。"
+        "guest-mcq-30": "本句的「guest-star」指「以非固定演員身分特別客串影視作品」。",
+        "guest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "guest-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "guest-mcq-30"
     }
@@ -2450,5 +2212,7 @@ export default {
     "sha256": "f07d328fb9616138e1b46f2f9b4799b82b2d80fa4c769902207c43ab7b2d0a3c",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

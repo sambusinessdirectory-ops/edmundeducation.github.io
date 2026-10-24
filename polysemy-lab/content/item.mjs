@@ -416,11 +416,9 @@ export default {
       "masked": "It was not a luxury ____.",
       "options": [
         "item-mcq-01",
-        "item-mcq-02",
-        "item-mcq-03",
-        "item-mcq-04",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-11",
+        "item-mcq-12",
+        "item-mcq-13"
       ],
       "explanation": "本句的「item」指「物品；一件東西」。",
       "sentenceIndex": 0,
@@ -429,12 +427,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-01": "本句指「物品；一件東西」。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-01": "本句的「item」指「物品；一件東西」。",
+        "item-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-01"
     },
@@ -446,11 +442,9 @@ export default {
       "masked": "Please remove all personal ____ from the desk.",
       "options": [
         "item-mcq-01",
-        "item-mcq-02",
-        "item-mcq-03",
-        "item-mcq-04",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-07",
+        "item-mcq-12",
+        "item-mcq-16"
       ],
       "explanation": "本句的「items」指「物品；一件東西」。",
       "sentenceIndex": 1,
@@ -459,12 +453,10 @@ export default {
         "items"
       ],
       "optionReasons": {
-        "item-mcq-01": "本句指「物品；一件東西」。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-01": "本句的「items」指「物品；一件東西」。",
+        "item-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-01"
     },
@@ -476,11 +468,9 @@ export default {
       "masked": "Each ____ was carefully packed.",
       "options": [
         "item-mcq-01",
-        "item-mcq-02",
-        "item-mcq-03",
-        "item-mcq-04",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-07",
+        "item-mcq-18",
+        "item-mcq-12"
       ],
       "explanation": "本句的「item」指「物品；一件東西」。",
       "sentenceIndex": 2,
@@ -489,12 +479,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-01": "本句指「物品；一件東西」。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-01": "本句的「item」指「物品；一件東西」。",
+        "item-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-01"
     },
@@ -506,11 +494,9 @@ export default {
       "masked": "A designer watch is a ____.",
       "options": [
         "item-mcq-02",
-        "item-mcq-01",
-        "item-mcq-03",
-        "item-mcq-04",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-07",
+        "item-mcq-12",
+        "item-mcq-18"
       ],
       "explanation": "本句的「luxury item」指「奢侈品」。",
       "sentenceIndex": 3,
@@ -519,12 +505,10 @@ export default {
         "luxury item"
       ],
       "optionReasons": {
-        "item-mcq-02": "本句指「奢侈品」。",
-        "item-mcq-01": "「物品；一件東西」是「item (object)」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-02": "本句的「luxury item」指「奢侈品」。",
+        "item-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-02"
     },
@@ -536,11 +520,9 @@ export default {
       "masked": "The album was meaningful even though it wasn't a ____.",
       "options": [
         "item-mcq-02",
-        "item-mcq-01",
-        "item-mcq-03",
-        "item-mcq-04",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-13",
+        "item-mcq-16",
+        "item-mcq-17"
       ],
       "explanation": "本句的「luxury item」指「奢侈品」。",
       "sentenceIndex": 4,
@@ -549,12 +531,10 @@ export default {
         "luxury item"
       ],
       "optionReasons": {
-        "item-mcq-02": "本句指「奢侈品」。",
-        "item-mcq-01": "「物品；一件東西」是「item (object)」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-02": "本句的「luxury item」指「奢侈品」。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-02"
     },
@@ -566,11 +546,9 @@ export default {
       "masked": "The shop sells everyday ____.",
       "options": [
         "item-mcq-03",
-        "item-mcq-02",
-        "item-mcq-04",
-        "item-mcq-01",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-09",
+        "item-mcq-18",
+        "item-mcq-05"
       ],
       "explanation": "本句的「household items」指「家居用品」。",
       "sentenceIndex": 5,
@@ -579,12 +557,10 @@ export default {
         "household items"
       ],
       "optionReasons": {
-        "item-mcq-03": "本句指「家居用品」。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-01": "「物品；一件東西」是「item (object)」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-03": "本句的「household items」指「家居用品」。",
+        "item-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-03"
     },
@@ -596,11 +572,9 @@ export default {
       "masked": "We donated several unwanted ____.",
       "options": [
         "item-mcq-03",
-        "item-mcq-02",
-        "item-mcq-04",
-        "item-mcq-01",
-        "item-mcq-05",
-        "item-mcq-06"
+        "item-mcq-16",
+        "item-mcq-10",
+        "item-mcq-18"
       ],
       "explanation": "本句的「household items」指「家居用品」。",
       "sentenceIndex": 6,
@@ -609,12 +583,10 @@ export default {
         "household items"
       ],
       "optionReasons": {
-        "item-mcq-03": "本句指「家居用品」。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-01": "「物品；一件東西」是「item (object)」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-03": "本句的「household items」指「家居用品」。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-03"
     },
@@ -626,11 +598,9 @@ export default {
       "masked": "Keep your ____ with you.",
       "options": [
         "item-mcq-04",
-        "item-mcq-03",
-        "item-mcq-05",
-        "item-mcq-02",
-        "item-mcq-06",
-        "item-mcq-01"
+        "item-mcq-16",
+        "item-mcq-07",
+        "item-mcq-18"
       ],
       "explanation": "本句的「personal items」指「私人物品」。",
       "sentenceIndex": 7,
@@ -639,12 +609,10 @@ export default {
         "personal items"
       ],
       "optionReasons": {
-        "item-mcq-04": "本句指「私人物品」。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-01": "「物品；一件東西」是「item (object)」的用法，與本句語境不同。"
+        "item-mcq-04": "本句的「personal items」指「私人物品」。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-04"
     },
@@ -656,11 +624,9 @@ export default {
       "masked": "She left a few ____ in the room.",
       "options": [
         "item-mcq-04",
-        "item-mcq-03",
-        "item-mcq-05",
-        "item-mcq-02",
-        "item-mcq-06",
-        "item-mcq-01"
+        "item-mcq-12",
+        "item-mcq-14",
+        "item-mcq-16"
       ],
       "explanation": "本句的「personal items」指「私人物品」。",
       "sentenceIndex": 8,
@@ -669,12 +635,10 @@ export default {
         "personal items"
       ],
       "optionReasons": {
-        "item-mcq-04": "本句指「私人物品」。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-01": "「物品；一件東西」是「item (object)」的用法，與本句語境不同。"
+        "item-mcq-04": "本句的「personal items」指「私人物品」。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-04"
     },
@@ -686,11 +650,9 @@ export default {
       "masked": "This jacket is my favourite ____.",
       "options": [
         "item-mcq-05",
-        "item-mcq-04",
-        "item-mcq-06",
+        "item-mcq-10",
         "item-mcq-03",
-        "item-mcq-07",
-        "item-mcq-02"
+        "item-mcq-12"
       ],
       "explanation": "本句的「item of clothing」指「一件衣物」。",
       "sentenceIndex": 9,
@@ -699,12 +661,10 @@ export default {
         "item of clothing"
       ],
       "optionReasons": {
-        "item-mcq-05": "本句指「一件衣物」。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。"
+        "item-mcq-05": "本句的「item of clothing」指「一件衣物」。",
+        "item-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-05"
     },
@@ -716,11 +676,9 @@ export default {
       "masked": "Each ____ was labelled.",
       "options": [
         "item-mcq-05",
+        "item-mcq-14",
         "item-mcq-04",
-        "item-mcq-06",
-        "item-mcq-03",
-        "item-mcq-07",
-        "item-mcq-02"
+        "item-mcq-12"
       ],
       "explanation": "本句的「item of clothing」指「一件衣物」。",
       "sentenceIndex": 10,
@@ -729,12 +687,10 @@ export default {
         "item of clothing"
       ],
       "optionReasons": {
-        "item-mcq-05": "本句指「一件衣物」。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-02": "「奢侈品」是「luxury item」的用法，與本句語境不同。"
+        "item-mcq-05": "本句的「item of clothing」指「一件衣物」。",
+        "item-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-05"
     },
@@ -747,10 +703,8 @@ export default {
       "options": [
         "item-mcq-06",
         "item-mcq-05",
-        "item-mcq-07",
-        "item-mcq-04",
-        "item-mcq-08",
-        "item-mcq-03"
+        "item-mcq-17",
+        "item-mcq-16"
       ],
       "explanation": "本句的「food items」指「食品」。",
       "sentenceIndex": 11,
@@ -759,12 +713,10 @@ export default {
         "food items"
       ],
       "optionReasons": {
-        "item-mcq-06": "本句指「食品」。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。"
+        "item-mcq-06": "本句的「food items」指「食品」。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-06"
     },
@@ -776,11 +728,9 @@ export default {
       "masked": "Each ____ has a price label.",
       "options": [
         "item-mcq-06",
+        "item-mcq-09",
         "item-mcq-05",
-        "item-mcq-07",
-        "item-mcq-04",
-        "item-mcq-08",
-        "item-mcq-03"
+        "item-mcq-18"
       ],
       "explanation": "本句的「food item」指「食品」。",
       "sentenceIndex": 12,
@@ -789,12 +739,10 @@ export default {
         "food item"
       ],
       "optionReasons": {
-        "item-mcq-06": "本句指「食品」。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-03": "「家居用品」是「household item」的用法，與本句語境不同。"
+        "item-mcq-06": "本句的「food item」指「食品」。",
+        "item-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-06"
     },
@@ -806,11 +754,9 @@ export default {
       "masked": "This is the most popular ____.",
       "options": [
         "item-mcq-07",
-        "item-mcq-06",
-        "item-mcq-08",
-        "item-mcq-05",
-        "item-mcq-09",
-        "item-mcq-04"
+        "item-mcq-02",
+        "item-mcq-12",
+        "item-mcq-05"
       ],
       "explanation": "本句的「menu item」指「餐牌項目／菜式」。",
       "sentenceIndex": 13,
@@ -819,12 +765,10 @@ export default {
         "menu item"
       ],
       "optionReasons": {
-        "item-mcq-07": "本句指「餐牌項目／菜式」。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。"
+        "item-mcq-07": "本句的「menu item」指「餐牌項目／菜式」。",
+        "item-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-07"
     },
@@ -836,11 +780,9 @@ export default {
       "masked": "Several new ____ were added this month.",
       "options": [
         "item-mcq-07",
-        "item-mcq-06",
-        "item-mcq-08",
+        "item-mcq-02",
         "item-mcq-05",
-        "item-mcq-09",
-        "item-mcq-04"
+        "item-mcq-12"
       ],
       "explanation": "本句的「menu items」指「餐牌項目／菜式」。",
       "sentenceIndex": 14,
@@ -849,12 +791,10 @@ export default {
         "menu items"
       ],
       "optionReasons": {
-        "item-mcq-07": "本句指「餐牌項目／菜式」。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-04": "「私人物品」是「personal item」的用法，與本句語境不同。"
+        "item-mcq-07": "本句的「menu items」指「餐牌項目／菜式」。",
+        "item-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-07"
     },
@@ -866,10 +806,8 @@ export default {
       "masked": "This ____ is currently out of stock.",
       "options": [
         "item-mcq-08",
-        "item-mcq-07",
-        "item-mcq-09",
-        "item-mcq-06",
-        "item-mcq-10",
+        "item-mcq-14",
+        "item-mcq-16",
         "item-mcq-05"
       ],
       "explanation": "本句的「item」指「商品；貨品」。",
@@ -879,12 +817,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-08": "本句指「商品；貨品」。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。"
+        "item-mcq-08": "本句的「item」指「商品；貨品」。",
+        "item-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-08"
     },
@@ -897,9 +833,7 @@ export default {
       "options": [
         "item-mcq-08",
         "item-mcq-07",
-        "item-mcq-09",
-        "item-mcq-06",
-        "item-mcq-10",
+        "item-mcq-16",
         "item-mcq-05"
       ],
       "explanation": "本句的「item」指「商品；貨品」。",
@@ -909,12 +843,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-08": "本句指「商品；貨品」。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-05": "「一件衣物」是「item of clothing」的用法，與本句語境不同。"
+        "item-mcq-08": "本句的「item」指「商品；貨品」。",
+        "item-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-08"
     },
@@ -926,11 +858,9 @@ export default {
       "masked": "The first ____ is milk.",
       "options": [
         "item-mcq-09",
-        "item-mcq-08",
-        "item-mcq-10",
-        "item-mcq-07",
-        "item-mcq-11",
-        "item-mcq-06"
+        "item-mcq-15",
+        "item-mcq-05",
+        "item-mcq-12"
       ],
       "explanation": "本句的「item on the list」指「清單項目」。",
       "sentenceIndex": 17,
@@ -939,12 +869,10 @@ export default {
         "item on the list"
       ],
       "optionReasons": {
-        "item-mcq-09": "本句指「清單項目」。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-09": "本句的「item on the list」指「清單項目」。",
+        "item-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-09"
     },
@@ -956,11 +884,9 @@ export default {
       "masked": "Cross each ____ off when you finish it.",
       "options": [
         "item-mcq-09",
-        "item-mcq-08",
-        "item-mcq-10",
-        "item-mcq-07",
-        "item-mcq-11",
-        "item-mcq-06"
+        "item-mcq-15",
+        "item-mcq-12",
+        "item-mcq-05"
       ],
       "explanation": "本句的「item」指「清單項目」。",
       "sentenceIndex": 18,
@@ -969,12 +895,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-09": "本句指「清單項目」。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-06": "「食品」是「food item」的用法，與本句語境不同。"
+        "item-mcq-09": "本句的「item」指「清單項目」。",
+        "item-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-09"
     },
@@ -986,11 +910,9 @@ export default {
       "masked": "Let's move to the next ____.",
       "options": [
         "item-mcq-10",
-        "item-mcq-09",
-        "item-mcq-11",
-        "item-mcq-08",
-        "item-mcq-12",
-        "item-mcq-07"
+        "item-mcq-05",
+        "item-mcq-03",
+        "item-mcq-12"
       ],
       "explanation": "本句的「agenda item」指「議程項目」。",
       "sentenceIndex": 19,
@@ -999,12 +921,10 @@ export default {
         "agenda item"
       ],
       "optionReasons": {
-        "item-mcq-10": "本句指「議程項目」。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。"
+        "item-mcq-10": "本句的「agenda item」指「議程項目」。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-10"
     },
@@ -1016,11 +936,9 @@ export default {
       "masked": "Budget planning is the first ____.",
       "options": [
         "item-mcq-10",
-        "item-mcq-09",
-        "item-mcq-11",
         "item-mcq-08",
-        "item-mcq-12",
-        "item-mcq-07"
+        "item-mcq-05",
+        "item-mcq-12"
       ],
       "explanation": "本句的「item on the agenda」指「議程項目」。",
       "sentenceIndex": 20,
@@ -1029,12 +947,10 @@ export default {
         "item on the agenda"
       ],
       "optionReasons": {
-        "item-mcq-10": "本句指「議程項目」。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-07": "「餐牌項目／菜式」是「menu item」的用法，與本句語境不同。"
+        "item-mcq-10": "本句的「item on the agenda」指「議程項目」。",
+        "item-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-10"
     },
@@ -1046,11 +962,9 @@ export default {
       "masked": "We need one more ____.",
       "options": [
         "item-mcq-11",
-        "item-mcq-10",
         "item-mcq-12",
-        "item-mcq-09",
-        "item-mcq-13",
-        "item-mcq-08"
+        "item-mcq-05",
+        "item-mcq-13"
       ],
       "explanation": "本句的「item of information」指「一項資料」。",
       "sentenceIndex": 21,
@@ -1059,12 +973,10 @@ export default {
         "item of information"
       ],
       "optionReasons": {
-        "item-mcq-11": "本句指「一項資料」。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。"
+        "item-mcq-11": "本句的「item of information」指「一項資料」。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-11"
     },
@@ -1076,9 +988,7 @@ export default {
       "masked": "Each ____ must be checked.",
       "options": [
         "item-mcq-11",
-        "item-mcq-10",
         "item-mcq-12",
-        "item-mcq-09",
         "item-mcq-13",
         "item-mcq-08"
       ],
@@ -1089,12 +999,10 @@ export default {
         "item of information"
       ],
       "optionReasons": {
-        "item-mcq-11": "本句指「一項資料」。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-08": "「商品；貨品」是「item (product)」的用法，與本句語境不同。"
+        "item-mcq-11": "本句的「item of information」指「一項資料」。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-11"
     },
@@ -1107,10 +1015,8 @@ export default {
       "options": [
         "item-mcq-12",
         "item-mcq-11",
-        "item-mcq-13",
-        "item-mcq-10",
-        "item-mcq-14",
-        "item-mcq-09"
+        "item-mcq-15",
+        "item-mcq-05"
       ],
       "explanation": "本句的「news item」指「一則新聞」。",
       "sentenceIndex": 23,
@@ -1119,12 +1025,10 @@ export default {
         "news item"
       ],
       "optionReasons": {
-        "item-mcq-12": "本句指「一則新聞」。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。"
+        "item-mcq-12": "本句的「news item」指「一則新聞」。",
+        "item-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-12"
     },
@@ -1136,11 +1040,9 @@ export default {
       "masked": "The story appeared as the final ____.",
       "options": [
         "item-mcq-12",
-        "item-mcq-11",
         "item-mcq-13",
-        "item-mcq-10",
-        "item-mcq-14",
-        "item-mcq-09"
+        "item-mcq-02",
+        "item-mcq-16"
       ],
       "explanation": "本句的「news item」指「一則新聞」。",
       "sentenceIndex": 24,
@@ -1149,12 +1051,10 @@ export default {
         "news item"
       ],
       "optionReasons": {
-        "item-mcq-12": "本句指「一則新聞」。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-09": "「清單項目」是「item on a list」的用法，與本句語境不同。"
+        "item-mcq-12": "本句的「news item」指「一則新聞」。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-12"
     },
@@ -1166,11 +1066,9 @@ export default {
       "masked": "The programme included a short comedy ____.",
       "options": [
         "item-mcq-13",
-        "item-mcq-12",
-        "item-mcq-14",
-        "item-mcq-11",
-        "item-mcq-15",
-        "item-mcq-10"
+        "item-mcq-01",
+        "item-mcq-17",
+        "item-mcq-16"
       ],
       "explanation": "本句的「item」指「節目環節」。",
       "sentenceIndex": 25,
@@ -1179,12 +1077,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-13": "本句指「節目環節」。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。"
+        "item-mcq-13": "本句的「item」指「節目環節」。",
+        "item-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-13"
     },
@@ -1196,11 +1092,9 @@ export default {
       "masked": "The next ____ is a musical performance.",
       "options": [
         "item-mcq-13",
-        "item-mcq-12",
-        "item-mcq-14",
-        "item-mcq-11",
         "item-mcq-15",
-        "item-mcq-10"
+        "item-mcq-16",
+        "item-mcq-12"
       ],
       "explanation": "本句的「item」指「節目環節」。",
       "sentenceIndex": 26,
@@ -1209,12 +1103,10 @@ export default {
         "item"
       ],
       "optionReasons": {
-        "item-mcq-13": "本句指「節目環節」。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-10": "「議程項目」是「agenda item」的用法，與本句語境不同。"
+        "item-mcq-13": "本句的「item」指「節目環節」。",
+        "item-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-13"
     },
@@ -1226,11 +1118,9 @@ export default {
       "masked": "Travel appears as a separate ____ in the budget.",
       "options": [
         "item-mcq-14",
-        "item-mcq-13",
-        "item-mcq-15",
+        "item-mcq-03",
         "item-mcq-12",
-        "item-mcq-16",
-        "item-mcq-11"
+        "item-mcq-05"
       ],
       "explanation": "本句的「line item」指「明細項目」。",
       "sentenceIndex": 27,
@@ -1239,12 +1129,10 @@ export default {
         "line item"
       ],
       "optionReasons": {
-        "item-mcq-14": "本句指「明細項目」。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。"
+        "item-mcq-14": "本句的「line item」指「明細項目」。",
+        "item-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-14"
     },
@@ -1256,11 +1144,9 @@ export default {
       "masked": "Each expense is recorded as a ____.",
       "options": [
         "item-mcq-14",
-        "item-mcq-13",
-        "item-mcq-15",
+        "item-mcq-08",
         "item-mcq-12",
-        "item-mcq-16",
-        "item-mcq-11"
+        "item-mcq-05"
       ],
       "explanation": "本句的「line item」指「明細項目」。",
       "sentenceIndex": 28,
@@ -1269,12 +1155,10 @@ export default {
         "line item"
       ],
       "optionReasons": {
-        "item-mcq-14": "本句指「明細項目」。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-11": "「一項資料」是「item of information」的用法，與本句語境不同。"
+        "item-mcq-14": "本句的「line item」指「明細項目」。",
+        "item-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-14"
     },
@@ -1286,11 +1170,9 @@ export default {
       "masked": "The old watch has become a ____.",
       "options": [
         "item-mcq-15",
+        "item-mcq-12",
         "item-mcq-14",
-        "item-mcq-16",
-        "item-mcq-13",
-        "item-mcq-17",
-        "item-mcq-12"
+        "item-mcq-16"
       ],
       "explanation": "本句的「collector's item」指「收藏品」。",
       "sentenceIndex": 29,
@@ -1299,12 +1181,10 @@ export default {
         "collector's item"
       ],
       "optionReasons": {
-        "item-mcq-15": "本句指「收藏品」。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-17": "「分項帳單」是「itemized bill」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。"
+        "item-mcq-15": "本句的「collector's item」指「收藏品」。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-15"
     },
@@ -1317,10 +1197,8 @@ export default {
       "options": [
         "item-mcq-15",
         "item-mcq-14",
-        "item-mcq-16",
-        "item-mcq-13",
-        "item-mcq-17",
-        "item-mcq-12"
+        "item-mcq-12",
+        "item-mcq-16"
       ],
       "explanation": "本句的「collector's items」指「收藏品」。",
       "sentenceIndex": 30,
@@ -1329,12 +1207,10 @@ export default {
         "collector's items"
       ],
       "optionReasons": {
-        "item-mcq-15": "本句指「收藏品」。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。",
-        "item-mcq-17": "「分項帳單」是「itemized bill」的用法，與本句語境不同。",
-        "item-mcq-12": "「一則新聞」是「news item」的用法，與本句語境不同。"
+        "item-mcq-15": "本句的「collector's items」指「收藏品」。",
+        "item-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-15"
     },
@@ -1346,10 +1222,8 @@ export default {
       "masked": "Please ____.",
       "options": [
         "item-mcq-16",
-        "item-mcq-15",
-        "item-mcq-17",
-        "item-mcq-14",
-        "item-mcq-18",
+        "item-mcq-06",
+        "item-mcq-05",
         "item-mcq-13"
       ],
       "explanation": "本句的「itemize your expenses」指「逐項列出」。",
@@ -1359,12 +1233,10 @@ export default {
         "itemize your expenses"
       ],
       "optionReasons": {
-        "item-mcq-16": "本句指「逐項列出」。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-17": "「分項帳單」是「itemized bill」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-18": "「分項明細」是「itemization」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。"
+        "item-mcq-16": "本句的「itemize your expenses」指「逐項列出」。",
+        "item-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-16"
     },
@@ -1377,10 +1249,8 @@ export default {
       "options": [
         "item-mcq-16",
         "item-mcq-15",
-        "item-mcq-17",
-        "item-mcq-14",
-        "item-mcq-18",
-        "item-mcq-13"
+        "item-mcq-13",
+        "item-mcq-05"
       ],
       "explanation": "本句的「itemises each cost separately」指「逐項列出」。",
       "sentenceIndex": 32,
@@ -1389,12 +1259,10 @@ export default {
         "itemises each cost separately"
       ],
       "optionReasons": {
-        "item-mcq-16": "本句指「逐項列出」。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-17": "「分項帳單」是「itemized bill」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-18": "「分項明細」是「itemization」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。"
+        "item-mcq-16": "本句的「itemises each cost separately」指「逐項列出」。",
+        "item-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-16"
     },
@@ -1406,11 +1274,9 @@ export default {
       "masked": "Can I have an ____?",
       "options": [
         "item-mcq-17",
-        "item-mcq-16",
-        "item-mcq-18",
         "item-mcq-15",
-        "item-mcq-14",
-        "item-mcq-13"
+        "item-mcq-13",
+        "item-mcq-12"
       ],
       "explanation": "本句的「itemized bill」指「分項帳單」。",
       "sentenceIndex": 33,
@@ -1419,12 +1285,10 @@ export default {
         "itemized bill"
       ],
       "optionReasons": {
-        "item-mcq-17": "本句指「分項帳單」。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-18": "「分項明細」是「itemization」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。"
+        "item-mcq-17": "本句的「itemized bill」指「分項帳單」。",
+        "item-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-17"
     },
@@ -1436,11 +1300,9 @@ export default {
       "masked": "The ____ shows every purchase.",
       "options": [
         "item-mcq-17",
-        "item-mcq-16",
-        "item-mcq-18",
-        "item-mcq-15",
-        "item-mcq-14",
-        "item-mcq-13"
+        "item-mcq-02",
+        "item-mcq-12",
+        "item-mcq-05"
       ],
       "explanation": "本句的「itemized receipt」指「分項帳單」。",
       "sentenceIndex": 34,
@@ -1449,12 +1311,10 @@ export default {
         "itemized receipt"
       ],
       "optionReasons": {
-        "item-mcq-17": "本句指「分項帳單」。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-18": "「分項明細」是「itemization」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。"
+        "item-mcq-17": "本句的「itemized receipt」指「分項帳單」。",
+        "item-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-17"
     },
@@ -1466,11 +1326,9 @@ export default {
       "masked": "The invoice includes a full ____.",
       "options": [
         "item-mcq-18",
-        "item-mcq-17",
-        "item-mcq-16",
-        "item-mcq-15",
-        "item-mcq-14",
-        "item-mcq-13"
+        "item-mcq-01",
+        "item-mcq-13",
+        "item-mcq-12"
       ],
       "explanation": "本句的「itemization of costs」指「分項明細」。",
       "sentenceIndex": 35,
@@ -1479,12 +1337,10 @@ export default {
         "itemization of costs"
       ],
       "optionReasons": {
-        "item-mcq-18": "本句指「分項明細」。",
-        "item-mcq-17": "「分項帳單」是「itemized bill」的用法，與本句語境不同。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。"
+        "item-mcq-18": "本句的「itemization of costs」指「分項明細」。",
+        "item-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-18"
     },
@@ -1496,11 +1352,9 @@ export default {
       "masked": "We asked for an ____ of the charges.",
       "options": [
         "item-mcq-18",
-        "item-mcq-17",
-        "item-mcq-16",
-        "item-mcq-15",
-        "item-mcq-14",
-        "item-mcq-13"
+        "item-mcq-04",
+        "item-mcq-05",
+        "item-mcq-12"
       ],
       "explanation": "本句的「itemization」指「分項明細」。",
       "sentenceIndex": 36,
@@ -1509,12 +1363,10 @@ export default {
         "itemization"
       ],
       "optionReasons": {
-        "item-mcq-18": "本句指「分項明細」。",
-        "item-mcq-17": "「分項帳單」是「itemized bill」的用法，與本句語境不同。",
-        "item-mcq-16": "「逐項列出」是「itemize」的用法，與本句語境不同。",
-        "item-mcq-15": "「收藏品」是「collector's item」的用法，與本句語境不同。",
-        "item-mcq-14": "「明細項目」是「line item」的用法，與本句語境不同。",
-        "item-mcq-13": "「節目環節」是「programme item」的用法，與本句語境不同。"
+        "item-mcq-18": "本句的「itemization」指「分項明細」。",
+        "item-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "item-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "item-mcq-18"
     }
@@ -1526,5 +1378,7 @@ export default {
     "sha256": "3aa169958b435cde79e1257be910d2e99ba4e5131450dd25b125ca64ec2ed2eb",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

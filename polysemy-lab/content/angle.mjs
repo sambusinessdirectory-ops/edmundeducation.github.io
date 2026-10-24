@@ -100,18 +100,7 @@ export default {
       "en": "obtuse angle",
       "zh": "鈍角",
       "note": "來源詞義：鈍角",
-      "examples": [
-        [
-          "An acute angle is less than 90 degrees.",
-          "銳角小於 90 度。",
-          "鈍角"
-        ],
-        [
-          "An obtuse angle is greater than 90 degrees but less than 180.",
-          "鈍角大於 90 度但小於 180 度。",
-          "鈍角"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -144,18 +133,7 @@ export default {
       "en": "45-degree angle",
       "zh": "45 度角",
       "note": "來源詞義：45 度角",
-      "examples": [
-        [
-          "Cut the branch at a 45-degree angle.",
-          "以 45 度角剪斷樹枝。",
-          "45 度角"
-        ],
-        [
-          "The roof slopes at a steep angle.",
-          "屋頂以很陡的角度傾斜。",
-          "45 度角"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -167,16 +145,6 @@ export default {
       "zh": "鏡頭角度",
       "note": "來源詞義：鏡頭角度",
       "examples": [
-        [
-          "The view looks better from this angle.",
-          "從這個角度看，景色更好。",
-          "鏡頭角度"
-        ],
-        [
-          "The photographer changed the camera angle.",
-          "攝影師改變了相機的拍攝角度。",
-          "鏡頭角度"
-        ],
         [
           "A low camera angle can make a person look more powerful.",
           "低鏡頭角度可以令人看起來更有力量。",
@@ -513,6 +481,84 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "angle-reviewed-3a82065c14",
+      "title": "銳角；小於 90 度的角",
+      "form": "angle · source section 6",
+      "en": "銳角；小於 90 度的角",
+      "zh": "銳角；小於 90 度的角",
+      "note": "對照原始教材第 6 節及例句核實。",
+      "examples": [
+        [
+          "An acute angle is less than 90 degrees.",
+          "銳角小於 90 度。",
+          "銳角；小於 90 度的角"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "angle-reviewed-ee610fe798",
+      "title": "鈍角；大於 90 度而小於 180 度的角",
+      "form": "angle · source section 6",
+      "en": "鈍角；大於 90 度而小於 180 度的角",
+      "zh": "鈍角；大於 90 度而小於 180 度的角",
+      "note": "對照原始教材第 6 節及例句核實。",
+      "examples": [
+        [
+          "An obtuse angle is greater than 90 degrees but less than 180.",
+          "鈍角大於 90 度但小於 180 度。",
+          "鈍角；大於 90 度而小於 180 度的角"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "angle-reviewed-6e00cd7dbd",
+      "title": "以某個具體角度排列或傾斜",
+      "form": "angle · source section 8",
+      "en": "以某個具體角度排列或傾斜",
+      "zh": "以某個具體角度排列或傾斜",
+      "note": "對照原始教材第 8 節及例句核實。",
+      "examples": [
+        [
+          "Cut the branch at a 45-degree angle.",
+          "以 45 度角剪斷樹枝。",
+          "以某個具體角度排列或傾斜"
+        ],
+        [
+          "The roof slopes at a steep angle.",
+          "屋頂以很陡的角度傾斜。",
+          "以某個具體角度排列或傾斜"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "angle-reviewed-da8570cd1d",
+      "title": "觀看或拍攝某人／某物時所處的方向或位置",
+      "form": "angle · source section 9",
+      "en": "觀看或拍攝某人／某物時所處的方向或位置",
+      "zh": "觀看或拍攝某人／某物時所處的方向或位置",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The view looks better from this angle.",
+          "從這個角度看，景色更好。",
+          "觀看或拍攝某人／某物時所處的方向或位置"
+        ],
+        [
+          "The photographer changed the camera angle.",
+          "攝影師改變了相機的拍攝角度。",
+          "觀看或拍攝某人／某物時所處的方向或位置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -524,11 +570,9 @@ export default {
       "masked": "One event could be understood from different ____.",
       "options": [
         "angle-mcq-21",
-        "angle-mcq-20",
-        "angle-mcq-22",
-        "angle-mcq-19",
-        "angle-mcq-23",
-        "angle-mcq-18"
+        "angle-reviewed-3a82065c14",
+        "angle-mcq-17",
+        "angle-mcq-08"
       ],
       "explanation": "本句的「angles」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
       "sentenceIndex": 0,
@@ -537,12 +581,10 @@ export default {
         "angles"
       ],
       "optionReasons": {
-        "angle-mcq-21": "本句指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-21": "本句的「angles」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
+        "angle-reviewed-3a82065c14": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-21"
     },
@@ -554,11 +596,9 @@ export default {
       "masked": "Try looking at the problem from another ____.",
       "options": [
         "angle-mcq-21",
-        "angle-mcq-20",
-        "angle-mcq-22",
-        "angle-mcq-19",
-        "angle-mcq-23",
-        "angle-mcq-18"
+        "angle-mcq-18",
+        "angle-mcq-14",
+        "angle-mcq-23"
       ],
       "explanation": "本句的「angle」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
       "sentenceIndex": 1,
@@ -567,12 +607,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-21": "本句指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-21": "本句的「angle」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-21"
     },
@@ -584,11 +622,9 @@ export default {
       "masked": "The book examines the issue from several different ____.",
       "options": [
         "angle-mcq-21",
-        "angle-mcq-20",
-        "angle-mcq-22",
-        "angle-mcq-19",
+        "angle-pdf-002",
         "angle-mcq-23",
-        "angle-mcq-18"
+        "angle-reviewed-3a82065c14"
       ],
       "explanation": "本句的「angles」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
       "sentenceIndex": 2,
@@ -597,12 +633,10 @@ export default {
         "angles"
       ],
       "optionReasons": {
-        "angle-mcq-21": "本句指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-21": "本句的「angles」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-reviewed-3a82065c14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-21"
     },
@@ -614,11 +648,9 @@ export default {
       "masked": "We need to approach the question from a ____.",
       "options": [
         "angle-mcq-02",
-        "angle-mcq-01",
-        "angle-mcq-03",
-        "angle-mcq-04",
-        "angle-mcq-05",
-        "angle-mcq-06"
+        "angle-mcq-08",
+        "angle-mcq-21",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「different angle」指「從另一角度」。",
       "sentenceIndex": 3,
@@ -627,12 +659,10 @@ export default {
         "different angle"
       ],
       "optionReasons": {
-        "angle-mcq-02": "本句指「從另一角度」。",
-        "angle-mcq-01": "「角度；觀點」是「angle (viewpoint)」的用法，與本句語境不同。",
-        "angle-mcq-03": "「從各方面」是「from all angles」的用法，與本句語境不同。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
+        "angle-mcq-02": "本句的「different angle」指「從另一角度」。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-02"
     },
@@ -644,11 +674,9 @@ export default {
       "masked": "History looks very different when viewed from another ____.",
       "options": [
         "angle-mcq-02",
-        "angle-mcq-01",
-        "angle-mcq-03",
-        "angle-mcq-04",
-        "angle-mcq-05",
-        "angle-mcq-06"
+        "angle-reviewed-da8570cd1d",
+        "angle-mcq-17",
+        "angle-pdf-002"
       ],
       "explanation": "本句的「angle」指「從另一角度」。",
       "sentenceIndex": 4,
@@ -657,12 +685,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-02": "本句指「從另一角度」。",
-        "angle-mcq-01": "「角度；觀點」是「angle (viewpoint)」的用法，與本句語境不同。",
-        "angle-mcq-03": "「從各方面」是「from all angles」的用法，與本句語境不同。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
+        "angle-mcq-02": "本句的「angle」指「從另一角度」。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-02"
     },
@@ -674,11 +700,9 @@ export default {
       "masked": "We should look at the proposal from ____.",
       "options": [
         "angle-pdf-001",
-        "angle-mcq-02",
-        "angle-mcq-04",
-        "angle-mcq-01",
-        "angle-mcq-05",
-        "angle-mcq-06"
+        "angle-reviewed-ee610fe798",
+        "angle-mcq-17",
+        "angle-pdf-002"
       ],
       "explanation": "本句的「every angle」指「從多個不同方面全面分析某件事」。",
       "sentenceIndex": 5,
@@ -687,12 +711,10 @@ export default {
         "every angle"
       ],
       "optionReasons": {
-        "angle-pdf-001": "本句指「從多個不同方面全面分析某件事」。",
-        "angle-mcq-02": "「從另一角度」是「from another angle」的用法，與本句語境不同。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
-        "angle-mcq-01": "「角度；觀點」是「angle (viewpoint)」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
+        "angle-pdf-001": "本句的「every angle」指「從多個不同方面全面分析某件事」。",
+        "angle-reviewed-ee610fe798": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-pdf-001"
     },
@@ -704,11 +726,9 @@ export default {
       "masked": "The teacher encouraged us to examine the event from ____.",
       "options": [
         "angle-pdf-001",
-        "angle-mcq-02",
-        "angle-mcq-04",
-        "angle-mcq-01",
-        "angle-mcq-05",
-        "angle-mcq-06"
+        "angle-reviewed-3a82065c14",
+        "angle-pdf-002",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「all angles」指「從多個不同方面全面分析某件事」。",
       "sentenceIndex": 6,
@@ -717,12 +737,10 @@ export default {
         "all angles"
       ],
       "optionReasons": {
-        "angle-pdf-001": "本句指「從多個不同方面全面分析某件事」。",
-        "angle-mcq-02": "「從另一角度」是「from another angle」的用法，與本句語境不同。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
-        "angle-mcq-01": "「角度；觀點」是「angle (viewpoint)」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
+        "angle-pdf-001": "本句的「all angles」指「從多個不同方面全面分析某件事」。",
+        "angle-reviewed-3a82065c14": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-pdf-001"
     },
@@ -735,10 +753,8 @@ export default {
       "options": [
         "angle-mcq-22",
         "angle-mcq-21",
-        "angle-mcq-23",
-        "angle-mcq-20",
-        "angle-mcq-19",
-        "angle-mcq-18"
+        "angle-mcq-18",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「angles」指「兩條線、兩個平面或兩個方向相交時形成的角度」。",
       "sentenceIndex": 7,
@@ -747,12 +763,10 @@ export default {
         "angles"
       ],
       "optionReasons": {
-        "angle-mcq-22": "本句指「兩條線、兩個平面或兩個方向相交時形成的角度」。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-22": "本句的「angles」指「兩條線、兩個平面或兩個方向相交時形成的角度」。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-22"
     },
@@ -765,10 +779,8 @@ export default {
       "options": [
         "angle-mcq-22",
         "angle-mcq-21",
-        "angle-mcq-23",
-        "angle-mcq-20",
-        "angle-mcq-19",
-        "angle-mcq-18"
+        "angle-mcq-16",
+        "angle-mcq-17"
       ],
       "explanation": "本句的「angle」指「兩條線、兩個平面或兩個方向相交時形成的角度」。",
       "sentenceIndex": 8,
@@ -777,12 +789,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-22": "本句指「兩條線、兩個平面或兩個方向相交時形成的角度」。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-22": "本句的「angle」指「兩條線、兩個平面或兩個方向相交時形成的角度」。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-22"
     },
@@ -794,11 +804,9 @@ export default {
       "masked": "The two lines meet at a ____.",
       "options": [
         "angle-mcq-05",
-        "angle-mcq-04",
-        "angle-mcq-06",
-        "angle-mcq-03",
-        "angle-mcq-07",
-        "angle-mcq-02"
+        "angle-mcq-15",
+        "angle-mcq-18",
+        "angle-mcq-17"
       ],
       "explanation": "本句的「right angle」指「直角」。",
       "sentenceIndex": 9,
@@ -807,12 +815,10 @@ export default {
         "right angle"
       ],
       "optionReasons": {
-        "angle-mcq-05": "本句指「直角」。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。",
-        "angle-mcq-03": "「從各方面」是「from all angles」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。",
-        "angle-mcq-02": "「從另一角度」是「from another angle」的用法，與本句語境不同。"
+        "angle-mcq-05": "本句的「right angle」指「直角」。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-05"
     },
@@ -824,11 +830,9 @@ export default {
       "masked": "A ____ measures 90 degrees.",
       "options": [
         "angle-mcq-05",
-        "angle-mcq-04",
-        "angle-mcq-06",
-        "angle-mcq-03",
-        "angle-mcq-07",
-        "angle-mcq-02"
+        "angle-mcq-15",
+        "angle-pdf-001",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「right angle」指「直角」。",
       "sentenceIndex": 10,
@@ -837,74 +841,68 @@ export default {
         "right angle"
       ],
       "optionReasons": {
-        "angle-mcq-05": "本句指「直角」。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。",
-        "angle-mcq-03": "「從各方面」是「from all angles」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。",
-        "angle-mcq-02": "「從另一角度」是「from another angle」的用法，與本句語境不同。"
+        "angle-mcq-05": "本句的「right angle」指「直角」。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-05"
     },
     {
       "id": "angle-06-0",
-      "sense": "angle-mcq-07",
+      "sense": "angle-reviewed-3a82065c14",
       "en": "An acute angle is less than 90 degrees.",
       "zh": "銳角小於 90 度。",
       "masked": "An ____ is less than 90 degrees.",
       "options": [
-        "angle-mcq-07",
-        "angle-mcq-06",
-        "angle-mcq-08",
-        "angle-mcq-05",
-        "angle-mcq-09",
-        "angle-mcq-04"
+        "angle-reviewed-3a82065c14",
+        "angle-pdf-001",
+        "angle-reviewed-da8570cd1d",
+        "angle-mcq-08"
       ],
-      "explanation": "本句的「acute angle」指「鈍角」。",
+      "explanation": "對照完整句子：「銳角小於 90 度。」。這裡的「acute angle」表示「銳角；小於 90 度的角」。",
       "sentenceIndex": 11,
       "sourcePractice": 1,
       "targets": [
         "acute angle"
       ],
       "optionReasons": {
-        "angle-mcq-07": "本句指「鈍角」。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。"
+        "angle-reviewed-3a82065c14": "對照完整句子：「銳角小於 90 度。」。這裡的「acute angle」表示「銳角；小於 90 度的角」。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "angle-mcq-07"
+      "correctOption": "angle-reviewed-3a82065c14",
+      "previousCorrectOption": "angle-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "angle-06-1",
-      "sense": "angle-mcq-07",
+      "sense": "angle-reviewed-ee610fe798",
       "en": "An obtuse angle is greater than 90 degrees but less than 180.",
       "zh": "鈍角大於 90 度但小於 180 度。",
       "masked": "An ____ is greater than 90 degrees but less than 180.",
       "options": [
-        "angle-mcq-07",
-        "angle-mcq-06",
+        "angle-reviewed-ee610fe798",
+        "angle-reviewed-da8570cd1d",
         "angle-mcq-08",
-        "angle-mcq-05",
-        "angle-mcq-09",
-        "angle-mcq-04"
+        "angle-pdf-002"
       ],
-      "explanation": "本句的「obtuse angle」指「鈍角」。",
+      "explanation": "對照完整句子：「鈍角大於 90 度但小於 180 度。」。這裡的「obtuse angle」表示「鈍角；大於 90 度而小於 180 度的角」。",
       "sentenceIndex": 12,
       "sourcePractice": 2,
       "targets": [
         "obtuse angle"
       ],
       "optionReasons": {
-        "angle-mcq-07": "本句指「鈍角」。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-04": "「角；角度」是「angle (geometry)」的用法，與本句語境不同。"
+        "angle-reviewed-ee610fe798": "對照完整句子：「鈍角大於 90 度但小於 180 度。」。這裡的「obtuse angle」表示「鈍角；大於 90 度而小於 180 度的角」。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "angle-mcq-07"
+      "correctOption": "angle-reviewed-ee610fe798",
+      "previousCorrectOption": "angle-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "angle-07-0",
@@ -914,11 +912,9 @@ export default {
       "masked": "The picture was hanging ____.",
       "options": [
         "angle-mcq-08",
-        "angle-mcq-07",
-        "angle-mcq-09",
-        "angle-mcq-06",
-        "angle-mcq-10",
-        "angle-mcq-05"
+        "angle-mcq-17",
+        "angle-reviewed-3a82065c14",
+        "angle-pdf-002"
       ],
       "explanation": "本句的「at an angle」指「傾斜着」。",
       "sentenceIndex": 13,
@@ -927,12 +923,10 @@ export default {
         "at an angle"
       ],
       "optionReasons": {
-        "angle-mcq-08": "本句指「傾斜着」。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。",
-        "angle-mcq-10": "「鏡頭角度」是「camera angle」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。"
+        "angle-mcq-08": "本句的「at an angle」指「傾斜着」。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-reviewed-3a82065c14": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-08"
     },
@@ -944,11 +938,9 @@ export default {
       "masked": "Hold the knife ____.",
       "options": [
         "angle-mcq-08",
-        "angle-mcq-07",
-        "angle-mcq-09",
-        "angle-mcq-06",
-        "angle-mcq-10",
-        "angle-mcq-05"
+        "angle-reviewed-da8570cd1d",
+        "angle-mcq-02",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「at an angle」指「傾斜着」。",
       "sentenceIndex": 14,
@@ -957,134 +949,124 @@ export default {
         "at an angle"
       ],
       "optionReasons": {
-        "angle-mcq-08": "本句指「傾斜着」。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。",
-        "angle-mcq-10": "「鏡頭角度」是「camera angle」的用法，與本句語境不同。",
-        "angle-mcq-05": "「直角」是「right angle」的用法，與本句語境不同。"
+        "angle-mcq-08": "本句的「at an angle」指「傾斜着」。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-08"
     },
     {
       "id": "angle-08-0",
-      "sense": "angle-mcq-09",
+      "sense": "angle-reviewed-6e00cd7dbd",
       "en": "Cut the branch at a 45-degree angle.",
       "zh": "以 45 度角剪斷樹枝。",
       "masked": "Cut the branch at a ____.",
       "options": [
-        "angle-mcq-09",
-        "angle-mcq-08",
-        "angle-mcq-10",
-        "angle-mcq-07",
-        "angle-mcq-11",
-        "angle-mcq-06"
+        "angle-reviewed-6e00cd7dbd",
+        "angle-mcq-21",
+        "angle-mcq-18",
+        "angle-mcq-17"
       ],
-      "explanation": "本句的「45-degree angle」指「45 度角」。",
+      "explanation": "對照完整句子：「以 45 度角剪斷樹枝。」。這裡的「45-degree angle」表示「以某個具體角度排列或傾斜」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "45-degree angle"
       ],
       "optionReasons": {
-        "angle-mcq-09": "本句指「45 度角」。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-10": "「鏡頭角度」是「camera angle」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
+        "angle-reviewed-6e00cd7dbd": "對照完整句子：「以 45 度角剪斷樹枝。」。這裡的「45-degree angle」表示「以某個具體角度排列或傾斜」。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "angle-mcq-09"
+      "correctOption": "angle-reviewed-6e00cd7dbd",
+      "previousCorrectOption": "angle-mcq-09",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "angle-08-1",
-      "sense": "angle-mcq-09",
+      "sense": "angle-reviewed-6e00cd7dbd",
       "en": "The roof slopes at a steep angle.",
       "zh": "屋頂以很陡的角度傾斜。",
       "masked": "The roof slopes at a steep ____.",
       "options": [
-        "angle-mcq-09",
-        "angle-mcq-08",
-        "angle-mcq-10",
-        "angle-mcq-07",
-        "angle-mcq-11",
-        "angle-mcq-06"
+        "angle-reviewed-6e00cd7dbd",
+        "angle-mcq-18",
+        "angle-mcq-23",
+        "angle-mcq-15"
       ],
-      "explanation": "本句的「angle」指「45 度角」。",
+      "explanation": "對照完整句子：「屋頂以很陡的角度傾斜。」。這裡的「angle」表示「以某個具體角度排列或傾斜」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-09": "本句指「45 度角」。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-10": "「鏡頭角度」是「camera angle」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。",
-        "angle-mcq-06": "「銳角」是「acute angle」的用法，與本句語境不同。"
+        "angle-reviewed-6e00cd7dbd": "對照完整句子：「屋頂以很陡的角度傾斜。」。這裡的「angle」表示「以某個具體角度排列或傾斜」。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "angle-mcq-09"
+      "correctOption": "angle-reviewed-6e00cd7dbd",
+      "previousCorrectOption": "angle-mcq-09",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "angle-09-0",
-      "sense": "angle-mcq-10",
+      "sense": "angle-reviewed-da8570cd1d",
       "en": "The view looks better from this angle.",
       "zh": "從這個角度看，景色更好。",
       "masked": "The view looks better from this ____.",
       "options": [
-        "angle-mcq-10",
-        "angle-mcq-09",
-        "angle-mcq-11",
-        "angle-mcq-08",
-        "angle-mcq-12",
-        "angle-mcq-07"
+        "angle-reviewed-da8570cd1d",
+        "angle-mcq-19",
+        "angle-mcq-18",
+        "angle-mcq-17"
       ],
-      "explanation": "本句的「angle」指「鏡頭角度」。",
+      "explanation": "對照完整句子：「從這個角度看，景色更好。」。這裡的「angle」表示「觀看或拍攝某人／某物時所處的方向或位置」。",
       "sentenceIndex": 17,
       "sourcePractice": 1,
       "targets": [
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-10": "本句指「鏡頭角度」。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。"
+        "angle-reviewed-da8570cd1d": "對照完整句子：「從這個角度看，景色更好。」。這裡的「angle」表示「觀看或拍攝某人／某物時所處的方向或位置」。",
+        "angle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "angle-mcq-10"
+      "correctOption": "angle-reviewed-da8570cd1d",
+      "previousCorrectOption": "angle-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "angle-09-1",
-      "sense": "angle-mcq-10",
+      "sense": "angle-reviewed-da8570cd1d",
       "en": "The photographer changed the camera angle.",
       "zh": "攝影師改變了相機的拍攝角度。",
       "masked": "The photographer changed the camera ____.",
       "options": [
-        "angle-mcq-10",
-        "angle-mcq-09",
-        "angle-mcq-11",
-        "angle-mcq-08",
-        "angle-mcq-12",
-        "angle-mcq-07"
+        "angle-reviewed-da8570cd1d",
+        "angle-mcq-05",
+        "angle-mcq-17",
+        "angle-pdf-001"
       ],
-      "explanation": "本句的「angle」指「鏡頭角度」。",
+      "explanation": "對照完整句子：「攝影師改變了相機的拍攝角度。」。這裡的「angle」表示「觀看或拍攝某人／某物時所處的方向或位置」。",
       "sentenceIndex": 18,
       "sourcePractice": 2,
       "targets": [
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-10": "本句指「鏡頭角度」。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。"
+        "angle-reviewed-da8570cd1d": "對照完整句子：「攝影師改變了相機的拍攝角度。」。這裡的「angle」表示「觀看或拍攝某人／某物時所處的方向或位置」。",
+        "angle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "angle-mcq-10"
+      "correctOption": "angle-reviewed-da8570cd1d",
+      "previousCorrectOption": "angle-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "angle-10-0",
@@ -1094,11 +1076,9 @@ export default {
       "masked": "A low ____ can make a person look more powerful.",
       "options": [
         "angle-mcq-10",
-        "angle-mcq-09",
-        "angle-mcq-11",
-        "angle-mcq-08",
-        "angle-mcq-12",
-        "angle-mcq-07"
+        "angle-mcq-15",
+        "angle-mcq-23",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「camera angle」指「鏡頭角度」。",
       "sentenceIndex": 19,
@@ -1107,12 +1087,10 @@ export default {
         "camera angle"
       ],
       "optionReasons": {
-        "angle-mcq-10": "本句指「鏡頭角度」。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。"
+        "angle-mcq-10": "本句的「camera angle」指「鏡頭角度」。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-10"
     },
@@ -1124,11 +1102,9 @@ export default {
       "masked": "The director used unusual ____.",
       "options": [
         "angle-mcq-10",
-        "angle-mcq-09",
-        "angle-mcq-11",
-        "angle-mcq-08",
-        "angle-mcq-12",
-        "angle-mcq-07"
+        "angle-mcq-18",
+        "angle-pdf-001",
+        "angle-mcq-23"
       ],
       "explanation": "本句的「camera angles」指「鏡頭角度」。",
       "sentenceIndex": 20,
@@ -1137,12 +1113,10 @@ export default {
         "camera angles"
       ],
       "optionReasons": {
-        "angle-mcq-10": "本句指「鏡頭角度」。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-07": "「鈍角」是「obtuse angle」的用法，與本句語境不同。"
+        "angle-mcq-10": "本句的「camera angles」指「鏡頭角度」。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-10"
     },
@@ -1154,11 +1128,9 @@ export default {
       "masked": "The screen is clear from almost every ____.",
       "options": [
         "angle-mcq-11",
-        "angle-mcq-10",
-        "angle-mcq-12",
-        "angle-mcq-09",
-        "angle-mcq-13",
-        "angle-mcq-08"
+        "angle-mcq-23",
+        "angle-pdf-002",
+        "angle-pdf-001"
       ],
       "explanation": "本句的「viewing angle」指「觀看角度」。",
       "sentenceIndex": 21,
@@ -1167,12 +1139,10 @@ export default {
         "viewing angle"
       ],
       "optionReasons": {
-        "angle-mcq-11": "本句指「觀看角度」。",
-        "angle-mcq-10": "「鏡頭角度」是「camera angle」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。"
+        "angle-mcq-11": "本句的「viewing angle」指「觀看角度」。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-11"
     },
@@ -1184,11 +1154,9 @@ export default {
       "masked": "Image quality changes depending on the ____.",
       "options": [
         "angle-mcq-11",
-        "angle-mcq-10",
-        "angle-mcq-12",
-        "angle-mcq-09",
-        "angle-mcq-13",
-        "angle-mcq-08"
+        "angle-pdf-002",
+        "angle-mcq-17",
+        "angle-mcq-15"
       ],
       "explanation": "本句的「viewing angle」指「觀看角度」。",
       "sentenceIndex": 22,
@@ -1197,12 +1165,10 @@ export default {
         "viewing angle"
       ],
       "optionReasons": {
-        "angle-mcq-11": "本句指「觀看角度」。",
-        "angle-mcq-10": "「鏡頭角度」是「camera angle」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-09": "「45 度角」是「45-degree angle」的用法，與本句語境不同。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。",
-        "angle-mcq-08": "「傾斜着」是「at an angle」的用法，與本句語境不同。"
+        "angle-mcq-11": "本句的「viewing angle」指「觀看角度」。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-11"
     },
@@ -1214,10 +1180,8 @@ export default {
       "masked": "The reporter found a new ____ on the story.",
       "options": [
         "angle-mcq-21",
-        "angle-mcq-20",
-        "angle-mcq-22",
-        "angle-mcq-19",
-        "angle-mcq-23",
+        "angle-mcq-10",
+        "angle-mcq-15",
         "angle-mcq-18"
       ],
       "explanation": "本句的「angle」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
@@ -1227,12 +1191,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-21": "本句指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-21": "本句的「angle」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
+        "angle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-21"
     },
@@ -1244,11 +1206,9 @@ export default {
       "masked": "We need a stronger ____ for the article.",
       "options": [
         "angle-mcq-21",
-        "angle-mcq-20",
         "angle-mcq-22",
-        "angle-mcq-19",
-        "angle-mcq-23",
-        "angle-mcq-18"
+        "angle-mcq-16",
+        "angle-pdf-002"
       ],
       "explanation": "本句的「angle」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
       "sentenceIndex": 24,
@@ -1257,12 +1217,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-21": "本句指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-23": "「某人為取得某種結果而採用的隱藏策略、目的或盤算」是「13. angle（策略／意圖） — 盤算；用意；策略角度」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-21": "本句的「angle」指「看待、理解或分析某件事的一種特定觀點或切入方式」。",
+        "angle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-21"
     },
@@ -1275,10 +1233,8 @@ export default {
       "options": [
         "angle-mcq-23",
         "angle-mcq-22",
-        "angle-mcq-21",
-        "angle-mcq-20",
-        "angle-mcq-19",
-        "angle-mcq-18"
+        "angle-mcq-18",
+        "angle-pdf-001"
       ],
       "explanation": "本句的「angle」指「某人為取得某種結果而採用的隱藏策略、目的或盤算」。",
       "sentenceIndex": 25,
@@ -1287,12 +1243,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-23": "本句指「某人為取得某種結果而採用的隱藏策略、目的或盤算」。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-23": "本句的「angle」指「某人為取得某種結果而採用的隱藏策略、目的或盤算」。",
+        "angle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-23"
     },
@@ -1304,10 +1258,8 @@ export default {
       "masked": "I couldn't figure out her ____.",
       "options": [
         "angle-mcq-23",
-        "angle-mcq-22",
-        "angle-mcq-21",
-        "angle-mcq-20",
-        "angle-mcq-19",
+        "angle-mcq-08",
+        "angle-mcq-15",
         "angle-mcq-18"
       ],
       "explanation": "本句的「angle」指「某人為取得某種結果而採用的隱藏策略、目的或盤算」。",
@@ -1317,12 +1269,10 @@ export default {
         "angle"
       ],
       "optionReasons": {
-        "angle-mcq-23": "本句指「某人為取得某種結果而採用的隱藏策略、目的或盤算」。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。"
+        "angle-mcq-23": "本句的「angle」指「某人為取得某種結果而採用的隱藏策略、目的或盤算」。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-23"
     },
@@ -1334,11 +1284,9 @@ export default {
       "masked": "She ____ towards the light.",
       "options": [
         "angle-mcq-14",
-        "angle-mcq-13",
-        "angle-mcq-15",
-        "angle-mcq-12",
         "angle-mcq-16",
-        "angle-mcq-11"
+        "angle-pdf-001",
+        "angle-mcq-17"
       ],
       "explanation": "本句的「angled the mirror」指「調整角度」。",
       "sentenceIndex": 27,
@@ -1347,12 +1295,10 @@ export default {
         "angled the mirror"
       ],
       "optionReasons": {
-        "angle-mcq-14": "本句指「調整角度」。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。"
+        "angle-mcq-14": "本句的「angled the mirror」指「調整角度」。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-14"
     },
@@ -1364,11 +1310,9 @@ export default {
       "masked": "He ____ towards the window.",
       "options": [
         "angle-mcq-14",
-        "angle-mcq-13",
-        "angle-mcq-15",
-        "angle-mcq-12",
-        "angle-mcq-16",
-        "angle-mcq-11"
+        "angle-reviewed-da8570cd1d",
+        "angle-pdf-002",
+        "angle-mcq-08"
       ],
       "explanation": "本句的「angled the chair」指「調整角度」。",
       "sentenceIndex": 28,
@@ -1377,12 +1321,10 @@ export default {
         "angled the chair"
       ],
       "optionReasons": {
-        "angle-mcq-14": "本句指「調整角度」。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-11": "「觀看角度」是「viewing angle」的用法，與本句語境不同。"
+        "angle-mcq-14": "本句的「angled the chair」指「調整角度」。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-14"
     },
@@ -1394,11 +1336,9 @@ export default {
       "masked": "The screen is ____ the driver.",
       "options": [
         "angle-mcq-15",
-        "angle-mcq-14",
-        "angle-mcq-16",
-        "angle-mcq-13",
-        "angle-mcq-17",
-        "angle-mcq-12"
+        "angle-mcq-23",
+        "angle-pdf-001",
+        "angle-mcq-16"
       ],
       "explanation": "本句的「angled towards」指「把 X 朝向 Y」。",
       "sentenceIndex": 29,
@@ -1407,12 +1347,10 @@ export default {
         "angled towards"
       ],
       "optionReasons": {
-        "angle-mcq-15": "本句指「把 X 朝向 Y」。",
-        "angle-mcq-14": "「調整角度」是「angle something」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。"
+        "angle-mcq-15": "本句的「angled towards」指「把 X 朝向 Y」。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-15"
     },
@@ -1424,11 +1362,9 @@ export default {
       "masked": "The lights were ____ the audience.",
       "options": [
         "angle-mcq-15",
-        "angle-mcq-14",
-        "angle-mcq-16",
-        "angle-mcq-13",
-        "angle-mcq-17",
-        "angle-mcq-12"
+        "angle-mcq-21",
+        "angle-mcq-19",
+        "angle-mcq-18"
       ],
       "explanation": "本句的「angled away from」指「把 X 朝向 Y」。",
       "sentenceIndex": 30,
@@ -1437,12 +1373,10 @@ export default {
         "angled away from"
       ],
       "optionReasons": {
-        "angle-mcq-15": "本句指「把 X 朝向 Y」。",
-        "angle-mcq-14": "「調整角度」是「angle something」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-12": "「報道／故事切入角度」是「story angle」的用法，與本句語境不同。"
+        "angle-mcq-15": "本句的「angled away from」指「把 X 朝向 Y」。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-15"
     },
@@ -1454,11 +1388,9 @@ export default {
       "masked": "The article was ____.",
       "options": [
         "angle-mcq-16",
-        "angle-mcq-15",
+        "angle-mcq-05",
         "angle-mcq-17",
-        "angle-mcq-14",
-        "angle-mcq-18",
-        "angle-mcq-13"
+        "angle-mcq-15"
       ],
       "explanation": "本句的「angled towards younger readers」指「針對 X 呈現」。",
       "sentenceIndex": 31,
@@ -1467,12 +1399,10 @@ export default {
         "angled towards younger readers"
       ],
       "optionReasons": {
-        "angle-mcq-16": "本句指「針對 X 呈現」。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-14": "「調整角度」是「angle something」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。"
+        "angle-mcq-16": "本句的「angled towards younger readers」指「針對 X 呈現」。",
+        "angle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-16"
     },
@@ -1484,11 +1414,9 @@ export default {
       "masked": "The report was ____.",
       "options": [
         "angle-mcq-16",
-        "angle-mcq-15",
-        "angle-mcq-17",
+        "angle-pdf-001",
         "angle-mcq-14",
-        "angle-mcq-18",
-        "angle-mcq-13"
+        "angle-reviewed-da8570cd1d"
       ],
       "explanation": "本句的「angled to emphasize the economic benefits」指「針對 X 呈現」。",
       "sentenceIndex": 32,
@@ -1497,12 +1425,10 @@ export default {
         "angled to emphasize the economic benefits"
       ],
       "optionReasons": {
-        "angle-mcq-16": "本句指「針對 X 呈現」。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-14": "「調整角度」是「angle something」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-13": "「盤算；用意」是「someone's angle」的用法，與本句語境不同。"
+        "angle-mcq-16": "本句的「angled to emphasize the economic benefits」指「針對 X 呈現」。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-16"
     },
@@ -1514,11 +1440,9 @@ export default {
       "masked": "He seemed to be ____.",
       "options": [
         "angle-mcq-17",
-        "angle-mcq-16",
-        "angle-mcq-18",
+        "angle-reviewed-ee610fe798",
         "angle-mcq-15",
-        "angle-mcq-19",
-        "angle-mcq-14"
+        "angle-mcq-20"
       ],
       "explanation": "本句的「angling for a promotion」指「設法爭取 X」。",
       "sentenceIndex": 33,
@@ -1527,12 +1451,10 @@ export default {
         "angling for a promotion"
       ],
       "optionReasons": {
-        "angle-mcq-17": "本句指「設法爭取 X」。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-14": "「調整角度」是「angle something」的用法，與本句語境不同。"
+        "angle-mcq-17": "本句的「angling for a promotion」指「設法爭取 X」。",
+        "angle-reviewed-ee610fe798": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-17"
     },
@@ -1544,11 +1466,9 @@ export default {
       "masked": "She was clearly ____.",
       "options": [
         "angle-mcq-17",
-        "angle-mcq-16",
-        "angle-mcq-18",
-        "angle-mcq-15",
-        "angle-mcq-19",
-        "angle-mcq-14"
+        "angle-mcq-22",
+        "angle-mcq-08",
+        "angle-mcq-21"
       ],
       "explanation": "本句的「angling for an invitation」指「設法爭取 X」。",
       "sentenceIndex": 34,
@@ -1557,12 +1477,10 @@ export default {
         "angling for an invitation"
       ],
       "optionReasons": {
-        "angle-mcq-17": "本句指「設法爭取 X」。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-14": "「調整角度」是「angle something」的用法，與本句語境不同。"
+        "angle-mcq-17": "本句的「angling for an invitation」指「設法爭取 X」。",
+        "angle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-17"
     },
@@ -1574,11 +1492,9 @@ export default {
       "masked": "He spends weekends ____ by the river.",
       "options": [
         "angle-mcq-18",
+        "angle-mcq-05",
         "angle-mcq-17",
-        "angle-mcq-19",
-        "angle-mcq-16",
-        "angle-mcq-20",
-        "angle-mcq-15"
+        "angle-mcq-16"
       ],
       "explanation": "本句的「angling」指「垂釣」。",
       "sentenceIndex": 35,
@@ -1587,12 +1503,10 @@ export default {
         "angling"
       ],
       "optionReasons": {
-        "angle-mcq-18": "本句指「垂釣」。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。"
+        "angle-mcq-18": "本句的「angling」指「垂釣」。",
+        "angle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-18"
     },
@@ -1604,11 +1518,9 @@ export default {
       "masked": "____ is a popular outdoor activity.",
       "options": [
         "angle-mcq-18",
-        "angle-mcq-17",
-        "angle-mcq-19",
-        "angle-mcq-16",
-        "angle-mcq-20",
-        "angle-mcq-15"
+        "angle-mcq-10",
+        "angle-mcq-21",
+        "angle-mcq-20"
       ],
       "explanation": "本句的「Angling」指「垂釣」。",
       "sentenceIndex": 36,
@@ -1617,12 +1529,10 @@ export default {
         "Angling"
       ],
       "optionReasons": {
-        "angle-mcq-18": "本句指「垂釣」。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。"
+        "angle-mcq-18": "本句的「Angling」指「垂釣」。",
+        "angle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-18"
     },
@@ -1634,11 +1544,9 @@ export default {
       "masked": "They spent the afternoon ____.",
       "options": [
         "angle-pdf-002",
-        "angle-mcq-17",
-        "angle-mcq-19",
-        "angle-mcq-16",
-        "angle-mcq-20",
-        "angle-mcq-15"
+        "angle-pdf-001",
+        "angle-mcq-02",
+        "angle-mcq-08"
       ],
       "explanation": "本句的「angling for trout」指「用魚竿和魚鉤釣魚」。",
       "sentenceIndex": 37,
@@ -1647,12 +1555,10 @@ export default {
         "angling for trout"
       ],
       "optionReasons": {
-        "angle-pdf-002": "本句指「用魚竿和魚鉤釣魚」。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。"
+        "angle-pdf-002": "本句的「angling for trout」指「用魚竿和魚鉤釣魚」。",
+        "angle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-pdf-002"
     },
@@ -1664,11 +1570,9 @@ export default {
       "masked": "He likes to ____.",
       "options": [
         "angle-pdf-002",
-        "angle-mcq-17",
+        "angle-mcq-21",
         "angle-mcq-19",
-        "angle-mcq-16",
-        "angle-mcq-20",
-        "angle-mcq-15"
+        "angle-mcq-16"
       ],
       "explanation": "本句的「angle in mountain streams」指「用魚竿和魚鉤釣魚」。",
       "sentenceIndex": 38,
@@ -1677,12 +1581,10 @@ export default {
         "angle in mountain streams"
       ],
       "optionReasons": {
-        "angle-pdf-002": "本句指「用魚竿和魚鉤釣魚」。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-15": "「把 X 朝向 Y」是「angle X towards Y」的用法，與本句語境不同。"
+        "angle-pdf-002": "本句的「angle in mountain streams」指「用魚竿和魚鉤釣魚」。",
+        "angle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-pdf-002"
     },
@@ -1694,10 +1596,8 @@ export default {
       "masked": "The building has a very ____.",
       "options": [
         "angle-mcq-19",
-        "angle-mcq-18",
-        "angle-mcq-20",
-        "angle-mcq-17",
-        "angle-mcq-21",
+        "angle-pdf-002",
+        "angle-reviewed-da8570cd1d",
         "angle-mcq-16"
       ],
       "explanation": "本句的「angular design」指「有稜角的」。",
@@ -1707,12 +1607,10 @@ export default {
         "angular design"
       ],
       "optionReasons": {
-        "angle-mcq-19": "本句指「有稜角的」。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。"
+        "angle-mcq-19": "本句的「angular design」指「有稜角的」。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-19"
     },
@@ -1724,11 +1622,9 @@ export default {
       "masked": "The sculpture is made up of ____.",
       "options": [
         "angle-mcq-19",
-        "angle-mcq-18",
-        "angle-mcq-20",
-        "angle-mcq-17",
-        "angle-mcq-21",
-        "angle-mcq-16"
+        "angle-mcq-23",
+        "angle-pdf-002",
+        "angle-mcq-17"
       ],
       "explanation": "本句的「angular shapes」指「有稜角的」。",
       "sentenceIndex": 40,
@@ -1737,12 +1633,10 @@ export default {
         "angular shapes"
       ],
       "optionReasons": {
-        "angle-mcq-19": "本句指「有稜角的」。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-20": "「稜角分明的五官」是「angular features」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-16": "「針對 X 呈現」是「angle a story towards X」的用法，與本句語境不同。"
+        "angle-mcq-19": "本句的「angular shapes」指「有稜角的」。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-19"
     },
@@ -1754,11 +1648,9 @@ export default {
       "masked": "He has a thin, ____.",
       "options": [
         "angle-mcq-20",
-        "angle-mcq-19",
-        "angle-mcq-21",
-        "angle-mcq-18",
-        "angle-mcq-22",
-        "angle-mcq-17"
+        "angle-reviewed-da8570cd1d",
+        "angle-mcq-16",
+        "angle-pdf-002"
       ],
       "explanation": "本句的「angular face」指「稜角分明的五官」。",
       "sentenceIndex": 41,
@@ -1767,12 +1659,10 @@ export default {
         "angular face"
       ],
       "optionReasons": {
-        "angle-mcq-20": "本句指「稜角分明的五官」。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。"
+        "angle-mcq-20": "本句的「angular face」指「稜角分明的五官」。",
+        "angle-reviewed-da8570cd1d": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "angle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-20"
     },
@@ -1784,11 +1674,9 @@ export default {
       "masked": "Her ____ give her a striking appearance.",
       "options": [
         "angle-mcq-20",
-        "angle-mcq-19",
-        "angle-mcq-21",
-        "angle-mcq-18",
-        "angle-mcq-22",
-        "angle-mcq-17"
+        "angle-mcq-23",
+        "angle-mcq-08",
+        "angle-mcq-18"
       ],
       "explanation": "本句的「angular features」指「稜角分明的五官」。",
       "sentenceIndex": 42,
@@ -1797,12 +1685,10 @@ export default {
         "angular features"
       ],
       "optionReasons": {
-        "angle-mcq-20": "本句指「稜角分明的五官」。",
-        "angle-mcq-19": "「有稜角的」是「angular」的用法，與本句語境不同。",
-        "angle-mcq-21": "「看待、理解或分析某件事的一種特定觀點或切入方式」是「1. angle（觀點；看事情的角度） — 角度；觀點」的用法，與本句語境不同。",
-        "angle-mcq-18": "「垂釣」是「angling」的用法，與本句語境不同。",
-        "angle-mcq-22": "「兩條線、兩個平面或兩個方向相交時形成的角度」是「4. angle（幾何：角） — 角；角度」的用法，與本句語境不同。",
-        "angle-mcq-17": "「設法爭取 X」是「angle for X」的用法，與本句語境不同。"
+        "angle-mcq-20": "本句的「angular features」指「稜角分明的五官」。",
+        "angle-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "angle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "angle-mcq-20"
     }
@@ -1814,5 +1700,7 @@ export default {
     "sha256": "a3b698453753811d0326cd0b7c45e45c363cef95d933f63ad5317b41aa19a7c6",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

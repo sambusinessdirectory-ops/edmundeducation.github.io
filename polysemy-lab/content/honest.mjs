@@ -481,10 +481,8 @@ export default {
       "options": [
         "honest-mcq-01",
         "honest-mcq-02",
-        "honest-mcq-03",
-        "honest-mcq-04",
-        "honest-mcq-05",
-        "honest-mcq-06"
+        "honest-mcq-08",
+        "honest-mcq-12"
       ],
       "explanation": "本句的「honest」指「誠實的人」。",
       "sentenceIndex": 0,
@@ -493,12 +491,10 @@ export default {
         "honest"
       ],
       "optionReasons": {
-        "honest-mcq-01": "本句指「誠實的人」。",
-        "honest-mcq-02": "「對某人坦白」是「honest with someone」的用法，與本句語境不同。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。"
+        "honest-mcq-01": "本句的「honest」指「誠實的人」。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-01"
     },
@@ -510,11 +506,9 @@ export default {
       "masked": "I trust him because he has always been ____ with me.",
       "options": [
         "honest-mcq-01",
-        "honest-mcq-02",
-        "honest-mcq-03",
-        "honest-mcq-04",
-        "honest-mcq-05",
-        "honest-mcq-06"
+        "honest-mcq-08",
+        "honest-mcq-14",
+        "honest-mcq-03"
       ],
       "explanation": "本句的「honest」指「誠實的人」。",
       "sentenceIndex": 1,
@@ -523,12 +517,10 @@ export default {
         "honest"
       ],
       "optionReasons": {
-        "honest-mcq-01": "本句指「誠實的人」。",
-        "honest-mcq-02": "「對某人坦白」是「honest with someone」的用法，與本句語境不同。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。"
+        "honest-mcq-01": "本句的「honest」指「誠實的人」。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-01"
     },
@@ -540,11 +532,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "honest-mcq-02",
-        "honest-mcq-01",
-        "honest-mcq-03",
-        "honest-mcq-04",
-        "honest-mcq-05",
-        "honest-mcq-06"
+        "honest-mcq-15",
+        "honest-mcq-07",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「be honest with me」指「對某人坦白」。",
       "sentenceIndex": 2,
@@ -553,12 +543,10 @@ export default {
         "be honest with me"
       ],
       "optionReasons": {
-        "honest-mcq-02": "本句指「對某人坦白」。",
-        "honest-mcq-01": "「誠實的人」是「honest person」的用法，與本句語境不同。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。"
+        "honest-mcq-02": "本句的「be honest with me」指「對某人坦白」。",
+        "honest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-02"
     },
@@ -570,11 +558,9 @@ export default {
       "masked": "She was completely ____ about what happened.",
       "options": [
         "honest-mcq-02",
-        "honest-mcq-01",
-        "honest-mcq-03",
-        "honest-mcq-04",
-        "honest-mcq-05",
-        "honest-mcq-06"
+        "honest-mcq-16",
+        "honest-mcq-10",
+        "honest-mcq-14"
       ],
       "explanation": "本句的「honest with her parents」指「對某人坦白」。",
       "sentenceIndex": 3,
@@ -583,12 +569,10 @@ export default {
         "honest with her parents"
       ],
       "optionReasons": {
-        "honest-mcq-02": "本句指「對某人坦白」。",
-        "honest-mcq-01": "「誠實的人」是「honest person」的用法，與本句語境不同。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。"
+        "honest-mcq-02": "本句的「honest with her parents」指「對某人坦白」。",
+        "honest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-02"
     },
@@ -600,11 +584,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "honest-mcq-03",
-        "honest-mcq-02",
-        "honest-mcq-04",
         "honest-mcq-01",
-        "honest-mcq-05",
-        "honest-mcq-06"
+        "honest-mcq-12",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honest about his mistakes」指「坦白談及 X」。",
       "sentenceIndex": 4,
@@ -613,12 +595,10 @@ export default {
         "honest about his mistakes"
       ],
       "optionReasons": {
-        "honest-mcq-03": "本句指「坦白談及 X」。",
-        "honest-mcq-02": "「對某人坦白」是「honest with someone」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-01": "「誠實的人」是「honest person」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。"
+        "honest-mcq-03": "本句的「honest about his mistakes」指「坦白談及 X」。",
+        "honest-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-03"
     },
@@ -630,11 +610,9 @@ export default {
       "masked": "We need to be ____ we face.",
       "options": [
         "honest-mcq-03",
-        "honest-mcq-02",
-        "honest-mcq-04",
-        "honest-mcq-01",
-        "honest-mcq-05",
-        "honest-mcq-06"
+        "honest-mcq-07",
+        "honest-mcq-16",
+        "honest-mcq-21"
       ],
       "explanation": "本句的「honest about the difficulties」指「坦白談及 X」。",
       "sentenceIndex": 5,
@@ -643,12 +621,10 @@ export default {
         "honest about the difficulties"
       ],
       "optionReasons": {
-        "honest-mcq-03": "本句指「坦白談及 X」。",
-        "honest-mcq-02": "「對某人坦白」是「honest with someone」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-01": "「誠實的人」是「honest person」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。"
+        "honest-mcq-03": "本句的「honest about the difficulties」指「坦白談及 X」。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-03"
     },
@@ -660,11 +636,9 @@ export default {
       "masked": "Give me an ____.",
       "options": [
         "honest-mcq-04",
-        "honest-mcq-03",
-        "honest-mcq-05",
-        "honest-mcq-02",
         "honest-mcq-06",
-        "honest-mcq-01"
+        "honest-mcq-07",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honest answer」指「誠實／真實回答」。",
       "sentenceIndex": 6,
@@ -673,12 +647,10 @@ export default {
         "honest answer"
       ],
       "optionReasons": {
-        "honest-mcq-04": "本句指「誠實／真實回答」。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-02": "「對某人坦白」是「honest with someone」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。",
-        "honest-mcq-01": "「誠實的人」是「honest person」的用法，與本句語境不同。"
+        "honest-mcq-04": "本句的「honest answer」指「誠實／真實回答」。",
+        "honest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-04"
     },
@@ -690,11 +662,9 @@ export default {
       "masked": "I want your ____.",
       "options": [
         "honest-mcq-04",
-        "honest-mcq-03",
-        "honest-mcq-05",
-        "honest-mcq-02",
-        "honest-mcq-06",
-        "honest-mcq-01"
+        "honest-mcq-10",
+        "honest-mcq-07",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「honest opinion」指「誠實／真實回答」。",
       "sentenceIndex": 7,
@@ -703,12 +673,10 @@ export default {
         "honest opinion"
       ],
       "optionReasons": {
-        "honest-mcq-04": "本句指「誠實／真實回答」。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-02": "「對某人坦白」是「honest with someone」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。",
-        "honest-mcq-01": "「誠實的人」是「honest person」的用法，與本句語境不同。"
+        "honest-mcq-04": "本句的「honest opinion」指「誠實／真實回答」。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-04"
     },
@@ -720,11 +688,9 @@ export default {
       "masked": "I appreciate your ____.",
       "options": [
         "honest-mcq-06",
-        "honest-mcq-05",
-        "honest-mcq-07",
-        "honest-mcq-04",
-        "honest-mcq-08",
-        "honest-mcq-03"
+        "honest-mcq-15",
+        "honest-mcq-21",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honest feedback」指「坦率意見」。",
       "sentenceIndex": 8,
@@ -733,12 +699,10 @@ export default {
         "honest feedback"
       ],
       "optionReasons": {
-        "honest-mcq-06": "本句指「坦率意見」。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-07": "「無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。"
+        "honest-mcq-06": "本句的「honest feedback」指「坦率意見」。",
+        "honest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-06"
     },
@@ -750,11 +714,9 @@ export default {
       "masked": "Sometimes we need ____ to improve.",
       "options": [
         "honest-mcq-06",
-        "honest-mcq-05",
-        "honest-mcq-07",
-        "honest-mcq-04",
-        "honest-mcq-08",
-        "honest-mcq-03"
+        "honest-mcq-19",
+        "honest-mcq-21",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honest criticism」指「坦率意見」。",
       "sentenceIndex": 9,
@@ -763,12 +725,10 @@ export default {
         "honest criticism"
       ],
       "optionReasons": {
-        "honest-mcq-06": "本句指「坦率意見」。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-07": "「無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。",
-        "honest-mcq-03": "「坦白談及 X」是「honest about X」的用法，與本句語境不同。"
+        "honest-mcq-06": "本句的「honest criticism」指「坦率意見」。",
+        "honest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-06"
     },
@@ -780,11 +740,9 @@ export default {
       "masked": "It was an ____.",
       "options": [
         "honest-mcq-07",
-        "honest-mcq-06",
-        "honest-mcq-08",
-        "honest-mcq-05",
-        "honest-mcq-09",
-        "honest-mcq-04"
+        "honest-mcq-17",
+        "honest-mcq-10",
+        "honest-mcq-14"
       ],
       "explanation": "本句的「honest mistake」指「無心之失」。",
       "sentenceIndex": 10,
@@ -793,12 +751,10 @@ export default {
         "honest mistake"
       ],
       "optionReasons": {
-        "honest-mcq-07": "本句指「無心之失」。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。"
+        "honest-mcq-07": "本句的「honest mistake」指「無心之失」。",
+        "honest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-07"
     },
@@ -810,11 +766,9 @@ export default {
       "masked": "She gave me the wrong number, but it was an ____.",
       "options": [
         "honest-mcq-07",
-        "honest-mcq-06",
-        "honest-mcq-08",
-        "honest-mcq-05",
-        "honest-mcq-09",
-        "honest-mcq-04"
+        "honest-mcq-10",
+        "honest-mcq-21",
+        "honest-mcq-16"
       ],
       "explanation": "本句的「honest mistake」指「無心之失」。",
       "sentenceIndex": 11,
@@ -823,12 +777,10 @@ export default {
         "honest mistake"
       ],
       "optionReasons": {
-        "honest-mcq-07": "本句指「無心之失」。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-04": "「誠實／真實回答」是「honest answer」的用法，與本句語境不同。"
+        "honest-mcq-07": "本句的「honest mistake」指「無心之失」。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-07"
     },
@@ -840,11 +792,9 @@ export default {
       "masked": "He earns his money through ____.",
       "options": [
         "honest-mcq-08",
-        "honest-mcq-07",
-        "honest-mcq-09",
-        "honest-mcq-06",
         "honest-mcq-10",
-        "honest-mcq-05"
+        "honest-mcq-14",
+        "honest-mcq-17"
       ],
       "explanation": "本句的「honest work」指「正當工作」。",
       "sentenceIndex": 12,
@@ -853,12 +803,10 @@ export default {
         "honest work"
       ],
       "optionReasons": {
-        "honest-mcq-08": "本句指「正當工作」。",
-        "honest-mcq-07": "「無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。"
+        "honest-mcq-08": "本句的「honest work」指「正當工作」。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-08"
     },
@@ -870,11 +818,9 @@ export default {
       "masked": "She wanted to make an ____.",
       "options": [
         "honest-mcq-08",
+        "honest-mcq-20",
         "honest-mcq-07",
-        "honest-mcq-09",
-        "honest-mcq-06",
-        "honest-mcq-10",
-        "honest-mcq-05"
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honest living」指「正當工作」。",
       "sentenceIndex": 13,
@@ -883,12 +829,10 @@ export default {
         "honest living"
       ],
       "optionReasons": {
-        "honest-mcq-08": "本句指「正當工作」。",
-        "honest-mcq-07": "「無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-06": "「坦率意見」是「honest feedback」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-05": "「真實意見」是「honest opinion」的用法，與本句語境不同。"
+        "honest-mcq-08": "本句的「honest living」指「正當工作」。",
+        "honest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-08"
     },
@@ -900,11 +844,9 @@ export default {
       "masked": "They offer good products at an ____.",
       "options": [
         "honest-mcq-10",
-        "honest-mcq-09",
+        "honest-mcq-02",
         "honest-mcq-11",
-        "honest-mcq-08",
-        "honest-mcq-12",
-        "honest-mcq-07"
+        "honest-mcq-08"
       ],
       "explanation": "本句的「honest price」指「公道價格／交易」。",
       "sentenceIndex": 14,
@@ -913,12 +855,10 @@ export default {
         "honest price"
       ],
       "optionReasons": {
-        "honest-mcq-10": "本句指「公道價格／交易」。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-07": "「無心之失」是「honest mistake」的用法，與本句語境不同。"
+        "honest-mcq-10": "本句的「honest price」指「公道價格／交易」。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-10"
     },
@@ -930,11 +870,9 @@ export default {
       "masked": "We just want an ____.",
       "options": [
         "honest-mcq-10",
-        "honest-mcq-09",
-        "honest-mcq-11",
-        "honest-mcq-08",
-        "honest-mcq-12",
-        "honest-mcq-07"
+        "honest-mcq-06",
+        "honest-mcq-21",
+        "honest-mcq-04"
       ],
       "explanation": "本句的「honest deal」指「公道價格／交易」。",
       "sentenceIndex": 15,
@@ -943,12 +881,10 @@ export default {
         "honest deal"
       ],
       "optionReasons": {
-        "honest-mcq-10": "本句指「公道價格／交易」。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-07": "「無心之失」是「honest mistake」的用法，與本句語境不同。"
+        "honest-mcq-10": "本句的「honest deal」指「公道價格／交易」。",
+        "honest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-10"
     },
@@ -960,11 +896,9 @@ export default {
       "masked": "Please answer ____.",
       "options": [
         "honest-mcq-11",
-        "honest-mcq-10",
-        "honest-mcq-12",
-        "honest-mcq-09",
-        "honest-mcq-13",
-        "honest-mcq-08"
+        "honest-mcq-07",
+        "honest-mcq-06",
+        "honest-mcq-21"
       ],
       "explanation": "本句的「honestly」指「誠實地」。",
       "sentenceIndex": 16,
@@ -973,12 +907,10 @@ export default {
         "honestly"
       ],
       "optionReasons": {
-        "honest-mcq-11": "本句指「誠實地」。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。"
+        "honest-mcq-11": "本句的「honestly」指「誠實地」。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-11"
     },
@@ -990,10 +922,8 @@ export default {
       "masked": "She ____ that she had made a mistake.",
       "options": [
         "honest-mcq-11",
-        "honest-mcq-10",
-        "honest-mcq-12",
-        "honest-mcq-09",
-        "honest-mcq-13",
+        "honest-mcq-14",
+        "honest-mcq-03",
         "honest-mcq-08"
       ],
       "explanation": "本句的「honestly admitted」指「誠實地」。",
@@ -1003,12 +933,10 @@ export default {
         "honestly admitted"
       ],
       "optionReasons": {
-        "honest-mcq-11": "本句指「誠實地」。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-08": "「正當工作」是「honest work」的用法，與本句語境不同。"
+        "honest-mcq-11": "本句的「honestly admitted」指「誠實地」。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-11"
     },
@@ -1020,11 +948,9 @@ export default {
       "masked": "I ____ he will grow into a very creative person.",
       "options": [
         "honest-mcq-12",
-        "honest-mcq-11",
-        "honest-mcq-13",
         "honest-mcq-10",
-        "honest-mcq-14",
-        "honest-mcq-09"
+        "honest-mcq-03",
+        "honest-mcq-18"
       ],
       "explanation": "本句的「honestly think」指「真心認為」。",
       "sentenceIndex": 18,
@@ -1033,12 +959,10 @@ export default {
         "honestly think"
       ],
       "optionReasons": {
-        "honest-mcq-12": "本句指「真心認為」。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。"
+        "honest-mcq-12": "本句的「honestly think」指「真心認為」。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-12"
     },
@@ -1050,11 +974,9 @@ export default {
       "masked": "I ____ she did her best.",
       "options": [
         "honest-mcq-12",
-        "honest-mcq-11",
-        "honest-mcq-13",
-        "honest-mcq-10",
-        "honest-mcq-14",
-        "honest-mcq-09"
+        "honest-mcq-19",
+        "honest-mcq-02",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honestly believe」指「真心認為」。",
       "sentenceIndex": 19,
@@ -1063,12 +985,10 @@ export default {
         "honestly believe"
       ],
       "optionReasons": {
-        "honest-mcq-12": "本句指「真心認為」。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。"
+        "honest-mcq-12": "本句的「honestly believe」指「真心認為」。",
+        "honest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-12"
     },
@@ -1080,11 +1000,9 @@ export default {
       "masked": "I ____ this is the best solution.",
       "options": [
         "honest-mcq-12",
-        "honest-mcq-11",
-        "honest-mcq-13",
-        "honest-mcq-10",
-        "honest-mcq-14",
-        "honest-mcq-09"
+        "honest-mcq-08",
+        "honest-mcq-18",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honestly think」指「真心認為」。",
       "sentenceIndex": 20,
@@ -1093,12 +1011,10 @@ export default {
         "honestly think"
       ],
       "optionReasons": {
-        "honest-mcq-12": "本句指「真心認為」。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-09": "「正當謀生」是「honest living」的用法，與本句語境不同。"
+        "honest-mcq-12": "本句的「honestly think」指「真心認為」。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-12"
     },
@@ -1110,10 +1026,8 @@ export default {
       "masked": "____, I'm a little tired.",
       "options": [
         "honest-mcq-13",
+        "honest-mcq-08",
         "honest-mcq-12",
-        "honest-mcq-14",
-        "honest-mcq-11",
-        "honest-mcq-15",
         "honest-mcq-10"
       ],
       "explanation": "本句的「To be honest」指「老實說；坦白說」。",
@@ -1123,12 +1037,10 @@ export default {
         "To be honest"
       ],
       "optionReasons": {
-        "honest-mcq-13": "本句指「老實說；坦白說」。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。"
+        "honest-mcq-13": "本句的「To be honest」指「老實說；坦白說」。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-13"
     },
@@ -1141,10 +1053,8 @@ export default {
       "options": [
         "honest-mcq-13",
         "honest-mcq-12",
-        "honest-mcq-14",
-        "honest-mcq-11",
-        "honest-mcq-15",
-        "honest-mcq-10"
+        "honest-mcq-10",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「To be honest」指「老實說；坦白說」。",
       "sentenceIndex": 22,
@@ -1153,12 +1063,10 @@ export default {
         "To be honest"
       ],
       "optionReasons": {
-        "honest-mcq-13": "本句指「老實說；坦白說」。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。"
+        "honest-mcq-13": "本句的「To be honest」指「老實說；坦白說」。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-13"
     },
@@ -1170,11 +1078,9 @@ export default {
       "masked": "____, I don't understand the decision.",
       "options": [
         "honest-mcq-13",
-        "honest-mcq-12",
-        "honest-mcq-14",
-        "honest-mcq-11",
-        "honest-mcq-15",
-        "honest-mcq-10"
+        "honest-mcq-10",
+        "honest-mcq-08",
+        "honest-mcq-12"
       ],
       "explanation": "本句的「To be perfectly honest」指「老實說；坦白說」。",
       "sentenceIndex": 23,
@@ -1183,12 +1089,10 @@ export default {
         "To be perfectly honest"
       ],
       "optionReasons": {
-        "honest-mcq-13": "本句指「老實說；坦白說」。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。"
+        "honest-mcq-13": "本句的「To be perfectly honest」指「老實說；坦白說」。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-13"
     },
@@ -1200,10 +1104,8 @@ export default {
       "masked": "____, I was disappointed.",
       "options": [
         "honest-mcq-13",
-        "honest-mcq-12",
-        "honest-mcq-14",
-        "honest-mcq-11",
-        "honest-mcq-15",
+        "honest-mcq-07",
+        "honest-mcq-21",
         "honest-mcq-10"
       ],
       "explanation": "本句的「To be completely honest」指「老實說；坦白說」。",
@@ -1213,12 +1115,10 @@ export default {
         "To be completely honest"
       ],
       "optionReasons": {
-        "honest-mcq-13": "本句指「老實說；坦白說」。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-10": "「公道價格／交易」是「honest price/deal」的用法，與本句語境不同。"
+        "honest-mcq-13": "本句的「To be completely honest」指「老實說；坦白說」。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-13"
     },
@@ -1230,11 +1130,9 @@ export default {
       "masked": "____ Can't you be quiet for five minutes?",
       "options": [
         "honest-mcq-14",
-        "honest-mcq-13",
-        "honest-mcq-15",
-        "honest-mcq-12",
-        "honest-mcq-16",
-        "honest-mcq-11"
+        "honest-mcq-07",
+        "honest-mcq-17",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「Honestly!」指「真是的！」。",
       "sentenceIndex": 25,
@@ -1243,12 +1141,10 @@ export default {
         "Honestly!"
       ],
       "optionReasons": {
-        "honest-mcq-14": "本句指「真是的！」。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。"
+        "honest-mcq-14": "本句的「Honestly!」指「真是的！」。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-14"
     },
@@ -1260,11 +1156,9 @@ export default {
       "masked": "Oh, ____, what a mess!",
       "options": [
         "honest-mcq-14",
-        "honest-mcq-13",
         "honest-mcq-15",
-        "honest-mcq-12",
-        "honest-mcq-16",
-        "honest-mcq-11"
+        "honest-mcq-03",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「honestly」指「真是的！」。",
       "sentenceIndex": 26,
@@ -1273,12 +1167,10 @@ export default {
         "honestly"
       ],
       "optionReasons": {
-        "honest-mcq-14": "本句指「真是的！」。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。"
+        "honest-mcq-14": "本句的「honestly」指「真是的！」。",
+        "honest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-14"
     },
@@ -1290,11 +1182,9 @@ export default {
       "masked": "I've never seen that film.” > “____",
       "options": [
         "honest-mcq-14",
-        "honest-mcq-13",
-        "honest-mcq-15",
-        "honest-mcq-12",
-        "honest-mcq-16",
-        "honest-mcq-11"
+        "honest-mcq-06",
+        "honest-mcq-07",
+        "honest-mcq-18"
       ],
       "explanation": "本句的「Honestly?」指「真是的！」。",
       "sentenceIndex": 27,
@@ -1303,12 +1193,10 @@ export default {
         "Honestly?"
       ],
       "optionReasons": {
-        "honest-mcq-14": "本句指「真是的！」。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。"
+        "honest-mcq-14": "本句的「Honestly?」指「真是的！」。",
+        "honest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-14"
     },
@@ -1320,11 +1208,9 @@ export default {
       "masked": "____ You finished all of that already?",
       "options": [
         "honest-mcq-14",
-        "honest-mcq-13",
-        "honest-mcq-15",
-        "honest-mcq-12",
-        "honest-mcq-16",
-        "honest-mcq-11"
+        "honest-mcq-11",
+        "honest-mcq-06",
+        "honest-mcq-07"
       ],
       "explanation": "本句的「Honestly?」指「真是的！」。",
       "sentenceIndex": 28,
@@ -1333,12 +1219,10 @@ export default {
         "Honestly?"
       ],
       "optionReasons": {
-        "honest-mcq-14": "本句指「真是的！」。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-11": "「誠實地」是「honestly」的用法，與本句語境不同。"
+        "honest-mcq-14": "本句的「Honestly?」指「真是的！」。",
+        "honest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-14"
     },
@@ -1351,10 +1235,8 @@ export default {
       "options": [
         "honest-mcq-15",
         "honest-mcq-14",
-        "honest-mcq-16",
-        "honest-mcq-13",
-        "honest-mcq-17",
-        "honest-mcq-12"
+        "honest-mcq-02",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「In all honesty」指「說實話」。",
       "sentenceIndex": 29,
@@ -1363,12 +1245,10 @@ export default {
         "In all honesty"
       ],
       "optionReasons": {
-        "honest-mcq-15": "本句指「說實話」。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。"
+        "honest-mcq-15": "本句的「In all honesty」指「說實話」。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-15"
     },
@@ -1380,11 +1260,9 @@ export default {
       "masked": "____, I expected a better result.",
       "options": [
         "honest-mcq-15",
+        "honest-mcq-02",
         "honest-mcq-14",
-        "honest-mcq-16",
-        "honest-mcq-13",
-        "honest-mcq-17",
-        "honest-mcq-12"
+        "honest-mcq-08"
       ],
       "explanation": "本句的「In all honesty」指「說實話」。",
       "sentenceIndex": 30,
@@ -1393,12 +1271,10 @@ export default {
         "In all honesty"
       ],
       "optionReasons": {
-        "honest-mcq-15": "本句指「說實話」。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-12": "「真心認為」是「honestly think」的用法，與本句語境不同。"
+        "honest-mcq-15": "本句的「In all honesty」指「說實話」。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-15"
     },
@@ -1410,11 +1286,9 @@ export default {
       "masked": "You need to ____ about what you really want.",
       "options": [
         "honest-mcq-16",
-        "honest-mcq-15",
-        "honest-mcq-17",
-        "honest-mcq-14",
-        "honest-mcq-18",
-        "honest-mcq-13"
+        "honest-mcq-12",
+        "honest-mcq-02",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「be honest with yourself」指「誠實面對自己」。",
       "sentenceIndex": 31,
@@ -1423,12 +1297,10 @@ export default {
         "be honest with yourself"
       ],
       "optionReasons": {
-        "honest-mcq-16": "本句指「誠實面對自己」。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。"
+        "honest-mcq-16": "本句的「be honest with yourself」指「誠實面對自己」。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-16"
     },
@@ -1440,11 +1312,9 @@ export default {
       "masked": "She finally became ____ about how unhappy she was.",
       "options": [
         "honest-mcq-16",
-        "honest-mcq-15",
-        "honest-mcq-17",
-        "honest-mcq-14",
-        "honest-mcq-18",
-        "honest-mcq-13"
+        "honest-mcq-12",
+        "honest-mcq-02",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「honest with herself」指「誠實面對自己」。",
       "sentenceIndex": 32,
@@ -1453,12 +1323,10 @@ export default {
         "honest with herself"
       ],
       "optionReasons": {
-        "honest-mcq-16": "本句指「誠實面對自己」。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-13": "「老實說；坦白說」是「to be honest」的用法，與本句語境不同。"
+        "honest-mcq-16": "本句的「honest with herself」指「誠實面對自己」。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-16"
     },
@@ -1470,11 +1338,9 @@ export default {
       "masked": "I value ____ in a friendship.",
       "options": [
         "honest-mcq-17",
-        "honest-mcq-16",
-        "honest-mcq-18",
-        "honest-mcq-15",
-        "honest-mcq-19",
-        "honest-mcq-14"
+        "honest-mcq-14",
+        "honest-mcq-10",
+        "honest-mcq-07"
       ],
       "explanation": "本句的「honesty」指「誠實；坦率」。",
       "sentenceIndex": 33,
@@ -1483,12 +1349,10 @@ export default {
         "honesty"
       ],
       "optionReasons": {
-        "honest-mcq-17": "本句指「誠實；坦率」。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。"
+        "honest-mcq-17": "本句的「honesty」指「誠實；坦率」。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-17"
     },
@@ -1500,11 +1364,9 @@ export default {
       "masked": "Thank you for your ____.",
       "options": [
         "honest-mcq-17",
-        "honest-mcq-16",
-        "honest-mcq-18",
-        "honest-mcq-15",
-        "honest-mcq-19",
-        "honest-mcq-14"
+        "honest-mcq-12",
+        "honest-mcq-08",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「honesty」指「誠實；坦率」。",
       "sentenceIndex": 34,
@@ -1513,12 +1375,10 @@ export default {
         "honesty"
       ],
       "optionReasons": {
-        "honest-mcq-17": "本句指「誠實；坦率」。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-14": "「真是的！」是「honestly!」的用法，與本句語境不同。"
+        "honest-mcq-17": "本句的「honesty」指「誠實；坦率」。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-17"
     },
@@ -1530,11 +1390,9 @@ export default {
       "masked": "Her ____ impressed me.",
       "options": [
         "honest-mcq-20",
-        "honest-mcq-19",
-        "honest-mcq-21",
-        "honest-mcq-18",
-        "honest-mcq-17",
-        "honest-mcq-16"
+        "honest-mcq-07",
+        "honest-mcq-10",
+        "honest-mcq-21"
       ],
       "explanation": "本句的「honesty about her mistakes」指「對某項事實或問題不隱瞞、坦白面對的態度」。",
       "sentenceIndex": 35,
@@ -1543,12 +1401,10 @@ export default {
         "honesty about her mistakes"
       ],
       "optionReasons": {
-        "honest-mcq-20": "本句指「對某項事實或問題不隱瞞、坦白面對的態度」。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-21": "「認真、正當地完成一天應做的工作」是「21. an honest day's work — 踏實工作一天；正當勞動」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。"
+        "honest-mcq-20": "本句的「honesty about her mistakes」指「對某項事實或問題不隱瞞、坦白面對的態度」。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-20"
     },
@@ -1560,11 +1416,9 @@ export default {
       "masked": "We appreciated his ____.",
       "options": [
         "honest-mcq-20",
-        "honest-mcq-19",
-        "honest-mcq-21",
-        "honest-mcq-18",
-        "honest-mcq-17",
-        "honest-mcq-16"
+        "honest-mcq-08",
+        "honest-mcq-10",
+        "honest-mcq-07"
       ],
       "explanation": "本句的「honesty about the difficulties」指「對某項事實或問題不隱瞞、坦白面對的態度」。",
       "sentenceIndex": 36,
@@ -1573,12 +1427,10 @@ export default {
         "honesty about the difficulties"
       ],
       "optionReasons": {
-        "honest-mcq-20": "本句指「對某項事實或問題不隱瞞、坦白面對的態度」。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-21": "「認真、正當地完成一天應做的工作」是「21. an honest day's work — 踏實工作一天；正當勞動」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。"
+        "honest-mcq-20": "本句的「honesty about the difficulties」指「對某項事實或問題不隱瞞、坦白面對的態度」。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-20"
     },
@@ -1590,11 +1442,9 @@ export default {
       "masked": "It was ____ of him to hide the truth.",
       "options": [
         "honest-mcq-18",
-        "honest-mcq-17",
-        "honest-mcq-19",
-        "honest-mcq-16",
-        "honest-mcq-20",
-        "honest-mcq-15"
+        "honest-mcq-02",
+        "honest-mcq-14",
+        "honest-mcq-07"
       ],
       "explanation": "本句的「dishonest」指「不誠實的」。",
       "sentenceIndex": 37,
@@ -1603,12 +1453,10 @@ export default {
         "dishonest"
       ],
       "optionReasons": {
-        "honest-mcq-18": "本句指「不誠實的」。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-20": "「對某項事實或問題不隱瞞、坦白面對的態度」是「18. honesty about something — 對某事的坦率」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。"
+        "honest-mcq-18": "本句的「dishonest」指「不誠實的」。",
+        "honest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-18"
     },
@@ -1620,11 +1468,9 @@ export default {
       "masked": "The company was accused of ____.",
       "options": [
         "honest-mcq-18",
-        "honest-mcq-17",
-        "honest-mcq-19",
-        "honest-mcq-16",
-        "honest-mcq-20",
-        "honest-mcq-15"
+        "honest-mcq-12",
+        "honest-mcq-10",
+        "honest-mcq-08"
       ],
       "explanation": "本句的「dishonest business practices」指「不誠實的」。",
       "sentenceIndex": 38,
@@ -1633,12 +1479,10 @@ export default {
         "dishonest business practices"
       ],
       "optionReasons": {
-        "honest-mcq-18": "本句指「不誠實的」。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。",
-        "honest-mcq-20": "「對某項事實或問題不隱瞞、坦白面對的態度」是「18. honesty about something — 對某事的坦率」的用法，與本句語境不同。",
-        "honest-mcq-15": "「說實話」是「in all honesty」的用法，與本句語境不同。"
+        "honest-mcq-18": "本句的「dishonest business practices」指「不誠實的」。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-18"
     },
@@ -1650,11 +1494,9 @@ export default {
       "masked": "His ____ destroyed their trust.",
       "options": [
         "honest-mcq-19",
-        "honest-mcq-18",
-        "honest-mcq-20",
-        "honest-mcq-17",
-        "honest-mcq-21",
-        "honest-mcq-16"
+        "honest-mcq-03",
+        "honest-mcq-12",
+        "honest-mcq-10"
       ],
       "explanation": "本句的「dishonesty」指「不誠實；欺騙」。",
       "sentenceIndex": 39,
@@ -1663,12 +1505,10 @@ export default {
         "dishonesty"
       ],
       "optionReasons": {
-        "honest-mcq-19": "本句指「不誠實；欺騙」。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-20": "「對某項事實或問題不隱瞞、坦白面對的態度」是「18. honesty about something — 對某事的坦率」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-21": "「認真、正當地完成一天應做的工作」是「21. an honest day's work — 踏實工作一天；正當勞動」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。"
+        "honest-mcq-19": "本句的「dishonesty」指「不誠實；欺騙」。",
+        "honest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-19"
     },
@@ -1680,11 +1520,9 @@ export default {
       "masked": "Academic ____ can lead to serious consequences.",
       "options": [
         "honest-mcq-19",
-        "honest-mcq-18",
-        "honest-mcq-20",
-        "honest-mcq-17",
-        "honest-mcq-21",
-        "honest-mcq-16"
+        "honest-mcq-10",
+        "honest-mcq-06",
+        "honest-mcq-07"
       ],
       "explanation": "本句的「dishonesty」指「不誠實；欺騙」。",
       "sentenceIndex": 40,
@@ -1693,12 +1531,10 @@ export default {
         "dishonesty"
       ],
       "optionReasons": {
-        "honest-mcq-19": "本句指「不誠實；欺騙」。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-20": "「對某項事實或問題不隱瞞、坦白面對的態度」是「18. honesty about something — 對某事的坦率」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-21": "「認真、正當地完成一天應做的工作」是「21. an honest day's work — 踏實工作一天；正當勞動」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。"
+        "honest-mcq-19": "本句的「dishonesty」指「不誠實；欺騙」。",
+        "honest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-19"
     },
@@ -1710,11 +1546,9 @@ export default {
       "masked": "He believes in doing ____.",
       "options": [
         "honest-mcq-21",
-        "honest-mcq-20",
-        "honest-mcq-19",
-        "honest-mcq-18",
-        "honest-mcq-17",
-        "honest-mcq-16"
+        "honest-mcq-11",
+        "honest-mcq-07",
+        "honest-mcq-03"
       ],
       "explanation": "本句的「an honest day's work」指「認真、正當地完成一天應做的工作」。",
       "sentenceIndex": 41,
@@ -1723,12 +1557,10 @@ export default {
         "an honest day's work"
       ],
       "optionReasons": {
-        "honest-mcq-21": "本句指「認真、正當地完成一天應做的工作」。",
-        "honest-mcq-20": "「對某項事實或問題不隱瞞、坦白面對的態度」是「18. honesty about something — 對某事的坦率」的用法，與本句語境不同。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。"
+        "honest-mcq-21": "本句的「an honest day's work」指「認真、正當地完成一天應做的工作」。",
+        "honest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-21"
     },
@@ -1740,10 +1572,8 @@ export default {
       "masked": "There's nothing wrong with ____.",
       "options": [
         "honest-mcq-21",
-        "honest-mcq-20",
-        "honest-mcq-19",
-        "honest-mcq-18",
-        "honest-mcq-17",
+        "honest-mcq-13",
+        "honest-mcq-07",
         "honest-mcq-16"
       ],
       "explanation": "本句的「an honest day's work」指「認真、正當地完成一天應做的工作」。",
@@ -1753,12 +1583,10 @@ export default {
         "an honest day's work"
       ],
       "optionReasons": {
-        "honest-mcq-21": "本句指「認真、正當地完成一天應做的工作」。",
-        "honest-mcq-20": "「對某項事實或問題不隱瞞、坦白面對的態度」是「18. honesty about something — 對某事的坦率」的用法，與本句語境不同。",
-        "honest-mcq-19": "「不誠實；欺騙」是「dishonesty」的用法，與本句語境不同。",
-        "honest-mcq-18": "「不誠實的」是「dishonest」的用法，與本句語境不同。",
-        "honest-mcq-17": "「誠實；坦率」是「honesty」的用法，與本句語境不同。",
-        "honest-mcq-16": "「誠實面對自己」是「honest with yourself」的用法，與本句語境不同。"
+        "honest-mcq-21": "本句的「an honest day's work」指「認真、正當地完成一天應做的工作」。",
+        "honest-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "honest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "honest-mcq-21"
     }
@@ -1770,5 +1598,7 @@ export default {
     "sha256": "9b6b4ac29ffa1ff181857b762a0729bd36525274f01399508d6cf1e4c53f3173",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

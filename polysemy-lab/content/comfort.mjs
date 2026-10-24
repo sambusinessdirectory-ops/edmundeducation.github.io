@@ -481,11 +481,9 @@ export default {
       "masked": "The ad mentioned practical features like ____, battery life, and sound quality.",
       "options": [
         "comfort-mcq-01",
-        "comfort-mcq-02",
-        "comfort-mcq-03",
+        "comfort-mcq-19",
         "comfort-mcq-04",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfort」指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
       "sentenceIndex": 0,
@@ -494,12 +492,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-01": "本句指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-01": "本句的「comfort」指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
+        "comfort-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-01"
     },
@@ -511,11 +507,9 @@ export default {
       "masked": "These headphones are designed for long-term ____.",
       "options": [
         "comfort-mcq-01",
-        "comfort-mcq-02",
-        "comfort-mcq-03",
-        "comfort-mcq-04",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-16",
+        "comfort-mcq-13",
+        "comfort-mcq-11"
       ],
       "explanation": "本句的「comfort」指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
       "sentenceIndex": 1,
@@ -524,12 +518,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-01": "本句指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-01": "本句的「comfort」指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
+        "comfort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-01"
     },
@@ -541,11 +533,9 @@ export default {
       "masked": "The soft ear cushions improve ____.",
       "options": [
         "comfort-mcq-01",
-        "comfort-mcq-02",
-        "comfort-mcq-03",
-        "comfort-mcq-04",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-08",
+        "comfort-mcq-13",
+        "comfort-mcq-11"
       ],
       "explanation": "本句的「comfort」指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
       "sentenceIndex": 2,
@@ -554,12 +544,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-01": "本句指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-01": "本句的「comfort」指「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」。",
+        "comfort-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-01"
     },
@@ -571,11 +559,9 @@ export default {
       "masked": "Her words gave me great ____.",
       "options": [
         "comfort-mcq-02",
-        "comfort-mcq-01",
-        "comfort-mcq-03",
-        "comfort-mcq-04",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-12",
+        "comfort-mcq-13",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfort」指「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」。",
       "sentenceIndex": 3,
@@ -584,12 +570,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-02": "本句指「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」。",
-        "comfort-mcq-01": "「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」是「comfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-02": "本句的「comfort」指「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」。",
+        "comfort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-02"
     },
@@ -601,11 +585,9 @@ export default {
       "masked": "He found ____ in talking to his family.",
       "options": [
         "comfort-mcq-02",
-        "comfort-mcq-01",
-        "comfort-mcq-03",
         "comfort-mcq-04",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-13",
+        "comfort-mcq-12"
       ],
       "explanation": "本句的「comfort」指「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」。",
       "sentenceIndex": 4,
@@ -614,12 +596,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-02": "本句指「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」。",
-        "comfort-mcq-01": "「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」是「comfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-02": "本句的「comfort」指「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-02"
     },
@@ -631,11 +611,9 @@ export default {
       "masked": "Her dog was a great ____ after she moved to a new city.",
       "options": [
         "comfort-mcq-03",
-        "comfort-mcq-02",
-        "comfort-mcq-04",
-        "comfort-mcq-01",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-12",
+        "comfort-mcq-13",
+        "comfort-mcq-10"
       ],
       "explanation": "本句的「comfort」指「能令人在困難或憂慮中得到安心／支持的人或事物」。",
       "sentenceIndex": 5,
@@ -644,12 +622,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-03": "本句指「能令人在困難或憂慮中得到安心／支持的人或事物」。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-01": "「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」是「comfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-03": "本句的「comfort」指「能令人在困難或憂慮中得到安心／支持的人或事物」。",
+        "comfort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-03"
     },
@@ -661,11 +637,9 @@ export default {
       "masked": "It was a ____ to know that everyone was safe.",
       "options": [
         "comfort-mcq-03",
-        "comfort-mcq-02",
-        "comfort-mcq-04",
-        "comfort-mcq-01",
-        "comfort-mcq-05",
-        "comfort-mcq-06"
+        "comfort-mcq-15",
+        "comfort-mcq-13",
+        "comfort-mcq-10"
       ],
       "explanation": "本句的「comfort」指「能令人在困難或憂慮中得到安心／支持的人或事物」。",
       "sentenceIndex": 6,
@@ -674,12 +648,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-03": "本句指「能令人在困難或憂慮中得到安心／支持的人或事物」。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-01": "「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」是「comfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-03": "本句的「comfort」指「能令人在困難或憂慮中得到安心／支持的人或事物」。",
+        "comfort-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-03"
     },
@@ -691,10 +663,8 @@ export default {
       "masked": "The hotel offers all the ____ of home.",
       "options": [
         "comfort-mcq-04",
-        "comfort-mcq-03",
-        "comfort-mcq-05",
+        "comfort-mcq-13",
         "comfort-mcq-02",
-        "comfort-mcq-06",
         "comfort-mcq-01"
       ],
       "explanation": "本句的「comforts」指「令日常生活更加舒服、便利或享受的設備與條件」。",
@@ -704,12 +674,10 @@ export default {
         "comforts"
       ],
       "optionReasons": {
-        "comfort-mcq-04": "本句指「令日常生活更加舒服、便利或享受的設備與條件」。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-01": "「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」是「comfort — physical」的用法，與本句語境不同。"
+        "comfort-mcq-04": "本句的「comforts」指「令日常生活更加舒服、便利或享受的設備與條件」。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-04"
     },
@@ -721,11 +689,9 @@ export default {
       "masked": "They gave up some modern ____ while travelling.",
       "options": [
         "comfort-mcq-04",
-        "comfort-mcq-03",
-        "comfort-mcq-05",
-        "comfort-mcq-02",
-        "comfort-mcq-06",
-        "comfort-mcq-01"
+        "comfort-mcq-08",
+        "comfort-mcq-01",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comforts」指「令日常生活更加舒服、便利或享受的設備與條件」。",
       "sentenceIndex": 8,
@@ -734,12 +700,10 @@ export default {
         "comforts"
       ],
       "optionReasons": {
-        "comfort-mcq-04": "本句指「令日常生活更加舒服、便利或享受的設備與條件」。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-01": "「身體處於放鬆、沒有疼痛、壓迫或其他不適的狀態」是「comfort — physical」的用法，與本句語境不同。"
+        "comfort-mcq-04": "本句的「comforts」指「令日常生活更加舒服、便利或享受的設備與條件」。",
+        "comfort-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-04"
     },
@@ -751,11 +715,9 @@ export default {
       "masked": "She tried to ____ the child.",
       "options": [
         "comfort-mcq-05",
-        "comfort-mcq-04",
-        "comfort-mcq-06",
-        "comfort-mcq-03",
         "comfort-mcq-07",
-        "comfort-mcq-02"
+        "comfort-mcq-11",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfort」指「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」。",
       "sentenceIndex": 9,
@@ -764,12 +726,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-05": "本句指「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。"
+        "comfort-mcq-05": "本句的「comfort」指「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」。",
+        "comfort-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-05"
     },
@@ -781,11 +741,9 @@ export default {
       "masked": "His friends ____ him after the bad news.",
       "options": [
         "comfort-mcq-05",
-        "comfort-mcq-04",
-        "comfort-mcq-06",
-        "comfort-mcq-03",
         "comfort-mcq-07",
-        "comfort-mcq-02"
+        "comfort-mcq-11",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comforted」指「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」。",
       "sentenceIndex": 10,
@@ -794,12 +752,10 @@ export default {
         "comforted"
       ],
       "optionReasons": {
-        "comfort-mcq-05": "本句指「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-02": "「在憂慮、悲傷或壓力中獲得的安心、支持或情緒緩解」是「comfort — emotional」的用法，與本句語境不同。"
+        "comfort-mcq-05": "本句的「comforted」指「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」。",
+        "comfort-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-05"
     },
@@ -811,11 +767,9 @@ export default {
       "masked": "These headphones are ____ enough to wear for hours.",
       "options": [
         "comfort-mcq-06",
-        "comfort-mcq-05",
-        "comfort-mcq-07",
-        "comfort-mcq-04",
-        "comfort-mcq-08",
-        "comfort-mcq-03"
+        "comfort-mcq-11",
+        "comfort-mcq-13",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfortable」指「身體感覺放鬆、沒有疼痛或壓迫不適的」。",
       "sentenceIndex": 11,
@@ -824,12 +778,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-06": "本句指「身體感覺放鬆、沒有疼痛或壓迫不適的」。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。"
+        "comfort-mcq-06": "本句的「comfortable」指「身體感覺放鬆、沒有疼痛或壓迫不適的」。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-06"
     },
@@ -841,11 +793,9 @@ export default {
       "masked": "Are you ____ in that chair?",
       "options": [
         "comfort-mcq-06",
-        "comfort-mcq-05",
-        "comfort-mcq-07",
         "comfort-mcq-04",
-        "comfort-mcq-08",
-        "comfort-mcq-03"
+        "comfort-mcq-05",
+        "comfort-mcq-11"
       ],
       "explanation": "本句的「comfortable」指「身體感覺放鬆、沒有疼痛或壓迫不適的」。",
       "sentenceIndex": 12,
@@ -854,12 +804,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-06": "本句指「身體感覺放鬆、沒有疼痛或壓迫不適的」。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-03": "「能令人在困難或憂慮中得到安心／支持的人或事物」是「a comfort」的用法，與本句語境不同。"
+        "comfort-mcq-06": "本句的「comfortable」指「身體感覺放鬆、沒有疼痛或壓迫不適的」。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-06"
     },
@@ -871,11 +819,8 @@ export default {
       "masked": "The hotel room was quiet and ____.",
       "options": [
         "comfort-mcq-07",
-        "comfort-mcq-06",
-        "comfort-mcq-08",
-        "comfort-mcq-05",
-        "comfort-mcq-09",
-        "comfort-mcq-04"
+        "comfort-mcq-02",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfortable」指「能令使用者身體感到舒服和放鬆的」。",
       "sentenceIndex": 13,
@@ -884,12 +829,9 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-07": "本句指「能令使用者身體感到舒服和放鬆的」。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。"
+        "comfort-mcq-07": "本句的「comfortable」指「能令使用者身體感到舒服和放鬆的」。",
+        "comfort-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-07"
     },
@@ -901,11 +843,9 @@ export default {
       "masked": "She wore ____ shoes for the journey.",
       "options": [
         "comfort-mcq-07",
-        "comfort-mcq-06",
-        "comfort-mcq-08",
-        "comfort-mcq-05",
-        "comfort-mcq-09",
-        "comfort-mcq-04"
+        "comfort-mcq-10",
+        "comfort-mcq-13",
+        "comfort-mcq-05"
       ],
       "explanation": "本句的「comfortable」指「能令使用者身體感到舒服和放鬆的」。",
       "sentenceIndex": 14,
@@ -914,12 +854,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-07": "本句指「能令使用者身體感到舒服和放鬆的」。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-04": "「令日常生活更加舒服、便利或享受的設備與條件」是「comforts」的用法，與本句語境不同。"
+        "comfort-mcq-07": "本句的「comfortable」指「能令使用者身體感到舒服和放鬆的」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-07"
     },
@@ -931,11 +869,9 @@ export default {
       "masked": "I feel ____ talking to her.",
       "options": [
         "comfort-mcq-08",
-        "comfort-mcq-07",
-        "comfort-mcq-09",
-        "comfort-mcq-06",
         "comfort-mcq-10",
-        "comfort-mcq-05"
+        "comfort-mcq-17",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfortable」指「在某個人或情況中感到自在、安全、不緊張的」。",
       "sentenceIndex": 15,
@@ -944,12 +880,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-08": "本句指「在某個人或情況中感到自在、安全、不緊張的」。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。"
+        "comfort-mcq-08": "本句的「comfortable」指「在某個人或情況中感到自在、安全、不緊張的」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-08"
     },
@@ -961,11 +895,9 @@ export default {
       "masked": "He didn’t feel ____ speaking in front of a large audience.",
       "options": [
         "comfort-mcq-08",
-        "comfort-mcq-07",
-        "comfort-mcq-09",
-        "comfort-mcq-06",
         "comfort-mcq-10",
-        "comfort-mcq-05"
+        "comfort-mcq-17",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfortable」指「在某個人或情況中感到自在、安全、不緊張的」。",
       "sentenceIndex": 16,
@@ -974,12 +906,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-08": "本句指「在某個人或情況中感到自在、安全、不緊張的」。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-05": "「透過說話、陪伴或行動減輕某人的悲傷、焦慮或恐懼」是「comfort — verb」的用法，與本句語境不同。"
+        "comfort-mcq-08": "本句的「comfortable」指「在某個人或情況中感到自在、安全、不緊張的」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-08"
     },
@@ -991,11 +921,9 @@ export default {
       "masked": "I’m not ____ with sharing that information.",
       "options": [
         "comfort-mcq-09",
-        "comfort-mcq-08",
+        "comfort-mcq-17",
         "comfort-mcq-10",
-        "comfort-mcq-07",
-        "comfort-mcq-11",
-        "comfort-mcq-06"
+        "comfort-mcq-05"
       ],
       "explanation": "本句的「comfortable」指「對某項做法、決定或安排感到安心並能接受」。",
       "sentenceIndex": 17,
@@ -1004,12 +932,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-09": "本句指「對某項做法、決定或安排感到安心並能接受」。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-09": "本句的「comfortable」指「對某項做法、決定或安排感到安心並能接受」。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-09"
     },
@@ -1021,11 +947,9 @@ export default {
       "masked": "Are you ____ with this arrangement?",
       "options": [
         "comfort-mcq-09",
-        "comfort-mcq-08",
         "comfort-mcq-10",
-        "comfort-mcq-07",
-        "comfort-mcq-11",
-        "comfort-mcq-06"
+        "comfort-mcq-17",
+        "comfort-mcq-05"
       ],
       "explanation": "本句的「comfortable」指「對某項做法、決定或安排感到安心並能接受」。",
       "sentenceIndex": 18,
@@ -1034,12 +958,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-09": "本句指「對某項做法、決定或安排感到安心並能接受」。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-06": "「身體感覺放鬆、沒有疼痛或壓迫不適的」是「comfortable — person/body」的用法，與本句語境不同。"
+        "comfort-mcq-09": "本句的「comfortable」指「對某項做法、決定或安排感到安心並能接受」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-09"
     },
@@ -1051,11 +973,9 @@ export default {
       "masked": "They are financially ____.",
       "options": [
         "comfort-mcq-10",
+        "comfort-pdf-001",
         "comfort-mcq-09",
-        "comfort-mcq-11",
-        "comfort-mcq-08",
-        "comfort-mcq-12",
-        "comfort-mcq-07"
+        "comfort-mcq-05"
       ],
       "explanation": "本句的「comfortable」指「經濟狀況足以維持不錯生活、沒有重大財務壓力的」。",
       "sentenceIndex": 19,
@@ -1064,12 +984,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-10": "本句指「經濟狀況足以維持不錯生活、沒有重大財務壓力的」。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。"
+        "comfort-mcq-10": "本句的「comfortable」指「經濟狀況足以維持不錯生活、沒有重大財務壓力的」。",
+        "comfort-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-10"
     },
@@ -1081,11 +999,9 @@ export default {
       "masked": "He earns a ____ salary.",
       "options": [
         "comfort-mcq-10",
+        "comfort-mcq-05",
         "comfort-mcq-09",
-        "comfort-mcq-11",
-        "comfort-mcq-08",
-        "comfort-mcq-12",
-        "comfort-mcq-07"
+        "comfort-pdf-001"
       ],
       "explanation": "本句的「comfortable」指「經濟狀況足以維持不錯生活、沒有重大財務壓力的」。",
       "sentenceIndex": 20,
@@ -1094,12 +1010,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-10": "本句指「經濟狀況足以維持不錯生活、沒有重大財務壓力的」。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-07": "「能令使用者身體感到舒服和放鬆的」是「comfortable — object/place」的用法，與本句語境不同。"
+        "comfort-mcq-10": "本句的「comfortable」指「經濟狀況足以維持不錯生活、沒有重大財務壓力的」。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "comfort-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-10"
     },
@@ -1111,11 +1025,9 @@ export default {
       "masked": "The team won by a ____ margin.",
       "options": [
         "comfort-mcq-11",
-        "comfort-mcq-10",
-        "comfort-mcq-12",
-        "comfort-mcq-09",
-        "comfort-mcq-13",
-        "comfort-mcq-08"
+        "comfort-mcq-15",
+        "comfort-mcq-16",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfortable」指「差距大得足以令人安心、不容易被追上的」。",
       "sentenceIndex": 21,
@@ -1124,12 +1036,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-11": "本句指「差距大得足以令人安心、不容易被追上的」。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。"
+        "comfort-mcq-11": "本句的「comfortable」指「差距大得足以令人安心、不容易被追上的」。",
+        "comfort-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-11"
     },
@@ -1141,11 +1051,9 @@ export default {
       "masked": "She has a ____ lead over the other candidates.",
       "options": [
         "comfort-mcq-11",
-        "comfort-mcq-10",
-        "comfort-mcq-12",
-        "comfort-mcq-09",
-        "comfort-mcq-13",
-        "comfort-mcq-08"
+        "comfort-mcq-05",
+        "comfort-mcq-01",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfortable」指「差距大得足以令人安心、不容易被追上的」。",
       "sentenceIndex": 22,
@@ -1154,12 +1062,10 @@ export default {
         "comfortable"
       ],
       "optionReasons": {
-        "comfort-mcq-11": "本句指「差距大得足以令人安心、不容易被追上的」。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-08": "「在某個人或情況中感到自在、安全、不緊張的」是「comfortable — emotional/social」的用法，與本句語境不同。"
+        "comfort-mcq-11": "本句的「comfortable」指「差距大得足以令人安心、不容易被追上的」。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-11"
     },
@@ -1171,11 +1077,9 @@ export default {
       "masked": "The headphones fit ____ over my ears.",
       "options": [
         "comfort-mcq-12",
-        "comfort-mcq-11",
-        "comfort-mcq-13",
-        "comfort-mcq-10",
         "comfort-mcq-14",
-        "comfort-mcq-09"
+        "comfort-mcq-13",
+        "comfort-mcq-10"
       ],
       "explanation": "本句的「comfortably」指「以身體放鬆、不感到疼痛或擠迫的方式」。",
       "sentenceIndex": 23,
@@ -1184,12 +1088,10 @@ export default {
         "comfortably"
       ],
       "optionReasons": {
-        "comfort-mcq-12": "本句指「以身體放鬆、不感到疼痛或擠迫的方式」。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。"
+        "comfort-mcq-12": "本句的「comfortably」指「以身體放鬆、不感到疼痛或擠迫的方式」。",
+        "comfort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-12"
     },
@@ -1201,11 +1103,9 @@ export default {
       "masked": "Four people can sit ____ in the car.",
       "options": [
         "comfort-mcq-12",
-        "comfort-mcq-11",
-        "comfort-mcq-13",
         "comfort-mcq-10",
         "comfort-mcq-14",
-        "comfort-mcq-09"
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comfortably」指「以身體放鬆、不感到疼痛或擠迫的方式」。",
       "sentenceIndex": 24,
@@ -1214,12 +1114,10 @@ export default {
         "comfortably"
       ],
       "optionReasons": {
-        "comfort-mcq-12": "本句指「以身體放鬆、不感到疼痛或擠迫的方式」。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-09": "「對某項做法、決定或安排感到安心並能接受」是「comfortable with something」的用法，與本句語境不同。"
+        "comfort-mcq-12": "本句的「comfortably」指「以身體放鬆、不感到疼痛或擠迫的方式」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-12"
     },
@@ -1231,11 +1129,9 @@ export default {
       "masked": "The team won ____.",
       "options": [
         "comfort-mcq-13",
-        "comfort-mcq-12",
-        "comfort-mcq-14",
-        "comfort-mcq-11",
-        "comfort-mcq-15",
-        "comfort-mcq-10"
+        "comfort-mcq-18",
+        "comfort-mcq-17",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfortably」指「有足夠餘裕、不接近極限地」。",
       "sentenceIndex": 25,
@@ -1244,12 +1140,10 @@ export default {
         "comfortably"
       ],
       "optionReasons": {
-        "comfort-mcq-13": "本句指「有足夠餘裕、不接近極限地」。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。"
+        "comfort-mcq-13": "本句的「comfortably」指「有足夠餘裕、不接近極限地」。",
+        "comfort-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-13"
     },
@@ -1261,11 +1155,9 @@ export default {
       "masked": "The room can ____ hold fifty people.",
       "options": [
         "comfort-mcq-13",
-        "comfort-mcq-12",
-        "comfort-mcq-14",
-        "comfort-mcq-11",
-        "comfort-mcq-15",
-        "comfort-mcq-10"
+        "comfort-mcq-06",
+        "comfort-mcq-04",
+        "comfort-mcq-03"
       ],
       "explanation": "本句的「comfortably」指「有足夠餘裕、不接近極限地」。",
       "sentenceIndex": 26,
@@ -1274,12 +1166,10 @@ export default {
         "comfortably"
       ],
       "optionReasons": {
-        "comfort-mcq-13": "本句指「有足夠餘裕、不接近極限地」。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-10": "「經濟狀況足以維持不錯生活、沒有重大財務壓力的」是「comfortable — financial」的用法，與本句語境不同。"
+        "comfort-mcq-13": "本句的「comfortably」指「有足夠餘裕、不接近極限地」。",
+        "comfort-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-13"
     },
@@ -1291,11 +1181,9 @@ export default {
       "masked": "It was ____ to know that help was available.",
       "options": [
         "comfort-mcq-14",
-        "comfort-mcq-13",
+        "comfort-mcq-10",
         "comfort-mcq-15",
-        "comfort-mcq-12",
-        "comfort-mcq-16",
-        "comfort-mcq-11"
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comforting」指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
       "sentenceIndex": 27,
@@ -1304,12 +1192,10 @@ export default {
         "comforting"
       ],
       "optionReasons": {
-        "comfort-mcq-14": "本句指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。"
+        "comfort-mcq-14": "本句的「comforting」指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-14"
     },
@@ -1322,10 +1208,8 @@ export default {
       "options": [
         "comfort-mcq-14",
         "comfort-mcq-13",
-        "comfort-mcq-15",
         "comfort-mcq-12",
-        "comfort-mcq-16",
-        "comfort-mcq-11"
+        "comfort-mcq-10"
       ],
       "explanation": "本句的「comforting」指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
       "sentenceIndex": 28,
@@ -1334,12 +1218,10 @@ export default {
         "comforting"
       ],
       "optionReasons": {
-        "comfort-mcq-14": "本句指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。"
+        "comfort-mcq-14": "本句的「comforting」指「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-14"
     },
@@ -1352,10 +1234,8 @@ export default {
       "options": [
         "comfort-pdf-001",
         "comfort-mcq-13",
-        "comfort-mcq-15",
-        "comfort-mcq-12",
-        "comfort-mcq-16",
-        "comfort-mcq-11"
+        "comfort-mcq-05",
+        "comfort-mcq-10"
       ],
       "explanation": "本句的「comforting」指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
       "sentenceIndex": 29,
@@ -1364,12 +1244,10 @@ export default {
         "comforting"
       ],
       "optionReasons": {
-        "comfort-pdf-001": "本句指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。"
+        "comfort-pdf-001": "本句的「comforting」指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-pdf-001"
     },
@@ -1381,11 +1259,9 @@ export default {
       "masked": "She found the familiar routine ____.",
       "options": [
         "comfort-pdf-001",
-        "comfort-mcq-13",
-        "comfort-mcq-15",
-        "comfort-mcq-12",
-        "comfort-mcq-16",
-        "comfort-mcq-11"
+        "comfort-mcq-10",
+        "comfort-mcq-05",
+        "comfort-mcq-13"
       ],
       "explanation": "本句的「comforting」指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
       "sentenceIndex": 30,
@@ -1394,12 +1270,10 @@ export default {
         "comforting"
       ],
       "optionReasons": {
-        "comfort-pdf-001": "本句指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-11": "「差距大得足以令人安心、不容易被追上的」是「comfortable margin/lead」的用法，與本句語境不同。"
+        "comfort-pdf-001": "本句的「comforting」指「因熟悉、溫暖或可靠而令人情緒放鬆、有安全感的」。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-pdf-001"
     },
@@ -1411,11 +1285,9 @@ export default {
       "masked": "The tight headphones caused some dis____.",
       "options": [
         "comfort-mcq-15",
-        "comfort-mcq-14",
-        "comfort-mcq-16",
         "comfort-mcq-13",
-        "comfort-mcq-17",
-        "comfort-mcq-12"
+        "comfort-mcq-11",
+        "comfort-mcq-05"
       ],
       "explanation": "本句的「comfort」指「身體上的疼痛、壓迫、刺激或其他不舒服感」。",
       "sentenceIndex": 31,
@@ -1424,12 +1296,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-15": "本句指「身體上的疼痛、壓迫、刺激或其他不舒服感」。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。"
+        "comfort-mcq-15": "本句的「comfort」指「身體上的疼痛、壓迫、刺激或其他不舒服感」。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-15"
     },
@@ -1442,10 +1312,8 @@ export default {
       "options": [
         "comfort-mcq-15",
         "comfort-mcq-14",
-        "comfort-mcq-16",
         "comfort-mcq-13",
-        "comfort-mcq-17",
-        "comfort-mcq-12"
+        "comfort-mcq-10"
       ],
       "explanation": "本句的「comfort」指「身體上的疼痛、壓迫、刺激或其他不舒服感」。",
       "sentenceIndex": 32,
@@ -1454,12 +1322,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-15": "本句指「身體上的疼痛、壓迫、刺激或其他不舒服感」。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-12": "「以身體放鬆、不感到疼痛或擠迫的方式」是「comfortably — physical」的用法，與本句語境不同。"
+        "comfort-mcq-15": "本句的「comfort」指「身體上的疼痛、壓迫、刺激或其他不舒服感」。",
+        "comfort-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-15"
     },
@@ -1471,11 +1337,9 @@ export default {
       "masked": "The question caused visible dis____.",
       "options": [
         "comfort-mcq-16",
-        "comfort-mcq-15",
-        "comfort-mcq-17",
-        "comfort-mcq-14",
-        "comfort-mcq-18",
-        "comfort-mcq-13"
+        "comfort-mcq-11",
+        "comfort-mcq-13",
+        "comfort-mcq-17"
       ],
       "explanation": "本句的「comfort」指「因尷尬、焦慮或不認同而產生的不自在感」。",
       "sentenceIndex": 33,
@@ -1484,12 +1348,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-16": "本句指「因尷尬、焦慮或不認同而產生的不自在感」。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-18": "「令人在社交或心理上感到尷尬、緊張或不安的」是「uncomfortable — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。"
+        "comfort-mcq-16": "本句的「comfort」指「因尷尬、焦慮或不認同而產生的不自在感」。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-16"
     },
@@ -1501,11 +1363,9 @@ export default {
       "masked": "She expressed her dis____ with the arrangement.",
       "options": [
         "comfort-mcq-16",
-        "comfort-mcq-15",
+        "comfort-mcq-13",
         "comfort-mcq-17",
-        "comfort-mcq-14",
-        "comfort-mcq-18",
-        "comfort-mcq-13"
+        "comfort-mcq-11"
       ],
       "explanation": "本句的「comfort」指「因尷尬、焦慮或不認同而產生的不自在感」。",
       "sentenceIndex": 34,
@@ -1514,12 +1374,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-16": "本句指「因尷尬、焦慮或不認同而產生的不自在感」。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。",
-        "comfort-mcq-18": "「令人在社交或心理上感到尷尬、緊張或不安的」是「uncomfortable — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-13": "「有足夠餘裕、不接近極限地」是「comfortably — margin/capacity」的用法，與本句語境不同。"
+        "comfort-mcq-16": "本句的「comfort」指「因尷尬、焦慮或不認同而產生的不自在感」。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-16"
     },
@@ -1531,11 +1389,9 @@ export default {
       "masked": "The headphones became un____able after two hours.",
       "options": [
         "comfort-mcq-17",
-        "comfort-mcq-16",
-        "comfort-mcq-18",
-        "comfort-mcq-15",
-        "comfort-mcq-19",
-        "comfort-mcq-14"
+        "comfort-mcq-09",
+        "comfort-mcq-13",
+        "comfort-mcq-05"
       ],
       "explanation": "本句的「comfort」指「令身體疼痛、壓迫或難以放鬆的」。",
       "sentenceIndex": 35,
@@ -1544,12 +1400,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-17": "本句指「令身體疼痛、壓迫或難以放鬆的」。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-18": "「令人在社交或心理上感到尷尬、緊張或不安的」是「uncomfortable — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-19": "「因敏感或令人不安而難以接受或面對的事實／問題」是「uncomfortable truth/question」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。"
+        "comfort-mcq-17": "本句的「comfort」指「令身體疼痛、壓迫或難以放鬆的」。",
+        "comfort-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-17"
     },
@@ -1561,11 +1415,9 @@ export default {
       "masked": "The chair is too hard and un____able.",
       "options": [
         "comfort-mcq-17",
-        "comfort-mcq-16",
-        "comfort-mcq-18",
-        "comfort-mcq-15",
-        "comfort-mcq-19",
-        "comfort-mcq-14"
+        "comfort-mcq-13",
+        "comfort-mcq-05",
+        "comfort-mcq-09"
       ],
       "explanation": "本句的「comfort」指「令身體疼痛、壓迫或難以放鬆的」。",
       "sentenceIndex": 36,
@@ -1574,12 +1426,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-17": "本句指「令身體疼痛、壓迫或難以放鬆的」。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-18": "「令人在社交或心理上感到尷尬、緊張或不安的」是「uncomfortable — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。",
-        "comfort-mcq-19": "「因敏感或令人不安而難以接受或面對的事實／問題」是「uncomfortable truth/question」的用法，與本句語境不同。",
-        "comfort-mcq-14": "「能減輕憂慮或悲傷、令人得到安心和情緒安慰的」是「comforting」的用法，與本句語境不同。"
+        "comfort-mcq-17": "本句的「comfort」指「令身體疼痛、壓迫或難以放鬆的」。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-17"
     },
@@ -1591,11 +1441,9 @@ export default {
       "masked": "The conversation made me un____able.",
       "options": [
         "comfort-mcq-18",
-        "comfort-mcq-17",
-        "comfort-mcq-19",
-        "comfort-mcq-16",
-        "comfort-mcq-20",
-        "comfort-mcq-15"
+        "comfort-mcq-01",
+        "comfort-mcq-13",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfort」指「令人在社交或心理上感到尷尬、緊張或不安的」。",
       "sentenceIndex": 37,
@@ -1604,12 +1452,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-18": "本句指「令人在社交或心理上感到尷尬、緊張或不安的」。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-19": "「因敏感或令人不安而難以接受或面對的事實／問題」是「uncomfortable truth/question」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-20": "「因熟悉、味道或聯想而令人獲得情緒安慰的食物」是「comfort food」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。"
+        "comfort-mcq-18": "本句的「comfort」指「令人在社交或心理上感到尷尬、緊張或不安的」。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-18"
     },
@@ -1621,11 +1467,9 @@ export default {
       "masked": "He looked un____able when the subject came up.",
       "options": [
         "comfort-mcq-18",
-        "comfort-mcq-17",
-        "comfort-mcq-19",
-        "comfort-mcq-16",
-        "comfort-mcq-20",
-        "comfort-mcq-15"
+        "comfort-mcq-01",
+        "comfort-mcq-13",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfort」指「令人在社交或心理上感到尷尬、緊張或不安的」。",
       "sentenceIndex": 38,
@@ -1634,12 +1478,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-18": "本句指「令人在社交或心理上感到尷尬、緊張或不安的」。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-19": "「因敏感或令人不安而難以接受或面對的事實／問題」是「uncomfortable truth/question」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-20": "「因熟悉、味道或聯想而令人獲得情緒安慰的食物」是「comfort food」的用法，與本句語境不同。",
-        "comfort-mcq-15": "「身體上的疼痛、壓迫、刺激或其他不舒服感」是「discomfort — physical」的用法，與本句語境不同。"
+        "comfort-mcq-18": "本句的「comfort」指「令人在社交或心理上感到尷尬、緊張或不安的」。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-18"
     },
@@ -1651,11 +1493,9 @@ export default {
       "masked": "The report raises some un____able questions.",
       "options": [
         "comfort-mcq-19",
-        "comfort-mcq-18",
-        "comfort-mcq-20",
-        "comfort-mcq-17",
-        "comfort-mcq-21",
-        "comfort-mcq-16"
+        "comfort-mcq-01",
+        "comfort-mcq-13",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfort」指「因敏感或令人不安而難以接受或面對的事實／問題」。",
       "sentenceIndex": 39,
@@ -1664,12 +1504,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-19": "本句指「因敏感或令人不安而難以接受或面對的事實／問題」。",
-        "comfort-mcq-18": "「令人在社交或心理上感到尷尬、緊張或不安的」是「uncomfortable — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-20": "「因熟悉、味道或聯想而令人獲得情緒安慰的食物」是「comfort food」的用法，與本句語境不同。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-21": "「因熟悉和可控制而令人感到安全自在、不需面對太大挑戰的狀態」是「comfort zone」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。"
+        "comfort-mcq-19": "本句的「comfort」指「因敏感或令人不安而難以接受或面對的事實／問題」。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-19"
     },
@@ -1681,11 +1519,9 @@ export default {
       "masked": "We need to accept an un____able truth.",
       "options": [
         "comfort-mcq-19",
-        "comfort-mcq-18",
-        "comfort-mcq-20",
-        "comfort-mcq-17",
-        "comfort-mcq-21",
-        "comfort-mcq-16"
+        "comfort-mcq-01",
+        "comfort-mcq-13",
+        "comfort-mcq-04"
       ],
       "explanation": "本句的「comfort」指「因敏感或令人不安而難以接受或面對的事實／問題」。",
       "sentenceIndex": 40,
@@ -1694,12 +1530,10 @@ export default {
         "comfort"
       ],
       "optionReasons": {
-        "comfort-mcq-19": "本句指「因敏感或令人不安而難以接受或面對的事實／問題」。",
-        "comfort-mcq-18": "「令人在社交或心理上感到尷尬、緊張或不安的」是「uncomfortable — emotional」的用法，與本句語境不同。",
-        "comfort-mcq-20": "「因熟悉、味道或聯想而令人獲得情緒安慰的食物」是「comfort food」的用法，與本句語境不同。",
-        "comfort-mcq-17": "「令身體疼痛、壓迫或難以放鬆的」是「uncomfortable — physical」的用法，與本句語境不同。",
-        "comfort-mcq-21": "「因熟悉和可控制而令人感到安全自在、不需面對太大挑戰的狀態」是「comfort zone」的用法，與本句語境不同。",
-        "comfort-mcq-16": "「因尷尬、焦慮或不認同而產生的不自在感」是「discomfort — emotional」的用法，與本句語境不同。"
+        "comfort-mcq-19": "本句的「comfort」指「因敏感或令人不安而難以接受或面對的事實／問題」。",
+        "comfort-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "comfort-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "comfort-mcq-19"
     }
@@ -1711,5 +1545,7 @@ export default {
     "sha256": "3dc67704e73b88c97b278301dfa6e476854ea8454c9cf0092ebcfabcf929df0a",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

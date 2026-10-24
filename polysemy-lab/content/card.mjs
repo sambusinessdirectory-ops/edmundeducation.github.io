@@ -478,16 +478,6 @@ export default {
       "note": "來源詞義：查驗年齡證件",
       "examples": [
         [
-          "The referee carded the defender.",
-          "球證向那名後衛出示了牌。",
-          "查驗年齡證件"
-        ],
-        [
-          "He was carded for a late tackle.",
-          "他因一次遲來攔截而被出示黃／紅牌。",
-          "查驗年齡證件"
-        ],
-        [
           "The cashier carded him before selling the product.",
           "收銀員在出售產品前要求他出示年齡證明。",
           "查驗年齡證件"
@@ -915,6 +905,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "card-reviewed-b606e0bae4",
+      "title": "在運動比賽中向球員出示警告或罰離場用的牌",
+      "form": "card · source section 24",
+      "en": "在運動比賽中向球員出示警告或罰離場用的牌",
+      "zh": "在運動比賽中向球員出示警告或罰離場用的牌",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "The referee carded the defender.",
+          "球證向那名後衛出示了牌。",
+          "在運動比賽中向球員出示警告或罰離場用的牌"
+        ],
+        [
+          "He was carded for a late tackle.",
+          "他因一次遲來攔截而被出示黃／紅牌。",
+          "在運動比賽中向球員出示警告或罰離場用的牌"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -926,11 +938,9 @@ export default {
       "masked": "She handed me a small ____.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-13",
+        "card-mcq-34",
+        "card-mcq-21"
       ],
       "explanation": "本句的「card」指「卡；卡片」。",
       "sentenceIndex": 0,
@@ -939,12 +949,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「card」指「卡；卡片」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -956,11 +964,9 @@ export default {
       "masked": "Write your name on the ____.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-reviewed-b606e0bae4",
+        "card-mcq-35",
+        "card-mcq-33"
       ],
       "explanation": "本句的「card」指「卡；卡片」。",
       "sentenceIndex": 1,
@@ -969,12 +975,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「card」指「卡；卡片」。",
+        "card-reviewed-b606e0bae4": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -986,11 +990,9 @@ export default {
       "masked": "There was a note attached to the ____.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-28",
+        "card-mcq-37",
+        "card-mcq-29"
       ],
       "explanation": "本句的「card」指「卡；卡片」。",
       "sentenceIndex": 2,
@@ -999,12 +1001,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「card」指「卡；卡片」。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -1016,11 +1016,9 @@ export default {
       "masked": "I sometimes gave people ____.",
       "options": [
         "card-mcq-02",
-        "card-mcq-01",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-26",
+        "card-mcq-14",
+        "card-mcq-31"
       ],
       "explanation": "本句的「gift cards」指「禮品卡」。",
       "sentenceIndex": 3,
@@ -1029,12 +1027,10 @@ export default {
         "gift cards"
       ],
       "optionReasons": {
-        "card-mcq-02": "本句指「禮品卡」。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-02": "本句的「gift cards」指「禮品卡」。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-02"
     },
@@ -1046,11 +1042,9 @@ export default {
       "masked": "She used the ____ to buy a book.",
       "options": [
         "card-mcq-02",
-        "card-mcq-01",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-35",
+        "card-mcq-28",
+        "card-mcq-30"
       ],
       "explanation": "本句的「gift card」指「禮品卡」。",
       "sentenceIndex": 4,
@@ -1059,12 +1053,10 @@ export default {
         "gift card"
       ],
       "optionReasons": {
-        "card-mcq-02": "本句指「禮品卡」。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-02": "本句的「gift card」指「禮品卡」。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-02"
     },
@@ -1076,11 +1068,9 @@ export default {
       "masked": "The ____ has a value of $50.",
       "options": [
         "card-mcq-02",
-        "card-mcq-01",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-35",
+        "card-mcq-30",
+        "card-mcq-12"
       ],
       "explanation": "本句的「gift card」指「禮品卡」。",
       "sentenceIndex": 5,
@@ -1089,12 +1079,10 @@ export default {
         "gift card"
       ],
       "optionReasons": {
-        "card-mcq-02": "本句指「禮品卡」。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-02": "本句的「gift card」指「禮品卡」。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-02"
     },
@@ -1106,11 +1094,9 @@ export default {
       "masked": "She sent me a ____.",
       "options": [
         "card-mcq-03",
-        "card-mcq-02",
-        "card-mcq-04",
-        "card-mcq-01",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-18",
+        "card-mcq-16",
+        "card-mcq-26"
       ],
       "explanation": "本句的「greeting card」指「賀卡」。",
       "sentenceIndex": 6,
@@ -1119,12 +1105,10 @@ export default {
         "greeting card"
       ],
       "optionReasons": {
-        "card-mcq-03": "本句指「賀卡」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-03": "本句的「greeting card」指「賀卡」。",
+        "card-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-03"
     },
@@ -1136,11 +1120,9 @@ export default {
       "masked": "I bought a ____ for my grandmother.",
       "options": [
         "card-mcq-03",
-        "card-mcq-02",
-        "card-mcq-04",
-        "card-mcq-01",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-29",
+        "card-mcq-35",
+        "card-mcq-21"
       ],
       "explanation": "本句的「greeting card」指「賀卡」。",
       "sentenceIndex": 7,
@@ -1149,12 +1131,10 @@ export default {
         "greeting card"
       ],
       "optionReasons": {
-        "card-mcq-03": "本句指「賀卡」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-03": "本句的「greeting card」指「賀卡」。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-03"
     },
@@ -1166,11 +1146,9 @@ export default {
       "masked": "He wrote a message in the ____.",
       "options": [
         "card-mcq-04",
-        "card-mcq-03",
-        "card-mcq-05",
-        "card-mcq-02",
-        "card-mcq-06",
-        "card-mcq-01"
+        "card-mcq-14",
+        "card-mcq-12",
+        "card-mcq-16"
       ],
       "explanation": "本句的「birthday card」指「生日卡」。",
       "sentenceIndex": 8,
@@ -1179,12 +1157,10 @@ export default {
         "birthday card"
       ],
       "optionReasons": {
-        "card-mcq-04": "本句指「生日卡」。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。"
+        "card-mcq-04": "本句的「birthday card」指「生日卡」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-04"
     },
@@ -1196,11 +1172,9 @@ export default {
       "masked": "I received several ____.",
       "options": [
         "card-mcq-04",
-        "card-mcq-03",
-        "card-mcq-05",
-        "card-mcq-02",
-        "card-mcq-06",
-        "card-mcq-01"
+        "card-mcq-26",
+        "card-mcq-35",
+        "card-mcq-30"
       ],
       "explanation": "本句的「birthday cards」指「生日卡」。",
       "sentenceIndex": 9,
@@ -1209,12 +1183,10 @@ export default {
         "birthday cards"
       ],
       "optionReasons": {
-        "card-mcq-04": "本句指「生日卡」。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-01": "「卡；卡片」與本句語境不同。"
+        "card-mcq-04": "本句的「birthday cards」指「生日卡」。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-04"
     },
@@ -1226,11 +1198,9 @@ export default {
       "masked": "I paid with my ____.",
       "options": [
         "card-mcq-05",
-        "card-mcq-04",
-        "card-mcq-06",
-        "card-mcq-03",
-        "card-mcq-07",
-        "card-mcq-02"
+        "card-mcq-14",
+        "card-mcq-37",
+        "card-mcq-29"
       ],
       "explanation": "本句的「bank card」指「銀行卡」。",
       "sentenceIndex": 12,
@@ -1239,12 +1209,10 @@ export default {
         "bank card"
       ],
       "optionReasons": {
-        "card-mcq-05": "本句指「銀行卡」。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。"
+        "card-mcq-05": "本句的「bank card」指「銀行卡」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-05"
     },
@@ -1256,11 +1224,9 @@ export default {
       "masked": "He lost his ____ yesterday.",
       "options": [
         "card-mcq-05",
-        "card-mcq-04",
-        "card-mcq-06",
-        "card-mcq-03",
-        "card-mcq-07",
-        "card-mcq-02"
+        "card-mcq-31",
+        "card-mcq-15",
+        "card-mcq-12"
       ],
       "explanation": "本句的「bank card」指「銀行卡」。",
       "sentenceIndex": 13,
@@ -1269,12 +1235,10 @@ export default {
         "bank card"
       ],
       "optionReasons": {
-        "card-mcq-05": "本句指「銀行卡」。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。"
+        "card-mcq-05": "本句的「bank card」指「銀行卡」。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-05"
     },
@@ -1286,11 +1250,9 @@ export default {
       "masked": "She paid by ____.",
       "options": [
         "card-mcq-06",
-        "card-mcq-05",
-        "card-mcq-07",
-        "card-mcq-04",
-        "card-mcq-08",
-        "card-mcq-03"
+        "card-mcq-33",
+        "card-mcq-12",
+        "card-mcq-29"
       ],
       "explanation": "本句的「credit card」指「信用卡」。",
       "sentenceIndex": 14,
@@ -1299,12 +1261,10 @@ export default {
         "credit card"
       ],
       "optionReasons": {
-        "card-mcq-06": "本句指「信用卡」。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。"
+        "card-mcq-06": "本句的「credit card」指「信用卡」。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-06"
     },
@@ -1316,11 +1276,9 @@ export default {
       "masked": "The hotel requires a ____ for the booking.",
       "options": [
         "card-mcq-06",
-        "card-mcq-05",
-        "card-mcq-07",
-        "card-mcq-04",
-        "card-mcq-08",
-        "card-mcq-03"
+        "card-mcq-13",
+        "card-mcq-34",
+        "card-mcq-37"
       ],
       "explanation": "本句的「credit card」指「信用卡」。",
       "sentenceIndex": 15,
@@ -1329,12 +1287,10 @@ export default {
         "credit card"
       ],
       "optionReasons": {
-        "card-mcq-06": "本句指「信用卡」。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。"
+        "card-mcq-06": "本句的「credit card」指「信用卡」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-06"
     },
@@ -1346,11 +1302,9 @@ export default {
       "masked": "I normally use a ____ for groceries.",
       "options": [
         "card-mcq-07",
-        "card-mcq-06",
-        "card-mcq-08",
-        "card-mcq-05",
-        "card-mcq-09",
-        "card-mcq-04"
+        "card-mcq-18",
+        "card-mcq-34",
+        "card-mcq-16"
       ],
       "explanation": "本句的「debit card」指「扣帳卡」。",
       "sentenceIndex": 16,
@@ -1359,12 +1313,10 @@ export default {
         "debit card"
       ],
       "optionReasons": {
-        "card-mcq-07": "本句指「扣帳卡」。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。"
+        "card-mcq-07": "本句的「debit card」指「扣帳卡」。",
+        "card-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-07"
     },
@@ -1376,11 +1328,9 @@ export default {
       "masked": "The money is taken directly from your account when you use a ____.",
       "options": [
         "card-mcq-07",
-        "card-mcq-06",
-        "card-mcq-08",
-        "card-mcq-05",
-        "card-mcq-09",
-        "card-mcq-04"
+        "card-mcq-14",
+        "card-mcq-29",
+        "card-mcq-16"
       ],
       "explanation": "本句的「debit card」指「扣帳卡」。",
       "sentenceIndex": 17,
@@ -1389,12 +1339,10 @@ export default {
         "debit card"
       ],
       "optionReasons": {
-        "card-mcq-07": "本句指「扣帳卡」。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。"
+        "card-mcq-07": "本句的「debit card」指「扣帳卡」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-07"
     },
@@ -1406,11 +1354,9 @@ export default {
       "masked": "Can I ____?",
       "options": [
         "card-mcq-08",
-        "card-mcq-07",
-        "card-mcq-09",
-        "card-mcq-06",
-        "card-mcq-10",
-        "card-mcq-05"
+        "card-mcq-12",
+        "card-reviewed-b606e0bae4",
+        "card-mcq-29"
       ],
       "explanation": "本句的「pay by card」指「用卡付款」。",
       "sentenceIndex": 18,
@@ -1419,12 +1365,10 @@ export default {
         "pay by card"
       ],
       "optionReasons": {
-        "card-mcq-08": "本句指「用卡付款」。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。"
+        "card-mcq-08": "本句的「pay by card」指「用卡付款」。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-reviewed-b606e0bae4": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-08"
     },
@@ -1436,11 +1380,9 @@ export default {
       "masked": "The shop accepts cash and ____.",
       "options": [
         "card-mcq-08",
-        "card-mcq-07",
-        "card-mcq-09",
-        "card-mcq-06",
-        "card-mcq-10",
-        "card-mcq-05"
+        "card-mcq-12",
+        "card-mcq-31",
+        "card-mcq-21"
       ],
       "explanation": "本句的「card」指「用卡付款」。",
       "sentenceIndex": 19,
@@ -1449,12 +1391,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-08": "本句指「用卡付款」。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。"
+        "card-mcq-08": "本句的「card」指「用卡付款」。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-08"
     },
@@ -1466,11 +1406,9 @@ export default {
       "masked": "The machine isn't accepting ____.",
       "options": [
         "card-pdf-001",
-        "card-mcq-07",
-        "card-mcq-09",
-        "card-mcq-06",
-        "card-mcq-10",
-        "card-mcq-05"
+        "card-mcq-15",
+        "card-mcq-12",
+        "card-mcq-21"
       ],
       "explanation": "本句的「card payments」指「透過支付卡完成的交易」。",
       "sentenceIndex": 20,
@@ -1479,12 +1417,10 @@ export default {
         "card payments"
       ],
       "optionReasons": {
-        "card-pdf-001": "本句指「透過支付卡完成的交易」。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。"
+        "card-pdf-001": "本句的「card payments」指「透過支付卡完成的交易」。",
+        "card-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-pdf-001"
     },
@@ -1496,11 +1432,9 @@ export default {
       "masked": "Most customers now use ____.",
       "options": [
         "card-pdf-001",
-        "card-mcq-07",
-        "card-mcq-09",
-        "card-mcq-06",
-        "card-mcq-10",
-        "card-mcq-05"
+        "card-mcq-18",
+        "card-mcq-29",
+        "card-mcq-26"
       ],
       "explanation": "本句的「card payments」指「透過支付卡完成的交易」。",
       "sentenceIndex": 21,
@@ -1509,12 +1443,10 @@ export default {
         "card payments"
       ],
       "optionReasons": {
-        "card-pdf-001": "本句指「透過支付卡完成的交易」。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。"
+        "card-pdf-001": "本句的「card payments」指「透過支付卡完成的交易」。",
+        "card-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-pdf-001"
     },
@@ -1526,11 +1458,9 @@ export default {
       "masked": "Please show your ____.",
       "options": [
         "card-mcq-09",
-        "card-mcq-08",
-        "card-mcq-10",
-        "card-mcq-07",
-        "card-mcq-11",
-        "card-mcq-06"
+        "card-mcq-34",
+        "card-mcq-30",
+        "card-mcq-28"
       ],
       "explanation": "本句的「ID card」指「身份證／身份卡」。",
       "sentenceIndex": 22,
@@ -1539,12 +1469,10 @@ export default {
         "ID card"
       ],
       "optionReasons": {
-        "card-mcq-09": "本句指「身份證／身份卡」。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-09": "本句的「ID card」指「身份證／身份卡」。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-09"
     },
@@ -1556,11 +1484,9 @@ export default {
       "masked": "Students must carry their ____.",
       "options": [
         "card-mcq-09",
-        "card-mcq-08",
-        "card-mcq-10",
-        "card-mcq-07",
-        "card-mcq-11",
-        "card-mcq-06"
+        "card-mcq-33",
+        "card-mcq-16",
+        "card-mcq-12"
       ],
       "explanation": "本句的「identity cards」指「身份證／身份卡」。",
       "sentenceIndex": 23,
@@ -1569,12 +1495,10 @@ export default {
         "identity cards"
       ],
       "optionReasons": {
-        "card-mcq-09": "本句指「身份證／身份卡」。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-09": "本句的「identity cards」指「身份證／身份卡」。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-09"
     },
@@ -1586,11 +1510,9 @@ export default {
       "masked": "Show your ____ at the entrance.",
       "options": [
         "card-mcq-10",
-        "card-mcq-09",
-        "card-mcq-11",
-        "card-mcq-08",
-        "card-mcq-12",
-        "card-mcq-07"
+        "card-mcq-13",
+        "card-mcq-26",
+        "card-mcq-37"
       ],
       "explanation": "本句的「membership card」指「會員卡」。",
       "sentenceIndex": 24,
@@ -1599,12 +1521,10 @@ export default {
         "membership card"
       ],
       "optionReasons": {
-        "card-mcq-10": "本句指「會員卡」。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。"
+        "card-mcq-10": "本句的「membership card」指「會員卡」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-10"
     },
@@ -1616,11 +1536,9 @@ export default {
       "masked": "I forgot to bring my ____.",
       "options": [
         "card-mcq-10",
-        "card-mcq-09",
-        "card-mcq-11",
-        "card-mcq-08",
-        "card-mcq-12",
-        "card-mcq-07"
+        "card-mcq-14",
+        "card-mcq-37",
+        "card-mcq-12"
       ],
       "explanation": "本句的「membership card」指「會員卡」。",
       "sentenceIndex": 25,
@@ -1629,12 +1547,10 @@ export default {
         "membership card"
       ],
       "optionReasons": {
-        "card-mcq-10": "本句指「會員卡」。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-07": "「扣帳卡」與本句語境不同。"
+        "card-mcq-10": "本句的「membership card」指「會員卡」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-10"
     },
@@ -1646,11 +1562,9 @@ export default {
       "masked": "Do you have a ____?",
       "options": [
         "card-mcq-11",
-        "card-mcq-10",
-        "card-mcq-12",
-        "card-mcq-09",
-        "card-mcq-13",
-        "card-mcq-08"
+        "card-mcq-21",
+        "card-mcq-18",
+        "card-mcq-31"
       ],
       "explanation": "本句的「loyalty card」指「積分卡」。",
       "sentenceIndex": 26,
@@ -1659,12 +1573,10 @@ export default {
         "loyalty card"
       ],
       "optionReasons": {
-        "card-mcq-11": "本句指「積分卡」。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。"
+        "card-mcq-11": "本句的「loyalty card」指「積分卡」。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-11"
     },
@@ -1676,11 +1588,9 @@ export default {
       "masked": "Customers collect points with the ____.",
       "options": [
         "card-mcq-11",
-        "card-mcq-10",
         "card-mcq-12",
-        "card-mcq-09",
-        "card-mcq-13",
-        "card-mcq-08"
+        "card-mcq-29",
+        "card-mcq-16"
       ],
       "explanation": "本句的「loyalty card」指「積分卡」。",
       "sentenceIndex": 27,
@@ -1689,12 +1599,10 @@ export default {
         "loyalty card"
       ],
       "optionReasons": {
-        "card-mcq-11": "本句指「積分卡」。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-08": "「用卡付款」與本句語境不同。"
+        "card-mcq-11": "本句的「loyalty card」指「積分卡」。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-11"
     },
@@ -1706,11 +1614,9 @@ export default {
       "masked": "He gave me his ____.",
       "options": [
         "card-mcq-12",
-        "card-mcq-11",
-        "card-mcq-13",
-        "card-mcq-10",
-        "card-mcq-14",
-        "card-mcq-09"
+        "card-mcq-07",
+        "card-mcq-33",
+        "card-mcq-14"
       ],
       "explanation": "本句的「business card」指「名片」。",
       "sentenceIndex": 28,
@@ -1719,12 +1625,10 @@ export default {
         "business card"
       ],
       "optionReasons": {
-        "card-mcq-12": "本句指「名片」。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。"
+        "card-mcq-12": "本句的「business card」指「名片」。",
+        "card-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-12"
     },
@@ -1736,11 +1640,9 @@ export default {
       "masked": "Her phone number is on the ____.",
       "options": [
         "card-mcq-12",
-        "card-mcq-11",
         "card-mcq-13",
-        "card-mcq-10",
-        "card-mcq-14",
-        "card-mcq-09"
+        "card-mcq-08",
+        "card-mcq-16"
       ],
       "explanation": "本句的「business card」指「名片」。",
       "sentenceIndex": 29,
@@ -1749,12 +1651,10 @@ export default {
         "business card"
       ],
       "optionReasons": {
-        "card-mcq-12": "本句指「名片」。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。"
+        "card-mcq-12": "本句的「business card」指「名片」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-12"
     },
@@ -1766,11 +1666,9 @@ export default {
       "masked": "He handed me his ____.",
       "options": [
         "card-mcq-12",
-        "card-mcq-11",
-        "card-mcq-13",
-        "card-mcq-10",
-        "card-mcq-14",
-        "card-mcq-09"
+        "card-mcq-05",
+        "card-mcq-19",
+        "card-mcq-34"
       ],
       "explanation": "本句的「business card」指「名片」。",
       "sentenceIndex": 30,
@@ -1779,12 +1677,10 @@ export default {
         "business card"
       ],
       "optionReasons": {
-        "card-mcq-12": "本句指「名片」。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-09": "「身份證／身份卡」與本句語境不同。"
+        "card-mcq-12": "本句的「business card」指「名片」。",
+        "card-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-12"
     },
@@ -1796,11 +1692,9 @@ export default {
       "masked": "She picked up a ____.",
       "options": [
         "card-mcq-13",
-        "card-mcq-12",
-        "card-mcq-14",
         "card-mcq-11",
-        "card-mcq-15",
-        "card-mcq-10"
+        "card-mcq-33",
+        "card-mcq-31"
       ],
       "explanation": "本句的「playing card」指「啤牌」。",
       "sentenceIndex": 31,
@@ -1809,12 +1703,10 @@ export default {
         "playing card"
       ],
       "optionReasons": {
-        "card-mcq-13": "本句指「啤牌」。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。"
+        "card-mcq-13": "本句的「playing card」指「啤牌」。",
+        "card-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-13"
     },
@@ -1826,11 +1718,9 @@ export default {
       "masked": "One ____ was missing from the deck.",
       "options": [
         "card-mcq-13",
-        "card-mcq-12",
-        "card-mcq-14",
-        "card-mcq-11",
-        "card-mcq-15",
-        "card-mcq-10"
+        "card-pdf-001",
+        "card-mcq-31",
+        "card-mcq-26"
       ],
       "explanation": "本句的「card」指「啤牌」。",
       "sentenceIndex": 32,
@@ -1839,12 +1729,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-13": "本句指「啤牌」。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-10": "「會員卡」與本句語境不同。"
+        "card-mcq-13": "本句的「card」指「啤牌」。",
+        "card-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-13"
     },
@@ -1856,11 +1744,9 @@ export default {
       "masked": "We bought a ____.",
       "options": [
         "card-mcq-14",
-        "card-mcq-13",
-        "card-mcq-15",
-        "card-mcq-12",
-        "card-mcq-16",
-        "card-mcq-11"
+        "card-mcq-23",
+        "card-mcq-21",
+        "card-mcq-34"
       ],
       "explanation": "本句的「pack of cards」指「一副牌」。",
       "sentenceIndex": 33,
@@ -1869,12 +1755,10 @@ export default {
         "pack of cards"
       ],
       "optionReasons": {
-        "card-mcq-14": "本句指「一副牌」。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。"
+        "card-mcq-14": "本句的「pack of cards」指「一副牌」。",
+        "card-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-14"
     },
@@ -1886,11 +1770,9 @@ export default {
       "masked": "Shuffle the ____.",
       "options": [
         "card-mcq-14",
-        "card-mcq-13",
-        "card-mcq-15",
-        "card-mcq-12",
-        "card-mcq-16",
-        "card-mcq-11"
+        "card-mcq-17",
+        "card-mcq-37",
+        "card-mcq-29"
       ],
       "explanation": "本句的「deck of cards」指「一副牌」。",
       "sentenceIndex": 34,
@@ -1899,12 +1781,10 @@ export default {
         "deck of cards"
       ],
       "optionReasons": {
-        "card-mcq-14": "本句指「一副牌」。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-11": "「積分卡」與本句語境不同。"
+        "card-mcq-14": "本句的「deck of cards」指「一副牌」。",
+        "card-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-14"
     },
@@ -1916,11 +1796,9 @@ export default {
       "masked": "A king is a ____.",
       "options": [
         "card-mcq-15",
-        "card-mcq-14",
-        "card-mcq-16",
-        "card-mcq-13",
-        "card-mcq-17",
-        "card-mcq-12"
+        "card-mcq-06",
+        "card-mcq-21",
+        "card-mcq-26"
       ],
       "explanation": "本句的「face card」指「人頭牌」。",
       "sentenceIndex": 37,
@@ -1929,12 +1807,10 @@ export default {
         "face card"
       ],
       "optionReasons": {
-        "card-mcq-15": "本句指「人頭牌」。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。"
+        "card-mcq-15": "本句的「face card」指「人頭牌」。",
+        "card-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-15"
     },
@@ -1946,10 +1822,8 @@ export default {
       "masked": "She drew a ____.",
       "options": [
         "card-mcq-15",
-        "card-mcq-14",
-        "card-mcq-16",
-        "card-mcq-13",
-        "card-mcq-17",
+        "card-mcq-24",
+        "card-mcq-29",
         "card-mcq-12"
       ],
       "explanation": "本句的「face card」指「人頭牌」。",
@@ -1959,12 +1833,10 @@ export default {
         "face card"
       ],
       "optionReasons": {
-        "card-mcq-15": "本句指「人頭牌」。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-12": "「名片」與本句語境不同。"
+        "card-mcq-15": "本句的「face card」指「人頭牌」。",
+        "card-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-15"
     },
@@ -1976,11 +1848,9 @@ export default {
       "masked": "He brought home his ____.",
       "options": [
         "card-mcq-16",
-        "card-mcq-15",
-        "card-mcq-17",
-        "card-mcq-14",
-        "card-mcq-18",
-        "card-mcq-13"
+        "card-mcq-01",
+        "card-mcq-37",
+        "card-reviewed-b606e0bae4"
       ],
       "explanation": "本句的「report card」指「成績單」。",
       "sentenceIndex": 39,
@@ -1989,12 +1859,10 @@ export default {
         "report card"
       ],
       "optionReasons": {
-        "card-mcq-16": "本句指「成績單」。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。"
+        "card-mcq-16": "本句的「report card」指「成績單」。",
+        "card-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-reviewed-b606e0bae4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-16"
     },
@@ -2006,11 +1874,9 @@ export default {
       "masked": "Her ____ showed strong improvement.",
       "options": [
         "card-mcq-16",
-        "card-mcq-15",
-        "card-mcq-17",
-        "card-mcq-14",
-        "card-mcq-18",
-        "card-mcq-13"
+        "card-mcq-13",
+        "card-mcq-05",
+        "card-mcq-31"
       ],
       "explanation": "本句的「report card」指「成績單」。",
       "sentenceIndex": 40,
@@ -2019,12 +1885,10 @@ export default {
         "report card"
       ],
       "optionReasons": {
-        "card-mcq-16": "本句指「成績單」。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。",
-        "card-mcq-13": "「啤牌」與本句語境不同。"
+        "card-mcq-16": "本句的「report card」指「成績單」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-16"
     },
@@ -2036,11 +1900,9 @@ export default {
       "masked": "The golfer checked his ____.",
       "options": [
         "card-mcq-17",
-        "card-mcq-16",
-        "card-mcq-18",
-        "card-mcq-15",
-        "card-mcq-19",
-        "card-mcq-14"
+        "card-mcq-29",
+        "card-mcq-31",
+        "card-mcq-19"
       ],
       "explanation": "本句的「scorecard」指「計分卡／評分表」。",
       "sentenceIndex": 41,
@@ -2049,12 +1911,10 @@ export default {
         "scorecard"
       ],
       "optionReasons": {
-        "card-mcq-17": "本句指「計分卡／評分表」。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。"
+        "card-mcq-17": "本句的「scorecard」指「計分卡／評分表」。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-17"
     },
@@ -2066,11 +1926,9 @@ export default {
       "masked": "The organization publishes an annual performance ____.",
       "options": [
         "card-mcq-17",
-        "card-mcq-16",
-        "card-mcq-18",
-        "card-mcq-15",
-        "card-mcq-19",
-        "card-mcq-14"
+        "card-mcq-31",
+        "card-mcq-35",
+        "card-mcq-12"
       ],
       "explanation": "本句的「scorecard」指「計分卡／評分表」。",
       "sentenceIndex": 42,
@@ -2079,12 +1937,10 @@ export default {
         "scorecard"
       ],
       "optionReasons": {
-        "card-mcq-17": "本句指「計分卡／評分表」。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-14": "「一副牌」與本句語境不同。"
+        "card-mcq-17": "本句的「scorecard」指「計分卡／評分表」。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-17"
     },
@@ -2096,11 +1952,9 @@ export default {
       "masked": "The player was shown a ____.",
       "options": [
         "card-mcq-18",
-        "card-mcq-17",
-        "card-mcq-19",
-        "card-mcq-16",
-        "card-mcq-20",
-        "card-mcq-15"
+        "card-mcq-26",
+        "card-mcq-31",
+        "card-mcq-22"
       ],
       "explanation": "本句的「red card」指「紅牌」。",
       "sentenceIndex": 43,
@@ -2109,12 +1963,10 @@ export default {
         "red card"
       ],
       "optionReasons": {
-        "card-mcq-18": "本句指「紅牌」。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。"
+        "card-mcq-18": "本句的「red card」指「紅牌」。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-18"
     },
@@ -2126,11 +1978,9 @@ export default {
       "masked": "A ____ means the player must leave the field.",
       "options": [
         "card-mcq-18",
-        "card-mcq-17",
-        "card-mcq-19",
-        "card-mcq-16",
-        "card-mcq-20",
-        "card-mcq-15"
+        "card-mcq-05",
+        "card-mcq-12",
+        "card-mcq-37"
       ],
       "explanation": "本句的「red card」指「紅牌」。",
       "sentenceIndex": 44,
@@ -2139,12 +1989,10 @@ export default {
         "red card"
       ],
       "optionReasons": {
-        "card-mcq-18": "本句指「紅牌」。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-15": "「人頭牌」與本句語境不同。"
+        "card-mcq-18": "本句的「red card」指「紅牌」。",
+        "card-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-18"
     },
@@ -2156,11 +2004,9 @@ export default {
       "masked": "The referee gave him a ____.",
       "options": [
         "card-mcq-19",
-        "card-mcq-18",
-        "card-mcq-20",
-        "card-mcq-17",
-        "card-mcq-21",
-        "card-mcq-16"
+        "card-mcq-23",
+        "card-mcq-26",
+        "card-mcq-29"
       ],
       "explanation": "本句的「yellow card」指「黃牌」。",
       "sentenceIndex": 45,
@@ -2169,12 +2015,10 @@ export default {
         "yellow card"
       ],
       "optionReasons": {
-        "card-mcq-19": "本句指「黃牌」。",
-        "card-mcq-18": "「紅牌」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。"
+        "card-mcq-19": "本句的「yellow card」指「黃牌」。",
+        "card-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-19"
     },
@@ -2186,11 +2030,9 @@ export default {
       "masked": "He received a ____ for the foul.",
       "options": [
         "card-mcq-19",
-        "card-mcq-18",
-        "card-mcq-20",
-        "card-mcq-17",
-        "card-mcq-21",
-        "card-mcq-16"
+        "card-pdf-001",
+        "card-mcq-37",
+        "card-mcq-27"
       ],
       "explanation": "本句的「yellow card」指「黃牌」。",
       "sentenceIndex": 46,
@@ -2199,74 +2041,68 @@ export default {
         "yellow card"
       ],
       "optionReasons": {
-        "card-mcq-19": "本句指「黃牌」。",
-        "card-mcq-18": "「紅牌」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-17": "「計分卡／評分表」與本句語境不同。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。",
-        "card-mcq-16": "「成績單」與本句語境不同。"
+        "card-mcq-19": "本句的「yellow card」指「黃牌」。",
+        "card-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-19"
     },
     {
       "id": "card-24-0",
-      "sense": "card-mcq-21",
+      "sense": "card-reviewed-b606e0bae4",
       "en": "The referee carded the defender.",
       "zh": "球證向那名後衛出示了牌。",
       "masked": "The referee ____.",
       "options": [
-        "card-mcq-21",
-        "card-mcq-20",
-        "card-mcq-22",
-        "card-mcq-19",
-        "card-mcq-23",
-        "card-mcq-18"
+        "card-reviewed-b606e0bae4",
+        "card-mcq-11",
+        "card-mcq-12",
+        "card-mcq-33"
       ],
-      "explanation": "本句的「carded the defender」指「查驗年齡證件」。",
+      "explanation": "對照完整句子：「球證向那名後衛出示了牌。」。這裡的「carded the defender」表示「在運動比賽中向球員出示警告或罰離場用的牌」。",
       "sentenceIndex": 47,
       "sourcePractice": 1,
       "targets": [
         "carded the defender"
       ],
       "optionReasons": {
-        "card-mcq-21": "本句指「查驗年齡證件」。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。"
+        "card-reviewed-b606e0bae4": "對照完整句子：「球證向那名後衛出示了牌。」。這裡的「carded the defender」表示「在運動比賽中向球員出示警告或罰離場用的牌」。",
+        "card-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "card-mcq-21"
+      "correctOption": "card-reviewed-b606e0bae4",
+      "previousCorrectOption": "card-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "card-24-1",
-      "sense": "card-mcq-21",
+      "sense": "card-reviewed-b606e0bae4",
       "en": "He was carded for a late tackle.",
       "zh": "他因一次遲來攔截而被出示黃／紅牌。",
       "masked": "He was ____ for a late tackle.",
       "options": [
-        "card-mcq-21",
-        "card-mcq-20",
-        "card-mcq-22",
-        "card-mcq-19",
-        "card-mcq-23",
-        "card-mcq-18"
+        "card-reviewed-b606e0bae4",
+        "card-mcq-17",
+        "card-mcq-34",
+        "card-mcq-22"
       ],
-      "explanation": "本句的「carded」指「查驗年齡證件」。",
+      "explanation": "對照完整句子：「他因一次遲來攔截而被出示黃／紅牌。」。這裡的「carded」表示「在運動比賽中向球員出示警告或罰離場用的牌」。",
       "sentenceIndex": 48,
       "sourcePractice": 2,
       "targets": [
         "carded"
       ],
       "optionReasons": {
-        "card-mcq-21": "本句指「查驗年齡證件」。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。"
+        "card-reviewed-b606e0bae4": "對照完整句子：「他因一次遲來攔截而被出示黃／紅牌。」。這裡的「carded」表示「在運動比賽中向球員出示警告或罰離場用的牌」。",
+        "card-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "card-mcq-21"
+      "correctOption": "card-reviewed-b606e0bae4",
+      "previousCorrectOption": "card-mcq-21",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "card-25-0",
@@ -2276,11 +2112,9 @@ export default {
       "masked": "The cashier ____ before selling the product.",
       "options": [
         "card-mcq-21",
-        "card-mcq-20",
-        "card-mcq-22",
-        "card-mcq-19",
-        "card-mcq-23",
-        "card-mcq-18"
+        "card-mcq-18",
+        "card-mcq-08",
+        "card-mcq-37"
       ],
       "explanation": "本句的「carded him」指「查驗年齡證件」。",
       "sentenceIndex": 49,
@@ -2289,12 +2123,10 @@ export default {
         "carded him"
       ],
       "optionReasons": {
-        "card-mcq-21": "本句指「查驗年齡證件」。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。"
+        "card-mcq-21": "本句的「carded him」指「查驗年齡證件」。",
+        "card-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-21"
     },
@@ -2306,11 +2138,9 @@ export default {
       "masked": "You may be ____ if you look young.",
       "options": [
         "card-mcq-21",
-        "card-mcq-20",
-        "card-mcq-22",
+        "card-mcq-07",
         "card-mcq-19",
-        "card-mcq-23",
-        "card-mcq-18"
+        "card-mcq-33"
       ],
       "explanation": "本句的「carded」指「查驗年齡證件」。",
       "sentenceIndex": 50,
@@ -2319,12 +2149,10 @@ export default {
         "carded"
       ],
       "optionReasons": {
-        "card-mcq-21": "本句指「查驗年齡證件」。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-18": "「紅牌」與本句語境不同。"
+        "card-mcq-21": "本句的「carded」指「查驗年齡證件」。",
+        "card-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-21"
     },
@@ -2336,11 +2164,9 @@ export default {
       "masked": "You need an invitation ____ to enter.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-14",
+        "card-mcq-33",
+        "card-mcq-37"
       ],
       "explanation": "本句的「card」指「卡；卡片」。",
       "sentenceIndex": 51,
@@ -2349,12 +2175,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「card」指「卡；卡片」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -2366,11 +2190,9 @@ export default {
       "masked": "The hotel gave us a key ____.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-15",
+        "card-mcq-21",
+        "card-mcq-33"
       ],
       "explanation": "本句的「card」指「卡；卡片」。",
       "sentenceIndex": 52,
@@ -2379,12 +2201,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「card」指「卡；卡片」。",
+        "card-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -2396,11 +2216,9 @@ export default {
       "masked": "Use the ____ to open the door.",
       "options": [
         "card-mcq-22",
+        "card-mcq-15",
         "card-mcq-21",
-        "card-mcq-23",
-        "card-mcq-20",
-        "card-mcq-24",
-        "card-mcq-19"
+        "card-mcq-37"
       ],
       "explanation": "本句的「key card」指「房卡／門禁卡」。",
       "sentenceIndex": 53,
@@ -2409,12 +2227,10 @@ export default {
         "key card"
       ],
       "optionReasons": {
-        "card-mcq-22": "本句指「房卡／門禁卡」。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。"
+        "card-mcq-22": "本句的「key card」指「房卡／門禁卡」。",
+        "card-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-22"
     },
@@ -2426,11 +2242,9 @@ export default {
       "masked": "I left my ____ in the room.",
       "options": [
         "card-mcq-22",
-        "card-mcq-21",
-        "card-mcq-23",
-        "card-mcq-20",
-        "card-mcq-24",
-        "card-mcq-19"
+        "card-mcq-13",
+        "card-mcq-26",
+        "card-mcq-33"
       ],
       "explanation": "本句的「key card」指「房卡／門禁卡」。",
       "sentenceIndex": 54,
@@ -2439,12 +2253,10 @@ export default {
         "key card"
       ],
       "optionReasons": {
-        "card-mcq-22": "本句指「房卡／門禁卡」。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-19": "「黃牌」與本句語境不同。"
+        "card-mcq-22": "本句的「key card」指「房卡／門禁卡」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-22"
     },
@@ -2456,11 +2268,9 @@ export default {
       "masked": "Insert the ____ into the phone.",
       "options": [
         "card-mcq-23",
-        "card-mcq-22",
-        "card-mcq-24",
-        "card-mcq-21",
-        "card-mcq-25",
-        "card-mcq-20"
+        "card-mcq-28",
+        "card-mcq-33",
+        "card-mcq-16"
       ],
       "explanation": "本句的「SIM card」指「SIM 卡」。",
       "sentenceIndex": 55,
@@ -2469,12 +2279,10 @@ export default {
         "SIM card"
       ],
       "optionReasons": {
-        "card-mcq-23": "本句指「SIM 卡」。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。"
+        "card-mcq-23": "本句的「SIM card」指「SIM 卡」。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-23"
     },
@@ -2486,11 +2294,9 @@ export default {
       "masked": "I need a local ____.",
       "options": [
         "card-mcq-23",
-        "card-mcq-22",
-        "card-mcq-24",
-        "card-mcq-21",
-        "card-mcq-25",
-        "card-mcq-20"
+        "card-mcq-34",
+        "card-mcq-12",
+        "card-mcq-16"
       ],
       "explanation": "本句的「SIM card」指「SIM 卡」。",
       "sentenceIndex": 56,
@@ -2499,12 +2305,10 @@ export default {
         "SIM card"
       ],
       "optionReasons": {
-        "card-mcq-23": "本句指「SIM 卡」。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-20": "「向球員出牌」與本句語境不同。"
+        "card-mcq-23": "本句的「SIM card」指「SIM 卡」。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-23"
     },
@@ -2516,11 +2320,9 @@ export default {
       "masked": "The camera uses a ____.",
       "options": [
         "card-mcq-24",
-        "card-mcq-23",
-        "card-mcq-25",
-        "card-mcq-22",
-        "card-mcq-26",
-        "card-mcq-21"
+        "card-mcq-34",
+        "card-mcq-28",
+        "card-mcq-37"
       ],
       "explanation": "本句的「memory card」指「記憶卡」。",
       "sentenceIndex": 57,
@@ -2529,12 +2331,10 @@ export default {
         "memory card"
       ],
       "optionReasons": {
-        "card-mcq-24": "本句指「記憶卡」。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。"
+        "card-mcq-24": "本句的「memory card」指「記憶卡」。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-24"
     },
@@ -2546,11 +2346,9 @@ export default {
       "masked": "The ____ is full.",
       "options": [
         "card-mcq-24",
-        "card-mcq-23",
-        "card-mcq-25",
-        "card-mcq-22",
-        "card-mcq-26",
-        "card-mcq-21"
+        "card-mcq-35",
+        "card-mcq-31",
+        "card-mcq-12"
       ],
       "explanation": "本句的「memory card」指「記憶卡」。",
       "sentenceIndex": 58,
@@ -2559,12 +2357,10 @@ export default {
         "memory card"
       ],
       "optionReasons": {
-        "card-mcq-24": "本句指「記憶卡」。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-21": "「查驗年齡證件」與本句語境不同。"
+        "card-mcq-24": "本句的「memory card」指「記憶卡」。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-24"
     },
@@ -2576,11 +2372,9 @@ export default {
       "masked": "Write one vocabulary word on each ____.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-16",
+        "card-mcq-34",
+        "card-mcq-28"
       ],
       "explanation": "本句的「card」指「卡；卡片」。",
       "sentenceIndex": 59,
@@ -2589,12 +2383,10 @@ export default {
         "card"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「card」指「卡；卡片」。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -2606,11 +2398,9 @@ export default {
       "masked": "She studied using flash ____.",
       "options": [
         "card-mcq-01",
-        "card-mcq-02",
-        "card-mcq-03",
-        "card-mcq-04",
-        "card-mcq-05",
-        "card-mcq-06"
+        "card-mcq-16",
+        "card-mcq-21",
+        "card-mcq-35"
       ],
       "explanation": "本句的「cards」指「卡；卡片」。",
       "sentenceIndex": 60,
@@ -2619,12 +2409,10 @@ export default {
         "cards"
       ],
       "optionReasons": {
-        "card-mcq-01": "本句指「卡；卡片」。",
-        "card-mcq-02": "「禮品卡」與本句語境不同。",
-        "card-mcq-03": "「賀卡」與本句語境不同。",
-        "card-mcq-04": "「生日卡」與本句語境不同。",
-        "card-mcq-05": "「銀行卡」與本句語境不同。",
-        "card-mcq-06": "「信用卡」與本句語境不同。"
+        "card-mcq-01": "本句的「cards」指「卡；卡片」。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-01"
     },
@@ -2636,11 +2424,9 @@ export default {
       "masked": "I use ____ to learn vocabulary.",
       "options": [
         "card-mcq-25",
-        "card-mcq-24",
-        "card-mcq-26",
-        "card-mcq-23",
-        "card-mcq-27",
-        "card-mcq-22"
+        "card-mcq-34",
+        "card-mcq-15",
+        "card-mcq-26"
       ],
       "explanation": "本句的「flashcards」指「字卡」。",
       "sentenceIndex": 61,
@@ -2649,12 +2435,10 @@ export default {
         "flashcards"
       ],
       "optionReasons": {
-        "card-mcq-25": "本句指「字卡」。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。"
+        "card-mcq-25": "本句的「flashcards」指「字卡」。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-25"
     },
@@ -2666,11 +2450,9 @@ export default {
       "masked": "Each ____ has a word on one side and a definition on the other.",
       "options": [
         "card-mcq-25",
-        "card-mcq-24",
-        "card-mcq-26",
-        "card-mcq-23",
-        "card-mcq-27",
-        "card-mcq-22"
+        "card-mcq-14",
+        "card-mcq-21",
+        "card-mcq-37"
       ],
       "explanation": "本句的「flashcard」指「字卡」。",
       "sentenceIndex": 62,
@@ -2679,12 +2461,10 @@ export default {
         "flashcard"
       ],
       "optionReasons": {
-        "card-mcq-25": "本句指「字卡」。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-22": "「房卡／門禁卡」與本句語境不同。"
+        "card-mcq-25": "本句的「flashcard」指「字卡」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-25"
     },
@@ -2696,11 +2476,9 @@ export default {
       "masked": "He left his ____ at the house.",
       "options": [
         "card-mcq-26",
-        "card-mcq-25",
-        "card-mcq-27",
-        "card-mcq-24",
-        "card-mcq-28",
-        "card-mcq-23"
+        "card-mcq-07",
+        "card-mcq-29",
+        "card-mcq-14"
       ],
       "explanation": "本句的「calling card」指「名片／標誌性特徵」。",
       "sentenceIndex": 63,
@@ -2709,12 +2487,10 @@ export default {
         "calling card"
       ],
       "optionReasons": {
-        "card-mcq-26": "本句指「名片／標誌性特徵」。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。"
+        "card-mcq-26": "本句的「calling card」指「名片／標誌性特徵」。",
+        "card-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-26"
     },
@@ -2726,11 +2502,9 @@ export default {
       "masked": "In earlier periods, visitors often left a ____.",
       "options": [
         "card-mcq-26",
-        "card-mcq-25",
-        "card-mcq-27",
-        "card-mcq-24",
-        "card-mcq-28",
-        "card-mcq-23"
+        "card-mcq-19",
+        "card-mcq-37",
+        "card-mcq-34"
       ],
       "explanation": "本句的「calling card」指「名片／標誌性特徵」。",
       "sentenceIndex": 64,
@@ -2739,12 +2513,10 @@ export default {
         "calling card"
       ],
       "optionReasons": {
-        "card-mcq-26": "本句指「名片／標誌性特徵」。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。"
+        "card-mcq-26": "本句的「calling card」指「名片／標誌性特徵」。",
+        "card-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-26"
     },
@@ -2756,11 +2528,9 @@ export default {
       "masked": "Bold colours became the designer's ____.",
       "options": [
         "card-mcq-26",
-        "card-mcq-25",
         "card-mcq-27",
-        "card-mcq-24",
-        "card-mcq-28",
-        "card-mcq-23"
+        "card-mcq-33",
+        "card-mcq-28"
       ],
       "explanation": "本句的「calling card」指「名片／標誌性特徵」。",
       "sentenceIndex": 65,
@@ -2769,12 +2539,10 @@ export default {
         "calling card"
       ],
       "optionReasons": {
-        "card-mcq-26": "本句指「名片／標誌性特徵」。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。"
+        "card-mcq-26": "本句的「calling card」指「名片／標誌性特徵」。",
+        "card-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-26"
     },
@@ -2786,11 +2554,9 @@ export default {
       "masked": "Fast service is the company's ____.",
       "options": [
         "card-mcq-26",
-        "card-mcq-25",
-        "card-mcq-27",
-        "card-mcq-24",
         "card-mcq-28",
-        "card-mcq-23"
+        "card-mcq-36",
+        "card-mcq-29"
       ],
       "explanation": "本句的「calling card」指「名片／標誌性特徵」。",
       "sentenceIndex": 66,
@@ -2799,12 +2565,10 @@ export default {
         "calling card"
       ],
       "optionReasons": {
-        "card-mcq-26": "本句指「名片／標誌性特徵」。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-23": "「SIM 卡」與本句語境不同。"
+        "card-mcq-26": "本句的「calling card」指「名片／標誌性特徵」。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-26"
     },
@@ -2816,11 +2580,9 @@ export default {
       "masked": "She entered the tournament as a ____.",
       "options": [
         "card-mcq-27",
-        "card-mcq-26",
+        "card-reviewed-b606e0bae4",
         "card-mcq-28",
-        "card-mcq-25",
-        "card-mcq-29",
-        "card-mcq-24"
+        "card-mcq-21"
       ],
       "explanation": "本句的「wild card」指「外卡／變數」。",
       "sentenceIndex": 67,
@@ -2829,12 +2591,10 @@ export default {
         "wild card"
       ],
       "optionReasons": {
-        "card-mcq-27": "本句指「外卡／變數」。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。"
+        "card-mcq-27": "本句的「wild card」指「外卡／變數」。",
+        "card-reviewed-b606e0bae4": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-27"
     },
@@ -2846,11 +2606,9 @@ export default {
       "masked": "Weather is the ____ in our plan.",
       "options": [
         "card-mcq-27",
-        "card-mcq-26",
-        "card-mcq-28",
-        "card-mcq-25",
-        "card-mcq-29",
-        "card-mcq-24"
+        "card-mcq-12",
+        "card-mcq-37",
+        "card-mcq-28"
       ],
       "explanation": "本句的「wild card」指「外卡／變數」。",
       "sentenceIndex": 68,
@@ -2859,12 +2617,10 @@ export default {
         "wild card"
       ],
       "optionReasons": {
-        "card-mcq-27": "本句指「外卡／變數」。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-24": "「記憶卡」與本句語境不同。"
+        "card-mcq-27": "本句的「wild card」指「外卡／變數」。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-27"
     },
@@ -2876,11 +2632,9 @@ export default {
       "masked": "He still has one ____ to play.",
       "options": [
         "card-mcq-28",
-        "card-mcq-27",
-        "card-mcq-29",
-        "card-mcq-26",
-        "card-mcq-30",
-        "card-mcq-25"
+        "card-mcq-25",
+        "card-mcq-33",
+        "card-mcq-37"
       ],
       "explanation": "本句的「trump card」指「王牌；殺手鐧」。",
       "sentenceIndex": 69,
@@ -2889,12 +2643,10 @@ export default {
         "trump card"
       ],
       "optionReasons": {
-        "card-mcq-28": "本句指「王牌；殺手鐧」。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。"
+        "card-mcq-28": "本句的「trump card」指「王牌；殺手鐧」。",
+        "card-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-28"
     },
@@ -2906,11 +2658,9 @@ export default {
       "masked": "Experience was her ____ in the interview.",
       "options": [
         "card-mcq-28",
-        "card-mcq-27",
-        "card-mcq-29",
-        "card-mcq-26",
-        "card-mcq-30",
-        "card-mcq-25"
+        "card-mcq-37",
+        "card-mcq-34",
+        "card-mcq-05"
       ],
       "explanation": "本句的「trump card」指「王牌；殺手鐧」。",
       "sentenceIndex": 70,
@@ -2919,12 +2669,10 @@ export default {
         "trump card"
       ],
       "optionReasons": {
-        "card-mcq-28": "本句指「王牌；殺手鐧」。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-25": "「字卡」與本句語境不同。"
+        "card-mcq-28": "本句的「trump card」指「王牌；殺手鐧」。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-28"
     },
@@ -2936,11 +2684,9 @@ export default {
       "masked": "If you ____, you might get promoted.",
       "options": [
         "card-mcq-29",
-        "card-mcq-28",
-        "card-mcq-30",
-        "card-mcq-27",
-        "card-mcq-31",
-        "card-mcq-26"
+        "card-mcq-13",
+        "card-mcq-33",
+        "card-mcq-09"
       ],
       "explanation": "本句的「play your cards right」指「策略運用得宜」。",
       "sentenceIndex": 71,
@@ -2949,12 +2695,10 @@ export default {
         "play your cards right"
       ],
       "optionReasons": {
-        "card-mcq-29": "本句指「策略運用得宜」。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。"
+        "card-mcq-29": "本句的「play your cards right」指「策略運用得宜」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-29"
     },
@@ -2966,11 +2710,9 @@ export default {
       "masked": "She ____ and got the deal she wanted.",
       "options": [
         "card-mcq-29",
-        "card-mcq-28",
-        "card-mcq-30",
-        "card-mcq-27",
-        "card-mcq-31",
-        "card-mcq-26"
+        "card-mcq-25",
+        "card-mcq-13",
+        "card-mcq-12"
       ],
       "explanation": "本句的「played her cards right」指「策略運用得宜」。",
       "sentenceIndex": 72,
@@ -2979,12 +2721,10 @@ export default {
         "played her cards right"
       ],
       "optionReasons": {
-        "card-mcq-29": "本句指「策略運用得宜」。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-26": "「名片／標誌性特徵」與本句語境不同。"
+        "card-mcq-29": "本句的「played her cards right」指「策略運用得宜」。",
+        "card-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-29"
     },
@@ -2996,11 +2736,9 @@ export default {
       "masked": "Neither side wanted to ____ too early.",
       "options": [
         "card-mcq-30",
-        "card-mcq-29",
-        "card-mcq-31",
-        "card-mcq-28",
-        "card-mcq-32",
-        "card-mcq-27"
+        "card-mcq-17",
+        "card-mcq-16",
+        "card-mcq-29"
       ],
       "explanation": "本句的「show its cards」指「亮出底牌」。",
       "sentenceIndex": 73,
@@ -3009,12 +2747,10 @@ export default {
         "show its cards"
       ],
       "optionReasons": {
-        "card-mcq-30": "本句指「亮出底牌」。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。"
+        "card-mcq-30": "本句的「show its cards」指「亮出底牌」。",
+        "card-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-30"
     },
@@ -3026,11 +2762,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "card-mcq-30",
-        "card-mcq-29",
-        "card-mcq-31",
-        "card-mcq-28",
-        "card-mcq-32",
-        "card-mcq-27"
+        "card-mcq-16",
+        "card-mcq-37",
+        "card-mcq-10"
       ],
       "explanation": "本句的「revealed his cards」指「亮出底牌」。",
       "sentenceIndex": 74,
@@ -3039,12 +2773,10 @@ export default {
         "revealed his cards"
       ],
       "optionReasons": {
-        "card-mcq-30": "本句指「亮出底牌」。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-27": "「外卡／變數」與本句語境不同。"
+        "card-mcq-30": "本句的「revealed his cards」指「亮出底牌」。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-30"
     },
@@ -3056,11 +2788,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "card-mcq-31",
-        "card-mcq-30",
-        "card-mcq-32",
-        "card-mcq-29",
-        "card-mcq-33",
-        "card-mcq-28"
+        "card-mcq-12",
+        "card-mcq-36",
+        "card-mcq-35"
       ],
       "explanation": "本句的「keeps her cards close to her chest」指「不透露打算」。",
       "sentenceIndex": 75,
@@ -3069,12 +2799,10 @@ export default {
         "keeps her cards close to her chest"
       ],
       "optionReasons": {
-        "card-mcq-31": "本句指「不透露打算」。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。"
+        "card-mcq-31": "本句的「keeps her cards close to her chest」指「不透露打算」。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-31"
     },
@@ -3086,11 +2814,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "card-mcq-31",
-        "card-mcq-30",
         "card-mcq-32",
-        "card-mcq-29",
-        "card-mcq-33",
-        "card-mcq-28"
+        "card-mcq-24",
+        "card-mcq-29"
       ],
       "explanation": "本句的「keeping its cards close to its chest」指「不透露打算」。",
       "sentenceIndex": 76,
@@ -3099,12 +2825,10 @@ export default {
         "keeping its cards close to its chest"
       ],
       "optionReasons": {
-        "card-mcq-31": "本句指「不透露打算」。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-28": "「王牌；殺手鐧」與本句語境不同。"
+        "card-mcq-31": "本句的「keeping its cards close to its chest」指「不透露打算」。",
+        "card-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-31"
     },
@@ -3116,11 +2840,9 @@ export default {
       "masked": "It's time to ____.",
       "options": [
         "card-mcq-32",
+        "card-mcq-02",
         "card-mcq-31",
-        "card-mcq-33",
-        "card-mcq-30",
-        "card-mcq-34",
-        "card-mcq-29"
+        "card-mcq-16"
       ],
       "explanation": "本句的「put our cards on the table」指「攤牌」。",
       "sentenceIndex": 77,
@@ -3129,12 +2851,10 @@ export default {
         "put our cards on the table"
       ],
       "optionReasons": {
-        "card-mcq-32": "本句指「攤牌」。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。"
+        "card-mcq-32": "本句的「put our cards on the table」指「攤牌」。",
+        "card-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-32"
     },
@@ -3146,11 +2866,9 @@ export default {
       "masked": "She ____ and explained what she wanted.",
       "options": [
         "card-mcq-32",
-        "card-mcq-31",
-        "card-mcq-33",
-        "card-mcq-30",
         "card-mcq-34",
-        "card-mcq-29"
+        "card-mcq-08",
+        "card-mcq-37"
       ],
       "explanation": "本句的「laid her cards on the table」指「攤牌」。",
       "sentenceIndex": 78,
@@ -3159,12 +2877,10 @@ export default {
         "laid her cards on the table"
       ],
       "optionReasons": {
-        "card-mcq-32": "本句指「攤牌」。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-29": "「策略運用得宜」與本句語境不同。"
+        "card-mcq-32": "本句的「laid her cards on the table」指「攤牌」。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-32"
     },
@@ -3176,11 +2892,9 @@ export default {
       "masked": "A promotion could be ____.",
       "options": [
         "card-mcq-33",
-        "card-mcq-32",
-        "card-mcq-34",
-        "card-mcq-31",
-        "card-mcq-35",
-        "card-mcq-30"
+        "card-mcq-13",
+        "card-mcq-11",
+        "card-mcq-29"
       ],
       "explanation": "本句的「on the cards」指「很可能發生」。",
       "sentenceIndex": 79,
@@ -3189,12 +2903,10 @@ export default {
         "on the cards"
       ],
       "optionReasons": {
-        "card-mcq-33": "本句指「很可能發生」。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。"
+        "card-mcq-33": "本句的「on the cards」指「很可能發生」。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-33"
     },
@@ -3206,11 +2918,9 @@ export default {
       "masked": "More changes are ____.",
       "options": [
         "card-mcq-33",
-        "card-mcq-32",
-        "card-mcq-34",
-        "card-mcq-31",
-        "card-mcq-35",
-        "card-mcq-30"
+        "card-mcq-16",
+        "card-mcq-11",
+        "card-mcq-35"
       ],
       "explanation": "本句的「on the cards」指「很可能發生」。",
       "sentenceIndex": 80,
@@ -3219,12 +2929,10 @@ export default {
         "on the cards"
       ],
       "optionReasons": {
-        "card-mcq-33": "本句指「很可能發生」。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-30": "「亮出底牌」與本句語境不同。"
+        "card-mcq-33": "本句的「on the cards」指「很可能發生」。",
+        "card-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-33"
     },
@@ -3236,11 +2944,9 @@ export default {
       "masked": "A move abroad may be ____.",
       "options": [
         "card-mcq-34",
-        "card-mcq-33",
-        "card-mcq-35",
-        "card-mcq-32",
-        "card-mcq-36",
-        "card-mcq-31"
+        "card-mcq-12",
+        "card-mcq-13",
+        "card-mcq-25"
       ],
       "explanation": "本句的「in the cards」指「很可能／命中注定」。",
       "sentenceIndex": 81,
@@ -3249,12 +2955,10 @@ export default {
         "in the cards"
       ],
       "optionReasons": {
-        "card-mcq-34": "本句指「很可能／命中注定」。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。"
+        "card-mcq-34": "本句的「in the cards」指「很可能／命中注定」。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-34"
     },
@@ -3266,9 +2970,7 @@ export default {
       "masked": "Success wasn't ____ that year.",
       "options": [
         "card-mcq-34",
-        "card-mcq-33",
-        "card-mcq-35",
-        "card-mcq-32",
+        "card-mcq-14",
         "card-mcq-36",
         "card-mcq-31"
       ],
@@ -3279,12 +2981,10 @@ export default {
         "in the cards"
       ],
       "optionReasons": {
-        "card-mcq-34": "本句指「很可能／命中注定」。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-31": "「不透露打算」與本句語境不同。"
+        "card-mcq-34": "本句的「in the cards」指「很可能／命中注定」。",
+        "card-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-34"
     },
@@ -3296,11 +2996,9 @@ export default {
       "masked": "The children built a ____.",
       "options": [
         "card-mcq-35",
-        "card-mcq-34",
-        "card-mcq-36",
+        "card-mcq-06",
         "card-mcq-33",
-        "card-mcq-37",
-        "card-mcq-32"
+        "card-mcq-31"
       ],
       "explanation": "本句的「house of cards」指「紙牌屋／脆弱體系」。",
       "sentenceIndex": 83,
@@ -3309,12 +3007,10 @@ export default {
         "house of cards"
       ],
       "optionReasons": {
-        "card-mcq-35": "本句指「紙牌屋／脆弱體系」。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-37": "「硬紙板；紙皮」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。"
+        "card-mcq-35": "本句的「house of cards」指「紙牌屋／脆弱體系」。",
+        "card-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-35"
     },
@@ -3326,11 +3022,9 @@ export default {
       "masked": "Without funding, the whole plan could collapse like a ____.",
       "options": [
         "card-mcq-35",
-        "card-mcq-34",
-        "card-mcq-36",
-        "card-mcq-33",
-        "card-mcq-37",
-        "card-mcq-32"
+        "card-mcq-02",
+        "card-mcq-26",
+        "card-mcq-29"
       ],
       "explanation": "本句的「house of cards」指「紙牌屋／脆弱體系」。",
       "sentenceIndex": 84,
@@ -3339,12 +3033,10 @@ export default {
         "house of cards"
       ],
       "optionReasons": {
-        "card-mcq-35": "本句指「紙牌屋／脆弱體系」。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。",
-        "card-mcq-37": "「硬紙板；紙皮」與本句語境不同。",
-        "card-mcq-32": "「攤牌」與本句語境不同。"
+        "card-mcq-35": "本句的「house of cards」指「紙牌屋／脆弱體系」。",
+        "card-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-35"
     },
@@ -3357,10 +3049,8 @@ export default {
       "options": [
         "card-mcq-36",
         "card-mcq-35",
-        "card-mcq-37",
-        "card-mcq-34",
-        "card-mcq-38",
-        "card-mcq-33"
+        "card-mcq-21",
+        "card-mcq-12"
       ],
       "explanation": "本句的「cardholder」指「持卡人／卡套」。",
       "sentenceIndex": 85,
@@ -3369,12 +3059,10 @@ export default {
         "cardholder"
       ],
       "optionReasons": {
-        "card-mcq-36": "本句指「持卡人／卡套」。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-37": "「硬紙板；紙皮」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-36": "本句的「cardholder」指「持卡人／卡套」。",
+        "card-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-36"
     },
@@ -3386,11 +3074,9 @@ export default {
       "masked": "The bank contacted the ____.",
       "options": [
         "card-mcq-36",
-        "card-mcq-35",
-        "card-mcq-37",
-        "card-mcq-34",
-        "card-mcq-38",
-        "card-mcq-33"
+        "card-mcq-32",
+        "card-mcq-26",
+        "card-mcq-31"
       ],
       "explanation": "本句的「cardholder」指「持卡人／卡套」。",
       "sentenceIndex": 86,
@@ -3399,12 +3085,10 @@ export default {
         "cardholder"
       ],
       "optionReasons": {
-        "card-mcq-36": "本句指「持卡人／卡套」。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-37": "「硬紙板；紙皮」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-36": "本句的「cardholder」指「持卡人／卡套」。",
+        "card-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-36"
     },
@@ -3416,11 +3100,9 @@ export default {
       "masked": "She keeps her bank cards in a leather ____.",
       "options": [
         "card-mcq-36",
-        "card-mcq-35",
-        "card-mcq-37",
         "card-mcq-34",
-        "card-mcq-38",
-        "card-mcq-33"
+        "card-mcq-19",
+        "card-mcq-37"
       ],
       "explanation": "本句的「cardholder」指「持卡人／卡套」。",
       "sentenceIndex": 87,
@@ -3429,12 +3111,10 @@ export default {
         "cardholder"
       ],
       "optionReasons": {
-        "card-mcq-36": "本句指「持卡人／卡套」。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-37": "「硬紙板；紙皮」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-36": "本句的「cardholder」指「持卡人／卡套」。",
+        "card-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-36"
     },
@@ -3446,11 +3126,9 @@ export default {
       "masked": "This ____ can hold six cards.",
       "options": [
         "card-mcq-36",
-        "card-mcq-35",
-        "card-mcq-37",
-        "card-mcq-34",
-        "card-mcq-38",
-        "card-mcq-33"
+        "card-mcq-29",
+        "card-mcq-31",
+        "card-mcq-26"
       ],
       "explanation": "本句的「cardholder」指「持卡人／卡套」。",
       "sentenceIndex": 88,
@@ -3459,12 +3137,10 @@ export default {
         "cardholder"
       ],
       "optionReasons": {
-        "card-mcq-36": "本句指「持卡人／卡套」。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-37": "「硬紙板；紙皮」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-36": "本句的「cardholder」指「持卡人／卡套」。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-36"
     },
@@ -3476,11 +3152,9 @@ export default {
       "masked": "The box is made of ____.",
       "options": [
         "card-mcq-37",
-        "card-mcq-36",
-        "card-mcq-38",
-        "card-mcq-35",
-        "card-mcq-34",
-        "card-mcq-33"
+        "card-mcq-06",
+        "card-mcq-21",
+        "card-reviewed-b606e0bae4"
       ],
       "explanation": "本句的「cardboard」指「硬紙板；紙皮」。",
       "sentenceIndex": 89,
@@ -3489,12 +3163,10 @@ export default {
         "cardboard"
       ],
       "optionReasons": {
-        "card-mcq-37": "本句指「硬紙板；紙皮」。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-37": "本句的「cardboard」指「硬紙板；紙皮」。",
+        "card-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "card-reviewed-b606e0bae4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-37"
     },
@@ -3506,11 +3178,9 @@ export default {
       "masked": "Cut a piece of ____ for the model.",
       "options": [
         "card-mcq-37",
-        "card-mcq-36",
-        "card-mcq-38",
-        "card-mcq-35",
-        "card-mcq-34",
-        "card-mcq-33"
+        "card-mcq-30",
+        "card-mcq-10",
+        "card-mcq-28"
       ],
       "explanation": "本句的「cardboard」指「硬紙板；紙皮」。",
       "sentenceIndex": 90,
@@ -3519,12 +3189,10 @@ export default {
         "cardboard"
       ],
       "optionReasons": {
-        "card-mcq-37": "本句指「硬紙板；紙皮」。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-37": "本句的「cardboard」指「硬紙板；紙皮」。",
+        "card-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-37"
     },
@@ -3536,11 +3204,9 @@ export default {
       "masked": "The film was criticized for its ____.",
       "options": [
         "card-mcq-37",
-        "card-mcq-36",
-        "card-mcq-38",
-        "card-mcq-35",
-        "card-mcq-34",
-        "card-mcq-33"
+        "card-mcq-31",
+        "card-mcq-15",
+        "card-mcq-12"
       ],
       "explanation": "本句的「cardboard characters」指「硬紙板；紙皮」。",
       "sentenceIndex": 91,
@@ -3549,12 +3215,10 @@ export default {
         "cardboard characters"
       ],
       "optionReasons": {
-        "card-mcq-37": "本句指「硬紙板；紙皮」。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-37": "本句的「cardboard characters」指「硬紙板；紙皮」。",
+        "card-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-37"
     },
@@ -3566,11 +3230,9 @@ export default {
       "masked": "The villain felt like a ____.",
       "options": [
         "card-mcq-37",
-        "card-mcq-36",
-        "card-mcq-38",
-        "card-mcq-35",
-        "card-mcq-34",
-        "card-mcq-33"
+        "card-mcq-22",
+        "card-mcq-29",
+        "card-mcq-09"
       ],
       "explanation": "本句的「cardboard stereotype」指「硬紙板；紙皮」。",
       "sentenceIndex": 92,
@@ -3579,12 +3241,10 @@ export default {
         "cardboard stereotype"
       ],
       "optionReasons": {
-        "card-mcq-37": "本句指「硬紙板；紙皮」。",
-        "card-mcq-36": "「持卡人／卡套」與本句語境不同。",
-        "card-mcq-38": "「扁平角色」與本句語境不同。",
-        "card-mcq-35": "「紙牌屋／脆弱體系」與本句語境不同。",
-        "card-mcq-34": "「很可能／命中注定」與本句語境不同。",
-        "card-mcq-33": "「很可能發生」與本句語境不同。"
+        "card-mcq-37": "本句的「cardboard stereotype」指「硬紙板；紙皮」。",
+        "card-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "card-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "card-mcq-37"
     }
@@ -3596,5 +3256,7 @@ export default {
     "sha256": "8afd1ef0aa2fa7e1ff0a2ac7285ea8b731c656d08c222bb661f898181e033ab5",
     "pages": 31
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

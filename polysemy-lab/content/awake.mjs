@@ -196,11 +196,7 @@ export default {
       "masked": "I was still ____ at midnight.",
       "options": [
         "awake-mcq-01",
-        "awake-mcq-02",
-        "awake-mcq-03",
-        "awake-mcq-04",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "awake-mcq-05"
       ],
       "explanation": "本句的「awake」指「人或動物處於清醒狀態，沒有睡着」。",
       "sentenceIndex": 0,
@@ -209,12 +205,8 @@ export default {
         "awake"
       ],
       "optionReasons": {
-        "awake-mcq-01": "本句指「人或動物處於清醒狀態，沒有睡着」。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-01": "本句的「awake」指「人或動物處於清醒狀態，沒有睡着」。",
+        "awake-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-01"
     },
@@ -226,11 +218,7 @@ export default {
       "masked": "The baby is finally ____.",
       "options": [
         "awake-mcq-01",
-        "awake-mcq-02",
-        "awake-mcq-03",
-        "awake-mcq-04",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "awake-mcq-05"
       ],
       "explanation": "本句的「awake」指「人或動物處於清醒狀態，沒有睡着」。",
       "sentenceIndex": 1,
@@ -239,12 +227,8 @@ export default {
         "awake"
       ],
       "optionReasons": {
-        "awake-mcq-01": "本句指「人或動物處於清醒狀態，沒有睡着」。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-01": "本句的「awake」指「人或動物處於清醒狀態，沒有睡着」。",
+        "awake-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-01"
     },
@@ -256,11 +240,7 @@ export default {
       "masked": "I often walk away feeling lighter and more ____.",
       "options": [
         "awake-mcq-02",
-        "awake-mcq-01",
-        "awake-mcq-03",
-        "awake-mcq-04",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「awake」指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
       "sentenceIndex": 2,
@@ -269,12 +249,8 @@ export default {
         "awake"
       ],
       "optionReasons": {
-        "awake-mcq-02": "本句指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-02": "本句的「awake」指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-02"
     },
@@ -286,11 +262,7 @@ export default {
       "masked": "A short walk outside made me feel more ____.",
       "options": [
         "awake-mcq-02",
-        "awake-mcq-01",
-        "awake-mcq-03",
-        "awake-mcq-04",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「awake」指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
       "sentenceIndex": 3,
@@ -299,12 +271,8 @@ export default {
         "awake"
       ],
       "optionReasons": {
-        "awake-mcq-02": "本句指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-02": "本句的「awake」指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-02"
     },
@@ -316,11 +284,7 @@ export default {
       "masked": "The discussion left the students more ____ to the issue.",
       "options": [
         "awake-mcq-02",
-        "awake-mcq-01",
-        "awake-mcq-03",
-        "awake-mcq-04",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「awake」指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
       "sentenceIndex": 4,
@@ -329,12 +293,8 @@ export default {
         "awake"
       ],
       "optionReasons": {
-        "awake-mcq-02": "本句指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-02": "本句的「awake」指「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-02"
     },
@@ -346,11 +306,7 @@ export default {
       "masked": "We need to be ____ the risks.",
       "options": [
         "awake-mcq-03",
-        "awake-mcq-02",
-        "awake-mcq-04",
-        "awake-mcq-01",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "awake-mcq-04"
       ],
       "explanation": "本句的「awake to」指「對某項事實、風險、問題或可能性保持清楚意識和警覺」。",
       "sentenceIndex": 5,
@@ -359,12 +315,8 @@ export default {
         "awake to"
       ],
       "optionReasons": {
-        "awake-mcq-03": "本句指「對某項事實、風險、問題或可能性保持清楚意識和警覺」。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-03": "本句的「awake to」指「對某項事實、風險、問題或可能性保持清楚意識和警覺」。",
+        "awake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-03"
     },
@@ -376,11 +328,7 @@ export default {
       "masked": "She became increasingly ____ the problems in the system.",
       "options": [
         "awake-mcq-03",
-        "awake-mcq-02",
-        "awake-mcq-04",
-        "awake-mcq-01",
-        "awake-mcq-05",
-        "awake-mcq-06"
+        "awake-mcq-01"
       ],
       "explanation": "本句的「awake to」指「對某項事實、風險、問題或可能性保持清楚意識和警覺」。",
       "sentenceIndex": 6,
@@ -389,12 +337,8 @@ export default {
         "awake to"
       ],
       "optionReasons": {
-        "awake-mcq-03": "本句指「對某項事實、風險、問題或可能性保持清楚意識和警覺」。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。"
+        "awake-mcq-03": "本句的「awake to」指「對某項事實、風險、問題或可能性保持清楚意識和警覺」。",
+        "awake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-03"
     },
@@ -406,11 +350,7 @@ export default {
       "masked": "She ____ before sunrise.",
       "options": [
         "awake-mcq-04",
-        "awake-mcq-03",
-        "awake-mcq-05",
-        "awake-mcq-02",
-        "awake-mcq-06",
-        "awake-mcq-01"
+        "awake-mcq-06"
       ],
       "explanation": "本句的「awoke」指「由睡眠狀態轉為清醒；較正式或文學化」。",
       "sentenceIndex": 7,
@@ -419,12 +359,8 @@ export default {
         "awoke"
       ],
       "optionReasons": {
-        "awake-mcq-04": "本句指「由睡眠狀態轉為清醒；較正式或文學化」。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。"
+        "awake-mcq-04": "本句的「awoke」指「由睡眠狀態轉為清醒；較正式或文學化」。",
+        "awake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-04"
     },
@@ -436,11 +372,7 @@ export default {
       "masked": "He ____ to the sound of rain.",
       "options": [
         "awake-mcq-04",
-        "awake-mcq-03",
-        "awake-mcq-05",
-        "awake-mcq-02",
-        "awake-mcq-06",
-        "awake-mcq-01"
+        "awake-mcq-06"
       ],
       "explanation": "本句的「awoke」指「由睡眠狀態轉為清醒；較正式或文學化」。",
       "sentenceIndex": 8,
@@ -449,12 +381,8 @@ export default {
         "awoke"
       ],
       "optionReasons": {
-        "awake-mcq-04": "本句指「由睡眠狀態轉為清醒；較正式或文學化」。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-01": "「人或動物處於清醒狀態，沒有睡着」與本句語境不同。"
+        "awake-mcq-04": "本句的「awoke」指「由睡眠狀態轉為清醒；較正式或文學化」。",
+        "awake-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-04"
     },
@@ -466,11 +394,7 @@ export default {
       "masked": "The story ____ memories of his childhood.",
       "options": [
         "awake-mcq-05",
-        "awake-mcq-04",
-        "awake-mcq-06",
-        "awake-mcq-03",
-        "awake-mcq-07",
-        "awake-mcq-02"
+        "awake-mcq-08"
       ],
       "explanation": "本句的「awoke」指「使某種感情、回憶、興趣或意識開始出現；較文學化」。",
       "sentenceIndex": 9,
@@ -479,12 +403,8 @@ export default {
         "awoke"
       ],
       "optionReasons": {
-        "awake-mcq-05": "本句指「使某種感情、回憶、興趣或意識開始出現；較文學化」。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-07": "「對某個思想、問題、文化或現實產生新的意識和理解」與本句語境不同。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。"
+        "awake-mcq-05": "本句的「awoke」指「使某種感情、回憶、興趣或意識開始出現；較文學化」。",
+        "awake-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-05"
     },
@@ -496,11 +416,7 @@ export default {
       "masked": "The experience ____ a new interest in history.",
       "options": [
         "awake-mcq-05",
-        "awake-mcq-04",
-        "awake-mcq-06",
-        "awake-mcq-03",
-        "awake-mcq-07",
-        "awake-mcq-02"
+        "awake-mcq-01"
       ],
       "explanation": "本句的「awoke」指「使某種感情、回憶、興趣或意識開始出現；較文學化」。",
       "sentenceIndex": 10,
@@ -509,12 +425,8 @@ export default {
         "awoke"
       ],
       "optionReasons": {
-        "awake-mcq-05": "本句指「使某種感情、回憶、興趣或意識開始出現；較文學化」。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。",
-        "awake-mcq-07": "「對某個思想、問題、文化或現實產生新的意識和理解」與本句語境不同。",
-        "awake-mcq-02": "「頭腦清醒、有精神、注意力集中，對周圍事情較有意識」與本句語境不同。"
+        "awake-mcq-05": "本句的「awoke」指「使某種感情、回憶、興趣或意識開始出現；較文學化」。",
+        "awake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-05"
     },
@@ -526,11 +438,7 @@ export default {
       "masked": "She ____ suddenly in the night.",
       "options": [
         "awake-mcq-06",
-        "awake-mcq-05",
-        "awake-mcq-07",
-        "awake-mcq-04",
-        "awake-mcq-08",
-        "awake-mcq-03"
+        "awake-mcq-01"
       ],
       "explanation": "本句的「awakened」指「使人醒來，或喚起某種感情、興趣或認知」。",
       "sentenceIndex": 11,
@@ -539,12 +447,8 @@ export default {
         "awakened"
       ],
       "optionReasons": {
-        "awake-mcq-06": "本句指「使人醒來，或喚起某種感情、興趣或認知」。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-07": "「對某個思想、問題、文化或現實產生新的意識和理解」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-08": "「沒有睡着、難以入睡或持續保持清醒的」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。"
+        "awake-mcq-06": "本句的「awakened」指「使人醒來，或喚起某種感情、興趣或認知」。",
+        "awake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-06"
     },
@@ -556,11 +460,7 @@ export default {
       "masked": "The documentary ____ public interest in the issue.",
       "options": [
         "awake-mcq-06",
-        "awake-mcq-05",
-        "awake-mcq-07",
-        "awake-mcq-04",
-        "awake-mcq-08",
-        "awake-mcq-03"
+        "awake-mcq-01"
       ],
       "explanation": "本句的「awakened」指「使人醒來，或喚起某種感情、興趣或認知」。",
       "sentenceIndex": 12,
@@ -569,12 +469,8 @@ export default {
         "awakened"
       ],
       "optionReasons": {
-        "awake-mcq-06": "本句指「使人醒來，或喚起某種感情、興趣或認知」。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-07": "「對某個思想、問題、文化或現實產生新的意識和理解」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-08": "「沒有睡着、難以入睡或持續保持清醒的」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。"
+        "awake-mcq-06": "本句的「awakened」指「使人醒來，或喚起某種感情、興趣或認知」。",
+        "awake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-06"
     },
@@ -586,11 +482,7 @@ export default {
       "masked": "The trip was a cultural ____ for him.",
       "options": [
         "awake-mcq-07",
-        "awake-mcq-06",
-        "awake-mcq-08",
-        "awake-mcq-05",
-        "awake-mcq-04",
-        "awake-mcq-03"
+        "awake-mcq-01"
       ],
       "explanation": "本句的「awakening」指「對某個思想、問題、文化或現實產生新的意識和理解」。",
       "sentenceIndex": 13,
@@ -599,12 +491,8 @@ export default {
         "awakening"
       ],
       "optionReasons": {
-        "awake-mcq-07": "本句指「對某個思想、問題、文化或現實產生新的意識和理解」。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-08": "「沒有睡着、難以入睡或持續保持清醒的」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。"
+        "awake-mcq-07": "本句的「awakening」指「對某個思想、問題、文化或現實產生新的意識和理解」。",
+        "awake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-07"
     },
@@ -616,11 +504,7 @@ export default {
       "masked": "The book contributed to a political ____ among young readers.",
       "options": [
         "awake-mcq-07",
-        "awake-mcq-06",
-        "awake-mcq-08",
-        "awake-mcq-05",
-        "awake-mcq-04",
-        "awake-mcq-03"
+        "awake-mcq-01"
       ],
       "explanation": "本句的「awakening」指「對某個思想、問題、文化或現實產生新的意識和理解」。",
       "sentenceIndex": 14,
@@ -629,12 +513,8 @@ export default {
         "awakening"
       ],
       "optionReasons": {
-        "awake-mcq-07": "本句指「對某個思想、問題、文化或現實產生新的意識和理解」。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-08": "「沒有睡着、難以入睡或持續保持清醒的」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。"
+        "awake-mcq-07": "本句的「awakening」指「對某個思想、問題、文化或現實產生新的意識和理解」。",
+        "awake-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-07"
     },
@@ -646,11 +526,7 @@ export default {
       "masked": "He spent a ____ night worrying about the interview.",
       "options": [
         "awake-mcq-08",
-        "awake-mcq-07",
-        "awake-mcq-06",
-        "awake-mcq-05",
-        "awake-mcq-04",
-        "awake-mcq-03"
+        "awake-mcq-07"
       ],
       "explanation": "本句的「wakeful」指「沒有睡着、難以入睡或持續保持清醒的」。",
       "sentenceIndex": 15,
@@ -659,12 +535,8 @@ export default {
         "wakeful"
       ],
       "optionReasons": {
-        "awake-mcq-08": "本句指「沒有睡着、難以入睡或持續保持清醒的」。",
-        "awake-mcq-07": "「對某個思想、問題、文化或現實產生新的意識和理解」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。"
+        "awake-mcq-08": "本句的「wakeful」指「沒有睡着、難以入睡或持續保持清醒的」。",
+        "awake-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-08"
     },
@@ -676,11 +548,7 @@ export default {
       "masked": "She remained ____ despite the late hour.",
       "options": [
         "awake-mcq-08",
-        "awake-mcq-07",
-        "awake-mcq-06",
-        "awake-mcq-05",
-        "awake-mcq-04",
-        "awake-mcq-03"
+        "awake-mcq-05"
       ],
       "explanation": "本句的「wakeful」指「沒有睡着、難以入睡或持續保持清醒的」。",
       "sentenceIndex": 16,
@@ -689,12 +557,8 @@ export default {
         "wakeful"
       ],
       "optionReasons": {
-        "awake-mcq-08": "本句指「沒有睡着、難以入睡或持續保持清醒的」。",
-        "awake-mcq-07": "「對某個思想、問題、文化或現實產生新的意識和理解」與本句語境不同。",
-        "awake-mcq-06": "「使人醒來，或喚起某種感情、興趣或認知」與本句語境不同。",
-        "awake-mcq-05": "「使某種感情、回憶、興趣或意識開始出現；較文學化」與本句語境不同。",
-        "awake-mcq-04": "「由睡眠狀態轉為清醒；較正式或文學化」與本句語境不同。",
-        "awake-mcq-03": "「對某項事實、風險、問題或可能性保持清楚意識和警覺」與本句語境不同。"
+        "awake-mcq-08": "本句的「wakeful」指「沒有睡着、難以入睡或持續保持清醒的」。",
+        "awake-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "awake-mcq-08"
     }
@@ -706,5 +570,12 @@ export default {
     "sha256": "f69b59f576331f7c23e821cdd9e009094b4cb28789498f8c9f186c9328b9757e",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

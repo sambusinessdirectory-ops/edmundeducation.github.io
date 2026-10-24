@@ -415,11 +415,9 @@ export default {
       "masked": "Instead, it ____ calm, polished, and relatable.",
       "options": [
         "feel-mcq-01",
-        "feel-mcq-02",
-        "feel-mcq-03",
-        "feel-mcq-04",
-        "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-12",
+        "feel-mcq-08",
+        "feel-mcq-11"
       ],
       "explanation": "本句的「felt」指「某事物給人某種整體印象或特質」。",
       "sentenceIndex": 0,
@@ -428,12 +426,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-01": "本句指「某事物給人某種整體印象或特質」。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-01": "本句的「felt」指「某事物給人某種整體印象或特質」。",
+        "feel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-01"
     },
@@ -445,11 +441,9 @@ export default {
       "masked": "The new office ____ modern but welcoming.",
       "options": [
         "feel-mcq-01",
-        "feel-mcq-02",
-        "feel-mcq-03",
-        "feel-mcq-04",
-        "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-14",
+        "feel-mcq-11",
+        "feel-mcq-03"
       ],
       "explanation": "本句的「feels」指「某事物給人某種整體印象或特質」。",
       "sentenceIndex": 1,
@@ -458,12 +452,10 @@ export default {
         "feels"
       ],
       "optionReasons": {
-        "feel-mcq-01": "本句指「某事物給人某種整體印象或特質」。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-01": "本句的「feels」指「某事物給人某種整體印象或特質」。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-01"
     },
@@ -475,11 +467,9 @@ export default {
       "masked": "The advertisement ____ more honest than most commercials.",
       "options": [
         "feel-mcq-01",
-        "feel-mcq-02",
-        "feel-mcq-03",
-        "feel-mcq-04",
-        "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-17",
+        "feel-mcq-11",
+        "feel-mcq-08"
       ],
       "explanation": "本句的「felt」指「某事物給人某種整體印象或特質」。",
       "sentenceIndex": 2,
@@ -488,12 +478,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-01": "本句指「某事物給人某種整體印象或特質」。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-01": "本句的「felt」指「某事物給人某種整體印象或特質」。",
+        "feel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-01"
     },
@@ -505,11 +493,9 @@ export default {
       "masked": "I ____ exhausted after work.",
       "options": [
         "feel-mcq-02",
-        "feel-mcq-01",
-        "feel-mcq-03",
-        "feel-mcq-04",
-        "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-08",
+        "feel-mcq-11",
+        "feel-mcq-17"
       ],
       "explanation": "本句的「felt」指「某人親身感受到某種身體或情緒狀態」。",
       "sentenceIndex": 0,
@@ -518,12 +504,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-02": "本句指「某人親身感受到某種身體或情緒狀態」。",
-        "feel-mcq-01": "「某事物給人某種整體印象或特質」是「thing/place feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-02": "本句的「felt」指「某人親身感受到某種身體或情緒狀態」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-02"
     },
@@ -535,11 +519,9 @@ export default {
       "masked": "She ____ nervous before the interview.",
       "options": [
         "feel-mcq-02",
-        "feel-mcq-01",
-        "feel-mcq-03",
-        "feel-mcq-04",
-        "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-14",
+        "feel-mcq-11",
+        "feel-mcq-01"
       ],
       "explanation": "本句的「felt」指「某人親身感受到某種身體或情緒狀態」。",
       "sentenceIndex": 1,
@@ -548,12 +530,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-02": "本句指「某人親身感受到某種身體或情緒狀態」。",
-        "feel-mcq-01": "「某事物給人某種整體印象或特質」是「thing/place feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-02": "本句的「felt」指「某人親身感受到某種身體或情緒狀態」。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-02"
     },
@@ -565,11 +545,9 @@ export default {
       "masked": "I could ____ the cold air on my face.",
       "options": [
         "feel-mcq-03",
-        "feel-mcq-02",
-        "feel-mcq-04",
-        "feel-mcq-01",
+        "feel-mcq-08",
         "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-11"
       ],
       "explanation": "本句的「feel」指「透過身體感受到痛楚、冷熱、壓力等」。",
       "sentenceIndex": 0,
@@ -578,12 +556,10 @@ export default {
         "feel"
       ],
       "optionReasons": {
-        "feel-mcq-03": "本句指「透過身體感受到痛楚、冷熱、壓力等」。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-01": "「某事物給人某種整體印象或特質」是「thing/place feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-03": "本句的「feel」指「透過身體感受到痛楚、冷熱、壓力等」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-03"
     },
@@ -595,11 +571,9 @@ export default {
       "masked": "She suddenly ____ a sharp pain in her back.",
       "options": [
         "feel-mcq-03",
-        "feel-mcq-02",
-        "feel-mcq-04",
-        "feel-mcq-01",
-        "feel-mcq-05",
-        "feel-mcq-06"
+        "feel-mcq-08",
+        "feel-mcq-11",
+        "feel-mcq-05"
       ],
       "explanation": "本句的「felt」指「透過身體感受到痛楚、冷熱、壓力等」。",
       "sentenceIndex": 1,
@@ -608,12 +582,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-03": "本句指「透過身體感受到痛楚、冷熱、壓力等」。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-01": "「某事物給人某種整體印象或特質」是「thing/place feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-03": "本句的「felt」指「透過身體感受到痛楚、冷熱、壓力等」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-03"
     },
@@ -625,11 +597,9 @@ export default {
       "masked": "I ____ great relief when the problem was solved.",
       "options": [
         "feel-mcq-04",
-        "feel-mcq-03",
-        "feel-mcq-05",
-        "feel-mcq-02",
-        "feel-mcq-06",
-        "feel-mcq-01"
+        "feel-mcq-08",
+        "feel-mcq-01",
+        "feel-mcq-11"
       ],
       "explanation": "本句的「felt」指「內心產生並經歷某種情緒或感情」。",
       "sentenceIndex": 0,
@@ -638,12 +608,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-04": "本句指「內心產生並經歷某種情緒或感情」。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-01": "「某事物給人某種整體印象或特質」是「thing/place feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-04": "本句的「felt」指「內心產生並經歷某種情緒或感情」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-04"
     },
@@ -655,11 +623,9 @@ export default {
       "masked": "He ____ genuine sympathy for the customer.",
       "options": [
         "feel-mcq-04",
-        "feel-mcq-03",
         "feel-mcq-05",
-        "feel-mcq-02",
-        "feel-mcq-06",
-        "feel-mcq-01"
+        "feel-mcq-01",
+        "feel-mcq-11"
       ],
       "explanation": "本句的「felt」指「內心產生並經歷某種情緒或感情」。",
       "sentenceIndex": 1,
@@ -668,12 +634,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-04": "本句指「內心產生並經歷某種情緒或感情」。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-01": "「某事物給人某種整體印象或特質」是「thing/place feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-04": "本句的「felt」指「內心產生並經歷某種情緒或感情」。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-04"
     },
@@ -685,11 +649,9 @@ export default {
       "masked": "____ this fabric and tell me what you think.",
       "options": [
         "feel-mcq-05",
-        "feel-mcq-04",
-        "feel-mcq-06",
-        "feel-mcq-03",
-        "feel-mcq-07",
-        "feel-mcq-02"
+        "feel-mcq-12",
+        "feel-mcq-16",
+        "feel-mcq-03"
       ],
       "explanation": "本句的「Feel」指「用手觸摸某物以了解其質地、溫度或狀態」。",
       "sentenceIndex": 0,
@@ -698,12 +660,10 @@ export default {
         "Feel"
       ],
       "optionReasons": {
-        "feel-mcq-05": "本句指「用手觸摸某物以了解其質地、溫度或狀態」。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-05": "本句的「Feel」指「用手觸摸某物以了解其質地、溫度或狀態」。",
+        "feel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-05"
     },
@@ -715,11 +675,9 @@ export default {
       "masked": "The doctor ____ his forehead to check his temperature.",
       "options": [
         "feel-mcq-05",
-        "feel-mcq-04",
-        "feel-mcq-06",
+        "feel-mcq-15",
         "feel-mcq-03",
-        "feel-mcq-07",
-        "feel-mcq-02"
+        "feel-mcq-08"
       ],
       "explanation": "本句的「felt」指「用手觸摸某物以了解其質地、溫度或狀態」。",
       "sentenceIndex": 1,
@@ -728,12 +686,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-05": "本句指「用手觸摸某物以了解其質地、溫度或狀態」。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-02": "「某人親身感受到某種身體或情緒狀態」是「person feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-05": "本句的「felt」指「用手觸摸某物以了解其質地、溫度或狀態」。",
+        "feel-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-05"
     },
@@ -745,11 +701,9 @@ export default {
       "masked": "The material ____ very soft.",
       "options": [
         "feel-mcq-06",
-        "feel-mcq-05",
-        "feel-mcq-07",
-        "feel-mcq-04",
-        "feel-mcq-08",
-        "feel-mcq-03"
+        "feel-mcq-14",
+        "feel-mcq-16",
+        "feel-mcq-02"
       ],
       "explanation": "本句的「feels」指「某物被觸摸時呈現某種質感」。",
       "sentenceIndex": 0,
@@ -758,12 +712,10 @@ export default {
         "feels"
       ],
       "optionReasons": {
-        "feel-mcq-06": "本句指「某物被觸摸時呈現某種質感」。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。"
+        "feel-mcq-06": "本句的「feels」指「某物被觸摸時呈現某種質感」。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-06"
     },
@@ -775,11 +727,9 @@ export default {
       "masked": "The wall ____ cold and damp.",
       "options": [
         "feel-mcq-06",
-        "feel-mcq-05",
-        "feel-mcq-07",
-        "feel-mcq-04",
         "feel-mcq-08",
-        "feel-mcq-03"
+        "feel-mcq-17",
+        "feel-mcq-16"
       ],
       "explanation": "本句的「felt」指「某物被觸摸時呈現某種質感」。",
       "sentenceIndex": 1,
@@ -788,12 +738,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-06": "本句指「某物被觸摸時呈現某種質感」。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-03": "「透過身體感受到痛楚、冷熱、壓力等」是「feel physical sensation」的用法，與本句語境不同。"
+        "feel-mcq-06": "本句的「felt」指「某物被觸摸時呈現某種質感」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-06"
     },
@@ -805,10 +753,8 @@ export default {
       "masked": "I ____ the train begin to move.",
       "options": [
         "feel-mcq-07",
-        "feel-mcq-06",
         "feel-mcq-08",
-        "feel-mcq-05",
-        "feel-mcq-09",
+        "feel-mcq-01",
         "feel-mcq-04"
       ],
       "explanation": "本句的「felt」指「透過身體感覺察覺動作、震動或接觸」。",
@@ -818,12 +764,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-07": "本句指「透過身體感覺察覺動作、震動或接觸」。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。"
+        "feel-mcq-07": "本句的「felt」指「透過身體感覺察覺動作、震動或接觸」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-07"
     },
@@ -835,11 +779,9 @@ export default {
       "masked": "She ____ someone touch her shoulder.",
       "options": [
         "feel-mcq-07",
-        "feel-mcq-06",
-        "feel-mcq-08",
-        "feel-mcq-05",
-        "feel-mcq-09",
-        "feel-mcq-04"
+        "feel-mcq-14",
+        "feel-mcq-01",
+        "feel-mcq-10"
       ],
       "explanation": "本句的「felt」指「透過身體感覺察覺動作、震動或接觸」。",
       "sentenceIndex": 1,
@@ -848,12 +790,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-07": "本句指「透過身體感覺察覺動作、震動或接觸」。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-04": "「內心產生並經歷某種情緒或感情」是「feel an emotion」的用法，與本句語境不同。"
+        "feel-mcq-07": "本句的「felt」指「透過身體感覺察覺動作、震動或接觸」。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-07"
     },
@@ -865,11 +805,9 @@ export default {
       "masked": "I ____ the advertisement was very effective.",
       "options": [
         "feel-mcq-08",
-        "feel-mcq-07",
-        "feel-mcq-09",
-        "feel-mcq-06",
-        "feel-mcq-10",
-        "feel-mcq-05"
+        "feel-mcq-17",
+        "feel-mcq-02",
+        "feel-mcq-18"
       ],
       "explanation": "本句的「feel that」指「基於個人判斷認為某件事情如此」。",
       "sentenceIndex": 0,
@@ -878,12 +816,10 @@ export default {
         "feel that"
       ],
       "optionReasons": {
-        "feel-mcq-08": "本句指「基於個人判斷認為某件事情如此」。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。"
+        "feel-mcq-08": "本句的「feel that」指「基於個人判斷認為某件事情如此」。",
+        "feel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-08"
     },
@@ -896,10 +832,8 @@ export default {
       "options": [
         "feel-mcq-08",
         "feel-mcq-07",
-        "feel-mcq-09",
-        "feel-mcq-06",
-        "feel-mcq-10",
-        "feel-mcq-05"
+        "feel-mcq-16",
+        "feel-mcq-12"
       ],
       "explanation": "本句的「felt that」指「基於個人判斷認為某件事情如此」。",
       "sentenceIndex": 1,
@@ -908,12 +842,10 @@ export default {
         "felt that"
       ],
       "optionReasons": {
-        "feel-mcq-08": "本句指「基於個人判斷認為某件事情如此」。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-05": "「用手觸摸某物以了解其質地、溫度或狀態」是「feel an object」的用法，與本句語境不同。"
+        "feel-mcq-08": "本句的「felt that」指「基於個人判斷認為某件事情如此」。",
+        "feel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-08"
     },
@@ -925,11 +857,8 @@ export default {
       "masked": "I ____ something is wrong.",
       "options": [
         "feel-mcq-09",
-        "feel-mcq-08",
-        "feel-mcq-10",
-        "feel-mcq-07",
-        "feel-mcq-11",
-        "feel-mcq-06"
+        "feel-mcq-05",
+        "feel-mcq-10"
       ],
       "explanation": "本句的「feel」指「沒有充分證據，但憑直覺產生判斷或預感」。",
       "sentenceIndex": 0,
@@ -938,12 +867,9 @@ export default {
         "feel"
       ],
       "optionReasons": {
-        "feel-mcq-09": "本句指「沒有充分證據，但憑直覺產生判斷或預感」。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-09": "本句的「feel」指「沒有充分證據，但憑直覺產生判斷或預感」。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-09"
     },
@@ -955,11 +881,8 @@ export default {
       "masked": "She ____ that he was hiding something.",
       "options": [
         "feel-mcq-09",
-        "feel-mcq-08",
-        "feel-mcq-10",
-        "feel-mcq-07",
-        "feel-mcq-11",
-        "feel-mcq-06"
+        "feel-mcq-05",
+        "feel-mcq-10"
       ],
       "explanation": "本句的「felt」指「沒有充分證據，但憑直覺產生判斷或預感」。",
       "sentenceIndex": 1,
@@ -968,12 +891,9 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-09": "本句指「沒有充分證據，但憑直覺產生判斷或預感」。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-06": "「某物被觸摸時呈現某種質感」是「material feels + adjective」的用法，與本句語境不同。"
+        "feel-mcq-09": "本句的「felt」指「沒有充分證據，但憑直覺產生判斷或預感」。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-09"
     },
@@ -985,11 +905,9 @@ export default {
       "masked": "You could ____ the tension in the room.",
       "options": [
         "feel-mcq-10",
-        "feel-mcq-09",
+        "feel-mcq-14",
         "feel-mcq-11",
-        "feel-mcq-08",
-        "feel-mcq-12",
-        "feel-mcq-07"
+        "feel-mcq-05"
       ],
       "explanation": "本句的「feel」指「感受到環境或群體中瀰漫的情緒氣氛」。",
       "sentenceIndex": 0,
@@ -998,12 +916,10 @@ export default {
         "feel"
       ],
       "optionReasons": {
-        "feel-mcq-10": "本句指「感受到環境或群體中瀰漫的情緒氣氛」。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。"
+        "feel-mcq-10": "本句的「feel」指「感受到環境或群體中瀰漫的情緒氣氛」。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-10"
     },
@@ -1015,11 +931,9 @@ export default {
       "masked": "I could ____ the excitement of the crowd.",
       "options": [
         "feel-mcq-10",
-        "feel-mcq-09",
+        "feel-mcq-17",
         "feel-mcq-11",
-        "feel-mcq-08",
-        "feel-mcq-12",
-        "feel-mcq-07"
+        "feel-mcq-08"
       ],
       "explanation": "本句的「feel」指「感受到環境或群體中瀰漫的情緒氣氛」。",
       "sentenceIndex": 1,
@@ -1028,12 +942,10 @@ export default {
         "feel"
       ],
       "optionReasons": {
-        "feel-mcq-10": "本句指「感受到環境或群體中瀰漫的情緒氣氛」。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-07": "「透過身體感覺察覺動作、震動或接觸」是「feel movement/contact」的用法，與本句語境不同。"
+        "feel-mcq-10": "本句的「feel」指「感受到環境或群體中瀰漫的情緒氣氛」。",
+        "feel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-10"
     },
@@ -1045,10 +957,8 @@ export default {
       "masked": "He ____ for the light switch in the dark.",
       "options": [
         "feel-mcq-11",
-        "feel-mcq-10",
-        "feel-mcq-12",
-        "feel-mcq-09",
-        "feel-mcq-13",
+        "feel-mcq-04",
+        "feel-mcq-03",
         "feel-mcq-08"
       ],
       "explanation": "本句的「felt」指「在視線不足時靠觸覺摸索尋找」。",
@@ -1058,12 +968,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-11": "本句指「在視線不足時靠觸覺摸索尋找」。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。"
+        "feel-mcq-11": "本句的「felt」指「在視線不足時靠觸覺摸索尋找」。",
+        "feel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-11"
     },
@@ -1076,10 +984,8 @@ export default {
       "options": [
         "feel-mcq-11",
         "feel-mcq-10",
-        "feel-mcq-12",
-        "feel-mcq-09",
-        "feel-mcq-13",
-        "feel-mcq-08"
+        "feel-mcq-14",
+        "feel-mcq-01"
       ],
       "explanation": "本句的「felt」指「在視線不足時靠觸覺摸索尋找」。",
       "sentenceIndex": 1,
@@ -1088,12 +994,10 @@ export default {
         "felt"
       ],
       "optionReasons": {
-        "feel-mcq-11": "本句指「在視線不足時靠觸覺摸索尋找」。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-08": "「基於個人判斷認為某件事情如此」是「feel that… — opinion」的用法，與本句語境不同。"
+        "feel-mcq-11": "本句的「felt」指「在視線不足時靠觸覺摸索尋找」。",
+        "feel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-11"
     },
@@ -1105,11 +1009,9 @@ export default {
       "masked": "She found it difficult to express her ____.",
       "options": [
         "feel-mcq-12",
-        "feel-mcq-11",
-        "feel-mcq-13",
-        "feel-mcq-10",
-        "feel-mcq-14",
-        "feel-mcq-09"
+        "feel-mcq-01",
+        "feel-mcq-05",
+        "feel-mcq-08"
       ],
       "explanation": "本句的「feelings」指「人內心產生的情緒或感情」。",
       "sentenceIndex": 0,
@@ -1118,12 +1020,10 @@ export default {
         "feelings"
       ],
       "optionReasons": {
-        "feel-mcq-12": "本句指「人內心產生的情緒或感情」。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。"
+        "feel-mcq-12": "本句的「feelings」指「人內心產生的情緒或感情」。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-12"
     },
@@ -1135,11 +1035,9 @@ export default {
       "masked": "His comments hurt my ____.",
       "options": [
         "feel-mcq-12",
+        "feel-mcq-16",
         "feel-mcq-11",
-        "feel-mcq-13",
-        "feel-mcq-10",
-        "feel-mcq-14",
-        "feel-mcq-09"
+        "feel-mcq-08"
       ],
       "explanation": "本句的「feelings」指「人內心產生的情緒或感情」。",
       "sentenceIndex": 1,
@@ -1148,12 +1046,10 @@ export default {
         "feelings"
       ],
       "optionReasons": {
-        "feel-mcq-12": "本句指「人內心產生的情緒或感情」。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-09": "「沒有充分證據，但憑直覺產生判斷或預感」是「feel — intuition」的用法，與本句語境不同。"
+        "feel-mcq-12": "本句的「feelings」指「人內心產生的情緒或感情」。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-12"
     },
@@ -1165,11 +1061,9 @@ export default {
       "masked": "I’ve lost some ____ in my fingers.",
       "options": [
         "feel-mcq-13",
-        "feel-mcq-12",
-        "feel-mcq-14",
-        "feel-mcq-11",
-        "feel-mcq-15",
-        "feel-mcq-10"
+        "feel-mcq-08",
+        "feel-mcq-06",
+        "feel-mcq-16"
       ],
       "explanation": "本句的「feeling」指「身體透過神經或觸覺產生的知覺」。",
       "sentenceIndex": 0,
@@ -1178,12 +1072,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-13": "本句指「身體透過神經或觸覺產生的知覺」。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。"
+        "feel-mcq-13": "本句的「feeling」指「身體透過神經或觸覺產生的知覺」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-13"
     },
@@ -1195,11 +1087,9 @@ export default {
       "masked": "A strange ____ spread through my arm.",
       "options": [
         "feel-mcq-13",
-        "feel-mcq-12",
-        "feel-mcq-14",
-        "feel-mcq-11",
-        "feel-mcq-15",
-        "feel-mcq-10"
+        "feel-mcq-08",
+        "feel-mcq-16",
+        "feel-mcq-06"
       ],
       "explanation": "本句的「feeling」指「身體透過神經或觸覺產生的知覺」。",
       "sentenceIndex": 1,
@@ -1208,12 +1098,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-13": "本句指「身體透過神經或觸覺產生的知覺」。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-10": "「感受到環境或群體中瀰漫的情緒氣氛」是「feel an atmosphere」的用法，與本句語境不同。"
+        "feel-mcq-13": "本句的「feeling」指「身體透過神經或觸覺產生的知覺」。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-13"
     },
@@ -1225,11 +1113,9 @@ export default {
       "masked": "My ____ is that the campaign will succeed.",
       "options": [
         "feel-mcq-14",
-        "feel-mcq-13",
-        "feel-mcq-15",
-        "feel-mcq-12",
-        "feel-mcq-16",
-        "feel-mcq-11"
+        "feel-mcq-11",
+        "feel-mcq-05",
+        "feel-mcq-01"
       ],
       "explanation": "本句的「feeling」指「基於個人判斷形成的看法」。",
       "sentenceIndex": 0,
@@ -1238,12 +1124,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-14": "本句指「基於個人判斷形成的看法」。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。"
+        "feel-mcq-14": "本句的「feeling」指「基於個人判斷形成的看法」。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-14"
     },
@@ -1255,11 +1139,9 @@ export default {
       "masked": "What is your ____ about the new design?",
       "options": [
         "feel-mcq-14",
-        "feel-mcq-13",
-        "feel-mcq-15",
-        "feel-mcq-12",
+        "feel-mcq-11",
         "feel-mcq-16",
-        "feel-mcq-11"
+        "feel-mcq-05"
       ],
       "explanation": "本句的「feeling」指「基於個人判斷形成的看法」。",
       "sentenceIndex": 1,
@@ -1268,12 +1150,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-14": "本句指「基於個人判斷形成的看法」。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-11": "「在視線不足時靠觸覺摸索尋找」是「feel — search by touch」的用法，與本句語境不同。"
+        "feel-mcq-14": "本句的「feeling」指「基於個人判斷形成的看法」。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-14"
     },
@@ -1285,11 +1165,9 @@ export default {
       "masked": "I have a ____ that we’ve met before.",
       "options": [
         "feel-mcq-15",
-        "feel-mcq-14",
-        "feel-mcq-16",
-        "feel-mcq-13",
-        "feel-mcq-17",
-        "feel-mcq-12"
+        "feel-mcq-05",
+        "feel-mcq-08",
+        "feel-mcq-01"
       ],
       "explanation": "本句的「feeling」指「沒有證據但內心產生的直覺或預感」。",
       "sentenceIndex": 0,
@@ -1298,12 +1176,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-15": "本句指「沒有證據但內心產生的直覺或預感」。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-17": "「對某領域靠經驗形成的直覺掌握能力」是「a feel for something」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。"
+        "feel-mcq-15": "本句的「feeling」指「沒有證據但內心產生的直覺或預感」。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-15"
     },
@@ -1315,11 +1191,9 @@ export default {
       "masked": "She had a bad ____ about the trip.",
       "options": [
         "feel-mcq-15",
-        "feel-mcq-14",
+        "feel-mcq-05",
         "feel-mcq-16",
-        "feel-mcq-13",
-        "feel-mcq-17",
-        "feel-mcq-12"
+        "feel-mcq-08"
       ],
       "explanation": "本句的「feeling」指「沒有證據但內心產生的直覺或預感」。",
       "sentenceIndex": 1,
@@ -1328,12 +1202,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-15": "本句指「沒有證據但內心產生的直覺或預感」。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。",
-        "feel-mcq-17": "「對某領域靠經驗形成的直覺掌握能力」是「a feel for something」的用法，與本句語境不同。",
-        "feel-mcq-12": "「人內心產生的情緒或感情」是「feeling — emotion」的用法，與本句語境不同。"
+        "feel-mcq-15": "本句的「feeling」指「沒有證據但內心產生的直覺或預感」。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-15"
     },
@@ -1345,11 +1217,9 @@ export default {
       "masked": "The lighting gives the room a warm ____.",
       "options": [
         "feel-mcq-16",
-        "feel-mcq-15",
-        "feel-mcq-17",
-        "feel-mcq-14",
-        "feel-mcq-18",
-        "feel-mcq-13"
+        "feel-mcq-04",
+        "feel-mcq-05",
+        "feel-mcq-08"
       ],
       "explanation": "本句的「feeling」指「地方、作品或設計營造出的整體氣氛」。",
       "sentenceIndex": 0,
@@ -1358,12 +1228,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-16": "本句指「地方、作品或設計營造出的整體氣氛」。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-17": "「對某領域靠經驗形成的直覺掌握能力」是「a feel for something」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-18": "「某物的觸感，或某地方／設計的整體風格」是「the feel of something」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。"
+        "feel-mcq-16": "本句的「feeling」指「地方、作品或設計營造出的整體氣氛」。",
+        "feel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-16"
     },
@@ -1375,11 +1243,9 @@ export default {
       "masked": "The advertisement has a very natural ____.",
       "options": [
         "feel-mcq-16",
-        "feel-mcq-15",
-        "feel-mcq-17",
-        "feel-mcq-14",
-        "feel-mcq-18",
-        "feel-mcq-13"
+        "feel-mcq-12",
+        "feel-mcq-05",
+        "feel-mcq-11"
       ],
       "explanation": "本句的「feeling」指「地方、作品或設計營造出的整體氣氛」。",
       "sentenceIndex": 1,
@@ -1388,12 +1254,10 @@ export default {
         "feeling"
       ],
       "optionReasons": {
-        "feel-mcq-16": "本句指「地方、作品或設計營造出的整體氣氛」。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-17": "「對某領域靠經驗形成的直覺掌握能力」是「a feel for something」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-18": "「某物的觸感，或某地方／設計的整體風格」是「the feel of something」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。"
+        "feel-mcq-16": "本句的「feeling」指「地方、作品或設計營造出的整體氣氛」。",
+        "feel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-16"
     },
@@ -1405,11 +1269,9 @@ export default {
       "masked": "She has a good ____ design.",
       "options": [
         "feel-mcq-17",
-        "feel-mcq-16",
+        "feel-mcq-02",
         "feel-mcq-18",
-        "feel-mcq-15",
-        "feel-mcq-14",
-        "feel-mcq-13"
+        "feel-mcq-06"
       ],
       "explanation": "本句的「feel for」指「對某領域靠經驗形成的直覺掌握能力」。",
       "sentenceIndex": 0,
@@ -1418,12 +1280,10 @@ export default {
         "feel for"
       ],
       "optionReasons": {
-        "feel-mcq-17": "本句指「對某領域靠經驗形成的直覺掌握能力」。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-18": "「某物的觸感，或某地方／設計的整體風格」是「the feel of something」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。"
+        "feel-mcq-17": "本句的「feel for」指「對某領域靠經驗形成的直覺掌握能力」。",
+        "feel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-17"
     },
@@ -1435,11 +1295,9 @@ export default {
       "masked": "It takes time to develop a ____ the language.",
       "options": [
         "feel-mcq-17",
-        "feel-mcq-16",
-        "feel-mcq-18",
-        "feel-mcq-15",
-        "feel-mcq-14",
-        "feel-mcq-13"
+        "feel-mcq-06",
+        "feel-mcq-02",
+        "feel-mcq-16"
       ],
       "explanation": "本句的「feel for」指「對某領域靠經驗形成的直覺掌握能力」。",
       "sentenceIndex": 1,
@@ -1448,12 +1306,10 @@ export default {
         "feel for"
       ],
       "optionReasons": {
-        "feel-mcq-17": "本句指「對某領域靠經驗形成的直覺掌握能力」。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-18": "「某物的觸感，或某地方／設計的整體風格」是「the feel of something」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。"
+        "feel-mcq-17": "本句的「feel for」指「對某領域靠經驗形成的直覺掌握能力」。",
+        "feel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-17"
     },
@@ -1466,10 +1322,8 @@ export default {
       "options": [
         "feel-mcq-18",
         "feel-mcq-17",
-        "feel-mcq-16",
-        "feel-mcq-15",
-        "feel-mcq-14",
-        "feel-mcq-13"
+        "feel-mcq-08",
+        "feel-mcq-05"
       ],
       "explanation": "本句的「feel」指「某物的觸感，或某地方／設計的整體風格」。",
       "sentenceIndex": 0,
@@ -1478,12 +1332,10 @@ export default {
         "feel"
       ],
       "optionReasons": {
-        "feel-mcq-18": "本句指「某物的觸感，或某地方／設計的整體風格」。",
-        "feel-mcq-17": "「對某領域靠經驗形成的直覺掌握能力」是「a feel for something」的用法，與本句語境不同。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。"
+        "feel-mcq-18": "本句的「feel」指「某物的觸感，或某地方／設計的整體風格」。",
+        "feel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-18"
     },
@@ -1495,11 +1347,9 @@ export default {
       "masked": "The renovation preserved the traditional ____ of the building.",
       "options": [
         "feel-mcq-18",
-        "feel-mcq-17",
-        "feel-mcq-16",
-        "feel-mcq-15",
         "feel-mcq-14",
-        "feel-mcq-13"
+        "feel-mcq-11",
+        "feel-mcq-05"
       ],
       "explanation": "本句的「feel」指「某物的觸感，或某地方／設計的整體風格」。",
       "sentenceIndex": 1,
@@ -1508,12 +1358,10 @@ export default {
         "feel"
       ],
       "optionReasons": {
-        "feel-mcq-18": "本句指「某物的觸感，或某地方／設計的整體風格」。",
-        "feel-mcq-17": "「對某領域靠經驗形成的直覺掌握能力」是「a feel for something」的用法，與本句語境不同。",
-        "feel-mcq-16": "「地方、作品或設計營造出的整體氣氛」是「feeling — atmosphere」的用法，與本句語境不同。",
-        "feel-mcq-15": "「沒有證據但內心產生的直覺或預感」是「feeling — intuition」的用法，與本句語境不同。",
-        "feel-mcq-14": "「基於個人判斷形成的看法」是「feeling — opinion」的用法，與本句語境不同。",
-        "feel-mcq-13": "「身體透過神經或觸覺產生的知覺」是「feeling — physical」的用法，與本句語境不同。"
+        "feel-mcq-18": "本句的「feel」指「某物的觸感，或某地方／設計的整體風格」。",
+        "feel-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feel-mcq-18"
     }
@@ -1526,5 +1374,7 @@ export default {
     "pages": 12,
     "sha256": "7ec6f9bbc166a09630fc12dca0976d035e8dfdb7d7cbcb9ff55c62b80158d00d"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

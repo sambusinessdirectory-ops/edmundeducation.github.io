@@ -191,16 +191,6 @@ export default {
           "She spent three weeks in Tokyo on assignment.",
           "她因工作任務在東京逗留了三星期。",
           "正在執行任務"
-        ],
-        [
-          "His next assignment will be in Singapore.",
-          "他的下一項派任會在新加坡。",
-          "正在執行任務"
-        ],
-        [
-          "She accepted an overseas assignment.",
-          "她接受了一項海外派任。",
-          "正在執行任務"
         ]
       ],
       "options": [],
@@ -378,18 +368,7 @@ export default {
       "en": "assign a code",
       "zh": "編配代碼",
       "note": "來源詞義：編配代碼",
-      "examples": [
-        [
-          "Each applicant is assigned a number.",
-          "每名申請人都獲編配一個號碼。",
-          "編配代碼"
-        ],
-        [
-          "The system automatically assigns a code to each file.",
-          "系統會自動為每個檔案編配代碼。",
-          "編配代碼"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -578,6 +557,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "assignment-reviewed-b7684d337f",
+      "title": "某人被正式安排到某個職位、地點或工作崗位的安排",
+      "form": "assignment · source section 12",
+      "en": "某人被正式安排到某個職位、地點或工作崗位的安排",
+      "zh": "某人被正式安排到某個職位、地點或工作崗位的安排",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "His next assignment will be in Singapore.",
+          "他的下一項派任會在新加坡。",
+          "某人被正式安排到某個職位、地點或工作崗位的安排"
+        ],
+        [
+          "She accepted an overseas assignment.",
+          "她接受了一項海外派任。",
+          "某人被正式安排到某個職位、地點或工作崗位的安排"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "assignment-reviewed-7ef8e0b94d",
+      "title": "正式給某個對象一個識別用的數字、代碼或名稱",
+      "form": "assignment · source section 21",
+      "en": "正式給某個對象一個識別用的數字、代碼或名稱",
+      "zh": "正式給某個對象一個識別用的數字、代碼或名稱",
+      "note": "對照原始教材第 21 節及例句核實。",
+      "examples": [
+        [
+          "Each applicant is assigned a number.",
+          "每名申請人都獲編配一個號碼。",
+          "正式給某個對象一個識別用的數字、代碼或名稱"
+        ],
+        [
+          "The system automatically assigns a code to each file.",
+          "系統會自動為每個檔案編配代碼。",
+          "正式給某個對象一個識別用的數字、代碼或名稱"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -589,10 +612,8 @@ export default {
       "masked": "I nearly missed an important ____.",
       "options": [
         "assignment-mcq-01",
-        "assignment-mcq-02",
-        "assignment-mcq-03",
-        "assignment-mcq-04",
-        "assignment-mcq-05",
+        "assignment-mcq-19",
+        "assignment-mcq-13",
         "assignment-mcq-06"
       ],
       "explanation": "本句的「assignment」指「作業；課業」。",
@@ -602,12 +623,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-01": "本句指「作業；課業」。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-01": "本句的「assignment」指「作業；課業」。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-01"
     },
@@ -619,11 +638,9 @@ export default {
       "masked": "We have a written ____ due next Friday.",
       "options": [
         "assignment-mcq-01",
-        "assignment-mcq-02",
-        "assignment-mcq-03",
-        "assignment-mcq-04",
-        "assignment-mcq-05",
-        "assignment-mcq-06"
+        "assignment-mcq-19",
+        "assignment-mcq-23",
+        "assignment-mcq-16"
       ],
       "explanation": "本句的「assignment」指「作業；課業」。",
       "sentenceIndex": 1,
@@ -632,12 +649,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-01": "本句指「作業；課業」。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-01": "本句的「assignment」指「作業；課業」。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-01"
     },
@@ -649,11 +664,9 @@ export default {
       "masked": "The ____ counts for thirty percent of the final grade.",
       "options": [
         "assignment-mcq-01",
-        "assignment-mcq-02",
-        "assignment-mcq-03",
-        "assignment-mcq-04",
-        "assignment-mcq-05",
-        "assignment-mcq-06"
+        "assignment-mcq-12",
+        "assignment-mcq-20",
+        "assignment-mcq-19"
       ],
       "explanation": "本句的「assignment」指「作業；課業」。",
       "sentenceIndex": 2,
@@ -662,12 +675,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-01": "本句指「作業；課業」。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-01": "本句的「assignment」指「作業；課業」。",
+        "assignment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-01"
     },
@@ -679,11 +690,9 @@ export default {
       "masked": "We have to submit a ____.",
       "options": [
         "assignment-mcq-02",
-        "assignment-mcq-01",
-        "assignment-mcq-03",
-        "assignment-mcq-04",
-        "assignment-mcq-05",
-        "assignment-mcq-06"
+        "assignment-mcq-10",
+        "assignment-mcq-22",
+        "assignment-pdf-002"
       ],
       "explanation": "本句的「written assignment」指「書面作業」。",
       "sentenceIndex": 5,
@@ -692,12 +701,10 @@ export default {
         "written assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-02": "本句指「書面作業」。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-02": "本句的「written assignment」指「書面作業」。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "assignment-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-02"
     },
@@ -709,11 +716,9 @@ export default {
       "masked": "The course includes two ____.",
       "options": [
         "assignment-mcq-02",
-        "assignment-mcq-01",
-        "assignment-mcq-03",
-        "assignment-mcq-04",
-        "assignment-mcq-05",
-        "assignment-mcq-06"
+        "assignment-mcq-10",
+        "assignment-mcq-15",
+        "assignment-pdf-002"
       ],
       "explanation": "本句的「written assignments」指「書面作業」。",
       "sentenceIndex": 6,
@@ -722,12 +727,10 @@ export default {
         "written assignments"
       ],
       "optionReasons": {
-        "assignment-mcq-02": "本句指「書面作業」。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-02": "本句的「written assignments」指「書面作業」。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-02"
     },
@@ -739,11 +742,9 @@ export default {
       "masked": "Our ____ was quite demanding.",
       "options": [
         "assignment-mcq-03",
-        "assignment-mcq-02",
-        "assignment-mcq-04",
-        "assignment-mcq-01",
-        "assignment-mcq-05",
-        "assignment-mcq-06"
+        "assignment-mcq-12",
+        "assignment-mcq-21",
+        "assignment-mcq-18"
       ],
       "explanation": "本句的「group assignment」指「小組作業」。",
       "sentenceIndex": 7,
@@ -752,12 +753,10 @@ export default {
         "group assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-03": "本句指「小組作業」。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-03": "本句的「group assignment」指「小組作業」。",
+        "assignment-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-03"
     },
@@ -769,11 +768,9 @@ export default {
       "masked": "Everyone had a different role in the ____.",
       "options": [
         "assignment-mcq-03",
-        "assignment-mcq-02",
-        "assignment-mcq-04",
-        "assignment-mcq-01",
-        "assignment-mcq-05",
-        "assignment-mcq-06"
+        "assignment-mcq-11",
+        "assignment-mcq-21",
+        "assignment-mcq-12"
       ],
       "explanation": "本句的「group assignment」指「小組作業」。",
       "sentenceIndex": 8,
@@ -782,12 +779,10 @@ export default {
         "group assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-03": "本句指「小組作業」。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-mcq-03": "本句的「group assignment」指「小組作業」。",
+        "assignment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-03"
     },
@@ -799,11 +794,9 @@ export default {
       "masked": "I submitted the ____ just before the deadline.",
       "options": [
         "assignment-mcq-04",
-        "assignment-mcq-03",
-        "assignment-mcq-05",
-        "assignment-mcq-02",
-        "assignment-mcq-06",
-        "assignment-mcq-01"
+        "assignment-mcq-20",
+        "assignment-mcq-10",
+        "assignment-mcq-22"
       ],
       "explanation": "本句的「assignment」指「提交作業」。",
       "sentenceIndex": 9,
@@ -812,12 +805,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-04": "本句指「提交作業」。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。"
+        "assignment-mcq-04": "本句的「assignment」指「提交作業」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-04"
     },
@@ -829,11 +820,9 @@ export default {
       "masked": "Don't forget to ____.",
       "options": [
         "assignment-mcq-04",
-        "assignment-mcq-03",
-        "assignment-mcq-05",
-        "assignment-mcq-02",
-        "assignment-mcq-06",
-        "assignment-mcq-01"
+        "assignment-mcq-14",
+        "assignment-mcq-19",
+        "assignment-reviewed-b7684d337f"
       ],
       "explanation": "本句的「hand in your assignment」指「提交作業」。",
       "sentenceIndex": 10,
@@ -842,12 +831,10 @@ export default {
         "hand in your assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-04": "本句指「提交作業」。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。"
+        "assignment-mcq-04": "本句的「hand in your assignment」指「提交作業」。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-b7684d337f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-04"
     },
@@ -859,11 +846,9 @@ export default {
       "masked": "It took me three hours to ____.",
       "options": [
         "assignment-pdf-001",
-        "assignment-mcq-03",
-        "assignment-mcq-05",
-        "assignment-mcq-02",
-        "assignment-mcq-06",
-        "assignment-mcq-01"
+        "assignment-reviewed-b7684d337f",
+        "assignment-mcq-19",
+        "assignment-mcq-14"
       ],
       "explanation": "本句的「complete the assignment」指「把指定的課業全部做完」。",
       "sentenceIndex": 11,
@@ -872,12 +857,10 @@ export default {
         "complete the assignment"
       ],
       "optionReasons": {
-        "assignment-pdf-001": "本句指「把指定的課業全部做完」。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。"
+        "assignment-pdf-001": "本句的「complete the assignment」指「把指定的課業全部做完」。",
+        "assignment-reviewed-b7684d337f": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-pdf-001"
     },
@@ -889,11 +872,9 @@ export default {
       "masked": "She stayed up late to ____.",
       "options": [
         "assignment-pdf-001",
-        "assignment-mcq-03",
-        "assignment-mcq-05",
-        "assignment-mcq-02",
-        "assignment-mcq-06",
-        "assignment-mcq-01"
+        "assignment-mcq-10",
+        "assignment-pdf-002",
+        "assignment-mcq-15"
       ],
       "explanation": "本句的「finish her assignment」指「把指定的課業全部做完」。",
       "sentenceIndex": 12,
@@ -902,12 +883,10 @@ export default {
         "finish her assignment"
       ],
       "optionReasons": {
-        "assignment-pdf-001": "本句指「把指定的課業全部做完」。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-01": "「作業；課業」與本句語境不同。"
+        "assignment-pdf-001": "本句的「finish her assignment」指「把指定的課業全部做完」。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-pdf-001"
     },
@@ -919,11 +898,9 @@ export default {
       "masked": "I wrote the ____ in my planner.",
       "options": [
         "assignment-mcq-05",
-        "assignment-mcq-04",
-        "assignment-mcq-06",
-        "assignment-mcq-03",
-        "assignment-mcq-07",
-        "assignment-mcq-02"
+        "assignment-reviewed-b7684d337f",
+        "assignment-mcq-16",
+        "assignment-mcq-18"
       ],
       "explanation": "本句的「assignment deadline」指「作業截止期限」。",
       "sentenceIndex": 13,
@@ -932,12 +909,10 @@ export default {
         "assignment deadline"
       ],
       "optionReasons": {
-        "assignment-mcq-05": "本句指「作業截止期限」。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。"
+        "assignment-mcq-05": "本句的「assignment deadline」指「作業截止期限」。",
+        "assignment-reviewed-b7684d337f": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-05"
     },
@@ -949,11 +924,9 @@ export default {
       "masked": "Missing an ____ can affect your grade.",
       "options": [
         "assignment-mcq-05",
-        "assignment-mcq-04",
-        "assignment-mcq-06",
-        "assignment-mcq-03",
-        "assignment-mcq-07",
-        "assignment-mcq-02"
+        "assignment-mcq-08",
+        "assignment-mcq-21",
+        "assignment-mcq-23"
       ],
       "explanation": "本句的「assignment deadline」指「作業截止期限」。",
       "sentenceIndex": 14,
@@ -962,12 +935,10 @@ export default {
         "assignment deadline"
       ],
       "optionReasons": {
-        "assignment-mcq-05": "本句指「作業截止期限」。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-02": "「書面作業」與本句語境不同。"
+        "assignment-mcq-05": "本句的「assignment deadline」指「作業截止期限」。",
+        "assignment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-05"
     },
@@ -979,11 +950,9 @@ export default {
       "masked": "My manager gave me a new ____.",
       "options": [
         "assignment-mcq-06",
-        "assignment-mcq-05",
-        "assignment-mcq-07",
-        "assignment-mcq-04",
-        "assignment-mcq-08",
-        "assignment-mcq-03"
+        "assignment-mcq-10",
+        "assignment-mcq-21",
+        "assignment-mcq-16"
       ],
       "explanation": "本句的「assignment」指「工作任務」。",
       "sentenceIndex": 15,
@@ -992,12 +961,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-06": "本句指「工作任務」。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。"
+        "assignment-mcq-06": "本句的「assignment」指「工作任務」。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-06"
     },
@@ -1009,11 +976,9 @@ export default {
       "masked": "The reporter completed the ____ successfully.",
       "options": [
         "assignment-mcq-06",
-        "assignment-mcq-05",
-        "assignment-mcq-07",
-        "assignment-mcq-04",
-        "assignment-mcq-08",
-        "assignment-mcq-03"
+        "assignment-mcq-03",
+        "assignment-mcq-18",
+        "assignment-mcq-10"
       ],
       "explanation": "本句的「assignment」指「工作任務」。",
       "sentenceIndex": 16,
@@ -1022,12 +987,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-06": "本句指「工作任務」。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。"
+        "assignment-mcq-06": "本句的「assignment」指「工作任務」。",
+        "assignment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-06"
     },
@@ -1039,11 +1002,9 @@ export default {
       "masked": "I received a difficult ____.",
       "options": [
         "assignment-mcq-06",
-        "assignment-mcq-05",
-        "assignment-mcq-07",
-        "assignment-mcq-04",
-        "assignment-mcq-08",
-        "assignment-mcq-03"
+        "assignment-mcq-20",
+        "assignment-reviewed-7ef8e0b94d",
+        "assignment-mcq-05"
       ],
       "explanation": "本句的「work assignment」指「工作任務」。",
       "sentenceIndex": 17,
@@ -1052,12 +1013,10 @@ export default {
         "work assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-06": "本句指「工作任務」。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。"
+        "assignment-mcq-06": "本句的「work assignment」指「工作任務」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-06"
     },
@@ -1069,11 +1028,9 @@ export default {
       "masked": "Each employee was given a different ____.",
       "options": [
         "assignment-mcq-06",
-        "assignment-mcq-05",
-        "assignment-mcq-07",
-        "assignment-mcq-04",
-        "assignment-mcq-08",
-        "assignment-mcq-03"
+        "assignment-mcq-20",
+        "assignment-mcq-10",
+        "assignment-mcq-18"
       ],
       "explanation": "本句的「assignment」指「工作任務」。",
       "sentenceIndex": 18,
@@ -1082,12 +1039,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-06": "本句指「工作任務」。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-03": "「小組作業」與本句語境不同。"
+        "assignment-mcq-06": "本句的「assignment」指「工作任務」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-06"
     },
@@ -1099,11 +1054,9 @@ export default {
       "masked": "She was sent overseas on a ____.",
       "options": [
         "assignment-mcq-07",
-        "assignment-mcq-06",
-        "assignment-mcq-08",
-        "assignment-mcq-05",
-        "assignment-mcq-09",
-        "assignment-mcq-04"
+        "assignment-mcq-18",
+        "assignment-mcq-15",
+        "assignment-mcq-13"
       ],
       "explanation": "本句的「special assignment」指「特別任務」。",
       "sentenceIndex": 19,
@@ -1112,12 +1065,10 @@ export default {
         "special assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-07": "本句指「特別任務」。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。"
+        "assignment-mcq-07": "本句的「special assignment」指「特別任務」。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-07"
     },
@@ -1129,11 +1080,9 @@ export default {
       "masked": "He is working on a ____ for the director.",
       "options": [
         "assignment-mcq-07",
-        "assignment-mcq-06",
-        "assignment-mcq-08",
-        "assignment-mcq-05",
-        "assignment-mcq-09",
-        "assignment-mcq-04"
+        "assignment-mcq-22",
+        "assignment-mcq-19",
+        "assignment-mcq-16"
       ],
       "explanation": "本句的「special assignment」指「特別任務」。",
       "sentenceIndex": 20,
@@ -1142,12 +1091,10 @@ export default {
         "special assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-07": "本句指「特別任務」。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-04": "「提交作業」與本句語境不同。"
+        "assignment-mcq-07": "本句的「special assignment」指「特別任務」。",
+        "assignment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-07"
     },
@@ -1159,11 +1106,9 @@ export default {
       "masked": "The photographer is abroad ____.",
       "options": [
         "assignment-mcq-08",
-        "assignment-mcq-07",
-        "assignment-mcq-09",
-        "assignment-mcq-06",
-        "assignment-mcq-10",
-        "assignment-mcq-05"
+        "assignment-mcq-15",
+        "assignment-mcq-05",
+        "assignment-mcq-19"
       ],
       "explanation": "本句的「on assignment」指「正在執行任務」。",
       "sentenceIndex": 21,
@@ -1172,12 +1117,10 @@ export default {
         "on assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-08": "本句指「正在執行任務」。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。"
+        "assignment-mcq-08": "本句的「on assignment」指「正在執行任務」。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-08"
     },
@@ -1189,11 +1132,9 @@ export default {
       "masked": "She spent three weeks in Tokyo ____.",
       "options": [
         "assignment-mcq-08",
-        "assignment-mcq-07",
-        "assignment-mcq-09",
-        "assignment-mcq-06",
-        "assignment-mcq-10",
-        "assignment-mcq-05"
+        "assignment-mcq-11",
+        "assignment-mcq-21",
+        "assignment-mcq-18"
       ],
       "explanation": "本句的「on assignment」指「正在執行任務」。",
       "sentenceIndex": 22,
@@ -1202,74 +1143,68 @@ export default {
         "on assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-08": "本句指「正在執行任務」。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。"
+        "assignment-mcq-08": "本句的「on assignment」指「正在執行任務」。",
+        "assignment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-08"
     },
     {
       "id": "assignment-12-0",
-      "sense": "assignment-mcq-08",
+      "sense": "assignment-reviewed-b7684d337f",
       "en": "His next assignment will be in Singapore.",
       "zh": "他的下一項派任會在新加坡。",
       "masked": "His next ____ will be in Singapore.",
       "options": [
-        "assignment-mcq-08",
-        "assignment-mcq-07",
-        "assignment-mcq-09",
-        "assignment-mcq-06",
-        "assignment-mcq-10",
-        "assignment-mcq-05"
+        "assignment-reviewed-b7684d337f",
+        "assignment-mcq-01",
+        "assignment-mcq-14",
+        "assignment-mcq-18"
       ],
-      "explanation": "本句的「assignment」指「正在執行任務」。",
+      "explanation": "對照完整句子：「他的下一項派任會在新加坡。」。這裡的「assignment」表示「某人被正式安排到某個職位、地點或工作崗位的安排」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-08": "本句指「正在執行任務」。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。"
+        "assignment-reviewed-b7684d337f": "對照完整句子：「他的下一項派任會在新加坡。」。這裡的「assignment」表示「某人被正式安排到某個職位、地點或工作崗位的安排」。",
+        "assignment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "assignment-mcq-08"
+      "correctOption": "assignment-reviewed-b7684d337f",
+      "previousCorrectOption": "assignment-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "assignment-12-1",
-      "sense": "assignment-mcq-08",
+      "sense": "assignment-reviewed-b7684d337f",
       "en": "She accepted an overseas assignment.",
       "zh": "她接受了一項海外派任。",
       "masked": "She accepted an overseas ____.",
       "options": [
-        "assignment-mcq-08",
-        "assignment-mcq-07",
-        "assignment-mcq-09",
-        "assignment-mcq-06",
-        "assignment-mcq-10",
-        "assignment-mcq-05"
+        "assignment-reviewed-b7684d337f",
+        "assignment-mcq-23",
+        "assignment-mcq-21",
+        "assignment-mcq-04"
       ],
-      "explanation": "本句的「assignment」指「正在執行任務」。",
+      "explanation": "對照完整句子：「她接受了一項海外派任。」。這裡的「assignment」表示「某人被正式安排到某個職位、地點或工作崗位的安排」。",
       "sentenceIndex": 24,
       "sourcePractice": 2,
       "targets": [
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-08": "本句指「正在執行任務」。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-05": "「作業截止期限」與本句語境不同。"
+        "assignment-reviewed-b7684d337f": "對照完整句子：「她接受了一項海外派任。」。這裡的「assignment」表示「某人被正式安排到某個職位、地點或工作崗位的安排」。",
+        "assignment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "assignment-mcq-08"
+      "correctOption": "assignment-reviewed-b7684d337f",
+      "previousCorrectOption": "assignment-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "assignment-13-0",
@@ -1279,11 +1214,9 @@ export default {
       "masked": "He received a new ____.",
       "options": [
         "assignment-pdf-002",
-        "assignment-mcq-08",
-        "assignment-mcq-10",
-        "assignment-mcq-07",
-        "assignment-mcq-11",
-        "assignment-mcq-06"
+        "assignment-mcq-21",
+        "assignment-mcq-03",
+        "assignment-mcq-20"
       ],
       "explanation": "本句的「military assignment」指「軍方正式安排的職務、崗位或駐派任務」。",
       "sentenceIndex": 25,
@@ -1292,12 +1225,10 @@ export default {
         "military assignment"
       ],
       "optionReasons": {
-        "assignment-pdf-002": "本句指「軍方正式安排的職務、崗位或駐派任務」。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-pdf-002": "本句的「military assignment」指「軍方正式安排的職務、崗位或駐派任務」。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-pdf-002"
     },
@@ -1309,11 +1240,9 @@ export default {
       "masked": "Her overseas ____ lasted two years.",
       "options": [
         "assignment-pdf-002",
-        "assignment-mcq-08",
         "assignment-mcq-10",
-        "assignment-mcq-07",
-        "assignment-mcq-11",
-        "assignment-mcq-06"
+        "assignment-mcq-15",
+        "assignment-mcq-20"
       ],
       "explanation": "本句的「assignment」指「軍方正式安排的職務、崗位或駐派任務」。",
       "sentenceIndex": 26,
@@ -1322,12 +1251,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-pdf-002": "本句指「軍方正式安排的職務、崗位或駐派任務」。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-06": "「工作任務」與本句語境不同。"
+        "assignment-pdf-002": "本句的「assignment」指「軍方正式安排的職務、崗位或駐派任務」。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-pdf-002"
     },
@@ -1339,11 +1266,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "assignment-mcq-10",
-        "assignment-mcq-09",
-        "assignment-mcq-11",
-        "assignment-mcq-08",
-        "assignment-mcq-12",
-        "assignment-mcq-07"
+        "assignment-mcq-05",
+        "assignment-mcq-06",
+        "assignment-pdf-001"
       ],
       "explanation": "本句的「assigned each student a topic」指「把 X 分配給某人」。",
       "sentenceIndex": 27,
@@ -1352,12 +1277,10 @@ export default {
         "assigned each student a topic"
       ],
       "optionReasons": {
-        "assignment-mcq-10": "本句指「把 X 分配給某人」。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。"
+        "assignment-mcq-10": "本句的「assigned each student a topic」指「把 X 分配給某人」。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "assignment-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-10"
     },
@@ -1369,11 +1292,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "assignment-mcq-10",
-        "assignment-mcq-09",
-        "assignment-mcq-11",
-        "assignment-mcq-08",
-        "assignment-mcq-12",
-        "assignment-mcq-07"
+        "assignment-mcq-15",
+        "assignment-mcq-01",
+        "assignment-mcq-13"
       ],
       "explanation": "本句的「assigned the task to me」指「把 X 分配給某人」。",
       "sentenceIndex": 28,
@@ -1382,12 +1303,10 @@ export default {
         "assigned the task to me"
       ],
       "optionReasons": {
-        "assignment-mcq-10": "本句指「把 X 分配給某人」。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-07": "「特別任務」與本句語境不同。"
+        "assignment-mcq-10": "本句的「assigned the task to me」指「把 X 分配給某人」。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-10"
     },
@@ -1399,11 +1318,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "assignment-mcq-11",
-        "assignment-mcq-10",
-        "assignment-mcq-12",
-        "assignment-mcq-09",
-        "assignment-mcq-13",
-        "assignment-mcq-08"
+        "assignment-reviewed-7ef8e0b94d",
+        "assignment-mcq-05",
+        "assignment-mcq-20"
       ],
       "explanation": "本句的「assigned to the new project」指「指派某人負責 X」。",
       "sentenceIndex": 29,
@@ -1412,12 +1329,10 @@ export default {
         "assigned to the new project"
       ],
       "optionReasons": {
-        "assignment-mcq-11": "本句指「指派某人負責 X」。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。"
+        "assignment-mcq-11": "本句的「assigned to the new project」指「指派某人負責 X」。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-11"
     },
@@ -1429,11 +1344,9 @@ export default {
       "masked": "Two officers were ____.",
       "options": [
         "assignment-mcq-11",
-        "assignment-mcq-10",
-        "assignment-mcq-12",
-        "assignment-mcq-09",
-        "assignment-mcq-13",
-        "assignment-mcq-08"
+        "assignment-reviewed-7ef8e0b94d",
+        "assignment-mcq-19",
+        "assignment-mcq-07"
       ],
       "explanation": "本句的「assigned to the case」指「指派某人負責 X」。",
       "sentenceIndex": 30,
@@ -1442,12 +1355,10 @@ export default {
         "assigned to the case"
       ],
       "optionReasons": {
-        "assignment-mcq-11": "本句指「指派某人負責 X」。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-08": "「正在執行任務」與本句語境不同。"
+        "assignment-mcq-11": "本句的「assigned to the case」指「指派某人負責 X」。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-11"
     },
@@ -1459,11 +1370,9 @@ export default {
       "masked": "The supervisor ____ to each team member.",
       "options": [
         "assignment-mcq-12",
-        "assignment-mcq-11",
-        "assignment-mcq-13",
-        "assignment-mcq-10",
-        "assignment-mcq-14",
-        "assignment-mcq-09"
+        "assignment-mcq-15",
+        "assignment-mcq-16",
+        "assignment-mcq-20"
       ],
       "explanation": "本句的「assigned tasks」指「分派任務」。",
       "sentenceIndex": 31,
@@ -1472,12 +1381,10 @@ export default {
         "assigned tasks"
       ],
       "optionReasons": {
-        "assignment-mcq-12": "本句指「分派任務」。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。"
+        "assignment-mcq-12": "本句的「assigned tasks」指「分派任務」。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-12"
     },
@@ -1489,11 +1396,9 @@ export default {
       "masked": "We should ____ first.",
       "options": [
         "assignment-mcq-12",
-        "assignment-mcq-11",
-        "assignment-mcq-13",
-        "assignment-mcq-10",
-        "assignment-mcq-14",
-        "assignment-mcq-09"
+        "assignment-mcq-21",
+        "assignment-mcq-05",
+        "assignment-reviewed-7ef8e0b94d"
       ],
       "explanation": "本句的「assign the hardest task」指「分派任務」。",
       "sentenceIndex": 32,
@@ -1502,12 +1407,10 @@ export default {
         "assign the hardest task"
       ],
       "optionReasons": {
-        "assignment-mcq-12": "本句指「分派任務」。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-09": "「派任；調派」與本句語境不同。"
+        "assignment-mcq-12": "本句的「assign the hardest task」指「分派任務」。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-12"
     },
@@ -1519,11 +1422,9 @@ export default {
       "masked": "Each student was ____.",
       "options": [
         "assignment-mcq-13",
-        "assignment-mcq-12",
-        "assignment-mcq-14",
-        "assignment-mcq-11",
-        "assignment-mcq-15",
-        "assignment-mcq-10"
+        "assignment-mcq-10",
+        "assignment-mcq-07",
+        "assignment-mcq-05"
       ],
       "explanation": "本句的「assigned a role」指「指派角色」。",
       "sentenceIndex": 33,
@@ -1532,12 +1433,10 @@ export default {
         "assigned a role"
       ],
       "optionReasons": {
-        "assignment-mcq-13": "本句指「指派角色」。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。"
+        "assignment-mcq-13": "本句的「assigned a role」指「指派角色」。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-13"
     },
@@ -1549,11 +1448,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "assignment-mcq-13",
-        "assignment-mcq-12",
-        "assignment-mcq-14",
-        "assignment-mcq-11",
+        "assignment-mcq-20",
         "assignment-mcq-15",
-        "assignment-mcq-10"
+        "assignment-mcq-19"
       ],
       "explanation": "本句的「assigned the role of team leader」指「指派角色」。",
       "sentenceIndex": 34,
@@ -1562,12 +1459,10 @@ export default {
         "assigned the role of team leader"
       ],
       "optionReasons": {
-        "assignment-mcq-13": "本句指「指派角色」。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-10": "「把 X 分配給某人」與本句語境不同。"
+        "assignment-mcq-13": "本句的「assigned the role of team leader」指「指派角色」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-13"
     },
@@ -1579,11 +1474,9 @@ export default {
       "masked": "The manager ____ for the report to Kevin.",
       "options": [
         "assignment-mcq-14",
-        "assignment-mcq-13",
-        "assignment-mcq-15",
-        "assignment-mcq-12",
-        "assignment-mcq-16",
-        "assignment-mcq-11"
+        "assignment-mcq-20",
+        "assignment-mcq-18",
+        "assignment-mcq-04"
       ],
       "explanation": "本句的「assigned responsibility」指「分配責任」。",
       "sentenceIndex": 35,
@@ -1592,12 +1485,10 @@ export default {
         "assigned responsibility"
       ],
       "optionReasons": {
-        "assignment-mcq-14": "本句指「分配責任」。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。"
+        "assignment-mcq-14": "本句的「assigned responsibility」指「分配責任」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-14"
     },
@@ -1609,11 +1500,9 @@ export default {
       "masked": "It is important to ____.",
       "options": [
         "assignment-mcq-14",
-        "assignment-mcq-13",
-        "assignment-mcq-15",
-        "assignment-mcq-12",
-        "assignment-mcq-16",
-        "assignment-mcq-11"
+        "assignment-reviewed-b7684d337f",
+        "assignment-mcq-02",
+        "assignment-mcq-21"
       ],
       "explanation": "本句的「assign responsibility clearly」指「分配責任」。",
       "sentenceIndex": 36,
@@ -1622,12 +1511,10 @@ export default {
         "assign responsibility clearly"
       ],
       "optionReasons": {
-        "assignment-mcq-14": "本句指「分配責任」。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-11": "「指派某人負責 X」與本句語境不同。"
+        "assignment-mcq-14": "本句的「assign responsibility clearly」指「分配責任」。",
+        "assignment-reviewed-b7684d337f": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-14"
     },
@@ -1639,11 +1526,9 @@ export default {
       "masked": "It is too early to ____.",
       "options": [
         "assignment-mcq-15",
-        "assignment-mcq-14",
-        "assignment-mcq-16",
-        "assignment-mcq-13",
-        "assignment-mcq-17",
-        "assignment-mcq-12"
+        "assignment-mcq-23",
+        "assignment-mcq-01",
+        "assignment-mcq-19"
       ],
       "explanation": "本句的「assign blame」指「歸責」。",
       "sentenceIndex": 37,
@@ -1652,12 +1537,10 @@ export default {
         "assign blame"
       ],
       "optionReasons": {
-        "assignment-mcq-15": "本句指「歸責」。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。"
+        "assignment-mcq-15": "本句的「assign blame」指「歸責」。",
+        "assignment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-15"
     },
@@ -1669,11 +1552,9 @@ export default {
       "masked": "The investigation did not attempt to ____.",
       "options": [
         "assignment-mcq-15",
-        "assignment-mcq-14",
-        "assignment-mcq-16",
-        "assignment-mcq-13",
-        "assignment-mcq-17",
-        "assignment-mcq-12"
+        "assignment-mcq-05",
+        "assignment-mcq-07",
+        "assignment-mcq-16"
       ],
       "explanation": "本句的「assign blame」指「歸責」。",
       "sentenceIndex": 38,
@@ -1682,12 +1563,10 @@ export default {
         "assign blame"
       ],
       "optionReasons": {
-        "assignment-mcq-15": "本句指「歸責」。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-12": "「分派任務」與本句語境不同。"
+        "assignment-mcq-15": "本句的「assign blame」指「歸責」。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-15"
     },
@@ -1699,11 +1578,9 @@ export default {
       "masked": "____ to each variable.",
       "options": [
         "assignment-mcq-16",
-        "assignment-mcq-15",
-        "assignment-mcq-17",
-        "assignment-mcq-14",
-        "assignment-mcq-18",
-        "assignment-mcq-13"
+        "assignment-mcq-20",
+        "assignment-mcq-08",
+        "assignment-mcq-04"
       ],
       "explanation": "本句的「Assign a value」指「指定數值」。",
       "sentenceIndex": 39,
@@ -1712,12 +1589,10 @@ export default {
         "Assign a value"
       ],
       "optionReasons": {
-        "assignment-mcq-16": "本句指「指定數值」。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。"
+        "assignment-mcq-16": "本句的「Assign a value」指「指定數值」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-16"
     },
@@ -1729,11 +1604,9 @@ export default {
       "masked": "The system ____ to every response.",
       "options": [
         "assignment-mcq-16",
-        "assignment-mcq-15",
-        "assignment-mcq-17",
-        "assignment-mcq-14",
-        "assignment-mcq-18",
-        "assignment-mcq-13"
+        "assignment-pdf-002",
+        "assignment-mcq-21",
+        "assignment-mcq-15"
       ],
       "explanation": "本句的「assigns a score」指「指定數值」。",
       "sentenceIndex": 40,
@@ -1742,74 +1615,68 @@ export default {
         "assigns a score"
       ],
       "optionReasons": {
-        "assignment-mcq-16": "本句指「指定數值」。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-13": "「指派角色」與本句語境不同。"
+        "assignment-mcq-16": "本句的「assigns a score」指「指定數值」。",
+        "assignment-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-16"
     },
     {
       "id": "assignment-21-0",
-      "sense": "assignment-mcq-17",
+      "sense": "assignment-reviewed-7ef8e0b94d",
       "en": "Each applicant is assigned a number.",
       "zh": "每名申請人都獲編配一個號碼。",
       "masked": "Each applicant is ____.",
       "options": [
-        "assignment-mcq-17",
-        "assignment-mcq-16",
-        "assignment-mcq-18",
+        "assignment-reviewed-7ef8e0b94d",
         "assignment-mcq-15",
-        "assignment-mcq-19",
-        "assignment-mcq-14"
+        "assignment-mcq-22",
+        "assignment-mcq-20"
       ],
-      "explanation": "本句的「assigned a number」指「編配代碼」。",
+      "explanation": "對照完整句子：「每名申請人都獲編配一個號碼。」。這裡的「assigned a number」表示「正式給某個對象一個識別用的數字、代碼或名稱」。",
       "sentenceIndex": 41,
       "sourcePractice": 1,
       "targets": [
         "assigned a number"
       ],
       "optionReasons": {
-        "assignment-mcq-17": "本句指「編配代碼」。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。"
+        "assignment-reviewed-7ef8e0b94d": "對照完整句子：「每名申請人都獲編配一個號碼。」。這裡的「assigned a number」表示「正式給某個對象一個識別用的數字、代碼或名稱」。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "assignment-mcq-17"
+      "correctOption": "assignment-reviewed-7ef8e0b94d",
+      "previousCorrectOption": "assignment-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "assignment-21-1",
-      "sense": "assignment-mcq-17",
+      "sense": "assignment-reviewed-7ef8e0b94d",
       "en": "The system automatically assigns a code to each file.",
       "zh": "系統會自動為每個檔案編配代碼。",
       "masked": "The system automatically ____ to each file.",
       "options": [
-        "assignment-mcq-17",
-        "assignment-mcq-16",
-        "assignment-mcq-18",
+        "assignment-reviewed-7ef8e0b94d",
         "assignment-mcq-15",
-        "assignment-mcq-19",
-        "assignment-mcq-14"
+        "assignment-mcq-18",
+        "assignment-mcq-19"
       ],
-      "explanation": "本句的「assigns a code」指「編配代碼」。",
+      "explanation": "對照完整句子：「系統會自動為每個檔案編配代碼。」。這裡的「assigns a code」表示「正式給某個對象一個識別用的數字、代碼或名稱」。",
       "sentenceIndex": 42,
       "sourcePractice": 2,
       "targets": [
         "assigns a code"
       ],
       "optionReasons": {
-        "assignment-mcq-17": "本句指「編配代碼」。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-14": "「分配責任」與本句語境不同。"
+        "assignment-reviewed-7ef8e0b94d": "對照完整句子：「系統會自動為每個檔案編配代碼。」。這裡的「assigns a code」表示「正式給某個對象一個識別用的數字、代碼或名稱」。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "assignment-mcq-17"
+      "correctOption": "assignment-reviewed-7ef8e0b94d",
+      "previousCorrectOption": "assignment-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "assignment-22-0",
@@ -1819,11 +1686,9 @@ export default {
       "masked": "Researchers ____.",
       "options": [
         "assignment-mcq-18",
-        "assignment-mcq-17",
-        "assignment-mcq-19",
-        "assignment-mcq-16",
         "assignment-mcq-20",
-        "assignment-mcq-15"
+        "assignment-mcq-07",
+        "assignment-mcq-14"
       ],
       "explanation": "本句的「assigned the change to several factors」指「賦予意義」。",
       "sentenceIndex": 43,
@@ -1832,12 +1697,10 @@ export default {
         "assigned the change to several factors"
       ],
       "optionReasons": {
-        "assignment-mcq-18": "本句指「賦予意義」。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。"
+        "assignment-mcq-18": "本句的「assigned the change to several factors」指「賦予意義」。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-18"
     },
@@ -1849,11 +1712,9 @@ export default {
       "masked": "People often ____.",
       "options": [
         "assignment-mcq-18",
-        "assignment-mcq-17",
-        "assignment-mcq-19",
-        "assignment-mcq-16",
-        "assignment-mcq-20",
-        "assignment-mcq-15"
+        "assignment-mcq-14",
+        "assignment-mcq-01",
+        "assignment-mcq-20"
       ],
       "explanation": "本句的「assign meaning to random events」指「賦予意義」。",
       "sentenceIndex": 44,
@@ -1862,12 +1723,10 @@ export default {
         "assign meaning to random events"
       ],
       "optionReasons": {
-        "assignment-mcq-18": "本句指「賦予意義」。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-15": "「歸責」與本句語境不同。"
+        "assignment-mcq-18": "本句的「assign meaning to random events」指「賦予意義」。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-18"
     },
@@ -1879,11 +1738,9 @@ export default {
       "masked": "The contract allows the ____.",
       "options": [
         "assignment-mcq-19",
+        "assignment-mcq-02",
         "assignment-mcq-18",
-        "assignment-mcq-20",
-        "assignment-mcq-17",
-        "assignment-mcq-21",
-        "assignment-mcq-16"
+        "assignment-reviewed-7ef8e0b94d"
       ],
       "explanation": "本句的「assignment of rights」指「權利轉讓」。",
       "sentenceIndex": 45,
@@ -1892,12 +1749,10 @@ export default {
         "assignment of rights"
       ],
       "optionReasons": {
-        "assignment-mcq-19": "本句指「權利轉讓」。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。"
+        "assignment-mcq-19": "本句的「assignment of rights」指「權利轉讓」。",
+        "assignment-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-19"
     },
@@ -1909,10 +1764,8 @@ export default {
       "masked": "The ____ must be made in writing.",
       "options": [
         "assignment-mcq-19",
-        "assignment-mcq-18",
-        "assignment-mcq-20",
-        "assignment-mcq-17",
-        "assignment-mcq-21",
+        "assignment-mcq-14",
+        "assignment-reviewed-b7684d337f",
         "assignment-mcq-16"
       ],
       "explanation": "本句的「assignment」指「權利轉讓」。",
@@ -1922,12 +1775,10 @@ export default {
         "assignment"
       ],
       "optionReasons": {
-        "assignment-mcq-19": "本句指「權利轉讓」。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。"
+        "assignment-mcq-19": "本句的「assignment」指「權利轉讓」。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-b7684d337f": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-19"
     },
@@ -1939,11 +1790,9 @@ export default {
       "masked": "The agreement covers the ____.",
       "options": [
         "assignment-mcq-19",
-        "assignment-mcq-18",
-        "assignment-mcq-20",
-        "assignment-mcq-17",
-        "assignment-mcq-21",
-        "assignment-mcq-16"
+        "assignment-mcq-11",
+        "assignment-mcq-05",
+        "assignment-reviewed-7ef8e0b94d"
       ],
       "explanation": "本句的「assignment of intellectual property rights」指「權利轉讓」。",
       "sentenceIndex": 47,
@@ -1952,12 +1801,10 @@ export default {
         "assignment of intellectual property rights"
       ],
       "optionReasons": {
-        "assignment-mcq-19": "本句指「權利轉讓」。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。"
+        "assignment-mcq-19": "本句的「assignment of intellectual property rights」指「權利轉讓」。",
+        "assignment-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-19"
     },
@@ -1969,11 +1816,9 @@ export default {
       "masked": "Written consent is required for the ____.",
       "options": [
         "assignment-mcq-19",
-        "assignment-mcq-18",
-        "assignment-mcq-20",
-        "assignment-mcq-17",
-        "assignment-mcq-21",
-        "assignment-mcq-16"
+        "assignment-mcq-14",
+        "assignment-mcq-02",
+        "assignment-reviewed-7ef8e0b94d"
       ],
       "explanation": "本句的「assignment of rights」指「權利轉讓」。",
       "sentenceIndex": 48,
@@ -1982,12 +1827,10 @@ export default {
         "assignment of rights"
       ],
       "optionReasons": {
-        "assignment-mcq-19": "本句指「權利轉讓」。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-16": "「指定數值」與本句語境不同。"
+        "assignment-mcq-19": "本句的「assignment of rights」指「權利轉讓」。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-19"
     },
@@ -1999,11 +1842,9 @@ export default {
       "masked": "The ____ receives the contractual rights.",
       "options": [
         "assignment-mcq-20",
-        "assignment-mcq-19",
-        "assignment-mcq-21",
-        "assignment-mcq-18",
-        "assignment-mcq-22",
-        "assignment-mcq-17"
+        "assignment-mcq-08",
+        "assignment-mcq-23",
+        "assignment-mcq-14"
       ],
       "explanation": "本句的「assignee」指「受讓人」。",
       "sentenceIndex": 49,
@@ -2012,12 +1853,10 @@ export default {
         "assignee"
       ],
       "optionReasons": {
-        "assignment-mcq-20": "本句指「受讓人」。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-22": "「重新指派」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。"
+        "assignment-mcq-20": "本句的「assignee」指「受讓人」。",
+        "assignment-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-20"
     },
@@ -2029,11 +1868,9 @@ export default {
       "masked": "The document identifies the original owner and the ____.",
       "options": [
         "assignment-mcq-20",
-        "assignment-mcq-19",
-        "assignment-mcq-21",
-        "assignment-mcq-18",
-        "assignment-mcq-22",
-        "assignment-mcq-17"
+        "assignment-mcq-01",
+        "assignment-mcq-15",
+        "assignment-reviewed-7ef8e0b94d"
       ],
       "explanation": "本句的「assignee」指「受讓人」。",
       "sentenceIndex": 50,
@@ -2042,12 +1879,10 @@ export default {
         "assignee"
       ],
       "optionReasons": {
-        "assignment-mcq-20": "本句指「受讓人」。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。",
-        "assignment-mcq-22": "「重新指派」與本句語境不同。",
-        "assignment-mcq-17": "「編配代碼」與本句語境不同。"
+        "assignment-mcq-20": "本句的「assignee」指「受讓人」。",
+        "assignment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-20"
     },
@@ -2059,11 +1894,9 @@ export default {
       "masked": "The ____ transferred the rights to another company.",
       "options": [
         "assignment-mcq-21",
-        "assignment-mcq-20",
-        "assignment-mcq-22",
-        "assignment-mcq-19",
-        "assignment-mcq-23",
-        "assignment-mcq-18"
+        "assignment-mcq-13",
+        "assignment-mcq-10",
+        "assignment-mcq-05"
       ],
       "explanation": "本句的「assignor」指「轉讓人」。",
       "sentenceIndex": 51,
@@ -2072,12 +1905,10 @@ export default {
         "assignor"
       ],
       "optionReasons": {
-        "assignment-mcq-21": "本句指「轉讓人」。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-22": "「重新指派」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-23": "「重新指派；調任」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。"
+        "assignment-mcq-21": "本句的「assignor」指「轉讓人」。",
+        "assignment-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-21"
     },
@@ -2089,11 +1920,9 @@ export default {
       "masked": "Both the ____ and assignee signed the document.",
       "options": [
         "assignment-mcq-21",
-        "assignment-mcq-20",
-        "assignment-mcq-22",
-        "assignment-mcq-19",
-        "assignment-mcq-23",
-        "assignment-mcq-18"
+        "assignment-mcq-13",
+        "assignment-mcq-16",
+        "assignment-mcq-07"
       ],
       "explanation": "本句的「assignor」指「轉讓人」。",
       "sentenceIndex": 52,
@@ -2102,12 +1931,10 @@ export default {
         "assignor"
       ],
       "optionReasons": {
-        "assignment-mcq-21": "本句指「轉讓人」。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-22": "「重新指派」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-23": "「重新指派；調任」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。"
+        "assignment-mcq-21": "本句的「assignor」指「轉讓人」。",
+        "assignment-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-21"
     },
@@ -2119,11 +1946,9 @@ export default {
       "masked": "The manager ____ to another employee.",
       "options": [
         "assignment-mcq-22",
-        "assignment-mcq-21",
-        "assignment-mcq-23",
+        "assignment-reviewed-b7684d337f",
         "assignment-mcq-20",
-        "assignment-mcq-19",
-        "assignment-mcq-18"
+        "assignment-mcq-14"
       ],
       "explanation": "本句的「reassigned the task」指「重新指派」。",
       "sentenceIndex": 53,
@@ -2132,12 +1957,10 @@ export default {
         "reassigned the task"
       ],
       "optionReasons": {
-        "assignment-mcq-22": "本句指「重新指派」。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-23": "「重新指派；調任」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。"
+        "assignment-mcq-22": "本句的「reassigned the task」指「重新指派」。",
+        "assignment-reviewed-b7684d337f": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-22"
     },
@@ -2149,11 +1972,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "assignment-mcq-22",
-        "assignment-mcq-21",
-        "assignment-mcq-23",
-        "assignment-mcq-20",
         "assignment-mcq-19",
-        "assignment-mcq-18"
+        "assignment-mcq-01",
+        "assignment-mcq-15"
       ],
       "explanation": "本句的「reassigned to another department」指「重新指派」。",
       "sentenceIndex": 54,
@@ -2162,12 +1983,10 @@ export default {
         "reassigned to another department"
       ],
       "optionReasons": {
-        "assignment-mcq-22": "本句指「重新指派」。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-23": "「重新指派；調任」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。"
+        "assignment-mcq-22": "本句的「reassigned to another department」指「重新指派」。",
+        "assignment-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-22"
     },
@@ -2179,11 +1998,9 @@ export default {
       "masked": "His ____ took effect immediately.",
       "options": [
         "assignment-mcq-23",
-        "assignment-mcq-22",
+        "assignment-reviewed-7ef8e0b94d",
         "assignment-mcq-21",
-        "assignment-mcq-20",
-        "assignment-mcq-19",
-        "assignment-mcq-18"
+        "assignment-mcq-04"
       ],
       "explanation": "本句的「reassignment」指「重新指派；調任」。",
       "sentenceIndex": 55,
@@ -2192,12 +2009,10 @@ export default {
         "reassignment"
       ],
       "optionReasons": {
-        "assignment-mcq-23": "本句指「重新指派；調任」。",
-        "assignment-mcq-22": "「重新指派」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。"
+        "assignment-mcq-23": "本句的「reassignment」指「重新指派；調任」。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-23"
     },
@@ -2209,11 +2024,9 @@ export default {
       "masked": "The workload changed after the ____.",
       "options": [
         "assignment-mcq-23",
-        "assignment-mcq-22",
-        "assignment-mcq-21",
-        "assignment-mcq-20",
-        "assignment-mcq-19",
-        "assignment-mcq-18"
+        "assignment-mcq-18",
+        "assignment-reviewed-7ef8e0b94d",
+        "assignment-mcq-04"
       ],
       "explanation": "本句的「reassignment of duties」指「重新指派；調任」。",
       "sentenceIndex": 56,
@@ -2222,12 +2035,10 @@ export default {
         "reassignment of duties"
       ],
       "optionReasons": {
-        "assignment-mcq-23": "本句指「重新指派；調任」。",
-        "assignment-mcq-22": "「重新指派」與本句語境不同。",
-        "assignment-mcq-21": "「轉讓人」與本句語境不同。",
-        "assignment-mcq-20": "「受讓人」與本句語境不同。",
-        "assignment-mcq-19": "「權利轉讓」與本句語境不同。",
-        "assignment-mcq-18": "「賦予意義」與本句語境不同。"
+        "assignment-mcq-23": "本句的「reassignment of duties」指「重新指派；調任」。",
+        "assignment-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "assignment-reviewed-7ef8e0b94d": "請比較這個意思與句子中標示的用法。",
+        "assignment-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "assignment-mcq-23"
     }
@@ -2239,5 +2050,7 @@ export default {
     "sha256": "06ff9ef99c1b3e1a18f11cb9ace1ff588fee0db3fb9943250e9e08f1e20ff4c5",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

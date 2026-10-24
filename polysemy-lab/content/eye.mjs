@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "eye-mcq-02",
-      "title": "表示眼睛；眼；例句：「她有一雙藍色的眼睛。」",
+      "title": "眼睛；眼",
       "form": "eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼",
       "en": "eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼",
       "zh": "表示眼睛；眼；例句：「她有一雙藍色的眼睛。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "eye-mcq-03",
-      "title": "表示視力；眼力；例句：「他的視力不如以前。」",
+      "title": "視力；眼力",
       "form": "eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力",
       "en": "eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力",
       "zh": "表示視力；眼力；例句：「他的視力不如以前。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "eye-mcq-04",
-      "title": "表示目光；視線；例句：「他的目光移向門口。」",
+      "title": "目光；視線",
       "form": "eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線",
       "en": "eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線",
       "zh": "表示目光；視線；例句：「他的目光移向門口。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "eye-mcq-05",
-      "title": "表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」",
+      "title": "注意；關注",
       "form": "eye — attention By extension from looking, eye can represent attention. 注意；關注",
       "en": "eye — attention By extension from looking, eye can represent attention. 注意；關注",
       "zh": "表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "eye-mcq-06",
-      "title": "表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」",
+      "title": "對……有眼光；善於辨別／發現……",
       "form": "have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.",
       "en": "have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.",
       "zh": "表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "eye-mcq-08",
-      "title": "表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」",
+      "title": "審美眼光；鑑賞力",
       "form": "eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力",
       "en": "eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力",
       "zh": "表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "eye-mcq-10",
-      "title": "表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」",
+      "title": "留意；照看；監視",
       "form": "keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視",
       "en": "keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視",
       "zh": "表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "eye-mcq-11",
-      "title": "表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」",
+      "title": "一邊留意……；同時注意……",
       "form": "have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……",
       "en": "have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……",
       "zh": "表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "eye-mcq-12",
-      "title": "表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」",
+      "title": "留心尋找；注意是否出現",
       "form": "keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現",
       "en": "keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現",
       "zh": "表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "eye-mcq-13",
-      "title": "表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」",
+      "title": "醒目的；引人注目的",
       "form": "eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的",
       "en": "eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的",
       "zh": "表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "eye-mcq-14",
-      "title": "表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」",
+      "title": "打量；注視；盯著看",
       "form": "eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看",
       "en": "eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看",
       "zh": "表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "eye-mcq-15",
-      "title": "表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」",
+      "title": "懷疑地打量；警惕地看著",
       "form": "eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著",
       "en": "eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著",
       "zh": "表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "eye-mcq-16",
-      "title": "表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」",
+      "title": "眼神接觸；目光接觸",
       "form": "eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸",
       "en": "eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸",
       "zh": "表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "eye-mcq-17",
-      "title": "表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」",
+      "title": "與某人目光相接；直視某人",
       "form": "meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人",
       "en": "meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人",
       "zh": "表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "eye-mcq-18",
-      "title": "表示直視某人的眼睛；例句：「他無法直視我的眼睛。」",
+      "title": "直視某人的眼睛",
       "form": "look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛",
       "en": "look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛",
       "zh": "表示直視某人的眼睛；例句：「他無法直視我的眼睛。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "eye-mcq-19",
-      "title": "表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」",
+      "title": "在某人眼中；在某人看來",
       "form": "in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來",
       "en": "in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來",
       "zh": "表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "eye-mcq-21",
-      "title": "表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」",
+      "title": "以新的眼光看待",
       "form": "see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待",
       "en": "see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待",
       "zh": "表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "eye-mcq-22",
-      "title": "表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」",
+      "title": "公眾視野；公眾關注",
       "form": "the public eye = public attention, awareness, or observation 公眾視野；公眾關注",
       "en": "the public eye = public attention, awareness, or observation 公眾視野；公眾關注",
       "zh": "表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "eye-mcq-23",
-      "title": "表示針眼；例句：「把線穿過針眼。」",
+      "title": "針眼",
       "form": "eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.",
       "en": "eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.",
       "zh": "表示針眼；例句：「把線穿過針眼。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "eye-mcq-24",
-      "title": "表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」",
+      "title": "環；扣眼；孔眼",
       "form": "eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼",
       "en": "eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼",
       "zh": "表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "eye-mcq-25",
-      "title": "表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」",
+      "title": "眼狀斑點；眼紋",
       "form": "eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋",
       "en": "eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋",
       "zh": "表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "eye-mcq-26",
-      "title": "表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」",
+      "title": "颱風眼；風眼",
       "form": "eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼",
       "en": "eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼",
       "zh": "表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "eye-mcq-27",
-      "title": "表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」",
+      "title": "風暴中心；爭議核心",
       "form": "eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心",
       "en": "eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心",
       "zh": "表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "eye-mcq-28",
-      "title": "表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」",
+      "title": "馬鈴薯芽眼",
       "form": "eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼",
       "en": "eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼",
       "zh": "表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "eye-mcq-29",
-      "title": "表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」",
+      "title": "鳥瞰圖；俯視圖；鳥瞰視角",
       "form": "bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角",
       "en": "bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角",
       "zh": "表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "eye-mcq-33",
-      "title": "表示睜著眼睛；例句：「留意任何不尋常的情況。」",
+      "title": "睜著眼睛",
       "form": "keep your eyes open",
       "en": "keep your eyes open",
       "zh": "表示睜著眼睛；例句：「留意任何不尋常的情況。」",
@@ -755,7 +755,7 @@ export default {
     },
     {
       "id": "eye-mcq-35",
-      "title": "表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」",
+      "title": "盡情欣賞；大飽眼福",
       "form": "feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福",
       "en": "feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福",
       "zh": "表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」",
@@ -777,7 +777,7 @@ export default {
     },
     {
       "id": "eye-mcq-36",
-      "title": "表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」",
+      "title": "賞心悅目的；看起來舒服的",
       "form": "easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的",
       "en": "easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的",
       "zh": "表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」",
@@ -799,7 +799,7 @@ export default {
     },
     {
       "id": "eye-mcq-37",
-      "title": "表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」",
+      "title": "對某人有意思；鍾情於某人",
       "form": "have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人",
       "en": "have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人",
       "zh": "表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」",
@@ -843,7 +843,7 @@ export default {
     },
     {
       "id": "eye-mcq-39",
-      "title": "表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」",
+      "title": "睜大眼睛的",
       "form": "wide-eyed",
       "en": "wide-eyed",
       "zh": "表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」",
@@ -873,11 +873,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "eye-mcq-01",
-        "eye-mcq-02",
-        "eye-mcq-03",
-        "eye-mcq-04",
-        "eye-mcq-05",
-        "eye-mcq-06"
+        "eye-mcq-37",
+        "eye-mcq-27",
+        "eye-mcq-38"
       ],
       "explanation": "本句的「a good eye for talent」指「對……有眼光；善於看出……；有鑑賞力」。",
       "sentenceIndex": 0,
@@ -886,12 +884,10 @@ export default {
         "a good eye for talent"
       ],
       "optionReasons": {
-        "eye-mcq-01": "本句指「對……有眼光；善於看出……；有鑑賞力」。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-01": "本句的「a good eye for talent」指「對……有眼光；善於看出……；有鑑賞力」。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-01"
     },
@@ -903,11 +899,9 @@ export default {
       "masked": "A skilled photographer needs ____.",
       "options": [
         "eye-mcq-01",
-        "eye-mcq-02",
-        "eye-mcq-03",
-        "eye-mcq-04",
         "eye-mcq-05",
-        "eye-mcq-06"
+        "eye-mcq-27",
+        "eye-mcq-38"
       ],
       "explanation": "本句的「an eye for detail」指「對……有眼光；善於看出……；有鑑賞力」。",
       "sentenceIndex": 1,
@@ -916,12 +910,10 @@ export default {
         "an eye for detail"
       ],
       "optionReasons": {
-        "eye-mcq-01": "本句指「對……有眼光；善於看出……；有鑑賞力」。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-01": "本句的「an eye for detail」指「對……有眼光；善於看出……；有鑑賞力」。",
+        "eye-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-01"
     },
@@ -933,11 +925,9 @@ export default {
       "masked": "She has blue ____.",
       "options": [
         "eye-mcq-02",
-        "eye-mcq-01",
-        "eye-mcq-03",
-        "eye-mcq-04",
-        "eye-mcq-05",
-        "eye-mcq-06"
+        "eye-mcq-38",
+        "eye-mcq-13",
+        "eye-mcq-12"
       ],
       "explanation": "本句的「eyes」指「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」。",
       "sentenceIndex": 2,
@@ -946,12 +936,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-02": "本句指「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」。",
-        "eye-mcq-01": "「對……有眼光；善於看出……；有鑑賞力」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-02": "本句的「eyes」指「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-02"
     },
@@ -963,11 +951,9 @@ export default {
       "masked": "Something got into my ____.",
       "options": [
         "eye-mcq-02",
-        "eye-mcq-01",
-        "eye-mcq-03",
-        "eye-mcq-04",
-        "eye-mcq-05",
-        "eye-mcq-06"
+        "eye-mcq-22",
+        "eye-mcq-12",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye」指「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」。",
       "sentenceIndex": 3,
@@ -976,12 +962,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-02": "本句指「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」。",
-        "eye-mcq-01": "「對……有眼光；善於看出……；有鑑賞力」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-02": "本句的「eye」指「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」。",
+        "eye-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-02"
     },
@@ -993,11 +977,9 @@ export default {
       "masked": "His ____ are not as good as they used to be.",
       "options": [
         "eye-mcq-03",
-        "eye-mcq-02",
-        "eye-mcq-04",
-        "eye-mcq-01",
-        "eye-mcq-05",
-        "eye-mcq-06"
+        "eye-mcq-38",
+        "eye-mcq-12",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「eyes」指「表示視力；眼力；例句：「他的視力不如以前。」」。",
       "sentenceIndex": 4,
@@ -1006,12 +988,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-03": "本句指「表示視力；眼力；例句：「他的視力不如以前。」」。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-01": "「對……有眼光；善於看出……；有鑑賞力」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-03": "本句的「eyes」指「表示視力；眼力；例句：「他的視力不如以前。」」。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-03"
     },
@@ -1023,11 +1003,9 @@ export default {
       "masked": "She has an excellent ____ for small details.",
       "options": [
         "eye-mcq-03",
-        "eye-mcq-02",
-        "eye-mcq-04",
-        "eye-mcq-01",
-        "eye-mcq-05",
-        "eye-mcq-06"
+        "eye-mcq-27",
+        "eye-mcq-13",
+        "eye-mcq-37"
       ],
       "explanation": "本句的「eye」指「表示視力；眼力；例句：「他的視力不如以前。」」。",
       "sentenceIndex": 5,
@@ -1036,12 +1014,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-03": "本句指「表示視力；眼力；例句：「他的視力不如以前。」」。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-01": "「對……有眼光；善於看出……；有鑑賞力」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-03": "本句的「eye」指「表示視力；眼力；例句：「他的視力不如以前。」」。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-03"
     },
@@ -1053,11 +1029,9 @@ export default {
       "masked": "His ____ moved toward the door.",
       "options": [
         "eye-mcq-04",
-        "eye-mcq-03",
-        "eye-mcq-05",
-        "eye-mcq-02",
-        "eye-mcq-06",
-        "eye-mcq-01"
+        "eye-mcq-12",
+        "eye-mcq-33",
+        "eye-mcq-31"
       ],
       "explanation": "本句的「eyes」指「表示目光；視線；例句：「他的目光移向門口。」」。",
       "sentenceIndex": 6,
@@ -1066,12 +1040,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-04": "本句指「表示目光；視線；例句：「他的目光移向門口。」」。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-01": "「對……有眼光；善於看出……；有鑑賞力」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。"
+        "eye-mcq-04": "本句的「eyes」指「表示目光；視線；例句：「他的目光移向門口。」」。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-04"
     },
@@ -1083,11 +1055,9 @@ export default {
       "masked": "She kept her ____ on the road.",
       "options": [
         "eye-mcq-04",
-        "eye-mcq-03",
-        "eye-mcq-05",
-        "eye-mcq-02",
-        "eye-mcq-06",
-        "eye-mcq-01"
+        "eye-mcq-30",
+        "eye-mcq-12",
+        "eye-mcq-28"
       ],
       "explanation": "本句的「eyes」指「表示目光；視線；例句：「他的目光移向門口。」」。",
       "sentenceIndex": 7,
@@ -1096,12 +1066,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-04": "本句指「表示目光；視線；例句：「他的目光移向門口。」」。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-01": "「對……有眼光；善於看出……；有鑑賞力」是「Passage anchor > “She also had a sharp eye for potential.」的用法，與本句語境不同。"
+        "eye-mcq-04": "本句的「eyes」指「表示目光；視線；例句：「他的目光移向門口。」」。",
+        "eye-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-04"
     },
@@ -1113,11 +1081,9 @@ export default {
       "masked": "The unusual design immediately caught my ____.",
       "options": [
         "eye-mcq-05",
-        "eye-mcq-04",
-        "eye-mcq-06",
-        "eye-mcq-03",
-        "eye-mcq-07",
-        "eye-mcq-02"
+        "eye-mcq-16",
+        "eye-mcq-24",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye」指「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」。",
       "sentenceIndex": 8,
@@ -1126,12 +1092,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-05": "本句指「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。"
+        "eye-mcq-05": "本句的「eye」指「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」。",
+        "eye-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-05"
     },
@@ -1143,11 +1107,9 @@ export default {
       "masked": "The issue has attracted the public ____.",
       "options": [
         "eye-mcq-05",
+        "eye-mcq-19",
         "eye-mcq-04",
-        "eye-mcq-06",
-        "eye-mcq-03",
-        "eye-mcq-07",
-        "eye-mcq-02"
+        "eye-mcq-27"
       ],
       "explanation": "本句的「eye」指「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」。",
       "sentenceIndex": 9,
@@ -1156,12 +1118,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-05": "本句指「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-02": "「表示眼睛；眼；例句：「她有一雙藍色的眼睛。」」是「eye — the organ used for seeing = one of the two organs on the face that people and many animals use to see 眼睛；眼」的用法，與本句語境不同。"
+        "eye-mcq-05": "本句的「eye」指「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」。",
+        "eye-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-05"
     },
@@ -1173,11 +1133,9 @@ export default {
       "masked": "He has ____.",
       "options": [
         "eye-mcq-06",
-        "eye-mcq-05",
-        "eye-mcq-07",
-        "eye-mcq-04",
-        "eye-mcq-08",
-        "eye-mcq-03"
+        "eye-mcq-11",
+        "eye-mcq-29",
+        "eye-mcq-13"
       ],
       "explanation": "本句的「an eye for quality」指「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」。",
       "sentenceIndex": 10,
@@ -1186,12 +1144,10 @@ export default {
         "an eye for quality"
       ],
       "optionReasons": {
-        "eye-mcq-06": "本句指「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。"
+        "eye-mcq-06": "本句的「an eye for quality」指「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-06"
     },
@@ -1203,11 +1159,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "eye-mcq-06",
-        "eye-mcq-05",
-        "eye-mcq-07",
-        "eye-mcq-04",
-        "eye-mcq-08",
-        "eye-mcq-03"
+        "eye-mcq-37",
+        "eye-mcq-15",
+        "eye-mcq-36"
       ],
       "explanation": "本句的「an eye for promising young artists」指「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」。",
       "sentenceIndex": 11,
@@ -1216,12 +1170,10 @@ export default {
         "an eye for promising young artists"
       ],
       "optionReasons": {
-        "eye-mcq-06": "本句指「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-03": "「表示視力；眼力；例句：「他的視力不如以前。」」是「eye — eyesight / ability to see = the ability to see or visually distinguish things 視力；眼力」的用法，與本句語境不同。"
+        "eye-mcq-06": "本句的「an eye for promising young artists」指「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-06"
     },
@@ -1233,11 +1185,9 @@ export default {
       "masked": "Good editors need ____.",
       "options": [
         "eye-mcq-07",
-        "eye-mcq-06",
-        "eye-mcq-08",
-        "eye-mcq-05",
-        "eye-mcq-09",
-        "eye-mcq-04"
+        "eye-mcq-37",
+        "eye-mcq-29",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「an eye for detail」指「注重細節的眼光；敏銳的細節觀察力」。",
       "sentenceIndex": 12,
@@ -1246,12 +1196,10 @@ export default {
         "an eye for detail"
       ],
       "optionReasons": {
-        "eye-mcq-07": "本句指「注重細節的眼光；敏銳的細節觀察力」。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。"
+        "eye-mcq-07": "本句的「an eye for detail」指「注重細節的眼光；敏銳的細節觀察力」。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-07"
     },
@@ -1263,11 +1211,9 @@ export default {
       "masked": "Her ____ makes her an excellent designer.",
       "options": [
         "eye-mcq-07",
-        "eye-mcq-06",
-        "eye-mcq-08",
-        "eye-mcq-05",
-        "eye-mcq-09",
-        "eye-mcq-04"
+        "eye-mcq-36",
+        "eye-mcq-37",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye for detail」指「注重細節的眼光；敏銳的細節觀察力」。",
       "sentenceIndex": 13,
@@ -1276,12 +1222,10 @@ export default {
         "eye for detail"
       ],
       "optionReasons": {
-        "eye-mcq-07": "本句指「注重細節的眼光；敏銳的細節觀察力」。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-04": "「表示目光；視線；例句：「他的目光移向門口。」」是「eye — look / gaze / visual attention = the direction or focus of someone’s looking 目光；視線」的用法，與本句語境不同。"
+        "eye-mcq-07": "本句的「eye for detail」指「注重細節的眼光；敏銳的細節觀察力」。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-07"
     },
@@ -1293,11 +1237,9 @@ export default {
       "masked": "He has ____.",
       "options": [
         "eye-mcq-08",
-        "eye-mcq-07",
-        "eye-mcq-09",
-        "eye-mcq-06",
-        "eye-mcq-10",
-        "eye-mcq-05"
+        "eye-mcq-27",
+        "eye-mcq-11",
+        "eye-mcq-15"
       ],
       "explanation": "本句的「a good eye for colour」指「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」。",
       "sentenceIndex": 14,
@@ -1306,12 +1248,10 @@ export default {
         "a good eye for colour"
       ],
       "optionReasons": {
-        "eye-mcq-08": "本句指「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。"
+        "eye-mcq-08": "本句的「a good eye for colour」指「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-08"
     },
@@ -1323,11 +1263,9 @@ export default {
       "masked": "She clearly has ____.",
       "options": [
         "eye-mcq-08",
-        "eye-mcq-07",
-        "eye-mcq-09",
-        "eye-mcq-06",
-        "eye-mcq-10",
-        "eye-mcq-05"
+        "eye-mcq-11",
+        "eye-mcq-38",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「an eye for design」指「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」。",
       "sentenceIndex": 15,
@@ -1336,12 +1274,10 @@ export default {
         "an eye for design"
       ],
       "optionReasons": {
-        "eye-mcq-08": "本句指「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-05": "「表示注意；關注；例句：「那個不尋常的設計立刻吸引了我的注意。」」是「eye — attention By extension from looking, eye can represent attention. 注意；關注」的用法，與本句語境不同。"
+        "eye-mcq-08": "本句的「an eye for design」指「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-08"
     },
@@ -1353,11 +1289,9 @@ export default {
       "masked": "An expert ____ can spot the difference immediately.",
       "options": [
         "eye-mcq-09",
-        "eye-mcq-08",
-        "eye-mcq-10",
-        "eye-mcq-07",
-        "eye-mcq-11",
-        "eye-mcq-06"
+        "eye-mcq-13",
+        "eye-mcq-15",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye」指「批判性的眼光；專業眼光；受過訓練的眼光」。",
       "sentenceIndex": 16,
@@ -1366,12 +1300,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-09": "本句指「批判性的眼光；專業眼光；受過訓練的眼光」。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-09": "本句的「eye」指「批判性的眼光；專業眼光；受過訓練的眼光」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-09"
     },
@@ -1383,11 +1315,9 @@ export default {
       "masked": "She examined the painting with a critical ____.",
       "options": [
         "eye-mcq-09",
-        "eye-mcq-08",
-        "eye-mcq-10",
-        "eye-mcq-07",
-        "eye-mcq-11",
-        "eye-mcq-06"
+        "eye-mcq-05",
+        "eye-mcq-36",
+        "eye-mcq-38"
       ],
       "explanation": "本句的「eye」指「批判性的眼光；專業眼光；受過訓練的眼光」。",
       "sentenceIndex": 17,
@@ -1396,12 +1326,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-09": "本句指「批判性的眼光；專業眼光；受過訓練的眼光」。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-06": "「表示對……有眼光；善於辨別／發現……；例句：「他對品質很有眼光。」」是「have an eye for something = be good at noticing, judging, choosing, or appreciating something 對……有眼光；善於辨別／發現…… This is one of the most important figurative meanings.」的用法，與本句語境不同。"
+        "eye-mcq-09": "本句的「eye」指「批判性的眼光；專業眼光；受過訓練的眼光」。",
+        "eye-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-09"
     },
@@ -1413,11 +1341,9 @@ export default {
       "masked": "Could you ____ for a minute?",
       "options": [
         "eye-mcq-10",
-        "eye-mcq-09",
-        "eye-mcq-11",
-        "eye-mcq-08",
-        "eye-mcq-12",
-        "eye-mcq-07"
+        "eye-mcq-20",
+        "eye-mcq-24",
+        "eye-mcq-34"
       ],
       "explanation": "本句的「keep an eye on my bag」指「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」。",
       "sentenceIndex": 18,
@@ -1426,12 +1352,10 @@ export default {
         "keep an eye on my bag"
       ],
       "optionReasons": {
-        "eye-mcq-10": "本句指「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。"
+        "eye-mcq-10": "本句的「keep an eye on my bag」指「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」。",
+        "eye-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-10"
     },
@@ -1443,10 +1367,8 @@ export default {
       "masked": "Doctors are ____ his condition.",
       "options": [
         "eye-mcq-10",
-        "eye-mcq-09",
-        "eye-mcq-11",
-        "eye-mcq-08",
-        "eye-mcq-12",
+        "eye-mcq-39",
+        "eye-mcq-13",
         "eye-mcq-07"
       ],
       "explanation": "本句的「keeping an eye on」指「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」。",
@@ -1456,12 +1378,10 @@ export default {
         "keeping an eye on"
       ],
       "optionReasons": {
-        "eye-mcq-10": "本句指「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-07": "「注重細節的眼光；敏銳的細節觀察力」是「eye for detail = ability to notice small or important details 注重細節的眼光；敏銳的細節觀察力」的用法，與本句語境不同。"
+        "eye-mcq-10": "本句的「keeping an eye on」指「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」。",
+        "eye-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-10"
     },
@@ -1473,11 +1393,9 @@ export default {
       "masked": "She worked while ____.",
       "options": [
         "eye-mcq-11",
-        "eye-mcq-10",
-        "eye-mcq-12",
-        "eye-mcq-09",
-        "eye-mcq-13",
-        "eye-mcq-08"
+        "eye-mcq-34",
+        "eye-mcq-16",
+        "eye-mcq-31"
       ],
       "explanation": "本句的「keeping one eye on the children」指「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」。",
       "sentenceIndex": 20,
@@ -1486,12 +1404,10 @@ export default {
         "keeping one eye on the children"
       ],
       "optionReasons": {
-        "eye-mcq-11": "本句指「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。"
+        "eye-mcq-11": "本句的「keeping one eye on the children」指「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」。",
+        "eye-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-11"
     },
@@ -1503,11 +1419,9 @@ export default {
       "masked": "Investors are ____.",
       "options": [
         "eye-mcq-11",
-        "eye-mcq-10",
-        "eye-mcq-12",
-        "eye-mcq-09",
-        "eye-mcq-13",
-        "eye-mcq-08"
+        "eye-mcq-38",
+        "eye-mcq-25",
+        "eye-mcq-33"
       ],
       "explanation": "本句的「keeping one eye on interest rates」指「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」。",
       "sentenceIndex": 21,
@@ -1516,12 +1430,10 @@ export default {
         "keeping one eye on interest rates"
       ],
       "optionReasons": {
-        "eye-mcq-11": "本句指「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-08": "「表示審美眼光；鑑賞力；例句：「他對色彩很有眼光。」」是「eye for beauty / design / colour = ability to recognize or appreciate aesthetic quality 審美眼光；鑑賞力」的用法，與本句語境不同。"
+        "eye-mcq-11": "本句的「keeping one eye on interest rates」指「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-11"
     },
@@ -1533,11 +1445,9 @@ export default {
       "masked": "____ the sign on your left.",
       "options": [
         "eye-mcq-12",
-        "eye-mcq-11",
-        "eye-mcq-13",
-        "eye-mcq-10",
-        "eye-mcq-14",
-        "eye-mcq-09"
+        "eye-mcq-26",
+        "eye-mcq-29",
+        "eye-mcq-38"
       ],
       "explanation": "本句的「Keep an eye out for」指「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」。",
       "sentenceIndex": 22,
@@ -1546,12 +1456,10 @@ export default {
         "Keep an eye out for"
       ],
       "optionReasons": {
-        "eye-mcq-12": "本句指「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。"
+        "eye-mcq-12": "本句的「Keep an eye out for」指「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」。",
+        "eye-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-12"
     },
@@ -1563,11 +1471,9 @@ export default {
       "masked": "I’ll ____ job openings.",
       "options": [
         "eye-mcq-12",
-        "eye-mcq-11",
-        "eye-mcq-13",
-        "eye-mcq-10",
-        "eye-mcq-14",
-        "eye-mcq-09"
+        "eye-mcq-04",
+        "eye-mcq-34",
+        "eye-mcq-25"
       ],
       "explanation": "本句的「keep an eye out for」指「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」。",
       "sentenceIndex": 23,
@@ -1576,12 +1482,10 @@ export default {
         "keep an eye out for"
       ],
       "optionReasons": {
-        "eye-mcq-12": "本句指「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-09": "「批判性的眼光；專業眼光；受過訓練的眼光」是「a critical / expert / trained eye = a way of looking informed by experience, expertise, or judgment 批判性的眼光；專業眼光；受過訓練的眼光」的用法，與本句語境不同。"
+        "eye-mcq-12": "本句的「keep an eye out for」指「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-12"
     },
@@ -1593,11 +1497,9 @@ export default {
       "masked": "The poster has an ____.",
       "options": [
         "eye-mcq-13",
-        "eye-mcq-12",
-        "eye-mcq-14",
-        "eye-mcq-11",
-        "eye-mcq-15",
-        "eye-mcq-10"
+        "eye-mcq-01",
+        "eye-mcq-25",
+        "eye-mcq-32"
       ],
       "explanation": "本句的「eye-catching design」指「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」。",
       "sentenceIndex": 24,
@@ -1606,12 +1508,10 @@ export default {
         "eye-catching design"
       ],
       "optionReasons": {
-        "eye-mcq-13": "本句指「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。"
+        "eye-mcq-13": "本句的「eye-catching design」指「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」。",
+        "eye-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-13"
     },
@@ -1623,11 +1523,9 @@ export default {
       "masked": "She wore an ____.",
       "options": [
         "eye-mcq-13",
-        "eye-mcq-12",
-        "eye-mcq-14",
-        "eye-mcq-11",
-        "eye-mcq-15",
-        "eye-mcq-10"
+        "eye-mcq-21",
+        "eye-mcq-30",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye-catching red jacket」指「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」。",
       "sentenceIndex": 25,
@@ -1636,12 +1534,10 @@ export default {
         "eye-catching red jacket"
       ],
       "optionReasons": {
-        "eye-mcq-13": "本句指「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-10": "「表示留意；照看；監視；例句：「你可以幫我看一下包包嗎？」」是「keep an eye on someone / something = watch, monitor, or take care of someone or something 留意；照看；監視」的用法，與本句語境不同。"
+        "eye-mcq-13": "本句的「eye-catching red jacket」指「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」。",
+        "eye-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-13"
     },
@@ -1653,11 +1549,9 @@ export default {
       "masked": "She ____ suspiciously.",
       "options": [
         "eye-mcq-14",
-        "eye-mcq-13",
-        "eye-mcq-15",
-        "eye-mcq-12",
-        "eye-mcq-16",
-        "eye-mcq-11"
+        "eye-mcq-26",
+        "eye-mcq-37",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eyed the cake」指「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」。",
       "sentenceIndex": 26,
@@ -1666,12 +1560,10 @@ export default {
         "eyed the cake"
       ],
       "optionReasons": {
-        "eye-mcq-14": "本句指「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。"
+        "eye-mcq-14": "本句的「eyed the cake」指「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」。",
+        "eye-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-14"
     },
@@ -1683,11 +1575,9 @@ export default {
       "masked": "The guard ____.",
       "options": [
         "eye-mcq-14",
-        "eye-mcq-13",
-        "eye-mcq-15",
-        "eye-mcq-12",
-        "eye-mcq-16",
-        "eye-mcq-11"
+        "eye-mcq-28",
+        "eye-mcq-27",
+        "eye-mcq-20"
       ],
       "explanation": "本句的「eyed us carefully」指「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」。",
       "sentenceIndex": 27,
@@ -1696,12 +1586,10 @@ export default {
         "eyed us carefully"
       ],
       "optionReasons": {
-        "eye-mcq-14": "本句指「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-11": "「表示一邊留意……；同時注意……；例句：「她工作時也同時留意孩子們。」」是「have / keep one eye on something = give part of your attention to something 一邊留意……；同時注意……」的用法，與本句語境不同。"
+        "eye-mcq-14": "本句的「eyed us carefully」指「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」。",
+        "eye-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-14"
     },
@@ -1713,11 +1601,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "eye-mcq-15",
-        "eye-mcq-14",
-        "eye-mcq-16",
-        "eye-mcq-13",
-        "eye-mcq-17",
-        "eye-mcq-12"
+        "eye-mcq-25",
+        "eye-mcq-06",
+        "eye-mcq-28"
       ],
       "explanation": "本句的「eyed the stranger suspiciously」指「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」。",
       "sentenceIndex": 28,
@@ -1726,12 +1612,10 @@ export default {
         "eyed the stranger suspiciously"
       ],
       "optionReasons": {
-        "eye-mcq-15": "本句指「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。"
+        "eye-mcq-15": "本句的「eyed the stranger suspiciously」指「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」。",
+        "eye-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-15"
     },
@@ -1743,11 +1627,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "eye-mcq-15",
-        "eye-mcq-14",
-        "eye-mcq-16",
-        "eye-mcq-13",
-        "eye-mcq-17",
-        "eye-mcq-12"
+        "eye-mcq-08",
+        "eye-mcq-18",
+        "eye-mcq-13"
       ],
       "explanation": "本句的「eyed me cautiously」指「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」。",
       "sentenceIndex": 29,
@@ -1756,12 +1638,10 @@ export default {
         "eyed me cautiously"
       ],
       "optionReasons": {
-        "eye-mcq-15": "本句指「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-12": "「表示留心尋找；注意是否出現；例句：「留意一下左邊的標誌。」」是「keep an eye out for something = watch carefully so that you notice something if it appears 留心尋找；注意是否出現」的用法，與本句語境不同。"
+        "eye-mcq-15": "本句的「eyed me cautiously」指「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」。",
+        "eye-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-15"
     },
@@ -1773,11 +1653,9 @@ export default {
       "masked": "Good speakers maintain ____ with the audience.",
       "options": [
         "eye-mcq-16",
-        "eye-mcq-15",
-        "eye-mcq-17",
-        "eye-mcq-14",
-        "eye-mcq-18",
-        "eye-mcq-13"
+        "eye-mcq-27",
+        "eye-mcq-37",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye contact」指「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」。",
       "sentenceIndex": 30,
@@ -1786,12 +1664,10 @@ export default {
         "eye contact"
       ],
       "optionReasons": {
-        "eye-mcq-16": "本句指「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。"
+        "eye-mcq-16": "本句的「eye contact」指「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-16"
     },
@@ -1803,11 +1679,9 @@ export default {
       "masked": "He avoided ____ during the interview.",
       "options": [
         "eye-mcq-16",
-        "eye-mcq-15",
-        "eye-mcq-17",
-        "eye-mcq-14",
-        "eye-mcq-18",
-        "eye-mcq-13"
+        "eye-mcq-10",
+        "eye-mcq-27",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye contact」指「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」。",
       "sentenceIndex": 31,
@@ -1816,12 +1690,10 @@ export default {
         "eye contact"
       ],
       "optionReasons": {
-        "eye-mcq-16": "本句指「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-13": "「表示醒目的；引人注目的；例句：「這張海報的設計很醒目。」」是「eye-catching = attractive or noticeable enough to attract attention 醒目的；引人注目的」的用法，與本句語境不同。"
+        "eye-mcq-16": "本句的「eye contact」指「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-16"
     },
@@ -1833,11 +1705,9 @@ export default {
       "masked": "She refused to ____.",
       "options": [
         "eye-mcq-17",
-        "eye-mcq-16",
-        "eye-mcq-18",
-        "eye-mcq-15",
-        "eye-mcq-19",
-        "eye-mcq-14"
+        "eye-mcq-24",
+        "eye-mcq-12",
+        "eye-mcq-25"
       ],
       "explanation": "本句的「meet his eye」指「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」。",
       "sentenceIndex": 32,
@@ -1846,12 +1716,10 @@ export default {
         "meet his eye"
       ],
       "optionReasons": {
-        "eye-mcq-17": "本句指「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。"
+        "eye-mcq-17": "本句的「meet his eye」指「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」。",
+        "eye-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-17"
     },
@@ -1863,11 +1731,9 @@ export default {
       "masked": "Our ____ across the room.",
       "options": [
         "eye-mcq-17",
-        "eye-mcq-16",
-        "eye-mcq-18",
-        "eye-mcq-15",
-        "eye-mcq-19",
-        "eye-mcq-14"
+        "eye-mcq-39",
+        "eye-mcq-24",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「eyes met」指「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」。",
       "sentenceIndex": 33,
@@ -1876,12 +1742,10 @@ export default {
         "eyes met"
       ],
       "optionReasons": {
-        "eye-mcq-17": "本句指「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-14": "「表示打量；注視；盯著看；例句：「她帶著懷疑的神情看著那塊蛋糕。」」是「eye — verb: look at carefully eye + person / thing = look at someone or something carefully, often with interest, suspicion, or desire 打量；注視；盯著看」的用法，與本句語境不同。"
+        "eye-mcq-17": "本句的「eyes met」指「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」。",
+        "eye-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-17"
     },
@@ -1893,11 +1757,9 @@ export default {
       "masked": "He couldn’t ____.",
       "options": [
         "eye-mcq-18",
-        "eye-mcq-17",
-        "eye-mcq-19",
-        "eye-mcq-16",
-        "eye-mcq-20",
-        "eye-mcq-15"
+        "eye-mcq-05",
+        "eye-mcq-36",
+        "eye-mcq-38"
       ],
       "explanation": "本句的「look me in the eye」指「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」。",
       "sentenceIndex": 34,
@@ -1906,12 +1768,10 @@ export default {
         "look me in the eye"
       ],
       "optionReasons": {
-        "eye-mcq-18": "本句指「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。"
+        "eye-mcq-18": "本句的「look me in the eye」指「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」。",
+        "eye-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-18"
     },
@@ -1923,11 +1783,9 @@ export default {
       "masked": "She ____ and answered.",
       "options": [
         "eye-mcq-18",
-        "eye-mcq-17",
-        "eye-mcq-19",
-        "eye-mcq-16",
-        "eye-mcq-20",
-        "eye-mcq-15"
+        "eye-mcq-13",
+        "eye-mcq-38",
+        "eye-mcq-11"
       ],
       "explanation": "本句的「looked him straight in the eye」指「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」。",
       "sentenceIndex": 35,
@@ -1936,12 +1794,10 @@ export default {
         "looked him straight in the eye"
       ],
       "optionReasons": {
-        "eye-mcq-18": "本句指「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-15": "「表示懷疑地打量；警惕地看著；例句：「他懷疑地打量那名陌生人。」」是「eye someone suspiciously / cautiously = look at someone with suspicion or caution 懷疑地打量；警惕地看著」的用法，與本句語境不同。"
+        "eye-mcq-18": "本句的「looked him straight in the eye」指「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-18"
     },
@@ -1953,11 +1809,9 @@ export default {
       "masked": "In her parents’ ____, she was still a child.",
       "options": [
         "eye-mcq-19",
-        "eye-mcq-18",
-        "eye-mcq-20",
-        "eye-mcq-17",
-        "eye-mcq-21",
-        "eye-mcq-16"
+        "eye-mcq-04",
+        "eye-mcq-12",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eyes」指「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」。",
       "sentenceIndex": 36,
@@ -1966,12 +1820,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-19": "本句指「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。"
+        "eye-mcq-19": "本句的「eyes」指「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-19"
     },
@@ -1983,11 +1835,9 @@ export default {
       "masked": "His actions made him a hero in the public ____.",
       "options": [
         "eye-mcq-19",
-        "eye-mcq-18",
-        "eye-mcq-20",
-        "eye-mcq-17",
-        "eye-mcq-21",
-        "eye-mcq-16"
+        "eye-mcq-27",
+        "eye-mcq-05",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye」指「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」。",
       "sentenceIndex": 37,
@@ -1996,12 +1846,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-19": "本句指「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-16": "「表示眼神接觸；目光接觸；例句：「優秀的演講者會與觀眾保持眼神接觸。」」是「eye contact = the state of two people looking directly into each other’s eyes 眼神接觸；目光接觸」的用法，與本句語境不同。"
+        "eye-mcq-19": "本句的「eye」指「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-19"
     },
@@ -2013,11 +1861,9 @@ export default {
       "masked": "The story is told ____.",
       "options": [
         "eye-mcq-20",
-        "eye-mcq-19",
-        "eye-mcq-21",
-        "eye-mcq-18",
-        "eye-mcq-22",
-        "eye-mcq-17"
+        "eye-mcq-11",
+        "eye-mcq-14",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「through the eyes of a child」指「透過某人的眼光；從某人的角度」。",
       "sentenceIndex": 38,
@@ -2026,12 +1872,10 @@ export default {
         "through the eyes of a child"
       ],
       "optionReasons": {
-        "eye-mcq-20": "本句指「透過某人的眼光；從某人的角度」。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。"
+        "eye-mcq-20": "本句的「through the eyes of a child」指「透過某人的眼光；從某人的角度」。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-20"
     },
@@ -2043,11 +1887,9 @@ export default {
       "masked": "The documentary lets us see the city ____.",
       "options": [
         "eye-mcq-20",
-        "eye-mcq-19",
-        "eye-mcq-21",
-        "eye-mcq-18",
+        "eye-mcq-10",
         "eye-mcq-22",
-        "eye-mcq-17"
+        "eye-mcq-27"
       ],
       "explanation": "本句的「through local eyes」指「透過某人的眼光；從某人的角度」。",
       "sentenceIndex": 39,
@@ -2056,12 +1898,10 @@ export default {
         "through local eyes"
       ],
       "optionReasons": {
-        "eye-mcq-20": "本句指「透過某人的眼光；從某人的角度」。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-17": "「表示與某人目光相接；直視某人；例句：「她拒絕與他對視。」」是「meet someone’s eye / eyes = look directly at someone who is looking at you 與某人目光相接；直視某人」的用法，與本句語境不同。"
+        "eye-mcq-20": "本句的「through local eyes」指「透過某人的眼光；從某人的角度」。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-20"
     },
@@ -2073,11 +1913,9 @@ export default {
       "masked": "Travelling helped me see my hometown ____.",
       "options": [
         "eye-mcq-21",
-        "eye-mcq-20",
-        "eye-mcq-22",
-        "eye-mcq-19",
-        "eye-mcq-23",
-        "eye-mcq-18"
+        "eye-mcq-05",
+        "eye-mcq-27",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「with fresh eyes」指「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」。",
       "sentenceIndex": 40,
@@ -2086,12 +1924,10 @@ export default {
         "with fresh eyes"
       ],
       "optionReasons": {
-        "eye-mcq-21": "本句指「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。"
+        "eye-mcq-21": "本句的「with fresh eyes」指「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」。",
+        "eye-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-21"
     },
@@ -2103,11 +1939,9 @@ export default {
       "masked": "After the discussion, I looked at the problem ____.",
       "options": [
         "eye-mcq-21",
-        "eye-mcq-20",
-        "eye-mcq-22",
-        "eye-mcq-19",
-        "eye-mcq-23",
-        "eye-mcq-18"
+        "eye-mcq-37",
+        "eye-mcq-27",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「with new eyes」指「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」。",
       "sentenceIndex": 41,
@@ -2116,12 +1950,10 @@ export default {
         "with new eyes"
       ],
       "optionReasons": {
-        "eye-mcq-21": "本句指「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-18": "「表示直視某人的眼睛；例句：「他無法直視我的眼睛。」」是「look someone in the eye = look directly into someone's eyes, often showing confidence or honesty 直視某人的眼睛」的用法，與本句語境不同。"
+        "eye-mcq-21": "本句的「with new eyes」指「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-21"
     },
@@ -2133,11 +1965,9 @@ export default {
       "masked": "She has lived in the ____ for years.",
       "options": [
         "eye-mcq-22",
-        "eye-mcq-21",
-        "eye-mcq-23",
-        "eye-mcq-20",
-        "eye-mcq-24",
-        "eye-mcq-19"
+        "eye-mcq-36",
+        "eye-mcq-01",
+        "eye-mcq-30"
       ],
       "explanation": "本句的「public eye」指「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」。",
       "sentenceIndex": 42,
@@ -2146,12 +1976,10 @@ export default {
         "public eye"
       ],
       "optionReasons": {
-        "eye-mcq-22": "本句指「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。"
+        "eye-mcq-22": "本句的「public eye」指「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-22"
     },
@@ -2163,11 +1991,9 @@ export default {
       "masked": "The scandal brought the company into the ____.",
       "options": [
         "eye-mcq-22",
-        "eye-mcq-21",
-        "eye-mcq-23",
-        "eye-mcq-20",
-        "eye-mcq-24",
-        "eye-mcq-19"
+        "eye-mcq-25",
+        "eye-mcq-27",
+        "eye-mcq-01"
       ],
       "explanation": "本句的「public eye」指「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」。",
       "sentenceIndex": 43,
@@ -2176,12 +2002,10 @@ export default {
         "public eye"
       ],
       "optionReasons": {
-        "eye-mcq-22": "本句指「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-19": "「表示在某人眼中；在某人看來；例句：「在她父母眼中，她仍然是個孩子。」」是「in someone’s eyes = according to someone’s opinion or judgment 在某人眼中；在某人看來」的用法，與本句語境不同。"
+        "eye-mcq-22": "本句的「public eye」指「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」。",
+        "eye-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-22"
     },
@@ -2193,11 +2017,9 @@ export default {
       "masked": "Push the thread through the ____.",
       "options": [
         "eye-mcq-23",
-        "eye-mcq-22",
-        "eye-mcq-24",
-        "eye-mcq-21",
-        "eye-mcq-25",
-        "eye-mcq-20"
+        "eye-mcq-04",
+        "eye-mcq-37",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye of the needle」指「表示針眼；例句：「把線穿過針眼。」」。",
       "sentenceIndex": 44,
@@ -2206,12 +2028,10 @@ export default {
         "eye of the needle"
       ],
       "optionReasons": {
-        "eye-mcq-23": "本句指「表示針眼；例句：「把線穿過針眼。」」。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。"
+        "eye-mcq-23": "本句的「eye of the needle」指「表示針眼；例句：「把線穿過針眼。」」。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-23"
     },
@@ -2223,11 +2043,9 @@ export default {
       "masked": "The needle has a very small ____.",
       "options": [
         "eye-mcq-23",
-        "eye-mcq-22",
-        "eye-mcq-24",
-        "eye-mcq-21",
-        "eye-mcq-25",
-        "eye-mcq-20"
+        "eye-mcq-13",
+        "eye-mcq-17",
+        "eye-mcq-10"
       ],
       "explanation": "本句的「eye」指「表示針眼；例句：「把線穿過針眼。」」。",
       "sentenceIndex": 45,
@@ -2236,12 +2054,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-23": "本句指「表示針眼；例句：「把線穿過針眼。」」。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-20": "「透過某人的眼光；從某人的角度」是「through someone’s eyes = from someone’s perspective or experience 透過某人的眼光；從某人的角度」的用法，與本句語境不同。"
+        "eye-mcq-23": "本句的「eye」指「表示針眼；例句：「把線穿過針眼。」」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-23"
     },
@@ -2253,11 +2069,9 @@ export default {
       "masked": "Fasten the hook through the ____.",
       "options": [
         "eye-mcq-24",
-        "eye-mcq-23",
-        "eye-mcq-25",
-        "eye-mcq-22",
-        "eye-mcq-26",
-        "eye-mcq-21"
+        "eye-mcq-12",
+        "eye-mcq-36",
+        "eye-mcq-14"
       ],
       "explanation": "本句的「eye」指「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」。",
       "sentenceIndex": 46,
@@ -2266,12 +2080,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-24": "本句指「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。"
+        "eye-mcq-24": "本句的「eye」指「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-24"
     },
@@ -2283,11 +2095,9 @@ export default {
       "masked": "The dress has small hooks and ____ at the back.",
       "options": [
         "eye-mcq-24",
-        "eye-mcq-23",
-        "eye-mcq-25",
-        "eye-mcq-22",
-        "eye-mcq-26",
-        "eye-mcq-21"
+        "eye-mcq-13",
+        "eye-mcq-14",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eyes」指「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」。",
       "sentenceIndex": 47,
@@ -2296,12 +2106,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-24": "本句指「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-21": "「表示以新的眼光看待；例句：「旅行讓我能以新的眼光看自己的家鄉。」」是「see something with fresh / new eyes = see or reconsider something from a new perspective 以新的眼光看待」的用法，與本句語境不同。"
+        "eye-mcq-24": "本句的「eyes」指「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-24"
     },
@@ -2313,11 +2121,9 @@ export default {
       "masked": "The butterfly has large ____ on its wings.",
       "options": [
         "eye-mcq-25",
-        "eye-mcq-24",
-        "eye-mcq-26",
-        "eye-mcq-23",
-        "eye-mcq-27",
-        "eye-mcq-22"
+        "eye-mcq-13",
+        "eye-mcq-37",
+        "eye-mcq-14"
       ],
       "explanation": "本句的「eye spots」指「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」。",
       "sentenceIndex": 48,
@@ -2326,12 +2132,10 @@ export default {
         "eye spots"
       ],
       "optionReasons": {
-        "eye-mcq-25": "本句指「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。"
+        "eye-mcq-25": "本句的「eye spots」指「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-25"
     },
@@ -2343,11 +2147,9 @@ export default {
       "masked": "The feather has a colourful ____ near the tip.",
       "options": [
         "eye-mcq-25",
-        "eye-mcq-24",
-        "eye-mcq-26",
-        "eye-mcq-23",
-        "eye-mcq-27",
-        "eye-mcq-22"
+        "eye-mcq-04",
+        "eye-mcq-10",
+        "eye-mcq-13"
       ],
       "explanation": "本句的「eye」指「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」。",
       "sentenceIndex": 49,
@@ -2356,12 +2158,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-25": "本句指「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-22": "「表示公眾視野；公眾關注；例句：「她多年來一直生活在公眾關注之下。」」是「the public eye = public attention, awareness, or observation 公眾視野；公眾關注」的用法，與本句語境不同。"
+        "eye-mcq-25": "本句的「eye」指「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-25"
     },
@@ -2373,11 +2173,9 @@ export default {
       "masked": "The ____ passed directly over the island.",
       "options": [
         "eye-mcq-26",
-        "eye-mcq-25",
-        "eye-mcq-27",
-        "eye-mcq-24",
-        "eye-mcq-28",
-        "eye-mcq-23"
+        "eye-mcq-04",
+        "eye-mcq-36",
+        "eye-mcq-10"
       ],
       "explanation": "本句的「eye of the hurricane」指「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」。",
       "sentenceIndex": 50,
@@ -2386,12 +2184,10 @@ export default {
         "eye of the hurricane"
       ],
       "optionReasons": {
-        "eye-mcq-26": "本句指「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。"
+        "eye-mcq-26": "本句的「eye of the hurricane」指「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-26"
     },
@@ -2403,11 +2199,9 @@ export default {
       "masked": "Conditions became briefly calm as the ____ passed overhead.",
       "options": [
         "eye-mcq-26",
-        "eye-mcq-25",
-        "eye-mcq-27",
-        "eye-mcq-24",
-        "eye-mcq-28",
-        "eye-mcq-23"
+        "eye-mcq-38",
+        "eye-mcq-37",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eye」指「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」。",
       "sentenceIndex": 51,
@@ -2416,12 +2210,10 @@ export default {
         "eye"
       ],
       "optionReasons": {
-        "eye-mcq-26": "本句指「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-23": "「表示針眼；例句：「把線穿過針眼。」」是「eye — a small hole or opening The physical shape of an eye gives rise to several object meanings.」的用法，與本句語境不同。"
+        "eye-mcq-26": "本句的「eye」指「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-26"
     },
@@ -2433,11 +2225,9 @@ export default {
       "masked": "The minister found himself at the ____.",
       "options": [
         "eye-mcq-27",
-        "eye-mcq-26",
-        "eye-mcq-28",
-        "eye-mcq-25",
-        "eye-mcq-29",
-        "eye-mcq-24"
+        "eye-mcq-37",
+        "eye-mcq-09",
+        "eye-mcq-34"
       ],
       "explanation": "本句的「eye of the storm」指「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」。",
       "sentenceIndex": 52,
@@ -2446,12 +2236,10 @@ export default {
         "eye of the storm"
       ],
       "optionReasons": {
-        "eye-mcq-27": "本句指「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。"
+        "eye-mcq-27": "本句的「eye of the storm」指「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-27"
     },
@@ -2463,11 +2251,9 @@ export default {
       "masked": "The company was suddenly in the ____.",
       "options": [
         "eye-mcq-27",
-        "eye-mcq-26",
-        "eye-mcq-28",
-        "eye-mcq-25",
-        "eye-mcq-29",
-        "eye-mcq-24"
+        "eye-mcq-04",
+        "eye-mcq-32",
+        "eye-mcq-09"
       ],
       "explanation": "本句的「eye of the storm」指「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」。",
       "sentenceIndex": 53,
@@ -2476,12 +2262,10 @@ export default {
         "eye of the storm"
       ],
       "optionReasons": {
-        "eye-mcq-27": "本句指「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-24": "「表示環；扣眼；孔眼；例句：「把鉤子扣進環眼裡。」」是「eye — loop or ring used for fastening = a small loop or hole into which a hook or other object fits 環；扣眼；孔眼」的用法，與本句語境不同。"
+        "eye-mcq-27": "本句的「eye of the storm」指「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-27"
     },
@@ -2493,11 +2277,9 @@ export default {
       "masked": "New shoots grow from the potato’s ____.",
       "options": [
         "eye-mcq-28",
-        "eye-mcq-27",
+        "eye-mcq-36",
         "eye-mcq-29",
-        "eye-mcq-26",
-        "eye-mcq-30",
-        "eye-mcq-25"
+        "eye-mcq-22"
       ],
       "explanation": "本句的「eyes」指「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」。",
       "sentenceIndex": 54,
@@ -2506,12 +2288,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-28": "本句指「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。"
+        "eye-mcq-28": "本句的「eyes」指「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-28"
     },
@@ -2524,10 +2304,8 @@ export default {
       "options": [
         "eye-mcq-28",
         "eye-mcq-27",
-        "eye-mcq-29",
-        "eye-mcq-26",
-        "eye-mcq-30",
-        "eye-mcq-25"
+        "eye-mcq-37",
+        "eye-mcq-15"
       ],
       "explanation": "本句的「eyes」指「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」。",
       "sentenceIndex": 55,
@@ -2536,12 +2314,10 @@ export default {
         "eyes"
       ],
       "optionReasons": {
-        "eye-mcq-28": "本句指「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-25": "「表示眼狀斑點；眼紋；例句：「那隻蝴蝶翅膀上有大型眼狀斑紋。」」是「eye — small spot or mark resembling an eye = a circular or oval mark resembling an eye 眼狀斑點；眼紋」的用法，與本句語境不同。"
+        "eye-mcq-28": "本句的「eyes」指「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-28"
     },
@@ -2553,11 +2329,9 @@ export default {
       "masked": "The tower offers a ____ of the city.",
       "options": [
         "eye-mcq-29",
-        "eye-mcq-28",
-        "eye-mcq-30",
-        "eye-mcq-27",
-        "eye-mcq-31",
-        "eye-mcq-26"
+        "eye-mcq-39",
+        "eye-mcq-07",
+        "eye-mcq-11"
       ],
       "explanation": "本句的「bird’s-eye view」指「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」。",
       "sentenceIndex": 56,
@@ -2566,12 +2340,10 @@ export default {
         "bird’s-eye view"
       ],
       "optionReasons": {
-        "eye-mcq-29": "本句指「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。"
+        "eye-mcq-29": "本句的「bird’s-eye view」指「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」。",
+        "eye-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-29"
     },
@@ -2583,11 +2355,9 @@ export default {
       "masked": "The map gives a ____ of the area.",
       "options": [
         "eye-mcq-29",
-        "eye-mcq-28",
-        "eye-mcq-30",
-        "eye-mcq-27",
-        "eye-mcq-31",
-        "eye-mcq-26"
+        "eye-mcq-38",
+        "eye-mcq-12",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「bird’s-eye view」指「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」。",
       "sentenceIndex": 57,
@@ -2596,12 +2366,10 @@ export default {
         "bird’s-eye view"
       ],
       "optionReasons": {
-        "eye-mcq-29": "本句指「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-26": "「表示颱風眼；風眼；例句：「颶風眼直接穿過那座島。」」是「eye of a storm / hurricane / cyclone = the relatively calm central part of a powerful tropical storm 颱風眼；風眼」的用法，與本句語境不同。"
+        "eye-mcq-29": "本句的「bird’s-eye view」指「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-29"
     },
@@ -2613,11 +2381,9 @@ export default {
       "masked": "Travelling ____ different cultures.",
       "options": [
         "eye-mcq-30",
-        "eye-mcq-29",
-        "eye-mcq-31",
-        "eye-mcq-28",
-        "eye-mcq-32",
-        "eye-mcq-27"
+        "eye-mcq-10",
+        "eye-mcq-04",
+        "eye-mcq-36"
       ],
       "explanation": "本句的「opened my eyes to」指「使某人認識到；讓某人大開眼界」。",
       "sentenceIndex": 58,
@@ -2626,12 +2392,10 @@ export default {
         "opened my eyes to"
       ],
       "optionReasons": {
-        "eye-mcq-30": "本句指「使某人認識到；讓某人大開眼界」。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。"
+        "eye-mcq-30": "本句的「opened my eyes to」指「使某人認識到；讓某人大開眼界」。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-30"
     },
@@ -2643,11 +2407,9 @@ export default {
       "masked": "The experience ____ the problem.",
       "options": [
         "eye-mcq-30",
-        "eye-mcq-29",
-        "eye-mcq-31",
-        "eye-mcq-28",
-        "eye-mcq-32",
-        "eye-mcq-27"
+        "eye-mcq-10",
+        "eye-mcq-22",
+        "eye-mcq-13"
       ],
       "explanation": "本句的「opened her eyes to」指「使某人認識到；讓某人大開眼界」。",
       "sentenceIndex": 59,
@@ -2656,12 +2418,10 @@ export default {
         "opened her eyes to"
       ],
       "optionReasons": {
-        "eye-mcq-30": "本句指「使某人認識到；讓某人大開眼界」。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-27": "「表示風暴中心；爭議核心；例句：「那位部長發現自己處於爭議風暴的中心。」」是「eye of the storm — figurative = the centre of an intense controversy, crisis, or activity 風暴中心；爭議核心」的用法，與本句語境不同。"
+        "eye-mcq-30": "本句的「opened her eyes to」指「使某人認識到；讓某人大開眼界」。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-30"
     },
@@ -2673,11 +2433,9 @@ export default {
       "masked": "Working abroad was a real ____.",
       "options": [
         "eye-mcq-31",
-        "eye-mcq-30",
-        "eye-mcq-32",
         "eye-mcq-29",
-        "eye-mcq-33",
-        "eye-mcq-28"
+        "eye-mcq-10",
+        "eye-mcq-36"
       ],
       "explanation": "本句的「eye-opener」指「令人大開眼界的事；使人醒悟的經歷」。",
       "sentenceIndex": 60,
@@ -2686,12 +2444,10 @@ export default {
         "eye-opener"
       ],
       "optionReasons": {
-        "eye-mcq-31": "本句指「令人大開眼界的事；使人醒悟的經歷」。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。"
+        "eye-mcq-31": "本句的「eye-opener」指「令人大開眼界的事；使人醒悟的經歷」。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-31"
     },
@@ -2703,11 +2459,9 @@ export default {
       "masked": "The report was an ____ for many people.",
       "options": [
         "eye-mcq-31",
-        "eye-mcq-30",
-        "eye-mcq-32",
-        "eye-mcq-29",
-        "eye-mcq-33",
-        "eye-mcq-28"
+        "eye-mcq-15",
+        "eye-mcq-27",
+        "eye-mcq-36"
       ],
       "explanation": "本句的「eye-opener」指「令人大開眼界的事；使人醒悟的經歷」。",
       "sentenceIndex": 61,
@@ -2716,12 +2470,10 @@ export default {
         "eye-opener"
       ],
       "optionReasons": {
-        "eye-mcq-31": "本句指「令人大開眼界的事；使人醒悟的經歷」。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-28": "「表示馬鈴薯芽眼；例句：「新芽會從馬鈴薯的芽眼長出來。」」是「eye of a potato = a small bud on a potato from which a new shoot can grow 馬鈴薯芽眼」的用法，與本句語境不同。"
+        "eye-mcq-31": "本句的「eye-opener」指「令人大開眼界的事；使人醒悟的經歷」。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-31"
     },
@@ -2733,11 +2485,9 @@ export default {
       "masked": "The manager ____ to the rule-breaking.",
       "options": [
         "eye-mcq-32",
-        "eye-mcq-31",
-        "eye-mcq-33",
-        "eye-mcq-30",
-        "eye-mcq-34",
-        "eye-mcq-29"
+        "eye-mcq-15",
+        "eye-mcq-36",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「turned a blind eye」指「故意視而不見；睜一隻眼閉一隻眼」。",
       "sentenceIndex": 62,
@@ -2746,12 +2496,10 @@ export default {
         "turned a blind eye"
       ],
       "optionReasons": {
-        "eye-mcq-32": "本句指「故意視而不見；睜一隻眼閉一隻眼」。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。"
+        "eye-mcq-32": "本句的「turned a blind eye」指「故意視而不見；睜一隻眼閉一隻眼」。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-32"
     },
@@ -2763,11 +2511,9 @@ export default {
       "masked": "We cannot ____ to bullying.",
       "options": [
         "eye-mcq-32",
-        "eye-mcq-31",
-        "eye-mcq-33",
-        "eye-mcq-30",
-        "eye-mcq-34",
-        "eye-mcq-29"
+        "eye-mcq-36",
+        "eye-mcq-38",
+        "eye-mcq-27"
       ],
       "explanation": "本句的「turn a blind eye」指「故意視而不見；睜一隻眼閉一隻眼」。",
       "sentenceIndex": 63,
@@ -2776,12 +2522,10 @@ export default {
         "turn a blind eye"
       ],
       "optionReasons": {
-        "eye-mcq-32": "本句指「故意視而不見；睜一隻眼閉一隻眼」。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-29": "「表示鳥瞰圖；俯視圖；鳥瞰視角；例句：「這座塔可以讓人鳥瞰整座城市。」」是「bird’s-eye view = a view from high above 鳥瞰圖；俯視圖；鳥瞰視角」的用法，與本句語境不同。"
+        "eye-mcq-32": "本句的「turn a blind eye」指「故意視而不見；睜一隻眼閉一隻眼」。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-32"
     },
@@ -2793,11 +2537,9 @@ export default {
       "masked": "____ for anything unusual.",
       "options": [
         "eye-mcq-33",
-        "eye-mcq-32",
-        "eye-mcq-34",
-        "eye-mcq-31",
-        "eye-mcq-35",
-        "eye-mcq-30"
+        "eye-mcq-10",
+        "eye-mcq-27",
+        "eye-mcq-13"
       ],
       "explanation": "本句的「Keep your eyes open」指「表示睜著眼睛；例句：「留意任何不尋常的情況。」」。",
       "sentenceIndex": 64,
@@ -2806,12 +2548,10 @@ export default {
         "Keep your eyes open"
       ],
       "optionReasons": {
-        "eye-mcq-33": "本句指「表示睜著眼睛；例句：「留意任何不尋常的情況。」」。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。"
+        "eye-mcq-33": "本句的「Keep your eyes open」指「表示睜著眼睛；例句：「留意任何不尋常的情況。」」。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-33"
     },
@@ -2823,11 +2563,9 @@ export default {
       "masked": "You need to ____ in crowded places.",
       "options": [
         "eye-mcq-33",
-        "eye-mcq-32",
-        "eye-mcq-34",
-        "eye-mcq-31",
-        "eye-mcq-35",
-        "eye-mcq-30"
+        "eye-mcq-17",
+        "eye-mcq-36",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「keep your eyes open」指「表示睜著眼睛；例句：「留意任何不尋常的情況。」」。",
       "sentenceIndex": 65,
@@ -2836,12 +2574,10 @@ export default {
         "keep your eyes open"
       ],
       "optionReasons": {
-        "eye-mcq-33": "本句指「表示睜著眼睛；例句：「留意任何不尋常的情況。」」。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-30": "「使某人認識到；讓某人大開眼界」是「open someone’s eyes to something = make someone realize or become aware of something 使某人認識到；讓某人大開眼界」的用法，與本句語境不同。"
+        "eye-mcq-33": "本句的「keep your eyes open」指「表示睜著眼睛；例句：「留意任何不尋常的情況。」」。",
+        "eye-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-33"
     },
@@ -2853,11 +2589,9 @@ export default {
       "masked": "Teachers need ____.",
       "options": [
         "eye-mcq-34",
-        "eye-mcq-33",
-        "eye-mcq-35",
-        "eye-mcq-32",
-        "eye-mcq-36",
-        "eye-mcq-31"
+        "eye-mcq-17",
+        "eye-mcq-13",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「eyes in the back of their heads」指「眼觀四面；彷彿後腦也長了眼睛」。",
       "sentenceIndex": 66,
@@ -2866,12 +2600,10 @@ export default {
         "eyes in the back of their heads"
       ],
       "optionReasons": {
-        "eye-mcq-34": "本句指「眼觀四面；彷彿後腦也長了眼睛」。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。"
+        "eye-mcq-34": "本句的「eyes in the back of their heads」指「眼觀四面；彷彿後腦也長了眼睛」。",
+        "eye-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-34"
     },
@@ -2883,11 +2615,9 @@ export default {
       "masked": "My mother seemed to have ____.",
       "options": [
         "eye-mcq-34",
-        "eye-mcq-33",
-        "eye-mcq-35",
-        "eye-mcq-32",
-        "eye-mcq-36",
-        "eye-mcq-31"
+        "eye-mcq-14",
+        "eye-mcq-11",
+        "eye-mcq-36"
       ],
       "explanation": "本句的「eyes in the back of her head」指「眼觀四面；彷彿後腦也長了眼睛」。",
       "sentenceIndex": 67,
@@ -2896,12 +2626,10 @@ export default {
         "eyes in the back of her head"
       ],
       "optionReasons": {
-        "eye-mcq-34": "本句指「眼觀四面；彷彿後腦也長了眼睛」。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-31": "「令人大開眼界的事；使人醒悟的經歷」是「an eye-opener = an experience or fact that makes someone realize something surprising or important 令人大開眼界的事；使人醒悟的經歷」的用法，與本句語境不同。"
+        "eye-mcq-34": "本句的「eyes in the back of her head」指「眼觀四面；彷彿後腦也長了眼睛」。",
+        "eye-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-34"
     },
@@ -2913,11 +2641,9 @@ export default {
       "masked": "____ this beautiful view.",
       "options": [
         "eye-mcq-35",
-        "eye-mcq-34",
-        "eye-mcq-36",
-        "eye-mcq-33",
-        "eye-mcq-37",
-        "eye-mcq-32"
+        "eye-mcq-13",
+        "eye-mcq-22",
+        "eye-mcq-37"
       ],
       "explanation": "本句的「Feast your eyes on」指「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」。",
       "sentenceIndex": 68,
@@ -2926,12 +2652,10 @@ export default {
         "Feast your eyes on"
       ],
       "optionReasons": {
-        "eye-mcq-35": "本句指「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。"
+        "eye-mcq-35": "本句的「Feast your eyes on」指「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-35"
     },
@@ -2943,11 +2667,9 @@ export default {
       "masked": "Visitors can ____ hundreds of paintings.",
       "options": [
         "eye-mcq-35",
-        "eye-mcq-34",
-        "eye-mcq-36",
-        "eye-mcq-33",
-        "eye-mcq-37",
-        "eye-mcq-32"
+        "eye-mcq-15",
+        "eye-mcq-13",
+        "eye-mcq-10"
       ],
       "explanation": "本句的「feast their eyes on」指「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」。",
       "sentenceIndex": 69,
@@ -2956,12 +2678,10 @@ export default {
         "feast their eyes on"
       ],
       "optionReasons": {
-        "eye-mcq-35": "本句指「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-32": "「故意視而不見；睜一隻眼閉一隻眼」是「turn a blind eye = deliberately ignore something wrong or unpleasant 故意視而不見；睜一隻眼閉一隻眼」的用法，與本句語境不同。"
+        "eye-mcq-35": "本句的「feast their eyes on」指「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-35"
     },
@@ -2973,11 +2693,9 @@ export default {
       "masked": "The new design is simple and ____.",
       "options": [
         "eye-mcq-36",
-        "eye-mcq-35",
-        "eye-mcq-37",
-        "eye-mcq-34",
-        "eye-mcq-38",
-        "eye-mcq-33"
+        "eye-mcq-29",
+        "eye-mcq-06",
+        "eye-mcq-11"
       ],
       "explanation": "本句的「easy on the eyes」指「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」。",
       "sentenceIndex": 70,
@@ -2986,12 +2704,10 @@ export default {
         "easy on the eyes"
       ],
       "optionReasons": {
-        "eye-mcq-36": "本句指「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-38": "「事情不像表面那麼簡單；另有內情」是「more than meets the eye = more complicated or important than it first appears 事情不像表面那麼簡單；另有內情」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。"
+        "eye-mcq-36": "本句的「easy on the eyes」指「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-36"
     },
@@ -3003,11 +2719,9 @@ export default {
       "masked": "The colour scheme is very ____.",
       "options": [
         "eye-mcq-36",
-        "eye-mcq-35",
-        "eye-mcq-37",
-        "eye-mcq-34",
-        "eye-mcq-38",
-        "eye-mcq-33"
+        "eye-mcq-11",
+        "eye-mcq-28",
+        "eye-mcq-30"
       ],
       "explanation": "本句的「easy on the eyes」指「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」。",
       "sentenceIndex": 71,
@@ -3016,12 +2730,10 @@ export default {
         "easy on the eyes"
       ],
       "optionReasons": {
-        "eye-mcq-36": "本句指「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。",
-        "eye-mcq-38": "「事情不像表面那麼簡單；另有內情」是「more than meets the eye = more complicated or important than it first appears 事情不像表面那麼簡單；另有內情」的用法，與本句語境不同。",
-        "eye-mcq-33": "「表示睜著眼睛；例句：「留意任何不尋常的情況。」」是「keep your eyes open」的用法，與本句語境不同。"
+        "eye-mcq-36": "本句的「easy on the eyes」指「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-36"
     },
@@ -3033,11 +2745,9 @@ export default {
       "masked": "He only ____.",
       "options": [
         "eye-mcq-37",
-        "eye-mcq-36",
-        "eye-mcq-38",
-        "eye-mcq-35",
-        "eye-mcq-39",
-        "eye-mcq-34"
+        "eye-mcq-28",
+        "eye-mcq-15",
+        "eye-mcq-09"
       ],
       "explanation": "本句的「has eyes for her」指「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」。",
       "sentenceIndex": 72,
@@ -3046,12 +2756,10 @@ export default {
         "has eyes for her"
       ],
       "optionReasons": {
-        "eye-mcq-37": "本句指「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-38": "「事情不像表面那麼簡單；另有內情」是「more than meets the eye = more complicated or important than it first appears 事情不像表面那麼簡單；另有內情」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-39": "「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」是「wide-eyed」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。"
+        "eye-mcq-37": "本句的「has eyes for her」指「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」。",
+        "eye-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-37"
     },
@@ -3063,11 +2771,9 @@ export default {
       "masked": "She clearly ____ her new colleague.",
       "options": [
         "eye-mcq-37",
-        "eye-mcq-36",
-        "eye-mcq-38",
         "eye-mcq-35",
-        "eye-mcq-39",
-        "eye-mcq-34"
+        "eye-mcq-31",
+        "eye-mcq-06"
       ],
       "explanation": "本句的「has eyes for」指「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」。",
       "sentenceIndex": 73,
@@ -3076,12 +2782,10 @@ export default {
         "has eyes for"
       ],
       "optionReasons": {
-        "eye-mcq-37": "本句指「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-38": "「事情不像表面那麼簡單；另有內情」是「more than meets the eye = more complicated or important than it first appears 事情不像表面那麼簡單；另有內情」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-39": "「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」是「wide-eyed」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。"
+        "eye-mcq-37": "本句的「has eyes for」指「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」。",
+        "eye-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-37"
     },
@@ -3093,11 +2797,9 @@ export default {
       "masked": "There is ____.",
       "options": [
         "eye-mcq-38",
-        "eye-mcq-37",
-        "eye-mcq-39",
-        "eye-mcq-36",
-        "eye-mcq-35",
-        "eye-mcq-34"
+        "eye-mcq-13",
+        "eye-mcq-34",
+        "eye-mcq-32"
       ],
       "explanation": "本句的「more to this problem than meets the eye」指「事情不像表面那麼簡單；另有內情」。",
       "sentenceIndex": 74,
@@ -3106,12 +2808,10 @@ export default {
         "more to this problem than meets the eye"
       ],
       "optionReasons": {
-        "eye-mcq-38": "本句指「事情不像表面那麼簡單；另有內情」。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-39": "「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」是「wide-eyed」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。"
+        "eye-mcq-38": "本句的「more to this problem than meets the eye」指「事情不像表面那麼簡單；另有內情」。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-38"
     },
@@ -3123,11 +2823,9 @@ export default {
       "masked": "The situation has ____.",
       "options": [
         "eye-mcq-38",
-        "eye-mcq-37",
-        "eye-mcq-39",
-        "eye-mcq-36",
-        "eye-mcq-35",
-        "eye-mcq-34"
+        "eye-mcq-02",
+        "eye-mcq-11",
+        "eye-mcq-13"
       ],
       "explanation": "本句的「more to it than meets the eye」指「事情不像表面那麼簡單；另有內情」。",
       "sentenceIndex": 75,
@@ -3136,12 +2834,10 @@ export default {
         "more to it than meets the eye"
       ],
       "optionReasons": {
-        "eye-mcq-38": "本句指「事情不像表面那麼簡單；另有內情」。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-39": "「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」是「wide-eyed」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。"
+        "eye-mcq-38": "本句的「more to it than meets the eye」指「事情不像表面那麼簡單；另有內情」。",
+        "eye-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-38"
     },
@@ -3153,11 +2849,9 @@ export default {
       "masked": "The children stared ____ at the fireworks.",
       "options": [
         "eye-mcq-39",
-        "eye-mcq-38",
-        "eye-mcq-37",
-        "eye-mcq-36",
-        "eye-mcq-35",
-        "eye-mcq-34"
+        "eye-mcq-11",
+        "eye-mcq-17",
+        "eye-mcq-29"
       ],
       "explanation": "本句的「wide-eyed」指「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」。",
       "sentenceIndex": 76,
@@ -3166,12 +2860,10 @@ export default {
         "wide-eyed"
       ],
       "optionReasons": {
-        "eye-mcq-39": "本句指「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」。",
-        "eye-mcq-38": "「事情不像表面那麼簡單；另有內情」是「more than meets the eye = more complicated or important than it first appears 事情不像表面那麼簡單；另有內情」的用法，與本句語境不同。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。"
+        "eye-mcq-39": "本句的「wide-eyed」指「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-39"
     },
@@ -3183,11 +2875,9 @@ export default {
       "masked": "He arrived in the city as a ____.",
       "options": [
         "eye-mcq-39",
-        "eye-mcq-38",
-        "eye-mcq-37",
+        "eye-mcq-22",
         "eye-mcq-36",
-        "eye-mcq-35",
-        "eye-mcq-34"
+        "eye-mcq-11"
       ],
       "explanation": "本句的「wide-eyed teenager」指「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」。",
       "sentenceIndex": 77,
@@ -3196,12 +2886,10 @@ export default {
         "wide-eyed teenager"
       ],
       "optionReasons": {
-        "eye-mcq-39": "本句指「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」。",
-        "eye-mcq-38": "「事情不像表面那麼簡單；另有內情」是「more than meets the eye = more complicated or important than it first appears 事情不像表面那麼簡單；另有內情」的用法，與本句語境不同。",
-        "eye-mcq-37": "「表示對某人有意思；鍾情於某人；例句：「他眼裡只有她一個人。」」是「have eyes for someone = be romantically interested in someone, often exclusively 對某人有意思；鍾情於某人」的用法，與本句語境不同。",
-        "eye-mcq-36": "「表示賞心悅目的；看起來舒服的；例句：「新設計簡潔而且賞心悅目。」」是「easy on the eyes = visually pleasant or attractive 賞心悅目的；看起來舒服的」的用法，與本句語境不同。",
-        "eye-mcq-35": "「表示盡情欣賞；大飽眼福；例句：「好好欣賞這片美景吧。」」是「feast your eyes on something = look at something attractive with great pleasure 盡情欣賞；大飽眼福」的用法，與本句語境不同。",
-        "eye-mcq-34": "「眼觀四面；彷彿後腦也長了眼睛」是「have eyes in the back of your head = seem able to notice everything happening around you 眼觀四面；彷彿後腦也長了眼睛」的用法，與本句語境不同。"
+        "eye-mcq-39": "本句的「wide-eyed teenager」指「表示睜大眼睛的；例句：「孩子們睜大眼睛看著煙火。」」。",
+        "eye-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "eye-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "eye-mcq-39"
     }
@@ -3213,5 +2901,7 @@ export default {
     "sha256": "9f5f802c9a58e0aa7cf565796f1fe75fe14d341d94e9183cdc21f40cfdfd8f59",
     "pages": 20
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

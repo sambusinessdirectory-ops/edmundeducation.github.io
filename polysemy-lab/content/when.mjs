@@ -284,11 +284,9 @@ export default {
       "masked": "I use the headphones ____.",
       "options": [
         "when-mcq-01",
-        "when-mcq-02",
-        "when-mcq-03",
-        "when-mcq-04",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-10",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when I am travelling」指「某件事情發生或某個狀態成立的時間」。",
       "sentenceIndex": 0,
@@ -297,12 +295,10 @@ export default {
         "when I am travelling"
       ],
       "optionReasons": {
-        "when-mcq-01": "本句指「某件事情發生或某個狀態成立的時間」。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-01": "本句的「when I am travelling」指「某件事情發生或某個狀態成立的時間」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-01"
     },
@@ -314,11 +310,9 @@ export default {
       "masked": "Call me ____.",
       "options": [
         "when-mcq-01",
-        "when-mcq-02",
-        "when-mcq-03",
-        "when-mcq-04",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-10",
+        "when-mcq-08"
       ],
       "explanation": "本句的「when you arrive」指「某件事情發生或某個狀態成立的時間」。",
       "sentenceIndex": 1,
@@ -327,12 +321,10 @@ export default {
         "when you arrive"
       ],
       "optionReasons": {
-        "when-mcq-01": "本句指「某件事情發生或某個狀態成立的時間」。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-01": "本句的「when you arrive」指「某件事情發生或某個狀態成立的時間」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-01"
     },
@@ -344,11 +336,9 @@ export default {
       "masked": "I listen to music ____.",
       "options": [
         "when-mcq-01",
-        "when-mcq-02",
-        "when-mcq-03",
-        "when-mcq-04",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-08",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when I work」指「某件事情發生或某個狀態成立的時間」。",
       "sentenceIndex": 2,
@@ -357,12 +347,10 @@ export default {
         "when I work"
       ],
       "optionReasons": {
-        "when-mcq-01": "本句指「某件事情發生或某個狀態成立的時間」。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-01": "本句的「when I work」指「某件事情發生或某個狀態成立的時間」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-01"
     },
@@ -374,11 +362,9 @@ export default {
       "masked": "____ did you buy the headphones?",
       "options": [
         "when-mcq-02",
-        "when-mcq-01",
-        "when-mcq-03",
-        "when-mcq-04",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-11",
+        "when-mcq-08"
       ],
       "explanation": "本句的「When」指「詢問某件事情發生、開始或結束的時間」。",
       "sentenceIndex": 3,
@@ -387,12 +373,10 @@ export default {
         "When"
       ],
       "optionReasons": {
-        "when-mcq-02": "本句指「詢問某件事情發生、開始或結束的時間」。",
-        "when-mcq-01": "「某件事情發生或某個狀態成立的時間」是「when + clause（時間／情況）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-02": "本句的「When」指「詢問某件事情發生、開始或結束的時間」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-02"
     },
@@ -404,11 +388,9 @@ export default {
       "masked": "____ will the meeting start?",
       "options": [
         "when-mcq-02",
-        "when-mcq-01",
-        "when-mcq-03",
-        "when-mcq-04",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-11",
+        "when-mcq-08"
       ],
       "explanation": "本句的「When」指「詢問某件事情發生、開始或結束的時間」。",
       "sentenceIndex": 4,
@@ -417,12 +399,10 @@ export default {
         "When"
       ],
       "optionReasons": {
-        "when-mcq-02": "本句指「詢問某件事情發生、開始或結束的時間」。",
-        "when-mcq-01": "「某件事情發生或某個狀態成立的時間」是「when + clause（時間／情況）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-02": "本句的「When」指「詢問某件事情發生、開始或結束的時間」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-02"
     },
@@ -434,11 +414,9 @@ export default {
       "masked": "I don’t know ____.",
       "options": [
         "when-mcq-03",
-        "when-mcq-02",
-        "when-mcq-04",
-        "when-mcq-01",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-08",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when the train will arrive」指「詢問或談論某件事情發生的時間，但整個 when-clause 放」。",
       "sentenceIndex": 5,
@@ -447,12 +425,10 @@ export default {
         "when the train will arrive"
       ],
       "optionReasons": {
-        "when-mcq-03": "本句指「詢問或談論某件事情發生的時間，但整個 when-clause 放」。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-01": "「某件事情發生或某個狀態成立的時間」是「when + clause（時間／情況）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-03": "本句的「when the train will arrive」指「詢問或談論某件事情發生的時間，但整個 when-clause 放」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-03"
     },
@@ -464,11 +440,9 @@ export default {
       "masked": "Can you tell me ____?",
       "options": [
         "when-mcq-03",
-        "when-mcq-02",
-        "when-mcq-04",
-        "when-mcq-01",
-        "when-mcq-05",
-        "when-mcq-06"
+        "when-mcq-07",
+        "when-mcq-08",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when the shop closes」指「詢問或談論某件事情發生的時間，但整個 when-clause 放」。",
       "sentenceIndex": 6,
@@ -477,12 +451,10 @@ export default {
         "when the shop closes"
       ],
       "optionReasons": {
-        "when-mcq-03": "本句指「詢問或談論某件事情發生的時間，但整個 when-clause 放」。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-01": "「某件事情發生或某個狀態成立的時間」是「when + clause（時間／情況）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-03": "本句的「when the shop closes」指「詢問或談論某件事情發生的時間，但整個 when-clause 放」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-03"
     },
@@ -494,11 +466,9 @@ export default {
       "masked": "I remember the day ____.",
       "options": [
         "when-mcq-04",
-        "when-mcq-03",
-        "when-mcq-05",
-        "when-mcq-02",
-        "when-mcq-06",
-        "when-mcq-01"
+        "when-mcq-07",
+        "when-mcq-12",
+        "when-mcq-08"
       ],
       "explanation": "本句的「when we first met」指「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」。",
       "sentenceIndex": 7,
@@ -507,12 +477,10 @@ export default {
         "when we first met"
       ],
       "optionReasons": {
-        "when-mcq-04": "本句指「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-01": "「某件事情發生或某個狀態成立的時間」是「when + clause（時間／情況）」的用法，與本句語境不同。"
+        "when-mcq-04": "本句的「when we first met」指「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-04"
     },
@@ -524,11 +492,9 @@ export default {
       "masked": "There was a time ____.",
       "options": [
         "when-mcq-04",
-        "when-mcq-03",
-        "when-mcq-05",
-        "when-mcq-02",
-        "when-mcq-06",
-        "when-mcq-01"
+        "when-mcq-07",
+        "when-mcq-12",
+        "when-mcq-08"
       ],
       "explanation": "本句的「when people rarely worked from home」指「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」。",
       "sentenceIndex": 8,
@@ -537,12 +503,10 @@ export default {
         "when people rarely worked from home"
       ],
       "optionReasons": {
-        "when-mcq-04": "本句指「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-01": "「某件事情發生或某個狀態成立的時間」是「when + clause（時間／情況）」的用法，與本句語境不同。"
+        "when-mcq-04": "本句的「when people rarely worked from home」指「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-04"
     },
@@ -554,11 +518,8 @@ export default {
       "masked": "I wear headphones ____.",
       "options": [
         "when-mcq-05",
-        "when-mcq-04",
-        "when-mcq-06",
-        "when-mcq-03",
-        "when-mcq-07",
-        "when-mcq-02"
+        "when-mcq-10",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when I travel」指「每次某個情況發生時，另一件事情通常也會發生」。",
       "sentenceIndex": 9,
@@ -567,12 +528,9 @@ export default {
         "when I travel"
       ],
       "optionReasons": {
-        "when-mcq-05": "本句指「每次某個情況發生時，另一件事情通常也會發生」。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。"
+        "when-mcq-05": "本句的「when I travel」指「每次某個情況發生時，另一件事情通常也會發生」。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-05"
     },
@@ -584,11 +542,8 @@ export default {
       "masked": "She gets nervous ____.",
       "options": [
         "when-mcq-05",
-        "when-mcq-04",
-        "when-mcq-06",
-        "when-mcq-03",
-        "when-mcq-07",
-        "when-mcq-02"
+        "when-mcq-10",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when she speaks in public」指「每次某個情況發生時，另一件事情通常也會發生」。",
       "sentenceIndex": 10,
@@ -597,12 +552,9 @@ export default {
         "when she speaks in public"
       ],
       "optionReasons": {
-        "when-mcq-05": "本句指「每次某個情況發生時，另一件事情通常也會發生」。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-02": "「詢問某件事情發生、開始或結束的時間」是「when = at what time?（詢問時間）」的用法，與本句語境不同。"
+        "when-mcq-05": "本句的「when she speaks in public」指「每次某個情況發生時，另一件事情通常也會發生」。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-05"
     },
@@ -614,11 +566,9 @@ export default {
       "masked": "I’ll call you ____.",
       "options": [
         "when-mcq-06",
-        "when-mcq-05",
-        "when-mcq-07",
-        "when-mcq-04",
+        "when-mcq-10",
         "when-mcq-08",
-        "when-mcq-03"
+        "when-mcq-11"
       ],
       "explanation": "本句的「when I finish」指「以某件事情的發生作為另一件事情開始的時間點」。",
       "sentenceIndex": 11,
@@ -627,12 +577,10 @@ export default {
         "when I finish"
       ],
       "optionReasons": {
-        "when-mcq-06": "本句指「以某件事情的發生作為另一件事情開始的時間點」。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。"
+        "when-mcq-06": "本句的「when I finish」指「以某件事情的發生作為另一件事情開始的時間點」。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-06"
     },
@@ -644,11 +592,9 @@ export default {
       "masked": "We’ll leave ____.",
       "options": [
         "when-mcq-06",
-        "when-mcq-05",
-        "when-mcq-07",
-        "when-mcq-04",
         "when-mcq-08",
-        "when-mcq-03"
+        "when-mcq-10",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when everyone is ready」指「以某件事情的發生作為另一件事情開始的時間點」。",
       "sentenceIndex": 12,
@@ -657,12 +603,10 @@ export default {
         "when everyone is ready"
       ],
       "optionReasons": {
-        "when-mcq-06": "本句指「以某件事情的發生作為另一件事情開始的時間點」。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-03": "「詢問或談論某件事情發生的時間，但整個 when-clause 放」是「when + subject + verb（間接問題）」的用法，與本句語境不同。"
+        "when-mcq-06": "本句的「when everyone is ready」指「以某件事情的發生作為另一件事情開始的時間點」。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-06"
     },
@@ -674,11 +618,9 @@ export default {
       "masked": "Why buy a new phone ____ your old one still works perfectly?",
       "options": [
         "when-mcq-07",
-        "when-mcq-06",
-        "when-mcq-08",
-        "when-mcq-05",
-        "when-mcq-09",
-        "when-mcq-04"
+        "when-mcq-11",
+        "when-mcq-01",
+        "when-mcq-10"
       ],
       "explanation": "本句的「when」指「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」。",
       "sentenceIndex": 13,
@@ -687,12 +629,10 @@ export default {
         "when"
       ],
       "optionReasons": {
-        "when-mcq-07": "本句指「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。"
+        "when-mcq-07": "本句的「when」指「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-07"
     },
@@ -704,11 +644,9 @@ export default {
       "masked": "There’s no reason to drive ____ the station is so close.",
       "options": [
         "when-mcq-07",
-        "when-mcq-06",
-        "when-mcq-08",
-        "when-mcq-05",
-        "when-mcq-09",
-        "when-mcq-04"
+        "when-mcq-01",
+        "when-mcq-10",
+        "when-mcq-11"
       ],
       "explanation": "本句的「when」指「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」。",
       "sentenceIndex": 14,
@@ -717,12 +655,10 @@ export default {
         "when"
       ],
       "optionReasons": {
-        "when-mcq-07": "本句指「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-04": "「指回前面所提到的時間、日期、年代或時期，說明在那個時候發生甚麼」是「when = the time at which（關係用法）」的用法，與本句語境不同。"
+        "when-mcq-07": "本句的「when」指「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」。",
+        "when-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-07"
     },
@@ -734,11 +670,9 @@ export default {
       "masked": "I use noise cancellation ____.",
       "options": [
         "when-mcq-08",
+        "when-mcq-03",
         "when-mcq-07",
-        "when-mcq-09",
-        "when-mcq-06",
-        "when-mcq-10",
-        "when-mcq-05"
+        "when-mcq-10"
       ],
       "explanation": "本句的「whenever I travel」指「每一次某個情況出現時，不限於某一次」。",
       "sentenceIndex": 15,
@@ -747,12 +681,10 @@ export default {
         "whenever I travel"
       ],
       "optionReasons": {
-        "when-mcq-08": "本句指「每一次某個情況出現時，不限於某一次」。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。"
+        "when-mcq-08": "本句的「whenever I travel」指「每一次某個情況出現時，不限於某一次」。",
+        "when-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-08"
     },
@@ -764,11 +696,9 @@ export default {
       "masked": "Call me ____.",
       "options": [
         "when-mcq-08",
-        "when-mcq-07",
-        "when-mcq-09",
-        "when-mcq-06",
-        "when-mcq-10",
-        "when-mcq-05"
+        "when-mcq-11",
+        "when-mcq-03",
+        "when-mcq-07"
       ],
       "explanation": "本句的「whenever you need help」指「每一次某個情況出現時，不限於某一次」。",
       "sentenceIndex": 16,
@@ -777,12 +707,10 @@ export default {
         "whenever you need help"
       ],
       "optionReasons": {
-        "when-mcq-08": "本句指「每一次某個情況出現時，不限於某一次」。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-05": "「每次某個情況發生時，另一件事情通常也會發生」是「when = whenever a repeated situation occurs（每當……時）」的用法，與本句語境不同。"
+        "when-mcq-08": "本句的「whenever you need help」指「每一次某個情況出現時，不限於某一次」。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-08"
     },
@@ -794,11 +722,8 @@ export default {
       "masked": "You can visit ____.",
       "options": [
         "when-mcq-09",
-        "when-mcq-08",
-        "when-mcq-10",
         "when-mcq-07",
-        "when-mcq-11",
-        "when-mcq-06"
+        "when-mcq-11"
       ],
       "explanation": "本句的「whenever you like」指「不限制具體時間；任何符合條件的時候都可以」。",
       "sentenceIndex": 17,
@@ -807,12 +732,9 @@ export default {
         "whenever you like"
       ],
       "optionReasons": {
-        "when-mcq-09": "本句指「不限制具體時間；任何符合條件的時候都可以」。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-11": "「說到某個特定話題、範疇或事情時」是「when it comes to + topic/activity（話題／事情）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-09": "本句的「whenever you like」指「不限制具體時間；任何符合條件的時候都可以」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-09"
     },
@@ -824,11 +746,8 @@ export default {
       "masked": "Use the headphones ____.",
       "options": [
         "when-mcq-09",
-        "when-mcq-08",
-        "when-mcq-10",
         "when-mcq-07",
-        "when-mcq-11",
-        "when-mcq-06"
+        "when-mcq-11"
       ],
       "explanation": "本句的「whenever you need some quiet」指「不限制具體時間；任何符合條件的時候都可以」。",
       "sentenceIndex": 18,
@@ -837,12 +756,9 @@ export default {
         "whenever you need some quiet"
       ],
       "optionReasons": {
-        "when-mcq-09": "本句指「不限制具體時間；任何符合條件的時候都可以」。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。",
-        "when-mcq-11": "「說到某個特定話題、範疇或事情時」是「when it comes to + topic/activity（話題／事情）」的用法，與本句語境不同。",
-        "when-mcq-06": "「以某件事情的發生作為另一件事情開始的時間點」是「when = after/once something happens（先後關係）」的用法，與本句語境不同。"
+        "when-mcq-09": "本句的「whenever you need some quiet」指「不限制具體時間；任何符合條件的時候都可以」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-09"
     },
@@ -854,11 +770,9 @@ export default {
       "masked": "____ did you find time to do all that?",
       "options": [
         "when-mcq-10",
-        "when-mcq-09",
-        "when-mcq-11",
-        "when-mcq-08",
+        "when-mcq-07",
         "when-mcq-12",
-        "when-mcq-07"
+        "when-mcq-11"
       ],
       "explanation": "本句的「Whenever」指「帶驚訝或強調地追問「到底甚麼時候」」。",
       "sentenceIndex": 19,
@@ -867,12 +781,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "when-mcq-10": "本句指「帶驚訝或強調地追問「到底甚麼時候」」。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-11": "「說到某個特定話題、範疇或事情時」是「when it comes to + topic/activity（話題／事情）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-12": "「某件事何時、何地進行等具體細節」是「the whens and wheres = details of when and where something will happen」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。"
+        "when-mcq-10": "本句的「Whenever」指「帶驚訝或強調地追問「到底甚麼時候」」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-10"
     },
@@ -884,11 +796,9 @@ export default {
       "masked": "____ did he learn to cook like that?",
       "options": [
         "when-mcq-10",
-        "when-mcq-09",
-        "when-mcq-11",
+        "when-mcq-07",
         "when-mcq-08",
-        "when-mcq-12",
-        "when-mcq-07"
+        "when-mcq-12"
       ],
       "explanation": "本句的「Whenever」指「帶驚訝或強調地追問「到底甚麼時候」」。",
       "sentenceIndex": 20,
@@ -897,12 +807,10 @@ export default {
         "Whenever"
       ],
       "optionReasons": {
-        "when-mcq-10": "本句指「帶驚訝或強調地追問「到底甚麼時候」」。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-11": "「說到某個特定話題、範疇或事情時」是「when it comes to + topic/activity（話題／事情）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-12": "「某件事何時、何地進行等具體細節」是「the whens and wheres = details of when and where something will happen」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。"
+        "when-mcq-10": "本句的「Whenever」指「帶驚訝或強調地追問「到底甚麼時候」」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-10"
     },
@@ -914,11 +822,8 @@ export default {
       "masked": "____ comfort, these headphones are excellent.",
       "options": [
         "when-mcq-11",
-        "when-mcq-10",
-        "when-mcq-12",
-        "when-mcq-09",
-        "when-mcq-08",
-        "when-mcq-07"
+        "when-mcq-07",
+        "when-mcq-09"
       ],
       "explanation": "本句的「When it comes to」指「說到某個特定話題、範疇或事情時」。",
       "sentenceIndex": 21,
@@ -927,12 +832,9 @@ export default {
         "When it comes to"
       ],
       "optionReasons": {
-        "when-mcq-11": "本句指「說到某個特定話題、範疇或事情時」。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-12": "「某件事何時、何地進行等具體細節」是「the whens and wheres = details of when and where something will happen」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。"
+        "when-mcq-11": "本句的「When it comes to」指「說到某個特定話題、範疇或事情時」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-11"
     },
@@ -944,11 +846,9 @@ export default {
       "masked": "She is very careful ____ money.",
       "options": [
         "when-mcq-11",
-        "when-mcq-10",
-        "when-mcq-12",
-        "when-mcq-09",
-        "when-mcq-08",
-        "when-mcq-07"
+        "when-mcq-07",
+        "when-mcq-03",
+        "when-mcq-10"
       ],
       "explanation": "本句的「when it comes to」指「說到某個特定話題、範疇或事情時」。",
       "sentenceIndex": 22,
@@ -957,12 +857,10 @@ export default {
         "when it comes to"
       ],
       "optionReasons": {
-        "when-mcq-11": "本句指「說到某個特定話題、範疇或事情時」。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-12": "「某件事何時、何地進行等具體細節」是「the whens and wheres = details of when and where something will happen」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。"
+        "when-mcq-11": "本句的「when it comes to」指「說到某個特定話題、範疇或事情時」。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-11"
     },
@@ -976,8 +874,6 @@ export default {
         "when-mcq-12",
         "when-mcq-11",
         "when-mcq-10",
-        "when-mcq-09",
-        "when-mcq-08",
         "when-mcq-07"
       ],
       "explanation": "本句的「whens and wheres」指「某件事何時、何地進行等具體細節」。",
@@ -987,12 +883,10 @@ export default {
         "whens and wheres"
       ],
       "optionReasons": {
-        "when-mcq-12": "本句指「某件事何時、何地進行等具體細節」。",
-        "when-mcq-11": "「說到某個特定話題、範疇或事情時」是「when it comes to + topic/activity（話題／事情）」的用法，與本句語境不同。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。"
+        "when-mcq-12": "本句的「whens and wheres」指「某件事何時、何地進行等具體細節」。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-12"
     },
@@ -1004,11 +898,9 @@ export default {
       "masked": "Let’s discuss the ____ tomorrow.",
       "options": [
         "when-mcq-12",
-        "when-mcq-11",
-        "when-mcq-10",
-        "when-mcq-09",
-        "when-mcq-08",
-        "when-mcq-07"
+        "when-mcq-04",
+        "when-mcq-07",
+        "when-mcq-11"
       ],
       "explanation": "本句的「whens and wheres」指「某件事何時、何地進行等具體細節」。",
       "sentenceIndex": 24,
@@ -1017,12 +909,10 @@ export default {
         "whens and wheres"
       ],
       "optionReasons": {
-        "when-mcq-12": "本句指「某件事何時、何地進行等具體細節」。",
-        "when-mcq-11": "「說到某個特定話題、範疇或事情時」是「when it comes to + topic/activity（話題／事情）」的用法，與本句語境不同。",
-        "when-mcq-10": "「帶驚訝或強調地追問「到底甚麼時候」」是「whenever?（對時間感到驚訝／追問）」的用法，與本句語境不同。",
-        "when-mcq-09": "「不限制具體時間；任何符合條件的時候都可以」是「whenever = at any time that（任何時候）」的用法，與本句語境不同。",
-        "when-mcq-08": "「每一次某個情況出現時，不限於某一次」是「whenever = every time that（反覆情況）」的用法，與本句語境不同。",
-        "when-mcq-07": "「提出一個已有的事實，表示在這種情況下，另一個行動似乎沒有必要」是「when = although/considering that（對比）」的用法，與本句語境不同。"
+        "when-mcq-12": "本句的「whens and wheres」指「某件事何時、何地進行等具體細節」。",
+        "when-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "when-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "when-mcq-12"
     }
@@ -1034,5 +924,7 @@ export default {
     "sha256": "05ad44c64857e3017054da5c71a9964745ca502c30f33c03c72a383534d68039",
     "pages": 14
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

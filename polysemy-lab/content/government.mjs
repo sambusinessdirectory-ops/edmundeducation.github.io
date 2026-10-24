@@ -290,11 +290,7 @@ export default {
       "masked": "He taught at a ____.",
       "options": [
         "government-mcq-01",
-        "government-mcq-02",
-        "government-mcq-03",
-        "government-mcq-04",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-07"
       ],
       "explanation": "本句的「government secondary school」指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
       "sentenceIndex": 0,
@@ -303,12 +299,8 @@ export default {
         "government secondary school"
       ],
       "optionReasons": {
-        "government-mcq-01": "本句指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-01": "本句的「government secondary school」指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-01"
     },
@@ -320,11 +312,7 @@ export default {
       "masked": "She works for a ____.",
       "options": [
         "government-mcq-01",
-        "government-mcq-02",
-        "government-mcq-03",
-        "government-mcq-04",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-07"
       ],
       "explanation": "本句的「government department」指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
       "sentenceIndex": 1,
@@ -333,12 +321,8 @@ export default {
         "government department"
       ],
       "optionReasons": {
-        "government-mcq-01": "本句指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-01": "本句的「government department」指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-01"
     },
@@ -350,11 +334,7 @@ export default {
       "masked": "The programme is funded by a ____.",
       "options": [
         "government-mcq-01",
-        "government-mcq-02",
-        "government-mcq-03",
-        "government-mcq-04",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-07"
       ],
       "explanation": "本句的「government agency」指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
       "sentenceIndex": 2,
@@ -363,12 +343,8 @@ export default {
         "government agency"
       ],
       "optionReasons": {
-        "government-mcq-01": "本句指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-01": "本句的「government agency」指「由政府／公共機構開辦、資助、管理或屬於官方體系的」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-01"
     },
@@ -380,11 +356,8 @@ export default {
       "masked": "The ____ announced a new education policy.",
       "options": [
         "government-mcq-02",
-        "government-mcq-01",
-        "government-mcq-03",
-        "government-mcq-04",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-07",
+        "government-mcq-13"
       ],
       "explanation": "本句的「government」指「正式掌握行政權並負責制定、執行公共政策的一組人／機構」。",
       "sentenceIndex": 3,
@@ -393,12 +366,9 @@ export default {
         "government"
       ],
       "optionReasons": {
-        "government-mcq-02": "本句指「正式掌握行政權並負責制定、執行公共政策的一組人／機構」。",
-        "government-mcq-01": "「由政府／公共機構開辦、資助、管理或屬於官方體系的」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-02": "本句的「government」指「正式掌握行政權並負責制定、執行公共政策的一組人／機構」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-02"
     },
@@ -410,11 +380,8 @@ export default {
       "masked": "The new ____ took office after the election.",
       "options": [
         "government-mcq-02",
-        "government-mcq-01",
-        "government-mcq-03",
-        "government-mcq-04",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-07",
+        "government-mcq-13"
       ],
       "explanation": "本句的「government」指「正式掌握行政權並負責制定、執行公共政策的一組人／機構」。",
       "sentenceIndex": 4,
@@ -423,12 +390,9 @@ export default {
         "government"
       ],
       "optionReasons": {
-        "government-mcq-02": "本句指「正式掌握行政權並負責制定、執行公共政策的一組人／機構」。",
-        "government-mcq-01": "「由政府／公共機構開辦、資助、管理或屬於官方體系的」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-02": "本句的「government」指「正式掌握行政權並負責制定、執行公共政策的一組人／機構」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-02"
     },
@@ -440,11 +404,7 @@ export default {
       "masked": "The country has a democratic form of ____.",
       "options": [
         "government-mcq-03",
-        "government-mcq-02",
-        "government-mcq-04",
-        "government-mcq-01",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-13"
       ],
       "explanation": "本句的「government」指「國家、城市或群體被統治和管理的制度／方式」。",
       "sentenceIndex": 5,
@@ -453,12 +413,8 @@ export default {
         "government"
       ],
       "optionReasons": {
-        "government-mcq-03": "本句指「國家、城市或群體被統治和管理的制度／方式」。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-01": "「由政府／公共機構開辦、資助、管理或屬於官方體系的」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-03": "本句的「government」指「國家、城市或群體被統治和管理的制度／方式」。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-03"
     },
@@ -470,11 +426,7 @@ export default {
       "masked": "Different societies have developed different systems of ____.",
       "options": [
         "government-mcq-03",
-        "government-mcq-02",
-        "government-mcq-04",
-        "government-mcq-01",
-        "government-mcq-05",
-        "government-mcq-06"
+        "government-mcq-13"
       ],
       "explanation": "本句的「government」指「國家、城市或群體被統治和管理的制度／方式」。",
       "sentenceIndex": 6,
@@ -483,12 +435,8 @@ export default {
         "government"
       ],
       "optionReasons": {
-        "government-mcq-03": "本句指「國家、城市或群體被統治和管理的制度／方式」。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-01": "「由政府／公共機構開辦、資助、管理或屬於官方體系的」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-03": "本句的「government」指「國家、城市或群體被統治和管理的制度／方式」。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-03"
     },
@@ -500,11 +448,8 @@ export default {
       "masked": "Effective ____ requires clear institutions.",
       "options": [
         "government-mcq-04",
-        "government-mcq-03",
-        "government-mcq-05",
-        "government-mcq-02",
-        "government-mcq-06",
-        "government-mcq-01"
+        "government-mcq-07",
+        "government-mcq-13"
       ],
       "explanation": "本句的「government」指「實際管理公共事務和行使執政權的活動／過程」。",
       "sentenceIndex": 7,
@@ -513,12 +458,9 @@ export default {
         "government"
       ],
       "optionReasons": {
-        "government-mcq-04": "本句指「實際管理公共事務和行使執政權的活動／過程」。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-01": "「由政府／公共機構開辦、資助、管理或屬於官方體系的」與本句語境不同。"
+        "government-mcq-04": "本句的「government」指「實際管理公共事務和行使執政權的活動／過程」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-04"
     },
@@ -530,11 +472,8 @@ export default {
       "masked": "The party had little experience of ____.",
       "options": [
         "government-mcq-04",
-        "government-mcq-03",
-        "government-mcq-05",
-        "government-mcq-02",
-        "government-mcq-06",
-        "government-mcq-01"
+        "government-mcq-07",
+        "government-mcq-13"
       ],
       "explanation": "本句的「government」指「實際管理公共事務和行使執政權的活動／過程」。",
       "sentenceIndex": 8,
@@ -543,12 +482,9 @@ export default {
         "government"
       ],
       "optionReasons": {
-        "government-mcq-04": "本句指「實際管理公共事務和行使執政權的活動／過程」。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-01": "「由政府／公共機構開辦、資助、管理或屬於官方體系的」與本句語境不同。"
+        "government-mcq-04": "本句的「government」指「實際管理公共事務和行使執政權的活動／過程」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-04"
     },
@@ -560,11 +496,7 @@ export default {
       "masked": "The project is funded by ____.",
       "options": [
         "government-mcq-05",
-        "government-mcq-04",
-        "government-mcq-06",
-        "government-mcq-03",
-        "government-mcq-07",
-        "government-mcq-02"
+        "government-mcq-07"
       ],
       "explanation": "本句的「local government」指「在不同政治層級行使公共行政權的政府」。",
       "sentenceIndex": 9,
@@ -573,12 +505,8 @@ export default {
         "local government"
       ],
       "optionReasons": {
-        "government-mcq-05": "本句指「在不同政治層級行使公共行政權的政府」。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。"
+        "government-mcq-05": "本句的「local government」指「在不同政治層級行使公共行政權的政府」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-05"
     },
@@ -590,11 +518,7 @@ export default {
       "masked": "The decision was made by the ____.",
       "options": [
         "government-mcq-05",
-        "government-mcq-04",
-        "government-mcq-06",
-        "government-mcq-03",
-        "government-mcq-07",
-        "government-mcq-02"
+        "government-mcq-07"
       ],
       "explanation": "本句的「central government」指「在不同政治層級行使公共行政權的政府」。",
       "sentenceIndex": 10,
@@ -603,12 +527,8 @@ export default {
         "central government"
       ],
       "optionReasons": {
-        "government-mcq-05": "本句指「在不同政治層級行使公共行政權的政府」。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-03": "「國家、城市或群體被統治和管理的制度／方式」與本句語境不同。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。",
-        "government-mcq-02": "「正式掌握行政權並負責制定、執行公共政策的一組人／機構」與本句語境不同。"
+        "government-mcq-05": "本句的「central government」指「在不同政治層級行使公共行政權的政府」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-05"
     },
@@ -620,11 +540,8 @@ export default {
       "masked": "Strict rules ____ how examinations are conducted.",
       "options": [
         "government-mcq-07",
-        "government-mcq-06",
-        "government-mcq-08",
-        "government-mcq-05",
-        "government-mcq-09",
-        "government-mcq-04"
+        "government-mcq-04",
+        "government-mcq-13"
       ],
       "explanation": "本句的「govern」指「由規則、原則或條件決定某事如何發生／運作」。",
       "sentenceIndex": 15,
@@ -633,12 +550,9 @@ export default {
         "govern"
       ],
       "optionReasons": {
-        "government-mcq-07": "本句指「由規則、原則或條件決定某事如何發生／運作」。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。"
+        "government-mcq-07": "本句的「govern」指「由規則、原則或條件決定某事如何發生／運作」。",
+        "government-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-07"
     },
@@ -650,11 +564,7 @@ export default {
       "masked": "Several principles ____ the use of the system.",
       "options": [
         "government-mcq-07",
-        "government-mcq-06",
-        "government-mcq-08",
-        "government-mcq-05",
-        "government-mcq-09",
-        "government-mcq-04"
+        "government-mcq-05"
       ],
       "explanation": "本句的「govern」指「由規則、原則或條件決定某事如何發生／運作」。",
       "sentenceIndex": 16,
@@ -663,12 +573,8 @@ export default {
         "govern"
       ],
       "optionReasons": {
-        "government-mcq-07": "本句指「由規則、原則或條件決定某事如何發生／運作」。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-04": "「實際管理公共事務和行使執政權的活動／過程」與本句語境不同。"
+        "government-mcq-07": "本句的「govern」指「由規則、原則或條件決定某事如何發生／運作」。",
+        "government-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-07"
     },
@@ -680,11 +586,7 @@ export default {
       "masked": "The ____ approved the new rules.",
       "options": [
         "government-mcq-08",
-        "government-mcq-07",
-        "government-mcq-09",
-        "government-mcq-06",
-        "government-mcq-10",
-        "government-mcq-05"
+        "government-mcq-13"
       ],
       "explanation": "本句的「governing body」指「負責管理、控制或制定規則的」。",
       "sentenceIndex": 17,
@@ -693,12 +595,8 @@ export default {
         "governing body"
       ],
       "optionReasons": {
-        "government-mcq-08": "本句指「負責管理、控制或制定規則的」。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。"
+        "government-mcq-08": "本句的「governing body」指「負責管理、控制或制定規則的」。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-08"
     },
@@ -710,10 +608,6 @@ export default {
       "masked": "The ____ introduced the proposal.",
       "options": [
         "government-mcq-08",
-        "government-mcq-07",
-        "government-mcq-09",
-        "government-mcq-06",
-        "government-mcq-10",
         "government-mcq-05"
       ],
       "explanation": "本句的「governing party」指「負責管理、控制或制定規則的」。",
@@ -723,12 +617,8 @@ export default {
         "governing party"
       ],
       "optionReasons": {
-        "government-mcq-08": "本句指「負責管理、控制或制定規則的」。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-05": "「在不同政治層級行使公共行政權的政府」與本句語境不同。"
+        "government-mcq-08": "本句的「governing party」指「負責管理、控制或制定規則的」。",
+        "government-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-08"
     },
@@ -740,11 +630,7 @@ export default {
       "masked": "Good ____ requires transparency.",
       "options": [
         "government-mcq-09",
-        "government-mcq-08",
-        "government-mcq-10",
-        "government-mcq-07",
-        "government-mcq-11",
-        "government-mcq-06"
+        "government-mcq-13"
       ],
       "explanation": "本句的「governance」指「一個國家／機構如何被管理，以及相關制度和決策架構」。",
       "sentenceIndex": 19,
@@ -753,12 +639,8 @@ export default {
         "governance"
       ],
       "optionReasons": {
-        "government-mcq-09": "本句指「一個國家／機構如何被管理，以及相關制度和決策架構」。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-09": "本句的「governance」指「一個國家／機構如何被管理，以及相關制度和決策架構」。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-09"
     },
@@ -770,11 +652,7 @@ export default {
       "masked": "The company strengthened its corporate ____.",
       "options": [
         "government-mcq-09",
-        "government-mcq-08",
-        "government-mcq-10",
-        "government-mcq-07",
-        "government-mcq-11",
-        "government-mcq-06"
+        "government-mcq-05"
       ],
       "explanation": "本句的「governance」指「一個國家／機構如何被管理，以及相關制度和決策架構」。",
       "sentenceIndex": 20,
@@ -783,12 +661,8 @@ export default {
         "governance"
       ],
       "optionReasons": {
-        "government-mcq-09": "本句指「一個國家／機構如何被管理，以及相關制度和決策架構」。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-06": "「正式掌管國家／地區並作出公共決策」與本句語境不同。"
+        "government-mcq-09": "本句的「governance」指「一個國家／機構如何被管理，以及相關制度和決策架構」。",
+        "government-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-09"
     },
@@ -800,11 +674,7 @@ export default {
       "masked": "Investors pay close attention to ____.",
       "options": [
         "government-mcq-10",
-        "government-mcq-09",
-        "government-mcq-11",
-        "government-mcq-08",
-        "government-mcq-12",
-        "government-mcq-07"
+        "government-mcq-13"
       ],
       "explanation": "本句的「corporate governance」指「公司高層監督、決策、問責和控制的制度架構」。",
       "sentenceIndex": 21,
@@ -813,12 +683,8 @@ export default {
         "corporate governance"
       ],
       "optionReasons": {
-        "government-mcq-10": "本句指「公司高層監督、決策、問責和控制的制度架構」。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。",
-        "government-mcq-12": "「負責管理某個地區或機構的人；具體職銜依制度而異」與本句語境不同。",
-        "government-mcq-07": "「由規則、原則或條件決定某事如何發生／運作」與本句語境不同。"
+        "government-mcq-10": "本句的「corporate governance」指「公司高層監督、決策、問責和控制的制度架構」。",
+        "government-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-10"
     },
@@ -830,11 +696,7 @@ export default {
       "masked": "The project requires ____.",
       "options": [
         "government-mcq-11",
-        "government-mcq-10",
-        "government-mcq-12",
-        "government-mcq-09",
-        "government-mcq-13",
-        "government-mcq-08"
+        "government-mcq-07"
       ],
       "explanation": "本句的「governmental approval」指「與政府、公共行政或政府機構有關的」。",
       "sentenceIndex": 22,
@@ -843,12 +705,8 @@ export default {
         "governmental approval"
       ],
       "optionReasons": {
-        "government-mcq-11": "本句指「與政府、公共行政或政府機構有關的」。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-12": "「負責管理某個地區或機構的人；具體職銜依制度而異」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-13": "「政府向投資者借款所發行的債務工具／公債」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。"
+        "government-mcq-11": "本句的「governmental approval」指「與政府、公共行政或政府機構有關的」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-11"
     },
@@ -860,11 +718,7 @@ export default {
       "masked": "Several ____ were involved.",
       "options": [
         "government-mcq-11",
-        "government-mcq-10",
-        "government-mcq-12",
-        "government-mcq-09",
-        "government-mcq-13",
-        "government-mcq-08"
+        "government-mcq-07"
       ],
       "explanation": "本句的「governmental institutions」指「與政府、公共行政或政府機構有關的」。",
       "sentenceIndex": 23,
@@ -873,12 +727,8 @@ export default {
         "governmental institutions"
       ],
       "optionReasons": {
-        "government-mcq-11": "本句指「與政府、公共行政或政府機構有關的」。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-12": "「負責管理某個地區或機構的人；具體職銜依制度而異」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-13": "「政府向投資者借款所發行的債務工具／公債」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。"
+        "government-mcq-11": "本句的「governmental institutions」指「與政府、公共行政或政府機構有關的」。",
+        "government-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-11"
     },
@@ -890,11 +740,7 @@ export default {
       "masked": "The state ____ signed the bill.",
       "options": [
         "government-mcq-12",
-        "government-mcq-11",
-        "government-mcq-13",
-        "government-mcq-10",
-        "government-mcq-09",
-        "government-mcq-08"
+        "government-mcq-05"
       ],
       "explanation": "本句的「governor」指「負責管理某個地區或機構的人；具體職銜依制度而異」。",
       "sentenceIndex": 24,
@@ -903,12 +749,8 @@ export default {
         "governor"
       ],
       "optionReasons": {
-        "government-mcq-12": "本句指「負責管理某個地區或機構的人；具體職銜依制度而異」。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-13": "「政府向投資者借款所發行的債務工具／公債」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。"
+        "government-mcq-12": "本句的「governor」指「負責管理某個地區或機構的人；具體職銜依制度而異」。",
+        "government-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-12"
     },
@@ -920,11 +762,7 @@ export default {
       "masked": "The school’s board of ____ reviewed the policy.",
       "options": [
         "government-mcq-12",
-        "government-mcq-11",
-        "government-mcq-13",
-        "government-mcq-10",
-        "government-mcq-09",
-        "government-mcq-08"
+        "government-mcq-05"
       ],
       "explanation": "本句的「governors」指「負責管理某個地區或機構的人；具體職銜依制度而異」。",
       "sentenceIndex": 25,
@@ -933,12 +771,8 @@ export default {
         "governors"
       ],
       "optionReasons": {
-        "government-mcq-12": "本句指「負責管理某個地區或機構的人；具體職銜依制度而異」。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-13": "「政府向投資者借款所發行的債務工具／公債」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。"
+        "government-mcq-12": "本句的「governors」指「負責管理某個地區或機構的人；具體職銜依制度而異」。",
+        "government-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-12"
     },
@@ -950,11 +784,7 @@ export default {
       "masked": "The fund invests mainly in ____.",
       "options": [
         "government-mcq-13",
-        "government-mcq-12",
-        "government-mcq-11",
-        "government-mcq-10",
-        "government-mcq-09",
-        "government-mcq-08"
+        "government-mcq-03"
       ],
       "explanation": "本句的「government bonds」指「政府向投資者借款所發行的債務工具／公債」。",
       "sentenceIndex": 26,
@@ -963,12 +793,8 @@ export default {
         "government bonds"
       ],
       "optionReasons": {
-        "government-mcq-13": "本句指「政府向投資者借款所發行的債務工具／公債」。",
-        "government-mcq-12": "「負責管理某個地區或機構的人；具體職銜依制度而異」與本句語境不同。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。"
+        "government-mcq-13": "本句的「government bonds」指「政府向投資者借款所發行的債務工具／公債」。",
+        "government-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-13"
     },
@@ -980,11 +806,7 @@ export default {
       "masked": "____ bond yields rose this week.",
       "options": [
         "government-mcq-13",
-        "government-mcq-12",
-        "government-mcq-11",
-        "government-mcq-10",
-        "government-mcq-09",
-        "government-mcq-08"
+        "government-mcq-03"
       ],
       "explanation": "本句的「Government」指「政府向投資者借款所發行的債務工具／公債」。",
       "sentenceIndex": 27,
@@ -993,12 +815,8 @@ export default {
         "Government"
       ],
       "optionReasons": {
-        "government-mcq-13": "本句指「政府向投資者借款所發行的債務工具／公債」。",
-        "government-mcq-12": "「負責管理某個地區或機構的人；具體職銜依制度而異」與本句語境不同。",
-        "government-mcq-11": "「與政府、公共行政或政府機構有關的」與本句語境不同。",
-        "government-mcq-10": "「公司高層監督、決策、問責和控制的制度架構」與本句語境不同。",
-        "government-mcq-09": "「一個國家／機構如何被管理，以及相關制度和決策架構」與本句語境不同。",
-        "government-mcq-08": "「負責管理、控制或制定規則的」與本句語境不同。"
+        "government-mcq-13": "本句的「Government」指「政府向投資者借款所發行的債務工具／公債」。",
+        "government-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "government-mcq-13"
     }
@@ -1010,5 +828,7 @@ export default {
     "sha256": "08bcd7206c9407411ad4149c42860798eb47079adfd48bac0e342a837c9e8fb9",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

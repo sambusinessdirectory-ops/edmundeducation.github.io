@@ -636,11 +636,8 @@ export default {
       "masked": "Each member should have a measurable ____.",
       "options": [
         "output-mcq-01",
-        "output-mcq-02",
-        "output-mcq-03",
-        "output-mcq-04",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-24",
+        "output-mcq-19"
       ],
       "explanation": "本句的「output」指「工作產出；成果」。",
       "sentenceIndex": 0,
@@ -649,12 +646,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-01": "本句指「工作產出；成果」。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-01": "本句的「output」指「工作產出；成果」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-01"
     },
@@ -666,11 +660,8 @@ export default {
       "masked": "Managers should evaluate both effort and ____.",
       "options": [
         "output-mcq-01",
-        "output-mcq-02",
-        "output-mcq-03",
-        "output-mcq-04",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-24",
+        "output-mcq-20"
       ],
       "explanation": "本句的「output」指「工作產出；成果」。",
       "sentenceIndex": 1,
@@ -679,12 +670,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-01": "本句指「工作產出；成果」。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-01": "本句的「output」指「工作產出；成果」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-01"
     },
@@ -696,11 +684,8 @@ export default {
       "masked": "His ____ was much lower than the rest of the team's.",
       "options": [
         "output-mcq-01",
-        "output-mcq-02",
-        "output-mcq-03",
-        "output-mcq-04",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-24",
+        "output-mcq-14"
       ],
       "explanation": "本句的「output」指「工作產出；成果」。",
       "sentenceIndex": 2,
@@ -709,12 +694,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-01": "本句指「工作產出；成果」。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-01": "本句的「output」指「工作產出；成果」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-01"
     },
@@ -726,11 +708,8 @@ export default {
       "masked": "Every role should lead to a ____.",
       "options": [
         "output-mcq-02",
-        "output-mcq-01",
-        "output-mcq-03",
-        "output-mcq-04",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-13",
+        "output-mcq-22"
       ],
       "explanation": "本句的「measurable output」指「可量度產出」。",
       "sentenceIndex": 3,
@@ -739,12 +718,9 @@ export default {
         "measurable output"
       ],
       "optionReasons": {
-        "output-mcq-02": "本句指「可量度產出」。",
-        "output-mcq-01": "「工作產出；成果」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-02": "本句的「measurable output」指「可量度產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-02"
     },
@@ -756,11 +732,8 @@ export default {
       "masked": "A written report is easier to assess as a ____.",
       "options": [
         "output-mcq-02",
-        "output-mcq-01",
-        "output-mcq-03",
-        "output-mcq-04",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-13",
+        "output-mcq-19"
       ],
       "explanation": "本句的「measurable output」指「可量度產出」。",
       "sentenceIndex": 4,
@@ -769,12 +742,9 @@ export default {
         "measurable output"
       ],
       "optionReasons": {
-        "output-mcq-02": "本句指「可量度產出」。",
-        "output-mcq-01": "「工作產出；成果」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-02": "本句的「measurable output」指「可量度產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-02"
     },
@@ -786,11 +756,8 @@ export default {
       "masked": "Better organisation increased my ____.",
       "options": [
         "output-mcq-03",
-        "output-mcq-02",
-        "output-mcq-04",
-        "output-mcq-01",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-13",
+        "output-mcq-24"
       ],
       "explanation": "本句的「work output」指「工作產出」。",
       "sentenceIndex": 5,
@@ -799,12 +766,9 @@ export default {
         "work output"
       ],
       "optionReasons": {
-        "output-mcq-03": "本句指「工作產出」。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-01": "「工作產出；成果」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-03": "本句的「work output」指「工作產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-03"
     },
@@ -816,11 +780,8 @@ export default {
       "masked": "Stress can reduce ____.",
       "options": [
         "output-mcq-03",
-        "output-mcq-02",
-        "output-mcq-04",
-        "output-mcq-01",
-        "output-mcq-05",
-        "output-mcq-06"
+        "output-mcq-24",
+        "output-mcq-13"
       ],
       "explanation": "本句的「work output」指「工作產出」。",
       "sentenceIndex": 6,
@@ -829,12 +790,9 @@ export default {
         "work output"
       ],
       "optionReasons": {
-        "output-mcq-03": "本句指「工作產出」。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-01": "「工作產出；成果」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-03": "本句的「work output」指「工作產出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-03"
     },
@@ -846,11 +804,9 @@ export default {
       "masked": "The company measures ____ carefully.",
       "options": [
         "output-mcq-04",
-        "output-mcq-03",
-        "output-mcq-05",
-        "output-mcq-02",
-        "output-mcq-06",
-        "output-mcq-01"
+        "output-mcq-13",
+        "output-mcq-24",
+        "output-mcq-15"
       ],
       "explanation": "本句的「employee output」指「員工產出」。",
       "sentenceIndex": 7,
@@ -859,12 +815,10 @@ export default {
         "employee output"
       ],
       "optionReasons": {
-        "output-mcq-04": "本句指「員工產出」。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。",
-        "output-mcq-01": "「工作產出；成果」與本句語境不同。"
+        "output-mcq-04": "本句的「employee output」指「員工產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-04"
     },
@@ -876,11 +830,9 @@ export default {
       "masked": "Higher employee ____ does not always mean better quality.",
       "options": [
         "output-mcq-04",
-        "output-mcq-03",
-        "output-mcq-05",
-        "output-mcq-02",
-        "output-mcq-06",
-        "output-mcq-01"
+        "output-mcq-24",
+        "output-mcq-13",
+        "output-mcq-14"
       ],
       "explanation": "本句的「output」指「員工產出」。",
       "sentenceIndex": 8,
@@ -889,12 +841,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-04": "本句指「員工產出」。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。",
-        "output-mcq-01": "「工作產出；成果」與本句語境不同。"
+        "output-mcq-04": "本句的「output」指「員工產出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-04"
     },
@@ -906,11 +856,8 @@ export default {
       "masked": "Too many meetings can reduce ____.",
       "options": [
         "output-mcq-05",
-        "output-mcq-04",
-        "output-mcq-06",
-        "output-mcq-03",
-        "output-mcq-07",
-        "output-mcq-02"
+        "output-mcq-13",
+        "output-mcq-24"
       ],
       "explanation": "本句的「productive output」指「有用產出」。",
       "sentenceIndex": 9,
@@ -919,12 +866,9 @@ export default {
         "productive output"
       ],
       "optionReasons": {
-        "output-mcq-05": "本句指「有用產出」。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-07": "「工業產出」與本句語境不同。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。"
+        "output-mcq-05": "本句的「productive output」指「有用產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-05"
     },
@@ -936,11 +880,8 @@ export default {
       "masked": "The team spent more time talking than producing useful ____.",
       "options": [
         "output-mcq-05",
-        "output-mcq-04",
-        "output-mcq-06",
-        "output-mcq-03",
-        "output-mcq-07",
-        "output-mcq-02"
+        "output-mcq-24",
+        "output-mcq-13"
       ],
       "explanation": "本句的「output」指「有用產出」。",
       "sentenceIndex": 10,
@@ -949,12 +890,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-05": "本句指「有用產出」。",
-        "output-mcq-04": "「員工產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。",
-        "output-mcq-03": "「工作產出」與本句語境不同。",
-        "output-mcq-07": "「工業產出」與本句語境不同。",
-        "output-mcq-02": "「可量度產出」與本句語境不同。"
+        "output-mcq-05": "本句的「output」指「有用產出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-05"
     },
@@ -966,11 +904,9 @@ export default {
       "masked": "Manufacturing ____ rose last month.",
       "options": [
         "output-mcq-08",
-        "output-mcq-07",
-        "output-mcq-09",
-        "output-mcq-06",
-        "output-mcq-10",
-        "output-mcq-05"
+        "output-mcq-19",
+        "output-mcq-13",
+        "output-mcq-04"
       ],
       "explanation": "本句的「output」指「製造業產量」。",
       "sentenceIndex": 13,
@@ -979,12 +915,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-08": "本句指「製造業產量」。",
-        "output-mcq-07": "「工業產出」與本句語境不同。",
-        "output-mcq-09": "「農業產量」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。"
+        "output-mcq-08": "本句的「output」指「製造業產量」。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-08"
     },
@@ -996,11 +930,9 @@ export default {
       "masked": "The report showed a decline in industrial ____.",
       "options": [
         "output-mcq-08",
-        "output-mcq-07",
-        "output-mcq-09",
-        "output-mcq-06",
-        "output-mcq-10",
-        "output-mcq-05"
+        "output-mcq-18",
+        "output-mcq-13",
+        "output-mcq-25"
       ],
       "explanation": "本句的「output」指「製造業產量」。",
       "sentenceIndex": 14,
@@ -1009,12 +941,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-08": "本句指「製造業產量」。",
-        "output-mcq-07": "「工業產出」與本句語境不同。",
-        "output-mcq-09": "「農業產量」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-05": "「有用產出」與本句語境不同。"
+        "output-mcq-08": "本句的「output」指「製造業產量」。",
+        "output-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-08"
     },
@@ -1026,11 +956,9 @@ export default {
       "masked": "Better irrigation increased agricultural ____.",
       "options": [
         "output-mcq-09",
-        "output-mcq-08",
-        "output-mcq-10",
-        "output-mcq-07",
-        "output-mcq-11",
-        "output-mcq-06"
+        "output-mcq-21",
+        "output-mcq-13",
+        "output-pdf-002"
       ],
       "explanation": "本句的「output」指「農業產量」。",
       "sentenceIndex": 15,
@@ -1039,12 +967,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-09": "本句指「農業產量」。",
-        "output-mcq-08": "「製造業產量」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-07": "「工業產出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-09": "本句的「output」指「農業產量」。",
+        "output-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-09"
     },
@@ -1056,11 +982,8 @@ export default {
       "masked": "Poor weather reduced the country's food ____.",
       "options": [
         "output-mcq-09",
-        "output-mcq-08",
-        "output-mcq-10",
-        "output-mcq-07",
-        "output-mcq-11",
-        "output-mcq-06"
+        "output-mcq-16",
+        "output-mcq-13"
       ],
       "explanation": "本句的「output」指「農業產量」。",
       "sentenceIndex": 16,
@@ -1069,12 +992,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-09": "本句指「農業產量」。",
-        "output-mcq-08": "「製造業產量」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-07": "「工業產出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-06": "「產量」與本句語境不同。"
+        "output-mcq-09": "本句的「output」指「農業產量」。",
+        "output-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-09"
     },
@@ -1086,11 +1006,9 @@ export default {
       "masked": "The recession reduced economic ____.",
       "options": [
         "output-mcq-10",
-        "output-mcq-09",
-        "output-mcq-11",
-        "output-mcq-08",
-        "output-mcq-12",
-        "output-mcq-07"
+        "output-mcq-13",
+        "output-mcq-24",
+        "output-mcq-19"
       ],
       "explanation": "本句的「output」指「經濟產出」。",
       "sentenceIndex": 17,
@@ -1099,12 +1017,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-10": "本句指「經濟產出」。",
-        "output-mcq-09": "「農業產量」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-08": "「製造業產量」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-07": "「工業產出」與本句語境不同。"
+        "output-mcq-10": "本句的「output」指「經濟產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-10"
     },
@@ -1116,11 +1032,9 @@ export default {
       "masked": "Economic ____ grew faster than expected.",
       "options": [
         "output-mcq-10",
-        "output-mcq-09",
-        "output-mcq-11",
-        "output-mcq-08",
-        "output-mcq-12",
-        "output-mcq-07"
+        "output-mcq-13",
+        "output-mcq-24",
+        "output-mcq-15"
       ],
       "explanation": "本句的「output」指「經濟產出」。",
       "sentenceIndex": 18,
@@ -1129,12 +1043,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-10": "本句指「經濟產出」。",
-        "output-mcq-09": "「農業產量」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-08": "「製造業產量」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-07": "「工業產出」與本句語境不同。"
+        "output-mcq-10": "本句的「output」指「經濟產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-10"
     },
@@ -1146,11 +1058,8 @@ export default {
       "masked": "Total ____ increased despite fewer workers.",
       "options": [
         "output-mcq-11",
-        "output-mcq-10",
-        "output-mcq-12",
-        "output-mcq-09",
         "output-mcq-13",
-        "output-mcq-08"
+        "output-mcq-24"
       ],
       "explanation": "本句的「output」指「總產出」。",
       "sentenceIndex": 19,
@@ -1159,12 +1068,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-11": "本句指「總產出」。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-09": "「農業產量」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-08": "「製造業產量」與本句語境不同。"
+        "output-mcq-11": "本句的「output」指「總產出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-11"
     },
@@ -1176,11 +1082,8 @@ export default {
       "masked": "The factory doubled its total ____.",
       "options": [
         "output-mcq-11",
-        "output-mcq-10",
-        "output-mcq-12",
-        "output-mcq-09",
-        "output-mcq-13",
-        "output-mcq-08"
+        "output-mcq-24",
+        "output-mcq-13"
       ],
       "explanation": "本句的「output」指「總產出」。",
       "sentenceIndex": 20,
@@ -1189,12 +1092,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-11": "本句指「總產出」。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-09": "「農業產量」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-08": "「製造業產量」與本句語境不同。"
+        "output-mcq-11": "本句的「output」指「總產出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-11"
     },
@@ -1206,11 +1106,8 @@ export default {
       "masked": "The artist's ____ increased during this period.",
       "options": [
         "output-mcq-12",
-        "output-mcq-11",
-        "output-mcq-13",
-        "output-mcq-10",
-        "output-mcq-14",
-        "output-mcq-09"
+        "output-mcq-24",
+        "output-mcq-13"
       ],
       "explanation": "本句的「creative output」指「創作產出」。",
       "sentenceIndex": 23,
@@ -1219,12 +1116,9 @@ export default {
         "creative output"
       ],
       "optionReasons": {
-        "output-mcq-12": "本句指「創作產出」。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-09": "「農業產量」與本句語境不同。"
+        "output-mcq-12": "本句的「creative output」指「創作產出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-12"
     },
@@ -1236,11 +1130,8 @@ export default {
       "masked": "Stress affected his creative ____.",
       "options": [
         "output-mcq-12",
-        "output-mcq-11",
-        "output-mcq-13",
-        "output-mcq-10",
-        "output-mcq-14",
-        "output-mcq-09"
+        "output-mcq-24",
+        "output-mcq-13"
       ],
       "explanation": "本句的「output」指「創作產出」。",
       "sentenceIndex": 24,
@@ -1249,12 +1140,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-12": "本句指「創作產出」。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-09": "「農業產量」與本句語境不同。"
+        "output-mcq-12": "本句的「output」指「創作產出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-12"
     },
@@ -1266,11 +1154,9 @@ export default {
       "masked": "The university wants to increase its ____.",
       "options": [
         "output-mcq-13",
-        "output-mcq-12",
-        "output-mcq-14",
-        "output-mcq-11",
-        "output-mcq-15",
-        "output-mcq-10"
+        "output-mcq-23",
+        "output-mcq-25",
+        "output-mcq-08"
       ],
       "explanation": "本句的「research output」指「研究成果」。",
       "sentenceIndex": 25,
@@ -1279,12 +1165,10 @@ export default {
         "research output"
       ],
       "optionReasons": {
-        "output-mcq-13": "本句指「研究成果」。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。"
+        "output-mcq-13": "本句的「research output」指「研究成果」。",
+        "output-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-13"
     },
@@ -1296,11 +1180,9 @@ export default {
       "masked": "Publications are one measure of academic ____.",
       "options": [
         "output-mcq-13",
-        "output-mcq-12",
-        "output-mcq-14",
-        "output-mcq-11",
-        "output-mcq-15",
-        "output-mcq-10"
+        "output-mcq-17",
+        "output-mcq-25",
+        "output-mcq-08"
       ],
       "explanation": "本句的「output」指「研究成果」。",
       "sentenceIndex": 26,
@@ -1309,12 +1191,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-13": "本句指「研究成果」。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-10": "「經濟產出」與本句語境不同。"
+        "output-mcq-13": "本句的「output」指「研究成果」。",
+        "output-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-13"
     },
@@ -1326,11 +1206,9 @@ export default {
       "masked": "The teacher assessed students' written ____.",
       "options": [
         "output-pdf-001",
-        "output-mcq-13",
-        "output-mcq-15",
-        "output-mcq-12",
-        "output-mcq-16",
-        "output-mcq-11"
+        "output-mcq-24",
+        "output-mcq-17",
+        "output-mcq-25"
       ],
       "explanation": "本句的「output」指「學習者實際產生的語言、作品或可觀察成果」。",
       "sentenceIndex": 27,
@@ -1339,12 +1217,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-pdf-001": "本句指「學習者實際產生的語言、作品或可觀察成果」。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。"
+        "output-pdf-001": "本句的「output」指「學習者實際產生的語言、作品或可觀察成果」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-pdf-001"
     },
@@ -1356,11 +1232,9 @@ export default {
       "masked": "Speaking activities encourage language ____.",
       "options": [
         "output-pdf-001",
-        "output-mcq-13",
-        "output-mcq-15",
-        "output-mcq-12",
-        "output-mcq-16",
-        "output-mcq-11"
+        "output-mcq-19",
+        "output-mcq-24",
+        "output-mcq-04"
       ],
       "explanation": "本句的「output」指「學習者實際產生的語言、作品或可觀察成果」。",
       "sentenceIndex": 28,
@@ -1369,12 +1243,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-pdf-001": "本句指「學習者實際產生的語言、作品或可觀察成果」。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。"
+        "output-pdf-001": "本句的「output」指「學習者實際產生的語言、作品或可觀察成果」。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-pdf-001"
     },
@@ -1386,11 +1258,9 @@ export default {
       "masked": "Learners need opportunities to produce spoken ____.",
       "options": [
         "output-mcq-14",
+        "output-mcq-09",
         "output-mcq-13",
-        "output-mcq-15",
-        "output-mcq-12",
-        "output-mcq-16",
-        "output-mcq-11"
+        "output-mcq-04"
       ],
       "explanation": "本句的「output」指「語言輸出」。",
       "sentenceIndex": 29,
@@ -1399,12 +1269,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-14": "本句指「語言輸出」。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。"
+        "output-mcq-14": "本句的「output」指「語言輸出」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-14"
     },
@@ -1416,11 +1284,9 @@ export default {
       "masked": "Writing is a form of language ____.",
       "options": [
         "output-mcq-14",
+        "output-pdf-003",
         "output-mcq-13",
-        "output-mcq-15",
-        "output-mcq-12",
-        "output-mcq-16",
-        "output-mcq-11"
+        "output-mcq-25"
       ],
       "explanation": "本句的「output」指「語言輸出」。",
       "sentenceIndex": 30,
@@ -1429,12 +1295,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-14": "本句指「語言輸出」。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-11": "「總產出」與本句語境不同。"
+        "output-mcq-14": "本句的「output」指「語言輸出」。",
+        "output-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-14"
     },
@@ -1446,11 +1310,9 @@ export default {
       "masked": "The program produces an ____.",
       "options": [
         "output-mcq-15",
-        "output-mcq-14",
-        "output-mcq-16",
-        "output-mcq-13",
-        "output-mcq-17",
-        "output-mcq-12"
+        "output-mcq-09",
+        "output-mcq-04",
+        "output-mcq-13"
       ],
       "explanation": "本句的「output」指「輸出；輸出結果」。",
       "sentenceIndex": 31,
@@ -1459,12 +1321,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-15": "本句指「輸出；輸出結果」。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。"
+        "output-mcq-15": "本句的「output」指「輸出；輸出結果」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-15"
     },
@@ -1476,11 +1336,9 @@ export default {
       "masked": "Check the ____ before running the next step.",
       "options": [
         "output-mcq-15",
-        "output-mcq-14",
-        "output-mcq-16",
-        "output-mcq-13",
-        "output-mcq-17",
-        "output-mcq-12"
+        "output-mcq-24",
+        "output-pdf-001",
+        "output-mcq-25"
       ],
       "explanation": "本句的「output」指「輸出；輸出結果」。",
       "sentenceIndex": 32,
@@ -1489,12 +1347,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-15": "本句指「輸出；輸出結果」。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-12": "「創作產出」與本句語境不同。"
+        "output-mcq-15": "本句的「output」指「輸出；輸出結果」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-15"
     },
@@ -1506,10 +1362,7 @@ export default {
       "masked": "The system processes ____.",
       "options": [
         "output-mcq-16",
-        "output-mcq-15",
-        "output-mcq-17",
-        "output-mcq-14",
-        "output-mcq-18",
+        "output-mcq-09",
         "output-mcq-13"
       ],
       "explanation": "本句的「input and produces output」指「輸入與輸出」。",
@@ -1519,12 +1372,9 @@ export default {
         "input and produces output"
       ],
       "optionReasons": {
-        "output-mcq-16": "本句指「輸入與輸出」。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。"
+        "output-mcq-16": "本句的「input and produces output」指「輸入與輸出」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-16"
     },
@@ -1536,10 +1386,7 @@ export default {
       "masked": "The device has several input and ____ connections.",
       "options": [
         "output-mcq-16",
-        "output-mcq-15",
-        "output-mcq-17",
-        "output-mcq-14",
-        "output-mcq-18",
+        "output-mcq-09",
         "output-mcq-13"
       ],
       "explanation": "本句的「output」指「輸入與輸出」。",
@@ -1549,12 +1396,9 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-16": "本句指「輸入與輸出」。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-13": "「研究成果」與本句語境不同。"
+        "output-mcq-16": "本句的「output」指「輸入與輸出」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-16"
     },
@@ -1566,11 +1410,9 @@ export default {
       "masked": "The software generates a large amount of ____.",
       "options": [
         "output-mcq-17",
-        "output-mcq-16",
-        "output-mcq-18",
-        "output-mcq-15",
-        "output-mcq-19",
-        "output-mcq-14"
+        "output-mcq-09",
+        "output-pdf-001",
+        "output-mcq-10"
       ],
       "explanation": "本句的「data output」指「資料輸出」。",
       "sentenceIndex": 35,
@@ -1579,12 +1421,10 @@ export default {
         "data output"
       ],
       "optionReasons": {
-        "output-mcq-17": "本句指「資料輸出」。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。"
+        "output-mcq-17": "本句的「data output」指「資料輸出」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-17"
     },
@@ -1596,11 +1436,9 @@ export default {
       "masked": "The final ____ are stored automatically.",
       "options": [
         "output-mcq-17",
-        "output-mcq-16",
-        "output-mcq-18",
-        "output-mcq-15",
-        "output-mcq-19",
-        "output-mcq-14"
+        "output-mcq-24",
+        "output-pdf-001",
+        "output-mcq-10"
       ],
       "explanation": "本句的「output data」指「資料輸出」。",
       "sentenceIndex": 36,
@@ -1609,12 +1447,10 @@ export default {
         "output data"
       ],
       "optionReasons": {
-        "output-mcq-17": "本句指「資料輸出」。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-14": "「語言輸出」與本句語境不同。"
+        "output-mcq-17": "本句的「output data」指「資料輸出」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-17"
     },
@@ -1626,11 +1462,9 @@ export default {
       "masked": "A monitor is an ____.",
       "options": [
         "output-mcq-18",
-        "output-mcq-17",
-        "output-mcq-19",
-        "output-mcq-16",
-        "output-mcq-20",
-        "output-mcq-15"
+        "output-mcq-08",
+        "output-mcq-13",
+        "output-mcq-25"
       ],
       "explanation": "本句的「output device」指「輸出裝置」。",
       "sentenceIndex": 37,
@@ -1639,12 +1473,10 @@ export default {
         "output device"
       ],
       "optionReasons": {
-        "output-mcq-18": "本句指「輸出裝置」。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。"
+        "output-mcq-18": "本句的「output device」指「輸出裝置」。",
+        "output-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-18"
     },
@@ -1656,11 +1488,9 @@ export default {
       "masked": "Speakers are audio ____.",
       "options": [
         "output-mcq-18",
-        "output-mcq-17",
-        "output-mcq-19",
-        "output-mcq-16",
-        "output-mcq-20",
-        "output-mcq-15"
+        "output-mcq-24",
+        "output-pdf-001",
+        "output-mcq-04"
       ],
       "explanation": "本句的「output devices」指「輸出裝置」。",
       "sentenceIndex": 38,
@@ -1669,12 +1499,10 @@ export default {
         "output devices"
       ],
       "optionReasons": {
-        "output-mcq-18": "本句指「輸出裝置」。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。"
+        "output-mcq-18": "本句的「output devices」指「輸出裝置」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-18"
     },
@@ -1686,11 +1514,9 @@ export default {
       "masked": "The program ____.",
       "options": [
         "output-pdf-002",
-        "output-mcq-17",
-        "output-mcq-19",
-        "output-mcq-16",
-        "output-mcq-20",
-        "output-mcq-15"
+        "output-mcq-24",
+        "output-mcq-13",
+        "output-mcq-14"
       ],
       "explanation": "本句的「outputs the results to a file」指「系統產生並送出 X」。",
       "sentenceIndex": 39,
@@ -1699,12 +1525,10 @@ export default {
         "outputs the results to a file"
       ],
       "optionReasons": {
-        "output-pdf-002": "本句指「系統產生並送出 X」。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。"
+        "output-pdf-002": "本句的「outputs the results to a file」指「系統產生並送出 X」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-pdf-002"
     },
@@ -1716,11 +1540,9 @@ export default {
       "masked": "The system ____.",
       "options": [
         "output-pdf-002",
-        "output-mcq-17",
-        "output-mcq-19",
-        "output-mcq-16",
-        "output-mcq-20",
-        "output-mcq-15"
+        "output-mcq-24",
+        "output-mcq-13",
+        "output-mcq-20"
       ],
       "explanation": "本句的「outputs an error message」指「系統產生並送出 X」。",
       "sentenceIndex": 40,
@@ -1729,12 +1551,10 @@ export default {
         "outputs an error message"
       ],
       "optionReasons": {
-        "output-pdf-002": "本句指「系統產生並送出 X」。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-15": "「輸出；輸出結果」與本句語境不同。"
+        "output-pdf-002": "本句的「outputs an error message」指「系統產生並送出 X」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-pdf-002"
     },
@@ -1746,11 +1566,9 @@ export default {
       "masked": "The sensor sends an ____.",
       "options": [
         "output-mcq-19",
-        "output-mcq-18",
-        "output-mcq-20",
-        "output-mcq-17",
-        "output-mcq-21",
-        "output-mcq-16"
+        "output-mcq-09",
+        "output-pdf-001",
+        "output-mcq-04"
       ],
       "explanation": "本句的「output signal」指「輸出訊號」。",
       "sentenceIndex": 41,
@@ -1759,12 +1577,10 @@ export default {
         "output signal"
       ],
       "optionReasons": {
-        "output-mcq-19": "本句指「輸出訊號」。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。"
+        "output-mcq-19": "本句的「output signal」指「輸出訊號」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-19"
     },
@@ -1776,11 +1592,9 @@ export default {
       "masked": "The strength of the ____ can be adjusted.",
       "options": [
         "output-mcq-19",
-        "output-mcq-18",
-        "output-mcq-20",
-        "output-mcq-17",
-        "output-mcq-21",
-        "output-mcq-16"
+        "output-mcq-24",
+        "output-mcq-13",
+        "output-mcq-10"
       ],
       "explanation": "本句的「output signal」指「輸出訊號」。",
       "sentenceIndex": 42,
@@ -1789,12 +1603,10 @@ export default {
         "output signal"
       ],
       "optionReasons": {
-        "output-mcq-19": "本句指「輸出訊號」。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-16": "「輸入與輸出」與本句語境不同。"
+        "output-mcq-19": "本句的「output signal」指「輸出訊號」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-19"
     },
@@ -1806,11 +1618,9 @@ export default {
       "masked": "Connect the speakers to the ____.",
       "options": [
         "output-mcq-20",
-        "output-mcq-19",
-        "output-mcq-21",
-        "output-mcq-18",
-        "output-mcq-22",
-        "output-mcq-17"
+        "output-mcq-13",
+        "output-mcq-24",
+        "output-mcq-10"
       ],
       "explanation": "本句的「audio output」指「音訊輸出」。",
       "sentenceIndex": 43,
@@ -1819,12 +1629,10 @@ export default {
         "audio output"
       ],
       "optionReasons": {
-        "output-mcq-20": "本句指「音訊輸出」。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。"
+        "output-mcq-20": "本句的「audio output」指「音訊輸出」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-20"
     },
@@ -1836,11 +1644,9 @@ export default {
       "masked": "The device has both digital and analogue audio ____.",
       "options": [
         "output-mcq-20",
-        "output-mcq-19",
-        "output-mcq-21",
-        "output-mcq-18",
-        "output-mcq-22",
-        "output-mcq-17"
+        "output-mcq-09",
+        "output-pdf-001",
+        "output-mcq-25"
       ],
       "explanation": "本句的「outputs」指「音訊輸出」。",
       "sentenceIndex": 44,
@@ -1849,12 +1655,10 @@ export default {
         "outputs"
       ],
       "optionReasons": {
-        "output-mcq-20": "本句指「音訊輸出」。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-17": "「資料輸出」與本句語境不同。"
+        "output-mcq-20": "本句的「outputs」指「音訊輸出」。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-20"
     },
@@ -1866,11 +1670,9 @@ export default {
       "masked": "The laptop supports external video ____.",
       "options": [
         "output-mcq-21",
-        "output-mcq-20",
-        "output-mcq-22",
-        "output-mcq-19",
-        "output-mcq-23",
-        "output-mcq-18"
+        "output-pdf-001",
+        "output-mcq-24",
+        "output-mcq-25"
       ],
       "explanation": "本句的「output」指「視訊輸出」。",
       "sentenceIndex": 45,
@@ -1879,12 +1681,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-21": "本句指「視訊輸出」。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。"
+        "output-mcq-21": "本句的「output」指「視訊輸出」。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-21"
     },
@@ -1896,11 +1696,9 @@ export default {
       "masked": "Check the video ____ settings.",
       "options": [
         "output-mcq-21",
-        "output-mcq-20",
-        "output-mcq-22",
-        "output-mcq-19",
-        "output-mcq-23",
-        "output-mcq-18"
+        "output-pdf-003",
+        "output-mcq-13",
+        "output-mcq-10"
       ],
       "explanation": "本句的「output」指「視訊輸出」。",
       "sentenceIndex": 46,
@@ -1909,12 +1707,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-21": "本句指「視訊輸出」。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-18": "「輸出裝置」與本句語境不同。"
+        "output-mcq-21": "本句的「output」指「視訊輸出」。",
+        "output-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-21"
     },
@@ -1926,11 +1722,9 @@ export default {
       "masked": "The engine has a higher ____.",
       "options": [
         "output-mcq-22",
-        "output-mcq-21",
-        "output-mcq-23",
-        "output-mcq-20",
-        "output-mcq-24",
-        "output-mcq-19"
+        "output-pdf-001",
+        "output-mcq-09",
+        "output-mcq-10"
       ],
       "explanation": "本句的「power output」指「輸出功率」。",
       "sentenceIndex": 47,
@@ -1939,12 +1733,10 @@ export default {
         "power output"
       ],
       "optionReasons": {
-        "output-mcq-22": "本句指「輸出功率」。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。"
+        "output-mcq-22": "本句的「power output」指「輸出功率」。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-22"
     },
@@ -1956,11 +1748,9 @@ export default {
       "masked": "The solar panels' ____ depends on sunlight.",
       "options": [
         "output-mcq-22",
-        "output-mcq-21",
-        "output-mcq-23",
-        "output-mcq-20",
-        "output-mcq-24",
-        "output-mcq-19"
+        "output-pdf-003",
+        "output-mcq-13",
+        "output-mcq-04"
       ],
       "explanation": "本句的「output」指「輸出功率」。",
       "sentenceIndex": 48,
@@ -1969,12 +1759,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-mcq-22": "本句指「輸出功率」。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。"
+        "output-mcq-22": "本句的「output」指「輸出功率」。",
+        "output-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-22"
     },
@@ -1986,11 +1774,9 @@ export default {
       "masked": "The machine's energy ____ was measured.",
       "options": [
         "output-pdf-003",
-        "output-mcq-21",
-        "output-mcq-23",
-        "output-mcq-20",
-        "output-mcq-24",
-        "output-mcq-19"
+        "output-mcq-22",
+        "output-mcq-13",
+        "output-mcq-25"
       ],
       "explanation": "本句的「output」指「系統實際產生或釋放的能量」。",
       "sentenceIndex": 49,
@@ -1999,12 +1785,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-pdf-003": "本句指「系統實際產生或釋放的能量」。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。"
+        "output-pdf-003": "本句的「output」指「系統實際產生或釋放的能量」。",
+        "output-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-pdf-003"
     },
@@ -2017,10 +1801,8 @@ export default {
       "options": [
         "output-pdf-003",
         "output-mcq-21",
-        "output-mcq-23",
-        "output-mcq-20",
-        "output-mcq-24",
-        "output-mcq-19"
+        "output-mcq-13",
+        "output-mcq-10"
       ],
       "explanation": "本句的「output」指「系統實際產生或釋放的能量」。",
       "sentenceIndex": 50,
@@ -2029,12 +1811,10 @@ export default {
         "output"
       ],
       "optionReasons": {
-        "output-pdf-003": "本句指「系統實際產生或釋放的能量」。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-19": "「輸出訊號」與本句語境不同。"
+        "output-pdf-003": "本句的「output」指「系統實際產生或釋放的能量」。",
+        "output-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-pdf-003"
     },
@@ -2046,11 +1826,9 @@ export default {
       "masked": "Exercise increases ____.",
       "options": [
         "output-mcq-23",
-        "output-mcq-22",
-        "output-mcq-24",
-        "output-mcq-21",
-        "output-mcq-25",
-        "output-mcq-20"
+        "output-mcq-13",
+        "output-mcq-09",
+        "output-mcq-04"
       ],
       "explanation": "本句的「cardiac output」指「心輸出量」。",
       "sentenceIndex": 51,
@@ -2059,12 +1837,10 @@ export default {
         "cardiac output"
       ],
       "optionReasons": {
-        "output-mcq-23": "本句指「心輸出量」。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-25": "「產出缺口」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。"
+        "output-mcq-23": "本句的「cardiac output」指「心輸出量」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-23"
     },
@@ -2076,11 +1852,9 @@ export default {
       "masked": "Doctors monitored the patient's ____.",
       "options": [
         "output-mcq-23",
-        "output-mcq-22",
-        "output-mcq-24",
-        "output-mcq-21",
-        "output-mcq-25",
-        "output-mcq-20"
+        "output-pdf-001",
+        "output-mcq-04",
+        "output-mcq-09"
       ],
       "explanation": "本句的「cardiac output」指「心輸出量」。",
       "sentenceIndex": 52,
@@ -2089,12 +1863,10 @@ export default {
         "cardiac output"
       ],
       "optionReasons": {
-        "output-mcq-23": "本句指「心輸出量」。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。",
-        "output-mcq-25": "「產出缺口」與本句語境不同。",
-        "output-mcq-20": "「音訊輸出」與本句語境不同。"
+        "output-mcq-23": "本句的「cardiac output」指「心輸出量」。",
+        "output-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-23"
     },
@@ -2106,11 +1878,9 @@ export default {
       "masked": "Nurses monitored the patient's ____.",
       "options": [
         "output-mcq-24",
-        "output-mcq-23",
-        "output-mcq-25",
-        "output-mcq-22",
-        "output-mcq-26",
-        "output-mcq-21"
+        "output-mcq-19",
+        "output-mcq-10",
+        "output-mcq-13"
       ],
       "explanation": "本句的「urine output」指「尿量」。",
       "sentenceIndex": 53,
@@ -2119,12 +1889,10 @@ export default {
         "urine output"
       ],
       "optionReasons": {
-        "output-mcq-24": "本句指「尿量」。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-25": "「產出缺口」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-26": "「輸出；產生」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。"
+        "output-mcq-24": "本句的「urine output」指「尿量」。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-24"
     },
@@ -2136,11 +1904,8 @@ export default {
       "masked": "Low ____ may require medical attention.",
       "options": [
         "output-mcq-24",
-        "output-mcq-23",
-        "output-mcq-25",
-        "output-mcq-22",
-        "output-mcq-26",
-        "output-mcq-21"
+        "output-mcq-03",
+        "output-mcq-13"
       ],
       "explanation": "本句的「urine output」指「尿量」。",
       "sentenceIndex": 54,
@@ -2149,12 +1914,9 @@ export default {
         "urine output"
       ],
       "optionReasons": {
-        "output-mcq-24": "本句指「尿量」。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-25": "「產出缺口」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-26": "「輸出；產生」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。"
+        "output-mcq-24": "本句的「urine output」指「尿量」。",
+        "output-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-24"
     },
@@ -2166,11 +1928,9 @@ export default {
       "masked": "Economists estimated the country's ____.",
       "options": [
         "output-mcq-25",
+        "output-mcq-13",
         "output-mcq-24",
-        "output-mcq-26",
-        "output-mcq-23",
-        "output-mcq-22",
-        "output-mcq-21"
+        "output-mcq-19"
       ],
       "explanation": "本句的「output gap」指「產出缺口」。",
       "sentenceIndex": 55,
@@ -2179,12 +1939,10 @@ export default {
         "output gap"
       ],
       "optionReasons": {
-        "output-mcq-25": "本句指「產出缺口」。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-26": "「輸出；產生」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。"
+        "output-mcq-25": "本句的「output gap」指「產出缺口」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-25"
     },
@@ -2196,11 +1954,9 @@ export default {
       "masked": "A negative ____ means actual production is below potential.",
       "options": [
         "output-mcq-25",
+        "output-mcq-13",
         "output-mcq-24",
-        "output-mcq-26",
-        "output-mcq-23",
-        "output-mcq-22",
-        "output-mcq-21"
+        "output-mcq-14"
       ],
       "explanation": "本句的「output gap」指「產出缺口」。",
       "sentenceIndex": 56,
@@ -2209,12 +1965,10 @@ export default {
         "output gap"
       ],
       "optionReasons": {
-        "output-mcq-25": "本句指「產出缺口」。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-26": "「輸出；產生」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。"
+        "output-mcq-25": "本句的「output gap」指「產出缺口」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-25"
     },
@@ -2226,11 +1980,8 @@ export default {
       "masked": "The machine ____.",
       "options": [
         "output-mcq-26",
-        "output-mcq-25",
-        "output-mcq-24",
-        "output-mcq-23",
-        "output-mcq-22",
-        "output-mcq-21"
+        "output-mcq-13",
+        "output-mcq-24"
       ],
       "explanation": "本句的「outputs 500 units per hour」指「輸出；產生」。",
       "sentenceIndex": 57,
@@ -2239,12 +1990,9 @@ export default {
         "outputs 500 units per hour"
       ],
       "optionReasons": {
-        "output-mcq-26": "本句指「輸出；產生」。",
-        "output-mcq-25": "「產出缺口」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。"
+        "output-mcq-26": "本句的「outputs 500 units per hour」指「輸出；產生」。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-26"
     },
@@ -2256,11 +2004,8 @@ export default {
       "masked": "The model ____.",
       "options": [
         "output-mcq-26",
-        "output-mcq-25",
         "output-mcq-24",
-        "output-mcq-23",
-        "output-mcq-22",
-        "output-mcq-21"
+        "output-mcq-13"
       ],
       "explanation": "本句的「outputs a probability score」指「輸出；產生」。",
       "sentenceIndex": 58,
@@ -2269,12 +2014,9 @@ export default {
         "outputs a probability score"
       ],
       "optionReasons": {
-        "output-mcq-26": "本句指「輸出；產生」。",
-        "output-mcq-25": "「產出缺口」與本句語境不同。",
-        "output-mcq-24": "「尿量」與本句語境不同。",
-        "output-mcq-23": "「心輸出量」與本句語境不同。",
-        "output-mcq-22": "「輸出功率」與本句語境不同。",
-        "output-mcq-21": "「視訊輸出」與本句語境不同。"
+        "output-mcq-26": "本句的「outputs a probability score」指「輸出；產生」。",
+        "output-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "output-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "output-mcq-26"
     }
@@ -2286,5 +2028,7 @@ export default {
     "sha256": "d5c102fb68212fbfbb430efe6a7e5ad443f9fef1eef739b026adfc2415e3174c",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

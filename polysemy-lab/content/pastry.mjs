@@ -186,11 +186,8 @@ export default {
       "masked": "Roll out the ____ thinly.",
       "options": [
         "pastry-mcq-01",
-        "pastry-mcq-02",
-        "pastry-mcq-03",
-        "pastry-mcq-04",
-        "pastry-mcq-05",
-        "pastry-mcq-06"
+        "pastry-mcq-06",
+        "pastry-mcq-03"
       ],
       "explanation": "本句的「pastry」指「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」。",
       "sentenceIndex": 0,
@@ -199,12 +196,9 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-01": "本句指「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。"
+        "pastry-mcq-01": "本句的「pastry」指「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」。",
+        "pastry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-01"
     },
@@ -216,11 +210,8 @@ export default {
       "masked": "The ____ needs to rest before baking.",
       "options": [
         "pastry-mcq-01",
-        "pastry-mcq-02",
-        "pastry-mcq-03",
-        "pastry-mcq-04",
-        "pastry-mcq-05",
-        "pastry-mcq-06"
+        "pastry-mcq-06",
+        "pastry-mcq-03"
       ],
       "explanation": "本句的「pastry」指「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」。",
       "sentenceIndex": 1,
@@ -229,12 +220,9 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-01": "本句指「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。"
+        "pastry-mcq-01": "本句的「pastry」指「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」。",
+        "pastry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-01"
     },
@@ -246,11 +234,7 @@ export default {
       "masked": "The shop sells handmade ____.",
       "options": [
         "pastry-mcq-02",
-        "pastry-mcq-01",
-        "pastry-mcq-03",
-        "pastry-mcq-04",
-        "pastry-mcq-05",
-        "pastry-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「pastries」指「由酥皮／糕點麵糰製成的一件烘焙食品」。",
       "sentenceIndex": 2,
@@ -259,12 +243,8 @@ export default {
         "pastries"
       ],
       "optionReasons": {
-        "pastry-mcq-02": "本句指「由酥皮／糕點麵糰製成的一件烘焙食品」。",
-        "pastry-mcq-01": "「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。"
+        "pastry-mcq-02": "本句的「pastries」指「由酥皮／糕點麵糰製成的一件烘焙食品」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-02"
     },
@@ -276,11 +256,8 @@ export default {
       "masked": "He trained in bread and ____.",
       "options": [
         "pastry-mcq-03",
-        "pastry-mcq-02",
-        "pastry-mcq-04",
-        "pastry-mcq-01",
         "pastry-mcq-05",
-        "pastry-mcq-06"
+        "pastry-mcq-01"
       ],
       "explanation": "本句的「pastry」指「糕點製作這個烘焙專業／食品類別」。",
       "sentenceIndex": 3,
@@ -289,12 +266,9 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-03": "本句指「糕點製作這個烘焙專業／食品類別」。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-01": "「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。"
+        "pastry-mcq-03": "本句的「pastry」指「糕點製作這個烘焙專業／食品類別」。",
+        "pastry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-03"
     },
@@ -306,11 +280,8 @@ export default {
       "masked": "The school offers a course in ____.",
       "options": [
         "pastry-mcq-03",
-        "pastry-mcq-02",
-        "pastry-mcq-04",
-        "pastry-mcq-01",
         "pastry-mcq-05",
-        "pastry-mcq-06"
+        "pastry-mcq-01"
       ],
       "explanation": "本句的「pastry」指「糕點製作這個烘焙專業／食品類別」。",
       "sentenceIndex": 4,
@@ -319,12 +290,9 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-03": "本句指「糕點製作這個烘焙專業／食品類別」。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-01": "「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。"
+        "pastry-mcq-03": "本句的「pastry」指「糕點製作這個烘焙專業／食品類別」。",
+        "pastry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-03"
     },
@@ -336,11 +304,7 @@ export default {
       "masked": "The tart is made with ____.",
       "options": [
         "pastry-mcq-04",
-        "pastry-mcq-03",
-        "pastry-mcq-05",
-        "pastry-mcq-02",
-        "pastry-mcq-06",
-        "pastry-mcq-01"
+        "pastry-mcq-07"
       ],
       "explanation": "本句的「puff pastry」指「多層摺疊後烘焙成層層酥脆結構的千層酥皮」。",
       "sentenceIndex": 5,
@@ -349,12 +313,8 @@ export default {
         "puff pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-04": "本句指「多層摺疊後烘焙成層層酥脆結構的千層酥皮」。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-01": "「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」與本句語境不同。"
+        "pastry-mcq-04": "本句的「puff pastry」指「多層摺疊後烘焙成層層酥脆結構的千層酥皮」。",
+        "pastry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-04"
     },
@@ -366,11 +326,7 @@ export default {
       "masked": "Puff ____ becomes light and flaky when baked.",
       "options": [
         "pastry-mcq-04",
-        "pastry-mcq-03",
-        "pastry-mcq-05",
-        "pastry-mcq-02",
-        "pastry-mcq-06",
-        "pastry-mcq-01"
+        "pastry-mcq-07"
       ],
       "explanation": "本句的「pastry」指「多層摺疊後烘焙成層層酥脆結構的千層酥皮」。",
       "sentenceIndex": 6,
@@ -379,12 +335,8 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-04": "本句指「多層摺疊後烘焙成層層酥脆結構的千層酥皮」。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-01": "「以麵粉、脂肪等製成，用來做批、撻、酥點的麵糰」與本句語境不同。"
+        "pastry-mcq-04": "本句的「pastry」指「多層摺疊後烘焙成層層酥脆結構的千層酥皮」。",
+        "pastry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-04"
     },
@@ -396,11 +348,8 @@ export default {
       "masked": "The pie has a ____ base.",
       "options": [
         "pastry-mcq-05",
-        "pastry-mcq-04",
-        "pastry-mcq-06",
         "pastry-mcq-03",
-        "pastry-mcq-07",
-        "pastry-mcq-02"
+        "pastry-mcq-01"
       ],
       "explanation": "本句的「shortcrust pastry」指「口感酥鬆、常用作批／撻底的短酥皮」。",
       "sentenceIndex": 7,
@@ -409,12 +358,9 @@ export default {
         "shortcrust pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-05": "本句指「口感酥鬆、常用作批／撻底的短酥皮」。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-07": "「專門製作糕點、酥點及甜品的專業廚師」與本句語境不同。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。"
+        "pastry-mcq-05": "本句的「shortcrust pastry」指「口感酥鬆、常用作批／撻底的短酥皮」。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-05"
     },
@@ -426,11 +372,8 @@ export default {
       "masked": "Shortcrust ____ is often used for tarts.",
       "options": [
         "pastry-mcq-05",
-        "pastry-mcq-04",
-        "pastry-mcq-06",
         "pastry-mcq-03",
-        "pastry-mcq-07",
-        "pastry-mcq-02"
+        "pastry-mcq-01"
       ],
       "explanation": "本句的「pastry」指「口感酥鬆、常用作批／撻底的短酥皮」。",
       "sentenceIndex": 8,
@@ -439,12 +382,9 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-05": "本句指「口感酥鬆、常用作批／撻底的短酥皮」。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。",
-        "pastry-mcq-07": "「專門製作糕點、酥點及甜品的專業廚師」與本句語境不同。",
-        "pastry-mcq-02": "「由酥皮／糕點麵糰製成的一件烘焙食品」與本句語境不同。"
+        "pastry-mcq-05": "本句的「pastry」指「口感酥鬆、常用作批／撻底的短酥皮」。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-05"
     },
@@ -456,11 +396,8 @@ export default {
       "masked": "The dessert uses layers of ____.",
       "options": [
         "pastry-mcq-06",
-        "pastry-mcq-05",
-        "pastry-mcq-07",
-        "pastry-mcq-04",
-        "pastry-mcq-08",
-        "pastry-mcq-03"
+        "pastry-mcq-03",
+        "pastry-mcq-01"
       ],
       "explanation": "本句的「filo pastry」指「極薄、常多層使用的薄酥皮」。",
       "sentenceIndex": 9,
@@ -469,12 +406,9 @@ export default {
         "filo pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-06": "本句指「極薄、常多層使用的薄酥皮」。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-07": "「專門製作糕點、酥點及甜品的專業廚師」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-08": "「用酥皮製成、用來承載餡料的外殼／撻皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。"
+        "pastry-mcq-06": "本句的「filo pastry」指「極薄、常多層使用的薄酥皮」。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-06"
     },
@@ -486,11 +420,8 @@ export default {
       "masked": "Filo ____ is very thin and delicate.",
       "options": [
         "pastry-mcq-06",
-        "pastry-mcq-05",
-        "pastry-mcq-07",
-        "pastry-mcq-04",
-        "pastry-mcq-08",
-        "pastry-mcq-03"
+        "pastry-mcq-03",
+        "pastry-mcq-01"
       ],
       "explanation": "本句的「pastry」指「極薄、常多層使用的薄酥皮」。",
       "sentenceIndex": 10,
@@ -499,12 +430,9 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-06": "本句指「極薄、常多層使用的薄酥皮」。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-07": "「專門製作糕點、酥點及甜品的專業廚師」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-08": "「用酥皮製成、用來承載餡料的外殼／撻皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。"
+        "pastry-mcq-06": "本句的「pastry」指「極薄、常多層使用的薄酥皮」。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pastry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-06"
     },
@@ -516,11 +444,7 @@ export default {
       "masked": "The bakery hired a new ____.",
       "options": [
         "pastry-mcq-07",
-        "pastry-mcq-06",
-        "pastry-mcq-08",
-        "pastry-mcq-05",
-        "pastry-mcq-04",
-        "pastry-mcq-03"
+        "pastry-mcq-05"
       ],
       "explanation": "本句的「pastry chef」指「專門製作糕點、酥點及甜品的專業廚師」。",
       "sentenceIndex": 11,
@@ -529,12 +453,8 @@ export default {
         "pastry chef"
       ],
       "optionReasons": {
-        "pastry-mcq-07": "本句指「專門製作糕點、酥點及甜品的專業廚師」。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-08": "「用酥皮製成、用來承載餡料的外殼／撻皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。"
+        "pastry-mcq-07": "本句的「pastry chef」指「專門製作糕點、酥點及甜品的專業廚師」。",
+        "pastry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-07"
     },
@@ -546,11 +466,7 @@ export default {
       "masked": "She trained as a ____ chef in Paris.",
       "options": [
         "pastry-mcq-07",
-        "pastry-mcq-06",
-        "pastry-mcq-08",
-        "pastry-mcq-05",
-        "pastry-mcq-04",
-        "pastry-mcq-03"
+        "pastry-mcq-05"
       ],
       "explanation": "本句的「pastry」指「專門製作糕點、酥點及甜品的專業廚師」。",
       "sentenceIndex": 12,
@@ -559,12 +475,8 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-07": "本句指「專門製作糕點、酥點及甜品的專業廚師」。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-08": "「用酥皮製成、用來承載餡料的外殼／撻皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。"
+        "pastry-mcq-07": "本句的「pastry」指「專門製作糕點、酥點及甜品的專業廚師」。",
+        "pastry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-07"
     },
@@ -576,10 +488,6 @@ export default {
       "masked": "Fill the ____ with custard.",
       "options": [
         "pastry-mcq-08",
-        "pastry-mcq-07",
-        "pastry-mcq-06",
-        "pastry-mcq-05",
-        "pastry-mcq-04",
         "pastry-mcq-03"
       ],
       "explanation": "本句的「pastry case」指「用酥皮製成、用來承載餡料的外殼／撻皮」。",
@@ -589,12 +497,8 @@ export default {
         "pastry case"
       ],
       "optionReasons": {
-        "pastry-mcq-08": "本句指「用酥皮製成、用來承載餡料的外殼／撻皮」。",
-        "pastry-mcq-07": "「專門製作糕點、酥點及甜品的專業廚師」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。"
+        "pastry-mcq-08": "本句的「pastry case」指「用酥皮製成、用來承載餡料的外殼／撻皮」。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-08"
     },
@@ -606,10 +510,6 @@ export default {
       "masked": "The ____ shell should be crisp.",
       "options": [
         "pastry-mcq-08",
-        "pastry-mcq-07",
-        "pastry-mcq-06",
-        "pastry-mcq-05",
-        "pastry-mcq-04",
         "pastry-mcq-03"
       ],
       "explanation": "本句的「pastry」指「用酥皮製成、用來承載餡料的外殼／撻皮」。",
@@ -619,12 +519,8 @@ export default {
         "pastry"
       ],
       "optionReasons": {
-        "pastry-mcq-08": "本句指「用酥皮製成、用來承載餡料的外殼／撻皮」。",
-        "pastry-mcq-07": "「專門製作糕點、酥點及甜品的專業廚師」與本句語境不同。",
-        "pastry-mcq-06": "「極薄、常多層使用的薄酥皮」與本句語境不同。",
-        "pastry-mcq-05": "「口感酥鬆、常用作批／撻底的短酥皮」與本句語境不同。",
-        "pastry-mcq-04": "「多層摺疊後烘焙成層層酥脆結構的千層酥皮」與本句語境不同。",
-        "pastry-mcq-03": "「糕點製作這個烘焙專業／食品類別」與本句語境不同。"
+        "pastry-mcq-08": "本句的「pastry」指「用酥皮製成、用來承載餡料的外殼／撻皮」。",
+        "pastry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pastry-mcq-08"
     }
@@ -636,5 +532,12 @@ export default {
     "sha256": "422460d002c55602017fb499fb9b53c3fc6567c3ec701a9ead78bbf377cae28d",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

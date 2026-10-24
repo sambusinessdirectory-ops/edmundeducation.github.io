@@ -265,9 +265,7 @@ export default {
       "masked": "It was a warm, ____ day.",
       "options": [
         "sunny-mcq-01",
-        "sunny-mcq-02",
-        "sunny-mcq-03",
-        "sunny-mcq-04",
+        "sunny-mcq-09",
         "sunny-mcq-05",
         "sunny-mcq-06"
       ],
@@ -278,12 +276,10 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-01": "本句指「有充足陽光、雲量較少的；晴朗的」。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-01": "本句的「sunny」指「有充足陽光、雲量較少的；晴朗的」。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-01"
     },
@@ -295,10 +291,8 @@ export default {
       "masked": "The weather should stay ____ tomorrow.",
       "options": [
         "sunny-mcq-01",
-        "sunny-mcq-02",
-        "sunny-mcq-03",
-        "sunny-mcq-04",
         "sunny-mcq-05",
+        "sunny-mcq-09",
         "sunny-mcq-06"
       ],
       "explanation": "本句的「sunny」指「有充足陽光、雲量較少的；晴朗的」。",
@@ -308,12 +302,10 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-01": "本句指「有充足陽光、雲量較少的；晴朗的」。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-01": "本句的「sunny」指「有充足陽光、雲量較少的；晴朗的」。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-01"
     },
@@ -325,10 +317,7 @@ export default {
       "masked": "The smaller plants are kept on a ____.",
       "options": [
         "sunny-mcq-02",
-        "sunny-mcq-01",
-        "sunny-mcq-03",
         "sunny-mcq-04",
-        "sunny-mcq-05",
         "sunny-mcq-06"
       ],
       "explanation": "本句的「sunny balcony」指「某位置能經常／長時間接受陽光照射的」。",
@@ -338,12 +327,9 @@ export default {
         "sunny balcony"
       ],
       "optionReasons": {
-        "sunny-mcq-02": "本句指「某位置能經常／長時間接受陽光照射的」。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-02": "本句的「sunny balcony」指「某位置能經常／長時間接受陽光照射的」。",
+        "sunny-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-02"
     },
@@ -355,9 +341,7 @@ export default {
       "masked": "Tomatoes grow well in a ____ spot.",
       "options": [
         "sunny-mcq-02",
-        "sunny-mcq-01",
-        "sunny-mcq-03",
-        "sunny-mcq-04",
+        "sunny-mcq-09",
         "sunny-mcq-05",
         "sunny-mcq-06"
       ],
@@ -368,12 +352,10 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-02": "本句指「某位置能經常／長時間接受陽光照射的」。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-02": "本句的「sunny」指「某位置能經常／長時間接受陽光照射的」。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-02"
     },
@@ -385,9 +367,7 @@ export default {
       "masked": "Put the pot near a ____ window.",
       "options": [
         "sunny-mcq-02",
-        "sunny-mcq-01",
-        "sunny-mcq-03",
-        "sunny-mcq-04",
+        "sunny-mcq-09",
         "sunny-mcq-05",
         "sunny-mcq-06"
       ],
@@ -398,12 +378,10 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-02": "本句指「某位置能經常／長時間接受陽光照射的」。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-02": "本句的「sunny」指「某位置能經常／長時間接受陽光照射的」。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-02"
     },
@@ -415,9 +393,6 @@ export default {
       "masked": "The room has a ____ atmosphere.",
       "options": [
         "sunny-mcq-03",
-        "sunny-mcq-02",
-        "sunny-mcq-04",
-        "sunny-mcq-01",
         "sunny-mcq-05",
         "sunny-mcq-06"
       ],
@@ -428,12 +403,9 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-03": "本句指「令人聯想到陽光般明亮、溫暖、愉快的」。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-03": "本句的「sunny」指「令人聯想到陽光般明亮、溫暖、愉快的」。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-03"
     },
@@ -445,9 +417,6 @@ export default {
       "masked": "She chose ____ colours for the kitchen.",
       "options": [
         "sunny-mcq-03",
-        "sunny-mcq-02",
-        "sunny-mcq-04",
-        "sunny-mcq-01",
         "sunny-mcq-05",
         "sunny-mcq-06"
       ],
@@ -458,12 +427,9 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-03": "本句指「令人聯想到陽光般明亮、溫暖、愉快的」。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-03": "本句的「sunny」指「令人聯想到陽光般明亮、溫暖、愉快的」。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-03"
     },
@@ -475,11 +441,8 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "sunny-mcq-04",
-        "sunny-mcq-03",
-        "sunny-mcq-05",
         "sunny-mcq-02",
-        "sunny-mcq-06",
-        "sunny-mcq-01"
+        "sunny-mcq-06"
       ],
       "explanation": "本句的「sunny personality」指「性格開朗、樂觀，容易帶給別人愉快感覺的」。",
       "sentenceIndex": 7,
@@ -488,12 +451,9 @@ export default {
         "sunny personality"
       ],
       "optionReasons": {
-        "sunny-mcq-04": "本句指「性格開朗、樂觀，容易帶給別人愉快感覺的」。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。"
+        "sunny-mcq-04": "本句的「sunny personality」指「性格開朗、樂觀，容易帶給別人愉快感覺的」。",
+        "sunny-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-04"
     },
@@ -505,11 +465,7 @@ export default {
       "masked": "His ____ nature makes people feel comfortable.",
       "options": [
         "sunny-mcq-04",
-        "sunny-mcq-03",
-        "sunny-mcq-05",
-        "sunny-mcq-02",
-        "sunny-mcq-06",
-        "sunny-mcq-01"
+        "sunny-pdf-001"
       ],
       "explanation": "本句的「sunny」指「性格開朗、樂觀，容易帶給別人愉快感覺的」。",
       "sentenceIndex": 8,
@@ -518,12 +474,8 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-04": "本句指「性格開朗、樂觀，容易帶給別人愉快感覺的」。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
-        "sunny-mcq-01": "「有充足陽光、雲量較少的；晴朗的」與本句語境不同。"
+        "sunny-mcq-04": "本句的「sunny」指「性格開朗、樂觀，容易帶給別人愉快感覺的」。",
+        "sunny-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-04"
     },
@@ -535,11 +487,8 @@ export default {
       "masked": "She has a ____ on life.",
       "options": [
         "sunny-mcq-05",
-        "sunny-mcq-04",
-        "sunny-mcq-06",
-        "sunny-mcq-03",
-        "sunny-mcq-07",
-        "sunny-mcq-02"
+        "sunny-mcq-10",
+        "sunny-mcq-09"
       ],
       "explanation": "本句的「sunny outlook」指「對未來／情況採取積極、樂觀的看法」。",
       "sentenceIndex": 9,
@@ -548,12 +497,9 @@ export default {
         "sunny outlook"
       ],
       "optionReasons": {
-        "sunny-mcq-05": "本句指「對未來／情況採取積極、樂觀的看法」。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。"
+        "sunny-mcq-05": "本句的「sunny outlook」指「對未來／情況採取積極、樂觀的看法」。",
+        "sunny-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-05"
     },
@@ -565,11 +511,9 @@ export default {
       "masked": "The report presents a rather ____ view of the future.",
       "options": [
         "sunny-mcq-05",
-        "sunny-mcq-04",
+        "sunny-mcq-11",
         "sunny-mcq-06",
-        "sunny-mcq-03",
-        "sunny-mcq-07",
-        "sunny-mcq-02"
+        "sunny-mcq-09"
       ],
       "explanation": "本句的「sunny」指「對未來／情況採取積極、樂觀的看法」。",
       "sentenceIndex": 10,
@@ -578,12 +522,10 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-05": "本句指「對未來／情況採取積極、樂觀的看法」。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。",
-        "sunny-mcq-02": "「某位置能經常／長時間接受陽光照射的」與本句語境不同。"
+        "sunny-mcq-05": "本句的「sunny」指「對未來／情況採取積極、樂觀的看法」。",
+        "sunny-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-05"
     },
@@ -596,10 +538,8 @@ export default {
       "options": [
         "sunny-mcq-06",
         "sunny-mcq-05",
-        "sunny-mcq-07",
-        "sunny-mcq-04",
-        "sunny-mcq-08",
-        "sunny-mcq-03"
+        "sunny-mcq-09",
+        "sunny-mcq-02"
       ],
       "explanation": "本句的「sun」指「太陽系中心的恆星」。",
       "sentenceIndex": 11,
@@ -608,12 +548,10 @@ export default {
         "sun"
       ],
       "optionReasons": {
-        "sunny-mcq-06": "本句指「太陽系中心的恆星」。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-03": "「令人聯想到陽光般明亮、溫暖、愉快的」與本句語境不同。"
+        "sunny-mcq-06": "本句的「sun」指「太陽系中心的恆星」。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-06"
     },
@@ -625,11 +563,8 @@ export default {
       "masked": "This plant needs plenty of ____.",
       "options": [
         "sunny-pdf-001",
-        "sunny-mcq-06",
-        "sunny-mcq-08",
-        "sunny-mcq-05",
         "sunny-mcq-09",
-        "sunny-mcq-04"
+        "sunny-mcq-05"
       ],
       "explanation": "本句的「sun」指「陽光／日照，而不是太陽本身」。",
       "sentenceIndex": 12,
@@ -638,12 +573,9 @@ export default {
         "sun"
       ],
       "optionReasons": {
-        "sunny-pdf-001": "本句指「陽光／日照，而不是太陽本身」。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。",
-        "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
-        "sunny-mcq-04": "「性格開朗、樂觀，容易帶給別人愉快感覺的」與本句語境不同。"
+        "sunny-pdf-001": "本句的「sun」指「陽光／日照，而不是太陽本身」。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-pdf-001"
     },
@@ -655,11 +587,8 @@ export default {
       "masked": "The flowers need several hours of ____.",
       "options": [
         "sunny-mcq-08",
-        "sunny-mcq-07",
-        "sunny-mcq-09",
-        "sunny-mcq-06",
-        "sunny-mcq-10",
-        "sunny-mcq-05"
+        "sunny-mcq-04",
+        "sunny-mcq-12"
       ],
       "explanation": "本句的「sunshine」指「太陽照射下來的光與溫暖」。",
       "sentenceIndex": 13,
@@ -668,12 +597,9 @@ export default {
         "sunshine"
       ],
       "optionReasons": {
-        "sunny-mcq-08": "本句指「太陽照射下來的光與溫暖」。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。",
-        "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。",
-        "sunny-mcq-10": "「太陽發出的光線」與本句語境不同。",
-        "sunny-mcq-05": "「對未來／情況採取積極、樂觀的看法」與本句語境不同。"
+        "sunny-mcq-08": "本句的「sunshine」指「太陽照射下來的光與溫暖」。",
+        "sunny-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-08"
     },
@@ -685,11 +611,9 @@ export default {
       "masked": "Her smile brought a little ____ into the room.",
       "options": [
         "sunny-mcq-09",
-        "sunny-mcq-08",
-        "sunny-mcq-10",
-        "sunny-mcq-07",
-        "sunny-mcq-11",
-        "sunny-mcq-06"
+        "sunny-mcq-12",
+        "sunny-mcq-06",
+        "sunny-mcq-05"
       ],
       "explanation": "本句的「sunshine」指「令人感到快樂、溫暖或希望的東西」。",
       "sentenceIndex": 14,
@@ -698,12 +622,10 @@ export default {
         "sunshine"
       ],
       "optionReasons": {
-        "sunny-mcq-09": "本句指「令人感到快樂、溫暖或希望的東西」。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-10": "「太陽發出的光線」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。",
-        "sunny-mcq-11": "「被自然陽光照亮的」與本句語境不同。",
-        "sunny-mcq-06": "「太陽系中心的恆星」與本句語境不同。"
+        "sunny-mcq-09": "本句的「sunshine」指「令人感到快樂、溫暖或希望的東西」。",
+        "sunny-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-09"
     },
@@ -715,11 +637,8 @@ export default {
       "masked": "The leaves need direct ____.",
       "options": [
         "sunny-mcq-10",
-        "sunny-mcq-09",
-        "sunny-mcq-11",
-        "sunny-mcq-08",
-        "sunny-mcq-12",
-        "sunny-mcq-07"
+        "sunny-mcq-05",
+        "sunny-mcq-09"
       ],
       "explanation": "本句的「sunlight」指「太陽發出的光線」。",
       "sentenceIndex": 15,
@@ -728,12 +647,9 @@ export default {
         "sunlight"
       ],
       "optionReasons": {
-        "sunny-mcq-10": "本句指「太陽發出的光線」。",
-        "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
-        "sunny-mcq-11": "「被自然陽光照亮的」與本句語境不同。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-12": "「比另一側接受更多陽光的一面」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。"
+        "sunny-mcq-10": "本句的「sunlight」指「太陽發出的光線」。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-10"
     },
@@ -745,11 +661,8 @@ export default {
       "masked": "They sat in a ____ room.",
       "options": [
         "sunny-mcq-11",
-        "sunny-mcq-10",
-        "sunny-mcq-12",
-        "sunny-mcq-09",
-        "sunny-mcq-08",
-        "sunny-mcq-07"
+        "sunny-mcq-04",
+        "sunny-mcq-06"
       ],
       "explanation": "本句的「sunlit」指「被自然陽光照亮的」。",
       "sentenceIndex": 16,
@@ -758,12 +671,9 @@ export default {
         "sunlit"
       ],
       "optionReasons": {
-        "sunny-mcq-11": "本句指「被自然陽光照亮的」。",
-        "sunny-mcq-10": "「太陽發出的光線」與本句語境不同。",
-        "sunny-mcq-12": "「比另一側接受更多陽光的一面」與本句語境不同。",
-        "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。"
+        "sunny-mcq-11": "本句的「sunlit」指「被自然陽光照亮的」。",
+        "sunny-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-11"
     },
@@ -775,11 +685,9 @@ export default {
       "masked": "The herbs grow better on the ____ of the balcony.",
       "options": [
         "sunny-mcq-12",
-        "sunny-mcq-11",
-        "sunny-mcq-10",
         "sunny-mcq-09",
-        "sunny-mcq-08",
-        "sunny-mcq-07"
+        "sunny-mcq-05",
+        "sunny-mcq-06"
       ],
       "explanation": "本句的「sunny side」指「比另一側接受更多陽光的一面」。",
       "sentenceIndex": 17,
@@ -788,12 +696,10 @@ export default {
         "sunny side"
       ],
       "optionReasons": {
-        "sunny-mcq-12": "本句指「比另一側接受更多陽光的一面」。",
-        "sunny-mcq-11": "「被自然陽光照亮的」與本句語境不同。",
-        "sunny-mcq-10": "「太陽發出的光線」與本句語境不同。",
-        "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。"
+        "sunny-mcq-12": "本句的「sunny side」指「比另一側接受更多陽光的一面」。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-12"
     },
@@ -805,11 +711,9 @@ export default {
       "masked": "Choose the ____ side of the garden.",
       "options": [
         "sunny-mcq-12",
-        "sunny-mcq-11",
-        "sunny-mcq-10",
         "sunny-mcq-09",
-        "sunny-mcq-08",
-        "sunny-mcq-07"
+        "sunny-mcq-05",
+        "sunny-mcq-06"
       ],
       "explanation": "本句的「sunny」指「比另一側接受更多陽光的一面」。",
       "sentenceIndex": 18,
@@ -818,12 +722,10 @@ export default {
         "sunny"
       ],
       "optionReasons": {
-        "sunny-mcq-12": "本句指「比另一側接受更多陽光的一面」。",
-        "sunny-mcq-11": "「被自然陽光照亮的」與本句語境不同。",
-        "sunny-mcq-10": "「太陽發出的光線」與本句語境不同。",
-        "sunny-mcq-09": "「令人感到快樂、溫暖或希望的東西」與本句語境不同。",
-        "sunny-mcq-08": "「太陽照射下來的光與溫暖」與本句語境不同。",
-        "sunny-mcq-07": "「日照／陽光」與本句語境不同。"
+        "sunny-mcq-12": "本句的「sunny」指「比另一側接受更多陽光的一面」。",
+        "sunny-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sunny-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sunny-mcq-12"
     }
@@ -835,5 +737,7 @@ export default {
     "sha256": "b947c244ee052d844e1b8706b9f0fc33d057a497f8ce89411910cfdae87c649a",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

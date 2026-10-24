@@ -257,11 +257,7 @@ export default {
       "masked": "I became ____ about whether I could repeat that success.",
       "options": [
         "anxious-mcq-01",
-        "anxious-mcq-02",
-        "anxious-mcq-03",
-        "anxious-mcq-04",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-04"
       ],
       "explanation": "本句的「anxious」指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
       "sentenceIndex": 0,
@@ -270,12 +266,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-01": "本句指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-01": "本句的「anxious」指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-01"
     },
@@ -287,11 +279,7 @@ export default {
       "masked": "She felt ____ before the exam.",
       "options": [
         "anxious-mcq-01",
-        "anxious-mcq-02",
-        "anxious-mcq-03",
-        "anxious-mcq-04",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-04"
       ],
       "explanation": "本句的「anxious」指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
       "sentenceIndex": 1,
@@ -300,12 +288,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-01": "本句指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-01": "本句的「anxious」指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-01"
     },
@@ -317,11 +301,7 @@ export default {
       "masked": "He was ____ about the interview.",
       "options": [
         "anxious-mcq-01",
-        "anxious-mcq-02",
-        "anxious-mcq-03",
-        "anxious-mcq-04",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-05"
       ],
       "explanation": "本句的「anxious」指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
       "sentenceIndex": 2,
@@ -330,12 +310,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-01": "本句指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-01": "本句的「anxious」指「因未來結果不確定或可能出現負面情況而感到緊張、不安」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-01"
     },
@@ -347,11 +323,8 @@ export default {
       "masked": "She is ____ her results.",
       "options": [
         "anxious-mcq-02",
-        "anxious-mcq-01",
-        "anxious-mcq-03",
-        "anxious-mcq-04",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-06",
+        "anxious-mcq-05"
       ],
       "explanation": "本句的「anxious about」指「對某事的風險／不確定性感到擔憂」。",
       "sentenceIndex": 3,
@@ -360,12 +333,9 @@ export default {
         "anxious about"
       ],
       "optionReasons": {
-        "anxious-mcq-02": "本句指「對某事的風險／不確定性感到擔憂」。",
-        "anxious-mcq-01": "「因未來結果不確定或可能出現負面情況而感到緊張、不安」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-02": "本句的「anxious about」指「對某事的風險／不確定性感到擔憂」。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-02"
     },
@@ -377,11 +347,7 @@ export default {
       "masked": "He was ____ about whether the plan would work.",
       "options": [
         "anxious-mcq-02",
-        "anxious-mcq-01",
-        "anxious-mcq-03",
-        "anxious-mcq-04",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-04"
       ],
       "explanation": "本句的「anxious」指「對某事的風險／不確定性感到擔憂」。",
       "sentenceIndex": 4,
@@ -390,12 +356,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-02": "本句指「對某事的風險／不確定性感到擔憂」。",
-        "anxious-mcq-01": "「因未來結果不確定或可能出現負面情況而感到緊張、不安」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-02": "本句的「anxious」指「對某事的風險／不確定性感到擔憂」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-02"
     },
@@ -407,11 +369,7 @@ export default {
       "masked": "They were ____ their missing son.",
       "options": [
         "anxious-mcq-03",
-        "anxious-mcq-02",
-        "anxious-mcq-04",
-        "anxious-mcq-01",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-05"
       ],
       "explanation": "本句的「anxious for」指「為某人的安全、情況或結果感到擔心」。",
       "sentenceIndex": 5,
@@ -420,12 +378,8 @@ export default {
         "anxious for"
       ],
       "optionReasons": {
-        "anxious-mcq-03": "本句指「為某人的安全、情況或結果感到擔心」。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-01": "「因未來結果不確定或可能出現負面情況而感到緊張、不安」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-03": "本句的「anxious for」指「為某人的安全、情況或結果感到擔心」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-03"
     },
@@ -437,11 +391,7 @@ export default {
       "masked": "She was ____ for her friend’s safety.",
       "options": [
         "anxious-mcq-03",
-        "anxious-mcq-02",
-        "anxious-mcq-04",
-        "anxious-mcq-01",
-        "anxious-mcq-05",
-        "anxious-mcq-06"
+        "anxious-mcq-05"
       ],
       "explanation": "本句的「anxious」指「為某人的安全、情況或結果感到擔心」。",
       "sentenceIndex": 6,
@@ -450,12 +400,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-03": "本句指「為某人的安全、情況或結果感到擔心」。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-01": "「因未來結果不確定或可能出現負面情況而感到緊張、不安」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-03": "本句的「anxious」指「為某人的安全、情況或結果感到擔心」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-03"
     },
@@ -467,11 +413,7 @@ export default {
       "masked": "She was ____.",
       "options": [
         "anxious-mcq-04",
-        "anxious-mcq-03",
-        "anxious-mcq-05",
-        "anxious-mcq-02",
-        "anxious-mcq-06",
-        "anxious-mcq-01"
+        "anxious-mcq-02"
       ],
       "explanation": "本句的「anxious to begin」指「非常渴望某件事發生／很想做某件事」。",
       "sentenceIndex": 7,
@@ -480,12 +422,8 @@ export default {
         "anxious to begin"
       ],
       "optionReasons": {
-        "anxious-mcq-04": "本句指「非常渴望某件事發生／很想做某件事」。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-01": "「因未來結果不確定或可能出現負面情況而感到緊張、不安」與本句語境不同。"
+        "anxious-mcq-04": "本句的「anxious to begin」指「非常渴望某件事發生／很想做某件事」。",
+        "anxious-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-04"
     },
@@ -497,11 +435,7 @@ export default {
       "masked": "The students were ____ to hear the results.",
       "options": [
         "anxious-mcq-04",
-        "anxious-mcq-03",
-        "anxious-mcq-05",
-        "anxious-mcq-02",
-        "anxious-mcq-06",
-        "anxious-mcq-01"
+        "anxious-mcq-02"
       ],
       "explanation": "本句的「anxious」指「非常渴望某件事發生／很想做某件事」。",
       "sentenceIndex": 8,
@@ -510,12 +444,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-04": "本句指「非常渴望某件事發生／很想做某件事」。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-01": "「因未來結果不確定或可能出現負面情況而感到緊張、不安」與本句語境不同。"
+        "anxious-mcq-04": "本句的「anxious」指「非常渴望某件事發生／很想做某件事」。",
+        "anxious-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-04"
     },
@@ -527,11 +457,8 @@ export default {
       "masked": "He was ____ himself.",
       "options": [
         "anxious-mcq-05",
-        "anxious-mcq-04",
-        "anxious-mcq-06",
-        "anxious-mcq-03",
-        "anxious-mcq-07",
-        "anxious-mcq-02"
+        "anxious-mcq-09",
+        "anxious-mcq-06"
       ],
       "explanation": "本句的「anxious to prove」指「急切希望做某事」。",
       "sentenceIndex": 9,
@@ -540,12 +467,9 @@ export default {
         "anxious to prove"
       ],
       "optionReasons": {
-        "anxious-mcq-05": "本句指「急切希望做某事」。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。"
+        "anxious-mcq-05": "本句的「anxious to prove」指「急切希望做某事」。",
+        "anxious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-05"
     },
@@ -557,11 +481,7 @@ export default {
       "masked": "They are ____ to expand the business.",
       "options": [
         "anxious-mcq-05",
-        "anxious-mcq-04",
-        "anxious-mcq-06",
-        "anxious-mcq-03",
-        "anxious-mcq-07",
-        "anxious-mcq-02"
+        "anxious-mcq-03"
       ],
       "explanation": "本句的「anxious」指「急切希望做某事」。",
       "sentenceIndex": 10,
@@ -570,12 +490,8 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-05": "本句指「急切希望做某事」。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-02": "「對某事的風險／不確定性感到擔憂」與本句語境不同。"
+        "anxious-mcq-05": "本句的「anxious」指「急切希望做某事」。",
+        "anxious-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-05"
     },
@@ -587,11 +503,7 @@ export default {
       "masked": "The team was ____.",
       "options": [
         "anxious-mcq-06",
-        "anxious-mcq-05",
-        "anxious-mcq-07",
-        "anxious-mcq-04",
-        "anxious-mcq-08",
-        "anxious-mcq-03"
+        "anxious-mcq-07"
       ],
       "explanation": "本句的「anxious for success」指「很渴望得到某物／某結果」。",
       "sentenceIndex": 11,
@@ -600,12 +512,8 @@ export default {
         "anxious for success"
       ],
       "optionReasons": {
-        "anxious-mcq-06": "本句指「很渴望得到某物／某結果」。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。"
+        "anxious-mcq-06": "本句的「anxious for success」指「很渴望得到某物／某結果」。",
+        "anxious-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-06"
     },
@@ -617,11 +525,8 @@ export default {
       "masked": "He was ____ for a chance to speak.",
       "options": [
         "anxious-mcq-06",
-        "anxious-mcq-05",
-        "anxious-mcq-07",
-        "anxious-mcq-04",
-        "anxious-mcq-08",
-        "anxious-mcq-03"
+        "anxious-mcq-09",
+        "anxious-mcq-05"
       ],
       "explanation": "本句的「anxious」指「很渴望得到某物／某結果」。",
       "sentenceIndex": 12,
@@ -630,12 +535,9 @@ export default {
         "anxious"
       ],
       "optionReasons": {
-        "anxious-mcq-06": "本句指「很渴望得到某物／某結果」。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-03": "「為某人的安全、情況或結果感到擔心」與本句語境不同。"
+        "anxious-mcq-06": "本句的「anxious」指「很渴望得到某物／某結果」。",
+        "anxious-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-06"
     },
@@ -647,10 +549,6 @@ export default {
       "masked": "She waited ____ for the message.",
       "options": [
         "anxious-mcq-07",
-        "anxious-mcq-06",
-        "anxious-mcq-08",
-        "anxious-mcq-05",
-        "anxious-mcq-09",
         "anxious-mcq-04"
       ],
       "explanation": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
@@ -660,12 +558,8 @@ export default {
         "anxiously"
       ],
       "optionReasons": {
-        "anxious-mcq-07": "本句指「焦慮／焦急地；亦可表示急切地」。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。"
+        "anxious-mcq-07": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-07"
     },
@@ -677,10 +571,6 @@ export default {
       "masked": "He looked ____ at his phone.",
       "options": [
         "anxious-mcq-07",
-        "anxious-mcq-06",
-        "anxious-mcq-08",
-        "anxious-mcq-05",
-        "anxious-mcq-09",
         "anxious-mcq-04"
       ],
       "explanation": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
@@ -690,12 +580,8 @@ export default {
         "anxiously"
       ],
       "optionReasons": {
-        "anxious-mcq-07": "本句指「焦慮／焦急地；亦可表示急切地」。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。"
+        "anxious-mcq-07": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-07"
     },
@@ -707,10 +593,6 @@ export default {
       "masked": "The audience waited ____ for the announcement.",
       "options": [
         "anxious-mcq-07",
-        "anxious-mcq-06",
-        "anxious-mcq-08",
-        "anxious-mcq-05",
-        "anxious-mcq-09",
         "anxious-mcq-04"
       ],
       "explanation": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
@@ -720,12 +602,8 @@ export default {
         "anxiously"
       ],
       "optionReasons": {
-        "anxious-mcq-07": "本句指「焦慮／焦急地；亦可表示急切地」。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。"
+        "anxious-mcq-07": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-07"
     },
@@ -737,10 +615,6 @@ export default {
       "masked": "She watched ____ for signs of improvement.",
       "options": [
         "anxious-mcq-07",
-        "anxious-mcq-06",
-        "anxious-mcq-08",
-        "anxious-mcq-05",
-        "anxious-mcq-09",
         "anxious-mcq-04"
       ],
       "explanation": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
@@ -750,12 +624,8 @@ export default {
         "anxiously"
       ],
       "optionReasons": {
-        "anxious-mcq-07": "本句指「焦慮／焦急地；亦可表示急切地」。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-04": "「非常渴望某件事發生／很想做某件事」與本句語境不同。"
+        "anxious-mcq-07": "本句的「anxiously」指「焦慮／焦急地；亦可表示急切地」。",
+        "anxious-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-07"
     },
@@ -767,10 +637,7 @@ export default {
       "masked": "The sudden attention caused a lot of ____.",
       "options": [
         "anxious-mcq-08",
-        "anxious-mcq-07",
-        "anxious-mcq-09",
         "anxious-mcq-06",
-        "anxious-mcq-10",
         "anxious-mcq-05"
       ],
       "explanation": "本句的「anxiety」指「因擔心、不確定或威脅而產生的焦慮感」。",
@@ -780,12 +647,9 @@ export default {
         "anxiety"
       ],
       "optionReasons": {
-        "anxious-mcq-08": "本句指「因擔心、不確定或威脅而產生的焦慮感」。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-10": "「持續或強烈、可能影響日常功能的焦慮狀態」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。"
+        "anxious-mcq-08": "本句的「anxiety」指「因擔心、不確定或威脅而產生的焦慮感」。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-08"
     },
@@ -797,11 +661,8 @@ export default {
       "masked": "There is growing ____ online privacy.",
       "options": [
         "anxious-mcq-08",
-        "anxious-mcq-07",
-        "anxious-mcq-09",
-        "anxious-mcq-06",
-        "anxious-mcq-10",
-        "anxious-mcq-05"
+        "anxious-mcq-05",
+        "anxious-mcq-06"
       ],
       "explanation": "本句的「anxiety about」指「因擔心、不確定或威脅而產生的焦慮感」。",
       "sentenceIndex": 18,
@@ -810,12 +671,9 @@ export default {
         "anxiety about"
       ],
       "optionReasons": {
-        "anxious-mcq-08": "本句指「因擔心、不確定或威脅而產生的焦慮感」。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。",
-        "anxious-mcq-10": "「持續或強烈、可能影響日常功能的焦慮狀態」與本句語境不同。",
-        "anxious-mcq-05": "「急切希望做某事」與本句語境不同。"
+        "anxious-mcq-08": "本句的「anxiety about」指「因擔心、不確定或威脅而產生的焦慮感」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-08"
     },
@@ -827,10 +685,7 @@ export default {
       "masked": "The announcement caused public ____.",
       "options": [
         "anxious-mcq-09",
-        "anxious-mcq-08",
-        "anxious-mcq-10",
-        "anxious-mcq-07",
-        "anxious-mcq-11",
+        "anxious-mcq-05",
         "anxious-mcq-06"
       ],
       "explanation": "本句的「anxiety」指「一群人對某個風險或未來情況產生的廣泛憂慮」。",
@@ -840,12 +695,9 @@ export default {
         "anxiety"
       ],
       "optionReasons": {
-        "anxious-mcq-09": "本句指「一群人對某個風險或未來情況產生的廣泛憂慮」。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-10": "「持續或強烈、可能影響日常功能的焦慮狀態」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-11": "「以過度或持續焦慮為主要特徵的心理健康障礙」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-09": "本句的「anxiety」指「一群人對某個風險或未來情況產生的廣泛憂慮」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-09"
     },
@@ -857,10 +709,7 @@ export default {
       "masked": "The patient reported severe ____.",
       "options": [
         "anxious-mcq-10",
-        "anxious-mcq-09",
-        "anxious-mcq-11",
-        "anxious-mcq-08",
-        "anxious-mcq-07",
+        "anxious-mcq-05",
         "anxious-mcq-06"
       ],
       "explanation": "本句的「anxiety」指「持續或強烈、可能影響日常功能的焦慮狀態」。",
@@ -870,12 +719,9 @@ export default {
         "anxiety"
       ],
       "optionReasons": {
-        "anxious-mcq-10": "本句指「持續或強烈、可能影響日常功能的焦慮狀態」。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-11": "「以過度或持續焦慮為主要特徵的心理健康障礙」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-10": "本句的「anxiety」指「持續或強烈、可能影響日常功能的焦慮狀態」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-10"
     },
@@ -887,10 +733,7 @@ export default {
       "masked": "She was diagnosed with an ____.",
       "options": [
         "anxious-mcq-11",
-        "anxious-mcq-10",
-        "anxious-mcq-09",
-        "anxious-mcq-08",
-        "anxious-mcq-07",
+        "anxious-mcq-05",
         "anxious-mcq-06"
       ],
       "explanation": "本句的「anxiety disorder」指「以過度或持續焦慮為主要特徵的心理健康障礙」。",
@@ -900,12 +743,9 @@ export default {
         "anxiety disorder"
       ],
       "optionReasons": {
-        "anxious-mcq-11": "本句指「以過度或持續焦慮為主要特徵的心理健康障礙」。",
-        "anxious-mcq-10": "「持續或強烈、可能影響日常功能的焦慮狀態」與本句語境不同。",
-        "anxious-mcq-09": "「一群人對某個風險或未來情況產生的廣泛憂慮」與本句語境不同。",
-        "anxious-mcq-08": "「因擔心、不確定或威脅而產生的焦慮感」與本句語境不同。",
-        "anxious-mcq-07": "「焦慮／焦急地；亦可表示急切地」與本句語境不同。",
-        "anxious-mcq-06": "「很渴望得到某物／某結果」與本句語境不同。"
+        "anxious-mcq-11": "本句的「anxiety disorder」指「以過度或持續焦慮為主要特徵的心理健康障礙」。",
+        "anxious-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "anxious-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "anxious-mcq-11"
     }
@@ -917,5 +757,7 @@ export default {
     "sha256": "6ae249202b75b09224607b04547b583ee0262a98ed7f71b89b4e9a6b556bb3aa",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

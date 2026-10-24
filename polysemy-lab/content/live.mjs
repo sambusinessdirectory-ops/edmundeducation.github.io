@@ -623,11 +623,9 @@ export default {
       "masked": "She ____ London.",
       "options": [
         "live-mcq-01",
-        "live-mcq-02",
-        "live-mcq-03",
-        "live-mcq-04",
-        "live-mcq-05",
-        "live-mcq-06"
+        "live-mcq-18",
+        "live-mcq-16",
+        "live-mcq-10"
       ],
       "explanation": "本句的「lives in」指「把某個地方作為日常固定住所並在那裡生活」。",
       "sentenceIndex": 0,
@@ -636,12 +634,10 @@ export default {
         "lives in"
       ],
       "optionReasons": {
-        "live-mcq-01": "本句指「把某個地方作為日常固定住所並在那裡生活」。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-01": "本句的「lives in」指「把某個地方作為日常固定住所並在那裡生活」。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-01"
     },
@@ -653,11 +649,9 @@ export default {
       "masked": "I used to ____ near the station.",
       "options": [
         "live-mcq-01",
-        "live-mcq-02",
-        "live-mcq-03",
-        "live-mcq-04",
-        "live-mcq-05",
-        "live-mcq-06"
+        "live-mcq-06",
+        "live-mcq-18",
+        "live-mcq-02"
       ],
       "explanation": "本句的「live」指「把某個地方作為日常固定住所並在那裡生活」。",
       "sentenceIndex": 1,
@@ -666,12 +660,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-01": "本句指「把某個地方作為日常固定住所並在那裡生活」。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-01": "本句的「live」指「把某個地方作為日常固定住所並在那裡生活」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-01"
     },
@@ -683,11 +675,9 @@ export default {
       "masked": "Some turtles can ____ for more than a hundred years.",
       "options": [
         "live-mcq-02",
-        "live-mcq-01",
-        "live-mcq-03",
-        "live-mcq-04",
-        "live-mcq-05",
-        "live-mcq-06"
+        "live-mcq-06",
+        "live-mcq-18",
+        "live-mcq-21"
       ],
       "explanation": "本句的「live」指「保持生命、繼續生存而沒有死亡」。",
       "sentenceIndex": 2,
@@ -696,12 +686,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-02": "本句指「保持生命、繼續生存而沒有死亡」。",
-        "live-mcq-01": "「把某個地方作為日常固定住所並在那裡生活」是「live — reside」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-02": "本句的「live」指「保持生命、繼續生存而沒有死亡」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-02"
     },
@@ -713,11 +701,9 @@ export default {
       "masked": "The doctors did everything they could to help him ____.",
       "options": [
         "live-mcq-02",
-        "live-mcq-01",
-        "live-mcq-03",
-        "live-mcq-04",
-        "live-mcq-05",
-        "live-mcq-06"
+        "live-mcq-12",
+        "live-mcq-18",
+        "live-mcq-10"
       ],
       "explanation": "本句的「live」指「保持生命、繼續生存而沒有死亡」。",
       "sentenceIndex": 3,
@@ -726,12 +712,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-02": "本句指「保持生命、繼續生存而沒有死亡」。",
-        "live-mcq-01": "「把某個地方作為日常固定住所並在那裡生活」是「live — reside」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-02": "本句的「live」指「保持生命、繼續生存而沒有死亡」。",
+        "live-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-02"
     },
@@ -743,11 +727,9 @@ export default {
       "masked": "The animal can ____ twenty years.",
       "options": [
         "live-mcq-03",
-        "live-mcq-02",
-        "live-mcq-04",
-        "live-mcq-01",
-        "live-mcq-05",
-        "live-mcq-06"
+        "live-mcq-11",
+        "live-mcq-14",
+        "live-mcq-10"
       ],
       "explanation": "本句的「live for」指「生存某段時間／活到某個年齡」。",
       "sentenceIndex": 4,
@@ -756,12 +738,10 @@ export default {
         "live for"
       ],
       "optionReasons": {
-        "live-mcq-03": "本句指「生存某段時間／活到某個年齡」。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-01": "「把某個地方作為日常固定住所並在那裡生活」是「live — reside」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-03": "本句的「live for」指「生存某段時間／活到某個年齡」。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-03"
     },
@@ -773,11 +753,9 @@ export default {
       "masked": "Her grandmother ____ the age of ninety-eight.",
       "options": [
         "live-mcq-03",
-        "live-mcq-02",
-        "live-mcq-04",
-        "live-mcq-01",
-        "live-mcq-05",
-        "live-mcq-06"
+        "live-mcq-06",
+        "live-mcq-18",
+        "live-mcq-21"
       ],
       "explanation": "本句的「lived to」指「生存某段時間／活到某個年齡」。",
       "sentenceIndex": 5,
@@ -786,12 +764,10 @@ export default {
         "lived to"
       ],
       "optionReasons": {
-        "live-mcq-03": "本句指「生存某段時間／活到某個年齡」。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-01": "「把某個地方作為日常固定住所並在那裡生活」是「live — reside」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-03": "本句的「lived to」指「生存某段時間／活到某個年齡」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-03"
     },
@@ -803,11 +779,9 @@ export default {
       "masked": "She wants to ____.",
       "options": [
         "live-mcq-04",
-        "live-mcq-03",
-        "live-mcq-05",
-        "live-mcq-02",
         "live-mcq-06",
-        "live-mcq-01"
+        "live-mcq-18",
+        "live-pdf-001"
       ],
       "explanation": "本句的「live a peaceful life」指「以某種方式度過自己的人生」。",
       "sentenceIndex": 6,
@@ -816,12 +790,10 @@ export default {
         "live a peaceful life"
       ],
       "optionReasons": {
-        "live-mcq-04": "本句指「以某種方式度過自己的人生」。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-01": "「把某個地方作為日常固定住所並在那裡生活」是「live — reside」的用法，與本句語境不同。"
+        "live-mcq-04": "本句的「live a peaceful life」指「以某種方式度過自己的人生」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-04"
     },
@@ -833,11 +805,9 @@ export default {
       "masked": "They ____ in the countryside.",
       "options": [
         "live-mcq-04",
-        "live-mcq-03",
-        "live-mcq-05",
-        "live-mcq-02",
-        "live-mcq-06",
-        "live-mcq-01"
+        "live-mcq-16",
+        "live-mcq-10",
+        "live-pdf-001"
       ],
       "explanation": "本句的「lived a simple life」指「以某種方式度過自己的人生」。",
       "sentenceIndex": 7,
@@ -846,12 +816,10 @@ export default {
         "lived a simple life"
       ],
       "optionReasons": {
-        "live-mcq-04": "本句指「以某種方式度過自己的人生」。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-01": "「把某個地方作為日常固定住所並在那裡生活」是「live — reside」的用法，與本句語境不同。"
+        "live-mcq-04": "本句的「lived a simple life」指「以某種方式度過自己的人生」。",
+        "live-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-04"
     },
@@ -863,11 +831,9 @@ export default {
       "masked": "She is finally ____.",
       "options": [
         "live-mcq-05",
-        "live-mcq-04",
-        "live-mcq-06",
-        "live-mcq-03",
-        "live-mcq-07",
-        "live-mcq-02"
+        "live-mcq-18",
+        "live-mcq-10",
+        "live-pdf-001"
       ],
       "explanation": "本句的「living her dream」指「親身實現、實踐或真正經歷某種人生／理想」。",
       "sentenceIndex": 8,
@@ -876,12 +842,10 @@ export default {
         "living her dream"
       ],
       "optionReasons": {
-        "live-mcq-05": "本句指「親身實現、實踐或真正經歷某種人生／理想」。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。"
+        "live-mcq-05": "本句的「living her dream」指「親身實現、實踐或真正經歷某種人生／理想」。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-05"
     },
@@ -893,11 +857,9 @@ export default {
       "masked": "He wanted to ____ on his own terms.",
       "options": [
         "live-mcq-05",
-        "live-mcq-04",
-        "live-mcq-06",
-        "live-mcq-03",
-        "live-mcq-07",
-        "live-mcq-02"
+        "live-mcq-10",
+        "live-mcq-18",
+        "live-pdf-001"
       ],
       "explanation": "本句的「live life」指「親身實現、實踐或真正經歷某種人生／理想」。",
       "sentenceIndex": 9,
@@ -906,12 +868,10 @@ export default {
         "live life"
       ],
       "optionReasons": {
-        "live-mcq-05": "本句指「親身實現、實踐或真正經歷某種人生／理想」。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-02": "「保持生命、繼續生存而沒有死亡」是「live — be alive」的用法，與本句語境不同。"
+        "live-mcq-05": "本句的「live life」指「親身實現、實踐或真正經歷某種人生／理想」。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-05"
     },
@@ -923,11 +883,9 @@ export default {
       "masked": "The headphones really ____.",
       "options": [
         "live-mcq-06",
-        "live-mcq-05",
-        "live-mcq-07",
-        "live-mcq-04",
-        "live-mcq-08",
-        "live-mcq-03"
+        "live-mcq-26",
+        "live-mcq-18",
+        "live-mcq-04"
       ],
       "explanation": "本句的「lived up to the hype」指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
       "sentenceIndex": 10,
@@ -936,12 +894,10 @@ export default {
         "lived up to the hype"
       ],
       "optionReasons": {
-        "live-mcq-06": "本句指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。"
+        "live-mcq-06": "本句的「lived up to the hype」指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
+        "live-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-06"
     },
@@ -953,11 +909,9 @@ export default {
       "masked": "The hotel ____.",
       "options": [
         "live-mcq-06",
-        "live-mcq-05",
-        "live-mcq-07",
-        "live-mcq-04",
-        "live-mcq-08",
-        "live-mcq-03"
+        "live-mcq-21",
+        "live-pdf-001",
+        "live-mcq-18"
       ],
       "explanation": "本句的「lived up to our expectations」指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
       "sentenceIndex": 11,
@@ -966,12 +920,10 @@ export default {
         "lived up to our expectations"
       ],
       "optionReasons": {
-        "live-mcq-06": "本句指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。"
+        "live-mcq-06": "本句的「lived up to our expectations」指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
+        "live-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-06"
     },
@@ -983,11 +935,9 @@ export default {
       "masked": "The film didn’t ____.",
       "options": [
         "live-mcq-06",
-        "live-mcq-05",
-        "live-mcq-07",
-        "live-mcq-04",
-        "live-mcq-08",
-        "live-mcq-03"
+        "live-mcq-21",
+        "live-mcq-02",
+        "live-mcq-18"
       ],
       "explanation": "本句的「live up to its reputation」指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
       "sentenceIndex": 12,
@@ -996,12 +946,10 @@ export default {
         "live up to its reputation"
       ],
       "optionReasons": {
-        "live-mcq-06": "本句指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-03": "「生存某段時間／活到某個年齡」是「live for/to」的用法，與本句語境不同。"
+        "live-mcq-06": "本句的「live up to its reputation」指「實際表現達到某個期待、名聲、標準或承諾所建立的水平」。",
+        "live-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-06"
     },
@@ -1014,10 +962,8 @@ export default {
       "options": [
         "live-mcq-07",
         "live-mcq-06",
-        "live-mcq-08",
-        "live-mcq-05",
-        "live-mcq-09",
-        "live-mcq-04"
+        "live-mcq-18",
+        "live-mcq-19"
       ],
       "explanation": "本句的「live」指「依靠某種收入、資源或條件維持生活」。",
       "sentenceIndex": 13,
@@ -1026,12 +972,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-07": "本句指「依靠某種收入、資源或條件維持生活」。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。"
+        "live-mcq-07": "本句的「live」指「依靠某種收入、資源或條件維持生活」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-07"
     },
@@ -1043,11 +987,9 @@ export default {
       "masked": "For years, he ____ very cheaply.",
       "options": [
         "live-mcq-07",
-        "live-mcq-06",
-        "live-mcq-08",
-        "live-mcq-05",
-        "live-mcq-09",
-        "live-mcq-04"
+        "live-mcq-16",
+        "live-mcq-18",
+        "live-mcq-10"
       ],
       "explanation": "本句的「lived」指「依靠某種收入、資源或條件維持生活」。",
       "sentenceIndex": 14,
@@ -1056,12 +998,10 @@ export default {
         "lived"
       ],
       "optionReasons": {
-        "live-mcq-07": "本句指「依靠某種收入、資源或條件維持生活」。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-04": "「以某種方式度過自己的人生」是「live a life」的用法，與本句語境不同。"
+        "live-mcq-07": "本句的「lived」指「依靠某種收入、資源或條件維持生活」。",
+        "live-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-07"
     },
@@ -1073,11 +1013,9 @@ export default {
       "masked": "Her music continues to ____ through new generations.",
       "options": [
         "live-mcq-08",
-        "live-mcq-07",
-        "live-mcq-09",
-        "live-mcq-06",
-        "live-mcq-10",
-        "live-mcq-05"
+        "live-mcq-13",
+        "live-mcq-21",
+        "live-mcq-10"
       ],
       "explanation": "本句的「live」指「思想、傳統、記憶或作品仍然存在並持續產生影響」。",
       "sentenceIndex": 15,
@@ -1086,12 +1024,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-08": "本句指「思想、傳統、記憶或作品仍然存在並持續產生影響」。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。"
+        "live-mcq-08": "本句的「live」指「思想、傳統、記憶或作品仍然存在並持續產生影響」。",
+        "live-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-08"
     },
@@ -1103,11 +1039,9 @@ export default {
       "masked": "The tradition still ____ in the local community.",
       "options": [
         "live-mcq-08",
-        "live-mcq-07",
-        "live-mcq-09",
-        "live-mcq-06",
-        "live-mcq-10",
-        "live-mcq-05"
+        "live-mcq-11",
+        "live-mcq-04",
+        "live-mcq-09"
       ],
       "explanation": "本句的「lives」指「思想、傳統、記憶或作品仍然存在並持續產生影響」。",
       "sentenceIndex": 16,
@@ -1116,12 +1050,10 @@ export default {
         "lives"
       ],
       "optionReasons": {
-        "live-mcq-08": "本句指「思想、傳統、記憶或作品仍然存在並持續產生影響」。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-05": "「親身實現、實踐或真正經歷某種人生／理想」是「live a dream/experience」的用法，與本句語境不同。"
+        "live-mcq-08": "本句的「lives」指「思想、傳統、記憶或作品仍然存在並持續產生影響」。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-08"
     },
@@ -1133,11 +1065,9 @@ export default {
       "masked": "The match will be shown ____ on television.",
       "options": [
         "live-mcq-09",
-        "live-mcq-08",
-        "live-mcq-10",
-        "live-mcq-07",
-        "live-mcq-11",
-        "live-mcq-06"
+        "live-mcq-14",
+        "live-mcq-12",
+        "live-pdf-001"
       ],
       "explanation": "本句的「live」指「事件發生的同時直接向觀眾播出、非預先錄製的」。",
       "sentenceIndex": 17,
@@ -1146,12 +1076,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-09": "本句指「事件發生的同時直接向觀眾播出、非預先錄製的」。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-09": "本句的「live」指「事件發生的同時直接向觀眾播出、非預先錄製的」。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-09"
     },
@@ -1163,11 +1091,9 @@ export default {
       "masked": "We watched the ____.",
       "options": [
         "live-mcq-09",
-        "live-mcq-08",
-        "live-mcq-10",
-        "live-mcq-07",
-        "live-mcq-11",
-        "live-mcq-06"
+        "live-mcq-06",
+        "live-pdf-001",
+        "live-mcq-18"
       ],
       "explanation": "本句的「live broadcast」指「事件發生的同時直接向觀眾播出、非預先錄製的」。",
       "sentenceIndex": 18,
@@ -1176,12 +1102,10 @@ export default {
         "live broadcast"
       ],
       "optionReasons": {
-        "live-mcq-09": "本句指「事件發生的同時直接向觀眾播出、非預先錄製的」。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-06": "「實際表現達到某個期待、名聲、標準或承諾所建立的水平」是「live up to」的用法，與本句語境不同。"
+        "live-mcq-09": "本句的「live broadcast」指「事件發生的同時直接向觀眾播出、非預先錄製的」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-09"
     },
@@ -1193,11 +1117,9 @@ export default {
       "masked": "I prefer ____ to recordings.",
       "options": [
         "live-mcq-10",
-        "live-mcq-09",
-        "live-mcq-11",
-        "live-mcq-08",
-        "live-mcq-12",
-        "live-mcq-07"
+        "live-mcq-20",
+        "live-mcq-23",
+        "live-mcq-16"
       ],
       "explanation": "本句的「live music」指「表演者在觀眾面前即場演出，而非播放錄音／錄影的」。",
       "sentenceIndex": 19,
@@ -1206,12 +1128,10 @@ export default {
         "live music"
       ],
       "optionReasons": {
-        "live-mcq-10": "本句指「表演者在觀眾面前即場演出，而非播放錄音／錄影的」。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。"
+        "live-mcq-10": "本句的「live music」指「表演者在觀眾面前即場演出，而非播放錄音／錄影的」。",
+        "live-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-10"
     },
@@ -1223,11 +1143,9 @@ export default {
       "masked": "The café has ____ every weekend.",
       "options": [
         "live-mcq-10",
-        "live-mcq-09",
-        "live-mcq-11",
-        "live-mcq-08",
-        "live-mcq-12",
-        "live-mcq-07"
+        "live-mcq-20",
+        "live-mcq-05",
+        "live-mcq-23"
       ],
       "explanation": "本句的「live performances」指「表演者在觀眾面前即場演出，而非播放錄音／錄影的」。",
       "sentenceIndex": 20,
@@ -1236,12 +1154,10 @@ export default {
         "live performances"
       ],
       "optionReasons": {
-        "live-mcq-10": "本句指「表演者在觀眾面前即場演出，而非播放錄音／錄影的」。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-07": "「依靠某種收入、資源或條件維持生活」是「live — subsist」的用法，與本句語境不同。"
+        "live-mcq-10": "本句的「live performances」指「表演者在觀眾面前即場演出，而非播放錄音／錄影的」。",
+        "live-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-10"
     },
@@ -1253,11 +1169,9 @@ export default {
       "masked": "The programme was recorded in front of a ____.",
       "options": [
         "live-mcq-11",
-        "live-mcq-10",
-        "live-mcq-12",
-        "live-mcq-09",
-        "live-mcq-13",
-        "live-mcq-08"
+        "live-mcq-08",
+        "live-mcq-17",
+        "live-mcq-01"
       ],
       "explanation": "本句的「live audience」指「真正身處現場觀看或參與的人」。",
       "sentenceIndex": 21,
@@ -1266,12 +1180,10 @@ export default {
         "live audience"
       ],
       "optionReasons": {
-        "live-mcq-11": "本句指「真正身處現場觀看或參與的人」。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。"
+        "live-mcq-11": "本句的「live audience」指「真正身處現場觀看或參與的人」。",
+        "live-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-11"
     },
@@ -1283,11 +1195,9 @@ export default {
       "masked": "Speaking to a ____ feels different from recording a video.",
       "options": [
         "live-mcq-11",
-        "live-mcq-10",
-        "live-mcq-12",
-        "live-mcq-09",
-        "live-mcq-13",
-        "live-mcq-08"
+        "live-mcq-26",
+        "live-mcq-23",
+        "live-mcq-04"
       ],
       "explanation": "本句的「live audience」指「真正身處現場觀看或參與的人」。",
       "sentenceIndex": 22,
@@ -1296,12 +1206,10 @@ export default {
         "live audience"
       ],
       "optionReasons": {
-        "live-mcq-11": "本句指「真正身處現場觀看或參與的人」。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-08": "「思想、傳統、記憶或作品仍然存在並持續產生影響」是「live — figurative continuation」的用法，與本句語境不同。"
+        "live-mcq-11": "本句的「live audience」指「真正身處現場觀看或參與的人」。",
+        "live-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-11"
     },
@@ -1313,11 +1221,9 @@ export default {
       "masked": "The new website is now ____.",
       "options": [
         "live-mcq-12",
-        "live-mcq-11",
-        "live-mcq-13",
-        "live-mcq-10",
-        "live-mcq-14",
-        "live-mcq-09"
+        "live-mcq-24",
+        "live-mcq-03",
+        "live-mcq-18"
       ],
       "explanation": "本句的「live」指「已正式啟用並由真實使用者／正式系統使用的」。",
       "sentenceIndex": 23,
@@ -1326,12 +1232,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-12": "本句指「已正式啟用並由真實使用者／正式系統使用的」。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。"
+        "live-mcq-12": "本句的「live」指「已正式啟用並由真實使用者／正式系統使用的」。",
+        "live-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-12"
     },
@@ -1343,11 +1247,9 @@ export default {
       "masked": "The payment system will go ____ tomorrow.",
       "options": [
         "live-mcq-12",
-        "live-mcq-11",
-        "live-mcq-13",
-        "live-mcq-10",
-        "live-mcq-14",
-        "live-mcq-09"
+        "live-mcq-02",
+        "live-mcq-25",
+        "live-mcq-24"
       ],
       "explanation": "本句的「live」指「已正式啟用並由真實使用者／正式系統使用的」。",
       "sentenceIndex": 24,
@@ -1356,12 +1258,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-12": "本句指「已正式啟用並由真實使用者／正式系統使用的」。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-09": "「事件發生的同時直接向觀眾播出、非預先錄製的」是「live — broadcast」的用法，與本句語境不同。"
+        "live-mcq-12": "本句的「live」指「已正式啟用並由真實使用者／正式系統使用的」。",
+        "live-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-12"
     },
@@ -1373,11 +1273,9 @@ export default {
       "masked": "The dashboard displays ____.",
       "options": [
         "live-mcq-13",
-        "live-mcq-12",
-        "live-mcq-14",
-        "live-mcq-11",
-        "live-mcq-15",
-        "live-mcq-10"
+        "live-pdf-001",
+        "live-mcq-18",
+        "live-mcq-01"
       ],
       "explanation": "本句的「live data」指「來自當前真實運作環境的即時資料」。",
       "sentenceIndex": 25,
@@ -1386,12 +1284,10 @@ export default {
         "live data"
       ],
       "optionReasons": {
-        "live-mcq-13": "本句指「來自當前真實運作環境的即時資料」。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。"
+        "live-mcq-13": "本句的「live data」指「來自當前真實運作環境的即時資料」。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-13"
     },
@@ -1403,11 +1299,9 @@ export default {
       "masked": "Do not test the feature using the ____.",
       "options": [
         "live-mcq-13",
-        "live-mcq-12",
         "live-mcq-14",
-        "live-mcq-11",
-        "live-mcq-15",
-        "live-mcq-10"
+        "live-mcq-20",
+        "live-mcq-23"
       ],
       "explanation": "本句的「live database」指「來自當前真實運作環境的即時資料」。",
       "sentenceIndex": 26,
@@ -1416,12 +1310,10 @@ export default {
         "live database"
       ],
       "optionReasons": {
-        "live-mcq-13": "本句指「來自當前真實運作環境的即時資料」。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-10": "「表演者在觀眾面前即場演出，而非播放錄音／錄影的」是「live — performance」的用法，與本句語境不同。"
+        "live-mcq-13": "本句的「live database」指「來自當前真實運作環境的即時資料」。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-13"
     },
@@ -1433,11 +1325,9 @@ export default {
       "masked": "Do not touch a ____.",
       "options": [
         "live-mcq-14",
-        "live-mcq-13",
-        "live-mcq-15",
-        "live-mcq-12",
-        "live-mcq-16",
-        "live-mcq-11"
+        "live-mcq-17",
+        "live-pdf-001",
+        "live-mcq-04"
       ],
       "explanation": "本句的「live wire」指「正在承載電流、可能造成觸電危險的」。",
       "sentenceIndex": 27,
@@ -1446,12 +1336,10 @@ export default {
         "live wire"
       ],
       "optionReasons": {
-        "live-mcq-14": "本句指「正在承載電流、可能造成觸電危險的」。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。"
+        "live-mcq-14": "本句的「live wire」指「正在承載電流、可能造成觸電危險的」。",
+        "live-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-14"
     },
@@ -1463,11 +1351,9 @@ export default {
       "masked": "The electrician checked whether the cable was still ____.",
       "options": [
         "live-mcq-14",
-        "live-mcq-13",
-        "live-mcq-15",
-        "live-mcq-12",
-        "live-mcq-16",
-        "live-mcq-11"
+        "live-mcq-03",
+        "live-mcq-19",
+        "live-mcq-10"
       ],
       "explanation": "本句的「live」指「正在承載電流、可能造成觸電危險的」。",
       "sentenceIndex": 28,
@@ -1476,12 +1362,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-14": "本句指「正在承載電流、可能造成觸電危險的」。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-11": "「真正身處現場觀看或參與的人」是「live audience」的用法，與本句語境不同。"
+        "live-mcq-14": "本句的「live」指「正在承載電流、可能造成觸電危險的」。",
+        "live-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-14"
     },
@@ -1493,11 +1377,9 @@ export default {
       "masked": "The training area contained ____.",
       "options": [
         "live-mcq-15",
-        "live-mcq-14",
-        "live-mcq-16",
-        "live-mcq-13",
-        "live-mcq-17",
-        "live-mcq-12"
+        "live-mcq-07",
+        "live-mcq-04",
+        "live-mcq-18"
       ],
       "explanation": "本句的「live ammunition」指「真正具有發射／爆炸能力，而非訓練或假彈的」。",
       "sentenceIndex": 29,
@@ -1506,12 +1388,10 @@ export default {
         "live ammunition"
       ],
       "optionReasons": {
-        "live-mcq-15": "本句指「真正具有發射／爆炸能力，而非訓練或假彈的」。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。"
+        "live-mcq-15": "本句的「live ammunition」指「真正具有發射／爆炸能力，而非訓練或假彈的」。",
+        "live-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-15"
     },
@@ -1523,11 +1403,9 @@ export default {
       "masked": "They discovered a ____.",
       "options": [
         "live-mcq-15",
-        "live-mcq-14",
-        "live-mcq-16",
-        "live-mcq-13",
-        "live-mcq-17",
-        "live-mcq-12"
+        "live-mcq-03",
+        "live-mcq-25",
+        "live-mcq-23"
       ],
       "explanation": "本句的「live explosive device」指「真正具有發射／爆炸能力，而非訓練或假彈的」。",
       "sentenceIndex": 30,
@@ -1536,12 +1414,10 @@ export default {
         "live explosive device"
       ],
       "optionReasons": {
-        "live-mcq-15": "本句指「真正具有發射／爆炸能力，而非訓練或假彈的」。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-12": "「已正式啟用並由真實使用者／正式系統使用的」是「live — technology」的用法，與本句語境不同。"
+        "live-mcq-15": "本句的「live explosive device」指「真正具有發射／爆炸能力，而非訓練或假彈的」。",
+        "live-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-15"
     },
@@ -1553,11 +1429,9 @@ export default {
       "masked": "Privacy remains a ____.",
       "options": [
         "live-mcq-16",
-        "live-mcq-15",
-        "live-mcq-17",
-        "live-mcq-14",
-        "live-mcq-18",
-        "live-mcq-13"
+        "live-mcq-02",
+        "live-mcq-04",
+        "live-mcq-24"
       ],
       "explanation": "本句的「live issue」指「現時仍具現實重要性、正在討論或尚未解決的議題」。",
       "sentenceIndex": 31,
@@ -1566,12 +1440,10 @@ export default {
         "live issue"
       ],
       "optionReasons": {
-        "live-mcq-16": "本句指「現時仍具現實重要性、正在討論或尚未解決的議題」。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。"
+        "live-mcq-16": "本句的「live issue」指「現時仍具現實重要性、正在討論或尚未解決的議題」。",
+        "live-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-16"
     },
@@ -1583,11 +1455,9 @@ export default {
       "masked": "The question is still very much ____.",
       "options": [
         "live-mcq-16",
-        "live-mcq-15",
-        "live-mcq-17",
-        "live-mcq-14",
-        "live-mcq-18",
-        "live-mcq-13"
+        "live-mcq-07",
+        "live-mcq-04",
+        "live-mcq-10"
       ],
       "explanation": "本句的「live」指「現時仍具現實重要性、正在討論或尚未解決的議題」。",
       "sentenceIndex": 32,
@@ -1596,12 +1466,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-16": "本句指「現時仍具現實重要性、正在討論或尚未解決的議題」。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-13": "「來自當前真實運作環境的即時資料」是「live data」的用法，與本句語境不同。"
+        "live-mcq-16": "本句的「live」指「現時仍具現實重要性、正在討論或尚未解決的議題」。",
+        "live-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-16"
     },
@@ -1613,11 +1481,9 @@ export default {
       "masked": "The laboratory works with ____.",
       "options": [
         "live-mcq-17",
-        "live-mcq-16",
-        "live-mcq-18",
-        "live-mcq-15",
-        "live-mcq-19",
-        "live-mcq-14"
+        "live-mcq-06",
+        "live-mcq-04",
+        "live-mcq-09"
       ],
       "explanation": "本句的「live cells」指「仍具有生命活動、不是死亡的」。",
       "sentenceIndex": 33,
@@ -1626,12 +1492,10 @@ export default {
         "live cells"
       ],
       "optionReasons": {
-        "live-mcq-17": "本句指「仍具有生命活動、不是死亡的」。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。"
+        "live-mcq-17": "本句的「live cells」指「仍具有生命活動、不是死亡的」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-17"
     },
@@ -1643,11 +1507,9 @@ export default {
       "masked": "The snake was transported ____.",
       "options": [
         "live-mcq-17",
-        "live-mcq-16",
+        "live-mcq-06",
         "live-mcq-18",
-        "live-mcq-15",
-        "live-mcq-19",
-        "live-mcq-14"
+        "live-pdf-001"
       ],
       "explanation": "本句的「live」指「仍具有生命活動、不是死亡的」。",
       "sentenceIndex": 34,
@@ -1656,12 +1518,10 @@ export default {
         "live"
       ],
       "optionReasons": {
-        "live-mcq-17": "本句指「仍具有生命活動、不是死亡的」。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-14": "「正在承載電流、可能造成觸電危險的」是「live — electricity」的用法，與本句語境不同。"
+        "live-mcq-17": "本句的「live」指「仍具有生命活動、不是死亡的」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-17"
     },
@@ -1673,11 +1533,9 @@ export default {
       "masked": "Be careful—there are still ____ in the fireplace.",
       "options": [
         "live-mcq-18",
-        "live-mcq-17",
         "live-mcq-19",
-        "live-mcq-16",
-        "live-mcq-20",
-        "live-mcq-15"
+        "live-mcq-13",
+        "live-mcq-10"
       ],
       "explanation": "本句的「live coals」指「仍然發熱、燃燒或可能再次引燃的」。",
       "sentenceIndex": 35,
@@ -1686,12 +1544,10 @@ export default {
         "live coals"
       ],
       "optionReasons": {
-        "live-mcq-18": "本句指「仍然發熱、燃燒或可能再次引燃的」。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。"
+        "live-mcq-18": "本句的「live coals」指「仍然發熱、燃燒或可能再次引燃的」。",
+        "live-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-18"
     },
@@ -1703,11 +1559,9 @@ export default {
       "masked": "A ____ landed on the floor.",
       "options": [
         "live-mcq-18",
-        "live-mcq-17",
-        "live-mcq-19",
-        "live-mcq-16",
-        "live-mcq-20",
-        "live-mcq-15"
+        "live-mcq-24",
+        "live-mcq-03",
+        "live-mcq-25"
       ],
       "explanation": "本句的「live ember」指「仍然發熱、燃燒或可能再次引燃的」。",
       "sentenceIndex": 36,
@@ -1716,12 +1570,10 @@ export default {
         "live ember"
       ],
       "optionReasons": {
-        "live-mcq-18": "本句指「仍然發熱、燃燒或可能再次引燃的」。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-15": "「真正具有發射／爆炸能力，而非訓練或假彈的」是「live — ammunition」的用法，與本句語境不同。"
+        "live-mcq-18": "本句的「live ember」指「仍然發熱、燃燒或可能再次引燃的」。",
+        "live-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-18"
     },
@@ -1733,11 +1585,9 @@ export default {
       "masked": "All ____ things need energy.",
       "options": [
         "live-mcq-19",
+        "live-pdf-001",
         "live-mcq-18",
-        "live-mcq-20",
-        "live-mcq-17",
-        "live-mcq-21",
-        "live-mcq-16"
+        "live-mcq-12"
       ],
       "explanation": "本句的「living」指「目前具有生命的；現存的」。",
       "sentenceIndex": 37,
@@ -1746,12 +1596,10 @@ export default {
         "living"
       ],
       "optionReasons": {
-        "live-mcq-19": "本句指「目前具有生命的；現存的」。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。"
+        "live-mcq-19": "本句的「living」指「目前具有生命的；現存的」。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-19"
     },
@@ -1764,10 +1612,8 @@ export default {
       "options": [
         "live-mcq-19",
         "live-mcq-18",
-        "live-mcq-20",
-        "live-mcq-17",
-        "live-mcq-21",
-        "live-mcq-16"
+        "live-mcq-12",
+        "live-pdf-001"
       ],
       "explanation": "本句的「living」指「目前具有生命的；現存的」。",
       "sentenceIndex": 38,
@@ -1776,12 +1622,10 @@ export default {
         "living"
       ],
       "optionReasons": {
-        "live-mcq-19": "本句指「目前具有生命的；現存的」。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-16": "「現時仍具現實重要性、正在討論或尚未解決的議題」是「live issue」的用法，與本句語境不同。"
+        "live-mcq-19": "本句的「living」指「目前具有生命的；現存的」。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-19"
     },
@@ -1793,11 +1637,9 @@ export default {
       "masked": "The cost of ____ has increased.",
       "options": [
         "live-mcq-20",
-        "live-mcq-19",
-        "live-mcq-21",
-        "live-mcq-18",
-        "live-mcq-22",
-        "live-mcq-17"
+        "live-mcq-14",
+        "live-mcq-13",
+        "live-mcq-10"
       ],
       "explanation": "本句的「living」指「日常生活及維持生活的方式／條件」。",
       "sentenceIndex": 39,
@@ -1806,12 +1648,10 @@ export default {
         "living"
       ],
       "optionReasons": {
-        "live-mcq-20": "本句指「日常生活及維持生活的方式／條件」。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。"
+        "live-mcq-20": "本句的「living」指「日常生活及維持生活的方式／條件」。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-20"
     },
@@ -1823,11 +1663,9 @@ export default {
       "masked": "City ____ can be expensive.",
       "options": [
         "live-mcq-20",
-        "live-mcq-19",
-        "live-mcq-21",
+        "live-mcq-11",
         "live-mcq-18",
-        "live-mcq-22",
-        "live-mcq-17"
+        "live-mcq-10"
       ],
       "explanation": "本句的「living」指「日常生活及維持生活的方式／條件」。",
       "sentenceIndex": 40,
@@ -1836,12 +1674,10 @@ export default {
         "living"
       ],
       "optionReasons": {
-        "live-mcq-20": "本句指「日常生活及維持生活的方式／條件」。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-17": "「仍具有生命活動、不是死亡的」是「live — biological adjective」的用法，與本句語境不同。"
+        "live-mcq-20": "本句的「living」指「日常生活及維持生活的方式／條件」。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-20"
     },
@@ -1853,11 +1689,9 @@ export default {
       "masked": "She earns a ____ as a designer.",
       "options": [
         "live-mcq-21",
-        "live-mcq-20",
-        "live-mcq-22",
-        "live-mcq-19",
-        "live-mcq-23",
-        "live-mcq-18"
+        "live-mcq-14",
+        "live-mcq-10",
+        "live-mcq-22"
       ],
       "explanation": "本句的「living」指「足以支付日常生活需要的收入／謀生所得」。",
       "sentenceIndex": 41,
@@ -1866,12 +1700,10 @@ export default {
         "living"
       ],
       "optionReasons": {
-        "live-mcq-21": "本句指「足以支付日常生活需要的收入／謀生所得」。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。"
+        "live-mcq-21": "本句的「living」指「足以支付日常生活需要的收入／謀生所得」。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-21"
     },
@@ -1883,11 +1715,9 @@ export default {
       "masked": "It can be difficult to make a ____ from art.",
       "options": [
         "live-mcq-21",
-        "live-mcq-20",
         "live-mcq-22",
-        "live-mcq-19",
-        "live-mcq-23",
-        "live-mcq-18"
+        "live-mcq-18",
+        "live-mcq-10"
       ],
       "explanation": "本句的「living」指「足以支付日常生活需要的收入／謀生所得」。",
       "sentenceIndex": 42,
@@ -1896,12 +1726,10 @@ export default {
         "living"
       ],
       "optionReasons": {
-        "live-mcq-21": "本句指「足以支付日常生活需要的收入／謀生所得」。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-18": "「仍然發熱、燃燒或可能再次引燃的」是「live coal/ember」的用法，與本句語境不同。"
+        "live-mcq-21": "本句的「living」指「足以支付日常生活需要的收入／謀生所得」。",
+        "live-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-21"
     },
@@ -1913,11 +1741,9 @@ export default {
       "masked": "English is a ____.",
       "options": [
         "live-mcq-22",
-        "live-mcq-21",
-        "live-mcq-23",
-        "live-mcq-20",
         "live-mcq-24",
-        "live-mcq-19"
+        "live-mcq-14",
+        "live-mcq-21"
       ],
       "explanation": "本句的「living language」指「目前仍有人實際使用、實踐並持續演變的」。",
       "sentenceIndex": 43,
@@ -1926,12 +1752,10 @@ export default {
         "living language"
       ],
       "optionReasons": {
-        "live-mcq-22": "本句指「目前仍有人實際使用、實踐並持續演變的」。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。"
+        "live-mcq-22": "本句的「living language」指「目前仍有人實際使用、實踐並持續演變的」。",
+        "live-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-22"
     },
@@ -1943,11 +1767,9 @@ export default {
       "masked": "The festival is part of a ____.",
       "options": [
         "live-mcq-22",
-        "live-mcq-21",
-        "live-mcq-23",
-        "live-mcq-20",
+        "live-mcq-04",
         "live-mcq-24",
-        "live-mcq-19"
+        "live-mcq-09"
       ],
       "explanation": "本句的「living tradition」指「目前仍有人實際使用、實踐並持續演變的」。",
       "sentenceIndex": 44,
@@ -1956,12 +1778,10 @@ export default {
         "living tradition"
       ],
       "optionReasons": {
-        "live-mcq-22": "本句指「目前仍有人實際使用、實踐並持續演變的」。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-19": "「目前具有生命的；現存的」是「living — organism」的用法，與本句語境不同。"
+        "live-mcq-22": "本句的「living tradition」指「目前仍有人實際使用、實踐並持續演變的」。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-22"
     },
@@ -1973,11 +1793,9 @@ export default {
       "masked": "The missing hikers were found ____.",
       "options": [
         "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-24",
-        "live-mcq-21",
-        "live-mcq-25",
-        "live-mcq-20"
+        "live-mcq-11",
+        "live-mcq-10",
+        "live-mcq-14"
       ],
       "explanation": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
       "sentenceIndex": 45,
@@ -1986,12 +1804,10 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "live-mcq-23": "本句指「仍然有生命；引申為充滿活動、能量或生氣」。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。"
+        "live-mcq-23": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-23"
     },
@@ -2003,11 +1819,9 @@ export default {
       "masked": "Is the plant still ____?",
       "options": [
         "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-24",
-        "live-mcq-21",
-        "live-mcq-25",
-        "live-mcq-20"
+        "live-mcq-15",
+        "live-mcq-14",
+        "live-pdf-001"
       ],
       "explanation": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
       "sentenceIndex": 46,
@@ -2016,12 +1830,10 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "live-mcq-23": "本句指「仍然有生命；引申為充滿活動、能量或生氣」。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。"
+        "live-mcq-23": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
+        "live-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-23"
     },
@@ -2033,11 +1845,9 @@ export default {
       "masked": "The city comes ____ at night.",
       "options": [
         "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-24",
-        "live-mcq-21",
-        "live-mcq-25",
-        "live-mcq-20"
+        "live-mcq-06",
+        "live-mcq-09",
+        "live-mcq-04"
       ],
       "explanation": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
       "sentenceIndex": 47,
@@ -2046,12 +1856,10 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "live-mcq-23": "本句指「仍然有生命；引申為充滿活動、能量或生氣」。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。"
+        "live-mcq-23": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
+        "live-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-23"
     },
@@ -2063,11 +1871,9 @@ export default {
       "masked": "Her face became ____ with excitement.",
       "options": [
         "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-24",
-        "live-mcq-21",
-        "live-mcq-25",
-        "live-mcq-20"
+        "live-mcq-14",
+        "live-mcq-11",
+        "live-mcq-10"
       ],
       "explanation": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
       "sentenceIndex": 48,
@@ -2076,12 +1882,10 @@ export default {
         "alive"
       ],
       "optionReasons": {
-        "live-mcq-23": "本句指「仍然有生命；引申為充滿活動、能量或生氣」。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-20": "「日常生活及維持生活的方式／條件」是「living — lifestyle」的用法，與本句語境不同。"
+        "live-mcq-23": "本句的「alive」指「仍然有生命；引申為充滿活動、能量或生氣」。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-23"
     },
@@ -2093,11 +1897,9 @@ export default {
       "masked": "They had a ____ discussion.",
       "options": [
         "live-mcq-24",
-        "live-mcq-23",
-        "live-mcq-25",
+        "live-mcq-10",
         "live-mcq-22",
-        "live-mcq-26",
-        "live-mcq-21"
+        "live-mcq-18"
       ],
       "explanation": "本句的「lively」指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
       "sentenceIndex": 49,
@@ -2106,12 +1908,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "live-mcq-24": "本句指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-mcq-24": "本句的「lively」指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-24"
     },
@@ -2123,11 +1923,9 @@ export default {
       "masked": "The café has a ____ atmosphere.",
       "options": [
         "live-mcq-24",
-        "live-mcq-23",
-        "live-mcq-25",
-        "live-mcq-22",
-        "live-mcq-26",
-        "live-mcq-21"
+        "live-mcq-12",
+        "live-mcq-14",
+        "live-mcq-10"
       ],
       "explanation": "本句的「lively」指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
       "sentenceIndex": 50,
@@ -2136,12 +1934,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "live-mcq-24": "本句指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-mcq-24": "本句的「lively」指「充滿活力、活動、興奮感；亦可指內容生動有趣」。",
+        "live-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-24"
     },
@@ -2153,11 +1949,9 @@ export default {
       "masked": "The speaker gave a ____ presentation.",
       "options": [
         "live-pdf-001",
-        "live-mcq-23",
-        "live-mcq-25",
-        "live-mcq-22",
-        "live-mcq-26",
-        "live-mcq-21"
+        "live-mcq-19",
+        "live-mcq-05",
+        "live-mcq-14"
       ],
       "explanation": "本句的「lively」指「有活力、有趣而能保持別人注意力的」。",
       "sentenceIndex": 51,
@@ -2166,12 +1960,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "live-pdf-001": "本句指「有活力、有趣而能保持別人注意力的」。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-pdf-001": "本句的「lively」指「有活力、有趣而能保持別人注意力的」。",
+        "live-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-pdf-001"
     },
@@ -2183,11 +1975,9 @@ export default {
       "masked": "The article is written in a ____ style.",
       "options": [
         "live-pdf-001",
-        "live-mcq-23",
-        "live-mcq-25",
-        "live-mcq-22",
-        "live-mcq-26",
-        "live-mcq-21"
+        "live-mcq-05",
+        "live-mcq-14",
+        "live-mcq-09"
       ],
       "explanation": "本句的「lively」指「有活力、有趣而能保持別人注意力的」。",
       "sentenceIndex": 52,
@@ -2196,12 +1986,10 @@ export default {
         "lively"
       ],
       "optionReasons": {
-        "live-pdf-001": "本句指「有活力、有趣而能保持別人注意力的」。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-pdf-001": "本句的「lively」指「有活力、有趣而能保持別人注意力的」。",
+        "live-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-pdf-001"
     },
@@ -2213,11 +2001,9 @@ export default {
       "masked": "The apartment is small but ____.",
       "options": [
         "live-mcq-25",
-        "live-mcq-24",
-        "live-mcq-26",
-        "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-21"
+        "live-mcq-11",
+        "live-mcq-10",
+        "live-mcq-18"
       ],
       "explanation": "本句的「livable」指「生活條件達到適合人合理／舒適居住的程度」。",
       "sentenceIndex": 53,
@@ -2226,12 +2012,10 @@ export default {
         "livable"
       ],
       "optionReasons": {
-        "live-mcq-25": "本句指「生活條件達到適合人合理／舒適居住的程度」。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-mcq-25": "本句的「livable」指「生活條件達到適合人合理／舒適居住的程度」。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-25"
     },
@@ -2243,11 +2027,9 @@ export default {
       "masked": "Good transport makes a city more ____.",
       "options": [
         "live-mcq-25",
-        "live-mcq-24",
-        "live-mcq-26",
-        "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-21"
+        "live-mcq-18",
+        "live-mcq-16",
+        "live-mcq-10"
       ],
       "explanation": "本句的「liveable」指「生活條件達到適合人合理／舒適居住的程度」。",
       "sentenceIndex": 54,
@@ -2256,12 +2038,10 @@ export default {
         "liveable"
       ],
       "optionReasons": {
-        "live-mcq-25": "本句指「生活條件達到適合人合理／舒適居住的程度」。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-26": "「用來賺取收入、維持日常生活的工作或經濟來源」是「livelihood」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-mcq-25": "本句的「liveable」指「生活條件達到適合人合理／舒適居住的程度」。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-25"
     },
@@ -2273,11 +2053,9 @@ export default {
       "masked": "Fishing is their main ____.",
       "options": [
         "live-mcq-26",
-        "live-mcq-25",
-        "live-mcq-24",
-        "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-21"
+        "live-mcq-16",
+        "live-mcq-10",
+        "live-mcq-18"
       ],
       "explanation": "本句的「livelihood」指「用來賺取收入、維持日常生活的工作或經濟來源」。",
       "sentenceIndex": 55,
@@ -2286,12 +2064,10 @@ export default {
         "livelihood"
       ],
       "optionReasons": {
-        "live-mcq-26": "本句指「用來賺取收入、維持日常生活的工作或經濟來源」。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-mcq-26": "本句的「livelihood」指「用來賺取收入、維持日常生活的工作或經濟來源」。",
+        "live-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-26"
     },
@@ -2303,11 +2079,9 @@ export default {
       "masked": "The closure threatened hundreds of people’s ____.",
       "options": [
         "live-mcq-26",
-        "live-mcq-25",
-        "live-mcq-24",
-        "live-mcq-23",
-        "live-mcq-22",
-        "live-mcq-21"
+        "live-mcq-18",
+        "live-mcq-11",
+        "live-mcq-10"
       ],
       "explanation": "本句的「livelihoods」指「用來賺取收入、維持日常生活的工作或經濟來源」。",
       "sentenceIndex": 56,
@@ -2316,12 +2090,10 @@ export default {
         "livelihoods"
       ],
       "optionReasons": {
-        "live-mcq-26": "本句指「用來賺取收入、維持日常生活的工作或經濟來源」。",
-        "live-mcq-25": "「生活條件達到適合人合理／舒適居住的程度」是「livable/liveable」的用法，與本句語境不同。",
-        "live-mcq-24": "「充滿活力、活動、興奮感；亦可指內容生動有趣」是「lively」的用法，與本句語境不同。",
-        "live-mcq-23": "「仍然有生命；引申為充滿活動、能量或生氣」是「alive」的用法，與本句語境不同。",
-        "live-mcq-22": "「目前仍有人實際使用、實踐並持續演變的」是「living language/tradition」的用法，與本句語境不同。",
-        "live-mcq-21": "「足以支付日常生活需要的收入／謀生所得」是「a living」的用法，與本句語境不同。"
+        "live-mcq-26": "本句的「livelihoods」指「用來賺取收入、維持日常生活的工作或經濟來源」。",
+        "live-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "live-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "live-mcq-26"
     }
@@ -2333,5 +2105,7 @@ export default {
     "sha256": "17359e16583c1c5af07feaf977e4756b80cce7bd1260ad06bf0a7185fa06bb60",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -460,11 +460,8 @@ export default {
       "masked": "I try not to ____.",
       "options": [
         "grant-mcq-01",
-        "grant-mcq-02",
-        "grant-mcq-03",
-        "grant-mcq-04",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-mcq-09",
+        "grant-mcq-11"
       ],
       "explanation": "本句的「take her presence for granted」指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
       "sentenceIndex": 0,
@@ -473,12 +470,9 @@ export default {
         "take her presence for granted"
       ],
       "optionReasons": {
-        "grant-mcq-01": "本句指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-01": "本句的「take her presence for granted」指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
+        "grant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-01"
     },
@@ -490,11 +484,8 @@ export default {
       "masked": "People often ____ until they become ill.",
       "options": [
         "grant-mcq-01",
-        "grant-mcq-02",
-        "grant-mcq-03",
-        "grant-mcq-04",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-mcq-15",
+        "grant-mcq-13"
       ],
       "explanation": "本句的「take good health for granted」指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
       "sentenceIndex": 1,
@@ -503,12 +494,9 @@ export default {
         "take good health for granted"
       ],
       "optionReasons": {
-        "grant-mcq-01": "本句指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-01": "本句的「take good health for granted」指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
+        "grant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-01"
     },
@@ -520,11 +508,8 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "grant-mcq-01",
-        "grant-mcq-02",
-        "grant-mcq-03",
-        "grant-mcq-04",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-mcq-09",
+        "grant-mcq-12"
       ],
       "explanation": "本句的「take your free time for granted」指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
       "sentenceIndex": 2,
@@ -533,12 +518,9 @@ export default {
         "take your free time for granted"
       ],
       "optionReasons": {
-        "grant-mcq-01": "本句指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-01": "本句的「take your free time for granted」指「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」。",
+        "grant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-01"
     },
@@ -550,11 +532,8 @@ export default {
       "masked": "He realized that he had been ____.",
       "options": [
         "grant-mcq-02",
-        "grant-mcq-01",
-        "grant-mcq-03",
-        "grant-mcq-04",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-mcq-09",
+        "grant-mcq-11"
       ],
       "explanation": "本句的「taking his family for granted」指「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」。",
       "sentenceIndex": 3,
@@ -563,12 +542,9 @@ export default {
         "taking his family for granted"
       ],
       "optionReasons": {
-        "grant-mcq-02": "本句指「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」。",
-        "grant-mcq-01": "「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」是「take something for granted」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-02": "本句的「taking his family for granted」指「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」。",
+        "grant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-02"
     },
@@ -580,11 +556,9 @@ export default {
       "masked": "She felt that her partner was taking her for ____.",
       "options": [
         "grant-mcq-02",
-        "grant-mcq-01",
-        "grant-mcq-03",
-        "grant-mcq-04",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-mcq-11",
+        "grant-mcq-18",
+        "grant-mcq-16"
       ],
       "explanation": "本句的「granted」指「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」。",
       "sentenceIndex": 4,
@@ -593,12 +567,10 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-02": "本句指「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」。",
-        "grant-mcq-01": "「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」是「take something for granted」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-02": "本句的「granted」指「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-02"
     },
@@ -610,11 +582,9 @@ export default {
       "masked": "I ____ she would come.",
       "options": [
         "grant-mcq-03",
-        "grant-mcq-02",
-        "grant-mcq-04",
-        "grant-mcq-01",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-mcq-10",
+        "grant-mcq-07",
+        "grant-mcq-14"
       ],
       "explanation": "本句的「took it for granted that」指「沒有充分證據或思考，便直接假設某事一定為真／會發生」。",
       "sentenceIndex": 5,
@@ -623,12 +593,10 @@ export default {
         "took it for granted that"
       ],
       "optionReasons": {
-        "grant-mcq-03": "本句指「沒有充分證據或思考，便直接假設某事一定為真／會發生」。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-01": "「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」是「take something for granted」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-03": "本句的「took it for granted that」指「沒有充分證據或思考，便直接假設某事一定為真／會發生」。",
+        "grant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-03"
     },
@@ -640,11 +608,8 @@ export default {
       "masked": "We cannot take it for ____ that the plan will succeed.",
       "options": [
         "grant-mcq-03",
-        "grant-mcq-02",
-        "grant-mcq-04",
-        "grant-mcq-01",
-        "grant-mcq-05",
-        "grant-mcq-06"
+        "grant-pdf-001",
+        "grant-mcq-12"
       ],
       "explanation": "本句的「granted」指「沒有充分證據或思考，便直接假設某事一定為真／會發生」。",
       "sentenceIndex": 6,
@@ -653,12 +618,9 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-03": "本句指「沒有充分證據或思考，便直接假設某事一定為真／會發生」。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-01": "「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」是「take something for granted」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-03": "本句的「granted」指「沒有充分證據或思考，便直接假設某事一定為真／會發生」。",
+        "grant-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-03"
     },
@@ -670,11 +632,8 @@ export default {
       "masked": "The university ____ to delay the exam.",
       "options": [
         "grant-mcq-04",
-        "grant-mcq-03",
-        "grant-mcq-05",
-        "grant-mcq-02",
-        "grant-mcq-06",
-        "grant-mcq-01"
+        "grant-mcq-12",
+        "grant-mcq-03"
       ],
       "explanation": "本句的「granted her permission」指「由有權力的人／機構正式給予、批准某項權利、許可或待遇」。",
       "sentenceIndex": 7,
@@ -683,12 +642,9 @@ export default {
         "granted her permission"
       ],
       "optionReasons": {
-        "grant-mcq-04": "本句指「由有權力的人／機構正式給予、批准某項權利、許可或待遇」。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-01": "「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」是「take something for granted」的用法，與本句語境不同。"
+        "grant-mcq-04": "本句的「granted her permission」指「由有權力的人／機構正式給予、批准某項權利、許可或待遇」。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-04"
     },
@@ -700,10 +656,7 @@ export default {
       "masked": "The court ____.",
       "options": [
         "grant-mcq-04",
-        "grant-mcq-03",
-        "grant-mcq-05",
-        "grant-mcq-02",
-        "grant-mcq-06",
+        "grant-mcq-12",
         "grant-mcq-01"
       ],
       "explanation": "本句的「granted the request」指「由有權力的人／機構正式給予、批准某項權利、許可或待遇」。",
@@ -713,12 +666,9 @@ export default {
         "granted the request"
       ],
       "optionReasons": {
-        "grant-mcq-04": "本句指「由有權力的人／機構正式給予、批准某項權利、許可或待遇」。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-01": "「因認為某事會一直存在／繼續，而沒有充分珍惜或感激」是「take something for granted」的用法，與本句語境不同。"
+        "grant-mcq-04": "本句的「granted the request」指「由有權力的人／機構正式給予、批准某項權利、許可或待遇」。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-04"
     },
@@ -730,11 +680,9 @@ export default {
       "masked": "The manager ____ for the event.",
       "options": [
         "grant-mcq-05",
-        "grant-mcq-04",
-        "grant-mcq-06",
-        "grant-mcq-03",
-        "grant-mcq-07",
-        "grant-mcq-02"
+        "grant-mcq-11",
+        "grant-mcq-14",
+        "grant-mcq-01"
       ],
       "explanation": "本句的「granted permission」指「正式准許某人做某件事」。",
       "sentenceIndex": 9,
@@ -743,12 +691,10 @@ export default {
         "granted permission"
       ],
       "optionReasons": {
-        "grant-mcq-05": "本句指「正式准許某人做某件事」。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。"
+        "grant-mcq-05": "本句的「granted permission」指「正式准許某人做某件事」。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-05"
     },
@@ -760,11 +706,9 @@ export default {
       "masked": "Permission was ____ to enter the building.",
       "options": [
         "grant-mcq-05",
-        "grant-mcq-04",
-        "grant-mcq-06",
         "grant-mcq-03",
-        "grant-mcq-07",
-        "grant-mcq-02"
+        "grant-mcq-10",
+        "grant-mcq-17"
       ],
       "explanation": "本句的「granted」指「正式准許某人做某件事」。",
       "sentenceIndex": 10,
@@ -773,12 +717,10 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-05": "本句指「正式准許某人做某件事」。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-02": "「習慣某人的陪伴／付出後，把它視為理所當然而缺乏珍惜」是「take someone for granted」的用法，與本句語境不同。"
+        "grant-mcq-05": "本句的「granted」指「正式准許某人做某件事」。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-05"
     },
@@ -790,11 +732,9 @@ export default {
       "masked": "The judge ____.",
       "options": [
         "grant-mcq-06",
-        "grant-mcq-05",
-        "grant-mcq-07",
-        "grant-mcq-04",
-        "grant-mcq-08",
-        "grant-mcq-03"
+        "grant-mcq-03",
+        "grant-mcq-12",
+        "grant-mcq-16"
       ],
       "explanation": "本句的「granted his request」指「有權力的人／機構正式同意某項請求」。",
       "sentenceIndex": 11,
@@ -803,12 +743,10 @@ export default {
         "granted his request"
       ],
       "optionReasons": {
-        "grant-mcq-06": "本句指「有權力的人／機構正式同意某項請求」。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。"
+        "grant-mcq-06": "本句的「granted his request」指「有權力的人／機構正式同意某項請求」。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-06"
     },
@@ -820,11 +758,9 @@ export default {
       "masked": "Her request for extra time was ____.",
       "options": [
         "grant-mcq-06",
-        "grant-mcq-05",
-        "grant-mcq-07",
-        "grant-mcq-04",
-        "grant-mcq-08",
-        "grant-mcq-03"
+        "grant-mcq-12",
+        "grant-mcq-03",
+        "grant-mcq-17"
       ],
       "explanation": "本句的「granted」指「有權力的人／機構正式同意某項請求」。",
       "sentenceIndex": 12,
@@ -833,12 +769,10 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-06": "本句指「有權力的人／機構正式同意某項請求」。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-03": "「沒有充分證據或思考，便直接假設某事一定為真／會發生」是「take it for granted that…」的用法，與本句語境不同。"
+        "grant-mcq-06": "本句的「granted」指「有權力的人／機構正式同意某項請求」。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-06"
     },
@@ -850,11 +784,9 @@ export default {
       "masked": "The administrator ____ to the files.",
       "options": [
         "grant-mcq-07",
-        "grant-mcq-06",
-        "grant-mcq-08",
-        "grant-mcq-05",
-        "grant-mcq-09",
-        "grant-mcq-04"
+        "grant-mcq-02",
+        "grant-mcq-16",
+        "grant-mcq-10"
       ],
       "explanation": "本句的「granted me access」指「正式授予進入、查看或使用某地方／系統／資料的權限」。",
       "sentenceIndex": 13,
@@ -863,12 +795,10 @@ export default {
         "granted me access"
       ],
       "optionReasons": {
-        "grant-mcq-07": "本句指「正式授予進入、查看或使用某地方／系統／資料的權限」。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。"
+        "grant-mcq-07": "本句的「granted me access」指「正式授予進入、查看或使用某地方／系統／資料的權限」。",
+        "grant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-07"
     },
@@ -880,11 +810,9 @@ export default {
       "masked": "Only managers are ____ access to the system.",
       "options": [
         "grant-mcq-07",
-        "grant-mcq-06",
-        "grant-mcq-08",
-        "grant-mcq-05",
-        "grant-mcq-09",
-        "grant-mcq-04"
+        "grant-mcq-16",
+        "grant-mcq-10",
+        "grant-mcq-03"
       ],
       "explanation": "本句的「granted」指「正式授予進入、查看或使用某地方／系統／資料的權限」。",
       "sentenceIndex": 14,
@@ -893,12 +821,10 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-07": "本句指「正式授予進入、查看或使用某地方／系統／資料的權限」。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-04": "「由有權力的人／機構正式給予、批准某項權利、許可或待遇」是「grant — formally give」的用法，與本句語境不同。"
+        "grant-mcq-07": "本句的「granted」指「正式授予進入、查看或使用某地方／系統／資料的權限」。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-07"
     },
@@ -910,11 +836,9 @@ export default {
       "masked": "The agreement ____.",
       "options": [
         "grant-mcq-08",
-        "grant-mcq-07",
-        "grant-mcq-09",
-        "grant-mcq-06",
-        "grant-mcq-10",
-        "grant-mcq-05"
+        "grant-mcq-01",
+        "grant-mcq-16",
+        "grant-mcq-13"
       ],
       "explanation": "本句的「grants workers certain rights」指「透過制度、法律或身份正式賦予某人權利／待遇」。",
       "sentenceIndex": 15,
@@ -923,12 +847,10 @@ export default {
         "grants workers certain rights"
       ],
       "optionReasons": {
-        "grant-mcq-08": "本句指「透過制度、法律或身份正式賦予某人權利／待遇」。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。"
+        "grant-mcq-08": "本句的「grants workers certain rights」指「透過制度、法律或身份正式賦予某人權利／待遇」。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-08"
     },
@@ -940,11 +862,9 @@ export default {
       "masked": "Membership ____ you access to additional services.",
       "options": [
         "grant-mcq-08",
-        "grant-mcq-07",
-        "grant-mcq-09",
-        "grant-mcq-06",
-        "grant-mcq-10",
-        "grant-mcq-05"
+        "grant-mcq-01",
+        "grant-mcq-11",
+        "grant-mcq-16"
       ],
       "explanation": "本句的「grants」指「透過制度、法律或身份正式賦予某人權利／待遇」。",
       "sentenceIndex": 16,
@@ -953,12 +873,10 @@ export default {
         "grants"
       ],
       "optionReasons": {
-        "grant-mcq-08": "本句指「透過制度、法律或身份正式賦予某人權利／待遇」。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-05": "「正式准許某人做某件事」是「grant permission」的用法，與本句語境不同。"
+        "grant-mcq-08": "本句的「grants」指「透過制度、法律或身份正式賦予某人權利／待遇」。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-08"
     },
@@ -970,11 +888,8 @@ export default {
       "masked": "She was ____.",
       "options": [
         "grant-pdf-001",
-        "grant-mcq-08",
-        "grant-mcq-10",
-        "grant-mcq-07",
         "grant-mcq-11",
-        "grant-mcq-06"
+        "grant-mcq-01"
       ],
       "explanation": "本句的「granted more time」指「某有權力者正式同意給予某人所要求／允許的東西」。",
       "sentenceIndex": 17,
@@ -983,12 +898,9 @@ export default {
         "granted more time"
       ],
       "optionReasons": {
-        "grant-pdf-001": "本句指「某有權力者正式同意給予某人所要求／允許的東西」。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-pdf-001": "本句的「granted more time」指「某有權力者正式同意給予某人所要求／允許的東西」。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-pdf-001"
     },
@@ -1000,11 +912,8 @@ export default {
       "masked": "The prisoner was ____ an interview.",
       "options": [
         "grant-pdf-001",
-        "grant-mcq-08",
-        "grant-mcq-10",
-        "grant-mcq-07",
-        "grant-mcq-11",
-        "grant-mcq-06"
+        "grant-mcq-03",
+        "grant-mcq-12"
       ],
       "explanation": "本句的「granted」指「某有權力者正式同意給予某人所要求／允許的東西」。",
       "sentenceIndex": 18,
@@ -1013,12 +922,9 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-pdf-001": "本句指「某有權力者正式同意給予某人所要求／允許的東西」。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-pdf-001": "本句的「granted」指「某有權力者正式同意給予某人所要求／允許的東西」。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-pdf-001"
     },
@@ -1031,10 +937,7 @@ export default {
       "options": [
         "grant-pdf-002",
         "grant-mcq-09",
-        "grant-mcq-11",
-        "grant-mcq-08",
-        "grant-mcq-12",
-        "grant-mcq-07"
+        "grant-mcq-02"
       ],
       "explanation": "本句的「grant that」指「承認某件事為真，即使之後仍可能提出不同觀點」。",
       "sentenceIndex": 19,
@@ -1043,12 +946,9 @@ export default {
         "grant that"
       ],
       "optionReasons": {
-        "grant-pdf-002": "本句指「承認某件事為真，即使之後仍可能提出不同觀點」。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。"
+        "grant-pdf-002": "本句的「grant that」指「承認某件事為真，即使之後仍可能提出不同觀點」。",
+        "grant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-pdf-002"
     },
@@ -1060,11 +960,8 @@ export default {
       "masked": "He ____ that she had a point.",
       "options": [
         "grant-pdf-002",
-        "grant-mcq-09",
-        "grant-mcq-11",
         "grant-mcq-08",
-        "grant-mcq-12",
-        "grant-mcq-07"
+        "grant-mcq-14"
       ],
       "explanation": "本句的「granted」指「承認某件事為真，即使之後仍可能提出不同觀點」。",
       "sentenceIndex": 20,
@@ -1073,12 +970,9 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-pdf-002": "本句指「承認某件事為真，即使之後仍可能提出不同觀點」。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。"
+        "grant-pdf-002": "本句的「granted」指「承認某件事為真，即使之後仍可能提出不同觀點」。",
+        "grant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-pdf-002"
     },
@@ -1090,11 +984,9 @@ export default {
       "masked": "____, the plan is expensive, but it may still be worthwhile.",
       "options": [
         "grant-mcq-12",
-        "grant-mcq-11",
-        "grant-mcq-13",
-        "grant-mcq-10",
-        "grant-mcq-14",
-        "grant-mcq-09"
+        "grant-mcq-06",
+        "grant-mcq-03",
+        "grant-mcq-14"
       ],
       "explanation": "本句的「Granted」指「誠然／的確；先承認一點，再提出轉折或限制」。",
       "sentenceIndex": 21,
@@ -1103,12 +995,10 @@ export default {
         "Granted"
       ],
       "optionReasons": {
-        "grant-mcq-12": "本句指「誠然／的確；先承認一點，再提出轉折或限制」。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。"
+        "grant-mcq-12": "本句的「Granted」指「誠然／的確；先承認一點，再提出轉折或限制」。",
+        "grant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-12"
     },
@@ -1120,11 +1010,9 @@ export default {
       "masked": "____, she made a mistake, but the reaction was too harsh.",
       "options": [
         "grant-mcq-12",
-        "grant-mcq-11",
-        "grant-mcq-13",
-        "grant-mcq-10",
-        "grant-mcq-14",
-        "grant-mcq-09"
+        "grant-mcq-05",
+        "grant-mcq-03",
+        "grant-mcq-16"
       ],
       "explanation": "本句的「Granted」指「誠然／的確；先承認一點，再提出轉折或限制」。",
       "sentenceIndex": 22,
@@ -1133,12 +1021,10 @@ export default {
         "Granted"
       ],
       "optionReasons": {
-        "grant-mcq-12": "本句指「誠然／的確；先承認一點，再提出轉折或限制」。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。"
+        "grant-mcq-12": "本句的「Granted」指「誠然／的確；先承認一點，再提出轉折或限制」。",
+        "grant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-12"
     },
@@ -1150,11 +1036,9 @@ export default {
       "masked": "____ the evidence is incomplete, the conclusion is still reasonable.",
       "options": [
         "grant-mcq-13",
-        "grant-mcq-12",
-        "grant-mcq-14",
-        "grant-mcq-11",
-        "grant-mcq-15",
-        "grant-mcq-10"
+        "grant-mcq-03",
+        "grant-mcq-08",
+        "grant-mcq-14"
       ],
       "explanation": "本句的「Granted that」指「即使承認某前提成立，主要結論仍然成立」。",
       "sentenceIndex": 23,
@@ -1163,12 +1047,10 @@ export default {
         "Granted that"
       ],
       "optionReasons": {
-        "grant-mcq-13": "本句指「即使承認某前提成立，主要結論仍然成立」。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。"
+        "grant-mcq-13": "本句的「Granted that」指「即使承認某前提成立，主要結論仍然成立」。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-13"
     },
@@ -1180,11 +1062,9 @@ export default {
       "masked": "____ that he was tired, his behaviour was still unacceptable.",
       "options": [
         "grant-mcq-13",
-        "grant-mcq-12",
-        "grant-mcq-14",
-        "grant-mcq-11",
-        "grant-mcq-15",
-        "grant-mcq-10"
+        "grant-mcq-05",
+        "grant-mcq-03",
+        "grant-mcq-17"
       ],
       "explanation": "本句的「Granted」指「即使承認某前提成立，主要結論仍然成立」。",
       "sentenceIndex": 24,
@@ -1193,12 +1073,10 @@ export default {
         "Granted"
       ],
       "optionReasons": {
-        "grant-mcq-13": "本句指「即使承認某前提成立，主要結論仍然成立」。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。"
+        "grant-mcq-13": "本句的「Granted」指「即使承認某前提成立，主要結論仍然成立」。",
+        "grant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-13"
     },
@@ -1210,11 +1088,9 @@ export default {
       "masked": "She received a ____.",
       "options": [
         "grant-mcq-14",
-        "grant-mcq-13",
-        "grant-mcq-15",
-        "grant-mcq-12",
-        "grant-mcq-16",
-        "grant-mcq-11"
+        "grant-mcq-08",
+        "grant-mcq-11",
+        "grant-mcq-01"
       ],
       "explanation": "本句的「research grant」指「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」。",
       "sentenceIndex": 25,
@@ -1223,12 +1099,10 @@ export default {
         "research grant"
       ],
       "optionReasons": {
-        "grant-mcq-14": "本句指「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。"
+        "grant-mcq-14": "本句的「research grant」指「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」。",
+        "grant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-14"
     },
@@ -1240,10 +1114,8 @@ export default {
       "masked": "The organization provides ____ to small charities.",
       "options": [
         "grant-mcq-14",
-        "grant-mcq-13",
-        "grant-mcq-15",
-        "grant-mcq-12",
-        "grant-mcq-16",
+        "grant-mcq-01",
+        "grant-mcq-05",
         "grant-mcq-11"
       ],
       "explanation": "本句的「grants」指「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」。",
@@ -1253,12 +1125,10 @@ export default {
         "grants"
       ],
       "optionReasons": {
-        "grant-mcq-14": "本句指「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。"
+        "grant-mcq-14": "本句的「grants」指「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-14"
     },
@@ -1270,10 +1140,7 @@ export default {
       "masked": "The team received a ____ for the project.",
       "options": [
         "grant-mcq-15",
-        "grant-mcq-14",
-        "grant-mcq-16",
-        "grant-mcq-13",
-        "grant-mcq-17",
+        "grant-mcq-03",
         "grant-mcq-12"
       ],
       "explanation": "本句的「research grant」指「為研究項目提供的正式研究經費」。",
@@ -1283,12 +1150,9 @@ export default {
         "research grant"
       ],
       "optionReasons": {
-        "grant-mcq-15": "本句指「為研究項目提供的正式研究經費」。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-17": "「為學生學習／生活費提供的助學資助」是「student grant」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。"
+        "grant-mcq-15": "本句的「research grant」指「為研究項目提供的正式研究經費」。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-15"
     },
@@ -1300,11 +1164,8 @@ export default {
       "masked": "She applied for a research ____.",
       "options": [
         "grant-mcq-15",
-        "grant-mcq-14",
-        "grant-mcq-16",
-        "grant-mcq-13",
-        "grant-mcq-17",
-        "grant-mcq-12"
+        "grant-mcq-02",
+        "grant-mcq-11"
       ],
       "explanation": "本句的「grant」指「為研究項目提供的正式研究經費」。",
       "sentenceIndex": 28,
@@ -1313,12 +1174,9 @@ export default {
         "grant"
       ],
       "optionReasons": {
-        "grant-mcq-15": "本句指「為研究項目提供的正式研究經費」。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-17": "「為學生學習／生活費提供的助學資助」是「student grant」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。"
+        "grant-mcq-15": "本句的「grant」指「為研究項目提供的正式研究經費」。",
+        "grant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-15"
     },
@@ -1330,11 +1188,9 @@ export default {
       "masked": "The business received a ____.",
       "options": [
         "grant-mcq-16",
-        "grant-mcq-15",
-        "grant-mcq-17",
-        "grant-mcq-14",
-        "grant-mcq-18",
-        "grant-mcq-13"
+        "grant-mcq-06",
+        "grant-mcq-01",
+        "grant-mcq-11"
       ],
       "explanation": "本句的「government grant」指「政府為特定活動、企業或個人提供的補助／撥款」。",
       "sentenceIndex": 29,
@@ -1343,12 +1199,10 @@ export default {
         "government grant"
       ],
       "optionReasons": {
-        "grant-mcq-16": "本句指「政府為特定活動、企業或個人提供的補助／撥款」。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-17": "「為學生學習／生活費提供的助學資助」是「student grant」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-18": "「透過正式文件、法律或制度賦予權利、權限或利益」是「17. grant = official transfer/giving of rights/property（正式授予） — 授予；給予」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。"
+        "grant-mcq-16": "本句的「government grant」指「政府為特定活動、企業或個人提供的補助／撥款」。",
+        "grant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-16"
     },
@@ -1360,11 +1214,9 @@ export default {
       "masked": "The project depends partly on government ____.",
       "options": [
         "grant-mcq-16",
-        "grant-mcq-15",
-        "grant-mcq-17",
-        "grant-mcq-14",
-        "grant-mcq-18",
-        "grant-mcq-13"
+        "grant-mcq-08",
+        "grant-mcq-10",
+        "grant-mcq-01"
       ],
       "explanation": "本句的「grants」指「政府為特定活動、企業或個人提供的補助／撥款」。",
       "sentenceIndex": 30,
@@ -1373,12 +1225,10 @@ export default {
         "grants"
       ],
       "optionReasons": {
-        "grant-mcq-16": "本句指「政府為特定活動、企業或個人提供的補助／撥款」。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-17": "「為學生學習／生活費提供的助學資助」是「student grant」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-18": "「透過正式文件、法律或制度賦予權利、權限或利益」是「17. grant = official transfer/giving of rights/property（正式授予） — 授予；給予」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。"
+        "grant-mcq-16": "本句的「grants」指「政府為特定活動、企業或個人提供的補助／撥款」。",
+        "grant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-16"
     },
@@ -1390,11 +1240,9 @@ export default {
       "masked": "She received a ____ to help with living costs.",
       "options": [
         "grant-mcq-17",
-        "grant-mcq-16",
+        "grant-mcq-11",
         "grant-mcq-18",
-        "grant-mcq-15",
-        "grant-mcq-14",
-        "grant-mcq-13"
+        "grant-mcq-01"
       ],
       "explanation": "本句的「student grant」指「為學生學習／生活費提供的助學資助」。",
       "sentenceIndex": 31,
@@ -1403,12 +1251,10 @@ export default {
         "student grant"
       ],
       "optionReasons": {
-        "grant-mcq-17": "本句指「為學生學習／生活費提供的助學資助」。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-18": "「透過正式文件、法律或制度賦予權利、權限或利益」是「17. grant = official transfer/giving of rights/property（正式授予） — 授予；給予」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。"
+        "grant-mcq-17": "本句的「student grant」指「為學生學習／生活費提供的助學資助」。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-17"
     },
@@ -1420,11 +1266,9 @@ export default {
       "masked": "The ____ covered part of his tuition.",
       "options": [
         "grant-mcq-17",
-        "grant-mcq-16",
-        "grant-mcq-18",
-        "grant-mcq-15",
-        "grant-mcq-14",
-        "grant-mcq-13"
+        "grant-mcq-08",
+        "grant-mcq-11",
+        "grant-mcq-01"
       ],
       "explanation": "本句的「grant」指「為學生學習／生活費提供的助學資助」。",
       "sentenceIndex": 32,
@@ -1433,12 +1277,10 @@ export default {
         "grant"
       ],
       "optionReasons": {
-        "grant-mcq-17": "本句指「為學生學習／生活費提供的助學資助」。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-18": "「透過正式文件、法律或制度賦予權利、權限或利益」是「17. grant = official transfer/giving of rights/property（正式授予） — 授予；給予」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。"
+        "grant-mcq-17": "本句的「grant」指「為學生學習／生活費提供的助學資助」。",
+        "grant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-17"
     },
@@ -1450,10 +1292,8 @@ export default {
       "masked": "The licence ____ to use the software.",
       "options": [
         "grant-mcq-18",
-        "grant-mcq-17",
-        "grant-mcq-16",
-        "grant-mcq-15",
         "grant-mcq-14",
+        "grant-mcq-02",
         "grant-mcq-13"
       ],
       "explanation": "本句的「grants the user the right」指「透過正式文件、法律或制度賦予權利、權限或利益」。",
@@ -1463,12 +1303,10 @@ export default {
         "grants the user the right"
       ],
       "optionReasons": {
-        "grant-mcq-18": "本句指「透過正式文件、法律或制度賦予權利、權限或利益」。",
-        "grant-mcq-17": "「為學生學習／生活費提供的助學資助」是「student grant」的用法，與本句語境不同。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。"
+        "grant-mcq-18": "本句的「grants the user the right」指「透過正式文件、法律或制度賦予權利、權限或利益」。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-18"
     },
@@ -1480,10 +1318,8 @@ export default {
       "masked": "The document ____ authority to the committee.",
       "options": [
         "grant-mcq-18",
+        "grant-mcq-01",
         "grant-mcq-17",
-        "grant-mcq-16",
-        "grant-mcq-15",
-        "grant-mcq-14",
         "grant-mcq-13"
       ],
       "explanation": "本句的「grants」指「透過正式文件、法律或制度賦予權利、權限或利益」。",
@@ -1493,12 +1329,10 @@ export default {
         "grants"
       ],
       "optionReasons": {
-        "grant-mcq-18": "本句指「透過正式文件、法律或制度賦予權利、權限或利益」。",
-        "grant-mcq-17": "「為學生學習／生活費提供的助學資助」是「student grant」的用法，與本句語境不同。",
-        "grant-mcq-16": "「政府為特定活動、企業或個人提供的補助／撥款」是「government grant」的用法，與本句語境不同。",
-        "grant-mcq-15": "「為研究項目提供的正式研究經費」是「research grant」的用法，與本句語境不同。",
-        "grant-mcq-14": "「政府、學校、基金會等為指定用途提供、通常不用償還的資助款項」是「grant — noun」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。"
+        "grant-mcq-18": "本句的「grants」指「透過正式文件、法律或制度賦予權利、權限或利益」。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-18"
     },
@@ -1510,11 +1344,8 @@ export default {
       "masked": "Her application was ____.",
       "options": [
         "grant-mcq-09",
-        "grant-mcq-08",
-        "grant-mcq-10",
-        "grant-mcq-07",
-        "grant-mcq-11",
-        "grant-mcq-06"
+        "grant-mcq-01",
+        "grant-mcq-11"
       ],
       "explanation": "本句的「granted」指「某項要求、許可、權利等正式獲得批准／給予」。",
       "sentenceIndex": 35,
@@ -1523,12 +1354,9 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-09": "本句指「某項要求、許可、權利等正式獲得批准／給予」。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-09": "本句的「granted」指「某項要求、許可、權利等正式獲得批准／給予」。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-09"
     },
@@ -1540,11 +1368,8 @@ export default {
       "masked": "They were ____ permission to stay.",
       "options": [
         "grant-mcq-09",
-        "grant-mcq-08",
-        "grant-mcq-10",
-        "grant-mcq-07",
-        "grant-mcq-11",
-        "grant-mcq-06"
+        "grant-mcq-01",
+        "grant-mcq-12"
       ],
       "explanation": "本句的「granted」指「某項要求、許可、權利等正式獲得批准／給予」。",
       "sentenceIndex": 36,
@@ -1553,12 +1378,9 @@ export default {
         "granted"
       ],
       "optionReasons": {
-        "grant-mcq-09": "本句指「某項要求、許可、權利等正式獲得批准／給予」。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-06": "「有權力的人／機構正式同意某項請求」是「grant a request」的用法，與本句語境不同。"
+        "grant-mcq-09": "本句的「granted」指「某項要求、許可、權利等正式獲得批准／給予」。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-09"
     },
@@ -1570,11 +1392,9 @@ export default {
       "masked": "I’ll ____.",
       "options": [
         "grant-mcq-10",
-        "grant-mcq-09",
-        "grant-mcq-11",
-        "grant-mcq-08",
-        "grant-mcq-12",
-        "grant-mcq-07"
+        "grant-mcq-16",
+        "grant-mcq-03",
+        "grant-mcq-05"
       ],
       "explanation": "本句的「grant you that」指「在討論中承認某項說法／事實成立」。",
       "sentenceIndex": 37,
@@ -1583,12 +1403,10 @@ export default {
         "grant you that"
       ],
       "optionReasons": {
-        "grant-mcq-10": "本句指「在討論中承認某項說法／事實成立」。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。"
+        "grant-mcq-10": "本句的「grant you that」指「在討論中承認某項說法／事實成立」。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-10"
     },
@@ -1600,10 +1418,8 @@ export default {
       "masked": "I ____ you that the first option is cheaper.",
       "options": [
         "grant-mcq-10",
-        "grant-mcq-09",
-        "grant-mcq-11",
-        "grant-mcq-08",
-        "grant-mcq-12",
+        "grant-mcq-03",
+        "grant-mcq-16",
         "grant-mcq-07"
       ],
       "explanation": "本句的「grant」指「在討論中承認某項說法／事實成立」。",
@@ -1613,12 +1429,10 @@ export default {
         "grant"
       ],
       "optionReasons": {
-        "grant-mcq-10": "本句指「在討論中承認某項說法／事實成立」。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-11": "「承認對方某一個有限論點說得對」是「I’ll grant you that」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-07": "「正式授予進入、查看或使用某地方／系統／資料的權限」是「grant access」的用法，與本句語境不同。"
+        "grant-mcq-10": "本句的「grant」指「在討論中承認某項說法／事實成立」。",
+        "grant-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-10"
     },
@@ -1630,11 +1444,9 @@ export default {
       "masked": "He can be difficult, but he works hard—I’ll ____.",
       "options": [
         "grant-mcq-11",
-        "grant-mcq-10",
-        "grant-mcq-12",
-        "grant-mcq-09",
-        "grant-mcq-13",
-        "grant-mcq-08"
+        "grant-mcq-02",
+        "grant-mcq-14",
+        "grant-mcq-18"
       ],
       "explanation": "本句的「grant you that」指「承認對方某一個有限論點說得對」。",
       "sentenceIndex": 39,
@@ -1643,12 +1455,10 @@ export default {
         "grant you that"
       ],
       "optionReasons": {
-        "grant-mcq-11": "本句指「承認對方某一個有限論點說得對」。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。"
+        "grant-mcq-11": "本句的「grant you that」指「承認對方某一個有限論點說得對」。",
+        "grant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-11"
     },
@@ -1660,11 +1470,9 @@ export default {
       "masked": "The design is attractive, I’ll ____ you that.",
       "options": [
         "grant-mcq-11",
-        "grant-mcq-10",
-        "grant-mcq-12",
-        "grant-mcq-09",
-        "grant-mcq-13",
-        "grant-mcq-08"
+        "grant-mcq-17",
+        "grant-mcq-08",
+        "grant-mcq-01"
       ],
       "explanation": "本句的「grant」指「承認對方某一個有限論點說得對」。",
       "sentenceIndex": 40,
@@ -1673,12 +1481,10 @@ export default {
         "grant"
       ],
       "optionReasons": {
-        "grant-mcq-11": "本句指「承認對方某一個有限論點說得對」。",
-        "grant-mcq-10": "「在討論中承認某項說法／事實成立」是「grant that…」的用法，與本句語境不同。",
-        "grant-mcq-12": "「誠然／的確；先承認一點，再提出轉折或限制」是「granted」的用法，與本句語境不同。",
-        "grant-mcq-09": "「某項要求、許可、權利等正式獲得批准／給予」是「be granted」的用法，與本句語境不同。",
-        "grant-mcq-13": "「即使承認某前提成立，主要結論仍然成立」是「granted that…」的用法，與本句語境不同。",
-        "grant-mcq-08": "「透過制度、法律或身份正式賦予某人權利／待遇」是「grant a right/privilege」的用法，與本句語境不同。"
+        "grant-mcq-11": "本句的「grant」指「承認對方某一個有限論點說得對」。",
+        "grant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "grant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "grant-mcq-11"
     }
@@ -1690,5 +1496,7 @@ export default {
     "sha256": "39c53055c0268f53f712e3ff1aadb0132c6871a2b6cbf59ee2bd082266dd1181",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

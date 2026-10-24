@@ -294,11 +294,9 @@ export default {
       "masked": "It was like someone had pressed a ____ button on the outside world.",
       "options": [
         "mute-mcq-01",
-        "mute-mcq-02",
-        "mute-mcq-03",
-        "mute-mcq-04",
-        "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-07",
+        "mute-mcq-09",
+        "mute-mcq-11"
       ],
       "explanation": "本句的「mute」指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
       "sentenceIndex": 0,
@@ -307,12 +305,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-01": "本句指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-01": "本句的「mute」指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-01"
     },
@@ -324,11 +320,9 @@ export default {
       "masked": "Press the ____ button if you don’t want to hear the video.",
       "options": [
         "mute-mcq-01",
-        "mute-mcq-02",
-        "mute-mcq-03",
-        "mute-mcq-04",
-        "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-07",
+        "mute-mcq-09",
+        "mute-mcq-11"
       ],
       "explanation": "本句的「mute」指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
       "sentenceIndex": 1,
@@ -337,12 +331,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-01": "本句指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-01": "本句的「mute」指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-01"
     },
@@ -354,11 +346,9 @@ export default {
       "masked": "I couldn’t hear anything because the television was on ____.",
       "options": [
         "mute-mcq-01",
-        "mute-mcq-02",
-        "mute-mcq-03",
-        "mute-mcq-04",
-        "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-07",
+        "mute-mcq-09",
+        "mute-mcq-11"
       ],
       "explanation": "本句的「mute」指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
       "sentenceIndex": 2,
@@ -367,12 +357,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-01": "本句指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-01": "本句的「mute」指「用來暫時關閉裝置或音訊輸出的靜音功能」。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-01"
     },
@@ -384,11 +372,8 @@ export default {
       "masked": "I ____ the television during the advertisement.",
       "options": [
         "mute-mcq-02",
-        "mute-mcq-01",
-        "mute-mcq-03",
-        "mute-mcq-04",
-        "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-07",
+        "mute-mcq-09"
       ],
       "explanation": "本句的「muted」指「關閉某個聲音來源，使其暫時不產生可聽聲音」。",
       "sentenceIndex": 3,
@@ -397,12 +382,9 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-02": "本句指「關閉某個聲音來源，使其暫時不產生可聽聲音」。",
-        "mute-mcq-01": "「用來暫時關閉裝置或音訊輸出的靜音功能」是「mute button/function」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-02": "本句的「muted」指「關閉某個聲音來源，使其暫時不產生可聽聲音」。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-02"
     },
@@ -414,11 +396,8 @@ export default {
       "masked": "Please ____ your microphone when you’re not speaking.",
       "options": [
         "mute-mcq-02",
-        "mute-mcq-01",
-        "mute-mcq-03",
-        "mute-mcq-04",
-        "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-09",
+        "mute-mcq-07"
       ],
       "explanation": "本句的「mute」指「關閉某個聲音來源，使其暫時不產生可聽聲音」。",
       "sentenceIndex": 4,
@@ -427,12 +406,9 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-02": "本句指「關閉某個聲音來源，使其暫時不產生可聽聲音」。",
-        "mute-mcq-01": "「用來暫時關閉裝置或音訊輸出的靜音功能」是「mute button/function」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-02": "本句的「mute」指「關閉某個聲音來源，使其暫時不產生可聽聲音」。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-02"
     },
@@ -444,11 +420,9 @@ export default {
       "masked": "I ____ the group chat for eight hours.",
       "options": [
         "mute-mcq-03",
-        "mute-mcq-02",
-        "mute-mcq-04",
-        "mute-mcq-01",
+        "mute-mcq-08",
         "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-01"
       ],
       "explanation": "本句的「muted」指「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」。",
       "sentenceIndex": 5,
@@ -457,12 +431,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-03": "本句指「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-01": "「用來暫時關閉裝置或音訊輸出的靜音功能」是「mute button/function」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-03": "本句的「muted」指「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-03"
     },
@@ -474,11 +446,9 @@ export default {
       "masked": "You can ____ an account without unfollowing it.",
       "options": [
         "mute-mcq-03",
-        "mute-mcq-02",
-        "mute-mcq-04",
-        "mute-mcq-01",
-        "mute-mcq-05",
-        "mute-mcq-06"
+        "mute-mcq-07",
+        "mute-mcq-09",
+        "mute-mcq-01"
       ],
       "explanation": "本句的「mute」指「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」。",
       "sentenceIndex": 6,
@@ -487,12 +457,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-03": "本句指「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-01": "「用來暫時關閉裝置或音訊輸出的靜音功能」是「mute button/function」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-03": "本句的「mute」指「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-03"
     },
@@ -504,11 +472,8 @@ export default {
       "masked": "Your microphone is still ____.",
       "options": [
         "mute-mcq-04",
-        "mute-mcq-03",
         "mute-mcq-05",
-        "mute-mcq-02",
-        "mute-mcq-06",
-        "mute-mcq-01"
+        "mute-mcq-07"
       ],
       "explanation": "本句的「on mute」指「聲音功能已被暫時關閉的狀態」。",
       "sentenceIndex": 7,
@@ -517,12 +482,9 @@ export default {
         "on mute"
       ],
       "optionReasons": {
-        "mute-mcq-04": "本句指「聲音功能已被暫時關閉的狀態」。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-01": "「用來暫時關閉裝置或音訊輸出的靜音功能」是「mute button/function」的用法，與本句語境不同。"
+        "mute-mcq-04": "本句的「on mute」指「聲音功能已被暫時關閉的狀態」。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-04"
     },
@@ -534,11 +496,8 @@ export default {
       "masked": "I usually keep my phone ____ during meetings.",
       "options": [
         "mute-mcq-04",
-        "mute-mcq-03",
-        "mute-mcq-05",
-        "mute-mcq-02",
-        "mute-mcq-06",
-        "mute-mcq-01"
+        "mute-mcq-09",
+        "mute-mcq-07"
       ],
       "explanation": "本句的「on mute」指「聲音功能已被暫時關閉的狀態」。",
       "sentenceIndex": 8,
@@ -547,12 +506,9 @@ export default {
         "on mute"
       ],
       "optionReasons": {
-        "mute-mcq-04": "本句指「聲音功能已被暫時關閉的狀態」。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-01": "「用來暫時關閉裝置或音訊輸出的靜音功能」是「mute button/function」的用法，與本句語境不同。"
+        "mute-mcq-04": "本句的「on mute」指「聲音功能已被暫時關閉的狀態」。",
+        "mute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-04"
     },
@@ -564,11 +520,9 @@ export default {
       "masked": "He stood ____ with shock.",
       "options": [
         "mute-mcq-05",
-        "mute-mcq-04",
-        "mute-mcq-06",
-        "mute-mcq-03",
+        "mute-mcq-11",
         "mute-mcq-07",
-        "mute-mcq-02"
+        "mute-mcq-01"
       ],
       "explanation": "本句的「mute」指「因無法、震驚或選擇等原因而完全不開口的」。",
       "sentenceIndex": 9,
@@ -577,12 +531,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-05": "本句指「因無法、震驚或選擇等原因而完全不開口的」。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。"
+        "mute-mcq-05": "本句的「mute」指「因無法、震驚或選擇等原因而完全不開口的」。",
+        "mute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-05"
     },
@@ -594,11 +546,8 @@ export default {
       "masked": "She remained ____ throughout the questioning.",
       "options": [
         "mute-mcq-05",
-        "mute-mcq-04",
-        "mute-mcq-06",
-        "mute-mcq-03",
-        "mute-mcq-07",
-        "mute-mcq-02"
+        "mute-mcq-02",
+        "mute-mcq-08"
       ],
       "explanation": "本句的「mute」指「因無法、震驚或選擇等原因而完全不開口的」。",
       "sentenceIndex": 10,
@@ -607,12 +556,9 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-05": "本句指「因無法、震驚或選擇等原因而完全不開口的」。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-02": "「關閉某個聲音來源，使其暫時不產生可聽聲音」是「mute audio/device/call」的用法，與本句語境不同。"
+        "mute-mcq-05": "本句的「mute」指「因無法、震驚或選擇等原因而完全不開口的」。",
+        "mute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-05"
     },
@@ -624,11 +570,9 @@ export default {
       "masked": "A ____ cry came from the next room.",
       "options": [
         "mute-mcq-06",
-        "mute-mcq-05",
-        "mute-mcq-07",
-        "mute-mcq-04",
         "mute-mcq-08",
-        "mute-mcq-03"
+        "mute-mcq-05",
+        "mute-mcq-01"
       ],
       "explanation": "本句的「mute」指「聲音受到壓低，比原本更柔和或微弱的」。",
       "sentenceIndex": 11,
@@ -637,12 +581,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-06": "本句指「聲音受到壓低，比原本更柔和或微弱的」。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。"
+        "mute-mcq-06": "本句的「mute」指「聲音受到壓低，比原本更柔和或微弱的」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-06"
     },
@@ -654,11 +596,9 @@ export default {
       "masked": "The thick walls made the sounds outside seem ____.",
       "options": [
         "mute-mcq-06",
-        "mute-mcq-05",
-        "mute-mcq-07",
-        "mute-mcq-04",
         "mute-mcq-08",
-        "mute-mcq-03"
+        "mute-mcq-05",
+        "mute-mcq-01"
       ],
       "explanation": "本句的「muted」指「聲音受到壓低，比原本更柔和或微弱的」。",
       "sentenceIndex": 12,
@@ -667,12 +607,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-06": "本句指「聲音受到壓低，比原本更柔和或微弱的」。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。"
+        "mute-mcq-06": "本句的「muted」指「聲音受到壓低，比原本更柔和或微弱的」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-06"
     },
@@ -684,11 +622,9 @@ export default {
       "masked": "We could hear ____ voices through the wall.",
       "options": [
         "mute-mcq-06",
-        "mute-mcq-05",
-        "mute-mcq-07",
-        "mute-mcq-04",
         "mute-mcq-08",
-        "mute-mcq-03"
+        "mute-mcq-05",
+        "mute-mcq-01"
       ],
       "explanation": "本句的「muted」指「聲音受到壓低，比原本更柔和或微弱的」。",
       "sentenceIndex": 13,
@@ -697,12 +633,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-06": "本句指「聲音受到壓低，比原本更柔和或微弱的」。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。"
+        "mute-mcq-06": "本句的「muted」指「聲音受到壓低，比原本更柔和或微弱的」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-06"
     },
@@ -714,11 +648,9 @@ export default {
       "masked": "The music continued at a ____ volume.",
       "options": [
         "mute-mcq-06",
-        "mute-mcq-05",
-        "mute-mcq-07",
-        "mute-mcq-04",
         "mute-mcq-08",
-        "mute-mcq-03"
+        "mute-mcq-01",
+        "mute-mcq-05"
       ],
       "explanation": "本句的「muted」指「聲音受到壓低，比原本更柔和或微弱的」。",
       "sentenceIndex": 14,
@@ -727,12 +659,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-06": "本句指「聲音受到壓低，比原本更柔和或微弱的」。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-03": "「暫停接收某來源的通知、聲音或內容，而不一定封鎖它」是「mute chat/account/notifications」的用法，與本句語境不同。"
+        "mute-mcq-06": "本句的「muted」指「聲音受到壓低，比原本更柔和或微弱的」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-06"
     },
@@ -744,11 +674,8 @@ export default {
       "masked": "The room was decorated in ____ colours.",
       "options": [
         "mute-mcq-07",
-        "mute-mcq-06",
-        "mute-mcq-08",
-        "mute-mcq-05",
-        "mute-mcq-09",
-        "mute-mcq-04"
+        "mute-mcq-02",
+        "mute-mcq-05"
       ],
       "explanation": "本句的「muted」指「視覺強度／飽和度較低，柔和而不鮮艷的」。",
       "sentenceIndex": 15,
@@ -757,12 +684,9 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-07": "本句指「視覺強度／飽和度較低，柔和而不鮮艷的」。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。"
+        "mute-mcq-07": "本句的「muted」指「視覺強度／飽和度較低，柔和而不鮮艷的」。",
+        "mute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-07"
     },
@@ -774,11 +698,9 @@ export default {
       "masked": "The designer chose a ____ green for the walls.",
       "options": [
         "mute-mcq-07",
-        "mute-mcq-06",
-        "mute-mcq-08",
-        "mute-mcq-05",
-        "mute-mcq-09",
-        "mute-mcq-04"
+        "mute-mcq-01",
+        "mute-mcq-03",
+        "mute-mcq-05"
       ],
       "explanation": "本句的「muted」指「視覺強度／飽和度較低，柔和而不鮮艷的」。",
       "sentenceIndex": 16,
@@ -787,12 +709,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-07": "本句指「視覺強度／飽和度較低，柔和而不鮮艷的」。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-04": "「聲音功能已被暫時關閉的狀態」是「on mute」的用法，與本句語境不同。"
+        "mute-mcq-07": "本句的「muted」指「視覺強度／飽和度較低，柔和而不鮮艷的」。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-07"
     },
@@ -804,10 +724,7 @@ export default {
       "masked": "The announcement received a ____ response.",
       "options": [
         "mute-mcq-08",
-        "mute-mcq-07",
-        "mute-mcq-09",
-        "mute-mcq-06",
-        "mute-mcq-10",
+        "mute-mcq-04",
         "mute-mcq-05"
       ],
       "explanation": "本句的「muted」指「情緒或反應存在，但表現得克制、不強烈的」。",
@@ -817,12 +734,9 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-08": "本句指「情緒或反應存在，但表現得克制、不強烈的」。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。"
+        "mute-mcq-08": "本句的「muted」指「情緒或反應存在，但表現得克制、不強烈的」。",
+        "mute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-08"
     },
@@ -834,10 +748,7 @@ export default {
       "masked": "There was ____ excitement in the office.",
       "options": [
         "mute-mcq-08",
-        "mute-mcq-07",
-        "mute-mcq-09",
-        "mute-mcq-06",
-        "mute-mcq-10",
+        "mute-mcq-04",
         "mute-mcq-05"
       ],
       "explanation": "本句的「muted」指「情緒或反應存在，但表現得克制、不強烈的」。",
@@ -847,12 +758,9 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-08": "本句指「情緒或反應存在，但表現得克制、不強烈的」。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-05": "「因無法、震驚或選擇等原因而完全不開口的」是「mute — person」的用法，與本句語境不同。"
+        "mute-mcq-08": "本句的「muted」指「情緒或反應存在，但表現得克制、不強烈的」。",
+        "mute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-08"
     },
@@ -864,11 +772,9 @@ export default {
       "masked": "The advertisement used a ____ visual style.",
       "options": [
         "mute-mcq-09",
-        "mute-mcq-08",
-        "mute-mcq-10",
-        "mute-mcq-07",
-        "mute-mcq-11",
-        "mute-mcq-06"
+        "mute-mcq-01",
+        "mute-mcq-03",
+        "mute-mcq-07"
       ],
       "explanation": "本句的「muted」指「整體表現低調克制、不誇張或不搶眼的」。",
       "sentenceIndex": 19,
@@ -877,12 +783,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-09": "本句指「整體表現低調克制、不誇張或不搶眼的」。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-11": "「使用弱音方式降低或改變樂器的聲音」是「mute an instrument」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-09": "本句的「muted」指「整體表現低調克制、不誇張或不搶眼的」。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-09"
     },
@@ -894,11 +798,9 @@ export default {
       "masked": "She wore a ____ grey suit.",
       "options": [
         "mute-mcq-09",
-        "mute-mcq-08",
-        "mute-mcq-10",
-        "mute-mcq-07",
-        "mute-mcq-11",
-        "mute-mcq-06"
+        "mute-mcq-01",
+        "mute-mcq-03",
+        "mute-mcq-07"
       ],
       "explanation": "本句的「muted」指「整體表現低調克制、不誇張或不搶眼的」。",
       "sentenceIndex": 20,
@@ -907,12 +809,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-09": "本句指「整體表現低調克制、不誇張或不搶眼的」。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。",
-        "mute-mcq-11": "「使用弱音方式降低或改變樂器的聲音」是「mute an instrument」的用法，與本句語境不同。",
-        "mute-mcq-06": "「聲音受到壓低，比原本更柔和或微弱的」是「muted sound/voice」的用法，與本句語境不同。"
+        "mute-mcq-09": "本句的「muted」指「整體表現低調克制、不誇張或不搶眼的」。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-09"
     },
@@ -924,11 +824,8 @@ export default {
       "masked": "The trumpet player used a ____ during the second piece.",
       "options": [
         "mute-mcq-10",
-        "mute-mcq-09",
-        "mute-mcq-11",
         "mute-mcq-08",
-        "mute-mcq-12",
-        "mute-mcq-07"
+        "mute-mcq-05"
       ],
       "explanation": "本句的「mute」指「裝在樂器上、用來降低音量或改變音色的弱音器」。",
       "sentenceIndex": 21,
@@ -937,12 +834,9 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-10": "本句指「裝在樂器上、用來降低音量或改變音色的弱音器」。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-11": "「使用弱音方式降低或改變樂器的聲音」是「mute an instrument」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-12": "「暫時關閉或降低聲音、通知等輸出的操作」是「muting」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。"
+        "mute-mcq-10": "本句的「mute」指「裝在樂器上、用來降低音量或改變音色的弱音器」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-10"
     },
@@ -954,11 +848,8 @@ export default {
       "masked": "She placed a ____ on the violin.",
       "options": [
         "mute-mcq-10",
-        "mute-mcq-09",
-        "mute-mcq-11",
-        "mute-mcq-08",
-        "mute-mcq-12",
-        "mute-mcq-07"
+        "mute-mcq-05",
+        "mute-mcq-08"
       ],
       "explanation": "本句的「mute」指「裝在樂器上、用來降低音量或改變音色的弱音器」。",
       "sentenceIndex": 22,
@@ -967,12 +858,9 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-10": "本句指「裝在樂器上、用來降低音量或改變音色的弱音器」。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-11": "「使用弱音方式降低或改變樂器的聲音」是「mute an instrument」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-12": "「暫時關閉或降低聲音、通知等輸出的操作」是「muting」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。"
+        "mute-mcq-10": "本句的「mute」指「裝在樂器上、用來降低音量或改變音色的弱音器」。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-10"
     },
@@ -984,11 +872,9 @@ export default {
       "masked": "The composer asked the musicians to ____ their trumpets.",
       "options": [
         "mute-mcq-11",
-        "mute-mcq-10",
-        "mute-mcq-12",
-        "mute-mcq-09",
         "mute-mcq-08",
-        "mute-mcq-07"
+        "mute-mcq-05",
+        "mute-mcq-01"
       ],
       "explanation": "本句的「mute」指「使用弱音方式降低或改變樂器的聲音」。",
       "sentenceIndex": 23,
@@ -997,12 +883,10 @@ export default {
         "mute"
       ],
       "optionReasons": {
-        "mute-mcq-11": "本句指「使用弱音方式降低或改變樂器的聲音」。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-12": "「暫時關閉或降低聲音、通知等輸出的操作」是「muting」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。"
+        "mute-mcq-11": "本句的「mute」指「使用弱音方式降低或改變樂器的聲音」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-11"
     },
@@ -1014,11 +898,9 @@ export default {
       "masked": "The strings were ____ for this section.",
       "options": [
         "mute-mcq-11",
-        "mute-mcq-10",
-        "mute-mcq-12",
-        "mute-mcq-09",
+        "mute-mcq-05",
         "mute-mcq-08",
-        "mute-mcq-07"
+        "mute-mcq-01"
       ],
       "explanation": "本句的「muted」指「使用弱音方式降低或改變樂器的聲音」。",
       "sentenceIndex": 24,
@@ -1027,12 +909,10 @@ export default {
         "muted"
       ],
       "optionReasons": {
-        "mute-mcq-11": "本句指「使用弱音方式降低或改變樂器的聲音」。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-12": "「暫時關閉或降低聲音、通知等輸出的操作」是「muting」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。"
+        "mute-mcq-11": "本句的「muted」指「使用弱音方式降低或改變樂器的聲音」。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-11"
     },
@@ -1044,11 +924,8 @@ export default {
       "masked": "Automatic microphone ____ reduces background noise.",
       "options": [
         "mute-mcq-12",
-        "mute-mcq-11",
-        "mute-mcq-10",
-        "mute-mcq-09",
         "mute-mcq-08",
-        "mute-mcq-07"
+        "mute-mcq-05"
       ],
       "explanation": "本句的「muting」指「暫時關閉或降低聲音、通知等輸出的操作」。",
       "sentenceIndex": 25,
@@ -1057,12 +934,9 @@ export default {
         "muting"
       ],
       "optionReasons": {
-        "mute-mcq-12": "本句指「暫時關閉或降低聲音、通知等輸出的操作」。",
-        "mute-mcq-11": "「使用弱音方式降低或改變樂器的聲音」是「mute an instrument」的用法，與本句語境不同。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。"
+        "mute-mcq-12": "本句的「muting」指「暫時關閉或降低聲音、通知等輸出的操作」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-12"
     },
@@ -1074,11 +948,8 @@ export default {
       "masked": "The app supports notification ____.",
       "options": [
         "mute-mcq-12",
-        "mute-mcq-11",
-        "mute-mcq-10",
-        "mute-mcq-09",
         "mute-mcq-08",
-        "mute-mcq-07"
+        "mute-mcq-05"
       ],
       "explanation": "本句的「muting」指「暫時關閉或降低聲音、通知等輸出的操作」。",
       "sentenceIndex": 26,
@@ -1087,12 +958,9 @@ export default {
         "muting"
       ],
       "optionReasons": {
-        "mute-mcq-12": "本句指「暫時關閉或降低聲音、通知等輸出的操作」。",
-        "mute-mcq-11": "「使用弱音方式降低或改變樂器的聲音」是「mute an instrument」的用法，與本句語境不同。",
-        "mute-mcq-10": "「裝在樂器上、用來降低音量或改變音色的弱音器」是「mute — musical device」的用法，與本句語境不同。",
-        "mute-mcq-09": "「整體表現低調克制、不誇張或不搶眼的」是「muted style」的用法，與本句語境不同。",
-        "mute-mcq-08": "「情緒或反應存在，但表現得克制、不強烈的」是「muted reaction/emotion」的用法，與本句語境不同。",
-        "mute-mcq-07": "「視覺強度／飽和度較低，柔和而不鮮艷的」是「muted colour」的用法，與本句語境不同。"
+        "mute-mcq-12": "本句的「muting」指「暫時關閉或降低聲音、通知等輸出的操作」。",
+        "mute-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mute-mcq-12"
     }
@@ -1104,5 +972,7 @@ export default {
     "sha256": "835e371c8215109daf6a0970b730ea3521358d74817e7595f3e5ac2759e1143f",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "what-mcq-03",
-      "title": "表示「……的東西／事情」，相當於 the thing(s) that",
+      "title": "「……的東西／事情」，相當於 the thing(s) that",
       "form": "what + clause",
       "en": "what + clause",
       "zh": "表示「……的東西／事情」，相當於 the thing(s) that",
@@ -436,11 +436,9 @@ export default {
       "masked": "____ is that?",
       "options": [
         "what-mcq-01",
-        "what-mcq-02",
-        "what-mcq-03",
+        "what-mcq-15",
         "what-mcq-04",
-        "what-mcq-05",
-        "what-mcq-06"
+        "what-mcq-03"
       ],
       "explanation": "本句的「What」指「用來詢問某件事、某物、情況或資訊是甚麼」。",
       "sentenceIndex": 0,
@@ -449,12 +447,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-01": "本句指「用來詢問某件事、某物、情況或資訊是甚麼」。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-01": "本句的「What」指「用來詢問某件事、某物、情況或資訊是甚麼」。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-01"
     },
@@ -466,11 +462,9 @@ export default {
       "masked": "____ happened?",
       "options": [
         "what-mcq-01",
-        "what-mcq-02",
         "what-mcq-03",
-        "what-mcq-04",
-        "what-mcq-05",
-        "what-mcq-06"
+        "what-mcq-17",
+        "what-mcq-15"
       ],
       "explanation": "本句的「What」指「用來詢問某件事、某物、情況或資訊是甚麼」。",
       "sentenceIndex": 1,
@@ -479,12 +473,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-01": "本句指「用來詢問某件事、某物、情況或資訊是甚麼」。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-01": "本句的「What」指「用來詢問某件事、某物、情況或資訊是甚麼」。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-01"
     },
@@ -496,11 +488,9 @@ export default {
       "masked": "____ does she grow?",
       "options": [
         "what-mcq-02",
-        "what-mcq-01",
-        "what-mcq-03",
-        "what-mcq-04",
-        "what-mcq-05",
-        "what-mcq-06"
+        "what-mcq-12",
+        "what-mcq-14",
+        "what-mcq-04"
       ],
       "explanation": "本句的「What plants」指「詢問某類人／事物的身分、種類、性質等」。",
       "sentenceIndex": 2,
@@ -509,12 +499,10 @@ export default {
         "What plants"
       ],
       "optionReasons": {
-        "what-mcq-02": "本句指「詢問某類人／事物的身分、種類、性質等」。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-02": "本句的「What plants」指「詢問某類人／事物的身分、種類、性質等」。",
+        "what-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-02"
     },
@@ -526,10 +514,8 @@ export default {
       "masked": "____ colour are the flowers?",
       "options": [
         "what-mcq-02",
-        "what-mcq-01",
-        "what-mcq-03",
-        "what-mcq-04",
-        "what-mcq-05",
+        "what-mcq-15",
+        "what-mcq-17",
         "what-mcq-06"
       ],
       "explanation": "本句的「What」指「詢問某類人／事物的身分、種類、性質等」。",
@@ -539,12 +525,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-02": "本句指「詢問某類人／事物的身分、種類、性質等」。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-02": "本句的「What」指「詢問某類人／事物的身分、種類、性質等」。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-02"
     },
@@ -556,11 +540,9 @@ export default {
       "masked": "She enjoys sharing ____.",
       "options": [
         "what-mcq-03",
-        "what-mcq-02",
         "what-mcq-04",
-        "what-mcq-01",
-        "what-mcq-05",
-        "what-mcq-06"
+        "what-mcq-09",
+        "what-mcq-12"
       ],
       "explanation": "本句的「what she grows」指「表示「……的東西／事情」，相當於 the thing(s) that」。",
       "sentenceIndex": 4,
@@ -569,12 +551,10 @@ export default {
         "what she grows"
       ],
       "optionReasons": {
-        "what-mcq-03": "本句指「表示「……的東西／事情」，相當於 the thing(s) that」。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-03": "本句的「what she grows」指「表示「……的東西／事情」，相當於 the thing(s) that」。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-03"
     },
@@ -586,11 +566,9 @@ export default {
       "masked": "Take ____.",
       "options": [
         "what-mcq-03",
-        "what-mcq-02",
-        "what-mcq-04",
-        "what-mcq-01",
-        "what-mcq-05",
-        "what-mcq-06"
+        "what-mcq-13",
+        "what-mcq-15",
+        "what-mcq-14"
       ],
       "explanation": "本句的「what you need」指「表示「……的東西／事情」，相當於 the thing(s) that」。",
       "sentenceIndex": 5,
@@ -599,12 +577,10 @@ export default {
         "what you need"
       ],
       "optionReasons": {
-        "what-mcq-03": "本句指「表示「……的東西／事情」，相當於 the thing(s) that」。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-03": "本句的「what you need」指「表示「……的東西／事情」，相當於 the thing(s) that」。",
+        "what-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-03"
     },
@@ -616,10 +592,8 @@ export default {
       "masked": "I understand ____ you mean.",
       "options": [
         "what-mcq-03",
-        "what-mcq-02",
+        "what-mcq-10",
         "what-mcq-04",
-        "what-mcq-01",
-        "what-mcq-05",
         "what-mcq-06"
       ],
       "explanation": "本句的「what」指「表示「……的東西／事情」，相當於 the thing(s) that」。",
@@ -629,12 +603,10 @@ export default {
         "what"
       ],
       "optionReasons": {
-        "what-mcq-03": "本句指「表示「……的東西／事情」，相當於 the thing(s) that」。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-03": "本句的「what」指「表示「……的東西／事情」，相當於 the thing(s) that」。",
+        "what-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-03"
     },
@@ -646,11 +618,9 @@ export default {
       "masked": "____ matters most is honesty.",
       "options": [
         "what-mcq-04",
-        "what-mcq-03",
-        "what-mcq-05",
-        "what-mcq-02",
-        "what-mcq-06",
-        "what-mcq-01"
+        "what-mcq-01",
+        "what-mcq-15",
+        "what-mcq-16"
       ],
       "explanation": "本句的「What」指「整個「所……的事／物」作句子主語」。",
       "sentenceIndex": 7,
@@ -659,12 +629,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-04": "本句指「整個「所……的事／物」作句子主語」。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。"
+        "what-mcq-04": "本句的「What」指「整個「所……的事／物」作句子主語」。",
+        "what-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-04"
     },
@@ -676,11 +644,9 @@ export default {
       "masked": "____ she said surprised everyone.",
       "options": [
         "what-mcq-04",
-        "what-mcq-03",
-        "what-mcq-05",
-        "what-mcq-02",
-        "what-mcq-06",
-        "what-mcq-01"
+        "what-mcq-15",
+        "what-mcq-01",
+        "what-mcq-03"
       ],
       "explanation": "本句的「What」指「整個「所……的事／物」作句子主語」。",
       "sentenceIndex": 8,
@@ -689,12 +655,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-04": "本句指「整個「所……的事／物」作句子主語」。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。"
+        "what-mcq-04": "本句的「What」指「整個「所……的事／物」作句子主語」。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-04"
     },
@@ -706,11 +670,9 @@ export default {
       "masked": "____ was wrong.",
       "options": [
         "what-mcq-04",
-        "what-mcq-03",
-        "what-mcq-05",
-        "what-mcq-02",
-        "what-mcq-06",
-        "what-mcq-01"
+        "what-mcq-16",
+        "what-mcq-01",
+        "what-mcq-03"
       ],
       "explanation": "本句的「What he did」指「整個「所……的事／物」作句子主語」。",
       "sentenceIndex": 9,
@@ -719,12 +681,10 @@ export default {
         "What he did"
       ],
       "optionReasons": {
-        "what-mcq-04": "本句指「整個「所……的事／物」作句子主語」。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。"
+        "what-mcq-04": "本句的「What he did」指「整個「所……的事／物」作句子主語」。",
+        "what-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-04"
     },
@@ -736,11 +696,9 @@ export default {
       "masked": "____ makes her happy is sharing with others.",
       "options": [
         "what-mcq-04",
-        "what-mcq-03",
-        "what-mcq-05",
-        "what-mcq-02",
-        "what-mcq-06",
-        "what-mcq-01"
+        "what-mcq-14",
+        "what-mcq-11",
+        "what-mcq-18"
       ],
       "explanation": "本句的「What」指「整個「所……的事／物」作句子主語」。",
       "sentenceIndex": 10,
@@ -749,12 +707,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-04": "本句指「整個「所……的事／物」作句子主語」。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-01": "「用來詢問某件事、某物、情況或資訊是甚麼」與本句語境不同。"
+        "what-mcq-04": "本句的「What」指「整個「所……的事／物」作句子主語」。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-04"
     },
@@ -766,11 +722,9 @@ export default {
       "masked": "I like ____.",
       "options": [
         "what-mcq-05",
-        "what-mcq-04",
-        "what-mcq-06",
-        "what-mcq-03",
-        "what-mcq-07",
-        "what-mcq-02"
+        "what-mcq-01",
+        "what-mcq-16",
+        "what-mcq-15"
       ],
       "explanation": "本句的「what you made」指「整個「……的東西／事情」作動詞受詞」。",
       "sentenceIndex": 11,
@@ -779,12 +733,10 @@ export default {
         "what you made"
       ],
       "optionReasons": {
-        "what-mcq-05": "本句指「整個「……的東西／事情」作動詞受詞」。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。"
+        "what-mcq-05": "本句的「what you made」指「整個「……的東西／事情」作動詞受詞」。",
+        "what-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-05"
     },
@@ -796,11 +748,9 @@ export default {
       "masked": "She remembers ____ the teacher said.",
       "options": [
         "what-mcq-05",
-        "what-mcq-04",
-        "what-mcq-06",
-        "what-mcq-03",
-        "what-mcq-07",
-        "what-mcq-02"
+        "what-mcq-10",
+        "what-mcq-14",
+        "what-mcq-15"
       ],
       "explanation": "本句的「what」指「整個「……的東西／事情」作動詞受詞」。",
       "sentenceIndex": 12,
@@ -809,12 +759,10 @@ export default {
         "what"
       ],
       "optionReasons": {
-        "what-mcq-05": "本句指「整個「……的東西／事情」作動詞受詞」。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-02": "「詢問某類人／事物的身分、種類、性質等」與本句語境不同。"
+        "what-mcq-05": "本句的「what」指「整個「……的東西／事情」作動詞受詞」。",
+        "what-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-05"
     },
@@ -826,10 +774,8 @@ export default {
       "masked": "This is ____.",
       "options": [
         "what-mcq-06",
-        "what-mcq-05",
-        "what-mcq-07",
-        "what-mcq-04",
-        "what-mcq-08",
+        "what-mcq-11",
+        "what-mcq-15",
         "what-mcq-03"
       ],
       "explanation": "本句的「what I wanted」指「說明某事物真正的內容／所指」。",
@@ -839,12 +785,10 @@ export default {
         "what I wanted"
       ],
       "optionReasons": {
-        "what-mcq-06": "本句指「說明某事物真正的內容／所指」。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。"
+        "what-mcq-06": "本句的「what I wanted」指「說明某事物真正的內容／所指」。",
+        "what-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-06"
     },
@@ -856,11 +800,9 @@ export default {
       "masked": "That is ____ I mean.",
       "options": [
         "what-mcq-06",
-        "what-mcq-05",
-        "what-mcq-07",
-        "what-mcq-04",
-        "what-mcq-08",
-        "what-mcq-03"
+        "what-mcq-14",
+        "what-mcq-09",
+        "what-mcq-15"
       ],
       "explanation": "本句的「what」指「說明某事物真正的內容／所指」。",
       "sentenceIndex": 14,
@@ -869,12 +811,10 @@ export default {
         "what"
       ],
       "optionReasons": {
-        "what-mcq-06": "本句指「說明某事物真正的內容／所指」。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-03": "「表示「……的東西／事情」，相當於 the thing(s) that」與本句語境不同。"
+        "what-mcq-06": "本句的「what」指「說明某事物真正的內容／所指」。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-06"
     },
@@ -886,11 +826,9 @@ export default {
       "masked": "____",
       "options": [
         "what-mcq-07",
-        "what-mcq-06",
-        "what-mcq-08",
-        "what-mcq-05",
-        "what-mcq-09",
-        "what-mcq-04"
+        "what-mcq-18",
+        "what-mcq-15",
+        "what-mcq-14"
       ],
       "explanation": "本句的「What is the garden like?」指「詢問 X 的整體特徵、性格、狀況」。",
       "sentenceIndex": 15,
@@ -899,12 +837,10 @@ export default {
         "What is the garden like?"
       ],
       "optionReasons": {
-        "what-mcq-07": "本句指「詢問 X 的整體特徵、性格、狀況」。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。"
+        "what-mcq-07": "本句的「What is the garden like?」指「詢問 X 的整體特徵、性格、狀況」。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-07"
     },
@@ -916,11 +852,9 @@ export default {
       "masked": "____ was your teacher like?",
       "options": [
         "what-mcq-07",
-        "what-mcq-06",
-        "what-mcq-08",
-        "what-mcq-05",
-        "what-mcq-09",
-        "what-mcq-04"
+        "what-mcq-18",
+        "what-mcq-15",
+        "what-mcq-14"
       ],
       "explanation": "本句的「What」指「詢問 X 的整體特徵、性格、狀況」。",
       "sentenceIndex": 16,
@@ -929,12 +863,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-07": "本句指「詢問 X 的整體特徵、性格、狀況」。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-04": "「整個「所……的事／物」作句子主語」與本句語境不同。"
+        "what-mcq-07": "本句的「What」指「詢問 X 的整體特徵、性格、狀況」。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-07"
     },
@@ -946,11 +878,9 @@ export default {
       "masked": "____",
       "options": [
         "what-mcq-08",
-        "what-mcq-07",
-        "what-mcq-09",
-        "what-mcq-06",
-        "what-mcq-10",
-        "what-mcq-05"
+        "what-mcq-17",
+        "what-mcq-03",
+        "what-mcq-06"
       ],
       "explanation": "本句的「What does the plant look like?」指「詢問 X 的外觀」。",
       "sentenceIndex": 17,
@@ -959,12 +889,10 @@ export default {
         "What does the plant look like?"
       ],
       "optionReasons": {
-        "what-mcq-08": "本句指「詢問 X 的外觀」。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。"
+        "what-mcq-08": "本句的「What does the plant look like?」指「詢問 X 的外觀」。",
+        "what-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-08"
     },
@@ -976,11 +904,9 @@ export default {
       "masked": "____ does the new building look like?",
       "options": [
         "what-mcq-08",
-        "what-mcq-07",
-        "what-mcq-09",
-        "what-mcq-06",
-        "what-mcq-10",
-        "what-mcq-05"
+        "what-mcq-03",
+        "what-mcq-04",
+        "what-mcq-15"
       ],
       "explanation": "本句的「What」指「詢問 X 的外觀」。",
       "sentenceIndex": 18,
@@ -989,12 +915,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-08": "本句指「詢問 X 的外觀」。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-05": "「整個「……的東西／事情」作動詞受詞」與本句語境不同。"
+        "what-mcq-08": "本句的「What」指「詢問 X 的外觀」。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-08"
     },
@@ -1006,11 +930,9 @@ export default {
       "masked": "____",
       "options": [
         "what-mcq-09",
-        "what-mcq-08",
-        "what-mcq-10",
-        "what-mcq-07",
-        "what-mcq-11",
-        "what-mcq-06"
+        "what-mcq-12",
+        "what-mcq-04",
+        "what-mcq-03"
       ],
       "explanation": "本句的「What is this tool for?」指「詢問某物用途或某行動目的」。",
       "sentenceIndex": 19,
@@ -1019,12 +941,10 @@ export default {
         "What is this tool for?"
       ],
       "optionReasons": {
-        "what-mcq-09": "本句指「詢問某物用途或某行動目的」。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-09": "本句的「What is this tool for?」指「詢問某物用途或某行動目的」。",
+        "what-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-09"
     },
@@ -1036,11 +956,9 @@ export default {
       "masked": "____ did you buy that for?",
       "options": [
         "what-mcq-09",
-        "what-mcq-08",
-        "what-mcq-10",
-        "what-mcq-07",
-        "what-mcq-11",
-        "what-mcq-06"
+        "what-mcq-14",
+        "what-mcq-06",
+        "what-mcq-04"
       ],
       "explanation": "本句的「What」指「詢問某物用途或某行動目的」。",
       "sentenceIndex": 20,
@@ -1049,12 +967,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-09": "本句指「詢問某物用途或某行動目的」。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-06": "「說明某事物真正的內容／所指」與本句語境不同。"
+        "what-mcq-09": "本句的「What」指「詢問某物用途或某行動目的」。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-09"
     },
@@ -1066,11 +982,9 @@ export default {
       "masked": "____ the smaller plants?",
       "options": [
         "what-mcq-10",
-        "what-mcq-09",
-        "what-mcq-11",
-        "what-mcq-08",
-        "what-mcq-12",
-        "what-mcq-07"
+        "what-mcq-06",
+        "what-mcq-04",
+        "what-mcq-14"
       ],
       "explanation": "本句的「What about」指「提出話題、詢問情況或提出建議」。",
       "sentenceIndex": 21,
@@ -1079,12 +993,10 @@ export default {
         "What about"
       ],
       "optionReasons": {
-        "what-mcq-10": "本句指「提出話題、詢問情況或提出建議」。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。"
+        "what-mcq-10": "本句的「What about」指「提出話題、詢問情況或提出建議」。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-10"
     },
@@ -1096,11 +1008,9 @@ export default {
       "masked": "____ about growing herbs on the balcony?",
       "options": [
         "what-mcq-10",
-        "what-mcq-09",
-        "what-mcq-11",
-        "what-mcq-08",
-        "what-mcq-12",
-        "what-mcq-07"
+        "what-mcq-15",
+        "what-mcq-06",
+        "what-mcq-04"
       ],
       "explanation": "本句的「What」指「提出話題、詢問情況或提出建議」。",
       "sentenceIndex": 22,
@@ -1109,12 +1019,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-10": "本句指「提出話題、詢問情況或提出建議」。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-07": "「詢問 X 的整體特徵、性格、狀況」與本句語境不同。"
+        "what-mcq-10": "本句的「What」指「提出話題、詢問情況或提出建議」。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-10"
     },
@@ -1126,11 +1034,9 @@ export default {
       "masked": "____ it rains tomorrow?",
       "options": [
         "what-mcq-11",
-        "what-mcq-10",
-        "what-mcq-12",
-        "what-mcq-09",
-        "what-mcq-13",
-        "what-mcq-08"
+        "what-mcq-05",
+        "what-mcq-14",
+        "what-mcq-06"
       ],
       "explanation": "本句的「What if」指「詢問某個假設情況發生時會有甚麼結果」。",
       "sentenceIndex": 23,
@@ -1139,12 +1045,10 @@ export default {
         "What if"
       ],
       "optionReasons": {
-        "what-mcq-11": "本句指「詢問某個假設情況發生時會有甚麼結果」。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。"
+        "what-mcq-11": "本句的「What if」指「詢問某個假設情況發生時會有甚麼結果」。",
+        "what-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-11"
     },
@@ -1156,11 +1060,9 @@ export default {
       "masked": "____ if the plant does not grow?",
       "options": [
         "what-mcq-11",
-        "what-mcq-10",
-        "what-mcq-12",
-        "what-mcq-09",
-        "what-mcq-13",
-        "what-mcq-08"
+        "what-mcq-06",
+        "what-mcq-05",
+        "what-mcq-15"
       ],
       "explanation": "本句的「What」指「詢問某個假設情況發生時會有甚麼結果」。",
       "sentenceIndex": 24,
@@ -1169,12 +1071,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-11": "本句指「詢問某個假設情況發生時會有甚麼結果」。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-08": "「詢問 X 的外觀」與本句語境不同。"
+        "what-mcq-11": "本句的「What」指「詢問某個假設情況發生時會有甚麼結果」。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-11"
     },
@@ -1186,11 +1086,9 @@ export default {
       "masked": "____ does she grow?",
       "options": [
         "what-mcq-12",
-        "what-mcq-11",
-        "what-mcq-13",
-        "what-mcq-10",
-        "what-mcq-14",
-        "what-mcq-09"
+        "what-mcq-04",
+        "what-mcq-09",
+        "what-mcq-15"
       ],
       "explanation": "本句的「What else」指「除了已提內容之外，還有甚麼」。",
       "sentenceIndex": 25,
@@ -1199,12 +1097,10 @@ export default {
         "What else"
       ],
       "optionReasons": {
-        "what-mcq-12": "本句指「除了已提內容之外，還有甚麼」。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。"
+        "what-mcq-12": "本句的「What else」指「除了已提內容之外，還有甚麼」。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-12"
     },
@@ -1216,11 +1112,9 @@ export default {
       "masked": "____ else do we need?",
       "options": [
         "what-mcq-12",
-        "what-mcq-11",
-        "what-mcq-13",
-        "what-mcq-10",
         "what-mcq-14",
-        "what-mcq-09"
+        "what-mcq-04",
+        "what-mcq-13"
       ],
       "explanation": "本句的「What」指「除了已提內容之外，還有甚麼」。",
       "sentenceIndex": 26,
@@ -1229,12 +1123,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-12": "本句指「除了已提內容之外，還有甚麼」。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-09": "「詢問某物用途或某行動目的」與本句語境不同。"
+        "what-mcq-12": "本句的「What」指「除了已提內容之外，還有甚麼」。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-12"
     },
@@ -1246,11 +1138,9 @@ export default {
       "masked": "____ does she grow?",
       "options": [
         "what-mcq-13",
-        "what-mcq-12",
         "what-mcq-14",
-        "what-mcq-11",
-        "what-mcq-15",
-        "what-mcq-10"
+        "what-mcq-04",
+        "what-mcq-15"
       ],
       "explanation": "本句的「What kind of flowers」指「詢問類別或種類」。",
       "sentenceIndex": 27,
@@ -1259,12 +1149,10 @@ export default {
         "What kind of flowers"
       ],
       "optionReasons": {
-        "what-mcq-13": "本句指「詢問類別或種類」。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。"
+        "what-mcq-13": "本句的「What kind of flowers」指「詢問類別或種類」。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-13"
     },
@@ -1276,11 +1164,9 @@ export default {
       "masked": "____ type of soil is best?",
       "options": [
         "what-mcq-13",
-        "what-mcq-12",
-        "what-mcq-14",
-        "what-mcq-11",
+        "what-mcq-04",
         "what-mcq-15",
-        "what-mcq-10"
+        "what-mcq-06"
       ],
       "explanation": "本句的「What」指「詢問類別或種類」。",
       "sentenceIndex": 28,
@@ -1289,12 +1175,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-13": "本句指「詢問類別或種類」。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-10": "「提出話題、詢問情況或提出建議」與本句語境不同。"
+        "what-mcq-13": "本句的「What」指「詢問類別或種類」。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-13"
     },
@@ -1306,11 +1190,9 @@ export default {
       "masked": "____",
       "options": [
         "what-mcq-14",
-        "what-mcq-13",
-        "what-mcq-15",
-        "what-mcq-12",
+        "what-mcq-04",
         "what-mcq-16",
-        "what-mcq-11"
+        "what-mcq-09"
       ],
       "explanation": "本句的「What a beautiful garden!」指「用來強烈感嘆某人／某事物」。",
       "sentenceIndex": 29,
@@ -1319,12 +1201,10 @@ export default {
         "What a beautiful garden!"
       ],
       "optionReasons": {
-        "what-mcq-14": "本句指「用來強烈感嘆某人／某事物」。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。"
+        "what-mcq-14": "本句的「What a beautiful garden!」指「用來強烈感嘆某人／某事物」。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-14"
     },
@@ -1336,11 +1216,9 @@ export default {
       "masked": "____ lovely flowers!",
       "options": [
         "what-mcq-14",
-        "what-mcq-13",
-        "what-mcq-15",
-        "what-mcq-12",
-        "what-mcq-16",
-        "what-mcq-11"
+        "what-mcq-09",
+        "what-mcq-18",
+        "what-mcq-15"
       ],
       "explanation": "本句的「What」指「用來強烈感嘆某人／某事物」。",
       "sentenceIndex": 30,
@@ -1349,12 +1227,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-14": "本句指「用來強烈感嘆某人／某事物」。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。"
+        "what-mcq-14": "本句的「What」指「用來強烈感嘆某人／某事物」。",
+        "what-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-14"
     },
@@ -1366,11 +1242,9 @@ export default {
       "masked": "____",
       "options": [
         "what-mcq-14",
-        "what-mcq-13",
         "what-mcq-15",
-        "what-mcq-12",
-        "what-mcq-16",
-        "what-mcq-11"
+        "what-mcq-13",
+        "what-mcq-05"
       ],
       "explanation": "本句的「What a surprise!」指「用來強烈感嘆某人／某事物」。",
       "sentenceIndex": 31,
@@ -1379,12 +1253,10 @@ export default {
         "What a surprise!"
       ],
       "optionReasons": {
-        "what-mcq-14": "本句指「用來強烈感嘆某人／某事物」。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。"
+        "what-mcq-14": "本句的「What a surprise!」指「用來強烈感嘆某人／某事物」。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-14"
     },
@@ -1396,11 +1268,9 @@ export default {
       "masked": "____ a pity!",
       "options": [
         "what-mcq-14",
-        "what-mcq-13",
-        "what-mcq-15",
-        "what-mcq-12",
-        "what-mcq-16",
-        "what-mcq-11"
+        "what-mcq-02",
+        "what-mcq-18",
+        "what-mcq-04"
       ],
       "explanation": "本句的「What」指「用來強烈感嘆某人／某事物」。",
       "sentenceIndex": 32,
@@ -1409,12 +1279,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-14": "本句指「用來強烈感嘆某人／某事物」。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-11": "「詢問某個假設情況發生時會有甚麼結果」與本句語境不同。"
+        "what-mcq-14": "本句的「What」指「用來強烈感嘆某人／某事物」。",
+        "what-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-14"
     },
@@ -1426,11 +1294,9 @@ export default {
       "masked": "____ work and family responsibilities, she has little free time.",
       "options": [
         "what-mcq-15",
-        "what-mcq-14",
-        "what-mcq-16",
-        "what-mcq-13",
-        "what-mcq-17",
-        "what-mcq-12"
+        "what-mcq-04",
+        "what-mcq-18",
+        "what-mcq-08"
       ],
       "explanation": "本句的「What with」指「因多個因素共同作用；又……又……」。",
       "sentenceIndex": 33,
@@ -1439,12 +1305,10 @@ export default {
         "What with"
       ],
       "optionReasons": {
-        "what-mcq-15": "本句指「因多個因素共同作用；又……又……」。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-17": "「某人僅有的少量全部」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。"
+        "what-mcq-15": "本句的「What with」指「因多個因素共同作用；又……又……」。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-15"
     },
@@ -1456,11 +1320,9 @@ export default {
       "masked": "____ with the rain and the cold, we stayed indoors.",
       "options": [
         "what-mcq-15",
-        "what-mcq-14",
-        "what-mcq-16",
-        "what-mcq-13",
-        "what-mcq-17",
-        "what-mcq-12"
+        "what-mcq-10",
+        "what-mcq-03",
+        "what-mcq-18"
       ],
       "explanation": "本句的「What」指「因多個因素共同作用；又……又……」。",
       "sentenceIndex": 34,
@@ -1469,12 +1331,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-15": "本句指「因多個因素共同作用；又……又……」。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。",
-        "what-mcq-17": "「某人僅有的少量全部」與本句語境不同。",
-        "what-mcq-12": "「除了已提內容之外，還有甚麼」與本句語境不同。"
+        "what-mcq-15": "本句的「What」指「因多個因素共同作用；又……又……」。",
+        "what-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-15"
     },
@@ -1486,11 +1346,9 @@ export default {
       "masked": "____ the remaining plants?",
       "options": [
         "what-mcq-16",
-        "what-mcq-15",
-        "what-mcq-17",
-        "what-mcq-14",
         "what-mcq-18",
-        "what-mcq-13"
+        "what-mcq-15",
+        "what-mcq-03"
       ],
       "explanation": "本句的「What of」指「提出尚未處理的人／問題；至於……呢」。",
       "sentenceIndex": 35,
@@ -1499,12 +1357,10 @@ export default {
         "What of"
       ],
       "optionReasons": {
-        "what-mcq-16": "本句指「提出尚未處理的人／問題；至於……呢」。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-17": "「某人僅有的少量全部」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-18": "「在前述內容上再補充一項；而且／此外」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。"
+        "what-mcq-16": "本句的「What of」指「提出尚未處理的人／問題；至於……呢」。",
+        "what-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-16"
     },
@@ -1516,11 +1372,9 @@ export default {
       "masked": "____ of those who disagree?",
       "options": [
         "what-mcq-16",
-        "what-mcq-15",
-        "what-mcq-17",
-        "what-mcq-14",
-        "what-mcq-18",
-        "what-mcq-13"
+        "what-mcq-06",
+        "what-mcq-03",
+        "what-mcq-17"
       ],
       "explanation": "本句的「What」指「提出尚未處理的人／問題；至於……呢」。",
       "sentenceIndex": 36,
@@ -1529,12 +1383,10 @@ export default {
         "What"
       ],
       "optionReasons": {
-        "what-mcq-16": "本句指「提出尚未處理的人／問題；至於……呢」。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-17": "「某人僅有的少量全部」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-18": "「在前述內容上再補充一項；而且／此外」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。"
+        "what-mcq-16": "本句的「What」指「提出尚未處理的人／問題；至於……呢」。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-16"
     },
@@ -1546,11 +1398,9 @@ export default {
       "masked": "She shared ____.",
       "options": [
         "what-mcq-17",
-        "what-mcq-16",
-        "what-mcq-18",
-        "what-mcq-15",
-        "what-mcq-14",
-        "what-mcq-13"
+        "what-mcq-06",
+        "what-mcq-10",
+        "what-mcq-15"
       ],
       "explanation": "本句的「what little food she had」指「某人僅有的少量全部」。",
       "sentenceIndex": 37,
@@ -1559,12 +1409,10 @@ export default {
         "what little food she had"
       ],
       "optionReasons": {
-        "what-mcq-17": "本句指「某人僅有的少量全部」。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-18": "「在前述內容上再補充一項；而且／此外」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。"
+        "what-mcq-17": "本句的「what little food she had」指「某人僅有的少量全部」。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-17"
     },
@@ -1576,11 +1424,9 @@ export default {
       "masked": "He spent ____ little money remained.",
       "options": [
         "what-mcq-17",
-        "what-mcq-16",
-        "what-mcq-18",
+        "what-mcq-02",
         "what-mcq-15",
-        "what-mcq-14",
-        "what-mcq-13"
+        "what-mcq-06"
       ],
       "explanation": "本句的「what」指「某人僅有的少量全部」。",
       "sentenceIndex": 38,
@@ -1589,12 +1435,10 @@ export default {
         "what"
       ],
       "optionReasons": {
-        "what-mcq-17": "本句指「某人僅有的少量全部」。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-18": "「在前述內容上再補充一項；而且／此外」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。"
+        "what-mcq-17": "本句的「what」指「某人僅有的少量全部」。",
+        "what-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-17"
     },
@@ -1606,11 +1450,9 @@ export default {
       "masked": "The garden is beautiful and, ____, useful.",
       "options": [
         "what-mcq-18",
-        "what-mcq-17",
-        "what-mcq-16",
-        "what-mcq-15",
-        "what-mcq-14",
-        "what-mcq-13"
+        "what-mcq-04",
+        "what-mcq-11",
+        "what-mcq-15"
       ],
       "explanation": "本句的「what’s more」指「在前述內容上再補充一項；而且／此外」。",
       "sentenceIndex": 39,
@@ -1619,12 +1461,10 @@ export default {
         "what’s more"
       ],
       "optionReasons": {
-        "what-mcq-18": "本句指「在前述內容上再補充一項；而且／此外」。",
-        "what-mcq-17": "「某人僅有的少量全部」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。"
+        "what-mcq-18": "本句的「what’s more」指「在前述內容上再補充一項；而且／此外」。",
+        "what-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-18"
     },
@@ -1636,11 +1476,9 @@ export default {
       "masked": "The course is free; ____’s more, it is online.",
       "options": [
         "what-mcq-18",
-        "what-mcq-17",
-        "what-mcq-16",
-        "what-mcq-15",
-        "what-mcq-14",
-        "what-mcq-13"
+        "what-mcq-05",
+        "what-mcq-10",
+        "what-mcq-14"
       ],
       "explanation": "本句的「what」指「在前述內容上再補充一項；而且／此外」。",
       "sentenceIndex": 40,
@@ -1649,12 +1487,10 @@ export default {
         "what"
       ],
       "optionReasons": {
-        "what-mcq-18": "本句指「在前述內容上再補充一項；而且／此外」。",
-        "what-mcq-17": "「某人僅有的少量全部」與本句語境不同。",
-        "what-mcq-16": "「提出尚未處理的人／問題；至於……呢」與本句語境不同。",
-        "what-mcq-15": "「因多個因素共同作用；又……又……」與本句語境不同。",
-        "what-mcq-14": "「用來強烈感嘆某人／某事物」與本句語境不同。",
-        "what-mcq-13": "「詢問類別或種類」與本句語境不同。"
+        "what-mcq-18": "本句的「what」指「在前述內容上再補充一項；而且／此外」。",
+        "what-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "what-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "what-mcq-18"
     }
@@ -1666,5 +1502,7 @@ export default {
     "sha256": "f8a96901018810244d27fc248e0480b0454c803bacd1fcf70c02188ec7bb1c29",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

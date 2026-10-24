@@ -177,7 +177,7 @@ export default {
     },
     {
       "id": "chance-mcq-09",
-      "title": "表示並非刻意安排，而是偶然地",
+      "title": "並非刻意安排，而是偶然地",
       "form": "Useful expression: by chance — 偶然；碰巧",
       "en": "Useful expression: by chance — 偶然；碰巧",
       "zh": "表示並非刻意安排，而是偶然地",
@@ -204,7 +204,7 @@ export default {
     },
     {
       "id": "chance-mcq-10",
-      "title": "表示冒險一試",
+      "title": "冒險一試",
       "form": "Useful expression: take a chance — 冒險一試",
       "en": "Useful expression: take a chance — 冒險一試",
       "zh": "表示冒險一試",
@@ -236,7 +236,7 @@ export default {
     },
     {
       "id": "chance-mcq-11",
-      "title": "表示給某人機會",
+      "title": "給某人機會",
       "form": "Useful expression: give someone a chance — 給某人機會",
       "en": "Useful expression: give someone a chance — 給某人機會",
       "zh": "表示給某人機會",
@@ -258,7 +258,7 @@ export default {
     },
     {
       "id": "chance-mcq-12",
-      "title": "表示任由偶然決定",
+      "title": "任由偶然決定",
       "form": "Useful expression: leave something to chance — 任由偶然決定",
       "en": "Useful expression: leave something to chance — 任由偶然決定",
       "zh": "表示任由偶然決定",
@@ -310,10 +310,7 @@ export default {
       "masked": "If I ever got the ____, I would love to talk to him again.",
       "options": [
         "chance-mcq-01",
-        "chance-mcq-02",
-        "chance-mcq-03",
-        "chance-mcq-04",
-        "chance-mcq-05",
+        "chance-mcq-12",
         "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
@@ -323,12 +320,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-01": "本句指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-01": "本句的「chance」指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-01"
     },
@@ -340,10 +334,7 @@ export default {
       "masked": "I never had the ____ to thank her properly.",
       "options": [
         "chance-mcq-01",
-        "chance-mcq-02",
-        "chance-mcq-03",
-        "chance-mcq-04",
-        "chance-mcq-05",
+        "chance-mcq-12",
         "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
@@ -353,12 +344,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-01": "本句指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-01": "本句的「chance」指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-01"
     },
@@ -370,10 +358,7 @@ export default {
       "masked": "This job gives students a ____ to gain practical experience.",
       "options": [
         "chance-mcq-01",
-        "chance-mcq-02",
-        "chance-mcq-03",
-        "chance-mcq-04",
-        "chance-mcq-05",
+        "chance-mcq-09",
         "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
@@ -383,12 +368,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-01": "本句指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-01": "本句的「chance」指「可以做、嘗試或經歷某件事情的機會／合適時機」。",
+        "chance-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-01"
     },
@@ -400,11 +382,8 @@ export default {
       "masked": "There is a good ____ that it will rain tonight.",
       "options": [
         "chance-mcq-02",
-        "chance-mcq-01",
-        "chance-mcq-03",
-        "chance-mcq-04",
-        "chance-mcq-05",
-        "chance-mcq-06"
+        "chance-mcq-09",
+        "chance-mcq-10"
       ],
       "explanation": "本句的「chance」指「某件事情發生或成功的可能性／機率」。",
       "sentenceIndex": 3,
@@ -413,12 +392,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-02": "本句指「某件事情發生或成功的可能性／機率」。",
-        "chance-mcq-01": "「可以做、嘗試或經歷某件事情的機會／合適時機」是「chance — opportunity」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-02": "本句的「chance」指「某件事情發生或成功的可能性／機率」。",
+        "chance-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-02"
     },
@@ -430,11 +406,8 @@ export default {
       "masked": "What are our ____ of finishing on time?",
       "options": [
         "chance-mcq-02",
-        "chance-mcq-01",
-        "chance-mcq-03",
         "chance-mcq-04",
-        "chance-mcq-05",
-        "chance-mcq-06"
+        "chance-mcq-12"
       ],
       "explanation": "本句的「chances」指「某件事情發生或成功的可能性／機率」。",
       "sentenceIndex": 4,
@@ -443,12 +416,9 @@ export default {
         "chances"
       ],
       "optionReasons": {
-        "chance-mcq-02": "本句指「某件事情發生或成功的可能性／機率」。",
-        "chance-mcq-01": "「可以做、嘗試或經歷某件事情的機會／合適時機」是「chance — opportunity」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-02": "本句的「chances」指「某件事情發生或成功的可能性／機率」。",
+        "chance-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-02"
     },
@@ -460,11 +430,7 @@ export default {
       "masked": "We met by ____ at the station.",
       "options": [
         "chance-mcq-03",
-        "chance-mcq-02",
-        "chance-mcq-04",
-        "chance-mcq-01",
-        "chance-mcq-05",
-        "chance-mcq-06"
+        "chance-mcq-10"
       ],
       "explanation": "本句的「chance」指「事情並非經過刻意安排，而是偶然或隨機發生的情況」。",
       "sentenceIndex": 5,
@@ -473,12 +439,8 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-03": "本句指「事情並非經過刻意安排，而是偶然或隨機發生的情況」。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-01": "「可以做、嘗試或經歷某件事情的機會／合適時機」是「chance — opportunity」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-03": "本句的「chance」指「事情並非經過刻意安排，而是偶然或隨機發生的情況」。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-03"
     },
@@ -490,11 +452,7 @@ export default {
       "masked": "The discovery happened purely by ____.",
       "options": [
         "chance-mcq-03",
-        "chance-mcq-02",
-        "chance-mcq-04",
-        "chance-mcq-01",
-        "chance-mcq-05",
-        "chance-mcq-06"
+        "chance-mcq-10"
       ],
       "explanation": "本句的「chance」指「事情並非經過刻意安排，而是偶然或隨機發生的情況」。",
       "sentenceIndex": 6,
@@ -503,12 +461,8 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-03": "本句指「事情並非經過刻意安排，而是偶然或隨機發生的情況」。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-01": "「可以做、嘗試或經歷某件事情的機會／合適時機」是「chance — opportunity」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-03": "本句的「chance」指「事情並非經過刻意安排，而是偶然或隨機發生的情況」。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-03"
     },
@@ -520,11 +474,7 @@ export default {
       "masked": "I decided to take a ____ and apply for the job.",
       "options": [
         "chance-mcq-04",
-        "chance-mcq-03",
-        "chance-mcq-05",
-        "chance-mcq-02",
-        "chance-mcq-06",
-        "chance-mcq-01"
+        "chance-mcq-03"
       ],
       "explanation": "本句的「chance」指「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」。",
       "sentenceIndex": 7,
@@ -533,12 +483,8 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-04": "本句指「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。",
-        "chance-mcq-01": "「可以做、嘗試或經歷某件事情的機會／合適時機」是「chance — opportunity」的用法，與本句語境不同。"
+        "chance-mcq-04": "本句的「chance」指「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」。",
+        "chance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-04"
     },
@@ -550,11 +496,7 @@ export default {
       "masked": "You’re taking a big ____ by ignoring the warning.",
       "options": [
         "chance-mcq-04",
-        "chance-mcq-03",
-        "chance-mcq-05",
-        "chance-mcq-02",
-        "chance-mcq-06",
-        "chance-mcq-01"
+        "chance-mcq-03"
       ],
       "explanation": "本句的「chance」指「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」。",
       "sentenceIndex": 8,
@@ -563,12 +505,8 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-04": "本句指「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-02": "「某件事情發生或成功的可能性／機率」是「chance — possibility」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。",
-        "chance-mcq-01": "「可以做、嘗試或經歷某件事情的機會／合適時機」是「chance — opportunity」的用法，與本句語境不同。"
+        "chance-mcq-04": "本句的「chance」指「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」。",
+        "chance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-04"
     },
@@ -580,11 +518,9 @@ export default {
       "masked": "She has a good ____ of winning.",
       "options": [
         "chance-mcq-08",
-        "chance-mcq-07",
-        "chance-mcq-09",
         "chance-mcq-06",
-        "chance-mcq-10",
-        "chance-mcq-05"
+        "chance-mcq-12",
+        "chance-mcq-04"
       ],
       "explanation": "本句的「chance」指「某人取得成功、達成目標或獲勝的可能性」。",
       "sentenceIndex": 9,
@@ -593,12 +529,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-08": "本句指「某人取得成功、達成目標或獲勝的可能性」。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。"
+        "chance-mcq-08": "本句的「chance」指「某人取得成功、達成目標或獲勝的可能性」。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-08"
     },
@@ -610,11 +544,9 @@ export default {
       "masked": "Without more preparation, we don’t stand much of a ____.",
       "options": [
         "chance-mcq-08",
-        "chance-mcq-07",
-        "chance-mcq-09",
-        "chance-mcq-06",
         "chance-mcq-10",
-        "chance-mcq-05"
+        "chance-mcq-12",
+        "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「某人取得成功、達成目標或獲勝的可能性」。",
       "sentenceIndex": 10,
@@ -623,12 +555,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-08": "本句指「某人取得成功、達成目標或獲勝的可能性」。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。"
+        "chance-mcq-08": "本句的「chance」指「某人取得成功、達成目標或獲勝的可能性」。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-08"
     },
@@ -640,11 +570,9 @@ export default {
       "masked": "A ____ meeting changed the direction of his career.",
       "options": [
         "chance-pdf-001",
-        "chance-mcq-05",
-        "chance-mcq-07",
-        "chance-mcq-04",
-        "chance-mcq-08",
-        "chance-mcq-03"
+        "chance-mcq-10",
+        "chance-mcq-11",
+        "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「並非預先安排、純屬偶然的相遇／發現」。",
       "sentenceIndex": 11,
@@ -653,12 +581,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-pdf-001": "本句指「並非預先安排、純屬偶然的相遇／發現」。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。"
+        "chance-pdf-001": "本句的「chance」指「並非預先安排、純屬偶然的相遇／發現」。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-pdf-001"
     },
@@ -670,11 +596,9 @@ export default {
       "masked": "It was a ____ discovery.",
       "options": [
         "chance-pdf-001",
-        "chance-mcq-05",
-        "chance-mcq-07",
-        "chance-mcq-04",
-        "chance-mcq-08",
-        "chance-mcq-03"
+        "chance-mcq-11",
+        "chance-mcq-10",
+        "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「並非預先安排、純屬偶然的相遇／發現」。",
       "sentenceIndex": 12,
@@ -683,12 +607,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-pdf-001": "本句指「並非預先安排、純屬偶然的相遇／發現」。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。"
+        "chance-pdf-001": "本句的「chance」指「並非預先安排、純屬偶然的相遇／發現」。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-pdf-001"
     },
@@ -700,11 +622,9 @@ export default {
       "masked": "We ____ to meet again several years later.",
       "options": [
         "chance-mcq-06",
-        "chance-mcq-05",
-        "chance-mcq-07",
+        "chance-mcq-11",
         "chance-mcq-04",
-        "chance-mcq-08",
-        "chance-mcq-03"
+        "chance-mcq-12"
       ],
       "explanation": "本句的「chanced」指「碰巧發生或碰巧做某事；較低頻」。",
       "sentenceIndex": 13,
@@ -713,12 +633,10 @@ export default {
         "chanced"
       ],
       "optionReasons": {
-        "chance-mcq-06": "本句指「碰巧發生或碰巧做某事；較低頻」。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。"
+        "chance-mcq-06": "本句的「chanced」指「碰巧發生或碰巧做某事；較低頻」。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-06"
     },
@@ -730,11 +648,9 @@ export default {
       "masked": "I ____ upon an old photograph.",
       "options": [
         "chance-mcq-06",
-        "chance-mcq-05",
-        "chance-mcq-07",
-        "chance-mcq-04",
-        "chance-mcq-08",
-        "chance-mcq-03"
+        "chance-mcq-11",
+        "chance-mcq-10",
+        "chance-mcq-12"
       ],
       "explanation": "本句的「chanced」指「碰巧發生或碰巧做某事；較低頻」。",
       "sentenceIndex": 14,
@@ -743,12 +659,10 @@ export default {
         "chanced"
       ],
       "optionReasons": {
-        "chance-mcq-06": "本句指「碰巧發生或碰巧做某事；較低頻」。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-03": "「事情並非經過刻意安排，而是偶然或隨機發生的情況」是「chance — randomness」的用法，與本句語境不同。"
+        "chance-mcq-06": "本句的「chanced」指「碰巧發生或碰巧做某事；較低頻」。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-06"
     },
@@ -761,10 +675,7 @@ export default {
       "options": [
         "chance-mcq-07",
         "chance-mcq-06",
-        "chance-mcq-08",
-        "chance-mcq-05",
-        "chance-mcq-09",
-        "chance-mcq-04"
+        "chance-pdf-001"
       ],
       "explanation": "本句的「chancy」指「結果不確定並帶有風險的」。",
       "sentenceIndex": 15,
@@ -773,12 +684,9 @@ export default {
         "chancy"
       ],
       "optionReasons": {
-        "chance-mcq-07": "本句指「結果不確定並帶有風險的」。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。"
+        "chance-mcq-07": "本句的「chancy」指「結果不確定並帶有風險的」。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chance-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-07"
     },
@@ -791,10 +699,7 @@ export default {
       "options": [
         "chance-mcq-07",
         "chance-mcq-06",
-        "chance-mcq-08",
-        "chance-mcq-05",
-        "chance-mcq-09",
-        "chance-mcq-04"
+        "chance-pdf-001"
       ],
       "explanation": "本句的「chancy」指「結果不確定並帶有風險的」。",
       "sentenceIndex": 16,
@@ -803,12 +708,9 @@ export default {
         "chancy"
       ],
       "optionReasons": {
-        "chance-mcq-07": "本句指「結果不確定並帶有風險的」。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-05": "「沒有預先安排、純屬偶然發生的相遇／發現」是「chance meeting/discovery」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-04": "「在結果不確定的情況下冒險嘗試；屬於 uncertainty 義」是「take a chance — risk」的用法，與本句語境不同。"
+        "chance-mcq-07": "本句的「chancy」指「結果不確定並帶有風險的」。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chance-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-07"
     },
@@ -820,10 +722,7 @@ export default {
       "masked": "Did you meet him by ____?",
       "options": [
         "chance-mcq-09",
-        "chance-mcq-08",
-        "chance-mcq-10",
-        "chance-mcq-07",
-        "chance-mcq-11",
+        "chance-mcq-01",
         "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「表示並非刻意安排，而是偶然地」。",
@@ -833,12 +732,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-09": "本句指「表示並非刻意安排，而是偶然地」。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-09": "本句的「chance」指「表示並非刻意安排，而是偶然地」。",
+        "chance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-09"
     },
@@ -850,10 +746,8 @@ export default {
       "masked": "I found the book by ____.",
       "options": [
         "chance-mcq-09",
-        "chance-mcq-08",
-        "chance-mcq-10",
-        "chance-mcq-07",
         "chance-mcq-11",
+        "chance-mcq-10",
         "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「表示並非刻意安排，而是偶然地」。",
@@ -863,12 +757,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-09": "本句指「表示並非刻意安排，而是偶然地」。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-09": "本句的「chance」指「表示並非刻意安排，而是偶然地」。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-09"
     },
@@ -880,11 +772,7 @@ export default {
       "masked": "Sometimes you have to take a ____.",
       "options": [
         "chance-mcq-10",
-        "chance-mcq-09",
-        "chance-mcq-11",
-        "chance-mcq-08",
-        "chance-mcq-12",
-        "chance-mcq-07"
+        "chance-mcq-03"
       ],
       "explanation": "本句的「chance」指「表示冒險一試」。",
       "sentenceIndex": 19,
@@ -893,12 +781,8 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-10": "本句指「表示冒險一試」。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-12": "「表示任由偶然決定」是「Useful expression: leave something to chance — 任由偶然決定」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-10": "本句的「chance」指「表示冒險一試」。",
+        "chance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-10"
     },
@@ -910,11 +794,9 @@ export default {
       "masked": "She took a ____ and told him the truth.",
       "options": [
         "chance-mcq-10",
-        "chance-mcq-09",
+        "chance-mcq-06",
         "chance-mcq-11",
-        "chance-mcq-08",
-        "chance-mcq-12",
-        "chance-mcq-07"
+        "chance-pdf-001"
       ],
       "explanation": "本句的「chance」指「表示冒險一試」。",
       "sentenceIndex": 20,
@@ -923,12 +805,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-10": "本句指「表示冒險一試」。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-12": "「表示任由偶然決定」是「Useful expression: leave something to chance — 任由偶然決定」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-10": "本句的「chance」指「表示冒險一試」。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-10"
     },
@@ -940,11 +820,9 @@ export default {
       "masked": "Give him a ____ to explain.",
       "options": [
         "chance-mcq-11",
-        "chance-mcq-10",
-        "chance-mcq-12",
-        "chance-mcq-09",
-        "chance-mcq-08",
-        "chance-mcq-07"
+        "chance-pdf-001",
+        "chance-mcq-06",
+        "chance-mcq-10"
       ],
       "explanation": "本句的「chance」指「表示給某人機會」。",
       "sentenceIndex": 21,
@@ -953,12 +831,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-11": "本句指「表示給某人機會」。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-12": "「表示任由偶然決定」是「Useful expression: leave something to chance — 任由偶然決定」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-11": "本句的「chance」指「表示給某人機會」。",
+        "chance-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-11"
     },
@@ -970,11 +846,9 @@ export default {
       "masked": "Everyone deserves a second ____.",
       "options": [
         "chance-mcq-11",
-        "chance-mcq-10",
-        "chance-mcq-12",
-        "chance-mcq-09",
-        "chance-mcq-08",
-        "chance-mcq-07"
+        "chance-pdf-001",
+        "chance-mcq-04",
+        "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「表示給某人機會」。",
       "sentenceIndex": 22,
@@ -983,12 +857,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-11": "本句指「表示給某人機會」。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-12": "「表示任由偶然決定」是「Useful expression: leave something to chance — 任由偶然決定」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-11": "本句的「chance」指「表示給某人機會」。",
+        "chance-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-11"
     },
@@ -1000,11 +872,8 @@ export default {
       "masked": "We still stand a ____ of winning.",
       "options": [
         "chance-mcq-10",
-        "chance-mcq-09",
-        "chance-mcq-11",
-        "chance-mcq-08",
-        "chance-mcq-12",
-        "chance-mcq-07"
+        "chance-mcq-02",
+        "chance-pdf-001"
       ],
       "explanation": "本句的「chance」指「表示冒險一試」。",
       "sentenceIndex": 23,
@@ -1013,12 +882,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-10": "本句指「表示冒險一試」。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-12": "「表示任由偶然決定」是「Useful expression: leave something to chance — 任由偶然決定」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-10": "本句的「chance」指「表示冒險一試」。",
+        "chance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chance-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-10"
     },
@@ -1032,9 +898,7 @@ export default {
         "chance-mcq-10",
         "chance-mcq-09",
         "chance-mcq-11",
-        "chance-mcq-08",
-        "chance-mcq-12",
-        "chance-mcq-07"
+        "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「表示冒險一試」。",
       "sentenceIndex": 24,
@@ -1043,12 +907,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-10": "本句指「表示冒險一試」。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-12": "「表示任由偶然決定」是「Useful expression: leave something to chance — 任由偶然決定」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-10": "本句的「chance」指「表示冒險一試」。",
+        "chance-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-10"
     },
@@ -1060,11 +922,8 @@ export default {
       "masked": "Can I borrow your new car?” > “No ____!",
       "options": [
         "chance-mcq-09",
-        "chance-mcq-08",
-        "chance-mcq-10",
-        "chance-mcq-07",
-        "chance-mcq-11",
-        "chance-mcq-06"
+        "chance-mcq-02",
+        "chance-mcq-04"
       ],
       "explanation": "本句的「chance」指「表示並非刻意安排，而是偶然地」。",
       "sentenceIndex": 25,
@@ -1073,12 +932,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-09": "本句指「表示並非刻意安排，而是偶然地」。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-06": "「碰巧發生或碰巧做某事；較低頻」是「chance — verb」的用法，與本句語境不同。"
+        "chance-mcq-09": "本句的「chance」指「表示並非刻意安排，而是偶然地」。",
+        "chance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-09"
     },
@@ -1090,11 +946,8 @@ export default {
       "masked": "We planned everything carefully and left nothing to ____.",
       "options": [
         "chance-mcq-12",
-        "chance-mcq-11",
         "chance-mcq-10",
-        "chance-mcq-09",
-        "chance-mcq-08",
-        "chance-mcq-07"
+        "chance-mcq-02"
       ],
       "explanation": "本句的「chance」指「表示任由偶然決定」。",
       "sentenceIndex": 26,
@@ -1103,12 +956,9 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-12": "本句指「表示任由偶然決定」。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-12": "本句的「chance」指「表示任由偶然決定」。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-12"
     },
@@ -1120,11 +970,9 @@ export default {
       "masked": "Don’t leave your future to ____.",
       "options": [
         "chance-mcq-12",
-        "chance-mcq-11",
-        "chance-mcq-10",
-        "chance-mcq-09",
         "chance-mcq-08",
-        "chance-mcq-07"
+        "chance-mcq-10",
+        "chance-mcq-06"
       ],
       "explanation": "本句的「chance」指「表示任由偶然決定」。",
       "sentenceIndex": 27,
@@ -1133,12 +981,10 @@ export default {
         "chance"
       ],
       "optionReasons": {
-        "chance-mcq-12": "本句指「表示任由偶然決定」。",
-        "chance-mcq-11": "「表示給某人機會」是「Useful expression: give someone a chance — 給某人機會」的用法，與本句語境不同。",
-        "chance-mcq-10": "「表示冒險一試」是「Useful expression: take a chance — 冒險一試」的用法，與本句語境不同。",
-        "chance-mcq-09": "「表示並非刻意安排，而是偶然地」是「Useful expression: by chance — 偶然；碰巧」的用法，與本句語境不同。",
-        "chance-mcq-08": "「某人取得成功、達成目標或獲勝的可能性」是「5. chance = possibility of success（勝算／希望） — 成功機會；勝算」的用法，與本句語境不同。",
-        "chance-mcq-07": "「結果不確定並帶有風險的」是「chancy」的用法，與本句語境不同。"
+        "chance-mcq-12": "本句的「chance」指「表示任由偶然決定」。",
+        "chance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "chance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "chance-mcq-12"
     }
@@ -1150,5 +996,7 @@ export default {
     "sha256": "815b12d284445bff7186455188422db1f851b657ff52f4a2ba825690fe97fcde",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

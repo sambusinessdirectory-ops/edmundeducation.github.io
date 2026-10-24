@@ -393,10 +393,6 @@ export default {
       "masked": "When she does speak, people ____.",
       "options": [
         "listen-mcq-01",
-        "listen-mcq-02",
-        "listen-mcq-03",
-        "listen-mcq-04",
-        "listen-mcq-05",
         "listen-mcq-06"
       ],
       "explanation": "本句的「listen」指「主動把注意力放在聲音或說話內容上」。",
@@ -406,12 +402,8 @@ export default {
         "listen"
       ],
       "optionReasons": {
-        "listen-mcq-01": "本句指「主動把注意力放在聲音或說話內容上」。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-01": "本句的「listen」指「主動把注意力放在聲音或說話內容上」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-01"
     },
@@ -423,10 +415,6 @@ export default {
       "masked": "Please ____ carefully.",
       "options": [
         "listen-mcq-01",
-        "listen-mcq-02",
-        "listen-mcq-03",
-        "listen-mcq-04",
-        "listen-mcq-05",
         "listen-mcq-06"
       ],
       "explanation": "本句的「listen」指「主動把注意力放在聲音或說話內容上」。",
@@ -436,12 +424,8 @@ export default {
         "listen"
       ],
       "optionReasons": {
-        "listen-mcq-01": "本句指「主動把注意力放在聲音或說話內容上」。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-01": "本句的「listen」指「主動把注意力放在聲音或說話內容上」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-01"
     },
@@ -453,10 +437,6 @@ export default {
       "masked": "The children sat quietly and ____.",
       "options": [
         "listen-mcq-01",
-        "listen-mcq-02",
-        "listen-mcq-03",
-        "listen-mcq-04",
-        "listen-mcq-05",
         "listen-mcq-06"
       ],
       "explanation": "本句的「listened」指「主動把注意力放在聲音或說話內容上」。",
@@ -466,12 +446,8 @@ export default {
         "listened"
       ],
       "optionReasons": {
-        "listen-mcq-01": "本句指「主動把注意力放在聲音或說話內容上」。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-01": "本句的「listened」指「主動把注意力放在聲音或說話內容上」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-01"
     },
@@ -483,11 +459,7 @@ export default {
       "masked": "She always ____ me when I have a problem.",
       "options": [
         "listen-mcq-02",
-        "listen-mcq-01",
-        "listen-mcq-03",
-        "listen-mcq-04",
-        "listen-mcq-05",
-        "listen-mcq-06"
+        "listen-mcq-07"
       ],
       "explanation": "本句的「listens to」指「專心留意某人的說話內容」。",
       "sentenceIndex": 3,
@@ -496,12 +468,8 @@ export default {
         "listens to"
       ],
       "optionReasons": {
-        "listen-mcq-02": "本句指「專心留意某人的說話內容」。",
-        "listen-mcq-01": "「主動把注意力放在聲音或說話內容上」是「listen — pay attention」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-02": "本句的「listens to」指「專心留意某人的說話內容」。",
+        "listen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-02"
     },
@@ -513,11 +481,7 @@ export default {
       "masked": "You should ____ your grandmother.",
       "options": [
         "listen-mcq-02",
-        "listen-mcq-01",
-        "listen-mcq-03",
-        "listen-mcq-04",
-        "listen-mcq-05",
-        "listen-mcq-06"
+        "listen-mcq-03"
       ],
       "explanation": "本句的「listen to」指「專心留意某人的說話內容」。",
       "sentenceIndex": 4,
@@ -526,12 +490,8 @@ export default {
         "listen to"
       ],
       "optionReasons": {
-        "listen-mcq-02": "本句指「專心留意某人的說話內容」。",
-        "listen-mcq-01": "「主動把注意力放在聲音或說話內容上」是「listen — pay attention」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-02": "本句的「listen to」指「專心留意某人的說話內容」。",
+        "listen-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-02"
     },
@@ -543,11 +503,8 @@ export default {
       "masked": "She likes to ____ classical music.",
       "options": [
         "listen-mcq-03",
-        "listen-mcq-02",
-        "listen-mcq-04",
-        "listen-mcq-01",
-        "listen-mcq-05",
-        "listen-mcq-06"
+        "listen-mcq-10",
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listen to」指「主動把注意力放在某種聲音、音樂或錄音上」。",
       "sentenceIndex": 5,
@@ -556,12 +513,9 @@ export default {
         "listen to"
       ],
       "optionReasons": {
-        "listen-mcq-03": "本句指「主動把注意力放在某種聲音、音樂或錄音上」。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-01": "「主動把注意力放在聲音或說話內容上」是「listen — pay attention」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-03": "本句的「listen to」指「主動把注意力放在某種聲音、音樂或錄音上」。",
+        "listen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-03"
     },
@@ -573,11 +527,8 @@ export default {
       "masked": "We sat outside and ____ the rain.",
       "options": [
         "listen-mcq-03",
-        "listen-mcq-02",
-        "listen-mcq-04",
-        "listen-mcq-01",
-        "listen-mcq-05",
-        "listen-mcq-06"
+        "listen-mcq-06",
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listened to」指「主動把注意力放在某種聲音、音樂或錄音上」。",
       "sentenceIndex": 6,
@@ -586,12 +537,9 @@ export default {
         "listened to"
       ],
       "optionReasons": {
-        "listen-mcq-03": "本句指「主動把注意力放在某種聲音、音樂或錄音上」。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-01": "「主動把注意力放在聲音或說話內容上」是「listen — pay attention」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。"
+        "listen-mcq-03": "本句的「listened to」指「主動把注意力放在某種聲音、音樂或錄音上」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-03"
     },
@@ -603,11 +551,8 @@ export default {
       "masked": "People ____ when she gives advice.",
       "options": [
         "listen-mcq-04",
-        "listen-mcq-03",
-        "listen-mcq-05",
-        "listen-mcq-02",
         "listen-mcq-06",
-        "listen-mcq-01"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listen」指「不只是聽到，而是認真重視和考慮對方所說的內容」。",
       "sentenceIndex": 7,
@@ -616,12 +561,9 @@ export default {
         "listen"
       ],
       "optionReasons": {
-        "listen-mcq-04": "本句指「不只是聽到，而是認真重視和考慮對方所說的內容」。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-01": "「主動把注意力放在聲音或說話內容上」是「listen — pay attention」的用法，與本句語境不同。"
+        "listen-mcq-04": "本句的「listen」指「不只是聽到，而是認真重視和考慮對方所說的內容」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-04"
     },
@@ -633,11 +575,8 @@ export default {
       "masked": "Managers need to ____ to their staff.",
       "options": [
         "listen-mcq-04",
-        "listen-mcq-03",
-        "listen-mcq-05",
-        "listen-mcq-02",
         "listen-mcq-06",
-        "listen-mcq-01"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listen」指「不只是聽到，而是認真重視和考慮對方所說的內容」。",
       "sentenceIndex": 8,
@@ -646,12 +585,9 @@ export default {
         "listen"
       ],
       "optionReasons": {
-        "listen-mcq-04": "本句指「不只是聽到，而是認真重視和考慮對方所說的內容」。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-01": "「主動把注意力放在聲音或說話內容上」是「listen — pay attention」的用法，與本句語境不同。"
+        "listen-mcq-04": "本句的「listen」指「不只是聽到，而是認真重視和考慮對方所說的內容」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-04"
     },
@@ -663,11 +599,8 @@ export default {
       "masked": "You should ____ her advice.",
       "options": [
         "listen-mcq-05",
-        "listen-mcq-04",
-        "listen-mcq-06",
-        "listen-mcq-03",
-        "listen-mcq-07",
-        "listen-mcq-02"
+        "listen-mcq-14",
+        "listen-mcq-07"
       ],
       "explanation": "本句的「listen to」指「願意接受並認真考慮別人的建議或警告」。",
       "sentenceIndex": 9,
@@ -676,12 +609,9 @@ export default {
         "listen to"
       ],
       "optionReasons": {
-        "listen-mcq-05": "本句指「願意接受並認真考慮別人的建議或警告」。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。"
+        "listen-mcq-05": "本句的「listen to」指「願意接受並認真考慮別人的建議或警告」。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-05"
     },
@@ -693,11 +623,8 @@ export default {
       "masked": "He refused to ____ the warning.",
       "options": [
         "listen-mcq-05",
-        "listen-mcq-04",
-        "listen-mcq-06",
-        "listen-mcq-03",
-        "listen-mcq-07",
-        "listen-mcq-02"
+        "listen-mcq-14",
+        "listen-mcq-07"
       ],
       "explanation": "本句的「listen to」指「願意接受並認真考慮別人的建議或警告」。",
       "sentenceIndex": 10,
@@ -706,12 +633,9 @@ export default {
         "listen to"
       ],
       "optionReasons": {
-        "listen-mcq-05": "本句指「願意接受並認真考慮別人的建議或警告」。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。",
-        "listen-mcq-02": "「專心留意某人的說話內容」是「listen to someone」的用法，與本句語境不同。"
+        "listen-mcq-05": "本句的「listen to」指「願意接受並認真考慮別人的建議或警告」。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-05"
     },
@@ -723,11 +647,7 @@ export default {
       "masked": "You never ____!",
       "options": [
         "listen-mcq-06",
-        "listen-mcq-05",
-        "listen-mcq-07",
-        "listen-mcq-04",
-        "listen-mcq-08",
-        "listen-mcq-03"
+        "listen-mcq-08"
       ],
       "explanation": "本句的「listen」指「接受別人的指示／勸告並照著做」。",
       "sentenceIndex": 11,
@@ -736,12 +656,8 @@ export default {
         "listen"
       ],
       "optionReasons": {
-        "listen-mcq-06": "本句指「接受別人的指示／勸告並照著做」。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。"
+        "listen-mcq-06": "本句的「listen」指「接受別人的指示／勸告並照著做」。",
+        "listen-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-06"
     },
@@ -753,11 +669,7 @@ export default {
       "masked": "The child finally ____ and put the toy away.",
       "options": [
         "listen-mcq-06",
-        "listen-mcq-05",
-        "listen-mcq-07",
-        "listen-mcq-04",
-        "listen-mcq-08",
-        "listen-mcq-03"
+        "listen-mcq-01"
       ],
       "explanation": "本句的「listened」指「接受別人的指示／勸告並照著做」。",
       "sentenceIndex": 12,
@@ -766,12 +678,8 @@ export default {
         "listened"
       ],
       "optionReasons": {
-        "listen-mcq-06": "本句指「接受別人的指示／勸告並照著做」。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。",
-        "listen-mcq-03": "「主動把注意力放在某種聲音、音樂或錄音上」是「listen to sound/music」的用法，與本句語境不同。"
+        "listen-mcq-06": "本句的「listened」指「接受別人的指示／勸告並照著做」。",
+        "listen-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-06"
     },
@@ -784,10 +692,7 @@ export default {
       "options": [
         "listen-mcq-07",
         "listen-mcq-06",
-        "listen-mcq-08",
-        "listen-mcq-05",
-        "listen-mcq-09",
-        "listen-mcq-04"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「Listen for」指「集中注意力等待某個特定聲音出現」。",
       "sentenceIndex": 13,
@@ -796,12 +701,9 @@ export default {
         "Listen for"
       ],
       "optionReasons": {
-        "listen-mcq-07": "本句指「集中注意力等待某個特定聲音出現」。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。"
+        "listen-mcq-07": "本句的「Listen for」指「集中注意力等待某個特定聲音出現」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-07"
     },
@@ -813,11 +715,8 @@ export default {
       "masked": "She ____ her name.",
       "options": [
         "listen-mcq-07",
-        "listen-mcq-06",
-        "listen-mcq-08",
-        "listen-mcq-05",
-        "listen-mcq-09",
-        "listen-mcq-04"
+        "listen-mcq-10",
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listened for」指「集中注意力等待某個特定聲音出現」。",
       "sentenceIndex": 14,
@@ -826,12 +725,9 @@ export default {
         "listened for"
       ],
       "optionReasons": {
-        "listen-mcq-07": "本句指「集中注意力等待某個特定聲音出現」。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-04": "「不只是聽到，而是認真重視和考慮對方所說的內容」是「listen — take seriously」的用法，與本句語境不同。"
+        "listen-mcq-07": "本句的「listened for」指「集中注意力等待某個特定聲音出現」。",
+        "listen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-07"
     },
@@ -843,11 +739,7 @@ export default {
       "masked": "____ to what she says.",
       "options": [
         "listen-mcq-08",
-        "listen-mcq-07",
-        "listen-mcq-09",
-        "listen-mcq-06",
-        "listen-mcq-10",
-        "listen-mcq-05"
+        "listen-mcq-06"
       ],
       "explanation": "本句的「Listen closely」指「高度集中注意力以理解聲音或說話內容」。",
       "sentenceIndex": 15,
@@ -856,12 +748,8 @@ export default {
         "Listen closely"
       ],
       "optionReasons": {
-        "listen-mcq-08": "本句指「高度集中注意力以理解聲音或說話內容」。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。"
+        "listen-mcq-08": "本句的「Listen closely」指「高度集中注意力以理解聲音或說話內容」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-08"
     },
@@ -873,11 +761,7 @@ export default {
       "masked": "He ____ to the instructions.",
       "options": [
         "listen-mcq-08",
-        "listen-mcq-07",
-        "listen-mcq-09",
-        "listen-mcq-06",
-        "listen-mcq-10",
-        "listen-mcq-05"
+        "listen-mcq-06"
       ],
       "explanation": "本句的「listened carefully」指「高度集中注意力以理解聲音或說話內容」。",
       "sentenceIndex": 16,
@@ -886,12 +770,8 @@ export default {
         "listened carefully"
       ],
       "optionReasons": {
-        "listen-mcq-08": "本句指「高度集中注意力以理解聲音或說話內容」。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-06": "「接受別人的指示／勸告並照著做」是「listen — obey」的用法，與本句語境不同。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。",
-        "listen-mcq-05": "「願意接受並認真考慮別人的建議或警告」是「listen to advice/warnings」的用法，與本句語境不同。"
+        "listen-mcq-08": "本句的「listened carefully」指「高度集中注意力以理解聲音或說話內容」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-08"
     },
@@ -903,11 +783,8 @@ export default {
       "masked": "Thousands of people ____ to the interview.",
       "options": [
         "listen-mcq-10",
-        "listen-mcq-09",
-        "listen-mcq-11",
-        "listen-mcq-08",
-        "listen-mcq-12",
-        "listen-mcq-07"
+        "listen-mcq-03",
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listened in」指「在沒有直接參與的情況下旁聽／偷聽別人的談話」。",
       "sentenceIndex": 17,
@@ -916,12 +793,9 @@ export default {
         "listened in"
       ],
       "optionReasons": {
-        "listen-mcq-10": "本句指「在沒有直接參與的情況下旁聽／偷聽別人的談話」。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。"
+        "listen-mcq-10": "本句的「listened in」指「在沒有直接參與的情況下旁聽／偷聽別人的談話」。",
+        "listen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-10"
     },
@@ -933,11 +807,8 @@ export default {
       "masked": "I wasn’t trying to ____ on your conversation.",
       "options": [
         "listen-mcq-10",
-        "listen-mcq-09",
-        "listen-mcq-11",
-        "listen-mcq-08",
-        "listen-mcq-12",
-        "listen-mcq-07"
+        "listen-mcq-03",
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listen in」指「在沒有直接參與的情況下旁聽／偷聽別人的談話」。",
       "sentenceIndex": 18,
@@ -946,12 +817,9 @@ export default {
         "listen in"
       ],
       "optionReasons": {
-        "listen-mcq-10": "本句指「在沒有直接參與的情況下旁聽／偷聽別人的談話」。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-07": "「集中注意力等待某個特定聲音出現」是「listen for」的用法，與本句語境不同。"
+        "listen-mcq-10": "本句的「listen in」指「在沒有直接參與的情況下旁聽／偷聽別人的談話」。",
+        "listen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-10"
     },
@@ -963,11 +831,7 @@ export default {
       "masked": "She is a very good ____.",
       "options": [
         "listen-mcq-11",
-        "listen-mcq-10",
-        "listen-mcq-12",
-        "listen-mcq-09",
-        "listen-mcq-13",
-        "listen-mcq-08"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listener」指「正在聽某人、音樂、廣播等內容的人」。",
       "sentenceIndex": 19,
@@ -976,12 +840,8 @@ export default {
         "listener"
       ],
       "optionReasons": {
-        "listen-mcq-11": "本句指「正在聽某人、音樂、廣播等內容的人」。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。"
+        "listen-mcq-11": "本句的「listener」指「正在聽某人、音樂、廣播等內容的人」。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-11"
     },
@@ -993,11 +853,7 @@ export default {
       "masked": "Radio ____ called in with questions.",
       "options": [
         "listen-mcq-11",
-        "listen-mcq-10",
-        "listen-mcq-12",
-        "listen-mcq-09",
-        "listen-mcq-13",
-        "listen-mcq-08"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listeners」指「正在聽某人、音樂、廣播等內容的人」。",
       "sentenceIndex": 20,
@@ -1006,12 +862,8 @@ export default {
         "listeners"
       ],
       "optionReasons": {
-        "listen-mcq-11": "本句指「正在聽某人、音樂、廣播等內容的人」。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-08": "「高度集中注意力以理解聲音或說話內容」是「listen closely/carefully」的用法，與本句語境不同。"
+        "listen-mcq-11": "本句的「listeners」指「正在聽某人、音樂、廣播等內容的人」。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-11"
     },
@@ -1023,11 +875,7 @@ export default {
       "masked": "She is a ____ and rarely interrupts.",
       "options": [
         "listen-mcq-12",
-        "listen-mcq-11",
-        "listen-mcq-13",
-        "listen-mcq-10",
-        "listen-mcq-14",
-        "listen-mcq-09"
+        "listen-mcq-03"
       ],
       "explanation": "本句的「good listener」指「願意專心聽、理解並給別人充分表達空間的人」。",
       "sentenceIndex": 21,
@@ -1036,12 +884,8 @@ export default {
         "good listener"
       ],
       "optionReasons": {
-        "listen-mcq-12": "本句指「願意專心聽、理解並給別人充分表達空間的人」。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。"
+        "listen-mcq-12": "本句的「good listener」指「願意專心聽、理解並給別人充分表達空間的人」。",
+        "listen-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-12"
     },
@@ -1053,11 +897,7 @@ export default {
       "masked": "A good ____ makes people feel understood.",
       "options": [
         "listen-mcq-12",
-        "listen-mcq-11",
-        "listen-mcq-13",
-        "listen-mcq-10",
-        "listen-mcq-14",
-        "listen-mcq-09"
+        "listen-mcq-04"
       ],
       "explanation": "本句的「listener」指「願意專心聽、理解並給別人充分表達空間的人」。",
       "sentenceIndex": 22,
@@ -1066,12 +906,8 @@ export default {
         "listener"
       ],
       "optionReasons": {
-        "listen-mcq-12": "本句指「願意專心聽、理解並給別人充分表達空間的人」。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-09": "「收聽某個廣播、談話或節目」是「listen in — broadcast」的用法，與本句語境不同。"
+        "listen-mcq-12": "本句的「listener」指「願意專心聽、理解並給別人充分表達空間的人」。",
+        "listen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-12"
     },
@@ -1083,10 +919,6 @@ export default {
       "masked": "Good ____ is an important communication skill.",
       "options": [
         "listen-mcq-13",
-        "listen-mcq-12",
-        "listen-mcq-14",
-        "listen-mcq-11",
-        "listen-mcq-15",
         "listen-mcq-10"
       ],
       "explanation": "本句的「listening」指「主動接收並理解聲音或說話的行為／能力」。",
@@ -1096,12 +928,8 @@ export default {
         "listening"
       ],
       "optionReasons": {
-        "listen-mcq-13": "本句指「主動接收並理解聲音或說話的行為／能力」。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。"
+        "listen-mcq-13": "本句的「listening」指「主動接收並理解聲音或說話的行為／能力」。",
+        "listen-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-13"
     },
@@ -1113,10 +941,6 @@ export default {
       "masked": "The course includes speaking and ____ practice.",
       "options": [
         "listen-mcq-13",
-        "listen-mcq-12",
-        "listen-mcq-14",
-        "listen-mcq-11",
-        "listen-mcq-15",
         "listen-mcq-10"
       ],
       "explanation": "本句的「listening」指「主動接收並理解聲音或說話的行為／能力」。",
@@ -1126,12 +950,8 @@ export default {
         "listening"
       ],
       "optionReasons": {
-        "listen-mcq-13": "本句指「主動接收並理解聲音或說話的行為／能力」。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-10": "「在沒有直接參與的情況下旁聽／偷聽別人的談話」是「listen in — conversation」的用法，與本句語境不同。"
+        "listen-mcq-13": "本句的「listening」指「主動接收並理解聲音或說話的行為／能力」。",
+        "listen-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-13"
     },
@@ -1143,11 +963,8 @@ export default {
       "masked": "My English ____ has improved.",
       "options": [
         "listen-mcq-14",
-        "listen-mcq-13",
-        "listen-mcq-15",
-        "listen-mcq-12",
-        "listen-mcq-16",
-        "listen-mcq-11"
+        "listen-mcq-06",
+        "listen-mcq-07"
       ],
       "explanation": "本句的「listening」指「理解口語語言的聽力能力」。",
       "sentenceIndex": 25,
@@ -1156,12 +973,9 @@ export default {
         "listening"
       ],
       "optionReasons": {
-        "listen-mcq-14": "本句指「理解口語語言的聽力能力」。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。"
+        "listen-mcq-14": "本句的「listening」指「理解口語語言的聽力能力」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-14"
     },
@@ -1173,11 +987,8 @@ export default {
       "masked": "The exam tests reading and ____.",
       "options": [
         "listen-mcq-14",
-        "listen-mcq-13",
-        "listen-mcq-15",
-        "listen-mcq-12",
-        "listen-mcq-16",
-        "listen-mcq-11"
+        "listen-mcq-05",
+        "listen-mcq-07"
       ],
       "explanation": "本句的「listening」指「理解口語語言的聽力能力」。",
       "sentenceIndex": 26,
@@ -1186,12 +997,9 @@ export default {
         "listening"
       ],
       "optionReasons": {
-        "listen-mcq-14": "本句指「理解口語語言的聽力能力」。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-11": "「正在聽某人、音樂、廣播等內容的人」是「listener」的用法，與本句語境不同。"
+        "listen-mcq-14": "本句的「listening」指「理解口語語言的聽力能力」。",
+        "listen-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "listen-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-14"
     },
@@ -1203,11 +1011,7 @@ export default {
       "masked": "____ helps people feel respected.",
       "options": [
         "listen-mcq-15",
-        "listen-mcq-14",
-        "listen-mcq-16",
-        "listen-mcq-13",
-        "listen-mcq-17",
-        "listen-mcq-12"
+        "listen-mcq-06"
       ],
       "explanation": "本句的「Active listening」指「專心聆聽、確認理解並適當回應的溝通方式」。",
       "sentenceIndex": 27,
@@ -1216,12 +1020,8 @@ export default {
         "Active listening"
       ],
       "optionReasons": {
-        "listen-mcq-15": "本句指「專心聆聽、確認理解並適當回應的溝通方式」。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-17": "「用來收取、記錄或監聽聲音／談話的裝置」是「listening device」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-15": "本句的「Active listening」指「專心聆聽、確認理解並適當回應的溝通方式」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-15"
     },
@@ -1233,11 +1033,7 @@ export default {
       "masked": "The training teaches ____ skills.",
       "options": [
         "listen-mcq-15",
-        "listen-mcq-14",
-        "listen-mcq-16",
-        "listen-mcq-13",
-        "listen-mcq-17",
-        "listen-mcq-12"
+        "listen-mcq-06"
       ],
       "explanation": "本句的「active listening」指「專心聆聽、確認理解並適當回應的溝通方式」。",
       "sentenceIndex": 28,
@@ -1246,12 +1042,8 @@ export default {
         "active listening"
       ],
       "optionReasons": {
-        "listen-mcq-15": "本句指「專心聆聽、確認理解並適當回應的溝通方式」。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-17": "「用來收取、記錄或監聽聲音／談話的裝置」是「listening device」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-15": "本句的「active listening」指「專心聆聽、確認理解並適當回應的溝通方式」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-15"
     },
@@ -1263,11 +1055,7 @@ export default {
       "masked": "The exercise tests ____.",
       "options": [
         "listen-mcq-16",
-        "listen-mcq-15",
-        "listen-mcq-17",
-        "listen-mcq-14",
-        "listen-mcq-13",
-        "listen-mcq-12"
+        "listen-mcq-06"
       ],
       "explanation": "本句的「listening comprehension」指「聽到口語後理解其意思、內容和細節的能力」。",
       "sentenceIndex": 29,
@@ -1276,12 +1064,8 @@ export default {
         "listening comprehension"
       ],
       "optionReasons": {
-        "listen-mcq-16": "本句指「聽到口語後理解其意思、內容和細節的能力」。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-17": "「用來收取、記錄或監聽聲音／談話的裝置」是「listening device」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-16": "本句的「listening comprehension」指「聽到口語後理解其意思、內容和細節的能力」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-16"
     },
@@ -1293,11 +1077,7 @@ export default {
       "masked": "Watching interviews can improve ____.",
       "options": [
         "listen-mcq-16",
-        "listen-mcq-15",
-        "listen-mcq-17",
-        "listen-mcq-14",
-        "listen-mcq-13",
-        "listen-mcq-12"
+        "listen-mcq-06"
       ],
       "explanation": "本句的「listening comprehension」指「聽到口語後理解其意思、內容和細節的能力」。",
       "sentenceIndex": 30,
@@ -1306,12 +1086,8 @@ export default {
         "listening comprehension"
       ],
       "optionReasons": {
-        "listen-mcq-16": "本句指「聽到口語後理解其意思、內容和細節的能力」。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-17": "「用來收取、記錄或監聽聲音／談話的裝置」是「listening device」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-16": "本句的「listening comprehension」指「聽到口語後理解其意思、內容和細節的能力」。",
+        "listen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-16"
     },
@@ -1323,11 +1099,7 @@ export default {
       "masked": "The microphone can be used as a ____.",
       "options": [
         "listen-mcq-17",
-        "listen-mcq-16",
-        "listen-mcq-15",
-        "listen-mcq-14",
-        "listen-mcq-13",
-        "listen-mcq-12"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listening device」指「用來收取、記錄或監聽聲音／談話的裝置」。",
       "sentenceIndex": 31,
@@ -1336,12 +1108,8 @@ export default {
         "listening device"
       ],
       "optionReasons": {
-        "listen-mcq-17": "本句指「用來收取、記錄或監聽聲音／談話的裝置」。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-17": "本句的「listening device」指「用來收取、記錄或監聽聲音／談話的裝置」。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-17"
     },
@@ -1353,10 +1121,6 @@ export default {
       "masked": "Investigators found a hidden ____.",
       "options": [
         "listen-mcq-17",
-        "listen-mcq-16",
-        "listen-mcq-15",
-        "listen-mcq-14",
-        "listen-mcq-13",
         "listen-mcq-12"
       ],
       "explanation": "本句的「listening device」指「用來收取、記錄或監聽聲音／談話的裝置」。",
@@ -1366,12 +1130,8 @@ export default {
         "listening device"
       ],
       "optionReasons": {
-        "listen-mcq-17": "本句指「用來收取、記錄或監聽聲音／談話的裝置」。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-17": "本句的「listening device」指「用來收取、記錄或監聽聲音／談話的裝置」。",
+        "listen-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-17"
     },
@@ -1383,10 +1143,6 @@ export default {
       "masked": "The programme has a large ____.",
       "options": [
         "listen-mcq-17",
-        "listen-mcq-16",
-        "listen-mcq-15",
-        "listen-mcq-14",
-        "listen-mcq-13",
         "listen-mcq-12"
       ],
       "explanation": "本句的「listening audience」指「用來收取、記錄或監聽聲音／談話的裝置」。",
@@ -1396,12 +1152,8 @@ export default {
         "listening audience"
       ],
       "optionReasons": {
-        "listen-mcq-17": "本句指「用來收取、記錄或監聽聲音／談話的裝置」。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-17": "本句的「listening audience」指「用來收取、記錄或監聽聲音／談話的裝置」。",
+        "listen-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-17"
     },
@@ -1413,11 +1165,7 @@ export default {
       "masked": "The station is trying to attract a younger ____.",
       "options": [
         "listen-mcq-17",
-        "listen-mcq-16",
-        "listen-mcq-15",
-        "listen-mcq-14",
-        "listen-mcq-13",
-        "listen-mcq-12"
+        "listen-mcq-14"
       ],
       "explanation": "本句的「listening audience」指「用來收取、記錄或監聽聲音／談話的裝置」。",
       "sentenceIndex": 34,
@@ -1426,12 +1174,8 @@ export default {
         "listening audience"
       ],
       "optionReasons": {
-        "listen-mcq-17": "本句指「用來收取、記錄或監聽聲音／談話的裝置」。",
-        "listen-mcq-16": "「聽到口語後理解其意思、內容和細節的能力」是「listening comprehension」的用法，與本句語境不同。",
-        "listen-mcq-15": "「專心聆聽、確認理解並適當回應的溝通方式」是「active listening」的用法，與本句語境不同。",
-        "listen-mcq-14": "「理解口語語言的聽力能力」是「listening — language skill」的用法，與本句語境不同。",
-        "listen-mcq-13": "「主動接收並理解聲音或說話的行為／能力」是「listening — general」的用法，與本句語境不同。",
-        "listen-mcq-12": "「願意專心聽、理解並給別人充分表達空間的人」是「good listener」的用法，與本句語境不同。"
+        "listen-mcq-17": "本句的「listening audience」指「用來收取、記錄或監聽聲音／談話的裝置」。",
+        "listen-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "listen-mcq-17"
     }
@@ -1443,5 +1187,7 @@ export default {
     "sha256": "f6faa735c4a6625336dd3551f44c10b44d8f79bbbc65abd2b10df2eb0e2df589",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

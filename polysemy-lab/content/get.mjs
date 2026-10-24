@@ -235,16 +235,6 @@ export default {
           "Could you get some food for us?",
           "你可以替我們買／拿些食物嗎？",
           "替某人取得、買來或拿來某物"
-        ],
-        [
-          "The police finally got the suspect.",
-          "警方最後抓到了疑犯。",
-          "替某人取得、買來或拿來某物"
-        ],
-        [
-          "I couldn’t get him on the phone.",
-          "我電話上一直聯絡不到他。",
-          "替某人取得、買來或拿來某物"
         ]
       ],
       "options": [],
@@ -335,16 +325,6 @@ export default {
       "zh": "因事件而進入某種被動／結果狀態",
       "note": "來源詞義：因事件而進入某種被動／結果狀態",
       "examples": [
-        [
-          "He got his wallet stolen.",
-          "他的錢包被偷了。",
-          "因事件而進入某種被動／結果狀態"
-        ],
-        [
-          "She got her bag damaged on the flight.",
-          "她的袋子在航班途中被弄壞了。",
-          "因事件而進入某種被動／結果狀態"
-        ],
         [
           "He got injured during the match.",
           "他在比賽中受傷了。",
@@ -537,7 +517,7 @@ export default {
     },
     {
       "id": "get-mcq-24",
-      "title": "表示已明白指示或內容",
+      "title": "已明白指示或內容",
       "form": "got it",
       "en": "got it",
       "zh": "表示已明白指示或內容",
@@ -765,6 +745,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "get-reviewed-9de0216fe8",
+      "title": "某人的東西遭受某個通常不希望發生的動作",
+      "form": "get · source section 15",
+      "en": "某人的東西遭受某個通常不希望發生的動作",
+      "zh": "某人的東西遭受某個通常不希望發生的動作",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "He got his wallet stolen.",
+          "他的錢包被偷了。",
+          "某人的東西遭受某個通常不希望發生的動作"
+        ],
+        [
+          "She got her bag damaged on the flight.",
+          "她的袋子在航班途中被弄壞了。",
+          "某人的東西遭受某個通常不希望發生的動作"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "get-reviewed-6d7fccb20e",
+      "title": "成功找到、抓到或聯絡到某人",
+      "form": "get · source section 19",
+      "en": "成功找到、抓到或聯絡到某人",
+      "zh": "成功找到、抓到或聯絡到某人",
+      "note": "對照原始教材第 19 節及例句核實。",
+      "examples": [
+        [
+          "The police finally got the suspect.",
+          "警方最後抓到了疑犯。",
+          "成功找到、抓到或聯絡到某人"
+        ],
+        [
+          "I couldn’t get him on the phone.",
+          "我電話上一直聯絡不到他。",
+          "成功找到、抓到或聯絡到某人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -776,10 +800,8 @@ export default {
       "masked": "I often ____ feeling exhausted.",
       "options": [
         "get-mcq-01",
-        "get-mcq-02",
-        "get-mcq-03",
+        "get-mcq-25",
         "get-mcq-04",
-        "get-mcq-05",
         "get-mcq-06"
       ],
       "explanation": "本句的「got home」指「經過移動後到達某個地方」。",
@@ -789,12 +811,10 @@ export default {
         "got home"
       ],
       "optionReasons": {
-        "get-mcq-01": "本句指「經過移動後到達某個地方」。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-01": "本句的「got home」指「經過移動後到達某個地方」。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-01"
     },
@@ -806,11 +826,9 @@ export default {
       "masked": "What time did you ____ last night?",
       "options": [
         "get-mcq-01",
-        "get-mcq-02",
-        "get-mcq-03",
+        "get-mcq-17",
         "get-mcq-04",
-        "get-mcq-05",
-        "get-mcq-06"
+        "get-mcq-24"
       ],
       "explanation": "本句的「get home」指「經過移動後到達某個地方」。",
       "sentenceIndex": 1,
@@ -819,12 +837,10 @@ export default {
         "get home"
       ],
       "optionReasons": {
-        "get-mcq-01": "本句指「經過移動後到達某個地方」。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-01": "本句的「get home」指「經過移動後到達某個地方」。",
+        "get-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-01"
     },
@@ -836,11 +852,9 @@ export default {
       "masked": "We ____ just before the train left.",
       "options": [
         "get-mcq-01",
-        "get-mcq-02",
-        "get-mcq-03",
-        "get-mcq-04",
-        "get-mcq-05",
-        "get-mcq-06"
+        "get-reviewed-6d7fccb20e",
+        "get-mcq-19",
+        "get-mcq-25"
       ],
       "explanation": "本句的「got to the station」指「經過移動後到達某個地方」。",
       "sentenceIndex": 2,
@@ -849,12 +863,10 @@ export default {
         "got to the station"
       ],
       "optionReasons": {
-        "get-mcq-01": "本句指「經過移動後到達某個地方」。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-01": "本句的「got to the station」指「經過移動後到達某個地方」。",
+        "get-reviewed-6d7fccb20e": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-01"
     },
@@ -866,11 +878,9 @@ export default {
       "masked": "I ____ an email from the company.",
       "options": [
         "get-mcq-02",
-        "get-mcq-01",
-        "get-mcq-03",
-        "get-mcq-04",
-        "get-mcq-05",
-        "get-mcq-06"
+        "get-mcq-06",
+        "get-mcq-12",
+        "get-mcq-23"
       ],
       "explanation": "本句的「got」指「收到、得到或取得某樣東西／資訊／權利」。",
       "sentenceIndex": 3,
@@ -879,12 +889,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-02": "本句指「收到、得到或取得某樣東西／資訊／權利」。",
-        "get-mcq-01": "「經過移動後到達某個地方」是「get + destination」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-02": "本句的「got」指「收到、得到或取得某樣東西／資訊／權利」。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-02"
     },
@@ -896,11 +904,9 @@ export default {
       "masked": "She ____ permission to leave early.",
       "options": [
         "get-mcq-02",
-        "get-mcq-01",
-        "get-mcq-03",
-        "get-mcq-04",
-        "get-mcq-05",
-        "get-mcq-06"
+        "get-mcq-15",
+        "get-reviewed-6d7fccb20e",
+        "get-mcq-19"
       ],
       "explanation": "本句的「got」指「收到、得到或取得某樣東西／資訊／權利」。",
       "sentenceIndex": 4,
@@ -909,12 +915,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-02": "本句指「收到、得到或取得某樣東西／資訊／權利」。",
-        "get-mcq-01": "「經過移動後到達某個地方」是「get + destination」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-02": "本句的「got」指「收到、得到或取得某樣東西／資訊／權利」。",
+        "get-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "get-reviewed-6d7fccb20e": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-02"
     },
@@ -926,11 +930,9 @@ export default {
       "masked": "I need to ____ a new charger.",
       "options": [
         "get-mcq-03",
-        "get-mcq-02",
-        "get-mcq-04",
-        "get-mcq-01",
-        "get-mcq-05",
-        "get-mcq-06"
+        "get-mcq-26",
+        "get-mcq-22",
+        "get-mcq-31"
       ],
       "explanation": "本句的「get」指「透過購買或其他方式把某物取得到手」。",
       "sentenceIndex": 5,
@@ -939,12 +941,10 @@ export default {
         "get"
       ],
       "optionReasons": {
-        "get-mcq-03": "本句指「透過購買或其他方式把某物取得到手」。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-01": "「經過移動後到達某個地方」是「get + destination」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-03": "本句的「get」指「透過購買或其他方式把某物取得到手」。",
+        "get-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-03"
     },
@@ -956,11 +956,9 @@ export default {
       "masked": "Where did you ____ those headphones?",
       "options": [
         "get-mcq-03",
-        "get-mcq-02",
-        "get-mcq-04",
-        "get-mcq-01",
-        "get-mcq-05",
-        "get-mcq-06"
+        "get-mcq-13",
+        "get-mcq-12",
+        "get-mcq-18"
       ],
       "explanation": "本句的「get」指「透過購買或其他方式把某物取得到手」。",
       "sentenceIndex": 6,
@@ -969,12 +967,10 @@ export default {
         "get"
       ],
       "optionReasons": {
-        "get-mcq-03": "本句指「透過購買或其他方式把某物取得到手」。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-01": "「經過移動後到達某個地方」是「get + destination」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-03": "本句的「get」指「透過購買或其他方式把某物取得到手」。",
+        "get-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-03"
     },
@@ -986,11 +982,9 @@ export default {
       "masked": "I ____ after the long journey.",
       "options": [
         "get-mcq-04",
-        "get-mcq-03",
-        "get-mcq-05",
-        "get-mcq-02",
-        "get-mcq-06",
-        "get-mcq-01"
+        "get-mcq-01",
+        "get-mcq-11",
+        "get-mcq-18"
       ],
       "explanation": "本句的「got tired」指「從原本狀態轉變成另一種狀態」。",
       "sentenceIndex": 7,
@@ -999,12 +993,10 @@ export default {
         "got tired"
       ],
       "optionReasons": {
-        "get-mcq-04": "本句指「從原本狀態轉變成另一種狀態」。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-01": "「經過移動後到達某個地方」是「get + destination」的用法，與本句語境不同。"
+        "get-mcq-04": "本句的「got tired」指「從原本狀態轉變成另一種狀態」。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-04"
     },
@@ -1016,11 +1008,9 @@ export default {
       "masked": "It’s ____.",
       "options": [
         "get-mcq-04",
-        "get-mcq-03",
-        "get-mcq-05",
-        "get-mcq-02",
-        "get-mcq-06",
-        "get-mcq-01"
+        "get-mcq-11",
+        "get-mcq-19",
+        "get-mcq-09"
       ],
       "explanation": "本句的「getting cold」指「從原本狀態轉變成另一種狀態」。",
       "sentenceIndex": 8,
@@ -1029,12 +1019,10 @@ export default {
         "getting cold"
       ],
       "optionReasons": {
-        "get-mcq-04": "本句指「從原本狀態轉變成另一種狀態」。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-01": "「經過移動後到達某個地方」是「get + destination」的用法，與本句語境不同。"
+        "get-mcq-04": "本句的「getting cold」指「從原本狀態轉變成另一種狀態」。",
+        "get-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-04"
     },
@@ -1046,11 +1034,9 @@ export default {
       "masked": "The noise ____.",
       "options": [
         "get-mcq-05",
-        "get-mcq-04",
-        "get-mcq-06",
-        "get-mcq-03",
+        "get-mcq-12",
         "get-mcq-07",
-        "get-mcq-02"
+        "get-mcq-18"
       ],
       "explanation": "本句的「got louder」指「某種性質隨時間變得程度更高／低」。",
       "sentenceIndex": 9,
@@ -1059,12 +1045,10 @@ export default {
         "got louder"
       ],
       "optionReasons": {
-        "get-mcq-05": "本句指「某種性質隨時間變得程度更高／低」。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。"
+        "get-mcq-05": "本句的「got louder」指「某種性質隨時間變得程度更高／低」。",
+        "get-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-05"
     },
@@ -1076,11 +1060,9 @@ export default {
       "masked": "The situation is ____.",
       "options": [
         "get-mcq-05",
-        "get-mcq-04",
-        "get-mcq-06",
-        "get-mcq-03",
-        "get-mcq-07",
-        "get-mcq-02"
+        "get-mcq-10",
+        "get-mcq-15",
+        "get-mcq-06"
       ],
       "explanation": "本句的「getting better」指「某種性質隨時間變得程度更高／低」。",
       "sentenceIndex": 10,
@@ -1089,12 +1071,10 @@ export default {
         "getting better"
       ],
       "optionReasons": {
-        "get-mcq-05": "本句指「某種性質隨時間變得程度更高／低」。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-02": "「收到、得到或取得某樣東西／資訊／權利」是「get + object — receive」的用法，與本句語境不同。"
+        "get-mcq-05": "本句的「getting better」指「某種性質隨時間變得程度更高／低」。",
+        "get-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-05"
     },
@@ -1106,11 +1086,9 @@ export default {
       "masked": "I ____ last week.",
       "options": [
         "get-mcq-06",
-        "get-mcq-05",
+        "get-mcq-01",
         "get-mcq-07",
-        "get-mcq-04",
-        "get-mcq-08",
-        "get-mcq-03"
+        "get-mcq-21"
       ],
       "explanation": "本句的「got a cold」指「患上或感染某種疾病／健康問題」。",
       "sentenceIndex": 11,
@@ -1119,12 +1097,10 @@ export default {
         "got a cold"
       ],
       "optionReasons": {
-        "get-mcq-06": "本句指「患上或感染某種疾病／健康問題」。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。"
+        "get-mcq-06": "本句的「got a cold」指「患上或感染某種疾病／健康問題」。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-06"
     },
@@ -1136,11 +1112,9 @@ export default {
       "masked": "He ____ while travelling.",
       "options": [
         "get-mcq-06",
-        "get-mcq-05",
-        "get-mcq-07",
-        "get-mcq-04",
         "get-mcq-08",
-        "get-mcq-03"
+        "get-mcq-19",
+        "get-pdf-001"
       ],
       "explanation": "本句的「got food poisoning」指「患上或感染某種疾病／健康問題」。",
       "sentenceIndex": 12,
@@ -1149,12 +1123,10 @@ export default {
         "got food poisoning"
       ],
       "optionReasons": {
-        "get-mcq-06": "本句指「患上或感染某種疾病／健康問題」。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-03": "「透過購買或其他方式把某物取得到手」是「get + item — obtain/buy」的用法，與本句語境不同。"
+        "get-mcq-06": "本句的「got food poisoning」指「患上或感染某種疾病／健康問題」。",
+        "get-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "get-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-06"
     },
@@ -1166,11 +1138,9 @@ export default {
       "masked": "She ____ a high score.",
       "options": [
         "get-mcq-07",
-        "get-mcq-06",
-        "get-mcq-08",
+        "get-mcq-18",
         "get-mcq-05",
-        "get-mcq-09",
-        "get-mcq-04"
+        "get-mcq-06"
       ],
       "explanation": "本句的「got」指「在考試、比賽或評核中取得某項結果」。",
       "sentenceIndex": 13,
@@ -1179,12 +1149,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-07": "本句指「在考試、比賽或評核中取得某項結果」。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。"
+        "get-mcq-07": "本句的「got」指「在考試、比賽或評核中取得某項結果」。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-07"
     },
@@ -1196,11 +1164,9 @@ export default {
       "masked": "What did you ____ in the exam?",
       "options": [
         "get-mcq-07",
-        "get-mcq-06",
-        "get-mcq-08",
-        "get-mcq-05",
-        "get-mcq-09",
-        "get-mcq-04"
+        "get-mcq-12",
+        "get-mcq-25",
+        "get-mcq-05"
       ],
       "explanation": "本句的「get」指「在考試、比賽或評核中取得某項結果」。",
       "sentenceIndex": 14,
@@ -1209,12 +1175,10 @@ export default {
         "get"
       ],
       "optionReasons": {
-        "get-mcq-07": "本句指「在考試、比賽或評核中取得某項結果」。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-04": "「從原本狀態轉變成另一種狀態」是「get + adjective」的用法，與本句語境不同。"
+        "get-mcq-07": "本句的「get」指「在考試、比賽或評核中取得某項結果」。",
+        "get-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-07"
     },
@@ -1226,10 +1190,8 @@ export default {
       "masked": "How much do you ____ paid?",
       "options": [
         "get-mcq-08",
-        "get-mcq-07",
-        "get-mcq-09",
         "get-mcq-06",
-        "get-mcq-10",
+        "get-mcq-21",
         "get-mcq-05"
       ],
       "explanation": "本句的「get」指「收到薪酬、金錢或報酬」。",
@@ -1239,12 +1201,10 @@ export default {
         "get"
       ],
       "optionReasons": {
-        "get-mcq-08": "本句指「收到薪酬、金錢或報酬」。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。"
+        "get-mcq-08": "本句的「get」指「收到薪酬、金錢或報酬」。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-08"
     },
@@ -1256,11 +1216,9 @@ export default {
       "masked": "He ____ a bonus every year.",
       "options": [
         "get-mcq-08",
-        "get-mcq-07",
-        "get-mcq-09",
-        "get-mcq-06",
-        "get-mcq-10",
-        "get-mcq-05"
+        "get-mcq-23",
+        "get-mcq-15",
+        "get-mcq-19"
       ],
       "explanation": "本句的「gets」指「收到薪酬、金錢或報酬」。",
       "sentenceIndex": 16,
@@ -1269,12 +1227,10 @@ export default {
         "gets"
       ],
       "optionReasons": {
-        "get-mcq-08": "本句指「收到薪酬、金錢或報酬」。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-05": "「某種性質隨時間變得程度更高／低」是「get + comparative」的用法，與本句語境不同。"
+        "get-mcq-08": "本句的「gets」指「收到薪酬、金錢或報酬」。",
+        "get-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-08"
     },
@@ -1286,11 +1242,9 @@ export default {
       "masked": "I don’t ____ the joke.",
       "options": [
         "get-mcq-09",
-        "get-mcq-08",
-        "get-mcq-10",
-        "get-mcq-07",
-        "get-mcq-11",
-        "get-mcq-06"
+        "get-mcq-32",
+        "get-mcq-22",
+        "get-mcq-04"
       ],
       "explanation": "本句的「get」指「明白某個意思、概念、笑話或情況」。",
       "sentenceIndex": 17,
@@ -1299,12 +1253,10 @@ export default {
         "get"
       ],
       "optionReasons": {
-        "get-mcq-09": "本句指「明白某個意思、概念、笑話或情況」。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-09": "本句的「get」指「明白某個意思、概念、笑話或情況」。",
+        "get-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-09"
     },
@@ -1316,11 +1268,9 @@ export default {
       "masked": "Do you ____ what I mean?",
       "options": [
         "get-mcq-09",
-        "get-mcq-08",
-        "get-mcq-10",
+        "get-mcq-28",
         "get-mcq-07",
-        "get-mcq-11",
-        "get-mcq-06"
+        "get-reviewed-9de0216fe8"
       ],
       "explanation": "本句的「get」指「明白某個意思、概念、笑話或情況」。",
       "sentenceIndex": 18,
@@ -1329,12 +1279,10 @@ export default {
         "get"
       ],
       "optionReasons": {
-        "get-mcq-09": "本句指「明白某個意思、概念、笑話或情況」。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-06": "「患上或感染某種疾病／健康問題」是「get + illness」的用法，與本句語境不同。"
+        "get-mcq-09": "本句的「get」指「明白某個意思、概念、笑話或情況」。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "get-reviewed-9de0216fe8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-09"
     },
@@ -1346,11 +1294,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "get-mcq-10",
-        "get-mcq-09",
-        "get-mcq-11",
-        "get-mcq-08",
-        "get-mcq-12",
-        "get-mcq-07"
+        "get-mcq-21",
+        "get-mcq-26",
+        "get-mcq-28"
       ],
       "explanation": "本句的「get me some water」指「替某人取得、買來或拿來某物」。",
       "sentenceIndex": 19,
@@ -1359,12 +1305,10 @@ export default {
         "get me some water"
       ],
       "optionReasons": {
-        "get-mcq-10": "本句指「替某人取得、買來或拿來某物」。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。"
+        "get-mcq-10": "本句的「get me some water」指「替某人取得、買來或拿來某物」。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-10"
     },
@@ -1376,11 +1320,9 @@ export default {
       "masked": "I’ll ____.",
       "options": [
         "get-mcq-10",
-        "get-mcq-09",
-        "get-mcq-11",
-        "get-mcq-08",
-        "get-mcq-12",
-        "get-mcq-07"
+        "get-mcq-20",
+        "get-mcq-18",
+        "get-mcq-09"
       ],
       "explanation": "本句的「get you a coffee」指「替某人取得、買來或拿來某物」。",
       "sentenceIndex": 20,
@@ -1389,12 +1331,10 @@ export default {
         "get you a coffee"
       ],
       "optionReasons": {
-        "get-mcq-10": "本句指「替某人取得、買來或拿來某物」。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。"
+        "get-mcq-10": "本句的「get you a coffee」指「替某人取得、買來或拿來某物」。",
+        "get-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-10"
     },
@@ -1406,11 +1346,9 @@ export default {
       "masked": "I ____ my friend.",
       "options": [
         "get-mcq-10",
-        "get-mcq-09",
-        "get-mcq-11",
-        "get-mcq-08",
-        "get-mcq-12",
-        "get-mcq-07"
+        "get-mcq-22",
+        "get-mcq-25",
+        "get-mcq-26"
       ],
       "explanation": "本句的「got a ticket for」指「替某人取得、買來或拿來某物」。",
       "sentenceIndex": 21,
@@ -1419,12 +1357,10 @@ export default {
         "got a ticket for"
       ],
       "optionReasons": {
-        "get-mcq-10": "本句指「替某人取得、買來或拿來某物」。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。"
+        "get-mcq-10": "本句的「got a ticket for」指「替某人取得、買來或拿來某物」。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-10"
     },
@@ -1436,11 +1372,9 @@ export default {
       "masked": "Could you ____ us?",
       "options": [
         "get-mcq-10",
-        "get-mcq-09",
-        "get-mcq-11",
-        "get-mcq-08",
-        "get-mcq-12",
-        "get-mcq-07"
+        "get-mcq-22",
+        "get-mcq-31",
+        "get-mcq-24"
       ],
       "explanation": "本句的「get some food for」指「替某人取得、買來或拿來某物」。",
       "sentenceIndex": 22,
@@ -1449,12 +1383,10 @@ export default {
         "get some food for"
       ],
       "optionReasons": {
-        "get-mcq-10": "本句指「替某人取得、買來或拿來某物」。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。"
+        "get-mcq-10": "本句的「get some food for」指「替某人取得、買來或拿來某物」。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-10"
     },
@@ -1466,11 +1398,9 @@ export default {
       "masked": "I ____ me.",
       "options": [
         "get-mcq-11",
-        "get-mcq-10",
-        "get-mcq-12",
-        "get-mcq-09",
-        "get-mcq-13",
-        "get-mcq-08"
+        "get-mcq-06",
+        "get-mcq-26",
+        "get-mcq-18"
       ],
       "explanation": "本句的「got him to help」指「透過說服、要求或安排使某人做某事」。",
       "sentenceIndex": 23,
@@ -1479,12 +1409,10 @@ export default {
         "got him to help"
       ],
       "optionReasons": {
-        "get-mcq-11": "本句指「透過說服、要求或安排使某人做某事」。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。"
+        "get-mcq-11": "本句的「got him to help」指「透過說服、要求或安排使某人做某事」。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-11"
     },
@@ -1496,11 +1424,9 @@ export default {
       "masked": "She ____ the computer.",
       "options": [
         "get-mcq-11",
-        "get-mcq-10",
-        "get-mcq-12",
-        "get-mcq-09",
-        "get-mcq-13",
-        "get-mcq-08"
+        "get-mcq-18",
+        "get-mcq-04",
+        "get-mcq-21"
       ],
       "explanation": "本句的「got the technician to check」指「透過說服、要求或安排使某人做某事」。",
       "sentenceIndex": 24,
@@ -1509,12 +1435,10 @@ export default {
         "got the technician to check"
       ],
       "optionReasons": {
-        "get-mcq-11": "本句指「透過說服、要求或安排使某人做某事」。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。"
+        "get-mcq-11": "本句的「got the technician to check」指「透過說服、要求或安排使某人做某事」。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-11"
     },
@@ -1526,11 +1450,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "get-mcq-12",
-        "get-mcq-11",
-        "get-mcq-13",
-        "get-mcq-10",
-        "get-mcq-14",
-        "get-mcq-09"
+        "get-mcq-22",
+        "get-mcq-02",
+        "get-mcq-17"
       ],
       "explanation": "本句的「get the room ready」指「使某物進入指定狀態」。",
       "sentenceIndex": 25,
@@ -1539,12 +1461,10 @@ export default {
         "get the room ready"
       ],
       "optionReasons": {
-        "get-mcq-12": "本句指「使某物進入指定狀態」。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。"
+        "get-mcq-12": "本句的「get the room ready」指「使某物進入指定狀態」。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-12"
     },
@@ -1556,11 +1476,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "get-mcq-12",
-        "get-mcq-11",
-        "get-mcq-13",
-        "get-mcq-10",
-        "get-mcq-14",
-        "get-mcq-09"
+        "get-mcq-02",
+        "get-mcq-28",
+        "get-reviewed-6d7fccb20e"
       ],
       "explanation": "本句的「get the surface clean」指「使某物進入指定狀態」。",
       "sentenceIndex": 26,
@@ -1569,12 +1487,10 @@ export default {
         "get the surface clean"
       ],
       "optionReasons": {
-        "get-mcq-12": "本句指「使某物進入指定狀態」。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。"
+        "get-mcq-12": "本句的「get the surface clean」指「使某物進入指定狀態」。",
+        "get-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "get-reviewed-6d7fccb20e": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-12"
     },
@@ -1586,11 +1502,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "get-mcq-13",
-        "get-mcq-12",
-        "get-mcq-14",
-        "get-mcq-11",
-        "get-mcq-15",
-        "get-mcq-10"
+        "get-mcq-18",
+        "get-mcq-03",
+        "get-mcq-01"
       ],
       "explanation": "本句的「get my phone repaired」指「安排／請別人把某件事情完成」。",
       "sentenceIndex": 27,
@@ -1599,12 +1513,10 @@ export default {
         "get my phone repaired"
       ],
       "optionReasons": {
-        "get-mcq-13": "本句指「安排／請別人把某件事情完成」。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。"
+        "get-mcq-13": "本句的「get my phone repaired」指「安排／請別人把某件事情完成」。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-13"
     },
@@ -1616,11 +1528,9 @@ export default {
       "masked": "She ____ yesterday.",
       "options": [
         "get-mcq-13",
-        "get-mcq-12",
-        "get-mcq-14",
-        "get-mcq-11",
-        "get-mcq-15",
-        "get-mcq-10"
+        "get-mcq-01",
+        "get-mcq-05",
+        "get-mcq-19"
       ],
       "explanation": "本句的「got her hair cut」指「安排／請別人把某件事情完成」。",
       "sentenceIndex": 28,
@@ -1629,74 +1539,68 @@ export default {
         "got her hair cut"
       ],
       "optionReasons": {
-        "get-mcq-13": "本句指「安排／請別人把某件事情完成」。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。",
-        "get-mcq-10": "「替某人取得、買來或拿來某物」是「get someone something」的用法，與本句語境不同。"
+        "get-mcq-13": "本句的「got her hair cut」指「安排／請別人把某件事情完成」。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-13"
     },
     {
       "id": "get-15-0",
-      "sense": "get-mcq-15",
+      "sense": "get-reviewed-9de0216fe8",
       "en": "He got his wallet stolen.",
       "zh": "他的錢包被偷了。",
       "masked": "He ____.",
       "options": [
-        "get-mcq-15",
-        "get-mcq-14",
-        "get-mcq-16",
-        "get-mcq-13",
-        "get-mcq-17",
-        "get-mcq-12"
+        "get-reviewed-9de0216fe8",
+        "get-mcq-25",
+        "get-mcq-03",
+        "get-mcq-04"
       ],
-      "explanation": "本句的「got his wallet stolen」指「因事件而進入某種被動／結果狀態」。",
+      "explanation": "對照完整句子：「他的錢包被偷了。」。這裡的「got his wallet stolen」表示「某人的東西遭受某個通常不希望發生的動作」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "got his wallet stolen"
       ],
       "optionReasons": {
-        "get-mcq-15": "本句指「因事件而進入某種被動／結果狀態」。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。"
+        "get-reviewed-9de0216fe8": "對照完整句子：「他的錢包被偷了。」。這裡的「got his wallet stolen」表示「某人的東西遭受某個通常不希望發生的動作」。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "get-mcq-15"
+      "correctOption": "get-reviewed-9de0216fe8",
+      "previousCorrectOption": "get-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "get-15-1",
-      "sense": "get-mcq-15",
+      "sense": "get-reviewed-9de0216fe8",
       "en": "She got her bag damaged on the flight.",
       "zh": "她的袋子在航班途中被弄壞了。",
       "masked": "She ____ on the flight.",
       "options": [
-        "get-mcq-15",
-        "get-mcq-14",
-        "get-mcq-16",
-        "get-mcq-13",
-        "get-mcq-17",
-        "get-mcq-12"
+        "get-reviewed-9de0216fe8",
+        "get-mcq-19",
+        "get-mcq-05",
+        "get-mcq-21"
       ],
-      "explanation": "本句的「got her bag damaged」指「因事件而進入某種被動／結果狀態」。",
+      "explanation": "對照完整句子：「她的袋子在航班途中被弄壞了。」。這裡的「got her bag damaged」表示「某人的東西遭受某個通常不希望發生的動作」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "targets": [
         "got her bag damaged"
       ],
       "optionReasons": {
-        "get-mcq-15": "本句指「因事件而進入某種被動／結果狀態」。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。"
+        "get-reviewed-9de0216fe8": "對照完整句子：「她的袋子在航班途中被弄壞了。」。這裡的「got her bag damaged」表示「某人的東西遭受某個通常不希望發生的動作」。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "get-mcq-15"
+      "correctOption": "get-reviewed-9de0216fe8",
+      "previousCorrectOption": "get-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "get-16-0",
@@ -1706,11 +1610,9 @@ export default {
       "masked": "He ____ during the match.",
       "options": [
         "get-mcq-15",
-        "get-mcq-14",
-        "get-mcq-16",
-        "get-mcq-13",
-        "get-mcq-17",
-        "get-mcq-12"
+        "get-mcq-05",
+        "get-mcq-20",
+        "get-mcq-30"
       ],
       "explanation": "本句的「got injured」指「因事件而進入某種被動／結果狀態」。",
       "sentenceIndex": 31,
@@ -1719,12 +1621,10 @@ export default {
         "got injured"
       ],
       "optionReasons": {
-        "get-mcq-15": "本句指「因事件而進入某種被動／結果狀態」。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。"
+        "get-mcq-15": "本句的「got injured」指「因事件而進入某種被動／結果狀態」。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-15"
     },
@@ -1736,11 +1636,9 @@ export default {
       "masked": "They ____ in the rain.",
       "options": [
         "get-mcq-15",
-        "get-mcq-14",
-        "get-mcq-16",
-        "get-mcq-13",
-        "get-mcq-17",
-        "get-mcq-12"
+        "get-mcq-21",
+        "get-mcq-22",
+        "get-mcq-03"
       ],
       "explanation": "本句的「got caught」指「因事件而進入某種被動／結果狀態」。",
       "sentenceIndex": 32,
@@ -1749,12 +1647,10 @@ export default {
         "got caught"
       ],
       "optionReasons": {
-        "get-mcq-15": "本句指「因事件而進入某種被動／結果狀態」。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。"
+        "get-mcq-15": "本句的「got caught」指「因事件而進入某種被動／結果狀態」。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-15"
     },
@@ -1766,11 +1662,9 @@ export default {
       "masked": "I ____ the designer.",
       "options": [
         "get-mcq-16",
-        "get-mcq-15",
-        "get-mcq-17",
-        "get-mcq-14",
-        "get-mcq-18",
-        "get-mcq-13"
+        "get-mcq-01",
+        "get-reviewed-9de0216fe8",
+        "get-mcq-21"
       ],
       "explanation": "本句的「got to meet」指「得到機會或被允許做某事」。",
       "sentenceIndex": 33,
@@ -1779,12 +1673,10 @@ export default {
         "got to meet"
       ],
       "optionReasons": {
-        "get-mcq-16": "本句指「得到機會或被允許做某事」。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。"
+        "get-mcq-16": "本句的「got to meet」指「得到機會或被允許做某事」。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-reviewed-9de0216fe8": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-16"
     },
@@ -1796,11 +1688,9 @@ export default {
       "masked": "Employees ____ from home twice a week.",
       "options": [
         "get-mcq-16",
-        "get-mcq-15",
-        "get-mcq-17",
-        "get-mcq-14",
-        "get-mcq-18",
-        "get-mcq-13"
+        "get-mcq-01",
+        "get-reviewed-9de0216fe8",
+        "get-mcq-04"
       ],
       "explanation": "本句的「get to work」指「得到機會或被允許做某事」。",
       "sentenceIndex": 34,
@@ -1809,12 +1699,10 @@ export default {
         "get to work"
       ],
       "optionReasons": {
-        "get-mcq-16": "本句指「得到機會或被允許做某事」。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-13": "「安排／請別人把某件事情完成」是「get something done — causative」的用法，與本句語境不同。"
+        "get-mcq-16": "本句的「get to work」指「得到機會或被允許做某事」。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-reviewed-9de0216fe8": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-16"
     },
@@ -1826,11 +1714,9 @@ export default {
       "masked": "Don’t let the criticism ____.",
       "options": [
         "get-mcq-17",
-        "get-mcq-16",
-        "get-mcq-18",
-        "get-mcq-15",
-        "get-mcq-19",
-        "get-mcq-14"
+        "get-mcq-02",
+        "get-mcq-01",
+        "get-mcq-06"
       ],
       "explanation": "本句的「get to you」指「某件事逐漸影響某人的情緒或耐性」。",
       "sentenceIndex": 35,
@@ -1839,12 +1725,10 @@ export default {
         "get to you"
       ],
       "optionReasons": {
-        "get-mcq-17": "本句指「某件事逐漸影響某人的情緒或耐性」。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。"
+        "get-mcq-17": "本句的「get to you」指「某件事逐漸影響某人的情緒或耐性」。",
+        "get-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-17"
     },
@@ -1856,11 +1740,9 @@ export default {
       "masked": "The constant noise was starting to ____.",
       "options": [
         "get-mcq-17",
-        "get-mcq-16",
-        "get-mcq-18",
-        "get-mcq-15",
-        "get-mcq-19",
-        "get-mcq-14"
+        "get-mcq-08",
+        "get-mcq-21",
+        "get-mcq-23"
       ],
       "explanation": "本句的「get to me」指「某件事逐漸影響某人的情緒或耐性」。",
       "sentenceIndex": 36,
@@ -1869,74 +1751,68 @@ export default {
         "get to me"
       ],
       "optionReasons": {
-        "get-mcq-17": "本句指「某件事逐漸影響某人的情緒或耐性」。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-14": "「自己的物件遭受某個動作或事件」是「get something done — experience」的用法，與本句語境不同。"
+        "get-mcq-17": "本句的「get to me」指「某件事逐漸影響某人的情緒或耐性」。",
+        "get-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-17"
     },
     {
       "id": "get-19-0",
-      "sense": "get-mcq-10",
+      "sense": "get-reviewed-6d7fccb20e",
       "en": "The police finally got the suspect.",
       "zh": "警方最後抓到了疑犯。",
       "masked": "The police finally ____ the suspect.",
       "options": [
-        "get-mcq-10",
-        "get-mcq-09",
-        "get-mcq-11",
-        "get-mcq-08",
-        "get-mcq-12",
-        "get-mcq-07"
+        "get-reviewed-6d7fccb20e",
+        "get-mcq-25",
+        "get-mcq-15",
+        "get-mcq-19"
       ],
-      "explanation": "本句的「got」指「替某人取得、買來或拿來某物」。",
+      "explanation": "對照完整句子：「警方最後抓到了疑犯。」。這裡的「got」表示「成功找到、抓到或聯絡到某人」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "got"
       ],
       "optionReasons": {
-        "get-mcq-10": "本句指「替某人取得、買來或拿來某物」。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。"
+        "get-reviewed-6d7fccb20e": "對照完整句子：「警方最後抓到了疑犯。」。這裡的「got」表示「成功找到、抓到或聯絡到某人」。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "get-mcq-10"
+      "correctOption": "get-reviewed-6d7fccb20e",
+      "previousCorrectOption": "get-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "get-19-1",
-      "sense": "get-mcq-10",
+      "sense": "get-reviewed-6d7fccb20e",
       "en": "I couldn’t get him on the phone.",
       "zh": "我電話上一直聯絡不到他。",
       "masked": "I couldn’t ____ him on the phone.",
       "options": [
-        "get-mcq-10",
-        "get-mcq-09",
-        "get-mcq-11",
-        "get-mcq-08",
+        "get-reviewed-6d7fccb20e",
         "get-mcq-12",
-        "get-mcq-07"
+        "get-mcq-07",
+        "get-mcq-25"
       ],
-      "explanation": "本句的「get」指「替某人取得、買來或拿來某物」。",
+      "explanation": "對照完整句子：「我電話上一直聯絡不到他。」。這裡的「get」表示「成功找到、抓到或聯絡到某人」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "get"
       ],
       "optionReasons": {
-        "get-mcq-10": "本句指「替某人取得、買來或拿來某物」。",
-        "get-mcq-09": "「明白某個意思、概念、笑話或情況」是「get = understand」的用法，與本句語境不同。",
-        "get-mcq-11": "「透過說服、要求或安排使某人做某事」是「get someone to do」的用法，與本句語境不同。",
-        "get-mcq-08": "「收到薪酬、金錢或報酬」是「get + money/pay」的用法，與本句語境不同。",
-        "get-mcq-12": "「使某物進入指定狀態」是「get something + adjective」的用法，與本句語境不同。",
-        "get-mcq-07": "「在考試、比賽或評核中取得某項結果」是「get + score/result」的用法，與本句語境不同。"
+        "get-reviewed-6d7fccb20e": "對照完整句子：「我電話上一直聯絡不到他。」。這裡的「get」表示「成功找到、抓到或聯絡到某人」。",
+        "get-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "get-mcq-10"
+      "correctOption": "get-reviewed-6d7fccb20e",
+      "previousCorrectOption": "get-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "get-20-0",
@@ -1946,11 +1822,9 @@ export default {
       "masked": "We can ____ home.",
       "options": [
         "get-mcq-18",
-        "get-mcq-17",
-        "get-mcq-19",
-        "get-mcq-16",
-        "get-mcq-20",
-        "get-mcq-15"
+        "get-mcq-22",
+        "get-mcq-26",
+        "get-mcq-25"
       ],
       "explanation": "本句的「get the train」指「搭乘某種交通工具」。",
       "sentenceIndex": 39,
@@ -1959,12 +1833,10 @@ export default {
         "get the train"
       ],
       "optionReasons": {
-        "get-mcq-18": "本句指「搭乘某種交通工具」。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。"
+        "get-mcq-18": "本句的「get the train」指「搭乘某種交通工具」。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-18"
     },
@@ -1976,11 +1848,9 @@ export default {
       "masked": "I usually ____ to work.",
       "options": [
         "get-mcq-18",
-        "get-mcq-17",
-        "get-mcq-19",
-        "get-mcq-16",
-        "get-mcq-20",
-        "get-mcq-15"
+        "get-mcq-01",
+        "get-mcq-06",
+        "get-mcq-29"
       ],
       "explanation": "本句的「get the bus」指「搭乘某種交通工具」。",
       "sentenceIndex": 40,
@@ -1989,12 +1859,10 @@ export default {
         "get the bus"
       ],
       "optionReasons": {
-        "get-mcq-18": "本句指「搭乘某種交通工具」。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-15": "「因事件而進入某種被動／結果狀態」是「get + past participle」的用法，與本句語境不同。"
+        "get-mcq-18": "本句的「get the bus」指「搭乘某種交通工具」。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-18"
     },
@@ -2006,11 +1874,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "get-mcq-19",
-        "get-mcq-18",
-        "get-mcq-20",
-        "get-mcq-17",
-        "get-mcq-21",
-        "get-mcq-16"
+        "get-mcq-15",
+        "get-reviewed-9de0216fe8",
+        "get-mcq-22"
       ],
       "explanation": "本句的「get some lunch」指「買、拿或點某種食物／飲品」。",
       "sentenceIndex": 41,
@@ -2019,12 +1885,10 @@ export default {
         "get some lunch"
       ],
       "optionReasons": {
-        "get-mcq-19": "本句指「買、拿或點某種食物／飲品」。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。"
+        "get-mcq-19": "本句的「get some lunch」指「買、拿或點某種食物／飲品」。",
+        "get-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "get-reviewed-9de0216fe8": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-19"
     },
@@ -2036,11 +1900,9 @@ export default {
       "masked": "I’m going to ____.",
       "options": [
         "get-mcq-19",
-        "get-mcq-18",
         "get-mcq-20",
-        "get-mcq-17",
-        "get-mcq-21",
-        "get-mcq-16"
+        "get-mcq-02",
+        "get-mcq-17"
       ],
       "explanation": "本句的「get a coffee」指「買、拿或點某種食物／飲品」。",
       "sentenceIndex": 42,
@@ -2049,12 +1911,10 @@ export default {
         "get a coffee"
       ],
       "optionReasons": {
-        "get-mcq-19": "本句指「買、拿或點某種食物／飲品」。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-16": "「得到機會或被允許做某事」是「get to do」的用法，與本句語境不同。"
+        "get-mcq-19": "本句的「get a coffee」指「買、拿或點某種食物／飲品」。",
+        "get-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-19"
     },
@@ -2066,11 +1926,9 @@ export default {
       "masked": "Did you ____?",
       "options": [
         "get-mcq-29",
-        "get-mcq-28",
-        "get-mcq-30",
-        "get-mcq-27",
-        "get-mcq-31",
-        "get-mcq-26"
+        "get-mcq-19",
+        "get-mcq-04",
+        "get-mcq-01"
       ],
       "explanation": "本句的「get my message」指「收到某人的電話、訊息、電郵等」。",
       "sentenceIndex": 43,
@@ -2079,12 +1937,10 @@ export default {
         "get my message"
       ],
       "optionReasons": {
-        "get-mcq-29": "本句指「收到某人的電話、訊息、電郵等」。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。"
+        "get-mcq-29": "本句的「get my message」指「收到某人的電話、訊息、電郵等」。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-29"
     },
@@ -2096,11 +1952,9 @@ export default {
       "masked": "I ____ from the office.",
       "options": [
         "get-mcq-29",
+        "get-mcq-25",
         "get-mcq-28",
-        "get-mcq-30",
-        "get-mcq-27",
-        "get-mcq-31",
-        "get-mcq-26"
+        "get-mcq-04"
       ],
       "explanation": "本句的「got a call」指「收到某人的電話、訊息、電郵等」。",
       "sentenceIndex": 44,
@@ -2109,12 +1963,10 @@ export default {
         "got a call"
       ],
       "optionReasons": {
-        "get-mcq-29": "本句指「收到某人的電話、訊息、電郵等」。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。"
+        "get-mcq-29": "本句的「got a call」指「收到某人的電話、訊息、電郵等」。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-29"
     },
@@ -2127,10 +1979,8 @@ export default {
       "options": [
         "get-mcq-20",
         "get-mcq-19",
-        "get-mcq-21",
-        "get-mcq-18",
-        "get-mcq-22",
-        "get-mcq-17"
+        "get-mcq-09",
+        "get-mcq-07"
       ],
       "explanation": "本句的「got the impression」指「從情況中形成某種感覺、看法或印象」。",
       "sentenceIndex": 45,
@@ -2139,12 +1989,10 @@ export default {
         "got the impression"
       ],
       "optionReasons": {
-        "get-mcq-20": "本句指「從情況中形成某種感覺、看法或印象」。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。"
+        "get-mcq-20": "本句的「got the impression」指「從情況中形成某種感覺、看法或印象」。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-20"
     },
@@ -2156,10 +2004,8 @@ export default {
       "masked": "You ____ of calm when you enter the room.",
       "options": [
         "get-mcq-20",
-        "get-mcq-19",
-        "get-mcq-21",
-        "get-mcq-18",
-        "get-mcq-22",
+        "get-mcq-23",
+        "get-mcq-02",
         "get-mcq-17"
       ],
       "explanation": "本句的「get a sense」指「從情況中形成某種感覺、看法或印象」。",
@@ -2169,12 +2015,10 @@ export default {
         "get a sense"
       ],
       "optionReasons": {
-        "get-mcq-20": "本句指「從情況中形成某種感覺、看法或印象」。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-17": "「某件事逐漸影響某人的情緒或耐性」是「get to someone」的用法，與本句語境不同。"
+        "get-mcq-20": "本句的「get a sense」指「從情況中形成某種感覺、看法或印象」。",
+        "get-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-20"
     },
@@ -2186,11 +2030,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "get-mcq-30",
-        "get-mcq-29",
-        "get-mcq-31",
-        "get-mcq-28",
-        "get-mcq-32",
-        "get-mcq-27"
+        "get-mcq-09",
+        "get-mcq-05",
+        "get-mcq-28"
       ],
       "explanation": "本句的「get more information」指「成功取得所需資料、答案或回覆」。",
       "sentenceIndex": 47,
@@ -2199,12 +2041,10 @@ export default {
         "get more information"
       ],
       "optionReasons": {
-        "get-mcq-30": "本句指「成功取得所需資料、答案或回覆」。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。",
-        "get-mcq-32": "「某人／事物受到、獲得某種反應、待遇或評價」是「27. get = experience/receive treatment（遭遇／受到某種待遇） — 遭到；受到」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。"
+        "get-mcq-30": "本句的「get more information」指「成功取得所需資料、答案或回覆」。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-30"
     },
@@ -2216,11 +2056,9 @@ export default {
       "masked": "Did you ____?",
       "options": [
         "get-mcq-30",
-        "get-mcq-29",
-        "get-mcq-31",
-        "get-mcq-28",
-        "get-mcq-32",
-        "get-mcq-27"
+        "get-mcq-12",
+        "get-mcq-21",
+        "get-mcq-28"
       ],
       "explanation": "本句的「get an answer」指「成功取得所需資料、答案或回覆」。",
       "sentenceIndex": 48,
@@ -2229,12 +2067,10 @@ export default {
         "get an answer"
       ],
       "optionReasons": {
-        "get-mcq-30": "本句指「成功取得所需資料、答案或回覆」。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。",
-        "get-mcq-32": "「某人／事物受到、獲得某種反應、待遇或評價」是「27. get = experience/receive treatment（遭遇／受到某種待遇） — 遭到；受到」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。"
+        "get-mcq-30": "本句的「get an answer」指「成功取得所需資料、答案或回覆」。",
+        "get-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-30"
     },
@@ -2246,11 +2082,9 @@ export default {
       "masked": "I finally ____.",
       "options": [
         "get-mcq-21",
-        "get-mcq-20",
-        "get-mcq-22",
-        "get-mcq-19",
-        "get-mcq-23",
-        "get-mcq-18"
+        "get-mcq-32",
+        "get-mcq-06",
+        "get-mcq-31"
       ],
       "explanation": "本句的「got the answer right」指「正確／錯誤地理解、記住或處理某事」。",
       "sentenceIndex": 49,
@@ -2259,12 +2093,10 @@ export default {
         "got the answer right"
       ],
       "optionReasons": {
-        "get-mcq-21": "本句指「正確／錯誤地理解、記住或處理某事」。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。"
+        "get-mcq-21": "本句的「got the answer right」指「正確／錯誤地理解、記住或處理某事」。",
+        "get-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-21"
     },
@@ -2276,11 +2108,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "get-mcq-21",
-        "get-mcq-20",
+        "get-mcq-15",
         "get-mcq-22",
-        "get-mcq-19",
-        "get-mcq-23",
-        "get-mcq-18"
+        "get-mcq-08"
       ],
       "explanation": "本句的「got my name wrong」指「正確／錯誤地理解、記住或處理某事」。",
       "sentenceIndex": 50,
@@ -2289,12 +2119,10 @@ export default {
         "got my name wrong"
       ],
       "optionReasons": {
-        "get-mcq-21": "本句指「正確／錯誤地理解、記住或處理某事」。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。"
+        "get-mcq-21": "本句的「got my name wrong」指「正確／錯誤地理解、記住或處理某事」。",
+        "get-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-21"
     },
@@ -2306,11 +2134,9 @@ export default {
       "masked": "I need to ____ today.",
       "options": [
         "get-mcq-31",
-        "get-mcq-30",
-        "get-mcq-32",
         "get-mcq-29",
-        "get-mcq-33",
-        "get-mcq-28"
+        "get-mcq-18",
+        "get-mcq-09"
       ],
       "explanation": "本句的「get this report finished」指「使某件事達到完成／準備好的狀態」。",
       "sentenceIndex": 51,
@@ -2319,12 +2145,10 @@ export default {
         "get this report finished"
       ],
       "optionReasons": {
-        "get-mcq-31": "本句指「使某件事達到完成／準備好的狀態」。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-32": "「某人／事物受到、獲得某種反應、待遇或評價」是「27. get = experience/receive treatment（遭遇／受到某種待遇） — 遭到；受到」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-33": "「在某種計量、競賽或反應中取得一定數量／成果」是「34. get = earn/achieve attention, votes, points, etc. — 獲得；取得」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。"
+        "get-mcq-31": "本句的「get this report finished」指「使某件事達到完成／準備好的狀態」。",
+        "get-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-31"
     },
@@ -2336,11 +2160,9 @@ export default {
       "masked": "Let’s ____ before they arrive.",
       "options": [
         "get-mcq-31",
-        "get-mcq-30",
-        "get-mcq-32",
-        "get-mcq-29",
-        "get-mcq-33",
-        "get-mcq-28"
+        "get-mcq-09",
+        "get-mcq-07",
+        "get-mcq-22"
       ],
       "explanation": "本句的「get everything ready」指「使某件事達到完成／準備好的狀態」。",
       "sentenceIndex": 52,
@@ -2349,12 +2171,10 @@ export default {
         "get everything ready"
       ],
       "optionReasons": {
-        "get-mcq-31": "本句指「使某件事達到完成／準備好的狀態」。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-32": "「某人／事物受到、獲得某種反應、待遇或評價」是「27. get = experience/receive treatment（遭遇／受到某種待遇） — 遭到；受到」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-33": "「在某種計量、競賽或反應中取得一定數量／成果」是「34. get = earn/achieve attention, votes, points, etc. — 獲得；取得」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。"
+        "get-mcq-31": "本句的「get everything ready」指「使某件事達到完成／準備好的狀態」。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-31"
     },
@@ -2366,11 +2186,9 @@ export default {
       "masked": "The film ____ excellent reviews.",
       "options": [
         "get-mcq-32",
+        "get-mcq-20",
         "get-mcq-31",
-        "get-mcq-33",
-        "get-mcq-30",
-        "get-mcq-29",
-        "get-mcq-28"
+        "get-mcq-24"
       ],
       "explanation": "本句的「got」指「某人／事物受到、獲得某種反應、待遇或評價」。",
       "sentenceIndex": 53,
@@ -2379,12 +2197,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-32": "本句指「某人／事物受到、獲得某種反應、待遇或評價」。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-33": "「在某種計量、競賽或反應中取得一定數量／成果」是「34. get = earn/achieve attention, votes, points, etc. — 獲得；取得」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。"
+        "get-mcq-32": "本句的「got」指「某人／事物受到、獲得某種反應、待遇或評價」。",
+        "get-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-32"
     },
@@ -2396,11 +2212,9 @@ export default {
       "masked": "The idea ____ a lot of attention.",
       "options": [
         "get-mcq-32",
-        "get-mcq-31",
-        "get-mcq-33",
-        "get-mcq-30",
-        "get-mcq-29",
-        "get-mcq-28"
+        "get-mcq-09",
+        "get-mcq-20",
+        "get-mcq-18"
       ],
       "explanation": "本句的「got」指「某人／事物受到、獲得某種反應、待遇或評價」。",
       "sentenceIndex": 54,
@@ -2409,12 +2223,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-32": "本句指「某人／事物受到、獲得某種反應、待遇或評價」。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-33": "「在某種計量、競賽或反應中取得一定數量／成果」是「34. get = earn/achieve attention, votes, points, etc. — 獲得；取得」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。"
+        "get-mcq-32": "本句的「got」指「某人／事物受到、獲得某種反應、待遇或評價」。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-32"
     },
@@ -2426,11 +2238,9 @@ export default {
       "masked": "The advertisement ____ in the product.",
       "options": [
         "get-pdf-001",
-        "get-mcq-20",
-        "get-mcq-22",
-        "get-mcq-19",
-        "get-mcq-23",
-        "get-mcq-18"
+        "get-mcq-28",
+        "get-mcq-18",
+        "get-mcq-22"
       ],
       "explanation": "本句的「got me interested」指「使某人進入某種情緒／狀態」。",
       "sentenceIndex": 55,
@@ -2439,12 +2249,10 @@ export default {
         "got me interested"
       ],
       "optionReasons": {
-        "get-pdf-001": "本句指「使某人進入某種情緒／狀態」。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。"
+        "get-pdf-001": "本句的「got me interested」指「使某人進入某種情緒／狀態」。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-pdf-001"
     },
@@ -2456,11 +2264,9 @@ export default {
       "masked": "The music ____.",
       "options": [
         "get-pdf-001",
-        "get-mcq-20",
-        "get-mcq-22",
-        "get-mcq-19",
-        "get-mcq-23",
-        "get-mcq-18"
+        "get-mcq-24",
+        "get-mcq-18",
+        "get-mcq-06"
       ],
       "explanation": "本句的「got everyone excited」指「使某人進入某種情緒／狀態」。",
       "sentenceIndex": 56,
@@ -2469,12 +2275,10 @@ export default {
         "got everyone excited"
       ],
       "optionReasons": {
-        "get-pdf-001": "本句指「使某人進入某種情緒／狀態」。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-18": "「搭乘某種交通工具」是「get + transport」的用法，與本句語境不同。"
+        "get-pdf-001": "本句的「got everyone excited」指「使某人進入某種情緒／狀態」。",
+        "get-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-pdf-001"
     },
@@ -2486,11 +2290,9 @@ export default {
       "masked": "I’ve ____ a new pair of headphones.",
       "options": [
         "get-mcq-22",
-        "get-mcq-21",
-        "get-mcq-23",
-        "get-mcq-20",
-        "get-mcq-24",
-        "get-mcq-19"
+        "get-mcq-25",
+        "get-mcq-01",
+        "get-mcq-06"
       ],
       "explanation": "本句的「got」指「擁有／有」。",
       "sentenceIndex": 57,
@@ -2499,12 +2301,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-22": "本句指「擁有／有」。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。"
+        "get-mcq-22": "本句的「got」指「擁有／有」。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-22"
     },
@@ -2516,11 +2316,9 @@ export default {
       "masked": "Have you ____ any questions?",
       "options": [
         "get-mcq-22",
-        "get-mcq-21",
-        "get-mcq-23",
-        "get-mcq-20",
-        "get-mcq-24",
-        "get-mcq-19"
+        "get-mcq-26",
+        "get-mcq-30",
+        "get-mcq-25"
       ],
       "explanation": "本句的「got」指「擁有／有」。",
       "sentenceIndex": 58,
@@ -2529,12 +2327,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-22": "本句指「擁有／有」。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-19": "「買、拿或點某種食物／飲品」是「get food/drink」的用法，與本句語境不同。"
+        "get-mcq-22": "本句的「got」指「擁有／有」。",
+        "get-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-22"
     },
@@ -2546,11 +2342,9 @@ export default {
       "masked": "I’ve ____ now.",
       "options": [
         "get-mcq-23",
-        "get-mcq-22",
-        "get-mcq-24",
-        "get-mcq-21",
-        "get-mcq-25",
-        "get-mcq-20"
+        "get-mcq-10",
+        "get-mcq-18",
+        "get-mcq-06"
       ],
       "explanation": "本句的「got to leave」指「必須／一定要」。",
       "sentenceIndex": 59,
@@ -2559,12 +2353,10 @@ export default {
         "got to leave"
       ],
       "optionReasons": {
-        "get-mcq-23": "本句指「必須／一定要」。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。"
+        "get-mcq-23": "本句的「got to leave」指「必須／一定要」。",
+        "get-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-23"
     },
@@ -2576,11 +2368,9 @@ export default {
       "masked": "You’ve ____ these headphones.",
       "options": [
         "get-mcq-23",
-        "get-mcq-22",
-        "get-mcq-24",
+        "get-mcq-06",
         "get-mcq-21",
-        "get-mcq-25",
-        "get-mcq-20"
+        "get-mcq-05"
       ],
       "explanation": "本句的「got to try」指「必須／一定要」。",
       "sentenceIndex": 60,
@@ -2589,12 +2379,10 @@ export default {
         "got to try"
       ],
       "optionReasons": {
-        "get-mcq-23": "本句指「必須／一定要」。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。",
-        "get-mcq-20": "「從情況中形成某種感覺、看法或印象」是「get an impression/sense」的用法，與本句語境不同。"
+        "get-mcq-23": "本句的「got to try」指「必須／一定要」。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-23"
     },
@@ -2606,11 +2394,9 @@ export default {
       "masked": "Turn left at the station.” > “____",
       "options": [
         "get-mcq-24",
-        "get-mcq-23",
-        "get-mcq-25",
-        "get-mcq-22",
-        "get-mcq-26",
-        "get-mcq-21"
+        "get-mcq-13",
+        "get-mcq-08",
+        "get-mcq-19"
       ],
       "explanation": "本句的「Got it.」指「表示已明白指示或內容」。",
       "sentenceIndex": 61,
@@ -2619,12 +2405,10 @@ export default {
         "Got it."
       ],
       "optionReasons": {
-        "get-mcq-24": "本句指「表示已明白指示或內容」。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。"
+        "get-mcq-24": "本句的「Got it.」指「表示已明白指示或內容」。",
+        "get-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-24"
     },
@@ -2637,10 +2421,8 @@ export default {
       "options": [
         "get-mcq-24",
         "get-mcq-23",
-        "get-mcq-25",
-        "get-mcq-22",
-        "get-mcq-26",
-        "get-mcq-21"
+        "get-mcq-28",
+        "get-mcq-22"
       ],
       "explanation": "本句的「Got it.」指「表示已明白指示或內容」。",
       "sentenceIndex": 62,
@@ -2649,12 +2431,10 @@ export default {
         "Got it."
       ],
       "optionReasons": {
-        "get-mcq-24": "本句指「表示已明白指示或內容」。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。",
-        "get-mcq-21": "「正確／錯誤地理解、記住或處理某事」是「get something right/wrong」的用法，與本句語境不同。"
+        "get-mcq-24": "本句的「Got it.」指「表示已明白指示或內容」。",
+        "get-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-24"
     },
@@ -2666,11 +2446,9 @@ export default {
       "masked": "I didn’t understand at first, but now I ____.",
       "options": [
         "get-mcq-25",
-        "get-mcq-24",
-        "get-mcq-26",
-        "get-mcq-23",
-        "get-mcq-27",
-        "get-mcq-22"
+        "get-mcq-16",
+        "get-mcq-18",
+        "get-mcq-28"
       ],
       "explanation": "本句的「get it」指「理解某件事情的意思、原理或笑點」。",
       "sentenceIndex": 63,
@@ -2679,12 +2457,10 @@ export default {
         "get it"
       ],
       "optionReasons": {
-        "get-mcq-25": "本句指「理解某件事情的意思、原理或笑點」。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。"
+        "get-mcq-25": "本句的「get it」指「理解某件事情的意思、原理或笑點」。",
+        "get-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-25"
     },
@@ -2696,11 +2472,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "get-mcq-25",
-        "get-mcq-24",
-        "get-mcq-26",
-        "get-mcq-23",
-        "get-mcq-27",
-        "get-mcq-22"
+        "get-mcq-33",
+        "get-mcq-22",
+        "get-mcq-06"
       ],
       "explanation": "本句的「get it」指「理解某件事情的意思、原理或笑點」。",
       "sentenceIndex": 64,
@@ -2709,12 +2483,10 @@ export default {
         "get it"
       ],
       "optionReasons": {
-        "get-mcq-25": "本句指「理解某件事情的意思、原理或笑點」。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-22": "「擁有／有」是「have got」的用法，與本句語境不同。"
+        "get-mcq-25": "本句的「get it」指「理解某件事情的意思、原理或笑點」。",
+        "get-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-25"
     },
@@ -2726,11 +2498,9 @@ export default {
       "masked": "When you ____ my age, you may understand.",
       "options": [
         "get-mcq-26",
+        "get-mcq-29",
         "get-mcq-25",
-        "get-mcq-27",
-        "get-mcq-24",
-        "get-mcq-28",
-        "get-mcq-23"
+        "get-mcq-19"
       ],
       "explanation": "本句的「get to」指「到達某個時間、程度或發展階段」。",
       "sentenceIndex": 65,
@@ -2739,12 +2509,10 @@ export default {
         "get to"
       ],
       "optionReasons": {
-        "get-mcq-26": "本句指「到達某個時間、程度或發展階段」。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。"
+        "get-mcq-26": "本句的「get to」指「到達某個時間、程度或發展階段」。",
+        "get-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-26"
     },
@@ -2756,11 +2524,9 @@ export default {
       "masked": "We’re ____ the difficult part.",
       "options": [
         "get-mcq-26",
-        "get-mcq-25",
-        "get-mcq-27",
-        "get-mcq-24",
-        "get-mcq-28",
-        "get-mcq-23"
+        "get-mcq-06",
+        "get-mcq-32",
+        "get-mcq-20"
       ],
       "explanation": "本句的「getting to」指「到達某個時間、程度或發展階段」。",
       "sentenceIndex": 66,
@@ -2769,12 +2535,10 @@ export default {
         "getting to"
       ],
       "optionReasons": {
-        "get-mcq-26": "本句指「到達某個時間、程度或發展階段」。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-24": "「表示已明白指示或內容」是「got it」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。",
-        "get-mcq-23": "「必須／一定要」是「have got to」的用法，與本句語境不同。"
+        "get-mcq-26": "本句的「getting to」指「到達某個時間、程度或發展階段」。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-26"
     },
@@ -2786,11 +2550,9 @@ export default {
       "masked": "The video ____ a million views.",
       "options": [
         "get-mcq-33",
-        "get-mcq-32",
-        "get-mcq-31",
-        "get-mcq-30",
-        "get-mcq-29",
-        "get-mcq-28"
+        "get-mcq-17",
+        "get-mcq-28",
+        "get-mcq-18"
       ],
       "explanation": "本句的「got」指「在某種計量、競賽或反應中取得一定數量／成果」。",
       "sentenceIndex": 67,
@@ -2799,12 +2561,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-33": "本句指「在某種計量、競賽或反應中取得一定數量／成果」。",
-        "get-mcq-32": "「某人／事物受到、獲得某種反應、待遇或評價」是「27. get = experience/receive treatment（遭遇／受到某種待遇） — 遭到；受到」的用法，與本句語境不同。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。"
+        "get-mcq-33": "本句的「got」指「在某種計量、競賽或反應中取得一定數量／成果」。",
+        "get-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-33"
     },
@@ -2816,11 +2576,9 @@ export default {
       "masked": "The team ____ three points.",
       "options": [
         "get-mcq-33",
-        "get-mcq-32",
-        "get-mcq-31",
-        "get-mcq-30",
-        "get-mcq-29",
-        "get-mcq-28"
+        "get-mcq-06",
+        "get-mcq-25",
+        "get-mcq-19"
       ],
       "explanation": "本句的「got」指「在某種計量、競賽或反應中取得一定數量／成果」。",
       "sentenceIndex": 68,
@@ -2829,12 +2587,10 @@ export default {
         "got"
       ],
       "optionReasons": {
-        "get-mcq-33": "本句指「在某種計量、競賽或反應中取得一定數量／成果」。",
-        "get-mcq-32": "「某人／事物受到、獲得某種反應、待遇或評價」是「27. get = experience/receive treatment（遭遇／受到某種待遇） — 遭到；受到」的用法，與本句語境不同。",
-        "get-mcq-31": "「使某件事達到完成／準備好的狀態」是「26. get + something + ready/finished/done（完成／準備） — 弄好；完成」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-28": "「主動積極追求目標、很有衝勁的人」是「go-getter」的用法，與本句語境不同。"
+        "get-mcq-33": "本句的「got」指「在某種計量、競賽或反應中取得一定數量／成果」。",
+        "get-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-33"
     },
@@ -2846,11 +2602,9 @@ export default {
       "masked": "She’s a real ____.",
       "options": [
         "get-mcq-28",
-        "get-mcq-27",
-        "get-mcq-29",
-        "get-mcq-26",
-        "get-mcq-30",
-        "get-mcq-25"
+        "get-reviewed-6d7fccb20e",
+        "get-mcq-23",
+        "get-mcq-09"
       ],
       "explanation": "本句的「go-getter」指「主動積極追求目標、很有衝勁的人」。",
       "sentenceIndex": 69,
@@ -2859,12 +2613,10 @@ export default {
         "go-getter"
       ],
       "optionReasons": {
-        "get-mcq-28": "本句指「主動積極追求目標、很有衝勁的人」。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。"
+        "get-mcq-28": "本句的「go-getter」指「主動積極追求目標、很有衝勁的人」。",
+        "get-reviewed-6d7fccb20e": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-28"
     },
@@ -2876,11 +2628,9 @@ export default {
       "masked": "The company is looking for ambitious ____.",
       "options": [
         "get-mcq-28",
-        "get-mcq-27",
-        "get-mcq-29",
-        "get-mcq-26",
-        "get-mcq-30",
-        "get-mcq-25"
+        "get-mcq-32",
+        "get-mcq-05",
+        "get-mcq-21"
       ],
       "explanation": "本句的「go-getters」指「主動積極追求目標、很有衝勁的人」。",
       "sentenceIndex": 70,
@@ -2889,12 +2639,10 @@ export default {
         "go-getters"
       ],
       "optionReasons": {
-        "get-mcq-28": "本句指「主動積極追求目標、很有衝勁的人」。",
-        "get-mcq-27": "「美式英語中 get 在許多「取得／變化」意思下的過去分詞」是「gotten」的用法，與本句語境不同。",
-        "get-mcq-29": "「收到某人的電話、訊息、電郵等」是「22. get + message/call/email（通訊） — 收到」的用法，與本句語境不同。",
-        "get-mcq-26": "「到達某個時間、程度或發展階段」是「get to a stage/point」的用法，與本句語境不同。",
-        "get-mcq-30": "「成功取得所需資料、答案或回覆」是「24. get + answer/information（查到／得到答案） — 找到；取得」的用法，與本句語境不同。",
-        "get-mcq-25": "「理解某件事情的意思、原理或笑點」是「get it」的用法，與本句語境不同。"
+        "get-mcq-28": "本句的「go-getters」指「主動積極追求目標、很有衝勁的人」。",
+        "get-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "get-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "get-mcq-28"
     }
@@ -2906,5 +2654,7 @@ export default {
     "sha256": "fd1cf98748d1cc3189880cc0bfa7705c1f36de086a3f67b30cec2d1a558441d4",
     "pages": 28
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

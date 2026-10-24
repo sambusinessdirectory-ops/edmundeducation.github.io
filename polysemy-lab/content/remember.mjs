@@ -526,11 +526,9 @@ export default {
       "masked": "I still ____ when a younger child accidentally broke his cardboard bridge.",
       "options": [
         "remember-mcq-01",
-        "remember-mcq-02",
-        "remember-mcq-03",
-        "remember-mcq-04",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-22",
+        "remember-mcq-24",
+        "remember-mcq-23"
       ],
       "explanation": "本句的「remember one family gathering」指「記得某人／某事」。",
       "sentenceIndex": 0,
@@ -539,12 +537,10 @@ export default {
         "remember one family gathering"
       ],
       "optionReasons": {
-        "remember-mcq-01": "本句指「記得某人／某事」。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-01": "本句的「remember one family gathering」指「記得某人／某事」。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-01"
     },
@@ -556,11 +552,9 @@ export default {
       "masked": "I clearly ____.",
       "options": [
         "remember-mcq-01",
-        "remember-mcq-02",
-        "remember-mcq-03",
-        "remember-mcq-04",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-22",
+        "remember-mcq-23",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「remember my first day at school」指「記得某人／某事」。",
       "sentenceIndex": 1,
@@ -569,12 +563,10 @@ export default {
         "remember my first day at school"
       ],
       "optionReasons": {
-        "remember-mcq-01": "本句指「記得某人／某事」。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-01": "本句的「remember my first day at school」指「記得某人／某事」。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-01"
     },
@@ -586,11 +578,9 @@ export default {
       "masked": "Do you ____ we went to last year?",
       "options": [
         "remember-mcq-01",
-        "remember-mcq-02",
-        "remember-mcq-03",
-        "remember-mcq-04",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-21",
+        "remember-mcq-24",
+        "remember-mcq-14"
       ],
       "explanation": "本句的「remember that restaurant」指「記得某人／某事」。",
       "sentenceIndex": 2,
@@ -599,12 +589,10 @@ export default {
         "remember that restaurant"
       ],
       "optionReasons": {
-        "remember-mcq-01": "本句指「記得某人／某事」。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-01": "本句的「remember that restaurant」指「記得某人／某事」。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-01"
     },
@@ -616,11 +604,9 @@ export default {
       "masked": "I ____ for the first time.",
       "options": [
         "remember-mcq-02",
-        "remember-mcq-01",
-        "remember-mcq-03",
-        "remember-mcq-04",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-23",
+        "remember-mcq-21",
+        "remember-mcq-14"
       ],
       "explanation": "本句的「remember meeting her」指「記得做過 X」。",
       "sentenceIndex": 3,
@@ -629,12 +615,10 @@ export default {
         "remember meeting her"
       ],
       "optionReasons": {
-        "remember-mcq-02": "本句指「記得做過 X」。",
-        "remember-mcq-01": "「記得某人／某事」是「remember someone/something」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-02": "本句的「remember meeting her」指「記得做過 X」。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-02"
     },
@@ -646,11 +630,9 @@ export default {
       "masked": "He ____ as a child.",
       "options": [
         "remember-mcq-02",
-        "remember-mcq-01",
-        "remember-mcq-03",
-        "remember-mcq-04",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-21",
+        "remember-mcq-23",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「remembers visiting that museum」指「記得做過 X」。",
       "sentenceIndex": 4,
@@ -659,12 +641,10 @@ export default {
         "remembers visiting that museum"
       ],
       "optionReasons": {
-        "remember-mcq-02": "本句指「記得做過 X」。",
-        "remember-mcq-01": "「記得某人／某事」是「remember someone/something」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-02": "本句的「remembers visiting that museum」指「記得做過 X」。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-02"
     },
@@ -676,11 +656,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "remember-mcq-03",
-        "remember-mcq-02",
-        "remember-mcq-04",
-        "remember-mcq-01",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-23",
+        "remember-mcq-14",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「remember to lock the door」指「記得要做 X」。",
       "sentenceIndex": 5,
@@ -689,12 +667,10 @@ export default {
         "remember to lock the door"
       ],
       "optionReasons": {
-        "remember-mcq-03": "本句指「記得要做 X」。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-01": "「記得某人／某事」是「remember someone/something」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-03": "本句的「remember to lock the door」指「記得要做 X」。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-03"
     },
@@ -706,11 +682,9 @@ export default {
       "masked": "I must ____ tonight.",
       "options": [
         "remember-mcq-03",
-        "remember-mcq-02",
-        "remember-mcq-04",
-        "remember-mcq-01",
-        "remember-mcq-05",
-        "remember-mcq-06"
+        "remember-mcq-22",
+        "remember-mcq-13",
+        "remember-mcq-20"
       ],
       "explanation": "本句的「remember to call my grandmother」指「記得要做 X」。",
       "sentenceIndex": 6,
@@ -719,12 +693,10 @@ export default {
         "remember to call my grandmother"
       ],
       "optionReasons": {
-        "remember-mcq-03": "本句指「記得要做 X」。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-01": "「記得某人／某事」是「remember someone/something」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-03": "本句的「remember to call my grandmother」指「記得要做 X」。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-03"
     },
@@ -736,11 +708,9 @@ export default {
       "masked": "____ the meeting starts at nine.",
       "options": [
         "remember-mcq-04",
-        "remember-mcq-03",
-        "remember-mcq-05",
-        "remember-mcq-02",
-        "remember-mcq-06",
-        "remember-mcq-01"
+        "remember-mcq-14",
+        "remember-mcq-24",
+        "remember-mcq-20"
       ],
       "explanation": "本句的「Remember that」指「記得……」。",
       "sentenceIndex": 7,
@@ -749,12 +719,10 @@ export default {
         "Remember that"
       ],
       "optionReasons": {
-        "remember-mcq-04": "本句指「記得……」。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-01": "「記得某人／某事」是「remember someone/something」的用法，與本句語境不同。"
+        "remember-mcq-04": "本句的「Remember that」指「記得……」。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-04"
     },
@@ -766,11 +734,9 @@ export default {
       "masked": "I suddenly ____.",
       "options": [
         "remember-mcq-04",
-        "remember-mcq-03",
-        "remember-mcq-05",
-        "remember-mcq-02",
-        "remember-mcq-06",
-        "remember-mcq-01"
+        "remember-mcq-24",
+        "remember-mcq-20",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「remembered that I had left my keys at home」指「記得……」。",
       "sentenceIndex": 8,
@@ -779,12 +745,10 @@ export default {
         "remembered that I had left my keys at home"
       ],
       "optionReasons": {
-        "remember-mcq-04": "本句指「記得……」。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-01": "「記得某人／某事」是「remember someone/something」的用法，與本句語境不同。"
+        "remember-mcq-04": "本句的「remembered that I had left my keys at home」指「記得……」。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-04"
     },
@@ -796,11 +760,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "remember-mcq-05",
-        "remember-mcq-04",
-        "remember-mcq-06",
-        "remember-mcq-03",
-        "remember-mcq-07",
-        "remember-mcq-02"
+        "remember-mcq-14",
+        "remember-mcq-24",
+        "remember-mcq-22"
       ],
       "explanation": "本句的「remember when we first met」指「記得……的時候」。",
       "sentenceIndex": 9,
@@ -809,12 +771,10 @@ export default {
         "remember when we first met"
       ],
       "optionReasons": {
-        "remember-mcq-05": "本句指「記得……的時候」。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。"
+        "remember-mcq-05": "本句的「remember when we first met」指「記得……的時候」。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-05"
     },
@@ -826,11 +786,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "remember-mcq-05",
-        "remember-mcq-04",
-        "remember-mcq-06",
-        "remember-mcq-03",
-        "remember-mcq-07",
-        "remember-mcq-02"
+        "remember-mcq-13",
+        "remember-mcq-21",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「remember when this neighbourhood was much quieter」指「記得……的時候」。",
       "sentenceIndex": 10,
@@ -839,12 +797,10 @@ export default {
         "remember when this neighbourhood was much quieter"
       ],
       "optionReasons": {
-        "remember-mcq-05": "本句指「記得……的時候」。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-02": "「記得做過 X」是「remember doing X」的用法，與本句語境不同。"
+        "remember-mcq-05": "本句的「remember when this neighbourhood was much quieter」指「記得……的時候」。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-05"
     },
@@ -856,11 +812,9 @@ export default {
       "masked": "I can't ____.",
       "options": [
         "remember-mcq-06",
-        "remember-mcq-05",
-        "remember-mcq-07",
-        "remember-mcq-04",
-        "remember-mcq-08",
-        "remember-mcq-03"
+        "remember-mcq-20",
+        "remember-mcq-13",
+        "remember-mcq-22"
       ],
       "explanation": "本句的「remember where I put my phone」指「記得怎樣／在哪裏……」。",
       "sentenceIndex": 11,
@@ -869,12 +823,10 @@ export default {
         "remember where I put my phone"
       ],
       "optionReasons": {
-        "remember-mcq-06": "本句指「記得怎樣／在哪裏……」。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。"
+        "remember-mcq-06": "本句的「remember where I put my phone」指「記得怎樣／在哪裏……」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-06"
     },
@@ -886,11 +838,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "remember-mcq-06",
-        "remember-mcq-05",
-        "remember-mcq-07",
-        "remember-mcq-04",
-        "remember-mcq-08",
-        "remember-mcq-03"
+        "remember-mcq-24",
+        "remember-mcq-22",
+        "remember-mcq-14"
       ],
       "explanation": "本句的「remember how to get there」指「記得怎樣／在哪裏……」。",
       "sentenceIndex": 12,
@@ -899,12 +849,10 @@ export default {
         "remember how to get there"
       ],
       "optionReasons": {
-        "remember-mcq-06": "本句指「記得怎樣／在哪裏……」。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-03": "「記得要做 X」是「remember to do X」的用法，與本句語境不同。"
+        "remember-mcq-06": "本句的「remember how to get there」指「記得怎樣／在哪裏……」。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-06"
     },
@@ -916,11 +864,9 @@ export default {
       "masked": "I suddenly ____.",
       "options": [
         "remember-pdf-001",
-        "remember-mcq-06",
-        "remember-mcq-08",
-        "remember-mcq-05",
-        "remember-mcq-09",
-        "remember-mcq-04"
+        "remember-mcq-13",
+        "remember-mcq-14",
+        "remember-mcq-22"
       ],
       "explanation": "本句的「remembered his name」指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
       "sentenceIndex": 13,
@@ -929,12 +875,10 @@ export default {
         "remembered his name"
       ],
       "optionReasons": {
-        "remember-pdf-001": "本句指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。"
+        "remember-pdf-001": "本句的「remembered his name」指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-pdf-001"
     },
@@ -946,11 +890,9 @@ export default {
       "masked": "Then she ____.",
       "options": [
         "remember-pdf-001",
-        "remember-mcq-06",
-        "remember-mcq-08",
-        "remember-mcq-05",
-        "remember-mcq-09",
-        "remember-mcq-04"
+        "remember-mcq-20",
+        "remember-mcq-13",
+        "remember-mcq-21"
       ],
       "explanation": "本句的「remembered where she had seen him before」指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
       "sentenceIndex": 14,
@@ -959,12 +901,10 @@ export default {
         "remembered where she had seen him before"
       ],
       "optionReasons": {
-        "remember-pdf-001": "本句指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-04": "「記得……」是「remember that...」的用法，與本句語境不同。"
+        "remember-pdf-001": "本句的「remembered where she had seen him before」指「原本一時沒有想到，後來重新想起某項資訊或記憶」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-pdf-001"
     },
@@ -976,11 +916,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "remember-mcq-08",
-        "remember-mcq-07",
-        "remember-mcq-09",
-        "remember-mcq-06",
-        "remember-mcq-10",
-        "remember-mcq-05"
+        "remember-mcq-23",
+        "remember-mcq-21",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「can't remember his name」指「記不起」。",
       "sentenceIndex": 15,
@@ -989,12 +927,10 @@ export default {
         "can't remember his name"
       ],
       "optionReasons": {
-        "remember-mcq-08": "本句指「記不起」。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。"
+        "remember-mcq-08": "本句的「can't remember his name」指「記不起」。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-08"
     },
@@ -1006,11 +942,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "remember-mcq-08",
-        "remember-mcq-07",
-        "remember-mcq-09",
-        "remember-mcq-06",
-        "remember-mcq-10",
-        "remember-mcq-05"
+        "remember-mcq-14",
+        "remember-mcq-20",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「couldn't remember where she had parked the car」指「記不起」。",
       "sentenceIndex": 16,
@@ -1019,12 +953,10 @@ export default {
         "couldn't remember where she had parked the car"
       ],
       "optionReasons": {
-        "remember-mcq-08": "本句指「記不起」。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。",
-        "remember-mcq-05": "「記得……的時候」是「remember when...」的用法，與本句語境不同。"
+        "remember-mcq-08": "本句的「couldn't remember where she had parked the car」指「記不起」。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-08"
     },
@@ -1036,11 +968,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "remember-mcq-09",
-        "remember-mcq-08",
-        "remember-mcq-10",
-        "remember-mcq-07",
-        "remember-mcq-11",
-        "remember-mcq-06"
+        "remember-mcq-22",
+        "remember-mcq-14",
+        "remember-mcq-20"
       ],
       "explanation": "本句的「remember him as a kind and patient teacher」指「記得某人是 X」。",
       "sentenceIndex": 17,
@@ -1049,12 +979,10 @@ export default {
         "remember him as a kind and patient teacher"
       ],
       "optionReasons": {
-        "remember-mcq-09": "本句指「記得某人是 X」。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-09": "本句的「remember him as a kind and patient teacher」指「記得某人是 X」。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-09"
     },
@@ -1066,11 +994,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "remember-mcq-09",
-        "remember-mcq-08",
-        "remember-mcq-10",
-        "remember-mcq-07",
-        "remember-mcq-11",
-        "remember-mcq-06"
+        "remember-mcq-14",
+        "remember-mcq-22",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「remembered as one of the greatest writers of her generation」指「記得某人是 X」。",
       "sentenceIndex": 18,
@@ -1079,12 +1005,10 @@ export default {
         "remembered as one of the greatest writers of her generation"
       ],
       "optionReasons": {
-        "remember-mcq-09": "本句指「記得某人是 X」。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。",
-        "remember-mcq-06": "「記得怎樣／在哪裏……」是「remember how/where...」的用法，與本句語境不同。"
+        "remember-mcq-09": "本句的「remembered as one of the greatest writers of her generation」指「記得某人是 X」。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-09"
     },
@@ -1096,11 +1020,9 @@ export default {
       "masked": "People ____.",
       "options": [
         "remember-mcq-10",
-        "remember-mcq-09",
-        "remember-mcq-11",
-        "remember-mcq-08",
-        "remember-mcq-12",
-        "remember-mcq-07"
+        "remember-mcq-24",
+        "remember-mcq-23",
+        "remember-mcq-14"
       ],
       "explanation": "本句的「remember her for her kindness」指「因 X 而記住某人」。",
       "sentenceIndex": 19,
@@ -1109,12 +1031,10 @@ export default {
         "remember her for her kindness"
       ],
       "optionReasons": {
-        "remember-mcq-10": "本句指「因 X 而記住某人」。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。"
+        "remember-mcq-10": "本句的「remember her for her kindness」指「因 X 而記住某人」。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-10"
     },
@@ -1126,11 +1046,9 @@ export default {
       "masked": "The scientist is ____.",
       "options": [
         "remember-mcq-10",
-        "remember-mcq-09",
-        "remember-mcq-11",
-        "remember-mcq-08",
-        "remember-mcq-12",
-        "remember-mcq-07"
+        "remember-mcq-14",
+        "remember-mcq-22",
+        "remember-mcq-20"
       ],
       "explanation": "本句的「remembered for his important discoveries」指「因 X 而記住某人」。",
       "sentenceIndex": 20,
@@ -1139,12 +1057,10 @@ export default {
         "remembered for his important discoveries"
       ],
       "optionReasons": {
-        "remember-mcq-10": "本句指「因 X 而記住某人」。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-07": "「突然想起」是「suddenly remember」的用法，與本句語境不同。"
+        "remember-mcq-10": "本句的「remembered for his important discoveries」指「因 X 而記住某人」。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-10"
     },
@@ -1156,11 +1072,9 @@ export default {
       "masked": "His generosity will always ____.",
       "options": [
         "remember-mcq-11",
-        "remember-mcq-10",
-        "remember-mcq-12",
-        "remember-mcq-09",
-        "remember-mcq-13",
-        "remember-mcq-08"
+        "remember-mcq-23",
+        "remember-mcq-21",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「be remembered」指「被記住」。",
       "sentenceIndex": 21,
@@ -1169,12 +1083,10 @@ export default {
         "be remembered"
       ],
       "optionReasons": {
-        "remember-mcq-11": "本句指「被記住」。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。"
+        "remember-mcq-11": "本句的「be remembered」指「被記住」。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-11"
     },
@@ -1186,11 +1098,9 @@ export default {
       "masked": "The event is still ____ by local residents.",
       "options": [
         "remember-mcq-11",
-        "remember-mcq-10",
-        "remember-mcq-12",
-        "remember-mcq-09",
+        "remember-mcq-20",
         "remember-mcq-13",
-        "remember-mcq-08"
+        "remember-mcq-14"
       ],
       "explanation": "本句的「remembered」指「被記住」。",
       "sentenceIndex": 22,
@@ -1199,12 +1109,10 @@ export default {
         "remembered"
       ],
       "optionReasons": {
-        "remember-mcq-11": "本句指「被記住」。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-09": "「記得某人是 X」是「remember someone as X」的用法，與本句語境不同。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。",
-        "remember-mcq-08": "「記不起」是「can't remember」的用法，與本句語境不同。"
+        "remember-mcq-11": "本句的「remembered」指「被記住」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-11"
     },
@@ -1216,11 +1124,9 @@ export default {
       "masked": "Every year, the family gathers to ____.",
       "options": [
         "remember-mcq-23",
-        "remember-mcq-22",
-        "remember-mcq-24",
-        "remember-mcq-21",
-        "remember-mcq-20",
-        "remember-mcq-19"
+        "remember-mcq-06",
+        "remember-mcq-15",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「remember those who have died」指「懷念或追念已離世的人，特別是在紀念或莊重場合」。",
       "sentenceIndex": 23,
@@ -1229,12 +1135,10 @@ export default {
         "remember those who have died"
       ],
       "optionReasons": {
-        "remember-mcq-23": "本句指「懷念或追念已離世的人，特別是在紀念或莊重場合」。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-24": "「以某種清晰度或情感態度回想過去」是「17. remember clearly/vividly/fondly — 清楚／生動／懷念地記得」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。"
+        "remember-mcq-23": "本句的「remember those who have died」指「懷念或追念已離世的人，特別是在紀念或莊重場合」。",
+        "remember-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-23"
     },
@@ -1246,11 +1150,9 @@ export default {
       "masked": "The ceremony was held to ____.",
       "options": [
         "remember-mcq-23",
-        "remember-mcq-22",
-        "remember-mcq-24",
-        "remember-mcq-21",
-        "remember-mcq-20",
-        "remember-mcq-19"
+        "remember-mcq-04",
+        "remember-mcq-14",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「remember the victims」指「懷念或追念已離世的人，特別是在紀念或莊重場合」。",
       "sentenceIndex": 24,
@@ -1259,12 +1161,10 @@ export default {
         "remember the victims"
       ],
       "optionReasons": {
-        "remember-mcq-23": "本句指「懷念或追念已離世的人，特別是在紀念或莊重場合」。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-24": "「以某種清晰度或情感態度回想過去」是「17. remember clearly/vividly/fondly — 清楚／生動／懷念地記得」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。"
+        "remember-mcq-23": "本句的「remember the victims」指「懷念或追念已離世的人，特別是在紀念或莊重場合」。",
+        "remember-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-23"
     },
@@ -1276,11 +1176,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "remember-mcq-13",
-        "remember-mcq-12",
-        "remember-mcq-14",
-        "remember-mcq-11",
-        "remember-mcq-15",
-        "remember-mcq-10"
+        "remember-mcq-02",
+        "remember-mcq-20",
+        "remember-mcq-14"
       ],
       "explanation": "本句的「remembered several charities in her will」指「在遺囑中留財產給某人」。",
       "sentenceIndex": 25,
@@ -1289,12 +1187,10 @@ export default {
         "remembered several charities in her will"
       ],
       "optionReasons": {
-        "remember-mcq-13": "本句指「在遺囑中留財產給某人」。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-14": "「代我向 X 問好」是「remember me to X」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。",
-        "remember-mcq-15": "「如果我沒有記錯」是「if I remember correctly」的用法，與本句語境不同。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。"
+        "remember-mcq-13": "本句的「remembered several charities in her will」指「在遺囑中留財產給某人」。",
+        "remember-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-13"
     },
@@ -1306,11 +1202,9 @@ export default {
       "masked": "He was surprised to learn that his aunt had ____.",
       "options": [
         "remember-mcq-13",
-        "remember-mcq-12",
-        "remember-mcq-14",
         "remember-mcq-11",
-        "remember-mcq-15",
-        "remember-mcq-10"
+        "remember-mcq-21",
+        "remember-mcq-20"
       ],
       "explanation": "本句的「remembered him in her will」指「在遺囑中留財產給某人」。",
       "sentenceIndex": 26,
@@ -1319,12 +1213,10 @@ export default {
         "remembered him in her will"
       ],
       "optionReasons": {
-        "remember-mcq-13": "本句指「在遺囑中留財產給某人」。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-14": "「代我向 X 問好」是「remember me to X」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。",
-        "remember-mcq-15": "「如果我沒有記錯」是「if I remember correctly」的用法，與本句語境不同。",
-        "remember-mcq-10": "「因 X 而記住某人」是「remember someone for X」的用法，與本句語境不同。"
+        "remember-mcq-13": "本句的「remembered him in her will」指「在遺囑中留財產給某人」。",
+        "remember-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-13"
     },
@@ -1336,11 +1228,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "remember-mcq-14",
-        "remember-mcq-13",
-        "remember-mcq-15",
-        "remember-mcq-12",
-        "remember-mcq-16",
-        "remember-mcq-11"
+        "remember-mcq-20",
+        "remember-mcq-11",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「remember me to your parents」指「代我向 X 問好」。",
       "sentenceIndex": 27,
@@ -1349,12 +1239,10 @@ export default {
         "remember me to your parents"
       ],
       "optionReasons": {
-        "remember-mcq-14": "本句指「代我向 X 問好」。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。",
-        "remember-mcq-15": "「如果我沒有記錯」是「if I remember correctly」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-16": "「據我記得」是「as far as I remember」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。"
+        "remember-mcq-14": "本句的「remember me to your parents」指「代我向 X 問好」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-14"
     },
@@ -1366,11 +1254,9 @@ export default {
       "masked": "____ your grandmother when you see her.",
       "options": [
         "remember-mcq-14",
-        "remember-mcq-13",
-        "remember-mcq-15",
-        "remember-mcq-12",
-        "remember-mcq-16",
-        "remember-mcq-11"
+        "remember-mcq-06",
+        "remember-mcq-20",
+        "remember-mcq-22"
       ],
       "explanation": "本句的「Remember me to」指「代我向 X 問好」。",
       "sentenceIndex": 28,
@@ -1379,12 +1265,10 @@ export default {
         "Remember me to"
       ],
       "optionReasons": {
-        "remember-mcq-14": "本句指「代我向 X 問好」。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。",
-        "remember-mcq-15": "「如果我沒有記錯」是「if I remember correctly」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。",
-        "remember-mcq-16": "「據我記得」是「as far as I remember」的用法，與本句語境不同。",
-        "remember-mcq-11": "「被記住」是「be remembered」的用法，與本句語境不同。"
+        "remember-mcq-14": "本句的「Remember me to」指「代我向 X 問好」。",
+        "remember-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-14"
     },
@@ -1396,11 +1280,9 @@ export default {
       "masked": "____, the shop closes at eight.",
       "options": [
         "remember-mcq-15",
-        "remember-mcq-14",
-        "remember-mcq-16",
-        "remember-mcq-13",
-        "remember-mcq-17",
-        "remember-mcq-12"
+        "remember-mcq-23",
+        "remember-mcq-22",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「If I remember correctly」指「如果我沒有記錯」。",
       "sentenceIndex": 29,
@@ -1409,12 +1291,10 @@ export default {
         "If I remember correctly"
       ],
       "optionReasons": {
-        "remember-mcq-15": "本句指「如果我沒有記錯」。",
-        "remember-mcq-14": "「代我向 X 問好」是「remember me to X」的用法，與本句語境不同。",
-        "remember-mcq-16": "「據我記得」是「as far as I remember」的用法，與本句語境不同。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。"
+        "remember-mcq-15": "本句的「If I remember correctly」指「如果我沒有記錯」。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-15"
     },
@@ -1426,11 +1306,9 @@ export default {
       "masked": "____, we met in 2022.",
       "options": [
         "remember-mcq-15",
-        "remember-mcq-14",
-        "remember-mcq-16",
+        "remember-mcq-22",
         "remember-mcq-13",
-        "remember-mcq-17",
-        "remember-mcq-12"
+        "remember-mcq-24"
       ],
       "explanation": "本句的「If I remember rightly」指「如果我沒有記錯」。",
       "sentenceIndex": 30,
@@ -1439,12 +1317,10 @@ export default {
         "If I remember rightly"
       ],
       "optionReasons": {
-        "remember-mcq-15": "本句指「如果我沒有記錯」。",
-        "remember-mcq-14": "「代我向 X 問好」是「remember me to X」的用法，與本句語境不同。",
-        "remember-mcq-16": "「據我記得」是「as far as I remember」的用法，與本句語境不同。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。",
-        "remember-mcq-12": "「追念死者」是「remember the dead」的用法，與本句語境不同。"
+        "remember-mcq-15": "本句的「If I remember rightly」指「如果我沒有記錯」。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-15"
     },
@@ -1456,10 +1332,8 @@ export default {
       "masked": "____, no one complained.",
       "options": [
         "remember-mcq-16",
-        "remember-mcq-15",
-        "remember-mcq-17",
-        "remember-mcq-14",
-        "remember-mcq-18",
+        "remember-mcq-20",
+        "remember-mcq-24",
         "remember-mcq-13"
       ],
       "explanation": "本句的「As far as I remember」指「據我記得」。",
@@ -1469,12 +1343,10 @@ export default {
         "As far as I remember"
       ],
       "optionReasons": {
-        "remember-mcq-16": "本句指「據我記得」。",
-        "remember-mcq-15": "「如果我沒有記錯」是「if I remember correctly」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。",
-        "remember-mcq-14": "「代我向 X 問好」是「remember me to X」的用法，與本句語境不同。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。"
+        "remember-mcq-16": "本句的「As far as I remember」指「據我記得」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-16"
     },
@@ -1486,11 +1358,9 @@ export default {
       "masked": "____, she was already working there at the time.",
       "options": [
         "remember-mcq-16",
-        "remember-mcq-15",
-        "remember-mcq-17",
-        "remember-mcq-14",
-        "remember-mcq-18",
-        "remember-mcq-13"
+        "remember-mcq-20",
+        "remember-mcq-24",
+        "remember-mcq-22"
       ],
       "explanation": "本句的「As far as I remember」指「據我記得」。",
       "sentenceIndex": 32,
@@ -1499,12 +1369,10 @@ export default {
         "As far as I remember"
       ],
       "optionReasons": {
-        "remember-mcq-16": "本句指「據我記得」。",
-        "remember-mcq-15": "「如果我沒有記錯」是「if I remember correctly」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。",
-        "remember-mcq-14": "「代我向 X 問好」是「remember me to X」的用法，與本句語境不同。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。",
-        "remember-mcq-13": "「在遺囑中留財產給某人」是「remember someone in a will」的用法，與本句語境不同。"
+        "remember-mcq-16": "本句的「As far as I remember」指「據我記得」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-16"
     },
@@ -1516,11 +1384,9 @@ export default {
       "masked": "I ____ the day we moved house.",
       "options": [
         "remember-mcq-24",
-        "remember-mcq-23",
+        "remember-mcq-09",
         "remember-mcq-22",
-        "remember-mcq-21",
-        "remember-mcq-20",
-        "remember-mcq-19"
+        "remember-mcq-14"
       ],
       "explanation": "本句的「vividly remember」指「以某種清晰度或情感態度回想過去」。",
       "sentenceIndex": 33,
@@ -1529,12 +1395,10 @@ export default {
         "vividly remember"
       ],
       "optionReasons": {
-        "remember-mcq-24": "本句指「以某種清晰度或情感態度回想過去」。",
-        "remember-mcq-23": "「懷念或追念已離世的人，特別是在紀念或莊重場合」是「12. remember someone who has died — 追念；懷念」的用法，與本句語境不同。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。"
+        "remember-mcq-24": "本句的「vividly remember」指「以某種清晰度或情感態度回想過去」。",
+        "remember-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-24"
     },
@@ -1546,11 +1410,9 @@ export default {
       "masked": "She ____ summers at her grandparents' home.",
       "options": [
         "remember-mcq-24",
-        "remember-mcq-23",
-        "remember-mcq-22",
-        "remember-mcq-21",
-        "remember-mcq-20",
-        "remember-mcq-19"
+        "remember-mcq-11",
+        "remember-mcq-14",
+        "remember-mcq-23"
       ],
       "explanation": "本句的「fondly remembers」指「以某種清晰度或情感態度回想過去」。",
       "sentenceIndex": 34,
@@ -1559,12 +1421,10 @@ export default {
         "fondly remembers"
       ],
       "optionReasons": {
-        "remember-mcq-24": "本句指「以某種清晰度或情感態度回想過去」。",
-        "remember-mcq-23": "「懷念或追念已離世的人，特別是在紀念或莊重場合」是「12. remember someone who has died — 追念；懷念」的用法，與本句語境不同。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。"
+        "remember-mcq-24": "本句的「fondly remembers」指「以某種清晰度或情感態度回想過去」。",
+        "remember-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-24"
     },
@@ -1576,11 +1436,9 @@ export default {
       "masked": "The ceremony was held in ____ those who had died.",
       "options": [
         "remember-mcq-19",
-        "remember-mcq-18",
-        "remember-mcq-20",
-        "remember-mcq-17",
-        "remember-mcq-21",
-        "remember-mcq-16"
+        "remember-mcq-22",
+        "remember-mcq-14",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「remembrance of」指「記憶；追念；紀念」。",
       "sentenceIndex": 35,
@@ -1589,12 +1447,10 @@ export default {
         "remembrance of"
       ],
       "optionReasons": {
-        "remember-mcq-19": "本句指「記憶；追念；紀念」。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-16": "「據我記得」是「as far as I remember」的用法，與本句語境不同。"
+        "remember-mcq-19": "本句的「remembrance of」指「記憶；追念；紀念」。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-19"
     },
@@ -1606,11 +1462,9 @@ export default {
       "masked": "She kept the photograph as a ____ of their friendship.",
       "options": [
         "remember-mcq-19",
-        "remember-mcq-18",
-        "remember-mcq-20",
-        "remember-mcq-17",
-        "remember-mcq-21",
-        "remember-mcq-16"
+        "remember-mcq-14",
+        "remember-mcq-24",
+        "remember-mcq-13"
       ],
       "explanation": "本句的「remembrance」指「記憶；追念；紀念」。",
       "sentenceIndex": 36,
@@ -1619,12 +1473,10 @@ export default {
         "remembrance"
       ],
       "optionReasons": {
-        "remember-mcq-19": "本句指「記憶；追念；紀念」。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-16": "「據我記得」是「as far as I remember」的用法，與本句語境不同。"
+        "remember-mcq-19": "本句的「remembrance」指「記憶；追念；紀念」。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-19"
     },
@@ -1636,11 +1488,9 @@ export default {
       "masked": "A tree was planted ____ the victims.",
       "options": [
         "remember-mcq-20",
-        "remember-mcq-19",
+        "remember-mcq-05",
         "remember-mcq-21",
-        "remember-mcq-18",
-        "remember-mcq-22",
-        "remember-mcq-17"
+        "remember-mcq-13"
       ],
       "explanation": "本句的「in remembrance of」指「為紀念／追念」。",
       "sentenceIndex": 37,
@@ -1649,12 +1499,10 @@ export default {
         "in remembrance of"
       ],
       "optionReasons": {
-        "remember-mcq-20": "本句指「為紀念／追念」。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。"
+        "remember-mcq-20": "本句的「in remembrance of」指「為紀念／追念」。",
+        "remember-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-20"
     },
@@ -1666,11 +1514,9 @@ export default {
       "masked": "They held a concert ____ their former teacher.",
       "options": [
         "remember-mcq-20",
-        "remember-mcq-19",
-        "remember-mcq-21",
-        "remember-mcq-18",
+        "remember-mcq-11",
         "remember-mcq-22",
-        "remember-mcq-17"
+        "remember-mcq-13"
       ],
       "explanation": "本句的「in remembrance of」指「為紀念／追念」。",
       "sentenceIndex": 38,
@@ -1679,12 +1525,10 @@ export default {
         "in remembrance of"
       ],
       "optionReasons": {
-        "remember-mcq-20": "本句指「為紀念／追念」。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-17": "「清晰地記得」是「vividly remember」的用法，與本句語境不同。"
+        "remember-mcq-20": "本句的「in remembrance of」指「為紀念／追念」。",
+        "remember-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-20"
     },
@@ -1696,11 +1540,9 @@ export default {
       "masked": "It was a truly ____ evening.",
       "options": [
         "remember-mcq-21",
-        "remember-mcq-20",
-        "remember-mcq-22",
-        "remember-mcq-19",
-        "remember-mcq-23",
-        "remember-mcq-18"
+        "remember-mcq-08",
+        "remember-mcq-13",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「memorable」指「難忘的」。",
       "sentenceIndex": 39,
@@ -1709,12 +1551,10 @@ export default {
         "memorable"
       ],
       "optionReasons": {
-        "remember-mcq-21": "本句指「難忘的」。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。",
-        "remember-mcq-23": "「懷念或追念已離世的人，特別是在紀念或莊重場合」是「12. remember someone who has died — 追念；懷念」的用法，與本句語境不同。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。"
+        "remember-mcq-21": "本句的「memorable」指「難忘的」。",
+        "remember-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-21"
     },
@@ -1726,11 +1566,9 @@ export default {
       "masked": "Leo gave a ____ answer that made everyone laugh.",
       "options": [
         "remember-mcq-21",
-        "remember-mcq-20",
-        "remember-mcq-22",
-        "remember-mcq-19",
+        "remember-mcq-15",
         "remember-mcq-23",
-        "remember-mcq-18"
+        "remember-mcq-13"
       ],
       "explanation": "本句的「memorable」指「難忘的」。",
       "sentenceIndex": 40,
@@ -1739,12 +1577,10 @@ export default {
         "memorable"
       ],
       "optionReasons": {
-        "remember-mcq-21": "本句指「難忘的」。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-22": "「令人難忘地」是「memorably」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。",
-        "remember-mcq-23": "「懷念或追念已離世的人，特別是在紀念或莊重場合」是「12. remember someone who has died — 追念；懷念」的用法，與本句語境不同。",
-        "remember-mcq-18": "「懷念地記得」是「fondly remember」的用法，與本句語境不同。"
+        "remember-mcq-21": "本句的「memorable」指「難忘的」。",
+        "remember-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-21"
     },
@@ -1756,11 +1592,9 @@ export default {
       "masked": "She ____ described the city as a place that never sleeps.",
       "options": [
         "remember-mcq-22",
-        "remember-mcq-21",
-        "remember-mcq-23",
-        "remember-mcq-20",
-        "remember-mcq-24",
-        "remember-mcq-19"
+        "remember-mcq-09",
+        "remember-mcq-14",
+        "remember-mcq-20"
       ],
       "explanation": "本句的「memorably」指「令人難忘地」。",
       "sentenceIndex": 41,
@@ -1769,12 +1603,10 @@ export default {
         "memorably"
       ],
       "optionReasons": {
-        "remember-mcq-22": "本句指「令人難忘地」。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-23": "「懷念或追念已離世的人，特別是在紀念或莊重場合」是「12. remember someone who has died — 追念；懷念」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-24": "「以某種清晰度或情感態度回想過去」是「17. remember clearly/vividly/fondly — 清楚／生動／懷念地記得」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。"
+        "remember-mcq-22": "本句的「memorably」指「令人難忘地」。",
+        "remember-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-22"
     },
@@ -1786,11 +1618,9 @@ export default {
       "masked": "The actor ____ played the role in the original film.",
       "options": [
         "remember-mcq-22",
-        "remember-mcq-21",
-        "remember-mcq-23",
         "remember-mcq-20",
-        "remember-mcq-24",
-        "remember-mcq-19"
+        "remember-mcq-11",
+        "remember-mcq-24"
       ],
       "explanation": "本句的「memorably」指「令人難忘地」。",
       "sentenceIndex": 42,
@@ -1799,12 +1629,10 @@ export default {
         "memorably"
       ],
       "optionReasons": {
-        "remember-mcq-22": "本句指「令人難忘地」。",
-        "remember-mcq-21": "「難忘的」是「memorable」的用法，與本句語境不同。",
-        "remember-mcq-23": "「懷念或追念已離世的人，特別是在紀念或莊重場合」是「12. remember someone who has died — 追念；懷念」的用法，與本句語境不同。",
-        "remember-mcq-20": "「為紀念／追念」是「in remembrance of」的用法，與本句語境不同。",
-        "remember-mcq-24": "「以某種清晰度或情感態度回想過去」是「17. remember clearly/vividly/fondly — 清楚／生動／懷念地記得」的用法，與本句語境不同。",
-        "remember-mcq-19": "「記憶；追念；紀念」是「remembrance」的用法，與本句語境不同。"
+        "remember-mcq-22": "本句的「memorably」指「令人難忘地」。",
+        "remember-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remember-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remember-mcq-22"
     }
@@ -1816,5 +1644,7 @@ export default {
     "sha256": "a0ff8c87e0758259e4b8d448e2d6f40e143d9a811ec79dc907efd0cb4dd4c487",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

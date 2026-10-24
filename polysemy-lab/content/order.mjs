@@ -617,16 +617,6 @@ export default {
           "The crisis disrupted the existing social order.",
           "危機打亂了原有的社會秩序。",
           "社會秩序"
-        ],
-        [
-          "Primates are an order of mammals.",
-          "靈長目是哺乳動物的一個分類目。",
-          "社會秩序"
-        ],
-        [
-          "Cats belong to the order Carnivora.",
-          "貓科動物屬於食肉目。",
-          "社會秩序"
         ]
       ],
       "options": [],
@@ -845,16 +835,6 @@ export default {
           "We received a large order from a new customer.",
           "我們收到一名新客戶的大額訂單。",
           "由有權力的人發出的正式指示，要求別人做某事"
-        ],
-        [
-          "He joined a religious order.",
-          "他加入了一個宗教修會。",
-          "由有權力的人發出的正式指示，要求別人做某事"
-        ],
-        [
-          "The order was founded centuries ago.",
-          "這個修會在幾百年前成立。",
-          "由有權力的人發出的正式指示，要求別人做某事"
         ]
       ],
       "options": [],
@@ -947,6 +927,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "order-reviewed-96f1bbe5b6",
+      "title": "生物分類中位於 class 與 family 之間的一個主要分類層級",
+      "form": "order · source section 36",
+      "en": "生物分類中位於 class 與 family 之間的一個主要分類層級",
+      "zh": "生物分類中位於 class 與 family 之間的一個主要分類層級",
+      "note": "對照原始教材第 36 節及例句核實。",
+      "examples": [
+        [
+          "Primates are an order of mammals.",
+          "靈長目是哺乳動物的一個分類目。",
+          "生物分類中位於 class 與 family 之間的一個主要分類層級"
+        ],
+        [
+          "Cats belong to the order Carnivora.",
+          "貓科動物屬於食肉目。",
+          "生物分類中位於 class 與 family 之間的一個主要分類層級"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "order-reviewed-b13cb7148c",
+      "title": "按共同宗教規則生活和工作的正式宗教團體",
+      "form": "order · source section 37",
+      "en": "按共同宗教規則生活和工作的正式宗教團體",
+      "zh": "按共同宗教規則生活和工作的正式宗教團體",
+      "note": "對照原始教材第 37 節及例句核實。",
+      "examples": [
+        [
+          "He joined a religious order.",
+          "他加入了一個宗教修會。",
+          "按共同宗教規則生活和工作的正式宗教團體"
+        ],
+        [
+          "The order was founded centuries ago.",
+          "這個修會在幾百年前成立。",
+          "按共同宗教規則生活和工作的正式宗教團體"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -958,11 +982,9 @@ export default {
       "masked": "I was checking the ____.",
       "options": [
         "order-mcq-01",
-        "order-mcq-02",
-        "order-mcq-03",
-        "order-mcq-04",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-mcq-27",
+        "order-mcq-26",
+        "order-mcq-23"
       ],
       "explanation": "本句的「order of speakers」指「次序；順序」。",
       "sentenceIndex": 0,
@@ -971,12 +993,10 @@ export default {
         "order of speakers"
       ],
       "optionReasons": {
-        "order-mcq-01": "本句指「次序；順序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-01": "本句的「order of speakers」指「次序；順序」。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-01"
     },
@@ -988,11 +1008,9 @@ export default {
       "masked": "Put the pictures in the correct ____.",
       "options": [
         "order-mcq-01",
-        "order-mcq-02",
-        "order-mcq-03",
-        "order-mcq-04",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-reviewed-b13cb7148c",
+        "order-mcq-12",
+        "order-mcq-15"
       ],
       "explanation": "本句的「order」指「次序；順序」。",
       "sentenceIndex": 1,
@@ -1001,12 +1019,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-01": "本句指「次序；順序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-01": "本句的「order」指「次序；順序」。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-01"
     },
@@ -1018,11 +1034,9 @@ export default {
       "masked": "The events happened in a different ____.",
       "options": [
         "order-mcq-01",
-        "order-mcq-02",
-        "order-mcq-03",
-        "order-mcq-04",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-mcq-24",
+        "order-mcq-10",
+        "order-mcq-38"
       ],
       "explanation": "本句的「order」指「次序；順序」。",
       "sentenceIndex": 2,
@@ -1031,12 +1045,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-01": "本句指「次序；順序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-01": "本句的「order」指「次序；順序」。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-01"
     },
@@ -1048,11 +1060,9 @@ export default {
       "masked": "Please arrange the files ____.",
       "options": [
         "order-mcq-06",
-        "order-mcq-05",
-        "order-mcq-07",
-        "order-mcq-04",
-        "order-mcq-08",
-        "order-mcq-03"
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-41",
+        "order-mcq-15"
       ],
       "explanation": "本句的「in order」指「按次序／有秩序」。",
       "sentenceIndex": 3,
@@ -1061,12 +1071,10 @@ export default {
         "in order"
       ],
       "optionReasons": {
-        "order-mcq-06": "本句指「按次序／有秩序」。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。"
+        "order-mcq-06": "本句的「in order」指「按次序／有秩序」。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-06"
     },
@@ -1078,11 +1086,9 @@ export default {
       "masked": "The students stood ____.",
       "options": [
         "order-mcq-06",
-        "order-mcq-05",
-        "order-mcq-07",
-        "order-mcq-04",
-        "order-mcq-08",
-        "order-mcq-03"
+        "order-mcq-30",
+        "order-mcq-14",
+        "order-mcq-36"
       ],
       "explanation": "本句的「in order」指「按次序／有秩序」。",
       "sentenceIndex": 4,
@@ -1091,12 +1097,10 @@ export default {
         "in order"
       ],
       "optionReasons": {
-        "order-mcq-06": "本句指「按次序／有秩序」。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。"
+        "order-mcq-06": "本句的「in order」指「按次序／有秩序」。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-06"
     },
@@ -1108,11 +1112,9 @@ export default {
       "masked": "List the names ____.",
       "options": [
         "order-mcq-03",
-        "order-mcq-02",
-        "order-mcq-04",
-        "order-mcq-01",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-mcq-37",
+        "order-mcq-16",
+        "order-mcq-35"
       ],
       "explanation": "本句的「in order of age」指「事件先後次序」。",
       "sentenceIndex": 5,
@@ -1121,12 +1123,10 @@ export default {
         "in order of age"
       ],
       "optionReasons": {
-        "order-mcq-03": "本句指「事件先後次序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-01": "「次序；順序」是「order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-03": "本句的「in order of age」指「事件先後次序」。",
+        "order-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-03"
     },
@@ -1138,11 +1138,9 @@ export default {
       "masked": "The runners finished ____.",
       "options": [
         "order-mcq-03",
-        "order-mcq-02",
-        "order-mcq-04",
-        "order-mcq-01",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-mcq-18",
+        "order-mcq-33",
+        "order-mcq-37"
       ],
       "explanation": "本句的「in order of speed」指「事件先後次序」。",
       "sentenceIndex": 6,
@@ -1151,12 +1149,10 @@ export default {
         "in order of speed"
       ],
       "optionReasons": {
-        "order-mcq-03": "本句指「事件先後次序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-01": "「次序；順序」是「order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-03": "本句的「in order of speed」指「事件先後次序」。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-03"
     },
@@ -1168,11 +1164,9 @@ export default {
       "masked": "The names are listed in ____.",
       "options": [
         "order-mcq-04",
-        "order-mcq-03",
-        "order-mcq-05",
-        "order-mcq-02",
-        "order-mcq-06",
-        "order-mcq-01"
+        "order-mcq-38",
+        "order-mcq-30",
+        "order-mcq-33"
       ],
       "explanation": "本句的「alphabetical order」指「字母順序」。",
       "sentenceIndex": 7,
@@ -1181,12 +1175,10 @@ export default {
         "alphabetical order"
       ],
       "optionReasons": {
-        "order-mcq-04": "本句指「字母順序」。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-01": "「次序；順序」是「order (sequence)」的用法，與本句語境不同。"
+        "order-mcq-04": "本句的「alphabetical order」指「字母順序」。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-04"
     },
@@ -1198,11 +1190,9 @@ export default {
       "masked": "Put the words in ____.",
       "options": [
         "order-mcq-04",
-        "order-mcq-03",
-        "order-mcq-05",
-        "order-mcq-02",
-        "order-mcq-06",
-        "order-mcq-01"
+        "order-mcq-17",
+        "order-mcq-12",
+        "order-mcq-21"
       ],
       "explanation": "本句的「alphabetical order」指「字母順序」。",
       "sentenceIndex": 8,
@@ -1211,12 +1201,10 @@ export default {
         "alphabetical order"
       ],
       "optionReasons": {
-        "order-mcq-04": "本句指「字母順序」。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-01": "「次序；順序」是「order (sequence)」的用法，與本句語境不同。"
+        "order-mcq-04": "本句的「alphabetical order」指「字母順序」。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-04"
     },
@@ -1228,11 +1216,9 @@ export default {
       "masked": "Arrange the events in ____.",
       "options": [
         "order-mcq-05",
-        "order-mcq-04",
-        "order-mcq-06",
-        "order-mcq-03",
-        "order-mcq-07",
-        "order-mcq-02"
+        "order-mcq-18",
+        "order-mcq-24",
+        "order-mcq-27"
       ],
       "explanation": "本句的「chronological order」指「時間順序」。",
       "sentenceIndex": 9,
@@ -1241,12 +1227,10 @@ export default {
         "chronological order"
       ],
       "optionReasons": {
-        "order-mcq-05": "本句指「時間順序」。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。"
+        "order-mcq-05": "本句的「chronological order」指「時間順序」。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-05"
     },
@@ -1258,11 +1242,9 @@ export default {
       "masked": "The photos are displayed in ____.",
       "options": [
         "order-mcq-05",
-        "order-mcq-04",
-        "order-mcq-06",
-        "order-mcq-03",
-        "order-mcq-07",
-        "order-mcq-02"
+        "order-mcq-18",
+        "order-reviewed-b13cb7148c",
+        "order-mcq-20"
       ],
       "explanation": "本句的「chronological order」指「時間順序」。",
       "sentenceIndex": 10,
@@ -1271,12 +1253,10 @@ export default {
         "chronological order"
       ],
       "optionReasons": {
-        "order-mcq-05": "本句指「時間順序」。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-03": "「事件先後次序」是「order of events」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。"
+        "order-mcq-05": "本句的「chronological order」指「時間順序」。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-05"
     },
@@ -1288,11 +1268,9 @@ export default {
       "masked": "I couldn't remember the exact ____.",
       "options": [
         "order-mcq-03",
-        "order-mcq-02",
-        "order-mcq-04",
-        "order-mcq-01",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-mcq-36",
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-33"
       ],
       "explanation": "本句的「order of events」指「事件先後次序」。",
       "sentenceIndex": 11,
@@ -1301,12 +1279,10 @@ export default {
         "order of events"
       ],
       "optionReasons": {
-        "order-mcq-03": "本句指「事件先後次序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-01": "「次序；順序」是「order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-03": "本句的「order of events」指「事件先後次序」。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-03"
     },
@@ -1318,11 +1294,9 @@ export default {
       "masked": "The witness described the ____ clearly.",
       "options": [
         "order-mcq-03",
-        "order-mcq-02",
-        "order-mcq-04",
-        "order-mcq-01",
-        "order-mcq-05",
-        "order-mcq-06"
+        "order-mcq-35",
+        "order-reviewed-b13cb7148c",
+        "order-mcq-22"
       ],
       "explanation": "本句的「order of events」指「事件先後次序」。",
       "sentenceIndex": 12,
@@ -1331,12 +1305,10 @@ export default {
         "order of events"
       ],
       "optionReasons": {
-        "order-mcq-03": "本句指「事件先後次序」。",
-        "order-mcq-02": "「發言次序」是「order of speakers」的用法，與本句語境不同。",
-        "order-mcq-04": "「字母順序」是「alphabetical order」的用法，與本句語境不同。",
-        "order-mcq-01": "「次序；順序」是「order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-03": "本句的「order of events」指「事件先後次序」。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-03"
     },
@@ -1348,11 +1320,9 @@ export default {
       "masked": "The teacher tried to keep ____ in the classroom.",
       "options": [
         "order-mcq-08",
-        "order-mcq-07",
-        "order-mcq-09",
-        "order-mcq-06",
-        "order-mcq-10",
-        "order-mcq-05"
+        "order-pdf-001",
+        "order-mcq-33",
+        "order-mcq-24"
       ],
       "explanation": "本句的「order」指「維持秩序」。",
       "sentenceIndex": 13,
@@ -1361,12 +1331,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-08": "本句指「維持秩序」。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。"
+        "order-mcq-08": "本句的「order」指「維持秩序」。",
+        "order-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-08"
     },
@@ -1378,11 +1346,9 @@ export default {
       "masked": "Everything was finally back in ____.",
       "options": [
         "order-mcq-08",
-        "order-mcq-07",
-        "order-mcq-09",
-        "order-mcq-06",
-        "order-mcq-10",
-        "order-mcq-05"
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-40",
+        "order-mcq-18"
       ],
       "explanation": "本句的「order」指「維持秩序」。",
       "sentenceIndex": 14,
@@ -1391,12 +1357,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-08": "本句指「維持秩序」。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。"
+        "order-mcq-08": "本句的「order」指「維持秩序」。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-08"
     },
@@ -1408,11 +1372,9 @@ export default {
       "masked": "Police were called to ____.",
       "options": [
         "order-mcq-08",
-        "order-mcq-07",
-        "order-mcq-09",
-        "order-mcq-06",
-        "order-mcq-10",
-        "order-mcq-05"
+        "order-mcq-40",
+        "order-mcq-41",
+        "order-mcq-31"
       ],
       "explanation": "本句的「maintain order」指「維持秩序」。",
       "sentenceIndex": 15,
@@ -1421,12 +1383,10 @@ export default {
         "maintain order"
       ],
       "optionReasons": {
-        "order-mcq-08": "本句指「維持秩序」。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。"
+        "order-mcq-08": "本句的「maintain order」指「維持秩序」。",
+        "order-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-08"
     },
@@ -1438,11 +1398,9 @@ export default {
       "masked": "The teacher struggled to ____.",
       "options": [
         "order-mcq-08",
-        "order-mcq-07",
-        "order-mcq-09",
-        "order-mcq-06",
-        "order-mcq-10",
-        "order-mcq-05"
+        "order-mcq-21",
+        "order-mcq-35",
+        "order-mcq-38"
       ],
       "explanation": "本句的「keep order」指「維持秩序」。",
       "sentenceIndex": 16,
@@ -1451,12 +1409,10 @@ export default {
         "keep order"
       ],
       "optionReasons": {
-        "order-mcq-08": "本句指「維持秩序」。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-05": "「時間順序」是「chronological order」的用法，與本句語境不同。"
+        "order-mcq-08": "本句的「keep order」指「維持秩序」。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-08"
     },
@@ -1468,11 +1424,9 @@ export default {
       "masked": "It took several minutes to ____.",
       "options": [
         "order-mcq-09",
-        "order-mcq-08",
-        "order-mcq-10",
-        "order-mcq-07",
-        "order-mcq-11",
-        "order-mcq-06"
+        "order-mcq-18",
+        "order-mcq-12",
+        "order-mcq-23"
       ],
       "explanation": "本句的「restore order」指「恢復秩序」。",
       "sentenceIndex": 17,
@@ -1481,12 +1435,10 @@ export default {
         "restore order"
       ],
       "optionReasons": {
-        "order-mcq-09": "本句指「恢復秩序」。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-09": "本句的「restore order」指「恢復秩序」。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-09"
     },
@@ -1498,11 +1450,9 @@ export default {
       "masked": "The manager stepped in to ____.",
       "options": [
         "order-mcq-09",
-        "order-mcq-08",
-        "order-mcq-10",
-        "order-mcq-07",
-        "order-mcq-11",
-        "order-mcq-06"
+        "order-mcq-33",
+        "order-mcq-16",
+        "order-mcq-31"
       ],
       "explanation": "本句的「restore order」指「恢復秩序」。",
       "sentenceIndex": 18,
@@ -1511,12 +1461,10 @@ export default {
         "restore order"
       ],
       "optionReasons": {
-        "order-mcq-09": "本句指「恢復秩序」。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-06": "「按次序／有秩序」是「in order」的用法，與本句語境不同。"
+        "order-mcq-09": "本句的「restore order」指「恢復秩序」。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-09"
     },
@@ -1528,11 +1476,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "order-mcq-36",
-        "order-mcq-35",
-        "order-mcq-37",
-        "order-mcq-34",
-        "order-mcq-38",
-        "order-mcq-33"
+        "order-mcq-22",
+        "order-mcq-24",
+        "order-mcq-35"
       ],
       "explanation": "本句的「put my notes in order」指「把 X 整理、安排到清楚或正確的狀態」。",
       "sentenceIndex": 19,
@@ -1541,12 +1487,10 @@ export default {
         "put my notes in order"
       ],
       "optionReasons": {
-        "order-mcq-36": "本句指「把 X 整理、安排到清楚或正確的狀態」。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。"
+        "order-mcq-36": "本句的「put my notes in order」指「把 X 整理、安排到清楚或正確的狀態」。",
+        "order-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-36"
     },
@@ -1558,11 +1502,9 @@ export default {
       "masked": "She spent the morning ____.",
       "options": [
         "order-mcq-36",
-        "order-mcq-35",
-        "order-mcq-37",
-        "order-mcq-34",
-        "order-mcq-38",
-        "order-mcq-33"
+        "order-mcq-16",
+        "order-mcq-25",
+        "order-mcq-35"
       ],
       "explanation": "本句的「putting her files in order」指「把 X 整理、安排到清楚或正確的狀態」。",
       "sentenceIndex": 20,
@@ -1571,12 +1513,10 @@ export default {
         "putting her files in order"
       ],
       "optionReasons": {
-        "order-mcq-36": "本句指「把 X 整理、安排到清楚或正確的狀態」。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。"
+        "order-mcq-36": "本句的「putting her files in order」指「把 X 整理、安排到清楚或正確的狀態」。",
+        "order-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-36"
     },
@@ -1588,11 +1528,9 @@ export default {
       "masked": "The equipment is in ____.",
       "options": [
         "order-mcq-37",
-        "order-mcq-36",
-        "order-mcq-38",
-        "order-mcq-35",
-        "order-mcq-39",
-        "order-mcq-34"
+        "order-mcq-03",
+        "order-mcq-15",
+        "order-mcq-35"
       ],
       "explanation": "本句的「good working order」指「狀態良好、安排妥當或正常運作」。",
       "sentenceIndex": 21,
@@ -1601,12 +1539,10 @@ export default {
         "good working order"
       ],
       "optionReasons": {
-        "order-mcq-37": "本句指「狀態良好、安排妥當或正常運作」。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。"
+        "order-mcq-37": "本句的「good working order」指「狀態良好、安排妥當或正常運作」。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-37"
     },
@@ -1618,11 +1554,9 @@ export default {
       "masked": "The records were all in ____.",
       "options": [
         "order-mcq-37",
-        "order-mcq-36",
-        "order-mcq-38",
-        "order-mcq-35",
-        "order-mcq-39",
-        "order-mcq-34"
+        "order-mcq-11",
+        "order-mcq-24",
+        "order-mcq-30"
       ],
       "explanation": "本句的「good order」指「狀態良好、安排妥當或正常運作」。",
       "sentenceIndex": 22,
@@ -1631,12 +1565,10 @@ export default {
         "good order"
       ],
       "optionReasons": {
-        "order-mcq-37": "本句指「狀態良好、安排妥當或正常運作」。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。"
+        "order-mcq-37": "本句的「good order」指「狀態良好、安排妥當或正常運作」。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-37"
     },
@@ -1648,11 +1580,9 @@ export default {
       "masked": "The lift is ____.",
       "options": [
         "order-mcq-10",
-        "order-mcq-09",
-        "order-mcq-11",
-        "order-mcq-08",
-        "order-mcq-12",
-        "order-mcq-07"
+        "order-mcq-03",
+        "order-mcq-16",
+        "order-mcq-04"
       ],
       "explanation": "本句的「out of order」指「故障」。",
       "sentenceIndex": 23,
@@ -1661,12 +1591,10 @@ export default {
         "out of order"
       ],
       "optionReasons": {
-        "order-mcq-10": "本句指「故障」。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。"
+        "order-mcq-10": "本句的「out of order」指「故障」。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-10"
     },
@@ -1678,11 +1606,9 @@ export default {
       "masked": "This machine is ____.",
       "options": [
         "order-mcq-10",
-        "order-mcq-09",
-        "order-mcq-11",
-        "order-mcq-08",
-        "order-mcq-12",
-        "order-mcq-07"
+        "order-mcq-24",
+        "order-mcq-31",
+        "order-mcq-04"
       ],
       "explanation": "本句的「out of order」指「故障」。",
       "sentenceIndex": 24,
@@ -1691,12 +1617,10 @@ export default {
         "out of order"
       ],
       "optionReasons": {
-        "order-mcq-10": "本句指「故障」。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。",
-        "order-mcq-07": "「整理妥當」是「put in order」的用法，與本句語境不同。"
+        "order-mcq-10": "本句的「out of order」指「故障」。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-10"
     },
@@ -1708,11 +1632,9 @@ export default {
       "masked": "The pages are ____.",
       "options": [
         "order-mcq-11",
-        "order-mcq-10",
+        "order-reviewed-96f1bbe5b6",
         "order-mcq-12",
-        "order-mcq-09",
-        "order-mcq-13",
-        "order-mcq-08"
+        "order-mcq-26"
       ],
       "explanation": "本句的「out of order」指「次序錯亂」。",
       "sentenceIndex": 25,
@@ -1721,12 +1643,10 @@ export default {
         "out of order"
       ],
       "optionReasons": {
-        "order-mcq-11": "本句指「次序錯亂」。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。"
+        "order-mcq-11": "本句的「out of order」指「次序錯亂」。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-11"
     },
@@ -1738,11 +1658,9 @@ export default {
       "masked": "These photos are ____.",
       "options": [
         "order-mcq-11",
-        "order-mcq-10",
-        "order-mcq-12",
-        "order-mcq-09",
-        "order-mcq-13",
-        "order-mcq-08"
+        "order-mcq-17",
+        "order-mcq-39",
+        "order-mcq-41"
       ],
       "explanation": "本句的「out of order」指「次序錯亂」。",
       "sentenceIndex": 26,
@@ -1751,12 +1669,10 @@ export default {
         "out of order"
       ],
       "optionReasons": {
-        "order-mcq-11": "本句指「次序錯亂」。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-08": "「維持秩序」是「keep order」的用法，與本句語境不同。"
+        "order-mcq-11": "本句的「out of order」指「次序錯亂」。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-11"
     },
@@ -1768,11 +1684,9 @@ export default {
       "masked": "His comment was completely ____.",
       "options": [
         "order-mcq-12",
-        "order-mcq-11",
-        "order-mcq-13",
-        "order-mcq-10",
-        "order-mcq-14",
-        "order-mcq-09"
+        "order-mcq-31",
+        "order-mcq-15",
+        "order-mcq-01"
       ],
       "explanation": "本句的「out of order」指「不恰當」。",
       "sentenceIndex": 27,
@@ -1781,12 +1695,10 @@ export default {
         "out of order"
       ],
       "optionReasons": {
-        "order-mcq-12": "本句指「不恰當」。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。"
+        "order-mcq-12": "本句的「out of order」指「不恰當」。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-12"
     },
@@ -1798,11 +1710,9 @@ export default {
       "masked": "That kind of behaviour is ____.",
       "options": [
         "order-mcq-12",
-        "order-mcq-11",
-        "order-mcq-13",
-        "order-mcq-10",
-        "order-mcq-14",
-        "order-mcq-09"
+        "order-mcq-08",
+        "order-mcq-35",
+        "order-mcq-30"
       ],
       "explanation": "本句的「out of order」指「不恰當」。",
       "sentenceIndex": 28,
@@ -1811,12 +1721,10 @@ export default {
         "out of order"
       ],
       "optionReasons": {
-        "order-mcq-12": "本句指「不恰當」。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-10": "「故障」是「out of order (machine)」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-09": "「恢復秩序」是「restore order」的用法，與本句語境不同。"
+        "order-mcq-12": "本句的「out of order」指「不恰當」。",
+        "order-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-12"
     },
@@ -1828,11 +1736,9 @@ export default {
       "masked": "The soldiers received an ____ to move.",
       "options": [
         "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-39",
-        "order-mcq-36",
-        "order-mcq-40",
-        "order-mcq-35"
+        "order-mcq-05",
+        "order-mcq-27",
+        "order-mcq-08"
       ],
       "explanation": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
       "sentenceIndex": 29,
@@ -1841,12 +1747,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-38": "本句指「由有權力的人發出的正式指示，要求別人做某事」。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。"
+        "order-mcq-38": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-38"
     },
@@ -1858,11 +1762,9 @@ export default {
       "masked": "She refused to follow the ____.",
       "options": [
         "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-39",
-        "order-mcq-36",
-        "order-mcq-40",
-        "order-mcq-35"
+        "order-mcq-11",
+        "order-mcq-30",
+        "order-mcq-23"
       ],
       "explanation": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
       "sentenceIndex": 30,
@@ -1871,12 +1773,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-38": "本句指「由有權力的人發出的正式指示，要求別人做某事」。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。"
+        "order-mcq-38": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-38"
     },
@@ -1888,11 +1788,9 @@ export default {
       "masked": "The officer ____ to leave.",
       "options": [
         "order-mcq-14",
-        "order-mcq-13",
-        "order-mcq-15",
-        "order-mcq-12",
-        "order-mcq-16",
-        "order-mcq-11"
+        "order-mcq-35",
+        "order-mcq-38",
+        "order-mcq-06"
       ],
       "explanation": "本句的「gave the order」指「下命令」。",
       "sentenceIndex": 31,
@@ -1901,12 +1799,10 @@ export default {
         "gave the order"
       ],
       "optionReasons": {
-        "order-mcq-14": "本句指「下命令」。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。"
+        "order-mcq-14": "本句的「gave the order」指「下命令」。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-14"
     },
@@ -1918,11 +1814,9 @@ export default {
       "masked": "Who ____?",
       "options": [
         "order-mcq-14",
-        "order-mcq-13",
-        "order-mcq-15",
-        "order-mcq-12",
-        "order-mcq-16",
-        "order-mcq-11"
+        "order-mcq-27",
+        "order-mcq-09",
+        "order-mcq-04"
       ],
       "explanation": "本句的「gave that order」指「下命令」。",
       "sentenceIndex": 32,
@@ -1931,12 +1825,10 @@ export default {
         "gave that order"
       ],
       "optionReasons": {
-        "order-mcq-14": "本句指「下命令」。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-11": "「次序錯亂」是「out of order (sequence)」的用法，與本句語境不同。"
+        "order-mcq-14": "本句的「gave that order」指「下命令」。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-14"
     },
@@ -1948,11 +1840,9 @@ export default {
       "masked": "He was only ____.",
       "options": [
         "order-mcq-15",
-        "order-mcq-14",
-        "order-mcq-16",
-        "order-mcq-13",
-        "order-mcq-17",
-        "order-mcq-12"
+        "order-mcq-11",
+        "order-mcq-04",
+        "order-mcq-22"
       ],
       "explanation": "本句的「following orders」指「服從命令」。",
       "sentenceIndex": 33,
@@ -1961,12 +1851,10 @@ export default {
         "following orders"
       ],
       "optionReasons": {
-        "order-mcq-15": "本句指「服從命令」。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。"
+        "order-mcq-15": "本句的「following orders」指「服從命令」。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-15"
     },
@@ -1978,11 +1866,9 @@ export default {
       "masked": "Staff were told to ____.",
       "options": [
         "order-mcq-15",
-        "order-mcq-14",
-        "order-mcq-16",
-        "order-mcq-13",
-        "order-mcq-17",
-        "order-mcq-12"
+        "order-mcq-38",
+        "order-mcq-37",
+        "order-mcq-21"
       ],
       "explanation": "本句的「obey the order」指「服從命令」。",
       "sentenceIndex": 34,
@@ -1991,12 +1877,10 @@ export default {
         "obey the order"
       ],
       "optionReasons": {
-        "order-mcq-15": "本句指「服從命令」。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-12": "「不恰當」是「out of order (behaviour)」的用法，與本句語境不同。"
+        "order-mcq-15": "本句的「obey the order」指「服從命令」。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-15"
     },
@@ -2008,11 +1892,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "order-mcq-16",
-        "order-mcq-15",
-        "order-mcq-17",
-        "order-mcq-14",
-        "order-mcq-18",
-        "order-mcq-13"
+        "order-mcq-27",
+        "order-mcq-12",
+        "order-mcq-10"
       ],
       "explanation": "本句的「ordered everyone to leave」指「命令某人……」。",
       "sentenceIndex": 35,
@@ -2021,12 +1903,10 @@ export default {
         "ordered everyone to leave"
       ],
       "optionReasons": {
-        "order-mcq-16": "本句指「命令某人……」。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。"
+        "order-mcq-16": "本句的「ordered everyone to leave」指「命令某人……」。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-16"
     },
@@ -2038,11 +1918,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "order-mcq-16",
-        "order-mcq-15",
-        "order-mcq-17",
-        "order-mcq-14",
-        "order-mcq-18",
-        "order-mcq-13"
+        "order-mcq-09",
+        "order-mcq-30",
+        "order-mcq-39"
       ],
       "explanation": "本句的「ordered the company to pay compensation」指「命令某人……」。",
       "sentenceIndex": 36,
@@ -2051,12 +1929,10 @@ export default {
         "ordered the company to pay compensation"
       ],
       "optionReasons": {
-        "order-mcq-16": "本句指「命令某人……」。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。"
+        "order-mcq-16": "本句的「ordered the company to pay compensation」指「命令某人……」。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-16"
     },
@@ -2068,11 +1944,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "order-pdf-001",
-        "order-mcq-15",
-        "order-mcq-17",
-        "order-mcq-14",
-        "order-mcq-18",
-        "order-mcq-13"
+        "order-mcq-10",
+        "order-mcq-04",
+        "order-mcq-17"
       ],
       "explanation": "本句的「ordered to stop」指「被正式要求必須做 X」。",
       "sentenceIndex": 37,
@@ -2081,12 +1955,10 @@ export default {
         "ordered to stop"
       ],
       "optionReasons": {
-        "order-pdf-001": "本句指「被正式要求必須做 X」。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。"
+        "order-pdf-001": "本句的「ordered to stop」指「被正式要求必須做 X」。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-pdf-001"
     },
@@ -2098,11 +1970,9 @@ export default {
       "masked": "The building was ____.",
       "options": [
         "order-pdf-001",
-        "order-mcq-15",
-        "order-mcq-17",
-        "order-mcq-14",
-        "order-mcq-18",
-        "order-mcq-13"
+        "order-mcq-11",
+        "order-mcq-22",
+        "order-mcq-05"
       ],
       "explanation": "本句的「ordered to close」指「被正式要求必須做 X」。",
       "sentenceIndex": 38,
@@ -2111,12 +1981,10 @@ export default {
         "ordered to close"
       ],
       "optionReasons": {
-        "order-pdf-001": "本句指「被正式要求必須做 X」。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-13": "「命令」是「order (command)」的用法，與本句語境不同。"
+        "order-pdf-001": "本句的「ordered to close」指「被正式要求必須做 X」。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-pdf-001"
     },
@@ -2128,11 +1996,9 @@ export default {
       "masked": "The company acted under a ____.",
       "options": [
         "order-mcq-17",
-        "order-mcq-16",
-        "order-mcq-18",
-        "order-mcq-15",
-        "order-mcq-19",
-        "order-mcq-14"
+        "order-mcq-09",
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-35"
       ],
       "explanation": "本句的「court order」指「法院命令」。",
       "sentenceIndex": 39,
@@ -2141,12 +2007,10 @@ export default {
         "court order"
       ],
       "optionReasons": {
-        "order-mcq-17": "本句指「法院命令」。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。"
+        "order-mcq-17": "本句的「court order」指「法院命令」。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-17"
     },
@@ -2158,11 +2022,9 @@ export default {
       "masked": "A ____ required the documents to be released.",
       "options": [
         "order-mcq-17",
-        "order-mcq-16",
-        "order-mcq-18",
-        "order-mcq-15",
-        "order-mcq-19",
-        "order-mcq-14"
+        "order-mcq-27",
+        "order-mcq-36",
+        "order-mcq-09"
       ],
       "explanation": "本句的「court order」指「法院命令」。",
       "sentenceIndex": 40,
@@ -2171,12 +2033,10 @@ export default {
         "court order"
       ],
       "optionReasons": {
-        "order-mcq-17": "本句指「法院命令」。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-14": "「下命令」是「give an order」的用法，與本句語境不同。"
+        "order-mcq-17": "本句的「court order」指「法院命令」。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-17"
     },
@@ -2188,11 +2048,9 @@ export default {
       "masked": "She applied for a ____.",
       "options": [
         "order-mcq-18",
-        "order-mcq-17",
-        "order-mcq-19",
-        "order-mcq-16",
-        "order-mcq-20",
-        "order-mcq-15"
+        "order-mcq-04",
+        "order-mcq-33",
+        "order-mcq-39"
       ],
       "explanation": "本句的「restraining order」指「禁制令」。",
       "sentenceIndex": 41,
@@ -2201,12 +2059,10 @@ export default {
         "restraining order"
       ],
       "optionReasons": {
-        "order-mcq-18": "本句指「禁制令」。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。"
+        "order-mcq-18": "本句的「restraining order」指「禁制令」。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-18"
     },
@@ -2218,11 +2074,9 @@ export default {
       "masked": "The ____ limits contact between the two people.",
       "options": [
         "order-mcq-18",
-        "order-mcq-17",
-        "order-mcq-19",
-        "order-mcq-16",
-        "order-mcq-20",
-        "order-mcq-15"
+        "order-mcq-38",
+        "order-mcq-30",
+        "order-mcq-35"
       ],
       "explanation": "本句的「restraining order」指「禁制令」。",
       "sentenceIndex": 42,
@@ -2231,12 +2085,10 @@ export default {
         "restraining order"
       ],
       "optionReasons": {
-        "order-mcq-18": "本句指「禁制令」。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-16": "「命令某人……」是「order someone to」的用法，與本句語境不同。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。",
-        "order-mcq-15": "「服從命令」是「follow orders」的用法，與本句語境不同。"
+        "order-mcq-18": "本句的「restraining order」指「禁制令」。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-18"
     },
@@ -2248,11 +2100,9 @@ export default {
       "masked": "Your ____ has been shipped.",
       "options": [
         "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-39",
-        "order-mcq-36",
-        "order-mcq-40",
-        "order-mcq-35"
+        "order-mcq-35",
+        "order-mcq-30",
+        "order-mcq-31"
       ],
       "explanation": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
       "sentenceIndex": 43,
@@ -2261,12 +2111,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-38": "本句指「由有權力的人發出的正式指示，要求別人做某事」。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。"
+        "order-mcq-38": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-38"
     },
@@ -2278,11 +2126,9 @@ export default {
       "masked": "We received a large ____ from a new customer.",
       "options": [
         "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-39",
-        "order-mcq-36",
-        "order-mcq-40",
-        "order-mcq-35"
+        "order-mcq-12",
+        "order-mcq-05",
+        "order-mcq-15"
       ],
       "explanation": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
       "sentenceIndex": 44,
@@ -2291,12 +2137,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-38": "本句指「由有權力的人發出的正式指示，要求別人做某事」。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。"
+        "order-mcq-38": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-38"
     },
@@ -2308,11 +2152,9 @@ export default {
       "masked": "I ____ online.",
       "options": [
         "order-mcq-20",
-        "order-mcq-19",
-        "order-mcq-21",
-        "order-mcq-18",
-        "order-mcq-22",
-        "order-mcq-17"
+        "order-mcq-33",
+        "order-mcq-36",
+        "order-mcq-15"
       ],
       "explanation": "本句的「placed an order」指「下單」。",
       "sentenceIndex": 45,
@@ -2321,12 +2163,10 @@ export default {
         "placed an order"
       ],
       "optionReasons": {
-        "order-mcq-20": "本句指「下單」。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。"
+        "order-mcq-20": "本句的「placed an order」指「下單」。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-20"
     },
@@ -2338,11 +2178,9 @@ export default {
       "masked": "We need to ____ today.",
       "options": [
         "order-mcq-20",
-        "order-mcq-19",
-        "order-mcq-21",
-        "order-mcq-18",
-        "order-mcq-22",
-        "order-mcq-17"
+        "order-mcq-33",
+        "order-mcq-05",
+        "order-mcq-09"
       ],
       "explanation": "本句的「place the order」指「下單」。",
       "sentenceIndex": 46,
@@ -2351,12 +2189,10 @@ export default {
         "place the order"
       ],
       "optionReasons": {
-        "order-mcq-20": "本句指「下單」。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-17": "「法院命令」是「court order」的用法，與本句語境不同。"
+        "order-mcq-20": "本句的「place the order」指「下單」。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-20"
     },
@@ -2368,10 +2204,8 @@ export default {
       "masked": "I ____.",
       "options": [
         "order-mcq-39",
-        "order-mcq-38",
-        "order-mcq-40",
-        "order-mcq-37",
-        "order-mcq-41",
+        "order-mcq-12",
+        "order-mcq-28",
         "order-mcq-36"
       ],
       "explanation": "本句的「ordered a new laptop」指「要求商店或供應商提供某項商品，通常需要付款」。",
@@ -2381,12 +2215,10 @@ export default {
         "ordered a new laptop"
       ],
       "optionReasons": {
-        "order-mcq-39": "本句指「要求商店或供應商提供某項商品，通常需要付款」。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-41": "「正式榮譽團體、騎士團或與之相關的勳位」是「38. order（勳章團體／勳章） — 勳章；騎士團」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。"
+        "order-mcq-39": "本句的「ordered a new laptop」指「要求商店或供應商提供某項商品，通常需要付款」。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-39"
     },
@@ -2398,11 +2230,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "order-mcq-39",
-        "order-mcq-38",
-        "order-mcq-40",
-        "order-mcq-37",
-        "order-mcq-41",
-        "order-mcq-36"
+        "order-mcq-23",
+        "order-mcq-17",
+        "order-mcq-10"
       ],
       "explanation": "本句的「ordered the book online」指「要求商店或供應商提供某項商品，通常需要付款」。",
       "sentenceIndex": 48,
@@ -2411,12 +2241,10 @@ export default {
         "ordered the book online"
       ],
       "optionReasons": {
-        "order-mcq-39": "本句指「要求商店或供應商提供某項商品，通常需要付款」。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-41": "「正式榮譽團體、騎士團或與之相關的勳位」是「38. order（勳章團體／勳章） — 勳章；騎士團」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。"
+        "order-mcq-39": "本句的「ordered the book online」指「要求商店或供應商提供某項商品，通常需要付款」。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-39"
     },
@@ -2428,11 +2256,9 @@ export default {
       "masked": "We ____ at seven.",
       "options": [
         "order-mcq-21",
-        "order-mcq-20",
-        "order-mcq-22",
-        "order-mcq-19",
-        "order-mcq-23",
-        "order-mcq-18"
+        "order-mcq-25",
+        "order-mcq-27",
+        "order-mcq-33"
       ],
       "explanation": "本句的「ordered dinner」指「點餐」。",
       "sentenceIndex": 49,
@@ -2441,12 +2267,10 @@ export default {
         "ordered dinner"
       ],
       "optionReasons": {
-        "order-mcq-21": "本句指「點餐」。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。"
+        "order-mcq-21": "本句的「ordered dinner」指「點餐」。",
+        "order-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-21"
     },
@@ -2458,11 +2282,9 @@ export default {
       "masked": "What would you like to ____?",
       "options": [
         "order-mcq-21",
-        "order-mcq-20",
-        "order-mcq-22",
-        "order-mcq-19",
-        "order-mcq-23",
-        "order-mcq-18"
+        "order-mcq-11",
+        "order-mcq-33",
+        "order-reviewed-b13cb7148c"
       ],
       "explanation": "本句的「order」指「點餐」。",
       "sentenceIndex": 50,
@@ -2471,12 +2293,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-21": "本句指「點餐」。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-18": "「禁制令」是「restraining order」的用法，與本句語境不同。"
+        "order-mcq-21": "本句的「order」指「點餐」。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-21"
     },
@@ -2488,11 +2308,9 @@ export default {
       "masked": "The waiter came to ____.",
       "options": [
         "order-mcq-22",
-        "order-mcq-21",
-        "order-mcq-23",
-        "order-mcq-20",
-        "order-mcq-24",
-        "order-mcq-19"
+        "order-mcq-17",
+        "order-mcq-41",
+        "order-mcq-35"
       ],
       "explanation": "本句的「take our order」指「替客人落單」。",
       "sentenceIndex": 51,
@@ -2501,12 +2319,10 @@ export default {
         "take our order"
       ],
       "optionReasons": {
-        "order-mcq-22": "本句指「替客人落單」。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。"
+        "order-mcq-22": "本句的「take our order」指「替客人落單」。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-22"
     },
@@ -2518,11 +2334,9 @@ export default {
       "masked": "Are you ready for me to ____?",
       "options": [
         "order-mcq-22",
-        "order-mcq-21",
-        "order-mcq-23",
-        "order-mcq-20",
-        "order-mcq-24",
-        "order-mcq-19"
+        "order-mcq-32",
+        "order-mcq-15",
+        "order-mcq-21"
       ],
       "explanation": "本句的「take your order」指「替客人落單」。",
       "sentenceIndex": 52,
@@ -2531,12 +2345,10 @@ export default {
         "take your order"
       ],
       "optionReasons": {
-        "order-mcq-22": "本句指「替客人落單」。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-19": "「訂單」是「order (purchase)」的用法，與本句語境不同。"
+        "order-mcq-22": "本句的「take your order」指「替客人落單」。",
+        "order-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-22"
     },
@@ -2548,11 +2360,9 @@ export default {
       "masked": "I usually ____.",
       "options": [
         "order-mcq-40",
-        "order-mcq-39",
-        "order-mcq-41",
-        "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-36"
+        "order-mcq-25",
+        "order-mcq-18",
+        "order-mcq-32"
       ],
       "explanation": "本句的「order groceries online」指「透過網站或應用程式提交購買要求」。",
       "sentenceIndex": 53,
@@ -2561,12 +2371,10 @@ export default {
         "order groceries online"
       ],
       "optionReasons": {
-        "order-mcq-40": "本句指「透過網站或應用程式提交購買要求」。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-41": "「正式榮譽團體、騎士團或與之相關的勳位」是「38. order（勳章團體／勳章） — 勳章；騎士團」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。"
+        "order-mcq-40": "本句的「order groceries online」指「透過網站或應用程式提交購買要求」。",
+        "order-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-40"
     },
@@ -2578,11 +2386,9 @@ export default {
       "masked": "You can ____ and collect in store.",
       "options": [
         "order-mcq-40",
-        "order-mcq-39",
-        "order-mcq-41",
-        "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-36"
+        "order-mcq-03",
+        "order-mcq-25",
+        "order-mcq-05"
       ],
       "explanation": "本句的「order online」指「透過網站或應用程式提交購買要求」。",
       "sentenceIndex": 54,
@@ -2591,12 +2397,10 @@ export default {
         "order online"
       ],
       "optionReasons": {
-        "order-mcq-40": "本句指「透過網站或應用程式提交購買要求」。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-41": "「正式榮譽團體、騎士團或與之相關的勳位」是「38. order（勳章團體／勳章） — 勳章；騎士團」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。"
+        "order-mcq-40": "本句的「order online」指「透過網站或應用程式提交購買要求」。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-40"
     },
@@ -2608,11 +2412,9 @@ export default {
       "masked": "The replacement part is ____.",
       "options": [
         "order-mcq-23",
-        "order-mcq-22",
-        "order-mcq-24",
-        "order-mcq-21",
-        "order-mcq-25",
-        "order-mcq-20"
+        "order-mcq-27",
+        "order-mcq-12",
+        "order-pdf-001"
       ],
       "explanation": "本句的「on order」指「已訂購待到貨」。",
       "sentenceIndex": 55,
@@ -2621,12 +2423,10 @@ export default {
         "on order"
       ],
       "optionReasons": {
-        "order-mcq-23": "本句指「已訂購待到貨」。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。"
+        "order-mcq-23": "本句的「on order」指「已訂購待到貨」。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-23"
     },
@@ -2638,11 +2438,9 @@ export default {
       "masked": "We have more copies ____.",
       "options": [
         "order-mcq-23",
-        "order-mcq-22",
-        "order-mcq-24",
-        "order-mcq-21",
-        "order-mcq-25",
-        "order-mcq-20"
+        "order-mcq-05",
+        "order-mcq-12",
+        "order-mcq-15"
       ],
       "explanation": "本句的「on order」指「已訂購待到貨」。",
       "sentenceIndex": 56,
@@ -2651,12 +2449,10 @@ export default {
         "on order"
       ],
       "optionReasons": {
-        "order-mcq-23": "本句指「已訂購待到貨」。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-20": "「下單」是「place an order」的用法，與本句語境不同。"
+        "order-mcq-23": "本句的「on order」指「已訂購待到貨」。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-23"
     },
@@ -2668,11 +2464,9 @@ export default {
       "masked": "The item is currently on ____.",
       "options": [
         "order-mcq-24",
-        "order-mcq-23",
-        "order-mcq-25",
-        "order-mcq-22",
-        "order-mcq-26",
-        "order-mcq-21"
+        "order-pdf-001",
+        "order-mcq-21",
+        "order-mcq-33"
       ],
       "explanation": "本句的「back order」指「缺貨候補訂單」。",
       "sentenceIndex": 57,
@@ -2681,12 +2475,10 @@ export default {
         "back order"
       ],
       "optionReasons": {
-        "order-mcq-24": "本句指「缺貨候補訂單」。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。"
+        "order-mcq-24": "本句的「back order」指「缺貨候補訂單」。",
+        "order-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-24"
     },
@@ -2698,11 +2490,9 @@ export default {
       "masked": "Customers can still ____ the product.",
       "options": [
         "order-mcq-24",
-        "order-mcq-23",
-        "order-mcq-25",
-        "order-mcq-22",
+        "order-mcq-32",
         "order-mcq-26",
-        "order-mcq-21"
+        "order-mcq-35"
       ],
       "explanation": "本句的「back-order」指「缺貨候補訂單」。",
       "sentenceIndex": 58,
@@ -2711,12 +2501,10 @@ export default {
         "back-order"
       ],
       "optionReasons": {
-        "order-mcq-24": "本句指「缺貨候補訂單」。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-21": "「點餐」是「order food」的用法，與本句語境不同。"
+        "order-mcq-24": "本句的「back-order」指「缺貨候補訂單」。",
+        "order-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-24"
     },
@@ -2728,11 +2516,9 @@ export default {
       "masked": "The furniture is ____.",
       "options": [
         "order-mcq-25",
-        "order-mcq-24",
-        "order-mcq-26",
-        "order-mcq-23",
-        "order-mcq-27",
-        "order-mcq-22"
+        "order-mcq-14",
+        "order-mcq-39",
+        "order-mcq-31"
       ],
       "explanation": "本句的「made to order」指「按單訂製」。",
       "sentenceIndex": 59,
@@ -2741,12 +2527,10 @@ export default {
         "made to order"
       ],
       "optionReasons": {
-        "order-mcq-25": "本句指「按單訂製」。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。"
+        "order-mcq-25": "本句的「made to order」指「按單訂製」。",
+        "order-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-25"
     },
@@ -2758,11 +2542,9 @@ export default {
       "masked": "Each suit is ____.",
       "options": [
         "order-mcq-25",
-        "order-mcq-24",
-        "order-mcq-26",
-        "order-mcq-23",
-        "order-mcq-27",
-        "order-mcq-22"
+        "order-mcq-33",
+        "order-mcq-03",
+        "order-mcq-08"
       ],
       "explanation": "本句的「made to order」指「按單訂製」。",
       "sentenceIndex": 60,
@@ -2771,12 +2553,10 @@ export default {
         "made to order"
       ],
       "optionReasons": {
-        "order-mcq-25": "本句指「按單訂製」。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-22": "「替客人落單」是「take an order」的用法，與本句語境不同。"
+        "order-mcq-25": "本句的「made to order」指「按單訂製」。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-25"
     },
@@ -2788,11 +2568,9 @@ export default {
       "masked": "I pay the rent by ____.",
       "options": [
         "order-mcq-26",
-        "order-mcq-25",
-        "order-mcq-27",
-        "order-mcq-24",
-        "order-mcq-28",
-        "order-mcq-23"
+        "order-mcq-35",
+        "order-mcq-04",
+        "order-mcq-30"
       ],
       "explanation": "本句的「standing order」指「定期付款指示／常設命令」。",
       "sentenceIndex": 61,
@@ -2801,12 +2579,10 @@ export default {
         "standing order"
       ],
       "optionReasons": {
-        "order-mcq-26": "本句指「定期付款指示／常設命令」。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。"
+        "order-mcq-26": "本句的「standing order」指「定期付款指示／常設命令」。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-26"
     },
@@ -2818,11 +2594,9 @@ export default {
       "masked": "She set up a ____ for the monthly payment.",
       "options": [
         "order-mcq-26",
-        "order-mcq-25",
-        "order-mcq-27",
-        "order-mcq-24",
-        "order-mcq-28",
-        "order-mcq-23"
+        "order-mcq-03",
+        "order-mcq-36",
+        "order-mcq-24"
       ],
       "explanation": "本句的「standing order」指「定期付款指示／常設命令」。",
       "sentenceIndex": 62,
@@ -2831,12 +2605,10 @@ export default {
         "standing order"
       ],
       "optionReasons": {
-        "order-mcq-26": "本句指「定期付款指示／常設命令」。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。"
+        "order-mcq-26": "本句的「standing order」指「定期付款指示／常設命令」。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-26"
     },
@@ -2848,11 +2620,9 @@ export default {
       "masked": "The organization operates under several ____.",
       "options": [
         "order-mcq-26",
-        "order-mcq-25",
-        "order-mcq-27",
-        "order-mcq-24",
-        "order-mcq-28",
-        "order-mcq-23"
+        "order-mcq-03",
+        "order-mcq-04",
+        "order-reviewed-96f1bbe5b6"
       ],
       "explanation": "本句的「standing orders」指「定期付款指示／常設命令」。",
       "sentenceIndex": 63,
@@ -2861,12 +2631,10 @@ export default {
         "standing orders"
       ],
       "optionReasons": {
-        "order-mcq-26": "本句指「定期付款指示／常設命令」。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。"
+        "order-mcq-26": "本句的「standing orders」指「定期付款指示／常設命令」。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-26"
     },
@@ -2878,11 +2646,9 @@ export default {
       "masked": "The procedure is covered by a ____.",
       "options": [
         "order-mcq-26",
-        "order-mcq-25",
-        "order-mcq-27",
-        "order-mcq-24",
-        "order-mcq-28",
-        "order-mcq-23"
+        "order-reviewed-b13cb7148c",
+        "order-mcq-11",
+        "order-reviewed-96f1bbe5b6"
       ],
       "explanation": "本句的「standing order」指「定期付款指示／常設命令」。",
       "sentenceIndex": 64,
@@ -2891,12 +2657,10 @@ export default {
         "standing order"
       ],
       "optionReasons": {
-        "order-mcq-26": "本句指「定期付款指示／常設命令」。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-23": "「已訂購待到貨」是「on order」的用法，與本句語境不同。"
+        "order-mcq-26": "本句的「standing order」指「定期付款指示／常設命令」。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-26"
     },
@@ -2908,11 +2672,9 @@ export default {
       "masked": "He paid by ____.",
       "options": [
         "order-mcq-27",
-        "order-mcq-26",
-        "order-mcq-28",
-        "order-mcq-25",
-        "order-mcq-29",
-        "order-mcq-24"
+        "order-mcq-01",
+        "order-mcq-17",
+        "order-pdf-001"
       ],
       "explanation": "本句的「money order」指「匯票」。",
       "sentenceIndex": 65,
@@ -2921,12 +2683,10 @@ export default {
         "money order"
       ],
       "optionReasons": {
-        "order-mcq-27": "本句指「匯票」。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。"
+        "order-mcq-27": "本句的「money order」指「匯票」。",
+        "order-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "order-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-27"
     },
@@ -2938,11 +2698,9 @@ export default {
       "masked": "The fee can be paid using a postal ____.",
       "options": [
         "order-mcq-27",
-        "order-mcq-26",
-        "order-mcq-28",
-        "order-mcq-25",
-        "order-mcq-29",
-        "order-mcq-24"
+        "order-mcq-11",
+        "order-mcq-16",
+        "order-mcq-31"
       ],
       "explanation": "本句的「money order」指「匯票」。",
       "sentenceIndex": 66,
@@ -2951,12 +2709,10 @@ export default {
         "money order"
       ],
       "optionReasons": {
-        "order-mcq-27": "本句指「匯票」。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-24": "「缺貨候補訂單」是「back order」的用法，與本句語境不同。"
+        "order-mcq-27": "本句的「money order」指「匯票」。",
+        "order-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-27"
     },
@@ -2968,11 +2724,9 @@ export default {
       "masked": "The war changed the old social ____.",
       "options": [
         "order-mcq-28",
-        "order-mcq-27",
-        "order-mcq-29",
-        "order-mcq-26",
-        "order-mcq-30",
-        "order-mcq-25"
+        "order-mcq-16",
+        "order-mcq-33",
+        "order-mcq-36"
       ],
       "explanation": "本句的「order」指「社會秩序」。",
       "sentenceIndex": 67,
@@ -2981,12 +2735,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-28": "本句指「社會秩序」。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。"
+        "order-mcq-28": "本句的「order」指「社會秩序」。",
+        "order-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-28"
     },
@@ -2998,11 +2750,9 @@ export default {
       "masked": "They wanted to preserve the existing ____.",
       "options": [
         "order-mcq-28",
-        "order-mcq-27",
-        "order-mcq-29",
-        "order-mcq-26",
-        "order-mcq-30",
-        "order-mcq-25"
+        "order-mcq-14",
+        "order-mcq-40",
+        "order-mcq-22"
       ],
       "explanation": "本句的「order」指「社會秩序」。",
       "sentenceIndex": 68,
@@ -3011,12 +2761,10 @@ export default {
         "order"
       ],
       "optionReasons": {
-        "order-mcq-28": "本句指「社會秩序」。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。"
+        "order-mcq-28": "本句的「order」指「社會秩序」。",
+        "order-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-28"
     },
@@ -3028,11 +2776,9 @@ export default {
       "masked": "Laws help maintain ____.",
       "options": [
         "order-mcq-28",
-        "order-mcq-27",
-        "order-mcq-29",
-        "order-mcq-26",
-        "order-mcq-30",
-        "order-mcq-25"
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-40",
+        "order-mcq-21"
       ],
       "explanation": "本句的「social order」指「社會秩序」。",
       "sentenceIndex": 69,
@@ -3041,12 +2787,10 @@ export default {
         "social order"
       ],
       "optionReasons": {
-        "order-mcq-28": "本句指「社會秩序」。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。"
+        "order-mcq-28": "本句的「social order」指「社會秩序」。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-28"
     },
@@ -3058,11 +2802,9 @@ export default {
       "masked": "The crisis disrupted the existing ____.",
       "options": [
         "order-mcq-28",
-        "order-mcq-27",
-        "order-mcq-29",
-        "order-mcq-26",
-        "order-mcq-30",
-        "order-mcq-25"
+        "order-mcq-36",
+        "order-mcq-39",
+        "order-mcq-17"
       ],
       "explanation": "本句的「social order」指「社會秩序」。",
       "sentenceIndex": 70,
@@ -3071,134 +2813,124 @@ export default {
         "social order"
       ],
       "optionReasons": {
-        "order-mcq-28": "本句指「社會秩序」。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。"
+        "order-mcq-28": "本句的「social order」指「社會秩序」。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-28"
     },
     {
       "id": "order-36-0",
-      "sense": "order-mcq-28",
+      "sense": "order-reviewed-96f1bbe5b6",
       "en": "Primates are an order of mammals.",
       "zh": "靈長目是哺乳動物的一個分類目。",
       "masked": "Primates are an ____ of mammals.",
       "options": [
-        "order-mcq-28",
-        "order-mcq-27",
-        "order-mcq-29",
-        "order-mcq-26",
-        "order-mcq-30",
-        "order-mcq-25"
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-14",
+        "order-mcq-32",
+        "order-mcq-10"
       ],
-      "explanation": "本句的「order」指「社會秩序」。",
+      "explanation": "對照完整句子：「靈長目是哺乳動物的一個分類目。」。這裡的「order」表示「生物分類中位於 class 與 family 之間的一個主要分類層級」。",
       "sentenceIndex": 71,
       "sourcePractice": 1,
       "targets": [
         "order"
       ],
       "optionReasons": {
-        "order-mcq-28": "本句指「社會秩序」。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。"
+        "order-reviewed-96f1bbe5b6": "對照完整句子：「靈長目是哺乳動物的一個分類目。」。這裡的「order」表示「生物分類中位於 class 與 family 之間的一個主要分類層級」。",
+        "order-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "order-mcq-28"
+      "correctOption": "order-reviewed-96f1bbe5b6",
+      "previousCorrectOption": "order-mcq-28",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "order-36-1",
-      "sense": "order-mcq-28",
+      "sense": "order-reviewed-96f1bbe5b6",
       "en": "Cats belong to the order Carnivora.",
       "zh": "貓科動物屬於食肉目。",
       "masked": "Cats belong to the ____.",
       "options": [
-        "order-mcq-28",
-        "order-mcq-27",
-        "order-mcq-29",
-        "order-mcq-26",
-        "order-mcq-30",
-        "order-mcq-25"
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-21",
+        "order-mcq-04",
+        "order-mcq-35"
       ],
-      "explanation": "本句的「order Carnivora」指「社會秩序」。",
+      "explanation": "對照完整句子：「貓科動物屬於食肉目。」。這裡的「order Carnivora」表示「生物分類中位於 class 與 family 之間的一個主要分類層級」。",
       "sentenceIndex": 72,
       "sourcePractice": 2,
       "targets": [
         "order Carnivora"
       ],
       "optionReasons": {
-        "order-mcq-28": "本句指「社會秩序」。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-26": "「定期付款指示／常設命令」是「standing order」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-25": "「按單訂製」是「made to order」的用法，與本句語境不同。"
+        "order-reviewed-96f1bbe5b6": "對照完整句子：「貓科動物屬於食肉目。」。這裡的「order Carnivora」表示「生物分類中位於 class 與 family 之間的一個主要分類層級」。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "order-mcq-28"
+      "correctOption": "order-reviewed-96f1bbe5b6",
+      "previousCorrectOption": "order-mcq-28",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "order-37-0",
-      "sense": "order-mcq-38",
+      "sense": "order-reviewed-b13cb7148c",
       "en": "He joined a religious order.",
       "zh": "他加入了一個宗教修會。",
       "masked": "He joined a religious ____.",
       "options": [
-        "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-39",
-        "order-mcq-36",
-        "order-mcq-40",
-        "order-mcq-35"
+        "order-reviewed-b13cb7148c",
+        "order-mcq-18",
+        "order-mcq-10",
+        "order-mcq-23"
       ],
-      "explanation": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
+      "explanation": "對照完整句子：「他加入了一個宗教修會。」。這裡的「order」表示「按共同宗教規則生活和工作的正式宗教團體」。",
       "sentenceIndex": 73,
       "sourcePractice": 1,
       "targets": [
         "order"
       ],
       "optionReasons": {
-        "order-mcq-38": "本句指「由有權力的人發出的正式指示，要求別人做某事」。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。"
+        "order-reviewed-b13cb7148c": "對照完整句子：「他加入了一個宗教修會。」。這裡的「order」表示「按共同宗教規則生活和工作的正式宗教團體」。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "order-mcq-38"
+      "correctOption": "order-reviewed-b13cb7148c",
+      "previousCorrectOption": "order-mcq-38",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "order-37-1",
-      "sense": "order-mcq-38",
+      "sense": "order-reviewed-b13cb7148c",
       "en": "The order was founded centuries ago.",
       "zh": "這個修會在幾百年前成立。",
       "masked": "The ____ was founded centuries ago.",
       "options": [
-        "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-39",
-        "order-mcq-36",
-        "order-mcq-40",
-        "order-mcq-35"
+        "order-reviewed-b13cb7148c",
+        "order-mcq-18",
+        "order-mcq-08",
+        "order-mcq-20"
       ],
-      "explanation": "本句的「order」指「由有權力的人發出的正式指示，要求別人做某事」。",
+      "explanation": "對照完整句子：「這個修會在幾百年前成立。」。這裡的「order」表示「按共同宗教規則生活和工作的正式宗教團體」。",
       "sentenceIndex": 74,
       "sourcePractice": 2,
       "targets": [
         "order"
       ],
       "optionReasons": {
-        "order-mcq-38": "本句指「由有權力的人發出的正式指示，要求別人做某事」。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。"
+        "order-reviewed-b13cb7148c": "對照完整句子：「這個修會在幾百年前成立。」。這裡的「order」表示「按共同宗教規則生活和工作的正式宗教團體」。",
+        "order-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "order-mcq-38"
+      "correctOption": "order-reviewed-b13cb7148c",
+      "previousCorrectOption": "order-mcq-38",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "order-38-0",
@@ -3208,11 +2940,9 @@ export default {
       "masked": "She was admitted to the ____ for her service.",
       "options": [
         "order-mcq-41",
-        "order-mcq-40",
-        "order-mcq-39",
-        "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-36"
+        "order-mcq-23",
+        "order-mcq-27",
+        "order-mcq-31"
       ],
       "explanation": "本句的「Order」指「正式榮譽團體、騎士團或與之相關的勳位」。",
       "sentenceIndex": 75,
@@ -3221,12 +2951,10 @@ export default {
         "Order"
       ],
       "optionReasons": {
-        "order-mcq-41": "本句指「正式榮譽團體、騎士團或與之相關的勳位」。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。"
+        "order-mcq-41": "本句的「Order」指「正式榮譽團體、騎士團或與之相關的勳位」。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-41"
     },
@@ -3238,11 +2966,9 @@ export default {
       "masked": "The award belongs to a historic ____.",
       "options": [
         "order-mcq-41",
-        "order-mcq-40",
-        "order-mcq-39",
-        "order-mcq-38",
-        "order-mcq-37",
-        "order-mcq-36"
+        "order-mcq-35",
+        "order-mcq-21",
+        "order-mcq-25"
       ],
       "explanation": "本句的「order of chivalry」指「正式榮譽團體、騎士團或與之相關的勳位」。",
       "sentenceIndex": 76,
@@ -3251,12 +2977,10 @@ export default {
         "order of chivalry"
       ],
       "optionReasons": {
-        "order-mcq-41": "本句指「正式榮譽團體、騎士團或與之相關的勳位」。",
-        "order-mcq-40": "「透過網站或應用程式提交購買要求」是「27. order online — 網上訂購」的用法，與本句語境不同。",
-        "order-mcq-39": "「要求商店或供應商提供某項商品，通常需要付款」是「24. order something — 訂購某物」的用法，與本句語境不同。",
-        "order-mcq-38": "「由有權力的人發出的正式指示，要求別人做某事」是「15. order（命令；指示） — 命令；指令」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。"
+        "order-mcq-41": "本句的「order of chivalry」指「正式榮譽團體、騎士團或與之相關的勳位」。",
+        "order-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-41"
     },
@@ -3268,11 +2992,9 @@ export default {
       "masked": "The two values differ by an ____.",
       "options": [
         "order-mcq-30",
-        "order-mcq-29",
-        "order-mcq-31",
-        "order-mcq-28",
-        "order-mcq-32",
-        "order-mcq-27"
+        "order-mcq-21",
+        "order-mcq-37",
+        "order-reviewed-b13cb7148c"
       ],
       "explanation": "本句的「order of magnitude」指「數量級」。",
       "sentenceIndex": 77,
@@ -3281,12 +3003,10 @@ export default {
         "order of magnitude"
       ],
       "optionReasons": {
-        "order-mcq-30": "本句指「數量級」。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。"
+        "order-mcq-30": "本句的「order of magnitude」指「數量級」。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-30"
     },
@@ -3298,11 +3018,9 @@ export default {
       "masked": "The new system is an ____.",
       "options": [
         "order-mcq-30",
-        "order-mcq-29",
-        "order-mcq-31",
-        "order-mcq-28",
-        "order-mcq-32",
-        "order-mcq-27"
+        "order-mcq-04",
+        "order-mcq-14",
+        "order-mcq-31"
       ],
       "explanation": "本句的「order of magnitude faster」指「數量級」。",
       "sentenceIndex": 78,
@@ -3311,12 +3029,10 @@ export default {
         "order of magnitude faster"
       ],
       "optionReasons": {
-        "order-mcq-30": "本句指「數量級」。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-27": "「匯票」是「money order」的用法，與本句語境不同。"
+        "order-mcq-30": "本句的「order of magnitude faster」指「數量級」。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-30"
     },
@@ -3328,11 +3044,9 @@ export default {
       "masked": "We worked late ____ the slides.",
       "options": [
         "order-mcq-31",
-        "order-mcq-30",
-        "order-mcq-32",
-        "order-mcq-29",
-        "order-mcq-33",
-        "order-mcq-28"
+        "order-mcq-09",
+        "order-mcq-26",
+        "order-mcq-40"
       ],
       "explanation": "本句的「in order to finish」指「為了」。",
       "sentenceIndex": 79,
@@ -3341,12 +3055,10 @@ export default {
         "in order to finish"
       ],
       "optionReasons": {
-        "order-mcq-31": "本句指「為了」。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。"
+        "order-mcq-31": "本句的「in order to finish」指「為了」。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-31"
     },
@@ -3358,11 +3070,9 @@ export default {
       "masked": "She left early ____ the train.",
       "options": [
         "order-mcq-31",
-        "order-mcq-30",
-        "order-mcq-32",
-        "order-mcq-29",
-        "order-mcq-33",
-        "order-mcq-28"
+        "order-mcq-03",
+        "order-mcq-04",
+        "order-mcq-10"
       ],
       "explanation": "本句的「in order to catch」指「為了」。",
       "sentenceIndex": 80,
@@ -3371,12 +3081,10 @@ export default {
         "in order to catch"
       ],
       "optionReasons": {
-        "order-mcq-31": "本句指「為了」。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。",
-        "order-mcq-28": "「社會秩序」是「social order」的用法，與本句語境不同。"
+        "order-mcq-31": "本句的「in order to catch」指「為了」。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-31"
     },
@@ -3388,11 +3096,9 @@ export default {
       "masked": "Everyone left in an ____.",
       "options": [
         "order-mcq-32",
-        "order-mcq-31",
-        "order-mcq-33",
-        "order-mcq-30",
-        "order-mcq-34",
-        "order-mcq-29"
+        "order-mcq-23",
+        "order-mcq-12",
+        "order-mcq-10"
       ],
       "explanation": "本句的「orderly manner」指「有秩序的」。",
       "sentenceIndex": 81,
@@ -3401,12 +3107,10 @@ export default {
         "orderly manner"
       ],
       "optionReasons": {
-        "order-mcq-32": "本句指「有秩序的」。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。"
+        "order-mcq-32": "本句的「orderly manner」指「有秩序的」。",
+        "order-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-32"
     },
@@ -3418,11 +3122,9 @@ export default {
       "masked": "The files were arranged in an ____.",
       "options": [
         "order-mcq-32",
-        "order-mcq-31",
-        "order-mcq-33",
         "order-mcq-30",
-        "order-mcq-34",
-        "order-mcq-29"
+        "order-mcq-24",
+        "order-mcq-36"
       ],
       "explanation": "本句的「orderly way」指「有秩序的」。",
       "sentenceIndex": 82,
@@ -3431,12 +3133,10 @@ export default {
         "orderly way"
       ],
       "optionReasons": {
-        "order-mcq-32": "本句指「有秩序的」。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-29": "「修會」是「religious order」的用法，與本句語境不同。"
+        "order-mcq-32": "本句的「orderly way」指「有秩序的」。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-32"
     },
@@ -3448,11 +3148,9 @@ export default {
       "masked": "The room was in complete ____.",
       "options": [
         "order-mcq-33",
-        "order-mcq-32",
-        "order-mcq-34",
-        "order-mcq-31",
-        "order-mcq-35",
-        "order-mcq-30"
+        "order-mcq-30",
+        "order-mcq-38",
+        "order-mcq-14"
       ],
       "explanation": "本句的「disorder」指「混亂／失調」。",
       "sentenceIndex": 83,
@@ -3461,12 +3159,10 @@ export default {
         "disorder"
       ],
       "optionReasons": {
-        "order-mcq-33": "本句指「混亂／失調」。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。"
+        "order-mcq-33": "本句的「disorder」指「混亂／失調」。",
+        "order-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-33"
     },
@@ -3478,11 +3174,9 @@ export default {
       "masked": "The sudden change caused ____.",
       "options": [
         "order-mcq-33",
-        "order-mcq-32",
-        "order-mcq-34",
-        "order-mcq-31",
-        "order-mcq-35",
-        "order-mcq-30"
+        "order-mcq-20",
+        "order-mcq-40",
+        "order-mcq-09"
       ],
       "explanation": "本句的「disorder」指「混亂／失調」。",
       "sentenceIndex": 84,
@@ -3491,12 +3185,10 @@ export default {
         "disorder"
       ],
       "optionReasons": {
-        "order-mcq-33": "本句指「混亂／失調」。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。"
+        "order-mcq-33": "本句的「disorder」指「混亂／失調」。",
+        "order-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-33"
     },
@@ -3508,11 +3200,9 @@ export default {
       "masked": "The condition is a sleep ____.",
       "options": [
         "order-mcq-33",
-        "order-mcq-32",
-        "order-mcq-34",
-        "order-mcq-31",
-        "order-mcq-35",
-        "order-mcq-30"
+        "order-mcq-36",
+        "order-mcq-03",
+        "order-reviewed-b13cb7148c"
       ],
       "explanation": "本句的「disorder」指「混亂／失調」。",
       "sentenceIndex": 85,
@@ -3521,12 +3211,10 @@ export default {
         "disorder"
       ],
       "optionReasons": {
-        "order-mcq-33": "本句指「混亂／失調」。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。"
+        "order-mcq-33": "本句的「disorder」指「混亂／失調」。",
+        "order-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-b13cb7148c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-33"
     },
@@ -3538,11 +3226,9 @@ export default {
       "masked": "Doctors diagnosed a digestive ____.",
       "options": [
         "order-mcq-33",
-        "order-mcq-32",
-        "order-mcq-34",
-        "order-mcq-31",
-        "order-mcq-35",
-        "order-mcq-30"
+        "order-mcq-22",
+        "order-pdf-001",
+        "order-mcq-24"
       ],
       "explanation": "本句的「disorder」指「混亂／失調」。",
       "sentenceIndex": 86,
@@ -3551,12 +3237,10 @@ export default {
         "disorder"
       ],
       "optionReasons": {
-        "order-mcq-33": "本句指「混亂／失調」。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-31": "「為了」是「in order to」的用法，與本句語境不同。",
-        "order-mcq-35": "「混亂的」是「disorderly」的用法，與本句語境不同。",
-        "order-mcq-30": "「數量級」是「order of magnitude」的用法，與本句語境不同。"
+        "order-mcq-33": "本句的「disorder」指「混亂／失調」。",
+        "order-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "order-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-33"
     },
@@ -3568,11 +3252,9 @@ export default {
       "masked": "The crowd became ____.",
       "options": [
         "order-mcq-35",
-        "order-mcq-34",
-        "order-mcq-36",
-        "order-mcq-33",
-        "order-mcq-37",
-        "order-mcq-32"
+        "order-mcq-10",
+        "order-mcq-21",
+        "order-mcq-01"
       ],
       "explanation": "本句的「disorderly」指「混亂的」。",
       "sentenceIndex": 87,
@@ -3581,12 +3263,10 @@ export default {
         "disorderly"
       ],
       "optionReasons": {
-        "order-mcq-35": "本句指「混亂的」。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。"
+        "order-mcq-35": "本句的「disorderly」指「混亂的」。",
+        "order-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-35"
     },
@@ -3598,11 +3278,9 @@ export default {
       "masked": "The papers were left in a ____.",
       "options": [
         "order-mcq-35",
-        "order-mcq-34",
-        "order-mcq-36",
-        "order-mcq-33",
-        "order-mcq-37",
-        "order-mcq-32"
+        "order-mcq-06",
+        "order-reviewed-96f1bbe5b6",
+        "order-mcq-05"
       ],
       "explanation": "本句的「disorderly pile」指「混亂的」。",
       "sentenceIndex": 88,
@@ -3611,12 +3289,10 @@ export default {
         "disorderly pile"
       ],
       "optionReasons": {
-        "order-mcq-35": "本句指「混亂的」。",
-        "order-mcq-34": "「疾病／障礙」是「disorder (medical)」的用法，與本句語境不同。",
-        "order-mcq-36": "「把 X 整理、安排到清楚或正確的狀態」是「10. put something in order — 整理；安排妥當」的用法，與本句語境不同。",
-        "order-mcq-33": "「混亂／失調」是「disorder」的用法，與本句語境不同。",
-        "order-mcq-37": "「狀態良好、安排妥當或正常運作」是「11. in good order — 狀況良好；井然有序」的用法，與本句語境不同。",
-        "order-mcq-32": "「有秩序的」是「orderly」的用法，與本句語境不同。"
+        "order-mcq-35": "本句的「disorderly pile」指「混亂的」。",
+        "order-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "order-reviewed-96f1bbe5b6": "請比較這個意思與句子中標示的用法。",
+        "order-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "order-mcq-35"
     }
@@ -3628,5 +3304,7 @@ export default {
     "sha256": "d14134cb2180a3c533d4b22afa905a546a063745eca55b7b20ee59fa4ecd0aa8",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

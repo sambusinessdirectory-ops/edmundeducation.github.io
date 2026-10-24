@@ -371,11 +371,7 @@ export default {
       "masked": "I used to think studying meant memorising facts and repeating them in ____.",
       "options": [
         "exam-mcq-01",
-        "exam-mcq-02",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exams」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
       "sentenceIndex": 0,
@@ -384,12 +380,8 @@ export default {
         "exams"
       ],
       "optionReasons": {
-        "exam-mcq-01": "本句指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-01": "本句的「exams」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-01"
     },
@@ -401,11 +393,7 @@ export default {
       "masked": "We have a history ____ next Monday.",
       "options": [
         "exam-mcq-01",
-        "exam-mcq-02",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
       "sentenceIndex": 1,
@@ -414,12 +402,8 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-01": "本句指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-01": "本句的「exam」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-01"
     },
@@ -431,11 +415,7 @@ export default {
       "masked": "She studied all weekend for the final ____.",
       "options": [
         "exam-mcq-01",
-        "exam-mcq-02",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
       "sentenceIndex": 2,
@@ -444,12 +424,8 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-01": "本句指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-01": "本句的「exam」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-01"
     },
@@ -461,11 +437,7 @@ export default {
       "masked": "He is preparing for his driving theory ____.",
       "options": [
         "exam-mcq-01",
-        "exam-mcq-02",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
       "sentenceIndex": 3,
@@ -474,12 +446,8 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-01": "本句指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-01": "本句的「exam」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-01"
     },
@@ -491,11 +459,7 @@ export default {
       "masked": "She passed her professional accounting ____.",
       "options": [
         "exam-mcq-01",
-        "exam-mcq-02",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exams」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
       "sentenceIndex": 4,
@@ -504,12 +468,8 @@ export default {
         "exams"
       ],
       "optionReasons": {
-        "exam-mcq-01": "本句指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-01": "本句的「exams」指「用問題或任務正式評核某人的知識、理解、技能或資格的考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-01"
     },
@@ -521,11 +481,8 @@ export default {
       "masked": "The doctor performed a physical ____.",
       "options": [
         "exam-mcq-02",
-        "exam-mcq-01",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-16",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「由醫護人員檢查身體／某身體部位以評估健康狀況」。",
       "sentenceIndex": 5,
@@ -534,12 +491,9 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-02": "本句指「由醫護人員檢查身體／某身體部位以評估健康狀況」。",
-        "exam-mcq-01": "「用問題或任務正式評核某人的知識、理解、技能或資格的考試」是「exam — academic/professional」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-02": "本句的「exam」指「由醫護人員檢查身體／某身體部位以評估健康狀況」。",
+        "exam-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-02"
     },
@@ -551,11 +505,8 @@ export default {
       "masked": "You should have an eye ____ once a year.",
       "options": [
         "exam-mcq-02",
-        "exam-mcq-01",
-        "exam-mcq-03",
-        "exam-mcq-04",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-16",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「由醫護人員檢查身體／某身體部位以評估健康狀況」。",
       "sentenceIndex": 6,
@@ -564,12 +515,9 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-02": "本句指「由醫護人員檢查身體／某身體部位以評估健康狀況」。",
-        "exam-mcq-01": "「用問題或任務正式評核某人的知識、理解、技能或資格的考試」是「exam — academic/professional」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-02": "本句的「exam」指「由醫護人員檢查身體／某身體部位以評估健康狀況」。",
+        "exam-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-02"
     },
@@ -581,11 +529,8 @@ export default {
       "masked": "Candidates must complete the written ____.",
       "options": [
         "exam-mcq-03",
-        "exam-mcq-02",
-        "exam-mcq-04",
-        "exam-mcq-01",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-08",
+        "exam-mcq-02"
       ],
       "explanation": "本句的「examination」指「較正式地指評核知識、技能或資格的考試」。",
       "sentenceIndex": 7,
@@ -594,12 +539,9 @@ export default {
         "examination"
       ],
       "optionReasons": {
-        "exam-mcq-03": "本句指「較正式地指評核知識、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-01": "「用問題或任務正式評核某人的知識、理解、技能或資格的考試」是「exam — academic/professional」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-03": "本句的「examination」指「較正式地指評核知識、技能或資格的考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-03"
     },
@@ -611,11 +553,7 @@ export default {
       "masked": "The final ____ accounts for half of the course grade.",
       "options": [
         "exam-mcq-03",
-        "exam-mcq-02",
-        "exam-mcq-04",
-        "exam-mcq-01",
-        "exam-mcq-05",
-        "exam-mcq-06"
+        "exam-mcq-07"
       ],
       "explanation": "本句的「examination」指「較正式地指評核知識、技能或資格的考試」。",
       "sentenceIndex": 8,
@@ -624,12 +562,8 @@ export default {
         "examination"
       ],
       "optionReasons": {
-        "exam-mcq-03": "本句指「較正式地指評核知識、技能或資格的考試」。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-01": "「用問題或任務正式評核某人的知識、理解、技能或資格的考試」是「exam — academic/professional」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-03": "本句的「examination」指「較正式地指評核知識、技能或資格的考試」。",
+        "exam-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-03"
     },
@@ -642,10 +576,7 @@ export default {
       "options": [
         "exam-mcq-04",
         "exam-mcq-03",
-        "exam-mcq-05",
-        "exam-mcq-02",
-        "exam-mcq-06",
-        "exam-mcq-01"
+        "exam-mcq-05"
       ],
       "explanation": "本句的「examination」指「對物件、證據、問題或議題進行仔細、系統的檢查／研究」。",
       "sentenceIndex": 9,
@@ -654,12 +585,9 @@ export default {
         "examination"
       ],
       "optionReasons": {
-        "exam-mcq-04": "本句指「對物件、證據、問題或議題進行仔細、系統的檢查／研究」。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-01": "「用問題或任務正式評核某人的知識、理解、技能或資格的考試」是「exam — academic/professional」的用法，與本句語境不同。"
+        "exam-mcq-04": "本句的「examination」指「對物件、證據、問題或議題進行仔細、系統的檢查／研究」。",
+        "exam-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-04"
     },
@@ -671,11 +599,8 @@ export default {
       "masked": "The report includes an ____ of the causes of the conflict.",
       "options": [
         "exam-mcq-04",
-        "exam-mcq-03",
         "exam-mcq-05",
-        "exam-mcq-02",
-        "exam-mcq-06",
-        "exam-mcq-01"
+        "exam-mcq-03"
       ],
       "explanation": "本句的「examination」指「對物件、證據、問題或議題進行仔細、系統的檢查／研究」。",
       "sentenceIndex": 10,
@@ -684,12 +609,9 @@ export default {
         "examination"
       ],
       "optionReasons": {
-        "exam-mcq-04": "本句指「對物件、證據、問題或議題進行仔細、系統的檢查／研究」。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-01": "「用問題或任務正式評核某人的知識、理解、技能或資格的考試」是「exam — academic/professional」的用法，與本句語境不同。"
+        "exam-mcq-04": "本句的「examination」指「對物件、證據、問題或議題進行仔細、系統的檢查／研究」。",
+        "exam-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-04"
     },
@@ -702,10 +624,7 @@ export default {
       "options": [
         "exam-mcq-05",
         "exam-mcq-04",
-        "exam-mcq-06",
-        "exam-mcq-03",
-        "exam-mcq-07",
-        "exam-mcq-02"
+        "exam-mcq-12"
       ],
       "explanation": "本句的「examination」指「醫護人員透過觀察、測試或診察評估身體狀況」。",
       "sentenceIndex": 11,
@@ -714,12 +633,9 @@ export default {
         "examination"
       ],
       "optionReasons": {
-        "exam-mcq-05": "本句指「醫護人員透過觀察、測試或診察評估身體狀況」。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。"
+        "exam-mcq-05": "本句的「examination」指「醫護人員透過觀察、測試或診察評估身體狀況」。",
+        "exam-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-05"
     },
@@ -732,10 +648,7 @@ export default {
       "options": [
         "exam-mcq-05",
         "exam-mcq-04",
-        "exam-mcq-06",
-        "exam-mcq-03",
-        "exam-mcq-07",
-        "exam-mcq-02"
+        "exam-mcq-12"
       ],
       "explanation": "本句的「examination」指「醫護人員透過觀察、測試或診察評估身體狀況」。",
       "sentenceIndex": 12,
@@ -744,12 +657,9 @@ export default {
         "examination"
       ],
       "optionReasons": {
-        "exam-mcq-05": "本句指「醫護人員透過觀察、測試或診察評估身體狀況」。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-02": "「由醫護人員檢查身體／某身體部位以評估健康狀況」是「exam — medical」的用法，與本句語境不同。"
+        "exam-mcq-05": "本句的「examination」指「醫護人員透過觀察、測試或診察評估身體狀況」。",
+        "exam-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-05"
     },
@@ -761,11 +671,9 @@ export default {
       "masked": "Students are ____ in both history and geography.",
       "options": [
         "exam-mcq-06",
-        "exam-mcq-05",
-        "exam-mcq-07",
-        "exam-mcq-04",
         "exam-mcq-08",
-        "exam-mcq-03"
+        "exam-mcq-10",
+        "exam-mcq-12"
       ],
       "explanation": "本句的「examined」指「正式測試某人的知識、能力或資格」。",
       "sentenceIndex": 13,
@@ -774,12 +682,10 @@ export default {
         "examined"
       ],
       "optionReasons": {
-        "exam-mcq-06": "本句指「正式測試某人的知識、能力或資格」。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。"
+        "exam-mcq-06": "本句的「examined」指「正式測試某人的知識、能力或資格」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-06"
     },
@@ -791,11 +697,9 @@ export default {
       "masked": "The course ____ students through written and oral tests.",
       "options": [
         "exam-mcq-06",
-        "exam-mcq-05",
-        "exam-mcq-07",
-        "exam-mcq-04",
+        "exam-mcq-10",
         "exam-mcq-08",
-        "exam-mcq-03"
+        "exam-mcq-13"
       ],
       "explanation": "本句的「examines」指「正式測試某人的知識、能力或資格」。",
       "sentenceIndex": 14,
@@ -804,12 +708,10 @@ export default {
         "examines"
       ],
       "optionReasons": {
-        "exam-mcq-06": "本句指「正式測試某人的知識、能力或資格」。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-03": "「較正式地指評核知識、技能或資格的考試」是「examination — formal test」的用法，與本句語境不同。"
+        "exam-mcq-06": "本句的「examines」指「正式測試某人的知識、能力或資格」。",
+        "exam-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-06"
     },
@@ -821,11 +723,7 @@ export default {
       "masked": "The scientist ____ the sample under a microscope.",
       "options": [
         "exam-mcq-07",
-        "exam-mcq-06",
-        "exam-mcq-08",
-        "exam-mcq-05",
-        "exam-mcq-09",
-        "exam-mcq-04"
+        "exam-mcq-11"
       ],
       "explanation": "本句的「examined」指「仔細觀察或檢查某人／某物以找出細節或問題」。",
       "sentenceIndex": 15,
@@ -834,12 +732,8 @@ export default {
         "examined"
       ],
       "optionReasons": {
-        "exam-mcq-07": "本句指「仔細觀察或檢查某人／某物以找出細節或問題」。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。"
+        "exam-mcq-07": "本句的「examined」指「仔細觀察或檢查某人／某物以找出細節或問題」。",
+        "exam-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-07"
     },
@@ -851,11 +745,7 @@ export default {
       "masked": "The doctor ____ his knee.",
       "options": [
         "exam-mcq-07",
-        "exam-mcq-06",
-        "exam-mcq-08",
-        "exam-mcq-05",
-        "exam-mcq-09",
-        "exam-mcq-04"
+        "exam-mcq-11"
       ],
       "explanation": "本句的「examined」指「仔細觀察或檢查某人／某物以找出細節或問題」。",
       "sentenceIndex": 16,
@@ -864,12 +754,8 @@ export default {
         "examined"
       ],
       "optionReasons": {
-        "exam-mcq-07": "本句指「仔細觀察或檢查某人／某物以找出細節或問題」。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-04": "「對物件、證據、問題或議題進行仔細、系統的檢查／研究」是「examination — close inspection」的用法，與本句語境不同。"
+        "exam-mcq-07": "本句的「examined」指「仔細觀察或檢查某人／某物以找出細節或問題」。",
+        "exam-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-07"
     },
@@ -881,11 +767,8 @@ export default {
       "masked": "The essay ____ the causes of the war.",
       "options": [
         "exam-mcq-08",
-        "exam-mcq-07",
-        "exam-mcq-09",
-        "exam-mcq-06",
-        "exam-mcq-10",
-        "exam-mcq-05"
+        "exam-mcq-03",
+        "exam-mcq-02"
       ],
       "explanation": "本句的「examines」指「仔細分析某個議題、證據或觀點」。",
       "sentenceIndex": 17,
@@ -894,12 +777,9 @@ export default {
         "examines"
       ],
       "optionReasons": {
-        "exam-mcq-08": "本句指「仔細分析某個議題、證據或觀點」。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。"
+        "exam-mcq-08": "本句的「examines」指「仔細分析某個議題、證據或觀點」。",
+        "exam-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-08"
     },
@@ -911,11 +791,9 @@ export default {
       "masked": "We need to ____ carefully.",
       "options": [
         "exam-mcq-08",
-        "exam-mcq-07",
-        "exam-mcq-09",
-        "exam-mcq-06",
+        "exam-mcq-15",
         "exam-mcq-10",
-        "exam-mcq-05"
+        "exam-mcq-06"
       ],
       "explanation": "本句的「examine the evidence」指「仔細分析某個議題、證據或觀點」。",
       "sentenceIndex": 18,
@@ -924,12 +802,10 @@ export default {
         "examine the evidence"
       ],
       "optionReasons": {
-        "exam-mcq-08": "本句指「仔細分析某個議題、證據或觀點」。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-05": "「醫護人員透過觀察、測試或診察評估身體狀況」是「examination — medical」的用法，與本句語境不同。"
+        "exam-mcq-08": "本句的「examine the evidence」指「仔細分析某個議題、證據或觀點」。",
+        "exam-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-08"
     },
@@ -941,11 +817,8 @@ export default {
       "masked": "The ____ asked several follow-up questions.",
       "options": [
         "exam-mcq-09",
-        "exam-mcq-08",
-        "exam-mcq-10",
-        "exam-mcq-07",
-        "exam-mcq-11",
-        "exam-mcq-06"
+        "exam-mcq-02",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「examiner」指「負責主持、出題或評核考試的人」。",
       "sentenceIndex": 19,
@@ -954,12 +827,9 @@ export default {
         "examiner"
       ],
       "optionReasons": {
-        "exam-mcq-09": "本句指「負責主持、出題或評核考試的人」。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-09": "本句的「examiner」指「負責主持、出題或評核考試的人」。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-09"
     },
@@ -971,11 +841,8 @@ export default {
       "masked": "The oral ____ assessed the candidate’s speaking ability.",
       "options": [
         "exam-mcq-09",
-        "exam-mcq-08",
-        "exam-mcq-10",
-        "exam-mcq-07",
-        "exam-mcq-11",
-        "exam-mcq-06"
+        "exam-mcq-06",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「examiner」指「負責主持、出題或評核考試的人」。",
       "sentenceIndex": 20,
@@ -984,12 +851,9 @@ export default {
         "examiner"
       ],
       "optionReasons": {
-        "exam-mcq-09": "本句指「負責主持、出題或評核考試的人」。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-06": "「正式測試某人的知識、能力或資格」是「examine — test someone」的用法，與本句語境不同。"
+        "exam-mcq-09": "本句的「examiner」指「負責主持、出題或評核考試的人」。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-09"
     },
@@ -1001,11 +865,9 @@ export default {
       "masked": "The medical ____ investigated the cause of death.",
       "options": [
         "exam-mcq-10",
-        "exam-mcq-09",
-        "exam-mcq-11",
+        "exam-mcq-16",
         "exam-mcq-08",
-        "exam-mcq-12",
-        "exam-mcq-07"
+        "exam-mcq-06"
       ],
       "explanation": "本句的「examiner」指「在專業上負責檢查、審核或評估某事物的人」。",
       "sentenceIndex": 21,
@@ -1014,12 +876,10 @@ export default {
         "examiner"
       ],
       "optionReasons": {
-        "exam-mcq-10": "本句指「在專業上負責檢查、審核或評估某事物的人」。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。"
+        "exam-mcq-10": "本句的「examiner」指「在專業上負責檢查、審核或評估某事物的人」。",
+        "exam-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-10"
     },
@@ -1031,11 +891,9 @@ export default {
       "masked": "The patent ____ reviewed the application.",
       "options": [
         "exam-mcq-10",
-        "exam-mcq-09",
-        "exam-mcq-11",
-        "exam-mcq-08",
         "exam-mcq-12",
-        "exam-mcq-07"
+        "exam-mcq-08",
+        "exam-mcq-06"
       ],
       "explanation": "本句的「examiner」指「在專業上負責檢查、審核或評估某事物的人」。",
       "sentenceIndex": 22,
@@ -1044,12 +902,10 @@ export default {
         "examiner"
       ],
       "optionReasons": {
-        "exam-mcq-10": "本句指「在專業上負責檢查、審核或評估某事物的人」。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-07": "「仔細觀察或檢查某人／某物以找出細節或問題」是「examine — inspect」的用法，與本句語境不同。"
+        "exam-mcq-10": "本句的「examiner」指「在專業上負責檢查、審核或評估某事物的人」。",
+        "exam-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-10"
     },
@@ -1061,11 +917,7 @@ export default {
       "masked": "Each ____ was given thirty minutes.",
       "options": [
         "exam-mcq-11",
-        "exam-mcq-10",
-        "exam-mcq-12",
-        "exam-mcq-09",
-        "exam-mcq-13",
-        "exam-mcq-08"
+        "exam-mcq-04"
       ],
       "explanation": "本句的「examinee」指「正在接受考試或正式評核的人」。",
       "sentenceIndex": 23,
@@ -1074,12 +926,8 @@ export default {
         "examinee"
       ],
       "optionReasons": {
-        "exam-mcq-11": "本句指「正在接受考試或正式評核的人」。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。"
+        "exam-mcq-11": "本句的「examinee」指「正在接受考試或正式評核的人」。",
+        "exam-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-11"
     },
@@ -1091,11 +939,7 @@ export default {
       "masked": "____ must show identification before entering the room.",
       "options": [
         "exam-mcq-11",
-        "exam-mcq-10",
-        "exam-mcq-12",
-        "exam-mcq-09",
-        "exam-mcq-13",
-        "exam-mcq-08"
+        "exam-mcq-04"
       ],
       "explanation": "本句的「Examinees」指「正在接受考試或正式評核的人」。",
       "sentenceIndex": 24,
@@ -1104,12 +948,8 @@ export default {
         "Examinees"
       ],
       "optionReasons": {
-        "exam-mcq-11": "本句指「正在接受考試或正式評核的人」。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-08": "「仔細分析某個議題、證據或觀點」是「examine — academic」的用法，與本句語境不同。"
+        "exam-mcq-11": "本句的「Examinees」指「正在接受考試或正式評核的人」。",
+        "exam-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-11"
     },
@@ -1121,11 +961,9 @@ export default {
       "masked": "Turn over the ____ when instructed.",
       "options": [
         "exam-mcq-12",
-        "exam-mcq-11",
-        "exam-mcq-13",
         "exam-mcq-10",
-        "exam-mcq-14",
-        "exam-mcq-09"
+        "exam-mcq-08",
+        "exam-mcq-06"
       ],
       "explanation": "本句的「exam paper」指「載有考試題目的試卷」。",
       "sentenceIndex": 25,
@@ -1134,12 +972,10 @@ export default {
         "exam paper"
       ],
       "optionReasons": {
-        "exam-mcq-12": "本句指「載有考試題目的試卷」。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。"
+        "exam-mcq-12": "本句的「exam paper」指「載有考試題目的試卷」。",
+        "exam-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-12"
     },
@@ -1151,11 +987,8 @@ export default {
       "masked": "The ____ paper contained six questions.",
       "options": [
         "exam-mcq-12",
-        "exam-mcq-11",
-        "exam-mcq-13",
-        "exam-mcq-10",
-        "exam-mcq-14",
-        "exam-mcq-09"
+        "exam-mcq-02",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「載有考試題目的試卷」。",
       "sentenceIndex": 26,
@@ -1164,12 +997,9 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-12": "本句指「載有考試題目的試卷」。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-09": "「負責主持、出題或評核考試的人」是「examiner — exam」的用法，與本句語境不同。"
+        "exam-mcq-12": "本句的「exam」指「載有考試題目的試卷」。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-12"
     },
@@ -1181,11 +1011,9 @@ export default {
       "masked": "The final ____ is in June.",
       "options": [
         "exam-mcq-15",
-        "exam-mcq-14",
-        "exam-mcq-16",
-        "exam-mcq-13",
-        "exam-mcq-12",
-        "exam-mcq-11"
+        "exam-mcq-08",
+        "exam-mcq-10",
+        "exam-mcq-06"
       ],
       "explanation": "本句的「exam」指「在課程／學期末進行的重要考試」。",
       "sentenceIndex": 27,
@@ -1194,12 +1022,10 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-15": "本句指「在課程／學期末進行的重要考試」。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-16": "「主要透過說話和回答問題進行的考試」是「Useful compound: oral exam」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。"
+        "exam-mcq-15": "本句的「exam」指「在課程／學期末進行的重要考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-15"
     },
@@ -1211,11 +1037,7 @@ export default {
       "masked": "She revised hard for her final ____.",
       "options": [
         "exam-mcq-15",
-        "exam-mcq-14",
-        "exam-mcq-16",
-        "exam-mcq-13",
-        "exam-mcq-12",
-        "exam-mcq-11"
+        "exam-mcq-07"
       ],
       "explanation": "本句的「exams」指「在課程／學期末進行的重要考試」。",
       "sentenceIndex": 28,
@@ -1224,12 +1046,8 @@ export default {
         "exams"
       ],
       "optionReasons": {
-        "exam-mcq-15": "本句指「在課程／學期末進行的重要考試」。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-16": "「主要透過說話和回答問題進行的考試」是「Useful compound: oral exam」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。"
+        "exam-mcq-15": "本句的「exams」指「在課程／學期末進行的重要考試」。",
+        "exam-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-15"
     },
@@ -1241,11 +1059,8 @@ export default {
       "masked": "Applicants must take an ____.",
       "options": [
         "exam-mcq-13",
-        "exam-mcq-12",
-        "exam-mcq-14",
-        "exam-mcq-11",
-        "exam-mcq-15",
-        "exam-mcq-10"
+        "exam-mcq-02",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「entrance exam」指「用來決定是否能進入學校／課程的入學考試」。",
       "sentenceIndex": 29,
@@ -1254,12 +1069,9 @@ export default {
         "entrance exam"
       ],
       "optionReasons": {
-        "exam-mcq-13": "本句指「用來決定是否能進入學校／課程的入學考試」。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-15": "「在課程／學期末進行的重要考試」是「Useful compound: final exam」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。"
+        "exam-mcq-13": "本句的「entrance exam」指「用來決定是否能進入學校／課程的入學考試」。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-13"
     },
@@ -1271,11 +1083,9 @@ export default {
       "masked": "He passed the school entrance ____.",
       "options": [
         "exam-mcq-13",
-        "exam-mcq-12",
-        "exam-mcq-14",
-        "exam-mcq-11",
-        "exam-mcq-15",
-        "exam-mcq-10"
+        "exam-mcq-08",
+        "exam-mcq-10",
+        "exam-mcq-06"
       ],
       "explanation": "本句的「exam」指「用來決定是否能進入學校／課程的入學考試」。",
       "sentenceIndex": 30,
@@ -1284,12 +1094,10 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-13": "本句指「用來決定是否能進入學校／課程的入學考試」。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。",
-        "exam-mcq-15": "「在課程／學期末進行的重要考試」是「Useful compound: final exam」的用法，與本句語境不同。",
-        "exam-mcq-10": "「在專業上負責檢查、審核或評估某事物的人」是「examiner — professional」的用法，與本句語境不同。"
+        "exam-mcq-13": "本句的「exam」指「用來決定是否能進入學校／課程的入學考試」。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-13"
     },
@@ -1301,11 +1109,8 @@ export default {
       "masked": "The language course includes an ____.",
       "options": [
         "exam-mcq-16",
-        "exam-mcq-15",
-        "exam-mcq-14",
-        "exam-mcq-13",
-        "exam-mcq-12",
-        "exam-mcq-11"
+        "exam-mcq-02",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「oral exam」指「主要透過說話和回答問題進行的考試」。",
       "sentenceIndex": 31,
@@ -1314,12 +1119,9 @@ export default {
         "oral exam"
       ],
       "optionReasons": {
-        "exam-mcq-16": "本句指「主要透過說話和回答問題進行的考試」。",
-        "exam-mcq-15": "「在課程／學期末進行的重要考試」是「Useful compound: final exam」的用法，與本句語境不同。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。"
+        "exam-mcq-16": "本句的「oral exam」指「主要透過說話和回答問題進行的考試」。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-16"
     },
@@ -1331,11 +1133,8 @@ export default {
       "masked": "She was nervous before the oral ____.",
       "options": [
         "exam-mcq-16",
-        "exam-mcq-15",
-        "exam-mcq-14",
-        "exam-mcq-13",
-        "exam-mcq-12",
-        "exam-mcq-11"
+        "exam-mcq-02",
+        "exam-mcq-08"
       ],
       "explanation": "本句的「exam」指「主要透過說話和回答問題進行的考試」。",
       "sentenceIndex": 32,
@@ -1344,12 +1143,9 @@ export default {
         "exam"
       ],
       "optionReasons": {
-        "exam-mcq-16": "本句指「主要透過說話和回答問題進行的考試」。",
-        "exam-mcq-15": "「在課程／學期末進行的重要考試」是「Useful compound: final exam」的用法，與本句語境不同。",
-        "exam-mcq-14": "「主要以口頭回答問題方式進行的考試」是「oral exam」的用法，與本句語境不同。",
-        "exam-mcq-13": "「用來決定是否能進入學校／課程的入學考試」是「entrance exam」的用法，與本句語境不同。",
-        "exam-mcq-12": "「載有考試題目的試卷」是「exam paper」的用法，與本句語境不同。",
-        "exam-mcq-11": "「正在接受考試或正式評核的人」是「examinee」的用法，與本句語境不同。"
+        "exam-mcq-16": "本句的「exam」指「主要透過說話和回答問題進行的考試」。",
+        "exam-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "exam-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exam-mcq-16"
     }
@@ -1361,5 +1157,7 @@ export default {
     "sha256": "49e742bb5d67f0e21b43f181c7dcd7c5417cfc984b8ce07f30eef06f6c0d10e0",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

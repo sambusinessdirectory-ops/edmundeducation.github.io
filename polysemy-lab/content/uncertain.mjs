@@ -333,11 +333,7 @@ export default {
       "masked": "I felt ____ about what to do next.",
       "options": [
         "uncertain-mcq-01",
-        "uncertain-mcq-02",
-        "uncertain-mcq-03",
-        "uncertain-mcq-04",
-        "uncertain-mcq-05",
-        "uncertain-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uncertain」指「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」。",
       "sentenceIndex": 0,
@@ -346,12 +342,8 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-01": "本句指「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-01": "本句的「uncertain」指「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-01"
     },
@@ -363,11 +355,7 @@ export default {
       "masked": "She was ____ about her future career.",
       "options": [
         "uncertain-mcq-01",
-        "uncertain-mcq-02",
-        "uncertain-mcq-03",
-        "uncertain-mcq-04",
-        "uncertain-mcq-05",
-        "uncertain-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「uncertain」指「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」。",
       "sentenceIndex": 1,
@@ -376,12 +364,8 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-01": "本句指「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-01": "本句的「uncertain」指「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-01"
     },
@@ -393,11 +377,9 @@ export default {
       "masked": "I’m ____ about the answer.",
       "options": [
         "uncertain-mcq-02",
-        "uncertain-mcq-01",
-        "uncertain-mcq-03",
-        "uncertain-mcq-04",
-        "uncertain-mcq-05",
-        "uncertain-mcq-06"
+        "uncertain-mcq-06",
+        "uncertain-mcq-14",
+        "uncertain-mcq-09"
       ],
       "explanation": "本句的「uncertain」指「對某件事、決定或情況沒有把握」。",
       "sentenceIndex": 2,
@@ -406,12 +388,10 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-02": "本句指「對某件事、決定或情況沒有把握」。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-02": "本句的「uncertain」指「對某件事、決定或情況沒有把握」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-02"
     },
@@ -423,11 +403,9 @@ export default {
       "masked": "He seemed ____ about his decision.",
       "options": [
         "uncertain-mcq-02",
-        "uncertain-mcq-01",
-        "uncertain-mcq-03",
-        "uncertain-mcq-04",
-        "uncertain-mcq-05",
-        "uncertain-mcq-06"
+        "uncertain-mcq-06",
+        "uncertain-mcq-14",
+        "uncertain-mcq-08"
       ],
       "explanation": "本句的「uncertain」指「對某件事、決定或情況沒有把握」。",
       "sentenceIndex": 3,
@@ -436,12 +414,10 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-02": "本句指「對某件事、決定或情況沒有把握」。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-02": "本句的「uncertain」指「對某件事、決定或情況沒有把握」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-02"
     },
@@ -453,11 +429,8 @@ export default {
       "masked": "She is ____.",
       "options": [
         "uncertain-mcq-02",
-        "uncertain-mcq-01",
-        "uncertain-mcq-03",
-        "uncertain-mcq-04",
-        "uncertain-mcq-05",
-        "uncertain-mcq-06"
+        "uncertain-mcq-06",
+        "uncertain-mcq-05"
       ],
       "explanation": "本句的「uncertain about the date」指「對某件事、決定或情況沒有把握」。",
       "sentenceIndex": 4,
@@ -466,12 +439,9 @@ export default {
         "uncertain about the date"
       ],
       "optionReasons": {
-        "uncertain-mcq-02": "本句指「對某件事、決定或情況沒有把握」。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-02": "本句的「uncertain about the date」指「對某件事、決定或情況沒有把握」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-02"
     },
@@ -483,11 +453,9 @@ export default {
       "masked": "We are still ____.",
       "options": [
         "uncertain-mcq-02",
-        "uncertain-mcq-01",
-        "uncertain-mcq-03",
-        "uncertain-mcq-04",
-        "uncertain-mcq-05",
-        "uncertain-mcq-06"
+        "uncertain-mcq-06",
+        "uncertain-mcq-15",
+        "uncertain-mcq-09"
       ],
       "explanation": "本句的「uncertain about the cause」指「對某件事、決定或情況沒有把握」。",
       "sentenceIndex": 5,
@@ -496,12 +464,10 @@ export default {
         "uncertain about the cause"
       ],
       "optionReasons": {
-        "uncertain-mcq-02": "本句指「對某件事、決定或情況沒有把握」。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-02": "本句的「uncertain about the cause」指「對某件事、決定或情況沒有把握」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-02"
     },
@@ -513,10 +479,6 @@ export default {
       "masked": "The future remains ____.",
       "options": [
         "uncertain-mcq-03",
-        "uncertain-mcq-02",
-        "uncertain-mcq-04",
-        "uncertain-mcq-01",
-        "uncertain-mcq-05",
         "uncertain-mcq-06"
       ],
       "explanation": "本句的「uncertain」指「結果或未來無法確定、難以預測；未明的」。",
@@ -526,12 +488,8 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-03": "本句指「結果或未來無法確定、難以預測；未明的」。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-03": "本句的「uncertain」指「結果或未來無法確定、難以預測；未明的」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-03"
     },
@@ -543,10 +501,6 @@ export default {
       "masked": "The outcome is still ____.",
       "options": [
         "uncertain-mcq-03",
-        "uncertain-mcq-02",
-        "uncertain-mcq-04",
-        "uncertain-mcq-01",
-        "uncertain-mcq-05",
         "uncertain-mcq-06"
       ],
       "explanation": "本句的「uncertain」指「結果或未來無法確定、難以預測；未明的」。",
@@ -556,12 +510,8 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-03": "本句指「結果或未來無法確定、難以預測；未明的」。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-03": "本句的「uncertain」指「結果或未來無法確定、難以預測；未明的」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-03"
     },
@@ -573,11 +523,8 @@ export default {
       "masked": "They were facing an ____.",
       "options": [
         "uncertain-mcq-04",
-        "uncertain-mcq-03",
-        "uncertain-mcq-05",
-        "uncertain-mcq-02",
-        "uncertain-mcq-06",
-        "uncertain-mcq-01"
+        "uncertain-mcq-08",
+        "uncertain-mcq-14"
       ],
       "explanation": "本句的「uncertain future」指「無法清楚預測的未來；前景未明」。",
       "sentenceIndex": 8,
@@ -586,12 +533,9 @@ export default {
         "uncertain future"
       ],
       "optionReasons": {
-        "uncertain-mcq-04": "本句指「無法清楚預測的未來；前景未明」。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。"
+        "uncertain-mcq-04": "本句的「uncertain future」指「無法清楚預測的未來；前景未明」。",
+        "uncertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-04"
     },
@@ -603,11 +547,7 @@ export default {
       "masked": "The company entered a period of ____.",
       "options": [
         "uncertain-mcq-04",
-        "uncertain-mcq-03",
-        "uncertain-mcq-05",
-        "uncertain-mcq-02",
-        "uncertain-mcq-06",
-        "uncertain-mcq-01"
+        "uncertain-mcq-13"
       ],
       "explanation": "本句的「uncertain future prospects」指「無法清楚預測的未來；前景未明」。",
       "sentenceIndex": 9,
@@ -616,12 +556,8 @@ export default {
         "uncertain future prospects"
       ],
       "optionReasons": {
-        "uncertain-mcq-04": "本句指「無法清楚預測的未來；前景未明」。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-01": "「對某事沒有把握、不知道哪個答案或選擇正確；不確定的」與本句語境不同。"
+        "uncertain-mcq-04": "本句的「uncertain future prospects」指「無法清楚預測的未來；前景未明」。",
+        "uncertain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-04"
     },
@@ -633,11 +569,8 @@ export default {
       "masked": "The exact cause is ____.",
       "options": [
         "uncertain-mcq-05",
-        "uncertain-mcq-04",
-        "uncertain-mcq-06",
-        "uncertain-mcq-03",
         "uncertain-mcq-07",
-        "uncertain-mcq-02"
+        "uncertain-mcq-06"
       ],
       "explanation": "本句的「uncertain」指「事實尚未證實或確定；未確定的」。",
       "sentenceIndex": 10,
@@ -646,12 +579,9 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-05": "本句指「事實尚未證實或確定；未確定的」。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。"
+        "uncertain-mcq-05": "本句的「uncertain」指「事實尚未證實或確定；未確定的」。",
+        "uncertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-05"
     },
@@ -663,11 +593,8 @@ export default {
       "masked": "His role in the incident remains ____.",
       "options": [
         "uncertain-mcq-05",
-        "uncertain-mcq-04",
-        "uncertain-mcq-06",
-        "uncertain-mcq-03",
         "uncertain-mcq-07",
-        "uncertain-mcq-02"
+        "uncertain-mcq-06"
       ],
       "explanation": "本句的「uncertain」指「事實尚未證實或確定；未確定的」。",
       "sentenceIndex": 11,
@@ -676,12 +603,9 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-05": "本句指「事實尚未證實或確定；未確定的」。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-02": "「對某件事、決定或情況沒有把握」與本句語境不同。"
+        "uncertain-mcq-05": "本句的「uncertain」指「事實尚未證實或確定；未確定的」。",
+        "uncertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-05"
     },
@@ -693,11 +617,9 @@ export default {
       "masked": "She gave an ____.",
       "options": [
         "uncertain-mcq-06",
-        "uncertain-mcq-05",
-        "uncertain-mcq-07",
-        "uncertain-mcq-04",
+        "uncertain-mcq-02",
         "uncertain-mcq-08",
-        "uncertain-mcq-03"
+        "uncertain-mcq-15"
       ],
       "explanation": "本句的「uncertain smile」指「因不知道該怎麼做而顯得遲疑、不自信」。",
       "sentenceIndex": 12,
@@ -706,12 +628,10 @@ export default {
         "uncertain smile"
       ],
       "optionReasons": {
-        "uncertain-mcq-06": "本句指「因不知道該怎麼做而顯得遲疑、不自信」。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-08": "「不固定、容易改變或難以依賴；不穩定的」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。"
+        "uncertain-mcq-06": "本句的「uncertain smile」指「因不知道該怎麼做而顯得遲疑、不自信」。",
+        "uncertain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-06"
     },
@@ -723,11 +643,9 @@ export default {
       "masked": "He took an ____.",
       "options": [
         "uncertain-mcq-06",
-        "uncertain-mcq-05",
-        "uncertain-mcq-07",
-        "uncertain-mcq-04",
-        "uncertain-mcq-08",
-        "uncertain-mcq-03"
+        "uncertain-mcq-09",
+        "uncertain-mcq-14",
+        "uncertain-mcq-02"
       ],
       "explanation": "本句的「uncertain step forward」指「因不知道該怎麼做而顯得遲疑、不自信」。",
       "sentenceIndex": 13,
@@ -736,12 +654,10 @@ export default {
         "uncertain step forward"
       ],
       "optionReasons": {
-        "uncertain-mcq-06": "本句指「因不知道該怎麼做而顯得遲疑、不自信」。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。",
-        "uncertain-mcq-08": "「不固定、容易改變或難以依賴；不穩定的」與本句語境不同。",
-        "uncertain-mcq-03": "「結果或未來無法確定、難以預測；未明的」與本句語境不同。"
+        "uncertain-mcq-06": "本句的「uncertain step forward」指「因不知道該怎麼做而顯得遲疑、不自信」。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-06"
     },
@@ -753,11 +669,9 @@ export default {
       "masked": "Maybe,” he said in an ____.",
       "options": [
         "uncertain-mcq-07",
-        "uncertain-mcq-06",
+        "uncertain-mcq-14",
         "uncertain-mcq-08",
-        "uncertain-mcq-05",
-        "uncertain-mcq-09",
-        "uncertain-mcq-04"
+        "uncertain-mcq-06"
       ],
       "explanation": "本句的「uncertain voice」指「顯示沒有把握或猶豫的語氣」。",
       "sentenceIndex": 14,
@@ -766,12 +680,10 @@ export default {
         "uncertain voice"
       ],
       "optionReasons": {
-        "uncertain-mcq-07": "本句指「顯示沒有把握或猶豫的語氣」。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-08": "「不固定、容易改變或難以依賴；不穩定的」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-09": "「難以預測或不穩定的情況」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。"
+        "uncertain-mcq-07": "本句的「uncertain voice」指「顯示沒有把握或猶豫的語氣」。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-07"
     },
@@ -783,11 +695,9 @@ export default {
       "masked": "Her answer sounded ____.",
       "options": [
         "uncertain-mcq-07",
-        "uncertain-mcq-06",
-        "uncertain-mcq-08",
-        "uncertain-mcq-05",
+        "uncertain-mcq-14",
         "uncertain-mcq-09",
-        "uncertain-mcq-04"
+        "uncertain-mcq-06"
       ],
       "explanation": "本句的「uncertain」指「顯示沒有把握或猶豫的語氣」。",
       "sentenceIndex": 15,
@@ -796,12 +706,10 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-07": "本句指「顯示沒有把握或猶豫的語氣」。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-08": "「不固定、容易改變或難以依賴；不穩定的」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。",
-        "uncertain-mcq-09": "「難以預測或不穩定的情況」與本句語境不同。",
-        "uncertain-mcq-04": "「無法清楚預測的未來；前景未明」與本句語境不同。"
+        "uncertain-mcq-07": "本句的「uncertain」指「顯示沒有把握或猶豫的語氣」。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-07"
     },
@@ -813,11 +721,8 @@ export default {
       "masked": "The weather was ____ all day.",
       "options": [
         "uncertain-mcq-08",
-        "uncertain-mcq-07",
-        "uncertain-mcq-09",
-        "uncertain-mcq-06",
-        "uncertain-mcq-10",
-        "uncertain-mcq-05"
+        "uncertain-mcq-12",
+        "uncertain-mcq-15"
       ],
       "explanation": "本句的「uncertain」指「不固定、容易改變或難以依賴；不穩定的」。",
       "sentenceIndex": 16,
@@ -826,12 +731,9 @@ export default {
         "uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-08": "本句指「不固定、容易改變或難以依賴；不穩定的」。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-09": "「難以預測或不穩定的情況」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。"
+        "uncertain-mcq-08": "本句的「uncertain」指「不固定、容易改變或難以依賴；不穩定的」。",
+        "uncertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-08"
     },
@@ -843,11 +745,9 @@ export default {
       "masked": "They depended on an ____ of materials.",
       "options": [
         "uncertain-mcq-08",
-        "uncertain-mcq-07",
-        "uncertain-mcq-09",
         "uncertain-mcq-06",
-        "uncertain-mcq-10",
-        "uncertain-mcq-05"
+        "uncertain-mcq-07",
+        "uncertain-mcq-14"
       ],
       "explanation": "本句的「uncertain supply」指「不固定、容易改變或難以依賴；不穩定的」。",
       "sentenceIndex": 17,
@@ -856,12 +756,10 @@ export default {
         "uncertain supply"
       ],
       "optionReasons": {
-        "uncertain-mcq-08": "本句指「不固定、容易改變或難以依賴；不穩定的」。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-09": "「難以預測或不穩定的情況」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。",
-        "uncertain-mcq-05": "「事實尚未證實或確定；未確定的」與本句語境不同。"
+        "uncertain-mcq-08": "本句的「uncertain supply」指「不固定、容易改變或難以依賴；不穩定的」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-08"
     },
@@ -873,11 +771,8 @@ export default {
       "masked": "Businesses struggled under ____.",
       "options": [
         "uncertain-mcq-09",
-        "uncertain-mcq-08",
-        "uncertain-mcq-10",
-        "uncertain-mcq-07",
-        "uncertain-mcq-11",
-        "uncertain-mcq-06"
+        "uncertain-mcq-12",
+        "uncertain-mcq-15"
       ],
       "explanation": "本句的「uncertain conditions」指「難以預測或不穩定的情況」。",
       "sentenceIndex": 18,
@@ -886,12 +781,9 @@ export default {
         "uncertain conditions"
       ],
       "optionReasons": {
-        "uncertain-mcq-09": "本句指「難以預測或不穩定的情況」。",
-        "uncertain-mcq-08": "「不固定、容易改變或難以依賴；不穩定的」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-09": "本句的「uncertain conditions」指「難以預測或不穩定的情況」。",
+        "uncertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-09"
     },
@@ -903,11 +795,8 @@ export default {
       "masked": "Travelling in ____ can be difficult.",
       "options": [
         "uncertain-mcq-09",
-        "uncertain-mcq-08",
-        "uncertain-mcq-10",
-        "uncertain-mcq-07",
-        "uncertain-mcq-11",
-        "uncertain-mcq-06"
+        "uncertain-mcq-12",
+        "uncertain-mcq-15"
       ],
       "explanation": "本句的「uncertain weather conditions」指「難以預測或不穩定的情況」。",
       "sentenceIndex": 19,
@@ -916,12 +805,9 @@ export default {
         "uncertain weather conditions"
       ],
       "optionReasons": {
-        "uncertain-mcq-09": "本句指「難以預測或不穩定的情況」。",
-        "uncertain-mcq-08": "「不固定、容易改變或難以依賴；不穩定的」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。",
-        "uncertain-mcq-07": "「顯示沒有把握或猶豫的語氣」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-06": "「因不知道該怎麼做而顯得遲疑、不自信」與本句語境不同。"
+        "uncertain-mcq-09": "本句的「uncertain weather conditions」指「難以預測或不穩定的情況」。",
+        "uncertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-09"
     },
@@ -933,11 +819,7 @@ export default {
       "masked": "He smiled ____.",
       "options": [
         "uncertain-mcq-12",
-        "uncertain-mcq-11",
-        "uncertain-mcq-13",
-        "uncertain-mcq-10",
-        "uncertain-mcq-14",
-        "uncertain-mcq-09"
+        "uncertain-mcq-05"
       ],
       "explanation": "本句的「uncertainly」指「以沒有把握或遲疑的方式」。",
       "sentenceIndex": 20,
@@ -946,12 +828,8 @@ export default {
         "uncertainly"
       ],
       "optionReasons": {
-        "uncertain-mcq-12": "本句指「以沒有把握或遲疑的方式」。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-13": "「不確定是否……」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。",
-        "uncertain-mcq-14": "「較正式：對……尚未確定」與本句語境不同。",
-        "uncertain-mcq-09": "「難以預測或不穩定的情況」與本句語境不同。"
+        "uncertain-mcq-12": "本句的「uncertainly」指「以沒有把握或遲疑的方式」。",
+        "uncertain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-12"
     },
@@ -963,11 +841,8 @@ export default {
       "masked": "She looked around ____.",
       "options": [
         "uncertain-mcq-12",
-        "uncertain-mcq-11",
-        "uncertain-mcq-13",
-        "uncertain-mcq-10",
-        "uncertain-mcq-14",
-        "uncertain-mcq-09"
+        "uncertain-mcq-09",
+        "uncertain-mcq-14"
       ],
       "explanation": "本句的「uncertainly」指「以沒有把握或遲疑的方式」。",
       "sentenceIndex": 21,
@@ -976,12 +851,9 @@ export default {
         "uncertainly"
       ],
       "optionReasons": {
-        "uncertain-mcq-12": "本句指「以沒有把握或遲疑的方式」。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-13": "「不確定是否……」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。",
-        "uncertain-mcq-14": "「較正式：對……尚未確定」與本句語境不同。",
-        "uncertain-mcq-09": "「難以預測或不穩定的情況」與本句語境不同。"
+        "uncertain-mcq-12": "本句的「uncertainly」指「以沒有把握或遲疑的方式」。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-12"
     },
@@ -993,11 +865,7 @@ export default {
       "masked": "I’m ____ he will come.",
       "options": [
         "uncertain-mcq-13",
-        "uncertain-mcq-12",
-        "uncertain-mcq-14",
-        "uncertain-mcq-11",
-        "uncertain-mcq-15",
-        "uncertain-mcq-10"
+        "uncertain-mcq-04"
       ],
       "explanation": "本句的「uncertain whether」指「不確定是否……」。",
       "sentenceIndex": 22,
@@ -1006,12 +874,8 @@ export default {
         "uncertain whether"
       ],
       "optionReasons": {
-        "uncertain-mcq-13": "本句指「不確定是否……」。",
-        "uncertain-mcq-12": "「以沒有把握或遲疑的方式」與本句語境不同。",
-        "uncertain-mcq-14": "「較正式：對……尚未確定」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-15": "「繼續處於未確定／未明朗狀態」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。"
+        "uncertain-mcq-13": "本句的「uncertain whether」指「不確定是否……」。",
+        "uncertain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-13"
     },
@@ -1023,11 +887,8 @@ export default {
       "masked": "She was ____ to accept the offer.",
       "options": [
         "uncertain-mcq-13",
-        "uncertain-mcq-12",
-        "uncertain-mcq-14",
-        "uncertain-mcq-11",
-        "uncertain-mcq-15",
-        "uncertain-mcq-10"
+        "uncertain-mcq-06",
+        "uncertain-mcq-07"
       ],
       "explanation": "本句的「uncertain whether」指「不確定是否……」。",
       "sentenceIndex": 23,
@@ -1036,12 +897,9 @@ export default {
         "uncertain whether"
       ],
       "optionReasons": {
-        "uncertain-mcq-13": "本句指「不確定是否……」。",
-        "uncertain-mcq-12": "「以沒有把握或遲疑的方式」與本句語境不同。",
-        "uncertain-mcq-14": "「較正式：對……尚未確定」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-15": "「繼續處於未確定／未明朗狀態」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。"
+        "uncertain-mcq-13": "本句的「uncertain whether」指「不確定是否……」。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-13"
     },
@@ -1053,11 +911,9 @@ export default {
       "masked": "The researchers were ____.",
       "options": [
         "uncertain-mcq-14",
-        "uncertain-mcq-13",
-        "uncertain-mcq-15",
-        "uncertain-mcq-12",
-        "uncertain-mcq-11",
-        "uncertain-mcq-10"
+        "uncertain-mcq-07",
+        "uncertain-mcq-06",
+        "uncertain-mcq-09"
       ],
       "explanation": "本句的「uncertain as to the cause」指「較正式：對……尚未確定」。",
       "sentenceIndex": 24,
@@ -1066,12 +922,10 @@ export default {
         "uncertain as to the cause"
       ],
       "optionReasons": {
-        "uncertain-mcq-14": "本句指「較正式：對……尚未確定」。",
-        "uncertain-mcq-13": "「不確定是否……」與本句語境不同。",
-        "uncertain-mcq-15": "「繼續處於未確定／未明朗狀態」與本句語境不同。",
-        "uncertain-mcq-12": "「以沒有把握或遲疑的方式」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。"
+        "uncertain-mcq-14": "本句的「uncertain as to the cause」指「較正式：對……尚未確定」。",
+        "uncertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-14"
     },
@@ -1083,11 +937,8 @@ export default {
       "masked": "We remain ____.",
       "options": [
         "uncertain-mcq-14",
-        "uncertain-mcq-13",
-        "uncertain-mcq-15",
         "uncertain-mcq-12",
-        "uncertain-mcq-11",
-        "uncertain-mcq-10"
+        "uncertain-mcq-09"
       ],
       "explanation": "本句的「uncertain as to the timing」指「較正式：對……尚未確定」。",
       "sentenceIndex": 25,
@@ -1096,12 +947,9 @@ export default {
         "uncertain as to the timing"
       ],
       "optionReasons": {
-        "uncertain-mcq-14": "本句指「較正式：對……尚未確定」。",
-        "uncertain-mcq-13": "「不確定是否……」與本句語境不同。",
-        "uncertain-mcq-15": "「繼續處於未確定／未明朗狀態」與本句語境不同。",
-        "uncertain-mcq-12": "「以沒有把握或遲疑的方式」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。"
+        "uncertain-mcq-14": "本句的「uncertain as to the timing」指「較正式：對……尚未確定」。",
+        "uncertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-14"
     },
@@ -1113,11 +961,9 @@ export default {
       "masked": "The final result ____.",
       "options": [
         "uncertain-mcq-15",
-        "uncertain-mcq-14",
-        "uncertain-mcq-13",
-        "uncertain-mcq-12",
-        "uncertain-mcq-11",
-        "uncertain-mcq-10"
+        "uncertain-mcq-07",
+        "uncertain-mcq-06",
+        "uncertain-mcq-09"
       ],
       "explanation": "本句的「remains uncertain」指「繼續處於未確定／未明朗狀態」。",
       "sentenceIndex": 26,
@@ -1126,12 +972,10 @@ export default {
         "remains uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-15": "本句指「繼續處於未確定／未明朗狀態」。",
-        "uncertain-mcq-14": "「較正式：對……尚未確定」與本句語境不同。",
-        "uncertain-mcq-13": "「不確定是否……」與本句語境不同。",
-        "uncertain-mcq-12": "「以沒有把握或遲疑的方式」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。"
+        "uncertain-mcq-15": "本句的「remains uncertain」指「繼續處於未確定／未明朗狀態」。",
+        "uncertain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-15"
     },
@@ -1143,11 +987,8 @@ export default {
       "masked": "His plans ____.",
       "options": [
         "uncertain-mcq-15",
-        "uncertain-mcq-14",
-        "uncertain-mcq-13",
         "uncertain-mcq-12",
-        "uncertain-mcq-11",
-        "uncertain-mcq-10"
+        "uncertain-mcq-08"
       ],
       "explanation": "本句的「remain uncertain」指「繼續處於未確定／未明朗狀態」。",
       "sentenceIndex": 27,
@@ -1156,12 +997,9 @@ export default {
         "remain uncertain"
       ],
       "optionReasons": {
-        "uncertain-mcq-15": "本句指「繼續處於未確定／未明朗狀態」。",
-        "uncertain-mcq-14": "「較正式：對……尚未確定」與本句語境不同。",
-        "uncertain-mcq-13": "「不確定是否……」與本句語境不同。",
-        "uncertain-mcq-12": "「以沒有把握或遲疑的方式」與本句語境不同。",
-        "uncertain-mcq-11": "「心裡沒有把握、遲疑的感覺」與本句語境不同。",
-        "uncertain-mcq-10": "「情況、結果或資訊未確定的狀態；不確定性」與本句語境不同。"
+        "uncertain-mcq-15": "本句的「remain uncertain」指「繼續處於未確定／未明朗狀態」。",
+        "uncertain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "uncertain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uncertain-mcq-15"
     }
@@ -1173,5 +1011,12 @@ export default {
     "sha256": "1db9e37a4f7cf6cf65cd73d889258dc6c612e08d1909a0bdc4e7ca9581e3d55a",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -328,11 +328,9 @@ export default {
       "masked": "He can take a small, everyday scene and turn it into a ____.",
       "options": [
         "story-mcq-01",
-        "story-mcq-02",
-        "story-mcq-03",
-        "story-mcq-04",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-14",
+        "story-mcq-08",
+        "story-mcq-12"
       ],
       "explanation": "本句的「story」指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
       "sentenceIndex": 0,
@@ -341,12 +339,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-01": "本句指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-01": "本句的「story」指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-01"
     },
@@ -358,11 +354,9 @@ export default {
       "masked": "She told us a funny ____ about her childhood.",
       "options": [
         "story-mcq-01",
-        "story-mcq-02",
-        "story-mcq-03",
-        "story-mcq-04",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-08",
+        "story-mcq-14",
+        "story-mcq-12"
       ],
       "explanation": "本句的「story」指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
       "sentenceIndex": 1,
@@ -371,12 +365,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-01": "本句指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-01": "本句的「story」指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-01"
     },
@@ -388,11 +380,9 @@ export default {
       "masked": "The book contains several short ____.",
       "options": [
         "story-mcq-01",
-        "story-mcq-02",
-        "story-mcq-03",
-        "story-mcq-04",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-11",
+        "story-mcq-12",
+        "story-mcq-08"
       ],
       "explanation": "本句的「stories」指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
       "sentenceIndex": 2,
@@ -401,12 +391,10 @@ export default {
         "stories"
       ],
       "optionReasons": {
-        "story-mcq-01": "本句指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-01": "本句的「stories」指「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-01"
     },
@@ -418,11 +406,9 @@ export default {
       "masked": "She told the police her ____.",
       "options": [
         "story-mcq-02",
-        "story-mcq-01",
-        "story-mcq-03",
-        "story-mcq-04",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-11",
+        "story-mcq-08",
+        "story-mcq-12"
       ],
       "explanation": "本句的「story」指「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」。",
       "sentenceIndex": 3,
@@ -431,12 +417,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-02": "本句指「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」。",
-        "story-mcq-01": "「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」是「story — narrative」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-02": "本句的「story」指「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-02"
     },
@@ -448,11 +432,9 @@ export default {
       "masked": "His ____ of growing up in the city was fascinating.",
       "options": [
         "story-mcq-02",
-        "story-mcq-01",
-        "story-mcq-03",
-        "story-mcq-04",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-12",
+        "story-mcq-11",
+        "story-mcq-14"
       ],
       "explanation": "本句的「story」指「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」。",
       "sentenceIndex": 4,
@@ -461,12 +443,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-02": "本句指「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」。",
-        "story-mcq-01": "「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」是「story — narrative」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-02": "本句的「story」指「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-02"
     },
@@ -478,11 +458,9 @@ export default {
       "masked": "The newspaper published a ____ about the housing problem.",
       "options": [
         "story-mcq-03",
-        "story-mcq-02",
-        "story-mcq-04",
-        "story-mcq-01",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-11",
+        "story-mcq-12",
+        "story-mcq-08"
       ],
       "explanation": "本句的「story」指「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」。",
       "sentenceIndex": 5,
@@ -491,12 +469,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-03": "本句指「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-01": "「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」是「story — narrative」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-03": "本句的「story」指「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-03"
     },
@@ -508,11 +484,9 @@ export default {
       "masked": "The reporter is working on a ____ about public transport.",
       "options": [
         "story-mcq-03",
-        "story-mcq-02",
-        "story-mcq-04",
-        "story-mcq-01",
-        "story-mcq-05",
-        "story-mcq-06"
+        "story-mcq-11",
+        "story-mcq-06",
+        "story-mcq-12"
       ],
       "explanation": "本句的「story」指「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」。",
       "sentenceIndex": 6,
@@ -521,12 +495,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-03": "本句指「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-01": "「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」是「story — narrative」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-03": "本句的「story」指「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-03"
     },
@@ -538,11 +510,9 @@ export default {
       "masked": "His ____ changed several times during the interview.",
       "options": [
         "story-mcq-04",
-        "story-mcq-03",
-        "story-mcq-05",
-        "story-mcq-02",
-        "story-mcq-06",
-        "story-mcq-01"
+        "story-mcq-14",
+        "story-mcq-08",
+        "story-mcq-10"
       ],
       "explanation": "本句的「story」指「某人對事情如何發生所提供的說法或版本」。",
       "sentenceIndex": 7,
@@ -551,12 +521,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-04": "本句指「某人對事情如何發生所提供的說法或版本」。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-01": "「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」是「story — narrative」的用法，與本句語境不同。"
+        "story-mcq-04": "本句的「story」指「某人對事情如何發生所提供的說法或版本」。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-04"
     },
@@ -568,11 +536,9 @@ export default {
       "masked": "Their ____ do not match.",
       "options": [
         "story-mcq-04",
-        "story-mcq-03",
-        "story-mcq-05",
-        "story-mcq-02",
-        "story-mcq-06",
-        "story-mcq-01"
+        "story-mcq-10",
+        "story-mcq-13",
+        "story-mcq-14"
       ],
       "explanation": "本句的「stories」指「某人對事情如何發生所提供的說法或版本」。",
       "sentenceIndex": 8,
@@ -581,12 +547,10 @@ export default {
         "stories"
       ],
       "optionReasons": {
-        "story-mcq-04": "本句指「某人對事情如何發生所提供的說法或版本」。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-01": "「把人物、事件或經歷按照某種次序連接起來形成的一段敘述，可是真實或虛構」是「story — narrative」的用法，與本句語境不同。"
+        "story-mcq-04": "本句的「stories」指「某人對事情如何發生所提供的說法或版本」。",
+        "story-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-04"
     },
@@ -598,11 +562,9 @@ export default {
       "masked": "What’s the ____ behind this old building?",
       "options": [
         "story-mcq-05",
-        "story-mcq-04",
-        "story-mcq-06",
-        "story-mcq-03",
-        "story-mcq-07",
-        "story-mcq-02"
+        "story-mcq-08",
+        "story-mcq-14",
+        "story-mcq-11"
       ],
       "explanation": "本句的「story」指「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」。",
       "sentenceIndex": 9,
@@ -611,12 +573,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-05": "本句指「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。"
+        "story-mcq-05": "本句的「story」指「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-05"
     },
@@ -628,11 +588,9 @@ export default {
       "masked": "The numbers only make sense when you understand the full ____.",
       "options": [
         "story-mcq-05",
-        "story-mcq-04",
-        "story-mcq-06",
-        "story-mcq-03",
-        "story-mcq-07",
-        "story-mcq-02"
+        "story-mcq-08",
+        "story-mcq-14",
+        "story-mcq-11"
       ],
       "explanation": "本句的「story」指「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」。",
       "sentenceIndex": 10,
@@ -641,12 +599,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-05": "本句指「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-02": "「對真實發生過的事情、個人經歷或事件經過所作的敘述；屬於一般 narrative 義」是「story — real-life account」的用法，與本句語境不同。"
+        "story-mcq-05": "本句的「story」指「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-05"
     },
@@ -658,11 +614,9 @@ export default {
       "masked": "Do you really believe that ____?",
       "options": [
         "story-mcq-06",
-        "story-mcq-05",
-        "story-mcq-07",
-        "story-mcq-04",
-        "story-mcq-08",
-        "story-mcq-03"
+        "story-mcq-03",
+        "story-mcq-14",
+        "story-mcq-11"
       ],
       "explanation": "本句的「story」指「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」。",
       "sentenceIndex": 11,
@@ -671,12 +625,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-06": "本句指「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。"
+        "story-mcq-06": "本句的「story」指「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」。",
+        "story-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-06"
     },
@@ -688,10 +640,8 @@ export default {
       "masked": "He made up a ____ about missing the train.",
       "options": [
         "story-mcq-06",
-        "story-mcq-05",
-        "story-mcq-07",
-        "story-mcq-04",
-        "story-mcq-08",
+        "story-mcq-11",
+        "story-mcq-14",
         "story-mcq-03"
       ],
       "explanation": "本句的「story」指「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」。",
@@ -701,12 +651,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-06": "本句指「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-03": "「新聞媒體就某個事件、人物或議題製作的一篇／一則報道」是「story — news report」的用法，與本句語境不同。"
+        "story-mcq-06": "本句的「story」指「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-06"
     },
@@ -718,11 +666,9 @@ export default {
       "masked": "The film has a simple ____, but the characters are excellent.",
       "options": [
         "story-mcq-07",
-        "story-mcq-06",
-        "story-mcq-08",
-        "story-mcq-05",
-        "story-mcq-09",
-        "story-mcq-04"
+        "story-mcq-14",
+        "story-mcq-11",
+        "story-mcq-08"
       ],
       "explanation": "本句的「story」指「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」。",
       "sentenceIndex": 13,
@@ -731,12 +677,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-07": "本句指「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。"
+        "story-mcq-07": "本句的「story」指「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-07"
     },
@@ -748,11 +692,9 @@ export default {
       "masked": "I enjoyed the game, but the ____ was difficult to follow.",
       "options": [
         "story-mcq-07",
-        "story-mcq-06",
+        "story-mcq-11",
         "story-mcq-08",
-        "story-mcq-05",
-        "story-mcq-09",
-        "story-mcq-04"
+        "story-mcq-14"
       ],
       "explanation": "本句的「story」指「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」。",
       "sentenceIndex": 14,
@@ -761,12 +703,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-07": "本句指「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-04": "「某人對事情如何發生所提供的說法或版本」是「someone's story — version/account」的用法，與本句語境不同。"
+        "story-mcq-07": "本句的「story」指「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-07"
     },
@@ -778,11 +718,9 @@ export default {
       "masked": "They live in a ten-____ building.",
       "options": [
         "story-mcq-08",
-        "story-mcq-07",
-        "story-mcq-09",
-        "story-mcq-06",
         "story-mcq-10",
-        "story-mcq-05"
+        "story-mcq-14",
+        "story-mcq-12"
       ],
       "explanation": "本句的「story」指「建築物的一個樓層；美式英語，相當於英式英語 storey」。",
       "sentenceIndex": 15,
@@ -791,12 +729,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-08": "本句指「建築物的一個樓層；美式英語，相當於英式英語 storey」。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。"
+        "story-mcq-08": "本句的「story」指「建築物的一個樓層；美式英語，相當於英式英語 storey」。",
+        "story-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-08"
     },
@@ -808,11 +744,9 @@ export default {
       "masked": "The office occupies the top ____.",
       "options": [
         "story-mcq-08",
-        "story-mcq-07",
-        "story-mcq-09",
-        "story-mcq-06",
-        "story-mcq-10",
-        "story-mcq-05"
+        "story-mcq-04",
+        "story-mcq-12",
+        "story-mcq-13"
       ],
       "explanation": "本句的「story」指「建築物的一個樓層；美式英語，相當於英式英語 storey」。",
       "sentenceIndex": 16,
@@ -821,12 +755,10 @@ export default {
         "story"
       ],
       "optionReasons": {
-        "story-mcq-08": "本句指「建築物的一個樓層；美式英語，相當於英式英語 storey」。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-05": "「解釋某件事情如何形成、為甚麼如此以及背後事件的整體來龍去脈」是「story — background/what happened」的用法，與本句語境不同。"
+        "story-mcq-08": "本句的「story」指「建築物的一個樓層；美式英語，相當於英式英語 storey」。",
+        "story-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-08"
     },
@@ -838,11 +770,9 @@ export default {
       "masked": "He has a natural talent for ____.",
       "options": [
         "story-mcq-09",
-        "story-mcq-08",
-        "story-mcq-10",
-        "story-mcq-07",
-        "story-mcq-11",
-        "story-mcq-06"
+        "story-mcq-06",
+        "story-mcq-14",
+        "story-mcq-08"
       ],
       "explanation": "本句的「storytelling」指「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」。",
       "sentenceIndex": 17,
@@ -851,12 +781,10 @@ export default {
         "storytelling"
       ],
       "optionReasons": {
-        "story-mcq-09": "本句指「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-09": "本句的「storytelling」指「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」。",
+        "story-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-09"
     },
@@ -868,11 +796,9 @@ export default {
       "masked": "Good ____ can make ordinary events memorable.",
       "options": [
         "story-mcq-09",
-        "story-mcq-08",
-        "story-mcq-10",
-        "story-mcq-07",
-        "story-mcq-11",
-        "story-mcq-06"
+        "story-mcq-06",
+        "story-mcq-14",
+        "story-mcq-08"
       ],
       "explanation": "本句的「storytelling」指「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」。",
       "sentenceIndex": 18,
@@ -881,12 +807,10 @@ export default {
         "storytelling"
       ],
       "optionReasons": {
-        "story-mcq-09": "本句指「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-06": "「在特定語境中指為解釋或掩飾事情而編造、不一定真實的說法」是「story — invented excuse/lie」的用法，與本句語境不同。"
+        "story-mcq-09": "本句的「storytelling」指「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」。",
+        "story-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-09"
     },
@@ -898,11 +822,9 @@ export default {
       "masked": "He is an excellent ____.",
       "options": [
         "story-mcq-10",
-        "story-mcq-09",
-        "story-mcq-11",
-        "story-mcq-08",
         "story-mcq-12",
-        "story-mcq-07"
+        "story-mcq-06",
+        "story-mcq-14"
       ],
       "explanation": "本句的「storyteller」指「擅長用口頭、文字或其他形式講述故事的人」。",
       "sentenceIndex": 19,
@@ -911,12 +833,10 @@ export default {
         "storyteller"
       ],
       "optionReasons": {
-        "story-mcq-10": "本句指「擅長用口頭、文字或其他形式講述故事的人」。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。"
+        "story-mcq-10": "本句的「storyteller」指「擅長用口頭、文字或其他形式講述故事的人」。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-10"
     },
@@ -928,11 +848,9 @@ export default {
       "masked": "The best ____ know how to make small details matter.",
       "options": [
         "story-mcq-10",
-        "story-mcq-09",
-        "story-mcq-11",
-        "story-mcq-08",
+        "story-mcq-13",
         "story-mcq-12",
-        "story-mcq-07"
+        "story-mcq-04"
       ],
       "explanation": "本句的「storytellers」指「擅長用口頭、文字或其他形式講述故事的人」。",
       "sentenceIndex": 20,
@@ -941,12 +859,10 @@ export default {
         "storytellers"
       ],
       "optionReasons": {
-        "story-mcq-10": "本句指「擅長用口頭、文字或其他形式講述故事的人」。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-07": "「電影、小說、遊戲等作品中所發生的主要事件和敘事內容；屬於 narrative 義」是「story — plot/narrative content」的用法，與本句語境不同。"
+        "story-mcq-10": "本句的「storytellers」指「擅長用口頭、文字或其他形式講述故事的人」。",
+        "story-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-10"
     },
@@ -958,11 +874,9 @@ export default {
       "masked": "She bought a ____ for her daughter.",
       "options": [
         "story-mcq-11",
-        "story-mcq-10",
-        "story-mcq-12",
-        "story-mcq-09",
-        "story-mcq-13",
-        "story-mcq-08"
+        "story-mcq-07",
+        "story-mcq-06",
+        "story-mcq-14"
       ],
       "explanation": "本句的「storybook」指「美得像故事書／童話中的村落」。",
       "sentenceIndex": 21,
@@ -971,12 +885,10 @@ export default {
         "storybook"
       ],
       "optionReasons": {
-        "story-mcq-11": "本句指「美得像故事書／童話中的村落」。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-13": "「有關某件事情的完整事實、背景和經過」是「Fixed expression: the whole story — 全部真相／完整經過」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。"
+        "story-mcq-11": "本句的「storybook」指「美得像故事書／童話中的村落」。",
+        "story-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-11"
     },
@@ -988,11 +900,9 @@ export default {
       "masked": "The village looks like something from a ____.",
       "options": [
         "story-mcq-11",
-        "story-mcq-10",
         "story-mcq-12",
-        "story-mcq-09",
         "story-mcq-13",
-        "story-mcq-08"
+        "story-mcq-03"
       ],
       "explanation": "本句的「storybook」指「美得像故事書／童話中的村落」。",
       "sentenceIndex": 22,
@@ -1001,12 +911,10 @@ export default {
         "storybook"
       ],
       "optionReasons": {
-        "story-mcq-11": "本句指「美得像故事書／童話中的村落」。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。",
-        "story-mcq-13": "「有關某件事情的完整事實、背景和經過」是「Fixed expression: the whole story — 全部真相／完整經過」的用法，與本句語境不同。",
-        "story-mcq-08": "「建築物的一個樓層；美式英語，相當於英式英語 storey」是「story — building level, AmE」的用法，與本句語境不同。"
+        "story-mcq-11": "本句的「storybook」指「美得像故事書／童話中的村落」。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-11"
     },
@@ -1018,11 +926,9 @@ export default {
       "masked": "____, we missed the last train.",
       "options": [
         "story-mcq-12",
-        "story-mcq-11",
-        "story-mcq-13",
-        "story-mcq-10",
-        "story-mcq-14",
-        "story-mcq-09"
+        "story-mcq-01",
+        "story-mcq-08",
+        "story-mcq-14"
       ],
       "explanation": "本句的「Long story short」指「省略很多細節，只說事情最後最重要的部分」。",
       "sentenceIndex": 23,
@@ -1031,12 +937,10 @@ export default {
         "Long story short"
       ],
       "optionReasons": {
-        "story-mcq-12": "本句指「省略很多細節，只說事情最後最重要的部分」。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-13": "「有關某件事情的完整事實、背景和經過」是「Fixed expression: the whole story — 全部真相／完整經過」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-14": "「另一個不同而通常更複雜的問題／情況」是「Fixed expression: that's another story — 那是另一回事」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。"
+        "story-mcq-12": "本句的「Long story short」指「省略很多細節，只說事情最後最重要的部分」。",
+        "story-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-12"
     },
@@ -1048,11 +952,9 @@ export default {
       "masked": "To make a ____, the plan failed.",
       "options": [
         "story-mcq-12",
-        "story-mcq-11",
         "story-mcq-13",
-        "story-mcq-10",
-        "story-mcq-14",
-        "story-mcq-09"
+        "story-mcq-03",
+        "story-mcq-11"
       ],
       "explanation": "本句的「long story short」指「省略很多細節，只說事情最後最重要的部分」。",
       "sentenceIndex": 24,
@@ -1061,12 +963,10 @@ export default {
         "long story short"
       ],
       "optionReasons": {
-        "story-mcq-12": "本句指「省略很多細節，只說事情最後最重要的部分」。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-13": "「有關某件事情的完整事實、背景和經過」是「Fixed expression: the whole story — 全部真相／完整經過」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-14": "「另一個不同而通常更複雜的問題／情況」是「Fixed expression: that's another story — 那是另一回事」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。"
+        "story-mcq-12": "本句的「long story short」指「省略很多細節，只說事情最後最重要的部分」。",
+        "story-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-12"
     },
@@ -1078,11 +978,9 @@ export default {
       "masked": "I don’t think we know the ____ yet.",
       "options": [
         "story-mcq-13",
-        "story-mcq-12",
-        "story-mcq-14",
+        "story-mcq-04",
         "story-mcq-11",
-        "story-mcq-10",
-        "story-mcq-09"
+        "story-mcq-08"
       ],
       "explanation": "本句的「whole story」指「有關某件事情的完整事實、背景和經過」。",
       "sentenceIndex": 25,
@@ -1091,12 +989,10 @@ export default {
         "whole story"
       ],
       "optionReasons": {
-        "story-mcq-13": "本句指「有關某件事情的完整事實、背景和經過」。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-14": "「另一個不同而通常更複雜的問題／情況」是「Fixed expression: that's another story — 那是另一回事」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。"
+        "story-mcq-13": "本句的「whole story」指「有關某件事情的完整事實、背景和經過」。",
+        "story-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-13"
     },
@@ -1108,11 +1004,9 @@ export default {
       "masked": "She finally told me the ____.",
       "options": [
         "story-mcq-13",
-        "story-mcq-12",
+        "story-mcq-08",
         "story-mcq-14",
-        "story-mcq-11",
-        "story-mcq-10",
-        "story-mcq-09"
+        "story-mcq-10"
       ],
       "explanation": "本句的「whole story」指「有關某件事情的完整事實、背景和經過」。",
       "sentenceIndex": 26,
@@ -1121,12 +1015,10 @@ export default {
         "whole story"
       ],
       "optionReasons": {
-        "story-mcq-13": "本句指「有關某件事情的完整事實、背景和經過」。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-14": "「另一個不同而通常更複雜的問題／情況」是「Fixed expression: that's another story — 那是另一回事」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。"
+        "story-mcq-13": "本句的「whole story」指「有關某件事情的完整事實、背景和經過」。",
+        "story-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-13"
     },
@@ -1138,11 +1030,9 @@ export default {
       "masked": "Getting the job was easy; keeping it was ____.",
       "options": [
         "story-mcq-14",
-        "story-mcq-13",
         "story-mcq-12",
-        "story-mcq-11",
-        "story-mcq-10",
-        "story-mcq-09"
+        "story-mcq-04",
+        "story-mcq-10"
       ],
       "explanation": "本句的「another story」指「另一個不同而通常更複雜的問題／情況」。",
       "sentenceIndex": 27,
@@ -1151,12 +1041,10 @@ export default {
         "another story"
       ],
       "optionReasons": {
-        "story-mcq-14": "本句指「另一個不同而通常更複雜的問題／情況」。",
-        "story-mcq-13": "「有關某件事情的完整事實、背景和經過」是「Fixed expression: the whole story — 全部真相／完整經過」的用法，與本句語境不同。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。"
+        "story-mcq-14": "本句的「another story」指「另一個不同而通常更複雜的問題／情況」。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-14"
     },
@@ -1168,11 +1056,9 @@ export default {
       "masked": "The plan sounds good. Whether it will work is ____.",
       "options": [
         "story-mcq-14",
-        "story-mcq-13",
         "story-mcq-12",
-        "story-mcq-11",
         "story-mcq-10",
-        "story-mcq-09"
+        "story-mcq-06"
       ],
       "explanation": "本句的「another story」指「另一個不同而通常更複雜的問題／情況」。",
       "sentenceIndex": 28,
@@ -1181,12 +1067,10 @@ export default {
         "another story"
       ],
       "optionReasons": {
-        "story-mcq-14": "本句指「另一個不同而通常更複雜的問題／情況」。",
-        "story-mcq-13": "「有關某件事情的完整事實、背景和經過」是「Fixed expression: the whole story — 全部真相／完整經過」的用法，與本句語境不同。",
-        "story-mcq-12": "「省略很多細節，只說事情最後最重要的部分」是「Fixed expression: long story short — 長話短說」的用法，與本句語境不同。",
-        "story-mcq-11": "「美得像故事書／童話中的村落」是「Related form: storybook」的用法，與本句語境不同。",
-        "story-mcq-10": "「擅長用口頭、文字或其他形式講述故事的人」是「storyteller」的用法，與本句語境不同。",
-        "story-mcq-09": "「把人物、事件和細節組織成吸引人的故事並有效表達的活動或技巧」是「storytelling」的用法，與本句語境不同。"
+        "story-mcq-14": "本句的「another story」指「另一個不同而通常更複雜的問題／情況」。",
+        "story-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "story-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "story-mcq-14"
     }
@@ -1198,5 +1082,7 @@ export default {
     "sha256": "c63326f6cc52ab95713ac14853362c4f2ec857919ee0226adaebeecc31cdd922",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

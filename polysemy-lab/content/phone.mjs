@@ -667,23 +667,12 @@ export default {
     },
     {
       "id": "phone-mcq-35",
-      "title": "表示聲音、發聲或收音裝置的構詞成分",
+      "title": "聲音、發聲或收音裝置的構詞成分",
       "form": "-phone",
       "en": "-phone",
       "zh": "表示聲音、發聲或收音裝置的構詞成分",
       "note": "來源詞義：表示聲音、發聲或收音裝置的構詞成分",
-      "examples": [
-        [
-          "I put my phone aside.",
-          "我把手機放到一旁。",
-          "表示聲音、發聲或收音裝置的構詞成分"
-        ],
-        [
-          "She checked her phone on the bus.",
-          "她在巴士上查看手機。",
-          "表示聲音、發聲或收音裝置的構詞成分"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -703,6 +692,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "phone-reviewed-a4ff396f56",
+      "title": "可攜帶、透過流動網絡進行通訊的電話裝置",
+      "form": "phone · source section 2",
+      "en": "可攜帶、透過流動網絡進行通訊的電話裝置",
+      "zh": "可攜帶、透過流動網絡進行通訊的電話裝置",
+      "note": "對照原始教材第 2 節及例句核實。",
+      "examples": [
+        [
+          "I put my phone aside.",
+          "我把手機放到一旁。",
+          "可攜帶、透過流動網絡進行通訊的電話裝置"
+        ],
+        [
+          "She checked her phone on the bus.",
+          "她在巴士上查看手機。",
+          "可攜帶、透過流動網絡進行通訊的電話裝置"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -714,11 +725,8 @@ export default {
       "masked": "The ____ is ringing.",
       "options": [
         "phone-mcq-01",
-        "phone-mcq-02",
-        "phone-mcq-03",
-        "phone-mcq-04",
-        "phone-mcq-05",
-        "phone-mcq-06"
+        "phone-mcq-30",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
       "sentenceIndex": 0,
@@ -727,12 +735,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-01": "本句指「用來進行遠距離語音通訊的電話裝置」。",
-        "phone-mcq-02": "「可攜帶、可通話、上網和使用應用程式的手機」與本句語境不同。",
-        "phone-mcq-03": "「透過固定電話線連接的電話」與本句語境不同。",
-        "phone-mcq-04": "「具有上網、應用程式和電腦功能的手機」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-01": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
+        "phone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-01"
     },
@@ -744,11 +749,8 @@ export default {
       "masked": "There is a ____ on the desk.",
       "options": [
         "phone-mcq-01",
-        "phone-mcq-02",
-        "phone-mcq-03",
-        "phone-mcq-04",
-        "phone-mcq-05",
-        "phone-mcq-06"
+        "phone-mcq-28",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
       "sentenceIndex": 1,
@@ -757,74 +759,63 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-01": "本句指「用來進行遠距離語音通訊的電話裝置」。",
-        "phone-mcq-02": "「可攜帶、可通話、上網和使用應用程式的手機」與本句語境不同。",
-        "phone-mcq-03": "「透過固定電話線連接的電話」與本句語境不同。",
-        "phone-mcq-04": "「具有上網、應用程式和電腦功能的手機」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-01": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
+        "phone-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-01"
     },
     {
       "id": "phone-02-0",
-      "sense": "phone-mcq-35",
+      "sense": "phone-reviewed-a4ff396f56",
       "en": "I put my phone aside.",
       "zh": "我把手機放到一旁。",
       "masked": "I put my ____ aside.",
       "options": [
-        "phone-mcq-35",
-        "phone-mcq-34",
-        "phone-mcq-36",
-        "phone-mcq-33",
-        "phone-mcq-32",
-        "phone-mcq-31"
+        "phone-reviewed-a4ff396f56",
+        "phone-mcq-24",
+        "phone-mcq-23"
       ],
-      "explanation": "本句的「phone」指「表示聲音、發聲或收音裝置的構詞成分」。",
+      "explanation": "對照完整句子：「我把手機放到一旁。」。這裡的「phone」表示「可攜帶、透過流動網絡進行通訊的電話裝置」。",
       "sentenceIndex": 2,
       "sourcePractice": 2,
       "targets": [
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-35": "本句指「表示聲音、發聲或收音裝置的構詞成分」。",
-        "phone-mcq-34": "「同一音位在不同語境中的實際語音變體」與本句語境不同。",
-        "phone-mcq-36": "「電話語音通訊所涉及的技術與系統」與本句語境不同。",
-        "phone-mcq-33": "「在某語言中能區分詞義的抽象音位」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。"
+        "phone-reviewed-a4ff396f56": "對照完整句子：「我把手機放到一旁。」。這裡的「phone」表示「可攜帶、透過流動網絡進行通訊的電話裝置」。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "phone-mcq-35"
+      "correctOption": "phone-reviewed-a4ff396f56",
+      "previousCorrectOption": "phone-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "phone-02-1",
-      "sense": "phone-mcq-35",
+      "sense": "phone-reviewed-a4ff396f56",
       "en": "She checked her phone on the bus.",
       "zh": "她在巴士上查看手機。",
       "masked": "She checked her ____ on the bus.",
       "options": [
-        "phone-mcq-35",
-        "phone-mcq-34",
-        "phone-mcq-36",
-        "phone-mcq-33",
-        "phone-mcq-32",
-        "phone-mcq-31"
+        "phone-reviewed-a4ff396f56",
+        "phone-mcq-31",
+        "phone-mcq-34"
       ],
-      "explanation": "本句的「phone」指「表示聲音、發聲或收音裝置的構詞成分」。",
+      "explanation": "對照完整句子：「她在巴士上查看手機。」。這裡的「phone」表示「可攜帶、透過流動網絡進行通訊的電話裝置」。",
       "sentenceIndex": 3,
       "sourcePractice": 2,
       "targets": [
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-35": "本句指「表示聲音、發聲或收音裝置的構詞成分」。",
-        "phone-mcq-34": "「同一音位在不同語境中的實際語音變體」與本句語境不同。",
-        "phone-mcq-36": "「電話語音通訊所涉及的技術與系統」與本句語境不同。",
-        "phone-mcq-33": "「在某語言中能區分詞義的抽象音位」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。"
+        "phone-reviewed-a4ff396f56": "對照完整句子：「她在巴士上查看手機。」。這裡的「phone」表示「可攜帶、透過流動網絡進行通訊的電話裝置」。",
+        "phone-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "phone-mcq-35"
+      "correctOption": "phone-reviewed-a4ff396f56",
+      "previousCorrectOption": "phone-mcq-35",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "phone-05-0",
@@ -834,11 +825,9 @@ export default {
       "masked": "Most students use a ____ every day.",
       "options": [
         "phone-mcq-04",
-        "phone-mcq-03",
-        "phone-mcq-05",
-        "phone-mcq-02",
-        "phone-mcq-06",
-        "phone-mcq-01"
+        "phone-mcq-25",
+        "phone-mcq-34",
+        "phone-mcq-11"
       ],
       "explanation": "本句的「smartphone」指「具有上網、應用程式和電腦功能的手機」。",
       "sentenceIndex": 8,
@@ -847,12 +836,10 @@ export default {
         "smartphone"
       ],
       "optionReasons": {
-        "phone-mcq-04": "本句指「具有上網、應用程式和電腦功能的手機」。",
-        "phone-mcq-03": "「透過固定電話線連接的電話」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。",
-        "phone-mcq-02": "「可攜帶、可通話、上網和使用應用程式的手機」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。",
-        "phone-mcq-01": "「用來進行遠距離語音通訊的電話裝置」與本句語境不同。"
+        "phone-mcq-04": "本句的「smartphone」指「具有上網、應用程式和電腦功能的手機」。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-04"
     },
@@ -864,11 +851,9 @@ export default {
       "masked": "The office still has a ____.",
       "options": [
         "phone-mcq-03",
-        "phone-mcq-02",
-        "phone-mcq-04",
-        "phone-mcq-01",
-        "phone-mcq-05",
-        "phone-mcq-06"
+        "phone-mcq-34",
+        "phone-mcq-28",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「landline phone」指「透過固定電話線連接的電話」。",
       "sentenceIndex": 9,
@@ -877,12 +862,10 @@ export default {
         "landline phone"
       ],
       "optionReasons": {
-        "phone-mcq-03": "本句指「透過固定電話線連接的電話」。",
-        "phone-mcq-02": "「可攜帶、可通話、上網和使用應用程式的手機」與本句語境不同。",
-        "phone-mcq-04": "「具有上網、應用程式和電腦功能的手機」與本句語境不同。",
-        "phone-mcq-01": "「用來進行遠距離語音通訊的電話裝置」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-03": "本句的「landline phone」指「透過固定電話線連接的電話」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-03"
     },
@@ -894,11 +877,9 @@ export default {
       "masked": "He ____ this morning.",
       "options": [
         "phone-mcq-08",
-        "phone-mcq-07",
-        "phone-mcq-09",
-        "phone-mcq-06",
-        "phone-mcq-10",
-        "phone-mcq-05"
+        "phone-mcq-22",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phoned in sick」指「打電話通知工作場所自己因病不能上班」。",
       "sentenceIndex": 23,
@@ -907,12 +888,10 @@ export default {
         "phoned in sick"
       ],
       "optionReasons": {
-        "phone-mcq-08": "本句指「打電話通知工作場所自己因病不能上班」。",
-        "phone-mcq-07": "「打電話到某機構／節目，或透過電話匯報資訊」與本句語境不同。",
-        "phone-mcq-09": "「一次透過電話進行的語音聯絡」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。"
+        "phone-mcq-08": "本句的「phoned in sick」指「打電話通知工作場所自己因病不能上班」。",
+        "phone-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-08"
     },
@@ -924,11 +903,8 @@ export default {
       "masked": "Staff must ____ in sick before the shift begins.",
       "options": [
         "phone-mcq-08",
-        "phone-mcq-07",
-        "phone-mcq-09",
-        "phone-mcq-06",
-        "phone-mcq-10",
-        "phone-mcq-05"
+        "phone-mcq-31",
+        "phone-mcq-34"
       ],
       "explanation": "本句的「phone」指「打電話通知工作場所自己因病不能上班」。",
       "sentenceIndex": 24,
@@ -937,12 +913,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-08": "本句指「打電話通知工作場所自己因病不能上班」。",
-        "phone-mcq-07": "「打電話到某機構／節目，或透過電話匯報資訊」與本句語境不同。",
-        "phone-mcq-09": "「一次透過電話進行的語音聯絡」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。"
+        "phone-mcq-08": "本句的「phone」指「打電話通知工作場所自己因病不能上班」。",
+        "phone-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-08"
     },
@@ -954,11 +927,8 @@ export default {
       "masked": "I received a ____ from the school.",
       "options": [
         "phone-mcq-09",
-        "phone-mcq-08",
-        "phone-mcq-10",
-        "phone-mcq-07",
-        "phone-mcq-11",
-        "phone-mcq-06"
+        "phone-mcq-24",
+        "phone-mcq-29"
       ],
       "explanation": "本句的「phone call」指「一次透過電話進行的語音聯絡」。",
       "sentenceIndex": 29,
@@ -967,12 +937,9 @@ export default {
         "phone call"
       ],
       "optionReasons": {
-        "phone-mcq-09": "本句指「一次透過電話進行的語音聯絡」。",
-        "phone-mcq-08": "「打電話通知工作場所自己因病不能上班」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-07": "「打電話到某機構／節目，或透過電話匯報資訊」與本句語境不同。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-09": "本句的「phone call」指「一次透過電話進行的語音聯絡」。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-09"
     },
@@ -984,11 +951,8 @@ export default {
       "masked": "The ____ call lasted twenty minutes.",
       "options": [
         "phone-mcq-09",
-        "phone-mcq-08",
-        "phone-mcq-10",
-        "phone-mcq-07",
-        "phone-mcq-11",
-        "phone-mcq-06"
+        "phone-mcq-28",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「一次透過電話進行的語音聯絡」。",
       "sentenceIndex": 30,
@@ -997,12 +961,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-09": "本句指「一次透過電話進行的語音聯絡」。",
-        "phone-mcq-08": "「打電話通知工作場所自己因病不能上班」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-07": "「打電話到某機構／節目，或透過電話匯報資訊」與本句語境不同。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-09": "本句的「phone」指「一次透過電話進行的語音聯絡」。",
+        "phone-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-09"
     },
@@ -1014,11 +975,9 @@ export default {
       "masked": "I explained everything ____.",
       "options": [
         "phone-mcq-11",
-        "phone-mcq-10",
-        "phone-mcq-12",
-        "phone-mcq-09",
-        "phone-mcq-13",
-        "phone-mcq-08"
+        "phone-mcq-30",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「over the phone」指「以電話作為聯絡方式」。",
       "sentenceIndex": 40,
@@ -1027,12 +986,10 @@ export default {
         "over the phone"
       ],
       "optionReasons": {
-        "phone-mcq-11": "本句指「以電話作為聯絡方式」。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。",
-        "phone-mcq-09": "「一次透過電話進行的語音聯絡」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-08": "「打電話通知工作場所自己因病不能上班」與本句語境不同。"
+        "phone-mcq-11": "本句的「over the phone」指「以電話作為聯絡方式」。",
+        "phone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-11"
     },
@@ -1044,11 +1001,8 @@ export default {
       "masked": "The payment cannot be made over the ____.",
       "options": [
         "phone-mcq-11",
-        "phone-mcq-10",
-        "phone-mcq-12",
-        "phone-mcq-09",
-        "phone-mcq-13",
-        "phone-mcq-08"
+        "phone-mcq-31",
+        "phone-mcq-34"
       ],
       "explanation": "本句的「phone」指「以電話作為聯絡方式」。",
       "sentenceIndex": 41,
@@ -1057,12 +1011,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-11": "本句指「以電話作為聯絡方式」。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。",
-        "phone-mcq-09": "「一次透過電話進行的語音聯絡」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-08": "「打電話通知工作場所自己因病不能上班」與本句語境不同。"
+        "phone-mcq-11": "本句的「phone」指「以電話作為聯絡方式」。",
+        "phone-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-11"
     },
@@ -1074,11 +1025,8 @@ export default {
       "masked": "What is your ____?",
       "options": [
         "phone-mcq-12",
-        "phone-mcq-11",
-        "phone-mcq-13",
-        "phone-mcq-10",
-        "phone-mcq-14",
-        "phone-mcq-09"
+        "phone-mcq-23",
+        "phone-mcq-34"
       ],
       "explanation": "本句的「phone number」指「用來接通特定電話帳戶／線路的識別號碼」。",
       "sentenceIndex": 42,
@@ -1087,12 +1035,9 @@ export default {
         "phone number"
       ],
       "optionReasons": {
-        "phone-mcq-12": "本句指「用來接通特定電話帳戶／線路的識別號碼」。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-09": "「一次透過電話進行的語音聯絡」與本句語境不同。"
+        "phone-mcq-12": "本句的「phone number」指「用來接通特定電話帳戶／線路的識別號碼」。",
+        "phone-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-12"
     },
@@ -1104,11 +1049,8 @@ export default {
       "masked": "Please leave a ____ number.",
       "options": [
         "phone-mcq-12",
-        "phone-mcq-11",
-        "phone-mcq-13",
-        "phone-mcq-10",
-        "phone-mcq-14",
-        "phone-mcq-09"
+        "phone-mcq-31",
+        "phone-mcq-34"
       ],
       "explanation": "本句的「phone」指「用來接通特定電話帳戶／線路的識別號碼」。",
       "sentenceIndex": 43,
@@ -1117,12 +1059,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-12": "本句指「用來接通特定電話帳戶／線路的識別號碼」。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-09": "「一次透過電話進行的語音聯絡」與本句語境不同。"
+        "phone-mcq-12": "本句的「phone」指「用來接通特定電話帳戶／線路的識別號碼」。",
+        "phone-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-12"
     },
@@ -1134,11 +1073,8 @@ export default {
       "masked": "The ____ is busy.",
       "options": [
         "phone-mcq-13",
-        "phone-mcq-12",
-        "phone-mcq-14",
-        "phone-mcq-11",
-        "phone-mcq-15",
-        "phone-mcq-10"
+        "phone-mcq-23",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone line」指「電話通訊所使用的實體／服務線路」。",
       "sentenceIndex": 45,
@@ -1147,12 +1083,9 @@ export default {
         "phone line"
       ],
       "optionReasons": {
-        "phone-mcq-13": "本句指「電話通訊所使用的實體／服務線路」。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。"
+        "phone-mcq-13": "本句的「phone line」指「電話通訊所使用的實體／服務線路」。",
+        "phone-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-13"
     },
@@ -1164,11 +1097,8 @@ export default {
       "masked": "The storm damaged several ____ lines.",
       "options": [
         "phone-mcq-13",
-        "phone-mcq-12",
-        "phone-mcq-14",
-        "phone-mcq-11",
-        "phone-mcq-15",
-        "phone-mcq-10"
+        "phone-mcq-30",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「電話通訊所使用的實體／服務線路」。",
       "sentenceIndex": 46,
@@ -1177,12 +1107,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-13": "本句指「電話通訊所使用的實體／服務線路」。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-10": "「正在透過電話和另一人交談」與本句語境不同。"
+        "phone-mcq-13": "本句的「phone」指「電話通訊所使用的實體／服務線路」。",
+        "phone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-13"
     },
@@ -1194,11 +1121,9 @@ export default {
       "masked": "There is no ____ here.",
       "options": [
         "phone-mcq-14",
-        "phone-mcq-13",
-        "phone-mcq-15",
-        "phone-mcq-12",
-        "phone-mcq-16",
-        "phone-mcq-11"
+        "phone-mcq-34",
+        "phone-mcq-08",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone signal」指「手機與流動網絡之間的無線連接訊號」。",
       "sentenceIndex": 47,
@@ -1207,12 +1132,10 @@ export default {
         "phone signal"
       ],
       "optionReasons": {
-        "phone-mcq-14": "本句指「手機與流動網絡之間的無線連接訊號」。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。"
+        "phone-mcq-14": "本句的「phone signal」指「手機與流動網絡之間的無線連接訊號」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-14"
     },
@@ -1224,11 +1147,9 @@ export default {
       "masked": "The ____ signal is weak in the basement.",
       "options": [
         "phone-mcq-14",
-        "phone-mcq-13",
-        "phone-mcq-15",
-        "phone-mcq-12",
-        "phone-mcq-16",
-        "phone-mcq-11"
+        "phone-mcq-08",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone」指「手機與流動網絡之間的無線連接訊號」。",
       "sentenceIndex": 48,
@@ -1237,12 +1158,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-14": "本句指「手機與流動網絡之間的無線連接訊號」。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-11": "「以電話作為聯絡方式」與本句語境不同。"
+        "phone-mcq-14": "本句的「phone」指「手機與流動網絡之間的無線連接訊號」。",
+        "phone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-14"
     },
@@ -1254,11 +1173,9 @@ export default {
       "masked": "The mountain area has poor ____.",
       "options": [
         "phone-mcq-15",
-        "phone-mcq-14",
-        "phone-mcq-16",
-        "phone-mcq-13",
-        "phone-mcq-17",
-        "phone-mcq-12"
+        "phone-mcq-34",
+        "phone-mcq-08",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone reception」指「手機接收流動網絡訊號的質素」。",
       "sentenceIndex": 49,
@@ -1267,12 +1184,10 @@ export default {
         "phone reception"
       ],
       "optionReasons": {
-        "phone-mcq-15": "本句指「手機接收流動網絡訊號的質素」。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-12": "「用來接通特定電話帳戶／線路的識別號碼」與本句語境不同。"
+        "phone-mcq-15": "本句的「phone reception」指「手機接收流動網絡訊號的質素」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-15"
     },
@@ -1284,11 +1199,9 @@ export default {
       "masked": "My ____ is almost dead.",
       "options": [
         "phone-mcq-16",
-        "phone-mcq-15",
-        "phone-mcq-17",
-        "phone-mcq-14",
-        "phone-mcq-18",
-        "phone-mcq-13"
+        "phone-mcq-34",
+        "phone-mcq-25",
+        "phone-mcq-08"
       ],
       "explanation": "本句的「phone battery」指「為手機提供電力的電池」。",
       "sentenceIndex": 50,
@@ -1297,12 +1210,10 @@ export default {
         "phone battery"
       ],
       "optionReasons": {
-        "phone-mcq-16": "本句指「為手機提供電力的電池」。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。"
+        "phone-mcq-16": "本句的「phone battery」指「為手機提供電力的電池」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-16"
     },
@@ -1314,11 +1225,9 @@ export default {
       "masked": "The ____ battery lasts all day.",
       "options": [
         "phone-mcq-16",
-        "phone-mcq-15",
-        "phone-mcq-17",
-        "phone-mcq-14",
-        "phone-mcq-18",
-        "phone-mcq-13"
+        "phone-mcq-34",
+        "phone-mcq-25",
+        "phone-mcq-21"
       ],
       "explanation": "本句的「phone」指「為手機提供電力的電池」。",
       "sentenceIndex": 51,
@@ -1327,12 +1236,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-16": "本句指「為手機提供電力的電池」。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-13": "「電話通訊所使用的實體／服務線路」與本句語境不同。"
+        "phone-mcq-16": "本句的「phone」指「為手機提供電力的電池」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-16"
     },
@@ -1344,11 +1251,9 @@ export default {
       "masked": "I forgot my ____.",
       "options": [
         "phone-mcq-17",
-        "phone-mcq-16",
-        "phone-mcq-18",
-        "phone-mcq-15",
-        "phone-mcq-19",
-        "phone-mcq-14"
+        "phone-mcq-25",
+        "phone-mcq-34",
+        "phone-mcq-08"
       ],
       "explanation": "本句的「phone charger」指「為手機電池補充電力的裝置」。",
       "sentenceIndex": 54,
@@ -1357,12 +1262,10 @@ export default {
         "phone charger"
       ],
       "optionReasons": {
-        "phone-mcq-17": "本句指「為手機電池補充電力的裝置」。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。"
+        "phone-mcq-17": "本句的「phone charger」指「為手機電池補充電力的裝置」。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-17"
     },
@@ -1374,11 +1277,9 @@ export default {
       "masked": "Can I borrow your ____ charger?",
       "options": [
         "phone-mcq-17",
-        "phone-mcq-16",
-        "phone-mcq-18",
-        "phone-mcq-15",
-        "phone-mcq-19",
-        "phone-mcq-14"
+        "phone-mcq-34",
+        "phone-mcq-25",
+        "phone-mcq-03"
       ],
       "explanation": "本句的「phone」指「為手機電池補充電力的裝置」。",
       "sentenceIndex": 55,
@@ -1387,12 +1288,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-17": "本句指「為手機電池補充電力的裝置」。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-14": "「手機與流動網絡之間的無線連接訊號」與本句語境不同。"
+        "phone-mcq-17": "本句的「phone」指「為手機電池補充電力的裝置」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-17"
     },
@@ -1404,11 +1303,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "phone-mcq-18",
-        "phone-mcq-17",
-        "phone-mcq-19",
-        "phone-mcq-16",
-        "phone-mcq-20",
-        "phone-mcq-15"
+        "phone-mcq-30",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「answer the phone」指「接聽正在打進來的電話」。",
       "sentenceIndex": 68,
@@ -1417,12 +1314,10 @@ export default {
         "answer the phone"
       ],
       "optionReasons": {
-        "phone-mcq-18": "本句指「接聽正在打進來的電話」。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。"
+        "phone-mcq-18": "本句的「answer the phone」指「接聽正在打進來的電話」。",
+        "phone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-18"
     },
@@ -1434,11 +1329,9 @@ export default {
       "masked": "No one answered the ____.",
       "options": [
         "phone-mcq-18",
-        "phone-mcq-17",
-        "phone-mcq-19",
-        "phone-mcq-16",
-        "phone-mcq-20",
-        "phone-mcq-15"
+        "phone-mcq-34",
+        "phone-mcq-30",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone」指「接聽正在打進來的電話」。",
       "sentenceIndex": 69,
@@ -1447,12 +1340,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-18": "本句指「接聽正在打進來的電話」。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-15": "「手機接收流動網絡訊號的質素」與本句語境不同。"
+        "phone-mcq-18": "本句的「phone」指「接聽正在打進來的電話」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-18"
     },
@@ -1464,11 +1355,8 @@ export default {
       "masked": "The company provides 24-hour ____.",
       "options": [
         "phone-mcq-19",
-        "phone-mcq-18",
-        "phone-mcq-20",
-        "phone-mcq-17",
-        "phone-mcq-21",
-        "phone-mcq-16"
+        "phone-mcq-24",
+        "phone-mcq-29"
       ],
       "explanation": "本句的「phone support」指「透過電話提供的客戶／技術支援」。",
       "sentenceIndex": 79,
@@ -1477,12 +1365,9 @@ export default {
         "phone support"
       ],
       "optionReasons": {
-        "phone-mcq-19": "本句指「透過電話提供的客戶／技術支援」。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。"
+        "phone-mcq-19": "本句的「phone support」指「透過電話提供的客戶／技術支援」。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-19"
     },
@@ -1494,11 +1379,9 @@ export default {
       "masked": "____ support is available during office hours.",
       "options": [
         "phone-mcq-19",
-        "phone-mcq-18",
-        "phone-mcq-20",
-        "phone-mcq-17",
-        "phone-mcq-21",
-        "phone-mcq-16"
+        "phone-mcq-22",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「Phone」指「透過電話提供的客戶／技術支援」。",
       "sentenceIndex": 80,
@@ -1507,12 +1390,10 @@ export default {
         "Phone"
       ],
       "optionReasons": {
-        "phone-mcq-19": "本句指「透過電話提供的客戶／技術支援」。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-16": "「為手機提供電力的電池」與本句語境不同。"
+        "phone-mcq-19": "本句的「Phone」指「透過電話提供的客戶／技術支援」。",
+        "phone-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-19"
     },
@@ -1524,11 +1405,8 @@ export default {
       "masked": "She had a ____ for the job.",
       "options": [
         "phone-mcq-20",
-        "phone-mcq-19",
-        "phone-mcq-21",
-        "phone-mcq-18",
-        "phone-mcq-22",
-        "phone-mcq-17"
+        "phone-mcq-14",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone interview」指「透過電話進行的面試或研究訪問」。",
       "sentenceIndex": 81,
@@ -1537,12 +1415,9 @@ export default {
         "phone interview"
       ],
       "optionReasons": {
-        "phone-mcq-20": "本句指「透過電話進行的面試或研究訪問」。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。"
+        "phone-mcq-20": "本句的「phone interview」指「透過電話進行的面試或研究訪問」。",
+        "phone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-20"
     },
@@ -1554,11 +1429,8 @@ export default {
       "masked": "The researcher conducted ____ interviews.",
       "options": [
         "phone-mcq-20",
-        "phone-mcq-19",
-        "phone-mcq-21",
-        "phone-mcq-18",
-        "phone-mcq-22",
-        "phone-mcq-17"
+        "phone-mcq-28",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「透過電話進行的面試或研究訪問」。",
       "sentenceIndex": 82,
@@ -1567,12 +1439,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-20": "本句指「透過電話進行的面試或研究訪問」。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-17": "「為手機電池補充電力的裝置」與本句語境不同。"
+        "phone-mcq-20": "本句的「phone」指「透過電話進行的面試或研究訪問」。",
+        "phone-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-20"
     },
@@ -1584,11 +1453,9 @@ export default {
       "masked": "Good ____ is important in customer service.",
       "options": [
         "phone-mcq-21",
-        "phone-mcq-20",
-        "phone-mcq-22",
-        "phone-mcq-19",
-        "phone-mcq-23",
-        "phone-mcq-18"
+        "phone-mcq-29",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone etiquette」指「接打電話時應有的專業／禮貌行為」。",
       "sentenceIndex": 89,
@@ -1597,12 +1464,10 @@ export default {
         "phone etiquette"
       ],
       "optionReasons": {
-        "phone-mcq-21": "本句指「接打電話時應有的專業／禮貌行為」。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。"
+        "phone-mcq-21": "本句的「phone etiquette」指「接打電話時應有的專業／禮貌行為」。",
+        "phone-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-21"
     },
@@ -1614,11 +1479,9 @@ export default {
       "masked": "Staff receive training in ____ etiquette.",
       "options": [
         "phone-mcq-21",
-        "phone-mcq-20",
-        "phone-mcq-22",
-        "phone-mcq-19",
         "phone-mcq-23",
-        "phone-mcq-18"
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone」指「接打電話時應有的專業／禮貌行為」。",
       "sentenceIndex": 90,
@@ -1627,12 +1490,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-21": "本句指「接打電話時應有的專業／禮貌行為」。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-18": "「接聽正在打進來的電話」與本句語境不同。"
+        "phone-mcq-21": "本句的「phone」指「接打電話時應有的專業／禮貌行為」。",
+        "phone-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-21"
     },
@@ -1644,11 +1505,9 @@ export default {
       "masked": "The experiment examined ____ among teenagers.",
       "options": [
         "phone-mcq-22",
-        "phone-mcq-21",
-        "phone-mcq-23",
-        "phone-mcq-20",
-        "phone-mcq-24",
-        "phone-mcq-19"
+        "phone-mcq-19",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone dependence」指「對手機使用形成高度心理／行為依賴」。",
       "sentenceIndex": 96,
@@ -1657,12 +1516,10 @@ export default {
         "phone dependence"
       ],
       "optionReasons": {
-        "phone-mcq-22": "本句指「對手機使用形成高度心理／行為依賴」。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。"
+        "phone-mcq-22": "本句的「phone dependence」指「對手機使用形成高度心理／行為依賴」。",
+        "phone-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-22"
     },
@@ -1674,11 +1531,9 @@ export default {
       "masked": "____ dependence can make it hard to disconnect.",
       "options": [
         "phone-mcq-22",
-        "phone-mcq-21",
-        "phone-mcq-23",
-        "phone-mcq-20",
-        "phone-mcq-24",
-        "phone-mcq-19"
+        "phone-mcq-03",
+        "phone-mcq-34",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「Phone」指「對手機使用形成高度心理／行為依賴」。",
       "sentenceIndex": 97,
@@ -1687,12 +1542,10 @@ export default {
         "Phone"
       ],
       "optionReasons": {
-        "phone-mcq-22": "本句指「對手機使用形成高度心理／行為依賴」。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-19": "「透過電話提供的客戶／技術支援」與本句語境不同。"
+        "phone-mcq-22": "本句的「Phone」指「對手機使用形成高度心理／行為依賴」。",
+        "phone-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-22"
     },
@@ -1704,11 +1557,8 @@ export default {
       "masked": "The school introduced a ____ lesson.",
       "options": [
         "phone-mcq-23",
-        "phone-mcq-22",
-        "phone-mcq-24",
-        "phone-mcq-21",
-        "phone-mcq-25",
-        "phone-mcq-20"
+        "phone-mcq-01",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone-free」指「不使用／不允許使用手機的」。",
       "sentenceIndex": 98,
@@ -1717,12 +1567,9 @@ export default {
         "phone-free"
       ],
       "optionReasons": {
-        "phone-mcq-23": "本句指「不使用／不允許使用手機的」。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。"
+        "phone-mcq-23": "本句的「phone-free」指「不使用／不允許使用手機的」。",
+        "phone-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-23"
     },
@@ -1734,11 +1581,9 @@ export default {
       "masked": "They had a ____ dinner.",
       "options": [
         "phone-mcq-23",
-        "phone-mcq-22",
-        "phone-mcq-24",
+        "phone-mcq-34",
         "phone-mcq-21",
-        "phone-mcq-25",
-        "phone-mcq-20"
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone-free」指「不使用／不允許使用手機的」。",
       "sentenceIndex": 99,
@@ -1747,12 +1592,10 @@ export default {
         "phone-free"
       ],
       "optionReasons": {
-        "phone-mcq-23": "本句指「不使用／不允許使用手機的」。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。"
+        "phone-mcq-23": "本句的「phone-free」指「不使用／不允許使用手機的」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-23"
     },
@@ -1764,11 +1607,8 @@ export default {
       "masked": "The library has a ____.",
       "options": [
         "phone-mcq-23",
-        "phone-mcq-22",
-        "phone-mcq-24",
-        "phone-mcq-21",
-        "phone-mcq-25",
-        "phone-mcq-20"
+        "phone-mcq-01",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone-free zone」指「不使用／不允許使用手機的」。",
       "sentenceIndex": 100,
@@ -1777,12 +1617,9 @@ export default {
         "phone-free zone"
       ],
       "optionReasons": {
-        "phone-mcq-23": "本句指「不使用／不允許使用手機的」。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。"
+        "phone-mcq-23": "本句的「phone-free zone」指「不使用／不允許使用手機的」。",
+        "phone-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-23"
     },
@@ -1794,11 +1631,8 @@ export default {
       "masked": "Please keep this room ____.",
       "options": [
         "phone-mcq-23",
-        "phone-mcq-22",
-        "phone-mcq-24",
-        "phone-mcq-21",
-        "phone-mcq-25",
-        "phone-mcq-20"
+        "phone-mcq-12",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone-free」指「不使用／不允許使用手機的」。",
       "sentenceIndex": 101,
@@ -1807,12 +1641,9 @@ export default {
         "phone-free"
       ],
       "optionReasons": {
-        "phone-mcq-23": "本句指「不使用／不允許使用手機的」。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-20": "「透過電話進行的面試或研究訪問」與本句語境不同。"
+        "phone-mcq-23": "本句的「phone-free」指「不使用／不允許使用手機的」。",
+        "phone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-23"
     },
@@ -1824,11 +1655,8 @@ export default {
       "masked": "The actor seemed to ____.",
       "options": [
         "phone-mcq-24",
-        "phone-mcq-23",
-        "phone-mcq-25",
-        "phone-mcq-22",
-        "phone-mcq-26",
-        "phone-mcq-21"
+        "phone-mcq-09",
+        "phone-mcq-04"
       ],
       "explanation": "本句的「phone it in」指「沒有真正投入努力，只敷衍完成某項工作」。",
       "sentenceIndex": 104,
@@ -1837,12 +1665,9 @@ export default {
         "phone it in"
       ],
       "optionReasons": {
-        "phone-mcq-24": "本句指「沒有真正投入努力，只敷衍完成某項工作」。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。"
+        "phone-mcq-24": "本句的「phone it in」指「沒有真正投入努力，只敷衍完成某項工作」。",
+        "phone-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-24"
     },
@@ -1854,11 +1679,8 @@ export default {
       "masked": "Don’t ____ it in just because the task is easy.",
       "options": [
         "phone-mcq-24",
-        "phone-mcq-23",
-        "phone-mcq-25",
-        "phone-mcq-22",
-        "phone-mcq-26",
-        "phone-mcq-21"
+        "phone-mcq-12",
+        "phone-mcq-29"
       ],
       "explanation": "本句的「phone」指「沒有真正投入努力，只敷衍完成某項工作」。",
       "sentenceIndex": 105,
@@ -1867,12 +1689,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-24": "本句指「沒有真正投入努力，只敷衍完成某項工作」。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-21": "「接打電話時應有的專業／禮貌行為」與本句語境不同。"
+        "phone-mcq-24": "本句的「phone」指「沒有真正投入努力，只敷衍完成某項工作」。",
+        "phone-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-24"
     },
@@ -1884,11 +1703,9 @@ export default {
       "masked": "She put the ____ down.",
       "options": [
         "phone-mcq-25",
-        "phone-mcq-24",
-        "phone-mcq-26",
-        "phone-mcq-23",
-        "phone-mcq-27",
-        "phone-mcq-22"
+        "phone-mcq-28",
+        "phone-mcq-34",
+        "phone-mcq-20"
       ],
       "explanation": "本句的「phone」指「結束通話並掛線」。",
       "sentenceIndex": 108,
@@ -1897,12 +1714,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-25": "本句指「結束通話並掛線」。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。"
+        "phone-mcq-25": "本句的「phone」指「結束通話並掛線」。",
+        "phone-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-25"
     },
@@ -1914,11 +1729,9 @@ export default {
       "masked": "Put your ____ down and study.",
       "options": [
         "phone-mcq-25",
-        "phone-mcq-24",
-        "phone-mcq-26",
-        "phone-mcq-23",
-        "phone-mcq-27",
-        "phone-mcq-22"
+        "phone-mcq-04",
+        "phone-mcq-34",
+        "phone-mcq-20"
       ],
       "explanation": "本句的「phone」指「結束通話並掛線」。",
       "sentenceIndex": 109,
@@ -1927,12 +1740,10 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-25": "本句指「結束通話並掛線」。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-23": "「不使用／不允許使用手機的」與本句語境不同。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。",
-        "phone-mcq-22": "「對手機使用形成高度心理／行為依賴」與本句語境不同。"
+        "phone-mcq-25": "本句的「phone」指「結束通話並掛線」。",
+        "phone-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-25"
     },
@@ -1944,11 +1755,8 @@ export default {
       "masked": "She ____ after three rings.",
       "options": [
         "phone-mcq-27",
-        "phone-mcq-26",
-        "phone-mcq-28",
-        "phone-mcq-25",
-        "phone-mcq-29",
-        "phone-mcq-24"
+        "phone-mcq-34",
+        "phone-mcq-23"
       ],
       "explanation": "本句的「picked up the phone」指「接起電話，或開始打電話聯絡某人」。",
       "sentenceIndex": 111,
@@ -1957,12 +1765,9 @@ export default {
         "picked up the phone"
       ],
       "optionReasons": {
-        "phone-mcq-27": "本句指「接起電話，或開始打電話聯絡某人」。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。"
+        "phone-mcq-27": "本句的「picked up the phone」指「接起電話，或開始打電話聯絡某人」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-27"
     },
@@ -1974,11 +1779,8 @@ export default {
       "masked": "Pick up the ____ and call him.",
       "options": [
         "phone-mcq-27",
-        "phone-mcq-26",
-        "phone-mcq-28",
-        "phone-mcq-25",
         "phone-mcq-29",
-        "phone-mcq-24"
+        "phone-mcq-34"
       ],
       "explanation": "本句的「phone」指「接起電話，或開始打電話聯絡某人」。",
       "sentenceIndex": 112,
@@ -1987,12 +1789,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-27": "本句指「接起電話，或開始打電話聯絡某人」。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-24": "「沒有真正投入努力，只敷衍完成某項工作」與本句語境不同。"
+        "phone-mcq-27": "本句的「phone」指「接起電話，或開始打電話聯絡某人」。",
+        "phone-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-27"
     },
@@ -2004,11 +1803,8 @@ export default {
       "masked": "His ____ during the meeting.",
       "options": [
         "phone-mcq-28",
-        "phone-mcq-27",
-        "phone-mcq-29",
-        "phone-mcq-26",
-        "phone-mcq-30",
-        "phone-mcq-25"
+        "phone-mcq-13",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone went off」指「手機突然響鈴／震動／發出提示」。",
       "sentenceIndex": 115,
@@ -2017,12 +1813,9 @@ export default {
         "phone went off"
       ],
       "optionReasons": {
-        "phone-mcq-28": "本句指「手機突然響鈴／震動／發出提示」。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-30": "「長時間盯著／使用手機，難以把注意力移開」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。"
+        "phone-mcq-28": "本句的「phone went off」指「手機突然響鈴／震動／發出提示」。",
+        "phone-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-28"
     },
@@ -2034,11 +1827,8 @@ export default {
       "masked": "My alarm went off on my ____.",
       "options": [
         "phone-mcq-28",
-        "phone-mcq-27",
-        "phone-mcq-29",
-        "phone-mcq-26",
-        "phone-mcq-30",
-        "phone-mcq-25"
+        "phone-mcq-25",
+        "phone-mcq-36"
       ],
       "explanation": "本句的「phone」指「手機突然響鈴／震動／發出提示」。",
       "sentenceIndex": 116,
@@ -2047,12 +1837,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-28": "本句指「手機突然響鈴／震動／發出提示」。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。",
-        "phone-mcq-30": "「長時間盯著／使用手機，難以把注意力移開」與本句語境不同。",
-        "phone-mcq-25": "「結束通話並掛線」與本句語境不同。"
+        "phone-mcq-28": "本句的「phone」指「手機突然響鈴／震動／發出提示」。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-28"
     },
@@ -2064,10 +1851,6 @@ export default {
       "masked": "The company provides internet ____ services.",
       "options": [
         "phone-mcq-36",
-        "phone-mcq-35",
-        "phone-mcq-34",
-        "phone-mcq-33",
-        "phone-mcq-32",
         "phone-mcq-31"
       ],
       "explanation": "本句的「telephony」指「電話語音通訊所涉及的技術與系統」。",
@@ -2077,12 +1860,8 @@ export default {
         "telephony"
       ],
       "optionReasons": {
-        "phone-mcq-36": "本句指「電話語音通訊所涉及的技術與系統」。",
-        "phone-mcq-35": "「表示聲音、發聲或收音裝置的構詞成分」與本句語境不同。",
-        "phone-mcq-34": "「同一音位在不同語境中的實際語音變體」與本句語境不同。",
-        "phone-mcq-33": "「在某語言中能區分詞義的抽象音位」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。"
+        "phone-mcq-36": "本句的「telephony」指「電話語音通訊所涉及的技術與系統」。",
+        "phone-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-36"
     },
@@ -2094,11 +1873,8 @@ export default {
       "masked": "Two different phones can be ____ of the same phoneme.",
       "options": [
         "phone-mcq-34",
-        "phone-mcq-33",
-        "phone-mcq-35",
-        "phone-mcq-32",
-        "phone-mcq-36",
-        "phone-mcq-31"
+        "phone-mcq-14",
+        "phone-mcq-12"
       ],
       "explanation": "本句的「allophones」指「同一音位在不同語境中的實際語音變體」。",
       "sentenceIndex": 141,
@@ -2107,12 +1883,9 @@ export default {
         "allophones"
       ],
       "optionReasons": {
-        "phone-mcq-34": "本句指「同一音位在不同語境中的實際語音變體」。",
-        "phone-mcq-33": "「在某語言中能區分詞義的抽象音位」與本句語境不同。",
-        "phone-mcq-35": "「表示聲音、發聲或收音裝置的構詞成分」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-36": "「電話語音通訊所涉及的技術與系統」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。"
+        "phone-mcq-34": "本句的「allophones」指「同一音位在不同語境中的實際語音變體」。",
+        "phone-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-34"
     },
@@ -2124,11 +1897,8 @@ export default {
       "masked": "Everything is on my ____.",
       "options": [
         "phone-mcq-01",
-        "phone-mcq-02",
-        "phone-mcq-03",
-        "phone-mcq-04",
-        "phone-mcq-05",
-        "phone-mcq-06"
+        "phone-mcq-30",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
       "sentenceIndex": 147,
@@ -2137,12 +1907,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-01": "本句指「用來進行遠距離語音通訊的電話裝置」。",
-        "phone-mcq-02": "「可攜帶、可通話、上網和使用應用程式的手機」與本句語境不同。",
-        "phone-mcq-03": "「透過固定電話線連接的電話」與本句語境不同。",
-        "phone-mcq-04": "「具有上網、應用程式和電腦功能的手機」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-01": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
+        "phone-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-01"
     },
@@ -2154,11 +1921,8 @@ export default {
       "masked": "I have the ticket on my ____.",
       "options": [
         "phone-mcq-01",
-        "phone-mcq-02",
-        "phone-mcq-03",
-        "phone-mcq-04",
-        "phone-mcq-05",
-        "phone-mcq-06"
+        "phone-mcq-24",
+        "phone-mcq-28"
       ],
       "explanation": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
       "sentenceIndex": 148,
@@ -2167,12 +1931,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-01": "本句指「用來進行遠距離語音通訊的電話裝置」。",
-        "phone-mcq-02": "「可攜帶、可通話、上網和使用應用程式的手機」與本句語境不同。",
-        "phone-mcq-03": "「透過固定電話線連接的電話」與本句語境不同。",
-        "phone-mcq-04": "「具有上網、應用程式和電腦功能的手機」與本句語境不同。",
-        "phone-mcq-05": "「透過電話聯絡某人／機構」與本句語境不同。",
-        "phone-mcq-06": "「因先前電話而再次致電對方」與本句語境不同。"
+        "phone-mcq-01": "本句的「phone」指「用來進行遠距離語音通訊的電話裝置」。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-01"
     },
@@ -2184,11 +1945,9 @@ export default {
       "masked": "I kept ____.",
       "options": [
         "phone-mcq-29",
-        "phone-mcq-28",
-        "phone-mcq-30",
-        "phone-mcq-27",
-        "phone-mcq-31",
-        "phone-mcq-26"
+        "phone-mcq-34",
+        "phone-mcq-21",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「checking my phone」指「查看手機上的訊息、通知或最新內容」。",
       "sentenceIndex": 149,
@@ -2197,12 +1956,10 @@ export default {
         "checking my phone"
       ],
       "optionReasons": {
-        "phone-mcq-29": "本句指「查看手機上的訊息、通知或最新內容」。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。",
-        "phone-mcq-30": "「長時間盯著／使用手機，難以把注意力移開」與本句語境不同。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。"
+        "phone-mcq-29": "本句的「checking my phone」指「查看手機上的訊息、通知或最新內容」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-29"
     },
@@ -2214,11 +1971,8 @@ export default {
       "masked": "She checked her ____ for messages.",
       "options": [
         "phone-mcq-29",
-        "phone-mcq-28",
-        "phone-mcq-30",
-        "phone-mcq-27",
-        "phone-mcq-31",
-        "phone-mcq-26"
+        "phone-mcq-09",
+        "phone-mcq-24"
       ],
       "explanation": "本句的「phone」指「查看手機上的訊息、通知或最新內容」。",
       "sentenceIndex": 150,
@@ -2227,12 +1981,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-29": "本句指「查看手機上的訊息、通知或最新內容」。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。",
-        "phone-mcq-30": "「長時間盯著／使用手機，難以把注意力移開」與本句語境不同。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。",
-        "phone-mcq-26": "「把手機放下並停止使用」與本句語境不同。"
+        "phone-mcq-29": "本句的「phone」指「查看手機上的訊息、通知或最新內容」。",
+        "phone-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-29"
     },
@@ -2244,11 +1995,9 @@ export default {
       "masked": "He was ____ all evening.",
       "options": [
         "phone-mcq-30",
-        "phone-mcq-29",
-        "phone-mcq-31",
-        "phone-mcq-28",
-        "phone-mcq-32",
-        "phone-mcq-27"
+        "phone-mcq-34",
+        "phone-mcq-03",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「glued to his phone」指「長時間盯著／使用手機，難以把注意力移開」。",
       "sentenceIndex": 151,
@@ -2257,12 +2006,10 @@ export default {
         "glued to his phone"
       ],
       "optionReasons": {
-        "phone-mcq-30": "本句指「長時間盯著／使用手機，難以把注意力移開」。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。"
+        "phone-mcq-30": "本句的「glued to his phone」指「長時間盯著／使用手機，難以把注意力移開」。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-30"
     },
@@ -2274,11 +2021,8 @@ export default {
       "masked": "Try not to be glued to your ____ during dinner.",
       "options": [
         "phone-mcq-30",
-        "phone-mcq-29",
-        "phone-mcq-31",
-        "phone-mcq-28",
-        "phone-mcq-32",
-        "phone-mcq-27"
+        "phone-mcq-01",
+        "phone-mcq-25"
       ],
       "explanation": "本句的「phone」指「長時間盯著／使用手機，難以把注意力移開」。",
       "sentenceIndex": 152,
@@ -2287,12 +2031,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-30": "本句指「長時間盯著／使用手機，難以把注意力移開」。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-31": "「停止使用手機」與本句語境不同。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-27": "「接起電話，或開始打電話聯絡某人」與本句語境不同。"
+        "phone-mcq-30": "本句的「phone」指「長時間盯著／使用手機，難以把注意力移開」。",
+        "phone-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-30"
     },
@@ -2304,11 +2045,8 @@ export default {
       "masked": "____ and finish your homework.",
       "options": [
         "phone-mcq-31",
-        "phone-mcq-30",
-        "phone-mcq-32",
-        "phone-mcq-29",
-        "phone-mcq-33",
-        "phone-mcq-28"
+        "phone-mcq-20",
+        "phone-mcq-34"
       ],
       "explanation": "本句的「Get off your phone」指「停止使用手機」。",
       "sentenceIndex": 163,
@@ -2317,12 +2055,9 @@ export default {
         "Get off your phone"
       ],
       "optionReasons": {
-        "phone-mcq-31": "本句指「停止使用手機」。",
-        "phone-mcq-30": "「長時間盯著／使用手機，難以把注意力移開」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-33": "「在某語言中能區分詞義的抽象音位」與本句語境不同。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。"
+        "phone-mcq-31": "本句的「Get off your phone」指「停止使用手機」。",
+        "phone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-31"
     },
@@ -2334,11 +2069,8 @@ export default {
       "masked": "She told him to get off his ____ during dinner.",
       "options": [
         "phone-mcq-31",
-        "phone-mcq-30",
-        "phone-mcq-32",
-        "phone-mcq-29",
-        "phone-mcq-33",
-        "phone-mcq-28"
+        "phone-mcq-20",
+        "phone-mcq-34"
       ],
       "explanation": "本句的「phone」指「停止使用手機」。",
       "sentenceIndex": 164,
@@ -2347,12 +2079,9 @@ export default {
         "phone"
       ],
       "optionReasons": {
-        "phone-mcq-31": "本句指「停止使用手機」。",
-        "phone-mcq-30": "「長時間盯著／使用手機，難以把注意力移開」與本句語境不同。",
-        "phone-mcq-32": "「人實際發出的具體語音聲音」與本句語境不同。",
-        "phone-mcq-29": "「查看手機上的訊息、通知或最新內容」與本句語境不同。",
-        "phone-mcq-33": "「在某語言中能區分詞義的抽象音位」與本句語境不同。",
-        "phone-mcq-28": "「手機突然響鈴／震動／發出提示」與本句語境不同。"
+        "phone-mcq-31": "本句的「phone」指「停止使用手機」。",
+        "phone-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "phone-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "phone-mcq-31"
     }
@@ -2364,5 +2093,7 @@ export default {
     "sha256": "b613c60447d2e29dc4fb646becfb7bfc95f592244e2edf58e1403c9ffe3f64dc",
     "pages": 60
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

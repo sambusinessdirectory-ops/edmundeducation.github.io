@@ -459,11 +459,8 @@ export default {
       "masked": "He may become a ____, an engineer, or something completely different.",
       "options": [
         "designer-mcq-01",
-        "designer-mcq-02",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designer」指「設計師」。",
       "sentenceIndex": 0,
@@ -472,12 +469,9 @@ export default {
         "designer"
       ],
       "optionReasons": {
-        "designer-mcq-01": "本句指「設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-01": "本句的「designer」指「設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-01"
     },
@@ -489,11 +483,8 @@ export default {
       "masked": "She works as a ____ for a technology company.",
       "options": [
         "designer-mcq-01",
-        "designer-mcq-02",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designer」指「設計師」。",
       "sentenceIndex": 1,
@@ -502,12 +493,9 @@ export default {
         "designer"
       ],
       "optionReasons": {
-        "designer-mcq-01": "本句指「設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-01": "本句的「designer」指「設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-01"
     },
@@ -519,11 +507,8 @@ export default {
       "masked": "A good ____ needs both creativity and practical thinking.",
       "options": [
         "designer-mcq-01",
-        "designer-mcq-02",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designer」指「設計師」。",
       "sentenceIndex": 2,
@@ -532,12 +517,9 @@ export default {
         "designer"
       ],
       "optionReasons": {
-        "designer-mcq-01": "本句指「設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-01": "本句的「designer」指「設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-01"
     },
@@ -549,11 +531,8 @@ export default {
       "masked": "She works as a ____.",
       "options": [
         "designer-mcq-02",
-        "designer-mcq-01",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「graphic designer」指「平面設計師」。",
       "sentenceIndex": 3,
@@ -562,12 +541,9 @@ export default {
         "graphic designer"
       ],
       "optionReasons": {
-        "designer-mcq-02": "本句指「平面設計師」。",
-        "designer-mcq-01": "「設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-02": "本句的「graphic designer」指「平面設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-02"
     },
@@ -579,11 +555,8 @@ export default {
       "masked": "The ____ created the company's new logo.",
       "options": [
         "designer-mcq-02",
-        "designer-mcq-01",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「graphic designer」指「平面設計師」。",
       "sentenceIndex": 4,
@@ -592,12 +565,9 @@ export default {
         "graphic designer"
       ],
       "optionReasons": {
-        "designer-mcq-02": "本句指「平面設計師」。",
-        "designer-mcq-01": "「設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-02": "本句的「graphic designer」指「平面設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-02"
     },
@@ -609,11 +579,8 @@ export default {
       "masked": "He wants to become a ____.",
       "options": [
         "designer-mcq-03",
-        "designer-mcq-02",
-        "designer-mcq-04",
-        "designer-mcq-01",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「fashion designer」指「時裝設計師」。",
       "sentenceIndex": 5,
@@ -622,12 +589,9 @@ export default {
         "fashion designer"
       ],
       "optionReasons": {
-        "designer-mcq-03": "本句指「時裝設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-01": "「設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-03": "本句的「fashion designer」指「時裝設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-03"
     },
@@ -639,11 +603,8 @@ export default {
       "masked": "The ____ presented her new collection.",
       "options": [
         "designer-mcq-03",
-        "designer-mcq-02",
-        "designer-mcq-04",
-        "designer-mcq-01",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「fashion designer」指「時裝設計師」。",
       "sentenceIndex": 6,
@@ -652,12 +613,9 @@ export default {
         "fashion designer"
       ],
       "optionReasons": {
-        "designer-mcq-03": "本句指「時裝設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-01": "「設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-03": "本句的「fashion designer」指「時裝設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-03"
     },
@@ -669,11 +627,8 @@ export default {
       "masked": "They hired an ____ to redesign the apartment.",
       "options": [
         "designer-mcq-04",
-        "designer-mcq-03",
-        "designer-mcq-05",
-        "designer-mcq-02",
-        "designer-mcq-06",
-        "designer-mcq-01"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「interior designer」指「室內設計師」。",
       "sentenceIndex": 7,
@@ -682,12 +637,9 @@ export default {
         "interior designer"
       ],
       "optionReasons": {
-        "designer-mcq-04": "本句指「室內設計師」。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-01": "「設計師」與本句語境不同。"
+        "designer-mcq-04": "本句的「interior designer」指「室內設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-04"
     },
@@ -699,11 +651,8 @@ export default {
       "masked": "An ____ plans how indoor spaces look and function.",
       "options": [
         "designer-mcq-04",
-        "designer-mcq-03",
-        "designer-mcq-05",
-        "designer-mcq-02",
-        "designer-mcq-06",
-        "designer-mcq-01"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「interior designer」指「室內設計師」。",
       "sentenceIndex": 8,
@@ -712,12 +661,9 @@ export default {
         "interior designer"
       ],
       "optionReasons": {
-        "designer-mcq-04": "本句指「室內設計師」。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-01": "「設計師」與本句語境不同。"
+        "designer-mcq-04": "本句的「interior designer」指「室內設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-04"
     },
@@ -729,11 +675,8 @@ export default {
       "masked": "The company hired an ____ to work on the new chair.",
       "options": [
         "designer-mcq-05",
-        "designer-mcq-04",
-        "designer-mcq-06",
-        "designer-mcq-03",
-        "designer-mcq-07",
-        "designer-mcq-02"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「industrial designer」指「工業設計師」。",
       "sentenceIndex": 9,
@@ -742,12 +685,9 @@ export default {
         "industrial designer"
       ],
       "optionReasons": {
-        "designer-mcq-05": "本句指「工業設計師」。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。"
+        "designer-mcq-05": "本句的「industrial designer」指「工業設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-05"
     },
@@ -759,11 +699,8 @@ export default {
       "masked": "____ often work on products that must be both useful and attractive.",
       "options": [
         "designer-mcq-05",
-        "designer-mcq-04",
-        "designer-mcq-06",
-        "designer-mcq-03",
-        "designer-mcq-07",
-        "designer-mcq-02"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「Industrial designers」指「工業設計師」。",
       "sentenceIndex": 10,
@@ -772,12 +709,9 @@ export default {
         "Industrial designers"
       ],
       "optionReasons": {
-        "designer-mcq-05": "本句指「工業設計師」。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。"
+        "designer-mcq-05": "本句的「Industrial designers」指「工業設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-05"
     },
@@ -789,11 +723,8 @@ export default {
       "masked": "She works as a ____ for a software company.",
       "options": [
         "designer-mcq-06",
-        "designer-mcq-05",
-        "designer-mcq-07",
-        "designer-mcq-04",
-        "designer-mcq-08",
-        "designer-mcq-03"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「product designer」指「產品設計師」。",
       "sentenceIndex": 11,
@@ -802,12 +733,9 @@ export default {
         "product designer"
       ],
       "optionReasons": {
-        "designer-mcq-06": "本句指「產品設計師」。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。"
+        "designer-mcq-06": "本句的「product designer」指「產品設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-06"
     },
@@ -819,11 +747,8 @@ export default {
       "masked": "The ____ focused on making the app easier to use.",
       "options": [
         "designer-mcq-06",
-        "designer-mcq-05",
-        "designer-mcq-07",
-        "designer-mcq-04",
-        "designer-mcq-08",
-        "designer-mcq-03"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「product designer」指「產品設計師」。",
       "sentenceIndex": 12,
@@ -832,12 +757,9 @@ export default {
         "product designer"
       ],
       "optionReasons": {
-        "designer-mcq-06": "本句指「產品設計師」。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。"
+        "designer-mcq-06": "本句的「product designer」指「產品設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-06"
     },
@@ -849,11 +771,8 @@ export default {
       "masked": "He hired a ____ to improve the website.",
       "options": [
         "designer-mcq-07",
-        "designer-mcq-06",
-        "designer-mcq-08",
-        "designer-mcq-05",
-        "designer-mcq-09",
-        "designer-mcq-04"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「web designer」指「網頁設計師」。",
       "sentenceIndex": 13,
@@ -862,12 +781,9 @@ export default {
         "web designer"
       ],
       "optionReasons": {
-        "designer-mcq-07": "本句指「網頁設計師」。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。"
+        "designer-mcq-07": "本句的「web designer」指「網頁設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-07"
     },
@@ -879,11 +795,8 @@ export default {
       "masked": "A ____ chooses layouts, fonts, and visual elements.",
       "options": [
         "designer-mcq-07",
-        "designer-mcq-06",
-        "designer-mcq-08",
-        "designer-mcq-05",
-        "designer-mcq-09",
-        "designer-mcq-04"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「web designer」指「網頁設計師」。",
       "sentenceIndex": 14,
@@ -892,12 +805,9 @@ export default {
         "web designer"
       ],
       "optionReasons": {
-        "designer-mcq-07": "本句指「網頁設計師」。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。"
+        "designer-mcq-07": "本句的「web designer」指「網頁設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-07"
     },
@@ -909,11 +819,8 @@ export default {
       "masked": "She dreams of becoming a ____.",
       "options": [
         "designer-mcq-08",
-        "designer-mcq-07",
-        "designer-mcq-09",
-        "designer-mcq-06",
-        "designer-mcq-10",
-        "designer-mcq-05"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「game designer」指「遊戲設計師」。",
       "sentenceIndex": 15,
@@ -922,12 +829,9 @@ export default {
         "game designer"
       ],
       "optionReasons": {
-        "designer-mcq-08": "本句指「遊戲設計師」。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。"
+        "designer-mcq-08": "本句的「game designer」指「遊戲設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-08"
     },
@@ -939,11 +843,8 @@ export default {
       "masked": "The ____ created the rules and levels.",
       "options": [
         "designer-mcq-08",
-        "designer-mcq-07",
-        "designer-mcq-09",
-        "designer-mcq-06",
-        "designer-mcq-10",
-        "designer-mcq-05"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「game designer」指「遊戲設計師」。",
       "sentenceIndex": 16,
@@ -952,12 +853,9 @@ export default {
         "game designer"
       ],
       "optionReasons": {
-        "designer-mcq-08": "本句指「遊戲設計師」。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。"
+        "designer-mcq-08": "本句的「game designer」指「遊戲設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-08"
     },
@@ -969,11 +867,8 @@ export default {
       "masked": "She was carrying a ____.",
       "options": [
         "designer-mcq-01",
-        "designer-mcq-02",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「designer handbag」指「設計師」。",
       "sentenceIndex": 17,
@@ -982,12 +877,9 @@ export default {
         "designer handbag"
       ],
       "optionReasons": {
-        "designer-mcq-01": "本句指「設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-01": "本句的「designer handbag」指「設計師」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-01"
     },
@@ -999,11 +891,8 @@ export default {
       "masked": "He spends a lot of money on ____.",
       "options": [
         "designer-mcq-01",
-        "designer-mcq-02",
-        "designer-mcq-03",
-        "designer-mcq-04",
-        "designer-mcq-05",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designer clothes」指「設計師」。",
       "sentenceIndex": 18,
@@ -1012,12 +901,9 @@ export default {
         "designer clothes"
       ],
       "optionReasons": {
-        "designer-mcq-01": "本句指「設計師」。",
-        "designer-mcq-02": "「平面設計師」與本句語境不同。",
-        "designer-mcq-03": "「時裝設計師」與本句語境不同。",
-        "designer-mcq-04": "「室內設計師」與本句語境不同。",
-        "designer-mcq-05": "「工業設計師」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-01": "本句的「designer clothes」指「設計師」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-01"
     },
@@ -1029,11 +915,8 @@ export default {
       "masked": "The store sells several well-known ____.",
       "options": [
         "designer-mcq-09",
-        "designer-mcq-08",
-        "designer-mcq-10",
-        "designer-mcq-07",
-        "designer-mcq-11",
-        "designer-mcq-06"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「designer brands」指「設計師品牌／名牌服裝」。",
       "sentenceIndex": 19,
@@ -1042,12 +925,9 @@ export default {
         "designer brands"
       ],
       "optionReasons": {
-        "designer-mcq-09": "本句指「設計師品牌／名牌服裝」。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-11": "「設計」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-09": "本句的「designer brands」指「設計師品牌／名牌服裝」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-09"
     },
@@ -1059,11 +939,8 @@ export default {
       "masked": "She prefers independent labels to big ____.",
       "options": [
         "designer-mcq-09",
-        "designer-mcq-08",
-        "designer-mcq-10",
-        "designer-mcq-07",
-        "designer-mcq-11",
-        "designer-mcq-06"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designer labels」指「設計師品牌／名牌服裝」。",
       "sentenceIndex": 20,
@@ -1072,12 +949,9 @@ export default {
         "designer labels"
       ],
       "optionReasons": {
-        "designer-mcq-09": "本句指「設計師品牌／名牌服裝」。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-07": "「網頁設計師」與本句語境不同。",
-        "designer-mcq-11": "「設計」與本句語境不同。",
-        "designer-mcq-06": "「產品設計師」與本句語境不同。"
+        "designer-mcq-09": "本句的「designer labels」指「設計師品牌／名牌服裝」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-09"
     },
@@ -1089,11 +963,8 @@ export default {
       "masked": "I like the ____ of this chair.",
       "options": [
         "designer-mcq-11",
-        "designer-mcq-10",
-        "designer-mcq-12",
-        "designer-mcq-09",
-        "designer-mcq-13",
-        "designer-mcq-08"
+        "designer-mcq-17",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「design」指「設計」。",
       "sentenceIndex": 21,
@@ -1102,12 +973,9 @@ export default {
         "design"
       ],
       "optionReasons": {
-        "designer-mcq-11": "本句指「設計」。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-12": "「圖案」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。"
+        "designer-mcq-11": "本句的「design」指「設計」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-11"
     },
@@ -1119,11 +987,8 @@ export default {
       "masked": "The building has a simple but elegant ____.",
       "options": [
         "designer-mcq-11",
-        "designer-mcq-10",
         "designer-mcq-12",
-        "designer-mcq-09",
-        "designer-mcq-13",
-        "designer-mcq-08"
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design」指「設計」。",
       "sentenceIndex": 22,
@@ -1132,12 +997,9 @@ export default {
         "design"
       ],
       "optionReasons": {
-        "designer-mcq-11": "本句指「設計」。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-12": "「圖案」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。",
-        "designer-mcq-08": "「遊戲設計師」與本句語境不同。"
+        "designer-mcq-11": "本句的「design」指「設計」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-11"
     },
@@ -1149,11 +1011,8 @@ export default {
       "masked": "The fabric has a floral ____.",
       "options": [
         "designer-mcq-12",
-        "designer-mcq-11",
-        "designer-mcq-13",
-        "designer-mcq-10",
-        "designer-mcq-09",
-        "designer-mcq-15"
+        "designer-pdf-001",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design」指「圖案」。",
       "sentenceIndex": 23,
@@ -1162,12 +1021,9 @@ export default {
         "design"
       ],
       "optionReasons": {
-        "designer-mcq-12": "本句指「圖案」。",
-        "designer-mcq-11": "「設計」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-12": "本句的「design」指「圖案」。",
+        "designer-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-12"
     },
@@ -1179,11 +1035,8 @@ export default {
       "masked": "She chose a cup with a colourful ____.",
       "options": [
         "designer-mcq-12",
-        "designer-mcq-11",
-        "designer-mcq-13",
-        "designer-mcq-10",
-        "designer-mcq-09",
-        "designer-mcq-15"
+        "designer-mcq-04",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design」指「圖案」。",
       "sentenceIndex": 24,
@@ -1192,12 +1045,9 @@ export default {
         "design"
       ],
       "optionReasons": {
-        "designer-mcq-12": "本句指「圖案」。",
-        "designer-mcq-11": "「設計」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-09": "「設計師品牌／名牌服裝」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-12": "本句的「design」指「圖案」。",
+        "designer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-12"
     },
@@ -1209,11 +1059,7 @@ export default {
       "masked": "Engineers approved the final ____.",
       "options": [
         "designer-mcq-13",
-        "designer-mcq-12",
-        "designer-mcq-14",
-        "designer-mcq-15",
-        "designer-mcq-10",
-        "designer-mcq-16"
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design」指「設計方案」。",
       "sentenceIndex": 25,
@@ -1222,12 +1068,8 @@ export default {
         "design"
       ],
       "optionReasons": {
-        "designer-mcq-13": "本句指「設計方案」。",
-        "designer-mcq-12": "「圖案」與本句語境不同。",
-        "designer-mcq-14": "「設計」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。"
+        "designer-mcq-13": "本句的「design」指「設計方案」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-13"
     },
@@ -1239,11 +1081,7 @@ export default {
       "masked": "The bridge ____ was changed for safety reasons.",
       "options": [
         "designer-mcq-13",
-        "designer-mcq-12",
-        "designer-mcq-14",
-        "designer-mcq-15",
-        "designer-mcq-10",
-        "designer-mcq-16"
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design」指「設計方案」。",
       "sentenceIndex": 26,
@@ -1252,12 +1090,8 @@ export default {
         "design"
       ],
       "optionReasons": {
-        "designer-mcq-13": "本句指「設計方案」。",
-        "designer-mcq-12": "「圖案」與本句語境不同。",
-        "designer-mcq-14": "「設計」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。",
-        "designer-mcq-10": "「名牌設計師手袋」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。"
+        "designer-mcq-13": "本句的「design」指「設計方案」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-13"
     },
@@ -1269,11 +1103,8 @@ export default {
       "masked": "The chair was ____.",
       "options": [
         "designer-pdf-001",
-        "designer-mcq-14",
-        "designer-mcq-16",
-        "designer-mcq-13",
-        "designer-mcq-17",
-        "designer-mcq-12"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designed for children」指「按特定人物、用途或需要來設計某物」。",
       "sentenceIndex": 29,
@@ -1282,12 +1113,9 @@ export default {
         "designed for children"
       ],
       "optionReasons": {
-        "designer-pdf-001": "本句指「按特定人物、用途或需要來設計某物」。",
-        "designer-mcq-14": "「設計」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-12": "「圖案」與本句語境不同。"
+        "designer-pdf-001": "本句的「designed for children」指「按特定人物、用途或需要來設計某物」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-pdf-001"
     },
@@ -1299,9 +1127,6 @@ export default {
       "masked": "They ____.",
       "options": [
         "designer-pdf-001",
-        "designer-mcq-14",
-        "designer-mcq-16",
-        "designer-mcq-13",
         "designer-mcq-17",
         "designer-mcq-12"
       ],
@@ -1312,12 +1137,9 @@ export default {
         "designed the app for older users"
       ],
       "optionReasons": {
-        "designer-pdf-001": "本句指「按特定人物、用途或需要來設計某物」。",
-        "designer-mcq-14": "「設計」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-12": "「圖案」與本句語境不同。"
+        "designer-pdf-001": "本句的「designed the app for older users」指「按特定人物、用途或需要來設計某物」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-pdf-001"
     },
@@ -1329,11 +1151,8 @@ export default {
       "masked": "The machine is ____.",
       "options": [
         "designer-mcq-16",
-        "designer-mcq-15",
-        "designer-mcq-17",
-        "designer-mcq-14",
-        "designer-mcq-18",
-        "designer-mcq-13"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「designed to save energy」指「設計用來／旨在 X」。",
       "sentenceIndex": 31,
@@ -1342,12 +1161,9 @@ export default {
         "designed to save energy"
       ],
       "optionReasons": {
-        "designer-mcq-16": "本句指「設計用來／旨在 X」。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-14": "「設計」與本句語境不同。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。"
+        "designer-mcq-16": "本句的「designed to save energy」指「設計用來／旨在 X」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-16"
     },
@@ -1359,11 +1175,8 @@ export default {
       "masked": "The programme is ____.",
       "options": [
         "designer-mcq-16",
-        "designer-mcq-15",
         "designer-mcq-17",
-        "designer-mcq-14",
-        "designer-mcq-18",
-        "designer-mcq-13"
+        "designer-mcq-12"
       ],
       "explanation": "本句的「designed to help beginners」指「設計用來／旨在 X」。",
       "sentenceIndex": 32,
@@ -1372,12 +1185,9 @@ export default {
         "designed to help beginners"
       ],
       "optionReasons": {
-        "designer-mcq-16": "本句指「設計用來／旨在 X」。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-14": "「設計」與本句語境不同。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-13": "「設計方案」與本句語境不同。"
+        "designer-mcq-16": "本句的「designed to help beginners」指「設計用來／旨在 X」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-16"
     },
@@ -1389,11 +1199,8 @@ export default {
       "masked": "The similarity was not accidental; it was ____.",
       "options": [
         "designer-mcq-17",
-        "designer-mcq-16",
-        "designer-mcq-18",
-        "designer-mcq-15",
-        "designer-mcq-19",
-        "designer-mcq-14"
+        "designer-mcq-20",
+        "designer-mcq-12"
       ],
       "explanation": "本句的「by design」指「故意地」。",
       "sentenceIndex": 33,
@@ -1402,12 +1209,9 @@ export default {
         "by design"
       ],
       "optionReasons": {
-        "designer-mcq-17": "本句指「故意地」。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。",
-        "designer-mcq-19": "「設計過程」與本句語境不同。",
-        "designer-mcq-14": "「設計」與本句語境不同。"
+        "designer-mcq-17": "本句的「by design」指「故意地」。",
+        "designer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-17"
     },
@@ -1419,11 +1223,8 @@ export default {
       "masked": "The room feels simple ____.",
       "options": [
         "designer-mcq-17",
-        "designer-mcq-16",
         "designer-mcq-18",
-        "designer-mcq-15",
-        "designer-mcq-19",
-        "designer-mcq-14"
+        "designer-mcq-12"
       ],
       "explanation": "本句的「by design」指「故意地」。",
       "sentenceIndex": 34,
@@ -1432,12 +1233,9 @@ export default {
         "by design"
       ],
       "optionReasons": {
-        "designer-mcq-17": "本句指「故意地」。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。",
-        "designer-mcq-19": "「設計過程」與本句語境不同。",
-        "designer-mcq-14": "「設計」與本句語境不同。"
+        "designer-mcq-17": "本句的「by design」指「故意地」。",
+        "designer-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-17"
     },
@@ -1450,10 +1248,7 @@ export default {
       "options": [
         "designer-mcq-18",
         "designer-mcq-17",
-        "designer-mcq-19",
-        "designer-mcq-16",
-        "designer-mcq-20",
-        "designer-mcq-15"
+        "designer-mcq-12"
       ],
       "explanation": "本句的「design flaw」指「設計缺陷」。",
       "sentenceIndex": 35,
@@ -1462,12 +1257,9 @@ export default {
         "design flaw"
       ],
       "optionReasons": {
-        "designer-mcq-18": "本句指「設計缺陷」。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-19": "「設計過程」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-20": "「重新設計」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-18": "本句的「design flaw」指「設計缺陷」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-18"
     },
@@ -1480,10 +1272,7 @@ export default {
       "options": [
         "designer-mcq-18",
         "designer-mcq-17",
-        "designer-mcq-19",
-        "designer-mcq-16",
-        "designer-mcq-20",
-        "designer-mcq-15"
+        "designer-mcq-12"
       ],
       "explanation": "本句的「design flaw」指「設計缺陷」。",
       "sentenceIndex": 36,
@@ -1492,12 +1281,9 @@ export default {
         "design flaw"
       ],
       "optionReasons": {
-        "designer-mcq-18": "本句指「設計缺陷」。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-19": "「設計過程」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-20": "「重新設計」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-18": "本句的「design flaw」指「設計缺陷」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-18"
     },
@@ -1509,11 +1295,8 @@ export default {
       "masked": "Testing is an important part of the ____.",
       "options": [
         "designer-mcq-19",
-        "designer-mcq-18",
-        "designer-mcq-20",
-        "designer-mcq-17",
-        "designer-mcq-16",
-        "designer-mcq-15"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design process」指「設計過程」。",
       "sentenceIndex": 37,
@@ -1522,12 +1305,9 @@ export default {
         "design process"
       ],
       "optionReasons": {
-        "designer-mcq-19": "本句指「設計過程」。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-20": "「重新設計」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-19": "本句的「design process」指「設計過程」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-19"
     },
@@ -1539,11 +1319,8 @@ export default {
       "masked": "Children were involved in the ____.",
       "options": [
         "designer-mcq-19",
-        "designer-mcq-18",
-        "designer-mcq-20",
-        "designer-mcq-17",
-        "designer-mcq-16",
-        "designer-mcq-15"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「design process」指「設計過程」。",
       "sentenceIndex": 38,
@@ -1552,12 +1329,9 @@ export default {
         "design process"
       ],
       "optionReasons": {
-        "designer-mcq-19": "本句指「設計過程」。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-20": "「重新設計」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-19": "本句的「design process」指「設計過程」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-19"
     },
@@ -1569,11 +1343,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "designer-mcq-20",
-        "designer-mcq-19",
-        "designer-mcq-18",
         "designer-mcq-17",
-        "designer-mcq-16",
-        "designer-mcq-15"
+        "designer-mcq-12"
       ],
       "explanation": "本句的「redesigned the website」指「重新設計」。",
       "sentenceIndex": 39,
@@ -1582,12 +1353,9 @@ export default {
         "redesigned the website"
       ],
       "optionReasons": {
-        "designer-mcq-20": "本句指「重新設計」。",
-        "designer-mcq-19": "「設計過程」與本句語境不同。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-20": "本句的「redesigned the website」指「重新設計」。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-20"
     },
@@ -1599,11 +1367,8 @@ export default {
       "masked": "The product needs a complete ____.",
       "options": [
         "designer-mcq-20",
-        "designer-mcq-19",
-        "designer-mcq-18",
-        "designer-mcq-17",
-        "designer-mcq-16",
-        "designer-mcq-15"
+        "designer-mcq-12",
+        "designer-mcq-17"
       ],
       "explanation": "本句的「redesign」指「重新設計」。",
       "sentenceIndex": 40,
@@ -1612,12 +1377,9 @@ export default {
         "redesign"
       ],
       "optionReasons": {
-        "designer-mcq-20": "本句指「重新設計」。",
-        "designer-mcq-19": "「設計過程」與本句語境不同。",
-        "designer-mcq-18": "「設計缺陷」與本句語境不同。",
-        "designer-mcq-17": "「故意地」與本句語境不同。",
-        "designer-mcq-16": "「設計用來／旨在 X」與本句語境不同。",
-        "designer-mcq-15": "「為 X 設計」與本句語境不同。"
+        "designer-mcq-20": "本句的「redesign」指「重新設計」。",
+        "designer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "designer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "designer-mcq-20"
     }
@@ -1629,5 +1391,7 @@ export default {
     "sha256": "cd7ec32d610b62973df946a9e5944669a47d82ec1717575011c88bbf0c5d2525",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

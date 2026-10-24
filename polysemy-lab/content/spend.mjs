@@ -312,16 +312,6 @@ export default {
           "The government is spending heavily on infrastructure.",
           "政府正在基建方面大量投放資金。",
           "在某個領域投入大量金錢"
-        ],
-        [
-          "The long journey spent much of his strength.",
-          "漫長旅程耗去了他大量體力。",
-          "在某個領域投入大量金錢"
-        ],
-        [
-          "Years of stress had spent his energy.",
-          "多年的壓力耗盡了他的精力。",
-          "在某個領域投入大量金錢"
         ]
       ],
       "options": [],
@@ -600,6 +590,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "spend-reviewed-599c4831bb",
+      "title": "消耗、耗去體力或精力",
+      "form": "spend · source section 15",
+      "en": "消耗、耗去體力或精力",
+      "zh": "消耗、耗去體力或精力",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "The long journey spent much of his strength.",
+          "漫長旅程耗去了他大量體力。",
+          "消耗、耗去體力或精力"
+        ],
+        [
+          "Years of stress had spent his energy.",
+          "多年的壓力耗盡了他的精力。",
+          "消耗、耗去體力或精力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -611,11 +623,7 @@ export default {
       "masked": "I had ____ the project.",
       "options": [
         "spend-mcq-01",
-        "spend-mcq-02",
-        "spend-mcq-03",
-        "spend-mcq-04",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-09"
       ],
       "explanation": "本句的「spent months working on」指「把一段時間投入某項活動；花……時間做……」。",
       "sentenceIndex": 0,
@@ -624,12 +632,8 @@ export default {
         "spent months working on"
       ],
       "optionReasons": {
-        "spend-mcq-01": "本句指「把一段時間投入某項活動；花……時間做……」。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-01": "本句的「spent months working on」指「把一段時間投入某項活動；花……時間做……」。",
+        "spend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-01"
     },
@@ -641,11 +645,7 @@ export default {
       "masked": "She ____ her slides.",
       "options": [
         "spend-mcq-01",
-        "spend-mcq-02",
-        "spend-mcq-03",
-        "spend-mcq-04",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-16"
       ],
       "explanation": "本句的「spent two hours preparing」指「把一段時間投入某項活動；花……時間做……」。",
       "sentenceIndex": 1,
@@ -654,12 +654,8 @@ export default {
         "spent two hours preparing"
       ],
       "optionReasons": {
-        "spend-mcq-01": "本句指「把一段時間投入某項活動；花……時間做……」。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-01": "本句的「spent two hours preparing」指「把一段時間投入某項活動；花……時間做……」。",
+        "spend-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-01"
     },
@@ -671,11 +667,7 @@ export default {
       "masked": "We ____ the proposal.",
       "options": [
         "spend-mcq-01",
-        "spend-mcq-02",
-        "spend-mcq-03",
-        "spend-mcq-04",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-16"
       ],
       "explanation": "本句的「spent the afternoon discussing」指「把一段時間投入某項活動；花……時間做……」。",
       "sentenceIndex": 2,
@@ -684,12 +676,8 @@ export default {
         "spent the afternoon discussing"
       ],
       "optionReasons": {
-        "spend-mcq-01": "本句指「把一段時間投入某項活動；花……時間做……」。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-01": "本句的「spent the afternoon discussing」指「把一段時間投入某項活動；花……時間做……」。",
+        "spend-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-01"
     },
@@ -701,11 +689,7 @@ export default {
       "masked": "I ____ the presentation.",
       "options": [
         "spend-mcq-02",
-        "spend-mcq-01",
-        "spend-mcq-03",
-        "spend-mcq-04",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-13"
       ],
       "explanation": "本句的「spent a lot of time on」指「把時間投入某項工作、活動或事物」。",
       "sentenceIndex": 0,
@@ -714,12 +698,8 @@ export default {
         "spent a lot of time on"
       ],
       "optionReasons": {
-        "spend-mcq-02": "本句指「把時間投入某項工作、活動或事物」。",
-        "spend-mcq-01": "「把一段時間投入某項活動；花……時間做……」是「spend + time + doing」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-02": "本句的「spent a lot of time on」指「把時間投入某項工作、活動或事物」。",
+        "spend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-02"
     },
@@ -731,11 +711,7 @@ export default {
       "masked": "She ____ the report.",
       "options": [
         "spend-mcq-02",
-        "spend-mcq-01",
-        "spend-mcq-03",
-        "spend-mcq-04",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-20"
       ],
       "explanation": "本句的「spent three weeks on」指「把時間投入某項工作、活動或事物」。",
       "sentenceIndex": 1,
@@ -744,12 +720,8 @@ export default {
         "spent three weeks on"
       ],
       "optionReasons": {
-        "spend-mcq-02": "本句指「把時間投入某項工作、活動或事物」。",
-        "spend-mcq-01": "「把一段時間投入某項活動；花……時間做……」是「spend + time + doing」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-02": "本句的「spent three weeks on」指「把時間投入某項工作、活動或事物」。",
+        "spend-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-02"
     },
@@ -761,11 +733,8 @@ export default {
       "masked": "I like to ____ my family.",
       "options": [
         "spend-mcq-03",
-        "spend-mcq-02",
-        "spend-mcq-04",
-        "spend-mcq-01",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-23",
+        "spend-mcq-07"
       ],
       "explanation": "本句的「spend time with」指「跟某人在一起共度一段時間」。",
       "sentenceIndex": 0,
@@ -774,12 +743,9 @@ export default {
         "spend time with"
       ],
       "optionReasons": {
-        "spend-mcq-03": "本句指「跟某人在一起共度一段時間」。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-01": "「把一段時間投入某項活動；花……時間做……」是「spend + time + doing」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-03": "本句的「spend time with」指「跟某人在一起共度一段時間」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-03"
     },
@@ -791,11 +757,8 @@ export default {
       "masked": "She ____ her friends.",
       "options": [
         "spend-mcq-03",
-        "spend-mcq-02",
-        "spend-mcq-04",
-        "spend-mcq-01",
-        "spend-mcq-05",
-        "spend-mcq-06"
+        "spend-mcq-10",
+        "spend-mcq-08"
       ],
       "explanation": "本句的「spent the weekend with」指「跟某人在一起共度一段時間」。",
       "sentenceIndex": 1,
@@ -804,12 +767,9 @@ export default {
         "spent the weekend with"
       ],
       "optionReasons": {
-        "spend-mcq-03": "本句指「跟某人在一起共度一段時間」。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-01": "「把一段時間投入某項活動；花……時間做……」是「spend + time + doing」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-03": "本句的「spent the weekend with」指「跟某人在一起共度一段時間」。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-03"
     },
@@ -821,11 +781,8 @@ export default {
       "masked": "We ____.",
       "options": [
         "spend-mcq-04",
-        "spend-mcq-03",
-        "spend-mcq-05",
-        "spend-mcq-02",
-        "spend-mcq-06",
-        "spend-mcq-01"
+        "spend-reviewed-599c4831bb",
+        "spend-mcq-17"
       ],
       "explanation": "本句的「spent three days in London」指「在某個地方度過一段時間」。",
       "sentenceIndex": 0,
@@ -834,12 +791,9 @@ export default {
         "spent three days in London"
       ],
       "optionReasons": {
-        "spend-mcq-04": "本句指「在某個地方度過一段時間」。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-01": "「把一段時間投入某項活動；花……時間做……」是「spend + time + doing」的用法，與本句語境不同。"
+        "spend-mcq-04": "本句的「spent three days in London」指「在某個地方度過一段時間」。",
+        "spend-reviewed-599c4831bb": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-04"
     },
@@ -851,11 +805,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "spend-mcq-04",
-        "spend-mcq-03",
-        "spend-mcq-05",
-        "spend-mcq-02",
-        "spend-mcq-06",
-        "spend-mcq-01"
+        "spend-mcq-13",
+        "spend-mcq-11"
       ],
       "explanation": "本句的「spent the summer abroad」指「在某個地方度過一段時間」。",
       "sentenceIndex": 1,
@@ -864,12 +815,9 @@ export default {
         "spent the summer abroad"
       ],
       "optionReasons": {
-        "spend-mcq-04": "本句指「在某個地方度過一段時間」。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-01": "「把一段時間投入某項活動；花……時間做……」是「spend + time + doing」的用法，與本句語境不同。"
+        "spend-mcq-04": "本句的「spent the summer abroad」指「在某個地方度過一段時間」。",
+        "spend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-04"
     },
@@ -881,11 +829,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "spend-mcq-05",
-        "spend-mcq-04",
-        "spend-mcq-06",
-        "spend-mcq-03",
-        "spend-mcq-07",
-        "spend-mcq-02"
+        "spend-mcq-14"
       ],
       "explanation": "本句的「spent five years as a manager」指「在某個身份、職業或環境中度過一段時間」。",
       "sentenceIndex": 0,
@@ -894,12 +838,8 @@ export default {
         "spent five years as a manager"
       ],
       "optionReasons": {
-        "spend-mcq-05": "本句指「在某個身份、職業或環境中度過一段時間」。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。"
+        "spend-mcq-05": "本句的「spent five years as a manager」指「在某個身份、職業或環境中度過一段時間」。",
+        "spend-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-05"
     },
@@ -911,11 +851,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "spend-mcq-05",
-        "spend-mcq-04",
-        "spend-mcq-06",
-        "spend-mcq-03",
-        "spend-mcq-07",
-        "spend-mcq-02"
+        "spend-mcq-08",
+        "spend-mcq-22"
       ],
       "explanation": "本句的「spent most of her career in finance」指「在某個身份、職業或環境中度過一段時間」。",
       "sentenceIndex": 1,
@@ -924,12 +861,9 @@ export default {
         "spent most of her career in finance"
       ],
       "optionReasons": {
-        "spend-mcq-05": "本句指「在某個身份、職業或環境中度過一段時間」。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-02": "「把時間投入某項工作、活動或事物」是「spend time on something」的用法，與本句語境不同。"
+        "spend-mcq-05": "本句的「spent most of her career in finance」指「在某個身份、職業或環境中度過一段時間」。",
+        "spend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-05"
     },
@@ -941,11 +875,8 @@ export default {
       "masked": "I ____ on new equipment.",
       "options": [
         "spend-mcq-06",
-        "spend-mcq-05",
-        "spend-mcq-07",
-        "spend-mcq-04",
-        "spend-mcq-08",
-        "spend-mcq-03"
+        "spend-mcq-23",
+        "spend-mcq-04"
       ],
       "explanation": "本句的「spent too much money」指「使用金錢購買、支付或投資在某物／活動上」。",
       "sentenceIndex": 0,
@@ -954,12 +885,9 @@ export default {
         "spent too much money"
       ],
       "optionReasons": {
-        "spend-mcq-06": "本句指「使用金錢購買、支付或投資在某物／活動上」。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。"
+        "spend-mcq-06": "本句的「spent too much money」指「使用金錢購買、支付或投資在某物／活動上」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-06"
     },
@@ -971,11 +899,8 @@ export default {
       "masked": "The company ____ on the new system.",
       "options": [
         "spend-mcq-06",
-        "spend-mcq-05",
-        "spend-mcq-07",
-        "spend-mcq-04",
-        "spend-mcq-08",
-        "spend-mcq-03"
+        "spend-mcq-23",
+        "spend-mcq-05"
       ],
       "explanation": "本句的「spent millions」指「使用金錢購買、支付或投資在某物／活動上」。",
       "sentenceIndex": 1,
@@ -984,12 +909,9 @@ export default {
         "spent millions"
       ],
       "optionReasons": {
-        "spend-mcq-06": "本句指「使用金錢購買、支付或投資在某物／活動上」。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-03": "「跟某人在一起共度一段時間」是「spend time with someone」的用法，與本句語境不同。"
+        "spend-mcq-06": "本句的「spent millions」指「使用金錢購買、支付或投資在某物／活動上」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-06"
     },
@@ -1001,11 +923,8 @@ export default {
       "masked": "She ____ a new laptop.",
       "options": [
         "spend-mcq-07",
-        "spend-mcq-06",
-        "spend-mcq-08",
-        "spend-mcq-05",
-        "spend-mcq-09",
-        "spend-mcq-04"
+        "spend-mcq-25",
+        "spend-mcq-24"
       ],
       "explanation": "本句的「spent $500 on」指「把金錢用在某項購買、服務、活動或投資上」。",
       "sentenceIndex": 0,
@@ -1014,12 +933,9 @@ export default {
         "spent $500 on"
       ],
       "optionReasons": {
-        "spend-mcq-07": "本句指「把金錢用在某項購買、服務、活動或投資上」。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。"
+        "spend-mcq-07": "本句的「spent $500 on」指「把金錢用在某項購買、服務、活動或投資上」。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-07"
     },
@@ -1031,11 +947,8 @@ export default {
       "masked": "The business ____ advertising.",
       "options": [
         "spend-mcq-07",
-        "spend-mcq-06",
-        "spend-mcq-08",
-        "spend-mcq-05",
-        "spend-mcq-09",
-        "spend-mcq-04"
+        "spend-mcq-03",
+        "spend-mcq-23"
       ],
       "explanation": "本句的「spent heavily on」指「把金錢用在某項購買、服務、活動或投資上」。",
       "sentenceIndex": 1,
@@ -1044,12 +957,9 @@ export default {
         "spent heavily on"
       ],
       "optionReasons": {
-        "spend-mcq-07": "本句指「把金錢用在某項購買、服務、活動或投資上」。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-04": "「在某個地方度過一段時間」是「spend + period + place」的用法，與本句語境不同。"
+        "spend-mcq-07": "本句的「spent heavily on」指「把金錢用在某項購買、服務、活動或投資上」。",
+        "spend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-07"
     },
@@ -1061,11 +971,8 @@ export default {
       "masked": "They ____ the office.",
       "options": [
         "spend-mcq-08",
-        "spend-mcq-07",
-        "spend-mcq-09",
-        "spend-mcq-06",
-        "spend-mcq-10",
-        "spend-mcq-05"
+        "spend-mcq-25",
+        "spend-mcq-10"
       ],
       "explanation": "本句的「spent thousands renovating」指「為進行／完成某項活動而支出金錢」。",
       "sentenceIndex": 0,
@@ -1074,12 +981,9 @@ export default {
         "spent thousands renovating"
       ],
       "optionReasons": {
-        "spend-mcq-08": "本句指「為進行／完成某項活動而支出金錢」。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。"
+        "spend-mcq-08": "本句的「spent thousands renovating」指「為進行／完成某項活動而支出金錢」。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-08"
     },
@@ -1091,11 +995,8 @@ export default {
       "masked": "The company ____ the product.",
       "options": [
         "spend-mcq-08",
-        "spend-mcq-07",
-        "spend-mcq-09",
-        "spend-mcq-06",
-        "spend-mcq-10",
-        "spend-mcq-05"
+        "spend-mcq-03",
+        "spend-reviewed-599c4831bb"
       ],
       "explanation": "本句的「spent a lot developing」指「為進行／完成某項活動而支出金錢」。",
       "sentenceIndex": 1,
@@ -1104,12 +1005,9 @@ export default {
         "spent a lot developing"
       ],
       "optionReasons": {
-        "spend-mcq-08": "本句指「為進行／完成某項活動而支出金錢」。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-05": "「在某個身份、職業或環境中度過一段時間」是「spend + period + as/in role」的用法，與本句語境不同。"
+        "spend-mcq-08": "本句的「spent a lot developing」指「為進行／完成某項活動而支出金錢」。",
+        "spend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spend-reviewed-599c4831bb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-08"
     },
@@ -1121,11 +1019,7 @@ export default {
       "masked": "She rarely ____.",
       "options": [
         "spend-mcq-09",
-        "spend-mcq-08",
-        "spend-mcq-10",
-        "spend-mcq-07",
-        "spend-mcq-11",
-        "spend-mcq-06"
+        "spend-mcq-01"
       ],
       "explanation": "本句的「spends money on herself」指「為某人的需要、享受或利益支付金錢」。",
       "sentenceIndex": 0,
@@ -1134,12 +1028,8 @@ export default {
         "spends money on herself"
       ],
       "optionReasons": {
-        "spend-mcq-09": "本句指「為某人的需要、享受或利益支付金錢」。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-09": "本句的「spends money on herself」指「為某人的需要、享受或利益支付金錢」。",
+        "spend-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-09"
     },
@@ -1151,11 +1041,8 @@ export default {
       "masked": "Parents often ____ their children.",
       "options": [
         "spend-mcq-09",
-        "spend-mcq-08",
-        "spend-mcq-10",
-        "spend-mcq-07",
-        "spend-mcq-11",
-        "spend-mcq-06"
+        "spend-mcq-23",
+        "spend-mcq-05"
       ],
       "explanation": "本句的「spend a lot on」指「為某人的需要、享受或利益支付金錢」。",
       "sentenceIndex": 1,
@@ -1164,12 +1051,9 @@ export default {
         "spend a lot on"
       ],
       "optionReasons": {
-        "spend-mcq-09": "本句指「為某人的需要、享受或利益支付金錢」。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-06": "「使用金錢購買、支付或投資在某物／活動上」是「spend money」的用法，與本句語境不同。"
+        "spend-mcq-09": "本句的「spend a lot on」指「為某人的需要、享受或利益支付金錢」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-09"
     },
@@ -1181,11 +1065,8 @@ export default {
       "masked": "I ____ worrying before the presentation.",
       "options": [
         "spend-mcq-10",
-        "spend-mcq-09",
-        "spend-mcq-11",
-        "spend-mcq-08",
-        "spend-mcq-12",
-        "spend-mcq-07"
+        "spend-mcq-03",
+        "spend-mcq-21"
       ],
       "explanation": "本句的「spent a lot of energy」指「把有限的精力、心力或努力投入某件事」。",
       "sentenceIndex": 0,
@@ -1194,12 +1075,9 @@ export default {
         "spent a lot of energy"
       ],
       "optionReasons": {
-        "spend-mcq-10": "本句指「把有限的精力、心力或努力投入某件事」。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。"
+        "spend-mcq-10": "本句的「spent a lot of energy」指「把有限的精力、心力或努力投入某件事」。",
+        "spend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-10"
     },
@@ -1212,10 +1090,7 @@ export default {
       "options": [
         "spend-mcq-10",
         "spend-mcq-09",
-        "spend-mcq-11",
-        "spend-mcq-08",
-        "spend-mcq-12",
-        "spend-mcq-07"
+        "spend-mcq-04"
       ],
       "explanation": "本句的「spend all your energy」指「把有限的精力、心力或努力投入某件事」。",
       "sentenceIndex": 1,
@@ -1224,12 +1099,9 @@ export default {
         "spend all your energy"
       ],
       "optionReasons": {
-        "spend-mcq-10": "本句指「把有限的精力、心力或努力投入某件事」。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-07": "「把金錢用在某項購買、服務、活動或投資上」是「spend money on something」的用法，與本句語境不同。"
+        "spend-mcq-10": "本句的「spend all your energy」指「把有限的精力、心力或努力投入某件事」。",
+        "spend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-10"
     },
@@ -1241,11 +1113,7 @@ export default {
       "masked": "The project ____ than expected.",
       "options": [
         "spend-mcq-11",
-        "spend-mcq-10",
-        "spend-mcq-12",
-        "spend-mcq-09",
-        "spend-mcq-13",
-        "spend-mcq-08"
+        "spend-mcq-15"
       ],
       "explanation": "本句的「spent more resources」指「把有限資源投入／消耗於某項工作或活動」。",
       "sentenceIndex": 0,
@@ -1254,12 +1122,8 @@ export default {
         "spent more resources"
       ],
       "optionReasons": {
-        "spend-mcq-11": "本句指「把有限資源投入／消耗於某項工作或活動」。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。"
+        "spend-mcq-11": "本句的「spent more resources」指「把有限資源投入／消耗於某項工作或活動」。",
+        "spend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-11"
     },
@@ -1271,11 +1135,7 @@ export default {
       "masked": "We should avoid ____ on unnecessary work.",
       "options": [
         "spend-mcq-11",
-        "spend-mcq-10",
-        "spend-mcq-12",
-        "spend-mcq-09",
-        "spend-mcq-13",
-        "spend-mcq-08"
+        "spend-mcq-15"
       ],
       "explanation": "本句的「spending resources」指「把有限資源投入／消耗於某項工作或活動」。",
       "sentenceIndex": 1,
@@ -1284,12 +1144,8 @@ export default {
         "spending resources"
       ],
       "optionReasons": {
-        "spend-mcq-11": "本句指「把有限資源投入／消耗於某項工作或活動」。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-08": "「為進行／完成某項活動而支出金錢」是「spend money doing something」的用法，與本句語境不同。"
+        "spend-mcq-11": "本句的「spending resources」指「把有限資源投入／消耗於某項工作或活動」。",
+        "spend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-11"
     },
@@ -1301,11 +1157,7 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "spend-mcq-12",
-        "spend-mcq-11",
-        "spend-mcq-13",
-        "spend-mcq-10",
-        "spend-mcq-14",
-        "spend-mcq-09"
+        "contrast-sound"
       ],
       "explanation": "本句的「spend your time wisely」指「合理而有效地分配時間、金錢或資源」。",
       "sentenceIndex": 0,
@@ -1314,12 +1166,8 @@ export default {
         "spend your time wisely"
       ],
       "optionReasons": {
-        "spend-mcq-12": "本句指「合理而有效地分配時間、金錢或資源」。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。"
+        "spend-mcq-12": "本句的「spend your time wisely」指「合理而有效地分配時間、金錢或資源」。",
+        "contrast-sound": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-12"
     },
@@ -1331,11 +1179,7 @@ export default {
       "masked": "The company needs to ____.",
       "options": [
         "spend-mcq-12",
-        "spend-mcq-11",
-        "spend-mcq-13",
-        "spend-mcq-10",
-        "spend-mcq-14",
-        "spend-mcq-09"
+        "contrast-sound"
       ],
       "explanation": "本句的「spend its budget wisely」指「合理而有效地分配時間、金錢或資源」。",
       "sentenceIndex": 1,
@@ -1344,12 +1188,8 @@ export default {
         "spend its budget wisely"
       ],
       "optionReasons": {
-        "spend-mcq-12": "本句指「合理而有效地分配時間、金錢或資源」。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-09": "「為某人的需要、享受或利益支付金錢」是「spend on someone」的用法，與本句語境不同。"
+        "spend-mcq-12": "本句的「spend its budget wisely」指「合理而有效地分配時間、金錢或資源」。",
+        "contrast-sound": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-12"
     },
@@ -1361,11 +1201,8 @@ export default {
       "masked": "Tourists were ____ in the city.",
       "options": [
         "spend-mcq-13",
-        "spend-mcq-12",
-        "spend-mcq-14",
-        "spend-mcq-11",
-        "spend-mcq-15",
-        "spend-mcq-10"
+        "spend-mcq-25",
+        "spend-mcq-23"
       ],
       "explanation": "本句的「spending freely」指「不太限制地花錢；大手支出」。",
       "sentenceIndex": 0,
@@ -1374,12 +1211,9 @@ export default {
         "spending freely"
       ],
       "optionReasons": {
-        "spend-mcq-13": "本句指「不太限制地花錢；大手支出」。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。"
+        "spend-mcq-13": "本句的「spending freely」指「不太限制地花錢；大手支出」。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-13"
     },
@@ -1391,11 +1225,8 @@ export default {
       "masked": "People tend to ____ during holidays.",
       "options": [
         "spend-mcq-13",
-        "spend-mcq-12",
-        "spend-mcq-14",
-        "spend-mcq-11",
-        "spend-mcq-15",
-        "spend-mcq-10"
+        "spend-mcq-05",
+        "spend-mcq-23"
       ],
       "explanation": "本句的「spend more freely」指「不太限制地花錢；大手支出」。",
       "sentenceIndex": 1,
@@ -1404,12 +1235,9 @@ export default {
         "spend more freely"
       ],
       "optionReasons": {
-        "spend-mcq-13": "本句指「不太限制地花錢；大手支出」。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-10": "「把有限的精力、心力或努力投入某件事」是「spend energy/effort」的用法，與本句語境不同。"
+        "spend-mcq-13": "本句的「spend more freely」指「不太限制地花錢；大手支出」。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-13"
     },
@@ -1421,11 +1249,7 @@ export default {
       "masked": "The company ____ research.",
       "options": [
         "spend-mcq-14",
-        "spend-mcq-13",
-        "spend-mcq-15",
-        "spend-mcq-12",
-        "spend-mcq-16",
-        "spend-mcq-11"
+        "spend-mcq-04"
       ],
       "explanation": "本句的「spent heavily on」指「在某個領域投入大量金錢」。",
       "sentenceIndex": 0,
@@ -1434,12 +1258,8 @@ export default {
         "spent heavily on"
       ],
       "optionReasons": {
-        "spend-mcq-14": "本句指「在某個領域投入大量金錢」。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。"
+        "spend-mcq-14": "本句的「spent heavily on」指「在某個領域投入大量金錢」。",
+        "spend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-14"
     },
@@ -1451,11 +1271,7 @@ export default {
       "masked": "The government is ____ infrastructure.",
       "options": [
         "spend-mcq-14",
-        "spend-mcq-13",
-        "spend-mcq-15",
-        "spend-mcq-12",
-        "spend-mcq-16",
-        "spend-mcq-11"
+        "spend-mcq-05"
       ],
       "explanation": "本句的「spending heavily on」指「在某個領域投入大量金錢」。",
       "sentenceIndex": 1,
@@ -1464,74 +1280,62 @@ export default {
         "spending heavily on"
       ],
       "optionReasons": {
-        "spend-mcq-14": "本句指「在某個領域投入大量金錢」。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。"
+        "spend-mcq-14": "本句的「spending heavily on」指「在某個領域投入大量金錢」。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-14"
     },
     {
       "id": "spend-15-0",
-      "sense": "spend-mcq-14",
+      "sense": "spend-reviewed-599c4831bb",
       "en": "The long journey spent much of his strength.",
       "zh": "漫長旅程耗去了他大量體力。",
       "masked": "The long journey ____ much of his strength.",
       "options": [
-        "spend-mcq-14",
-        "spend-mcq-13",
-        "spend-mcq-15",
-        "spend-mcq-12",
-        "spend-mcq-16",
-        "spend-mcq-11"
+        "spend-reviewed-599c4831bb",
+        "spend-mcq-03",
+        "spend-mcq-07"
       ],
-      "explanation": "本句的「spent」指「在某個領域投入大量金錢」。",
+      "explanation": "本句的 strength 指體力。spent 表示這些力量被消耗了，並沒有提到花錢。完整意思：漫長旅程耗去了他大量體力。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-mcq-14": "本句指「在某個領域投入大量金錢」。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。"
+        "spend-reviewed-599c4831bb": "本句的 strength 指體力。spent 表示這些力量被消耗了，並沒有提到花錢。完整意思：漫長旅程耗去了他大量體力。",
+        "spend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "spend-mcq-14"
+      "correctOption": "spend-reviewed-599c4831bb",
+      "previousCorrectOption": "spend-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "spend-15-1",
-      "sense": "spend-mcq-14",
+      "sense": "spend-reviewed-599c4831bb",
       "en": "Years of stress had spent his energy.",
       "zh": "多年的壓力耗盡了他的精力。",
       "masked": "Years of stress had ____ his energy.",
       "options": [
-        "spend-mcq-14",
-        "spend-mcq-13",
-        "spend-mcq-15",
-        "spend-mcq-12",
-        "spend-mcq-16",
-        "spend-mcq-11"
+        "spend-reviewed-599c4831bb",
+        "spend-mcq-06",
+        "spend-mcq-25"
       ],
-      "explanation": "本句的「spent」指「在某個領域投入大量金錢」。",
+      "explanation": "本句的 energy 指精力。spent 表示這些力量被消耗了，並沒有提到花錢。完整意思：多年的壓力耗盡了他的精力。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "spent"
       ],
       "optionReasons": {
-        "spend-mcq-14": "本句指「在某個領域投入大量金錢」。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-11": "「把有限資源投入／消耗於某項工作或活動」是「spend resources」的用法，與本句語境不同。"
+        "spend-reviewed-599c4831bb": "本句的 energy 指精力。spent 表示這些力量被消耗了，並沒有提到花錢。完整意思：多年的壓力耗盡了他的精力。",
+        "spend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "spend-mcq-14"
+      "correctOption": "spend-reviewed-599c4831bb",
+      "previousCorrectOption": "spend-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "spend-16-0",
@@ -1541,11 +1345,7 @@ export default {
       "masked": "The company reduced its ____.",
       "options": [
         "spend-mcq-15",
-        "spend-mcq-14",
-        "spend-mcq-16",
-        "spend-mcq-13",
-        "spend-mcq-17",
-        "spend-mcq-12"
+        "spend-mcq-10"
       ],
       "explanation": "本句的「spending」指「花費金錢的行為，或某段時間內支出的金額」。",
       "sentenceIndex": 0,
@@ -1554,12 +1354,8 @@ export default {
         "spending"
       ],
       "optionReasons": {
-        "spend-mcq-15": "本句指「花費金錢的行為，或某段時間內支出的金額」。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。"
+        "spend-mcq-15": "本句的「spending」指「花費金錢的行為，或某段時間內支出的金額」。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-15"
     },
@@ -1571,11 +1367,7 @@ export default {
       "masked": "Household ____ increased last month.",
       "options": [
         "spend-mcq-15",
-        "spend-mcq-14",
-        "spend-mcq-16",
-        "spend-mcq-13",
-        "spend-mcq-17",
-        "spend-mcq-12"
+        "spend-mcq-10"
       ],
       "explanation": "本句的「spending」指「花費金錢的行為，或某段時間內支出的金額」。",
       "sentenceIndex": 1,
@@ -1584,12 +1376,8 @@ export default {
         "spending"
       ],
       "optionReasons": {
-        "spend-mcq-15": "本句指「花費金錢的行為，或某段時間內支出的金額」。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-12": "「合理而有效地分配時間、金錢或資源」是「spend wisely」的用法，與本句語境不同。"
+        "spend-mcq-15": "本句的「spending」指「花費金錢的行為，或某段時間內支出的金額」。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-15"
     },
@@ -1601,11 +1389,8 @@ export default {
       "masked": "Consumer ____ rose during the holiday season.",
       "options": [
         "spend-mcq-16",
-        "spend-mcq-15",
-        "spend-mcq-17",
-        "spend-mcq-14",
-        "spend-mcq-18",
-        "spend-mcq-13"
+        "spend-mcq-05",
+        "spend-mcq-22"
       ],
       "explanation": "本句的「spending」指「消費者購買商品和服務所支出的金錢」。",
       "sentenceIndex": 0,
@@ -1614,12 +1399,9 @@ export default {
         "spending"
       ],
       "optionReasons": {
-        "spend-mcq-16": "本句指「消費者購買商品和服務所支出的金錢」。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。"
+        "spend-mcq-16": "本句的「spending」指「消費者購買商品和服務所支出的金錢」。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-16"
     },
@@ -1631,11 +1413,8 @@ export default {
       "masked": "Weak consumer ____ can slow economic growth.",
       "options": [
         "spend-mcq-16",
-        "spend-mcq-15",
-        "spend-mcq-17",
-        "spend-mcq-14",
-        "spend-mcq-18",
-        "spend-mcq-13"
+        "spend-mcq-05",
+        "spend-mcq-24"
       ],
       "explanation": "本句的「spending」指「消費者購買商品和服務所支出的金錢」。",
       "sentenceIndex": 1,
@@ -1644,12 +1423,9 @@ export default {
         "spending"
       ],
       "optionReasons": {
-        "spend-mcq-16": "本句指「消費者購買商品和服務所支出的金錢」。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-13": "「不太限制地花錢；大手支出」是「spend freely」的用法，與本句語境不同。"
+        "spend-mcq-16": "本句的「spending」指「消費者購買商品和服務所支出的金錢」。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-16"
     },
@@ -1661,11 +1437,8 @@ export default {
       "masked": "Government ____ on healthcare increased.",
       "options": [
         "spend-mcq-17",
-        "spend-mcq-16",
-        "spend-mcq-18",
-        "spend-mcq-15",
-        "spend-mcq-19",
-        "spend-mcq-14"
+        "spend-mcq-10",
+        "spend-mcq-05"
       ],
       "explanation": "本句的「spending」指「政府／公共部門為政策、服務和項目支付的資金」。",
       "sentenceIndex": 0,
@@ -1674,12 +1447,9 @@ export default {
         "spending"
       ],
       "optionReasons": {
-        "spend-mcq-17": "本句指「政府／公共部門為政策、服務和項目支付的資金」。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。"
+        "spend-mcq-17": "本句的「spending」指「政府／公共部門為政策、服務和項目支付的資金」。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-17"
     },
@@ -1691,11 +1461,8 @@ export default {
       "masked": "The debate focused on public ____.",
       "options": [
         "spend-mcq-17",
-        "spend-mcq-16",
-        "spend-mcq-18",
-        "spend-mcq-15",
-        "spend-mcq-19",
-        "spend-mcq-14"
+        "spend-mcq-10",
+        "spend-mcq-04"
       ],
       "explanation": "本句的「spending」指「政府／公共部門為政策、服務和項目支付的資金」。",
       "sentenceIndex": 1,
@@ -1704,12 +1471,9 @@ export default {
         "spending"
       ],
       "optionReasons": {
-        "spend-mcq-17": "本句指「政府／公共部門為政策、服務和項目支付的資金」。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-14": "「在某個領域投入大量金錢」是「spend heavily on」的用法，與本句語境不同。"
+        "spend-mcq-17": "本句的「spending」指「政府／公共部門為政策、服務和項目支付的資金」。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-17"
     },
@@ -1721,11 +1485,8 @@ export default {
       "masked": "The department announced major ____.",
       "options": [
         "spend-mcq-18",
-        "spend-mcq-17",
-        "spend-mcq-19",
-        "spend-mcq-16",
-        "spend-mcq-20",
-        "spend-mcq-15"
+        "spend-mcq-25",
+        "spend-reviewed-599c4831bb"
       ],
       "explanation": "本句的「spending cuts」指「減少原本會花出的金錢；削減開支」。",
       "sentenceIndex": 0,
@@ -1734,12 +1495,9 @@ export default {
         "spending cuts"
       ],
       "optionReasons": {
-        "spend-mcq-18": "本句指「減少原本會花出的金錢；削減開支」。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。"
+        "spend-mcq-18": "本句的「spending cuts」指「減少原本會花出的金錢；削減開支」。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spend-reviewed-599c4831bb": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-18"
     },
@@ -1751,11 +1509,8 @@ export default {
       "masked": "The company introduced ____ to reduce costs.",
       "options": [
         "spend-mcq-18",
-        "spend-mcq-17",
-        "spend-mcq-19",
-        "spend-mcq-16",
-        "spend-mcq-20",
-        "spend-mcq-15"
+        "spend-mcq-04",
+        "spend-mcq-11"
       ],
       "explanation": "本句的「spending cuts」指「減少原本會花出的金錢；削減開支」。",
       "sentenceIndex": 1,
@@ -1764,12 +1519,9 @@ export default {
         "spending cuts"
       ],
       "optionReasons": {
-        "spend-mcq-18": "本句指「減少原本會花出的金錢；削減開支」。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-15": "「花費金錢的行為，或某段時間內支出的金額」是「spending — general」的用法，與本句語境不同。"
+        "spend-mcq-18": "本句的「spending cuts」指「減少原本會花出的金錢；削減開支」。",
+        "spend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-18"
     },
@@ -1781,11 +1533,7 @@ export default {
       "masked": "The card has a daily ____.",
       "options": [
         "spend-mcq-19",
-        "spend-mcq-18",
-        "spend-mcq-20",
-        "spend-mcq-17",
-        "spend-mcq-21",
-        "spend-mcq-16"
+        "spend-mcq-23"
       ],
       "explanation": "本句的「spending limit」指「某段時間或活動中最多可以花費的金額」。",
       "sentenceIndex": 0,
@@ -1794,12 +1542,8 @@ export default {
         "spending limit"
       ],
       "optionReasons": {
-        "spend-mcq-19": "本句指「某段時間或活動中最多可以花費的金額」。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。"
+        "spend-mcq-19": "本句的「spending limit」指「某段時間或活動中最多可以花費的金額」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-19"
     },
@@ -1811,11 +1555,7 @@ export default {
       "masked": "The project has a strict ____.",
       "options": [
         "spend-mcq-19",
-        "spend-mcq-18",
-        "spend-mcq-20",
-        "spend-mcq-17",
-        "spend-mcq-21",
-        "spend-mcq-16"
+        "spend-mcq-22"
       ],
       "explanation": "本句的「spending limit」指「某段時間或活動中最多可以花費的金額」。",
       "sentenceIndex": 1,
@@ -1824,12 +1564,8 @@ export default {
         "spending limit"
       ],
       "optionReasons": {
-        "spend-mcq-19": "本句指「某段時間或活動中最多可以花費的金額」。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-16": "「消費者購買商品和服務所支出的金錢」是「consumer spending」的用法，與本句語境不同。"
+        "spend-mcq-19": "本句的「spending limit」指「某段時間或活動中最多可以花費的金額」。",
+        "spend-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-19"
     },
@@ -1841,11 +1577,8 @@ export default {
       "masked": "He is a careful ____.",
       "options": [
         "spend-mcq-20",
-        "spend-mcq-19",
-        "spend-mcq-21",
-        "spend-mcq-18",
-        "spend-mcq-22",
-        "spend-mcq-17"
+        "spend-mcq-23",
+        "spend-mcq-05"
       ],
       "explanation": "本句的「spender」指「以某種方式或程度花錢的人／機構」。",
       "sentenceIndex": 0,
@@ -1854,12 +1587,9 @@ export default {
         "spender"
       ],
       "optionReasons": {
-        "spend-mcq-20": "本句指「以某種方式或程度花錢的人／機構」。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。"
+        "spend-mcq-20": "本句的「spender」指「以某種方式或程度花錢的人／機構」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-20"
     },
@@ -1871,11 +1601,7 @@ export default {
       "masked": "Young consumers are becoming bigger ____ online.",
       "options": [
         "spend-mcq-20",
-        "spend-mcq-19",
-        "spend-mcq-21",
-        "spend-mcq-18",
-        "spend-mcq-22",
-        "spend-mcq-17"
+        "spend-mcq-26"
       ],
       "explanation": "本句的「spenders」指「以某種方式或程度花錢的人／機構」。",
       "sentenceIndex": 1,
@@ -1884,12 +1610,8 @@ export default {
         "spenders"
       ],
       "optionReasons": {
-        "spend-mcq-20": "本句指「以某種方式或程度花錢的人／機構」。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-17": "「政府／公共部門為政策、服務和項目支付的資金」是「government/public spending」的用法，與本句語境不同。"
+        "spend-mcq-20": "本句的「spenders」指「以某種方式或程度花錢的人／機構」。",
+        "spend-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-20"
     },
@@ -1901,11 +1623,8 @@ export default {
       "masked": "The hotel offers special benefits to ____.",
       "options": [
         "spend-mcq-21",
-        "spend-mcq-20",
-        "spend-mcq-22",
-        "spend-mcq-19",
-        "spend-mcq-23",
-        "spend-mcq-18"
+        "spend-mcq-25",
+        "spend-mcq-23"
       ],
       "explanation": "本句的「big spenders」指「經常或一次性花很多錢的高消費者」。",
       "sentenceIndex": 0,
@@ -1914,12 +1633,9 @@ export default {
         "big spenders"
       ],
       "optionReasons": {
-        "spend-mcq-21": "本句指「經常或一次性花很多錢的高消費者」。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。"
+        "spend-mcq-21": "本句的「big spenders」指「經常或一次性花很多錢的高消費者」。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-21"
     },
@@ -1931,11 +1647,8 @@ export default {
       "masked": "He has never been a ____.",
       "options": [
         "spend-mcq-21",
-        "spend-mcq-20",
-        "spend-mcq-22",
-        "spend-mcq-19",
         "spend-mcq-23",
-        "spend-mcq-18"
+        "spend-mcq-25"
       ],
       "explanation": "本句的「big spender」指「經常或一次性花很多錢的高消費者」。",
       "sentenceIndex": 1,
@@ -1944,12 +1657,9 @@ export default {
         "big spender"
       ],
       "optionReasons": {
-        "spend-mcq-21": "本句指「經常或一次性花很多錢的高消費者」。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-18": "「減少原本會花出的金錢；削減開支」是「spending cuts」的用法，與本句語境不同。"
+        "spend-mcq-21": "本句的「big spender」指「經常或一次性花很多錢的高消費者」。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-21"
     },
@@ -1961,11 +1671,8 @@ export default {
       "masked": "The fuel was completely ____.",
       "options": [
         "spend-mcq-22",
-        "spend-mcq-21",
-        "spend-mcq-23",
-        "spend-mcq-20",
-        "spend-mcq-24",
-        "spend-mcq-19"
+        "spend-mcq-18",
+        "spend-mcq-05"
       ],
       "explanation": "本句的「spent」指「某種能源、資源或力量已被使用到接近／完全耗盡」。",
       "sentenceIndex": 0,
@@ -1974,12 +1681,9 @@ export default {
         "spent"
       ],
       "optionReasons": {
-        "spend-mcq-22": "本句指「某種能源、資源或力量已被使用到接近／完全耗盡」。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。"
+        "spend-mcq-22": "本句的「spent」指「某種能源、資源或力量已被使用到接近／完全耗盡」。",
+        "spend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-22"
     },
@@ -1991,11 +1695,7 @@ export default {
       "masked": "The battery was nearly ____.",
       "options": [
         "spend-mcq-22",
-        "spend-mcq-21",
-        "spend-mcq-23",
-        "spend-mcq-20",
-        "spend-mcq-24",
-        "spend-mcq-19"
+        "spend-mcq-15"
       ],
       "explanation": "本句的「spent」指「某種能源、資源或力量已被使用到接近／完全耗盡」。",
       "sentenceIndex": 1,
@@ -2004,12 +1704,8 @@ export default {
         "spent"
       ],
       "optionReasons": {
-        "spend-mcq-22": "本句指「某種能源、資源或力量已被使用到接近／完全耗盡」。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-19": "「某段時間或活動中最多可以花費的金額」是「spending limit」的用法，與本句語境不同。"
+        "spend-mcq-22": "本句的「spent」指「某種能源、資源或力量已被使用到接近／完全耗盡」。",
+        "spend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-22"
     },
@@ -2021,11 +1717,8 @@ export default {
       "masked": "After the presentation, I felt completely ____.",
       "options": [
         "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-24",
-        "spend-mcq-21",
-        "spend-mcq-25",
-        "spend-mcq-20"
+        "spend-mcq-13",
+        "spend-mcq-25"
       ],
       "explanation": "本句的「spent」指「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」。",
       "sentenceIndex": 0,
@@ -2034,12 +1727,9 @@ export default {
         "spent"
       ],
       "optionReasons": {
-        "spend-mcq-23": "本句指「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-25": "「以某種方式、在某地或與某人一起度過指定時間」是「spend the night/day/weekend」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。"
+        "spend-mcq-23": "本句的「spent」指「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」。",
+        "spend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-23"
     },
@@ -2051,11 +1741,8 @@ export default {
       "masked": "She collapsed into a chair, emotionally ____.",
       "options": [
         "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-24",
-        "spend-mcq-21",
-        "spend-mcq-25",
-        "spend-mcq-20"
+        "spend-mcq-07",
+        "spend-mcq-04"
       ],
       "explanation": "本句的「spent」指「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」。",
       "sentenceIndex": 1,
@@ -2064,12 +1751,9 @@ export default {
         "spent"
       ],
       "optionReasons": {
-        "spend-mcq-23": "本句指「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。",
-        "spend-mcq-25": "「以某種方式、在某地或與某人一起度過指定時間」是「spend the night/day/weekend」的用法，與本句語境不同。",
-        "spend-mcq-20": "「以某種方式或程度花錢的人／機構」是「spender」的用法，與本句語境不同。"
+        "spend-mcq-23": "本句的「spent」指「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」。",
+        "spend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-23"
     },
@@ -2081,11 +1765,8 @@ export default {
       "masked": "The movement had become a ____.",
       "options": [
         "spend-mcq-24",
-        "spend-mcq-23",
-        "spend-mcq-25",
-        "spend-mcq-22",
-        "spend-mcq-26",
-        "spend-mcq-21"
+        "spend-mcq-13",
+        "spend-mcq-25"
       ],
       "explanation": "本句的「spent force」指「曾經有力量／影響，但現在已失去主要作用的勢力／事物」。",
       "sentenceIndex": 0,
@@ -2094,12 +1775,9 @@ export default {
         "spent force"
       ],
       "optionReasons": {
-        "spend-mcq-24": "本句指「曾經有力量／影響，但現在已失去主要作用的勢力／事物」。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-25": "「以某種方式、在某地或與某人一起度過指定時間」是「spend the night/day/weekend」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-26": "「把人生／職業生涯中的長時間投入某項活動或工作」是「spend your life/career doing」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-24": "本句的「spent force」指「曾經有力量／影響，但現在已失去主要作用的勢力／事物」。",
+        "spend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-24"
     },
@@ -2111,11 +1789,8 @@ export default {
       "masked": "By then, the argument was largely a ____.",
       "options": [
         "spend-mcq-24",
-        "spend-mcq-23",
-        "spend-mcq-25",
-        "spend-mcq-22",
-        "spend-mcq-26",
-        "spend-mcq-21"
+        "spend-mcq-03",
+        "spend-mcq-18"
       ],
       "explanation": "本句的「spent force」指「曾經有力量／影響，但現在已失去主要作用的勢力／事物」。",
       "sentenceIndex": 1,
@@ -2124,12 +1799,9 @@ export default {
         "spent force"
       ],
       "optionReasons": {
-        "spend-mcq-24": "本句指「曾經有力量／影響，但現在已失去主要作用的勢力／事物」。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-25": "「以某種方式、在某地或與某人一起度過指定時間」是「spend the night/day/weekend」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-26": "「把人生／職業生涯中的長時間投入某項活動或工作」是「spend your life/career doing」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-24": "本句的「spent force」指「曾經有力量／影響，但現在已失去主要作用的勢力／事物」。",
+        "spend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-24"
     },
@@ -2141,11 +1813,8 @@ export default {
       "masked": "We ____ at a hotel.",
       "options": [
         "spend-mcq-25",
-        "spend-mcq-24",
-        "spend-mcq-26",
-        "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-21"
+        "spend-mcq-18",
+        "spend-mcq-10"
       ],
       "explanation": "本句的「spent the night」指「以某種方式、在某地或與某人一起度過指定時間」。",
       "sentenceIndex": 0,
@@ -2154,12 +1823,9 @@ export default {
         "spent the night"
       ],
       "optionReasons": {
-        "spend-mcq-25": "本句指「以某種方式、在某地或與某人一起度過指定時間」。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-26": "「把人生／職業生涯中的長時間投入某項活動或工作」是「spend your life/career doing」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-25": "本句的「spent the night」指「以某種方式、在某地或與某人一起度過指定時間」。",
+        "spend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-25"
     },
@@ -2172,10 +1838,7 @@ export default {
       "options": [
         "spend-mcq-25",
         "spend-mcq-24",
-        "spend-mcq-26",
-        "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-21"
+        "spend-mcq-13"
       ],
       "explanation": "本句的「spend the night」指「以某種方式、在某地或與某人一起度過指定時間」。",
       "sentenceIndex": 1,
@@ -2184,12 +1847,9 @@ export default {
         "spend the night"
       ],
       "optionReasons": {
-        "spend-mcq-25": "本句指「以某種方式、在某地或與某人一起度過指定時間」。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-26": "「把人生／職業生涯中的長時間投入某項活動或工作」是「spend your life/career doing」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-25": "本句的「spend the night」指「以某種方式、在某地或與某人一起度過指定時間」。",
+        "spend-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-25"
     },
@@ -2201,11 +1861,7 @@ export default {
       "masked": "I ____ preparing for the presentation.",
       "options": [
         "spend-mcq-25",
-        "spend-mcq-24",
-        "spend-mcq-26",
-        "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-21"
+        "spend-mcq-14"
       ],
       "explanation": "本句的「spent the weekend」指「以某種方式、在某地或與某人一起度過指定時間」。",
       "sentenceIndex": 0,
@@ -2214,12 +1870,8 @@ export default {
         "spent the weekend"
       ],
       "optionReasons": {
-        "spend-mcq-25": "本句指「以某種方式、在某地或與某人一起度過指定時間」。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-26": "「把人生／職業生涯中的長時間投入某項活動或工作」是「spend your life/career doing」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-25": "本句的「spent the weekend」指「以某種方式、在某地或與某人一起度過指定時間」。",
+        "spend-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-25"
     },
@@ -2231,11 +1883,8 @@ export default {
       "masked": "They ____ with family.",
       "options": [
         "spend-mcq-25",
-        "spend-mcq-24",
-        "spend-mcq-26",
-        "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-21"
+        "spend-mcq-08",
+        "spend-mcq-23"
       ],
       "explanation": "本句的「spent the holiday」指「以某種方式、在某地或與某人一起度過指定時間」。",
       "sentenceIndex": 1,
@@ -2244,12 +1893,9 @@ export default {
         "spent the holiday"
       ],
       "optionReasons": {
-        "spend-mcq-25": "本句指「以某種方式、在某地或與某人一起度過指定時間」。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-26": "「把人生／職業生涯中的長時間投入某項活動或工作」是「spend your life/career doing」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-25": "本句的「spent the holiday」指「以某種方式、在某地或與某人一起度過指定時間」。",
+        "spend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spend-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-25"
     },
@@ -2261,10 +1907,6 @@ export default {
       "masked": "He ____ in education.",
       "options": [
         "spend-mcq-26",
-        "spend-mcq-25",
-        "spend-mcq-24",
-        "spend-mcq-23",
-        "spend-mcq-22",
         "spend-mcq-21"
       ],
       "explanation": "本句的「spent his career working」指「把人生／職業生涯中的長時間投入某項活動或工作」。",
@@ -2274,12 +1916,8 @@ export default {
         "spent his career working"
       ],
       "optionReasons": {
-        "spend-mcq-26": "本句指「把人生／職業生涯中的長時間投入某項活動或工作」。",
-        "spend-mcq-25": "「以某種方式、在某地或與某人一起度過指定時間」是「spend the night/day/weekend」的用法，與本句語境不同。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-26": "本句的「spent his career working」指「把人生／職業生涯中的長時間投入某項活動或工作」。",
+        "spend-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-26"
     },
@@ -2291,11 +1929,7 @@ export default {
       "masked": "She ____ others.",
       "options": [
         "spend-mcq-26",
-        "spend-mcq-25",
-        "spend-mcq-24",
-        "spend-mcq-23",
-        "spend-mcq-22",
-        "spend-mcq-21"
+        "spend-mcq-18"
       ],
       "explanation": "本句的「spent her life helping」指「把人生／職業生涯中的長時間投入某項活動或工作」。",
       "sentenceIndex": 1,
@@ -2304,12 +1938,8 @@ export default {
         "spent her life helping"
       ],
       "optionReasons": {
-        "spend-mcq-26": "本句指「把人生／職業生涯中的長時間投入某項活動或工作」。",
-        "spend-mcq-25": "「以某種方式、在某地或與某人一起度過指定時間」是「spend the night/day/weekend」的用法，與本句語境不同。",
-        "spend-mcq-24": "「曾經有力量／影響，但現在已失去主要作用的勢力／事物」是「spent force」的用法，與本句語境不同。",
-        "spend-mcq-23": "「身體、精神或情緒上的能量幾乎完全耗盡；筋疲力盡」是「spent — exhausted」的用法，與本句語境不同。",
-        "spend-mcq-22": "「某種能源、資源或力量已被使用到接近／完全耗盡」是「spent — used up」的用法，與本句語境不同。",
-        "spend-mcq-21": "「經常或一次性花很多錢的高消費者」是「big spender」的用法，與本句語境不同。"
+        "spend-mcq-26": "本句的「spent her life helping」指「把人生／職業生涯中的長時間投入某項活動或工作」。",
+        "spend-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spend-mcq-26"
     }
@@ -2322,5 +1952,12 @@ export default {
     "pages": 26,
     "sha256": "967ae5669a41a48fa87f5724c28f64fe4054528cb464c8cee779c79912e68d58"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-sound",
+      "title": "耳朵聽見的聲音"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

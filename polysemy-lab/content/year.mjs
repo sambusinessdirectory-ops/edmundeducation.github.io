@@ -84,7 +84,7 @@ export default {
     },
     {
       "id": "year-mcq-05",
-      "title": "表示某人幾歲或某物已有多少年歷史",
+      "title": "某人幾歲或某物已有多少年歷史",
       "form": "years old",
       "en": "years old",
       "zh": "表示某人幾歲或某物已有多少年歷史",
@@ -703,7 +703,7 @@ export default {
     },
     {
       "id": "year-mcq-30",
-      "title": "表示幾年前",
+      "title": "幾年前",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示幾年前",
@@ -725,7 +725,7 @@ export default {
     },
     {
       "id": "year-mcq-31",
-      "title": "表示歲；年",
+      "title": "歲；年",
       "form": "5. year — unit used to express age",
       "en": "5. year — unit used to express age",
       "zh": "表示歲；年",
@@ -755,11 +755,8 @@ export default {
       "masked": "She gave me the pen a few ____ ago.",
       "options": [
         "year-mcq-30",
-        "year-mcq-29",
-        "year-mcq-31",
-        "year-mcq-28",
-        "year-mcq-27",
-        "year-mcq-26"
+        "year-mcq-26",
+        "year-mcq-27"
       ],
       "explanation": "本句的「years」指「表示幾年前」。",
       "sentenceIndex": 0,
@@ -768,12 +765,9 @@ export default {
         "years"
       ],
       "optionReasons": {
-        "year-mcq-30": "本句指「表示幾年前」。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-31": "「表示歲；年」是「5. year — unit used to express age」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-30": "本句的「years」指「表示幾年前」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-30"
     },
@@ -785,11 +779,8 @@ export default {
       "masked": "I have kept it for several ____.",
       "options": [
         "year-mcq-30",
-        "year-mcq-29",
-        "year-mcq-31",
-        "year-mcq-28",
-        "year-mcq-27",
-        "year-mcq-26"
+        "year-mcq-26",
+        "year-mcq-27"
       ],
       "explanation": "本句的「years」指「表示幾年前」。",
       "sentenceIndex": 1,
@@ -798,12 +789,9 @@ export default {
         "years"
       ],
       "optionReasons": {
-        "year-mcq-30": "本句指「表示幾年前」。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-31": "「表示歲；年」是「5. year — unit used to express age」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-30": "本句的「years」指「表示幾年前」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-30"
     },
@@ -815,11 +803,9 @@ export default {
       "masked": "I lived there for three ____.",
       "options": [
         "year-mcq-01",
-        "year-mcq-02",
+        "year-mcq-26",
         "year-mcq-03",
-        "year-mcq-04",
-        "year-mcq-05",
-        "year-mcq-06"
+        "year-mcq-25"
       ],
       "explanation": "本句的「years」指「用來計算時間的大約十二個月期間；年／一年」。",
       "sentenceIndex": 2,
@@ -828,12 +814,10 @@ export default {
         "years"
       ],
       "optionReasons": {
-        "year-mcq-01": "本句指「用來計算時間的大約十二個月期間；年／一年」。",
-        "year-mcq-02": "「從 1 月 1 日至 12 月 31 日的曆年」是「calendar year」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-01": "本句的「years」指「用來計算時間的大約十二個月期間；年／一年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-01"
     },
@@ -845,11 +829,9 @@ export default {
       "masked": "A lot can change in a ____.",
       "options": [
         "year-mcq-01",
-        "year-mcq-02",
-        "year-mcq-03",
-        "year-mcq-04",
-        "year-mcq-05",
-        "year-mcq-06"
+        "year-mcq-26",
+        "year-mcq-21",
+        "year-mcq-27"
       ],
       "explanation": "本句的「year」指「用來計算時間的大約十二個月期間；年／一年」。",
       "sentenceIndex": 3,
@@ -858,12 +840,10 @@ export default {
         "year"
       ],
       "optionReasons": {
-        "year-mcq-01": "本句指「用來計算時間的大約十二個月期間；年／一年」。",
-        "year-mcq-02": "「從 1 月 1 日至 12 月 31 日的曆年」是「calendar year」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-01": "本句的「year」指「用來計算時間的大約十二個月期間；年／一年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-01"
     },
@@ -875,11 +855,9 @@ export default {
       "masked": "Sales increased during the last ____.",
       "options": [
         "year-mcq-02",
-        "year-mcq-01",
-        "year-mcq-03",
-        "year-mcq-04",
-        "year-mcq-05",
-        "year-mcq-06"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-15"
       ],
       "explanation": "本句的「calendar year」指「從 1 月 1 日至 12 月 31 日的曆年」。",
       "sentenceIndex": 4,
@@ -888,12 +866,10 @@ export default {
         "calendar year"
       ],
       "optionReasons": {
-        "year-mcq-02": "本句指「從 1 月 1 日至 12 月 31 日的曆年」。",
-        "year-mcq-01": "「用來計算時間的大約十二個月期間；年／一年」是「year — twelve-month period」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-02": "本句的「calendar year」指「從 1 月 1 日至 12 月 31 日的曆年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-02"
     },
@@ -905,11 +881,9 @@ export default {
       "masked": "The report covers the entire ____.",
       "options": [
         "year-mcq-02",
-        "year-mcq-01",
-        "year-mcq-03",
-        "year-mcq-04",
-        "year-mcq-05",
-        "year-mcq-06"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-22"
       ],
       "explanation": "本句的「calendar year」指「從 1 月 1 日至 12 月 31 日的曆年」。",
       "sentenceIndex": 5,
@@ -918,12 +892,10 @@ export default {
         "calendar year"
       ],
       "optionReasons": {
-        "year-mcq-02": "本句指「從 1 月 1 日至 12 月 31 日的曆年」。",
-        "year-mcq-01": "「用來計算時間的大約十二個月期間；年／一年」是「year — twelve-month period」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-02": "本句的「calendar year」指「從 1 月 1 日至 12 月 31 日的曆年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-02"
     },
@@ -935,11 +907,9 @@ export default {
       "masked": "I started university ____.",
       "options": [
         "year-mcq-03",
-        "year-mcq-02",
-        "year-mcq-04",
-        "year-mcq-01",
-        "year-mcq-05",
-        "year-mcq-06"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-17"
       ],
       "explanation": "本句的「last year」指「今年／去年／明年」。",
       "sentenceIndex": 6,
@@ -948,12 +918,10 @@ export default {
         "last year"
       ],
       "optionReasons": {
-        "year-mcq-03": "本句指「今年／去年／明年」。",
-        "year-mcq-02": "「從 1 月 1 日至 12 月 31 日的曆年」是「calendar year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-01": "「用來計算時間的大約十二個月期間；年／一年」是「year — twelve-month period」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-03": "本句的「last year」指「今年／去年／明年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-03"
     },
@@ -965,11 +933,9 @@ export default {
       "masked": "We are planning to travel ____.",
       "options": [
         "year-mcq-03",
-        "year-mcq-02",
-        "year-mcq-04",
-        "year-mcq-01",
-        "year-mcq-05",
-        "year-mcq-06"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-14"
       ],
       "explanation": "本句的「next year」指「今年／去年／明年」。",
       "sentenceIndex": 7,
@@ -978,12 +944,10 @@ export default {
         "next year"
       ],
       "optionReasons": {
-        "year-mcq-03": "本句指「今年／去年／明年」。",
-        "year-mcq-02": "「從 1 月 1 日至 12 月 31 日的曆年」是「calendar year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-01": "「用來計算時間的大約十二個月期間；年／一年」是「year — twelve-month period」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-03": "本句的「next year」指「今年／去年／明年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-03"
     },
@@ -995,9 +959,6 @@ export default {
       "masked": "She is twenty ____.",
       "options": [
         "year-mcq-31",
-        "year-mcq-30",
-        "year-mcq-29",
-        "year-mcq-28",
         "year-mcq-27",
         "year-mcq-26"
       ],
@@ -1008,12 +969,9 @@ export default {
         "years old"
       ],
       "optionReasons": {
-        "year-mcq-31": "本句指「表示歲；年」。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-31": "本句的「years old」指「表示歲；年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-31"
     },
@@ -1025,9 +983,6 @@ export default {
       "masked": "The building is over a hundred ____.",
       "options": [
         "year-mcq-31",
-        "year-mcq-30",
-        "year-mcq-29",
-        "year-mcq-28",
         "year-mcq-27",
         "year-mcq-26"
       ],
@@ -1038,12 +993,9 @@ export default {
         "years old"
       ],
       "optionReasons": {
-        "year-mcq-31": "本句指「表示歲；年」。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-31": "本句的「years old」指「表示歲；年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-31"
     },
@@ -1055,11 +1007,9 @@ export default {
       "masked": "The child is five ____.",
       "options": [
         "year-mcq-05",
-        "year-mcq-04",
-        "year-mcq-06",
-        "year-mcq-03",
-        "year-mcq-07",
-        "year-mcq-02"
+        "year-mcq-26",
+        "year-mcq-19",
+        "year-mcq-20"
       ],
       "explanation": "本句的「years old」指「表示某人幾歲或某物已有多少年歷史」。",
       "sentenceIndex": 10,
@@ -1068,12 +1018,10 @@ export default {
         "years old"
       ],
       "optionReasons": {
-        "year-mcq-05": "本句指「表示某人幾歲或某物已有多少年歷史」。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-02": "「從 1 月 1 日至 12 月 31 日的曆年」是「calendar year」的用法，與本句語境不同。"
+        "year-mcq-05": "本句的「years old」指「表示某人幾歲或某物已有多少年歷史」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-05"
     },
@@ -1085,11 +1033,9 @@ export default {
       "masked": "This tree is more than two hundred ____.",
       "options": [
         "year-mcq-05",
-        "year-mcq-04",
-        "year-mcq-06",
-        "year-mcq-03",
-        "year-mcq-07",
-        "year-mcq-02"
+        "year-mcq-26",
+        "year-mcq-11",
+        "year-mcq-01"
       ],
       "explanation": "本句的「years old」指「表示某人幾歲或某物已有多少年歷史」。",
       "sentenceIndex": 11,
@@ -1098,12 +1044,10 @@ export default {
         "years old"
       ],
       "optionReasons": {
-        "year-mcq-05": "本句指「表示某人幾歲或某物已有多少年歷史」。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-02": "「從 1 月 1 日至 12 月 31 日的曆年」是「calendar year」的用法，與本句語境不同。"
+        "year-mcq-05": "本句的「years old」指「表示某人幾歲或某物已有多少年歷史」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-05"
     },
@@ -1115,11 +1059,9 @@ export default {
       "masked": "She is in her first ____ at university.",
       "options": [
         "year-mcq-06",
-        "year-mcq-05",
-        "year-mcq-07",
-        "year-mcq-04",
-        "year-mcq-08",
-        "year-mcq-03"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-15"
       ],
       "explanation": "本句的「year」指「學校或大學課程中的某一年度階段；年級／學年」。",
       "sentenceIndex": 12,
@@ -1128,12 +1070,10 @@ export default {
         "year"
       ],
       "optionReasons": {
-        "year-mcq-06": "本句指「學校或大學課程中的某一年度階段；年級／學年」。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。"
+        "year-mcq-06": "本句的「year」指「學校或大學課程中的某一年度階段；年級／學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-06"
     },
@@ -1145,11 +1085,9 @@ export default {
       "masked": "Students in the final ____ have to complete a project.",
       "options": [
         "year-mcq-06",
-        "year-mcq-05",
-        "year-mcq-07",
-        "year-mcq-04",
-        "year-mcq-08",
-        "year-mcq-03"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-12"
       ],
       "explanation": "本句的「year」指「學校或大學課程中的某一年度階段；年級／學年」。",
       "sentenceIndex": 13,
@@ -1158,12 +1096,10 @@ export default {
         "year"
       ],
       "optionReasons": {
-        "year-mcq-06": "本句指「學校或大學課程中的某一年度階段；年級／學年」。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。"
+        "year-mcq-06": "本句的「year」指「學校或大學課程中的某一年度階段；年級／學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-06"
     },
@@ -1175,11 +1111,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "year-mcq-06",
-        "year-mcq-05",
-        "year-mcq-07",
-        "year-mcq-04",
-        "year-mcq-08",
-        "year-mcq-03"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-14"
       ],
       "explanation": "本句的「first-year student」指「學校或大學課程中的某一年度階段；年級／學年」。",
       "sentenceIndex": 14,
@@ -1188,12 +1122,10 @@ export default {
         "first-year student"
       ],
       "optionReasons": {
-        "year-mcq-06": "本句指「學校或大學課程中的某一年度階段；年級／學年」。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。"
+        "year-mcq-06": "本句的「first-year student」指「學校或大學課程中的某一年度階段；年級／學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-06"
     },
@@ -1205,11 +1137,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "year-mcq-06",
-        "year-mcq-05",
-        "year-mcq-07",
-        "year-mcq-04",
-        "year-mcq-08",
-        "year-mcq-03"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-02"
       ],
       "explanation": "本句的「final-year student」指「學校或大學課程中的某一年度階段；年級／學年」。",
       "sentenceIndex": 15,
@@ -1218,12 +1148,10 @@ export default {
         "final-year student"
       ],
       "optionReasons": {
-        "year-mcq-06": "本句指「學校或大學課程中的某一年度階段；年級／學年」。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-03": "「今年／去年／明年」是「this/last/next year」的用法，與本句語境不同。"
+        "year-mcq-06": "本句的「final-year student」指「學校或大學課程中的某一年度階段；年級／學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-06"
     },
@@ -1235,11 +1163,9 @@ export default {
       "masked": "The new ____ starts in September.",
       "options": [
         "year-mcq-07",
-        "year-mcq-06",
-        "year-mcq-08",
-        "year-mcq-05",
-        "year-mcq-09",
-        "year-mcq-04"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-20"
       ],
       "explanation": "本句的「academic year」指「學校或大學進行教學的一個學年」。",
       "sentenceIndex": 16,
@@ -1248,12 +1174,10 @@ export default {
         "academic year"
       ],
       "optionReasons": {
-        "year-mcq-07": "本句指「學校或大學進行教學的一個學年」。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。"
+        "year-mcq-07": "本句的「academic year」指「學校或大學進行教學的一個學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-07"
     },
@@ -1265,11 +1189,9 @@ export default {
       "masked": "Tuition is paid for each ____.",
       "options": [
         "year-mcq-07",
-        "year-mcq-06",
-        "year-mcq-08",
-        "year-mcq-05",
-        "year-mcq-09",
-        "year-mcq-04"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-21"
       ],
       "explanation": "本句的「academic year」指「學校或大學進行教學的一個學年」。",
       "sentenceIndex": 17,
@@ -1278,12 +1200,10 @@ export default {
         "academic year"
       ],
       "optionReasons": {
-        "year-mcq-07": "本句指「學校或大學進行教學的一個學年」。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-04": "「用來表示人或物存在多久的年數；歲／年」是「year — age」的用法，與本句語境不同。"
+        "year-mcq-07": "本句的「academic year」指「學校或大學進行教學的一個學年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-07"
     },
@@ -1295,11 +1215,9 @@ export default {
       "masked": "The ____ ends in June.",
       "options": [
         "year-mcq-08",
-        "year-mcq-07",
-        "year-mcq-09",
-        "year-mcq-06",
-        "year-mcq-10",
-        "year-mcq-05"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-03"
       ],
       "explanation": "本句的「school year」指「學校一年中的上課期間；學年」。",
       "sentenceIndex": 18,
@@ -1308,12 +1226,10 @@ export default {
         "school year"
       ],
       "optionReasons": {
-        "year-mcq-08": "本句指「學校一年中的上課期間；學年」。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。"
+        "year-mcq-08": "本句的「school year」指「學校一年中的上課期間；學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-08"
     },
@@ -1325,11 +1241,9 @@ export default {
       "masked": "She moved schools in the middle of the ____.",
       "options": [
         "year-mcq-08",
-        "year-mcq-07",
-        "year-mcq-09",
-        "year-mcq-06",
-        "year-mcq-10",
-        "year-mcq-05"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-11"
       ],
       "explanation": "本句的「school year」指「學校一年中的上課期間；學年」。",
       "sentenceIndex": 19,
@@ -1338,12 +1252,10 @@ export default {
         "school year"
       ],
       "optionReasons": {
-        "year-mcq-08": "本句指「學校一年中的上課期間；學年」。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-05": "「表示某人幾歲或某物已有多少年歷史」是「years old」的用法，與本句語境不同。"
+        "year-mcq-08": "本句的「school year」指「學校一年中的上課期間；學年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-08"
     },
@@ -1355,11 +1267,9 @@ export default {
       "masked": "The company reported strong results for the ____.",
       "options": [
         "year-mcq-09",
-        "year-mcq-08",
-        "year-mcq-10",
-        "year-mcq-07",
-        "year-mcq-11",
-        "year-mcq-06"
+        "year-mcq-26",
+        "year-mcq-25",
+        "year-mcq-02"
       ],
       "explanation": "本句的「financial year」指「公司、政府等用於財務及會計的年度期間」。",
       "sentenceIndex": 20,
@@ -1368,12 +1278,10 @@ export default {
         "financial year"
       ],
       "optionReasons": {
-        "year-mcq-09": "本句指「公司、政府等用於財務及會計的年度期間」。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-09": "本句的「financial year」指「公司、政府等用於財務及會計的年度期間」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-09"
     },
@@ -1385,11 +1293,9 @@ export default {
       "masked": "Spending must be recorded within the current ____.",
       "options": [
         "year-mcq-09",
-        "year-mcq-08",
-        "year-mcq-10",
-        "year-mcq-07",
+        "year-mcq-26",
         "year-mcq-11",
-        "year-mcq-06"
+        "year-mcq-12"
       ],
       "explanation": "本句的「financial year」指「公司、政府等用於財務及會計的年度期間」。",
       "sentenceIndex": 21,
@@ -1398,12 +1304,10 @@ export default {
         "financial year"
       ],
       "optionReasons": {
-        "year-mcq-09": "本句指「公司、政府等用於財務及會計的年度期間」。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-09": "本句的「financial year」指「公司、政府等用於財務及會計的年度期間」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-09"
     },
@@ -1415,11 +1319,9 @@ export default {
       "masked": "The budget applies to the next ____.",
       "options": [
         "year-mcq-09",
-        "year-mcq-08",
-        "year-mcq-10",
-        "year-mcq-07",
-        "year-mcq-11",
-        "year-mcq-06"
+        "year-mcq-26",
+        "year-mcq-03",
+        "year-mcq-10"
       ],
       "explanation": "本句的「fiscal year」指「公司、政府等用於財務及會計的年度期間」。",
       "sentenceIndex": 22,
@@ -1428,12 +1330,10 @@ export default {
         "fiscal year"
       ],
       "optionReasons": {
-        "year-mcq-09": "本句指「公司、政府等用於財務及會計的年度期間」。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-09": "本句的「fiscal year」指「公司、政府等用於財務及會計的年度期間」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-09"
     },
@@ -1445,11 +1345,9 @@ export default {
       "masked": "Revenue rose during the last ____.",
       "options": [
         "year-mcq-09",
-        "year-mcq-08",
-        "year-mcq-10",
-        "year-mcq-07",
-        "year-mcq-11",
-        "year-mcq-06"
+        "year-mcq-26",
+        "year-mcq-14",
+        "year-mcq-07"
       ],
       "explanation": "本句的「fiscal year」指「公司、政府等用於財務及會計的年度期間」。",
       "sentenceIndex": 23,
@@ -1458,12 +1356,10 @@ export default {
         "fiscal year"
       ],
       "optionReasons": {
-        "year-mcq-09": "本句指「公司、政府等用於財務及會計的年度期間」。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-06": "「學校或大學課程中的某一年度階段；年級／學年」是「year — education level」的用法，與本句語境不同。"
+        "year-mcq-09": "本句的「fiscal year」指「公司、政府等用於財務及會計的年度期間」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-09"
     },
@@ -1475,11 +1371,9 @@ export default {
       "masked": "She completed a ____.",
       "options": [
         "year-mcq-10",
-        "year-mcq-09",
-        "year-mcq-11",
-        "year-mcq-08",
-        "year-mcq-12",
-        "year-mcq-07"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-25"
       ],
       "explanation": "本句的「year-long course」指「持續整整一年的」。",
       "sentenceIndex": 24,
@@ -1488,12 +1382,10 @@ export default {
         "year-long course"
       ],
       "optionReasons": {
-        "year-mcq-10": "本句指「持續整整一年的」。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。"
+        "year-mcq-10": "本句的「year-long course」指「持續整整一年的」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-10"
     },
@@ -1505,10 +1397,8 @@ export default {
       "masked": "The museum held a ____.",
       "options": [
         "year-mcq-10",
-        "year-mcq-09",
-        "year-mcq-11",
-        "year-mcq-08",
-        "year-mcq-12",
+        "year-mcq-26",
+        "year-mcq-27",
         "year-mcq-07"
       ],
       "explanation": "本句的「year-long exhibition」指「持續整整一年的」。",
@@ -1518,12 +1408,10 @@ export default {
         "year-long exhibition"
       ],
       "optionReasons": {
-        "year-mcq-10": "本句指「持續整整一年的」。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-07": "「學校或大學進行教學的一個學年」是「academic year」的用法，與本句語境不同。"
+        "year-mcq-10": "本句的「year-long exhibition」指「持續整整一年的」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-10"
     },
@@ -1535,11 +1423,9 @@ export default {
       "masked": "The pool is open ____.",
       "options": [
         "year-mcq-11",
-        "year-mcq-10",
-        "year-mcq-12",
-        "year-mcq-09",
-        "year-mcq-13",
-        "year-mcq-08"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-15"
       ],
       "explanation": "本句的「year-round」指「全年持續或全年都可使用的」。",
       "sentenceIndex": 26,
@@ -1548,12 +1434,10 @@ export default {
         "year-round"
       ],
       "optionReasons": {
-        "year-mcq-11": "本句指「全年持續或全年都可使用的」。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。"
+        "year-mcq-11": "本句的「year-round」指「全年持續或全年都可使用的」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-11"
     },
@@ -1565,11 +1449,9 @@ export default {
       "masked": "The island has warm weather ____.",
       "options": [
         "year-mcq-11",
-        "year-mcq-10",
-        "year-mcq-12",
-        "year-mcq-09",
-        "year-mcq-13",
-        "year-mcq-08"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-06"
       ],
       "explanation": "本句的「year-round」指「全年持續或全年都可使用的」。",
       "sentenceIndex": 27,
@@ -1578,12 +1460,10 @@ export default {
         "year-round"
       ],
       "optionReasons": {
-        "year-mcq-11": "本句指「全年持續或全年都可使用的」。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-08": "「學校一年中的上課期間；學年」是「school year」的用法，與本句語境不同。"
+        "year-mcq-11": "本句的「year-round」指「全年持續或全年都可使用的」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-11"
     },
@@ -1595,11 +1475,9 @@ export default {
       "masked": "1997 was an important ____ in Hong Kong history.",
       "options": [
         "year-mcq-12",
-        "year-mcq-11",
-        "year-mcq-13",
-        "year-mcq-10",
-        "year-mcq-14",
-        "year-mcq-09"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-19"
       ],
       "explanation": "本句的「year」指「以數字辨識的某一特定年份」。",
       "sentenceIndex": 28,
@@ -1608,12 +1486,10 @@ export default {
         "year"
       ],
       "optionReasons": {
-        "year-mcq-12": "本句指「以數字辨識的某一特定年份」。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。"
+        "year-mcq-12": "本句的「year」指「以數字辨識的某一特定年份」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-12"
     },
@@ -1625,11 +1501,9 @@ export default {
       "masked": "What ____ were you born?",
       "options": [
         "year-mcq-12",
-        "year-mcq-11",
-        "year-mcq-13",
-        "year-mcq-10",
-        "year-mcq-14",
-        "year-mcq-09"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-14"
       ],
       "explanation": "本句的「year」指「以數字辨識的某一特定年份」。",
       "sentenceIndex": 29,
@@ -1638,12 +1512,10 @@ export default {
         "year"
       ],
       "optionReasons": {
-        "year-mcq-12": "本句指「以數字辨識的某一特定年份」。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。"
+        "year-mcq-12": "本句的「year」指「以數字辨識的某一特定年份」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-12"
     },
@@ -1655,11 +1527,9 @@ export default {
       "masked": "The company was founded ____.",
       "options": [
         "year-mcq-12",
-        "year-mcq-11",
-        "year-mcq-13",
-        "year-mcq-10",
-        "year-mcq-14",
-        "year-mcq-09"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-15"
       ],
       "explanation": "本句的「in the year 2000」指「以數字辨識的某一特定年份」。",
       "sentenceIndex": 30,
@@ -1668,12 +1538,10 @@ export default {
         "in the year 2000"
       ],
       "optionReasons": {
-        "year-mcq-12": "本句指「以數字辨識的某一特定年份」。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。"
+        "year-mcq-12": "本句的「in the year 2000」指「以數字辨識的某一特定年份」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-12"
     },
@@ -1685,11 +1553,9 @@ export default {
       "masked": "The bridge opened ____.",
       "options": [
         "year-mcq-12",
-        "year-mcq-11",
-        "year-mcq-13",
-        "year-mcq-10",
-        "year-mcq-14",
-        "year-mcq-09"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-17"
       ],
       "explanation": "本句的「in the year 2012」指「以數字辨識的某一特定年份」。",
       "sentenceIndex": 31,
@@ -1698,12 +1564,10 @@ export default {
         "in the year 2012"
       ],
       "optionReasons": {
-        "year-mcq-12": "本句指「以數字辨識的某一特定年份」。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-10": "「持續整整一年的」是「year-long」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-09": "「公司、政府等用於財務及會計的年度期間」是「financial/fiscal year」的用法，與本句語境不同。"
+        "year-mcq-12": "本句的「in the year 2012」指「以數字辨識的某一特定年份」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-12"
     },
@@ -1715,11 +1579,9 @@ export default {
       "masked": "I haven’t seen her in ____.",
       "options": [
         "year-mcq-14",
-        "year-mcq-13",
-        "year-mcq-15",
-        "year-mcq-12",
-        "year-mcq-16",
-        "year-mcq-11"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-22"
       ],
       "explanation": "本句的「years」指「持續多年／很久」。",
       "sentenceIndex": 32,
@@ -1728,12 +1590,10 @@ export default {
         "years"
       ],
       "optionReasons": {
-        "year-mcq-14": "本句指「持續多年／很久」。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。"
+        "year-mcq-14": "本句的「years」指「持續多年／很久」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-14"
     },
@@ -1745,11 +1605,9 @@ export default {
       "masked": "It took ____ to complete the research.",
       "options": [
         "year-mcq-14",
-        "year-mcq-13",
-        "year-mcq-15",
-        "year-mcq-12",
-        "year-mcq-16",
-        "year-mcq-11"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-17"
       ],
       "explanation": "本句的「years」指「持續多年／很久」。",
       "sentenceIndex": 33,
@@ -1758,12 +1616,10 @@ export default {
         "years"
       ],
       "optionReasons": {
-        "year-mcq-14": "本句指「持續多年／很久」。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。"
+        "year-mcq-14": "本句的「years」指「持續多年／很久」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-14"
     },
@@ -1775,11 +1631,9 @@ export default {
       "masked": "She worked there ____.",
       "options": [
         "year-mcq-14",
-        "year-mcq-13",
-        "year-mcq-15",
-        "year-mcq-12",
-        "year-mcq-16",
-        "year-mcq-11"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-21"
       ],
       "explanation": "本句的「for years」指「持續多年／很久」。",
       "sentenceIndex": 34,
@@ -1788,12 +1642,10 @@ export default {
         "for years"
       ],
       "optionReasons": {
-        "year-mcq-14": "本句指「持續多年／很久」。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。"
+        "year-mcq-14": "本句的「for years」指「持續多年／很久」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-14"
     },
@@ -1805,11 +1657,9 @@ export default {
       "masked": "I had wanted to visit Japan ____.",
       "options": [
         "year-mcq-14",
-        "year-mcq-13",
-        "year-mcq-15",
-        "year-mcq-12",
-        "year-mcq-16",
-        "year-mcq-11"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-23"
       ],
       "explanation": "本句的「for years」指「持續多年／很久」。",
       "sentenceIndex": 35,
@@ -1818,12 +1668,10 @@ export default {
         "for years"
       ],
       "optionReasons": {
-        "year-mcq-14": "本句指「持續多年／很久」。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-11": "「全年持續或全年都可使用的」是「year-round」的用法，與本句語境不同。"
+        "year-mcq-14": "本句的「for years」指「持續多年／很久」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-14"
     },
@@ -1835,11 +1683,9 @@ export default {
       "masked": "We met ____.",
       "options": [
         "year-mcq-15",
-        "year-mcq-14",
-        "year-mcq-16",
-        "year-mcq-13",
-        "year-mcq-17",
-        "year-mcq-12"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-10"
       ],
       "explanation": "本句的「years ago」指「在現在之前若干年；幾年前／多年前」。",
       "sentenceIndex": 36,
@@ -1848,12 +1694,10 @@ export default {
         "years ago"
       ],
       "optionReasons": {
-        "year-mcq-15": "本句指「在現在之前若干年；幾年前／多年前」。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。"
+        "year-mcq-15": "本句的「years ago」指「在現在之前若干年；幾年前／多年前」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-15"
     },
@@ -1865,11 +1709,9 @@ export default {
       "masked": "That happened many ____.",
       "options": [
         "year-mcq-15",
-        "year-mcq-14",
-        "year-mcq-16",
-        "year-mcq-13",
-        "year-mcq-17",
-        "year-mcq-12"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-10"
       ],
       "explanation": "本句的「years ago」指「在現在之前若干年；幾年前／多年前」。",
       "sentenceIndex": 37,
@@ -1878,12 +1720,10 @@ export default {
         "years ago"
       ],
       "optionReasons": {
-        "year-mcq-15": "本句指「在現在之前若干年；幾年前／多年前」。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-12": "「以數字辨識的某一特定年份」是「year — specific date period」的用法，與本句語境不同。"
+        "year-mcq-15": "本句的「years ago」指「在現在之前若干年；幾年前／多年前」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-15"
     },
@@ -1895,11 +1735,8 @@ export default {
       "masked": "We visit our relatives ____.",
       "options": [
         "year-mcq-16",
-        "year-mcq-15",
-        "year-mcq-17",
-        "year-mcq-14",
-        "year-mcq-18",
-        "year-mcq-13"
+        "year-mcq-27",
+        "year-mcq-26"
       ],
       "explanation": "本句的「every year」指「每年」。",
       "sentenceIndex": 38,
@@ -1908,12 +1745,9 @@ export default {
         "every year"
       ],
       "optionReasons": {
-        "year-mcq-16": "本句指「每年」。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。"
+        "year-mcq-16": "本句的「every year」指「每年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-16"
     },
@@ -1925,11 +1759,8 @@ export default {
       "masked": "The festival takes place ____.",
       "options": [
         "year-mcq-16",
-        "year-mcq-15",
-        "year-mcq-17",
-        "year-mcq-14",
-        "year-mcq-18",
-        "year-mcq-13"
+        "year-mcq-27",
+        "year-mcq-26"
       ],
       "explanation": "本句的「every year」指「每年」。",
       "sentenceIndex": 39,
@@ -1938,12 +1769,9 @@ export default {
         "every year"
       ],
       "optionReasons": {
-        "year-mcq-16": "本句指「每年」。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-13": "「多年；很長一段時間」是「years — long time」的用法，與本句語境不同。"
+        "year-mcq-16": "本句的「every year」指「每年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-16"
     },
@@ -1955,11 +1783,9 @@ export default {
       "masked": "The town has grown ____.",
       "options": [
         "year-mcq-17",
-        "year-mcq-16",
-        "year-mcq-18",
-        "year-mcq-15",
-        "year-mcq-19",
-        "year-mcq-14"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-25"
       ],
       "explanation": "本句的「year by year」指「隨著每一年逐漸改變；逐年」。",
       "sentenceIndex": 40,
@@ -1968,12 +1794,10 @@ export default {
         "year by year"
       ],
       "optionReasons": {
-        "year-mcq-17": "本句指「隨著每一年逐漸改變；逐年」。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。"
+        "year-mcq-17": "本句的「year by year」指「隨著每一年逐漸改變；逐年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-17"
     },
@@ -1985,11 +1809,9 @@ export default {
       "masked": "Her confidence improved ____.",
       "options": [
         "year-mcq-17",
-        "year-mcq-16",
-        "year-mcq-18",
-        "year-mcq-15",
-        "year-mcq-19",
-        "year-mcq-14"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-07"
       ],
       "explanation": "本句的「year by year」指「隨著每一年逐漸改變；逐年」。",
       "sentenceIndex": 41,
@@ -1998,12 +1820,10 @@ export default {
         "year by year"
       ],
       "optionReasons": {
-        "year-mcq-17": "本句指「隨著每一年逐漸改變；逐年」。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-14": "「持續多年／很久」是「for years」的用法，與本句語境不同。"
+        "year-mcq-17": "本句的「year by year」指「隨著每一年逐漸改變；逐年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-17"
     },
@@ -2015,11 +1835,9 @@ export default {
       "masked": "They returned to the same village ____.",
       "options": [
         "year-mcq-18",
-        "year-mcq-17",
-        "year-mcq-19",
-        "year-mcq-16",
-        "year-mcq-20",
-        "year-mcq-15"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-07"
       ],
       "explanation": "本句的「year after year」指「連續多年重複發生；年復一年」。",
       "sentenceIndex": 42,
@@ -2028,12 +1846,10 @@ export default {
         "year after year"
       ],
       "optionReasons": {
-        "year-mcq-18": "本句指「連續多年重複發生；年復一年」。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。"
+        "year-mcq-18": "本句的「year after year」指「連續多年重複發生；年復一年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-18"
     },
@@ -2045,11 +1861,9 @@ export default {
       "masked": "The team performed well ____.",
       "options": [
         "year-mcq-18",
-        "year-mcq-17",
-        "year-mcq-19",
-        "year-mcq-16",
-        "year-mcq-20",
-        "year-mcq-15"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-20"
       ],
       "explanation": "本句的「year after year」指「連續多年重複發生；年復一年」。",
       "sentenceIndex": 43,
@@ -2058,12 +1872,10 @@ export default {
         "year after year"
       ],
       "optionReasons": {
-        "year-mcq-18": "本句指「連續多年重複發生；年復一年」。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-15": "「在現在之前若干年；幾年前／多年前」是「years ago」的用法，與本句語境不同。"
+        "year-mcq-18": "本句的「year after year」指「連續多年重複發生；年復一年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-18"
     },
@@ -2075,11 +1887,9 @@ export default {
       "masked": "Sales rose 10% ____.",
       "options": [
         "year-mcq-19",
-        "year-mcq-18",
-        "year-mcq-20",
-        "year-mcq-17",
-        "year-mcq-21",
-        "year-mcq-16"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-20"
       ],
       "explanation": "本句的「year on year」指「與上一年同期比較；按年／同比」。",
       "sentenceIndex": 44,
@@ -2088,12 +1898,10 @@ export default {
         "year on year"
       ],
       "optionReasons": {
-        "year-mcq-19": "本句指「與上一年同期比較；按年／同比」。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。"
+        "year-mcq-19": "本句的「year on year」指「與上一年同期比較；按年／同比」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-19"
     },
@@ -2105,11 +1913,9 @@ export default {
       "masked": "Inflation fell ____.",
       "options": [
         "year-mcq-19",
-        "year-mcq-18",
-        "year-mcq-20",
-        "year-mcq-17",
-        "year-mcq-21",
-        "year-mcq-16"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-12"
       ],
       "explanation": "本句的「year on year」指「與上一年同期比較；按年／同比」。",
       "sentenceIndex": 45,
@@ -2118,12 +1924,10 @@ export default {
         "year on year"
       ],
       "optionReasons": {
-        "year-mcq-19": "本句指「與上一年同期比較；按年／同比」。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。"
+        "year-mcq-19": "本句的「year on year」指「與上一年同期比較；按年／同比」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-19"
     },
@@ -2135,11 +1939,9 @@ export default {
       "masked": "Revenue increased 8% ____.",
       "options": [
         "year-mcq-19",
-        "year-mcq-18",
-        "year-mcq-20",
-        "year-mcq-17",
-        "year-mcq-21",
-        "year-mcq-16"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-25"
       ],
       "explanation": "本句的「year-over-year」指「與上一年同期比較；按年／同比」。",
       "sentenceIndex": 46,
@@ -2148,12 +1950,10 @@ export default {
         "year-over-year"
       ],
       "optionReasons": {
-        "year-mcq-19": "本句指「與上一年同期比較；按年／同比」。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。"
+        "year-mcq-19": "本句的「year-over-year」指「與上一年同期比較；按年／同比」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-19"
     },
@@ -2165,11 +1965,9 @@ export default {
       "masked": "The company reported strong ____.",
       "options": [
         "year-mcq-19",
-        "year-mcq-18",
-        "year-mcq-20",
-        "year-mcq-17",
-        "year-mcq-21",
-        "year-mcq-16"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-02"
       ],
       "explanation": "本句的「year-over-year growth」指「與上一年同期比較；按年／同比」。",
       "sentenceIndex": 47,
@@ -2178,12 +1976,10 @@ export default {
         "year-over-year growth"
       ],
       "optionReasons": {
-        "year-mcq-19": "本句指「與上一年同期比較；按年／同比」。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-16": "「每年」是「every year」的用法，與本句語境不同。"
+        "year-mcq-19": "本句的「year-over-year growth」指「與上一年同期比較；按年／同比」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-19"
     },
@@ -2195,11 +1991,9 @@ export default {
       "masked": "We celebrated ____ with friends.",
       "options": [
         "year-mcq-20",
-        "year-mcq-19",
-        "year-mcq-21",
-        "year-mcq-18",
-        "year-mcq-22",
-        "year-mcq-17"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-08"
       ],
       "explanation": "本句的「New Year」指「新曆年開始時的新年／新年節慶」。",
       "sentenceIndex": 48,
@@ -2208,12 +2002,10 @@ export default {
         "New Year"
       ],
       "optionReasons": {
-        "year-mcq-20": "本句指「新曆年開始時的新年／新年節慶」。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。"
+        "year-mcq-20": "本句的「New Year」指「新曆年開始時的新年／新年節慶」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-20"
     },
@@ -2225,11 +2017,9 @@ export default {
       "masked": "Happy ____!",
       "options": [
         "year-mcq-20",
-        "year-mcq-19",
-        "year-mcq-21",
-        "year-mcq-18",
-        "year-mcq-22",
-        "year-mcq-17"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-14"
       ],
       "explanation": "本句的「New Year」指「新曆年開始時的新年／新年節慶」。",
       "sentenceIndex": 49,
@@ -2238,12 +2028,10 @@ export default {
         "New Year"
       ],
       "optionReasons": {
-        "year-mcq-20": "本句指「新曆年開始時的新年／新年節慶」。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。"
+        "year-mcq-20": "本句的「New Year」指「新曆年開始時的新年／新年節慶」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-20"
     },
@@ -2255,11 +2043,9 @@ export default {
       "masked": "We watched fireworks on ____.",
       "options": [
         "year-mcq-20",
-        "year-mcq-19",
-        "year-mcq-21",
-        "year-mcq-18",
-        "year-mcq-22",
-        "year-mcq-17"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-18"
       ],
       "explanation": "本句的「New Year’s Eve」指「新曆年開始時的新年／新年節慶」。",
       "sentenceIndex": 50,
@@ -2268,12 +2054,10 @@ export default {
         "New Year’s Eve"
       ],
       "optionReasons": {
-        "year-mcq-20": "本句指「新曆年開始時的新年／新年節慶」。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。"
+        "year-mcq-20": "本句的「New Year’s Eve」指「新曆年開始時的新年／新年節慶」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-20"
     },
@@ -2285,10 +2069,8 @@ export default {
       "masked": "The city is crowded on ____.",
       "options": [
         "year-mcq-20",
-        "year-mcq-19",
-        "year-mcq-21",
-        "year-mcq-18",
-        "year-mcq-22",
+        "year-mcq-27",
+        "year-mcq-26",
         "year-mcq-17"
       ],
       "explanation": "本句的「New Year’s Eve」指「新曆年開始時的新年／新年節慶」。",
@@ -2298,12 +2080,10 @@ export default {
         "New Year’s Eve"
       ],
       "optionReasons": {
-        "year-mcq-20": "本句指「新曆年開始時的新年／新年節慶」。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。"
+        "year-mcq-20": "本句的「New Year’s Eve」指「新曆年開始時的新年／新年節慶」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-20"
     },
@@ -2315,10 +2095,8 @@ export default {
       "masked": "The office is closed on ____.",
       "options": [
         "year-mcq-20",
-        "year-mcq-19",
-        "year-mcq-21",
-        "year-mcq-18",
-        "year-mcq-22",
+        "year-mcq-27",
+        "year-mcq-26",
         "year-mcq-17"
       ],
       "explanation": "本句的「New Year’s Day」指「新曆年開始時的新年／新年節慶」。",
@@ -2328,12 +2106,10 @@ export default {
         "New Year’s Day"
       ],
       "optionReasons": {
-        "year-mcq-20": "本句指「新曆年開始時的新年／新年節慶」。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。"
+        "year-mcq-20": "本句的「New Year’s Day」指「新曆年開始時的新年／新年節慶」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-20"
     },
@@ -2345,11 +2121,9 @@ export default {
       "masked": "We went hiking on ____.",
       "options": [
         "year-mcq-20",
-        "year-mcq-19",
-        "year-mcq-21",
-        "year-mcq-18",
-        "year-mcq-22",
-        "year-mcq-17"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-19"
       ],
       "explanation": "本句的「New Year’s Day」指「新曆年開始時的新年／新年節慶」。",
       "sentenceIndex": 53,
@@ -2358,12 +2132,10 @@ export default {
         "New Year’s Day"
       ],
       "optionReasons": {
-        "year-mcq-20": "本句指「新曆年開始時的新年／新年節慶」。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-17": "「隨著每一年逐漸改變；逐年」是「year by year」的用法，與本句語境不同。"
+        "year-mcq-20": "本句的「New Year’s Day」指「新曆年開始時的新年／新年節慶」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-20"
     },
@@ -2375,10 +2147,8 @@ export default {
       "masked": "2024 was a ____.",
       "options": [
         "year-mcq-21",
-        "year-mcq-20",
-        "year-mcq-22",
-        "year-mcq-19",
-        "year-mcq-23",
+        "year-mcq-27",
+        "year-mcq-26",
         "year-mcq-18"
       ],
       "explanation": "本句的「leap year」指「比一般年份多一天的閏年」。",
@@ -2388,12 +2158,10 @@ export default {
         "leap year"
       ],
       "optionReasons": {
-        "year-mcq-21": "本句指「比一般年份多一天的閏年」。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。"
+        "year-mcq-21": "本句的「leap year」指「比一般年份多一天的閏年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-21"
     },
@@ -2405,11 +2173,9 @@ export default {
       "masked": "A ____ normally has 366 days.",
       "options": [
         "year-mcq-21",
-        "year-mcq-20",
-        "year-mcq-22",
-        "year-mcq-19",
-        "year-mcq-23",
-        "year-mcq-18"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-25"
       ],
       "explanation": "本句的「leap year」指「比一般年份多一天的閏年」。",
       "sentenceIndex": 55,
@@ -2418,12 +2184,10 @@ export default {
         "leap year"
       ],
       "optionReasons": {
-        "year-mcq-21": "本句指「比一般年份多一天的閏年」。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-18": "「連續多年重複發生；年復一年」是「year after year」的用法，與本句語境不同。"
+        "year-mcq-21": "本句的「leap year」指「比一般年份多一天的閏年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-21"
     },
@@ -2435,11 +2199,9 @@ export default {
       "masked": "The star is several ____ away.",
       "options": [
         "year-mcq-22",
-        "year-mcq-21",
-        "year-mcq-23",
-        "year-mcq-20",
-        "year-mcq-24",
-        "year-mcq-19"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-14"
       ],
       "explanation": "本句的「light-years」指「光一年行進的距離；光年，屬距離單位」。",
       "sentenceIndex": 56,
@@ -2448,12 +2210,10 @@ export default {
         "light-years"
       ],
       "optionReasons": {
-        "year-mcq-22": "本句指「光一年行進的距離；光年，屬距離單位」。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。"
+        "year-mcq-22": "本句的「light-years」指「光一年行進的距離；光年，屬距離單位」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-22"
     },
@@ -2465,11 +2225,9 @@ export default {
       "masked": "A ____ is a unit of distance.",
       "options": [
         "year-mcq-22",
-        "year-mcq-21",
-        "year-mcq-23",
-        "year-mcq-20",
-        "year-mcq-24",
-        "year-mcq-19"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-25"
       ],
       "explanation": "本句的「light-year」指「光一年行進的距離；光年，屬距離單位」。",
       "sentenceIndex": 57,
@@ -2478,12 +2236,10 @@ export default {
         "light-year"
       ],
       "optionReasons": {
-        "year-mcq-22": "本句指「光一年行進的距離；光年，屬距離單位」。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-19": "「與上一年同期比較；按年／同比」是「year on year / year-over-year」的用法，與本句語境不同。"
+        "year-mcq-22": "本句的「light-year」指「光一年行進的距離；光年，屬距離單位」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-22"
     },
@@ -2495,11 +2251,9 @@ export default {
       "masked": "She has a five-____ son.",
       "options": [
         "year-mcq-23",
-        "year-mcq-22",
-        "year-mcq-24",
-        "year-mcq-21",
-        "year-mcq-25",
-        "year-mcq-20"
+        "year-mcq-27",
+        "year-mcq-26",
+        "year-mcq-10"
       ],
       "explanation": "本句的「year-old」指「用於名詞前表示「……歲的／有……年歷史的」」。",
       "sentenceIndex": 58,
@@ -2508,12 +2262,10 @@ export default {
         "year-old"
       ],
       "optionReasons": {
-        "year-mcq-23": "本句指「用於名詞前表示「……歲的／有……年歷史的」」。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。"
+        "year-mcq-23": "本句的「year-old」指「用於名詞前表示「……歲的／有……年歷史的」」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-23"
     },
@@ -2525,11 +2277,9 @@ export default {
       "masked": "It is a hundred-____ building.",
       "options": [
         "year-mcq-23",
-        "year-mcq-22",
-        "year-mcq-24",
-        "year-mcq-21",
-        "year-mcq-25",
-        "year-mcq-20"
+        "year-mcq-26",
+        "year-mcq-27",
+        "year-mcq-14"
       ],
       "explanation": "本句的「year-old」指「用於名詞前表示「……歲的／有……年歷史的」」。",
       "sentenceIndex": 59,
@@ -2538,12 +2288,10 @@ export default {
         "year-old"
       ],
       "optionReasons": {
-        "year-mcq-23": "本句指「用於名詞前表示「……歲的／有……年歷史的」」。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-20": "「新曆年開始時的新年／新年節慶」是「New Year」的用法，與本句語境不同。"
+        "year-mcq-23": "本句的「year-old」指「用於名詞前表示「……歲的／有……年歷史的」」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-23"
     },
@@ -2555,11 +2303,8 @@ export default {
       "masked": "The shop is open ____.",
       "options": [
         "year-mcq-24",
-        "year-mcq-23",
-        "year-mcq-25",
-        "year-mcq-22",
         "year-mcq-26",
-        "year-mcq-21"
+        "year-mcq-27"
       ],
       "explanation": "本句的「all year round」指「全年；一年到頭」。",
       "sentenceIndex": 60,
@@ -2568,12 +2313,9 @@ export default {
         "all year round"
       ],
       "optionReasons": {
-        "year-mcq-24": "本句指「全年；一年到頭」。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。"
+        "year-mcq-24": "本句的「all year round」指「全年；一年到頭」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-24"
     },
@@ -2585,11 +2327,8 @@ export default {
       "masked": "It is warm there ____.",
       "options": [
         "year-mcq-24",
-        "year-mcq-23",
-        "year-mcq-25",
-        "year-mcq-22",
-        "year-mcq-26",
-        "year-mcq-21"
+        "year-mcq-27",
+        "year-mcq-26"
       ],
       "explanation": "本句的「all year round」指「全年；一年到頭」。",
       "sentenceIndex": 61,
@@ -2598,12 +2337,9 @@ export default {
         "all year round"
       ],
       "optionReasons": {
-        "year-mcq-24": "本句指「全年；一年到頭」。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-21": "「比一般年份多一天的閏年」是「leap year」的用法，與本句語境不同。"
+        "year-mcq-24": "本句的「all year round」指「全年；一年到頭」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-24"
     },
@@ -2615,11 +2351,9 @@ export default {
       "masked": "I haven’t seen him for ____.",
       "options": [
         "year-mcq-25",
-        "year-mcq-24",
         "year-mcq-26",
-        "year-mcq-23",
         "year-mcq-27",
-        "year-mcq-22"
+        "year-mcq-21"
       ],
       "explanation": "本句的「donkey’s years」指「英式非正式：非常久、好多年」。",
       "sentenceIndex": 62,
@@ -2628,12 +2362,10 @@ export default {
         "donkey’s years"
       ],
       "optionReasons": {
-        "year-mcq-25": "本句指「英式非正式：非常久、好多年」。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。"
+        "year-mcq-25": "本句的「donkey’s years」指「英式非正式：非常久、好多年」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-25"
     },
@@ -2645,11 +2377,9 @@ export default {
       "masked": "That shop has been there for ____.",
       "options": [
         "year-mcq-25",
-        "year-mcq-24",
-        "year-mcq-26",
-        "year-mcq-23",
         "year-mcq-27",
-        "year-mcq-22"
+        "year-mcq-26",
+        "year-mcq-01"
       ],
       "explanation": "本句的「donkey’s years」指「英式非正式：非常久、好多年」。",
       "sentenceIndex": 63,
@@ -2658,12 +2388,10 @@ export default {
         "donkey’s years"
       ],
       "optionReasons": {
-        "year-mcq-25": "本句指「英式非正式：非常久、好多年」。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-22": "「光一年行進的距離；光年，屬距離單位」是「light-year」的用法，與本句語境不同。"
+        "year-mcq-25": "本句的「donkey’s years」指「英式非正式：非常久、好多年」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-25"
     },
@@ -2675,11 +2403,9 @@ export default {
       "masked": "I would ____ agree to that.",
       "options": [
         "year-mcq-26",
-        "year-mcq-25",
-        "year-mcq-27",
-        "year-mcq-24",
-        "year-mcq-28",
-        "year-mcq-23"
+        "year-mcq-02",
+        "year-mcq-18",
+        "year-mcq-28"
       ],
       "explanation": "本句的「not in a million years」指「絕對不會；怎樣也不可能」。",
       "sentenceIndex": 64,
@@ -2688,12 +2414,10 @@ export default {
         "not in a million years"
       ],
       "optionReasons": {
-        "year-mcq-26": "本句指「絕對不會；怎樣也不可能」。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。"
+        "year-mcq-26": "本句的「not in a million years」指「絕對不會；怎樣也不可能」。",
+        "year-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-26"
     },
@@ -2705,11 +2429,9 @@ export default {
       "masked": "She never imagined ____ that she would win.",
       "options": [
         "year-mcq-26",
+        "year-mcq-01",
         "year-mcq-25",
-        "year-mcq-27",
-        "year-mcq-24",
-        "year-mcq-28",
-        "year-mcq-23"
+        "year-mcq-05"
       ],
       "explanation": "本句的「in a million years」指「絕對不會；怎樣也不可能」。",
       "sentenceIndex": 65,
@@ -2718,12 +2440,10 @@ export default {
         "in a million years"
       ],
       "optionReasons": {
-        "year-mcq-26": "本句指「絕對不會；怎樣也不可能」。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-23": "「用於名詞前表示「……歲的／有……年歷史的」」是「year-old」的用法，與本句語境不同。"
+        "year-mcq-26": "本句的「in a million years」指「絕對不會；怎樣也不可能」。",
+        "year-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-26"
     },
@@ -2735,11 +2455,8 @@ export default {
       "masked": "The stress ____.",
       "options": [
         "year-mcq-27",
-        "year-mcq-26",
-        "year-mcq-28",
-        "year-mcq-25",
-        "year-mcq-29",
-        "year-mcq-24"
+        "year-mcq-31",
+        "year-mcq-26"
       ],
       "explanation": "本句的「put years on him」指「使某人看起來或感覺老了很多」。",
       "sentenceIndex": 66,
@@ -2748,12 +2465,9 @@ export default {
         "put years on him"
       ],
       "optionReasons": {
-        "year-mcq-27": "本句指「使某人看起來或感覺老了很多」。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。"
+        "year-mcq-27": "本句的「put years on him」指「使某人看起來或感覺老了很多」。",
+        "year-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-27"
     },
@@ -2765,11 +2479,9 @@ export default {
       "masked": "Months of worry seemed to ____.",
       "options": [
         "year-mcq-27",
-        "year-mcq-26",
-        "year-mcq-28",
-        "year-mcq-25",
-        "year-mcq-29",
-        "year-mcq-24"
+        "year-mcq-02",
+        "year-mcq-11",
+        "year-mcq-12"
       ],
       "explanation": "本句的「put years on her」指「使某人看起來或感覺老了很多」。",
       "sentenceIndex": 67,
@@ -2778,12 +2490,10 @@ export default {
         "put years on her"
       ],
       "optionReasons": {
-        "year-mcq-27": "本句指「使某人看起來或感覺老了很多」。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-24": "「全年；一年到頭」是「all year round」的用法，與本句語境不同。"
+        "year-mcq-27": "本句的「put years on her」指「使某人看起來或感覺老了很多」。",
+        "year-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-27"
     },
@@ -2795,11 +2505,9 @@ export default {
       "masked": "The new haircut ____.",
       "options": [
         "year-mcq-28",
-        "year-mcq-27",
-        "year-mcq-29",
         "year-mcq-26",
-        "year-mcq-30",
-        "year-mcq-25"
+        "year-mcq-22",
+        "year-mcq-03"
       ],
       "explanation": "本句的「took years off her」指「使某人看起來年輕很多」。",
       "sentenceIndex": 68,
@@ -2808,12 +2516,10 @@ export default {
         "took years off her"
       ],
       "optionReasons": {
-        "year-mcq-28": "本句指「使某人看起來年輕很多」。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。"
+        "year-mcq-28": "本句的「took years off her」指「使某人看起來年輕很多」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-28"
     },
@@ -2825,11 +2531,9 @@ export default {
       "masked": "A good rest seemed to ____.",
       "options": [
         "year-mcq-28",
-        "year-mcq-27",
-        "year-mcq-29",
         "year-mcq-26",
-        "year-mcq-30",
-        "year-mcq-25"
+        "year-mcq-03",
+        "year-mcq-14"
       ],
       "explanation": "本句的「take years off him」指「使某人看起來年輕很多」。",
       "sentenceIndex": 69,
@@ -2838,12 +2542,10 @@ export default {
         "take years off him"
       ],
       "optionReasons": {
-        "year-mcq-28": "本句指「使某人看起來年輕很多」。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-29": "「每年的；一年一次地」是「yearly」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-25": "「英式非正式：非常久、好多年」是「donkey’s years」的用法，與本句語境不同。"
+        "year-mcq-28": "本句的「take years off him」指「使某人看起來年輕很多」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-28"
     },
@@ -2855,11 +2557,8 @@ export default {
       "masked": "We have a ____.",
       "options": [
         "year-mcq-29",
-        "year-mcq-28",
-        "year-mcq-30",
-        "year-mcq-27",
-        "year-mcq-31",
-        "year-mcq-26"
+        "year-mcq-26",
+        "year-mcq-27"
       ],
       "explanation": "本句的「yearly meeting」指「每年的；一年一次地」。",
       "sentenceIndex": 70,
@@ -2868,12 +2567,9 @@ export default {
         "yearly meeting"
       ],
       "optionReasons": {
-        "year-mcq-29": "本句指「每年的；一年一次地」。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-31": "「表示歲；年」是「5. year — unit used to express age」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-29": "本句的「yearly meeting」指「每年的；一年一次地」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-29"
     },
@@ -2885,10 +2581,7 @@ export default {
       "masked": "The company publishes a ____.",
       "options": [
         "year-mcq-29",
-        "year-mcq-28",
-        "year-mcq-30",
         "year-mcq-27",
-        "year-mcq-31",
         "year-mcq-26"
       ],
       "explanation": "本句的「yearly report」指「每年的；一年一次地」。",
@@ -2898,12 +2591,9 @@ export default {
         "yearly report"
       ],
       "optionReasons": {
-        "year-mcq-29": "本句指「每年的；一年一次地」。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-31": "「表示歲；年」是「5. year — unit used to express age」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-29": "本句的「yearly report」指「每年的；一年一次地」。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-29"
     },
@@ -2915,11 +2605,8 @@ export default {
       "masked": "The fee is paid ____.",
       "options": [
         "year-mcq-29",
-        "year-mcq-28",
-        "year-mcq-30",
-        "year-mcq-27",
-        "year-mcq-31",
-        "year-mcq-26"
+        "year-mcq-26",
+        "year-mcq-27"
       ],
       "explanation": "本句的「yearly」指「每年的；一年一次地」。",
       "sentenceIndex": 72,
@@ -2928,12 +2615,9 @@ export default {
         "yearly"
       ],
       "optionReasons": {
-        "year-mcq-29": "本句指「每年的；一年一次地」。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-31": "「表示歲；年」是「5. year — unit used to express age」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-29": "本句的「yearly」指「每年的；一年一次地」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-29"
     },
@@ -2945,11 +2629,8 @@ export default {
       "masked": "The system is reviewed ____.",
       "options": [
         "year-mcq-29",
-        "year-mcq-28",
-        "year-mcq-30",
-        "year-mcq-27",
-        "year-mcq-31",
-        "year-mcq-26"
+        "year-mcq-26",
+        "year-mcq-27"
       ],
       "explanation": "本句的「yearly」指「每年的；一年一次地」。",
       "sentenceIndex": 73,
@@ -2958,12 +2639,9 @@ export default {
         "yearly"
       ],
       "optionReasons": {
-        "year-mcq-29": "本句指「每年的；一年一次地」。",
-        "year-mcq-28": "「使某人看起來年輕很多」是「take years off someone」的用法，與本句語境不同。",
-        "year-mcq-30": "「表示幾年前」是「Passage meaning」的用法，與本句語境不同。",
-        "year-mcq-27": "「使某人看起來或感覺老了很多」是「put years on someone」的用法，與本句語境不同。",
-        "year-mcq-31": "「表示歲；年」是「5. year — unit used to express age」的用法，與本句語境不同。",
-        "year-mcq-26": "「絕對不會；怎樣也不可能」是「not in a million years」的用法，與本句語境不同。"
+        "year-mcq-29": "本句的「yearly」指「每年的；一年一次地」。",
+        "year-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "year-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "year-mcq-29"
     }
@@ -2975,5 +2653,7 @@ export default {
     "sha256": "331371d53be69af9169b2787578bfb2c01a0cdd67575cdf100fe2dedb32a0e93",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -312,11 +312,9 @@ export default {
       "masked": "Some students spend hours doing worksheet ____.",
       "options": [
         "drill-mcq-01",
-        "drill-mcq-02",
-        "drill-mcq-03",
-        "drill-mcq-04",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-06",
+        "drill-mcq-12",
+        "drill-mcq-08"
       ],
       "explanation": "本句的「drills」指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
       "sentenceIndex": 0,
@@ -325,12 +323,10 @@ export default {
         "drills"
       ],
       "optionReasons": {
-        "drill-mcq-01": "本句指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-01": "本句的「drills」指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
+        "drill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-01"
     },
@@ -342,11 +338,9 @@ export default {
       "masked": "The teacher used vocabulary ____ to help students remember the words.",
       "options": [
         "drill-mcq-01",
-        "drill-mcq-02",
-        "drill-mcq-03",
-        "drill-mcq-04",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-06",
+        "drill-mcq-12",
+        "drill-mcq-08"
       ],
       "explanation": "本句的「drills」指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
       "sentenceIndex": 1,
@@ -355,12 +349,10 @@ export default {
         "drills"
       ],
       "optionReasons": {
-        "drill-mcq-01": "本句指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-01": "本句的「drills」指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
+        "drill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-01"
     },
@@ -372,11 +364,9 @@ export default {
       "masked": "The team practised passing ____.",
       "options": [
         "drill-mcq-01",
-        "drill-mcq-02",
-        "drill-mcq-03",
-        "drill-mcq-04",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-06",
+        "drill-mcq-08",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drills」指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
       "sentenceIndex": 2,
@@ -385,12 +375,10 @@ export default {
         "drills"
       ],
       "optionReasons": {
-        "drill-mcq-01": "本句指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-01": "本句的「drills」指「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」。",
+        "drill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-01"
     },
@@ -402,11 +390,9 @@ export default {
       "masked": "The teacher ____ the students on multiplication tables.",
       "options": [
         "drill-mcq-02",
-        "drill-mcq-01",
-        "drill-mcq-03",
-        "drill-mcq-04",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-13",
+        "drill-mcq-12",
+        "drill-mcq-07"
       ],
       "explanation": "本句的「drilled」指「反覆訓練某人某項知識、程序或技巧」。",
       "sentenceIndex": 3,
@@ -415,12 +401,10 @@ export default {
         "drilled"
       ],
       "optionReasons": {
-        "drill-mcq-02": "本句指「反覆訓練某人某項知識、程序或技巧」。",
-        "drill-mcq-01": "「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-02": "本句的「drilled」指「反覆訓練某人某項知識、程序或技巧」。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-02"
     },
@@ -432,11 +416,9 @@ export default {
       "masked": "The coach ____ the players in defensive techniques.",
       "options": [
         "drill-mcq-02",
-        "drill-mcq-01",
-        "drill-mcq-03",
-        "drill-mcq-04",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-13",
+        "drill-mcq-08",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drilled」指「反覆訓練某人某項知識、程序或技巧」。",
       "sentenceIndex": 4,
@@ -445,12 +427,10 @@ export default {
         "drilled"
       ],
       "optionReasons": {
-        "drill-mcq-02": "本句指「反覆訓練某人某項知識、程序或技巧」。",
-        "drill-mcq-01": "「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-02": "本句的「drilled」指「反覆訓練某人某項知識、程序或技巧」。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-02"
     },
@@ -462,11 +442,9 @@ export default {
       "masked": "The rules were ____ us from the first day.",
       "options": [
         "drill-mcq-03",
-        "drill-mcq-02",
-        "drill-mcq-04",
-        "drill-mcq-01",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-13",
+        "drill-mcq-12",
+        "drill-mcq-07"
       ],
       "explanation": "本句的「drilled into」指「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」。",
       "sentenceIndex": 5,
@@ -475,12 +453,10 @@ export default {
         "drilled into"
       ],
       "optionReasons": {
-        "drill-mcq-03": "本句指「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-01": "「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-03": "本句的「drilled into」指「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-03"
     },
@@ -492,11 +468,9 @@ export default {
       "masked": "Safety procedures were ____ every employee.",
       "options": [
         "drill-mcq-03",
-        "drill-mcq-02",
-        "drill-mcq-04",
-        "drill-mcq-01",
-        "drill-mcq-05",
-        "drill-mcq-06"
+        "drill-mcq-08",
+        "drill-mcq-06",
+        "drill-mcq-13"
       ],
       "explanation": "本句的「drilled into」指「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」。",
       "sentenceIndex": 6,
@@ -505,12 +479,10 @@ export default {
         "drilled into"
       ],
       "optionReasons": {
-        "drill-mcq-03": "本句指「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-01": "「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-03": "本句的「drilled into」指「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-03"
     },
@@ -523,10 +495,8 @@ export default {
       "options": [
         "drill-mcq-04",
         "drill-mcq-03",
-        "drill-mcq-05",
-        "drill-mcq-02",
-        "drill-mcq-06",
-        "drill-mcq-01"
+        "drill-mcq-13",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drill」指「為熟習消防、疏散等程序而進行的模擬演習」。",
       "sentenceIndex": 7,
@@ -535,12 +505,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-04": "本句指「為熟習消防、疏散等程序而進行的模擬演習」。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-01": "「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」與本句語境不同。"
+        "drill-mcq-04": "本句的「drill」指「為熟習消防、疏散等程序而進行的模擬演習」。",
+        "drill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-04"
     },
@@ -552,11 +520,9 @@ export default {
       "masked": "Everyone must participate in the evacuation ____.",
       "options": [
         "drill-mcq-04",
+        "drill-mcq-13",
         "drill-mcq-03",
-        "drill-mcq-05",
-        "drill-mcq-02",
-        "drill-mcq-06",
-        "drill-mcq-01"
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drill」指「為熟習消防、疏散等程序而進行的模擬演習」。",
       "sentenceIndex": 8,
@@ -565,12 +531,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-04": "本句指「為熟習消防、疏散等程序而進行的模擬演習」。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-01": "「透過重複同類活動，使知識、技巧或反應變得熟練／自動化的操練」與本句語境不同。"
+        "drill-mcq-04": "本句的「drill」指「為熟習消防、疏散等程序而進行的模擬演習」。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-04"
     },
@@ -582,11 +546,9 @@ export default {
       "masked": "The soldiers practised military ____ every morning.",
       "options": [
         "drill-mcq-05",
-        "drill-mcq-04",
-        "drill-mcq-06",
-        "drill-mcq-03",
+        "drill-mcq-12",
         "drill-mcq-07",
-        "drill-mcq-02"
+        "drill-mcq-08"
       ],
       "explanation": "本句的「drill」指「軍事隊列和程序的反覆操練」。",
       "sentenceIndex": 9,
@@ -595,12 +557,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-05": "本句指「軍事隊列和程序的反覆操練」。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。"
+        "drill-mcq-05": "本句的「drill」指「軍事隊列和程序的反覆操練」。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-05"
     },
@@ -612,11 +572,9 @@ export default {
       "masked": "The recruits were taught basic ____.",
       "options": [
         "drill-mcq-05",
-        "drill-mcq-04",
-        "drill-mcq-06",
-        "drill-mcq-03",
-        "drill-mcq-07",
-        "drill-mcq-02"
+        "drill-mcq-08",
+        "drill-mcq-13",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drill」指「軍事隊列和程序的反覆操練」。",
       "sentenceIndex": 10,
@@ -625,12 +583,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-05": "本句指「軍事隊列和程序的反覆操練」。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-02": "「反覆訓練某人某項知識、程序或技巧」與本句語境不同。"
+        "drill-mcq-05": "本句的「drill」指「軍事隊列和程序的反覆操練」。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-05"
     },
@@ -642,11 +598,9 @@ export default {
       "masked": "He used a ____ to make a hole in the wall.",
       "options": [
         "drill-mcq-06",
-        "drill-mcq-05",
-        "drill-mcq-07",
-        "drill-mcq-04",
-        "drill-mcq-08",
-        "drill-mcq-03"
+        "drill-mcq-12",
+        "drill-mcq-01",
+        "drill-mcq-09"
       ],
       "explanation": "本句的「drill」指「用旋轉鑽頭鑽孔的工具／機器」。",
       "sentenceIndex": 11,
@@ -655,12 +609,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-06": "本句指「用旋轉鑽頭鑽孔的工具／機器」。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。"
+        "drill-mcq-06": "本句的「drill」指「用旋轉鑽頭鑽孔的工具／機器」。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-06"
     },
@@ -672,11 +624,9 @@ export default {
       "masked": "The dentist picked up the ____.",
       "options": [
         "drill-mcq-06",
-        "drill-mcq-05",
-        "drill-mcq-07",
-        "drill-mcq-04",
-        "drill-mcq-08",
-        "drill-mcq-03"
+        "drill-mcq-09",
+        "drill-mcq-12",
+        "drill-mcq-13"
       ],
       "explanation": "本句的「drill」指「用旋轉鑽頭鑽孔的工具／機器」。",
       "sentenceIndex": 12,
@@ -685,12 +635,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-06": "本句指「用旋轉鑽頭鑽孔的工具／機器」。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-03": "「透過反覆提醒／操練，把知識或規則牢牢灌輸給某人」與本句語境不同。"
+        "drill-mcq-06": "本句的「drill」指「用旋轉鑽頭鑽孔的工具／機器」。",
+        "drill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-06"
     },
@@ -702,11 +650,9 @@ export default {
       "masked": "They ____ a hole through the wall.",
       "options": [
         "drill-mcq-07",
-        "drill-mcq-06",
-        "drill-mcq-08",
-        "drill-mcq-05",
-        "drill-mcq-09",
-        "drill-mcq-04"
+        "drill-mcq-03",
+        "drill-mcq-13",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drilled」指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
       "sentenceIndex": 13,
@@ -715,12 +661,10 @@ export default {
         "drilled"
       ],
       "optionReasons": {
-        "drill-mcq-07": "本句指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-09": "「對某人反覆、詳細地追問／盤問」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。"
+        "drill-mcq-07": "本句的「drilled」指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
+        "drill-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-07"
     },
@@ -732,11 +676,9 @@ export default {
       "masked": "The dentist had to ____ the tooth.",
       "options": [
         "drill-mcq-07",
-        "drill-mcq-06",
-        "drill-mcq-08",
-        "drill-mcq-05",
-        "drill-mcq-09",
-        "drill-mcq-04"
+        "drill-mcq-02",
+        "drill-mcq-12",
+        "drill-mcq-13"
       ],
       "explanation": "本句的「drill」指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
       "sentenceIndex": 14,
@@ -745,12 +687,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-07": "本句指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-09": "「對某人反覆、詳細地追問／盤問」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。"
+        "drill-mcq-07": "本句的「drill」指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
+        "drill-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-07"
     },
@@ -762,11 +702,9 @@ export default {
       "masked": "The company began ____ for oil.",
       "options": [
         "drill-mcq-08",
-        "drill-mcq-07",
+        "drill-mcq-13",
         "drill-mcq-09",
-        "drill-mcq-06",
-        "drill-mcq-10",
-        "drill-mcq-05"
+        "drill-mcq-01"
       ],
       "explanation": "本句的「drilling」指「向地下鑽探以尋找／取得石油、天然氣、水等」。",
       "sentenceIndex": 15,
@@ -775,12 +713,10 @@ export default {
         "drilling"
       ],
       "optionReasons": {
-        "drill-mcq-08": "本句指「向地下鑽探以尋找／取得石油、天然氣、水等」。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-09": "「對某人反覆、詳細地追問／盤問」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。"
+        "drill-mcq-08": "本句的「drilling」指「向地下鑽探以尋找／取得石油、天然氣、水等」。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-08"
     },
@@ -792,11 +728,9 @@ export default {
       "masked": "They ____ deep underground for water.",
       "options": [
         "drill-mcq-08",
-        "drill-mcq-07",
-        "drill-mcq-09",
-        "drill-mcq-06",
-        "drill-mcq-10",
-        "drill-mcq-05"
+        "drill-mcq-12",
+        "drill-mcq-13",
+        "drill-mcq-01"
       ],
       "explanation": "本句的「drilled」指「向地下鑽探以尋找／取得石油、天然氣、水等」。",
       "sentenceIndex": 16,
@@ -805,12 +739,10 @@ export default {
         "drilled"
       ],
       "optionReasons": {
-        "drill-mcq-08": "本句指「向地下鑽探以尋找／取得石油、天然氣、水等」。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-09": "「對某人反覆、詳細地追問／盤問」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。"
+        "drill-mcq-08": "本句的「drilled」指「向地下鑽探以尋找／取得石油、天然氣、水等」。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-08"
     },
@@ -822,11 +754,9 @@ export default {
       "masked": "Offshore ____ began in the region.",
       "options": [
         "drill-mcq-07",
-        "drill-mcq-06",
-        "drill-mcq-08",
-        "drill-mcq-05",
         "drill-mcq-09",
-        "drill-mcq-04"
+        "drill-mcq-12",
+        "drill-mcq-13"
       ],
       "explanation": "本句的「drilling」指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
       "sentenceIndex": 17,
@@ -835,12 +765,10 @@ export default {
         "drilling"
       ],
       "optionReasons": {
-        "drill-mcq-07": "本句指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-05": "「軍事隊列和程序的反覆操練」與本句語境不同。",
-        "drill-mcq-09": "「對某人反覆、詳細地追問／盤問」與本句語境不同。",
-        "drill-mcq-04": "「為熟習消防、疏散等程序而進行的模擬演習」與本句語境不同。"
+        "drill-mcq-07": "本句的「drilling」指「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」。",
+        "drill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-07"
     },
@@ -852,11 +780,9 @@ export default {
       "masked": "The interviewer ____ him about his previous experience.",
       "options": [
         "drill-mcq-09",
-        "drill-mcq-08",
-        "drill-mcq-10",
         "drill-mcq-07",
-        "drill-mcq-11",
-        "drill-mcq-06"
+        "drill-mcq-13",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drilled」指「對某人反覆、詳細地追問／盤問」。",
       "sentenceIndex": 18,
@@ -865,12 +791,10 @@ export default {
         "drilled"
       ],
       "optionReasons": {
-        "drill-mcq-09": "本句指「對某人反覆、詳細地追問／盤問」。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-11": "「播種溝／條播行；專門」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-09": "本句的「drilled」指「對某人反覆、詳細地追問／盤問」。",
+        "drill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-09"
     },
@@ -882,11 +806,9 @@ export default {
       "masked": "She was ____ on every detail of the proposal.",
       "options": [
         "drill-mcq-09",
-        "drill-mcq-08",
-        "drill-mcq-10",
-        "drill-mcq-07",
-        "drill-mcq-11",
-        "drill-mcq-06"
+        "drill-mcq-12",
+        "drill-mcq-06",
+        "drill-mcq-08"
       ],
       "explanation": "本句的「drilled」指「對某人反覆、詳細地追問／盤問」。",
       "sentenceIndex": 19,
@@ -895,12 +817,10 @@ export default {
         "drilled"
       ],
       "optionReasons": {
-        "drill-mcq-09": "本句指「對某人反覆、詳細地追問／盤問」。",
-        "drill-mcq-08": "「向地下鑽探以尋找／取得石油、天然氣、水等」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。",
-        "drill-mcq-07": "「用鑽具在木材、金屬、牆壁、牙齒等鑽孔」與本句語境不同。",
-        "drill-mcq-11": "「播種溝／條播行；專門」與本句語境不同。",
-        "drill-mcq-06": "「用旋轉鑽頭鑽孔的工具／機器」與本句語境不同。"
+        "drill-mcq-09": "本句的「drilled」指「對某人反覆、詳細地追問／盤問」。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-09"
     },
@@ -912,11 +832,9 @@ export default {
       "masked": "The trousers were made of cotton ____.",
       "options": [
         "drill-mcq-12",
-        "drill-mcq-11",
-        "drill-mcq-13",
-        "drill-mcq-10",
-        "drill-mcq-14",
-        "drill-mcq-09"
+        "drill-mcq-06",
+        "drill-mcq-01",
+        "drill-mcq-13"
       ],
       "explanation": "本句的「drill」指「結實耐用的斜紋布；如 cotton drill」。",
       "sentenceIndex": 23,
@@ -925,12 +843,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-12": "本句指「結實耐用的斜紋布；如 cotton drill」。",
-        "drill-mcq-11": "「播種溝／條播行；專門」與本句語境不同。",
-        "drill-mcq-13": "「現代 rap 的 drill 音樂類型」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。",
-        "drill-mcq-14": "「一種非洲靈長類動物；專門」與本句語境不同。",
-        "drill-mcq-09": "「對某人反覆、詳細地追問／盤問」與本句語境不同。"
+        "drill-mcq-12": "本句的「drill」指「結實耐用的斜紋布；如 cotton drill」。",
+        "drill-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-12"
     },
@@ -942,11 +858,9 @@ export default {
       "masked": "He listens to UK ____.",
       "options": [
         "drill-mcq-13",
+        "drill-mcq-07",
         "drill-mcq-12",
-        "drill-mcq-14",
-        "drill-mcq-11",
-        "drill-mcq-15",
-        "drill-mcq-10"
+        "drill-mcq-09"
       ],
       "explanation": "本句的「drill」指「現代 rap 的 drill 音樂類型」。",
       "sentenceIndex": 24,
@@ -955,12 +869,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-13": "本句指「現代 rap 的 drill 音樂類型」。",
-        "drill-mcq-12": "「結實耐用的斜紋布；如 cotton drill」與本句語境不同。",
-        "drill-mcq-14": "「一種非洲靈長類動物；專門」與本句語境不同。",
-        "drill-mcq-11": "「播種溝／條播行；專門」與本句語境不同。",
-        "drill-mcq-15": "「操作鑽井／鑽探設備的人」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。"
+        "drill-mcq-13": "本句的「drill」指「現代 rap 的 drill 音樂類型」。",
+        "drill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-13"
     },
@@ -972,11 +884,9 @@ export default {
       "masked": "The artist became known in the ____ scene.",
       "options": [
         "drill-mcq-13",
-        "drill-mcq-12",
-        "drill-mcq-14",
-        "drill-mcq-11",
-        "drill-mcq-15",
-        "drill-mcq-10"
+        "drill-mcq-07",
+        "drill-mcq-04",
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drill」指「現代 rap 的 drill 音樂類型」。",
       "sentenceIndex": 25,
@@ -985,12 +895,10 @@ export default {
         "drill"
       ],
       "optionReasons": {
-        "drill-mcq-13": "本句指「現代 rap 的 drill 音樂類型」。",
-        "drill-mcq-12": "「結實耐用的斜紋布；如 cotton drill」與本句語境不同。",
-        "drill-mcq-14": "「一種非洲靈長類動物；專門」與本句語境不同。",
-        "drill-mcq-11": "「播種溝／條播行；專門」與本句語境不同。",
-        "drill-mcq-15": "「操作鑽井／鑽探設備的人」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。"
+        "drill-mcq-13": "本句的「drill」指「現代 rap 的 drill 音樂類型」。",
+        "drill-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-13"
     },
@@ -1002,11 +910,9 @@ export default {
       "masked": "The ____ worked through the night.",
       "options": [
         "drill-mcq-15",
-        "drill-mcq-14",
+        "drill-mcq-09",
         "drill-mcq-13",
-        "drill-mcq-12",
-        "drill-mcq-11",
-        "drill-mcq-10"
+        "drill-mcq-12"
       ],
       "explanation": "本句的「drillers」指「操作鑽井／鑽探設備的人」。",
       "sentenceIndex": 26,
@@ -1015,12 +921,10 @@ export default {
         "drillers"
       ],
       "optionReasons": {
-        "drill-mcq-15": "本句指「操作鑽井／鑽探設備的人」。",
-        "drill-mcq-14": "「一種非洲靈長類動物；專門」與本句語境不同。",
-        "drill-mcq-13": "「現代 rap 的 drill 音樂類型」與本句語境不同。",
-        "drill-mcq-12": "「結實耐用的斜紋布；如 cotton drill」與本句語境不同。",
-        "drill-mcq-11": "「播種溝／條播行；專門」與本句語境不同。",
-        "drill-mcq-10": "「以整齊行列把種子播進土壤；條播」與本句語境不同。"
+        "drill-mcq-15": "本句的「drillers」指「操作鑽井／鑽探設備的人」。",
+        "drill-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "drill-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drill-mcq-15"
     }
@@ -1032,5 +936,7 @@ export default {
     "sha256": "a842f80d543d20c04eb17ddee2b5e36b81a3e70834f6640adbc0905cd05637f5",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

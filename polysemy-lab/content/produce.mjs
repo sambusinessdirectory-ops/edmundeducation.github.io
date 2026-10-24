@@ -352,16 +352,6 @@ export default {
           "She is a successful music producer.",
           "她是一名成功的音樂製作人。",
           "音樂製作人"
-        ],
-        [
-          "He served as executive producer on the series.",
-          "他擔任這套劇集的執行製作人。",
-          "音樂製作人"
-        ],
-        [
-          "The executive producer helped secure funding.",
-          "執行製作人協助取得製作資金。",
-          "音樂製作人"
         ]
       ],
       "options": [],
@@ -403,16 +393,6 @@ export default {
         [
           "The programme took six months to complete production.",
           "這個節目用了六個月完成製作。",
-          "生產；製作"
-        ],
-        [
-          "We saw a wonderful production of Hamlet.",
-          "我們看了一場很精彩的《哈姆雷特》舞台製作／演出。",
-          "生產；製作"
-        ],
-        [
-          "The theatre's latest production received excellent reviews.",
-          "劇院最新的製作作品獲得很好的評價。",
           "生產；製作"
         ]
       ],
@@ -670,6 +650,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "produce-reviewed-3e3d3a34d5",
+      "title": "通常負責作品較高層次的資金、商業或整體製作管理的人",
+      "form": "produce · source section 22",
+      "en": "通常負責作品較高層次的資金、商業或整體製作管理的人",
+      "zh": "通常負責作品較高層次的資金、商業或整體製作管理的人",
+      "note": "對照原始教材第 22 節及例句核實。",
+      "examples": [
+        [
+          "He served as executive producer on the series.",
+          "他擔任這套劇集的執行製作人。",
+          "通常負責作品較高層次的資金、商業或整體製作管理的人"
+        ],
+        [
+          "The executive producer helped secure funding.",
+          "執行製作人協助取得製作資金。",
+          "通常負責作品較高層次的資金、商業或整體製作管理的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "produce-reviewed-7183005dcd",
+      "title": "被製作並呈現出來的戲劇、電影或其他表演作品",
+      "form": "produce · source section 29",
+      "en": "被製作並呈現出來的戲劇、電影或其他表演作品",
+      "zh": "被製作並呈現出來的戲劇、電影或其他表演作品",
+      "note": "對照原始教材第 29 節及例句核實。",
+      "examples": [
+        [
+          "We saw a wonderful production of Hamlet.",
+          "我們看了一場很精彩的《哈姆雷特》舞台製作／演出。",
+          "被製作並呈現出來的戲劇、電影或其他表演作品"
+        ],
+        [
+          "The theatre's latest production received excellent reviews.",
+          "劇院最新的製作作品獲得很好的評價。",
+          "被製作並呈現出來的戲劇、電影或其他表演作品"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -681,11 +705,9 @@ export default {
       "masked": "Hard work does not always ____.",
       "options": [
         "produce-mcq-01",
-        "produce-mcq-02",
-        "produce-mcq-03",
-        "produce-mcq-04",
-        "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-mcq-09",
+        "produce-mcq-07",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「produce immediate results」指「產生／帶來成果」。",
       "sentenceIndex": 3,
@@ -694,12 +716,10 @@ export default {
         "produce immediate results"
       ],
       "optionReasons": {
-        "produce-mcq-01": "本句指「產生／帶來成果」。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-01": "本句的「produce immediate results」指「產生／帶來成果」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-01"
     },
@@ -711,11 +731,9 @@ export default {
       "masked": "The strategy is beginning to ____.",
       "options": [
         "produce-mcq-01",
-        "produce-mcq-02",
-        "produce-mcq-03",
-        "produce-mcq-04",
-        "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-mcq-10",
+        "produce-mcq-07",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「produce results」指「產生／帶來成果」。",
       "sentenceIndex": 4,
@@ -724,12 +742,10 @@ export default {
         "produce results"
       ],
       "optionReasons": {
-        "produce-mcq-01": "本句指「產生／帶來成果」。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-01": "本句的「produce results」指「產生／帶來成果」。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-01"
     },
@@ -741,11 +757,9 @@ export default {
       "masked": "The change ____ on morale.",
       "options": [
         "produce-mcq-02",
-        "produce-mcq-01",
-        "produce-mcq-03",
-        "produce-mcq-04",
-        "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-mcq-09",
+        "produce-mcq-26",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produced a noticeable effect」指「產生作用」。",
       "sentenceIndex": 5,
@@ -754,12 +768,10 @@ export default {
         "produced a noticeable effect"
       ],
       "optionReasons": {
-        "produce-mcq-02": "本句指「產生作用」。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-02": "本句的「produced a noticeable effect」指「產生作用」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-02"
     },
@@ -771,11 +783,9 @@ export default {
       "masked": "The medicine may ____.",
       "options": [
         "produce-mcq-02",
-        "produce-mcq-01",
-        "produce-mcq-03",
-        "produce-mcq-04",
+        "produce-mcq-09",
         "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produce side effects」指「產生作用」。",
       "sentenceIndex": 6,
@@ -784,12 +794,10 @@ export default {
         "produce side effects"
       ],
       "optionReasons": {
-        "produce-mcq-02": "本句指「產生作用」。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-02": "本句的「produce side effects」指「產生作用」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-02"
     },
@@ -801,11 +809,9 @@ export default {
       "masked": "The factory ____ for export.",
       "options": [
         "produce-mcq-03",
-        "produce-mcq-02",
-        "produce-mcq-04",
-        "produce-mcq-01",
         "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-pdf-002",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produces goods」指「生產商品」。",
       "sentenceIndex": 9,
@@ -814,12 +820,10 @@ export default {
         "produces goods"
       ],
       "optionReasons": {
-        "produce-mcq-03": "本句指「生產商品」。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-03": "本句的「produces goods」指「生產商品」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-03"
     },
@@ -831,11 +835,9 @@ export default {
       "masked": "Modern machines allow companies to ____ more efficiently.",
       "options": [
         "produce-mcq-03",
-        "produce-mcq-02",
-        "produce-mcq-04",
-        "produce-mcq-01",
         "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-pdf-002",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produce goods」指「生產商品」。",
       "sentenceIndex": 10,
@@ -844,12 +846,10 @@ export default {
         "produce goods"
       ],
       "optionReasons": {
-        "produce-mcq-03": "本句指「生產商品」。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-03": "本句的「produce goods」指「生產商品」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-03"
     },
@@ -861,11 +861,9 @@ export default {
       "masked": "The product is ____.",
       "options": [
         "produce-pdf-001",
-        "produce-mcq-02",
-        "produce-mcq-04",
-        "produce-mcq-01",
-        "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-mcq-26",
+        "produce-mcq-09",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produced on a large scale」指「以大量、工業化方式製造」。",
       "sentenceIndex": 11,
@@ -874,12 +872,10 @@ export default {
         "produced on a large scale"
       ],
       "optionReasons": {
-        "produce-pdf-001": "本句指「以大量、工業化方式製造」。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-pdf-001": "本句的「produced on a large scale」指「以大量、工業化方式製造」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-pdf-001"
     },
@@ -891,11 +887,9 @@ export default {
       "masked": "The factory can ____.",
       "options": [
         "produce-pdf-001",
-        "produce-mcq-02",
-        "produce-mcq-04",
-        "produce-mcq-01",
-        "produce-mcq-05",
-        "produce-mcq-06"
+        "produce-mcq-06",
+        "produce-mcq-10",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「produce thousands of units a day」指「以大量、工業化方式製造」。",
       "sentenceIndex": 12,
@@ -904,12 +898,10 @@ export default {
         "produce thousands of units a day"
       ],
       "optionReasons": {
-        "produce-pdf-001": "本句指「以大量、工業化方式製造」。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-pdf-001": "本句的「produce thousands of units a day」指「以大量、工業化方式製造」。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-pdf-001"
     },
@@ -921,11 +913,9 @@ export default {
       "masked": "The farm ____.",
       "options": [
         "produce-mcq-04",
-        "produce-mcq-03",
         "produce-mcq-05",
-        "produce-mcq-02",
-        "produce-mcq-06",
-        "produce-mcq-01"
+        "produce-pdf-001",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produces rice and vegetables」指「出產農作物」。",
       "sentenceIndex": 13,
@@ -934,12 +924,10 @@ export default {
         "produces rice and vegetables"
       ],
       "optionReasons": {
-        "produce-mcq-04": "本句指「出產農作物」。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。"
+        "produce-mcq-04": "本句的「produces rice and vegetables」指「出產農作物」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-04"
     },
@@ -951,11 +939,9 @@ export default {
       "masked": "The region ____.",
       "options": [
         "produce-mcq-04",
-        "produce-mcq-03",
         "produce-mcq-05",
-        "produce-mcq-02",
-        "produce-mcq-06",
-        "produce-mcq-01"
+        "produce-mcq-13",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produces most of the country's wheat」指「出產農作物」。",
       "sentenceIndex": 14,
@@ -964,12 +950,10 @@ export default {
         "produces most of the country's wheat"
       ],
       "optionReasons": {
-        "produce-mcq-04": "本句指「出產農作物」。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-01": "「產生／帶來成果」與本句語境不同。"
+        "produce-mcq-04": "本句的「produces most of the country's wheat」指「出產農作物」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-04"
     },
@@ -981,11 +965,9 @@ export default {
       "masked": "This tree ____ every summer.",
       "options": [
         "produce-mcq-05",
-        "produce-mcq-04",
-        "produce-mcq-06",
-        "produce-mcq-03",
-        "produce-mcq-07",
-        "produce-mcq-02"
+        "produce-mcq-08",
+        "produce-mcq-09",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「produces fruit」指「結果」。",
       "sentenceIndex": 15,
@@ -994,12 +976,10 @@ export default {
         "produces fruit"
       ],
       "optionReasons": {
-        "produce-mcq-05": "本句指「結果」。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。"
+        "produce-mcq-05": "本句的「produces fruit」指「結果」。",
+        "produce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-05"
     },
@@ -1011,11 +991,9 @@ export default {
       "masked": "The plant ____.",
       "options": [
         "produce-mcq-05",
-        "produce-mcq-04",
-        "produce-mcq-06",
-        "produce-mcq-03",
-        "produce-mcq-07",
-        "produce-mcq-02"
+        "produce-mcq-08",
+        "produce-mcq-09",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「produces small white flowers」指「結果」。",
       "sentenceIndex": 16,
@@ -1024,12 +1002,10 @@ export default {
         "produces small white flowers"
       ],
       "optionReasons": {
-        "produce-mcq-05": "本句指「結果」。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-02": "「產生作用」與本句語境不同。"
+        "produce-mcq-05": "本句的「produces small white flowers」指「結果」。",
+        "produce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-05"
     },
@@ -1041,11 +1017,9 @@ export default {
       "masked": "These cows ____.",
       "options": [
         "produce-mcq-06",
-        "produce-mcq-05",
-        "produce-mcq-07",
-        "produce-mcq-04",
-        "produce-mcq-08",
-        "produce-mcq-03"
+        "produce-pdf-001",
+        "produce-mcq-09",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「produce a lot of milk」指「產奶」。",
       "sentenceIndex": 17,
@@ -1054,12 +1028,10 @@ export default {
         "produce a lot of milk"
       ],
       "optionReasons": {
-        "produce-mcq-06": "本句指「產奶」。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。"
+        "produce-mcq-06": "本句的「produce a lot of milk」指「產奶」。",
+        "produce-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-06"
     },
@@ -1071,11 +1043,9 @@ export default {
       "masked": "Some birds ____ at a time.",
       "options": [
         "produce-mcq-06",
-        "produce-mcq-05",
-        "produce-mcq-07",
-        "produce-mcq-04",
-        "produce-mcq-08",
-        "produce-mcq-03"
+        "produce-mcq-26",
+        "produce-pdf-003",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「produce several eggs」指「產奶」。",
       "sentenceIndex": 18,
@@ -1084,12 +1054,10 @@ export default {
         "produce several eggs"
       ],
       "optionReasons": {
-        "produce-mcq-06": "本句指「產奶」。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-03": "「生產商品」與本句語境不同。"
+        "produce-mcq-06": "本句的「produce several eggs」指「產奶」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-06"
     },
@@ -1101,11 +1069,9 @@ export default {
       "masked": "Solar panels ____.",
       "options": [
         "produce-mcq-07",
-        "produce-mcq-06",
-        "produce-mcq-08",
-        "produce-mcq-05",
-        "produce-mcq-09",
-        "produce-mcq-04"
+        "produce-pdf-003",
+        "produce-mcq-10",
+        "produce-mcq-25"
       ],
       "explanation": "本句的「produce electricity」指「發電」。",
       "sentenceIndex": 19,
@@ -1114,12 +1080,10 @@ export default {
         "produce electricity"
       ],
       "optionReasons": {
-        "produce-mcq-07": "本句指「發電」。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。"
+        "produce-mcq-07": "本句的「produce electricity」指「發電」。",
+        "produce-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-07"
     },
@@ -1131,11 +1095,9 @@ export default {
       "masked": "The body ____ from food.",
       "options": [
         "produce-mcq-07",
-        "produce-mcq-06",
-        "produce-mcq-08",
-        "produce-mcq-05",
         "produce-mcq-09",
-        "produce-mcq-04"
+        "produce-mcq-01",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「produces energy」指「發電」。",
       "sentenceIndex": 20,
@@ -1144,12 +1106,10 @@ export default {
         "produces energy"
       ],
       "optionReasons": {
-        "produce-mcq-07": "本句指「發電」。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-04": "「出產農作物」與本句語境不同。"
+        "produce-mcq-07": "本句的「produces energy」指「發電」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-07"
     },
@@ -1162,10 +1122,8 @@ export default {
       "options": [
         "produce-mcq-08",
         "produce-mcq-07",
-        "produce-mcq-09",
-        "produce-mcq-06",
-        "produce-mcq-10",
-        "produce-mcq-05"
+        "produce-pdf-002",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「produces a lot of heat」指「產生熱」。",
       "sentenceIndex": 21,
@@ -1174,12 +1132,10 @@ export default {
         "produces a lot of heat"
       ],
       "optionReasons": {
-        "produce-mcq-08": "本句指「產生熱」。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。"
+        "produce-mcq-08": "本句的「produces a lot of heat」指「產生熱」。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-08"
     },
@@ -1192,10 +1148,8 @@ export default {
       "options": [
         "produce-mcq-08",
         "produce-mcq-07",
-        "produce-mcq-09",
-        "produce-mcq-06",
         "produce-mcq-10",
-        "produce-mcq-05"
+        "produce-mcq-26"
       ],
       "explanation": "本句的「produces a high-pitched sound」指「產生熱」。",
       "sentenceIndex": 22,
@@ -1204,12 +1158,10 @@ export default {
         "produces a high-pitched sound"
       ],
       "optionReasons": {
-        "produce-mcq-08": "本句指「產生熱」。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-05": "「結果」與本句語境不同。"
+        "produce-mcq-08": "本句的「produces a high-pitched sound」指「產生熱」。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-08"
     },
@@ -1221,11 +1173,9 @@ export default {
       "masked": "The lawyer was unable to ____.",
       "options": [
         "produce-mcq-09",
-        "produce-mcq-08",
-        "produce-mcq-10",
-        "produce-mcq-07",
-        "produce-mcq-11",
-        "produce-mcq-06"
+        "produce-mcq-06",
+        "produce-pdf-003",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produce enough evidence」指「提出／出示證據」。",
       "sentenceIndex": 23,
@@ -1234,12 +1184,10 @@ export default {
         "produce enough evidence"
       ],
       "optionReasons": {
-        "produce-mcq-09": "本句指「提出／出示證據」。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-09": "本句的「produce enough evidence」指「提出／出示證據」。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-09"
     },
@@ -1251,11 +1199,9 @@ export default {
       "masked": "Can you ____ to support the claim?",
       "options": [
         "produce-mcq-09",
-        "produce-mcq-08",
-        "produce-mcq-10",
-        "produce-mcq-07",
-        "produce-mcq-11",
-        "produce-mcq-06"
+        "produce-mcq-12",
+        "produce-mcq-23",
+        "produce-mcq-25"
       ],
       "explanation": "本句的「produce evidence」指「提出／出示證據」。",
       "sentenceIndex": 24,
@@ -1264,12 +1210,10 @@ export default {
         "produce evidence"
       ],
       "optionReasons": {
-        "produce-mcq-09": "本句指「提出／出示證據」。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-06": "「產奶」與本句語境不同。"
+        "produce-mcq-09": "本句的「produce evidence」指「提出／出示證據」。",
+        "produce-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-09"
     },
@@ -1281,11 +1225,9 @@ export default {
       "masked": "Passengers may be asked to ____.",
       "options": [
         "produce-mcq-10",
-        "produce-mcq-09",
-        "produce-mcq-11",
-        "produce-mcq-08",
         "produce-mcq-12",
-        "produce-mcq-07"
+        "produce-mcq-06",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「produce their tickets」指「出示文件」。",
       "sentenceIndex": 25,
@@ -1294,12 +1236,10 @@ export default {
         "produce their tickets"
       ],
       "optionReasons": {
-        "produce-mcq-10": "本句指「出示文件」。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。"
+        "produce-mcq-10": "本句的「produce their tickets」指「出示文件」。",
+        "produce-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-10"
     },
@@ -1311,10 +1251,8 @@ export default {
       "masked": "He was unable to ____.",
       "options": [
         "produce-mcq-10",
-        "produce-mcq-09",
-        "produce-mcq-11",
-        "produce-mcq-08",
-        "produce-mcq-12",
+        "produce-mcq-26",
+        "produce-mcq-19",
         "produce-mcq-07"
       ],
       "explanation": "本句的「produce any identification」指「出示文件」。",
@@ -1324,12 +1262,10 @@ export default {
         "produce any identification"
       ],
       "optionReasons": {
-        "produce-mcq-10": "本句指「出示文件」。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。"
+        "produce-mcq-10": "本句的「produce any identification」指「出示文件」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-10"
     },
@@ -1341,10 +1277,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "produce-pdf-002",
-        "produce-mcq-09",
-        "produce-mcq-11",
         "produce-mcq-08",
-        "produce-mcq-12",
+        "produce-mcq-05",
         "produce-mcq-07"
       ],
       "explanation": "本句的「produced a key from her bag」指「從某處取出並展示 X」。",
@@ -1354,12 +1288,10 @@ export default {
         "produced a key from her bag"
       ],
       "optionReasons": {
-        "produce-pdf-002": "本句指「從某處取出並展示 X」。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。"
+        "produce-pdf-002": "本句的「produced a key from her bag」指「從某處取出並展示 X」。",
+        "produce-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-pdf-002"
     },
@@ -1371,11 +1303,9 @@ export default {
       "masked": "He suddenly ____.",
       "options": [
         "produce-pdf-002",
-        "produce-mcq-09",
-        "produce-mcq-11",
-        "produce-mcq-08",
-        "produce-mcq-12",
-        "produce-mcq-07"
+        "produce-mcq-20",
+        "produce-mcq-07",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「produced a notebook from his pocket」指「從某處取出並展示 X」。",
       "sentenceIndex": 28,
@@ -1384,12 +1314,10 @@ export default {
         "produced a notebook from his pocket"
       ],
       "optionReasons": {
-        "produce-pdf-002": "本句指「從某處取出並展示 X」。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-07": "「發電」與本句語境不同。"
+        "produce-pdf-002": "本句的「produced a notebook from his pocket」指「從某處取出並展示 X」。",
+        "produce-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-pdf-002"
     },
@@ -1401,11 +1329,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "produce-mcq-11",
-        "produce-mcq-10",
-        "produce-mcq-12",
-        "produce-mcq-09",
-        "produce-mcq-13",
-        "produce-mcq-08"
+        "produce-pdf-002",
+        "produce-mcq-06",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「produced a detailed report」指「製作／撰寫報告」。",
       "sentenceIndex": 29,
@@ -1414,12 +1340,10 @@ export default {
         "produced a detailed report"
       ],
       "optionReasons": {
-        "produce-mcq-11": "本句指「製作／撰寫報告」。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。"
+        "produce-mcq-11": "本句的「produced a detailed report」指「製作／撰寫報告」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-11"
     },
@@ -1431,11 +1355,9 @@ export default {
       "masked": "Consultants were asked to ____.",
       "options": [
         "produce-mcq-11",
-        "produce-mcq-10",
-        "produce-mcq-12",
+        "produce-mcq-06",
         "produce-mcq-09",
-        "produce-mcq-13",
-        "produce-mcq-08"
+        "produce-mcq-05"
       ],
       "explanation": "本句的「produce a written summary」指「製作／撰寫報告」。",
       "sentenceIndex": 30,
@@ -1444,12 +1366,10 @@ export default {
         "produce a written summary"
       ],
       "optionReasons": {
-        "produce-mcq-11": "本句指「製作／撰寫報告」。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-08": "「產生熱」與本句語境不同。"
+        "produce-mcq-11": "本句的「produce a written summary」指「製作／撰寫報告」。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-11"
     },
@@ -1461,10 +1381,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "produce-mcq-12",
-        "produce-mcq-11",
-        "produce-mcq-13",
-        "produce-mcq-10",
-        "produce-mcq-14",
+        "produce-mcq-23",
+        "produce-mcq-25",
         "produce-mcq-09"
       ],
       "explanation": "本句的「produced the documentary」指「製作／監製電影」。",
@@ -1474,12 +1392,10 @@ export default {
         "produced the documentary"
       ],
       "optionReasons": {
-        "produce-mcq-12": "本句指「製作／監製電影」。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。"
+        "produce-mcq-12": "本句的「produced the documentary」指「製作／監製電影」。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-12"
     },
@@ -1491,10 +1407,8 @@ export default {
       "masked": "The series was ____.",
       "options": [
         "produce-mcq-12",
-        "produce-mcq-11",
-        "produce-mcq-13",
-        "produce-mcq-10",
-        "produce-mcq-14",
+        "produce-mcq-26",
+        "produce-pdf-002",
         "produce-mcq-09"
       ],
       "explanation": "本句的「produced by an independent studio」指「製作／監製電影」。",
@@ -1504,12 +1418,10 @@ export default {
         "produced by an independent studio"
       ],
       "optionReasons": {
-        "produce-mcq-12": "本句指「製作／監製電影」。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。"
+        "produce-mcq-12": "本句的「produced by an independent studio」指「製作／監製電影」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-12"
     },
@@ -1521,11 +1433,9 @@ export default {
       "masked": "The theatre is ____.",
       "options": [
         "produce-pdf-003",
-        "produce-mcq-11",
-        "produce-mcq-13",
+        "produce-mcq-23",
         "produce-mcq-10",
-        "produce-mcq-14",
-        "produce-mcq-09"
+        "produce-mcq-05"
       ],
       "explanation": "本句的「producing a new play」指「負責組織和管理表演作品的整體製作」。",
       "sentenceIndex": 33,
@@ -1534,12 +1444,10 @@ export default {
         "producing a new play"
       ],
       "optionReasons": {
-        "produce-pdf-003": "本句指「負責組織和管理表演作品的整體製作」。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。"
+        "produce-pdf-003": "本句的「producing a new play」指「負責組織和管理表演作品的整體製作」。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-pdf-003"
     },
@@ -1551,11 +1459,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "produce-pdf-003",
-        "produce-mcq-11",
-        "produce-mcq-13",
-        "produce-mcq-10",
-        "produce-mcq-14",
-        "produce-mcq-09"
+        "produce-mcq-05",
+        "produce-mcq-04",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produced several stage shows」指「負責組織和管理表演作品的整體製作」。",
       "sentenceIndex": 34,
@@ -1564,12 +1470,10 @@ export default {
         "produced several stage shows"
       ],
       "optionReasons": {
-        "produce-pdf-003": "本句指「負責組織和管理表演作品的整體製作」。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-09": "「提出／出示證據」與本句語境不同。"
+        "produce-pdf-003": "本句的「produced several stage shows」指「負責組織和管理表演作品的整體製作」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-pdf-003"
     },
@@ -1581,11 +1485,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "produce-mcq-13",
-        "produce-mcq-12",
-        "produce-mcq-14",
-        "produce-mcq-11",
-        "produce-mcq-15",
-        "produce-mcq-10"
+        "produce-mcq-23",
+        "produce-mcq-09",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「produced the band's latest album」指「音樂製作」。",
       "sentenceIndex": 35,
@@ -1594,12 +1496,10 @@ export default {
         "produced the band's latest album"
       ],
       "optionReasons": {
-        "produce-mcq-13": "本句指「音樂製作」。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。"
+        "produce-mcq-13": "本句的「produced the band's latest album」指「音樂製作」。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-13"
     },
@@ -1611,11 +1511,9 @@ export default {
       "masked": "She writes songs and ____.",
       "options": [
         "produce-mcq-13",
-        "produce-mcq-12",
-        "produce-mcq-14",
-        "produce-mcq-11",
-        "produce-mcq-15",
-        "produce-mcq-10"
+        "produce-mcq-04",
+        "produce-mcq-07",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「produces music」指「音樂製作」。",
       "sentenceIndex": 36,
@@ -1624,12 +1522,10 @@ export default {
         "produces music"
       ],
       "optionReasons": {
-        "produce-mcq-13": "本句指「音樂製作」。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-10": "「出示文件」與本句語境不同。"
+        "produce-mcq-13": "本句的「produces music」指「音樂製作」。",
+        "produce-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-13"
     },
@@ -1641,11 +1537,9 @@ export default {
       "masked": "The country is a major ____.",
       "options": [
         "produce-mcq-14",
-        "produce-mcq-13",
-        "produce-mcq-15",
-        "produce-mcq-12",
-        "produce-mcq-16",
-        "produce-mcq-11"
+        "produce-mcq-07",
+        "produce-mcq-05",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「producer of coffee」指「生產者／製作人」。",
       "sentenceIndex": 37,
@@ -1654,12 +1548,10 @@ export default {
         "producer of coffee"
       ],
       "optionReasons": {
-        "produce-mcq-14": "本句指「生產者／製作人」。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。"
+        "produce-mcq-14": "本句的「producer of coffee」指「生產者／製作人」。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-14"
     },
@@ -1671,11 +1563,9 @@ export default {
       "masked": "Local ____ are struggling with rising costs.",
       "options": [
         "produce-mcq-14",
-        "produce-mcq-13",
-        "produce-mcq-15",
-        "produce-mcq-12",
-        "produce-mcq-16",
-        "produce-mcq-11"
+        "produce-pdf-002",
+        "produce-mcq-26",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「producers」指「生產者／製作人」。",
       "sentenceIndex": 38,
@@ -1684,12 +1574,10 @@ export default {
         "producers"
       ],
       "optionReasons": {
-        "produce-mcq-14": "本句指「生產者／製作人」。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-11": "「製作／撰寫報告」與本句語境不同。"
+        "produce-mcq-14": "本句的「producers」指「生產者／製作人」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-14"
     },
@@ -1701,11 +1589,9 @@ export default {
       "masked": "She works as a film ____.",
       "options": [
         "produce-mcq-15",
-        "produce-mcq-14",
-        "produce-mcq-16",
-        "produce-mcq-13",
-        "produce-mcq-17",
-        "produce-mcq-12"
+        "produce-mcq-10",
+        "produce-mcq-25",
+        "produce-mcq-23"
       ],
       "explanation": "本句的「producer」指「電影製作人／監製」。",
       "sentenceIndex": 39,
@@ -1714,12 +1600,10 @@ export default {
         "producer"
       ],
       "optionReasons": {
-        "produce-mcq-15": "本句指「電影製作人／監製」。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。"
+        "produce-mcq-15": "本句的「producer」指「電影製作人／監製」。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-15"
     },
@@ -1731,11 +1615,9 @@ export default {
       "masked": "The ____ managed the budget and production schedule.",
       "options": [
         "produce-mcq-15",
-        "produce-mcq-14",
-        "produce-mcq-16",
-        "produce-mcq-13",
-        "produce-mcq-17",
-        "produce-mcq-12"
+        "produce-mcq-09",
+        "produce-mcq-23",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「producer」指「電影製作人／監製」。",
       "sentenceIndex": 40,
@@ -1744,12 +1626,10 @@ export default {
         "producer"
       ],
       "optionReasons": {
-        "produce-mcq-15": "本句指「電影製作人／監製」。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-12": "「製作／監製電影」與本句語境不同。"
+        "produce-mcq-15": "本句的「producer」指「電影製作人／監製」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-15"
     },
@@ -1761,11 +1641,9 @@ export default {
       "masked": "The ____ helped shape the album's sound.",
       "options": [
         "produce-mcq-16",
-        "produce-mcq-15",
-        "produce-mcq-17",
-        "produce-mcq-14",
-        "produce-mcq-18",
-        "produce-mcq-13"
+        "produce-mcq-09",
+        "produce-mcq-06",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「producer」指「音樂製作人」。",
       "sentenceIndex": 41,
@@ -1774,12 +1652,10 @@ export default {
         "producer"
       ],
       "optionReasons": {
-        "produce-mcq-16": "本句指「音樂製作人」。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。"
+        "produce-mcq-16": "本句的「producer」指「音樂製作人」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-16"
     },
@@ -1791,11 +1667,9 @@ export default {
       "masked": "She is a successful ____.",
       "options": [
         "produce-mcq-16",
-        "produce-mcq-15",
-        "produce-mcq-17",
-        "produce-mcq-14",
-        "produce-mcq-18",
-        "produce-mcq-13"
+        "produce-mcq-10",
+        "produce-mcq-07",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「music producer」指「音樂製作人」。",
       "sentenceIndex": 42,
@@ -1804,74 +1678,68 @@ export default {
         "music producer"
       ],
       "optionReasons": {
-        "produce-mcq-16": "本句指「音樂製作人」。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。"
+        "produce-mcq-16": "本句的「music producer」指「音樂製作人」。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-16"
     },
     {
       "id": "produce-22-0",
-      "sense": "produce-mcq-16",
+      "sense": "produce-reviewed-3e3d3a34d5",
       "en": "He served as executive producer on the series.",
       "zh": "他擔任這套劇集的執行製作人。",
       "masked": "He served as ____ on the series.",
       "options": [
-        "produce-mcq-16",
-        "produce-mcq-15",
-        "produce-mcq-17",
-        "produce-mcq-14",
-        "produce-mcq-18",
-        "produce-mcq-13"
+        "produce-reviewed-3e3d3a34d5",
+        "produce-mcq-26",
+        "produce-mcq-09",
+        "produce-pdf-002"
       ],
-      "explanation": "本句的「executive producer」指「音樂製作人」。",
+      "explanation": "對照完整句子：「他擔任這套劇集的執行製作人。」。這裡的「executive producer」表示「通常負責作品較高層次的資金、商業或整體製作管理的人」。",
       "sentenceIndex": 43,
       "sourcePractice": 1,
       "targets": [
         "executive producer"
       ],
       "optionReasons": {
-        "produce-mcq-16": "本句指「音樂製作人」。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。"
+        "produce-reviewed-3e3d3a34d5": "對照完整句子：「他擔任這套劇集的執行製作人。」。這裡的「executive producer」表示「通常負責作品較高層次的資金、商業或整體製作管理的人」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "produce-mcq-16"
+      "correctOption": "produce-reviewed-3e3d3a34d5",
+      "previousCorrectOption": "produce-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "produce-22-1",
-      "sense": "produce-mcq-16",
+      "sense": "produce-reviewed-3e3d3a34d5",
       "en": "The executive producer helped secure funding.",
       "zh": "執行製作人協助取得製作資金。",
       "masked": "The ____ helped secure funding.",
       "options": [
-        "produce-mcq-16",
-        "produce-mcq-15",
-        "produce-mcq-17",
-        "produce-mcq-14",
-        "produce-mcq-18",
-        "produce-mcq-13"
+        "produce-reviewed-3e3d3a34d5",
+        "produce-mcq-05",
+        "produce-mcq-10",
+        "produce-mcq-07"
       ],
-      "explanation": "本句的「executive producer」指「音樂製作人」。",
+      "explanation": "對照完整句子：「執行製作人協助取得製作資金。」。這裡的「executive producer」表示「通常負責作品較高層次的資金、商業或整體製作管理的人」。",
       "sentenceIndex": 44,
       "sourcePractice": 2,
       "targets": [
         "executive producer"
       ],
       "optionReasons": {
-        "produce-mcq-16": "本句指「音樂製作人」。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-13": "「音樂製作」與本句語境不同。"
+        "produce-reviewed-3e3d3a34d5": "對照完整句子：「執行製作人協助取得製作資金。」。這裡的「executive producer」表示「通常負責作品較高層次的資金、商業或整體製作管理的人」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "produce-mcq-16"
+      "correctOption": "produce-reviewed-3e3d3a34d5",
+      "previousCorrectOption": "produce-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "produce-23-0",
@@ -1881,11 +1749,9 @@ export default {
       "masked": "The factory increased ____.",
       "options": [
         "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-pdf-002",
+        "produce-mcq-09",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「production」指「生產；製作」。",
       "sentenceIndex": 45,
@@ -1894,12 +1760,10 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-mcq-17": "本句的「production」指「生產；製作」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-17"
     },
@@ -1911,11 +1775,9 @@ export default {
       "masked": "Car ____ fell last year.",
       "options": [
         "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-mcq-09",
+        "produce-mcq-26",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「production」指「生產；製作」。",
       "sentenceIndex": 46,
@@ -1924,12 +1786,10 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-mcq-17": "本句的「production」指「生產；製作」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-17"
     },
@@ -1941,11 +1801,9 @@ export default {
       "masked": "Oil ____ increased.",
       "options": [
         "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-mcq-05",
+        "produce-pdf-002",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「production」指「生產；製作」。",
       "sentenceIndex": 47,
@@ -1954,12 +1812,10 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-mcq-17": "本句的「production」指「生產；製作」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-17"
     },
@@ -1971,11 +1827,9 @@ export default {
       "masked": "Food ____ needs to rise.",
       "options": [
         "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-mcq-07",
+        "produce-mcq-09",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「production」指「生產；製作」。",
       "sentenceIndex": 48,
@@ -1984,12 +1838,10 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-mcq-17": "本句的「production」指「生產；製作」。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-17"
     },
@@ -2001,11 +1853,9 @@ export default {
       "masked": "The design was suitable for ____.",
       "options": [
         "produce-mcq-19",
-        "produce-mcq-18",
-        "produce-mcq-20",
-        "produce-mcq-17",
-        "produce-mcq-21",
-        "produce-mcq-16"
+        "produce-mcq-26",
+        "produce-mcq-09",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「mass production」指「大量生產」。",
       "sentenceIndex": 49,
@@ -2014,12 +1864,10 @@ export default {
         "mass production"
       ],
       "optionReasons": {
-        "produce-mcq-19": "本句指「大量生產」。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-20": "「生產線」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。"
+        "produce-mcq-19": "本句的「mass production」指「大量生產」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-19"
     },
@@ -2031,11 +1879,9 @@ export default {
       "masked": "____ reduced the cost per unit.",
       "options": [
         "produce-mcq-19",
-        "produce-mcq-18",
-        "produce-mcq-20",
-        "produce-mcq-17",
-        "produce-mcq-21",
-        "produce-mcq-16"
+        "produce-pdf-002",
+        "produce-mcq-09",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「Mass production」指「大量生產」。",
       "sentenceIndex": 50,
@@ -2044,12 +1890,10 @@ export default {
         "Mass production"
       ],
       "optionReasons": {
-        "produce-mcq-19": "本句指「大量生產」。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-20": "「生產線」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。"
+        "produce-mcq-19": "本句的「Mass production」指「大量生產」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-19"
     },
@@ -2061,11 +1905,9 @@ export default {
       "masked": "The cars move along the ____.",
       "options": [
         "produce-mcq-20",
-        "produce-mcq-19",
-        "produce-mcq-21",
-        "produce-mcq-18",
-        "produce-mcq-22",
-        "produce-mcq-17"
+        "produce-mcq-07",
+        "produce-mcq-05",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「production line」指「生產線」。",
       "sentenceIndex": 51,
@@ -2074,12 +1916,10 @@ export default {
         "production line"
       ],
       "optionReasons": {
-        "produce-mcq-20": "本句指「生產線」。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。"
+        "produce-mcq-20": "本句的「production line」指「生產線」。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-20"
     },
@@ -2091,11 +1931,9 @@ export default {
       "masked": "The factory added a new ____.",
       "options": [
         "produce-mcq-20",
-        "produce-mcq-19",
-        "produce-mcq-21",
-        "produce-mcq-18",
-        "produce-mcq-22",
-        "produce-mcq-17"
+        "produce-pdf-002",
+        "produce-mcq-07",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「production line」指「生產線」。",
       "sentenceIndex": 52,
@@ -2104,12 +1942,10 @@ export default {
         "production line"
       ],
       "optionReasons": {
-        "produce-mcq-20": "本句指「生產線」。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-17": "「生產；製作」與本句語境不同。"
+        "produce-mcq-20": "本句的「production line」指「生產線」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-20"
     },
@@ -2121,11 +1957,9 @@ export default {
       "masked": "Rising energy prices increased ____.",
       "options": [
         "produce-mcq-21",
-        "produce-mcq-20",
-        "produce-mcq-22",
-        "produce-mcq-19",
-        "produce-mcq-23",
-        "produce-mcq-18"
+        "produce-mcq-07",
+        "produce-mcq-09",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「production costs」指「生產／製作成本」。",
       "sentenceIndex": 53,
@@ -2134,12 +1968,10 @@ export default {
         "production costs"
       ],
       "optionReasons": {
-        "produce-mcq-21": "本句指「生產／製作成本」。",
-        "produce-mcq-20": "「生產線」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。"
+        "produce-mcq-21": "本句的「production costs」指「生產／製作成本」。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-21"
     },
@@ -2151,11 +1983,9 @@ export default {
       "masked": "The film had very high ____.",
       "options": [
         "produce-mcq-21",
-        "produce-mcq-20",
-        "produce-mcq-22",
-        "produce-mcq-19",
-        "produce-mcq-23",
-        "produce-mcq-18"
+        "produce-mcq-05",
+        "produce-mcq-07",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「production costs」指「生產／製作成本」。",
       "sentenceIndex": 54,
@@ -2164,12 +1994,10 @@ export default {
         "production costs"
       ],
       "optionReasons": {
-        "produce-mcq-21": "本句指「生產／製作成本」。",
-        "produce-mcq-20": "「生產線」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。"
+        "produce-mcq-21": "本句的「production costs」指「生產／製作成本」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-21"
     },
@@ -2181,11 +2009,9 @@ export default {
       "masked": "The film is currently in ____.",
       "options": [
         "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-mcq-26",
+        "produce-mcq-07",
+        "produce-mcq-09"
       ],
       "explanation": "本句的「production」指「生產；製作」。",
       "sentenceIndex": 55,
@@ -2194,12 +2020,10 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-mcq-17": "本句的「production」指「生產；製作」。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-17"
     },
@@ -2211,11 +2035,9 @@ export default {
       "masked": "The programme took six months to complete ____.",
       "options": [
         "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-mcq-05",
+        "produce-mcq-09",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「production」指「生產；製作」。",
       "sentenceIndex": 56,
@@ -2224,74 +2046,68 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-mcq-17": "本句的「production」指「生產；製作」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-17"
     },
     {
       "id": "produce-29-0",
-      "sense": "produce-mcq-17",
+      "sense": "produce-reviewed-7183005dcd",
       "en": "We saw a wonderful production of Hamlet.",
       "zh": "我們看了一場很精彩的《哈姆雷特》舞台製作／演出。",
       "masked": "We saw a wonderful ____.",
       "options": [
-        "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-reviewed-7183005dcd",
+        "produce-mcq-23",
+        "produce-mcq-05",
+        "produce-mcq-09"
       ],
-      "explanation": "本句的「production of Hamlet」指「生產；製作」。",
+      "explanation": "對照完整句子：「我們看了一場很精彩的《哈姆雷特》舞台製作／演出。」。這裡的「production of Hamlet」表示「被製作並呈現出來的戲劇、電影或其他表演作品」。",
       "sentenceIndex": 57,
       "sourcePractice": 1,
       "targets": [
         "production of Hamlet"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-reviewed-7183005dcd": "對照完整句子：「我們看了一場很精彩的《哈姆雷特》舞台製作／演出。」。這裡的「production of Hamlet」表示「被製作並呈現出來的戲劇、電影或其他表演作品」。",
+        "produce-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "produce-mcq-17"
+      "correctOption": "produce-reviewed-7183005dcd",
+      "previousCorrectOption": "produce-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "produce-29-1",
-      "sense": "produce-mcq-17",
+      "sense": "produce-reviewed-7183005dcd",
       "en": "The theatre's latest production received excellent reviews.",
       "zh": "劇院最新的製作作品獲得很好的評價。",
       "masked": "The theatre's latest ____ received excellent reviews.",
       "options": [
-        "produce-mcq-17",
-        "produce-mcq-16",
-        "produce-mcq-18",
-        "produce-mcq-15",
-        "produce-mcq-19",
-        "produce-mcq-14"
+        "produce-reviewed-7183005dcd",
+        "produce-mcq-06",
+        "produce-mcq-26",
+        "produce-mcq-09"
       ],
-      "explanation": "本句的「production」指「生產；製作」。",
+      "explanation": "對照完整句子：「劇院最新的製作作品獲得很好的評價。」。這裡的「production」表示「被製作並呈現出來的戲劇、電影或其他表演作品」。",
       "sentenceIndex": 58,
       "sourcePractice": 2,
       "targets": [
         "production"
       ],
       "optionReasons": {
-        "produce-mcq-17": "本句指「生產；製作」。",
-        "produce-mcq-16": "「音樂製作人」與本句語境不同。",
-        "produce-mcq-18": "「產量」與本句語境不同。",
-        "produce-mcq-15": "「電影製作人／監製」與本句語境不同。",
-        "produce-mcq-19": "「大量生產」與本句語境不同。",
-        "produce-mcq-14": "「生產者／製作人」與本句語境不同。"
+        "produce-reviewed-7183005dcd": "對照完整句子：「劇院最新的製作作品獲得很好的評價。」。這裡的「production」表示「被製作並呈現出來的戲劇、電影或其他表演作品」。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "produce-mcq-17"
+      "correctOption": "produce-reviewed-7183005dcd",
+      "previousCorrectOption": "produce-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "produce-30-0",
@@ -2301,11 +2117,9 @@ export default {
       "masked": "We had a very ____.",
       "options": [
         "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-24",
-        "produce-mcq-21",
-        "produce-mcq-25",
-        "produce-mcq-20"
+        "produce-pdf-002",
+        "produce-mcq-16",
+        "produce-mcq-05"
       ],
       "explanation": "本句的「productive meeting」指「有成效的；高產的」。",
       "sentenceIndex": 59,
@@ -2314,12 +2128,10 @@ export default {
         "productive meeting"
       ],
       "optionReasons": {
-        "produce-mcq-23": "本句指「有成效的；高產的」。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-20": "「生產線」與本句語境不同。"
+        "produce-mcq-23": "本句的「productive meeting」指「有成效的；高產的」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-23"
     },
@@ -2331,11 +2143,9 @@ export default {
       "masked": "I am most ____ in the morning.",
       "options": [
         "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-24",
-        "produce-mcq-21",
-        "produce-mcq-25",
-        "produce-mcq-20"
+        "produce-pdf-003",
+        "produce-mcq-05",
+        "produce-mcq-10"
       ],
       "explanation": "本句的「productive」指「有成效的；高產的」。",
       "sentenceIndex": 60,
@@ -2344,12 +2154,10 @@ export default {
         "productive"
       ],
       "optionReasons": {
-        "produce-mcq-23": "本句指「有成效的；高產的」。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-20": "「生產線」與本句語境不同。"
+        "produce-mcq-23": "本句的「productive」指「有成效的；高產的」。",
+        "produce-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-23"
     },
@@ -2361,11 +2169,9 @@ export default {
       "masked": "The valley contains highly ____.",
       "options": [
         "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-24",
-        "produce-mcq-21",
-        "produce-mcq-25",
-        "produce-mcq-20"
+        "produce-mcq-12",
+        "produce-mcq-09",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「productive farmland」指「有成效的；高產的」。",
       "sentenceIndex": 61,
@@ -2374,12 +2180,10 @@ export default {
         "productive farmland"
       ],
       "optionReasons": {
-        "produce-mcq-23": "本句指「有成效的；高產的」。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-20": "「生產線」與本句語境不同。"
+        "produce-mcq-23": "本句的「productive farmland」指「有成效的；高產的」。",
+        "produce-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-23"
     },
@@ -2391,11 +2195,9 @@ export default {
       "masked": "Better irrigation made the farm more ____.",
       "options": [
         "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-24",
-        "produce-mcq-21",
-        "produce-mcq-25",
-        "produce-mcq-20"
+        "produce-mcq-15",
+        "produce-mcq-05",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「productive」指「有成效的；高產的」。",
       "sentenceIndex": 62,
@@ -2404,12 +2206,10 @@ export default {
         "productive"
       ],
       "optionReasons": {
-        "produce-mcq-23": "本句指「有成效的；高產的」。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-20": "「生產線」與本句語境不同。"
+        "produce-mcq-23": "本句的「productive」指「有成效的；高產的」。",
+        "produce-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-23"
     },
@@ -2421,11 +2221,9 @@ export default {
       "masked": "Better teamwork can improve ____.",
       "options": [
         "produce-mcq-24",
-        "produce-mcq-23",
-        "produce-mcq-25",
-        "produce-mcq-22",
-        "produce-mcq-26",
-        "produce-mcq-21"
+        "produce-mcq-05",
+        "produce-pdf-002",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「productivity」指「生產力；效率」。",
       "sentenceIndex": 63,
@@ -2434,12 +2232,10 @@ export default {
         "productivity"
       ],
       "optionReasons": {
-        "produce-mcq-24": "本句指「生產力；效率」。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-26": "「新鮮蔬果」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。"
+        "produce-mcq-24": "本句的「productivity」指「生產力；效率」。",
+        "produce-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-24"
     },
@@ -2451,11 +2247,9 @@ export default {
       "masked": "Too many meetings may reduce ____.",
       "options": [
         "produce-mcq-24",
-        "produce-mcq-23",
-        "produce-mcq-25",
-        "produce-mcq-22",
-        "produce-mcq-26",
-        "produce-mcq-21"
+        "produce-mcq-09",
+        "produce-pdf-002",
+        "produce-mcq-26"
       ],
       "explanation": "本句的「productivity」指「生產力；效率」。",
       "sentenceIndex": 64,
@@ -2464,12 +2258,10 @@ export default {
         "productivity"
       ],
       "optionReasons": {
-        "produce-mcq-24": "本句指「生產力；效率」。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-26": "「新鮮蔬果」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。"
+        "produce-mcq-24": "本句的「productivity」指「生產力；效率」。",
+        "produce-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-24"
     },
@@ -2481,11 +2273,9 @@ export default {
       "masked": "The market sells fresh ____.",
       "options": [
         "produce-mcq-25",
-        "produce-mcq-24",
-        "produce-mcq-26",
-        "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-21"
+        "produce-mcq-16",
+        "produce-mcq-10",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「produce」指「農產品；蔬果」。",
       "sentenceIndex": 65,
@@ -2494,12 +2284,10 @@ export default {
         "produce"
       ],
       "optionReasons": {
-        "produce-mcq-25": "本句指「農產品；蔬果」。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-26": "「新鮮蔬果」與本句語境不同。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。"
+        "produce-mcq-25": "本句的「produce」指「農產品；蔬果」。",
+        "produce-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-25"
     },
@@ -2511,11 +2299,9 @@ export default {
       "masked": "Most of the ____ is grown locally.",
       "options": [
         "produce-mcq-25",
-        "produce-mcq-24",
-        "produce-mcq-26",
-        "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-21"
+        "produce-mcq-11",
+        "produce-mcq-07",
+        "produce-pdf-002"
       ],
       "explanation": "本句的「produce」指「農產品；蔬果」。",
       "sentenceIndex": 66,
@@ -2524,12 +2310,10 @@ export default {
         "produce"
       ],
       "optionReasons": {
-        "produce-mcq-25": "本句指「農產品；蔬果」。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-26": "「新鮮蔬果」與本句語境不同。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。"
+        "produce-mcq-25": "本句的「produce」指「農產品；蔬果」。",
+        "produce-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-25"
     },
@@ -2541,11 +2325,9 @@ export default {
       "masked": "The shop specializes in ____.",
       "options": [
         "produce-mcq-26",
-        "produce-mcq-25",
-        "produce-mcq-24",
-        "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-21"
+        "produce-pdf-002",
+        "produce-mcq-06",
+        "produce-mcq-13"
       ],
       "explanation": "本句的「fresh produce」指「新鮮蔬果」。",
       "sentenceIndex": 67,
@@ -2554,12 +2336,10 @@ export default {
         "fresh produce"
       ],
       "optionReasons": {
-        "produce-mcq-26": "本句指「新鮮蔬果」。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。"
+        "produce-mcq-26": "本句的「fresh produce」指「新鮮蔬果」。",
+        "produce-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-26"
     },
@@ -2571,11 +2351,9 @@ export default {
       "masked": "We buy ____ from local farmers.",
       "options": [
         "produce-mcq-26",
-        "produce-mcq-25",
-        "produce-mcq-24",
-        "produce-mcq-23",
-        "produce-mcq-22",
-        "produce-mcq-21"
+        "produce-mcq-21",
+        "produce-mcq-10",
+        "produce-mcq-07"
       ],
       "explanation": "本句的「fresh produce」指「新鮮蔬果」。",
       "sentenceIndex": 68,
@@ -2584,12 +2362,10 @@ export default {
         "fresh produce"
       ],
       "optionReasons": {
-        "produce-mcq-26": "本句指「新鮮蔬果」。",
-        "produce-mcq-25": "「農產品；蔬果」與本句語境不同。",
-        "produce-mcq-24": "「生產力；效率」與本句語境不同。",
-        "produce-mcq-23": "「有成效的；高產的」與本句語境不同。",
-        "produce-mcq-22": "「演出／製作作品」與本句語境不同。",
-        "produce-mcq-21": "「生產／製作成本」與本句語境不同。"
+        "produce-mcq-26": "本句的「fresh produce」指「新鮮蔬果」。",
+        "produce-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "produce-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "produce-mcq-26"
     }
@@ -2601,5 +2377,7 @@ export default {
     "sha256": "de838bacb20868233ccff139f61e856707529020c2fe11ae55ff9bd43053af69",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -305,11 +305,9 @@ export default {
       "masked": "This is a ____ room.",
       "options": [
         "private-mcq-01",
-        "private-mcq-02",
-        "private-mcq-03",
-        "private-mcq-04",
         "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-10",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
       "sentenceIndex": 0,
@@ -318,12 +316,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-01": "本句指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-01": "本句的「private」指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-01"
     },
@@ -335,11 +331,9 @@ export default {
       "masked": "The garden is ____ property.",
       "options": [
         "private-mcq-01",
-        "private-mcq-02",
-        "private-mcq-03",
-        "private-mcq-04",
         "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-10",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
       "sentenceIndex": 1,
@@ -348,12 +342,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-01": "本句指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-01": "本句的「private」指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-01"
     },
@@ -365,11 +357,9 @@ export default {
       "masked": "Guests have access to a ____ entrance.",
       "options": [
         "private-mcq-01",
-        "private-mcq-02",
-        "private-mcq-03",
-        "private-mcq-04",
-        "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-12",
+        "private-mcq-10",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
       "sentenceIndex": 2,
@@ -378,12 +368,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-01": "本句指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-01": "本句的「private」指「屬於個人或特定群體，而不是公眾共同使用／擁有的」。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-01"
     },
@@ -395,11 +383,8 @@ export default {
       "masked": "She works at a ____ school.",
       "options": [
         "private-mcq-02",
-        "private-mcq-01",
-        "private-mcq-03",
-        "private-mcq-04",
-        "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-10",
+        "private-mcq-05"
       ],
       "explanation": "本句的「private」指「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」。",
       "sentenceIndex": 3,
@@ -408,12 +393,9 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-02": "本句指「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-02": "本句的「private」指「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-02"
     },
@@ -425,11 +407,8 @@ export default {
       "masked": "They chose ____ healthcare.",
       "options": [
         "private-mcq-02",
-        "private-mcq-01",
-        "private-mcq-03",
-        "private-mcq-04",
-        "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-10",
+        "private-mcq-05"
       ],
       "explanation": "本句的「private」指「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」。",
       "sentenceIndex": 4,
@@ -438,12 +417,9 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-02": "本句指「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-02": "本句的「private」指「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-02"
     },
@@ -455,11 +431,9 @@ export default {
       "masked": "That is a ____ matter.",
       "options": [
         "private-mcq-03",
-        "private-mcq-02",
-        "private-mcq-04",
-        "private-mcq-01",
-        "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-12",
+        "private-mcq-07",
+        "private-mcq-10"
       ],
       "explanation": "本句的「private」指「屬於個人、不打算讓公眾或無關人士知道的」。",
       "sentenceIndex": 5,
@@ -468,12 +442,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-03": "本句指「屬於個人、不打算讓公眾或無關人士知道的」。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-03": "本句的「private」指「屬於個人、不打算讓公眾或無關人士知道的」。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-03"
     },
@@ -485,11 +457,9 @@ export default {
       "masked": "She rarely discusses her ____ life.",
       "options": [
         "private-mcq-03",
-        "private-mcq-02",
-        "private-mcq-04",
-        "private-mcq-01",
-        "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-10",
+        "private-mcq-12",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「屬於個人、不打算讓公眾或無關人士知道的」。",
       "sentenceIndex": 6,
@@ -498,12 +468,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-03": "本句指「屬於個人、不打算讓公眾或無關人士知道的」。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-03": "本句的「private」指「屬於個人、不打算讓公眾或無關人士知道的」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-03"
     },
@@ -515,11 +483,9 @@ export default {
       "masked": "These documents contain ____ information.",
       "options": [
         "private-mcq-03",
-        "private-mcq-02",
-        "private-mcq-04",
-        "private-mcq-01",
-        "private-mcq-05",
-        "private-mcq-06"
+        "private-mcq-08",
+        "private-mcq-07",
+        "private-mcq-05"
       ],
       "explanation": "本句的「private」指「屬於個人、不打算讓公眾或無關人士知道的」。",
       "sentenceIndex": 7,
@@ -528,12 +494,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-03": "本句指「屬於個人、不打算讓公眾或無關人士知道的」。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-03": "本句的「private」指「屬於個人、不打算讓公眾或無關人士知道的」。",
+        "private-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-03"
     },
@@ -545,11 +509,9 @@ export default {
       "masked": "Can we have a ____ conversation?",
       "options": [
         "private-mcq-04",
-        "private-mcq-03",
-        "private-mcq-05",
-        "private-mcq-02",
-        "private-mcq-06",
-        "private-mcq-01"
+        "private-mcq-12",
+        "private-mcq-10",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「只限特定人士參與或知道內容的；非公開的」。",
       "sentenceIndex": 8,
@@ -558,12 +520,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-04": "本句指「只限特定人士參與或知道內容的；非公開的」。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。"
+        "private-mcq-04": "本句的「private」指「只限特定人士參與或知道內容的；非公開的」。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-04"
     },
@@ -575,11 +535,9 @@ export default {
       "masked": "The meeting was completely ____.",
       "options": [
         "private-mcq-04",
-        "private-mcq-03",
-        "private-mcq-05",
-        "private-mcq-02",
-        "private-mcq-06",
-        "private-mcq-01"
+        "private-mcq-12",
+        "private-mcq-10",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「只限特定人士參與或知道內容的；非公開的」。",
       "sentenceIndex": 9,
@@ -588,12 +546,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-04": "本句指「只限特定人士參與或知道內容的；非公開的」。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-01": "「屬於個人或特定群體，而不是公眾共同使用／擁有的」與本句語境不同。"
+        "private-mcq-04": "本句的「private」指「只限特定人士參與或知道內容的；非公開的」。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-04"
     },
@@ -605,11 +561,9 @@ export default {
       "masked": "We found a ____ corner to talk.",
       "options": [
         "private-mcq-05",
-        "private-mcq-04",
-        "private-mcq-06",
-        "private-mcq-03",
-        "private-mcq-07",
-        "private-mcq-02"
+        "private-mcq-10",
+        "private-mcq-01",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「不容易被外人看見、聽見或打擾，有私隱的」。",
       "sentenceIndex": 10,
@@ -618,12 +572,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-05": "本句指「不容易被外人看見、聽見或打擾，有私隱的」。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。"
+        "private-mcq-05": "本句的「private」指「不容易被外人看見、聽見或打擾，有私隱的」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-05"
     },
@@ -635,11 +587,9 @@ export default {
       "masked": "The balcony is surprisingly ____.",
       "options": [
         "private-mcq-05",
-        "private-mcq-04",
-        "private-mcq-06",
-        "private-mcq-03",
-        "private-mcq-07",
-        "private-mcq-02"
+        "private-mcq-10",
+        "private-mcq-01",
+        "private-mcq-07"
       ],
       "explanation": "本句的「private」指「不容易被外人看見、聽見或打擾，有私隱的」。",
       "sentenceIndex": 11,
@@ -648,12 +598,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-05": "本句指「不容易被外人看見、聽見或打擾，有私隱的」。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-02": "「由私人或公司擁有、營運或提供，而非政府／公共機構提供的」與本句語境不同。"
+        "private-mcq-05": "本句的「private」指「不容易被外人看見、聽見或打擾，有私隱的」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-05"
     },
@@ -665,11 +613,9 @@ export default {
       "masked": "She takes ____ English lessons.",
       "options": [
         "private-mcq-06",
-        "private-mcq-05",
+        "private-mcq-10",
         "private-mcq-07",
-        "private-mcq-04",
-        "private-mcq-08",
-        "private-mcq-03"
+        "private-mcq-05"
       ],
       "explanation": "本句的「private」指「為特定個人／小群體專門安排的一對一或私人服務」。",
       "sentenceIndex": 12,
@@ -678,12 +624,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-06": "本句指「為特定個人／小群體專門安排的一對一或私人服務」。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。"
+        "private-mcq-06": "本句的「private」指「為特定個人／小群體專門安排的一對一或私人服務」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-06"
     },
@@ -695,11 +639,9 @@ export default {
       "masked": "He hired a ____ tutor.",
       "options": [
         "private-mcq-06",
-        "private-mcq-05",
         "private-mcq-07",
-        "private-mcq-04",
-        "private-mcq-08",
-        "private-mcq-03"
+        "private-mcq-10",
+        "private-mcq-05"
       ],
       "explanation": "本句的「private」指「為特定個人／小群體專門安排的一對一或私人服務」。",
       "sentenceIndex": 13,
@@ -708,12 +650,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-06": "本句指「為特定個人／小群體專門安排的一對一或私人服務」。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-03": "「屬於個人、不打算讓公眾或無關人士知道的」與本句語境不同。"
+        "private-mcq-06": "本句的「private」指「為特定個人／小群體專門安排的一對一或私人服務」。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-06"
     },
@@ -725,11 +665,9 @@ export default {
       "masked": "He attended the event in a ____ capacity.",
       "options": [
         "private-mcq-07",
-        "private-mcq-06",
-        "private-mcq-08",
-        "private-mcq-05",
-        "private-mcq-09",
-        "private-mcq-04"
+        "private-mcq-11",
+        "private-mcq-10",
+        "private-mcq-12"
       ],
       "explanation": "本句的「private」指「以個人而非官方、公職或代表身分行事的」。",
       "sentenceIndex": 14,
@@ -738,12 +676,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-07": "本句指「以個人而非官方、公職或代表身分行事的」。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。"
+        "private-mcq-07": "本句的「private」指「以個人而非官方、公職或代表身分行事的」。",
+        "private-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-07"
     },
@@ -755,11 +691,9 @@ export default {
       "masked": "The comments were made in a ____ capacity.",
       "options": [
         "private-mcq-07",
-        "private-mcq-06",
-        "private-mcq-08",
         "private-mcq-05",
-        "private-mcq-09",
-        "private-mcq-04"
+        "private-mcq-06",
+        "private-mcq-10"
       ],
       "explanation": "本句的「private」指「以個人而非官方、公職或代表身分行事的」。",
       "sentenceIndex": 15,
@@ -768,12 +702,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-07": "本句指「以個人而非官方、公職或代表身分行事的」。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-04": "「只限特定人士參與或知道內容的；非公開的」與本句語境不同。"
+        "private-mcq-07": "本句的「private」指「以個人而非官方、公職或代表身分行事的」。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-07"
     },
@@ -785,10 +717,8 @@ export default {
       "masked": "The business remains ____ owned.",
       "options": [
         "private-mcq-08",
-        "private-mcq-07",
-        "private-mcq-09",
-        "private-mcq-06",
         "private-mcq-10",
+        "private-mcq-09",
         "private-mcq-05"
       ],
       "explanation": "本句的「privately」指「私人持有／非公開上市；具體法律定義依司法地區」。",
@@ -798,12 +728,10 @@ export default {
         "privately"
       ],
       "optionReasons": {
-        "private-mcq-08": "本句指「私人持有／非公開上市；具體法律定義依司法地區」。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。"
+        "private-mcq-08": "本句的「privately」指「私人持有／非公開上市；具體法律定義依司法地區」。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-08"
     },
@@ -815,9 +743,7 @@ export default {
       "masked": "It is a ____ company rather than a publicly listed one.",
       "options": [
         "private-mcq-08",
-        "private-mcq-07",
         "private-mcq-09",
-        "private-mcq-06",
         "private-mcq-10",
         "private-mcq-05"
       ],
@@ -828,12 +754,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-08": "本句指「私人持有／非公開上市；具體法律定義依司法地區」。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-05": "「不容易被外人看見、聽見或打擾，有私隱的」與本句語境不同。"
+        "private-mcq-08": "本句的「private」指「私人持有／非公開上市；具體法律定義依司法地區」。",
+        "private-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-08"
     },
@@ -846,10 +770,8 @@ export default {
       "options": [
         "private-mcq-09",
         "private-mcq-08",
-        "private-mcq-10",
         "private-mcq-07",
-        "private-mcq-11",
-        "private-mcq-06"
+        "private-mcq-10"
       ],
       "explanation": "本句的「private」指「只有獲准人士可以查看／進入的」。",
       "sentenceIndex": 18,
@@ -858,12 +780,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-09": "本句指「只有獲准人士可以查看／進入的」。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-09": "本句的「private」指「只有獲准人士可以查看／進入的」。",
+        "private-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-09"
     },
@@ -875,11 +795,9 @@ export default {
       "masked": "The account is set to ____.",
       "options": [
         "private-mcq-09",
-        "private-mcq-08",
-        "private-mcq-10",
         "private-mcq-07",
-        "private-mcq-11",
-        "private-mcq-06"
+        "private-mcq-12",
+        "private-mcq-10"
       ],
       "explanation": "本句的「private」指「只有獲准人士可以查看／進入的」。",
       "sentenceIndex": 19,
@@ -888,12 +806,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-09": "本句指「只有獲准人士可以查看／進入的」。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-09": "本句的「private」指「只有獲准人士可以查看／進入的」。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-09"
     },
@@ -905,11 +821,9 @@ export default {
       "masked": "The patient was given a ____ area to change.",
       "options": [
         "private-mcq-09",
-        "private-mcq-08",
-        "private-mcq-10",
         "private-mcq-07",
-        "private-mcq-11",
-        "private-mcq-06"
+        "private-mcq-12",
+        "private-mcq-10"
       ],
       "explanation": "本句的「private」指「只有獲准人士可以查看／進入的」。",
       "sentenceIndex": 20,
@@ -918,12 +832,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-09": "本句指「只有獲准人士可以查看／進入的」。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-06": "「為特定個人／小群體專門安排的一對一或私人服務」與本句語境不同。"
+        "private-mcq-09": "本句的「private」指「只有獲准人士可以查看／進入的」。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-09"
     },
@@ -935,10 +847,8 @@ export default {
       "masked": "He joined the army as a ____.",
       "options": [
         "private-mcq-10",
-        "private-mcq-09",
         "private-mcq-11",
         "private-mcq-08",
-        "private-mcq-12",
         "private-mcq-07"
       ],
       "explanation": "本句的「private」指「軍隊中的低階普通士兵／列兵」。",
@@ -948,12 +858,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-10": "本句指「軍隊中的低階普通士兵／列兵」。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-12": "「不受外界監視、打擾或侵犯私人空間的狀態」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。"
+        "private-mcq-10": "本句的「private」指「軍隊中的低階普通士兵／列兵」。",
+        "private-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-10"
     },
@@ -965,11 +873,9 @@ export default {
       "masked": "The ____ reported to his officer.",
       "options": [
         "private-mcq-10",
-        "private-mcq-09",
-        "private-mcq-11",
-        "private-mcq-08",
+        "private-mcq-07",
         "private-mcq-12",
-        "private-mcq-07"
+        "private-mcq-11"
       ],
       "explanation": "本句的「private」指「軍隊中的低階普通士兵／列兵」。",
       "sentenceIndex": 22,
@@ -978,12 +884,10 @@ export default {
         "private"
       ],
       "optionReasons": {
-        "private-mcq-10": "本句指「軍隊中的低階普通士兵／列兵」。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。",
-        "private-mcq-12": "「不受外界監視、打擾或侵犯私人空間的狀態」與本句語境不同。",
-        "private-mcq-07": "「以個人而非官方、公職或代表身分行事的」與本句語境不同。"
+        "private-mcq-10": "本句的「private」指「軍隊中的低階普通士兵／列兵」。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-10"
     },
@@ -995,10 +899,8 @@ export default {
       "masked": "I’d like to speak to you ____.",
       "options": [
         "private-mcq-11",
+        "private-mcq-07",
         "private-mcq-10",
-        "private-mcq-12",
-        "private-mcq-09",
-        "private-mcq-13",
         "private-mcq-08"
       ],
       "explanation": "本句的「in private」指「私下、單獨、不讓其他人旁聽／觀看」。",
@@ -1008,12 +910,10 @@ export default {
         "in private"
       ],
       "optionReasons": {
-        "private-mcq-11": "本句指「私下、單獨、不讓其他人旁聽／觀看」。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-12": "「不受外界監視、打擾或侵犯私人空間的狀態」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-13": "「把原本公共／政府擁有或營運的事物轉為私營／私有」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。"
+        "private-mcq-11": "本句的「in private」指「私下、單獨、不讓其他人旁聽／觀看」。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-11"
     },
@@ -1025,10 +925,8 @@ export default {
       "masked": "They discussed the issue ____.",
       "options": [
         "private-mcq-11",
+        "private-mcq-07",
         "private-mcq-10",
-        "private-mcq-12",
-        "private-mcq-09",
-        "private-mcq-13",
         "private-mcq-08"
       ],
       "explanation": "本句的「in private」指「私下、單獨、不讓其他人旁聽／觀看」。",
@@ -1038,12 +936,10 @@ export default {
         "in private"
       ],
       "optionReasons": {
-        "private-mcq-11": "本句指「私下、單獨、不讓其他人旁聽／觀看」。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-12": "「不受外界監視、打擾或侵犯私人空間的狀態」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-13": "「把原本公共／政府擁有或營運的事物轉為私營／私有」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。"
+        "private-mcq-11": "本句的「in private」指「私下、單獨、不讓其他人旁聽／觀看」。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-11"
     },
@@ -1055,11 +951,9 @@ export default {
       "masked": "Everyone needs some ____.",
       "options": [
         "private-mcq-12",
-        "private-mcq-11",
-        "private-mcq-13",
+        "private-mcq-04",
         "private-mcq-10",
-        "private-mcq-09",
-        "private-mcq-08"
+        "private-mcq-07"
       ],
       "explanation": "本句的「privacy」指「不受外界監視、打擾或侵犯私人空間的狀態」。",
       "sentenceIndex": 26,
@@ -1068,12 +962,10 @@ export default {
         "privacy"
       ],
       "optionReasons": {
-        "private-mcq-12": "本句指「不受外界監視、打擾或侵犯私人空間的狀態」。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-13": "「把原本公共／政府擁有或營運的事物轉為私營／私有」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。"
+        "private-mcq-12": "本句的「privacy」指「不受外界監視、打擾或侵犯私人空間的狀態」。",
+        "private-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-12"
     },
@@ -1085,11 +977,9 @@ export default {
       "masked": "The curtains provide more ____.",
       "options": [
         "private-mcq-12",
-        "private-mcq-11",
-        "private-mcq-13",
-        "private-mcq-10",
-        "private-mcq-09",
-        "private-mcq-08"
+        "private-mcq-01",
+        "private-mcq-07",
+        "private-mcq-10"
       ],
       "explanation": "本句的「privacy」指「不受外界監視、打擾或侵犯私人空間的狀態」。",
       "sentenceIndex": 27,
@@ -1098,12 +988,10 @@ export default {
         "privacy"
       ],
       "optionReasons": {
-        "private-mcq-12": "本句指「不受外界監視、打擾或侵犯私人空間的狀態」。",
-        "private-mcq-11": "「私下、單獨、不讓其他人旁聽／觀看」與本句語境不同。",
-        "private-mcq-13": "「把原本公共／政府擁有或營運的事物轉為私營／私有」與本句語境不同。",
-        "private-mcq-10": "「軍隊中的低階普通士兵／列兵」與本句語境不同。",
-        "private-mcq-09": "「只有獲准人士可以查看／進入的」與本句語境不同。",
-        "private-mcq-08": "「私人持有／非公開上市；具體法律定義依司法地區」與本句語境不同。"
+        "private-mcq-12": "本句的「privacy」指「不受外界監視、打擾或侵犯私人空間的狀態」。",
+        "private-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "private-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "private-mcq-12"
     }
@@ -1115,5 +1003,7 @@ export default {
     "sha256": "9ac14300d843fb98e7dfad5156e7ba59d8028b56c3cae5a3c02ac1b5041b2ecf",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

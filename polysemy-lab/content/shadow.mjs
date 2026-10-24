@@ -587,11 +587,9 @@ export default {
       "masked": "The cup cast a ____ on the wall.",
       "options": [
         "shadow-mcq-01",
-        "shadow-mcq-02",
-        "shadow-mcq-03",
-        "shadow-mcq-04",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-19",
+        "shadow-mcq-08",
+        "shadow-mcq-11"
       ],
       "explanation": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
       "sentenceIndex": 0,
@@ -600,12 +598,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-01": "本句指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-01": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-01"
     },
@@ -617,11 +613,9 @@ export default {
       "masked": "She moved the torch and showed us how the ____ changed.",
       "options": [
         "shadow-mcq-01",
-        "shadow-mcq-02",
-        "shadow-mcq-03",
-        "shadow-mcq-04",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-19",
+        "shadow-mcq-11",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
       "sentenceIndex": 1,
@@ -630,12 +624,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-01": "本句指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-01": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-01"
     },
@@ -647,11 +639,9 @@ export default {
       "masked": "The tree cast a long ____ across the road.",
       "options": [
         "shadow-mcq-01",
-        "shadow-mcq-02",
-        "shadow-mcq-03",
-        "shadow-mcq-04",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-10",
+        "shadow-mcq-19",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
       "sentenceIndex": 2,
@@ -660,12 +650,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-01": "本句指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-01": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-01"
     },
@@ -677,11 +665,9 @@ export default {
       "masked": "I could see his ____ on the wall.",
       "options": [
         "shadow-mcq-01",
-        "shadow-mcq-02",
-        "shadow-mcq-03",
-        "shadow-mcq-04",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-11",
+        "shadow-mcq-19",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
       "sentenceIndex": 3,
@@ -690,12 +676,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-01": "本句指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-01": "本句的「shadow」指「物體阻擋光線後形成的暗色形狀；影子／陰影」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-01"
     },
@@ -707,11 +691,9 @@ export default {
       "masked": "The building ____ over the garden.",
       "options": [
         "shadow-mcq-02",
-        "shadow-mcq-01",
-        "shadow-mcq-03",
-        "shadow-mcq-04",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-11",
+        "shadow-mcq-23",
+        "shadow-mcq-18"
       ],
       "explanation": "本句的「cast a shadow」指「阻擋光線而投下影子」。",
       "sentenceIndex": 4,
@@ -720,12 +702,10 @@ export default {
         "cast a shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-02": "本句指「阻擋光線而投下影子」。",
-        "shadow-mcq-01": "「物體阻擋光線後形成的暗色形狀；影子／陰影」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-02": "本句的「cast a shadow」指「阻擋光線而投下影子」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-02"
     },
@@ -737,11 +717,9 @@ export default {
       "masked": "The lamp made the object ____.",
       "options": [
         "shadow-mcq-02",
-        "shadow-mcq-01",
-        "shadow-mcq-03",
-        "shadow-mcq-04",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-18",
+        "shadow-mcq-08",
+        "shadow-mcq-10"
       ],
       "explanation": "本句的「cast a sharp shadow」指「阻擋光線而投下影子」。",
       "sentenceIndex": 5,
@@ -750,12 +728,10 @@ export default {
         "cast a sharp shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-02": "本句指「阻擋光線而投下影子」。",
-        "shadow-mcq-01": "「物體阻擋光線後形成的暗色形狀；影子／陰影」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-02": "本句的「cast a sharp shadow」指「阻擋光線而投下影子」。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-02"
     },
@@ -767,11 +743,9 @@ export default {
       "masked": "She stood in the ____ of the building.",
       "options": [
         "shadow-mcq-03",
-        "shadow-mcq-02",
-        "shadow-mcq-04",
-        "shadow-mcq-01",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-06",
+        "shadow-mcq-18",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadow」指「光線被遮擋後形成的較暗區域」。",
       "sentenceIndex": 6,
@@ -780,12 +754,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-03": "本句指「光線被遮擋後形成的較暗區域」。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-01": "「物體阻擋光線後形成的暗色形狀；影子／陰影」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-03": "本句的「shadow」指「光線被遮擋後形成的較暗區域」。",
+        "shadow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-03"
     },
@@ -797,11 +769,9 @@ export default {
       "masked": "Part of the room remained in ____.",
       "options": [
         "shadow-mcq-03",
-        "shadow-mcq-02",
-        "shadow-mcq-04",
-        "shadow-mcq-01",
-        "shadow-mcq-05",
-        "shadow-mcq-06"
+        "shadow-mcq-08",
+        "shadow-mcq-10",
+        "shadow-mcq-07"
       ],
       "explanation": "本句的「shadow」指「光線被遮擋後形成的較暗區域」。",
       "sentenceIndex": 7,
@@ -810,12 +780,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-03": "本句指「光線被遮擋後形成的較暗區域」。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-01": "「物體阻擋光線後形成的暗色形狀；影子／陰影」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-03": "本句的「shadow」指「光線被遮擋後形成的較暗區域」。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-03"
     },
@@ -827,11 +795,9 @@ export default {
       "masked": "His face was partly ____.",
       "options": [
         "shadow-mcq-04",
-        "shadow-mcq-03",
-        "shadow-mcq-05",
-        "shadow-mcq-02",
-        "shadow-mcq-06",
-        "shadow-mcq-01"
+        "shadow-mcq-10",
+        "shadow-mcq-23",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「in shadow」指「處於光線不足或陰影之中」。",
       "sentenceIndex": 8,
@@ -840,12 +806,10 @@ export default {
         "in shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-04": "本句指「處於光線不足或陰影之中」。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-01": "「物體阻擋光線後形成的暗色形狀；影子／陰影」與本句語境不同。"
+        "shadow-mcq-04": "本句的「in shadow」指「處於光線不足或陰影之中」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-04"
     },
@@ -857,11 +821,9 @@ export default {
       "masked": "The mountains were ____ by late afternoon.",
       "options": [
         "shadow-mcq-04",
-        "shadow-mcq-03",
-        "shadow-mcq-05",
-        "shadow-mcq-02",
-        "shadow-mcq-06",
-        "shadow-mcq-01"
+        "shadow-mcq-09",
+        "shadow-mcq-23",
+        "shadow-mcq-19"
       ],
       "explanation": "本句的「in shadow」指「處於光線不足或陰影之中」。",
       "sentenceIndex": 9,
@@ -870,12 +832,10 @@ export default {
         "in shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-04": "本句指「處於光線不足或陰影之中」。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-01": "「物體阻擋光線後形成的暗色形狀；影子／陰影」與本句語境不同。"
+        "shadow-mcq-04": "本句的「in shadow」指「處於光線不足或陰影之中」。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-04"
     },
@@ -887,11 +847,9 @@ export default {
       "masked": "I saw a ____ move behind the curtain.",
       "options": [
         "shadow-mcq-05",
-        "shadow-mcq-04",
-        "shadow-mcq-06",
-        "shadow-mcq-03",
-        "shadow-mcq-07",
-        "shadow-mcq-02"
+        "shadow-mcq-10",
+        "shadow-mcq-19",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadow」指「遠處或光線不足時看到的模糊暗影／輪廓」。",
       "sentenceIndex": 10,
@@ -900,12 +858,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-05": "本句指「遠處或光線不足時看到的模糊暗影／輪廓」。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。"
+        "shadow-mcq-05": "本句的「shadow」指「遠處或光線不足時看到的模糊暗影／輪廓」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-05"
     },
@@ -917,11 +873,9 @@ export default {
       "masked": "A dark ____ appeared in the doorway.",
       "options": [
         "shadow-mcq-05",
-        "shadow-mcq-04",
-        "shadow-mcq-06",
-        "shadow-mcq-03",
-        "shadow-mcq-07",
-        "shadow-mcq-02"
+        "shadow-mcq-18",
+        "shadow-mcq-08",
+        "shadow-mcq-10"
       ],
       "explanation": "本句的「shadow」指「遠處或光線不足時看到的模糊暗影／輪廓」。",
       "sentenceIndex": 11,
@@ -930,12 +884,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-05": "本句指「遠處或光線不足時看到的模糊暗影／輪廓」。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-02": "「阻擋光線而投下影子」與本句語境不同。"
+        "shadow-mcq-05": "本句的「shadow」指「遠處或光線不足時看到的模糊暗影／輪廓」。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-05"
     },
@@ -947,11 +899,9 @@ export default {
       "masked": "The accident ____.",
       "options": [
         "shadow-mcq-06",
-        "shadow-mcq-05",
-        "shadow-mcq-07",
-        "shadow-mcq-04",
-        "shadow-mcq-08",
-        "shadow-mcq-03"
+        "shadow-mcq-10",
+        "shadow-mcq-18",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「cast a shadow over the celebration」指「使事件、關係或情況受到負面影響；蒙上陰影」。",
       "sentenceIndex": 12,
@@ -960,12 +910,10 @@ export default {
         "cast a shadow over the celebration"
       ],
       "optionReasons": {
-        "shadow-mcq-06": "本句指「使事件、關係或情況受到負面影響；蒙上陰影」。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。"
+        "shadow-mcq-06": "本句的「cast a shadow over the celebration」指「使事件、關係或情況受到負面影響；蒙上陰影」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-06"
     },
@@ -977,11 +925,9 @@ export default {
       "masked": "The scandal ____.",
       "options": [
         "shadow-mcq-06",
-        "shadow-mcq-05",
-        "shadow-mcq-07",
-        "shadow-mcq-04",
-        "shadow-mcq-08",
-        "shadow-mcq-03"
+        "shadow-mcq-18",
+        "shadow-mcq-10",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「cast a shadow over his career」指「使事件、關係或情況受到負面影響；蒙上陰影」。",
       "sentenceIndex": 13,
@@ -990,12 +936,10 @@ export default {
         "cast a shadow over his career"
       ],
       "optionReasons": {
-        "shadow-mcq-06": "本句指「使事件、關係或情況受到負面影響；蒙上陰影」。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-03": "「光線被遮擋後形成的較暗區域」與本句語境不同。"
+        "shadow-mcq-06": "本句的「cast a shadow over his career」指「使事件、關係或情況受到負面影響；蒙上陰影」。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-06"
     },
@@ -1007,11 +951,9 @@ export default {
       "masked": "They grew up ____.",
       "options": [
         "shadow-mcq-07",
-        "shadow-mcq-06",
-        "shadow-mcq-08",
-        "shadow-mcq-05",
-        "shadow-mcq-09",
-        "shadow-mcq-04"
+        "shadow-mcq-10",
+        "shadow-mcq-18",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「under the shadow of war」指「長期受到威脅、恐懼、記憶等負面影響」。",
       "sentenceIndex": 14,
@@ -1020,12 +962,10 @@ export default {
         "under the shadow of war"
       ],
       "optionReasons": {
-        "shadow-mcq-07": "本句指「長期受到威脅、恐懼、記憶等負面影響」。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。"
+        "shadow-mcq-07": "本句的「under the shadow of war」指「長期受到威脅、恐懼、記憶等負面影響」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-07"
     },
@@ -1037,11 +977,9 @@ export default {
       "masked": "The company operated ____.",
       "options": [
         "shadow-mcq-07",
-        "shadow-mcq-06",
-        "shadow-mcq-08",
-        "shadow-mcq-05",
-        "shadow-mcq-09",
-        "shadow-mcq-04"
+        "shadow-mcq-11",
+        "shadow-mcq-23",
+        "shadow-mcq-19"
       ],
       "explanation": "本句的「under the shadow of uncertainty」指「長期受到威脅、恐懼、記憶等負面影響」。",
       "sentenceIndex": 15,
@@ -1050,12 +988,10 @@ export default {
         "under the shadow of uncertainty"
       ],
       "optionReasons": {
-        "shadow-mcq-07": "本句指「長期受到威脅、恐懼、記憶等負面影響」。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-04": "「處於光線不足或陰影之中」與本句語境不同。"
+        "shadow-mcq-07": "本句的「under the shadow of uncertainty」指「長期受到威脅、恐懼、記憶等負面影響」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-07"
     },
@@ -1067,11 +1003,9 @@ export default {
       "masked": "He was only a ____.",
       "options": [
         "shadow-mcq-08",
-        "shadow-mcq-07",
-        "shadow-mcq-09",
-        "shadow-mcq-06",
-        "shadow-mcq-10",
-        "shadow-mcq-05"
+        "shadow-mcq-19",
+        "shadow-mcq-15",
+        "shadow-mcq-11"
       ],
       "explanation": "本句的「shadow of his former self」指「相比以前大幅衰退、只剩昔日的一小部分」。",
       "sentenceIndex": 16,
@@ -1080,12 +1014,10 @@ export default {
         "shadow of his former self"
       ],
       "optionReasons": {
-        "shadow-mcq-08": "本句指「相比以前大幅衰退、只剩昔日的一小部分」。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。"
+        "shadow-mcq-08": "本句的「shadow of his former self」指「相比以前大幅衰退、只剩昔日的一小部分」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-08"
     },
@@ -1097,11 +1029,9 @@ export default {
       "masked": "The town is now a ____.",
       "options": [
         "shadow-mcq-08",
-        "shadow-mcq-07",
-        "shadow-mcq-09",
-        "shadow-mcq-06",
-        "shadow-mcq-10",
-        "shadow-mcq-05"
+        "shadow-mcq-04",
+        "shadow-mcq-13",
+        "shadow-mcq-10"
       ],
       "explanation": "本句的「shadow of what it once was」指「相比以前大幅衰退、只剩昔日的一小部分」。",
       "sentenceIndex": 17,
@@ -1110,12 +1040,10 @@ export default {
         "shadow of what it once was"
       ],
       "optionReasons": {
-        "shadow-mcq-08": "本句指「相比以前大幅衰退、只剩昔日的一小部分」。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。"
+        "shadow-mcq-08": "本句的「shadow of what it once was」指「相比以前大幅衰退、只剩昔日的一小部分」。",
+        "shadow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-08"
     },
@@ -1127,11 +1055,9 @@ export default {
       "masked": "After the illness, he was a ____.",
       "options": [
         "shadow-mcq-08",
-        "shadow-mcq-07",
+        "shadow-mcq-19",
         "shadow-mcq-09",
-        "shadow-mcq-06",
-        "shadow-mcq-10",
-        "shadow-mcq-05"
+        "shadow-mcq-15"
       ],
       "explanation": "本句的「shadow of his former self」指「相比以前大幅衰退、只剩昔日的一小部分」。",
       "sentenceIndex": 18,
@@ -1140,12 +1066,10 @@ export default {
         "shadow of his former self"
       ],
       "optionReasons": {
-        "shadow-mcq-08": "本句指「相比以前大幅衰退、只剩昔日的一小部分」。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。"
+        "shadow-mcq-08": "本句的「shadow of his former self」指「相比以前大幅衰退、只剩昔日的一小部分」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-08"
     },
@@ -1157,11 +1081,9 @@ export default {
       "masked": "The team looked like a ____.",
       "options": [
         "shadow-mcq-08",
-        "shadow-mcq-07",
-        "shadow-mcq-09",
-        "shadow-mcq-06",
-        "shadow-mcq-10",
-        "shadow-mcq-05"
+        "shadow-mcq-11",
+        "shadow-mcq-24",
+        "shadow-mcq-02"
       ],
       "explanation": "本句的「shadow of its former self」指「相比以前大幅衰退、只剩昔日的一小部分」。",
       "sentenceIndex": 19,
@@ -1170,12 +1092,10 @@ export default {
         "shadow of its former self"
       ],
       "optionReasons": {
-        "shadow-mcq-08": "本句指「相比以前大幅衰退、只剩昔日的一小部分」。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-05": "「遠處或光線不足時看到的模糊暗影／輪廓」與本句語境不同。"
+        "shadow-mcq-08": "本句的「shadow of its former self」指「相比以前大幅衰退、只剩昔日的一小部分」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-08"
     },
@@ -1187,11 +1107,9 @@ export default {
       "masked": "The detective acted as his ____.",
       "options": [
         "shadow-mcq-09",
-        "shadow-mcq-08",
-        "shadow-mcq-10",
         "shadow-mcq-07",
-        "shadow-mcq-11",
-        "shadow-mcq-06"
+        "shadow-mcq-08",
+        "shadow-mcq-04"
       ],
       "explanation": "本句的「shadow」指「暗中或持續跟蹤某人以觀察其行動」。",
       "sentenceIndex": 20,
@@ -1200,12 +1118,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-09": "本句指「暗中或持續跟蹤某人以觀察其行動」。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-09": "本句的「shadow」指「暗中或持續跟蹤某人以觀察其行動」。",
+        "shadow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-09"
     },
@@ -1217,11 +1133,9 @@ export default {
       "masked": "He realized he had a ____.",
       "options": [
         "shadow-mcq-09",
-        "shadow-mcq-08",
-        "shadow-mcq-10",
-        "shadow-mcq-07",
-        "shadow-mcq-11",
-        "shadow-mcq-06"
+        "shadow-mcq-24",
+        "shadow-mcq-02",
+        "shadow-mcq-16"
       ],
       "explanation": "本句的「shadow」指「暗中或持續跟蹤某人以觀察其行動」。",
       "sentenceIndex": 21,
@@ -1230,12 +1144,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-09": "本句指「暗中或持續跟蹤某人以觀察其行動」。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-09": "本句的「shadow」指「暗中或持續跟蹤某人以觀察其行動」。",
+        "shadow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-09"
     },
@@ -1247,11 +1159,9 @@ export default {
       "masked": "The police ____ for several days.",
       "options": [
         "shadow-mcq-09",
-        "shadow-mcq-08",
-        "shadow-mcq-10",
         "shadow-mcq-07",
-        "shadow-mcq-11",
-        "shadow-mcq-06"
+        "shadow-mcq-12",
+        "shadow-mcq-16"
       ],
       "explanation": "本句的「shadowed the suspect」指「暗中或持續跟蹤某人以觀察其行動」。",
       "sentenceIndex": 22,
@@ -1260,12 +1170,10 @@ export default {
         "shadowed the suspect"
       ],
       "optionReasons": {
-        "shadow-mcq-09": "本句指「暗中或持續跟蹤某人以觀察其行動」。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-09": "本句的「shadowed the suspect」指「暗中或持續跟蹤某人以觀察其行動」。",
+        "shadow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-09"
     },
@@ -1277,11 +1185,9 @@ export default {
       "masked": "A reporter ____ throughout the visit.",
       "options": [
         "shadow-mcq-09",
-        "shadow-mcq-08",
-        "shadow-mcq-10",
-        "shadow-mcq-07",
-        "shadow-mcq-11",
-        "shadow-mcq-06"
+        "shadow-mcq-12",
+        "shadow-mcq-19",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadowed the minister」指「暗中或持續跟蹤某人以觀察其行動」。",
       "sentenceIndex": 23,
@@ -1290,12 +1196,10 @@ export default {
         "shadowed the minister"
       ],
       "optionReasons": {
-        "shadow-mcq-09": "本句指「暗中或持續跟蹤某人以觀察其行動」。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-06": "「使事件、關係或情況受到負面影響；蒙上陰影」與本句語境不同。"
+        "shadow-mcq-09": "本句的「shadowed the minister」指「暗中或持續跟蹤某人以觀察其行動」。",
+        "shadow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-09"
     },
@@ -1307,11 +1211,9 @@ export default {
       "masked": "I ____ for a week.",
       "options": [
         "shadow-mcq-10",
-        "shadow-mcq-09",
-        "shadow-mcq-11",
-        "shadow-mcq-08",
-        "shadow-mcq-12",
-        "shadow-mcq-07"
+        "shadow-mcq-23",
+        "shadow-mcq-22",
+        "shadow-mcq-02"
       ],
       "explanation": "本句的「shadowed a doctor」指「跟隨某位專業人士工作並觀摩學習」。",
       "sentenceIndex": 24,
@@ -1320,12 +1222,10 @@ export default {
         "shadowed a doctor"
       ],
       "optionReasons": {
-        "shadow-mcq-10": "本句指「跟隨某位專業人士工作並觀摩學習」。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。"
+        "shadow-mcq-10": "本句的「shadowed a doctor」指「跟隨某位專業人士工作並觀摩學習」。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-10"
     },
@@ -1337,10 +1237,8 @@ export default {
       "masked": "New employees sometimes ____.",
       "options": [
         "shadow-mcq-10",
-        "shadow-mcq-09",
-        "shadow-mcq-11",
-        "shadow-mcq-08",
-        "shadow-mcq-12",
+        "shadow-mcq-04",
+        "shadow-mcq-23",
         "shadow-mcq-07"
       ],
       "explanation": "本句的「shadow experienced staff」指「跟隨某位專業人士工作並觀摩學習」。",
@@ -1350,12 +1248,10 @@ export default {
         "shadow experienced staff"
       ],
       "optionReasons": {
-        "shadow-mcq-10": "本句指「跟隨某位專業人士工作並觀摩學習」。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。",
-        "shadow-mcq-07": "「長期受到威脅、恐懼、記憶等負面影響」與本句語境不同。"
+        "shadow-mcq-10": "本句的「shadow experienced staff」指「跟隨某位專業人士工作並觀摩學習」。",
+        "shadow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-10"
     },
@@ -1367,11 +1263,9 @@ export default {
       "masked": "The school arranged a ____.",
       "options": [
         "shadow-mcq-11",
-        "shadow-mcq-10",
-        "shadow-mcq-12",
-        "shadow-mcq-09",
-        "shadow-mcq-13",
-        "shadow-mcq-08"
+        "shadow-mcq-19",
+        "shadow-mcq-15",
+        "shadow-mcq-25"
       ],
       "explanation": "本句的「job-shadowing programme」指「透過跟隨他人工作來了解職業；職場觀摩」。",
       "sentenceIndex": 26,
@@ -1380,12 +1274,10 @@ export default {
         "job-shadowing programme"
       ],
       "optionReasons": {
-        "shadow-mcq-11": "本句指「透過跟隨他人工作來了解職業；職場觀摩」。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。"
+        "shadow-mcq-11": "本句的「job-shadowing programme」指「透過跟隨他人工作來了解職業；職場觀摩」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-11"
     },
@@ -1397,11 +1289,9 @@ export default {
       "masked": "____ can help students understand different careers.",
       "options": [
         "shadow-mcq-11",
-        "shadow-mcq-10",
-        "shadow-mcq-12",
-        "shadow-mcq-09",
-        "shadow-mcq-13",
-        "shadow-mcq-08"
+        "shadow-mcq-16",
+        "shadow-mcq-02",
+        "shadow-mcq-24"
       ],
       "explanation": "本句的「Job shadowing」指「透過跟隨他人工作來了解職業；職場觀摩」。",
       "sentenceIndex": 27,
@@ -1410,12 +1300,10 @@ export default {
         "Job shadowing"
       ],
       "optionReasons": {
-        "shadow-mcq-11": "本句指「透過跟隨他人工作來了解職業；職場觀摩」。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-08": "「相比以前大幅衰退、只剩昔日的一小部分」與本句語境不同。"
+        "shadow-mcq-11": "本句的「Job shadowing」指「透過跟隨他人工作來了解職業；職場觀摩」。",
+        "shadow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-11"
     },
@@ -1427,11 +1315,9 @@ export default {
       "masked": "She became ____.",
       "options": [
         "shadow-mcq-12",
-        "shadow-mcq-11",
-        "shadow-mcq-13",
-        "shadow-mcq-10",
-        "shadow-mcq-14",
-        "shadow-mcq-09"
+        "shadow-mcq-09",
+        "shadow-mcq-18",
+        "shadow-mcq-25"
       ],
       "explanation": "本句的「shadow education secretary」指「反對黨中對應政府部長／內閣職位的影子職位」。",
       "sentenceIndex": 28,
@@ -1440,12 +1326,10 @@ export default {
         "shadow education secretary"
       ],
       "optionReasons": {
-        "shadow-mcq-12": "本句指「反對黨中對應政府部長／內閣職位的影子職位」。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。"
+        "shadow-mcq-12": "本句的「shadow education secretary」指「反對黨中對應政府部長／內閣職位的影子職位」。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-12"
     },
@@ -1457,10 +1341,8 @@ export default {
       "masked": "The ____ criticized the proposal.",
       "options": [
         "shadow-mcq-12",
-        "shadow-mcq-11",
-        "shadow-mcq-13",
-        "shadow-mcq-10",
-        "shadow-mcq-14",
+        "shadow-mcq-18",
+        "shadow-mcq-23",
         "shadow-mcq-09"
       ],
       "explanation": "本句的「shadow minister」指「反對黨中對應政府部長／內閣職位的影子職位」。",
@@ -1470,12 +1352,10 @@ export default {
         "shadow minister"
       ],
       "optionReasons": {
-        "shadow-mcq-12": "本句指「反對黨中對應政府部長／內閣職位的影子職位」。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。"
+        "shadow-mcq-12": "本句的「shadow minister」指「反對黨中對應政府部長／內閣職位的影子職位」。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-12"
     },
@@ -1487,11 +1367,9 @@ export default {
       "masked": "He was appointed to the ____.",
       "options": [
         "shadow-mcq-12",
-        "shadow-mcq-11",
-        "shadow-mcq-13",
-        "shadow-mcq-10",
-        "shadow-mcq-14",
-        "shadow-mcq-09"
+        "shadow-mcq-25",
+        "shadow-mcq-18",
+        "shadow-mcq-03"
       ],
       "explanation": "本句的「shadow cabinet」指「反對黨中對應政府部長／內閣職位的影子職位」。",
       "sentenceIndex": 30,
@@ -1500,12 +1378,10 @@ export default {
         "shadow cabinet"
       ],
       "optionReasons": {
-        "shadow-mcq-12": "本句指「反對黨中對應政府部長／內閣職位的影子職位」。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。"
+        "shadow-mcq-12": "本句的「shadow cabinet」指「反對黨中對應政府部長／內閣職位的影子職位」。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-12"
     },
@@ -1517,11 +1393,9 @@ export default {
       "masked": "The ____ announced its alternative policy.",
       "options": [
         "shadow-mcq-12",
-        "shadow-mcq-11",
-        "shadow-mcq-13",
-        "shadow-mcq-10",
-        "shadow-mcq-14",
-        "shadow-mcq-09"
+        "shadow-mcq-09",
+        "shadow-mcq-18",
+        "shadow-mcq-03"
       ],
       "explanation": "本句的「shadow cabinet」指「反對黨中對應政府部長／內閣職位的影子職位」。",
       "sentenceIndex": 31,
@@ -1530,12 +1404,10 @@ export default {
         "shadow cabinet"
       ],
       "optionReasons": {
-        "shadow-mcq-12": "本句指「反對黨中對應政府部長／內閣職位的影子職位」。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-09": "「暗中或持續跟蹤某人以觀察其行動」與本句語境不同。"
+        "shadow-mcq-12": "本句的「shadow cabinet」指「反對黨中對應政府部長／內閣職位的影子職位」。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-12"
     },
@@ -1547,11 +1419,9 @@ export default {
       "masked": "The system created a ____ before the update.",
       "options": [
         "shadow-mcq-13",
-        "shadow-mcq-12",
-        "shadow-mcq-14",
-        "shadow-mcq-11",
-        "shadow-mcq-15",
-        "shadow-mcq-10"
+        "shadow-mcq-19",
+        "shadow-mcq-23",
+        "shadow-mcq-09"
       ],
       "explanation": "本句的「shadow copy」指「系統建立的次要或時間點資料副本；影子複本」。",
       "sentenceIndex": 34,
@@ -1560,12 +1430,10 @@ export default {
         "shadow copy"
       ],
       "optionReasons": {
-        "shadow-mcq-13": "本句指「系統建立的次要或時間點資料副本；影子複本」。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。"
+        "shadow-mcq-13": "本句的「shadow copy」指「系統建立的次要或時間點資料副本；影子複本」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-13"
     },
@@ -1577,11 +1445,9 @@ export default {
       "masked": "The file was restored from a ____.",
       "options": [
         "shadow-mcq-13",
-        "shadow-mcq-12",
-        "shadow-mcq-14",
-        "shadow-mcq-11",
-        "shadow-mcq-15",
-        "shadow-mcq-10"
+        "shadow-mcq-10",
+        "shadow-mcq-23",
+        "shadow-mcq-25"
       ],
       "explanation": "本句的「shadow copy」指「系統建立的次要或時間點資料副本；影子複本」。",
       "sentenceIndex": 35,
@@ -1590,12 +1456,10 @@ export default {
         "shadow copy"
       ],
       "optionReasons": {
-        "shadow-mcq-13": "本句指「系統建立的次要或時間點資料副本；影子複本」。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-11": "「透過跟隨他人工作來了解職業；職場觀摩」與本句語境不同。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。",
-        "shadow-mcq-10": "「跟隨某位專業人士工作並觀摩學習」與本句語境不同。"
+        "shadow-mcq-13": "本句的「shadow copy」指「系統建立的次要或時間點資料副本；影子複本」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-13"
     },
@@ -1607,11 +1471,9 @@ export default {
       "masked": "The title has a subtle ____.",
       "options": [
         "shadow-mcq-15",
-        "shadow-mcq-14",
-        "shadow-mcq-16",
-        "shadow-mcq-13",
-        "shadow-mcq-17",
-        "shadow-mcq-12"
+        "shadow-mcq-18",
+        "shadow-mcq-25",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「drop shadow」指「圖形設計中位於物件後方的投影效果」。",
       "sentenceIndex": 38,
@@ -1620,12 +1482,10 @@ export default {
         "drop shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-15": "本句指「圖形設計中位於物件後方的投影效果」。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。"
+        "shadow-mcq-15": "本句的「drop shadow」指「圖形設計中位於物件後方的投影效果」。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-15"
     },
@@ -1637,11 +1497,9 @@ export default {
       "masked": "Remove the ____ from the button.",
       "options": [
         "shadow-mcq-15",
-        "shadow-mcq-14",
-        "shadow-mcq-16",
-        "shadow-mcq-13",
-        "shadow-mcq-17",
-        "shadow-mcq-12"
+        "shadow-mcq-08",
+        "shadow-mcq-11",
+        "shadow-mcq-18"
       ],
       "explanation": "本句的「drop shadow」指「圖形設計中位於物件後方的投影效果」。",
       "sentenceIndex": 39,
@@ -1650,12 +1508,10 @@ export default {
         "drop shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-15": "本句指「圖形設計中位於物件後方的投影效果」。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-12": "「反對黨中對應政府部長／內閣職位的影子職位」與本句語境不同。"
+        "shadow-mcq-15": "本句的「drop shadow」指「圖形設計中位於物件後方的投影效果」。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-15"
     },
@@ -1667,11 +1523,9 @@ export default {
       "masked": "She wore gold ____.",
       "options": [
         "shadow-mcq-16",
-        "shadow-mcq-15",
-        "shadow-mcq-17",
-        "shadow-mcq-14",
-        "shadow-mcq-18",
-        "shadow-mcq-13"
+        "shadow-mcq-09",
+        "shadow-mcq-08",
+        "shadow-mcq-19"
       ],
       "explanation": "本句的「eyeshadow」指「塗在眼皮上的彩妝；眼影」。",
       "sentenceIndex": 40,
@@ -1680,12 +1534,10 @@ export default {
         "eyeshadow"
       ],
       "optionReasons": {
-        "shadow-mcq-16": "本句指「塗在眼皮上的彩妝；眼影」。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-18": "「一絲懷疑或不確定」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。"
+        "shadow-mcq-16": "本句的「eyeshadow」指「塗在眼皮上的彩妝；眼影」。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-16"
     },
@@ -1697,11 +1549,9 @@ export default {
       "masked": "The makeup artist blended the ____ carefully.",
       "options": [
         "shadow-mcq-16",
-        "shadow-mcq-15",
-        "shadow-mcq-17",
-        "shadow-mcq-14",
-        "shadow-mcq-18",
-        "shadow-mcq-13"
+        "shadow-mcq-25",
+        "shadow-mcq-19",
+        "shadow-mcq-11"
       ],
       "explanation": "本句的「eye shadow」指「塗在眼皮上的彩妝；眼影」。",
       "sentenceIndex": 41,
@@ -1710,12 +1560,10 @@ export default {
         "eye shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-16": "本句指「塗在眼皮上的彩妝；眼影」。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。",
-        "shadow-mcq-18": "「一絲懷疑或不確定」與本句語境不同。",
-        "shadow-mcq-13": "「系統建立的次要或時間點資料副本；影子複本」與本句語境不同。"
+        "shadow-mcq-16": "本句的「eye shadow」指「塗在眼皮上的彩妝；眼影」。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-16"
     },
@@ -1727,11 +1575,9 @@ export default {
       "masked": "The child was his mother’s ____ all day.",
       "options": [
         "shadow-mcq-17",
-        "shadow-mcq-16",
-        "shadow-mcq-18",
-        "shadow-mcq-15",
-        "shadow-mcq-19",
-        "shadow-mcq-14"
+        "shadow-mcq-08",
+        "shadow-mcq-25",
+        "shadow-mcq-19"
       ],
       "explanation": "本句的「shadow」指「幾乎一直跟著某人；形影不離」。",
       "sentenceIndex": 42,
@@ -1740,12 +1586,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-17": "本句指「幾乎一直跟著某人；形影不離」。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。",
-        "shadow-mcq-18": "「一絲懷疑或不確定」與本句語境不同。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。"
+        "shadow-mcq-17": "本句的「shadow」指「幾乎一直跟著某人；形影不離」。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-17"
     },
@@ -1757,11 +1601,9 @@ export default {
       "masked": "The puppy became my ____.",
       "options": [
         "shadow-mcq-17",
-        "shadow-mcq-16",
-        "shadow-mcq-18",
-        "shadow-mcq-15",
+        "shadow-mcq-23",
         "shadow-mcq-19",
-        "shadow-mcq-14"
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「shadow」指「幾乎一直跟著某人；形影不離」。",
       "sentenceIndex": 43,
@@ -1770,12 +1612,10 @@ export default {
         "shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-17": "本句指「幾乎一直跟著某人；形影不離」。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。",
-        "shadow-mcq-18": "「一絲懷疑或不確定」與本句語境不同。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。",
-        "shadow-mcq-14": "「文字、圖示等背後用來產生立體感的陰影效果」與本句語境不同。"
+        "shadow-mcq-17": "本句的「shadow」指「幾乎一直跟著某人；形影不離」。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-17"
     },
@@ -1787,11 +1627,9 @@ export default {
       "masked": "There is not a ____ in my mind.",
       "options": [
         "shadow-mcq-18",
-        "shadow-mcq-17",
-        "shadow-mcq-19",
-        "shadow-mcq-16",
-        "shadow-mcq-20",
-        "shadow-mcq-15"
+        "shadow-mcq-23",
+        "shadow-mcq-11",
+        "shadow-mcq-22"
       ],
       "explanation": "本句的「shadow of doubt」指「一絲懷疑或不確定」。",
       "sentenceIndex": 44,
@@ -1800,12 +1638,10 @@ export default {
         "shadow of doubt"
       ],
       "optionReasons": {
-        "shadow-mcq-18": "本句指「一絲懷疑或不確定」。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。"
+        "shadow-mcq-18": "本句的「shadow of doubt」指「一絲懷疑或不確定」。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-18"
     },
@@ -1817,11 +1653,9 @@ export default {
       "masked": "The evidence established the fact ____.",
       "options": [
         "shadow-mcq-18",
-        "shadow-mcq-17",
-        "shadow-mcq-19",
-        "shadow-mcq-16",
-        "shadow-mcq-20",
-        "shadow-mcq-15"
+        "shadow-mcq-25",
+        "shadow-mcq-12",
+        "shadow-mcq-04"
       ],
       "explanation": "本句的「beyond a shadow of a doubt」指「一絲懷疑或不確定」。",
       "sentenceIndex": 45,
@@ -1830,12 +1664,10 @@ export default {
         "beyond a shadow of a doubt"
       ],
       "optionReasons": {
-        "shadow-mcq-18": "本句指「一絲懷疑或不確定」。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-15": "「圖形設計中位於物件後方的投影效果」與本句語境不同。"
+        "shadow-mcq-18": "本句的「beyond a shadow of a doubt」指「一絲懷疑或不確定」。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-18"
     },
@@ -1847,11 +1679,9 @@ export default {
       "masked": "She knew ____ that she was right.",
       "options": [
         "shadow-mcq-19",
-        "shadow-mcq-18",
-        "shadow-mcq-20",
         "shadow-mcq-17",
-        "shadow-mcq-21",
-        "shadow-mcq-16"
+        "shadow-mcq-22",
+        "shadow-mcq-24"
       ],
       "explanation": "本句的「beyond a shadow of a doubt」指「完全確定；毫無疑問」。",
       "sentenceIndex": 46,
@@ -1860,12 +1690,10 @@ export default {
         "beyond a shadow of a doubt"
       ],
       "optionReasons": {
-        "shadow-mcq-19": "本句指「完全確定；毫無疑問」。",
-        "shadow-mcq-18": "「一絲懷疑或不確定」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。"
+        "shadow-mcq-19": "本句的「beyond a shadow of a doubt」指「完全確定；毫無疑問」。",
+        "shadow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-19"
     },
@@ -1877,10 +1705,8 @@ export default {
       "masked": "The identity was established ____.",
       "options": [
         "shadow-mcq-19",
-        "shadow-mcq-18",
-        "shadow-mcq-20",
-        "shadow-mcq-17",
-        "shadow-mcq-21",
+        "shadow-mcq-10",
+        "shadow-mcq-01",
         "shadow-mcq-16"
       ],
       "explanation": "本句的「beyond a shadow of a doubt」指「完全確定；毫無疑問」。",
@@ -1890,12 +1716,10 @@ export default {
         "beyond a shadow of a doubt"
       ],
       "optionReasons": {
-        "shadow-mcq-19": "本句指「完全確定；毫無疑問」。",
-        "shadow-mcq-18": "「一絲懷疑或不確定」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-17": "「幾乎一直跟著某人；形影不離」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-16": "「塗在眼皮上的彩妝；眼影」與本句語境不同。"
+        "shadow-mcq-19": "本句的「beyond a shadow of a doubt」指「完全確定；毫無疑問」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-19"
     },
@@ -1907,11 +1731,9 @@ export default {
       "masked": "The taller building ____ the garden.",
       "options": [
         "shadow-mcq-22",
-        "shadow-mcq-21",
         "shadow-mcq-23",
-        "shadow-mcq-20",
-        "shadow-mcq-24",
-        "shadow-mcq-19"
+        "shadow-mcq-09",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「overshadowed」指「遮蔽；使相形失色；給……蒙上陰影」。",
       "sentenceIndex": 48,
@@ -1920,12 +1742,10 @@ export default {
         "overshadowed"
       ],
       "optionReasons": {
-        "shadow-mcq-22": "本句指「遮蔽；使相形失色；給……蒙上陰影」。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。"
+        "shadow-mcq-22": "本句的「overshadowed」指「遮蔽；使相形失色；給……蒙上陰影」。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-22"
     },
@@ -1937,10 +1757,8 @@ export default {
       "masked": "Her success ____ everyone else’s achievement.",
       "options": [
         "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-23",
-        "shadow-mcq-20",
-        "shadow-mcq-24",
+        "shadow-mcq-25",
+        "shadow-mcq-08",
         "shadow-mcq-19"
       ],
       "explanation": "本句的「overshadowed」指「遮蔽；使相形失色；給……蒙上陰影」。",
@@ -1950,12 +1768,10 @@ export default {
         "overshadowed"
       ],
       "optionReasons": {
-        "shadow-mcq-22": "本句指「遮蔽；使相形失色；給……蒙上陰影」。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。"
+        "shadow-mcq-22": "本句的「overshadowed」指「遮蔽；使相形失色；給……蒙上陰影」。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-22"
     },
@@ -1967,11 +1783,9 @@ export default {
       "masked": "The accident ____.",
       "options": [
         "shadow-mcq-22",
-        "shadow-mcq-21",
+        "shadow-mcq-11",
         "shadow-mcq-23",
-        "shadow-mcq-20",
-        "shadow-mcq-24",
-        "shadow-mcq-19"
+        "shadow-mcq-25"
       ],
       "explanation": "本句的「overshadowed the celebration」指「遮蔽；使相形失色；給……蒙上陰影」。",
       "sentenceIndex": 50,
@@ -1980,12 +1794,10 @@ export default {
         "overshadowed the celebration"
       ],
       "optionReasons": {
-        "shadow-mcq-22": "本句指「遮蔽；使相形失色；給……蒙上陰影」。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-19": "「完全確定；毫無疑問」與本句語境不同。"
+        "shadow-mcq-22": "本句的「overshadowed the celebration」指「遮蔽；使相形失色；給……蒙上陰影」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-22"
     },
@@ -1997,11 +1809,9 @@ export default {
       "masked": "The opening scene ____ the ending.",
       "options": [
         "shadow-mcq-23",
-        "shadow-mcq-22",
-        "shadow-mcq-24",
-        "shadow-mcq-21",
-        "shadow-mcq-25",
-        "shadow-mcq-20"
+        "shadow-mcq-11",
+        "shadow-mcq-06",
+        "shadow-mcq-25"
       ],
       "explanation": "本句的「foreshadows」指「提前暗示或預示之後會發生的事情」。",
       "sentenceIndex": 51,
@@ -2010,12 +1820,10 @@ export default {
         "foreshadows"
       ],
       "optionReasons": {
-        "shadow-mcq-23": "本句指「提前暗示或預示之後會發生的事情」。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-25": "「因另一人更受注意而被其光芒掩蓋」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-23": "本句的「foreshadows」指「提前暗示或預示之後會發生的事情」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-23"
     },
@@ -2027,11 +1835,9 @@ export default {
       "masked": "His early comments ____ later problems.",
       "options": [
         "shadow-mcq-23",
-        "shadow-mcq-22",
-        "shadow-mcq-24",
-        "shadow-mcq-21",
-        "shadow-mcq-25",
-        "shadow-mcq-20"
+        "shadow-mcq-11",
+        "shadow-mcq-06",
+        "shadow-mcq-16"
       ],
       "explanation": "本句的「foreshadowed」指「提前暗示或預示之後會發生的事情」。",
       "sentenceIndex": 52,
@@ -2040,12 +1846,10 @@ export default {
         "foreshadowed"
       ],
       "optionReasons": {
-        "shadow-mcq-23": "本句指「提前暗示或預示之後會發生的事情」。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-25": "「因另一人更受注意而被其光芒掩蓋」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-23": "本句的「foreshadowed」指「提前暗示或預示之後會發生的事情」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-23"
     },
@@ -2057,11 +1861,9 @@ export default {
       "masked": "The conflict ____ over the region.",
       "options": [
         "shadow-mcq-24",
-        "shadow-mcq-23",
-        "shadow-mcq-25",
-        "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-20"
+        "shadow-mcq-11",
+        "shadow-mcq-08",
+        "shadow-mcq-18"
       ],
       "explanation": "本句的「cast a long shadow」指「對之後長時間產生強烈、常為負面的影響」。",
       "sentenceIndex": 53,
@@ -2070,12 +1872,10 @@ export default {
         "cast a long shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-24": "本句指「對之後長時間產生強烈、常為負面的影響」。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-25": "「因另一人更受注意而被其光芒掩蓋」與本句語境不同。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-24": "本句的「cast a long shadow」指「對之後長時間產生強烈、常為負面的影響」。",
+        "shadow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-24"
     },
@@ -2087,11 +1887,9 @@ export default {
       "masked": "The decision ____ over his career.",
       "options": [
         "shadow-mcq-24",
-        "shadow-mcq-23",
-        "shadow-mcq-25",
-        "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-20"
+        "shadow-mcq-10",
+        "shadow-mcq-18",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「cast a long shadow」指「對之後長時間產生強烈、常為負面的影響」。",
       "sentenceIndex": 54,
@@ -2100,12 +1898,10 @@ export default {
         "cast a long shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-24": "本句指「對之後長時間產生強烈、常為負面的影響」。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-25": "「因另一人更受注意而被其光芒掩蓋」與本句語境不同。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-24": "本句的「cast a long shadow」指「對之後長時間產生強烈、常為負面的影響」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-24"
     },
@@ -2117,11 +1913,9 @@ export default {
       "masked": "He grew up ____.",
       "options": [
         "shadow-mcq-25",
-        "shadow-mcq-24",
-        "shadow-mcq-23",
-        "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-20"
+        "shadow-mcq-08",
+        "shadow-mcq-10",
+        "shadow-mcq-13"
       ],
       "explanation": "本句的「in his brother’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
       "sentenceIndex": 55,
@@ -2130,12 +1924,10 @@ export default {
         "in his brother’s shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-25": "本句指「因另一人更受注意而被其光芒掩蓋」。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-25": "本句的「in his brother’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-25"
     },
@@ -2147,11 +1939,9 @@ export default {
       "masked": "She refused to remain ____.",
       "options": [
         "shadow-mcq-25",
-        "shadow-mcq-24",
-        "shadow-mcq-23",
-        "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-20"
+        "shadow-mcq-18",
+        "shadow-mcq-10",
+        "shadow-mcq-08"
       ],
       "explanation": "本句的「in anyone’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
       "sentenceIndex": 56,
@@ -2160,12 +1950,10 @@ export default {
         "in anyone’s shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-25": "本句指「因另一人更受注意而被其光芒掩蓋」。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-25": "本句的「in anyone’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
+        "shadow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-25"
     },
@@ -2177,11 +1965,9 @@ export default {
       "masked": "She eventually ____.",
       "options": [
         "shadow-mcq-25",
-        "shadow-mcq-24",
-        "shadow-mcq-23",
-        "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-20"
+        "shadow-mcq-19",
+        "shadow-mcq-10",
+        "shadow-mcq-15"
       ],
       "explanation": "本句的「emerged from her mentor’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
       "sentenceIndex": 57,
@@ -2190,12 +1976,10 @@ export default {
         "emerged from her mentor’s shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-25": "本句指「因另一人更受注意而被其光芒掩蓋」。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-25": "本句的「emerged from her mentor’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-25"
     },
@@ -2207,11 +1991,9 @@ export default {
       "masked": "The younger player is beginning to ____.",
       "options": [
         "shadow-mcq-25",
+        "shadow-mcq-10",
         "shadow-mcq-24",
-        "shadow-mcq-23",
-        "shadow-mcq-22",
-        "shadow-mcq-21",
-        "shadow-mcq-20"
+        "shadow-mcq-19"
       ],
       "explanation": "本句的「emerge from his teammate’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
       "sentenceIndex": 58,
@@ -2220,12 +2002,10 @@ export default {
         "emerge from his teammate’s shadow"
       ],
       "optionReasons": {
-        "shadow-mcq-25": "本句指「因另一人更受注意而被其光芒掩蓋」。",
-        "shadow-mcq-24": "「對之後長時間產生強烈、常為負面的影響」與本句語境不同。",
-        "shadow-mcq-23": "「提前暗示或預示之後會發生的事情」與本句語境不同。",
-        "shadow-mcq-22": "「遮蔽；使相形失色；給……蒙上陰影」與本句語境不同。",
-        "shadow-mcq-21": "「不明朗、神祕或可疑的」與本句語境不同。",
-        "shadow-mcq-20": "「陰暗、輪廓模糊的」與本句語境不同。"
+        "shadow-mcq-25": "本句的「emerge from his teammate’s shadow」指「因另一人更受注意而被其光芒掩蓋」。",
+        "shadow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "shadow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shadow-mcq-25"
     }
@@ -2237,5 +2017,7 @@ export default {
     "sha256": "ecd97b305a2303ce1a5a3ecdbb46de76a0e87c52da5c47d059b7f7bdd5e17d1a",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

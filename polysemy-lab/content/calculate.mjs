@@ -383,11 +383,6 @@ export default {
           "Our calculations suggest the café can break even.",
           "我們的估算顯示咖啡店可以達至收支平衡。",
           "只求近似結果的粗略計算"
-        ],
-        [
-          "The decision was based on political calculation.",
-          "這個決定是出於某種策略盤算。",
-          "只求近似結果的粗略計算"
         ]
       ],
       "options": [],
@@ -651,6 +646,23 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "calculate-reviewed-8352464cbe",
+      "title": "盤算；權衡",
+      "form": "calculate · source section 91",
+      "en": "盤算；權衡",
+      "zh": "盤算；權衡",
+      "note": "對照原始教材第 91 節及例句核實。",
+      "examples": [
+        [
+          "The decision was based on political calculation.",
+          "這個決定是出於某種策略盤算。",
+          "盤算；權衡"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -662,11 +674,9 @@ export default {
       "masked": "____ the total.",
       "options": [
         "calculate-mcq-01",
-        "calculate-mcq-02",
-        "calculate-mcq-03",
-        "calculate-mcq-04",
-        "calculate-mcq-05",
-        "calculate-mcq-06"
+        "calculate-mcq-18",
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe"
       ],
       "explanation": "本句的「Calculate」指「用數學、算術或既有資料推導出某個數值」。",
       "sentenceIndex": 0,
@@ -675,12 +685,10 @@ export default {
         "Calculate"
       ],
       "optionReasons": {
-        "calculate-mcq-01": "本句指「用數學、算術或既有資料推導出某個數值」。",
-        "calculate-mcq-02": "「計算所需成本」與本句語境不同。",
-        "calculate-mcq-03": "「算出所需金額／數量」與本句語境不同。",
-        "calculate-mcq-04": "「經計算／推算後得出某結論」與本句語境不同。",
-        "calculate-mcq-05": "「根據已知資料推導數值」與本句語境不同。",
-        "calculate-mcq-06": "「按指定公式計算結果」與本句語境不同。"
+        "calculate-mcq-01": "本句的「Calculate」指「用數學、算術或既有資料推導出某個數值」。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-01"
     },
@@ -692,11 +700,9 @@ export default {
       "masked": "We ____ the cost of the project.",
       "options": [
         "calculate-mcq-01",
-        "calculate-mcq-02",
-        "calculate-mcq-03",
-        "calculate-mcq-04",
-        "calculate-mcq-05",
-        "calculate-mcq-06"
+        "calculate-mcq-09",
+        "calculate-mcq-18",
+        "calculate-reviewed-8352464cbe"
       ],
       "explanation": "本句的「calculated」指「用數學、算術或既有資料推導出某個數值」。",
       "sentenceIndex": 1,
@@ -705,12 +711,10 @@ export default {
         "calculated"
       ],
       "optionReasons": {
-        "calculate-mcq-01": "本句指「用數學、算術或既有資料推導出某個數值」。",
-        "calculate-mcq-02": "「計算所需成本」與本句語境不同。",
-        "calculate-mcq-03": "「算出所需金額／數量」與本句語境不同。",
-        "calculate-mcq-04": "「經計算／推算後得出某結論」與本句語境不同。",
-        "calculate-mcq-05": "「根據已知資料推導數值」與本句語境不同。",
-        "calculate-mcq-06": "「按指定公式計算結果」與本句語境不同。"
+        "calculate-mcq-01": "本句的「calculated」指「用數學、算術或既有資料推導出某個數值」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-01"
     },
@@ -722,11 +726,9 @@ export default {
       "masked": "We ____ that the café would need 120 customers a day.",
       "options": [
         "calculate-mcq-04",
-        "calculate-mcq-03",
-        "calculate-mcq-05",
-        "calculate-mcq-02",
-        "calculate-mcq-06",
-        "calculate-mcq-01"
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculated」指「經計算／推算後得出某結論」。",
       "sentenceIndex": 7,
@@ -735,12 +737,10 @@ export default {
         "calculated"
       ],
       "optionReasons": {
-        "calculate-mcq-04": "本句指「經計算／推算後得出某結論」。",
-        "calculate-mcq-03": "「算出所需金額／數量」與本句語境不同。",
-        "calculate-mcq-05": "「根據已知資料推導數值」與本句語境不同。",
-        "calculate-mcq-02": "「計算所需成本」與本句語境不同。",
-        "calculate-mcq-06": "「按指定公式計算結果」與本句語境不同。",
-        "calculate-mcq-01": "「用數學、算術或既有資料推導出某個數值」與本句語境不同。"
+        "calculate-mcq-04": "本句的「calculated」指「經計算／推算後得出某結論」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-04"
     },
@@ -752,11 +752,9 @@ export default {
       "masked": "The value is ____ using the following formula.",
       "options": [
         "calculate-mcq-06",
-        "calculate-mcq-05",
-        "calculate-mcq-07",
-        "calculate-mcq-04",
-        "calculate-mcq-08",
-        "calculate-mcq-03"
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculated」指「按指定公式計算結果」。",
       "sentenceIndex": 9,
@@ -765,12 +763,10 @@ export default {
         "calculated"
       ],
       "optionReasons": {
-        "calculate-mcq-06": "本句指「按指定公式計算結果」。",
-        "calculate-mcq-05": "「根據已知資料推導數值」與本句語境不同。",
-        "calculate-mcq-07": "「根據資料、經驗與推理估算某數量／影響」與本句語境不同。",
-        "calculate-mcq-04": "「經計算／推算後得出某結論」與本句語境不同。",
-        "calculate-mcq-08": "「計算／量化某結果的可能性」與本句語境不同。",
-        "calculate-mcq-03": "「算出所需金額／數量」與本句語境不同。"
+        "calculate-mcq-06": "本句的「calculated」指「按指定公式計算結果」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-06"
     },
@@ -782,11 +778,8 @@ export default {
       "masked": "It is difficult to ____ the full impact.",
       "options": [
         "calculate-mcq-07",
-        "calculate-mcq-06",
-        "calculate-mcq-08",
-        "calculate-mcq-05",
-        "calculate-mcq-09",
-        "calculate-mcq-04"
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-09"
       ],
       "explanation": "本句的「calculate」指「根據資料、經驗與推理估算某數量／影響」。",
       "sentenceIndex": 10,
@@ -795,12 +788,9 @@ export default {
         "calculate"
       ],
       "optionReasons": {
-        "calculate-mcq-07": "本句指「根據資料、經驗與推理估算某數量／影響」。",
-        "calculate-mcq-06": "「按指定公式計算結果」與本句語境不同。",
-        "calculate-mcq-08": "「計算／量化某結果的可能性」與本句語境不同。",
-        "calculate-mcq-05": "「根據已知資料推導數值」與本句語境不同。",
-        "calculate-mcq-09": "「評估自己成功的可能性」與本句語境不同。",
-        "calculate-mcq-04": "「經計算／推算後得出某結論」與本句語境不同。"
+        "calculate-mcq-07": "本句的「calculate」指「根據資料、經驗與推理估算某數量／影響」。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-07"
     },
@@ -812,11 +802,9 @@ export default {
       "masked": "He carefully ____ his chances of success.",
       "options": [
         "calculate-mcq-09",
-        "calculate-mcq-08",
-        "calculate-mcq-10",
-        "calculate-mcq-07",
-        "calculate-mcq-11",
-        "calculate-mcq-06"
+        "calculate-mcq-27",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculated」指「評估自己成功的可能性」。",
       "sentenceIndex": 11,
@@ -825,12 +813,10 @@ export default {
         "calculated"
       ],
       "optionReasons": {
-        "calculate-mcq-09": "本句指「評估自己成功的可能性」。",
-        "calculate-mcq-08": "「計算／量化某結果的可能性」與本句語境不同。",
-        "calculate-mcq-10": "「有系統地預想並權衡可能後果」與本句語境不同。",
-        "calculate-mcq-07": "「根據資料、經驗與推理估算某數量／影響」與本句語境不同。",
-        "calculate-mcq-11": "「算出收入剛好抵銷相關成本所需的銷售水平」與本句語境不同。",
-        "calculate-mcq-06": "「按指定公式計算結果」與本句語境不同。"
+        "calculate-mcq-09": "本句的「calculated」指「評估自己成功的可能性」。",
+        "calculate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-09"
     },
@@ -842,11 +828,9 @@ export default {
       "masked": "The message was ____ to reassure investors.",
       "options": [
         "calculate-mcq-18",
-        "calculate-mcq-17",
-        "calculate-mcq-19",
-        "calculate-mcq-16",
-        "calculate-mcq-20",
-        "calculate-mcq-15"
+        "calculate-mcq-01",
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe"
       ],
       "explanation": "本句的「calculated」指「經刻意安排／設計，以產生 X 這個效果」。",
       "sentenceIndex": 16,
@@ -855,12 +839,10 @@ export default {
         "calculated"
       ],
       "optionReasons": {
-        "calculate-mcq-18": "本句指「經刻意安排／設計，以產生 X 這個效果」。",
-        "calculate-mcq-17": "「較少用：預計、指望、依賴 X」與本句語境不同。",
-        "calculate-mcq-19": "「經過仔細盤算而不是衝動作出的行動／決定」與本句語境不同。",
-        "calculate-mcq-16": "「數值由其他欄位／公式自動推導出的計算欄位」與本句語境不同。",
-        "calculate-mcq-20": "「經評估後明知有風險仍有意承擔」與本句語境不同。",
-        "calculate-mcq-15": "「由軟件／系統按公式自動得出 X」與本句語境不同。"
+        "calculate-mcq-18": "本句的「calculated」指「經刻意安排／設計，以產生 X 這個效果」。",
+        "calculate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-18"
     },
@@ -872,11 +854,9 @@ export default {
       "masked": "He is cold and ____.",
       "options": [
         "calculate-mcq-23",
-        "calculate-mcq-22",
-        "calculate-mcq-24",
-        "calculate-mcq-21",
-        "calculate-mcq-25",
-        "calculate-mcq-20"
+        "calculate-mcq-09",
+        "calculate-mcq-01",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculating」指「為自身利益精心盤算，甚至操控他人的；工於心計」。",
       "sentenceIndex": 18,
@@ -885,12 +865,10 @@ export default {
         "calculating"
       ],
       "optionReasons": {
-        "calculate-mcq-23": "本句指「為自身利益精心盤算，甚至操控他人的；工於心計」。",
-        "calculate-mcq-22": "「正在／能夠進行計算的」與本句語境不同。",
-        "calculate-mcq-24": "「冷酷而精於算計」與本句語境不同。",
-        "calculate-mcq-21": "「蓄意設計來產生特定效果的言行」與本句語境不同。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。",
-        "calculate-mcq-20": "「經評估後明知有風險仍有意承擔」與本句語境不同。"
+        "calculate-mcq-23": "本句的「calculating」指「為自身利益精心盤算，甚至操控他人的；工於心計」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-23"
     },
@@ -902,11 +880,9 @@ export default {
       "masked": "The ____ is straightforward.",
       "options": [
         "calculate-mcq-27",
-        "calculate-mcq-26",
-        "calculate-mcq-28",
-        "calculate-mcq-25",
-        "calculate-mcq-29",
-        "calculate-mcq-24"
+        "calculate-mcq-09",
+        "calculate-mcq-18",
+        "calculate-reviewed-8352464cbe"
       ],
       "explanation": "本句的「calculation」指「按我的計算」。",
       "sentenceIndex": 19,
@@ -915,12 +891,10 @@ export default {
         "calculation"
       ],
       "optionReasons": {
-        "calculate-mcq-27": "本句指「按我的計算」。",
-        "calculate-mcq-26": "「多項計算過程／算式／結果」與本句語境不同。",
-        "calculate-mcq-28": "「只求近似結果的粗略計算」與本句語境不同。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。",
-        "calculate-mcq-29": "「不靠書寫／工具完成的心算」與本句語境不同。",
-        "calculate-mcq-24": "「冷酷而精於算計」與本句語境不同。"
+        "calculate-mcq-27": "本句的「calculation」指「按我的計算」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-27"
     },
@@ -932,11 +906,9 @@ export default {
       "masked": "Check your ____.",
       "options": [
         "calculate-mcq-28",
-        "calculate-mcq-27",
-        "calculate-mcq-29",
-        "calculate-mcq-26",
-        "calculate-mcq-30",
-        "calculate-mcq-25"
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculation」指「只求近似結果的粗略計算」。",
       "sentenceIndex": 20,
@@ -945,12 +917,10 @@ export default {
         "calculation"
       ],
       "optionReasons": {
-        "calculate-mcq-28": "本句指「只求近似結果的粗略計算」。",
-        "calculate-mcq-27": "「按我的計算」與本句語境不同。",
-        "calculate-mcq-29": "「不靠書寫／工具完成的心算」與本句語境不同。",
-        "calculate-mcq-26": "「多項計算過程／算式／結果」與本句語境不同。",
-        "calculate-mcq-30": "「用簡化假設快速做出的粗略估算」與本句語境不同。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。"
+        "calculate-mcq-28": "本句的「calculation」指「只求近似結果的粗略計算」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-28"
     },
@@ -962,11 +932,9 @@ export default {
       "masked": "Show your ____.",
       "options": [
         "calculate-mcq-26",
-        "calculate-mcq-25",
-        "calculate-mcq-27",
-        "calculate-mcq-24",
-        "calculate-mcq-28",
-        "calculate-mcq-23"
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculations」指「多項計算過程／算式／結果」。",
       "sentenceIndex": 21,
@@ -975,12 +943,10 @@ export default {
         "calculations"
       ],
       "optionReasons": {
-        "calculate-mcq-26": "本句指「多項計算過程／算式／結果」。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。",
-        "calculate-mcq-27": "「按我的計算」與本句語境不同。",
-        "calculate-mcq-24": "「冷酷而精於算計」與本句語境不同。",
-        "calculate-mcq-28": "「只求近似結果的粗略計算」與本句語境不同。",
-        "calculate-mcq-23": "「為自身利益精心盤算，甚至操控他人的；工於心計」與本句語境不同。"
+        "calculate-mcq-26": "本句的「calculations」指「多項計算過程／算式／結果」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-26"
     },
@@ -992,11 +958,9 @@ export default {
       "masked": "By my ____, we need another $20,000.",
       "options": [
         "calculate-mcq-27",
-        "calculate-mcq-26",
-        "calculate-mcq-28",
-        "calculate-mcq-25",
-        "calculate-mcq-29",
-        "calculate-mcq-24"
+        "calculate-mcq-09",
+        "calculate-mcq-18",
+        "calculate-reviewed-8352464cbe"
       ],
       "explanation": "本句的「calculation」指「按我的計算」。",
       "sentenceIndex": 22,
@@ -1005,12 +969,10 @@ export default {
         "calculation"
       ],
       "optionReasons": {
-        "calculate-mcq-27": "本句指「按我的計算」。",
-        "calculate-mcq-26": "「多項計算過程／算式／結果」與本句語境不同。",
-        "calculate-mcq-28": "「只求近似結果的粗略計算」與本句語境不同。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。",
-        "calculate-mcq-29": "「不靠書寫／工具完成的心算」與本句語境不同。",
-        "calculate-mcq-24": "「冷酷而精於算計」與本句語境不同。"
+        "calculate-mcq-27": "本句的「calculation」指「按我的計算」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-27"
     },
@@ -1022,11 +984,9 @@ export default {
       "masked": "Our ____ suggest the café can break even.",
       "options": [
         "calculate-mcq-28",
-        "calculate-mcq-27",
-        "calculate-mcq-29",
-        "calculate-mcq-26",
-        "calculate-mcq-30",
-        "calculate-mcq-25"
+        "calculate-mcq-09",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-18"
       ],
       "explanation": "本句的「calculations」指「只求近似結果的粗略計算」。",
       "sentenceIndex": 23,
@@ -1035,44 +995,40 @@ export default {
         "calculations"
       ],
       "optionReasons": {
-        "calculate-mcq-28": "本句指「只求近似結果的粗略計算」。",
-        "calculate-mcq-27": "「按我的計算」與本句語境不同。",
-        "calculate-mcq-29": "「不靠書寫／工具完成的心算」與本句語境不同。",
-        "calculate-mcq-26": "「多項計算過程／算式／結果」與本句語境不同。",
-        "calculate-mcq-30": "「用簡化假設快速做出的粗略估算」與本句語境不同。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。"
+        "calculate-mcq-28": "本句的「calculations」指「只求近似結果的粗略計算」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-28"
     },
     {
       "id": "calculate-91-0",
-      "sense": "calculate-mcq-28",
+      "sense": "calculate-reviewed-8352464cbe",
       "en": "The decision was based on political calculation.",
       "zh": "這個決定是出於某種策略盤算。",
       "masked": "The decision was based on political ____.",
       "options": [
-        "calculate-mcq-28",
-        "calculate-mcq-27",
-        "calculate-mcq-29",
-        "calculate-mcq-26",
-        "calculate-mcq-30",
-        "calculate-mcq-25"
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-09",
+        "calculate-mcq-18",
+        "calculate-mcq-27"
       ],
-      "explanation": "本句的「calculation」指「只求近似結果的粗略計算」。",
+      "explanation": "對照完整句子：「這個決定是出於某種策略盤算。」。這裡的「calculation」表示「盤算；權衡」。",
       "sentenceIndex": 24,
       "sourcePractice": 91,
       "targets": [
         "calculation"
       ],
       "optionReasons": {
-        "calculate-mcq-28": "本句指「只求近似結果的粗略計算」。",
-        "calculate-mcq-27": "「按我的計算」與本句語境不同。",
-        "calculate-mcq-29": "「不靠書寫／工具完成的心算」與本句語境不同。",
-        "calculate-mcq-26": "「多項計算過程／算式／結果」與本句語境不同。",
-        "calculate-mcq-30": "「用簡化假設快速做出的粗略估算」與本句語境不同。",
-        "calculate-mcq-25": "「數學計算的過程或所得結果」與本句語境不同。"
+        "calculate-reviewed-8352464cbe": "對照完整句子：「這個決定是出於某種策略盤算。」。這裡的「calculation」表示「盤算；權衡」。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "calculate-mcq-28"
+      "correctOption": "calculate-reviewed-8352464cbe",
+      "previousCorrectOption": "calculate-mcq-28",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "calculate-97-0",
@@ -1082,11 +1038,9 @@ export default {
       "masked": "Use a ____.",
       "options": [
         "calculate-mcq-33",
-        "calculate-mcq-32",
-        "calculate-mcq-34",
-        "calculate-mcq-31",
-        "calculate-mcq-35",
-        "calculate-mcq-30"
+        "calculate-mcq-18",
+        "calculate-reviewed-8352464cbe",
+        "calculate-mcq-09"
       ],
       "explanation": "本句的「calculator」指「用來完成算術／數學運算的計算機」。",
       "sentenceIndex": 25,
@@ -1095,12 +1049,10 @@ export default {
         "calculator"
       ],
       "optionReasons": {
-        "calculate-mcq-33": "本句指「用來完成算術／數學運算的計算機」。",
-        "calculate-mcq-32": "「冷靜甚至冷酷地權衡利害得失」與本句語境不同。",
-        "calculate-mcq-34": "「能處理三角、對數等較高階功能的科學計算機」與本句語境不同。",
-        "calculate-mcq-31": "「對利益、成本及反應等作出的策略盤算」與本句語境不同。",
-        "calculate-mcq-35": "「可以繪製函數圖像的圖形計算機」與本句語境不同。",
-        "calculate-mcq-30": "「用簡化假設快速做出的粗略估算」與本句語境不同。"
+        "calculate-mcq-33": "本句的「calculator」指「用來完成算術／數學運算的計算機」。",
+        "calculate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "calculate-reviewed-8352464cbe": "請比較這個意思與句子中標示的用法。",
+        "calculate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "calculate-mcq-33"
     }
@@ -1112,5 +1064,7 @@ export default {
     "sha256": "89a0d8800db907f4570f80d99b7a2d36adea039d19e6b7e1fa99c380bebff4d1",
     "pages": 48
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

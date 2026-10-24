@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "plant-mcq-02",
-      "title": "表示植物；例句：「這株植物需要充足的陽光。」",
+      "title": "植物",
       "form": "plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物",
       "en": "plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物",
       "zh": "表示植物；例句：「這株植物需要充足的陽光。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "plant-mcq-03",
-      "title": "表示植株；植物；例句：「每株番茄植株都結了很多果實。」",
+      "title": "植株；植物",
       "form": "plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物",
       "en": "plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物",
       "zh": "表示植株；植物；例句：「每株番茄植株都結了很多果實。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "plant-mcq-04",
-      "title": "表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」",
+      "title": "種植；栽種；播種",
       "form": "plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種",
       "en": "plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種",
       "zh": "表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "plant-mcq-05",
-      "title": "表示播種；種下種子；例句：「農民在春天播種。」",
+      "title": "播種；種下種子",
       "form": "plant seeds = put seeds in the ground so that they can grow 播種；種下種子",
       "en": "plant seeds = put seeds in the ground so that they can grow 播種；種下種子",
       "zh": "表示播種；種下種子；例句：「農民在春天播種。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "plant-mcq-08",
-      "title": "表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」",
+      "title": "使某人產生懷疑；種下疑念",
       "form": "plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念",
       "en": "plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念",
       "zh": "表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "plant-mcq-09",
-      "title": "表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」",
+      "title": "種下希望／信心／恐懼",
       "form": "plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼",
       "en": "plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼",
       "zh": "表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "plant-mcq-10",
-      "title": "表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」",
+      "title": "放置；牢牢置於；插在",
       "form": "plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在",
       "en": "plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在",
       "zh": "表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "plant-mcq-11",
-      "title": "表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」",
+      "title": "站穩；把腳穩穩踩住",
       "form": "plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住",
       "en": "plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住",
       "zh": "表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "plant-mcq-12",
-      "title": "表示插旗；例句：「登山者在山頂插了一面旗。」",
+      "title": "插旗",
       "form": "plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗",
       "en": "plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗",
       "zh": "表示插旗；例句：「登山者在山頂插了一面旗。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "plant-mcq-13",
-      "title": "表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」",
+      "title": "栽贓；植入假證據",
       "form": "plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據",
       "en": "plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據",
       "zh": "表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "plant-mcq-14",
-      "title": "表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」",
+      "title": "暗中放置；栽贓放置",
       "form": "plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置",
       "en": "plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置",
       "zh": "表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "plant-mcq-15",
-      "title": "表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」",
+      "title": "安插；秘密安排",
       "form": "plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排",
       "en": "plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排",
       "zh": "表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "plant-mcq-16",
-      "title": "表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」",
+      "title": "安插的人；內應；托兒",
       "form": "a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒",
       "en": "a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒",
       "zh": "表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "plant-mcq-17",
-      "title": "表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」",
+      "title": "工廠；廠房；生產設施",
       "form": "plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施",
       "en": "plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施",
       "zh": "表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "plant-mcq-18",
-      "title": "表示發電廠；例句：「這座城市的電力來自附近的發電廠。」",
+      "title": "發電廠",
       "form": "power plant = a facility where electricity is generated 發電廠",
       "en": "power plant = a facility where electricity is generated 發電廠",
       "zh": "表示發電廠；例句：「這座城市的電力來自附近的發電廠。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "plant-mcq-19",
-      "title": "表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」",
+      "title": "製造廠；生產工廠",
       "form": "manufacturing plant = factory where products are manufactured 製造廠；生產工廠",
       "en": "manufacturing plant = factory where products are manufactured 製造廠；生產工廠",
       "zh": "表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "plant-mcq-20",
-      "title": "表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」",
+      "title": "加工廠；處理廠",
       "form": "processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠",
       "en": "processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠",
       "zh": "表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "plant-mcq-21",
-      "title": "表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」",
+      "title": "大型機械設備；工程設備",
       "form": "plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備",
       "en": "plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備",
       "zh": "表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "plant-mcq-22",
-      "title": "表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」",
+      "title": "在某人……上親一下",
       "form": "plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下",
       "en": "plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下",
       "zh": "表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "plant-mcq-23",
-      "title": "表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」",
+      "title": "重重打一拳；給予一擊",
       "form": "plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊",
       "en": "plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊",
       "zh": "表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "plant-mcq-25",
-      "title": "表示種植園；例句：「他們參觀了一座茶葉種植園。」",
+      "title": "種植園",
       "form": "plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園",
       "en": "plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園",
       "zh": "表示種植園；例句：「他們參觀了一座茶葉種植園。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "plant-mcq-26",
-      "title": "表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」",
+      "title": "重新種植；移植",
       "form": "replant = plant again or move a plant and plant it elsewhere 重新種植；移植",
       "en": "replant = plant again or move a plant and plant it elsewhere 重新種植；移植",
       "zh": "表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "plant-mcq-27",
-      "title": "表示移植；例句：「幼苗被移植到較大的花盆中。」",
+      "title": "移植",
       "form": "transplant",
       "en": "transplant",
       "zh": "表示移植；例句：「幼苗被移植到較大的花盆中。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "plant-mcq-28",
-      "title": "表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」",
+      "title": "播下……的種子；為……埋下伏筆",
       "form": "plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆",
       "en": "plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆",
       "zh": "表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "plant-mcq-29",
-      "title": "表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」",
+      "title": "把……深深植入某人的腦海",
       "form": "plant something firmly in someone’s mind = make an idea or memory strongly established in someone’s thinking 把……深深植入某人的腦海",
       "en": "plant something firmly in someone’s mind = make an idea or memory strongly established in someone’s thinking 把……深深植入某人的腦海",
       "zh": "表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」",
@@ -653,11 +653,9 @@ export default {
       "masked": "Her advice ____ of confidence in me.",
       "options": [
         "plant-mcq-01",
-        "plant-mcq-02",
-        "plant-mcq-03",
-        "plant-mcq-04",
-        "plant-mcq-05",
-        "plant-mcq-06"
+        "plant-mcq-17",
+        "plant-mcq-21",
+        "plant-mcq-22"
       ],
       "explanation": "本句的「planted a seed」指「種下；植入；播下（想法、信念、可能性）」。",
       "sentenceIndex": 0,
@@ -666,12 +664,10 @@ export default {
         "planted a seed"
       ],
       "optionReasons": {
-        "plant-mcq-01": "本句指「種下；植入；播下（想法、信念、可能性）」。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-01": "本句的「planted a seed」指「種下；植入；播下（想法、信念、可能性）」。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-01"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "The conversation ____ that I might enjoy teaching.",
       "options": [
         "plant-mcq-01",
-        "plant-mcq-02",
-        "plant-mcq-03",
-        "plant-mcq-04",
-        "plant-mcq-05",
-        "plant-mcq-06"
+        "plant-mcq-23",
+        "plant-mcq-19",
+        "plant-mcq-21"
       ],
       "explanation": "本句的「planted the idea」指「種下；植入；播下（想法、信念、可能性）」。",
       "sentenceIndex": 1,
@@ -696,12 +690,10 @@ export default {
         "planted the idea"
       ],
       "optionReasons": {
-        "plant-mcq-01": "本句指「種下；植入；播下（想法、信念、可能性）」。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-01": "本句的「planted the idea」指「種下；植入；播下（想法、信念、可能性）」。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-01"
     },
@@ -713,11 +705,9 @@ export default {
       "masked": "This ____ needs plenty of sunlight.",
       "options": [
         "plant-mcq-02",
-        "plant-mcq-01",
-        "plant-mcq-03",
-        "plant-mcq-04",
-        "plant-mcq-05",
-        "plant-mcq-06"
+        "plant-mcq-10",
+        "plant-mcq-28",
+        "plant-mcq-19"
       ],
       "explanation": "本句的「plant」指「表示植物；例句：「這株植物需要充足的陽光。」」。",
       "sentenceIndex": 2,
@@ -726,12 +716,10 @@ export default {
         "plant"
       ],
       "optionReasons": {
-        "plant-mcq-02": "本句指「表示植物；例句：「這株植物需要充足的陽光。」」。",
-        "plant-mcq-01": "「種下；植入；播下（想法、信念、可能性）」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-02": "本句的「plant」指「表示植物；例句：「這株植物需要充足的陽光。」」。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-02"
     },
@@ -743,11 +731,9 @@ export default {
       "masked": "We have several indoor ____.",
       "options": [
         "plant-mcq-02",
-        "plant-mcq-01",
-        "plant-mcq-03",
-        "plant-mcq-04",
-        "plant-mcq-05",
-        "plant-mcq-06"
+        "plant-mcq-16",
+        "plant-mcq-10",
+        "plant-mcq-18"
       ],
       "explanation": "本句的「plants」指「表示植物；例句：「這株植物需要充足的陽光。」」。",
       "sentenceIndex": 3,
@@ -756,12 +742,10 @@ export default {
         "plants"
       ],
       "optionReasons": {
-        "plant-mcq-02": "本句指「表示植物；例句：「這株植物需要充足的陽光。」」。",
-        "plant-mcq-01": "「種下；植入；播下（想法、信念、可能性）」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-02": "本句的「plants」指「表示植物；例句：「這株植物需要充足的陽光。」」。",
+        "plant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-02"
     },
@@ -773,11 +757,9 @@ export default {
       "masked": "Each tomato ____ produced a lot of fruit.",
       "options": [
         "plant-mcq-03",
-        "plant-mcq-02",
-        "plant-mcq-04",
-        "plant-mcq-01",
-        "plant-mcq-05",
-        "plant-mcq-06"
+        "plant-mcq-18",
+        "plant-mcq-16",
+        "plant-mcq-05"
       ],
       "explanation": "本句的「plant」指「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」。",
       "sentenceIndex": 4,
@@ -786,12 +768,10 @@ export default {
         "plant"
       ],
       "optionReasons": {
-        "plant-mcq-03": "本句指「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-01": "「種下；植入；播下（想法、信念、可能性）」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-03": "本句的「plant」指「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-03"
     },
@@ -803,11 +783,9 @@ export default {
       "masked": "The garden contains more than fifty different ____.",
       "options": [
         "plant-mcq-03",
-        "plant-mcq-02",
-        "plant-mcq-04",
-        "plant-mcq-01",
-        "plant-mcq-05",
-        "plant-mcq-06"
+        "plant-mcq-21",
+        "plant-mcq-09",
+        "plant-mcq-14"
       ],
       "explanation": "本句的「plants」指「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」。",
       "sentenceIndex": 5,
@@ -816,12 +794,10 @@ export default {
         "plants"
       ],
       "optionReasons": {
-        "plant-mcq-03": "本句指「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-01": "「種下；植入；播下（想法、信念、可能性）」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-03": "本句的「plants」指「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-03"
     },
@@ -833,11 +809,9 @@ export default {
       "masked": "We ____ in the garden.",
       "options": [
         "plant-mcq-04",
-        "plant-mcq-03",
-        "plant-mcq-05",
-        "plant-mcq-02",
-        "plant-mcq-06",
-        "plant-mcq-01"
+        "plant-mcq-17",
+        "plant-mcq-15",
+        "plant-mcq-24"
       ],
       "explanation": "本句的「planted tomatoes」指「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」。",
       "sentenceIndex": 6,
@@ -846,12 +820,10 @@ export default {
         "planted tomatoes"
       ],
       "optionReasons": {
-        "plant-mcq-04": "本句指「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-01": "「種下；植入；播下（想法、信念、可能性）」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。"
+        "plant-mcq-04": "本句的「planted tomatoes」指「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-04"
     },
@@ -863,11 +835,9 @@ export default {
       "masked": "She ____ beside the house.",
       "options": [
         "plant-mcq-04",
-        "plant-mcq-03",
-        "plant-mcq-05",
-        "plant-mcq-02",
-        "plant-mcq-06",
-        "plant-mcq-01"
+        "plant-mcq-11",
+        "plant-mcq-19",
+        "plant-mcq-22"
       ],
       "explanation": "本句的「planted a tree」指「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」。",
       "sentenceIndex": 7,
@@ -876,12 +846,10 @@ export default {
         "planted a tree"
       ],
       "optionReasons": {
-        "plant-mcq-04": "本句指「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-01": "「種下；植入；播下（想法、信念、可能性）」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。"
+        "plant-mcq-04": "本句的「planted a tree」指「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-04"
     },
@@ -893,11 +861,9 @@ export default {
       "masked": "Farmers ____ in spring.",
       "options": [
         "plant-mcq-05",
-        "plant-mcq-04",
-        "plant-mcq-06",
-        "plant-mcq-03",
-        "plant-mcq-07",
-        "plant-mcq-02"
+        "plant-mcq-11",
+        "plant-mcq-24",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「plant seeds」指「表示播種；種下種子；例句：「農民在春天播種。」」。",
       "sentenceIndex": 8,
@@ -906,12 +872,10 @@ export default {
         "plant seeds"
       ],
       "optionReasons": {
-        "plant-mcq-05": "本句指「表示播種；種下種子；例句：「農民在春天播種。」」。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。"
+        "plant-mcq-05": "本句的「plant seeds」指「表示播種；種下種子；例句：「農民在春天播種。」」。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-05"
     },
@@ -923,11 +887,9 @@ export default {
       "masked": "We ____ along the fence.",
       "options": [
         "plant-mcq-05",
-        "plant-mcq-04",
-        "plant-mcq-06",
-        "plant-mcq-03",
-        "plant-mcq-07",
-        "plant-mcq-02"
+        "plant-mcq-27",
+        "plant-mcq-20",
+        "plant-mcq-10"
       ],
       "explanation": "本句的「planted sunflower seeds」指「表示播種；種下種子；例句：「農民在春天播種。」」。",
       "sentenceIndex": 9,
@@ -936,12 +898,10 @@ export default {
         "planted sunflower seeds"
       ],
       "optionReasons": {
-        "plant-mcq-05": "本句指「表示播種；種下種子；例句：「農民在春天播種。」」。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-02": "「表示植物；例句：「這株植物需要充足的陽光。」」是「plant — noun: a living organism that grows in soil, usually with roots, stems, and leaves = a living thing such as a flower, tree, grass, or shrub 植物」的用法，與本句語境不同。"
+        "plant-mcq-05": "本句的「planted sunflower seeds」指「表示播種；種下種子；例句：「農民在春天播種。」」。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-05"
     },
@@ -953,11 +913,9 @@ export default {
       "masked": "The documentary ____ of travelling abroad in her mind.",
       "options": [
         "plant-mcq-06",
-        "plant-mcq-05",
-        "plant-mcq-07",
-        "plant-mcq-04",
-        "plant-mcq-08",
-        "plant-mcq-03"
+        "plant-mcq-12",
+        "plant-mcq-20",
+        "plant-mcq-11"
       ],
       "explanation": "本句的「planted the idea」指「在某人心中植入想法；種下念頭」。",
       "sentenceIndex": 10,
@@ -966,12 +924,10 @@ export default {
         "planted the idea"
       ],
       "optionReasons": {
-        "plant-mcq-06": "本句指「在某人心中植入想法；種下念頭」。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。"
+        "plant-mcq-06": "本句的「planted the idea」指「在某人心中植入想法；種下念頭」。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-06"
     },
@@ -983,11 +939,9 @@ export default {
       "masked": "His question ____ that I could not stop thinking about.",
       "options": [
         "plant-mcq-06",
-        "plant-mcq-05",
-        "plant-mcq-07",
-        "plant-mcq-04",
-        "plant-mcq-08",
-        "plant-mcq-03"
+        "plant-mcq-12",
+        "plant-mcq-17",
+        "plant-mcq-14"
       ],
       "explanation": "本句的「planted an idea」指「在某人心中植入想法；種下念頭」。",
       "sentenceIndex": 11,
@@ -996,12 +950,10 @@ export default {
         "planted an idea"
       ],
       "optionReasons": {
-        "plant-mcq-06": "本句指「在某人心中植入想法；種下念頭」。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-03": "「表示植株；植物；例句：「每株番茄植株都結了很多果實。」」是「plant — a particular cultivated plant = an individual plant grown for food, decoration, medicine, etc. 植株；植物」的用法，與本句語境不同。"
+        "plant-mcq-06": "本句的「planted an idea」指「在某人心中植入想法；種下念頭」。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-06"
     },
@@ -1013,11 +965,9 @@ export default {
       "masked": "One encouraging comment can ____ that grows for years.",
       "options": [
         "plant-mcq-07",
-        "plant-mcq-06",
-        "plant-mcq-08",
-        "plant-mcq-05",
-        "plant-mcq-09",
-        "plant-mcq-04"
+        "plant-mcq-19",
+        "plant-mcq-29",
+        "plant-mcq-16"
       ],
       "explanation": "本句的「plant a seed」指「種下一顆種子；播下想法的種子」。",
       "sentenceIndex": 12,
@@ -1026,12 +976,10 @@ export default {
         "plant a seed"
       ],
       "optionReasons": {
-        "plant-mcq-07": "本句指「種下一顆種子；播下想法的種子」。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。"
+        "plant-mcq-07": "本句的「plant a seed」指「種下一顆種子；播下想法的種子」。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-07"
     },
@@ -1043,11 +991,9 @@ export default {
       "masked": "The trip ____ of curiosity about other cultures.",
       "options": [
         "plant-mcq-07",
-        "plant-mcq-06",
-        "plant-mcq-08",
-        "plant-mcq-05",
-        "plant-mcq-09",
-        "plant-mcq-04"
+        "plant-mcq-27",
+        "plant-mcq-16",
+        "plant-mcq-14"
       ],
       "explanation": "本句的「planted a seed」指「種下一顆種子；播下想法的種子」。",
       "sentenceIndex": 13,
@@ -1056,12 +1002,10 @@ export default {
         "planted a seed"
       ],
       "optionReasons": {
-        "plant-mcq-07": "本句指「種下一顆種子；播下想法的種子」。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-04": "「表示種植；栽種；播種；例句：「我們在花園裡種了番茄。」」是「plant something = put a seed, bulb, or young plant into soil so that it can grow 種植；栽種；播種」的用法，與本句語境不同。"
+        "plant-mcq-07": "本句的「planted a seed」指「種下一顆種子；播下想法的種子」。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-07"
     },
@@ -1073,11 +1017,9 @@ export default {
       "masked": "His strange answer ____.",
       "options": [
         "plant-mcq-08",
-        "plant-mcq-07",
-        "plant-mcq-09",
-        "plant-mcq-06",
-        "plant-mcq-10",
-        "plant-mcq-05"
+        "plant-mcq-11",
+        "plant-mcq-02",
+        "plant-mcq-14"
       ],
       "explanation": "本句的「planted a doubt in my mind」指「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」。",
       "sentenceIndex": 14,
@@ -1086,12 +1028,10 @@ export default {
         "planted a doubt in my mind"
       ],
       "optionReasons": {
-        "plant-mcq-08": "本句指「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。"
+        "plant-mcq-08": "本句的「planted a doubt in my mind」指「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-08"
     },
@@ -1103,11 +1043,9 @@ export default {
       "masked": "The comment ____ among the team members.",
       "options": [
         "plant-mcq-08",
-        "plant-mcq-07",
-        "plant-mcq-09",
-        "plant-mcq-06",
-        "plant-mcq-10",
-        "plant-mcq-05"
+        "plant-mcq-23",
+        "plant-mcq-04",
+        "plant-mcq-09"
       ],
       "explanation": "本句的「planted suspicion」指「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」。",
       "sentenceIndex": 15,
@@ -1116,12 +1054,10 @@ export default {
         "planted suspicion"
       ],
       "optionReasons": {
-        "plant-mcq-08": "本句指「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-05": "「表示播種；種下種子；例句：「農民在春天播種。」」是「plant seeds = put seeds in the ground so that they can grow 播種；種下種子」的用法，與本句語境不同。"
+        "plant-mcq-08": "本句的「planted suspicion」指「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-08"
     },
@@ -1133,11 +1069,9 @@ export default {
       "masked": "Her support ____ in people who had nearly given up.",
       "options": [
         "plant-mcq-09",
-        "plant-mcq-08",
-        "plant-mcq-10",
         "plant-mcq-07",
-        "plant-mcq-11",
-        "plant-mcq-06"
+        "plant-mcq-12",
+        "plant-mcq-27"
       ],
       "explanation": "本句的「planted hope」指「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」。",
       "sentenceIndex": 16,
@@ -1146,12 +1080,10 @@ export default {
         "planted hope"
       ],
       "optionReasons": {
-        "plant-mcq-09": "本句指「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-09": "本句的「planted hope」指「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」。",
+        "plant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-09"
     },
@@ -1163,11 +1095,9 @@ export default {
       "masked": "The experience ____ in him.",
       "options": [
         "plant-mcq-09",
-        "plant-mcq-08",
-        "plant-mcq-10",
-        "plant-mcq-07",
-        "plant-mcq-11",
-        "plant-mcq-06"
+        "plant-mcq-19",
+        "plant-mcq-05",
+        "plant-mcq-03"
       ],
       "explanation": "本句的「planted confidence」指「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」。",
       "sentenceIndex": 17,
@@ -1176,12 +1106,10 @@ export default {
         "planted confidence"
       ],
       "optionReasons": {
-        "plant-mcq-09": "本句指「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-06": "「在某人心中植入想法；種下念頭」是「plant an idea = cause an idea to begin developing in someone’s mind 在某人心中植入想法；種下念頭」的用法，與本句語境不同。"
+        "plant-mcq-09": "本句的「planted confidence」指「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-09"
     },
@@ -1193,11 +1121,9 @@ export default {
       "masked": "He ____ on the ground.",
       "options": [
         "plant-mcq-10",
-        "plant-mcq-09",
-        "plant-mcq-11",
-        "plant-mcq-08",
-        "plant-mcq-12",
-        "plant-mcq-07"
+        "plant-mcq-29",
+        "plant-mcq-05",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「planted his feet firmly」指「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」。",
       "sentenceIndex": 18,
@@ -1206,12 +1132,10 @@ export default {
         "planted his feet firmly"
       ],
       "optionReasons": {
-        "plant-mcq-10": "本句指「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。"
+        "plant-mcq-10": "本句的「planted his feet firmly」指「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-10"
     },
@@ -1223,11 +1147,9 @@ export default {
       "masked": "She ____ at the top of the hill.",
       "options": [
         "plant-mcq-10",
-        "plant-mcq-09",
-        "plant-mcq-11",
-        "plant-mcq-08",
-        "plant-mcq-12",
-        "plant-mcq-07"
+        "plant-mcq-28",
+        "plant-mcq-29",
+        "plant-mcq-17"
       ],
       "explanation": "本句的「planted the flag」指「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」。",
       "sentenceIndex": 19,
@@ -1236,12 +1158,10 @@ export default {
         "planted the flag"
       ],
       "optionReasons": {
-        "plant-mcq-10": "本句指「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-07": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that may gradually develop 種下一顆種子；播下想法的種子」的用法，與本句語境不同。"
+        "plant-mcq-10": "本句的「planted the flag」指「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」。",
+        "plant-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-10"
     },
@@ -1253,11 +1173,9 @@ export default {
       "masked": "____ shoulder-width apart.",
       "options": [
         "plant-mcq-11",
-        "plant-mcq-10",
-        "plant-mcq-12",
-        "plant-mcq-09",
-        "plant-mcq-13",
-        "plant-mcq-08"
+        "plant-mcq-07",
+        "plant-mcq-21",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「Plant your feet」指「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」。",
       "sentenceIndex": 20,
@@ -1266,12 +1184,10 @@ export default {
         "Plant your feet"
       ],
       "optionReasons": {
-        "plant-mcq-11": "本句指「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。"
+        "plant-mcq-11": "本句的「Plant your feet」指「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」。",
+        "plant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-11"
     },
@@ -1283,11 +1199,9 @@ export default {
       "masked": "He ____ and refused to move.",
       "options": [
         "plant-mcq-11",
-        "plant-mcq-10",
-        "plant-mcq-12",
-        "plant-mcq-09",
-        "plant-mcq-13",
-        "plant-mcq-08"
+        "plant-mcq-07",
+        "plant-mcq-26",
+        "plant-mcq-18"
       ],
       "explanation": "本句的「planted his feet」指「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」。",
       "sentenceIndex": 21,
@@ -1296,12 +1210,10 @@ export default {
         "planted his feet"
       ],
       "optionReasons": {
-        "plant-mcq-11": "本句指「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-08": "「表示使某人產生懷疑；種下疑念；例句：「他奇怪的回答在我心中種下了疑問。」」是「plant a doubt / suspicion = cause someone to begin doubting or suspecting something 使某人產生懷疑；種下疑念」的用法，與本句語境不同。"
+        "plant-mcq-11": "本句的「planted his feet」指「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」。",
+        "plant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-11"
     },
@@ -1313,11 +1225,9 @@ export default {
       "masked": "The climbers ____ at the summit.",
       "options": [
         "plant-mcq-12",
-        "plant-mcq-11",
-        "plant-mcq-13",
-        "plant-mcq-10",
-        "plant-mcq-14",
-        "plant-mcq-09"
+        "plant-mcq-02",
+        "plant-mcq-24",
+        "plant-mcq-19"
       ],
       "explanation": "本句的「planted a flag」指「表示插旗；例句：「登山者在山頂插了一面旗。」」。",
       "sentenceIndex": 22,
@@ -1326,12 +1236,10 @@ export default {
         "planted a flag"
       ],
       "optionReasons": {
-        "plant-mcq-12": "本句指「表示插旗；例句：「登山者在山頂插了一面旗。」」。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。"
+        "plant-mcq-12": "本句的「planted a flag」指「表示插旗；例句：「登山者在山頂插了一面旗。」」。",
+        "plant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-12"
     },
@@ -1343,11 +1251,9 @@ export default {
       "masked": "The team ____ near the camp.",
       "options": [
         "plant-mcq-12",
-        "plant-mcq-11",
-        "plant-mcq-13",
-        "plant-mcq-10",
-        "plant-mcq-14",
-        "plant-mcq-09"
+        "plant-mcq-18",
+        "plant-mcq-29",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「planted its flag」指「表示插旗；例句：「登山者在山頂插了一面旗。」」。",
       "sentenceIndex": 23,
@@ -1356,12 +1262,10 @@ export default {
         "planted its flag"
       ],
       "optionReasons": {
-        "plant-mcq-12": "本句指「表示插旗；例句：「登山者在山頂插了一面旗。」」。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-09": "「表示種下希望／信心／恐懼；例句：「她的支持在幾乎放棄的人心中種下了希望。」」是「plant hope / confidence / fear = introduce or strengthen a feeling that may develop 種下希望／信心／恐懼」的用法，與本句語境不同。"
+        "plant-mcq-12": "本句的「planted its flag」指「表示插旗；例句：「登山者在山頂插了一面旗。」」。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-12"
     },
@@ -1373,11 +1277,9 @@ export default {
       "masked": "The officer was accused of ____.",
       "options": [
         "plant-mcq-13",
-        "plant-mcq-12",
-        "plant-mcq-14",
-        "plant-mcq-11",
-        "plant-mcq-15",
-        "plant-mcq-10"
+        "plant-mcq-05",
+        "plant-mcq-22",
+        "plant-mcq-24"
       ],
       "explanation": "本句的「planting evidence」指「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」。",
       "sentenceIndex": 24,
@@ -1386,12 +1288,10 @@ export default {
         "planting evidence"
       ],
       "optionReasons": {
-        "plant-mcq-13": "本句指「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。"
+        "plant-mcq-13": "本句的「planting evidence」指「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-13"
     },
@@ -1403,10 +1303,8 @@ export default {
       "masked": "Someone had ____ in the room.",
       "options": [
         "plant-mcq-13",
-        "plant-mcq-12",
-        "plant-mcq-14",
-        "plant-mcq-11",
-        "plant-mcq-15",
+        "plant-mcq-09",
+        "plant-mcq-24",
         "plant-mcq-10"
       ],
       "explanation": "本句的「planted the weapon」指「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」。",
@@ -1416,12 +1314,10 @@ export default {
         "planted the weapon"
       ],
       "optionReasons": {
-        "plant-mcq-13": "本句指「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-10": "「表示放置；牢牢置於；插在；例句：「他把雙腳牢牢站在地上。」」是「plant something somewhere = place or fix something firmly in a particular position 放置；牢牢置於；插在」的用法，與本句語境不同。"
+        "plant-mcq-13": "本句的「planted the weapon」指「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」。",
+        "plant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-13"
     },
@@ -1433,11 +1329,9 @@ export default {
       "masked": "They claimed the drugs had been ____.",
       "options": [
         "plant-mcq-14",
-        "plant-mcq-13",
-        "plant-mcq-15",
-        "plant-mcq-12",
-        "plant-mcq-16",
-        "plant-mcq-11"
+        "plant-mcq-07",
+        "plant-mcq-18",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「planted」指「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」。",
       "sentenceIndex": 26,
@@ -1446,12 +1340,10 @@ export default {
         "planted"
       ],
       "optionReasons": {
-        "plant-mcq-14": "本句指「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。"
+        "plant-mcq-14": "本句的「planted」指「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」。",
+        "plant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-14"
     },
@@ -1463,11 +1355,9 @@ export default {
       "masked": "The suspect said the weapon was ____.",
       "options": [
         "plant-mcq-14",
-        "plant-mcq-13",
-        "plant-mcq-15",
-        "plant-mcq-12",
-        "plant-mcq-16",
-        "plant-mcq-11"
+        "plant-mcq-25",
+        "plant-mcq-08",
+        "plant-mcq-15"
       ],
       "explanation": "本句的「planted in his car」指「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」。",
       "sentenceIndex": 27,
@@ -1476,12 +1366,10 @@ export default {
         "planted in his car"
       ],
       "optionReasons": {
-        "plant-mcq-14": "本句指「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-11": "「表示站穩；把腳穩穩踩住；例句：「把雙腳穩穩站開至與肩同寬。」」是「plant your feet = place your feet firmly and steadily 站穩；把腳穩穩踩住」的用法，與本句語境不同。"
+        "plant-mcq-14": "本句的「planted in his car」指「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」。",
+        "plant-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-14"
     },
@@ -1493,11 +1381,9 @@ export default {
       "masked": "The police ____ inside the organization.",
       "options": [
         "plant-mcq-15",
-        "plant-mcq-14",
-        "plant-mcq-16",
-        "plant-mcq-13",
-        "plant-mcq-17",
-        "plant-mcq-12"
+        "plant-mcq-18",
+        "plant-mcq-27",
+        "plant-mcq-08"
       ],
       "explanation": "本句的「planted an officer」指「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」。",
       "sentenceIndex": 28,
@@ -1506,12 +1392,10 @@ export default {
         "planted an officer"
       ],
       "optionReasons": {
-        "plant-mcq-15": "本句指「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。"
+        "plant-mcq-15": "本句的「planted an officer」指「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-15"
     },
@@ -1523,11 +1407,9 @@ export default {
       "masked": "They ____ to ask the first question.",
       "options": [
         "plant-mcq-15",
-        "plant-mcq-14",
-        "plant-mcq-16",
-        "plant-mcq-13",
-        "plant-mcq-17",
-        "plant-mcq-12"
+        "plant-mcq-24",
+        "plant-mcq-22",
+        "plant-mcq-21"
       ],
       "explanation": "本句的「planted someone in the audience」指「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」。",
       "sentenceIndex": 29,
@@ -1536,12 +1418,10 @@ export default {
         "planted someone in the audience"
       ],
       "optionReasons": {
-        "plant-mcq-15": "本句指「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-12": "「表示插旗；例句：「登山者在山頂插了一面旗。」」是「plant a flag = place a flag firmly in the ground, often to mark achievement, possession, or presence 插旗」的用法，與本句語境不同。"
+        "plant-mcq-15": "本句的「planted someone in the audience」指「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-15"
     },
@@ -1553,11 +1433,9 @@ export default {
       "masked": "Some people suspected that the enthusiastic audience member was ____.",
       "options": [
         "plant-mcq-16",
-        "plant-mcq-15",
-        "plant-mcq-17",
-        "plant-mcq-14",
-        "plant-mcq-18",
-        "plant-mcq-13"
+        "plant-mcq-25",
+        "plant-mcq-05",
+        "plant-mcq-08"
       ],
       "explanation": "本句的「a plant」指「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」。",
       "sentenceIndex": 30,
@@ -1566,12 +1444,10 @@ export default {
         "a plant"
       ],
       "optionReasons": {
-        "plant-mcq-16": "本句指「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。"
+        "plant-mcq-16": "本句的「a plant」指「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」。",
+        "plant-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-16"
     },
@@ -1583,11 +1459,9 @@ export default {
       "masked": "The investigator turned out to be ____.",
       "options": [
         "plant-mcq-16",
-        "plant-mcq-15",
-        "plant-mcq-17",
-        "plant-mcq-14",
-        "plant-mcq-18",
-        "plant-mcq-13"
+        "plant-mcq-24",
+        "plant-mcq-09",
+        "plant-mcq-01"
       ],
       "explanation": "本句的「a police plant」指「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」。",
       "sentenceIndex": 31,
@@ -1596,12 +1470,10 @@ export default {
         "a police plant"
       ],
       "optionReasons": {
-        "plant-mcq-16": "本句指「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-13": "「表示栽贓；植入假證據；例句：「那名警員被指控栽贓、放置假證據。」」是「plant evidence = secretly place evidence somewhere so that someone appears guilty 栽贓；植入假證據」的用法，與本句語境不同。"
+        "plant-mcq-16": "本句的「a police plant」指「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-16"
     },
@@ -1613,10 +1485,8 @@ export default {
       "masked": "The company opened a new manufacturing ____.",
       "options": [
         "plant-mcq-17",
-        "plant-mcq-16",
-        "plant-mcq-18",
-        "plant-mcq-15",
-        "plant-mcq-19",
+        "plant-mcq-29",
+        "plant-mcq-05",
         "plant-mcq-14"
       ],
       "explanation": "本句的「plant」指「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」。",
@@ -1626,12 +1496,10 @@ export default {
         "plant"
       ],
       "optionReasons": {
-        "plant-mcq-17": "本句指「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。"
+        "plant-mcq-17": "本句的「plant」指「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-17"
     },
@@ -1643,11 +1511,9 @@ export default {
       "masked": "The ____ employs more than a thousand workers.",
       "options": [
         "plant-mcq-17",
-        "plant-mcq-16",
-        "plant-mcq-18",
-        "plant-mcq-15",
-        "plant-mcq-19",
-        "plant-mcq-14"
+        "plant-mcq-01",
+        "plant-mcq-24",
+        "plant-mcq-16"
       ],
       "explanation": "本句的「plant」指「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」。",
       "sentenceIndex": 33,
@@ -1656,12 +1522,10 @@ export default {
         "plant"
       ],
       "optionReasons": {
-        "plant-mcq-17": "本句指「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-14": "「表示暗中放置；栽贓放置；例句：「他們聲稱那些毒品是被人栽贓放置的。」」是「plant drugs / a weapon / an object = secretly put something in a place, usually to deceive, frame, or manipulate 暗中放置；栽贓放置」的用法，與本句語境不同。"
+        "plant-mcq-17": "本句的「plant」指「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」。",
+        "plant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-17"
     },
@@ -1673,11 +1537,9 @@ export default {
       "masked": "The city gets electricity from a nearby ____.",
       "options": [
         "plant-mcq-18",
-        "plant-mcq-17",
-        "plant-mcq-19",
-        "plant-mcq-16",
-        "plant-mcq-20",
-        "plant-mcq-15"
+        "plant-mcq-02",
+        "plant-mcq-08",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「power plant」指「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」。",
       "sentenceIndex": 34,
@@ -1686,12 +1548,10 @@ export default {
         "power plant"
       ],
       "optionReasons": {
-        "plant-mcq-18": "本句指「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。"
+        "plant-mcq-18": "本句的「power plant」指「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」。",
+        "plant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-18"
     },
@@ -1703,11 +1563,9 @@ export default {
       "masked": "The old ____ was closed last year.",
       "options": [
         "plant-mcq-18",
-        "plant-mcq-17",
-        "plant-mcq-19",
-        "plant-mcq-16",
-        "plant-mcq-20",
-        "plant-mcq-15"
+        "plant-mcq-13",
+        "plant-mcq-09",
+        "plant-mcq-05"
       ],
       "explanation": "本句的「power plant」指「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」。",
       "sentenceIndex": 35,
@@ -1716,12 +1574,10 @@ export default {
         "power plant"
       ],
       "optionReasons": {
-        "plant-mcq-18": "本句指「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-15": "「表示安插；秘密安排；例句：「警方在該組織內安插了一名警員。」」是「plant someone somewhere = secretly place a person in a group, audience, organization, etc. for a hidden purpose 安插；秘密安排」的用法，與本句語境不同。"
+        "plant-mcq-18": "本句的「power plant」指「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」。",
+        "plant-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-18"
     },
@@ -1733,11 +1589,9 @@ export default {
       "masked": "The company built a new ____ overseas.",
       "options": [
         "plant-mcq-19",
-        "plant-mcq-18",
-        "plant-mcq-20",
-        "plant-mcq-17",
-        "plant-mcq-21",
-        "plant-mcq-16"
+        "plant-mcq-27",
+        "plant-mcq-15",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「manufacturing plant」指「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」。",
       "sentenceIndex": 36,
@@ -1746,12 +1600,10 @@ export default {
         "manufacturing plant"
       ],
       "optionReasons": {
-        "plant-mcq-19": "本句指「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。"
+        "plant-mcq-19": "本句的「manufacturing plant」指「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-19"
     },
@@ -1763,11 +1615,9 @@ export default {
       "masked": "Production resumed at the ____.",
       "options": [
         "plant-mcq-19",
-        "plant-mcq-18",
-        "plant-mcq-20",
-        "plant-mcq-17",
-        "plant-mcq-21",
-        "plant-mcq-16"
+        "plant-mcq-25",
+        "plant-mcq-14",
+        "plant-mcq-12"
       ],
       "explanation": "本句的「manufacturing plant」指「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」。",
       "sentenceIndex": 37,
@@ -1776,12 +1626,10 @@ export default {
         "manufacturing plant"
       ],
       "optionReasons": {
-        "plant-mcq-19": "本句指「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-16": "「表示安插的人；內應；托兒；例句：「有些人懷疑那名特別熱情的觀眾是事先安排的托兒。」」是「a plant — a secretly placed person = a person deliberately put somewhere to influence events or gather information 安插的人；內應；托兒」的用法，與本句語境不同。"
+        "plant-mcq-19": "本句的「manufacturing plant」指「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」。",
+        "plant-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-19"
     },
@@ -1793,11 +1641,9 @@ export default {
       "masked": "The fish are sent to a local ____.",
       "options": [
         "plant-mcq-20",
-        "plant-mcq-19",
-        "plant-mcq-21",
-        "plant-mcq-18",
-        "plant-mcq-22",
-        "plant-mcq-17"
+        "plant-mcq-11",
+        "plant-mcq-10",
+        "plant-mcq-29"
       ],
       "explanation": "本句的「processing plant」指「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」。",
       "sentenceIndex": 38,
@@ -1806,12 +1652,10 @@ export default {
         "processing plant"
       ],
       "optionReasons": {
-        "plant-mcq-20": "本句指「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。"
+        "plant-mcq-20": "本句的「processing plant」指「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-20"
     },
@@ -1823,11 +1667,9 @@ export default {
       "masked": "Waste is treated at a specialized ____.",
       "options": [
         "plant-mcq-20",
-        "plant-mcq-19",
-        "plant-mcq-21",
-        "plant-mcq-18",
+        "plant-mcq-04",
         "plant-mcq-22",
-        "plant-mcq-17"
+        "plant-mcq-15"
       ],
       "explanation": "本句的「processing plant」指「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」。",
       "sentenceIndex": 39,
@@ -1836,12 +1678,10 @@ export default {
         "processing plant"
       ],
       "optionReasons": {
-        "plant-mcq-20": "本句指「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-17": "「表示工廠；廠房；生產設施；例句：「公司開設了一座新的製造工廠。」」是「plant — factory or industrial facility = a large building or group of buildings where goods are manufactured or industrial processes take place 工廠；廠房；生產設施」的用法，與本句語境不同。"
+        "plant-mcq-20": "本句的「processing plant」指「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」。",
+        "plant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-20"
     },
@@ -1853,10 +1693,8 @@ export default {
       "masked": "Heavy ____ was brought onto the construction site.",
       "options": [
         "plant-mcq-21",
-        "plant-mcq-20",
-        "plant-mcq-22",
-        "plant-mcq-19",
-        "plant-mcq-23",
+        "plant-mcq-28",
+        "plant-mcq-10",
         "plant-mcq-18"
       ],
       "explanation": "本句的「plant」指「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」。",
@@ -1866,12 +1704,10 @@ export default {
         "plant"
       ],
       "optionReasons": {
-        "plant-mcq-21": "本句指「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。"
+        "plant-mcq-21": "本句的「plant」指「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」。",
+        "plant-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-21"
     },
@@ -1883,11 +1719,9 @@ export default {
       "masked": "The company hires out construction ____.",
       "options": [
         "plant-mcq-21",
-        "plant-mcq-20",
-        "plant-mcq-22",
-        "plant-mcq-19",
-        "plant-mcq-23",
-        "plant-mcq-18"
+        "plant-mcq-27",
+        "plant-mcq-14",
+        "plant-mcq-05"
       ],
       "explanation": "本句的「plant」指「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」。",
       "sentenceIndex": 41,
@@ -1896,12 +1730,10 @@ export default {
         "plant"
       ],
       "optionReasons": {
-        "plant-mcq-21": "本句指「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-18": "「表示發電廠；例句：「這座城市的電力來自附近的發電廠。」」是「power plant = a facility where electricity is generated 發電廠」的用法，與本句語境不同。"
+        "plant-mcq-21": "本句的「plant」指「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-21"
     },
@@ -1913,11 +1745,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "plant-mcq-22",
-        "plant-mcq-21",
-        "plant-mcq-23",
-        "plant-mcq-20",
-        "plant-mcq-24",
-        "plant-mcq-19"
+        "plant-mcq-19",
+        "plant-mcq-09",
+        "plant-mcq-28"
       ],
       "explanation": "本句的「planted a kiss on his cheek」指「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」。",
       "sentenceIndex": 42,
@@ -1926,12 +1756,10 @@ export default {
         "planted a kiss on his cheek"
       ],
       "optionReasons": {
-        "plant-mcq-22": "本句指「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。"
+        "plant-mcq-22": "本句的「planted a kiss on his cheek」指「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-22"
     },
@@ -1943,11 +1771,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "plant-mcq-22",
+        "plant-mcq-16",
         "plant-mcq-21",
-        "plant-mcq-23",
-        "plant-mcq-20",
-        "plant-mcq-24",
-        "plant-mcq-19"
+        "plant-mcq-27"
       ],
       "explanation": "本句的「planted a quick kiss on her forehead」指「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」。",
       "sentenceIndex": 43,
@@ -1956,12 +1782,10 @@ export default {
         "planted a quick kiss on her forehead"
       ],
       "optionReasons": {
-        "plant-mcq-22": "本句指「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-19": "「表示製造廠；生產工廠；例句：「公司在海外建立了一座新的製造廠。」」是「manufacturing plant = factory where products are manufactured 製造廠；生產工廠」的用法，與本句語境不同。"
+        "plant-mcq-22": "本句的「planted a quick kiss on her forehead」指「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」。",
+        "plant-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-22"
     },
@@ -1973,11 +1797,9 @@ export default {
       "masked": "He ____ on the opponent’s jaw.",
       "options": [
         "plant-mcq-23",
-        "plant-mcq-22",
-        "plant-mcq-24",
-        "plant-mcq-21",
-        "plant-mcq-25",
-        "plant-mcq-20"
+        "plant-mcq-15",
+        "plant-mcq-11",
+        "plant-mcq-08"
       ],
       "explanation": "本句的「planted a punch」指「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」。",
       "sentenceIndex": 44,
@@ -1986,12 +1808,10 @@ export default {
         "planted a punch"
       ],
       "optionReasons": {
-        "plant-mcq-23": "本句指「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。"
+        "plant-mcq-23": "本句的「planted a punch」指「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」。",
+        "plant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-23"
     },
@@ -2003,11 +1823,9 @@ export default {
       "masked": "The boxer ____ to the body.",
       "options": [
         "plant-mcq-23",
-        "plant-mcq-22",
-        "plant-mcq-24",
-        "plant-mcq-21",
-        "plant-mcq-25",
-        "plant-mcq-20"
+        "plant-mcq-18",
+        "plant-mcq-08",
+        "plant-mcq-13"
       ],
       "explanation": "本句的「planted a solid blow」指「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」。",
       "sentenceIndex": 45,
@@ -2016,12 +1834,10 @@ export default {
         "planted a solid blow"
       ],
       "optionReasons": {
-        "plant-mcq-23": "本句指「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-20": "「表示加工廠；處理廠；例句：「魚會被送到當地的加工廠。」」是「processing plant = industrial facility where raw materials are treated or processed 加工廠；處理廠」的用法，與本句語境不同。"
+        "plant-mcq-23": "本句的「planted a solid blow」指「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-23"
     },
@@ -2033,11 +1849,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "plant-mcq-24",
-        "plant-mcq-23",
-        "plant-mcq-25",
-        "plant-mcq-22",
-        "plant-mcq-26",
-        "plant-mcq-21"
+        "plant-mcq-12",
+        "plant-mcq-19",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「planted herself in front of the door」指「站定；坐定；把自己固定在某處」。",
       "sentenceIndex": 46,
@@ -2046,12 +1860,10 @@ export default {
         "planted herself in front of the door"
       ],
       "optionReasons": {
-        "plant-mcq-24": "本句指「站定；坐定；把自己固定在某處」。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。"
+        "plant-mcq-24": "本句的「planted herself in front of the door」指「站定；坐定；把自己固定在某處」。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-24"
     },
@@ -2063,10 +1875,8 @@ export default {
       "masked": "He ____ and refused to move.",
       "options": [
         "plant-mcq-24",
-        "plant-mcq-23",
-        "plant-mcq-25",
-        "plant-mcq-22",
         "plant-mcq-26",
+        "plant-mcq-22",
         "plant-mcq-21"
       ],
       "explanation": "本句的「planted himself on the sofa」指「站定；坐定；把自己固定在某處」。",
@@ -2076,12 +1886,10 @@ export default {
         "planted himself on the sofa"
       ],
       "optionReasons": {
-        "plant-mcq-24": "本句指「站定；坐定；把自己固定在某處」。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-21": "「表示大型機械設備；工程設備；例句：「工地運進了大型工程機械設備。」」是「plant — heavy machinery or equipment used for industrial or construction work Especially in British English: = large machines and equipment used in industry or construction 大型機械設備；工程設備」的用法，與本句語境不同。"
+        "plant-mcq-24": "本句的「planted himself on the sofa」指「站定；坐定；把自己固定在某處」。",
+        "plant-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-24"
     },
@@ -2093,11 +1901,9 @@ export default {
       "masked": "They visited a tea ____.",
       "options": [
         "plant-mcq-25",
-        "plant-mcq-24",
-        "plant-mcq-26",
-        "plant-mcq-23",
-        "plant-mcq-27",
-        "plant-mcq-22"
+        "plant-mcq-18",
+        "plant-mcq-10",
+        "plant-mcq-28"
       ],
       "explanation": "本句的「plantation」指「表示種植園；例句：「他們參觀了一座茶葉種植園。」」。",
       "sentenceIndex": 48,
@@ -2106,12 +1912,10 @@ export default {
         "plantation"
       ],
       "optionReasons": {
-        "plant-mcq-25": "本句指「表示種植園；例句：「他們參觀了一座茶葉種植園。」」。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。"
+        "plant-mcq-25": "本句的「plantation」指「表示種植園；例句：「他們參觀了一座茶葉種植園。」」。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-25"
     },
@@ -2123,11 +1927,9 @@ export default {
       "masked": "Coffee ____ cover much of the hillside.",
       "options": [
         "plant-mcq-25",
-        "plant-mcq-24",
-        "plant-mcq-26",
-        "plant-mcq-23",
-        "plant-mcq-27",
-        "plant-mcq-22"
+        "plant-mcq-08",
+        "plant-mcq-07",
+        "plant-mcq-20"
       ],
       "explanation": "本句的「plantations」指「表示種植園；例句：「他們參觀了一座茶葉種植園。」」。",
       "sentenceIndex": 49,
@@ -2136,12 +1938,10 @@ export default {
         "plantations"
       ],
       "optionReasons": {
-        "plant-mcq-25": "本句指「表示種植園；例句：「他們參觀了一座茶葉種植園。」」。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-22": "「表示在某人……上親一下；例句：「她在他的臉頰上親了一下。」」是「plant a kiss on someone = give someone a deliberate, often firm kiss 在某人……上親一下」的用法，與本句語境不同。"
+        "plant-mcq-25": "本句的「plantations」指「表示種植園；例句：「他們參觀了一座茶葉種植園。」」。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-25"
     },
@@ -2153,11 +1953,9 @@ export default {
       "masked": "We need to ____ somewhere sunnier.",
       "options": [
         "plant-mcq-26",
-        "plant-mcq-25",
-        "plant-mcq-27",
-        "plant-mcq-24",
-        "plant-mcq-28",
-        "plant-mcq-23"
+        "plant-mcq-12",
+        "plant-mcq-08",
+        "plant-mcq-18"
       ],
       "explanation": "本句的「replant the flowers」指「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」。",
       "sentenceIndex": 50,
@@ -2166,12 +1964,10 @@ export default {
         "replant the flowers"
       ],
       "optionReasons": {
-        "plant-mcq-26": "本句指「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-28": "「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」是「plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。"
+        "plant-mcq-26": "本句的「replant the flowers」指「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-26"
     },
@@ -2183,11 +1979,9 @@ export default {
       "masked": "The trees were removed and later ____.",
       "options": [
         "plant-mcq-26",
-        "plant-mcq-25",
-        "plant-mcq-27",
-        "plant-mcq-24",
-        "plant-mcq-28",
-        "plant-mcq-23"
+        "plant-mcq-22",
+        "plant-mcq-15",
+        "plant-mcq-11"
       ],
       "explanation": "本句的「replanted」指「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」。",
       "sentenceIndex": 51,
@@ -2196,12 +1990,10 @@ export default {
         "replanted"
       ],
       "optionReasons": {
-        "plant-mcq-26": "本句指「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。",
-        "plant-mcq-28": "「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」是「plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆」的用法，與本句語境不同。",
-        "plant-mcq-23": "「表示重重打一拳；給予一擊；例句：「他在對手下巴上重重打了一拳。」」是「plant a punch / blow = deliver a punch or blow firmly 重重打一拳；給予一擊」的用法，與本句語境不同。"
+        "plant-mcq-26": "本句的「replanted」指「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-26"
     },
@@ -2213,11 +2005,9 @@ export default {
       "masked": "The seedlings were ____ into larger pots.",
       "options": [
         "plant-mcq-27",
-        "plant-mcq-26",
-        "plant-mcq-28",
-        "plant-mcq-25",
-        "plant-mcq-29",
-        "plant-mcq-24"
+        "plant-mcq-17",
+        "plant-mcq-22",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「transplanted」指「表示移植；例句：「幼苗被移植到較大的花盆中。」」。",
       "sentenceIndex": 52,
@@ -2226,12 +2016,10 @@ export default {
         "transplanted"
       ],
       "optionReasons": {
-        "plant-mcq-27": "本句指「表示移植；例句：「幼苗被移植到較大的花盆中。」」。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-28": "「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」是「plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-29": "「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」是「plant something firmly in someone’s mind = make an idea or memory strongly established in someone’s thinking 把……深深植入某人的腦海」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。"
+        "plant-mcq-27": "本句的「transplanted」指「表示移植；例句：「幼苗被移植到較大的花盆中。」」。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-27"
     },
@@ -2243,11 +2031,9 @@ export default {
       "masked": "He later required a kidney ____.",
       "options": [
         "plant-mcq-27",
-        "plant-mcq-26",
-        "plant-mcq-28",
-        "plant-mcq-25",
-        "plant-mcq-29",
-        "plant-mcq-24"
+        "plant-mcq-24",
+        "plant-mcq-23",
+        "plant-mcq-19"
       ],
       "explanation": "本句的「transplant」指「表示移植；例句：「幼苗被移植到較大的花盆中。」」。",
       "sentenceIndex": 53,
@@ -2256,12 +2042,10 @@ export default {
         "transplant"
       ],
       "optionReasons": {
-        "plant-mcq-27": "本句指「表示移植；例句：「幼苗被移植到較大的花盆中。」」。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-28": "「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」是「plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-29": "「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」是「plant something firmly in someone’s mind = make an idea or memory strongly established in someone’s thinking 把……深深植入某人的腦海」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。"
+        "plant-mcq-27": "本句的「transplant」指「表示移植；例句：「幼苗被移植到較大的花盆中。」」。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-27"
     },
@@ -2273,11 +2057,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "plant-mcq-28",
-        "plant-mcq-27",
-        "plant-mcq-29",
         "plant-mcq-26",
-        "plant-mcq-25",
-        "plant-mcq-24"
+        "plant-mcq-11",
+        "plant-mcq-19"
       ],
       "explanation": "本句的「planted the seeds of change」指「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」。",
       "sentenceIndex": 54,
@@ -2286,12 +2068,10 @@ export default {
         "planted the seeds of change"
       ],
       "optionReasons": {
-        "plant-mcq-28": "本句指「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-29": "「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」是「plant something firmly in someone’s mind = make an idea or memory strongly established in someone’s thinking 把……深深植入某人的腦海」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。"
+        "plant-mcq-28": "本句的「planted the seeds of change」指「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」。",
+        "plant-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-28"
     },
@@ -2303,10 +2083,8 @@ export default {
       "masked": "Their early conversations ____.",
       "options": [
         "plant-mcq-28",
-        "plant-mcq-27",
         "plant-mcq-29",
-        "plant-mcq-26",
-        "plant-mcq-25",
+        "plant-mcq-17",
         "plant-mcq-24"
       ],
       "explanation": "本句的「planted the seeds of friendship」指「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」。",
@@ -2316,12 +2094,10 @@ export default {
         "planted the seeds of friendship"
       ],
       "optionReasons": {
-        "plant-mcq-28": "本句指「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-29": "「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」是「plant something firmly in someone’s mind = make an idea or memory strongly established in someone’s thinking 把……深深植入某人的腦海」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。"
+        "plant-mcq-28": "本句的「planted the seeds of friendship」指「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」。",
+        "plant-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-28"
     },
@@ -2333,11 +2109,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "plant-mcq-29",
-        "plant-mcq-28",
-        "plant-mcq-27",
-        "plant-mcq-26",
-        "plant-mcq-25",
-        "plant-mcq-24"
+        "plant-mcq-14",
+        "plant-mcq-17",
+        "plant-mcq-23"
       ],
       "explanation": "本句的「planted the idea firmly in my mind」指「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」。",
       "sentenceIndex": 56,
@@ -2346,12 +2120,10 @@ export default {
         "planted the idea firmly in my mind"
       ],
       "optionReasons": {
-        "plant-mcq-29": "本句指「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」。",
-        "plant-mcq-28": "「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」是「plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆」的用法，與本句語境不同。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。"
+        "plant-mcq-29": "本句的「planted the idea firmly in my mind」指「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」。",
+        "plant-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-29"
     },
@@ -2363,11 +2135,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "plant-mcq-29",
-        "plant-mcq-28",
-        "plant-mcq-27",
-        "plant-mcq-26",
-        "plant-mcq-25",
-        "plant-mcq-24"
+        "plant-mcq-12",
+        "plant-mcq-19",
+        "plant-mcq-07"
       ],
       "explanation": "本句的「planted a lasting image in her mind」指「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」。",
       "sentenceIndex": 57,
@@ -2376,12 +2146,10 @@ export default {
         "planted a lasting image in her mind"
       ],
       "optionReasons": {
-        "plant-mcq-29": "本句指「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」。",
-        "plant-mcq-28": "「表示播下……的種子；為……埋下伏筆；例句：「那次經歷播下了改變的種子。」」是「plant the seeds of something = create the beginning of a future development 播下……的種子；為……埋下伏筆」的用法，與本句語境不同。",
-        "plant-mcq-27": "「表示移植；例句：「幼苗被移植到較大的花盆中。」」是「transplant」的用法，與本句語境不同。",
-        "plant-mcq-26": "「表示重新種植；移植；例句：「我們需要把花重新種到陽光更充足的地方。」」是「replant = plant again or move a plant and plant it elsewhere 重新種植；移植」的用法，與本句語境不同。",
-        "plant-mcq-25": "「表示種植園；例句：「他們參觀了一座茶葉種植園。」」是「plantation = a large estate or area where crops such as tea, coffee, rubber, or sugar are grown commercially 種植園」的用法，與本句語境不同。",
-        "plant-mcq-24": "「站定；坐定；把自己固定在某處」是「plant yourself somewhere = sit, stand, or position yourself firmly in one place 站定；坐定；把自己固定在某處」的用法，與本句語境不同。"
+        "plant-mcq-29": "本句的「planted a lasting image in her mind」指「表示把……深深植入某人的腦海；例句：「老師把這個想法深深植入我的腦海。」」。",
+        "plant-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plant-mcq-29"
     }
@@ -2393,5 +2161,7 @@ export default {
     "sha256": "8b9fccef875935d56f7f1460c8a5b5ddf62151cb6894b3660ff491cf5e103f4c",
     "pages": 17
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

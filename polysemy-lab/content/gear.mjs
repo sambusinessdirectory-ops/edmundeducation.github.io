@@ -178,7 +178,7 @@ export default {
     },
     {
       "id": "gear-mcq-09",
-      "title": "表示齒輪配置為……的",
+      "title": "齒輪配置為……的",
       "form": "geared = mechanically configured（機械） — 齒輪配置為……的",
       "en": "geared = mechanically configured（機械） — 齒輪配置為……的",
       "zh": "表示齒輪配置為……的",
@@ -195,7 +195,7 @@ export default {
     },
     {
       "id": "gear-mcq-10",
-      "title": "表示為……而設",
+      "title": "為……而設",
       "form": "geared to/toward = designed for（針對） — 為……而設",
       "en": "geared to/toward = designed for（針對） — 為……而設",
       "zh": "表示為……而設",
@@ -212,7 +212,7 @@ export default {
     },
     {
       "id": "gear-mcq-11",
-      "title": "表示換檔",
+      "title": "換檔",
       "form": "Useful expression: change gear / change gears — 換檔",
       "en": "Useful expression: change gear / change gears — 換檔",
       "zh": "表示換檔",
@@ -234,7 +234,7 @@ export default {
     },
     {
       "id": "gear-mcq-12",
-      "title": "表示入檔／未入檔",
+      "title": "入檔／未入檔",
       "form": "Useful expression: in gear / out of gear — 入檔／未入檔",
       "en": "Useful expression: in gear / out of gear — 入檔／未入檔",
       "zh": "表示入檔／未入檔",
@@ -286,11 +286,9 @@ export default {
       "masked": "He showed me how to clean the ____.",
       "options": [
         "gear-mcq-01",
-        "gear-mcq-02",
-        "gear-mcq-03",
-        "gear-mcq-04",
-        "gear-mcq-05",
-        "gear-mcq-06"
+        "gear-mcq-12",
+        "gear-mcq-10",
+        "gear-mcq-04"
       ],
       "explanation": "本句的「gears」指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
       "sentenceIndex": 0,
@@ -299,12 +297,10 @@ export default {
         "gears"
       ],
       "optionReasons": {
-        "gear-mcq-01": "本句指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-01": "本句的「gears」指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-01"
     },
@@ -316,11 +312,9 @@ export default {
       "masked": "One of the ____ inside the machine was damaged.",
       "options": [
         "gear-mcq-01",
-        "gear-mcq-02",
-        "gear-mcq-03",
-        "gear-mcq-04",
-        "gear-mcq-05",
-        "gear-mcq-06"
+        "gear-mcq-12",
+        "gear-mcq-10",
+        "gear-mcq-04"
       ],
       "explanation": "本句的「gears」指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
       "sentenceIndex": 1,
@@ -329,12 +323,10 @@ export default {
         "gears"
       ],
       "optionReasons": {
-        "gear-mcq-01": "本句指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-01": "本句的「gears」指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-01"
     },
@@ -346,11 +338,9 @@ export default {
       "masked": "The bicycle has several ____ for different slopes.",
       "options": [
         "gear-mcq-01",
-        "gear-mcq-02",
-        "gear-mcq-03",
-        "gear-mcq-04",
-        "gear-mcq-05",
-        "gear-mcq-06"
+        "gear-mcq-10",
+        "gear-mcq-12",
+        "gear-mcq-04"
       ],
       "explanation": "本句的「gears」指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
       "sentenceIndex": 2,
@@ -359,12 +349,10 @@ export default {
         "gears"
       ],
       "optionReasons": {
-        "gear-mcq-01": "本句指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-01": "本句的「gears」指「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-01"
     },
@@ -376,10 +364,8 @@ export default {
       "masked": "Change into a lower ____ before climbing the hill.",
       "options": [
         "gear-mcq-02",
-        "gear-mcq-01",
-        "gear-mcq-03",
         "gear-mcq-04",
-        "gear-mcq-05",
+        "gear-mcq-09",
         "gear-mcq-06"
       ],
       "explanation": "本句的「gear」指「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」。",
@@ -389,12 +375,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-02": "本句指「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-02": "本句的「gear」指「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-02"
     },
@@ -406,10 +390,8 @@ export default {
       "masked": "The car was still in first ____.",
       "options": [
         "gear-mcq-02",
-        "gear-mcq-01",
-        "gear-mcq-03",
         "gear-mcq-04",
-        "gear-mcq-05",
+        "gear-mcq-09",
         "gear-mcq-06"
       ],
       "explanation": "本句的「gear」指「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」。",
@@ -419,12 +401,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-02": "本句指「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-02": "本句的「gear」指「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-02"
     },
@@ -436,10 +416,8 @@ export default {
       "masked": "We packed all our camping ____.",
       "options": [
         "gear-mcq-03",
-        "gear-mcq-02",
-        "gear-mcq-04",
-        "gear-mcq-01",
-        "gear-mcq-05",
+        "gear-mcq-10",
+        "gear-mcq-11",
         "gear-mcq-06"
       ],
       "explanation": "本句的「gear」指「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」。",
@@ -449,12 +427,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-03": "本句指「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-03": "本句的「gear」指「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-03"
     },
@@ -466,11 +442,9 @@ export default {
       "masked": "You need proper safety ____ for this job.",
       "options": [
         "gear-mcq-03",
-        "gear-mcq-02",
-        "gear-mcq-04",
-        "gear-mcq-01",
-        "gear-mcq-05",
-        "gear-mcq-06"
+        "gear-mcq-11",
+        "gear-mcq-10",
+        "gear-mcq-05"
       ],
       "explanation": "本句的「gear」指「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」。",
       "sentenceIndex": 6,
@@ -479,12 +453,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-03": "本句指「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-03": "本句的「gear」指「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」。",
+        "gear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-03"
     },
@@ -496,11 +468,9 @@ export default {
       "masked": "He arrived wearing cycling ____.",
       "options": [
         "gear-pdf-001",
-        "gear-mcq-03",
         "gear-mcq-05",
-        "gear-mcq-02",
         "gear-mcq-06",
-        "gear-mcq-01"
+        "gear-mcq-09"
       ],
       "explanation": "本句的「gear」指「為某種活動而穿着的服裝或相關裝備」。",
       "sentenceIndex": 7,
@@ -509,12 +479,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-pdf-001": "本句指「為某種活動而穿着的服裝或相關裝備」。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。"
+        "gear-pdf-001": "本句的「gear」指「為某種活動而穿着的服裝或相關裝備」。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-pdf-001"
     },
@@ -526,11 +494,9 @@ export default {
       "masked": "She changed into her running ____.",
       "options": [
         "gear-pdf-001",
-        "gear-mcq-03",
+        "gear-mcq-12",
         "gear-mcq-05",
-        "gear-mcq-02",
-        "gear-mcq-06",
-        "gear-mcq-01"
+        "gear-mcq-10"
       ],
       "explanation": "本句的「gear」指「為某種活動而穿着的服裝或相關裝備」。",
       "sentenceIndex": 8,
@@ -539,12 +505,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-pdf-001": "本句指「為某種活動而穿着的服裝或相關裝備」。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。"
+        "gear-pdf-001": "本句的「gear」指「為某種活動而穿着的服裝或相關裝備」。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-pdf-001"
     },
@@ -556,11 +520,9 @@ export default {
       "masked": "Grab your ____ and let’s go.",
       "options": [
         "gear-mcq-04",
-        "gear-mcq-03",
-        "gear-mcq-05",
-        "gear-mcq-02",
-        "gear-mcq-06",
-        "gear-mcq-01"
+        "gear-mcq-10",
+        "gear-mcq-08",
+        "gear-mcq-12"
       ],
       "explanation": "本句的「gear」指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
       "sentenceIndex": 9,
@@ -569,12 +531,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-04": "本句指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。"
+        "gear-mcq-04": "本句的「gear」指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-04"
     },
@@ -586,11 +546,9 @@ export default {
       "masked": "He left his ____ by the door.",
       "options": [
         "gear-mcq-04",
-        "gear-mcq-03",
-        "gear-mcq-05",
-        "gear-mcq-02",
-        "gear-mcq-06",
-        "gear-mcq-01"
+        "gear-mcq-12",
+        "gear-mcq-07",
+        "gear-mcq-06"
       ],
       "explanation": "本句的「gear」指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
       "sentenceIndex": 10,
@@ -599,12 +557,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-04": "本句指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-01": "「利用齒牙互相咬合、傳遞動力或改變速度／力量關係的齒輪或傳動系統」是「gear — mechanical wheel/system」的用法，與本句語境不同。"
+        "gear-mcq-04": "本句的「gear」指「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-04"
     },
@@ -616,11 +572,9 @@ export default {
       "masked": "In some slang contexts, ____ can refer to illegal drugs.",
       "options": [
         "gear-mcq-05",
-        "gear-mcq-04",
-        "gear-mcq-06",
-        "gear-mcq-03",
+        "gear-mcq-12",
         "gear-mcq-07",
-        "gear-mcq-02"
+        "gear-mcq-03"
       ],
       "explanation": "本句的「gear」指「某些英式俚語中指非法毒品；低優先度」。",
       "sentenceIndex": 11,
@@ -629,12 +583,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-05": "本句指「某些英式俚語中指非法毒品；低優先度」。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。",
-        "gear-mcq-02": "「車輛或單車傳動系統中的某一個速度／扭力設定；檔位」是「gear — transmission setting」的用法，與本句語境不同。"
+        "gear-mcq-05": "本句的「gear」指「某些英式俚語中指非法毒品；低優先度」。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-05"
     },
@@ -646,10 +598,8 @@ export default {
       "masked": "The course is ____ toward beginners.",
       "options": [
         "gear-mcq-06",
+        "gear-mcq-12",
         "gear-mcq-05",
-        "gear-mcq-07",
-        "gear-mcq-04",
-        "gear-mcq-08",
         "gear-mcq-03"
       ],
       "explanation": "本句的「geared」指「使某事物配合特定目的、需要或對象」。",
@@ -659,12 +609,10 @@ export default {
         "geared"
       ],
       "optionReasons": {
-        "gear-mcq-06": "本句指「使某事物配合特定目的、需要或對象」。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。"
+        "gear-mcq-06": "本句的「geared」指「使某事物配合特定目的、需要或對象」。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-06"
     },
@@ -676,11 +624,9 @@ export default {
       "masked": "The programme is ____ to young children.",
       "options": [
         "gear-mcq-06",
-        "gear-mcq-05",
-        "gear-mcq-07",
-        "gear-mcq-04",
-        "gear-mcq-08",
-        "gear-mcq-03"
+        "gear-mcq-10",
+        "gear-mcq-03",
+        "gear-mcq-11"
       ],
       "explanation": "本句的「geared」指「使某事物配合特定目的、需要或對象」。",
       "sentenceIndex": 13,
@@ -689,12 +635,10 @@ export default {
         "geared"
       ],
       "optionReasons": {
-        "gear-mcq-06": "本句指「使某事物配合特定目的、需要或對象」。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-03": "「為某項活動、工作或用途而使用的一整套裝備、工具或服裝」是「gear — equipment」的用法，與本句語境不同。"
+        "gear-mcq-06": "本句的「geared」指「使某事物配合特定目的、需要或對象」。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-06"
     },
@@ -706,11 +650,9 @@ export default {
       "masked": "The machine is ____ for slower operation.",
       "options": [
         "gear-mcq-08",
-        "gear-mcq-07",
-        "gear-mcq-09",
-        "gear-mcq-06",
+        "gear-mcq-11",
         "gear-mcq-10",
-        "gear-mcq-05"
+        "gear-mcq-04"
       ],
       "explanation": "本句的「geared」指「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」。",
       "sentenceIndex": 14,
@@ -719,12 +661,10 @@ export default {
         "geared"
       ],
       "optionReasons": {
-        "gear-mcq-08": "本句指「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。"
+        "gear-mcq-08": "本句的「geared」指「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」。",
+        "gear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-08"
     },
@@ -736,11 +676,9 @@ export default {
       "masked": "The bicycle is ____ for climbing.",
       "options": [
         "gear-mcq-08",
-        "gear-mcq-07",
-        "gear-mcq-09",
-        "gear-mcq-06",
+        "gear-mcq-04",
         "gear-mcq-10",
-        "gear-mcq-05"
+        "gear-mcq-12"
       ],
       "explanation": "本句的「geared」指「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」。",
       "sentenceIndex": 15,
@@ -749,12 +687,10 @@ export default {
         "geared"
       ],
       "optionReasons": {
-        "gear-mcq-08": "本句指「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。"
+        "gear-mcq-08": "本句的「geared」指「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-08"
     },
@@ -766,11 +702,9 @@ export default {
       "masked": "The bike is ____ for steep hills.",
       "options": [
         "gear-mcq-09",
-        "gear-mcq-08",
+        "gear-mcq-04",
         "gear-mcq-10",
-        "gear-mcq-07",
-        "gear-mcq-11",
-        "gear-mcq-06"
+        "gear-mcq-12"
       ],
       "explanation": "本句的「geared」指「表示齒輪配置為……的」。",
       "sentenceIndex": 16,
@@ -779,12 +713,10 @@ export default {
         "geared"
       ],
       "optionReasons": {
-        "gear-mcq-09": "本句指「表示齒輪配置為……的」。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。",
-        "gear-mcq-11": "「表示換檔」是「Useful expression: change gear / change gears — 換檔」的用法，與本句語境不同。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。"
+        "gear-mcq-09": "本句的「geared」指「表示齒輪配置為……的」。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-09"
     },
@@ -796,11 +728,9 @@ export default {
       "masked": "The book is ____ younger readers.",
       "options": [
         "gear-mcq-10",
-        "gear-mcq-09",
-        "gear-mcq-11",
-        "gear-mcq-08",
-        "gear-mcq-12",
-        "gear-mcq-07"
+        "gear-mcq-01",
+        "gear-pdf-001",
+        "gear-mcq-11"
       ],
       "explanation": "本句的「geared toward」指「表示為……而設」。",
       "sentenceIndex": 17,
@@ -809,12 +739,10 @@ export default {
         "geared toward"
       ],
       "optionReasons": {
-        "gear-mcq-10": "本句指「表示為……而設」。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-11": "「表示換檔」是「Useful expression: change gear / change gears — 換檔」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-12": "「表示入檔／未入檔」是「Useful expression: in gear / out of gear — 入檔／未入檔」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。"
+        "gear-mcq-10": "本句的「geared toward」指「表示為……而設」。",
+        "gear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "gear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-10"
     },
@@ -826,11 +754,9 @@ export default {
       "masked": "The bicycle’s ____ makes hill climbing easier.",
       "options": [
         "gear-mcq-07",
-        "gear-mcq-06",
-        "gear-mcq-08",
-        "gear-mcq-05",
-        "gear-mcq-09",
-        "gear-mcq-04"
+        "gear-mcq-04",
+        "gear-mcq-12",
+        "gear-mcq-10"
       ],
       "explanation": "本句的「gearing」指「齒輪排列或傳動配置」。",
       "sentenceIndex": 18,
@@ -839,12 +765,10 @@ export default {
         "gearing"
       ],
       "optionReasons": {
-        "gear-mcq-07": "本句指「齒輪排列或傳動配置」。",
-        "gear-mcq-06": "「使某事物配合特定目的、需要或對象」是「gear — verb, configure for purpose」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-05": "「某些英式俚語中指非法毒品；低優先度」是「gear — slang drugs」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-04": "「某人使用或攜帶的一堆物品／裝備；與 equipment 義相關」是「gear — belongings」的用法，與本句語境不同。"
+        "gear-mcq-07": "本句的「gearing」指「齒輪排列或傳動配置」。",
+        "gear-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-07"
     },
@@ -856,11 +780,9 @@ export default {
       "masked": "Change ____ before the hill.",
       "options": [
         "gear-mcq-11",
-        "gear-mcq-10",
-        "gear-mcq-12",
-        "gear-mcq-09",
         "gear-mcq-08",
-        "gear-mcq-07"
+        "gear-mcq-05",
+        "gear-mcq-06"
       ],
       "explanation": "本句的「gear」指「表示換檔」。",
       "sentenceIndex": 19,
@@ -869,12 +791,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-11": "本句指「表示換檔」。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-12": "「表示入檔／未入檔」是「Useful expression: in gear / out of gear — 入檔／未入檔」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。"
+        "gear-mcq-11": "本句的「gear」指「表示換檔」。",
+        "gear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-11"
     },
@@ -886,11 +806,9 @@ export default {
       "masked": "The driver changed ____ smoothly.",
       "options": [
         "gear-mcq-11",
-        "gear-mcq-10",
-        "gear-mcq-12",
-        "gear-mcq-09",
         "gear-mcq-08",
-        "gear-mcq-07"
+        "gear-pdf-001",
+        "gear-mcq-05"
       ],
       "explanation": "本句的「gears」指「表示換檔」。",
       "sentenceIndex": 20,
@@ -899,12 +817,10 @@ export default {
         "gears"
       ],
       "optionReasons": {
-        "gear-mcq-11": "本句指「表示換檔」。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-12": "「表示入檔／未入檔」是「Useful expression: in gear / out of gear — 入檔／未入檔」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。"
+        "gear-mcq-11": "本句的「gears」指「表示換檔」。",
+        "gear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "gear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-11"
     },
@@ -916,11 +832,9 @@ export default {
       "masked": "Make sure the car is in ____.",
       "options": [
         "gear-mcq-12",
-        "gear-mcq-11",
-        "gear-mcq-10",
-        "gear-mcq-09",
-        "gear-mcq-08",
-        "gear-mcq-07"
+        "gear-mcq-05",
+        "gear-pdf-001",
+        "gear-mcq-01"
       ],
       "explanation": "本句的「gear」指「表示入檔／未入檔」。",
       "sentenceIndex": 21,
@@ -929,12 +843,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-12": "本句指「表示入檔／未入檔」。",
-        "gear-mcq-11": "「表示換檔」是「Useful expression: change gear / change gears — 換檔」的用法，與本句語境不同。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。"
+        "gear-mcq-12": "本句的「gear」指「表示入檔／未入檔」。",
+        "gear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "gear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-12"
     },
@@ -946,11 +858,9 @@ export default {
       "masked": "The machine slipped out of ____.",
       "options": [
         "gear-mcq-12",
-        "gear-mcq-11",
-        "gear-mcq-10",
-        "gear-mcq-09",
-        "gear-mcq-08",
-        "gear-mcq-07"
+        "gear-pdf-001",
+        "gear-mcq-06",
+        "gear-mcq-01"
       ],
       "explanation": "本句的「gear」指「表示入檔／未入檔」。",
       "sentenceIndex": 22,
@@ -959,12 +869,10 @@ export default {
         "gear"
       ],
       "optionReasons": {
-        "gear-mcq-12": "本句指「表示入檔／未入檔」。",
-        "gear-mcq-11": "「表示換檔」是「Useful expression: change gear / change gears — 換檔」的用法，與本句語境不同。",
-        "gear-mcq-10": "「表示為……而設」是「geared to/toward = designed for（針對） — 為……而設」的用法，與本句語境不同。",
-        "gear-mcq-09": "「表示齒輪配置為……的」是「geared = mechanically configured（機械） — 齒輪配置為……的」的用法，與本句語境不同。",
-        "gear-mcq-08": "「透過齒輪／傳動配置，使機械以某種速度、力量或用途運作」是「8. gear = engage/change gears（機械動詞） — 入檔；換檔」的用法，與本句語境不同。",
-        "gear-mcq-07": "「齒輪排列或傳動配置」是「gearing」的用法，與本句語境不同。"
+        "gear-mcq-12": "本句的「gear」指「表示入檔／未入檔」。",
+        "gear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "gear-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "gear-mcq-12"
     }
@@ -976,5 +884,7 @@ export default {
     "sha256": "528be8ce8aaffe737a2b2d10745117483be17be3be778d4140ad655b0b5ff57a",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

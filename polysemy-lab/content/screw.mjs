@@ -147,11 +147,7 @@ export default {
       "masked": "Some of the ____ would not budge.",
       "options": [
         "screw-mcq-01",
-        "screw-mcq-02",
-        "screw-mcq-03",
-        "screw-mcq-04",
-        "screw-mcq-05",
-        "screw-mcq-06"
+        "screw-mcq-04"
       ],
       "explanation": "本句的「screws」指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
       "sentenceIndex": 0,
@@ -160,12 +156,8 @@ export default {
         "screws"
       ],
       "optionReasons": {
-        "screw-mcq-01": "本句指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-01": "本句的「screws」指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
+        "screw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-01"
     },
@@ -177,11 +169,7 @@ export default {
       "masked": "One of the ____ in the chair had come loose.",
       "options": [
         "screw-mcq-01",
-        "screw-mcq-02",
-        "screw-mcq-03",
-        "screw-mcq-04",
-        "screw-mcq-05",
-        "screw-mcq-06"
+        "screw-mcq-04"
       ],
       "explanation": "本句的「screws」指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
       "sentenceIndex": 1,
@@ -190,12 +178,8 @@ export default {
         "screws"
       ],
       "optionReasons": {
-        "screw-mcq-01": "本句指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-01": "本句的「screws」指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
+        "screw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-01"
     },
@@ -207,10 +191,6 @@ export default {
       "masked": "Remove the four ____ from the back panel.",
       "options": [
         "screw-mcq-01",
-        "screw-mcq-02",
-        "screw-mcq-03",
-        "screw-mcq-04",
-        "screw-mcq-05",
         "screw-mcq-06"
       ],
       "explanation": "本句的「screws」指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
@@ -220,12 +200,8 @@ export default {
         "screws"
       ],
       "optionReasons": {
-        "screw-mcq-01": "本句指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-01": "本句的「screws」指「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」。",
+        "screw-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-01"
     },
@@ -237,11 +213,7 @@ export default {
       "masked": "She ____ the shelf to the wall.",
       "options": [
         "screw-mcq-02",
-        "screw-mcq-01",
-        "screw-mcq-03",
-        "screw-mcq-04",
-        "screw-mcq-05",
-        "screw-mcq-06"
+        "screw-mcq-04"
       ],
       "explanation": "本句的「screwed」指「透過旋轉螺紋，把某物擰入、旋緊或固定」。",
       "sentenceIndex": 3,
@@ -250,12 +222,8 @@ export default {
         "screwed"
       ],
       "optionReasons": {
-        "screw-mcq-02": "本句指「透過旋轉螺紋，把某物擰入、旋緊或固定」。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-02": "本句的「screwed」指「透過旋轉螺紋，把某物擰入、旋緊或固定」。",
+        "screw-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-02"
     },
@@ -267,10 +235,6 @@ export default {
       "masked": "Make sure the cover is ____ firmly into place.",
       "options": [
         "screw-mcq-02",
-        "screw-mcq-01",
-        "screw-mcq-03",
-        "screw-mcq-04",
-        "screw-mcq-05",
         "screw-mcq-06"
       ],
       "explanation": "本句的「screwed」指「透過旋轉螺紋，把某物擰入、旋緊或固定」。",
@@ -280,12 +244,8 @@ export default {
         "screwed"
       ],
       "optionReasons": {
-        "screw-mcq-02": "本句指「透過旋轉螺紋，把某物擰入、旋緊或固定」。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-02": "本句的「screwed」指「透過旋轉螺紋，把某物擰入、旋緊或固定」。",
+        "screw-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-02"
     },
@@ -297,11 +257,8 @@ export default {
       "masked": "The ship was driven by a large ____.",
       "options": [
         "screw-mcq-03",
-        "screw-mcq-02",
         "screw-mcq-04",
-        "screw-mcq-01",
-        "screw-mcq-05",
-        "screw-mcq-06"
+        "screw-mcq-05"
       ],
       "explanation": "本句的「screw」指「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」。",
       "sentenceIndex": 7,
@@ -310,12 +267,9 @@ export default {
         "screw"
       ],
       "optionReasons": {
-        "screw-mcq-03": "本句指「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-03": "本句的「screw」指「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」。",
+        "screw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "screw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-03"
     },
@@ -327,11 +281,8 @@ export default {
       "masked": "Damage to the ____ reduced the vessel’s speed.",
       "options": [
         "screw-mcq-03",
-        "screw-mcq-02",
-        "screw-mcq-04",
-        "screw-mcq-01",
-        "screw-mcq-05",
-        "screw-mcq-06"
+        "screw-mcq-06",
+        "screw-mcq-05"
       ],
       "explanation": "本句的「screw」指「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」。",
       "sentenceIndex": 8,
@@ -340,12 +291,9 @@ export default {
         "screw"
       ],
       "optionReasons": {
-        "screw-mcq-03": "本句指「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。"
+        "screw-mcq-03": "本句的「screw」指「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」。",
+        "screw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-03"
     },
@@ -357,10 +305,6 @@ export default {
       "masked": "The word ____ can be used as a vulgar sexual verb.",
       "options": [
         "screw-mcq-04",
-        "screw-mcq-03",
-        "screw-mcq-05",
-        "screw-mcq-02",
-        "screw-mcq-06",
         "screw-mcq-01"
       ],
       "explanation": "本句的「screw」指「粗俗地表示與某人性交；非正式且具冒犯性」。",
@@ -370,12 +314,8 @@ export default {
         "screw"
       ],
       "optionReasons": {
-        "screw-mcq-04": "本句指「粗俗地表示與某人性交；非正式且具冒犯性」。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。"
+        "screw-mcq-04": "本句的「screw」指「粗俗地表示與某人性交；非正式且具冒犯性」。",
+        "screw-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-04"
     },
@@ -387,11 +327,8 @@ export default {
       "masked": "I need a ____ to remove this screw.",
       "options": [
         "screw-mcq-05",
-        "screw-mcq-04",
         "screw-mcq-06",
-        "screw-mcq-03",
-        "screw-mcq-02",
-        "screw-mcq-01"
+        "screw-mcq-03"
       ],
       "explanation": "本句的「screwdriver」指「用來旋緊或拆除螺絲的工具」。",
       "sentenceIndex": 10,
@@ -400,12 +337,9 @@ export default {
         "screwdriver"
       ],
       "optionReasons": {
-        "screw-mcq-05": "本句指「用來旋緊或拆除螺絲的工具」。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。"
+        "screw-mcq-05": "本句的「screwdriver」指「用來旋緊或拆除螺絲的工具」。",
+        "screw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screw-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-05"
     },
@@ -417,11 +351,8 @@ export default {
       "masked": "Use the correct ____ for the screw head.",
       "options": [
         "screw-mcq-05",
-        "screw-mcq-04",
         "screw-mcq-06",
-        "screw-mcq-03",
-        "screw-mcq-02",
-        "screw-mcq-01"
+        "screw-mcq-03"
       ],
       "explanation": "本句的「screwdriver」指「用來旋緊或拆除螺絲的工具」。",
       "sentenceIndex": 11,
@@ -430,12 +361,9 @@ export default {
         "screwdriver"
       ],
       "optionReasons": {
-        "screw-mcq-05": "本句指「用來旋緊或拆除螺絲的工具」。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-06": "「比喻某人思想或行為古怪、不理性；非正式」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。"
+        "screw-mcq-05": "本句的「screwdriver」指「用來旋緊或拆除螺絲的工具」。",
+        "screw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screw-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-05"
     },
@@ -447,11 +375,8 @@ export default {
       "masked": "People joked that he had a ____.",
       "options": [
         "screw-mcq-06",
-        "screw-mcq-05",
-        "screw-mcq-04",
         "screw-mcq-03",
-        "screw-mcq-02",
-        "screw-mcq-01"
+        "screw-mcq-05"
       ],
       "explanation": "本句的「screw loose」指「比喻某人思想或行為古怪、不理性；非正式」。",
       "sentenceIndex": 12,
@@ -460,12 +385,9 @@ export default {
         "screw loose"
       ],
       "optionReasons": {
-        "screw-mcq-06": "本句指「比喻某人思想或行為古怪、不理性；非正式」。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。"
+        "screw-mcq-06": "本句的「screw loose」指「比喻某人思想或行為古怪、不理性；非正式」。",
+        "screw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-06"
     },
@@ -478,10 +400,7 @@ export default {
       "options": [
         "screw-mcq-06",
         "screw-mcq-05",
-        "screw-mcq-04",
-        "screw-mcq-03",
-        "screw-mcq-02",
-        "screw-mcq-01"
+        "screw-mcq-03"
       ],
       "explanation": "本句的「screw loose」指「比喻某人思想或行為古怪、不理性；非正式」。",
       "sentenceIndex": 13,
@@ -490,12 +409,9 @@ export default {
         "screw loose"
       ],
       "optionReasons": {
-        "screw-mcq-06": "本句指「比喻某人思想或行為古怪、不理性；非正式」。",
-        "screw-mcq-05": "「用來旋緊或拆除螺絲的工具」與本句語境不同。",
-        "screw-mcq-04": "「粗俗地表示與某人性交；非正式且具冒犯性」與本句語境不同。",
-        "screw-mcq-03": "「利用旋轉產生推進力的螺旋槳，尤其用於船隻；較專門」與本句語境不同。",
-        "screw-mcq-02": "「透過旋轉螺紋，把某物擰入、旋緊或固定」與本句語境不同。",
-        "screw-mcq-01": "「帶有螺旋紋、靠旋轉擰入以固定物件的金屬緊固件；螺絲」與本句語境不同。"
+        "screw-mcq-06": "本句的「screw loose」指「比喻某人思想或行為古怪、不理性；非正式」。",
+        "screw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "screw-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screw-mcq-06"
     }
@@ -507,5 +423,7 @@ export default {
     "sha256": "708b529d1b7432ca08c33160fab7dba7bb8341aa66e5553a80f729a826faba4f",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

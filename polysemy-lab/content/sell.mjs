@@ -480,11 +480,8 @@ export default {
       "masked": "The company ____ headphones online.",
       "options": [
         "sell-mcq-01",
-        "sell-mcq-02",
-        "sell-mcq-03",
-        "sell-mcq-04",
-        "sell-mcq-05",
-        "sell-mcq-06"
+        "sell-mcq-09",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sells」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
       "sentenceIndex": 0,
@@ -493,12 +490,9 @@ export default {
         "sells"
       ],
       "optionReasons": {
-        "sell-mcq-01": "本句指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-01": "本句的「sells」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
+        "sell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-01"
     },
@@ -510,11 +504,8 @@ export default {
       "masked": "They ____ the car for $20,000.",
       "options": [
         "sell-mcq-01",
-        "sell-mcq-02",
-        "sell-mcq-03",
-        "sell-mcq-04",
-        "sell-mcq-05",
-        "sell-mcq-06"
+        "sell-mcq-18",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sold」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
       "sentenceIndex": 1,
@@ -523,12 +514,9 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-01": "本句指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-01": "本句的「sold」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
+        "sell-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-01"
     },
@@ -540,11 +528,8 @@ export default {
       "masked": "The shop ____ me a pair of wireless headphones.",
       "options": [
         "sell-mcq-01",
-        "sell-mcq-02",
-        "sell-mcq-03",
-        "sell-mcq-04",
-        "sell-mcq-05",
-        "sell-mcq-06"
+        "sell-mcq-20",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sold」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
       "sentenceIndex": 2,
@@ -553,12 +538,9 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-01": "本句指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-01": "本句的「sold」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-01"
     },
@@ -570,11 +552,8 @@ export default {
       "masked": "They ____ the customer a more expensive model.",
       "options": [
         "sell-mcq-01",
-        "sell-mcq-02",
-        "sell-mcq-03",
-        "sell-mcq-04",
-        "sell-mcq-05",
-        "sell-mcq-06"
+        "sell-mcq-09",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sold」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
       "sentenceIndex": 3,
@@ -583,12 +562,9 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-01": "本句指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-01": "本句的「sold」指「把商品、服務或資產提供給買方，並收取金錢作交換」。",
+        "sell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-01"
     },
@@ -600,11 +576,9 @@ export default {
       "masked": "The headphones ____ for about $300.",
       "options": [
         "sell-mcq-03",
-        "sell-mcq-02",
-        "sell-mcq-04",
-        "sell-mcq-01",
         "sell-mcq-05",
-        "sell-mcq-06"
+        "sell-mcq-20",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sell」指「商品或資產以某個特定價格成交／出售」。",
       "sentenceIndex": 4,
@@ -613,12 +587,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-03": "本句指「商品或資產以某個特定價格成交／出售」。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-01": "「把商品、服務或資產提供給買方，並收取金錢作交換」是「sell a product/service」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-03": "本句的「sell」指「商品或資產以某個特定價格成交／出售」。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-03"
     },
@@ -630,11 +602,9 @@ export default {
       "masked": "Similar apartments ____ for much more in the city centre.",
       "options": [
         "sell-mcq-03",
-        "sell-mcq-02",
-        "sell-mcq-04",
-        "sell-mcq-01",
-        "sell-mcq-05",
-        "sell-mcq-06"
+        "sell-mcq-07",
+        "sell-mcq-20",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sell」指「商品或資產以某個特定價格成交／出售」。",
       "sentenceIndex": 5,
@@ -643,12 +613,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-03": "本句指「商品或資產以某個特定價格成交／出售」。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-01": "「把商品、服務或資產提供給買方，並收取金錢作交換」是「sell a product/service」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-03": "本句的「sell」指「商品或資產以某個特定價格成交／出售」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-03"
     },
@@ -660,11 +628,8 @@ export default {
       "masked": "The new model is ____ very well.",
       "options": [
         "sell-mcq-04",
-        "sell-mcq-03",
-        "sell-mcq-05",
-        "sell-mcq-02",
-        "sell-mcq-06",
-        "sell-mcq-01"
+        "sell-mcq-07",
+        "sell-mcq-06"
       ],
       "explanation": "本句的「selling」指「商品在市場上的實際銷量／銷售表現好或差」。",
       "sentenceIndex": 6,
@@ -673,12 +638,9 @@ export default {
         "selling"
       ],
       "optionReasons": {
-        "sell-mcq-04": "本句指「商品在市場上的實際銷量／銷售表現好或差」。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-01": "「把商品、服務或資產提供給買方，並收取金錢作交換」是「sell a product/service」的用法，與本句語境不同。"
+        "sell-mcq-04": "本句的「selling」指「商品在市場上的實際銷量／銷售表現好或差」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-04"
     },
@@ -690,11 +652,9 @@ export default {
       "masked": "Expensive luxury goods often ____ more slowly.",
       "options": [
         "sell-mcq-04",
-        "sell-mcq-03",
-        "sell-mcq-05",
-        "sell-mcq-02",
-        "sell-mcq-06",
-        "sell-mcq-01"
+        "sell-mcq-07",
+        "sell-mcq-12",
+        "sell-mcq-13"
       ],
       "explanation": "本句的「sell」指「商品在市場上的實際銷量／銷售表現好或差」。",
       "sentenceIndex": 7,
@@ -703,12 +663,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-04": "本句指「商品在市場上的實際銷量／銷售表現好或差」。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-01": "「把商品、服務或資產提供給買方，並收取金錢作交換」是「sell a product/service」的用法，與本句語境不同。"
+        "sell-mcq-04": "本句的「sell」指「商品在市場上的實際銷量／銷售表現好或差」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-04"
     },
@@ -720,11 +678,8 @@ export default {
       "masked": "The campaign ____ the idea that technology can make life calmer.",
       "options": [
         "sell-mcq-05",
-        "sell-mcq-04",
-        "sell-mcq-06",
-        "sell-mcq-03",
-        "sell-mcq-07",
-        "sell-mcq-02"
+        "sell-mcq-18",
+        "sell-mcq-11"
       ],
       "explanation": "本句的「sells」指「透過說服和形象塑造，使別人接受或嚮往某種概念」。",
       "sentenceIndex": 8,
@@ -733,12 +688,9 @@ export default {
         "sells"
       ],
       "optionReasons": {
-        "sell-mcq-05": "本句指「透過說服和形象塑造，使別人接受或嚮往某種概念」。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。"
+        "sell-mcq-05": "本句的「sells」指「透過說服和形象塑造，使別人接受或嚮往某種概念」。",
+        "sell-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-05"
     },
@@ -751,10 +703,8 @@ export default {
       "options": [
         "sell-mcq-05",
         "sell-mcq-04",
-        "sell-mcq-06",
-        "sell-mcq-03",
-        "sell-mcq-07",
-        "sell-mcq-02"
+        "sell-mcq-18",
+        "sell-mcq-12"
       ],
       "explanation": "本句的「sell」指「透過說服和形象塑造，使別人接受或嚮往某種概念」。",
       "sentenceIndex": 9,
@@ -763,12 +713,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-05": "本句指「透過說服和形象塑造，使別人接受或嚮往某種概念」。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-02": "「把某項商品或服務出售給特定顧客」是「sell someone something」的用法，與本句語境不同。"
+        "sell-mcq-05": "本句的「sell」指「透過說服和形象塑造，使別人接受或嚮往某種概念」。",
+        "sell-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-05"
     },
@@ -780,11 +728,8 @@ export default {
       "masked": "It ____ more than a product; it ____ a feeling.",
       "options": [
         "sell-mcq-06",
-        "sell-mcq-05",
         "sell-mcq-07",
-        "sell-mcq-04",
-        "sell-mcq-08",
-        "sell-mcq-03"
+        "sell-mcq-04"
       ],
       "explanation": "本句的「sold」指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
       "sentenceIndex": 10,
@@ -794,12 +739,9 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-06": "本句指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。"
+        "sell-mcq-06": "本句的「sold」指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-06"
     },
@@ -811,11 +753,9 @@ export default {
       "masked": "The hotel advertisement ____ a feeling of peace and escape.",
       "options": [
         "sell-mcq-06",
-        "sell-mcq-05",
         "sell-mcq-07",
-        "sell-mcq-04",
-        "sell-mcq-08",
-        "sell-mcq-03"
+        "sell-mcq-19",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sells」指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
       "sentenceIndex": 11,
@@ -824,12 +764,10 @@ export default {
         "sells"
       ],
       "optionReasons": {
-        "sell-mcq-06": "本句指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。"
+        "sell-mcq-06": "本句的「sells」指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-06"
     },
@@ -841,11 +779,9 @@ export default {
       "masked": "The campaign ____ customers the dream of a simpler life.",
       "options": [
         "sell-mcq-06",
-        "sell-mcq-05",
         "sell-mcq-07",
-        "sell-mcq-04",
-        "sell-mcq-08",
-        "sell-mcq-03"
+        "sell-mcq-19",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sold」指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
       "sentenceIndex": 12,
@@ -854,12 +790,10 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-06": "本句指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-03": "「商品或資產以某個特定價格成交／出售」是「sell for + price」的用法，與本句語境不同。"
+        "sell-mcq-06": "本句的「sold」指「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-06"
     },
@@ -871,10 +805,8 @@ export default {
       "masked": "She successfully ____ the proposal to senior management.",
       "options": [
         "sell-mcq-07",
-        "sell-mcq-06",
-        "sell-mcq-08",
-        "sell-mcq-05",
-        "sell-mcq-09",
+        "sell-mcq-12",
+        "sell-mcq-13",
         "sell-mcq-04"
       ],
       "explanation": "本句的「sold」指「透過有說服力的介紹，使別人接受、批准或支持某項建議」。",
@@ -884,12 +816,10 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-07": "本句指「透過有說服力的介紹，使別人接受、批准或支持某項建議」。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。"
+        "sell-mcq-07": "本句的「sold」指「透過有說服力的介紹，使別人接受、批准或支持某項建議」。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-07"
     },
@@ -901,11 +831,8 @@ export default {
       "masked": "You need to ____ the idea to the rest of the team.",
       "options": [
         "sell-mcq-07",
-        "sell-mcq-06",
-        "sell-mcq-08",
-        "sell-mcq-05",
-        "sell-mcq-09",
-        "sell-mcq-04"
+        "sell-mcq-11",
+        "sell-mcq-13"
       ],
       "explanation": "本句的「sell」指「透過有說服力的介紹，使別人接受、批准或支持某項建議」。",
       "sentenceIndex": 14,
@@ -914,12 +841,9 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-07": "本句指「透過有說服力的介紹，使別人接受、批准或支持某項建議」。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-04": "「商品在市場上的實際銷量／銷售表現好或差」是「product sells well/badly」的用法，與本句語境不同。"
+        "sell-mcq-07": "本句的「sell」指「透過有說服力的介紹，使別人接受、批准或支持某項建議」。",
+        "sell-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-07"
     },
@@ -931,11 +855,9 @@ export default {
       "masked": "In an interview, you need to ____ yourself without sounding arrogant.",
       "options": [
         "sell-mcq-08",
-        "sell-mcq-07",
-        "sell-mcq-09",
-        "sell-mcq-06",
         "sell-mcq-10",
-        "sell-mcq-05"
+        "sell-mcq-20",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sell」指「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」。",
       "sentenceIndex": 15,
@@ -944,12 +866,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-08": "本句指「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。"
+        "sell-mcq-08": "本句的「sell」指「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」。",
+        "sell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-08"
     },
@@ -961,11 +881,9 @@ export default {
       "masked": "She is talented, but she finds it difficult to ____ herself.",
       "options": [
         "sell-mcq-08",
-        "sell-mcq-07",
-        "sell-mcq-09",
-        "sell-mcq-06",
         "sell-mcq-10",
-        "sell-mcq-05"
+        "sell-mcq-14",
+        "sell-mcq-20"
       ],
       "explanation": "本句的「sell」指「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」。",
       "sentenceIndex": 16,
@@ -974,12 +892,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-08": "本句指「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-05": "「透過說服和形象塑造，使別人接受或嚮往某種概念」是「sell an idea/lifestyle」的用法，與本句語境不同。"
+        "sell-mcq-08": "本句的「sell」指「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」。",
+        "sell-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-08"
     },
@@ -991,11 +907,9 @@ export default {
       "masked": "The emotional story helped ____ the message.",
       "options": [
         "sell-mcq-09",
-        "sell-mcq-08",
-        "sell-mcq-10",
-        "sell-mcq-07",
-        "sell-mcq-11",
-        "sell-mcq-06"
+        "sell-mcq-12",
+        "sell-mcq-14",
+        "sell-mcq-19"
       ],
       "explanation": "本句的「sell」指「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」。",
       "sentenceIndex": 17,
@@ -1004,12 +918,10 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-09": "本句指「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-09": "本句的「sell」指「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-09"
     },
@@ -1021,11 +933,9 @@ export default {
       "masked": "The demonstration really ____ the product.",
       "options": [
         "sell-mcq-09",
-        "sell-mcq-08",
-        "sell-mcq-10",
-        "sell-mcq-07",
-        "sell-mcq-11",
-        "sell-mcq-06"
+        "sell-mcq-12",
+        "sell-mcq-14",
+        "sell-mcq-19"
       ],
       "explanation": "本句的「sold」指「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」。",
       "sentenceIndex": 18,
@@ -1034,12 +944,10 @@ export default {
         "sold"
       ],
       "optionReasons": {
-        "sell-mcq-09": "本句指「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-06": "「令消費者渴望某種情緒／生活體驗，並把產品與該體驗連結」是「sell a feeling/experience」的用法，與本句語境不同。"
+        "sell-mcq-09": "本句的「sold」指「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-09"
     },
@@ -1051,11 +959,9 @@ export default {
       "masked": "The ____ of the property was completed last week.",
       "options": [
         "sell-mcq-10",
-        "sell-mcq-09",
-        "sell-mcq-11",
         "sell-mcq-08",
-        "sell-mcq-12",
-        "sell-mcq-07"
+        "sell-mcq-20",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sale」指「把商品、資產或服務出售給買方的行為／交易」。",
       "sentenceIndex": 19,
@@ -1064,12 +970,10 @@ export default {
         "sale"
       ],
       "optionReasons": {
-        "sell-mcq-10": "本句指「把商品、資產或服務出售給買方的行為／交易」。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。"
+        "sell-mcq-10": "本句的「sale」指「把商品、資產或服務出售給買方的行為／交易」。",
+        "sell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-10"
     },
@@ -1081,11 +985,9 @@ export default {
       "masked": "The law restricts the ____ of certain products.",
       "options": [
         "sell-mcq-10",
-        "sell-mcq-09",
-        "sell-mcq-11",
         "sell-mcq-08",
-        "sell-mcq-12",
-        "sell-mcq-07"
+        "sell-mcq-20",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sale」指「把商品、資產或服務出售給買方的行為／交易」。",
       "sentenceIndex": 20,
@@ -1094,12 +996,10 @@ export default {
         "sale"
       ],
       "optionReasons": {
-        "sell-mcq-10": "本句指「把商品、資產或服務出售給買方的行為／交易」。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-07": "「透過有說服力的介紹，使別人接受、批准或支持某項建議」是「sell a proposal/plan」的用法，與本句語境不同。"
+        "sell-mcq-10": "本句的「sale」指「把商品、資產或服務出售給買方的行為／交易」。",
+        "sell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-10"
     },
@@ -1111,11 +1011,8 @@ export default {
       "masked": "The headphones are in the summer ____.",
       "options": [
         "sell-mcq-11",
-        "sell-mcq-10",
-        "sell-mcq-12",
-        "sell-mcq-09",
-        "sell-mcq-13",
-        "sell-mcq-08"
+        "sell-mcq-07",
+        "sell-mcq-13"
       ],
       "explanation": "本句的「sale」指「在一段時間內以較低價格出售商品的減價促銷活動」。",
       "sentenceIndex": 21,
@@ -1124,12 +1021,9 @@ export default {
         "sale"
       ],
       "optionReasons": {
-        "sell-mcq-11": "本句指「在一段時間內以較低價格出售商品的減價促銷活動」。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。"
+        "sell-mcq-11": "本句的「sale」指「在一段時間內以較低價格出售商品的減價促銷活動」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-11"
     },
@@ -1141,11 +1035,8 @@ export default {
       "masked": "I bought the jacket during a ____.",
       "options": [
         "sell-mcq-11",
-        "sell-mcq-10",
-        "sell-mcq-12",
-        "sell-mcq-09",
-        "sell-mcq-13",
-        "sell-mcq-08"
+        "sell-mcq-07",
+        "sell-mcq-13"
       ],
       "explanation": "本句的「sale」指「在一段時間內以較低價格出售商品的減價促銷活動」。",
       "sentenceIndex": 22,
@@ -1154,12 +1045,9 @@ export default {
         "sale"
       ],
       "optionReasons": {
-        "sell-mcq-11": "本句指「在一段時間內以較低價格出售商品的減價促銷活動」。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-08": "「有策略地展示自己的能力、經驗及價值，使別人願意選擇你」是「sell yourself」的用法，與本句語境不同。"
+        "sell-mcq-11": "本句的「sale」指「在一段時間內以較低價格出售商品的減價促銷活動」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-11"
     },
@@ -1171,11 +1059,9 @@ export default {
       "masked": "The house is for ____.",
       "options": [
         "sell-mcq-12",
-        "sell-mcq-11",
         "sell-mcq-13",
-        "sell-mcq-10",
-        "sell-mcq-14",
-        "sell-mcq-09"
+        "sell-mcq-07",
+        "sell-mcq-19"
       ],
       "explanation": "本句的「sale」指「某物目前可供購買／正在出售」。",
       "sentenceIndex": 23,
@@ -1184,12 +1070,10 @@ export default {
         "sale"
       ],
       "optionReasons": {
-        "sell-mcq-12": "本句指「某物目前可供購買／正在出售」。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。"
+        "sell-mcq-12": "本句的「sale」指「某物目前可供購買／正在出售」。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-12"
     },
@@ -1201,11 +1085,9 @@ export default {
       "masked": "Is this item for ____?",
       "options": [
         "sell-mcq-12",
-        "sell-mcq-11",
+        "sell-mcq-19",
         "sell-mcq-13",
-        "sell-mcq-10",
-        "sell-mcq-14",
-        "sell-mcq-09"
+        "sell-mcq-05"
       ],
       "explanation": "本句的「sale」指「某物目前可供購買／正在出售」。",
       "sentenceIndex": 24,
@@ -1214,12 +1096,10 @@ export default {
         "sale"
       ],
       "optionReasons": {
-        "sell-mcq-12": "本句指「某物目前可供購買／正在出售」。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-09": "「透過證據、表現或敘述使某項產品／主張變得可信而有吸引力」是「sell — persuade」的用法，與本句語境不同。"
+        "sell-mcq-12": "本句的「sale」指「某物目前可供購買／正在出售」。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-12"
     },
@@ -1231,11 +1111,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "sell-mcq-13",
+        "sell-mcq-07",
         "sell-mcq-12",
-        "sell-mcq-14",
-        "sell-mcq-11",
-        "sell-mcq-15",
-        "sell-mcq-10"
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sales」指「尋找顧客、推廣產品及完成交易的商業工作領域」。",
       "sentenceIndex": 25,
@@ -1244,12 +1122,10 @@ export default {
         "sales"
       ],
       "optionReasons": {
-        "sell-mcq-13": "本句指「尋找顧客、推廣產品及完成交易的商業工作領域」。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。"
+        "sell-mcq-13": "本句的「sales」指「尋找顧客、推廣產品及完成交易的商業工作領域」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-13"
     },
@@ -1261,11 +1137,9 @@ export default {
       "masked": "The company hired a new ____ manager.",
       "options": [
         "sell-mcq-13",
+        "sell-mcq-07",
         "sell-mcq-12",
-        "sell-mcq-14",
-        "sell-mcq-11",
-        "sell-mcq-15",
-        "sell-mcq-10"
+        "sell-mcq-14"
       ],
       "explanation": "本句的「sales」指「尋找顧客、推廣產品及完成交易的商業工作領域」。",
       "sentenceIndex": 26,
@@ -1274,12 +1148,10 @@ export default {
         "sales"
       ],
       "optionReasons": {
-        "sell-mcq-13": "本句指「尋找顧客、推廣產品及完成交易的商業工作領域」。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-10": "「把商品、資產或服務出售給買方的行為／交易」是「sale — transaction」的用法，與本句語境不同。"
+        "sell-mcq-13": "本句的「sales」指「尋找顧客、推廣產品及完成交易的商業工作領域」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-13"
     },
@@ -1291,11 +1163,9 @@ export default {
       "masked": "Online ____ increased by twenty percent.",
       "options": [
         "sell-mcq-14",
-        "sell-mcq-13",
-        "sell-mcq-15",
-        "sell-mcq-12",
-        "sell-mcq-16",
-        "sell-mcq-11"
+        "sell-mcq-05",
+        "sell-mcq-18",
+        "sell-mcq-12"
       ],
       "explanation": "本句的「sales」指「某段時間內實際售出的數量或產生的銷售金額」。",
       "sentenceIndex": 27,
@@ -1304,12 +1174,10 @@ export default {
         "sales"
       ],
       "optionReasons": {
-        "sell-mcq-14": "本句指「某段時間內實際售出的數量或產生的銷售金額」。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。"
+        "sell-mcq-14": "本句的「sales」指「某段時間內實際售出的數量或產生的銷售金額」。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-14"
     },
@@ -1321,11 +1189,9 @@ export default {
       "masked": "The advertisement caused a sharp rise in ____.",
       "options": [
         "sell-mcq-14",
+        "sell-mcq-08",
         "sell-mcq-13",
-        "sell-mcq-15",
-        "sell-mcq-12",
-        "sell-mcq-16",
-        "sell-mcq-11"
+        "sell-mcq-19"
       ],
       "explanation": "本句的「sales」指「某段時間內實際售出的數量或產生的銷售金額」。",
       "sentenceIndex": 28,
@@ -1334,12 +1200,10 @@ export default {
         "sales"
       ],
       "optionReasons": {
-        "sell-mcq-14": "本句指「某段時間內實際售出的數量或產生的銷售金額」。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-11": "「在一段時間內以較低價格出售商品的減價促銷活動」是「sale — discount event」的用法，與本句語境不同。"
+        "sell-mcq-14": "本句的「sales」指「某段時間內實際售出的數量或產生的銷售金額」。",
+        "sell-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-14"
     },
@@ -1351,11 +1215,8 @@ export default {
       "masked": "The ____ agreed to lower the price.",
       "options": [
         "sell-mcq-15",
-        "sell-mcq-14",
-        "sell-mcq-16",
-        "sell-mcq-13",
-        "sell-mcq-17",
-        "sell-mcq-12"
+        "sell-mcq-09",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「seller」指「提供商品或資產並收取金錢的一方」。",
       "sentenceIndex": 29,
@@ -1364,12 +1225,9 @@ export default {
         "seller"
       ],
       "optionReasons": {
-        "sell-mcq-15": "本句指「提供商品或資產並收取金錢的一方」。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。"
+        "sell-mcq-15": "本句的「seller」指「提供商品或資產並收取金錢的一方」。",
+        "sell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-15"
     },
@@ -1382,10 +1240,7 @@ export default {
       "options": [
         "sell-mcq-15",
         "sell-mcq-14",
-        "sell-mcq-16",
-        "sell-mcq-13",
-        "sell-mcq-17",
-        "sell-mcq-12"
+        "sell-mcq-17"
       ],
       "explanation": "本句的「seller」指「提供商品或資產並收取金錢的一方」。",
       "sentenceIndex": 30,
@@ -1394,12 +1249,9 @@ export default {
         "seller"
       ],
       "optionReasons": {
-        "sell-mcq-15": "本句指「提供商品或資產並收取金錢的一方」。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-12": "「某物目前可供購買／正在出售」是「for sale」的用法，與本句語境不同。"
+        "sell-mcq-15": "本句的「seller」指「提供商品或資產並收取金錢的一方」。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-15"
     },
@@ -1411,11 +1263,8 @@ export default {
       "masked": "The headphones became a strong ____.",
       "options": [
         "sell-mcq-16",
-        "sell-mcq-15",
-        "sell-mcq-17",
-        "sell-mcq-14",
-        "sell-mcq-18",
-        "sell-mcq-13"
+        "sell-mcq-07",
+        "sell-mcq-06"
       ],
       "explanation": "本句的「seller」指「銷售表現屬於某種水平的商品」。",
       "sentenceIndex": 31,
@@ -1424,12 +1273,9 @@ export default {
         "seller"
       ],
       "optionReasons": {
-        "sell-mcq-16": "本句指「銷售表現屬於某種水平的商品」。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。"
+        "sell-mcq-16": "本句的「seller」指「銷售表現屬於某種水平的商品」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-16"
     },
@@ -1441,11 +1287,8 @@ export default {
       "masked": "That model was a poor ____.",
       "options": [
         "sell-mcq-16",
-        "sell-mcq-15",
-        "sell-mcq-17",
-        "sell-mcq-14",
-        "sell-mcq-18",
-        "sell-mcq-13"
+        "sell-mcq-07",
+        "sell-mcq-12"
       ],
       "explanation": "本句的「seller」指「銷售表現屬於某種水平的商品」。",
       "sentenceIndex": 32,
@@ -1454,12 +1297,9 @@ export default {
         "seller"
       ],
       "optionReasons": {
-        "sell-mcq-16": "本句指「銷售表現屬於某種水平的商品」。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-13": "「尋找顧客、推廣產品及完成交易的商業工作領域」是「sales — business function」的用法，與本句語境不同。"
+        "sell-mcq-16": "本句的「seller」指「銷售表現屬於某種水平的商品」。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-16"
     },
@@ -1471,11 +1311,9 @@ export default {
       "masked": "The novel became an international ____.",
       "options": [
         "sell-mcq-19",
-        "sell-mcq-18",
-        "sell-mcq-20",
-        "sell-mcq-17",
-        "sell-mcq-21",
-        "sell-mcq-16"
+        "sell-mcq-12",
+        "sell-mcq-07",
+        "sell-mcq-13"
       ],
       "explanation": "本句的「bestseller」指「在同類商品／作品中銷量特別高的暢銷品」。",
       "sentenceIndex": 33,
@@ -1484,12 +1322,10 @@ export default {
         "bestseller"
       ],
       "optionReasons": {
-        "sell-mcq-19": "本句指「在同類商品／作品中銷量特別高的暢銷品」。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-20": "「銷量在同類產品／作品中屬於最高的一批」是「best-selling」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-21": "「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」是「hard sell」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。"
+        "sell-mcq-19": "本句的「bestseller」指「在同類商品／作品中銷量特別高的暢銷品」。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-19"
     },
@@ -1501,11 +1337,9 @@ export default {
       "masked": "The headphones quickly became a ____.",
       "options": [
         "sell-mcq-19",
-        "sell-mcq-18",
-        "sell-mcq-20",
-        "sell-mcq-17",
-        "sell-mcq-21",
-        "sell-mcq-16"
+        "sell-mcq-12",
+        "sell-mcq-09",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「bestseller」指「在同類商品／作品中銷量特別高的暢銷品」。",
       "sentenceIndex": 34,
@@ -1514,12 +1348,10 @@ export default {
         "bestseller"
       ],
       "optionReasons": {
-        "sell-mcq-19": "本句指「在同類商品／作品中銷量特別高的暢銷品」。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-20": "「銷量在同類產品／作品中屬於最高的一批」是「best-selling」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-21": "「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」是「hard sell」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。"
+        "sell-mcq-19": "本句的「bestseller」指「在同類商品／作品中銷量特別高的暢銷品」。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-19"
     },
@@ -1531,11 +1363,9 @@ export default {
       "masked": "It is one of the company’s ____ products.",
       "options": [
         "sell-mcq-20",
-        "sell-mcq-19",
-        "sell-mcq-21",
-        "sell-mcq-18",
-        "sell-mcq-17",
-        "sell-mcq-16"
+        "sell-mcq-05",
+        "sell-mcq-12",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「best-selling」指「銷量在同類產品／作品中屬於最高的一批」。",
       "sentenceIndex": 35,
@@ -1544,12 +1374,10 @@ export default {
         "best-selling"
       ],
       "optionReasons": {
-        "sell-mcq-20": "本句指「銷量在同類產品／作品中屬於最高的一批」。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-21": "「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」是「hard sell」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。"
+        "sell-mcq-20": "本句的「best-selling」指「銷量在同類產品／作品中屬於最高的一批」。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-20"
     },
@@ -1561,11 +1389,9 @@ export default {
       "masked": "She is a ____ author.",
       "options": [
         "sell-mcq-20",
-        "sell-mcq-19",
-        "sell-mcq-21",
-        "sell-mcq-18",
-        "sell-mcq-17",
-        "sell-mcq-16"
+        "sell-mcq-05",
+        "sell-mcq-12",
+        "sell-mcq-14"
       ],
       "explanation": "本句的「best-selling」指「銷量在同類產品／作品中屬於最高的一批」。",
       "sentenceIndex": 36,
@@ -1574,12 +1400,10 @@ export default {
         "best-selling"
       ],
       "optionReasons": {
-        "sell-mcq-20": "本句指「銷量在同類產品／作品中屬於最高的一批」。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-21": "「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」是「hard sell」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。"
+        "sell-mcq-20": "本句的「best-selling」指「銷量在同類產品／作品中屬於最高的一批」。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-20"
     },
@@ -1591,11 +1415,8 @@ export default {
       "masked": "The ____ explained the differences between the two models.",
       "options": [
         "sell-mcq-17",
-        "sell-mcq-16",
-        "sell-mcq-18",
-        "sell-mcq-15",
         "sell-mcq-19",
-        "sell-mcq-14"
+        "sell-mcq-21"
       ],
       "explanation": "本句的「salesperson」指「以介紹、推廣和出售產品／服務為工作的職員」。",
       "sentenceIndex": 37,
@@ -1604,12 +1425,9 @@ export default {
         "salesperson"
       ],
       "optionReasons": {
-        "sell-mcq-17": "本句指「以介紹、推廣和出售產品／服務為工作的職員」。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。"
+        "sell-mcq-17": "本句的「salesperson」指「以介紹、推廣和出售產品／服務為工作的職員」。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-17"
     },
@@ -1621,11 +1439,8 @@ export default {
       "masked": "A good ____ listens carefully to customers.",
       "options": [
         "sell-mcq-17",
-        "sell-mcq-16",
-        "sell-mcq-18",
-        "sell-mcq-15",
         "sell-mcq-19",
-        "sell-mcq-14"
+        "sell-mcq-21"
       ],
       "explanation": "本句的「salesperson」指「以介紹、推廣和出售產品／服務為工作的職員」。",
       "sentenceIndex": 38,
@@ -1634,12 +1449,9 @@ export default {
         "salesperson"
       ],
       "optionReasons": {
-        "sell-mcq-17": "本句指「以介紹、推廣和出售產品／服務為工作的職員」。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-14": "「某段時間內實際售出的數量或產生的銷售金額」是「sales — amount/value」的用法，與本句語境不同。"
+        "sell-mcq-17": "本句的「salesperson」指「以介紹、推廣和出售產品／服務為工作的職員」。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-17"
     },
@@ -1651,11 +1463,9 @@ export default {
       "masked": "Noise cancellation is the headphones’ main ____ point.",
       "options": [
         "sell-mcq-18",
-        "sell-mcq-17",
-        "sell-mcq-19",
-        "sell-mcq-16",
-        "sell-mcq-20",
-        "sell-mcq-15"
+        "sell-mcq-05",
+        "sell-mcq-12",
+        "sell-mcq-04"
       ],
       "explanation": "本句的「selling」指「最能吸引顧客選擇某項產品或方案的特點／優勢」。",
       "sentenceIndex": 39,
@@ -1664,12 +1474,10 @@ export default {
         "selling"
       ],
       "optionReasons": {
-        "sell-mcq-18": "本句指「最能吸引顧客選擇某項產品或方案的特點／優勢」。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-20": "「銷量在同類產品／作品中屬於最高的一批」是「best-selling」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。"
+        "sell-mcq-18": "本句的「selling」指「最能吸引顧客選擇某項產品或方案的特點／優勢」。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-18"
     },
@@ -1681,11 +1489,9 @@ export default {
       "masked": "The apartment’s location is a major ____ point.",
       "options": [
         "sell-mcq-18",
-        "sell-mcq-17",
-        "sell-mcq-19",
-        "sell-mcq-16",
-        "sell-mcq-20",
-        "sell-mcq-15"
+        "sell-mcq-12",
+        "sell-mcq-05",
+        "sell-mcq-16"
       ],
       "explanation": "本句的「selling」指「最能吸引顧客選擇某項產品或方案的特點／優勢」。",
       "sentenceIndex": 40,
@@ -1694,12 +1500,10 @@ export default {
         "selling"
       ],
       "optionReasons": {
-        "sell-mcq-18": "本句指「最能吸引顧客選擇某項產品或方案的特點／優勢」。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。",
-        "sell-mcq-20": "「銷量在同類產品／作品中屬於最高的一批」是「best-selling」的用法，與本句語境不同。",
-        "sell-mcq-15": "「提供商品或資產並收取金錢的一方」是「seller — person/company」的用法，與本句語境不同。"
+        "sell-mcq-18": "本句的「selling」指「最能吸引顧客選擇某項產品或方案的特點／優勢」。",
+        "sell-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-18"
     },
@@ -1711,11 +1515,8 @@ export default {
       "masked": "Customers often dislike the hard ____.",
       "options": [
         "sell-mcq-21",
-        "sell-mcq-20",
-        "sell-mcq-19",
-        "sell-mcq-18",
         "sell-mcq-17",
-        "sell-mcq-16"
+        "sell-mcq-19"
       ],
       "explanation": "本句的「sell」指「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」。",
       "sentenceIndex": 41,
@@ -1724,12 +1525,9 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-21": "本句指「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」。",
-        "sell-mcq-20": "「銷量在同類產品／作品中屬於最高的一批」是「best-selling」的用法，與本句語境不同。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。"
+        "sell-mcq-21": "本句的「sell」指「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」。",
+        "sell-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-21"
     },
@@ -1741,11 +1539,8 @@ export default {
       "masked": "The advertisement avoided the hard ____ and focused on everyday life.",
       "options": [
         "sell-mcq-21",
-        "sell-mcq-20",
-        "sell-mcq-19",
-        "sell-mcq-18",
         "sell-mcq-17",
-        "sell-mcq-16"
+        "sell-mcq-19"
       ],
       "explanation": "本句的「sell」指「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」。",
       "sentenceIndex": 42,
@@ -1754,12 +1549,9 @@ export default {
         "sell"
       ],
       "optionReasons": {
-        "sell-mcq-21": "本句指「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」。",
-        "sell-mcq-20": "「銷量在同類產品／作品中屬於最高的一批」是「best-selling」的用法，與本句語境不同。",
-        "sell-mcq-19": "「在同類商品／作品中銷量特別高的暢銷品」是「bestseller」的用法，與本句語境不同。",
-        "sell-mcq-18": "「最能吸引顧客選擇某項產品或方案的特點／優勢」是「selling point」的用法，與本句語境不同。",
-        "sell-mcq-17": "「以介紹、推廣和出售產品／服務為工作的職員」是「salesperson」的用法，與本句語境不同。",
-        "sell-mcq-16": "「銷售表現屬於某種水平的商品」是「seller — product」的用法，與本句語境不同。"
+        "sell-mcq-21": "本句的「sell」指「透過強烈催促或壓力逼使顧客購買的高壓銷售方式」。",
+        "sell-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sell-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sell-mcq-21"
     }
@@ -1771,5 +1563,7 @@ export default {
     "sha256": "a4b64b4134d6b3ac850e4bf853da488386279fde31db81f822fb427d02815eb1",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

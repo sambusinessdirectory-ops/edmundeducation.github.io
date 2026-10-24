@@ -707,11 +707,7 @@ export default {
       "masked": "Can I see the ____?",
       "options": [
         "menu-mcq-01",
-        "menu-mcq-02",
-        "menu-mcq-03",
-        "menu-mcq-04",
-        "menu-mcq-05",
-        "menu-mcq-06"
+        "menu-mcq-27"
       ],
       "explanation": "本句的「menu」指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
       "sentenceIndex": 0,
@@ -720,12 +716,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-01": "本句指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
-        "menu-mcq-02": "「顧客手上／牆上實際展示菜式的餐牌、紙張或板」與本句語境不同。",
-        "menu-mcq-03": "「以手寫方式列出菜式的餐牌」與本句語境不同。",
-        "menu-mcq-04": "「餐牌上其中一項可點的菜式／飲品」與本句語境不同。",
-        "menu-mcq-05": "「starters、mains、desserts 等餐牌分類」與本句語境不同。",
-        "menu-mcq-06": "「在櫃檯／牆上展示餐牌內容的餐牌板」與本句語境不同。"
+        "menu-mcq-01": "本句的「menu」指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
+        "menu-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-01"
     },
@@ -737,11 +729,7 @@ export default {
       "masked": "The ____ includes several vegetarian dishes.",
       "options": [
         "menu-mcq-01",
-        "menu-mcq-02",
-        "menu-mcq-03",
-        "menu-mcq-04",
-        "menu-mcq-05",
-        "menu-mcq-06"
+        "menu-mcq-27"
       ],
       "explanation": "本句的「menu」指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
       "sentenceIndex": 1,
@@ -750,12 +738,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-01": "本句指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
-        "menu-mcq-02": "「顧客手上／牆上實際展示菜式的餐牌、紙張或板」與本句語境不同。",
-        "menu-mcq-03": "「以手寫方式列出菜式的餐牌」與本句語境不同。",
-        "menu-mcq-04": "「餐牌上其中一項可點的菜式／飲品」與本句語境不同。",
-        "menu-mcq-05": "「starters、mains、desserts 等餐牌分類」與本句語境不同。",
-        "menu-mcq-06": "「在櫃檯／牆上展示餐牌內容的餐牌板」與本句語境不同。"
+        "menu-mcq-01": "本句的「menu」指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
+        "menu-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-01"
     },
@@ -767,11 +751,7 @@ export default {
       "masked": "The waiter handed us two ____.",
       "options": [
         "menu-mcq-01",
-        "menu-mcq-02",
-        "menu-mcq-03",
-        "menu-mcq-04",
-        "menu-mcq-05",
-        "menu-mcq-06"
+        "menu-mcq-27"
       ],
       "explanation": "本句的「menus」指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
       "sentenceIndex": 2,
@@ -780,12 +760,8 @@ export default {
         "menus"
       ],
       "optionReasons": {
-        "menu-mcq-01": "本句指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
-        "menu-mcq-02": "「顧客手上／牆上實際展示菜式的餐牌、紙張或板」與本句語境不同。",
-        "menu-mcq-03": "「以手寫方式列出菜式的餐牌」與本句語境不同。",
-        "menu-mcq-04": "「餐牌上其中一項可點的菜式／飲品」與本句語境不同。",
-        "menu-mcq-05": "「starters、mains、desserts 等餐牌分類」與本句語境不同。",
-        "menu-mcq-06": "「在櫃檯／牆上展示餐牌內容的餐牌板」與本句語境不同。"
+        "menu-mcq-01": "本句的「menus」指「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」。",
+        "menu-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-01"
     },
@@ -797,11 +773,7 @@ export default {
       "masked": "This is our most popular ____ item.",
       "options": [
         "menu-mcq-04",
-        "menu-mcq-03",
-        "menu-mcq-05",
-        "menu-mcq-02",
-        "menu-mcq-06",
-        "menu-mcq-01"
+        "menu-mcq-28"
       ],
       "explanation": "本句的「menu」指「餐牌上其中一項可點的菜式／飲品」。",
       "sentenceIndex": 3,
@@ -810,12 +782,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-04": "本句指「餐牌上其中一項可點的菜式／飲品」。",
-        "menu-mcq-03": "「以手寫方式列出菜式的餐牌」與本句語境不同。",
-        "menu-mcq-05": "「starters、mains、desserts 等餐牌分類」與本句語境不同。",
-        "menu-mcq-02": "「顧客手上／牆上實際展示菜式的餐牌、紙張或板」與本句語境不同。",
-        "menu-mcq-06": "「在櫃檯／牆上展示餐牌內容的餐牌板」與本句語境不同。",
-        "menu-mcq-01": "「列出可供顧客選擇的食物、飲品及通常其價格的餐牌／菜單」與本句語境不同。"
+        "menu-mcq-04": "本句的「menu」指「餐牌上其中一項可點的菜式／飲品」。",
+        "menu-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-04"
     },
@@ -827,11 +795,7 @@ export default {
       "masked": "We ordered from the à-la-carte ____.",
       "options": [
         "menu-mcq-16",
-        "menu-mcq-15",
-        "menu-mcq-17",
-        "menu-mcq-14",
-        "menu-mcq-18",
-        "menu-mcq-13"
+        "menu-mcq-27"
       ],
       "explanation": "本句的「menu」指「每款菜獨立選擇及一般獨立定價的單點餐牌」。",
       "sentenceIndex": 5,
@@ -840,12 +804,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-16": "本句指「每款菜獨立選擇及一般獨立定價的單點餐牌」。",
-        "menu-mcq-15": "「隨季節／食材供應改變的餐牌」與本句語境不同。",
-        "menu-mcq-17": "「預先安排的菜式組合，通常以一個套餐價出售」與本句語境不同。",
-        "menu-mcq-14": "「為兒童設計的餐牌」與本句語境不同。",
-        "menu-mcq-18": "「以固定總價提供多道菜的定價套餐」與本句語境不同。",
-        "menu-mcq-13": "「飲品餐牌」與本句語境不同。"
+        "menu-mcq-16": "本句的「menu」指「每款菜獨立選擇及一般獨立定價的單點餐牌」。",
+        "menu-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-16"
     },
@@ -857,11 +817,8 @@ export default {
       "masked": "What's on the ____ tonight?",
       "options": [
         "menu-mcq-22",
-        "menu-mcq-21",
-        "menu-mcq-23",
-        "menu-mcq-20",
-        "menu-mcq-24",
-        "menu-mcq-19"
+        "menu-mcq-47",
+        "menu-mcq-23"
       ],
       "explanation": "本句的「menu」指「一餐／一天／一週所安排供應的菜式組合」。",
       "sentenceIndex": 6,
@@ -870,12 +827,9 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-22": "本句指「一餐／一天／一週所安排供應的菜式組合」。",
-        "menu-mcq-21": "「較正式用語：品嚐餐單」與本句語境不同。",
-        "menu-mcq-23": "「正式列於餐牌，可供點選」與本句語境不同。",
-        "menu-mcq-20": "「由主廚編排多道小份菜式的品嚐餐單」與本句語境不同。",
-        "menu-mcq-24": "「沒有正式列在餐牌上的菜式」與本句語境不同。",
-        "menu-mcq-19": "「固定價錢、各道菜只有有限選擇的傳統套餐形式」與本句語境不同。"
+        "menu-mcq-22": "本句的「menu」指「一餐／一天／一週所安排供應的菜式組合」。",
+        "menu-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "menu-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-22"
     },
@@ -887,11 +841,8 @@ export default {
       "masked": "They ordered an off-____ dish.",
       "options": [
         "menu-mcq-24",
-        "menu-mcq-23",
-        "menu-mcq-25",
-        "menu-mcq-22",
-        "menu-mcq-26",
-        "menu-mcq-21"
+        "menu-mcq-33",
+        "menu-mcq-55"
       ],
       "explanation": "本句的「menu」指「沒有正式列在餐牌上的菜式」。",
       "sentenceIndex": 10,
@@ -900,12 +851,9 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-24": "本句指「沒有正式列在餐牌上的菜式」。",
-        "menu-mcq-23": "「正式列於餐牌，可供點選」與本句語境不同。",
-        "menu-mcq-25": "「未公開列出但顧客可能知道可以要求的非正式選項」與本句語境不同。",
-        "menu-mcq-22": "「一餐／一天／一週所安排供應的菜式組合」與本句語境不同。",
-        "menu-mcq-26": "「把某菜式從供應餐牌撤下」與本句語境不同。",
-        "menu-mcq-21": "「較正式用語：品嚐餐單」與本句語境不同。"
+        "menu-mcq-24": "本句的「menu」指「沒有正式列在餐牌上的菜式」。",
+        "menu-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "menu-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-24"
     },
@@ -917,11 +865,7 @@ export default {
       "masked": "The café added two new desserts to the ____.",
       "options": [
         "menu-mcq-27",
-        "menu-mcq-26",
-        "menu-mcq-28",
-        "menu-mcq-25",
-        "menu-mcq-29",
-        "menu-mcq-24"
+        "menu-mcq-47"
       ],
       "explanation": "本句的「menu」指「把某新菜式加入正式供應」。",
       "sentenceIndex": 12,
@@ -930,12 +874,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-27": "本句指「把某新菜式加入正式供應」。",
-        "menu-mcq-26": "「把某菜式從供應餐牌撤下」與本句語境不同。",
-        "menu-mcq-28": "「可供選擇的一系列方案／服務／活動」與本句語境不同。",
-        "menu-mcq-25": "「未公開列出但顧客可能知道可以要求的非正式選項」與本句語境不同。",
-        "menu-mcq-29": "「一組有系統地提供給人選擇的選項」與本句語境不同。",
-        "menu-mcq-24": "「沒有正式列在餐牌上的菜式」與本句語境不同。"
+        "menu-mcq-27": "本句的「menu」指「把某新菜式加入正式供應」。",
+        "menu-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-27"
     },
@@ -947,11 +887,7 @@ export default {
       "masked": "The software offers a ____ of options.",
       "options": [
         "menu-mcq-29",
-        "menu-mcq-28",
-        "menu-mcq-30",
-        "menu-mcq-27",
-        "menu-mcq-31",
-        "menu-mcq-26"
+        "menu-mcq-24"
       ],
       "explanation": "本句的「menu」指「一組有系統地提供給人選擇的選項」。",
       "sentenceIndex": 14,
@@ -960,12 +896,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-29": "本句指「一組有系統地提供給人選擇的選項」。",
-        "menu-mcq-28": "「可供選擇的一系列方案／服務／活動」與本句語境不同。",
-        "menu-mcq-30": "「被納入可考慮／可採用的選擇」與本句語境不同。",
-        "menu-mcq-27": "「把某新菜式加入正式供應」與本句語境不同。",
-        "menu-mcq-31": "「暫不再屬於可考慮選項」與本句語境不同。",
-        "menu-mcq-26": "「把某菜式從供應餐牌撤下」與本句語境不同。"
+        "menu-mcq-29": "本句的「menu」指「一組有系統地提供給人選擇的選項」。",
+        "menu-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-29"
     },
@@ -977,11 +909,7 @@ export default {
       "masked": "Choose Settings from the ____.",
       "options": [
         "menu-mcq-29",
-        "menu-mcq-28",
-        "menu-mcq-30",
-        "menu-mcq-27",
-        "menu-mcq-31",
-        "menu-mcq-26"
+        "menu-mcq-24"
       ],
       "explanation": "本句的「menu」指「一組有系統地提供給人選擇的選項」。",
       "sentenceIndex": 17,
@@ -990,12 +918,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-29": "本句指「一組有系統地提供給人選擇的選項」。",
-        "menu-mcq-28": "「可供選擇的一系列方案／服務／活動」與本句語境不同。",
-        "menu-mcq-30": "「被納入可考慮／可採用的選擇」與本句語境不同。",
-        "menu-mcq-27": "「把某新菜式加入正式供應」與本句語境不同。",
-        "menu-mcq-31": "「暫不再屬於可考慮選項」與本句語境不同。",
-        "menu-mcq-26": "「把某菜式從供應餐牌撤下」與本句語境不同。"
+        "menu-mcq-29": "本句的「menu」指「一組有系統地提供給人選擇的選項」。",
+        "menu-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-29"
     },
@@ -1007,11 +931,8 @@ export default {
       "masked": "Click the Print ____ item.",
       "options": [
         "menu-mcq-33",
-        "menu-mcq-32",
-        "menu-mcq-34",
-        "menu-mcq-31",
-        "menu-mcq-35",
-        "menu-mcq-30"
+        "menu-mcq-22",
+        "menu-mcq-28"
       ],
       "explanation": "本句的「menu」指「選單中的一項命令／功能」。",
       "sentenceIndex": 18,
@@ -1020,12 +941,9 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-33": "本句指「選單中的一項命令／功能」。",
-        "menu-mcq-32": "「電腦／裝置介面上讓使用者選擇命令或功能的選單」與本句語境不同。",
-        "menu-mcq-34": "「系統／程式最高層的主選單」與本句語境不同。",
-        "menu-mcq-31": "「暫不再屬於可考慮選項」與本句語境不同。",
-        "menu-mcq-35": "「從另一選單開出的次級選單」與本句語境不同。",
-        "menu-mcq-30": "「被納入可考慮／可採用的選擇」與本句語境不同。"
+        "menu-mcq-33": "本句的「menu」指「選單中的一項命令／功能」。",
+        "menu-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "menu-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-33"
     },
@@ -1037,11 +955,7 @@ export default {
       "masked": "The system uses a ____ interface.",
       "options": [
         "menu-mcq-47",
-        "menu-mcq-46",
-        "menu-mcq-48",
-        "menu-mcq-45",
-        "menu-mcq-49",
-        "menu-mcq-44"
+        "menu-mcq-04"
       ],
       "explanation": "本句的「menu-driven」指「主要靠逐層選擇選單操作的」。",
       "sentenceIndex": 19,
@@ -1050,12 +964,8 @@ export default {
         "menu-driven"
       ],
       "optionReasons": {
-        "menu-mcq-47": "本句指「主要靠逐層選擇選單操作的」。",
-        "menu-mcq-46": "「自動電話系統用語音提供的選項清單」與本句語境不同。",
-        "menu-mcq-48": "「主選單、子選單等形成的層級結構」與本句語境不同。",
-        "menu-mcq-45": "「影片光碟的播放、章節、語言等選單」與本句語境不同。",
-        "menu-mcq-49": "「餐牌的版面、字體、分類、描述及資訊設計」與本句語境不同。",
-        "menu-mcq-44": "「遊戲暫停後顯示的功能選單」與本句語境不同。"
+        "menu-mcq-47": "本句的「menu-driven」指「主要靠逐層選擇選單操作的」。",
+        "menu-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-47"
     },
@@ -1067,11 +977,7 @@ export default {
       "masked": "restaurant ____ → selectable alternatives.",
       "options": [
         "menu-mcq-55",
-        "menu-mcq-54",
-        "menu-mcq-53",
-        "menu-mcq-52",
-        "menu-mcq-51",
-        "menu-mcq-50"
+        "menu-mcq-04"
       ],
       "explanation": "本句的「menu」指「經濟學等領域供另一方選擇的一組合約方案」。",
       "sentenceIndex": 20,
@@ -1080,12 +986,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-55": "本句指「經濟學等領域供另一方選擇的一組合約方案」。",
-        "menu-mcq-54": "「以改價有成本解釋價格不頻繁調整等現象的經濟模型」與本句語境不同。",
-        "menu-mcq-53": "「公司更改價格時產生的實務／固定成本；名稱源自餐廳重印餐牌」與本句語境不同。",
-        "menu-mcq-52": "「決定餐牌各項目的售價」與本句語境不同。",
-        "menu-mcq-51": "「規劃將供應哪些菜式及其組合」與本句語境不同。",
-        "menu-mcq-50": "「按菜式人氣及盈利等資料分析和改善餐牌的餐飲管理方法」與本句語境不同。"
+        "menu-mcq-55": "本句的「menu」指「經濟學等領域供另一方選擇的一組合約方案」。",
+        "menu-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-55"
     },
@@ -1097,11 +999,8 @@ export default {
       "masked": "What's on the ____ tonight?",
       "options": [
         "menu-mcq-23",
-        "menu-mcq-22",
-        "menu-mcq-24",
-        "menu-mcq-21",
-        "menu-mcq-25",
-        "menu-mcq-20"
+        "menu-mcq-47",
+        "menu-mcq-22"
       ],
       "explanation": "本句的「menu」指「正式列於餐牌，可供點選」。",
       "sentenceIndex": 22,
@@ -1110,12 +1009,9 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-23": "本句指「正式列於餐牌，可供點選」。",
-        "menu-mcq-22": "「一餐／一天／一週所安排供應的菜式組合」與本句語境不同。",
-        "menu-mcq-24": "「沒有正式列在餐牌上的菜式」與本句語境不同。",
-        "menu-mcq-21": "「較正式用語：品嚐餐單」與本句語境不同。",
-        "menu-mcq-25": "「未公開列出但顧客可能知道可以要求的非正式選項」與本句語境不同。",
-        "menu-mcq-20": "「由主廚編排多道小份菜式的品嚐餐單」與本句語境不同。"
+        "menu-mcq-23": "本句的「menu」指「正式列於餐牌，可供點選」。",
+        "menu-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "menu-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-23"
     },
@@ -1127,11 +1023,7 @@ export default {
       "masked": "What's on the ____ for today's workshop?",
       "options": [
         "menu-mcq-28",
-        "menu-mcq-27",
-        "menu-mcq-29",
-        "menu-mcq-26",
-        "menu-mcq-30",
-        "menu-mcq-25"
+        "menu-mcq-04"
       ],
       "explanation": "本句的「menu」指「可供選擇的一系列方案／服務／活動」。",
       "sentenceIndex": 23,
@@ -1140,12 +1032,8 @@ export default {
         "menu"
       ],
       "optionReasons": {
-        "menu-mcq-28": "本句指「可供選擇的一系列方案／服務／活動」。",
-        "menu-mcq-27": "「把某新菜式加入正式供應」與本句語境不同。",
-        "menu-mcq-29": "「一組有系統地提供給人選擇的選項」與本句語境不同。",
-        "menu-mcq-26": "「把某菜式從供應餐牌撤下」與本句語境不同。",
-        "menu-mcq-30": "「被納入可考慮／可採用的選擇」與本句語境不同。",
-        "menu-mcq-25": "「未公開列出但顧客可能知道可以要求的非正式選項」與本句語境不同。"
+        "menu-mcq-28": "本句的「menu」指「可供選擇的一系列方案／服務／活動」。",
+        "menu-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "menu-mcq-28"
     }
@@ -1157,5 +1045,7 @@ export default {
     "sha256": "3e220581d819b9c87bc152e21394c6ea0fbb9da3822e0f53f4df9895f4bf87d7",
     "pages": 42
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

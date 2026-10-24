@@ -217,7 +217,7 @@ export default {
     },
     {
       "id": "nature-mcq-11",
-      "title": "表示屬於……的性質",
+      "title": "屬於……的性質",
       "form": "Useful expression: in the nature of something — 屬於……的性質",
       "en": "Useful expression: in the nature of something — 屬於……的性質",
       "zh": "表示屬於……的性質",
@@ -298,11 +298,7 @@ export default {
       "masked": "____ does not need to be loud to be powerful.",
       "options": [
         "nature-mcq-01",
-        "nature-mcq-02",
-        "nature-mcq-03",
-        "nature-mcq-04",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-mcq-11"
       ],
       "explanation": "本句的「Nature」指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
       "sentenceIndex": 0,
@@ -311,12 +307,8 @@ export default {
         "Nature"
       ],
       "optionReasons": {
-        "nature-mcq-01": "本句指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-01": "本句的「Nature」指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
+        "nature-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-01"
     },
@@ -328,11 +320,8 @@ export default {
       "masked": "She loves spending time in ____.",
       "options": [
         "nature-mcq-01",
-        "nature-mcq-02",
-        "nature-mcq-03",
         "nature-mcq-04",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-mcq-10"
       ],
       "explanation": "本句的「nature」指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
       "sentenceIndex": 1,
@@ -341,12 +330,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-01": "本句指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-01": "本句的「nature」指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-01"
     },
@@ -359,10 +345,7 @@ export default {
       "options": [
         "nature-mcq-01",
         "nature-mcq-02",
-        "nature-mcq-03",
-        "nature-mcq-04",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-mcq-10"
       ],
       "explanation": "本句的「nature」指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
       "sentenceIndex": 2,
@@ -371,12 +354,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-01": "本句指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-01": "本句的「nature」指「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」。",
+        "nature-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-01"
     },
@@ -388,11 +368,7 @@ export default {
       "masked": "We need to understand the true ____ of the problem.",
       "options": [
         "nature-mcq-02",
-        "nature-mcq-01",
-        "nature-mcq-03",
-        "nature-mcq-04",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-mcq-05"
       ],
       "explanation": "本句的「nature」指「某件事物最根本的特性、本質或基本性質」。",
       "sentenceIndex": 3,
@@ -401,12 +377,8 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-02": "本句指「某件事物最根本的特性、本質或基本性質」。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-02": "本句的「nature」指「某件事物最根本的特性、本質或基本性質」。",
+        "nature-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-02"
     },
@@ -418,11 +390,7 @@ export default {
       "masked": "The exact ____ of the damage is still unclear.",
       "options": [
         "nature-mcq-02",
-        "nature-mcq-01",
-        "nature-mcq-03",
-        "nature-mcq-04",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-pdf-002"
       ],
       "explanation": "本句的「nature」指「某件事物最根本的特性、本質或基本性質」。",
       "sentenceIndex": 4,
@@ -431,12 +399,8 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-02": "本句指「某件事物最根本的特性、本質或基本性質」。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-02": "本句的「nature」指「某件事物最根本的特性、本質或基本性質」。",
+        "nature-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-02"
     },
@@ -448,11 +412,7 @@ export default {
       "masked": "She has a generous ____.",
       "options": [
         "nature-mcq-03",
-        "nature-mcq-02",
-        "nature-mcq-04",
-        "nature-mcq-01",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「nature」指「一個人較根本、自然形成的性格、氣質或天性」。",
       "sentenceIndex": 5,
@@ -461,12 +421,8 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-03": "本句指「一個人較根本、自然形成的性格、氣質或天性」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-03": "本句的「nature」指「一個人較根本、自然形成的性格、氣質或天性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-03"
     },
@@ -478,11 +434,7 @@ export default {
       "masked": "He is quiet by ____.",
       "options": [
         "nature-mcq-03",
-        "nature-mcq-02",
-        "nature-mcq-04",
-        "nature-mcq-01",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「nature」指「一個人較根本、自然形成的性格、氣質或天性」。",
       "sentenceIndex": 6,
@@ -491,12 +443,8 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-03": "本句指「一個人較根本、自然形成的性格、氣質或天性」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-03": "本句的「nature」指「一個人較根本、自然形成的性格、氣質或天性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-03"
     },
@@ -508,11 +456,8 @@ export default {
       "masked": "It is in his ____ to help others.",
       "options": [
         "nature-pdf-001",
-        "nature-mcq-02",
-        "nature-mcq-04",
-        "nature-mcq-01",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-mcq-06",
+        "nature-mcq-04"
       ],
       "explanation": "本句的「nature」指「與生俱來、不是後天刻意學習形成的傾向或特質」。",
       "sentenceIndex": 7,
@@ -521,12 +466,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-pdf-001": "本句指「與生俱來、不是後天刻意學習形成的傾向或特質」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-pdf-001": "本句的「nature」指「與生俱來、不是後天刻意學習形成的傾向或特質」。",
+        "nature-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-pdf-001"
     },
@@ -538,11 +480,8 @@ export default {
       "masked": "Curiosity seems to be part of human ____.",
       "options": [
         "nature-pdf-001",
-        "nature-mcq-02",
-        "nature-mcq-04",
-        "nature-mcq-01",
-        "nature-mcq-05",
-        "nature-mcq-06"
+        "nature-mcq-06",
+        "nature-mcq-04"
       ],
       "explanation": "本句的「nature」指「與生俱來、不是後天刻意學習形成的傾向或特質」。",
       "sentenceIndex": 8,
@@ -551,12 +490,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-pdf-001": "本句指「與生俱來、不是後天刻意學習形成的傾向或特質」。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-pdf-001": "本句的「nature」指「與生俱來、不是後天刻意學習形成的傾向或特質」。",
+        "nature-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-pdf-001"
     },
@@ -568,11 +504,8 @@ export default {
       "masked": "The problems were mainly financial in ____.",
       "options": [
         "nature-mcq-04",
-        "nature-mcq-03",
-        "nature-mcq-05",
-        "nature-mcq-02",
-        "nature-mcq-06",
-        "nature-mcq-01"
+        "nature-mcq-09",
+        "nature-pdf-003"
       ],
       "explanation": "本句的「nature」指「某件事情所屬的性質或類型；通常屬於 essential-character 義」。",
       "sentenceIndex": 9,
@@ -581,12 +514,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-04": "本句指「某件事情所屬的性質或類型；通常屬於 essential-character 義」。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。"
+        "nature-mcq-04": "本句的「nature」指「某件事情所屬的性質或類型；通常屬於 essential-character 義」。",
+        "nature-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nature-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-04"
     },
@@ -598,11 +528,8 @@ export default {
       "masked": "They discussed matters of a personal ____.",
       "options": [
         "nature-mcq-04",
-        "nature-mcq-03",
-        "nature-mcq-05",
-        "nature-mcq-02",
-        "nature-mcq-06",
-        "nature-mcq-01"
+        "nature-mcq-09",
+        "nature-pdf-003"
       ],
       "explanation": "本句的「nature」指「某件事情所屬的性質或類型；通常屬於 essential-character 義」。",
       "sentenceIndex": 10,
@@ -611,12 +538,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-04": "本句指「某件事情所屬的性質或類型；通常屬於 essential-character 義」。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-01": "「由動植物、海洋、山川、天氣等非人工事物構成的自然世界」是「nature — natural world」的用法，與本句語境不同。"
+        "nature-mcq-04": "本句的「nature」指「某件事情所屬的性質或類型；通常屬於 essential-character 義」。",
+        "nature-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nature-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-04"
     },
@@ -628,11 +552,8 @@ export default {
       "masked": "The building was slowly reclaimed by ____.",
       "options": [
         "nature-mcq-09",
-        "nature-mcq-08",
         "nature-mcq-10",
-        "nature-mcq-07",
-        "nature-mcq-11",
-        "nature-mcq-06"
+        "nature-mcq-02"
       ],
       "explanation": "本句的「nature」指「自然界中自行運作的力量、規律和過程」。",
       "sentenceIndex": 11,
@@ -641,12 +562,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-09": "本句指「自然界中自行運作的力量、規律和過程」。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-10": "「因天生性格如此，而不是後天刻意形成」是「Useful expression: by nature — 天性上；本來」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-11": "「表示屬於……的性質」是「Useful expression: in the nature of something — 屬於……的性質」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-09": "本句的「nature」指「自然界中自行運作的力量、規律和過程」。",
+        "nature-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-09"
     },
@@ -658,11 +576,8 @@ export default {
       "masked": "You cannot completely control the forces of ____.",
       "options": [
         "nature-mcq-09",
-        "nature-mcq-08",
-        "nature-mcq-10",
-        "nature-mcq-07",
-        "nature-mcq-11",
-        "nature-mcq-06"
+        "nature-mcq-04",
+        "nature-pdf-003"
       ],
       "explanation": "本句的「nature」指「自然界中自行運作的力量、規律和過程」。",
       "sentenceIndex": 12,
@@ -671,12 +586,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-09": "本句指「自然界中自行運作的力量、規律和過程」。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-10": "「因天生性格如此，而不是後天刻意形成」是「Useful expression: by nature — 天性上；本來」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-11": "「表示屬於……的性質」是「Useful expression: in the nature of something — 屬於……的性質」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-09": "本句的「nature」指「自然界中自行運作的力量、規律和過程」。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nature-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-09"
     },
@@ -688,11 +600,7 @@ export default {
       "masked": "The beach has preserved much of its ____ beauty.",
       "options": [
         "nature-pdf-002",
-        "nature-mcq-04",
-        "nature-mcq-06",
-        "nature-mcq-03",
-        "nature-mcq-07",
-        "nature-mcq-02"
+        "nature-mcq-11"
       ],
       "explanation": "本句的「natural」指「由自然形成，而不是人工製造或改造的」。",
       "sentenceIndex": 13,
@@ -701,12 +609,8 @@ export default {
         "natural"
       ],
       "optionReasons": {
-        "nature-pdf-002": "本句指「由自然形成，而不是人工製造或改造的」。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。"
+        "nature-pdf-002": "本句的「natural」指「由自然形成，而不是人工製造或改造的」。",
+        "nature-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-pdf-002"
     },
@@ -718,10 +622,6 @@ export default {
       "masked": "It is ____ to feel nervous before an exam.",
       "options": [
         "nature-mcq-05",
-        "nature-mcq-04",
-        "nature-mcq-06",
-        "nature-mcq-03",
-        "nature-mcq-07",
         "nature-mcq-02"
       ],
       "explanation": "本句的「natural」指「天然的；自然形成的；正常自然的；天生的」。",
@@ -731,12 +631,8 @@ export default {
         "natural"
       ],
       "optionReasons": {
-        "nature-mcq-05": "本句指「天然的；自然形成的；正常自然的；天生的」。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。"
+        "nature-mcq-05": "本句的「natural」指「天然的；自然形成的；正常自然的；天生的」。",
+        "nature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-05"
     },
@@ -748,11 +644,8 @@ export default {
       "masked": "She has a ____ talent for music.",
       "options": [
         "nature-pdf-003",
-        "nature-mcq-04",
         "nature-mcq-06",
-        "nature-mcq-03",
-        "nature-mcq-07",
-        "nature-mcq-02"
+        "nature-mcq-11"
       ],
       "explanation": "本句的「natural」指「與生俱來，而不是後天訓練形成的」。",
       "sentenceIndex": 15,
@@ -761,12 +654,9 @@ export default {
         "natural"
       ],
       "optionReasons": {
-        "nature-pdf-003": "本句指「與生俱來，而不是後天訓練形成的」。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-02": "「某件事物最根本的特性、本質或基本性質」是「nature — essential character」的用法，與本句語境不同。"
+        "nature-pdf-003": "本句的「natural」指「與生俱來，而不是後天訓練形成的」。",
+        "nature-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-pdf-003"
     },
@@ -778,11 +668,8 @@ export default {
       "masked": "The plant grows ____ in this region.",
       "options": [
         "nature-mcq-06",
-        "nature-mcq-05",
-        "nature-mcq-07",
         "nature-mcq-04",
-        "nature-mcq-08",
-        "nature-mcq-03"
+        "nature-mcq-10"
       ],
       "explanation": "本句的「naturally」指「自然地；亦可表示「當然／不出所料地」」。",
       "sentenceIndex": 16,
@@ -791,12 +678,9 @@ export default {
         "naturally"
       ],
       "optionReasons": {
-        "nature-mcq-06": "本句指「自然地；亦可表示「當然／不出所料地」」。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。"
+        "nature-mcq-06": "本句的「naturally」指「自然地；亦可表示「當然／不出所料地」」。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-06"
     },
@@ -808,11 +692,8 @@ export default {
       "masked": "____, she was disappointed.",
       "options": [
         "nature-mcq-06",
-        "nature-mcq-05",
-        "nature-mcq-07",
-        "nature-mcq-04",
-        "nature-mcq-08",
-        "nature-mcq-03"
+        "nature-mcq-02",
+        "nature-pdf-003"
       ],
       "explanation": "本句的「Naturally」指「自然地；亦可表示「當然／不出所料地」」。",
       "sentenceIndex": 17,
@@ -821,12 +702,9 @@ export default {
         "Naturally"
       ],
       "optionReasons": {
-        "nature-mcq-06": "本句指「自然地；亦可表示「當然／不出所料地」」。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-03": "「一個人較根本、自然形成的性格、氣質或天性」是「nature — person's character」的用法，與本句語境不同。"
+        "nature-mcq-06": "本句的「Naturally」指「自然地；亦可表示「當然／不出所料地」」。",
+        "nature-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nature-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-06"
     },
@@ -838,11 +716,8 @@ export default {
       "masked": "The ____ spent years studying local wildlife.",
       "options": [
         "nature-mcq-07",
-        "nature-mcq-06",
-        "nature-mcq-08",
-        "nature-mcq-05",
-        "nature-mcq-09",
-        "nature-mcq-04"
+        "nature-mcq-04",
+        "nature-mcq-10"
       ],
       "explanation": "本句的「naturalist」指「研究或觀察自然界、動植物的人」。",
       "sentenceIndex": 18,
@@ -851,12 +726,9 @@ export default {
         "naturalist"
       ],
       "optionReasons": {
-        "nature-mcq-07": "本句指「研究或觀察自然界、動植物的人」。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。",
-        "nature-mcq-09": "「自然界中自行運作的力量、規律和過程」是「6. Nature = force/order governing the natural world（自然規律／自然力量） — 自然；自然規」的用法，與本句語境不同。",
-        "nature-mcq-04": "「某件事情所屬的性質或類型；通常屬於 essential-character 義」是「nature — type/kind」的用法，與本句語境不同。"
+        "nature-mcq-07": "本句的「naturalist」指「研究或觀察自然界、動植物的人」。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-07"
     },
@@ -868,11 +740,8 @@ export default {
       "masked": "The novel is often discussed in relation to literary ____.",
       "options": [
         "nature-mcq-08",
-        "nature-mcq-07",
-        "nature-mcq-09",
-        "nature-mcq-06",
-        "nature-mcq-10",
-        "nature-mcq-05"
+        "nature-mcq-02",
+        "nature-pdf-003"
       ],
       "explanation": "本句的「naturalism」指「自然主義；專門哲學／藝術／文學詞彙」。",
       "sentenceIndex": 19,
@@ -881,12 +750,9 @@ export default {
         "naturalism"
       ],
       "optionReasons": {
-        "nature-mcq-08": "本句指「自然主義；專門哲學／藝術／文學詞彙」。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-09": "「自然界中自行運作的力量、規律和過程」是「6. Nature = force/order governing the natural world（自然規律／自然力量） — 自然；自然規」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。",
-        "nature-mcq-10": "「因天生性格如此，而不是後天刻意形成」是「Useful expression: by nature — 天性上；本來」的用法，與本句語境不同。",
-        "nature-mcq-05": "「天然的；自然形成的；正常自然的；天生的」是「natural」的用法，與本句語境不同。"
+        "nature-mcq-08": "本句的「naturalism」指「自然主義；專門哲學／藝術／文學詞彙」。",
+        "nature-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "nature-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-08"
     },
@@ -898,11 +764,8 @@ export default {
       "masked": "She is cautious by ____.",
       "options": [
         "nature-mcq-10",
-        "nature-mcq-09",
-        "nature-mcq-11",
         "nature-mcq-08",
-        "nature-mcq-07",
-        "nature-mcq-06"
+        "nature-mcq-02"
       ],
       "explanation": "本句的「nature」指「因天生性格如此，而不是後天刻意形成」。",
       "sentenceIndex": 20,
@@ -911,12 +774,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-10": "本句指「因天生性格如此，而不是後天刻意形成」。",
-        "nature-mcq-09": "「自然界中自行運作的力量、規律和過程」是「6. Nature = force/order governing the natural world（自然規律／自然力量） — 自然；自然規」的用法，與本句語境不同。",
-        "nature-mcq-11": "「表示屬於……的性質」是「Useful expression: in the nature of something — 屬於……的性質」的用法，與本句語境不同。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-10": "本句的「nature」指「因天生性格如此，而不是後天刻意形成」。",
+        "nature-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-10"
     },
@@ -928,11 +788,8 @@ export default {
       "masked": "He is generous by ____.",
       "options": [
         "nature-mcq-10",
-        "nature-mcq-09",
-        "nature-mcq-11",
         "nature-mcq-08",
-        "nature-mcq-07",
-        "nature-mcq-06"
+        "nature-mcq-04"
       ],
       "explanation": "本句的「nature」指「因天生性格如此，而不是後天刻意形成」。",
       "sentenceIndex": 21,
@@ -941,12 +798,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-10": "本句指「因天生性格如此，而不是後天刻意形成」。",
-        "nature-mcq-09": "「自然界中自行運作的力量、規律和過程」是「6. Nature = force/order governing the natural world（自然規律／自然力量） — 自然；自然規」的用法，與本句語境不同。",
-        "nature-mcq-11": "「表示屬於……的性質」是「Useful expression: in the nature of something — 屬於……的性質」的用法，與本句語境不同。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-10": "本句的「nature」指「因天生性格如此，而不是後天刻意形成」。",
+        "nature-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nature-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-10"
     },
@@ -958,11 +812,8 @@ export default {
       "masked": "Some uncertainty is in the ____ of scientific research.",
       "options": [
         "nature-mcq-11",
-        "nature-mcq-10",
-        "nature-mcq-09",
         "nature-mcq-08",
-        "nature-mcq-07",
-        "nature-mcq-06"
+        "nature-pdf-003"
       ],
       "explanation": "本句的「nature」指「表示屬於……的性質」。",
       "sentenceIndex": 22,
@@ -971,12 +822,9 @@ export default {
         "nature"
       ],
       "optionReasons": {
-        "nature-mcq-11": "本句指「表示屬於……的性質」。",
-        "nature-mcq-10": "「因天生性格如此，而不是後天刻意形成」是「Useful expression: by nature — 天性上；本來」的用法，與本句語境不同。",
-        "nature-mcq-09": "「自然界中自行運作的力量、規律和過程」是「6. Nature = force/order governing the natural world（自然規律／自然力量） — 自然；自然規」的用法，與本句語境不同。",
-        "nature-mcq-08": "「自然主義；專門哲學／藝術／文學詞彙」是「naturalism」的用法，與本句語境不同。",
-        "nature-mcq-07": "「研究或觀察自然界、動植物的人」是「naturalist」的用法，與本句語境不同。",
-        "nature-mcq-06": "「自然地；亦可表示「當然／不出所料地」」是「naturally」的用法，與本句語境不同。"
+        "nature-mcq-11": "本句的「nature」指「表示屬於……的性質」。",
+        "nature-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nature-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nature-mcq-11"
     }
@@ -988,5 +836,12 @@ export default {
     "sha256": "1dac298bdb4c8508f87e91f91a2dae79a084d974bd1d3e861d204a4fe2ed131f",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

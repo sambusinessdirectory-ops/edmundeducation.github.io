@@ -218,11 +218,7 @@ export default {
       "masked": "What is the ____ of this word?",
       "options": [
         "meaning-mcq-01",
-        "meaning-mcq-02",
-        "meaning-mcq-03",
-        "meaning-mcq-04",
-        "meaning-mcq-05",
-        "meaning-mcq-06"
+        "meaning-mcq-09"
       ],
       "explanation": "本句的「meaning」指「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」。",
       "sentenceIndex": 0,
@@ -231,12 +227,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-01": "本句指「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-01": "本句的「meaning」指「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」。",
+        "meaning-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-01"
     },
@@ -248,11 +240,7 @@ export default {
       "masked": "I understood the sentence, but I wasn’t sure of its exact ____.",
       "options": [
         "meaning-mcq-01",
-        "meaning-mcq-02",
-        "meaning-mcq-03",
-        "meaning-mcq-04",
-        "meaning-mcq-05",
-        "meaning-mcq-06"
+        "meaning-mcq-09"
       ],
       "explanation": "本句的「meaning」指「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」。",
       "sentenceIndex": 1,
@@ -261,12 +249,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-01": "本句指「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-01": "本句的「meaning」指「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」。",
+        "meaning-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-01"
     },
@@ -278,10 +262,6 @@ export default {
       "masked": "He can turn a small, everyday scene into a story with texture, humour, and ____.",
       "options": [
         "meaning-mcq-02",
-        "meaning-mcq-01",
-        "meaning-mcq-03",
-        "meaning-mcq-04",
-        "meaning-mcq-05",
         "meaning-mcq-06"
       ],
       "explanation": "本句的「meaning」指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
@@ -291,12 +271,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-02": "本句指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-02": "本句的「meaning」指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
+        "meaning-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-02"
     },
@@ -308,10 +284,6 @@ export default {
       "masked": "The experience gave new ____ to her work.",
       "options": [
         "meaning-mcq-02",
-        "meaning-mcq-01",
-        "meaning-mcq-03",
-        "meaning-mcq-04",
-        "meaning-mcq-05",
         "meaning-mcq-06"
       ],
       "explanation": "本句的「meaning」指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
@@ -321,12 +293,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-02": "本句指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-02": "本句的「meaning」指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
+        "meaning-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-02"
     },
@@ -338,10 +306,6 @@ export default {
       "masked": "The story seems simple, but it has a deeper ____.",
       "options": [
         "meaning-mcq-02",
-        "meaning-mcq-01",
-        "meaning-mcq-03",
-        "meaning-mcq-04",
-        "meaning-mcq-05",
         "meaning-mcq-06"
       ],
       "explanation": "本句的「meaning」指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
@@ -351,12 +315,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-02": "本句指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-02": "本句的「meaning」指「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」。",
+        "meaning-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-02"
     },
@@ -368,11 +328,7 @@ export default {
       "masked": "I understood the ____ behind his remark.",
       "options": [
         "meaning-mcq-03",
-        "meaning-mcq-02",
-        "meaning-mcq-04",
-        "meaning-mcq-01",
-        "meaning-mcq-05",
-        "meaning-mcq-06"
+        "meaning-mcq-08"
       ],
       "explanation": "本句的「meaning」指「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」。",
       "sentenceIndex": 5,
@@ -381,12 +337,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-03": "本句指「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-03": "本句的「meaning」指「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」。",
+        "meaning-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-03"
     },
@@ -398,11 +350,7 @@ export default {
       "masked": "Her smile seemed friendly, but its ____ was difficult to read.",
       "options": [
         "meaning-mcq-03",
-        "meaning-mcq-02",
-        "meaning-mcq-04",
-        "meaning-mcq-01",
-        "meaning-mcq-05",
-        "meaning-mcq-06"
+        "meaning-mcq-08"
       ],
       "explanation": "本句的「meaning」指「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」。",
       "sentenceIndex": 6,
@@ -411,12 +359,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-03": "本句指「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。"
+        "meaning-mcq-03": "本句的「meaning」指「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」。",
+        "meaning-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-03"
     },
@@ -428,11 +372,7 @@ export default {
       "masked": "She wanted to find greater ____ in her work.",
       "options": [
         "meaning-mcq-09",
-        "meaning-mcq-08",
-        "meaning-mcq-07",
-        "meaning-mcq-06",
-        "meaning-mcq-05",
-        "meaning-mcq-04"
+        "meaning-mcq-01"
       ],
       "explanation": "本句的「meaning」指「令人生、工作或活動顯得值得、重要或具有目的感的價值」。",
       "sentenceIndex": 7,
@@ -441,12 +381,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-09": "本句指「令人生、工作或活動顯得值得、重要或具有目的感的價值」。",
-        "meaning-mcq-08": "「以帶有清楚含意、實質價值或重要性的方式」是「meaningfully」的用法，與本句語境不同。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。"
+        "meaning-mcq-09": "本句的「meaning」指「令人生、工作或活動顯得值得、重要或具有目的感的價值」。",
+        "meaning-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-09"
     },
@@ -458,11 +394,7 @@ export default {
       "masked": "Helping others gave his life a sense of ____.",
       "options": [
         "meaning-mcq-09",
-        "meaning-mcq-08",
-        "meaning-mcq-07",
-        "meaning-mcq-06",
-        "meaning-mcq-05",
-        "meaning-mcq-04"
+        "meaning-mcq-01"
       ],
       "explanation": "本句的「meaning」指「令人生、工作或活動顯得值得、重要或具有目的感的價值」。",
       "sentenceIndex": 8,
@@ -471,12 +403,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-09": "本句指「令人生、工作或活動顯得值得、重要或具有目的感的價值」。",
-        "meaning-mcq-08": "「以帶有清楚含意、實質價值或重要性的方式」是「meaningfully」的用法，與本句語境不同。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。"
+        "meaning-mcq-09": "本句的「meaning」指「令人生、工作或活動顯得值得、重要或具有目的感的價值」。",
+        "meaning-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-09"
     },
@@ -488,11 +416,7 @@ export default {
       "masked": "The full ____ of the decision became clear later.",
       "options": [
         "meaning-mcq-04",
-        "meaning-mcq-03",
-        "meaning-mcq-05",
-        "meaning-mcq-02",
-        "meaning-mcq-06",
-        "meaning-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「meaning」指「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」。",
       "sentenceIndex": 9,
@@ -501,12 +425,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-04": "本句指「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。"
+        "meaning-mcq-04": "本句的「meaning」指「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-04"
     },
@@ -518,11 +438,7 @@ export default {
       "masked": "Scientists are still discussing the ____ of the results.",
       "options": [
         "meaning-mcq-04",
-        "meaning-mcq-03",
-        "meaning-mcq-05",
-        "meaning-mcq-02",
-        "meaning-mcq-06",
-        "meaning-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「meaning」指「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」。",
       "sentenceIndex": 10,
@@ -531,12 +447,8 @@ export default {
         "meaning"
       ],
       "optionReasons": {
-        "meaning-mcq-04": "本句指「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-01": "「字詞、句子、符號或訊息所代表或傳達的概念和內容；意思／含義」是「meaning — semantic content」的用法，與本句語境不同。"
+        "meaning-mcq-04": "本句的「meaning」指「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-04"
     },
@@ -548,11 +460,7 @@ export default {
       "masked": "They had a ____ about their future.",
       "options": [
         "meaning-mcq-05",
-        "meaning-mcq-04",
-        "meaning-mcq-06",
-        "meaning-mcq-03",
-        "meaning-mcq-07",
-        "meaning-mcq-02"
+        "meaning-mcq-01"
       ],
       "explanation": "本句的「meaningful conversation」指「具有真正的重要性、價值、目的或情感份量的」。",
       "sentenceIndex": 11,
@@ -561,12 +469,8 @@ export default {
         "meaningful conversation"
       ],
       "optionReasons": {
-        "meaning-mcq-05": "本句指「具有真正的重要性、價值、目的或情感份量的」。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。"
+        "meaning-mcq-05": "本句的「meaningful conversation」指「具有真正的重要性、價值、目的或情感份量的」。",
+        "meaning-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-05"
     },
@@ -578,11 +482,7 @@ export default {
       "masked": "She wants to do ____.",
       "options": [
         "meaning-mcq-05",
-        "meaning-mcq-04",
-        "meaning-mcq-06",
-        "meaning-mcq-03",
-        "meaning-mcq-07",
-        "meaning-mcq-02"
+        "meaning-mcq-01"
       ],
       "explanation": "本句的「meaningful work」指「具有真正的重要性、價值、目的或情感份量的」。",
       "sentenceIndex": 12,
@@ -591,12 +491,8 @@ export default {
         "meaningful work"
       ],
       "optionReasons": {
-        "meaning-mcq-05": "本句指「具有真正的重要性、價值、目的或情感份量的」。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-02": "「某件事情所具有的較深層重要性、價值、目的或值得思考的內涵」是「meaning — significance/value」的用法，與本句語境不同。"
+        "meaning-mcq-05": "本句的「meaningful work」指「具有真正的重要性、價值、目的或情感份量的」。",
+        "meaning-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-05"
     },
@@ -608,11 +504,7 @@ export default {
       "masked": "They exchanged a ____.",
       "options": [
         "meaning-mcq-06",
-        "meaning-mcq-05",
-        "meaning-mcq-07",
-        "meaning-mcq-04",
-        "meaning-mcq-08",
-        "meaning-mcq-03"
+        "meaning-mcq-02"
       ],
       "explanation": "本句的「meaningful look」指「明顯帶有某種沒有直接說出口的訊息或含意的」。",
       "sentenceIndex": 13,
@@ -621,12 +513,8 @@ export default {
         "meaningful look"
       ],
       "optionReasons": {
-        "meaning-mcq-06": "本句指「明顯帶有某種沒有直接說出口的訊息或含意的」。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-08": "「以帶有清楚含意、實質價值或重要性的方式」是「meaningfully」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。"
+        "meaning-mcq-06": "本句的「meaningful look」指「明顯帶有某種沒有直接說出口的訊息或含意的」。",
+        "meaning-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-06"
     },
@@ -638,11 +526,7 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "meaning-mcq-06",
-        "meaning-mcq-05",
-        "meaning-mcq-07",
-        "meaning-mcq-04",
-        "meaning-mcq-08",
-        "meaning-mcq-03"
+        "meaning-mcq-02"
       ],
       "explanation": "本句的「meaningful smile」指「明顯帶有某種沒有直接說出口的訊息或含意的」。",
       "sentenceIndex": 14,
@@ -651,12 +535,8 @@ export default {
         "meaningful smile"
       ],
       "optionReasons": {
-        "meaning-mcq-06": "本句指「明顯帶有某種沒有直接說出口的訊息或含意的」。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。",
-        "meaning-mcq-08": "「以帶有清楚含意、實質價值或重要性的方式」是「meaningfully」的用法，與本句語境不同。",
-        "meaning-mcq-03": "「某人的說話、動作或表現背後想要傳達但未必直接說出的訊息或意圖」是「meaning — intended message」的用法，與本句語境不同。"
+        "meaning-mcq-06": "本句的「meaningful smile」指「明顯帶有某種沒有直接說出口的訊息或含意的」。",
+        "meaning-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-06"
     },
@@ -668,11 +548,7 @@ export default {
       "masked": "Without context, the numbers are almost ____.",
       "options": [
         "meaning-mcq-07",
-        "meaning-mcq-06",
-        "meaning-mcq-08",
-        "meaning-mcq-05",
-        "meaning-mcq-09",
-        "meaning-mcq-04"
+        "contrast-duration"
       ],
       "explanation": "本句的「meaningless」指「沒有清楚含義，或缺乏重要性、價值和目的的」。",
       "sentenceIndex": 15,
@@ -681,12 +557,8 @@ export default {
         "meaningless"
       ],
       "optionReasons": {
-        "meaning-mcq-07": "本句指「沒有清楚含義，或缺乏重要性、價值和目的的」。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-08": "「以帶有清楚含意、實質價值或重要性的方式」是「meaningfully」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-09": "「令人生、工作或活動顯得值得、重要或具有目的感的價值」是「4. meaning = purpose/reason for existence or activity（人生／活動） — 意義；目的」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。"
+        "meaning-mcq-07": "本句的「meaningless」指「沒有清楚含義，或缺乏重要性、價值和目的的」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-07"
     },
@@ -698,11 +570,7 @@ export default {
       "masked": "He felt that the routine had become ____.",
       "options": [
         "meaning-mcq-07",
-        "meaning-mcq-06",
-        "meaning-mcq-08",
-        "meaning-mcq-05",
-        "meaning-mcq-09",
-        "meaning-mcq-04"
+        "contrast-duration"
       ],
       "explanation": "本句的「meaningless」指「沒有清楚含義，或缺乏重要性、價值和目的的」。",
       "sentenceIndex": 16,
@@ -711,12 +579,8 @@ export default {
         "meaningless"
       ],
       "optionReasons": {
-        "meaning-mcq-07": "本句指「沒有清楚含義，或缺乏重要性、價值和目的的」。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-08": "「以帶有清楚含意、實質價值或重要性的方式」是「meaningfully」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-09": "「令人生、工作或活動顯得值得、重要或具有目的感的價值」是「4. meaning = purpose/reason for existence or activity（人生／活動） — 意義；目的」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。"
+        "meaning-mcq-07": "本句的「meaningless」指「沒有清楚含義，或缺乏重要性、價值和目的的」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-07"
     },
@@ -728,11 +592,7 @@ export default {
       "masked": "She looked at him ____.",
       "options": [
         "meaning-mcq-08",
-        "meaning-mcq-07",
-        "meaning-mcq-09",
-        "meaning-mcq-06",
-        "meaning-mcq-05",
-        "meaning-mcq-04"
+        "meaning-mcq-03"
       ],
       "explanation": "本句的「meaningfully」指「以帶有清楚含意、實質價值或重要性的方式」。",
       "sentenceIndex": 17,
@@ -741,12 +601,8 @@ export default {
         "meaningfully"
       ],
       "optionReasons": {
-        "meaning-mcq-08": "本句指「以帶有清楚含意、實質價值或重要性的方式」。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-09": "「令人生、工作或活動顯得值得、重要或具有目的感的價值」是「4. meaning = purpose/reason for existence or activity（人生／活動） — 意義；目的」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。"
+        "meaning-mcq-08": "本句的「meaningfully」指「以帶有清楚含意、實質價值或重要性的方式」。",
+        "meaning-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-08"
     },
@@ -758,11 +614,7 @@ export default {
       "masked": "We need to engage ____ with the issue.",
       "options": [
         "meaning-mcq-08",
-        "meaning-mcq-07",
-        "meaning-mcq-09",
-        "meaning-mcq-06",
-        "meaning-mcq-05",
-        "meaning-mcq-04"
+        "meaning-mcq-03"
       ],
       "explanation": "本句的「meaningfully」指「以帶有清楚含意、實質價值或重要性的方式」。",
       "sentenceIndex": 18,
@@ -771,12 +623,8 @@ export default {
         "meaningfully"
       ],
       "optionReasons": {
-        "meaning-mcq-08": "本句指「以帶有清楚含意、實質價值或重要性的方式」。",
-        "meaning-mcq-07": "「沒有清楚含義，或缺乏重要性、價值和目的的」是「meaningless」的用法，與本句語境不同。",
-        "meaning-mcq-09": "「令人生、工作或活動顯得值得、重要或具有目的感的價值」是「4. meaning = purpose/reason for existence or activity（人生／活動） — 意義；目的」的用法，與本句語境不同。",
-        "meaning-mcq-06": "「明顯帶有某種沒有直接說出口的訊息或含意的」是「meaningful — expressive」的用法，與本句語境不同。",
-        "meaning-mcq-05": "「具有真正的重要性、價值、目的或情感份量的」是「meaningful — significant」的用法，與本句語境不同。",
-        "meaning-mcq-04": "「某個結果、決定或發展所暗示的重要內容、影響或後果；與「重要性／含意」高度相關」是「meaning — implication/consequence」的用法，與本句語境不同。"
+        "meaning-mcq-08": "本句的「meaningfully」指「以帶有清楚含意、實質價值或重要性的方式」。",
+        "meaning-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meaning-mcq-08"
     }
@@ -788,5 +636,16 @@ export default {
     "sha256": "a471eb2715af39f716242e766d7568a30062f95d22026dd331eedde0c975e5aa",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

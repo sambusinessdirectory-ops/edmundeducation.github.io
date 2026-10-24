@@ -1239,11 +1239,7 @@ export default {
       "masked": "The aim is not to give away ____.",
       "options": [
         "profit-mcq-01",
-        "profit-mcq-02",
-        "profit-mcq-03",
-        "profit-mcq-04",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「利潤；盈利 passage sense」。",
       "sentenceIndex": 0,
@@ -1252,12 +1248,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-01": "本句指「利潤；盈利 passage sense」。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-01": "本句的「profit」指「利潤；盈利 passage sense」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-01"
     },
@@ -1269,11 +1261,7 @@ export default {
       "masked": "The company made a healthy ____ last year.",
       "options": [
         "profit-mcq-01",
-        "profit-mcq-02",
-        "profit-mcq-03",
-        "profit-mcq-04",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「利潤；盈利 passage sense」。",
       "sentenceIndex": 1,
@@ -1282,12 +1270,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-01": "本句指「利潤；盈利 passage sense」。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-01": "本句的「profit」指「利潤；盈利 passage sense」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-01"
     },
@@ -1299,11 +1283,7 @@ export default {
       "masked": "Higher sales do not automatically mean higher ____.",
       "options": [
         "profit-mcq-01",
-        "profit-mcq-02",
-        "profit-mcq-03",
-        "profit-mcq-04",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「利潤；盈利 passage sense」。",
       "sentenceIndex": 2,
@@ -1312,12 +1292,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-01": "本句指「利潤；盈利 passage sense」。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-01": "本句的「profit」指「利潤；盈利 passage sense」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-01"
     },
@@ -1329,11 +1305,8 @@ export default {
       "masked": "The business made a ____ in its first year.",
       "options": [
         "profit-mcq-02",
-        "profit-mcq-01",
-        "profit-mcq-03",
-        "profit-mcq-04",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「賺取盈利 positive earnings」。",
       "sentenceIndex": 3,
@@ -1342,12 +1315,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-02": "本句指「賺取盈利 positive earnings」。",
-        "profit-mcq-01": "「利潤；盈利 passage sense」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-02": "本句的「profit」指「賺取盈利 positive earnings」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-02"
     },
@@ -1359,11 +1329,8 @@ export default {
       "masked": "A company can increase sales without making a ____.",
       "options": [
         "profit-mcq-02",
-        "profit-mcq-01",
-        "profit-mcq-03",
-        "profit-mcq-04",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38",
+        "profit-mcq-29"
       ],
       "explanation": "本句的「profit」指「賺取盈利 positive earnings」。",
       "sentenceIndex": 4,
@@ -1372,12 +1339,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-02": "本句指「賺取盈利 positive earnings」。",
-        "profit-mcq-01": "「利潤；盈利 passage sense」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-02": "本句的「profit」指「賺取盈利 positive earnings」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-02"
     },
@@ -1389,11 +1353,8 @@ export default {
       "masked": "The retailer earned a ____ despite higher delivery costs.",
       "options": [
         "profit-mcq-03",
-        "profit-mcq-02",
-        "profit-mcq-04",
-        "profit-mcq-01",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38",
+        "profit-mcq-42"
       ],
       "explanation": "本句的「profit」指「賺取利潤 earnings」。",
       "sentenceIndex": 5,
@@ -1402,12 +1363,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-03": "本句指「賺取利潤 earnings」。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-01": "「利潤；盈利 passage sense」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-03": "本句的「profit」指「賺取利潤 earnings」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-03"
     },
@@ -1419,11 +1377,8 @@ export default {
       "masked": "Investors expect businesses to earn a reasonable ____.",
       "options": [
         "profit-mcq-03",
-        "profit-mcq-02",
-        "profit-mcq-04",
-        "profit-mcq-01",
-        "profit-mcq-05",
-        "profit-mcq-06"
+        "profit-mcq-38",
+        "profit-mcq-24"
       ],
       "explanation": "本句的「profit」指「賺取利潤 earnings」。",
       "sentenceIndex": 6,
@@ -1432,12 +1387,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-03": "本句指「賺取利潤 earnings」。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-01": "「利潤；盈利 passage sense」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-03": "本句的「profit」指「賺取利潤 earnings」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-03"
     },
@@ -1449,11 +1401,8 @@ export default {
       "masked": "The new product has not yet generated a ____.",
       "options": [
         "profit-mcq-04",
-        "profit-mcq-03",
-        "profit-mcq-05",
-        "profit-mcq-02",
-        "profit-mcq-06",
-        "profit-mcq-01"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「產生盈利 business result」。",
       "sentenceIndex": 7,
@@ -1462,12 +1411,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-04": "本句指「產生盈利 business result」。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-01": "「利潤；盈利 passage sense」與本句語境不同。"
+        "profit-mcq-04": "本句的「profit」指「產生盈利 business result」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-04"
     },
@@ -1479,11 +1425,8 @@ export default {
       "masked": "High demand does not guarantee that a product will generate ____.",
       "options": [
         "profit-mcq-04",
-        "profit-mcq-03",
-        "profit-mcq-05",
-        "profit-mcq-02",
-        "profit-mcq-06",
-        "profit-mcq-01"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「profit」指「產生盈利 business result」。",
       "sentenceIndex": 8,
@@ -1492,12 +1435,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-04": "本句指「產生盈利 business result」。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-01": "「利潤；盈利 passage sense」與本句語境不同。"
+        "profit-mcq-04": "本句的「profit」指「產生盈利 business result」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-04"
     },
@@ -1509,11 +1449,8 @@ export default {
       "masked": "The company finally turned a ____.",
       "options": [
         "profit-mcq-05",
-        "profit-mcq-04",
-        "profit-mcq-06",
-        "profit-mcq-03",
-        "profit-mcq-07",
-        "profit-mcq-02"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「開始／轉為盈利 cross into profitability」。",
       "sentenceIndex": 9,
@@ -1522,12 +1459,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-05": "本句指「開始／轉為盈利 cross into profitability」。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。"
+        "profit-mcq-05": "本句的「profit」指「開始／轉為盈利 cross into profitability」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-05"
     },
@@ -1539,11 +1473,8 @@ export default {
       "masked": "It took the new store two years to turn a ____.",
       "options": [
         "profit-mcq-05",
-        "profit-mcq-04",
-        "profit-mcq-06",
-        "profit-mcq-03",
-        "profit-mcq-07",
-        "profit-mcq-02"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「開始／轉為盈利 cross into profitability」。",
       "sentenceIndex": 10,
@@ -1552,12 +1483,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-05": "本句指「開始／轉為盈利 cross into profitability」。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-02": "「賺取盈利 positive earnings」與本句語境不同。"
+        "profit-mcq-05": "本句的「profit」指「開始／轉為盈利 cross into profitability」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-05"
     },
@@ -1569,11 +1497,8 @@ export default {
       "masked": "The investment eventually returned a ____.",
       "options": [
         "profit-mcq-06",
-        "profit-mcq-05",
-        "profit-mcq-07",
-        "profit-mcq-04",
-        "profit-mcq-08",
-        "profit-mcq-03"
+        "profit-mcq-38",
+        "profit-mcq-29"
       ],
       "explanation": "本句的「profit」指「帶來盈利 result」。",
       "sentenceIndex": 11,
@@ -1582,12 +1507,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-06": "本句指「帶來盈利 result」。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。"
+        "profit-mcq-06": "本句的「profit」指「帶來盈利 result」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-06"
     },
@@ -1599,11 +1521,8 @@ export default {
       "masked": "The new division has yet to return a ____.",
       "options": [
         "profit-mcq-06",
-        "profit-mcq-05",
-        "profit-mcq-07",
-        "profit-mcq-04",
-        "profit-mcq-08",
-        "profit-mcq-03"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「profit」指「帶來盈利 result」。",
       "sentenceIndex": 12,
@@ -1612,12 +1531,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-06": "本句指「帶來盈利 result」。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-03": "「賺取利潤 earnings」與本句語境不同。"
+        "profit-mcq-06": "本句的「profit」指「帶來盈利 result」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-06"
     },
@@ -1629,11 +1545,7 @@ export default {
       "masked": "The company recorded a ____ of $2 million.",
       "options": [
         "profit-mcq-07",
-        "profit-mcq-06",
-        "profit-mcq-08",
-        "profit-mcq-05",
-        "profit-mcq-09",
-        "profit-mcq-04"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「錄得盈利 reporting」。",
       "sentenceIndex": 13,
@@ -1642,12 +1554,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-07": "本句指「錄得盈利 reporting」。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。"
+        "profit-mcq-07": "本句的「profit」指「錄得盈利 reporting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-07"
     },
@@ -1659,11 +1567,7 @@ export default {
       "masked": "The division recorded its first annual ____.",
       "options": [
         "profit-mcq-07",
-        "profit-mcq-06",
-        "profit-mcq-08",
-        "profit-mcq-05",
-        "profit-mcq-09",
-        "profit-mcq-04"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「錄得盈利 reporting」。",
       "sentenceIndex": 14,
@@ -1672,12 +1576,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-07": "本句指「錄得盈利 reporting」。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-04": "「產生盈利 business result」與本句語境不同。"
+        "profit-mcq-07": "本句的「profit」指「錄得盈利 reporting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-07"
     },
@@ -1689,11 +1589,8 @@ export default {
       "masked": "The retailer reported a quarterly ____.",
       "options": [
         "profit-mcq-08",
-        "profit-mcq-07",
-        "profit-mcq-09",
-        "profit-mcq-06",
-        "profit-mcq-10",
-        "profit-mcq-05"
+        "profit-mcq-38",
+        "profit-mcq-29"
       ],
       "explanation": "本句的「profit」指「報告盈利 reporting」。",
       "sentenceIndex": 15,
@@ -1702,12 +1599,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-08": "本句指「報告盈利 reporting」。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。"
+        "profit-mcq-08": "本句的「profit」指「報告盈利 reporting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-08"
     },
@@ -1719,11 +1613,8 @@ export default {
       "masked": "The company reported higher ____ than expected.",
       "options": [
         "profit-mcq-08",
-        "profit-mcq-07",
-        "profit-mcq-09",
-        "profit-mcq-06",
-        "profit-mcq-10",
-        "profit-mcq-05"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profits」指「報告盈利 reporting」。",
       "sentenceIndex": 16,
@@ -1732,12 +1623,9 @@ export default {
         "profits"
       ],
       "optionReasons": {
-        "profit-mcq-08": "本句指「報告盈利 reporting」。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-05": "「開始／轉為盈利 cross into profitability」與本句語境不同。"
+        "profit-mcq-08": "本句的「profits」指「報告盈利 reporting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-08"
     },
@@ -1749,11 +1637,7 @@ export default {
       "masked": "The group posted a strong ____.",
       "options": [
         "profit-mcq-09",
-        "profit-mcq-08",
-        "profit-mcq-10",
-        "profit-mcq-07",
-        "profit-mcq-11",
-        "profit-mcq-06"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「錄得盈利 financial journalism」。",
       "sentenceIndex": 17,
@@ -1762,12 +1646,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-09": "本句指「錄得盈利 financial journalism」。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-09": "本句的「profit」指「錄得盈利 financial journalism」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-09"
     },
@@ -1779,11 +1659,7 @@ export default {
       "masked": "The business posted a ____ after two years of losses.",
       "options": [
         "profit-mcq-09",
-        "profit-mcq-08",
-        "profit-mcq-10",
-        "profit-mcq-07",
-        "profit-mcq-11",
-        "profit-mcq-06"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「錄得盈利 financial journalism」。",
       "sentenceIndex": 18,
@@ -1792,12 +1668,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-09": "本句指「錄得盈利 financial journalism」。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-06": "「帶來盈利 result」與本句語境不同。"
+        "profit-mcq-09": "本句的「profit」指「錄得盈利 financial journalism」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-09"
     },
@@ -1809,11 +1681,8 @@ export default {
       "masked": "____ rose sharply in the second half.",
       "options": [
         "profit-mcq-10",
-        "profit-mcq-09",
-        "profit-mcq-11",
-        "profit-mcq-08",
-        "profit-mcq-12",
-        "profit-mcq-07"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「Profit」指「盈利上升／下降 trend」。",
       "sentenceIndex": 19,
@@ -1822,12 +1691,9 @@ export default {
         "Profit"
       ],
       "optionReasons": {
-        "profit-mcq-10": "本句指「盈利上升／下降 trend」。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。"
+        "profit-mcq-10": "本句的「Profit」指「盈利上升／下降 trend」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-10"
     },
@@ -1839,11 +1705,8 @@ export default {
       "masked": "Rising return costs caused ____ to fall.",
       "options": [
         "profit-mcq-10",
-        "profit-mcq-09",
-        "profit-mcq-11",
-        "profit-mcq-08",
-        "profit-mcq-12",
-        "profit-mcq-07"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「盈利上升／下降 trend」。",
       "sentenceIndex": 20,
@@ -1852,12 +1715,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-10": "本句指「盈利上升／下降 trend」。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-07": "「錄得盈利 reporting」與本句語境不同。"
+        "profit-mcq-10": "本句的「profit」指「盈利上升／下降 trend」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-10"
     },
@@ -1869,11 +1729,7 @@ export default {
       "masked": "The report compares ____ and loss across the divisions.",
       "options": [
         "profit-mcq-11",
-        "profit-mcq-10",
-        "profit-mcq-12",
-        "profit-mcq-09",
-        "profit-mcq-13",
-        "profit-mcq-08"
+        "profit-mcq-26"
       ],
       "explanation": "本句的「profit」指「盈虧；損益 reporting」。",
       "sentenceIndex": 21,
@@ -1882,12 +1738,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-11": "本句指「盈虧；損益 reporting」。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。"
+        "profit-mcq-11": "本句的「profit」指「盈虧；損益 reporting」。",
+        "profit-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-11"
     },
@@ -1899,11 +1751,7 @@ export default {
       "masked": "Every business must monitor both revenue and ____ or loss.",
       "options": [
         "profit-mcq-11",
-        "profit-mcq-10",
-        "profit-mcq-12",
-        "profit-mcq-09",
-        "profit-mcq-13",
-        "profit-mcq-08"
+        "profit-mcq-13"
       ],
       "explanation": "本句的「profit」指「盈虧；損益 reporting」。",
       "sentenceIndex": 22,
@@ -1912,12 +1760,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-11": "本句指「盈虧；損益 reporting」。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。"
+        "profit-mcq-11": "本句的「profit」指「盈虧；損益 reporting」。",
+        "profit-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-11"
     },
@@ -1929,11 +1773,9 @@ export default {
       "masked": "The store is now operating at a ____.",
       "options": [
         "profit-mcq-12",
-        "profit-mcq-11",
-        "profit-mcq-13",
-        "profit-mcq-10",
-        "profit-mcq-14",
-        "profit-mcq-09"
+        "profit-mcq-58",
+        "profit-mcq-40",
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「盈利經營 positive result」。",
       "sentenceIndex": 23,
@@ -1942,12 +1784,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-12": "本句指「盈利經營 positive result」。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。"
+        "profit-mcq-12": "本句的「profit」指「盈利經營 positive result」。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-12"
     },
@@ -1959,11 +1799,9 @@ export default {
       "masked": "The service cannot continue unless it operates at a ____.",
       "options": [
         "profit-mcq-12",
+        "profit-mcq-58",
         "profit-mcq-11",
-        "profit-mcq-13",
-        "profit-mcq-10",
-        "profit-mcq-14",
-        "profit-mcq-09"
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「盈利經營 positive result」。",
       "sentenceIndex": 24,
@@ -1972,12 +1810,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-12": "本句指「盈利經營 positive result」。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。"
+        "profit-mcq-12": "本句的「profit」指「盈利經營 positive result」。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-12"
     },
@@ -1989,11 +1825,7 @@ export default {
       "masked": "Gross ____ increased as sourcing costs fell.",
       "options": [
         "profit-mcq-13",
-        "profit-mcq-12",
-        "profit-mcq-14",
-        "profit-mcq-11",
-        "profit-mcq-15",
-        "profit-mcq-10"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「毛利 accounting」。",
       "sentenceIndex": 25,
@@ -2002,12 +1834,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-13": "本句指「毛利 accounting」。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。"
+        "profit-mcq-13": "本句的「profit」指「毛利 accounting」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-13"
     },
@@ -2019,11 +1847,7 @@ export default {
       "masked": "Gross ____ is not the same as net profit.",
       "options": [
         "profit-mcq-13",
-        "profit-mcq-12",
-        "profit-mcq-14",
-        "profit-mcq-11",
-        "profit-mcq-15",
-        "profit-mcq-10"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「毛利 accounting」。",
       "sentenceIndex": 26,
@@ -2032,12 +1856,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-13": "本句指「毛利 accounting」。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。"
+        "profit-mcq-13": "本句的「profit」指「毛利 accounting」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-13"
     },
@@ -2049,11 +1869,7 @@ export default {
       "masked": "The gross ____ figure improved.",
       "options": [
         "profit-mcq-13",
-        "profit-mcq-12",
-        "profit-mcq-14",
-        "profit-mcq-11",
-        "profit-mcq-15",
-        "profit-mcq-10"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「毛利 accounting」。",
       "sentenceIndex": 27,
@@ -2062,12 +1878,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-13": "本句指「毛利 accounting」。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。"
+        "profit-mcq-13": "本句的「profit」指「毛利 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-13"
     },
@@ -2079,11 +1891,7 @@ export default {
       "masked": "High return costs can affect gross ____.",
       "options": [
         "profit-mcq-13",
-        "profit-mcq-12",
-        "profit-mcq-14",
-        "profit-mcq-11",
-        "profit-mcq-15",
-        "profit-mcq-10"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「毛利 accounting」。",
       "sentenceIndex": 28,
@@ -2092,12 +1900,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-13": "本句指「毛利 accounting」。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。"
+        "profit-mcq-13": "本句的「profit」指「毛利 accounting」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-13"
     },
@@ -2109,11 +1913,7 @@ export default {
       "masked": "The company reported a net ____ of $500,000.",
       "options": [
         "profit-mcq-14",
-        "profit-mcq-13",
-        "profit-mcq-15",
-        "profit-mcq-12",
-        "profit-mcq-16",
-        "profit-mcq-11"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「淨盈利 accounting」。",
       "sentenceIndex": 29,
@@ -2122,12 +1922,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-14": "本句指「淨盈利 accounting」。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。"
+        "profit-mcq-14": "本句的「profit」指「淨盈利 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-14"
     },
@@ -2139,11 +1935,7 @@ export default {
       "masked": "Net ____ takes account of more expenses than gross profit.",
       "options": [
         "profit-mcq-14",
-        "profit-mcq-13",
-        "profit-mcq-15",
-        "profit-mcq-12",
-        "profit-mcq-16",
-        "profit-mcq-11"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「淨盈利 accounting」。",
       "sentenceIndex": 30,
@@ -2152,12 +1944,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-14": "本句指「淨盈利 accounting」。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。"
+        "profit-mcq-14": "本句的「profit」指「淨盈利 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-14"
     },
@@ -2169,11 +1957,7 @@ export default {
       "masked": "Net ____ after tax increased.",
       "options": [
         "profit-mcq-14",
-        "profit-mcq-13",
-        "profit-mcq-15",
-        "profit-mcq-12",
-        "profit-mcq-16",
-        "profit-mcq-11"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「淨盈利 accounting」。",
       "sentenceIndex": 31,
@@ -2182,12 +1966,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-14": "本句指「淨盈利 accounting」。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。"
+        "profit-mcq-14": "本句的「profit」指「淨盈利 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-14"
     },
@@ -2199,11 +1979,7 @@ export default {
       "masked": "Investors often examine net ____ alongside cash flow.",
       "options": [
         "profit-mcq-14",
-        "profit-mcq-13",
-        "profit-mcq-15",
-        "profit-mcq-12",
-        "profit-mcq-16",
-        "profit-mcq-11"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「淨盈利 accounting」。",
       "sentenceIndex": 32,
@@ -2212,12 +1988,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-14": "本句指「淨盈利 accounting」。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-11": "「盈虧；損益 reporting」與本句語境不同。"
+        "profit-mcq-14": "本句的「profit」指「淨盈利 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-14"
     },
@@ -2229,11 +2001,8 @@ export default {
       "masked": "Operating ____ improved despite weak sales growth.",
       "options": [
         "profit-mcq-15",
-        "profit-mcq-14",
-        "profit-mcq-16",
-        "profit-mcq-13",
-        "profit-mcq-17",
-        "profit-mcq-12"
+        "profit-mcq-38",
+        "profit-mcq-42"
       ],
       "explanation": "本句的「profit」指「營業利潤 operations」。",
       "sentenceIndex": 33,
@@ -2242,12 +2011,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-15": "本句指「營業利潤 operations」。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。"
+        "profit-mcq-15": "本句的「profit」指「營業利潤 operations」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-15"
     },
@@ -2259,11 +2025,9 @@ export default {
       "masked": "Operating ____ focuses on profit from core operations before certain financing and tax items.",
       "options": [
         "profit-mcq-15",
-        "profit-mcq-14",
-        "profit-mcq-16",
-        "profit-mcq-13",
-        "profit-mcq-17",
-        "profit-mcq-12"
+        "profit-mcq-11",
+        "profit-mcq-54",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「營業利潤 operations」。",
       "sentenceIndex": 34,
@@ -2272,12 +2036,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-15": "本句指「營業利潤 operations」。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。"
+        "profit-mcq-15": "本句的「profit」指「營業利潤 operations」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-15"
     },
@@ -2289,11 +2051,8 @@ export default {
       "masked": "Pre-tax ____ rose by 8%.",
       "options": [
         "profit-mcq-16",
-        "profit-mcq-15",
-        "profit-mcq-17",
-        "profit-mcq-14",
-        "profit-mcq-18",
-        "profit-mcq-13"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「稅前盈利 tax stage」。",
       "sentenceIndex": 35,
@@ -2302,12 +2061,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-16": "本句指「稅前盈利 tax stage」。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。"
+        "profit-mcq-16": "本句的「profit」指「稅前盈利 tax stage」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-16"
     },
@@ -2319,11 +2075,8 @@ export default {
       "masked": "The report shows ____ before tax separately.",
       "options": [
         "profit-mcq-16",
-        "profit-mcq-15",
-        "profit-mcq-17",
-        "profit-mcq-14",
-        "profit-mcq-18",
-        "profit-mcq-13"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「稅前盈利 tax stage」。",
       "sentenceIndex": 36,
@@ -2332,12 +2085,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-16": "本句指「稅前盈利 tax stage」。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。"
+        "profit-mcq-16": "本句的「profit」指「稅前盈利 tax stage」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-16"
     },
@@ -2349,11 +2099,8 @@ export default {
       "masked": "____ after tax was lower than expected.",
       "options": [
         "profit-mcq-17",
-        "profit-mcq-16",
-        "profit-mcq-18",
-        "profit-mcq-15",
-        "profit-mcq-19",
-        "profit-mcq-14"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「Profit」指「稅後盈利 tax stage」。",
       "sentenceIndex": 37,
@@ -2362,12 +2109,9 @@ export default {
         "Profit"
       ],
       "optionReasons": {
-        "profit-mcq-17": "本句指「稅後盈利 tax stage」。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。"
+        "profit-mcq-17": "本句的「Profit」指「稅後盈利 tax stage」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-17"
     },
@@ -2379,11 +2123,8 @@ export default {
       "masked": "Tax changes can affect after-tax ____ without changing operating performance.",
       "options": [
         "profit-mcq-17",
-        "profit-mcq-16",
-        "profit-mcq-18",
-        "profit-mcq-15",
-        "profit-mcq-19",
-        "profit-mcq-14"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「稅後盈利 tax stage」。",
       "sentenceIndex": 38,
@@ -2392,12 +2133,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-17": "本句指「稅後盈利 tax stage」。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-14": "「淨盈利 accounting」與本句語境不同。"
+        "profit-mcq-17": "本句的「profit」指「稅後盈利 tax stage」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-17"
     },
@@ -2409,11 +2147,8 @@ export default {
       "masked": "Annual ____ reached a record level.",
       "options": [
         "profit-mcq-18",
-        "profit-mcq-17",
-        "profit-mcq-19",
-        "profit-mcq-16",
-        "profit-mcq-20",
-        "profit-mcq-15"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「年度盈利 period」。",
       "sentenceIndex": 39,
@@ -2422,12 +2157,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-18": "本句指「年度盈利 period」。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。"
+        "profit-mcq-18": "本句的「profit」指「年度盈利 period」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-18"
     },
@@ -2439,11 +2171,8 @@ export default {
       "masked": "Higher return rates reduced annual ____.",
       "options": [
         "profit-mcq-18",
-        "profit-mcq-17",
-        "profit-mcq-19",
-        "profit-mcq-16",
-        "profit-mcq-20",
-        "profit-mcq-15"
+        "profit-mcq-38",
+        "profit-mcq-29"
       ],
       "explanation": "本句的「profit」指「年度盈利 period」。",
       "sentenceIndex": 40,
@@ -2452,12 +2181,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-18": "本句指「年度盈利 period」。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-15": "「營業利潤 operations」與本句語境不同。"
+        "profit-mcq-18": "本句的「profit」指「年度盈利 period」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-18"
     },
@@ -2469,11 +2195,8 @@ export default {
       "masked": "Quarterly ____ fell slightly.",
       "options": [
         "profit-mcq-19",
-        "profit-mcq-18",
-        "profit-mcq-20",
-        "profit-mcq-17",
-        "profit-mcq-21",
-        "profit-mcq-16"
+        "profit-mcq-38",
+        "profit-mcq-15"
       ],
       "explanation": "本句的「profit」指「季度盈利 period」。",
       "sentenceIndex": 41,
@@ -2482,12 +2205,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-19": "本句指「季度盈利 period」。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。"
+        "profit-mcq-19": "本句的「profit」指「季度盈利 period」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-19"
     },
@@ -2499,11 +2219,8 @@ export default {
       "masked": "The company publishes quarterly ____ figures.",
       "options": [
         "profit-mcq-19",
-        "profit-mcq-18",
-        "profit-mcq-20",
-        "profit-mcq-17",
-        "profit-mcq-21",
-        "profit-mcq-16"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「profit」指「季度盈利 period」。",
       "sentenceIndex": 42,
@@ -2512,12 +2229,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-19": "本句指「季度盈利 period」。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-16": "「稅前盈利 tax stage」與本句語境不同。"
+        "profit-mcq-19": "本句的「profit」指「季度盈利 period」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-19"
     },
@@ -2529,11 +2243,7 @@ export default {
       "masked": "Total ____ depends on both margin and sales volume.",
       "options": [
         "profit-mcq-20",
-        "profit-mcq-19",
-        "profit-mcq-21",
-        "profit-mcq-18",
-        "profit-mcq-22",
-        "profit-mcq-17"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「總盈利 total」。",
       "sentenceIndex": 43,
@@ -2542,12 +2252,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-20": "本句指「總盈利 total」。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。"
+        "profit-mcq-20": "本句的「profit」指「總盈利 total」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-20"
     },
@@ -2559,11 +2265,7 @@ export default {
       "masked": "The pilot may reduce ____ per transaction but protect total profit through repeat purchases.",
       "options": [
         "profit-mcq-20",
-        "profit-mcq-19",
-        "profit-mcq-21",
-        "profit-mcq-18",
-        "profit-mcq-22",
-        "profit-mcq-17"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「總盈利 total」。",
       "sentenceIndex": 44,
@@ -2572,12 +2274,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-20": "本句指「總盈利 total」。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-17": "「稅後盈利 tax stage」與本句語境不同。"
+        "profit-mcq-20": "本句的「profit」指「總盈利 total」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-20"
     },
@@ -2589,11 +2287,7 @@ export default {
       "masked": "Returns can reduce the retailer's ____ margin.",
       "options": [
         "profit-mcq-21",
-        "profit-mcq-20",
-        "profit-mcq-22",
-        "profit-mcq-19",
-        "profit-mcq-23",
-        "profit-mcq-18"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「利潤率 profitability measure」。",
       "sentenceIndex": 45,
@@ -2602,12 +2296,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-21": "本句指「利潤率 profitability measure」。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。"
+        "profit-mcq-21": "本句的「profit」指「利潤率 profitability measure」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-21"
     },
@@ -2619,11 +2309,7 @@ export default {
       "masked": "Fast-fashion businesses may operate on relatively tight ____ margins.",
       "options": [
         "profit-mcq-21",
-        "profit-mcq-20",
-        "profit-mcq-22",
-        "profit-mcq-19",
-        "profit-mcq-23",
-        "profit-mcq-18"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「利潤率 profitability measure」。",
       "sentenceIndex": 46,
@@ -2632,12 +2318,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-21": "本句指「利潤率 profitability measure」。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-18": "「年度盈利 period」與本句語境不同。"
+        "profit-mcq-21": "本句的「profit」指「利潤率 profitability measure」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-21"
     },
@@ -2649,11 +2331,8 @@ export default {
       "masked": "The company expects slower ____ growth.",
       "options": [
         "profit-mcq-22",
-        "profit-mcq-21",
-        "profit-mcq-23",
-        "profit-mcq-20",
-        "profit-mcq-24",
-        "profit-mcq-19"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「盈利增長 trend」。",
       "sentenceIndex": 49,
@@ -2662,12 +2341,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-22": "本句指「盈利增長 trend」。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。"
+        "profit-mcq-22": "本句的「profit」指「盈利增長 trend」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-22"
     },
@@ -2679,11 +2355,8 @@ export default {
       "masked": "Repeat customers can support long-term ____ growth.",
       "options": [
         "profit-mcq-22",
-        "profit-mcq-21",
-        "profit-mcq-23",
-        "profit-mcq-20",
-        "profit-mcq-24",
-        "profit-mcq-19"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「盈利增長 trend」。",
       "sentenceIndex": 50,
@@ -2692,12 +2365,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-22": "本句指「盈利增長 trend」。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-19": "「季度盈利 period」與本句語境不同。"
+        "profit-mcq-22": "本句的「profit」指「盈利增長 trend」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-22"
     },
@@ -2709,11 +2379,8 @@ export default {
       "masked": "The division missed its ____ target.",
       "options": [
         "profit-mcq-23",
-        "profit-mcq-22",
-        "profit-mcq-24",
-        "profit-mcq-21",
-        "profit-mcq-25",
-        "profit-mcq-20"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「profit」指「盈利目標 management」。",
       "sentenceIndex": 51,
@@ -2722,12 +2389,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-23": "本句指「盈利目標 management」。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。"
+        "profit-mcq-23": "本句的「profit」指「盈利目標 management」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-23"
     },
@@ -2739,11 +2403,8 @@ export default {
       "masked": "Managers should not pursue ____ targets at the expense of customer trust.",
       "options": [
         "profit-mcq-23",
-        "profit-mcq-22",
-        "profit-mcq-24",
-        "profit-mcq-21",
-        "profit-mcq-25",
-        "profit-mcq-20"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「盈利目標 management」。",
       "sentenceIndex": 52,
@@ -2752,12 +2413,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-23": "本句指「盈利目標 management」。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-20": "「總盈利 total」與本句語境不同。"
+        "profit-mcq-23": "本句的「profit」指「盈利目標 management」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-23"
     },
@@ -2769,11 +2427,8 @@ export default {
       "masked": "Management revised its ____ forecast.",
       "options": [
         "profit-mcq-24",
-        "profit-mcq-23",
-        "profit-mcq-25",
-        "profit-mcq-22",
-        "profit-mcq-26",
-        "profit-mcq-21"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「盈利預測 forecasting」。",
       "sentenceIndex": 53,
@@ -2782,12 +2437,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-24": "本句指「盈利預測 forecasting」。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-21": "「利潤率 profitability measure」與本句語境不同。"
+        "profit-mcq-24": "本句的「profit」指「盈利預測 forecasting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-24"
     },
@@ -2799,11 +2451,8 @@ export default {
       "masked": "The company issued a ____ warning.",
       "options": [
         "profit-mcq-25",
-        "profit-mcq-24",
-        "profit-mcq-26",
-        "profit-mcq-23",
-        "profit-mcq-27",
-        "profit-mcq-22"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「盈利預警 investor communication」。",
       "sentenceIndex": 54,
@@ -2812,12 +2461,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-25": "本句指「盈利預警 investor communication」。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。"
+        "profit-mcq-25": "本句的「profit」指「盈利預警 investor communication」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-25"
     },
@@ -2829,11 +2475,8 @@ export default {
       "masked": "A ____ warning tells investors that expected profit is likely to be materially below earlier expectations.",
       "options": [
         "profit-mcq-25",
-        "profit-mcq-24",
-        "profit-mcq-26",
-        "profit-mcq-23",
-        "profit-mcq-27",
-        "profit-mcq-22"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「盈利預警 investor communication」。",
       "sentenceIndex": 55,
@@ -2842,12 +2485,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-25": "本句指「盈利預警 investor communication」。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-22": "「盈利增長 trend」與本句語境不同。"
+        "profit-mcq-25": "本句的「profit」指「盈利預警 investor communication」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-25"
     },
@@ -2859,11 +2499,7 @@ export default {
       "masked": "Each regional division operates as a ____ centre.",
       "options": [
         "profit-mcq-26",
-        "profit-mcq-25",
-        "profit-mcq-27",
-        "profit-mcq-24",
-        "profit-mcq-28",
-        "profit-mcq-23"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「利潤中心 management」。",
       "sentenceIndex": 56,
@@ -2872,12 +2508,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-26": "本句指「利潤中心 management」。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。"
+        "profit-mcq-26": "本句的「profit」指「利潤中心 management」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-26"
     },
@@ -2889,11 +2521,7 @@ export default {
       "masked": "A ____ centre is evaluated partly on the profit it generates.",
       "options": [
         "profit-mcq-26",
-        "profit-mcq-25",
-        "profit-mcq-27",
-        "profit-mcq-24",
-        "profit-mcq-28",
-        "profit-mcq-23"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「利潤中心 management」。",
       "sentenceIndex": 57,
@@ -2902,12 +2530,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-26": "本句指「利潤中心 management」。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-23": "「盈利目標 management」與本句語境不同。"
+        "profit-mcq-26": "本句的「profit」指「利潤中心 management」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-26"
     },
@@ -2919,11 +2543,9 @@ export default {
       "masked": "Employees participate in a ____ scheme.",
       "options": [
         "profit-mcq-27",
-        "profit-mcq-26",
-        "profit-mcq-28",
-        "profit-mcq-25",
-        "profit-mcq-29",
-        "profit-mcq-24"
+        "profit-mcq-11",
+        "profit-mcq-16",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit-sharing」指「利潤分享／分紅 employee reward」。",
       "sentenceIndex": 58,
@@ -2932,12 +2554,10 @@ export default {
         "profit-sharing"
       ],
       "optionReasons": {
-        "profit-mcq-27": "本句指「利潤分享／分紅 employee reward」。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-29": "「利潤最大化 economics」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。"
+        "profit-mcq-27": "本句的「profit-sharing」指「利潤分享／分紅 employee reward」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-27"
     },
@@ -2949,11 +2569,9 @@ export default {
       "masked": "____ links some employee rewards to company profitability.",
       "options": [
         "profit-mcq-27",
-        "profit-mcq-26",
-        "profit-mcq-28",
-        "profit-mcq-25",
-        "profit-mcq-29",
-        "profit-mcq-24"
+        "profit-mcq-11",
+        "profit-mcq-34",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「Profit-sharing」指「利潤分享／分紅 employee reward」。",
       "sentenceIndex": 59,
@@ -2962,12 +2580,10 @@ export default {
         "Profit-sharing"
       ],
       "optionReasons": {
-        "profit-mcq-27": "本句指「利潤分享／分紅 employee reward」。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。",
-        "profit-mcq-29": "「利潤最大化 economics」與本句語境不同。",
-        "profit-mcq-24": "「盈利預測 forecasting」與本句語境不同。"
+        "profit-mcq-27": "本句的「Profit-sharing」指「利潤分享／分紅 employee reward」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-27"
     },
@@ -2979,11 +2595,8 @@ export default {
       "masked": "The ____ motive influences many commercial decisions.",
       "options": [
         "profit-mcq-28",
-        "profit-mcq-27",
-        "profit-mcq-29",
-        "profit-mcq-26",
-        "profit-mcq-30",
-        "profit-mcq-25"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「盈利動機 economics」。",
       "sentenceIndex": 62,
@@ -2992,12 +2605,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-28": "本句指「盈利動機 economics」。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-29": "「利潤最大化 economics」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-30": "「盈利／牟利的 business」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。"
+        "profit-mcq-28": "本句的「profit」指「盈利動機 economics」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-28"
     },
@@ -3009,11 +2619,8 @@ export default {
       "masked": "A ____ motive does not automatically mean customer interests are ignored.",
       "options": [
         "profit-mcq-28",
-        "profit-mcq-27",
-        "profit-mcq-29",
-        "profit-mcq-26",
-        "profit-mcq-30",
-        "profit-mcq-25"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「盈利動機 economics」。",
       "sentenceIndex": 63,
@@ -3022,12 +2629,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-28": "本句指「盈利動機 economics」。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-29": "「利潤最大化 economics」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。",
-        "profit-mcq-30": "「盈利／牟利的 business」與本句語境不同。",
-        "profit-mcq-25": "「盈利預警 investor communication」與本句語境不同。"
+        "profit-mcq-28": "本句的「profit」指「盈利動機 economics」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-28"
     },
@@ -3039,11 +2643,8 @@ export default {
       "masked": "Short-term ____ maximisation may conflict with long-term customer loyalty.",
       "options": [
         "profit-mcq-29",
-        "profit-mcq-28",
-        "profit-mcq-30",
-        "profit-mcq-27",
-        "profit-mcq-31",
-        "profit-mcq-26"
+        "profit-mcq-38",
+        "profit-mcq-06"
       ],
       "explanation": "本句的「profit」指「利潤最大化 economics」。",
       "sentenceIndex": 64,
@@ -3052,12 +2653,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-29": "本句指「利潤最大化 economics」。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-30": "「盈利／牟利的 business」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-31": "「有利可圖的 financial success」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。"
+        "profit-mcq-29": "本句的「profit」指「利潤最大化 economics」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-29"
     },
@@ -3069,11 +2667,8 @@ export default {
       "masked": "Firms do not always pursue pure ____ maximisation.",
       "options": [
         "profit-mcq-29",
-        "profit-mcq-28",
-        "profit-mcq-30",
-        "profit-mcq-27",
-        "profit-mcq-31",
-        "profit-mcq-26"
+        "profit-mcq-38",
+        "profit-mcq-24"
       ],
       "explanation": "本句的「profit」指「利潤最大化 economics」。",
       "sentenceIndex": 65,
@@ -3082,12 +2677,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-29": "本句指「利潤最大化 economics」。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-30": "「盈利／牟利的 business」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。",
-        "profit-mcq-31": "「有利可圖的 financial success」與本句語境不同。",
-        "profit-mcq-26": "「利潤中心 management」與本句語境不同。"
+        "profit-mcq-29": "本句的「profit」指「利潤最大化 economics」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-29"
     },
@@ -3099,11 +2691,7 @@ export default {
       "masked": "The service became ____ after two years.",
       "options": [
         "profit-mcq-30",
-        "profit-mcq-29",
-        "profit-mcq-31",
-        "profit-mcq-28",
-        "profit-mcq-32",
-        "profit-mcq-27"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit-making」指「盈利／牟利的 business」。",
       "sentenceIndex": 66,
@@ -3112,12 +2700,8 @@ export default {
         "profit-making"
       ],
       "optionReasons": {
-        "profit-mcq-30": "本句指「盈利／牟利的 business」。",
-        "profit-mcq-29": "「利潤最大化 economics」與本句語境不同。",
-        "profit-mcq-31": "「有利可圖的 financial success」與本句語境不同。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-32": "「富有成果的討論 figurative benefit」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。"
+        "profit-mcq-30": "本句的「profit-making」指「盈利／牟利的 business」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-30"
     },
@@ -3129,11 +2713,7 @@ export default {
       "masked": "The company closed several non-____ activities.",
       "options": [
         "profit-mcq-30",
-        "profit-mcq-29",
-        "profit-mcq-31",
-        "profit-mcq-28",
-        "profit-mcq-32",
-        "profit-mcq-27"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit-making」指「盈利／牟利的 business」。",
       "sentenceIndex": 67,
@@ -3142,12 +2722,8 @@ export default {
         "profit-making"
       ],
       "optionReasons": {
-        "profit-mcq-30": "本句指「盈利／牟利的 business」。",
-        "profit-mcq-29": "「利潤最大化 economics」與本句語境不同。",
-        "profit-mcq-31": "「有利可圖的 financial success」與本句語境不同。",
-        "profit-mcq-28": "「盈利動機 economics」與本句語境不同。",
-        "profit-mcq-32": "「富有成果的討論 figurative benefit」與本句語境不同。",
-        "profit-mcq-27": "「利潤分享／分紅 employee reward」與本句語境不同。"
+        "profit-mcq-30": "本句的「profit-making」指「盈利／牟利的 business」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-30"
     },
@@ -3159,11 +2735,8 @@ export default {
       "masked": "Better inventory control may improve ____.",
       "options": [
         "profit-mcq-34",
-        "profit-mcq-33",
-        "profit-mcq-35",
-        "profit-mcq-32",
-        "profit-mcq-36",
-        "profit-mcq-31"
+        "profit-mcq-38",
+        "profit-mcq-29"
       ],
       "explanation": "本句的「profitability」指「提高盈利能力 management」。",
       "sentenceIndex": 82,
@@ -3172,12 +2745,9 @@ export default {
         "profitability"
       ],
       "optionReasons": {
-        "profit-mcq-34": "本句指「提高盈利能力 management」。",
-        "profit-mcq-33": "「盈利能力 capacity to profit」與本句語境不同。",
-        "profit-mcq-35": "「有盈利地／有成效地 adverb」與本句語境不同。",
-        "profit-mcq-32": "「富有成果的討論 figurative benefit」與本句語境不同。",
-        "profit-mcq-36": "「無利可圖的 poor financial result」與本句語境不同。",
-        "profit-mcq-31": "「有利可圖的 financial success」與本句語境不同。"
+        "profit-mcq-34": "本句的「profitability」指「提高盈利能力 management」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-34"
     },
@@ -3189,11 +2759,8 @@ export default {
       "masked": "Repeat business can improve long-term ____.",
       "options": [
         "profit-mcq-34",
-        "profit-mcq-33",
-        "profit-mcq-35",
-        "profit-mcq-32",
-        "profit-mcq-36",
-        "profit-mcq-31"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profitability」指「提高盈利能力 management」。",
       "sentenceIndex": 83,
@@ -3202,12 +2769,9 @@ export default {
         "profitability"
       ],
       "optionReasons": {
-        "profit-mcq-34": "本句指「提高盈利能力 management」。",
-        "profit-mcq-33": "「盈利能力 capacity to profit」與本句語境不同。",
-        "profit-mcq-35": "「有盈利地／有成效地 adverb」與本句語境不同。",
-        "profit-mcq-32": "「富有成果的討論 figurative benefit」與本句語境不同。",
-        "profit-mcq-36": "「無利可圖的 poor financial result」與本句語境不同。",
-        "profit-mcq-31": "「有利可圖的 financial success」與本句語境不同。"
+        "profit-mcq-34": "本句的「profitability」指「提高盈利能力 management」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-34"
     },
@@ -3219,11 +2783,8 @@ export default {
       "masked": "Good managers ____ from experience.",
       "options": [
         "profit-mcq-38",
-        "profit-mcq-37",
-        "profit-mcq-39",
-        "profit-mcq-36",
-        "profit-mcq-40",
-        "profit-mcq-35"
+        "profit-mcq-03",
+        "profit-mcq-47"
       ],
       "explanation": "本句的「profit」指「從經驗中得益 non-financial」。",
       "sentenceIndex": 98,
@@ -3232,12 +2793,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-38": "本句指「從經驗中得益 non-financial」。",
-        "profit-mcq-37": "「從 X 獲利／受益 verb」與本句語境不同。",
-        "profit-mcq-39": "「從他人不幸中牟利 negative」與本句語境不同。",
-        "profit-mcq-36": "「無利可圖的 poor financial result」與本句語境不同。",
-        "profit-mcq-40": "「犧牲別人利益來獲利 negative」與本句語境不同。",
-        "profit-mcq-35": "「有盈利地／有成效地 adverb」與本句語境不同。"
+        "profit-mcq-38": "本句的「profit」指「從經驗中得益 non-financial」。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-38"
     },
@@ -3249,11 +2807,7 @@ export default {
       "masked": "The company should ____ from what it learned during the pilot.",
       "options": [
         "profit-mcq-38",
-        "profit-mcq-37",
-        "profit-mcq-39",
-        "profit-mcq-36",
-        "profit-mcq-40",
-        "profit-mcq-35"
+        "profit-mcq-21"
       ],
       "explanation": "本句的「profit」指「從經驗中得益 non-financial」。",
       "sentenceIndex": 99,
@@ -3262,12 +2816,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-38": "本句指「從經驗中得益 non-financial」。",
-        "profit-mcq-37": "「從 X 獲利／受益 verb」與本句語境不同。",
-        "profit-mcq-39": "「從他人不幸中牟利 negative」與本句語境不同。",
-        "profit-mcq-36": "「無利可圖的 poor financial result」與本句語境不同。",
-        "profit-mcq-40": "「犧牲別人利益來獲利 negative」與本句語境不同。",
-        "profit-mcq-35": "「有盈利地／有成效地 adverb」與本句語境不同。"
+        "profit-mcq-38": "本句的「profit」指「從經驗中得益 non-financial」。",
+        "profit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-38"
     },
@@ -3279,11 +2829,9 @@ export default {
       "masked": "A business should not ____ at customers' expense through misleading information.",
       "options": [
         "profit-mcq-40",
-        "profit-mcq-39",
-        "profit-mcq-41",
-        "profit-mcq-38",
-        "profit-mcq-42",
-        "profit-mcq-37"
+        "profit-mcq-46",
+        "profit-mcq-15",
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「犧牲別人利益來獲利 negative」。",
       "sentenceIndex": 104,
@@ -3292,12 +2840,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-40": "本句指「犧牲別人利益來獲利 negative」。",
-        "profit-mcq-39": "「從他人不幸中牟利 negative」與本句語境不同。",
-        "profit-mcq-41": "「以牟利為目的 purpose」與本句語境不同。",
-        "profit-mcq-38": "「從經驗中得益 non-financial」與本句語境不同。",
-        "profit-mcq-42": "「有盈利地出售 transaction」與本句語境不同。",
-        "profit-mcq-37": "「從 X 獲利／受益 verb」與本句語境不同。"
+        "profit-mcq-40": "本句的「profit」指「犧牲別人利益來獲利 negative」。",
+        "profit-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-40"
     },
@@ -3309,11 +2855,9 @@ export default {
       "masked": "One department should not ____ at another's expense.",
       "options": [
         "profit-mcq-40",
-        "profit-mcq-39",
-        "profit-mcq-41",
-        "profit-mcq-38",
-        "profit-mcq-42",
-        "profit-mcq-37"
+        "profit-mcq-53",
+        "profit-mcq-11",
+        "profit-mcq-56"
       ],
       "explanation": "本句的「profit」指「犧牲別人利益來獲利 negative」。",
       "sentenceIndex": 105,
@@ -3322,12 +2866,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-40": "本句指「犧牲別人利益來獲利 negative」。",
-        "profit-mcq-39": "「從他人不幸中牟利 negative」與本句語境不同。",
-        "profit-mcq-41": "「以牟利為目的 purpose」與本句語境不同。",
-        "profit-mcq-38": "「從經驗中得益 non-financial」與本句語境不同。",
-        "profit-mcq-42": "「有盈利地出售 transaction」與本句語境不同。",
-        "profit-mcq-37": "「從 X 獲利／受益 verb」與本句語境不同。"
+        "profit-mcq-40": "本句的「profit」指「犧牲別人利益來獲利 negative」。",
+        "profit-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-40"
     },
@@ -3339,11 +2881,8 @@ export default {
       "masked": "The retailer bought the stock cheaply and sold it at a ____.",
       "options": [
         "profit-mcq-42",
-        "profit-mcq-41",
-        "profit-mcq-43",
-        "profit-mcq-40",
-        "profit-mcq-44",
-        "profit-mcq-39"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「有盈利地出售 transaction」。",
       "sentenceIndex": 108,
@@ -3352,12 +2891,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-42": "本句指「有盈利地出售 transaction」。",
-        "profit-mcq-41": "「以牟利為目的 purpose」與本句語境不同。",
-        "profit-mcq-43": "「非牟利的／機構 organisation」與本句語境不同。",
-        "profit-mcq-40": "「犧牲別人利益來獲利 negative」與本句語境不同。",
-        "profit-mcq-44": "「非牟利的 organisation」與本句語境不同。",
-        "profit-mcq-39": "「從他人不幸中牟利 negative」與本句語境不同。"
+        "profit-mcq-42": "本句的「profit」指「有盈利地出售 transaction」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-42"
     },
@@ -3369,11 +2905,8 @@ export default {
       "masked": "The property was later sold at a substantial ____.",
       "options": [
         "profit-mcq-42",
-        "profit-mcq-41",
-        "profit-mcq-43",
-        "profit-mcq-40",
-        "profit-mcq-44",
-        "profit-mcq-39"
+        "profit-mcq-38",
+        "profit-mcq-15"
       ],
       "explanation": "本句的「profit」指「有盈利地出售 transaction」。",
       "sentenceIndex": 109,
@@ -3382,12 +2915,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-42": "本句指「有盈利地出售 transaction」。",
-        "profit-mcq-41": "「以牟利為目的 purpose」與本句語境不同。",
-        "profit-mcq-43": "「非牟利的／機構 organisation」與本句語境不同。",
-        "profit-mcq-40": "「犧牲別人利益來獲利 negative」與本句語境不同。",
-        "profit-mcq-44": "「非牟利的 organisation」與本句語境不同。",
-        "profit-mcq-39": "「從他人不幸中牟利 negative」與本句語境不同。"
+        "profit-mcq-42": "本句的「profit」指「有盈利地出售 transaction」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-42"
     },
@@ -3399,11 +2929,7 @@ export default {
       "masked": "The centre is run on a not-for-____ basis.",
       "options": [
         "profit-mcq-44",
-        "profit-mcq-43",
-        "profit-mcq-45",
-        "profit-mcq-42",
-        "profit-mcq-46",
-        "profit-mcq-41"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「非牟利的 organisation」。",
       "sentenceIndex": 110,
@@ -3412,12 +2938,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-44": "本句指「非牟利的 organisation」。",
-        "profit-mcq-43": "「非牟利的／機構 organisation」與本句語境不同。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。",
-        "profit-mcq-42": "「有盈利地出售 transaction」與本句語境不同。",
-        "profit-mcq-46": "「盈利導向的 motivation」與本句語境不同。",
-        "profit-mcq-41": "「以牟利為目的 purpose」與本句語境不同。"
+        "profit-mcq-44": "本句的「profit」指「非牟利的 organisation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-44"
     },
@@ -3429,11 +2951,7 @@ export default {
       "masked": "It is a not-for-____ organisation.",
       "options": [
         "profit-mcq-44",
-        "profit-mcq-43",
-        "profit-mcq-45",
-        "profit-mcq-42",
-        "profit-mcq-46",
-        "profit-mcq-41"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「非牟利的 organisation」。",
       "sentenceIndex": 111,
@@ -3442,12 +2960,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-44": "本句指「非牟利的 organisation」。",
-        "profit-mcq-43": "「非牟利的／機構 organisation」與本句語境不同。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。",
-        "profit-mcq-42": "「有盈利地出售 transaction」與本句語境不同。",
-        "profit-mcq-46": "「盈利導向的 motivation」與本句語境不同。",
-        "profit-mcq-41": "「以牟利為目的 purpose」與本句語境不同。"
+        "profit-mcq-44": "本句的「profit」指「非牟利的 organisation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-44"
     },
@@ -3459,11 +2973,8 @@ export default {
       "masked": "The decision appeared excessively ____.",
       "options": [
         "profit-mcq-46",
-        "profit-mcq-45",
-        "profit-mcq-47",
-        "profit-mcq-44",
-        "profit-mcq-48",
-        "profit-mcq-43"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit-driven」指「盈利導向的 motivation」。",
       "sentenceIndex": 116,
@@ -3472,12 +2983,9 @@ export default {
         "profit-driven"
       ],
       "optionReasons": {
-        "profit-mcq-46": "本句指「盈利導向的 motivation」。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。",
-        "profit-mcq-47": "「以盈利為導向的 motivation」與本句語境不同。",
-        "profit-mcq-44": "「非牟利的 organisation」與本句語境不同。",
-        "profit-mcq-48": "「追求盈利的 motivation」與本句語境不同。",
-        "profit-mcq-43": "「非牟利的／機構 organisation」與本句語境不同。"
+        "profit-mcq-46": "本句的「profit-driven」指「盈利導向的 motivation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-46"
     },
@@ -3489,11 +2997,8 @@ export default {
       "masked": "____ decisions may still consider long-term customer trust.",
       "options": [
         "profit-mcq-46",
-        "profit-mcq-45",
-        "profit-mcq-47",
-        "profit-mcq-44",
-        "profit-mcq-48",
-        "profit-mcq-43"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「Profit-driven」指「盈利導向的 motivation」。",
       "sentenceIndex": 117,
@@ -3502,12 +3007,9 @@ export default {
         "Profit-driven"
       ],
       "optionReasons": {
-        "profit-mcq-46": "本句指「盈利導向的 motivation」。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。",
-        "profit-mcq-47": "「以盈利為導向的 motivation」與本句語境不同。",
-        "profit-mcq-44": "「非牟利的 organisation」與本句語境不同。",
-        "profit-mcq-48": "「追求盈利的 motivation」與本句語境不同。",
-        "profit-mcq-43": "「非牟利的／機構 organisation」與本句語境不同。"
+        "profit-mcq-46": "本句的「Profit-driven」指「盈利導向的 motivation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-46"
     },
@@ -3519,11 +3021,8 @@ export default {
       "masked": "The company is commercially ____.",
       "options": [
         "profit-mcq-47",
-        "profit-mcq-46",
-        "profit-mcq-48",
-        "profit-mcq-45",
-        "profit-mcq-49",
-        "profit-mcq-44"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「profit-oriented」指「以盈利為導向的 motivation」。",
       "sentenceIndex": 118,
@@ -3532,12 +3031,9 @@ export default {
         "profit-oriented"
       ],
       "optionReasons": {
-        "profit-mcq-47": "本句指「以盈利為導向的 motivation」。",
-        "profit-mcq-46": "「盈利導向的 motivation」與本句語境不同。",
-        "profit-mcq-48": "「追求盈利的 motivation」與本句語境不同。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。",
-        "profit-mcq-44": "「非牟利的 organisation」與本句語境不同。"
+        "profit-mcq-47": "本句的「profit-oriented」指「以盈利為導向的 motivation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-47"
     },
@@ -3549,11 +3045,8 @@ export default {
       "masked": "____ management focuses strongly on financial performance.",
       "options": [
         "profit-mcq-47",
-        "profit-mcq-46",
-        "profit-mcq-48",
-        "profit-mcq-45",
-        "profit-mcq-49",
-        "profit-mcq-44"
+        "profit-mcq-38",
+        "profit-mcq-57"
       ],
       "explanation": "本句的「Profit-oriented」指「以盈利為導向的 motivation」。",
       "sentenceIndex": 119,
@@ -3562,12 +3055,9 @@ export default {
         "Profit-oriented"
       ],
       "optionReasons": {
-        "profit-mcq-47": "本句指「以盈利為導向的 motivation」。",
-        "profit-mcq-46": "「盈利導向的 motivation」與本句語境不同。",
-        "profit-mcq-48": "「追求盈利的 motivation」與本句語境不同。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。",
-        "profit-mcq-44": "「非牟利的 organisation」與本句語境不同。"
+        "profit-mcq-47": "本句的「Profit-oriented」指「以盈利為導向的 motivation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-47"
     },
@@ -3579,11 +3069,8 @@ export default {
       "masked": "The firm is a ____ enterprise.",
       "options": [
         "profit-mcq-48",
-        "profit-mcq-47",
-        "profit-mcq-49",
-        "profit-mcq-46",
-        "profit-mcq-50",
-        "profit-mcq-45"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit-seeking」指「追求盈利的 motivation」。",
       "sentenceIndex": 120,
@@ -3592,12 +3079,9 @@ export default {
         "profit-seeking"
       ],
       "optionReasons": {
-        "profit-mcq-48": "本句指「追求盈利的 motivation」。",
-        "profit-mcq-47": "「以盈利為導向的 motivation」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。",
-        "profit-mcq-46": "「盈利導向的 motivation」與本句語境不同。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。"
+        "profit-mcq-48": "本句的「profit-seeking」指「追求盈利的 motivation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-48"
     },
@@ -3609,11 +3093,8 @@ export default {
       "masked": "____ behaviour is not identical to illegal profiteering.",
       "options": [
         "profit-mcq-48",
-        "profit-mcq-47",
-        "profit-mcq-49",
-        "profit-mcq-46",
-        "profit-mcq-50",
-        "profit-mcq-45"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「Profit-seeking」指「追求盈利的 motivation」。",
       "sentenceIndex": 121,
@@ -3622,12 +3103,9 @@ export default {
         "Profit-seeking"
       ],
       "optionReasons": {
-        "profit-mcq-48": "本句指「追求盈利的 motivation」。",
-        "profit-mcq-47": "「以盈利為導向的 motivation」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。",
-        "profit-mcq-46": "「盈利導向的 motivation」與本句語境不同。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。",
-        "profit-mcq-45": "「牟利的 organisation」與本句語境不同。"
+        "profit-mcq-48": "本句的「Profit-seeking」指「追求盈利的 motivation」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-48"
     },
@@ -3639,11 +3117,7 @@ export default {
       "masked": "The shares show a large paper ____.",
       "options": [
         "profit-mcq-51",
-        "profit-mcq-50",
-        "profit-mcq-52",
-        "profit-mcq-49",
-        "profit-mcq-53",
-        "profit-mcq-48"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「帳面盈利 unrealised gain」。",
       "sentenceIndex": 128,
@@ -3652,12 +3126,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-51": "本句指「帳面盈利 unrealised gain」。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-48": "「追求盈利的 motivation」與本句語境不同。"
+        "profit-mcq-51": "本句的「profit」指「帳面盈利 unrealised gain」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-51"
     },
@@ -3669,11 +3139,7 @@ export default {
       "masked": "Paper ____ can disappear if prices fall before the asset is sold.",
       "options": [
         "profit-mcq-51",
-        "profit-mcq-50",
-        "profit-mcq-52",
-        "profit-mcq-49",
-        "profit-mcq-53",
-        "profit-mcq-48"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profits」指「帳面盈利 unrealised gain」。",
       "sentenceIndex": 129,
@@ -3682,12 +3148,8 @@ export default {
         "profits"
       ],
       "optionReasons": {
-        "profit-mcq-51": "本句指「帳面盈利 unrealised gain」。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-48": "「追求盈利的 motivation」與本句語境不同。"
+        "profit-mcq-51": "本句的「profits」指「帳面盈利 unrealised gain」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-51"
     },
@@ -3699,11 +3161,8 @@ export default {
       "masked": "Selling the asset converted the paper gain into a realised ____.",
       "options": [
         "profit-mcq-52",
-        "profit-mcq-51",
-        "profit-mcq-53",
-        "profit-mcq-50",
-        "profit-mcq-54",
-        "profit-mcq-49"
+        "profit-mcq-38",
+        "profit-mcq-15"
       ],
       "explanation": "本句的「profit」指「已實現盈利 completed gain」。",
       "sentenceIndex": 130,
@@ -3712,12 +3171,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-52": "本句指「已實現盈利 completed gain」。",
-        "profit-mcq-51": "「帳面盈利 unrealised gain」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。"
+        "profit-mcq-52": "本句的「profit」指「已實現盈利 completed gain」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-52"
     },
@@ -3729,11 +3185,8 @@ export default {
       "masked": "Realised ____ results from a completed transaction.",
       "options": [
         "profit-mcq-52",
-        "profit-mcq-51",
-        "profit-mcq-53",
-        "profit-mcq-50",
-        "profit-mcq-54",
-        "profit-mcq-49"
+        "profit-mcq-38",
+        "profit-mcq-58"
       ],
       "explanation": "本句的「profit」指「已實現盈利 completed gain」。",
       "sentenceIndex": 131,
@@ -3742,12 +3195,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-52": "本句指「已實現盈利 completed gain」。",
-        "profit-mcq-51": "「帳面盈利 unrealised gain」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-49": "「牟取暴利者 unethical gain」與本句語境不同。"
+        "profit-mcq-52": "本句的「profit」指「已實現盈利 completed gain」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-52"
     },
@@ -3759,11 +3209,8 @@ export default {
       "masked": "The portfolio contains substantial unrealised ____.",
       "options": [
         "profit-mcq-53",
-        "profit-mcq-52",
-        "profit-mcq-54",
-        "profit-mcq-51",
-        "profit-mcq-55",
-        "profit-mcq-50"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profits」指「未實現盈利 valuation gain」。",
       "sentenceIndex": 132,
@@ -3772,12 +3219,9 @@ export default {
         "profits"
       ],
       "optionReasons": {
-        "profit-mcq-53": "本句指「未實現盈利 valuation gain」。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-51": "「帳面盈利 unrealised gain」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。"
+        "profit-mcq-53": "本句的「profits」指「未實現盈利 valuation gain」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-53"
     },
@@ -3789,11 +3233,8 @@ export default {
       "masked": "Unrealised ____ may change as market prices change.",
       "options": [
         "profit-mcq-53",
-        "profit-mcq-52",
-        "profit-mcq-54",
-        "profit-mcq-51",
-        "profit-mcq-55",
-        "profit-mcq-50"
+        "profit-mcq-38",
+        "profit-mcq-29"
       ],
       "explanation": "本句的「profit」指「未實現盈利 valuation gain」。",
       "sentenceIndex": 133,
@@ -3802,12 +3243,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-53": "本句指「未實現盈利 valuation gain」。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-51": "「帳面盈利 unrealised gain」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-50": "「趁機牟取暴利 unethical gain」與本句語境不同。"
+        "profit-mcq-53": "本句的「profit」指「未實現盈利 valuation gain」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-53"
     },
@@ -3819,11 +3257,8 @@ export default {
       "masked": "The price shock produced windfall ____ for some firms.",
       "options": [
         "profit-mcq-54",
-        "profit-mcq-53",
-        "profit-mcq-55",
-        "profit-mcq-52",
-        "profit-mcq-56",
-        "profit-mcq-51"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profits」指「意外巨額盈利 unusual conditions」。",
       "sentenceIndex": 134,
@@ -3832,12 +3267,9 @@ export default {
         "profits"
       ],
       "optionReasons": {
-        "profit-mcq-54": "本句指「意外巨額盈利 unusual conditions」。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-51": "「帳面盈利 unrealised gain」與本句語境不同。"
+        "profit-mcq-54": "本句的「profits」指「意外巨額盈利 unusual conditions」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-54"
     },
@@ -3849,11 +3281,8 @@ export default {
       "masked": "Windfall ____ usually arises from unusual external conditions rather than ordinary planned improvement.",
       "options": [
         "profit-mcq-54",
-        "profit-mcq-53",
-        "profit-mcq-55",
-        "profit-mcq-52",
-        "profit-mcq-56",
-        "profit-mcq-51"
+        "profit-mcq-38",
+        "profit-mcq-03"
       ],
       "explanation": "本句的「profit」指「意外巨額盈利 unusual conditions」。",
       "sentenceIndex": 135,
@@ -3862,12 +3291,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-54": "本句指「意外巨額盈利 unusual conditions」。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-51": "「帳面盈利 unrealised gain」與本句語境不同。"
+        "profit-mcq-54": "本句的「profit」指「意外巨額盈利 unusual conditions」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-54"
     },
@@ -3879,11 +3305,7 @@ export default {
       "masked": "The firm reported a positive accounting ____.",
       "options": [
         "profit-mcq-55",
-        "profit-mcq-54",
-        "profit-mcq-56",
-        "profit-mcq-53",
-        "profit-mcq-57",
-        "profit-mcq-52"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「會計利潤 accounting」。",
       "sentenceIndex": 136,
@@ -3892,12 +3314,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-55": "本句指「會計利潤 accounting」。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。"
+        "profit-mcq-55": "本句的「profit」指「會計利潤 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-55"
     },
@@ -3909,11 +3327,7 @@ export default {
       "masked": "Accounting ____ uses recorded revenues and accounting expenses.",
       "options": [
         "profit-mcq-55",
-        "profit-mcq-54",
-        "profit-mcq-56",
-        "profit-mcq-53",
-        "profit-mcq-57",
-        "profit-mcq-52"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profit」指「會計利潤 accounting」。",
       "sentenceIndex": 137,
@@ -3922,12 +3336,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-55": "本句指「會計利潤 accounting」。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-52": "「已實現盈利 completed gain」與本句語境不同。"
+        "profit-mcq-55": "本句的「profit」指「會計利潤 accounting」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-55"
     },
@@ -3939,11 +3349,9 @@ export default {
       "masked": "A company can earn accounting ____ but little or no economic profit.",
       "options": [
         "profit-mcq-56",
-        "profit-mcq-55",
-        "profit-mcq-57",
-        "profit-mcq-54",
-        "profit-mcq-58",
-        "profit-mcq-53"
+        "profit-mcq-11",
+        "profit-mcq-18",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「經濟利潤 economics」。",
       "sentenceIndex": 138,
@@ -3952,12 +3360,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-56": "本句指「經濟利潤 economics」。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。"
+        "profit-mcq-56": "本句的「profit」指「經濟利潤 economics」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-56"
     },
@@ -3969,11 +3375,9 @@ export default {
       "masked": "Economic ____ considers opportunity costs in addition to explicit costs.",
       "options": [
         "profit-mcq-56",
-        "profit-mcq-55",
-        "profit-mcq-57",
-        "profit-mcq-54",
-        "profit-mcq-58",
-        "profit-mcq-53"
+        "profit-mcq-11",
+        "profit-mcq-02",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「經濟利潤 economics」。",
       "sentenceIndex": 139,
@@ -3982,12 +3386,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-56": "本句指「經濟利潤 economics」。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-53": "「未實現盈利 valuation gain」與本句語境不同。"
+        "profit-mcq-56": "本句的「profit」指「經濟利潤 economics」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-56"
     },
@@ -3999,11 +3401,9 @@ export default {
       "masked": "In economics, normal ____ is treated as part of the opportunity cost of keeping resources in their current use.",
       "options": [
         "profit-mcq-57",
-        "profit-mcq-56",
-        "profit-mcq-58",
-        "profit-mcq-55",
-        "profit-mcq-59",
-        "profit-mcq-54"
+        "profit-mcq-11",
+        "profit-mcq-17",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「正常利潤 economics」。",
       "sentenceIndex": 140,
@@ -4012,12 +3412,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-57": "本句指「正常利潤 economics」。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。"
+        "profit-mcq-57": "本句的「profit」指「正常利潤 economics」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-57"
     },
@@ -4029,11 +3427,9 @@ export default {
       "masked": "Normal ____ is not the same as zero accounting profit.",
       "options": [
         "profit-mcq-57",
-        "profit-mcq-56",
-        "profit-mcq-58",
-        "profit-mcq-55",
-        "profit-mcq-59",
-        "profit-mcq-54"
+        "profit-mcq-11",
+        "profit-mcq-23",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「正常利潤 economics」。",
       "sentenceIndex": 141,
@@ -4042,12 +3438,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-57": "本句指「正常利潤 economics」。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-54": "「意外巨額盈利 unusual conditions」與本句語境不同。"
+        "profit-mcq-57": "本句的「profit」指「正常利潤 economics」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-57"
     },
@@ -4059,11 +3453,8 @@ export default {
       "masked": "Firms may earn supernormal ____ when barriers to entry are high.",
       "options": [
         "profit-mcq-58",
-        "profit-mcq-57",
-        "profit-mcq-59",
-        "profit-mcq-56",
-        "profit-mcq-60",
-        "profit-mcq-55"
+        "profit-mcq-38",
+        "profit-mcq-52"
       ],
       "explanation": "本句的「profits」指「超額利潤 economics」。",
       "sentenceIndex": 142,
@@ -4072,12 +3463,9 @@ export default {
         "profits"
       ],
       "optionReasons": {
-        "profit-mcq-58": "本句指「超額利潤 economics」。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-60": "「獲利了結 trading」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。"
+        "profit-mcq-58": "本句的「profits」指「超額利潤 economics」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-58"
     },
@@ -4089,11 +3477,9 @@ export default {
       "masked": "The term compares actual economic ____ with the normal-profit benchmark.",
       "options": [
         "profit-mcq-58",
-        "profit-mcq-57",
-        "profit-mcq-59",
-        "profit-mcq-56",
-        "profit-mcq-60",
-        "profit-mcq-55"
+        "profit-mcq-11",
+        "profit-mcq-10",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「超額利潤 economics」。",
       "sentenceIndex": 143,
@@ -4102,12 +3488,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-58": "本句指「超額利潤 economics」。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。",
-        "profit-mcq-60": "「獲利了結 trading」與本句語境不同。",
-        "profit-mcq-55": "「會計利潤 accounting」與本句語境不同。"
+        "profit-mcq-58": "本句的「profit」指「超額利潤 economics」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-58"
     },
@@ -4119,11 +3503,9 @@ export default {
       "masked": "Managers reviewed the monthly ____ and loss statement.",
       "options": [
         "profit-mcq-11",
-        "profit-mcq-10",
-        "profit-mcq-12",
-        "profit-mcq-09",
-        "profit-mcq-13",
-        "profit-mcq-08"
+        "profit-mcq-57",
+        "profit-mcq-46",
+        "profit-mcq-40"
       ],
       "explanation": "本句的「profit」指「盈虧；損益 reporting」。",
       "sentenceIndex": 144,
@@ -4132,12 +3514,10 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-11": "本句指「盈虧；損益 reporting」。",
-        "profit-mcq-10": "「盈利上升／下降 trend」與本句語境不同。",
-        "profit-mcq-12": "「盈利經營 positive result」與本句語境不同。",
-        "profit-mcq-09": "「錄得盈利 financial journalism」與本句語境不同。",
-        "profit-mcq-13": "「毛利 accounting」與本句語境不同。",
-        "profit-mcq-08": "「報告盈利 reporting」與本句語境不同。"
+        "profit-mcq-11": "本句的「profit」指「盈虧；損益 reporting」。",
+        "profit-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-11"
     },
@@ -4149,11 +3529,7 @@ export default {
       "masked": "Some investors took ____ after the price rose sharply.",
       "options": [
         "profit-mcq-60",
-        "profit-mcq-59",
-        "profit-mcq-61",
-        "profit-mcq-58",
-        "profit-mcq-57",
-        "profit-mcq-56"
+        "profit-mcq-38"
       ],
       "explanation": "本句的「profits」指「獲利了結 trading」。",
       "sentenceIndex": 145,
@@ -4162,12 +3538,8 @@ export default {
         "profits"
       ],
       "optionReasons": {
-        "profit-mcq-60": "本句指「獲利了結 trading」。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-61": "「鎖定盈利 trading」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。"
+        "profit-mcq-60": "本句的「profits」指「獲利了結 trading」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-60"
     },
@@ -4179,11 +3551,7 @@ export default {
       "masked": "Traders may take ____ when a target price is reached.",
       "options": [
         "profit-mcq-60",
-        "profit-mcq-59",
-        "profit-mcq-61",
-        "profit-mcq-58",
-        "profit-mcq-57",
-        "profit-mcq-56"
+        "profit-mcq-11"
       ],
       "explanation": "本句的「profit」指「獲利了結 trading」。",
       "sentenceIndex": 146,
@@ -4192,12 +3560,8 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-60": "本句指「獲利了結 trading」。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-61": "「鎖定盈利 trading」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。"
+        "profit-mcq-60": "本句的「profit」指「獲利了結 trading」。",
+        "profit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-60"
     },
@@ -4209,11 +3573,8 @@ export default {
       "masked": "She sold part of the position to lock in a ____.",
       "options": [
         "profit-mcq-61",
-        "profit-mcq-60",
-        "profit-mcq-59",
-        "profit-mcq-58",
-        "profit-mcq-57",
-        "profit-mcq-56"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「鎖定盈利 trading」。",
       "sentenceIndex": 147,
@@ -4222,12 +3583,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-61": "本句指「鎖定盈利 trading」。",
-        "profit-mcq-60": "「獲利了結 trading」與本句語境不同。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。"
+        "profit-mcq-61": "本句的「profit」指「鎖定盈利 trading」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-61"
     },
@@ -4239,11 +3597,8 @@ export default {
       "masked": "An unrealised gain becomes realised when ____ is locked in through a completed sale.",
       "options": [
         "profit-mcq-61",
-        "profit-mcq-60",
-        "profit-mcq-59",
-        "profit-mcq-58",
-        "profit-mcq-57",
-        "profit-mcq-56"
+        "profit-mcq-38",
+        "profit-mcq-27"
       ],
       "explanation": "本句的「profit」指「鎖定盈利 trading」。",
       "sentenceIndex": 148,
@@ -4252,12 +3607,9 @@ export default {
         "profit"
       ],
       "optionReasons": {
-        "profit-mcq-61": "本句指「鎖定盈利 trading」。",
-        "profit-mcq-60": "「獲利了結 trading」與本句語境不同。",
-        "profit-mcq-59": "「損益 reporting」與本句語境不同。",
-        "profit-mcq-58": "「超額利潤 economics」與本句語境不同。",
-        "profit-mcq-57": "「正常利潤 economics」與本句語境不同。",
-        "profit-mcq-56": "「經濟利潤 economics」與本句語境不同。"
+        "profit-mcq-61": "本句的「profit」指「鎖定盈利 trading」。",
+        "profit-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "profit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "profit-mcq-61"
     }
@@ -4269,5 +3621,7 @@ export default {
     "sha256": "1da760aefe3647bce909315965866169da294abea038bda999dcd6404d19a9db",
     "pages": 71
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -243,11 +243,8 @@ export default {
       "masked": "The pen had a simple but ____ design.",
       "options": [
         "elegant-mcq-01",
-        "elegant-mcq-02",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-06",
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
       "sentenceIndex": 0,
@@ -256,12 +253,9 @@ export default {
         "elegant"
       ],
       "optionReasons": {
-        "elegant-mcq-01": "本句指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-01": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
+        "elegant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-01"
     },
@@ -273,11 +267,8 @@ export default {
       "masked": "She wore an ____ black dress.",
       "options": [
         "elegant-mcq-01",
-        "elegant-mcq-02",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-06",
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
       "sentenceIndex": 1,
@@ -286,12 +277,9 @@ export default {
         "elegant"
       ],
       "optionReasons": {
-        "elegant-mcq-01": "本句指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-01": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
+        "elegant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-01"
     },
@@ -303,11 +291,8 @@ export default {
       "masked": "The room was simple and ____.",
       "options": [
         "elegant-mcq-01",
-        "elegant-mcq-02",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-06",
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
       "sentenceIndex": 2,
@@ -316,12 +301,9 @@ export default {
         "elegant"
       ],
       "optionReasons": {
-        "elegant-mcq-01": "本句指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-01": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
+        "elegant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-01"
     },
@@ -333,11 +315,8 @@ export default {
       "masked": "He chose an ____ watch.",
       "options": [
         "elegant-mcq-01",
-        "elegant-mcq-02",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
         "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
       "sentenceIndex": 3,
@@ -346,12 +325,9 @@ export default {
         "elegant"
       ],
       "optionReasons": {
-        "elegant-mcq-01": "本句指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-01": "本句的「elegant」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
+        "elegant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-01"
     },
@@ -363,11 +339,7 @@ export default {
       "masked": "The phone has an ____.",
       "options": [
         "elegant-mcq-02",
-        "elegant-mcq-01",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant design」指「視覺上簡潔、協調而有品味的設計」。",
       "sentenceIndex": 4,
@@ -376,12 +348,8 @@ export default {
         "elegant design"
       ],
       "optionReasons": {
-        "elegant-mcq-02": "本句指「視覺上簡潔、協調而有品味的設計」。",
-        "elegant-mcq-01": "「外觀精緻、有品味而不俗氣；優雅的／雅緻的」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-02": "本句的「elegant design」指「視覺上簡潔、協調而有品味的設計」。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-02"
     },
@@ -393,11 +361,7 @@ export default {
       "masked": "The building combines simplicity with ____.",
       "options": [
         "elegant-mcq-02",
-        "elegant-mcq-01",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-03"
       ],
       "explanation": "本句的「elegant design」指「視覺上簡潔、協調而有品味的設計」。",
       "sentenceIndex": 5,
@@ -406,12 +370,8 @@ export default {
         "elegant design"
       ],
       "optionReasons": {
-        "elegant-mcq-02": "本句指「視覺上簡潔、協調而有品味的設計」。",
-        "elegant-mcq-01": "「外觀精緻、有品味而不俗氣；優雅的／雅緻的」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-02": "本句的「elegant design」指「視覺上簡潔、協調而有品味的設計」。",
+        "elegant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-02"
     },
@@ -423,11 +383,7 @@ export default {
       "masked": "She made an ____.",
       "options": [
         "elegant-mcq-03",
-        "elegant-mcq-02",
-        "elegant-mcq-04",
-        "elegant-mcq-01",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-02"
       ],
       "explanation": "本句的「elegant entrance」指「動作或舉止流暢、有風度；優雅的」。",
       "sentenceIndex": 6,
@@ -436,12 +392,8 @@ export default {
         "elegant entrance"
       ],
       "optionReasons": {
-        "elegant-mcq-03": "本句指「動作或舉止流暢、有風度；優雅的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-01": "「外觀精緻、有品味而不俗氣；優雅的／雅緻的」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-03": "本句的「elegant entrance」指「動作或舉止流暢、有風度；優雅的」。",
+        "elegant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-03"
     },
@@ -453,11 +405,7 @@ export default {
       "masked": "The dancer’s movements were ____.",
       "options": [
         "elegant-mcq-03",
-        "elegant-mcq-02",
-        "elegant-mcq-04",
-        "elegant-mcq-01",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-05"
       ],
       "explanation": "本句的「elegant」指「動作或舉止流暢、有風度；優雅的」。",
       "sentenceIndex": 7,
@@ -466,12 +414,8 @@ export default {
         "elegant"
       ],
       "optionReasons": {
-        "elegant-mcq-03": "本句指「動作或舉止流暢、有風度；優雅的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-01": "「外觀精緻、有品味而不俗氣；優雅的／雅緻的」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-03": "本句的「elegant」指「動作或舉止流暢、有風度；優雅的」。",
+        "elegant-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-03"
     },
@@ -483,11 +427,7 @@ export default {
       "masked": "He gave an ____ of the idea.",
       "options": [
         "elegant-mcq-04",
-        "elegant-mcq-03",
-        "elegant-mcq-05",
-        "elegant-mcq-02",
-        "elegant-mcq-06",
-        "elegant-mcq-01"
+        "elegant-mcq-10"
       ],
       "explanation": "本句的「elegant explanation」指「語言或表達精練、流暢而漂亮」。",
       "sentenceIndex": 8,
@@ -496,12 +436,8 @@ export default {
         "elegant explanation"
       ],
       "optionReasons": {
-        "elegant-mcq-04": "本句指「語言或表達精練、流暢而漂亮」。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-01": "「外觀精緻、有品味而不俗氣；優雅的／雅緻的」與本句語境不同。"
+        "elegant-mcq-04": "本句的「elegant explanation」指「語言或表達精練、流暢而漂亮」。",
+        "elegant-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-04"
     },
@@ -513,11 +449,7 @@ export default {
       "masked": "The essay is written in an ____.",
       "options": [
         "elegant-mcq-04",
-        "elegant-mcq-03",
-        "elegant-mcq-05",
-        "elegant-mcq-02",
-        "elegant-mcq-06",
-        "elegant-mcq-01"
+        "elegant-mcq-02"
       ],
       "explanation": "本句的「elegant style」指「語言或表達精練、流暢而漂亮」。",
       "sentenceIndex": 9,
@@ -526,12 +458,8 @@ export default {
         "elegant style"
       ],
       "optionReasons": {
-        "elegant-mcq-04": "本句指「語言或表達精練、流暢而漂亮」。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-01": "「外觀精緻、有品味而不俗氣；優雅的／雅緻的」與本句語境不同。"
+        "elegant-mcq-04": "本句的「elegant style」指「語言或表達精練、流暢而漂亮」。",
+        "elegant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-04"
     },
@@ -544,10 +472,7 @@ export default {
       "options": [
         "elegant-mcq-05",
         "elegant-mcq-04",
-        "elegant-mcq-06",
-        "elegant-mcq-03",
-        "elegant-mcq-07",
-        "elegant-mcq-02"
+        "elegant-mcq-01"
       ],
       "explanation": "本句的「elegant solution」指「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」。",
       "sentenceIndex": 10,
@@ -556,12 +481,9 @@ export default {
         "elegant solution"
       ],
       "optionReasons": {
-        "elegant-mcq-05": "本句指「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。"
+        "elegant-mcq-05": "本句的「elegant solution」指「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-05"
     },
@@ -573,11 +495,8 @@ export default {
       "masked": "It is an ____.",
       "options": [
         "elegant-mcq-05",
-        "elegant-mcq-04",
-        "elegant-mcq-06",
-        "elegant-mcq-03",
-        "elegant-mcq-07",
-        "elegant-mcq-02"
+        "elegant-mcq-01",
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant proof」指「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」。",
       "sentenceIndex": 11,
@@ -586,12 +505,9 @@ export default {
         "elegant proof"
       ],
       "optionReasons": {
-        "elegant-mcq-05": "本句指「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。"
+        "elegant-mcq-05": "本句的「elegant proof」指「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」。",
+        "elegant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-05"
     },
@@ -603,10 +519,6 @@ export default {
       "masked": "They found an ____ to the problem.",
       "options": [
         "elegant-mcq-06",
-        "elegant-mcq-05",
-        "elegant-mcq-07",
-        "elegant-mcq-04",
-        "elegant-mcq-08",
         "elegant-mcq-03"
       ],
       "explanation": "本句的「elegant solution」指「同時具簡潔、效率與巧思的解決方案」。",
@@ -616,12 +528,8 @@ export default {
         "elegant solution"
       ],
       "optionReasons": {
-        "elegant-mcq-06": "本句指「同時具簡潔、效率與巧思的解決方案」。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。"
+        "elegant-mcq-06": "本句的「elegant solution」指「同時具簡潔、效率與巧思的解決方案」。",
+        "elegant-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-06"
     },
@@ -633,11 +541,8 @@ export default {
       "masked": "The best design is often the most ____.",
       "options": [
         "elegant-mcq-06",
-        "elegant-mcq-05",
-        "elegant-mcq-07",
-        "elegant-mcq-04",
-        "elegant-mcq-08",
-        "elegant-mcq-03"
+        "elegant-mcq-01",
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant solution」指「同時具簡潔、效率與巧思的解決方案」。",
       "sentenceIndex": 13,
@@ -646,12 +551,9 @@ export default {
         "elegant solution"
       ],
       "optionReasons": {
-        "elegant-mcq-06": "本句指「同時具簡潔、效率與巧思的解決方案」。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。"
+        "elegant-mcq-06": "本句的「elegant solution」指「同時具簡潔、效率與巧思的解決方案」。",
+        "elegant-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-06"
     },
@@ -663,11 +565,7 @@ export default {
       "masked": "She was ____.",
       "options": [
         "elegant-mcq-09",
-        "elegant-mcq-08",
-        "elegant-mcq-10",
-        "elegant-mcq-07",
-        "elegant-mcq-06",
-        "elegant-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「elegantly dressed」指「以優雅、雅緻或簡潔漂亮的方式」。",
       "sentenceIndex": 14,
@@ -676,12 +574,8 @@ export default {
         "elegantly dressed"
       ],
       "optionReasons": {
-        "elegant-mcq-09": "本句指「以優雅、雅緻或簡潔漂亮的方式」。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-10": "「因簡約而產生的優雅／簡潔之美」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。"
+        "elegant-mcq-09": "本句的「elegantly dressed」指「以優雅、雅緻或簡潔漂亮的方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-09"
     },
@@ -693,11 +587,7 @@ export default {
       "masked": "The problem was ____.",
       "options": [
         "elegant-mcq-09",
-        "elegant-mcq-08",
-        "elegant-mcq-10",
-        "elegant-mcq-07",
-        "elegant-mcq-06",
-        "elegant-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「elegantly solved」指「以優雅、雅緻或簡潔漂亮的方式」。",
       "sentenceIndex": 15,
@@ -706,12 +596,8 @@ export default {
         "elegantly solved"
       ],
       "optionReasons": {
-        "elegant-mcq-09": "本句指「以優雅、雅緻或簡潔漂亮的方式」。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-10": "「因簡約而產生的優雅／簡潔之美」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。"
+        "elegant-mcq-09": "本句的「elegantly solved」指「以優雅、雅緻或簡潔漂亮的方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-09"
     },
@@ -723,11 +609,8 @@ export default {
       "masked": "The pen has an ____.",
       "options": [
         "elegant-mcq-01",
-        "elegant-mcq-02",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
         "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant appearance」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
       "sentenceIndex": 16,
@@ -736,12 +619,9 @@ export default {
         "elegant appearance"
       ],
       "optionReasons": {
-        "elegant-mcq-01": "本句指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-01": "本句的「elegant appearance」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
+        "elegant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-01"
     },
@@ -753,11 +633,8 @@ export default {
       "masked": "The building maintains an ____.",
       "options": [
         "elegant-mcq-01",
-        "elegant-mcq-02",
-        "elegant-mcq-03",
-        "elegant-mcq-04",
-        "elegant-mcq-05",
-        "elegant-mcq-06"
+        "elegant-mcq-06",
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant appearance」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
       "sentenceIndex": 17,
@@ -766,12 +643,9 @@ export default {
         "elegant appearance"
       ],
       "optionReasons": {
-        "elegant-mcq-01": "本句指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
-        "elegant-mcq-02": "「視覺上簡潔、協調而有品味的設計」與本句語境不同。",
-        "elegant-mcq-03": "「動作或舉止流暢、有風度；優雅的」與本句語境不同。",
-        "elegant-mcq-04": "「語言或表達精練、流暢而漂亮」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。"
+        "elegant-mcq-01": "本句的「elegant appearance」指「外觀精緻、有品味而不俗氣；優雅的／雅緻的」。",
+        "elegant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-01"
     },
@@ -783,11 +657,7 @@ export default {
       "masked": "She has an ____.",
       "options": [
         "elegant-mcq-10",
-        "elegant-mcq-09",
-        "elegant-mcq-08",
-        "elegant-mcq-07",
-        "elegant-mcq-06",
-        "elegant-mcq-05"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant style」指「因簡約而產生的優雅／簡潔之美」。",
       "sentenceIndex": 18,
@@ -796,12 +666,8 @@ export default {
         "elegant style"
       ],
       "optionReasons": {
-        "elegant-mcq-10": "本句指「因簡約而產生的優雅／簡潔之美」。",
-        "elegant-mcq-09": "「以優雅、雅緻或簡潔漂亮的方式」與本句語境不同。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。"
+        "elegant-mcq-10": "本句的「elegant style」指「因簡約而產生的優雅／簡潔之美」。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-10"
     },
@@ -813,11 +679,7 @@ export default {
       "masked": "The restaurant is known for its ____.",
       "options": [
         "elegant-mcq-10",
-        "elegant-mcq-09",
-        "elegant-mcq-08",
-        "elegant-mcq-07",
-        "elegant-mcq-06",
-        "elegant-mcq-05"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant style」指「因簡約而產生的優雅／簡潔之美」。",
       "sentenceIndex": 19,
@@ -826,12 +688,8 @@ export default {
         "elegant style"
       ],
       "optionReasons": {
-        "elegant-mcq-10": "本句指「因簡約而產生的優雅／簡潔之美」。",
-        "elegant-mcq-09": "「以優雅、雅緻或簡潔漂亮的方式」與本句語境不同。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。"
+        "elegant-mcq-10": "本句的「elegant style」指「因簡約而產生的優雅／簡潔之美」。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-10"
     },
@@ -843,11 +701,7 @@ export default {
       "masked": "I liked the ____ of the design.",
       "options": [
         "elegant-mcq-10",
-        "elegant-mcq-09",
-        "elegant-mcq-08",
-        "elegant-mcq-07",
-        "elegant-mcq-06",
-        "elegant-mcq-05"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant simplicity」指「因簡約而產生的優雅／簡潔之美」。",
       "sentenceIndex": 20,
@@ -856,12 +710,8 @@ export default {
         "elegant simplicity"
       ],
       "optionReasons": {
-        "elegant-mcq-10": "本句指「因簡約而產生的優雅／簡潔之美」。",
-        "elegant-mcq-09": "「以優雅、雅緻或簡潔漂亮的方式」與本句語境不同。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。"
+        "elegant-mcq-10": "本句的「elegant simplicity」指「因簡約而產生的優雅／簡潔之美」。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-10"
     },
@@ -873,11 +723,7 @@ export default {
       "masked": "The room’s appeal comes from its ____.",
       "options": [
         "elegant-mcq-10",
-        "elegant-mcq-09",
-        "elegant-mcq-08",
-        "elegant-mcq-07",
-        "elegant-mcq-06",
-        "elegant-mcq-05"
+        "elegant-mcq-04"
       ],
       "explanation": "本句的「elegant simplicity」指「因簡約而產生的優雅／簡潔之美」。",
       "sentenceIndex": 21,
@@ -886,12 +732,8 @@ export default {
         "elegant simplicity"
       ],
       "optionReasons": {
-        "elegant-mcq-10": "本句指「因簡約而產生的優雅／簡潔之美」。",
-        "elegant-mcq-09": "「以優雅、雅緻或簡潔漂亮的方式」與本句語境不同。",
-        "elegant-mcq-08": "「一個解法或設計的簡潔、精妙之處」與本句語境不同。",
-        "elegant-mcq-07": "「優雅、雅緻的品質」與本句語境不同。",
-        "elegant-mcq-06": "「同時具簡潔、效率與巧思的解決方案」與本句語境不同。",
-        "elegant-mcq-05": "「以簡單、有效而巧妙的方法解決問題；簡潔巧妙的」與本句語境不同。"
+        "elegant-mcq-10": "本句的「elegant simplicity」指「因簡約而產生的優雅／簡潔之美」。",
+        "elegant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "elegant-mcq-10"
     }
@@ -903,5 +745,12 @@ export default {
     "sha256": "1b8e8ef2cd3381c9f5a27de83286df7aa0d7ecdf58147724d4b387d4d20cdd0c",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

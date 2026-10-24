@@ -427,11 +427,9 @@ export default {
       "masked": "She grows ____, jasmine, and marigolds.",
       "options": [
         "rose-mcq-01",
-        "rose-mcq-02",
-        "rose-mcq-03",
-        "rose-mcq-04",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-pdf-002",
+        "rose-mcq-07",
+        "rose-mcq-08"
       ],
       "explanation": "本句的「roses」指「玫瑰植物所開出的花朵」。",
       "sentenceIndex": 0,
@@ -440,12 +438,10 @@ export default {
         "roses"
       ],
       "optionReasons": {
-        "rose-mcq-01": "本句指「玫瑰植物所開出的花朵」。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-01": "本句的「roses」指「玫瑰植物所開出的花朵」。",
+        "rose-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-01"
     },
@@ -457,11 +453,9 @@ export default {
       "masked": "He gave her a red ____.",
       "options": [
         "rose-mcq-01",
-        "rose-mcq-02",
-        "rose-mcq-03",
-        "rose-mcq-04",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-mcq-08",
+        "rose-mcq-06",
+        "rose-mcq-10"
       ],
       "explanation": "本句的「rose」指「玫瑰植物所開出的花朵」。",
       "sentenceIndex": 1,
@@ -470,12 +464,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-01": "本句指「玫瑰植物所開出的花朵」。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-01": "本句的「rose」指「玫瑰植物所開出的花朵」。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-01"
     },
@@ -487,11 +479,9 @@ export default {
       "masked": "The vase contained six white ____.",
       "options": [
         "rose-mcq-01",
-        "rose-mcq-02",
-        "rose-mcq-03",
-        "rose-mcq-04",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-mcq-08",
+        "rose-pdf-002",
+        "rose-pdf-001"
       ],
       "explanation": "本句的「roses」指「玫瑰植物所開出的花朵」。",
       "sentenceIndex": 2,
@@ -500,12 +490,10 @@ export default {
         "roses"
       ],
       "optionReasons": {
-        "rose-mcq-01": "本句指「玫瑰植物所開出的花朵」。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-01": "本句的「roses」指「玫瑰植物所開出的花朵」。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-01"
     },
@@ -517,11 +505,9 @@ export default {
       "masked": "This ____ needs more sunlight.",
       "options": [
         "rose-mcq-02",
-        "rose-mcq-01",
-        "rose-mcq-03",
-        "rose-mcq-04",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-mcq-10",
+        "rose-pdf-002",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rose」指「會長出玫瑰花的灌木／植物本身」。",
       "sentenceIndex": 3,
@@ -530,12 +516,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-02": "本句指「會長出玫瑰花的灌木／植物本身」。",
-        "rose-mcq-01": "「玫瑰植物所開出的花朵」是「rose — flower」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-02": "本句的「rose」指「會長出玫瑰花的灌木／植物本身」。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-02"
     },
@@ -547,11 +531,9 @@ export default {
       "masked": "She planted three ____ beside the wall.",
       "options": [
         "rose-mcq-02",
-        "rose-mcq-01",
-        "rose-mcq-03",
-        "rose-mcq-04",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-mcq-15",
+        "rose-mcq-08",
+        "rose-mcq-07"
       ],
       "explanation": "本句的「roses」指「會長出玫瑰花的灌木／植物本身」。",
       "sentenceIndex": 4,
@@ -560,12 +542,10 @@ export default {
         "roses"
       ],
       "optionReasons": {
-        "rose-mcq-02": "本句指「會長出玫瑰花的灌木／植物本身」。",
-        "rose-mcq-01": "「玫瑰植物所開出的花朵」是「rose — flower」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-02": "本句的「roses」指「會長出玫瑰花的灌木／植物本身」。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-02"
     },
@@ -577,11 +557,9 @@ export default {
       "masked": "The sky turned ____ at sunset.",
       "options": [
         "rose-mcq-03",
-        "rose-mcq-02",
-        "rose-mcq-04",
-        "rose-mcq-01",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-mcq-15",
+        "rose-mcq-08",
+        "rose-pdf-003"
       ],
       "explanation": "本句的「rose」指「類似某些玫瑰花瓣的粉紅或柔和紅色色調」。",
       "sentenceIndex": 5,
@@ -590,12 +568,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-03": "本句指「類似某些玫瑰花瓣的粉紅或柔和紅色色調」。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-01": "「玫瑰植物所開出的花朵」是「rose — flower」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-03": "本句的「rose」指「類似某些玫瑰花瓣的粉紅或柔和紅色色調」。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-03"
     },
@@ -607,11 +583,9 @@ export default {
       "masked": "She chose a soft ____ colour for the walls.",
       "options": [
         "rose-mcq-03",
-        "rose-mcq-02",
-        "rose-mcq-04",
-        "rose-mcq-01",
-        "rose-mcq-05",
-        "rose-mcq-06"
+        "rose-mcq-08",
+        "rose-mcq-06",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rose」指「類似某些玫瑰花瓣的粉紅或柔和紅色色調」。",
       "sentenceIndex": 6,
@@ -620,12 +594,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-03": "本句指「類似某些玫瑰花瓣的粉紅或柔和紅色色調」。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-01": "「玫瑰植物所開出的花朵」是「rose — flower」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-03": "本句的「rose」指「類似某些玫瑰花瓣的粉紅或柔和紅色色調」。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-03"
     },
@@ -637,11 +609,9 @@ export default {
       "masked": "She wore a ____ scarf.",
       "options": [
         "rose-mcq-09",
-        "rose-mcq-08",
-        "rose-mcq-10",
-        "rose-mcq-07",
-        "rose-mcq-11",
-        "rose-mcq-06"
+        "rose-mcq-15",
+        "rose-pdf-001",
+        "rose-mcq-08"
       ],
       "explanation": "本句的「rose-coloured」指「呈玫瑰般粉紅／紅粉色調的」。",
       "sentenceIndex": 7,
@@ -650,12 +620,10 @@ export default {
         "rose-coloured"
       ],
       "optionReasons": {
-        "rose-mcq-09": "本句指「呈玫瑰般粉紅／紅粉色調的」。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-09": "本句的「rose-coloured」指「呈玫瑰般粉紅／紅粉色調的」。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-09"
     },
@@ -667,11 +635,9 @@ export default {
       "masked": "The room was lit by ____ light.",
       "options": [
         "rose-mcq-09",
-        "rose-mcq-08",
-        "rose-mcq-10",
-        "rose-mcq-07",
-        "rose-mcq-11",
-        "rose-mcq-06"
+        "rose-mcq-06",
+        "rose-mcq-15",
+        "rose-mcq-10"
       ],
       "explanation": "本句的「rose-coloured」指「呈玫瑰般粉紅／紅粉色調的」。",
       "sentenceIndex": 8,
@@ -680,12 +646,10 @@ export default {
         "rose-coloured"
       ],
       "optionReasons": {
-        "rose-mcq-09": "本句指「呈玫瑰般粉紅／紅粉色調的」。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。"
+        "rose-mcq-09": "本句的「rose-coloured」指「呈玫瑰般粉紅／紅粉色調的」。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-09"
     },
@@ -697,11 +661,9 @@ export default {
       "masked": "The red ____ is often used as a symbol of romantic love.",
       "options": [
         "rose-mcq-04",
-        "rose-mcq-03",
-        "rose-mcq-05",
-        "rose-mcq-02",
-        "rose-mcq-06",
-        "rose-mcq-01"
+        "rose-mcq-07",
+        "rose-mcq-12",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rose」指「以玫瑰形象代表愛情、美麗、浪漫等文化概念」。",
       "sentenceIndex": 9,
@@ -710,12 +672,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-04": "本句指「以玫瑰形象代表愛情、美麗、浪漫等文化概念」。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-01": "「玫瑰植物所開出的花朵」是「rose — flower」的用法，與本句語境不同。"
+        "rose-mcq-04": "本句的「rose」指「以玫瑰形象代表愛情、美麗、浪漫等文化概念」。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-04"
     },
@@ -727,11 +687,9 @@ export default {
       "masked": "The ____ became a symbol of beauty in the poem.",
       "options": [
         "rose-mcq-04",
-        "rose-mcq-03",
-        "rose-mcq-05",
-        "rose-mcq-02",
-        "rose-mcq-06",
-        "rose-mcq-01"
+        "rose-pdf-001",
+        "rose-mcq-07",
+        "rose-mcq-12"
       ],
       "explanation": "本句的「rose」指「以玫瑰形象代表愛情、美麗、浪漫等文化概念」。",
       "sentenceIndex": 10,
@@ -740,12 +698,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-04": "本句指「以玫瑰形象代表愛情、美麗、浪漫等文化概念」。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-01": "「玫瑰植物所開出的花朵」是「rose — flower」的用法，與本句語境不同。"
+        "rose-mcq-04": "本句的「rose」指「以玫瑰形象代表愛情、美麗、浪漫等文化概念」。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-04"
     },
@@ -757,11 +713,9 @@ export default {
       "masked": "The red ____ is an emblem associated with Lancashire.",
       "options": [
         "rose-mcq-05",
-        "rose-mcq-04",
+        "rose-mcq-15",
         "rose-mcq-06",
-        "rose-mcq-03",
-        "rose-mcq-07",
-        "rose-mcq-02"
+        "rose-mcq-07"
       ],
       "explanation": "本句的「rose」指「以玫瑰圖案作為家族、地區或組織象徵的徽號」。",
       "sentenceIndex": 11,
@@ -770,12 +724,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-05": "本句指「以玫瑰圖案作為家族、地區或組織象徵的徽號」。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。"
+        "rose-mcq-05": "本句的「rose」指「以玫瑰圖案作為家族、地區或組織象徵的徽號」。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-05"
     },
@@ -787,11 +739,9 @@ export default {
       "masked": "The shield was decorated with a golden ____.",
       "options": [
         "rose-mcq-05",
-        "rose-mcq-04",
-        "rose-mcq-06",
-        "rose-mcq-03",
         "rose-mcq-07",
-        "rose-mcq-02"
+        "rose-mcq-06",
+        "rose-mcq-12"
       ],
       "explanation": "本句的「rose」指「以玫瑰圖案作為家族、地區或組織象徵的徽號」。",
       "sentenceIndex": 12,
@@ -800,12 +750,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-05": "本句指「以玫瑰圖案作為家族、地區或組織象徵的徽號」。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-02": "「會長出玫瑰花的灌木／植物本身」是「rose — plant」的用法，與本句語境不同。"
+        "rose-mcq-05": "本句的「rose」指「以玫瑰圖案作為家族、地區或組織象徵的徽號」。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-05"
     },
@@ -817,11 +765,9 @@ export default {
       "masked": "The sun ____ at six.",
       "options": [
         "rose-mcq-06",
+        "rose-mcq-12",
         "rose-mcq-05",
-        "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-07"
       ],
       "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
       "sentenceIndex": 13,
@@ -830,12 +776,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-mcq-06": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-06"
     },
@@ -847,11 +791,9 @@ export default {
       "masked": "Prices ____ sharply last year.",
       "options": [
         "rose-mcq-06",
-        "rose-mcq-05",
-        "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-03",
+        "rose-mcq-15",
+        "rose-mcq-12"
       ],
       "explanation": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
       "sentenceIndex": 14,
@@ -860,12 +802,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-06": "本句指「rise 的過去式；表示升起、上升、起身或程度增加」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-mcq-06": "本句的「rose」指「rise 的過去式；表示升起、上升、起身或程度增加」。",
+        "rose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-06"
     },
@@ -877,11 +817,9 @@ export default {
       "masked": "She ____ from her chair.",
       "options": [
         "rose-pdf-001",
-        "rose-mcq-05",
-        "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-01",
+        "rose-pdf-003",
+        "rose-mcq-08"
       ],
       "explanation": "本句的「rose」指「從坐著／躺著的位置站起或起身」。",
       "sentenceIndex": 15,
@@ -890,12 +828,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-pdf-001": "本句指「從坐著／躺著的位置站起或起身」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-pdf-001": "本句的「rose」指「從坐著／躺著的位置站起或起身」。",
+        "rose-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-pdf-001"
     },
@@ -907,11 +843,9 @@ export default {
       "masked": "Everyone ____ when the guest entered.",
       "options": [
         "rose-pdf-001",
-        "rose-mcq-05",
+        "rose-pdf-003",
         "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-10"
       ],
       "explanation": "本句的「rose」指「從坐著／躺著的位置站起或起身」。",
       "sentenceIndex": 16,
@@ -920,12 +854,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-pdf-001": "本句指「從坐著／躺著的位置站起或起身」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-pdf-001": "本句的「rose」指「從坐著／躺著的位置站起或起身」。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-pdf-001"
     },
@@ -937,11 +869,9 @@ export default {
       "masked": "The temperature ____ quickly.",
       "options": [
         "rose-pdf-002",
-        "rose-mcq-05",
-        "rose-mcq-07",
-        "rose-mcq-04",
         "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-05",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rose」指「數量、價格、程度等變得更高」。",
       "sentenceIndex": 17,
@@ -950,12 +880,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-pdf-002": "本句指「數量、價格、程度等變得更高」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-pdf-002": "本句的「rose」指「數量、價格、程度等變得更高」。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-pdf-002"
     },
@@ -967,11 +895,9 @@ export default {
       "masked": "Demand for the product ____ during the summer.",
       "options": [
         "rose-pdf-002",
-        "rose-mcq-05",
-        "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-09",
+        "rose-mcq-12",
+        "rose-mcq-08"
       ],
       "explanation": "本句的「rose」指「數量、價格、程度等變得更高」。",
       "sentenceIndex": 18,
@@ -980,12 +906,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-pdf-002": "本句指「數量、價格、程度等變得更高」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-pdf-002": "本句的「rose」指「數量、價格、程度等變得更高」。",
+        "rose-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-pdf-002"
     },
@@ -997,11 +921,9 @@ export default {
       "masked": "Her confidence ____ as she gained experience.",
       "options": [
         "rose-pdf-003",
-        "rose-mcq-05",
         "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-02",
+        "rose-mcq-10"
       ],
       "explanation": "本句的「rose」指「抽象程度、情緒或強度提高」。",
       "sentenceIndex": 19,
@@ -1010,12 +932,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-pdf-003": "本句指「抽象程度、情緒或強度提高」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-pdf-003": "本句的「rose」指「抽象程度、情緒或強度提高」。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-pdf-003"
     },
@@ -1027,11 +947,9 @@ export default {
       "masked": "Tension ____ during the discussion.",
       "options": [
         "rose-pdf-003",
-        "rose-mcq-05",
-        "rose-mcq-07",
-        "rose-mcq-04",
-        "rose-mcq-08",
-        "rose-mcq-03"
+        "rose-mcq-03",
+        "rose-mcq-15",
+        "rose-mcq-12"
       ],
       "explanation": "本句的「rose」指「抽象程度、情緒或強度提高」。",
       "sentenceIndex": 20,
@@ -1040,12 +958,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-pdf-003": "本句指「抽象程度、情緒或強度提高」。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-03": "「類似某些玫瑰花瓣的粉紅或柔和紅色色調」是「rose — colour」的用法，與本句語境不同。"
+        "rose-pdf-003": "本句的「rose」指「抽象程度、情緒或強度提高」。",
+        "rose-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-pdf-003"
     },
@@ -1057,11 +973,9 @@ export default {
       "masked": "The cold air made her cheeks ____.",
       "options": [
         "rose-mcq-07",
-        "rose-mcq-06",
-        "rose-mcq-08",
-        "rose-mcq-05",
-        "rose-mcq-09",
-        "rose-mcq-04"
+        "rose-mcq-10",
+        "rose-mcq-14",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rosy」指「呈健康、柔和粉紅／紅色色調的」。",
       "sentenceIndex": 21,
@@ -1070,12 +984,10 @@ export default {
         "rosy"
       ],
       "optionReasons": {
-        "rose-mcq-07": "本句指「呈健康、柔和粉紅／紅色色調的」。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。"
+        "rose-mcq-07": "本句的「rosy」指「呈健康、柔和粉紅／紅色色調的」。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-07"
     },
@@ -1087,11 +999,9 @@ export default {
       "masked": "The evening sky had a ____ glow.",
       "options": [
         "rose-mcq-07",
-        "rose-mcq-06",
-        "rose-mcq-08",
-        "rose-mcq-05",
-        "rose-mcq-09",
-        "rose-mcq-04"
+        "rose-pdf-001",
+        "rose-mcq-14",
+        "rose-mcq-08"
       ],
       "explanation": "本句的「rosy」指「呈健康、柔和粉紅／紅色色調的」。",
       "sentenceIndex": 22,
@@ -1100,12 +1010,10 @@ export default {
         "rosy"
       ],
       "optionReasons": {
-        "rose-mcq-07": "本句指「呈健康、柔和粉紅／紅色色調的」。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-04": "「以玫瑰形象代表愛情、美麗、浪漫等文化概念」是「rose — symbolic」的用法，與本句語境不同。"
+        "rose-mcq-07": "本句的「rosy」指「呈健康、柔和粉紅／紅色色調的」。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-07"
     },
@@ -1117,11 +1025,9 @@ export default {
       "masked": "The future looks ____.",
       "options": [
         "rose-mcq-08",
-        "rose-mcq-07",
-        "rose-mcq-09",
-        "rose-mcq-06",
-        "rose-mcq-10",
-        "rose-mcq-05"
+        "rose-mcq-14",
+        "rose-mcq-12",
+        "rose-pdf-001"
       ],
       "explanation": "本句的「rosy」指「對未來／情況持積極、美好、充滿希望看法的」。",
       "sentenceIndex": 23,
@@ -1130,12 +1036,10 @@ export default {
         "rosy"
       ],
       "optionReasons": {
-        "rose-mcq-08": "本句指「對未來／情況持積極、美好、充滿希望看法的」。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。"
+        "rose-mcq-08": "本句的「rosy」指「對未來／情況持積極、美好、充滿希望看法的」。",
+        "rose-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-08"
     },
@@ -1147,11 +1051,9 @@ export default {
       "masked": "The company gave a ____ picture of its future.",
       "options": [
         "rose-mcq-08",
-        "rose-mcq-07",
-        "rose-mcq-09",
-        "rose-mcq-06",
-        "rose-mcq-10",
-        "rose-mcq-05"
+        "rose-mcq-02",
+        "rose-pdf-001",
+        "rose-pdf-003"
       ],
       "explanation": "本句的「rosy」指「對未來／情況持積極、美好、充滿希望看法的」。",
       "sentenceIndex": 24,
@@ -1160,12 +1062,10 @@ export default {
         "rosy"
       ],
       "optionReasons": {
-        "rose-mcq-08": "本句指「對未來／情況持積極、美好、充滿希望看法的」。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-06": "「rise 的過去式；表示升起、上升、起身或程度增加」是「rose — past tense of rise」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-05": "「以玫瑰圖案作為家族、地區或組織象徵的徽號」是「rose — emblem」的用法，與本句語境不同。"
+        "rose-mcq-08": "本句的「rosy」指「對未來／情況持積極、美好、充滿希望看法的」。",
+        "rose-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-08"
     },
@@ -1177,11 +1077,9 @@ export default {
       "masked": "He tends to look at the past through ____.",
       "options": [
         "rose-mcq-10",
-        "rose-mcq-09",
-        "rose-mcq-11",
-        "rose-mcq-08",
-        "rose-mcq-12",
-        "rose-mcq-07"
+        "rose-mcq-05",
+        "rose-pdf-003",
+        "rose-mcq-12"
       ],
       "explanation": "本句的「rose-tinted glasses」指「以過分樂觀、美化甚至忽略問題的方式看待事情」。",
       "sentenceIndex": 25,
@@ -1190,12 +1088,10 @@ export default {
         "rose-tinted glasses"
       ],
       "optionReasons": {
-        "rose-mcq-10": "本句指「以過分樂觀、美化甚至忽略問題的方式看待事情」。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。"
+        "rose-mcq-10": "本句的「rose-tinted glasses」指「以過分樂觀、美化甚至忽略問題的方式看待事情」。",
+        "rose-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-10"
     },
@@ -1207,11 +1103,9 @@ export default {
       "masked": "Take off the ____ glasses and look at the problem realistically.",
       "options": [
         "rose-mcq-10",
-        "rose-mcq-09",
-        "rose-mcq-11",
-        "rose-mcq-08",
-        "rose-mcq-12",
-        "rose-mcq-07"
+        "rose-mcq-15",
+        "rose-pdf-001",
+        "rose-mcq-01"
       ],
       "explanation": "本句的「rose-coloured」指「以過分樂觀、美化甚至忽略問題的方式看待事情」。",
       "sentenceIndex": 26,
@@ -1220,12 +1114,10 @@ export default {
         "rose-coloured"
       ],
       "optionReasons": {
-        "rose-mcq-10": "本句指「以過分樂觀、美化甚至忽略問題的方式看待事情」。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-07": "「呈健康、柔和粉紅／紅色色調的」是「rosy — literal」的用法，與本句語境不同。"
+        "rose-mcq-10": "本句的「rose-coloured」指「以過分樂觀、美化甚至忽略問題的方式看待事情」。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-10"
     },
@@ -1237,11 +1129,9 @@ export default {
       "masked": "The plant produces bright red ____.",
       "options": [
         "rose-mcq-11",
-        "rose-mcq-10",
-        "rose-mcq-12",
-        "rose-mcq-09",
-        "rose-mcq-13",
-        "rose-mcq-08"
+        "rose-mcq-07",
+        "rose-mcq-08",
+        "rose-mcq-06"
       ],
       "explanation": "本句的「rosehips」指「玫瑰花謝後形成的小型果實」。",
       "sentenceIndex": 27,
@@ -1250,12 +1140,10 @@ export default {
         "rosehips"
       ],
       "optionReasons": {
-        "rose-mcq-11": "本句指「玫瑰花謝後形成的小型果實」。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。"
+        "rose-mcq-11": "本句的「rosehips」指「玫瑰花謝後形成的小型果實」。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-11"
     },
@@ -1268,10 +1156,8 @@ export default {
       "options": [
         "rose-mcq-11",
         "rose-mcq-10",
-        "rose-mcq-12",
-        "rose-mcq-09",
-        "rose-mcq-13",
-        "rose-mcq-08"
+        "rose-pdf-003",
+        "rose-pdf-001"
       ],
       "explanation": "本句的「Rosehip」指「玫瑰花謝後形成的小型果實」。",
       "sentenceIndex": 28,
@@ -1280,12 +1166,10 @@ export default {
         "Rosehip"
       ],
       "optionReasons": {
-        "rose-mcq-11": "本句指「玫瑰花謝後形成的小型果實」。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-08": "「對未來／情況持積極、美好、充滿希望看法的」是「rosy — figurative」的用法，與本句語境不同。"
+        "rose-mcq-11": "本句的「Rosehip」指「玫瑰花謝後形成的小型果實」。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-11"
     },
@@ -1298,10 +1182,8 @@ export default {
       "options": [
         "rose-mcq-12",
         "rose-mcq-11",
-        "rose-mcq-13",
-        "rose-mcq-10",
-        "rose-mcq-14",
-        "rose-mcq-09"
+        "rose-pdf-002",
+        "rose-mcq-08"
       ],
       "explanation": "本句的「rosewood」指「多種深紅褐色、具有漂亮木紋的硬木之統稱」。",
       "sentenceIndex": 29,
@@ -1310,12 +1192,10 @@ export default {
         "rosewood"
       ],
       "optionReasons": {
-        "rose-mcq-12": "本句指「多種深紅褐色、具有漂亮木紋的硬木之統稱」。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-14": "「以灌木形態生長的玫瑰植株」是「rose bush」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。"
+        "rose-mcq-12": "本句的「rosewood」指「多種深紅褐色、具有漂亮木紋的硬木之統稱」。",
+        "rose-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-12"
     },
@@ -1327,11 +1207,9 @@ export default {
       "masked": "____ is valued for its colour and grain.",
       "options": [
         "rose-mcq-12",
-        "rose-mcq-11",
-        "rose-mcq-13",
-        "rose-mcq-10",
-        "rose-mcq-14",
-        "rose-mcq-09"
+        "rose-mcq-15",
+        "rose-pdf-003",
+        "rose-mcq-04"
       ],
       "explanation": "本句的「Rosewood」指「多種深紅褐色、具有漂亮木紋的硬木之統稱」。",
       "sentenceIndex": 30,
@@ -1340,12 +1218,10 @@ export default {
         "Rosewood"
       ],
       "optionReasons": {
-        "rose-mcq-12": "本句指「多種深紅褐色、具有漂亮木紋的硬木之統稱」。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。",
-        "rose-mcq-14": "「以灌木形態生長的玫瑰植株」是「rose bush」的用法，與本句語境不同。",
-        "rose-mcq-09": "「呈玫瑰般粉紅／紅粉色調的」是「rose-coloured」的用法，與本句語境不同。"
+        "rose-mcq-12": "本句的「Rosewood」指「多種深紅褐色、具有漂亮木紋的硬木之統稱」。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-12"
     },
@@ -1357,11 +1233,9 @@ export default {
       "masked": "She wants to create a small ____.",
       "options": [
         "rose-mcq-13",
-        "rose-mcq-12",
-        "rose-mcq-14",
-        "rose-mcq-11",
-        "rose-mcq-15",
-        "rose-mcq-10"
+        "rose-mcq-07",
+        "rose-mcq-06",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rose garden」指「主要種植不同玫瑰品種的花園／花圃」。",
       "sentenceIndex": 31,
@@ -1370,12 +1244,10 @@ export default {
         "rose garden"
       ],
       "optionReasons": {
-        "rose-mcq-13": "本句指「主要種植不同玫瑰品種的花園／花圃」。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-14": "「以灌木形態生長的玫瑰植株」是「rose bush」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-15": "「情況發展順利，最終取得令人滿意的結果」是「come up roses」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。"
+        "rose-mcq-13": "本句的「rose garden」指「主要種植不同玫瑰品種的花園／花圃」。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-13"
     },
@@ -1387,11 +1259,9 @@ export default {
       "masked": "The ____ garden is at its best in early summer.",
       "options": [
         "rose-mcq-13",
-        "rose-mcq-12",
-        "rose-mcq-14",
-        "rose-mcq-11",
+        "rose-pdf-002",
         "rose-mcq-15",
-        "rose-mcq-10"
+        "rose-mcq-08"
       ],
       "explanation": "本句的「rose」指「主要種植不同玫瑰品種的花園／花圃」。",
       "sentenceIndex": 32,
@@ -1400,12 +1270,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-13": "本句指「主要種植不同玫瑰品種的花園／花圃」。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-14": "「以灌木形態生長的玫瑰植株」是「rose bush」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。",
-        "rose-mcq-15": "「情況發展順利，最終取得令人滿意的結果」是「come up roses」的用法，與本句語境不同。",
-        "rose-mcq-10": "「以過分樂觀、美化甚至忽略問題的方式看待事情」是「rose-tinted glasses」的用法，與本句語境不同。"
+        "rose-mcq-13": "本句的「rose」指「主要種植不同玫瑰品種的花園／花圃」。",
+        "rose-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-13"
     },
@@ -1417,11 +1285,9 @@ export default {
       "masked": "The ____ needs pruning.",
       "options": [
         "rose-mcq-14",
-        "rose-mcq-13",
-        "rose-mcq-15",
-        "rose-mcq-12",
-        "rose-mcq-16",
-        "rose-mcq-11"
+        "rose-mcq-07",
+        "rose-mcq-10",
+        "rose-mcq-15"
       ],
       "explanation": "本句的「rose bush」指「以灌木形態生長的玫瑰植株」。",
       "sentenceIndex": 33,
@@ -1430,12 +1296,10 @@ export default {
         "rose bush"
       ],
       "optionReasons": {
-        "rose-mcq-14": "本句指「以灌木形態生長的玫瑰植株」。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-15": "「情況發展順利，最終取得令人滿意的結果」是「come up roses」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-16": "「粉紅葡萄酒；與 rose 拼寫相近但屬另一個詞」是「rosé」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。"
+        "rose-mcq-14": "本句的「rose bush」指「以灌木形態生長的玫瑰植株」。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-14"
     },
@@ -1447,11 +1311,9 @@ export default {
       "masked": "A bird was sitting inside the ____ bush.",
       "options": [
         "rose-mcq-14",
-        "rose-mcq-13",
-        "rose-mcq-15",
-        "rose-mcq-12",
-        "rose-mcq-16",
-        "rose-mcq-11"
+        "rose-pdf-003",
+        "rose-mcq-10",
+        "rose-mcq-07"
       ],
       "explanation": "本句的「rose」指「以灌木形態生長的玫瑰植株」。",
       "sentenceIndex": 34,
@@ -1460,12 +1322,10 @@ export default {
         "rose"
       ],
       "optionReasons": {
-        "rose-mcq-14": "本句指「以灌木形態生長的玫瑰植株」。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-15": "「情況發展順利，最終取得令人滿意的結果」是「come up roses」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-16": "「粉紅葡萄酒；與 rose 拼寫相近但屬另一個詞」是「rosé」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。"
+        "rose-mcq-14": "本句的「rose」指「以灌木形態生長的玫瑰植株」。",
+        "rose-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-14"
     },
@@ -1477,11 +1337,9 @@ export default {
       "masked": "After a difficult year, everything finally started ____.",
       "options": [
         "rose-mcq-15",
-        "rose-mcq-14",
-        "rose-mcq-16",
-        "rose-mcq-13",
-        "rose-mcq-12",
-        "rose-mcq-11"
+        "rose-mcq-02",
+        "rose-mcq-07",
+        "rose-pdf-001"
       ],
       "explanation": "本句的「coming up roses」指「情況發展順利，最終取得令人滿意的結果」。",
       "sentenceIndex": 35,
@@ -1490,12 +1348,10 @@ export default {
         "coming up roses"
       ],
       "optionReasons": {
-        "rose-mcq-15": "本句指「情況發展順利，最終取得令人滿意的結果」。",
-        "rose-mcq-14": "「以灌木形態生長的玫瑰植株」是「rose bush」的用法，與本句語境不同。",
-        "rose-mcq-16": "「粉紅葡萄酒；與 rose 拼寫相近但屬另一個詞」是「rosé」的用法，與本句語境不同。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。"
+        "rose-mcq-15": "本句的「coming up roses」指「情況發展順利，最終取得令人滿意的結果」。",
+        "rose-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-15"
     },
@@ -1507,11 +1363,9 @@ export default {
       "masked": "Things aren’t always coming up ____, but we’re making progress.",
       "options": [
         "rose-mcq-15",
-        "rose-mcq-14",
-        "rose-mcq-16",
-        "rose-mcq-13",
-        "rose-mcq-12",
-        "rose-mcq-11"
+        "rose-pdf-001",
+        "rose-mcq-10",
+        "rose-mcq-03"
       ],
       "explanation": "本句的「roses」指「情況發展順利，最終取得令人滿意的結果」。",
       "sentenceIndex": 36,
@@ -1520,12 +1374,10 @@ export default {
         "roses"
       ],
       "optionReasons": {
-        "rose-mcq-15": "本句指「情況發展順利，最終取得令人滿意的結果」。",
-        "rose-mcq-14": "「以灌木形態生長的玫瑰植株」是「rose bush」的用法，與本句語境不同。",
-        "rose-mcq-16": "「粉紅葡萄酒；與 rose 拼寫相近但屬另一個詞」是「rosé」的用法，與本句語境不同。",
-        "rose-mcq-13": "「主要種植不同玫瑰品種的花園／花圃」是「rose garden」的用法，與本句語境不同。",
-        "rose-mcq-12": "「多種深紅褐色、具有漂亮木紋的硬木之統稱」是「rosewood」的用法，與本句語境不同。",
-        "rose-mcq-11": "「玫瑰花謝後形成的小型果實」是「rosehip」的用法，與本句語境不同。"
+        "rose-mcq-15": "本句的「roses」指「情況發展順利，最終取得令人滿意的結果」。",
+        "rose-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rose-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rose-mcq-15"
     }
@@ -1537,5 +1389,7 @@ export default {
     "sha256": "c07addd88706010fe5f4c155ae822dd92ede454325e4e36fff1103ffdff1cf06",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

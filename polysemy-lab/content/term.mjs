@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "term-mcq-10",
-      "title": "表示刑期",
+      "title": "刑期",
       "form": "9. term = sentence/punishment period（法律） — 刑期",
       "en": "9. term = sentence/punishment period（法律） — 刑期",
       "zh": "表示刑期",
@@ -222,7 +222,7 @@ export default {
     },
     {
       "id": "term-mcq-11",
-      "title": "表示刑期",
+      "title": "刑期",
       "form": "Related form: terminological",
       "en": "Related form: terminological",
       "zh": "表示刑期",
@@ -247,11 +247,9 @@ export default {
       "masked": "‘Photosynthesis’ is a scientific ____.",
       "options": [
         "term-mcq-01",
-        "term-mcq-02",
-        "term-mcq-03",
-        "term-mcq-04",
-        "term-mcq-05",
-        "term-mcq-06"
+        "term-mcq-07",
+        "term-mcq-08",
+        "term-mcq-05"
       ],
       "explanation": "本句的「term」指「在某個語境或領域中具有特定意思的詞／術語」。",
       "sentenceIndex": 0,
@@ -260,12 +258,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-01": "本句指「在某個語境或領域中具有特定意思的詞／術語」。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。"
+        "term-mcq-01": "本句的「term」指「在某個語境或領域中具有特定意思的詞／術語」。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-01"
     },
@@ -277,11 +273,9 @@ export default {
       "masked": "What does this legal ____ mean?",
       "options": [
         "term-mcq-01",
-        "term-mcq-02",
-        "term-mcq-03",
+        "term-mcq-08",
         "term-mcq-04",
-        "term-mcq-05",
-        "term-mcq-06"
+        "term-mcq-03"
       ],
       "explanation": "本句的「term」指「在某個語境或領域中具有特定意思的詞／術語」。",
       "sentenceIndex": 1,
@@ -290,12 +284,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-01": "本句指「在某個語境或領域中具有特定意思的詞／術語」。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。"
+        "term-mcq-01": "本句的「term」指「在某個語境或領域中具有特定意思的詞／術語」。",
+        "term-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-01"
     },
@@ -307,10 +299,8 @@ export default {
       "masked": "The president served a four-year ____.",
       "options": [
         "term-mcq-02",
-        "term-mcq-01",
-        "term-mcq-03",
-        "term-mcq-04",
         "term-mcq-05",
+        "term-mcq-03",
         "term-mcq-06"
       ],
       "explanation": "本句的「term」指「一段有明確開始和結束的時間；學期、任期等」。",
@@ -320,12 +310,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-02": "本句指「一段有明確開始和結束的時間；學期、任期等」。",
-        "term-mcq-01": "「在某個語境或領域中具有特定意思的詞／術語」是「term — word/expression」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。"
+        "term-mcq-02": "本句的「term」指「一段有明確開始和結束的時間；學期、任期等」。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-02"
     },
@@ -338,10 +326,8 @@ export default {
       "options": [
         "term-mcq-02",
         "term-mcq-01",
-        "term-mcq-03",
-        "term-mcq-04",
         "term-mcq-05",
-        "term-mcq-06"
+        "term-mcq-07"
       ],
       "explanation": "本句的「term」指「一段有明確開始和結束的時間；學期、任期等」。",
       "sentenceIndex": 3,
@@ -350,12 +336,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-02": "本句指「一段有明確開始和結束的時間；學期、任期等」。",
-        "term-mcq-01": "「在某個語境或領域中具有特定意思的詞／術語」是「term — word/expression」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。"
+        "term-mcq-02": "本句的「term」指「一段有明確開始和結束的時間；學期、任期等」。",
+        "term-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-02"
     },
@@ -367,11 +351,9 @@ export default {
       "masked": "We agreed to the ____ of the contract.",
       "options": [
         "term-mcq-03",
-        "term-mcq-02",
-        "term-mcq-04",
         "term-mcq-01",
         "term-mcq-05",
-        "term-mcq-06"
+        "term-mcq-08"
       ],
       "explanation": "本句的「terms」指「合約、協議或安排中的條款、條件」。",
       "sentenceIndex": 4,
@@ -380,12 +362,10 @@ export default {
         "terms"
       ],
       "optionReasons": {
-        "term-mcq-03": "本句指「合約、協議或安排中的條款、條件」。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-01": "「在某個語境或領域中具有特定意思的詞／術語」是「term — word/expression」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。"
+        "term-mcq-03": "本句的「terms」指「合約、協議或安排中的條款、條件」。",
+        "term-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-03"
     },
@@ -397,11 +377,9 @@ export default {
       "masked": "The two sides could not agree on the ____.",
       "options": [
         "term-mcq-03",
-        "term-mcq-02",
-        "term-mcq-04",
-        "term-mcq-01",
+        "term-mcq-10",
         "term-mcq-05",
-        "term-mcq-06"
+        "term-mcq-09"
       ],
       "explanation": "本句的「terms」指「合約、協議或安排中的條款、條件」。",
       "sentenceIndex": 5,
@@ -410,12 +388,10 @@ export default {
         "terms"
       ],
       "optionReasons": {
-        "term-mcq-03": "本句指「合約、協議或安排中的條款、條件」。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-01": "「在某個語境或領域中具有特定意思的詞／術語」是「term — word/expression」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。"
+        "term-mcq-03": "本句的「terms」指「合約、協議或安排中的條款、條件」。",
+        "term-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-03"
     },
@@ -427,11 +403,9 @@ export default {
       "masked": "They are still on good ____.",
       "options": [
         "term-mcq-04",
-        "term-mcq-03",
-        "term-mcq-05",
-        "term-mcq-02",
         "term-mcq-06",
-        "term-mcq-01"
+        "term-mcq-08",
+        "term-mcq-03"
       ],
       "explanation": "本句的「terms」指「人與人之間的關係狀態，如 on good terms」。",
       "sentenceIndex": 6,
@@ -440,12 +414,10 @@ export default {
         "terms"
       ],
       "optionReasons": {
-        "term-mcq-04": "本句指「人與人之間的關係狀態，如 on good terms」。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-01": "「在某個語境或領域中具有特定意思的詞／術語」是「term — word/expression」的用法，與本句語境不同。"
+        "term-mcq-04": "本句的「terms」指「人與人之間的關係狀態，如 on good terms」。",
+        "term-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-04"
     },
@@ -458,10 +430,8 @@ export default {
       "options": [
         "term-mcq-04",
         "term-mcq-03",
-        "term-mcq-05",
-        "term-mcq-02",
         "term-mcq-06",
-        "term-mcq-01"
+        "term-mcq-09"
       ],
       "explanation": "本句的「terms」指「人與人之間的關係狀態，如 on good terms」。",
       "sentenceIndex": 7,
@@ -470,12 +440,10 @@ export default {
         "terms"
       ],
       "optionReasons": {
-        "term-mcq-04": "本句指「人與人之間的關係狀態，如 on good terms」。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-01": "「在某個語境或領域中具有特定意思的詞／術語」是「term — word/expression」的用法，與本句語境不同。"
+        "term-mcq-04": "本句的「terms」指「人與人之間的關係狀態，如 on good terms」。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-04"
     },
@@ -487,11 +455,9 @@ export default {
       "masked": "In ____ appearance, the building is quite simple.",
       "options": [
         "term-mcq-05",
-        "term-mcq-04",
-        "term-mcq-06",
-        "term-mcq-03",
         "term-mcq-07",
-        "term-mcq-02"
+        "term-mcq-11",
+        "term-mcq-04"
       ],
       "explanation": "本句的「terms of」指「就某個方面而言；從某個角度來看」。",
       "sentenceIndex": 8,
@@ -500,12 +466,10 @@ export default {
         "terms of"
       ],
       "optionReasons": {
-        "term-mcq-05": "本句指「就某個方面而言；從某個角度來看」。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。"
+        "term-mcq-05": "本句的「terms of」指「就某個方面而言；從某個角度來看」。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-05"
     },
@@ -517,11 +481,9 @@ export default {
       "masked": "The two products are similar in ____ price.",
       "options": [
         "term-mcq-05",
-        "term-mcq-04",
-        "term-mcq-06",
-        "term-mcq-03",
-        "term-mcq-07",
-        "term-mcq-02"
+        "term-mcq-02",
+        "term-mcq-09",
+        "term-mcq-04"
       ],
       "explanation": "本句的「terms of」指「就某個方面而言；從某個角度來看」。",
       "sentenceIndex": 9,
@@ -530,12 +492,10 @@ export default {
         "terms of"
       ],
       "optionReasons": {
-        "term-mcq-05": "本句指「就某個方面而言；從某個角度來看」。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。"
+        "term-mcq-05": "本句的「terms of」指「就某個方面而言；從某個角度來看」。",
+        "term-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-05"
     },
@@ -547,11 +507,9 @@ export default {
       "masked": "The city has improved greatly in ____ transport.",
       "options": [
         "term-mcq-05",
+        "term-mcq-08",
         "term-mcq-04",
-        "term-mcq-06",
-        "term-mcq-03",
-        "term-mcq-07",
-        "term-mcq-02"
+        "term-mcq-01"
       ],
       "explanation": "本句的「terms of」指「就某個方面而言；從某個角度來看」。",
       "sentenceIndex": 10,
@@ -560,12 +518,10 @@ export default {
         "terms of"
       ],
       "optionReasons": {
-        "term-mcq-05": "本句指「就某個方面而言；從某個角度來看」。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-02": "「一段有明確開始和結束的時間；學期、任期等」是「term — period」的用法，與本句語境不同。"
+        "term-mcq-05": "本句的「terms of」指「就某個方面而言；從某個角度來看」。",
+        "term-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-05"
     },
@@ -577,11 +533,9 @@ export default {
       "masked": "The condition is medically ____ insomnia.",
       "options": [
         "term-mcq-06",
-        "term-mcq-05",
         "term-mcq-07",
-        "term-mcq-04",
-        "term-mcq-08",
-        "term-mcq-03"
+        "term-mcq-03",
+        "term-mcq-10"
       ],
       "explanation": "本句的「termed」指「用某個名稱或詞語稱呼某人／某事」。",
       "sentenceIndex": 11,
@@ -590,12 +544,10 @@ export default {
         "termed"
       ],
       "optionReasons": {
-        "term-mcq-06": "本句指「用某個名稱或詞語稱呼某人／某事」。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。"
+        "term-mcq-06": "本句的「termed」指「用某個名稱或詞語稱呼某人／某事」。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-06"
     },
@@ -607,10 +559,8 @@ export default {
       "masked": "The period was later ____ a turning point.",
       "options": [
         "term-mcq-06",
-        "term-mcq-05",
+        "term-mcq-02",
         "term-mcq-07",
-        "term-mcq-04",
-        "term-mcq-08",
         "term-mcq-03"
       ],
       "explanation": "本句的「termed」指「用某個名稱或詞語稱呼某人／某事」。",
@@ -620,12 +570,10 @@ export default {
         "termed"
       ],
       "optionReasons": {
-        "term-mcq-06": "本句指「用某個名稱或詞語稱呼某人／某事」。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-03": "「合約、協議或安排中的條款、條件」是「terms — agreement」的用法，與本句語境不同。"
+        "term-mcq-06": "本句的「termed」指「用某個名稱或詞語稱呼某人／某事」。",
+        "term-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-06"
     },
@@ -637,11 +585,9 @@ export default {
       "masked": "Combine the like ____.",
       "options": [
         "term-mcq-07",
-        "term-mcq-06",
-        "term-mcq-08",
-        "term-mcq-05",
-        "term-mcq-09",
-        "term-mcq-04"
+        "term-mcq-04",
+        "term-mcq-10",
+        "term-mcq-09"
       ],
       "explanation": "本句的「terms」指「數式、方程式或數列中的一項」。",
       "sentenceIndex": 13,
@@ -650,12 +596,10 @@ export default {
         "terms"
       ],
       "optionReasons": {
-        "term-mcq-07": "本句指「數式、方程式或數列中的一項」。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-09": "「某專業領域的一整套術語」是「terminology」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。"
+        "term-mcq-07": "本句的「terms」指「數式、方程式或數列中的一項」。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-07"
     },
@@ -668,10 +612,8 @@ export default {
       "options": [
         "term-mcq-07",
         "term-mcq-06",
-        "term-mcq-08",
-        "term-mcq-05",
-        "term-mcq-09",
-        "term-mcq-04"
+        "term-mcq-10",
+        "term-mcq-03"
       ],
       "explanation": "本句的「term」指「數式、方程式或數列中的一項」。",
       "sentenceIndex": 14,
@@ -680,12 +622,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-07": "本句指「數式、方程式或數列中的一項」。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。",
-        "term-mcq-09": "「某專業領域的一整套術語」是「terminology」的用法，與本句語境不同。",
-        "term-mcq-04": "「人與人之間的關係狀態，如 on good terms」是「terms — relationship」的用法，與本句語境不同。"
+        "term-mcq-07": "本句的「term」指「數式、方程式或數列中的一項」。",
+        "term-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-07"
     },
@@ -697,11 +637,9 @@ export default {
       "masked": "The baby was born at full ____.",
       "options": [
         "term-mcq-08",
-        "term-mcq-07",
         "term-mcq-09",
-        "term-mcq-06",
-        "term-mcq-10",
-        "term-mcq-05"
+        "term-mcq-05",
+        "term-mcq-07"
       ],
       "explanation": "本句的「term」指「妊娠達到預期完成階段；足月」。",
       "sentenceIndex": 15,
@@ -710,12 +648,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-08": "本句指「妊娠達到預期完成階段；足月」。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-09": "「某專業領域的一整套術語」是「terminology」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-10": "「表示刑期」是「9. term = sentence/punishment period（法律） — 刑期」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。"
+        "term-mcq-08": "本句的「term」指「妊娠達到預期完成階段；足月」。",
+        "term-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-08"
     },
@@ -727,10 +663,8 @@ export default {
       "masked": "She carried the pregnancy to ____.",
       "options": [
         "term-mcq-08",
-        "term-mcq-07",
-        "term-mcq-09",
-        "term-mcq-06",
-        "term-mcq-10",
+        "term-mcq-01",
+        "term-mcq-04",
         "term-mcq-05"
       ],
       "explanation": "本句的「term」指「妊娠達到預期完成階段；足月」。",
@@ -740,12 +674,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-08": "本句指「妊娠達到預期完成階段；足月」。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-09": "「某專業領域的一整套術語」是「terminology」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-10": "「表示刑期」是「9. term = sentence/punishment period（法律） — 刑期」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。"
+        "term-mcq-08": "本句的「term」指「妊娠達到預期完成階段；足月」。",
+        "term-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-08"
     },
@@ -757,11 +689,9 @@ export default {
       "masked": "He received a five-year prison ____.",
       "options": [
         "term-mcq-10",
-        "term-mcq-09",
-        "term-mcq-08",
-        "term-mcq-07",
-        "term-mcq-06",
-        "term-mcq-05"
+        "term-mcq-04",
+        "term-mcq-05",
+        "term-mcq-07"
       ],
       "explanation": "本句的「term」指「表示刑期」。",
       "sentenceIndex": 17,
@@ -770,12 +700,10 @@ export default {
         "term"
       ],
       "optionReasons": {
-        "term-mcq-10": "本句指「表示刑期」。",
-        "term-mcq-09": "「某專業領域的一整套術語」是「terminology」的用法，與本句語境不同。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。"
+        "term-mcq-10": "本句的「term」指「表示刑期」。",
+        "term-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-10"
     },
@@ -787,11 +715,9 @@ export default {
       "masked": "Medical ____ can be difficult for beginners.",
       "options": [
         "term-mcq-09",
-        "term-mcq-08",
+        "term-mcq-05",
         "term-mcq-10",
-        "term-mcq-07",
-        "term-mcq-06",
-        "term-mcq-05"
+        "term-mcq-03"
       ],
       "explanation": "本句的「terminology」指「某專業領域的一整套術語」。",
       "sentenceIndex": 18,
@@ -800,12 +726,10 @@ export default {
         "terminology"
       ],
       "optionReasons": {
-        "term-mcq-09": "本句指「某專業領域的一整套術語」。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-10": "「表示刑期」是「9. term = sentence/punishment period（法律） — 刑期」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。"
+        "term-mcq-09": "本句的「terminology」指「某專業領域的一整套術語」。",
+        "term-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-09"
     },
@@ -818,10 +742,8 @@ export default {
       "options": [
         "term-mcq-11",
         "term-mcq-09",
-        "term-mcq-08",
-        "term-mcq-07",
-        "term-mcq-06",
-        "term-mcq-05"
+        "term-mcq-03",
+        "term-mcq-06"
       ],
       "explanation": "本句的「terminological」指「表示刑期」。",
       "sentenceIndex": 19,
@@ -830,12 +752,10 @@ export default {
         "terminological"
       ],
       "optionReasons": {
-        "term-mcq-11": "本句指「表示刑期」。",
-        "term-mcq-09": "「某專業領域的一整套術語」是「terminology」的用法，與本句語境不同。",
-        "term-mcq-08": "「妊娠達到預期完成階段；足月」是「term — pregnancy」的用法，與本句語境不同。",
-        "term-mcq-07": "「數式、方程式或數列中的一項」是「term — mathematics」的用法，與本句語境不同。",
-        "term-mcq-06": "「用某個名稱或詞語稱呼某人／某事」是「term — verb」的用法，與本句語境不同。",
-        "term-mcq-05": "「就某個方面而言；從某個角度來看」是「in terms of」的用法，與本句語境不同。"
+        "term-mcq-11": "本句的「terminological」指「表示刑期」。",
+        "term-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "term-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "term-mcq-11"
     }
@@ -847,5 +767,7 @@ export default {
     "sha256": "f751ec52252939542bf2fae218ca87d4a2c4a90fc479551bff164a8f9d17bb45",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

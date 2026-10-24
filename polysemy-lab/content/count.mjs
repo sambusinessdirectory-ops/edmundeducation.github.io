@@ -557,11 +557,9 @@ export default {
       "masked": "Can you ____ the plants on the balcony?",
       "options": [
         "count-mcq-01",
-        "count-mcq-02",
-        "count-mcq-03",
         "count-mcq-04",
-        "count-mcq-05",
-        "count-mcq-06"
+        "count-mcq-03",
+        "count-mcq-20"
       ],
       "explanation": "本句的「count」指「逐一計算人／物，以確定總數有多少」。",
       "sentenceIndex": 0,
@@ -570,12 +568,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-01": "本句指「逐一計算人／物，以確定總數有多少」。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-01": "本句的「count」指「逐一計算人／物，以確定總數有多少」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-01"
     },
@@ -587,11 +583,9 @@ export default {
       "masked": "The child can already ____ to one hundred.",
       "options": [
         "count-mcq-01",
-        "count-mcq-02",
-        "count-mcq-03",
+        "count-mcq-10",
         "count-mcq-04",
-        "count-mcq-05",
-        "count-mcq-06"
+        "count-mcq-03"
       ],
       "explanation": "本句的「count」指「逐一計算人／物，以確定總數有多少」。",
       "sentenceIndex": 1,
@@ -600,12 +594,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-01": "本句指「逐一計算人／物，以確定總數有多少」。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-01": "本句的「count」指「逐一計算人／物，以確定總數有多少」。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-01"
     },
@@ -617,11 +609,9 @@ export default {
       "masked": "Did you ____ the smaller pots?",
       "options": [
         "count-mcq-02",
-        "count-mcq-01",
+        "count-mcq-10",
         "count-mcq-03",
-        "count-mcq-04",
-        "count-mcq-05",
-        "count-mcq-06"
+        "count-mcq-20"
       ],
       "explanation": "本句的「count」指「在計算總數時把某人／某物納入其中」。",
       "sentenceIndex": 2,
@@ -630,12 +620,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-02": "本句指「在計算總數時把某人／某物納入其中」。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-02": "本句的「count」指「在計算總數時把某人／某物納入其中」。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-02"
     },
@@ -647,11 +635,9 @@ export default {
       "masked": "Children under five are not ____ in the total.",
       "options": [
         "count-mcq-02",
-        "count-mcq-01",
-        "count-mcq-03",
-        "count-mcq-04",
-        "count-mcq-05",
-        "count-mcq-06"
+        "count-mcq-10",
+        "count-mcq-20",
+        "count-mcq-03"
       ],
       "explanation": "本句的「counted」指「在計算總數時把某人／某物納入其中」。",
       "sentenceIndex": 3,
@@ -660,12 +646,10 @@ export default {
         "counted"
       ],
       "optionReasons": {
-        "count-mcq-02": "本句指「在計算總數時把某人／某物納入其中」。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-02": "本句的「counted」指「在計算總數時把某人／某物納入其中」。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-02"
     },
@@ -677,10 +661,8 @@ export default {
       "masked": "Every small effort ____.",
       "options": [
         "count-mcq-03",
-        "count-mcq-02",
-        "count-mcq-04",
-        "count-mcq-01",
-        "count-mcq-05",
+        "count-mcq-11",
+        "count-mcq-16",
         "count-mcq-06"
       ],
       "explanation": "本句的「counts」指「對結果具有實際重要性、價值或影響」。",
@@ -690,12 +672,10 @@ export default {
         "counts"
       ],
       "optionReasons": {
-        "count-mcq-03": "本句指「對結果具有實際重要性、價值或影響」。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-03": "本句的「counts」指「對結果具有實際重要性、價值或影響」。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-03"
     },
@@ -707,11 +687,9 @@ export default {
       "masked": "What really ____ is whether the students understand.",
       "options": [
         "count-mcq-03",
-        "count-mcq-02",
-        "count-mcq-04",
-        "count-mcq-01",
-        "count-mcq-05",
-        "count-mcq-06"
+        "count-mcq-21",
+        "count-mcq-11",
+        "count-mcq-07"
       ],
       "explanation": "本句的「counts」指「對結果具有實際重要性、價值或影響」。",
       "sentenceIndex": 5,
@@ -720,12 +698,10 @@ export default {
         "counts"
       ],
       "optionReasons": {
-        "count-mcq-03": "本句指「對結果具有實際重要性、價值或影響」。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-03": "本句的「counts」指「對結果具有實際重要性、價值或影響」。",
+        "count-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-03"
     },
@@ -737,11 +713,9 @@ export default {
       "masked": "I ____ her as one of my closest friends.",
       "options": [
         "count-pdf-001",
-        "count-mcq-03",
-        "count-mcq-05",
-        "count-mcq-02",
-        "count-mcq-06",
-        "count-mcq-01"
+        "count-mcq-16",
+        "count-mcq-22",
+        "count-mcq-18"
       ],
       "explanation": "本句的「count」指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
       "sentenceIndex": 6,
@@ -750,12 +724,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-pdf-001": "本句指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。"
+        "count-pdf-001": "本句的「count」指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
+        "count-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-pdf-001"
     },
@@ -767,11 +739,9 @@ export default {
       "masked": "Does gardening ____ exercise?",
       "options": [
         "count-pdf-001",
-        "count-mcq-03",
-        "count-mcq-05",
-        "count-mcq-02",
-        "count-mcq-06",
-        "count-mcq-01"
+        "count-mcq-15",
+        "count-mcq-11",
+        "count-mcq-10"
       ],
       "explanation": "本句的「count as」指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
       "sentenceIndex": 7,
@@ -780,12 +750,10 @@ export default {
         "count as"
       ],
       "optionReasons": {
-        "count-pdf-001": "本句指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。"
+        "count-pdf-001": "本句的「count as」指「把 A 歸入 B 這個類別，認為 A 符合 B 的身分／定義」。",
+        "count-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-pdf-001"
     },
@@ -797,11 +765,9 @@ export default {
       "masked": "I ____ to have had such a teacher.",
       "options": [
         "count-mcq-04",
-        "count-mcq-03",
-        "count-mcq-05",
-        "count-mcq-02",
-        "count-mcq-06",
-        "count-mcq-01"
+        "count-mcq-11",
+        "count-mcq-10",
+        "count-mcq-03"
       ],
       "explanation": "本句的「count myself lucky」指「把某人／某事視為某種身分、類別或狀態」。",
       "sentenceIndex": 8,
@@ -810,12 +776,10 @@ export default {
         "count myself lucky"
       ],
       "optionReasons": {
-        "count-mcq-04": "本句指「把某人／某事視為某種身分、類別或狀態」。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。"
+        "count-mcq-04": "本句的「count myself lucky」指「把某人／某事視為某種身分、類別或狀態」。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-04"
     },
@@ -827,11 +791,9 @@ export default {
       "masked": "She is ____ the most influential writers of her generation.",
       "options": [
         "count-mcq-04",
-        "count-mcq-03",
-        "count-mcq-05",
-        "count-mcq-02",
-        "count-mcq-06",
-        "count-mcq-01"
+        "count-mcq-11",
+        "count-mcq-14",
+        "count-mcq-12"
       ],
       "explanation": "本句的「counted among」指「把某人／某事視為某種身分、類別或狀態」。",
       "sentenceIndex": 9,
@@ -840,12 +802,10 @@ export default {
         "counted among"
       ],
       "optionReasons": {
-        "count-mcq-04": "本句指「把某人／某事視為某種身分、類別或狀態」。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-02": "「在計算總數時把某人／某物納入其中」是「count — include」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-01": "「逐一計算人／物，以確定總數有多少」是「count — calculate」的用法，與本句語境不同。"
+        "count-mcq-04": "本句的「counted among」指「把某人／某事視為某種身分、類別或狀態」。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-04"
     },
@@ -857,11 +817,9 @@ export default {
       "masked": "The final ____ was 126 plants.",
       "options": [
         "count-mcq-06",
-        "count-mcq-05",
-        "count-mcq-07",
-        "count-mcq-04",
-        "count-mcq-08",
-        "count-mcq-03"
+        "count-mcq-13",
+        "count-pdf-001",
+        "count-mcq-22"
       ],
       "explanation": "本句的「count」指「經過計算所得出的總數」。",
       "sentenceIndex": 10,
@@ -870,12 +828,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-06": "本句指「經過計算所得出的總數」。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。"
+        "count-mcq-06": "本句的「count」指「經過計算所得出的總數」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-06"
     },
@@ -887,11 +843,9 @@ export default {
       "masked": "We need an accurate ____ of the participants.",
       "options": [
         "count-mcq-06",
-        "count-mcq-05",
-        "count-mcq-07",
+        "count-mcq-22",
         "count-mcq-04",
-        "count-mcq-08",
-        "count-mcq-03"
+        "count-mcq-13"
       ],
       "explanation": "本句的「count」指「經過計算所得出的總數」。",
       "sentenceIndex": 11,
@@ -900,12 +854,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-06": "本句指「經過計算所得出的總數」。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-03": "「對結果具有實際重要性、價值或影響」是「count — matter」的用法，與本句語境不同。"
+        "count-mcq-06": "本句的「count」指「經過計算所得出的總數」。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-06"
     },
@@ -917,11 +869,9 @@ export default {
       "masked": "We did a second ____ to check the total.",
       "options": [
         "count-mcq-07",
-        "count-mcq-06",
-        "count-mcq-08",
-        "count-mcq-05",
-        "count-mcq-09",
-        "count-mcq-04"
+        "count-mcq-13",
+        "count-mcq-22",
+        "count-mcq-10"
       ],
       "explanation": "本句的「count」指「一次計數／點算行為」。",
       "sentenceIndex": 12,
@@ -930,12 +880,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-07": "本句指「一次計數／點算行為」。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。"
+        "count-mcq-07": "本句的「count」指「一次計數／點算行為」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-07"
     },
@@ -947,10 +895,8 @@ export default {
       "masked": "The first ____ showed that three plants were missing.",
       "options": [
         "count-mcq-07",
-        "count-mcq-06",
-        "count-mcq-08",
-        "count-mcq-05",
-        "count-mcq-09",
+        "count-mcq-22",
+        "count-mcq-10",
         "count-mcq-04"
       ],
       "explanation": "本句的「count」指「一次計數／點算行為」。",
@@ -960,12 +906,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-07": "本句指「一次計數／點算行為」。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-04": "「把某人／某事視為某種身分、類別或狀態」是「count — regard/consider」的用法，與本句語境不同。"
+        "count-mcq-07": "本句的「count」指「一次計數／點算行為」。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-07"
     },
@@ -977,11 +921,9 @@ export default {
       "masked": "Hold your breath for a ____.",
       "options": [
         "count-mcq-08",
-        "count-mcq-07",
-        "count-mcq-09",
-        "count-mcq-06",
-        "count-mcq-10",
-        "count-mcq-05"
+        "count-mcq-13",
+        "count-mcq-03",
+        "count-mcq-20"
       ],
       "explanation": "本句的「count of five」指「以數到指定數字作為時間／節奏單位」。",
       "sentenceIndex": 14,
@@ -990,12 +932,10 @@ export default {
         "count of five"
       ],
       "optionReasons": {
-        "count-mcq-08": "本句指「以數到指定數字作為時間／節奏單位」。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。"
+        "count-mcq-08": "本句的「count of five」指「以數到指定數字作為時間／節奏單位」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-08"
     },
@@ -1007,11 +947,9 @@ export default {
       "masked": "At a ____, everyone lifted the box together.",
       "options": [
         "count-mcq-08",
-        "count-mcq-07",
-        "count-mcq-09",
-        "count-mcq-06",
         "count-mcq-10",
-        "count-mcq-05"
+        "count-mcq-13",
+        "count-mcq-20"
       ],
       "explanation": "本句的「count of three」指「以數到指定數字作為時間／節奏單位」。",
       "sentenceIndex": 15,
@@ -1020,12 +958,10 @@ export default {
         "count of three"
       ],
       "optionReasons": {
-        "count-mcq-08": "本句指「以數到指定數字作為時間／節奏單位」。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-05": "「判斷某人／某事是否符合某一類別或定義」是「count as」的用法，與本句語境不同。"
+        "count-mcq-08": "本句的「count of three」指「以數到指定數字作為時間／節奏單位」。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-08"
     },
@@ -1037,11 +973,9 @@ export default {
       "masked": "The pollen ____ is high today.",
       "options": [
         "count-mcq-09",
-        "count-mcq-08",
+        "count-mcq-22",
         "count-mcq-10",
-        "count-mcq-07",
-        "count-mcq-11",
-        "count-mcq-06"
+        "count-mcq-13"
       ],
       "explanation": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
       "sentenceIndex": 16,
@@ -1050,12 +984,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-09": "本句指「某類事物經點算或測量所得的數量／數值」。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-09": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-09"
     },
@@ -1067,11 +999,9 @@ export default {
       "masked": "The calorie ____ of the meal was surprisingly low.",
       "options": [
         "count-mcq-09",
-        "count-mcq-08",
-        "count-mcq-10",
-        "count-mcq-07",
-        "count-mcq-11",
-        "count-mcq-06"
+        "count-mcq-13",
+        "count-mcq-22",
+        "count-mcq-10"
       ],
       "explanation": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
       "sentenceIndex": 17,
@@ -1080,12 +1010,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-09": "本句指「某類事物經點算或測量所得的數量／數值」。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-09": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-09"
     },
@@ -1097,11 +1025,9 @@ export default {
       "masked": "The doctor ordered a blood ____.",
       "options": [
         "count-mcq-09",
-        "count-mcq-08",
-        "count-mcq-10",
-        "count-mcq-07",
-        "count-mcq-11",
-        "count-mcq-06"
+        "count-mcq-13",
+        "count-mcq-22",
+        "count-mcq-10"
       ],
       "explanation": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
       "sentenceIndex": 18,
@@ -1110,12 +1036,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-09": "本句指「某類事物經點算或測量所得的數量／數值」。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-09": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-09"
     },
@@ -1127,11 +1051,9 @@ export default {
       "masked": "Her white blood cell ____ was low.",
       "options": [
         "count-mcq-09",
-        "count-mcq-08",
+        "count-mcq-22",
         "count-mcq-10",
-        "count-mcq-07",
-        "count-mcq-11",
-        "count-mcq-06"
+        "count-mcq-13"
       ],
       "explanation": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
       "sentenceIndex": 19,
@@ -1140,12 +1062,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-09": "本句指「某類事物經點算或測量所得的數量／數值」。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-09": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-09"
     },
@@ -1157,11 +1077,9 @@ export default {
       "masked": "The essay has a ____ of 500.",
       "options": [
         "count-mcq-09",
-        "count-mcq-08",
         "count-mcq-10",
-        "count-mcq-07",
-        "count-mcq-11",
-        "count-mcq-06"
+        "count-mcq-13",
+        "count-mcq-22"
       ],
       "explanation": "本句的「word count」指「某類事物經點算或測量所得的數量／數值」。",
       "sentenceIndex": 20,
@@ -1170,12 +1088,10 @@ export default {
         "word count"
       ],
       "optionReasons": {
-        "count-mcq-09": "本句指「某類事物經點算或測量所得的數量／數值」。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-09": "本句的「word count」指「某類事物經點算或測量所得的數量／數值」。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-09"
     },
@@ -1187,11 +1103,9 @@ export default {
       "masked": "Stay within the required word ____.",
       "options": [
         "count-mcq-09",
-        "count-mcq-08",
-        "count-mcq-10",
-        "count-mcq-07",
-        "count-mcq-11",
-        "count-mcq-06"
+        "count-mcq-22",
+        "count-mcq-13",
+        "count-mcq-10"
       ],
       "explanation": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
       "sentenceIndex": 21,
@@ -1200,12 +1114,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-09": "本句指「某類事物經點算或測量所得的數量／數值」。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-06": "「經過計算所得出的總數」是「a count — total」的用法，與本句語境不同。"
+        "count-mcq-09": "本句的「count」指「某類事物經點算或測量所得的數量／數值」。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-09"
     },
@@ -1217,11 +1129,9 @@ export default {
       "masked": "He was charged with two ____ of fraud.",
       "options": [
         "count-mcq-10",
-        "count-mcq-09",
         "count-mcq-11",
-        "count-mcq-08",
-        "count-mcq-12",
-        "count-mcq-07"
+        "count-mcq-13",
+        "count-mcq-19"
       ],
       "explanation": "本句的「counts」指「起訴文件中的一項獨立控罪」。",
       "sentenceIndex": 22,
@@ -1230,12 +1140,10 @@ export default {
         "counts"
       ],
       "optionReasons": {
-        "count-mcq-10": "本句指「起訴文件中的一項獨立控罪」。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。"
+        "count-mcq-10": "本句的「counts」指「起訴文件中的一項獨立控罪」。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-10"
     },
@@ -1247,11 +1155,9 @@ export default {
       "masked": "The court dismissed one ____.",
       "options": [
         "count-mcq-10",
-        "count-mcq-09",
-        "count-mcq-11",
-        "count-mcq-08",
-        "count-mcq-12",
-        "count-mcq-07"
+        "count-pdf-001",
+        "count-mcq-19",
+        "count-mcq-11"
       ],
       "explanation": "本句的「count」指「起訴文件中的一項獨立控罪」。",
       "sentenceIndex": 23,
@@ -1260,12 +1166,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-10": "本句指「起訴文件中的一項獨立控罪」。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-07": "「一次計數／點算行為」是「a count — act」的用法，與本句語境不同。"
+        "count-mcq-10": "本句的「count」指「起訴文件中的一項獨立控罪」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-10"
     },
@@ -1277,11 +1181,9 @@ export default {
       "masked": "The ____ is two balls and one strike.",
       "options": [
         "count-mcq-11",
-        "count-mcq-10",
-        "count-mcq-12",
-        "count-mcq-09",
+        "count-pdf-001",
         "count-mcq-13",
-        "count-mcq-08"
+        "count-mcq-22"
       ],
       "explanation": "本句的「count」指「打者目前的壞球及好球球數」。",
       "sentenceIndex": 24,
@@ -1290,12 +1192,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-11": "本句指「打者目前的壞球及好球球數」。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。"
+        "count-mcq-11": "本句的「count」指「打者目前的壞球及好球球數」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-11"
     },
@@ -1307,11 +1207,9 @@ export default {
       "masked": "He worked the ____ to three and two.",
       "options": [
         "count-mcq-11",
-        "count-mcq-10",
-        "count-mcq-12",
-        "count-mcq-09",
+        "count-mcq-04",
         "count-mcq-13",
-        "count-mcq-08"
+        "count-mcq-10"
       ],
       "explanation": "本句的「count」指「打者目前的壞球及好球球數」。",
       "sentenceIndex": 25,
@@ -1320,12 +1218,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-11": "本句指「打者目前的壞球及好球球數」。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-08": "「以數到指定數字作為時間／節奏單位」是「a count of + number」的用法，與本句語境不同。"
+        "count-mcq-11": "本句的「count」指「打者目前的壞球及好球球數」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-11"
     },
@@ -1337,11 +1233,9 @@ export default {
       "masked": "The fabric has a high thread ____.",
       "options": [
         "count-mcq-12",
-        "count-mcq-11",
         "count-mcq-13",
-        "count-mcq-10",
-        "count-mcq-14",
-        "count-mcq-09"
+        "count-mcq-20",
+        "count-mcq-04"
       ],
       "explanation": "本句的「count」指「用數字表示線數、粒子事件或其他技術測量量的指標」。",
       "sentenceIndex": 26,
@@ -1350,12 +1244,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-12": "本句指「用數字表示線數、粒子事件或其他技術測量量的指標」。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。"
+        "count-mcq-12": "本句的「count」指「用數字表示線數、粒子事件或其他技術測量量的指標」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-12"
     },
@@ -1367,11 +1259,9 @@ export default {
       "masked": "The detector recorded a low particle ____.",
       "options": [
         "count-mcq-12",
-        "count-mcq-11",
-        "count-mcq-13",
-        "count-mcq-10",
-        "count-mcq-14",
-        "count-mcq-09"
+        "count-mcq-04",
+        "count-mcq-20",
+        "count-mcq-13"
       ],
       "explanation": "本句的「count」指「用數字表示線數、粒子事件或其他技術測量量的指標」。",
       "sentenceIndex": 27,
@@ -1380,12 +1270,10 @@ export default {
         "count"
       ],
       "optionReasons": {
-        "count-mcq-12": "本句指「用數字表示線數、粒子事件或其他技術測量量的指標」。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-09": "「某類事物經點算或測量所得的數量／數值」是「X count」的用法，與本句語境不同。"
+        "count-mcq-12": "本句的「count」指「用數字表示線數、粒子事件或其他技術測量量的指標」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-12"
     },
@@ -1398,9 +1286,7 @@ export default {
       "options": [
         "count-mcq-13",
         "count-mcq-12",
-        "count-mcq-14",
-        "count-mcq-11",
-        "count-mcq-15",
+        "count-mcq-20",
         "count-mcq-10"
       ],
       "explanation": "本句的「Count Dracula」指「歐洲貴族制度中的男性貴族頭銜；伯爵」。",
@@ -1410,12 +1296,10 @@ export default {
         "Count Dracula"
       ],
       "optionReasons": {
-        "count-mcq-13": "本句指「歐洲貴族制度中的男性貴族頭銜；伯爵」。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。"
+        "count-mcq-13": "本句的「Count Dracula」指「歐洲貴族制度中的男性貴族頭銜；伯爵」。",
+        "count-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-13"
     },
@@ -1427,11 +1311,9 @@ export default {
       "masked": "The ____ welcomed the guests to his estate.",
       "options": [
         "count-mcq-13",
-        "count-mcq-12",
-        "count-mcq-14",
-        "count-mcq-11",
-        "count-mcq-15",
-        "count-mcq-10"
+        "count-mcq-02",
+        "count-pdf-001",
+        "count-mcq-22"
       ],
       "explanation": "本句的「Count」指「歐洲貴族制度中的男性貴族頭銜；伯爵」。",
       "sentenceIndex": 29,
@@ -1440,12 +1322,10 @@ export default {
         "Count"
       ],
       "optionReasons": {
-        "count-mcq-13": "本句指「歐洲貴族制度中的男性貴族頭銜；伯爵」。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-10": "「起訴文件中的一項獨立控罪」是「count — law」的用法，與本句語境不同。"
+        "count-mcq-13": "本句的「Count」指「歐洲貴族制度中的男性貴族頭銜；伯爵」。",
+        "count-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-13"
     },
@@ -1457,11 +1337,9 @@ export default {
       "masked": "‘Plant’ is a ____ noun.",
       "options": [
         "count-mcq-14",
-        "count-mcq-13",
-        "count-mcq-15",
-        "count-mcq-12",
-        "count-mcq-16",
-        "count-mcq-11"
+        "count-mcq-04",
+        "count-mcq-20",
+        "count-mcq-13"
       ],
       "explanation": "本句的「countable」指「能作為獨立單位逐一計數的」。",
       "sentenceIndex": 30,
@@ -1470,12 +1348,10 @@ export default {
         "countable"
       ],
       "optionReasons": {
-        "count-mcq-14": "本句指「能作為獨立單位逐一計數的」。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。"
+        "count-mcq-14": "本句的「countable」指「能作為獨立單位逐一計數的」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-14"
     },
@@ -1487,11 +1363,9 @@ export default {
       "masked": "Chairs are ____ because we can say one chair, two chairs, and so on.",
       "options": [
         "count-mcq-14",
-        "count-mcq-13",
-        "count-mcq-15",
-        "count-mcq-12",
-        "count-mcq-16",
-        "count-mcq-11"
+        "count-mcq-03",
+        "count-mcq-20",
+        "count-mcq-13"
       ],
       "explanation": "本句的「countable」指「能作為獨立單位逐一計數的」。",
       "sentenceIndex": 31,
@@ -1500,12 +1374,10 @@ export default {
         "countable"
       ],
       "optionReasons": {
-        "count-mcq-14": "本句指「能作為獨立單位逐一計數的」。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-11": "「打者目前的壞球及好球球數」是「count — baseball」的用法，與本句語境不同。"
+        "count-mcq-14": "本句的「countable」指「能作為獨立單位逐一計數的」。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-14"
     },
@@ -1517,11 +1389,9 @@ export default {
       "masked": "‘Book’ is a ____.",
       "options": [
         "count-mcq-15",
-        "count-mcq-14",
-        "count-mcq-16",
-        "count-mcq-13",
-        "count-mcq-17",
-        "count-mcq-12"
+        "count-mcq-10",
+        "count-mcq-20",
+        "count-mcq-13"
       ],
       "explanation": "本句的「count noun」指「可以用數字直接計數、通常具有單複數形式的名詞」。",
       "sentenceIndex": 32,
@@ -1530,12 +1400,10 @@ export default {
         "count noun"
       ],
       "optionReasons": {
-        "count-mcq-15": "本句指「可以用數字直接計數、通常具有單複數形式的名詞」。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。"
+        "count-mcq-15": "本句的「count noun」指「可以用數字直接計數、通常具有單複數形式的名詞」。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-15"
     },
@@ -1547,11 +1415,9 @@ export default {
       "masked": "____ nouns normally have singular and plural forms.",
       "options": [
         "count-mcq-15",
-        "count-mcq-14",
-        "count-mcq-16",
-        "count-mcq-13",
-        "count-mcq-17",
-        "count-mcq-12"
+        "count-pdf-001",
+        "count-mcq-10",
+        "count-mcq-20"
       ],
       "explanation": "本句的「Count」指「可以用數字直接計數、通常具有單複數形式的名詞」。",
       "sentenceIndex": 33,
@@ -1560,12 +1426,10 @@ export default {
         "Count"
       ],
       "optionReasons": {
-        "count-mcq-15": "本句指「可以用數字直接計數、通常具有單複數形式的名詞」。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-12": "「用數字表示線數、粒子事件或其他技術測量量的指標」是「count — technical」的用法，與本句語境不同。"
+        "count-mcq-15": "本句的「Count」指「可以用數字直接計數、通常具有單複數形式的名詞」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-15"
     },
@@ -1577,11 +1441,9 @@ export default {
       "masked": "‘Information’ is usually ____ in English.",
       "options": [
         "count-mcq-16",
-        "count-mcq-15",
-        "count-mcq-17",
-        "count-mcq-14",
-        "count-mcq-18",
-        "count-mcq-13"
+        "count-mcq-03",
+        "count-mcq-13",
+        "count-mcq-20"
       ],
       "explanation": "本句的「uncountable」指「一般不把名詞所指內容視為可逐個計數的獨立單位」。",
       "sentenceIndex": 34,
@@ -1590,12 +1452,10 @@ export default {
         "uncountable"
       ],
       "optionReasons": {
-        "count-mcq-16": "本句指「一般不把名詞所指內容視為可逐個計數的獨立單位」。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。"
+        "count-mcq-16": "本句的「uncountable」指「一般不把名詞所指內容視為可逐個計數的獨立單位」。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-16"
     },
@@ -1607,10 +1467,8 @@ export default {
       "masked": "‘Water’ is normally ____ when referring to the substance generally.",
       "options": [
         "count-mcq-16",
-        "count-mcq-15",
-        "count-mcq-17",
-        "count-mcq-14",
-        "count-mcq-18",
+        "count-pdf-001",
+        "count-mcq-20",
         "count-mcq-13"
       ],
       "explanation": "本句的「uncountable」指「一般不把名詞所指內容視為可逐個計數的獨立單位」。",
@@ -1620,12 +1478,10 @@ export default {
         "uncountable"
       ],
       "optionReasons": {
-        "count-mcq-16": "本句指「一般不把名詞所指內容視為可逐個計數的獨立單位」。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-13": "「歐洲貴族制度中的男性貴族頭銜；伯爵」是「Count — title」的用法，與本句語境不同。"
+        "count-mcq-16": "本句的「uncountable」指「一般不把名詞所指內容視為可逐個計數的獨立單位」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-16"
     },
@@ -1637,11 +1493,9 @@ export default {
       "masked": "There were ____ stars in the sky.",
       "options": [
         "count-mcq-17",
-        "count-mcq-16",
-        "count-mcq-18",
-        "count-mcq-15",
-        "count-mcq-19",
-        "count-mcq-14"
+        "count-mcq-13",
+        "count-mcq-20",
+        "count-mcq-10"
       ],
       "explanation": "本句的「uncountable」指「數量大到實際上難以逐一計算的」。",
       "sentenceIndex": 36,
@@ -1650,12 +1504,10 @@ export default {
         "uncountable"
       ],
       "optionReasons": {
-        "count-mcq-17": "本句指「數量大到實際上難以逐一計算的」。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。"
+        "count-mcq-17": "本句的「uncountable」指「數量大到實際上難以逐一計算的」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-17"
     },
@@ -1667,11 +1519,9 @@ export default {
       "masked": "The decision had ____ small consequences.",
       "options": [
         "count-mcq-17",
-        "count-mcq-16",
-        "count-mcq-18",
-        "count-mcq-15",
-        "count-mcq-19",
-        "count-mcq-14"
+        "count-pdf-001",
+        "count-mcq-13",
+        "count-mcq-10"
       ],
       "explanation": "本句的「uncountable」指「數量大到實際上難以逐一計算的」。",
       "sentenceIndex": 37,
@@ -1680,12 +1530,10 @@ export default {
         "uncountable"
       ],
       "optionReasons": {
-        "count-mcq-17": "本句指「數量大到實際上難以逐一計算的」。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-14": "「能作為獨立單位逐一計數的」是「countable」的用法，與本句語境不同。"
+        "count-mcq-17": "本句的「uncountable」指「數量大到實際上難以逐一計算的」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-17"
     },
@@ -1697,11 +1545,9 @@ export default {
       "masked": "I have visited her home ____.",
       "options": [
         "count-mcq-18",
-        "count-mcq-17",
-        "count-mcq-19",
-        "count-mcq-16",
         "count-mcq-20",
-        "count-mcq-15"
+        "count-mcq-04",
+        "count-mcq-10"
       ],
       "explanation": "本句的「countless times」指「數量極多，多到難以／沒有必要逐一計算的」。",
       "sentenceIndex": 38,
@@ -1710,12 +1556,10 @@ export default {
         "countless times"
       ],
       "optionReasons": {
-        "count-mcq-18": "本句指「數量極多，多到難以／沒有必要逐一計算的」。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。"
+        "count-mcq-18": "本句的「countless times」指「數量極多，多到難以／沒有必要逐一計算的」。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-18"
     },
@@ -1727,11 +1571,9 @@ export default {
       "masked": "She has grown ____ over the years.",
       "options": [
         "count-mcq-18",
-        "count-mcq-17",
-        "count-mcq-19",
-        "count-mcq-16",
-        "count-mcq-20",
-        "count-mcq-15"
+        "count-mcq-04",
+        "count-mcq-10",
+        "count-mcq-13"
       ],
       "explanation": "本句的「countless plants」指「數量極多，多到難以／沒有必要逐一計算的」。",
       "sentenceIndex": 39,
@@ -1740,12 +1582,10 @@ export default {
         "countless plants"
       ],
       "optionReasons": {
-        "count-mcq-18": "本句指「數量極多，多到難以／沒有必要逐一計算的」。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。"
+        "count-mcq-18": "本句的「countless plants」指「數量極多，多到難以／沒有必要逐一計算的」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-18"
     },
@@ -1757,11 +1597,9 @@ export default {
       "masked": "The garden has given her ____ happy memories.",
       "options": [
         "count-mcq-18",
-        "count-mcq-17",
-        "count-mcq-19",
-        "count-mcq-16",
+        "count-mcq-04",
         "count-mcq-20",
-        "count-mcq-15"
+        "count-mcq-10"
       ],
       "explanation": "本句的「countless」指「數量極多，多到難以／沒有必要逐一計算的」。",
       "sentenceIndex": 40,
@@ -1770,12 +1608,10 @@ export default {
         "countless"
       ],
       "optionReasons": {
-        "count-mcq-18": "本句指「數量極多，多到難以／沒有必要逐一計算的」。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-15": "「可以用數字直接計數、通常具有單複數形式的名詞」是「count noun」的用法，與本句語境不同。"
+        "count-mcq-18": "本句的「countless」指「數量極多，多到難以／沒有必要逐一計算的」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-18"
     },
@@ -1787,11 +1623,9 @@ export default {
       "masked": "Officials ____.",
       "options": [
         "count-mcq-19",
-        "count-mcq-18",
-        "count-mcq-20",
-        "count-mcq-17",
-        "count-mcq-21",
-        "count-mcq-16"
+        "count-mcq-13",
+        "count-mcq-04",
+        "count-mcq-10"
       ],
       "explanation": "本句的「recounted the votes」指「再次計算，以確認原來數目是否準確」。",
       "sentenceIndex": 41,
@@ -1800,12 +1634,10 @@ export default {
         "recounted the votes"
       ],
       "optionReasons": {
-        "count-mcq-19": "本句指「再次計算，以確認原來數目是否準確」。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。"
+        "count-mcq-19": "本句的「recounted the votes」指「再次計算，以確認原來數目是否準確」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-19"
     },
@@ -1817,11 +1649,9 @@ export default {
       "masked": "Please ____ the plants because the totals do not match.",
       "options": [
         "count-mcq-19",
-        "count-mcq-18",
-        "count-mcq-20",
-        "count-mcq-17",
-        "count-mcq-21",
-        "count-mcq-16"
+        "count-mcq-22",
+        "count-mcq-04",
+        "count-mcq-10"
       ],
       "explanation": "本句的「recount」指「再次計算，以確認原來數目是否準確」。",
       "sentenceIndex": 42,
@@ -1830,12 +1660,10 @@ export default {
         "recount"
       ],
       "optionReasons": {
-        "count-mcq-19": "本句指「再次計算，以確認原來數目是否準確」。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-16": "「一般不把名詞所指內容視為可逐個計數的獨立單位」是「uncountable — grammar」的用法，與本句語境不同。"
+        "count-mcq-19": "本句的「recount」指「再次計算，以確認原來數目是否準確」。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-19"
     },
@@ -1847,11 +1675,9 @@ export default {
       "masked": "She ____ how she first became interested in gardening.",
       "options": [
         "count-mcq-20",
-        "count-mcq-19",
-        "count-mcq-21",
-        "count-mcq-18",
-        "count-mcq-22",
-        "count-mcq-17"
+        "count-mcq-13",
+        "count-mcq-08",
+        "count-mcq-11"
       ],
       "explanation": "本句的「recounted」指「按次序講述已經發生的事情／經歷」。",
       "sentenceIndex": 43,
@@ -1860,12 +1686,10 @@ export default {
         "recounted"
       ],
       "optionReasons": {
-        "count-mcq-20": "本句指「按次序講述已經發生的事情／經歷」。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-22": "「距離某件重要事件發生所剩時間逐步減少的最後階段」是「countdown — figurative」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。"
+        "count-mcq-20": "本句的「recounted」指「按次序講述已經發生的事情／經歷」。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-20"
     },
@@ -1877,11 +1701,9 @@ export default {
       "masked": "He ____ the events in detail.",
       "options": [
         "count-mcq-20",
-        "count-mcq-19",
-        "count-mcq-21",
-        "count-mcq-18",
-        "count-mcq-22",
-        "count-mcq-17"
+        "count-mcq-01",
+        "count-mcq-11",
+        "count-mcq-03"
       ],
       "explanation": "本句的「recounted」指「按次序講述已經發生的事情／經歷」。",
       "sentenceIndex": 44,
@@ -1890,12 +1712,10 @@ export default {
         "recounted"
       ],
       "optionReasons": {
-        "count-mcq-20": "本句指「按次序講述已經發生的事情／經歷」。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。",
-        "count-mcq-22": "「距離某件重要事件發生所剩時間逐步減少的最後階段」是「countdown — figurative」的用法，與本句語境不同。",
-        "count-mcq-17": "「數量大到實際上難以逐一計算的」是「uncountable — general」的用法，與本句語境不同。"
+        "count-mcq-20": "本句的「recounted」指「按次序講述已經發生的事情／經歷」。",
+        "count-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-20"
     },
@@ -1907,11 +1727,9 @@ export default {
       "masked": "The ____ to the new year began.",
       "options": [
         "count-mcq-21",
-        "count-mcq-20",
-        "count-mcq-22",
-        "count-mcq-19",
-        "count-mcq-23",
-        "count-mcq-18"
+        "count-pdf-001",
+        "count-mcq-10",
+        "count-mcq-20"
       ],
       "explanation": "本句的「countdown」指「從較大數字逐步數到零的倒數過程」。",
       "sentenceIndex": 45,
@@ -1920,12 +1738,10 @@ export default {
         "countdown"
       ],
       "optionReasons": {
-        "count-mcq-21": "本句指「從較大數字逐步數到零的倒數過程」。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-22": "「距離某件重要事件發生所剩時間逐步減少的最後階段」是「countdown — figurative」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-23": "「某群體的總人數；商業語境亦常指員工總數」是「headcount」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。"
+        "count-mcq-21": "本句的「countdown」指「從較大數字逐步數到零的倒數過程」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-21"
     },
@@ -1937,11 +1753,9 @@ export default {
       "masked": "The launch ____ stopped at ten seconds.",
       "options": [
         "count-mcq-21",
-        "count-mcq-20",
-        "count-mcq-22",
-        "count-mcq-19",
-        "count-mcq-23",
-        "count-mcq-18"
+        "count-mcq-04",
+        "count-mcq-03",
+        "count-mcq-13"
       ],
       "explanation": "本句的「countdown」指「從較大數字逐步數到零的倒數過程」。",
       "sentenceIndex": 46,
@@ -1950,12 +1764,10 @@ export default {
         "countdown"
       ],
       "optionReasons": {
-        "count-mcq-21": "本句指「從較大數字逐步數到零的倒數過程」。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-22": "「距離某件重要事件發生所剩時間逐步減少的最後階段」是「countdown — figurative」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-23": "「某群體的總人數；商業語境亦常指員工總數」是「headcount」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。"
+        "count-mcq-21": "本句的「countdown」指「從較大數字逐步數到零的倒數過程」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-21"
     },
@@ -1967,11 +1779,9 @@ export default {
       "masked": "The project has entered its final ____.",
       "options": [
         "count-mcq-22",
-        "count-mcq-21",
-        "count-mcq-23",
-        "count-mcq-20",
-        "count-mcq-19",
-        "count-mcq-18"
+        "count-pdf-001",
+        "count-mcq-06",
+        "count-mcq-11"
       ],
       "explanation": "本句的「countdown」指「距離某件重要事件發生所剩時間逐步減少的最後階段」。",
       "sentenceIndex": 47,
@@ -1980,12 +1790,10 @@ export default {
         "countdown"
       ],
       "optionReasons": {
-        "count-mcq-22": "本句指「距離某件重要事件發生所剩時間逐步減少的最後階段」。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-23": "「某群體的總人數；商業語境亦常指員工總數」是「headcount」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。"
+        "count-mcq-22": "本句的「countdown」指「距離某件重要事件發生所剩時間逐步減少的最後階段」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-22"
     },
@@ -1997,11 +1805,9 @@ export default {
       "masked": "The ____ to the exam has begun.",
       "options": [
         "count-mcq-22",
-        "count-mcq-21",
-        "count-mcq-23",
-        "count-mcq-20",
-        "count-mcq-19",
-        "count-mcq-18"
+        "count-mcq-04",
+        "count-mcq-09",
+        "count-mcq-11"
       ],
       "explanation": "本句的「countdown」指「距離某件重要事件發生所剩時間逐步減少的最後階段」。",
       "sentenceIndex": 48,
@@ -2010,12 +1816,10 @@ export default {
         "countdown"
       ],
       "optionReasons": {
-        "count-mcq-22": "本句指「距離某件重要事件發生所剩時間逐步減少的最後階段」。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-23": "「某群體的總人數；商業語境亦常指員工總數」是「headcount」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。"
+        "count-mcq-22": "本句的「countdown」指「距離某件重要事件發生所剩時間逐步減少的最後階段」。",
+        "count-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-22"
     },
@@ -2027,11 +1831,9 @@ export default {
       "masked": "We need an accurate ____ before leaving.",
       "options": [
         "count-mcq-23",
-        "count-mcq-22",
-        "count-mcq-21",
         "count-mcq-20",
-        "count-mcq-19",
-        "count-mcq-18"
+        "count-pdf-001",
+        "count-mcq-03"
       ],
       "explanation": "本句的「headcount」指「某群體的總人數；商業語境亦常指員工總數」。",
       "sentenceIndex": 49,
@@ -2040,12 +1842,10 @@ export default {
         "headcount"
       ],
       "optionReasons": {
-        "count-mcq-23": "本句指「某群體的總人數；商業語境亦常指員工總數」。",
-        "count-mcq-22": "「距離某件重要事件發生所剩時間逐步減少的最後階段」是「countdown — figurative」的用法，與本句語境不同。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。"
+        "count-mcq-23": "本句的「headcount」指「某群體的總人數；商業語境亦常指員工總數」。",
+        "count-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-23"
     },
@@ -2057,11 +1857,9 @@ export default {
       "masked": "The company reduced its ____ last year.",
       "options": [
         "count-mcq-23",
-        "count-mcq-22",
-        "count-mcq-21",
-        "count-mcq-20",
-        "count-mcq-19",
-        "count-mcq-18"
+        "count-pdf-001",
+        "count-mcq-13",
+        "count-mcq-22"
       ],
       "explanation": "本句的「headcount」指「某群體的總人數；商業語境亦常指員工總數」。",
       "sentenceIndex": 50,
@@ -2070,12 +1868,10 @@ export default {
         "headcount"
       ],
       "optionReasons": {
-        "count-mcq-23": "本句指「某群體的總人數；商業語境亦常指員工總數」。",
-        "count-mcq-22": "「距離某件重要事件發生所剩時間逐步減少的最後階段」是「countdown — figurative」的用法，與本句語境不同。",
-        "count-mcq-21": "「從較大數字逐步數到零的倒數過程」是「countdown — numerical」的用法，與本句語境不同。",
-        "count-mcq-20": "「按次序講述已經發生的事情／經歷」是「recount — narrate」的用法，與本句語境不同。",
-        "count-mcq-19": "「再次計算，以確認原來數目是否準確」是「recount — count again」的用法，與本句語境不同。",
-        "count-mcq-18": "「數量極多，多到難以／沒有必要逐一計算的」是「countless」的用法，與本句語境不同。"
+        "count-mcq-23": "本句的「headcount」指「某群體的總人數；商業語境亦常指員工總數」。",
+        "count-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "count-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "count-mcq-23"
     }
@@ -2087,5 +1883,7 @@ export default {
     "sha256": "44ebc42fa9ecadb7605abd531a53f6f738553f048993772e83f696cfc80e538b",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

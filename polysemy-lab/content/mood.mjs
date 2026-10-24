@@ -302,16 +302,6 @@ export default {
           "Teenagers can sometimes seem moody.",
           "青少年有時會顯得喜怒無常。",
           "情緒反覆的人"
-        ],
-        [
-          "She sat quietly looking moody.",
-          "她靜靜坐着，看起來悶悶不樂。",
-          "情緒反覆的人"
-        ],
-        [
-          "He became moody and withdrawn after the argument.",
-          "爭吵後，他變得情緒低落而沉默寡言。",
-          "情緒反覆的人"
         ]
       ],
       "options": [],
@@ -415,6 +405,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mood-reviewed-291b920964",
+      "title": "顯得陰沉、不開心或難以接近的",
+      "form": "mood · source section 15",
+      "en": "顯得陰沉、不開心或難以接近的",
+      "zh": "顯得陰沉、不開心或難以接近的",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "She sat quietly looking moody.",
+          "她靜靜坐着，看起來悶悶不樂。",
+          "顯得陰沉、不開心或難以接近的"
+        ],
+        [
+          "He became moody and withdrawn after the argument.",
+          "爭吵後，他變得情緒低落而沉默寡言。",
+          "顯得陰沉、不開心或難以接近的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -426,11 +438,9 @@ export default {
       "masked": "I always leave in a better ____.",
       "options": [
         "mood-mcq-01",
-        "mood-mcq-02",
-        "mood-mcq-03",
-        "mood-mcq-04",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-17",
+        "mood-mcq-10",
+        "mood-reviewed-291b920964"
       ],
       "explanation": "本句的「mood」指「心情；情緒狀態」。",
       "sentenceIndex": 0,
@@ -439,12 +449,10 @@ export default {
         "mood"
       ],
       "optionReasons": {
-        "mood-mcq-01": "本句指「心情；情緒狀態」。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-01": "本句的「mood」指「心情；情緒狀態」。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-reviewed-291b920964": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-01"
     },
@@ -456,11 +464,9 @@ export default {
       "masked": "She was in a cheerful ____ this morning.",
       "options": [
         "mood-mcq-01",
-        "mood-mcq-02",
-        "mood-mcq-03",
-        "mood-mcq-04",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-10",
+        "mood-mcq-17",
+        "mood-reviewed-291b920964"
       ],
       "explanation": "本句的「mood」指「心情；情緒狀態」。",
       "sentenceIndex": 1,
@@ -469,12 +475,10 @@ export default {
         "mood"
       ],
       "optionReasons": {
-        "mood-mcq-01": "本句指「心情；情緒狀態」。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-01": "本句的「mood」指「心情；情緒狀態」。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-reviewed-291b920964": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-01"
     },
@@ -486,11 +490,9 @@ export default {
       "masked": "His ____ improved after he spoke to his friend.",
       "options": [
         "mood-mcq-01",
-        "mood-mcq-02",
-        "mood-mcq-03",
-        "mood-mcq-04",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-10",
+        "mood-mcq-17",
+        "mood-reviewed-291b920964"
       ],
       "explanation": "本句的「mood」指「心情；情緒狀態」。",
       "sentenceIndex": 2,
@@ -499,12 +501,10 @@ export default {
         "mood"
       ],
       "optionReasons": {
-        "mood-mcq-01": "本句指「心情；情緒狀態」。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-01": "本句的「mood」指「心情；情緒狀態」。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-reviewed-291b920964": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-01"
     },
@@ -516,11 +516,9 @@ export default {
       "masked": "He's in a really ____ today.",
       "options": [
         "mood-mcq-02",
-        "mood-mcq-01",
-        "mood-mcq-03",
-        "mood-mcq-04",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-10",
+        "mood-mcq-13",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「good mood」指「好心情」。",
       "sentenceIndex": 3,
@@ -529,12 +527,10 @@ export default {
         "good mood"
       ],
       "optionReasons": {
-        "mood-mcq-02": "本句指「好心情」。",
-        "mood-mcq-01": "「心情；情緒狀態」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-02": "本句的「good mood」指「好心情」。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-02"
     },
@@ -546,11 +542,9 @@ export default {
       "masked": "The good news put everyone in a ____.",
       "options": [
         "mood-mcq-02",
-        "mood-mcq-01",
-        "mood-mcq-03",
-        "mood-mcq-04",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-13",
+        "mood-mcq-17",
+        "mood-mcq-11"
       ],
       "explanation": "本句的「good mood」指「好心情」。",
       "sentenceIndex": 4,
@@ -559,12 +553,10 @@ export default {
         "good mood"
       ],
       "optionReasons": {
-        "mood-mcq-02": "本句指「好心情」。",
-        "mood-mcq-01": "「心情；情緒狀態」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-02": "本句的「good mood」指「好心情」。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-02"
     },
@@ -576,11 +568,9 @@ export default {
       "masked": "She was in a ____ after the argument.",
       "options": [
         "mood-mcq-03",
-        "mood-mcq-02",
-        "mood-mcq-04",
-        "mood-mcq-01",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-13",
+        "mood-mcq-11",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「bad mood」指「壞心情」。",
       "sentenceIndex": 5,
@@ -589,12 +579,10 @@ export default {
         "bad mood"
       ],
       "optionReasons": {
-        "mood-mcq-03": "本句指「壞心情」。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-01": "「心情；情緒狀態」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-03": "本句的「bad mood」指「壞心情」。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-03"
     },
@@ -606,11 +594,9 @@ export default {
       "masked": "Don't talk to him now—he's in a ____.",
       "options": [
         "mood-mcq-03",
-        "mood-mcq-02",
-        "mood-mcq-04",
-        "mood-mcq-01",
-        "mood-mcq-05",
-        "mood-mcq-06"
+        "mood-mcq-12",
+        "mood-mcq-10",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「bad mood」指「壞心情」。",
       "sentenceIndex": 6,
@@ -619,12 +605,10 @@ export default {
         "bad mood"
       ],
       "optionReasons": {
-        "mood-mcq-03": "本句指「壞心情」。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-01": "「心情；情緒狀態」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-03": "本句的「bad mood」指「壞心情」。",
+        "mood-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-03"
     },
@@ -636,11 +620,9 @@ export default {
       "masked": "After the walk, I was in a ____.",
       "options": [
         "mood-mcq-04",
-        "mood-mcq-03",
-        "mood-mcq-05",
-        "mood-mcq-02",
-        "mood-mcq-06",
-        "mood-mcq-01"
+        "mood-mcq-13",
+        "mood-mcq-10",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「better mood」指「心情變好」。",
       "sentenceIndex": 7,
@@ -649,12 +631,10 @@ export default {
         "better mood"
       ],
       "optionReasons": {
-        "mood-mcq-04": "本句指「心情變好」。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-01": "「心情；情緒狀態」與本句語境不同。"
+        "mood-mcq-04": "本句的「better mood」指「心情變好」。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-04"
     },
@@ -666,11 +646,9 @@ export default {
       "masked": "The delay put him in an even ____.",
       "options": [
         "mood-mcq-04",
-        "mood-mcq-03",
-        "mood-mcq-05",
-        "mood-mcq-02",
-        "mood-mcq-06",
-        "mood-mcq-01"
+        "mood-mcq-13",
+        "mood-mcq-11",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「worse mood」指「心情變好」。",
       "sentenceIndex": 8,
@@ -679,12 +657,10 @@ export default {
         "worse mood"
       ],
       "optionReasons": {
-        "mood-mcq-04": "本句指「心情變好」。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-02": "「好心情」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-01": "「心情；情緒狀態」與本句語境不同。"
+        "mood-mcq-04": "本句的「worse mood」指「心情變好」。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-04"
     },
@@ -696,11 +672,8 @@ export default {
       "masked": "I'm ____ tonight.",
       "options": [
         "mood-mcq-05",
-        "mood-mcq-04",
-        "mood-mcq-06",
-        "mood-mcq-03",
-        "mood-mcq-07",
-        "mood-mcq-02"
+        "mood-mcq-16",
+        "mood-mcq-10"
       ],
       "explanation": "本句的「in the mood for pizza」指「有心情／想要 X」。",
       "sentenceIndex": 9,
@@ -709,12 +682,9 @@ export default {
         "in the mood for pizza"
       ],
       "optionReasons": {
-        "mood-mcq-05": "本句指「有心情／想要 X」。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-02": "「好心情」與本句語境不同。"
+        "mood-mcq-05": "本句的「in the mood for pizza」指「有心情／想要 X」。",
+        "mood-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-05"
     },
@@ -726,11 +696,9 @@ export default {
       "masked": "She's not ____.",
       "options": [
         "mood-mcq-05",
-        "mood-mcq-04",
-        "mood-mcq-06",
-        "mood-mcq-03",
-        "mood-mcq-07",
-        "mood-mcq-02"
+        "mood-mcq-12",
+        "mood-mcq-10",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「in the mood for a long conversation」指「有心情／想要 X」。",
       "sentenceIndex": 10,
@@ -739,12 +707,10 @@ export default {
         "in the mood for a long conversation"
       ],
       "optionReasons": {
-        "mood-mcq-05": "本句指「有心情／想要 X」。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-02": "「好心情」與本句語境不同。"
+        "mood-mcq-05": "本句的「in the mood for a long conversation」指「有心情／想要 X」。",
+        "mood-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-05"
     },
@@ -756,11 +722,9 @@ export default {
       "masked": "I'm not ____.",
       "options": [
         "mood-pdf-001",
-        "mood-mcq-05",
         "mood-mcq-07",
-        "mood-mcq-04",
-        "mood-mcq-08",
-        "mood-mcq-03"
+        "mood-mcq-10",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「in the mood to argue」指「當下有意欲或情緒狀態去做某事」。",
       "sentenceIndex": 11,
@@ -769,12 +733,10 @@ export default {
         "in the mood to argue"
       ],
       "optionReasons": {
-        "mood-pdf-001": "本句指「當下有意欲或情緒狀態去做某事」。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。"
+        "mood-pdf-001": "本句的「in the mood to argue」指「當下有意欲或情緒狀態去做某事」。",
+        "mood-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-pdf-001"
     },
@@ -786,11 +748,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "mood-pdf-001",
-        "mood-mcq-05",
-        "mood-mcq-07",
-        "mood-mcq-04",
         "mood-mcq-08",
-        "mood-mcq-03"
+        "mood-mcq-10",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「in the mood to celebrate」指「當下有意欲或情緒狀態去做某事」。",
       "sentenceIndex": 12,
@@ -799,12 +759,10 @@ export default {
         "in the mood to celebrate"
       ],
       "optionReasons": {
-        "mood-pdf-001": "本句指「當下有意欲或情緒狀態去做某事」。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-03": "「壞心情」與本句語境不同。"
+        "mood-pdf-001": "本句的「in the mood to celebrate」指「當下有意欲或情緒狀態去做某事」。",
+        "mood-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-pdf-001"
     },
@@ -816,11 +774,9 @@ export default {
       "masked": "I'm just ____ today.",
       "options": [
         "mood-mcq-07",
-        "mood-mcq-06",
-        "mood-mcq-08",
-        "mood-mcq-05",
-        "mood-mcq-09",
-        "mood-mcq-04"
+        "mood-mcq-17",
+        "mood-pdf-001",
+        "mood-mcq-11"
       ],
       "explanation": "本句的「not in the mood」指「沒心情」。",
       "sentenceIndex": 13,
@@ -829,12 +785,10 @@ export default {
         "not in the mood"
       ],
       "optionReasons": {
-        "mood-mcq-07": "本句指「沒心情」。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。"
+        "mood-mcq-07": "本句的「not in the mood」指「沒心情」。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-07"
     },
@@ -846,11 +800,9 @@ export default {
       "masked": "She said she wasn't ____ to go out.",
       "options": [
         "mood-mcq-07",
-        "mood-mcq-06",
-        "mood-mcq-08",
-        "mood-mcq-05",
-        "mood-mcq-09",
-        "mood-mcq-04"
+        "mood-mcq-11",
+        "mood-pdf-001",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「in the mood」指「沒心情」。",
       "sentenceIndex": 14,
@@ -859,12 +811,10 @@ export default {
         "in the mood"
       ],
       "optionReasons": {
-        "mood-mcq-07": "本句指「沒心情」。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-04": "「心情變好」與本句語境不同。"
+        "mood-mcq-07": "本句的「in the mood」指「沒心情」。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-07"
     },
@@ -876,11 +826,8 @@ export default {
       "masked": "The music quickly ____.",
       "options": [
         "mood-mcq-08",
-        "mood-mcq-07",
-        "mood-mcq-09",
-        "mood-mcq-06",
-        "mood-mcq-10",
-        "mood-mcq-05"
+        "mood-mcq-16",
+        "mood-mcq-10"
       ],
       "explanation": "本句的「changed my mood」指「改變某人心情」。",
       "sentenceIndex": 15,
@@ -889,12 +836,9 @@ export default {
         "changed my mood"
       ],
       "optionReasons": {
-        "mood-mcq-08": "本句指「改變某人心情」。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。"
+        "mood-mcq-08": "本句的「changed my mood」指「改變某人心情」。",
+        "mood-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-08"
     },
@@ -906,11 +850,9 @@ export default {
       "masked": "A short walk can ____.",
       "options": [
         "mood-mcq-08",
-        "mood-mcq-07",
-        "mood-mcq-09",
-        "mood-mcq-06",
+        "mood-mcq-14",
         "mood-mcq-10",
-        "mood-mcq-05"
+        "mood-mcq-17"
       ],
       "explanation": "本句的「change your mood」指「改變某人心情」。",
       "sentenceIndex": 16,
@@ -919,12 +861,10 @@ export default {
         "change your mood"
       ],
       "optionReasons": {
-        "mood-mcq-08": "本句指「改變某人心情」。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-05": "「有心情／想要 X」與本句語境不同。"
+        "mood-mcq-08": "本句的「change your mood」指「改變某人心情」。",
+        "mood-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-08"
     },
@@ -936,11 +876,9 @@ export default {
       "masked": "Her message really ____.",
       "options": [
         "mood-mcq-09",
-        "mood-mcq-08",
         "mood-mcq-10",
-        "mood-mcq-07",
-        "mood-mcq-11",
-        "mood-mcq-06"
+        "mood-mcq-13",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「lifted my mood」指「改善心情」。",
       "sentenceIndex": 17,
@@ -949,12 +887,10 @@ export default {
         "lifted my mood"
       ],
       "optionReasons": {
-        "mood-mcq-09": "本句指「改善心情」。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-09": "本句的「lifted my mood」指「改善心情」。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-09"
     },
@@ -966,11 +902,9 @@ export default {
       "masked": "Sunshine always ____.",
       "options": [
         "mood-mcq-09",
-        "mood-mcq-08",
-        "mood-mcq-10",
-        "mood-mcq-07",
+        "mood-mcq-12",
         "mood-mcq-11",
-        "mood-mcq-06"
+        "mood-mcq-17"
       ],
       "explanation": "本句的「lifts his mood」指「改善心情」。",
       "sentenceIndex": 18,
@@ -979,12 +913,10 @@ export default {
         "lifts his mood"
       ],
       "optionReasons": {
-        "mood-mcq-09": "本句指「改善心情」。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-06": "「有心情做 X」與本句語境不同。"
+        "mood-mcq-09": "本句的「lifts his mood」指「改善心情」。",
+        "mood-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-09"
     },
@@ -996,11 +928,9 @@ export default {
       "masked": "Soft music helped ____.",
       "options": [
         "mood-mcq-10",
-        "mood-mcq-09",
-        "mood-mcq-11",
-        "mood-mcq-08",
-        "mood-mcq-12",
-        "mood-mcq-07"
+        "mood-mcq-18",
+        "mood-mcq-03",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「set the mood」指「營造氣氛」。",
       "sentenceIndex": 19,
@@ -1009,12 +939,10 @@ export default {
         "set the mood"
       ],
       "optionReasons": {
-        "mood-mcq-10": "本句指「營造氣氛」。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。"
+        "mood-mcq-10": "本句的「set the mood」指「營造氣氛」。",
+        "mood-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-10"
     },
@@ -1026,11 +954,9 @@ export default {
       "masked": "The lighting ____ for the evening.",
       "options": [
         "mood-mcq-10",
-        "mood-mcq-09",
-        "mood-mcq-11",
         "mood-mcq-08",
-        "mood-mcq-12",
-        "mood-mcq-07"
+        "mood-mcq-18",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「set a relaxed mood」指「營造氣氛」。",
       "sentenceIndex": 20,
@@ -1039,12 +965,10 @@ export default {
         "set a relaxed mood"
       ],
       "optionReasons": {
-        "mood-mcq-10": "本句指「營造氣氛」。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-07": "「沒心情」與本句語境不同。"
+        "mood-mcq-10": "本句的「set a relaxed mood」指「營造氣氛」。",
+        "mood-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-10"
     },
@@ -1056,11 +980,9 @@ export default {
       "masked": "The ____ changed after the announcement.",
       "options": [
         "mood-mcq-11",
-        "mood-mcq-10",
-        "mood-mcq-12",
-        "mood-mcq-09",
-        "mood-mcq-13",
-        "mood-mcq-08"
+        "mood-mcq-18",
+        "mood-mcq-05",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「mood in the room」指「場內／群眾氣氛」。",
       "sentenceIndex": 21,
@@ -1069,12 +991,10 @@ export default {
         "mood in the room"
       ],
       "optionReasons": {
-        "mood-mcq-11": "本句指「場內／群眾氣氛」。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。"
+        "mood-mcq-11": "本句的「mood in the room」指「場內／群眾氣氛」。",
+        "mood-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-11"
     },
@@ -1086,11 +1006,9 @@ export default {
       "masked": "The ____ was excited but tense.",
       "options": [
         "mood-mcq-11",
-        "mood-mcq-10",
-        "mood-mcq-12",
-        "mood-mcq-09",
-        "mood-mcq-13",
-        "mood-mcq-08"
+        "mood-mcq-18",
+        "mood-mcq-17",
+        "mood-mcq-07"
       ],
       "explanation": "本句的「mood of the crowd」指「場內／群眾氣氛」。",
       "sentenceIndex": 22,
@@ -1099,12 +1017,10 @@ export default {
         "mood of the crowd"
       ],
       "optionReasons": {
-        "mood-mcq-11": "本句指「場內／群眾氣氛」。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-08": "「改變某人心情」與本句語境不同。"
+        "mood-mcq-11": "本句的「mood of the crowd」指「場內／群眾氣氛」。",
+        "mood-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-11"
     },
@@ -1116,11 +1032,9 @@ export default {
       "masked": "She was in a ____ after the meeting.",
       "options": [
         "mood-mcq-12",
-        "mood-mcq-11",
-        "mood-mcq-13",
-        "mood-mcq-10",
-        "mood-mcq-14",
-        "mood-mcq-09"
+        "mood-mcq-08",
+        "mood-mcq-17",
+        "mood-mcq-10"
       ],
       "explanation": "本句的「reflective mood」指「沉思情緒」。",
       "sentenceIndex": 23,
@@ -1129,12 +1043,10 @@ export default {
         "reflective mood"
       ],
       "optionReasons": {
-        "mood-mcq-12": "本句指「沉思情緒」。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。"
+        "mood-mcq-12": "本句的「reflective mood」指「沉思情緒」。",
+        "mood-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-12"
     },
@@ -1146,11 +1058,9 @@ export default {
       "masked": "The rainy weather put him in a ____.",
       "options": [
         "mood-mcq-12",
+        "mood-mcq-05",
         "mood-mcq-11",
-        "mood-mcq-13",
-        "mood-mcq-10",
-        "mood-mcq-14",
-        "mood-mcq-09"
+        "mood-mcq-17"
       ],
       "explanation": "本句的「gloomy mood」指「沉思情緒」。",
       "sentenceIndex": 24,
@@ -1159,12 +1069,10 @@ export default {
         "gloomy mood"
       ],
       "optionReasons": {
-        "mood-mcq-12": "本句指「沉思情緒」。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-09": "「改善心情」與本句語境不同。"
+        "mood-mcq-12": "本句的「gloomy mood」指「沉思情緒」。",
+        "mood-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-12"
     },
@@ -1176,11 +1084,9 @@ export default {
       "masked": "He has been experiencing sudden ____.",
       "options": [
         "mood-mcq-13",
-        "mood-mcq-12",
-        "mood-mcq-14",
+        "mood-mcq-09",
         "mood-mcq-11",
-        "mood-mcq-15",
-        "mood-mcq-10"
+        "mood-mcq-17"
       ],
       "explanation": "本句的「mood swings」指「情緒波動」。",
       "sentenceIndex": 25,
@@ -1189,12 +1095,10 @@ export default {
         "mood swings"
       ],
       "optionReasons": {
-        "mood-mcq-13": "本句指「情緒波動」。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。"
+        "mood-mcq-13": "本句的「mood swings」指「情緒波動」。",
+        "mood-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-13"
     },
@@ -1206,10 +1110,8 @@ export default {
       "masked": "Stress can sometimes cause ____.",
       "options": [
         "mood-mcq-13",
-        "mood-mcq-12",
-        "mood-mcq-14",
-        "mood-mcq-11",
-        "mood-mcq-15",
+        "mood-mcq-02",
+        "mood-mcq-17",
         "mood-mcq-10"
       ],
       "explanation": "本句的「mood swings」指「情緒波動」。",
@@ -1219,12 +1121,10 @@ export default {
         "mood swings"
       ],
       "optionReasons": {
-        "mood-mcq-13": "本句指「情緒波動」。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-10": "「營造氣氛」與本句語境不同。"
+        "mood-mcq-13": "本句的「mood swings」指「情緒波動」。",
+        "mood-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-13"
     },
@@ -1236,11 +1136,9 @@ export default {
       "masked": "He has been a little ____ lately.",
       "options": [
         "mood-mcq-14",
-        "mood-mcq-13",
-        "mood-mcq-15",
-        "mood-mcq-12",
-        "mood-mcq-16",
-        "mood-mcq-11"
+        "mood-mcq-11",
+        "mood-mcq-09",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「moody」指「情緒反覆的人」。",
       "sentenceIndex": 27,
@@ -1249,12 +1147,10 @@ export default {
         "moody"
       ],
       "optionReasons": {
-        "mood-mcq-14": "本句指「情緒反覆的人」。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。"
+        "mood-mcq-14": "本句的「moody」指「情緒反覆的人」。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-14"
     },
@@ -1266,11 +1162,9 @@ export default {
       "masked": "Teenagers can sometimes seem ____.",
       "options": [
         "mood-mcq-14",
-        "mood-mcq-13",
-        "mood-mcq-15",
-        "mood-mcq-12",
-        "mood-mcq-16",
-        "mood-mcq-11"
+        "mood-reviewed-291b920964",
+        "mood-mcq-10",
+        "mood-mcq-17"
       ],
       "explanation": "本句的「moody」指「情緒反覆的人」。",
       "sentenceIndex": 28,
@@ -1279,74 +1173,68 @@ export default {
         "moody"
       ],
       "optionReasons": {
-        "mood-mcq-14": "本句指「情緒反覆的人」。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。"
+        "mood-mcq-14": "本句的「moody」指「情緒反覆的人」。",
+        "mood-reviewed-291b920964": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-14"
     },
     {
       "id": "mood-15-0",
-      "sense": "mood-mcq-14",
+      "sense": "mood-reviewed-291b920964",
       "en": "She sat quietly looking moody.",
       "zh": "她靜靜坐着，看起來悶悶不樂。",
       "masked": "She sat quietly looking ____.",
       "options": [
-        "mood-mcq-14",
-        "mood-mcq-13",
-        "mood-mcq-15",
-        "mood-mcq-12",
-        "mood-mcq-16",
-        "mood-mcq-11"
+        "mood-reviewed-291b920964",
+        "mood-mcq-17",
+        "mood-mcq-10",
+        "mood-mcq-18"
       ],
-      "explanation": "本句的「moody」指「情緒反覆的人」。",
+      "explanation": "對照完整句子：「她靜靜坐着，看起來悶悶不樂。」。這裡的「moody」表示「顯得陰沉、不開心或難以接近的」。",
       "sentenceIndex": 29,
       "sourcePractice": 1,
       "targets": [
         "moody"
       ],
       "optionReasons": {
-        "mood-mcq-14": "本句指「情緒反覆的人」。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。"
+        "mood-reviewed-291b920964": "對照完整句子：「她靜靜坐着，看起來悶悶不樂。」。這裡的「moody」表示「顯得陰沉、不開心或難以接近的」。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mood-mcq-14"
+      "correctOption": "mood-reviewed-291b920964",
+      "previousCorrectOption": "mood-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mood-15-1",
-      "sense": "mood-mcq-14",
+      "sense": "mood-reviewed-291b920964",
       "en": "He became moody and withdrawn after the argument.",
       "zh": "爭吵後，他變得情緒低落而沉默寡言。",
       "masked": "He became ____ after the argument.",
       "options": [
-        "mood-mcq-14",
+        "mood-reviewed-291b920964",
         "mood-mcq-13",
-        "mood-mcq-15",
-        "mood-mcq-12",
-        "mood-mcq-16",
+        "mood-mcq-17",
         "mood-mcq-11"
       ],
-      "explanation": "本句的「moody and withdrawn」指「情緒反覆的人」。",
+      "explanation": "對照完整句子：「爭吵後，他變得情緒低落而沉默寡言。」。這裡的「moody and withdrawn」表示「顯得陰沉、不開心或難以接近的」。",
       "sentenceIndex": 30,
       "sourcePractice": 2,
       "targets": [
         "moody and withdrawn"
       ],
       "optionReasons": {
-        "mood-mcq-14": "本句指「情緒反覆的人」。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-12": "「沉思情緒」與本句語境不同。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-11": "「場內／群眾氣氛」與本句語境不同。"
+        "mood-reviewed-291b920964": "對照完整句子：「爭吵後，他變得情緒低落而沉默寡言。」。這裡的「moody and withdrawn」表示「顯得陰沉、不開心或難以接近的」。",
+        "mood-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mood-mcq-14"
+      "correctOption": "mood-reviewed-291b920964",
+      "previousCorrectOption": "mood-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mood-16-0",
@@ -1356,11 +1244,8 @@ export default {
       "masked": "The restaurant has dark, ____.",
       "options": [
         "mood-mcq-16",
-        "mood-mcq-15",
-        "mood-mcq-17",
-        "mood-mcq-14",
-        "mood-mcq-18",
-        "mood-mcq-13"
+        "mood-mcq-03",
+        "mood-mcq-11"
       ],
       "explanation": "本句的「moody lighting」指「富情緒感／陰鬱的燈光音樂」。",
       "sentenceIndex": 31,
@@ -1369,12 +1254,9 @@ export default {
         "moody lighting"
       ],
       "optionReasons": {
-        "mood-mcq-16": "本句指「富情緒感／陰鬱的燈光音樂」。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-17": "「悶悶不樂地」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-18": "「喜怒無常；情緒反覆」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。"
+        "mood-mcq-16": "本句的「moody lighting」指「富情緒感／陰鬱的燈光音樂」。",
+        "mood-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-16"
     },
@@ -1386,11 +1268,8 @@ export default {
       "masked": "The film uses ____ to create tension.",
       "options": [
         "mood-mcq-16",
-        "mood-mcq-15",
-        "mood-mcq-17",
-        "mood-mcq-14",
-        "mood-mcq-18",
-        "mood-mcq-13"
+        "mood-mcq-03",
+        "mood-mcq-10"
       ],
       "explanation": "本句的「moody music」指「富情緒感／陰鬱的燈光音樂」。",
       "sentenceIndex": 32,
@@ -1399,12 +1278,9 @@ export default {
         "moody music"
       ],
       "optionReasons": {
-        "mood-mcq-16": "本句指「富情緒感／陰鬱的燈光音樂」。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-17": "「悶悶不樂地」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-18": "「喜怒無常；情緒反覆」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。"
+        "mood-mcq-16": "本句的「moody music」指「富情緒感／陰鬱的燈光音樂」。",
+        "mood-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-16"
     },
@@ -1416,11 +1292,9 @@ export default {
       "masked": "He stared ____ out of the window.",
       "options": [
         "mood-mcq-17",
-        "mood-mcq-16",
-        "mood-mcq-18",
-        "mood-mcq-15",
         "mood-mcq-14",
-        "mood-mcq-13"
+        "mood-mcq-07",
+        "mood-mcq-10"
       ],
       "explanation": "本句的「moodily」指「悶悶不樂地」。",
       "sentenceIndex": 33,
@@ -1429,12 +1303,10 @@ export default {
         "moodily"
       ],
       "optionReasons": {
-        "mood-mcq-17": "本句指「悶悶不樂地」。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-18": "「喜怒無常；情緒反覆」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。"
+        "mood-mcq-17": "本句的「moodily」指「悶悶不樂地」。",
+        "mood-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-17"
     },
@@ -1446,11 +1318,9 @@ export default {
       "masked": "She answered ____.",
       "options": [
         "mood-mcq-17",
-        "mood-mcq-16",
-        "mood-mcq-18",
-        "mood-mcq-15",
-        "mood-mcq-14",
-        "mood-mcq-13"
+        "mood-mcq-01",
+        "mood-reviewed-291b920964",
+        "mood-mcq-10"
       ],
       "explanation": "本句的「moodily」指「悶悶不樂地」。",
       "sentenceIndex": 34,
@@ -1459,12 +1329,10 @@ export default {
         "moodily"
       ],
       "optionReasons": {
-        "mood-mcq-17": "本句指「悶悶不樂地」。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-18": "「喜怒無常；情緒反覆」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。"
+        "mood-mcq-17": "本句的「moodily」指「悶悶不樂地」。",
+        "mood-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mood-reviewed-291b920964": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-17"
     },
@@ -1477,10 +1345,8 @@ export default {
       "options": [
         "mood-mcq-18",
         "mood-mcq-17",
-        "mood-mcq-16",
-        "mood-mcq-15",
-        "mood-mcq-14",
-        "mood-mcq-13"
+        "mood-mcq-10",
+        "mood-mcq-03"
       ],
       "explanation": "本句的「moodiness」指「喜怒無常；情緒反覆」。",
       "sentenceIndex": 35,
@@ -1489,12 +1355,10 @@ export default {
         "moodiness"
       ],
       "optionReasons": {
-        "mood-mcq-18": "本句指「喜怒無常；情緒反覆」。",
-        "mood-mcq-17": "「悶悶不樂地」與本句語境不同。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。"
+        "mood-mcq-18": "本句的「moodiness」指「喜怒無常；情緒反覆」。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-18"
     },
@@ -1506,11 +1370,9 @@ export default {
       "masked": "Lack of sleep can contribute to ____.",
       "options": [
         "mood-mcq-18",
+        "mood-mcq-07",
         "mood-mcq-17",
-        "mood-mcq-16",
-        "mood-mcq-15",
-        "mood-mcq-14",
-        "mood-mcq-13"
+        "mood-mcq-11"
       ],
       "explanation": "本句的「moodiness」指「喜怒無常；情緒反覆」。",
       "sentenceIndex": 36,
@@ -1519,12 +1381,10 @@ export default {
         "moodiness"
       ],
       "optionReasons": {
-        "mood-mcq-18": "本句指「喜怒無常；情緒反覆」。",
-        "mood-mcq-17": "「悶悶不樂地」與本句語境不同。",
-        "mood-mcq-16": "「富情緒感／陰鬱的燈光音樂」與本句語境不同。",
-        "mood-mcq-15": "「悶悶不樂的」與本句語境不同。",
-        "mood-mcq-14": "「情緒反覆的人」與本句語境不同。",
-        "mood-mcq-13": "「情緒波動」與本句語境不同。"
+        "mood-mcq-18": "本句的「moodiness」指「喜怒無常；情緒反覆」。",
+        "mood-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mood-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mood-mcq-18"
     }
@@ -1536,5 +1396,7 @@ export default {
     "sha256": "24b8b48c018f86185a5242ab2bdb695e698fab0dfa98623c1653c2af2b218bfb",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

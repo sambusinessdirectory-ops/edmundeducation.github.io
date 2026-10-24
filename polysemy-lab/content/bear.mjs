@@ -14,16 +14,6 @@ export default {
       "note": "來源詞義：攜帶、搬運或負載某物；較正式",
       "examples": [
         [
-          "We saw a bear near the river.",
-          "我們在河邊看見一隻熊。",
-          "攜帶、搬運或負載某物；較正式"
-        ],
-        [
-          "Brown bears can be extremely powerful.",
-          "棕熊可以非常強壯。",
-          "攜帶、搬運或負載某物；較正式"
-        ],
-        [
           "The workers bore heavy loads up the hill.",
           "工人把沉重的貨物搬上／背上山坡。",
           "攜帶、搬運或負載某物；較正式"
@@ -287,16 +277,6 @@ export default {
           "The results bear some similarity to earlier findings.",
           "這些結果與早期研究結果有些相似。",
           "具有相似性／關係"
-        ],
-        [
-          "The walls still bear the scars of the fire.",
-          "牆壁仍然留有火災造成的痕跡。",
-          "具有相似性／關係"
-        ],
-        [
-          "The object bears signs of heavy use.",
-          "這件物品帶有大量使用過的痕跡。",
-          "具有相似性／關係"
         ]
       ],
       "options": [],
@@ -399,11 +379,6 @@ export default {
       "zh": "預期價格下跌的投資者／空頭",
       "note": "來源詞義：預期價格下跌的投資者／空頭",
       "examples": [
-        [
-          "The phrase ‘bear arms’ historically refers to carrying weapons.",
-          "bear arms 這個詞組歷史上指攜帶武器／武裝。",
-          "預期價格下跌的投資者／空頭"
-        ],
         [
           "Market bears expect prices to fall.",
           "市場上的看淡者／空頭預期價格會下跌。",
@@ -534,68 +509,125 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "bear-reviewed-d43bf31f31",
+      "title": "熊；一種大型哺乳動物",
+      "form": "bear · source section 1",
+      "en": "熊；一種大型哺乳動物",
+      "zh": "熊；一種大型哺乳動物",
+      "note": "對照原始教材第 1 節及例句核實。",
+      "examples": [
+        [
+          "We saw a bear near the river.",
+          "我們在河邊看見一隻熊。",
+          "熊；一種大型哺乳動物"
+        ],
+        [
+          "Brown bears can be extremely powerful.",
+          "棕熊可以非常強壯。",
+          "熊；一種大型哺乳動物"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bear-reviewed-60282b17a1",
+      "title": "留有、帶有某種痕跡或跡象",
+      "form": "bear · source section 14",
+      "en": "留有、帶有某種痕跡或跡象",
+      "zh": "留有、帶有某種痕跡或跡象",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The walls still bear the scars of the fire.",
+          "牆壁仍然留有火災造成的痕跡。",
+          "留有、帶有某種痕跡或跡象"
+        ],
+        [
+          "The object bears signs of heavy use.",
+          "這件物品帶有大量使用過的痕跡。",
+          "留有、帶有某種痕跡或跡象"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "bear-reviewed-7564054c43",
+      "title": "攜帶或使用武器",
+      "form": "bear · source section 20",
+      "en": "攜帶或使用武器",
+      "zh": "攜帶或使用武器",
+      "note": "對照原始教材第 20 節及例句核實。",
+      "examples": [
+        [
+          "The phrase ‘bear arms’ historically refers to carrying weapons.",
+          "bear arms 這個詞組歷史上指攜帶武器／武裝。",
+          "攜帶或使用武器"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
     {
       "id": "bear-01-0",
-      "sense": "bear-mcq-01",
+      "sense": "bear-reviewed-d43bf31f31",
       "en": "We saw a bear near the river.",
       "zh": "我們在河邊看見一隻熊。",
       "masked": "We saw a ____ near the river.",
       "options": [
-        "bear-mcq-01",
-        "bear-mcq-02",
-        "bear-mcq-03",
-        "bear-mcq-04",
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-07",
         "bear-mcq-05",
         "bear-mcq-06"
       ],
-      "explanation": "本句的「bear」指「攜帶、搬運或負載某物；較正式」。",
+      "explanation": "對照完整句子：「我們在河邊看見一隻熊。」。這裡的「bear」表示「熊；一種大型哺乳動物」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "targets": [
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-01": "本句指「攜帶、搬運或負載某物；較正式」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-reviewed-d43bf31f31": "對照完整句子：「我們在河邊看見一隻熊。」。這裡的「bear」表示「熊；一種大型哺乳動物」。",
+        "bear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "bear-mcq-01"
+      "correctOption": "bear-reviewed-d43bf31f31",
+      "previousCorrectOption": "bear-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "bear-01-1",
-      "sense": "bear-mcq-01",
+      "sense": "bear-reviewed-d43bf31f31",
       "en": "Brown bears can be extremely powerful.",
       "zh": "棕熊可以非常強壯。",
       "masked": "Brown ____ can be extremely powerful.",
       "options": [
-        "bear-mcq-01",
-        "bear-mcq-02",
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-15",
         "bear-mcq-03",
-        "bear-mcq-04",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-pdf-001"
       ],
-      "explanation": "本句的「bears」指「攜帶、搬運或負載某物；較正式」。",
+      "explanation": "對照完整句子：「棕熊可以非常強壯。」。這裡的「bears」表示「熊；一種大型哺乳動物」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "targets": [
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-01": "本句指「攜帶、搬運或負載某物；較正式」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-reviewed-d43bf31f31": "對照完整句子：「棕熊可以非常強壯。」。這裡的「bears」表示「熊；一種大型哺乳動物」。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "bear-mcq-01"
+      "correctOption": "bear-reviewed-d43bf31f31",
+      "previousCorrectOption": "bear-mcq-01",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "bear-02-0",
@@ -605,11 +637,9 @@ export default {
       "masked": "The workers ____ heavy loads up the hill.",
       "options": [
         "bear-mcq-01",
-        "bear-mcq-02",
-        "bear-mcq-03",
-        "bear-mcq-04",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-09",
+        "bear-mcq-06",
+        "bear-mcq-12"
       ],
       "explanation": "本句的「bore」指「攜帶、搬運或負載某物；較正式」。",
       "sentenceIndex": 2,
@@ -618,12 +648,10 @@ export default {
         "bore"
       ],
       "optionReasons": {
-        "bear-mcq-01": "本句指「攜帶、搬運或負載某物；較正式」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-01": "本句的「bore」指「攜帶、搬運或負載某物；較正式」。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-01"
     },
@@ -635,11 +663,9 @@ export default {
       "masked": "They came ____ gifts.",
       "options": [
         "bear-mcq-01",
-        "bear-mcq-02",
-        "bear-mcq-03",
-        "bear-mcq-04",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-17",
+        "bear-mcq-09",
+        "bear-mcq-16"
       ],
       "explanation": "本句的「bearing」指「攜帶、搬運或負載某物；較正式」。",
       "sentenceIndex": 3,
@@ -648,12 +674,10 @@ export default {
         "bearing"
       ],
       "optionReasons": {
-        "bear-mcq-01": "本句指「攜帶、搬運或負載某物；較正式」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-01": "本句的「bearing」指「攜帶、搬運或負載某物；較正式」。",
+        "bear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-01"
     },
@@ -665,11 +689,9 @@ export default {
       "masked": "The bridge can ____ the weight of several trucks.",
       "options": [
         "bear-mcq-02",
-        "bear-mcq-01",
-        "bear-mcq-03",
-        "bear-mcq-04",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-06",
+        "bear-mcq-14",
+        "bear-mcq-17"
       ],
       "explanation": "本句的「bear」指「承受／支撐重量或負荷」。",
       "sentenceIndex": 4,
@@ -678,12 +700,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-02": "本句指「承受／支撐重量或負荷」。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-02": "本句的「bear」指「承受／支撐重量或負荷」。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-02"
     },
@@ -695,10 +715,8 @@ export default {
       "masked": "These columns ____ most of the roof’s weight.",
       "options": [
         "bear-mcq-02",
-        "bear-mcq-01",
-        "bear-mcq-03",
-        "bear-mcq-04",
-        "bear-mcq-05",
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-16",
         "bear-mcq-06"
       ],
       "explanation": "本句的「bear」指「承受／支撐重量或負荷」。",
@@ -708,12 +726,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-02": "本句指「承受／支撐重量或負荷」。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-02": "本句的「bear」指「承受／支撐重量或負荷」。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-02"
     },
@@ -725,11 +741,9 @@ export default {
       "masked": "I can’t ____ the noise.",
       "options": [
         "bear-mcq-03",
-        "bear-mcq-02",
-        "bear-mcq-04",
-        "bear-mcq-01",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-24",
+        "bear-pdf-001",
+        "bear-reviewed-d43bf31f31"
       ],
       "explanation": "本句的「bear」指「忍受令人痛苦、不舒服或討厭的事情」。",
       "sentenceIndex": 6,
@@ -738,12 +752,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-03": "本句指「忍受令人痛苦、不舒服或討厭的事情」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-03": "本句的「bear」指「忍受令人痛苦、不舒服或討厭的事情」。",
+        "bear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-03"
     },
@@ -755,11 +767,9 @@ export default {
       "masked": "She could hardly ____ the pain.",
       "options": [
         "bear-mcq-03",
-        "bear-mcq-02",
-        "bear-mcq-04",
-        "bear-mcq-01",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-24",
+        "bear-mcq-06",
+        "bear-mcq-09"
       ],
       "explanation": "本句的「bear」指「忍受令人痛苦、不舒服或討厭的事情」。",
       "sentenceIndex": 7,
@@ -768,12 +778,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-03": "本句指「忍受令人痛苦、不舒服或討厭的事情」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-03": "本句的「bear」指「忍受令人痛苦、不舒服或討厭的事情」。",
+        "bear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-03"
     },
@@ -785,11 +793,9 @@ export default {
       "masked": "I can’t ____ to watch.",
       "options": [
         "bear-mcq-03",
-        "bear-mcq-02",
-        "bear-mcq-04",
-        "bear-mcq-01",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-09",
+        "bear-reviewed-60282b17a1",
+        "bear-mcq-11"
       ],
       "explanation": "本句的「bear」指「忍受令人痛苦、不舒服或討厭的事情」。",
       "sentenceIndex": 8,
@@ -798,12 +804,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-03": "本句指「忍受令人痛苦、不舒服或討厭的事情」。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-03": "本句的「bear」指「忍受令人痛苦、不舒服或討厭的事情」。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-60282b17a1": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-03"
     },
@@ -815,11 +819,9 @@ export default {
       "masked": "Other patrons then ____.",
       "options": [
         "bear-mcq-04",
-        "bear-mcq-03",
-        "bear-mcq-05",
-        "bear-mcq-02",
-        "bear-mcq-06",
-        "bear-mcq-01"
+        "bear-mcq-08",
+        "bear-reviewed-7564054c43",
+        "bear-mcq-18"
       ],
       "explanation": "本句的「bear the consequences」指「承受／承擔成本、後果、風險、損失或負擔」。",
       "sentenceIndex": 9,
@@ -828,12 +830,10 @@ export default {
         "bear the consequences"
       ],
       "optionReasons": {
-        "bear-mcq-04": "本句指「承受／承擔成本、後果、風險、損失或負擔」。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。"
+        "bear-mcq-04": "本句的「bear the consequences」指「承受／承擔成本、後果、風險、損失或負擔」。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-7564054c43": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-04"
     },
@@ -845,11 +845,9 @@ export default {
       "masked": "Businesses should not have to ____ all the additional costs.",
       "options": [
         "bear-mcq-04",
-        "bear-mcq-03",
-        "bear-mcq-05",
-        "bear-mcq-02",
-        "bear-mcq-06",
-        "bear-mcq-01"
+        "bear-mcq-08",
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-16"
       ],
       "explanation": "本句的「bear」指「承受／承擔成本、後果、風險、損失或負擔」。",
       "sentenceIndex": 10,
@@ -858,12 +856,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-04": "本句指「承受／承擔成本、後果、風險、損失或負擔」。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。"
+        "bear-mcq-04": "本句的「bear」指「承受／承擔成本、後果、風險、損失或負擔」。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-04"
     },
@@ -875,11 +871,9 @@ export default {
       "masked": "The family had to ____ the financial burden.",
       "options": [
         "bear-mcq-04",
-        "bear-mcq-03",
-        "bear-mcq-05",
-        "bear-mcq-02",
-        "bear-mcq-06",
-        "bear-mcq-01"
+        "bear-mcq-18",
+        "bear-pdf-001",
+        "bear-mcq-15"
       ],
       "explanation": "本句的「bear」指「承受／承擔成本、後果、風險、損失或負擔」。",
       "sentenceIndex": 11,
@@ -888,12 +882,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-04": "本句指「承受／承擔成本、後果、風險、損失或負擔」。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。"
+        "bear-mcq-04": "本句的「bear」指「承受／承擔成本、後果、風險、損失或負擔」。",
+        "bear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-04"
     },
@@ -905,11 +897,9 @@ export default {
       "masked": "The company must ____ for the mistake.",
       "options": [
         "bear-mcq-05",
-        "bear-mcq-04",
-        "bear-mcq-06",
-        "bear-mcq-03",
-        "bear-mcq-07",
-        "bear-mcq-02"
+        "bear-mcq-14",
+        "bear-mcq-15",
+        "bear-mcq-12"
       ],
       "explanation": "本句的「bear responsibility」指「承擔責任／指責」。",
       "sentenceIndex": 12,
@@ -918,12 +908,10 @@ export default {
         "bear responsibility"
       ],
       "optionReasons": {
-        "bear-mcq-05": "本句指「承擔責任／指責」。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。"
+        "bear-mcq-05": "本句的「bear responsibility」指「承擔責任／指責」。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-05"
     },
@@ -935,11 +923,9 @@ export default {
       "masked": "One person should not ____.",
       "options": [
         "bear-mcq-05",
-        "bear-mcq-04",
-        "bear-mcq-06",
-        "bear-mcq-03",
-        "bear-mcq-07",
-        "bear-mcq-02"
+        "bear-mcq-11",
+        "bear-mcq-15",
+        "bear-mcq-16"
       ],
       "explanation": "本句的「bear all the blame」指「承擔責任／指責」。",
       "sentenceIndex": 13,
@@ -948,12 +934,10 @@ export default {
         "bear all the blame"
       ],
       "optionReasons": {
-        "bear-mcq-05": "本句指「承擔責任／指責」。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。"
+        "bear-mcq-05": "本句的「bear all the blame」指「承擔責任／指責」。",
+        "bear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-05"
     },
@@ -965,11 +949,9 @@ export default {
       "masked": "The prosecution normally ____ in a criminal trial.",
       "options": [
         "bear-mcq-05",
-        "bear-mcq-04",
-        "bear-mcq-06",
-        "bear-mcq-03",
-        "bear-mcq-07",
-        "bear-mcq-02"
+        "bear-mcq-12",
+        "bear-mcq-19",
+        "bear-mcq-08"
       ],
       "explanation": "本句的「bears the burden of proof」指「承擔責任／指責」。",
       "sentenceIndex": 14,
@@ -978,12 +960,10 @@ export default {
         "bears the burden of proof"
       ],
       "optionReasons": {
-        "bear-mcq-05": "本句指「承擔責任／指責」。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。"
+        "bear-mcq-05": "本句的「bears the burden of proof」指「承擔責任／指責」。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-05"
     },
@@ -995,11 +975,9 @@ export default {
       "masked": "The tree ____ fruit every summer.",
       "options": [
         "bear-mcq-06",
-        "bear-mcq-05",
-        "bear-mcq-07",
-        "bear-mcq-04",
+        "bear-mcq-15",
         "bear-mcq-08",
-        "bear-mcq-03"
+        "bear-mcq-09"
       ],
       "explanation": "本句的「bears」指「結出果實、花朵或農作物」。",
       "sentenceIndex": 15,
@@ -1008,12 +986,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-06": "本句指「結出果實、花朵或農作物」。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。"
+        "bear-mcq-06": "本句的「bears」指「結出果實、花朵或農作物」。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-06"
     },
@@ -1025,11 +1001,9 @@ export default {
       "masked": "The plants have begun to ____ flowers.",
       "options": [
         "bear-mcq-06",
-        "bear-mcq-05",
-        "bear-mcq-07",
-        "bear-mcq-04",
-        "bear-mcq-08",
-        "bear-mcq-03"
+        "bear-mcq-16",
+        "bear-mcq-18",
+        "bear-pdf-001"
       ],
       "explanation": "本句的「bear」指「結出果實、花朵或農作物」。",
       "sentenceIndex": 16,
@@ -1038,12 +1012,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-06": "本句指「結出果實、花朵或農作物」。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。"
+        "bear-mcq-06": "本句的「bear」指「結出果實、花朵或農作物」。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-06"
     },
@@ -1055,11 +1027,9 @@ export default {
       "masked": "Their efforts finally ____.",
       "options": [
         "bear-mcq-07",
-        "bear-mcq-06",
-        "bear-mcq-08",
-        "bear-mcq-05",
-        "bear-mcq-09",
-        "bear-mcq-04"
+        "bear-mcq-24",
+        "bear-mcq-14",
+        "bear-mcq-01"
       ],
       "explanation": "本句的「bore fruit」指「努力、計劃等產生實際成果」。",
       "sentenceIndex": 17,
@@ -1068,12 +1038,10 @@ export default {
         "bore fruit"
       ],
       "optionReasons": {
-        "bear-mcq-07": "本句指「努力、計劃等產生實際成果」。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。"
+        "bear-mcq-07": "本句的「bore fruit」指「努力、計劃等產生實際成果」。",
+        "bear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-07"
     },
@@ -1085,11 +1053,9 @@ export default {
       "masked": "The negotiations are beginning to ____.",
       "options": [
         "bear-mcq-07",
-        "bear-mcq-06",
-        "bear-mcq-08",
-        "bear-mcq-05",
-        "bear-mcq-09",
-        "bear-mcq-04"
+        "bear-mcq-19",
+        "bear-reviewed-d43bf31f31",
+        "bear-reviewed-60282b17a1"
       ],
       "explanation": "本句的「bear fruit」指「努力、計劃等產生實際成果」。",
       "sentenceIndex": 18,
@@ -1098,12 +1064,10 @@ export default {
         "bear fruit"
       ],
       "optionReasons": {
-        "bear-mcq-07": "本句指「努力、計劃等產生實際成果」。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。"
+        "bear-mcq-07": "本句的「bear fruit」指「努力、計劃等產生實際成果」。",
+        "bear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-60282b17a1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-07"
     },
@@ -1115,11 +1079,9 @@ export default {
       "masked": "She ____ three children.",
       "options": [
         "bear-mcq-08",
-        "bear-mcq-07",
-        "bear-mcq-09",
+        "bear-mcq-14",
         "bear-mcq-06",
-        "bear-mcq-10",
-        "bear-mcq-05"
+        "bear-mcq-15"
       ],
       "explanation": "本句的「bore」指「生育／生下孩子；較正式」。",
       "sentenceIndex": 19,
@@ -1128,12 +1090,10 @@ export default {
         "bore"
       ],
       "optionReasons": {
-        "bear-mcq-08": "本句指「生育／生下孩子；較正式」。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。"
+        "bear-mcq-08": "本句的「bore」指「生育／生下孩子；較正式」。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-08"
     },
@@ -1145,10 +1105,8 @@ export default {
       "masked": "The queen ____ an heir.",
       "options": [
         "bear-mcq-08",
-        "bear-mcq-07",
-        "bear-mcq-09",
-        "bear-mcq-06",
-        "bear-mcq-10",
+        "bear-pdf-001",
+        "bear-mcq-14",
         "bear-mcq-05"
       ],
       "explanation": "本句的「bore」指「生育／生下孩子；較正式」。",
@@ -1158,12 +1116,10 @@ export default {
         "bore"
       ],
       "optionReasons": {
-        "bear-mcq-08": "本句指「生育／生下孩子；較正式」。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。"
+        "bear-mcq-08": "本句的「bore」指「生育／生下孩子；較正式」。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-08"
     },
@@ -1175,11 +1131,9 @@ export default {
       "masked": "She was ____ in 2005.",
       "options": [
         "bear-mcq-08",
-        "bear-mcq-07",
-        "bear-mcq-09",
-        "bear-mcq-06",
-        "bear-mcq-10",
-        "bear-mcq-05"
+        "bear-reviewed-7564054c43",
+        "bear-mcq-14",
+        "bear-mcq-10"
       ],
       "explanation": "本句的「born」指「生育／生下孩子；較正式」。",
       "sentenceIndex": 21,
@@ -1188,12 +1142,10 @@ export default {
         "born"
       ],
       "optionReasons": {
-        "bear-mcq-08": "本句指「生育／生下孩子；較正式」。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。"
+        "bear-mcq-08": "本句的「born」指「生育／生下孩子；較正式」。",
+        "bear-reviewed-7564054c43": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-08"
     },
@@ -1205,11 +1157,9 @@ export default {
       "masked": "The cost was ____ by the restaurant.",
       "options": [
         "bear-mcq-04",
-        "bear-mcq-03",
-        "bear-mcq-05",
-        "bear-mcq-02",
-        "bear-mcq-06",
-        "bear-mcq-01"
+        "bear-mcq-14",
+        "bear-mcq-10",
+        "bear-pdf-001"
       ],
       "explanation": "本句的「borne」指「承受／承擔成本、後果、風險、損失或負擔」。",
       "sentenceIndex": 22,
@@ -1218,12 +1168,10 @@ export default {
         "borne"
       ],
       "optionReasons": {
-        "bear-mcq-04": "本句指「承受／承擔成本、後果、風險、損失或負擔」。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-02": "「承受／支撐重量或負荷」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。"
+        "bear-mcq-04": "本句的「borne」指「承受／承擔成本、後果、風險、損失或負擔」。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-04"
     },
@@ -1235,11 +1183,9 @@ export default {
       "masked": "The structure has ____ the weight for decades.",
       "options": [
         "bear-mcq-02",
-        "bear-mcq-01",
-        "bear-mcq-03",
-        "bear-mcq-04",
-        "bear-mcq-05",
-        "bear-mcq-06"
+        "bear-mcq-17",
+        "bear-mcq-06",
+        "bear-mcq-07"
       ],
       "explanation": "本句的「borne」指「承受／支撐重量或負荷」。",
       "sentenceIndex": 23,
@@ -1248,12 +1194,10 @@ export default {
         "borne"
       ],
       "optionReasons": {
-        "bear-mcq-02": "本句指「承受／支撐重量或負荷」。",
-        "bear-mcq-01": "「攜帶、搬運或負載某物；較正式」與本句語境不同。",
-        "bear-mcq-03": "「忍受令人痛苦、不舒服或討厭的事情」與本句語境不同。",
-        "bear-mcq-04": "「承受／承擔成本、後果、風險、損失或負擔」與本句語境不同。",
-        "bear-mcq-05": "「承擔責任／指責」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-02": "本句的「borne」指「承受／支撐重量或負荷」。",
+        "bear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-02"
     },
@@ -1265,11 +1209,9 @@ export default {
       "masked": "The account ____ interest.",
       "options": [
         "bear-mcq-09",
-        "bear-mcq-08",
-        "bear-mcq-10",
-        "bear-mcq-07",
-        "bear-mcq-11",
-        "bear-mcq-06"
+        "bear-mcq-02",
+        "bear-reviewed-60282b17a1",
+        "bear-mcq-19"
       ],
       "explanation": "本句的「bears」指「資產、帳戶等產生利息／回報」。",
       "sentenceIndex": 24,
@@ -1278,12 +1220,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-09": "本句指「資產、帳戶等產生利息／回報」。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-06": "「結出果實、花朵或農作物」與本句語境不同。"
+        "bear-mcq-09": "本句的「bears」指「資產、帳戶等產生利息／回報」。",
+        "bear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-60282b17a1": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-09"
     },
@@ -1295,11 +1235,9 @@ export default {
       "masked": "The document ____ his signature.",
       "options": [
         "bear-mcq-10",
-        "bear-mcq-09",
-        "bear-mcq-11",
-        "bear-mcq-08",
-        "bear-mcq-12",
-        "bear-mcq-07"
+        "bear-mcq-16",
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-05"
       ],
       "explanation": "本句的「bears」指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
       "sentenceIndex": 25,
@@ -1308,12 +1246,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-10": "本句指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。"
+        "bear-mcq-10": "本句的「bears」指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-10"
     },
@@ -1325,11 +1261,9 @@ export default {
       "masked": "The building ____ the date 1890.",
       "options": [
         "bear-mcq-10",
-        "bear-mcq-09",
+        "bear-mcq-05",
         "bear-mcq-11",
-        "bear-mcq-08",
-        "bear-mcq-12",
-        "bear-mcq-07"
+        "bear-mcq-18"
       ],
       "explanation": "本句的「bears」指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
       "sentenceIndex": 26,
@@ -1338,12 +1272,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-10": "本句指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。"
+        "bear-mcq-10": "本句的「bears」指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
+        "bear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-10"
     },
@@ -1355,11 +1287,9 @@ export default {
       "masked": "The shield ____ a lion.",
       "options": [
         "bear-mcq-10",
-        "bear-mcq-09",
-        "bear-mcq-11",
-        "bear-mcq-08",
-        "bear-mcq-12",
-        "bear-mcq-07"
+        "bear-mcq-14",
+        "bear-mcq-16",
+        "bear-mcq-03"
       ],
       "explanation": "本句的「bears」指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
       "sentenceIndex": 27,
@@ -1368,12 +1298,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-10": "本句指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-07": "「努力、計劃等產生實際成果」與本句語境不同。"
+        "bear-mcq-10": "本句的「bears」指「帶有、載有、顯示名稱、標誌、簽名、痕跡等」。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-10"
     },
@@ -1385,11 +1313,9 @@ export default {
       "masked": "The two cases ____ a strong resemblance to each other.",
       "options": [
         "bear-mcq-11",
-        "bear-mcq-10",
-        "bear-mcq-12",
-        "bear-mcq-09",
-        "bear-mcq-13",
-        "bear-mcq-08"
+        "bear-mcq-02",
+        "bear-mcq-08",
+        "bear-mcq-12"
       ],
       "explanation": "本句的「bear」指「具有相似性／關係」。",
       "sentenceIndex": 28,
@@ -1398,12 +1324,10 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-11": "本句指「具有相似性／關係」。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。"
+        "bear-mcq-11": "本句的「bear」指「具有相似性／關係」。",
+        "bear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-11"
     },
@@ -1415,10 +1339,8 @@ export default {
       "masked": "His description ____ to what actually happened.",
       "options": [
         "bear-mcq-11",
-        "bear-mcq-10",
-        "bear-mcq-12",
-        "bear-mcq-09",
-        "bear-mcq-13",
+        "bear-reviewed-7564054c43",
+        "bear-mcq-24",
         "bear-mcq-08"
       ],
       "explanation": "本句的「bears little relation」指「具有相似性／關係」。",
@@ -1428,12 +1350,10 @@ export default {
         "bears little relation"
       ],
       "optionReasons": {
-        "bear-mcq-11": "本句指「具有相似性／關係」。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。"
+        "bear-mcq-11": "本句的「bears little relation」指「具有相似性／關係」。",
+        "bear-reviewed-7564054c43": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-11"
     },
@@ -1445,11 +1365,9 @@ export default {
       "masked": "The results ____ some similarity to earlier findings.",
       "options": [
         "bear-mcq-11",
+        "bear-mcq-01",
         "bear-mcq-10",
-        "bear-mcq-12",
-        "bear-mcq-09",
-        "bear-mcq-13",
-        "bear-mcq-08"
+        "bear-mcq-19"
       ],
       "explanation": "本句的「bear」指「具有相似性／關係」。",
       "sentenceIndex": 30,
@@ -1458,74 +1376,68 @@ export default {
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-11": "本句指「具有相似性／關係」。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。"
+        "bear-mcq-11": "本句的「bear」指「具有相似性／關係」。",
+        "bear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-11"
     },
     {
       "id": "bear-14-0",
-      "sense": "bear-mcq-11",
+      "sense": "bear-reviewed-60282b17a1",
       "en": "The walls still bear the scars of the fire.",
       "zh": "牆壁仍然留有火災造成的痕跡。",
       "masked": "The walls still ____ the scars of the fire.",
       "options": [
-        "bear-mcq-11",
-        "bear-mcq-10",
-        "bear-mcq-12",
-        "bear-mcq-09",
-        "bear-mcq-13",
-        "bear-mcq-08"
+        "bear-reviewed-60282b17a1",
+        "bear-mcq-14",
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-06"
       ],
-      "explanation": "本句的「bear」指「具有相似性／關係」。",
+      "explanation": "對照完整句子：「牆壁仍然留有火災造成的痕跡。」。這裡的「bear」表示「留有、帶有某種痕跡或跡象」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "targets": [
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-11": "本句指「具有相似性／關係」。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。"
+        "bear-reviewed-60282b17a1": "對照完整句子：「牆壁仍然留有火災造成的痕跡。」。這裡的「bear」表示「留有、帶有某種痕跡或跡象」。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "bear-mcq-11"
+      "correctOption": "bear-reviewed-60282b17a1",
+      "previousCorrectOption": "bear-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "bear-14-1",
-      "sense": "bear-mcq-11",
+      "sense": "bear-reviewed-60282b17a1",
       "en": "The object bears signs of heavy use.",
       "zh": "這件物品帶有大量使用過的痕跡。",
       "masked": "The object ____ signs of heavy use.",
       "options": [
-        "bear-mcq-11",
-        "bear-mcq-10",
-        "bear-mcq-12",
-        "bear-mcq-09",
-        "bear-mcq-13",
-        "bear-mcq-08"
+        "bear-reviewed-60282b17a1",
+        "bear-mcq-08",
+        "bear-mcq-06",
+        "bear-reviewed-d43bf31f31"
       ],
-      "explanation": "本句的「bears」指「具有相似性／關係」。",
+      "explanation": "對照完整句子：「這件物品帶有大量使用過的痕跡。」。這裡的「bears」表示「留有、帶有某種痕跡或跡象」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "targets": [
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-11": "本句指「具有相似性／關係」。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-08": "「生育／生下孩子；較正式」與本句語境不同。"
+        "bear-reviewed-60282b17a1": "對照完整句子：「這件物品帶有大量使用過的痕跡。」。這裡的「bears」表示「留有、帶有某種痕跡或跡象」。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "bear-mcq-11"
+      "correctOption": "bear-reviewed-60282b17a1",
+      "previousCorrectOption": "bear-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "bear-15-0",
@@ -1536,10 +1448,8 @@ export default {
       "options": [
         "bear-mcq-12",
         "bear-mcq-11",
-        "bear-mcq-13",
-        "bear-mcq-10",
-        "bear-mcq-14",
-        "bear-mcq-09"
+        "bear-mcq-08",
+        "bear-mcq-02"
       ],
       "explanation": "本句的「bore witness」指「作證；證實；成為某事的證據」。",
       "sentenceIndex": 33,
@@ -1548,12 +1458,10 @@ export default {
         "bore witness"
       ],
       "optionReasons": {
-        "bear-mcq-12": "本句指「作證；證實；成為某事的證據」。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
-        "bear-mcq-09": "「資產、帳戶等產生利息／回報」與本句語境不同。"
+        "bear-mcq-12": "本句的「bore witness」指「作證；證實；成為某事的證據」。",
+        "bear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-12"
     },
@@ -1565,11 +1473,9 @@ export default {
       "masked": "At the junction, ____.",
       "options": [
         "bear-pdf-001",
-        "bear-mcq-12",
-        "bear-mcq-14",
-        "bear-mcq-11",
-        "bear-mcq-15",
-        "bear-mcq-10"
+        "bear-mcq-19",
+        "bear-mcq-10",
+        "bear-mcq-07"
       ],
       "explanation": "本句的「bear left」指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
       "sentenceIndex": 34,
@@ -1578,12 +1484,10 @@ export default {
         "bear left"
       ],
       "optionReasons": {
-        "bear-pdf-001": "本句指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。"
+        "bear-pdf-001": "本句的「bear left」指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
+        "bear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-pdf-001"
     },
@@ -1595,11 +1499,9 @@ export default {
       "masked": "The road ____ to the right after the bridge.",
       "options": [
         "bear-pdf-001",
-        "bear-mcq-12",
+        "bear-mcq-09",
         "bear-mcq-14",
-        "bear-mcq-11",
-        "bear-mcq-15",
-        "bear-mcq-10"
+        "bear-mcq-15"
       ],
       "explanation": "本句的「bears」指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
       "sentenceIndex": 35,
@@ -1608,12 +1510,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-pdf-001": "本句指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-10": "「帶有、載有、顯示名稱、標誌、簽名、痕跡等」與本句語境不同。"
+        "bear-pdf-001": "本句的「bears」指「不一定作九十度急轉，而是逐漸向某方向偏轉／行進」。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-pdf-001"
     },
@@ -1625,11 +1525,9 @@ export default {
       "masked": "She ____ with confidence.",
       "options": [
         "bear-mcq-14",
-        "bear-mcq-13",
-        "bear-mcq-15",
-        "bear-mcq-12",
-        "bear-mcq-16",
-        "bear-mcq-11"
+        "bear-pdf-001",
+        "bear-mcq-19",
+        "bear-mcq-03"
       ],
       "explanation": "本句的「bore herself」指「以某種姿態／舉止表現自己」。",
       "sentenceIndex": 36,
@@ -1638,12 +1536,10 @@ export default {
         "bore herself"
       ],
       "optionReasons": {
-        "bear-mcq-14": "本句指「以某種姿態／舉止表現自己」。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。"
+        "bear-mcq-14": "本句的「bore herself」指「以某種姿態／舉止表現自己」。",
+        "bear-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-14"
     },
@@ -1655,11 +1551,9 @@ export default {
       "masked": "He ____ calmly throughout the interview.",
       "options": [
         "bear-mcq-14",
-        "bear-mcq-13",
-        "bear-mcq-15",
-        "bear-mcq-12",
+        "bear-mcq-03",
         "bear-mcq-16",
-        "bear-mcq-11"
+        "bear-mcq-09"
       ],
       "explanation": "本句的「bore himself」指「以某種姿態／舉止表現自己」。",
       "sentenceIndex": 37,
@@ -1668,12 +1562,10 @@ export default {
         "bore himself"
       ],
       "optionReasons": {
-        "bear-mcq-14": "本句指「以某種姿態／舉止表現自己」。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-11": "「具有相似性／關係」與本句語境不同。"
+        "bear-mcq-14": "本句的「bore himself」指「以某種姿態／舉止表現自己」。",
+        "bear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-14"
     },
@@ -1685,11 +1577,9 @@ export default {
       "masked": "Please ____ for a moment.",
       "options": [
         "bear-mcq-15",
-        "bear-mcq-14",
-        "bear-mcq-16",
-        "bear-mcq-13",
-        "bear-mcq-17",
-        "bear-mcq-12"
+        "bear-mcq-06",
+        "bear-mcq-01",
+        "bear-mcq-18"
       ],
       "explanation": "本句的「bear with me」指「對某人有耐性；請稍候／包涵」。",
       "sentenceIndex": 38,
@@ -1698,12 +1588,10 @@ export default {
         "bear with me"
       ],
       "optionReasons": {
-        "bear-mcq-15": "本句指「對某人有耐性；請稍候／包涵」。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-17": "「預期價格下跌的投資者／空頭」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。"
+        "bear-mcq-15": "本句的「bear with me」指「對某人有耐性；請稍候／包涵」。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-15"
     },
@@ -1715,11 +1603,9 @@ export default {
       "masked": "____ with us while we fix the problem.",
       "options": [
         "bear-mcq-15",
-        "bear-mcq-14",
-        "bear-mcq-16",
-        "bear-mcq-13",
-        "bear-mcq-17",
-        "bear-mcq-12"
+        "bear-mcq-10",
+        "bear-mcq-06",
+        "bear-mcq-07"
       ],
       "explanation": "本句的「Bear」指「對某人有耐性；請稍候／包涵」。",
       "sentenceIndex": 39,
@@ -1728,12 +1614,10 @@ export default {
         "Bear"
       ],
       "optionReasons": {
-        "bear-mcq-15": "本句指「對某人有耐性；請稍候／包涵」。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。",
-        "bear-mcq-17": "「預期價格下跌的投資者／空頭」與本句語境不同。",
-        "bear-mcq-12": "「作證；證實；成為某事的證據」與本句語境不同。"
+        "bear-mcq-15": "本句的「Bear」指「對某人有耐性；請稍候／包涵」。",
+        "bear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-15"
     },
@@ -1745,11 +1629,9 @@ export default {
       "masked": "Please ____ that prices may change.",
       "options": [
         "bear-mcq-16",
-        "bear-mcq-15",
-        "bear-mcq-17",
-        "bear-mcq-14",
-        "bear-mcq-18",
-        "bear-mcq-13"
+        "bear-mcq-12",
+        "bear-mcq-08",
+        "bear-mcq-09"
       ],
       "explanation": "本句的「bear in mind」指「記住並在判斷時考慮」。",
       "sentenceIndex": 40,
@@ -1758,44 +1640,40 @@ export default {
         "bear in mind"
       ],
       "optionReasons": {
-        "bear-mcq-16": "本句指「記住並在判斷時考慮」。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-17": "「預期價格下跌的投資者／空頭」與本句語境不同。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。",
-        "bear-mcq-18": "「熊市；廣泛持續下跌的市場」與本句語境不同。",
-        "bear-mcq-13": "「向左／右逐漸轉向或行進」與本句語境不同。"
+        "bear-mcq-16": "本句的「bear in mind」指「記住並在判斷時考慮」。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-16"
     },
     {
       "id": "bear-20-0",
-      "sense": "bear-mcq-17",
+      "sense": "bear-reviewed-7564054c43",
       "en": "The phrase ‘bear arms’ historically refers to carrying weapons.",
       "zh": "bear arms 這個詞組歷史上指攜帶武器／武裝。",
       "masked": "The phrase ‘____ arms’ historically refers to carrying weapons.",
       "options": [
+        "bear-reviewed-7564054c43",
         "bear-mcq-17",
-        "bear-mcq-16",
-        "bear-mcq-18",
-        "bear-mcq-15",
-        "bear-mcq-19",
-        "bear-mcq-14"
+        "bear-mcq-06",
+        "bear-mcq-12"
       ],
-      "explanation": "本句的「bear」指「預期價格下跌的投資者／空頭」。",
+      "explanation": "對照完整句子：「bear arms 這個詞組歷史上指攜帶武器／武裝。」。這裡的「bear」表示「攜帶或使用武器」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "targets": [
         "bear"
       ],
       "optionReasons": {
-        "bear-mcq-17": "本句指「預期價格下跌的投資者／空頭」。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-18": "「熊市；廣泛持續下跌的市場」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-19": "「看淡／看跌的」與本句語境不同。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。"
+        "bear-reviewed-7564054c43": "對照完整句子：「bear arms 這個詞組歷史上指攜帶武器／武裝。」。這裡的「bear」表示「攜帶或使用武器」。",
+        "bear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "bear-mcq-17"
+      "correctOption": "bear-reviewed-7564054c43",
+      "previousCorrectOption": "bear-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "bear-21-0",
@@ -1805,11 +1683,9 @@ export default {
       "masked": "Market ____ expect prices to fall.",
       "options": [
         "bear-mcq-17",
-        "bear-mcq-16",
-        "bear-mcq-18",
-        "bear-mcq-15",
-        "bear-mcq-19",
-        "bear-mcq-14"
+        "bear-mcq-01",
+        "bear-mcq-11",
+        "bear-mcq-12"
       ],
       "explanation": "本句的「bears」指「預期價格下跌的投資者／空頭」。",
       "sentenceIndex": 42,
@@ -1818,12 +1694,10 @@ export default {
         "bears"
       ],
       "optionReasons": {
-        "bear-mcq-17": "本句指「預期價格下跌的投資者／空頭」。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-18": "「熊市；廣泛持續下跌的市場」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。",
-        "bear-mcq-19": "「看淡／看跌的」與本句語境不同。",
-        "bear-mcq-14": "「以某種姿態／舉止表現自己」與本句語境不同。"
+        "bear-mcq-17": "本句的「bears」指「預期價格下跌的投資者／空頭」。",
+        "bear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-17"
     },
@@ -1835,11 +1709,9 @@ export default {
       "masked": "Technology shares entered a ____.",
       "options": [
         "bear-mcq-18",
-        "bear-mcq-17",
-        "bear-mcq-19",
-        "bear-mcq-16",
-        "bear-mcq-20",
-        "bear-mcq-15"
+        "bear-mcq-11",
+        "bear-mcq-24",
+        "bear-reviewed-60282b17a1"
       ],
       "explanation": "本句的「bear market」指「熊市；廣泛持續下跌的市場」。",
       "sentenceIndex": 43,
@@ -1848,12 +1720,10 @@ export default {
         "bear market"
       ],
       "optionReasons": {
-        "bear-mcq-18": "本句指「熊市；廣泛持續下跌的市場」。",
-        "bear-mcq-17": "「預期價格下跌的投資者／空頭」與本句語境不同。",
-        "bear-mcq-19": "「看淡／看跌的」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。",
-        "bear-mcq-20": "「可以忍受的／難以忍受的」與本句語境不同。",
-        "bear-mcq-15": "「對某人有耐性；請稍候／包涵」與本句語境不同。"
+        "bear-mcq-18": "本句的「bear market」指「熊市；廣泛持續下跌的市場」。",
+        "bear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bear-reviewed-60282b17a1": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-18"
     },
@@ -1865,11 +1735,9 @@ export default {
       "masked": "Investors became increasingly ____.",
       "options": [
         "bear-mcq-19",
-        "bear-mcq-18",
-        "bear-mcq-20",
-        "bear-mcq-17",
-        "bear-mcq-21",
-        "bear-mcq-16"
+        "bear-reviewed-d43bf31f31",
+        "bear-mcq-16",
+        "bear-mcq-07"
       ],
       "explanation": "本句的「bearish」指「看淡／看跌的」。",
       "sentenceIndex": 44,
@@ -1878,12 +1746,10 @@ export default {
         "bearish"
       ],
       "optionReasons": {
-        "bear-mcq-19": "本句指「看淡／看跌的」。",
-        "bear-mcq-18": "「熊市；廣泛持續下跌的市場」與本句語境不同。",
-        "bear-mcq-20": "「可以忍受的／難以忍受的」與本句語境不同。",
-        "bear-mcq-17": "「預期價格下跌的投資者／空頭」與本句語境不同。",
-        "bear-mcq-21": "「方位／航向」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。"
+        "bear-mcq-19": "本句的「bearish」指「看淡／看跌的」。",
+        "bear-reviewed-d43bf31f31": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-19"
     },
@@ -1895,11 +1761,9 @@ export default {
       "masked": "The report takes a ____ view of the sector.",
       "options": [
         "bear-mcq-19",
-        "bear-mcq-18",
-        "bear-mcq-20",
-        "bear-mcq-17",
-        "bear-mcq-21",
-        "bear-mcq-16"
+        "bear-mcq-03",
+        "bear-mcq-15",
+        "bear-mcq-10"
       ],
       "explanation": "本句的「bearish」指「看淡／看跌的」。",
       "sentenceIndex": 45,
@@ -1908,12 +1772,10 @@ export default {
         "bearish"
       ],
       "optionReasons": {
-        "bear-mcq-19": "本句指「看淡／看跌的」。",
-        "bear-mcq-18": "「熊市；廣泛持續下跌的市場」與本句語境不同。",
-        "bear-mcq-20": "「可以忍受的／難以忍受的」與本句語境不同。",
-        "bear-mcq-17": "「預期價格下跌的投資者／空頭」與本句語境不同。",
-        "bear-mcq-21": "「方位／航向」與本句語境不同。",
-        "bear-mcq-16": "「記住並在判斷時考慮」與本句語境不同。"
+        "bear-mcq-19": "本句的「bearish」指「看淡／看跌的」。",
+        "bear-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-19"
     },
@@ -1925,11 +1787,9 @@ export default {
       "masked": "The wheel ____ needs replacing.",
       "options": [
         "bear-mcq-24",
-        "bear-mcq-23",
-        "bear-mcq-22",
-        "bear-mcq-21",
-        "bear-mcq-20",
-        "bear-mcq-19"
+        "bear-mcq-15",
+        "bear-mcq-17",
+        "bear-mcq-14"
       ],
       "explanation": "本句的「bearing」指「軸承」。",
       "sentenceIndex": 51,
@@ -1938,12 +1798,10 @@ export default {
         "bearing"
       ],
       "optionReasons": {
-        "bear-mcq-24": "本句指「軸承」。",
-        "bear-mcq-23": "「與某事的關係或影響」與本句語境不同。",
-        "bear-mcq-22": "「儀態／舉止」與本句語境不同。",
-        "bear-mcq-21": "「方位／航向」與本句語境不同。",
-        "bear-mcq-20": "「可以忍受的／難以忍受的」與本句語境不同。",
-        "bear-mcq-19": "「看淡／看跌的」與本句語境不同。"
+        "bear-mcq-24": "本句的「bearing」指「軸承」。",
+        "bear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bear-mcq-24"
     }
@@ -1955,5 +1813,7 @@ export default {
     "sha256": "cbbaa6403359e48376441a672a4543295e9594e9072f1753766da142c90a16cf",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

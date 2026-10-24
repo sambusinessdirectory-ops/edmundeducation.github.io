@@ -679,7 +679,7 @@ export default {
     },
     {
       "id": "mark-pdf-001",
-      "title": "表示某個重要階段、變化或事件的開始、結束或意義",
+      "title": "某個重要階段、變化或事件的開始、結束或意義",
       "form": "14. mark（標誌着；代表某個重要時刻） — 標誌着",
       "en": "14. mark（標誌着；代表某個重要時刻） — 標誌着",
       "zh": "表示某個重要階段、變化或事件的開始、結束或意義",
@@ -753,11 +753,9 @@ export default {
       "masked": "There was a dark ____ on the wall.",
       "options": [
         "mark-mcq-01",
-        "mark-mcq-02",
-        "mark-mcq-03",
-        "mark-mcq-04",
-        "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-mcq-06",
+        "mark-mcq-10",
+        "mark-mcq-21"
       ],
       "explanation": "本句的「mark」指「痕跡；印記」。",
       "sentenceIndex": 0,
@@ -766,12 +764,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-01": "本句指「痕跡；印記」。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-01": "本句的「mark」指「痕跡；印記」。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-01"
     },
@@ -783,11 +779,9 @@ export default {
       "masked": "The cup left a ____ on the table.",
       "options": [
         "mark-mcq-01",
-        "mark-mcq-02",
-        "mark-mcq-03",
-        "mark-mcq-04",
-        "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-mcq-27",
+        "mark-mcq-21",
+        "mark-mcq-07"
       ],
       "explanation": "本句的「mark」指「痕跡；印記」。",
       "sentenceIndex": 1,
@@ -796,12 +790,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-01": "本句指「痕跡；印記」。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-01": "本句的「mark」指「痕跡；印記」。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-01"
     },
@@ -813,11 +805,9 @@ export default {
       "masked": "I couldn't remove the ____ from the shirt.",
       "options": [
         "mark-mcq-01",
-        "mark-mcq-02",
-        "mark-mcq-03",
-        "mark-mcq-04",
-        "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-mcq-17",
+        "mark-mcq-27",
+        "mark-mcq-29"
       ],
       "explanation": "本句的「mark」指「痕跡；印記」。",
       "sentenceIndex": 2,
@@ -826,12 +816,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-01": "本句指「痕跡；印記」。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-01": "本句的「mark」指「痕跡；印記」。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-01"
     },
@@ -843,11 +831,9 @@ export default {
       "masked": "The chair ____ on the floor.",
       "options": [
         "mark-mcq-02",
-        "mark-mcq-01",
-        "mark-mcq-03",
-        "mark-mcq-04",
+        "mark-mcq-28",
         "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-mcq-04"
       ],
       "explanation": "本句的「left a mark」指「留下痕跡」。",
       "sentenceIndex": 3,
@@ -856,12 +842,10 @@ export default {
         "left a mark"
       ],
       "optionReasons": {
-        "mark-mcq-02": "本句指「留下痕跡」。",
-        "mark-mcq-01": "「痕跡；印記」是「mark (physical)」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-02": "本句的「left a mark」指「留下痕跡」。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-02"
     },
@@ -873,11 +857,9 @@ export default {
       "masked": "The pen ____ on my hand.",
       "options": [
         "mark-mcq-02",
-        "mark-mcq-01",
-        "mark-mcq-03",
-        "mark-mcq-04",
-        "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-mcq-07",
+        "mark-mcq-18",
+        "mark-mcq-26"
       ],
       "explanation": "本句的「left a mark」指「留下痕跡」。",
       "sentenceIndex": 4,
@@ -886,12 +868,10 @@ export default {
         "left a mark"
       ],
       "optionReasons": {
-        "mark-mcq-02": "本句指「留下痕跡」。",
-        "mark-mcq-01": "「痕跡；印記」是「mark (physical)」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-02": "本句的「left a mark」指「留下痕跡」。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-02"
     },
@@ -903,11 +883,9 @@ export default {
       "masked": "A good gift should ____.",
       "options": [
         "mark-mcq-03",
-        "mark-mcq-02",
-        "mark-mcq-04",
-        "mark-mcq-01",
-        "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-mcq-19",
+        "mark-mcq-15",
+        "mark-mcq-04"
       ],
       "explanation": "本句的「leave a mark on someone's heart」指「留下深刻影響」。",
       "sentenceIndex": 5,
@@ -916,12 +894,10 @@ export default {
         "leave a mark on someone's heart"
       ],
       "optionReasons": {
-        "mark-mcq-03": "本句指「留下深刻影響」。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-01": "「痕跡；印記」是「mark (physical)」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-03": "本句的「leave a mark on someone's heart」指「留下深刻影響」。",
+        "mark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-03"
     },
@@ -933,11 +909,9 @@ export default {
       "masked": "Her kindness ____.",
       "options": [
         "mark-mcq-03",
-        "mark-mcq-02",
-        "mark-mcq-04",
-        "mark-mcq-01",
-        "mark-mcq-05",
-        "mark-mcq-06"
+        "mark-pdf-003",
+        "mark-mcq-24",
+        "mark-pdf-001"
       ],
       "explanation": "本句的「left a mark on me」指「留下深刻影響」。",
       "sentenceIndex": 6,
@@ -946,12 +920,10 @@ export default {
         "left a mark on me"
       ],
       "optionReasons": {
-        "mark-mcq-03": "本句指「留下深刻影響」。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-01": "「痕跡；印記」是「mark (physical)」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-03": "本句的「left a mark on me」指「留下深刻影響」。",
+        "mark-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-03"
     },
@@ -963,10 +935,8 @@ export default {
       "masked": "She quickly ____ in the industry.",
       "options": [
         "mark-mcq-04",
-        "mark-mcq-03",
-        "mark-mcq-05",
-        "mark-mcq-02",
-        "mark-mcq-06",
+        "mark-mcq-29",
+        "mark-mcq-17",
         "mark-mcq-01"
       ],
       "explanation": "本句的「made her mark」指「嶄露頭角」。",
@@ -976,12 +946,10 @@ export default {
         "made her mark"
       ],
       "optionReasons": {
-        "mark-mcq-04": "本句指「嶄露頭角」。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-01": "「痕跡；印記」是「mark (physical)」的用法，與本句語境不同。"
+        "mark-mcq-04": "本句的「made her mark」指「嶄露頭角」。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-04"
     },
@@ -993,11 +961,9 @@ export default {
       "masked": "He wants to ____ as a designer.",
       "options": [
         "mark-mcq-04",
-        "mark-mcq-03",
-        "mark-mcq-05",
-        "mark-mcq-02",
-        "mark-mcq-06",
-        "mark-mcq-01"
+        "mark-mcq-01",
+        "mark-mcq-07",
+        "mark-mcq-10"
       ],
       "explanation": "本句的「make his mark」指「嶄露頭角」。",
       "sentenceIndex": 8,
@@ -1006,12 +972,10 @@ export default {
         "make his mark"
       ],
       "optionReasons": {
-        "mark-mcq-04": "本句指「嶄露頭角」。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-01": "「痕跡；印記」是「mark (physical)」的用法，與本句語境不同。"
+        "mark-mcq-04": "本句的「make his mark」指「嶄露頭角」。",
+        "mark-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-04"
     },
@@ -1023,11 +987,9 @@ export default {
       "masked": "Put a ____ beside the correct answer.",
       "options": [
         "mark-mcq-05",
-        "mark-mcq-04",
-        "mark-mcq-06",
-        "mark-mcq-03",
-        "mark-mcq-07",
-        "mark-mcq-02"
+        "mark-mcq-24",
+        "mark-mcq-09",
+        "mark-mcq-15"
       ],
       "explanation": "本句的「mark」指「記號；標記」。",
       "sentenceIndex": 9,
@@ -1036,12 +998,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-05": "本句指「記號；標記」。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。"
+        "mark-mcq-05": "本句的「mark」指「記號；標記」。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-05"
     },
@@ -1053,10 +1013,8 @@ export default {
       "masked": "The map has a red ____ showing the location.",
       "options": [
         "mark-mcq-05",
-        "mark-mcq-04",
-        "mark-mcq-06",
-        "mark-mcq-03",
-        "mark-mcq-07",
+        "mark-mcq-27",
+        "mark-mcq-17",
         "mark-mcq-02"
       ],
       "explanation": "本句的「mark」指「記號；標記」。",
@@ -1066,12 +1024,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-05": "本句指「記號；標記」。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-02": "「留下痕跡」是「leave a mark」的用法，與本句語境不同。"
+        "mark-mcq-05": "本句的「mark」指「記號；標記」。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-05"
     },
@@ -1083,11 +1039,9 @@ export default {
       "masked": "Put a ____ at the end.",
       "options": [
         "mark-mcq-06",
-        "mark-mcq-05",
-        "mark-mcq-07",
-        "mark-mcq-04",
-        "mark-mcq-08",
-        "mark-mcq-03"
+        "mark-mcq-25",
+        "mark-mcq-28",
+        "mark-mcq-18"
       ],
       "explanation": "本句的「question mark」指「問號」。",
       "sentenceIndex": 11,
@@ -1096,12 +1050,10 @@ export default {
         "question mark"
       ],
       "optionReasons": {
-        "mark-mcq-06": "本句指「問號」。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。"
+        "mark-mcq-06": "本句的「question mark」指「問號」。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-06"
     },
@@ -1113,10 +1065,8 @@ export default {
       "masked": "The sentence ends with a ____.",
       "options": [
         "mark-mcq-06",
-        "mark-mcq-05",
-        "mark-mcq-07",
-        "mark-mcq-04",
-        "mark-mcq-08",
+        "mark-mcq-28",
+        "mark-mcq-14",
         "mark-mcq-03"
       ],
       "explanation": "本句的「question mark」指「問號」。",
@@ -1126,12 +1076,10 @@ export default {
         "question mark"
       ],
       "optionReasons": {
-        "mark-mcq-06": "本句指「問號」。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-03": "「留下深刻影響」是「leave a mark on someone」的用法，與本句語境不同。"
+        "mark-mcq-06": "本句的「question mark」指「問號」。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-06"
     },
@@ -1143,11 +1091,9 @@ export default {
       "masked": "Put the exact words inside ____.",
       "options": [
         "mark-mcq-07",
-        "mark-mcq-06",
-        "mark-mcq-08",
-        "mark-mcq-05",
         "mark-mcq-09",
-        "mark-mcq-04"
+        "mark-pdf-002",
+        "mark-pdf-001"
       ],
       "explanation": "本句的「quotation marks」指「引號」。",
       "sentenceIndex": 13,
@@ -1156,12 +1102,10 @@ export default {
         "quotation marks"
       ],
       "optionReasons": {
-        "mark-mcq-07": "本句指「引號」。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。"
+        "mark-mcq-07": "本句的「quotation marks」指「引號」。",
+        "mark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-07"
     },
@@ -1173,11 +1117,9 @@ export default {
       "masked": "The phrase appears in ____.",
       "options": [
         "mark-mcq-07",
-        "mark-mcq-06",
-        "mark-mcq-08",
-        "mark-mcq-05",
-        "mark-mcq-09",
-        "mark-mcq-04"
+        "mark-mcq-12",
+        "mark-mcq-21",
+        "mark-mcq-28"
       ],
       "explanation": "本句的「quotation marks」指「引號」。",
       "sentenceIndex": 14,
@@ -1186,12 +1128,10 @@ export default {
         "quotation marks"
       ],
       "optionReasons": {
-        "mark-mcq-07": "本句指「引號」。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。",
-        "mark-mcq-04": "「嶄露頭角」是「make your mark」的用法，與本句語境不同。"
+        "mark-mcq-07": "本句的「quotation marks」指「引號」。",
+        "mark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-07"
     },
@@ -1203,11 +1143,9 @@ export default {
       "masked": "I got a high ____ in the exam.",
       "options": [
         "mark-mcq-08",
-        "mark-mcq-07",
-        "mark-mcq-09",
-        "mark-mcq-06",
-        "mark-mcq-10",
-        "mark-mcq-05"
+        "mark-mcq-16",
+        "mark-mcq-20",
+        "mark-mcq-28"
       ],
       "explanation": "本句的「mark」指「分數；成績」。",
       "sentenceIndex": 15,
@@ -1216,12 +1154,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-08": "本句指「分數；成績」。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。"
+        "mark-mcq-08": "本句的「mark」指「分數；成績」。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-08"
     },
@@ -1233,11 +1169,9 @@ export default {
       "masked": "Her final ____ was 85%.",
       "options": [
         "mark-mcq-08",
-        "mark-mcq-07",
-        "mark-mcq-09",
+        "mark-pdf-001",
         "mark-mcq-06",
-        "mark-mcq-10",
-        "mark-mcq-05"
+        "mark-mcq-26"
       ],
       "explanation": "本句的「mark」指「分數；成績」。",
       "sentenceIndex": 16,
@@ -1246,12 +1180,10 @@ export default {
         "mark"
       ],
       "optionReasons": {
-        "mark-mcq-08": "本句指「分數；成績」。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。",
-        "mark-mcq-05": "「記號；標記」是「mark (symbol)」的用法，與本句語境不同。"
+        "mark-mcq-08": "本句的「mark」指「分數；成績」。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-08"
     },
@@ -1263,11 +1195,9 @@ export default {
       "masked": "She got ____.",
       "options": [
         "mark-mcq-09",
-        "mark-mcq-08",
-        "mark-mcq-10",
-        "mark-mcq-07",
-        "mark-mcq-11",
-        "mark-mcq-06"
+        "mark-mcq-17",
+        "mark-mcq-03",
+        "mark-mcq-25"
       ],
       "explanation": "本句的「full marks」指「滿分」。",
       "sentenceIndex": 17,
@@ -1276,12 +1206,10 @@ export default {
         "full marks"
       ],
       "optionReasons": {
-        "mark-mcq-09": "本句指「滿分」。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-09": "本句的「full marks」指「滿分」。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-09"
     },
@@ -1293,11 +1221,9 @@ export default {
       "masked": "Only one student received ____.",
       "options": [
         "mark-mcq-09",
-        "mark-mcq-08",
-        "mark-mcq-10",
-        "mark-mcq-07",
-        "mark-mcq-11",
-        "mark-mcq-06"
+        "mark-mcq-04",
+        "mark-mcq-17",
+        "mark-mcq-05"
       ],
       "explanation": "本句的「full marks」指「滿分」。",
       "sentenceIndex": 18,
@@ -1306,12 +1232,10 @@ export default {
         "full marks"
       ],
       "optionReasons": {
-        "mark-mcq-09": "本句指「滿分」。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-06": "「問號」是「question mark」的用法，與本句語境不同。"
+        "mark-mcq-09": "本句的「full marks」指「滿分」。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-09"
     },
@@ -1323,11 +1247,9 @@ export default {
       "masked": "The ____ is 50%.",
       "options": [
         "mark-mcq-10",
-        "mark-mcq-09",
-        "mark-mcq-11",
-        "mark-mcq-08",
+        "mark-mcq-27",
         "mark-mcq-12",
-        "mark-mcq-07"
+        "mark-pdf-003"
       ],
       "explanation": "本句的「pass mark」指「及格分數」。",
       "sentenceIndex": 19,
@@ -1336,12 +1258,10 @@ export default {
         "pass mark"
       ],
       "optionReasons": {
-        "mark-mcq-10": "本句指「及格分數」。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。"
+        "mark-mcq-10": "本句的「pass mark」指「及格分數」。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-10"
     },
@@ -1353,11 +1273,9 @@ export default {
       "masked": "He scored just above the ____.",
       "options": [
         "mark-mcq-10",
-        "mark-mcq-09",
-        "mark-mcq-11",
-        "mark-mcq-08",
-        "mark-mcq-12",
-        "mark-mcq-07"
+        "mark-pdf-001",
+        "mark-mcq-21",
+        "mark-mcq-01"
       ],
       "explanation": "本句的「pass mark」指「及格分數」。",
       "sentenceIndex": 20,
@@ -1366,12 +1284,10 @@ export default {
         "pass mark"
       ],
       "optionReasons": {
-        "mark-mcq-10": "本句指「及格分數」。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-08": "「分數；成績」是「mark (score)」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-07": "「引號」是「quotation marks」的用法，與本句語境不同。"
+        "mark-mcq-10": "本句的「pass mark」指「及格分數」。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-10"
     },
@@ -1383,11 +1299,9 @@ export default {
       "masked": "The teacher is ____.",
       "options": [
         "mark-mcq-29",
-        "mark-mcq-28",
-        "mark-mcq-27",
-        "mark-mcq-26",
-        "mark-mcq-25",
-        "mark-mcq-24"
+        "mark-mcq-15",
+        "mark-mcq-03",
+        "mark-mcq-28"
       ],
       "explanation": "本句的「marking our essays」指「檢查學生答案並給予分數或評語」。",
       "sentenceIndex": 21,
@@ -1396,12 +1310,10 @@ export default {
         "marking our essays"
       ],
       "optionReasons": {
-        "mark-mcq-29": "本句指「檢查學生答案並給予分數或評語」。",
-        "mark-mcq-28": "「各就各位」是「on your marks」的用法，與本句語境不同。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。"
+        "mark-mcq-29": "本句的「marking our essays」指「檢查學生答案並給予分數或評語」。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-29"
     },
@@ -1413,11 +1325,9 @@ export default {
       "masked": "It took her all evening to ____.",
       "options": [
         "mark-mcq-29",
+        "mark-mcq-19",
         "mark-mcq-28",
-        "mark-mcq-27",
-        "mark-mcq-26",
-        "mark-mcq-25",
-        "mark-mcq-24"
+        "mark-mcq-27"
       ],
       "explanation": "本句的「mark the tests」指「檢查學生答案並給予分數或評語」。",
       "sentenceIndex": 22,
@@ -1426,12 +1336,10 @@ export default {
         "mark the tests"
       ],
       "optionReasons": {
-        "mark-mcq-29": "本句指「檢查學生答案並給予分數或評語」。",
-        "mark-mcq-28": "「各就各位」是「on your marks」的用法，與本句語境不同。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。"
+        "mark-mcq-29": "本句的「mark the tests」指「檢查學生答案並給予分數或評語」。",
+        "mark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-29"
     },
@@ -1443,11 +1351,9 @@ export default {
       "masked": "____ with a tick.",
       "options": [
         "mark-mcq-12",
-        "mark-mcq-11",
-        "mark-mcq-13",
-        "mark-mcq-10",
-        "mark-mcq-14",
-        "mark-mcq-09"
+        "mark-mcq-04",
+        "mark-mcq-09",
+        "mark-mcq-16"
       ],
       "explanation": "本句的「Mark the correct answer」指「標記 X」。",
       "sentenceIndex": 23,
@@ -1456,12 +1362,10 @@ export default {
         "Mark the correct answer"
       ],
       "optionReasons": {
-        "mark-mcq-12": "本句指「標記 X」。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。"
+        "mark-mcq-12": "本句的「Mark the correct answer」指「標記 X」。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-12"
     },
@@ -1473,11 +1377,9 @@ export default {
       "masked": "The path is ____ with signs.",
       "options": [
         "mark-mcq-12",
-        "mark-mcq-11",
-        "mark-mcq-13",
-        "mark-mcq-10",
-        "mark-mcq-14",
-        "mark-mcq-09"
+        "mark-mcq-16",
+        "mark-mcq-24",
+        "mark-mcq-08"
       ],
       "explanation": "本句的「marked」指「標記 X」。",
       "sentenceIndex": 24,
@@ -1486,12 +1388,10 @@ export default {
         "marked"
       ],
       "optionReasons": {
-        "mark-mcq-12": "本句指「標記 X」。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-09": "「滿分」是「full marks」的用法，與本句語境不同。"
+        "mark-mcq-12": "本句的「marked」指「標記 X」。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-12"
     },
@@ -1503,11 +1403,9 @@ export default {
       "masked": "____.",
       "options": [
         "mark-mcq-13",
-        "mark-mcq-12",
-        "mark-mcq-14",
-        "mark-mcq-11",
-        "mark-mcq-15",
-        "mark-mcq-10"
+        "mark-mcq-10",
+        "mark-mcq-06",
+        "mark-mcq-03"
       ],
       "explanation": "本句的「Mark the box with your name」指「用 Y 標記 X」。",
       "sentenceIndex": 25,
@@ -1516,12 +1414,10 @@ export default {
         "Mark the box with your name"
       ],
       "optionReasons": {
-        "mark-mcq-13": "本句指「用 Y 標記 X」。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。"
+        "mark-mcq-13": "本句的「Mark the box with your name」指「用 Y 標記 X」。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-13"
     },
@@ -1533,11 +1429,9 @@ export default {
       "masked": "The dangerous area was ____.",
       "options": [
         "mark-mcq-13",
-        "mark-mcq-12",
-        "mark-mcq-14",
-        "mark-mcq-11",
         "mark-mcq-15",
-        "mark-mcq-10"
+        "mark-mcq-02",
+        "mark-mcq-24"
       ],
       "explanation": "本句的「marked with red tape」指「用 Y 標記 X」。",
       "sentenceIndex": 26,
@@ -1546,12 +1440,10 @@ export default {
         "marked with red tape"
       ],
       "optionReasons": {
-        "mark-mcq-13": "本句指「用 Y 標記 X」。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-10": "「及格分數」是「pass mark」的用法，與本句語境不同。"
+        "mark-mcq-13": "本句的「marked with red tape」指「用 Y 標記 X」。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-13"
     },
@@ -1563,11 +1455,9 @@ export default {
       "masked": "The event ____.",
       "options": [
         "mark-pdf-001",
-        "mark-mcq-13",
-        "mark-mcq-15",
-        "mark-mcq-12",
-        "mark-mcq-16",
-        "mark-mcq-11"
+        "mark-mcq-02",
+        "mark-mcq-08",
+        "mark-mcq-07"
       ],
       "explanation": "本句的「marked the beginning of a new era」指「表示某個重要階段、變化或事件的開始、結束或意義」。",
       "sentenceIndex": 27,
@@ -1576,12 +1466,10 @@ export default {
         "marked the beginning of a new era"
       ],
       "optionReasons": {
-        "mark-pdf-001": "本句指「表示某個重要階段、變化或事件的開始、結束或意義」。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。"
+        "mark-pdf-001": "本句的「marked the beginning of a new era」指「表示某個重要階段、變化或事件的開始、結束或意義」。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-pdf-001"
     },
@@ -1593,11 +1481,9 @@ export default {
       "masked": "Her graduation ____.",
       "options": [
         "mark-pdf-001",
-        "mark-mcq-13",
-        "mark-mcq-15",
         "mark-mcq-12",
-        "mark-mcq-16",
-        "mark-mcq-11"
+        "mark-mcq-09",
+        "mark-mcq-28"
       ],
       "explanation": "本句的「marked an important turning point」指「表示某個重要階段、變化或事件的開始、結束或意義」。",
       "sentenceIndex": 28,
@@ -1606,12 +1492,10 @@ export default {
         "marked an important turning point"
       ],
       "optionReasons": {
-        "mark-pdf-001": "本句指「表示某個重要階段、變化或事件的開始、結束或意義」。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。"
+        "mark-pdf-001": "本句的「marked an important turning point」指「表示某個重要階段、變化或事件的開始、結束或意義」。",
+        "mark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-pdf-001"
     },
@@ -1623,11 +1507,9 @@ export default {
       "masked": "The agreement ____.",
       "options": [
         "mark-mcq-14",
-        "mark-mcq-13",
-        "mark-mcq-15",
-        "mark-mcq-12",
-        "mark-mcq-16",
-        "mark-mcq-11"
+        "mark-mcq-02",
+        "mark-mcq-24",
+        "mark-mcq-20"
       ],
       "explanation": "本句的「marked the end of the dispute」指「標誌着開始／結束」。",
       "sentenceIndex": 29,
@@ -1636,12 +1518,10 @@ export default {
         "marked the end of the dispute"
       ],
       "optionReasons": {
-        "mark-mcq-14": "本句指「標誌着開始／結束」。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。"
+        "mark-mcq-14": "本句的「marked the end of the dispute」指「標誌着開始／結束」。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-14"
     },
@@ -1653,11 +1533,9 @@ export default {
       "masked": "September ____.",
       "options": [
         "mark-mcq-14",
-        "mark-mcq-13",
-        "mark-mcq-15",
-        "mark-mcq-12",
-        "mark-mcq-16",
-        "mark-mcq-11"
+        "mark-mcq-20",
+        "mark-mcq-22",
+        "mark-mcq-02"
       ],
       "explanation": "本句的「marks the beginning of the school year」指「標誌着開始／結束」。",
       "sentenceIndex": 30,
@@ -1666,12 +1544,10 @@ export default {
         "marks the beginning of the school year"
       ],
       "optionReasons": {
-        "mark-mcq-14": "本句指「標誌着開始／結束」。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-11": "「批改；評分」是「mark work」的用法，與本句語境不同。"
+        "mark-mcq-14": "本句的「marks the beginning of the school year」指「標誌着開始／結束」。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-14"
     },
@@ -1683,11 +1559,9 @@ export default {
       "masked": "They held a dinner to ____.",
       "options": [
         "mark-mcq-15",
-        "mark-mcq-14",
-        "mark-mcq-16",
-        "mark-mcq-13",
-        "mark-mcq-17",
-        "mark-mcq-12"
+        "mark-mcq-27",
+        "mark-mcq-06",
+        "mark-mcq-29"
       ],
       "explanation": "本句的「mark the occasion」指「紀念某場合」。",
       "sentenceIndex": 31,
@@ -1696,12 +1570,10 @@ export default {
         "mark the occasion"
       ],
       "optionReasons": {
-        "mark-mcq-15": "本句指「紀念某場合」。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。"
+        "mark-mcq-15": "本句的「mark the occasion」指「紀念某場合」。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-15"
     },
@@ -1713,11 +1585,9 @@ export default {
       "masked": "A ceremony was held to ____.",
       "options": [
         "mark-mcq-15",
-        "mark-mcq-14",
-        "mark-mcq-16",
-        "mark-mcq-13",
         "mark-mcq-17",
-        "mark-mcq-12"
+        "mark-mcq-19",
+        "mark-mcq-29"
       ],
       "explanation": "本句的「mark the anniversary」指「紀念某場合」。",
       "sentenceIndex": 32,
@@ -1726,12 +1596,10 @@ export default {
         "mark the anniversary"
       ],
       "optionReasons": {
-        "mark-mcq-15": "本句指「紀念某場合」。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。"
+        "mark-mcq-15": "本句的「mark the anniversary」指「紀念某場合」。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-15"
     },
@@ -1743,11 +1611,9 @@ export default {
       "masked": "The museum held an exhibition to ____.",
       "options": [
         "mark-pdf-002",
-        "mark-mcq-14",
-        "mark-mcq-16",
-        "mark-mcq-13",
-        "mark-mcq-17",
-        "mark-mcq-12"
+        "mark-mcq-09",
+        "mark-mcq-27",
+        "mark-mcq-07"
       ],
       "explanation": "本句的「mark its 50th anniversary」指「用活動或行動紀念某件事發生若干周年」。",
       "sentenceIndex": 33,
@@ -1756,12 +1622,10 @@ export default {
         "mark its 50th anniversary"
       ],
       "optionReasons": {
-        "mark-pdf-002": "本句指「用活動或行動紀念某件事發生若干周年」。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。"
+        "mark-pdf-002": "本句的「mark its 50th anniversary」指「用活動或行動紀念某件事發生若干周年」。",
+        "mark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-pdf-002"
     },
@@ -1773,11 +1637,9 @@ export default {
       "masked": "The event ____ since the project began.",
       "options": [
         "mark-pdf-002",
-        "mark-mcq-14",
-        "mark-mcq-16",
-        "mark-mcq-13",
         "mark-mcq-17",
-        "mark-mcq-12"
+        "mark-mcq-25",
+        "mark-mcq-02"
       ],
       "explanation": "本句的「marked ten years」指「用活動或行動紀念某件事發生若干周年」。",
       "sentenceIndex": 34,
@@ -1786,12 +1648,10 @@ export default {
         "marked ten years"
       ],
       "optionReasons": {
-        "mark-pdf-002": "本句指「用活動或行動紀念某件事發生若干周年」。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-12": "「標記 X」是「mark X」的用法，與本句語境不同。"
+        "mark-pdf-002": "本句的「marked ten years」指「用活動或行動紀念某件事發生若干周年」。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-pdf-002"
     },
@@ -1803,11 +1663,9 @@ export default {
       "masked": "There was a ____ in her performance.",
       "options": [
         "mark-mcq-16",
-        "mark-mcq-15",
-        "mark-mcq-17",
-        "mark-mcq-14",
-        "mark-mcq-18",
-        "mark-mcq-13"
+        "mark-mcq-22",
+        "mark-mcq-28",
+        "mark-mcq-15"
       ],
       "explanation": "本句的「marked improvement」指「顯著的；明顯的」。",
       "sentenceIndex": 35,
@@ -1816,12 +1674,10 @@ export default {
         "marked improvement"
       ],
       "optionReasons": {
-        "mark-mcq-16": "本句指「顯著的；明顯的」。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。"
+        "mark-mcq-16": "本句的「marked improvement」指「顯著的；明顯的」。",
+        "mark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-16"
     },
@@ -1833,11 +1689,9 @@ export default {
       "masked": "The two groups showed ____.",
       "options": [
         "mark-mcq-16",
-        "mark-mcq-15",
-        "mark-mcq-17",
-        "mark-mcq-14",
-        "mark-mcq-18",
-        "mark-mcq-13"
+        "mark-mcq-29",
+        "mark-mcq-25",
+        "mark-mcq-04"
       ],
       "explanation": "本句的「marked differences」指「顯著的；明顯的」。",
       "sentenceIndex": 36,
@@ -1846,12 +1700,10 @@ export default {
         "marked differences"
       ],
       "optionReasons": {
-        "mark-mcq-16": "本句指「顯著的；明顯的」。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-13": "「用 Y 標記 X」是「mark X with Y」的用法，與本句語境不同。"
+        "mark-mcq-16": "本句的「marked differences」指「顯著的；明顯的」。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-16"
     },
@@ -1863,11 +1715,9 @@ export default {
       "masked": "Her results improved ____.",
       "options": [
         "mark-mcq-17",
-        "mark-mcq-16",
-        "mark-mcq-18",
-        "mark-mcq-15",
+        "mark-mcq-08",
         "mark-mcq-19",
-        "mark-mcq-14"
+        "mark-mcq-23"
       ],
       "explanation": "本句的「markedly」指「顯著地」。",
       "sentenceIndex": 37,
@@ -1876,12 +1726,10 @@ export default {
         "markedly"
       ],
       "optionReasons": {
-        "mark-mcq-17": "本句指「顯著地」。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。"
+        "mark-mcq-17": "本句的「markedly」指「顯著地」。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-17"
     },
@@ -1893,11 +1741,9 @@ export default {
       "masked": "The two versions differ ____.",
       "options": [
         "mark-mcq-17",
-        "mark-mcq-16",
-        "mark-mcq-18",
-        "mark-mcq-15",
-        "mark-mcq-19",
-        "mark-mcq-14"
+        "mark-mcq-20",
+        "mark-mcq-02",
+        "mark-mcq-26"
       ],
       "explanation": "本句的「markedly」指「顯著地」。",
       "sentenceIndex": 38,
@@ -1906,12 +1752,10 @@ export default {
         "markedly"
       ],
       "optionReasons": {
-        "mark-mcq-17": "本句指「顯著地」。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-14": "「標誌着開始／結束」是「mark the beginning/end」的用法，與本句語境不同。"
+        "mark-mcq-17": "本句的「markedly」指「顯著地」。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-17"
     },
@@ -1923,11 +1767,9 @@ export default {
       "masked": "The bird has white ____ on its wings.",
       "options": [
         "mark-pdf-003",
-        "mark-mcq-17",
-        "mark-mcq-19",
-        "mark-mcq-16",
-        "mark-mcq-20",
-        "mark-mcq-15"
+        "mark-mcq-04",
+        "mark-mcq-15",
+        "mark-mcq-09"
       ],
       "explanation": "本句的「markings」指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
       "sentenceIndex": 39,
@@ -1936,12 +1778,10 @@ export default {
         "markings"
       ],
       "optionReasons": {
-        "mark-pdf-003": "本句指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。"
+        "mark-pdf-003": "本句的「markings」指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-pdf-003"
     },
@@ -1953,11 +1793,9 @@ export default {
       "masked": "Road ____ were difficult to see in the rain.",
       "options": [
         "mark-pdf-003",
-        "mark-mcq-17",
-        "mark-mcq-19",
-        "mark-mcq-16",
-        "mark-mcq-20",
-        "mark-mcq-15"
+        "mark-mcq-03",
+        "mark-mcq-24",
+        "mark-mcq-28"
       ],
       "explanation": "本句的「markings」指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
       "sentenceIndex": 40,
@@ -1966,12 +1804,10 @@ export default {
         "markings"
       ],
       "optionReasons": {
-        "mark-pdf-003": "本句指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。"
+        "mark-pdf-003": "本句的「markings」指「可用來識別、指示或形成圖案的線條、斑紋或符號」。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-pdf-003"
     },
@@ -1983,11 +1819,9 @@ export default {
       "masked": "Drivers must follow the ____.",
       "options": [
         "mark-mcq-18",
-        "mark-mcq-17",
-        "mark-mcq-19",
-        "mark-mcq-16",
-        "mark-mcq-20",
-        "mark-mcq-15"
+        "mark-pdf-001",
+        "mark-mcq-27",
+        "mark-mcq-07"
       ],
       "explanation": "本句的「road markings」指「標線；斑紋」。",
       "sentenceIndex": 41,
@@ -1996,12 +1830,10 @@ export default {
         "road markings"
       ],
       "optionReasons": {
-        "mark-mcq-18": "本句指「標線；斑紋」。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。"
+        "mark-mcq-18": "本句的「road markings」指「標線；斑紋」。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-18"
     },
@@ -2013,11 +1845,9 @@ export default {
       "masked": "The faded ____ were repainted.",
       "options": [
         "mark-mcq-18",
-        "mark-mcq-17",
-        "mark-mcq-19",
-        "mark-mcq-16",
         "mark-mcq-20",
-        "mark-mcq-15"
+        "mark-mcq-10",
+        "mark-mcq-16"
       ],
       "explanation": "本句的「road markings」指「標線；斑紋」。",
       "sentenceIndex": 42,
@@ -2026,12 +1856,10 @@ export default {
         "road markings"
       ],
       "optionReasons": {
-        "mark-mcq-18": "本句指「標線；斑紋」。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-15": "「紀念某場合」是「mark an occasion」的用法，與本句語境不同。"
+        "mark-mcq-18": "本句的「road markings」指「標線；斑紋」。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-18"
     },
@@ -2043,11 +1871,9 @@ export default {
       "masked": "The stone acts as a boundary ____.",
       "options": [
         "mark-mcq-19",
-        "mark-mcq-18",
-        "mark-mcq-20",
-        "mark-mcq-17",
+        "mark-pdf-001",
         "mark-mcq-21",
-        "mark-mcq-16"
+        "mark-mcq-04"
       ],
       "explanation": "本句的「marker」指「標記物；指標」。",
       "sentenceIndex": 43,
@@ -2056,12 +1882,10 @@ export default {
         "marker"
       ],
       "optionReasons": {
-        "mark-mcq-19": "本句指「標記物；指標」。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。"
+        "mark-mcq-19": "本句的「marker」指「標記物；指標」。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-19"
     },
@@ -2073,11 +1897,9 @@ export default {
       "masked": "High blood pressure can be a ____ of health risk.",
       "options": [
         "mark-mcq-19",
-        "mark-mcq-18",
-        "mark-mcq-20",
-        "mark-mcq-17",
         "mark-mcq-21",
-        "mark-mcq-16"
+        "mark-mcq-03",
+        "mark-mcq-29"
       ],
       "explanation": "本句的「marker」指「標記物；指標」。",
       "sentenceIndex": 44,
@@ -2086,12 +1908,10 @@ export default {
         "marker"
       ],
       "optionReasons": {
-        "mark-mcq-19": "本句指「標記物；指標」。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。"
+        "mark-mcq-19": "本句的「marker」指「標記物；指標」。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-19"
     },
@@ -2103,11 +1923,9 @@ export default {
       "masked": "Write your name with a black ____.",
       "options": [
         "mark-mcq-20",
-        "mark-mcq-19",
-        "mark-mcq-21",
-        "mark-mcq-18",
-        "mark-mcq-22",
-        "mark-mcq-17"
+        "mark-mcq-15",
+        "mark-mcq-10",
+        "mark-mcq-18"
       ],
       "explanation": "本句的「marker」指「記號筆」。",
       "sentenceIndex": 45,
@@ -2116,12 +1934,10 @@ export default {
         "marker"
       ],
       "optionReasons": {
-        "mark-mcq-20": "本句指「記號筆」。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。"
+        "mark-mcq-20": "本句的「marker」指「記號筆」。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-20"
     },
@@ -2133,11 +1949,9 @@ export default {
       "masked": "The teacher used a red ____.",
       "options": [
         "mark-mcq-20",
-        "mark-mcq-19",
-        "mark-mcq-21",
-        "mark-mcq-18",
-        "mark-mcq-22",
-        "mark-mcq-17"
+        "mark-mcq-14",
+        "mark-mcq-29",
+        "mark-mcq-16"
       ],
       "explanation": "本句的「marker pen」指「記號筆」。",
       "sentenceIndex": 46,
@@ -2146,12 +1960,10 @@ export default {
         "marker pen"
       ],
       "optionReasons": {
-        "mark-mcq-20": "本句指「記號筆」。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。"
+        "mark-mcq-20": "本句的「marker pen」指「記號筆」。",
+        "mark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-20"
     },
@@ -2163,11 +1975,9 @@ export default {
       "masked": "The test looks for biological ____.",
       "options": [
         "mark-mcq-19",
-        "mark-mcq-18",
-        "mark-mcq-20",
-        "mark-mcq-17",
-        "mark-mcq-21",
-        "mark-mcq-16"
+        "mark-mcq-24",
+        "mark-mcq-16",
+        "mark-mcq-15"
       ],
       "explanation": "本句的「markers」指「標記物；指標」。",
       "sentenceIndex": 47,
@@ -2176,12 +1986,10 @@ export default {
         "markers"
       ],
       "optionReasons": {
-        "mark-mcq-19": "本句指「標記物；指標」。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。"
+        "mark-mcq-19": "本句的「markers」指「標記物；指標」。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-19"
     },
@@ -2193,11 +2001,9 @@ export default {
       "masked": "Attendance can be a useful ____ of engagement.",
       "options": [
         "mark-mcq-19",
-        "mark-mcq-18",
-        "mark-mcq-20",
+        "mark-mcq-03",
         "mark-mcq-17",
-        "mark-mcq-21",
-        "mark-mcq-16"
+        "mark-mcq-08"
       ],
       "explanation": "本句的「marker」指「標記物；指標」。",
       "sentenceIndex": 48,
@@ -2206,12 +2012,10 @@ export default {
         "marker"
       ],
       "optionReasons": {
-        "mark-mcq-19": "本句指「標記物；指標」。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-17": "「顯著地」是「markedly」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-16": "「顯著的；明顯的」是「marked」的用法，與本句語境不同。"
+        "mark-mcq-19": "本句的「marker」指「標記物；指標」。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-19"
     },
@@ -2224,9 +2028,7 @@ export default {
       "options": [
         "mark-mcq-21",
         "mark-mcq-20",
-        "mark-mcq-22",
-        "mark-mcq-19",
-        "mark-mcq-23",
+        "mark-mcq-10",
         "mark-mcq-18"
       ],
       "explanation": "本句的「marked out」指「劃出／顯出」。",
@@ -2236,12 +2038,10 @@ export default {
         "marked out"
       ],
       "optionReasons": {
-        "mark-mcq-21": "本句指「劃出／顯出」。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。"
+        "mark-mcq-21": "本句的「marked out」指「劃出／顯出」。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-21"
     },
@@ -2253,11 +2053,9 @@ export default {
       "masked": "Workers ____ the new path.",
       "options": [
         "mark-mcq-21",
-        "mark-mcq-20",
-        "mark-mcq-22",
-        "mark-mcq-19",
-        "mark-mcq-23",
-        "mark-mcq-18"
+        "mark-pdf-003",
+        "mark-mcq-02",
+        "mark-mcq-10"
       ],
       "explanation": "本句的「marked out」指「劃出／顯出」。",
       "sentenceIndex": 50,
@@ -2266,12 +2064,10 @@ export default {
         "marked out"
       ],
       "optionReasons": {
-        "mark-mcq-21": "本句指「劃出／顯出」。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。"
+        "mark-mcq-21": "本句的「marked out」指「劃出／顯出」。",
+        "mark-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-21"
     },
@@ -2283,11 +2079,9 @@ export default {
       "masked": "Her calmness ____.",
       "options": [
         "mark-mcq-21",
-        "mark-mcq-20",
-        "mark-mcq-22",
-        "mark-mcq-19",
-        "mark-mcq-23",
-        "mark-mcq-18"
+        "mark-pdf-001",
+        "mark-mcq-26",
+        "mark-mcq-03"
       ],
       "explanation": "本句的「marked her out as a strong leader」指「劃出／顯出」。",
       "sentenceIndex": 51,
@@ -2296,12 +2090,10 @@ export default {
         "marked her out as a strong leader"
       ],
       "optionReasons": {
-        "mark-mcq-21": "本句指「劃出／顯出」。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。"
+        "mark-mcq-21": "本句的「marked her out as a strong leader」指「劃出／顯出」。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-21"
     },
@@ -2313,11 +2105,9 @@ export default {
       "masked": "His creativity ____.",
       "options": [
         "mark-mcq-21",
-        "mark-mcq-20",
-        "mark-mcq-22",
-        "mark-mcq-19",
-        "mark-mcq-23",
-        "mark-mcq-18"
+        "mark-mcq-14",
+        "mark-mcq-10",
+        "mark-mcq-15"
       ],
       "explanation": "本句的「marked him out from the others」指「劃出／顯出」。",
       "sentenceIndex": 52,
@@ -2326,12 +2116,10 @@ export default {
         "marked him out from the others"
       ],
       "optionReasons": {
-        "mark-mcq-21": "本句指「劃出／顯出」。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-18": "「標線；斑紋」是「markings」的用法，與本句語境不同。"
+        "mark-mcq-21": "本句的「marked him out from the others」指「劃出／顯出」。",
+        "mark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-21"
     },
@@ -2343,11 +2131,9 @@ export default {
       "masked": "The seats were ____ with tape.",
       "options": [
         "mark-mcq-22",
-        "mark-mcq-21",
-        "mark-mcq-23",
-        "mark-mcq-20",
         "mark-mcq-24",
-        "mark-mcq-19"
+        "mark-mcq-15",
+        "mark-pdf-003"
       ],
       "explanation": "本句的「marked off」指「劃分」。",
       "sentenceIndex": 53,
@@ -2356,12 +2142,10 @@ export default {
         "marked off"
       ],
       "optionReasons": {
-        "mark-mcq-22": "本句指「劃分」。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。"
+        "mark-mcq-22": "本句的「marked off」指「劃分」。",
+        "mark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-22"
     },
@@ -2373,11 +2157,9 @@ export default {
       "masked": "They ____ a safe area for children.",
       "options": [
         "mark-mcq-22",
-        "mark-mcq-21",
-        "mark-mcq-23",
-        "mark-mcq-20",
-        "mark-mcq-24",
-        "mark-mcq-19"
+        "mark-mcq-16",
+        "mark-pdf-003",
+        "mark-mcq-03"
       ],
       "explanation": "本句的「marked off」指「劃分」。",
       "sentenceIndex": 54,
@@ -2386,12 +2168,10 @@ export default {
         "marked off"
       ],
       "optionReasons": {
-        "mark-mcq-22": "本句指「劃分」。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-19": "「標記物；指標」是「marker」的用法，與本句語境不同。"
+        "mark-mcq-22": "本句的「marked off」指「劃分」。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-22"
     },
@@ -2403,11 +2183,9 @@ export default {
       "masked": "The jacket was ____ by 30%.",
       "options": [
         "mark-mcq-23",
-        "mark-mcq-22",
-        "mark-mcq-24",
-        "mark-mcq-21",
         "mark-mcq-25",
-        "mark-mcq-20"
+        "mark-mcq-14",
+        "mark-mcq-16"
       ],
       "explanation": "本句的「marked down」指「減價／扣分」。",
       "sentenceIndex": 55,
@@ -2416,12 +2194,10 @@ export default {
         "marked down"
       ],
       "optionReasons": {
-        "mark-mcq-23": "本句指「減價／扣分」。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。"
+        "mark-mcq-23": "本句的「marked down」指「減價／扣分」。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-23"
     },
@@ -2433,11 +2209,9 @@ export default {
       "masked": "Stores often ____ seasonal goods.",
       "options": [
         "mark-mcq-23",
-        "mark-mcq-22",
-        "mark-mcq-24",
-        "mark-mcq-21",
-        "mark-mcq-25",
-        "mark-mcq-20"
+        "mark-mcq-19",
+        "mark-mcq-06",
+        "mark-mcq-28"
       ],
       "explanation": "本句的「mark down」指「減價／扣分」。",
       "sentenceIndex": 56,
@@ -2446,12 +2220,10 @@ export default {
         "mark down"
       ],
       "optionReasons": {
-        "mark-mcq-23": "本句指「減價／扣分」。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。"
+        "mark-mcq-23": "本句的「mark down」指「減價／扣分」。",
+        "mark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-23"
     },
@@ -2463,11 +2235,9 @@ export default {
       "masked": "You may be ____ for poor grammar.",
       "options": [
         "mark-mcq-23",
-        "mark-mcq-22",
-        "mark-mcq-24",
-        "mark-mcq-21",
-        "mark-mcq-25",
-        "mark-mcq-20"
+        "mark-mcq-02",
+        "mark-mcq-07",
+        "mark-pdf-001"
       ],
       "explanation": "本句的「marked down」指「減價／扣分」。",
       "sentenceIndex": 57,
@@ -2476,12 +2246,10 @@ export default {
         "marked down"
       ],
       "optionReasons": {
-        "mark-mcq-23": "本句指「減價／扣分」。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。"
+        "mark-mcq-23": "本句的「marked down」指「減價／扣分」。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-23"
     },
@@ -2493,11 +2261,9 @@ export default {
       "masked": "The examiner ____ for missing the final part.",
       "options": [
         "mark-mcq-23",
-        "mark-mcq-22",
-        "mark-mcq-24",
-        "mark-mcq-21",
-        "mark-mcq-25",
-        "mark-mcq-20"
+        "mark-mcq-13",
+        "mark-pdf-002",
+        "mark-mcq-06"
       ],
       "explanation": "本句的「marked him down」指「減價／扣分」。",
       "sentenceIndex": 58,
@@ -2506,12 +2272,10 @@ export default {
         "marked him down"
       ],
       "optionReasons": {
-        "mark-mcq-23": "本句指「減價／扣分」。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-20": "「記號筆」是「marker pen」的用法，與本句語境不同。"
+        "mark-mcq-23": "本句的「marked him down」指「減價／扣分」。",
+        "mark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-23"
     },
@@ -2523,11 +2287,9 @@ export default {
       "masked": "Retailers ____ the price before selling the product.",
       "options": [
         "mark-mcq-24",
-        "mark-mcq-23",
-        "mark-mcq-25",
-        "mark-mcq-22",
-        "mark-mcq-26",
-        "mark-mcq-21"
+        "mark-mcq-03",
+        "mark-mcq-14",
+        "mark-mcq-15"
       ],
       "explanation": "本句的「mark up」指「加價／加註」。",
       "sentenceIndex": 59,
@@ -2536,12 +2298,10 @@ export default {
         "mark up"
       ],
       "optionReasons": {
-        "mark-mcq-24": "本句指「加價／加註」。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。"
+        "mark-mcq-24": "本句的「mark up」指「加價／加註」。",
+        "mark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-24"
     },
@@ -2553,11 +2313,9 @@ export default {
       "masked": "The item was ____ considerably.",
       "options": [
         "mark-mcq-24",
-        "mark-mcq-23",
-        "mark-mcq-25",
-        "mark-mcq-22",
-        "mark-mcq-26",
-        "mark-mcq-21"
+        "mark-mcq-29",
+        "mark-mcq-05",
+        "mark-mcq-04"
       ],
       "explanation": "本句的「marked up」指「加價／加註」。",
       "sentenceIndex": 60,
@@ -2566,12 +2324,10 @@ export default {
         "marked up"
       ],
       "optionReasons": {
-        "mark-mcq-24": "本句指「加價／加註」。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。"
+        "mark-mcq-24": "本句的「marked up」指「加價／加註」。",
+        "mark-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-24"
     },
@@ -2583,11 +2339,9 @@ export default {
       "masked": "The retailer added a 20% ____.",
       "options": [
         "mark-mcq-24",
-        "mark-mcq-23",
-        "mark-mcq-25",
-        "mark-mcq-22",
-        "mark-mcq-26",
-        "mark-mcq-21"
+        "mark-mcq-20",
+        "mark-mcq-08",
+        "mark-mcq-17"
       ],
       "explanation": "本句的「markup」指「加價／加註」。",
       "sentenceIndex": 61,
@@ -2596,12 +2350,10 @@ export default {
         "markup"
       ],
       "optionReasons": {
-        "mark-mcq-24": "本句指「加價／加註」。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。"
+        "mark-mcq-24": "本句的「markup」指「加價／加註」。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-24"
     },
@@ -2613,11 +2365,9 @@ export default {
       "masked": "The editor returned the document with ____.",
       "options": [
         "mark-mcq-24",
-        "mark-mcq-23",
         "mark-mcq-25",
-        "mark-mcq-22",
-        "mark-mcq-26",
-        "mark-mcq-21"
+        "mark-mcq-18",
+        "mark-mcq-22"
       ],
       "explanation": "本句的「markup」指「加價／加註」。",
       "sentenceIndex": 62,
@@ -2626,12 +2376,10 @@ export default {
         "markup"
       ],
       "optionReasons": {
-        "mark-mcq-24": "本句指「加價／加註」。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-21": "「劃出／顯出」是「mark out」的用法，與本句語境不同。"
+        "mark-mcq-24": "本句的「markup」指「加價／加註」。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-24"
     },
@@ -2643,11 +2391,9 @@ export default {
       "masked": "She has a small ____ on her arm.",
       "options": [
         "mark-mcq-25",
-        "mark-mcq-24",
-        "mark-mcq-26",
-        "mark-mcq-23",
-        "mark-mcq-27",
-        "mark-mcq-22"
+        "mark-mcq-07",
+        "mark-mcq-10",
+        "mark-mcq-21"
       ],
       "explanation": "本句的「birthmark」指「胎記」。",
       "sentenceIndex": 63,
@@ -2656,12 +2402,10 @@ export default {
         "birthmark"
       ],
       "optionReasons": {
-        "mark-mcq-25": "本句指「胎記」。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。"
+        "mark-mcq-25": "本句的「birthmark」指「胎記」。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-25"
     },
@@ -2673,11 +2417,9 @@ export default {
       "masked": "The ____ has been there since birth.",
       "options": [
         "mark-mcq-25",
-        "mark-mcq-24",
-        "mark-mcq-26",
         "mark-mcq-23",
-        "mark-mcq-27",
-        "mark-mcq-22"
+        "mark-mcq-07",
+        "mark-mcq-18"
       ],
       "explanation": "本句的「birthmark」指「胎記」。",
       "sentenceIndex": 64,
@@ -2686,12 +2428,10 @@ export default {
         "birthmark"
       ],
       "optionReasons": {
-        "mark-mcq-25": "本句指「胎記」。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-22": "「劃分」是「mark off」的用法，與本句語境不同。"
+        "mark-mcq-25": "本句的「birthmark」指「胎記」。",
+        "mark-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-25"
     },
@@ -2704,10 +2444,8 @@ export default {
       "options": [
         "mark-mcq-26",
         "mark-mcq-25",
-        "mark-mcq-27",
-        "mark-mcq-24",
-        "mark-mcq-28",
-        "mark-mcq-23"
+        "mark-pdf-003",
+        "mark-mcq-08"
       ],
       "explanation": "本句的「trademark」指「商標／標誌性特色」。",
       "sentenceIndex": 65,
@@ -2716,12 +2454,10 @@ export default {
         "trademark"
       ],
       "optionReasons": {
-        "mark-mcq-26": "本句指「商標／標誌性特色」。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-28": "「各就各位」是「on your marks」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。"
+        "mark-mcq-26": "本句的「trademark」指「商標／標誌性特色」。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-26"
     },
@@ -2733,11 +2469,9 @@ export default {
       "masked": "Humour became his ____.",
       "options": [
         "mark-mcq-26",
-        "mark-mcq-25",
-        "mark-mcq-27",
-        "mark-mcq-24",
+        "mark-mcq-02",
         "mark-mcq-28",
-        "mark-mcq-23"
+        "mark-mcq-06"
       ],
       "explanation": "本句的「trademark」指「商標／標誌性特色」。",
       "sentenceIndex": 66,
@@ -2746,12 +2480,10 @@ export default {
         "trademark"
       ],
       "optionReasons": {
-        "mark-mcq-26": "本句指「商標／標誌性特色」。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。",
-        "mark-mcq-28": "「各就各位」是「on your marks」的用法，與本句語境不同。",
-        "mark-mcq-23": "「減價／扣分」是「mark down」的用法，與本句語境不同。"
+        "mark-mcq-26": "本句的「trademark」指「商標／標誌性特色」。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-26"
     },
@@ -2763,11 +2495,9 @@ export default {
       "masked": "The wall shows the river's ____.",
       "options": [
         "mark-mcq-27",
-        "mark-mcq-26",
-        "mark-mcq-28",
-        "mark-mcq-25",
-        "mark-mcq-29",
-        "mark-mcq-24"
+        "mark-mcq-04",
+        "mark-mcq-19",
+        "mark-mcq-08"
       ],
       "explanation": "本句的「high-water mark」指「最高點」。",
       "sentenceIndex": 67,
@@ -2776,12 +2506,10 @@ export default {
         "high-water mark"
       ],
       "optionReasons": {
-        "mark-mcq-27": "本句指「最高點」。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-28": "「各就各位」是「on your marks」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-29": "「檢查學生答案並給予分數或評語」是「11. mark something（批改；評分） — 批改；打分」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。"
+        "mark-mcq-27": "本句的「high-water mark」指「最高點」。",
+        "mark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-27"
     },
@@ -2793,11 +2521,9 @@ export default {
       "masked": "That achievement was the ____ of his career.",
       "options": [
         "mark-mcq-27",
-        "mark-mcq-26",
-        "mark-mcq-28",
         "mark-mcq-25",
-        "mark-mcq-29",
-        "mark-mcq-24"
+        "mark-mcq-06",
+        "mark-mcq-23"
       ],
       "explanation": "本句的「high-water mark」指「最高點」。",
       "sentenceIndex": 68,
@@ -2806,12 +2532,10 @@ export default {
         "high-water mark"
       ],
       "optionReasons": {
-        "mark-mcq-27": "本句指「最高點」。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-28": "「各就各位」是「on your marks」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-29": "「檢查學生答案並給予分數或評語」是「11. mark something（批改；評分） — 批改；打分」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。"
+        "mark-mcq-27": "本句的「high-water mark」指「最高點」。",
+        "mark-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-27"
     },
@@ -2823,11 +2547,9 @@ export default {
       "masked": "____",
       "options": [
         "mark-mcq-28",
-        "mark-mcq-27",
-        "mark-mcq-29",
-        "mark-mcq-26",
-        "mark-mcq-25",
-        "mark-mcq-24"
+        "mark-mcq-02",
+        "mark-mcq-20",
+        "mark-mcq-23"
       ],
       "explanation": "本句的「On your marks, get set, go!」指「各就各位」。",
       "sentenceIndex": 69,
@@ -2836,12 +2558,10 @@ export default {
         "On your marks, get set, go!"
       ],
       "optionReasons": {
-        "mark-mcq-28": "本句指「各就各位」。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-29": "「檢查學生答案並給予分數或評語」是「11. mark something（批改；評分） — 批改；打分」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。"
+        "mark-mcq-28": "本句的「On your marks, get set, go!」指「各就各位」。",
+        "mark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-28"
     },
@@ -2853,11 +2573,9 @@ export default {
       "masked": "The runners moved to the line when they heard “____.",
       "options": [
         "mark-mcq-28",
-        "mark-mcq-27",
-        "mark-mcq-29",
-        "mark-mcq-26",
-        "mark-mcq-25",
-        "mark-mcq-24"
+        "mark-mcq-18",
+        "mark-mcq-16",
+        "mark-pdf-001"
       ],
       "explanation": "本句的「On your marks」指「各就各位」。",
       "sentenceIndex": 70,
@@ -2866,12 +2584,10 @@ export default {
         "On your marks"
       ],
       "optionReasons": {
-        "mark-mcq-28": "本句指「各就各位」。",
-        "mark-mcq-27": "「最高點」是「high-water mark」的用法，與本句語境不同。",
-        "mark-mcq-29": "「檢查學生答案並給予分數或評語」是「11. mark something（批改；評分） — 批改；打分」的用法，與本句語境不同。",
-        "mark-mcq-26": "「商標／標誌性特色」是「trademark」的用法，與本句語境不同。",
-        "mark-mcq-25": "「胎記」是「birthmark」的用法，與本句語境不同。",
-        "mark-mcq-24": "「加價／加註」是「mark up」的用法，與本句語境不同。"
+        "mark-mcq-28": "本句的「On your marks」指「各就各位」。",
+        "mark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "mark-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mark-mcq-28"
     }
@@ -2883,5 +2599,7 @@ export default {
     "sha256": "2f73439a25eabb5a4f9a9304bcbf16676be82895640d51d7f569f8e9db7fdb7c",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

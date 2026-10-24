@@ -627,7 +627,7 @@ export default {
     },
     {
       "id": "matter-mcq-29",
-      "title": "表示某個變項無論怎樣改變，主要結果都不受影響",
+      "title": "某個變項無論怎樣改變，主要結果都不受影響",
       "form": "30. no matter who / where / when / how — 無論誰／哪裏／何時／怎樣",
       "en": "30. no matter who / where / when / how — 無論誰／哪裏／何時／怎樣",
       "zh": "表示某個變項無論怎樣改變，主要結果都不受影響",
@@ -723,11 +723,9 @@ export default {
       "masked": "That part ____.",
       "options": [
         "matter-mcq-01",
-        "matter-mcq-02",
-        "matter-mcq-03",
-        "matter-mcq-04",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-08",
+        "matter-mcq-24",
+        "matter-pdf-002"
       ],
       "explanation": "本句的「mattered a lot to me」指「重要；要緊」。",
       "sentenceIndex": 0,
@@ -736,12 +734,10 @@ export default {
         "mattered a lot to me"
       ],
       "optionReasons": {
-        "matter-mcq-01": "本句指「重要；要緊」。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-01": "本句的「mattered a lot to me」指「重要；要緊」。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-01"
     },
@@ -753,11 +749,9 @@ export default {
       "masked": "What you say really ____.",
       "options": [
         "matter-mcq-01",
-        "matter-mcq-02",
-        "matter-mcq-03",
-        "matter-mcq-04",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-23",
+        "matter-mcq-14",
+        "matter-mcq-15"
       ],
       "explanation": "本句的「matters」指「重要；要緊」。",
       "sentenceIndex": 1,
@@ -766,12 +760,10 @@ export default {
         "matters"
       ],
       "optionReasons": {
-        "matter-mcq-01": "本句指「重要；要緊」。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-01": "本句的「matters」指「重要；要緊」。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-01"
     },
@@ -783,11 +775,9 @@ export default {
       "masked": "Small details can ____.",
       "options": [
         "matter-mcq-01",
-        "matter-mcq-02",
-        "matter-mcq-03",
-        "matter-mcq-04",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-22",
+        "matter-mcq-26",
+        "matter-mcq-19"
       ],
       "explanation": "本句的「matter」指「重要；要緊」。",
       "sentenceIndex": 2,
@@ -796,12 +786,10 @@ export default {
         "matter"
       ],
       "optionReasons": {
-        "matter-mcq-01": "本句指「重要；要緊」。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-01": "本句的「matter」指「重要；要緊」。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-01"
     },
@@ -813,11 +801,9 @@ export default {
       "masked": "Your opinion ____.",
       "options": [
         "matter-mcq-02",
-        "matter-mcq-01",
-        "matter-mcq-03",
-        "matter-mcq-04",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-12",
+        "matter-mcq-17",
+        "matter-mcq-09"
       ],
       "explanation": "本句的「matters to me」指「對某人重要」。",
       "sentenceIndex": 3,
@@ -826,12 +812,10 @@ export default {
         "matters to me"
       ],
       "optionReasons": {
-        "matter-mcq-02": "本句指「對某人重要」。",
-        "matter-mcq-01": "「重要；要緊」是「matter (verb)」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-02": "本句的「matters to me」指「對某人重要」。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-02"
     },
@@ -843,11 +827,9 @@ export default {
       "masked": "Family ____ more than money.",
       "options": [
         "matter-mcq-02",
-        "matter-mcq-01",
-        "matter-mcq-03",
-        "matter-mcq-04",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-25",
+        "matter-mcq-08",
+        "matter-mcq-26"
       ],
       "explanation": "本句的「matters to her」指「對某人重要」。",
       "sentenceIndex": 4,
@@ -856,12 +838,10 @@ export default {
         "matters to her"
       ],
       "optionReasons": {
-        "matter-mcq-02": "本句指「對某人重要」。",
-        "matter-mcq-01": "「重要；要緊」是「matter (verb)」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-02": "本句的「matters to her」指「對某人重要」。",
+        "matter-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-02"
     },
@@ -873,11 +853,9 @@ export default {
       "masked": "That apology ____.",
       "options": [
         "matter-mcq-03",
-        "matter-mcq-02",
-        "matter-mcq-04",
-        "matter-mcq-01",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-14",
+        "matter-mcq-21",
+        "matter-mcq-26"
       ],
       "explanation": "本句的「mattered a lot」指「非常重要」。",
       "sentenceIndex": 5,
@@ -886,12 +864,10 @@ export default {
         "mattered a lot"
       ],
       "optionReasons": {
-        "matter-mcq-03": "本句指「非常重要」。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-01": "「重要；要緊」是「matter (verb)」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-03": "本句的「mattered a lot」指「非常重要」。",
+        "matter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-03"
     },
@@ -903,11 +879,9 @@ export default {
       "masked": "Trust ____ in teamwork.",
       "options": [
         "matter-mcq-03",
-        "matter-mcq-02",
-        "matter-mcq-04",
-        "matter-mcq-01",
-        "matter-mcq-05",
-        "matter-mcq-06"
+        "matter-mcq-25",
+        "matter-mcq-13",
+        "matter-pdf-002"
       ],
       "explanation": "本句的「matters greatly」指「非常重要」。",
       "sentenceIndex": 6,
@@ -916,12 +890,10 @@ export default {
         "matters greatly"
       ],
       "optionReasons": {
-        "matter-mcq-03": "本句指「非常重要」。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-01": "「重要；要緊」是「matter (verb)」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-03": "本句的「matters greatly」指「非常重要」。",
+        "matter-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-03"
     },
@@ -933,11 +905,9 @@ export default {
       "masked": "Honesty ____ than appearances.",
       "options": [
         "matter-mcq-04",
-        "matter-mcq-03",
-        "matter-mcq-05",
-        "matter-mcq-02",
-        "matter-mcq-06",
-        "matter-mcq-01"
+        "matter-mcq-19",
+        "matter-mcq-11",
+        "matter-mcq-13"
       ],
       "explanation": "本句的「matters more」指「更／較不重要」。",
       "sentenceIndex": 7,
@@ -946,12 +916,10 @@ export default {
         "matters more"
       ],
       "optionReasons": {
-        "matter-mcq-04": "本句指「更／較不重要」。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-01": "「重要；要緊」是「matter (verb)」的用法，與本句語境不同。"
+        "matter-mcq-04": "本句的「matters more」指「更／較不重要」。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-04"
     },
@@ -963,11 +931,9 @@ export default {
       "masked": "The exact wording ____ than the sincerity behind it.",
       "options": [
         "matter-mcq-04",
-        "matter-mcq-03",
-        "matter-mcq-05",
-        "matter-mcq-02",
-        "matter-mcq-06",
-        "matter-mcq-01"
+        "matter-mcq-17",
+        "matter-mcq-12",
+        "matter-mcq-20"
       ],
       "explanation": "本句的「matters less」指「更／較不重要」。",
       "sentenceIndex": 8,
@@ -976,12 +942,10 @@ export default {
         "matters less"
       ],
       "optionReasons": {
-        "matter-mcq-04": "本句指「更／較不重要」。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-01": "「重要；要緊」是「matter (verb)」的用法，與本句語境不同。"
+        "matter-mcq-04": "本句的「matters less」指「更／較不重要」。",
+        "matter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-04"
     },
@@ -993,11 +957,9 @@ export default {
       "masked": "____ is that he took responsibility.",
       "options": [
         "matter-mcq-05",
-        "matter-mcq-04",
-        "matter-mcq-06",
-        "matter-mcq-03",
-        "matter-mcq-07",
-        "matter-mcq-02"
+        "matter-mcq-19",
+        "matter-mcq-24",
+        "matter-mcq-22"
       ],
       "explanation": "本句的「What matters」指「真正重要的事」。",
       "sentenceIndex": 9,
@@ -1006,12 +968,10 @@ export default {
         "What matters"
       ],
       "optionReasons": {
-        "matter-mcq-05": "本句指「真正重要的事」。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。"
+        "matter-mcq-05": "本句的「What matters」指「真正重要的事」。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-05"
     },
@@ -1023,11 +983,9 @@ export default {
       "masked": "____ is whether the apology is sincere.",
       "options": [
         "matter-mcq-05",
-        "matter-mcq-04",
-        "matter-mcq-06",
-        "matter-mcq-03",
-        "matter-mcq-07",
-        "matter-mcq-02"
+        "matter-mcq-13",
+        "matter-mcq-26",
+        "matter-mcq-20"
       ],
       "explanation": "本句的「What matters most」指「真正重要的事」。",
       "sentenceIndex": 10,
@@ -1036,12 +994,10 @@ export default {
         "What matters most"
       ],
       "optionReasons": {
-        "matter-mcq-05": "本句指「真正重要的事」。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-02": "「對某人重要」是「matter to someone」的用法，與本句語境不同。"
+        "matter-mcq-05": "本句的「What matters most」指「真正重要的事」。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-05"
     },
@@ -1053,11 +1009,9 @@ export default {
       "masked": "It ____ if you're a few minutes late.",
       "options": [
         "matter-mcq-06",
-        "matter-mcq-05",
-        "matter-mcq-07",
-        "matter-mcq-04",
-        "matter-mcq-08",
-        "matter-mcq-03"
+        "matter-pdf-002",
+        "matter-mcq-13",
+        "matter-mcq-21"
       ],
       "explanation": "本句的「doesn't matter」指「不要緊；沒關係」。",
       "sentenceIndex": 11,
@@ -1066,12 +1020,10 @@ export default {
         "doesn't matter"
       ],
       "optionReasons": {
-        "matter-mcq-06": "本句指「不要緊；沒關係」。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。"
+        "matter-mcq-06": "本句的「doesn't matter」指「不要緊；沒關係」。",
+        "matter-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-06"
     },
@@ -1083,11 +1035,9 @@ export default {
       "masked": "Sorry.” > “It ____.",
       "options": [
         "matter-mcq-06",
-        "matter-mcq-05",
-        "matter-mcq-07",
-        "matter-mcq-04",
-        "matter-mcq-08",
-        "matter-mcq-03"
+        "matter-mcq-15",
+        "matter-mcq-10",
+        "matter-mcq-09"
       ],
       "explanation": "本句的「doesn't matter」指「不要緊；沒關係」。",
       "sentenceIndex": 12,
@@ -1096,12 +1046,10 @@ export default {
         "doesn't matter"
       ],
       "optionReasons": {
-        "matter-mcq-06": "本句指「不要緊；沒關係」。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。"
+        "matter-mcq-06": "本句的「doesn't matter」指「不要緊；沒關係」。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-06"
     },
@@ -1113,11 +1061,9 @@ export default {
       "masked": "____ which file we use?",
       "options": [
         "matter-pdf-001",
-        "matter-mcq-05",
-        "matter-mcq-07",
-        "matter-mcq-04",
-        "matter-mcq-08",
-        "matter-mcq-03"
+        "matter-mcq-22",
+        "matter-mcq-18",
+        "matter-mcq-12"
       ],
       "explanation": "本句的「Does it matter」指「詢問某件事情是否重要或會影響結果」。",
       "sentenceIndex": 13,
@@ -1126,12 +1072,10 @@ export default {
         "Does it matter"
       ],
       "optionReasons": {
-        "matter-pdf-001": "本句指「詢問某件事情是否重要或會影響結果」。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。"
+        "matter-pdf-001": "本句的「Does it matter」指「詢問某件事情是否重要或會影響結果」。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-pdf-001"
     },
@@ -1143,11 +1087,9 @@ export default {
       "masked": "____ who speaks first?",
       "options": [
         "matter-pdf-001",
-        "matter-mcq-05",
-        "matter-mcq-07",
-        "matter-mcq-04",
-        "matter-mcq-08",
-        "matter-mcq-03"
+        "matter-mcq-24",
+        "matter-mcq-15",
+        "matter-mcq-18"
       ],
       "explanation": "本句的「Does it really matter」指「詢問某件事情是否重要或會影響結果」。",
       "sentenceIndex": 14,
@@ -1156,12 +1098,10 @@ export default {
         "Does it really matter"
       ],
       "optionReasons": {
-        "matter-pdf-001": "本句指「詢問某件事情是否重要或會影響結果」。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-03": "「非常重要」是「matter a lot」的用法，與本句語境不同。"
+        "matter-pdf-001": "本句的「Does it really matter」指「詢問某件事情是否重要或會影響結果」。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-pdf-001"
     },
@@ -1173,11 +1113,9 @@ export default {
       "masked": "We need to discuss an important ____.",
       "options": [
         "matter-mcq-07",
-        "matter-mcq-06",
-        "matter-mcq-08",
-        "matter-mcq-05",
-        "matter-mcq-09",
-        "matter-mcq-04"
+        "matter-mcq-29",
+        "matter-mcq-12",
+        "matter-mcq-19"
       ],
       "explanation": "本句的「matter」指「事情；問題」。",
       "sentenceIndex": 15,
@@ -1186,12 +1124,10 @@ export default {
         "matter"
       ],
       "optionReasons": {
-        "matter-mcq-07": "本句指「事情；問題」。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。"
+        "matter-mcq-07": "本句的「matter」指「事情；問題」。",
+        "matter-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-07"
     },
@@ -1203,11 +1139,9 @@ export default {
       "masked": "This is a private ____.",
       "options": [
         "matter-mcq-07",
+        "matter-mcq-03",
         "matter-mcq-06",
-        "matter-mcq-08",
-        "matter-mcq-05",
-        "matter-mcq-09",
-        "matter-mcq-04"
+        "matter-mcq-12"
       ],
       "explanation": "本句的「matter」指「事情；問題」。",
       "sentenceIndex": 16,
@@ -1216,12 +1150,10 @@ export default {
         "matter"
       ],
       "optionReasons": {
-        "matter-mcq-07": "本句指「事情；問題」。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-04": "「更／較不重要」是「matter more/less」的用法，與本句語境不同。"
+        "matter-mcq-07": "本句的「matter」指「事情；問題」。",
+        "matter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-07"
     },
@@ -1233,11 +1165,9 @@ export default {
       "masked": "We'll discuss ____ tomorrow.",
       "options": [
         "matter-mcq-08",
-        "matter-mcq-07",
-        "matter-mcq-09",
-        "matter-mcq-06",
-        "matter-mcq-10",
-        "matter-mcq-05"
+        "matter-mcq-15",
+        "matter-mcq-23",
+        "matter-mcq-06"
       ],
       "explanation": "本句的「the matter」指「那件事／問題」。",
       "sentenceIndex": 17,
@@ -1246,12 +1176,10 @@ export default {
         "the matter"
       ],
       "optionReasons": {
-        "matter-mcq-08": "本句指「那件事／問題」。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。"
+        "matter-mcq-08": "本句的「the matter」指「那件事／問題」。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-08"
     },
@@ -1263,11 +1191,9 @@ export default {
       "masked": "The manager is looking into ____.",
       "options": [
         "matter-mcq-08",
-        "matter-mcq-07",
-        "matter-mcq-09",
-        "matter-mcq-06",
-        "matter-mcq-10",
-        "matter-mcq-05"
+        "matter-mcq-05",
+        "matter-pdf-002",
+        "matter-mcq-22"
       ],
       "explanation": "本句的「the matter」指「那件事／問題」。",
       "sentenceIndex": 18,
@@ -1276,12 +1202,10 @@ export default {
         "the matter"
       ],
       "optionReasons": {
-        "matter-mcq-08": "本句指「那件事／問題」。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-05": "「真正重要的事」是「what matters」的用法，與本句語境不同。"
+        "matter-mcq-08": "本句的「the matter」指「那件事／問題」。",
+        "matter-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "matter-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-08"
     },
@@ -1293,11 +1217,9 @@ export default {
       "masked": "____ You look upset.",
       "options": [
         "matter-mcq-09",
-        "matter-mcq-08",
-        "matter-mcq-10",
-        "matter-mcq-07",
-        "matter-mcq-11",
-        "matter-mcq-06"
+        "matter-mcq-16",
+        "matter-mcq-12",
+        "matter-mcq-26"
       ],
       "explanation": "本句的「What's the matter?」指「怎麼了？」。",
       "sentenceIndex": 19,
@@ -1306,12 +1228,10 @@ export default {
         "What's the matter?"
       ],
       "optionReasons": {
-        "matter-mcq-09": "本句指「怎麼了？」。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-09": "本句的「What's the matter?」指「怎麼了？」。",
+        "matter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-09"
     },
@@ -1323,11 +1243,9 @@ export default {
       "masked": "____",
       "options": [
         "matter-mcq-09",
-        "matter-mcq-08",
-        "matter-mcq-10",
-        "matter-mcq-07",
-        "matter-mcq-11",
-        "matter-mcq-06"
+        "matter-mcq-05",
+        "matter-mcq-26",
+        "matter-mcq-16"
       ],
       "explanation": "本句的「What's the matter with the computer?」指「怎麼了？」。",
       "sentenceIndex": 20,
@@ -1336,12 +1254,10 @@ export default {
         "What's the matter with the computer?"
       ],
       "optionReasons": {
-        "matter-mcq-09": "本句指「怎麼了？」。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-09": "本句的「What's the matter with the computer?」指「怎麼了？」。",
+        "matter-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-09"
     },
@@ -1353,11 +1269,9 @@ export default {
       "masked": "I knew something was ____.",
       "options": [
         "matter-mcq-09",
-        "matter-mcq-08",
-        "matter-mcq-10",
-        "matter-mcq-07",
-        "matter-mcq-11",
-        "matter-mcq-06"
+        "matter-mcq-05",
+        "matter-mcq-13",
+        "matter-mcq-19"
       ],
       "explanation": "本句的「the matter」指「怎麼了？」。",
       "sentenceIndex": 21,
@@ -1366,12 +1280,10 @@ export default {
         "the matter"
       ],
       "optionReasons": {
-        "matter-mcq-09": "本句指「怎麼了？」。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-09": "本句的「the matter」指「怎麼了？」。",
+        "matter-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-09"
     },
@@ -1383,10 +1295,8 @@ export default {
       "masked": "Is anything ____?",
       "options": [
         "matter-mcq-09",
-        "matter-mcq-08",
-        "matter-mcq-10",
-        "matter-mcq-07",
-        "matter-mcq-11",
+        "matter-mcq-22",
+        "matter-mcq-18",
         "matter-mcq-06"
       ],
       "explanation": "本句的「the matter」指「怎麼了？」。",
@@ -1396,12 +1306,10 @@ export default {
         "the matter"
       ],
       "optionReasons": {
-        "matter-mcq-09": "本句指「怎麼了？」。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-06": "「不要緊；沒關係」是「it doesn't matter」的用法，與本句語境不同。"
+        "matter-mcq-09": "本句的「the matter」指「怎麼了？」。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-09"
     },
@@ -1413,11 +1321,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "matter-mcq-10",
-        "matter-mcq-09",
-        "matter-mcq-11",
-        "matter-mcq-08",
-        "matter-mcq-12",
-        "matter-mcq-07"
+        "matter-mcq-17",
+        "matter-mcq-21",
+        "matter-mcq-15"
       ],
       "explanation": "本句的「serious matter」指「嚴重事情」。",
       "sentenceIndex": 23,
@@ -1426,12 +1332,10 @@ export default {
         "serious matter"
       ],
       "optionReasons": {
-        "matter-mcq-10": "本句指「嚴重事情」。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。"
+        "matter-mcq-10": "本句的「serious matter」指「嚴重事情」。",
+        "matter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-10"
     },
@@ -1443,11 +1347,9 @@ export default {
       "masked": "The complaint became a ____.",
       "options": [
         "matter-mcq-10",
-        "matter-mcq-09",
-        "matter-mcq-11",
         "matter-mcq-08",
-        "matter-mcq-12",
-        "matter-mcq-07"
+        "matter-mcq-22",
+        "matter-mcq-19"
       ],
       "explanation": "本句的「serious matter」指「嚴重事情」。",
       "sentenceIndex": 24,
@@ -1456,12 +1358,10 @@ export default {
         "serious matter"
       ],
       "optionReasons": {
-        "matter-mcq-10": "本句指「嚴重事情」。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-07": "「事情；問題」是「matter (noun)」的用法，與本句語境不同。"
+        "matter-mcq-10": "本句的「serious matter」指「嚴重事情」。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-10"
     },
@@ -1473,11 +1373,9 @@ export default {
       "masked": "I'd rather not discuss it; it's a ____.",
       "options": [
         "matter-mcq-11",
-        "matter-mcq-10",
-        "matter-mcq-12",
-        "matter-mcq-09",
-        "matter-mcq-13",
-        "matter-mcq-08"
+        "matter-mcq-15",
+        "matter-mcq-20",
+        "matter-mcq-28"
       ],
       "explanation": "本句的「private matter」指「私人事務」。",
       "sentenceIndex": 25,
@@ -1486,12 +1384,10 @@ export default {
         "private matter"
       ],
       "optionReasons": {
-        "matter-mcq-11": "本句指「私人事務」。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。"
+        "matter-mcq-11": "本句的「private matter」指「私人事務」。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-11"
     },
@@ -1503,11 +1399,9 @@ export default {
       "masked": "The issue should remain a ____.",
       "options": [
         "matter-mcq-11",
-        "matter-mcq-10",
-        "matter-mcq-12",
-        "matter-mcq-09",
-        "matter-mcq-13",
-        "matter-mcq-08"
+        "matter-mcq-06",
+        "matter-mcq-23",
+        "matter-mcq-10"
       ],
       "explanation": "本句的「private matter」指「私人事務」。",
       "sentenceIndex": 26,
@@ -1516,12 +1410,10 @@ export default {
         "private matter"
       ],
       "optionReasons": {
-        "matter-mcq-11": "本句指「私人事務」。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-08": "「那件事／問題」是「the matter」的用法，與本句語境不同。"
+        "matter-mcq-11": "本句的「private matter」指「私人事務」。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-11"
     },
@@ -1533,11 +1425,9 @@ export default {
       "masked": "We discussed financial ____.",
       "options": [
         "matter-mcq-12",
-        "matter-mcq-11",
-        "matter-mcq-13",
-        "matter-mcq-10",
-        "matter-mcq-14",
-        "matter-mcq-09"
+        "matter-mcq-05",
+        "matter-mcq-21",
+        "matter-mcq-13"
       ],
       "explanation": "本句的「matters」指「事務」。",
       "sentenceIndex": 27,
@@ -1546,12 +1436,10 @@ export default {
         "matters"
       ],
       "optionReasons": {
-        "matter-mcq-12": "本句指「事務」。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。"
+        "matter-mcq-12": "本句的「matters」指「事務」。",
+        "matter-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-12"
     },
@@ -1563,11 +1451,9 @@ export default {
       "masked": "She handles legal ____ for the company.",
       "options": [
         "matter-mcq-12",
-        "matter-mcq-11",
-        "matter-mcq-13",
-        "matter-mcq-10",
-        "matter-mcq-14",
-        "matter-mcq-09"
+        "matter-mcq-22",
+        "matter-pdf-001",
+        "matter-mcq-18"
       ],
       "explanation": "本句的「matters」指「事務」。",
       "sentenceIndex": 28,
@@ -1576,12 +1462,10 @@ export default {
         "matters"
       ],
       "optionReasons": {
-        "matter-mcq-12": "本句指「事務」。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-09": "「怎麼了？」是「What's the matter?」的用法，與本句語境不同。"
+        "matter-mcq-12": "本句的「matters」指「事務」。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "matter-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-12"
     },
@@ -1593,11 +1477,9 @@ export default {
       "masked": "It's a ____.",
       "options": [
         "matter-mcq-13",
-        "matter-mcq-12",
-        "matter-mcq-14",
-        "matter-mcq-11",
-        "matter-mcq-15",
-        "matter-mcq-10"
+        "matter-mcq-26",
+        "matter-mcq-18",
+        "matter-mcq-11"
       ],
       "explanation": "本句的「matter of trust」指「X 的問題／關乎 X」。",
       "sentenceIndex": 29,
@@ -1606,12 +1488,10 @@ export default {
         "matter of trust"
       ],
       "optionReasons": {
-        "matter-mcq-13": "本句指「X 的問題／關乎 X」。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。"
+        "matter-mcq-13": "本句的「matter of trust」指「X 的問題／關乎 X」。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-13"
     },
@@ -1623,11 +1503,9 @@ export default {
       "masked": "The decision is a ____.",
       "options": [
         "matter-mcq-13",
-        "matter-mcq-12",
-        "matter-mcq-14",
+        "matter-mcq-24",
         "matter-mcq-11",
-        "matter-mcq-15",
-        "matter-mcq-10"
+        "matter-pdf-002"
       ],
       "explanation": "本句的「matter of personal choice」指「X 的問題／關乎 X」。",
       "sentenceIndex": 30,
@@ -1636,12 +1514,10 @@ export default {
         "matter of personal choice"
       ],
       "optionReasons": {
-        "matter-mcq-13": "本句指「X 的問題／關乎 X」。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-10": "「嚴重事情」是「serious matter」的用法，與本句語境不同。"
+        "matter-mcq-13": "本句的「matter of personal choice」指「X 的問題／關乎 X」。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "matter-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-13"
     },
@@ -1653,11 +1529,9 @@ export default {
       "masked": "It's only a ____ before they find the mistake.",
       "options": [
         "matter-mcq-14",
-        "matter-mcq-13",
+        "matter-mcq-21",
         "matter-mcq-15",
-        "matter-mcq-12",
-        "matter-mcq-16",
-        "matter-mcq-11"
+        "matter-mcq-09"
       ],
       "explanation": "本句的「matter of time」指「只是時間問題」。",
       "sentenceIndex": 31,
@@ -1666,12 +1540,10 @@ export default {
         "matter of time"
       ],
       "optionReasons": {
-        "matter-mcq-14": "本句指「只是時間問題」。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。"
+        "matter-mcq-14": "本句的「matter of time」指「只是時間問題」。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-14"
     },
@@ -1683,11 +1555,9 @@ export default {
       "masked": "Recovery is now a ____.",
       "options": [
         "matter-mcq-14",
-        "matter-mcq-13",
-        "matter-mcq-15",
         "matter-mcq-12",
-        "matter-mcq-16",
-        "matter-mcq-11"
+        "matter-mcq-24",
+        "matter-mcq-03"
       ],
       "explanation": "本句的「matter of time」指「只是時間問題」。",
       "sentenceIndex": 32,
@@ -1696,12 +1566,10 @@ export default {
         "matter of time"
       ],
       "optionReasons": {
-        "matter-mcq-14": "本句指「只是時間問題」。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-11": "「私人事務」是「private matter」的用法，與本句語境不同。"
+        "matter-mcq-14": "本句的「matter of time」指「只是時間問題」。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-14"
     },
@@ -1713,10 +1581,8 @@ export default {
       "masked": "Whether the film is good is a ____.",
       "options": [
         "matter-mcq-15",
-        "matter-mcq-14",
-        "matter-mcq-16",
-        "matter-mcq-13",
-        "matter-mcq-17",
+        "matter-mcq-08",
+        "matter-mcq-23",
         "matter-mcq-12"
       ],
       "explanation": "本句的「matter of opinion」指「見仁見智」。",
@@ -1726,12 +1592,10 @@ export default {
         "matter of opinion"
       ],
       "optionReasons": {
-        "matter-mcq-15": "本句指「見仁見智」。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。"
+        "matter-mcq-15": "本句的「matter of opinion」指「見仁見智」。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-15"
     },
@@ -1743,11 +1607,9 @@ export default {
       "masked": "Beauty is often a ____.",
       "options": [
         "matter-mcq-15",
-        "matter-mcq-14",
-        "matter-mcq-16",
-        "matter-mcq-13",
-        "matter-mcq-17",
-        "matter-mcq-12"
+        "matter-mcq-23",
+        "matter-mcq-19",
+        "matter-mcq-08"
       ],
       "explanation": "本句的「matter of opinion」指「見仁見智」。",
       "sentenceIndex": 34,
@@ -1756,12 +1618,10 @@ export default {
         "matter of opinion"
       ],
       "optionReasons": {
-        "matter-mcq-15": "本句指「見仁見智」。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-12": "「事務」是「matters」的用法，與本句語境不同。"
+        "matter-mcq-15": "本句的「matter of opinion」指「見仁見智」。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-15"
     },
@@ -1773,11 +1633,9 @@ export default {
       "masked": "For her, it was a ____.",
       "options": [
         "matter-mcq-16",
-        "matter-mcq-15",
-        "matter-mcq-17",
-        "matter-mcq-14",
-        "matter-mcq-18",
-        "matter-mcq-13"
+        "matter-mcq-20",
+        "matter-mcq-11",
+        "matter-mcq-24"
       ],
       "explanation": "本句的「matter of principle」指「原則問題」。",
       "sentenceIndex": 35,
@@ -1786,12 +1644,10 @@ export default {
         "matter of principle"
       ],
       "optionReasons": {
-        "matter-mcq-16": "本句指「原則問題」。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。"
+        "matter-mcq-16": "本句的「matter of principle」指「原則問題」。",
+        "matter-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-16"
     },
@@ -1803,11 +1659,9 @@ export default {
       "masked": "He refused the money as a ____.",
       "options": [
         "matter-mcq-16",
-        "matter-mcq-15",
-        "matter-mcq-17",
-        "matter-mcq-14",
-        "matter-mcq-18",
-        "matter-mcq-13"
+        "matter-mcq-01",
+        "matter-mcq-26",
+        "matter-mcq-19"
       ],
       "explanation": "本句的「matter of principle」指「原則問題」。",
       "sentenceIndex": 36,
@@ -1816,12 +1670,10 @@ export default {
         "matter of principle"
       ],
       "optionReasons": {
-        "matter-mcq-16": "本句指「原則問題」。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-13": "「X 的問題／關乎 X」是「a matter of X」的用法，與本句語境不同。"
+        "matter-mcq-16": "本句的「matter of principle」指「原則問題」。",
+        "matter-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-16"
     },
@@ -1833,11 +1685,9 @@ export default {
       "masked": "For the patient, it was a ____.",
       "options": [
         "matter-mcq-28",
-        "matter-mcq-27",
-        "matter-mcq-29",
-        "matter-mcq-26",
-        "matter-mcq-30",
-        "matter-mcq-25"
+        "matter-mcq-16",
+        "matter-mcq-24",
+        "matter-pdf-002"
       ],
       "explanation": "本句的「matter of life and death」指「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」。",
       "sentenceIndex": 37,
@@ -1846,12 +1696,10 @@ export default {
         "matter of life and death"
       ],
       "optionReasons": {
-        "matter-mcq-28": "本句指「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-29": "「表示某個變項無論怎樣改變，主要結果都不受影響」是「30. no matter who / where / when / how — 無論誰／哪裏／何時／怎樣」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-30": "「令人擔心、需要注意或處理的問題」是「31. matter of concern — 令人關注的事情」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。"
+        "matter-mcq-28": "本句的「matter of life and death」指「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」。",
+        "matter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-28"
     },
@@ -1863,11 +1711,9 @@ export default {
       "masked": "It isn't a ____, so stay calm.",
       "options": [
         "matter-mcq-28",
-        "matter-mcq-27",
-        "matter-mcq-29",
-        "matter-mcq-26",
-        "matter-mcq-30",
-        "matter-mcq-25"
+        "matter-mcq-24",
+        "matter-mcq-13",
+        "matter-mcq-12"
       ],
       "explanation": "本句的「matter of life and death」指「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」。",
       "sentenceIndex": 38,
@@ -1876,12 +1722,10 @@ export default {
         "matter of life and death"
       ],
       "optionReasons": {
-        "matter-mcq-28": "本句指「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-29": "「表示某個變項無論怎樣改變，主要結果都不受影響」是「30. no matter who / where / when / how — 無論誰／哪裏／何時／怎樣」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-30": "「令人擔心、需要注意或處理的問題」是「31. matter of concern — 令人關注的事情」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。"
+        "matter-mcq-28": "本句的「matter of life and death」指「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-28"
     },
@@ -1893,11 +1737,9 @@ export default {
       "masked": "The ____ is quite difficult.",
       "options": [
         "matter-mcq-17",
-        "matter-mcq-16",
-        "matter-mcq-18",
-        "matter-mcq-15",
-        "matter-mcq-19",
-        "matter-mcq-14"
+        "matter-mcq-23",
+        "matter-mcq-02",
+        "matter-mcq-25"
       ],
       "explanation": "本句的「subject matter」指「主題內容；題材」。",
       "sentenceIndex": 39,
@@ -1906,12 +1748,10 @@ export default {
         "subject matter"
       ],
       "optionReasons": {
-        "matter-mcq-17": "本句指「主題內容；題材」。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。"
+        "matter-mcq-17": "本句的「subject matter」指「主題內容；題材」。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-17"
     },
@@ -1923,11 +1763,9 @@ export default {
       "masked": "The film deals with serious ____.",
       "options": [
         "matter-mcq-17",
-        "matter-mcq-16",
+        "matter-mcq-03",
         "matter-mcq-18",
-        "matter-mcq-15",
-        "matter-mcq-19",
-        "matter-mcq-14"
+        "matter-mcq-22"
       ],
       "explanation": "本句的「subject matter」指「主題內容；題材」。",
       "sentenceIndex": 40,
@@ -1936,12 +1774,10 @@ export default {
         "subject matter"
       ],
       "optionReasons": {
-        "matter-mcq-17": "本句指「主題內容；題材」。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-14": "「只是時間問題」是「matter of time」的用法，與本句語境不同。"
+        "matter-mcq-17": "本句的「subject matter」指「主題內容；題材」。",
+        "matter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-17"
     },
@@ -1954,10 +1790,8 @@ export default {
       "options": [
         "matter-mcq-18",
         "matter-mcq-17",
-        "matter-mcq-19",
-        "matter-mcq-16",
-        "matter-mcq-20",
-        "matter-mcq-15"
+        "matter-mcq-23",
+        "matter-mcq-10"
       ],
       "explanation": "本句的「matter」指「物質」。",
       "sentenceIndex": 41,
@@ -1966,12 +1800,10 @@ export default {
         "matter"
       ],
       "optionReasons": {
-        "matter-mcq-18": "本句指「物質」。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。"
+        "matter-mcq-18": "本句的「matter」指「物質」。",
+        "matter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-18"
     },
@@ -1983,10 +1815,8 @@ export default {
       "masked": "____ can exist in different states.",
       "options": [
         "matter-mcq-18",
+        "matter-mcq-28",
         "matter-mcq-17",
-        "matter-mcq-19",
-        "matter-mcq-16",
-        "matter-mcq-20",
         "matter-mcq-15"
       ],
       "explanation": "本句的「Matter」指「物質」。",
@@ -1996,12 +1826,10 @@ export default {
         "Matter"
       ],
       "optionReasons": {
-        "matter-mcq-18": "本句指「物質」。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-15": "「見仁見智」是「matter of opinion」的用法，與本句語境不同。"
+        "matter-mcq-18": "本句的「Matter」指「物質」。",
+        "matter-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-18"
     },
@@ -2013,11 +1841,9 @@ export default {
       "masked": "The sample contains organic ____.",
       "options": [
         "matter-pdf-002",
-        "matter-mcq-18",
-        "matter-mcq-20",
-        "matter-mcq-17",
-        "matter-mcq-21",
-        "matter-mcq-16"
+        "matter-mcq-04",
+        "matter-mcq-07",
+        "matter-mcq-12"
       ],
       "explanation": "本句的「matter」指「science: 構成物體和材料的實體物質」。",
       "sentenceIndex": 43,
@@ -2026,12 +1852,10 @@ export default {
         "matter"
       ],
       "optionReasons": {
-        "matter-pdf-002": "本句指「science: 構成物體和材料的實體物質」。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。"
+        "matter-pdf-002": "本句的「matter」指「science: 構成物體和材料的實體物質」。",
+        "matter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-pdf-002"
     },
@@ -2043,11 +1867,9 @@ export default {
       "masked": "The material changed from solid ____ to liquid.",
       "options": [
         "matter-pdf-002",
-        "matter-mcq-18",
-        "matter-mcq-20",
-        "matter-mcq-17",
-        "matter-mcq-21",
-        "matter-mcq-16"
+        "matter-mcq-04",
+        "matter-mcq-08",
+        "matter-mcq-22"
       ],
       "explanation": "本句的「matter」指「science: 構成物體和材料的實體物質」。",
       "sentenceIndex": 44,
@@ -2056,12 +1878,10 @@ export default {
         "matter"
       ],
       "optionReasons": {
-        "matter-pdf-002": "本句指「science: 構成物體和材料的實體物質」。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。"
+        "matter-pdf-002": "本句的「matter」指「science: 構成物體和材料的實體物質」。",
+        "matter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-pdf-002"
     },
@@ -2073,11 +1893,9 @@ export default {
       "masked": "The soil contains a lot of ____.",
       "options": [
         "matter-mcq-19",
-        "matter-mcq-18",
-        "matter-mcq-20",
-        "matter-mcq-17",
-        "matter-mcq-21",
-        "matter-mcq-16"
+        "matter-mcq-16",
+        "matter-mcq-05",
+        "matter-mcq-25"
       ],
       "explanation": "本句的「organic matter」指「有機物質」。",
       "sentenceIndex": 45,
@@ -2086,12 +1904,10 @@ export default {
         "organic matter"
       ],
       "optionReasons": {
-        "matter-mcq-19": "本句指「有機物質」。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。"
+        "matter-mcq-19": "本句的「organic matter」指「有機物質」。",
+        "matter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-19"
     },
@@ -2103,11 +1919,9 @@ export default {
       "masked": "Dead leaves add ____ to the soil.",
       "options": [
         "matter-mcq-19",
-        "matter-mcq-18",
-        "matter-mcq-20",
-        "matter-mcq-17",
-        "matter-mcq-21",
-        "matter-mcq-16"
+        "matter-mcq-23",
+        "matter-mcq-06",
+        "matter-mcq-09"
       ],
       "explanation": "本句的「organic matter」指「有機物質」。",
       "sentenceIndex": 46,
@@ -2116,12 +1930,10 @@ export default {
         "organic matter"
       ],
       "optionReasons": {
-        "matter-mcq-19": "本句指「有機物質」。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-16": "「原則問題」是「matter of principle」的用法，與本句語境不同。"
+        "matter-mcq-19": "本句的「organic matter」指「有機物質」。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-19"
     },
@@ -2133,11 +1945,9 @@ export default {
       "masked": "Scientists infer the existence of ____ from its gravitational effects.",
       "options": [
         "matter-mcq-20",
-        "matter-mcq-19",
-        "matter-mcq-21",
-        "matter-mcq-18",
-        "matter-mcq-22",
-        "matter-mcq-17"
+        "matter-mcq-03",
+        "matter-mcq-23",
+        "matter-mcq-22"
       ],
       "explanation": "本句的「dark matter」指「暗物質」。",
       "sentenceIndex": 47,
@@ -2146,12 +1956,10 @@ export default {
         "dark matter"
       ],
       "optionReasons": {
-        "matter-mcq-20": "本句指「暗物質」。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。"
+        "matter-mcq-20": "本句的「dark matter」指「暗物質」。",
+        "matter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-20"
     },
@@ -2163,11 +1971,9 @@ export default {
       "masked": "____ does not emit light in the ordinary way.",
       "options": [
         "matter-mcq-20",
-        "matter-mcq-19",
-        "matter-mcq-21",
-        "matter-mcq-18",
-        "matter-mcq-22",
-        "matter-mcq-17"
+        "matter-mcq-28",
+        "matter-mcq-24",
+        "matter-mcq-09"
       ],
       "explanation": "本句的「Dark matter」指「暗物質」。",
       "sentenceIndex": 48,
@@ -2176,12 +1982,10 @@ export default {
         "Dark matter"
       ],
       "optionReasons": {
-        "matter-mcq-20": "本句指「暗物質」。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-17": "「主題內容；題材」是「subject matter」的用法，與本句語境不同。"
+        "matter-mcq-20": "本句的「Dark matter」指「暗物質」。",
+        "matter-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-20"
     },
@@ -2193,11 +1997,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "matter-mcq-21",
-        "matter-mcq-20",
-        "matter-mcq-22",
-        "matter-mcq-19",
-        "matter-mcq-23",
-        "matter-mcq-18"
+        "matter-mcq-25",
+        "matter-mcq-18",
+        "matter-mcq-07"
       ],
       "explanation": "本句的「matter-of-fact explanation」指「實事求是的；平淡直接的」。",
       "sentenceIndex": 49,
@@ -2206,12 +2008,10 @@ export default {
         "matter-of-fact explanation"
       ],
       "optionReasons": {
-        "matter-mcq-21": "本句指「實事求是的；平淡直接的」。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。"
+        "matter-mcq-21": "本句的「matter-of-fact explanation」指「實事求是的；平淡直接的」。",
+        "matter-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-21"
     },
@@ -2223,11 +2023,9 @@ export default {
       "masked": "His tone was calm and ____.",
       "options": [
         "matter-mcq-21",
-        "matter-mcq-20",
-        "matter-mcq-22",
         "matter-mcq-19",
-        "matter-mcq-23",
-        "matter-mcq-18"
+        "matter-mcq-14",
+        "matter-mcq-29"
       ],
       "explanation": "本句的「matter-of-fact」指「實事求是的；平淡直接的」。",
       "sentenceIndex": 50,
@@ -2236,12 +2034,10 @@ export default {
         "matter-of-fact"
       ],
       "optionReasons": {
-        "matter-mcq-21": "本句指「實事求是的；平淡直接的」。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-18": "「物質」是「matter (science)」的用法，與本句語境不同。"
+        "matter-mcq-21": "本句的「matter-of-fact」指「實事求是的；平淡直接的」。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-21"
     },
@@ -2253,11 +2049,9 @@ export default {
       "masked": "I made a mistake,” he said ____.",
       "options": [
         "matter-mcq-22",
-        "matter-mcq-21",
-        "matter-mcq-23",
-        "matter-mcq-20",
-        "matter-mcq-24",
-        "matter-mcq-19"
+        "matter-mcq-18",
+        "matter-mcq-13",
+        "matter-mcq-05"
       ],
       "explanation": "本句的「matter-of-factly」指「平靜直接地」。",
       "sentenceIndex": 51,
@@ -2266,12 +2060,10 @@ export default {
         "matter-of-factly"
       ],
       "optionReasons": {
-        "matter-mcq-22": "本句指「平靜直接地」。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。"
+        "matter-mcq-22": "本句的「matter-of-factly」指「平靜直接地」。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-22"
     },
@@ -2283,11 +2075,9 @@ export default {
       "masked": "She described the incident ____.",
       "options": [
         "matter-mcq-22",
-        "matter-mcq-21",
+        "matter-mcq-28",
         "matter-mcq-23",
-        "matter-mcq-20",
-        "matter-mcq-24",
-        "matter-mcq-19"
+        "matter-mcq-13"
       ],
       "explanation": "本句的「matter-of-factly」指「平靜直接地」。",
       "sentenceIndex": 52,
@@ -2296,12 +2086,10 @@ export default {
         "matter-of-factly"
       ],
       "optionReasons": {
-        "matter-mcq-22": "本句指「平靜直接地」。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-19": "「有機物質」是「organic matter」的用法，與本句語境不同。"
+        "matter-mcq-22": "本句的「matter-of-factly」指「平靜直接地」。",
+        "matter-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-22"
     },
@@ -2313,11 +2101,9 @@ export default {
       "masked": "____, I had already uploaded the file.",
       "options": [
         "matter-mcq-23",
-        "matter-mcq-22",
-        "matter-mcq-24",
-        "matter-mcq-21",
-        "matter-mcq-25",
-        "matter-mcq-20"
+        "matter-mcq-04",
+        "matter-mcq-12",
+        "matter-mcq-22"
       ],
       "explanation": "本句的「As a matter of fact」指「事實上；其實」。",
       "sentenceIndex": 53,
@@ -2326,12 +2112,10 @@ export default {
         "As a matter of fact"
       ],
       "optionReasons": {
-        "matter-mcq-23": "本句指「事實上；其實」。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。"
+        "matter-mcq-23": "本句的「As a matter of fact」指「事實上；其實」。",
+        "matter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-23"
     },
@@ -2343,11 +2127,9 @@ export default {
       "masked": "I wasn't angry. ____, I found it funny.",
       "options": [
         "matter-mcq-23",
-        "matter-mcq-22",
-        "matter-mcq-24",
-        "matter-mcq-21",
-        "matter-mcq-25",
-        "matter-mcq-20"
+        "matter-mcq-13",
+        "matter-mcq-06",
+        "matter-mcq-09"
       ],
       "explanation": "本句的「As a matter of fact」指「事實上；其實」。",
       "sentenceIndex": 54,
@@ -2356,12 +2138,10 @@ export default {
         "As a matter of fact"
       ],
       "optionReasons": {
-        "matter-mcq-23": "本句指「事實上；其實」。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。",
-        "matter-mcq-20": "「暗物質」是「dark matter」的用法，與本句語境不同。"
+        "matter-mcq-23": "本句的「As a matter of fact」指「事實上；其實」。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-23"
     },
@@ -2373,11 +2153,9 @@ export default {
       "masked": "Kevin didn't check the file—or the folder properly, ____.",
       "options": [
         "matter-mcq-24",
-        "matter-mcq-23",
-        "matter-mcq-25",
-        "matter-mcq-22",
-        "matter-mcq-26",
-        "matter-mcq-21"
+        "matter-mcq-28",
+        "matter-mcq-16",
+        "matter-mcq-26"
       ],
       "explanation": "本句的「for that matter」指「說到這方面；其實……也一樣」。",
       "sentenceIndex": 55,
@@ -2386,12 +2164,10 @@ export default {
         "for that matter"
       ],
       "optionReasons": {
-        "matter-mcq-24": "本句指「說到這方面；其實……也一樣」。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。"
+        "matter-mcq-24": "本句的「for that matter」指「說到這方面；其實……也一樣」。",
+        "matter-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-24"
     },
@@ -2403,11 +2179,9 @@ export default {
       "masked": "I don't like coffee—or tea, ____.",
       "options": [
         "matter-mcq-24",
-        "matter-mcq-23",
-        "matter-mcq-25",
-        "matter-mcq-22",
-        "matter-mcq-26",
-        "matter-mcq-21"
+        "matter-mcq-17",
+        "matter-mcq-10",
+        "matter-mcq-12"
       ],
       "explanation": "本句的「for that matter」指「說到這方面；其實……也一樣」。",
       "sentenceIndex": 56,
@@ -2416,12 +2190,10 @@ export default {
         "for that matter"
       ],
       "optionReasons": {
-        "matter-mcq-24": "本句指「說到這方面；其實……也一樣」。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-21": "「實事求是的；平淡直接的」是「matter-of-fact」的用法，與本句語境不同。"
+        "matter-mcq-24": "本句的「for that matter」指「說到這方面；其實……也一樣」。",
+        "matter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-24"
     },
@@ -2433,11 +2205,9 @@ export default {
       "masked": "I'll support you ____.",
       "options": [
         "matter-mcq-25",
-        "matter-mcq-24",
+        "matter-mcq-20",
         "matter-mcq-26",
-        "matter-mcq-23",
-        "matter-mcq-27",
-        "matter-mcq-22"
+        "matter-mcq-11"
       ],
       "explanation": "本句的「no matter what」指「無論如何／甚麼」。",
       "sentenceIndex": 57,
@@ -2446,12 +2216,10 @@ export default {
         "no matter what"
       ],
       "optionReasons": {
-        "matter-mcq-25": "本句指「無論如何／甚麼」。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。"
+        "matter-mcq-25": "本句的「no matter what」指「無論如何／甚麼」。",
+        "matter-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-25"
     },
@@ -2463,11 +2231,9 @@ export default {
       "masked": "____, stay calm.",
       "options": [
         "matter-mcq-25",
+        "matter-mcq-13",
         "matter-mcq-24",
-        "matter-mcq-26",
-        "matter-mcq-23",
-        "matter-mcq-27",
-        "matter-mcq-22"
+        "matter-mcq-03"
       ],
       "explanation": "本句的「No matter what happens」指「無論如何／甚麼」。",
       "sentenceIndex": 58,
@@ -2476,12 +2242,10 @@ export default {
         "No matter what happens"
       ],
       "optionReasons": {
-        "matter-mcq-25": "本句指「無論如何／甚麼」。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-22": "「平靜直接地」是「matter-of-factly」的用法，與本句語境不同。"
+        "matter-mcq-25": "本句的「No matter what happens」指「無論如何／甚麼」。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-25"
     },
@@ -2493,11 +2257,9 @@ export default {
       "masked": "____, don't share the password.",
       "options": [
         "matter-mcq-29",
-        "matter-mcq-28",
-        "matter-mcq-30",
-        "matter-mcq-27",
-        "matter-mcq-26",
-        "matter-mcq-25"
+        "matter-mcq-18",
+        "matter-mcq-13",
+        "matter-mcq-11"
       ],
       "explanation": "本句的「No matter who asks」指「表示某個變項無論怎樣改變，主要結果都不受影響」。",
       "sentenceIndex": 59,
@@ -2506,12 +2268,10 @@ export default {
         "No matter who asks"
       ],
       "optionReasons": {
-        "matter-mcq-29": "本句指「表示某個變項無論怎樣改變，主要結果都不受影響」。",
-        "matter-mcq-28": "「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」是「19. a matter of life and death — 生死攸關的事」的用法，與本句語境不同。",
-        "matter-mcq-30": "「令人擔心、需要注意或處理的問題」是「31. matter of concern — 令人關注的事情」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。"
+        "matter-mcq-29": "本句的「No matter who asks」指「表示某個變項無論怎樣改變，主要結果都不受影響」。",
+        "matter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-29"
     },
@@ -2523,11 +2283,9 @@ export default {
       "masked": "____, keep trying.",
       "options": [
         "matter-mcq-29",
-        "matter-mcq-28",
-        "matter-mcq-30",
-        "matter-mcq-27",
+        "matter-mcq-07",
         "matter-mcq-26",
-        "matter-mcq-25"
+        "matter-mcq-21"
       ],
       "explanation": "本句的「No matter how difficult it is」指「表示某個變項無論怎樣改變，主要結果都不受影響」。",
       "sentenceIndex": 60,
@@ -2536,12 +2294,10 @@ export default {
         "No matter how difficult it is"
       ],
       "optionReasons": {
-        "matter-mcq-29": "本句指「表示某個變項無論怎樣改變，主要結果都不受影響」。",
-        "matter-mcq-28": "「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」是「19. a matter of life and death — 生死攸關的事」的用法，與本句語境不同。",
-        "matter-mcq-30": "「令人擔心、需要注意或處理的問題」是「31. matter of concern — 令人關注的事情」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。"
+        "matter-mcq-29": "本句的「No matter how difficult it is」指「表示某個變項無論怎樣改變，主要結果都不受影響」。",
+        "matter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-29"
     },
@@ -2553,11 +2309,9 @@ export default {
       "masked": "The delay is a ____.",
       "options": [
         "matter-mcq-30",
-        "matter-mcq-29",
-        "matter-mcq-28",
-        "matter-mcq-27",
-        "matter-mcq-26",
-        "matter-mcq-25"
+        "matter-mcq-09",
+        "matter-mcq-19",
+        "matter-mcq-26"
       ],
       "explanation": "本句的「matter of concern」指「令人擔心、需要注意或處理的問題」。",
       "sentenceIndex": 61,
@@ -2566,12 +2320,10 @@ export default {
         "matter of concern"
       ],
       "optionReasons": {
-        "matter-mcq-30": "本句指「令人擔心、需要注意或處理的問題」。",
-        "matter-mcq-29": "「表示某個變項無論怎樣改變，主要結果都不受影響」是「30. no matter who / where / when / how — 無論誰／哪裏／何時／怎樣」的用法，與本句語境不同。",
-        "matter-mcq-28": "「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」是「19. a matter of life and death — 生死攸關的事」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。"
+        "matter-mcq-30": "本句的「matter of concern」指「令人擔心、需要注意或處理的問題」。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-30"
     },
@@ -2583,10 +2335,8 @@ export default {
       "masked": "Safety remains a serious ____.",
       "options": [
         "matter-mcq-30",
-        "matter-mcq-29",
-        "matter-mcq-28",
-        "matter-mcq-27",
-        "matter-mcq-26",
+        "matter-mcq-22",
+        "matter-mcq-23",
         "matter-mcq-25"
       ],
       "explanation": "本句的「matter of concern」指「令人擔心、需要注意或處理的問題」。",
@@ -2596,12 +2346,10 @@ export default {
         "matter of concern"
       ],
       "optionReasons": {
-        "matter-mcq-30": "本句指「令人擔心、需要注意或處理的問題」。",
-        "matter-mcq-29": "「表示某個變項無論怎樣改變，主要結果都不受影響」是「30. no matter who / where / when / how — 無論誰／哪裏／何時／怎樣」的用法，與本句語境不同。",
-        "matter-mcq-28": "「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」是「19. a matter of life and death — 生死攸關的事」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-26": "「當前事情」是「matter at hand」的用法，與本句語境不同。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。"
+        "matter-mcq-30": "本句的「matter of concern」指「令人擔心、需要注意或處理的問題」。",
+        "matter-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-30"
     },
@@ -2613,11 +2361,9 @@ export default {
       "masked": "Let's return to the ____.",
       "options": [
         "matter-mcq-26",
-        "matter-mcq-25",
-        "matter-mcq-27",
-        "matter-mcq-24",
-        "matter-mcq-28",
-        "matter-mcq-23"
+        "matter-mcq-09",
+        "matter-mcq-20",
+        "matter-mcq-30"
       ],
       "explanation": "本句的「matter at hand」指「當前事情」。",
       "sentenceIndex": 63,
@@ -2626,12 +2372,10 @@ export default {
         "matter at hand"
       ],
       "optionReasons": {
-        "matter-mcq-26": "本句指「當前事情」。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-28": "「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」是「19. a matter of life and death — 生死攸關的事」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。"
+        "matter-mcq-26": "本句的「matter at hand」指「當前事情」。",
+        "matter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-26"
     },
@@ -2643,11 +2387,9 @@ export default {
       "masked": "We should focus on the ____.",
       "options": [
         "matter-mcq-26",
-        "matter-mcq-25",
-        "matter-mcq-27",
-        "matter-mcq-24",
-        "matter-mcq-28",
-        "matter-mcq-23"
+        "matter-mcq-08",
+        "matter-mcq-21",
+        "matter-mcq-06"
       ],
       "explanation": "本句的「matter at hand」指「當前事情」。",
       "sentenceIndex": 64,
@@ -2656,12 +2398,10 @@ export default {
         "matter at hand"
       ],
       "optionReasons": {
-        "matter-mcq-26": "本句指「當前事情」。",
-        "matter-mcq-25": "「無論如何／甚麼」是「no matter what」的用法，與本句語境不同。",
-        "matter-mcq-27": "「關注事項」是「matter of concern」的用法，與本句語境不同。",
-        "matter-mcq-24": "「說到這方面；其實……也一樣」是「for that matter」的用法，與本句語境不同。",
-        "matter-mcq-28": "「極其嚴重、可能涉及生死的事情；亦可誇張地指非常重要」是「19. a matter of life and death — 生死攸關的事」的用法，與本句語境不同。",
-        "matter-mcq-23": "「事實上；其實」是「as a matter of fact」的用法，與本句語境不同。"
+        "matter-mcq-26": "本句的「matter at hand」指「當前事情」。",
+        "matter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "matter-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "matter-mcq-26"
     }
@@ -2673,5 +2413,7 @@ export default {
     "sha256": "4f1222bd6d1d2637527da8976d40af23a8e99ca05078b4efe14315d931e858ed",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

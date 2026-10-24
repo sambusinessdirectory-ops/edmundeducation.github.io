@@ -759,11 +759,9 @@ export default {
       "masked": "She belonged to the ____.",
       "options": [
         "second-mcq-01",
-        "second-mcq-02",
-        "second-mcq-03",
-        "second-mcq-04",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-15",
+        "second-mcq-21",
+        "second-mcq-09"
       ],
       "explanation": "本句的「second group」指「在有順序的事物中排在第一之後；第二」。",
       "sentenceIndex": 0,
@@ -772,12 +770,10 @@ export default {
         "second group"
       ],
       "optionReasons": {
-        "second-mcq-01": "本句指「在有順序的事物中排在第一之後；第二」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-01": "本句的「second group」指「在有順序的事物中排在第一之後；第二」。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-01"
     },
@@ -789,11 +785,9 @@ export default {
       "masked": "Her office is on the ____.",
       "options": [
         "second-mcq-01",
-        "second-mcq-02",
-        "second-mcq-03",
-        "second-mcq-04",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-12",
+        "second-pdf-003",
+        "second-mcq-18"
       ],
       "explanation": "本句的「second floor」指「在有順序的事物中排在第一之後；第二」。",
       "sentenceIndex": 1,
@@ -802,12 +796,10 @@ export default {
         "second floor"
       ],
       "optionReasons": {
-        "second-mcq-01": "本句指「在有順序的事物中排在第一之後；第二」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-01": "本句的「second floor」指「在有順序的事物中排在第一之後；第二」。",
+        "second-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-01"
     },
@@ -819,11 +811,9 @@ export default {
       "masked": "This is my ____.",
       "options": [
         "second-mcq-01",
-        "second-mcq-02",
-        "second-mcq-03",
-        "second-mcq-04",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-06",
+        "second-mcq-22",
+        "second-pdf-003"
       ],
       "explanation": "本句的「second attempt」指「在有順序的事物中排在第一之後；第二」。",
       "sentenceIndex": 2,
@@ -832,12 +822,10 @@ export default {
         "second attempt"
       ],
       "optionReasons": {
-        "second-mcq-01": "本句指「在有順序的事物中排在第一之後；第二」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-01": "本句的「second attempt」指「在有順序的事物中排在第一之後；第二」。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-01"
     },
@@ -849,11 +837,9 @@ export default {
       "masked": "There were two options, and I chose the ____.",
       "options": [
         "second-mcq-02",
-        "second-mcq-01",
-        "second-mcq-03",
-        "second-mcq-04",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-27",
+        "second-mcq-06",
+        "second-pdf-003"
       ],
       "explanation": "本句的「second」指「在剛提到的兩個人／事物中指後面那一個」。",
       "sentenceIndex": 3,
@@ -862,12 +848,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-02": "本句指「在剛提到的兩個人／事物中指後面那一個」。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-02": "本句的「second」指「在剛提到的兩個人／事物中指後面那一個」。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-02"
     },
@@ -879,11 +863,9 @@ export default {
       "masked": "Of the two explanations, the ____ is clearer.",
       "options": [
         "second-mcq-02",
-        "second-mcq-01",
-        "second-mcq-03",
-        "second-mcq-04",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-23",
+        "second-mcq-21",
+        "second-mcq-19"
       ],
       "explanation": "本句的「second」指「在剛提到的兩個人／事物中指後面那一個」。",
       "sentenceIndex": 4,
@@ -892,12 +874,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-02": "本句指「在剛提到的兩個人／事物中指後面那一個」。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-02": "本句的「second」指「在剛提到的兩個人／事物中指後面那一個」。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-02"
     },
@@ -909,11 +889,9 @@ export default {
       "masked": "This is the ____ I’ve met her.",
       "options": [
         "second-mcq-03",
-        "second-mcq-02",
-        "second-mcq-04",
-        "second-mcq-01",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-18",
+        "second-mcq-21",
+        "second-mcq-15"
       ],
       "explanation": "本句的「second time」指「第一次之後再次發生／再獲一次機會」。",
       "sentenceIndex": 5,
@@ -922,12 +900,10 @@ export default {
         "second time"
       ],
       "optionReasons": {
-        "second-mcq-03": "本句指「第一次之後再次發生／再獲一次機會」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-03": "本句的「second time」指「第一次之後再次發生／再獲一次機會」。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-03"
     },
@@ -939,11 +915,9 @@ export default {
       "masked": "He was given a ____.",
       "options": [
         "second-mcq-03",
-        "second-mcq-02",
-        "second-mcq-04",
-        "second-mcq-01",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-27",
+        "second-mcq-14",
+        "second-mcq-11"
       ],
       "explanation": "本句的「second chance」指「第一次之後再次發生／再獲一次機會」。",
       "sentenceIndex": 6,
@@ -952,12 +926,10 @@ export default {
         "second chance"
       ],
       "optionReasons": {
-        "second-mcq-03": "本句指「第一次之後再次發生／再獲一次機會」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-03": "本句的「second chance」指「第一次之後再次發生／再獲一次機會」。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-03"
     },
@@ -969,11 +941,9 @@ export default {
       "masked": "Everyone deserves a ____.",
       "options": [
         "second-mcq-03",
-        "second-mcq-02",
-        "second-mcq-04",
-        "second-mcq-01",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-27",
+        "second-mcq-15",
+        "second-mcq-21"
       ],
       "explanation": "本句的「second chance」指「第一次之後再次發生／再獲一次機會」。",
       "sentenceIndex": 7,
@@ -982,12 +952,10 @@ export default {
         "second chance"
       ],
       "optionReasons": {
-        "second-mcq-03": "本句指「第一次之後再次發生／再獲一次機會」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-03": "本句的「second chance」指「第一次之後再次發生／再獲一次機會」。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-03"
     },
@@ -999,11 +967,9 @@ export default {
       "masked": "The project gave him a ____ chance to prove himself.",
       "options": [
         "second-mcq-03",
-        "second-mcq-02",
-        "second-mcq-04",
-        "second-mcq-01",
-        "second-mcq-05",
-        "second-mcq-06"
+        "second-mcq-22",
+        "second-mcq-18",
+        "second-mcq-19"
       ],
       "explanation": "本句的「second」指「第一次之後再次發生／再獲一次機會」。",
       "sentenceIndex": 8,
@@ -1012,12 +978,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-03": "本句指「第一次之後再次發生／再獲一次機會」。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-03": "本句的「second」指「第一次之後再次發生／再獲一次機會」。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-03"
     },
@@ -1029,11 +993,9 @@ export default {
       "masked": "She finished ____ in the race.",
       "options": [
         "second-pdf-001",
-        "second-mcq-03",
-        "second-mcq-05",
-        "second-mcq-02",
-        "second-mcq-06",
-        "second-mcq-01"
+        "second-mcq-11",
+        "second-mcq-19",
+        "second-mcq-22"
       ],
       "explanation": "本句的「second」指「在比賽、排名或評比中排在第一之後」。",
       "sentenceIndex": 9,
@@ -1042,12 +1004,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-pdf-001": "本句指「在比賽、排名或評比中排在第一之後」。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。"
+        "second-pdf-001": "本句的「second」指「在比賽、排名或評比中排在第一之後」。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-001"
     },
@@ -1059,11 +1019,9 @@ export default {
       "masked": "Their team came ____.",
       "options": [
         "second-pdf-001",
-        "second-mcq-03",
-        "second-mcq-05",
-        "second-mcq-02",
-        "second-mcq-06",
-        "second-mcq-01"
+        "second-mcq-27",
+        "second-mcq-19",
+        "second-mcq-08"
       ],
       "explanation": "本句的「second」指「在比賽、排名或評比中排在第一之後」。",
       "sentenceIndex": 10,
@@ -1072,12 +1030,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-pdf-001": "本句指「在比賽、排名或評比中排在第一之後」。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。"
+        "second-pdf-001": "本句的「second」指「在比賽、排名或評比中排在第一之後」。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-001"
     },
@@ -1089,11 +1045,9 @@ export default {
       "masked": "He came in ____.",
       "options": [
         "second-mcq-04",
-        "second-mcq-03",
-        "second-mcq-05",
-        "second-mcq-02",
-        "second-mcq-06",
-        "second-mcq-01"
+        "second-pdf-002",
+        "second-mcq-15",
+        "second-mcq-02"
       ],
       "explanation": "本句的「second place」指「排名緊接第一名的位置」。",
       "sentenceIndex": 11,
@@ -1102,12 +1056,10 @@ export default {
         "second place"
       ],
       "optionReasons": {
-        "second-mcq-04": "本句指「排名緊接第一名的位置」。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。"
+        "second-mcq-04": "本句的「second place」指「排名緊接第一名的位置」。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-04"
     },
@@ -1119,11 +1071,9 @@ export default {
       "masked": "The team finished in ____ place.",
       "options": [
         "second-mcq-04",
-        "second-mcq-03",
-        "second-mcq-05",
-        "second-mcq-02",
-        "second-mcq-06",
-        "second-mcq-01"
+        "second-mcq-27",
+        "second-mcq-15",
+        "second-pdf-003"
       ],
       "explanation": "本句的「second」指「排名緊接第一名的位置」。",
       "sentenceIndex": 12,
@@ -1132,12 +1082,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-04": "本句指「排名緊接第一名的位置」。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-01": "「在有順序的事物中排在第一之後；第二」是「second — ordinal」的用法，與本句語境不同。"
+        "second-mcq-04": "本句的「second」指「排名緊接第一名的位置」。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-04"
     },
@@ -1149,11 +1097,9 @@ export default {
       "masked": "Her influence was ____ her parents’.",
       "options": [
         "second-mcq-05",
-        "second-mcq-04",
-        "second-mcq-06",
-        "second-mcq-03",
-        "second-mcq-07",
-        "second-mcq-02"
+        "second-mcq-08",
+        "second-pdf-002",
+        "second-mcq-13"
       ],
       "explanation": "本句的「second only to」指「只排在指定對象之後，而高於其他所有對象」。",
       "sentenceIndex": 13,
@@ -1162,12 +1108,10 @@ export default {
         "second only to"
       ],
       "optionReasons": {
-        "second-mcq-05": "本句指「只排在指定對象之後，而高於其他所有對象」。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。"
+        "second-mcq-05": "本句的「second only to」指「只排在指定對象之後，而高於其他所有對象」。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-05"
     },
@@ -1179,11 +1123,9 @@ export default {
       "masked": "The city is ____ only to the capital in size.",
       "options": [
         "second-mcq-05",
-        "second-mcq-04",
+        "second-pdf-004",
         "second-mcq-06",
-        "second-mcq-03",
-        "second-mcq-07",
-        "second-mcq-02"
+        "second-mcq-08"
       ],
       "explanation": "本句的「second」指「只排在指定對象之後，而高於其他所有對象」。",
       "sentenceIndex": 14,
@@ -1192,12 +1134,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-05": "本句指「只排在指定對象之後，而高於其他所有對象」。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-02": "「在剛提到的兩個人／事物中指後面那一個」是「the second — latter」的用法，與本句語境不同。"
+        "second-mcq-05": "本句的「second」指「只排在指定對象之後，而高於其他所有對象」。",
+        "second-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-05"
     },
@@ -1209,11 +1149,9 @@ export default {
       "masked": "Her patience is ____.",
       "options": [
         "second-mcq-06",
-        "second-mcq-05",
         "second-mcq-07",
-        "second-mcq-04",
-        "second-mcq-08",
-        "second-mcq-03"
+        "second-mcq-17",
+        "second-mcq-14"
       ],
       "explanation": "本句的「second to none」指「不遜於任何人／事物；非常出色、頂尖」。",
       "sentenceIndex": 15,
@@ -1222,12 +1160,10 @@ export default {
         "second to none"
       ],
       "optionReasons": {
-        "second-mcq-06": "本句指「不遜於任何人／事物；非常出色、頂尖」。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。"
+        "second-mcq-06": "本句的「second to none」指「不遜於任何人／事物；非常出色、頂尖」。",
+        "second-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-06"
     },
@@ -1239,11 +1175,9 @@ export default {
       "masked": "Their customer service is ____ to none.",
       "options": [
         "second-mcq-06",
-        "second-mcq-05",
-        "second-mcq-07",
-        "second-mcq-04",
-        "second-mcq-08",
-        "second-mcq-03"
+        "second-pdf-001",
+        "second-mcq-27",
+        "second-pdf-002"
       ],
       "explanation": "本句的「second」指「不遜於任何人／事物；非常出色、頂尖」。",
       "sentenceIndex": 16,
@@ -1252,12 +1186,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-06": "本句指「不遜於任何人／事物；非常出色、頂尖」。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-03": "「第一次之後再次發生／再獲一次機會」是「second time/chance」的用法，與本句語境不同。"
+        "second-mcq-06": "本句的「second」指「不遜於任何人／事物；非常出色、頂尖」。",
+        "second-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-06"
     },
@@ -1269,11 +1201,9 @@ export default {
       "masked": "Would you like a ____?",
       "options": [
         "second-mcq-07",
-        "second-mcq-06",
-        "second-mcq-08",
-        "second-mcq-05",
+        "second-mcq-23",
         "second-mcq-09",
-        "second-mcq-04"
+        "second-mcq-13"
       ],
       "explanation": "本句的「second cup of tea」指「第一個之後再增加一個同類事物」。",
       "sentenceIndex": 17,
@@ -1282,12 +1212,10 @@ export default {
         "second cup of tea"
       ],
       "optionReasons": {
-        "second-mcq-07": "本句指「第一個之後再增加一個同類事物」。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。"
+        "second-mcq-07": "本句的「second cup of tea」指「第一個之後再增加一個同類事物」。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-07"
     },
@@ -1299,11 +1227,9 @@ export default {
       "masked": "She asked a ____ question.",
       "options": [
         "second-mcq-07",
-        "second-mcq-06",
         "second-mcq-08",
-        "second-mcq-05",
-        "second-mcq-09",
-        "second-mcq-04"
+        "second-mcq-15",
+        "second-mcq-06"
       ],
       "explanation": "本句的「second」指「第一個之後再增加一個同類事物」。",
       "sentenceIndex": 18,
@@ -1312,12 +1238,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-07": "本句指「第一個之後再增加一個同類事物」。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-04": "「排名緊接第一名的位置」是「second place」的用法，與本句語境不同。"
+        "second-mcq-07": "本句的「second」指「第一個之後再增加一個同類事物」。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-07"
     },
@@ -1329,10 +1253,8 @@ export default {
       "masked": "He had a ____ of dessert.",
       "options": [
         "second-pdf-002",
-        "second-mcq-07",
-        "second-mcq-09",
-        "second-mcq-06",
-        "second-mcq-10",
+        "second-mcq-14",
+        "second-mcq-08",
         "second-mcq-05"
       ],
       "explanation": "本句的「second helping」指「同一道食物再吃一份」。",
@@ -1342,12 +1264,10 @@ export default {
         "second helping"
       ],
       "optionReasons": {
-        "second-pdf-002": "本句指「同一道食物再吃一份」。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。"
+        "second-pdf-002": "本句的「second helping」指「同一道食物再吃一份」。",
+        "second-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-002"
     },
@@ -1359,11 +1279,9 @@ export default {
       "masked": "Would you like a ____ helping?",
       "options": [
         "second-pdf-002",
-        "second-mcq-07",
-        "second-mcq-09",
-        "second-mcq-06",
         "second-mcq-10",
-        "second-mcq-05"
+        "second-pdf-001",
+        "second-mcq-14"
       ],
       "explanation": "本句的「second」指「同一道食物再吃一份」。",
       "sentenceIndex": 20,
@@ -1372,12 +1290,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-pdf-002": "本句指「同一道食物再吃一份」。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。"
+        "second-pdf-002": "本句的「second」指「同一道食物再吃一份」。",
+        "second-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-002"
     },
@@ -1389,11 +1305,9 @@ export default {
       "masked": "Wait a ____.",
       "options": [
         "second-mcq-08",
-        "second-mcq-07",
-        "second-mcq-09",
+        "second-mcq-03",
         "second-mcq-06",
-        "second-mcq-10",
-        "second-mcq-05"
+        "second-mcq-27"
       ],
       "explanation": "本句的「second」指「等於六十分之一分鐘的時間單位」。",
       "sentenceIndex": 21,
@@ -1402,12 +1316,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-08": "本句指「等於六十分之一分鐘的時間單位」。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。"
+        "second-mcq-08": "本句的「second」指「等於六十分之一分鐘的時間單位」。",
+        "second-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-08"
     },
@@ -1419,11 +1331,9 @@ export default {
       "masked": "The race lasted ten ____.",
       "options": [
         "second-mcq-08",
-        "second-mcq-07",
-        "second-mcq-09",
-        "second-mcq-06",
-        "second-mcq-10",
-        "second-mcq-05"
+        "second-mcq-11",
+        "second-mcq-17",
+        "second-mcq-21"
       ],
       "explanation": "本句的「seconds」指「等於六十分之一分鐘的時間單位」。",
       "sentenceIndex": 22,
@@ -1432,12 +1342,10 @@ export default {
         "seconds"
       ],
       "optionReasons": {
-        "second-mcq-08": "本句指「等於六十分之一分鐘的時間單位」。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-05": "「只排在指定對象之後，而高於其他所有對象」是「second only to」的用法，與本句語境不同。"
+        "second-mcq-08": "本句的「seconds」指「等於六十分之一分鐘的時間單位」。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-08"
     },
@@ -1449,11 +1357,9 @@ export default {
       "masked": "Give me a ____.",
       "options": [
         "second-mcq-09",
-        "second-mcq-08",
-        "second-mcq-10",
-        "second-mcq-07",
-        "second-mcq-11",
-        "second-mcq-06"
+        "second-mcq-16",
+        "second-mcq-15",
+        "second-mcq-27"
       ],
       "explanation": "本句的「second」指「非正式指非常短的一段時間」。",
       "sentenceIndex": 23,
@@ -1462,12 +1368,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-09": "本句指「非正式指非常短的一段時間」。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-09": "本句的「second」指「非正式指非常短的一段時間」。",
+        "second-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-09"
     },
@@ -1479,11 +1383,9 @@ export default {
       "masked": "Can I speak to you for a ____?",
       "options": [
         "second-mcq-09",
-        "second-mcq-08",
-        "second-mcq-10",
-        "second-mcq-07",
-        "second-mcq-11",
-        "second-mcq-06"
+        "second-mcq-01",
+        "second-mcq-20",
+        "second-mcq-27"
       ],
       "explanation": "本句的「second」指「非正式指非常短的一段時間」。",
       "sentenceIndex": 24,
@@ -1492,12 +1394,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-09": "本句指「非正式指非常短的一段時間」。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-09": "本句的「second」指「非正式指非常短的一段時間」。",
+        "second-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-09"
     },
@@ -1509,11 +1409,9 @@ export default {
       "masked": "I’ll be there ____.",
       "options": [
         "second-mcq-09",
-        "second-mcq-08",
-        "second-mcq-10",
-        "second-mcq-07",
-        "second-mcq-11",
-        "second-mcq-06"
+        "second-mcq-18",
+        "second-mcq-22",
+        "second-mcq-24"
       ],
       "explanation": "本句的「in a second」指「非正式指非常短的一段時間」。",
       "sentenceIndex": 25,
@@ -1522,12 +1420,10 @@ export default {
         "in a second"
       ],
       "optionReasons": {
-        "second-mcq-09": "本句指「非正式指非常短的一段時間」。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-09": "本句的「in a second」指「非正式指非常短的一段時間」。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-09"
     },
@@ -1539,11 +1435,9 @@ export default {
       "masked": "She’ll call you back in a ____.",
       "options": [
         "second-mcq-09",
-        "second-mcq-08",
-        "second-mcq-10",
-        "second-mcq-07",
-        "second-mcq-11",
-        "second-mcq-06"
+        "second-mcq-03",
+        "second-mcq-19",
+        "second-pdf-002"
       ],
       "explanation": "本句的「second」指「非正式指非常短的一段時間」。",
       "sentenceIndex": 26,
@@ -1552,12 +1446,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-09": "本句指「非正式指非常短的一段時間」。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-06": "「不遜於任何人／事物；非常出色、頂尖」是「second to none」的用法，與本句語境不同。"
+        "second-mcq-09": "本句的「second」指「非正式指非常短的一段時間」。",
+        "second-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-09"
     },
@@ -1569,11 +1461,9 @@ export default {
       "masked": "Only a few ____ remained.",
       "options": [
         "second-pdf-003",
-        "second-mcq-09",
-        "second-mcq-11",
-        "second-mcq-08",
-        "second-mcq-12",
-        "second-mcq-07"
+        "second-mcq-17",
+        "second-mcq-25",
+        "second-mcq-23"
       ],
       "explanation": "本句的「seconds」指「以秒計算的短時間」。",
       "sentenceIndex": 27,
@@ -1582,12 +1472,10 @@ export default {
         "seconds"
       ],
       "optionReasons": {
-        "second-pdf-003": "本句指「以秒計算的短時間」。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。"
+        "second-pdf-003": "本句的「seconds」指「以秒計算的短時間」。",
+        "second-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-003"
     },
@@ -1599,11 +1487,9 @@ export default {
       "masked": "The difference was less than two ____.",
       "options": [
         "second-pdf-003",
-        "second-mcq-09",
-        "second-mcq-11",
-        "second-mcq-08",
-        "second-mcq-12",
-        "second-mcq-07"
+        "second-mcq-21",
+        "second-mcq-15",
+        "second-mcq-25"
       ],
       "explanation": "本句的「seconds」指「以秒計算的短時間」。",
       "sentenceIndex": 28,
@@ -1612,12 +1498,10 @@ export default {
         "seconds"
       ],
       "optionReasons": {
-        "second-pdf-003": "本句指「以秒計算的短時間」。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。"
+        "second-pdf-003": "本句的「seconds」指「以秒計算的短時間」。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-003"
     },
@@ -1629,11 +1513,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "second-mcq-10",
-        "second-mcq-09",
-        "second-mcq-11",
-        "second-mcq-08",
-        "second-mcq-12",
-        "second-mcq-07"
+        "second-mcq-19",
+        "second-pdf-003",
+        "second-mcq-22"
       ],
       "explanation": "本句的「second the motion」指「正式支持／附議某項動議，使其可繼續處理」。",
       "sentenceIndex": 29,
@@ -1642,12 +1524,10 @@ export default {
         "second the motion"
       ],
       "optionReasons": {
-        "second-mcq-10": "本句指「正式支持／附議某項動議，使其可繼續處理」。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。"
+        "second-mcq-10": "本句的「second the motion」指「正式支持／附議某項動議，使其可繼續處理」。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-10"
     },
@@ -1659,11 +1539,9 @@ export default {
       "masked": "The proposal was ____ by another member.",
       "options": [
         "second-mcq-10",
-        "second-mcq-09",
-        "second-mcq-11",
-        "second-mcq-08",
-        "second-mcq-12",
-        "second-mcq-07"
+        "second-mcq-14",
+        "second-pdf-004",
+        "second-mcq-27"
       ],
       "explanation": "本句的「seconded」指「正式支持／附議某項動議，使其可繼續處理」。",
       "sentenceIndex": 30,
@@ -1672,12 +1550,10 @@ export default {
         "seconded"
       ],
       "optionReasons": {
-        "second-mcq-10": "本句指「正式支持／附議某項動議，使其可繼續處理」。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-07": "「第一個之後再增加一個同類事物」是「second — additional」的用法，與本句語境不同。"
+        "second-mcq-10": "本句的「seconded」指「正式支持／附議某項動議，使其可繼續處理」。",
+        "second-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-10"
     },
@@ -1689,11 +1565,9 @@ export default {
       "masked": "‘We should leave early.’ ‘I ____.’",
       "options": [
         "second-mcq-11",
-        "second-mcq-10",
-        "second-mcq-12",
-        "second-mcq-09",
-        "second-mcq-13",
-        "second-mcq-08"
+        "second-mcq-28",
+        "second-mcq-26",
+        "second-mcq-16"
       ],
       "explanation": "本句的「second that」指「非正式表示自己完全贊同剛才的說法」。",
       "sentenceIndex": 31,
@@ -1702,12 +1576,10 @@ export default {
         "second that"
       ],
       "optionReasons": {
-        "second-mcq-11": "本句指「非正式表示自己完全贊同剛才的說法」。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。"
+        "second-mcq-11": "本句的「second that」指「非正式表示自己完全贊同剛才的說法」。",
+        "second-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-11"
     },
@@ -1719,10 +1591,8 @@ export default {
       "masked": "‘This tea is excellent.’ ‘I ____ that.’",
       "options": [
         "second-mcq-11",
-        "second-mcq-10",
-        "second-mcq-12",
-        "second-mcq-09",
-        "second-mcq-13",
+        "second-mcq-24",
+        "second-pdf-001",
         "second-mcq-08"
       ],
       "explanation": "本句的「second」指「非正式表示自己完全贊同剛才的說法」。",
@@ -1732,12 +1602,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-11": "本句指「非正式表示自己完全贊同剛才的說法」。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-08": "「等於六十分之一分鐘的時間單位」是「second — time」的用法，與本句語境不同。"
+        "second-mcq-11": "本句的「second」指「非正式表示自己完全贊同剛才的說法」。",
+        "second-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-11"
     },
@@ -1749,11 +1617,9 @@ export default {
       "masked": "She was ____ an experienced assistant.",
       "options": [
         "second-mcq-12",
-        "second-mcq-11",
-        "second-mcq-13",
-        "second-mcq-10",
-        "second-mcq-14",
-        "second-mcq-09"
+        "second-mcq-25",
+        "second-mcq-02",
+        "second-mcq-27"
       ],
       "explanation": "本句的「seconded by」指「在任務／競爭中協助、支援某人」。",
       "sentenceIndex": 33,
@@ -1762,12 +1628,10 @@ export default {
         "seconded by"
       ],
       "optionReasons": {
-        "second-mcq-12": "本句指「在任務／競爭中協助、支援某人」。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。"
+        "second-mcq-12": "本句的「seconded by」指「在任務／競爭中協助、支援某人」。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-12"
     },
@@ -1779,11 +1643,9 @@ export default {
       "masked": "He ____ the leader during the discussion.",
       "options": [
         "second-mcq-12",
+        "second-mcq-18",
         "second-mcq-11",
-        "second-mcq-13",
-        "second-mcq-10",
-        "second-mcq-14",
-        "second-mcq-09"
+        "second-mcq-08"
       ],
       "explanation": "本句的「seconded」指「在任務／競爭中協助、支援某人」。",
       "sentenceIndex": 34,
@@ -1792,12 +1654,10 @@ export default {
         "seconded"
       ],
       "optionReasons": {
-        "second-mcq-12": "本句指「在任務／競爭中協助、支援某人」。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-09": "「非正式指非常短的一段時間」是「a second — moment」的用法，與本句語境不同。"
+        "second-mcq-12": "本句的「seconded」指「在任務／競爭中協助、支援某人」。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-12"
     },
@@ -1809,11 +1669,9 @@ export default {
       "masked": "She was ____ another department for six months.",
       "options": [
         "second-mcq-13",
-        "second-mcq-12",
-        "second-mcq-14",
+        "second-mcq-23",
         "second-mcq-11",
-        "second-mcq-15",
-        "second-mcq-10"
+        "second-mcq-07"
       ],
       "explanation": "本句的「seconded to」指「暫時把員工派往另一部門／機構工作；借調」。",
       "sentenceIndex": 35,
@@ -1822,12 +1680,10 @@ export default {
         "seconded to"
       ],
       "optionReasons": {
-        "second-mcq-13": "本句指「暫時把員工派往另一部門／機構工作；借調」。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。"
+        "second-mcq-13": "本句的「seconded to」指「暫時把員工派往另一部門／機構工作；借調」。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-13"
     },
@@ -1839,11 +1695,9 @@ export default {
       "masked": "He was ____ to the overseas office.",
       "options": [
         "second-mcq-13",
-        "second-mcq-12",
-        "second-mcq-14",
-        "second-mcq-11",
-        "second-mcq-15",
-        "second-mcq-10"
+        "second-pdf-002",
+        "second-mcq-01",
+        "second-mcq-27"
       ],
       "explanation": "本句的「seconded」指「暫時把員工派往另一部門／機構工作；借調」。",
       "sentenceIndex": 36,
@@ -1852,12 +1706,10 @@ export default {
         "seconded"
       ],
       "optionReasons": {
-        "second-mcq-13": "本句指「暫時把員工派往另一部門／機構工作；借調」。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-10": "「正式支持／附議某項動議，使其可繼續處理」是「second a motion」的用法，與本句語境不同。"
+        "second-mcq-13": "本句的「seconded」指「暫時把員工派往另一部門／機構工作；借調」。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-13"
     },
@@ -1869,10 +1721,8 @@ export default {
       "masked": "She is on a six-month ____.",
       "options": [
         "second-mcq-14",
-        "second-mcq-13",
         "second-mcq-15",
-        "second-mcq-12",
-        "second-mcq-16",
+        "second-mcq-28",
         "second-mcq-11"
       ],
       "explanation": "本句的「secondment」指「暫時調派到另一崗位／部門／組織的工作安排」。",
@@ -1882,12 +1732,10 @@ export default {
         "secondment"
       ],
       "optionReasons": {
-        "second-mcq-14": "本句指「暫時調派到另一崗位／部門／組織的工作安排」。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。"
+        "second-mcq-14": "本句的「secondment」指「暫時調派到另一崗位／部門／組織的工作安排」。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-14"
     },
@@ -1899,11 +1747,9 @@ export default {
       "masked": "The ____ gave him international experience.",
       "options": [
         "second-mcq-14",
-        "second-mcq-13",
-        "second-mcq-15",
-        "second-mcq-12",
-        "second-mcq-16",
-        "second-mcq-11"
+        "second-mcq-28",
+        "second-mcq-18",
+        "second-mcq-22"
       ],
       "explanation": "本句的「secondment」指「暫時調派到另一崗位／部門／組織的工作安排」。",
       "sentenceIndex": 38,
@@ -1912,12 +1758,10 @@ export default {
         "secondment"
       ],
       "optionReasons": {
-        "second-mcq-14": "本句指「暫時調派到另一崗位／部門／組織的工作安排」。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-11": "「非正式表示自己完全贊同剛才的說法」是「I second that」的用法，與本句語境不同。"
+        "second-mcq-14": "本句的「secondment」指「暫時調派到另一崗位／部門／組織的工作安排」。",
+        "second-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-14"
     },
@@ -1929,11 +1773,9 @@ export default {
       "masked": "The boxer returned to his ____ between rounds.",
       "options": [
         "second-mcq-15",
-        "second-mcq-14",
-        "second-mcq-16",
-        "second-mcq-13",
-        "second-mcq-17",
-        "second-mcq-12"
+        "second-mcq-25",
+        "second-mcq-22",
+        "second-mcq-19"
       ],
       "explanation": "本句的「second」指「在拳擊、競賽等場合協助參與者的人」。",
       "sentenceIndex": 39,
@@ -1942,12 +1784,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-15": "本句指「在拳擊、競賽等場合協助參與者的人」。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。"
+        "second-mcq-15": "本句的「second」指「在拳擊、競賽等場合協助參與者的人」。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-15"
     },
@@ -1959,11 +1799,9 @@ export default {
       "masked": "His ____ gave him advice before the next round.",
       "options": [
         "second-mcq-15",
-        "second-mcq-14",
-        "second-mcq-16",
-        "second-mcq-13",
-        "second-mcq-17",
-        "second-mcq-12"
+        "second-pdf-004",
+        "second-mcq-09",
+        "second-mcq-18"
       ],
       "explanation": "本句的「second」指「在拳擊、競賽等場合協助參與者的人」。",
       "sentenceIndex": 40,
@@ -1972,12 +1810,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-15": "本句指「在拳擊、競賽等場合協助參與者的人」。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-12": "「在任務／競爭中協助、支援某人」是「second — assist」的用法，與本句語境不同。"
+        "second-mcq-15": "本句的「second」指「在拳擊、競賽等場合協助參與者的人」。",
+        "second-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-15"
     },
@@ -1989,11 +1825,9 @@ export default {
       "masked": "I’m having ____ about the decision.",
       "options": [
         "second-mcq-16",
-        "second-mcq-15",
-        "second-mcq-17",
-        "second-mcq-14",
-        "second-mcq-18",
-        "second-mcq-13"
+        "second-mcq-20",
+        "second-mcq-08",
+        "second-pdf-002"
       ],
       "explanation": "本句的「second thoughts」指「第一次決定後重新考慮並開始懷疑原本選擇」。",
       "sentenceIndex": 41,
@@ -2002,12 +1836,10 @@ export default {
         "second thoughts"
       ],
       "optionReasons": {
-        "second-mcq-16": "本句指「第一次決定後重新考慮並開始懷疑原本選擇」。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。"
+        "second-mcq-16": "本句的「second thoughts」指「第一次決定後重新考慮並開始懷疑原本選擇」。",
+        "second-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-16"
     },
@@ -2019,11 +1851,9 @@ export default {
       "masked": "She accepted the offer without a ____ thought.",
       "options": [
         "second-mcq-16",
-        "second-mcq-15",
-        "second-mcq-17",
-        "second-mcq-14",
-        "second-mcq-18",
-        "second-mcq-13"
+        "second-pdf-003",
+        "second-mcq-22",
+        "second-mcq-11"
       ],
       "explanation": "本句的「second」指「第一次決定後重新考慮並開始懷疑原本選擇」。",
       "sentenceIndex": 42,
@@ -2032,12 +1862,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-16": "本句指「第一次決定後重新考慮並開始懷疑原本選擇」。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-13": "「暫時把員工派往另一部門／機構工作；借調」是「second — workplace」的用法，與本句語境不同。"
+        "second-mcq-16": "本句的「second」指「第一次決定後重新考慮並開始懷疑原本選擇」。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-16"
     },
@@ -2049,11 +1877,9 @@ export default {
       "masked": "She helped him ____.",
       "options": [
         "second-mcq-18",
-        "second-mcq-17",
-        "second-mcq-19",
-        "second-mcq-16",
-        "second-mcq-20",
-        "second-mcq-15"
+        "second-mcq-09",
+        "second-pdf-002",
+        "second-mcq-03"
       ],
       "explanation": "本句的「without a second thought」指「不需要重新考慮，毫不猶豫地」。",
       "sentenceIndex": 43,
@@ -2062,12 +1888,10 @@ export default {
         "without a second thought"
       ],
       "optionReasons": {
-        "second-mcq-18": "本句指「不需要重新考慮，毫不猶豫地」。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。"
+        "second-mcq-18": "本句的「without a second thought」指「不需要重新考慮，毫不猶豫地」。",
+        "second-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-18"
     },
@@ -2079,11 +1903,9 @@ export default {
       "masked": "He agreed without a ____ thought.",
       "options": [
         "second-mcq-18",
-        "second-mcq-17",
-        "second-mcq-19",
-        "second-mcq-16",
-        "second-mcq-20",
-        "second-mcq-15"
+        "second-mcq-13",
+        "second-mcq-10",
+        "second-mcq-05"
       ],
       "explanation": "本句的「second」指「不需要重新考慮，毫不猶豫地」。",
       "sentenceIndex": 44,
@@ -2092,12 +1914,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-18": "本句指「不需要重新考慮，毫不猶豫地」。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。"
+        "second-mcq-18": "本句的「second」指「不需要重新考慮，毫不猶豫地」。",
+        "second-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-18"
     },
@@ -2109,11 +1929,9 @@ export default {
       "masked": "____, I’ll stay home.",
       "options": [
         "second-mcq-17",
-        "second-mcq-16",
-        "second-mcq-18",
-        "second-mcq-15",
-        "second-mcq-19",
-        "second-mcq-14"
+        "second-pdf-002",
+        "second-mcq-08",
+        "second-mcq-04"
       ],
       "explanation": "本句的「On second thought」指「重新考慮後修正／改變原來想法」。",
       "sentenceIndex": 45,
@@ -2122,12 +1940,10 @@ export default {
         "On second thought"
       ],
       "optionReasons": {
-        "second-mcq-17": "本句指「重新考慮後修正／改變原來想法」。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。"
+        "second-mcq-17": "本句的「On second thought」指「重新考慮後修正／改變原來想法」。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-17"
     },
@@ -2139,11 +1955,9 @@ export default {
       "masked": "On ____ thoughts, maybe we should wait.",
       "options": [
         "second-mcq-17",
-        "second-mcq-16",
-        "second-mcq-18",
-        "second-mcq-15",
-        "second-mcq-19",
-        "second-mcq-14"
+        "second-mcq-04",
+        "second-mcq-08",
+        "second-mcq-12"
       ],
       "explanation": "本句的「second」指「重新考慮後修正／改變原來想法」。",
       "sentenceIndex": 46,
@@ -2152,12 +1966,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-17": "本句指「重新考慮後修正／改變原來想法」。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-15": "「在拳擊、競賽等場合協助參與者的人」是「a second — assistant」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-14": "「暫時調派到另一崗位／部門／組織的工作安排」是「secondment」的用法，與本句語境不同。"
+        "second-mcq-17": "本句的「second」指「重新考慮後修正／改變原來想法」。",
+        "second-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-17"
     },
@@ -2169,11 +1981,9 @@ export default {
       "masked": "Speaking in public eventually became ____ to her.",
       "options": [
         "second-mcq-19",
-        "second-mcq-18",
-        "second-mcq-20",
-        "second-mcq-17",
-        "second-mcq-21",
-        "second-mcq-16"
+        "second-mcq-02",
+        "second-mcq-22",
+        "second-mcq-12"
       ],
       "explanation": "本句的「second nature」指「經長期練習形成、做起來幾乎不用思考的習慣／能力」。",
       "sentenceIndex": 47,
@@ -2182,12 +1992,10 @@ export default {
         "second nature"
       ],
       "optionReasons": {
-        "second-mcq-19": "本句指「經長期練習形成、做起來幾乎不用思考的習慣／能力」。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。"
+        "second-mcq-19": "本句的「second nature」指「經長期練習形成、做起來幾乎不用思考的習慣／能力」。",
+        "second-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-19"
     },
@@ -2199,11 +2007,9 @@ export default {
       "masked": "After years of practice, checking the details became ____ nature.",
       "options": [
         "second-mcq-19",
-        "second-mcq-18",
-        "second-mcq-20",
-        "second-mcq-17",
-        "second-mcq-21",
-        "second-mcq-16"
+        "second-mcq-22",
+        "second-mcq-25",
+        "second-mcq-08"
       ],
       "explanation": "本句的「second」指「經長期練習形成、做起來幾乎不用思考的習慣／能力」。",
       "sentenceIndex": 48,
@@ -2212,12 +2018,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-19": "本句指「經長期練習形成、做起來幾乎不用思考的習慣／能力」。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-16": "「第一次決定後重新考慮並開始懷疑原本選擇」是「second thoughts」的用法，與本句語境不同。"
+        "second-mcq-19": "本句的「second」指「經長期練習形成、做起來幾乎不用思考的習慣／能力」。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-19"
     },
@@ -2229,11 +2033,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "second-mcq-20",
-        "second-mcq-19",
-        "second-mcq-21",
-        "second-mcq-18",
-        "second-mcq-22",
-        "second-mcq-17"
+        "second-mcq-24",
+        "second-mcq-25",
+        "second-mcq-08"
       ],
       "explanation": "本句的「second-hand car」指「曾由其他人擁有／使用過的二手物品」。",
       "sentenceIndex": 49,
@@ -2242,12 +2044,10 @@ export default {
         "second-hand car"
       ],
       "optionReasons": {
-        "second-mcq-20": "本句指「曾由其他人擁有／使用過的二手物品」。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。"
+        "second-mcq-20": "本句的「second-hand car」指「曾由其他人擁有／使用過的二手物品」。",
+        "second-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-20"
     },
@@ -2259,11 +2059,9 @@ export default {
       "masked": "I only heard the story ____.",
       "options": [
         "second-mcq-20",
-        "second-mcq-19",
-        "second-mcq-21",
-        "second-mcq-18",
-        "second-mcq-22",
-        "second-mcq-17"
+        "second-mcq-27",
+        "second-mcq-24",
+        "second-mcq-07"
       ],
       "explanation": "本句的「second-hand」指「曾由其他人擁有／使用過的二手物品」。",
       "sentenceIndex": 50,
@@ -2272,12 +2070,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-mcq-20": "本句指「曾由其他人擁有／使用過的二手物品」。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。"
+        "second-mcq-20": "本句的「second-hand」指「曾由其他人擁有／使用過的二手物品」。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-20"
     },
@@ -2289,11 +2085,9 @@ export default {
       "masked": "The shop sells ____.",
       "options": [
         "second-mcq-20",
-        "second-mcq-19",
-        "second-mcq-21",
-        "second-mcq-18",
-        "second-mcq-22",
-        "second-mcq-17"
+        "second-mcq-25",
+        "second-mcq-23",
+        "second-mcq-09"
       ],
       "explanation": "本句的「second-hand books」指「曾由其他人擁有／使用過的二手物品」。",
       "sentenceIndex": 51,
@@ -2302,12 +2096,10 @@ export default {
         "second-hand books"
       ],
       "optionReasons": {
-        "second-mcq-20": "本句指「曾由其他人擁有／使用過的二手物品」。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。"
+        "second-mcq-20": "本句的「second-hand books」指「曾由其他人擁有／使用過的二手物品」。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-20"
     },
@@ -2319,11 +2111,9 @@ export default {
       "masked": "Buying ____ furniture can save money.",
       "options": [
         "second-mcq-20",
-        "second-mcq-19",
-        "second-mcq-21",
         "second-mcq-18",
-        "second-mcq-22",
-        "second-mcq-17"
+        "second-pdf-004",
+        "second-mcq-24"
       ],
       "explanation": "本句的「second-hand」指「曾由其他人擁有／使用過的二手物品」。",
       "sentenceIndex": 52,
@@ -2332,12 +2122,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-mcq-20": "本句指「曾由其他人擁有／使用過的二手物品」。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-17": "「重新考慮後修正／改變原來想法」是「on second thought(s)」的用法，與本句語境不同。"
+        "second-mcq-20": "本句的「second-hand」指「曾由其他人擁有／使用過的二手物品」。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-20"
     },
@@ -2349,9 +2137,7 @@ export default {
       "masked": "The report is based on ____.",
       "options": [
         "second-mcq-21",
-        "second-mcq-20",
-        "second-mcq-22",
-        "second-mcq-19",
+        "second-mcq-10",
         "second-mcq-23",
         "second-mcq-18"
       ],
@@ -2362,12 +2148,10 @@ export default {
         "second-hand information"
       ],
       "optionReasons": {
-        "second-mcq-21": "本句指「並非直接從原始來源取得，而經他人轉述的資訊」。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。"
+        "second-mcq-21": "本句的「second-hand information」指「並非直接從原始來源取得，而經他人轉述的資訊」。",
+        "second-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-21"
     },
@@ -2379,11 +2163,9 @@ export default {
       "masked": "I prefer direct evidence to ____ accounts.",
       "options": [
         "second-mcq-21",
-        "second-mcq-20",
-        "second-mcq-22",
-        "second-mcq-19",
-        "second-mcq-23",
-        "second-mcq-18"
+        "second-pdf-001",
+        "second-mcq-10",
+        "second-mcq-22"
       ],
       "explanation": "本句的「second-hand」指「並非直接從原始來源取得，而經他人轉述的資訊」。",
       "sentenceIndex": 54,
@@ -2392,12 +2174,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-mcq-21": "本句指「並非直接從原始來源取得，而經他人轉述的資訊」。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-18": "「不需要重新考慮，毫不猶豫地」是「without a second thought」的用法，與本句語境不同。"
+        "second-mcq-21": "本句的「second-hand」指「並非直接從原始來源取得，而經他人轉述的資訊」。",
+        "second-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-21"
     },
@@ -2410,10 +2190,8 @@ export default {
       "options": [
         "second-mcq-22",
         "second-mcq-21",
-        "second-mcq-23",
-        "second-mcq-20",
-        "second-mcq-24",
-        "second-mcq-19"
+        "second-mcq-09",
+        "second-mcq-07"
       ],
       "explanation": "本句的「second-rate work」指「品質低於一流水準、較差的」。",
       "sentenceIndex": 55,
@@ -2422,12 +2200,10 @@ export default {
         "second-rate work"
       ],
       "optionReasons": {
-        "second-mcq-22": "本句指「品質低於一流水準、較差的」。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。"
+        "second-mcq-22": "本句的「second-rate work」指「品質低於一流水準、較差的」。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-22"
     },
@@ -2439,11 +2215,9 @@ export default {
       "masked": "The hotel was expensive but ____.",
       "options": [
         "second-mcq-22",
-        "second-mcq-21",
-        "second-mcq-23",
-        "second-mcq-20",
-        "second-mcq-24",
-        "second-mcq-19"
+        "second-mcq-08",
+        "second-mcq-18",
+        "second-mcq-02"
       ],
       "explanation": "本句的「second-rate」指「品質低於一流水準、較差的」。",
       "sentenceIndex": 56,
@@ -2452,12 +2226,10 @@ export default {
         "second-rate"
       ],
       "optionReasons": {
-        "second-mcq-22": "本句指「品質低於一流水準、較差的」。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-19": "「經長期練習形成、做起來幾乎不用思考的習慣／能力」是「second nature」的用法，與本句語境不同。"
+        "second-mcq-22": "本句的「second-rate」指「品質低於一流水準、較差的」。",
+        "second-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-22"
     },
@@ -2469,11 +2241,9 @@ export default {
       "masked": "They travelled in ____.",
       "options": [
         "second-mcq-23",
-        "second-mcq-22",
-        "second-mcq-24",
-        "second-mcq-21",
-        "second-mcq-25",
-        "second-mcq-20"
+        "second-pdf-001",
+        "second-mcq-26",
+        "second-pdf-002"
       ],
       "explanation": "本句的「second class」指「等級／地位低於最高一級的」。",
       "sentenceIndex": 57,
@@ -2482,12 +2252,10 @@ export default {
         "second class"
       ],
       "optionReasons": {
-        "second-mcq-23": "本句指「等級／地位低於最高一級的」。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。"
+        "second-mcq-23": "本句的「second class」指「等級／地位低於最高一級的」。",
+        "second-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-23"
     },
@@ -2499,11 +2267,9 @@ export default {
       "masked": "Nobody should be treated as a ____ citizen.",
       "options": [
         "second-mcq-23",
-        "second-mcq-22",
         "second-mcq-24",
-        "second-mcq-21",
-        "second-mcq-25",
-        "second-mcq-20"
+        "second-mcq-18",
+        "second-pdf-001"
       ],
       "explanation": "本句的「second-class」指「等級／地位低於最高一級的」。",
       "sentenceIndex": 58,
@@ -2512,12 +2278,10 @@ export default {
         "second-class"
       ],
       "optionReasons": {
-        "second-mcq-23": "本句指「等級／地位低於最高一級的」。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。"
+        "second-mcq-23": "本句的「second-class」指「等級／地位低於最高一級的」。",
+        "second-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-23"
     },
@@ -2529,11 +2293,9 @@ export default {
       "masked": "She refused to be treated like a ____.",
       "options": [
         "second-mcq-23",
-        "second-mcq-22",
-        "second-mcq-24",
-        "second-mcq-21",
-        "second-mcq-25",
-        "second-mcq-20"
+        "second-mcq-19",
+        "second-mcq-07",
+        "second-mcq-06"
       ],
       "explanation": "本句的「second-class citizen」指「等級／地位低於最高一級的」。",
       "sentenceIndex": 59,
@@ -2542,12 +2304,10 @@ export default {
         "second-class citizen"
       ],
       "optionReasons": {
-        "second-mcq-23": "本句指「等級／地位低於最高一級的」。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-20": "「曾由其他人擁有／使用過的二手物品」是「second-hand — goods」的用法，與本句語境不同。"
+        "second-mcq-23": "本句的「second-class citizen」指「等級／地位低於最高一級的」。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-23"
     },
@@ -2560,10 +2320,8 @@ export default {
       "options": [
         "second-mcq-24",
         "second-mcq-23",
-        "second-mcq-25",
-        "second-mcq-22",
-        "second-mcq-26",
-        "second-mcq-21"
+        "second-mcq-15",
+        "second-pdf-003"
       ],
       "explanation": "本句的「second opinion」指「已有一個專業判斷後，再取得的獨立專業意見」。",
       "sentenceIndex": 60,
@@ -2572,12 +2330,10 @@ export default {
         "second opinion"
       ],
       "optionReasons": {
-        "second-mcq-24": "本句指「已有一個專業判斷後，再取得的獨立專業意見」。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。"
+        "second-mcq-24": "本句的「second opinion」指「已有一個專業判斷後，再取得的獨立專業意見」。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-24"
     },
@@ -2589,11 +2345,9 @@ export default {
       "masked": "You may want a ____ opinion before making the decision.",
       "options": [
         "second-mcq-24",
-        "second-mcq-23",
-        "second-mcq-25",
-        "second-mcq-22",
-        "second-mcq-26",
-        "second-mcq-21"
+        "second-mcq-20",
+        "second-mcq-15",
+        "second-pdf-003"
       ],
       "explanation": "本句的「second」指「已有一個專業判斷後，再取得的獨立專業意見」。",
       "sentenceIndex": 61,
@@ -2602,12 +2356,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-24": "本句指「已有一個專業判斷後，再取得的獨立專業意見」。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-21": "「並非直接從原始來源取得，而經他人轉述的資訊」是「second-hand — information」的用法，與本句語境不同。"
+        "second-mcq-24": "本句的「second」指「已有一個專業判斷後，再取得的獨立專業意見」。",
+        "second-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-24"
     },
@@ -2619,11 +2371,9 @@ export default {
       "masked": "We had to settle for ____.",
       "options": [
         "second-mcq-25",
-        "second-mcq-24",
-        "second-mcq-26",
-        "second-mcq-23",
+        "second-pdf-002",
         "second-mcq-27",
-        "second-mcq-22"
+        "second-mcq-20"
       ],
       "explanation": "本句的「second best」指「最佳選項之後的次佳選擇」。",
       "sentenceIndex": 62,
@@ -2632,12 +2382,10 @@ export default {
         "second best"
       ],
       "optionReasons": {
-        "second-mcq-25": "本句指「最佳選項之後的次佳選擇」。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。"
+        "second-mcq-25": "本句的「second best」指「最佳選項之後的次佳選擇」。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-25"
     },
@@ -2649,11 +2397,9 @@ export default {
       "masked": "She never wanted to be ____ best.",
       "options": [
         "second-mcq-25",
-        "second-mcq-24",
-        "second-mcq-26",
-        "second-mcq-23",
-        "second-mcq-27",
-        "second-mcq-22"
+        "second-mcq-11",
+        "second-mcq-15",
+        "second-pdf-002"
       ],
       "explanation": "本句的「second」指「最佳選項之後的次佳選擇」。",
       "sentenceIndex": 63,
@@ -2662,12 +2408,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-mcq-25": "本句指「最佳選項之後的次佳選擇」。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。"
+        "second-mcq-25": "本句的「second」指「最佳選項之後的次佳選擇」。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-25"
     },
@@ -2679,11 +2423,9 @@ export default {
       "masked": "This option is only ____.",
       "options": [
         "second-pdf-004",
-        "second-mcq-24",
-        "second-mcq-26",
-        "second-mcq-23",
-        "second-mcq-27",
-        "second-mcq-22"
+        "second-mcq-20",
+        "second-mcq-19",
+        "second-mcq-02"
       ],
       "explanation": "本句的「second best」指「第一選擇不可得時採用的次一級方案」。",
       "sentenceIndex": 64,
@@ -2692,12 +2434,10 @@ export default {
         "second best"
       ],
       "optionReasons": {
-        "second-pdf-004": "本句指「第一選擇不可得時採用的次一級方案」。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。"
+        "second-pdf-004": "本句的「second best」指「第一選擇不可得時採用的次一級方案」。",
+        "second-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-004"
     },
@@ -2709,11 +2449,9 @@ export default {
       "masked": "If the first plan fails, this is the ____ solution.",
       "options": [
         "second-pdf-004",
-        "second-mcq-24",
-        "second-mcq-26",
-        "second-mcq-23",
-        "second-mcq-27",
-        "second-mcq-22"
+        "second-mcq-12",
+        "second-mcq-05",
+        "second-mcq-19"
       ],
       "explanation": "本句的「second-best」指「第一選擇不可得時採用的次一級方案」。",
       "sentenceIndex": 65,
@@ -2722,12 +2460,10 @@ export default {
         "second-best"
       ],
       "optionReasons": {
-        "second-pdf-004": "本句指「第一選擇不可得時採用的次一級方案」。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-22": "「品質低於一流水準、較差的」是「second-rate」的用法，與本句語境不同。"
+        "second-pdf-004": "本句的「second-best」指「第一選擇不可得時採用的次一級方案」。",
+        "second-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-pdf-004"
     },
@@ -2739,11 +2475,9 @@ export default {
       "masked": "Firstly, the plan is expensive; ____, it takes too long.",
       "options": [
         "second-mcq-26",
-        "second-mcq-25",
-        "second-mcq-27",
-        "second-mcq-24",
-        "second-mcq-28",
-        "second-mcq-23"
+        "second-mcq-12",
+        "second-mcq-22",
+        "second-mcq-11"
       ],
       "explanation": "本句的「secondly」指「在列舉論點時引入第二點；其次」。",
       "sentenceIndex": 66,
@@ -2752,12 +2486,10 @@ export default {
         "secondly"
       ],
       "optionReasons": {
-        "second-mcq-26": "本句指「在列舉論點時引入第二點；其次」。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-28": "「小學之後、高等教育之前的中等教育階段」是「secondary school」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。"
+        "second-mcq-26": "本句的「secondly」指「在列舉論點時引入第二點；其次」。",
+        "second-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-26"
     },
@@ -2769,10 +2501,8 @@ export default {
       "masked": "____, we need to consider the cost.",
       "options": [
         "second-mcq-26",
-        "second-mcq-25",
-        "second-mcq-27",
-        "second-mcq-24",
-        "second-mcq-28",
+        "second-mcq-21",
+        "second-mcq-15",
         "second-mcq-23"
       ],
       "explanation": "本句的「Secondly」指「在列舉論點時引入第二點；其次」。",
@@ -2782,12 +2512,10 @@ export default {
         "Secondly"
       ],
       "optionReasons": {
-        "second-mcq-26": "本句指「在列舉論點時引入第二點；其次」。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-28": "「小學之後、高等教育之前的中等教育階段」是「secondary school」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。"
+        "second-mcq-26": "本句的「Secondly」指「在列舉論點時引入第二點；其次」。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-26"
     },
@@ -2799,11 +2527,9 @@ export default {
       "masked": "Cost is a ____.",
       "options": [
         "second-mcq-27",
-        "second-mcq-26",
-        "second-mcq-28",
         "second-mcq-25",
-        "second-mcq-24",
-        "second-mcq-23"
+        "second-pdf-002",
+        "second-mcq-06"
       ],
       "explanation": "本句的「secondary concern」指「重要性低於主要／首要事物的」。",
       "sentenceIndex": 68,
@@ -2812,12 +2538,10 @@ export default {
         "secondary concern"
       ],
       "optionReasons": {
-        "second-mcq-27": "本句指「重要性低於主要／首要事物的」。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-28": "「小學之後、高等教育之前的中等教育階段」是「secondary school」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。"
+        "second-mcq-27": "本句的「secondary concern」指「重要性低於主要／首要事物的」。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-27"
     },
@@ -2829,11 +2553,9 @@ export default {
       "masked": "The main goal is safety; speed is ____.",
       "options": [
         "second-mcq-27",
-        "second-mcq-26",
-        "second-mcq-28",
         "second-mcq-25",
-        "second-mcq-24",
-        "second-mcq-23"
+        "second-mcq-14",
+        "second-mcq-15"
       ],
       "explanation": "本句的「secondary」指「重要性低於主要／首要事物的」。",
       "sentenceIndex": 69,
@@ -2842,12 +2564,10 @@ export default {
         "secondary"
       ],
       "optionReasons": {
-        "second-mcq-27": "本句指「重要性低於主要／首要事物的」。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-28": "「小學之後、高等教育之前的中等教育階段」是「secondary school」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。"
+        "second-mcq-27": "本句的「secondary」指「重要性低於主要／首要事物的」。",
+        "second-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-27"
     },
@@ -2859,11 +2579,9 @@ export default {
       "masked": "She was my ____ teacher.",
       "options": [
         "second-mcq-28",
-        "second-mcq-27",
         "second-mcq-26",
-        "second-mcq-25",
-        "second-mcq-24",
-        "second-mcq-23"
+        "second-mcq-06",
+        "second-mcq-12"
       ],
       "explanation": "本句的「secondary school」指「小學之後、高等教育之前的中等教育階段」。",
       "sentenceIndex": 70,
@@ -2872,12 +2590,10 @@ export default {
         "secondary school"
       ],
       "optionReasons": {
-        "second-mcq-28": "本句指「小學之後、高等教育之前的中等教育階段」。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。"
+        "second-mcq-28": "本句的「secondary school」指「小學之後、高等教育之前的中等教育階段」。",
+        "second-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-28"
     },
@@ -2889,11 +2605,9 @@ export default {
       "masked": "He teaches at a ____ school.",
       "options": [
         "second-mcq-28",
-        "second-mcq-27",
-        "second-mcq-26",
-        "second-mcq-25",
-        "second-mcq-24",
-        "second-mcq-23"
+        "second-pdf-004",
+        "second-mcq-21",
+        "second-mcq-18"
       ],
       "explanation": "本句的「secondary」指「小學之後、高等教育之前的中等教育階段」。",
       "sentenceIndex": 71,
@@ -2902,12 +2616,10 @@ export default {
         "secondary"
       ],
       "optionReasons": {
-        "second-mcq-28": "本句指「小學之後、高等教育之前的中等教育階段」。",
-        "second-mcq-27": "「重要性低於主要／首要事物的」是「secondary — importance」的用法，與本句語境不同。",
-        "second-mcq-26": "「在列舉論點時引入第二點；其次」是「secondly」的用法，與本句語境不同。",
-        "second-mcq-25": "「最佳選項之後的次佳選擇」是「second best」的用法，與本句語境不同。",
-        "second-mcq-24": "「已有一個專業判斷後，再取得的獨立專業意見」是「second opinion」的用法，與本句語境不同。",
-        "second-mcq-23": "「等級／地位低於最高一級的」是「second-class」的用法，與本句語境不同。"
+        "second-mcq-28": "本句的「secondary」指「小學之後、高等教育之前的中等教育階段」。",
+        "second-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "second-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-mcq-28"
     }
@@ -2919,5 +2631,7 @@ export default {
     "sha256": "807e59011293485ef73a64b00ff9af4c6584a0799c4594cf2649dc4aa35d55fd",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -174,11 +174,7 @@ export default {
       "masked": "His bedroom is always ____.",
       "options": [
         "messy-mcq-01",
-        "messy-mcq-02",
-        "messy-mcq-03",
-        "messy-mcq-04",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-03"
       ],
       "explanation": "本句的「messy」指「物件排列凌亂、缺乏整齊秩序的」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-01": "本句指「物件排列凌亂、缺乏整齊秩序的」。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-01": "本句的「messy」指「物件排列凌亂、缺乏整齊秩序的」。",
+        "messy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "My desk became ____ after a week of work.",
       "options": [
         "messy-mcq-01",
-        "messy-mcq-02",
-        "messy-mcq-03",
-        "messy-mcq-04",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-03"
       ],
       "explanation": "本句的「messy」指「物件排列凌亂、缺乏整齊秩序的」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-01": "本句指「物件排列凌亂、缺乏整齊秩序的」。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-01": "本句的「messy」指「物件排列凌亂、缺乏整齊秩序的」。",
+        "messy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "Painting can be a ____ job.",
       "options": [
         "messy-mcq-02",
-        "messy-mcq-01",
-        "messy-mcq-03",
-        "messy-mcq-04",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-04"
       ],
       "explanation": "本句的「messy」指「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-02": "本句指「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-02": "本句的「messy」指「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」。",
+        "messy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-02"
     },
@@ -264,11 +240,7 @@ export default {
       "masked": "That dessert is delicious but very ____ to eat.",
       "options": [
         "messy-mcq-02",
-        "messy-mcq-01",
-        "messy-mcq-03",
-        "messy-mcq-04",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-04"
       ],
       "explanation": "本句的「messy」指「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」。",
       "sentenceIndex": 3,
@@ -277,12 +249,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-02": "本句指「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-02": "本句的「messy」指「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」。",
+        "messy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-02"
     },
@@ -294,11 +262,7 @@ export default {
       "masked": "Patience keeps people grounded when life becomes ____.",
       "options": [
         "messy-mcq-03",
-        "messy-mcq-02",
-        "messy-mcq-04",
-        "messy-mcq-01",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-01"
       ],
       "explanation": "本句的「messy」指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
       "sentenceIndex": 4,
@@ -307,12 +271,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-03": "本句指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-03": "本句的「messy」指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
+        "messy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-03"
     },
@@ -324,11 +284,7 @@ export default {
       "masked": "The situation became ____ after several people got involved.",
       "options": [
         "messy-mcq-03",
-        "messy-mcq-02",
-        "messy-mcq-04",
-        "messy-mcq-01",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-01"
       ],
       "explanation": "本句的「messy」指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
       "sentenceIndex": 5,
@@ -337,12 +293,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-03": "本句指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-03": "本句的「messy」指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
+        "messy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-03"
     },
@@ -354,11 +306,7 @@ export default {
       "masked": "Their disagreement turned into a ____ dispute.",
       "options": [
         "messy-mcq-03",
-        "messy-mcq-02",
-        "messy-mcq-04",
-        "messy-mcq-01",
-        "messy-mcq-05",
-        "messy-mcq-06"
+        "messy-mcq-01"
       ],
       "explanation": "本句的「messy」指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
       "sentenceIndex": 6,
@@ -367,12 +315,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-03": "本句指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。"
+        "messy-mcq-03": "本句的「messy」指「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」。",
+        "messy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-03"
     },
@@ -384,11 +328,7 @@ export default {
       "masked": "The report is a little ____ and hard to follow.",
       "options": [
         "messy-mcq-04",
-        "messy-mcq-03",
-        "messy-mcq-05",
-        "messy-mcq-02",
-        "messy-mcq-06",
-        "messy-mcq-01"
+        "messy-mcq-02"
       ],
       "explanation": "本句的「messy」指「結構、安排、工作或處理方式不清晰、缺乏組織」。",
       "sentenceIndex": 9,
@@ -397,12 +337,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-04": "本句指「結構、安排、工作或處理方式不清晰、缺乏組織」。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。"
+        "messy-mcq-04": "本句的「messy」指「結構、安排、工作或處理方式不清晰、缺乏組織」。",
+        "messy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-04"
     },
@@ -414,11 +350,7 @@ export default {
       "masked": "The whole process was ____ and inefficient.",
       "options": [
         "messy-mcq-04",
-        "messy-mcq-03",
-        "messy-mcq-05",
-        "messy-mcq-02",
-        "messy-mcq-06",
-        "messy-mcq-01"
+        "messy-mcq-02"
       ],
       "explanation": "本句的「messy」指「結構、安排、工作或處理方式不清晰、缺乏組織」。",
       "sentenceIndex": 10,
@@ -427,12 +359,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-04": "本句指「結構、安排、工作或處理方式不清晰、缺乏組織」。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。",
-        "messy-mcq-01": "「物件排列凌亂、缺乏整齊秩序的」與本句語境不同。"
+        "messy-mcq-04": "本句的「messy」指「結構、安排、工作或處理方式不清晰、缺乏組織」。",
+        "messy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-04"
     },
@@ -444,11 +372,7 @@ export default {
       "masked": "His hair looked ____ after the ride.",
       "options": [
         "messy-mcq-05",
-        "messy-mcq-04",
-        "messy-mcq-06",
-        "messy-mcq-03",
-        "messy-mcq-07",
-        "messy-mcq-02"
+        "messy-mcq-03"
       ],
       "explanation": "本句的「messy」指「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」。",
       "sentenceIndex": 11,
@@ -457,12 +381,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-05": "本句指「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-07": "「凌亂、混亂或複雜難整理的狀態」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。"
+        "messy-mcq-05": "本句的「messy」指「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」。",
+        "messy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-05"
     },
@@ -474,11 +394,7 @@ export default {
       "masked": "She tied back her ____ hair.",
       "options": [
         "messy-mcq-05",
-        "messy-mcq-04",
-        "messy-mcq-06",
-        "messy-mcq-03",
-        "messy-mcq-07",
-        "messy-mcq-02"
+        "messy-mcq-03"
       ],
       "explanation": "本句的「messy」指「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」。",
       "sentenceIndex": 12,
@@ -487,12 +403,8 @@ export default {
         "messy"
       ],
       "optionReasons": {
-        "messy-mcq-05": "本句指「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-07": "「凌亂、混亂或複雜難整理的狀態」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。"
+        "messy-mcq-05": "本句的「messy」指「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」。",
+        "messy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-05"
     },
@@ -504,11 +416,7 @@ export default {
       "masked": "He wrote ____ across the page.",
       "options": [
         "messy-mcq-06",
-        "messy-mcq-05",
-        "messy-mcq-07",
-        "messy-mcq-04",
-        "messy-mcq-03",
-        "messy-mcq-02"
+        "messy-mcq-03"
       ],
       "explanation": "本句的「messily」指「以凌亂、缺乏組織或不整潔的方式」。",
       "sentenceIndex": 13,
@@ -517,12 +425,8 @@ export default {
         "messily"
       ],
       "optionReasons": {
-        "messy-mcq-06": "本句指「以凌亂、缺乏組織或不整潔的方式」。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-07": "「凌亂、混亂或複雜難整理的狀態」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。"
+        "messy-mcq-06": "本句的「messily」指「以凌亂、缺乏組織或不整潔的方式」。",
+        "messy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-06"
     },
@@ -534,11 +438,7 @@ export default {
       "masked": "The paint had been applied ____.",
       "options": [
         "messy-mcq-06",
-        "messy-mcq-05",
-        "messy-mcq-07",
-        "messy-mcq-04",
-        "messy-mcq-03",
-        "messy-mcq-02"
+        "messy-mcq-03"
       ],
       "explanation": "本句的「messily」指「以凌亂、缺乏組織或不整潔的方式」。",
       "sentenceIndex": 14,
@@ -547,12 +447,8 @@ export default {
         "messily"
       ],
       "optionReasons": {
-        "messy-mcq-06": "本句指「以凌亂、缺乏組織或不整潔的方式」。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-07": "「凌亂、混亂或複雜難整理的狀態」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。"
+        "messy-mcq-06": "本句的「messily」指「以凌亂、缺乏組織或不整潔的方式」。",
+        "messy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-06"
     },
@@ -564,11 +460,7 @@ export default {
       "masked": "She apologized for the ____ of the room.",
       "options": [
         "messy-mcq-07",
-        "messy-mcq-06",
-        "messy-mcq-05",
-        "messy-mcq-04",
-        "messy-mcq-03",
-        "messy-mcq-02"
+        "messy-mcq-04"
       ],
       "explanation": "本句的「messiness」指「凌亂、混亂或複雜難整理的狀態」。",
       "sentenceIndex": 15,
@@ -577,12 +469,8 @@ export default {
         "messiness"
       ],
       "optionReasons": {
-        "messy-mcq-07": "本句指「凌亂、混亂或複雜難整理的狀態」。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。"
+        "messy-mcq-07": "本句的「messiness」指「凌亂、混亂或複雜難整理的狀態」。",
+        "messy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-07"
     },
@@ -594,11 +482,7 @@ export default {
       "masked": "Real life often has a certain ____.",
       "options": [
         "messy-mcq-07",
-        "messy-mcq-06",
-        "messy-mcq-05",
-        "messy-mcq-04",
-        "messy-mcq-03",
-        "messy-mcq-02"
+        "messy-mcq-04"
       ],
       "explanation": "本句的「messiness」指「凌亂、混亂或複雜難整理的狀態」。",
       "sentenceIndex": 16,
@@ -607,12 +491,8 @@ export default {
         "messiness"
       ],
       "optionReasons": {
-        "messy-mcq-07": "本句指「凌亂、混亂或複雜難整理的狀態」。",
-        "messy-mcq-06": "「以凌亂、缺乏組織或不整潔的方式」與本句語境不同。",
-        "messy-mcq-05": "「頭髮或外表沒有整理好、看起來凌亂的；屬於 physical-disorder義」與本句語境不同。",
-        "messy-mcq-04": "「結構、安排、工作或處理方式不清晰、缺乏組織」與本句語境不同。",
-        "messy-mcq-03": "「涉及多個互相牽連的問題、情緒或因素，因此混亂而難以處理」與本句語境不同。",
-        "messy-mcq-02": "「容易造成污漬、灑漏或凌亂的；與 physical-disorder 義相關」與本句語境不同。"
+        "messy-mcq-07": "本句的「messiness」指「凌亂、混亂或複雜難整理的狀態」。",
+        "messy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "messy-mcq-07"
     }
@@ -624,5 +504,7 @@ export default {
     "sha256": "0eca2a90de031c3c0009b76a46567b9140497fb0b489af778a1739bb109019f7",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -184,11 +184,8 @@ export default {
       "masked": "Harsh words have a ____ way of lingering.",
       "options": [
         "peculiar-mcq-01",
-        "peculiar-mcq-02",
-        "peculiar-mcq-03",
-        "peculiar-mcq-04",
         "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-07"
       ],
       "explanation": "本句的「peculiar」指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 0,
@@ -197,12 +194,9 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-01": "本句指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-01": "本句的「peculiar」指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
+        "peculiar-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "peculiar-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-01"
     },
@@ -214,11 +208,7 @@ export default {
       "masked": "There was a ____ smell in the room.",
       "options": [
         "peculiar-mcq-01",
-        "peculiar-mcq-02",
-        "peculiar-mcq-03",
-        "peculiar-mcq-04",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-03"
       ],
       "explanation": "本句的「peculiar」指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 1,
@@ -227,12 +217,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-01": "本句指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-01": "本句的「peculiar」指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
+        "peculiar-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-01"
     },
@@ -244,11 +230,7 @@ export default {
       "masked": "He gave me a ____ look.",
       "options": [
         "peculiar-mcq-01",
-        "peculiar-mcq-02",
-        "peculiar-mcq-03",
-        "peculiar-mcq-04",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-03"
       ],
       "explanation": "本句的「peculiar」指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
       "sentenceIndex": 2,
@@ -257,12 +239,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-01": "本句指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-01": "本句的「peculiar」指「明顯不同尋常、令人覺得奇怪或難以解釋的」。",
+        "peculiar-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-01"
     },
@@ -274,11 +252,7 @@ export default {
       "masked": "The building has a ____ shape.",
       "options": [
         "peculiar-mcq-02",
-        "peculiar-mcq-01",
-        "peculiar-mcq-03",
-        "peculiar-mcq-04",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-03"
       ],
       "explanation": "本句的「peculiar」指「具有明顯與眾不同特徵的」。",
       "sentenceIndex": 3,
@@ -287,12 +261,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-02": "本句指「具有明顯與眾不同特徵的」。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-02": "本句的「peculiar」指「具有明顯與眾不同特徵的」。",
+        "peculiar-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-02"
     },
@@ -304,11 +274,7 @@ export default {
       "masked": "She has a ____ style of speaking.",
       "options": [
         "peculiar-mcq-02",
-        "peculiar-mcq-01",
-        "peculiar-mcq-03",
-        "peculiar-mcq-04",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-03"
       ],
       "explanation": "本句的「peculiar」指「具有明顯與眾不同特徵的」。",
       "sentenceIndex": 4,
@@ -317,12 +283,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-02": "本句指「具有明顯與眾不同特徵的」。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-02": "本句的「peculiar」指「具有明顯與眾不同特徵的」。",
+        "peculiar-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-02"
     },
@@ -334,11 +296,7 @@ export default {
       "masked": "This custom is ____ the region.",
       "options": [
         "peculiar-mcq-03",
-        "peculiar-mcq-02",
-        "peculiar-mcq-04",
-        "peculiar-mcq-01",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-04"
       ],
       "explanation": "本句的「peculiar to」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
       "sentenceIndex": 5,
@@ -347,12 +305,8 @@ export default {
         "peculiar to"
       ],
       "optionReasons": {
-        "peculiar-mcq-03": "本句指「只屬於／特別出現在某人、地方、群體或事物中的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-03": "本句的「peculiar to」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
+        "peculiar-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-03"
     },
@@ -364,11 +318,7 @@ export default {
       "masked": "The problem is ____ to small businesses.",
       "options": [
         "peculiar-mcq-03",
-        "peculiar-mcq-02",
-        "peculiar-mcq-04",
-        "peculiar-mcq-01",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-04"
       ],
       "explanation": "本句的「peculiar」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
       "sentenceIndex": 6,
@@ -377,12 +327,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-03": "本句指「只屬於／特別出現在某人、地方、群體或事物中的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-03": "本句的「peculiar」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
+        "peculiar-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-03"
     },
@@ -394,11 +340,7 @@ export default {
       "masked": "The tradition was ____ to that community.",
       "options": [
         "peculiar-mcq-03",
-        "peculiar-mcq-02",
-        "peculiar-mcq-04",
-        "peculiar-mcq-01",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-01"
       ],
       "explanation": "本句的「peculiar」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
       "sentenceIndex": 7,
@@ -407,12 +349,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-03": "本句指「只屬於／特別出現在某人、地方、群體或事物中的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-03": "本句的「peculiar」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
+        "peculiar-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-03"
     },
@@ -424,11 +362,7 @@ export default {
       "masked": "Certain risks are ____ to the industry.",
       "options": [
         "peculiar-mcq-03",
-        "peculiar-mcq-02",
-        "peculiar-mcq-04",
-        "peculiar-mcq-01",
-        "peculiar-mcq-05",
-        "peculiar-mcq-06"
+        "peculiar-mcq-04"
       ],
       "explanation": "本句的「peculiar」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
       "sentenceIndex": 8,
@@ -437,12 +371,8 @@ export default {
         "peculiar"
       ],
       "optionReasons": {
-        "peculiar-mcq-03": "本句指「只屬於／特別出現在某人、地方、群體或事物中的」。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。"
+        "peculiar-mcq-03": "本句的「peculiar」指「只屬於／特別出現在某人、地方、群體或事物中的」。",
+        "peculiar-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-03"
     },
@@ -454,11 +384,8 @@ export default {
       "masked": "He behaved ____ during the meeting.",
       "options": [
         "peculiar-mcq-04",
-        "peculiar-mcq-03",
-        "peculiar-mcq-05",
-        "peculiar-mcq-02",
-        "peculiar-mcq-06",
-        "peculiar-mcq-01"
+        "peculiar-mcq-07",
+        "peculiar-mcq-05"
       ],
       "explanation": "本句的「peculiarly」指「以奇怪、異常或不同尋常的方式」。",
       "sentenceIndex": 9,
@@ -467,12 +394,9 @@ export default {
         "peculiarly"
       ],
       "optionReasons": {
-        "peculiar-mcq-04": "本句指「以奇怪、異常或不同尋常的方式」。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。"
+        "peculiar-mcq-04": "本句的「peculiarly」指「以奇怪、異常或不同尋常的方式」。",
+        "peculiar-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "peculiar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-04"
     },
@@ -484,11 +408,7 @@ export default {
       "masked": "The room was ____ quiet.",
       "options": [
         "peculiar-mcq-04",
-        "peculiar-mcq-03",
-        "peculiar-mcq-05",
-        "peculiar-mcq-02",
-        "peculiar-mcq-06",
-        "peculiar-mcq-01"
+        "peculiar-mcq-03"
       ],
       "explanation": "本句的「peculiarly」指「以奇怪、異常或不同尋常的方式」。",
       "sentenceIndex": 10,
@@ -497,12 +417,8 @@ export default {
         "peculiarly"
       ],
       "optionReasons": {
-        "peculiar-mcq-04": "本句指「以奇怪、異常或不同尋常的方式」。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。",
-        "peculiar-mcq-01": "「明顯不同尋常、令人覺得奇怪或難以解釋的」與本句語境不同。"
+        "peculiar-mcq-04": "本句的「peculiarly」指「以奇怪、異常或不同尋常的方式」。",
+        "peculiar-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-04"
     },
@@ -515,10 +431,7 @@ export default {
       "options": [
         "peculiar-mcq-05",
         "peculiar-mcq-04",
-        "peculiar-mcq-06",
-        "peculiar-mcq-03",
-        "peculiar-mcq-07",
-        "peculiar-mcq-02"
+        "peculiar-mcq-07"
       ],
       "explanation": "本句的「peculiarly」指「特別／格外地」。",
       "sentenceIndex": 11,
@@ -527,12 +440,9 @@ export default {
         "peculiarly"
       ],
       "optionReasons": {
-        "peculiar-mcq-05": "本句指「特別／格外地」。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-07": "「某群體／地方／事物特有的特徵」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。"
+        "peculiar-mcq-05": "本句的「peculiarly」指「特別／格外地」。",
+        "peculiar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peculiar-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-05"
     },
@@ -544,11 +454,8 @@ export default {
       "masked": "The problem affects this region ____ strongly.",
       "options": [
         "peculiar-mcq-05",
-        "peculiar-mcq-04",
-        "peculiar-mcq-06",
-        "peculiar-mcq-03",
-        "peculiar-mcq-07",
-        "peculiar-mcq-02"
+        "peculiar-mcq-01",
+        "peculiar-mcq-07"
       ],
       "explanation": "本句的「peculiarly」指「特別／格外地」。",
       "sentenceIndex": 12,
@@ -557,12 +464,9 @@ export default {
         "peculiarly"
       ],
       "optionReasons": {
-        "peculiar-mcq-05": "本句指「特別／格外地」。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-07": "「某群體／地方／事物特有的特徵」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。"
+        "peculiar-mcq-05": "本句的「peculiarly」指「特別／格外地」。",
+        "peculiar-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "peculiar-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-05"
     },
@@ -574,11 +478,7 @@ export default {
       "masked": "One ____ of the system is its lack of buttons.",
       "options": [
         "peculiar-mcq-06",
-        "peculiar-mcq-05",
-        "peculiar-mcq-07",
-        "peculiar-mcq-04",
-        "peculiar-mcq-03",
-        "peculiar-mcq-02"
+        "peculiar-mcq-05"
       ],
       "explanation": "本句的「peculiarity」指「某人／某物顯得奇怪或異常的特徵」。",
       "sentenceIndex": 13,
@@ -587,12 +487,8 @@ export default {
         "peculiarity"
       ],
       "optionReasons": {
-        "peculiar-mcq-06": "本句指「某人／某物顯得奇怪或異常的特徵」。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-07": "「某群體／地方／事物特有的特徵」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。"
+        "peculiar-mcq-06": "本句的「peculiarity」指「某人／某物顯得奇怪或異常的特徵」。",
+        "peculiar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-06"
     },
@@ -604,11 +500,7 @@ export default {
       "masked": "Everyone noticed the ____ of his behaviour.",
       "options": [
         "peculiar-mcq-06",
-        "peculiar-mcq-05",
-        "peculiar-mcq-07",
-        "peculiar-mcq-04",
-        "peculiar-mcq-03",
-        "peculiar-mcq-02"
+        "peculiar-mcq-05"
       ],
       "explanation": "本句的「peculiarity」指「某人／某物顯得奇怪或異常的特徵」。",
       "sentenceIndex": 14,
@@ -617,12 +509,8 @@ export default {
         "peculiarity"
       ],
       "optionReasons": {
-        "peculiar-mcq-06": "本句指「某人／某物顯得奇怪或異常的特徵」。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-07": "「某群體／地方／事物特有的特徵」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。"
+        "peculiar-mcq-06": "本句的「peculiarity」指「某人／某物顯得奇怪或異常的特徵」。",
+        "peculiar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-06"
     },
@@ -634,11 +522,8 @@ export default {
       "masked": "The dialect has several regional ____.",
       "options": [
         "peculiar-mcq-07",
-        "peculiar-mcq-06",
-        "peculiar-mcq-05",
         "peculiar-mcq-04",
-        "peculiar-mcq-03",
-        "peculiar-mcq-02"
+        "peculiar-mcq-05"
       ],
       "explanation": "本句的「peculiarities」指「某群體／地方／事物特有的特徵」。",
       "sentenceIndex": 15,
@@ -647,12 +532,9 @@ export default {
         "peculiarities"
       ],
       "optionReasons": {
-        "peculiar-mcq-07": "本句指「某群體／地方／事物特有的特徵」。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。"
+        "peculiar-mcq-07": "本句的「peculiarities」指「某群體／地方／事物特有的特徵」。",
+        "peculiar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peculiar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-07"
     },
@@ -664,11 +546,8 @@ export default {
       "masked": "The design reflects the ____ of the local climate.",
       "options": [
         "peculiar-mcq-07",
-        "peculiar-mcq-06",
-        "peculiar-mcq-05",
         "peculiar-mcq-04",
-        "peculiar-mcq-03",
-        "peculiar-mcq-02"
+        "peculiar-mcq-05"
       ],
       "explanation": "本句的「peculiarities」指「某群體／地方／事物特有的特徵」。",
       "sentenceIndex": 16,
@@ -677,12 +556,9 @@ export default {
         "peculiarities"
       ],
       "optionReasons": {
-        "peculiar-mcq-07": "本句指「某群體／地方／事物特有的特徵」。",
-        "peculiar-mcq-06": "「某人／某物顯得奇怪或異常的特徵」與本句語境不同。",
-        "peculiar-mcq-05": "「特別／格外地」與本句語境不同。",
-        "peculiar-mcq-04": "「以奇怪、異常或不同尋常的方式」與本句語境不同。",
-        "peculiar-mcq-03": "「只屬於／特別出現在某人、地方、群體或事物中的」與本句語境不同。",
-        "peculiar-mcq-02": "「具有明顯與眾不同特徵的」與本句語境不同。"
+        "peculiar-mcq-07": "本句的「peculiarities」指「某群體／地方／事物特有的特徵」。",
+        "peculiar-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peculiar-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peculiar-mcq-07"
     }
@@ -694,5 +570,7 @@ export default {
     "sha256": "7e97b49f0366e4cc531cbfef59bd9ab131fbaaccd27e930281ccce01622ada3d",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

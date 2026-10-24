@@ -78,18 +78,7 @@ export default {
       "en": "attend a wedding",
       "zh": "出席婚禮",
       "note": "來源詞義：出席婚禮",
-      "examples": [
-        [
-          "We attended the wedding last weekend.",
-          "我們上週末出席了婚禮。",
-          "出席婚禮"
-        ],
-        [
-          "Many former students attended his funeral.",
-          "很多舊生都出席了他的喪禮。",
-          "出席婚禮"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -263,18 +252,7 @@ export default {
       "en": "attendant risk",
       "zh": "伴隨風險",
       "note": "來源詞義：伴隨風險",
-      "examples": [
-        [
-          "Rapid growth brings attendant problems.",
-          "快速增長會帶來伴隨而來的問題。",
-          "伴隨風險"
-        ],
-        [
-          "The plan has several attendant risks.",
-          "這個計劃有幾個隨之而來的風險。",
-          "伴隨風險"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -370,6 +348,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "attend-reviewed-e8146d3aa4",
+      "title": "到場參與某個正式或社交場合",
+      "form": "attend · source section 4",
+      "en": "到場參與某個正式或社交場合",
+      "zh": "到場參與某個正式或社交場合",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "We attended the wedding last weekend.",
+          "我們上週末出席了婚禮。",
+          "到場參與某個正式或社交場合"
+        ],
+        [
+          "Many former students attended his funeral.",
+          "很多舊生都出席了他的喪禮。",
+          "到場參與某個正式或社交場合"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "attend-reviewed-2a6be4845e",
+      "title": "與某件主要事情同時出現、由它伴隨產生的",
+      "form": "attend · source section 14",
+      "en": "與某件主要事情同時出現、由它伴隨產生的",
+      "zh": "與某件主要事情同時出現、由它伴隨產生的",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "Rapid growth brings attendant problems.",
+          "快速增長會帶來伴隨而來的問題。",
+          "與某件主要事情同時出現、由它伴隨產生的"
+        ],
+        [
+          "The plan has several attendant risks.",
+          "這個計劃有幾個隨之而來的風險。",
+          "與某件主要事情同時出現、由它伴隨產生的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -381,11 +403,9 @@ export default {
       "masked": "He taught at the secondary school I ____.",
       "options": [
         "attend-mcq-16",
-        "attend-mcq-15",
-        "attend-mcq-14",
-        "attend-mcq-13",
+        "attend-reviewed-e8146d3aa4",
         "attend-mcq-12",
-        "attend-mcq-11"
+        "attend-mcq-10"
       ],
       "explanation": "本句的「attended」指「以學生身份定期到某間學校或大學上課」。",
       "sentenceIndex": 0,
@@ -394,12 +414,10 @@ export default {
         "attended"
       ],
       "optionReasons": {
-        "attend-mcq-16": "本句指「以學生身份定期到某間學校或大學上課」。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-16": "本句的「attended」指「以學生身份定期到某間學校或大學上課」。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-16"
     },
@@ -411,11 +429,9 @@ export default {
       "masked": "She ____ in London.",
       "options": [
         "attend-mcq-16",
-        "attend-mcq-15",
-        "attend-mcq-14",
-        "attend-mcq-13",
-        "attend-mcq-12",
-        "attend-mcq-11"
+        "attend-pdf-001",
+        "attend-mcq-10",
+        "attend-mcq-12"
       ],
       "explanation": "本句的「attended university」指「以學生身份定期到某間學校或大學上課」。",
       "sentenceIndex": 1,
@@ -424,12 +440,10 @@ export default {
         "attended university"
       ],
       "optionReasons": {
-        "attend-mcq-16": "本句指「以學生身份定期到某間學校或大學上課」。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-16": "本句的「attended university」指「以學生身份定期到某間學校或大學上課」。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-16"
     },
@@ -441,11 +455,9 @@ export default {
       "masked": "Both children ____.",
       "options": [
         "attend-mcq-16",
-        "attend-mcq-15",
-        "attend-mcq-14",
-        "attend-mcq-13",
-        "attend-mcq-12",
-        "attend-mcq-11"
+        "attend-reviewed-e8146d3aa4",
+        "attend-mcq-11",
+        "attend-pdf-001"
       ],
       "explanation": "本句的「attend the same school」指「以學生身份定期到某間學校或大學上課」。",
       "sentenceIndex": 2,
@@ -454,12 +466,10 @@ export default {
         "attend the same school"
       ],
       "optionReasons": {
-        "attend-mcq-16": "本句指「以學生身份定期到某間學校或大學上課」。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-16": "本句的「attend the same school」指「以學生身份定期到某間學校或大學上課」。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-16"
     },
@@ -471,11 +481,9 @@ export default {
       "masked": "More than 200 people ____.",
       "options": [
         "attend-mcq-03",
-        "attend-mcq-02",
-        "attend-mcq-04",
-        "attend-mcq-01",
-        "attend-mcq-05",
-        "attend-mcq-06"
+        "attend-mcq-14",
+        "attend-mcq-12",
+        "attend-pdf-001"
       ],
       "explanation": "本句的「attended the meeting」指「出席會議」。",
       "sentenceIndex": 3,
@@ -484,12 +492,10 @@ export default {
         "attended the meeting"
       ],
       "optionReasons": {
-        "attend-mcq-03": "本句指「出席會議」。",
-        "attend-mcq-02": "「就讀大學」是「attend university」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-01": "「就讀；上學」是「attend school」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。"
+        "attend-mcq-03": "本句的「attended the meeting」指「出席會議」。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-03"
     },
@@ -501,11 +507,9 @@ export default {
       "masked": "She ____ on teaching.",
       "options": [
         "attend-mcq-03",
-        "attend-mcq-02",
-        "attend-mcq-04",
-        "attend-mcq-01",
-        "attend-mcq-05",
-        "attend-mcq-06"
+        "attend-mcq-15",
+        "attend-mcq-07",
+        "attend-reviewed-e8146d3aa4"
       ],
       "explanation": "本句的「attended a workshop」指「出席會議」。",
       "sentenceIndex": 4,
@@ -514,12 +518,10 @@ export default {
         "attended a workshop"
       ],
       "optionReasons": {
-        "attend-mcq-03": "本句指「出席會議」。",
-        "attend-mcq-02": "「就讀大學」是「attend university」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-01": "「就讀；上學」是「attend school」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。"
+        "attend-mcq-03": "本句的「attended a workshop」指「出席會議」。",
+        "attend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-03"
     },
@@ -531,11 +533,9 @@ export default {
       "masked": "Students are expected to ____.",
       "options": [
         "attend-mcq-04",
-        "attend-mcq-03",
-        "attend-mcq-05",
-        "attend-mcq-02",
+        "attend-reviewed-2a6be4845e",
         "attend-mcq-06",
-        "attend-mcq-01"
+        "attend-mcq-07"
       ],
       "explanation": "本句的「attend all classes」指「上課」。",
       "sentenceIndex": 5,
@@ -544,12 +544,10 @@ export default {
         "attend all classes"
       ],
       "optionReasons": {
-        "attend-mcq-04": "本句指「上課」。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-02": "「就讀大學」是「attend university」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-01": "「就讀；上學」是「attend school」的用法，與本句語境不同。"
+        "attend-mcq-04": "本句的「attend all classes」指「上課」。",
+        "attend-reviewed-2a6be4845e": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-04"
     },
@@ -561,11 +559,9 @@ export default {
       "masked": "He stopped ____ regularly.",
       "options": [
         "attend-mcq-04",
-        "attend-mcq-03",
-        "attend-mcq-05",
-        "attend-mcq-02",
-        "attend-mcq-06",
-        "attend-mcq-01"
+        "attend-mcq-14",
+        "attend-pdf-001",
+        "attend-reviewed-e8146d3aa4"
       ],
       "explanation": "本句的「attending lessons」指「上課」。",
       "sentenceIndex": 6,
@@ -574,74 +570,68 @@ export default {
         "attending lessons"
       ],
       "optionReasons": {
-        "attend-mcq-04": "本句指「上課」。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-02": "「就讀大學」是「attend university」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-01": "「就讀；上學」是「attend school」的用法，與本句語境不同。"
+        "attend-mcq-04": "本句的「attending lessons」指「上課」。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-04"
     },
     {
       "id": "attend-04-0",
-      "sense": "attend-mcq-05",
+      "sense": "attend-reviewed-e8146d3aa4",
       "en": "We attended the wedding last weekend.",
       "zh": "我們上週末出席了婚禮。",
       "masked": "We ____ last weekend.",
       "options": [
-        "attend-mcq-05",
-        "attend-mcq-04",
-        "attend-mcq-06",
-        "attend-mcq-03",
-        "attend-mcq-07",
-        "attend-mcq-02"
+        "attend-reviewed-e8146d3aa4",
+        "attend-reviewed-2a6be4845e",
+        "attend-mcq-10",
+        "attend-mcq-04"
       ],
-      "explanation": "本句的「attended the wedding」指「出席婚禮」。",
+      "explanation": "對照完整句子：「我們上週末出席了婚禮。」。這裡的「attended the wedding」表示「到場參與某個正式或社交場合」。",
       "sentenceIndex": 7,
       "sourcePractice": 1,
       "targets": [
         "attended the wedding"
       ],
       "optionReasons": {
-        "attend-mcq-05": "本句指「出席婚禮」。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-02": "「就讀大學」是「attend university」的用法，與本句語境不同。"
+        "attend-reviewed-e8146d3aa4": "對照完整句子：「我們上週末出席了婚禮。」。這裡的「attended the wedding」表示「到場參與某個正式或社交場合」。",
+        "attend-reviewed-2a6be4845e": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "attend-mcq-05"
+      "correctOption": "attend-reviewed-e8146d3aa4",
+      "previousCorrectOption": "attend-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "attend-04-1",
-      "sense": "attend-mcq-05",
+      "sense": "attend-reviewed-e8146d3aa4",
       "en": "Many former students attended his funeral.",
       "zh": "很多舊生都出席了他的喪禮。",
       "masked": "Many former students ____.",
       "options": [
-        "attend-mcq-05",
-        "attend-mcq-04",
-        "attend-mcq-06",
-        "attend-mcq-03",
-        "attend-mcq-07",
-        "attend-mcq-02"
+        "attend-reviewed-e8146d3aa4",
+        "attend-reviewed-2a6be4845e",
+        "attend-mcq-10",
+        "attend-mcq-07"
       ],
-      "explanation": "本句的「attended his funeral」指「出席婚禮」。",
+      "explanation": "對照完整句子：「很多舊生都出席了他的喪禮。」。這裡的「attended his funeral」表示「到場參與某個正式或社交場合」。",
       "sentenceIndex": 8,
       "sourcePractice": 2,
       "targets": [
         "attended his funeral"
       ],
       "optionReasons": {
-        "attend-mcq-05": "本句指「出席婚禮」。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-02": "「就讀大學」是「attend university」的用法，與本句語境不同。"
+        "attend-reviewed-e8146d3aa4": "對照完整句子：「很多舊生都出席了他的喪禮。」。這裡的「attended his funeral」表示「到場參與某個正式或社交場合」。",
+        "attend-reviewed-2a6be4845e": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "attend-mcq-05"
+      "correctOption": "attend-reviewed-e8146d3aa4",
+      "previousCorrectOption": "attend-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "attend-05-0",
@@ -651,11 +641,9 @@ export default {
       "masked": "A nurse came to ____.",
       "options": [
         "attend-mcq-06",
-        "attend-mcq-05",
-        "attend-mcq-07",
+        "attend-reviewed-e8146d3aa4",
         "attend-mcq-04",
-        "attend-mcq-08",
-        "attend-mcq-03"
+        "attend-mcq-14"
       ],
       "explanation": "本句的「attend to the patient」指「照料某人」。",
       "sentenceIndex": 9,
@@ -664,12 +652,10 @@ export default {
         "attend to the patient"
       ],
       "optionReasons": {
-        "attend-mcq-06": "本句指「照料某人」。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。"
+        "attend-mcq-06": "本句的「attend to the patient」指「照料某人」。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-06"
     },
@@ -681,11 +667,9 @@ export default {
       "masked": "The staff quickly ____.",
       "options": [
         "attend-mcq-06",
-        "attend-mcq-05",
-        "attend-mcq-07",
-        "attend-mcq-04",
-        "attend-mcq-08",
-        "attend-mcq-03"
+        "attend-pdf-001",
+        "attend-mcq-14",
+        "attend-mcq-10"
       ],
       "explanation": "本句的「attended to the injured man」指「照料某人」。",
       "sentenceIndex": 10,
@@ -694,12 +678,10 @@ export default {
         "attended to the injured man"
       ],
       "optionReasons": {
-        "attend-mcq-06": "本句指「照料某人」。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。"
+        "attend-mcq-06": "本句的「attended to the injured man」指「照料某人」。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-06"
     },
@@ -711,10 +693,8 @@ export default {
       "masked": "I need to ____ first.",
       "options": [
         "attend-mcq-07",
-        "attend-mcq-06",
-        "attend-mcq-08",
-        "attend-mcq-05",
-        "attend-mcq-09",
+        "attend-mcq-14",
+        "attend-mcq-12",
         "attend-mcq-04"
       ],
       "explanation": "本句的「attend to a few matters」指「處理某事」。",
@@ -724,12 +704,10 @@ export default {
         "attend to a few matters"
       ],
       "optionReasons": {
-        "attend-mcq-07": "本句指「處理某事」。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。"
+        "attend-mcq-07": "本句的「attend to a few matters」指「處理某事」。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-07"
     },
@@ -741,11 +719,9 @@ export default {
       "masked": "She stayed late to ____.",
       "options": [
         "attend-mcq-07",
-        "attend-mcq-06",
-        "attend-mcq-08",
-        "attend-mcq-05",
+        "attend-mcq-14",
         "attend-mcq-09",
-        "attend-mcq-04"
+        "attend-mcq-06"
       ],
       "explanation": "本句的「attend to some urgent work」指「處理某事」。",
       "sentenceIndex": 12,
@@ -754,12 +730,10 @@ export default {
         "attend to some urgent work"
       ],
       "optionReasons": {
-        "attend-mcq-07": "本句指「處理某事」。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。"
+        "attend-mcq-07": "本句的「attend to some urgent work」指「處理某事」。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-07"
     },
@@ -771,11 +745,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "attend-pdf-001",
-        "attend-mcq-07",
-        "attend-mcq-09",
-        "attend-mcq-06",
-        "attend-mcq-10",
-        "attend-mcq-05"
+        "attend-mcq-16",
+        "attend-mcq-11",
+        "attend-mcq-12"
       ],
       "explanation": "本句的「attend carefully to the instructions」指「集中注意力於某件事」。",
       "sentenceIndex": 13,
@@ -784,12 +756,10 @@ export default {
         "attend carefully to the instructions"
       ],
       "optionReasons": {
-        "attend-pdf-001": "本句指「集中注意力於某件事」。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。"
+        "attend-pdf-001": "本句的「attend carefully to the instructions」指「集中注意力於某件事」。",
+        "attend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-pdf-001"
     },
@@ -801,11 +771,9 @@ export default {
       "masked": "The students ____.",
       "options": [
         "attend-pdf-001",
-        "attend-mcq-07",
-        "attend-mcq-09",
         "attend-mcq-06",
-        "attend-mcq-10",
-        "attend-mcq-05"
+        "attend-mcq-04",
+        "attend-mcq-09"
       ],
       "explanation": "本句的「attended closely to what the teacher was saying」指「集中注意力於某件事」。",
       "sentenceIndex": 14,
@@ -814,12 +782,10 @@ export default {
         "attended closely to what the teacher was saying"
       ],
       "optionReasons": {
-        "attend-pdf-001": "本句指「集中注意力於某件事」。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。"
+        "attend-pdf-001": "本句的「attended closely to what the teacher was saying」指「集中注意力於某件事」。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-pdf-001"
     },
@@ -831,11 +797,9 @@ export default {
       "masked": "Several servants ____.",
       "options": [
         "attend-mcq-06",
-        "attend-mcq-05",
-        "attend-mcq-07",
-        "attend-mcq-04",
-        "attend-mcq-08",
-        "attend-mcq-03"
+        "attend-mcq-12",
+        "attend-mcq-16",
+        "attend-mcq-11"
       ],
       "explanation": "本句的「attended upon the guest」指「照料某人」。",
       "sentenceIndex": 15,
@@ -844,12 +808,10 @@ export default {
         "attended upon the guest"
       ],
       "optionReasons": {
-        "attend-mcq-06": "本句指「照料某人」。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。"
+        "attend-mcq-06": "本句的「attended upon the guest」指「照料某人」。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-06"
     },
@@ -861,11 +823,9 @@ export default {
       "masked": "A doctor was called to ____.",
       "options": [
         "attend-mcq-06",
-        "attend-mcq-05",
+        "attend-reviewed-2a6be4845e",
         "attend-mcq-07",
-        "attend-mcq-04",
-        "attend-mcq-08",
-        "attend-mcq-03"
+        "attend-mcq-12"
       ],
       "explanation": "本句的「attend upon the king」指「照料某人」。",
       "sentenceIndex": 16,
@@ -874,12 +834,10 @@ export default {
         "attend upon the king"
       ],
       "optionReasons": {
-        "attend-mcq-06": "本句指「照料某人」。",
-        "attend-mcq-05": "「出席婚禮」是「attend a wedding」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-04": "「上課」是「attend class」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-03": "「出席會議」是「attend a meeting」的用法，與本句語境不同。"
+        "attend-mcq-06": "本句的「attend upon the king」指「照料某人」。",
+        "attend-reviewed-2a6be4845e": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-06"
     },
@@ -891,11 +849,9 @@ export default {
       "masked": "____ at the meeting was high.",
       "options": [
         "attend-mcq-09",
-        "attend-mcq-08",
-        "attend-mcq-10",
-        "attend-mcq-07",
-        "attend-mcq-11",
-        "attend-mcq-06"
+        "attend-mcq-14",
+        "attend-mcq-16",
+        "attend-mcq-12"
       ],
       "explanation": "本句的「Attendance」指「出席」。",
       "sentenceIndex": 17,
@@ -904,12 +860,10 @@ export default {
         "Attendance"
       ],
       "optionReasons": {
-        "attend-mcq-09": "本句指「出席」。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。"
+        "attend-mcq-09": "本句的「Attendance」指「出席」。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-09"
     },
@@ -921,10 +875,8 @@ export default {
       "masked": "Regular ____ is important.",
       "options": [
         "attend-mcq-09",
-        "attend-mcq-08",
-        "attend-mcq-10",
-        "attend-mcq-07",
-        "attend-mcq-11",
+        "attend-mcq-14",
+        "attend-mcq-04",
         "attend-mcq-06"
       ],
       "explanation": "本句的「attendance」指「出席」。",
@@ -934,12 +886,10 @@ export default {
         "attendance"
       ],
       "optionReasons": {
-        "attend-mcq-09": "本句指「出席」。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-06": "「照料某人」是「attend to someone」的用法，與本句語境不同。"
+        "attend-mcq-09": "本句的「attendance」指「出席」。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-09"
     },
@@ -951,11 +901,9 @@ export default {
       "masked": "He has an excellent ____.",
       "options": [
         "attend-mcq-10",
-        "attend-mcq-09",
-        "attend-mcq-11",
-        "attend-mcq-08",
+        "attend-reviewed-e8146d3aa4",
         "attend-mcq-12",
-        "attend-mcq-07"
+        "attend-mcq-15"
       ],
       "explanation": "本句的「attendance record」指「出席紀錄」。",
       "sentenceIndex": 19,
@@ -964,12 +912,10 @@ export default {
         "attendance record"
       ],
       "optionReasons": {
-        "attend-mcq-10": "本句指「出席紀錄」。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。"
+        "attend-mcq-10": "本句的「attendance record」指「出席紀錄」。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-10"
     },
@@ -981,11 +927,9 @@ export default {
       "masked": "Poor ____ affected her performance.",
       "options": [
         "attend-mcq-10",
-        "attend-mcq-09",
-        "attend-mcq-11",
-        "attend-mcq-08",
-        "attend-mcq-12",
-        "attend-mcq-07"
+        "attend-mcq-16",
+        "attend-reviewed-e8146d3aa4",
+        "attend-mcq-14"
       ],
       "explanation": "本句的「attendance」指「出席紀錄」。",
       "sentenceIndex": 20,
@@ -994,12 +938,10 @@ export default {
         "attendance"
       ],
       "optionReasons": {
-        "attend-mcq-10": "本句指「出席紀錄」。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-07": "「處理某事」是「attend to something」的用法，與本句語境不同。"
+        "attend-mcq-10": "本句的「attendance」指「出席紀錄」。",
+        "attend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-10"
     },
@@ -1011,11 +953,9 @@ export default {
       "masked": "The festival had a record ____.",
       "options": [
         "attend-mcq-11",
-        "attend-mcq-10",
         "attend-mcq-12",
-        "attend-mcq-09",
-        "attend-mcq-13",
-        "attend-mcq-08"
+        "attend-mcq-04",
+        "attend-reviewed-e8146d3aa4"
       ],
       "explanation": "本句的「attendance」指「出席人數」。",
       "sentenceIndex": 21,
@@ -1024,12 +964,10 @@ export default {
         "attendance"
       ],
       "optionReasons": {
-        "attend-mcq-11": "本句指「出席人數」。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。"
+        "attend-mcq-11": "本句的「attendance」指「出席人數」。",
+        "attend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-11"
     },
@@ -1041,11 +979,9 @@ export default {
       "masked": "____ reached 10,000 over the weekend.",
       "options": [
         "attend-mcq-11",
-        "attend-mcq-10",
-        "attend-mcq-12",
-        "attend-mcq-09",
-        "attend-mcq-13",
-        "attend-mcq-08"
+        "attend-mcq-15",
+        "attend-reviewed-e8146d3aa4",
+        "attend-pdf-001"
       ],
       "explanation": "本句的「Attendance」指「出席人數」。",
       "sentenceIndex": 22,
@@ -1054,12 +990,10 @@ export default {
         "Attendance"
       ],
       "optionReasons": {
-        "attend-mcq-11": "本句指「出席人數」。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-08": "「留意指示」是「attend to instructions」的用法，與本句語境不同。"
+        "attend-mcq-11": "本句的「Attendance」指「出席人數」。",
+        "attend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-11"
     },
@@ -1071,11 +1005,9 @@ export default {
       "masked": "A flight ____ helped us find our seats.",
       "options": [
         "attend-mcq-12",
-        "attend-mcq-11",
-        "attend-mcq-13",
-        "attend-mcq-10",
-        "attend-mcq-14",
-        "attend-mcq-09"
+        "attend-mcq-06",
+        "attend-mcq-09",
+        "attend-mcq-16"
       ],
       "explanation": "本句的「attendant」指「服務員；隨員」。",
       "sentenceIndex": 23,
@@ -1084,12 +1016,10 @@ export default {
         "attendant"
       ],
       "optionReasons": {
-        "attend-mcq-12": "本句指「服務員；隨員」。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。"
+        "attend-mcq-12": "本句的「attendant」指「服務員；隨員」。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-12"
     },
@@ -1101,11 +1031,9 @@ export default {
       "masked": "The parking ____ gave us a ticket.",
       "options": [
         "attend-mcq-12",
-        "attend-mcq-11",
-        "attend-mcq-13",
-        "attend-mcq-10",
+        "attend-mcq-04",
         "attend-mcq-14",
-        "attend-mcq-09"
+        "attend-mcq-03"
       ],
       "explanation": "本句的「attendant」指「服務員；隨員」。",
       "sentenceIndex": 24,
@@ -1114,12 +1042,10 @@ export default {
         "attendant"
       ],
       "optionReasons": {
-        "attend-mcq-12": "本句指「服務員；隨員」。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。"
+        "attend-mcq-12": "本句的「attendant」指「服務員；隨員」。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-12"
     },
@@ -1131,11 +1057,9 @@ export default {
       "masked": "The official arrived with several ____.",
       "options": [
         "attend-mcq-12",
-        "attend-mcq-11",
-        "attend-mcq-13",
-        "attend-mcq-10",
-        "attend-mcq-14",
-        "attend-mcq-09"
+        "attend-reviewed-e8146d3aa4",
+        "attend-mcq-09",
+        "attend-mcq-04"
       ],
       "explanation": "本句的「attendants」指「服務員；隨員」。",
       "sentenceIndex": 25,
@@ -1144,12 +1068,10 @@ export default {
         "attendants"
       ],
       "optionReasons": {
-        "attend-mcq-12": "本句指「服務員；隨員」。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。"
+        "attend-mcq-12": "本句的「attendants」指「服務員；隨員」。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-12"
     },
@@ -1161,11 +1083,9 @@ export default {
       "masked": "The queen was accompanied by her ____.",
       "options": [
         "attend-mcq-12",
-        "attend-mcq-11",
-        "attend-mcq-13",
-        "attend-mcq-10",
-        "attend-mcq-14",
-        "attend-mcq-09"
+        "attend-mcq-09",
+        "attend-mcq-07",
+        "attend-mcq-06"
       ],
       "explanation": "本句的「attendants」指「服務員；隨員」。",
       "sentenceIndex": 26,
@@ -1174,74 +1094,68 @@ export default {
         "attendants"
       ],
       "optionReasons": {
-        "attend-mcq-12": "本句指「服務員；隨員」。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-09": "「出席」是「attendance」的用法，與本句語境不同。"
+        "attend-mcq-12": "本句的「attendants」指「服務員；隨員」。",
+        "attend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-12"
     },
     {
       "id": "attend-14-0",
-      "sense": "attend-mcq-13",
+      "sense": "attend-reviewed-2a6be4845e",
       "en": "Rapid growth brings attendant problems.",
       "zh": "快速增長會帶來伴隨而來的問題。",
       "masked": "Rapid growth brings ____.",
       "options": [
-        "attend-mcq-13",
-        "attend-mcq-12",
-        "attend-mcq-14",
-        "attend-mcq-11",
-        "attend-mcq-15",
-        "attend-mcq-10"
+        "attend-reviewed-2a6be4845e",
+        "attend-mcq-06",
+        "attend-reviewed-e8146d3aa4",
+        "attend-mcq-04"
       ],
-      "explanation": "本句的「attendant problems」指「伴隨風險」。",
+      "explanation": "對照完整句子：「快速增長會帶來伴隨而來的問題。」。這裡的「attendant problems」表示「與某件主要事情同時出現、由它伴隨產生的」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "attendant problems"
       ],
       "optionReasons": {
-        "attend-mcq-13": "本句指「伴隨風險」。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。"
+        "attend-reviewed-2a6be4845e": "對照完整句子：「快速增長會帶來伴隨而來的問題。」。這裡的「attendant problems」表示「與某件主要事情同時出現、由它伴隨產生的」。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "attend-mcq-13"
+      "correctOption": "attend-reviewed-2a6be4845e",
+      "previousCorrectOption": "attend-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "attend-14-1",
-      "sense": "attend-mcq-13",
+      "sense": "attend-reviewed-2a6be4845e",
       "en": "The plan has several attendant risks.",
       "zh": "這個計劃有幾個隨之而來的風險。",
       "masked": "The plan has several ____.",
       "options": [
-        "attend-mcq-13",
-        "attend-mcq-12",
-        "attend-mcq-14",
-        "attend-mcq-11",
+        "attend-reviewed-2a6be4845e",
         "attend-mcq-15",
-        "attend-mcq-10"
+        "attend-mcq-07",
+        "attend-mcq-04"
       ],
-      "explanation": "本句的「attendant risks」指「伴隨風險」。",
+      "explanation": "對照完整句子：「這個計劃有幾個隨之而來的風險。」。這裡的「attendant risks」表示「與某件主要事情同時出現、由它伴隨產生的」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "attendant risks"
       ],
       "optionReasons": {
-        "attend-mcq-13": "本句指「伴隨風險」。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-10": "「出席紀錄」是「attendance record」的用法，與本句語境不同。"
+        "attend-reviewed-2a6be4845e": "對照完整句子：「這個計劃有幾個隨之而來的風險。」。這裡的「attendant risks」表示「與某件主要事情同時出現、由它伴隨產生的」。",
+        "attend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "attend-mcq-13"
+      "correctOption": "attend-reviewed-2a6be4845e",
+      "previousCorrectOption": "attend-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "attend-15-0",
@@ -1251,11 +1165,9 @@ export default {
       "masked": "The students were very ____ during the lesson.",
       "options": [
         "attend-mcq-14",
-        "attend-mcq-13",
-        "attend-mcq-15",
-        "attend-mcq-12",
-        "attend-mcq-16",
-        "attend-mcq-11"
+        "attend-mcq-04",
+        "attend-reviewed-2a6be4845e",
+        "attend-mcq-10"
       ],
       "explanation": "本句的「attentive」指「專心的」。",
       "sentenceIndex": 29,
@@ -1264,12 +1176,10 @@ export default {
         "attentive"
       ],
       "optionReasons": {
-        "attend-mcq-14": "本句指「專心的」。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-16": "「以學生身份定期到某間學校或大學上課」是「1. attend a school / university / college — 就讀；在……上學」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-14": "本句的「attentive」指「專心的」。",
+        "attend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-2a6be4845e": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-14"
     },
@@ -1281,11 +1191,9 @@ export default {
       "masked": "She listened with an ____.",
       "options": [
         "attend-mcq-14",
-        "attend-mcq-13",
-        "attend-mcq-15",
-        "attend-mcq-12",
-        "attend-mcq-16",
-        "attend-mcq-11"
+        "attend-mcq-09",
+        "attend-mcq-06",
+        "attend-mcq-07"
       ],
       "explanation": "本句的「attentive expression」指「專心的」。",
       "sentenceIndex": 30,
@@ -1294,12 +1202,10 @@ export default {
         "attentive expression"
       ],
       "optionReasons": {
-        "attend-mcq-14": "本句指「專心的」。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-15": "「細心照顧某人」是「attentive to someone」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-16": "「以學生身份定期到某間學校或大學上課」是「1. attend a school / university / college — 就讀；在……上學」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-14": "本句的「attentive expression」指「專心的」。",
+        "attend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-14"
     },
@@ -1311,11 +1217,9 @@ export default {
       "masked": "The staff were very ____.",
       "options": [
         "attend-mcq-15",
-        "attend-mcq-14",
-        "attend-mcq-16",
-        "attend-mcq-13",
-        "attend-mcq-12",
-        "attend-mcq-11"
+        "attend-mcq-07",
+        "attend-reviewed-e8146d3aa4",
+        "attend-pdf-001"
       ],
       "explanation": "本句的「attentive to the guests」指「細心照顧某人」。",
       "sentenceIndex": 31,
@@ -1324,12 +1228,10 @@ export default {
         "attentive to the guests"
       ],
       "optionReasons": {
-        "attend-mcq-15": "本句指「細心照顧某人」。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-16": "「以學生身份定期到某間學校或大學上課」是「1. attend a school / university / college — 就讀；在……上學」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-15": "本句的「attentive to the guests」指「細心照顧某人」。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attend-reviewed-e8146d3aa4": "請比較這個意思與句子中標示的用法。",
+        "attend-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-15"
     },
@@ -1341,11 +1243,9 @@ export default {
       "masked": "He was always ____.",
       "options": [
         "attend-mcq-15",
-        "attend-mcq-14",
+        "attend-mcq-10",
         "attend-mcq-16",
-        "attend-mcq-13",
-        "attend-mcq-12",
-        "attend-mcq-11"
+        "attend-mcq-07"
       ],
       "explanation": "本句的「attentive to his grandmother's needs」指「細心照顧某人」。",
       "sentenceIndex": 32,
@@ -1354,12 +1254,10 @@ export default {
         "attentive to his grandmother's needs"
       ],
       "optionReasons": {
-        "attend-mcq-15": "本句指「細心照顧某人」。",
-        "attend-mcq-14": "「專心的」是「attentive」的用法，與本句語境不同。",
-        "attend-mcq-16": "「以學生身份定期到某間學校或大學上課」是「1. attend a school / university / college — 就讀；在……上學」的用法，與本句語境不同。",
-        "attend-mcq-13": "「伴隨風險」是「attendant risk」的用法，與本句語境不同。",
-        "attend-mcq-12": "「服務員；隨員」是「attendant」的用法，與本句語境不同。",
-        "attend-mcq-11": "「出席人數」是「attendance (number)」的用法，與本句語境不同。"
+        "attend-mcq-15": "本句的「attentive to his grandmother's needs」指「細心照顧某人」。",
+        "attend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attend-mcq-15"
     }
@@ -1371,5 +1269,7 @@ export default {
     "sha256": "3c5cdb04204496be6fdb7670d73adadd604cdf373f343253fb78d942d25517d9",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

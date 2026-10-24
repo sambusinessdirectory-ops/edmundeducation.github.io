@@ -602,11 +602,9 @@ export default {
       "masked": "Young plants need proper ____.",
       "options": [
         "care-mcq-01",
-        "care-mcq-02",
         "care-mcq-03",
-        "care-mcq-04",
-        "care-mcq-05",
-        "care-mcq-06"
+        "care-mcq-06",
+        "care-mcq-18"
       ],
       "explanation": "本句的「care」指「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」。",
       "sentenceIndex": 0,
@@ -615,12 +613,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-01": "本句指「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-01": "本句的「care」指「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」。",
+        "care-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-01"
     },
@@ -632,11 +628,9 @@ export default {
       "masked": "The dog is receiving excellent ____.",
       "options": [
         "care-mcq-01",
-        "care-mcq-02",
-        "care-mcq-03",
-        "care-mcq-04",
-        "care-mcq-05",
-        "care-mcq-06"
+        "care-mcq-06",
+        "care-mcq-18",
+        "care-pdf-001"
       ],
       "explanation": "本句的「care」指「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」。",
       "sentenceIndex": 1,
@@ -645,12 +639,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-01": "本句指「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-01": "本句的「care」指「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-01"
     },
@@ -662,11 +654,9 @@ export default {
       "masked": "Gardening is also about ____, generosity, and connection.",
       "options": [
         "care-mcq-02",
-        "care-mcq-01",
-        "care-mcq-03",
-        "care-mcq-04",
-        "care-mcq-05",
-        "care-mcq-06"
+        "care-mcq-14",
+        "care-mcq-22",
+        "care-mcq-23"
       ],
       "explanation": "本句的「care」指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
       "sentenceIndex": 2,
@@ -675,12 +665,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-02": "本句指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-02": "本句的「care」指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-02"
     },
@@ -692,11 +680,9 @@ export default {
       "masked": "She treats every plant with great ____.",
       "options": [
         "care-mcq-02",
-        "care-mcq-01",
-        "care-mcq-03",
-        "care-mcq-04",
-        "care-mcq-05",
-        "care-mcq-06"
+        "care-mcq-17",
+        "care-mcq-22",
+        "care-mcq-20"
       ],
       "explanation": "本句的「care」指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
       "sentenceIndex": 3,
@@ -705,12 +691,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-02": "本句指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-02": "本句的「care」指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
+        "care-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-02"
     },
@@ -722,10 +706,8 @@ export default {
       "masked": "His ____ for his family was obvious.",
       "options": [
         "care-mcq-02",
-        "care-mcq-01",
-        "care-mcq-03",
-        "care-mcq-04",
-        "care-mcq-05",
+        "care-mcq-16",
+        "care-mcq-22",
         "care-mcq-06"
       ],
       "explanation": "本句的「care」指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
@@ -735,12 +717,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-02": "本句指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-02": "本句的「care」指「對某人／某物的福祉、需要或狀況抱有真誠關心」。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-02"
     },
@@ -752,11 +732,9 @@ export default {
       "masked": "Handle the plant with ____.",
       "options": [
         "care-mcq-03",
-        "care-mcq-02",
-        "care-mcq-04",
-        "care-mcq-01",
-        "care-mcq-05",
-        "care-mcq-06"
+        "care-pdf-002",
+        "care-mcq-09",
+        "care-mcq-17"
       ],
       "explanation": "本句的「care」指「為避免錯誤、損害或問題而投入的細心與謹慎」。",
       "sentenceIndex": 5,
@@ -765,12 +743,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-03": "本句指「為避免錯誤、損害或問題而投入的細心與謹慎」。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-03": "本句的「care」指「為避免錯誤、損害或問題而投入的細心與謹慎」。",
+        "care-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-03"
     },
@@ -782,11 +758,9 @@ export default {
       "masked": "The document was prepared with great ____.",
       "options": [
         "care-mcq-03",
-        "care-mcq-02",
-        "care-mcq-04",
-        "care-mcq-01",
-        "care-mcq-05",
-        "care-mcq-06"
+        "care-pdf-003",
+        "care-mcq-14",
+        "care-mcq-22"
       ],
       "explanation": "本句的「care」指「為避免錯誤、損害或問題而投入的細心與謹慎」。",
       "sentenceIndex": 6,
@@ -795,12 +769,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-03": "本句指「為避免錯誤、損害或問題而投入的細心與謹慎」。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-03": "本句的「care」指「為避免錯誤、損害或問題而投入的細心與謹慎」。",
+        "care-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-03"
     },
@@ -812,11 +784,9 @@ export default {
       "masked": "The children were left in their grandmother’s ____.",
       "options": [
         "care-mcq-04",
-        "care-mcq-03",
-        "care-mcq-05",
-        "care-mcq-02",
-        "care-mcq-06",
-        "care-mcq-01"
+        "care-pdf-001",
+        "care-mcq-22",
+        "care-mcq-09"
       ],
       "explanation": "本句的「care」指「對某人／某物負有保護、照顧或管理責任」。",
       "sentenceIndex": 7,
@@ -825,12 +795,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-04": "本句指「對某人／某物負有保護、照顧或管理責任」。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。"
+        "care-mcq-04": "本句的「care」指「對某人／某物負有保護、照顧或管理責任」。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-04"
     },
@@ -842,11 +810,9 @@ export default {
       "masked": "The plants are now in my ____.",
       "options": [
         "care-mcq-04",
+        "care-mcq-09",
         "care-mcq-03",
-        "care-mcq-05",
-        "care-mcq-02",
-        "care-mcq-06",
-        "care-mcq-01"
+        "care-mcq-08"
       ],
       "explanation": "本句的「care」指「對某人／某物負有保護、照顧或管理責任」。",
       "sentenceIndex": 8,
@@ -855,12 +821,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-04": "本句指「對某人／某物負有保護、照顧或管理責任」。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-01": "「為維持某人／某物健康、安全或良好狀態而提供的照顧與注意」是「care — looking after」的用法，與本句語境不同。"
+        "care-mcq-04": "本句的「care」指「對某人／某物負有保護、照顧或管理責任」。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-04"
     },
@@ -872,11 +836,9 @@ export default {
       "masked": "Older people may need long-term ____.",
       "options": [
         "care-mcq-05",
-        "care-mcq-04",
-        "care-mcq-06",
-        "care-mcq-03",
-        "care-mcq-07",
-        "care-mcq-02"
+        "care-mcq-18",
+        "care-pdf-001",
+        "care-mcq-06"
       ],
       "explanation": "本句的「care」指「為有生活、健康或支援需要人士提供的持續照護」。",
       "sentenceIndex": 9,
@@ -885,12 +847,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-05": "本句指「為有生活、健康或支援需要人士提供的持續照護」。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。"
+        "care-mcq-05": "本句的「care」指「為有生活、健康或支援需要人士提供的持續照護」。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-05"
     },
@@ -902,11 +862,9 @@ export default {
       "masked": "The centre provides ____ for people with disabilities.",
       "options": [
         "care-mcq-05",
-        "care-mcq-04",
-        "care-mcq-06",
-        "care-mcq-03",
-        "care-mcq-07",
-        "care-mcq-02"
+        "care-mcq-18",
+        "care-pdf-001",
+        "care-mcq-06"
       ],
       "explanation": "本句的「care」指「為有生活、健康或支援需要人士提供的持續照護」。",
       "sentenceIndex": 10,
@@ -915,12 +873,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-05": "本句指「為有生活、健康或支援需要人士提供的持續照護」。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-02": "「對某人／某物的福祉、需要或狀況抱有真誠關心」是「care — concern」的用法，與本句語境不同。"
+        "care-mcq-05": "本句的「care」指「為有生活、健康或支援需要人士提供的持續照護」。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-05"
     },
@@ -932,11 +888,9 @@ export default {
       "masked": "She received immediate medical ____.",
       "options": [
         "care-mcq-16",
-        "care-mcq-15",
-        "care-mcq-17",
-        "care-mcq-14",
-        "care-mcq-18",
-        "care-mcq-13"
+        "care-mcq-08",
+        "care-pdf-003",
+        "care-mcq-10"
       ],
       "explanation": "本句的「care」指「為預防、診斷、治療或管理健康問題而提供的醫療服務」。",
       "sentenceIndex": 11,
@@ -945,12 +899,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-16": "本句指「為預防、診斷、治療或管理健康問題而提供的醫療服務」。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。"
+        "care-mcq-16": "本句的「care」指「為預防、診斷、治療或管理健康問題而提供的醫療服務」。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-16"
     },
@@ -962,11 +914,9 @@ export default {
       "masked": "Access to ____ varies between regions.",
       "options": [
         "care-mcq-16",
-        "care-mcq-15",
-        "care-mcq-17",
-        "care-mcq-14",
-        "care-mcq-18",
-        "care-mcq-13"
+        "care-mcq-10",
+        "care-mcq-22",
+        "care-pdf-002"
       ],
       "explanation": "本句的「healthcare」指「為預防、診斷、治療或管理健康問題而提供的醫療服務」。",
       "sentenceIndex": 12,
@@ -975,12 +925,10 @@ export default {
         "healthcare"
       ],
       "optionReasons": {
-        "care-mcq-16": "本句指「為預防、診斷、治療或管理健康問題而提供的醫療服務」。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。"
+        "care-mcq-16": "本句的「healthcare」指「為預防、診斷、治療或管理健康問題而提供的醫療服務」。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-16"
     },
@@ -992,11 +940,9 @@ export default {
       "masked": "The company provides ____ for employees.",
       "options": [
         "care-mcq-20",
-        "care-mcq-19",
-        "care-mcq-21",
-        "care-mcq-18",
-        "care-mcq-22",
-        "care-mcq-17"
+        "care-mcq-06",
+        "care-mcq-07",
+        "care-mcq-09"
       ],
       "explanation": "本句的「childcare」指「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」。",
       "sentenceIndex": 13,
@@ -1005,12 +951,10 @@ export default {
         "childcare"
       ],
       "optionReasons": {
-        "care-mcq-20": "本句指「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-22": "「對某情況是否發生感到介意或有所在意」是「14. care = object / mind（介意） — 介意；不喜歡」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。"
+        "care-mcq-20": "本句的「childcare」指「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-20"
     },
@@ -1022,11 +966,9 @@ export default {
       "masked": "____ can be expensive.",
       "options": [
         "care-mcq-20",
-        "care-mcq-19",
-        "care-mcq-21",
-        "care-mcq-18",
-        "care-mcq-22",
-        "care-mcq-17"
+        "care-mcq-08",
+        "care-mcq-12",
+        "care-mcq-06"
       ],
       "explanation": "本句的「Childcare」指「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」。",
       "sentenceIndex": 14,
@@ -1035,12 +977,10 @@ export default {
         "Childcare"
       ],
       "optionReasons": {
-        "care-mcq-20": "本句指「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-22": "「對某情況是否發生感到介意或有所在意」是「14. care = object / mind（介意） — 介意；不喜歡」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。"
+        "care-mcq-20": "本句的「Childcare」指「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-20"
     },
@@ -1052,11 +992,9 @@ export default {
       "masked": "Demand for ____ is increasing.",
       "options": [
         "care-mcq-21",
-        "care-mcq-20",
-        "care-mcq-22",
-        "care-mcq-19",
-        "care-mcq-23",
-        "care-mcq-18"
+        "care-mcq-09",
+        "care-mcq-03",
+        "care-mcq-06"
       ],
       "explanation": "本句的「elder care」指「為年長人士提供生活、健康或日常支援的照護」。",
       "sentenceIndex": 15,
@@ -1065,12 +1003,10 @@ export default {
         "elder care"
       ],
       "optionReasons": {
-        "care-mcq-21": "本句指「為年長人士提供生活、健康或日常支援的照護」。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-22": "「對某情況是否發生感到介意或有所在意」是「14. care = object / mind（介意） — 介意；不喜歡」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-23": "「因缺乏注意、細心或謹慎而做某事」是「20. carelessly = without enough care — 粗心地；不小心地」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。"
+        "care-mcq-21": "本句的「elder care」指「為年長人士提供生活、健康或日常支援的照護」。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-21"
     },
@@ -1082,11 +1018,9 @@ export default {
       "masked": "She works in elderly ____.",
       "options": [
         "care-mcq-21",
-        "care-mcq-20",
-        "care-mcq-22",
-        "care-mcq-19",
-        "care-mcq-23",
-        "care-mcq-18"
+        "care-pdf-001",
+        "care-mcq-08",
+        "care-mcq-06"
       ],
       "explanation": "本句的「care」指「為年長人士提供生活、健康或日常支援的照護」。",
       "sentenceIndex": 16,
@@ -1095,12 +1029,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-21": "本句指「為年長人士提供生活、健康或日常支援的照護」。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-22": "「對某情況是否發生感到介意或有所在意」是「14. care = object / mind（介意） — 介意；不喜歡」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-23": "「因缺乏注意、細心或謹慎而做某事」是「20. carelessly = without enough care — 粗心地；不小心地」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。"
+        "care-mcq-21": "本句的「care」指「為年長人士提供生活、健康或日常支援的照護」。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-21"
     },
@@ -1112,11 +1044,9 @@ export default {
       "masked": "Rest is an important part of ____.",
       "options": [
         "care-mcq-15",
-        "care-mcq-14",
-        "care-mcq-16",
-        "care-mcq-13",
-        "care-mcq-17",
-        "care-mcq-12"
+        "care-mcq-10",
+        "care-mcq-09",
+        "care-mcq-08"
       ],
       "explanation": "本句的「self-care」指「為維持自己的身心健康而進行的自我照顧」。",
       "sentenceIndex": 17,
@@ -1125,12 +1055,10 @@ export default {
         "self-care"
       ],
       "optionReasons": {
-        "care-mcq-15": "本句指「為維持自己的身心健康而進行的自我照顧」。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。"
+        "care-mcq-15": "本句的「self-care」指「為維持自己的身心健康而進行的自我照顧」。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-15"
     },
@@ -1142,11 +1070,9 @@ export default {
       "masked": "Gardening can be a form of self-____.",
       "options": [
         "care-mcq-15",
-        "care-mcq-14",
-        "care-mcq-16",
-        "care-mcq-13",
-        "care-mcq-17",
-        "care-mcq-12"
+        "care-mcq-22",
+        "care-pdf-002",
+        "care-mcq-10"
       ],
       "explanation": "本句的「care」指「為維持自己的身心健康而進行的自我照顧」。",
       "sentenceIndex": 18,
@@ -1155,12 +1081,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-15": "本句指「為維持自己的身心健康而進行的自我照顧」。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。"
+        "care-mcq-15": "本句的「care」指「為維持自己的身心健康而進行的自我照顧」。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-15"
     },
@@ -1172,11 +1096,9 @@ export default {
       "masked": "He seemed free from ____.",
       "options": [
         "care-mcq-06",
-        "care-mcq-05",
-        "care-mcq-07",
-        "care-mcq-04",
-        "care-mcq-08",
-        "care-mcq-03"
+        "care-mcq-19",
+        "care-mcq-09",
+        "care-mcq-22"
       ],
       "explanation": "本句的「care」指「令人憂慮、煩惱或承受心理壓力的事情」。",
       "sentenceIndex": 19,
@@ -1185,12 +1107,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-06": "本句指「令人憂慮、煩惱或承受心理壓力的事情」。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。"
+        "care-mcq-06": "本句的「care」指「令人憂慮、煩惱或承受心理壓力的事情」。",
+        "care-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-06"
     },
@@ -1202,11 +1122,9 @@ export default {
       "masked": "She tried to forget the ____ of everyday life.",
       "options": [
         "care-mcq-06",
-        "care-mcq-05",
-        "care-mcq-07",
-        "care-mcq-04",
-        "care-mcq-08",
-        "care-mcq-03"
+        "care-mcq-17",
+        "care-mcq-22",
+        "care-mcq-10"
       ],
       "explanation": "本句的「cares」指「令人憂慮、煩惱或承受心理壓力的事情」。",
       "sentenceIndex": 20,
@@ -1215,12 +1133,10 @@ export default {
         "cares"
       ],
       "optionReasons": {
-        "care-mcq-06": "本句指「令人憂慮、煩惱或承受心理壓力的事情」。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-03": "「為避免錯誤、損害或問題而投入的細心與謹慎」是「care — careful attention」的用法，與本句語境不同。"
+        "care-mcq-06": "本句的「cares」指「令人憂慮、煩惱或承受心理壓力的事情」。",
+        "care-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-06"
     },
@@ -1232,11 +1148,9 @@ export default {
       "masked": "She really ____ about her plants.",
       "options": [
         "care-mcq-07",
-        "care-mcq-06",
-        "care-mcq-08",
-        "care-mcq-05",
-        "care-mcq-09",
-        "care-mcq-04"
+        "care-mcq-18",
+        "care-mcq-11",
+        "care-mcq-09"
       ],
       "explanation": "本句的「cares」指「對某人／某事的狀況或結果感到關心」。",
       "sentenceIndex": 21,
@@ -1245,12 +1159,10 @@ export default {
         "cares"
       ],
       "optionReasons": {
-        "care-mcq-07": "本句指「對某人／某事的狀況或結果感到關心」。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。"
+        "care-mcq-07": "本句的「cares」指「對某人／某事的狀況或結果感到關心」。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-07"
     },
@@ -1262,11 +1174,9 @@ export default {
       "masked": "He ____ deeply about the environment.",
       "options": [
         "care-mcq-07",
-        "care-mcq-06",
-        "care-mcq-08",
-        "care-mcq-05",
-        "care-mcq-09",
-        "care-mcq-04"
+        "care-mcq-10",
+        "care-mcq-14",
+        "care-mcq-09"
       ],
       "explanation": "本句的「cares」指「對某人／某事的狀況或結果感到關心」。",
       "sentenceIndex": 22,
@@ -1275,12 +1185,10 @@ export default {
         "cares"
       ],
       "optionReasons": {
-        "care-mcq-07": "本句指「對某人／某事的狀況或結果感到關心」。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-04": "「對某人／某物負有保護、照顧或管理責任」是「care — responsibility」的用法，與本句語境不同。"
+        "care-mcq-07": "本句的「cares」指「對某人／某事的狀況或結果感到關心」。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-07"
     },
@@ -1292,11 +1200,9 @@ export default {
       "masked": "I don’t ____ what other people think.",
       "options": [
         "care-mcq-08",
-        "care-mcq-07",
-        "care-mcq-09",
-        "care-mcq-06",
-        "care-mcq-10",
-        "care-mcq-05"
+        "care-mcq-19",
+        "care-pdf-001",
+        "care-mcq-06"
       ],
       "explanation": "本句的「care」指「認為某件事重要，因此對結果／看法有所介意」。",
       "sentenceIndex": 23,
@@ -1305,12 +1211,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-08": "本句指「認為某件事重要，因此對結果／看法有所介意」。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。"
+        "care-mcq-08": "本句的「care」指「認為某件事重要，因此對結果／看法有所介意」。",
+        "care-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-08"
     },
@@ -1322,11 +1226,9 @@ export default {
       "masked": "She ____ a lot about doing the job properly.",
       "options": [
         "care-mcq-08",
-        "care-mcq-07",
-        "care-mcq-09",
-        "care-mcq-06",
-        "care-mcq-10",
-        "care-mcq-05"
+        "care-mcq-14",
+        "care-mcq-04",
+        "care-pdf-001"
       ],
       "explanation": "本句的「cares」指「認為某件事重要，因此對結果／看法有所介意」。",
       "sentenceIndex": 24,
@@ -1335,12 +1237,10 @@ export default {
         "cares"
       ],
       "optionReasons": {
-        "care-mcq-08": "本句指「認為某件事重要，因此對結果／看法有所介意」。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-05": "「為有生活、健康或支援需要人士提供的持續照護」是「care — professional service」的用法，與本句語境不同。"
+        "care-mcq-08": "本句的「cares」指「認為某件事重要，因此對結果／看法有所介意」。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-08"
     },
@@ -1352,11 +1252,9 @@ export default {
       "masked": "Would you ____ for some tea?",
       "options": [
         "care-mcq-09",
-        "care-mcq-08",
-        "care-mcq-10",
         "care-mcq-07",
-        "care-mcq-11",
-        "care-mcq-06"
+        "care-mcq-20",
+        "care-mcq-17"
       ],
       "explanation": "本句的「care」指「想要或願意做某事；較禮貌／正式」。",
       "sentenceIndex": 25,
@@ -1365,12 +1263,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-09": "本句指「想要或願意做某事；較禮貌／正式」。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-09": "本句的「care」指「想要或願意做某事；較禮貌／正式」。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-09"
     },
@@ -1382,11 +1278,9 @@ export default {
       "masked": "Would you ____ to join us?",
       "options": [
         "care-mcq-09",
-        "care-mcq-08",
-        "care-mcq-10",
-        "care-mcq-07",
-        "care-mcq-11",
-        "care-mcq-06"
+        "care-mcq-20",
+        "care-pdf-001",
+        "care-mcq-07"
       ],
       "explanation": "本句的「care」指「想要或願意做某事；較禮貌／正式」。",
       "sentenceIndex": 26,
@@ -1395,12 +1289,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-09": "本句指「想要或願意做某事；較禮貌／正式」。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-06": "「令人憂慮、煩惱或承受心理壓力的事情」是「care — worry」的用法，與本句語境不同。"
+        "care-mcq-09": "本句的「care」指「想要或願意做某事；較禮貌／正式」。",
+        "care-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-09"
     },
@@ -1412,11 +1304,9 @@ export default {
       "masked": "Do you ____ if I open the window?",
       "options": [
         "care-mcq-22",
-        "care-mcq-21",
-        "care-mcq-23",
+        "care-mcq-02",
         "care-mcq-20",
-        "care-mcq-19",
-        "care-mcq-18"
+        "care-mcq-17"
       ],
       "explanation": "本句的「care」指「對某情況是否發生感到介意或有所在意」。",
       "sentenceIndex": 27,
@@ -1425,12 +1315,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-22": "本句指「對某情況是否發生感到介意或有所在意」。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-23": "「因缺乏注意、細心或謹慎而做某事」是「20. carelessly = without enough care — 粗心地；不小心地」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。"
+        "care-mcq-22": "本句的「care」指「對某情況是否發生感到介意或有所在意」。",
+        "care-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-22"
     },
@@ -1442,10 +1330,8 @@ export default {
       "masked": "I wouldn’t ____ if the meeting ended early.",
       "options": [
         "care-mcq-22",
-        "care-mcq-21",
-        "care-mcq-23",
-        "care-mcq-20",
-        "care-mcq-19",
+        "care-mcq-13",
+        "care-pdf-001",
         "care-mcq-18"
       ],
       "explanation": "本句的「care」指「對某情況是否發生感到介意或有所在意」。",
@@ -1455,12 +1341,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-22": "本句指「對某情況是否發生感到介意或有所在意」。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-23": "「因缺乏注意、細心或謹慎而做某事」是「20. carelessly = without enough care — 粗心地；不小心地」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。"
+        "care-mcq-22": "本句的「care」指「對某情況是否發生感到介意或有所在意」。",
+        "care-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-22"
     },
@@ -1472,11 +1356,9 @@ export default {
       "masked": "Be ____ with the young plants.",
       "options": [
         "care-mcq-10",
-        "care-mcq-09",
-        "care-mcq-11",
-        "care-mcq-08",
-        "care-mcq-12",
-        "care-mcq-07"
+        "care-pdf-003",
+        "care-mcq-16",
+        "care-mcq-06"
       ],
       "explanation": "本句的「careful」指「為避免錯誤、危險或損害而仔細注意的」。",
       "sentenceIndex": 29,
@@ -1485,12 +1367,10 @@ export default {
         "careful"
       ],
       "optionReasons": {
-        "care-mcq-10": "本句指「為避免錯誤、危險或損害而仔細注意的」。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
+        "care-mcq-10": "本句的「careful」指「為避免錯誤、危險或損害而仔細注意的」。",
+        "care-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-10"
     },
@@ -1502,11 +1382,9 @@ export default {
       "masked": "She made a ____ decision.",
       "options": [
         "care-mcq-10",
-        "care-mcq-09",
-        "care-mcq-11",
-        "care-mcq-08",
-        "care-mcq-12",
-        "care-mcq-07"
+        "care-mcq-19",
+        "care-mcq-07",
+        "care-mcq-06"
       ],
       "explanation": "本句的「careful」指「為避免錯誤、危險或損害而仔細注意的」。",
       "sentenceIndex": 30,
@@ -1515,12 +1393,10 @@ export default {
         "careful"
       ],
       "optionReasons": {
-        "care-mcq-10": "本句指「為避免錯誤、危險或損害而仔細注意的」。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
+        "care-mcq-10": "本句的「careful」指「為避免錯誤、危險或損害而仔細注意的」。",
+        "care-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-10"
     },
@@ -1532,11 +1408,9 @@ export default {
       "masked": "The researcher made a ____.",
       "options": [
         "care-mcq-10",
-        "care-mcq-09",
-        "care-mcq-11",
-        "care-mcq-08",
-        "care-mcq-12",
-        "care-mcq-07"
+        "care-mcq-15",
+        "care-mcq-07",
+        "care-mcq-18"
       ],
       "explanation": "本句的「careful analysis」指「為避免錯誤、危險或損害而仔細注意的」。",
       "sentenceIndex": 31,
@@ -1545,12 +1419,10 @@ export default {
         "careful analysis"
       ],
       "optionReasons": {
-        "care-mcq-10": "本句指「為避免錯誤、危險或損害而仔細注意的」。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
+        "care-mcq-10": "本句的「careful analysis」指「為避免錯誤、危險或損害而仔細注意的」。",
+        "care-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-10"
     },
@@ -1562,11 +1434,9 @@ export default {
       "masked": "The plants need ____ monitoring.",
       "options": [
         "care-mcq-10",
-        "care-mcq-09",
-        "care-mcq-11",
-        "care-mcq-08",
-        "care-mcq-12",
-        "care-mcq-07"
+        "care-mcq-06",
+        "care-mcq-14",
+        "care-pdf-003"
       ],
       "explanation": "本句的「careful」指「為避免錯誤、危險或損害而仔細注意的」。",
       "sentenceIndex": 32,
@@ -1575,12 +1445,10 @@ export default {
         "careful"
       ],
       "optionReasons": {
-        "care-mcq-10": "本句指「為避免錯誤、危險或損害而仔細注意的」。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
+        "care-mcq-10": "本句的「careful」指「為避免錯誤、危險或損害而仔細注意的」。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-10"
     },
@@ -1592,11 +1460,9 @@ export default {
       "masked": "Water the seedlings ____.",
       "options": [
         "care-pdf-001",
-        "care-mcq-09",
-        "care-mcq-11",
-        "care-mcq-08",
-        "care-mcq-12",
-        "care-mcq-07"
+        "care-mcq-05",
+        "care-mcq-20",
+        "care-mcq-09"
       ],
       "explanation": "本句的「carefully」指「以細心、謹慎或避免錯誤的方式」。",
       "sentenceIndex": 33,
@@ -1605,12 +1471,10 @@ export default {
         "carefully"
       ],
       "optionReasons": {
-        "care-pdf-001": "本句指「以細心、謹慎或避免錯誤的方式」。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
+        "care-pdf-001": "本句的「carefully」指「以細心、謹慎或避免錯誤的方式」。",
+        "care-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-pdf-001"
     },
@@ -1622,11 +1486,9 @@ export default {
       "masked": "Read the instructions ____.",
       "options": [
         "care-pdf-001",
-        "care-mcq-09",
-        "care-mcq-11",
-        "care-mcq-08",
-        "care-mcq-12",
-        "care-mcq-07"
+        "care-mcq-20",
+        "care-mcq-21",
+        "care-mcq-08"
       ],
       "explanation": "本句的「carefully」指「以細心、謹慎或避免錯誤的方式」。",
       "sentenceIndex": 34,
@@ -1635,12 +1497,10 @@ export default {
         "carefully"
       ],
       "optionReasons": {
-        "care-pdf-001": "本句指「以細心、謹慎或避免錯誤的方式」。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-07": "「對某人／某事的狀況或結果感到關心」是「care — verb: concern」的用法，與本句語境不同。"
+        "care-pdf-001": "本句的「carefully」指「以細心、謹慎或避免錯誤的方式」。",
+        "care-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-pdf-001"
     },
@@ -1652,11 +1512,9 @@ export default {
       "masked": "A ____ mistake damaged the plant.",
       "options": [
         "care-mcq-11",
-        "care-mcq-10",
-        "care-mcq-12",
-        "care-mcq-09",
-        "care-mcq-13",
-        "care-mcq-08"
+        "care-mcq-07",
+        "care-mcq-06",
+        "care-mcq-18"
       ],
       "explanation": "本句的「careless」指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
       "sentenceIndex": 35,
@@ -1665,12 +1523,10 @@ export default {
         "careless"
       ],
       "optionReasons": {
-        "care-mcq-11": "本句指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。"
+        "care-mcq-11": "本句的「careless」指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-11"
     },
@@ -1682,11 +1538,9 @@ export default {
       "masked": "He was ____ with the equipment.",
       "options": [
         "care-mcq-11",
-        "care-mcq-10",
-        "care-mcq-12",
-        "care-mcq-09",
-        "care-mcq-13",
-        "care-mcq-08"
+        "care-mcq-18",
+        "care-mcq-15",
+        "care-mcq-06"
       ],
       "explanation": "本句的「careless」指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
       "sentenceIndex": 36,
@@ -1695,12 +1549,10 @@ export default {
         "careless"
       ],
       "optionReasons": {
-        "care-mcq-11": "本句指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。"
+        "care-mcq-11": "本句的「careless」指「因沒有給予足夠注意而容易造成錯誤／損害的」。",
+        "care-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-11"
     },
@@ -1712,11 +1564,9 @@ export default {
       "masked": "He seemed ____ of the consequences.",
       "options": [
         "care-pdf-002",
-        "care-mcq-10",
-        "care-mcq-12",
-        "care-mcq-09",
-        "care-mcq-13",
-        "care-mcq-08"
+        "care-mcq-14",
+        "care-mcq-22",
+        "care-mcq-06"
       ],
       "explanation": "本句的「careless」指「對某人的需要、後果或重要事情缺乏關注」。",
       "sentenceIndex": 37,
@@ -1725,12 +1575,10 @@ export default {
         "careless"
       ],
       "optionReasons": {
-        "care-pdf-002": "本句指「對某人的需要、後果或重要事情缺乏關注」。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。"
+        "care-pdf-002": "本句的「careless」指「對某人的需要、後果或重要事情缺乏關注」。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-pdf-002"
     },
@@ -1742,11 +1590,9 @@ export default {
       "masked": "They were ____ about other people’s feelings.",
       "options": [
         "care-pdf-002",
-        "care-mcq-10",
-        "care-mcq-12",
-        "care-mcq-09",
-        "care-mcq-13",
-        "care-mcq-08"
+        "care-mcq-15",
+        "care-pdf-001",
+        "care-mcq-06"
       ],
       "explanation": "本句的「careless」指「對某人的需要、後果或重要事情缺乏關注」。",
       "sentenceIndex": 38,
@@ -1755,12 +1601,10 @@ export default {
         "careless"
       ],
       "optionReasons": {
-        "care-pdf-002": "本句指「對某人的需要、後果或重要事情缺乏關注」。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-08": "「認為某件事重要，因此對結果／看法有所介意」是「care — verb: value」的用法，與本句語境不同。"
+        "care-pdf-002": "本句的「careless」指「對某人的需要、後果或重要事情缺乏關注」。",
+        "care-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-pdf-002"
     },
@@ -1772,11 +1616,9 @@ export default {
       "masked": "He ____ knocked over the pot.",
       "options": [
         "care-mcq-23",
-        "care-mcq-22",
-        "care-mcq-21",
-        "care-mcq-20",
-        "care-mcq-19",
-        "care-mcq-18"
+        "care-mcq-13",
+        "care-mcq-16",
+        "care-mcq-22"
       ],
       "explanation": "本句的「carelessly」指「因缺乏注意、細心或謹慎而做某事」。",
       "sentenceIndex": 39,
@@ -1785,12 +1627,10 @@ export default {
         "carelessly"
       ],
       "optionReasons": {
-        "care-mcq-23": "本句指「因缺乏注意、細心或謹慎而做某事」。",
-        "care-mcq-22": "「對某情況是否發生感到介意或有所在意」是「14. care = object / mind（介意） — 介意；不喜歡」的用法，與本句語境不同。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。"
+        "care-mcq-23": "本句的「carelessly」指「因缺乏注意、細心或謹慎而做某事」。",
+        "care-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-23"
     },
@@ -1802,11 +1642,9 @@ export default {
       "masked": "The form was filled in ____.",
       "options": [
         "care-mcq-23",
-        "care-mcq-22",
-        "care-mcq-21",
-        "care-mcq-20",
-        "care-mcq-19",
-        "care-mcq-18"
+        "care-mcq-14",
+        "care-pdf-003",
+        "care-mcq-06"
       ],
       "explanation": "本句的「carelessly」指「因缺乏注意、細心或謹慎而做某事」。",
       "sentenceIndex": 40,
@@ -1815,12 +1653,10 @@ export default {
         "carelessly"
       ],
       "optionReasons": {
-        "care-mcq-23": "本句指「因缺乏注意、細心或謹慎而做某事」。",
-        "care-mcq-22": "「對某情況是否發生感到介意或有所在意」是「14. care = object / mind（介意） — 介意；不喜歡」的用法，與本句語境不同。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。"
+        "care-mcq-23": "本句的「carelessly」指「因缺乏注意、細心或謹慎而做某事」。",
+        "care-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-23"
     },
@@ -1832,11 +1668,9 @@ export default {
       "masked": "She is a very ____ person.",
       "options": [
         "care-mcq-12",
-        "care-mcq-11",
-        "care-mcq-13",
-        "care-mcq-10",
-        "care-mcq-14",
-        "care-mcq-09"
+        "care-mcq-16",
+        "care-mcq-08",
+        "care-mcq-23"
       ],
       "explanation": "本句的「caring」指「真誠關心他人的需要、感受和福祉的」。",
       "sentenceIndex": 41,
@@ -1845,12 +1679,10 @@ export default {
         "caring"
       ],
       "optionReasons": {
-        "care-mcq-12": "本句指「真誠關心他人的需要、感受和福祉的」。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。"
+        "care-mcq-12": "本句的「caring」指「真誠關心他人的需要、感受和福祉的」。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-12"
     },
@@ -1862,10 +1694,8 @@ export default {
       "masked": "The children grew up in a ____ environment.",
       "options": [
         "care-mcq-12",
-        "care-mcq-11",
-        "care-mcq-13",
-        "care-mcq-10",
-        "care-mcq-14",
+        "care-mcq-16",
+        "care-mcq-08",
         "care-mcq-09"
       ],
       "explanation": "本句的「caring」指「真誠關心他人的需要、感受和福祉的」。",
@@ -1875,12 +1705,10 @@ export default {
         "caring"
       ],
       "optionReasons": {
-        "care-mcq-12": "本句指「真誠關心他人的需要、感受和福祉的」。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。"
+        "care-mcq-12": "本句的「caring」指「真誠關心他人的需要、感受和福祉的」。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-12"
     },
@@ -1892,11 +1720,9 @@ export default {
       "masked": "She works in a ____.",
       "options": [
         "care-pdf-003",
-        "care-mcq-11",
-        "care-mcq-13",
         "care-mcq-10",
-        "care-mcq-14",
-        "care-mcq-09"
+        "care-mcq-16",
+        "care-mcq-22"
       ],
       "explanation": "本句的「caring profession」指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
       "sentenceIndex": 43,
@@ -1905,12 +1731,10 @@ export default {
         "caring profession"
       ],
       "optionReasons": {
-        "care-pdf-003": "本句指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。"
+        "care-pdf-003": "本句的「caring profession」指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-pdf-003"
     },
@@ -1922,11 +1746,9 @@ export default {
       "masked": "____ responsibilities can take a lot of time.",
       "options": [
         "care-pdf-003",
+        "care-mcq-22",
         "care-mcq-11",
-        "care-mcq-13",
-        "care-mcq-10",
-        "care-mcq-14",
-        "care-mcq-09"
+        "care-mcq-06"
       ],
       "explanation": "本句的「Caring」指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
       "sentenceIndex": 44,
@@ -1935,12 +1757,10 @@ export default {
         "Caring"
       ],
       "optionReasons": {
-        "care-pdf-003": "本句指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-09": "「想要或願意做某事；較禮貌／正式」是「care — want/willing」的用法，與本句語境不同。"
+        "care-pdf-003": "本句的「Caring」指「與照顧病人、兒童、長者或其他有需要人士相關的」。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-pdf-003"
     },
@@ -1952,11 +1772,9 @@ export default {
       "masked": "Her father’s main ____ is her sister.",
       "options": [
         "care-mcq-13",
-        "care-mcq-12",
-        "care-mcq-14",
-        "care-mcq-11",
-        "care-mcq-15",
-        "care-mcq-10"
+        "care-mcq-23",
+        "care-mcq-16",
+        "care-mcq-22"
       ],
       "explanation": "本句的「carer」指「經常負責照顧需要支援人士的人；尤其 BrE」。",
       "sentenceIndex": 45,
@@ -1965,12 +1783,10 @@ export default {
         "carer"
       ],
       "optionReasons": {
-        "care-mcq-13": "本句指「經常負責照顧需要支援人士的人；尤其 BrE」。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。"
+        "care-mcq-13": "本句的「carer」指「經常負責照顧需要支援人士的人；尤其 BrE」。",
+        "care-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-13"
     },
@@ -1982,11 +1798,9 @@ export default {
       "masked": "____ often need support too.",
       "options": [
         "care-mcq-13",
-        "care-mcq-12",
-        "care-mcq-14",
-        "care-mcq-11",
-        "care-mcq-15",
-        "care-mcq-10"
+        "care-mcq-16",
+        "care-pdf-001",
+        "care-mcq-22"
       ],
       "explanation": "本句的「Carers」指「經常負責照顧需要支援人士的人；尤其 BrE」。",
       "sentenceIndex": 46,
@@ -1995,12 +1809,10 @@ export default {
         "Carers"
       ],
       "optionReasons": {
-        "care-mcq-13": "本句指「經常負責照顧需要支援人士的人；尤其 BrE」。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-10": "「為避免錯誤、危險或損害而仔細注意的」是「careful」的用法，與本句語境不同。"
+        "care-mcq-13": "本句的「Carers」指「經常負責照顧需要支援人士的人；尤其 BrE」。",
+        "care-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-13"
     },
@@ -2012,11 +1824,9 @@ export default {
       "masked": "Family ____ may experience stress.",
       "options": [
         "care-mcq-14",
-        "care-mcq-13",
-        "care-mcq-15",
         "care-mcq-12",
-        "care-mcq-16",
-        "care-mcq-11"
+        "care-mcq-22",
+        "care-mcq-09"
       ],
       "explanation": "本句的「caregivers」指「提供日常、身體或情緒照護的人；尤其 AmE」。",
       "sentenceIndex": 47,
@@ -2025,12 +1835,10 @@ export default {
         "caregivers"
       ],
       "optionReasons": {
-        "care-mcq-14": "本句指「提供日常、身體或情緒照護的人；尤其 AmE」。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。"
+        "care-mcq-14": "本句的「caregivers」指「提供日常、身體或情緒照護的人；尤其 AmE」。",
+        "care-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-14"
     },
@@ -2042,11 +1850,9 @@ export default {
       "masked": "The ____ helped him with daily tasks.",
       "options": [
         "care-mcq-14",
-        "care-mcq-13",
-        "care-mcq-15",
-        "care-mcq-12",
-        "care-mcq-16",
-        "care-mcq-11"
+        "care-mcq-10",
+        "care-mcq-07",
+        "care-mcq-06"
       ],
       "explanation": "本句的「caregiver」指「提供日常、身體或情緒照護的人；尤其 AmE」。",
       "sentenceIndex": 48,
@@ -2055,12 +1861,10 @@ export default {
         "caregiver"
       ],
       "optionReasons": {
-        "care-mcq-14": "本句指「提供日常、身體或情緒照護的人；尤其 AmE」。",
-        "care-mcq-13": "「經常負責照顧需要支援人士的人；尤其 BrE」是「carer」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-12": "「真誠關心他人的需要、感受和福祉的」是「caring」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-11": "「因沒有給予足夠注意而容易造成錯誤／損害的」是「careless」的用法，與本句語境不同。"
+        "care-mcq-14": "本句的「caregiver」指「提供日常、身體或情緒照護的人；尤其 AmE」。",
+        "care-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-14"
     },
@@ -2072,11 +1876,9 @@ export default {
       "masked": "The patient was moved to ____.",
       "options": [
         "care-mcq-17",
-        "care-mcq-16",
-        "care-mcq-18",
-        "care-mcq-15",
-        "care-mcq-19",
-        "care-mcq-14"
+        "care-mcq-02",
+        "care-mcq-06",
+        "care-mcq-22"
       ],
       "explanation": "本句的「intensive care」指「為嚴重病人提供持續密切監察的高強度醫療照護」。",
       "sentenceIndex": 49,
@@ -2085,12 +1887,10 @@ export default {
         "intensive care"
       ],
       "optionReasons": {
-        "care-mcq-17": "本句指「為嚴重病人提供持續密切監察的高強度醫療照護」。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。"
+        "care-mcq-17": "本句的「intensive care」指「為嚴重病人提供持續密切監察的高強度醫療照護」。",
+        "care-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-17"
     },
@@ -2102,11 +1902,9 @@ export default {
       "masked": "She spent two days in intensive ____.",
       "options": [
         "care-mcq-17",
-        "care-mcq-16",
-        "care-mcq-18",
-        "care-mcq-15",
-        "care-mcq-19",
-        "care-mcq-14"
+        "care-mcq-07",
+        "care-mcq-09",
+        "care-mcq-03"
       ],
       "explanation": "本句的「care」指「為嚴重病人提供持續密切監察的高強度醫療照護」。",
       "sentenceIndex": 50,
@@ -2115,12 +1913,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-17": "本句指「為嚴重病人提供持續密切監察的高強度醫療照護」。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-14": "「提供日常、身體或情緒照護的人；尤其 AmE」是「caregiver」的用法，與本句語境不同。"
+        "care-mcq-17": "本句的「care」指「為嚴重病人提供持續密切監察的高強度醫療照護」。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-17"
     },
@@ -2132,10 +1928,8 @@ export default {
       "masked": "Primary ____ doctors are often the first point of contact.",
       "options": [
         "care-mcq-18",
-        "care-mcq-17",
-        "care-mcq-19",
-        "care-mcq-16",
-        "care-mcq-20",
+        "care-mcq-02",
+        "care-mcq-23",
         "care-mcq-15"
       ],
       "explanation": "本句的「care」指「病人通常首先接觸的基本／日常醫療服務」。",
@@ -2145,12 +1939,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-18": "本句指「病人通常首先接觸的基本／日常醫療服務」。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。"
+        "care-mcq-18": "本句的「care」指「病人通常首先接觸的基本／日常醫療服務」。",
+        "care-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-18"
     },
@@ -2162,11 +1954,9 @@ export default {
       "masked": "The region needs better access to primary ____.",
       "options": [
         "care-mcq-18",
-        "care-mcq-17",
-        "care-mcq-19",
-        "care-mcq-16",
-        "care-mcq-20",
-        "care-mcq-15"
+        "care-mcq-07",
+        "care-pdf-001",
+        "care-mcq-06"
       ],
       "explanation": "本句的「care」指「病人通常首先接觸的基本／日常醫療服務」。",
       "sentenceIndex": 52,
@@ -2175,12 +1965,10 @@ export default {
         "care"
       ],
       "optionReasons": {
-        "care-mcq-18": "本句指「病人通常首先接觸的基本／日常醫療服務」。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-19": "「手術、治療或療程後提供的持續照顧與支援」是「aftercare」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-15": "「為維持自己的身心健康而進行的自我照顧」是「self-care」的用法，與本句語境不同。"
+        "care-mcq-18": "本句的「care」指「病人通常首先接觸的基本／日常醫療服務」。",
+        "care-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-18"
     },
@@ -2192,11 +1980,9 @@ export default {
       "masked": "Good ____ is important after surgery.",
       "options": [
         "care-mcq-19",
-        "care-mcq-18",
-        "care-mcq-20",
-        "care-mcq-17",
-        "care-mcq-21",
-        "care-mcq-16"
+        "care-mcq-09",
+        "care-mcq-08",
+        "care-pdf-001"
       ],
       "explanation": "本句的「aftercare」指「手術、治療或療程後提供的持續照顧與支援」。",
       "sentenceIndex": 53,
@@ -2205,12 +1991,10 @@ export default {
         "aftercare"
       ],
       "optionReasons": {
-        "care-mcq-19": "本句指「手術、治療或療程後提供的持續照顧與支援」。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。"
+        "care-mcq-19": "本句的「aftercare」指「手術、治療或療程後提供的持續照顧與支援」。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-19"
     },
@@ -2222,11 +2006,9 @@ export default {
       "masked": "The clinic provides ____ for all patients.",
       "options": [
         "care-mcq-19",
-        "care-mcq-18",
-        "care-mcq-20",
-        "care-mcq-17",
-        "care-mcq-21",
-        "care-mcq-16"
+        "care-mcq-09",
+        "care-mcq-22",
+        "care-pdf-001"
       ],
       "explanation": "本句的「aftercare」指「手術、治療或療程後提供的持續照顧與支援」。",
       "sentenceIndex": 54,
@@ -2235,12 +2017,10 @@ export default {
         "aftercare"
       ],
       "optionReasons": {
-        "care-mcq-19": "本句指「手術、治療或療程後提供的持續照顧與支援」。",
-        "care-mcq-18": "「病人通常首先接觸的基本／日常醫療服務」是「primary care」的用法，與本句語境不同。",
-        "care-mcq-20": "「照顧兒童的服務／安排，尤其當父母工作或不能親自照顧時」是「7. childcare（兒童） — 托兒；兒童照顧服務」的用法，與本句語境不同。",
-        "care-mcq-17": "「為嚴重病人提供持續密切監察的高強度醫療照護」是「intensive care」的用法，與本句語境不同。",
-        "care-mcq-21": "「為年長人士提供生活、健康或日常支援的照護」是「8. elder care / elderly care（長者） — 長者照護」的用法，與本句語境不同。",
-        "care-mcq-16": "「為預防、診斷、治療或管理健康問題而提供的醫療服務」是「healthcare」的用法，與本句語境不同。"
+        "care-mcq-19": "本句的「aftercare」指「手術、治療或療程後提供的持續照顧與支援」。",
+        "care-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "care-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "care-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "care-mcq-19"
     }
@@ -2252,5 +2032,7 @@ export default {
     "sha256": "fdce2f7610c5c64b70390ccf4b2358b8df9d8a136ad904161ea6dd0e25632b28",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -546,11 +546,9 @@ export default {
       "masked": "I ____ his explanation.",
       "options": [
         "believe-mcq-01",
-        "believe-mcq-02",
-        "believe-mcq-03",
-        "believe-mcq-04",
-        "believe-mcq-05",
-        "believe-mcq-06"
+        "believe-mcq-09",
+        "believe-mcq-19",
+        "believe-mcq-22"
       ],
       "explanation": "本句的「believe」指「接受某項說法、資料或事情為真實」。",
       "sentenceIndex": 0,
@@ -559,12 +557,10 @@ export default {
         "believe"
       ],
       "optionReasons": {
-        "believe-mcq-01": "本句指「接受某項說法、資料或事情為真實」。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-01": "本句的「believe」指「接受某項說法、資料或事情為真實」。",
+        "believe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-01"
     },
@@ -576,11 +572,9 @@ export default {
       "masked": "Do you ____ what the advertisement says?",
       "options": [
         "believe-mcq-01",
-        "believe-mcq-02",
-        "believe-mcq-03",
-        "believe-mcq-04",
-        "believe-mcq-05",
-        "believe-mcq-06"
+        "believe-mcq-07",
+        "believe-mcq-11",
+        "believe-mcq-19"
       ],
       "explanation": "本句的「believe」指「接受某項說法、資料或事情為真實」。",
       "sentenceIndex": 1,
@@ -589,12 +583,10 @@ export default {
         "believe"
       ],
       "optionReasons": {
-        "believe-mcq-01": "本句指「接受某項說法、資料或事情為真實」。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-01": "本句的「believe」指「接受某項說法、資料或事情為真實」。",
+        "believe-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-01"
     },
@@ -606,11 +598,9 @@ export default {
       "masked": "I ____ the product is worth the price.",
       "options": [
         "believe-mcq-02",
-        "believe-mcq-01",
-        "believe-mcq-03",
-        "believe-mcq-04",
-        "believe-mcq-05",
-        "believe-mcq-06"
+        "believe-mcq-10",
+        "believe-mcq-19",
+        "believe-mcq-04"
       ],
       "explanation": "本句的「believe that」指「根據資料或判斷，認為某件事情屬實」。",
       "sentenceIndex": 2,
@@ -619,12 +609,10 @@ export default {
         "believe that"
       ],
       "optionReasons": {
-        "believe-mcq-02": "本句指「根據資料或判斷，認為某件事情屬實」。",
-        "believe-mcq-01": "「接受某項說法、資料或事情為真實」是「believe something」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-02": "本句的「believe that」指「根據資料或判斷，認為某件事情屬實」。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-02"
     },
@@ -636,11 +624,9 @@ export default {
       "masked": "Researchers ____ sleep affects memory.",
       "options": [
         "believe-mcq-02",
-        "believe-mcq-01",
-        "believe-mcq-03",
+        "believe-mcq-19",
         "believe-mcq-04",
-        "believe-mcq-05",
-        "believe-mcq-06"
+        "believe-mcq-10"
       ],
       "explanation": "本句的「believe that」指「根據資料或判斷，認為某件事情屬實」。",
       "sentenceIndex": 3,
@@ -649,12 +635,10 @@ export default {
         "believe that"
       ],
       "optionReasons": {
-        "believe-mcq-02": "本句指「根據資料或判斷，認為某件事情屬實」。",
-        "believe-mcq-01": "「接受某項說法、資料或事情為真實」是「believe something」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-02": "本句的「believe that」指「根據資料或判斷，認為某件事情屬實」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-02"
     },
@@ -666,11 +650,9 @@ export default {
       "masked": "I ____ you.",
       "options": [
         "believe-mcq-03",
-        "believe-mcq-02",
-        "believe-mcq-04",
-        "believe-mcq-01",
-        "believe-mcq-05",
-        "believe-mcq-06"
+        "believe-mcq-19",
+        "believe-mcq-22",
+        "believe-mcq-14"
       ],
       "explanation": "本句的「believe」指「相信某人所說的內容是真實的」。",
       "sentenceIndex": 4,
@@ -679,12 +661,10 @@ export default {
         "believe"
       ],
       "optionReasons": {
-        "believe-mcq-03": "本句指「相信某人所說的內容是真實的」。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-01": "「接受某項說法、資料或事情為真實」是「believe something」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-03": "本句的「believe」指「相信某人所說的內容是真實的」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-03"
     },
@@ -696,11 +676,9 @@ export default {
       "masked": "The manager didn’t ____ the customer.",
       "options": [
         "believe-mcq-03",
-        "believe-mcq-02",
-        "believe-mcq-04",
-        "believe-mcq-01",
-        "believe-mcq-05",
-        "believe-mcq-06"
+        "believe-mcq-19",
+        "believe-mcq-22",
+        "believe-mcq-14"
       ],
       "explanation": "本句的「believe」指「相信某人所說的內容是真實的」。",
       "sentenceIndex": 5,
@@ -709,12 +687,10 @@ export default {
         "believe"
       ],
       "optionReasons": {
-        "believe-mcq-03": "本句指「相信某人所說的內容是真實的」。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-01": "「接受某項說法、資料或事情為真實」是「believe something」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-03": "本句的「believe」指「相信某人所說的內容是真實的」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-03"
     },
@@ -726,11 +702,9 @@ export default {
       "masked": "Her parents always ____ her.",
       "options": [
         "believe-mcq-04",
-        "believe-mcq-03",
         "believe-mcq-05",
-        "believe-mcq-02",
-        "believe-mcq-06",
-        "believe-mcq-01"
+        "believe-mcq-19",
+        "believe-mcq-22"
       ],
       "explanation": "本句的「believed in」指「對某人的能力、品格或潛力有信心」。",
       "sentenceIndex": 6,
@@ -739,12 +713,10 @@ export default {
         "believed in"
       ],
       "optionReasons": {
-        "believe-mcq-04": "本句指「對某人的能力、品格或潛力有信心」。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-01": "「接受某項說法、資料或事情為真實」是「believe something」的用法，與本句語境不同。"
+        "believe-mcq-04": "本句的「believed in」指「對某人的能力、品格或潛力有信心」。",
+        "believe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-04"
     },
@@ -756,11 +728,9 @@ export default {
       "masked": "A good manager should ____ the team.",
       "options": [
         "believe-mcq-04",
-        "believe-mcq-03",
-        "believe-mcq-05",
-        "believe-mcq-02",
-        "believe-mcq-06",
-        "believe-mcq-01"
+        "believe-mcq-21",
+        "believe-mcq-19",
+        "believe-mcq-02"
       ],
       "explanation": "本句的「believe in」指「對某人的能力、品格或潛力有信心」。",
       "sentenceIndex": 7,
@@ -769,12 +739,10 @@ export default {
         "believe in"
       ],
       "optionReasons": {
-        "believe-mcq-04": "本句指「對某人的能力、品格或潛力有信心」。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-01": "「接受某項說法、資料或事情為真實」是「believe something」的用法，與本句語境不同。"
+        "believe-mcq-04": "本句的「believe in」指「對某人的能力、品格或潛力有信心」。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-04"
     },
@@ -786,11 +754,9 @@ export default {
       "masked": "She ____ equal opportunities.",
       "options": [
         "believe-mcq-05",
+        "believe-mcq-19",
         "believe-mcq-04",
-        "believe-mcq-06",
-        "believe-mcq-03",
-        "believe-mcq-07",
-        "believe-mcq-02"
+        "believe-mcq-22"
       ],
       "explanation": "本句的「believes in」指「認為某項理念／原則正確、有價值並值得支持」。",
       "sentenceIndex": 8,
@@ -799,12 +765,10 @@ export default {
         "believes in"
       ],
       "optionReasons": {
-        "believe-mcq-05": "本句指「認為某項理念／原則正確、有價值並值得支持」。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。"
+        "believe-mcq-05": "本句的「believes in」指「認為某項理念／原則正確、有價值並值得支持」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-05"
     },
@@ -816,11 +780,9 @@ export default {
       "masked": "The company ____ treating customers fairly.",
       "options": [
         "believe-mcq-05",
+        "believe-mcq-22",
         "believe-mcq-04",
-        "believe-mcq-06",
-        "believe-mcq-03",
-        "believe-mcq-07",
-        "believe-mcq-02"
+        "believe-mcq-19"
       ],
       "explanation": "本句的「believes in」指「認為某項理念／原則正確、有價值並值得支持」。",
       "sentenceIndex": 9,
@@ -829,12 +791,10 @@ export default {
         "believes in"
       ],
       "optionReasons": {
-        "believe-mcq-05": "本句指「認為某項理念／原則正確、有價值並值得支持」。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-02": "「根據資料或判斷，認為某件事情屬實」是「believe that…」的用法，與本句語境不同。"
+        "believe-mcq-05": "本句的「believes in」指「認為某項理念／原則正確、有價值並值得支持」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-05"
     },
@@ -846,11 +806,8 @@ export default {
       "masked": "Do you ____ ghosts?",
       "options": [
         "believe-mcq-06",
-        "believe-mcq-05",
-        "believe-mcq-07",
-        "believe-mcq-04",
-        "believe-mcq-08",
-        "believe-mcq-03"
+        "believe-mcq-23",
+        "believe-mcq-10"
       ],
       "explanation": "本句的「believe in」指「相信某個人、事物或現象確實存在」。",
       "sentenceIndex": 10,
@@ -859,12 +816,9 @@ export default {
         "believe in"
       ],
       "optionReasons": {
-        "believe-mcq-06": "本句指「相信某個人、事物或現象確實存在」。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。"
+        "believe-mcq-06": "本句的「believe in」指「相信某個人、事物或現象確實存在」。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-06"
     },
@@ -876,11 +830,9 @@ export default {
       "masked": "Some children still ____ Santa Claus.",
       "options": [
         "believe-mcq-06",
-        "believe-mcq-05",
-        "believe-mcq-07",
+        "believe-mcq-19",
         "believe-mcq-04",
-        "believe-mcq-08",
-        "believe-mcq-03"
+        "believe-mcq-10"
       ],
       "explanation": "本句的「believe in」指「相信某個人、事物或現象確實存在」。",
       "sentenceIndex": 11,
@@ -889,12 +841,10 @@ export default {
         "believe in"
       ],
       "optionReasons": {
-        "believe-mcq-06": "本句指「相信某個人、事物或現象確實存在」。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-03": "「相信某人所說的內容是真實的」是「believe someone」的用法，與本句語境不同。"
+        "believe-mcq-06": "本句的「believe in」指「相信某個人、事物或現象確實存在」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-06"
     },
@@ -906,11 +856,9 @@ export default {
       "masked": "I ____ the meeting starts at ten.",
       "options": [
         "believe-mcq-07",
-        "believe-mcq-06",
-        "believe-mcq-08",
-        "believe-mcq-05",
-        "believe-mcq-09",
-        "believe-mcq-04"
+        "believe-mcq-01",
+        "believe-mcq-23",
+        "believe-mcq-10"
       ],
       "explanation": "本句的「believe」指「以較保留方式表達自己的理解、判斷或意見」。",
       "sentenceIndex": 12,
@@ -919,12 +867,10 @@ export default {
         "believe"
       ],
       "optionReasons": {
-        "believe-mcq-07": "本句指「以較保留方式表達自己的理解、判斷或意見」。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。"
+        "believe-mcq-07": "本句的「believe」指「以較保留方式表達自己的理解、判斷或意見」。",
+        "believe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-07"
     },
@@ -936,11 +882,9 @@ export default {
       "masked": "I ____ this is the correct model.",
       "options": [
         "believe-mcq-07",
-        "believe-mcq-06",
-        "believe-mcq-08",
-        "believe-mcq-05",
-        "believe-mcq-09",
-        "believe-mcq-04"
+        "believe-mcq-04",
+        "believe-mcq-10",
+        "believe-mcq-13"
       ],
       "explanation": "本句的「believe」指「以較保留方式表達自己的理解、判斷或意見」。",
       "sentenceIndex": 13,
@@ -949,12 +893,10 @@ export default {
         "believe"
       ],
       "optionReasons": {
-        "believe-mcq-07": "本句指「以較保留方式表達自己的理解、判斷或意見」。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-04": "「對某人的能力、品格或潛力有信心」是「believe in someone」的用法，與本句語境不同。"
+        "believe-mcq-07": "本句的「believe」指「以較保留方式表達自己的理解、判斷或意見」。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-07"
     },
@@ -966,11 +908,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "believe-mcq-22",
+        "believe-mcq-08",
         "believe-mcq-21",
-        "believe-mcq-23",
-        "believe-mcq-20",
-        "believe-mcq-19",
-        "believe-mcq-18"
+        "believe-mcq-04"
       ],
       "explanation": "本句的「believe so」指「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」。",
       "sentenceIndex": 14,
@@ -979,12 +919,10 @@ export default {
         "believe so"
       ],
       "optionReasons": {
-        "believe-mcq-22": "本句指「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-23": "「程度強烈到令人非常驚訝，可正面表示「非常出色」」是「21. unbelievable = extremely impressive/amazing（非正式） — 驚人的；好得令人難以置信的」的用法，與本句語境不同。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。"
+        "believe-mcq-22": "本句的「believe so」指「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」。",
+        "believe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-22"
     },
@@ -997,10 +935,8 @@ export default {
       "options": [
         "believe-mcq-22",
         "believe-mcq-21",
-        "believe-mcq-23",
         "believe-mcq-20",
-        "believe-mcq-19",
-        "believe-mcq-18"
+        "believe-mcq-04"
       ],
       "explanation": "本句的「don’t believe so」指「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」。",
       "sentenceIndex": 15,
@@ -1009,12 +945,10 @@ export default {
         "don’t believe so"
       ],
       "optionReasons": {
-        "believe-mcq-22": "本句指「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-23": "「程度強烈到令人非常驚訝，可正面表示「非常出色」」是「21. unbelievable = extremely impressive/amazing（非正式） — 驚人的；好得令人難以置信的」的用法，與本句語境不同。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。"
+        "believe-mcq-22": "本句的「don’t believe so」指「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-22"
     },
@@ -1026,11 +960,9 @@ export default {
       "masked": "There is a widespread ____ that the product is reliable.",
       "options": [
         "believe-mcq-08",
-        "believe-mcq-07",
-        "believe-mcq-09",
-        "believe-mcq-06",
-        "believe-mcq-10",
-        "believe-mcq-05"
+        "believe-mcq-19",
+        "believe-mcq-22",
+        "believe-mcq-04"
       ],
       "explanation": "本句的「belief」指「對某件事情屬實所持有的信念或看法」。",
       "sentenceIndex": 16,
@@ -1039,12 +971,10 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "believe-mcq-08": "本句指「對某件事情屬實所持有的信念或看法」。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。"
+        "believe-mcq-08": "本句的「belief」指「對某件事情屬實所持有的信念或看法」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-08"
     },
@@ -1056,11 +986,9 @@ export default {
       "masked": "His ____ that the plan would succeed proved correct.",
       "options": [
         "believe-mcq-08",
-        "believe-mcq-07",
-        "believe-mcq-09",
-        "believe-mcq-06",
-        "believe-mcq-10",
-        "believe-mcq-05"
+        "believe-mcq-22",
+        "believe-mcq-23",
+        "believe-mcq-21"
       ],
       "explanation": "本句的「belief」指「對某件事情屬實所持有的信念或看法」。",
       "sentenceIndex": 17,
@@ -1069,12 +997,10 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "believe-mcq-08": "本句指「對某件事情屬實所持有的信念或看法」。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-05": "「認為某項理念／原則正確、有價值並值得支持」是「believe in a principle」的用法，與本句語境不同。"
+        "believe-mcq-08": "本句的「belief」指「對某件事情屬實所持有的信念或看法」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-08"
     },
@@ -1086,11 +1012,9 @@ export default {
       "masked": "Freedom of expression is one of her core ____.",
       "options": [
         "believe-mcq-09",
-        "believe-mcq-08",
-        "believe-mcq-10",
-        "believe-mcq-07",
-        "believe-mcq-11",
-        "believe-mcq-06"
+        "believe-mcq-19",
+        "believe-mcq-01",
+        "believe-mcq-22"
       ],
       "explanation": "本句的「beliefs」指「長期而強烈持有、用來理解世界或判斷對錯的觀念」。",
       "sentenceIndex": 18,
@@ -1099,12 +1023,10 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "believe-mcq-09": "本句指「長期而強烈持有、用來理解世界或判斷對錯的觀念」。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-09": "本句的「beliefs」指「長期而強烈持有、用來理解世界或判斷對錯的觀念」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-09"
     },
@@ -1116,11 +1038,9 @@ export default {
       "masked": "People’s political and social ____ can differ greatly.",
       "options": [
         "believe-mcq-09",
-        "believe-mcq-08",
-        "believe-mcq-10",
-        "believe-mcq-07",
-        "believe-mcq-11",
-        "believe-mcq-06"
+        "believe-mcq-22",
+        "believe-mcq-13",
+        "believe-mcq-14"
       ],
       "explanation": "本句的「beliefs」指「長期而強烈持有、用來理解世界或判斷對錯的觀念」。",
       "sentenceIndex": 19,
@@ -1129,12 +1049,10 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "believe-mcq-09": "本句指「長期而強烈持有、用來理解世界或判斷對錯的觀念」。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-06": "「相信某個人、事物或現象確實存在」是「believe in existence」的用法，與本句語境不同。"
+        "believe-mcq-09": "本句的「beliefs」指「長期而強烈持有、用來理解世界或判斷對錯的觀念」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-09"
     },
@@ -1146,11 +1064,9 @@ export default {
       "masked": "The law protects freedom of religious ____.",
       "options": [
         "believe-mcq-10",
-        "believe-mcq-09",
-        "believe-mcq-11",
-        "believe-mcq-08",
-        "believe-mcq-12",
-        "believe-mcq-07"
+        "believe-mcq-02",
+        "believe-mcq-23",
+        "believe-mcq-16"
       ],
       "explanation": "本句的「belief」指「對宗教教義、神祇或靈性觀念所持有的信仰」。",
       "sentenceIndex": 20,
@@ -1159,12 +1075,10 @@ export default {
         "belief"
       ],
       "optionReasons": {
-        "believe-mcq-10": "本句指「對宗教教義、神祇或靈性觀念所持有的信仰」。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。"
+        "believe-mcq-10": "本句的「belief」指「對宗教教義、神祇或靈性觀念所持有的信仰」。",
+        "believe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-10"
     },
@@ -1176,11 +1090,9 @@ export default {
       "masked": "They respect people with different religious ____.",
       "options": [
         "believe-mcq-10",
-        "believe-mcq-09",
-        "believe-mcq-11",
-        "believe-mcq-08",
-        "believe-mcq-12",
-        "believe-mcq-07"
+        "believe-mcq-22",
+        "believe-mcq-21",
+        "believe-mcq-19"
       ],
       "explanation": "本句的「beliefs」指「對宗教教義、神祇或靈性觀念所持有的信仰」。",
       "sentenceIndex": 21,
@@ -1189,12 +1101,10 @@ export default {
         "beliefs"
       ],
       "optionReasons": {
-        "believe-mcq-10": "本句指「對宗教教義、神祇或靈性觀念所持有的信仰」。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-07": "「以較保留方式表達自己的理解、判斷或意見」是「I believe…」的用法，與本句語境不同。"
+        "believe-mcq-10": "本句的「beliefs」指「對宗教教義、神祇或靈性觀念所持有的信仰」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-10"
     },
@@ -1206,11 +1116,9 @@ export default {
       "masked": "Her ____ herself grew over time.",
       "options": [
         "believe-mcq-11",
-        "believe-mcq-10",
-        "believe-mcq-12",
-        "believe-mcq-09",
-        "believe-mcq-13",
-        "believe-mcq-08"
+        "believe-mcq-01",
+        "believe-mcq-22",
+        "believe-mcq-15"
       ],
       "explanation": "本句的「belief in」指「對某人、制度或理念的能力、價值或可靠性所持有的信心」。",
       "sentenceIndex": 22,
@@ -1219,12 +1127,10 @@ export default {
         "belief in"
       ],
       "optionReasons": {
-        "believe-mcq-11": "本句指「對某人、制度或理念的能力、價值或可靠性所持有的信心」。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。"
+        "believe-mcq-11": "本句的「belief in」指「對某人、制度或理念的能力、價值或可靠性所持有的信心」。",
+        "believe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-11"
     },
@@ -1236,11 +1142,9 @@ export default {
       "masked": "Public ____ the system has weakened.",
       "options": [
         "believe-mcq-11",
-        "believe-mcq-10",
-        "believe-mcq-12",
-        "believe-mcq-09",
-        "believe-mcq-13",
-        "believe-mcq-08"
+        "believe-mcq-16",
+        "believe-mcq-22",
+        "believe-mcq-19"
       ],
       "explanation": "本句的「belief in」指「對某人、制度或理念的能力、價值或可靠性所持有的信心」。",
       "sentenceIndex": 23,
@@ -1249,12 +1153,10 @@ export default {
         "belief in"
       ],
       "optionReasons": {
-        "believe-mcq-11": "本句指「對某人、制度或理念的能力、價值或可靠性所持有的信心」。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-08": "「對某件事情屬實所持有的信念或看法」是「belief — truth」的用法，與本句語境不同。"
+        "believe-mcq-11": "本句的「belief in」指「對某人、制度或理念的能力、價值或可靠性所持有的信心」。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-11"
     },
@@ -1266,11 +1168,9 @@ export default {
       "masked": "It still felt ____.",
       "options": [
         "believe-mcq-12",
-        "believe-mcq-11",
-        "believe-mcq-13",
-        "believe-mcq-10",
+        "believe-mcq-22",
         "believe-mcq-14",
-        "believe-mcq-09"
+        "believe-mcq-04"
       ],
       "explanation": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
       "sentenceIndex": 24,
@@ -1279,12 +1179,10 @@ export default {
         "believable"
       ],
       "optionReasons": {
-        "believe-mcq-12": "本句指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
+        "believe-mcq-12": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-12"
     },
@@ -1296,11 +1194,9 @@ export default {
       "masked": "Her explanation was simple but ____.",
       "options": [
         "believe-mcq-12",
-        "believe-mcq-11",
-        "believe-mcq-13",
-        "believe-mcq-10",
+        "believe-mcq-22",
         "believe-mcq-14",
-        "believe-mcq-09"
+        "believe-mcq-04"
       ],
       "explanation": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
       "sentenceIndex": 25,
@@ -1309,12 +1205,10 @@ export default {
         "believable"
       ],
       "optionReasons": {
-        "believe-mcq-12": "本句指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
+        "believe-mcq-12": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-12"
     },
@@ -1326,11 +1220,9 @@ export default {
       "masked": "The characters need to feel ____.",
       "options": [
         "believe-mcq-12",
-        "believe-mcq-11",
-        "believe-mcq-13",
-        "believe-mcq-10",
-        "believe-mcq-14",
-        "believe-mcq-09"
+        "believe-mcq-22",
+        "believe-mcq-04",
+        "believe-mcq-10"
       ],
       "explanation": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
       "sentenceIndex": 26,
@@ -1339,12 +1231,10 @@ export default {
         "believable"
       ],
       "optionReasons": {
-        "believe-mcq-12": "本句指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
+        "believe-mcq-12": "本句的「believable」指「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-12"
     },
@@ -1356,11 +1246,9 @@ export default {
       "masked": "The actor gave a very ____ performance.",
       "options": [
         "believe-pdf-001",
-        "believe-mcq-11",
-        "believe-mcq-13",
-        "believe-mcq-10",
-        "believe-mcq-14",
-        "believe-mcq-09"
+        "believe-mcq-22",
+        "believe-mcq-04",
+        "believe-mcq-10"
       ],
       "explanation": "本句的「believable」指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
       "sentenceIndex": 27,
@@ -1369,12 +1257,10 @@ export default {
         "believable"
       ],
       "optionReasons": {
-        "believe-pdf-001": "本句指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
+        "believe-pdf-001": "本句的「believable」指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-pdf-001"
     },
@@ -1386,11 +1272,9 @@ export default {
       "masked": "The film creates a ____ future world.",
       "options": [
         "believe-pdf-001",
-        "believe-mcq-11",
-        "believe-mcq-13",
-        "believe-mcq-10",
+        "believe-mcq-22",
         "believe-mcq-14",
-        "believe-mcq-09"
+        "believe-mcq-04"
       ],
       "explanation": "本句的「believable」指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
       "sentenceIndex": 28,
@@ -1399,12 +1283,10 @@ export default {
         "believable"
       ],
       "optionReasons": {
-        "believe-pdf-001": "本句指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-09": "「長期而強烈持有、用來理解世界或判斷對錯的觀念」是「belief — principle/value」的用法，與本句語境不同。"
+        "believe-pdf-001": "本句的「believable」指「即使內容是虛構的，其細節和邏輯仍真實一致，令人願意相信」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-pdf-001"
     },
@@ -1416,11 +1298,9 @@ export default {
       "masked": "She played the role ____.",
       "options": [
         "believe-mcq-13",
-        "believe-mcq-12",
-        "believe-mcq-14",
-        "believe-mcq-11",
-        "believe-mcq-15",
-        "believe-mcq-10"
+        "believe-mcq-09",
+        "believe-mcq-22",
+        "believe-mcq-14"
       ],
       "explanation": "本句的「believably」指「以符合現實或內在邏輯、令人信服的方式」。",
       "sentenceIndex": 29,
@@ -1429,12 +1309,10 @@ export default {
         "believably"
       ],
       "optionReasons": {
-        "believe-mcq-13": "本句指「以符合現實或內在邏輯、令人信服的方式」。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。"
+        "believe-mcq-13": "本句的「believably」指「以符合現實或內在邏輯、令人信服的方式」。",
+        "believe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-13"
     },
@@ -1446,11 +1324,9 @@ export default {
       "masked": "The story develops ____.",
       "options": [
         "believe-mcq-13",
-        "believe-mcq-12",
-        "believe-mcq-14",
-        "believe-mcq-11",
-        "believe-mcq-15",
-        "believe-mcq-10"
+        "believe-mcq-09",
+        "believe-mcq-22",
+        "believe-mcq-14"
       ],
       "explanation": "本句的「believably」指「以符合現實或內在邏輯、令人信服的方式」。",
       "sentenceIndex": 30,
@@ -1459,12 +1335,10 @@ export default {
         "believably"
       ],
       "optionReasons": {
-        "believe-mcq-13": "本句指「以符合現實或內在邏輯、令人信服的方式」。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-10": "「對宗教教義、神祇或靈性觀念所持有的信仰」是「religious belief」的用法，與本句語境不同。"
+        "believe-mcq-13": "本句的「believably」指「以符合現實或內在邏輯、令人信服的方式」。",
+        "believe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-13"
     },
@@ -1476,11 +1350,9 @@ export default {
       "masked": "He is a firm ____ in lifelong learning.",
       "options": [
         "believe-mcq-14",
-        "believe-mcq-13",
-        "believe-mcq-15",
-        "believe-mcq-12",
-        "believe-mcq-16",
-        "believe-mcq-11"
+        "believe-mcq-19",
+        "believe-mcq-22",
+        "believe-mcq-16"
       ],
       "explanation": "本句的「believer」指「對某項理念、做法或宗教深信不疑的人」。",
       "sentenceIndex": 31,
@@ -1489,12 +1361,10 @@ export default {
         "believer"
       ],
       "optionReasons": {
-        "believe-mcq-14": "本句指「對某項理念、做法或宗教深信不疑的人」。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。"
+        "believe-mcq-14": "本句的「believer」指「對某項理念、做法或宗教深信不疑的人」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-14"
     },
@@ -1506,11 +1376,9 @@ export default {
       "masked": "She became a strong ____ in the benefits of regular exercise.",
       "options": [
         "believe-mcq-14",
-        "believe-mcq-13",
-        "believe-mcq-15",
-        "believe-mcq-12",
-        "believe-mcq-16",
-        "believe-mcq-11"
+        "believe-mcq-19",
+        "believe-mcq-22",
+        "believe-mcq-21"
       ],
       "explanation": "本句的「believer」指「對某項理念、做法或宗教深信不疑的人」。",
       "sentenceIndex": 32,
@@ -1519,12 +1387,10 @@ export default {
         "believer"
       ],
       "optionReasons": {
-        "believe-mcq-14": "本句指「對某項理念、做法或宗教深信不疑的人」。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。"
+        "believe-mcq-14": "本句的「believer」指「對某項理念、做法或宗教深信不疑的人」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-14"
     },
@@ -1536,11 +1402,9 @@ export default {
       "masked": "The ceremony has special meaning for ____.",
       "options": [
         "believe-mcq-14",
-        "believe-mcq-13",
-        "believe-mcq-15",
-        "believe-mcq-12",
+        "believe-mcq-02",
         "believe-mcq-16",
-        "believe-mcq-11"
+        "believe-mcq-23"
       ],
       "explanation": "本句的「believers」指「對某項理念、做法或宗教深信不疑的人」。",
       "sentenceIndex": 33,
@@ -1549,12 +1413,10 @@ export default {
         "believers"
       ],
       "optionReasons": {
-        "believe-mcq-14": "本句指「對某項理念、做法或宗教深信不疑的人」。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。"
+        "believe-mcq-14": "本句的「believers」指「對某項理念、做法或宗教深信不疑的人」。",
+        "believe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-14"
     },
@@ -1566,11 +1428,9 @@ export default {
       "masked": "He describes himself as a ____.",
       "options": [
         "believe-mcq-14",
-        "believe-mcq-13",
-        "believe-mcq-15",
-        "believe-mcq-12",
-        "believe-mcq-16",
-        "believe-mcq-11"
+        "believe-mcq-02",
+        "believe-mcq-23",
+        "believe-mcq-21"
       ],
       "explanation": "本句的「believer」指「對某項理念、做法或宗教深信不疑的人」。",
       "sentenceIndex": 34,
@@ -1579,12 +1439,10 @@ export default {
         "believer"
       ],
       "optionReasons": {
-        "believe-mcq-14": "本句指「對某項理念、做法或宗教深信不疑的人」。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-11": "「對某人、制度或理念的能力、價值或可靠性所持有的信心」是「belief in」的用法，與本句語境不同。"
+        "believe-mcq-14": "本句的「believer」指「對某項理念、做法或宗教深信不疑的人」。",
+        "believe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-14"
     },
@@ -1596,11 +1454,9 @@ export default {
       "masked": "She stared at the bill in ____.",
       "options": [
         "believe-mcq-15",
-        "believe-mcq-14",
-        "believe-mcq-16",
-        "believe-mcq-13",
-        "believe-mcq-17",
-        "believe-mcq-12"
+        "believe-mcq-22",
+        "believe-mcq-23",
+        "believe-mcq-16"
       ],
       "explanation": "本句的「disbelief」指「因事情太意外或不可信而產生的「無法相信」感覺」。",
       "sentenceIndex": 35,
@@ -1609,12 +1465,10 @@ export default {
         "disbelief"
       ],
       "optionReasons": {
-        "believe-mcq-15": "本句指「因事情太意外或不可信而產生的「無法相信」感覺」。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。"
+        "believe-mcq-15": "本句的「disbelief」指「因事情太意外或不可信而產生的「無法相信」感覺」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-15"
     },
@@ -1626,11 +1480,9 @@ export default {
       "masked": "He shook his head in ____.",
       "options": [
         "believe-mcq-15",
-        "believe-mcq-14",
+        "believe-mcq-19",
         "believe-mcq-16",
-        "believe-mcq-13",
-        "believe-mcq-17",
-        "believe-mcq-12"
+        "believe-mcq-22"
       ],
       "explanation": "本句的「disbelief」指「因事情太意外或不可信而產生的「無法相信」感覺」。",
       "sentenceIndex": 36,
@@ -1639,12 +1491,10 @@ export default {
         "disbelief"
       ],
       "optionReasons": {
-        "believe-mcq-15": "本句指「因事情太意外或不可信而產生的「無法相信」感覺」。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。",
-        "believe-mcq-12": "「符合現實、邏輯或經驗，因此容易令人相信是真實或可能的」是「believable」的用法，與本句語境不同。"
+        "believe-mcq-15": "本句的「disbelief」指「因事情太意外或不可信而產生的「無法相信」感覺」。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-15"
     },
@@ -1656,11 +1506,9 @@ export default {
       "masked": "Fantasy films require some ____.",
       "options": [
         "believe-mcq-16",
-        "believe-mcq-15",
-        "believe-mcq-17",
-        "believe-mcq-14",
-        "believe-mcq-18",
-        "believe-mcq-13"
+        "believe-mcq-11",
+        "believe-mcq-20",
+        "believe-mcq-22"
       ],
       "explanation": "本句的「suspension of disbelief」指「為投入虛構作品而暫時接受不完全符合現實的設定」。",
       "sentenceIndex": 37,
@@ -1669,12 +1517,10 @@ export default {
         "suspension of disbelief"
       ],
       "optionReasons": {
-        "believe-mcq-16": "本句指「為投入虛構作品而暫時接受不完全符合現實的設定」。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。"
+        "believe-mcq-16": "本句的「suspension of disbelief」指「為投入虛構作品而暫時接受不完全符合現實的設定」。",
+        "believe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-16"
     },
@@ -1686,11 +1532,9 @@ export default {
       "masked": "The unrealistic dialogue broke my ____.",
       "options": [
         "believe-mcq-16",
-        "believe-mcq-15",
-        "believe-mcq-17",
+        "believe-mcq-07",
         "believe-mcq-14",
-        "believe-mcq-18",
-        "believe-mcq-13"
+        "believe-mcq-19"
       ],
       "explanation": "本句的「suspension of disbelief」指「為投入虛構作品而暫時接受不完全符合現實的設定」。",
       "sentenceIndex": 38,
@@ -1699,12 +1543,10 @@ export default {
         "suspension of disbelief"
       ],
       "optionReasons": {
-        "believe-mcq-16": "本句指「為投入虛構作品而暫時接受不完全符合現實的設定」。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-13": "「以符合現實或內在邏輯、令人信服的方式」是「believably」的用法，與本句語境不同。"
+        "believe-mcq-16": "本句的「suspension of disbelief」指「為投入虛構作品而暫時接受不完全符合現實的設定」。",
+        "believe-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-16"
     },
@@ -1716,10 +1558,8 @@ export default {
       "masked": "His excuse was completely ____.",
       "options": [
         "believe-mcq-17",
-        "believe-mcq-16",
-        "believe-mcq-18",
-        "believe-mcq-15",
-        "believe-mcq-19",
+        "believe-mcq-23",
+        "believe-mcq-22",
         "believe-mcq-14"
       ],
       "explanation": "本句的「unbelievable」指「過於離奇或缺乏可信性，以致難以相信是真的」。",
@@ -1729,12 +1569,10 @@ export default {
         "unbelievable"
       ],
       "optionReasons": {
-        "believe-mcq-17": "本句指「過於離奇或缺乏可信性，以致難以相信是真的」。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。"
+        "believe-mcq-17": "本句的「unbelievable」指「過於離奇或缺乏可信性，以致難以相信是真的」。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-17"
     },
@@ -1746,10 +1584,8 @@ export default {
       "masked": "The story sounded ____.",
       "options": [
         "believe-mcq-17",
-        "believe-mcq-16",
-        "believe-mcq-18",
-        "believe-mcq-15",
-        "believe-mcq-19",
+        "believe-mcq-23",
+        "believe-mcq-22",
         "believe-mcq-14"
       ],
       "explanation": "本句的「unbelievable」指「過於離奇或缺乏可信性，以致難以相信是真的」。",
@@ -1759,12 +1595,10 @@ export default {
         "unbelievable"
       ],
       "optionReasons": {
-        "believe-mcq-17": "本句指「過於離奇或缺乏可信性，以致難以相信是真的」。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-15": "「因事情太意外或不可信而產生的「無法相信」感覺」是「disbelief」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-14": "「對某項理念、做法或宗教深信不疑的人」是「believer」的用法，與本句語境不同。"
+        "believe-mcq-17": "本句的「unbelievable」指「過於離奇或缺乏可信性，以致難以相信是真的」。",
+        "believe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-17"
     },
@@ -1777,10 +1611,8 @@ export default {
       "options": [
         "believe-mcq-23",
         "believe-mcq-22",
-        "believe-mcq-21",
-        "believe-mcq-20",
-        "believe-mcq-19",
-        "believe-mcq-18"
+        "believe-mcq-16",
+        "believe-mcq-14"
       ],
       "explanation": "本句的「unbelievable」指「程度強烈到令人非常驚訝，可正面表示「非常出色」」。",
       "sentenceIndex": 41,
@@ -1789,12 +1621,10 @@ export default {
         "unbelievable"
       ],
       "optionReasons": {
-        "believe-mcq-23": "本句指「程度強烈到令人非常驚訝，可正面表示「非常出色」」。",
-        "believe-mcq-22": "「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」是「8. I believe so / I don’t believe so — 我想是／我想不是」的用法，與本句語境不同。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。"
+        "believe-mcq-23": "本句的「unbelievable」指「程度強烈到令人非常驚訝，可正面表示「非常出色」」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-23"
     },
@@ -1806,11 +1636,9 @@ export default {
       "masked": "Her performance was ____.",
       "options": [
         "believe-mcq-23",
-        "believe-mcq-22",
-        "believe-mcq-21",
-        "believe-mcq-20",
-        "believe-mcq-19",
-        "believe-mcq-18"
+        "believe-mcq-01",
+        "believe-mcq-08",
+        "believe-mcq-22"
       ],
       "explanation": "本句的「unbelievable」指「程度強烈到令人非常驚訝，可正面表示「非常出色」」。",
       "sentenceIndex": 42,
@@ -1819,12 +1647,10 @@ export default {
         "unbelievable"
       ],
       "optionReasons": {
-        "believe-mcq-23": "本句指「程度強烈到令人非常驚訝，可正面表示「非常出色」」。",
-        "believe-mcq-22": "「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」是「8. I believe so / I don’t believe so — 我想是／我想不是」的用法，與本句語境不同。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。"
+        "believe-mcq-23": "本句的「unbelievable」指「程度強烈到令人非常驚訝，可正面表示「非常出色」」。",
+        "believe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-23"
     },
@@ -1836,11 +1662,9 @@ export default {
       "masked": "The headphones are ____ light.",
       "options": [
         "believe-mcq-19",
-        "believe-mcq-18",
-        "believe-mcq-20",
-        "believe-mcq-17",
-        "believe-mcq-21",
-        "believe-mcq-16"
+        "believe-mcq-01",
+        "believe-mcq-09",
+        "believe-mcq-22"
       ],
       "explanation": "本句的「unbelievably」指「程度極高、令人非常驚訝地」。",
       "sentenceIndex": 43,
@@ -1849,12 +1673,10 @@ export default {
         "unbelievably"
       ],
       "optionReasons": {
-        "believe-mcq-19": "本句指「程度極高、令人非常驚訝地」。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。"
+        "believe-mcq-19": "本句的「unbelievably」指「程度極高、令人非常驚訝地」。",
+        "believe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-19"
     },
@@ -1866,11 +1688,9 @@ export default {
       "masked": "The café was ____ crowded.",
       "options": [
         "believe-mcq-19",
-        "believe-mcq-18",
-        "believe-mcq-20",
-        "believe-mcq-17",
-        "believe-mcq-21",
-        "believe-mcq-16"
+        "believe-mcq-16",
+        "believe-mcq-14",
+        "believe-mcq-15"
       ],
       "explanation": "本句的「unbelievably」指「程度極高、令人非常驚訝地」。",
       "sentenceIndex": 44,
@@ -1879,12 +1699,10 @@ export default {
         "unbelievably"
       ],
       "optionReasons": {
-        "believe-mcq-19": "本句指「程度極高、令人非常驚訝地」。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-16": "「為投入虛構作品而暫時接受不完全符合現實的設定」是「suspension of disbelief」的用法，與本句語境不同。"
+        "believe-mcq-19": "本句的「unbelievably」指「程度極高、令人非常驚訝地」。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-19"
     },
@@ -1896,11 +1714,9 @@ export default {
       "masked": "____, I’ve never owned a television.",
       "options": [
         "believe-mcq-20",
-        "believe-mcq-19",
-        "believe-mcq-21",
-        "believe-mcq-18",
+        "believe-mcq-16",
         "believe-mcq-22",
-        "believe-mcq-17"
+        "believe-mcq-10"
       ],
       "explanation": "本句的「Believe it or not」指「用來引出一件可能令人驚訝或難以相信的事情」。",
       "sentenceIndex": 45,
@@ -1909,12 +1725,10 @@ export default {
         "Believe it or not"
       ],
       "optionReasons": {
-        "believe-mcq-20": "本句指「用來引出一件可能令人驚訝或難以相信的事情」。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-22": "「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」是「8. I believe so / I don’t believe so — 我想是／我想不是」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。"
+        "believe-mcq-20": "本句的「Believe it or not」指「用來引出一件可能令人驚訝或難以相信的事情」。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-20"
     },
@@ -1926,11 +1740,9 @@ export default {
       "masked": "____, the cheapest model performed best.",
       "options": [
         "believe-mcq-20",
-        "believe-mcq-19",
-        "believe-mcq-21",
-        "believe-mcq-18",
         "believe-mcq-22",
-        "believe-mcq-17"
+        "believe-mcq-16",
+        "believe-mcq-11"
       ],
       "explanation": "本句的「Believe it or not」指「用來引出一件可能令人驚訝或難以相信的事情」。",
       "sentenceIndex": 46,
@@ -1939,12 +1751,10 @@ export default {
         "Believe it or not"
       ],
       "optionReasons": {
-        "believe-mcq-20": "本句指「用來引出一件可能令人驚訝或難以相信的事情」。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-21": "「明知並非真實，但刻意假裝或想像它是真的」是「make-believe」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。",
-        "believe-mcq-22": "「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」是「8. I believe so / I don’t believe so — 我想是／我想不是」的用法，與本句語境不同。",
-        "believe-mcq-17": "「過於離奇或缺乏可信性，以致難以相信是真的」是「unbelievable — implausible」的用法，與本句語境不同。"
+        "believe-mcq-20": "本句的「Believe it or not」指「用來引出一件可能令人驚訝或難以相信的事情」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-20"
     },
@@ -1956,11 +1766,9 @@ export default {
       "masked": "The children were playing ____.",
       "options": [
         "believe-mcq-21",
+        "believe-mcq-11",
         "believe-mcq-20",
-        "believe-mcq-22",
-        "believe-mcq-19",
-        "believe-mcq-23",
-        "believe-mcq-18"
+        "believe-mcq-22"
       ],
       "explanation": "本句的「make-believe」指「明知並非真實，但刻意假裝或想像它是真的」。",
       "sentenceIndex": 47,
@@ -1969,12 +1777,10 @@ export default {
         "make-believe"
       ],
       "optionReasons": {
-        "believe-mcq-21": "本句指「明知並非真實，但刻意假裝或想像它是真的」。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-22": "「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」是「8. I believe so / I don’t believe so — 我想是／我想不是」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-23": "「程度強烈到令人非常驚訝，可正面表示「非常出色」」是「21. unbelievable = extremely impressive/amazing（非正式） — 驚人的；好得令人難以置信的」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。"
+        "believe-mcq-21": "本句的「make-believe」指「明知並非真實，但刻意假裝或想像它是真的」。",
+        "believe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-21"
     },
@@ -1986,11 +1792,9 @@ export default {
       "masked": "He escaped into a world of ____.",
       "options": [
         "believe-mcq-21",
-        "believe-mcq-20",
         "believe-mcq-22",
-        "believe-mcq-19",
-        "believe-mcq-23",
-        "believe-mcq-18"
+        "believe-mcq-11",
+        "believe-mcq-20"
       ],
       "explanation": "本句的「make-believe」指「明知並非真實，但刻意假裝或想像它是真的」。",
       "sentenceIndex": 48,
@@ -1999,12 +1803,10 @@ export default {
         "make-believe"
       ],
       "optionReasons": {
-        "believe-mcq-21": "本句指「明知並非真實，但刻意假裝或想像它是真的」。",
-        "believe-mcq-20": "「用來引出一件可能令人驚訝或難以相信的事情」是「believe it or not」的用法，與本句語境不同。",
-        "believe-mcq-22": "「根據自己掌握的情況，較有保留地表示「應該是／應該不是」」是「8. I believe so / I don’t believe so — 我想是／我想不是」的用法，與本句語境不同。",
-        "believe-mcq-19": "「程度極高、令人非常驚訝地」是「unbelievably」的用法，與本句語境不同。",
-        "believe-mcq-23": "「程度強烈到令人非常驚訝，可正面表示「非常出色」」是「21. unbelievable = extremely impressive/amazing（非正式） — 驚人的；好得令人難以置信的」的用法，與本句語境不同。",
-        "believe-mcq-18": "「好得、精彩得或驚人得令人難以置信的」是「unbelievable — informal positive」的用法，與本句語境不同。"
+        "believe-mcq-21": "本句的「make-believe」指「明知並非真實，但刻意假裝或想像它是真的」。",
+        "believe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "believe-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "believe-mcq-21"
     }
@@ -2016,5 +1818,7 @@ export default {
     "sha256": "92a171c786eeee16109b121dedb4e4d0f4be1a178fac38c8ebe84c6b25351dc9",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

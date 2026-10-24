@@ -552,7 +552,7 @@ export default {
     },
     {
       "id": "find-mcq-24",
-      "title": "表示找到；探索出；找出",
+      "title": "找到；探索出；找出",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示找到；探索出；找出",
@@ -574,7 +574,7 @@ export default {
     },
     {
       "id": "find-mcq-25",
-      "title": "表示覺得……有用／有幫助／困難",
+      "title": "覺得……有用／有幫助／困難",
       "form": "17. find someone/something useful / helpful / difficult",
       "en": "17. find someone/something useful / helpful / difficult",
       "zh": "表示覺得……有用／有幫助／困難",
@@ -596,7 +596,7 @@ export default {
     },
     {
       "id": "find-mcq-26",
-      "title": "表示考古發現；出土物",
+      "title": "考古發現；出土物",
       "form": "27. archaeological find",
       "en": "27. archaeological find",
       "zh": "表示考古發現；出土物",
@@ -640,7 +640,7 @@ export default {
     },
     {
       "id": "find-mcq-28",
-      "title": "表示取景器",
+      "title": "取景器",
       "form": "30. viewfinder",
       "en": "30. viewfinder",
       "zh": "表示取景器",
@@ -670,10 +670,8 @@ export default {
       "masked": "It takes time to ____ in life.",
       "options": [
         "find-mcq-24",
-        "find-mcq-23",
+        "find-mcq-28",
         "find-mcq-25",
-        "find-mcq-22",
-        "find-mcq-26",
         "find-mcq-21"
       ],
       "explanation": "本句的「find your own path」指「表示找到；探索出；找出」。",
@@ -683,12 +681,10 @@ export default {
         "find your own path"
       ],
       "optionReasons": {
-        "find-mcq-24": "本句指「表示找到；探索出；找出」。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。"
+        "find-mcq-24": "本句的「find your own path」指「表示找到；探索出；找出」。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-24"
     },
@@ -700,11 +696,9 @@ export default {
       "masked": "Good mentors can guide you, but you still have to ____.",
       "options": [
         "find-mcq-24",
-        "find-mcq-23",
-        "find-mcq-25",
-        "find-mcq-22",
-        "find-mcq-26",
-        "find-mcq-21"
+        "find-mcq-08",
+        "find-mcq-07",
+        "find-mcq-11"
       ],
       "explanation": "本句的「find your own way」指「表示找到；探索出；找出」。",
       "sentenceIndex": 1,
@@ -713,12 +707,10 @@ export default {
         "find your own way"
       ],
       "optionReasons": {
-        "find-mcq-24": "本句指「表示找到；探索出；找出」。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。"
+        "find-mcq-24": "本句的「find your own way」指「表示找到；探索出；找出」。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-24"
     },
@@ -730,11 +722,9 @@ export default {
       "masked": "I finally ____.",
       "options": [
         "find-mcq-01",
-        "find-mcq-02",
-        "find-mcq-03",
-        "find-mcq-04",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-12",
+        "find-mcq-18",
+        "find-mcq-14"
       ],
       "explanation": "本句的「found my keys」指「經過尋找後成功定位或取得某物；找到」。",
       "sentenceIndex": 2,
@@ -743,12 +733,10 @@ export default {
         "found my keys"
       ],
       "optionReasons": {
-        "find-mcq-01": "本句指「經過尋找後成功定位或取得某物；找到」。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-01": "本句的「found my keys」指「經過尋找後成功定位或取得某物；找到」。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-01"
     },
@@ -760,11 +748,9 @@ export default {
       "masked": "She ____ she was looking for.",
       "options": [
         "find-mcq-01",
-        "find-mcq-02",
-        "find-mcq-03",
-        "find-mcq-04",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-23",
+        "find-mcq-25",
+        "find-mcq-20"
       ],
       "explanation": "本句的「found the book」指「經過尋找後成功定位或取得某物；找到」。",
       "sentenceIndex": 3,
@@ -773,12 +759,10 @@ export default {
         "found the book"
       ],
       "optionReasons": {
-        "find-mcq-01": "本句指「經過尋找後成功定位或取得某物；找到」。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-01": "本句的「found the book」指「經過尋找後成功定位或取得某物；找到」。",
+        "find-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-01"
     },
@@ -790,11 +774,9 @@ export default {
       "masked": "I couldn’t ____ anywhere.",
       "options": [
         "find-mcq-02",
-        "find-mcq-01",
-        "find-mcq-03",
-        "find-mcq-04",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-15",
+        "find-mcq-07",
+        "find-mcq-12"
       ],
       "explanation": "本句的「find him」指「成功找到某人或某個地方的位置」。",
       "sentenceIndex": 4,
@@ -803,12 +785,10 @@ export default {
         "find him"
       ],
       "optionReasons": {
-        "find-mcq-02": "本句指「成功找到某人或某個地方的位置」。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-02": "本句的「find him」指「成功找到某人或某個地方的位置」。",
+        "find-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-02"
     },
@@ -820,11 +800,9 @@ export default {
       "masked": "The police eventually ____.",
       "options": [
         "find-mcq-02",
-        "find-mcq-01",
-        "find-mcq-03",
-        "find-mcq-04",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-28",
+        "find-mcq-07",
+        "find-mcq-19"
       ],
       "explanation": "本句的「found the missing child」指「成功找到某人或某個地方的位置」。",
       "sentenceIndex": 5,
@@ -833,12 +811,10 @@ export default {
         "found the missing child"
       ],
       "optionReasons": {
-        "find-mcq-02": "本句指「成功找到某人或某個地方的位置」。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-02": "本句的「found the missing child」指「成功找到某人或某個地方的位置」。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-02"
     },
@@ -850,11 +826,9 @@ export default {
       "masked": "We had trouble ____.",
       "options": [
         "find-mcq-02",
-        "find-mcq-01",
-        "find-mcq-03",
-        "find-mcq-04",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-21",
+        "find-mcq-08",
+        "find-mcq-12"
       ],
       "explanation": "本句的「finding the hotel」指「成功找到某人或某個地方的位置」。",
       "sentenceIndex": 6,
@@ -863,12 +837,10 @@ export default {
         "finding the hotel"
       ],
       "optionReasons": {
-        "find-mcq-02": "本句指「成功找到某人或某個地方的位置」。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-02": "本句的「finding the hotel」指「成功找到某人或某個地方的位置」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-02"
     },
@@ -880,11 +852,9 @@ export default {
       "masked": "Can you ____ on the map?",
       "options": [
         "find-mcq-02",
-        "find-mcq-01",
-        "find-mcq-03",
-        "find-mcq-04",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-21",
+        "find-mcq-25",
+        "find-mcq-28"
       ],
       "explanation": "本句的「find the station」指「成功找到某人或某個地方的位置」。",
       "sentenceIndex": 7,
@@ -893,12 +863,10 @@ export default {
         "find the station"
       ],
       "optionReasons": {
-        "find-mcq-02": "本句指「成功找到某人或某個地方的位置」。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-02": "本句的「find the station」指「成功找到某人或某個地方的位置」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-02"
     },
@@ -910,11 +878,9 @@ export default {
       "masked": "I ____ in a drawer.",
       "options": [
         "find-mcq-03",
-        "find-mcq-02",
-        "find-mcq-04",
-        "find-mcq-01",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-07",
+        "find-mcq-11",
+        "find-mcq-21"
       ],
       "explanation": "本句的「found an old photograph」指「在沒有刻意尋找時偶然發現某物」。",
       "sentenceIndex": 8,
@@ -923,12 +889,10 @@ export default {
         "found an old photograph"
       ],
       "optionReasons": {
-        "find-mcq-03": "本句指「在沒有刻意尋找時偶然發現某物」。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-03": "本句的「found an old photograph」指「在沒有刻意尋找時偶然發現某物」。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-03"
     },
@@ -940,11 +904,9 @@ export default {
       "masked": "She ____ on the floor.",
       "options": [
         "find-mcq-03",
-        "find-mcq-02",
-        "find-mcq-04",
-        "find-mcq-01",
-        "find-mcq-05",
-        "find-mcq-06"
+        "find-mcq-11",
+        "find-mcq-28",
+        "find-mcq-07"
       ],
       "explanation": "本句的「found a coin」指「在沒有刻意尋找時偶然發現某物」。",
       "sentenceIndex": 9,
@@ -953,12 +915,10 @@ export default {
         "found a coin"
       ],
       "optionReasons": {
-        "find-mcq-03": "本句指「在沒有刻意尋找時偶然發現某物」。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-03": "本句的「found a coin」指「在沒有刻意尋找時偶然發現某物」。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-03"
     },
@@ -970,11 +930,9 @@ export default {
       "masked": "Scientists ____ of earlier settlement.",
       "options": [
         "find-mcq-04",
-        "find-mcq-03",
-        "find-mcq-05",
-        "find-mcq-02",
-        "find-mcq-06",
-        "find-mcq-01"
+        "find-mcq-21",
+        "find-mcq-13",
+        "find-mcq-08"
       ],
       "explanation": "本句的「found evidence」指「找出先前未知、隱藏或不清楚的事實／原因」。",
       "sentenceIndex": 10,
@@ -983,12 +941,10 @@ export default {
         "found evidence"
       ],
       "optionReasons": {
-        "find-mcq-04": "本句指「找出先前未知、隱藏或不清楚的事實／原因」。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。"
+        "find-mcq-04": "本句的「found evidence」指「找出先前未知、隱藏或不清楚的事實／原因」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-04"
     },
@@ -1000,11 +956,9 @@ export default {
       "masked": "We need to ____ of the problem.",
       "options": [
         "find-mcq-04",
-        "find-mcq-03",
-        "find-mcq-05",
-        "find-mcq-02",
-        "find-mcq-06",
-        "find-mcq-01"
+        "find-mcq-15",
+        "find-mcq-28",
+        "find-mcq-25"
       ],
       "explanation": "本句的「find the cause」指「找出先前未知、隱藏或不清楚的事實／原因」。",
       "sentenceIndex": 11,
@@ -1013,12 +967,10 @@ export default {
         "find the cause"
       ],
       "optionReasons": {
-        "find-mcq-04": "本句指「找出先前未知、隱藏或不清楚的事實／原因」。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-01": "「經過尋找後成功定位或取得某物；找到」是「find something you searched for」的用法，與本句語境不同。"
+        "find-mcq-04": "本句的「find the cause」指「找出先前未知、隱藏或不清楚的事實／原因」。",
+        "find-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-04"
     },
@@ -1030,11 +982,9 @@ export default {
       "masked": "We need to ____ quickly.",
       "options": [
         "find-mcq-05",
-        "find-mcq-04",
-        "find-mcq-06",
-        "find-mcq-03",
-        "find-mcq-07",
-        "find-mcq-02"
+        "find-mcq-14",
+        "find-mcq-18",
+        "find-mcq-12"
       ],
       "explanation": "本句的「find a solution」指「找到能解決問題的答案、方法或方案」。",
       "sentenceIndex": 12,
@@ -1043,12 +993,10 @@ export default {
         "find a solution"
       ],
       "optionReasons": {
-        "find-mcq-05": "本句指「找到能解決問題的答案、方法或方案」。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。"
+        "find-mcq-05": "本句的「find a solution」指「找到能解決問題的答案、方法或方案」。",
+        "find-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-05"
     },
@@ -1060,11 +1008,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "find-mcq-05",
-        "find-mcq-04",
-        "find-mcq-06",
-        "find-mcq-03",
-        "find-mcq-07",
-        "find-mcq-02"
+        "find-mcq-21",
+        "find-mcq-26",
+        "find-mcq-11"
       ],
       "explanation": "本句的「found the answer」指「找到能解決問題的答案、方法或方案」。",
       "sentenceIndex": 13,
@@ -1073,12 +1019,10 @@ export default {
         "found the answer"
       ],
       "optionReasons": {
-        "find-mcq-05": "本句指「找到能解決問題的答案、方法或方案」。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-02": "「成功找到某人或某個地方的位置」是「find someone/place」的用法，與本句語境不同。"
+        "find-mcq-05": "本句的「found the answer」指「找到能解決問題的答案、方法或方案」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-05"
     },
@@ -1090,11 +1034,9 @@ export default {
       "masked": "We’ll ____ to make it work.",
       "options": [
         "find-mcq-06",
-        "find-mcq-05",
-        "find-mcq-07",
-        "find-mcq-04",
-        "find-mcq-08",
-        "find-mcq-03"
+        "find-mcq-19",
+        "find-mcq-11",
+        "find-mcq-28"
       ],
       "explanation": "本句的「find a way」指「想出或找到能完成某件事的方法」。",
       "sentenceIndex": 14,
@@ -1103,12 +1045,10 @@ export default {
         "find a way"
       ],
       "optionReasons": {
-        "find-mcq-06": "本句指「想出或找到能完成某件事的方法」。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。"
+        "find-mcq-06": "本句的「find a way」指「想出或找到能完成某件事的方法」。",
+        "find-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-06"
     },
@@ -1120,11 +1060,9 @@ export default {
       "masked": "She ____ the idea clearly.",
       "options": [
         "find-mcq-06",
-        "find-mcq-05",
-        "find-mcq-07",
-        "find-mcq-04",
-        "find-mcq-08",
-        "find-mcq-03"
+        "find-mcq-25",
+        "find-mcq-28",
+        "find-mcq-15"
       ],
       "explanation": "本句的「found a way to explain」指「想出或找到能完成某件事的方法」。",
       "sentenceIndex": 15,
@@ -1133,12 +1071,10 @@ export default {
         "found a way to explain"
       ],
       "optionReasons": {
-        "find-mcq-06": "本句指「想出或找到能完成某件事的方法」。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-03": "「在沒有刻意尋找時偶然發現某物」是「find something unexpectedly」的用法，與本句語境不同。"
+        "find-mcq-06": "本句的「found a way to explain」指「想出或找到能完成某件事的方法」。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-06"
     },
@@ -1150,11 +1086,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "find-mcq-07",
+        "find-mcq-12",
         "find-mcq-06",
-        "find-mcq-08",
-        "find-mcq-05",
-        "find-mcq-09",
-        "find-mcq-04"
+        "find-mcq-03"
       ],
       "explanation": "本句的「find out what happened」指「查明、弄清楚或得知某項資訊」。",
       "sentenceIndex": 16,
@@ -1163,12 +1097,10 @@ export default {
         "find out what happened"
       ],
       "optionReasons": {
-        "find-mcq-07": "本句指「查明、弄清楚或得知某項資訊」。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。"
+        "find-mcq-07": "本句的「find out what happened」指「查明、弄清楚或得知某項資訊」。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-07"
     },
@@ -1180,11 +1112,9 @@ export default {
       "masked": "We later ____.",
       "options": [
         "find-mcq-07",
-        "find-mcq-06",
-        "find-mcq-08",
-        "find-mcq-05",
-        "find-mcq-09",
-        "find-mcq-04"
+        "find-mcq-28",
+        "find-mcq-20",
+        "find-mcq-23"
       ],
       "explanation": "本句的「found out that the meeting had been cancelled」指「查明、弄清楚或得知某項資訊」。",
       "sentenceIndex": 17,
@@ -1193,12 +1123,10 @@ export default {
         "found out that the meeting had been cancelled"
       ],
       "optionReasons": {
-        "find-mcq-07": "本句指「查明、弄清楚或得知某項資訊」。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-04": "「找出先前未知、隱藏或不清楚的事實／原因」是「find evidence/cause/information」的用法，與本句語境不同。"
+        "find-mcq-07": "本句的「found out that the meeting had been cancelled」指「查明、弄清楚或得知某項資訊」。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-07"
     },
@@ -1210,10 +1138,8 @@ export default {
       "masked": "I ____.",
       "options": [
         "find-mcq-08",
-        "find-mcq-07",
-        "find-mcq-09",
-        "find-mcq-06",
         "find-mcq-10",
+        "find-mcq-25",
         "find-mcq-05"
       ],
       "explanation": "本句的「found that regular practice helped」指「經由經驗、觀察或研究而發現某件事」。",
@@ -1223,12 +1149,10 @@ export default {
         "found that regular practice helped"
       ],
       "optionReasons": {
-        "find-mcq-08": "本句指「經由經驗、觀察或研究而發現某件事」。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。"
+        "find-mcq-08": "本句的「found that regular practice helped」指「經由經驗、觀察或研究而發現某件事」。",
+        "find-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-08"
     },
@@ -1240,11 +1164,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "find-mcq-08",
-        "find-mcq-07",
-        "find-mcq-09",
-        "find-mcq-06",
         "find-mcq-10",
-        "find-mcq-05"
+        "find-mcq-24",
+        "find-mcq-13"
       ],
       "explanation": "本句的「found that she enjoyed teaching」指「經由經驗、觀察或研究而發現某件事」。",
       "sentenceIndex": 19,
@@ -1253,12 +1175,10 @@ export default {
         "found that she enjoyed teaching"
       ],
       "optionReasons": {
-        "find-mcq-08": "本句指「經由經驗、觀察或研究而發現某件事」。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-05": "「找到能解決問題的答案、方法或方案」是「find an answer/solution」的用法，與本句語境不同。"
+        "find-mcq-08": "本句的「found that she enjoyed teaching」指「經由經驗、觀察或研究而發現某件事」。",
+        "find-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-08"
     },
@@ -1270,11 +1190,9 @@ export default {
       "masked": "I often ____.",
       "options": [
         "find-mcq-09",
-        "find-mcq-08",
-        "find-mcq-10",
-        "find-mcq-07",
-        "find-mcq-11",
-        "find-mcq-06"
+        "find-mcq-01",
+        "find-mcq-13",
+        "find-mcq-21"
       ],
       "explanation": "本句的「find myself thinking about that conversation」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
       "sentenceIndex": 20,
@@ -1283,12 +1201,10 @@ export default {
         "find myself thinking about that conversation"
       ],
       "optionReasons": {
-        "find-mcq-09": "本句指「發現自己不知不覺或意外地處於某種行動／狀態」。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-09": "本句的「find myself thinking about that conversation」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-09"
     },
@@ -1300,10 +1216,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "find-mcq-09",
-        "find-mcq-08",
-        "find-mcq-10",
-        "find-mcq-07",
-        "find-mcq-11",
+        "find-mcq-28",
+        "find-mcq-21",
         "find-mcq-06"
       ],
       "explanation": "本句的「found herself smiling」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
@@ -1313,12 +1227,10 @@ export default {
         "found herself smiling"
       ],
       "optionReasons": {
-        "find-mcq-09": "本句指「發現自己不知不覺或意外地處於某種行動／狀態」。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-09": "本句的「found herself smiling」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-09"
     },
@@ -1330,11 +1242,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "find-mcq-09",
-        "find-mcq-08",
-        "find-mcq-10",
-        "find-mcq-07",
-        "find-mcq-11",
-        "find-mcq-06"
+        "find-mcq-06",
+        "find-mcq-21",
+        "find-mcq-28"
       ],
       "explanation": "本句的「found himself in a difficult situation」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
       "sentenceIndex": 22,
@@ -1343,12 +1253,10 @@ export default {
         "found himself in a difficult situation"
       ],
       "optionReasons": {
-        "find-mcq-09": "本句指「發現自己不知不覺或意外地處於某種行動／狀態」。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-09": "本句的「found himself in a difficult situation」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-09"
     },
@@ -1360,11 +1268,9 @@ export default {
       "masked": "She suddenly ____.",
       "options": [
         "find-mcq-09",
-        "find-mcq-08",
-        "find-mcq-10",
-        "find-mcq-07",
-        "find-mcq-11",
-        "find-mcq-06"
+        "find-mcq-01",
+        "find-mcq-21",
+        "find-mcq-13"
       ],
       "explanation": "本句的「found herself alone」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
       "sentenceIndex": 23,
@@ -1373,12 +1279,10 @@ export default {
         "found herself alone"
       ],
       "optionReasons": {
-        "find-mcq-09": "本句指「發現自己不知不覺或意外地處於某種行動／狀態」。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-06": "「想出或找到能完成某件事的方法」是「find a way」的用法，與本句語境不同。"
+        "find-mcq-09": "本句的「found herself alone」指「發現自己不知不覺或意外地處於某種行動／狀態」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-09"
     },
@@ -1390,11 +1294,9 @@ export default {
       "masked": "She ____ soon after graduation.",
       "options": [
         "find-mcq-10",
-        "find-mcq-09",
-        "find-mcq-11",
-        "find-mcq-08",
-        "find-mcq-12",
-        "find-mcq-07"
+        "find-mcq-19",
+        "find-mcq-22",
+        "find-mcq-21"
       ],
       "explanation": "本句的「found a job」指「成功取得工作、住處或抽出可用時間」。",
       "sentenceIndex": 24,
@@ -1403,12 +1305,10 @@ export default {
         "found a job"
       ],
       "optionReasons": {
-        "find-mcq-10": "本句指「成功取得工作、住處或抽出可用時間」。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。"
+        "find-mcq-10": "本句的「found a job」指「成功取得工作、住處或抽出可用時間」。",
+        "find-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-10"
     },
@@ -1420,10 +1320,8 @@ export default {
       "masked": "It took him several months to ____.",
       "options": [
         "find-mcq-10",
-        "find-mcq-09",
-        "find-mcq-11",
-        "find-mcq-08",
-        "find-mcq-12",
+        "find-mcq-19",
+        "find-mcq-25",
         "find-mcq-07"
       ],
       "explanation": "本句的「find work」指「成功取得工作、住處或抽出可用時間」。",
@@ -1433,12 +1331,10 @@ export default {
         "find work"
       ],
       "optionReasons": {
-        "find-mcq-10": "本句指「成功取得工作、住處或抽出可用時間」。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。"
+        "find-mcq-10": "本句的「find work」指「成功取得工作、住處或抽出可用時間」。",
+        "find-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-10"
     },
@@ -1450,11 +1346,9 @@ export default {
       "masked": "We need to ____ near the university.",
       "options": [
         "find-mcq-10",
-        "find-mcq-09",
-        "find-mcq-11",
+        "find-mcq-22",
         "find-mcq-08",
-        "find-mcq-12",
-        "find-mcq-07"
+        "find-mcq-21"
       ],
       "explanation": "本句的「find accommodation」指「成功取得工作、住處或抽出可用時間」。",
       "sentenceIndex": 26,
@@ -1463,12 +1357,10 @@ export default {
         "find accommodation"
       ],
       "optionReasons": {
-        "find-mcq-10": "本句指「成功取得工作、住處或抽出可用時間」。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。"
+        "find-mcq-10": "本句的「find accommodation」指「成功取得工作、住處或抽出可用時間」。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-10"
     },
@@ -1480,11 +1372,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "find-mcq-10",
-        "find-mcq-09",
-        "find-mcq-11",
+        "find-mcq-07",
         "find-mcq-08",
-        "find-mcq-12",
-        "find-mcq-07"
+        "find-mcq-12"
       ],
       "explanation": "本句的「found a place to live」指「成功取得工作、住處或抽出可用時間」。",
       "sentenceIndex": 27,
@@ -1493,12 +1383,10 @@ export default {
         "found a place to live"
       ],
       "optionReasons": {
-        "find-mcq-10": "本句指「成功取得工作、住處或抽出可用時間」。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。"
+        "find-mcq-10": "本句的「found a place to live」指「成功取得工作、住處或抽出可用時間」。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-10"
     },
@@ -1510,11 +1398,9 @@ export default {
       "masked": "I can never ____.",
       "options": [
         "find-mcq-10",
-        "find-mcq-09",
-        "find-mcq-11",
-        "find-mcq-08",
-        "find-mcq-12",
-        "find-mcq-07"
+        "find-mcq-22",
+        "find-mcq-07",
+        "find-mcq-08"
       ],
       "explanation": "本句的「find time to exercise」指「成功取得工作、住處或抽出可用時間」。",
       "sentenceIndex": 28,
@@ -1523,12 +1409,10 @@ export default {
         "find time to exercise"
       ],
       "optionReasons": {
-        "find-mcq-10": "本句指「成功取得工作、住處或抽出可用時間」。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。"
+        "find-mcq-10": "本句的「find time to exercise」指「成功取得工作、住處或抽出可用時間」。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-10"
     },
@@ -1540,10 +1424,8 @@ export default {
       "masked": "She somehow ____.",
       "options": [
         "find-mcq-10",
-        "find-mcq-09",
-        "find-mcq-11",
-        "find-mcq-08",
-        "find-mcq-12",
+        "find-mcq-13",
+        "find-mcq-22",
         "find-mcq-07"
       ],
       "explanation": "本句的「found time to help us」指「成功取得工作、住處或抽出可用時間」。",
@@ -1553,12 +1435,10 @@ export default {
         "found time to help us"
       ],
       "optionReasons": {
-        "find-mcq-10": "本句指「成功取得工作、住處或抽出可用時間」。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-07": "「查明、弄清楚或得知某項資訊」是「find out」的用法，與本句語境不同。"
+        "find-mcq-10": "本句的「found time to help us」指「成功取得工作、住處或抽出可用時間」。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-10"
     },
@@ -1570,11 +1450,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "find-mcq-11",
-        "find-mcq-10",
-        "find-mcq-12",
-        "find-mcq-09",
-        "find-mcq-13",
-        "find-mcq-08"
+        "find-mcq-21",
+        "find-mcq-01",
+        "find-mcq-27"
       ],
       "explanation": "本句的「found the book interesting」指「覺得／認為某人或某物具有某種性質」。",
       "sentenceIndex": 30,
@@ -1583,12 +1461,10 @@ export default {
         "found the book interesting"
       ],
       "optionReasons": {
-        "find-mcq-11": "本句指「覺得／認為某人或某物具有某種性質」。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。"
+        "find-mcq-11": "本句的「found the book interesting」指「覺得／認為某人或某物具有某種性質」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-11"
     },
@@ -1600,11 +1476,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "find-mcq-11",
-        "find-mcq-10",
-        "find-mcq-12",
-        "find-mcq-09",
-        "find-mcq-13",
-        "find-mcq-08"
+        "find-mcq-08",
+        "find-mcq-18",
+        "find-mcq-01"
       ],
       "explanation": "本句的「found the task difficult」指「覺得／認為某人或某物具有某種性質」。",
       "sentenceIndex": 31,
@@ -1613,12 +1487,10 @@ export default {
         "found the task difficult"
       ],
       "optionReasons": {
-        "find-mcq-11": "本句指「覺得／認為某人或某物具有某種性質」。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-08": "「經由經驗、觀察或研究而發現某件事」是「find that...」的用法，與本句語境不同。"
+        "find-mcq-11": "本句的「found the task difficult」指「覺得／認為某人或某物具有某種性質」。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-11"
     },
@@ -1631,10 +1503,8 @@ export default {
       "options": [
         "find-mcq-25",
         "find-mcq-24",
-        "find-mcq-26",
-        "find-mcq-23",
-        "find-mcq-27",
-        "find-mcq-22"
+        "find-mcq-28",
+        "find-mcq-07"
       ],
       "explanation": "本句的「found her advice helpful」指「表示覺得……有用／有幫助／困難」。",
       "sentenceIndex": 32,
@@ -1643,12 +1513,10 @@ export default {
         "found her advice helpful"
       ],
       "optionReasons": {
-        "find-mcq-25": "本句指「表示覺得……有用／有幫助／困難」。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-27": "「發現者；搜尋器／取景器等，視語境而定」是「29. finder」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。"
+        "find-mcq-25": "本句的「found her advice helpful」指「表示覺得……有用／有幫助／困難」。",
+        "find-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-25"
     },
@@ -1660,11 +1528,9 @@ export default {
       "masked": "Many students ____.",
       "options": [
         "find-mcq-25",
-        "find-mcq-24",
-        "find-mcq-26",
-        "find-mcq-23",
-        "find-mcq-27",
-        "find-mcq-22"
+        "find-mcq-01",
+        "find-mcq-18",
+        "find-mcq-08"
       ],
       "explanation": "本句的「find public speaking stressful」指「表示覺得……有用／有幫助／困難」。",
       "sentenceIndex": 33,
@@ -1673,12 +1539,10 @@ export default {
         "find public speaking stressful"
       ],
       "optionReasons": {
-        "find-mcq-25": "本句指「表示覺得……有用／有幫助／困難」。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-27": "「發現者；搜尋器／取景器等，視語境而定」是「29. finder」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。"
+        "find-mcq-25": "本句的「find public speaking stressful」指「表示覺得……有用／有幫助／困難」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-25"
     },
@@ -1690,11 +1554,9 @@ export default {
       "masked": "I ____ in noisy places.",
       "options": [
         "find-mcq-12",
-        "find-mcq-11",
-        "find-mcq-13",
-        "find-mcq-10",
-        "find-mcq-14",
-        "find-mcq-09"
+        "find-mcq-21",
+        "find-mcq-06",
+        "find-mcq-27"
       ],
       "explanation": "本句的「find it difficult to concentrate」指「覺得做某事具有某種難易度或性質」。",
       "sentenceIndex": 34,
@@ -1703,12 +1565,10 @@ export default {
         "find it difficult to concentrate"
       ],
       "optionReasons": {
-        "find-mcq-12": "本句指「覺得做某事具有某種難易度或性質」。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。"
+        "find-mcq-12": "本句的「find it difficult to concentrate」指「覺得做某事具有某種難易度或性質」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-12"
     },
@@ -1720,11 +1580,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "find-mcq-12",
-        "find-mcq-11",
-        "find-mcq-13",
-        "find-mcq-10",
-        "find-mcq-14",
-        "find-mcq-09"
+        "find-mcq-26",
+        "find-mcq-04",
+        "find-mcq-01"
       ],
       "explanation": "本句的「found it easy to talk to him」指「覺得做某事具有某種難易度或性質」。",
       "sentenceIndex": 35,
@@ -1733,12 +1591,10 @@ export default {
         "found it easy to talk to him"
       ],
       "optionReasons": {
-        "find-mcq-12": "本句指「覺得做某事具有某種難易度或性質」。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-09": "「發現自己不知不覺或意外地處於某種行動／狀態」是「find yourself doing...」的用法，與本句語境不同。"
+        "find-mcq-12": "本句的「found it easy to talk to him」指「覺得做某事具有某種難易度或性質」。",
+        "find-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-12"
     },
@@ -1750,11 +1606,9 @@ export default {
       "masked": "The jury ____.",
       "options": [
         "find-mcq-13",
-        "find-mcq-12",
-        "find-mcq-14",
-        "find-mcq-11",
-        "find-mcq-15",
-        "find-mcq-10"
+        "find-mcq-21",
+        "find-mcq-26",
+        "find-mcq-25"
       ],
       "explanation": "本句的「found him guilty」指「法院或陪審團正式裁定某人有罪／無罪」。",
       "sentenceIndex": 36,
@@ -1763,12 +1617,10 @@ export default {
         "found him guilty"
       ],
       "optionReasons": {
-        "find-mcq-13": "本句指「法院或陪審團正式裁定某人有罪／無罪」。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。"
+        "find-mcq-13": "本句的「found him guilty」指「法院或陪審團正式裁定某人有罪／無罪」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-13"
     },
@@ -1780,11 +1632,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "find-mcq-13",
-        "find-mcq-12",
-        "find-mcq-14",
-        "find-mcq-11",
-        "find-mcq-15",
-        "find-mcq-10"
+        "find-mcq-19",
+        "find-mcq-25",
+        "find-mcq-28"
       ],
       "explanation": "本句的「found not guilty」指「法院或陪審團正式裁定某人有罪／無罪」。",
       "sentenceIndex": 37,
@@ -1793,12 +1643,10 @@ export default {
         "found not guilty"
       ],
       "optionReasons": {
-        "find-mcq-13": "本句指「法院或陪審團正式裁定某人有罪／無罪」。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。"
+        "find-mcq-13": "本句的「found not guilty」指「法院或陪審團正式裁定某人有罪／無罪」。",
+        "find-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-13"
     },
@@ -1810,11 +1658,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "find-mcq-13",
-        "find-mcq-12",
-        "find-mcq-14",
-        "find-mcq-11",
-        "find-mcq-15",
-        "find-mcq-10"
+        "find-mcq-28",
+        "find-mcq-09",
+        "find-mcq-25"
       ],
       "explanation": "本句的「found in favor of the company」指「法院或陪審團正式裁定某人有罪／無罪」。",
       "sentenceIndex": 38,
@@ -1823,12 +1669,10 @@ export default {
         "found in favor of the company"
       ],
       "optionReasons": {
-        "find-mcq-13": "本句指「法院或陪審團正式裁定某人有罪／無罪」。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。"
+        "find-mcq-13": "本句的「found in favor of the company」指「法院或陪審團正式裁定某人有罪／無罪」。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-13"
     },
@@ -1840,11 +1684,9 @@ export default {
       "masked": "The judge ____.",
       "options": [
         "find-mcq-13",
-        "find-mcq-12",
-        "find-mcq-14",
-        "find-mcq-11",
-        "find-mcq-15",
-        "find-mcq-10"
+        "find-mcq-26",
+        "find-mcq-28",
+        "find-mcq-22"
       ],
       "explanation": "本句的「found in favor of the claimant」指「法院或陪審團正式裁定某人有罪／無罪」。",
       "sentenceIndex": 39,
@@ -1853,12 +1695,10 @@ export default {
         "found in favor of the claimant"
       ],
       "optionReasons": {
-        "find-mcq-13": "本句指「法院或陪審團正式裁定某人有罪／無罪」。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-10": "「成功取得工作、住處或抽出可用時間」是「find a job/place/time」的用法，與本句語境不同。"
+        "find-mcq-13": "本句的「found in favor of the claimant」指「法院或陪審團正式裁定某人有罪／無罪」。",
+        "find-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-13"
     },
@@ -1870,11 +1710,9 @@ export default {
       "masked": "The study ____.",
       "options": [
         "find-mcq-14",
+        "find-mcq-25",
         "find-mcq-13",
-        "find-mcq-15",
-        "find-mcq-12",
-        "find-mcq-16",
-        "find-mcq-11"
+        "find-mcq-28"
       ],
       "explanation": "本句的「found that sleep improved memory」指「研究或調查得出某項結果／發現」。",
       "sentenceIndex": 40,
@@ -1883,12 +1721,10 @@ export default {
         "found that sleep improved memory"
       ],
       "optionReasons": {
-        "find-mcq-14": "本句指「研究或調查得出某項結果／發現」。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。"
+        "find-mcq-14": "本句的「found that sleep improved memory」指「研究或調查得出某項結果／發現」。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-14"
     },
@@ -1901,10 +1737,8 @@ export default {
       "options": [
         "find-mcq-14",
         "find-mcq-13",
-        "find-mcq-15",
-        "find-mcq-12",
-        "find-mcq-16",
-        "find-mcq-11"
+        "find-mcq-01",
+        "find-mcq-25"
       ],
       "explanation": "本句的「found a strong relationship」指「研究或調查得出某項結果／發現」。",
       "sentenceIndex": 41,
@@ -1913,12 +1747,10 @@ export default {
         "found a strong relationship"
       ],
       "optionReasons": {
-        "find-mcq-14": "本句指「研究或調查得出某項結果／發現」。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。",
-        "find-mcq-11": "「覺得／認為某人或某物具有某種性質」是「find + object + adjective」的用法，與本句語境不同。"
+        "find-mcq-14": "本句的「found a strong relationship」指「研究或調查得出某項結果／發現」。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-14"
     },
@@ -1930,11 +1762,9 @@ export default {
       "masked": "The report presents the main ____.",
       "options": [
         "find-mcq-15",
-        "find-mcq-14",
-        "find-mcq-16",
-        "find-mcq-13",
-        "find-mcq-17",
-        "find-mcq-12"
+        "find-mcq-22",
+        "find-mcq-20",
+        "find-mcq-21"
       ],
       "explanation": "本句的「findings」指「研究、調查或正式程序所得到的結果／發現」。",
       "sentenceIndex": 42,
@@ -1943,12 +1773,10 @@ export default {
         "findings"
       ],
       "optionReasons": {
-        "find-mcq-15": "本句指「研究、調查或正式程序所得到的結果／發現」。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。"
+        "find-mcq-15": "本句的「findings」指「研究、調查或正式程序所得到的結果／發現」。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-15"
     },
@@ -1960,11 +1788,9 @@ export default {
       "masked": "Their ____ were surprising.",
       "options": [
         "find-mcq-15",
-        "find-mcq-14",
-        "find-mcq-16",
-        "find-mcq-13",
-        "find-mcq-17",
-        "find-mcq-12"
+        "find-mcq-20",
+        "find-mcq-22",
+        "find-mcq-28"
       ],
       "explanation": "本句的「findings」指「研究、調查或正式程序所得到的結果／發現」。",
       "sentenceIndex": 43,
@@ -1973,12 +1799,10 @@ export default {
         "findings"
       ],
       "optionReasons": {
-        "find-mcq-15": "本句指「研究、調查或正式程序所得到的結果／發現」。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-12": "「覺得做某事具有某種難易度或性質」是「find it + adjective + to do」的用法，與本句語境不同。"
+        "find-mcq-15": "本句的「findings」指「研究、調查或正式程序所得到的結果／發現」。",
+        "find-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-15"
     },
@@ -1991,10 +1815,8 @@ export default {
       "options": [
         "find-mcq-16",
         "find-mcq-15",
-        "find-mcq-17",
-        "find-mcq-14",
-        "find-mcq-18",
-        "find-mcq-13"
+        "find-mcq-28",
+        "find-mcq-12"
       ],
       "explanation": "本句的「find herself」指「逐漸認識自己的價值、興趣與人生方向；找到自我」。",
       "sentenceIndex": 44,
@@ -2003,12 +1825,10 @@ export default {
         "find herself"
       ],
       "optionReasons": {
-        "find-mcq-16": "本句指「逐漸認識自己的價值、興趣與人生方向；找到自我」。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。"
+        "find-mcq-16": "本句的「find herself」指「逐漸認識自己的價值、興趣與人生方向；找到自我」。",
+        "find-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-16"
     },
@@ -2020,11 +1840,9 @@ export default {
       "masked": "He took time away from work to ____.",
       "options": [
         "find-mcq-16",
-        "find-mcq-15",
-        "find-mcq-17",
-        "find-mcq-14",
-        "find-mcq-18",
-        "find-mcq-13"
+        "find-mcq-10",
+        "find-mcq-13",
+        "find-mcq-27"
       ],
       "explanation": "本句的「find himself」指「逐漸認識自己的價值、興趣與人生方向；找到自我」。",
       "sentenceIndex": 45,
@@ -2033,12 +1851,10 @@ export default {
         "find himself"
       ],
       "optionReasons": {
-        "find-mcq-16": "本句指「逐漸認識自己的價值、興趣與人生方向；找到自我」。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-14": "「研究或調查得出某項結果／發現」是「research finds that...」的用法，與本句語境不同。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。",
-        "find-mcq-13": "「法院或陪審團正式裁定某人有罪／無罪」是「find someone guilty/not guilty」的用法，與本句語境不同。"
+        "find-mcq-16": "本句的「find himself」指「逐漸認識自己的價值、興趣與人生方向；找到自我」。",
+        "find-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-16"
     },
@@ -2050,11 +1866,9 @@ export default {
       "masked": "Everyone has to ____ eventually.",
       "options": [
         "find-mcq-18",
-        "find-mcq-17",
-        "find-mcq-19",
-        "find-mcq-16",
-        "find-mcq-20",
-        "find-mcq-15"
+        "find-mcq-11",
+        "find-mcq-07",
+        "find-mcq-28"
       ],
       "explanation": "本句的「find their own way」指「探索出適合自己的生活方式、方向或發展道路」。",
       "sentenceIndex": 46,
@@ -2063,12 +1877,10 @@ export default {
         "find their own way"
       ],
       "optionReasons": {
-        "find-mcq-18": "本句指「探索出適合自己的生活方式、方向或發展道路」。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。"
+        "find-mcq-18": "本句的「find their own way」指「探索出適合自己的生活方式、方向或發展道路」。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-18"
     },
@@ -2080,11 +1892,9 @@ export default {
       "masked": "You can learn from others without giving up the need to ____.",
       "options": [
         "find-mcq-18",
-        "find-mcq-17",
-        "find-mcq-19",
-        "find-mcq-16",
-        "find-mcq-20",
-        "find-mcq-15"
+        "find-mcq-01",
+        "find-mcq-25",
+        "find-mcq-07"
       ],
       "explanation": "本句的「find your own path」指「探索出適合自己的生活方式、方向或發展道路」。",
       "sentenceIndex": 47,
@@ -2093,12 +1903,10 @@ export default {
         "find your own path"
       ],
       "optionReasons": {
-        "find-mcq-18": "本句指「探索出適合自己的生活方式、方向或發展道路」。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-15": "「研究、調查或正式程序所得到的結果／發現」是「finding(s)」的用法，與本句語境不同。"
+        "find-mcq-18": "本句的「find your own path」指「探索出適合自己的生活方式、方向或發展道路」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-18"
     },
@@ -2110,11 +1918,9 @@ export default {
       "masked": "That old book was a lucky ____.",
       "options": [
         "find-mcq-19",
-        "find-mcq-18",
-        "find-mcq-20",
-        "find-mcq-17",
-        "find-mcq-21",
-        "find-mcq-16"
+        "find-mcq-07",
+        "find-mcq-12",
+        "find-mcq-06"
       ],
       "explanation": "本句的「find」指「偶然發現且有價值、有趣或很不錯的人／物」。",
       "sentenceIndex": 48,
@@ -2123,12 +1929,10 @@ export default {
         "find"
       ],
       "optionReasons": {
-        "find-mcq-19": "本句指「偶然發現且有價值、有趣或很不錯的人／物」。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。"
+        "find-mcq-19": "本句的「find」指「偶然發現且有價值、有趣或很不錯的人／物」。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-19"
     },
@@ -2140,11 +1944,9 @@ export default {
       "masked": "This little restaurant is a real ____.",
       "options": [
         "find-mcq-19",
-        "find-mcq-18",
-        "find-mcq-20",
-        "find-mcq-17",
+        "find-mcq-22",
         "find-mcq-21",
-        "find-mcq-16"
+        "find-mcq-20"
       ],
       "explanation": "本句的「find」指「偶然發現且有價值、有趣或很不錯的人／物」。",
       "sentenceIndex": 49,
@@ -2153,12 +1955,10 @@ export default {
         "find"
       ],
       "optionReasons": {
-        "find-mcq-19": "本句指「偶然發現且有價值、有趣或很不錯的人／物」。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-16": "「逐漸認識自己的價值、興趣與人生方向；找到自我」是「find yourself — identity」的用法，與本句語境不同。"
+        "find-mcq-19": "本句的「find」指「偶然發現且有價值、有趣或很不錯的人／物」。",
+        "find-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-19"
     },
@@ -2170,11 +1970,9 @@ export default {
       "masked": "The statue was an important archaeological ____.",
       "options": [
         "find-mcq-26",
-        "find-mcq-25",
-        "find-mcq-27",
-        "find-mcq-24",
-        "find-mcq-28",
-        "find-mcq-23"
+        "find-mcq-21",
+        "find-mcq-12",
+        "find-mcq-13"
       ],
       "explanation": "本句的「find」指「表示考古發現；出土物」。",
       "sentenceIndex": 50,
@@ -2183,12 +1981,10 @@ export default {
         "find"
       ],
       "optionReasons": {
-        "find-mcq-26": "本句指「表示考古發現；出土物」。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-27": "「發現者；搜尋器／取景器等，視語境而定」是「29. finder」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-28": "「表示取景器」是「30. viewfinder」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。"
+        "find-mcq-26": "本句的「find」指「表示考古發現；出土物」。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-26"
     },
@@ -2200,11 +1996,9 @@ export default {
       "masked": "The site produced several remarkable ____.",
       "options": [
         "find-mcq-26",
+        "find-mcq-13",
         "find-mcq-25",
-        "find-mcq-27",
-        "find-mcq-24",
-        "find-mcq-28",
-        "find-mcq-23"
+        "find-mcq-28"
       ],
       "explanation": "本句的「finds」指「表示考古發現；出土物」。",
       "sentenceIndex": 51,
@@ -2213,12 +2007,10 @@ export default {
         "finds"
       ],
       "optionReasons": {
-        "find-mcq-26": "本句指「表示考古發現；出土物」。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-27": "「發現者；搜尋器／取景器等，視語境而定」是「29. finder」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-28": "「表示取景器」是「30. viewfinder」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。"
+        "find-mcq-26": "本句的「finds」指「表示考古發現；出土物」。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-26"
     },
@@ -2230,11 +2022,9 @@ export default {
       "masked": "The ____ of the wallet returned it.",
       "options": [
         "find-mcq-27",
-        "find-mcq-26",
-        "find-mcq-28",
-        "find-mcq-25",
-        "find-mcq-24",
-        "find-mcq-23"
+        "find-mcq-04",
+        "find-mcq-02",
+        "find-mcq-12"
       ],
       "explanation": "本句的「finder」指「發現者；搜尋器／取景器等，視語境而定」。",
       "sentenceIndex": 52,
@@ -2243,12 +2033,10 @@ export default {
         "finder"
       ],
       "optionReasons": {
-        "find-mcq-27": "本句指「發現者；搜尋器／取景器等，視語境而定」。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-28": "「表示取景器」是「30. viewfinder」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。"
+        "find-mcq-27": "本句的「finder」指「發現者；搜尋器／取景器等，視語境而定」。",
+        "find-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-27"
     },
@@ -2260,11 +2048,9 @@ export default {
       "masked": "Some devices use a built-in object ____.",
       "options": [
         "find-mcq-27",
-        "find-mcq-26",
-        "find-mcq-28",
-        "find-mcq-25",
-        "find-mcq-24",
-        "find-mcq-23"
+        "find-mcq-16",
+        "find-mcq-20",
+        "find-mcq-25"
       ],
       "explanation": "本句的「finder」指「發現者；搜尋器／取景器等，視語境而定」。",
       "sentenceIndex": 53,
@@ -2273,12 +2059,10 @@ export default {
         "finder"
       ],
       "optionReasons": {
-        "find-mcq-27": "本句指「發現者；搜尋器／取景器等，視語境而定」。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-28": "「表示取景器」是「30. viewfinder」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。"
+        "find-mcq-27": "本句的「finder」指「發現者；搜尋器／取景器等，視語境而定」。",
+        "find-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-27"
     },
@@ -2290,11 +2074,9 @@ export default {
       "masked": "Look through the ____ before taking the photo.",
       "options": [
         "find-mcq-28",
-        "find-mcq-27",
-        "find-mcq-26",
-        "find-mcq-25",
-        "find-mcq-24",
-        "find-mcq-23"
+        "find-mcq-23",
+        "find-mcq-15",
+        "find-mcq-02"
       ],
       "explanation": "本句的「viewfinder」指「表示取景器」。",
       "sentenceIndex": 54,
@@ -2303,12 +2085,10 @@ export default {
         "viewfinder"
       ],
       "optionReasons": {
-        "find-mcq-28": "本句指「表示取景器」。",
-        "find-mcq-27": "「發現者；搜尋器／取景器等，視語境而定」是「29. finder」的用法，與本句語境不同。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。"
+        "find-mcq-28": "本句的「viewfinder」指「表示取景器」。",
+        "find-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-28"
     },
@@ -2320,11 +2100,9 @@ export default {
       "masked": "The camera has an electronic ____.",
       "options": [
         "find-mcq-28",
-        "find-mcq-27",
-        "find-mcq-26",
         "find-mcq-25",
-        "find-mcq-24",
-        "find-mcq-23"
+        "find-mcq-14",
+        "find-mcq-06"
       ],
       "explanation": "本句的「viewfinder」指「表示取景器」。",
       "sentenceIndex": 55,
@@ -2333,12 +2111,10 @@ export default {
         "viewfinder"
       ],
       "optionReasons": {
-        "find-mcq-28": "本句指「表示取景器」。",
-        "find-mcq-27": "「發現者；搜尋器／取景器等，視語境而定」是「29. finder」的用法，與本句語境不同。",
-        "find-mcq-26": "「表示考古發現；出土物」是「27. archaeological find」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。"
+        "find-mcq-28": "本句的「viewfinder」指「表示取景器」。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-28"
     },
@@ -2350,11 +2126,9 @@ export default {
       "masked": "He always ____ my work.",
       "options": [
         "find-mcq-20",
-        "find-mcq-19",
+        "find-mcq-01",
         "find-mcq-21",
-        "find-mcq-18",
-        "find-mcq-22",
-        "find-mcq-17"
+        "find-mcq-27"
       ],
       "explanation": "本句的「finds fault with」指「刻意或反覆指出某人／某物的缺點；挑毛病」。",
       "sentenceIndex": 56,
@@ -2363,12 +2137,10 @@ export default {
         "finds fault with"
       ],
       "optionReasons": {
-        "find-mcq-20": "本句指「刻意或反覆指出某人／某物的缺點；挑毛病」。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。"
+        "find-mcq-20": "本句的「finds fault with」指「刻意或反覆指出某人／某物的缺點；挑毛病」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-20"
     },
@@ -2380,11 +2152,9 @@ export default {
       "masked": "It is easy to ____ other people.",
       "options": [
         "find-mcq-20",
-        "find-mcq-19",
-        "find-mcq-21",
-        "find-mcq-18",
-        "find-mcq-22",
-        "find-mcq-17"
+        "find-mcq-01",
+        "find-mcq-07",
+        "find-mcq-12"
       ],
       "explanation": "本句的「find fault with」指「刻意或反覆指出某人／某物的缺點；挑毛病」。",
       "sentenceIndex": 57,
@@ -2393,12 +2163,10 @@ export default {
         "find fault with"
       ],
       "optionReasons": {
-        "find-mcq-20": "本句指「刻意或反覆指出某人／某物的缺點；挑毛病」。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-17": "「字面找到路；比喻逐漸找到如何前進的方法或方向」是「find your way」的用法，與本句語境不同。"
+        "find-mcq-20": "本句的「find fault with」指「刻意或反覆指出某人／某物的缺點；挑毛病」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-20"
     },
@@ -2410,11 +2178,9 @@ export default {
       "masked": "It took me a few weeks to ____ in the new job.",
       "options": [
         "find-mcq-21",
-        "find-mcq-20",
-        "find-mcq-22",
-        "find-mcq-19",
-        "find-mcq-23",
-        "find-mcq-18"
+        "find-mcq-06",
+        "find-mcq-03",
+        "find-mcq-04"
       ],
       "explanation": "本句的「find my feet」指「在新環境中逐漸適應並建立信心」。",
       "sentenceIndex": 58,
@@ -2423,12 +2189,10 @@ export default {
         "find my feet"
       ],
       "optionReasons": {
-        "find-mcq-21": "本句指「在新環境中逐漸適應並建立信心」。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。"
+        "find-mcq-21": "本句的「find my feet」指「在新環境中逐漸適應並建立信心」。",
+        "find-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-21"
     },
@@ -2440,11 +2204,9 @@ export default {
       "masked": "Give her some time to ____.",
       "options": [
         "find-mcq-21",
-        "find-mcq-20",
-        "find-mcq-22",
-        "find-mcq-19",
-        "find-mcq-23",
-        "find-mcq-18"
+        "find-mcq-11",
+        "find-mcq-05",
+        "find-mcq-28"
       ],
       "explanation": "本句的「find her feet」指「在新環境中逐漸適應並建立信心」。",
       "sentenceIndex": 59,
@@ -2453,12 +2215,10 @@ export default {
         "find her feet"
       ],
       "optionReasons": {
-        "find-mcq-21": "本句指「在新環境中逐漸適應並建立信心」。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-18": "「探索出適合自己的生活方式、方向或發展道路」是「find your own path/way」的用法，與本句語境不同。"
+        "find-mcq-21": "本句的「find her feet」指「在新環境中逐漸適應並建立信心」。",
+        "find-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-21"
     },
@@ -2470,11 +2230,9 @@ export default {
       "masked": "The two sides tried to ____.",
       "options": [
         "find-mcq-22",
-        "find-mcq-21",
-        "find-mcq-23",
-        "find-mcq-20",
-        "find-mcq-24",
-        "find-mcq-19"
+        "find-mcq-10",
+        "find-mcq-14",
+        "find-mcq-13"
       ],
       "explanation": "本句的「find common ground」指「找到彼此共享的觀點、利益或共識」。",
       "sentenceIndex": 60,
@@ -2483,12 +2241,10 @@ export default {
         "find common ground"
       ],
       "optionReasons": {
-        "find-mcq-22": "本句指「找到彼此共享的觀點、利益或共識」。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。"
+        "find-mcq-22": "本句的「find common ground」指「找到彼此共享的觀點、利益或共識」。",
+        "find-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-22"
     },
@@ -2500,11 +2256,9 @@ export default {
       "masked": "We disagreed on many things but still ____.",
       "options": [
         "find-mcq-22",
-        "find-mcq-21",
         "find-mcq-23",
-        "find-mcq-20",
-        "find-mcq-24",
-        "find-mcq-19"
+        "find-mcq-07",
+        "find-mcq-28"
       ],
       "explanation": "本句的「found common ground」指「找到彼此共享的觀點、利益或共識」。",
       "sentenceIndex": 61,
@@ -2513,12 +2267,10 @@ export default {
         "found common ground"
       ],
       "optionReasons": {
-        "find-mcq-22": "本句指「找到彼此共享的觀點、利益或共識」。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-23": "「發展出自己的表達方式、風格和發言自信」是「find your voice」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-19": "「偶然發現且有價值、有趣或很不錯的人／物」是「a find」的用法，與本句語境不同。"
+        "find-mcq-22": "本句的「found common ground」指「找到彼此共享的觀點、利益或共識」。",
+        "find-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-22"
     },
@@ -2530,11 +2282,9 @@ export default {
       "masked": "Writing helped her ____.",
       "options": [
         "find-mcq-23",
-        "find-mcq-22",
-        "find-mcq-24",
-        "find-mcq-21",
-        "find-mcq-25",
-        "find-mcq-20"
+        "find-mcq-07",
+        "find-mcq-02",
+        "find-mcq-12"
       ],
       "explanation": "本句的「find her voice」指「發展出自己的表達方式、風格和發言自信」。",
       "sentenceIndex": 62,
@@ -2543,12 +2293,10 @@ export default {
         "find her voice"
       ],
       "optionReasons": {
-        "find-mcq-23": "本句指「發展出自己的表達方式、風格和發言自信」。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。"
+        "find-mcq-23": "本句的「find her voice」指「發展出自己的表達方式、風格和發言自信」。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-23"
     },
@@ -2560,11 +2308,9 @@ export default {
       "masked": "It took time for him to ____ as a speaker.",
       "options": [
         "find-mcq-23",
-        "find-mcq-22",
-        "find-mcq-24",
-        "find-mcq-21",
+        "find-mcq-01",
         "find-mcq-25",
-        "find-mcq-20"
+        "find-mcq-07"
       ],
       "explanation": "本句的「find his own voice」指「發展出自己的表達方式、風格和發言自信」。",
       "sentenceIndex": 63,
@@ -2573,12 +2319,10 @@ export default {
         "find his own voice"
       ],
       "optionReasons": {
-        "find-mcq-23": "本句指「發展出自己的表達方式、風格和發言自信」。",
-        "find-mcq-22": "「找到彼此共享的觀點、利益或共識」是「find common ground」的用法，與本句語境不同。",
-        "find-mcq-24": "「表示找到；探索出；找出」是「Passage meaning」的用法，與本句語境不同。",
-        "find-mcq-21": "「在新環境中逐漸適應並建立信心」是「find your feet」的用法，與本句語境不同。",
-        "find-mcq-25": "「表示覺得……有用／有幫助／困難」是「17. find someone/something useful / helpful / difficult」的用法，與本句語境不同。",
-        "find-mcq-20": "「刻意或反覆指出某人／某物的缺點；挑毛病」是「find fault with」的用法，與本句語境不同。"
+        "find-mcq-23": "本句的「find his own voice」指「發展出自己的表達方式、風格和發言自信」。",
+        "find-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "find-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "find-mcq-23"
     }
@@ -2590,5 +2334,7 @@ export default {
     "sha256": "24ad0779083392102bed9438037e24ea5e16107684980f8293e3b08f4377291d",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

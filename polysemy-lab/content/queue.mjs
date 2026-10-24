@@ -531,10 +531,7 @@ export default {
       "options": [
         "queue-mcq-01",
         "queue-mcq-02",
-        "queue-mcq-03",
-        "queue-mcq-04",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-07"
       ],
       "explanation": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
       "sentenceIndex": 0,
@@ -543,12 +540,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-01": "本句指「按先後次序等候的人群；隊伍／人龍」。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-01": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-01"
     },
@@ -560,11 +554,8 @@ export default {
       "masked": "The ____ outside the ride moved slowly.",
       "options": [
         "queue-mcq-01",
-        "queue-mcq-02",
-        "queue-mcq-03",
-        "queue-mcq-04",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-07",
+        "queue-mcq-15"
       ],
       "explanation": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
       "sentenceIndex": 1,
@@ -573,12 +564,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-01": "本句指「按先後次序等候的人群；隊伍／人龍」。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-01": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-01"
     },
@@ -590,11 +578,8 @@ export default {
       "masked": "There was a long ____ at the ticket counter.",
       "options": [
         "queue-mcq-01",
-        "queue-mcq-02",
-        "queue-mcq-03",
-        "queue-mcq-04",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-15",
+        "queue-mcq-07"
       ],
       "explanation": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
       "sentenceIndex": 2,
@@ -603,12 +588,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-01": "本句指「按先後次序等候的人群；隊伍／人龍」。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-01": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-01"
     },
@@ -620,11 +602,8 @@ export default {
       "masked": "We joined the ____ outside the restaurant.",
       "options": [
         "queue-mcq-01",
-        "queue-mcq-02",
-        "queue-mcq-03",
-        "queue-mcq-04",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-15",
+        "queue-mcq-07"
       ],
       "explanation": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
       "sentenceIndex": 3,
@@ -633,12 +612,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-01": "本句指「按先後次序等候的人群；隊伍／人龍」。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-01": "本句的「queue」指「按先後次序等候的人群；隊伍／人龍」。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-01"
     },
@@ -650,11 +626,9 @@ export default {
       "masked": "A long ____ formed outside the tunnel.",
       "options": [
         "queue-mcq-02",
-        "queue-mcq-01",
-        "queue-mcq-03",
-        "queue-mcq-04",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-21",
+        "queue-mcq-18",
+        "queue-mcq-11"
       ],
       "explanation": "本句的「queue of cars」指「排隊或緩慢前進的一列車輛；車龍」。",
       "sentenceIndex": 4,
@@ -663,12 +637,10 @@ export default {
         "queue of cars"
       ],
       "optionReasons": {
-        "queue-mcq-02": "本句指「排隊或緩慢前進的一列車輛；車龍」。",
-        "queue-mcq-01": "「按先後次序等候的人群；隊伍／人龍」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-02": "本句的「queue of cars」指「排隊或緩慢前進的一列車輛；車龍」。",
+        "queue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-02"
     },
@@ -680,11 +652,9 @@ export default {
       "masked": "We were stuck in a ____ for nearly an hour.",
       "options": [
         "queue-mcq-02",
-        "queue-mcq-01",
-        "queue-mcq-03",
-        "queue-mcq-04",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-21",
+        "queue-mcq-11",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queue」指「排隊或緩慢前進的一列車輛；車龍」。",
       "sentenceIndex": 5,
@@ -693,12 +663,10 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-02": "本句指「排隊或緩慢前進的一列車輛；車龍」。",
-        "queue-mcq-01": "「按先後次序等候的人群；隊伍／人龍」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-02": "本句的「queue」指「排隊或緩慢前進的一列車輛；車龍」。",
+        "queue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-02"
     },
@@ -710,11 +678,8 @@ export default {
       "masked": "People ____ for tickets.",
       "options": [
         "queue-mcq-03",
-        "queue-mcq-02",
-        "queue-mcq-04",
-        "queue-mcq-01",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queued」指「排成一隊等候；排隊／輪候」。",
       "sentenceIndex": 6,
@@ -723,12 +688,9 @@ export default {
         "queued"
       ],
       "optionReasons": {
-        "queue-mcq-03": "本句指「排成一隊等候；排隊／輪候」。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-01": "「按先後次序等候的人群；隊伍／人龍」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-03": "本句的「queued」指「排成一隊等候；排隊／輪候」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-03"
     },
@@ -740,11 +702,8 @@ export default {
       "masked": "We had to ____ for half an hour.",
       "options": [
         "queue-mcq-03",
-        "queue-mcq-02",
-        "queue-mcq-04",
-        "queue-mcq-01",
-        "queue-mcq-05",
-        "queue-mcq-06"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queue」指「排成一隊等候；排隊／輪候」。",
       "sentenceIndex": 7,
@@ -753,12 +712,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-03": "本句指「排成一隊等候；排隊／輪候」。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-01": "「按先後次序等候的人群；隊伍／人龍」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。"
+        "queue-mcq-03": "本句的「queue」指「排成一隊等候；排隊／輪候」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-03"
     },
@@ -770,11 +726,8 @@ export default {
       "masked": "Visitors ____ the new ride.",
       "options": [
         "queue-mcq-04",
-        "queue-mcq-03",
-        "queue-mcq-05",
-        "queue-mcq-02",
-        "queue-mcq-06",
-        "queue-mcq-01"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queued for」指「排隊等候取得、進入、使用某物」。",
       "sentenceIndex": 8,
@@ -783,12 +736,9 @@ export default {
         "queued for"
       ],
       "optionReasons": {
-        "queue-mcq-04": "本句指「排隊等候取得、進入、使用某物」。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-01": "「按先後次序等候的人群；隊伍／人龍」與本句語境不同。"
+        "queue-mcq-04": "本句的「queued for」指「排隊等候取得、進入、使用某物」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-04"
     },
@@ -800,11 +750,8 @@ export default {
       "masked": "Hundreds of people ____ tickets.",
       "options": [
         "queue-mcq-04",
-        "queue-mcq-03",
-        "queue-mcq-05",
-        "queue-mcq-02",
-        "queue-mcq-06",
-        "queue-mcq-01"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queued for」指「排隊等候取得、進入、使用某物」。",
       "sentenceIndex": 9,
@@ -813,12 +760,9 @@ export default {
         "queued for"
       ],
       "optionReasons": {
-        "queue-mcq-04": "本句指「排隊等候取得、進入、使用某物」。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-01": "「按先後次序等候的人群；隊伍／人龍」與本句語境不同。"
+        "queue-mcq-04": "本句的「queued for」指「排隊等候取得、進入、使用某物」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-04"
     },
@@ -830,11 +774,8 @@ export default {
       "masked": "People ____ the building.",
       "options": [
         "queue-mcq-05",
-        "queue-mcq-04",
-        "queue-mcq-06",
-        "queue-mcq-03",
-        "queue-mcq-07",
-        "queue-mcq-02"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queued to enter」指「排隊等候做某事」。",
       "sentenceIndex": 10,
@@ -843,12 +784,9 @@ export default {
         "queued to enter"
       ],
       "optionReasons": {
-        "queue-mcq-05": "本句指「排隊等候做某事」。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。"
+        "queue-mcq-05": "本句的「queued to enter」指「排隊等候做某事」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-05"
     },
@@ -860,11 +798,8 @@ export default {
       "masked": "Fans ____ the singer.",
       "options": [
         "queue-mcq-05",
-        "queue-mcq-04",
-        "queue-mcq-06",
-        "queue-mcq-03",
-        "queue-mcq-07",
-        "queue-mcq-02"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queued to meet」指「排隊等候做某事」。",
       "sentenceIndex": 11,
@@ -873,12 +808,9 @@ export default {
         "queued to meet"
       ],
       "optionReasons": {
-        "queue-mcq-05": "本句指「排隊等候做某事」。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。",
-        "queue-mcq-02": "「排隊或緩慢前進的一列車輛；車龍」與本句語境不同。"
+        "queue-mcq-05": "本句的「queued to meet」指「排隊等候做某事」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-05"
     },
@@ -890,11 +822,8 @@ export default {
       "masked": "Everyone ____ outside the entrance.",
       "options": [
         "queue-mcq-06",
-        "queue-mcq-05",
-        "queue-mcq-07",
-        "queue-mcq-04",
-        "queue-mcq-08",
-        "queue-mcq-03"
+        "queue-mcq-13",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「queued up」指「排成一列／排隊等候」。",
       "sentenceIndex": 12,
@@ -903,12 +832,9 @@ export default {
         "queued up"
       ],
       "optionReasons": {
-        "queue-mcq-06": "本句指「排成一列／排隊等候」。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。"
+        "queue-mcq-06": "本句的「queued up」指「排成一列／排隊等候」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-06"
     },
@@ -920,11 +846,7 @@ export default {
       "masked": "Children ____ for ice cream.",
       "options": [
         "queue-mcq-06",
-        "queue-mcq-05",
-        "queue-mcq-07",
-        "queue-mcq-04",
-        "queue-mcq-08",
-        "queue-mcq-03"
+        "queue-mcq-19"
       ],
       "explanation": "本句的「queued up」指「排成一列／排隊等候」。",
       "sentenceIndex": 13,
@@ -933,12 +855,8 @@ export default {
         "queued up"
       ],
       "optionReasons": {
-        "queue-mcq-06": "本句指「排成一列／排隊等候」。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。",
-        "queue-mcq-03": "「排成一隊等候；排隊／輪候」與本句語境不同。"
+        "queue-mcq-06": "本句的「queued up」指「排成一列／排隊等候」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-06"
     },
@@ -950,11 +868,9 @@ export default {
       "masked": "I ____ several songs for the journey.",
       "options": [
         "queue-mcq-07",
-        "queue-mcq-06",
-        "queue-mcq-08",
-        "queue-mcq-05",
-        "queue-mcq-09",
-        "queue-mcq-04"
+        "queue-mcq-15",
+        "queue-mcq-18",
+        "queue-mcq-14"
       ],
       "explanation": "本句的「queued up」指「把某物加入等待播放、處理等的序列」。",
       "sentenceIndex": 14,
@@ -963,12 +879,10 @@ export default {
         "queued up"
       ],
       "optionReasons": {
-        "queue-mcq-07": "本句指「把某物加入等待播放、處理等的序列」。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。"
+        "queue-mcq-07": "本句的「queued up」指「把某物加入等待播放、處理等的序列」。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-07"
     },
@@ -980,11 +894,9 @@ export default {
       "masked": "The system ____ the next task automatically.",
       "options": [
         "queue-mcq-07",
-        "queue-mcq-06",
-        "queue-mcq-08",
-        "queue-mcq-05",
-        "queue-mcq-09",
-        "queue-mcq-04"
+        "queue-mcq-15",
+        "queue-mcq-18",
+        "queue-mcq-14"
       ],
       "explanation": "本句的「queued up」指「把某物加入等待播放、處理等的序列」。",
       "sentenceIndex": 15,
@@ -993,12 +905,10 @@ export default {
         "queued up"
       ],
       "optionReasons": {
-        "queue-mcq-07": "本句指「把某物加入等待播放、處理等的序列」。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-04": "「排隊等候取得、進入、使用某物」與本句語境不同。"
+        "queue-mcq-07": "本句的「queued up」指「把某物加入等待播放、處理等的序列」。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-07"
     },
@@ -1010,11 +920,8 @@ export default {
       "masked": "Your request has been added to the ____.",
       "options": [
         "queue-mcq-08",
-        "queue-mcq-07",
-        "queue-mcq-09",
-        "queue-mcq-06",
-        "queue-mcq-10",
-        "queue-mcq-05"
+        "queue-mcq-18",
+        "queue-mcq-15"
       ],
       "explanation": "本句的「queue」指「等候被處理的工作、請求、訊息等序列」。",
       "sentenceIndex": 16,
@@ -1023,12 +930,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-08": "本句指「等候被處理的工作、請求、訊息等序列」。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。"
+        "queue-mcq-08": "本句的「queue」指「等候被處理的工作、請求、訊息等序列」。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-08"
     },
@@ -1040,11 +944,8 @@ export default {
       "masked": "Several jobs are still in the processing ____.",
       "options": [
         "queue-mcq-08",
-        "queue-mcq-07",
-        "queue-mcq-09",
-        "queue-mcq-06",
-        "queue-mcq-10",
-        "queue-mcq-05"
+        "queue-mcq-18",
+        "queue-mcq-15"
       ],
       "explanation": "本句的「queue」指「等候被處理的工作、請求、訊息等序列」。",
       "sentenceIndex": 17,
@@ -1053,12 +954,9 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-08": "本句指「等候被處理的工作、請求、訊息等序列」。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-06": "「排成一列／排隊等候」與本句語境不同。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。",
-        "queue-mcq-05": "「排隊等候做某事」與本句語境不同。"
+        "queue-mcq-08": "本句的「queue」指「等候被處理的工作、請求、訊息等序列」。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-08"
     },
@@ -1070,11 +968,8 @@ export default {
       "masked": "The job was placed in the ____.",
       "options": [
         "queue-mcq-10",
-        "queue-mcq-09",
-        "queue-mcq-11",
-        "queue-mcq-08",
-        "queue-mcq-12",
-        "queue-mcq-07"
+        "queue-mcq-19",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「job queue」指「等候系統處理的工作／任務佇列」。",
       "sentenceIndex": 20,
@@ -1083,12 +978,9 @@ export default {
         "job queue"
       ],
       "optionReasons": {
-        "queue-mcq-10": "本句指「等候系統處理的工作／任務佇列」。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。"
+        "queue-mcq-10": "本句的「job queue」指「等候系統處理的工作／任務佇列」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-10"
     },
@@ -1100,11 +992,8 @@ export default {
       "masked": "The server processes tasks from the ____.",
       "options": [
         "queue-mcq-10",
-        "queue-mcq-09",
-        "queue-mcq-11",
-        "queue-mcq-08",
-        "queue-mcq-12",
-        "queue-mcq-07"
+        "queue-mcq-19",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「job queue」指「等候系統處理的工作／任務佇列」。",
       "sentenceIndex": 21,
@@ -1113,12 +1002,9 @@ export default {
         "job queue"
       ],
       "optionReasons": {
-        "queue-mcq-10": "本句指「等候系統處理的工作／任務佇列」。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-07": "「把某物加入等待播放、處理等的序列」與本句語境不同。"
+        "queue-mcq-10": "本句的「job queue」指「等候系統處理的工作／任務佇列」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-10"
     },
@@ -1130,11 +1016,9 @@ export default {
       "masked": "The document is stuck in the ____.",
       "options": [
         "queue-mcq-11",
-        "queue-mcq-10",
-        "queue-mcq-12",
-        "queue-mcq-09",
-        "queue-mcq-13",
-        "queue-mcq-08"
+        "queue-mcq-18",
+        "queue-mcq-21",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「print queue」指「等候列印的文件佇列」。",
       "sentenceIndex": 22,
@@ -1143,12 +1027,10 @@ export default {
         "print queue"
       ],
       "optionReasons": {
-        "queue-mcq-11": "本句指「等候列印的文件佇列」。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。"
+        "queue-mcq-11": "本句的「print queue」指「等候列印的文件佇列」。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-11"
     },
@@ -1160,11 +1042,8 @@ export default {
       "masked": "I cleared the ____ and tried again.",
       "options": [
         "queue-mcq-11",
-        "queue-mcq-10",
-        "queue-mcq-12",
-        "queue-mcq-09",
-        "queue-mcq-13",
-        "queue-mcq-08"
+        "queue-mcq-20",
+        "queue-mcq-21"
       ],
       "explanation": "本句的「print queue」指「等候列印的文件佇列」。",
       "sentenceIndex": 23,
@@ -1173,12 +1052,9 @@ export default {
         "print queue"
       ],
       "optionReasons": {
-        "queue-mcq-11": "本句指「等候列印的文件佇列」。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-08": "「等候被處理的工作、請求、訊息等序列」與本句語境不同。"
+        "queue-mcq-11": "本句的「print queue」指「等候列印的文件佇列」。",
+        "queue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-11"
     },
@@ -1190,11 +1066,8 @@ export default {
       "masked": "The application sends events through a ____.",
       "options": [
         "queue-mcq-12",
-        "queue-mcq-11",
-        "queue-mcq-13",
-        "queue-mcq-10",
-        "queue-mcq-14",
-        "queue-mcq-09"
+        "queue-mcq-19",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「message queue」指「等候傳送或處理的訊息佇列」。",
       "sentenceIndex": 24,
@@ -1203,12 +1076,9 @@ export default {
         "message queue"
       ],
       "optionReasons": {
-        "queue-mcq-12": "本句指「等候傳送或處理的訊息佇列」。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。"
+        "queue-mcq-12": "本句的「message queue」指「等候傳送或處理的訊息佇列」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-12"
     },
@@ -1220,11 +1090,7 @@ export default {
       "masked": "Messages remain in the ____ until they are processed.",
       "options": [
         "queue-mcq-12",
-        "queue-mcq-11",
-        "queue-mcq-13",
-        "queue-mcq-10",
-        "queue-mcq-14",
-        "queue-mcq-09"
+        "queue-mcq-20"
       ],
       "explanation": "本句的「queue」指「等候傳送或處理的訊息佇列」。",
       "sentenceIndex": 25,
@@ -1233,12 +1099,8 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-12": "本句指「等候傳送或處理的訊息佇列」。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-09": "「按特定次序儲存和處理項目的佇列」與本句語境不同。"
+        "queue-mcq-12": "本句的「queue」指「等候傳送或處理的訊息佇列」。",
+        "queue-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-12"
     },
@@ -1250,11 +1112,8 @@ export default {
       "masked": "Urgent tasks go into a ____.",
       "options": [
         "queue-mcq-13",
-        "queue-mcq-12",
-        "queue-mcq-14",
-        "queue-mcq-11",
-        "queue-mcq-15",
-        "queue-mcq-10"
+        "queue-mcq-05",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「priority queue」指「按優先級決定處理次序的優先佇列」。",
       "sentenceIndex": 26,
@@ -1263,12 +1122,9 @@ export default {
         "priority queue"
       ],
       "optionReasons": {
-        "queue-mcq-13": "本句指「按優先級決定處理次序的優先佇列」。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。"
+        "queue-mcq-13": "本句的「priority queue」指「按優先級決定處理次序的優先佇列」。",
+        "queue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-13"
     },
@@ -1280,11 +1136,8 @@ export default {
       "masked": "A ____ may process high-priority items first.",
       "options": [
         "queue-mcq-13",
-        "queue-mcq-12",
-        "queue-mcq-14",
-        "queue-mcq-11",
-        "queue-mcq-15",
-        "queue-mcq-10"
+        "queue-mcq-05",
+        "queue-mcq-18"
       ],
       "explanation": "本句的「priority queue」指「按優先級決定處理次序的優先佇列」。",
       "sentenceIndex": 27,
@@ -1293,12 +1146,9 @@ export default {
         "priority queue"
       ],
       "optionReasons": {
-        "queue-mcq-13": "本句指「按優先級決定處理次序的優先佇列」。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-10": "「等候系統處理的工作／任務佇列」與本句語境不同。"
+        "queue-mcq-13": "本句的「priority queue」指「按優先級決定處理次序的優先佇列」。",
+        "queue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-13"
     },
@@ -1310,11 +1160,9 @@ export default {
       "masked": "Your call has been placed in a ____.",
       "options": [
         "queue-mcq-14",
+        "queue-mcq-18",
         "queue-mcq-13",
-        "queue-mcq-15",
-        "queue-mcq-12",
-        "queue-mcq-16",
-        "queue-mcq-11"
+        "queue-mcq-15"
       ],
       "explanation": "本句的「queue」指「等候客服人員接聽的來電隊列」。",
       "sentenceIndex": 28,
@@ -1323,12 +1171,10 @@ export default {
         "queue"
       ],
       "optionReasons": {
-        "queue-mcq-14": "本句指「等候客服人員接聽的來電隊列」。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。"
+        "queue-mcq-14": "本句的「queue」指「等候客服人員接聽的來電隊列」。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-14"
     },
@@ -1340,11 +1186,9 @@ export default {
       "masked": "There are ten callers ahead of you in the ____.",
       "options": [
         "queue-mcq-14",
-        "queue-mcq-13",
+        "queue-mcq-19",
         "queue-mcq-15",
-        "queue-mcq-12",
-        "queue-mcq-16",
-        "queue-mcq-11"
+        "queue-mcq-07"
       ],
       "explanation": "本句的「call queue」指「等候客服人員接聽的來電隊列」。",
       "sentenceIndex": 29,
@@ -1353,12 +1197,10 @@ export default {
         "call queue"
       ],
       "optionReasons": {
-        "queue-mcq-14": "本句指「等候客服人員接聽的來電隊列」。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-11": "「等候列印的文件佇列」與本句語境不同。"
+        "queue-mcq-14": "本句的「call queue」指「等候客服人員接聽的來電隊列」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-14"
     },
@@ -1370,11 +1212,9 @@ export default {
       "masked": "The theme park uses a ____ for popular rides.",
       "options": [
         "queue-mcq-15",
-        "queue-mcq-14",
-        "queue-mcq-16",
         "queue-mcq-13",
-        "queue-mcq-17",
-        "queue-mcq-12"
+        "queue-mcq-18",
+        "queue-mcq-14"
       ],
       "explanation": "本句的「virtual queue」指「不必實際站著排隊的虛擬輪候系統」。",
       "sentenceIndex": 30,
@@ -1383,12 +1223,10 @@ export default {
         "virtual queue"
       ],
       "optionReasons": {
-        "queue-mcq-15": "本句指「不必實際站著排隊的虛擬輪候系統」。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。"
+        "queue-mcq-15": "本句的「virtual queue」指「不必實際站著排隊的虛擬輪候系統」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-15"
     },
@@ -1400,11 +1238,9 @@ export default {
       "masked": "We joined the ____ through the app.",
       "options": [
         "queue-mcq-15",
-        "queue-mcq-14",
-        "queue-mcq-16",
         "queue-mcq-13",
-        "queue-mcq-17",
-        "queue-mcq-12"
+        "queue-mcq-18",
+        "queue-mcq-14"
       ],
       "explanation": "本句的「virtual queue」指「不必實際站著排隊的虛擬輪候系統」。",
       "sentenceIndex": 31,
@@ -1413,12 +1249,10 @@ export default {
         "virtual queue"
       ],
       "optionReasons": {
-        "queue-mcq-15": "本句指「不必實際站著排隊的虛擬輪候系統」。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-12": "「等候傳送或處理的訊息佇列」與本句語境不同。"
+        "queue-mcq-15": "本句的「virtual queue」指「不必實際站著排隊的虛擬輪候系統」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-15"
     },
@@ -1430,11 +1264,8 @@ export default {
       "masked": "We ____ for the ride.",
       "options": [
         "queue-mcq-16",
-        "queue-mcq-15",
-        "queue-mcq-17",
-        "queue-mcq-14",
-        "queue-mcq-18",
-        "queue-mcq-13"
+        "queue-mcq-13",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「joined the queue」指「加入等候隊伍／排到隊尾」。",
       "sentenceIndex": 32,
@@ -1443,12 +1274,9 @@ export default {
         "joined the queue"
       ],
       "optionReasons": {
-        "queue-mcq-16": "本句指「加入等候隊伍／排到隊尾」。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。"
+        "queue-mcq-16": "本句的「joined the queue」指「加入等候隊伍／排到隊尾」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-16"
     },
@@ -1460,11 +1288,8 @@ export default {
       "masked": "Please ____ at the back.",
       "options": [
         "queue-mcq-16",
-        "queue-mcq-15",
-        "queue-mcq-17",
-        "queue-mcq-14",
-        "queue-mcq-18",
-        "queue-mcq-13"
+        "queue-mcq-13",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「join the queue」指「加入等候隊伍／排到隊尾」。",
       "sentenceIndex": 33,
@@ -1473,12 +1298,9 @@ export default {
         "join the queue"
       ],
       "optionReasons": {
-        "queue-mcq-16": "本句指「加入等候隊伍／排到隊尾」。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。"
+        "queue-mcq-16": "本句的「join the queue」指「加入等候隊伍／排到隊尾」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-16"
     },
@@ -1490,11 +1312,8 @@ export default {
       "masked": "We ____ for forty minutes.",
       "options": [
         "queue-mcq-16",
-        "queue-mcq-15",
-        "queue-mcq-17",
-        "queue-mcq-14",
-        "queue-mcq-18",
-        "queue-mcq-13"
+        "queue-mcq-13",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「stood in the queue」指「加入等候隊伍／排到隊尾」。",
       "sentenceIndex": 34,
@@ -1503,12 +1322,9 @@ export default {
         "stood in the queue"
       ],
       "optionReasons": {
-        "queue-mcq-16": "本句指「加入等候隊伍／排到隊尾」。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。"
+        "queue-mcq-16": "本句的「stood in the queue」指「加入等候隊伍／排到隊尾」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-16"
     },
@@ -1520,11 +1336,8 @@ export default {
       "masked": "Nobody enjoys ____.",
       "options": [
         "queue-mcq-16",
-        "queue-mcq-15",
-        "queue-mcq-17",
-        "queue-mcq-14",
-        "queue-mcq-18",
-        "queue-mcq-13"
+        "queue-mcq-13",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「waiting in a queue」指「加入等候隊伍／排到隊尾」。",
       "sentenceIndex": 35,
@@ -1533,12 +1346,9 @@ export default {
         "waiting in a queue"
       ],
       "optionReasons": {
-        "queue-mcq-16": "本句指「加入等候隊伍／排到隊尾」。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-13": "「按優先級決定處理次序的優先佇列」與本句語境不同。"
+        "queue-mcq-16": "本句的「waiting in a queue」指「加入等候隊伍／排到隊尾」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-16"
     },
@@ -1550,11 +1360,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "queue-mcq-17",
-        "queue-mcq-16",
-        "queue-mcq-18",
-        "queue-mcq-15",
-        "queue-mcq-19",
-        "queue-mcq-14"
+        "queue-mcq-07",
+        "queue-mcq-11",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「at the front of the queue」指「隊伍前面／輪候次序最前」。",
       "sentenceIndex": 36,
@@ -1563,12 +1371,10 @@ export default {
         "at the front of the queue"
       ],
       "optionReasons": {
-        "queue-mcq-17": "本句指「隊伍前面／輪候次序最前」。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。"
+        "queue-mcq-17": "本句的「at the front of the queue」指「隊伍前面／輪候次序最前」。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-17"
     },
@@ -1580,11 +1386,9 @@ export default {
       "masked": "We arrived early and ended up near ____.",
       "options": [
         "queue-mcq-17",
-        "queue-mcq-16",
-        "queue-mcq-18",
-        "queue-mcq-15",
-        "queue-mcq-19",
-        "queue-mcq-14"
+        "queue-mcq-07",
+        "queue-mcq-11",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「the front of the queue」指「隊伍前面／輪候次序最前」。",
       "sentenceIndex": 37,
@@ -1593,12 +1397,10 @@ export default {
         "the front of the queue"
       ],
       "optionReasons": {
-        "queue-mcq-17": "本句指「隊伍前面／輪候次序最前」。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-14": "「等候客服人員接聽的來電隊列」與本句語境不同。"
+        "queue-mcq-17": "本句的「the front of the queue」指「隊伍前面／輪候次序最前」。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-17"
     },
@@ -1610,11 +1412,9 @@ export default {
       "masked": "He went to ____.",
       "options": [
         "queue-mcq-18",
-        "queue-mcq-17",
-        "queue-mcq-19",
-        "queue-mcq-16",
-        "queue-mcq-20",
-        "queue-mcq-15"
+        "queue-mcq-21",
+        "queue-mcq-11",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「the back of the queue」指「隊伍後面／隊尾」。",
       "sentenceIndex": 38,
@@ -1623,12 +1423,10 @@ export default {
         "the back of the queue"
       ],
       "optionReasons": {
-        "queue-mcq-18": "本句指「隊伍後面／隊尾」。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。"
+        "queue-mcq-18": "本句的「the back of the queue」指「隊伍後面／隊尾」。",
+        "queue-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-18"
     },
@@ -1640,11 +1438,9 @@ export default {
       "masked": "New arrivals must join ____.",
       "options": [
         "queue-mcq-18",
-        "queue-mcq-17",
-        "queue-mcq-19",
-        "queue-mcq-16",
-        "queue-mcq-20",
-        "queue-mcq-15"
+        "queue-mcq-11",
+        "queue-mcq-07",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「the back of the queue」指「隊伍後面／隊尾」。",
       "sentenceIndex": 39,
@@ -1653,12 +1449,10 @@ export default {
         "the back of the queue"
       ],
       "optionReasons": {
-        "queue-mcq-18": "本句指「隊伍後面／隊尾」。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-15": "「不必實際站著排隊的虛擬輪候系統」與本句語境不同。"
+        "queue-mcq-18": "本句的「the back of the queue」指「隊伍後面／隊尾」。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-18"
     },
@@ -1670,11 +1464,8 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "queue-mcq-19",
-        "queue-mcq-18",
-        "queue-mcq-20",
-        "queue-mcq-17",
-        "queue-mcq-21",
-        "queue-mcq-16"
+        "queue-mcq-10",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「jump the queue」指「不按先後次序而插隊／打尖」。",
       "sentenceIndex": 40,
@@ -1683,12 +1474,9 @@ export default {
         "jump the queue"
       ],
       "optionReasons": {
-        "queue-mcq-19": "本句指「不按先後次序而插隊／打尖」。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。"
+        "queue-mcq-19": "本句的「jump the queue」指「不按先後次序而插隊／打尖」。",
+        "queue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-19"
     },
@@ -1700,11 +1488,8 @@ export default {
       "masked": "People became angry when he tried to ____.",
       "options": [
         "queue-mcq-19",
-        "queue-mcq-18",
-        "queue-mcq-20",
-        "queue-mcq-17",
-        "queue-mcq-21",
-        "queue-mcq-16"
+        "queue-mcq-10",
+        "queue-mcq-02"
       ],
       "explanation": "本句的「jump the queue」指「不按先後次序而插隊／打尖」。",
       "sentenceIndex": 41,
@@ -1713,12 +1498,9 @@ export default {
         "jump the queue"
       ],
       "optionReasons": {
-        "queue-mcq-19": "本句指「不按先後次序而插隊／打尖」。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-16": "「加入等候隊伍／排到隊尾」與本句語境不同。"
+        "queue-mcq-19": "本句的「jump the queue」指「不按先後次序而插隊／打尖」。",
+        "queue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-19"
     },
@@ -1730,11 +1512,7 @@ export default {
       "masked": "____ is not allowed.",
       "options": [
         "queue-mcq-20",
-        "queue-mcq-19",
-        "queue-mcq-21",
-        "queue-mcq-18",
-        "queue-mcq-22",
-        "queue-mcq-17"
+        "queue-mcq-12"
       ],
       "explanation": "本句的「Queue-jumping」指「插隊行為」。",
       "sentenceIndex": 42,
@@ -1743,12 +1521,8 @@ export default {
         "Queue-jumping"
       ],
       "optionReasons": {
-        "queue-mcq-20": "本句指「插隊行為」。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-22": "「已加入隊伍／等候序列，等待處理的」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。"
+        "queue-mcq-20": "本句的「Queue-jumping」指「插隊行為」。",
+        "queue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-20"
     },
@@ -1760,11 +1534,7 @@ export default {
       "masked": "The argument started over ____.",
       "options": [
         "queue-mcq-20",
-        "queue-mcq-19",
-        "queue-mcq-21",
-        "queue-mcq-18",
-        "queue-mcq-22",
-        "queue-mcq-17"
+        "queue-mcq-13"
       ],
       "explanation": "本句的「queue-jumping」指「插隊行為」。",
       "sentenceIndex": 43,
@@ -1773,12 +1543,8 @@ export default {
         "queue-jumping"
       ],
       "optionReasons": {
-        "queue-mcq-20": "本句指「插隊行為」。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。",
-        "queue-mcq-22": "「已加入隊伍／等候序列，等待處理的」與本句語境不同。",
-        "queue-mcq-17": "「隊伍前面／輪候次序最前」與本句語境不同。"
+        "queue-mcq-20": "本句的「queue-jumping」指「插隊行為」。",
+        "queue-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-20"
     },
@@ -1791,10 +1557,7 @@ export default {
       "options": [
         "queue-mcq-21",
         "queue-mcq-20",
-        "queue-mcq-22",
-        "queue-mcq-19",
-        "queue-mcq-23",
-        "queue-mcq-18"
+        "queue-mcq-11"
       ],
       "explanation": "本句的「in the queue for approval」指「正按次序輪候某機會、服務或處理」。",
       "sentenceIndex": 44,
@@ -1803,12 +1566,9 @@ export default {
         "in the queue for approval"
       ],
       "optionReasons": {
-        "queue-mcq-21": "本句指「正按次序輪候某機會、服務或處理」。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-22": "「已加入隊伍／等候序列，等待處理的」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-23": "「排隊、輪候或使用佇列處理的行為／過程」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。"
+        "queue-mcq-21": "本句的「in the queue for approval」指「正按次序輪候某機會、服務或處理」。",
+        "queue-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-21"
     },
@@ -1820,11 +1580,9 @@ export default {
       "masked": "Her request is next ____.",
       "options": [
         "queue-mcq-21",
-        "queue-mcq-20",
-        "queue-mcq-22",
-        "queue-mcq-19",
-        "queue-mcq-23",
-        "queue-mcq-18"
+        "queue-mcq-02",
+        "queue-mcq-18",
+        "queue-mcq-11"
       ],
       "explanation": "本句的「in the queue」指「正按次序輪候某機會、服務或處理」。",
       "sentenceIndex": 45,
@@ -1833,12 +1591,10 @@ export default {
         "in the queue"
       ],
       "optionReasons": {
-        "queue-mcq-21": "本句指「正按次序輪候某機會、服務或處理」。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-22": "「已加入隊伍／等候序列，等待處理的」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-23": "「排隊、輪候或使用佇列處理的行為／過程」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。"
+        "queue-mcq-21": "本句的「in the queue」指「正按次序輪候某機會、服務或處理」。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-21"
     },
@@ -1850,11 +1606,8 @@ export default {
       "masked": "The download is ____.",
       "options": [
         "queue-mcq-22",
-        "queue-mcq-21",
-        "queue-mcq-23",
-        "queue-mcq-20",
         "queue-mcq-19",
-        "queue-mcq-18"
+        "queue-mcq-15"
       ],
       "explanation": "本句的「queued」指「已加入隊伍／等候序列，等待處理的」。",
       "sentenceIndex": 46,
@@ -1863,12 +1616,9 @@ export default {
         "queued"
       ],
       "optionReasons": {
-        "queue-mcq-22": "本句指「已加入隊伍／等候序列，等待處理的」。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-23": "「排隊、輪候或使用佇列處理的行為／過程」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。"
+        "queue-mcq-22": "本句的「queued」指「已加入隊伍／等候序列，等待處理的」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-22"
     },
@@ -1880,11 +1630,8 @@ export default {
       "masked": "Three tasks are ____ for processing.",
       "options": [
         "queue-mcq-22",
-        "queue-mcq-21",
-        "queue-mcq-23",
-        "queue-mcq-20",
         "queue-mcq-19",
-        "queue-mcq-18"
+        "queue-mcq-02"
       ],
       "explanation": "本句的「queued」指「已加入隊伍／等候序列，等待處理的」。",
       "sentenceIndex": 47,
@@ -1893,12 +1640,9 @@ export default {
         "queued"
       ],
       "optionReasons": {
-        "queue-mcq-22": "本句指「已加入隊伍／等候序列，等待處理的」。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-23": "「排隊、輪候或使用佇列處理的行為／過程」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。"
+        "queue-mcq-22": "本句的「queued」指「已加入隊伍／等候序列，等待處理的」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-22"
     },
@@ -1910,11 +1654,8 @@ export default {
       "masked": "We spent an hour ____.",
       "options": [
         "queue-mcq-23",
-        "queue-mcq-22",
-        "queue-mcq-21",
-        "queue-mcq-20",
-        "queue-mcq-19",
-        "queue-mcq-18"
+        "queue-mcq-18",
+        "queue-mcq-14"
       ],
       "explanation": "本句的「queuing」指「排隊、輪候或使用佇列處理的行為／過程」。",
       "sentenceIndex": 48,
@@ -1923,12 +1664,9 @@ export default {
         "queuing"
       ],
       "optionReasons": {
-        "queue-mcq-23": "本句指「排隊、輪候或使用佇列處理的行為／過程」。",
-        "queue-mcq-22": "「已加入隊伍／等候序列，等待處理的」與本句語境不同。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。"
+        "queue-mcq-23": "本句的「queuing」指「排隊、輪候或使用佇列處理的行為／過程」。",
+        "queue-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-23"
     },
@@ -1940,11 +1678,8 @@ export default {
       "masked": "The system uses ____ to manage requests.",
       "options": [
         "queue-mcq-23",
-        "queue-mcq-22",
-        "queue-mcq-21",
-        "queue-mcq-20",
         "queue-mcq-19",
-        "queue-mcq-18"
+        "queue-mcq-14"
       ],
       "explanation": "本句的「queueing」指「排隊、輪候或使用佇列處理的行為／過程」。",
       "sentenceIndex": 49,
@@ -1953,12 +1688,9 @@ export default {
         "queueing"
       ],
       "optionReasons": {
-        "queue-mcq-23": "本句指「排隊、輪候或使用佇列處理的行為／過程」。",
-        "queue-mcq-22": "「已加入隊伍／等候序列，等待處理的」與本句語境不同。",
-        "queue-mcq-21": "「正按次序輪候某機會、服務或處理」與本句語境不同。",
-        "queue-mcq-20": "「插隊行為」與本句語境不同。",
-        "queue-mcq-19": "「不按先後次序而插隊／打尖」與本句語境不同。",
-        "queue-mcq-18": "「隊伍後面／隊尾」與本句語境不同。"
+        "queue-mcq-23": "本句的「queueing」指「排隊、輪候或使用佇列處理的行為／過程」。",
+        "queue-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "queue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "queue-mcq-23"
     }
@@ -1970,5 +1702,7 @@ export default {
     "sha256": "916253f8bff74318ae25f1d449a0a20fb92d441c6071cce2290fe67ae44315ee",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -752,11 +752,9 @@ export default {
       "masked": "She always ____.",
       "options": [
         "help-mcq-01",
-        "help-mcq-02",
-        "help-mcq-03",
-        "help-mcq-04",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-11",
+        "help-mcq-09",
+        "help-mcq-27"
       ],
       "explanation": "本句的「helps her family」指「為某人提供協助，使事情更容易完成／改善」。",
       "sentenceIndex": 0,
@@ -765,12 +763,10 @@ export default {
         "helps her family"
       ],
       "optionReasons": {
-        "help-mcq-01": "本句指「為某人提供協助，使事情更容易完成／改善」。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-01": "本句的「helps her family」指「為某人提供協助，使事情更容易完成／改善」。",
+        "help-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-01"
     },
@@ -782,11 +778,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "help-mcq-01",
-        "help-mcq-02",
-        "help-mcq-03",
-        "help-mcq-04",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-14",
+        "help-mcq-27",
+        "help-mcq-09"
       ],
       "explanation": "本句的「help me」指「為某人提供協助，使事情更容易完成／改善」。",
       "sentenceIndex": 1,
@@ -795,12 +789,10 @@ export default {
         "help me"
       ],
       "optionReasons": {
-        "help-mcq-01": "本句指「為某人提供協助，使事情更容易完成／改善」。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-01": "本句的「help me」指「為某人提供協助，使事情更容易完成／改善」。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-01"
     },
@@ -812,11 +804,9 @@ export default {
       "masked": "She ____ the bags.",
       "options": [
         "help-mcq-02",
-        "help-mcq-01",
-        "help-mcq-03",
-        "help-mcq-04",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-24",
+        "help-mcq-27",
+        "help-mcq-12"
       ],
       "explanation": "本句的「helped me carry」指「協助某人完成某項行動或達成結果」。",
       "sentenceIndex": 2,
@@ -825,12 +815,10 @@ export default {
         "helped me carry"
       ],
       "optionReasons": {
-        "help-mcq-02": "本句指「協助某人完成某項行動或達成結果」。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-02": "本句的「helped me carry」指「協助某人完成某項行動或達成結果」。",
+        "help-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-02"
     },
@@ -842,11 +830,9 @@ export default {
       "masked": "This book will ____ the topic.",
       "options": [
         "help-mcq-02",
-        "help-mcq-01",
-        "help-mcq-03",
-        "help-mcq-04",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-24",
+        "help-mcq-27",
+        "help-mcq-12"
       ],
       "explanation": "本句的「help you understand」指「協助某人完成某項行動或達成結果」。",
       "sentenceIndex": 3,
@@ -855,12 +841,10 @@ export default {
         "help you understand"
       ],
       "optionReasons": {
-        "help-mcq-02": "本句指「協助某人完成某項行動或達成結果」。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-02": "本句的「help you understand」指「協助某人完成某項行動或達成結果」。",
+        "help-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-02"
     },
@@ -872,11 +856,9 @@ export default {
       "masked": "She ____ for the interview.",
       "options": [
         "help-mcq-02",
-        "help-mcq-01",
-        "help-mcq-03",
-        "help-mcq-04",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-13",
+        "help-mcq-27",
+        "help-mcq-09"
       ],
       "explanation": "本句的「helped me to prepare」指「協助某人完成某項行動或達成結果」。",
       "sentenceIndex": 4,
@@ -885,12 +867,10 @@ export default {
         "helped me to prepare"
       ],
       "optionReasons": {
-        "help-mcq-02": "本句指「協助某人完成某項行動或達成結果」。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-02": "本句的「helped me to prepare」指「協助某人完成某項行動或達成結果」。",
+        "help-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-02"
     },
@@ -902,11 +882,9 @@ export default {
       "masked": "Exercise can ____ you to sleep better.",
       "options": [
         "help-mcq-02",
-        "help-mcq-01",
-        "help-mcq-03",
-        "help-mcq-04",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-21",
+        "help-mcq-27",
+        "help-mcq-12"
       ],
       "explanation": "本句的「help」指「協助某人完成某項行動或達成結果」。",
       "sentenceIndex": 5,
@@ -915,12 +893,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-02": "本句指「協助某人完成某項行動或達成結果」。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-02": "本句的「help」指「協助某人完成某項行動或達成結果」。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-02"
     },
@@ -932,11 +908,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "help-mcq-03",
-        "help-mcq-02",
-        "help-mcq-04",
-        "help-mcq-01",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-10",
+        "help-mcq-12",
+        "help-mcq-04"
       ],
       "explanation": "本句的「help with the cooking」指「協助處理某項工作、問題或活動」。",
       "sentenceIndex": 6,
@@ -945,12 +919,10 @@ export default {
         "help with the cooking"
       ],
       "optionReasons": {
-        "help-mcq-03": "本句指「協助處理某項工作、問題或活動」。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-03": "本句的「help with the cooking」指「協助處理某項工作、問題或活動」。",
+        "help-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-03"
     },
@@ -962,11 +934,9 @@ export default {
       "masked": "She ____ me with my homework.",
       "options": [
         "help-mcq-03",
-        "help-mcq-02",
+        "help-mcq-09",
         "help-mcq-04",
-        "help-mcq-01",
-        "help-mcq-05",
-        "help-mcq-06"
+        "help-mcq-13"
       ],
       "explanation": "本句的「helped」指「協助處理某項工作、問題或活動」。",
       "sentenceIndex": 7,
@@ -975,12 +945,10 @@ export default {
         "helped"
       ],
       "optionReasons": {
-        "help-mcq-03": "本句指「協助處理某項工作、問題或活動」。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-03": "本句的「helped」指「協助處理某項工作、問題或活動」。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-03"
     },
@@ -992,11 +960,9 @@ export default {
       "masked": "Regular exercise ____.",
       "options": [
         "help-mcq-25",
-        "help-mcq-24",
-        "help-mcq-26",
-        "help-mcq-23",
-        "help-mcq-27",
-        "help-mcq-22"
+        "help-mcq-18",
+        "help-mcq-12",
+        "help-mcq-27"
       ],
       "explanation": "本句的「helps reduce stress」指「令某個結果更容易發生／令情況改善」。",
       "sentenceIndex": 8,
@@ -1005,12 +971,10 @@ export default {
         "helps reduce stress"
       ],
       "optionReasons": {
-        "help-mcq-25": "本句指「令某個結果更容易發生／令情況改善」。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-27": "「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」是「22. the help（傭工／受僱幫工；需注意語氣） — 家傭／幫工」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。"
+        "help-mcq-25": "本句的「helps reduce stress」指「令某個結果更容易發生／令情況改善」。",
+        "help-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-25"
     },
@@ -1022,11 +986,9 @@ export default {
       "masked": "Good communication can ____ prevent problems.",
       "options": [
         "help-mcq-25",
-        "help-mcq-24",
-        "help-mcq-26",
-        "help-mcq-23",
-        "help-mcq-27",
-        "help-mcq-22"
+        "help-pdf-003",
+        "help-mcq-13",
+        "help-mcq-09"
       ],
       "explanation": "本句的「help」指「令某個結果更容易發生／令情況改善」。",
       "sentenceIndex": 9,
@@ -1035,12 +997,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-25": "本句指「令某個結果更容易發生／令情況改善」。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-27": "「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」是「22. the help（傭工／受僱幫工；需注意語氣） — 家傭／幫工」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。"
+        "help-mcq-25": "本句的「help」指「令某個結果更容易發生／令情況改善」。",
+        "help-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-25"
     },
@@ -1052,11 +1012,9 @@ export default {
       "masked": "Her advice ____ a better decision.",
       "options": [
         "help-mcq-04",
+        "help-pdf-002",
         "help-mcq-03",
-        "help-mcq-05",
-        "help-mcq-02",
-        "help-mcq-06",
-        "help-mcq-01"
+        "help-mcq-09"
       ],
       "explanation": "本句的「helped me make」指「對某結果的出現提供正面作用／促進作用」。",
       "sentenceIndex": 10,
@@ -1065,12 +1023,10 @@ export default {
         "helped me make"
       ],
       "optionReasons": {
-        "help-mcq-04": "本句指「對某結果的出現提供正面作用／促進作用」。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。"
+        "help-mcq-04": "本句的「helped me make」指「對某結果的出現提供正面作用／促進作用」。",
+        "help-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-04"
     },
@@ -1082,11 +1038,9 @@ export default {
       "masked": "The new system ____ improve efficiency.",
       "options": [
         "help-mcq-04",
-        "help-mcq-03",
-        "help-mcq-05",
-        "help-mcq-02",
-        "help-mcq-06",
-        "help-mcq-01"
+        "help-pdf-004",
+        "help-mcq-23",
+        "help-mcq-17"
       ],
       "explanation": "本句的「helped」指「對某結果的出現提供正面作用／促進作用」。",
       "sentenceIndex": 11,
@@ -1095,12 +1049,10 @@ export default {
         "helped"
       ],
       "optionReasons": {
-        "help-mcq-04": "本句指「對某結果的出現提供正面作用／促進作用」。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-01": "「為某人提供協助，使事情更容易完成／改善」是「help someone」的用法，與本句語境不同。"
+        "help-mcq-04": "本句的「helped」指「對某結果的出現提供正面作用／促進作用」。",
+        "help-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-04"
     },
@@ -1112,11 +1064,9 @@ export default {
       "masked": "Several people stopped to ____ after the accident.",
       "options": [
         "help-pdf-001",
-        "help-mcq-04",
-        "help-mcq-06",
-        "help-mcq-03",
-        "help-mcq-07",
-        "help-mcq-02"
+        "help-mcq-21",
+        "help-mcq-14",
+        "help-mcq-24"
       ],
       "explanation": "本句的「help」指「在危急、困難或需要支援時提供援助」。",
       "sentenceIndex": 12,
@@ -1125,12 +1075,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-pdf-001": "本句指「在危急、困難或需要支援時提供援助」。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。"
+        "help-pdf-001": "本句的「help」指「在危急、困難或需要支援時提供援助」。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-001"
     },
@@ -1142,11 +1090,9 @@ export default {
       "masked": "Call for ____!",
       "options": [
         "help-pdf-001",
-        "help-mcq-04",
-        "help-mcq-06",
-        "help-mcq-03",
-        "help-mcq-07",
-        "help-mcq-02"
+        "help-mcq-14",
+        "help-mcq-17",
+        "help-mcq-10"
       ],
       "explanation": "本句的「help」指「在危急、困難或需要支援時提供援助」。",
       "sentenceIndex": 13,
@@ -1155,12 +1101,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-pdf-001": "本句指「在危急、困難或需要支援時提供援助」。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。"
+        "help-pdf-001": "本句的「help」指「在危急、困難或需要支援時提供援助」。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-001"
     },
@@ -1172,11 +1116,9 @@ export default {
       "masked": "Thank you for your ____.",
       "options": [
         "help-mcq-05",
+        "help-pdf-004",
         "help-mcq-04",
-        "help-mcq-06",
-        "help-mcq-03",
-        "help-mcq-07",
-        "help-mcq-02"
+        "help-mcq-27"
       ],
       "explanation": "本句的「help」指「使某人更容易完成事情／解決問題的協助」。",
       "sentenceIndex": 14,
@@ -1185,12 +1127,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-05": "本句指「使某人更容易完成事情／解決問題的協助」。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。"
+        "help-mcq-05": "本句的「help」指「使某人更容易完成事情／解決問題的協助」。",
+        "help-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-05"
     },
@@ -1202,11 +1142,9 @@ export default {
       "masked": "I need some ____.",
       "options": [
         "help-mcq-05",
-        "help-mcq-04",
-        "help-mcq-06",
-        "help-mcq-03",
-        "help-mcq-07",
-        "help-mcq-02"
+        "help-mcq-12",
+        "help-mcq-27",
+        "help-mcq-19"
       ],
       "explanation": "本句的「help」指「使某人更容易完成事情／解決問題的協助」。",
       "sentenceIndex": 15,
@@ -1215,12 +1153,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-05": "本句指「使某人更容易完成事情／解決問題的協助」。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-02": "「協助某人完成某項行動或達成結果」是「help someone do/to do」的用法，與本句語境不同。"
+        "help-mcq-05": "本句的「help」指「使某人更容易完成事情／解決問題的協助」。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-05"
     },
@@ -1232,11 +1168,9 @@ export default {
       "masked": "Don’t be afraid to ____.",
       "options": [
         "help-mcq-06",
-        "help-mcq-05",
-        "help-mcq-07",
-        "help-mcq-04",
-        "help-mcq-08",
-        "help-mcq-03"
+        "help-mcq-21",
+        "help-mcq-27",
+        "help-mcq-24"
       ],
       "explanation": "本句的「ask for help」指「主動請求別人提供協助」。",
       "sentenceIndex": 16,
@@ -1245,12 +1179,10 @@ export default {
         "ask for help"
       ],
       "optionReasons": {
-        "help-mcq-06": "本句指「主動請求別人提供協助」。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。"
+        "help-mcq-06": "本句的「ask for help」指「主動請求別人提供協助」。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-06"
     },
@@ -1262,11 +1194,9 @@ export default {
       "masked": "She asked her colleague for ____.",
       "options": [
         "help-mcq-06",
-        "help-mcq-05",
-        "help-mcq-07",
-        "help-mcq-04",
-        "help-mcq-08",
-        "help-mcq-03"
+        "help-mcq-17",
+        "help-mcq-10",
+        "help-mcq-12"
       ],
       "explanation": "本句的「help」指「主動請求別人提供協助」。",
       "sentenceIndex": 17,
@@ -1275,12 +1205,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-06": "本句指「主動請求別人提供協助」。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-03": "「協助處理某項工作、問題或活動」是「help with X」的用法，與本句語境不同。"
+        "help-mcq-06": "本句的「help」指「主動請求別人提供協助」。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-06"
     },
@@ -1292,11 +1220,9 @@ export default {
       "masked": "I ____ with this.",
       "options": [
         "help-mcq-26",
-        "help-mcq-25",
-        "help-mcq-27",
-        "help-mcq-24",
-        "help-mcq-23",
-        "help-mcq-22"
+        "help-mcq-12",
+        "help-mcq-04",
+        "help-mcq-09"
       ],
       "explanation": "本句的「need help」指「自己無法完全處理，需要他人／專業支援」。",
       "sentenceIndex": 18,
@@ -1305,12 +1231,10 @@ export default {
         "need help"
       ],
       "optionReasons": {
-        "help-mcq-26": "本句指「自己無法完全處理，需要他人／專業支援」。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-27": "「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」是「22. the help（傭工／受僱幫工；需注意語氣） — 家傭／幫工」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。"
+        "help-mcq-26": "本句的「need help」指「自己無法完全處理，需要他人／專業支援」。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-26"
     },
@@ -1322,11 +1246,9 @@ export default {
       "masked": "He clearly needs professional ____.",
       "options": [
         "help-mcq-26",
+        "help-mcq-12",
         "help-mcq-25",
-        "help-mcq-27",
-        "help-mcq-24",
-        "help-mcq-23",
-        "help-mcq-22"
+        "help-mcq-09"
       ],
       "explanation": "本句的「help」指「自己無法完全處理，需要他人／專業支援」。",
       "sentenceIndex": 19,
@@ -1335,12 +1257,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-26": "本句指「自己無法完全處理，需要他人／專業支援」。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-27": "「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」是「22. the help（傭工／受僱幫工；需注意語氣） — 家傭／幫工」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。"
+        "help-mcq-26": "本句的「help」指「自己無法完全處理，需要他人／專業支援」。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-26"
     },
@@ -1352,11 +1272,9 @@ export default {
       "masked": "I hope this information is ____.",
       "options": [
         "help-mcq-07",
-        "help-mcq-06",
-        "help-mcq-08",
-        "help-mcq-05",
-        "help-mcq-09",
-        "help-mcq-04"
+        "help-mcq-27",
+        "help-mcq-15",
+        "help-mcq-17"
       ],
       "explanation": "本句的「of help」指「對某人／某事有實際協助作用」。",
       "sentenceIndex": 20,
@@ -1365,12 +1283,10 @@ export default {
         "of help"
       ],
       "optionReasons": {
-        "help-mcq-07": "本句指「對某人／某事有實際協助作用」。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。"
+        "help-mcq-07": "本句的「of help」指「對某人／某事有實際協助作用」。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-07"
     },
@@ -1382,11 +1298,9 @@ export default {
       "masked": "Let me know if I can be of any ____.",
       "options": [
         "help-mcq-07",
-        "help-mcq-06",
-        "help-mcq-08",
-        "help-mcq-05",
-        "help-mcq-09",
-        "help-mcq-04"
+        "help-mcq-04",
+        "help-mcq-19",
+        "help-mcq-27"
       ],
       "explanation": "本句的「help」指「對某人／某事有實際協助作用」。",
       "sentenceIndex": 21,
@@ -1395,12 +1309,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-07": "本句指「對某人／某事有實際協助作用」。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-04": "「對某結果的出現提供正面作用／促進作用」是「help + result」的用法，與本句語境不同。"
+        "help-mcq-07": "本句的「help」指「對某人／某事有實際協助作用」。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-07"
     },
@@ -1412,11 +1324,9 @@ export default {
       "masked": "I finished the project ____ my team.",
       "options": [
         "help-mcq-08",
-        "help-mcq-07",
         "help-mcq-09",
-        "help-mcq-06",
-        "help-mcq-10",
-        "help-mcq-05"
+        "help-mcq-21",
+        "help-mcq-27"
       ],
       "explanation": "本句的「with the help of」指「因得到某人／某物協助而完成或改善某事」。",
       "sentenceIndex": 22,
@@ -1425,12 +1335,10 @@ export default {
         "with the help of"
       ],
       "optionReasons": {
-        "help-mcq-08": "本句指「因得到某人／某物協助而完成或改善某事」。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。"
+        "help-mcq-08": "本句的「with the help of」指「因得到某人／某物協助而完成或改善某事」。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-08"
     },
@@ -1442,11 +1350,9 @@ export default {
       "masked": "She recovered with the ____ of her family.",
       "options": [
         "help-mcq-08",
-        "help-mcq-07",
-        "help-mcq-09",
-        "help-mcq-06",
-        "help-mcq-10",
-        "help-mcq-05"
+        "help-mcq-13",
+        "help-mcq-27",
+        "help-mcq-09"
       ],
       "explanation": "本句的「help」指「因得到某人／某物協助而完成或改善某事」。",
       "sentenceIndex": 23,
@@ -1455,12 +1361,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-08": "本句指「因得到某人／某物協助而完成或改善某事」。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-05": "「使某人更容易完成事情／解決問題的協助」是「help — noun」的用法，與本句語境不同。"
+        "help-mcq-08": "本句的「help」指「因得到某人／某物協助而完成或改善某事」。",
+        "help-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-08"
     },
@@ -1472,11 +1376,9 @@ export default {
       "masked": "____ to some fruit.",
       "options": [
         "help-mcq-09",
-        "help-mcq-08",
-        "help-mcq-10",
-        "help-mcq-07",
-        "help-mcq-11",
-        "help-mcq-06"
+        "help-pdf-004",
+        "help-pdf-001",
+        "help-mcq-17"
       ],
       "explanation": "本句的「Help yourself」指「在獲准情況下自行拿取食物／飲品；請自便」。",
       "sentenceIndex": 24,
@@ -1485,12 +1387,10 @@ export default {
         "Help yourself"
       ],
       "optionReasons": {
-        "help-mcq-09": "本句指「在獲准情況下自行拿取食物／飲品；請自便」。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-09": "本句的「Help yourself」指「在獲准情況下自行拿取食物／飲品；請自便」。",
+        "help-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-09"
     },
@@ -1502,11 +1402,9 @@ export default {
       "masked": "Please ____ yourself to tea.",
       "options": [
         "help-mcq-09",
-        "help-mcq-08",
-        "help-mcq-10",
-        "help-mcq-07",
-        "help-mcq-11",
-        "help-mcq-06"
+        "help-pdf-002",
+        "help-mcq-22",
+        "help-mcq-17"
       ],
       "explanation": "本句的「help」指「在獲准情況下自行拿取食物／飲品；請自便」。",
       "sentenceIndex": 25,
@@ -1515,12 +1413,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-09": "本句指「在獲准情況下自行拿取食物／飲品；請自便」。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-09": "本句的「help」指「在獲准情況下自行拿取食物／飲品；請自便」。",
+        "help-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-09"
     },
@@ -1532,11 +1428,9 @@ export default {
       "masked": "There are snacks on the table—____.",
       "options": [
         "help-mcq-09",
-        "help-mcq-08",
-        "help-mcq-10",
-        "help-mcq-07",
-        "help-mcq-11",
-        "help-mcq-06"
+        "help-mcq-22",
+        "help-mcq-27",
+        "help-mcq-21"
       ],
       "explanation": "本句的「help yourself」指「在獲准情況下自行拿取食物／飲品；請自便」。",
       "sentenceIndex": 26,
@@ -1545,12 +1439,10 @@ export default {
         "help yourself"
       ],
       "optionReasons": {
-        "help-mcq-09": "本句指「在獲准情況下自行拿取食物／飲品；請自便」。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-09": "本句的「help yourself」指「在獲准情況下自行拿取食物／飲品；請自便」。",
+        "help-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-09"
     },
@@ -1562,11 +1454,9 @@ export default {
       "masked": "Guests were told to ____ themselves.",
       "options": [
         "help-mcq-09",
-        "help-mcq-08",
-        "help-mcq-10",
-        "help-mcq-07",
-        "help-mcq-11",
-        "help-mcq-06"
+        "help-mcq-04",
+        "help-pdf-003",
+        "help-pdf-004"
       ],
       "explanation": "本句的「help」指「在獲准情況下自行拿取食物／飲品；請自便」。",
       "sentenceIndex": 27,
@@ -1575,12 +1465,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-09": "本句指「在獲准情況下自行拿取食物／飲品；請自便」。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-06": "「主動請求別人提供協助」是「ask for help」的用法，與本句語境不同。"
+        "help-mcq-09": "本句的「help」指「在獲准情況下自行拿取食物／飲品；請自便」。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-09"
     },
@@ -1592,11 +1480,9 @@ export default {
       "masked": "He ____ my food without asking.",
       "options": [
         "help-mcq-10",
-        "help-mcq-09",
-        "help-mcq-11",
-        "help-mcq-08",
+        "help-mcq-03",
         "help-mcq-12",
-        "help-mcq-07"
+        "help-mcq-27"
       ],
       "explanation": "本句的「helped himself to」指「自行拿取 X；若沒有許可，可表示擅自取用」。",
       "sentenceIndex": 28,
@@ -1605,12 +1491,10 @@ export default {
         "helped himself to"
       ],
       "optionReasons": {
-        "help-mcq-10": "本句指「自行拿取 X；若沒有許可，可表示擅自取用」。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。"
+        "help-mcq-10": "本句的「helped himself to」指「自行拿取 X；若沒有許可，可表示擅自取用」。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-10"
     },
@@ -1622,11 +1506,9 @@ export default {
       "masked": "Someone ____ themselves to the money.",
       "options": [
         "help-mcq-10",
-        "help-mcq-09",
-        "help-mcq-11",
-        "help-mcq-08",
-        "help-mcq-12",
-        "help-mcq-07"
+        "help-mcq-14",
+        "help-mcq-27",
+        "help-pdf-001"
       ],
       "explanation": "本句的「helped」指「自行拿取 X；若沒有許可，可表示擅自取用」。",
       "sentenceIndex": 29,
@@ -1635,12 +1517,10 @@ export default {
         "helped"
       ],
       "optionReasons": {
-        "help-mcq-10": "本句指「自行拿取 X；若沒有許可，可表示擅自取用」。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-07": "「對某人／某事有實際協助作用」是「be of help」的用法，與本句語境不同。"
+        "help-mcq-10": "本句的「helped」指「自行拿取 X；若沒有許可，可表示擅自取用」。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-10"
     },
@@ -1652,11 +1532,9 @@ export default {
       "masked": "I ____ when I see her.",
       "options": [
         "help-mcq-11",
-        "help-mcq-10",
-        "help-mcq-12",
-        "help-mcq-09",
-        "help-mcq-13",
-        "help-mcq-08"
+        "help-mcq-22",
+        "help-mcq-17",
+        "help-mcq-27"
       ],
       "explanation": "本句的「can’t help smiling」指「無法阻止自己產生某種反應／行動；忍不住」。",
       "sentenceIndex": 30,
@@ -1665,12 +1543,10 @@ export default {
         "can’t help smiling"
       ],
       "optionReasons": {
-        "help-mcq-11": "本句指「無法阻止自己產生某種反應／行動；忍不住」。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。"
+        "help-mcq-11": "本句的「can’t help smiling」指「無法阻止自己產生某種反應／行動；忍不住」。",
+        "help-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-11"
     },
@@ -1682,11 +1558,9 @@ export default {
       "masked": "She couldn’t ____ laughing.",
       "options": [
         "help-mcq-11",
-        "help-mcq-10",
-        "help-mcq-12",
-        "help-mcq-09",
-        "help-mcq-13",
-        "help-mcq-08"
+        "help-mcq-18",
+        "help-mcq-27",
+        "help-mcq-23"
       ],
       "explanation": "本句的「help」指「無法阻止自己產生某種反應／行動；忍不住」。",
       "sentenceIndex": 31,
@@ -1695,12 +1569,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-11": "本句指「無法阻止自己產生某種反應／行動；忍不住」。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-08": "「因得到某人／某物協助而完成或改善某事」是「with the help of」的用法，與本句語境不同。"
+        "help-mcq-11": "本句的「help」指「無法阻止自己產生某種反應／行動；忍不住」。",
+        "help-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-11"
     },
@@ -1712,10 +1584,8 @@ export default {
       "masked": "I ____ her.",
       "options": [
         "help-mcq-12",
-        "help-mcq-11",
-        "help-mcq-13",
-        "help-mcq-10",
-        "help-mcq-14",
+        "help-mcq-19",
+        "help-mcq-18",
         "help-mcq-09"
       ],
       "explanation": "本句的「can’t help but admire」指「某種反應幾乎不可避免；不禁」。",
@@ -1725,12 +1595,10 @@ export default {
         "can’t help but admire"
       ],
       "optionReasons": {
-        "help-mcq-12": "本句指「某種反應幾乎不可避免；不禁」。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。"
+        "help-mcq-12": "本句的「can’t help but admire」指「某種反應幾乎不可避免；不禁」。",
+        "help-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-12"
     },
@@ -1742,11 +1610,9 @@ export default {
       "masked": "You can’t ____ but notice the difference.",
       "options": [
         "help-mcq-12",
-        "help-mcq-11",
-        "help-mcq-13",
-        "help-mcq-10",
-        "help-mcq-14",
-        "help-mcq-09"
+        "help-mcq-20",
+        "help-mcq-03",
+        "help-mcq-17"
       ],
       "explanation": "本句的「help」指「某種反應幾乎不可避免；不禁」。",
       "sentenceIndex": 33,
@@ -1755,12 +1621,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-12": "本句指「某種反應幾乎不可避免；不禁」。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-09": "「在獲准情況下自行拿取食物／飲品；請自便」是「help yourself」的用法，與本句語境不同。"
+        "help-mcq-12": "本句的「help」指「某種反應幾乎不可避免；不禁」。",
+        "help-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-12"
     },
@@ -1772,11 +1636,9 @@ export default {
       "masked": "I’m sorry—I ____.",
       "options": [
         "help-mcq-13",
-        "help-mcq-12",
-        "help-mcq-14",
-        "help-mcq-11",
-        "help-mcq-15",
-        "help-mcq-10"
+        "help-mcq-08",
+        "help-mcq-27",
+        "help-mcq-09"
       ],
       "explanation": "本句的「couldn’t help it」指「無法控制／避免自己的反應或情況」。",
       "sentenceIndex": 34,
@@ -1785,12 +1647,10 @@ export default {
         "couldn’t help it"
       ],
       "optionReasons": {
-        "help-mcq-13": "本句指「無法控制／避免自己的反應或情況」。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。"
+        "help-mcq-13": "本句的「couldn’t help it」指「無法控制／避免自己的反應或情況」。",
+        "help-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-13"
     },
@@ -1802,11 +1662,9 @@ export default {
       "masked": "If I can ____ it, I won’t work late.",
       "options": [
         "help-mcq-13",
-        "help-mcq-12",
-        "help-mcq-14",
-        "help-mcq-11",
-        "help-mcq-15",
-        "help-mcq-10"
+        "help-mcq-18",
+        "help-mcq-23",
+        "help-mcq-25"
       ],
       "explanation": "本句的「help」指「無法控制／避免自己的反應或情況」。",
       "sentenceIndex": 35,
@@ -1815,12 +1673,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-13": "本句指「無法控制／避免自己的反應或情況」。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-10": "「自行拿取 X；若沒有許可，可表示擅自取用」是「help yourself to X」的用法，與本句語境不同。"
+        "help-mcq-13": "本句的「help」指「無法控制／避免自己的反應或情況」。",
+        "help-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-13"
     },
@@ -1832,11 +1688,9 @@ export default {
       "masked": "I won’t miss another visit ____.",
       "options": [
         "help-mcq-14",
-        "help-mcq-13",
-        "help-mcq-15",
-        "help-mcq-12",
-        "help-mcq-16",
-        "help-mcq-11"
+        "help-mcq-17",
+        "help-mcq-07",
+        "help-mcq-10"
       ],
       "explanation": "本句的「if I can help it」指「如果事情在控制範圍內，會設法避免」。",
       "sentenceIndex": 36,
@@ -1845,12 +1699,10 @@ export default {
         "if I can help it"
       ],
       "optionReasons": {
-        "help-mcq-14": "本句指「如果事情在控制範圍內，會設法避免」。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。"
+        "help-mcq-14": "本句的「if I can help it」指「如果事情在控制範圍內，會設法避免」。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-14"
     },
@@ -1862,11 +1714,9 @@ export default {
       "masked": "I never drive in heavy traffic if I can ____ it.",
       "options": [
         "help-mcq-14",
-        "help-mcq-13",
-        "help-mcq-15",
-        "help-mcq-12",
-        "help-mcq-16",
-        "help-mcq-11"
+        "help-mcq-17",
+        "help-pdf-003",
+        "help-mcq-09"
       ],
       "explanation": "本句的「help」指「如果事情在控制範圍內，會設法避免」。",
       "sentenceIndex": 37,
@@ -1875,12 +1725,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-14": "本句指「如果事情在控制範圍內，會設法避免」。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。"
+        "help-mcq-14": "本句的「help」指「如果事情在控制範圍內，會設法避免」。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-14"
     },
@@ -1892,11 +1740,9 @@ export default {
       "masked": "We’ll have to cancel. ____",
       "options": [
         "help-pdf-002",
-        "help-mcq-13",
-        "help-mcq-15",
-        "help-mcq-12",
-        "help-mcq-16",
-        "help-mcq-11"
+        "help-pdf-003",
+        "help-mcq-04",
+        "help-mcq-17"
       ],
       "explanation": "本句的「There’s no helping it.」指「情況已無法改變／避免」。",
       "sentenceIndex": 38,
@@ -1905,12 +1751,10 @@ export default {
         "There’s no helping it."
       ],
       "optionReasons": {
-        "help-pdf-002": "本句指「情況已無法改變／避免」。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。"
+        "help-pdf-002": "本句的「There’s no helping it.」指「情況已無法改變／避免」。",
+        "help-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-002"
     },
@@ -1922,11 +1766,9 @@ export default {
       "masked": "The damage is done; there’s no ____ it now.",
       "options": [
         "help-pdf-002",
-        "help-mcq-13",
-        "help-mcq-15",
-        "help-mcq-12",
-        "help-mcq-16",
-        "help-mcq-11"
+        "help-pdf-003",
+        "help-mcq-17",
+        "help-mcq-04"
       ],
       "explanation": "本句的「helping」指「情況已無法改變／避免」。",
       "sentenceIndex": 39,
@@ -1935,12 +1777,10 @@ export default {
         "helping"
       ],
       "optionReasons": {
-        "help-pdf-002": "本句指「情況已無法改變／避免」。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-11": "「無法阻止自己產生某種反應／行動；忍不住」是「can’t help doing」的用法，與本句語境不同。"
+        "help-pdf-002": "本句的「helping」指「情況已無法改變／避免」。",
+        "help-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-002"
     },
@@ -1952,11 +1792,9 @@ export default {
       "masked": "We hired some extra ____ for the event.",
       "options": [
         "help-mcq-16",
-        "help-mcq-15",
-        "help-mcq-17",
-        "help-mcq-14",
-        "help-mcq-18",
-        "help-mcq-13"
+        "help-mcq-11",
+        "help-mcq-09",
+        "help-mcq-27"
       ],
       "explanation": "本句的「help」指「為別人提供實際協助的人」。",
       "sentenceIndex": 40,
@@ -1965,12 +1803,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-16": "本句指「為別人提供實際協助的人」。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。"
+        "help-mcq-16": "本句的「help」指「為別人提供實際協助的人」。",
+        "help-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-16"
     },
@@ -1982,11 +1818,9 @@ export default {
       "masked": "She could use an extra pair of hands and some ____.",
       "options": [
         "help-mcq-16",
-        "help-mcq-15",
+        "help-pdf-004",
         "help-mcq-17",
-        "help-mcq-14",
-        "help-mcq-18",
-        "help-mcq-13"
+        "help-mcq-09"
       ],
       "explanation": "本句的「help」指「為別人提供實際協助的人」。",
       "sentenceIndex": 41,
@@ -1995,12 +1829,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-16": "本句指「為別人提供實際協助的人」。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。"
+        "help-mcq-16": "本句的「help」指「為別人提供實際協助的人」。",
+        "help-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-16"
     },
@@ -2012,11 +1844,9 @@ export default {
       "masked": "The phrase ____ can refer to domestic workers.",
       "options": [
         "help-mcq-27",
-        "help-mcq-26",
-        "help-mcq-25",
-        "help-mcq-24",
-        "help-mcq-23",
-        "help-mcq-22"
+        "help-mcq-02",
+        "help-mcq-13",
+        "help-mcq-09"
       ],
       "explanation": "本句的「the help」指「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」。",
       "sentenceIndex": 42,
@@ -2025,12 +1855,10 @@ export default {
         "the help"
       ],
       "optionReasons": {
-        "help-mcq-27": "本句指「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。"
+        "help-mcq-27": "本句的「the help」指「傳統上指家庭受僱幫工／傭人；現代使用時需注意語氣與社會語感」。",
+        "help-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-27"
     },
@@ -2042,11 +1870,9 @@ export default {
       "masked": "She was a great ____ in the kitchen.",
       "options": [
         "help-mcq-16",
-        "help-mcq-15",
-        "help-mcq-17",
-        "help-mcq-14",
-        "help-mcq-18",
-        "help-mcq-13"
+        "help-mcq-25",
+        "help-mcq-09",
+        "help-mcq-11"
       ],
       "explanation": "本句的「helper」指「為別人提供實際協助的人」。",
       "sentenceIndex": 43,
@@ -2055,12 +1881,10 @@ export default {
         "helper"
       ],
       "optionReasons": {
-        "help-mcq-16": "本句指「為別人提供實際協助的人」。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。"
+        "help-mcq-16": "本句的「helper」指「為別人提供實際協助的人」。",
+        "help-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-16"
     },
@@ -2072,11 +1896,9 @@ export default {
       "masked": "We need two ____ for the event.",
       "options": [
         "help-mcq-16",
-        "help-mcq-15",
-        "help-mcq-17",
         "help-mcq-14",
-        "help-mcq-18",
-        "help-mcq-13"
+        "help-mcq-10",
+        "help-mcq-24"
       ],
       "explanation": "本句的「helpers」指「為別人提供實際協助的人」。",
       "sentenceIndex": 44,
@@ -2085,12 +1907,10 @@ export default {
         "helpers"
       ],
       "optionReasons": {
-        "help-mcq-16": "本句指「為別人提供實際協助的人」。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。"
+        "help-mcq-16": "本句的「helpers」指「為別人提供實際協助的人」。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-16"
     },
@@ -2102,11 +1922,9 @@ export default {
       "masked": "Her advice was very ____.",
       "options": [
         "help-mcq-17",
-        "help-mcq-16",
-        "help-mcq-18",
-        "help-mcq-15",
-        "help-mcq-19",
-        "help-mcq-14"
+        "help-mcq-23",
+        "help-mcq-13",
+        "help-pdf-001"
       ],
       "explanation": "本句的「helpful」指「能令事情更容易理解、完成或解決的」。",
       "sentenceIndex": 45,
@@ -2115,12 +1933,10 @@ export default {
         "helpful"
       ],
       "optionReasons": {
-        "help-mcq-17": "本句指「能令事情更容易理解、完成或解決的」。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。"
+        "help-mcq-17": "本句的「helpful」指「能令事情更容易理解、完成或解決的」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-17"
     },
@@ -2132,11 +1948,9 @@ export default {
       "masked": "The guide gave us some ____ information.",
       "options": [
         "help-mcq-17",
-        "help-mcq-16",
-        "help-mcq-18",
-        "help-mcq-15",
-        "help-mcq-19",
-        "help-mcq-14"
+        "help-mcq-23",
+        "help-pdf-001",
+        "help-mcq-12"
       ],
       "explanation": "本句的「helpful」指「能令事情更容易理解、完成或解決的」。",
       "sentenceIndex": 46,
@@ -2145,12 +1959,10 @@ export default {
         "helpful"
       ],
       "optionReasons": {
-        "help-mcq-17": "本句指「能令事情更容易理解、完成或解決的」。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。"
+        "help-mcq-17": "本句的「helpful」指「能令事情更容易理解、完成或解決的」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-17"
     },
@@ -2164,9 +1976,7 @@ export default {
         "help-mcq-18",
         "help-mcq-17",
         "help-mcq-19",
-        "help-mcq-16",
-        "help-mcq-20",
-        "help-mcq-15"
+        "help-mcq-09"
       ],
       "explanation": "本句的「helpful」指「願意並能提供實際協助的」。",
       "sentenceIndex": 47,
@@ -2175,12 +1985,10 @@ export default {
         "helpful"
       ],
       "optionReasons": {
-        "help-mcq-18": "本句指「願意並能提供實際協助的」。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。"
+        "help-mcq-18": "本句的「helpful」指「願意並能提供實際協助的」。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-18"
     },
@@ -2192,11 +2000,9 @@ export default {
       "masked": "She is always ____ when someone has a problem.",
       "options": [
         "help-mcq-18",
-        "help-mcq-17",
-        "help-mcq-19",
-        "help-mcq-16",
-        "help-mcq-20",
-        "help-mcq-15"
+        "help-pdf-002",
+        "help-mcq-09",
+        "help-mcq-17"
       ],
       "explanation": "本句的「helpful」指「願意並能提供實際協助的」。",
       "sentenceIndex": 48,
@@ -2205,12 +2011,10 @@ export default {
         "helpful"
       ],
       "optionReasons": {
-        "help-mcq-18": "本句指「願意並能提供實際協助的」。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。"
+        "help-mcq-18": "本句的「helpful」指「願意並能提供實際協助的」。",
+        "help-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-18"
     },
@@ -2222,11 +2026,9 @@ export default {
       "masked": "She ____ what I needed to do.",
       "options": [
         "help-pdf-003",
-        "help-mcq-17",
         "help-mcq-19",
-        "help-mcq-16",
-        "help-mcq-20",
-        "help-mcq-15"
+        "help-mcq-17",
+        "help-mcq-09"
       ],
       "explanation": "本句的「helpfully explained」指「以對別人有實際幫助的方式」。",
       "sentenceIndex": 49,
@@ -2235,12 +2037,10 @@ export default {
         "helpfully explained"
       ],
       "optionReasons": {
-        "help-pdf-003": "本句指「以對別人有實際幫助的方式」。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。"
+        "help-pdf-003": "本句的「helpfully explained」指「以對別人有實際幫助的方式」。",
+        "help-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-003"
     },
@@ -2252,11 +2052,9 @@ export default {
       "masked": "The instructions ____ include examples.",
       "options": [
         "help-pdf-003",
-        "help-mcq-17",
-        "help-mcq-19",
-        "help-mcq-16",
-        "help-mcq-20",
-        "help-mcq-15"
+        "help-pdf-004",
+        "help-mcq-04",
+        "help-mcq-17"
       ],
       "explanation": "本句的「helpfully」指「以對別人有實際幫助的方式」。",
       "sentenceIndex": 50,
@@ -2265,12 +2063,10 @@ export default {
         "helpfully"
       ],
       "optionReasons": {
-        "help-pdf-003": "本句指「以對別人有實際幫助的方式」。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-15": "「情況無法避免／改變，只能接受」是「it can’t be helped」的用法，與本句語境不同。"
+        "help-pdf-003": "本句的「helpfully」指「以對別人有實際幫助的方式」。",
+        "help-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-003"
     },
@@ -2282,11 +2078,9 @@ export default {
       "masked": "I felt ____.",
       "options": [
         "help-mcq-19",
-        "help-mcq-18",
-        "help-mcq-20",
-        "help-mcq-17",
-        "help-mcq-21",
-        "help-mcq-16"
+        "help-mcq-23",
+        "help-mcq-27",
+        "help-pdf-001"
       ],
       "explanation": "本句的「helpless」指「無法自己改善情況、保護自己或採取有效行動」。",
       "sentenceIndex": 51,
@@ -2295,12 +2089,10 @@ export default {
         "helpless"
       ],
       "optionReasons": {
-        "help-mcq-19": "本句指「無法自己改善情況、保護自己或採取有效行動」。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。"
+        "help-mcq-19": "本句的「helpless」指「無法自己改善情況、保護自己或採取有效行動」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-19"
     },
@@ -2312,11 +2104,9 @@ export default {
       "masked": "The child was completely ____ without an adult.",
       "options": [
         "help-mcq-19",
-        "help-mcq-18",
-        "help-mcq-20",
+        "help-mcq-27",
         "help-mcq-17",
-        "help-mcq-21",
-        "help-mcq-16"
+        "help-mcq-04"
       ],
       "explanation": "本句的「helpless」指「無法自己改善情況、保護自己或採取有效行動」。",
       "sentenceIndex": 52,
@@ -2325,12 +2115,10 @@ export default {
         "helpless"
       ],
       "optionReasons": {
-        "help-mcq-19": "本句指「無法自己改善情況、保護自己或採取有效行動」。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。"
+        "help-mcq-19": "本句的「helpless」指「無法自己改善情況、保護自己或採取有效行動」。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-19"
     },
@@ -2342,11 +2130,9 @@ export default {
       "masked": "She burst into ____.",
       "options": [
         "help-pdf-004",
-        "help-mcq-18",
-        "help-mcq-20",
-        "help-mcq-17",
-        "help-mcq-21",
-        "help-mcq-16"
+        "help-mcq-27",
+        "help-pdf-003",
+        "help-mcq-04"
       ],
       "explanation": "本句的「helpless laughter」指「無法控制局面／反應，沒有有效辦法改變事情」。",
       "sentenceIndex": 53,
@@ -2355,12 +2141,10 @@ export default {
         "helpless laughter"
       ],
       "optionReasons": {
-        "help-pdf-004": "本句指「無法控制局面／反應，沒有有效辦法改變事情」。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。"
+        "help-pdf-004": "本句的「helpless laughter」指「無法控制局面／反應，沒有有效辦法改變事情」。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-004"
     },
@@ -2372,11 +2156,9 @@ export default {
       "masked": "He watched in ____ frustration.",
       "options": [
         "help-pdf-004",
-        "help-mcq-18",
-        "help-mcq-20",
-        "help-mcq-17",
-        "help-mcq-21",
-        "help-mcq-16"
+        "help-mcq-09",
+        "help-mcq-07",
+        "help-mcq-04"
       ],
       "explanation": "本句的「helpless」指「無法控制局面／反應，沒有有效辦法改變事情」。",
       "sentenceIndex": 54,
@@ -2385,12 +2167,10 @@ export default {
         "helpless"
       ],
       "optionReasons": {
-        "help-pdf-004": "本句指「無法控制局面／反應，沒有有效辦法改變事情」。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。"
+        "help-pdf-004": "本句的「helpless」指「無法控制局面／反應，沒有有效辦法改變事情」。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-pdf-004"
     },
@@ -2402,11 +2182,9 @@ export default {
       "masked": "She felt a sense of ____.",
       "options": [
         "help-mcq-20",
-        "help-mcq-19",
-        "help-mcq-21",
-        "help-mcq-18",
-        "help-mcq-22",
-        "help-mcq-17"
+        "help-mcq-04",
+        "help-mcq-09",
+        "help-mcq-12"
       ],
       "explanation": "本句的「helplessness」指「無法控制／改善情況的無助狀態」。",
       "sentenceIndex": 55,
@@ -2415,12 +2193,10 @@ export default {
         "helplessness"
       ],
       "optionReasons": {
-        "help-mcq-20": "本句指「無法控制／改善情況的無助狀態」。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。"
+        "help-mcq-20": "本句的「helplessness」指「無法控制／改善情況的無助狀態」。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-20"
     },
@@ -2432,11 +2208,9 @@ export default {
       "masked": "His ____ made the situation more painful.",
       "options": [
         "help-mcq-20",
-        "help-mcq-19",
-        "help-mcq-21",
-        "help-mcq-18",
-        "help-mcq-22",
-        "help-mcq-17"
+        "help-mcq-23",
+        "help-mcq-17",
+        "help-mcq-04"
       ],
       "explanation": "本句的「helplessness」指「無法控制／改善情況的無助狀態」。",
       "sentenceIndex": 56,
@@ -2445,12 +2219,10 @@ export default {
         "helplessness"
       ],
       "optionReasons": {
-        "help-mcq-20": "本句指「無法控制／改善情況的無助狀態」。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。"
+        "help-mcq-20": "本句的「helplessness」指「無法控制／改善情況的無助狀態」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-20"
     },
@@ -2462,11 +2234,9 @@ export default {
       "masked": "That comment was ____.",
       "options": [
         "help-mcq-21",
-        "help-mcq-20",
-        "help-mcq-22",
-        "help-mcq-19",
-        "help-mcq-23",
-        "help-mcq-18"
+        "help-mcq-07",
+        "help-mcq-09",
+        "help-mcq-04"
       ],
       "explanation": "本句的「unhelpful」指「沒有令事情更容易理解／解決，甚至可能添麻煩」。",
       "sentenceIndex": 57,
@@ -2475,12 +2245,10 @@ export default {
         "unhelpful"
       ],
       "optionReasons": {
-        "help-mcq-21": "本句指「沒有令事情更容易理解／解決，甚至可能添麻煩」。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。"
+        "help-mcq-21": "本句的「unhelpful」指「沒有令事情更容易理解／解決，甚至可能添麻煩」。",
+        "help-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-21"
     },
@@ -2492,11 +2260,9 @@ export default {
       "masked": "The instructions were vague and ____.",
       "options": [
         "help-mcq-21",
-        "help-mcq-20",
-        "help-mcq-22",
-        "help-mcq-19",
-        "help-mcq-23",
-        "help-mcq-18"
+        "help-mcq-08",
+        "help-mcq-27",
+        "help-mcq-14"
       ],
       "explanation": "本句的「unhelpful」指「沒有令事情更容易理解／解決，甚至可能添麻煩」。",
       "sentenceIndex": 58,
@@ -2505,12 +2271,10 @@ export default {
         "unhelpful"
       ],
       "optionReasons": {
-        "help-mcq-21": "本句指「沒有令事情更容易理解／解決，甚至可能添麻煩」。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-18": "「願意並能提供實際協助的」是「helpful — person」的用法，與本句語境不同。"
+        "help-mcq-21": "本句的「unhelpful」指「沒有令事情更容易理解／解決，甚至可能添麻煩」。",
+        "help-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-21"
     },
@@ -2522,11 +2286,9 @@ export default {
       "masked": "Everyone needs a ____ sometimes.",
       "options": [
         "help-mcq-22",
-        "help-mcq-21",
-        "help-mcq-23",
-        "help-mcq-20",
-        "help-mcq-24",
-        "help-mcq-19"
+        "help-mcq-19",
+        "help-mcq-12",
+        "help-mcq-23"
       ],
       "explanation": "本句的「helping hand」指「實際提供的援助／幫忙」。",
       "sentenceIndex": 59,
@@ -2535,12 +2297,10 @@ export default {
         "helping hand"
       ],
       "optionReasons": {
-        "help-mcq-22": "本句指「實際提供的援助／幫忙」。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。"
+        "help-mcq-22": "本句的「helping hand」指「實際提供的援助／幫忙」。",
+        "help-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-22"
     },
@@ -2552,11 +2312,9 @@ export default {
       "masked": "She gave me a ____ hand with the boxes.",
       "options": [
         "help-mcq-22",
-        "help-mcq-21",
         "help-mcq-23",
-        "help-mcq-20",
-        "help-mcq-24",
-        "help-mcq-19"
+        "help-mcq-21",
+        "help-mcq-14"
       ],
       "explanation": "本句的「helping」指「實際提供的援助／幫忙」。",
       "sentenceIndex": 60,
@@ -2565,12 +2323,10 @@ export default {
         "helping"
       ],
       "optionReasons": {
-        "help-mcq-22": "本句指「實際提供的援助／幫忙」。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。"
+        "help-mcq-22": "本句的「helping」指「實際提供的援助／幫忙」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-22"
     },
@@ -2584,9 +2340,7 @@ export default {
         "help-mcq-22",
         "help-mcq-21",
         "help-mcq-23",
-        "help-mcq-20",
-        "help-mcq-24",
-        "help-mcq-19"
+        "help-mcq-12"
       ],
       "explanation": "本句的「lend a helping hand」指「實際提供的援助／幫忙」。",
       "sentenceIndex": 61,
@@ -2595,12 +2349,10 @@ export default {
         "lend a helping hand"
       ],
       "optionReasons": {
-        "help-mcq-22": "本句指「實際提供的援助／幫忙」。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。"
+        "help-mcq-22": "本句的「lend a helping hand」指「實際提供的援助／幫忙」。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-22"
     },
@@ -2612,11 +2364,9 @@ export default {
       "masked": "Can you give me a ____ hand?",
       "options": [
         "help-mcq-22",
-        "help-mcq-21",
-        "help-mcq-23",
-        "help-mcq-20",
-        "help-mcq-24",
-        "help-mcq-19"
+        "help-mcq-12",
+        "help-mcq-09",
+        "help-mcq-21"
       ],
       "explanation": "本句的「helping」指「實際提供的援助／幫忙」。",
       "sentenceIndex": 62,
@@ -2625,12 +2375,10 @@ export default {
         "helping"
       ],
       "optionReasons": {
-        "help-mcq-22": "本句指「實際提供的援助／幫忙」。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-19": "「無法自己改善情況、保護自己或採取有效行動」是「helpless」的用法，與本句語境不同。"
+        "help-mcq-22": "本句的「helping」指「實際提供的援助／幫忙」。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-22"
     },
@@ -2642,11 +2390,9 @@ export default {
       "masked": "He had a second ____ of dessert.",
       "options": [
         "help-mcq-23",
-        "help-mcq-22",
-        "help-mcq-24",
-        "help-mcq-21",
+        "help-mcq-11",
         "help-mcq-25",
-        "help-mcq-20"
+        "help-mcq-18"
       ],
       "explanation": "本句的「helping」指「一次盛給某人食用的食物份量」。",
       "sentenceIndex": 63,
@@ -2655,12 +2401,10 @@ export default {
         "helping"
       ],
       "optionReasons": {
-        "help-mcq-23": "本句指「一次盛給某人食用的食物份量」。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。"
+        "help-mcq-23": "本句的「helping」指「一次盛給某人食用的食物份量」。",
+        "help-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-23"
     },
@@ -2672,11 +2416,9 @@ export default {
       "masked": "Would you like another ____ of rice?",
       "options": [
         "help-mcq-23",
-        "help-mcq-22",
-        "help-mcq-24",
-        "help-mcq-21",
         "help-mcq-25",
-        "help-mcq-20"
+        "help-mcq-11",
+        "help-mcq-03"
       ],
       "explanation": "本句的「helping」指「一次盛給某人食用的食物份量」。",
       "sentenceIndex": 64,
@@ -2685,12 +2427,10 @@ export default {
         "helping"
       ],
       "optionReasons": {
-        "help-mcq-23": "本句指「一次盛給某人食用的食物份量」。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。"
+        "help-mcq-23": "本句的「helping」指「一次盛給某人食用的食物份量」。",
+        "help-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-23"
     },
@@ -2703,10 +2443,8 @@ export default {
       "options": [
         "help-mcq-23",
         "help-mcq-22",
-        "help-mcq-24",
-        "help-mcq-21",
-        "help-mcq-25",
-        "help-mcq-20"
+        "help-mcq-12",
+        "help-mcq-10"
       ],
       "explanation": "本句的「second helping」指「一次盛給某人食用的食物份量」。",
       "sentenceIndex": 65,
@@ -2715,12 +2453,10 @@ export default {
         "second helping"
       ],
       "optionReasons": {
-        "help-mcq-23": "本句指「一次盛給某人食用的食物份量」。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。"
+        "help-mcq-23": "本句的「second helping」指「一次盛給某人食用的食物份量」。",
+        "help-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-23"
     },
@@ -2732,11 +2468,9 @@ export default {
       "masked": "The food was so good that everyone wanted a second ____.",
       "options": [
         "help-mcq-23",
-        "help-mcq-22",
-        "help-mcq-24",
         "help-mcq-21",
-        "help-mcq-25",
-        "help-mcq-20"
+        "help-mcq-27",
+        "help-mcq-03"
       ],
       "explanation": "本句的「helping」指「一次盛給某人食用的食物份量」。",
       "sentenceIndex": 66,
@@ -2745,12 +2479,10 @@ export default {
         "helping"
       ],
       "optionReasons": {
-        "help-mcq-23": "本句指「一次盛給某人食用的食物份量」。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-24": "「依靠自己採取方法改善生活、能力或問題」是「self-help」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-20": "「無法控制／改善情況的無助狀態」是「helplessness」的用法，與本句語境不同。"
+        "help-mcq-23": "本句的「helping」指「一次盛給某人食用的食物份量」。",
+        "help-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-23"
     },
@@ -2762,11 +2494,9 @@ export default {
       "masked": "She reads ____.",
       "options": [
         "help-mcq-24",
-        "help-mcq-23",
-        "help-mcq-25",
-        "help-mcq-22",
-        "help-mcq-26",
-        "help-mcq-21"
+        "help-mcq-07",
+        "help-mcq-17",
+        "help-mcq-27"
       ],
       "explanation": "本句的「self-help books」指「依靠自己採取方法改善生活、能力或問題」。",
       "sentenceIndex": 67,
@@ -2775,12 +2505,10 @@ export default {
         "self-help books"
       ],
       "optionReasons": {
-        "help-mcq-24": "本句指「依靠自己採取方法改善生活、能力或問題」。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。"
+        "help-mcq-24": "本句的「self-help books」指「依靠自己採取方法改善生活、能力或問題」。",
+        "help-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-24"
     },
@@ -2792,11 +2520,9 @@ export default {
       "masked": "The course focuses on self-____ strategies.",
       "options": [
         "help-mcq-24",
-        "help-mcq-23",
-        "help-mcq-25",
-        "help-mcq-22",
-        "help-mcq-26",
-        "help-mcq-21"
+        "help-mcq-07",
+        "help-mcq-27",
+        "help-mcq-04"
       ],
       "explanation": "本句的「help」指「依靠自己採取方法改善生活、能力或問題」。",
       "sentenceIndex": 68,
@@ -2805,12 +2531,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-24": "本句指「依靠自己採取方法改善生活、能力或問題」。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。"
+        "help-mcq-24": "本句的「help」指「依靠自己採取方法改善生活、能力或問題」。",
+        "help-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-24"
     },
@@ -2823,10 +2547,8 @@ export default {
       "options": [
         "help-mcq-24",
         "help-mcq-23",
-        "help-mcq-25",
-        "help-mcq-22",
-        "help-mcq-26",
-        "help-mcq-21"
+        "help-mcq-27",
+        "help-mcq-12"
       ],
       "explanation": "本句的「self-help book」指「依靠自己採取方法改善生活、能力或問題」。",
       "sentenceIndex": 69,
@@ -2835,12 +2557,10 @@ export default {
         "self-help book"
       ],
       "optionReasons": {
-        "help-mcq-24": "本句指「依靠自己採取方法改善生活、能力或問題」。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。"
+        "help-mcq-24": "本句的「self-help book」指「依靠自己採取方法改善生活、能力或問題」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-24"
     },
@@ -2852,11 +2572,9 @@ export default {
       "masked": "Self-____ books often offer practical advice.",
       "options": [
         "help-mcq-24",
-        "help-mcq-23",
-        "help-mcq-25",
-        "help-mcq-22",
-        "help-mcq-26",
-        "help-mcq-21"
+        "help-mcq-17",
+        "help-mcq-06",
+        "help-mcq-12"
       ],
       "explanation": "本句的「help」指「依靠自己採取方法改善生活、能力或問題」。",
       "sentenceIndex": 70,
@@ -2865,12 +2583,10 @@ export default {
         "help"
       ],
       "optionReasons": {
-        "help-mcq-24": "本句指「依靠自己採取方法改善生活、能力或問題」。",
-        "help-mcq-23": "「一次盛給某人食用的食物份量」是「a helping」的用法，與本句語境不同。",
-        "help-mcq-25": "「令某個結果更容易發生／令情況改善」是「5. help to improve/reduce/prevent（有助於） — 有助；促進」的用法，與本句語境不同。",
-        "help-mcq-22": "「實際提供的援助／幫忙」是「helping hand」的用法，與本句語境不同。",
-        "help-mcq-26": "「自己無法完全處理，需要他人／專業支援」是「10. need help（需要幫助） — 需要協助」的用法，與本句語境不同。",
-        "help-mcq-21": "「沒有令事情更容易理解／解決，甚至可能添麻煩」是「unhelpful」的用法，與本句語境不同。"
+        "help-mcq-24": "本句的「help」指「依靠自己採取方法改善生活、能力或問題」。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-24"
     },
@@ -2882,11 +2598,9 @@ export default {
       "masked": "The weather ruined the event, but ____.",
       "options": [
         "help-mcq-15",
-        "help-mcq-14",
-        "help-mcq-16",
-        "help-mcq-13",
-        "help-mcq-17",
-        "help-mcq-12"
+        "help-mcq-23",
+        "help-mcq-03",
+        "help-mcq-17"
       ],
       "explanation": "本句的「it can’t be helped」指「情況無法避免／改變，只能接受」。",
       "sentenceIndex": 71,
@@ -2895,12 +2609,10 @@ export default {
         "it can’t be helped"
       ],
       "optionReasons": {
-        "help-mcq-15": "本句指「情況無法避免／改變，只能接受」。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。"
+        "help-mcq-15": "本句的「it can’t be helped」指「情況無法避免／改變，只能接受」。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-15"
     },
@@ -2912,11 +2624,9 @@ export default {
       "masked": "We have to wait. It can’t be ____.",
       "options": [
         "help-mcq-15",
-        "help-mcq-14",
-        "help-mcq-16",
-        "help-mcq-13",
-        "help-mcq-17",
-        "help-mcq-12"
+        "help-mcq-03",
+        "help-mcq-23",
+        "help-mcq-17"
       ],
       "explanation": "本句的「helped」指「情況無法避免／改變，只能接受」。",
       "sentenceIndex": 72,
@@ -2925,12 +2635,10 @@ export default {
         "helped"
       ],
       "optionReasons": {
-        "help-mcq-15": "本句指「情況無法避免／改變，只能接受」。",
-        "help-mcq-14": "「如果事情在控制範圍內，會設法避免」是「if I can help it」的用法，與本句語境不同。",
-        "help-mcq-16": "「為別人提供實際協助的人」是「helper」的用法，與本句語境不同。",
-        "help-mcq-13": "「無法控制／避免自己的反應或情況」是「can’t help it」的用法，與本句語境不同。",
-        "help-mcq-17": "「能令事情更容易理解、完成或解決的」是「helpful — thing」的用法，與本句語境不同。",
-        "help-mcq-12": "「某種反應幾乎不可避免；不禁」是「can’t help but do」的用法，與本句語境不同。"
+        "help-mcq-15": "本句的「helped」指「情況無法避免／改變，只能接受」。",
+        "help-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "help-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "help-mcq-15"
     }
@@ -2942,5 +2650,7 @@ export default {
     "sha256": "ddb874cb0b2b82eafe2616b3d99983939883c23bbed7baf3b9b0c80dfb1de9d8",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

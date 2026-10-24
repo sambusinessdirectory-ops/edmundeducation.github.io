@@ -176,11 +176,9 @@ export default {
       "masked": "She ____ several times in the bright sunlight.",
       "options": [
         "blink-mcq-01",
-        "blink-mcq-02",
-        "blink-mcq-03",
-        "blink-mcq-04",
         "blink-mcq-05",
-        "blink-mcq-06"
+        "blink-mcq-06",
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blinked」指「快速閉上眼睛再張開；眨眼」。",
       "sentenceIndex": 0,
@@ -189,12 +187,10 @@ export default {
         "blinked"
       ],
       "optionReasons": {
-        "blink-mcq-01": "本句指「快速閉上眼睛再張開；眨眼」。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。"
+        "blink-mcq-01": "本句的「blinked」指「快速閉上眼睛再張開；眨眼」。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-01"
     },
@@ -206,11 +202,9 @@ export default {
       "masked": "Try not to ____ while I take the photograph.",
       "options": [
         "blink-mcq-01",
-        "blink-mcq-02",
-        "blink-mcq-03",
-        "blink-mcq-04",
         "blink-mcq-05",
-        "blink-mcq-06"
+        "blink-mcq-06",
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blink」指「快速閉上眼睛再張開；眨眼」。",
       "sentenceIndex": 1,
@@ -219,12 +213,10 @@ export default {
         "blink"
       ],
       "optionReasons": {
-        "blink-mcq-01": "本句指「快速閉上眼睛再張開；眨眼」。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。"
+        "blink-mcq-01": "本句的「blink」指「快速閉上眼睛再張開；眨眼」。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-01"
     },
@@ -236,11 +228,9 @@ export default {
       "masked": "It happened in a single ____.",
       "options": [
         "blink-mcq-02",
-        "blink-mcq-01",
-        "blink-mcq-03",
-        "blink-mcq-04",
+        "blink-mcq-06",
         "blink-mcq-05",
-        "blink-mcq-06"
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blink」指「一次快速閉眼再張眼的動作；與 literal eye sense 相同」。",
       "sentenceIndex": 2,
@@ -249,12 +239,10 @@ export default {
         "blink"
       ],
       "optionReasons": {
-        "blink-mcq-02": "本句指「一次快速閉眼再張眼的動作；與 literal eye sense 相同」。",
-        "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。"
+        "blink-mcq-02": "本句的「blink」指「一次快速閉眼再張眼的動作；與 literal eye sense 相同」。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-02"
     },
@@ -266,11 +254,9 @@ export default {
       "masked": "His expression changed with barely a ____.",
       "options": [
         "blink-mcq-02",
-        "blink-mcq-01",
-        "blink-mcq-03",
-        "blink-mcq-04",
+        "blink-mcq-06",
         "blink-mcq-05",
-        "blink-mcq-06"
+        "blink-mcq-04"
       ],
       "explanation": "本句的「blink」指「一次快速閉眼再張眼的動作；與 literal eye sense 相同」。",
       "sentenceIndex": 3,
@@ -279,12 +265,10 @@ export default {
         "blink"
       ],
       "optionReasons": {
-        "blink-mcq-02": "本句指「一次快速閉眼再張眼的動作；與 literal eye sense 相同」。",
-        "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。"
+        "blink-mcq-02": "本句的「blink」指「一次快速閉眼再張眼的動作；與 literal eye sense 相同」。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-02"
     },
@@ -296,11 +280,9 @@ export default {
       "masked": "A red warning light was ____.",
       "options": [
         "blink-mcq-03",
-        "blink-mcq-02",
         "blink-mcq-04",
-        "blink-mcq-01",
         "blink-mcq-05",
-        "blink-mcq-06"
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blinking」指「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」。",
       "sentenceIndex": 4,
@@ -309,12 +291,10 @@ export default {
         "blinking"
       ],
       "optionReasons": {
-        "blink-mcq-03": "本句指「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。"
+        "blink-mcq-03": "本句的「blinking」指「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」。",
+        "blink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-03"
     },
@@ -326,11 +306,9 @@ export default {
       "masked": "The cursor ____ on the screen.",
       "options": [
         "blink-mcq-03",
-        "blink-mcq-02",
-        "blink-mcq-04",
-        "blink-mcq-01",
         "blink-mcq-05",
-        "blink-mcq-06"
+        "blink-mcq-04",
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blinked」指「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」。",
       "sentenceIndex": 5,
@@ -339,12 +317,10 @@ export default {
         "blinked"
       ],
       "optionReasons": {
-        "blink-mcq-03": "本句指「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。"
+        "blink-mcq-03": "本句的「blinked」指「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-03"
     },
@@ -356,11 +332,9 @@ export default {
       "masked": "I wanted to get it fixed ____.",
       "options": [
         "blink-pdf-001",
-        "blink-mcq-03",
         "blink-mcq-05",
-        "blink-mcq-02",
         "blink-mcq-06",
-        "blink-mcq-01"
+        "blink-mcq-07"
       ],
       "explanation": "本句的「in the blink of an eye」指「快得像眨一次眼睛一樣；轉瞬之間」。",
       "sentenceIndex": 8,
@@ -369,12 +343,10 @@ export default {
         "in the blink of an eye"
       ],
       "optionReasons": {
-        "blink-pdf-001": "本句指「快得像眨一次眼睛一樣；轉瞬之間」。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。",
-        "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。"
+        "blink-pdf-001": "本句的「in the blink of an eye」指「快得像眨一次眼睛一樣；轉瞬之間」。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-pdf-001"
     },
@@ -388,9 +360,7 @@ export default {
         "blink-mcq-04",
         "blink-mcq-03",
         "blink-mcq-05",
-        "blink-mcq-02",
-        "blink-mcq-06",
-        "blink-mcq-01"
+        "blink-mcq-07"
       ],
       "explanation": "本句的「in the blink of an eye」指「在極短時間內；一眨眼間／轉瞬間」。",
       "sentenceIndex": 9,
@@ -399,12 +369,10 @@ export default {
         "in the blink of an eye"
       ],
       "optionReasons": {
-        "blink-mcq-04": "本句指「在極短時間內；一眨眼間／轉瞬間」。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。",
-        "blink-mcq-01": "「快速閉上眼睛再張開；眨眼」與本句語境不同。"
+        "blink-mcq-04": "本句的「in the blink of an eye」指「在極短時間內；一眨眼間／轉瞬間」。",
+        "blink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-04"
     },
@@ -416,11 +384,9 @@ export default {
       "masked": "Neither side wanted to ____.",
       "options": [
         "blink-mcq-05",
-        "blink-mcq-04",
+        "blink-pdf-001",
         "blink-mcq-06",
-        "blink-mcq-03",
-        "blink-mcq-07",
-        "blink-mcq-02"
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blink first」指「在意志或談判較量中率先退讓、示弱」。",
       "sentenceIndex": 10,
@@ -429,12 +395,10 @@ export default {
         "blink first"
       ],
       "optionReasons": {
-        "blink-mcq-05": "本句指「在意志或談判較量中率先退讓、示弱」。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-07": "「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。"
+        "blink-mcq-05": "本句的「blink first」指「在意志或談判較量中率先退讓、示弱」。",
+        "blink-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-05"
     },
@@ -446,11 +410,9 @@ export default {
       "masked": "He refused to ____ during the negotiation.",
       "options": [
         "blink-mcq-05",
-        "blink-mcq-04",
-        "blink-mcq-06",
         "blink-mcq-03",
-        "blink-mcq-07",
-        "blink-mcq-02"
+        "blink-mcq-04",
+        "blink-mcq-07"
       ],
       "explanation": "本句的「blink first」指「在意志或談判較量中率先退讓、示弱」。",
       "sentenceIndex": 11,
@@ -459,12 +421,10 @@ export default {
         "blink first"
       ],
       "optionReasons": {
-        "blink-mcq-05": "本句指「在意志或談判較量中率先退讓、示弱」。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-07": "「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。"
+        "blink-mcq-05": "本句的「blink first」指「在意志或談判較量中率先退讓、示弱」。",
+        "blink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-05"
     },
@@ -476,11 +436,9 @@ export default {
       "masked": "My washing machine is ____ again.",
       "options": [
         "blink-mcq-06",
-        "blink-mcq-05",
+        "blink-mcq-01",
         "blink-mcq-07",
-        "blink-mcq-04",
-        "blink-mcq-03",
-        "blink-mcq-02"
+        "blink-mcq-05"
       ],
       "explanation": "本句的「on the blink」指「機器或設備出故障；非正式」。",
       "sentenceIndex": 12,
@@ -489,12 +447,10 @@ export default {
         "on the blink"
       ],
       "optionReasons": {
-        "blink-mcq-06": "本句指「機器或設備出故障；非正式」。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-07": "「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。"
+        "blink-mcq-06": "本句的「on the blink」指「機器或設備出故障；非正式」。",
+        "blink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-06"
     },
@@ -506,11 +462,9 @@ export default {
       "masked": "The printer has been ____ all morning.",
       "options": [
         "blink-mcq-06",
+        "blink-mcq-02",
         "blink-mcq-05",
-        "blink-mcq-07",
-        "blink-mcq-04",
-        "blink-mcq-03",
-        "blink-mcq-02"
+        "blink-mcq-07"
       ],
       "explanation": "本句的「on the blink」指「機器或設備出故障；非正式」。",
       "sentenceIndex": 13,
@@ -519,12 +473,10 @@ export default {
         "on the blink"
       ],
       "optionReasons": {
-        "blink-mcq-06": "本句指「機器或設備出故障；非正式」。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-07": "「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。"
+        "blink-mcq-06": "本句的「on the blink」指「機器或設備出故障；非正式」。",
+        "blink-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-06"
     },
@@ -538,9 +490,7 @@ export default {
         "blink-mcq-07",
         "blink-mcq-06",
         "blink-mcq-05",
-        "blink-mcq-04",
-        "blink-mcq-03",
-        "blink-mcq-02"
+        "blink-mcq-01"
       ],
       "explanation": "本句的「blinker」指「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」。",
       "sentenceIndex": 14,
@@ -549,12 +499,10 @@ export default {
         "blinker"
       ],
       "optionReasons": {
-        "blink-mcq-07": "本句指「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」。",
-        "blink-mcq-06": "「機器或設備出故障；非正式」與本句語境不同。",
-        "blink-mcq-05": "「在意志或談判較量中率先退讓、示弱」與本句語境不同。",
-        "blink-mcq-04": "「在極短時間內；一眨眼間／轉瞬間」與本句語境不同。",
-        "blink-mcq-03": "「燈光、訊號或電子顯示反覆快速亮起和熄滅；閃爍」與本句語境不同。",
-        "blink-mcq-02": "「一次快速閉眼再張眼的動作；與 literal eye sense 相同」與本句語境不同。"
+        "blink-mcq-07": "本句的「blinker」指「美式：車輛方向燈；複數 blinkers 亦可指馬眼罩」。",
+        "blink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blink-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blink-mcq-07"
     }
@@ -566,5 +514,7 @@ export default {
     "sha256": "5a0e0e7b61e2ade5d013fe667fa6f04f3bb1ea56a12b8cdf3680652d645ce7c8",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

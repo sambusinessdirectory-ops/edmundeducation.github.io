@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "bit-mcq-01",
-      "title": "表示某種性質或狀態只達到較低程度；有點／稍微",
+      "title": "某種性質或狀態只達到較低程度；有點／稍微",
       "form": "a bit — degree",
       "en": "a bit — degree",
       "zh": "表示某種性質或狀態只達到較低程度；有點／稍微",
@@ -538,7 +538,7 @@ export default {
     },
     {
       "id": "bit-mcq-24",
-      "title": "表示「我有點累。」",
+      "title": "「我有點累。」",
       "form": "26. bit = past tense of bite（咬了） — 咬",
       "en": "26. bit = past tense of bite（咬了） — 咬",
       "zh": "表示「我有點累。」",
@@ -568,11 +568,9 @@ export default {
       "masked": "She is ____ an old tree.",
       "options": [
         "bit-mcq-01",
-        "bit-mcq-02",
-        "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-18",
+        "bit-mcq-14",
+        "bit-mcq-17"
       ],
       "explanation": "本句的「a bit like」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
       "sentenceIndex": 0,
@@ -581,12 +579,10 @@ export default {
         "a bit like"
       ],
       "optionReasons": {
-        "bit-mcq-01": "本句指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-01": "本句的「a bit like」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-01"
     },
@@ -598,11 +594,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "bit-mcq-01",
-        "bit-mcq-02",
         "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-20",
+        "bit-mcq-19"
       ],
       "explanation": "本句的「a bit tired」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
       "sentenceIndex": 1,
@@ -611,12 +605,10 @@ export default {
         "a bit tired"
       ],
       "optionReasons": {
-        "bit-mcq-01": "本句指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-01": "本句的「a bit tired」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-01"
     },
@@ -629,9 +621,7 @@ export default {
       "options": [
         "bit-mcq-01",
         "bit-mcq-02",
-        "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
+        "bit-mcq-08",
         "bit-mcq-06"
       ],
       "explanation": "本句的「a bit cold」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
@@ -641,12 +631,10 @@ export default {
         "a bit cold"
       ],
       "optionReasons": {
-        "bit-mcq-01": "本句指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-01": "本句的「a bit cold」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-01"
     },
@@ -658,11 +646,9 @@ export default {
       "masked": "She seemed ____.",
       "options": [
         "bit-mcq-01",
-        "bit-mcq-02",
         "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-18",
+        "bit-mcq-14"
       ],
       "explanation": "本句的「a bit nervous」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
       "sentenceIndex": 3,
@@ -671,12 +657,10 @@ export default {
         "a bit nervous"
       ],
       "optionReasons": {
-        "bit-mcq-01": "本句指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-01": "本句的「a bit nervous」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-01"
     },
@@ -688,11 +672,9 @@ export default {
       "masked": "Can you speak ____?",
       "options": [
         "bit-mcq-01",
-        "bit-mcq-02",
-        "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-10",
+        "bit-mcq-14",
+        "bit-mcq-18"
       ],
       "explanation": "本句的「a bit more slowly」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
       "sentenceIndex": 4,
@@ -701,12 +683,10 @@ export default {
         "a bit more slowly"
       ],
       "optionReasons": {
-        "bit-mcq-01": "本句指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-01": "本句的「a bit more slowly」指「表示某種性質或狀態只達到較低程度；有點／稍微」。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-01"
     },
@@ -718,11 +698,9 @@ export default {
       "masked": "He looks ____ his father.",
       "options": [
         "bit-mcq-02",
-        "bit-mcq-01",
-        "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-14",
+        "bit-mcq-18",
+        "bit-mcq-01"
       ],
       "explanation": "本句的「a bit like」指「在某些方面有少量相似，但並非完全一樣」。",
       "sentenceIndex": 5,
@@ -731,12 +709,10 @@ export default {
         "a bit like"
       ],
       "optionReasons": {
-        "bit-mcq-02": "本句指「在某些方面有少量相似，但並非完全一樣」。",
-        "bit-mcq-01": "「表示某種性質或狀態只達到較低程度；有點／稍微」是「a bit — degree」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-02": "本句的「a bit like」指「在某些方面有少量相似，但並非完全一樣」。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-02"
     },
@@ -748,11 +724,9 @@ export default {
       "masked": "The building is ____ a castle.",
       "options": [
         "bit-mcq-02",
-        "bit-mcq-01",
-        "bit-mcq-03",
-        "bit-mcq-04",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-15",
+        "bit-mcq-23",
+        "bit-mcq-18"
       ],
       "explanation": "本句的「a bit like」指「在某些方面有少量相似，但並非完全一樣」。",
       "sentenceIndex": 6,
@@ -761,12 +735,10 @@ export default {
         "a bit like"
       ],
       "optionReasons": {
-        "bit-mcq-02": "本句指「在某些方面有少量相似，但並非完全一樣」。",
-        "bit-mcq-01": "「表示某種性質或狀態只達到較低程度；有點／稍微」是「a bit — degree」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-02": "本句的「a bit like」指「在某些方面有少量相似，但並非完全一樣」。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-02"
     },
@@ -778,11 +750,9 @@ export default {
       "masked": "I need ____.",
       "options": [
         "bit-mcq-03",
-        "bit-mcq-02",
-        "bit-mcq-04",
-        "bit-mcq-01",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-17",
+        "bit-mcq-14",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「a bit of help」指「少量的某種事物」。",
       "sentenceIndex": 7,
@@ -791,12 +761,10 @@ export default {
         "a bit of help"
       ],
       "optionReasons": {
-        "bit-mcq-03": "本句指「少量的某種事物」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-01": "「表示某種性質或狀態只達到較低程度；有點／稍微」是「a bit — degree」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-03": "本句的「a bit of help」指「少量的某種事物」。",
+        "bit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-03"
     },
@@ -808,11 +776,9 @@ export default {
       "masked": "Add ____.",
       "options": [
         "bit-mcq-03",
-        "bit-mcq-02",
-        "bit-mcq-04",
-        "bit-mcq-01",
-        "bit-mcq-05",
-        "bit-mcq-06"
+        "bit-mcq-24",
+        "bit-mcq-08",
+        "bit-mcq-21"
       ],
       "explanation": "本句的「a bit of sugar」指「少量的某種事物」。",
       "sentenceIndex": 8,
@@ -821,12 +787,10 @@ export default {
         "a bit of sugar"
       ],
       "optionReasons": {
-        "bit-mcq-03": "本句指「少量的某種事物」。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-01": "「表示某種性質或狀態只達到較低程度；有點／稍微」是「a bit — degree」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-03": "本句的「a bit of sugar」指「少量的某種事物」。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-03"
     },
@@ -838,11 +802,9 @@ export default {
       "masked": "Wait ____.",
       "options": [
         "bit-mcq-04",
-        "bit-mcq-03",
-        "bit-mcq-05",
-        "bit-mcq-02",
-        "bit-mcq-06",
-        "bit-mcq-01"
+        "bit-mcq-22",
+        "bit-mcq-20",
+        "bit-mcq-17"
       ],
       "explanation": "本句的「a little bit」指「很少量或較低程度；一點點」。",
       "sentenceIndex": 9,
@@ -851,12 +813,10 @@ export default {
         "a little bit"
       ],
       "optionReasons": {
-        "bit-mcq-04": "本句指「很少量或較低程度；一點點」。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-01": "「表示某種性質或狀態只達到較低程度；有點／稍微」是「a bit — degree」的用法，與本句語境不同。"
+        "bit-mcq-04": "本句的「a little bit」指「很少量或較低程度；一點點」。",
+        "bit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-04"
     },
@@ -868,11 +828,9 @@ export default {
       "masked": "I understand ____.",
       "options": [
         "bit-mcq-04",
-        "bit-mcq-03",
-        "bit-mcq-05",
-        "bit-mcq-02",
-        "bit-mcq-06",
-        "bit-mcq-01"
+        "bit-mcq-08",
+        "bit-mcq-23",
+        "bit-mcq-17"
       ],
       "explanation": "本句的「a little bit」指「很少量或較低程度；一點點」。",
       "sentenceIndex": 10,
@@ -881,12 +839,10 @@ export default {
         "a little bit"
       ],
       "optionReasons": {
-        "bit-mcq-04": "本句指「很少量或較低程度；一點點」。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-01": "「表示某種性質或狀態只達到較低程度；有點／稍微」是「a bit — degree」的用法，與本句語境不同。"
+        "bit-mcq-04": "本句的「a little bit」指「很少量或較低程度；一點點」。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-04"
     },
@@ -898,11 +854,9 @@ export default {
       "masked": "A ____ of paper was stuck to the table.",
       "options": [
         "bit-mcq-05",
-        "bit-mcq-04",
-        "bit-mcq-06",
-        "bit-mcq-03",
-        "bit-mcq-07",
-        "bit-mcq-02"
+        "bit-mcq-24",
+        "bit-mcq-18",
+        "bit-mcq-15"
       ],
       "explanation": "本句的「bit」指「從較大整體中分出來的一小塊／小部分」。",
       "sentenceIndex": 11,
@@ -911,12 +865,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-05": "本句指「從較大整體中分出來的一小塊／小部分」。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。"
+        "bit-mcq-05": "本句的「bit」指「從較大整體中分出來的一小塊／小部分」。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-05"
     },
@@ -928,11 +880,9 @@ export default {
       "masked": "She broke the bread into small ____.",
       "options": [
         "bit-mcq-05",
-        "bit-mcq-04",
-        "bit-mcq-06",
-        "bit-mcq-03",
-        "bit-mcq-07",
-        "bit-mcq-02"
+        "bit-mcq-15",
+        "bit-mcq-16",
+        "bit-mcq-18"
       ],
       "explanation": "本句的「bits」指「從較大整體中分出來的一小塊／小部分」。",
       "sentenceIndex": 12,
@@ -941,12 +891,10 @@ export default {
         "bits"
       ],
       "optionReasons": {
-        "bit-mcq-05": "本句指「從較大整體中分出來的一小塊／小部分」。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-02": "「在某些方面有少量相似，但並非完全一樣」是「a bit like」的用法，與本句語境不同。"
+        "bit-mcq-05": "本句的「bits」指「從較大整體中分出來的一小塊／小部分」。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-05"
     },
@@ -958,11 +906,9 @@ export default {
       "masked": "There were ____ of glass on the floor.",
       "options": [
         "bit-mcq-06",
-        "bit-mcq-05",
-        "bit-mcq-07",
-        "bit-mcq-04",
-        "bit-mcq-08",
-        "bit-mcq-03"
+        "bit-mcq-18",
+        "bit-mcq-24",
+        "bit-mcq-11"
       ],
       "explanation": "本句的「bits」指「若干細小的碎片、部分或小塊」。",
       "sentenceIndex": 13,
@@ -971,12 +917,10 @@ export default {
         "bits"
       ],
       "optionReasons": {
-        "bit-mcq-06": "本句指「若干細小的碎片、部分或小塊」。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。"
+        "bit-mcq-06": "本句的「bits」指「若干細小的碎片、部分或小塊」。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-06"
     },
@@ -988,11 +932,9 @@ export default {
       "masked": "Cut the fruit into small ____.",
       "options": [
         "bit-mcq-06",
-        "bit-mcq-05",
-        "bit-mcq-07",
-        "bit-mcq-04",
-        "bit-mcq-08",
-        "bit-mcq-03"
+        "bit-mcq-11",
+        "bit-mcq-18",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「bits」指「若干細小的碎片、部分或小塊」。",
       "sentenceIndex": 14,
@@ -1001,12 +943,10 @@ export default {
         "bits"
       ],
       "optionReasons": {
-        "bit-mcq-06": "本句指「若干細小的碎片、部分或小塊」。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-03": "「少量的某種事物」是「a bit of + noun」的用法，與本句語境不同。"
+        "bit-mcq-06": "本句的「bits」指「若干細小的碎片、部分或小塊」。",
+        "bit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-06"
     },
@@ -1018,11 +958,9 @@ export default {
       "masked": "That was my favourite ____ of the film.",
       "options": [
         "bit-mcq-07",
-        "bit-mcq-06",
-        "bit-mcq-08",
-        "bit-mcq-05",
-        "bit-mcq-09",
-        "bit-mcq-04"
+        "bit-mcq-13",
+        "bit-mcq-18",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「bit」指「故事、影片、內容或經歷中的一個較小部分／片段」。",
       "sentenceIndex": 15,
@@ -1031,12 +969,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-07": "本句指「故事、影片、內容或經歷中的一個較小部分／片段」。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。"
+        "bit-mcq-07": "本句的「bit」指「故事、影片、內容或經歷中的一個較小部分／片段」。",
+        "bit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-07"
     },
@@ -1048,11 +984,9 @@ export default {
       "masked": "I didn’t understand the last ____.",
       "options": [
         "bit-mcq-07",
-        "bit-mcq-06",
-        "bit-mcq-08",
-        "bit-mcq-05",
-        "bit-mcq-09",
-        "bit-mcq-04"
+        "bit-mcq-02",
+        "bit-mcq-16",
+        "bit-mcq-18"
       ],
       "explanation": "本句的「bit」指「故事、影片、內容或經歷中的一個較小部分／片段」。",
       "sentenceIndex": 16,
@@ -1061,12 +995,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-07": "本句指「故事、影片、內容或經歷中的一個較小部分／片段」。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-04": "「很少量或較低程度；一點點」是「a little bit」的用法，與本句語境不同。"
+        "bit-mcq-07": "本句的「bit」指「故事、影片、內容或經歷中的一個較小部分／片段」。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-07"
     },
@@ -1078,11 +1010,9 @@ export default {
       "masked": "The best ____ was the ending.",
       "options": [
         "bit-mcq-23",
-        "bit-mcq-22",
-        "bit-mcq-24",
-        "bit-mcq-21",
-        "bit-mcq-20",
-        "bit-mcq-19"
+        "bit-mcq-16",
+        "bit-mcq-18",
+        "bit-mcq-10"
       ],
       "explanation": "本句的「bit」指「故事、影片、事件或經歷中的某個片段／部分」。",
       "sentenceIndex": 17,
@@ -1091,12 +1021,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-23": "本句指「故事、影片、事件或經歷中的某個片段／部分」。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-24": "「表示「我有點累。」」是「26. bit = past tense of bite（咬了） — 咬」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。"
+        "bit-mcq-23": "本句的「bit」指「故事、影片、事件或經歷中的某個片段／部分」。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-23"
     },
@@ -1108,11 +1036,9 @@ export default {
       "masked": "The funny ____ comes later.",
       "options": [
         "bit-mcq-23",
-        "bit-mcq-22",
-        "bit-mcq-24",
-        "bit-mcq-21",
-        "bit-mcq-20",
-        "bit-mcq-19"
+        "bit-mcq-04",
+        "bit-mcq-10",
+        "bit-mcq-15"
       ],
       "explanation": "本句的「bit」指「故事、影片、事件或經歷中的某個片段／部分」。",
       "sentenceIndex": 18,
@@ -1121,12 +1047,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-23": "本句指「故事、影片、事件或經歷中的某個片段／部分」。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-24": "「表示「我有點累。」」是「26. bit = past tense of bite（咬了） — 咬」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。"
+        "bit-mcq-23": "本句的「bit」指「故事、影片、事件或經歷中的某個片段／部分」。",
+        "bit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-23"
     },
@@ -1138,11 +1062,9 @@ export default {
       "masked": "Stay for a ____.",
       "options": [
         "bit-mcq-08",
-        "bit-mcq-07",
-        "bit-mcq-09",
-        "bit-mcq-06",
-        "bit-mcq-10",
-        "bit-mcq-05"
+        "bit-mcq-21",
+        "bit-mcq-24",
+        "bit-mcq-15"
       ],
       "explanation": "本句的「bit」指「一小段時間；一會兒」。",
       "sentenceIndex": 19,
@@ -1151,12 +1073,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-08": "本句指「一小段時間；一會兒」。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。"
+        "bit-mcq-08": "本句的「bit」指「一小段時間；一會兒」。",
+        "bit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-08"
     },
@@ -1168,11 +1088,9 @@ export default {
       "masked": "I’ll sit here for a ____.",
       "options": [
         "bit-mcq-08",
-        "bit-mcq-07",
-        "bit-mcq-09",
-        "bit-mcq-06",
-        "bit-mcq-10",
-        "bit-mcq-05"
+        "bit-mcq-19",
+        "bit-mcq-18",
+        "bit-mcq-04"
       ],
       "explanation": "本句的「bit」指「一小段時間；一會兒」。",
       "sentenceIndex": 20,
@@ -1181,12 +1099,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-08": "本句指「一小段時間；一會兒」。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。"
+        "bit-mcq-08": "本句的「bit」指「一小段時間；一會兒」。",
+        "bit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-08"
     },
@@ -1198,11 +1114,9 @@ export default {
       "masked": "Wait a ____.",
       "options": [
         "bit-mcq-08",
-        "bit-mcq-07",
-        "bit-mcq-09",
-        "bit-mcq-06",
-        "bit-mcq-10",
-        "bit-mcq-05"
+        "bit-mcq-18",
+        "bit-mcq-03",
+        "bit-mcq-19"
       ],
       "explanation": "本句的「bit」指「一小段時間；一會兒」。",
       "sentenceIndex": 21,
@@ -1211,12 +1125,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-08": "本句指「一小段時間；一會兒」。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。"
+        "bit-mcq-08": "本句的「bit」指「一小段時間；一會兒」。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-08"
     },
@@ -1228,11 +1140,9 @@ export default {
       "masked": "Can you stay a ____ longer?",
       "options": [
         "bit-mcq-08",
-        "bit-mcq-07",
-        "bit-mcq-09",
-        "bit-mcq-06",
-        "bit-mcq-10",
-        "bit-mcq-05"
+        "bit-mcq-03",
+        "bit-mcq-24",
+        "bit-mcq-19"
       ],
       "explanation": "本句的「bit」指「一小段時間；一會兒」。",
       "sentenceIndex": 22,
@@ -1241,12 +1151,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-08": "本句指「一小段時間；一會兒」。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-05": "「從較大整體中分出來的一小塊／小部分」是「bit — small physical piece」的用法，與本句語境不同。"
+        "bit-mcq-08": "本句的「bit」指「一小段時間；一會兒」。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-08"
     },
@@ -1258,11 +1166,9 @@ export default {
       "masked": "She improved ____.",
       "options": [
         "bit-mcq-09",
-        "bit-mcq-08",
-        "bit-mcq-10",
-        "bit-mcq-07",
-        "bit-mcq-11",
-        "bit-mcq-06"
+        "bit-mcq-13",
+        "bit-mcq-24",
+        "bit-mcq-02"
       ],
       "explanation": "本句的「bit by bit」指「一小部分接一小部分地進行；逐漸地」。",
       "sentenceIndex": 23,
@@ -1271,12 +1177,10 @@ export default {
         "bit by bit"
       ],
       "optionReasons": {
-        "bit-mcq-09": "本句指「一小部分接一小部分地進行；逐漸地」。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-09": "本句的「bit by bit」指「一小部分接一小部分地進行；逐漸地」。",
+        "bit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-09"
     },
@@ -1288,11 +1192,9 @@ export default {
       "masked": "The old building was repaired ____.",
       "options": [
         "bit-mcq-09",
-        "bit-mcq-08",
-        "bit-mcq-10",
-        "bit-mcq-07",
         "bit-mcq-11",
-        "bit-mcq-06"
+        "bit-mcq-24",
+        "bit-mcq-03"
       ],
       "explanation": "本句的「bit by bit」指「一小部分接一小部分地進行；逐漸地」。",
       "sentenceIndex": 24,
@@ -1301,12 +1203,10 @@ export default {
         "bit by bit"
       ],
       "optionReasons": {
-        "bit-mcq-09": "本句指「一小部分接一小部分地進行；逐漸地」。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-06": "「若干細小的碎片、部分或小塊」是「bits — fragments」的用法，與本句語境不同。"
+        "bit-mcq-09": "本句的「bit by bit」指「一小部分接一小部分地進行；逐漸地」。",
+        "bit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-09"
     },
@@ -1318,11 +1218,9 @@ export default {
       "masked": "There are a few ____ on the table.",
       "options": [
         "bit-mcq-10",
-        "bit-mcq-09",
-        "bit-mcq-11",
-        "bit-mcq-08",
-        "bit-mcq-12",
-        "bit-mcq-07"
+        "bit-mcq-03",
+        "bit-mcq-18",
+        "bit-mcq-01"
       ],
       "explanation": "本句的「bits and pieces」指「各種細小、零碎、未必彼此相同的東西／事情」。",
       "sentenceIndex": 25,
@@ -1331,12 +1229,10 @@ export default {
         "bits and pieces"
       ],
       "optionReasons": {
-        "bit-mcq-10": "本句指「各種細小、零碎、未必彼此相同的東西／事情」。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。"
+        "bit-mcq-10": "本句的「bits and pieces」指「各種細小、零碎、未必彼此相同的東西／事情」。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-10"
     },
@@ -1348,11 +1244,9 @@ export default {
       "masked": "I still have some ____ to finish.",
       "options": [
         "bit-mcq-10",
-        "bit-mcq-09",
-        "bit-mcq-11",
-        "bit-mcq-08",
-        "bit-mcq-12",
-        "bit-mcq-07"
+        "bit-mcq-13",
+        "bit-mcq-24",
+        "bit-mcq-23"
       ],
       "explanation": "本句的「bits and pieces」指「各種細小、零碎、未必彼此相同的東西／事情」。",
       "sentenceIndex": 26,
@@ -1361,12 +1255,10 @@ export default {
         "bits and pieces"
       ],
       "optionReasons": {
-        "bit-mcq-10": "本句指「各種細小、零碎、未必彼此相同的東西／事情」。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-07": "「故事、影片、內容或經歷中的一個較小部分／片段」是「bit — section」的用法，與本句語境不同。"
+        "bit-mcq-10": "本句的「bits and pieces」指「各種細小、零碎、未必彼此相同的東西／事情」。",
+        "bit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-10"
     },
@@ -1378,11 +1270,9 @@ export default {
       "masked": "She is ____ as people say.",
       "options": [
         "bit-mcq-11",
-        "bit-mcq-10",
-        "bit-mcq-12",
-        "bit-mcq-09",
-        "bit-mcq-13",
-        "bit-mcq-08"
+        "bit-mcq-06",
+        "bit-mcq-08",
+        "bit-mcq-03"
       ],
       "explanation": "本句的「every bit as patient」指「程度完全相同；絲毫不遜色」。",
       "sentenceIndex": 27,
@@ -1391,12 +1281,10 @@ export default {
         "every bit as patient"
       ],
       "optionReasons": {
-        "bit-mcq-11": "本句指「程度完全相同；絲毫不遜色」。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。"
+        "bit-mcq-11": "本句的「every bit as patient」指「程度完全相同；絲毫不遜色」。",
+        "bit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-11"
     },
@@ -1408,11 +1296,9 @@ export default {
       "masked": "The second version is ____ as the first.",
       "options": [
         "bit-mcq-11",
-        "bit-mcq-10",
-        "bit-mcq-12",
-        "bit-mcq-09",
-        "bit-mcq-13",
-        "bit-mcq-08"
+        "bit-mcq-03",
+        "bit-mcq-14",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「every bit as good」指「程度完全相同；絲毫不遜色」。",
       "sentenceIndex": 28,
@@ -1421,12 +1307,10 @@ export default {
         "every bit as good"
       ],
       "optionReasons": {
-        "bit-mcq-11": "本句指「程度完全相同；絲毫不遜色」。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-08": "「一小段時間；一會兒」是「bit — short time」的用法，與本句語境不同。"
+        "bit-mcq-11": "本句的「every bit as good」指「程度完全相同；絲毫不遜色」。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-11"
     },
@@ -1438,11 +1322,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "bit-mcq-12",
-        "bit-mcq-11",
-        "bit-mcq-13",
-        "bit-mcq-10",
-        "bit-mcq-14",
-        "bit-mcq-09"
+        "bit-mcq-15",
+        "bit-mcq-06",
+        "bit-mcq-03"
       ],
       "explanation": "本句的「not a bit tired」指「完全沒有某種程度；一點也不」。",
       "sentenceIndex": 29,
@@ -1451,12 +1333,10 @@ export default {
         "not a bit tired"
       ],
       "optionReasons": {
-        "bit-mcq-12": "本句指「完全沒有某種程度；一點也不」。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。"
+        "bit-mcq-12": "本句的「not a bit tired」指「完全沒有某種程度；一點也不」。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-12"
     },
@@ -1468,11 +1348,9 @@ export default {
       "masked": "She wasn’t ____.",
       "options": [
         "bit-mcq-12",
-        "bit-mcq-11",
-        "bit-mcq-13",
-        "bit-mcq-10",
-        "bit-mcq-14",
-        "bit-mcq-09"
+        "bit-mcq-08",
+        "bit-mcq-15",
+        "bit-mcq-10"
       ],
       "explanation": "本句的「a bit worried」指「完全沒有某種程度；一點也不」。",
       "sentenceIndex": 30,
@@ -1481,12 +1359,10 @@ export default {
         "a bit worried"
       ],
       "optionReasons": {
-        "bit-mcq-12": "本句指「完全沒有某種程度；一點也不」。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-09": "「一小部分接一小部分地進行；逐漸地」是「bit by bit」的用法，與本句語境不同。"
+        "bit-mcq-12": "本句的「a bit worried」指「完全沒有某種程度；一點也不」。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-12"
     },
@@ -1498,11 +1374,9 @@ export default {
       "masked": "We walked ____.",
       "options": [
         "bit-mcq-13",
-        "bit-mcq-12",
-        "bit-mcq-14",
-        "bit-mcq-11",
-        "bit-mcq-15",
-        "bit-mcq-10"
+        "bit-mcq-06",
+        "bit-mcq-20",
+        "bit-mcq-17"
       ],
       "explanation": "本句的「a good bit」指「相當大的數量、時間或程度」。",
       "sentenceIndex": 31,
@@ -1511,12 +1385,10 @@ export default {
         "a good bit"
       ],
       "optionReasons": {
-        "bit-mcq-13": "本句指「相當大的數量、時間或程度」。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。"
+        "bit-mcq-13": "本句的「a good bit」指「相當大的數量、時間或程度」。",
+        "bit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-13"
     },
@@ -1528,11 +1400,9 @@ export default {
       "masked": "That costs ____.",
       "options": [
         "bit-mcq-13",
-        "bit-mcq-12",
+        "bit-mcq-10",
         "bit-mcq-14",
-        "bit-mcq-11",
-        "bit-mcq-15",
-        "bit-mcq-10"
+        "bit-mcq-24"
       ],
       "explanation": "本句的「a fair bit」指「相當大的數量、時間或程度」。",
       "sentenceIndex": 32,
@@ -1541,12 +1411,10 @@ export default {
         "a fair bit"
       ],
       "optionReasons": {
-        "bit-mcq-13": "本句指「相當大的數量、時間或程度」。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-10": "「各種細小、零碎、未必彼此相同的東西／事情」是「bits and pieces」的用法，與本句語境不同。"
+        "bit-mcq-13": "本句的「a fair bit」指「相當大的數量、時間或程度」。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-13"
     },
@@ -1558,11 +1426,9 @@ export default {
       "masked": "I remember a few ____ of the conversation.",
       "options": [
         "bit-mcq-14",
-        "bit-mcq-13",
-        "bit-mcq-15",
-        "bit-mcq-12",
-        "bit-mcq-16",
-        "bit-mcq-11"
+        "bit-mcq-11",
+        "bit-mcq-03",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「bits」指「一小部分資料、內容或建議」。",
       "sentenceIndex": 33,
@@ -1571,12 +1437,10 @@ export default {
         "bits"
       ],
       "optionReasons": {
-        "bit-mcq-14": "本句指「一小部分資料、內容或建議」。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。"
+        "bit-mcq-14": "本句的「bits」指「一小部分資料、內容或建議」。",
+        "bit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-14"
     },
@@ -1589,10 +1453,8 @@ export default {
       "options": [
         "bit-mcq-14",
         "bit-mcq-13",
-        "bit-mcq-15",
-        "bit-mcq-12",
-        "bit-mcq-16",
-        "bit-mcq-11"
+        "bit-mcq-02",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「bit of information」指「一小部分資料、內容或建議」。",
       "sentenceIndex": 34,
@@ -1601,12 +1463,10 @@ export default {
         "bit of information"
       ],
       "optionReasons": {
-        "bit-mcq-14": "本句指「一小部分資料、內容或建議」。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-11": "「程度完全相同；絲毫不遜色」是「every bit as...」的用法，與本句語境不同。"
+        "bit-mcq-14": "本句的「bit of information」指「一小部分資料、內容或建議」。",
+        "bit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-14"
     },
@@ -1618,11 +1478,9 @@ export default {
       "masked": "A ____ can have a value of 0 or 1.",
       "options": [
         "bit-mcq-15",
-        "bit-mcq-14",
-        "bit-mcq-16",
-        "bit-mcq-13",
-        "bit-mcq-17",
-        "bit-mcq-12"
+        "bit-mcq-11",
+        "bit-mcq-03",
+        "bit-mcq-23"
       ],
       "explanation": "本句的「bit」指「只能表示 0 或 1 的最基本二進制資料單位」。",
       "sentenceIndex": 35,
@@ -1631,12 +1489,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-15": "本句指「只能表示 0 或 1 的最基本二進制資料單位」。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。"
+        "bit-mcq-15": "本句的「bit」指「只能表示 0 或 1 的最基本二進制資料單位」。",
+        "bit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-15"
     },
@@ -1648,11 +1504,9 @@ export default {
       "masked": "Eight ____ make one byte.",
       "options": [
         "bit-mcq-15",
-        "bit-mcq-14",
-        "bit-mcq-16",
-        "bit-mcq-13",
-        "bit-mcq-17",
-        "bit-mcq-12"
+        "bit-mcq-04",
+        "bit-mcq-22",
+        "bit-mcq-08"
       ],
       "explanation": "本句的「bits」指「只能表示 0 或 1 的最基本二進制資料單位」。",
       "sentenceIndex": 36,
@@ -1661,12 +1515,10 @@ export default {
         "bits"
       ],
       "optionReasons": {
-        "bit-mcq-15": "本句指「只能表示 0 或 1 的最基本二進制資料單位」。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-12": "「完全沒有某種程度；一點也不」是「not a bit」的用法，與本句語境不同。"
+        "bit-mcq-15": "本句的「bits」指「只能表示 0 或 1 的最基本二進制資料單位」。",
+        "bit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-15"
     },
@@ -1678,11 +1530,9 @@ export default {
       "masked": "Higher audio ____ can improve sound quality.",
       "options": [
         "bit-mcq-16",
-        "bit-mcq-15",
-        "bit-mcq-17",
-        "bit-mcq-14",
-        "bit-mcq-18",
-        "bit-mcq-13"
+        "bit-mcq-10",
+        "bit-mcq-20",
+        "bit-mcq-23"
       ],
       "explanation": "本句的「bit rates」指「每秒傳送或處理的位元數量」。",
       "sentenceIndex": 37,
@@ -1691,12 +1541,10 @@ export default {
         "bit rates"
       ],
       "optionReasons": {
-        "bit-mcq-16": "本句指「每秒傳送或處理的位元數量」。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。"
+        "bit-mcq-16": "本句的「bit rates」指「每秒傳送或處理的位元數量」。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-16"
     },
@@ -1708,11 +1556,9 @@ export default {
       "masked": "The video uses a lower ____ to reduce file size.",
       "options": [
         "bit-mcq-16",
-        "bit-mcq-15",
-        "bit-mcq-17",
-        "bit-mcq-14",
-        "bit-mcq-18",
-        "bit-mcq-13"
+        "bit-mcq-23",
+        "bit-mcq-20",
+        "bit-mcq-24"
       ],
       "explanation": "本句的「bitrate」指「每秒傳送或處理的位元數量」。",
       "sentenceIndex": 38,
@@ -1721,12 +1567,10 @@ export default {
         "bitrate"
       ],
       "optionReasons": {
-        "bit-mcq-16": "本句指「每秒傳送或處理的位元數量」。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-13": "「相當大的數量、時間或程度」是「a fair/good bit」的用法，與本句語境不同。"
+        "bit-mcq-16": "本句的「bitrate」指「每秒傳送或處理的位元數量」。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-16"
     },
@@ -1738,11 +1582,9 @@ export default {
       "masked": "The program uses a ____ operation.",
       "options": [
         "bit-mcq-17",
-        "bit-mcq-16",
-        "bit-mcq-18",
-        "bit-mcq-15",
-        "bit-mcq-19",
-        "bit-mcq-14"
+        "bit-mcq-04",
+        "bit-mcq-20",
+        "bit-mcq-06"
       ],
       "explanation": "本句的「bitwise」指「對每個二進制位元分別進行操作的」。",
       "sentenceIndex": 39,
@@ -1751,12 +1593,10 @@ export default {
         "bitwise"
       ],
       "optionReasons": {
-        "bit-mcq-17": "本句指「對每個二進制位元分別進行操作的」。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。"
+        "bit-mcq-17": "本句的「bitwise」指「對每個二進制位元分別進行操作的」。",
+        "bit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-17"
     },
@@ -1768,11 +1608,9 @@ export default {
       "masked": "A ____ comparison checks individual binary digits.",
       "options": [
         "bit-mcq-17",
-        "bit-mcq-16",
-        "bit-mcq-18",
-        "bit-mcq-15",
-        "bit-mcq-19",
-        "bit-mcq-14"
+        "bit-mcq-24",
+        "bit-mcq-03",
+        "bit-mcq-08"
       ],
       "explanation": "本句的「bitwise」指「對每個二進制位元分別進行操作的」。",
       "sentenceIndex": 40,
@@ -1781,12 +1619,10 @@ export default {
         "bitwise"
       ],
       "optionReasons": {
-        "bit-mcq-17": "本句指「對每個二進制位元分別進行操作的」。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-14": "「一小部分資料、內容或建議」是「bit of information/advice」的用法，與本句語境不同。"
+        "bit-mcq-17": "本句的「bitwise」指「對每個二進制位元分別進行操作的」。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-17"
     },
@@ -1798,11 +1634,9 @@ export default {
       "masked": "The rider adjusted the horse’s ____.",
       "options": [
         "bit-mcq-18",
-        "bit-mcq-17",
-        "bit-mcq-19",
-        "bit-mcq-16",
-        "bit-mcq-20",
-        "bit-mcq-15"
+        "bit-mcq-23",
+        "bit-mcq-10",
+        "bit-mcq-20"
       ],
       "explanation": "本句的「bit」指「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」。",
       "sentenceIndex": 41,
@@ -1811,12 +1645,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-18": "本句指「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。"
+        "bit-mcq-18": "本句的「bit」指「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-18"
     },
@@ -1828,11 +1660,9 @@ export default {
       "masked": "The reins are attached to the ____.",
       "options": [
         "bit-mcq-18",
-        "bit-mcq-17",
-        "bit-mcq-19",
-        "bit-mcq-16",
-        "bit-mcq-20",
-        "bit-mcq-15"
+        "bit-mcq-04",
+        "bit-mcq-07",
+        "bit-mcq-10"
       ],
       "explanation": "本句的「bit」指「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」。",
       "sentenceIndex": 42,
@@ -1841,12 +1671,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-18": "本句指「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-15": "「只能表示 0 或 1 的最基本二進制資料單位」是「bit — computing」的用法，與本句語境不同。"
+        "bit-mcq-18": "本句的「bit」指「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」。",
+        "bit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-18"
     },
@@ -1858,11 +1686,9 @@ export default {
       "masked": "Use a smaller drill ____.",
       "options": [
         "bit-mcq-19",
-        "bit-mcq-18",
-        "bit-mcq-20",
-        "bit-mcq-17",
-        "bit-mcq-21",
-        "bit-mcq-16"
+        "bit-mcq-13",
+        "bit-mcq-10",
+        "bit-mcq-20"
       ],
       "explanation": "本句的「bit」指「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」。",
       "sentenceIndex": 43,
@@ -1871,12 +1697,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-19": "本句指「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。"
+        "bit-mcq-19": "本句的「bit」指「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」。",
+        "bit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-19"
     },
@@ -1888,11 +1712,9 @@ export default {
       "masked": "The screwdriver ____ needs replacing.",
       "options": [
         "bit-mcq-19",
-        "bit-mcq-18",
-        "bit-mcq-20",
-        "bit-mcq-17",
-        "bit-mcq-21",
-        "bit-mcq-16"
+        "bit-mcq-12",
+        "bit-mcq-03",
+        "bit-mcq-10"
       ],
       "explanation": "本句的「bit」指「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」。",
       "sentenceIndex": 44,
@@ -1901,12 +1723,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-19": "本句指「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-16": "「每秒傳送或處理的位元數量」是「bit rate」的用法，與本句語境不同。"
+        "bit-mcq-19": "本句的「bit」指「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」。",
+        "bit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-19"
     },
@@ -1918,11 +1738,9 @@ export default {
       "masked": "The comedian performed a funny ____ about travelling.",
       "options": [
         "bit-mcq-20",
-        "bit-mcq-19",
-        "bit-mcq-21",
-        "bit-mcq-18",
-        "bit-mcq-22",
-        "bit-mcq-17"
+        "bit-mcq-16",
+        "bit-mcq-24",
+        "bit-mcq-18"
       ],
       "explanation": "本句的「bit」指「表演、喜劇或節目中的一小段內容／橋段」。",
       "sentenceIndex": 45,
@@ -1931,12 +1749,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-20": "本句指「表演、喜劇或節目中的一小段內容／橋段」。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。"
+        "bit-mcq-20": "本句的「bit」指「表演、喜劇或節目中的一小段內容／橋段」。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-20"
     },
@@ -1948,11 +1764,9 @@ export default {
       "masked": "That ____ always makes the audience laugh.",
       "options": [
         "bit-mcq-20",
-        "bit-mcq-19",
-        "bit-mcq-21",
-        "bit-mcq-18",
-        "bit-mcq-22",
-        "bit-mcq-17"
+        "bit-mcq-16",
+        "bit-mcq-24",
+        "bit-mcq-19"
       ],
       "explanation": "本句的「bit」指「表演、喜劇或節目中的一小段內容／橋段」。",
       "sentenceIndex": 46,
@@ -1961,12 +1775,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-20": "本句指「表演、喜劇或節目中的一小段內容／橋段」。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-17": "「對每個二進制位元分別進行操作的」是「bitwise」的用法，與本句語境不同。"
+        "bit-mcq-20": "本句的「bit」指「表演、喜劇或節目中的一小段內容／橋段」。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-20"
     },
@@ -1978,11 +1790,9 @@ export default {
       "masked": "Everyone should ____ to help.",
       "options": [
         "bit-mcq-21",
-        "bit-mcq-20",
-        "bit-mcq-22",
-        "bit-mcq-19",
-        "bit-mcq-23",
-        "bit-mcq-18"
+        "bit-mcq-18",
+        "bit-mcq-24",
+        "bit-mcq-02"
       ],
       "explanation": "本句的「do their bit」指「為共同目標做自己能力範圍內應做的一部分」。",
       "sentenceIndex": 47,
@@ -1991,12 +1801,10 @@ export default {
         "do their bit"
       ],
       "optionReasons": {
-        "bit-mcq-21": "本句指「為共同目標做自己能力範圍內應做的一部分」。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-23": "「故事、影片、事件或經歷中的某個片段／部分」是「9. the best/worst/funny bit（某一段／部分） — 最好／最差／最好笑的部分」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。"
+        "bit-mcq-21": "本句的「do their bit」指「為共同目標做自己能力範圍內應做的一部分」。",
+        "bit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-21"
     },
@@ -2008,11 +1816,9 @@ export default {
       "masked": "She did her ____ for the community.",
       "options": [
         "bit-mcq-21",
-        "bit-mcq-20",
-        "bit-mcq-22",
-        "bit-mcq-19",
-        "bit-mcq-23",
-        "bit-mcq-18"
+        "bit-mcq-02",
+        "bit-mcq-08",
+        "bit-mcq-15"
       ],
       "explanation": "本句的「bit」指「為共同目標做自己能力範圍內應做的一部分」。",
       "sentenceIndex": 48,
@@ -2021,12 +1827,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-21": "本句指「為共同目標做自己能力範圍內應做的一部分」。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。",
-        "bit-mcq-23": "「故事、影片、事件或經歷中的某個片段／部分」是「9. the best/worst/funny bit（某一段／部分） — 最好／最差／最好笑的部分」的用法，與本句語境不同。",
-        "bit-mcq-18": "「放在馬口中、連接韁繩以協助控制馬匹的金屬裝置」是「bit — horse equipment」的用法，與本句語境不同。"
+        "bit-mcq-21": "本句的「bit」指「為共同目標做自己能力範圍內應做的一部分」。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-21"
     },
@@ -2038,11 +1842,9 @@ export default {
       "masked": "The presentation felt ____.",
       "options": [
         "bit-mcq-22",
-        "bit-mcq-21",
-        "bit-mcq-23",
-        "bit-mcq-20",
+        "bit-mcq-03",
         "bit-mcq-24",
-        "bit-mcq-19"
+        "bit-mcq-15"
       ],
       "explanation": "本句的「bitty」指「由很多細小而缺乏連貫性的部分構成；零碎的」。",
       "sentenceIndex": 49,
@@ -2051,12 +1853,10 @@ export default {
         "bitty"
       ],
       "optionReasons": {
-        "bit-mcq-22": "本句指「由很多細小而缺乏連貫性的部分構成；零碎的」。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-23": "「故事、影片、事件或經歷中的某個片段／部分」是「9. the best/worst/funny bit（某一段／部分） — 最好／最差／最好笑的部分」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-24": "「表示「我有點累。」」是「26. bit = past tense of bite（咬了） — 咬」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。"
+        "bit-mcq-22": "本句的「bitty」指「由很多細小而缺乏連貫性的部分構成；零碎的」。",
+        "bit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-22"
     },
@@ -2068,11 +1868,9 @@ export default {
       "masked": "The story is interesting but rather ____.",
       "options": [
         "bit-mcq-22",
-        "bit-mcq-21",
-        "bit-mcq-23",
-        "bit-mcq-20",
-        "bit-mcq-24",
-        "bit-mcq-19"
+        "bit-mcq-04",
+        "bit-mcq-15",
+        "bit-mcq-08"
       ],
       "explanation": "本句的「bitty」指「由很多細小而缺乏連貫性的部分構成；零碎的」。",
       "sentenceIndex": 50,
@@ -2081,12 +1879,10 @@ export default {
         "bitty"
       ],
       "optionReasons": {
-        "bit-mcq-22": "本句指「由很多細小而缺乏連貫性的部分構成；零碎的」。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-23": "「故事、影片、事件或經歷中的某個片段／部分」是「9. the best/worst/funny bit（某一段／部分） — 最好／最差／最好笑的部分」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-24": "「表示「我有點累。」」是「26. bit = past tense of bite（咬了） — 咬」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。"
+        "bit-mcq-22": "本句的「bitty」指「由很多細小而缺乏連貫性的部分構成；零碎的」。",
+        "bit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-22"
     },
@@ -2098,11 +1894,9 @@ export default {
       "masked": "The dog ____ his hand.",
       "options": [
         "bit-mcq-24",
-        "bit-mcq-23",
         "bit-mcq-22",
-        "bit-mcq-21",
-        "bit-mcq-20",
-        "bit-mcq-19"
+        "bit-mcq-16",
+        "bit-mcq-02"
       ],
       "explanation": "本句的「bit」指「表示「我有點累。」」。",
       "sentenceIndex": 51,
@@ -2111,12 +1905,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-24": "本句指「表示「我有點累。」」。",
-        "bit-mcq-23": "「故事、影片、事件或經歷中的某個片段／部分」是「9. the best/worst/funny bit（某一段／部分） — 最好／最差／最好笑的部分」的用法，與本句語境不同。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。"
+        "bit-mcq-24": "本句的「bit」指「表示「我有點累。」」。",
+        "bit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-24"
     },
@@ -2129,10 +1921,8 @@ export default {
       "options": [
         "bit-mcq-24",
         "bit-mcq-23",
-        "bit-mcq-22",
-        "bit-mcq-21",
-        "bit-mcq-20",
-        "bit-mcq-19"
+        "bit-mcq-02",
+        "bit-mcq-16"
       ],
       "explanation": "本句的「bit」指「表示「我有點累。」」。",
       "sentenceIndex": 52,
@@ -2141,12 +1931,10 @@ export default {
         "bit"
       ],
       "optionReasons": {
-        "bit-mcq-24": "本句指「表示「我有點累。」」。",
-        "bit-mcq-23": "「故事、影片、事件或經歷中的某個片段／部分」是「9. the best/worst/funny bit（某一段／部分） — 最好／最差／最好笑的部分」的用法，與本句語境不同。",
-        "bit-mcq-22": "「由很多細小而缺乏連貫性的部分構成；零碎的」是「bitty」的用法，與本句語境不同。",
-        "bit-mcq-21": "「為共同目標做自己能力範圍內應做的一部分」是「do your bit」的用法，與本句語境不同。",
-        "bit-mcq-20": "「表演、喜劇或節目中的一小段內容／橋段」是「bit — performance」的用法，與本句語境不同。",
-        "bit-mcq-19": "「裝在鑽機／螺絲批等工具上直接進行工作的可更換部分」是「tool bit」的用法，與本句語境不同。"
+        "bit-mcq-24": "本句的「bit」指「表示「我有點累。」」。",
+        "bit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bit-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bit-mcq-24"
     }
@@ -2158,5 +1946,7 @@ export default {
     "sha256": "66af6cfdc9f7555e4e84094f67b7543227c2619d47ec5e60d4480c68673a5cc7",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

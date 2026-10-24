@@ -404,11 +404,7 @@ export default {
       "masked": "Please ____ here until I come back.",
       "options": [
         "stay-mcq-01",
-        "stay-mcq-02",
-        "stay-mcq-03",
-        "stay-mcq-04",
-        "stay-mcq-05",
-        "stay-mcq-06"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「stay」指「繼續留在某個地方，而不是離開或前往其他地方」。",
       "sentenceIndex": 0,
@@ -417,12 +413,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-01": "本句指「繼續留在某個地方，而不是離開或前往其他地方」。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-01": "本句的「stay」指「繼續留在某個地方，而不是離開或前往其他地方」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-01"
     },
@@ -434,11 +426,7 @@ export default {
       "masked": "She decided to ____ at the office a little longer.",
       "options": [
         "stay-mcq-01",
-        "stay-mcq-02",
-        "stay-mcq-03",
-        "stay-mcq-04",
-        "stay-mcq-05",
-        "stay-mcq-06"
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stay」指「繼續留在某個地方，而不是離開或前往其他地方」。",
       "sentenceIndex": 1,
@@ -447,12 +435,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-01": "本句指「繼續留在某個地方，而不是離開或前往其他地方」。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-01": "本句的「stay」指「繼續留在某個地方，而不是離開或前往其他地方」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-01"
     },
@@ -464,11 +448,7 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "stay-mcq-02",
-        "stay-mcq-01",
-        "stay-mcq-03",
-        "stay-mcq-04",
-        "stay-mcq-05",
-        "stay-mcq-06"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「stay calm」指「持續處於某種狀態，沒有改變」。",
       "sentenceIndex": 0,
@@ -477,12 +457,8 @@ export default {
         "stay calm"
       ],
       "optionReasons": {
-        "stay-mcq-02": "本句指「持續處於某種狀態，沒有改變」。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-02": "本句的「stay calm」指「持續處於某種狀態，沒有改變」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-02"
     },
@@ -494,11 +470,7 @@ export default {
       "masked": "The café ____ until midnight.",
       "options": [
         "stay-mcq-02",
-        "stay-mcq-01",
-        "stay-mcq-03",
-        "stay-mcq-04",
-        "stay-mcq-05",
-        "stay-mcq-06"
+        "stay-mcq-13"
       ],
       "explanation": "本句的「stayed open」指「持續處於某種狀態，沒有改變」。",
       "sentenceIndex": 1,
@@ -507,12 +479,8 @@ export default {
         "stayed open"
       ],
       "optionReasons": {
-        "stay-mcq-02": "本句指「持續處於某種狀態，沒有改變」。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-02": "本句的「stayed open」指「持續處於某種狀態，沒有改變」。",
+        "stay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-02"
     },
@@ -524,10 +492,7 @@ export default {
       "masked": "Prices have ____ relatively stable.",
       "options": [
         "stay-mcq-03",
-        "stay-mcq-02",
-        "stay-mcq-04",
-        "stay-mcq-01",
-        "stay-mcq-05",
+        "stay-mcq-13",
         "stay-mcq-06"
       ],
       "explanation": "本句的「stayed」指「某個數值、情況或特質持續維持原來水平」。",
@@ -537,12 +502,9 @@ export default {
         "stayed"
       ],
       "optionReasons": {
-        "stay-mcq-03": "本句指「某個數值、情況或特質持續維持原來水平」。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-03": "本句的「stayed」指「某個數值、情況或特質持續維持原來水平」。",
+        "stay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-03"
     },
@@ -554,10 +516,7 @@ export default {
       "masked": "The temperature ____ below zero all day.",
       "options": [
         "stay-mcq-03",
-        "stay-mcq-02",
-        "stay-mcq-04",
-        "stay-mcq-01",
-        "stay-mcq-05",
+        "stay-mcq-12",
         "stay-mcq-06"
       ],
       "explanation": "本句的「stayed」指「某個數值、情況或特質持續維持原來水平」。",
@@ -567,12 +526,9 @@ export default {
         "stayed"
       ],
       "optionReasons": {
-        "stay-mcq-03": "本句指「某個數值、情況或特質持續維持原來水平」。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-03": "本句的「stayed」指「某個數值、情況或特質持續維持原來水平」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-03"
     },
@@ -584,11 +540,8 @@ export default {
       "masked": "That image really ____.",
       "options": [
         "stay-mcq-04",
-        "stay-mcq-03",
-        "stay-mcq-05",
-        "stay-mcq-02",
-        "stay-mcq-06",
-        "stay-mcq-01"
+        "stay-mcq-12",
+        "stay-mcq-06"
       ],
       "explanation": "本句的「stayed with me」指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
       "sentenceIndex": 0,
@@ -597,12 +550,9 @@ export default {
         "stayed with me"
       ],
       "optionReasons": {
-        "stay-mcq-04": "本句指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。"
+        "stay-mcq-04": "本句的「stayed with me」指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-04"
     },
@@ -614,11 +564,8 @@ export default {
       "masked": "Something the teacher said ____ for years.",
       "options": [
         "stay-mcq-04",
-        "stay-mcq-03",
-        "stay-mcq-05",
-        "stay-mcq-02",
-        "stay-mcq-06",
-        "stay-mcq-01"
+        "stay-mcq-12",
+        "stay-mcq-06"
       ],
       "explanation": "本句的「stayed with me」指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
       "sentenceIndex": 1,
@@ -627,12 +574,9 @@ export default {
         "stayed with me"
       ],
       "optionReasons": {
-        "stay-mcq-04": "本句指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。"
+        "stay-mcq-04": "本句的「stayed with me」指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-04"
     },
@@ -644,11 +588,8 @@ export default {
       "masked": "The final scene of the film ____ long after it ended.",
       "options": [
         "stay-mcq-04",
-        "stay-mcq-03",
-        "stay-mcq-05",
-        "stay-mcq-02",
-        "stay-mcq-06",
-        "stay-mcq-01"
+        "stay-mcq-12",
+        "stay-mcq-06"
       ],
       "explanation": "本句的「stayed with her」指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
       "sentenceIndex": 2,
@@ -657,12 +598,9 @@ export default {
         "stayed with her"
       ],
       "optionReasons": {
-        "stay-mcq-04": "本句指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-01": "「繼續留在某個地方，而不是離開或前往其他地方」是「stay + place」的用法，與本句語境不同。"
+        "stay-mcq-04": "本句的「stayed with her」指「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-04"
     },
@@ -674,11 +612,7 @@ export default {
       "masked": "I’m ____ my sister this weekend.",
       "options": [
         "stay-mcq-05",
-        "stay-mcq-04",
-        "stay-mcq-06",
-        "stay-mcq-03",
-        "stay-mcq-07",
-        "stay-mcq-02"
+        "stay-mcq-16"
       ],
       "explanation": "本句的「staying with」指「暫時住在某人的住所」。",
       "sentenceIndex": 0,
@@ -687,12 +621,8 @@ export default {
         "staying with"
       ],
       "optionReasons": {
-        "stay-mcq-05": "本句指「暫時住在某人的住所」。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。"
+        "stay-mcq-05": "本句的「staying with」指「暫時住在某人的住所」。",
+        "stay-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-05"
     },
@@ -704,10 +634,6 @@ export default {
       "masked": "They ____ friends while their apartment was being repaired.",
       "options": [
         "stay-mcq-05",
-        "stay-mcq-04",
-        "stay-mcq-06",
-        "stay-mcq-03",
-        "stay-mcq-07",
         "stay-mcq-02"
       ],
       "explanation": "本句的「stayed with」指「暫時住在某人的住所」。",
@@ -717,12 +643,8 @@ export default {
         "stayed with"
       ],
       "optionReasons": {
-        "stay-mcq-05": "本句指「暫時住在某人的住所」。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。",
-        "stay-mcq-02": "「持續處於某種狀態，沒有改變」是「stay + adjective/state」的用法，與本句語境不同。"
+        "stay-mcq-05": "本句的「stayed with」指「暫時住在某人的住所」。",
+        "stay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-05"
     },
@@ -734,11 +656,8 @@ export default {
       "masked": "We ____ a small hotel near the station.",
       "options": [
         "stay-mcq-06",
-        "stay-mcq-05",
-        "stay-mcq-07",
-        "stay-mcq-04",
-        "stay-mcq-08",
-        "stay-mcq-03"
+        "stay-mcq-03",
+        "stay-mcq-13"
       ],
       "explanation": "本句的「stayed at」指「在某地方短期住宿或逗留，而非永久居住」。",
       "sentenceIndex": 0,
@@ -747,12 +666,9 @@ export default {
         "stayed at"
       ],
       "optionReasons": {
-        "stay-mcq-06": "本句指「在某地方短期住宿或逗留，而非永久居住」。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。"
+        "stay-mcq-06": "本句的「stayed at」指「在某地方短期住宿或逗留，而非永久居住」。",
+        "stay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-06"
     },
@@ -764,10 +680,7 @@ export default {
       "masked": "She ____ Paris for three weeks.",
       "options": [
         "stay-mcq-06",
-        "stay-mcq-05",
-        "stay-mcq-07",
-        "stay-mcq-04",
-        "stay-mcq-08",
+        "stay-mcq-12",
         "stay-mcq-03"
       ],
       "explanation": "本句的「stayed in」指「在某地方短期住宿或逗留，而非永久居住」。",
@@ -777,12 +690,9 @@ export default {
         "stayed in"
       ],
       "optionReasons": {
-        "stay-mcq-06": "本句指「在某地方短期住宿或逗留，而非永久居住」。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-03": "「某個數值、情況或特質持續維持原來水平」是「stay — level/situation」的用法，與本句語境不同。"
+        "stay-mcq-06": "本句的「stayed in」指「在某地方短期住宿或逗留，而非永久居住」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-06"
     },
@@ -794,11 +704,7 @@ export default {
       "masked": "We ____ for another hour after dinner.",
       "options": [
         "stay-mcq-07",
-        "stay-mcq-06",
-        "stay-mcq-08",
-        "stay-mcq-05",
-        "stay-mcq-09",
-        "stay-mcq-04"
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stayed」指「在某地方繼續逗留一段時間，而不是立即離開」。",
       "sentenceIndex": 0,
@@ -807,12 +713,8 @@ export default {
         "stayed"
       ],
       "optionReasons": {
-        "stay-mcq-07": "本句指「在某地方繼續逗留一段時間，而不是立即離開」。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。"
+        "stay-mcq-07": "本句的「stayed」指「在某地方繼續逗留一段時間，而不是立即離開」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-07"
     },
@@ -824,11 +726,7 @@ export default {
       "masked": "I can’t ____ long because I have another appointment.",
       "options": [
         "stay-mcq-07",
-        "stay-mcq-06",
-        "stay-mcq-08",
-        "stay-mcq-05",
-        "stay-mcq-09",
-        "stay-mcq-04"
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stay」指「在某地方繼續逗留一段時間，而不是立即離開」。",
       "sentenceIndex": 1,
@@ -837,12 +735,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-07": "本句指「在某地方繼續逗留一段時間，而不是立即離開」。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-05": "「暫時住在某人的住所」是「person stays with someone」的用法，與本句語境不同。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。",
-        "stay-mcq-04": "「某個畫面、說話或經歷在事情過後仍長時間留在記憶中」是「image/memory stays with someone」的用法，與本句語境不同。"
+        "stay-mcq-07": "本句的「stay」指「在某地方繼續逗留一段時間，而不是立即離開」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-07"
     },
@@ -854,11 +748,7 @@ export default {
       "masked": "She decided to ____ in the competition.",
       "options": [
         "stay-mcq-17",
-        "stay-mcq-16",
-        "stay-mcq-18",
-        "stay-mcq-15",
-        "stay-mcq-14",
-        "stay-mcq-13"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「stay」指「繼續處於某項活動、職業或情況之中，而不是退出或停止」。",
       "sentenceIndex": 0,
@@ -867,12 +757,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-17": "本句指「繼續處於某項活動、職業或情況之中，而不是退出或停止」。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-18": "「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」是「14. staying = continuing to remain somewhere/in a state（停留／保持的過程） — 逗留；住宿；保持」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。"
+        "stay-mcq-17": "本句的「stay」指「繼續處於某項活動、職業或情況之中，而不是退出或停止」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-17"
     },
@@ -884,11 +770,7 @@ export default {
       "masked": "He plans to ____ in the profession for several more years.",
       "options": [
         "stay-mcq-17",
-        "stay-mcq-16",
-        "stay-mcq-18",
-        "stay-mcq-15",
-        "stay-mcq-14",
-        "stay-mcq-13"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「stay」指「繼續處於某項活動、職業或情況之中，而不是退出或停止」。",
       "sentenceIndex": 1,
@@ -897,12 +779,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-17": "本句指「繼續處於某項活動、職業或情況之中，而不是退出或停止」。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-18": "「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」是「14. staying = continuing to remain somewhere/in a state（停留／保持的過程） — 逗留；住宿；保持」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。"
+        "stay-mcq-17": "本句的「stay」指「繼續處於某項活動、職業或情況之中，而不是退出或停止」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-17"
     },
@@ -914,11 +792,7 @@ export default {
       "masked": "____ on this road for another five kilometres.",
       "options": [
         "stay-mcq-09",
-        "stay-mcq-08",
-        "stay-mcq-10",
-        "stay-mcq-07",
-        "stay-mcq-11",
-        "stay-mcq-06"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「Stay」指「繼續保持在指定路線、位置或方向上」。",
       "sentenceIndex": 0,
@@ -927,12 +801,8 @@ export default {
         "Stay"
       ],
       "optionReasons": {
-        "stay-mcq-09": "本句指「繼續保持在指定路線、位置或方向上」。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-09": "本句的「Stay」指「繼續保持在指定路線、位置或方向上」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-09"
     },
@@ -944,11 +814,7 @@ export default {
       "masked": "Please ____ in your lane.",
       "options": [
         "stay-mcq-09",
-        "stay-mcq-08",
-        "stay-mcq-10",
-        "stay-mcq-07",
-        "stay-mcq-11",
-        "stay-mcq-06"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「stay」指「繼續保持在指定路線、位置或方向上」。",
       "sentenceIndex": 1,
@@ -957,12 +823,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-09": "本句指「繼續保持在指定路線、位置或方向上」。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-06": "「在某地方短期住宿或逗留，而非永久居住」是「stay at/in accommodation/place」的用法，與本句語境不同。"
+        "stay-mcq-09": "本句的「stay」指「繼續保持在指定路線、位置或方向上」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-09"
     },
@@ -974,11 +836,8 @@ export default {
       "masked": "We enjoyed our ____ at the hotel.",
       "options": [
         "stay-mcq-10",
-        "stay-mcq-09",
-        "stay-mcq-11",
-        "stay-mcq-08",
-        "stay-mcq-12",
-        "stay-mcq-07"
+        "stay-mcq-03",
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stay」指「在某個地方暫時居住或逗留的一段時間」。",
       "sentenceIndex": 0,
@@ -987,12 +846,9 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-10": "本句指「在某個地方暫時居住或逗留的一段時間」。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。"
+        "stay-mcq-10": "本句的「stay」指「在某個地方暫時居住或逗留的一段時間」。",
+        "stay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-10"
     },
@@ -1004,11 +860,8 @@ export default {
       "masked": "Her ____ in Japan lasted three months.",
       "options": [
         "stay-mcq-10",
-        "stay-mcq-09",
-        "stay-mcq-11",
-        "stay-mcq-08",
-        "stay-mcq-12",
-        "stay-mcq-07"
+        "stay-mcq-03",
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stay」指「在某個地方暫時居住或逗留的一段時間」。",
       "sentenceIndex": 1,
@@ -1017,12 +870,9 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-10": "本句指「在某個地方暫時居住或逗留的一段時間」。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-07": "「在某地方繼續逗留一段時間，而不是立即離開」是「stay — remain for a period」的用法，與本句語境不同。"
+        "stay-mcq-10": "本句的「stay」指「在某個地方暫時居住或逗留的一段時間」。",
+        "stay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-10"
     },
@@ -1034,11 +884,8 @@ export default {
       "masked": "He needed a short ____ after the operation.",
       "options": [
         "stay-mcq-11",
-        "stay-mcq-10",
-        "stay-mcq-12",
-        "stay-mcq-09",
-        "stay-mcq-13",
-        "stay-mcq-08"
+        "stay-mcq-06",
+        "stay-mcq-12"
       ],
       "explanation": "本句的「hospital stay」指「留在醫院接受治療或觀察的一段時間」。",
       "sentenceIndex": 0,
@@ -1047,12 +894,9 @@ export default {
         "hospital stay"
       ],
       "optionReasons": {
-        "stay-mcq-11": "本句指「留在醫院接受治療或觀察的一段時間」。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。"
+        "stay-mcq-11": "本句的「hospital stay」指「留在醫院接受治療或觀察的一段時間」。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-11"
     },
@@ -1064,11 +908,8 @@ export default {
       "masked": "Her ____ lasted five days.",
       "options": [
         "stay-mcq-11",
-        "stay-mcq-10",
         "stay-mcq-12",
-        "stay-mcq-09",
-        "stay-mcq-13",
-        "stay-mcq-08"
+        "stay-mcq-06"
       ],
       "explanation": "本句的「hospital stay」指「留在醫院接受治療或觀察的一段時間」。",
       "sentenceIndex": 1,
@@ -1077,12 +918,9 @@ export default {
         "hospital stay"
       ],
       "optionReasons": {
-        "stay-mcq-11": "本句指「留在醫院接受治療或觀察的一段時間」。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-08": "「繼續參與或處於某項活動、職業或情況中」是「stay in activity/profession」的用法，與本句語境不同。"
+        "stay-mcq-11": "本句的「hospital stay」指「留在醫院接受治療或觀察的一段時間」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-11"
     },
@@ -1094,11 +932,7 @@ export default {
       "masked": "The court granted a ____ of the order.",
       "options": [
         "stay-mcq-12",
-        "stay-mcq-11",
-        "stay-mcq-13",
-        "stay-mcq-10",
-        "stay-mcq-14",
-        "stay-mcq-09"
+        "stay-mcq-14"
       ],
       "explanation": "本句的「stay」指「法院正式暫停法律程序、命令或裁決的執行」。",
       "sentenceIndex": 0,
@@ -1107,12 +941,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-12": "本句指「法院正式暫停法律程序、命令或裁決的執行」。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。"
+        "stay-mcq-12": "本句的「stay」指「法院正式暫停法律程序、命令或裁決的執行」。",
+        "stay-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-12"
     },
@@ -1124,11 +954,7 @@ export default {
       "masked": "The judge agreed to ____ the proceedings temporarily.",
       "options": [
         "stay-mcq-12",
-        "stay-mcq-11",
-        "stay-mcq-13",
-        "stay-mcq-10",
-        "stay-mcq-14",
-        "stay-mcq-09"
+        "stay-mcq-07"
       ],
       "explanation": "本句的「stay」指「法院正式暫停法律程序、命令或裁決的執行」。",
       "sentenceIndex": 1,
@@ -1137,12 +963,8 @@ export default {
         "stay"
       ],
       "optionReasons": {
-        "stay-mcq-12": "本句指「法院正式暫停法律程序、命令或裁決的執行」。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-09": "「繼續保持在指定路線、位置或方向上」是「stay on route/in position」的用法，與本句語境不同。"
+        "stay-mcq-12": "本句的「stay」指「法院正式暫停法律程序、命令或裁決的執行」。",
+        "stay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-12"
     },
@@ -1154,11 +976,7 @@ export default {
       "masked": "The court issued a ____.",
       "options": [
         "stay-mcq-13",
-        "stay-mcq-12",
-        "stay-mcq-14",
-        "stay-mcq-11",
-        "stay-mcq-15",
-        "stay-mcq-10"
+        "stay-mcq-16"
       ],
       "explanation": "本句的「stay of execution」指「暫時停止執行法院已作出的判決或刑罰」。",
       "sentenceIndex": 0,
@@ -1167,12 +985,8 @@ export default {
         "stay of execution"
       ],
       "optionReasons": {
-        "stay-mcq-13": "本句指「暫時停止執行法院已作出的判決或刑罰」。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。"
+        "stay-mcq-13": "本句的「stay of execution」指「暫時停止執行法院已作出的判決或刑罰」。",
+        "stay-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-13"
     },
@@ -1184,11 +998,8 @@ export default {
       "masked": "His lawyers requested a ____.",
       "options": [
         "stay-mcq-13",
-        "stay-mcq-12",
-        "stay-mcq-14",
-        "stay-mcq-11",
-        "stay-mcq-15",
-        "stay-mcq-10"
+        "stay-mcq-06",
+        "stay-mcq-03"
       ],
       "explanation": "本句的「stay of execution」指「暫時停止執行法院已作出的判決或刑罰」。",
       "sentenceIndex": 1,
@@ -1197,12 +1008,9 @@ export default {
         "stay of execution"
       ],
       "optionReasons": {
-        "stay-mcq-13": "本句指「暫時停止執行法院已作出的判決或刑罰」。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-10": "「在某個地方暫時居住或逗留的一段時間」是「a stay」的用法，與本句語境不同。"
+        "stay-mcq-13": "本句的「stay of execution」指「暫時停止執行法院已作出的判決或刑罰」。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-13"
     },
@@ -1214,10 +1022,6 @@ export default {
       "masked": "We’re ____ in a hotel near the airport.",
       "options": [
         "stay-mcq-18",
-        "stay-mcq-17",
-        "stay-mcq-16",
-        "stay-mcq-15",
-        "stay-mcq-14",
         "stay-mcq-13"
       ],
       "explanation": "本句的「staying」指「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」。",
@@ -1227,12 +1031,8 @@ export default {
         "staying"
       ],
       "optionReasons": {
-        "stay-mcq-18": "本句指「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」。",
-        "stay-mcq-17": "「繼續處於某項活動、職業或情況之中，而不是退出或停止」是「8. stay = continue doing/being connected to something（持續參與／繼續維持） — 繼續；堅持」的用法，與本句語境不同。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。"
+        "stay-mcq-18": "本句的「staying」指「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」。",
+        "stay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-18"
     },
@@ -1244,10 +1044,6 @@ export default {
       "masked": "____ calm helped her deal with the problem.",
       "options": [
         "stay-mcq-18",
-        "stay-mcq-17",
-        "stay-mcq-16",
-        "stay-mcq-15",
-        "stay-mcq-14",
         "stay-mcq-13"
       ],
       "explanation": "本句的「Staying」指「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」。",
@@ -1257,12 +1053,8 @@ export default {
         "Staying"
       ],
       "optionReasons": {
-        "stay-mcq-18": "本句指「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」。",
-        "stay-mcq-17": "「繼續處於某項活動、職業或情況之中，而不是退出或停止」是「8. stay = continue doing/being connected to something（持續參與／繼續維持） — 繼續；堅持」的用法，與本句語境不同。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。"
+        "stay-mcq-18": "本句的「Staying」指「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」。",
+        "stay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-18"
     },
@@ -1274,11 +1066,7 @@ export default {
       "masked": "He describes himself as a ____ type.",
       "options": [
         "stay-mcq-14",
-        "stay-mcq-13",
-        "stay-mcq-15",
-        "stay-mcq-12",
-        "stay-mcq-16",
-        "stay-mcq-11"
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stay-at-home」指「大部分時間留在家中或主要在家照顧家庭的」。",
       "sentenceIndex": 0,
@@ -1287,12 +1075,8 @@ export default {
         "stay-at-home"
       ],
       "optionReasons": {
-        "stay-mcq-14": "本句指「大部分時間留在家中或主要在家照顧家庭的」。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。"
+        "stay-mcq-14": "本句的「stay-at-home」指「大部分時間留在家中或主要在家照顧家庭的」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-14"
     },
@@ -1304,11 +1088,7 @@ export default {
       "masked": "She became a ____ after the baby was born.",
       "options": [
         "stay-mcq-14",
-        "stay-mcq-13",
-        "stay-mcq-15",
-        "stay-mcq-12",
-        "stay-mcq-16",
-        "stay-mcq-11"
+        "stay-mcq-12"
       ],
       "explanation": "本句的「stay-at-home parent」指「大部分時間留在家中或主要在家照顧家庭的」。",
       "sentenceIndex": 1,
@@ -1317,12 +1097,8 @@ export default {
         "stay-at-home parent"
       ],
       "optionReasons": {
-        "stay-mcq-14": "本句指「大部分時間留在家中或主要在家照顧家庭的」。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-11": "「留在醫院接受治療或觀察的一段時間」是「hospital stay」的用法，與本句語境不同。"
+        "stay-mcq-14": "本句的「stay-at-home parent」指「大部分時間留在家中或主要在家照顧家庭的」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-14"
     },
@@ -1334,11 +1110,8 @@ export default {
       "masked": "The brand has shown remarkable ____.",
       "options": [
         "stay-mcq-15",
-        "stay-mcq-14",
-        "stay-mcq-16",
-        "stay-mcq-13",
-        "stay-mcq-17",
-        "stay-mcq-12"
+        "stay-mcq-12",
+        "stay-mcq-06"
       ],
       "explanation": "本句的「staying power」指「能長時間維持力量、人氣、努力或成功的能力」。",
       "sentenceIndex": 0,
@@ -1347,12 +1120,9 @@ export default {
         "staying power"
       ],
       "optionReasons": {
-        "stay-mcq-15": "本句指「能長時間維持力量、人氣、努力或成功的能力」。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-17": "「繼續處於某項活動、職業或情況之中，而不是退出或停止」是「8. stay = continue doing/being connected to something（持續參與／繼續維持） — 繼續；堅持」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。"
+        "stay-mcq-15": "本句的「staying power」指「能長時間維持力量、人氣、努力或成功的能力」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-15"
     },
@@ -1364,11 +1134,8 @@ export default {
       "masked": "The singer proved that she had real ____.",
       "options": [
         "stay-mcq-15",
-        "stay-mcq-14",
-        "stay-mcq-16",
-        "stay-mcq-13",
-        "stay-mcq-17",
-        "stay-mcq-12"
+        "stay-mcq-12",
+        "stay-mcq-06"
       ],
       "explanation": "本句的「staying power」指「能長時間維持力量、人氣、努力或成功的能力」。",
       "sentenceIndex": 1,
@@ -1377,12 +1144,9 @@ export default {
         "staying power"
       ],
       "optionReasons": {
-        "stay-mcq-15": "本句指「能長時間維持力量、人氣、努力或成功的能力」。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-16": "「繼續留在目前位置，不要離開或移動」是「stay put」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。",
-        "stay-mcq-17": "「繼續處於某項活動、職業或情況之中，而不是退出或停止」是「8. stay = continue doing/being connected to something（持續參與／繼續維持） — 繼續；堅持」的用法，與本句語境不同。",
-        "stay-mcq-12": "「法院正式暫停法律程序、命令或裁決的執行」是「stay — legal」的用法，與本句語境不同。"
+        "stay-mcq-15": "本句的「staying power」指「能長時間維持力量、人氣、努力或成功的能力」。",
+        "stay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stay-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-15"
     },
@@ -1394,11 +1158,7 @@ export default {
       "masked": "____ until I come back.",
       "options": [
         "stay-mcq-16",
-        "stay-mcq-15",
-        "stay-mcq-17",
-        "stay-mcq-14",
-        "stay-mcq-18",
-        "stay-mcq-13"
+        "stay-mcq-05"
       ],
       "explanation": "本句的「Stay put」指「繼續留在目前位置，不要離開或移動」。",
       "sentenceIndex": 0,
@@ -1407,12 +1167,8 @@ export default {
         "Stay put"
       ],
       "optionReasons": {
-        "stay-mcq-16": "本句指「繼續留在目前位置，不要離開或移動」。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-17": "「繼續處於某項活動、職業或情況之中，而不是退出或停止」是「8. stay = continue doing/being connected to something（持續參與／繼續維持） — 繼續；堅持」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-18": "「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」是「14. staying = continuing to remain somewhere/in a state（停留／保持的過程） — 逗留；住宿；保持」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。"
+        "stay-mcq-16": "本句的「Stay put」指「繼續留在目前位置，不要離開或移動」。",
+        "stay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-16"
     },
@@ -1424,10 +1180,6 @@ export default {
       "masked": "The doctor told him to ____ for a few minutes.",
       "options": [
         "stay-mcq-16",
-        "stay-mcq-15",
-        "stay-mcq-17",
-        "stay-mcq-14",
-        "stay-mcq-18",
         "stay-mcq-13"
       ],
       "explanation": "本句的「stay put」指「繼續留在目前位置，不要離開或移動」。",
@@ -1437,12 +1189,8 @@ export default {
         "stay put"
       ],
       "optionReasons": {
-        "stay-mcq-16": "本句指「繼續留在目前位置，不要離開或移動」。",
-        "stay-mcq-15": "「能長時間維持力量、人氣、努力或成功的能力」是「staying power」的用法，與本句語境不同。",
-        "stay-mcq-17": "「繼續處於某項活動、職業或情況之中，而不是退出或停止」是「8. stay = continue doing/being connected to something（持續參與／繼續維持） — 繼續；堅持」的用法，與本句語境不同。",
-        "stay-mcq-14": "「大部分時間留在家中或主要在家照顧家庭的」是「stay-at-home」的用法，與本句語境不同。",
-        "stay-mcq-18": "「stay 的持續形式，可表示正在停留、住宿或保持某種狀態」是「14. staying = continuing to remain somewhere/in a state（停留／保持的過程） — 逗留；住宿；保持」的用法，與本句語境不同。",
-        "stay-mcq-13": "「暫時停止執行法院已作出的判決或刑罰」是「stay of execution」的用法，與本句語境不同。"
+        "stay-mcq-16": "本句的「stay put」指「繼續留在目前位置，不要離開或移動」。",
+        "stay-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stay-mcq-16"
     }
@@ -1455,5 +1203,7 @@ export default {
     "pages": 15,
     "sha256": "e2844a3495308f544c84b2482cc48226eff4005848b7abd83f17ddae949ac71e"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

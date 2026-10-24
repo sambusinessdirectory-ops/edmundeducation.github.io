@@ -1499,11 +1499,9 @@ export default {
       "masked": "However, with more teachers ____ role-play, hot-seating and short performances into lessons, I believe schools are considering drama not to entertain students, but to help them understand ideas more deeply, remember them more vividly and speak with greater confidence.",
       "options": [
         "incorporate-mcq-01",
-        "incorporate-mcq-02",
-        "incorporate-mcq-03",
-        "incorporate-mcq-04",
-        "incorporate-mcq-05",
-        "incorporate-mcq-06"
+        "incorporate-mcq-42",
+        "incorporate-mcq-21",
+        "incorporate-mcq-64"
       ],
       "explanation": "本句的「incorporating」指「把某活動／元素納入並融入較大的課堂或教學整體」。",
       "sentenceIndex": 0,
@@ -1512,12 +1510,10 @@ export default {
         "incorporating"
       ],
       "optionReasons": {
-        "incorporate-mcq-01": "本句指「把某活動／元素納入並融入較大的課堂或教學整體」。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。"
+        "incorporate-mcq-01": "本句的「incorporating」指「把某活動／元素納入並融入較大的課堂或教學整體」。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-01"
     },
@@ -1529,11 +1525,9 @@ export default {
       "masked": "The teacher ____ drama into the lesson.",
       "options": [
         "incorporate-mcq-01",
-        "incorporate-mcq-02",
-        "incorporate-mcq-03",
-        "incorporate-mcq-04",
-        "incorporate-mcq-05",
-        "incorporate-mcq-06"
+        "incorporate-mcq-21",
+        "incorporate-mcq-42",
+        "incorporate-mcq-59"
       ],
       "explanation": "本句的「incorporated」指「把某活動／元素納入並融入較大的課堂或教學整體」。",
       "sentenceIndex": 1,
@@ -1542,12 +1536,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-01": "本句指「把某活動／元素納入並融入較大的課堂或教學整體」。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。"
+        "incorporate-mcq-01": "本句的「incorporated」指「把某活動／元素納入並融入較大的課堂或教學整體」。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-01"
     },
@@ -1559,11 +1551,9 @@ export default {
       "masked": "Schools are increasingly ____ interactive activities into teaching.",
       "options": [
         "incorporate-mcq-01",
-        "incorporate-mcq-02",
-        "incorporate-mcq-03",
-        "incorporate-mcq-04",
-        "incorporate-mcq-05",
-        "incorporate-mcq-06"
+        "incorporate-mcq-55",
+        "incorporate-mcq-42",
+        "incorporate-mcq-59"
       ],
       "explanation": "本句的「incorporating」指「把某活動／元素納入並融入較大的課堂或教學整體」。",
       "sentenceIndex": 2,
@@ -1572,12 +1562,10 @@ export default {
         "incorporating"
       ],
       "optionReasons": {
-        "incorporate-mcq-01": "本句指「把某活動／元素納入並融入較大的課堂或教學整體」。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。"
+        "incorporate-mcq-01": "本句的「incorporating」指「把某活動／元素納入並融入較大的課堂或教學整體」。",
+        "incorporate-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-01"
     },
@@ -1589,11 +1577,9 @@ export default {
       "masked": "The teacher ____ role-play into the lesson.",
       "options": [
         "incorporate-mcq-02",
-        "incorporate-mcq-01",
-        "incorporate-mcq-03",
-        "incorporate-mcq-04",
-        "incorporate-mcq-05",
-        "incorporate-mcq-06"
+        "incorporate-mcq-19",
+        "incorporate-mcq-28",
+        "incorporate-mcq-42"
       ],
       "explanation": "本句的「incorporated」指「把 X 納入／融入 Y，使其成為 Y 的一部分」。",
       "sentenceIndex": 3,
@@ -1602,12 +1588,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-02": "本句指「把 X 納入／融入 Y，使其成為 Y 的一部分」。",
-        "incorporate-mcq-01": "「把某活動／元素納入並融入較大的課堂或教學整體」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。"
+        "incorporate-mcq-02": "本句的「incorporated」指「把 X 納入／融入 Y，使其成為 Y 的一部分」。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-02"
     },
@@ -1619,11 +1603,9 @@ export default {
       "masked": "We should ____ these ideas into the final plan.",
       "options": [
         "incorporate-mcq-02",
-        "incorporate-mcq-01",
-        "incorporate-mcq-03",
-        "incorporate-mcq-04",
-        "incorporate-mcq-05",
-        "incorporate-mcq-06"
+        "incorporate-mcq-09",
+        "incorporate-mcq-28",
+        "incorporate-mcq-42"
       ],
       "explanation": "本句的「incorporate」指「把 X 納入／融入 Y，使其成為 Y 的一部分」。",
       "sentenceIndex": 4,
@@ -1632,12 +1614,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-02": "本句指「把 X 納入／融入 Y，使其成為 Y 的一部分」。",
-        "incorporate-mcq-01": "「把某活動／元素納入並融入較大的課堂或教學整體」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。"
+        "incorporate-mcq-02": "本句的「incorporate」指「把 X 納入／融入 Y，使其成為 Y 的一部分」。",
+        "incorporate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-02"
     },
@@ -1649,11 +1629,9 @@ export default {
       "masked": "Student feedback was ____ into the new plan.",
       "options": [
         "incorporate-mcq-04",
-        "incorporate-mcq-03",
-        "incorporate-mcq-05",
-        "incorporate-mcq-02",
-        "incorporate-mcq-06",
-        "incorporate-mcq-01"
+        "incorporate-mcq-21",
+        "incorporate-mcq-42",
+        "incorporate-mcq-61"
       ],
       "explanation": "本句的「incorporated」指「被納入／融合進一個更大的整體」。",
       "sentenceIndex": 7,
@@ -1662,12 +1640,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-04": "本句指「被納入／融合進一個更大的整體」。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
-        "incorporate-mcq-01": "「把某活動／元素納入並融入較大的課堂或教學整體」與本句語境不同。"
+        "incorporate-mcq-04": "本句的「incorporated」指「被納入／融合進一個更大的整體」。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-04"
     },
@@ -1679,11 +1655,9 @@ export default {
       "masked": "Drama can be ____ into ordinary lessons.",
       "options": [
         "incorporate-mcq-04",
-        "incorporate-mcq-03",
-        "incorporate-mcq-05",
-        "incorporate-mcq-02",
-        "incorporate-mcq-06",
-        "incorporate-mcq-01"
+        "incorporate-mcq-42",
+        "incorporate-mcq-55",
+        "incorporate-mcq-27"
       ],
       "explanation": "本句的「incorporated」指「被納入／融合進一個更大的整體」。",
       "sentenceIndex": 8,
@@ -1692,12 +1666,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-04": "本句指「被納入／融合進一個更大的整體」。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
-        "incorporate-mcq-01": "「把某活動／元素納入並融入較大的課堂或教學整體」與本句語境不同。"
+        "incorporate-mcq-04": "本句的「incorporated」指「被納入／融合進一個更大的整體」。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-04"
     },
@@ -1709,11 +1681,9 @@ export default {
       "masked": "The final proposal ____ ideas from several teachers.",
       "options": [
         "incorporate-mcq-05",
-        "incorporate-mcq-04",
-        "incorporate-mcq-06",
-        "incorporate-mcq-03",
-        "incorporate-mcq-07",
-        "incorporate-mcq-02"
+        "incorporate-mcq-19",
+        "incorporate-mcq-55",
+        "incorporate-mcq-28"
       ],
       "explanation": "本句的「incorporates」指「把不同想法納入作品／計畫中」。",
       "sentenceIndex": 9,
@@ -1722,12 +1692,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-05": "本句指「把不同想法納入作品／計畫中」。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-07": "「採納建議並整合進原有內容」與本句語境不同。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。"
+        "incorporate-mcq-05": "本句的「incorporates」指「把不同想法納入作品／計畫中」。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-05"
     },
@@ -1739,11 +1707,9 @@ export default {
       "masked": "We ____ the feedback into the revised draft.",
       "options": [
         "incorporate-mcq-06",
-        "incorporate-mcq-05",
-        "incorporate-mcq-07",
-        "incorporate-mcq-04",
-        "incorporate-mcq-08",
-        "incorporate-mcq-03"
+        "incorporate-mcq-19",
+        "incorporate-mcq-29",
+        "incorporate-mcq-37"
       ],
       "explanation": "本句的「incorporated」指「按收到的回饋修改並把意見納入成品」。",
       "sentenceIndex": 10,
@@ -1752,12 +1718,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-06": "本句指「按收到的回饋修改並把意見納入成品」。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-07": "「採納建議並整合進原有內容」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。",
-        "incorporate-mcq-08": "「把修改內容納入新版本」與本句語境不同。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。"
+        "incorporate-mcq-06": "本句的「incorporated」指「按收到的回饋修改並把意見納入成品」。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-06"
     },
@@ -1769,11 +1733,9 @@ export default {
       "masked": "The report was revised to ____ several suggestions.",
       "options": [
         "incorporate-mcq-07",
-        "incorporate-mcq-06",
-        "incorporate-mcq-08",
-        "incorporate-mcq-05",
-        "incorporate-mcq-09",
-        "incorporate-mcq-04"
+        "incorporate-mcq-16",
+        "incorporate-mcq-37",
+        "incorporate-mcq-27"
       ],
       "explanation": "本句的「incorporate」指「採納建議並整合進原有內容」。",
       "sentenceIndex": 11,
@@ -1782,12 +1744,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-07": "本句指「採納建議並整合進原有內容」。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
-        "incorporate-mcq-08": "「把修改內容納入新版本」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-09": "「根據評論修改並把有關意見整合進作品」與本句語境不同。",
-        "incorporate-mcq-04": "「被納入／融合進一個更大的整體」與本句語境不同。"
+        "incorporate-mcq-07": "本句的「incorporate」指「採納建議並整合進原有內容」。",
+        "incorporate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-07"
     },
@@ -1799,11 +1759,9 @@ export default {
       "masked": "The latest version ____ all requested changes.",
       "options": [
         "incorporate-mcq-08",
-        "incorporate-mcq-07",
-        "incorporate-mcq-09",
-        "incorporate-mcq-06",
-        "incorporate-mcq-10",
-        "incorporate-mcq-05"
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-17",
+        "incorporate-mcq-21"
       ],
       "explanation": "本句的「incorporates」指「把修改內容納入新版本」。",
       "sentenceIndex": 12,
@@ -1812,12 +1770,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-08": "本句指「把修改內容納入新版本」。",
-        "incorporate-mcq-07": "「採納建議並整合進原有內容」與本句語境不同。",
-        "incorporate-mcq-09": "「根據評論修改並把有關意見整合進作品」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
-        "incorporate-mcq-10": "「把證據融入論證／分析中」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。"
+        "incorporate-mcq-08": "本句的「incorporates」指「把修改內容納入新版本」。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-08"
     },
@@ -1829,11 +1785,9 @@ export default {
       "masked": "Please ____ my comments before submitting the paper.",
       "options": [
         "incorporate-mcq-09",
-        "incorporate-mcq-08",
-        "incorporate-mcq-10",
-        "incorporate-mcq-07",
         "incorporate-mcq-11",
-        "incorporate-mcq-06"
+        "incorporate-mcq-59",
+        "incorporate-mcq-37"
       ],
       "explanation": "本句的「incorporate」指「根據評論修改並把有關意見整合進作品」。",
       "sentenceIndex": 13,
@@ -1842,12 +1796,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-09": "本句指「根據評論修改並把有關意見整合進作品」。",
-        "incorporate-mcq-08": "「把修改內容納入新版本」與本句語境不同。",
-        "incorporate-mcq-10": "「把證據融入論證／分析中」與本句語境不同。",
-        "incorporate-mcq-07": "「採納建議並整合進原有內容」與本句語境不同。",
-        "incorporate-mcq-11": "「把研究資料／結果納入分析、課程等」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。"
+        "incorporate-mcq-09": "本句的「incorporate」指「根據評論修改並把有關意見整合進作品」。",
+        "incorporate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-09"
     },
@@ -1859,11 +1811,9 @@ export default {
       "masked": "Strong essays ____ evidence effectively.",
       "options": [
         "incorporate-mcq-10",
-        "incorporate-mcq-09",
-        "incorporate-mcq-11",
-        "incorporate-mcq-08",
-        "incorporate-mcq-12",
-        "incorporate-mcq-07"
+        "incorporate-mcq-07",
+        "incorporate-mcq-28",
+        "incorporate-mcq-37"
       ],
       "explanation": "本句的「incorporate」指「把證據融入論證／分析中」。",
       "sentenceIndex": 14,
@@ -1872,12 +1822,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-10": "本句指「把證據融入論證／分析中」。",
-        "incorporate-mcq-09": "「根據評論修改並把有關意見整合進作品」與本句語境不同。",
-        "incorporate-mcq-11": "「把研究資料／結果納入分析、課程等」與本句語境不同。",
-        "incorporate-mcq-08": "「把修改內容納入新版本」與本句語境不同。",
-        "incorporate-mcq-12": "「把數據納入模型、分析或系統」與本句語境不同。",
-        "incorporate-mcq-07": "「採納建議並整合進原有內容」與本句語境不同。"
+        "incorporate-mcq-10": "本句的「incorporate」指「把證據融入論證／分析中」。",
+        "incorporate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-10"
     },
@@ -1889,11 +1837,9 @@ export default {
       "masked": "The updated course ____ recent research.",
       "options": [
         "incorporate-mcq-11",
-        "incorporate-mcq-10",
-        "incorporate-mcq-12",
-        "incorporate-mcq-09",
-        "incorporate-mcq-13",
-        "incorporate-mcq-08"
+        "incorporate-mcq-74",
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-15"
       ],
       "explanation": "本句的「incorporates」指「把研究資料／結果納入分析、課程等」。",
       "sentenceIndex": 15,
@@ -1902,12 +1848,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-11": "本句指「把研究資料／結果納入分析、課程等」。",
-        "incorporate-mcq-10": "「把證據融入論證／分析中」與本句語境不同。",
-        "incorporate-mcq-12": "「把數據納入模型、分析或系統」與本句語境不同。",
-        "incorporate-mcq-09": "「根據評論修改並把有關意見整合進作品」與本句語境不同。",
-        "incorporate-mcq-13": "「把理論納入實踐／分析」與本句語境不同。",
-        "incorporate-mcq-08": "「把修改內容納入新版本」與本句語境不同。"
+        "incorporate-mcq-11": "本句的「incorporates」指「把研究資料／結果納入分析、課程等」。",
+        "incorporate-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-11"
     },
@@ -1919,11 +1863,9 @@ export default {
       "masked": "The model ____ data from several sources.",
       "options": [
         "incorporate-mcq-12",
-        "incorporate-mcq-11",
-        "incorporate-mcq-13",
-        "incorporate-mcq-10",
-        "incorporate-mcq-14",
-        "incorporate-mcq-09"
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-74",
+        "incorporate-mcq-28"
       ],
       "explanation": "本句的「incorporates」指「把數據納入模型、分析或系統」。",
       "sentenceIndex": 16,
@@ -1932,12 +1874,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-12": "本句指「把數據納入模型、分析或系統」。",
-        "incorporate-mcq-11": "「把研究資料／結果納入分析、課程等」與本句語境不同。",
-        "incorporate-mcq-13": "「把理論納入實踐／分析」與本句語境不同。",
-        "incorporate-mcq-10": "「把證據融入論證／分析中」與本句語境不同。",
-        "incorporate-mcq-14": "「把知識整合進更大的理解／做法」與本句語境不同。",
-        "incorporate-mcq-09": "「根據評論修改並把有關意見整合進作品」與本句語境不同。"
+        "incorporate-mcq-12": "本句的「incorporates」指「把數據納入模型、分析或系統」。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-12"
     },
@@ -1949,11 +1889,9 @@ export default {
       "masked": "The project ____ theory into practical work.",
       "options": [
         "incorporate-mcq-13",
-        "incorporate-mcq-12",
-        "incorporate-mcq-14",
-        "incorporate-mcq-11",
-        "incorporate-mcq-15",
-        "incorporate-mcq-10"
+        "incorporate-mcq-19",
+        "incorporate-mcq-28",
+        "incorporate-mcq-42"
       ],
       "explanation": "本句的「incorporates」指「把理論納入實踐／分析」。",
       "sentenceIndex": 17,
@@ -1962,12 +1900,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-13": "本句指「把理論納入實踐／分析」。",
-        "incorporate-mcq-12": "「把數據納入模型、分析或系統」與本句語境不同。",
-        "incorporate-mcq-14": "「把知識整合進更大的理解／做法」與本句語境不同。",
-        "incorporate-mcq-11": "「把研究資料／結果納入分析、課程等」與本句語境不同。",
-        "incorporate-mcq-15": "「把某些功能／特色整合到產品／系統中」與本句語境不同。",
-        "incorporate-mcq-10": "「把證據融入論證／分析中」與本句語境不同。"
+        "incorporate-mcq-13": "本句的「incorporates」指「把理論納入實踐／分析」。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-13"
     },
@@ -1979,11 +1915,9 @@ export default {
       "masked": "The device ____ several safety features.",
       "options": [
         "incorporate-mcq-15",
-        "incorporate-mcq-14",
-        "incorporate-mcq-16",
-        "incorporate-mcq-13",
-        "incorporate-mcq-17",
-        "incorporate-mcq-12"
+        "incorporate-mcq-08",
+        "incorporate-mcq-67",
+        "incorporate-mcq-64"
       ],
       "explanation": "本句的「incorporates」指「把某些功能／特色整合到產品／系統中」。",
       "sentenceIndex": 19,
@@ -1992,12 +1926,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-15": "本句指「把某些功能／特色整合到產品／系統中」。",
-        "incorporate-mcq-14": "「把知識整合進更大的理解／做法」與本句語境不同。",
-        "incorporate-mcq-16": "「把科技融入課堂、工作流程、產品等」與本句語境不同。",
-        "incorporate-mcq-13": "「把理論納入實踐／分析」與本句語境不同。",
-        "incorporate-mcq-17": "「把設計元素融合進整體設計」與本句語境不同。",
-        "incorporate-mcq-12": "「把數據納入模型、分析或系統」與本句語境不同。"
+        "incorporate-mcq-15": "本句的「incorporates」指「把某些功能／特色整合到產品／系統中」。",
+        "incorporate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-15"
     },
@@ -2009,11 +1941,9 @@ export default {
       "masked": "The course ____ digital technology.",
       "options": [
         "incorporate-mcq-16",
-        "incorporate-mcq-15",
-        "incorporate-mcq-17",
-        "incorporate-mcq-14",
-        "incorporate-mcq-18",
-        "incorporate-mcq-13"
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-07",
+        "incorporate-mcq-28"
       ],
       "explanation": "本句的「incorporates」指「把科技融入課堂、工作流程、產品等」。",
       "sentenceIndex": 20,
@@ -2022,12 +1952,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-16": "本句指「把科技融入課堂、工作流程、產品等」。",
-        "incorporate-mcq-15": "「把某些功能／特色整合到產品／系統中」與本句語境不同。",
-        "incorporate-mcq-17": "「把設計元素融合進整體設計」與本句語境不同。",
-        "incorporate-mcq-14": "「把知識整合進更大的理解／做法」與本句語境不同。",
-        "incorporate-mcq-18": "「把某材料加入並成為產品／結構的一部分」與本句語境不同。",
-        "incorporate-mcq-13": "「把理論納入實踐／分析」與本句語境不同。"
+        "incorporate-mcq-16": "本句的「incorporates」指「把科技融入課堂、工作流程、產品等」。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-16"
     },
@@ -2039,11 +1967,9 @@ export default {
       "masked": "The building ____ traditional design elements.",
       "options": [
         "incorporate-mcq-17",
-        "incorporate-mcq-16",
-        "incorporate-mcq-18",
-        "incorporate-mcq-15",
-        "incorporate-mcq-19",
-        "incorporate-mcq-14"
+        "incorporate-mcq-59",
+        "incorporate-mcq-56",
+        "incorporate-mcq-67"
       ],
       "explanation": "本句的「incorporates」指「把設計元素融合進整體設計」。",
       "sentenceIndex": 21,
@@ -2052,12 +1978,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-17": "本句指「把設計元素融合進整體設計」。",
-        "incorporate-mcq-16": "「把科技融入課堂、工作流程、產品等」與本句語境不同。",
-        "incorporate-mcq-18": "「把某材料加入並成為產品／結構的一部分」與本句語境不同。",
-        "incorporate-mcq-15": "「把某些功能／特色整合到產品／系統中」與本句語境不同。",
-        "incorporate-mcq-19": "「把元件／功能整合進現有系統」與本句語境不同。",
-        "incorporate-mcq-14": "「把知識整合進更大的理解／做法」與本句語境不同。"
+        "incorporate-mcq-17": "本句的「incorporates」指「把設計元素融合進整體設計」。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-17"
     },
@@ -2069,11 +1993,9 @@ export default {
       "masked": "The structure ____ recycled materials.",
       "options": [
         "incorporate-mcq-18",
-        "incorporate-mcq-17",
         "incorporate-mcq-19",
-        "incorporate-mcq-16",
-        "incorporate-mcq-20",
-        "incorporate-mcq-15"
+        "incorporate-mcq-29",
+        "incorporate-mcq-42"
       ],
       "explanation": "本句的「incorporates」指「把某材料加入並成為產品／結構的一部分」。",
       "sentenceIndex": 22,
@@ -2082,12 +2004,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-18": "本句指「把某材料加入並成為產品／結構的一部分」。",
-        "incorporate-mcq-17": "「把設計元素融合進整體設計」與本句語境不同。",
-        "incorporate-mcq-19": "「把元件／功能整合進現有系統」與本句語境不同。",
-        "incorporate-mcq-16": "「把科技融入課堂、工作流程、產品等」與本句語境不同。",
-        "incorporate-mcq-20": "「把因素、假設或資料納入模型」與本句語境不同。",
-        "incorporate-mcq-15": "「把某些功能／特色整合到產品／系統中」與本句語境不同。"
+        "incorporate-mcq-18": "本句的「incorporates」指「把某材料加入並成為產品／結構的一部分」。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-18"
     },
@@ -2099,11 +2019,9 @@ export default {
       "masked": "The new feature will be ____ into the platform.",
       "options": [
         "incorporate-mcq-19",
-        "incorporate-mcq-18",
-        "incorporate-mcq-20",
-        "incorporate-mcq-17",
-        "incorporate-mcq-21",
-        "incorporate-mcq-16"
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-06",
+        "incorporate-mcq-21"
       ],
       "explanation": "本句的「incorporated」指「把元件／功能整合進現有系統」。",
       "sentenceIndex": 23,
@@ -2112,12 +2030,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-19": "本句指「把元件／功能整合進現有系統」。",
-        "incorporate-mcq-18": "「把某材料加入並成為產品／結構的一部分」與本句語境不同。",
-        "incorporate-mcq-20": "「把因素、假設或資料納入模型」與本句語境不同。",
-        "incorporate-mcq-17": "「把設計元素融合進整體設計」與本句語境不同。",
-        "incorporate-mcq-21": "「使某步驟／工具成為固定流程的一部分」與本句語境不同。",
-        "incorporate-mcq-16": "「把科技融入課堂、工作流程、產品等」與本句語境不同。"
+        "incorporate-mcq-19": "本句的「incorporated」指「把元件／功能整合進現有系統」。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-19"
     },
@@ -2129,11 +2045,9 @@ export default {
       "masked": "The model ____ differences in age and income.",
       "options": [
         "incorporate-mcq-20",
-        "incorporate-mcq-19",
         "incorporate-mcq-21",
-        "incorporate-mcq-18",
-        "incorporate-mcq-22",
-        "incorporate-mcq-17"
+        "incorporate-mcq-19",
+        "incorporate-mcq-29"
       ],
       "explanation": "本句的「incorporates」指「把因素、假設或資料納入模型」。",
       "sentenceIndex": 24,
@@ -2142,12 +2056,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-20": "本句指「把因素、假設或資料納入模型」。",
-        "incorporate-mcq-19": "「把元件／功能整合進現有系統」與本句語境不同。",
-        "incorporate-mcq-21": "「使某步驟／工具成為固定流程的一部分」與本句語境不同。",
-        "incorporate-mcq-18": "「把某材料加入並成為產品／結構的一部分」與本句語境不同。",
-        "incorporate-mcq-22": "「把內容／活動納入正式課程」與本句語境不同。",
-        "incorporate-mcq-17": "「把設計元素融合進整體設計」與本句語境不同。"
+        "incorporate-mcq-20": "本句的「incorporates」指「把因素、假設或資料納入模型」。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-20"
     },
@@ -2159,11 +2071,9 @@ export default {
       "masked": "Reflection should be ____ into the learning process.",
       "options": [
         "incorporate-mcq-21",
-        "incorporate-mcq-20",
-        "incorporate-mcq-22",
-        "incorporate-mcq-19",
-        "incorporate-mcq-23",
-        "incorporate-mcq-18"
+        "incorporate-mcq-75",
+        "incorporate-mcq-29",
+        "incorporate-mcq-76"
       ],
       "explanation": "本句的「incorporated」指「使某步驟／工具成為固定流程的一部分」。",
       "sentenceIndex": 25,
@@ -2172,12 +2082,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-21": "本句指「使某步驟／工具成為固定流程的一部分」。",
-        "incorporate-mcq-20": "「把因素、假設或資料納入模型」與本句語境不同。",
-        "incorporate-mcq-22": "「把內容／活動納入正式課程」與本句語境不同。",
-        "incorporate-mcq-19": "「把元件／功能整合進現有系統」與本句語境不同。",
-        "incorporate-mcq-23": "「把某方法／活動融入教學」與本句語境不同。",
-        "incorporate-mcq-18": "「把某材料加入並成為產品／結構的一部分」與本句語境不同。"
+        "incorporate-mcq-21": "本句的「incorporated」指「使某步驟／工具成為固定流程的一部分」。",
+        "incorporate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-21"
     },
@@ -2189,11 +2097,9 @@ export default {
       "masked": "Slowly ____ the flour into the mixture.",
       "options": [
         "incorporate-mcq-28",
-        "incorporate-mcq-27",
-        "incorporate-mcq-29",
-        "incorporate-mcq-26",
-        "incorporate-mcq-30",
-        "incorporate-mcq-25"
+        "incorporate-mcq-56",
+        "incorporate-mcq-16",
+        "incorporate-pdf-plain-059"
       ],
       "explanation": "本句的「incorporate」指「食譜：攪拌至材料完全混合」。",
       "sentenceIndex": 29,
@@ -2202,12 +2108,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-28": "本句指「食譜：攪拌至材料完全混合」。",
-        "incorporate-mcq-27": "「烹飪／食品科學：把空氣打入／混入材料中」與本句語境不同。",
-        "incorporate-mcq-29": "「已完全融合／混合均勻」與本句語境不同。",
-        "incorporate-mcq-26": "「把麵粉／牛油／蛋等拌入混合物」與本句語境不同。",
-        "incorporate-mcq-30": "「輕輕把材料拌入」與本句語境不同。",
-        "incorporate-mcq-25": "「把材料混入並使其均勻成為混合物的一部分」與本句語境不同。"
+        "incorporate-mcq-28": "本句的「incorporate」指「食譜：攪拌至材料完全混合」。",
+        "incorporate-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-28"
     },
@@ -2219,11 +2123,9 @@ export default {
       "masked": "Stir until the butter is fully ____.",
       "options": [
         "incorporate-mcq-28",
-        "incorporate-mcq-27",
-        "incorporate-mcq-29",
-        "incorporate-mcq-26",
-        "incorporate-mcq-30",
-        "incorporate-mcq-25"
+        "incorporate-mcq-06",
+        "incorporate-mcq-16",
+        "incorporate-mcq-37"
       ],
       "explanation": "本句的「incorporated」指「食譜：攪拌至材料完全混合」。",
       "sentenceIndex": 30,
@@ -2232,12 +2134,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-28": "本句指「食譜：攪拌至材料完全混合」。",
-        "incorporate-mcq-27": "「烹飪／食品科學：把空氣打入／混入材料中」與本句語境不同。",
-        "incorporate-mcq-29": "「已完全融合／混合均勻」與本句語境不同。",
-        "incorporate-mcq-26": "「把麵粉／牛油／蛋等拌入混合物」與本句語境不同。",
-        "incorporate-mcq-30": "「輕輕把材料拌入」與本句語境不同。",
-        "incorporate-mcq-25": "「把材料混入並使其均勻成為混合物的一部分」與本句語境不同。"
+        "incorporate-mcq-28": "本句的「incorporated」指「食譜：攪拌至材料完全混合」。",
+        "incorporate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-28"
     },
@@ -2249,11 +2149,9 @@ export default {
       "masked": "Gently ____ the flour.",
       "options": [
         "incorporate-mcq-26",
-        "incorporate-mcq-25",
-        "incorporate-mcq-27",
-        "incorporate-mcq-24",
-        "incorporate-mcq-28",
-        "incorporate-mcq-23"
+        "incorporate-mcq-55",
+        "incorporate-mcq-37",
+        "incorporate-mcq-13"
       ],
       "explanation": "本句的「incorporate」指「把麵粉／牛油／蛋等拌入混合物」。",
       "sentenceIndex": 31,
@@ -2262,12 +2160,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-26": "本句指「把麵粉／牛油／蛋等拌入混合物」。",
-        "incorporate-mcq-25": "「把材料混入並使其均勻成為混合物的一部分」與本句語境不同。",
-        "incorporate-mcq-27": "「烹飪／食品科學：把空氣打入／混入材料中」與本句語境不同。",
-        "incorporate-mcq-24": "「把某活動變成日常生活的一部分」與本句語境不同。",
-        "incorporate-mcq-28": "「食譜：攪拌至材料完全混合」與本句語境不同。",
-        "incorporate-mcq-23": "「把某方法／活動融入教學」與本句語境不同。"
+        "incorporate-mcq-26": "本句的「incorporate」指「把麵粉／牛油／蛋等拌入混合物」。",
+        "incorporate-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-26"
     },
@@ -2279,11 +2175,9 @@ export default {
       "masked": "Whisking helps ____ air into the batter.",
       "options": [
         "incorporate-mcq-27",
-        "incorporate-mcq-26",
-        "incorporate-mcq-28",
-        "incorporate-mcq-25",
-        "incorporate-mcq-29",
-        "incorporate-mcq-24"
+        "incorporate-mcq-07",
+        "incorporate-mcq-42",
+        "incorporate-mcq-21"
       ],
       "explanation": "本句的「incorporate」指「烹飪／食品科學：把空氣打入／混入材料中」。",
       "sentenceIndex": 32,
@@ -2292,12 +2186,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-27": "本句指「烹飪／食品科學：把空氣打入／混入材料中」。",
-        "incorporate-mcq-26": "「把麵粉／牛油／蛋等拌入混合物」與本句語境不同。",
-        "incorporate-mcq-28": "「食譜：攪拌至材料完全混合」與本句語境不同。",
-        "incorporate-mcq-25": "「把材料混入並使其均勻成為混合物的一部分」與本句語境不同。",
-        "incorporate-mcq-29": "「已完全融合／混合均勻」與本句語境不同。",
-        "incorporate-mcq-24": "「把某活動變成日常生活的一部分」與本句語境不同。"
+        "incorporate-mcq-27": "本句的「incorporate」指「烹飪／食品科學：把空氣打入／混入材料中」。",
+        "incorporate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-27"
     },
@@ -2309,11 +2201,9 @@ export default {
       "masked": "Add the eggs one at a time and mix until ____.",
       "options": [
         "incorporate-mcq-28",
-        "incorporate-mcq-27",
-        "incorporate-mcq-29",
-        "incorporate-mcq-26",
-        "incorporate-mcq-30",
-        "incorporate-mcq-25"
+        "incorporate-mcq-08",
+        "incorporate-mcq-42",
+        "incorporate-mcq-75"
       ],
       "explanation": "本句的「incorporated」指「食譜：攪拌至材料完全混合」。",
       "sentenceIndex": 33,
@@ -2322,12 +2212,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-28": "本句指「食譜：攪拌至材料完全混合」。",
-        "incorporate-mcq-27": "「烹飪／食品科學：把空氣打入／混入材料中」與本句語境不同。",
-        "incorporate-mcq-29": "「已完全融合／混合均勻」與本句語境不同。",
-        "incorporate-mcq-26": "「把麵粉／牛油／蛋等拌入混合物」與本句語境不同。",
-        "incorporate-mcq-30": "「輕輕把材料拌入」與本句語境不同。",
-        "incorporate-mcq-25": "「把材料混入並使其均勻成為混合物的一部分」與本句語境不同。"
+        "incorporate-mcq-28": "本句的「incorporated」指「食譜：攪拌至材料完全混合」。",
+        "incorporate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-28"
     },
@@ -2339,11 +2227,9 @@ export default {
       "masked": "Mix until the ingredients are fully ____.",
       "options": [
         "incorporate-mcq-29",
-        "incorporate-mcq-28",
-        "incorporate-mcq-30",
-        "incorporate-mcq-27",
-        "incorporate-mcq-31",
-        "incorporate-mcq-26"
+        "incorporate-mcq-59",
+        "incorporate-mcq-13",
+        "incorporate-mcq-37"
       ],
       "explanation": "本句的「incorporated」指「已完全融合／混合均勻」。",
       "sentenceIndex": 34,
@@ -2352,12 +2238,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-29": "本句指「已完全融合／混合均勻」。",
-        "incorporate-mcq-28": "「食譜：攪拌至材料完全混合」與本句語境不同。",
-        "incorporate-mcq-30": "「輕輕把材料拌入」與本句語境不同。",
-        "incorporate-mcq-27": "「烹飪／食品科學：把空氣打入／混入材料中」與本句語境不同。",
-        "incorporate-mcq-31": "「把某物摻入材料，使其成為結構的一部分」與本句語境不同。",
-        "incorporate-mcq-26": "「把麵粉／牛油／蛋等拌入混合物」與本句語境不同。"
+        "incorporate-mcq-29": "本句的「incorporated」指「已完全融合／混合均勻」。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-29"
     },
@@ -2369,11 +2253,9 @@ export default {
       "masked": "The ____ of drama into lessons can make learning more active.",
       "options": [
         "incorporate-mcq-33",
-        "incorporate-mcq-95",
-        "incorporate-mcq-97",
-        "incorporate-mcq-94",
-        "incorporate-mcq-98",
-        "incorporate-mcq-93"
+        "incorporate-mcq-55",
+        "incorporate-mcq-64",
+        "incorporate-mcq-74"
       ],
       "explanation": "本句的「incorporation」指「把某事物納入／整合至較大整體的過程」。",
       "sentenceIndex": 36,
@@ -2382,12 +2264,10 @@ export default {
         "incorporation"
       ],
       "optionReasons": {
-        "incorporate-mcq-33": "本句指「把某事物納入／整合至較大整體的過程」。",
-        "incorporate-mcq-95": "「包含／融入某元素的」與本句語境不同。",
-        "incorporate-mcq-97": "「把配料混入產品／配方的過程」與本句語境不同。",
-        "incorporate-mcq-94": "「最近正式註冊成立的公司」與本句語境不同。",
-        "incorporate-mcq-98": "「包括；包含」與本句語境不同。",
-        "incorporate-mcq-93": "「已被納入／整合的」與本句語境不同。"
+        "incorporate-mcq-33": "本句的「incorporation」指「把某事物納入／整合至較大整體的過程」。",
+        "incorporate-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-33"
     },
@@ -2399,11 +2279,9 @@ export default {
       "masked": "The founders decided to ____ the business.",
       "options": [
         "incorporate-mcq-37",
-        "incorporate-mcq-36",
-        "incorporate-mcq-38",
-        "incorporate-mcq-35",
-        "incorporate-mcq-39",
-        "incorporate-mcq-34"
+        "incorporate-mcq-76",
+        "incorporate-mcq-11",
+        "incorporate-mcq-59"
       ],
       "explanation": "本句的「incorporate」指「法律：正式註冊成立公司／法人實體」。",
       "sentenceIndex": 39,
@@ -2412,12 +2290,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-37": "本句指「法律：正式註冊成立公司／法人實體」。",
-        "incorporate-mcq-36": "「把某單位併入較大的組織」與本句語境不同。",
-        "incorporate-mcq-38": "「公司已依法註冊成立」與本句語境不同。",
-        "incorporate-mcq-35": "「較小單位被吸收／併入較大組織」與本句語境不同。",
-        "incorporate-mcq-39": "「已正式註冊成立的公司／法人實體」與本句語境不同。",
-        "incorporate-mcq-34": "「把意見／修訂內容納入最終成果」與本句語境不同。"
+        "incorporate-mcq-37": "本句的「incorporate」指「法律：正式註冊成立公司／法人實體」。",
+        "incorporate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-37"
     },
@@ -2429,11 +2305,9 @@ export default {
       "masked": "The company was ____ several years ago.",
       "options": [
         "incorporate-mcq-37",
-        "incorporate-mcq-36",
-        "incorporate-mcq-38",
-        "incorporate-mcq-35",
-        "incorporate-mcq-39",
-        "incorporate-mcq-34"
+        "incorporate-mcq-26",
+        "incorporate-mcq-67",
+        "incorporate-mcq-10"
       ],
       "explanation": "本句的「incorporated」指「法律：正式註冊成立公司／法人實體」。",
       "sentenceIndex": 40,
@@ -2442,12 +2316,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-37": "本句指「法律：正式註冊成立公司／法人實體」。",
-        "incorporate-mcq-36": "「把某單位併入較大的組織」與本句語境不同。",
-        "incorporate-mcq-38": "「公司已依法註冊成立」與本句語境不同。",
-        "incorporate-mcq-35": "「較小單位被吸收／併入較大組織」與本句語境不同。",
-        "incorporate-mcq-39": "「已正式註冊成立的公司／法人實體」與本句語境不同。",
-        "incorporate-mcq-34": "「把意見／修訂內容納入最終成果」與本句語境不同。"
+        "incorporate-mcq-37": "本句的「incorporated」指「法律：正式註冊成立公司／法人實體」。",
+        "incorporate-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-37"
     },
@@ -2459,11 +2331,9 @@ export default {
       "masked": "The organization is ____.",
       "options": [
         "incorporate-pdf-plain-059",
-        "incorporate-mcq-03",
-        "incorporate-mcq-05",
-        "incorporate-mcq-02",
-        "incorporate-mcq-06",
-        "incorporate-mcq-01"
+        "incorporate-mcq-11",
+        "incorporate-mcq-64",
+        "incorporate-mcq-75"
       ],
       "explanation": "本句的「incorporated」指「公司或組織依法註冊成立為法人實體」。",
       "sentenceIndex": 42,
@@ -2472,12 +2342,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-pdf-plain-059": "本句指「公司或組織依法註冊成立為法人實體」。",
-        "incorporate-mcq-03": "「把 X 包含／整合在 Y 之中」與本句語境不同。",
-        "incorporate-mcq-05": "「把不同想法納入作品／計畫中」與本句語境不同。",
-        "incorporate-mcq-02": "「把 X 納入／融入 Y，使其成為 Y 的一部分」與本句語境不同。",
-        "incorporate-mcq-06": "「按收到的回饋修改並把意見納入成品」與本句語境不同。",
-        "incorporate-mcq-01": "「把某活動／元素納入並融入較大的課堂或教學整體」與本句語境不同。"
+        "incorporate-pdf-plain-059": "本句的「incorporated」指「公司或組織依法註冊成立為法人實體」。",
+        "incorporate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-pdf-plain-059"
     },
@@ -2489,11 +2357,9 @@ export default {
       "masked": "The firm completed its ____.",
       "options": [
         "incorporate-mcq-42",
-        "incorporate-mcq-95",
-        "incorporate-mcq-97",
-        "incorporate-mcq-94",
-        "incorporate-mcq-98",
-        "incorporate-mcq-93"
+        "incorporate-mcq-76",
+        "incorporate-mcq-28",
+        "incorporate-mcq-13"
       ],
       "explanation": "本句的「incorporation」指「公司／法人依法正式成立的過程」。",
       "sentenceIndex": 43,
@@ -2502,12 +2368,10 @@ export default {
         "incorporation"
       ],
       "optionReasons": {
-        "incorporate-mcq-42": "本句指「公司／法人依法正式成立的過程」。",
-        "incorporate-mcq-95": "「包含／融入某元素的」與本句語境不同。",
-        "incorporate-mcq-97": "「把配料混入產品／配方的過程」與本句語境不同。",
-        "incorporate-mcq-94": "「最近正式註冊成立的公司」與本句語境不同。",
-        "incorporate-mcq-98": "「包括；包含」與本句語境不同。",
-        "incorporate-mcq-93": "「已被納入／整合的」與本句語境不同。"
+        "incorporate-mcq-42": "本句的「incorporation」指「公司／法人依法正式成立的過程」。",
+        "incorporate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-42"
     },
@@ -2519,11 +2383,9 @@ export default {
       "masked": "The agreement ____ the policy by reference.",
       "options": [
         "incorporate-mcq-55",
-        "incorporate-mcq-54",
-        "incorporate-mcq-56",
-        "incorporate-mcq-53",
-        "incorporate-mcq-57",
-        "incorporate-mcq-52"
+        "incorporate-mcq-09",
+        "incorporate-mcq-16",
+        "incorporate-mcq-61"
       ],
       "explanation": "本句的「incorporates」指「不重複全文，而以引用方式使另一文件內容成為本文件的一部分」。",
       "sentenceIndex": 44,
@@ -2532,12 +2394,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-55": "本句指「不重複全文，而以引用方式使另一文件內容成為本文件的一部分」。",
-        "incorporate-mcq-54": "「未正式建制成自治市鎮等地方實體的地區」與本句語境不同。",
-        "incorporate-mcq-56": "「以引用方式把外部條文／文件正式納入」與本句語境不同。",
-        "incorporate-mcq-53": "「沒有法人化的協會／團體」與本句語境不同。",
-        "incorporate-mcq-57": "「把條文／條款納入文件或協議」與本句語境不同。",
-        "incorporate-mcq-52": "「沒有以獨立法人公司形式成立的企業」與本句語境不同。"
+        "incorporate-mcq-55": "本句的「incorporates」指「不重複全文，而以引用方式使另一文件內容成為本文件的一部分」。",
+        "incorporate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-55"
     },
@@ -2549,11 +2409,9 @@ export default {
       "masked": "The contract uses ____ by reference.",
       "options": [
         "incorporate-mcq-56",
-        "incorporate-mcq-55",
-        "incorporate-mcq-57",
-        "incorporate-mcq-54",
-        "incorporate-mcq-58",
-        "incorporate-mcq-53"
+        "incorporate-mcq-74",
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-28"
       ],
       "explanation": "本句的「incorporation」指「以引用方式把外部條文／文件正式納入」。",
       "sentenceIndex": 45,
@@ -2562,12 +2420,10 @@ export default {
         "incorporation"
       ],
       "optionReasons": {
-        "incorporate-mcq-56": "本句指「以引用方式把外部條文／文件正式納入」。",
-        "incorporate-mcq-55": "「不重複全文，而以引用方式使另一文件內容成為本文件的一部分」與本句語境不同。",
-        "incorporate-mcq-57": "「把條文／條款納入文件或協議」與本句語境不同。",
-        "incorporate-mcq-54": "「未正式建制成自治市鎮等地方實體的地區」與本句語境不同。",
-        "incorporate-mcq-58": "「把規定要求整合進設計、制度或文件」與本句語境不同。",
-        "incorporate-mcq-53": "「沒有法人化的協會／團體」與本句語境不同。"
+        "incorporate-mcq-56": "本句的「incorporation」指「以引用方式把外部條文／文件正式納入」。",
+        "incorporate-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-56"
     },
@@ -2579,11 +2435,9 @@ export default {
       "masked": "The design must ____ all safety requirements.",
       "options": [
         "incorporate-mcq-58",
-        "incorporate-mcq-57",
-        "incorporate-mcq-59",
-        "incorporate-mcq-56",
-        "incorporate-mcq-60",
-        "incorporate-mcq-55"
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-64",
+        "incorporate-mcq-67"
       ],
       "explanation": "本句的「incorporate」指「把規定要求整合進設計、制度或文件」。",
       "sentenceIndex": 46,
@@ -2592,12 +2446,10 @@ export default {
         "incorporate"
       ],
       "optionReasons": {
-        "incorporate-mcq-58": "本句指「把規定要求整合進設計、制度或文件」。",
-        "incorporate-mcq-57": "「把條文／條款納入文件或協議」與本句語境不同。",
-        "incorporate-mcq-59": "「把保護／保障機制加入系統」與本句語境不同。",
-        "incorporate-mcq-56": "「以引用方式把外部條文／文件正式納入」與本句語境不同。",
-        "incorporate-mcq-60": "「整合安全功能」與本句語境不同。",
-        "incorporate-mcq-55": "「不重複全文，而以引用方式使另一文件內容成為本文件的一部分」與本句語境不同。"
+        "incorporate-mcq-58": "本句的「incorporate」指「把規定要求整合進設計、制度或文件」。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-58"
     },
@@ -2609,11 +2461,9 @@ export default {
       "masked": "The system ____ multiple safeguards.",
       "options": [
         "incorporate-mcq-59",
-        "incorporate-mcq-58",
-        "incorporate-mcq-60",
-        "incorporate-mcq-57",
-        "incorporate-mcq-61",
-        "incorporate-mcq-56"
+        "incorporate-mcq-07",
+        "incorporate-mcq-28",
+        "incorporate-mcq-21"
       ],
       "explanation": "本句的「incorporates」指「把保護／保障機制加入系統」。",
       "sentenceIndex": 47,
@@ -2622,12 +2472,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-59": "本句指「把保護／保障機制加入系統」。",
-        "incorporate-mcq-58": "「把規定要求整合進設計、制度或文件」與本句語境不同。",
-        "incorporate-mcq-60": "「整合安全功能」與本句語境不同。",
-        "incorporate-mcq-57": "「把條文／條款納入文件或協議」與本句語境不同。",
-        "incorporate-mcq-61": "「在計畫／制度中預先加入彈性」與本句語境不同。",
-        "incorporate-mcq-56": "「以引用方式把外部條文／文件正式納入」與本句語境不同。"
+        "incorporate-mcq-59": "本句的「incorporates」指「把保護／保障機制加入系統」。",
+        "incorporate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-59"
     },
@@ -2639,11 +2487,9 @@ export default {
       "masked": "The schedule ____ some flexibility.",
       "options": [
         "incorporate-mcq-61",
-        "incorporate-mcq-60",
-        "incorporate-mcq-62",
-        "incorporate-mcq-59",
-        "incorporate-mcq-63",
-        "incorporate-mcq-58"
+        "incorporate-mcq-19",
+        "incorporate-mcq-42",
+        "incorporate-mcq-29"
       ],
       "explanation": "本句的「incorporates」指「在計畫／制度中預先加入彈性」。",
       "sentenceIndex": 48,
@@ -2652,12 +2498,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-61": "本句指「在計畫／制度中預先加入彈性」。",
-        "incorporate-mcq-60": "「整合安全功能」與本句語境不同。",
-        "incorporate-mcq-62": "「工程：把備援／冗餘機制整合進設計」與本句語境不同。",
-        "incorporate-mcq-59": "「把保護／保障機制加入系統」與本句語境不同。",
-        "incorporate-mcq-63": "「生化：把胺基酸組裝／納入蛋白質」與本句語境不同。",
-        "incorporate-mcq-58": "「把規定要求整合進設計、制度或文件」與本句語境不同。"
+        "incorporate-mcq-61": "本句的「incorporates」指「在計畫／制度中預先加入彈性」。",
+        "incorporate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-61"
     },
@@ -2669,11 +2513,9 @@ export default {
       "masked": "The enzyme ____ nucleotides into the growing DNA strand.",
       "options": [
         "incorporate-mcq-64",
-        "incorporate-mcq-63",
-        "incorporate-mcq-65",
-        "incorporate-mcq-62",
-        "incorporate-mcq-66",
-        "incorporate-mcq-61"
+        "incorporate-mcq-15",
+        "incorporate-mcq-17",
+        "incorporate-mcq-42"
       ],
       "explanation": "本句的「incorporates」指「分子生物：把核苷酸加入 DNA 鏈」。",
       "sentenceIndex": 50,
@@ -2682,12 +2524,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-64": "本句指「分子生物：把核苷酸加入 DNA 鏈」。",
-        "incorporate-mcq-63": "「生化：把胺基酸組裝／納入蛋白質」與本句語境不同。",
-        "incorporate-mcq-65": "「某物質成為 DNA 結構一部分的過程」與本句語境不同。",
-        "incorporate-mcq-62": "「工程：把備援／冗餘機制整合進設計」與本句語境不同。",
-        "incorporate-mcq-66": "「實驗中同位素標記物被納入新物質／組織」與本句語境不同。",
-        "incorporate-mcq-61": "「在計畫／制度中預先加入彈性」與本句語境不同。"
+        "incorporate-mcq-64": "本句的「incorporates」指「分子生物：把核苷酸加入 DNA 鏈」。",
+        "incorporate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-64"
     },
@@ -2699,11 +2539,9 @@ export default {
       "masked": "Impurities may be ____ into the crystal lattice.",
       "options": [
         "incorporate-mcq-67",
-        "incorporate-mcq-66",
-        "incorporate-mcq-68",
-        "incorporate-mcq-65",
-        "incorporate-mcq-69",
-        "incorporate-mcq-64"
+        "incorporate-mcq-74",
+        "incorporate-mcq-15",
+        "incorporate-mcq-42"
       ],
       "explanation": "本句的「incorporated」指「材料科學：原子／離子摻入晶格」。",
       "sentenceIndex": 51,
@@ -2712,12 +2550,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-67": "本句指「材料科學：原子／離子摻入晶格」。",
-        "incorporate-mcq-66": "「實驗中同位素標記物被納入新物質／組織」與本句語境不同。",
-        "incorporate-mcq-68": "「半導體：摻雜原子進入材料結構」與本句語境不同。",
-        "incorporate-mcq-65": "「某物質成為 DNA 結構一部分的過程」與本句語境不同。",
-        "incorporate-mcq-69": "「把成分嵌入／分散於基質中」與本句語境不同。",
-        "incorporate-mcq-64": "「分子生物：把核苷酸加入 DNA 鏈」與本句語境不同。"
+        "incorporate-mcq-67": "本句的「incorporated」指「材料科學：原子／離子摻入晶格」。",
+        "incorporate-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-67"
     },
@@ -2729,11 +2565,9 @@ export default {
       "masked": "The piece ____ elements of jazz.",
       "options": [
         "incorporate-mcq-74",
-        "incorporate-mcq-73",
-        "incorporate-mcq-75",
-        "incorporate-mcq-72",
-        "incorporate-mcq-76",
-        "incorporate-mcq-71"
+        "incorporate-mcq-59",
+        "incorporate-pdf-plain-059",
+        "incorporate-mcq-55"
       ],
       "explanation": "本句的「incorporates」指「把某種音樂／藝術元素融合進作品」。",
       "sentenceIndex": 54,
@@ -2742,12 +2576,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-74": "本句指「把某種音樂／藝術元素融合進作品」。",
-        "incorporate-mcq-73": "「把文化元素融入作品／設計」與本句語境不同。",
-        "incorporate-mcq-75": "「吸收不同來源的影響並融入自己的作品」與本句語境不同。",
-        "incorporate-mcq-72": "「把不同人的觀點納入分析／思考」與本句語境不同。",
-        "incorporate-mcq-76": "「建築：把原有結構保留並整合進新設計」與本句語境不同。",
-        "incorporate-mcq-71": "「把角色／價值／經驗融入自身身分認同」與本句語境不同。"
+        "incorporate-mcq-74": "本句的「incorporates」指「把某種音樂／藝術元素融合進作品」。",
+        "incorporate-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "incorporate-pdf-plain-059": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-74"
     },
@@ -2759,11 +2591,9 @@ export default {
       "masked": "Her work ____ influences from several traditions.",
       "options": [
         "incorporate-mcq-75",
-        "incorporate-mcq-74",
-        "incorporate-mcq-76",
-        "incorporate-mcq-73",
         "incorporate-mcq-77",
-        "incorporate-mcq-72"
+        "incorporate-mcq-28",
+        "incorporate-mcq-21"
       ],
       "explanation": "本句的「incorporates」指「吸收不同來源的影響並融入自己的作品」。",
       "sentenceIndex": 55,
@@ -2772,12 +2602,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-75": "本句指「吸收不同來源的影響並融入自己的作品」。",
-        "incorporate-mcq-74": "「把某種音樂／藝術元素融合進作品」與本句語境不同。",
-        "incorporate-mcq-76": "「建築：把原有結構保留並整合進新設計」與本句語境不同。",
-        "incorporate-mcq-73": "「把文化元素融入作品／設計」與本句語境不同。",
-        "incorporate-mcq-77": "「軟體：把程式修改整合進程式碼／新版本」與本句語境不同。",
-        "incorporate-mcq-72": "「把不同人的觀點納入分析／思考」與本句語境不同。"
+        "incorporate-mcq-75": "本句的「incorporates」指「吸收不同來源的影響並融入自己的作品」。",
+        "incorporate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-75"
     },
@@ -2789,11 +2617,9 @@ export default {
       "masked": "The renovation ____ the original stone wall.",
       "options": [
         "incorporate-mcq-76",
-        "incorporate-mcq-75",
-        "incorporate-mcq-77",
-        "incorporate-mcq-74",
-        "incorporate-mcq-78",
-        "incorporate-mcq-73"
+        "incorporate-mcq-64",
+        "incorporate-mcq-16",
+        "incorporate-mcq-27"
       ],
       "explanation": "本句的「incorporated」指「建築：把原有結構保留並整合進新設計」。",
       "sentenceIndex": 56,
@@ -2802,12 +2628,10 @@ export default {
         "incorporated"
       ],
       "optionReasons": {
-        "incorporate-mcq-76": "本句指「建築：把原有結構保留並整合進新設計」。",
-        "incorporate-mcq-75": "「吸收不同來源的影響並融入自己的作品」與本句語境不同。",
-        "incorporate-mcq-77": "「軟體：把程式修改整合進程式碼／新版本」與本句語境不同。",
-        "incorporate-mcq-74": "「把某種音樂／藝術元素融合進作品」與本句語境不同。",
-        "incorporate-mcq-78": "「把修補／修正內容納入後續版本」與本句語境不同。",
-        "incorporate-mcq-73": "「把文化元素融入作品／設計」與本句語境不同。"
+        "incorporate-mcq-76": "本句的「incorporated」指「建築：把原有結構保留並整合進新設計」。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-76"
     },
@@ -2819,11 +2643,9 @@ export default {
       "masked": "The release ____ several bug fixes.",
       "options": [
         "incorporate-mcq-77",
-        "incorporate-mcq-76",
-        "incorporate-mcq-78",
-        "incorporate-mcq-75",
-        "incorporate-mcq-79",
-        "incorporate-mcq-74"
+        "incorporate-mcq-13",
+        "incorporate-mcq-64",
+        "incorporate-mcq-67"
       ],
       "explanation": "本句的「incorporates」指「軟體：把程式修改整合進程式碼／新版本」。",
       "sentenceIndex": 57,
@@ -2832,12 +2654,10 @@ export default {
         "incorporates"
       ],
       "optionReasons": {
-        "incorporate-mcq-77": "本句指「軟體：把程式修改整合進程式碼／新版本」。",
-        "incorporate-mcq-76": "「建築：把原有結構保留並整合進新設計」與本句語境不同。",
-        "incorporate-mcq-78": "「把修補／修正內容納入後續版本」與本句語境不同。",
-        "incorporate-mcq-75": "「吸收不同來源的影響並融入自己的作品」與本句語境不同。",
-        "incorporate-mcq-79": "「把軟體元件／函式庫整合進系統」與本句語境不同。",
-        "incorporate-mcq-74": "「把某種音樂／藝術元素融合進作品」與本句語境不同。"
+        "incorporate-mcq-77": "本句的「incorporates」指「軟體：把程式修改整合進程式碼／新版本」。",
+        "incorporate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "incorporate-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "incorporate-mcq-77"
     }
@@ -2849,5 +2669,7 @@ export default {
     "sha256": "043ff8cb5286e6a168d260bd517231d60f4b2a2025483042a923065507b7077b",
     "pages": 88
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

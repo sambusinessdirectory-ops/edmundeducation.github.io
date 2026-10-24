@@ -785,7 +785,7 @@ export default {
     },
     {
       "id": "pick-mcq-36",
-      "title": "表示拿起；拾起",
+      "title": "拿起；拾起",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示拿起；拾起",
@@ -807,7 +807,7 @@ export default {
     },
     {
       "id": "pick-mcq-37",
-      "title": "表示辨別出；聽出",
+      "title": "辨別出；聽出",
       "form": "25. pick out — hear/see a detail",
       "en": "25. pick out — hear/see a detail",
       "zh": "表示辨別出；聽出",
@@ -837,11 +837,9 @@ export default {
       "masked": "I ____ and started reading.",
       "options": [
         "pick-mcq-36",
-        "pick-mcq-35",
-        "pick-mcq-37",
-        "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-32"
+        "pick-mcq-10",
+        "pick-mcq-02",
+        "pick-mcq-13"
       ],
       "explanation": "本句的「picked up the book」指「表示拿起；拾起」。",
       "sentenceIndex": 0,
@@ -850,12 +848,10 @@ export default {
         "picked up the book"
       ],
       "optionReasons": {
-        "pick-mcq-36": "本句指「表示拿起；拾起」。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-37": "「表示辨別出；聽出」是「25. pick out — hear/see a detail」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。"
+        "pick-mcq-36": "本句的「picked up the book」指「表示拿起；拾起」。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-36"
     },
@@ -867,11 +863,9 @@ export default {
       "masked": "She ____ from the desk.",
       "options": [
         "pick-mcq-36",
-        "pick-mcq-35",
-        "pick-mcq-37",
-        "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-32"
+        "pick-mcq-29",
+        "pick-mcq-15",
+        "pick-mcq-27"
       ],
       "explanation": "本句的「picked up the pen」指「表示拿起；拾起」。",
       "sentenceIndex": 1,
@@ -880,12 +874,10 @@ export default {
         "picked up the pen"
       ],
       "optionReasons": {
-        "pick-mcq-36": "本句指「表示拿起；拾起」。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-37": "「表示辨別出；聽出」是「25. pick out — hear/see a detail」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。"
+        "pick-mcq-36": "本句的「picked up the pen」指「表示拿起；拾起」。",
+        "pick-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-36"
     },
@@ -897,11 +889,9 @@ export default {
       "masked": "You can ____ you like.",
       "options": [
         "pick-mcq-01",
-        "pick-mcq-02",
-        "pick-mcq-03",
-        "pick-mcq-04",
-        "pick-mcq-05",
-        "pick-mcq-06"
+        "pick-mcq-07",
+        "pick-mcq-13",
+        "pick-mcq-10"
       ],
       "explanation": "本句的「pick any book」指「從多個可能中挑選某人／某物；選擇」。",
       "sentenceIndex": 2,
@@ -910,12 +900,10 @@ export default {
         "pick any book"
       ],
       "optionReasons": {
-        "pick-mcq-01": "本句指「從多個可能中挑選某人／某物；選擇」。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-01": "本句的「pick any book」指「從多個可能中挑選某人／某物；選擇」。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-01"
     },
@@ -927,11 +915,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pick-mcq-01",
-        "pick-mcq-02",
-        "pick-mcq-03",
-        "pick-mcq-04",
-        "pick-mcq-05",
-        "pick-mcq-06"
+        "pick-mcq-13",
+        "pick-mcq-11",
+        "pick-mcq-05"
       ],
       "explanation": "本句的「picked the blue one」指「從多個可能中挑選某人／某物；選擇」。",
       "sentenceIndex": 3,
@@ -940,12 +926,10 @@ export default {
         "picked the blue one"
       ],
       "optionReasons": {
-        "pick-mcq-01": "本句指「從多個可能中挑選某人／某物；選擇」。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-01": "本句的「picked the blue one」指「從多個可能中挑選某人／某物；選擇」。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-01"
     },
@@ -957,11 +941,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "pick-mcq-02",
-        "pick-mcq-01",
-        "pick-mcq-03",
-        "pick-mcq-04",
-        "pick-mcq-05",
-        "pick-mcq-06"
+        "pick-mcq-18",
+        "pick-mcq-16",
+        "pick-mcq-12"
       ],
       "explanation": "本句的「picked her for the team」指「為特定角色或用途挑選某人／某物」。",
       "sentenceIndex": 4,
@@ -970,12 +952,10 @@ export default {
         "picked her for the team"
       ],
       "optionReasons": {
-        "pick-mcq-02": "本句指「為特定角色或用途挑選某人／某物」。",
-        "pick-mcq-01": "「從多個可能中挑選某人／某物；選擇」是「pick — choose」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-02": "本句的「picked her for the team」指「為特定角色或用途挑選某人／某物」。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-02"
     },
@@ -987,11 +967,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "pick-mcq-02",
-        "pick-mcq-01",
-        "pick-mcq-03",
-        "pick-mcq-04",
-        "pick-mcq-05",
-        "pick-mcq-06"
+        "pick-mcq-18",
+        "pick-mcq-09",
+        "pick-mcq-27"
       ],
       "explanation": "本句的「picked this restaurant for dinner」指「為特定角色或用途挑選某人／某物」。",
       "sentenceIndex": 5,
@@ -1000,12 +978,10 @@ export default {
         "picked this restaurant for dinner"
       ],
       "optionReasons": {
-        "pick-mcq-02": "本句指「為特定角色或用途挑選某人／某物」。",
-        "pick-mcq-01": "「從多個可能中挑選某人／某物；選擇」是「pick — choose」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-02": "本句的「picked this restaurant for dinner」指「為特定角色或用途挑選某人／某物」。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-02"
     },
@@ -1017,11 +993,9 @@ export default {
       "masked": "That would be my first ____.",
       "options": [
         "pick-mcq-03",
-        "pick-mcq-02",
-        "pick-mcq-04",
-        "pick-mcq-01",
-        "pick-mcq-05",
-        "pick-mcq-06"
+        "pick-mcq-15",
+        "pick-mcq-28",
+        "pick-mcq-11"
       ],
       "explanation": "本句的「pick」指「被選中的人／物；選擇」。",
       "sentenceIndex": 6,
@@ -1030,12 +1004,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-03": "本句指「被選中的人／物；選擇」。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-01": "「從多個可能中挑選某人／某物；選擇」是「pick — choose」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-03": "本句的「pick」指「被選中的人／物；選擇」。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-03"
     },
@@ -1047,11 +1019,9 @@ export default {
       "masked": "She was the coach’s top ____.",
       "options": [
         "pick-mcq-03",
-        "pick-mcq-02",
-        "pick-mcq-04",
-        "pick-mcq-01",
-        "pick-mcq-05",
-        "pick-mcq-06"
+        "pick-mcq-13",
+        "pick-mcq-06",
+        "pick-mcq-36"
       ],
       "explanation": "本句的「pick」指「被選中的人／物；選擇」。",
       "sentenceIndex": 7,
@@ -1060,12 +1030,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-03": "本句指「被選中的人／物；選擇」。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-01": "「從多個可能中挑選某人／某物；選擇」是「pick — choose」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-03": "本句的「pick」指「被選中的人／物；選擇」。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-03"
     },
@@ -1077,11 +1045,9 @@ export default {
       "masked": "This book is my ____.",
       "options": [
         "pick-mcq-04",
-        "pick-mcq-03",
-        "pick-mcq-05",
-        "pick-mcq-02",
-        "pick-mcq-06",
-        "pick-mcq-01"
+        "pick-mcq-12",
+        "pick-mcq-27",
+        "pick-mcq-07"
       ],
       "explanation": "本句的「top pick」指「最優先、最喜歡的選擇；首選」。",
       "sentenceIndex": 8,
@@ -1090,12 +1056,10 @@ export default {
         "top pick"
       ],
       "optionReasons": {
-        "pick-mcq-04": "本句指「最優先、最喜歡的選擇；首選」。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-01": "「從多個可能中挑選某人／某物；選擇」是「pick — choose」的用法，與本句語境不同。"
+        "pick-mcq-04": "本句的「top pick」指「最優先、最喜歡的選擇；首選」。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-04"
     },
@@ -1107,11 +1071,9 @@ export default {
       "masked": "He was the team’s ____.",
       "options": [
         "pick-mcq-04",
-        "pick-mcq-03",
-        "pick-mcq-05",
-        "pick-mcq-02",
-        "pick-mcq-06",
-        "pick-mcq-01"
+        "pick-mcq-20",
+        "pick-mcq-08",
+        "pick-mcq-18"
       ],
       "explanation": "本句的「first pick」指「最優先、最喜歡的選擇；首選」。",
       "sentenceIndex": 9,
@@ -1120,12 +1082,10 @@ export default {
         "first pick"
       ],
       "optionReasons": {
-        "pick-mcq-04": "本句指「最優先、最喜歡的選擇；首選」。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-01": "「從多個可能中挑選某人／某物；選擇」是「pick — choose」的用法，與本句語境不同。"
+        "pick-mcq-04": "本句的「first pick」指「最優先、最喜歡的選擇；首選」。",
+        "pick-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-04"
     },
@@ -1137,11 +1097,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pick-mcq-05",
-        "pick-mcq-04",
-        "pick-mcq-06",
-        "pick-mcq-03",
-        "pick-mcq-07",
-        "pick-mcq-02"
+        "pick-mcq-15",
+        "pick-mcq-32",
+        "pick-mcq-04"
       ],
       "explanation": "本句的「picked up the phone」指「從桌面、地面等把某物拿起／拾起」。",
       "sentenceIndex": 10,
@@ -1150,12 +1108,10 @@ export default {
         "picked up the phone"
       ],
       "optionReasons": {
-        "pick-mcq-05": "本句指「從桌面、地面等把某物拿起／拾起」。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。"
+        "pick-mcq-05": "本句的「picked up the phone」指「從桌面、地面等把某物拿起／拾起」。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-05"
     },
@@ -1167,11 +1123,9 @@ export default {
       "masked": "He ____ from the floor.",
       "options": [
         "pick-mcq-05",
-        "pick-mcq-04",
-        "pick-mcq-06",
-        "pick-mcq-03",
-        "pick-mcq-07",
-        "pick-mcq-02"
+        "pick-mcq-16",
+        "pick-mcq-24",
+        "pick-mcq-31"
       ],
       "explanation": "本句的「picked up a coin」指「從桌面、地面等把某物拿起／拾起」。",
       "sentenceIndex": 11,
@@ -1180,12 +1134,10 @@ export default {
         "picked up a coin"
       ],
       "optionReasons": {
-        "pick-mcq-05": "本句指「從桌面、地面等把某物拿起／拾起」。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-02": "「為特定角色或用途挑選某人／某物」是「pick someone/something for」的用法，與本句語境不同。"
+        "pick-mcq-05": "本句的「picked up a coin」指「從桌面、地面等把某物拿起／拾起」。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-05"
     },
@@ -1197,11 +1149,9 @@ export default {
       "masked": "I’ll ____ at seven.",
       "options": [
         "pick-mcq-06",
-        "pick-mcq-05",
-        "pick-mcq-07",
-        "pick-mcq-04",
-        "pick-mcq-08",
-        "pick-mcq-03"
+        "pick-mcq-14",
+        "pick-mcq-15",
+        "pick-mcq-18"
       ],
       "explanation": "本句的「pick you up」指「到某處接人或領取某物」。",
       "sentenceIndex": 12,
@@ -1210,12 +1160,10 @@ export default {
         "pick you up"
       ],
       "optionReasons": {
-        "pick-mcq-06": "本句指「到某處接人或領取某物」。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。"
+        "pick-mcq-06": "本句的「pick you up」指「到某處接人或領取某物」。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-06"
     },
@@ -1227,11 +1175,9 @@ export default {
       "masked": "She ____ after work.",
       "options": [
         "pick-mcq-06",
+        "pick-mcq-26",
         "pick-mcq-05",
-        "pick-mcq-07",
-        "pick-mcq-04",
-        "pick-mcq-08",
-        "pick-mcq-03"
+        "pick-mcq-21"
       ],
       "explanation": "本句的「picked up the parcel」指「到某處接人或領取某物」。",
       "sentenceIndex": 13,
@@ -1240,12 +1186,10 @@ export default {
         "picked up the parcel"
       ],
       "optionReasons": {
-        "pick-mcq-06": "本句指「到某處接人或領取某物」。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-03": "「被選中的人／物；選擇」是「pick — noun choice」的用法，與本句語境不同。"
+        "pick-mcq-06": "本句的「picked up the parcel」指「到某處接人或領取某物」。",
+        "pick-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-06"
     },
@@ -1257,11 +1201,9 @@ export default {
       "masked": "I ____ on the way home.",
       "options": [
         "pick-mcq-07",
-        "pick-mcq-06",
         "pick-mcq-08",
-        "pick-mcq-05",
-        "pick-mcq-09",
-        "pick-mcq-04"
+        "pick-mcq-29",
+        "pick-mcq-25"
       ],
       "explanation": "本句的「picked up a new notebook」指「順便買到／取得某物」。",
       "sentenceIndex": 14,
@@ -1270,12 +1212,10 @@ export default {
         "picked up a new notebook"
       ],
       "optionReasons": {
-        "pick-mcq-07": "本句指「順便買到／取得某物」。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。"
+        "pick-mcq-07": "本句的「picked up a new notebook」指「順便買到／取得某物」。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-07"
     },
@@ -1287,11 +1227,9 @@ export default {
       "masked": "She ____ at the airport.",
       "options": [
         "pick-mcq-07",
-        "pick-mcq-06",
-        "pick-mcq-08",
-        "pick-mcq-05",
-        "pick-mcq-09",
-        "pick-mcq-04"
+        "pick-mcq-21",
+        "pick-mcq-37",
+        "pick-mcq-30"
       ],
       "explanation": "本句的「picked up a copy」指「順便買到／取得某物」。",
       "sentenceIndex": 15,
@@ -1300,12 +1238,10 @@ export default {
         "picked up a copy"
       ],
       "optionReasons": {
-        "pick-mcq-07": "本句指「順便買到／取得某物」。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-04": "「最優先、最喜歡的選擇；首選」是「top/first pick」的用法，與本句語境不同。"
+        "pick-mcq-07": "本句的「picked up a copy」指「順便買到／取得某物」。",
+        "pick-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-07"
     },
@@ -1317,11 +1253,9 @@ export default {
       "masked": "He ____ while living in Paris.",
       "options": [
         "pick-mcq-08",
-        "pick-mcq-07",
-        "pick-mcq-09",
-        "pick-mcq-06",
-        "pick-mcq-10",
-        "pick-mcq-05"
+        "pick-mcq-37",
+        "pick-mcq-33",
+        "pick-mcq-36"
       ],
       "explanation": "本句的「picked up some French」指「透過接觸而自然學會語言、技能、習慣等」。",
       "sentenceIndex": 16,
@@ -1330,12 +1264,10 @@ export default {
         "picked up some French"
       ],
       "optionReasons": {
-        "pick-mcq-08": "本句指「透過接觸而自然學會語言、技能、習慣等」。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。"
+        "pick-mcq-08": "本句的「picked up some French」指「透過接觸而自然學會語言、技能、習慣等」。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-08"
     },
@@ -1347,11 +1279,9 @@ export default {
       "masked": "Children often ____ quickly.",
       "options": [
         "pick-mcq-08",
-        "pick-mcq-07",
-        "pick-mcq-09",
-        "pick-mcq-06",
-        "pick-mcq-10",
-        "pick-mcq-05"
+        "pick-mcq-04",
+        "pick-mcq-21",
+        "pick-mcq-17"
       ],
       "explanation": "本句的「pick up accents」指「透過接觸而自然學會語言、技能、習慣等」。",
       "sentenceIndex": 17,
@@ -1360,12 +1290,10 @@ export default {
         "pick up accents"
       ],
       "optionReasons": {
-        "pick-mcq-08": "本句指「透過接觸而自然學會語言、技能、習慣等」。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-05": "「從桌面、地面等把某物拿起／拾起」是「pick up — lift」的用法，與本句語境不同。"
+        "pick-mcq-08": "本句的「pick up accents」指「透過接觸而自然學會語言、技能、習慣等」。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-08"
     },
@@ -1377,11 +1305,9 @@ export default {
       "masked": "The microphone ____.",
       "options": [
         "pick-mcq-09",
-        "pick-mcq-08",
-        "pick-mcq-10",
-        "pick-mcq-07",
-        "pick-mcq-11",
-        "pick-mcq-06"
+        "pick-mcq-04",
+        "pick-mcq-33",
+        "pick-mcq-35"
       ],
       "explanation": "本句的「picked up background noise」指「偵測、接收到訊號、聲音、細節等」。",
       "sentenceIndex": 18,
@@ -1390,12 +1316,10 @@ export default {
         "picked up background noise"
       ],
       "optionReasons": {
-        "pick-mcq-09": "本句指「偵測、接收到訊號、聲音、細節等」。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-09": "本句的「picked up background noise」指「偵測、接收到訊號、聲音、細節等」。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-09"
     },
@@ -1407,11 +1331,9 @@ export default {
       "masked": "The test ____.",
       "options": [
         "pick-mcq-09",
-        "pick-mcq-08",
-        "pick-mcq-10",
-        "pick-mcq-07",
-        "pick-mcq-11",
-        "pick-mcq-06"
+        "pick-mcq-03",
+        "pick-mcq-36",
+        "pick-mcq-34"
       ],
       "explanation": "本句的「picked up a small change」指「偵測、接收到訊號、聲音、細節等」。",
       "sentenceIndex": 19,
@@ -1420,12 +1342,10 @@ export default {
         "picked up a small change"
       ],
       "optionReasons": {
-        "pick-mcq-09": "本句指「偵測、接收到訊號、聲音、細節等」。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-06": "「到某處接人或領取某物」是「pick up — collect」的用法，與本句語境不同。"
+        "pick-mcq-09": "本句的「picked up a small change」指「偵測、接收到訊號、聲音、細節等」。",
+        "pick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-09"
     },
@@ -1437,11 +1357,9 @@ export default {
       "masked": "Business ____ in the afternoon.",
       "options": [
         "pick-mcq-10",
-        "pick-mcq-09",
-        "pick-mcq-11",
-        "pick-mcq-08",
-        "pick-mcq-12",
-        "pick-mcq-07"
+        "pick-mcq-28",
+        "pick-mcq-04",
+        "pick-mcq-33"
       ],
       "explanation": "本句的「picked up」指「情況、生意、天氣等開始好轉／增強」。",
       "sentenceIndex": 20,
@@ -1450,12 +1368,10 @@ export default {
         "picked up"
       ],
       "optionReasons": {
-        "pick-mcq-10": "本句指「情況、生意、天氣等開始好轉／增強」。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。"
+        "pick-mcq-10": "本句的「picked up」指「情況、生意、天氣等開始好轉／增強」。",
+        "pick-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-10"
     },
@@ -1467,11 +1383,9 @@ export default {
       "masked": "The wind ____.",
       "options": [
         "pick-mcq-10",
-        "pick-mcq-09",
-        "pick-mcq-11",
-        "pick-mcq-08",
-        "pick-mcq-12",
-        "pick-mcq-07"
+        "pick-mcq-30",
+        "pick-mcq-26",
+        "pick-mcq-15"
       ],
       "explanation": "本句的「picked up」指「情況、生意、天氣等開始好轉／增強」。",
       "sentenceIndex": 21,
@@ -1480,12 +1394,10 @@ export default {
         "picked up"
       ],
       "optionReasons": {
-        "pick-mcq-10": "本句指「情況、生意、天氣等開始好轉／增強」。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-07": "「順便買到／取得某物」是「pick up — buy/get」的用法，與本句語境不同。"
+        "pick-mcq-10": "本句的「picked up」指「情況、生意、天氣等開始好轉／增強」。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-10"
     },
@@ -1497,11 +1409,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "pick-mcq-11",
-        "pick-mcq-10",
-        "pick-mcq-12",
+        "pick-mcq-32",
         "pick-mcq-09",
-        "pick-mcq-13",
-        "pick-mcq-08"
+        "pick-mcq-14"
       ],
       "explanation": "本句的「pick up where we left off」指「從中斷處重新繼續」。",
       "sentenceIndex": 22,
@@ -1510,12 +1420,10 @@ export default {
         "pick up where we left off"
       ],
       "optionReasons": {
-        "pick-mcq-11": "本句指「從中斷處重新繼續」。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。"
+        "pick-mcq-11": "本句的「pick up where we left off」指「從中斷處重新繼續」。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-11"
     },
@@ -1527,11 +1435,9 @@ export default {
       "masked": "The story ____ in the next chapter.",
       "options": [
         "pick-mcq-11",
-        "pick-mcq-10",
+        "pick-mcq-03",
         "pick-mcq-12",
-        "pick-mcq-09",
-        "pick-mcq-13",
-        "pick-mcq-08"
+        "pick-mcq-30"
       ],
       "explanation": "本句的「picks up again」指「從中斷處重新繼續」。",
       "sentenceIndex": 23,
@@ -1540,12 +1446,10 @@ export default {
         "picks up again"
       ],
       "optionReasons": {
-        "pick-mcq-11": "本句指「從中斷處重新繼續」。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-08": "「透過接觸而自然學會語言、技能、習慣等」是「pick up — learn」的用法，與本句語境不同。"
+        "pick-mcq-11": "本句的「picks up again」指「從中斷處重新繼續」。",
+        "pick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-11"
     },
@@ -1557,11 +1461,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "pick-mcq-12",
-        "pick-mcq-11",
-        "pick-mcq-13",
-        "pick-mcq-10",
-        "pick-mcq-14",
-        "pick-mcq-09"
+        "pick-mcq-07",
+        "pick-mcq-17",
+        "pick-mcq-25"
       ],
       "explanation": "本句的「pick up the pace」指「加快進度／速度」。",
       "sentenceIndex": 24,
@@ -1570,12 +1472,10 @@ export default {
         "pick up the pace"
       ],
       "optionReasons": {
-        "pick-mcq-12": "本句指「加快進度／速度」。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。"
+        "pick-mcq-12": "本句的「pick up the pace」指「加快進度／速度」。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-12"
     },
@@ -1587,11 +1487,9 @@ export default {
       "masked": "The runner ____ near the finish.",
       "options": [
         "pick-mcq-12",
-        "pick-mcq-11",
-        "pick-mcq-13",
         "pick-mcq-10",
-        "pick-mcq-14",
-        "pick-mcq-09"
+        "pick-mcq-19",
+        "pick-mcq-37"
       ],
       "explanation": "本句的「picked up speed」指「加快進度／速度」。",
       "sentenceIndex": 25,
@@ -1600,12 +1498,10 @@ export default {
         "picked up speed"
       ],
       "optionReasons": {
-        "pick-mcq-12": "本句指「加快進度／速度」。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-09": "「偵測、接收到訊號、聲音、細節等」是「pick up — detect」的用法，與本句語境不同。"
+        "pick-mcq-12": "本句的「picked up speed」指「加快進度／速度」。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-12"
     },
@@ -1617,11 +1513,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pick-mcq-13",
-        "pick-mcq-12",
-        "pick-mcq-14",
-        "pick-mcq-11",
-        "pick-mcq-15",
-        "pick-mcq-10"
+        "pick-mcq-33",
+        "pick-mcq-04",
+        "pick-mcq-14"
       ],
       "explanation": "本句的「picked some flowers」指「從植物上摘取水果、花等」。",
       "sentenceIndex": 26,
@@ -1630,12 +1524,10 @@ export default {
         "picked some flowers"
       ],
       "optionReasons": {
-        "pick-mcq-13": "本句指「從植物上摘取水果、花等」。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。"
+        "pick-mcq-13": "本句的「picked some flowers」指「從植物上摘取水果、花等」。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-13"
     },
@@ -1649,9 +1541,7 @@ export default {
         "pick-mcq-13",
         "pick-mcq-12",
         "pick-mcq-14",
-        "pick-mcq-11",
-        "pick-mcq-15",
-        "pick-mcq-10"
+        "pick-mcq-16"
       ],
       "explanation": "本句的「picked apples」指「從植物上摘取水果、花等」。",
       "sentenceIndex": 27,
@@ -1660,12 +1550,10 @@ export default {
         "picked apples"
       ],
       "optionReasons": {
-        "pick-mcq-13": "本句指「從植物上摘取水果、花等」。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。"
+        "pick-mcq-13": "本句的「picked apples」指「從植物上摘取水果、花等」。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-13"
     },
@@ -1677,11 +1565,9 @@ export default {
       "masked": "Workers ____ all morning.",
       "options": [
         "pick-mcq-13",
-        "pick-mcq-12",
-        "pick-mcq-14",
+        "pick-mcq-21",
         "pick-mcq-11",
-        "pick-mcq-15",
-        "pick-mcq-10"
+        "pick-mcq-30"
       ],
       "explanation": "本句的「picked grapes」指「從植物上摘取水果、花等」。",
       "sentenceIndex": 28,
@@ -1690,12 +1576,10 @@ export default {
         "picked grapes"
       ],
       "optionReasons": {
-        "pick-mcq-13": "本句指「從植物上摘取水果、花等」。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。"
+        "pick-mcq-13": "本句的「picked grapes」指「從植物上摘取水果、花等」。",
+        "pick-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-13"
     },
@@ -1707,11 +1591,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "pick-mcq-13",
+        "pick-mcq-02",
         "pick-mcq-12",
-        "pick-mcq-14",
-        "pick-mcq-11",
-        "pick-mcq-15",
-        "pick-mcq-10"
+        "pick-mcq-14"
       ],
       "explanation": "本句的「pick the flowers」指「從植物上摘取水果、花等」。",
       "sentenceIndex": 29,
@@ -1720,12 +1602,10 @@ export default {
         "pick the flowers"
       ],
       "optionReasons": {
-        "pick-mcq-13": "本句指「從植物上摘取水果、花等」。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-10": "「情況、生意、天氣等開始好轉／增強」是「pick up — improve」的用法，與本句語境不同。"
+        "pick-mcq-13": "本句的「pick the flowers」指「從植物上摘取水果、花等」。",
+        "pick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-13"
     },
@@ -1737,11 +1617,9 @@ export default {
       "masked": "She ____ the fabric.",
       "options": [
         "pick-mcq-14",
-        "pick-mcq-13",
-        "pick-mcq-15",
-        "pick-mcq-12",
-        "pick-mcq-16",
-        "pick-mcq-11"
+        "pick-mcq-06",
+        "pick-mcq-10",
+        "pick-mcq-04"
       ],
       "explanation": "本句的「picked a piece of glass out of」指「用手指／工具把小東西挑出、剔除」。",
       "sentenceIndex": 30,
@@ -1750,12 +1628,10 @@ export default {
         "picked a piece of glass out of"
       ],
       "optionReasons": {
-        "pick-mcq-14": "本句指「用手指／工具把小東西挑出、剔除」。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。"
+        "pick-mcq-14": "本句的「picked a piece of glass out of」指「用手指／工具把小東西挑出、剔除」。",
+        "pick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-14"
     },
@@ -1767,11 +1643,9 @@ export default {
       "masked": "He ____ the fruit.",
       "options": [
         "pick-mcq-14",
-        "pick-mcq-13",
+        "pick-mcq-06",
         "pick-mcq-15",
-        "pick-mcq-12",
-        "pick-mcq-16",
-        "pick-mcq-11"
+        "pick-mcq-30"
       ],
       "explanation": "本句的「picked the seeds from」指「用手指／工具把小東西挑出、剔除」。",
       "sentenceIndex": 31,
@@ -1780,12 +1654,10 @@ export default {
         "picked the seeds from"
       ],
       "optionReasons": {
-        "pick-mcq-14": "本句指「用手指／工具把小東西挑出、剔除」。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-11": "「從中斷處重新繼續」是「pick up — resume」的用法，與本句語境不同。"
+        "pick-mcq-14": "本句的「picked the seeds from」指「用手指／工具把小東西挑出、剔除」。",
+        "pick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-14"
     },
@@ -1797,11 +1669,9 @@ export default {
       "masked": "She only ____.",
       "options": [
         "pick-mcq-15",
-        "pick-mcq-14",
-        "pick-mcq-16",
         "pick-mcq-13",
-        "pick-mcq-17",
-        "pick-mcq-12"
+        "pick-mcq-12",
+        "pick-mcq-37"
       ],
       "explanation": "本句的「picked at her dinner」指「沒胃口地只吃少量；有一口沒一口地吃」。",
       "sentenceIndex": 32,
@@ -1810,12 +1680,10 @@ export default {
         "picked at her dinner"
       ],
       "optionReasons": {
-        "pick-mcq-15": "本句指「沒胃口地只吃少量；有一口沒一口地吃」。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。"
+        "pick-mcq-15": "本句的「picked at her dinner」指「沒胃口地只吃少量；有一口沒一口地吃」。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-15"
     },
@@ -1827,11 +1695,9 @@ export default {
       "masked": "He sat there ____.",
       "options": [
         "pick-mcq-15",
-        "pick-mcq-14",
-        "pick-mcq-16",
-        "pick-mcq-13",
-        "pick-mcq-17",
-        "pick-mcq-12"
+        "pick-mcq-30",
+        "pick-mcq-32",
+        "pick-mcq-36"
       ],
       "explanation": "本句的「picking at his food」指「沒胃口地只吃少量；有一口沒一口地吃」。",
       "sentenceIndex": 33,
@@ -1840,12 +1706,10 @@ export default {
         "picking at his food"
       ],
       "optionReasons": {
-        "pick-mcq-15": "本句指「沒胃口地只吃少量；有一口沒一口地吃」。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-12": "「加快進度／速度」是「pick up the pace/speed」的用法，與本句語境不同。"
+        "pick-mcq-15": "本句的「picking at his food」指「沒胃口地只吃少量；有一口沒一口地吃」。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-15"
     },
@@ -1857,11 +1721,9 @@ export default {
       "masked": "Stop ____.",
       "options": [
         "pick-mcq-16",
-        "pick-mcq-15",
-        "pick-mcq-17",
-        "pick-mcq-14",
-        "pick-mcq-18",
-        "pick-mcq-13"
+        "pick-mcq-37",
+        "pick-mcq-34",
+        "pick-mcq-10"
       ],
       "explanation": "本句的「picking at the scab」指「反覆摳、撥弄某個小地方」。",
       "sentenceIndex": 34,
@@ -1870,12 +1732,10 @@ export default {
         "picking at the scab"
       ],
       "optionReasons": {
-        "pick-mcq-16": "本句指「反覆摳、撥弄某個小地方」。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。"
+        "pick-mcq-16": "本句的「picking at the scab」指「反覆摳、撥弄某個小地方」。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-16"
     },
@@ -1887,11 +1747,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "pick-mcq-16",
-        "pick-mcq-15",
-        "pick-mcq-17",
-        "pick-mcq-14",
-        "pick-mcq-18",
-        "pick-mcq-13"
+        "pick-mcq-08",
+        "pick-mcq-29",
+        "pick-mcq-09"
       ],
       "explanation": "本句的「picked at the loose thread」指「反覆摳、撥弄某個小地方」。",
       "sentenceIndex": 35,
@@ -1900,12 +1758,10 @@ export default {
         "picked at the loose thread"
       ],
       "optionReasons": {
-        "pick-mcq-16": "本句指「反覆摳、撥弄某個小地方」。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-13": "「從植物上摘取水果、花等」是「pick — fruit/flowers」的用法，與本句語境不同。"
+        "pick-mcq-16": "本句的「picked at the loose thread」指「反覆摳、撥弄某個小地方」。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-16"
     },
@@ -1917,11 +1773,9 @@ export default {
       "masked": "Someone had tried to ____.",
       "options": [
         "pick-mcq-17",
-        "pick-mcq-16",
-        "pick-mcq-18",
-        "pick-mcq-15",
-        "pick-mcq-19",
-        "pick-mcq-14"
+        "pick-mcq-25",
+        "pick-mcq-02",
+        "pick-mcq-34"
       ],
       "explanation": "本句的「pick the lock」指「不用原鑰匙而撬／開鎖」。",
       "sentenceIndex": 36,
@@ -1930,12 +1784,10 @@ export default {
         "pick the lock"
       ],
       "optionReasons": {
-        "pick-mcq-17": "本句指「不用原鑰匙而撬／開鎖」。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。"
+        "pick-mcq-17": "本句的「pick the lock」指「不用原鑰匙而撬／開鎖」。",
+        "pick-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-17"
     },
@@ -1947,11 +1799,9 @@ export default {
       "masked": "He learned how to ____.",
       "options": [
         "pick-mcq-17",
-        "pick-mcq-16",
-        "pick-mcq-18",
-        "pick-mcq-15",
-        "pick-mcq-19",
-        "pick-mcq-14"
+        "pick-mcq-31",
+        "pick-mcq-37",
+        "pick-mcq-04"
       ],
       "explanation": "本句的「pick simple locks」指「不用原鑰匙而撬／開鎖」。",
       "sentenceIndex": 37,
@@ -1960,12 +1810,10 @@ export default {
         "pick simple locks"
       ],
       "optionReasons": {
-        "pick-mcq-17": "本句指「不用原鑰匙而撬／開鎖」。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-14": "「用手指／工具把小東西挑出、剔除」是「pick something out of」的用法，與本句語境不同。"
+        "pick-mcq-17": "本句的「pick simple locks」指「不用原鑰匙而撬／開鎖」。",
+        "pick-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-17"
     },
@@ -1977,11 +1825,9 @@ export default {
       "masked": "He ____ gently.",
       "options": [
         "pick-mcq-18",
-        "pick-mcq-17",
-        "pick-mcq-19",
-        "pick-mcq-16",
-        "pick-mcq-20",
-        "pick-mcq-15"
+        "pick-mcq-25",
+        "pick-mcq-26",
+        "pick-mcq-33"
       ],
       "explanation": "本句的「picked the guitar strings」指「撥動吉他等弦樂器的弦」。",
       "sentenceIndex": 38,
@@ -1990,12 +1836,10 @@ export default {
         "picked the guitar strings"
       ],
       "optionReasons": {
-        "pick-mcq-18": "本句指「撥動吉他等弦樂器的弦」。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-20": "「反覆欺負、取笑、批評或針對某人」是「pick on someone」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。"
+        "pick-mcq-18": "本句的「picked the guitar strings」指「撥動吉他等弦樂器的弦」。",
+        "pick-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-18"
     },
@@ -2007,11 +1851,9 @@ export default {
       "masked": "She ____ on the guitar.",
       "options": [
         "pick-mcq-18",
-        "pick-mcq-17",
-        "pick-mcq-19",
-        "pick-mcq-16",
-        "pick-mcq-20",
-        "pick-mcq-15"
+        "pick-mcq-02",
+        "pick-mcq-30",
+        "pick-mcq-36"
       ],
       "explanation": "本句的「picked out a melody」指「撥動吉他等弦樂器的弦」。",
       "sentenceIndex": 39,
@@ -2020,12 +1862,10 @@ export default {
         "picked out a melody"
       ],
       "optionReasons": {
-        "pick-mcq-18": "本句指「撥動吉他等弦樂器的弦」。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。",
-        "pick-mcq-20": "「反覆欺負、取笑、批評或針對某人」是「pick on someone」的用法，與本句語境不同。",
-        "pick-mcq-15": "「沒胃口地只吃少量；有一口沒一口地吃」是「pick at food」的用法，與本句語境不同。"
+        "pick-mcq-18": "本句的「picked out a melody」指「撥動吉他等弦樂器的弦」。",
+        "pick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-18"
     },
@@ -2037,11 +1877,9 @@ export default {
       "masked": "He dropped his guitar ____.",
       "options": [
         "pick-mcq-19",
-        "pick-mcq-18",
-        "pick-mcq-20",
-        "pick-mcq-17",
-        "pick-mcq-21",
-        "pick-mcq-16"
+        "pick-mcq-11",
+        "pick-mcq-14",
+        "pick-mcq-24"
       ],
       "explanation": "本句的「pick」指「彈吉他等用的撥片」。",
       "sentenceIndex": 40,
@@ -2050,12 +1888,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-19": "本句指「彈吉他等用的撥片」。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-20": "「反覆欺負、取笑、批評或針對某人」是「pick on someone」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-21": "「專門挑出某事的毛病／漏洞」是「pick holes in」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。"
+        "pick-mcq-19": "本句的「pick」指「彈吉他等用的撥片」。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-19"
     },
@@ -2067,11 +1903,9 @@ export default {
       "masked": "I prefer a softer ____.",
       "options": [
         "pick-mcq-19",
-        "pick-mcq-18",
-        "pick-mcq-20",
-        "pick-mcq-17",
-        "pick-mcq-21",
-        "pick-mcq-16"
+        "pick-mcq-02",
+        "pick-mcq-37",
+        "pick-mcq-07"
       ],
       "explanation": "本句的「pick」指「彈吉他等用的撥片」。",
       "sentenceIndex": 41,
@@ -2080,12 +1914,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-19": "本句指「彈吉他等用的撥片」。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-20": "「反覆欺負、取笑、批評或針對某人」是「pick on someone」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。",
-        "pick-mcq-21": "「專門挑出某事的毛病／漏洞」是「pick holes in」的用法，與本句語境不同。",
-        "pick-mcq-16": "「反覆摳、撥弄某個小地方」是「pick at skin/thread」的用法，與本句語境不同。"
+        "pick-mcq-19": "本句的「pick」指「彈吉他等用的撥片」。",
+        "pick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-19"
     },
@@ -2097,11 +1929,9 @@ export default {
       "masked": "Stop ____ your brother.",
       "options": [
         "pick-mcq-20",
-        "pick-mcq-19",
-        "pick-mcq-21",
-        "pick-mcq-18",
-        "pick-mcq-22",
-        "pick-mcq-17"
+        "pick-mcq-32",
+        "pick-mcq-09",
+        "pick-mcq-04"
       ],
       "explanation": "本句的「picking on」指「反覆欺負、取笑、批評或針對某人」。",
       "sentenceIndex": 42,
@@ -2110,12 +1940,10 @@ export default {
         "picking on"
       ],
       "optionReasons": {
-        "pick-mcq-20": "本句指「反覆欺負、取笑、批評或針對某人」。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-21": "「專門挑出某事的毛病／漏洞」是「pick holes in」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。"
+        "pick-mcq-20": "本句的「picking on」指「反覆欺負、取笑、批評或針對某人」。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-20"
     },
@@ -2127,11 +1955,9 @@ export default {
       "masked": "He felt that the teacher was ____.",
       "options": [
         "pick-mcq-20",
-        "pick-mcq-19",
-        "pick-mcq-21",
-        "pick-mcq-18",
-        "pick-mcq-22",
-        "pick-mcq-17"
+        "pick-mcq-15",
+        "pick-mcq-09",
+        "pick-mcq-32"
       ],
       "explanation": "本句的「picking on him」指「反覆欺負、取笑、批評或針對某人」。",
       "sentenceIndex": 43,
@@ -2140,12 +1966,10 @@ export default {
         "picking on him"
       ],
       "optionReasons": {
-        "pick-mcq-20": "本句指「反覆欺負、取笑、批評或針對某人」。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-21": "「專門挑出某事的毛病／漏洞」是「pick holes in」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。",
-        "pick-mcq-17": "「不用原鑰匙而撬／開鎖」是「pick a lock」的用法，與本句語境不同。"
+        "pick-mcq-20": "本句的「picking on him」指「反覆欺負、取笑、批評或針對某人」。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-20"
     },
@@ -2157,11 +1981,9 @@ export default {
       "masked": "It’s easy to ____ the plan.",
       "options": [
         "pick-mcq-21",
-        "pick-mcq-20",
-        "pick-mcq-22",
-        "pick-mcq-19",
-        "pick-mcq-23",
-        "pick-mcq-18"
+        "pick-mcq-05",
+        "pick-mcq-17",
+        "pick-mcq-07"
       ],
       "explanation": "本句的「pick holes in」指「專門挑出某事的毛病／漏洞」。",
       "sentenceIndex": 44,
@@ -2170,12 +1992,10 @@ export default {
         "pick holes in"
       ],
       "optionReasons": {
-        "pick-mcq-21": "本句指「專門挑出某事的毛病／漏洞」。",
-        "pick-mcq-20": "「反覆欺負、取笑、批評或針對某人」是「pick on someone」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。"
+        "pick-mcq-21": "本句的「pick holes in」指「專門挑出某事的毛病／漏洞」。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-21"
     },
@@ -2187,11 +2007,9 @@ export default {
       "masked": "The reviewer ____ every argument.",
       "options": [
         "pick-mcq-21",
-        "pick-mcq-20",
-        "pick-mcq-22",
-        "pick-mcq-19",
-        "pick-mcq-23",
-        "pick-mcq-18"
+        "pick-mcq-12",
+        "pick-mcq-06",
+        "pick-mcq-08"
       ],
       "explanation": "本句的「picked holes in」指「專門挑出某事的毛病／漏洞」。",
       "sentenceIndex": 45,
@@ -2200,12 +2018,10 @@ export default {
         "picked holes in"
       ],
       "optionReasons": {
-        "pick-mcq-21": "本句指「專門挑出某事的毛病／漏洞」。",
-        "pick-mcq-20": "「反覆欺負、取笑、批評或針對某人」是「pick on someone」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。",
-        "pick-mcq-19": "「彈吉他等用的撥片」是「pick — noun plectrum」的用法，與本句語境不同。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。",
-        "pick-mcq-18": "「撥動吉他等弦樂器的弦」是「pick — instrument strings」的用法，與本句語境不同。"
+        "pick-mcq-21": "本句的「picked holes in」指「專門挑出某事的毛病／漏洞」。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-21"
     },
@@ -2218,10 +2034,8 @@ export default {
       "options": [
         "pick-mcq-37",
         "pick-mcq-36",
-        "pick-mcq-35",
-        "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-32"
+        "pick-mcq-07",
+        "pick-mcq-31"
       ],
       "explanation": "本句的「pick out her voice」指「表示辨別出；聽出」。",
       "sentenceIndex": 46,
@@ -2230,12 +2044,10 @@ export default {
         "pick out her voice"
       ],
       "optionReasons": {
-        "pick-mcq-37": "本句指「表示辨別出；聽出」。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。"
+        "pick-mcq-37": "本句的「pick out her voice」指「表示辨別出；聽出」。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-37"
     },
@@ -2247,11 +2059,9 @@ export default {
       "masked": "The telescope lets us ____.",
       "options": [
         "pick-mcq-37",
-        "pick-mcq-36",
-        "pick-mcq-35",
-        "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-32"
+        "pick-mcq-03",
+        "pick-mcq-08",
+        "pick-mcq-27"
       ],
       "explanation": "本句的「pick out faint stars」指「表示辨別出；聽出」。",
       "sentenceIndex": 47,
@@ -2260,12 +2070,10 @@ export default {
         "pick out faint stars"
       ],
       "optionReasons": {
-        "pick-mcq-37": "本句指「表示辨別出；聽出」。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。"
+        "pick-mcq-37": "本句的「pick out faint stars」指「表示辨別出；聽出」。",
+        "pick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-37"
     },
@@ -2277,11 +2085,9 @@ export default {
       "masked": "You can’t just ____ which rules to follow.",
       "options": [
         "pick-mcq-24",
-        "pick-mcq-23",
-        "pick-mcq-25",
-        "pick-mcq-22",
-        "pick-mcq-26",
-        "pick-mcq-21"
+        "pick-mcq-11",
+        "pick-mcq-36",
+        "pick-mcq-18"
       ],
       "explanation": "本句的「pick and choose」指「很有選擇性地只挑自己想要的；挑挑揀揀」。",
       "sentenceIndex": 48,
@@ -2290,12 +2096,10 @@ export default {
         "pick and choose"
       ],
       "optionReasons": {
-        "pick-mcq-24": "本句指「很有選擇性地只挑自己想要的；挑挑揀揀」。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-21": "「專門挑出某事的毛病／漏洞」是「pick holes in」的用法，與本句語境不同。"
+        "pick-mcq-24": "本句的「pick and choose」指「很有選擇性地只挑自己想要的；挑挑揀揀」。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-24"
     },
@@ -2307,11 +2111,9 @@ export default {
       "masked": "She likes to ____ her projects.",
       "options": [
         "pick-mcq-24",
-        "pick-mcq-23",
-        "pick-mcq-25",
-        "pick-mcq-22",
-        "pick-mcq-26",
-        "pick-mcq-21"
+        "pick-mcq-16",
+        "pick-mcq-37",
+        "pick-mcq-11"
       ],
       "explanation": "本句的「pick and choose」指「很有選擇性地只挑自己想要的；挑挑揀揀」。",
       "sentenceIndex": 49,
@@ -2320,12 +2122,10 @@ export default {
         "pick and choose"
       ],
       "optionReasons": {
-        "pick-mcq-24": "本句指「很有選擇性地只挑自己想要的；挑挑揀揀」。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-21": "「專門挑出某事的毛病／漏洞」是「pick holes in」的用法，與本句語境不同。"
+        "pick-mcq-24": "本句的「pick and choose」指「很有選擇性地只挑自己想要的；挑挑揀揀」。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-24"
     },
@@ -2337,11 +2137,9 @@ export default {
       "masked": "He was trying to ____.",
       "options": [
         "pick-mcq-25",
-        "pick-mcq-24",
-        "pick-mcq-26",
-        "pick-mcq-23",
-        "pick-mcq-27",
-        "pick-mcq-22"
+        "pick-mcq-18",
+        "pick-mcq-16",
+        "pick-mcq-34"
       ],
       "explanation": "本句的「pick a fight」指「故意挑起衝突／爭吵」。",
       "sentenceIndex": 50,
@@ -2350,12 +2148,10 @@ export default {
         "pick a fight"
       ],
       "optionReasons": {
-        "pick-mcq-25": "本句指「故意挑起衝突／爭吵」。",
-        "pick-mcq-24": "「很有選擇性地只挑自己想要的；挑挑揀揀」是「pick and choose」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。"
+        "pick-mcq-25": "本句的「pick a fight」指「故意挑起衝突／爭吵」。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-25"
     },
@@ -2367,11 +2163,9 @@ export default {
       "masked": "Don’t ____ over something so small.",
       "options": [
         "pick-mcq-25",
-        "pick-mcq-24",
-        "pick-mcq-26",
-        "pick-mcq-23",
-        "pick-mcq-27",
-        "pick-mcq-22"
+        "pick-mcq-19",
+        "pick-mcq-28",
+        "pick-mcq-13"
       ],
       "explanation": "本句的「pick an argument」指「故意挑起衝突／爭吵」。",
       "sentenceIndex": 51,
@@ -2380,12 +2174,10 @@ export default {
         "pick an argument"
       ],
       "optionReasons": {
-        "pick-mcq-25": "本句指「故意挑起衝突／爭吵」。",
-        "pick-mcq-24": "「很有選擇性地只挑自己想要的；挑挑揀揀」是「pick and choose」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-22": "「從一群中挑出某個」是「pick out — choose」的用法，與本句語境不同。"
+        "pick-mcq-25": "本句的「pick an argument」指「故意挑起衝突／爭吵」。",
+        "pick-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-25"
     },
@@ -2397,11 +2189,9 @@ export default {
       "masked": "He was the first ____.",
       "options": [
         "pick-mcq-26",
-        "pick-mcq-25",
-        "pick-mcq-27",
-        "pick-mcq-24",
-        "pick-mcq-28",
-        "pick-mcq-23"
+        "pick-mcq-12",
+        "pick-mcq-13",
+        "pick-mcq-21"
       ],
       "explanation": "本句的「draft pick」指「職業體育選秀中的選秀順位／被選球員」。",
       "sentenceIndex": 52,
@@ -2410,12 +2200,10 @@ export default {
         "draft pick"
       ],
       "optionReasons": {
-        "pick-mcq-26": "本句指「職業體育選秀中的選秀順位／被選球員」。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-24": "「很有選擇性地只挑自己想要的；挑挑揀揀」是「pick and choose」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。"
+        "pick-mcq-26": "本句的「draft pick」指「職業體育選秀中的選秀順位／被選球員」。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-26"
     },
@@ -2427,11 +2215,9 @@ export default {
       "masked": "The team traded a future ____.",
       "options": [
         "pick-mcq-26",
+        "pick-mcq-30",
         "pick-mcq-25",
-        "pick-mcq-27",
-        "pick-mcq-24",
-        "pick-mcq-28",
-        "pick-mcq-23"
+        "pick-mcq-09"
       ],
       "explanation": "本句的「pick」指「職業體育選秀中的選秀順位／被選球員」。",
       "sentenceIndex": 53,
@@ -2440,12 +2226,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-26": "本句指「職業體育選秀中的選秀順位／被選球員」。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-24": "「很有選擇性地只挑自己想要的；挑挑揀揀」是「pick and choose」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-23": "「從背景／群體中辨認出某人／某物」是「pick out — identify」的用法，與本句語境不同。"
+        "pick-mcq-26": "本句的「pick」指「職業體育選秀中的選秀順位／被選球員」。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-26"
     },
@@ -2457,11 +2241,9 @@ export default {
       "masked": "The team ____ its opponents one by one.",
       "options": [
         "pick-mcq-27",
-        "pick-mcq-26",
-        "pick-mcq-28",
-        "pick-mcq-25",
-        "pick-mcq-29",
-        "pick-mcq-24"
+        "pick-mcq-10",
+        "pick-mcq-36",
+        "pick-mcq-08"
       ],
       "explanation": "本句的「picked off」指「逐個擊破、逐一除掉」。",
       "sentenceIndex": 54,
@@ -2470,12 +2252,10 @@ export default {
         "picked off"
       ],
       "optionReasons": {
-        "pick-mcq-27": "本句指「逐個擊破、逐一除掉」。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-24": "「很有選擇性地只挑自己想要的；挑挑揀揀」是「pick and choose」的用法，與本句語境不同。"
+        "pick-mcq-27": "本句的「picked off」指「逐個擊破、逐一除掉」。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-27"
     },
@@ -2487,11 +2267,9 @@ export default {
       "masked": "The marksman ____ the targets individually.",
       "options": [
         "pick-mcq-27",
-        "pick-mcq-26",
-        "pick-mcq-28",
-        "pick-mcq-25",
-        "pick-mcq-29",
-        "pick-mcq-24"
+        "pick-mcq-37",
+        "pick-mcq-15",
+        "pick-mcq-33"
       ],
       "explanation": "本句的「picked off」指「逐個擊破、逐一除掉」。",
       "sentenceIndex": 55,
@@ -2500,12 +2278,10 @@ export default {
         "picked off"
       ],
       "optionReasons": {
-        "pick-mcq-27": "本句指「逐個擊破、逐一除掉」。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-24": "「很有選擇性地只挑自己想要的；挑挑揀揀」是「pick and choose」的用法，與本句語境不同。"
+        "pick-mcq-27": "本句的「picked off」指「逐個擊破、逐一除掉」。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-27"
     },
@@ -2517,11 +2293,9 @@ export default {
       "masked": "She ____ the box of old photographs.",
       "options": [
         "pick-mcq-28",
-        "pick-mcq-27",
-        "pick-mcq-29",
-        "pick-mcq-26",
-        "pick-mcq-30",
-        "pick-mcq-25"
+        "pick-mcq-01",
+        "pick-mcq-36",
+        "pick-mcq-12"
       ],
       "explanation": "本句的「picked through」指「在一堆東西中仔細翻找」。",
       "sentenceIndex": 56,
@@ -2530,12 +2304,10 @@ export default {
         "picked through"
       ],
       "optionReasons": {
-        "pick-mcq-28": "本句指「在一堆東西中仔細翻找」。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。"
+        "pick-mcq-28": "本句的「picked through」指「在一堆東西中仔細翻找」。",
+        "pick-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-28"
     },
@@ -2547,11 +2319,9 @@ export default {
       "masked": "Birds ____ the rubbish.",
       "options": [
         "pick-mcq-28",
-        "pick-mcq-27",
-        "pick-mcq-29",
-        "pick-mcq-26",
-        "pick-mcq-30",
-        "pick-mcq-25"
+        "pick-mcq-16",
+        "pick-mcq-37",
+        "pick-mcq-17"
       ],
       "explanation": "本句的「picked through」指「在一堆東西中仔細翻找」。",
       "sentenceIndex": 57,
@@ -2560,12 +2330,10 @@ export default {
         "picked through"
       ],
       "optionReasons": {
-        "pick-mcq-28": "本句指「在一堆東西中仔細翻找」。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-25": "「故意挑起衝突／爭吵」是「pick a fight/argument」的用法，與本句語境不同。"
+        "pick-mcq-28": "本句的「picked through」指「在一堆東西中仔細翻找」。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-28"
     },
@@ -2577,11 +2345,9 @@ export default {
       "masked": "Shoppers ____ the fruit.",
       "options": [
         "pick-mcq-29",
-        "pick-mcq-28",
-        "pick-mcq-30",
-        "pick-mcq-27",
-        "pick-mcq-31",
-        "pick-mcq-26"
+        "pick-mcq-12",
+        "pick-mcq-19",
+        "pick-mcq-36"
       ],
       "explanation": "本句的「picked over」指「仔細挑選，常留下較差的東西」。",
       "sentenceIndex": 58,
@@ -2590,12 +2356,10 @@ export default {
         "picked over"
       ],
       "optionReasons": {
-        "pick-mcq-29": "本句指「仔細挑選，常留下較差的東西」。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。"
+        "pick-mcq-29": "本句的「picked over」指「仔細挑選，常留下較差的東西」。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-29"
     },
@@ -2607,11 +2371,9 @@ export default {
       "masked": "By evening, the best items had already been ____.",
       "options": [
         "pick-mcq-29",
-        "pick-mcq-28",
-        "pick-mcq-30",
-        "pick-mcq-27",
-        "pick-mcq-31",
-        "pick-mcq-26"
+        "pick-mcq-05",
+        "pick-mcq-07",
+        "pick-mcq-19"
       ],
       "explanation": "本句的「picked over」指「仔細挑選，常留下較差的東西」。",
       "sentenceIndex": 59,
@@ -2620,12 +2382,10 @@ export default {
         "picked over"
       ],
       "optionReasons": {
-        "pick-mcq-29": "本句指「仔細挑選，常留下較差的東西」。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-26": "「職業體育選秀中的選秀順位／被選球員」是「draft pick」的用法，與本句語境不同。"
+        "pick-mcq-29": "本句的「picked over」指「仔細挑選，常留下較差的東西」。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-29"
     },
@@ -2637,11 +2397,9 @@ export default {
       "masked": "He broke the ground with a ____.",
       "options": [
         "pick-mcq-30",
-        "pick-mcq-29",
-        "pick-mcq-31",
-        "pick-mcq-28",
-        "pick-mcq-32",
-        "pick-mcq-27"
+        "pick-mcq-07",
+        "pick-mcq-33",
+        "pick-mcq-18"
       ],
       "explanation": "本句的「pick」指「用來挖硬土／岩石的尖嘴鎬」。",
       "sentenceIndex": 60,
@@ -2650,12 +2408,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-30": "本句指「用來挖硬土／岩石的尖嘴鎬」。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。"
+        "pick-mcq-30": "本句的「pick」指「用來挖硬土／岩石的尖嘴鎬」。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-30"
     },
@@ -2667,10 +2423,8 @@ export default {
       "masked": "The miner carried a ____.",
       "options": [
         "pick-mcq-30",
-        "pick-mcq-29",
         "pick-mcq-31",
-        "pick-mcq-28",
-        "pick-mcq-32",
+        "pick-mcq-19",
         "pick-mcq-27"
       ],
       "explanation": "本句的「pick」指「用來挖硬土／岩石的尖嘴鎬」。",
@@ -2680,12 +2434,10 @@ export default {
         "pick"
       ],
       "optionReasons": {
-        "pick-mcq-30": "本句指「用來挖硬土／岩石的尖嘴鎬」。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-27": "「逐個擊破、逐一除掉」是「pick off」的用法，與本句語境不同。"
+        "pick-mcq-30": "本句的「pick」指「用來挖硬土／岩石的尖嘴鎬」。",
+        "pick-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-30"
     },
@@ -2697,11 +2449,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "pick-mcq-31",
-        "pick-mcq-30",
-        "pick-mcq-32",
-        "pick-mcq-29",
-        "pick-mcq-33",
-        "pick-mcq-28"
+        "pick-mcq-34",
+        "pick-mcq-16",
+        "pick-mcq-35"
       ],
       "explanation": "本句的「picky eater」指「過度挑選、難以取悅的；挑剔的」。",
       "sentenceIndex": 62,
@@ -2710,12 +2460,10 @@ export default {
         "picky eater"
       ],
       "optionReasons": {
-        "pick-mcq-31": "本句指「過度挑選、難以取悅的；挑剔的」。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。"
+        "pick-mcq-31": "本句的「picky eater」指「過度挑選、難以取悅的；挑剔的」。",
+        "pick-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-31"
     },
@@ -2727,11 +2475,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "pick-mcq-31",
-        "pick-mcq-30",
-        "pick-mcq-32",
-        "pick-mcq-29",
-        "pick-mcq-33",
-        "pick-mcq-28"
+        "pick-mcq-05",
+        "pick-mcq-28",
+        "pick-mcq-30"
       ],
       "explanation": "本句的「picky about clothes」指「過度挑選、難以取悅的；挑剔的」。",
       "sentenceIndex": 63,
@@ -2740,12 +2486,10 @@ export default {
         "picky about clothes"
       ],
       "optionReasons": {
-        "pick-mcq-31": "本句指「過度挑選、難以取悅的；挑剔的」。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。"
+        "pick-mcq-31": "本句的「picky about clothes」指「過度挑選、難以取悅的；挑剔的」。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-31"
     },
@@ -2757,11 +2501,9 @@ export default {
       "masked": "His ____ makes restaurants difficult.",
       "options": [
         "pick-mcq-31",
-        "pick-mcq-30",
-        "pick-mcq-32",
-        "pick-mcq-29",
-        "pick-mcq-33",
-        "pick-mcq-28"
+        "pick-mcq-36",
+        "pick-mcq-37",
+        "pick-mcq-27"
       ],
       "explanation": "本句的「pickiness」指「過度挑選、難以取悅的；挑剔的」。",
       "sentenceIndex": 64,
@@ -2770,12 +2512,10 @@ export default {
         "pickiness"
       ],
       "optionReasons": {
-        "pick-mcq-31": "本句指「過度挑選、難以取悅的；挑剔的」。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。"
+        "pick-mcq-31": "本句的「pickiness」指「過度挑選、難以取悅的；挑剔的」。",
+        "pick-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-31"
     },
@@ -2788,10 +2528,8 @@ export default {
       "options": [
         "pick-mcq-31",
         "pick-mcq-30",
-        "pick-mcq-32",
-        "pick-mcq-29",
-        "pick-mcq-33",
-        "pick-mcq-28"
+        "pick-mcq-10",
+        "pick-mcq-37"
       ],
       "explanation": "本句的「pickiness」指「過度挑選、難以取悅的；挑剔的」。",
       "sentenceIndex": 65,
@@ -2800,12 +2538,10 @@ export default {
         "pickiness"
       ],
       "optionReasons": {
-        "pick-mcq-31": "本句指「過度挑選、難以取悅的；挑剔的」。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-28": "「在一堆東西中仔細翻找」是「pick through」的用法，與本句語境不同。"
+        "pick-mcq-31": "本句的「pickiness」指「過度挑選、難以取悅的；挑剔的」。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-31"
     },
@@ -2817,11 +2553,9 @@ export default {
       "masked": "Fruit ____ started work early.",
       "options": [
         "pick-mcq-32",
-        "pick-mcq-31",
-        "pick-mcq-33",
-        "pick-mcq-30",
-        "pick-mcq-34",
-        "pick-mcq-29"
+        "pick-mcq-27",
+        "pick-mcq-11",
+        "pick-mcq-15"
       ],
       "explanation": "本句的「pickers」指「採摘、挑選的人或機器」。",
       "sentenceIndex": 66,
@@ -2830,12 +2564,10 @@ export default {
         "pickers"
       ],
       "optionReasons": {
-        "pick-mcq-32": "本句指「採摘、挑選的人或機器」。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。"
+        "pick-mcq-32": "本句的「pickers」指「採摘、挑選的人或機器」。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-32"
     },
@@ -2847,11 +2579,9 @@ export default {
       "masked": "The machine works as an automatic ____.",
       "options": [
         "pick-mcq-32",
-        "pick-mcq-31",
-        "pick-mcq-33",
-        "pick-mcq-30",
-        "pick-mcq-34",
-        "pick-mcq-29"
+        "pick-mcq-17",
+        "pick-mcq-37",
+        "pick-mcq-05"
       ],
       "explanation": "本句的「picker」指「採摘、挑選的人或機器」。",
       "sentenceIndex": 67,
@@ -2860,12 +2590,10 @@ export default {
         "picker"
       ],
       "optionReasons": {
-        "pick-mcq-32": "本句指「採摘、挑選的人或機器」。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-29": "「仔細挑選，常留下較差的東西」是「pick over」的用法，與本句語境不同。"
+        "pick-mcq-32": "本句的「picker」指「採摘、挑選的人或機器」。",
+        "pick-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-32"
     },
@@ -2877,11 +2605,9 @@ export default {
       "masked": "There are several colors—____.",
       "options": [
         "pick-mcq-33",
-        "pick-mcq-32",
-        "pick-mcq-34",
-        "pick-mcq-31",
-        "pick-mcq-35",
-        "pick-mcq-30"
+        "pick-mcq-09",
+        "pick-mcq-08",
+        "pick-mcq-06"
       ],
       "explanation": "本句的「take your pick」指「隨你挑／任你選」。",
       "sentenceIndex": 68,
@@ -2890,12 +2616,10 @@ export default {
         "take your pick"
       ],
       "optionReasons": {
-        "pick-mcq-33": "本句指「隨你挑／任你選」。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。"
+        "pick-mcq-33": "本句的「take your pick」指「隨你挑／任你選」。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-33"
     },
@@ -2907,10 +2631,8 @@ export default {
       "masked": "You can ____ of the seats.",
       "options": [
         "pick-mcq-33",
-        "pick-mcq-32",
-        "pick-mcq-34",
-        "pick-mcq-31",
-        "pick-mcq-35",
+        "pick-mcq-18",
+        "pick-mcq-07",
         "pick-mcq-30"
       ],
       "explanation": "本句的「take your pick」指「隨你挑／任你選」。",
@@ -2920,12 +2642,10 @@ export default {
         "take your pick"
       ],
       "optionReasons": {
-        "pick-mcq-33": "本句指「隨你挑／任你選」。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-30": "「用來挖硬土／岩石的尖嘴鎬」是「pick — tool」的用法，與本句語境不同。"
+        "pick-mcq-33": "本句的「take your pick」指「隨你挑／任你選」。",
+        "pick-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-33"
     },
@@ -2937,11 +2657,9 @@ export default {
       "masked": "These are the ____.",
       "options": [
         "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-35",
-        "pick-mcq-32",
-        "pick-mcq-36",
-        "pick-mcq-31"
+        "pick-mcq-28",
+        "pick-mcq-15",
+        "pick-mcq-26"
       ],
       "explanation": "本句的「pick of the bunch」指「一群中最好的一個／最出色者」。",
       "sentenceIndex": 70,
@@ -2950,12 +2668,10 @@ export default {
         "pick of the bunch"
       ],
       "optionReasons": {
-        "pick-mcq-34": "本句指「一群中最好的一個／最出色者」。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。"
+        "pick-mcq-34": "本句的「pick of the bunch」指「一群中最好的一個／最出色者」。",
+        "pick-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-34"
     },
@@ -2967,11 +2683,9 @@ export default {
       "masked": "She had the ____.",
       "options": [
         "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-35",
-        "pick-mcq-32",
-        "pick-mcq-36",
-        "pick-mcq-31"
+        "pick-mcq-11",
+        "pick-mcq-01",
+        "pick-mcq-12"
       ],
       "explanation": "本句的「pick of several offers」指「一群中最好的一個／最出色者」。",
       "sentenceIndex": 71,
@@ -2980,12 +2694,10 @@ export default {
         "pick of several offers"
       ],
       "optionReasons": {
-        "pick-mcq-34": "本句指「一群中最好的一個／最出色者」。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。"
+        "pick-mcq-34": "本句的「pick of several offers」指「一群中最好的一個／最出色者」。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-34"
     },
@@ -2997,11 +2709,9 @@ export default {
       "masked": "This model is the ____.",
       "options": [
         "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-35",
-        "pick-mcq-32",
-        "pick-mcq-36",
-        "pick-mcq-31"
+        "pick-mcq-09",
+        "pick-mcq-29",
+        "pick-mcq-16"
       ],
       "explanation": "本句的「pick of the bunch」指「一群中最好的一個／最出色者」。",
       "sentenceIndex": 72,
@@ -3010,12 +2720,10 @@ export default {
         "pick of the bunch"
       ],
       "optionReasons": {
-        "pick-mcq-34": "本句指「一群中最好的一個／最出色者」。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。"
+        "pick-mcq-34": "本句的「pick of the bunch」指「一群中最好的一個／最出色者」。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-34"
     },
@@ -3027,11 +2735,9 @@ export default {
       "masked": "Of all the restaurants we tried, this was the ____.",
       "options": [
         "pick-mcq-34",
-        "pick-mcq-33",
-        "pick-mcq-35",
-        "pick-mcq-32",
-        "pick-mcq-36",
-        "pick-mcq-31"
+        "pick-mcq-09",
+        "pick-mcq-11",
+        "pick-mcq-32"
       ],
       "explanation": "本句的「pick of the bunch」指「一群中最好的一個／最出色者」。",
       "sentenceIndex": 73,
@@ -3040,12 +2746,10 @@ export default {
         "pick of the bunch"
       ],
       "optionReasons": {
-        "pick-mcq-34": "本句指「一群中最好的一個／最出色者」。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-35": "「向某人請教知識、意見或想法」是「pick someone’s brain」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-31": "「過度挑選、難以取悅的；挑剔的」是「picky」的用法，與本句語境不同。"
+        "pick-mcq-34": "本句的「pick of the bunch」指「一群中最好的一個／最出色者」。",
+        "pick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-34"
     },
@@ -3057,11 +2761,9 @@ export default {
       "masked": "Can I ____ about this problem?",
       "options": [
         "pick-mcq-35",
-        "pick-mcq-34",
-        "pick-mcq-36",
-        "pick-mcq-33",
-        "pick-mcq-37",
-        "pick-mcq-32"
+        "pick-mcq-27",
+        "pick-mcq-32",
+        "pick-mcq-21"
       ],
       "explanation": "本句的「pick your brain」指「向某人請教知識、意見或想法」。",
       "sentenceIndex": 74,
@@ -3070,12 +2772,10 @@ export default {
         "pick your brain"
       ],
       "optionReasons": {
-        "pick-mcq-35": "本句指「向某人請教知識、意見或想法」。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-37": "「表示辨別出；聽出」是「25. pick out — hear/see a detail」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。"
+        "pick-mcq-35": "本句的「pick your brain」指「向某人請教知識、意見或想法」。",
+        "pick-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-35"
     },
@@ -3087,11 +2787,9 @@ export default {
       "masked": "She ____ for career advice.",
       "options": [
         "pick-mcq-35",
-        "pick-mcq-34",
-        "pick-mcq-36",
-        "pick-mcq-33",
-        "pick-mcq-37",
-        "pick-mcq-32"
+        "pick-mcq-14",
+        "pick-mcq-05",
+        "pick-mcq-19"
       ],
       "explanation": "本句的「picked his brain」指「向某人請教知識、意見或想法」。",
       "sentenceIndex": 75,
@@ -3100,12 +2798,10 @@ export default {
         "picked his brain"
       ],
       "optionReasons": {
-        "pick-mcq-35": "本句指「向某人請教知識、意見或想法」。",
-        "pick-mcq-34": "「一群中最好的一個／最出色者」是「pick of the bunch」的用法，與本句語境不同。",
-        "pick-mcq-36": "「表示拿起；拾起」是「Passage meaning」的用法，與本句語境不同。",
-        "pick-mcq-33": "「隨你挑／任你選」是「take your pick」的用法，與本句語境不同。",
-        "pick-mcq-37": "「表示辨別出；聽出」是「25. pick out — hear/see a detail」的用法，與本句語境不同。",
-        "pick-mcq-32": "「採摘、挑選的人或機器」是「picker」的用法，與本句語境不同。"
+        "pick-mcq-35": "本句的「picked his brain」指「向某人請教知識、意見或想法」。",
+        "pick-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pick-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pick-mcq-35"
     }
@@ -3117,5 +2813,7 @@ export default {
     "sha256": "d83c51777e78fd372f211d99181c424b45114ff700bedbe02a60fb5a57ec453b",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1,0 +1,3629 @@
+{
+  "revision": "20261025-fairness1",
+  "modules": 1088,
+  "questions": 48000,
+  "changedAnswers": [
+    {
+      "module": "acceleration",
+      "question": "acceleration-16-0",
+      "old": "acceleration-mcq-12",
+      "answer": "acceleration-reviewed-c7ea819f53",
+      "sentence": "Technology has accelerated communication.",
+      "meaning": "使某項過程、發展或改變進行得更快"
+    },
+    {
+      "module": "acceleration",
+      "question": "acceleration-23-0",
+      "old": "acceleration-mcq-18",
+      "answer": "acceleration-reviewed-a44502833b",
+      "sentence": "The laboratory operates a particle accelerator.",
+      "meaning": "利用電磁場令帶電粒子加速的科學設備"
+    },
+    {
+      "module": "acceleration",
+      "question": "acceleration-24-0",
+      "old": "acceleration-mcq-18",
+      "answer": "acceleration-reviewed-7ef7a8f3d5",
+      "sentence": "The chip includes a machine-learning accelerator.",
+      "meaning": "加快特定電腦運算的專用硬件"
+    },
+    {
+      "module": "add",
+      "question": "add-14-0",
+      "old": "add-mcq-12",
+      "answer": "add-reviewed-dec647c674",
+      "sentence": "The garden is beautiful, and the fresh herbs are an added bonus.",
+      "meaning": "原有好處之外額外得到的好處"
+    },
+    {
+      "module": "add",
+      "question": "add-14-1",
+      "old": "add-mcq-12",
+      "answer": "add-reviewed-dec647c674",
+      "sentence": "Free delivery is an added bonus.",
+      "meaning": "原有好處之外額外得到的好處"
+    },
+    {
+      "module": "address",
+      "question": "address-11-0",
+      "old": "address-mcq-08",
+      "answer": "address-reviewed-b65f39f0c9",
+      "sentence": "The report addresses several ethical questions.",
+      "meaning": "在文章或討論中探討、處理某個議題"
+    },
+    {
+      "module": "address",
+      "question": "address-11-1",
+      "old": "address-mcq-08",
+      "answer": "address-reviewed-b65f39f0c9",
+      "sentence": "The book addresses the relationship between technology and society.",
+      "meaning": "在文章或討論中探討、處理某個議題"
+    },
+    {
+      "module": "adventure",
+      "question": "adventure-10-0",
+      "old": "adventure-mcq-12",
+      "answer": "adventure-reviewed-9631b7ee13",
+      "sentence": "Leo is naturally very adventurous.",
+      "meaning": "願意嘗試新事物、探索未知或接受一定風險的"
+    },
+    {
+      "module": "adventure",
+      "question": "adventure-10-1",
+      "old": "adventure-mcq-12",
+      "answer": "adventure-reviewed-9631b7ee13",
+      "sentence": "She has always been an adventurous traveller.",
+      "meaning": "願意嘗試新事物、探索未知或接受一定風險的"
+    },
+    {
+      "module": "adventure",
+      "question": "adventure-11-0",
+      "old": "adventure-mcq-13",
+      "answer": "adventure-reviewed-b4c45096d2",
+      "sentence": "They planned an adventurous trip through the mountains.",
+      "meaning": "帶有新奇、挑戰或風險的"
+    },
+    {
+      "module": "adventure",
+      "question": "adventure-11-1",
+      "old": "adventure-mcq-13",
+      "answer": "adventure-reviewed-b4c45096d2",
+      "sentence": "It was an adventurous decision, but it worked.",
+      "meaning": "帶有新奇、挑戰或風險的"
+    },
+    {
+      "module": "adventure",
+      "question": "adventure-15-0",
+      "old": "adventure-mcq-01",
+      "answer": "adventure-reviewed-b471d57fc9",
+      "sentence": "Few travellers adventured into the remote valley.",
+      "meaning": "冒險進入或前往未知、陌生或可能有風險的地方"
+    },
+    {
+      "module": "adventure",
+      "question": "adventure-15-1",
+      "old": "adventure-mcq-01",
+      "answer": "adventure-reviewed-b471d57fc9",
+      "sentence": "They adventured beyond the familiar route.",
+      "meaning": "冒險進入或前往未知、陌生或可能有風險的地方"
+    },
+    {
+      "module": "afford",
+      "question": "afford-06-0",
+      "old": "afford-mcq-05",
+      "answer": "afford-reviewed-b2e7f3bd89",
+      "sentence": "We can afford to wait until next month.",
+      "meaning": "有條件等；承受得起等待"
+    },
+    {
+      "module": "afford",
+      "question": "afford-06-1",
+      "old": "afford-mcq-05",
+      "answer": "afford-reviewed-b2e7f3bd89",
+      "sentence": "Small businesses often cannot afford to wait for payment.",
+      "meaning": "有條件等；承受得起等待"
+    },
+    {
+      "module": "ahead",
+      "question": "ahead-05-0",
+      "old": "ahead-mcq-05",
+      "answer": "ahead-reviewed-e00db1ac84",
+      "sentence": "It's a good idea to plan ahead.",
+      "meaning": "比實際需要或事件發生時間更早"
+    },
+    {
+      "module": "ahead",
+      "question": "ahead-05-1",
+      "old": "ahead-mcq-05",
+      "answer": "ahead-reviewed-e00db1ac84",
+      "sentence": "We booked the tickets several months ahead.",
+      "meaning": "比實際需要或事件發生時間更早"
+    },
+    {
+      "module": "aim",
+      "question": "aim-37-0",
+      "old": "aim-mcq-25",
+      "answer": "aim-reviewed-0123b8bfbd",
+      "sentence": "He aimed the camera carefully.",
+      "meaning": "把武器、相機、光線等對準某一特定方向或目標"
+    },
+    {
+      "module": "aim",
+      "question": "aim-37-1",
+      "old": "aim-mcq-25",
+      "answer": "aim-reviewed-0123b8bfbd",
+      "sentence": "The officer aimed the weapon at the target.",
+      "meaning": "把武器、相機、光線等對準某一特定方向或目標"
+    },
+    {
+      "module": "allow",
+      "question": "allow-17-0",
+      "old": "allow-mcq-15",
+      "answer": "allow-reviewed-0ccf47e3f1",
+      "sentence": "The report allows managers to compare return rates.",
+      "meaning": "使某人能夠看見、理解或比較某事"
+    },
+    {
+      "module": "allow",
+      "question": "allow-17-1",
+      "old": "allow-mcq-15",
+      "answer": "allow-reviewed-0ccf47e3f1",
+      "sentence": "Transparent criteria allow customers to understand the policy.",
+      "meaning": "使某人能夠看見、理解或比較某事"
+    },
+    {
+      "module": "allow",
+      "question": "allow-18-0",
+      "old": "allow-mcq-15",
+      "answer": "allow-reviewed-8fbb75d2a8",
+      "sentence": "Ignoring complaints can allow distrust to grow.",
+      "meaning": "讓某種情況發展、增長或擴散"
+    },
+    {
+      "module": "allow",
+      "question": "allow-18-1",
+      "old": "allow-mcq-15",
+      "answer": "allow-reviewed-8fbb75d2a8",
+      "sentence": "Poor controls may allow abuse to spread.",
+      "meaning": "讓某種情況發展、增長或擴散"
+    },
+    {
+      "module": "allow",
+      "question": "allow-41-0",
+      "old": "allow-mcq-33",
+      "answer": "allow-reviewed-1fdc505239",
+      "sentence": "Do not exceed the allowable load.",
+      "meaning": "容許承受的荷載"
+    },
+    {
+      "module": "allow",
+      "question": "allow-41-1",
+      "old": "allow-mcq-33",
+      "answer": "allow-reviewed-1fdc505239",
+      "sentence": "The allowable load depends on the structural design.",
+      "meaning": "容許承受的荷載"
+    },
+    {
+      "module": "allow",
+      "question": "allow-44-0",
+      "old": "allow-mcq-35",
+      "answer": "allow-reviewed-6f41fcc66c",
+      "sentence": "The practice is legally allowed.",
+      "meaning": "法律准許的"
+    },
+    {
+      "module": "allow",
+      "question": "allow-44-1",
+      "old": "allow-mcq-35",
+      "answer": "allow-reviewed-6f41fcc66c",
+      "sentence": "Legally allowed does not necessarily mean advisable.",
+      "meaning": "法律准許的"
+    },
+    {
+      "module": "allow",
+      "question": "allow-46-0",
+      "old": "allow-mcq-36",
+      "answer": "allow-reviewed-d4b2f4d070",
+      "sentence": "Exchanges allowed within fourteen days.",
+      "meaning": "准許某事物"
+    },
+    {
+      "module": "allow",
+      "question": "allow-46-1",
+      "old": "allow-mcq-36",
+      "answer": "allow-reviewed-d4b2f4d070",
+      "sentence": "One return per order allowed.",
+      "meaning": "准許某事物"
+    },
+    {
+      "module": "allow",
+      "question": "allow-53-0",
+      "old": "allow-mcq-41",
+      "answer": "allow-reviewed-328cabe2a5",
+      "sentence": "Some employees receive a clothing allowance.",
+      "meaning": "供購買服裝用的津貼"
+    },
+    {
+      "module": "allow",
+      "question": "allow-53-1",
+      "old": "allow-mcq-41",
+      "answer": "allow-reviewed-328cabe2a5",
+      "sentence": "The allowance helps cover required work clothing.",
+      "meaning": "供購買服裝用的津貼"
+    },
+    {
+      "module": "allow",
+      "question": "allow-77-0",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-706a404e2a",
+      "sentence": "Food is not allowed in the warehouse.",
+      "meaning": "准許在某個地方或場合進入、使用或出現"
+    },
+    {
+      "module": "allow",
+      "question": "allow-77-1",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-706a404e2a",
+      "sentence": "Customers are allowed in the fitting area.",
+      "meaning": "准許在某個地方或場合進入、使用或出現"
+    },
+    {
+      "module": "allow",
+      "question": "allow-81-0",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-1a7da27dfe",
+      "sentence": "Returns should be allowed only if the item is unworn.",
+      "meaning": "只有符合指定條件才准許"
+    },
+    {
+      "module": "allow",
+      "question": "allow-81-1",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-1a7da27dfe",
+      "sentence": "Refunds are allowed only when the item is defective.",
+      "meaning": "只有符合指定條件才准許"
+    },
+    {
+      "module": "allow",
+      "question": "allow-82-0",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-2cba6a852c",
+      "sentence": "Exchanges may be allowed subject to inspection.",
+      "meaning": "在附帶條件下准許"
+    },
+    {
+      "module": "allow",
+      "question": "allow-82-1",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-2cba6a852c",
+      "sentence": "Returns are allowed subject to the stated conditions.",
+      "meaning": "在附帶條件下准許"
+    },
+    {
+      "module": "allow",
+      "question": "allow-84-0",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-2688b6f2d8",
+      "sentence": "Management should not allow complaints to accumulate.",
+      "meaning": "讓問題持續"
+    },
+    {
+      "module": "allow",
+      "question": "allow-84-1",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-2688b6f2d8",
+      "sentence": "Weak controls allowed return abuse to continue.",
+      "meaning": "讓問題持續"
+    },
+    {
+      "module": "allow",
+      "question": "allow-85-0",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-2310b9acef",
+      "sentence": "We should not allow a minor sizing issue to become a major dispute.",
+      "meaning": "讓某事變成另一種狀態"
+    },
+    {
+      "module": "allow",
+      "question": "allow-85-1",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-2310b9acef",
+      "sentence": "Poor communication allowed frustration to become distrust.",
+      "meaning": "讓某事變成另一種狀態"
+    },
+    {
+      "module": "allow",
+      "question": "allow-86-0",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-23b1cfd43e",
+      "sentence": "The current policy allows distrust to remain unresolved.",
+      "meaning": "讓某事保持原有狀態"
+    },
+    {
+      "module": "allow",
+      "question": "allow-86-1",
+      "old": "allow-mcq-57",
+      "answer": "allow-reviewed-23b1cfd43e",
+      "sentence": "Good procedures should not allow defective goods to remain in circulation.",
+      "meaning": "讓某事保持原有狀態"
+    },
+    {
+      "module": "angle",
+      "question": "angle-06-0",
+      "old": "angle-mcq-07",
+      "answer": "angle-reviewed-3a82065c14",
+      "sentence": "An acute angle is less than 90 degrees.",
+      "meaning": "銳角；小於 90 度的角"
+    },
+    {
+      "module": "angle",
+      "question": "angle-06-1",
+      "old": "angle-mcq-07",
+      "answer": "angle-reviewed-ee610fe798",
+      "sentence": "An obtuse angle is greater than 90 degrees but less than 180.",
+      "meaning": "鈍角；大於 90 度而小於 180 度的角"
+    },
+    {
+      "module": "angle",
+      "question": "angle-08-0",
+      "old": "angle-mcq-09",
+      "answer": "angle-reviewed-6e00cd7dbd",
+      "sentence": "Cut the branch at a 45-degree angle.",
+      "meaning": "以某個具體角度排列或傾斜"
+    },
+    {
+      "module": "angle",
+      "question": "angle-08-1",
+      "old": "angle-mcq-09",
+      "answer": "angle-reviewed-6e00cd7dbd",
+      "sentence": "The roof slopes at a steep angle.",
+      "meaning": "以某個具體角度排列或傾斜"
+    },
+    {
+      "module": "angle",
+      "question": "angle-09-0",
+      "old": "angle-mcq-10",
+      "answer": "angle-reviewed-da8570cd1d",
+      "sentence": "The view looks better from this angle.",
+      "meaning": "觀看或拍攝某人／某物時所處的方向或位置"
+    },
+    {
+      "module": "angle",
+      "question": "angle-09-1",
+      "old": "angle-mcq-10",
+      "answer": "angle-reviewed-da8570cd1d",
+      "sentence": "The photographer changed the camera angle.",
+      "meaning": "觀看或拍攝某人／某物時所處的方向或位置"
+    },
+    {
+      "module": "answer",
+      "question": "answer-03-1",
+      "old": "answer-mcq-03",
+      "answer": "answer-reviewed-4dd3849168",
+      "sentence": "He gave the wrong answer.",
+      "meaning": "不符合事實、規則或標準解答的錯誤答案"
+    },
+    {
+      "module": "anything",
+      "question": "anything-17-0",
+      "old": "anything-mcq-13",
+      "answer": "anything-reviewed-d045826ba7",
+      "sentence": "It was raining like anything.",
+      "meaning": "程度非常強烈"
+    },
+    {
+      "module": "anything",
+      "question": "anything-17-1",
+      "old": "anything-mcq-13",
+      "answer": "anything-reviewed-d045826ba7",
+      "sentence": "She was working like anything to finish on time.",
+      "meaning": "程度非常強烈"
+    },
+    {
+      "module": "apologise",
+      "question": "apologise-22-0",
+      "old": "apologise-mcq-20",
+      "answer": "apologise-reviewed-6dc0ad3aab",
+      "sentence": "He sounded apologetic on the phone.",
+      "meaning": "聽起來／看起來很抱歉"
+    },
+    {
+      "module": "apologise",
+      "question": "apologise-22-1",
+      "old": "apologise-mcq-20",
+      "answer": "apologise-reviewed-6dc0ad3aab",
+      "sentence": "She looked apologetic after realizing her mistake.",
+      "meaning": "聽起來／看起來很抱歉"
+    },
+    {
+      "module": "appropriate",
+      "question": "appropriate-22-0",
+      "old": "appropriate-mcq-10",
+      "answer": "appropriate-reviewed-f76b282a00",
+      "sentence": "The court considered the appropriate remedy.",
+      "meaning": "法律上適當"
+    },
+    {
+      "module": "argue",
+      "question": "argue-61-0",
+      "old": "argue-mcq-23",
+      "answer": "argue-reviewed-8cd89d7305",
+      "sentence": "Students must write an argumentative essay.",
+      "meaning": "提出立場並用理由和證據支持的議論文"
+    },
+    {
+      "module": "argue",
+      "question": "argue-66-0",
+      "old": "argue-mcq-24",
+      "answer": "argue-reviewed-320f7ccf3b",
+      "sentence": "He becomes argumentative when he is tired.",
+      "meaning": "愛爭辯、好爭論的"
+    },
+    {
+      "module": "argue",
+      "question": "argue-69-0",
+      "old": "argue-mcq-25",
+      "answer": "argue-reviewed-e15dbda163",
+      "sentence": "The assignment requires an argumentative structure.",
+      "meaning": "提出理由以支持某個立場的；論證性的"
+    },
+    {
+      "module": "aside",
+      "question": "aside-28-0",
+      "old": "aside-mcq-07",
+      "answer": "aside-reviewed-a33410162f",
+      "sentence": "Part of the contract is reserved as a small-business set-aside.",
+      "meaning": "特別保留給某用途、群體或類別的一部分資源／合約"
+    },
+    {
+      "module": "aside",
+      "question": "aside-28-1",
+      "old": "aside-mcq-07",
+      "answer": "aside-reviewed-a33410162f",
+      "sentence": "The programme includes a set-aside for local suppliers.",
+      "meaning": "特別保留給某用途、群體或類別的一部分資源／合約"
+    },
+    {
+      "module": "assignment",
+      "question": "assignment-12-0",
+      "old": "assignment-mcq-08",
+      "answer": "assignment-reviewed-b7684d337f",
+      "sentence": "His next assignment will be in Singapore.",
+      "meaning": "某人被正式安排到某個職位、地點或工作崗位的安排"
+    },
+    {
+      "module": "assignment",
+      "question": "assignment-12-1",
+      "old": "assignment-mcq-08",
+      "answer": "assignment-reviewed-b7684d337f",
+      "sentence": "She accepted an overseas assignment.",
+      "meaning": "某人被正式安排到某個職位、地點或工作崗位的安排"
+    },
+    {
+      "module": "assignment",
+      "question": "assignment-21-0",
+      "old": "assignment-mcq-17",
+      "answer": "assignment-reviewed-7ef8e0b94d",
+      "sentence": "Each applicant is assigned a number.",
+      "meaning": "正式給某個對象一個識別用的數字、代碼或名稱"
+    },
+    {
+      "module": "assignment",
+      "question": "assignment-21-1",
+      "old": "assignment-mcq-17",
+      "answer": "assignment-reviewed-7ef8e0b94d",
+      "sentence": "The system automatically assigns a code to each file.",
+      "meaning": "正式給某個對象一個識別用的數字、代碼或名稱"
+    },
+    {
+      "module": "attend",
+      "question": "attend-04-0",
+      "old": "attend-mcq-05",
+      "answer": "attend-reviewed-e8146d3aa4",
+      "sentence": "We attended the wedding last weekend.",
+      "meaning": "到場參與某個正式或社交場合"
+    },
+    {
+      "module": "attend",
+      "question": "attend-04-1",
+      "old": "attend-mcq-05",
+      "answer": "attend-reviewed-e8146d3aa4",
+      "sentence": "Many former students attended his funeral.",
+      "meaning": "到場參與某個正式或社交場合"
+    },
+    {
+      "module": "attend",
+      "question": "attend-14-0",
+      "old": "attend-mcq-13",
+      "answer": "attend-reviewed-2a6be4845e",
+      "sentence": "Rapid growth brings attendant problems.",
+      "meaning": "與某件主要事情同時出現、由它伴隨產生的"
+    },
+    {
+      "module": "attend",
+      "question": "attend-14-1",
+      "old": "attend-mcq-13",
+      "answer": "attend-reviewed-2a6be4845e",
+      "sentence": "The plan has several attendant risks.",
+      "meaning": "與某件主要事情同時出現、由它伴隨產生的"
+    },
+    {
+      "module": "back",
+      "question": "back-30-0",
+      "old": "back-mcq-21",
+      "answer": "back-reviewed-52bbcf11fb",
+      "sentence": "Please back up a little.",
+      "meaning": "向後移動；倒車"
+    },
+    {
+      "module": "back",
+      "question": "back-30-1",
+      "old": "back-mcq-21",
+      "answer": "back-reviewed-52bbcf11fb",
+      "sentence": "The truck backed up slowly.",
+      "meaning": "向後移動；倒車"
+    },
+    {
+      "module": "back",
+      "question": "back-53-0",
+      "old": "back-mcq-40",
+      "answer": "back-reviewed-a01e4bc89f",
+      "sentence": "The crowd fell back.",
+      "meaning": "後退；或退回較安全／次選方案"
+    },
+    {
+      "module": "back",
+      "question": "back-53-1",
+      "old": "back-mcq-40",
+      "answer": "back-reviewed-a01e4bc89f",
+      "sentence": "If the main plan fails, we can fall back on the backup.",
+      "meaning": "後退；或退回較安全／次選方案"
+    },
+    {
+      "module": "bear",
+      "question": "bear-01-0",
+      "old": "bear-mcq-01",
+      "answer": "bear-reviewed-d43bf31f31",
+      "sentence": "We saw a bear near the river.",
+      "meaning": "熊；一種大型哺乳動物"
+    },
+    {
+      "module": "bear",
+      "question": "bear-01-1",
+      "old": "bear-mcq-01",
+      "answer": "bear-reviewed-d43bf31f31",
+      "sentence": "Brown bears can be extremely powerful.",
+      "meaning": "熊；一種大型哺乳動物"
+    },
+    {
+      "module": "bear",
+      "question": "bear-14-0",
+      "old": "bear-mcq-11",
+      "answer": "bear-reviewed-60282b17a1",
+      "sentence": "The walls still bear the scars of the fire.",
+      "meaning": "留有、帶有某種痕跡或跡象"
+    },
+    {
+      "module": "bear",
+      "question": "bear-14-1",
+      "old": "bear-mcq-11",
+      "answer": "bear-reviewed-60282b17a1",
+      "sentence": "The object bears signs of heavy use.",
+      "meaning": "留有、帶有某種痕跡或跡象"
+    },
+    {
+      "module": "bear",
+      "question": "bear-20-0",
+      "old": "bear-mcq-17",
+      "answer": "bear-reviewed-7564054c43",
+      "sentence": "The phrase ‘bear arms’ historically refers to carrying weapons.",
+      "meaning": "攜帶或使用武器"
+    },
+    {
+      "module": "become",
+      "question": "become-14-0",
+      "old": "become-mcq-11",
+      "answer": "become-reviewed-1f2135c82f",
+      "sentence": "No one knows what became of the missing document.",
+      "meaning": "表示某人／某事之後的命運、結果或去向"
+    },
+    {
+      "module": "become",
+      "question": "become-14-1",
+      "old": "become-mcq-11",
+      "answer": "become-reviewed-1f2135c82f",
+      "sentence": "I often wonder what became of my old classmates.",
+      "meaning": "表示某人／某事之後的命運、結果或去向"
+    },
+    {
+      "module": "behind",
+      "question": "behind-09-0",
+      "old": "behind-mcq-07",
+      "answer": "behind-reviewed-a3d9387ee8",
+      "sentence": "I'm behind on my work.",
+      "meaning": "未能按時完成、支付或處理 X"
+    },
+    {
+      "module": "behind",
+      "question": "behind-09-1",
+      "old": "behind-mcq-07",
+      "answer": "behind-reviewed-a3d9387ee8",
+      "sentence": "He is behind on his payments.",
+      "meaning": "未能按時完成、支付或處理 X"
+    },
+    {
+      "module": "behind",
+      "question": "behind-11-0",
+      "old": "behind-mcq-08",
+      "answer": "behind-reviewed-46d1aac86c",
+      "sentence": "We're running five minutes behind.",
+      "meaning": "比預定或預期時間遲"
+    },
+    {
+      "module": "behind",
+      "question": "behind-11-1",
+      "old": "behind-mcq-08",
+      "answer": "behind-reviewed-46d1aac86c",
+      "sentence": "The train is ten minutes behind.",
+      "meaning": "比預定或預期時間遲"
+    },
+    {
+      "module": "benefit",
+      "question": "benefit-04-0",
+      "old": "benefit-mcq-03",
+      "answer": "benefit-reviewed-9d42f3603d",
+      "sentence": "The benefit of a small bakery is personal service.",
+      "meaning": "X 所帶來的正面效果／優點"
+    },
+    {
+      "module": "benefit",
+      "question": "benefit-04-1",
+      "old": "benefit-mcq-03",
+      "answer": "benefit-reviewed-9d42f3603d",
+      "sentence": "One benefit of buying locally is freshness.",
+      "meaning": "X 所帶來的正面效果／優點"
+    },
+    {
+      "module": "better",
+      "question": "better-01-0",
+      "old": "better-mcq-01",
+      "answer": "better-reviewed-7b062de743",
+      "sentence": "We can build a better one.",
+      "meaning": "品質、效果、表現或適合程度比另一個更高的"
+    },
+    {
+      "module": "better",
+      "question": "better-01-1",
+      "old": "better-mcq-01",
+      "answer": "better-reviewed-7b062de743",
+      "sentence": "This design is better than the previous one.",
+      "meaning": "品質、效果、表現或適合程度比另一個更高的"
+    },
+    {
+      "module": "better",
+      "question": "better-01-2",
+      "old": "better-mcq-01",
+      "answer": "better-reviewed-7b062de743",
+      "sentence": "We need a better solution to the problem.",
+      "meaning": "品質、效果、表現或適合程度比另一個更高的"
+    },
+    {
+      "module": "big",
+      "question": "big-37-0",
+      "old": "big-mcq-26",
+      "answer": "big-reviewed-3dc1a062ea",
+      "sentence": "She finally reached the big time.",
+      "meaning": "高度成功、知名或重要的職業／娛樂層次"
+    },
+    {
+      "module": "big",
+      "question": "big-37-1",
+      "old": "big-mcq-26",
+      "answer": "big-reviewed-3dc1a062ea",
+      "sentence": "He dreams of making it to the big time.",
+      "meaning": "高度成功、知名或重要的職業／娛樂層次"
+    },
+    {
+      "module": "blank",
+      "question": "blank-24-0",
+      "old": "blank-mcq-20",
+      "answer": "blank-reviewed-f7ec5efa6b",
+      "sentence": "The home team was held to a blank.",
+      "meaning": "零分；沒有得分"
+    },
+    {
+      "module": "blank",
+      "question": "blank-24-1",
+      "old": "blank-mcq-20",
+      "answer": "blank-reviewed-f7ec5efa6b",
+      "sentence": "The goalkeeper helped keep the opposition blank.",
+      "meaning": "零分；沒有得分"
+    },
+    {
+      "module": "book",
+      "question": "book-09-0",
+      "old": "book-mcq-11",
+      "answer": "book-reviewed-a05f1bf978",
+      "sentence": "The law has been on the books for decades.",
+      "meaning": "已正式記錄、登記或列入某個機構的紀錄中"
+    },
+    {
+      "module": "book",
+      "question": "book-09-1",
+      "old": "book-mcq-11",
+      "answer": "book-reviewed-a05f1bf978",
+      "sentence": "The company still has hundreds of employees on its books.",
+      "meaning": "已正式記錄、登記或列入某個機構的紀錄中"
+    },
+    {
+      "module": "brief",
+      "question": "brief-49-0",
+      "old": "brief-mcq-43",
+      "answer": "brief-reviewed-810ab52304",
+      "sentence": "The project manager briefed the team on its responsibilities.",
+      "meaning": "向團隊交代任務／資訊"
+    },
+    {
+      "module": "brief",
+      "question": "brief-49-1",
+      "old": "brief-mcq-43",
+      "answer": "brief-reviewed-810ab52304",
+      "sentence": "Brief the team before they begin.",
+      "meaning": "向團隊交代任務／資訊"
+    },
+    {
+      "module": "budge",
+      "question": "budge-03-0",
+      "old": "budge-mcq-03",
+      "answer": "budge-reviewed-c43b33e207",
+      "sentence": "The price has hardly budged all year.",
+      "meaning": "改變；有所變動"
+    },
+    {
+      "module": "budge",
+      "question": "budge-03-1",
+      "old": "budge-mcq-03",
+      "answer": "budge-reviewed-c43b33e207",
+      "sentence": "Despite the exercise, the number on the scale barely budged.",
+      "meaning": "改變；有所變動"
+    },
+    {
+      "module": "burden",
+      "question": "burden-02-0",
+      "old": "burden-mcq-06",
+      "answer": "burden-reviewed-8c09bdb4f1",
+      "sentence": "The practice places an unfair burden on businesses.",
+      "meaning": "負擔；重擔"
+    },
+    {
+      "module": "burden",
+      "question": "burden-02-1",
+      "old": "burden-mcq-06",
+      "answer": "burden-reviewed-8c09bdb4f1",
+      "sentence": "Caring for everything alone became a heavy burden.",
+      "meaning": "負擔；重擔"
+    },
+    {
+      "module": "burden",
+      "question": "burden-02-2",
+      "old": "burden-mcq-06",
+      "answer": "burden-reviewed-8c09bdb4f1",
+      "sentence": "The additional costs created a financial burden for the family.",
+      "meaning": "負擔；重擔"
+    },
+    {
+      "module": "burden",
+      "question": "burden-09-0",
+      "old": "burden-mcq-06",
+      "answer": "burden-reviewed-73217205f4",
+      "sentence": "The animals were heavily burdened with supplies.",
+      "meaning": "把重物加在其身上，使其負重"
+    },
+    {
+      "module": "burden",
+      "question": "burden-12-0",
+      "old": "burden-mcq-08",
+      "answer": "burden-reviewed-ab2f00b154",
+      "sentence": "Customers should not have to bear the burden of the company’s mistakes.",
+      "meaning": "承擔負擔／責任"
+    },
+    {
+      "module": "burden",
+      "question": "burden-12-1",
+      "old": "burden-mcq-08",
+      "answer": "burden-reviewed-ab2f00b154",
+      "sentence": "She carried the emotional burden for years.",
+      "meaning": "承擔負擔／責任"
+    },
+    {
+      "module": "burden",
+      "question": "burden-13-0",
+      "old": "burden-mcq-08",
+      "answer": "burden-reviewed-3591e12d25",
+      "sentence": "The costs should be shared so that one group does not carry the entire burden.",
+      "meaning": "分擔負擔"
+    },
+    {
+      "module": "burden",
+      "question": "burden-14-0",
+      "old": "burden-mcq-08",
+      "answer": "burden-reviewed-f31d2a6048",
+      "sentence": "Automation can reduce the administrative burden.",
+      "meaning": "減輕負擔"
+    },
+    {
+      "module": "burst",
+      "question": "burst-14-0",
+      "old": "burst-mcq-14",
+      "answer": "burst-reviewed-1dcea9673f",
+      "sentence": "She was bursting with excitement before the trip.",
+      "meaning": "某種情緒非常強烈，彷彿多得要滿溢出來"
+    },
+    {
+      "module": "burst",
+      "question": "burst-14-1",
+      "old": "burst-mcq-14",
+      "answer": "burst-reviewed-1dcea9673f",
+      "sentence": "He was bursting with pride after seeing his son's performance.",
+      "meaning": "某種情緒非常強烈，彷彿多得要滿溢出來"
+    },
+    {
+      "module": "burst",
+      "question": "burst-18-0",
+      "old": "burst-mcq-17",
+      "answer": "burst-reviewed-6f74eeeb87",
+      "sentence": "I'm bursting for the toilet.",
+      "meaning": "非常急着要上廁所"
+    },
+    {
+      "module": "burst",
+      "question": "burst-18-1",
+      "old": "burst-mcq-17",
+      "answer": "burst-reviewed-6f74eeeb87",
+      "sentence": "The child said he was bursting to go.",
+      "meaning": "非常急着要上廁所"
+    },
+    {
+      "module": "calculate",
+      "question": "calculate-91-0",
+      "old": "calculate-mcq-28",
+      "answer": "calculate-reviewed-8352464cbe",
+      "sentence": "The decision was based on political calculation.",
+      "meaning": "盤算；權衡"
+    },
+    {
+      "module": "can",
+      "question": "can-25-0",
+      "old": "can-mcq-17",
+      "answer": "can-reviewed-ca9202f170",
+      "sentence": "I can’t bear to see her upset.",
+      "meaning": "情感上無法忍受某件事"
+    },
+    {
+      "module": "can",
+      "question": "can-25-1",
+      "old": "can-mcq-17",
+      "answer": "can-reviewed-ca9202f170",
+      "sentence": "He can’t bear the thought of leaving.",
+      "meaning": "情感上無法忍受某件事"
+    },
+    {
+      "module": "card",
+      "question": "card-24-0",
+      "old": "card-mcq-21",
+      "answer": "card-reviewed-b606e0bae4",
+      "sentence": "The referee carded the defender.",
+      "meaning": "在運動比賽中向球員出示警告或罰離場用的牌"
+    },
+    {
+      "module": "card",
+      "question": "card-24-1",
+      "old": "card-mcq-21",
+      "answer": "card-reviewed-b606e0bae4",
+      "sentence": "He was carded for a late tackle.",
+      "meaning": "在運動比賽中向球員出示警告或罰離場用的牌"
+    },
+    {
+      "module": "channel",
+      "question": "channel-79-0",
+      "old": "channel-mcq-63",
+      "answer": "channel-reviewed-66c8c05660",
+      "sentence": "Staff channelled visitors towards the main entrance.",
+      "meaning": "引導人流"
+    },
+    {
+      "module": "channel",
+      "question": "channel-79-1",
+      "old": "channel-mcq-63",
+      "answer": "channel-reviewed-66c8c05660",
+      "sentence": "Barriers channel the crowd into separate queues.",
+      "meaning": "引導人流"
+    },
+    {
+      "module": "charge",
+      "question": "charge-48-0",
+      "old": "charge-mcq-16",
+      "answer": "charge-reviewed-f9cb51b9a6",
+      "sentence": "The weapon was charged with powder.",
+      "meaning": "裝填"
+    },
+    {
+      "module": "charge",
+      "question": "charge-62-0",
+      "old": "charge-mcq-02",
+      "answer": "charge-reviewed-4e29a081b7",
+      "sentence": "The referee called a charging foul.",
+      "meaning": "帶球撞人／進攻撞人"
+    },
+    {
+      "module": "charge",
+      "question": "charge-62-1",
+      "old": "charge-mcq-02",
+      "answer": "charge-reviewed-4e29a081b7",
+      "sentence": "Charging occurs when an offensive player illegally runs into a defender.",
+      "meaning": "帶球撞人／進攻撞人"
+    },
+    {
+      "module": "charge",
+      "question": "charge-90-0",
+      "old": "charge-mcq-02",
+      "answer": "charge-reviewed-1982a9b53b",
+      "sentence": "The company changed its charging structure.",
+      "meaning": "收費；計費"
+    },
+    {
+      "module": "charge",
+      "question": "charge-90-1",
+      "old": "charge-mcq-02",
+      "answer": "charge-reviewed-1982a9b53b",
+      "sentence": "Road charging can reduce congestion.",
+      "meaning": "收費；計費"
+    },
+    {
+      "module": "choose",
+      "question": "choose-08-0",
+      "old": "choose-mcq-06",
+      "answer": "choose-reviewed-aa93f71d9a",
+      "sentence": "Choose your words carefully.",
+      "meaning": "斟酌用詞；慎選措辭"
+    },
+    {
+      "module": "choose",
+      "question": "choose-08-1",
+      "old": "choose-mcq-06",
+      "answer": "choose-reviewed-aa93f71d9a",
+      "sentence": "She chose her words carefully before responding.",
+      "meaning": "斟酌用詞；慎選措辭"
+    },
+    {
+      "module": "choose",
+      "question": "choose-09-0",
+      "old": "choose-mcq-06",
+      "answer": "choose-reviewed-193903ad1e",
+      "sentence": "He chose the right moment to raise the issue.",
+      "meaning": "選擇適當時機"
+    },
+    {
+      "module": "choose",
+      "question": "choose-09-1",
+      "old": "choose-mcq-06",
+      "answer": "choose-reviewed-193903ad1e",
+      "sentence": "Choose your time carefully.",
+      "meaning": "選擇適當時機"
+    },
+    {
+      "module": "clash",
+      "question": "clash-35-0",
+      "old": "clash-mcq-31",
+      "answer": "clash-reviewed-e6ceec52bc",
+      "sentence": "A loud metallic clash came from the workshop.",
+      "meaning": "金屬鏗鏘碰撞聲"
+    },
+    {
+      "module": "clash",
+      "question": "clash-35-1",
+      "old": "clash-mcq-31",
+      "answer": "clash-reviewed-e6ceec52bc",
+      "sentence": "The door closed with a metallic clash.",
+      "meaning": "金屬鏗鏘碰撞聲"
+    },
+    {
+      "module": "clip",
+      "question": "clip-04-0",
+      "old": "clip-mcq-03",
+      "answer": "clip-reviewed-3671b2bed0",
+      "sentence": "Use a paper clip to keep the pages together.",
+      "meaning": "萬字夾；迴紋針"
+    },
+    {
+      "module": "clip",
+      "question": "clip-04-1",
+      "old": "clip-mcq-03",
+      "answer": "clip-reviewed-3671b2bed0",
+      "sentence": "There were several paper clips on the desk.",
+      "meaning": "萬字夾；迴紋針"
+    },
+    {
+      "module": "clip",
+      "question": "clip-05-0",
+      "old": "clip-mcq-03",
+      "answer": "clip-reviewed-a2e1617560",
+      "sentence": "She put her hair up with a hair clip.",
+      "meaning": "髮夾"
+    },
+    {
+      "module": "clip",
+      "question": "clip-05-1",
+      "old": "clip-mcq-03",
+      "answer": "clip-reviewed-a2e1617560",
+      "sentence": "The hair clip matched her dress.",
+      "meaning": "髮夾"
+    },
+    {
+      "module": "clock",
+      "question": "clock-11-0",
+      "old": "clock-mcq-08",
+      "answer": "clock-reviewed-ff8f740ac1",
+      "sentence": "Remember to put the clocks back this weekend.",
+      "meaning": "把時鐘撥快／撥慢"
+    },
+    {
+      "module": "clock",
+      "question": "clock-11-1",
+      "old": "clock-mcq-08",
+      "answer": "clock-reviewed-ff8f740ac1",
+      "sentence": "We put the clocks forward by one hour.",
+      "meaning": "把時鐘撥快／撥慢"
+    },
+    {
+      "module": "clock",
+      "question": "clock-13-0",
+      "old": "clock-mcq-10",
+      "answer": "clock-reviewed-233e854ef1",
+      "sentence": "The runner was clocked at 11 seconds.",
+      "meaning": "測量並記錄某人用了 X 時間"
+    },
+    {
+      "module": "clock",
+      "question": "clock-13-1",
+      "old": "clock-mcq-10",
+      "answer": "clock-reviewed-233e854ef1",
+      "sentence": "I clocked her at just under a minute.",
+      "meaning": "測量並記錄某人用了 X 時間"
+    },
+    {
+      "module": "complete",
+      "question": "complete-14-0",
+      "old": "complete-mcq-12",
+      "answer": "complete-reviewed-8fd055fd8a",
+      "sentence": "The new defender completes the squad.",
+      "meaning": "補足陣容"
+    },
+    {
+      "module": "complete",
+      "question": "complete-67-0",
+      "old": "complete-mcq-40",
+      "answer": "complete-reviewed-30f83fe13c",
+      "sentence": "The analysis requires complete data.",
+      "meaning": "資料完整"
+    },
+    {
+      "module": "complete",
+      "question": "complete-85-0",
+      "old": "complete-mcq-46",
+      "answer": "complete-reviewed-1b640282f2",
+      "sentence": "‘Because I was tired’ may be treated as an incomplete sentence in traditional classroom grammar.",
+      "meaning": "不完整句"
+    },
+    {
+      "module": "concern",
+      "question": "concern-19-0",
+      "old": "concern-mcq-11",
+      "answer": "concern-reviewed-9045952fe3",
+      "sentence": "Her concern for the students was obvious.",
+      "meaning": "關懷；關心"
+    },
+    {
+      "module": "concern",
+      "question": "concern-21-0",
+      "old": "concern-mcq-11",
+      "answer": "concern-reviewed-ee4e6310b4",
+      "sentence": "His lack of concern for other customers was obvious.",
+      "meaning": "漠不關心"
+    },
+    {
+      "module": "concern",
+      "question": "concern-49-0",
+      "old": "concern-mcq-25",
+      "answer": "concern-reviewed-efdaffe8a0",
+      "sentence": "The agreement must be acceptable to all parties concerned.",
+      "meaning": "所有有關各方"
+    },
+    {
+      "module": "concern",
+      "question": "concern-72-0",
+      "old": "concern-mcq-36",
+      "answer": "concern-reviewed-1361a71d00",
+      "sentence": "Staffing remains an area of concern.",
+      "meaning": "關注領域"
+    },
+    {
+      "module": "contest",
+      "question": "contest-15-0",
+      "old": "contest-mcq-11",
+      "answer": "contest-reviewed-e3987ec10f",
+      "sentence": "It was an evenly matched contest.",
+      "meaning": "勢均力敵的較量"
+    },
+    {
+      "module": "contest",
+      "question": "contest-15-1",
+      "old": "contest-mcq-11",
+      "answer": "contest-reviewed-e3987ec10f",
+      "sentence": "Neither team dominated the contest.",
+      "meaning": "勢均力敵的較量"
+    },
+    {
+      "module": "contest",
+      "question": "contest-46-0",
+      "old": "contest-mcq-37",
+      "answer": "contest-reviewed-516b6f0068",
+      "sentence": "The defendant contested the court's jurisdiction.",
+      "meaning": "質疑管轄權／權限"
+    },
+    {
+      "module": "contest",
+      "question": "contest-46-1",
+      "old": "contest-mcq-37",
+      "answer": "contest-reviewed-516b6f0068",
+      "sentence": "The agency's authority was contested.",
+      "meaning": "質疑管轄權／權限"
+    },
+    {
+      "module": "contribute",
+      "question": "contribute-25-0",
+      "old": "contribute-mcq-21",
+      "answer": "contribute-reviewed-80fc71bc97",
+      "sentence": "The report examined stress's contribution to poor performance.",
+      "meaning": "某個因素對結果形成所起的部分作用"
+    },
+    {
+      "module": "contribute",
+      "question": "contribute-25-1",
+      "old": "contribute-mcq-21",
+      "answer": "contribute-reviewed-80fc71bc97",
+      "sentence": "Several factors made a contribution to the decline.",
+      "meaning": "某個因素對結果形成所起的部分作用"
+    },
+    {
+      "module": "control",
+      "question": "control-23-0",
+      "old": "control-mcq-21",
+      "answer": "control-reviewed-597c077a25",
+      "sentence": "The plants were grown in a controlled environment.",
+      "meaning": "溫度、光線、濕度等條件受到刻意調節的環境"
+    },
+    {
+      "module": "control",
+      "question": "control-23-1",
+      "old": "control-mcq-21",
+      "answer": "control-reviewed-597c077a25",
+      "sentence": "Temperature is kept constant in a controlled environment.",
+      "meaning": "溫度、光線、濕度等條件受到刻意調節的環境"
+    },
+    {
+      "module": "correct",
+      "question": "correct-35-0",
+      "old": "correct-mcq-30",
+      "answer": "correct-reviewed-3058226adc",
+      "sentence": "The figures were incorrectly recorded.",
+      "meaning": "錯誤地"
+    },
+    {
+      "module": "correct",
+      "question": "correct-35-1",
+      "old": "correct-mcq-30",
+      "answer": "correct-reviewed-3058226adc",
+      "sentence": "She was incorrectly identified as the person responsible.",
+      "meaning": "錯誤地"
+    },
+    {
+      "module": "cost",
+      "question": "cost-19-0",
+      "old": "cost-mcq-16",
+      "answer": "cost-reviewed-3d916d10c6",
+      "sentence": "Higher energy prices increased production costs.",
+      "meaning": "人工成本／生產成本／營運成本"
+    },
+    {
+      "module": "cost",
+      "question": "cost-19-1",
+      "old": "cost-mcq-16",
+      "answer": "cost-reviewed-3d916d10c6",
+      "sentence": "The company is trying to reduce operating costs.",
+      "meaning": "人工成本／生產成本／營運成本"
+    },
+    {
+      "module": "court",
+      "question": "court-05-0",
+      "old": "court-mcq-14",
+      "answer": "court-reviewed-70f7962829",
+      "sentence": "Everyone stood as the judge entered the court.",
+      "meaning": "法庭；審訊室"
+    },
+    {
+      "module": "courtesy",
+      "question": "courtesy-14-0",
+      "old": "courtesy-mcq-12",
+      "answer": "courtesy-reviewed-1e25138d3f",
+      "sentence": "We spent three hours at the airport, courtesy of a delayed flight.",
+      "meaning": "多虧／拜……所賜"
+    },
+    {
+      "module": "courtesy",
+      "question": "courtesy-14-1",
+      "old": "courtesy-mcq-12",
+      "answer": "courtesy-reviewed-1e25138d3f",
+      "sentence": "My shoes are soaked, courtesy of the rain.",
+      "meaning": "多虧／拜……所賜"
+    },
+    {
+      "module": "cover",
+      "question": "cover-25-0",
+      "old": "cover-mcq-16",
+      "answer": "cover-reviewed-f769e756ee",
+      "sentence": "There is a $20 cover charge after 9 p.m.",
+      "meaning": "入場費；最低消費性收費"
+    },
+    {
+      "module": "crack",
+      "question": "crack-20-0",
+      "old": "crack-mcq-17",
+      "answer": "crack-reviewed-a92591dff9",
+      "sentence": "The long questioning finally cracked him.",
+      "meaning": "擊垮；使招供"
+    },
+    {
+      "module": "crack",
+      "question": "crack-20-1",
+      "old": "crack-mcq-17",
+      "answer": "crack-reviewed-a92591dff9",
+      "sentence": "Investigators hoped the pressure would crack the suspect.",
+      "meaning": "擊垮；使招供"
+    },
+    {
+      "module": "creative",
+      "question": "creative-01-0",
+      "old": "creative-mcq-01",
+      "answer": "creative-reviewed-281f89dce1",
+      "sentence": "I think he will grow into a very creative person.",
+      "meaning": "擅長產生新穎、富想像力或原創想法的"
+    },
+    {
+      "module": "creative",
+      "question": "creative-01-1",
+      "old": "creative-mcq-01",
+      "answer": "creative-reviewed-281f89dce1",
+      "sentence": "She is one of the most creative people I know.",
+      "meaning": "擅長產生新穎、富想像力或原創想法的"
+    },
+    {
+      "module": "creative",
+      "question": "creative-01-2",
+      "old": "creative-mcq-01",
+      "answer": "creative-reviewed-281f89dce1",
+      "sentence": "Leo is extremely creative when he plays.",
+      "meaning": "擅長產生新穎、富想像力或原創想法的"
+    },
+    {
+      "module": "creative",
+      "question": "creative-15-0",
+      "old": "creative-mcq-15",
+      "answer": "creative-reviewed-a4f50331d1",
+      "sentence": "The creation of the new system took several years.",
+      "meaning": "使新事物出現的過程或行為"
+    },
+    {
+      "module": "creative",
+      "question": "creative-15-1",
+      "old": "creative-mcq-15",
+      "answer": "creative-reviewed-a4f50331d1",
+      "sentence": "The project focuses on the creation of new jobs.",
+      "meaning": "使新事物出現的過程或行為"
+    },
+    {
+      "module": "critical",
+      "question": "critical-44-0",
+      "old": "critical-mcq-27",
+      "answer": "critical-reviewed-c703dcee30",
+      "sentence": "Find the critical points of the function.",
+      "meaning": "導數為零或不存在、可能出現極值等重要行為的點"
+    },
+    {
+      "module": "critical",
+      "question": "critical-44-1",
+      "old": "critical-mcq-27",
+      "answer": "critical-reviewed-c703dcee30",
+      "sentence": "A critical point occurs where the derivative is zero or undefined.",
+      "meaning": "導數為零或不存在、可能出現極值等重要行為的點"
+    },
+    {
+      "module": "cushion",
+      "question": "cushion-09-0",
+      "old": "cushion-mcq-07",
+      "answer": "cushion-reviewed-934927aa8d",
+      "sentence": "The packaging contains a foam cushion.",
+      "meaning": "緩衝墊"
+    },
+    {
+      "module": "damage",
+      "question": "damage-47-0",
+      "old": "damage-mcq-41",
+      "answer": "damage-reviewed-13c47ebcfa",
+      "sentence": "The organisation faced damaging criticism.",
+      "meaning": "造成負面影響的批評"
+    },
+    {
+      "module": "damage",
+      "question": "damage-47-1",
+      "old": "damage-mcq-41",
+      "answer": "damage-reviewed-13c47ebcfa",
+      "sentence": "Public criticism proved damaging to morale.",
+      "meaning": "造成負面影響的批評"
+    },
+    {
+      "module": "damage",
+      "question": "damage-48-0",
+      "old": "damage-mcq-41",
+      "answer": "damage-reviewed-595a28a706",
+      "sentence": "The newspaper published a damaging disclosure.",
+      "meaning": "具破壞性的披露／揭露"
+    },
+    {
+      "module": "damage",
+      "question": "damage-48-1",
+      "old": "damage-mcq-41",
+      "answer": "damage-reviewed-595a28a706",
+      "sentence": "The revelation was highly damaging to the organisation's reputation.",
+      "meaning": "具破壞性的披露／揭露"
+    },
+    {
+      "module": "damage",
+      "question": "damage-86-0",
+      "old": "damage-mcq-68",
+      "answer": "damage-reviewed-876c49d6ee",
+      "sentence": "Malware can damage files.",
+      "meaning": "損毀數據／檔案／系統"
+    },
+    {
+      "module": "damage",
+      "question": "damage-86-1",
+      "old": "damage-mcq-68",
+      "answer": "damage-reviewed-876c49d6ee",
+      "sentence": "Sudden power loss may damage the system.",
+      "meaning": "損毀數據／檔案／系統"
+    },
+    {
+      "module": "damage",
+      "question": "damage-87-0",
+      "old": "damage-mcq-68",
+      "answer": "damage-reviewed-48ae888ace",
+      "sentence": "The backup contained several damaged files.",
+      "meaning": "損毀檔案"
+    },
+    {
+      "module": "damage",
+      "question": "damage-87-1",
+      "old": "damage-mcq-68",
+      "answer": "damage-reviewed-48ae888ace",
+      "sentence": "A damaged file may be unreadable.",
+      "meaning": "損毀檔案"
+    },
+    {
+      "module": "date",
+      "question": "date-36-0",
+      "old": "date-mcq-01",
+      "answer": "date-reviewed-b6b91ad391",
+      "sentence": "She added chopped dates to the cake.",
+      "meaning": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製"
+    },
+    {
+      "module": "date",
+      "question": "date-36-1",
+      "old": "date-mcq-01",
+      "answer": "date-reviewed-b6b91ad391",
+      "sentence": "Dates are naturally very sweet.",
+      "meaning": "海棗樹所結的甜味果實，通常呈啡色，可鮮食或乾製"
+    },
+    {
+      "module": "deadline",
+      "question": "deadline-24-0",
+      "old": "deadline-mcq-23",
+      "answer": "deadline-reviewed-2ae5a36ac6",
+      "sentence": "The task must finish before its processing deadline.",
+      "meaning": "在電腦或實時系統中，某項運算必須完成的最遲時間"
+    },
+    {
+      "module": "deadline",
+      "question": "deadline-24-1",
+      "old": "deadline-mcq-23",
+      "answer": "deadline-reviewed-2ae5a36ac6",
+      "sentence": "Missing a real-time deadline can cause system failure.",
+      "meaning": "在電腦或實時系統中，某項運算必須完成的最遲時間"
+    },
+    {
+      "module": "decline",
+      "question": "decline-14-0",
+      "old": "decline-mcq-12",
+      "answer": "decline-reviewed-c064e19545",
+      "sentence": "The organisation's influence began to decline.",
+      "meaning": "權力、影響力、重要性或地位逐漸減弱"
+    },
+    {
+      "module": "decline",
+      "question": "decline-14-1",
+      "old": "decline-mcq-12",
+      "answer": "decline-reviewed-c064e19545",
+      "sentence": "The empire declined over several centuries.",
+      "meaning": "權力、影響力、重要性或地位逐漸減弱"
+    },
+    {
+      "module": "deep",
+      "question": "deep-12-0",
+      "old": "deep-mcq-08",
+      "answer": "deep-reviewed-b550a076ac",
+      "sentence": "She was deeply disappointed.",
+      "meaning": "非常失望"
+    },
+    {
+      "module": "deep",
+      "question": "deep-12-1",
+      "old": "deep-mcq-08",
+      "answer": "deep-reviewed-b550a076ac",
+      "sentence": "I was deeply disappointed by the result.",
+      "meaning": "非常失望"
+    },
+    {
+      "module": "defend",
+      "question": "defend-03-0",
+      "old": "defend-mcq-03",
+      "answer": "defend-reviewed-b818f3ea98",
+      "sentence": "The shield helped defend him from flying debris.",
+      "meaning": "防止受到"
+    },
+    {
+      "module": "defend",
+      "question": "defend-07-0",
+      "old": "defend-mcq-05",
+      "answer": "defend-reviewed-551cab50b1",
+      "sentence": "The unit was ordered to defend the position.",
+      "meaning": "守住；防守"
+    },
+    {
+      "module": "defend",
+      "question": "defend-09-0",
+      "old": "defend-mcq-06",
+      "answer": "defend-reviewed-950a882f1e",
+      "sentence": "The city strengthened its defences.",
+      "meaning": "防禦；保衛"
+    },
+    {
+      "module": "defend",
+      "question": "defend-53-0",
+      "old": "defend-mcq-18",
+      "answer": "defend-reviewed-5ad483e287",
+      "sentence": "The knight defends the pawn.",
+      "meaning": "保護棋子／格位"
+    },
+    {
+      "module": "department",
+      "question": "department-47-0",
+      "old": "department-mcq-37",
+      "answer": "department-reviewed-c6327c4aa5",
+      "sentence": "The proposal is strong in the creativity department but weak on cost control.",
+      "meaning": "在某方面"
+    },
+    {
+      "module": "department",
+      "question": "department-47-1",
+      "old": "department-mcq-37",
+      "answer": "department-reviewed-c6327c4aa5",
+      "sentence": "He's not lacking in the confidence department.",
+      "meaning": "在某方面"
+    },
+    {
+      "module": "dependence",
+      "question": "dependence-61-0",
+      "old": "dependence-mcq-23",
+      "answer": "dependence-reviewed-bb4115b24a",
+      "sentence": "The noun acts as the head, and the modifier as its dependent.",
+      "meaning": "依存成分"
+    },
+    {
+      "module": "distribution",
+      "question": "distribution-17-0",
+      "old": "distribution-mcq-15",
+      "answer": "distribution-reviewed-cb34845c92",
+      "sentence": "The distributor released the film internationally.",
+      "meaning": "負責把電影推向戲院、平台和市場的公司"
+    },
+    {
+      "module": "distribution",
+      "question": "distribution-17-1",
+      "old": "distribution-mcq-15",
+      "answer": "distribution-reviewed-cb34845c92",
+      "sentence": "Independent filmmakers often need to find a distributor.",
+      "meaning": "負責把電影推向戲院、平台和市場的公司"
+    },
+    {
+      "module": "drink",
+      "question": "drink-12-0",
+      "old": "drink-mcq-10",
+      "answer": "drink-reviewed-17d393ba8b",
+      "sentence": "She placed a drinking glass beside the plate.",
+      "meaning": "用來喝水或其他飲品的玻璃杯"
+    },
+    {
+      "module": "drink",
+      "question": "drink-12-1",
+      "old": "drink-mcq-10",
+      "answer": "drink-reviewed-17d393ba8b",
+      "sentence": "The cabinet contains several drinking glasses.",
+      "meaning": "用來喝水或其他飲品的玻璃杯"
+    },
+    {
+      "module": "dry",
+      "question": "dry-18-0",
+      "old": "dry-mcq-17",
+      "answer": "dry-reviewed-a39dd8eabd",
+      "sentence": "The striker ended a long scoring dry spell.",
+      "meaning": "比喻某方面長時間沒有成果、成功或進展的時期"
+    },
+    {
+      "module": "dry",
+      "question": "dry-18-1",
+      "old": "dry-mcq-17",
+      "answer": "dry-reviewed-a39dd8eabd",
+      "sentence": "The writer went through a creative dry spell.",
+      "meaning": "比喻某方面長時間沒有成果、成功或進展的時期"
+    },
+    {
+      "module": "early",
+      "question": "early-12-0",
+      "old": "early-mcq-11",
+      "answer": "early-reviewed-8b6247e20d",
+      "sentence": "The meeting ended earlier than expected.",
+      "meaning": "發生時間比原先預測更早"
+    },
+    {
+      "module": "early",
+      "question": "early-12-1",
+      "old": "early-mcq-11",
+      "answer": "early-reviewed-8b6247e20d",
+      "sentence": "She recovered earlier than expected.",
+      "meaning": "發生時間比原先預測更早"
+    },
+    {
+      "module": "early",
+      "question": "early-24-0",
+      "old": "early-mcq-21",
+      "answer": "early-reviewed-68b72919fd",
+      "sentence": "We had an early lunch.",
+      "meaning": "比通常或原定時間更早發生"
+    },
+    {
+      "module": "early",
+      "question": "early-24-1",
+      "old": "early-mcq-21",
+      "answer": "early-reviewed-68b72919fd",
+      "sentence": "The team made an early start.",
+      "meaning": "比通常或原定時間更早發生"
+    },
+    {
+      "module": "earn",
+      "question": "earn-10-0",
+      "old": "earn-mcq-08",
+      "answer": "earn-reviewed-12a0fb1def",
+      "sentence": "Customers earn points on every purchase.",
+      "meaning": "賺取／累積積分、里數、獎賞"
+    },
+    {
+      "module": "earn",
+      "question": "earn-10-1",
+      "old": "earn-mcq-08",
+      "answer": "earn-reviewed-12a0fb1def",
+      "sentence": "You can earn airline miles by using the card.",
+      "meaning": "賺取／累積積分、里數、獎賞"
+    },
+    {
+      "module": "echo",
+      "question": "echo-04-0",
+      "old": "echo-mcq-03",
+      "answer": "echo-reviewed-a00b883840",
+      "sentence": "The hall echoed with laughter.",
+      "meaning": "某空間充滿某種聲音的回響"
+    },
+    {
+      "module": "echo",
+      "question": "echo-04-1",
+      "old": "echo-mcq-03",
+      "answer": "echo-reviewed-a00b883840",
+      "sentence": "The room echoed with applause.",
+      "meaning": "某空間充滿某種聲音的回響"
+    },
+    {
+      "module": "echo",
+      "question": "echo-15-0",
+      "old": "echo-mcq-11",
+      "answer": "echo-reviewed-fa5813e209",
+      "sentence": "The empty hall felt like an echo chamber.",
+      "meaning": "聲音容易被反覆反射的空間"
+    },
+    {
+      "module": "echo",
+      "question": "echo-15-1",
+      "old": "echo-mcq-11",
+      "answer": "echo-reviewed-fa5813e209",
+      "sentence": "The room acted as an echo chamber.",
+      "meaning": "聲音容易被反覆反射的空間"
+    },
+    {
+      "module": "echo",
+      "question": "echo-17-0",
+      "old": "echo-mcq-12",
+      "answer": "echo-reviewed-19087a0229",
+      "sentence": "He made an echoing argument about fairness.",
+      "meaning": "呼應；重複"
+    },
+    {
+      "module": "echo",
+      "question": "echo-17-1",
+      "old": "echo-mcq-12",
+      "answer": "echo-reviewed-19087a0229",
+      "sentence": "The article contained echoing themes from the earlier work.",
+      "meaning": "呼應；重複"
+    },
+    {
+      "module": "effort",
+      "question": "effort-17-0",
+      "old": "effort-mcq-13",
+      "answer": "effort-reviewed-02b928e0b9",
+      "sentence": "The door opened without effort.",
+      "meaning": "不需要明顯的力量、時間或心力"
+    },
+    {
+      "module": "effort",
+      "question": "effort-17-1",
+      "old": "effort-mcq-13",
+      "answer": "effort-reviewed-02b928e0b9",
+      "sentence": "Real teamwork does not happen without effort.",
+      "meaning": "不需要明顯的力量、時間或心力"
+    },
+    {
+      "module": "erase",
+      "question": "erase-07-0",
+      "old": "erase-mcq-07",
+      "answer": "erase-reviewed-02e39df667",
+      "sentence": "The old recording was accidentally erased.",
+      "meaning": "移除已錄製的聲音或影像內容"
+    },
+    {
+      "module": "erase",
+      "question": "erase-07-1",
+      "old": "erase-mcq-07",
+      "answer": "erase-reviewed-02e39df667",
+      "sentence": "Be careful not to erase the footage.",
+      "meaning": "移除已錄製的聲音或影像內容"
+    },
+    {
+      "module": "every",
+      "question": "every-20-0",
+      "old": "every-mcq-17",
+      "answer": "every-reviewed-c5ca6dd2fe",
+      "sentence": "People were moving every which way.",
+      "meaning": "四面八方；亂七八糟各個方向"
+    },
+    {
+      "module": "every",
+      "question": "every-20-1",
+      "old": "every-mcq-17",
+      "answer": "every-reviewed-c5ca6dd2fe",
+      "sentence": "The branches were growing every which way.",
+      "meaning": "四面八方；亂七八糟各個方向"
+    },
+    {
+      "module": "exhibition",
+      "question": "exhibition-12-0",
+      "old": "exhibition-mcq-12",
+      "answer": "exhibition-reviewed-c49a0e7055",
+      "sentence": "The annual technology exhibit attracted thousands of visitors.",
+      "meaning": "展示；展出"
+    },
+    {
+      "module": "fabric",
+      "question": "fabric-86-0",
+      "old": "fabric-mcq-75",
+      "answer": "fabric-reviewed-85deffc032",
+      "sentence": "Product pages should contain accurate fabric descriptions.",
+      "meaning": "布料描述"
+    },
+    {
+      "module": "fabric",
+      "question": "fabric-86-1",
+      "old": "fabric-mcq-75",
+      "answer": "fabric-reviewed-85deffc032",
+      "sentence": "Soft fabric” alone may be too vague.",
+      "meaning": "布料描述"
+    },
+    {
+      "module": "fabric",
+      "question": "fabric-87-0",
+      "old": "fabric-mcq-75",
+      "answer": "fabric-reviewed-5b4ecc1463",
+      "sentence": "Better fabric information may reduce avoidable returns.",
+      "meaning": "布料資料"
+    },
+    {
+      "module": "fancy",
+      "question": "fancy-06-0",
+      "old": "fancy-mcq-05",
+      "answer": "fancy-reviewed-baec6a78b9",
+      "sentence": "He fancies himself as a writer.",
+      "meaning": "自己想像或認定自己具有某種身分、能力或特質"
+    },
+    {
+      "module": "fancy",
+      "question": "fancy-06-1",
+      "old": "fancy-mcq-05",
+      "answer": "fancy-reviewed-baec6a78b9",
+      "sentence": "She fancies herself quite an expert.",
+      "meaning": "自己想像或認定自己具有某種身分、能力或特質"
+    },
+    {
+      "module": "file",
+      "question": "file-21-0",
+      "old": "file-mcq-19",
+      "answer": "file-reviewed-df79794e21",
+      "sentence": "She filed a complaint.",
+      "meaning": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄"
+    },
+    {
+      "module": "file",
+      "question": "file-21-1",
+      "old": "file-mcq-19",
+      "answer": "file-reviewed-df79794e21",
+      "sentence": "The lawyer filed the documents with the court.",
+      "meaning": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄"
+    },
+    {
+      "module": "file",
+      "question": "file-31-0",
+      "old": "file-mcq-27",
+      "answer": "file-reviewed-5b769b6dc8",
+      "sentence": "The office needs a better filing system.",
+      "meaning": "用來分類、保存和尋找文件的組織方法"
+    },
+    {
+      "module": "file",
+      "question": "file-31-1",
+      "old": "file-mcq-27",
+      "answer": "file-reviewed-5b769b6dc8",
+      "sentence": "Our digital filing system is easy to use.",
+      "meaning": "用來分類、保存和尋找文件的組織方法"
+    },
+    {
+      "module": "fire",
+      "question": "fire-28-0",
+      "old": "fire-mcq-24",
+      "answer": "fire-reviewed-7373b820df",
+      "sentence": "The sky turned a fiery orange.",
+      "meaning": "像火一樣的，尤其指顏色、熱度或外觀"
+    },
+    {
+      "module": "fire",
+      "question": "fire-28-1",
+      "old": "fire-mcq-24",
+      "answer": "fire-reviewed-7373b820df",
+      "sentence": "Lava glowed fiery red.",
+      "meaning": "像火一樣的，尤其指顏色、熱度或外觀"
+    },
+    {
+      "module": "fit",
+      "question": "fit-24-0",
+      "old": "fit-mcq-19",
+      "answer": "fit-reviewed-2cf5e1f3a9",
+      "sentence": "Regular exercise improves fitness.",
+      "meaning": "體能；健康狀況"
+    },
+    {
+      "module": "fit",
+      "question": "fit-24-1",
+      "old": "fit-mcq-19",
+      "answer": "fit-reviewed-2cf5e1f3a9",
+      "sentence": "The test assesses physical fitness.",
+      "meaning": "體能；健康狀況"
+    },
+    {
+      "module": "fit",
+      "question": "fit-36-0",
+      "old": "fit-mcq-12",
+      "answer": "fit-reviewed-90549becf7",
+      "sentence": "She has a dress fitting tomorrow.",
+      "meaning": "試身；試穿；量身"
+    },
+    {
+      "module": "fit",
+      "question": "fit-36-1",
+      "old": "fit-mcq-12",
+      "answer": "fit-reviewed-90549becf7",
+      "sentence": "The final fitting took thirty minutes.",
+      "meaning": "試身；試穿；量身"
+    },
+    {
+      "module": "flatter",
+      "question": "flatter-38-0",
+      "old": "flatter-mcq-04",
+      "answer": "flatter-reviewed-d124a77c57",
+      "sentence": "He was flattered into agreeing.",
+      "meaning": "因受奉承而被哄去做某事"
+    },
+    {
+      "module": "flatter",
+      "question": "flatter-38-1",
+      "old": "flatter-mcq-04",
+      "answer": "flatter-reviewed-d124a77c57",
+      "sentence": "She was flattered into taking on more work.",
+      "meaning": "因受奉承而被哄去做某事"
+    },
+    {
+      "module": "form",
+      "question": "form-10-0",
+      "old": "form-mcq-06",
+      "answer": "form-reviewed-8a184c45b9",
+      "sentence": "Went” is the past form of “go.",
+      "meaning": "一個字、動詞或語言單位在特定文法功能下所呈現的形式"
+    },
+    {
+      "module": "form",
+      "question": "form-10-1",
+      "old": "form-mcq-06",
+      "answer": "form-reviewed-8a184c45b9",
+      "sentence": "Use the correct verb form.",
+      "meaning": "一個字、動詞或語言單位在特定文法功能下所呈現的形式"
+    },
+    {
+      "module": "form",
+      "question": "form-25-0",
+      "old": "form-mcq-10",
+      "answer": "form-reviewed-18f4885a1e",
+      "sentence": "The planes flew in formation.",
+      "meaning": "人、車輛、飛機或球員等按特定方式排列形成的隊形"
+    },
+    {
+      "module": "form",
+      "question": "form-25-1",
+      "old": "form-mcq-10",
+      "answer": "form-reviewed-18f4885a1e",
+      "sentence": "The team changed its formation in the second half.",
+      "meaning": "人、車輛、飛機或球員等按特定方式排列形成的隊形"
+    },
+    {
+      "module": "foundation",
+      "question": "foundation-42-0",
+      "old": "foundation-mcq-35",
+      "answer": "foundation-reviewed-3032fcc537",
+      "sentence": "The university was founded in 1890.",
+      "meaning": "創辦學校／大學／機構"
+    },
+    {
+      "module": "get",
+      "question": "get-15-0",
+      "old": "get-mcq-15",
+      "answer": "get-reviewed-9de0216fe8",
+      "sentence": "He got his wallet stolen.",
+      "meaning": "某人的東西遭受某個通常不希望發生的動作"
+    },
+    {
+      "module": "get",
+      "question": "get-15-1",
+      "old": "get-mcq-15",
+      "answer": "get-reviewed-9de0216fe8",
+      "sentence": "She got her bag damaged on the flight.",
+      "meaning": "某人的東西遭受某個通常不希望發生的動作"
+    },
+    {
+      "module": "get",
+      "question": "get-19-0",
+      "old": "get-mcq-10",
+      "answer": "get-reviewed-6d7fccb20e",
+      "sentence": "The police finally got the suspect.",
+      "meaning": "成功找到、抓到或聯絡到某人"
+    },
+    {
+      "module": "get",
+      "question": "get-19-1",
+      "old": "get-mcq-10",
+      "answer": "get-reviewed-6d7fccb20e",
+      "sentence": "I couldn’t get him on the phone.",
+      "meaning": "成功找到、抓到或聯絡到某人"
+    },
+    {
+      "module": "glance",
+      "question": "glance-07-0",
+      "old": "glance-mcq-06",
+      "answer": "glance-reviewed-3519686f48",
+      "sentence": "She glanced back before leaving.",
+      "meaning": "回頭看一眼"
+    },
+    {
+      "module": "glass",
+      "question": "glass-08-0",
+      "old": "glass-mcq-08",
+      "answer": "glass-reviewed-ed309f4ef2",
+      "sentence": "The picture is protected by glass.",
+      "meaning": "安裝或使用在某物上的玻璃片或玻璃表面"
+    },
+    {
+      "module": "glass",
+      "question": "glass-08-1",
+      "old": "glass-mcq-08",
+      "answer": "glass-reviewed-ed309f4ef2",
+      "sentence": "There was a crack in the glass.",
+      "meaning": "安裝或使用在某物上的玻璃片或玻璃表面"
+    },
+    {
+      "module": "ground",
+      "question": "ground-08-0",
+      "old": "ground-mcq-05",
+      "answer": "ground-reviewed-3618b8ab8b",
+      "sentence": "I bought freshly ground coffee.",
+      "meaning": "磨碎"
+    },
+    {
+      "module": "ground",
+      "question": "ground-08-1",
+      "old": "ground-mcq-05",
+      "answer": "ground-reviewed-3618b8ab8b",
+      "sentence": "The spices were finely ground.",
+      "meaning": "磨碎"
+    },
+    {
+      "module": "grow",
+      "question": "grow-41-0",
+      "old": "grow-mcq-34",
+      "answer": "grow-reviewed-3c32dad585",
+      "sentence": "The city has experienced rapid population growth.",
+      "meaning": "人口增長"
+    },
+    {
+      "module": "grow",
+      "question": "grow-41-1",
+      "old": "grow-mcq-34",
+      "answer": "grow-reviewed-3c32dad585",
+      "sentence": "Population growth has slowed.",
+      "meaning": "人口增長"
+    },
+    {
+      "module": "grow",
+      "question": "grow-42-0",
+      "old": "grow-mcq-35",
+      "answer": "grow-reviewed-c682bbda48",
+      "sentence": "Plants need light for healthy growth.",
+      "meaning": "生物體尺寸、細胞、組織或成熟度增加的過程"
+    },
+    {
+      "module": "grow",
+      "question": "grow-42-1",
+      "old": "grow-mcq-35",
+      "answer": "grow-reviewed-c682bbda48",
+      "sentence": "Nutrition affects childhood growth.",
+      "meaning": "生物體尺寸、細胞、組織或成熟度增加的過程"
+    },
+    {
+      "module": "hold",
+      "question": "hold-36-0",
+      "old": "hold-mcq-23",
+      "answer": "hold-reviewed-eaa1f328b0",
+      "sentence": "The old bridge has held up well.",
+      "meaning": "在時間、壓力或檢驗下仍保持有效、完整或可信"
+    },
+    {
+      "module": "hold",
+      "question": "hold-36-1",
+      "old": "hold-mcq-23",
+      "answer": "hold-reviewed-eaa1f328b0",
+      "sentence": "His argument doesn't hold up under close examination.",
+      "meaning": "在時間、壓力或檢驗下仍保持有效、完整或可信"
+    },
+    {
+      "module": "home",
+      "question": "home-01-0",
+      "old": "home-mcq-02",
+      "answer": "home-reviewed-db10152b76",
+      "sentence": "I often got home feeling exhausted.",
+      "meaning": "回家；到家；在家"
+    },
+    {
+      "module": "home",
+      "question": "home-01-1",
+      "old": "home-mcq-02",
+      "answer": "home-reviewed-db10152b76",
+      "sentence": "What time did you get home?",
+      "meaning": "回家；到家；在家"
+    },
+    {
+      "module": "home",
+      "question": "home-01-2",
+      "old": "home-mcq-02",
+      "answer": "home-reviewed-db10152b76",
+      "sentence": "She stayed home all weekend.",
+      "meaning": "回家；到家；在家"
+    },
+    {
+      "module": "home",
+      "question": "home-16-0",
+      "old": "home-mcq-14",
+      "answer": "home-reviewed-9fea479494",
+      "sentence": "Come in and make yourself at home.",
+      "meaning": "感到自在、不拘束，像在自己家中一樣"
+    },
+    {
+      "module": "home",
+      "question": "home-16-1",
+      "old": "home-mcq-14",
+      "answer": "home-reviewed-9fea479494",
+      "sentence": "Please make yourself at home while I make some tea.",
+      "meaning": "感到自在、不拘束，像在自己家中一樣"
+    },
+    {
+      "module": "house",
+      "question": "house-04-0",
+      "old": "house-mcq-01",
+      "answer": "house-reviewed-78f84a4157",
+      "sentence": "The bill passed the House.",
+      "meaning": "某些國家議會制度中的一個議院或立法機構"
+    },
+    {
+      "module": "house",
+      "question": "house-04-1",
+      "old": "house-mcq-01",
+      "answer": "house-reviewed-78f84a4157",
+      "sentence": "Members returned to the House for the debate.",
+      "meaning": "某些國家議會制度中的一個議院或立法機構"
+    },
+    {
+      "module": "house",
+      "question": "house-06-0",
+      "old": "house-mcq-01",
+      "answer": "house-reviewed-3ed4648872",
+      "sentence": "She works for a major publishing house.",
+      "meaning": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域"
+    },
+    {
+      "module": "house",
+      "question": "house-06-1",
+      "old": "house-mcq-01",
+      "answer": "house-reviewed-3ed4648872",
+      "sentence": "The fashion house launched a new collection.",
+      "meaning": "某些行業中的公司、商號或機構，尤其常見於出版、時裝、設計等領域"
+    },
+    {
+      "module": "introduce",
+      "question": "introduce-80-0",
+      "old": "introduce-mcq-31",
+      "answer": "introduce-reviewed-ee6746967d",
+      "sentence": "The introduction of online booking reduced waiting times.",
+      "meaning": "引入；推出"
+    },
+    {
+      "module": "jump",
+      "question": "jump-32-0",
+      "old": "jump-mcq-26",
+      "answer": "jump-reviewed-5e8c0afcec",
+      "sentence": "There was a sudden jump in temperature.",
+      "meaning": "數值或程度突然明顯改變，尤其上升"
+    },
+    {
+      "module": "jump",
+      "question": "jump-32-1",
+      "old": "jump-mcq-26",
+      "answer": "jump-reviewed-5e8c0afcec",
+      "sentence": "We saw a large jump in demand.",
+      "meaning": "數值或程度突然明顯改變，尤其上升"
+    },
+    {
+      "module": "knot",
+      "question": "knot-20-0",
+      "old": "knot-mcq-17",
+      "answer": "knot-reviewed-264744f49c",
+      "sentence": "The ship was travelling at twenty knots.",
+      "meaning": "航海及航空常用速度單位，相當於每小時一海里"
+    },
+    {
+      "module": "knot",
+      "question": "knot-20-1",
+      "old": "knot-mcq-17",
+      "answer": "knot-reviewed-264744f49c",
+      "sentence": "The wind speed reached forty knots.",
+      "meaning": "航海及航空常用速度單位，相當於每小時一海里"
+    },
+    {
+      "module": "late",
+      "question": "late-24-0",
+      "old": "late-mcq-21",
+      "answer": "late-reviewed-473069d2ed",
+      "sentence": "It would be difficult to change the design at this late stage.",
+      "meaning": "到這麼後期；事到如今"
+    },
+    {
+      "module": "late",
+      "question": "late-24-1",
+      "old": "late-mcq-21",
+      "answer": "late-reviewed-473069d2ed",
+      "sentence": "At this late stage, cancellation would be expensive.",
+      "meaning": "到這麼後期；事到如今"
+    },
+    {
+      "module": "less",
+      "question": "less-09-0",
+      "old": "less-mcq-08",
+      "answer": "less-reviewed-a0c361fb61",
+      "sentence": "The second painting is no less beautiful.",
+      "meaning": "並沒有比較少；同樣具有某種性質"
+    },
+    {
+      "module": "less",
+      "question": "less-09-1",
+      "old": "less-mcq-08",
+      "answer": "less-reviewed-a0c361fb61",
+      "sentence": "Her later work is no less important.",
+      "meaning": "並沒有比較少；同樣具有某種性質"
+    },
+    {
+      "module": "letter",
+      "question": "letter-56-0",
+      "old": "letter-mcq-26",
+      "answer": "letter-reviewed-d06ddcbff2",
+      "sentence": "The rule has become a dead letter.",
+      "meaning": "形同虛設的規定"
+    },
+    {
+      "module": "light",
+      "question": "light-36-0",
+      "old": "light-mcq-33",
+      "answer": "light-reviewed-895a11bc4b",
+      "sentence": "The colour looks different in natural light.",
+      "meaning": "在有光線照射的情況下"
+    },
+    {
+      "module": "light",
+      "question": "light-36-1",
+      "old": "light-mcq-33",
+      "answer": "light-reviewed-895a11bc4b",
+      "sentence": "Hold the photograph up to the light.",
+      "meaning": "在有光線照射的情況下"
+    },
+    {
+      "module": "lightning",
+      "question": "lightning-09-0",
+      "old": "lightning-mcq-12",
+      "answer": "lightning-reviewed-52f26221fb",
+      "sentence": "The proposal became a lightning rod for criticism.",
+      "meaning": "容易吸引大量批評、憤怒或爭議的人或事物"
+    },
+    {
+      "module": "lightning",
+      "question": "lightning-09-1",
+      "old": "lightning-mcq-12",
+      "answer": "lightning-reviewed-52f26221fb",
+      "sentence": "He has become a lightning rod for public anger.",
+      "meaning": "容易吸引大量批評、憤怒或爭議的人或事物"
+    },
+    {
+      "module": "little",
+      "question": "little-22-0",
+      "old": "little-mcq-18",
+      "answer": "little-reviewed-9174452355",
+      "sentence": "He little understood how serious the problem was.",
+      "meaning": "很少地；幾乎不"
+    },
+    {
+      "module": "little",
+      "question": "little-22-1",
+      "old": "little-mcq-18",
+      "answer": "little-reviewed-9174452355",
+      "sentence": "She little expected to see him there.",
+      "meaning": "很少地；幾乎不"
+    },
+    {
+      "module": "long",
+      "question": "long-46-0",
+      "old": "long-mcq-33",
+      "answer": "long-reviewed-77e99d7dcf",
+      "sentence": "I’m not perfect—not by a long shot.",
+      "meaning": "遠遠沒有達到某種狀態"
+    },
+    {
+      "module": "long",
+      "question": "long-46-1",
+      "old": "long-mcq-33",
+      "answer": "long-reviewed-77e99d7dcf",
+      "sentence": "The project isn’t finished, not by a long shot.",
+      "meaning": "遠遠沒有達到某種狀態"
+    },
+    {
+      "module": "long",
+      "question": "long-47-0",
+      "old": "long-mcq-34",
+      "answer": "long-reviewed-d5f3a59794",
+      "sentence": "She succeeded despite the long odds.",
+      "meaning": "很低的勝算"
+    },
+    {
+      "module": "long",
+      "question": "long-47-1",
+      "old": "long-mcq-34",
+      "answer": "long-reviewed-d5f3a59794",
+      "sentence": "They faced long odds.",
+      "meaning": "很低的勝算"
+    },
+    {
+      "module": "magical",
+      "question": "magical-05-0",
+      "old": "magical-mcq-12",
+      "answer": "magical-reviewed-dd9c856360",
+      "sentence": "She used magic to open the door.",
+      "meaning": "被想像為能以超自然方式改變現實的力量"
+    },
+    {
+      "module": "magical",
+      "question": "magical-31-0",
+      "old": "magical-mcq-14",
+      "answer": "magical-reviewed-05d3cb8ed6",
+      "sentence": "The app does a bit of digital magic behind the scenes.",
+      "meaning": "像魔法般的科技效果"
+    },
+    {
+      "module": "magical",
+      "question": "magical-49-0",
+      "old": "magical-mcq-14",
+      "answer": "magical-reviewed-c76cb037fd",
+      "sentence": "The performance had real magic.",
+      "meaning": "難以言喻的魅力；奇妙效果"
+    },
+    {
+      "module": "magical",
+      "question": "magical-72-0",
+      "old": "magical-mcq-03",
+      "answer": "magical-reviewed-66f3dfc6a4",
+      "sentence": "He is a magician with numbers.",
+      "meaning": "高手；奇才"
+    },
+    {
+      "module": "mean",
+      "question": "mean-04-0",
+      "old": "mean-mcq-03",
+      "answer": "mean-reviewed-1c9e19766e",
+      "sentence": "A red light means that you must stop.",
+      "meaning": "表示某件事的含義或所傳達的訊息"
+    },
+    {
+      "module": "mean",
+      "question": "mean-04-1",
+      "old": "mean-mcq-03",
+      "answer": "mean-reviewed-1c9e19766e",
+      "sentence": "His silence didn't mean that he agreed.",
+      "meaning": "表示某件事的含義或所傳達的訊息"
+    },
+    {
+      "module": "mechanics",
+      "question": "mechanics-32-0",
+      "old": "mechanics-mcq-24",
+      "answer": "mechanics-reviewed-aa15753cc9",
+      "sentence": "Prices are influenced by the market mechanism.",
+      "meaning": "透過供求、價格及競爭等因素調節資源和市場行為的運作方式"
+    },
+    {
+      "module": "meet",
+      "question": "meet-31-0",
+      "old": "meet-mcq-24",
+      "answer": "meet-reviewed-7bb77d0e1e",
+      "sentence": "The phrase meet your maker is a euphemistic way of referring to death.",
+      "meaning": "委婉、宗教式或幽默地指死亡"
+    },
+    {
+      "module": "meet",
+      "question": "meet-31-1",
+      "old": "meet-mcq-24",
+      "answer": "meet-reviewed-7bb77d0e1e",
+      "sentence": "In the story, the villain finally meets his maker.",
+      "meaning": "委婉、宗教式或幽默地指死亡"
+    },
+    {
+      "module": "message",
+      "question": "message-22-0",
+      "old": "message-mcq-19",
+      "answer": "message-reviewed-690cd07675",
+      "sentence": "They spoke through an online messenger.",
+      "meaning": "用來傳送即時訊息的數碼通訊程式或服務"
+    },
+    {
+      "module": "message",
+      "question": "message-22-1",
+      "old": "message-mcq-19",
+      "answer": "message-reviewed-690cd07675",
+      "sentence": "The messenger supports voice calls and file sharing.",
+      "meaning": "用來傳送即時訊息的數碼通訊程式或服務"
+    },
+    {
+      "module": "mistake",
+      "question": "mistake-23-0",
+      "old": "mistake-mcq-18",
+      "answer": "mistake-reviewed-89d477fc2b",
+      "sentence": "Don’t repeat the same mistake.",
+      "meaning": "重蹈覆轍"
+    },
+    {
+      "module": "mistake",
+      "question": "mistake-23-1",
+      "old": "mistake-mcq-18",
+      "answer": "mistake-reviewed-89d477fc2b",
+      "sentence": "He kept making the same mistake.",
+      "meaning": "重蹈覆轍"
+    },
+    {
+      "module": "mood",
+      "question": "mood-15-0",
+      "old": "mood-mcq-14",
+      "answer": "mood-reviewed-291b920964",
+      "sentence": "She sat quietly looking moody.",
+      "meaning": "顯得陰沉、不開心或難以接近的"
+    },
+    {
+      "module": "mood",
+      "question": "mood-15-1",
+      "old": "mood-mcq-14",
+      "answer": "mood-reviewed-291b920964",
+      "sentence": "He became moody and withdrawn after the argument.",
+      "meaning": "顯得陰沉、不開心或難以接近的"
+    },
+    {
+      "module": "mother",
+      "question": "mother-18-0",
+      "old": "mother-mcq-13",
+      "answer": "mother-reviewed-c90bfaf988",
+      "sentence": "There are many teachers on my maternal side.",
+      "meaning": "與母親血緣／家庭一方有關"
+    },
+    {
+      "module": "mother",
+      "question": "mother-18-1",
+      "old": "mother-mcq-13",
+      "answer": "mother-reviewed-c90bfaf988",
+      "sentence": "The tradition comes from her maternal side.",
+      "meaning": "與母親血緣／家庭一方有關"
+    },
+    {
+      "module": "name",
+      "question": "name-13-0",
+      "old": "name-mcq-12",
+      "answer": "name-reviewed-1cfaac3a19",
+      "sentence": "Consumers often pay more for a famous name.",
+      "meaning": "因知名度和聲譽而有價值的品牌或商業名稱"
+    },
+    {
+      "module": "name",
+      "question": "name-13-1",
+      "old": "name-mcq-12",
+      "answer": "name-reviewed-1cfaac3a19",
+      "sentence": "It's a respected name in the industry.",
+      "meaning": "因知名度和聲譽而有價值的品牌或商業名稱"
+    },
+    {
+      "module": "neat",
+      "question": "neat-12-0",
+      "old": "neat-mcq-11",
+      "answer": "neat-reviewed-8da2451169",
+      "sentence": "He ordered the whisky neat.",
+      "meaning": "酒類不加水、冰塊、汽水或其他飲料直接飲用的"
+    },
+    {
+      "module": "neat",
+      "question": "neat-12-1",
+      "old": "neat-mcq-11",
+      "answer": "neat-reviewed-8da2451169",
+      "sentence": "She prefers brandy neat.",
+      "meaning": "酒類不加水、冰塊、汽水或其他飲料直接飲用的"
+    },
+    {
+      "module": "neat",
+      "question": "neat-13-0",
+      "old": "neat-mcq-11",
+      "answer": "neat-reviewed-5e64a05854",
+      "sentence": "Do not use the chemical neat on your skin.",
+      "meaning": "未經稀釋、混合或添加其他物質的"
+    },
+    {
+      "module": "neat",
+      "question": "neat-13-1",
+      "old": "neat-mcq-11",
+      "answer": "neat-reviewed-5e64a05854",
+      "sentence": "The solution should not be applied neat.",
+      "meaning": "未經稀釋、混合或添加其他物質的"
+    },
+    {
+      "module": "number",
+      "question": "number-16-0",
+      "old": "number-mcq-10",
+      "answer": "number-reviewed-0d2c537756",
+      "sentence": "What shoe number do you wear?",
+      "meaning": "尺碼號數；型號"
+    },
+    {
+      "module": "number",
+      "question": "number-16-1",
+      "old": "number-mcq-10",
+      "answer": "number-reviewed-0d2c537756",
+      "sentence": "This model comes in several numbered sizes.",
+      "meaning": "尺碼號數；型號"
+    },
+    {
+      "module": "number",
+      "question": "number-19-0",
+      "old": "number-mcq-12",
+      "answer": "number-reviewed-e40fe2b1c7",
+      "sentence": "She numbers several famous writers among her friends.",
+      "meaning": "把 X 算作 Y 之中的一員"
+    },
+    {
+      "module": "number",
+      "question": "number-19-1",
+      "old": "number-mcq-12",
+      "answer": "number-reviewed-e40fe2b1c7",
+      "sentence": "The city numbers many historic buildings among its attractions.",
+      "meaning": "把 X 算作 Y 之中的一員"
+    },
+    {
+      "module": "okay",
+      "question": "okay-07-0",
+      "old": "okay-mcq-05",
+      "answer": "okay-reviewed-8903603ed4",
+      "sentence": "The film was okay, but I wouldn't watch it again.",
+      "meaning": "品質、表現或情況可以接受，但不算特別好"
+    },
+    {
+      "module": "okay",
+      "question": "okay-07-1",
+      "old": "okay-mcq-05",
+      "answer": "okay-reviewed-8903603ed4",
+      "sentence": "The food was okay, nothing special.",
+      "meaning": "品質、表現或情況可以接受，但不算特別好"
+    },
+    {
+      "module": "open",
+      "question": "open-04-0",
+      "old": "open-mcq-03",
+      "answer": "open-reviewed-e08d8fa7b2",
+      "sentence": "Open your mouth and say “ah”.",
+      "meaning": "把嘴巴張開"
+    },
+    {
+      "module": "open",
+      "question": "open-04-1",
+      "old": "open-mcq-03",
+      "answer": "open-reviewed-e08d8fa7b2",
+      "sentence": "The baby opened his mouth for another spoonful.",
+      "meaning": "把嘴巴張開"
+    },
+    {
+      "module": "order",
+      "question": "order-36-0",
+      "old": "order-mcq-28",
+      "answer": "order-reviewed-96f1bbe5b6",
+      "sentence": "Primates are an order of mammals.",
+      "meaning": "生物分類中位於 class 與 family 之間的一個主要分類層級"
+    },
+    {
+      "module": "order",
+      "question": "order-36-1",
+      "old": "order-mcq-28",
+      "answer": "order-reviewed-96f1bbe5b6",
+      "sentence": "Cats belong to the order Carnivora.",
+      "meaning": "生物分類中位於 class 與 family 之間的一個主要分類層級"
+    },
+    {
+      "module": "order",
+      "question": "order-37-0",
+      "old": "order-mcq-38",
+      "answer": "order-reviewed-b13cb7148c",
+      "sentence": "He joined a religious order.",
+      "meaning": "按共同宗教規則生活和工作的正式宗教團體"
+    },
+    {
+      "module": "order",
+      "question": "order-37-1",
+      "old": "order-mcq-38",
+      "answer": "order-reviewed-b13cb7148c",
+      "sentence": "The order was founded centuries ago.",
+      "meaning": "按共同宗教規則生活和工作的正式宗教團體"
+    },
+    {
+      "module": "original",
+      "question": "original-09-0",
+      "old": "original-mcq-08",
+      "answer": "original-reviewed-720f2204a2",
+      "sentence": "The gallery displayed both the copy and the original.",
+      "meaning": "被複製或改編所依據的原始作品／文件／物件"
+    },
+    {
+      "module": "original",
+      "question": "original-09-1",
+      "old": "original-mcq-08",
+      "answer": "original-reviewed-720f2204a2",
+      "sentence": "Please send us the original, not a photocopy.",
+      "meaning": "被複製或改編所依據的原始作品／文件／物件"
+    },
+    {
+      "module": "overhead",
+      "question": "overhead-12-0",
+      "old": "overhead-mcq-10",
+      "answer": "overhead-reviewed-eaa6929213",
+      "sentence": "An overhead crane moved the heavy equipment across the factory.",
+      "meaning": "橋式起重機／高架起重機"
+    },
+    {
+      "module": "overhead",
+      "question": "overhead-14-0",
+      "old": "overhead-mcq-11",
+      "answer": "overhead-reviewed-caa931c081",
+      "sentence": "The teacher used an overhead projector.",
+      "meaning": "投影機／高映機"
+    },
+    {
+      "module": "pace",
+      "question": "pace-12-0",
+      "old": "pace-mcq-15",
+      "answer": "pace-reviewed-a723b68240",
+      "sentence": "He paced out the length of the room.",
+      "meaning": "用步數量距離"
+    },
+    {
+      "module": "pace",
+      "question": "pace-12-1",
+      "old": "pace-mcq-15",
+      "answer": "pace-reviewed-a723b68240",
+      "sentence": "She paced off twenty metres.",
+      "meaning": "用步數量距離"
+    },
+    {
+      "module": "particular",
+      "question": "particular-11-0",
+      "old": "particular-mcq-10",
+      "answer": "particular-reviewed-ede06abaef",
+      "sentence": "Please give particular details of what happened.",
+      "meaning": "涉及具體細節，而不是籠統概括"
+    },
+    {
+      "module": "particular",
+      "question": "particular-11-1",
+      "old": "particular-mcq-10",
+      "answer": "particular-reviewed-ede06abaef",
+      "sentence": "The report was very particular in its description.",
+      "meaning": "涉及具體細節，而不是籠統概括"
+    },
+    {
+      "module": "pass",
+      "question": "pass-40-0",
+      "old": "pass-mcq-29",
+      "answer": "pass-reviewed-058e151ad4",
+      "sentence": "We were saddened by his passing.",
+      "meaning": "委婉指死亡"
+    },
+    {
+      "module": "pass",
+      "question": "pass-40-1",
+      "old": "pass-mcq-29",
+      "answer": "pass-reviewed-058e151ad4",
+      "sentence": "Her passing affected the whole family.",
+      "meaning": "委婉指死亡"
+    },
+    {
+      "module": "pause",
+      "question": "pause-08-0",
+      "old": "pause-mcq-08",
+      "answer": "pause-reviewed-670c86a2ce",
+      "sentence": "The results should give us pause for thought.",
+      "meaning": "值得深思；令人停下思考"
+    },
+    {
+      "module": "perform",
+      "question": "perform-12-0",
+      "old": "perform-mcq-06",
+      "answer": "perform-reviewed-95d6c23f69",
+      "sentence": "The company rewards its top performers.",
+      "meaning": "頂尖表現者"
+    },
+    {
+      "module": "perform",
+      "question": "perform-12-1",
+      "old": "perform-mcq-06",
+      "answer": "perform-reviewed-95d6c23f69",
+      "sentence": "She was the top performer in the squad.",
+      "meaning": "頂尖表現者"
+    },
+    {
+      "module": "perform",
+      "question": "perform-26-0",
+      "old": "perform-mcq-15",
+      "answer": "perform-reviewed-3d4a069021",
+      "sentence": "The organisation uses a formal performance appraisal system.",
+      "meaning": "績效評估"
+    },
+    {
+      "module": "perform",
+      "question": "perform-26-1",
+      "old": "perform-mcq-15",
+      "answer": "perform-reviewed-3d4a069021",
+      "sentence": "Performance appraisals are conducted twice a year.",
+      "meaning": "績效評估"
+    },
+    {
+      "module": "perform",
+      "question": "perform-32-0",
+      "old": "perform-mcq-21",
+      "answer": "perform-reviewed-a378681023",
+      "sentence": "The song sounds different in a live performance.",
+      "meaning": "現場演出"
+    },
+    {
+      "module": "perform",
+      "question": "perform-32-1",
+      "old": "perform-mcq-21",
+      "answer": "perform-reviewed-a378681023",
+      "sentence": "The venue hosts live performances every weekend.",
+      "meaning": "現場演出"
+    },
+    {
+      "module": "perform",
+      "question": "perform-35-0",
+      "old": "perform-mcq-22",
+      "answer": "perform-reviewed-26c6ee7aca",
+      "sentence": "The best-performing department received an award.",
+      "meaning": "表現中的；運作中的"
+    },
+    {
+      "module": "perform",
+      "question": "perform-35-1",
+      "old": "perform-mcq-22",
+      "answer": "perform-reviewed-26c6ee7aca",
+      "sentence": "Poorly performing systems were replaced.",
+      "meaning": "表現中的；運作中的"
+    },
+    {
+      "module": "performance",
+      "question": "performance-31-0",
+      "old": "performance-mcq-28",
+      "answer": "performance-reviewed-b409743f39",
+      "sentence": "She is one of the team's top performers.",
+      "meaning": "在某方面取得某種水平成果的人、公司、投資或產品"
+    },
+    {
+      "module": "performance",
+      "question": "performance-31-1",
+      "old": "performance-mcq-28",
+      "answer": "performance-reviewed-b409743f39",
+      "sentence": "This investment has been a strong performer.",
+      "meaning": "在某方面取得某種水平成果的人、公司、投資或產品"
+    },
+    {
+      "module": "perspective",
+      "question": "perspective-08-0",
+      "old": "perspective-mcq-06",
+      "answer": "perspective-reviewed-1bf1c363e2",
+      "sentence": "The documentary places the event in historical perspective.",
+      "meaning": "背景；整體脈絡"
+    },
+    {
+      "module": "perspective",
+      "question": "perspective-08-1",
+      "old": "perspective-mcq-06",
+      "answer": "perspective-reviewed-1bf1c363e2",
+      "sentence": "Looking at the data over twenty years gives us better perspective.",
+      "meaning": "背景；整體脈絡"
+    },
+    {
+      "module": "phone",
+      "question": "phone-02-0",
+      "old": "phone-mcq-35",
+      "answer": "phone-reviewed-a4ff396f56",
+      "sentence": "I put my phone aside.",
+      "meaning": "可攜帶、透過流動網絡進行通訊的電話裝置"
+    },
+    {
+      "module": "phone",
+      "question": "phone-02-1",
+      "old": "phone-mcq-35",
+      "answer": "phone-reviewed-a4ff396f56",
+      "sentence": "She checked her phone on the bus.",
+      "meaning": "可攜帶、透過流動網絡進行通訊的電話裝置"
+    },
+    {
+      "module": "piece",
+      "question": "piece-20-0",
+      "old": "piece-mcq-15",
+      "answer": "piece-reviewed-7b23dd5a52",
+      "sentence": "The glass fell and broke to pieces.",
+      "meaning": "分裂成很多碎片；完全破碎"
+    },
+    {
+      "module": "piece",
+      "question": "piece-20-1",
+      "old": "piece-mcq-15",
+      "answer": "piece-reviewed-7b23dd5a52",
+      "sentence": "The old paper was falling to pieces.",
+      "meaning": "分裂成很多碎片；完全破碎"
+    },
+    {
+      "module": "plain",
+      "question": "plain-13-0",
+      "old": "plain-mcq-02",
+      "answer": "plain-reviewed-b5dd2cbdf6",
+      "sentence": "The officer was wearing plain clothes.",
+      "meaning": "不穿制服、穿普通日常衣服的狀態，尤其指警員"
+    },
+    {
+      "module": "plain",
+      "question": "plain-13-1",
+      "old": "plain-mcq-02",
+      "answer": "plain-reviewed-b5dd2cbdf6",
+      "sentence": "A plain-clothes officer followed the suspect.",
+      "meaning": "不穿制服、穿普通日常衣服的狀態，尤其指警員"
+    },
+    {
+      "module": "policy",
+      "question": "policy-120-0",
+      "old": "policy-mcq-50",
+      "answer": "policy-reviewed-657fdead86",
+      "sentence": "That is against company policy.",
+      "meaning": "違反規定"
+    },
+    {
+      "module": "power",
+      "question": "power-26-0",
+      "old": "power-mcq-22",
+      "answer": "power-reviewed-1eece775a0",
+      "sentence": "Press the power button to turn the device on.",
+      "meaning": "用來開啟／關閉設備電源的按鈕"
+    },
+    {
+      "module": "power",
+      "question": "power-26-1",
+      "old": "power-mcq-22",
+      "answer": "power-reviewed-1eece775a0",
+      "sentence": "The power button is on the side.",
+      "meaning": "用來開啟／關閉設備電源的按鈕"
+    },
+    {
+      "module": "print",
+      "question": "print-17-0",
+      "old": "print-mcq-16",
+      "answer": "print-reviewed-559aed8354",
+      "sentence": "The book was produced by a local printer.",
+      "meaning": "從事商業印刷工作的人或公司"
+    },
+    {
+      "module": "print",
+      "question": "print-17-1",
+      "old": "print-mcq-16",
+      "answer": "print-reviewed-559aed8354",
+      "sentence": "The publisher sent the final files to the printer.",
+      "meaning": "從事商業印刷工作的人或公司"
+    },
+    {
+      "module": "produce",
+      "question": "produce-22-0",
+      "old": "produce-mcq-16",
+      "answer": "produce-reviewed-3e3d3a34d5",
+      "sentence": "He served as executive producer on the series.",
+      "meaning": "通常負責作品較高層次的資金、商業或整體製作管理的人"
+    },
+    {
+      "module": "produce",
+      "question": "produce-22-1",
+      "old": "produce-mcq-16",
+      "answer": "produce-reviewed-3e3d3a34d5",
+      "sentence": "The executive producer helped secure funding.",
+      "meaning": "通常負責作品較高層次的資金、商業或整體製作管理的人"
+    },
+    {
+      "module": "produce",
+      "question": "produce-29-0",
+      "old": "produce-mcq-17",
+      "answer": "produce-reviewed-7183005dcd",
+      "sentence": "We saw a wonderful production of Hamlet.",
+      "meaning": "被製作並呈現出來的戲劇、電影或其他表演作品"
+    },
+    {
+      "module": "produce",
+      "question": "produce-29-1",
+      "old": "produce-mcq-17",
+      "answer": "produce-reviewed-7183005dcd",
+      "sentence": "The theatre's latest production received excellent reviews.",
+      "meaning": "被製作並呈現出來的戲劇、電影或其他表演作品"
+    },
+    {
+      "module": "proportion",
+      "question": "proportion-75-0",
+      "old": "proportion-mcq-56",
+      "answer": "proportion-reviewed-a03535d577",
+      "sentence": "Minor cases should require only proportionate effort.",
+      "meaning": "相稱的投入／努力"
+    },
+    {
+      "module": "proportion",
+      "question": "proportion-81-0",
+      "old": "proportion-mcq-57",
+      "answer": "proportion-reviewed-dec0bd8041",
+      "sentence": "Returns account for a small proportion of total sales.",
+      "meaning": "收入／成本／銷售的佔比"
+    },
+    {
+      "module": "proportion",
+      "question": "proportion-81-1",
+      "old": "proportion-mcq-57",
+      "answer": "proportion-reviewed-dec0bd8041",
+      "sentence": "Delivery costs represent a growing proportion of expenses.",
+      "meaning": "收入／成本／銷售的佔比"
+    },
+    {
+      "module": "pursue",
+      "question": "pursue-26-0",
+      "old": "pursue-mcq-22",
+      "answer": "pursue-reviewed-0c9a25c6e5",
+      "sentence": "She devoted more time to creative pursuits.",
+      "meaning": "藝術／創意活動"
+    },
+    {
+      "module": "pursue",
+      "question": "pursue-26-1",
+      "old": "pursue-mcq-22",
+      "answer": "pursue-reviewed-0c9a25c6e5",
+      "sentence": "Artistic pursuits can provide a sense of fulfilment.",
+      "meaning": "藝術／創意活動"
+    },
+    {
+      "module": "pursue",
+      "question": "pursue-58-0",
+      "old": "pursue-mcq-42",
+      "answer": "pursue-reviewed-a0fcd3245f",
+      "sentence": "He pursued her romantically for several months.",
+      "meaning": "積極向某人示愛，希望與對方建立戀愛關係"
+    },
+    {
+      "module": "pursue",
+      "question": "pursue-58-1",
+      "old": "pursue-mcq-42",
+      "answer": "pursue-reviewed-a0fcd3245f",
+      "sentence": "She made it clear that she did not want to be pursued.",
+      "meaning": "積極向某人示愛，希望與對方建立戀愛關係"
+    },
+    {
+      "module": "push",
+      "question": "push-54-0",
+      "old": "push-mcq-41",
+      "answer": "push-reviewed-5f76d6143d",
+      "sentence": "She pushed her doubts aside and continued.",
+      "meaning": "把……擱在一旁；忽視"
+    },
+    {
+      "module": "push",
+      "question": "push-54-1",
+      "old": "push-mcq-41",
+      "answer": "push-reviewed-5f76d6143d",
+      "sentence": "Quieter members should not be pushed aside.",
+      "meaning": "把……擱在一旁；忽視"
+    },
+    {
+      "module": "push",
+      "question": "push-84-0",
+      "old": "push-mcq-60",
+      "answer": "push-reviewed-db4d116d36",
+      "sentence": "She pushed the commit to the main branch.",
+      "meaning": "推送到分支"
+    },
+    {
+      "module": "push",
+      "question": "push-84-1",
+      "old": "push-mcq-60",
+      "answer": "push-reviewed-db4d116d36",
+      "sentence": "Push your changes to a feature branch first.",
+      "meaning": "推送到分支"
+    },
+    {
+      "module": "quick",
+      "question": "quick-31-0",
+      "old": "quick-mcq-20",
+      "answer": "quick-reviewed-981aca106c",
+      "sentence": "Be quick! We’re late.",
+      "meaning": "加快動作，不要拖延"
+    },
+    {
+      "module": "quick",
+      "question": "quick-31-1",
+      "old": "quick-mcq-20",
+      "answer": "quick-reviewed-981aca106c",
+      "sentence": "You’ll have to be quick.",
+      "meaning": "加快動作，不要拖延"
+    },
+    {
+      "module": "race",
+      "question": "race-25-0",
+      "old": "race-mcq-22",
+      "answer": "race-reviewed-6852615373",
+      "sentence": "The text refers to an ancient race of horses.",
+      "meaning": "品系；種類"
+    },
+    {
+      "module": "race",
+      "question": "race-25-1",
+      "old": "race-mcq-22",
+      "answer": "race-reviewed-6852615373",
+      "sentence": "The species developed into several distinct local races.",
+      "meaning": "品系；種類"
+    },
+    {
+      "module": "reflection",
+      "question": "reflection-18-0",
+      "old": "reflection-mcq-13",
+      "answer": "reflection-reviewed-8ab04fc39c",
+      "sentence": "The building uses highly reflective glass.",
+      "meaning": "能有效反射光線的"
+    },
+    {
+      "module": "reflection",
+      "question": "reflection-18-1",
+      "old": "reflection-mcq-13",
+      "answer": "reflection-reviewed-8ab04fc39c",
+      "sentence": "Reflective materials improve visibility at night.",
+      "meaning": "能有效反射光線的"
+    },
+    {
+      "module": "responsibility",
+      "question": "responsibility-18-0",
+      "old": "responsibility-mcq-16",
+      "answer": "responsibility-reviewed-b89318efc3",
+      "sentence": "With promotion comes greater responsibility.",
+      "meaning": "因職位而獲得的管理、決定或監督義務"
+    },
+    {
+      "module": "responsibility",
+      "question": "responsibility-18-1",
+      "old": "responsibility-mcq-16",
+      "answer": "responsibility-reviewed-b89318efc3",
+      "sentence": "She was given more responsibility at work.",
+      "meaning": "因職位而獲得的管理、決定或監督義務"
+    },
+    {
+      "module": "roast",
+      "question": "roast-40-0",
+      "old": "roast-mcq-20",
+      "answer": "roast-reviewed-ed658aaec8",
+      "sentence": "They held a roast for the retiring manager.",
+      "meaning": "吐槽／調侃大會"
+    },
+    {
+      "module": "rule",
+      "question": "rule-82-0",
+      "old": "rule-mcq-68",
+      "answer": "rule-reviewed-273c1798c5",
+      "sentence": "Players must know the rules of the game.",
+      "meaning": "遊戲／比賽規則"
+    },
+    {
+      "module": "rule",
+      "question": "rule-82-1",
+      "old": "rule-mcq-68",
+      "answer": "rule-reviewed-273c1798c5",
+      "sentence": "The referee applies the rules.",
+      "meaning": "遊戲／比賽規則"
+    },
+    {
+      "module": "sandwich",
+      "question": "sandwich-11-0",
+      "old": "sandwich-mcq-07",
+      "answer": "sandwich-reviewed-0d94d2407e",
+      "sentence": "The children ate chocolate sandwich biscuits.",
+      "meaning": "夾心餅乾"
+    },
+    {
+      "module": "screen",
+      "question": "screen-19-0",
+      "old": "screen-mcq-15",
+      "answer": "screen-reviewed-d2b407d809",
+      "sentence": "The computer automatically starts the screensaver.",
+      "meaning": "螢幕保護程式"
+    },
+    {
+      "module": "screen",
+      "question": "screen-19-1",
+      "old": "screen-mcq-15",
+      "answer": "screen-reviewed-d2b407d809",
+      "sentence": "She changed the screensaver image.",
+      "meaning": "螢幕保護程式"
+    },
+    {
+      "module": "see",
+      "question": "see-22-0",
+      "old": "see-mcq-22",
+      "answer": "see-reviewed-6dcf3c9428",
+      "sentence": "Seeing clearly is difficult in the fog.",
+      "meaning": "看見；視覺活動"
+    },
+    {
+      "module": "see",
+      "question": "see-22-1",
+      "old": "see-mcq-22",
+      "answer": "see-reviewed-6dcf3c9428",
+      "sentence": "Seeing is believing.",
+      "meaning": "看見；視覺活動"
+    },
+    {
+      "module": "sentimental",
+      "question": "sentimental-06-0",
+      "old": "sentimental-mcq-06",
+      "answer": "sentimental-reviewed-917dae5303",
+      "sentence": "He has a rather sentimental view of village life.",
+      "meaning": "浪漫化的；感情化的"
+    },
+    {
+      "module": "sentimental",
+      "question": "sentimental-06-1",
+      "old": "sentimental-mcq-06",
+      "answer": "sentimental-reviewed-917dae5303",
+      "sentence": "The book avoids a sentimental picture of childhood.",
+      "meaning": "浪漫化的；感情化的"
+    },
+    {
+      "module": "serve",
+      "question": "serve-14-0",
+      "old": "serve-mcq-13",
+      "answer": "serve-reviewed-6a90915174",
+      "sentence": "The company served notice that the agreement would end.",
+      "meaning": "正式通知"
+    },
+    {
+      "module": "shop",
+      "question": "shop-31-0",
+      "old": "shop-mcq-30",
+      "answer": "shop-reviewed-ca0901f474",
+      "sentence": "They are shopping for a new supplier.",
+      "meaning": "尋找／比較選項"
+    },
+    {
+      "module": "shop",
+      "question": "shop-31-1",
+      "old": "shop-mcq-30",
+      "answer": "shop-reviewed-ca0901f474",
+      "sentence": "The company is shopping around for financing.",
+      "meaning": "尋找／比較選項"
+    },
+    {
+      "module": "sink",
+      "question": "sink-07-0",
+      "old": "sink-mcq-03",
+      "answer": "sink-reviewed-fa6e38095d",
+      "sentence": "The rainwater slowly sank into the dry soil.",
+      "meaning": "向下進入柔軟、鬆散或可吸收的物質中"
+    },
+    {
+      "module": "sink",
+      "question": "sink-07-1",
+      "old": "sink-mcq-03",
+      "answer": "sink-reviewed-fa6e38095d",
+      "sentence": "Her feet sank into the soft sand.",
+      "meaning": "向下進入柔軟、鬆散或可吸收的物質中"
+    },
+    {
+      "module": "situation",
+      "question": "situation-16-0",
+      "old": "situation-mcq-16",
+      "answer": "situation-reviewed-19d8f6d912",
+      "sentence": "I wouldn't want to be in his situation.",
+      "meaning": "某人當時所處的生活、工作或人際條件"
+    },
+    {
+      "module": "situation",
+      "question": "situation-16-1",
+      "old": "situation-mcq-16",
+      "answer": "situation-reviewed-19d8f6d912",
+      "sentence": "Try to see the problem from her situation.",
+      "meaning": "某人當時所處的生活、工作或人際條件"
+    },
+    {
+      "module": "sleeve",
+      "question": "sleeve-57-0",
+      "old": "sleeve-mcq-52",
+      "answer": "sleeve-reviewed-3025c0d5a3",
+      "sentence": "There is a stain on the left sleeve.",
+      "meaning": "左袖／右袖"
+    },
+    {
+      "module": "sleeve",
+      "question": "sleeve-57-1",
+      "old": "sleeve-mcq-52",
+      "answer": "sleeve-reviewed-3025c0d5a3",
+      "sentence": "The right sleeve is slightly twisted.",
+      "meaning": "左袖／右袖"
+    },
+    {
+      "module": "sleeve",
+      "question": "sleeve-60-0",
+      "old": "sleeve-mcq-52",
+      "answer": "sleeve-reviewed-79cee6665a",
+      "sentence": "The sleeve cap must fit the armhole correctly.",
+      "meaning": "袖山"
+    },
+    {
+      "module": "sleeve",
+      "question": "sleeve-60-1",
+      "old": "sleeve-mcq-52",
+      "answer": "sleeve-reviewed-79cee6665a",
+      "sentence": "Changes to the sleeve cap can affect shoulder fit.",
+      "meaning": "袖山"
+    },
+    {
+      "module": "soar",
+      "question": "soar-10-0",
+      "old": "soar-mcq-09",
+      "answer": "soar-reviewed-414dea9cd0",
+      "sentence": "Applications soared after the programme became popular.",
+      "meaning": "激增"
+    },
+    {
+      "module": "soar",
+      "question": "soar-10-1",
+      "old": "soar-mcq-09",
+      "answer": "soar-reviewed-414dea9cd0",
+      "sentence": "Visitor numbers have soared.",
+      "meaning": "激增"
+    },
+    {
+      "module": "some",
+      "question": "some-10-0",
+      "old": "some-mcq-10",
+      "answer": "some-reviewed-b3090b9182",
+      "sentence": "Some are red, and some are yellow.",
+      "meaning": "把一個群體分成不同未指明部分"
+    },
+    {
+      "module": "some",
+      "question": "some-10-1",
+      "old": "some-mcq-10",
+      "answer": "some-reviewed-b3090b9182",
+      "sentence": "Some people relax by reading; some prefer exercise.",
+      "meaning": "把一個群體分成不同未指明部分"
+    },
+    {
+      "module": "source",
+      "question": "source-59-0",
+      "old": "source-mcq-05",
+      "answer": "source-reviewed-8eecc796d5",
+      "sentence": "Journalists source information from interviews and documents.",
+      "meaning": "找到並取得所需資訊／資料"
+    },
+    {
+      "module": "source",
+      "question": "source-59-1",
+      "old": "source-mcq-05",
+      "answer": "source-reviewed-8eecc796d5",
+      "sentence": "The team sourced data from public records.",
+      "meaning": "找到並取得所需資訊／資料"
+    },
+    {
+      "module": "speaker",
+      "question": "speaker-18-0",
+      "old": "speaker-mcq-17",
+      "answer": "speaker-reviewed-3460894835",
+      "sentence": "Put the call on speaker.",
+      "meaning": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出"
+    },
+    {
+      "module": "speaker",
+      "question": "speaker-18-1",
+      "old": "speaker-mcq-17",
+      "answer": "speaker-reviewed-3460894835",
+      "sentence": "You're on speaker, so everyone can hear you.",
+      "meaning": "電話透過外置揚聲器播放通話聲音，而不是只從聽筒輸出"
+    },
+    {
+      "module": "spend",
+      "question": "spend-15-0",
+      "old": "spend-mcq-14",
+      "answer": "spend-reviewed-599c4831bb",
+      "sentence": "The long journey spent much of his strength.",
+      "meaning": "消耗、耗去體力或精力"
+    },
+    {
+      "module": "spend",
+      "question": "spend-15-1",
+      "old": "spend-mcq-14",
+      "answer": "spend-reviewed-599c4831bb",
+      "sentence": "Years of stress had spent his energy.",
+      "meaning": "消耗、耗去體力或精力"
+    },
+    {
+      "module": "squeeze",
+      "question": "squeeze-08-0",
+      "old": "squeeze-mcq-08",
+      "answer": "squeeze-reviewed-277375523b",
+      "sentence": "Give the bottle a gentle squeeze.",
+      "meaning": "一擠；一捏；一握"
+    },
+    {
+      "module": "squeeze",
+      "question": "squeeze-08-1",
+      "old": "squeeze-mcq-08",
+      "answer": "squeeze-reviewed-277375523b",
+      "sentence": "She gave my hand a squeeze.",
+      "meaning": "一擠；一捏；一握"
+    },
+    {
+      "module": "squeeze",
+      "question": "squeeze-15-0",
+      "old": "squeeze-mcq-11",
+      "answer": "squeeze-reviewed-28e960f113",
+      "sentence": "Competition has squeezed profit margins.",
+      "meaning": "壓縮；縮減"
+    },
+    {
+      "module": "squeeze",
+      "question": "squeeze-15-1",
+      "old": "squeeze-mcq-11",
+      "answer": "squeeze-reviewed-28e960f113",
+      "sentence": "The project was squeezed by a limited budget.",
+      "meaning": "壓縮；縮減"
+    },
+    {
+      "module": "standard",
+      "question": "standard-14-0",
+      "old": "standard-mcq-10",
+      "answer": "standard-reviewed-7a42ba6b17",
+      "sentence": "The lamp was mounted on a tall standard.",
+      "meaning": "直立支架；旗杆"
+    },
+    {
+      "module": "standard",
+      "question": "standard-14-1",
+      "old": "standard-mcq-10",
+      "answer": "standard-reviewed-7a42ba6b17",
+      "sentence": "The flag was fixed to a metal standard.",
+      "meaning": "直立支架；旗杆"
+    },
+    {
+      "module": "stomach",
+      "question": "stomach-20-0",
+      "old": "stomach-mcq-18",
+      "answer": "stomach-reviewed-8908ac1daa",
+      "sentence": "He didn't have the stomach to continue.",
+      "meaning": "膽量；承受力"
+    },
+    {
+      "module": "stomach",
+      "question": "stomach-20-1",
+      "old": "stomach-mcq-18",
+      "answer": "stomach-reviewed-8908ac1daa",
+      "sentence": "It takes some stomach to face that kind of criticism.",
+      "meaning": "膽量；承受力"
+    },
+    {
+      "module": "strength",
+      "question": "strength-16-0",
+      "old": "strength-mcq-12",
+      "answer": "strength-reviewed-ffd5fd491a",
+      "sentence": "The bridge was checked for structural strength.",
+      "meaning": "結構強度"
+    },
+    {
+      "module": "strength",
+      "question": "strength-16-1",
+      "old": "strength-mcq-12",
+      "answer": "strength-reviewed-ffd5fd491a",
+      "sentence": "The redesign improved the structural strength of the frame.",
+      "meaning": "結構強度"
+    },
+    {
+      "module": "strength",
+      "question": "strength-23-0",
+      "old": "strength-mcq-17",
+      "answer": "strength-reviewed-b74485cfbd",
+      "sentence": "Technology shares contributed to overall market strength.",
+      "meaning": "市場強勢"
+    },
+    {
+      "module": "strength",
+      "question": "strength-23-1",
+      "old": "strength-mcq-17",
+      "answer": "strength-reviewed-b74485cfbd",
+      "sentence": "The rally showed broad market strength.",
+      "meaning": "市場強勢"
+    },
+    {
+      "module": "strength",
+      "question": "strength-41-0",
+      "old": "strength-mcq-25",
+      "answer": "strength-reviewed-4e5b96e01a",
+      "sentence": "He moved the object by sheer strength.",
+      "meaning": "靠力量；憑純粹力量"
+    },
+    {
+      "module": "strength",
+      "question": "strength-41-1",
+      "old": "strength-mcq-25",
+      "answer": "strength-reviewed-4e5b96e01a",
+      "sentence": "The athlete powered through the final metres on strength alone.",
+      "meaning": "靠力量；憑純粹力量"
+    },
+    {
+      "module": "suffer",
+      "question": "suffer-29-0",
+      "old": "suffer-mcq-22",
+      "answer": "suffer-reviewed-00c185d3d7",
+      "sentence": "The region suffered severe food shortages.",
+      "meaning": "面對短缺"
+    },
+    {
+      "module": "suffer",
+      "question": "suffer-29-1",
+      "old": "suffer-mcq-22",
+      "answer": "suffer-reviewed-00c185d3d7",
+      "sentence": "Hospitals suffered shortages of essential supplies.",
+      "meaning": "面對短缺"
+    },
+    {
+      "module": "target",
+      "question": "target-47-0",
+      "old": "target-mcq-27",
+      "answer": "target-reviewed-ea4363a0d7",
+      "sentence": "The arrow hit the target.",
+      "meaning": "靶；目標物"
+    },
+    {
+      "module": "target",
+      "question": "target-107-0",
+      "old": "target-mcq-27",
+      "answer": "target-reviewed-123288c62a",
+      "sentence": "The telescope moved to the next target.",
+      "meaning": "天文觀測目標"
+    },
+    {
+      "module": "think",
+      "question": "think-23-0",
+      "old": "think-mcq-18",
+      "answer": "think-reviewed-10ce6a4df5",
+      "sentence": "Give the idea some thought before deciding.",
+      "meaning": "花時間認真考慮某件事"
+    },
+    {
+      "module": "think",
+      "question": "think-23-1",
+      "old": "think-mcq-18",
+      "answer": "think-reviewed-10ce6a4df5",
+      "sentence": "I need to give your suggestion more thought.",
+      "meaning": "花時間認真考慮某件事"
+    },
+    {
+      "module": "throw",
+      "question": "throw-07-0",
+      "old": "throw-mcq-06",
+      "answer": "throw-reviewed-ccd35ecb11",
+      "sentence": "He threw a punch.",
+      "meaning": "揮出；打出；做出"
+    },
+    {
+      "module": "throw",
+      "question": "throw-07-1",
+      "old": "throw-mcq-06",
+      "answer": "throw-reviewed-ccd35ecb11",
+      "sentence": "She threw her arms around him.",
+      "meaning": "揮出；打出；做出"
+    },
+    {
+      "module": "time",
+      "question": "time-09-0",
+      "old": "time-mcq-10",
+      "answer": "time-reviewed-c22543681d",
+      "sentence": "It’s time for lunch.",
+      "meaning": "……的時間"
+    },
+    {
+      "module": "time",
+      "question": "time-09-1",
+      "old": "time-mcq-10",
+      "answer": "time-reviewed-c22543681d",
+      "sentence": "We still have time for one more question.",
+      "meaning": "……的時間"
+    },
+    {
+      "module": "time",
+      "question": "time-16-0",
+      "old": "time-mcq-18",
+      "answer": "time-reviewed-c4702d9c8b",
+      "sentence": "The coach timed each runner.",
+      "meaning": "計時"
+    },
+    {
+      "module": "time",
+      "question": "time-16-1",
+      "old": "time-mcq-18",
+      "answer": "time-reviewed-c4702d9c8b",
+      "sentence": "I timed the journey, and it took 35 minutes.",
+      "meaning": "計時"
+    },
+    {
+      "module": "time",
+      "question": "time-17-0",
+      "old": "time-mcq-20",
+      "answer": "time-reviewed-b676f87208",
+      "sentence": "They timed the announcement carefully.",
+      "meaning": "安排時間；選定時機"
+    },
+    {
+      "module": "time",
+      "question": "time-17-1",
+      "old": "time-mcq-20",
+      "answer": "time-reviewed-b676f87208",
+      "sentence": "The launch was timed for the holiday season.",
+      "meaning": "安排時間；選定時機"
+    },
+    {
+      "module": "top",
+      "question": "top-10-0",
+      "old": "top-mcq-29",
+      "answer": "top-reviewed-ba19498848",
+      "sentence": "She is one of the country's top athletes.",
+      "meaning": "在質素、能力、聲譽或表現方面屬於最高水平的"
+    },
+    {
+      "module": "top",
+      "question": "top-10-1",
+      "old": "top-mcq-29",
+      "answer": "top-reviewed-ba19498848",
+      "sentence": "He studied at a top university.",
+      "meaning": "在質素、能力、聲譽或表現方面屬於最高水平的"
+    },
+    {
+      "module": "transparent",
+      "question": "transparent-58-0",
+      "old": "transparent-mcq-50",
+      "answer": "transparent-reviewed-66c49eacd0",
+      "sentence": "She is unusually transparent about her feelings.",
+      "meaning": "坦率、不隱藏想法的人"
+    },
+    {
+      "module": "transparent",
+      "question": "transparent-58-1",
+      "old": "transparent-mcq-50",
+      "answer": "transparent-reviewed-66c49eacd0",
+      "sentence": "His reactions are so transparent that everyone knows when he disagrees.",
+      "meaning": "坦率、不隱藏想法的人"
+    },
+    {
+      "module": "transparent",
+      "question": "transparent-61-0",
+      "old": "transparent-mcq-51",
+      "answer": "transparent-reviewed-b0dfc94d71",
+      "sentence": "The claim is transparently false.",
+      "meaning": "明顯到很容易看穿或判斷"
+    },
+    {
+      "module": "transparent",
+      "question": "transparent-61-1",
+      "old": "transparent-mcq-51",
+      "answer": "transparent-reviewed-b0dfc94d71",
+      "sentence": "His explanation was transparently self-serving.",
+      "meaning": "明顯到很容易看穿或判斷"
+    },
+    {
+      "module": "turnover",
+      "question": "turnover-10-0",
+      "old": "turnover-mcq-09",
+      "answer": "turnover-reviewed-78fd1b4a1a",
+      "sentence": "The building has a high turnover of tenants.",
+      "meaning": "更替；周轉"
+    },
+    {
+      "module": "turnover",
+      "question": "turnover-10-1",
+      "old": "turnover-mcq-09",
+      "answer": "turnover-reviewed-78fd1b4a1a",
+      "sentence": "There is constant turnover among volunteers.",
+      "meaning": "更替；周轉"
+    },
+    {
+      "module": "use",
+      "question": "use-13-0",
+      "old": "use-mcq-11",
+      "answer": "use-reviewed-95a727b871",
+      "sentence": "I hope this guide will be of use to you.",
+      "meaning": "能提供實際幫助或價值"
+    },
+    {
+      "module": "use",
+      "question": "use-13-1",
+      "old": "use-mcq-11",
+      "answer": "use-reviewed-95a727b871",
+      "sentence": "The information may be of use to researchers.",
+      "meaning": "能提供實際幫助或價值"
+    },
+    {
+      "module": "voice",
+      "question": "voice-21-0",
+      "old": "voice-mcq-14",
+      "answer": "voice-reviewed-a11338015f",
+      "sentence": "The phone uses voice recognition.",
+      "meaning": "語音／聲紋識別"
+    },
+    {
+      "module": "voice",
+      "question": "voice-21-1",
+      "old": "voice-mcq-14",
+      "answer": "voice-reviewed-a11338015f",
+      "sentence": "Voice recognition software can identify spoken commands.",
+      "meaning": "語音／聲紋識別"
+    },
+    {
+      "module": "win",
+      "question": "win-37-0",
+      "old": "win-mcq-22",
+      "answer": "win-reviewed-78f2ab87a7",
+      "sentence": "The company seems to have found a winning formula.",
+      "meaning": "一組能反覆帶來成功的做法／因素"
+    },
+    {
+      "module": "win",
+      "question": "win-37-1",
+      "old": "win-mcq-22",
+      "answer": "win-reviewed-78f2ab87a7",
+      "sentence": "Good service and fair prices proved to be a winning formula.",
+      "meaning": "一組能反覆帶來成功的做法／因素"
+    },
+    {
+      "module": "work",
+      "question": "work-24-0",
+      "old": "work-mcq-15",
+      "answer": "work-reviewed-070d24c0c0",
+      "sentence": "They worked for years to improve the product.",
+      "meaning": "努力；致力"
+    },
+    {
+      "module": "work",
+      "question": "work-24-1",
+      "old": "work-mcq-15",
+      "answer": "work-reviewed-070d24c0c0",
+      "sentence": "We need to work together to solve the problem.",
+      "meaning": "努力；致力"
+    },
+    {
+      "module": "worth",
+      "question": "worth-05-0",
+      "old": "worth-mcq-05",
+      "answer": "worth-reviewed-ae976183e5",
+      "sentence": "The idea is worth consideration.",
+      "meaning": "某事值得投入某種注意、研究、努力或討論"
+    },
+    {
+      "module": "worth",
+      "question": "worth-05-1",
+      "old": "worth-mcq-05",
+      "answer": "worth-reviewed-ae976183e5",
+      "sentence": "The issue is worth further discussion.",
+      "meaning": "某事值得投入某種注意、研究、努力或討論"
+    }
+  ],
+  "optionCounts": {
+    "2": 4176,
+    "4": 38354,
+    "3": 5470
+  },
+  "fallbackQuestions": 999
+}

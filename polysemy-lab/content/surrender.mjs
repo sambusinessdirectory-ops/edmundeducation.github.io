@@ -554,11 +554,8 @@ export default {
       "masked": "The army was forced to ____.",
       "options": [
         "surrender-mcq-01",
-        "surrender-mcq-02",
-        "surrender-mcq-03",
-        "surrender-mcq-04",
-        "surrender-mcq-05",
-        "surrender-mcq-06"
+        "surrender-mcq-15",
+        "surrender-mcq-19"
       ],
       "explanation": "本句的「surrender」指「停止抵抗並接受對方控制；投降」。",
       "sentenceIndex": 0,
@@ -567,12 +564,9 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-01": "本句指「停止抵抗並接受對方控制；投降」。",
-        "surrender-mcq-02": "「向敵方投降」與本句語境不同。",
-        "surrender-mcq-03": "「不附帶投降條件的無條件投降」與本句語境不同。",
-        "surrender-mcq-04": "「按協議條件進行的有條件投降」與本句語境不同。",
-        "surrender-mcq-05": "「投降所依據的條件」與本句語境不同。",
-        "surrender-mcq-06": "「正式記錄投降的文書」與本句語境不同。"
+        "surrender-mcq-01": "本句的「surrender」指「停止抵抗並接受對方控制；投降」。",
+        "surrender-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-01"
     },
@@ -584,11 +578,8 @@ export default {
       "masked": "The soldiers ____ after several days.",
       "options": [
         "surrender-mcq-01",
-        "surrender-mcq-02",
-        "surrender-mcq-03",
-        "surrender-mcq-04",
-        "surrender-mcq-05",
-        "surrender-mcq-06"
+        "surrender-mcq-12",
+        "surrender-mcq-19"
       ],
       "explanation": "本句的「surrendered」指「停止抵抗並接受對方控制；投降」。",
       "sentenceIndex": 1,
@@ -597,12 +588,9 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-01": "本句指「停止抵抗並接受對方控制；投降」。",
-        "surrender-mcq-02": "「向敵方投降」與本句語境不同。",
-        "surrender-mcq-03": "「不附帶投降條件的無條件投降」與本句語境不同。",
-        "surrender-mcq-04": "「按協議條件進行的有條件投降」與本句語境不同。",
-        "surrender-mcq-05": "「投降所依據的條件」與本句語境不同。",
-        "surrender-mcq-06": "「正式記錄投降的文書」與本句語境不同。"
+        "surrender-mcq-01": "本句的「surrendered」指「停止抵抗並接受對方控制；投降」。",
+        "surrender-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-01"
     },
@@ -614,11 +602,9 @@ export default {
       "masked": "The commander ____ himself to the enemy.",
       "options": [
         "surrender-mcq-02",
-        "surrender-mcq-01",
-        "surrender-mcq-03",
-        "surrender-mcq-04",
-        "surrender-mcq-05",
-        "surrender-mcq-06"
+        "surrender-mcq-20",
+        "surrender-mcq-21",
+        "surrender-mcq-12"
       ],
       "explanation": "本句的「surrendered」指「向敵方投降」。",
       "sentenceIndex": 3,
@@ -627,12 +613,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-02": "本句指「向敵方投降」。",
-        "surrender-mcq-01": "「停止抵抗並接受對方控制；投降」與本句語境不同。",
-        "surrender-mcq-03": "「不附帶投降條件的無條件投降」與本句語境不同。",
-        "surrender-mcq-04": "「按協議條件進行的有條件投降」與本句語境不同。",
-        "surrender-mcq-05": "「投降所依據的條件」與本句語境不同。",
-        "surrender-mcq-06": "「正式記錄投降的文書」與本句語境不同。"
+        "surrender-mcq-02": "本句的「surrendered」指「向敵方投降」。",
+        "surrender-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-02"
     },
@@ -644,11 +628,9 @@ export default {
       "masked": "The two sides discussed the terms of ____.",
       "options": [
         "surrender-mcq-05",
-        "surrender-mcq-04",
-        "surrender-mcq-06",
-        "surrender-mcq-03",
-        "surrender-mcq-07",
-        "surrender-mcq-02"
+        "surrender-mcq-15",
+        "surrender-mcq-19",
+        "surrender-mcq-17"
       ],
       "explanation": "本句的「surrender」指「投降所依據的條件」。",
       "sentenceIndex": 5,
@@ -657,12 +639,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-05": "本句指「投降所依據的條件」。",
-        "surrender-mcq-04": "「按協議條件進行的有條件投降」與本句語境不同。",
-        "surrender-mcq-06": "「正式記錄投降的文書」與本句語境不同。",
-        "surrender-mcq-03": "「不附帶投降條件的無條件投降」與本句語境不同。",
-        "surrender-mcq-07": "「把地方／控制權交給對方」與本句語境不同。",
-        "surrender-mcq-02": "「向敵方投降」與本句語境不同。"
+        "surrender-mcq-05": "本句的「surrender」指「投降所依據的條件」。",
+        "surrender-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-05"
     },
@@ -674,11 +654,9 @@ export default {
       "masked": "He refused to ____ control of the company.",
       "options": [
         "surrender-mcq-13",
-        "surrender-mcq-12",
-        "surrender-mcq-14",
-        "surrender-mcq-11",
-        "surrender-mcq-15",
-        "surrender-mcq-10"
+        "surrender-mcq-05",
+        "surrender-mcq-20",
+        "surrender-mcq-19"
       ],
       "explanation": "本句的「surrender」指「放棄並交出控制權／權力」。",
       "sentenceIndex": 12,
@@ -687,12 +665,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-13": "本句指「放棄並交出控制權／權力」。",
-        "surrender-mcq-12": "「正式放棄權利／申索」與本句語境不同。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-11": "「正式交回護照／牌照」與本句語境不同。",
-        "surrender-mcq-15": "「放棄希望／原則」與本句語境不同。",
-        "surrender-mcq-10": "「放棄持有並交出武器」與本句語境不同。"
+        "surrender-mcq-13": "本句的「surrender」指「放棄並交出控制權／權力」。",
+        "surrender-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-13"
     },
@@ -704,11 +680,9 @@ export default {
       "masked": "The suspect later ____ to police.",
       "options": [
         "surrender-mcq-08",
-        "surrender-mcq-07",
-        "surrender-mcq-09",
-        "surrender-mcq-06",
-        "surrender-mcq-10",
-        "surrender-mcq-05"
+        "surrender-mcq-18",
+        "surrender-mcq-19",
+        "surrender-mcq-15"
       ],
       "explanation": "本句的「surrendered」指「停止逃避並向警方投案」。",
       "sentenceIndex": 14,
@@ -717,12 +691,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-08": "本句指「停止逃避並向警方投案」。",
-        "surrender-mcq-07": "「把地方／控制權交給對方」與本句語境不同。",
-        "surrender-mcq-09": "「主動把自己交由當局管束」與本句語境不同。",
-        "surrender-mcq-06": "「正式記錄投降的文書」與本句語境不同。",
-        "surrender-mcq-10": "「放棄持有並交出武器」與本句語境不同。",
-        "surrender-mcq-05": "「投降所依據的條件」與本句語境不同。"
+        "surrender-mcq-08": "本句的「surrendered」指「停止逃避並向警方投案」。",
+        "surrender-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-08"
     },
@@ -734,11 +706,9 @@ export default {
       "masked": "The agreement does not require employees to ____ their rights.",
       "options": [
         "surrender-mcq-12",
-        "surrender-mcq-11",
-        "surrender-mcq-13",
-        "surrender-mcq-10",
-        "surrender-mcq-14",
-        "surrender-mcq-09"
+        "surrender-mcq-08",
+        "surrender-mcq-05",
+        "surrender-mcq-18"
       ],
       "explanation": "本句的「surrender」指「正式放棄權利／申索」。",
       "sentenceIndex": 20,
@@ -747,12 +717,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-12": "本句指「正式放棄權利／申索」。",
-        "surrender-mcq-11": "「正式交回護照／牌照」與本句語境不同。",
-        "surrender-mcq-13": "「放棄並交出控制權／權力」與本句語境不同。",
-        "surrender-mcq-10": "「放棄持有並交出武器」與本句語境不同。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-09": "「主動把自己交由當局管束」與本句語境不同。"
+        "surrender-mcq-12": "本句的「surrender」指「正式放棄權利／申索」。",
+        "surrender-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-12"
     },
@@ -764,11 +732,9 @@ export default {
       "masked": "She refused to ____ hope.",
       "options": [
         "surrender-mcq-15",
-        "surrender-mcq-14",
-        "surrender-mcq-16",
-        "surrender-mcq-13",
-        "surrender-mcq-17",
-        "surrender-mcq-12"
+        "surrender-mcq-20",
+        "surrender-mcq-26",
+        "surrender-mcq-02"
       ],
       "explanation": "本句的「surrender」指「放棄希望／原則」。",
       "sentenceIndex": 22,
@@ -777,12 +743,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-15": "本句指「放棄希望／原則」。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-16": "「放棄自由／自主權」與本句語境不同。",
-        "surrender-mcq-13": "「放棄並交出控制權／權力」與本句語境不同。",
-        "surrender-mcq-17": "「不再抵抗外界壓力；屈服」與本句語境不同。",
-        "surrender-mcq-12": "「正式放棄權利／申索」與本句語境不同。"
+        "surrender-mcq-15": "本句的「surrender」指「放棄希望／原則」。",
+        "surrender-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-15"
     },
@@ -794,11 +758,9 @@ export default {
       "masked": "He would not ____ his principles for money.",
       "options": [
         "surrender-mcq-15",
-        "surrender-mcq-14",
-        "surrender-mcq-16",
-        "surrender-mcq-13",
-        "surrender-mcq-17",
-        "surrender-mcq-12"
+        "surrender-mcq-21",
+        "surrender-mcq-02",
+        "surrender-mcq-17"
       ],
       "explanation": "本句的「surrender」指「放棄希望／原則」。",
       "sentenceIndex": 23,
@@ -807,12 +769,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-15": "本句指「放棄希望／原則」。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-16": "「放棄自由／自主權」與本句語境不同。",
-        "surrender-mcq-13": "「放棄並交出控制權／權力」與本句語境不同。",
-        "surrender-mcq-17": "「不再抵抗外界壓力；屈服」與本句語境不同。",
-        "surrender-mcq-12": "「正式放棄權利／申索」與本句語境不同。"
+        "surrender-mcq-15": "本句的「surrender」指「放棄希望／原則」。",
+        "surrender-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-15"
     },
@@ -824,11 +784,9 @@ export default {
       "masked": "People may ____ some freedom in exchange for convenience.",
       "options": [
         "surrender-mcq-16",
-        "surrender-mcq-15",
+        "surrender-mcq-08",
         "surrender-mcq-17",
-        "surrender-mcq-14",
-        "surrender-mcq-18",
-        "surrender-mcq-13"
+        "surrender-mcq-27"
       ],
       "explanation": "本句的「surrender」指「放棄自由／自主權」。",
       "sentenceIndex": 25,
@@ -837,12 +795,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-16": "本句指「放棄自由／自主權」。",
-        "surrender-mcq-15": "「放棄希望／原則」與本句語境不同。",
-        "surrender-mcq-17": "「不再抵抗外界壓力；屈服」與本句語境不同。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-18": "「抵抗不住誘惑」與本句語境不同。",
-        "surrender-mcq-13": "「放棄並交出控制權／權力」與本句語境不同。"
+        "surrender-mcq-16": "本句的「surrender」指「放棄自由／自主權」。",
+        "surrender-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-16"
     },
@@ -854,11 +810,9 @@ export default {
       "masked": "He ____ control of the project.",
       "options": [
         "surrender-mcq-13",
-        "surrender-mcq-12",
-        "surrender-mcq-14",
-        "surrender-mcq-11",
-        "surrender-mcq-15",
-        "surrender-mcq-10"
+        "surrender-mcq-02",
+        "surrender-mcq-26",
+        "surrender-mcq-20"
       ],
       "explanation": "本句的「surrendered」指「放棄並交出控制權／權力」。",
       "sentenceIndex": 26,
@@ -867,12 +821,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-13": "本句指「放棄並交出控制權／權力」。",
-        "surrender-mcq-12": "「正式放棄權利／申索」與本句語境不同。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-11": "「正式交回護照／牌照」與本句語境不同。",
-        "surrender-mcq-15": "「放棄希望／原則」與本句語境不同。",
-        "surrender-mcq-10": "「放棄持有並交出武器」與本句語境不同。"
+        "surrender-mcq-13": "本句的「surrendered」指「放棄並交出控制權／權力」。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-13"
     },
@@ -884,11 +836,9 @@ export default {
       "masked": "She finally ____ to temptation and bought the cake.",
       "options": [
         "surrender-mcq-18",
-        "surrender-mcq-17",
-        "surrender-mcq-19",
-        "surrender-mcq-16",
-        "surrender-mcq-20",
-        "surrender-mcq-15"
+        "surrender-mcq-26",
+        "surrender-mcq-13",
+        "surrender-mcq-02"
       ],
       "explanation": "本句的「surrendered」指「抵抗不住誘惑」。",
       "sentenceIndex": 29,
@@ -897,12 +847,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-18": "本句指「抵抗不住誘惑」。",
-        "surrender-mcq-17": "「不再抵抗外界壓力；屈服」與本句語境不同。",
-        "surrender-mcq-19": "「讓恐懼／絕望壓倒自己」與本句語境不同。",
-        "surrender-mcq-16": "「放棄自由／自主權」與本句語境不同。",
-        "surrender-mcq-20": "「文學：抵抗不住睡意而入睡」與本句語境不同。",
-        "surrender-mcq-15": "「放棄希望／原則」與本句語境不同。"
+        "surrender-mcq-18": "本句的「surrendered」指「抵抗不住誘惑」。",
+        "surrender-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-18"
     },
@@ -914,11 +862,8 @@ export default {
       "masked": "Do not ____ to fear.",
       "options": [
         "surrender-mcq-19",
-        "surrender-mcq-18",
-        "surrender-mcq-20",
-        "surrender-mcq-17",
-        "surrender-mcq-21",
-        "surrender-mcq-16"
+        "surrender-mcq-01",
+        "surrender-mcq-12"
       ],
       "explanation": "本句的「surrender」指「讓恐懼／絕望壓倒自己」。",
       "sentenceIndex": 30,
@@ -927,12 +872,9 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-19": "本句指「讓恐懼／絕望壓倒自己」。",
-        "surrender-mcq-18": "「抵抗不住誘惑」與本句語境不同。",
-        "surrender-mcq-20": "「文學：抵抗不住睡意而入睡」與本句語境不同。",
-        "surrender-mcq-17": "「不再抵抗外界壓力；屈服」與本句語境不同。",
-        "surrender-mcq-21": "「停止抗拒自己認為無可避免的命運」與本句語境不同。",
-        "surrender-mcq-16": "「放棄自由／自主權」與本句語境不同。"
+        "surrender-mcq-19": "本句的「surrender」指「讓恐懼／絕望壓倒自己」。",
+        "surrender-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-19"
     },
@@ -945,10 +887,8 @@ export default {
       "options": [
         "surrender-mcq-17",
         "surrender-mcq-16",
-        "surrender-mcq-18",
-        "surrender-mcq-15",
-        "surrender-mcq-19",
-        "surrender-mcq-14"
+        "surrender-mcq-27",
+        "surrender-mcq-02"
       ],
       "explanation": "本句的「surrendered」指「不再抵抗外界壓力；屈服」。",
       "sentenceIndex": 32,
@@ -957,12 +897,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-17": "本句指「不再抵抗外界壓力；屈服」。",
-        "surrender-mcq-16": "「放棄自由／自主權」與本句語境不同。",
-        "surrender-mcq-18": "「抵抗不住誘惑」與本句語境不同。",
-        "surrender-mcq-15": "「放棄希望／原則」與本句語境不同。",
-        "surrender-mcq-19": "「讓恐懼／絕望壓倒自己」與本句語境不同。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。"
+        "surrender-mcq-17": "本句的「surrendered」指「不再抵抗外界壓力；屈服」。",
+        "surrender-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-17"
     },
@@ -974,11 +912,9 @@ export default {
       "masked": "Eventually he ____ to sleep.",
       "options": [
         "surrender-mcq-20",
-        "surrender-mcq-19",
-        "surrender-mcq-21",
-        "surrender-mcq-18",
-        "surrender-mcq-22",
-        "surrender-mcq-17"
+        "surrender-mcq-27",
+        "surrender-mcq-16",
+        "surrender-mcq-19"
       ],
       "explanation": "本句的「surrendered」指「文學：抵抗不住睡意而入睡」。",
       "sentenceIndex": 34,
@@ -987,12 +923,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-20": "本句指「文學：抵抗不住睡意而入睡」。",
-        "surrender-mcq-19": "「讓恐懼／絕望壓倒自己」與本句語境不同。",
-        "surrender-mcq-21": "「停止抗拒自己認為無可避免的命運」與本句語境不同。",
-        "surrender-mcq-18": "「抵抗不住誘惑」與本句語境不同。",
-        "surrender-mcq-22": "「完全放下抵抗／控制，沉浸於某體驗」與本句語境不同。",
-        "surrender-mcq-17": "「不再抵抗外界壓力；屈服」與本句語境不同。"
+        "surrender-mcq-20": "本句的「surrendered」指「文學：抵抗不住睡意而入睡」。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-20"
     },
@@ -1004,11 +938,9 @@ export default {
       "masked": "He ____ to fate.",
       "options": [
         "surrender-mcq-21",
-        "surrender-mcq-20",
-        "surrender-mcq-22",
-        "surrender-mcq-19",
-        "surrender-mcq-23",
-        "surrender-mcq-18"
+        "surrender-mcq-12",
+        "surrender-mcq-02",
+        "surrender-mcq-27"
       ],
       "explanation": "本句的「surrendered」指「停止抗拒自己認為無可避免的命運」。",
       "sentenceIndex": 37,
@@ -1017,12 +949,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-21": "本句指「停止抗拒自己認為無可避免的命運」。",
-        "surrender-mcq-20": "「文學：抵抗不住睡意而入睡」與本句語境不同。",
-        "surrender-mcq-22": "「完全放下抵抗／控制，沉浸於某體驗」與本句語境不同。",
-        "surrender-mcq-19": "「讓恐懼／絕望壓倒自己」與本句語境不同。",
-        "surrender-mcq-23": "「不作抗爭便認輸／放棄」與本句語境不同。",
-        "surrender-mcq-18": "「抵抗不住誘惑」與本句語境不同。"
+        "surrender-mcq-21": "本句的「surrendered」指「停止抗拒自己認為無可避免的命運」。",
+        "surrender-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-21"
     },
@@ -1034,11 +964,9 @@ export default {
       "masked": "She ____ to despair.",
       "options": [
         "surrender-mcq-21",
-        "surrender-mcq-20",
-        "surrender-mcq-22",
-        "surrender-mcq-19",
-        "surrender-mcq-23",
-        "surrender-mcq-18"
+        "surrender-mcq-12",
+        "surrender-mcq-02",
+        "surrender-mcq-27"
       ],
       "explanation": "本句的「surrendered」指「停止抗拒自己認為無可避免的命運」。",
       "sentenceIndex": 38,
@@ -1047,12 +975,10 @@ export default {
         "surrendered"
       ],
       "optionReasons": {
-        "surrender-mcq-21": "本句指「停止抗拒自己認為無可避免的命運」。",
-        "surrender-mcq-20": "「文學：抵抗不住睡意而入睡」與本句語境不同。",
-        "surrender-mcq-22": "「完全放下抵抗／控制，沉浸於某體驗」與本句語境不同。",
-        "surrender-mcq-19": "「讓恐懼／絕望壓倒自己」與本句語境不同。",
-        "surrender-mcq-23": "「不作抗爭便認輸／放棄」與本句語境不同。",
-        "surrender-mcq-18": "「抵抗不住誘惑」與本句語境不同。"
+        "surrender-mcq-21": "本句的「surrendered」指「停止抗拒自己認為無可避免的命運」。",
+        "surrender-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-21"
     },
@@ -1064,11 +990,9 @@ export default {
       "masked": "He wasn't going to ____ without a fight.",
       "options": [
         "surrender-mcq-23",
-        "surrender-mcq-22",
-        "surrender-mcq-24",
-        "surrender-mcq-21",
-        "surrender-mcq-25",
-        "surrender-mcq-20"
+        "surrender-mcq-27",
+        "surrender-mcq-08",
+        "surrender-mcq-19"
       ],
       "explanation": "本句的「surrender」指「不作抗爭便認輸／放棄」。",
       "sentenceIndex": 39,
@@ -1077,12 +1001,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-23": "本句指「不作抗爭便認輸／放棄」。",
-        "surrender-mcq-22": "「完全放下抵抗／控制，沉浸於某體驗」與本句語境不同。",
-        "surrender-mcq-24": "「絕不投降／絕不屈服」與本句語境不同。",
-        "surrender-mcq-21": "「停止抗拒自己認為無可避免的命運」與本句語境不同。",
-        "surrender-mcq-25": "「比喻認輸、放棄抗爭」與本句語境不同。",
-        "surrender-mcq-20": "「文學：抵抗不住睡意而入睡」與本句語境不同。"
+        "surrender-mcq-23": "本句的「surrender」指「不作抗爭便認輸／放棄」。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-23"
     },
@@ -1094,11 +1016,9 @@ export default {
       "masked": "The policyholder decided to ____ the policy.",
       "options": [
         "surrender-mcq-26",
-        "surrender-mcq-25",
-        "surrender-mcq-27",
-        "surrender-mcq-24",
-        "surrender-mcq-28",
-        "surrender-mcq-23"
+        "surrender-mcq-17",
+        "surrender-mcq-02",
+        "surrender-mcq-15"
       ],
       "explanation": "本句的「surrender」指「主動終止符合條件的保單；退保」。",
       "sentenceIndex": 40,
@@ -1107,12 +1027,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-26": "本句指「主動終止符合條件的保單；退保」。",
-        "surrender-mcq-25": "「比喻認輸、放棄抗爭」與本句語境不同。",
-        "surrender-mcq-27": "「保單符合條件下退保時可取得的現金價值」與本句語境不同。",
-        "surrender-mcq-24": "「絕不投降／絕不屈服」與本句語境不同。",
-        "surrender-mcq-28": "「提早退保／提取時可能徵收的解約費」與本句語境不同。",
-        "surrender-mcq-23": "「不作抗爭便認輸／放棄」與本句語境不同。"
+        "surrender-mcq-26": "本句的「surrender」指「主動終止符合條件的保單；退保」。",
+        "surrender-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-26"
     },
@@ -1124,11 +1042,9 @@ export default {
       "masked": "Check the ____ value before cancelling the policy.",
       "options": [
         "surrender-mcq-27",
-        "surrender-mcq-26",
-        "surrender-mcq-28",
-        "surrender-mcq-25",
-        "surrender-mcq-29",
-        "surrender-mcq-24"
+        "surrender-mcq-16",
+        "surrender-mcq-18",
+        "surrender-mcq-21"
       ],
       "explanation": "本句的「surrender」指「保單符合條件下退保時可取得的現金價值」。",
       "sentenceIndex": 41,
@@ -1137,12 +1053,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-27": "本句指「保單符合條件下退保時可取得的現金價值」。",
-        "surrender-mcq-26": "「主動終止符合條件的保單；退保」與本句語境不同。",
-        "surrender-mcq-28": "「提早退保／提取時可能徵收的解約費」與本句語境不同。",
-        "surrender-mcq-25": "「比喻認輸、放棄抗爭」與本句語境不同。",
-        "surrender-mcq-29": "「租戶把租賃權益交還予直接上級業權持有人，使租約終止」與本句語境不同。",
-        "surrender-mcq-24": "「絕不投降／絕不屈服」與本句語境不同。"
+        "surrender-mcq-27": "本句的「surrender」指「保單符合條件下退保時可取得的現金價值」。",
+        "surrender-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-27"
     },
@@ -1154,11 +1068,9 @@ export default {
       "masked": "Learn to ____ what you cannot control.",
       "options": [
         "surrender-mcq-13",
-        "surrender-mcq-12",
-        "surrender-mcq-14",
-        "surrender-mcq-11",
-        "surrender-mcq-15",
-        "surrender-mcq-10"
+        "surrender-mcq-27",
+        "surrender-mcq-21",
+        "surrender-mcq-20"
       ],
       "explanation": "本句的「surrender」指「放棄並交出控制權／權力」。",
       "sentenceIndex": 46,
@@ -1167,12 +1079,10 @@ export default {
         "surrender"
       ],
       "optionReasons": {
-        "surrender-mcq-13": "本句指「放棄並交出控制權／權力」。",
-        "surrender-mcq-12": "「正式放棄權利／申索」與本句語境不同。",
-        "surrender-mcq-14": "「像認輸一樣停止追求夢想；放棄夢想」與本句語境不同。",
-        "surrender-mcq-11": "「正式交回護照／牌照」與本句語境不同。",
-        "surrender-mcq-15": "「放棄希望／原則」與本句語境不同。",
-        "surrender-mcq-10": "「放棄持有並交出武器」與本句語境不同。"
+        "surrender-mcq-13": "本句的「surrender」指「放棄並交出控制權／權力」。",
+        "surrender-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "surrender-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surrender-mcq-13"
     }
@@ -1184,5 +1094,7 @@ export default {
     "sha256": "7bd4acf0a7b35adc98994e1010d32285a78c2b3c4380cbbcd47d54de654075fe",
     "pages": 40
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

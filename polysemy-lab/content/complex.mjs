@@ -515,11 +515,9 @@ export default {
       "masked": "Companies increasingly face ____.",
       "options": [
         "complex-mcq-01",
-        "complex-mcq-02",
-        "complex-mcq-03",
-        "complex-mcq-04",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-10",
+        "complex-mcq-14",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex problems」指「複雜的」。",
       "sentenceIndex": 0,
@@ -528,12 +526,10 @@ export default {
         "complex problems"
       ],
       "optionReasons": {
-        "complex-mcq-01": "本句指「複雜的」。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-01": "本句的「complex problems」指「複雜的」。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-01"
     },
@@ -545,11 +541,9 @@ export default {
       "masked": "This is a ____ with no simple answer.",
       "options": [
         "complex-mcq-01",
-        "complex-mcq-02",
-        "complex-mcq-03",
-        "complex-mcq-04",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-14",
+        "complex-mcq-10",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex issue」指「複雜的」。",
       "sentenceIndex": 1,
@@ -558,12 +552,10 @@ export default {
         "complex issue"
       ],
       "optionReasons": {
-        "complex-mcq-01": "本句指「複雜的」。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-01": "本句的「complex issue」指「複雜的」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-01"
     },
@@ -575,11 +567,9 @@ export default {
       "masked": "The situation is more ____ than it first appears.",
       "options": [
         "complex-mcq-01",
-        "complex-mcq-02",
-        "complex-mcq-03",
-        "complex-mcq-04",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-14",
+        "complex-mcq-09",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex」指「複雜的」。",
       "sentenceIndex": 2,
@@ -588,12 +578,10 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-01": "本句指「複雜的」。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-01": "本句的「complex」指「複雜的」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-01"
     },
@@ -605,11 +593,9 @@ export default {
       "masked": "Climate change is a highly ____.",
       "options": [
         "complex-mcq-02",
-        "complex-mcq-01",
-        "complex-mcq-03",
-        "complex-mcq-04",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-10",
+        "complex-mcq-14",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex problem」指「複雜問題」。",
       "sentenceIndex": 3,
@@ -618,12 +604,10 @@ export default {
         "complex problem"
       ],
       "optionReasons": {
-        "complex-mcq-02": "本句指「複雜問題」。",
-        "complex-mcq-01": "「複雜的」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-02": "本句的「complex problem」指「複雜問題」。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-02"
     },
@@ -635,11 +619,9 @@ export default {
       "masked": "____ problems often require several kinds of expertise.",
       "options": [
         "complex-mcq-02",
-        "complex-mcq-01",
-        "complex-mcq-03",
-        "complex-mcq-04",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-12",
+        "complex-pdf-001",
+        "complex-mcq-14"
       ],
       "explanation": "本句的「Complex」指「複雜問題」。",
       "sentenceIndex": 4,
@@ -648,12 +630,10 @@ export default {
         "Complex"
       ],
       "optionReasons": {
-        "complex-mcq-02": "本句指「複雜問題」。",
-        "complex-mcq-01": "「複雜的」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-02": "本句的「Complex」指「複雜問題」。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-02"
     },
@@ -665,11 +645,9 @@ export default {
       "masked": "Workplace fairness is a ____.",
       "options": [
         "complex-mcq-03",
-        "complex-mcq-02",
-        "complex-mcq-04",
-        "complex-mcq-01",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-10",
+        "complex-mcq-14",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「complex issue」指「複雜議題」。",
       "sentenceIndex": 5,
@@ -678,12 +656,10 @@ export default {
         "complex issue"
       ],
       "optionReasons": {
-        "complex-mcq-03": "本句指「複雜議題」。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-01": "「複雜的」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-03": "本句的「complex issue」指「複雜議題」。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-03"
     },
@@ -695,11 +671,9 @@ export default {
       "masked": "The report examines a number of ____.",
       "options": [
         "complex-mcq-03",
-        "complex-mcq-02",
-        "complex-mcq-04",
-        "complex-mcq-01",
-        "complex-mcq-05",
-        "complex-mcq-06"
+        "complex-mcq-14",
+        "complex-mcq-11",
+        "complex-mcq-12"
       ],
       "explanation": "本句的「complex issues」指「複雜議題」。",
       "sentenceIndex": 6,
@@ -708,12 +682,10 @@ export default {
         "complex issues"
       ],
       "optionReasons": {
-        "complex-mcq-03": "本句指「複雜議題」。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-01": "「複雜的」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-03": "本句的「complex issues」指「複雜議題」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-03"
     },
@@ -725,11 +697,9 @@ export default {
       "masked": "The human body is an extremely ____.",
       "options": [
         "complex-mcq-04",
-        "complex-mcq-03",
-        "complex-mcq-05",
-        "complex-mcq-02",
-        "complex-mcq-06",
-        "complex-mcq-01"
+        "complex-mcq-12",
+        "complex-mcq-11",
+        "complex-mcq-14"
       ],
       "explanation": "本句的「complex system」指「複雜系統」。",
       "sentenceIndex": 7,
@@ -738,12 +708,10 @@ export default {
         "complex system"
       ],
       "optionReasons": {
-        "complex-mcq-04": "本句指「複雜系統」。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-01": "「複雜的」與本句語境不同。"
+        "complex-mcq-04": "本句的「complex system」指「複雜系統」。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-04"
     },
@@ -755,11 +723,9 @@ export default {
       "masked": "Modern supply chains are highly ____.",
       "options": [
         "complex-mcq-04",
-        "complex-mcq-03",
-        "complex-mcq-05",
-        "complex-mcq-02",
-        "complex-mcq-06",
-        "complex-mcq-01"
+        "complex-pdf-001",
+        "complex-mcq-11",
+        "complex-mcq-09"
       ],
       "explanation": "本句的「complex」指「複雜系統」。",
       "sentenceIndex": 8,
@@ -768,12 +734,10 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-04": "本句指「複雜系統」。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-01": "「複雜的」與本句語境不同。"
+        "complex-mcq-04": "本句的「complex」指「複雜系統」。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-04"
     },
@@ -785,11 +749,9 @@ export default {
       "masked": "Hiring is often a ____.",
       "options": [
         "complex-mcq-05",
-        "complex-mcq-04",
-        "complex-mcq-06",
-        "complex-mcq-03",
-        "complex-mcq-07",
-        "complex-mcq-02"
+        "complex-mcq-08",
+        "complex-mcq-14",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex process」指「複雜過程」。",
       "sentenceIndex": 9,
@@ -798,12 +760,10 @@ export default {
         "complex process"
       ],
       "optionReasons": {
-        "complex-mcq-05": "本句指「複雜過程」。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。"
+        "complex-mcq-05": "本句的「complex process」指「複雜過程」。",
+        "complex-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-05"
     },
@@ -815,11 +775,9 @@ export default {
       "masked": "The application involves several ____.",
       "options": [
         "complex-mcq-05",
-        "complex-mcq-04",
-        "complex-mcq-06",
-        "complex-mcq-03",
-        "complex-mcq-07",
-        "complex-mcq-02"
+        "complex-mcq-09",
+        "complex-mcq-15",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex processes」指「複雜過程」。",
       "sentenceIndex": 10,
@@ -828,12 +786,10 @@ export default {
         "complex processes"
       ],
       "optionReasons": {
-        "complex-mcq-05": "本句指「複雜過程」。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-02": "「複雜問題」與本句語境不同。"
+        "complex-mcq-05": "本句的「complex processes」指「複雜過程」。",
+        "complex-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-05"
     },
@@ -845,11 +801,9 @@ export default {
       "masked": "The two departments have a ____.",
       "options": [
         "complex-mcq-06",
-        "complex-mcq-05",
-        "complex-mcq-07",
-        "complex-mcq-04",
-        "complex-mcq-08",
-        "complex-mcq-03"
+        "complex-mcq-15",
+        "complex-mcq-10",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「complex relationship」指「複雜關係」。",
       "sentenceIndex": 11,
@@ -858,12 +812,10 @@ export default {
         "complex relationship"
       ],
       "optionReasons": {
-        "complex-mcq-06": "本句指「複雜關係」。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。"
+        "complex-mcq-06": "本句的「complex relationship」指「複雜關係」。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-06"
     },
@@ -875,11 +827,9 @@ export default {
       "masked": "There is a ____ between stress and performance.",
       "options": [
         "complex-mcq-06",
-        "complex-mcq-05",
-        "complex-mcq-07",
-        "complex-mcq-04",
-        "complex-mcq-08",
-        "complex-mcq-03"
+        "complex-mcq-11",
+        "complex-mcq-12",
+        "complex-mcq-14"
       ],
       "explanation": "本句的「complex relationship」指「複雜關係」。",
       "sentenceIndex": 12,
@@ -888,12 +838,10 @@ export default {
         "complex relationship"
       ],
       "optionReasons": {
-        "complex-mcq-06": "本句指「複雜關係」。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-03": "「複雜議題」與本句語境不同。"
+        "complex-mcq-06": "本句的「complex relationship」指「複雜關係」。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-06"
     },
@@ -905,11 +853,9 @@ export default {
       "masked": "Modern workplaces are becoming ____.",
       "options": [
         "complex-mcq-07",
-        "complex-mcq-06",
-        "complex-mcq-08",
-        "complex-mcq-05",
-        "complex-mcq-09",
-        "complex-mcq-04"
+        "complex-mcq-14",
+        "complex-pdf-001",
+        "complex-mcq-12"
       ],
       "explanation": "本句的「increasingly complex」指「愈來愈複雜」。",
       "sentenceIndex": 13,
@@ -918,12 +864,10 @@ export default {
         "increasingly complex"
       ],
       "optionReasons": {
-        "complex-mcq-07": "本句指「愈來愈複雜」。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。"
+        "complex-mcq-07": "本句的「increasingly complex」指「愈來愈複雜」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-07"
     },
@@ -935,11 +879,9 @@ export default {
       "masked": "The project became ____ as more teams joined.",
       "options": [
         "complex-mcq-07",
-        "complex-mcq-06",
-        "complex-mcq-08",
-        "complex-mcq-05",
-        "complex-mcq-09",
-        "complex-mcq-04"
+        "complex-mcq-14",
+        "complex-pdf-001",
+        "complex-mcq-12"
       ],
       "explanation": "本句的「increasingly complex」指「愈來愈複雜」。",
       "sentenceIndex": 14,
@@ -948,12 +890,10 @@ export default {
         "increasingly complex"
       ],
       "optionReasons": {
-        "complex-mcq-07": "本句指「愈來愈複雜」。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。"
+        "complex-mcq-07": "本句的「increasingly complex」指「愈來愈複雜」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-07"
     },
@@ -965,11 +905,9 @@ export default {
       "masked": "This is a ____ technical problem.",
       "options": [
         "complex-pdf-001",
-        "complex-mcq-06",
-        "complex-mcq-08",
-        "complex-mcq-05",
-        "complex-mcq-09",
-        "complex-mcq-04"
+        "complex-mcq-07",
+        "complex-mcq-22",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「highly complex」指「涉及非常多元素或關係，因此特別難處理的」。",
       "sentenceIndex": 15,
@@ -978,12 +916,10 @@ export default {
         "highly complex"
       ],
       "optionReasons": {
-        "complex-pdf-001": "本句指「涉及非常多元素或關係，因此特別難處理的」。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。"
+        "complex-pdf-001": "本句的「highly complex」指「涉及非常多元素或關係，因此特別難處理的」。",
+        "complex-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-pdf-001"
     },
@@ -995,11 +931,9 @@ export default {
       "masked": "The organisation has a ____ structure.",
       "options": [
         "complex-pdf-001",
-        "complex-mcq-06",
-        "complex-mcq-08",
-        "complex-mcq-05",
-        "complex-mcq-09",
-        "complex-mcq-04"
+        "complex-mcq-18",
+        "complex-mcq-14",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「highly complex」指「涉及非常多元素或關係，因此特別難處理的」。",
       "sentenceIndex": 16,
@@ -1008,12 +942,10 @@ export default {
         "highly complex"
       ],
       "optionReasons": {
-        "complex-pdf-001": "本句指「涉及非常多元素或關係，因此特別難處理的」。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-04": "「複雜系統」與本句語境不同。"
+        "complex-pdf-001": "本句的「highly complex」指「涉及非常多元素或關係，因此特別難處理的」。",
+        "complex-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-pdf-001"
     },
@@ -1025,11 +957,8 @@ export default {
       "masked": "The company moved into a new office ____.",
       "options": [
         "complex-mcq-08",
-        "complex-mcq-07",
-        "complex-mcq-09",
         "complex-mcq-06",
-        "complex-mcq-10",
-        "complex-mcq-05"
+        "complex-mcq-14"
       ],
       "explanation": "本句的「complex」指「建築群；綜合設施」。",
       "sentenceIndex": 17,
@@ -1038,12 +967,9 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-08": "本句指「建築群；綜合設施」。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。"
+        "complex-mcq-08": "本句的「complex」指「建築群；綜合設施」。",
+        "complex-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-08"
     },
@@ -1055,11 +981,9 @@ export default {
       "masked": "The hotel is part of a larger leisure ____.",
       "options": [
         "complex-mcq-08",
-        "complex-mcq-07",
-        "complex-mcq-09",
-        "complex-mcq-06",
-        "complex-mcq-10",
-        "complex-mcq-05"
+        "complex-mcq-02",
+        "complex-pdf-001",
+        "complex-mcq-14"
       ],
       "explanation": "本句的「complex」指「建築群；綜合設施」。",
       "sentenceIndex": 18,
@@ -1068,12 +992,10 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-08": "本句指「建築群；綜合設施」。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-05": "「複雜過程」與本句語境不同。"
+        "complex-mcq-08": "本句的「complex」指「建築群；綜合設施」。",
+        "complex-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-08"
     },
@@ -1085,11 +1007,9 @@ export default {
       "masked": "A new ____ opened near the station.",
       "options": [
         "complex-mcq-09",
-        "complex-mcq-08",
-        "complex-mcq-10",
-        "complex-mcq-07",
         "complex-mcq-11",
-        "complex-mcq-06"
+        "complex-mcq-04",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「shopping complex」指「購物綜合設施」。",
       "sentenceIndex": 19,
@@ -1098,12 +1018,10 @@ export default {
         "shopping complex"
       ],
       "optionReasons": {
-        "complex-mcq-09": "本句指「購物綜合設施」。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-09": "本句的「shopping complex」指「購物綜合設施」。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-09"
     },
@@ -1115,11 +1033,9 @@ export default {
       "masked": "The ____ includes restaurants and cinemas.",
       "options": [
         "complex-mcq-09",
-        "complex-mcq-08",
-        "complex-mcq-10",
-        "complex-mcq-07",
-        "complex-mcq-11",
-        "complex-mcq-06"
+        "complex-mcq-16",
+        "complex-mcq-14",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「shopping complex」指「購物綜合設施」。",
       "sentenceIndex": 20,
@@ -1128,12 +1044,10 @@ export default {
         "shopping complex"
       ],
       "optionReasons": {
-        "complex-mcq-09": "本句指「購物綜合設施」。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。",
-        "complex-mcq-06": "「複雜關係」與本句語境不同。"
+        "complex-mcq-09": "本句的「shopping complex」指「購物綜合設施」。",
+        "complex-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-09"
     },
@@ -1145,11 +1059,9 @@ export default {
       "masked": "The university has a large ____.",
       "options": [
         "complex-mcq-10",
-        "complex-mcq-09",
+        "complex-mcq-01",
         "complex-mcq-11",
-        "complex-mcq-08",
-        "complex-mcq-12",
-        "complex-mcq-07"
+        "complex-mcq-14"
       ],
       "explanation": "本句的「sports complex」指「體育綜合設施」。",
       "sentenceIndex": 21,
@@ -1158,12 +1070,10 @@ export default {
         "sports complex"
       ],
       "optionReasons": {
-        "complex-mcq-10": "本句指「體育綜合設施」。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。"
+        "complex-mcq-10": "本句的「sports complex」指「體育綜合設施」。",
+        "complex-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-10"
     },
@@ -1175,11 +1085,9 @@ export default {
       "masked": "The new ____ includes a pool and several courts.",
       "options": [
         "complex-mcq-10",
-        "complex-mcq-09",
-        "complex-mcq-11",
-        "complex-mcq-08",
-        "complex-mcq-12",
-        "complex-mcq-07"
+        "complex-mcq-02",
+        "complex-mcq-15",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「sports complex」指「體育綜合設施」。",
       "sentenceIndex": 22,
@@ -1188,12 +1096,10 @@ export default {
         "sports complex"
       ],
       "optionReasons": {
-        "complex-mcq-10": "本句指「體育綜合設施」。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。",
-        "complex-mcq-07": "「愈來愈複雜」與本句語境不同。"
+        "complex-mcq-10": "本句的「sports complex」指「體育綜合設施」。",
+        "complex-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-10"
     },
@@ -1205,11 +1111,9 @@ export default {
       "masked": "They live in a modern ____.",
       "options": [
         "complex-mcq-11",
-        "complex-mcq-10",
-        "complex-mcq-12",
-        "complex-mcq-09",
-        "complex-mcq-13",
-        "complex-mcq-08"
+        "complex-mcq-21",
+        "complex-mcq-15",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「residential complex」指「住宅屋苑／建築群」。",
       "sentenceIndex": 23,
@@ -1218,12 +1122,10 @@ export default {
         "residential complex"
       ],
       "optionReasons": {
-        "complex-mcq-11": "本句指「住宅屋苑／建築群」。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。"
+        "complex-mcq-11": "本句的「residential complex」指「住宅屋苑／建築群」。",
+        "complex-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-11"
     },
@@ -1235,11 +1137,9 @@ export default {
       "masked": "The ____ contains six apartment blocks.",
       "options": [
         "complex-mcq-11",
-        "complex-mcq-10",
-        "complex-mcq-12",
-        "complex-mcq-09",
-        "complex-mcq-13",
-        "complex-mcq-08"
+        "complex-mcq-01",
+        "complex-pdf-001",
+        "complex-mcq-12"
       ],
       "explanation": "本句的「residential complex」指「住宅屋苑／建築群」。",
       "sentenceIndex": 24,
@@ -1248,12 +1148,10 @@ export default {
         "residential complex"
       ],
       "optionReasons": {
-        "complex-mcq-11": "本句指「住宅屋苑／建築群」。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-08": "「建築群；綜合設施」與本句語境不同。"
+        "complex-mcq-11": "本句的「residential complex」指「住宅屋苑／建築群」。",
+        "complex-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-11"
     },
@@ -1265,11 +1163,9 @@ export default {
       "masked": "The factory is part of a large ____.",
       "options": [
         "complex-mcq-12",
-        "complex-mcq-11",
-        "complex-mcq-13",
-        "complex-mcq-10",
+        "complex-mcq-19",
         "complex-mcq-14",
-        "complex-mcq-09"
+        "complex-pdf-001"
       ],
       "explanation": "本句的「industrial complex」指「工業綜合區」。",
       "sentenceIndex": 25,
@@ -1278,12 +1174,10 @@ export default {
         "industrial complex"
       ],
       "optionReasons": {
-        "complex-mcq-12": "本句指「工業綜合區」。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。"
+        "complex-mcq-12": "本句的「industrial complex」指「工業綜合區」。",
+        "complex-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-12"
     },
@@ -1295,11 +1189,9 @@ export default {
       "masked": "The ____ employs thousands of workers.",
       "options": [
         "complex-mcq-12",
-        "complex-mcq-11",
-        "complex-mcq-13",
-        "complex-mcq-10",
-        "complex-mcq-14",
-        "complex-mcq-09"
+        "complex-mcq-07",
+        "complex-mcq-15",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「industrial complex」指「工業綜合區」。",
       "sentenceIndex": 26,
@@ -1308,12 +1200,10 @@ export default {
         "industrial complex"
       ],
       "optionReasons": {
-        "complex-mcq-12": "本句指「工業綜合區」。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-10": "「體育綜合設施」與本句語境不同。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。",
-        "complex-mcq-09": "「購物綜合設施」與本句語境不同。"
+        "complex-mcq-12": "本句的「industrial complex」指「工業綜合區」。",
+        "complex-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-12"
     },
@@ -1325,10 +1215,8 @@ export default {
       "masked": "He developed an ____ at school.",
       "options": [
         "complex-mcq-14",
-        "complex-mcq-13",
-        "complex-mcq-15",
-        "complex-mcq-12",
         "complex-mcq-16",
+        "complex-mcq-09",
         "complex-mcq-11"
       ],
       "explanation": "本句的「inferiority complex」指「自卑情結」。",
@@ -1338,12 +1226,10 @@ export default {
         "inferiority complex"
       ],
       "optionReasons": {
-        "complex-mcq-14": "本句指「自卑情結」。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。"
+        "complex-mcq-14": "本句的「inferiority complex」指「自卑情結」。",
+        "complex-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-14"
     },
@@ -1355,11 +1241,9 @@ export default {
       "masked": "An ____ can affect confidence.",
       "options": [
         "complex-mcq-14",
-        "complex-mcq-13",
-        "complex-mcq-15",
-        "complex-mcq-12",
         "complex-mcq-16",
-        "complex-mcq-11"
+        "complex-pdf-001",
+        "complex-mcq-09"
       ],
       "explanation": "本句的「inferiority complex」指「自卑情結」。",
       "sentenceIndex": 32,
@@ -1368,12 +1252,10 @@ export default {
         "inferiority complex"
       ],
       "optionReasons": {
-        "complex-mcq-14": "本句指「自卑情結」。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-11": "「住宅屋苑／建築群」與本句語境不同。"
+        "complex-mcq-14": "本句的「inferiority complex」指「自卑情結」。",
+        "complex-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-14"
     },
@@ -1385,11 +1267,9 @@ export default {
       "masked": "His behaviour made him seem to have a ____.",
       "options": [
         "complex-mcq-15",
-        "complex-mcq-14",
-        "complex-mcq-16",
-        "complex-mcq-13",
-        "complex-mcq-17",
-        "complex-mcq-12"
+        "complex-pdf-001",
+        "complex-mcq-02",
+        "complex-mcq-10"
       ],
       "explanation": "本句的「superiority complex」指「優越情結」。",
       "sentenceIndex": 33,
@@ -1398,12 +1278,10 @@ export default {
         "superiority complex"
       ],
       "optionReasons": {
-        "complex-mcq-15": "本句指「優越情結」。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。"
+        "complex-mcq-15": "本句的「superiority complex」指「優越情結」。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-15"
     },
@@ -1415,11 +1293,9 @@ export default {
       "masked": "A ____ can make teamwork difficult.",
       "options": [
         "complex-mcq-15",
-        "complex-mcq-14",
-        "complex-mcq-16",
-        "complex-mcq-13",
-        "complex-mcq-17",
-        "complex-mcq-12"
+        "complex-mcq-10",
+        "complex-mcq-19",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「superiority complex」指「優越情結」。",
       "sentenceIndex": 34,
@@ -1428,12 +1304,10 @@ export default {
         "superiority complex"
       ],
       "optionReasons": {
-        "complex-mcq-15": "本句指「優越情結」。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-12": "「工業綜合區」與本句語境不同。"
+        "complex-mcq-15": "本句的「superiority complex」指「優越情結」。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-15"
     },
@@ -1445,11 +1319,9 @@ export default {
       "masked": "The ____ of the problem requires teamwork.",
       "options": [
         "complex-mcq-16",
+        "complex-pdf-001",
         "complex-mcq-15",
-        "complex-mcq-17",
-        "complex-mcq-14",
-        "complex-mcq-18",
-        "complex-mcq-13"
+        "complex-mcq-09"
       ],
       "explanation": "本句的「complexity」指「複雜性」。",
       "sentenceIndex": 35,
@@ -1458,12 +1330,10 @@ export default {
         "complexity"
       ],
       "optionReasons": {
-        "complex-mcq-16": "本句指「複雜性」。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。"
+        "complex-mcq-16": "本句的「complexity」指「複雜性」。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-16"
     },
@@ -1475,11 +1345,9 @@ export default {
       "masked": "Technology has increased the ____ of many jobs.",
       "options": [
         "complex-mcq-16",
-        "complex-mcq-15",
-        "complex-mcq-17",
+        "complex-mcq-08",
         "complex-mcq-14",
-        "complex-mcq-18",
-        "complex-mcq-13"
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complexity」指「複雜性」。",
       "sentenceIndex": 36,
@@ -1488,12 +1356,10 @@ export default {
         "complexity"
       ],
       "optionReasons": {
-        "complex-mcq-16": "本句指「複雜性」。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-13": "「心理情結」與本句語境不同。"
+        "complex-mcq-16": "本句的「complexity」指「複雜性」。",
+        "complex-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-16"
     },
@@ -1505,11 +1371,8 @@ export default {
       "masked": "The book explores the ____.",
       "options": [
         "complex-mcq-17",
-        "complex-mcq-16",
-        "complex-mcq-18",
-        "complex-mcq-15",
-        "complex-mcq-19",
-        "complex-mcq-14"
+        "complex-mcq-14",
+        "complex-mcq-08"
       ],
       "explanation": "本句的「complexities of human relationships」指「複雜之處」。",
       "sentenceIndex": 39,
@@ -1518,12 +1381,9 @@ export default {
         "complexities of human relationships"
       ],
       "optionReasons": {
-        "complex-mcq-17": "本句指「複雜之處」。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。"
+        "complex-mcq-17": "本句的「complexities of human relationships」指「複雜之處」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-17"
     },
@@ -1535,11 +1395,9 @@ export default {
       "masked": "New employees need time to understand the ____.",
       "options": [
         "complex-mcq-17",
-        "complex-mcq-16",
-        "complex-mcq-18",
+        "complex-mcq-11",
         "complex-mcq-15",
-        "complex-mcq-19",
-        "complex-mcq-14"
+        "complex-mcq-12"
       ],
       "explanation": "本句的「complexities of the system」指「複雜之處」。",
       "sentenceIndex": 40,
@@ -1548,12 +1406,10 @@ export default {
         "complexities of the system"
       ],
       "optionReasons": {
-        "complex-mcq-17": "本句指「複雜之處」。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-14": "「自卑情結」與本句語境不同。"
+        "complex-mcq-17": "本句的「complexities of the system」指「複雜之處」。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-17"
     },
@@ -1565,11 +1421,9 @@ export default {
       "masked": "This is a ____ containing a dependent clause.",
       "options": [
         "complex-mcq-18",
-        "complex-mcq-17",
-        "complex-mcq-19",
-        "complex-mcq-16",
-        "complex-mcq-20",
-        "complex-mcq-15"
+        "complex-pdf-001",
+        "complex-mcq-15",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「complex sentence」指「複合句」。",
       "sentenceIndex": 41,
@@ -1578,12 +1432,10 @@ export default {
         "complex sentence"
       ],
       "optionReasons": {
-        "complex-mcq-18": "本句指「複合句」。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。"
+        "complex-mcq-18": "本句的「complex sentence」指「複合句」。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-18"
     },
@@ -1595,11 +1447,9 @@ export default {
       "masked": "IELTS writing often uses both simple and ____.",
       "options": [
         "complex-mcq-18",
-        "complex-mcq-17",
-        "complex-mcq-19",
-        "complex-mcq-16",
-        "complex-mcq-20",
-        "complex-mcq-15"
+        "complex-mcq-14",
+        "complex-mcq-11",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex sentences」指「複合句」。",
       "sentenceIndex": 42,
@@ -1608,12 +1458,10 @@ export default {
         "complex sentences"
       ],
       "optionReasons": {
-        "complex-mcq-18": "本句指「複合句」。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-15": "「優越情結」與本句語境不同。"
+        "complex-mcq-18": "本句的「complex sentences」指「複合句」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-18"
     },
@@ -1625,11 +1473,9 @@ export default {
       "masked": "A ____ can contain a real and an imaginary part.",
       "options": [
         "complex-mcq-19",
-        "complex-mcq-18",
-        "complex-mcq-20",
-        "complex-mcq-17",
-        "complex-mcq-21",
-        "complex-mcq-16"
+        "complex-mcq-12",
+        "complex-mcq-14",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex number」指「複數」。",
       "sentenceIndex": 43,
@@ -1638,12 +1484,10 @@ export default {
         "complex number"
       ],
       "optionReasons": {
-        "complex-mcq-19": "本句指「複數」。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-21": "「複合體」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。"
+        "complex-mcq-19": "本句的「complex number」指「複數」。",
+        "complex-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-19"
     },
@@ -1655,11 +1499,9 @@ export default {
       "masked": "Students learn about ____ in mathematics.",
       "options": [
         "complex-mcq-19",
-        "complex-mcq-18",
-        "complex-mcq-20",
-        "complex-mcq-17",
-        "complex-mcq-21",
-        "complex-mcq-16"
+        "complex-mcq-10",
+        "complex-pdf-001",
+        "complex-mcq-15"
       ],
       "explanation": "本句的「complex numbers」指「複數」。",
       "sentenceIndex": 44,
@@ -1668,12 +1510,10 @@ export default {
         "complex numbers"
       ],
       "optionReasons": {
-        "complex-mcq-19": "本句指「複數」。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。",
-        "complex-mcq-21": "「複合體」與本句語境不同。",
-        "complex-mcq-16": "「複雜性」與本句語境不同。"
+        "complex-mcq-19": "本句的「complex numbers」指「複數」。",
+        "complex-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-19"
     },
@@ -1685,11 +1525,9 @@ export default {
       "masked": "Whole grains contain ____.",
       "options": [
         "complex-mcq-20",
-        "complex-mcq-19",
-        "complex-mcq-21",
-        "complex-mcq-18",
-        "complex-mcq-22",
-        "complex-mcq-17"
+        "complex-mcq-14",
+        "complex-pdf-001",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「complex carbohydrates」指「複合碳水化合物」。",
       "sentenceIndex": 45,
@@ -1698,12 +1536,10 @@ export default {
         "complex carbohydrates"
       ],
       "optionReasons": {
-        "complex-mcq-20": "本句指「複合碳水化合物」。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-21": "「複合體」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-22": "「蛋白質複合體」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。"
+        "complex-mcq-20": "本句的「complex carbohydrates」指「複合碳水化合物」。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-20"
     },
@@ -1715,11 +1551,9 @@ export default {
       "masked": "Foods rich in ____ are often digested more slowly.",
       "options": [
         "complex-mcq-20",
-        "complex-mcq-19",
-        "complex-mcq-21",
-        "complex-mcq-18",
-        "complex-mcq-22",
-        "complex-mcq-17"
+        "complex-mcq-11",
+        "complex-mcq-15",
+        "complex-pdf-001"
       ],
       "explanation": "本句的「complex carbohydrates」指「複合碳水化合物」。",
       "sentenceIndex": 46,
@@ -1728,12 +1562,10 @@ export default {
         "complex carbohydrates"
       ],
       "optionReasons": {
-        "complex-mcq-20": "本句指「複合碳水化合物」。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-21": "「複合體」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-22": "「蛋白質複合體」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。"
+        "complex-mcq-20": "本句的「complex carbohydrates」指「複合碳水化合物」。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-20"
     },
@@ -1745,11 +1577,9 @@ export default {
       "masked": "The proteins form a ____.",
       "options": [
         "complex-mcq-21",
-        "complex-mcq-20",
-        "complex-mcq-22",
-        "complex-mcq-19",
-        "complex-mcq-18",
-        "complex-mcq-17"
+        "complex-mcq-11",
+        "complex-pdf-001",
+        "complex-mcq-14"
       ],
       "explanation": "本句的「complex」指「複合體」。",
       "sentenceIndex": 47,
@@ -1758,12 +1588,10 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-21": "本句指「複合體」。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-22": "「蛋白質複合體」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。"
+        "complex-mcq-21": "本句的「complex」指「複合體」。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-21"
     },
@@ -1775,11 +1603,9 @@ export default {
       "masked": "Scientists studied the structure of the molecular ____.",
       "options": [
         "complex-mcq-21",
-        "complex-mcq-20",
-        "complex-mcq-22",
-        "complex-mcq-19",
-        "complex-mcq-18",
-        "complex-mcq-17"
+        "complex-mcq-11",
+        "complex-pdf-001",
+        "complex-mcq-15"
       ],
       "explanation": "本句的「complex」指「複合體」。",
       "sentenceIndex": 48,
@@ -1788,12 +1614,10 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-21": "本句指「複合體」。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-22": "「蛋白質複合體」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。"
+        "complex-mcq-21": "本句的「complex」指「複合體」。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-21"
     },
@@ -1805,11 +1629,9 @@ export default {
       "masked": "The ____ controls part of the process.",
       "options": [
         "complex-mcq-22",
-        "complex-mcq-21",
-        "complex-mcq-20",
-        "complex-mcq-19",
-        "complex-mcq-18",
-        "complex-mcq-17"
+        "complex-pdf-001",
+        "complex-mcq-11",
+        "complex-mcq-15"
       ],
       "explanation": "本句的「protein complex」指「蛋白質複合體」。",
       "sentenceIndex": 49,
@@ -1818,12 +1640,10 @@ export default {
         "protein complex"
       ],
       "optionReasons": {
-        "complex-mcq-22": "本句指「蛋白質複合體」。",
-        "complex-mcq-21": "「複合體」與本句語境不同。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。"
+        "complex-mcq-22": "本句的「protein complex」指「蛋白質複合體」。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-22"
     },
@@ -1835,11 +1655,9 @@ export default {
       "masked": "Several proteins combine to form the ____.",
       "options": [
         "complex-mcq-22",
-        "complex-mcq-21",
-        "complex-mcq-20",
-        "complex-mcq-19",
-        "complex-mcq-18",
-        "complex-mcq-17"
+        "complex-pdf-001",
+        "complex-mcq-15",
+        "complex-mcq-11"
       ],
       "explanation": "本句的「complex」指「蛋白質複合體」。",
       "sentenceIndex": 50,
@@ -1848,12 +1666,10 @@ export default {
         "complex"
       ],
       "optionReasons": {
-        "complex-mcq-22": "本句指「蛋白質複合體」。",
-        "complex-mcq-21": "「複合體」與本句語境不同。",
-        "complex-mcq-20": "「複合碳水化合物」與本句語境不同。",
-        "complex-mcq-19": "「複數」與本句語境不同。",
-        "complex-mcq-18": "「複合句」與本句語境不同。",
-        "complex-mcq-17": "「複雜之處」與本句語境不同。"
+        "complex-mcq-22": "本句的「complex」指「蛋白質複合體」。",
+        "complex-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "complex-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "complex-mcq-22"
     }
@@ -1865,5 +1681,7 @@ export default {
     "sha256": "0cd03cc6cf4976b452019ec6fe9bfa03ae988448ffbab178906cf9c595c0f6bb",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

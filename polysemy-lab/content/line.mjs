@@ -1076,11 +1076,9 @@ export default {
       "masked": "Draw a straight ____ across the paper.",
       "options": [
         "line-mcq-01",
-        "line-mcq-02",
-        "line-mcq-03",
-        "line-mcq-04",
-        "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-39",
+        "line-mcq-40",
+        "line-mcq-04"
       ],
       "explanation": "本句的「line」指「在表面上延伸的狹長線條；線」。",
       "sentenceIndex": 2,
@@ -1089,12 +1087,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-01": "本句指「在表面上延伸的狹長線條；線」。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-01": "本句的「line」指「在表面上延伸的狹長線條；線」。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-01"
     },
@@ -1106,11 +1102,9 @@ export default {
       "masked": "There was a thin black ____ on the wall.",
       "options": [
         "line-mcq-01",
-        "line-mcq-02",
-        "line-mcq-03",
-        "line-mcq-04",
-        "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-45",
+        "line-mcq-44",
+        "line-mcq-29"
       ],
       "explanation": "本句的「line」指「在表面上延伸的狹長線條；線」。",
       "sentenceIndex": 3,
@@ -1119,12 +1113,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-01": "本句指「在表面上延伸的狹長線條；線」。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-01": "本句的「line」指「在表面上延伸的狹長線條；線」。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-01"
     },
@@ -1136,11 +1128,9 @@ export default {
       "masked": "Do not cross the yellow ____.",
       "options": [
         "line-mcq-02",
-        "line-mcq-01",
-        "line-mcq-03",
-        "line-mcq-04",
-        "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-43",
+        "line-mcq-06",
+        "line-mcq-40"
       ],
       "explanation": "本句的「line」指「分隔兩個區域或範圍的界線」。",
       "sentenceIndex": 4,
@@ -1149,12 +1139,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-02": "本句指「分隔兩個區域或範圍的界線」。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-02": "本句的「line」指「分隔兩個區域或範圍的界線」。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-02"
     },
@@ -1166,11 +1154,9 @@ export default {
       "masked": "The ball landed just outside the ____.",
       "options": [
         "line-mcq-02",
-        "line-mcq-01",
-        "line-mcq-03",
-        "line-mcq-04",
-        "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-42",
+        "line-mcq-46",
+        "line-mcq-23"
       ],
       "explanation": "本句的「line」指「分隔兩個區域或範圍的界線」。",
       "sentenceIndex": 5,
@@ -1179,12 +1165,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-02": "本句指「分隔兩個區域或範圍的界線」。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-02": "本句的「line」指「分隔兩個區域或範圍的界線」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-02"
     },
@@ -1196,11 +1180,9 @@ export default {
       "masked": "Write your answer on the next ____.",
       "options": [
         "line-mcq-03",
-        "line-mcq-02",
-        "line-mcq-04",
-        "line-mcq-01",
+        "line-mcq-25",
         "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-22"
       ],
       "explanation": "本句的「line」指「一行書寫或印刷文字」。",
       "sentenceIndex": 6,
@@ -1209,12 +1191,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-03": "本句指「一行書寫或印刷文字」。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-03": "本句的「line」指「一行書寫或印刷文字」。",
+        "line-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-03"
     },
@@ -1226,11 +1206,9 @@ export default {
       "masked": "I accidentally skipped a ____ while reading.",
       "options": [
         "line-mcq-03",
-        "line-mcq-02",
-        "line-mcq-04",
-        "line-mcq-01",
         "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-24",
+        "line-mcq-45"
       ],
       "explanation": "本句的「line」指「一行書寫或印刷文字」。",
       "sentenceIndex": 7,
@@ -1239,12 +1217,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-03": "本句指「一行書寫或印刷文字」。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-03": "本句的「line」指「一行書寫或印刷文字」。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-03"
     },
@@ -1256,11 +1232,9 @@ export default {
       "masked": "Add a ____ after the heading.",
       "options": [
         "line-mcq-03",
-        "line-mcq-02",
-        "line-mcq-04",
         "line-mcq-01",
-        "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-45",
+        "line-mcq-13"
       ],
       "explanation": "本句的「line break」指「一行書寫或印刷文字」。",
       "sentenceIndex": 8,
@@ -1269,12 +1243,10 @@ export default {
         "line break"
       ],
       "optionReasons": {
-        "line-mcq-03": "本句指「一行書寫或印刷文字」。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-03": "本句的「line break」指「一行書寫或印刷文字」。",
+        "line-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-03"
     },
@@ -1286,11 +1258,9 @@ export default {
       "masked": "The poem uses unusual ____.",
       "options": [
         "line-mcq-03",
+        "line-mcq-39",
         "line-mcq-02",
-        "line-mcq-04",
-        "line-mcq-01",
-        "line-mcq-05",
-        "line-mcq-06"
+        "line-mcq-20"
       ],
       "explanation": "本句的「line breaks」指「一行書寫或印刷文字」。",
       "sentenceIndex": 9,
@@ -1299,12 +1269,10 @@ export default {
         "line breaks"
       ],
       "optionReasons": {
-        "line-mcq-03": "本句指「一行書寫或印刷文字」。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。"
+        "line-mcq-03": "本句的「line breaks」指「一行書寫或印刷文字」。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-03"
     },
@@ -1316,11 +1284,9 @@ export default {
       "masked": "I still remember one ____ from her speech.",
       "options": [
         "line-mcq-04",
-        "line-mcq-03",
-        "line-mcq-05",
-        "line-mcq-02",
-        "line-mcq-06",
-        "line-mcq-01"
+        "line-mcq-42",
+        "line-mcq-22",
+        "line-mcq-39"
       ],
       "explanation": "本句的「line」指「某人說或寫的一句話／語句」。",
       "sentenceIndex": 10,
@@ -1329,12 +1295,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-04": "本句指「某人說或寫的一句話／語句」。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。"
+        "line-mcq-04": "本句的「line」指「某人說或寫的一句話／語句」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-04"
     },
@@ -1346,11 +1310,9 @@ export default {
       "masked": "That ____ perfectly captured how I felt.",
       "options": [
         "line-mcq-04",
-        "line-mcq-03",
-        "line-mcq-05",
-        "line-mcq-02",
-        "line-mcq-06",
-        "line-mcq-01"
+        "line-mcq-22",
+        "line-mcq-20",
+        "line-mcq-17"
       ],
       "explanation": "本句的「line」指「某人說或寫的一句話／語句」。",
       "sentenceIndex": 11,
@@ -1359,12 +1321,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-04": "本句指「某人說或寫的一句話／語句」。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-01": "「在表面上延伸的狹長線條；線」與本句語境不同。"
+        "line-mcq-04": "本句的「line」指「某人說或寫的一句話／語句」。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-04"
     },
@@ -1376,11 +1336,9 @@ export default {
       "masked": "The actor forgot his ____.",
       "options": [
         "line-mcq-05",
-        "line-mcq-04",
-        "line-mcq-06",
-        "line-mcq-03",
-        "line-mcq-07",
-        "line-mcq-02"
+        "line-mcq-02",
+        "line-mcq-12",
+        "line-mcq-27"
       ],
       "explanation": "本句的「lines」指「演員或角色需要說的一句台詞」。",
       "sentenceIndex": 12,
@@ -1389,12 +1347,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-05": "本句指「演員或角色需要說的一句台詞」。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。"
+        "line-mcq-05": "本句的「lines」指「演員或角色需要說的一句台詞」。",
+        "line-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-05"
     },
@@ -1406,11 +1362,9 @@ export default {
       "masked": "She only had three ____ in the film.",
       "options": [
         "line-mcq-05",
-        "line-mcq-04",
-        "line-mcq-06",
-        "line-mcq-03",
-        "line-mcq-07",
-        "line-mcq-02"
+        "line-mcq-17",
+        "line-mcq-30",
+        "line-mcq-40"
       ],
       "explanation": "本句的「lines」指「演員或角色需要說的一句台詞」。",
       "sentenceIndex": 13,
@@ -1419,12 +1373,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-05": "本句指「演員或角色需要說的一句台詞」。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。"
+        "line-mcq-05": "本句的「lines」指「演員或角色需要說的一句台詞」。",
+        "line-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-05"
     },
@@ -1436,11 +1388,9 @@ export default {
       "masked": "I need to ____ before rehearsal.",
       "options": [
         "line-mcq-05",
-        "line-mcq-04",
-        "line-mcq-06",
-        "line-mcq-03",
-        "line-mcq-07",
-        "line-mcq-02"
+        "line-mcq-26",
+        "line-mcq-21",
+        "line-mcq-32"
       ],
       "explanation": "本句的「learn my lines」指「演員或角色需要說的一句台詞」。",
       "sentenceIndex": 14,
@@ -1449,12 +1399,10 @@ export default {
         "learn my lines"
       ],
       "optionReasons": {
-        "line-mcq-05": "本句指「演員或角色需要說的一句台詞」。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。"
+        "line-mcq-05": "本句的「learn my lines」指「演員或角色需要說的一句台詞」。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-05"
     },
@@ -1466,11 +1414,9 @@ export default {
       "masked": "He struggled to ____.",
       "options": [
         "line-mcq-05",
-        "line-mcq-04",
-        "line-mcq-06",
-        "line-mcq-03",
-        "line-mcq-07",
-        "line-mcq-02"
+        "line-mcq-32",
+        "line-mcq-28",
+        "line-mcq-20"
       ],
       "explanation": "本句的「remember his lines」指「演員或角色需要說的一句台詞」。",
       "sentenceIndex": 15,
@@ -1479,12 +1425,10 @@ export default {
         "remember his lines"
       ],
       "optionReasons": {
-        "line-mcq-05": "本句指「演員或角色需要說的一句台詞」。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-02": "「分隔兩個區域或範圍的界線」與本句語境不同。"
+        "line-mcq-05": "本句的「remember his lines」指「演員或角色需要說的一句台詞」。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-05"
     },
@@ -1496,10 +1440,8 @@ export default {
       "masked": "We ____ for tickets.",
       "options": [
         "line-mcq-06",
-        "line-mcq-05",
-        "line-mcq-07",
-        "line-mcq-04",
-        "line-mcq-08",
+        "line-mcq-19",
+        "line-mcq-45",
         "line-mcq-03"
       ],
       "explanation": "本句的「stood in line」指「排隊等候的人群／隊伍，尤其美式」。",
@@ -1509,12 +1451,10 @@ export default {
         "stood in line"
       ],
       "optionReasons": {
-        "line-mcq-06": "本句指「排隊等候的人群／隊伍，尤其美式」。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-08": "「排成一列／排隊」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。"
+        "line-mcq-06": "本句的「stood in line」指「排隊等候的人群／隊伍，尤其美式」。",
+        "line-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-06"
     },
@@ -1526,11 +1466,9 @@ export default {
       "masked": "You’ll have to ____.",
       "options": [
         "line-mcq-06",
-        "line-mcq-05",
-        "line-mcq-07",
-        "line-mcq-04",
-        "line-mcq-08",
-        "line-mcq-03"
+        "line-mcq-20",
+        "line-mcq-42",
+        "line-mcq-44"
       ],
       "explanation": "本句的「wait in line」指「排隊等候的人群／隊伍，尤其美式」。",
       "sentenceIndex": 19,
@@ -1539,12 +1477,10 @@ export default {
         "wait in line"
       ],
       "optionReasons": {
-        "line-mcq-06": "本句指「排隊等候的人群／隊伍，尤其美式」。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-04": "「某人說或寫的一句話／語句」與本句語境不同。",
-        "line-mcq-08": "「排成一列／排隊」與本句語境不同。",
-        "line-mcq-03": "「一行書寫或印刷文字」與本句語境不同。"
+        "line-mcq-06": "本句的「wait in line」指「排隊等候的人群／隊伍，尤其美式」。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-06"
     },
@@ -1556,11 +1492,9 @@ export default {
       "masked": "A ____ bordered the road.",
       "options": [
         "line-mcq-08",
-        "line-mcq-07",
-        "line-mcq-09",
-        "line-mcq-06",
-        "line-mcq-10",
-        "line-mcq-05"
+        "line-mcq-27",
+        "line-mcq-29",
+        "line-mcq-39"
       ],
       "explanation": "本句的「line of trees」指「排成一列／排隊」。",
       "sentenceIndex": 20,
@@ -1569,12 +1503,10 @@ export default {
         "line of trees"
       ],
       "optionReasons": {
-        "line-mcq-08": "本句指「排成一列／排隊」。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。"
+        "line-mcq-08": "本句的「line of trees」指「排成一列／排隊」。",
+        "line-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-08"
     },
@@ -1586,11 +1518,9 @@ export default {
       "masked": "The children stood in a ____.",
       "options": [
         "line-mcq-08",
-        "line-mcq-07",
-        "line-mcq-09",
-        "line-mcq-06",
-        "line-mcq-10",
-        "line-mcq-05"
+        "line-mcq-32",
+        "line-mcq-21",
+        "line-mcq-45"
       ],
       "explanation": "本句的「line」指「排成一列／排隊」。",
       "sentenceIndex": 21,
@@ -1599,12 +1529,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-08": "本句指「排成一列／排隊」。",
-        "line-mcq-07": "「沿某方向排列的一排人或物」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。",
-        "line-mcq-06": "「排隊等候的人群／隊伍，尤其美式」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-05": "「演員或角色需要說的一句台詞」與本句語境不同。"
+        "line-mcq-08": "本句的「line」指「排成一列／排隊」。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-08"
     },
@@ -1616,11 +1544,9 @@ export default {
       "masked": "Take the red ____ to the city centre.",
       "options": [
         "line-mcq-11",
-        "line-mcq-10",
-        "line-mcq-12",
-        "line-mcq-09",
-        "line-mcq-13",
-        "line-mcq-08"
+        "line-mcq-45",
+        "line-mcq-40",
+        "line-mcq-43"
       ],
       "explanation": "本句的「line」指「火車、地鐵等固定運行的路線」。",
       "sentenceIndex": 22,
@@ -1629,12 +1555,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-11": "本句指「火車、地鐵等固定運行的路線」。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-08": "「排成一列／排隊」與本句語境不同。"
+        "line-mcq-11": "本句的「line」指「火車、地鐵等固定運行的路線」。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-11"
     },
@@ -1646,11 +1570,9 @@ export default {
       "masked": "The railway ____ runs along the coast.",
       "options": [
         "line-mcq-11",
-        "line-mcq-10",
-        "line-mcq-12",
-        "line-mcq-09",
-        "line-mcq-13",
-        "line-mcq-08"
+        "line-mcq-08",
+        "line-mcq-26",
+        "line-mcq-04"
       ],
       "explanation": "本句的「line」指「火車、地鐵等固定運行的路線」。",
       "sentenceIndex": 23,
@@ -1659,12 +1581,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-11": "本句指「火車、地鐵等固定運行的路線」。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-08": "「排成一列／排隊」與本句語境不同。"
+        "line-mcq-11": "本句的「line」指「火車、地鐵等固定運行的路線」。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-11"
     },
@@ -1676,11 +1596,9 @@ export default {
       "masked": "The new subway ____ opens next year.",
       "options": [
         "line-mcq-11",
-        "line-mcq-10",
-        "line-mcq-12",
-        "line-mcq-09",
-        "line-mcq-13",
-        "line-mcq-08"
+        "line-mcq-26",
+        "line-mcq-32",
+        "line-mcq-28"
       ],
       "explanation": "本句的「line」指「火車、地鐵等固定運行的路線」。",
       "sentenceIndex": 24,
@@ -1689,12 +1607,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-11": "本句指「火車、地鐵等固定運行的路線」。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-08": "「排成一列／排隊」與本句語境不同。"
+        "line-mcq-11": "本句的「line」指「火車、地鐵等固定運行的路線」。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-11"
     },
@@ -1706,11 +1622,9 @@ export default {
       "masked": "Repairs closed the railway ____.",
       "options": [
         "line-mcq-11",
-        "line-mcq-10",
-        "line-mcq-12",
-        "line-mcq-09",
-        "line-mcq-13",
-        "line-mcq-08"
+        "line-mcq-08",
+        "line-mcq-05",
+        "line-mcq-22"
       ],
       "explanation": "本句的「line」指「火車、地鐵等固定運行的路線」。",
       "sentenceIndex": 25,
@@ -1719,12 +1633,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-11": "本句指「火車、地鐵等固定運行的路線」。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-08": "「排成一列／排隊」與本句語境不同。"
+        "line-mcq-11": "本句的「line」指「火車、地鐵等固定運行的路線」。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-11"
     },
@@ -1736,11 +1648,9 @@ export default {
       "masked": "The ____ suddenly went dead.",
       "options": [
         "line-mcq-12",
-        "line-mcq-11",
-        "line-mcq-13",
-        "line-mcq-10",
-        "line-mcq-14",
-        "line-mcq-09"
+        "line-mcq-03",
+        "line-mcq-08",
+        "line-mcq-23"
       ],
       "explanation": "本句的「line」指「電話通訊線路／連線」。",
       "sentenceIndex": 26,
@@ -1749,12 +1659,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-12": "本句指「電話通訊線路／連線」。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。"
+        "line-mcq-12": "本句的「line」指「電話通訊線路／連線」。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-12"
     },
@@ -1766,11 +1674,9 @@ export default {
       "masked": "Please stay on the ____.",
       "options": [
         "line-mcq-12",
-        "line-mcq-11",
-        "line-mcq-13",
-        "line-mcq-10",
-        "line-mcq-14",
-        "line-mcq-09"
+        "line-mcq-16",
+        "line-mcq-39",
+        "line-mcq-32"
       ],
       "explanation": "本句的「line」指「電話通訊線路／連線」。",
       "sentenceIndex": 27,
@@ -1779,12 +1685,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-12": "本句指「電話通訊線路／連線」。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。"
+        "line-mcq-12": "本句的「line」指「電話通訊線路／連線」。",
+        "line-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-12"
     },
@@ -1796,11 +1700,9 @@ export default {
       "masked": "Mr. Chan is ____.",
       "options": [
         "line-mcq-12",
-        "line-mcq-11",
-        "line-mcq-13",
-        "line-mcq-10",
-        "line-mcq-14",
-        "line-mcq-09"
+        "line-mcq-29",
+        "line-mcq-16",
+        "line-mcq-26"
       ],
       "explanation": "本句的「on the line」指「電話通訊線路／連線」。",
       "sentenceIndex": 28,
@@ -1809,12 +1711,10 @@ export default {
         "on the line"
       ],
       "optionReasons": {
-        "line-mcq-12": "本句指「電話通訊線路／連線」。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。"
+        "line-mcq-12": "本句的「on the line」指「電話通訊線路／連線」。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-12"
     },
@@ -1826,11 +1726,9 @@ export default {
       "masked": "Please hold; I have someone ____.",
       "options": [
         "line-mcq-12",
-        "line-mcq-11",
-        "line-mcq-13",
-        "line-mcq-10",
-        "line-mcq-14",
-        "line-mcq-09"
+        "line-mcq-06",
+        "line-mcq-44",
+        "line-mcq-32"
       ],
       "explanation": "本句的「on the line」指「電話通訊線路／連線」。",
       "sentenceIndex": 29,
@@ -1839,12 +1737,10 @@ export default {
         "on the line"
       ],
       "optionReasons": {
-        "line-mcq-12": "本句指「電話通訊線路／連線」。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-09": "「預先安排人、活動、工作等」與本句語境不同。"
+        "line-mcq-12": "本句的「on the line」指「電話通訊線路／連線」。",
+        "line-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-12"
     },
@@ -1856,11 +1752,9 @@ export default {
       "masked": "A storm damaged the power ____.",
       "options": [
         "line-mcq-13",
-        "line-mcq-12",
-        "line-mcq-14",
-        "line-mcq-11",
-        "line-mcq-15",
-        "line-mcq-10"
+        "line-mcq-24",
+        "line-mcq-22",
+        "line-mcq-47"
       ],
       "explanation": "本句的「lines」指「輸送電力、訊號、燃氣等的線路／管線」。",
       "sentenceIndex": 30,
@@ -1869,12 +1763,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-13": "本句指「輸送電力、訊號、燃氣等的線路／管線」。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。"
+        "line-mcq-13": "本句的「lines」指「輸送電力、訊號、燃氣等的線路／管線」。",
+        "line-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-13"
     },
@@ -1886,11 +1778,9 @@ export default {
       "masked": "The gas ____ needs repair.",
       "options": [
         "line-mcq-13",
-        "line-mcq-12",
-        "line-mcq-14",
-        "line-mcq-11",
-        "line-mcq-15",
-        "line-mcq-10"
+        "line-mcq-28",
+        "line-mcq-43",
+        "line-mcq-23"
       ],
       "explanation": "本句的「line」指「輸送電力、訊號、燃氣等的線路／管線」。",
       "sentenceIndex": 31,
@@ -1899,12 +1789,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-13": "本句指「輸送電力、訊號、燃氣等的線路／管線」。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。"
+        "line-mcq-13": "本句的「line」指「輸送電力、訊號、燃氣等的線路／管線」。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-13"
     },
@@ -1916,11 +1804,9 @@ export default {
       "masked": "A tree fell across a ____.",
       "options": [
         "line-mcq-13",
-        "line-mcq-12",
-        "line-mcq-14",
-        "line-mcq-11",
-        "line-mcq-15",
-        "line-mcq-10"
+        "line-mcq-24",
+        "line-mcq-43",
+        "line-mcq-32"
       ],
       "explanation": "本句的「power line」指「輸送電力、訊號、燃氣等的線路／管線」。",
       "sentenceIndex": 32,
@@ -1929,12 +1815,10 @@ export default {
         "power line"
       ],
       "optionReasons": {
-        "line-mcq-13": "本句指「輸送電力、訊號、燃氣等的線路／管線」。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。"
+        "line-mcq-13": "本句的「power line」指「輸送電力、訊號、燃氣等的線路／管線」。",
+        "line-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-13"
     },
@@ -1946,11 +1830,9 @@ export default {
       "masked": "Workers repaired the damaged ____.",
       "options": [
         "line-mcq-13",
-        "line-mcq-12",
-        "line-mcq-14",
-        "line-mcq-11",
-        "line-mcq-15",
-        "line-mcq-10"
+        "line-mcq-40",
+        "line-mcq-16",
+        "line-mcq-08"
       ],
       "explanation": "本句的「power lines」指「輸送電力、訊號、燃氣等的線路／管線」。",
       "sentenceIndex": 33,
@@ -1959,12 +1841,10 @@ export default {
         "power lines"
       ],
       "optionReasons": {
-        "line-mcq-13": "本句指「輸送電力、訊號、燃氣等的線路／管線」。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-10": "「把物件對齊」與本句語境不同。"
+        "line-mcq-13": "本句的「power lines」指「輸送電力、訊號、燃氣等的線路／管線」。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-13"
     },
@@ -1976,11 +1856,9 @@ export default {
       "masked": "The company launched a new ____.",
       "options": [
         "line-mcq-14",
-        "line-mcq-13",
-        "line-mcq-15",
-        "line-mcq-12",
-        "line-mcq-16",
-        "line-mcq-11"
+        "line-mcq-44",
+        "line-mcq-28",
+        "line-mcq-03"
       ],
       "explanation": "本句的「line of pens」指「公司推出的一組相關產品；產品線／系列」。",
       "sentenceIndex": 34,
@@ -1989,12 +1867,10 @@ export default {
         "line of pens"
       ],
       "optionReasons": {
-        "line-mcq-14": "本句指「公司推出的一組相關產品；產品線／系列」。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。"
+        "line-mcq-14": "本句的「line of pens」指「公司推出的一組相關產品；產品線／系列」。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-14"
     },
@@ -2006,11 +1882,9 @@ export default {
       "masked": "This is their premium product ____.",
       "options": [
         "line-mcq-14",
-        "line-mcq-13",
-        "line-mcq-15",
-        "line-mcq-12",
-        "line-mcq-16",
-        "line-mcq-11"
+        "line-mcq-44",
+        "line-mcq-32",
+        "line-mcq-39"
       ],
       "explanation": "本句的「line」指「公司推出的一組相關產品；產品線／系列」。",
       "sentenceIndex": 35,
@@ -2019,12 +1893,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-14": "本句指「公司推出的一組相關產品；產品線／系列」。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。"
+        "line-mcq-14": "本句的「line」指「公司推出的一組相關產品；產品線／系列」。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-14"
     },
@@ -2036,11 +1908,9 @@ export default {
       "masked": "They expanded their ____.",
       "options": [
         "line-mcq-14",
-        "line-mcq-13",
-        "line-mcq-15",
-        "line-mcq-12",
-        "line-mcq-16",
-        "line-mcq-11"
+        "line-mcq-33",
+        "line-mcq-29",
+        "line-mcq-22"
       ],
       "explanation": "本句的「product line」指「公司推出的一組相關產品；產品線／系列」。",
       "sentenceIndex": 36,
@@ -2049,12 +1919,10 @@ export default {
         "product line"
       ],
       "optionReasons": {
-        "line-mcq-14": "本句指「公司推出的一組相關產品；產品線／系列」。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。"
+        "line-mcq-14": "本句的「product line」指「公司推出的一組相關產品；產品線／系列」。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-14"
     },
@@ -2066,11 +1934,9 @@ export default {
       "masked": "The brand introduced a new skincare ____.",
       "options": [
         "line-mcq-14",
-        "line-mcq-13",
-        "line-mcq-15",
-        "line-mcq-12",
-        "line-mcq-16",
-        "line-mcq-11"
+        "line-mcq-39",
+        "line-mcq-05",
+        "line-mcq-22"
       ],
       "explanation": "本句的「line」指「公司推出的一組相關產品；產品線／系列」。",
       "sentenceIndex": 37,
@@ -2079,12 +1945,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-14": "本句指「公司推出的一組相關產品；產品線／系列」。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-11": "「火車、地鐵等固定運行的路線」與本句語境不同。"
+        "line-mcq-14": "本句的「line」指「公司推出的一組相關產品；產品線／系列」。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-14"
     },
@@ -2096,11 +1960,9 @@ export default {
       "masked": "What ____ are you in?",
       "options": [
         "line-mcq-15",
-        "line-mcq-14",
-        "line-mcq-16",
-        "line-mcq-13",
-        "line-mcq-17",
-        "line-mcq-12"
+        "line-mcq-18",
+        "line-mcq-02",
+        "line-mcq-35"
       ],
       "explanation": "本句的「line of work」指「所從事的工作類型／行業」。",
       "sentenceIndex": 38,
@@ -2109,12 +1971,10 @@ export default {
         "line of work"
       ],
       "optionReasons": {
-        "line-mcq-15": "本句指「所從事的工作類型／行業」。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。"
+        "line-mcq-15": "本句的「line of work」指「所從事的工作類型／行業」。",
+        "line-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-15"
     },
@@ -2127,10 +1987,8 @@ export default {
       "options": [
         "line-mcq-15",
         "line-mcq-14",
-        "line-mcq-16",
-        "line-mcq-13",
-        "line-mcq-17",
-        "line-mcq-12"
+        "line-mcq-33",
+        "line-mcq-25"
       ],
       "explanation": "本句的「line of business」指「所從事的工作類型／行業」。",
       "sentenceIndex": 39,
@@ -2139,12 +1997,10 @@ export default {
         "line of business"
       ],
       "optionReasons": {
-        "line-mcq-15": "本句指「所從事的工作類型／行業」。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-12": "「電話通訊線路／連線」與本句語境不同。"
+        "line-mcq-15": "本句的「line of business」指「所從事的工作類型／行業」。",
+        "line-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-15"
     },
@@ -2156,11 +2012,9 @@ export default {
       "masked": "The property remained in the family ____.",
       "options": [
         "line-mcq-16",
-        "line-mcq-15",
-        "line-mcq-17",
-        "line-mcq-14",
-        "line-mcq-18",
-        "line-mcq-13"
+        "line-mcq-08",
+        "line-mcq-29",
+        "line-mcq-24"
       ],
       "explanation": "本句的「line」指「家族延續的血統／世系」。",
       "sentenceIndex": 40,
@@ -2169,12 +2023,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-16": "本句指「家族延續的血統／世系」。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。"
+        "line-mcq-16": "本句的「line」指「家族延續的血統／世系」。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-16"
     },
@@ -2186,11 +2038,9 @@ export default {
       "masked": "He comes from a long ____.",
       "options": [
         "line-mcq-16",
-        "line-mcq-15",
-        "line-mcq-17",
-        "line-mcq-14",
-        "line-mcq-18",
-        "line-mcq-13"
+        "line-mcq-40",
+        "line-mcq-30",
+        "line-mcq-34"
       ],
       "explanation": "本句的「line of teachers」指「家族延續的血統／世系」。",
       "sentenceIndex": 41,
@@ -2199,12 +2049,10 @@ export default {
         "line of teachers"
       ],
       "optionReasons": {
-        "line-mcq-16": "本句指「家族延續的血統／世系」。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-13": "「輸送電力、訊號、燃氣等的線路／管線」與本句語境不同。"
+        "line-mcq-16": "本句的「line of teachers」指「家族延續的血統／世系」。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-16"
     },
@@ -2216,11 +2064,9 @@ export default {
       "masked": "The soldiers held the defensive ____.",
       "options": [
         "line-mcq-17",
-        "line-mcq-16",
-        "line-mcq-18",
-        "line-mcq-15",
-        "line-mcq-19",
-        "line-mcq-14"
+        "line-mcq-05",
+        "line-mcq-26",
+        "line-mcq-43"
       ],
       "explanation": "本句的「line」指「軍隊防守、作戰的位置；防線／戰線」。",
       "sentenceIndex": 44,
@@ -2229,12 +2075,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-17": "本句指「軍隊防守、作戰的位置；防線／戰線」。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。"
+        "line-mcq-17": "本句的「line」指「軍隊防守、作戰的位置；防線／戰線」。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-17"
     },
@@ -2246,11 +2090,9 @@ export default {
       "masked": "Supplies were sent to the front ____.",
       "options": [
         "line-mcq-17",
-        "line-mcq-16",
-        "line-mcq-18",
-        "line-mcq-15",
-        "line-mcq-19",
-        "line-mcq-14"
+        "line-mcq-28",
+        "line-mcq-35",
+        "line-mcq-33"
       ],
       "explanation": "本句的「line」指「軍隊防守、作戰的位置；防線／戰線」。",
       "sentenceIndex": 45,
@@ -2259,12 +2101,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-17": "本句指「軍隊防守、作戰的位置；防線／戰線」。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-14": "「公司推出的一組相關產品；產品線／系列」與本句語境不同。"
+        "line-mcq-17": "本句的「line」指「軍隊防守、作戰的位置；防線／戰線」。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-17"
     },
@@ -2276,11 +2116,9 @@ export default {
       "masked": "Doctors worked on the ____ during the emergency.",
       "options": [
         "line-mcq-18",
-        "line-mcq-17",
-        "line-mcq-19",
-        "line-mcq-16",
-        "line-mcq-20",
-        "line-mcq-15"
+        "line-mcq-06",
+        "line-mcq-28",
+        "line-mcq-42"
       ],
       "explanation": "本句的「front line」指「最接近戰鬥的前線；比喻提供服務的第一線」。",
       "sentenceIndex": 46,
@@ -2289,12 +2127,10 @@ export default {
         "front line"
       ],
       "optionReasons": {
-        "line-mcq-18": "本句指「最接近戰鬥的前線；比喻提供服務的第一線」。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。"
+        "line-mcq-18": "本句的「front line」指「最接近戰鬥的前線；比喻提供服務的第一線」。",
+        "line-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-18"
     },
@@ -2306,11 +2142,9 @@ export default {
       "masked": "Troops were moved to the ____.",
       "options": [
         "line-mcq-18",
-        "line-mcq-17",
-        "line-mcq-19",
-        "line-mcq-16",
-        "line-mcq-20",
-        "line-mcq-15"
+        "line-mcq-34",
+        "line-mcq-33",
+        "line-mcq-47"
       ],
       "explanation": "本句的「front line」指「最接近戰鬥的前線；比喻提供服務的第一線」。",
       "sentenceIndex": 47,
@@ -2319,12 +2153,10 @@ export default {
         "front line"
       ],
       "optionReasons": {
-        "line-mcq-18": "本句指「最接近戰鬥的前線；比喻提供服務的第一線」。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-15": "「所從事的工作類型／行業」與本句語境不同。"
+        "line-mcq-18": "本句的「front line」指「最接近戰鬥的前線；比喻提供服務的第一線」。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-18"
     },
@@ -2336,11 +2168,9 @@ export default {
       "masked": "There is a fine ____ between confidence and arrogance.",
       "options": [
         "line-mcq-19",
-        "line-mcq-18",
-        "line-mcq-20",
-        "line-mcq-17",
-        "line-mcq-21",
-        "line-mcq-16"
+        "line-mcq-44",
+        "line-mcq-39",
+        "line-mcq-45"
       ],
       "explanation": "本句的「line」指「兩種行為、狀態或概念之間的界線」。",
       "sentenceIndex": 48,
@@ -2349,12 +2179,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-19": "本句指「兩種行為、狀態或概念之間的界線」。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。"
+        "line-mcq-19": "本句的「line」指「兩種行為、狀態或概念之間的界線」。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-19"
     },
@@ -2366,10 +2194,8 @@ export default {
       "masked": "The film blurs the ____ between fact and fiction.",
       "options": [
         "line-mcq-19",
-        "line-mcq-18",
-        "line-mcq-20",
-        "line-mcq-17",
-        "line-mcq-21",
+        "line-mcq-23",
+        "line-mcq-47",
         "line-mcq-16"
       ],
       "explanation": "本句的「line」指「兩種行為、狀態或概念之間的界線」。",
@@ -2379,12 +2205,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-19": "本句指「兩種行為、狀態或概念之間的界線」。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-16": "「家族延續的血統／世系」與本句語境不同。"
+        "line-mcq-19": "本句的「line」指「兩種行為、狀態或概念之間的界線」。",
+        "line-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-19"
     },
@@ -2396,11 +2220,9 @@ export default {
       "masked": "We have to ____ somewhere.",
       "options": [
         "line-mcq-20",
-        "line-mcq-19",
-        "line-mcq-21",
-        "line-mcq-18",
-        "line-mcq-22",
-        "line-mcq-17"
+        "line-mcq-34",
+        "line-mcq-42",
+        "line-mcq-46"
       ],
       "explanation": "本句的「draw the line」指「設定不可超越的限制／底線」。",
       "sentenceIndex": 50,
@@ -2409,12 +2231,10 @@ export default {
         "draw the line"
       ],
       "optionReasons": {
-        "line-mcq-20": "本句指「設定不可超越的限制／底線」。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。"
+        "line-mcq-20": "本句的「draw the line」指「設定不可超越的限制／底線」。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-20"
     },
@@ -2426,11 +2246,9 @@ export default {
       "masked": "I ____ dishonesty.",
       "options": [
         "line-mcq-20",
-        "line-mcq-19",
-        "line-mcq-21",
-        "line-mcq-18",
-        "line-mcq-22",
-        "line-mcq-17"
+        "line-mcq-42",
+        "line-mcq-40",
+        "line-mcq-08"
       ],
       "explanation": "本句的「draw the line at」指「設定不可超越的限制／底線」。",
       "sentenceIndex": 51,
@@ -2439,12 +2257,10 @@ export default {
         "draw the line at"
       ],
       "optionReasons": {
-        "line-mcq-20": "本句指「設定不可超越的限制／底線」。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-17": "「軍隊防守、作戰的位置；防線／戰線」與本句語境不同。"
+        "line-mcq-20": "本句的「draw the line at」指「設定不可超越的限制／底線」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-20"
     },
@@ -2456,11 +2272,9 @@ export default {
       "masked": "That comment ____.",
       "options": [
         "line-mcq-21",
-        "line-mcq-20",
-        "line-mcq-22",
-        "line-mcq-19",
-        "line-mcq-23",
-        "line-mcq-18"
+        "line-mcq-05",
+        "line-mcq-33",
+        "line-mcq-29"
       ],
       "explanation": "本句的「crossed the line」指「超過可接受的界線；越界」。",
       "sentenceIndex": 52,
@@ -2469,12 +2283,10 @@ export default {
         "crossed the line"
       ],
       "optionReasons": {
-        "line-mcq-21": "本句指「超過可接受的界線；越界」。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。"
+        "line-mcq-21": "本句的「crossed the line」指「超過可接受的界線；越界」。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-21"
     },
@@ -2486,11 +2298,9 @@ export default {
       "masked": "Jokes can become offensive when they ____.",
       "options": [
         "line-mcq-21",
-        "line-mcq-20",
-        "line-mcq-22",
-        "line-mcq-19",
-        "line-mcq-23",
-        "line-mcq-18"
+        "line-mcq-46",
+        "line-mcq-29",
+        "line-mcq-39"
       ],
       "explanation": "本句的「cross the line」指「超過可接受的界線；越界」。",
       "sentenceIndex": 53,
@@ -2499,12 +2309,10 @@ export default {
         "cross the line"
       ],
       "optionReasons": {
-        "line-mcq-21": "本句指「超過可接受的界線；越界」。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-18": "「最接近戰鬥的前線；比喻提供服務的第一線」與本句語境不同。"
+        "line-mcq-21": "本句的「cross the line」指「超過可接受的界線；越界」。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-21"
     },
@@ -2516,11 +2324,9 @@ export default {
       "masked": "There is a ____ between being direct and being rude.",
       "options": [
         "line-mcq-22",
-        "line-mcq-21",
+        "line-mcq-29",
         "line-mcq-23",
-        "line-mcq-20",
-        "line-mcq-24",
-        "line-mcq-19"
+        "line-mcq-13"
       ],
       "explanation": "本句的「fine line」指「兩件事之間非常細微的分別」。",
       "sentenceIndex": 54,
@@ -2529,12 +2335,10 @@ export default {
         "fine line"
       ],
       "optionReasons": {
-        "line-mcq-22": "本句指「兩件事之間非常細微的分別」。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。"
+        "line-mcq-22": "本句的「fine line」指「兩件事之間非常細微的分別」。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-22"
     },
@@ -2546,11 +2350,9 @@ export default {
       "masked": "The design walks a ____ between simple and plain.",
       "options": [
         "line-mcq-22",
-        "line-mcq-21",
-        "line-mcq-23",
-        "line-mcq-20",
-        "line-mcq-24",
-        "line-mcq-19"
+        "line-mcq-29",
+        "line-mcq-39",
+        "line-mcq-32"
       ],
       "explanation": "本句的「fine line」指「兩件事之間非常細微的分別」。",
       "sentenceIndex": 55,
@@ -2559,12 +2361,10 @@ export default {
         "fine line"
       ],
       "optionReasons": {
-        "line-mcq-22": "本句指「兩件事之間非常細微的分別」。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-19": "「兩種行為、狀態或概念之間的界線」與本句語境不同。"
+        "line-mcq-22": "本句的「fine line」指「兩件事之間非常細微的分別」。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-22"
     },
@@ -2576,11 +2376,9 @@ export default {
       "masked": "The company took a firm ____ on safety.",
       "options": [
         "line-mcq-23",
-        "line-mcq-22",
-        "line-mcq-24",
-        "line-mcq-21",
-        "line-mcq-25",
-        "line-mcq-20"
+        "line-mcq-48",
+        "line-mcq-40",
+        "line-mcq-28"
       ],
       "explanation": "本句的「line」指「個人或組織對某議題採取的立場／說法／方針」。",
       "sentenceIndex": 56,
@@ -2589,12 +2387,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-23": "本句指「個人或組織對某議題採取的立場／說法／方針」。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。"
+        "line-mcq-23": "本句的「line」指「個人或組織對某議題採取的立場／說法／方針」。",
+        "line-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-23"
     },
@@ -2606,11 +2402,9 @@ export default {
       "masked": "They changed their ____ on the issue.",
       "options": [
         "line-mcq-23",
-        "line-mcq-22",
-        "line-mcq-24",
-        "line-mcq-21",
-        "line-mcq-25",
-        "line-mcq-20"
+        "line-mcq-01",
+        "line-mcq-13",
+        "line-mcq-43"
       ],
       "explanation": "本句的「line」指「個人或組織對某議題採取的立場／說法／方針」。",
       "sentenceIndex": 57,
@@ -2619,12 +2413,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-23": "本句指「個人或組織對某議題採取的立場／說法／方針」。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-20": "「設定不可超越的限制／底線」與本句語境不同。"
+        "line-mcq-23": "本句的「line」指「個人或組織對某議題採取的立場／說法／方針」。",
+        "line-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-23"
     },
@@ -2636,11 +2428,9 @@ export default {
       "masked": "Members were expected to follow the ____.",
       "options": [
         "line-mcq-24",
-        "line-mcq-23",
-        "line-mcq-25",
-        "line-mcq-22",
-        "line-mcq-26",
-        "line-mcq-21"
+        "line-mcq-27",
+        "line-mcq-33",
+        "line-mcq-19"
       ],
       "explanation": "本句的「party line」指「政黨或組織正式要求採取的立場」。",
       "sentenceIndex": 58,
@@ -2649,12 +2439,10 @@ export default {
         "party line"
       ],
       "optionReasons": {
-        "line-mcq-24": "本句指「政黨或組織正式要求採取的立場」。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。"
+        "line-mcq-24": "本句的「party line」指「政黨或組織正式要求採取的立場」。",
+        "line-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-24"
     },
@@ -2666,11 +2454,9 @@ export default {
       "masked": "His comments departed from the official ____.",
       "options": [
         "line-mcq-24",
-        "line-mcq-23",
-        "line-mcq-25",
-        "line-mcq-22",
-        "line-mcq-26",
-        "line-mcq-21"
+        "line-mcq-20",
+        "line-mcq-30",
+        "line-mcq-02"
       ],
       "explanation": "本句的「party line」指「政黨或組織正式要求採取的立場」。",
       "sentenceIndex": 59,
@@ -2679,12 +2465,10 @@ export default {
         "party line"
       ],
       "optionReasons": {
-        "line-mcq-24": "本句指「政黨或組織正式要求採取的立場」。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-21": "「超過可接受的界線；越界」與本句語境不同。"
+        "line-mcq-24": "本句的「party line」指「政黨或組織正式要求採取的立場」。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-24"
     },
@@ -2696,11 +2480,9 @@ export default {
       "masked": "I understand your ____.",
       "options": [
         "line-mcq-25",
-        "line-mcq-24",
-        "line-mcq-26",
-        "line-mcq-23",
-        "line-mcq-27",
-        "line-mcq-22"
+        "line-mcq-36",
+        "line-mcq-04",
+        "line-mcq-01"
       ],
       "explanation": "本句的「line of reasoning」指「連續的思考／推理脈絡；思路」。",
       "sentenceIndex": 60,
@@ -2709,12 +2491,10 @@ export default {
         "line of reasoning"
       ],
       "optionReasons": {
-        "line-mcq-25": "本句指「連續的思考／推理脈絡；思路」。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。"
+        "line-mcq-25": "本句的「line of reasoning」指「連續的思考／推理脈絡；思路」。",
+        "line-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-25"
     },
@@ -2726,11 +2506,9 @@ export default {
       "masked": "I lost her ____ halfway through.",
       "options": [
         "line-mcq-25",
-        "line-mcq-24",
-        "line-mcq-26",
-        "line-mcq-23",
-        "line-mcq-27",
-        "line-mcq-22"
+        "line-mcq-32",
+        "line-mcq-03",
+        "line-mcq-48"
       ],
       "explanation": "本句的「line of thought」指「連續的思考／推理脈絡；思路」。",
       "sentenceIndex": 61,
@@ -2739,12 +2517,10 @@ export default {
         "line of thought"
       ],
       "optionReasons": {
-        "line-mcq-25": "本句指「連續的思考／推理脈絡；思路」。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-22": "「兩件事之間非常細微的分別」與本句語境不同。"
+        "line-mcq-25": "本句的「line of thought」指「連續的思考／推理脈絡；思路」。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-25"
     },
@@ -2756,11 +2532,9 @@ export default {
       "masked": "I was thinking of something ____.",
       "options": [
         "line-mcq-26",
-        "line-mcq-25",
-        "line-mcq-27",
-        "line-mcq-24",
-        "line-mcq-28",
-        "line-mcq-23"
+        "line-mcq-46",
+        "line-mcq-33",
+        "line-mcq-21"
       ],
       "explanation": "本句的「along those lines」指「朝類似的方向／大致是那種想法」。",
       "sentenceIndex": 62,
@@ -2769,12 +2543,10 @@ export default {
         "along those lines"
       ],
       "optionReasons": {
-        "line-mcq-26": "本句指「朝類似的方向／大致是那種想法」。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。"
+        "line-mcq-26": "本句的「along those lines」指「朝類似的方向／大致是那種想法」。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-26"
     },
@@ -2786,11 +2558,9 @@ export default {
       "masked": "We need a solution ____.",
       "options": [
         "line-mcq-26",
-        "line-mcq-25",
-        "line-mcq-27",
-        "line-mcq-24",
-        "line-mcq-28",
-        "line-mcq-23"
+        "line-mcq-05",
+        "line-mcq-20",
+        "line-mcq-11"
       ],
       "explanation": "本句的「along those lines」指「朝類似的方向／大致是那種想法」。",
       "sentenceIndex": 63,
@@ -2799,12 +2569,10 @@ export default {
         "along those lines"
       ],
       "optionReasons": {
-        "line-mcq-26": "本句指「朝類似的方向／大致是那種想法」。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-23": "「個人或組織對某議題採取的立場／說法／方針」與本句語境不同。"
+        "line-mcq-26": "本句的「along those lines」指「朝類似的方向／大致是那種想法」。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-26"
     },
@@ -2816,11 +2584,9 @@ export default {
       "masked": "The dress has a clean ____.",
       "options": [
         "line-mcq-27",
-        "line-mcq-26",
         "line-mcq-28",
-        "line-mcq-25",
         "line-mcq-29",
-        "line-mcq-24"
+        "line-mcq-34"
       ],
       "explanation": "本句的「line」指「物件或身體的輪廓、外形線條」。",
       "sentenceIndex": 64,
@@ -2829,12 +2595,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-27": "本句指「物件或身體的輪廓、外形線條」。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。"
+        "line-mcq-27": "本句的「line」指「物件或身體的輪廓、外形線條」。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-27"
     },
@@ -2846,11 +2610,9 @@ export default {
       "masked": "The car has smooth, elegant ____.",
       "options": [
         "line-mcq-27",
-        "line-mcq-26",
-        "line-mcq-28",
-        "line-mcq-25",
-        "line-mcq-29",
-        "line-mcq-24"
+        "line-mcq-05",
+        "line-mcq-35",
+        "line-mcq-39"
       ],
       "explanation": "本句的「lines」指「物件或身體的輪廓、外形線條」。",
       "sentenceIndex": 65,
@@ -2859,12 +2621,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-27": "本句指「物件或身體的輪廓、外形線條」。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。",
-        "line-mcq-24": "「政黨或組織正式要求採取的立場」與本句語境不同。"
+        "line-mcq-27": "本句的「lines」指「物件或身體的輪廓、外形線條」。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-27"
     },
@@ -2876,11 +2636,9 @@ export default {
       "masked": "She had small ____ around her eyes.",
       "options": [
         "line-mcq-28",
-        "line-mcq-27",
-        "line-mcq-29",
-        "line-mcq-26",
-        "line-mcq-30",
-        "line-mcq-25"
+        "line-mcq-11",
+        "line-mcq-08",
+        "line-mcq-33"
       ],
       "explanation": "本句的「lines」指「皮膚上的細小皺紋／細紋」。",
       "sentenceIndex": 66,
@@ -2889,12 +2647,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-28": "本句指「皮膚上的細小皺紋／細紋」。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。"
+        "line-mcq-28": "本句的「lines」指「皮膚上的細小皺紋／細紋」。",
+        "line-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-28"
     },
@@ -2906,11 +2662,9 @@ export default {
       "masked": "Smile ____ appeared around his mouth.",
       "options": [
         "line-mcq-28",
-        "line-mcq-27",
-        "line-mcq-29",
-        "line-mcq-26",
-        "line-mcq-30",
-        "line-mcq-25"
+        "line-mcq-25",
+        "line-mcq-12",
+        "line-mcq-32"
       ],
       "explanation": "本句的「lines」指「皮膚上的細小皺紋／細紋」。",
       "sentenceIndex": 67,
@@ -2919,12 +2673,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-28": "本句指「皮膚上的細小皺紋／細紋」。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。",
-        "line-mcq-25": "「連續的思考／推理脈絡；思路」與本句語境不同。"
+        "line-mcq-28": "本句的「lines」指「皮膚上的細小皺紋／細紋」。",
+        "line-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-28"
     },
@@ -2936,11 +2688,9 @@ export default {
       "masked": "The poem has twelve ____.",
       "options": [
         "line-mcq-29",
-        "line-mcq-28",
-        "line-mcq-30",
-        "line-mcq-27",
-        "line-mcq-31",
-        "line-mcq-26"
+        "line-mcq-21",
+        "line-mcq-17",
+        "line-mcq-33"
       ],
       "explanation": "本句的「lines」指「詩中的一行；詩行」。",
       "sentenceIndex": 68,
@@ -2949,12 +2699,10 @@ export default {
         "lines"
       ],
       "optionReasons": {
-        "line-mcq-29": "本句指「詩中的一行；詩行」。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。"
+        "line-mcq-29": "本句的「lines」指「詩中的一行；詩行」。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-29"
     },
@@ -2966,11 +2714,9 @@ export default {
       "masked": "The final ____ is especially memorable.",
       "options": [
         "line-mcq-29",
-        "line-mcq-28",
-        "line-mcq-30",
-        "line-mcq-27",
-        "line-mcq-31",
-        "line-mcq-26"
+        "line-mcq-01",
+        "line-mcq-21",
+        "line-mcq-05"
       ],
       "explanation": "本句的「line」指「詩中的一行；詩行」。",
       "sentenceIndex": 69,
@@ -2979,12 +2725,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-29": "本句指「詩中的一行；詩行」。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-26": "「朝類似的方向／大致是那種想法」與本句語境不同。"
+        "line-mcq-29": "本句的「line」指「詩中的一行；詩行」。",
+        "line-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-29"
     },
@@ -2996,11 +2740,9 @@ export default {
       "masked": "The fishing ____ broke.",
       "options": [
         "line-mcq-30",
-        "line-mcq-29",
-        "line-mcq-31",
-        "line-mcq-28",
-        "line-mcq-32",
-        "line-mcq-27"
+        "line-mcq-38",
+        "line-mcq-33",
+        "line-mcq-42"
       ],
       "explanation": "本句的「line」指「用來釣魚的細繩／魚線」。",
       "sentenceIndex": 70,
@@ -3009,12 +2751,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-30": "本句指「用來釣魚的細繩／魚線」。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。"
+        "line-mcq-30": "本句的「line」指「用來釣魚的細繩／魚線」。",
+        "line-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-30"
     },
@@ -3026,11 +2766,9 @@ export default {
       "masked": "He threw the ____ into the water.",
       "options": [
         "line-mcq-30",
-        "line-mcq-29",
-        "line-mcq-31",
-        "line-mcq-28",
-        "line-mcq-32",
-        "line-mcq-27"
+        "line-mcq-42",
+        "line-mcq-25",
+        "line-mcq-38"
       ],
       "explanation": "本句的「line」指「用來釣魚的細繩／魚線」。",
       "sentenceIndex": 71,
@@ -3039,12 +2777,10 @@ export default {
         "line"
       ],
       "optionReasons": {
-        "line-mcq-30": "本句指「用來釣魚的細繩／魚線」。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-28": "「皮膚上的細小皺紋／細紋」與本句語境不同。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。",
-        "line-mcq-27": "「物件或身體的輪廓、外形線條」與本句語境不同。"
+        "line-mcq-30": "本句的「line」指「用來釣魚的細繩／魚線」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-30"
     },
@@ -3056,11 +2792,9 @@ export default {
       "masked": "The box was ____.",
       "options": [
         "line-mcq-32",
-        "line-mcq-31",
-        "line-mcq-33",
-        "line-mcq-30",
-        "line-mcq-34",
-        "line-mcq-29"
+        "line-mcq-11",
+        "line-mcq-18",
+        "line-mcq-35"
       ],
       "explanation": "本句的「lined with velvet」指「在物體內部鋪上一層材料；加內襯」。",
       "sentenceIndex": 74,
@@ -3069,12 +2803,10 @@ export default {
         "lined with velvet"
       ],
       "optionReasons": {
-        "line-mcq-32": "本句指「在物體內部鋪上一層材料；加內襯」。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。"
+        "line-mcq-32": "本句的「lined with velvet」指「在物體內部鋪上一層材料；加內襯」。",
+        "line-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-32"
     },
@@ -3086,11 +2818,9 @@ export default {
       "masked": "The coat is ____.",
       "options": [
         "line-mcq-32",
-        "line-mcq-31",
-        "line-mcq-33",
-        "line-mcq-30",
-        "line-mcq-34",
-        "line-mcq-29"
+        "line-mcq-04",
+        "line-mcq-02",
+        "line-mcq-43"
       ],
       "explanation": "本句的「lined with silk」指「在物體內部鋪上一層材料；加內襯」。",
       "sentenceIndex": 75,
@@ -3099,12 +2829,10 @@ export default {
         "lined with silk"
       ],
       "optionReasons": {
-        "line-mcq-32": "本句指「在物體內部鋪上一層材料；加內襯」。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-29": "「詩中的一行；詩行」與本句語境不同。"
+        "line-mcq-32": "本句的「lined with silk」指「在物體內部鋪上一層材料；加內襯」。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-32"
     },
@@ -3116,11 +2844,9 @@ export default {
       "masked": "The jacket has a warm ____.",
       "options": [
         "line-mcq-33",
-        "line-mcq-32",
-        "line-mcq-34",
-        "line-mcq-31",
-        "line-mcq-35",
-        "line-mcq-30"
+        "line-mcq-42",
+        "line-mcq-12",
+        "line-mcq-46"
       ],
       "explanation": "本句的「lining」指「衣物、盒子等內部的襯裡／內襯」。",
       "sentenceIndex": 76,
@@ -3129,12 +2855,10 @@ export default {
         "lining"
       ],
       "optionReasons": {
-        "line-mcq-33": "本句指「衣物、盒子等內部的襯裡／內襯」。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。"
+        "line-mcq-33": "本句的「lining」指「衣物、盒子等內部的襯裡／內襯」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-33"
     },
@@ -3146,11 +2870,9 @@ export default {
       "masked": "The box had a soft velvet ____.",
       "options": [
         "line-mcq-33",
-        "line-mcq-32",
         "line-mcq-34",
-        "line-mcq-31",
-        "line-mcq-35",
-        "line-mcq-30"
+        "line-mcq-19",
+        "line-mcq-38"
       ],
       "explanation": "本句的「lining」指「衣物、盒子等內部的襯裡／內襯」。",
       "sentenceIndex": 77,
@@ -3159,12 +2881,10 @@ export default {
         "lining"
       ],
       "optionReasons": {
-        "line-mcq-33": "本句指「衣物、盒子等內部的襯裡／內襯」。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。",
-        "line-mcq-30": "「用來釣魚的細繩／魚線」與本句語境不同。"
+        "line-mcq-33": "本句的「lining」指「衣物、盒子等內部的襯裡／內襯」。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-33"
     },
@@ -3176,11 +2896,9 @@ export default {
       "masked": "Trees ____.",
       "options": [
         "line-mcq-34",
-        "line-mcq-33",
-        "line-mcq-35",
-        "line-mcq-32",
-        "line-mcq-36",
-        "line-mcq-31"
+        "line-mcq-24",
+        "line-mcq-21",
+        "line-mcq-43"
       ],
       "explanation": "本句的「lined the road」指「沿道路／街道兩旁排列」。",
       "sentenceIndex": 78,
@@ -3189,12 +2907,10 @@ export default {
         "lined the road"
       ],
       "optionReasons": {
-        "line-mcq-34": "本句指「沿道路／街道兩旁排列」。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。"
+        "line-mcq-34": "本句的「lined the road」指「沿道路／街道兩旁排列」。",
+        "line-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-34"
     },
@@ -3206,11 +2922,9 @@ export default {
       "masked": "People ____ to watch the parade.",
       "options": [
         "line-mcq-34",
-        "line-mcq-33",
-        "line-mcq-35",
-        "line-mcq-32",
-        "line-mcq-36",
-        "line-mcq-31"
+        "line-mcq-30",
+        "line-mcq-43",
+        "line-mcq-29"
       ],
       "explanation": "本句的「lined the streets」指「沿道路／街道兩旁排列」。",
       "sentenceIndex": 79,
@@ -3219,12 +2933,10 @@ export default {
         "lined the streets"
       ],
       "optionReasons": {
-        "line-mcq-34": "本句指「沿道路／街道兩旁排列」。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。",
-        "line-mcq-31": "「掛衣服等用途的繩線」與本句語境不同。"
+        "line-mcq-34": "本句的「lined the streets」指「沿道路／街道兩旁排列」。",
+        "line-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-34"
     },
@@ -3236,11 +2948,9 @@ export default {
       "masked": "The decision is ____.",
       "options": [
         "line-mcq-35",
-        "line-mcq-34",
-        "line-mcq-36",
-        "line-mcq-33",
-        "line-mcq-37",
-        "line-mcq-32"
+        "line-mcq-14",
+        "line-mcq-46",
+        "line-mcq-48"
       ],
       "explanation": "本句的「in line with company policy」指「與規定、趨勢、標準等一致／符合」。",
       "sentenceIndex": 80,
@@ -3249,12 +2959,10 @@ export default {
         "in line with company policy"
       ],
       "optionReasons": {
-        "line-mcq-35": "本句指「與規定、趨勢、標準等一致／符合」。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。"
+        "line-mcq-35": "本句的「in line with company policy」指「與規定、趨勢、標準等一致／符合」。",
+        "line-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-35"
     },
@@ -3267,10 +2975,8 @@ export default {
       "options": [
         "line-mcq-35",
         "line-mcq-34",
-        "line-mcq-36",
-        "line-mcq-33",
-        "line-mcq-37",
-        "line-mcq-32"
+        "line-mcq-21",
+        "line-mcq-44"
       ],
       "explanation": "本句的「in line with inflation」指「與規定、趨勢、標準等一致／符合」。",
       "sentenceIndex": 81,
@@ -3279,12 +2985,10 @@ export default {
         "in line with inflation"
       ],
       "optionReasons": {
-        "line-mcq-35": "本句指「與規定、趨勢、標準等一致／符合」。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-32": "「在物體內部鋪上一層材料；加內襯」與本句語境不同。"
+        "line-mcq-35": "本句的「in line with inflation」指「與規定、趨勢、標準等一致／符合」。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-35"
     },
@@ -3296,11 +3000,9 @@ export default {
       "masked": "One tile is ____.",
       "options": [
         "line-mcq-36",
-        "line-mcq-35",
-        "line-mcq-37",
-        "line-mcq-34",
-        "line-mcq-38",
-        "line-mcq-33"
+        "line-mcq-26",
+        "line-mcq-43",
+        "line-mcq-03"
       ],
       "explanation": "本句的「out of line」指「沒有排齊／不在同一直線」。",
       "sentenceIndex": 82,
@@ -3309,12 +3011,10 @@ export default {
         "out of line"
       ],
       "optionReasons": {
-        "line-mcq-36": "本句指「沒有排齊／不在同一直線」。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-38": "「開始遵從規則、政策或他人的安排」與本句語境不同。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。"
+        "line-mcq-36": "本句的「out of line」指「沒有排齊／不在同一直線」。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-36"
     },
@@ -3326,11 +3026,9 @@ export default {
       "masked": "His comments were ____.",
       "options": [
         "line-mcq-36",
-        "line-mcq-35",
-        "line-mcq-37",
-        "line-mcq-34",
-        "line-mcq-38",
-        "line-mcq-33"
+        "line-mcq-15",
+        "line-mcq-03",
+        "line-mcq-16"
       ],
       "explanation": "本句的「out of line」指「沒有排齊／不在同一直線」。",
       "sentenceIndex": 83,
@@ -3339,12 +3037,10 @@ export default {
         "out of line"
       ],
       "optionReasons": {
-        "line-mcq-36": "本句指「沒有排齊／不在同一直線」。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-34": "「沿道路／街道兩旁排列」與本句語境不同。",
-        "line-mcq-38": "「開始遵從規則、政策或他人的安排」與本句語境不同。",
-        "line-mcq-33": "「衣物、盒子等內部的襯裡／內襯」與本句語境不同。"
+        "line-mcq-36": "本句的「out of line」指「沒有排齊／不在同一直線」。",
+        "line-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-36"
     },
@@ -3356,11 +3052,9 @@ export default {
       "masked": "Most employees quickly ____.",
       "options": [
         "line-mcq-38",
-        "line-mcq-37",
-        "line-mcq-39",
-        "line-mcq-36",
-        "line-mcq-40",
-        "line-mcq-35"
+        "line-mcq-45",
+        "line-mcq-32",
+        "line-mcq-03"
       ],
       "explanation": "本句的「fell into line」指「開始遵從規則、政策或他人的安排」。",
       "sentenceIndex": 84,
@@ -3369,12 +3063,10 @@ export default {
         "fell into line"
       ],
       "optionReasons": {
-        "line-mcq-38": "本句指「開始遵從規則、政策或他人的安排」。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-39": "「遵守規矩或服從既定要求」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。"
+        "line-mcq-38": "本句的「fell into line」指「開始遵從規則、政策或他人的安排」。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-38"
     },
@@ -3386,11 +3078,9 @@ export default {
       "masked": "He eventually ____ with the new policy.",
       "options": [
         "line-mcq-38",
-        "line-mcq-37",
-        "line-mcq-39",
-        "line-mcq-36",
-        "line-mcq-40",
-        "line-mcq-35"
+        "line-mcq-26",
+        "line-mcq-48",
+        "line-mcq-28"
       ],
       "explanation": "本句的「fell into line」指「開始遵從規則、政策或他人的安排」。",
       "sentenceIndex": 85,
@@ -3399,12 +3089,10 @@ export default {
         "fell into line"
       ],
       "optionReasons": {
-        "line-mcq-38": "本句指「開始遵從規則、政策或他人的安排」。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-39": "「遵守規矩或服從既定要求」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。",
-        "line-mcq-35": "「與規定、趨勢、標準等一致／符合」與本句語境不同。"
+        "line-mcq-38": "本句的「fell into line」指「開始遵從規則、政策或他人的安排」。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-38"
     },
@@ -3416,11 +3104,9 @@ export default {
       "masked": "Employees are expected to ____.",
       "options": [
         "line-mcq-39",
-        "line-mcq-38",
-        "line-mcq-40",
-        "line-mcq-37",
-        "line-mcq-41",
-        "line-mcq-36"
+        "line-mcq-01",
+        "line-mcq-06",
+        "line-mcq-13"
       ],
       "explanation": "本句的「toe the line」指「遵守規矩或服從既定要求」。",
       "sentenceIndex": 86,
@@ -3429,12 +3115,10 @@ export default {
         "toe the line"
       ],
       "optionReasons": {
-        "line-mcq-39": "本句指「遵守規矩或服從既定要求」。",
-        "line-mcq-38": "「開始遵從規則、政策或他人的安排」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。"
+        "line-mcq-39": "本句的「toe the line」指「遵守規矩或服從既定要求」。",
+        "line-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-39"
     },
@@ -3446,11 +3130,9 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "line-mcq-39",
-        "line-mcq-38",
-        "line-mcq-40",
-        "line-mcq-37",
-        "line-mcq-41",
-        "line-mcq-36"
+        "line-mcq-29",
+        "line-mcq-26",
+        "line-mcq-12"
       ],
       "explanation": "本句的「toe the party line」指「遵守規矩或服從既定要求」。",
       "sentenceIndex": 87,
@@ -3459,12 +3141,10 @@ export default {
         "toe the party line"
       ],
       "optionReasons": {
-        "line-mcq-39": "本句指「遵守規矩或服從既定要求」。",
-        "line-mcq-38": "「開始遵從規則、政策或他人的安排」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-36": "「沒有排齊／不在同一直線」與本句語境不同。"
+        "line-mcq-39": "本句的「toe the party line」指「遵守規矩或服從既定要求」。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-39"
     },
@@ -3476,11 +3156,9 @@ export default {
       "masked": "Higher costs hurt the company’s ____.",
       "options": [
         "line-mcq-40",
-        "line-mcq-39",
-        "line-mcq-41",
-        "line-mcq-38",
         "line-mcq-42",
-        "line-mcq-37"
+        "line-mcq-04",
+        "line-mcq-13"
       ],
       "explanation": "本句的「bottom line」指「最終財務結果／盈利」。",
       "sentenceIndex": 88,
@@ -3489,12 +3167,10 @@ export default {
         "bottom line"
       ],
       "optionReasons": {
-        "line-mcq-40": "本句指「最終財務結果／盈利」。",
-        "line-mcq-39": "「遵守規矩或服從既定要求」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-38": "「開始遵從規則、政策或他人的安排」與本句語境不同。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。"
+        "line-mcq-40": "本句的「bottom line」指「最終財務結果／盈利」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-40"
     },
@@ -3506,11 +3182,9 @@ export default {
       "masked": "The ____ is that we need more time.",
       "options": [
         "line-mcq-40",
-        "line-mcq-39",
-        "line-mcq-41",
-        "line-mcq-38",
-        "line-mcq-42",
-        "line-mcq-37"
+        "line-mcq-19",
+        "line-mcq-20",
+        "line-mcq-33"
       ],
       "explanation": "本句的「bottom line」指「最終財務結果／盈利」。",
       "sentenceIndex": 89,
@@ -3519,12 +3193,10 @@ export default {
         "bottom line"
       ],
       "optionReasons": {
-        "line-mcq-40": "本句指「最終財務結果／盈利」。",
-        "line-mcq-39": "「遵守規矩或服從既定要求」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-38": "「開始遵從規則、政策或他人的安排」與本句語境不同。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。",
-        "line-mcq-37": "「行為或言論不恰當、越界」與本句語境不同。"
+        "line-mcq-40": "本句的「bottom line」指「最終財務結果／盈利」。",
+        "line-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-40"
     },
@@ -3536,11 +3208,9 @@ export default {
       "masked": "The officer was injured ____.",
       "options": [
         "line-mcq-42",
-        "line-mcq-41",
+        "line-mcq-04",
         "line-mcq-43",
-        "line-mcq-40",
-        "line-mcq-44",
-        "line-mcq-39"
+        "line-mcq-30"
       ],
       "explanation": "本句的「in the line of duty」指「在執行正式職責期間；因公」。",
       "sentenceIndex": 90,
@@ -3549,12 +3219,10 @@ export default {
         "in the line of duty"
       ],
       "optionReasons": {
-        "line-mcq-42": "本句指「在執行正式職責期間；因公」。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-39": "「遵守規矩或服從既定要求」與本句語境不同。"
+        "line-mcq-42": "本句的「in the line of duty」指「在執行正式職責期間；因公」。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-42"
     },
@@ -3566,11 +3234,9 @@ export default {
       "masked": "They honored firefighters killed ____.",
       "options": [
         "line-mcq-42",
-        "line-mcq-41",
-        "line-mcq-43",
-        "line-mcq-40",
-        "line-mcq-44",
-        "line-mcq-39"
+        "line-mcq-27",
+        "line-mcq-16",
+        "line-mcq-28"
       ],
       "explanation": "本句的「in the line of duty」指「在執行正式職責期間；因公」。",
       "sentenceIndex": 91,
@@ -3579,12 +3245,10 @@ export default {
         "in the line of duty"
       ],
       "optionReasons": {
-        "line-mcq-42": "本句指「在執行正式職責期間；因公」。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-39": "「遵守規矩或服從既定要求」與本句語境不同。"
+        "line-mcq-42": "本句的「in the line of duty」指「在執行正式職責期間；因公」。",
+        "line-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-42"
     },
@@ -3596,11 +3260,9 @@ export default {
       "masked": "Something went wrong ____.",
       "options": [
         "line-mcq-43",
-        "line-mcq-42",
-        "line-mcq-44",
-        "line-mcq-41",
-        "line-mcq-45",
-        "line-mcq-40"
+        "line-mcq-38",
+        "line-mcq-17",
+        "line-mcq-42"
       ],
       "explanation": "本句的「somewhere along the line」指「在某個不明確的階段」。",
       "sentenceIndex": 92,
@@ -3609,12 +3271,10 @@ export default {
         "somewhere along the line"
       ],
       "optionReasons": {
-        "line-mcq-43": "本句指「在某個不明確的階段」。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。"
+        "line-mcq-43": "本句的「somewhere along the line」指「在某個不明確的階段」。",
+        "line-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-43"
     },
@@ -3627,10 +3287,8 @@ export default {
       "options": [
         "line-mcq-43",
         "line-mcq-42",
-        "line-mcq-44",
-        "line-mcq-41",
-        "line-mcq-45",
-        "line-mcq-40"
+        "line-mcq-32",
+        "line-mcq-25"
       ],
       "explanation": "本句的「Somewhere along the line」指「在某個不明確的階段」。",
       "sentenceIndex": 93,
@@ -3639,12 +3297,10 @@ export default {
         "Somewhere along the line"
       ],
       "optionReasons": {
-        "line-mcq-43": "本句指「在某個不明確的階段」。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-40": "「最終財務結果／盈利」與本句語境不同。"
+        "line-mcq-43": "本句的「Somewhere along the line」指「在某個不明確的階段」。",
+        "line-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-43"
     },
@@ -3656,11 +3312,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "line-mcq-44",
-        "line-mcq-43",
-        "line-mcq-45",
-        "line-mcq-42",
-        "line-mcq-46",
-        "line-mcq-41"
+        "line-mcq-26",
+        "line-mcq-28",
+        "line-mcq-27"
       ],
       "explanation": "本句的「put his reputation on the line」指「拿重要事物冒險／押上」。",
       "sentenceIndex": 94,
@@ -3669,12 +3323,10 @@ export default {
         "put his reputation on the line"
       ],
       "optionReasons": {
-        "line-mcq-44": "本句指「拿重要事物冒險／押上」。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。"
+        "line-mcq-44": "本句的「put his reputation on the line」指「拿重要事物冒險／押上」。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-44"
     },
@@ -3686,11 +3338,9 @@ export default {
       "masked": "She was willing to ____.",
       "options": [
         "line-mcq-44",
-        "line-mcq-43",
-        "line-mcq-45",
-        "line-mcq-42",
-        "line-mcq-46",
-        "line-mcq-41"
+        "line-mcq-29",
+        "line-mcq-04",
+        "line-mcq-26"
       ],
       "explanation": "本句的「put everything on the line」指「拿重要事物冒險／押上」。",
       "sentenceIndex": 95,
@@ -3699,12 +3349,10 @@ export default {
         "put everything on the line"
       ],
       "optionReasons": {
-        "line-mcq-44": "本句指「拿重要事物冒險／押上」。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-41": "「最重要、最實際的結論」與本句語境不同。"
+        "line-mcq-44": "本句的「put everything on the line」指「拿重要事物冒險／押上」。",
+        "line-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-44"
     },
@@ -3716,11 +3364,9 @@ export default {
       "masked": "His job is ____.",
       "options": [
         "line-mcq-45",
-        "line-mcq-44",
+        "line-mcq-38",
         "line-mcq-46",
-        "line-mcq-43",
-        "line-mcq-47",
-        "line-mcq-42"
+        "line-mcq-17"
       ],
       "explanation": "本句的「on the line」指「面臨失去或受損的風險」。",
       "sentenceIndex": 96,
@@ -3729,12 +3375,10 @@ export default {
         "on the line"
       ],
       "optionReasons": {
-        "line-mcq-45": "本句指「面臨失去或受損的風險」。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。",
-        "line-mcq-47": "「理解沒有明說的隱含意思；看懂弦外之音」與本句語境不同。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。"
+        "line-mcq-45": "本句的「on the line」指「面臨失去或受損的風險」。",
+        "line-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-45"
     },
@@ -3746,11 +3390,9 @@ export default {
       "masked": "A lot of money is ____.",
       "options": [
         "line-mcq-45",
-        "line-mcq-44",
-        "line-mcq-46",
-        "line-mcq-43",
-        "line-mcq-47",
-        "line-mcq-42"
+        "line-mcq-24",
+        "line-mcq-11",
+        "line-mcq-34"
       ],
       "explanation": "本句的「on the line」指「面臨失去或受損的風險」。",
       "sentenceIndex": 97,
@@ -3759,12 +3401,10 @@ export default {
         "on the line"
       ],
       "optionReasons": {
-        "line-mcq-45": "本句指「面臨失去或受損的風險」。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。",
-        "line-mcq-47": "「理解沒有明說的隱含意思；看懂弦外之音」與本句語境不同。",
-        "line-mcq-42": "「在執行正式職責期間；因公」與本句語境不同。"
+        "line-mcq-45": "本句的「on the line」指「面臨失去或受損的風險」。",
+        "line-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-45"
     },
@@ -3776,11 +3416,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "line-mcq-46",
-        "line-mcq-45",
-        "line-mcq-47",
-        "line-mcq-44",
-        "line-mcq-48",
-        "line-mcq-43"
+        "line-mcq-30",
+        "line-mcq-03",
+        "line-mcq-15"
       ],
       "explanation": "本句的「draw a line under the past」指「讓某段事情告一段落、翻篇」。",
       "sentenceIndex": 98,
@@ -3789,12 +3427,10 @@ export default {
         "draw a line under the past"
       ],
       "optionReasons": {
-        "line-mcq-46": "本句指「讓某段事情告一段落、翻篇」。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-47": "「理解沒有明說的隱含意思；看懂弦外之音」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-48": "「以直線或順序方式發展的；線性的」與本句語境不同。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。"
+        "line-mcq-46": "本句的「draw a line under the past」指「讓某段事情告一段落、翻篇」。",
+        "line-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-46"
     },
@@ -3806,11 +3442,9 @@ export default {
       "masked": "She wanted to ____.",
       "options": [
         "line-mcq-46",
+        "line-mcq-32",
         "line-mcq-45",
-        "line-mcq-47",
-        "line-mcq-44",
-        "line-mcq-48",
-        "line-mcq-43"
+        "line-mcq-44"
       ],
       "explanation": "本句的「draw a line under the whole episode」指「讓某段事情告一段落、翻篇」。",
       "sentenceIndex": 99,
@@ -3819,12 +3453,10 @@ export default {
         "draw a line under the whole episode"
       ],
       "optionReasons": {
-        "line-mcq-46": "本句指「讓某段事情告一段落、翻篇」。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-47": "「理解沒有明說的隱含意思；看懂弦外之音」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。",
-        "line-mcq-48": "「以直線或順序方式發展的；線性的」與本句語境不同。",
-        "line-mcq-43": "「在某個不明確的階段」與本句語境不同。"
+        "line-mcq-46": "本句的「draw a line under the whole episode」指「讓某段事情告一段落、翻篇」。",
+        "line-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-46"
     },
@@ -3836,11 +3468,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "line-mcq-47",
-        "line-mcq-46",
-        "line-mcq-48",
-        "line-mcq-45",
-        "line-mcq-49",
-        "line-mcq-44"
+        "line-mcq-44",
+        "line-mcq-06",
+        "line-mcq-46"
       ],
       "explanation": "本句的「read between the lines」指「理解沒有明說的隱含意思；看懂弦外之音」。",
       "sentenceIndex": 100,
@@ -3849,12 +3479,10 @@ export default {
         "read between the lines"
       ],
       "optionReasons": {
-        "line-mcq-47": "本句指「理解沒有明說的隱含意思；看懂弦外之音」。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-48": "「以直線或順序方式發展的；線性的」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-49": "「活動／球隊等的陣容；也可指警方列隊辨認」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。"
+        "line-mcq-47": "本句的「read between the lines」指「理解沒有明說的隱含意思；看懂弦外之音」。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-47"
     },
@@ -3866,11 +3494,9 @@ export default {
       "masked": "____, I think she was disappointed.",
       "options": [
         "line-mcq-47",
-        "line-mcq-46",
-        "line-mcq-48",
-        "line-mcq-45",
-        "line-mcq-49",
-        "line-mcq-44"
+        "line-mcq-38",
+        "line-mcq-17",
+        "line-mcq-20"
       ],
       "explanation": "本句的「Reading between the lines」指「理解沒有明說的隱含意思；看懂弦外之音」。",
       "sentenceIndex": 101,
@@ -3879,12 +3505,10 @@ export default {
         "Reading between the lines"
       ],
       "optionReasons": {
-        "line-mcq-47": "本句指「理解沒有明說的隱含意思；看懂弦外之音」。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-48": "「以直線或順序方式發展的；線性的」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-49": "「活動／球隊等的陣容；也可指警方列隊辨認」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。"
+        "line-mcq-47": "本句的「Reading between the lines」指「理解沒有明說的隱含意思；看懂弦外之音」。",
+        "line-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-47"
     },
@@ -3896,11 +3520,9 @@ export default {
       "masked": "The points form a ____.",
       "options": [
         "line-mcq-48",
-        "line-mcq-47",
-        "line-mcq-49",
-        "line-mcq-46",
-        "line-mcq-45",
-        "line-mcq-44"
+        "line-mcq-08",
+        "line-mcq-26",
+        "line-mcq-03"
       ],
       "explanation": "本句的「linear pattern」指「以直線或順序方式發展的；線性的」。",
       "sentenceIndex": 102,
@@ -3909,12 +3531,10 @@ export default {
         "linear pattern"
       ],
       "optionReasons": {
-        "line-mcq-48": "本句指「以直線或順序方式發展的；線性的」。",
-        "line-mcq-47": "「理解沒有明說的隱含意思；看懂弦外之音」與本句語境不同。",
-        "line-mcq-49": "「活動／球隊等的陣容；也可指警方列隊辨認」與本句語境不同。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。"
+        "line-mcq-48": "本句的「linear pattern」指「以直線或順序方式發展的；線性的」。",
+        "line-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-48"
     },
@@ -3926,11 +3546,9 @@ export default {
       "masked": "Career development is not always ____.",
       "options": [
         "line-mcq-48",
-        "line-mcq-47",
-        "line-mcq-49",
-        "line-mcq-46",
-        "line-mcq-45",
-        "line-mcq-44"
+        "line-mcq-44",
+        "line-mcq-33",
+        "line-mcq-22"
       ],
       "explanation": "本句的「linear」指「以直線或順序方式發展的；線性的」。",
       "sentenceIndex": 103,
@@ -3939,12 +3557,10 @@ export default {
         "linear"
       ],
       "optionReasons": {
-        "line-mcq-48": "本句指「以直線或順序方式發展的；線性的」。",
-        "line-mcq-47": "「理解沒有明說的隱含意思；看懂弦外之音」與本句語境不同。",
-        "line-mcq-49": "「活動／球隊等的陣容；也可指警方列隊辨認」與本句語境不同。",
-        "line-mcq-46": "「讓某段事情告一段落、翻篇」與本句語境不同。",
-        "line-mcq-45": "「面臨失去或受損的風險」與本句語境不同。",
-        "line-mcq-44": "「拿重要事物冒險／押上」與本句語境不同。"
+        "line-mcq-48": "本句的「linear」指「以直線或順序方式發展的；線性的」。",
+        "line-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "line-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "line-mcq-48"
     }
@@ -3956,5 +3572,7 @@ export default {
     "sha256": "ce7851b80e004f8444e08c9b7a36b2e8b64d9cc25c648dc11ffff944cf26aaeb",
     "pages": 27
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

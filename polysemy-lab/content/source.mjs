@@ -119,16 +119,6 @@ export default {
           "The journalist refused to identify her source.",
           "記者拒絕透露她的消息來源。",
           "提供事實、資料、證據或消息的人／文件／網站等"
-        ],
-        [
-          "Journalists source information from interviews and documents.",
-          "記者從訪問和文件中搜集資訊。",
-          "提供事實、資料、證據或消息的人／文件／網站等"
-        ],
-        [
-          "The team sourced data from public records.",
-          "團隊從公開紀錄中取得資料。",
-          "提供事實、資料、證據或消息的人／文件／網站等"
         ]
       ],
       "options": [],
@@ -697,6 +687,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "source-reviewed-8eecc796d5",
+      "title": "找到並取得所需資訊／資料",
+      "form": "source · source section 59",
+      "en": "找到並取得所需資訊／資料",
+      "zh": "找到並取得所需資訊／資料",
+      "note": "對照原始教材第 59 節及例句核實。",
+      "examples": [
+        [
+          "Journalists source information from interviews and documents.",
+          "記者從訪問和文件中搜集資訊。",
+          "找到並取得所需資訊／資料"
+        ],
+        [
+          "The team sourced data from public records.",
+          "團隊從公開紀錄中取得資料。",
+          "找到並取得所需資訊／資料"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -708,11 +720,9 @@ export default {
       "masked": "We need to find the ____ of the smell.",
       "options": [
         "source-mcq-01",
-        "source-mcq-02",
-        "source-mcq-03",
-        "source-mcq-04",
-        "source-mcq-05",
-        "source-mcq-06"
+        "source-mcq-06",
+        "source-mcq-17",
+        "source-mcq-23"
       ],
       "explanation": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
       "sentenceIndex": 0,
@@ -721,12 +731,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-01": "本句指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-01": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
+        "source-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-01"
     },
@@ -738,11 +746,9 @@ export default {
       "masked": "The river’s ____ is high in the mountains.",
       "options": [
         "source-mcq-01",
-        "source-mcq-02",
-        "source-mcq-03",
-        "source-mcq-04",
-        "source-mcq-05",
-        "source-mcq-06"
+        "source-mcq-22",
+        "source-mcq-17",
+        "source-mcq-25"
       ],
       "explanation": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
       "sentenceIndex": 1,
@@ -751,12 +757,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-01": "本句指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-01": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-01"
     },
@@ -768,11 +772,9 @@ export default {
       "masked": "They identified the ____ of the problem.",
       "options": [
         "source-mcq-02",
-        "source-mcq-01",
-        "source-mcq-03",
-        "source-mcq-04",
-        "source-mcq-05",
-        "source-mcq-06"
+        "source-mcq-06",
+        "source-mcq-11",
+        "source-mcq-13"
       ],
       "explanation": "本句的「source」指「導致某問題、情況或結果產生的根源」。",
       "sentenceIndex": 4,
@@ -781,12 +783,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-02": "本句指「導致某問題、情況或結果產生的根源」。",
-        "source-mcq-01": "「某人／物／現象最初產生、流出或取得的地方、人或事物」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-02": "本句的「source」指「導致某問題、情況或結果產生的根源」。",
+        "source-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-02"
     },
@@ -798,11 +798,9 @@ export default {
       "masked": "Poor communication was a major ____ of conflict.",
       "options": [
         "source-mcq-02",
-        "source-mcq-01",
-        "source-mcq-03",
-        "source-mcq-04",
-        "source-mcq-05",
-        "source-mcq-06"
+        "source-mcq-22",
+        "source-mcq-24",
+        "source-mcq-11"
       ],
       "explanation": "本句的「source」指「導致某問題、情況或結果產生的根源」。",
       "sentenceIndex": 5,
@@ -811,12 +809,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-02": "本句指「導致某問題、情況或結果產生的根源」。",
-        "source-mcq-01": "「某人／物／現象最初產生、流出或取得的地方、人或事物」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-02": "本句的「source」指「導致某問題、情況或結果產生的根源」。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-02"
     },
@@ -828,11 +824,9 @@ export default {
       "masked": "The café is her main ____.",
       "options": [
         "source-mcq-04",
-        "source-mcq-03",
-        "source-mcq-05",
-        "source-mcq-02",
-        "source-mcq-06",
-        "source-mcq-01"
+        "source-mcq-09",
+        "source-mcq-22",
+        "source-mcq-24"
       ],
       "explanation": "本句的「source of income」指「提供金錢收入的工作、活動或資產」。",
       "sentenceIndex": 6,
@@ -841,12 +835,10 @@ export default {
         "source of income"
       ],
       "optionReasons": {
-        "source-mcq-04": "本句指「提供金錢收入的工作、活動或資產」。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-01": "「某人／物／現象最初產生、流出或取得的地方、人或事物」與本句語境不同。"
+        "source-mcq-04": "本句的「source of income」指「提供金錢收入的工作、活動或資產」。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-04"
     },
@@ -858,11 +850,9 @@ export default {
       "masked": "Advertising is an important ____ of revenue.",
       "options": [
         "source-mcq-04",
-        "source-mcq-03",
-        "source-mcq-05",
-        "source-mcq-02",
-        "source-mcq-06",
-        "source-mcq-01"
+        "source-mcq-22",
+        "source-mcq-24",
+        "source-mcq-31"
       ],
       "explanation": "本句的「source」指「提供金錢收入的工作、活動或資產」。",
       "sentenceIndex": 7,
@@ -871,12 +861,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-04": "本句指「提供金錢收入的工作、活動或資產」。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-01": "「某人／物／現象最初產生、流出或取得的地方、人或事物」與本句語境不同。"
+        "source-mcq-04": "本句的「source」指「提供金錢收入的工作、活動或資產」。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-04"
     },
@@ -888,11 +876,9 @@ export default {
       "masked": "Always check the ____ of the information.",
       "options": [
         "source-mcq-05",
-        "source-mcq-04",
-        "source-mcq-06",
-        "source-mcq-03",
-        "source-mcq-07",
-        "source-mcq-02"
+        "source-mcq-27",
+        "source-mcq-21",
+        "source-mcq-09"
       ],
       "explanation": "本句的「source」指「提供事實、資料、證據或消息的人／文件／網站等」。",
       "sentenceIndex": 8,
@@ -901,12 +887,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-05": "本句指「提供事實、資料、證據或消息的人／文件／網站等」。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。"
+        "source-mcq-05": "本句的「source」指「提供事實、資料、證據或消息的人／文件／網站等」。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-05"
     },
@@ -918,11 +902,9 @@ export default {
       "masked": "The article cites several reliable ____.",
       "options": [
         "source-mcq-05",
-        "source-mcq-04",
-        "source-mcq-06",
-        "source-mcq-03",
-        "source-mcq-07",
-        "source-mcq-02"
+        "source-mcq-09",
+        "source-mcq-24",
+        "source-mcq-27"
       ],
       "explanation": "本句的「sources」指「提供事實、資料、證據或消息的人／文件／網站等」。",
       "sentenceIndex": 9,
@@ -931,12 +913,10 @@ export default {
         "sources"
       ],
       "optionReasons": {
-        "source-mcq-05": "本句指「提供事實、資料、證據或消息的人／文件／網站等」。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。"
+        "source-mcq-05": "本句的「sources」指「提供事實、資料、證據或消息的人／文件／網站等」。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-05"
     },
@@ -948,11 +928,9 @@ export default {
       "masked": "Letters and diaries can be valuable ____.",
       "options": [
         "source-mcq-06",
-        "source-mcq-05",
-        "source-mcq-07",
-        "source-mcq-04",
-        "source-mcq-08",
-        "source-mcq-03"
+        "source-mcq-26",
+        "source-mcq-27",
+        "source-mcq-13"
       ],
       "explanation": "本句的「primary sources」指「直接來自事件、當事人、原始紀錄或數據的第一手材料」。",
       "sentenceIndex": 10,
@@ -961,12 +939,10 @@ export default {
         "primary sources"
       ],
       "optionReasons": {
-        "source-mcq-06": "本句指「直接來自事件、當事人、原始紀錄或數據的第一手材料」。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。"
+        "source-mcq-06": "本句的「primary sources」指「直接來自事件、當事人、原始紀錄或數據的第一手材料」。",
+        "source-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-06"
     },
@@ -978,11 +954,9 @@ export default {
       "masked": "The historian examined several primary ____.",
       "options": [
         "source-mcq-06",
-        "source-mcq-05",
-        "source-mcq-07",
-        "source-mcq-04",
-        "source-mcq-08",
-        "source-mcq-03"
+        "source-mcq-01",
+        "source-mcq-27",
+        "source-mcq-23"
       ],
       "explanation": "本句的「sources」指「直接來自事件、當事人、原始紀錄或數據的第一手材料」。",
       "sentenceIndex": 11,
@@ -991,12 +965,10 @@ export default {
         "sources"
       ],
       "optionReasons": {
-        "source-mcq-06": "本句指「直接來自事件、當事人、原始紀錄或數據的第一手材料」。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。"
+        "source-mcq-06": "本句的「sources」指「直接來自事件、當事人、原始紀錄或數據的第一手材料」。",
+        "source-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-06"
     },
@@ -1008,11 +980,9 @@ export default {
       "masked": "A textbook is usually a ____.",
       "options": [
         "source-mcq-07",
-        "source-mcq-06",
-        "source-mcq-08",
-        "source-mcq-05",
         "source-mcq-09",
-        "source-mcq-04"
+        "source-mcq-30",
+        "source-mcq-25"
       ],
       "explanation": "本句的「secondary source」指「根據第一手材料作分析、整理或解釋的資料」。",
       "sentenceIndex": 12,
@@ -1021,12 +991,10 @@ export default {
         "secondary source"
       ],
       "optionReasons": {
-        "source-mcq-07": "本句指「根據第一手材料作分析、整理或解釋的資料」。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。"
+        "source-mcq-07": "本句的「secondary source」指「根據第一手材料作分析、整理或解釋的資料」。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-07"
     },
@@ -1038,11 +1006,9 @@ export default {
       "masked": "The essay compares primary and secondary ____.",
       "options": [
         "source-mcq-07",
-        "source-mcq-06",
-        "source-mcq-08",
-        "source-mcq-05",
-        "source-mcq-09",
-        "source-mcq-04"
+        "source-mcq-13",
+        "source-mcq-30",
+        "source-mcq-17"
       ],
       "explanation": "本句的「sources」指「根據第一手材料作分析、整理或解釋的資料」。",
       "sentenceIndex": 13,
@@ -1051,12 +1017,10 @@ export default {
         "sources"
       ],
       "optionReasons": {
-        "source-mcq-07": "本句指「根據第一手材料作分析、整理或解釋的資料」。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。"
+        "source-mcq-07": "本句的「sources」指「根據第一手材料作分析、整理或解釋的資料」。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-07"
     },
@@ -1068,11 +1032,9 @@ export default {
       "masked": "A government ____ confirmed the report.",
       "options": [
         "source-mcq-05",
-        "source-mcq-04",
-        "source-mcq-06",
-        "source-mcq-03",
-        "source-mcq-07",
-        "source-mcq-02"
+        "source-mcq-27",
+        "source-mcq-31",
+        "source-mcq-13"
       ],
       "explanation": "本句的「source」指「提供事實、資料、證據或消息的人／文件／網站等」。",
       "sentenceIndex": 20,
@@ -1081,12 +1043,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-05": "本句指「提供事實、資料、證據或消息的人／文件／網站等」。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。"
+        "source-mcq-05": "本句的「source」指「提供事實、資料、證據或消息的人／文件／網站等」。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-05"
     },
@@ -1098,11 +1058,9 @@ export default {
       "masked": "The journalist refused to identify her ____.",
       "options": [
         "source-mcq-05",
-        "source-mcq-04",
-        "source-mcq-06",
-        "source-mcq-03",
-        "source-mcq-07",
-        "source-mcq-02"
+        "source-mcq-24",
+        "source-mcq-21",
+        "source-mcq-17"
       ],
       "explanation": "本句的「source」指「提供事實、資料、證據或消息的人／文件／網站等」。",
       "sentenceIndex": 21,
@@ -1111,12 +1069,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-05": "本句指「提供事實、資料、證據或消息的人／文件／網站等」。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。"
+        "source-mcq-05": "本句的「source」指「提供事實、資料、證據或消息的人／文件／網站等」。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-05"
     },
@@ -1128,11 +1084,9 @@ export default {
       "masked": "They travelled to the ____.",
       "options": [
         "source-mcq-09",
-        "source-mcq-08",
-        "source-mcq-10",
         "source-mcq-07",
-        "source-mcq-11",
-        "source-mcq-06"
+        "source-mcq-27",
+        "source-mcq-26"
       ],
       "explanation": "本句的「source of the river」指「河流／溪流開始流出的源頭」。",
       "sentenceIndex": 26,
@@ -1141,12 +1095,10 @@ export default {
         "source of the river"
       ],
       "optionReasons": {
-        "source-mcq-09": "本句指「河流／溪流開始流出的源頭」。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-09": "本句的「source of the river」指「河流／溪流開始流出的源頭」。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-09"
     },
@@ -1158,11 +1110,9 @@ export default {
       "masked": "The stream has its ____ in the hills.",
       "options": [
         "source-mcq-09",
-        "source-mcq-08",
-        "source-mcq-10",
-        "source-mcq-07",
-        "source-mcq-11",
-        "source-mcq-06"
+        "source-mcq-19",
+        "source-mcq-23",
+        "source-mcq-30"
       ],
       "explanation": "本句的「source」指「河流／溪流開始流出的源頭」。",
       "sentenceIndex": 27,
@@ -1171,12 +1121,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-09": "本句指「河流／溪流開始流出的源頭」。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-09": "本句的「source」指「河流／溪流開始流出的源頭」。",
+        "source-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-09"
     },
@@ -1188,11 +1136,9 @@ export default {
       "masked": "The village depends on a nearby ____.",
       "options": [
         "source-mcq-10",
-        "source-mcq-09",
-        "source-mcq-11",
-        "source-mcq-08",
-        "source-mcq-12",
-        "source-mcq-07"
+        "source-mcq-22",
+        "source-mcq-13",
+        "source-mcq-17"
       ],
       "explanation": "本句的「water source」指「提供可用水的自然／人工來源」。",
       "sentenceIndex": 28,
@@ -1201,12 +1147,10 @@ export default {
         "water source"
       ],
       "optionReasons": {
-        "source-mcq-10": "本句指「提供可用水的自然／人工來源」。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-12": "「為裝置／系統直接提供電力或動力的來源」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。"
+        "source-mcq-10": "本句的「water source」指「提供可用水的自然／人工來源」。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-10"
     },
@@ -1218,11 +1162,9 @@ export default {
       "masked": "Pollution affected the local water ____.",
       "options": [
         "source-mcq-10",
-        "source-mcq-09",
-        "source-mcq-11",
-        "source-mcq-08",
-        "source-mcq-12",
-        "source-mcq-07"
+        "source-mcq-31",
+        "source-mcq-21",
+        "source-mcq-17"
       ],
       "explanation": "本句的「source」指「提供可用水的自然／人工來源」。",
       "sentenceIndex": 29,
@@ -1231,12 +1173,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-10": "本句指「提供可用水的自然／人工來源」。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。",
-        "source-mcq-12": "「為裝置／系統直接提供電力或動力的來源」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。"
+        "source-mcq-10": "本句的「source」指「提供可用水的自然／人工來源」。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-10"
     },
@@ -1248,11 +1188,9 @@ export default {
       "masked": "Solar power is a renewable ____.",
       "options": [
         "source-mcq-11",
-        "source-mcq-10",
-        "source-mcq-12",
-        "source-mcq-09",
-        "source-mcq-13",
-        "source-mcq-08"
+        "source-mcq-24",
+        "source-mcq-22",
+        "source-mcq-09"
       ],
       "explanation": "本句的「energy source」指「能提供可用能量的物質／自然現象／技術」。",
       "sentenceIndex": 32,
@@ -1261,12 +1199,10 @@ export default {
         "energy source"
       ],
       "optionReasons": {
-        "source-mcq-11": "本句指「能提供可用能量的物質／自然現象／技術」。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。",
-        "source-mcq-12": "「為裝置／系統直接提供電力或動力的來源」與本句語境不同。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。",
-        "source-mcq-13": "「發出光、聲音或熱的物體／位置」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。"
+        "source-mcq-11": "本句的「energy source」指「能提供可用能量的物質／自然現象／技術」。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-11"
     },
@@ -1278,11 +1214,9 @@ export default {
       "masked": "The country relies on several energy ____.",
       "options": [
         "source-mcq-11",
-        "source-mcq-10",
-        "source-mcq-12",
-        "source-mcq-09",
-        "source-mcq-13",
-        "source-mcq-08"
+        "source-mcq-30",
+        "source-mcq-23",
+        "source-mcq-09"
       ],
       "explanation": "本句的「sources」指「能提供可用能量的物質／自然現象／技術」。",
       "sentenceIndex": 33,
@@ -1291,12 +1225,10 @@ export default {
         "sources"
       ],
       "optionReasons": {
-        "source-mcq-11": "本句指「能提供可用能量的物質／自然現象／技術」。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。",
-        "source-mcq-12": "「為裝置／系統直接提供電力或動力的來源」與本句語境不同。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。",
-        "source-mcq-13": "「發出光、聲音或熱的物體／位置」與本句語境不同。",
-        "source-mcq-08": "「向記者提供消息的人」與本句語境不同。"
+        "source-mcq-11": "本句的「sources」指「能提供可用能量的物質／自然現象／技術」。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-11"
     },
@@ -1308,11 +1240,9 @@ export default {
       "masked": "Check the ____ before using the device.",
       "options": [
         "source-mcq-12",
-        "source-mcq-11",
-        "source-mcq-13",
-        "source-mcq-10",
-        "source-mcq-14",
-        "source-mcq-09"
+        "source-mcq-31",
+        "source-mcq-27",
+        "source-mcq-22"
       ],
       "explanation": "本句的「power source」指「為裝置／系統直接提供電力或動力的來源」。",
       "sentenceIndex": 34,
@@ -1321,12 +1251,10 @@ export default {
         "power source"
       ],
       "optionReasons": {
-        "source-mcq-12": "本句指「為裝置／系統直接提供電力或動力的來源」。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-13": "「發出光、聲音或熱的物體／位置」與本句語境不同。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。"
+        "source-mcq-12": "本句的「power source」指「為裝置／系統直接提供電力或動力的來源」。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-12"
     },
@@ -1338,11 +1266,9 @@ export default {
       "masked": "The battery acts as the main power ____.",
       "options": [
         "source-mcq-12",
-        "source-mcq-11",
-        "source-mcq-13",
-        "source-mcq-10",
-        "source-mcq-14",
-        "source-mcq-09"
+        "source-mcq-22",
+        "source-mcq-30",
+        "source-mcq-27"
       ],
       "explanation": "本句的「source」指「為裝置／系統直接提供電力或動力的來源」。",
       "sentenceIndex": 35,
@@ -1351,12 +1277,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-12": "本句指「為裝置／系統直接提供電力或動力的來源」。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-13": "「發出光、聲音或熱的物體／位置」與本句語境不同。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。",
-        "source-mcq-09": "「河流／溪流開始流出的源頭」與本句語境不同。"
+        "source-mcq-12": "本句的「source」指「為裝置／系統直接提供電力或動力的來源」。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-12"
     },
@@ -1368,11 +1292,9 @@ export default {
       "masked": "Keep the container away from any ____.",
       "options": [
         "source-mcq-13",
-        "source-mcq-12",
-        "source-mcq-14",
-        "source-mcq-11",
-        "source-mcq-15",
-        "source-mcq-10"
+        "source-mcq-28",
+        "source-mcq-31",
+        "source-mcq-27"
       ],
       "explanation": "本句的「heat source」指「發出光、聲音或熱的物體／位置」。",
       "sentenceIndex": 42,
@@ -1381,12 +1303,10 @@ export default {
         "heat source"
       ],
       "optionReasons": {
-        "source-mcq-13": "本句指「發出光、聲音或熱的物體／位置」。",
-        "source-mcq-12": "「為裝置／系統直接提供電力或動力的來源」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。"
+        "source-mcq-13": "本句的「heat source」指「發出光、聲音或熱的物體／位置」。",
+        "source-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-13"
     },
@@ -1398,11 +1318,9 @@ export default {
       "masked": "The heater is the room’s main heat ____.",
       "options": [
         "source-mcq-13",
-        "source-mcq-12",
-        "source-mcq-14",
-        "source-mcq-11",
-        "source-mcq-15",
-        "source-mcq-10"
+        "source-mcq-18",
+        "source-mcq-17",
+        "source-mcq-07"
       ],
       "explanation": "本句的「source」指「發出光、聲音或熱的物體／位置」。",
       "sentenceIndex": 43,
@@ -1411,12 +1329,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-13": "本句指「發出光、聲音或熱的物體／位置」。",
-        "source-mcq-12": "「為裝置／系統直接提供電力或動力的來源」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。",
-        "source-mcq-11": "「能提供可用能量的物質／自然現象／技術」與本句語境不同。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。",
-        "source-mcq-10": "「提供可用水的自然／人工來源」與本句語境不同。"
+        "source-mcq-13": "本句的「source」指「發出光、聲音或熱的物體／位置」。",
+        "source-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-13"
     },
@@ -1428,11 +1344,9 @@ export default {
       "masked": "The company needs a reliable ____ of flour.",
       "options": [
         "source-mcq-01",
-        "source-mcq-02",
-        "source-mcq-03",
-        "source-mcq-04",
-        "source-mcq-05",
-        "source-mcq-06"
+        "source-mcq-22",
+        "source-mcq-25",
+        "source-mcq-17"
       ],
       "explanation": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
       "sentenceIndex": 52,
@@ -1441,12 +1355,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-01": "本句指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-01": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-01"
     },
@@ -1458,11 +1370,9 @@ export default {
       "masked": "They found a cheaper ____ of materials.",
       "options": [
         "source-mcq-01",
-        "source-mcq-02",
-        "source-mcq-03",
-        "source-mcq-04",
-        "source-mcq-05",
-        "source-mcq-06"
+        "source-mcq-18",
+        "source-mcq-29",
+        "source-mcq-23"
       ],
       "explanation": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
       "sentenceIndex": 53,
@@ -1471,12 +1381,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-01": "本句指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-05": "「提供事實、資料、證據或消息的人／文件／網站等」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。"
+        "source-mcq-01": "本句的「source」指「某人／物／現象最初產生、流出或取得的地方、人或事物」。",
+        "source-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-01"
     },
@@ -1488,11 +1396,9 @@ export default {
       "masked": "The company is reviewing its ____ strategy.",
       "options": [
         "source-mcq-16",
-        "source-mcq-15",
-        "source-mcq-17",
-        "source-mcq-14",
-        "source-mcq-18",
-        "source-mcq-13"
+        "source-mcq-31",
+        "source-mcq-21",
+        "source-mcq-07"
       ],
       "explanation": "本句的「sourcing」指「尋找、選擇並取得供應來源的過程」。",
       "sentenceIndex": 58,
@@ -1501,12 +1407,10 @@ export default {
         "sourcing"
       ],
       "optionReasons": {
-        "source-mcq-16": "本句指「尋找、選擇並取得供應來源的過程」。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-13": "「發出光、聲音或熱的物體／位置」與本句語境不同。"
+        "source-mcq-16": "本句的「sourcing」指「尋找、選擇並取得供應來源的過程」。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-16"
     },
@@ -1518,11 +1422,9 @@ export default {
       "masked": "Ethical ____ has become more important.",
       "options": [
         "source-mcq-16",
-        "source-mcq-15",
-        "source-mcq-17",
-        "source-mcq-14",
-        "source-mcq-18",
-        "source-mcq-13"
+        "source-mcq-21",
+        "source-mcq-07",
+        "source-mcq-30"
       ],
       "explanation": "本句的「sourcing」指「尋找、選擇並取得供應來源的過程」。",
       "sentenceIndex": 59,
@@ -1531,12 +1433,10 @@ export default {
         "sourcing"
       ],
       "optionReasons": {
-        "source-mcq-16": "本句指「尋找、選擇並取得供應來源的過程」。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-13": "「發出光、聲音或熱的物體／位置」與本句語境不同。"
+        "source-mcq-16": "本句的「sourcing」指「尋找、選擇並取得供應來源的過程」。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-16"
     },
@@ -1548,11 +1448,9 @@ export default {
       "masked": "Recruiters ____ through professional networks.",
       "options": [
         "source-mcq-17",
-        "source-mcq-16",
-        "source-mcq-18",
-        "source-mcq-15",
-        "source-mcq-19",
-        "source-mcq-14"
+        "source-mcq-11",
+        "source-mcq-02",
+        "source-mcq-09"
       ],
       "explanation": "本句的「source candidates」指「主動尋找並接觸可能合適的求職者」。",
       "sentenceIndex": 66,
@@ -1561,12 +1459,10 @@ export default {
         "source candidates"
       ],
       "optionReasons": {
-        "source-mcq-17": "本句指「主動尋找並接觸可能合適的求職者」。",
-        "source-mcq-16": "「尋找、選擇並取得供應來源的過程」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。"
+        "source-mcq-17": "本句的「source candidates」指「主動尋找並接觸可能合適的求職者」。",
+        "source-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-17"
     },
@@ -1578,11 +1474,9 @@ export default {
       "masked": "The company is ____ engineers for the new team.",
       "options": [
         "source-mcq-17",
-        "source-mcq-16",
-        "source-mcq-18",
-        "source-mcq-15",
-        "source-mcq-19",
-        "source-mcq-14"
+        "source-mcq-10",
+        "source-mcq-07",
+        "source-mcq-13"
       ],
       "explanation": "本句的「sourcing」指「主動尋找並接觸可能合適的求職者」。",
       "sentenceIndex": 67,
@@ -1591,12 +1485,10 @@ export default {
         "sourcing"
       ],
       "optionReasons": {
-        "source-mcq-17": "本句指「主動尋找並接觸可能合適的求職者」。",
-        "source-mcq-16": "「尋找、選擇並取得供應來源的過程」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-14": "「提供商品、材料或零件的供應來源／貨源」與本句語境不同。"
+        "source-mcq-17": "本句的「sourcing」指「主動尋找並接觸可能合適的求職者」。",
+        "source-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-17"
     },
@@ -1608,11 +1500,9 @@ export default {
       "masked": "Developers can inspect the ____.",
       "options": [
         "source-mcq-18",
-        "source-mcq-17",
-        "source-mcq-19",
-        "source-mcq-16",
-        "source-mcq-20",
-        "source-mcq-15"
+        "source-mcq-13",
+        "source-mcq-31",
+        "source-mcq-23"
       ],
       "explanation": "本句的「source code」指「程式員撰寫、可供人閱讀的原始程式碼」。",
       "sentenceIndex": 70,
@@ -1621,12 +1511,10 @@ export default {
         "source code"
       ],
       "optionReasons": {
-        "source-mcq-18": "本句指「程式員撰寫、可供人閱讀的原始程式碼」。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-16": "「尋找、選擇並取得供應來源的過程」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。"
+        "source-mcq-18": "本句的「source code」指「程式員撰寫、可供人閱讀的原始程式碼」。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-18"
     },
@@ -1638,11 +1526,9 @@ export default {
       "masked": "The bug was found in the ____ code.",
       "options": [
         "source-mcq-18",
-        "source-mcq-17",
-        "source-mcq-19",
-        "source-mcq-16",
-        "source-mcq-20",
-        "source-mcq-15"
+        "source-mcq-30",
+        "source-mcq-13",
+        "source-mcq-17"
       ],
       "explanation": "本句的「source」指「程式員撰寫、可供人閱讀的原始程式碼」。",
       "sentenceIndex": 71,
@@ -1651,12 +1537,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-18": "本句指「程式員撰寫、可供人閱讀的原始程式碼」。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-16": "「尋找、選擇並取得供應來源的過程」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-15": "「主動尋找並取得材料、商品、服務、資訊或人才」與本句語境不同。"
+        "source-mcq-18": "本句的「source」指「程式員撰寫、可供人閱讀的原始程式碼」。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-18"
     },
@@ -1668,11 +1552,9 @@ export default {
       "masked": "The application connects to several ____.",
       "options": [
         "source-mcq-19",
-        "source-mcq-18",
-        "source-mcq-20",
-        "source-mcq-17",
-        "source-mcq-21",
-        "source-mcq-16"
+        "source-mcq-25",
+        "source-mcq-09",
+        "source-mcq-17"
       ],
       "explanation": "本句的「data sources」指「向軟件／分析系統提供資料的系統、檔案或資料庫」。",
       "sentenceIndex": 76,
@@ -1681,12 +1563,10 @@ export default {
         "data sources"
       ],
       "optionReasons": {
-        "source-mcq-19": "本句指「向軟件／分析系統提供資料的系統、檔案或資料庫」。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-16": "「尋找、選擇並取得供應來源的過程」與本句語境不同。"
+        "source-mcq-19": "本句的「data sources」指「向軟件／分析系統提供資料的系統、檔案或資料庫」。",
+        "source-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-19"
     },
@@ -1698,11 +1578,9 @@ export default {
       "masked": "Choose the correct data ____.",
       "options": [
         "source-mcq-19",
-        "source-mcq-18",
-        "source-mcq-20",
+        "source-mcq-25",
         "source-mcq-17",
-        "source-mcq-21",
-        "source-mcq-16"
+        "source-mcq-30"
       ],
       "explanation": "本句的「source」指「向軟件／分析系統提供資料的系統、檔案或資料庫」。",
       "sentenceIndex": 77,
@@ -1711,12 +1589,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-19": "本句指「向軟件／分析系統提供資料的系統、檔案或資料庫」。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-16": "「尋找、選擇並取得供應來源的過程」與本句語境不同。"
+        "source-mcq-19": "本句的「source」指「向軟件／分析系統提供資料的系統、檔案或資料庫」。",
+        "source-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-19"
     },
@@ -1728,11 +1604,9 @@ export default {
       "masked": "The software is ____.",
       "options": [
         "source-mcq-20",
-        "source-mcq-19",
-        "source-mcq-21",
-        "source-mcq-18",
-        "source-mcq-22",
-        "source-mcq-17"
+        "source-mcq-30",
+        "source-reviewed-8eecc796d5",
+        "source-mcq-23"
       ],
       "explanation": "本句的「open source」指「原始碼按開源授權公開供使用、修改或再分發的軟件模式」。",
       "sentenceIndex": 78,
@@ -1741,12 +1615,10 @@ export default {
         "open source"
       ],
       "optionReasons": {
-        "source-mcq-20": "本句指「原始碼按開源授權公開供使用、修改或再分發的軟件模式」。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。"
+        "source-mcq-20": "本句的「open source」指「原始碼按開源授權公開供使用、修改或再分發的軟件模式」。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-reviewed-8eecc796d5": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-20"
     },
@@ -1758,11 +1630,9 @@ export default {
       "masked": "Developers contribute to open-____ projects.",
       "options": [
         "source-mcq-20",
-        "source-mcq-19",
-        "source-mcq-21",
-        "source-mcq-18",
-        "source-mcq-22",
-        "source-mcq-17"
+        "source-mcq-01",
+        "source-mcq-17",
+        "source-mcq-23"
       ],
       "explanation": "本句的「source」指「原始碼按開源授權公開供使用、修改或再分發的軟件模式」。",
       "sentenceIndex": 79,
@@ -1771,12 +1641,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-20": "本句指「原始碼按開源授權公開供使用、修改或再分發的軟件模式」。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-17": "「主動尋找並接觸可能合適的求職者」與本句語境不同。"
+        "source-mcq-20": "本句的「source」指「原始碼按開源授權公開供使用、修改或再分發的軟件模式」。",
+        "source-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-20"
     },
@@ -1788,11 +1656,9 @@ export default {
       "masked": "English is the ____ in this translation.",
       "options": [
         "source-mcq-21",
-        "source-mcq-20",
-        "source-mcq-22",
-        "source-mcq-19",
-        "source-mcq-23",
-        "source-mcq-18"
+        "source-mcq-02",
+        "source-mcq-04",
+        "source-mcq-17"
       ],
       "explanation": "本句的「source language」指「翻譯時被翻譯出去的原始語言」。",
       "sentenceIndex": 87,
@@ -1801,12 +1667,10 @@ export default {
         "source language"
       ],
       "optionReasons": {
-        "source-mcq-21": "本句指「翻譯時被翻譯出去的原始語言」。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。"
+        "source-mcq-21": "本句的「source language」指「翻譯時被翻譯出去的原始語言」。",
+        "source-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-21"
     },
@@ -1818,11 +1682,9 @@ export default {
       "masked": "The translator must understand the ____ language accurately.",
       "options": [
         "source-mcq-21",
-        "source-mcq-20",
-        "source-mcq-22",
+        "source-mcq-24",
         "source-mcq-19",
-        "source-mcq-23",
-        "source-mcq-18"
+        "source-mcq-30"
       ],
       "explanation": "本句的「source」指「翻譯時被翻譯出去的原始語言」。",
       "sentenceIndex": 88,
@@ -1831,12 +1693,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-21": "本句指「翻譯時被翻譯出去的原始語言」。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-18": "「程式員撰寫、可供人閱讀的原始程式碼」與本句語境不同。"
+        "source-mcq-21": "本句的「source」指「翻譯時被翻譯出去的原始語言」。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-21"
     },
@@ -1848,11 +1708,9 @@ export default {
       "masked": "Compare the translation with the ____.",
       "options": [
         "source-mcq-22",
-        "source-mcq-21",
-        "source-mcq-23",
-        "source-mcq-20",
-        "source-mcq-24",
-        "source-mcq-19"
+        "source-mcq-12",
+        "source-mcq-02",
+        "source-mcq-27"
       ],
       "explanation": "本句的「source text」指「翻譯／改寫所依據的原始文本」。",
       "sentenceIndex": 89,
@@ -1861,12 +1719,10 @@ export default {
         "source text"
       ],
       "optionReasons": {
-        "source-mcq-22": "本句指「翻譯／改寫所依據的原始文本」。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。"
+        "source-mcq-22": "本句的「source text」指「翻譯／改寫所依據的原始文本」。",
+        "source-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-22"
     },
@@ -1878,11 +1734,9 @@ export default {
       "masked": "The ____ text contains several cultural references.",
       "options": [
         "source-mcq-22",
-        "source-mcq-21",
-        "source-mcq-23",
-        "source-mcq-20",
-        "source-mcq-24",
-        "source-mcq-19"
+        "source-mcq-28",
+        "source-mcq-01",
+        "source-mcq-27"
       ],
       "explanation": "本句的「source」指「翻譯／改寫所依據的原始文本」。",
       "sentenceIndex": 90,
@@ -1891,12 +1745,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-22": "本句指「翻譯／改寫所依據的原始文本」。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-19": "「向軟件／分析系統提供資料的系統、檔案或資料庫」與本句語境不同。"
+        "source-mcq-22": "本句的「source」指「翻譯／改寫所依據的原始文本」。",
+        "source-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-22"
     },
@@ -1908,11 +1760,9 @@ export default {
       "masked": "The bank asked about the ____.",
       "options": [
         "source-mcq-23",
-        "source-mcq-22",
-        "source-mcq-24",
-        "source-mcq-21",
-        "source-mcq-25",
-        "source-mcq-20"
+        "source-mcq-02",
+        "source-mcq-27",
+        "source-mcq-21"
       ],
       "explanation": "本句的「source of funds」指「某一筆具體資金從何而來」。",
       "sentenceIndex": 93,
@@ -1921,12 +1771,10 @@ export default {
         "source of funds"
       ],
       "optionReasons": {
-        "source-mcq-23": "本句指「某一筆具體資金從何而來」。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。"
+        "source-mcq-23": "本句的「source of funds」指「某一筆具體資金從何而來」。",
+        "source-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-23"
     },
@@ -1938,11 +1786,9 @@ export default {
       "masked": "Customers may need to explain the ____ of funds.",
       "options": [
         "source-mcq-23",
-        "source-mcq-22",
-        "source-mcq-24",
-        "source-mcq-21",
-        "source-mcq-25",
-        "source-mcq-20"
+        "source-mcq-30",
+        "source-mcq-11",
+        "source-mcq-09"
       ],
       "explanation": "本句的「source」指「某一筆具體資金從何而來」。",
       "sentenceIndex": 94,
@@ -1951,12 +1797,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-23": "本句指「某一筆具體資金從何而來」。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-20": "「原始碼按開源授權公開供使用、修改或再分發的軟件模式」與本句語境不同。"
+        "source-mcq-23": "本句的「source」指「某一筆具體資金從何而來」。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-23"
     },
@@ -1968,10 +1812,8 @@ export default {
       "masked": "The institution reviewed the client’s ____.",
       "options": [
         "source-mcq-24",
-        "source-mcq-23",
-        "source-mcq-25",
-        "source-mcq-22",
-        "source-mcq-26",
+        "source-mcq-09",
+        "source-mcq-05",
         "source-mcq-21"
       ],
       "explanation": "本句的「source of wealth」指「一個人的整體財富如何累積而來」。",
@@ -1981,12 +1823,10 @@ export default {
         "source of wealth"
       ],
       "optionReasons": {
-        "source-mcq-24": "本句指「一個人的整體財富如何累積而來」。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。"
+        "source-mcq-24": "本句的「source of wealth」指「一個人的整體財富如何累積而來」。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-24"
     },
@@ -1998,10 +1838,8 @@ export default {
       "masked": "Investment income was listed as one ____ of wealth.",
       "options": [
         "source-mcq-24",
-        "source-mcq-23",
-        "source-mcq-25",
-        "source-mcq-22",
-        "source-mcq-26",
+        "source-mcq-31",
+        "source-mcq-19",
         "source-mcq-21"
       ],
       "explanation": "本句的「source」指「一個人的整體財富如何累積而來」。",
@@ -2011,12 +1849,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-24": "本句指「一個人的整體財富如何累積而來」。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-21": "「翻譯時被翻譯出去的原始語言」與本句語境不同。"
+        "source-mcq-24": "本句的「source」指「一個人的整體財富如何累積而來」。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-24"
     },
@@ -2028,11 +1864,9 @@ export default {
       "masked": "Doctors tried to identify the ____.",
       "options": [
         "source-mcq-25",
-        "source-mcq-24",
-        "source-mcq-26",
-        "source-mcq-23",
-        "source-mcq-27",
-        "source-mcq-22"
+        "source-mcq-07",
+        "source-mcq-13",
+        "source-mcq-31"
       ],
       "explanation": "本句的「source of infection」指「某次感染直接來自的病原／人／環境來源」。",
       "sentenceIndex": 109,
@@ -2041,12 +1875,10 @@ export default {
         "source of infection"
       ],
       "optionReasons": {
-        "source-mcq-25": "本句指「某次感染直接來自的病原／人／環境來源」。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。"
+        "source-mcq-25": "本句的「source of infection」指「某次感染直接來自的病原／人／環境來源」。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-25"
     },
@@ -2058,11 +1890,9 @@ export default {
       "masked": "Contaminated water was the likely ____ of infection.",
       "options": [
         "source-mcq-25",
-        "source-mcq-24",
-        "source-mcq-26",
-        "source-mcq-23",
-        "source-mcq-27",
-        "source-mcq-22"
+        "source-mcq-19",
+        "source-mcq-31",
+        "source-mcq-13"
       ],
       "explanation": "本句的「source」指「某次感染直接來自的病原／人／環境來源」。",
       "sentenceIndex": 110,
@@ -2071,74 +1901,68 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-25": "本句指「某次感染直接來自的病原／人／環境來源」。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-22": "「翻譯／改寫所依據的原始文本」與本句語境不同。"
+        "source-mcq-25": "本句的「source」指「某次感染直接來自的病原／人／環境來源」。",
+        "source-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-25"
     },
     {
       "id": "source-59-0",
-      "sense": "source-mcq-05",
+      "sense": "source-reviewed-8eecc796d5",
       "en": "Journalists source information from interviews and documents.",
       "zh": "記者從訪問和文件中搜集資訊。",
       "masked": "Journalists ____ from interviews and documents.",
       "options": [
-        "source-mcq-05",
-        "source-mcq-04",
-        "source-mcq-06",
-        "source-mcq-03",
-        "source-mcq-07",
-        "source-mcq-02"
+        "source-reviewed-8eecc796d5",
+        "source-mcq-27",
+        "source-mcq-24",
+        "source-mcq-20"
       ],
-      "explanation": "本句的「source information」指「提供事實、資料、證據或消息的人／文件／網站等」。",
+      "explanation": "對照完整句子：「記者從訪問和文件中搜集資訊。」。這裡的「source information」表示「找到並取得所需資訊／資料」。",
       "sentenceIndex": 115,
       "sourcePractice": 59,
       "targets": [
         "source information"
       ],
       "optionReasons": {
-        "source-mcq-05": "本句指「提供事實、資料、證據或消息的人／文件／網站等」。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。"
+        "source-reviewed-8eecc796d5": "對照完整句子：「記者從訪問和文件中搜集資訊。」。這裡的「source information」表示「找到並取得所需資訊／資料」。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "source-mcq-05"
+      "correctOption": "source-reviewed-8eecc796d5",
+      "previousCorrectOption": "source-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "source-59-1",
-      "sense": "source-mcq-05",
+      "sense": "source-reviewed-8eecc796d5",
       "en": "The team sourced data from public records.",
       "zh": "團隊從公開紀錄中取得資料。",
       "masked": "The team ____ data from public records.",
       "options": [
-        "source-mcq-05",
-        "source-mcq-04",
-        "source-mcq-06",
-        "source-mcq-03",
-        "source-mcq-07",
-        "source-mcq-02"
+        "source-reviewed-8eecc796d5",
+        "source-mcq-27",
+        "source-mcq-30",
+        "source-mcq-18"
       ],
-      "explanation": "本句的「sourced」指「提供事實、資料、證據或消息的人／文件／網站等」。",
+      "explanation": "對照完整句子：「團隊從公開紀錄中取得資料。」。這裡的「sourced」表示「找到並取得所需資訊／資料」。",
       "sentenceIndex": 116,
       "sourcePractice": 59,
       "targets": [
         "sourced"
       ],
       "optionReasons": {
-        "source-mcq-05": "本句指「提供事實、資料、證據或消息的人／文件／網站等」。",
-        "source-mcq-04": "「提供金錢收入的工作、活動或資產」與本句語境不同。",
-        "source-mcq-06": "「直接來自事件、當事人、原始紀錄或數據的第一手材料」與本句語境不同。",
-        "source-mcq-03": "「提供／產生某種心理力量、感受或能力的事物」與本句語境不同。",
-        "source-mcq-07": "「根據第一手材料作分析、整理或解釋的資料」與本句語境不同。",
-        "source-mcq-02": "「導致某問題、情況或結果產生的根源」與本句語境不同。"
+        "source-reviewed-8eecc796d5": "對照完整句子：「團隊從公開紀錄中取得資料。」。這裡的「sourced」表示「找到並取得所需資訊／資料」。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "source-mcq-05"
+      "correctOption": "source-reviewed-8eecc796d5",
+      "previousCorrectOption": "source-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "source-61-0",
@@ -2148,11 +1972,9 @@ export default {
       "masked": "The restaurant uses ____.",
       "options": [
         "source-mcq-26",
-        "source-mcq-25",
-        "source-mcq-27",
+        "source-mcq-29",
         "source-mcq-24",
-        "source-mcq-28",
-        "source-mcq-23"
+        "source-mcq-27"
       ],
       "explanation": "本句的「locally sourced ingredients」指「從本地供應商／生產者取得的」。",
       "sentenceIndex": 119,
@@ -2161,12 +1983,10 @@ export default {
         "locally sourced ingredients"
       ],
       "optionReasons": {
-        "source-mcq-26": "本句指「從本地供應商／生產者取得的」。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。"
+        "source-mcq-26": "本句的「locally sourced ingredients」指「從本地供應商／生產者取得的」。",
+        "source-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-26"
     },
@@ -2178,11 +1998,9 @@ export default {
       "masked": "Most of the wood is locally ____.",
       "options": [
         "source-mcq-26",
-        "source-mcq-25",
-        "source-mcq-27",
-        "source-mcq-24",
-        "source-mcq-28",
-        "source-mcq-23"
+        "source-mcq-09",
+        "source-mcq-07",
+        "source-mcq-27"
       ],
       "explanation": "本句的「sourced」指「從本地供應商／生產者取得的」。",
       "sentenceIndex": 120,
@@ -2191,12 +2009,10 @@ export default {
         "sourced"
       ],
       "optionReasons": {
-        "source-mcq-26": "本句指「從本地供應商／生產者取得的」。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-23": "「某一筆具體資金從何而來」與本句語境不同。"
+        "source-mcq-26": "本句的「sourced」指「從本地供應商／生產者取得的」。",
+        "source-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-26"
     },
@@ -2208,11 +2024,9 @@ export default {
       "masked": "The company sells ____.",
       "options": [
         "source-mcq-27",
-        "source-mcq-26",
-        "source-mcq-28",
-        "source-mcq-25",
-        "source-mcq-29",
-        "source-mcq-24"
+        "source-mcq-24",
+        "source-mcq-07",
+        "source-mcq-31"
       ],
       "explanation": "本句的「ethically sourced coffee」指「採購過程符合勞工、人權或環境道德要求的」。",
       "sentenceIndex": 121,
@@ -2221,12 +2035,10 @@ export default {
         "ethically sourced coffee"
       ],
       "optionReasons": {
-        "source-mcq-27": "本句指「採購過程符合勞工、人權或環境道德要求的」。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。"
+        "source-mcq-27": "本句的「ethically sourced coffee」指「採購過程符合勞工、人權或環境道德要求的」。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-27"
     },
@@ -2238,11 +2050,9 @@ export default {
       "masked": "Customers increasingly ask whether materials are ethically ____.",
       "options": [
         "source-mcq-27",
-        "source-mcq-26",
-        "source-mcq-28",
-        "source-mcq-25",
         "source-mcq-29",
-        "source-mcq-24"
+        "source-mcq-21",
+        "source-mcq-31"
       ],
       "explanation": "本句的「sourced」指「採購過程符合勞工、人權或環境道德要求的」。",
       "sentenceIndex": 122,
@@ -2251,12 +2061,10 @@ export default {
         "sourced"
       ],
       "optionReasons": {
-        "source-mcq-27": "本句指「採購過程符合勞工、人權或環境道德要求的」。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-24": "「一個人的整體財富如何累積而來」與本句語境不同。"
+        "source-mcq-27": "本句的「sourced」指「採購過程符合勞工、人權或環境道德要求的」。",
+        "source-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-27"
     },
@@ -2268,11 +2076,9 @@ export default {
       "masked": "The dashboard shows each website ____.",
       "options": [
         "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-29",
-        "source-mcq-26",
-        "source-mcq-30",
-        "source-mcq-25"
+        "source-mcq-13",
+        "source-mcq-07",
+        "source-mcq-30"
       ],
       "explanation": "本句的「traffic source」指「使用者／網站流量進入某平台的來源渠道」。",
       "sentenceIndex": 127,
@@ -2281,12 +2087,10 @@ export default {
         "traffic source"
       ],
       "optionReasons": {
-        "source-mcq-28": "本句指「使用者／網站流量進入某平台的來源渠道」。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。"
+        "source-mcq-28": "本句的「traffic source」指「使用者／網站流量進入某平台的來源渠道」。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-28"
     },
@@ -2298,11 +2102,9 @@ export default {
       "masked": "Social media is now the largest traffic ____.",
       "options": [
         "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-29",
-        "source-mcq-26",
+        "source-mcq-21",
         "source-mcq-30",
-        "source-mcq-25"
+        "source-reviewed-8eecc796d5"
       ],
       "explanation": "本句的「source」指「使用者／網站流量進入某平台的來源渠道」。",
       "sentenceIndex": 128,
@@ -2311,12 +2113,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-28": "本句指「使用者／網站流量進入某平台的來源渠道」。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-25": "「某次感染直接來自的病原／人／環境來源」與本句語境不同。"
+        "source-mcq-28": "本句的「source」指「使用者／網站流量進入某平台的來源渠道」。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "source-reviewed-8eecc796d5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-28"
     },
@@ -2328,11 +2128,9 @@ export default {
       "masked": "The packet travels from the ____ to the destination.",
       "options": [
         "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-30",
-        "source-mcq-27",
-        "source-mcq-31",
-        "source-mcq-26"
+        "source-mcq-01",
+        "source-mcq-17",
+        "source-mcq-21"
       ],
       "explanation": "本句的「source」指「資料／封包開始傳送的來源端位址」。",
       "sentenceIndex": 137,
@@ -2341,12 +2139,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-29": "本句指「資料／封包開始傳送的來源端位址」。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-31": "「引起憂慮或擔心的人／事物」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-29": "本句的「source」指「資料／封包開始傳送的來源端位址」。",
+        "source-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-29"
     },
@@ -2358,11 +2154,9 @@ export default {
       "masked": "Verify the ____ address.",
       "options": [
         "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-30",
-        "source-mcq-27",
+        "source-mcq-11",
         "source-mcq-31",
-        "source-mcq-26"
+        "source-mcq-17"
       ],
       "explanation": "本句的「source」指「資料／封包開始傳送的來源端位址」。",
       "sentenceIndex": 138,
@@ -2371,12 +2165,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-29": "本句指「資料／封包開始傳送的來源端位址」。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-31": "「引起憂慮或擔心的人／事物」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-29": "本句的「source」指「資料／封包開始傳送的來源端位址」。",
+        "source-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-29"
     },
@@ -2388,11 +2180,9 @@ export default {
       "masked": "The firewall logs the ____.",
       "options": [
         "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-30",
-        "source-mcq-27",
+        "source-mcq-11",
         "source-mcq-31",
-        "source-mcq-26"
+        "source-mcq-17"
       ],
       "explanation": "本句的「source address」指「資料／封包開始傳送的來源端位址」。",
       "sentenceIndex": 139,
@@ -2401,12 +2191,10 @@ export default {
         "source address"
       ],
       "optionReasons": {
-        "source-mcq-29": "本句指「資料／封包開始傳送的來源端位址」。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-31": "「引起憂慮或擔心的人／事物」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-29": "本句的「source address」指「資料／封包開始傳送的來源端位址」。",
+        "source-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-29"
     },
@@ -2418,11 +2206,9 @@ export default {
       "masked": "The packet contains both ____ and destination addresses.",
       "options": [
         "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-30",
         "source-mcq-27",
         "source-mcq-31",
-        "source-mcq-26"
+        "source-mcq-13"
       ],
       "explanation": "本句的「source」指「資料／封包開始傳送的來源端位址」。",
       "sentenceIndex": 140,
@@ -2431,12 +2217,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-29": "本句指「資料／封包開始傳送的來源端位址」。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-31": "「引起憂慮或擔心的人／事物」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-29": "本句的「source」指「資料／封包開始傳送的來源端位址」。",
+        "source-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-29"
     },
@@ -2448,11 +2232,9 @@ export default {
       "masked": "Daily life is her main ____.",
       "options": [
         "source-mcq-30",
-        "source-mcq-29",
-        "source-mcq-31",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-mcq-12",
+        "source-mcq-24",
+        "source-mcq-17"
       ],
       "explanation": "本句的「source of inspiration」指「產生創意／靈感的事物」。",
       "sentenceIndex": 157,
@@ -2461,12 +2243,10 @@ export default {
         "source of inspiration"
       ],
       "optionReasons": {
-        "source-mcq-30": "本句指「產生創意／靈感的事物」。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-31": "「引起憂慮或擔心的人／事物」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-30": "本句的「source of inspiration」指「產生創意／靈感的事物」。",
+        "source-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-30"
     },
@@ -2478,11 +2258,9 @@ export default {
       "masked": "The city became a ____ of inspiration for the artist.",
       "options": [
         "source-mcq-30",
-        "source-mcq-29",
-        "source-mcq-31",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-mcq-18",
+        "source-mcq-10",
+        "source-mcq-07"
       ],
       "explanation": "本句的「source」指「產生創意／靈感的事物」。",
       "sentenceIndex": 158,
@@ -2491,12 +2269,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-30": "本句指「產生創意／靈感的事物」。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-31": "「引起憂慮或擔心的人／事物」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-30": "本句的「source」指「產生創意／靈感的事物」。",
+        "source-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-30"
     },
@@ -2508,11 +2284,9 @@ export default {
       "masked": "The rising cost is a ____.",
       "options": [
         "source-mcq-31",
-        "source-mcq-30",
-        "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-mcq-19",
+        "source-mcq-17",
+        "source-mcq-21"
       ],
       "explanation": "本句的「source of concern」指「引起憂慮或擔心的人／事物」。",
       "sentenceIndex": 165,
@@ -2521,12 +2295,10 @@ export default {
         "source of concern"
       ],
       "optionReasons": {
-        "source-mcq-31": "本句指「引起憂慮或擔心的人／事物」。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-31": "本句的「source of concern」指「引起憂慮或擔心的人／事物」。",
+        "source-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-31"
     },
@@ -2538,11 +2310,9 @@ export default {
       "masked": "Online harassment has become a major ____ of concern.",
       "options": [
         "source-mcq-31",
-        "source-mcq-30",
         "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-mcq-17",
+        "source-mcq-18"
       ],
       "explanation": "本句的「source」指「引起憂慮或擔心的人／事物」。",
       "sentenceIndex": 166,
@@ -2551,12 +2321,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-31": "本句指「引起憂慮或擔心的人／事物」。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-31": "本句的「source」指「引起憂慮或擔心的人／事物」。",
+        "source-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-31"
     },
@@ -2568,11 +2336,9 @@ export default {
       "masked": "We need a reliable ____.",
       "options": [
         "source-mcq-31",
-        "source-mcq-30",
-        "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-mcq-24",
+        "source-mcq-22",
+        "source-mcq-16"
       ],
       "explanation": "本句的「source」指「引起憂慮或擔心的人／事物」。",
       "sentenceIndex": 167,
@@ -2581,12 +2347,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-31": "本句指「引起憂慮或擔心的人／事物」。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-31": "本句的「source」指「引起憂慮或擔心的人／事物」。",
+        "source-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-31"
     },
@@ -2598,11 +2362,9 @@ export default {
       "masked": "We ____ ingredients locally.",
       "options": [
         "source-mcq-31",
-        "source-mcq-30",
-        "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-reviewed-8eecc796d5",
+        "source-mcq-23",
+        "source-mcq-21"
       ],
       "explanation": "本句的「source」指「引起憂慮或擔心的人／事物」。",
       "sentenceIndex": 168,
@@ -2611,12 +2373,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-31": "本句指「引起憂慮或擔心的人／事物」。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-31": "本句的「source」指「引起憂慮或擔心的人／事物」。",
+        "source-reviewed-8eecc796d5": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-31"
     },
@@ -2628,11 +2388,9 @@ export default {
       "masked": "Burning fossil fuels is a carbon ____.",
       "options": [
         "source-mcq-31",
-        "source-mcq-30",
-        "source-mcq-29",
-        "source-mcq-28",
-        "source-mcq-27",
-        "source-mcq-26"
+        "source-mcq-10",
+        "source-mcq-21",
+        "source-mcq-07"
       ],
       "explanation": "本句的「source」指「引起憂慮或擔心的人／事物」。",
       "sentenceIndex": 169,
@@ -2641,12 +2399,10 @@ export default {
         "source"
       ],
       "optionReasons": {
-        "source-mcq-31": "本句指「引起憂慮或擔心的人／事物」。",
-        "source-mcq-30": "「產生創意／靈感的事物」與本句語境不同。",
-        "source-mcq-29": "「資料／封包開始傳送的來源端位址」與本句語境不同。",
-        "source-mcq-28": "「使用者／網站流量進入某平台的來源渠道」與本句語境不同。",
-        "source-mcq-27": "「採購過程符合勞工、人權或環境道德要求的」與本句語境不同。",
-        "source-mcq-26": "「從本地供應商／生產者取得的」與本句語境不同。"
+        "source-mcq-31": "本句的「source」指「引起憂慮或擔心的人／事物」。",
+        "source-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "source-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "source-mcq-31"
     }
@@ -2658,5 +2414,7 @@ export default {
     "sha256": "4a2c4804b31ae5041468debedee99ec6d3dfd90ad2a44694e237cdced294937d",
     "pages": 50
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

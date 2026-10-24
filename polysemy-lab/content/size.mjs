@@ -1809,11 +1809,9 @@ export default {
       "masked": "We measured the ____.",
       "options": [
         "size-mcq-02",
-        "size-mcq-01",
-        "size-mcq-03",
-        "size-mcq-04",
-        "size-mcq-05",
-        "size-mcq-06"
+        "size-mcq-38",
+        "size-mcq-30",
+        "size-mcq-73"
       ],
       "explanation": "本句的「size of the box」指「X 的大小」。",
       "sentenceIndex": 3,
@@ -1822,12 +1820,10 @@ export default {
         "size of the box"
       ],
       "optionReasons": {
-        "size-mcq-02": "本句指「X 的大小」。",
-        "size-mcq-01": "「大小；尺寸」與本句語境不同。",
-        "size-mcq-03": "「實際大小」與本句語境不同。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。"
+        "size-mcq-02": "本句的「size of the box」指「X 的大小」。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-02"
     },
@@ -1839,11 +1835,9 @@ export default {
       "masked": "The ____ of the screen affects portability.",
       "options": [
         "size-mcq-02",
-        "size-mcq-01",
-        "size-mcq-03",
-        "size-mcq-04",
-        "size-mcq-05",
-        "size-mcq-06"
+        "size-mcq-11",
+        "size-mcq-09",
+        "size-mcq-43"
       ],
       "explanation": "本句的「size」指「X 的大小」。",
       "sentenceIndex": 4,
@@ -1852,12 +1846,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-02": "本句指「X 的大小」。",
-        "size-mcq-01": "「大小；尺寸」與本句語境不同。",
-        "size-mcq-03": "「實際大小」與本句語境不同。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。"
+        "size-mcq-02": "本句的「size」指「X 的大小」。",
+        "size-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-02"
     },
@@ -1869,11 +1861,9 @@ export default {
       "masked": "The image is shown at ____.",
       "options": [
         "size-mcq-03",
-        "size-mcq-02",
-        "size-mcq-04",
-        "size-mcq-01",
-        "size-mcq-05",
-        "size-mcq-06"
+        "size-mcq-59",
+        "size-mcq-12",
+        "size-mcq-14"
       ],
       "explanation": "本句的「actual size」指「實際大小」。",
       "sentenceIndex": 5,
@@ -1882,12 +1872,10 @@ export default {
         "actual size"
       ],
       "optionReasons": {
-        "size-mcq-03": "本句指「實際大小」。",
-        "size-mcq-02": "「X 的大小」與本句語境不同。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。",
-        "size-mcq-01": "「大小；尺寸」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。"
+        "size-mcq-03": "本句的「actual size」指「實際大小」。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-03"
     },
@@ -1899,11 +1887,9 @@ export default {
       "masked": "The photograph makes the item look larger than its actual ____.",
       "options": [
         "size-mcq-03",
-        "size-mcq-02",
-        "size-mcq-04",
-        "size-mcq-01",
-        "size-mcq-05",
-        "size-mcq-06"
+        "size-mcq-73",
+        "size-mcq-51",
+        "size-mcq-54"
       ],
       "explanation": "本句的「size」指「實際大小」。",
       "sentenceIndex": 6,
@@ -1912,12 +1898,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-03": "本句指「實際大小」。",
-        "size-mcq-02": "「X 的大小」與本句語境不同。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。",
-        "size-mcq-01": "「大小；尺寸」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。"
+        "size-mcq-03": "本句的「size」指「實際大小」。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-03"
     },
@@ -1929,11 +1913,9 @@ export default {
       "masked": "The sample is smaller than the ____.",
       "options": [
         "size-mcq-04",
-        "size-mcq-03",
-        "size-mcq-05",
-        "size-mcq-02",
-        "size-mcq-06",
-        "size-mcq-01"
+        "size-mcq-71",
+        "size-mcq-76",
+        "size-mcq-21"
       ],
       "explanation": "本句的「full-size product」指「全尺寸／正常容量」。",
       "sentenceIndex": 7,
@@ -1942,12 +1924,10 @@ export default {
         "full-size product"
       ],
       "optionReasons": {
-        "size-mcq-04": "本句指「全尺寸／正常容量」。",
-        "size-mcq-03": "「實際大小」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-02": "「X 的大小」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-01": "「大小；尺寸」與本句語境不同。"
+        "size-mcq-04": "本句的「full-size product」指「全尺寸／正常容量」。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-04"
     },
@@ -1959,11 +1939,9 @@ export default {
       "masked": "She bought a travel-____ bottle first and later purchased the full-size version.",
       "options": [
         "size-mcq-04",
-        "size-mcq-03",
-        "size-mcq-05",
         "size-mcq-02",
-        "size-mcq-06",
-        "size-mcq-01"
+        "size-mcq-36",
+        "size-mcq-40"
       ],
       "explanation": "本句的「size」指「全尺寸／正常容量」。",
       "sentenceIndex": 8,
@@ -1972,12 +1950,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-04": "本句指「全尺寸／正常容量」。",
-        "size-mcq-03": "「實際大小」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-02": "「X 的大小」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-01": "「大小；尺寸」與本句語境不同。"
+        "size-mcq-04": "本句的「size」指「全尺寸／正常容量」。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-04"
     },
@@ -1989,11 +1965,9 @@ export default {
       "masked": "The museum displayed a ____.",
       "options": [
         "size-mcq-05",
-        "size-mcq-04",
-        "size-mcq-06",
-        "size-mcq-03",
-        "size-mcq-07",
-        "size-mcq-02"
+        "size-mcq-10",
+        "size-mcq-37",
+        "size-mcq-04"
       ],
       "explanation": "本句的「life-size model」指「真人／實物大小」。",
       "sentenceIndex": 9,
@@ -2002,12 +1976,10 @@ export default {
         "life-size model"
       ],
       "optionReasons": {
-        "size-mcq-05": "本句指「真人／實物大小」。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-03": "「實際大小」與本句語境不同。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-02": "「X 的大小」與本句語境不同。"
+        "size-mcq-05": "本句的「life-size model」指「真人／實物大小」。",
+        "size-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-05"
     },
@@ -2019,11 +1991,9 @@ export default {
       "masked": "The statue is slightly larger than life-____.",
       "options": [
         "size-mcq-05",
-        "size-mcq-04",
-        "size-mcq-06",
-        "size-mcq-03",
-        "size-mcq-07",
-        "size-mcq-02"
+        "size-mcq-40",
+        "size-mcq-23",
+        "size-mcq-38"
       ],
       "explanation": "本句的「size」指「真人／實物大小」。",
       "sentenceIndex": 10,
@@ -2032,12 +2002,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-05": "本句指「真人／實物大小」。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-03": "「實際大小」與本句語境不同。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-02": "「X 的大小」與本句語境不同。"
+        "size-mcq-05": "本句的「size」指「真人／實物大小」。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-05"
     },
@@ -2049,11 +2017,9 @@ export default {
       "masked": "She usually wears a ____.",
       "options": [
         "size-mcq-07",
-        "size-mcq-06",
-        "size-mcq-08",
-        "size-mcq-05",
-        "size-mcq-09",
-        "size-mcq-04"
+        "size-mcq-45",
+        "size-mcq-56",
+        "size-mcq-34"
       ],
       "explanation": "本句的「size 8」指「8 號尺碼」。",
       "sentenceIndex": 14,
@@ -2062,12 +2028,10 @@ export default {
         "size 8"
       ],
       "optionReasons": {
-        "size-mcq-07": "本句指「8 號尺碼」。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。"
+        "size-mcq-07": "本句的「size 8」指「8 號尺碼」。",
+        "size-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-07"
     },
@@ -2079,11 +2043,9 @@ export default {
       "masked": "Do you have this dress in ____ 10?",
       "options": [
         "size-mcq-07",
-        "size-mcq-06",
-        "size-mcq-08",
-        "size-mcq-05",
-        "size-mcq-09",
-        "size-mcq-04"
+        "size-mcq-56",
+        "size-mcq-67",
+        "size-mcq-71"
       ],
       "explanation": "本句的「size」指「8 號尺碼」。",
       "sentenceIndex": 15,
@@ -2092,12 +2054,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-07": "本句指「8 號尺碼」。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-04": "「全尺寸／正常容量」與本句語境不同。"
+        "size-mcq-07": "本句的「size」指「8 號尺碼」。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-07"
     },
@@ -2109,11 +2069,9 @@ export default {
       "masked": "I ordered a ____.",
       "options": [
         "size-mcq-08",
-        "size-mcq-07",
-        "size-mcq-09",
-        "size-mcq-06",
-        "size-mcq-10",
-        "size-mcq-05"
+        "size-mcq-41",
+        "size-mcq-75",
+        "size-mcq-71"
       ],
       "explanation": "本句的「medium」指「小／中／大碼」。",
       "sentenceIndex": 16,
@@ -2122,12 +2080,10 @@ export default {
         "medium"
       ],
       "optionReasons": {
-        "size-mcq-08": "本句指「小／中／大碼」。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。"
+        "size-mcq-08": "本句的「medium」指「小／中／大碼」。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-08"
     },
@@ -2139,11 +2095,9 @@ export default {
       "masked": "The large ____ was too loose.",
       "options": [
         "size-mcq-08",
-        "size-mcq-07",
-        "size-mcq-09",
-        "size-mcq-06",
-        "size-mcq-10",
-        "size-mcq-05"
+        "size-mcq-35",
+        "size-mcq-04",
+        "size-mcq-54"
       ],
       "explanation": "本句的「size」指「小／中／大碼」。",
       "sentenceIndex": 17,
@@ -2152,12 +2106,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-08": "本句指「小／中／大碼」。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。"
+        "size-mcq-08": "本句的「size」指「小／中／大碼」。",
+        "size-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-08"
     },
@@ -2169,11 +2121,9 @@ export default {
       "masked": "Her ____ varies between brands.",
       "options": [
         "size-mcq-09",
-        "size-mcq-08",
-        "size-mcq-10",
-        "size-mcq-07",
-        "size-mcq-11",
-        "size-mcq-06"
+        "size-mcq-65",
+        "size-mcq-69",
+        "size-mcq-75"
       ],
       "explanation": "本句的「dress size」指「服裝尺碼」。",
       "sentenceIndex": 18,
@@ -2182,12 +2132,10 @@ export default {
         "dress size"
       ],
       "optionReasons": {
-        "size-mcq-09": "本句指「服裝尺碼」。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。"
+        "size-mcq-09": "本句的「dress size」指「服裝尺碼」。",
+        "size-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-09"
     },
@@ -2199,11 +2147,9 @@ export default {
       "masked": "Dress-____ systems vary across countries.",
       "options": [
         "size-mcq-09",
-        "size-mcq-08",
-        "size-mcq-10",
-        "size-mcq-07",
-        "size-mcq-11",
-        "size-mcq-06"
+        "size-mcq-76",
+        "size-mcq-35",
+        "size-mcq-44"
       ],
       "explanation": "本句的「size」指「服裝尺碼」。",
       "sentenceIndex": 19,
@@ -2212,12 +2158,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-09": "本句指「服裝尺碼」。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。"
+        "size-mcq-09": "本句的「size」指「服裝尺碼」。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-09"
     },
@@ -2229,11 +2173,9 @@ export default {
       "masked": "What is your ____?",
       "options": [
         "size-mcq-10",
-        "size-mcq-09",
-        "size-mcq-11",
-        "size-mcq-08",
-        "size-mcq-12",
-        "size-mcq-07"
+        "size-mcq-76",
+        "size-mcq-31",
+        "size-mcq-56"
       ],
       "explanation": "本句的「shoe size」指「鞋碼」。",
       "sentenceIndex": 20,
@@ -2242,12 +2184,10 @@ export default {
         "shoe size"
       ],
       "optionReasons": {
-        "size-mcq-10": "本句指「鞋碼」。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。"
+        "size-mcq-10": "本句的「shoe size」指「鞋碼」。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-10"
     },
@@ -2259,11 +2199,9 @@ export default {
       "masked": "Shoe ____ vary between sizing systems.",
       "options": [
         "size-mcq-10",
-        "size-mcq-09",
-        "size-mcq-11",
-        "size-mcq-08",
-        "size-mcq-12",
-        "size-mcq-07"
+        "size-mcq-43",
+        "size-mcq-35",
+        "size-mcq-54"
       ],
       "explanation": "本句的「sizes」指「鞋碼」。",
       "sentenceIndex": 21,
@@ -2272,12 +2210,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-10": "本句指「鞋碼」。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。"
+        "size-mcq-10": "本句的「sizes」指「鞋碼」。",
+        "size-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-10"
     },
@@ -2289,11 +2225,9 @@ export default {
       "masked": "Measure your ____ before ordering jeans.",
       "options": [
         "size-mcq-11",
-        "size-mcq-10",
-        "size-mcq-12",
-        "size-mcq-09",
-        "size-mcq-13",
-        "size-mcq-08"
+        "size-mcq-57",
+        "size-mcq-34",
+        "size-mcq-21"
       ],
       "explanation": "本句的「waist size」指「腰圍尺寸」。",
       "sentenceIndex": 22,
@@ -2302,12 +2236,10 @@ export default {
         "waist size"
       ],
       "optionReasons": {
-        "size-mcq-11": "本句指「腰圍尺寸」。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。"
+        "size-mcq-11": "本句的「waist size」指「腰圍尺寸」。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-11"
     },
@@ -2319,11 +2251,9 @@ export default {
       "masked": "The ____ chart lists waist measurements.",
       "options": [
         "size-mcq-11",
-        "size-mcq-10",
-        "size-mcq-12",
-        "size-mcq-09",
-        "size-mcq-13",
-        "size-mcq-08"
+        "size-mcq-41",
+        "size-mcq-52",
+        "size-mcq-71"
       ],
       "explanation": "本句的「size」指「腰圍尺寸」。",
       "sentenceIndex": 23,
@@ -2332,12 +2262,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-11": "本句指「腰圍尺寸」。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。"
+        "size-mcq-11": "本句的「size」指「腰圍尺寸」。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-11"
     },
@@ -2349,11 +2277,9 @@ export default {
       "masked": "Choose the jacket according to your ____.",
       "options": [
         "size-mcq-11",
-        "size-mcq-10",
-        "size-mcq-12",
-        "size-mcq-09",
-        "size-mcq-13",
-        "size-mcq-08"
+        "size-mcq-26",
+        "size-mcq-57",
+        "size-mcq-22"
       ],
       "explanation": "本句的「chest size」指「腰圍尺寸」。",
       "sentenceIndex": 24,
@@ -2362,12 +2288,10 @@ export default {
         "chest size"
       ],
       "optionReasons": {
-        "size-mcq-11": "本句指「腰圍尺寸」。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。"
+        "size-mcq-11": "本句的「chest size」指「腰圍尺寸」。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-11"
     },
@@ -2379,11 +2303,9 @@ export default {
       "masked": "Bust measurement is included in the ____ guide.",
       "options": [
         "size-mcq-11",
-        "size-mcq-10",
-        "size-mcq-12",
-        "size-mcq-09",
-        "size-mcq-13",
-        "size-mcq-08"
+        "size-mcq-02",
+        "size-mcq-24",
+        "size-mcq-54"
       ],
       "explanation": "本句的「size」指「腰圍尺寸」。",
       "sentenceIndex": 25,
@@ -2392,12 +2314,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-11": "本句指「腰圍尺寸」。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-08": "「小／中／大碼」與本句語境不同。"
+        "size-mcq-11": "本句的「size」指「腰圍尺寸」。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-11"
     },
@@ -2409,11 +2329,9 @@ export default {
       "masked": "She did not know her ____.",
       "options": [
         "size-mcq-12",
-        "size-mcq-11",
-        "size-mcq-13",
-        "size-mcq-10",
-        "size-mcq-14",
-        "size-mcq-09"
+        "size-mcq-36",
+        "size-mcq-27",
+        "size-mcq-42"
       ],
       "explanation": "本句的「ring size」指「戒指圈號」。",
       "sentenceIndex": 26,
@@ -2422,12 +2340,10 @@ export default {
         "ring size"
       ],
       "optionReasons": {
-        "size-mcq-12": "本句指「戒指圈號」。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。"
+        "size-mcq-12": "本句的「ring size」指「戒指圈號」。",
+        "size-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-12"
     },
@@ -2440,10 +2356,8 @@ export default {
       "options": [
         "size-mcq-12",
         "size-mcq-11",
-        "size-mcq-13",
-        "size-mcq-10",
-        "size-mcq-14",
-        "size-mcq-09"
+        "size-mcq-21",
+        "size-mcq-44"
       ],
       "explanation": "本句的「size」指「戒指圈號」。",
       "sentenceIndex": 27,
@@ -2452,12 +2366,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-12": "本句指「戒指圈號」。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。"
+        "size-mcq-12": "本句的「size」指「戒指圈號」。",
+        "size-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-12"
     },
@@ -2469,11 +2381,9 @@ export default {
       "masked": "Customers rely on photos and ____.",
       "options": [
         "size-mcq-13",
-        "size-mcq-12",
-        "size-mcq-14",
-        "size-mcq-11",
-        "size-mcq-15",
-        "size-mcq-10"
+        "size-mcq-53",
+        "size-mcq-26",
+        "size-mcq-58"
       ],
       "explanation": "本句的「size charts」指「尺碼表」。",
       "sentenceIndex": 28,
@@ -2482,12 +2392,10 @@ export default {
         "size charts"
       ],
       "optionReasons": {
-        "size-mcq-13": "本句指「尺碼表」。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。"
+        "size-mcq-13": "本句的「size charts」指「尺碼表」。",
+        "size-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-13"
     },
@@ -2499,11 +2407,9 @@ export default {
       "masked": "The ____ chart gives measurements for each size.",
       "options": [
         "size-mcq-13",
-        "size-mcq-12",
-        "size-mcq-14",
-        "size-mcq-11",
-        "size-mcq-15",
-        "size-mcq-10"
+        "size-mcq-73",
+        "size-mcq-63",
+        "size-mcq-37"
       ],
       "explanation": "本句的「size」指「尺碼表」。",
       "sentenceIndex": 29,
@@ -2512,12 +2418,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-13": "本句指「尺碼表」。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。"
+        "size-mcq-13": "本句的「size」指「尺碼表」。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-13"
     },
@@ -2529,11 +2433,9 @@ export default {
       "masked": "The ____ clearly misled the customer.",
       "options": [
         "size-mcq-14",
-        "size-mcq-13",
-        "size-mcq-15",
-        "size-mcq-12",
-        "size-mcq-16",
-        "size-mcq-11"
+        "size-mcq-45",
+        "size-mcq-59",
+        "size-mcq-63"
       ],
       "explanation": "本句的「size guide」指「尺碼指南」。",
       "sentenceIndex": 30,
@@ -2542,12 +2444,10 @@ export default {
         "size guide"
       ],
       "optionReasons": {
-        "size-mcq-14": "本句指「尺碼指南」。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。"
+        "size-mcq-14": "本句的「size guide」指「尺碼指南」。",
+        "size-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-14"
     },
@@ -2559,11 +2459,9 @@ export default {
       "masked": "A detailed ____ guide can reduce avoidable returns.",
       "options": [
         "size-mcq-14",
-        "size-mcq-13",
-        "size-mcq-15",
-        "size-mcq-12",
-        "size-mcq-16",
-        "size-mcq-11"
+        "size-mcq-65",
+        "size-mcq-62",
+        "size-mcq-76"
       ],
       "explanation": "本句的「size」指「尺碼指南」。",
       "sentenceIndex": 31,
@@ -2572,12 +2470,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-14": "本句指「尺碼指南」。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-11": "「腰圍尺寸」與本句語境不同。"
+        "size-mcq-14": "本句的「size」指「尺碼指南」。",
+        "size-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-14"
     },
@@ -2589,11 +2485,9 @@ export default {
       "masked": "The brand expanded its ____.",
       "options": [
         "size-mcq-15",
-        "size-mcq-14",
-        "size-mcq-16",
-        "size-mcq-13",
-        "size-mcq-17",
-        "size-mcq-12"
+        "size-mcq-02",
+        "size-mcq-76",
+        "size-mcq-69"
       ],
       "explanation": "本句的「size range」指「尺碼範圍」。",
       "sentenceIndex": 32,
@@ -2602,12 +2496,10 @@ export default {
         "size range"
       ],
       "optionReasons": {
-        "size-mcq-15": "本句指「尺碼範圍」。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。"
+        "size-mcq-15": "本句的「size range」指「尺碼範圍」。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-15"
     },
@@ -2619,11 +2511,9 @@ export default {
       "masked": "The dress is offered across a wide ____ range.",
       "options": [
         "size-mcq-15",
-        "size-mcq-14",
-        "size-mcq-16",
-        "size-mcq-13",
-        "size-mcq-17",
-        "size-mcq-12"
+        "size-mcq-39",
+        "size-mcq-34",
+        "size-pdf-004"
       ],
       "explanation": "本句的「size」指「尺碼範圍」。",
       "sentenceIndex": 33,
@@ -2632,12 +2522,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-15": "本句指「尺碼範圍」。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-12": "「戒指圈號」與本句語境不同。"
+        "size-mcq-15": "本句的「size」指「尺碼範圍」。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-15"
     },
@@ -2649,11 +2537,9 @@ export default {
       "masked": "The blouse is ____.",
       "options": [
         "size-mcq-16",
-        "size-mcq-15",
-        "size-mcq-17",
-        "size-mcq-14",
-        "size-mcq-18",
-        "size-mcq-13"
+        "size-mcq-05",
+        "size-mcq-42",
+        "size-mcq-40"
       ],
       "explanation": "本句的「available in several sizes」指「合適尺碼」。",
       "sentenceIndex": 34,
@@ -2662,12 +2548,10 @@ export default {
         "available in several sizes"
       ],
       "optionReasons": {
-        "size-mcq-16": "本句指「合適尺碼」。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。"
+        "size-mcq-16": "本句的「available in several sizes」指「合適尺碼」。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-16"
     },
@@ -2679,11 +2563,9 @@ export default {
       "masked": "This item is available in ____ XS to XL.",
       "options": [
         "size-mcq-16",
-        "size-mcq-15",
-        "size-mcq-17",
-        "size-mcq-14",
-        "size-mcq-18",
-        "size-mcq-13"
+        "size-mcq-73",
+        "size-mcq-26",
+        "size-mcq-70"
       ],
       "explanation": "本句的「sizes」指「合適尺碼」。",
       "sentenceIndex": 35,
@@ -2692,12 +2574,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-16": "本句指「合適尺碼」。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。"
+        "size-mcq-16": "本句的「sizes」指「合適尺碼」。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-16"
     },
@@ -2709,11 +2589,9 @@ export default {
       "masked": "Finding the ____ online can be difficult.",
       "options": [
         "size-mcq-16",
-        "size-mcq-15",
-        "size-mcq-17",
-        "size-mcq-14",
-        "size-mcq-18",
-        "size-mcq-13"
+        "size-mcq-65",
+        "size-mcq-44",
+        "size-mcq-41"
       ],
       "explanation": "本句的「right size」指「合適尺碼」。",
       "sentenceIndex": 36,
@@ -2722,12 +2600,10 @@ export default {
         "right size"
       ],
       "optionReasons": {
-        "size-mcq-16": "本句指「合適尺碼」。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。"
+        "size-mcq-16": "本句的「right size」指「合適尺碼」。",
+        "size-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-16"
     },
@@ -2739,11 +2615,9 @@ export default {
       "masked": "The customer ordered the right ____ according to the chart.",
       "options": [
         "size-mcq-16",
-        "size-mcq-15",
-        "size-mcq-17",
-        "size-mcq-14",
-        "size-mcq-18",
-        "size-mcq-13"
+        "size-mcq-58",
+        "size-mcq-36",
+        "size-mcq-61"
       ],
       "explanation": "本句的「size」指「合適尺碼」。",
       "sentenceIndex": 37,
@@ -2752,12 +2626,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-16": "本句指「合適尺碼」。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。"
+        "size-mcq-16": "本句的「size」指「合適尺碼」。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-16"
     },
@@ -2769,11 +2641,9 @@ export default {
       "masked": "The item arrived in the ____.",
       "options": [
         "size-mcq-17",
-        "size-mcq-16",
-        "size-mcq-18",
-        "size-mcq-15",
-        "size-mcq-19",
-        "size-mcq-14"
+        "size-mcq-41",
+        "size-mcq-71",
+        "size-mcq-63"
       ],
       "explanation": "本句的「wrong size」指「錯誤／不合尺碼」。",
       "sentenceIndex": 38,
@@ -2782,12 +2652,10 @@ export default {
         "wrong size"
       ],
       "optionReasons": {
-        "size-mcq-17": "本句指「錯誤／不合尺碼」。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。"
+        "size-mcq-17": "本句的「wrong size」指「錯誤／不合尺碼」。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-17"
     },
@@ -2799,11 +2667,9 @@ export default {
       "masked": "Customers should be able to exchange the wrong ____.",
       "options": [
         "size-mcq-17",
-        "size-mcq-16",
-        "size-mcq-18",
-        "size-mcq-15",
-        "size-mcq-19",
-        "size-mcq-14"
+        "size-mcq-38",
+        "size-mcq-55",
+        "size-mcq-48"
       ],
       "explanation": "本句的「size」指「錯誤／不合尺碼」。",
       "sentenceIndex": 39,
@@ -2812,12 +2678,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-17": "本句指「錯誤／不合尺碼」。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。"
+        "size-mcq-17": "本句的「size」指「錯誤／不合尺碼」。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-17"
     },
@@ -2829,11 +2693,9 @@ export default {
       "masked": "Please send the ____.",
       "options": [
         "size-mcq-16",
-        "size-mcq-15",
-        "size-mcq-17",
-        "size-mcq-14",
-        "size-mcq-18",
-        "size-mcq-13"
+        "size-mcq-71",
+        "size-mcq-33",
+        "size-pdf-005"
       ],
       "explanation": "本句的「correct size」指「合適尺碼」。",
       "sentenceIndex": 40,
@@ -2842,12 +2704,10 @@ export default {
         "correct size"
       ],
       "optionReasons": {
-        "size-mcq-16": "本句指「合適尺碼」。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。"
+        "size-mcq-16": "本句的「correct size」指「合適尺碼」。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-16"
     },
@@ -2859,11 +2719,9 @@ export default {
       "masked": "Choosing the correct ____ depends on accurate measurements.",
       "options": [
         "size-mcq-16",
-        "size-mcq-15",
-        "size-mcq-17",
-        "size-mcq-14",
-        "size-mcq-18",
-        "size-mcq-13"
+        "size-mcq-33",
+        "size-mcq-57",
+        "size-mcq-58"
       ],
       "explanation": "本句的「size」指「合適尺碼」。",
       "sentenceIndex": 41,
@@ -2872,12 +2730,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-16": "本句指「合適尺碼」。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-14": "「尺碼指南」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-13": "「尺碼表」與本句語境不同。"
+        "size-mcq-16": "本句的「size」指「合適尺碼」。",
+        "size-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-16"
     },
@@ -2889,11 +2745,9 @@ export default {
       "masked": "The dress is ____.",
       "options": [
         "size-mcq-18",
-        "size-mcq-17",
-        "size-mcq-19",
-        "size-mcq-16",
-        "size-mcq-20",
-        "size-mcq-15"
+        "size-mcq-54",
+        "size-mcq-51",
+        "size-mcq-02"
       ],
       "explanation": "本句的「true to size」指「尺碼標準」。",
       "sentenceIndex": 42,
@@ -2902,12 +2756,10 @@ export default {
         "true to size"
       ],
       "optionReasons": {
-        "size-mcq-18": "本句指「尺碼標準」。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。"
+        "size-mcq-18": "本句的「true to size」指「尺碼標準」。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-18"
     },
@@ -2919,11 +2771,9 @@ export default {
       "masked": "Reviews suggest that the jeans are true to ____.",
       "options": [
         "size-mcq-18",
-        "size-mcq-17",
-        "size-mcq-19",
-        "size-mcq-16",
-        "size-mcq-20",
-        "size-mcq-15"
+        "size-mcq-41",
+        "size-mcq-69",
+        "size-mcq-33"
       ],
       "explanation": "本句的「size」指「尺碼標準」。",
       "sentenceIndex": 43,
@@ -2932,12 +2782,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-18": "本句指「尺碼標準」。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-15": "「尺碼範圍」與本句語境不同。"
+        "size-mcq-18": "本句的「size」指「尺碼標準」。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-18"
     },
@@ -2949,11 +2797,9 @@ export default {
       "masked": "These shoes ____.",
       "options": [
         "size-mcq-19",
-        "size-mcq-18",
-        "size-mcq-20",
-        "size-mcq-17",
-        "size-mcq-21",
-        "size-mcq-16"
+        "size-mcq-12",
+        "size-mcq-41",
+        "size-mcq-42"
       ],
       "explanation": "本句的「run small」指「尺碼偏小」。",
       "sentenceIndex": 44,
@@ -2962,12 +2808,10 @@ export default {
         "run small"
       ],
       "optionReasons": {
-        "size-mcq-19": "本句指「尺碼偏小」。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。"
+        "size-mcq-19": "本句的「run small」指「尺碼偏小」。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-19"
     },
@@ -2979,11 +2823,9 @@ export default {
       "masked": "If the item runs small, customers may need to ____ up.",
       "options": [
         "size-mcq-19",
-        "size-mcq-18",
-        "size-mcq-20",
-        "size-mcq-17",
-        "size-mcq-21",
-        "size-mcq-16"
+        "size-mcq-39",
+        "size-mcq-51",
+        "size-mcq-71"
       ],
       "explanation": "本句的「size」指「尺碼偏小」。",
       "sentenceIndex": 45,
@@ -2992,12 +2834,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-19": "本句指「尺碼偏小」。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-16": "「合適尺碼」與本句語境不同。"
+        "size-mcq-19": "本句的「size」指「尺碼偏小」。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-19"
     },
@@ -3009,11 +2849,9 @@ export default {
       "masked": "The jacket ____.",
       "options": [
         "size-mcq-20",
-        "size-mcq-19",
-        "size-mcq-21",
-        "size-mcq-18",
-        "size-mcq-22",
-        "size-mcq-17"
+        "size-mcq-55",
+        "size-mcq-59",
+        "size-mcq-34"
       ],
       "explanation": "本句的「runs large」指「尺碼偏大」。",
       "sentenceIndex": 46,
@@ -3022,12 +2860,10 @@ export default {
         "runs large"
       ],
       "optionReasons": {
-        "size-mcq-20": "本句指「尺碼偏大」。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。",
-        "size-mcq-17": "「錯誤／不合尺碼」與本句語境不同。"
+        "size-mcq-20": "本句的「runs large」指「尺碼偏大」。",
+        "size-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-20"
     },
@@ -3039,11 +2875,9 @@ export default {
       "masked": "If you prefer a looser fit, ____.",
       "options": [
         "size-mcq-21",
-        "size-mcq-20",
-        "size-mcq-22",
-        "size-mcq-19",
-        "size-mcq-23",
-        "size-mcq-18"
+        "size-mcq-62",
+        "size-mcq-57",
+        "size-mcq-49"
       ],
       "explanation": "本句的「size up」指「選大一碼」。",
       "sentenceIndex": 47,
@@ -3052,12 +2886,10 @@ export default {
         "size up"
       ],
       "optionReasons": {
-        "size-mcq-21": "本句指「選大一碼」。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。"
+        "size-mcq-21": "本句的「size up」指「選大一碼」。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-21"
     },
@@ -3069,11 +2901,9 @@ export default {
       "masked": "I had to ____ up in this brand.",
       "options": [
         "size-mcq-21",
-        "size-mcq-20",
-        "size-mcq-22",
-        "size-mcq-19",
-        "size-mcq-23",
-        "size-mcq-18"
+        "size-mcq-57",
+        "size-mcq-62",
+        "size-mcq-75"
       ],
       "explanation": "本句的「size」指「選大一碼」。",
       "sentenceIndex": 48,
@@ -3082,12 +2912,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-21": "本句指「選大一碼」。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-18": "「尺碼標準」與本句語境不同。"
+        "size-mcq-21": "本句的「size」指「選大一碼」。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-21"
     },
@@ -3099,11 +2927,9 @@ export default {
       "masked": "The sweater runs large, so you may want to ____.",
       "options": [
         "size-mcq-22",
-        "size-mcq-21",
-        "size-mcq-23",
-        "size-mcq-20",
-        "size-mcq-24",
-        "size-mcq-19"
+        "size-mcq-73",
+        "size-pdf-008",
+        "size-mcq-38"
       ],
       "explanation": "本句的「size down」指「選小一碼」。",
       "sentenceIndex": 49,
@@ -3112,12 +2938,10 @@ export default {
         "size down"
       ],
       "optionReasons": {
-        "size-mcq-22": "本句指「選小一碼」。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。"
+        "size-mcq-22": "本句的「size down」指「選小一碼」。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-22"
     },
@@ -3129,11 +2953,9 @@ export default {
       "masked": "She ____ down for a closer fit.",
       "options": [
         "size-mcq-22",
-        "size-mcq-21",
-        "size-mcq-23",
-        "size-mcq-20",
-        "size-mcq-24",
-        "size-mcq-19"
+        "size-mcq-70",
+        "size-mcq-63",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sized」指「選小一碼」。",
       "sentenceIndex": 50,
@@ -3142,12 +2964,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-22": "本句指「選小一碼」。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-19": "「尺碼偏小」與本句語境不同。"
+        "size-mcq-22": "本句的「sized」指「選小一碼」。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-22"
     },
@@ -3159,11 +2979,9 @@ export default {
       "masked": "The hat comes in ____.",
       "options": [
         "size-mcq-23",
-        "size-mcq-22",
-        "size-mcq-24",
-        "size-mcq-21",
-        "size-mcq-25",
-        "size-mcq-20"
+        "size-mcq-39",
+        "size-mcq-62",
+        "size-pdf-006"
       ],
       "explanation": "本句的「one size」指「均碼／單一尺碼」。",
       "sentenceIndex": 51,
@@ -3172,12 +2990,10 @@ export default {
         "one size"
       ],
       "optionReasons": {
-        "size-mcq-23": "本句指「均碼／單一尺碼」。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。"
+        "size-mcq-23": "本句的「one size」指「均碼／單一尺碼」。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-23"
     },
@@ -3189,11 +3005,9 @@ export default {
       "masked": "One ____ may not fit every customer comfortably.",
       "options": [
         "size-mcq-23",
-        "size-mcq-22",
-        "size-mcq-24",
-        "size-mcq-21",
-        "size-mcq-25",
-        "size-mcq-20"
+        "size-mcq-02",
+        "size-mcq-75",
+        "size-mcq-54"
       ],
       "explanation": "本句的「size」指「均碼／單一尺碼」。",
       "sentenceIndex": 52,
@@ -3202,12 +3016,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-23": "本句指「均碼／單一尺碼」。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-20": "「尺碼偏大」與本句語境不同。"
+        "size-mcq-23": "本句的「size」指「均碼／單一尺碼」。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-23"
     },
@@ -3219,11 +3031,9 @@ export default {
       "masked": "There is no ____.",
       "options": [
         "size-mcq-24",
-        "size-mcq-23",
-        "size-mcq-25",
-        "size-mcq-22",
-        "size-mcq-26",
-        "size-mcq-21"
+        "size-mcq-05",
+        "size-mcq-69",
+        "size-mcq-34"
       ],
       "explanation": "本句的「one-size-fits-all solution」指「均碼／一刀切」。",
       "sentenceIndex": 53,
@@ -3232,12 +3042,10 @@ export default {
         "one-size-fits-all solution"
       ],
       "optionReasons": {
-        "size-mcq-24": "本句指「均碼／一刀切」。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-21": "「選大一碼」與本句語境不同。"
+        "size-mcq-24": "本句的「one-size-fits-all solution」指「均碼／一刀切」。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-24"
     },
@@ -3249,11 +3057,9 @@ export default {
       "masked": "The brand introduced a ____.",
       "options": [
         "size-mcq-25",
-        "size-mcq-24",
-        "size-mcq-26",
-        "size-mcq-23",
-        "size-mcq-27",
-        "size-mcq-22"
+        "size-pdf-005",
+        "size-mcq-37",
+        "size-mcq-64"
       ],
       "explanation": "本句的「plus-size collection」指「大尺碼的」。",
       "sentenceIndex": 54,
@@ -3262,12 +3068,10 @@ export default {
         "plus-size collection"
       ],
       "optionReasons": {
-        "size-mcq-25": "本句指「大尺碼的」。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。"
+        "size-mcq-25": "本句的「plus-size collection」指「大尺碼的」。",
+        "size-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-25"
     },
@@ -3279,11 +3083,9 @@ export default {
       "masked": "Plus-____ ranges should use accurate measurements.",
       "options": [
         "size-mcq-25",
-        "size-mcq-24",
-        "size-mcq-26",
-        "size-mcq-23",
-        "size-mcq-27",
-        "size-mcq-22"
+        "size-mcq-37",
+        "size-mcq-55",
+        "size-mcq-44"
       ],
       "explanation": "本句的「size」指「大尺碼的」。",
       "sentenceIndex": 55,
@@ -3292,12 +3094,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-25": "本句指「大尺碼的」。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。"
+        "size-mcq-25": "本句的「size」指「大尺碼的」。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-25"
     },
@@ -3309,11 +3109,9 @@ export default {
       "masked": "The retailer expanded its range of ____.",
       "options": [
         "size-mcq-25",
-        "size-mcq-24",
-        "size-mcq-26",
-        "size-mcq-23",
-        "size-mcq-27",
-        "size-mcq-22"
+        "size-mcq-43",
+        "size-mcq-63",
+        "size-mcq-54"
       ],
       "explanation": "本句的「plus-size clothing」指「大尺碼的」。",
       "sentenceIndex": 56,
@@ -3322,12 +3120,10 @@ export default {
         "plus-size clothing"
       ],
       "optionReasons": {
-        "size-mcq-25": "本句指「大尺碼的」。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。"
+        "size-mcq-25": "本句的「plus-size clothing」指「大尺碼的」。",
+        "size-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-25"
     },
@@ -3339,11 +3135,9 @@ export default {
       "masked": "____ conventions differ greatly between brands.",
       "options": [
         "size-mcq-25",
-        "size-mcq-24",
-        "size-mcq-26",
-        "size-mcq-23",
-        "size-mcq-27",
-        "size-mcq-22"
+        "size-mcq-12",
+        "size-mcq-69",
+        "size-mcq-43"
       ],
       "explanation": "本句的「Sizing」指「大尺碼的」。",
       "sentenceIndex": 57,
@@ -3352,12 +3146,10 @@ export default {
         "Sizing"
       ],
       "optionReasons": {
-        "size-mcq-25": "本句指「大尺碼的」。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-22": "「選小一碼」與本句語境不同。"
+        "size-mcq-25": "本句的「Sizing」指「大尺碼的」。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-25"
     },
@@ -3369,11 +3161,9 @@ export default {
       "masked": "The parcel was classified as ____.",
       "options": [
         "size-pdf-001",
-        "size-mcq-25",
-        "size-mcq-27",
-        "size-mcq-24",
-        "size-mcq-28",
-        "size-mcq-23"
+        "size-mcq-51",
+        "size-mcq-76",
+        "size-mcq-57"
       ],
       "explanation": "本句的「oversized」指「比一般、標準或適合的尺寸更大」。",
       "sentenceIndex": 58,
@@ -3382,12 +3172,10 @@ export default {
         "oversized"
       ],
       "optionReasons": {
-        "size-pdf-001": "本句指「比一般、標準或適合的尺寸更大」。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。"
+        "size-pdf-001": "本句的「oversized」指「比一般、標準或適合的尺寸更大」。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-001"
     },
@@ -3399,11 +3187,9 @@ export default {
       "masked": "She bought an ____.",
       "options": [
         "size-mcq-26",
-        "size-mcq-25",
-        "size-mcq-27",
-        "size-mcq-24",
-        "size-mcq-28",
-        "size-mcq-23"
+        "size-mcq-15",
+        "size-mcq-47",
+        "size-mcq-76"
       ],
       "explanation": "本句的「oversized jacket」指「過大／寬鬆大版型」。",
       "sentenceIndex": 59,
@@ -3412,12 +3198,10 @@ export default {
         "oversized jacket"
       ],
       "optionReasons": {
-        "size-mcq-26": "本句指「過大／寬鬆大版型」。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。"
+        "size-mcq-26": "本句的「oversized jacket」指「過大／寬鬆大版型」。",
+        "size-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-26"
     },
@@ -3429,11 +3213,9 @@ export default {
       "masked": "Over____d does not necessarily mean the customer chose the wrong size.",
       "options": [
         "size-mcq-26",
-        "size-mcq-25",
-        "size-mcq-27",
         "size-mcq-24",
-        "size-mcq-28",
-        "size-mcq-23"
+        "size-mcq-50",
+        "size-mcq-36"
       ],
       "explanation": "本句的「size」指「過大／寬鬆大版型」。",
       "sentenceIndex": 60,
@@ -3442,12 +3224,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-26": "本句指「過大／寬鬆大版型」。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-23": "「均碼／單一尺碼」與本句語境不同。"
+        "size-mcq-26": "本句的「size」指「過大／寬鬆大版型」。",
+        "size-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-26"
     },
@@ -3459,11 +3239,9 @@ export default {
       "masked": "The replacement part was ____.",
       "options": [
         "size-mcq-27",
-        "size-mcq-26",
-        "size-mcq-28",
-        "size-mcq-25",
-        "size-mcq-29",
-        "size-mcq-24"
+        "size-mcq-54",
+        "size-mcq-70",
+        "size-pdf-008"
       ],
       "explanation": "本句的「undersized」指「尺寸過小」。",
       "sentenceIndex": 61,
@@ -3472,12 +3250,10 @@ export default {
         "undersized"
       ],
       "optionReasons": {
-        "size-mcq-27": "本句指「尺寸過小」。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-24": "「均碼／一刀切」與本句語境不同。"
+        "size-mcq-27": "本句的「undersized」指「尺寸過小」。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-27"
     },
@@ -3489,11 +3265,9 @@ export default {
       "masked": "Clothing ____ varies between brands.",
       "options": [
         "size-pdf-002",
-        "size-mcq-27",
-        "size-mcq-29",
-        "size-mcq-26",
-        "size-mcq-30",
-        "size-mcq-25"
+        "size-mcq-54",
+        "size-mcq-69",
+        "size-mcq-37"
       ],
       "explanation": "本句的「sizing」指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
       "sentenceIndex": 62,
@@ -3502,12 +3276,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-pdf-002": "本句指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。"
+        "size-pdf-002": "本句的「sizing」指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-002"
     },
@@ -3519,11 +3291,9 @@ export default {
       "masked": "Inconsistent ____ causes avoidable returns.",
       "options": [
         "size-pdf-002",
-        "size-mcq-27",
-        "size-mcq-29",
-        "size-mcq-26",
-        "size-mcq-30",
-        "size-mcq-25"
+        "size-mcq-39",
+        "size-mcq-05",
+        "size-mcq-55"
       ],
       "explanation": "本句的「sizing」指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
       "sentenceIndex": 63,
@@ -3532,12 +3302,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-pdf-002": "本句指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-25": "「大尺碼的」與本句語境不同。"
+        "size-pdf-002": "本句的「sizing」指「把衣服、鞋履等按尺寸分類並標示尺碼的系統／方式」。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-002"
     },
@@ -3549,11 +3317,9 @@ export default {
       "masked": "Customers often complain about ____.",
       "options": [
         "size-mcq-29",
-        "size-mcq-28",
-        "size-mcq-30",
-        "size-mcq-27",
-        "size-mcq-31",
-        "size-mcq-26"
+        "size-mcq-39",
+        "size-mcq-75",
+        "size-mcq-02"
       ],
       "explanation": "本句的「inconsistent sizing」指「尺碼不一致」。",
       "sentenceIndex": 64,
@@ -3562,12 +3328,10 @@ export default {
         "inconsistent sizing"
       ],
       "optionReasons": {
-        "size-mcq-29": "本句指「尺碼不一致」。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。"
+        "size-mcq-29": "本句的「inconsistent sizing」指「尺碼不一致」。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-29"
     },
@@ -3579,11 +3343,9 @@ export default {
       "masked": "Inconsistent ____ makes online purchasing harder.",
       "options": [
         "size-mcq-29",
-        "size-mcq-28",
-        "size-mcq-30",
-        "size-mcq-27",
-        "size-mcq-31",
-        "size-mcq-26"
+        "size-mcq-59",
+        "size-mcq-48",
+        "size-mcq-69"
       ],
       "explanation": "本句的「sizing」指「尺碼不一致」。",
       "sentenceIndex": 65,
@@ -3592,12 +3354,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-29": "本句指「尺碼不一致」。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
-        "size-mcq-26": "「過大／寬鬆大版型」與本句語境不同。"
+        "size-mcq-29": "本句的「sizing」指「尺碼不一致」。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-29"
     },
@@ -3609,11 +3369,9 @@ export default {
       "masked": "____ can make comparisons between brands difficult.",
       "options": [
         "size-mcq-30",
-        "size-mcq-29",
-        "size-mcq-31",
-        "size-mcq-28",
-        "size-mcq-32",
-        "size-mcq-27"
+        "size-mcq-37",
+        "size-mcq-56",
+        "size-mcq-53"
       ],
       "explanation": "本句的「Vanity sizing」指「虛榮尺碼／尺碼放寬」。",
       "sentenceIndex": 68,
@@ -3622,12 +3380,10 @@ export default {
         "Vanity sizing"
       ],
       "optionReasons": {
-        "size-mcq-30": "本句指「虛榮尺碼／尺碼放寬」。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。"
+        "size-mcq-30": "本句的「Vanity sizing」指「虛榮尺碼／尺碼放寬」。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-30"
     },
@@ -3639,11 +3395,9 @@ export default {
       "masked": "Under vanity ____, a labelled size may correspond to larger physical measurements than expected from older conventions.",
       "options": [
         "size-mcq-30",
-        "size-mcq-29",
-        "size-mcq-31",
-        "size-mcq-28",
-        "size-mcq-32",
-        "size-mcq-27"
+        "size-mcq-44",
+        "size-pdf-005",
+        "size-mcq-51"
       ],
       "explanation": "本句的「sizing」指「虛榮尺碼／尺碼放寬」。",
       "sentenceIndex": 69,
@@ -3652,12 +3406,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-30": "本句指「虛榮尺碼／尺碼放寬」。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-27": "「尺寸過小」與本句語境不同。"
+        "size-mcq-30": "本句的「sizing」指「虛榮尺碼／尺碼放寬」。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-30"
     },
@@ -3669,11 +3421,9 @@ export default {
       "masked": "The fruit is ____.",
       "options": [
         "size-pdf-003",
-        "size-mcq-30",
-        "size-mcq-32",
-        "size-mcq-29",
-        "size-mcq-33",
-        "size-mcq-28"
+        "size-mcq-65",
+        "size-mcq-75",
+        "size-mcq-64"
       ],
       "explanation": "本句的「sized before packaging」指「按尺寸量度、分類或分級 X」。",
       "sentenceIndex": 70,
@@ -3682,12 +3432,10 @@ export default {
         "sized before packaging"
       ],
       "optionReasons": {
-        "size-pdf-003": "本句指「按尺寸量度、分類或分級 X」。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。"
+        "size-pdf-003": "本句的「sized before packaging」指「按尺寸量度、分類或分級 X」。",
+        "size-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-003"
     },
@@ -3699,11 +3447,9 @@ export default {
       "masked": "The manufacturer ____ the components before assembly.",
       "options": [
         "size-pdf-003",
-        "size-mcq-30",
-        "size-mcq-32",
-        "size-mcq-29",
-        "size-mcq-33",
-        "size-mcq-28"
+        "size-mcq-61",
+        "size-mcq-40",
+        "size-mcq-41"
       ],
       "explanation": "本句的「sizes」指「按尺寸量度、分類或分級 X」。",
       "sentenceIndex": 71,
@@ -3712,12 +3458,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-pdf-003": "本句指「按尺寸量度、分類或分級 X」。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。"
+        "size-pdf-003": "本句的「sizes」指「按尺寸量度、分類或分級 X」。",
+        "size-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-003"
     },
@@ -3729,11 +3473,9 @@ export default {
       "masked": "Products are ____ and graded before sale.",
       "options": [
         "size-mcq-31",
-        "size-mcq-30",
-        "size-mcq-32",
-        "size-mcq-29",
-        "size-mcq-33",
-        "size-mcq-28"
+        "size-mcq-75",
+        "size-mcq-12",
+        "size-mcq-54"
       ],
       "explanation": "本句的「sized」指「按大小分類／定尺寸」。",
       "sentenceIndex": 72,
@@ -3742,12 +3484,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-31": "本句指「按大小分類／定尺寸」。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。"
+        "size-mcq-31": "本句的「sized」指「按大小分類／定尺寸」。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-31"
     },
@@ -3759,11 +3499,9 @@ export default {
       "masked": "The machine automatically ____ the items.",
       "options": [
         "size-mcq-31",
-        "size-mcq-30",
-        "size-mcq-32",
-        "size-mcq-29",
-        "size-mcq-33",
-        "size-mcq-28"
+        "size-mcq-54",
+        "size-mcq-56",
+        "size-mcq-75"
       ],
       "explanation": "本句的「sizes」指「按大小分類／定尺寸」。",
       "sentenceIndex": 73,
@@ -3772,12 +3510,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-31": "本句指「按大小分類／定尺寸」。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。"
+        "size-mcq-31": "本句的「sizes」指「按大小分類／定尺寸」。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-31"
     },
@@ -3789,11 +3525,9 @@ export default {
       "masked": "The image was ____.",
       "options": [
         "size-mcq-31",
-        "size-mcq-30",
-        "size-mcq-32",
-        "size-mcq-29",
-        "size-mcq-33",
-        "size-mcq-28"
+        "size-mcq-44",
+        "size-mcq-56",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sized to fit the page」指「按大小分類／定尺寸」。",
       "sentenceIndex": 74,
@@ -3802,12 +3536,10 @@ export default {
         "sized to fit the page"
       ],
       "optionReasons": {
-        "size-mcq-31": "本句指「按大小分類／定尺寸」。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。"
+        "size-mcq-31": "本句的「sized to fit the page」指「按大小分類／定尺寸」。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-31"
     },
@@ -3819,11 +3551,9 @@ export default {
       "masked": "The panels are ____ to fit the frame.",
       "options": [
         "size-mcq-31",
-        "size-mcq-30",
-        "size-mcq-32",
-        "size-mcq-29",
-        "size-mcq-33",
-        "size-mcq-28"
+        "size-mcq-44",
+        "size-mcq-38",
+        "size-mcq-69"
       ],
       "explanation": "本句的「sized」指「按大小分類／定尺寸」。",
       "sentenceIndex": 75,
@@ -3832,12 +3562,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-31": "本句指「按大小分類／定尺寸」。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-28": "「尺碼制度」與本句語境不同。"
+        "size-mcq-31": "本句的「sized」指「按大小分類／定尺寸」。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-31"
     },
@@ -3849,11 +3577,9 @@ export default {
       "masked": "____ before uploading it.",
       "options": [
         "size-pdf-004",
-        "size-mcq-31",
-        "size-mcq-33",
-        "size-mcq-30",
-        "size-mcq-34",
-        "size-mcq-29"
+        "size-mcq-37",
+        "size-mcq-44",
+        "size-mcq-69"
       ],
       "explanation": "本句的「Resize the image」指「把原有大小改成另一個大小」。",
       "sentenceIndex": 76,
@@ -3862,12 +3588,10 @@ export default {
         "Resize the image"
       ],
       "optionReasons": {
-        "size-pdf-004": "本句指「把原有大小改成另一個大小」。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-29": "「尺碼不一致」與本句語境不同。"
+        "size-pdf-004": "本句的「Resize the image」指「把原有大小改成另一個大小」。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-004"
     },
@@ -3879,11 +3603,9 @@ export default {
       "masked": "Drag the corner to ____.",
       "options": [
         "size-mcq-33",
-        "size-mcq-32",
-        "size-mcq-34",
-        "size-mcq-31",
-        "size-mcq-35",
-        "size-mcq-30"
+        "size-mcq-12",
+        "size-mcq-54",
+        "size-mcq-35"
       ],
       "explanation": "本句的「resize the window」指「調整圖片大小」。",
       "sentenceIndex": 77,
@@ -3892,12 +3614,10 @@ export default {
         "resize the window"
       ],
       "optionReasons": {
-        "size-mcq-33": "本句指「調整圖片大小」。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-30": "「虛榮尺碼／尺碼放寬」與本句語境不同。"
+        "size-mcq-33": "本句的「resize the window」指「調整圖片大小」。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-33"
     },
@@ -3909,11 +3629,9 @@ export default {
       "masked": "The interviewer quickly ____.",
       "options": [
         "size-mcq-34",
-        "size-mcq-33",
-        "size-mcq-35",
-        "size-mcq-32",
-        "size-mcq-36",
-        "size-mcq-31"
+        "size-mcq-26",
+        "size-pdf-002",
+        "size-mcq-05"
       ],
       "explanation": "本句的「sized him up」指「打量／評估某人」。",
       "sentenceIndex": 78,
@@ -3922,12 +3640,10 @@ export default {
         "sized him up"
       ],
       "optionReasons": {
-        "size-mcq-34": "本句指「打量／評估某人」。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。"
+        "size-mcq-34": "本句的「sized him up」指「打量／評估某人」。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-34"
     },
@@ -3939,11 +3655,9 @@ export default {
       "masked": "She ____ up the customer before deciding how to respond.",
       "options": [
         "size-mcq-34",
-        "size-mcq-33",
-        "size-mcq-35",
-        "size-mcq-32",
-        "size-mcq-36",
-        "size-mcq-31"
+        "size-mcq-48",
+        "size-mcq-49",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sized」指「打量／評估某人」。",
       "sentenceIndex": 79,
@@ -3952,12 +3666,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-34": "本句指「打量／評估某人」。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-31": "「按大小分類／定尺寸」與本句語境不同。"
+        "size-mcq-34": "本句的「sized」指「打量／評估某人」。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-34"
     },
@@ -3969,11 +3681,9 @@ export default {
       "masked": "The manager paused to ____.",
       "options": [
         "size-mcq-35",
-        "size-mcq-34",
-        "size-mcq-36",
-        "size-mcq-33",
-        "size-mcq-37",
-        "size-mcq-32"
+        "size-mcq-70",
+        "size-mcq-73",
+        "size-mcq-26"
       ],
       "explanation": "本句的「size up the situation」指「評估形勢」。",
       "sentenceIndex": 80,
@@ -3982,12 +3692,10 @@ export default {
         "size up the situation"
       ],
       "optionReasons": {
-        "size-mcq-35": "本句指「評估形勢」。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。"
+        "size-mcq-35": "本句的「size up the situation」指「評估形勢」。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-35"
     },
@@ -3999,11 +3707,9 @@ export default {
       "masked": "Good staff can ____ up a complaint quickly.",
       "options": [
         "size-mcq-35",
-        "size-mcq-34",
-        "size-mcq-36",
-        "size-mcq-33",
-        "size-mcq-37",
-        "size-mcq-32"
+        "size-mcq-38",
+        "size-pdf-007",
+        "size-mcq-39"
       ],
       "explanation": "本句的「size」指「評估形勢」。",
       "sentenceIndex": 81,
@@ -4012,12 +3718,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-35": "本句指「評估形勢」。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。"
+        "size-mcq-35": "本句的「size」指「評估形勢」。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-35"
     },
@@ -4029,11 +3733,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "size-mcq-35",
-        "size-mcq-34",
-        "size-mcq-36",
-        "size-mcq-33",
         "size-mcq-37",
-        "size-mcq-32"
+        "size-mcq-09",
+        "size-mcq-27"
       ],
       "explanation": "本句的「sizing up the competition」指「評估形勢」。",
       "sentenceIndex": 82,
@@ -4042,12 +3744,10 @@ export default {
         "sizing up the competition"
       ],
       "optionReasons": {
-        "size-mcq-35": "本句指「評估形勢」。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。"
+        "size-mcq-35": "本句的「sizing up the competition」指「評估形勢」。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-35"
     },
@@ -4059,11 +3759,9 @@ export default {
       "masked": "Retailers ____ up competitors before changing prices.",
       "options": [
         "size-mcq-35",
-        "size-mcq-34",
-        "size-mcq-36",
-        "size-mcq-33",
-        "size-mcq-37",
-        "size-mcq-32"
+        "size-mcq-21",
+        "size-mcq-54",
+        "size-mcq-37"
       ],
       "explanation": "本句的「size」指「評估形勢」。",
       "sentenceIndex": 83,
@@ -4072,12 +3770,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-35": "本句指「評估形勢」。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-32": "「調整大小」與本句語境不同。"
+        "size-mcq-35": "本句的「size」指「評估形勢」。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-35"
     },
@@ -4089,11 +3785,9 @@ export default {
       "masked": "The effect varies according to ____.",
       "options": [
         "size-mcq-36",
-        "size-mcq-35",
-        "size-mcq-37",
-        "size-mcq-34",
-        "size-mcq-38",
-        "size-mcq-33"
+        "size-mcq-30",
+        "size-pdf-004",
+        "size-mcq-54"
       ],
       "explanation": "本句的「company size」指「公司規模」。",
       "sentenceIndex": 86,
@@ -4102,12 +3796,10 @@ export default {
         "company size"
       ],
       "optionReasons": {
-        "size-mcq-36": "本句指「公司規模」。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。"
+        "size-mcq-36": "本句的「company size」指「公司規模」。",
+        "size-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-36"
     },
@@ -4119,11 +3811,9 @@ export default {
       "masked": "Company ____ can be measured in several ways.",
       "options": [
         "size-mcq-36",
-        "size-mcq-35",
-        "size-mcq-37",
-        "size-mcq-34",
-        "size-mcq-38",
-        "size-mcq-33"
+        "size-mcq-47",
+        "size-mcq-10",
+        "size-mcq-69"
       ],
       "explanation": "本句的「size」指「公司規模」。",
       "sentenceIndex": 87,
@@ -4132,12 +3822,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-36": "本句指「公司規模」。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-33": "「調整圖片大小」與本句語境不同。"
+        "size-mcq-36": "本句的「size」指「公司規模」。",
+        "size-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-36"
     },
@@ -4149,11 +3837,9 @@ export default {
       "masked": "Smaller ____ can make communication easier.",
       "options": [
         "size-mcq-37",
-        "size-mcq-36",
-        "size-mcq-38",
-        "size-mcq-35",
-        "size-mcq-39",
-        "size-mcq-34"
+        "size-mcq-21",
+        "size-mcq-69",
+        "size-mcq-27"
       ],
       "explanation": "本句的「team sizes」指「團隊人數」。",
       "sentenceIndex": 88,
@@ -4162,12 +3848,10 @@ export default {
         "team sizes"
       ],
       "optionReasons": {
-        "size-mcq-37": "本句指「團隊人數」。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。"
+        "size-mcq-37": "本句的「team sizes」指「團隊人數」。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-37"
     },
@@ -4179,11 +3863,9 @@ export default {
       "masked": "The ideal team ____ depends on the task.",
       "options": [
         "size-mcq-37",
-        "size-mcq-36",
-        "size-mcq-38",
-        "size-mcq-35",
-        "size-mcq-39",
-        "size-mcq-34"
+        "size-mcq-21",
+        "size-mcq-41",
+        "size-pdf-005"
       ],
       "explanation": "本句的「size」指「團隊人數」。",
       "sentenceIndex": 89,
@@ -4192,12 +3874,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-37": "本句指「團隊人數」。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-34": "「打量／評估某人」與本句語境不同。"
+        "size-mcq-37": "本句的「size」指「團隊人數」。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-37"
     },
@@ -4209,11 +3889,9 @@ export default {
       "masked": "The company reduced its ____.",
       "options": [
         "size-mcq-38",
-        "size-mcq-37",
+        "size-mcq-25",
         "size-mcq-39",
-        "size-mcq-36",
-        "size-mcq-40",
-        "size-mcq-35"
+        "size-mcq-58"
       ],
       "explanation": "本句的「workforce size」指「員工規模」。",
       "sentenceIndex": 90,
@@ -4222,12 +3900,10 @@ export default {
         "workforce size"
       ],
       "optionReasons": {
-        "size-mcq-38": "本句指「員工規模」。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。"
+        "size-mcq-38": "本句的「workforce size」指「員工規模」。",
+        "size-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-38"
     },
@@ -4239,11 +3915,9 @@ export default {
       "masked": "Workforce ____ increased rapidly.",
       "options": [
         "size-mcq-38",
-        "size-mcq-37",
-        "size-mcq-39",
-        "size-mcq-36",
-        "size-mcq-40",
-        "size-mcq-35"
+        "size-pdf-002",
+        "size-mcq-58",
+        "size-mcq-61"
       ],
       "explanation": "本句的「size」指「員工規模」。",
       "sentenceIndex": 91,
@@ -4252,12 +3926,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-38": "本句指「員工規模」。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-35": "「評估形勢」與本句語境不同。"
+        "size-mcq-38": "本句的「size」指「員工規模」。",
+        "size-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-38"
     },
@@ -4269,11 +3941,9 @@ export default {
       "masked": "____ can affect teaching methods.",
       "options": [
         "size-mcq-39",
-        "size-mcq-38",
-        "size-mcq-40",
-        "size-mcq-37",
-        "size-mcq-41",
-        "size-mcq-36"
+        "size-mcq-48",
+        "size-mcq-34",
+        "size-mcq-29"
       ],
       "explanation": "本句的「Class size」指「班級人數」。",
       "sentenceIndex": 92,
@@ -4282,12 +3952,10 @@ export default {
         "Class size"
       ],
       "optionReasons": {
-        "size-mcq-39": "本句指「班級人數」。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。"
+        "size-mcq-39": "本句的「Class size」指「班級人數」。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-39"
     },
@@ -4299,11 +3967,9 @@ export default {
       "masked": "The school reduced average class ____.",
       "options": [
         "size-mcq-39",
-        "size-mcq-38",
-        "size-mcq-40",
-        "size-mcq-37",
-        "size-mcq-41",
-        "size-mcq-36"
+        "size-pdf-008",
+        "size-mcq-10",
+        "size-mcq-41"
       ],
       "explanation": "本句的「size」指「班級人數」。",
       "sentenceIndex": 93,
@@ -4312,12 +3978,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-39": "本句指「班級人數」。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-36": "「公司規模」與本句語境不同。"
+        "size-mcq-39": "本句的「size」指「班級人數」。",
+        "size-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-39"
     },
@@ -4329,11 +3993,9 @@ export default {
       "masked": "Average ____ has changed.",
       "options": [
         "size-mcq-40",
-        "size-mcq-39",
-        "size-mcq-41",
-        "size-mcq-38",
-        "size-mcq-42",
-        "size-mcq-37"
+        "size-mcq-31",
+        "size-mcq-34",
+        "size-mcq-57"
       ],
       "explanation": "本句的「family size」指「家庭人數」。",
       "sentenceIndex": 94,
@@ -4342,12 +4004,10 @@ export default {
         "family size"
       ],
       "optionReasons": {
-        "size-mcq-40": "本句指「家庭人數」。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。"
+        "size-mcq-40": "本句的「family size」指「家庭人數」。",
+        "size-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-40"
     },
@@ -4359,11 +4019,9 @@ export default {
       "masked": "Housing needs can depend on household ____.",
       "options": [
         "size-mcq-40",
-        "size-mcq-39",
-        "size-mcq-41",
-        "size-mcq-38",
-        "size-mcq-42",
-        "size-mcq-37"
+        "size-mcq-61",
+        "size-mcq-23",
+        "size-mcq-56"
       ],
       "explanation": "本句的「size」指「家庭人數」。",
       "sentenceIndex": 95,
@@ -4372,12 +4030,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-40": "本句指「家庭人數」。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-37": "「團隊人數」與本句語境不同。"
+        "size-mcq-40": "本句的「size」指「家庭人數」。",
+        "size-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-40"
     },
@@ -4389,11 +4045,9 @@ export default {
       "masked": "The company estimated the ____.",
       "options": [
         "size-mcq-41",
-        "size-mcq-40",
-        "size-mcq-42",
-        "size-mcq-39",
-        "size-mcq-43",
-        "size-mcq-38"
+        "size-mcq-70",
+        "size-mcq-33",
+        "size-mcq-71"
       ],
       "explanation": "本句的「market size」指「市場規模」。",
       "sentenceIndex": 96,
@@ -4402,12 +4056,10 @@ export default {
         "market size"
       ],
       "optionReasons": {
-        "size-mcq-41": "本句指「市場規模」。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。"
+        "size-mcq-41": "本句的「market size」指「市場規模」。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-41"
     },
@@ -4419,11 +4071,9 @@ export default {
       "masked": "Market ____ can be expressed in revenue, units, customers or another relevant measure.",
       "options": [
         "size-mcq-41",
-        "size-mcq-40",
-        "size-mcq-42",
-        "size-mcq-39",
-        "size-mcq-43",
-        "size-mcq-38"
+        "size-mcq-58",
+        "size-pdf-001",
+        "size-mcq-30"
       ],
       "explanation": "本句的「size」指「市場規模」。",
       "sentenceIndex": 97,
@@ -4432,12 +4082,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-41": "本句指「市場規模」。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-38": "「員工規模」與本句語境不同。"
+        "size-mcq-41": "本句的「size」指「市場規模」。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-41"
     },
@@ -4449,11 +4097,9 @@ export default {
       "masked": "The survey had a ____.",
       "options": [
         "size-mcq-42",
-        "size-mcq-41",
-        "size-mcq-43",
-        "size-mcq-40",
-        "size-mcq-44",
-        "size-mcq-39"
+        "size-mcq-57",
+        "size-mcq-75",
+        "size-mcq-52"
       ],
       "explanation": "本句的「sample size of 500 customers」指「樣本量」。",
       "sentenceIndex": 98,
@@ -4462,12 +4108,10 @@ export default {
         "sample size of 500 customers"
       ],
       "optionReasons": {
-        "size-mcq-42": "本句指「樣本量」。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-44": "「效應量」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。"
+        "size-mcq-42": "本句的「sample size of 500 customers」指「樣本量」。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-42"
     },
@@ -4479,11 +4123,9 @@ export default {
       "masked": "A larger sample ____ may improve statistical precision under suitable design conditions.",
       "options": [
         "size-mcq-42",
-        "size-mcq-41",
-        "size-mcq-43",
-        "size-mcq-40",
-        "size-mcq-44",
-        "size-mcq-39"
+        "size-pdf-008",
+        "size-mcq-18",
+        "size-mcq-51"
       ],
       "explanation": "本句的「size」指「樣本量」。",
       "sentenceIndex": 99,
@@ -4492,12 +4134,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-42": "本句指「樣本量」。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。",
-        "size-mcq-44": "「效應量」與本句語境不同。",
-        "size-mcq-39": "「班級人數」與本句語境不同。"
+        "size-mcq-42": "本句的「size」指「樣本量」。",
+        "size-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-42"
     },
@@ -4509,11 +4149,9 @@ export default {
       "masked": "The model estimates ____.",
       "options": [
         "size-mcq-43",
-        "size-mcq-42",
-        "size-mcq-44",
-        "size-mcq-41",
-        "size-mcq-45",
-        "size-mcq-40"
+        "size-mcq-13",
+        "size-mcq-64",
+        "size-mcq-69"
       ],
       "explanation": "本句的「population size」指「母體／族群數量」。",
       "sentenceIndex": 100,
@@ -4522,12 +4160,10 @@ export default {
         "population size"
       ],
       "optionReasons": {
-        "size-mcq-43": "本句指「母體／族群數量」。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-44": "「效應量」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。"
+        "size-mcq-43": "本句的「population size」指「母體／族群數量」。",
+        "size-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-43"
     },
@@ -4539,11 +4175,9 @@ export default {
       "masked": "In ecology, population ____ means the number of organisms in the population.",
       "options": [
         "size-mcq-43",
-        "size-mcq-42",
-        "size-mcq-44",
-        "size-mcq-41",
-        "size-mcq-45",
-        "size-mcq-40"
+        "size-mcq-51",
+        "size-mcq-49",
+        "size-mcq-64"
       ],
       "explanation": "本句的「size」指「母體／族群數量」。",
       "sentenceIndex": 101,
@@ -4552,12 +4186,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-43": "本句指「母體／族群數量」。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-44": "「效應量」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。",
-        "size-mcq-40": "「家庭人數」與本句語境不同。"
+        "size-mcq-43": "本句的「size」指「母體／族群數量」。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-43"
     },
@@ -4569,11 +4201,9 @@ export default {
       "masked": "The study reported both statistical significance and ____.",
       "options": [
         "size-mcq-44",
-        "size-mcq-43",
-        "size-mcq-45",
-        "size-mcq-42",
-        "size-mcq-46",
-        "size-mcq-41"
+        "size-pdf-005",
+        "size-mcq-62",
+        "size-mcq-56"
       ],
       "explanation": "本句的「effect size」指「效應量」。",
       "sentenceIndex": 102,
@@ -4582,12 +4212,10 @@ export default {
         "effect size"
       ],
       "optionReasons": {
-        "size-mcq-44": "本句指「效應量」。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。"
+        "size-mcq-44": "本句的「effect size」指「效應量」。",
+        "size-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-44"
     },
@@ -4599,11 +4227,9 @@ export default {
       "masked": "Effect ____ describes the magnitude of an observed effect using a specified measure.",
       "options": [
         "size-mcq-44",
-        "size-mcq-43",
+        "size-mcq-50",
         "size-mcq-45",
-        "size-mcq-42",
-        "size-mcq-46",
-        "size-mcq-41"
+        "size-mcq-40"
       ],
       "explanation": "本句的「size」指「效應量」。",
       "sentenceIndex": 103,
@@ -4612,12 +4238,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-44": "本句指「效應量」。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-41": "「市場規模」與本句語境不同。"
+        "size-mcq-44": "本句的「size」指「效應量」。",
+        "size-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-44"
     },
@@ -4629,11 +4253,9 @@ export default {
       "masked": "The ____ is too large for email.",
       "options": [
         "size-mcq-45",
-        "size-mcq-44",
-        "size-mcq-46",
-        "size-mcq-43",
-        "size-mcq-47",
-        "size-mcq-42"
+        "size-mcq-41",
+        "size-mcq-69",
+        "size-mcq-29"
       ],
       "explanation": "本句的「file size」指「檔案大小」。",
       "sentenceIndex": 104,
@@ -4642,12 +4264,10 @@ export default {
         "file size"
       ],
       "optionReasons": {
-        "size-mcq-45": "本句指「檔案大小」。",
-        "size-mcq-44": "「效應量」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。"
+        "size-mcq-45": "本句的「file size」指「檔案大小」。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-45"
     },
@@ -4659,11 +4279,9 @@ export default {
       "masked": "Compression can reduce file ____.",
       "options": [
         "size-mcq-45",
-        "size-mcq-44",
-        "size-mcq-46",
-        "size-mcq-43",
-        "size-mcq-47",
-        "size-mcq-42"
+        "size-mcq-76",
+        "size-mcq-51",
+        "size-mcq-39"
       ],
       "explanation": "本句的「size」指「檔案大小」。",
       "sentenceIndex": 105,
@@ -4672,12 +4290,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-45": "本句指「檔案大小」。",
-        "size-mcq-44": "「效應量」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-43": "「母體／族群數量」與本句語境不同。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。",
-        "size-mcq-42": "「樣本量」與本句語境不同。"
+        "size-mcq-45": "本句的「size」指「檔案大小」。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-45"
     },
@@ -4689,11 +4305,9 @@ export default {
       "masked": "The laptop has a 14-inch ____.",
       "options": [
         "size-mcq-47",
-        "size-mcq-46",
-        "size-mcq-48",
-        "size-mcq-45",
-        "size-mcq-49",
-        "size-mcq-44"
+        "size-mcq-55",
+        "size-mcq-40",
+        "size-mcq-71"
       ],
       "explanation": "本句的「screen size」指「螢幕尺寸」。",
       "sentenceIndex": 106,
@@ -4702,12 +4316,10 @@ export default {
         "screen size"
       ],
       "optionReasons": {
-        "size-mcq-47": "本句指「螢幕尺寸」。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-48": "「字體大小」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-44": "「效應量」與本句語境不同。"
+        "size-mcq-47": "本句的「screen size」指「螢幕尺寸」。",
+        "size-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-47"
     },
@@ -4719,11 +4331,9 @@ export default {
       "masked": "Screen ____ is usually measured diagonally for many consumer displays.",
       "options": [
         "size-mcq-47",
-        "size-mcq-46",
+        "size-mcq-63",
         "size-mcq-48",
-        "size-mcq-45",
-        "size-mcq-49",
-        "size-mcq-44"
+        "size-mcq-41"
       ],
       "explanation": "本句的「size」指「螢幕尺寸」。",
       "sentenceIndex": 107,
@@ -4732,12 +4342,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-47": "本句指「螢幕尺寸」。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-48": "「字體大小」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-44": "「效應量」與本句語境不同。"
+        "size-mcq-47": "本句的「size」指「螢幕尺寸」。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-47"
     },
@@ -4749,11 +4357,9 @@ export default {
       "masked": "Increase the ____.",
       "options": [
         "size-mcq-48",
-        "size-mcq-47",
-        "size-mcq-49",
-        "size-mcq-46",
-        "size-mcq-50",
-        "size-mcq-45"
+        "size-mcq-07",
+        "size-mcq-59",
+        "size-mcq-64"
       ],
       "explanation": "本句的「font size」指「字體大小」。",
       "sentenceIndex": 108,
@@ -4762,12 +4368,10 @@ export default {
         "font size"
       ],
       "optionReasons": {
-        "size-mcq-48": "本句指「字體大小」。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。"
+        "size-mcq-48": "本句的「font size」指「字體大小」。",
+        "size-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-48"
     },
@@ -4779,11 +4383,9 @@ export default {
       "masked": "Small font ____ can reduce readability.",
       "options": [
         "size-mcq-48",
-        "size-mcq-47",
-        "size-mcq-49",
-        "size-mcq-46",
-        "size-mcq-50",
-        "size-mcq-45"
+        "size-mcq-71",
+        "size-mcq-15",
+        "size-mcq-39"
       ],
       "explanation": "本句的「sizes」指「字體大小」。",
       "sentenceIndex": 109,
@@ -4792,12 +4394,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-48": "本句指「字體大小」。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-45": "「檔案大小」與本句語境不同。"
+        "size-mcq-48": "本句的「sizes」指「字體大小」。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-48"
     },
@@ -4809,11 +4409,9 @@ export default {
       "masked": "Change the ____ to A4.",
       "options": [
         "size-mcq-49",
-        "size-mcq-48",
-        "size-mcq-50",
-        "size-mcq-47",
+        "size-mcq-69",
         "size-mcq-51",
-        "size-mcq-46"
+        "size-pdf-006"
       ],
       "explanation": "本句的「page size」指「頁面尺寸」。",
       "sentenceIndex": 110,
@@ -4822,12 +4420,10 @@ export default {
         "page size"
       ],
       "optionReasons": {
-        "size-mcq-49": "本句指「頁面尺寸」。",
-        "size-mcq-48": "「字體大小」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。"
+        "size-mcq-49": "本句的「page size」指「頁面尺寸」。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-49"
     },
@@ -4839,11 +4435,9 @@ export default {
       "masked": "Page ____ affects layout.",
       "options": [
         "size-mcq-49",
-        "size-mcq-48",
-        "size-mcq-50",
-        "size-mcq-47",
-        "size-mcq-51",
-        "size-mcq-46"
+        "size-mcq-45",
+        "size-mcq-35",
+        "size-mcq-71"
       ],
       "explanation": "本句的「size」指「頁面尺寸」。",
       "sentenceIndex": 111,
@@ -4852,12 +4446,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-49": "本句指「頁面尺寸」。",
-        "size-mcq-48": "「字體大小」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-46": "「圖像尺寸／檔案大小」與本句語境不同。"
+        "size-mcq-49": "本句的「size」指「頁面尺寸」。",
+        "size-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-49"
     },
@@ -4869,11 +4461,9 @@ export default {
       "masked": "A4 is a common ____.",
       "options": [
         "size-mcq-50",
-        "size-mcq-49",
-        "size-mcq-51",
-        "size-mcq-48",
-        "size-mcq-52",
-        "size-mcq-47"
+        "size-pdf-004",
+        "size-mcq-73",
+        "size-mcq-12"
       ],
       "explanation": "本句的「paper size」指「紙張尺寸」。",
       "sentenceIndex": 112,
@@ -4882,12 +4472,10 @@ export default {
         "paper size"
       ],
       "optionReasons": {
-        "size-mcq-50": "本句指「紙張尺寸」。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-48": "「字體大小」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。"
+        "size-mcq-50": "本句的「paper size」指「紙張尺寸」。",
+        "size-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-50"
     },
@@ -4899,11 +4487,9 @@ export default {
       "masked": "Select the correct paper ____ before printing.",
       "options": [
         "size-mcq-50",
-        "size-mcq-49",
-        "size-mcq-51",
-        "size-mcq-48",
         "size-mcq-52",
-        "size-mcq-47"
+        "size-mcq-75",
+        "size-mcq-12"
       ],
       "explanation": "本句的「size」指「紙張尺寸」。",
       "sentenceIndex": 113,
@@ -4912,12 +4498,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-50": "本句指「紙張尺寸」。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-48": "「字體大小」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-47": "「螢幕尺寸」與本句語境不同。"
+        "size-mcq-50": "本句的「size」指「紙張尺寸」。",
+        "size-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-50"
     },
@@ -4929,10 +4513,8 @@ export default {
       "masked": "The material was analysed by ____.",
       "options": [
         "size-mcq-51",
-        "size-mcq-50",
-        "size-mcq-52",
-        "size-mcq-49",
-        "size-mcq-53",
+        "size-mcq-12",
+        "size-mcq-19",
         "size-mcq-48"
       ],
       "explanation": "本句的「particle size」指「粒徑」。",
@@ -4942,12 +4524,10 @@ export default {
         "particle size"
       ],
       "optionReasons": {
-        "size-mcq-51": "本句指「粒徑」。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-48": "「字體大小」與本句語境不同。"
+        "size-mcq-51": "本句的「particle size」指「粒徑」。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-51"
     },
@@ -4959,11 +4539,9 @@ export default {
       "masked": "Particle ____ can affect how a material behaves.",
       "options": [
         "size-mcq-51",
-        "size-mcq-50",
-        "size-mcq-52",
-        "size-mcq-49",
-        "size-mcq-53",
-        "size-mcq-48"
+        "size-mcq-54",
+        "size-mcq-67",
+        "size-mcq-56"
       ],
       "explanation": "本句的「size」指「粒徑」。",
       "sentenceIndex": 115,
@@ -4972,12 +4550,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-51": "本句指「粒徑」。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-48": "「字體大小」與本句語境不同。"
+        "size-mcq-51": "本句的「size」指「粒徑」。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-51"
     },
@@ -4989,11 +4565,9 @@ export default {
       "masked": "The metal has a fine ____.",
       "options": [
         "size-mcq-52",
-        "size-mcq-51",
-        "size-mcq-53",
-        "size-mcq-50",
-        "size-mcq-54",
-        "size-mcq-49"
+        "size-mcq-13",
+        "size-mcq-76",
+        "size-mcq-43"
       ],
       "explanation": "本句的「grain size」指「顆粒／晶粒大小」。",
       "sentenceIndex": 116,
@@ -5002,12 +4576,10 @@ export default {
         "grain size"
       ],
       "optionReasons": {
-        "size-mcq-52": "本句指「顆粒／晶粒大小」。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。"
+        "size-mcq-52": "本句的「grain size」指「顆粒／晶粒大小」。",
+        "size-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-52"
     },
@@ -5019,11 +4591,9 @@ export default {
       "masked": "In geology, grain ____ helps classify sediments.",
       "options": [
         "size-mcq-52",
-        "size-mcq-51",
-        "size-mcq-53",
-        "size-mcq-50",
-        "size-mcq-54",
-        "size-mcq-49"
+        "size-mcq-37",
+        "size-mcq-15",
+        "size-mcq-12"
       ],
       "explanation": "本句的「size」指「顆粒／晶粒大小」。",
       "sentenceIndex": 117,
@@ -5032,12 +4602,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-52": "本句指「顆粒／晶粒大小」。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-49": "「頁面尺寸」與本句語境不同。"
+        "size-mcq-52": "本句的「size」指「顆粒／晶粒大小」。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-52"
     },
@@ -5049,11 +4617,9 @@ export default {
       "masked": "The restaurant reduced ____.",
       "options": [
         "size-mcq-53",
-        "size-mcq-52",
-        "size-mcq-54",
-        "size-mcq-51",
-        "size-mcq-55",
-        "size-mcq-50"
+        "size-mcq-76",
+        "size-mcq-37",
+        "size-mcq-23"
       ],
       "explanation": "本句的「portion sizes」指「份量大小」。",
       "sentenceIndex": 118,
@@ -5062,12 +4628,10 @@ export default {
         "portion sizes"
       ],
       "optionReasons": {
-        "size-mcq-53": "本句指「份量大小」。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。"
+        "size-mcq-53": "本句的「portion sizes」指「份量大小」。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-53"
     },
@@ -5079,11 +4643,9 @@ export default {
       "masked": "Portion ____ influences how much food is served.",
       "options": [
         "size-mcq-53",
-        "size-mcq-52",
-        "size-mcq-54",
-        "size-mcq-51",
-        "size-mcq-55",
-        "size-mcq-50"
+        "size-mcq-16",
+        "size-mcq-57",
+        "size-mcq-75"
       ],
       "explanation": "本句的「size」指「份量大小」。",
       "sentenceIndex": 119,
@@ -5092,12 +4654,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-53": "本句指「份量大小」。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-50": "「紙張尺寸」與本句語境不同。"
+        "size-mcq-53": "本句的「size」指「份量大小」。",
+        "size-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-53"
     },
@@ -5109,11 +4669,9 @@ export default {
       "masked": "Check the ____ on the label.",
       "options": [
         "size-mcq-54",
-        "size-mcq-53",
-        "size-mcq-55",
-        "size-mcq-52",
-        "size-mcq-56",
-        "size-mcq-51"
+        "size-mcq-20",
+        "size-mcq-40",
+        "size-mcq-62"
       ],
       "explanation": "本句的「serving size」指「每份食用量」。",
       "sentenceIndex": 120,
@@ -5122,12 +4680,10 @@ export default {
         "serving size"
       ],
       "optionReasons": {
-        "size-mcq-54": "本句指「每份食用量」。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。"
+        "size-mcq-54": "本句的「serving size」指「每份食用量」。",
+        "size-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-54"
     },
@@ -5139,11 +4695,9 @@ export default {
       "masked": "Serving ____ is not necessarily the amount every person should personally eat.",
       "options": [
         "size-mcq-54",
-        "size-mcq-53",
-        "size-mcq-55",
-        "size-mcq-52",
-        "size-mcq-56",
-        "size-mcq-51"
+        "size-mcq-23",
+        "size-mcq-72",
+        "size-mcq-56"
       ],
       "explanation": "本句的「size」指「每份食用量」。",
       "sentenceIndex": 121,
@@ -5152,12 +4706,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-54": "本句指「每份食用量」。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-51": "「粒徑」與本句語境不同。"
+        "size-mcq-54": "本句的「size」指「每份食用量」。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-54"
     },
@@ -5169,11 +4721,9 @@ export default {
       "masked": "The product comes in several ____.",
       "options": [
         "size-mcq-55",
-        "size-mcq-54",
-        "size-mcq-56",
-        "size-mcq-53",
-        "size-mcq-57",
-        "size-mcq-52"
+        "size-mcq-48",
+        "size-mcq-26",
+        "size-mcq-18"
       ],
       "explanation": "本句的「pack sizes」指「包裝規格」。",
       "sentenceIndex": 122,
@@ -5182,12 +4732,10 @@ export default {
         "pack sizes"
       ],
       "optionReasons": {
-        "size-mcq-55": "本句指「包裝規格」。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。"
+        "size-mcq-55": "本句的「pack sizes」指「包裝規格」。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-55"
     },
@@ -5199,11 +4747,9 @@ export default {
       "masked": "Larger pack ____ may have a lower unit cost.",
       "options": [
         "size-mcq-55",
-        "size-mcq-54",
-        "size-mcq-56",
-        "size-mcq-53",
-        "size-mcq-57",
-        "size-mcq-52"
+        "size-mcq-75",
+        "size-mcq-08",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sizes」指「包裝規格」。",
       "sentenceIndex": 123,
@@ -5212,12 +4758,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-55": "本句指「包裝規格」。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-52": "「顆粒／晶粒大小」與本句語境不同。"
+        "size-mcq-55": "本句的「sizes」指「包裝規格」。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-55"
     },
@@ -5229,11 +4773,9 @@ export default {
       "masked": "Average ____ increased.",
       "options": [
         "size-mcq-56",
-        "size-mcq-55",
-        "size-mcq-57",
-        "size-mcq-54",
-        "size-mcq-58",
-        "size-mcq-53"
+        "size-mcq-24",
+        "size-mcq-16",
+        "size-mcq-61"
       ],
       "explanation": "本句的「order size」指「訂單規模」。",
       "sentenceIndex": 124,
@@ -5242,12 +4784,10 @@ export default {
         "order size"
       ],
       "optionReasons": {
-        "size-mcq-56": "本句指「訂單規模」。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。"
+        "size-mcq-56": "本句的「order size」指「訂單規模」。",
+        "size-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-56"
     },
@@ -5259,11 +4799,9 @@ export default {
       "masked": "Order ____” may refer to number of items or monetary value, depending on the metric.",
       "options": [
         "size-mcq-56",
-        "size-mcq-55",
-        "size-mcq-57",
-        "size-mcq-54",
-        "size-mcq-58",
-        "size-mcq-53"
+        "size-mcq-53",
+        "size-pdf-002",
+        "size-mcq-63"
       ],
       "explanation": "本句的「size」指「訂單規模」。",
       "sentenceIndex": 125,
@@ -5272,12 +4810,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-56": "本句指「訂單規模」。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-53": "「份量大小」與本句語境不同。"
+        "size-mcq-56": "本句的「size」指「訂單規模」。",
+        "size-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-56"
     },
@@ -5289,11 +4825,9 @@ export default {
       "masked": "Larger ____ require additional approval.",
       "options": [
         "size-mcq-57",
-        "size-mcq-56",
-        "size-mcq-58",
-        "size-mcq-55",
-        "size-mcq-59",
-        "size-mcq-54"
+        "size-mcq-67",
+        "size-mcq-10",
+        "size-mcq-71"
       ],
       "explanation": "本句的「transaction sizes」指「持倉規模」。",
       "sentenceIndex": 126,
@@ -5302,12 +4836,10 @@ export default {
         "transaction sizes"
       ],
       "optionReasons": {
-        "size-mcq-57": "本句指「持倉規模」。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。"
+        "size-mcq-57": "本句的「transaction sizes」指「持倉規模」。",
+        "size-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-57"
     },
@@ -5319,11 +4851,9 @@ export default {
       "masked": "Transaction ____ may be measured by value.",
       "options": [
         "size-mcq-57",
-        "size-mcq-56",
-        "size-mcq-58",
-        "size-mcq-55",
-        "size-mcq-59",
-        "size-mcq-54"
+        "size-mcq-19",
+        "size-mcq-11",
+        "size-mcq-44"
       ],
       "explanation": "本句的「size」指「持倉規模」。",
       "sentenceIndex": 127,
@@ -5332,12 +4862,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-57": "本句指「持倉規模」。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。"
+        "size-mcq-57": "本句的「size」指「持倉規模」。",
+        "size-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-57"
     },
@@ -5349,11 +4877,9 @@ export default {
       "masked": "Investors should consider ____ alongside risk.",
       "options": [
         "size-mcq-57",
-        "size-mcq-56",
-        "size-mcq-58",
-        "size-mcq-55",
-        "size-mcq-59",
-        "size-mcq-54"
+        "size-mcq-05",
+        "size-mcq-42",
+        "size-mcq-26"
       ],
       "explanation": "本句的「position size」指「持倉規模」。",
       "sentenceIndex": 128,
@@ -5362,12 +4888,10 @@ export default {
         "position size"
       ],
       "optionReasons": {
-        "size-mcq-57": "本句指「持倉規模」。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。"
+        "size-mcq-57": "本句的「position size」指「持倉規模」。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-57"
     },
@@ -5379,11 +4903,9 @@ export default {
       "masked": "Position ____ determines how much capital is allocated to a trade.",
       "options": [
         "size-mcq-57",
-        "size-mcq-56",
-        "size-mcq-58",
-        "size-mcq-55",
-        "size-mcq-59",
-        "size-mcq-54"
+        "size-mcq-75",
+        "size-mcq-30",
+        "size-mcq-39"
       ],
       "explanation": "本句的「sizing」指「持倉規模」。",
       "sentenceIndex": 129,
@@ -5392,12 +4914,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-57": "本句指「持倉規模」。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-54": "「每份食用量」與本句語境不同。"
+        "size-mcq-57": "本句的「sizing」指「持倉規模」。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-57"
     },
@@ -5409,11 +4929,9 @@ export default {
       "masked": "Risk management includes careful ____.",
       "options": [
         "size-mcq-58",
-        "size-mcq-57",
-        "size-mcq-59",
-        "size-mcq-56",
-        "size-mcq-60",
-        "size-mcq-55"
+        "size-pdf-001",
+        "size-mcq-23",
+        "size-mcq-75"
       ],
       "explanation": "本句的「position sizing」指「倉位管理」。",
       "sentenceIndex": 130,
@@ -5422,12 +4940,10 @@ export default {
         "position sizing"
       ],
       "optionReasons": {
-        "size-mcq-58": "本句指「倉位管理」。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。"
+        "size-mcq-58": "本句的「position sizing」指「倉位管理」。",
+        "size-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-58"
     },
@@ -5439,11 +4955,9 @@ export default {
       "masked": "Position ____ is different from predicting market direction.",
       "options": [
         "size-mcq-58",
-        "size-mcq-57",
-        "size-mcq-59",
-        "size-mcq-56",
-        "size-mcq-60",
-        "size-mcq-55"
+        "size-mcq-14",
+        "size-mcq-04",
+        "size-mcq-75"
       ],
       "explanation": "本句的「sizing」指「倉位管理」。",
       "sentenceIndex": 131,
@@ -5452,12 +4966,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-58": "本句指「倉位管理」。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-55": "「包裝規格」與本句語境不同。"
+        "size-mcq-58": "本句的「sizing」指「倉位管理」。",
+        "size-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-58"
     },
@@ -5469,11 +4981,9 @@ export default {
       "masked": "The ____ is five.",
       "options": [
         "size-mcq-59",
-        "size-mcq-58",
-        "size-mcq-60",
-        "size-mcq-57",
-        "size-mcq-61",
-        "size-mcq-56"
+        "size-mcq-05",
+        "size-mcq-76",
+        "size-mcq-24"
       ],
       "explanation": "本句的「size of the set」指「集合元素數量」。",
       "sentenceIndex": 132,
@@ -5482,12 +4992,10 @@ export default {
         "size of the set"
       ],
       "optionReasons": {
-        "size-mcq-59": "本句指「集合元素數量」。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。"
+        "size-mcq-59": "本句的「size of the set」指「集合元素數量」。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-59"
     },
@@ -5499,11 +5007,9 @@ export default {
       "masked": "In finite sets, ____ corresponds to the number of distinct elements.",
       "options": [
         "size-mcq-59",
-        "size-mcq-58",
-        "size-mcq-60",
-        "size-mcq-57",
-        "size-mcq-61",
-        "size-mcq-56"
+        "size-mcq-51",
+        "size-mcq-13",
+        "size-mcq-05"
       ],
       "explanation": "本句的「size」指「集合元素數量」。",
       "sentenceIndex": 133,
@@ -5512,12 +5018,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-59": "本句指「集合元素數量」。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-57": "「持倉規模」與本句語境不同。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-56": "「訂單規模」與本句語境不同。"
+        "size-mcq-59": "本句的「size」指「集合元素數量」。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-59"
     },
@@ -5529,11 +5033,9 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "size-mcq-08",
-        "size-mcq-07",
-        "size-mcq-09",
-        "size-mcq-06",
-        "size-mcq-10",
-        "size-mcq-05"
+        "size-mcq-50",
+        "size-mcq-12",
+        "size-mcq-58"
       ],
       "explanation": "本句的「medium-sized company」指「小／中／大碼」。",
       "sentenceIndex": 134,
@@ -5542,12 +5044,10 @@ export default {
         "medium-sized company"
       ],
       "optionReasons": {
-        "size-mcq-08": "本句指「小／中／大碼」。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。"
+        "size-mcq-08": "本句的「medium-sized company」指「小／中／大碼」。",
+        "size-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-08"
     },
@@ -5559,11 +5059,9 @@ export default {
       "masked": "We need a medium-____ box.",
       "options": [
         "size-mcq-08",
-        "size-mcq-07",
-        "size-mcq-09",
-        "size-mcq-06",
-        "size-mcq-10",
-        "size-mcq-05"
+        "size-mcq-71",
+        "size-mcq-63",
+        "size-mcq-50"
       ],
       "explanation": "本句的「sized」指「小／中／大碼」。",
       "sentenceIndex": 135,
@@ -5572,12 +5070,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-08": "本句指「小／中／大碼」。",
-        "size-mcq-07": "「8 號尺碼」與本句語境不同。",
-        "size-mcq-09": "「服裝尺碼」與本句語境不同。",
-        "size-mcq-06": "「尺碼」與本句語境不同。",
-        "size-mcq-10": "「鞋碼」與本句語境不同。",
-        "size-mcq-05": "「真人／實物大小」與本句語境不同。"
+        "size-mcq-08": "本句的「sized」指「小／中／大碼」。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-08"
     },
@@ -5589,11 +5085,9 @@ export default {
       "masked": "The shelves contain ____.",
       "options": [
         "size-mcq-61",
-        "size-mcq-60",
-        "size-mcq-62",
-        "size-mcq-59",
-        "size-mcq-63",
-        "size-mcq-58"
+        "size-mcq-47",
+        "size-mcq-76",
+        "size-mcq-54"
       ],
       "explanation": "本句的「different-sized boxes」指「不同大小的」。",
       "sentenceIndex": 136,
@@ -5602,12 +5096,10 @@ export default {
         "different-sized boxes"
       ],
       "optionReasons": {
-        "size-mcq-61": "本句指「不同大小的」。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。"
+        "size-mcq-61": "本句的「different-sized boxes」指「不同大小的」。",
+        "size-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-61"
     },
@@ -5619,11 +5111,9 @@ export default {
       "masked": "Customers compared different-____ garments.",
       "options": [
         "size-mcq-61",
-        "size-mcq-60",
-        "size-mcq-62",
-        "size-mcq-59",
-        "size-mcq-63",
-        "size-mcq-58"
+        "size-mcq-37",
+        "size-mcq-49",
+        "size-mcq-44"
       ],
       "explanation": "本句的「sized」指「不同大小的」。",
       "sentenceIndex": 137,
@@ -5632,12 +5122,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-61": "本句指「不同大小的」。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。"
+        "size-mcq-61": "本句的「sized」指「不同大小的」。",
+        "size-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-61"
     },
@@ -5649,11 +5137,9 @@ export default {
       "masked": "Compare the business with ____.",
       "options": [
         "size-mcq-61",
-        "size-mcq-60",
-        "size-mcq-62",
-        "size-mcq-59",
-        "size-mcq-63",
-        "size-mcq-58"
+        "size-mcq-76",
+        "size-mcq-38",
+        "size-mcq-55"
       ],
       "explanation": "本句的「similarly sized companies」指「不同大小的」。",
       "sentenceIndex": 138,
@@ -5662,12 +5148,10 @@ export default {
         "similarly sized companies"
       ],
       "optionReasons": {
-        "size-mcq-61": "本句指「不同大小的」。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。"
+        "size-mcq-61": "本句的「similarly sized companies」指「不同大小的」。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-61"
     },
@@ -5679,11 +5163,9 @@ export default {
       "masked": "The two rooms are similarly ____.",
       "options": [
         "size-mcq-61",
-        "size-mcq-60",
-        "size-mcq-62",
-        "size-mcq-59",
-        "size-mcq-63",
-        "size-mcq-58"
+        "size-mcq-34",
+        "size-mcq-64",
+        "size-mcq-59"
       ],
       "explanation": "本句的「sized」指「不同大小的」。",
       "sentenceIndex": 139,
@@ -5692,12 +5174,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-61": "本句指「不同大小的」。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-58": "「倉位管理」與本句語境不同。"
+        "size-mcq-61": "本句的「sized」指「不同大小的」。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-61"
     },
@@ -5709,11 +5189,9 @@ export default {
       "masked": "The system requires a ____.",
       "options": [
         "size-mcq-62",
-        "size-mcq-61",
-        "size-mcq-63",
-        "size-mcq-60",
-        "size-mcq-64",
-        "size-mcq-59"
+        "size-mcq-05",
+        "size-mcq-04",
+        "size-mcq-34"
       ],
       "explanation": "本句的「properly sized image」指「袖珍的」。",
       "sentenceIndex": 140,
@@ -5722,12 +5200,10 @@ export default {
         "properly sized image"
       ],
       "optionReasons": {
-        "size-mcq-62": "本句指「袖珍的」。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。"
+        "size-mcq-62": "本句的「properly sized image」指「袖珍的」。",
+        "size-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-62"
     },
@@ -5739,11 +5215,9 @@ export default {
       "masked": "Properly ____ clothing should still account for body proportions.",
       "options": [
         "size-mcq-62",
-        "size-mcq-61",
-        "size-mcq-63",
-        "size-mcq-60",
-        "size-mcq-64",
-        "size-mcq-59"
+        "size-mcq-09",
+        "size-pdf-004",
+        "size-mcq-70"
       ],
       "explanation": "本句的「sized」指「袖珍的」。",
       "sentenceIndex": 141,
@@ -5752,12 +5226,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-62": "本句指「袖珍的」。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。"
+        "size-mcq-62": "本句的「sized」指「袖珍的」。",
+        "size-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-62"
     },
@@ -5769,11 +5241,9 @@ export default {
       "masked": "She carries a ____.",
       "options": [
         "size-mcq-62",
-        "size-mcq-61",
-        "size-mcq-63",
-        "size-mcq-60",
-        "size-mcq-64",
-        "size-mcq-59"
+        "size-mcq-72",
+        "size-mcq-34",
+        "size-mcq-58"
       ],
       "explanation": "本句的「pocket-sized notebook」指「袖珍的」。",
       "sentenceIndex": 142,
@@ -5782,12 +5252,10 @@ export default {
         "pocket-sized notebook"
       ],
       "optionReasons": {
-        "size-mcq-62": "本句指「袖珍的」。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。"
+        "size-mcq-62": "本句的「pocket-sized notebook」指「袖珍的」。",
+        "size-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-62"
     },
@@ -5799,11 +5267,9 @@ export default {
       "masked": "Pocket-____ devices are easy to carry.",
       "options": [
         "size-mcq-62",
-        "size-mcq-61",
-        "size-mcq-63",
-        "size-mcq-60",
-        "size-mcq-64",
-        "size-mcq-59"
+        "size-mcq-18",
+        "size-mcq-67",
+        "size-mcq-75"
       ],
       "explanation": "本句的「sized」指「袖珍的」。",
       "sentenceIndex": 143,
@@ -5812,12 +5278,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-62": "本句指「袖珍的」。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-59": "「集合元素數量」與本句語境不同。"
+        "size-mcq-62": "本句的「sized」指「袖珍的」。",
+        "size-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-62"
     },
@@ -5829,11 +5293,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "size-mcq-63",
-        "size-mcq-62",
-        "size-mcq-64",
-        "size-mcq-61",
-        "size-mcq-65",
-        "size-mcq-60"
+        "size-pdf-006",
+        "size-mcq-13",
+        "size-mcq-67"
       ],
       "explanation": "本句的「travel-size bottle」指「旅行裝的」。",
       "sentenceIndex": 144,
@@ -5842,12 +5304,10 @@ export default {
         "travel-size bottle"
       ],
       "optionReasons": {
-        "size-mcq-63": "本句指「旅行裝的」。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。"
+        "size-mcq-63": "本句的「travel-size bottle」指「旅行裝的」。",
+        "size-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-67": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-63"
     },
@@ -5859,11 +5319,9 @@ export default {
       "masked": "Travel-____ products use smaller containers.",
       "options": [
         "size-mcq-63",
-        "size-mcq-62",
-        "size-mcq-64",
-        "size-mcq-61",
-        "size-mcq-65",
-        "size-mcq-60"
+        "size-mcq-12",
+        "size-mcq-47",
+        "size-pdf-008"
       ],
       "explanation": "本句的「size」指「旅行裝的」。",
       "sentenceIndex": 145,
@@ -5872,12 +5330,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-63": "本句指「旅行裝的」。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-60": "「中型的」與本句語境不同。"
+        "size-mcq-63": "本句的「size」指「旅行裝的」。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-63"
     },
@@ -5889,11 +5345,9 @@ export default {
       "masked": "They bought a ____.",
       "options": [
         "size-mcq-64",
-        "size-mcq-63",
-        "size-mcq-65",
-        "size-mcq-62",
-        "size-mcq-66",
-        "size-mcq-61"
+        "size-mcq-76",
+        "size-mcq-57",
+        "size-mcq-34"
       ],
       "explanation": "本句的「family-size pack」指「家庭裝的」。",
       "sentenceIndex": 146,
@@ -5902,12 +5356,10 @@ export default {
         "family-size pack"
       ],
       "optionReasons": {
-        "size-mcq-64": "本句指「家庭裝的」。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。"
+        "size-mcq-64": "本句的「family-size pack」指「家庭裝的」。",
+        "size-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-64"
     },
@@ -5919,11 +5371,9 @@ export default {
       "masked": "Family-____ products are intended for multiple servings/users.",
       "options": [
         "size-mcq-64",
-        "size-mcq-63",
-        "size-mcq-65",
-        "size-mcq-62",
-        "size-mcq-66",
-        "size-mcq-61"
+        "size-mcq-16",
+        "size-mcq-02",
+        "size-mcq-39"
       ],
       "explanation": "本句的「sized」指「家庭裝的」。",
       "sentenceIndex": 147,
@@ -5932,12 +5382,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-64": "本句指「家庭裝的」。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-61": "「不同大小的」與本句語境不同。"
+        "size-mcq-64": "本句的「sized」指「家庭裝的」。",
+        "size-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-64"
     },
@@ -5949,11 +5397,9 @@ export default {
       "masked": "Cut the food into ____.",
       "options": [
         "size-mcq-65",
-        "size-mcq-64",
-        "size-mcq-66",
-        "size-mcq-63",
-        "size-mcq-67",
-        "size-mcq-62"
+        "size-mcq-36",
+        "size-mcq-23",
+        "size-mcq-58"
       ],
       "explanation": "本句的「bite-sized pieces」指「一口大小的」。",
       "sentenceIndex": 148,
@@ -5962,12 +5408,10 @@ export default {
         "bite-sized pieces"
       ],
       "optionReasons": {
-        "size-mcq-65": "本句指「一口大小的」。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。"
+        "size-mcq-65": "本句的「bite-sized pieces」指「一口大小的」。",
+        "size-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-65"
     },
@@ -5979,11 +5423,9 @@ export default {
       "masked": "Bite-____ pieces are easier to serve.",
       "options": [
         "size-mcq-65",
-        "size-mcq-64",
-        "size-mcq-66",
-        "size-mcq-63",
-        "size-mcq-67",
-        "size-mcq-62"
+        "size-mcq-41",
+        "size-mcq-12",
+        "size-mcq-71"
       ],
       "explanation": "本句的「sized」指「一口大小的」。",
       "sentenceIndex": 149,
@@ -5992,12 +5434,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-65": "本句指「一口大小的」。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
-        "size-mcq-62": "「袖珍的」與本句語境不同。"
+        "size-mcq-65": "本句的「sized」指「一口大小的」。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-65"
     },
@@ -6009,11 +5449,9 @@ export default {
       "masked": "The course breaks information into ____.",
       "options": [
         "size-pdf-005",
-        "size-mcq-65",
-        "size-mcq-67",
-        "size-mcq-64",
-        "size-mcq-68",
-        "size-mcq-63"
+        "size-mcq-20",
+        "size-mcq-75",
+        "size-mcq-70"
       ],
       "explanation": "本句的「bite-sized lessons」指「figurative: 被分成較小、容易理解或處理的單位」。",
       "sentenceIndex": 150,
@@ -6022,12 +5460,10 @@ export default {
         "bite-sized lessons"
       ],
       "optionReasons": {
-        "size-pdf-005": "本句指「figurative: 被分成較小、容易理解或處理的單位」。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。"
+        "size-pdf-005": "本句的「bite-sized lessons」指「figurative: 被分成較小、容易理解或處理的單位」。",
+        "size-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-005"
     },
@@ -6039,11 +5475,9 @@ export default {
       "masked": "Break the project into bite-____ tasks.",
       "options": [
         "size-pdf-005",
-        "size-mcq-65",
-        "size-mcq-67",
-        "size-mcq-64",
-        "size-mcq-68",
-        "size-mcq-63"
+        "size-mcq-71",
+        "size-mcq-75",
+        "size-mcq-25"
       ],
       "explanation": "本句的「sized」指「figurative: 被分成較小、容易理解或處理的單位」。",
       "sentenceIndex": 151,
@@ -6052,12 +5486,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-pdf-005": "本句指「figurative: 被分成較小、容易理解或處理的單位」。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-63": "「旅行裝的」與本句語境不同。"
+        "size-pdf-005": "本句的「sized」指「figurative: 被分成較小、容易理解或處理的單位」。",
+        "size-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-005"
     },
@@ -6069,11 +5501,9 @@ export default {
       "masked": "Returns create a ____ for the retailer.",
       "options": [
         "size-mcq-67",
-        "size-mcq-66",
-        "size-mcq-68",
-        "size-mcq-65",
-        "size-mcq-69",
-        "size-mcq-64"
+        "size-mcq-42",
+        "size-mcq-47",
+        "size-pdf-008"
       ],
       "explanation": "本句的「sizeable cost」指「相當大的；可觀的」。",
       "sentenceIndex": 152,
@@ -6082,12 +5512,10 @@ export default {
         "sizeable cost"
       ],
       "optionReasons": {
-        "size-mcq-67": "本句指「相當大的；可觀的」。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。"
+        "size-mcq-67": "本句的「sizeable cost」指「相當大的；可觀的」。",
+        "size-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-67"
     },
@@ -6099,11 +5527,9 @@ export default {
       "masked": "The company has a ____ online customer base.",
       "options": [
         "size-mcq-67",
-        "size-mcq-66",
-        "size-mcq-68",
-        "size-mcq-65",
-        "size-mcq-69",
-        "size-mcq-64"
+        "size-mcq-39",
+        "size-mcq-73",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sizable」指「相當大的；可觀的」。",
       "sentenceIndex": 153,
@@ -6112,12 +5538,10 @@ export default {
         "sizable"
       ],
       "optionReasons": {
-        "size-mcq-67": "本句指「相當大的；可觀的」。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。",
-        "size-mcq-64": "「家庭裝的」與本句語境不同。"
+        "size-mcq-67": "本句的「sizable」指「相當大的；可觀的」。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-67"
     },
@@ -6129,11 +5553,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "size-pdf-006",
-        "size-mcq-67",
-        "size-mcq-69",
-        "size-mcq-66",
-        "size-mcq-70",
-        "size-mcq-65"
+        "size-mcq-09",
+        "size-mcq-58",
+        "size-mcq-44"
       ],
       "explanation": "本句的「downsized its workforce」指「把公司、部門或人手規模縮小，通常為降低成本」。",
       "sentenceIndex": 154,
@@ -6142,12 +5564,10 @@ export default {
         "downsized its workforce"
       ],
       "optionReasons": {
-        "size-pdf-006": "本句指「把公司、部門或人手規模縮小，通常為降低成本」。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。",
-        "size-mcq-65": "「一口大小的」與本句語境不同。"
+        "size-pdf-006": "本句的「downsized its workforce」指「把公司、部門或人手規模縮小，通常為降低成本」。",
+        "size-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-006"
     },
@@ -6159,11 +5579,9 @@ export default {
       "masked": "The restructuring involved substantial ____.",
       "options": [
         "size-mcq-69",
-        "size-mcq-68",
-        "size-mcq-70",
-        "size-mcq-67",
-        "size-mcq-71",
-        "size-mcq-66"
+        "size-mcq-48",
+        "size-mcq-56",
+        "size-mcq-30"
       ],
       "explanation": "本句的「downsizing」指「縮編；裁員」。",
       "sentenceIndex": 155,
@@ -6172,12 +5590,10 @@ export default {
         "downsizing"
       ],
       "optionReasons": {
-        "size-mcq-69": "本句指「縮編；裁員」。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-66": "「短小易消化的」與本句語境不同。"
+        "size-mcq-69": "本句的「downsizing」指「縮編；裁員」。",
+        "size-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-69"
     },
@@ -6189,11 +5605,9 @@ export default {
       "masked": "Would you like to ____?",
       "options": [
         "size-pdf-007",
-        "size-mcq-69",
-        "size-mcq-71",
-        "size-mcq-68",
-        "size-mcq-72",
-        "size-mcq-67"
+        "size-mcq-62",
+        "size-mcq-41",
+        "size-mcq-24"
       ],
       "explanation": "本句的「upsize your order」指「把商品、份量、設備等改為更大的尺寸／容量」。",
       "sentenceIndex": 157,
@@ -6202,12 +5616,10 @@ export default {
         "upsize your order"
       ],
       "optionReasons": {
-        "size-pdf-007": "本句指「把商品、份量、設備等改為更大的尺寸／容量」。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。"
+        "size-pdf-007": "本句的「upsize your order」指「把商品、份量、設備等改為更大的尺寸／容量」。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-007"
     },
@@ -6219,11 +5631,9 @@ export default {
       "masked": "Customers can ____.",
       "options": [
         "size-mcq-70",
-        "size-mcq-69",
-        "size-mcq-71",
-        "size-mcq-68",
-        "size-mcq-72",
-        "size-mcq-67"
+        "size-mcq-27",
+        "size-mcq-62",
+        "size-mcq-59"
       ],
       "explanation": "本句的「upsize the meal」指「加大；升級大份」。",
       "sentenceIndex": 158,
@@ -6232,12 +5642,10 @@ export default {
         "upsize the meal"
       ],
       "optionReasons": {
-        "size-mcq-70": "本句指「加大；升級大份」。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-67": "「相當大的；可觀的」與本句語境不同。"
+        "size-mcq-70": "本句的「upsize the meal」指「加大；升級大份」。",
+        "size-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-70"
     },
@@ -6249,11 +5657,9 @@ export default {
       "masked": "His colleagues quickly ____ after his arrogant remarks.",
       "options": [
         "size-mcq-71",
-        "size-mcq-70",
-        "size-mcq-72",
-        "size-mcq-69",
-        "size-mcq-73",
-        "size-mcq-68"
+        "size-mcq-23",
+        "size-mcq-04",
+        "size-mcq-63"
       ],
       "explanation": "本句的「cut him down to size」指「挫某人銳氣」。",
       "sentenceIndex": 159,
@@ -6262,12 +5668,10 @@ export default {
         "cut him down to size"
       ],
       "optionReasons": {
-        "size-mcq-71": "本句指「挫某人銳氣」。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-68": "「縮減規模／搬小屋」與本句語境不同。"
+        "size-mcq-71": "本句的「cut him down to size」指「挫某人銳氣」。",
+        "size-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-71"
     },
@@ -6279,11 +5683,9 @@ export default {
       "masked": "So the customer gets one exchange but no cash refund?” > “Yes, ____.",
       "options": [
         "size-mcq-72",
-        "size-mcq-71",
-        "size-mcq-73",
-        "size-mcq-70",
-        "size-mcq-74",
-        "size-mcq-69"
+        "size-mcq-62",
+        "size-mcq-30",
+        "size-mcq-39"
       ],
       "explanation": "本句的「that's about the size of it」指「情況大概就是這樣」。",
       "sentenceIndex": 160,
@@ -6292,12 +5694,10 @@ export default {
         "that's about the size of it"
       ],
       "optionReasons": {
-        "size-mcq-72": "本句指「情況大概就是這樣」。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。"
+        "size-mcq-72": "本句的「that's about the size of it」指「情況大概就是這樣」。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-72"
     },
@@ -6309,11 +5709,9 @@ export default {
       "masked": "That's about the ____ of the problem.",
       "options": [
         "size-mcq-72",
-        "size-mcq-71",
-        "size-mcq-73",
-        "size-mcq-70",
-        "size-mcq-74",
-        "size-mcq-69"
+        "size-mcq-34",
+        "size-mcq-51",
+        "size-mcq-11"
       ],
       "explanation": "本句的「size」指「情況大概就是這樣」。",
       "sentenceIndex": 161,
@@ -6322,12 +5720,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-72": "本句指「情況大概就是這樣」。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-69": "「縮編；裁員」與本句語境不同。"
+        "size-mcq-72": "本句的「size」指「情況大概就是這樣」。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-72"
     },
@@ -6339,11 +5735,9 @@ export default {
       "masked": "The store sells bags of ____.",
       "options": [
         "size-mcq-73",
-        "size-mcq-72",
-        "size-mcq-74",
-        "size-mcq-71",
-        "size-mcq-75",
-        "size-mcq-70"
+        "size-mcq-49",
+        "size-mcq-52",
+        "size-mcq-12"
       ],
       "explanation": "本句的「all shapes and sizes」指「各式各樣」。",
       "sentenceIndex": 162,
@@ -6352,12 +5746,10 @@ export default {
         "all shapes and sizes"
       ],
       "optionReasons": {
-        "size-mcq-73": "本句指「各式各樣」。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-75": "「漿料」與本句語境不同。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。"
+        "size-mcq-73": "本句的「all shapes and sizes」指「各式各樣」。",
+        "size-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-73"
     },
@@ -6369,11 +5761,9 @@ export default {
       "masked": "Businesses come in all shapes and ____.",
       "options": [
         "size-mcq-73",
-        "size-mcq-72",
-        "size-mcq-74",
-        "size-mcq-71",
         "size-mcq-75",
-        "size-mcq-70"
+        "size-pdf-006",
+        "size-pdf-001"
       ],
       "explanation": "本句的「sizes」指「各式各樣」。",
       "sentenceIndex": 163,
@@ -6382,12 +5772,10 @@ export default {
         "sizes"
       ],
       "optionReasons": {
-        "size-mcq-73": "本句指「各式各樣」。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。",
-        "size-mcq-75": "「漿料」與本句語境不同。",
-        "size-mcq-70": "「加大；升級大份」與本句語境不同。"
+        "size-mcq-73": "本句的「sizes」指「各式各樣」。",
+        "size-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-73"
     },
@@ -6399,11 +5787,9 @@ export default {
       "masked": "Warp yarn may undergo ____ before weaving.",
       "options": [
         "size-pdf-008",
-        "size-mcq-73",
-        "size-mcq-75",
-        "size-mcq-72",
-        "size-mcq-76",
-        "size-mcq-71"
+        "size-mcq-21",
+        "size-mcq-42",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sizing」指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
       "sentenceIndex": 164,
@@ -6412,12 +5798,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-pdf-008": "本句指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-75": "「漿料」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-76": "「施膠處理」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
+        "size-pdf-008": "本句的「sizing」指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-008"
     },
@@ -6429,11 +5813,9 @@ export default {
       "masked": "____ can improve yarn performance during weaving.",
       "options": [
         "size-pdf-008",
-        "size-mcq-73",
-        "size-mcq-75",
-        "size-mcq-72",
-        "size-mcq-76",
-        "size-mcq-71"
+        "size-mcq-57",
+        "size-pdf-003",
+        "size-mcq-34"
       ],
       "explanation": "本句的「Sizing」指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
       "sentenceIndex": 165,
@@ -6442,12 +5824,10 @@ export default {
         "Sizing"
       ],
       "optionReasons": {
-        "size-pdf-008": "本句指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-75": "「漿料」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-76": "「施膠處理」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
+        "size-pdf-008": "本句的「Sizing」指「紡織製造中把漿料施加到紗線／布料，以改變其加工性能的處理」。",
+        "size-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "size-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-pdf-008"
     },
@@ -6459,11 +5839,9 @@ export default {
       "masked": "The yarn was treated with ____ before weaving.",
       "options": [
         "size-mcq-75",
-        "size-mcq-74",
-        "size-mcq-76",
-        "size-mcq-73",
-        "size-mcq-72",
-        "size-mcq-71"
+        "size-mcq-40",
+        "size-mcq-12",
+        "size-mcq-54"
       ],
       "explanation": "本句的「size」指「漿料」。",
       "sentenceIndex": 166,
@@ -6472,12 +5850,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-75": "本句指「漿料」。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-76": "「施膠處理」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
+        "size-mcq-75": "本句的「size」指「漿料」。",
+        "size-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-75"
     },
@@ -6489,11 +5865,9 @@ export default {
       "masked": "This sense is specialist and should not be confused with physical ____.",
       "options": [
         "size-mcq-75",
-        "size-mcq-74",
-        "size-mcq-76",
-        "size-mcq-73",
-        "size-mcq-72",
-        "size-mcq-71"
+        "size-mcq-17",
+        "size-mcq-11",
+        "size-mcq-33"
       ],
       "explanation": "本句的「size」指「漿料」。",
       "sentenceIndex": 167,
@@ -6502,12 +5876,10 @@ export default {
         "size"
       ],
       "optionReasons": {
-        "size-mcq-75": "本句指「漿料」。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-76": "「施膠處理」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
+        "size-mcq-75": "本句的「size」指「漿料」。",
+        "size-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-75"
     },
@@ -6519,11 +5891,9 @@ export default {
       "masked": "Paper may be treated with ____ to control absorbency.",
       "options": [
         "size-mcq-76",
-        "size-mcq-75",
-        "size-mcq-74",
-        "size-mcq-73",
-        "size-mcq-72",
-        "size-mcq-71"
+        "size-mcq-69",
+        "size-mcq-33",
+        "size-mcq-20"
       ],
       "explanation": "本句的「sizing」指「施膠處理」。",
       "sentenceIndex": 168,
@@ -6532,12 +5902,10 @@ export default {
         "sizing"
       ],
       "optionReasons": {
-        "size-mcq-76": "本句指「施膠處理」。",
-        "size-mcq-75": "「漿料」與本句語境不同。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
+        "size-mcq-76": "本句的「sizing」指「施膠處理」。",
+        "size-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-76"
     },
@@ -6549,11 +5917,9 @@ export default {
       "masked": "Artists may work differently on ____ and unsized paper.",
       "options": [
         "size-mcq-76",
-        "size-mcq-75",
-        "size-mcq-74",
-        "size-mcq-73",
-        "size-mcq-72",
-        "size-mcq-71"
+        "size-mcq-21",
+        "size-mcq-36",
+        "size-mcq-62"
       ],
       "explanation": "本句的「sized」指「施膠處理」。",
       "sentenceIndex": 169,
@@ -6562,12 +5928,10 @@ export default {
         "sized"
       ],
       "optionReasons": {
-        "size-mcq-76": "本句指「施膠處理」。",
-        "size-mcq-75": "「漿料」與本句語境不同。",
-        "size-mcq-74": "「上漿處理」與本句語境不同。",
-        "size-mcq-73": "「各式各樣」與本句語境不同。",
-        "size-mcq-72": "「情況大概就是這樣」與本句語境不同。",
-        "size-mcq-71": "「挫某人銳氣」與本句語境不同。"
+        "size-mcq-76": "本句的「sized」指「施膠處理」。",
+        "size-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "size-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "size-mcq-76"
     }
@@ -6579,5 +5943,7 @@ export default {
     "sha256": "65dff91b58e30078f1429d9a928dc845077a4ed90e7e105ccb4c7f5770749398",
     "pages": 59
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

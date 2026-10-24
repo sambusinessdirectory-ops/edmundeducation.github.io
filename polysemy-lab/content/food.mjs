@@ -349,11 +349,7 @@ export default {
       "masked": "Quality matters in ____.",
       "options": [
         "food-mcq-01",
-        "food-mcq-02",
-        "food-mcq-03",
-        "food-mcq-04",
-        "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food businesses」指「人或動物攝取以獲得營養／能量的可食用物質」。",
       "sentenceIndex": 0,
@@ -362,12 +358,8 @@ export default {
         "food businesses"
       ],
       "optionReasons": {
-        "food-mcq-01": "本句指「人或動物攝取以獲得營養／能量的可食用物質」。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-01": "本句的「food businesses」指「人或動物攝取以獲得營養／能量的可食用物質」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-01"
     },
@@ -379,11 +371,7 @@ export default {
       "masked": "The café serves simple ____.",
       "options": [
         "food-mcq-01",
-        "food-mcq-02",
-        "food-mcq-03",
-        "food-mcq-04",
-        "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「人或動物攝取以獲得營養／能量的可食用物質」。",
       "sentenceIndex": 1,
@@ -392,12 +380,8 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-01": "本句指「人或動物攝取以獲得營養／能量的可食用物質」。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-01": "本句的「food」指「人或動物攝取以獲得營養／能量的可食用物質」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-01"
     },
@@ -409,11 +393,7 @@ export default {
       "masked": "We bought enough ____ for the weekend.",
       "options": [
         "food-mcq-01",
-        "food-mcq-02",
-        "food-mcq-03",
-        "food-mcq-04",
-        "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「人或動物攝取以獲得營養／能量的可食用物質」。",
       "sentenceIndex": 2,
@@ -422,12 +402,8 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-01": "本句指「人或動物攝取以獲得營養／能量的可食用物質」。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-01": "本句的「food」指「人或動物攝取以獲得營養／能量的可食用物質」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-01"
     },
@@ -439,11 +415,8 @@ export default {
       "masked": "I love Italian ____.",
       "options": [
         "food-mcq-02",
-        "food-mcq-01",
         "food-mcq-03",
-        "food-mcq-04",
-        "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「某國家、地區或文化的菜式／飲食」。",
       "sentenceIndex": 3,
@@ -452,12 +425,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-02": "本句指「某國家、地區或文化的菜式／飲食」。",
-        "food-mcq-01": "「人或動物攝取以獲得營養／能量的可食用物質」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-02": "本句的「food」指「某國家、地區或文化的菜式／飲食」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-02"
     },
@@ -469,11 +439,8 @@ export default {
       "masked": "The restaurant serves traditional local ____.",
       "options": [
         "food-mcq-02",
-        "food-mcq-01",
-        "food-mcq-03",
-        "food-mcq-04",
         "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-03"
       ],
       "explanation": "本句的「food」指「某國家、地區或文化的菜式／飲食」。",
       "sentenceIndex": 4,
@@ -482,12 +449,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-02": "本句指「某國家、地區或文化的菜式／飲食」。",
-        "food-mcq-01": "「人或動物攝取以獲得營養／能量的可食用物質」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-02": "本句的「food」指「某國家、地區或文化的菜式／飲食」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-02"
     },
@@ -499,11 +463,8 @@ export default {
       "masked": "Plants make their own ____ through photosynthesis.",
       "options": [
         "food-mcq-03",
-        "food-mcq-02",
-        "food-mcq-04",
-        "food-mcq-01",
-        "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-12",
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「為生物提供能量或營養的物質」。",
       "sentenceIndex": 5,
@@ -512,12 +473,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-03": "本句指「為生物提供能量或營養的物質」。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-01": "「人或動物攝取以獲得營養／能量的可食用物質」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-03": "本句的「food」指「為生物提供能量或營養的物質」。",
+        "food-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-03"
     },
@@ -529,11 +487,8 @@ export default {
       "masked": "The young birds depend on their parents for ____.",
       "options": [
         "food-mcq-03",
-        "food-mcq-02",
-        "food-mcq-04",
-        "food-mcq-01",
         "food-mcq-05",
-        "food-mcq-06"
+        "food-mcq-08"
       ],
       "explanation": "本句的「food」指「為生物提供能量或營養的物質」。",
       "sentenceIndex": 6,
@@ -542,12 +497,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-03": "本句指「為生物提供能量或營養的物質」。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-01": "「人或動物攝取以獲得營養／能量的可食用物質」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-03": "本句的「food」指「為生物提供能量或營養的物質」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-03"
     },
@@ -559,11 +511,8 @@ export default {
       "masked": "The book gave me plenty of ____.",
       "options": [
         "food-mcq-05",
-        "food-mcq-04",
-        "food-mcq-06",
-        "food-mcq-03",
-        "food-mcq-07",
-        "food-mcq-02"
+        "food-mcq-08",
+        "food-mcq-03"
       ],
       "explanation": "本句的「food for thought」指「能引發進一步思考或討論的內容」。",
       "sentenceIndex": 7,
@@ -572,12 +521,9 @@ export default {
         "food for thought"
       ],
       "optionReasons": {
-        "food-mcq-05": "本句指「能引發進一步思考或討論的內容」。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。"
+        "food-mcq-05": "本句的「food for thought」指「能引發進一步思考或討論的內容」。",
+        "food-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-05"
     },
@@ -589,11 +535,7 @@ export default {
       "masked": "Her comments provided ____ for further discussion.",
       "options": [
         "food-mcq-05",
-        "food-mcq-04",
-        "food-mcq-06",
-        "food-mcq-03",
-        "food-mcq-07",
-        "food-mcq-02"
+        "food-pdf-001"
       ],
       "explanation": "本句的「food」指「能引發進一步思考或討論的內容」。",
       "sentenceIndex": 8,
@@ -602,12 +544,8 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-05": "本句指「能引發進一步思考或討論的內容」。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-02": "「某國家、地區或文化的菜式／飲食」與本句語境不同。"
+        "food-mcq-05": "本句的「food」指「能引發進一步思考或討論的內容」。",
+        "food-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-05"
     },
@@ -619,11 +557,8 @@ export default {
       "masked": "She has worked in the ____ for ten years.",
       "options": [
         "food-mcq-07",
-        "food-mcq-06",
-        "food-mcq-08",
         "food-mcq-05",
-        "food-mcq-09",
-        "food-mcq-04"
+        "food-mcq-03"
       ],
       "explanation": "本句的「food industry」指「涉及食品生產、加工、分銷、銷售及餐飲的產業」。",
       "sentenceIndex": 11,
@@ -632,12 +567,9 @@ export default {
         "food industry"
       ],
       "optionReasons": {
-        "food-mcq-07": "本句指「涉及食品生產、加工、分銷、銷售及餐飲的產業」。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。"
+        "food-mcq-07": "本句的「food industry」指「涉及食品生產、加工、分銷、銷售及餐飲的產業」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-07"
     },
@@ -649,11 +581,8 @@ export default {
       "masked": "Technology is changing the ____ industry.",
       "options": [
         "food-mcq-07",
-        "food-mcq-06",
-        "food-mcq-08",
         "food-mcq-05",
-        "food-mcq-09",
-        "food-mcq-04"
+        "food-mcq-03"
       ],
       "explanation": "本句的「food」指「涉及食品生產、加工、分銷、銷售及餐飲的產業」。",
       "sentenceIndex": 12,
@@ -662,12 +591,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-07": "本句指「涉及食品生產、加工、分銷、銷售及餐飲的產業」。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。"
+        "food-mcq-07": "本句的「food」指「涉及食品生產、加工、分銷、銷售及餐飲的產業」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-07"
     },
@@ -679,11 +605,7 @@ export default {
       "masked": "Running a ____ requires strict quality control.",
       "options": [
         "food-mcq-06",
-        "food-mcq-05",
-        "food-mcq-07",
-        "food-mcq-04",
-        "food-mcq-08",
-        "food-mcq-03"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food business」指「以製作、出售或供應食物為主要業務的企業」。",
       "sentenceIndex": 13,
@@ -692,12 +614,8 @@ export default {
         "food business"
       ],
       "optionReasons": {
-        "food-mcq-06": "本句指「以製作、出售或供應食物為主要業務的企業」。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。"
+        "food-mcq-06": "本句的「food business」指「以製作、出售或供應食物為主要業務的企業」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-06"
     },
@@ -709,11 +627,7 @@ export default {
       "masked": "Small ____ businesses depend heavily on repeat customers.",
       "options": [
         "food-mcq-06",
-        "food-mcq-05",
-        "food-mcq-07",
-        "food-mcq-04",
-        "food-mcq-08",
-        "food-mcq-03"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「以製作、出售或供應食物為主要業務的企業」。",
       "sentenceIndex": 14,
@@ -722,12 +636,8 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-06": "本句指「以製作、出售或供應食物為主要業務的企業」。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-04": "「作為生產、銷售或市場類別的食品」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-03": "「為生物提供能量或營養的物質」與本句語境不同。"
+        "food-mcq-06": "本句的「food」指「以製作、出售或供應食物為主要業務的企業」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-06"
     },
@@ -739,11 +649,8 @@ export default {
       "masked": "The bakery follows strict ____ rules.",
       "options": [
         "food-mcq-08",
-        "food-mcq-07",
-        "food-mcq-09",
-        "food-mcq-06",
-        "food-mcq-10",
-        "food-mcq-05"
+        "food-mcq-05",
+        "food-mcq-03"
       ],
       "explanation": "本句的「food safety」指「確保食品不受污染、適合食用的制度與標準」。",
       "sentenceIndex": 15,
@@ -752,12 +659,9 @@ export default {
         "food safety"
       ],
       "optionReasons": {
-        "food-mcq-08": "本句指「確保食品不受污染、適合食用的制度與標準」。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。"
+        "food-mcq-08": "本句的「food safety」指「確保食品不受污染、適合食用的制度與標準」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-08"
     },
@@ -769,11 +673,8 @@ export default {
       "masked": "____ safety is essential in restaurants.",
       "options": [
         "food-mcq-08",
-        "food-mcq-07",
-        "food-mcq-09",
-        "food-mcq-06",
-        "food-mcq-10",
-        "food-mcq-05"
+        "food-mcq-05",
+        "food-mcq-03"
       ],
       "explanation": "本句的「Food」指「確保食品不受污染、適合食用的制度與標準」。",
       "sentenceIndex": 16,
@@ -782,12 +683,9 @@ export default {
         "Food"
       ],
       "optionReasons": {
-        "food-mcq-08": "本句指「確保食品不受污染、適合食用的制度與標準」。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-05": "「能引發進一步思考或討論的內容」與本句語境不同。"
+        "food-mcq-08": "本句的「Food」指「確保食品不受污染、適合食用的制度與標準」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-08"
     },
@@ -799,11 +697,8 @@ export default {
       "masked": "The bakery is trying to reduce ____.",
       "options": [
         "food-mcq-09",
-        "food-mcq-08",
-        "food-mcq-10",
-        "food-mcq-07",
-        "food-mcq-11",
-        "food-mcq-06"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「food waste」指「被丟棄、未食用或浪費掉的食物」。",
       "sentenceIndex": 19,
@@ -812,12 +707,9 @@ export default {
         "food waste"
       ],
       "optionReasons": {
-        "food-mcq-09": "本句指「被丟棄、未食用或浪費掉的食物」。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-09": "本句的「food waste」指「被丟棄、未食用或浪費掉的食物」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-09"
     },
@@ -829,11 +721,8 @@ export default {
       "masked": "Unsold bread can create a lot of ____ waste.",
       "options": [
         "food-mcq-09",
-        "food-mcq-08",
-        "food-mcq-10",
-        "food-mcq-07",
-        "food-mcq-11",
-        "food-mcq-06"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「被丟棄、未食用或浪費掉的食物」。",
       "sentenceIndex": 20,
@@ -842,12 +731,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-09": "本句指「被丟棄、未食用或浪費掉的食物」。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-06": "「以製作、出售或供應食物為主要業務的企業」與本句語境不同。"
+        "food-mcq-09": "本句的「food」指「被丟棄、未食用或浪費掉的食物」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-09"
     },
@@ -859,11 +745,8 @@ export default {
       "masked": "Soup is my favourite ____.",
       "options": [
         "food-mcq-10",
-        "food-mcq-09",
-        "food-mcq-11",
-        "food-mcq-08",
-        "food-mcq-12",
-        "food-mcq-07"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「comfort food」指「因熟悉、味道或回憶而令人感到安慰的食物」。",
       "sentenceIndex": 21,
@@ -872,12 +755,9 @@ export default {
         "comfort food"
       ],
       "optionReasons": {
-        "food-mcq-10": "本句指「因熟悉、味道或回憶而令人感到安慰的食物」。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。"
+        "food-mcq-10": "本句的「comfort food」指「因熟悉、味道或回憶而令人感到安慰的食物」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-10"
     },
@@ -889,11 +769,8 @@ export default {
       "masked": "Fresh bread can feel like comfort ____.",
       "options": [
         "food-mcq-10",
-        "food-mcq-09",
-        "food-mcq-11",
-        "food-mcq-08",
-        "food-mcq-12",
-        "food-mcq-07"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「因熟悉、味道或回憶而令人感到安慰的食物」。",
       "sentenceIndex": 22,
@@ -902,12 +779,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-10": "本句指「因熟悉、味道或回憶而令人感到安慰的食物」。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。"
+        "food-mcq-10": "本句的「food」指「因熟悉、味道或回憶而令人感到安慰的食物」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-10"
     },
@@ -919,11 +793,7 @@ export default {
       "masked": "The area has several ____ restaurants.",
       "options": [
         "food-pdf-001",
-        "food-mcq-09",
-        "food-mcq-11",
-        "food-mcq-08",
-        "food-mcq-12",
-        "food-mcq-07"
+        "food-mcq-05"
       ],
       "explanation": "本句的「fast-food」指「快速製作及供應的餐飲食品」。",
       "sentenceIndex": 25,
@@ -932,12 +802,8 @@ export default {
         "fast-food"
       ],
       "optionReasons": {
-        "food-pdf-001": "本句指「快速製作及供應的餐飲食品」。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。"
+        "food-pdf-001": "本句的「fast-food」指「快速製作及供應的餐飲食品」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-pdf-001"
     },
@@ -949,11 +815,7 @@ export default {
       "masked": "Fast ____ is designed to be prepared quickly.",
       "options": [
         "food-pdf-001",
-        "food-mcq-09",
-        "food-mcq-11",
-        "food-mcq-08",
-        "food-mcq-12",
-        "food-mcq-07"
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「快速製作及供應的餐飲食品」。",
       "sentenceIndex": 26,
@@ -962,12 +824,8 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-pdf-001": "本句指「快速製作及供應的餐飲食品」。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-07": "「涉及食品生產、加工、分銷、銷售及餐飲的產業」與本句語境不同。"
+        "food-pdf-001": "本句的「food」指「快速製作及供應的餐飲食品」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-pdf-001"
     },
@@ -979,11 +837,7 @@ export default {
       "masked": "She prefers ____ to highly processed snacks.",
       "options": [
         "food-pdf-002",
-        "food-mcq-10",
-        "food-mcq-12",
-        "food-mcq-09",
-        "food-mcq-13",
-        "food-mcq-08"
+        "food-mcq-05"
       ],
       "explanation": "本句的「whole foods」指「接近天然原貌、加工較少的食物」。",
       "sentenceIndex": 27,
@@ -992,12 +846,8 @@ export default {
         "whole foods"
       ],
       "optionReasons": {
-        "food-pdf-002": "本句指「接近天然原貌、加工較少的食物」。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-pdf-002": "本句的「whole foods」指「接近天然原貌、加工較少的食物」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-pdf-002"
     },
@@ -1009,11 +859,7 @@ export default {
       "masked": "Whole ____ are usually minimally processed.",
       "options": [
         "food-pdf-002",
-        "food-mcq-10",
-        "food-mcq-12",
-        "food-mcq-09",
-        "food-mcq-13",
-        "food-mcq-08"
+        "food-mcq-05"
       ],
       "explanation": "本句的「foods」指「接近天然原貌、加工較少的食物」。",
       "sentenceIndex": 28,
@@ -1022,12 +868,8 @@ export default {
         "foods"
       ],
       "optionReasons": {
-        "food-pdf-002": "本句指「接近天然原貌、加工較少的食物」。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-pdf-002": "本句的「foods」指「接近天然原貌、加工較少的食物」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-pdf-002"
     },
@@ -1039,11 +881,8 @@ export default {
       "masked": "The shop sells organic ____.",
       "options": [
         "food-mcq-11",
-        "food-mcq-10",
-        "food-mcq-12",
-        "food-mcq-09",
-        "food-mcq-13",
-        "food-mcq-08"
+        "food-mcq-05",
+        "food-mcq-03"
       ],
       "explanation": "本句的「baby food」指「被分開看待的不同食物種類」。",
       "sentenceIndex": 29,
@@ -1052,12 +891,9 @@ export default {
         "baby food"
       ],
       "optionReasons": {
-        "food-mcq-11": "本句指「被分開看待的不同食物種類」。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-11": "本句的「baby food」指「被分開看待的不同食物種類」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-11"
     },
@@ -1069,11 +905,8 @@ export default {
       "masked": "Baby ____ should be easy to swallow.",
       "options": [
         "food-mcq-11",
-        "food-mcq-10",
-        "food-mcq-12",
-        "food-mcq-09",
-        "food-mcq-13",
-        "food-mcq-08"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「food」指「被分開看待的不同食物種類」。",
       "sentenceIndex": 30,
@@ -1082,12 +915,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-11": "本句指「被分開看待的不同食物種類」。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-11": "本句的「food」指「被分開看待的不同食物種類」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-11"
     },
@@ -1099,11 +929,8 @@ export default {
       "masked": "The store sells premium ____.",
       "options": [
         "food-mcq-11",
-        "food-mcq-10",
-        "food-mcq-12",
-        "food-mcq-09",
-        "food-mcq-13",
-        "food-mcq-08"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「pet food」指「被分開看待的不同食物種類」。",
       "sentenceIndex": 31,
@@ -1112,12 +939,9 @@ export default {
         "pet food"
       ],
       "optionReasons": {
-        "food-mcq-11": "本句指「被分開看待的不同食物種類」。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-11": "本句的「pet food」指「被分開看待的不同食物種類」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-11"
     },
@@ -1129,11 +953,8 @@ export default {
       "masked": "Pet ____ must be stored properly.",
       "options": [
         "food-mcq-11",
-        "food-mcq-10",
-        "food-mcq-12",
-        "food-mcq-09",
-        "food-mcq-13",
-        "food-mcq-08"
+        "food-mcq-05",
+        "food-mcq-03"
       ],
       "explanation": "本句的「food」指「被分開看待的不同食物種類」。",
       "sentenceIndex": 32,
@@ -1142,12 +963,9 @@ export default {
         "food"
       ],
       "optionReasons": {
-        "food-mcq-11": "本句指「被分開看待的不同食物種類」。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-11": "本句的「food」指「被分開看待的不同食物種類」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-11"
     },
@@ -1159,11 +977,8 @@ export default {
       "masked": "The bakery has become popular with ____.",
       "options": [
         "food-mcq-12",
-        "food-mcq-11",
-        "food-mcq-13",
-        "food-mcq-10",
-        "food-mcq-09",
-        "food-mcq-08"
+        "food-mcq-05",
+        "food-mcq-03"
       ],
       "explanation": "本句的「foodies」指「對食物、餐廳及飲食文化特別有興趣的人」。",
       "sentenceIndex": 33,
@@ -1172,12 +987,9 @@ export default {
         "foodies"
       ],
       "optionReasons": {
-        "food-mcq-12": "本句指「對食物、餐廳及飲食文化特別有興趣的人」。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-12": "本句的「foodies」指「對食物、餐廳及飲食文化特別有興趣的人」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-12"
     },
@@ -1189,11 +1001,8 @@ export default {
       "masked": "She is a real ____ and loves trying new restaurants.",
       "options": [
         "food-mcq-12",
-        "food-mcq-11",
-        "food-mcq-13",
-        "food-mcq-10",
-        "food-mcq-09",
-        "food-mcq-08"
+        "food-mcq-05",
+        "food-mcq-03"
       ],
       "explanation": "本句的「foodie」指「對食物、餐廳及飲食文化特別有興趣的人」。",
       "sentenceIndex": 34,
@@ -1202,12 +1011,9 @@ export default {
         "foodie"
       ],
       "optionReasons": {
-        "food-mcq-12": "本句指「對食物、餐廳及飲食文化特別有興趣的人」。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-13": "「作為商品／原料來看待的食品或食材」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-12": "本句的「foodie」指「對食物、餐廳及飲食文化特別有興趣的人」。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-12"
     },
@@ -1219,11 +1025,8 @@ export default {
       "masked": "The warehouse stores dry ____.",
       "options": [
         "food-mcq-13",
-        "food-mcq-12",
-        "food-mcq-11",
-        "food-mcq-10",
-        "food-mcq-09",
-        "food-mcq-08"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「foodstuffs」指「作為商品／原料來看待的食品或食材」。",
       "sentenceIndex": 35,
@@ -1232,12 +1035,9 @@ export default {
         "foodstuffs"
       ],
       "optionReasons": {
-        "food-mcq-13": "本句指「作為商品／原料來看待的食品或食材」。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-13": "本句的「foodstuffs」指「作為商品／原料來看待的食品或食材」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-13"
     },
@@ -1249,11 +1049,8 @@ export default {
       "masked": "Basic ____ became more expensive.",
       "options": [
         "food-mcq-13",
-        "food-mcq-12",
-        "food-mcq-11",
-        "food-mcq-10",
-        "food-mcq-09",
-        "food-mcq-08"
+        "food-mcq-03",
+        "food-mcq-05"
       ],
       "explanation": "本句的「foodstuffs」指「作為商品／原料來看待的食品或食材」。",
       "sentenceIndex": 36,
@@ -1262,12 +1059,9 @@ export default {
         "foodstuffs"
       ],
       "optionReasons": {
-        "food-mcq-13": "本句指「作為商品／原料來看待的食品或食材」。",
-        "food-mcq-12": "「對食物、餐廳及飲食文化特別有興趣的人」與本句語境不同。",
-        "food-mcq-11": "「被分開看待的不同食物種類」與本句語境不同。",
-        "food-mcq-10": "「因熟悉、味道或回憶而令人感到安慰的食物」與本句語境不同。",
-        "food-mcq-09": "「被丟棄、未食用或浪費掉的食物」與本句語境不同。",
-        "food-mcq-08": "「確保食品不受污染、適合食用的制度與標準」與本句語境不同。"
+        "food-mcq-13": "本句的「foodstuffs」指「作為商品／原料來看待的食品或食材」。",
+        "food-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "food-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "food-mcq-13"
     }
@@ -1279,5 +1073,7 @@ export default {
     "sha256": "94fe2d21e5d509d4d293b7995742d7db303362c39f09f4180a493bb50e5c1def",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

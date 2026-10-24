@@ -538,11 +538,9 @@ export default {
       "masked": "I used to think studying meant memorising facts and ____.",
       "options": [
         "repeat-mcq-01",
-        "repeat-mcq-02",
-        "repeat-mcq-03",
-        "repeat-mcq-04",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-pdf-001",
+        "repeat-mcq-23",
+        "repeat-mcq-12"
       ],
       "explanation": "本句的「repeating them in exams」指「把之前已說、寫、做或表達過的內容再次進行」。",
       "sentenceIndex": 0,
@@ -551,12 +549,10 @@ export default {
         "repeating them in exams"
       ],
       "optionReasons": {
-        "repeat-mcq-01": "本句指「把之前已說、寫、做或表達過的內容再次進行」。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-01": "本句的「repeating them in exams」指「把之前已說、寫、做或表達過的內容再次進行」。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-01"
     },
@@ -568,11 +564,7 @@ export default {
       "masked": "Could you ____, please?",
       "options": [
         "repeat-mcq-01",
-        "repeat-mcq-02",
-        "repeat-mcq-03",
-        "repeat-mcq-04",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-mcq-18"
       ],
       "explanation": "本句的「repeat the question」指「把之前已說、寫、做或表達過的內容再次進行」。",
       "sentenceIndex": 1,
@@ -581,12 +573,8 @@ export default {
         "repeat the question"
       ],
       "optionReasons": {
-        "repeat-mcq-01": "本句指「把之前已說、寫、做或表達過的內容再次進行」。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-01": "本句的「repeat the question」指「把之前已說、寫、做或表達過的內容再次進行」。",
+        "repeat-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-01"
     },
@@ -598,11 +586,9 @@ export default {
       "masked": "The teacher ____ so everyone could understand.",
       "options": [
         "repeat-mcq-01",
-        "repeat-mcq-02",
-        "repeat-mcq-03",
-        "repeat-mcq-04",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-mcq-23",
+        "repeat-pdf-001",
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeated the instructions」指「把之前已說、寫、做或表達過的內容再次進行」。",
       "sentenceIndex": 2,
@@ -611,12 +597,10 @@ export default {
         "repeated the instructions"
       ],
       "optionReasons": {
-        "repeat-mcq-01": "本句指「把之前已說、寫、做或表達過的內容再次進行」。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-01": "本句的「repeated the instructions」指「把之前已說、寫、做或表達過的內容再次進行」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-01"
     },
@@ -628,11 +612,9 @@ export default {
       "masked": "The students could ____ but could not explain their meaning.",
       "options": [
         "repeat-mcq-02",
-        "repeat-mcq-01",
-        "repeat-mcq-03",
-        "repeat-mcq-04",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-mcq-16",
+        "repeat-mcq-13",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeat the facts」指「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」。",
       "sentenceIndex": 3,
@@ -641,12 +623,10 @@ export default {
         "repeat the facts"
       ],
       "optionReasons": {
-        "repeat-mcq-02": "本句指「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」。",
-        "repeat-mcq-01": "「把之前已說、寫、做或表達過的內容再次進行」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-02": "本句的「repeat the facts」指「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-02"
     },
@@ -658,11 +638,9 @@ export default {
       "masked": "Learning is more than simply ____.",
       "options": [
         "repeat-mcq-02",
-        "repeat-mcq-01",
-        "repeat-mcq-03",
-        "repeat-mcq-04",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-mcq-16",
+        "repeat-mcq-13",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeating memorised answers」指「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」。",
       "sentenceIndex": 4,
@@ -671,12 +649,10 @@ export default {
         "repeating memorised answers"
       ],
       "optionReasons": {
-        "repeat-mcq-02": "本句指「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」。",
-        "repeat-mcq-01": "「把之前已說、寫、做或表達過的內容再次進行」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-02": "本句的「repeating memorised answers」指「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-02"
     },
@@ -688,11 +664,9 @@ export default {
       "masked": "Please don’t ____.",
       "options": [
         "repeat-mcq-03",
-        "repeat-mcq-02",
-        "repeat-mcq-04",
-        "repeat-mcq-01",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-pdf-001",
+        "repeat-mcq-16",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repeat what I told you」指「把另一個人之前說過的內容再次說出／轉述」。",
       "sentenceIndex": 5,
@@ -701,12 +675,10 @@ export default {
         "repeat what I told you"
       ],
       "optionReasons": {
-        "repeat-mcq-03": "本句指「把另一個人之前說過的內容再次說出／轉述」。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-01": "「把之前已說、寫、做或表達過的內容再次進行」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-03": "本句的「repeat what I told you」指「把另一個人之前說過的內容再次說出／轉述」。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-03"
     },
@@ -718,11 +690,9 @@ export default {
       "masked": "He simply ____.",
       "options": [
         "repeat-mcq-03",
-        "repeat-mcq-02",
-        "repeat-mcq-04",
-        "repeat-mcq-01",
-        "repeat-mcq-05",
-        "repeat-mcq-06"
+        "repeat-mcq-16",
+        "repeat-pdf-001",
+        "repeat-mcq-23"
       ],
       "explanation": "本句的「repeated what the teacher had said」指「把另一個人之前說過的內容再次說出／轉述」。",
       "sentenceIndex": 6,
@@ -731,12 +701,10 @@ export default {
         "repeated what the teacher had said"
       ],
       "optionReasons": {
-        "repeat-mcq-03": "本句指「把另一個人之前說過的內容再次說出／轉述」。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-01": "「把之前已說、寫、做或表達過的內容再次進行」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-03": "本句的「repeated what the teacher had said」指「把另一個人之前說過的內容再次說出／轉述」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-03"
     },
@@ -748,11 +716,9 @@ export default {
       "masked": "____: ‘The past influences the present.’",
       "options": [
         "repeat-mcq-04",
-        "repeat-mcq-03",
-        "repeat-mcq-05",
-        "repeat-mcq-02",
-        "repeat-mcq-06",
-        "repeat-mcq-01"
+        "repeat-mcq-20",
+        "repeat-mcq-07",
+        "repeat-mcq-23"
       ],
       "explanation": "本句的「Repeat after me」指「聽到某人說話後立即照著說相同內容」。",
       "sentenceIndex": 7,
@@ -761,12 +727,10 @@ export default {
         "Repeat after me"
       ],
       "optionReasons": {
-        "repeat-mcq-04": "本句指「聽到某人說話後立即照著說相同內容」。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-01": "「把之前已說、寫、做或表達過的內容再次進行」與本句語境不同。"
+        "repeat-mcq-04": "本句的「Repeat after me」指「聽到某人說話後立即照著說相同內容」。",
+        "repeat-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-04"
     },
@@ -778,11 +742,8 @@ export default {
       "masked": "The students ____.",
       "options": [
         "repeat-mcq-04",
-        "repeat-mcq-03",
         "repeat-mcq-05",
-        "repeat-mcq-02",
-        "repeat-mcq-06",
-        "repeat-mcq-01"
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeated the sentence after the teacher」指「聽到某人說話後立即照著說相同內容」。",
       "sentenceIndex": 8,
@@ -791,12 +752,9 @@ export default {
         "repeated the sentence after the teacher"
       ],
       "optionReasons": {
-        "repeat-mcq-04": "本句指「聽到某人說話後立即照著說相同內容」。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-01": "「把之前已說、寫、做或表達過的內容再次進行」與本句語境不同。"
+        "repeat-mcq-04": "本句的「repeated the sentence after the teacher」指「聽到某人說話後立即照著說相同內容」。",
+        "repeat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-04"
     },
@@ -808,11 +766,8 @@ export default {
       "masked": "History does not always ____ itself in exactly the same way.",
       "options": [
         "repeat-mcq-05",
-        "repeat-mcq-04",
-        "repeat-mcq-06",
-        "repeat-mcq-03",
-        "repeat-mcq-07",
-        "repeat-mcq-02"
+        "repeat-mcq-16",
+        "repeat-mcq-04"
       ],
       "explanation": "本句的「repeat」指「已經發生過的事件再次出現」。",
       "sentenceIndex": 9,
@@ -821,12 +776,9 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-05": "本句指「已經發生過的事件再次出現」。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。"
+        "repeat-mcq-05": "本句的「repeat」指「已經發生過的事件再次出現」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-05"
     },
@@ -838,11 +790,8 @@ export default {
       "masked": "The same problem ____ several months later.",
       "options": [
         "repeat-mcq-05",
-        "repeat-mcq-04",
-        "repeat-mcq-06",
-        "repeat-mcq-03",
-        "repeat-mcq-07",
-        "repeat-mcq-02"
+        "repeat-mcq-16",
+        "repeat-mcq-04"
       ],
       "explanation": "本句的「repeated」指「已經發生過的事件再次出現」。",
       "sentenceIndex": 10,
@@ -851,12 +800,9 @@ export default {
         "repeated"
       ],
       "optionReasons": {
-        "repeat-mcq-05": "本句指「已經發生過的事件再次出現」。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-02": "「把之前背熟的資料再次重現／寫出，而不一定涉及深入理解」與本句語境不同。"
+        "repeat-mcq-05": "本句的「repeated」指「已經發生過的事件再次出現」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-05"
     },
@@ -868,11 +814,9 @@ export default {
       "masked": "The pattern ____ every four lines.",
       "options": [
         "repeat-mcq-06",
-        "repeat-mcq-05",
+        "repeat-pdf-001",
         "repeat-mcq-07",
-        "repeat-mcq-04",
-        "repeat-mcq-08",
-        "repeat-mcq-03"
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeats」指「某種模式或週期按照相同／相似方式再次出現」。",
       "sentenceIndex": 11,
@@ -881,12 +825,10 @@ export default {
         "repeats"
       ],
       "optionReasons": {
-        "repeat-mcq-06": "本句指「某種模式或週期按照相同／相似方式再次出現」。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。"
+        "repeat-mcq-06": "本句的「repeats」指「某種模式或週期按照相同／相似方式再次出現」。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-06"
     },
@@ -898,11 +840,9 @@ export default {
       "masked": "The cycle ____ every year.",
       "options": [
         "repeat-mcq-06",
-        "repeat-mcq-05",
         "repeat-mcq-07",
-        "repeat-mcq-04",
-        "repeat-mcq-08",
-        "repeat-mcq-03"
+        "repeat-pdf-001",
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeats」指「某種模式或週期按照相同／相似方式再次出現」。",
       "sentenceIndex": 12,
@@ -911,12 +851,10 @@ export default {
         "repeats"
       ],
       "optionReasons": {
-        "repeat-mcq-06": "本句指「某種模式或週期按照相同／相似方式再次出現」。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-03": "「把另一個人之前說過的內容再次說出／轉述」與本句語境不同。"
+        "repeat-mcq-06": "本句的「repeats」指「某種模式或週期按照相同／相似方式再次出現」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-06"
     },
@@ -928,11 +866,9 @@ export default {
       "masked": "He had to ____ after failing the final exam.",
       "options": [
         "repeat-mcq-07",
-        "repeat-mcq-06",
-        "repeat-mcq-08",
-        "repeat-mcq-05",
-        "repeat-mcq-09",
-        "repeat-mcq-04"
+        "repeat-mcq-14",
+        "repeat-mcq-13",
+        "repeat-pdf-001"
       ],
       "explanation": "本句的「repeat the course」指「把已修讀過的課程／年級重新修讀」。",
       "sentenceIndex": 13,
@@ -941,12 +877,10 @@ export default {
         "repeat the course"
       ],
       "optionReasons": {
-        "repeat-mcq-07": "本句指「把已修讀過的課程／年級重新修讀」。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。"
+        "repeat-mcq-07": "本句的「repeat the course」指「把已修讀過的課程／年級重新修讀」。",
+        "repeat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-07"
     },
@@ -958,11 +892,9 @@ export default {
       "masked": "The student was asked to ____.",
       "options": [
         "repeat-mcq-07",
-        "repeat-mcq-06",
-        "repeat-mcq-08",
-        "repeat-mcq-05",
-        "repeat-mcq-09",
-        "repeat-mcq-04"
+        "repeat-mcq-19",
+        "repeat-mcq-15",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repeat the year」指「把已修讀過的課程／年級重新修讀」。",
       "sentenceIndex": 14,
@@ -971,12 +903,10 @@ export default {
         "repeat the year"
       ],
       "optionReasons": {
-        "repeat-mcq-07": "本句指「把已修讀過的課程／年級重新修讀」。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-04": "「聽到某人說話後立即照著說相同內容」與本句語境不同。"
+        "repeat-mcq-07": "本句的「repeat the year」指「把已修讀過的課程／年級重新修讀」。",
+        "repeat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-07"
     },
@@ -988,11 +918,9 @@ export default {
       "masked": "The researchers ____ to check the result.",
       "options": [
         "repeat-mcq-08",
+        "repeat-mcq-23",
         "repeat-mcq-07",
-        "repeat-mcq-09",
-        "repeat-mcq-06",
-        "repeat-mcq-10",
-        "repeat-mcq-05"
+        "repeat-mcq-04"
       ],
       "explanation": "本句的「repeated the experiment」指「再次進行同一程序，以確認或比較結果」。",
       "sentenceIndex": 15,
@@ -1001,12 +929,10 @@ export default {
         "repeated the experiment"
       ],
       "optionReasons": {
-        "repeat-mcq-08": "本句指「再次進行同一程序，以確認或比較結果」。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。"
+        "repeat-mcq-08": "本句的「repeated the experiment」指「再次進行同一程序，以確認或比較結果」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-08"
     },
@@ -1018,11 +944,9 @@ export default {
       "masked": "The test should be ____ next week.",
       "options": [
         "repeat-mcq-08",
+        "repeat-mcq-23",
         "repeat-mcq-07",
-        "repeat-mcq-09",
-        "repeat-mcq-06",
-        "repeat-mcq-10",
-        "repeat-mcq-05"
+        "repeat-mcq-04"
       ],
       "explanation": "本句的「repeated」指「再次進行同一程序，以確認或比較結果」。",
       "sentenceIndex": 16,
@@ -1031,12 +955,10 @@ export default {
         "repeated"
       ],
       "optionReasons": {
-        "repeat-mcq-08": "本句指「再次進行同一程序，以確認或比較結果」。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-05": "「已經發生過的事件再次出現」與本句語境不同。"
+        "repeat-mcq-08": "本句的「repeated」指「再次進行同一程序，以確認或比較結果」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-08"
     },
@@ -1048,11 +970,9 @@ export default {
       "masked": "Try not to ____.",
       "options": [
         "repeat-mcq-09",
-        "repeat-mcq-08",
-        "repeat-mcq-10",
-        "repeat-mcq-07",
-        "repeat-mcq-11",
-        "repeat-mcq-06"
+        "repeat-pdf-001",
+        "repeat-mcq-16",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repeat the same mistake」指「再次犯下之前已出現過的錯誤」。",
       "sentenceIndex": 17,
@@ -1061,12 +981,10 @@ export default {
         "repeat the same mistake"
       ],
       "optionReasons": {
-        "repeat-mcq-09": "本句指「再次犯下之前已出現過的錯誤」。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-09": "本句的「repeat the same mistake」指「再次犯下之前已出現過的錯誤」。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-09"
     },
@@ -1078,11 +996,8 @@ export default {
       "masked": "The company promised that the error would not be ____.",
       "options": [
         "repeat-mcq-09",
-        "repeat-mcq-08",
-        "repeat-mcq-10",
-        "repeat-mcq-07",
-        "repeat-mcq-11",
-        "repeat-mcq-06"
+        "repeat-mcq-16",
+        "repeat-mcq-04"
       ],
       "explanation": "本句的「repeated」指「再次犯下之前已出現過的錯誤」。",
       "sentenceIndex": 18,
@@ -1091,12 +1006,9 @@ export default {
         "repeated"
       ],
       "optionReasons": {
-        "repeat-mcq-09": "本句指「再次犯下之前已出現過的錯誤」。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-06": "「某種模式或週期按照相同／相似方式再次出現」與本句語境不同。"
+        "repeat-mcq-09": "本句的「repeated」指「再次犯下之前已出現過的錯誤」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-09"
     },
@@ -1108,11 +1020,7 @@ export default {
       "masked": "Nobody wants a ____ of last year’s problems.",
       "options": [
         "repeat-mcq-10",
-        "repeat-mcq-09",
-        "repeat-mcq-11",
-        "repeat-mcq-08",
-        "repeat-mcq-12",
-        "repeat-mcq-07"
+        "repeat-mcq-18"
       ],
       "explanation": "本句的「repeat」指「某個已發生過的情況再次出現」。",
       "sentenceIndex": 19,
@@ -1121,12 +1029,8 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-10": "本句指「某個已發生過的情況再次出現」。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。"
+        "repeat-mcq-10": "本句的「repeat」指「某個已發生過的情況再次出現」。",
+        "repeat-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-10"
     },
@@ -1138,11 +1042,7 @@ export default {
       "masked": "The team is hoping to avoid a ____ of its earlier defeat.",
       "options": [
         "repeat-mcq-10",
-        "repeat-mcq-09",
-        "repeat-mcq-11",
-        "repeat-mcq-08",
-        "repeat-mcq-12",
-        "repeat-mcq-07"
+        "repeat-mcq-18"
       ],
       "explanation": "本句的「repeat」指「某個已發生過的情況再次出現」。",
       "sentenceIndex": 20,
@@ -1151,12 +1051,8 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-10": "本句指「某個已發生過的情況再次出現」。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-07": "「把已修讀過的課程／年級重新修讀」與本句語境不同。"
+        "repeat-mcq-10": "本句的「repeat」指「某個已發生過的情況再次出現」。",
+        "repeat-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-10"
     },
@@ -1168,11 +1064,9 @@ export default {
       "masked": "Tonight’s programme is a ____.",
       "options": [
         "repeat-mcq-11",
-        "repeat-mcq-10",
-        "repeat-mcq-12",
-        "repeat-mcq-09",
-        "repeat-mcq-13",
-        "repeat-mcq-08"
+        "repeat-mcq-16",
+        "repeat-mcq-04",
+        "repeat-mcq-23"
       ],
       "explanation": "本句的「repeat」指「已播出過的節目再次播出」。",
       "sentenceIndex": 21,
@@ -1181,12 +1075,10 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-11": "本句指「已播出過的節目再次播出」。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。"
+        "repeat-mcq-11": "本句的「repeat」指「已播出過的節目再次播出」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-11"
     },
@@ -1198,11 +1090,9 @@ export default {
       "masked": "The channel showed a ____ of the documentary.",
       "options": [
         "repeat-mcq-11",
-        "repeat-mcq-10",
-        "repeat-mcq-12",
-        "repeat-mcq-09",
-        "repeat-mcq-13",
-        "repeat-mcq-08"
+        "repeat-mcq-16",
+        "repeat-mcq-04",
+        "repeat-mcq-23"
       ],
       "explanation": "本句的「repeat」指「已播出過的節目再次播出」。",
       "sentenceIndex": 22,
@@ -1211,12 +1101,10 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-11": "本句指「已播出過的節目再次播出」。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-08": "「再次進行同一程序，以確認或比較結果」與本句語境不同。"
+        "repeat-mcq-11": "本句的「repeat」指「已播出過的節目再次播出」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-11"
     },
@@ -1228,11 +1116,9 @@ export default {
       "masked": "The student made ____ to answer the question.",
       "options": [
         "repeat-mcq-12",
-        "repeat-mcq-11",
-        "repeat-mcq-13",
-        "repeat-mcq-10",
-        "repeat-mcq-14",
-        "repeat-mcq-09"
+        "repeat-mcq-23",
+        "repeat-mcq-07",
+        "repeat-pdf-001"
       ],
       "explanation": "本句的「repeated attempts」指「同一／相似事情實際發生多次的」。",
       "sentenceIndex": 25,
@@ -1241,12 +1127,10 @@ export default {
         "repeated attempts"
       ],
       "optionReasons": {
-        "repeat-mcq-12": "本句指「同一／相似事情實際發生多次的」。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。"
+        "repeat-mcq-12": "本句的「repeated attempts」指「同一／相似事情實際發生多次的」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-12"
     },
@@ -1258,11 +1142,9 @@ export default {
       "masked": "____ interruptions made it difficult to concentrate.",
       "options": [
         "repeat-mcq-12",
-        "repeat-mcq-11",
-        "repeat-mcq-13",
-        "repeat-mcq-10",
-        "repeat-mcq-14",
-        "repeat-mcq-09"
+        "repeat-mcq-23",
+        "repeat-mcq-07",
+        "repeat-mcq-02"
       ],
       "explanation": "本句的「Repeated」指「同一／相似事情實際發生多次的」。",
       "sentenceIndex": 26,
@@ -1271,12 +1153,10 @@ export default {
         "Repeated"
       ],
       "optionReasons": {
-        "repeat-mcq-12": "本句指「同一／相似事情實際發生多次的」。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-09": "「再次犯下之前已出現過的錯誤」與本句語境不同。"
+        "repeat-mcq-12": "本句的「Repeated」指「同一／相似事情實際發生多次的」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-12"
     },
@@ -1288,11 +1168,9 @@ export default {
       "masked": "He ____ asked the students to explain their reasoning.",
       "options": [
         "repeat-mcq-13",
-        "repeat-mcq-12",
-        "repeat-mcq-14",
-        "repeat-mcq-11",
-        "repeat-mcq-15",
-        "repeat-mcq-10"
+        "repeat-mcq-07",
+        "repeat-mcq-23",
+        "repeat-mcq-19"
       ],
       "explanation": "本句的「repeatedly」指「某件事情在不同時間一再發生」。",
       "sentenceIndex": 27,
@@ -1301,12 +1179,10 @@ export default {
         "repeatedly"
       ],
       "optionReasons": {
-        "repeat-mcq-13": "本句指「某件事情在不同時間一再發生」。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。"
+        "repeat-mcq-13": "本句的「repeatedly」指「某件事情在不同時間一再發生」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-13"
     },
@@ -1318,11 +1194,9 @@ export default {
       "masked": "The machine failed ____.",
       "options": [
         "repeat-mcq-13",
-        "repeat-mcq-12",
-        "repeat-mcq-14",
-        "repeat-mcq-11",
-        "repeat-mcq-15",
-        "repeat-mcq-10"
+        "repeat-mcq-07",
+        "repeat-mcq-23",
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeatedly」指「某件事情在不同時間一再發生」。",
       "sentenceIndex": 28,
@@ -1331,12 +1205,10 @@ export default {
         "repeatedly"
       ],
       "optionReasons": {
-        "repeat-mcq-13": "本句指「某件事情在不同時間一再發生」。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-10": "「某個已發生過的情況再次出現」與本句語境不同。"
+        "repeat-mcq-13": "本句的「repeatedly」指「某件事情在不同時間一再發生」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-13"
     },
@@ -1348,11 +1220,9 @@ export default {
       "masked": "Language learning requires some ____.",
       "options": [
         "repeat-mcq-14",
-        "repeat-mcq-13",
-        "repeat-mcq-15",
-        "repeat-mcq-12",
-        "repeat-mcq-16",
-        "repeat-mcq-11"
+        "repeat-pdf-001",
+        "repeat-mcq-07",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repetition」指「同一內容、動作或形式再次／多次出現的行為或現象」。",
       "sentenceIndex": 29,
@@ -1361,12 +1231,10 @@ export default {
         "repetition"
       ],
       "optionReasons": {
-        "repeat-mcq-14": "本句指「同一內容、動作或形式再次／多次出現的行為或現象」。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。"
+        "repeat-mcq-14": "本句的「repetition」指「同一內容、動作或形式再次／多次出現的行為或現象」。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-14"
     },
@@ -1378,11 +1246,9 @@ export default {
       "masked": "Too much ____ made the lesson boring.",
       "options": [
         "repeat-mcq-14",
-        "repeat-mcq-13",
-        "repeat-mcq-15",
-        "repeat-mcq-12",
-        "repeat-mcq-16",
-        "repeat-mcq-11"
+        "repeat-mcq-07",
+        "repeat-pdf-001",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repetition」指「同一內容、動作或形式再次／多次出現的行為或現象」。",
       "sentenceIndex": 30,
@@ -1391,12 +1257,10 @@ export default {
         "repetition"
       ],
       "optionReasons": {
-        "repeat-mcq-14": "本句指「同一內容、動作或形式再次／多次出現的行為或現象」。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。"
+        "repeat-mcq-14": "本句的「repetition」指「同一內容、動作或形式再次／多次出現的行為或現象」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-14"
     },
@@ -1408,11 +1272,9 @@ export default {
       "masked": "The writer uses ____ to emphasise the main idea.",
       "options": [
         "repeat-pdf-001",
-        "repeat-mcq-13",
-        "repeat-mcq-15",
-        "repeat-mcq-12",
-        "repeat-mcq-16",
-        "repeat-mcq-11"
+        "repeat-mcq-14",
+        "repeat-mcq-07",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repetition」指「有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果」。",
       "sentenceIndex": 31,
@@ -1421,12 +1283,10 @@ export default {
         "repetition"
       ],
       "optionReasons": {
-        "repeat-pdf-001": "本句指「有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果」。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-11": "「已播出過的節目再次播出」與本句語境不同。"
+        "repeat-pdf-001": "本句的「repetition」指「有意重複字詞、聲音、圖像或結構，以產生強調、節奏或其他效果」。",
+        "repeat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-pdf-001"
     },
@@ -1438,11 +1298,9 @@ export default {
       "masked": "The job became boring and ____.",
       "options": [
         "repeat-mcq-15",
-        "repeat-mcq-14",
-        "repeat-mcq-16",
-        "repeat-mcq-13",
-        "repeat-mcq-17",
-        "repeat-mcq-12"
+        "repeat-mcq-07",
+        "repeat-mcq-19",
+        "repeat-mcq-18"
       ],
       "explanation": "本句的「repetitive」指「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」。",
       "sentenceIndex": 32,
@@ -1451,12 +1309,10 @@ export default {
         "repetitive"
       ],
       "optionReasons": {
-        "repeat-mcq-15": "本句指「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。"
+        "repeat-mcq-15": "本句的「repetitive」指「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-15"
     },
@@ -1468,11 +1324,9 @@ export default {
       "masked": "The exercise feels ____ after a while.",
       "options": [
         "repeat-mcq-15",
-        "repeat-mcq-14",
-        "repeat-mcq-16",
-        "repeat-mcq-13",
-        "repeat-mcq-17",
-        "repeat-mcq-12"
+        "repeat-mcq-07",
+        "repeat-mcq-21",
+        "repeat-mcq-13"
       ],
       "explanation": "本句的「repetitive」指「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」。",
       "sentenceIndex": 33,
@@ -1481,12 +1335,10 @@ export default {
         "repetitive"
       ],
       "optionReasons": {
-        "repeat-mcq-15": "本句指「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-12": "「同一／相似事情實際發生多次的」與本句語境不同。"
+        "repeat-mcq-15": "本句的「repetitive」指「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-15"
     },
@@ -1498,11 +1350,8 @@ export default {
       "masked": "The machine moved ____ from side to side.",
       "options": [
         "repeat-mcq-16",
-        "repeat-mcq-15",
-        "repeat-mcq-17",
-        "repeat-mcq-14",
-        "repeat-mcq-18",
-        "repeat-mcq-13"
+        "repeat-mcq-05",
+        "repeat-pdf-001"
       ],
       "explanation": "本句的「repetitively」指「以機械、單調的方式反覆做同一事情」。",
       "sentenceIndex": 34,
@@ -1511,12 +1360,9 @@ export default {
         "repetitively"
       ],
       "optionReasons": {
-        "repeat-mcq-16": "本句指「以機械、單調的方式反覆做同一事情」。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-13": "「某件事情在不同時間一再發生」與本句語境不同。"
+        "repeat-mcq-16": "本句的「repetitively」指「以機械、單調的方式反覆做同一事情」。",
+        "repeat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-16"
     },
@@ -1528,11 +1374,9 @@ export default {
       "masked": "A scientific test should produce ____.",
       "options": [
         "repeat-mcq-17",
-        "repeat-mcq-16",
-        "repeat-mcq-18",
-        "repeat-mcq-15",
-        "repeat-mcq-19",
-        "repeat-mcq-14"
+        "repeat-mcq-07",
+        "repeat-mcq-23",
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeatable results」指「能夠再次按照相同方式進行或取得相似結果的」。",
       "sentenceIndex": 35,
@@ -1541,12 +1385,10 @@ export default {
         "repeatable results"
       ],
       "optionReasons": {
-        "repeat-mcq-17": "本句指「能夠再次按照相同方式進行或取得相似結果的」。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。"
+        "repeat-mcq-17": "本句的「repeatable results」指「能夠再次按照相同方式進行或取得相似結果的」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-17"
     },
@@ -1558,11 +1400,9 @@ export default {
       "masked": "The process is simple and ____.",
       "options": [
         "repeat-mcq-17",
-        "repeat-mcq-16",
-        "repeat-mcq-18",
-        "repeat-mcq-15",
-        "repeat-mcq-19",
-        "repeat-mcq-14"
+        "repeat-mcq-23",
+        "repeat-mcq-07",
+        "repeat-mcq-16"
       ],
       "explanation": "本句的「repeatable」指「能夠再次按照相同方式進行或取得相似結果的」。",
       "sentenceIndex": 36,
@@ -1571,12 +1411,10 @@ export default {
         "repeatable"
       ],
       "optionReasons": {
-        "repeat-mcq-17": "本句指「能夠再次按照相同方式進行或取得相似結果的」。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-14": "「同一內容、動作或形式再次／多次出現的行為或現象」與本句語境不同。"
+        "repeat-mcq-17": "本句的「repeatable」指「能夠再次按照相同方式進行或取得相似結果的」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-17"
     },
@@ -1588,11 +1426,9 @@ export default {
       "masked": "The researchers tested the ____ of the measurement.",
       "options": [
         "repeat-mcq-18",
-        "repeat-mcq-17",
-        "repeat-mcq-19",
-        "repeat-mcq-16",
         "repeat-mcq-20",
-        "repeat-mcq-15"
+        "repeat-mcq-15",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeatability」指「在相同條件下重複程序時取得一致結果的程度」。",
       "sentenceIndex": 37,
@@ -1601,12 +1437,10 @@ export default {
         "repeatability"
       ],
       "optionReasons": {
-        "repeat-mcq-18": "本句指「在相同條件下重複程序時取得一致結果的程度」。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。"
+        "repeat-mcq-18": "本句的「repeatability」指「在相同條件下重複程序時取得一致結果的程度」。",
+        "repeat-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-18"
     },
@@ -1618,10 +1452,7 @@ export default {
       "masked": "Good equipment should provide high ____.",
       "options": [
         "repeat-mcq-18",
-        "repeat-mcq-17",
-        "repeat-mcq-19",
-        "repeat-mcq-16",
-        "repeat-mcq-20",
+        "repeat-mcq-11",
         "repeat-mcq-15"
       ],
       "explanation": "本句的「repeatability」指「在相同條件下重複程序時取得一致結果的程度」。",
@@ -1631,12 +1462,9 @@ export default {
         "repeatability"
       ],
       "optionReasons": {
-        "repeat-mcq-18": "本句指「在相同條件下重複程序時取得一致結果的程度」。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-15": "「同一動作、內容或模式反覆出現，通常令人感到單調乏味的」與本句語境不同。"
+        "repeat-mcq-18": "本句的「repeatability」指「在相同條件下重複程序時取得一致結果的程度」。",
+        "repeat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-18"
     },
@@ -1648,11 +1476,9 @@ export default {
       "masked": "Good service helps create ____.",
       "options": [
         "repeat-mcq-19",
-        "repeat-mcq-18",
-        "repeat-mcq-20",
-        "repeat-mcq-17",
-        "repeat-mcq-21",
-        "repeat-mcq-16"
+        "repeat-pdf-001",
+        "repeat-mcq-16",
+        "repeat-mcq-23"
       ],
       "explanation": "本句的「repeat customers」指「曾經消費後再次回來購買／光顧的顧客」。",
       "sentenceIndex": 39,
@@ -1661,12 +1487,10 @@ export default {
         "repeat customers"
       ],
       "optionReasons": {
-        "repeat-mcq-19": "本句指「曾經消費後再次回來購買／光顧的顧客」。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。"
+        "repeat-mcq-19": "本句的「repeat customers」指「曾經消費後再次回來購買／光顧的顧客」。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-19"
     },
@@ -1678,11 +1502,9 @@ export default {
       "masked": "Most of the restaurant’s business comes from ____.",
       "options": [
         "repeat-mcq-19",
+        "repeat-mcq-15",
         "repeat-mcq-18",
-        "repeat-mcq-20",
-        "repeat-mcq-17",
-        "repeat-mcq-21",
-        "repeat-mcq-16"
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeat customers」指「曾經消費後再次回來購買／光顧的顧客」。",
       "sentenceIndex": 40,
@@ -1691,12 +1513,10 @@ export default {
         "repeat customers"
       ],
       "optionReasons": {
-        "repeat-mcq-19": "本句指「曾經消費後再次回來購買／光顧的顧客」。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-16": "「以機械、單調的方式反覆做同一事情」與本句語境不同。"
+        "repeat-mcq-19": "本句的「repeat customers」指「曾經消費後再次回來購買／光顧的顧客」。",
+        "repeat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-19"
     },
@@ -1708,11 +1528,9 @@ export default {
       "masked": "The company received a large ____.",
       "options": [
         "repeat-mcq-20",
-        "repeat-mcq-19",
-        "repeat-mcq-21",
         "repeat-mcq-18",
-        "repeat-mcq-22",
-        "repeat-mcq-17"
+        "repeat-mcq-07",
+        "repeat-mcq-15"
       ],
       "explanation": "本句的「repeat order」指「原有顧客再次購買所形成的訂單／生意」。",
       "sentenceIndex": 41,
@@ -1721,12 +1539,10 @@ export default {
         "repeat order"
       ],
       "optionReasons": {
-        "repeat-mcq-20": "本句指「原有顧客再次購買所形成的訂單／生意」。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-22": "「已獲授權可再次取得同一長期藥物的續配處方」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。"
+        "repeat-mcq-20": "本句的「repeat order」指「原有顧客再次購買所形成的訂單／生意」。",
+        "repeat-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-20"
     },
@@ -1738,11 +1554,9 @@ export default {
       "masked": "High product quality encourages ____.",
       "options": [
         "repeat-mcq-20",
-        "repeat-mcq-19",
-        "repeat-mcq-21",
-        "repeat-mcq-18",
-        "repeat-mcq-22",
-        "repeat-mcq-17"
+        "repeat-mcq-04",
+        "repeat-mcq-23",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeat business」指「原有顧客再次購買所形成的訂單／生意」。",
       "sentenceIndex": 42,
@@ -1751,12 +1565,10 @@ export default {
         "repeat business"
       ],
       "optionReasons": {
-        "repeat-mcq-20": "本句指「原有顧客再次購買所形成的訂單／生意」。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。",
-        "repeat-mcq-22": "「已獲授權可再次取得同一長期藥物的續配處方」與本句語境不同。",
-        "repeat-mcq-17": "「能夠再次按照相同方式進行或取得相似結果的」與本句語境不同。"
+        "repeat-mcq-20": "本句的「repeat business」指「原有顧客再次購買所形成的訂單／生意」。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-20"
     },
@@ -1768,11 +1580,9 @@ export default {
       "masked": "The law imposes heavier penalties on ____.",
       "options": [
         "repeat-mcq-21",
-        "repeat-mcq-20",
-        "repeat-mcq-22",
-        "repeat-mcq-19",
-        "repeat-mcq-23",
-        "repeat-mcq-18"
+        "repeat-mcq-07",
+        "repeat-mcq-15",
+        "repeat-pdf-001"
       ],
       "explanation": "本句的「repeat offenders」指「犯罪／違規後再次犯事的人；累犯」。",
       "sentenceIndex": 43,
@@ -1781,12 +1591,10 @@ export default {
         "repeat offenders"
       ],
       "optionReasons": {
-        "repeat-mcq-21": "本句指「犯罪／違規後再次犯事的人；累犯」。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-22": "「已獲授權可再次取得同一長期藥物的續配處方」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-23": "「小數部分有某個數字／數字組合無限循環出現的小數」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。"
+        "repeat-mcq-21": "本句的「repeat offenders」指「犯罪／違規後再次犯事的人；累犯」。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-21"
     },
@@ -1798,11 +1606,9 @@ export default {
       "masked": "The programme aims to reduce the number of ____ offenders.",
       "options": [
         "repeat-mcq-21",
-        "repeat-mcq-20",
-        "repeat-mcq-22",
-        "repeat-mcq-19",
-        "repeat-mcq-23",
-        "repeat-mcq-18"
+        "repeat-mcq-16",
+        "repeat-mcq-07",
+        "repeat-mcq-23"
       ],
       "explanation": "本句的「repeat」指「犯罪／違規後再次犯事的人；累犯」。",
       "sentenceIndex": 44,
@@ -1811,12 +1617,10 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-21": "本句指「犯罪／違規後再次犯事的人；累犯」。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-22": "「已獲授權可再次取得同一長期藥物的續配處方」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-23": "「小數部分有某個數字／數字組合無限循環出現的小數」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。"
+        "repeat-mcq-21": "本句的「repeat」指「犯罪／違規後再次犯事的人；累犯」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-21"
     },
@@ -1828,11 +1632,9 @@ export default {
       "masked": "She requested a ____ for her regular medication.",
       "options": [
         "repeat-mcq-22",
-        "repeat-mcq-21",
         "repeat-mcq-23",
-        "repeat-mcq-20",
-        "repeat-mcq-19",
-        "repeat-mcq-18"
+        "repeat-pdf-001",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeat prescription」指「已獲授權可再次取得同一長期藥物的續配處方」。",
       "sentenceIndex": 45,
@@ -1841,12 +1643,10 @@ export default {
         "repeat prescription"
       ],
       "optionReasons": {
-        "repeat-mcq-22": "本句指「已獲授權可再次取得同一長期藥物的續配處方」。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-23": "「小數部分有某個數字／數字組合無限循環出現的小數」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。"
+        "repeat-mcq-22": "本句的「repeat prescription」指「已獲授權可再次取得同一長期藥物的續配處方」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-22"
     },
@@ -1858,11 +1658,9 @@ export default {
       "masked": "You can order your ____ prescription online.",
       "options": [
         "repeat-mcq-22",
-        "repeat-mcq-21",
         "repeat-mcq-23",
-        "repeat-mcq-20",
-        "repeat-mcq-19",
-        "repeat-mcq-18"
+        "repeat-pdf-001",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeat」指「已獲授權可再次取得同一長期藥物的續配處方」。",
       "sentenceIndex": 46,
@@ -1871,12 +1669,10 @@ export default {
         "repeat"
       ],
       "optionReasons": {
-        "repeat-mcq-22": "本句指「已獲授權可再次取得同一長期藥物的續配處方」。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-23": "「小數部分有某個數字／數字組合無限循環出現的小數」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。"
+        "repeat-mcq-22": "本句的「repeat」指「已獲授權可再次取得同一長期藥物的續配處方」。",
+        "repeat-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "repeat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-22"
     },
@@ -1888,11 +1684,9 @@ export default {
       "masked": "One third is written as the ____ 0.333…",
       "options": [
         "repeat-mcq-23",
-        "repeat-mcq-22",
+        "repeat-mcq-16",
         "repeat-mcq-21",
-        "repeat-mcq-20",
-        "repeat-mcq-19",
-        "repeat-mcq-18"
+        "repeat-mcq-04"
       ],
       "explanation": "本句的「repeating decimal」指「小數部分有某個數字／數字組合無限循環出現的小數」。",
       "sentenceIndex": 47,
@@ -1901,12 +1695,10 @@ export default {
         "repeating decimal"
       ],
       "optionReasons": {
-        "repeat-mcq-23": "本句指「小數部分有某個數字／數字組合無限循環出現的小數」。",
-        "repeat-mcq-22": "「已獲授權可再次取得同一長期藥物的續配處方」與本句語境不同。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。"
+        "repeat-mcq-23": "本句的「repeating decimal」指「小數部分有某個數字／數字組合無限循環出現的小數」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-23"
     },
@@ -1918,11 +1710,9 @@ export default {
       "masked": "The digit pattern continues in a ____ decimal.",
       "options": [
         "repeat-mcq-23",
-        "repeat-mcq-22",
-        "repeat-mcq-21",
-        "repeat-mcq-20",
-        "repeat-mcq-19",
-        "repeat-mcq-18"
+        "repeat-mcq-16",
+        "repeat-mcq-17",
+        "repeat-mcq-07"
       ],
       "explanation": "本句的「repeating」指「小數部分有某個數字／數字組合無限循環出現的小數」。",
       "sentenceIndex": 48,
@@ -1931,12 +1721,10 @@ export default {
         "repeating"
       ],
       "optionReasons": {
-        "repeat-mcq-23": "本句指「小數部分有某個數字／數字組合無限循環出現的小數」。",
-        "repeat-mcq-22": "「已獲授權可再次取得同一長期藥物的續配處方」與本句語境不同。",
-        "repeat-mcq-21": "「犯罪／違規後再次犯事的人；累犯」與本句語境不同。",
-        "repeat-mcq-20": "「原有顧客再次購買所形成的訂單／生意」與本句語境不同。",
-        "repeat-mcq-19": "「曾經消費後再次回來購買／光顧的顧客」與本句語境不同。",
-        "repeat-mcq-18": "「在相同條件下重複程序時取得一致結果的程度」與本句語境不同。"
+        "repeat-mcq-23": "本句的「repeating」指「小數部分有某個數字／數字組合無限循環出現的小數」。",
+        "repeat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "repeat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "repeat-mcq-23"
     }
@@ -1948,5 +1736,7 @@ export default {
     "sha256": "5710dd29e7868bd6fda13f234df5e278b36d66297c09f7727abf7dc97b1d9b86",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

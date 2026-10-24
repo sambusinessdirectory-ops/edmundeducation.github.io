@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "read-mcq-02",
-      "title": "表示閱讀；讀；例句：「我昨晚讀了那篇文章。」",
+      "title": "閱讀；讀",
       "form": "read — understand written words = look at written or printed words and understand their meaning 閱讀；讀",
       "en": "read — understand written words = look at written or printed words and understand their meaning 閱讀；讀",
       "zh": "表示閱讀；讀；例句：「我昨晚讀了那篇文章。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "read-mcq-03",
-      "title": "表示朗讀；念出；例句：「請把這個句子朗讀出來。」",
+      "title": "朗讀；念出",
       "form": "read something aloud = speak written words so others can hear them 朗讀；念出",
       "en": "read something aloud = speak written words so others can hear them 朗讀；念出",
       "zh": "表示朗讀；念出；例句：「請把這個句子朗讀出來。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "read-mcq-04",
-      "title": "表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」",
+      "title": "研讀；閱讀研究",
       "form": "read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究",
       "en": "read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究",
       "zh": "表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "read-mcq-05",
-      "title": "表示讀取；判讀；例句：「你看得懂這張圖表嗎？」",
+      "title": "讀取；判讀",
       "form": "read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀",
       "en": "read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀",
       "zh": "表示讀取；判讀；例句：「你看得懂這張圖表嗎？」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "read-mcq-06",
-      "title": "表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」",
+      "title": "看懂地圖；判讀地圖",
       "form": "read a map = understand and use a map 看懂地圖；判讀地圖",
       "en": "read a map = understand and use a map 看懂地圖；判讀地圖",
       "zh": "表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "read-mcq-07",
-      "title": "表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」",
+      "title": "看懂某人；判斷某人的心思",
       "form": "read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思",
       "en": "read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思",
       "zh": "表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "read-mcq-08",
-      "title": "表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」",
+      "title": "看懂現場氣氛；察言觀色",
       "form": "read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.",
       "en": "read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.",
       "zh": "表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "read-mcq-09",
-      "title": "表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」",
+      "title": "從表情看出；解讀表情",
       "form": "read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情",
       "en": "read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情",
       "zh": "表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "read-mcq-10",
-      "title": "表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」",
+      "title": "把……理解為；解讀為",
       "form": "read something as... = interpret something in a particular way 把……理解為；解讀為",
       "en": "read something as... = interpret something in a particular way 把……理解為；解讀為",
       "zh": "表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "read-mcq-12",
-      "title": "表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」",
+      "title": "顯示；讀數為",
       "form": "read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為",
       "en": "read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為",
       "zh": "表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "read-mcq-13",
-      "title": "表示寫著；內容為；例句：「公告內容如下。」",
+      "title": "寫著；內容為",
       "form": "read — be written in a particular way = have particular words written or printed 寫著；內容為",
       "en": "read — be written in a particular way = have particular words written or printed 寫著；內容為",
       "zh": "表示寫著；內容為；例句：「公告內容如下。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "read-mcq-14",
-      "title": "表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」",
+      "title": "審閱；校讀",
       "form": "read — check written work = examine writing carefully, often for errors or quality 審閱；校讀",
       "en": "read — check written work = examine writing carefully, often for errors or quality 審閱；校讀",
       "zh": "表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "read-mcq-15",
-      "title": "表示攻讀某科；例句：「她在大學攻讀物理。」",
+      "title": "攻讀某科",
       "form": "read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科",
       "en": "read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科",
       "zh": "表示攻讀某科；例句：「她在大學攻讀物理。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "read-mcq-16",
-      "title": "表示讀取資料；例句：「程式可以從檔案中讀取資料。」",
+      "title": "讀取資料",
       "form": "read data = access or retrieve information from storage or a device 讀取資料",
       "en": "read data = access or retrieve information from storage or a device 讀取資料",
       "zh": "表示讀取資料；例句：「程式可以從檔案中讀取資料。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "read-mcq-17",
-      "title": "表示唯讀的；例句：「這個檔案是唯讀的。」",
+      "title": "唯讀的",
       "form": "read-only = able to be viewed or accessed but not changed 唯讀的",
       "en": "read-only = able to be viewed or accessed but not changed 唯讀的",
       "zh": "表示唯讀的；例句：「這個檔案是唯讀的。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "read-mcq-18",
-      "title": "表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」",
+      "title": "閱讀；讀物",
       "form": "a read = an act or experience of reading something 閱讀；讀物",
       "en": "a read = an act or experience of reading something 閱讀；讀物",
       "zh": "表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "read-mcq-19",
-      "title": "表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」",
+      "title": "讀者；閱讀器",
       "form": "reader = person who reads; also a device/program that reads information 讀者；閱讀器",
       "en": "reader = person who reads; also a device/program that reads information 讀者；閱讀器",
       "zh": "表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "read-mcq-20",
-      "title": "表示閱讀；例句：「規律閱讀能提升詞彙量。」",
+      "title": "閱讀",
       "form": "reading",
       "en": "reading",
       "zh": "表示閱讀；例句：「規律閱讀能提升詞彙量。」",
@@ -452,7 +452,7 @@ export default {
     },
     {
       "id": "read-mcq-21",
-      "title": "表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」",
+      "title": "查閱資料；研讀",
       "form": "read up on something = study a subject by reading about it 查閱資料；研讀",
       "en": "read up on something = study a subject by reading about it 查閱資料；研讀",
       "zh": "表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」",
@@ -474,7 +474,7 @@ export default {
     },
     {
       "id": "read-mcq-22",
-      "title": "表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」",
+      "title": "仔細閱讀；通讀",
       "form": "read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀",
       "en": "read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀",
       "zh": "表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」",
@@ -496,7 +496,7 @@ export default {
     },
     {
       "id": "read-mcq-23",
-      "title": "表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」",
+      "title": "過度解讀；從……推想太多",
       "form": "read into something = find or assume more meaning in something than may actually be there 過度解讀；從……推想太多",
       "en": "read into something = find or assume more meaning in something than may actually be there 過度解讀；從……推想太多",
       "zh": "表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」",
@@ -526,11 +526,9 @@ export default {
       "masked": "Good teachers know how to ____.",
       "options": [
         "read-mcq-01",
-        "read-mcq-02",
-        "read-mcq-03",
-        "read-mcq-04",
-        "read-mcq-05",
-        "read-mcq-06"
+        "read-mcq-21",
+        "read-mcq-23",
+        "read-mcq-03"
       ],
       "explanation": "本句的「read the room」指「看懂現場氣氛；察言觀色；判斷大家的反應」。",
       "sentenceIndex": 0,
@@ -539,12 +537,10 @@ export default {
         "read the room"
       ],
       "optionReasons": {
-        "read-mcq-01": "本句指「看懂現場氣氛；察言觀色；判斷大家的反應」。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-01": "本句的「read the room」指「看懂現場氣氛；察言觀色；判斷大家的反應」。",
+        "read-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-01"
     },
@@ -556,11 +552,8 @@ export default {
       "masked": "She could ____ and tell when students needed another explanation.",
       "options": [
         "read-mcq-01",
-        "read-mcq-02",
-        "read-mcq-03",
-        "read-mcq-04",
-        "read-mcq-05",
-        "read-mcq-06"
+        "read-mcq-17",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read the room」指「看懂現場氣氛；察言觀色；判斷大家的反應」。",
       "sentenceIndex": 1,
@@ -569,12 +562,9 @@ export default {
         "read the room"
       ],
       "optionReasons": {
-        "read-mcq-01": "本句指「看懂現場氣氛；察言觀色；判斷大家的反應」。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-01": "本句的「read the room」指「看懂現場氣氛；察言觀色；判斷大家的反應」。",
+        "read-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-01"
     },
@@ -586,11 +576,8 @@ export default {
       "masked": "I ____ last night.",
       "options": [
         "read-mcq-02",
-        "read-mcq-01",
-        "read-mcq-03",
-        "read-mcq-04",
-        "read-mcq-05",
-        "read-mcq-06"
+        "read-mcq-08",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read the article」指「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」。",
       "sentenceIndex": 2,
@@ -599,12 +586,9 @@ export default {
         "read the article"
       ],
       "optionReasons": {
-        "read-mcq-02": "本句指「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」。",
-        "read-mcq-01": "「看懂現場氣氛；察言觀色；判斷大家的反應」是「Passage anchor > “If the whole class looked confused, she could read the room instantly and change her approach on the spot.」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-02": "本句的「read the article」指「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-02"
     },
@@ -616,11 +600,8 @@ export default {
       "masked": "She likes to ____ about science.",
       "options": [
         "read-mcq-02",
-        "read-mcq-01",
-        "read-mcq-03",
-        "read-mcq-04",
-        "read-mcq-05",
-        "read-mcq-06"
+        "read-mcq-08",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read books」指「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」。",
       "sentenceIndex": 3,
@@ -629,12 +610,9 @@ export default {
         "read books"
       ],
       "optionReasons": {
-        "read-mcq-02": "本句指「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」。",
-        "read-mcq-01": "「看懂現場氣氛；察言觀色；判斷大家的反應」是「Passage anchor > “If the whole class looked confused, she could read the room instantly and change her approach on the spot.」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-02": "本句的「read books」指「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-02"
     },
@@ -646,11 +624,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "read-mcq-03",
-        "read-mcq-02",
-        "read-mcq-04",
+        "read-mcq-13",
         "read-mcq-01",
-        "read-mcq-05",
-        "read-mcq-06"
+        "read-mcq-22"
       ],
       "explanation": "本句的「read the sentence aloud」指「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」。",
       "sentenceIndex": 4,
@@ -659,12 +635,10 @@ export default {
         "read the sentence aloud"
       ],
       "optionReasons": {
-        "read-mcq-03": "本句指「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-01": "「看懂現場氣氛；察言觀色；判斷大家的反應」是「Passage anchor > “If the whole class looked confused, she could read the room instantly and change her approach on the spot.」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-03": "本句的「read the sentence aloud」指「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-03"
     },
@@ -676,11 +650,9 @@ export default {
       "masked": "She ____ to the class.",
       "options": [
         "read-mcq-03",
-        "read-mcq-02",
-        "read-mcq-04",
+        "read-mcq-13",
         "read-mcq-01",
-        "read-mcq-05",
-        "read-mcq-06"
+        "read-mcq-19"
       ],
       "explanation": "本句的「read the instructions aloud」指「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」。",
       "sentenceIndex": 5,
@@ -689,12 +661,10 @@ export default {
         "read the instructions aloud"
       ],
       "optionReasons": {
-        "read-mcq-03": "本句指「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-01": "「看懂現場氣氛；察言觀色；判斷大家的反應」是「Passage anchor > “If the whole class looked confused, she could read the room instantly and change her approach on the spot.」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-03": "本句的「read the instructions aloud」指「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-03"
     },
@@ -706,11 +676,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "read-mcq-04",
-        "read-mcq-03",
-        "read-mcq-05",
-        "read-mcq-02",
-        "read-mcq-06",
-        "read-mcq-01"
+        "read-mcq-07",
+        "read-mcq-13",
+        "read-mcq-09"
       ],
       "explanation": "本句的「read the chapter carefully」指「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」。",
       "sentenceIndex": 6,
@@ -719,12 +687,10 @@ export default {
         "read the chapter carefully"
       ],
       "optionReasons": {
-        "read-mcq-04": "本句指「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-01": "「看懂現場氣氛；察言觀色；判斷大家的反應」是「Passage anchor > “If the whole class looked confused, she could read the room instantly and change her approach on the spot.」的用法，與本句語境不同。"
+        "read-mcq-04": "本句的「read the chapter carefully」指「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-04"
     },
@@ -736,11 +702,9 @@ export default {
       "masked": "She ____ before the meeting.",
       "options": [
         "read-mcq-04",
-        "read-mcq-03",
-        "read-mcq-05",
-        "read-mcq-02",
-        "read-mcq-06",
-        "read-mcq-01"
+        "read-mcq-01",
+        "read-mcq-13",
+        "read-mcq-09"
       ],
       "explanation": "本句的「read several research papers」指「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」。",
       "sentenceIndex": 7,
@@ -749,12 +713,10 @@ export default {
         "read several research papers"
       ],
       "optionReasons": {
-        "read-mcq-04": "本句指「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-01": "「看懂現場氣氛；察言觀色；判斷大家的反應」是「Passage anchor > “If the whole class looked confused, she could read the room instantly and change her approach on the spot.」的用法，與本句語境不同。"
+        "read-mcq-04": "本句的「read several research papers」指「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-04"
     },
@@ -766,11 +728,8 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "read-mcq-05",
-        "read-mcq-04",
-        "read-mcq-06",
-        "read-mcq-03",
-        "read-mcq-07",
-        "read-mcq-02"
+        "read-mcq-13",
+        "read-mcq-08"
       ],
       "explanation": "本句的「read this graph」指「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」。",
       "sentenceIndex": 8,
@@ -779,12 +738,9 @@ export default {
         "read this graph"
       ],
       "optionReasons": {
-        "read-mcq-05": "本句指「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。"
+        "read-mcq-05": "本句的「read this graph」指「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-05"
     },
@@ -796,11 +752,8 @@ export default {
       "masked": "The technician ____.",
       "options": [
         "read-mcq-05",
-        "read-mcq-04",
-        "read-mcq-06",
-        "read-mcq-03",
-        "read-mcq-07",
-        "read-mcq-02"
+        "read-mcq-08",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read the meter」指「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」。",
       "sentenceIndex": 9,
@@ -809,12 +762,9 @@ export default {
         "read the meter"
       ],
       "optionReasons": {
-        "read-mcq-05": "本句指「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-02": "「表示閱讀；讀；例句：「我昨晚讀了那篇文章。」」是「read — understand written words = look at written or printed words and understand their meaning 閱讀；讀」的用法，與本句語境不同。"
+        "read-mcq-05": "本句的「read the meter」指「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-05"
     },
@@ -826,11 +776,9 @@ export default {
       "masked": "She knows how to ____.",
       "options": [
         "read-mcq-06",
-        "read-mcq-05",
-        "read-mcq-07",
+        "read-mcq-13",
         "read-mcq-04",
-        "read-mcq-08",
-        "read-mcq-03"
+        "read-mcq-23"
       ],
       "explanation": "本句的「read a map」指「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」。",
       "sentenceIndex": 10,
@@ -839,12 +787,10 @@ export default {
         "read a map"
       ],
       "optionReasons": {
-        "read-mcq-06": "本句指「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。"
+        "read-mcq-06": "本句的「read a map」指「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-06"
     },
@@ -856,11 +802,9 @@ export default {
       "masked": "I’m terrible at ____.",
       "options": [
         "read-mcq-06",
-        "read-mcq-05",
-        "read-mcq-07",
-        "read-mcq-04",
-        "read-mcq-08",
-        "read-mcq-03"
+        "read-mcq-13",
+        "read-mcq-14",
+        "read-mcq-23"
       ],
       "explanation": "本句的「reading maps」指「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」。",
       "sentenceIndex": 11,
@@ -869,12 +813,10 @@ export default {
         "reading maps"
       ],
       "optionReasons": {
-        "read-mcq-06": "本句指「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-03": "「表示朗讀；念出；例句：「請把這個句子朗讀出來。」」是「read something aloud = speak written words so others can hear them 朗讀；念出」的用法，與本句語境不同。"
+        "read-mcq-06": "本句的「reading maps」指「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-06"
     },
@@ -886,11 +828,8 @@ export default {
       "masked": "She is very good at ____.",
       "options": [
         "read-mcq-07",
-        "read-mcq-06",
-        "read-mcq-08",
-        "read-mcq-05",
-        "read-mcq-09",
-        "read-mcq-04"
+        "read-mcq-18",
+        "read-mcq-13"
       ],
       "explanation": "本句的「reading people」指「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」。",
       "sentenceIndex": 12,
@@ -899,12 +838,9 @@ export default {
         "reading people"
       ],
       "optionReasons": {
-        "read-mcq-07": "本句指「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。"
+        "read-mcq-07": "本句的「reading people」指「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」。",
+        "read-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-07"
     },
@@ -916,11 +852,8 @@ export default {
       "masked": "I couldn’t ____.",
       "options": [
         "read-mcq-07",
-        "read-mcq-06",
-        "read-mcq-08",
-        "read-mcq-05",
-        "read-mcq-09",
-        "read-mcq-04"
+        "read-mcq-10",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read his expression」指「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」。",
       "sentenceIndex": 13,
@@ -929,12 +862,9 @@ export default {
         "read his expression"
       ],
       "optionReasons": {
-        "read-mcq-07": "本句指「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-04": "「表示研讀；閱讀研究；例句：「我需要仔細研讀這一章。」」是「read — study written material = examine written material carefully to learn or understand it 研讀；閱讀研究」的用法，與本句語境不同。"
+        "read-mcq-07": "本句的「read his expression」指「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」。",
+        "read-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-07"
     },
@@ -946,11 +876,9 @@ export default {
       "masked": "He failed to ____ and kept joking.",
       "options": [
         "read-mcq-08",
-        "read-mcq-07",
-        "read-mcq-09",
-        "read-mcq-06",
-        "read-mcq-10",
-        "read-mcq-05"
+        "read-mcq-23",
+        "read-mcq-04",
+        "read-mcq-16"
       ],
       "explanation": "本句的「read the room」指「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」。",
       "sentenceIndex": 14,
@@ -959,12 +887,10 @@ export default {
         "read the room"
       ],
       "optionReasons": {
-        "read-mcq-08": "本句指「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。"
+        "read-mcq-08": "本句的「read the room」指「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-08"
     },
@@ -976,11 +902,8 @@ export default {
       "masked": "She quickly ____ and changed the topic.",
       "options": [
         "read-mcq-08",
-        "read-mcq-07",
-        "read-mcq-09",
-        "read-mcq-06",
-        "read-mcq-10",
-        "read-mcq-05"
+        "read-mcq-13",
+        "read-mcq-02"
       ],
       "explanation": "本句的「read the room」指「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」。",
       "sentenceIndex": 15,
@@ -989,12 +912,9 @@ export default {
         "read the room"
       ],
       "optionReasons": {
-        "read-mcq-08": "本句指「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-05": "「表示讀取；判讀；例句：「你看得懂這張圖表嗎？」」是「read — interpret information shown by a device, chart, or sign = understand the information indicated or displayed 讀取；判讀」的用法，與本句語境不同。"
+        "read-mcq-08": "本句的「read the room」指「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-08"
     },
@@ -1006,11 +926,9 @@ export default {
       "masked": "I could ____.",
       "options": [
         "read-mcq-09",
-        "read-mcq-08",
-        "read-mcq-10",
-        "read-mcq-07",
-        "read-mcq-11",
-        "read-mcq-06"
+        "read-mcq-13",
+        "read-mcq-22",
+        "read-mcq-01"
       ],
       "explanation": "本句的「read the disappointment on her face」指「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」。",
       "sentenceIndex": 16,
@@ -1019,12 +937,10 @@ export default {
         "read the disappointment on her face"
       ],
       "optionReasons": {
-        "read-mcq-09": "本句指「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-09": "本句的「read the disappointment on her face」指「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-09"
     },
@@ -1036,11 +952,9 @@ export default {
       "masked": "He tried to ____.",
       "options": [
         "read-mcq-09",
-        "read-mcq-08",
-        "read-mcq-10",
-        "read-mcq-07",
-        "read-mcq-11",
-        "read-mcq-06"
+        "read-mcq-13",
+        "read-mcq-14",
+        "read-mcq-01"
       ],
       "explanation": "本句的「read her expression」指「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」。",
       "sentenceIndex": 17,
@@ -1049,12 +963,10 @@ export default {
         "read her expression"
       ],
       "optionReasons": {
-        "read-mcq-09": "本句指「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-06": "「表示看懂地圖；判讀地圖；例句：「她知道怎麼看地圖。」」是「read a map = understand and use a map 看懂地圖；判讀地圖」的用法，與本句語境不同。"
+        "read-mcq-09": "本句的「read her expression」指「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-09"
     },
@@ -1066,11 +978,8 @@ export default {
       "masked": "I ____.",
       "options": [
         "read-mcq-10",
-        "read-mcq-09",
-        "read-mcq-11",
-        "read-mcq-08",
-        "read-mcq-12",
-        "read-mcq-07"
+        "read-mcq-07",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read his silence as disagreement」指「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」。",
       "sentenceIndex": 18,
@@ -1079,12 +988,9 @@ export default {
         "read his silence as disagreement"
       ],
       "optionReasons": {
-        "read-mcq-10": "本句指「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。"
+        "read-mcq-10": "本句的「read his silence as disagreement」指「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-10"
     },
@@ -1096,11 +1002,8 @@ export default {
       "masked": "Her comment could be ____.",
       "options": [
         "read-mcq-10",
-        "read-mcq-09",
-        "read-mcq-11",
-        "read-mcq-08",
-        "read-mcq-12",
-        "read-mcq-07"
+        "read-mcq-13",
+        "read-mcq-08"
       ],
       "explanation": "本句的「read as criticism」指「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」。",
       "sentenceIndex": 19,
@@ -1109,12 +1012,9 @@ export default {
         "read as criticism"
       ],
       "optionReasons": {
-        "read-mcq-10": "本句指「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-07": "「表示看懂某人；判斷某人的心思；例句：「她很會看人／判斷別人的心思。」」是「read someone = understand someone’s feelings, intentions, or character from their behavior 看懂某人；判斷某人的心思」的用法，與本句語境不同。"
+        "read-mcq-10": "本句的「read as criticism」指「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-10"
     },
@@ -1126,11 +1026,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "read-mcq-11",
-        "read-mcq-10",
-        "read-mcq-12",
-        "read-mcq-09",
         "read-mcq-13",
-        "read-mcq-08"
+        "read-mcq-22",
+        "read-mcq-23"
       ],
       "explanation": "本句的「read between the lines」指「讀出言外之意；看懂弦外之音」。",
       "sentenceIndex": 20,
@@ -1139,12 +1037,10 @@ export default {
         "read between the lines"
       ],
       "optionReasons": {
-        "read-mcq-11": "本句指「讀出言外之意；看懂弦外之音」。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。"
+        "read-mcq-11": "本句的「read between the lines」指「讀出言外之意；看懂弦外之音」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-11"
     },
@@ -1156,11 +1052,9 @@ export default {
       "masked": "If you ____, she is clearly worried.",
       "options": [
         "read-mcq-11",
-        "read-mcq-10",
-        "read-mcq-12",
-        "read-mcq-09",
         "read-mcq-13",
-        "read-mcq-08"
+        "read-mcq-14",
+        "read-mcq-23"
       ],
       "explanation": "本句的「read between the lines」指「讀出言外之意；看懂弦外之音」。",
       "sentenceIndex": 21,
@@ -1169,12 +1063,10 @@ export default {
         "read between the lines"
       ],
       "optionReasons": {
-        "read-mcq-11": "本句指「讀出言外之意；看懂弦外之音」。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-08": "「表示看懂現場氣氛；察言觀色；例句：「他沒有看懂現場氣氛，還一直開玩笑。」」是「read the room = understand the mood and reactions of a group 看懂現場氣氛；察言觀色 This is the exact passage expression.」的用法，與本句語境不同。"
+        "read-mcq-11": "本句的「read between the lines」指「讀出言外之意；看懂弦外之音」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-11"
     },
@@ -1186,11 +1078,8 @@ export default {
       "masked": "The thermometer ____.",
       "options": [
         "read-mcq-12",
-        "read-mcq-11",
-        "read-mcq-13",
-        "read-mcq-10",
-        "read-mcq-14",
-        "read-mcq-09"
+        "read-mcq-01",
+        "read-mcq-13"
       ],
       "explanation": "本句的「reads 25°C」指「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」。",
       "sentenceIndex": 22,
@@ -1199,12 +1088,9 @@ export default {
         "reads 25°C"
       ],
       "optionReasons": {
-        "read-mcq-12": "本句指「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。"
+        "read-mcq-12": "本句的「reads 25°C」指「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-12"
     },
@@ -1216,11 +1102,8 @@ export default {
       "masked": "The sign ____",
       "options": [
         "read-mcq-12",
-        "read-mcq-11",
-        "read-mcq-13",
-        "read-mcq-10",
-        "read-mcq-14",
-        "read-mcq-09"
+        "read-mcq-07",
+        "read-mcq-13"
       ],
       "explanation": "本句的「reads “No Entry.」指「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」。",
       "sentenceIndex": 23,
@@ -1229,12 +1112,9 @@ export default {
         "reads “No Entry."
       ],
       "optionReasons": {
-        "read-mcq-12": "本句指「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-09": "「表示從表情看出；解讀表情；例句：「我可以從她臉上看出失望。」」是「read someone’s face / expression = interpret what someone is feeling from facial cues 從表情看出；解讀表情」的用法，與本句語境不同。"
+        "read-mcq-12": "本句的「reads “No Entry.」指「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-12"
     },
@@ -1246,11 +1126,8 @@ export default {
       "masked": "The notice ____.",
       "options": [
         "read-mcq-13",
-        "read-mcq-12",
-        "read-mcq-14",
-        "read-mcq-11",
-        "read-mcq-15",
-        "read-mcq-10"
+        "read-mcq-18",
+        "read-mcq-08"
       ],
       "explanation": "本句的「reads as follows」指「表示寫著；內容為；例句：「公告內容如下。」」。",
       "sentenceIndex": 24,
@@ -1259,12 +1136,9 @@ export default {
         "reads as follows"
       ],
       "optionReasons": {
-        "read-mcq-13": "本句指「表示寫著；內容為；例句：「公告內容如下。」」。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。"
+        "read-mcq-13": "本句的「reads as follows」指「表示寫著；內容為；例句：「公告內容如下。」」。",
+        "read-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-13"
     },
@@ -1276,11 +1150,9 @@ export default {
       "masked": "The final line ____ in the revised version.",
       "options": [
         "read-mcq-13",
-        "read-mcq-12",
-        "read-mcq-14",
-        "read-mcq-11",
-        "read-mcq-15",
-        "read-mcq-10"
+        "read-mcq-01",
+        "read-mcq-04",
+        "read-mcq-09"
       ],
       "explanation": "本句的「reads differently」指「表示寫著；內容為；例句：「公告內容如下。」」。",
       "sentenceIndex": 25,
@@ -1289,12 +1161,10 @@ export default {
         "reads differently"
       ],
       "optionReasons": {
-        "read-mcq-13": "本句指「表示寫著；內容為；例句：「公告內容如下。」」。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-10": "「表示把……理解為；解讀為；例句：「我把他的沉默理解為不同意。」」是「read something as... = interpret something in a particular way 把……理解為；解讀為」的用法，與本句語境不同。"
+        "read-mcq-13": "本句的「reads differently」指「表示寫著；內容為；例句：「公告內容如下。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-13"
     },
@@ -1306,11 +1176,9 @@ export default {
       "masked": "Could you ____ before I submit it?",
       "options": [
         "read-mcq-14",
+        "read-mcq-01",
         "read-mcq-13",
-        "read-mcq-15",
-        "read-mcq-12",
-        "read-mcq-16",
-        "read-mcq-11"
+        "read-mcq-09"
       ],
       "explanation": "本句的「read my essay」指「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」。",
       "sentenceIndex": 26,
@@ -1319,12 +1187,10 @@ export default {
         "read my essay"
       ],
       "optionReasons": {
-        "read-mcq-14": "本句指「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。"
+        "read-mcq-14": "本句的「read my essay」指「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-14"
     },
@@ -1336,11 +1202,9 @@ export default {
       "masked": "The editor ____ carefully.",
       "options": [
         "read-mcq-14",
+        "read-mcq-01",
         "read-mcq-13",
-        "read-mcq-15",
-        "read-mcq-12",
-        "read-mcq-16",
-        "read-mcq-11"
+        "read-mcq-23"
       ],
       "explanation": "本句的「read the manuscript」指「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」。",
       "sentenceIndex": 27,
@@ -1349,12 +1213,10 @@ export default {
         "read the manuscript"
       ],
       "optionReasons": {
-        "read-mcq-14": "本句指「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-11": "「讀出言外之意；看懂弦外之音」是「read between the lines = understand a hidden or implied meaning 讀出言外之意；看懂弦外之音」的用法，與本句語境不同。"
+        "read-mcq-14": "本句的「read the manuscript」指「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-14"
     },
@@ -1366,11 +1228,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "read-mcq-15",
-        "read-mcq-14",
-        "read-mcq-16",
-        "read-mcq-13",
-        "read-mcq-17",
-        "read-mcq-12"
+        "read-mcq-08",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read physics at university」指「表示攻讀某科；例句：「她在大學攻讀物理。」」。",
       "sentenceIndex": 28,
@@ -1379,12 +1238,9 @@ export default {
         "read physics at university"
       ],
       "optionReasons": {
-        "read-mcq-15": "本句指「表示攻讀某科；例句：「她在大學攻讀物理。」」。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。"
+        "read-mcq-15": "本句的「read physics at university」指「表示攻讀某科；例句：「她在大學攻讀物理。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-15"
     },
@@ -1396,11 +1252,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "read-mcq-15",
-        "read-mcq-14",
-        "read-mcq-16",
-        "read-mcq-13",
-        "read-mcq-17",
-        "read-mcq-12"
+        "read-mcq-08",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read law at Oxford」指「表示攻讀某科；例句：「她在大學攻讀物理。」」。",
       "sentenceIndex": 29,
@@ -1409,12 +1262,9 @@ export default {
         "read law at Oxford"
       ],
       "optionReasons": {
-        "read-mcq-15": "本句指「表示攻讀某科；例句：「她在大學攻讀物理。」」。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-12": "「表示顯示；讀數為；例句：「溫度計顯示攝氏25度。」」是「read — show a particular measurement or message = indicate a particular number, value, or wording 顯示；讀數為」的用法，與本句語境不同。"
+        "read-mcq-15": "本句的「read law at Oxford」指「表示攻讀某科；例句：「她在大學攻讀物理。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-15"
     },
@@ -1426,11 +1276,9 @@ export default {
       "masked": "The program can ____.",
       "options": [
         "read-mcq-16",
-        "read-mcq-15",
-        "read-mcq-17",
+        "read-mcq-08",
         "read-mcq-14",
-        "read-mcq-18",
-        "read-mcq-13"
+        "read-mcq-03"
       ],
       "explanation": "本句的「read data from the file」指「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」。",
       "sentenceIndex": 30,
@@ -1439,12 +1287,10 @@ export default {
         "read data from the file"
       ],
       "optionReasons": {
-        "read-mcq-16": "本句指「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。"
+        "read-mcq-16": "本句的「read data from the file」指「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-16"
     },
@@ -1456,11 +1302,9 @@ export default {
       "masked": "The sensor ____ continuously.",
       "options": [
         "read-mcq-16",
-        "read-mcq-15",
-        "read-mcq-17",
-        "read-mcq-14",
-        "read-mcq-18",
-        "read-mcq-13"
+        "read-mcq-01",
+        "read-mcq-03",
+        "read-mcq-22"
       ],
       "explanation": "本句的「reads the signal」指「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」。",
       "sentenceIndex": 31,
@@ -1469,12 +1313,10 @@ export default {
         "reads the signal"
       ],
       "optionReasons": {
-        "read-mcq-16": "本句指「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-13": "「表示寫著；內容為；例句：「公告內容如下。」」是「read — be written in a particular way = have particular words written or printed 寫著；內容為」的用法，與本句語境不同。"
+        "read-mcq-16": "本句的「reads the signal」指「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-16"
     },
@@ -1486,11 +1328,8 @@ export default {
       "masked": "The file is ____.",
       "options": [
         "read-mcq-17",
-        "read-mcq-16",
-        "read-mcq-18",
-        "read-mcq-15",
-        "read-mcq-19",
-        "read-mcq-14"
+        "read-mcq-07",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read-only」指「表示唯讀的；例句：「這個檔案是唯讀的。」」。",
       "sentenceIndex": 32,
@@ -1499,12 +1338,9 @@ export default {
         "read-only"
       ],
       "optionReasons": {
-        "read-mcq-17": "本句指「表示唯讀的；例句：「這個檔案是唯讀的。」」。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。"
+        "read-mcq-17": "本句的「read-only」指「表示唯讀的；例句：「這個檔案是唯讀的。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-17"
     },
@@ -1516,11 +1352,8 @@ export default {
       "masked": "Users have ____.",
       "options": [
         "read-mcq-17",
-        "read-mcq-16",
-        "read-mcq-18",
-        "read-mcq-15",
-        "read-mcq-19",
-        "read-mcq-14"
+        "read-mcq-07",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read-only access」指「表示唯讀的；例句：「這個檔案是唯讀的。」」。",
       "sentenceIndex": 33,
@@ -1529,12 +1362,9 @@ export default {
         "read-only access"
       ],
       "optionReasons": {
-        "read-mcq-17": "本句指「表示唯讀的；例句：「這個檔案是唯讀的。」」。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-14": "「表示審閱；校讀；例句：「你可以在我交作業前幫我看一下作文嗎？」」是「read — check written work = examine writing carefully, often for errors or quality 審閱；校讀」的用法，與本句語境不同。"
+        "read-mcq-17": "本句的「read-only access」指「表示唯讀的；例句：「這個檔案是唯讀的。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-17"
     },
@@ -1546,11 +1376,8 @@ export default {
       "masked": "It’s a fascinating ____.",
       "options": [
         "read-mcq-18",
-        "read-mcq-17",
-        "read-mcq-19",
-        "read-mcq-16",
-        "read-mcq-20",
-        "read-mcq-15"
+        "read-mcq-01",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read」指「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」。",
       "sentenceIndex": 34,
@@ -1559,12 +1386,9 @@ export default {
         "read"
       ],
       "optionReasons": {
-        "read-mcq-18": "本句指「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。"
+        "read-mcq-18": "本句的「read」指「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-18"
     },
@@ -1576,11 +1400,8 @@ export default {
       "masked": "The article is a quick ____.",
       "options": [
         "read-mcq-18",
-        "read-mcq-17",
-        "read-mcq-19",
-        "read-mcq-16",
-        "read-mcq-20",
-        "read-mcq-15"
+        "read-mcq-07",
+        "read-mcq-13"
       ],
       "explanation": "本句的「read」指「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」。",
       "sentenceIndex": 35,
@@ -1589,12 +1410,9 @@ export default {
         "read"
       ],
       "optionReasons": {
-        "read-mcq-18": "本句指「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-15": "「表示攻讀某科；例句：「她在大學攻讀物理。」」是「read a subject — BrE, especially university context = study a subject formally, especially at university 攻讀某科」的用法，與本句語境不同。"
+        "read-mcq-18": "本句的「read」指「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-18"
     },
@@ -1606,11 +1424,9 @@ export default {
       "masked": "The book is aimed at younger ____.",
       "options": [
         "read-mcq-19",
-        "read-mcq-18",
-        "read-mcq-20",
-        "read-mcq-17",
-        "read-mcq-21",
-        "read-mcq-16"
+        "read-mcq-07",
+        "read-mcq-13",
+        "read-mcq-09"
       ],
       "explanation": "本句的「readers」指「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」。",
       "sentenceIndex": 36,
@@ -1619,12 +1435,10 @@ export default {
         "readers"
       ],
       "optionReasons": {
-        "read-mcq-19": "本句指「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。"
+        "read-mcq-19": "本句的「readers」指「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-19"
     },
@@ -1636,11 +1450,9 @@ export default {
       "masked": "The card ____ is not working.",
       "options": [
         "read-mcq-19",
-        "read-mcq-18",
-        "read-mcq-20",
-        "read-mcq-17",
-        "read-mcq-21",
-        "read-mcq-16"
+        "read-mcq-01",
+        "read-mcq-13",
+        "read-mcq-03"
       ],
       "explanation": "本句的「reader」指「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」。",
       "sentenceIndex": 37,
@@ -1649,12 +1461,10 @@ export default {
         "reader"
       ],
       "optionReasons": {
-        "read-mcq-19": "本句指「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-16": "「表示讀取資料；例句：「程式可以從檔案中讀取資料。」」是「read data = access or retrieve information from storage or a device 讀取資料」的用法，與本句語境不同。"
+        "read-mcq-19": "本句的「reader」指「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-19"
     },
@@ -1666,11 +1476,8 @@ export default {
       "masked": "Regular ____ improves vocabulary.",
       "options": [
         "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-21",
-        "read-mcq-18",
-        "read-mcq-22",
-        "read-mcq-17"
+        "read-mcq-13",
+        "read-mcq-01"
       ],
       "explanation": "本句的「reading」指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
       "sentenceIndex": 38,
@@ -1679,12 +1486,9 @@ export default {
         "reading"
       ],
       "optionReasons": {
-        "read-mcq-20": "本句指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。"
+        "read-mcq-20": "本句的「reading」指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-20"
     },
@@ -1696,11 +1500,8 @@ export default {
       "masked": "Her ____ was accurate.",
       "options": [
         "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-21",
-        "read-mcq-18",
-        "read-mcq-22",
-        "read-mcq-17"
+        "read-mcq-01",
+        "read-mcq-13"
       ],
       "explanation": "本句的「reading of the situation」指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
       "sentenceIndex": 39,
@@ -1709,12 +1510,9 @@ export default {
         "reading of the situation"
       ],
       "optionReasons": {
-        "read-mcq-20": "本句指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。"
+        "read-mcq-20": "本句的「reading of the situation」指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-20"
     },
@@ -1726,11 +1524,8 @@ export default {
       "masked": "The temperature ____ was unusually high.",
       "options": [
         "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-21",
-        "read-mcq-18",
-        "read-mcq-22",
-        "read-mcq-17"
+        "read-mcq-08",
+        "read-mcq-13"
       ],
       "explanation": "本句的「reading」指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
       "sentenceIndex": 40,
@@ -1739,12 +1534,9 @@ export default {
         "reading"
       ],
       "optionReasons": {
-        "read-mcq-20": "本句指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-17": "「表示唯讀的；例句：「這個檔案是唯讀的。」」是「read-only = able to be viewed or accessed but not changed 唯讀的」的用法，與本句語境不同。"
+        "read-mcq-20": "本句的「reading」指「表示閱讀；例句：「規律閱讀能提升詞彙量。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-20"
     },
@@ -1756,11 +1548,8 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "read-mcq-21",
-        "read-mcq-20",
-        "read-mcq-22",
-        "read-mcq-19",
-        "read-mcq-23",
-        "read-mcq-18"
+        "read-mcq-08",
+        "read-mcq-09"
       ],
       "explanation": "本句的「read up on quantum physics」指「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」。",
       "sentenceIndex": 41,
@@ -1769,12 +1558,9 @@ export default {
         "read up on quantum physics"
       ],
       "optionReasons": {
-        "read-mcq-21": "本句指「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-23": "「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」是「read into something = find or assume more meaning in something than may actually be there 過度解讀；從……推想太多」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。"
+        "read-mcq-21": "本句的「read up on quantum physics」指「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-21"
     },
@@ -1786,11 +1572,9 @@ export default {
       "masked": "She ____ before the interview.",
       "options": [
         "read-mcq-21",
-        "read-mcq-20",
-        "read-mcq-22",
-        "read-mcq-19",
+        "read-mcq-07",
         "read-mcq-23",
-        "read-mcq-18"
+        "read-mcq-03"
       ],
       "explanation": "本句的「read up on the topic」指「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」。",
       "sentenceIndex": 42,
@@ -1799,12 +1583,10 @@ export default {
         "read up on the topic"
       ],
       "optionReasons": {
-        "read-mcq-21": "本句指「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-23": "「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」是「read into something = find or assume more meaning in something than may actually be there 過度解讀；從……推想太多」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。"
+        "read-mcq-21": "本句的「read up on the topic」指「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」。",
+        "read-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-21"
     },
@@ -1816,11 +1598,9 @@ export default {
       "masked": "Please ____ before submitting it.",
       "options": [
         "read-mcq-22",
-        "read-mcq-21",
-        "read-mcq-23",
-        "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-18"
+        "read-mcq-08",
+        "read-mcq-13",
+        "read-mcq-03"
       ],
       "explanation": "本句的「read over your answer」指「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」。",
       "sentenceIndex": 43,
@@ -1829,12 +1609,10 @@ export default {
         "read over your answer"
       ],
       "optionReasons": {
-        "read-mcq-22": "本句指「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-23": "「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」是「read into something = find or assume more meaning in something than may actually be there 過度解讀；從……推想太多」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。"
+        "read-mcq-22": "本句的「read over your answer」指「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-22"
     },
@@ -1846,11 +1624,9 @@ export default {
       "masked": "I ____ twice.",
       "options": [
         "read-mcq-22",
-        "read-mcq-21",
-        "read-mcq-23",
-        "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-18"
+        "read-mcq-01",
+        "read-mcq-13",
+        "read-mcq-03"
       ],
       "explanation": "本句的「read through the report」指「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」。",
       "sentenceIndex": 44,
@@ -1859,12 +1635,10 @@ export default {
         "read through the report"
       ],
       "optionReasons": {
-        "read-mcq-22": "本句指「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-23": "「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」是「read into something = find or assume more meaning in something than may actually be there 過度解讀；從……推想太多」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。"
+        "read-mcq-22": "本句的「read through the report」指「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-22"
     },
@@ -1876,11 +1650,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "read-mcq-23",
-        "read-mcq-22",
-        "read-mcq-21",
-        "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-18"
+        "read-mcq-13",
+        "read-mcq-08",
+        "read-mcq-14"
       ],
       "explanation": "本句的「read too much into his comment」指「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」。",
       "sentenceIndex": 45,
@@ -1889,12 +1661,10 @@ export default {
         "read too much into his comment"
       ],
       "optionReasons": {
-        "read-mcq-23": "本句指「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。"
+        "read-mcq-23": "本句的「read too much into his comment」指「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-23"
     },
@@ -1906,11 +1676,9 @@ export default {
       "masked": "She may be ____ that isn’t there.",
       "options": [
         "read-mcq-23",
-        "read-mcq-22",
-        "read-mcq-21",
-        "read-mcq-20",
-        "read-mcq-19",
-        "read-mcq-18"
+        "read-mcq-01",
+        "read-mcq-13",
+        "read-mcq-04"
       ],
       "explanation": "本句的「reading something into the silence」指「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」。",
       "sentenceIndex": 46,
@@ -1919,12 +1687,10 @@ export default {
         "reading something into the silence"
       ],
       "optionReasons": {
-        "read-mcq-23": "本句指「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」。",
-        "read-mcq-22": "「表示仔細閱讀；通讀；例句：「提交前請檢查／重讀你的答案。」」是「read over / through = read something carefully from beginning to end or review it 仔細閱讀；通讀」的用法，與本句語境不同。",
-        "read-mcq-21": "「表示查閱資料；研讀；例句：「我需要查資料了解量子物理。」」是「read up on something = study a subject by reading about it 查閱資料；研讀」的用法，與本句語境不同。",
-        "read-mcq-20": "「表示閱讀；例句：「規律閱讀能提升詞彙量。」」是「reading」的用法，與本句語境不同。",
-        "read-mcq-19": "「表示讀者；閱讀器；例句：「這本書是寫給年輕讀者看的。」」是「reader = person who reads; also a device/program that reads information 讀者；閱讀器」的用法，與本句語境不同。",
-        "read-mcq-18": "「表示閱讀；讀物；例句：「這是一本／一篇很吸引人的讀物。」」是「a read = an act or experience of reading something 閱讀；讀物」的用法，與本句語境不同。"
+        "read-mcq-23": "本句的「reading something into the silence」指「表示過度解讀；從……推想太多；例句：「不要對他的評論過度解讀。」」。",
+        "read-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "read-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "read-mcq-23"
     }
@@ -1936,5 +1702,7 @@ export default {
     "sha256": "600115b3a154559904ba8945be3df11e0a1e8c02bb2f6c6b6a810c38e5291515",
     "pages": 14
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

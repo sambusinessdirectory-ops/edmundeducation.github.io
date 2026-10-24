@@ -796,22 +796,18 @@ export default {
       "masked": "我下班後深夜正在____。",
       "options": [
         "watch-01",
-        "watch-17",
-        "watch-20",
         "watch-18",
         "watch-16",
-        "watch-05"
+        "watch-12"
       ],
       "explanation": "留意搭配：Watch something。本項著重「觀看節目、表演或比賽」。",
       "sentenceIndex": 0,
       "sourcePractice": 1,
       "optionReasons": {
-        "watch-01": "本句是「觀看節目、表演或比賽」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch something 的用法不同。"
+        "watch-01": "留意搭配：Watch something。本項著重「觀看節目、表演或比賽」。",
+        "watch-18": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -822,22 +818,18 @@ export default {
       "masked": "我們晚飯後____。",
       "options": [
         "watch-01",
-        "watch-17",
-        "watch-20",
-        "watch-18",
         "watch-16",
-        "watch-05"
+        "watch-21",
+        "watch-11"
       ],
       "explanation": "留意搭配：Watch something。本項著重「觀看節目、表演或比賽」。",
       "sentenceIndex": 1,
       "sourcePractice": 2,
       "optionReasons": {
-        "watch-01": "本句是「觀看節目、表演或比賽」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch something 的用法不同。"
+        "watch-01": "留意搭配：Watch something。本項著重「觀看節目、表演或比賽」。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-21": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -848,22 +840,18 @@ export default {
       "masked": "她週末喜歡____。",
       "options": [
         "watch-01",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-05",
+        "watch-04",
+        "watch-18"
       ],
       "explanation": "留意搭配：Watch something。本項著重「觀看節目、表演或比賽」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "optionReasons": {
-        "watch-01": "本句是「觀看節目、表演或比賽」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch something 的用法不同。"
+        "watch-01": "留意搭配：Watch something。本項著重「觀看節目、表演或比賽」。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-04": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -875,21 +863,17 @@ export default {
       "options": [
         "watch-02",
         "watch-17",
-        "watch-20",
         "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-15"
       ],
       "explanation": "留意搭配：Observe carefully。本項著重「仔細觀察操作或動靜」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "optionReasons": {
-        "watch-02": "本句是「仔細觀察操作或動靜」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Observe carefully 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Observe carefully 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Observe carefully 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Observe carefully 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Observe carefully 的用法不同。"
+        "watch-02": "留意搭配：Observe carefully。本項著重「仔細觀察操作或動靜」。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。",
+        "watch-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -900,22 +884,18 @@ export default {
       "masked": "我____他如何操作那部機器。",
       "options": [
         "watch-02",
-        "watch-17",
-        "watch-20",
-        "watch-18",
         "watch-16",
-        "watch-05"
+        "watch-15",
+        "watch-10"
       ],
       "explanation": "留意搭配：Observe carefully。本項著重「仔細觀察操作或動靜」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "optionReasons": {
-        "watch-02": "本句是「仔細觀察操作或動靜」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Observe carefully 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Observe carefully 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Observe carefully 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Observe carefully 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Observe carefully 的用法不同。"
+        "watch-02": "留意搭配：Observe carefully。本項著重「仔細觀察操作或動靜」。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -926,22 +906,18 @@ export default {
       "masked": "你可以幫我____一下袋子嗎？",
       "options": [
         "watch-03",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-07",
+        "watch-11",
+        "watch-16"
       ],
       "explanation": "留意搭配：Look after something or someone。本項著重「暫時照看人或物」。",
       "sentenceIndex": 5,
       "sourcePractice": 6,
       "optionReasons": {
-        "watch-03": "本句是「暫時照看人或物」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Look after something or someone 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Look after something or someone 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Look after something or someone 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Look after something or someone 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Look after something or someone 的用法不同。"
+        "watch-03": "留意搭配：Look after something or someone。本項著重「暫時照看人或物」。",
+        "watch-07": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -952,22 +928,18 @@ export default {
       "masked": "孩子的父母不在時，她幫忙____孩子。",
       "options": [
         "watch-03",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-15",
+        "watch-11",
+        "watch-16"
       ],
       "explanation": "留意搭配：Look after something or someone。本項著重「暫時照看人或物」。",
       "sentenceIndex": 6,
       "sourcePractice": 7,
       "optionReasons": {
-        "watch-03": "本句是「暫時照看人或物」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Look after something or someone 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Look after something or someone 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Look after something or someone 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Look after something or someone 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Look after something or someone 的用法不同。"
+        "watch-03": "留意搭配：Look after something or someone。本項著重「暫時照看人或物」。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -978,22 +950,18 @@ export default {
       "masked": "我們正在____情況。",
       "options": [
         "watch-04",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-01",
+        "watch-05",
+        "watch-18"
       ],
       "explanation": "留意搭配：Monitor something。本項著重「持續監察形勢或數據」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "optionReasons": {
-        "watch-04": "本句是「持續監察形勢或數據」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Monitor something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Monitor something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Monitor something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Monitor something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Monitor something 的用法不同。"
+        "watch-04": "留意搭配：Monitor something。本項著重「持續監察形勢或數據」。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1004,22 +972,18 @@ export default {
       "masked": "投資者正在____市場。",
       "options": [
         "watch-04",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-11",
+        "watch-07",
+        "watch-01"
       ],
       "explanation": "留意搭配：Monitor something。本項著重「持續監察形勢或數據」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "optionReasons": {
-        "watch-04": "本句是「持續監察形勢或數據」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Monitor something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Monitor something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Monitor something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Monitor something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Monitor something 的用法不同。"
+        "watch-04": "留意搭配：Monitor something。本項著重「持續監察形勢或數據」。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-07": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1030,22 +994,18 @@ export default {
       "masked": "____。",
       "options": [
         "watch-05",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-01"
+        "watch-19",
+        "watch-01",
+        "watch-16"
       ],
       "explanation": "留意搭配：Watch your…。本項著重「小心自己的動作或言語」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "optionReasons": {
-        "watch-05": "本句是「小心自己的動作或言語」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch your… 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch your… 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch your… 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch your… 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch your… 的用法不同。"
+        "watch-05": "留意搭配：Watch your…。本項著重「小心自己的動作或言語」。",
+        "watch-19": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1056,22 +1016,18 @@ export default {
       "masked": "在客戶面前，你應該____自己說的話。",
       "options": [
         "watch-05",
-        "watch-17",
+        "watch-08",
         "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-01"
+        "watch-10"
       ],
       "explanation": "留意搭配：Watch your…。本項著重「小心自己的動作或言語」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "optionReasons": {
-        "watch-05": "本句是「小心自己的動作或言語」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch your… 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch your… 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch your… 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch your… 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch your… 的用法不同。"
+        "watch-05": "留意搭配：Watch your…。本項著重「小心自己的動作或言語」。",
+        "watch-08": "請比較這個意思與句子中標示的用法。",
+        "watch-20": "請比較這個意思與句子中標示的用法。",
+        "watch-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1082,22 +1038,18 @@ export default {
       "masked": "請____送貨司機有沒有到。",
       "options": [
         "watch-06",
-        "watch-17",
         "watch-20",
         "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-15"
       ],
       "explanation": "留意搭配：Watch for something。本項著重「留意是否有人到來或跡象出現」。",
       "sentenceIndex": 11,
       "sourcePractice": 12,
       "optionReasons": {
-        "watch-06": "本句是「留意是否有人到來或跡象出現」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch for something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch for something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch for something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch for something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch for something 的用法不同。"
+        "watch-06": "留意搭配：Watch for something。本項著重「留意是否有人到來或跡象出現」。",
+        "watch-20": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。",
+        "watch-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1108,22 +1060,18 @@ export default {
       "masked": "請____是否有漏水跡象。",
       "options": [
         "watch-06",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-05",
+        "watch-01",
+        "watch-17"
       ],
       "explanation": "留意搭配：Watch for something。本項著重「留意是否有人到來或跡象出現」。",
       "sentenceIndex": 12,
       "sourcePractice": 13,
       "optionReasons": {
-        "watch-06": "本句是「留意是否有人到來或跡象出現」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch for something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch for something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch for something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch for something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch for something 的用法不同。"
+        "watch-06": "留意搭配：Watch for something。本項著重「留意是否有人到來或跡象出現」。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1134,22 +1082,18 @@ export default {
       "masked": "____！ 有車過來。",
       "options": [
         "watch-07",
+        "watch-19",
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-01"
+        "watch-16"
       ],
       "explanation": "留意搭配：Watch out!。本項著重「警告別人當心危險」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "optionReasons": {
-        "watch-07": "本句是「警告別人當心危險」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch out! 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch out! 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch out! 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch out! 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch out! 的用法不同。"
+        "watch-07": "留意搭配：Watch out!。本項著重「警告別人當心危險」。",
+        "watch-19": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1160,22 +1104,18 @@ export default {
       "masked": "____濕滑的地板。",
       "options": [
         "watch-07",
-        "watch-17",
         "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-01"
+        "watch-14",
+        "watch-11"
       ],
       "explanation": "留意搭配：Watch out!。本項著重「警告別人當心危險」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "optionReasons": {
-        "watch-07": "本句是「警告別人當心危險」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch out! 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch out! 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch out! 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch out! 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch out! 的用法不同。"
+        "watch-07": "留意搭配：Watch out!。本項著重「警告別人當心危險」。",
+        "watch-20": "請比較這個意思與句子中標示的用法。",
+        "watch-14": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1187,21 +1127,17 @@ export default {
       "options": [
         "watch-08",
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-11",
+        "watch-01"
       ],
       "explanation": "留意搭配：Watch over someone/something。本項著重「守護或照顧人與場所」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "optionReasons": {
-        "watch-08": "本句是「守護或照顧人與場所」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch over someone/something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch over someone/something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch over someone/something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch over someone/something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch over someone/something 的用法不同。"
+        "watch-08": "留意搭配：Watch over someone/something。本項著重「守護或照顧人與場所」。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1212,22 +1148,18 @@ export default {
       "masked": "她留下來____生病的母親。",
       "options": [
         "watch-08",
-        "watch-17",
-        "watch-20",
-        "watch-18",
         "watch-16",
-        "watch-05"
+        "watch-11",
+        "watch-17"
       ],
       "explanation": "留意搭配：Watch over someone/something。本項著重「守護或照顧人與場所」。",
       "sentenceIndex": 16,
       "sourcePractice": 17,
       "optionReasons": {
-        "watch-08": "本句是「守護或照顧人與場所」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch over someone/something 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch over someone/something 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch over someone/something 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch over someone/something 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch over someone/something 的用法不同。"
+        "watch-08": "留意搭配：Watch over someone/something。本項著重「守護或照顧人與場所」。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1238,22 +1170,18 @@ export default {
       "masked": "一名警衛在入口處____。",
       "options": [
         "watch-09",
-        "watch-17",
-        "watch-20",
-        "watch-18",
         "watch-16",
-        "watch-05"
+        "watch-15",
+        "watch-17"
       ],
       "explanation": "留意搭配：Keep watch。本項著重「看守或監察現場」。",
       "sentenceIndex": 17,
       "sourcePractice": 18,
       "optionReasons": {
-        "watch-09": "本句是「看守或監察現場」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Keep watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Keep watch 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Keep watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Keep watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Keep watch 的用法不同。"
+        "watch-09": "留意搭配：Keep watch。本項著重「看守或監察現場」。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1264,22 +1192,18 @@ export default {
       "masked": "維修期間應該有人負責____。",
       "options": [
         "watch-09",
-        "watch-17",
-        "watch-20",
-        "watch-18",
+        "watch-05",
         "watch-16",
-        "watch-05"
+        "watch-17"
       ],
       "explanation": "留意搭配：Keep watch。本項著重「看守或監察現場」。",
       "sentenceIndex": 18,
       "sourcePractice": 19,
       "optionReasons": {
-        "watch-09": "本句是「看守或監察現場」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Keep watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Keep watch 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Keep watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Keep watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Keep watch 的用法不同。"
+        "watch-09": "留意搭配：Keep watch。本項著重「看守或監察現場」。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1290,22 +1214,18 @@ export default {
       "masked": "今晚有兩名保安員____。",
       "options": [
         "watch-10",
+        "watch-21",
         "watch-17",
-        "watch-20",
-        "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-16"
       ],
       "explanation": "留意搭配：On watch。本項著重「正在當值看守」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "optionReasons": {
-        "watch-10": "本句是「正在當值看守」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 On watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 On watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 On watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 On watch 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 On watch 的用法不同。"
+        "watch-10": "留意搭配：On watch。本項著重「正在當值看守」。",
+        "watch-21": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1316,22 +1236,18 @@ export default {
       "masked": "警報響起時，他正在____。",
       "options": [
         "watch-10",
-        "watch-17",
-        "watch-20",
+        "watch-21",
         "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-17"
       ],
       "explanation": "留意搭配：On watch。本項著重「正在當值看守」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "optionReasons": {
-        "watch-10": "本句是「正在當值看守」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 On watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 On watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 On watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 On watch 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 On watch 的用法不同。"
+        "watch-10": "留意搭配：On watch。本項著重「正在當值看守」。",
+        "watch-21": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1342,22 +1258,18 @@ export default {
       "masked": "____，就不會讓未經授權的訪客進入。",
       "options": [
         "watch-11",
+        "watch-07",
         "watch-17",
-        "watch-20",
-        "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-06"
       ],
       "explanation": "留意搭配：On my watch。本項著重「在自己負責的期間」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "optionReasons": {
-        "watch-11": "本句是「在自己負責的期間」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 On my watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 On my watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 On my watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 On my watch 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 On my watch 的用法不同。"
+        "watch-11": "留意搭配：On my watch。本項著重「在自己負責的期間」。",
+        "watch-07": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-06": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1368,22 +1280,18 @@ export default {
       "masked": "____，絕不會讓這種安全違規事件發生。",
       "options": [
         "watch-11",
-        "watch-17",
-        "watch-20",
-        "watch-16",
-        "watch-05",
+        "watch-14",
+        "watch-07",
         "watch-01"
       ],
       "explanation": "留意搭配：On my watch。本項著重「在自己負責的期間」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "optionReasons": {
-        "watch-11": "本句是「在自己負責的期間」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 On my watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 On my watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 On my watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 On my watch 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 On my watch 的用法不同。"
+        "watch-11": "留意搭配：On my watch。本項著重「在自己負責的期間」。",
+        "watch-14": "請比較這個意思與句子中標示的用法。",
+        "watch-07": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1396,20 +1304,16 @@ export default {
         "watch-12",
         "watch-17",
         "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-07"
       ],
       "explanation": "留意搭配：Under watch。本項著重「處於被監視的狀態」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "optionReasons": {
-        "watch-12": "本句是「處於被監視的狀態」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Under watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Under watch 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Under watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Under watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Under watch 的用法不同。"
+        "watch-12": "留意搭配：Under watch。本項著重「處於被監視的狀態」。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-20": "請比較這個意思與句子中標示的用法。",
+        "watch-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1420,22 +1324,18 @@ export default {
       "masked": "受損區域整晚都會____。",
       "options": [
         "watch-12",
-        "watch-17",
-        "watch-20",
+        "watch-15",
         "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-20"
       ],
       "explanation": "留意搭配：Under watch。本項著重「處於被監視的狀態」。",
       "sentenceIndex": 24,
       "sourcePractice": 25,
       "optionReasons": {
-        "watch-12": "本句是「處於被監視的狀態」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Under watch 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Under watch 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Under watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Under watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Under watch 的用法不同。"
+        "watch-12": "留意搭配：Under watch。本項著重「處於被監視的狀態」。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。",
+        "watch-20": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1446,22 +1346,18 @@ export default {
       "masked": "請____水位。",
       "options": [
         "watch-13",
-        "watch-17",
-        "watch-20",
+        "watch-15",
         "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-16"
       ],
       "explanation": "留意搭配：Keep a close watch on。本項著重「密切監察特定對象」。",
       "sentenceIndex": 25,
       "sourcePractice": 26,
       "optionReasons": {
-        "watch-13": "本句是「密切監察特定對象」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Keep a close watch on 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Keep a close watch on 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Keep a close watch on 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Keep a close watch on 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Keep a close watch on 的用法不同。"
+        "watch-13": "留意搭配：Keep a close watch on。本項著重「密切監察特定對象」。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1472,22 +1368,18 @@ export default {
       "masked": "管理層正____情況。",
       "options": [
         "watch-13",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-11",
+        "watch-01",
+        "watch-16"
       ],
       "explanation": "留意搭配：Keep a close watch on。本項著重「密切監察特定對象」。",
       "sentenceIndex": 26,
       "sourcePractice": 27,
       "optionReasons": {
-        "watch-13": "本句是「密切監察特定對象」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Keep a close watch on 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Keep a close watch on 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Keep a close watch on 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Keep a close watch on 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Keep a close watch on 的用法不同。"
+        "watch-13": "留意搭配：Keep a close watch on。本項著重「密切監察特定對象」。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1498,22 +1390,18 @@ export default {
       "masked": "我們____。",
       "options": [
         "watch-14",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-05",
-        "watch-01"
+        "watch-11",
+        "watch-07",
+        "watch-17"
       ],
       "explanation": "留意搭配：Watch and see / wait and see。本項著重「觀望事情如何發展」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "optionReasons": {
-        "watch-14": "本句是「觀望事情如何發展」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch and see / wait and see 的用法不同。"
+        "watch-14": "留意搭配：Watch and see / wait and see。本項著重「觀望事情如何發展」。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-07": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1524,22 +1412,18 @@ export default {
       "masked": "我們會____。",
       "options": [
         "watch-14",
+        "watch-15",
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-05",
-        "watch-01"
+        "watch-10"
       ],
       "explanation": "留意搭配：Watch and see / wait and see。本項著重「觀望事情如何發展」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "optionReasons": {
-        "watch-14": "本句是「觀望事情如何發展」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch and see / wait and see 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch and see / wait and see 的用法不同。"
+        "watch-14": "留意搭配：Watch and see / wait and see。本項著重「觀望事情如何發展」。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1550,22 +1434,18 @@ export default {
       "masked": "____！ 你差點撞到我。",
       "options": [
         "watch-15",
+        "watch-11",
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-01"
+        "watch-08"
       ],
       "explanation": "留意搭配：Watch it!。本項著重「警告對方行為或說話小心一點」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "optionReasons": {
-        "watch-15": "本句是「警告對方行為或說話小心一點」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch it! 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch it! 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch it! 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch it! 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch it! 的用法不同。"
+        "watch-15": "留意搭配：Watch it!。本項著重「警告對方行為或說話小心一點」。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1576,22 +1456,18 @@ export default {
       "masked": "跟客戶說話時要____。",
       "options": [
         "watch-15",
-        "watch-17",
-        "watch-20",
+        "watch-09",
         "watch-18",
-        "watch-16",
         "watch-01"
       ],
       "explanation": "留意搭配：Watch it!。本項著重「警告對方行為或說話小心一點」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "optionReasons": {
-        "watch-15": "本句是「警告對方行為或說話小心一點」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch it! 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch it! 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch it! 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watch it! 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch it! 的用法不同。"
+        "watch-15": "留意搭配：Watch it!。本項著重「警告對方行為或說話小心一點」。",
+        "watch-09": "請比較這個意思與句子中標示的用法。",
+        "watch-18": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1602,22 +1478,18 @@ export default {
       "masked": "我們很快會公布新服務 —— ____。",
       "options": [
         "watch-16",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-05",
-        "watch-01"
+        "watch-02",
+        "watch-11",
+        "watch-17"
       ],
       "explanation": "留意搭配：Watch this space。本項著重「留意即將公布的消息」。",
       "sentenceIndex": 31,
       "sourcePractice": 32,
       "optionReasons": {
-        "watch-16": "本句是「留意即將公布的消息」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch this space 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch this space 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch this space 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch this space 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch this space 的用法不同。"
+        "watch-16": "留意搭配：Watch this space。本項著重「留意即將公布的消息」。",
+        "watch-02": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1628,22 +1500,18 @@ export default {
       "masked": "下星期會公布更多詳情，請____。",
       "options": [
         "watch-16",
+        "watch-10",
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-05",
-        "watch-01"
+        "watch-02"
       ],
       "explanation": "留意搭配：Watch this space。本項著重「留意即將公布的消息」。",
       "sentenceIndex": 32,
       "sourcePractice": 33,
       "optionReasons": {
-        "watch-16": "本句是「留意即將公布的消息」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watch this space 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watch this space 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watch this space 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watch this space 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watch this space 的用法不同。"
+        "watch-16": "留意搭配：Watch this space。本項著重「留意即將公布的消息」。",
+        "watch-10": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-02": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1654,22 +1522,18 @@ export default {
       "masked": "他看了一下____。",
       "options": [
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-01",
+        "watch-09",
+        "watch-11"
       ],
       "explanation": "留意搭配：A watch。本項著重「佩戴在手上的計時器（手錶）」。",
       "sentenceIndex": 33,
       "sourcePractice": 34,
       "optionReasons": {
-        "watch-17": "本句是「佩戴在手上的計時器（手錶）」的用法。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 A watch 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 A watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 A watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 A watch 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 A watch 的用法不同。"
+        "watch-17": "留意搭配：A watch。本項著重「佩戴在手上的計時器（手錶）」。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-09": "請比較這個意思與句子中標示的用法。",
+        "watch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1680,22 +1544,18 @@ export default {
       "masked": "她生日收到了一隻新的____。",
       "options": [
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
         "watch-05",
-        "watch-01"
+        "watch-02",
+        "watch-16"
       ],
       "explanation": "留意搭配：A watch。本項著重「佩戴在手上的計時器（手錶）」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "optionReasons": {
-        "watch-17": "本句是「佩戴在手上的計時器（手錶）」的用法。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 A watch 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 A watch 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 A watch 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 A watch 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 A watch 的用法不同。"
+        "watch-17": "留意搭配：A watch。本項著重「佩戴在手上的計時器（手錶）」。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-02": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1706,22 +1566,18 @@ export default {
       "masked": "他的____在午夜開始。",
       "options": [
         "watch-18",
-        "watch-17",
-        "watch-20",
-        "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-01",
+        "watch-04",
+        "watch-15"
       ],
       "explanation": "a watch 可指一段值班時間；night watch 也可指負責該時段的當值人員。這裡不是手錶。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "optionReasons": {
-        "watch-18": "本句是「一段守衛值班時間；當值人員」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 A watch / period of watch duty 的用法不同。"
+        "watch-18": "a watch 可指一段值班時間；night watch 也可指負責該時段的當值人員。這裡不是手錶。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-04": "請比較這個意思與句子中標示的用法。",
+        "watch-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1732,22 +1588,18 @@ export default {
       "masked": "____報告了異常活動。",
       "options": [
         "watch-18",
-        "watch-17",
-        "watch-20",
-        "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-14",
+        "watch-01",
+        "watch-15"
       ],
       "explanation": "a watch 可指一段值班時間；night watch 也可指負責該時段的當值人員。這裡不是手錶。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "optionReasons": {
-        "watch-18": "本句是「一段守衛值班時間；當值人員」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 A watch / period of watch duty 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 A watch / period of watch duty 的用法不同。"
+        "watch-18": "a watch 可指一段值班時間；night watch 也可指負責該時段的當值人員。這裡不是手錶。",
+        "watch-14": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1758,22 +1610,18 @@ export default {
       "masked": "家人在他的床邊____。",
       "options": [
         "watch-19",
-        "watch-17",
+        "watch-07",
         "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-17"
       ],
       "explanation": "留意搭配：A watch / vigil。本項著重「守夜或持續守候」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "optionReasons": {
-        "watch-19": "本句是「守夜或持續守候」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 A watch / vigil 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 A watch / vigil 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 A watch / vigil 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 A watch / vigil 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 A watch / vigil 的用法不同。"
+        "watch-19": "留意搭配：A watch / vigil。本項著重「守夜或持續守候」。",
+        "watch-07": "請比較這個意思與句子中標示的用法。",
+        "watch-20": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1784,22 +1632,18 @@ export default {
       "masked": "他們____該物業。",
       "options": [
         "watch-19",
+        "watch-05",
         "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-05"
+        "watch-16"
       ],
       "explanation": "留意搭配：A watch / vigil。本項著重「守夜或持續守候」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "optionReasons": {
-        "watch-19": "本句是「守夜或持續守候」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 A watch / vigil 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 A watch / vigil 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 A watch / vigil 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 A watch / vigil 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 A watch / vigil 的用法不同。"
+        "watch-19": "留意搭配：A watch / vigil。本項著重「守夜或持續守候」。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1810,22 +1654,18 @@ export default {
       "masked": "他是一位熱衷的____。",
       "options": [
         "watch-20",
-        "watch-17",
-        "watch-18",
-        "watch-16",
-        "watch-05",
-        "watch-01"
+        "watch-15",
+        "watch-19",
+        "watch-16"
       ],
       "explanation": "留意搭配：Watcher。本項著重「觀察者或觀看者」。",
       "sentenceIndex": 39,
       "sourcePractice": 40,
       "optionReasons": {
-        "watch-20": "本句是「觀察者或觀看者」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watcher 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watcher 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watcher 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watcher 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watcher 的用法不同。"
+        "watch-20": "留意搭配：Watcher。本項著重「觀察者或觀看者」。",
+        "watch-15": "請比較這個意思與句子中標示的用法。",
+        "watch-19": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1836,22 +1676,18 @@ export default {
       "masked": "____預期價格會保持穩定。",
       "options": [
         "watch-20",
-        "watch-17",
-        "watch-18",
-        "watch-16",
         "watch-05",
-        "watch-01"
+        "watch-17",
+        "watch-06"
       ],
       "explanation": "留意搭配：Watcher。本項著重「觀察者或觀看者」。",
       "sentenceIndex": 40,
       "sourcePractice": 41,
       "optionReasons": {
-        "watch-20": "本句是「觀察者或觀看者」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watcher 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watcher 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watcher 的用法不同。",
-        "watch-05": "「小心自己的動作或言語」適用於 Watch your…，與本句 Watcher 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watcher 的用法不同。"
+        "watch-20": "留意搭配：Watcher。本項著重「觀察者或觀看者」。",
+        "watch-05": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。",
+        "watch-06": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1862,22 +1698,18 @@ export default {
       "masked": "保安人員在整個活動期間一直保持____。",
       "options": [
         "watch-21",
-        "watch-17",
-        "watch-20",
-        "watch-18",
-        "watch-16",
-        "watch-01"
+        "watch-10",
+        "watch-01",
+        "watch-17"
       ],
       "explanation": "留意搭配：Watchful。本項著重「保持警覺的」。",
       "sentenceIndex": 41,
       "sourcePractice": 42,
       "optionReasons": {
-        "watch-21": "本句是「保持警覺的」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watchful 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watchful 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watchful 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watchful 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watchful 的用法不同。"
+        "watch-21": "留意搭配：Watchful。本項著重「保持警覺的」。",
+        "watch-10": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。",
+        "watch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1888,9 +1720,7 @@ export default {
       "masked": "家長在游泳池附近需要保持____。",
       "options": [
         "watch-21",
-        "watch-17",
-        "watch-20",
-        "watch-18",
+        "watch-10",
         "watch-16",
         "watch-01"
       ],
@@ -1898,12 +1728,10 @@ export default {
       "sentenceIndex": 42,
       "sourcePractice": 43,
       "optionReasons": {
-        "watch-21": "本句是「保持警覺的」的用法。",
-        "watch-17": "「佩戴在手上的計時器（手錶）」適用於 A watch，與本句 Watchful 的用法不同。",
-        "watch-20": "「觀察者或觀看者」適用於 Watcher，與本句 Watchful 的用法不同。",
-        "watch-18": "「一段守衛值班時間；當值人員」適用於 A watch / period of watch duty，與本句 Watchful 的用法不同。",
-        "watch-16": "「留意即將公布的消息」適用於 Watch this space，與本句 Watchful 的用法不同。",
-        "watch-01": "「觀看節目、表演或比賽」適用於 Watch something，與本句 Watchful 的用法不同。"
+        "watch-21": "留意搭配：Watchful。本項著重「保持警覺的」。",
+        "watch-10": "請比較這個意思與句子中標示的用法。",
+        "watch-16": "請比較這個意思與句子中標示的用法。",
+        "watch-01": "請比較這個意思與句子中標示的用法。"
       }
     }
   ],
@@ -1911,5 +1739,7 @@ export default {
     "file": "Polysemy exercise_Watch_(4).pdf",
     "sha256": "030debff844d414a7418eee653755dc296c0f98d474aae75cb15921f0c0bd8ba",
     "path": "manuals/watch.pdf"
-  }
+  },
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

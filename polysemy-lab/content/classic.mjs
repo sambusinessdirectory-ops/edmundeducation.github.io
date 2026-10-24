@@ -210,7 +210,7 @@ export default {
     },
     {
       "id": "classic-mcq-11",
-      "title": "表示經典的；古典的",
+      "title": "經典的；古典的",
       "form": "classical = established older scientific model（科學） — 經典的；古典的",
       "en": "classical = established older scientific model（科學） — 經典的；古典的",
       "zh": "表示經典的；古典的",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "classic-mcq-13",
-      "title": "表示典型例子／案例",
+      "title": "典型例子／案例",
       "form": "Useful expression: classic example/case — 典型例子／案例",
       "en": "Useful expression: classic example/case — 典型例子／案例",
       "zh": "表示典型例子／案例",
@@ -296,11 +296,8 @@ export default {
       "masked": "The book has become a modern ____.",
       "options": [
         "classic-mcq-01",
-        "classic-mcq-02",
-        "classic-mcq-03",
-        "classic-mcq-04",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-07",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
       "sentenceIndex": 0,
@@ -309,12 +306,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-01": "本句指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-01": "本句的「classic」指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
+        "classic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-01"
     },
@@ -326,11 +320,8 @@ export default {
       "masked": "The novel is regarded as a ____ of English literature.",
       "options": [
         "classic-mcq-01",
-        "classic-mcq-02",
-        "classic-mcq-03",
-        "classic-mcq-04",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-07",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
       "sentenceIndex": 1,
@@ -339,12 +330,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-01": "本句指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-01": "本句的「classic」指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
+        "classic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-01"
     },
@@ -356,11 +344,8 @@ export default {
       "masked": "The film became a cult ____.",
       "options": [
         "classic-mcq-01",
-        "classic-mcq-02",
-        "classic-mcq-03",
-        "classic-mcq-04",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-07",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
       "sentenceIndex": 2,
@@ -369,12 +354,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-01": "本句指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-01": "本句的「classic」指「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」。",
+        "classic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-01"
     },
@@ -386,11 +368,7 @@ export default {
       "masked": "That is a ____ example of poor communication.",
       "options": [
         "classic-mcq-02",
-        "classic-mcq-01",
-        "classic-mcq-03",
-        "classic-mcq-04",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-07"
       ],
       "explanation": "本句的「classic」指「非常能代表某一類型特徵的典型例子／情況」。",
       "sentenceIndex": 3,
@@ -399,12 +377,8 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-02": "本句指「非常能代表某一類型特徵的典型例子／情況」。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-02": "本句的「classic」指「非常能代表某一類型特徵的典型例子／情況」。",
+        "classic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-02"
     },
@@ -416,11 +390,7 @@ export default {
       "masked": "The building has a ____ design.",
       "options": [
         "classic-mcq-02",
-        "classic-mcq-01",
-        "classic-mcq-03",
-        "classic-mcq-04",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-08"
       ],
       "explanation": "本句的「classic」指「非常能代表某一類型特徵的典型例子／情況」。",
       "sentenceIndex": 4,
@@ -429,12 +399,8 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-02": "本句指「非常能代表某一類型特徵的典型例子／情況」。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-02": "本句的「classic」指「非常能代表某一類型特徵的典型例子／情況」。",
+        "classic-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-02"
     },
@@ -446,11 +412,7 @@ export default {
       "masked": "She wore a ____ black dress.",
       "options": [
         "classic-mcq-03",
-        "classic-mcq-02",
-        "classic-mcq-04",
-        "classic-mcq-01",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「傳統、耐看、不容易過時，長期被視為有代表性的」。",
       "sentenceIndex": 5,
@@ -459,12 +421,8 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-03": "本句指「傳統、耐看、不容易過時，長期被視為有代表性的」。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-03": "本句的「classic」指「傳統、耐看、不容易過時，長期被視為有代表性的」。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-03"
     },
@@ -476,11 +434,7 @@ export default {
       "masked": "The room combines modern furniture with ____ details.",
       "options": [
         "classic-mcq-03",
-        "classic-mcq-02",
-        "classic-mcq-04",
-        "classic-mcq-01",
-        "classic-mcq-05",
-        "classic-mcq-06"
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「傳統、耐看、不容易過時，長期被視為有代表性的」。",
       "sentenceIndex": 6,
@@ -489,12 +443,8 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-03": "本句指「傳統、耐看、不容易過時，長期被視為有代表性的」。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。"
+        "classic-mcq-03": "本句的「classic」指「傳統、耐看、不容易過時，長期被視為有代表性的」。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-03"
     },
@@ -506,11 +456,8 @@ export default {
       "masked": "That was a ____ mistake.",
       "options": [
         "classic-pdf-001",
-        "classic-mcq-03",
-        "classic-mcq-05",
-        "classic-mcq-02",
-        "classic-mcq-06",
-        "classic-mcq-01"
+        "classic-mcq-13",
+        "classic-mcq-10"
       ],
       "explanation": "本句的「classic」指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
       "sentenceIndex": 7,
@@ -519,12 +466,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-pdf-001": "本句指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。"
+        "classic-pdf-001": "本句的「classic」指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-pdf-001"
     },
@@ -536,11 +480,8 @@ export default {
       "masked": "It was a ____ case of misunderstanding.",
       "options": [
         "classic-pdf-001",
-        "classic-mcq-03",
-        "classic-mcq-05",
-        "classic-mcq-02",
-        "classic-mcq-06",
-        "classic-mcq-01"
+        "classic-mcq-10",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
       "sentenceIndex": 8,
@@ -549,12 +490,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-pdf-001": "本句指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。"
+        "classic-pdf-001": "本句的「classic」指「某種情況極具代表性，幾乎是一看就知道屬於那一類的」。",
+        "classic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-pdf-001"
     },
@@ -566,11 +504,8 @@ export default {
       "masked": "That comment was an absolute ____.",
       "options": [
         "classic-mcq-04",
-        "classic-mcq-03",
-        "classic-mcq-05",
-        "classic-mcq-02",
-        "classic-mcq-06",
-        "classic-mcq-01"
+        "classic-mcq-08",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「非常精彩、難忘或具有代表性的事物；與」。",
       "sentenceIndex": 9,
@@ -579,12 +514,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-04": "本句指「非常精彩、難忘或具有代表性的事物；與」。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。"
+        "classic-mcq-04": "本句的「classic」指「非常精彩、難忘或具有代表性的事物；與」。",
+        "classic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-04"
     },
@@ -596,11 +528,8 @@ export default {
       "masked": "The match was a ____.",
       "options": [
         "classic-mcq-04",
-        "classic-mcq-03",
-        "classic-mcq-05",
-        "classic-mcq-02",
-        "classic-mcq-06",
-        "classic-mcq-01"
+        "classic-mcq-07",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「非常精彩、難忘或具有代表性的事物；與」。",
       "sentenceIndex": 10,
@@ -609,12 +538,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-04": "本句指「非常精彩、難忘或具有代表性的事物；與」。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-02": "「非常能代表某一類型特徵的典型例子／情況」是「classic — typical example」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-01": "「長期受到廣泛肯定、具有持久價值和代表性的作品；經典」是「classic — enduring work」的用法，與本句語境不同。"
+        "classic-mcq-04": "本句的「classic」指「非常精彩、難忘或具有代表性的事物；與」。",
+        "classic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-04"
     },
@@ -626,11 +552,7 @@ export default {
       "masked": "I ordered the ____ burger.",
       "options": [
         "classic-mcq-06",
-        "classic-mcq-05",
-        "classic-mcq-07",
-        "classic-mcq-04",
-        "classic-mcq-08",
-        "classic-mcq-03"
+        "classic-mcq-11"
       ],
       "explanation": "本句的「classic」指「某產品、設計或款式的傳統、基本或最具代表性版本」。",
       "sentenceIndex": 11,
@@ -639,12 +561,8 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-06": "本句指「某產品、設計或款式的傳統、基本或最具代表性版本」。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-07": "「與古希臘、古羅馬文明及其傳統有關的」是「classical — Greek/Roman」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。"
+        "classic-mcq-06": "本句的「classic」指「某產品、設計或款式的傳統、基本或最具代表性版本」。",
+        "classic-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-06"
     },
@@ -656,11 +574,7 @@ export default {
       "masked": "The company brought back its ____ design.",
       "options": [
         "classic-mcq-06",
-        "classic-mcq-05",
-        "classic-mcq-07",
-        "classic-mcq-04",
-        "classic-mcq-08",
-        "classic-mcq-03"
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「某產品、設計或款式的傳統、基本或最具代表性版本」。",
       "sentenceIndex": 12,
@@ -669,12 +583,8 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-06": "本句指「某產品、設計或款式的傳統、基本或最具代表性版本」。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-07": "「與古希臘、古羅馬文明及其傳統有關的」是「classical — Greek/Roman」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。",
-        "classic-mcq-03": "「傳統、耐看、不容易過時，長期被視為有代表性的」是「classic — timeless style」的用法，與本句語境不同。"
+        "classic-mcq-06": "本句的「classic」指「某產品、設計或款式的傳統、基本或最具代表性版本」。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-06"
     },
@@ -686,11 +596,7 @@ export default {
       "masked": "She studied ____ history.",
       "options": [
         "classic-mcq-07",
-        "classic-mcq-06",
-        "classic-mcq-08",
-        "classic-mcq-05",
-        "classic-mcq-09",
-        "classic-mcq-04"
+        "classic-mcq-02"
       ],
       "explanation": "本句的「classical」指「與古希臘、古羅馬文明及其傳統有關的」。",
       "sentenceIndex": 13,
@@ -699,12 +605,8 @@ export default {
         "classical"
       ],
       "optionReasons": {
-        "classic-mcq-07": "本句指「與古希臘、古羅馬文明及其傳統有關的」。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。"
+        "classic-mcq-07": "本句的「classical」指「與古希臘、古羅馬文明及其傳統有關的」。",
+        "classic-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-07"
     },
@@ -716,11 +618,8 @@ export default {
       "masked": "The building was influenced by ____ architecture.",
       "options": [
         "classic-mcq-07",
-        "classic-mcq-06",
-        "classic-mcq-08",
-        "classic-mcq-05",
-        "classic-mcq-09",
-        "classic-mcq-04"
+        "classic-mcq-04",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classical」指「與古希臘、古羅馬文明及其傳統有關的」。",
       "sentenceIndex": 14,
@@ -729,12 +628,9 @@ export default {
         "classical"
       ],
       "optionReasons": {
-        "classic-mcq-07": "本句指「與古希臘、古羅馬文明及其傳統有關的」。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-04": "「非常精彩、難忘或具有代表性的事物；與」是「a classic — memorable/outstanding thing」的用法，與本句語境不同。"
+        "classic-mcq-07": "本句的「classical」指「與古希臘、古羅馬文明及其傳統有關的」。",
+        "classic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-07"
     },
@@ -746,11 +642,8 @@ export default {
       "masked": "He listens to ____ music.",
       "options": [
         "classic-mcq-08",
-        "classic-mcq-07",
-        "classic-mcq-09",
-        "classic-mcq-06",
-        "classic-mcq-10",
-        "classic-mcq-05"
+        "classic-mcq-13",
+        "classic-mcq-04"
       ],
       "explanation": "本句的「classical」指「屬於歷史悠久、正式而規範的傳統藝術形式」。",
       "sentenceIndex": 15,
@@ -759,12 +652,9 @@ export default {
         "classical"
       ],
       "optionReasons": {
-        "classic-mcq-08": "本句指「屬於歷史悠久、正式而規範的傳統藝術形式」。",
-        "classic-mcq-07": "「與古希臘、古羅馬文明及其傳統有關的」是「classical — Greek/Roman」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-10": "「以古典／正統傳統體系或風格的方式」是「classically」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。"
+        "classic-mcq-08": "本句的「classical」指「屬於歷史悠久、正式而規範的傳統藝術形式」。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-08"
     },
@@ -776,11 +666,7 @@ export default {
       "masked": "She trained in ____ ballet.",
       "options": [
         "classic-mcq-08",
-        "classic-mcq-07",
-        "classic-mcq-09",
-        "classic-mcq-06",
-        "classic-mcq-10",
-        "classic-mcq-05"
+        "classic-mcq-02"
       ],
       "explanation": "本句的「classical」指「屬於歷史悠久、正式而規範的傳統藝術形式」。",
       "sentenceIndex": 16,
@@ -789,12 +675,8 @@ export default {
         "classical"
       ],
       "optionReasons": {
-        "classic-mcq-08": "本句指「屬於歷史悠久、正式而規範的傳統藝術形式」。",
-        "classic-mcq-07": "「與古希臘、古羅馬文明及其傳統有關的」是「classical — Greek/Roman」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-06": "「某產品、設計或款式的傳統、基本或最具代表性版本」是「classic — standard/traditional version」的用法，與本句語境不同。",
-        "classic-mcq-10": "「以古典／正統傳統體系或風格的方式」是「classically」的用法，與本句語境不同。",
-        "classic-mcq-05": "「義相關」是「enduring/example」的用法，與本句語境不同。"
+        "classic-mcq-08": "本句的「classical」指「屬於歷史悠久、正式而規範的傳統藝術形式」。",
+        "classic-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-08"
     },
@@ -806,10 +688,7 @@ export default {
       "masked": "The course begins with ____.",
       "options": [
         "classic-mcq-11",
-        "classic-mcq-10",
         "classic-mcq-12",
-        "classic-mcq-09",
-        "classic-mcq-13",
         "classic-mcq-08"
       ],
       "explanation": "本句的「classical mechanics」指「表示經典的；古典的」。",
@@ -819,12 +698,9 @@ export default {
         "classical mechanics"
       ],
       "optionReasons": {
-        "classic-mcq-11": "本句指「表示經典的；古典的」。",
-        "classic-mcq-10": "「以古典／正統傳統體系或風格的方式」是「classically」的用法，與本句語境不同。",
-        "classic-mcq-12": "「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」是「Useful expression: a modern classic — 現代經典」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-13": "「表示典型例子／案例」是「Useful expression: classic example/case — 典型例子／案例」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。"
+        "classic-mcq-11": "本句的「classical mechanics」指「表示經典的；古典的」。",
+        "classic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-11"
     },
@@ -836,11 +712,8 @@ export default {
       "masked": "The building is ____ proportioned.",
       "options": [
         "classic-mcq-10",
-        "classic-mcq-09",
-        "classic-mcq-11",
-        "classic-mcq-08",
-        "classic-mcq-12",
-        "classic-mcq-07"
+        "classic-mcq-04",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classically」指「以古典／正統傳統體系或風格的方式」。",
       "sentenceIndex": 18,
@@ -849,12 +722,9 @@ export default {
         "classically"
       ],
       "optionReasons": {
-        "classic-mcq-10": "本句指「以古典／正統傳統體系或風格的方式」。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-11": "「表示經典的；古典的」是「classical = established older scientific model（科學） — 經典的；古典的」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。",
-        "classic-mcq-12": "「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」是「Useful expression: a modern classic — 現代經典」的用法，與本句語境不同。",
-        "classic-mcq-07": "「與古希臘、古羅馬文明及其傳統有關的」是「classical — Greek/Roman」的用法，與本句語境不同。"
+        "classic-mcq-10": "本句的「classically」指「以古典／正統傳統體系或風格的方式」。",
+        "classic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-10"
     },
@@ -866,11 +736,8 @@ export default {
       "masked": "She is ____ trained.",
       "options": [
         "classic-mcq-10",
-        "classic-mcq-09",
-        "classic-mcq-11",
-        "classic-mcq-08",
         "classic-mcq-12",
-        "classic-mcq-07"
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classically」指「以古典／正統傳統體系或風格的方式」。",
       "sentenceIndex": 19,
@@ -879,12 +746,9 @@ export default {
         "classically"
       ],
       "optionReasons": {
-        "classic-mcq-10": "本句指「以古典／正統傳統體系或風格的方式」。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-11": "「表示經典的；古典的」是「classical = established older scientific model（科學） — 經典的；古典的」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。",
-        "classic-mcq-12": "「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」是「Useful expression: a modern classic — 現代經典」的用法，與本句語境不同。",
-        "classic-mcq-07": "「與古希臘、古羅馬文明及其傳統有關的」是「classical — Greek/Roman」的用法，與本句語境不同。"
+        "classic-mcq-10": "本句的「classically」指「以古典／正統傳統體系或風格的方式」。",
+        "classic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-10"
     },
@@ -896,11 +760,8 @@ export default {
       "masked": "The film is now considered a modern ____.",
       "options": [
         "classic-mcq-12",
-        "classic-mcq-11",
         "classic-mcq-13",
-        "classic-mcq-10",
-        "classic-mcq-09",
-        "classic-mcq-08"
+        "classic-mcq-10"
       ],
       "explanation": "本句的「classic」指「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」。",
       "sentenceIndex": 20,
@@ -909,12 +770,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-12": "本句指「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」。",
-        "classic-mcq-11": "「表示經典的；古典的」是「classical = established older scientific model（科學） — 經典的；古典的」的用法，與本句語境不同。",
-        "classic-mcq-13": "「表示典型例子／案例」是「Useful expression: classic example/case — 典型例子／案例」的用法，與本句語境不同。",
-        "classic-mcq-10": "「以古典／正統傳統體系或風格的方式」是「classically」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。"
+        "classic-mcq-12": "本句的「classic」指「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-12"
     },
@@ -926,11 +784,8 @@ export default {
       "masked": "Many readers regard the novel as a modern ____.",
       "options": [
         "classic-mcq-12",
-        "classic-mcq-11",
-        "classic-mcq-13",
-        "classic-mcq-10",
-        "classic-mcq-09",
-        "classic-mcq-08"
+        "classic-mcq-07",
+        "classic-mcq-13"
       ],
       "explanation": "本句的「classic」指「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」。",
       "sentenceIndex": 21,
@@ -939,12 +794,9 @@ export default {
         "classic"
       ],
       "optionReasons": {
-        "classic-mcq-12": "本句指「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」。",
-        "classic-mcq-11": "「表示經典的；古典的」是「classical = established older scientific model（科學） — 經典的；古典的」的用法，與本句語境不同。",
-        "classic-mcq-13": "「表示典型例子／案例」是「Useful expression: classic example/case — 典型例子／案例」的用法，與本句語境不同。",
-        "classic-mcq-10": "「以古典／正統傳統體系或風格的方式」是「classically」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。"
+        "classic-mcq-12": "本句的「classic」指「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」。",
+        "classic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "classic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-12"
     },
@@ -956,11 +808,7 @@ export default {
       "masked": "This is a ____ of how small errors can grow.",
       "options": [
         "classic-mcq-13",
-        "classic-mcq-12",
-        "classic-mcq-11",
-        "classic-mcq-10",
-        "classic-mcq-09",
-        "classic-mcq-08"
+        "classic-mcq-03"
       ],
       "explanation": "本句的「classic example」指「表示典型例子／案例」。",
       "sentenceIndex": 22,
@@ -969,12 +817,8 @@ export default {
         "classic example"
       ],
       "optionReasons": {
-        "classic-mcq-13": "本句指「表示典型例子／案例」。",
-        "classic-mcq-12": "「年代相對較近，但已被廣泛認為具有長久價值和代表性的作品」是「Useful expression: a modern classic — 現代經典」的用法，與本句語境不同。",
-        "classic-mcq-11": "「表示經典的；古典的」是「classical = established older scientific model（科學） — 經典的；古典的」的用法，與本句語境不同。",
-        "classic-mcq-10": "「以古典／正統傳統體系或風格的方式」是「classically」的用法，與本句語境不同。",
-        "classic-mcq-09": "「屬於某領域較早、基礎或傳統理論體系的」是「classical — scientific/academic」的用法，與本句語境不同。",
-        "classic-mcq-08": "「屬於歷史悠久、正式而規範的傳統藝術形式」是「classical — art/music」的用法，與本句語境不同。"
+        "classic-mcq-13": "本句的「classic example」指「表示典型例子／案例」。",
+        "classic-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "classic-mcq-13"
     }
@@ -986,5 +830,7 @@ export default {
     "sha256": "cc75c76cb34d15349d4898b091067aabaf888c434bceecda88b29de340a2a365",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -454,11 +454,9 @@ export default {
       "masked": "I need a ____ of the document.",
       "options": [
         "single-mcq-01",
-        "single-mcq-02",
-        "single-mcq-03",
-        "single-mcq-04",
-        "single-mcq-05",
-        "single-mcq-06"
+        "single-mcq-20",
+        "single-mcq-19",
+        "single-mcq-12"
       ],
       "explanation": "本句的「single copy」指「只有一個的；單一的」。",
       "sentenceIndex": 2,
@@ -467,12 +465,10 @@ export default {
         "single copy"
       ],
       "optionReasons": {
-        "single-mcq-01": "本句指「只有一個的；單一的」。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-01": "本句的「single copy」指「只有一個的；單一的」。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-01"
     },
@@ -484,11 +480,9 @@ export default {
       "masked": "Not a ____ complained.",
       "options": [
         "single-mcq-01",
-        "single-mcq-02",
         "single-mcq-03",
-        "single-mcq-04",
-        "single-mcq-05",
-        "single-mcq-06"
+        "single-mcq-20",
+        "single-mcq-19"
       ],
       "explanation": "本句的「single person」指「只有一個的；單一的」。",
       "sentenceIndex": 3,
@@ -497,12 +491,10 @@ export default {
         "single person"
       ],
       "optionReasons": {
-        "single-mcq-01": "本句指「只有一個的；單一的」。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-01": "本句的「single person」指「只有一個的；單一的」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-01"
     },
@@ -514,11 +506,9 @@ export default {
       "masked": "She ate a ____.",
       "options": [
         "single-mcq-02",
-        "single-mcq-01",
         "single-mcq-03",
-        "single-mcq-04",
-        "single-mcq-05",
-        "single-mcq-06"
+        "single-mcq-17",
+        "single-mcq-12"
       ],
       "explanation": "本句的「single cookie」指「一個單獨的某人／某物」。",
       "sentenceIndex": 4,
@@ -527,12 +517,10 @@ export default {
         "single cookie"
       ],
       "optionReasons": {
-        "single-mcq-02": "本句指「一個單獨的某人／某物」。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-02": "本句的「single cookie」指「一個單獨的某人／某物」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-02"
     },
@@ -544,11 +532,9 @@ export default {
       "masked": "We did not receive a ____ that morning.",
       "options": [
         "single-mcq-02",
-        "single-mcq-01",
         "single-mcq-03",
         "single-mcq-04",
-        "single-mcq-05",
-        "single-mcq-06"
+        "single-mcq-17"
       ],
       "explanation": "本句的「single order」指「一個單獨的某人／某物」。",
       "sentenceIndex": 5,
@@ -557,12 +543,10 @@ export default {
         "single order"
       ],
       "optionReasons": {
-        "single-mcq-02": "本句指「一個單獨的某人／某物」。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-02": "本句的「single order」指「一個單獨的某人／某物」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-02"
     },
@@ -574,11 +558,9 @@ export default {
       "masked": "I checked ____.",
       "options": [
         "single-mcq-03",
-        "single-mcq-02",
-        "single-mcq-04",
-        "single-mcq-01",
-        "single-mcq-05",
-        "single-mcq-06"
+        "single-mcq-16",
+        "single-mcq-17",
+        "single-mcq-14"
       ],
       "explanation": "本句的「every single order」指「強調每一個／每一次都毫無例外」。",
       "sentenceIndex": 6,
@@ -587,12 +569,10 @@ export default {
         "every single order"
       ],
       "optionReasons": {
-        "single-mcq-03": "本句指「強調每一個／每一次都毫無例外」。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-03": "本句的「every single order」指「強調每一個／每一次都毫無例外」。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-03"
     },
@@ -604,11 +584,9 @@ export default {
       "masked": "She remembers ____.",
       "options": [
         "single-mcq-03",
-        "single-mcq-02",
-        "single-mcq-04",
-        "single-mcq-01",
-        "single-mcq-05",
-        "single-mcq-06"
+        "single-mcq-19",
+        "single-mcq-12",
+        "single-mcq-11"
       ],
       "explanation": "本句的「every single detail」指「強調每一個／每一次都毫無例外」。",
       "sentenceIndex": 7,
@@ -617,12 +595,10 @@ export default {
         "every single detail"
       ],
       "optionReasons": {
-        "single-mcq-03": "本句指「強調每一個／每一次都毫無例外」。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-03": "本句的「every single detail」指「強調每一個／每一次都毫無例外」。",
+        "single-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-03"
     },
@@ -634,11 +610,9 @@ export default {
       "masked": "There was ____.",
       "options": [
         "single-mcq-04",
-        "single-mcq-03",
-        "single-mcq-05",
-        "single-mcq-02",
-        "single-mcq-06",
-        "single-mcq-01"
+        "single-mcq-07",
+        "single-mcq-15",
+        "single-mcq-09"
       ],
       "explanation": "本句的「not a single mistake」指「連一個也沒有」。",
       "sentenceIndex": 8,
@@ -647,12 +621,10 @@ export default {
         "not a single mistake"
       ],
       "optionReasons": {
-        "single-mcq-04": "本句指「連一個也沒有」。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。"
+        "single-mcq-04": "本句的「not a single mistake」指「連一個也沒有」。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-04"
     },
@@ -664,11 +636,9 @@ export default {
       "masked": "Not a ____ complained.",
       "options": [
         "single-mcq-04",
-        "single-mcq-03",
-        "single-mcq-05",
-        "single-mcq-02",
-        "single-mcq-06",
-        "single-mcq-01"
+        "single-mcq-09",
+        "single-mcq-12",
+        "single-mcq-17"
       ],
       "explanation": "本句的「single customer」指「連一個也沒有」。",
       "sentenceIndex": 9,
@@ -677,12 +647,10 @@ export default {
         "single customer"
       ],
       "optionReasons": {
-        "single-mcq-04": "本句指「連一個也沒有」。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。"
+        "single-mcq-04": "本句的「single customer」指「連一個也沒有」。",
+        "single-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-04"
     },
@@ -694,11 +662,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "single-mcq-05",
-        "single-mcq-04",
-        "single-mcq-06",
         "single-mcq-03",
-        "single-mcq-07",
-        "single-mcq-02"
+        "single-mcq-12",
+        "single-mcq-17"
       ],
       "explanation": "本句的「single」指「未婚或目前沒有伴侶的；單身的」。",
       "sentenceIndex": 10,
@@ -707,12 +673,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-05": "本句指「未婚或目前沒有伴侶的；單身的」。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。"
+        "single-mcq-05": "本句的「single」指「未婚或目前沒有伴侶的；單身的」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-05"
     },
@@ -724,11 +688,9 @@ export default {
       "masked": "He has been ____ for two years.",
       "options": [
         "single-mcq-05",
-        "single-mcq-04",
-        "single-mcq-06",
         "single-mcq-03",
-        "single-mcq-07",
-        "single-mcq-02"
+        "single-mcq-16",
+        "single-mcq-12"
       ],
       "explanation": "本句的「single」指「未婚或目前沒有伴侶的；單身的」。",
       "sentenceIndex": 11,
@@ -737,12 +699,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-05": "本句指「未婚或目前沒有伴侶的；單身的」。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。"
+        "single-mcq-05": "本句的「single」指「未婚或目前沒有伴侶的；單身的」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-05"
     },
@@ -754,11 +714,9 @@ export default {
       "masked": "The event is popular with ____.",
       "options": [
         "single-mcq-06",
-        "single-mcq-05",
-        "single-mcq-07",
-        "single-mcq-04",
-        "single-mcq-08",
-        "single-mcq-03"
+        "single-mcq-17",
+        "single-mcq-20",
+        "single-mcq-04"
       ],
       "explanation": "本句的「single people」指「單身人士」。",
       "sentenceIndex": 12,
@@ -767,12 +725,10 @@ export default {
         "single people"
       ],
       "optionReasons": {
-        "single-mcq-06": "本句指「單身人士」。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。"
+        "single-mcq-06": "本句的「single people」指「單身人士」。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-06"
     },
@@ -784,11 +740,9 @@ export default {
       "masked": "Housing costs can be difficult for a ____.",
       "options": [
         "single-mcq-06",
-        "single-mcq-05",
-        "single-mcq-07",
-        "single-mcq-04",
-        "single-mcq-08",
-        "single-mcq-03"
+        "single-mcq-17",
+        "single-mcq-03",
+        "single-mcq-20"
       ],
       "explanation": "本句的「single person」指「單身人士」。",
       "sentenceIndex": 13,
@@ -797,12 +751,10 @@ export default {
         "single person"
       ],
       "optionReasons": {
-        "single-mcq-06": "本句指「單身人士」。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。"
+        "single-mcq-06": "本句的「single person」指「單身人士」。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-06"
     },
@@ -814,11 +766,9 @@ export default {
       "masked": "I booked a ____.",
       "options": [
         "single-mcq-07",
-        "single-mcq-06",
-        "single-mcq-08",
-        "single-mcq-05",
-        "single-mcq-09",
-        "single-mcq-04"
+        "single-mcq-03",
+        "single-mcq-19",
+        "single-mcq-20"
       ],
       "explanation": "本句的「single room」指「供一人入住的單人房」。",
       "sentenceIndex": 14,
@@ -827,12 +777,10 @@ export default {
         "single room"
       ],
       "optionReasons": {
-        "single-mcq-07": "本句指「供一人入住的單人房」。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。"
+        "single-mcq-07": "本句的「single room」指「供一人入住的單人房」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-07"
     },
@@ -844,11 +792,9 @@ export default {
       "masked": "The hotel has both ____ and double rooms.",
       "options": [
         "single-mcq-07",
-        "single-mcq-06",
-        "single-mcq-08",
-        "single-mcq-05",
-        "single-mcq-09",
-        "single-mcq-04"
+        "single-mcq-20",
+        "single-mcq-17",
+        "single-mcq-15"
       ],
       "explanation": "本句的「single」指「供一人入住的單人房」。",
       "sentenceIndex": 15,
@@ -857,12 +803,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-07": "本句指「供一人入住的單人房」。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。",
-        "single-mcq-04": "「連一個也沒有」與本句語境不同。"
+        "single-mcq-07": "本句的「single」指「供一人入住的單人房」。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-07"
     },
@@ -874,11 +818,9 @@ export default {
       "masked": "The room has a ____.",
       "options": [
         "single-mcq-08",
-        "single-mcq-07",
-        "single-mcq-09",
-        "single-mcq-06",
-        "single-mcq-10",
-        "single-mcq-05"
+        "single-mcq-15",
+        "single-mcq-16",
+        "single-mcq-12"
       ],
       "explanation": "本句的「single bed」指「供一人睡的單人床」。",
       "sentenceIndex": 16,
@@ -887,12 +829,10 @@ export default {
         "single bed"
       ],
       "optionReasons": {
-        "single-mcq-08": "本句指「供一人睡的單人床」。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。"
+        "single-mcq-08": "本句的「single bed」指「供一人睡的單人床」。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-08"
     },
@@ -904,11 +844,9 @@ export default {
       "masked": "She bought a new ____.",
       "options": [
         "single-mcq-08",
-        "single-mcq-07",
-        "single-mcq-09",
-        "single-mcq-06",
-        "single-mcq-10",
-        "single-mcq-05"
+        "single-mcq-04",
+        "single-mcq-12",
+        "single-mcq-15"
       ],
       "explanation": "本句的「single bed」指「供一人睡的單人床」。",
       "sentenceIndex": 17,
@@ -917,12 +855,10 @@ export default {
         "single bed"
       ],
       "optionReasons": {
-        "single-mcq-08": "本句指「供一人睡的單人床」。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。"
+        "single-mcq-08": "本句的「single bed」指「供一人睡的單人床」。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-08"
     },
@@ -934,11 +870,9 @@ export default {
       "masked": "I’d like a ____ to Oxford.",
       "options": [
         "single-mcq-09",
-        "single-mcq-08",
-        "single-mcq-10",
-        "single-mcq-07",
-        "single-mcq-11",
-        "single-mcq-06"
+        "single-mcq-20",
+        "single-mcq-03",
+        "single-mcq-16"
       ],
       "explanation": "本句的「single」指「單程票，尤其英式英語」。",
       "sentenceIndex": 18,
@@ -947,12 +881,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-09": "本句指「單程票，尤其英式英語」。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-09": "本句的「single」指「單程票，尤其英式英語」。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-09"
     },
@@ -964,11 +896,9 @@ export default {
       "masked": "A ____ costs less than a return.",
       "options": [
         "single-mcq-09",
-        "single-mcq-08",
-        "single-mcq-10",
-        "single-mcq-07",
-        "single-mcq-11",
-        "single-mcq-06"
+        "single-mcq-20",
+        "single-mcq-16",
+        "single-mcq-15"
       ],
       "explanation": "本句的「single ticket」指「單程票，尤其英式英語」。",
       "sentenceIndex": 19,
@@ -977,12 +907,10 @@ export default {
         "single ticket"
       ],
       "optionReasons": {
-        "single-mcq-09": "本句指「單程票，尤其英式英語」。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-07": "「供一人入住的單人房」與本句語境不同。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。"
+        "single-mcq-09": "本句的「single ticket」指「單程票，尤其英式英語」。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-09"
     },
@@ -994,11 +922,9 @@ export default {
       "masked": "This song was the album’s ____.",
       "options": [
         "single-mcq-11",
-        "single-mcq-10",
-        "single-mcq-12",
-        "single-mcq-09",
-        "single-mcq-13",
-        "single-mcq-08"
+        "single-mcq-17",
+        "single-mcq-04",
+        "single-mcq-16"
       ],
       "explanation": "本句的「lead single」指「用來主力宣傳專輯的主打單曲」。",
       "sentenceIndex": 22,
@@ -1007,12 +933,10 @@ export default {
         "lead single"
       ],
       "optionReasons": {
-        "single-mcq-11": "本句指「用來主力宣傳專輯的主打單曲」。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。"
+        "single-mcq-11": "本句的「lead single」指「用來主力宣傳專輯的主打單曲」。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-11"
     },
@@ -1024,11 +948,9 @@ export default {
       "masked": "The ____ became a major hit.",
       "options": [
         "single-mcq-11",
-        "single-mcq-10",
-        "single-mcq-12",
-        "single-mcq-09",
-        "single-mcq-13",
-        "single-mcq-08"
+        "single-mcq-03",
+        "single-mcq-04",
+        "single-mcq-17"
       ],
       "explanation": "本句的「lead single」指「用來主力宣傳專輯的主打單曲」。",
       "sentenceIndex": 23,
@@ -1037,12 +959,10 @@ export default {
         "lead single"
       ],
       "optionReasons": {
-        "single-mcq-11": "本句指「用來主力宣傳專輯的主打單曲」。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-08": "「供一人睡的單人床」與本句語境不同。"
+        "single-mcq-11": "本句的「lead single」指「用來主力宣傳專輯的主打單曲」。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-11"
     },
@@ -1054,11 +974,9 @@ export default {
       "masked": "He hit a ____ to left field.",
       "options": [
         "single-mcq-12",
-        "single-mcq-11",
-        "single-mcq-13",
-        "single-mcq-10",
-        "single-mcq-14",
-        "single-mcq-09"
+        "single-mcq-18",
+        "single-mcq-09",
+        "single-mcq-03"
       ],
       "explanation": "本句的「single」指「讓打者安全到達一壘的一壘安打」。",
       "sentenceIndex": 24,
@@ -1067,12 +985,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-12": "本句指「讓打者安全到達一壘的一壘安打」。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。"
+        "single-mcq-12": "本句的「single」指「讓打者安全到達一壘的一壘安打」。",
+        "single-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-12"
     },
@@ -1084,11 +1000,9 @@ export default {
       "masked": "The inning began with a ____.",
       "options": [
         "single-mcq-12",
-        "single-mcq-11",
-        "single-mcq-13",
-        "single-mcq-10",
-        "single-mcq-14",
-        "single-mcq-09"
+        "single-mcq-09",
+        "single-mcq-19",
+        "single-mcq-07"
       ],
       "explanation": "本句的「single」指「讓打者安全到達一壘的一壘安打」。",
       "sentenceIndex": 25,
@@ -1097,12 +1011,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-12": "本句指「讓打者安全到達一壘的一壘安打」。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-09": "「單程票，尤其英式英語」與本句語境不同。"
+        "single-mcq-12": "本句的「single」指「讓打者安全到達一壘的一壘安打」。",
+        "single-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-12"
     },
@@ -1114,11 +1026,9 @@ export default {
       "masked": "The product can be bought as a ____ or in a pack.",
       "options": [
         "single-mcq-13",
-        "single-mcq-12",
-        "single-mcq-14",
-        "single-mcq-11",
-        "single-mcq-15",
-        "single-mcq-10"
+        "single-mcq-17",
+        "single-mcq-04",
+        "single-mcq-12"
       ],
       "explanation": "本句的「single」指「一件／一個單獨出售或處理的單位」。",
       "sentenceIndex": 26,
@@ -1127,12 +1037,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-13": "本句指「一件／一個單獨出售或處理的單位」。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。"
+        "single-mcq-13": "本句的「single」指「一件／一個單獨出售或處理的單位」。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-13"
     },
@@ -1144,11 +1052,9 @@ export default {
       "masked": "Each ____ is wrapped separately.",
       "options": [
         "single-mcq-13",
-        "single-mcq-12",
-        "single-mcq-14",
-        "single-mcq-11",
-        "single-mcq-15",
-        "single-mcq-10"
+        "single-mcq-17",
+        "single-mcq-04",
+        "single-mcq-12"
       ],
       "explanation": "本句的「single」指「一件／一個單獨出售或處理的單位」。",
       "sentenceIndex": 27,
@@ -1157,12 +1063,10 @@ export default {
         "single"
       ],
       "optionReasons": {
-        "single-mcq-13": "本句指「一件／一個單獨出售或處理的單位」。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-10": "「獨立發行的一首歌曲；單曲」與本句語境不同。"
+        "single-mcq-13": "本句的「single」指「一件／一個單獨出售或處理的單位」。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-13"
     },
@@ -1174,11 +1078,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "single-mcq-14",
-        "single-mcq-13",
-        "single-mcq-15",
-        "single-mcq-12",
+        "single-mcq-20",
         "single-mcq-16",
-        "single-mcq-11"
+        "single-mcq-17"
       ],
       "explanation": "本句的「single-user license」指「供單一使用者使用的」。",
       "sentenceIndex": 28,
@@ -1187,12 +1089,10 @@ export default {
         "single-user license"
       ],
       "optionReasons": {
-        "single-mcq-14": "本句指「供單一使用者使用的」。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。"
+        "single-mcq-14": "本句的「single-user license」指「供單一使用者使用的」。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-14"
     },
@@ -1204,11 +1104,9 @@ export default {
       "masked": "The software supports both ____ and multi-user modes.",
       "options": [
         "single-mcq-14",
-        "single-mcq-13",
         "single-mcq-15",
-        "single-mcq-12",
-        "single-mcq-16",
-        "single-mcq-11"
+        "single-mcq-20",
+        "single-mcq-16"
       ],
       "explanation": "本句的「single-user」指「供單一使用者使用的」。",
       "sentenceIndex": 29,
@@ -1217,12 +1115,10 @@ export default {
         "single-user"
       ],
       "optionReasons": {
-        "single-mcq-14": "本句指「供單一使用者使用的」。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-11": "「用來主力宣傳專輯的主打單曲」與本句語境不同。"
+        "single-mcq-14": "本句的「single-user」指「供單一使用者使用的」。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-14"
     },
@@ -1234,11 +1130,9 @@ export default {
       "masked": "The café is reducing ____.",
       "options": [
         "single-mcq-15",
-        "single-mcq-14",
-        "single-mcq-16",
         "single-mcq-13",
-        "single-mcq-17",
-        "single-mcq-12"
+        "single-mcq-09",
+        "single-mcq-16"
       ],
       "explanation": "本句的「single-use plastics」指「只設計使用一次的；一次性的」。",
       "sentenceIndex": 30,
@@ -1247,12 +1141,10 @@ export default {
         "single-use plastics"
       ],
       "optionReasons": {
-        "single-mcq-15": "本句指「只設計使用一次的；一次性的」。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。"
+        "single-mcq-15": "本句的「single-use plastics」指「只設計使用一次的；一次性的」。",
+        "single-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-15"
     },
@@ -1264,11 +1156,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "single-mcq-15",
-        "single-mcq-14",
-        "single-mcq-16",
-        "single-mcq-13",
-        "single-mcq-17",
-        "single-mcq-12"
+        "single-mcq-08",
+        "single-mcq-11",
+        "single-mcq-05"
       ],
       "explanation": "本句的「single-use container」指「只設計使用一次的；一次性的」。",
       "sentenceIndex": 31,
@@ -1277,12 +1167,10 @@ export default {
         "single-use container"
       ],
       "optionReasons": {
-        "single-mcq-15": "本句指「只設計使用一次的；一次性的」。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-12": "「讓打者安全到達一壘的一壘安打」與本句語境不同。"
+        "single-mcq-15": "本句的「single-use container」指「只設計使用一次的；一次性的」。",
+        "single-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-15"
     },
@@ -1294,11 +1182,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "single-mcq-16",
-        "single-mcq-15",
-        "single-mcq-17",
-        "single-mcq-14",
-        "single-mcq-18",
-        "single-mcq-13"
+        "single-mcq-11",
+        "single-mcq-08",
+        "single-mcq-18"
       ],
       "explanation": "本句的「singled her out for praise」指「從一群中挑出某人／某物給予特別注意」。",
       "sentenceIndex": 32,
@@ -1307,12 +1193,10 @@ export default {
         "singled her out for praise"
       ],
       "optionReasons": {
-        "single-mcq-16": "本句指「從一群中挑出某人／某物給予特別注意」。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。"
+        "single-mcq-16": "本句的「singled her out for praise」指「從一群中挑出某人／某物給予特別注意」。",
+        "single-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-16"
     },
@@ -1324,11 +1208,9 @@ export default {
       "masked": "He felt he had been ____.",
       "options": [
         "single-mcq-16",
-        "single-mcq-15",
-        "single-mcq-17",
         "single-mcq-14",
-        "single-mcq-18",
-        "single-mcq-13"
+        "single-mcq-17",
+        "single-mcq-15"
       ],
       "explanation": "本句的「singled out for criticism」指「從一群中挑出某人／某物給予特別注意」。",
       "sentenceIndex": 33,
@@ -1337,12 +1219,10 @@ export default {
         "singled out for criticism"
       ],
       "optionReasons": {
-        "single-mcq-16": "本句指「從一群中挑出某人／某物給予特別注意」。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-13": "「一件／一個單獨出售或處理的單位」與本句語境不同。"
+        "single-mcq-16": "本句的「singled out for criticism」指「從一群中挑出某人／某物給予特別注意」。",
+        "single-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-16"
     },
@@ -1354,11 +1234,9 @@ export default {
       "masked": "The items were wrapped ____.",
       "options": [
         "single-mcq-17",
-        "single-mcq-16",
-        "single-mcq-18",
         "single-mcq-15",
-        "single-mcq-19",
-        "single-mcq-14"
+        "single-mcq-20",
+        "single-mcq-07"
       ],
       "explanation": "本句的「singly」指「一個接一個／逐一地」。",
       "sentenceIndex": 34,
@@ -1367,12 +1245,10 @@ export default {
         "singly"
       ],
       "optionReasons": {
-        "single-mcq-17": "本句指「一個接一個／逐一地」。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-19": "「沒有他人幫助地；獨力完成」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。"
+        "single-mcq-17": "本句的「singly」指「一個接一個／逐一地」。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-17"
     },
@@ -1384,11 +1260,9 @@ export default {
       "masked": "The participants entered ____.",
       "options": [
         "single-mcq-17",
-        "single-mcq-16",
-        "single-mcq-18",
-        "single-mcq-15",
-        "single-mcq-19",
-        "single-mcq-14"
+        "single-mcq-04",
+        "single-mcq-07",
+        "single-mcq-11"
       ],
       "explanation": "本句的「singly」指「一個接一個／逐一地」。",
       "sentenceIndex": 35,
@@ -1397,12 +1271,10 @@ export default {
         "singly"
       ],
       "optionReasons": {
-        "single-mcq-17": "本句指「一個接一個／逐一地」。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。",
-        "single-mcq-19": "「沒有他人幫助地；獨力完成」與本句語境不同。",
-        "single-mcq-14": "「供單一使用者使用的」與本句語境不同。"
+        "single-mcq-17": "本句的「singly」指「一個接一個／逐一地」。",
+        "single-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-17"
     },
@@ -1414,11 +1286,9 @@ export default {
       "masked": "She enjoys her ____.",
       "options": [
         "single-mcq-18",
+        "single-mcq-15",
         "single-mcq-17",
-        "single-mcq-19",
-        "single-mcq-16",
-        "single-mcq-20",
-        "single-mcq-15"
+        "single-mcq-20"
       ],
       "explanation": "本句的「singleness」指「單身狀態」。",
       "sentenceIndex": 36,
@@ -1427,12 +1297,10 @@ export default {
         "singleness"
       ],
       "optionReasons": {
-        "single-mcq-18": "本句指「單身狀態」。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-19": "「沒有他人幫助地；獨力完成」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-20": "「對一個目標極度專注、一心一意的」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。"
+        "single-mcq-18": "本句的「singleness」指「單身狀態」。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-18"
     },
@@ -1444,11 +1312,9 @@ export default {
       "masked": "The article discusses marriage and ____.",
       "options": [
         "single-mcq-18",
-        "single-mcq-17",
+        "single-mcq-12",
         "single-mcq-19",
-        "single-mcq-16",
-        "single-mcq-20",
-        "single-mcq-15"
+        "single-mcq-17"
       ],
       "explanation": "本句的「singleness」指「單身狀態」。",
       "sentenceIndex": 37,
@@ -1457,12 +1323,10 @@ export default {
         "singleness"
       ],
       "optionReasons": {
-        "single-mcq-18": "本句指「單身狀態」。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-19": "「沒有他人幫助地；獨力完成」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-20": "「對一個目標極度專注、一心一意的」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。"
+        "single-mcq-18": "本句的「singleness」指「單身狀態」。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-18"
     },
@@ -1474,11 +1338,9 @@ export default {
       "masked": "____ was damaged.",
       "options": [
         "single-mcq-04",
-        "single-mcq-03",
-        "single-mcq-05",
-        "single-mcq-02",
-        "single-mcq-06",
-        "single-mcq-01"
+        "single-mcq-07",
+        "single-mcq-20",
+        "single-mcq-18"
       ],
       "explanation": "本句的「Not a single one」指「連一個也沒有」。",
       "sentenceIndex": 40,
@@ -1487,12 +1349,10 @@ export default {
         "Not a single one"
       ],
       "optionReasons": {
-        "single-mcq-04": "本句指「連一個也沒有」。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。"
+        "single-mcq-04": "本句的「Not a single one」指「連一個也沒有」。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-04"
     },
@@ -1504,11 +1364,9 @@ export default {
       "masked": "I didn’t recognize ____ of them.",
       "options": [
         "single-mcq-04",
-        "single-mcq-03",
-        "single-mcq-05",
-        "single-mcq-02",
-        "single-mcq-06",
-        "single-mcq-01"
+        "single-mcq-09",
+        "single-mcq-11",
+        "single-mcq-07"
       ],
       "explanation": "本句的「a single one」指「連一個也沒有」。",
       "sentenceIndex": 41,
@@ -1517,12 +1375,10 @@ export default {
         "a single one"
       ],
       "optionReasons": {
-        "single-mcq-04": "本句指「連一個也沒有」。",
-        "single-mcq-03": "「強調每一個／每一次都毫無例外」與本句語境不同。",
-        "single-mcq-05": "「未婚或目前沒有伴侶的；單身的」與本句語境不同。",
-        "single-mcq-02": "「一個單獨的某人／某物」與本句語境不同。",
-        "single-mcq-06": "「單身人士」與本句語境不同。",
-        "single-mcq-01": "「只有一個的；單一的」與本句語境不同。"
+        "single-mcq-04": "本句的「a single one」指「連一個也沒有」。",
+        "single-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-04"
     },
@@ -1534,11 +1390,9 @@ export default {
       "masked": "She ____ ran the stall all day.",
       "options": [
         "single-mcq-19",
-        "single-mcq-18",
-        "single-mcq-20",
         "single-mcq-17",
-        "single-mcq-16",
-        "single-mcq-15"
+        "single-mcq-03",
+        "single-mcq-07"
       ],
       "explanation": "本句的「single-handedly」指「沒有他人幫助地；獨力完成」。",
       "sentenceIndex": 42,
@@ -1547,12 +1401,10 @@ export default {
         "single-handedly"
       ],
       "optionReasons": {
-        "single-mcq-19": "本句指「沒有他人幫助地；獨力完成」。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-20": "「對一個目標極度專注、一心一意的」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。"
+        "single-mcq-19": "本句的「single-handedly」指「沒有他人幫助地；獨力完成」。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-19"
     },
@@ -1564,10 +1416,8 @@ export default {
       "masked": "He almost ____ saved the project.",
       "options": [
         "single-mcq-19",
-        "single-mcq-18",
-        "single-mcq-20",
+        "single-mcq-07",
         "single-mcq-17",
-        "single-mcq-16",
         "single-mcq-15"
       ],
       "explanation": "本句的「single-handedly」指「沒有他人幫助地；獨力完成」。",
@@ -1577,12 +1427,10 @@ export default {
         "single-handedly"
       ],
       "optionReasons": {
-        "single-mcq-19": "本句指「沒有他人幫助地；獨力完成」。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-20": "「對一個目標極度專注、一心一意的」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。"
+        "single-mcq-19": "本句的「single-handedly」指「沒有他人幫助地；獨力完成」。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-19"
     },
@@ -1594,10 +1442,8 @@ export default {
       "masked": "She was ____ about building the business.",
       "options": [
         "single-mcq-20",
-        "single-mcq-19",
+        "single-mcq-07",
         "single-mcq-18",
-        "single-mcq-17",
-        "single-mcq-16",
         "single-mcq-15"
       ],
       "explanation": "本句的「single-minded」指「對一個目標極度專注、一心一意的」。",
@@ -1607,12 +1453,10 @@ export default {
         "single-minded"
       ],
       "optionReasons": {
-        "single-mcq-20": "本句指「對一個目標極度專注、一心一意的」。",
-        "single-mcq-19": "「沒有他人幫助地；獨力完成」與本句語境不同。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。"
+        "single-mcq-20": "本句的「single-minded」指「對一個目標極度專注、一心一意的」。",
+        "single-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-20"
     },
@@ -1624,11 +1468,9 @@ export default {
       "masked": "His ____ impressed everyone.",
       "options": [
         "single-mcq-20",
-        "single-mcq-19",
-        "single-mcq-18",
-        "single-mcq-17",
-        "single-mcq-16",
-        "single-mcq-15"
+        "single-mcq-12",
+        "single-mcq-15",
+        "single-mcq-08"
       ],
       "explanation": "本句的「single-minded determination」指「對一個目標極度專注、一心一意的」。",
       "sentenceIndex": 45,
@@ -1637,12 +1479,10 @@ export default {
         "single-minded determination"
       ],
       "optionReasons": {
-        "single-mcq-20": "本句指「對一個目標極度專注、一心一意的」。",
-        "single-mcq-19": "「沒有他人幫助地；獨力完成」與本句語境不同。",
-        "single-mcq-18": "「單身狀態」與本句語境不同。",
-        "single-mcq-17": "「一個接一個／逐一地」與本句語境不同。",
-        "single-mcq-16": "「從一群中挑出某人／某物給予特別注意」與本句語境不同。",
-        "single-mcq-15": "「只設計使用一次的；一次性的」與本句語境不同。"
+        "single-mcq-20": "本句的「single-minded determination」指「對一個目標極度專注、一心一意的」。",
+        "single-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "single-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "single-mcq-20"
     }
@@ -1654,5 +1494,7 @@ export default {
     "sha256": "5b4412f33c573c59b83f67f0d4090f6c8bb8ff45897906d212178a1123aa2826",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

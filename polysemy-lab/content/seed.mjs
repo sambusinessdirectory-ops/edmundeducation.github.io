@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "seed-mcq-02",
-      "title": "表示種子；例句：「她種下了幾顆花的種子。」",
+      "title": "種子",
       "form": "seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子",
       "en": "seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子",
       "zh": "表示種子；例句：「她種下了幾顆花的種子。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "seed-mcq-03",
-      "title": "表示籽；種子；例句：「把西瓜裡的籽去掉。」",
+      "title": "籽；種子",
       "form": "seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子",
       "en": "seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子",
       "zh": "表示籽；種子；例句：「把西瓜裡的籽去掉。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "seed-mcq-04",
-      "title": "表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」",
+      "title": "萌芽；開端；種子",
       "form": "seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子",
       "en": "seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子",
       "zh": "表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "seed-mcq-05",
-      "title": "表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」",
+      "title": "想法的萌芽；初步構想",
       "form": "seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想",
       "en": "seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想",
       "zh": "表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "seed-mcq-06",
-      "title": "表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」",
+      "title": "改變的種子；變革的萌芽",
       "form": "seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽",
       "en": "seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽",
       "zh": "表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "seed-mcq-07",
-      "title": "表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」",
+      "title": "懷疑的種子；疑念",
       "form": "seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念",
       "en": "seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念",
       "zh": "表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "seed-mcq-08",
-      "title": "表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」",
+      "title": "衝突／麻煩的根源或萌芽",
       "form": "seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽",
       "en": "seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽",
       "zh": "表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "seed-mcq-09",
-      "title": "表示結籽；產生種子；例句：「讓這些花自然結籽。」",
+      "title": "結籽；產生種子",
       "form": "seed — produce seeds = form or release seeds 結籽；產生種子",
       "en": "seed — produce seeds = form or release seeds 結籽；產生種子",
       "zh": "表示結籽；產生種子；例句：「讓這些花自然結籽。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "seed-mcq-10",
-      "title": "表示播種；撒種；例句：「他們在田裡播下草籽。」",
+      "title": "播種；撒種",
       "form": "seed an area = sow seed over an area of land 播種；撒種",
       "en": "seed an area = sow seed over an area of land 播種；撒種",
       "zh": "表示播種；撒種；例句：「他們在田裡播下草籽。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "seed-mcq-11",
-      "title": "表示去籽；例句：「切辣椒前先去籽。」",
+      "title": "去籽",
       "form": "seed a fruit = remove the seeds from fruit 去籽",
       "en": "seed a fruit = remove the seeds from fruit 去籽",
       "zh": "表示去籽；例句：「切辣椒前先去籽。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "seed-mcq-12",
-      "title": "表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」",
+      "title": "種子選手；種子隊",
       "form": "seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊",
       "en": "seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊",
       "zh": "表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "seed-mcq-13",
-      "title": "表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」",
+      "title": "列為種子的；有種子排名的",
       "form": "seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的",
       "en": "seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的",
       "zh": "表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "seed-mcq-14",
-      "title": "表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」",
+      "title": "把……列為種子選手／隊伍",
       "form": "seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍",
       "en": "seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍",
       "zh": "表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "seed-mcq-15",
-      "title": "表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」",
+      "title": "種子值；初始值",
       "form": "seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值",
       "en": "seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值",
       "zh": "表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "seed-mcq-16",
-      "title": "表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」",
+      "title": "初始資料；種子資料",
       "form": "seed data = initial data inserted into a database or system 初始資料；種子資料",
       "en": "seed data = initial data inserted into a database or system 初始資料；種子資料",
       "zh": "表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "seed-mcq-18",
-      "title": "表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」",
+      "title": "種子資金；初期資金",
       "form": "seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金",
       "en": "seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金",
       "zh": "表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "seed-mcq-19",
-      "title": "表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」",
+      "title": "種子投資人；早期投資者",
       "form": "seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者",
       "en": "seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者",
       "zh": "表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "seed-mcq-20",
-      "title": "表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」",
+      "title": "種子；繁殖材料",
       "form": "seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料",
       "en": "seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料",
       "zh": "表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "seed-mcq-21",
-      "title": "表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」",
+      "title": "籽；種子類食物",
       "form": "seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽",
       "en": "seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽",
       "zh": "表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」",
@@ -496,7 +496,7 @@ export default {
     },
     {
       "id": "seed-mcq-23",
-      "title": "表示幼苗；例句：「這些幼苗需要定期澆水。」",
+      "title": "幼苗",
       "form": "seedling = a very young plant grown from a seed 幼苗",
       "en": "seedling = a very young plant grown from a seed 幼苗",
       "zh": "表示幼苗；例句：「這些幼苗需要定期澆水。」",
@@ -518,7 +518,7 @@ export default {
     },
     {
       "id": "seed-mcq-24",
-      "title": "表示無籽的；例句：「這些是無籽葡萄。」",
+      "title": "無籽的",
       "form": "seedless = containing no seeds 無籽的",
       "en": "seedless = containing no seeds 無籽的",
       "zh": "表示無籽的；例句：「這些是無籽葡萄。」",
@@ -562,7 +562,7 @@ export default {
     },
     {
       "id": "seed-mcq-26",
-      "title": "表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」",
+      "title": "播下……的種子；埋下……的伏筆",
       "form": "sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆",
       "en": "sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆",
       "zh": "表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」",
@@ -584,7 +584,7 @@ export default {
     },
     {
       "id": "seed-mcq-27",
-      "title": "表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」",
+      "title": "疑念；懷疑的種子",
       "form": "seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子",
       "en": "seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子",
       "zh": "表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」",
@@ -606,7 +606,7 @@ export default {
     },
     {
       "id": "seed-mcq-28",
-      "title": "表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」",
+      "title": "衰敗；荒廢；變得邋遢",
       "form": "go to seed = become neglected, untidy, or less healthy/attractive than before 衰敗；荒廢；變得邋遢",
       "en": "go to seed = become neglected, untidy, or less healthy/attractive than before 衰敗；荒廢；變得邋遢",
       "zh": "表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」",
@@ -636,11 +636,9 @@ export default {
       "masked": "Her encouragement planted a ____ in me.",
       "options": [
         "seed-mcq-01",
-        "seed-mcq-02",
-        "seed-mcq-03",
-        "seed-mcq-04",
-        "seed-mcq-05",
-        "seed-mcq-06"
+        "seed-mcq-11",
+        "seed-mcq-08",
+        "seed-mcq-17"
       ],
       "explanation": "本句的「seed of confidence」指「種下一個想法／為日後的改變埋下種子」。",
       "sentenceIndex": 0,
@@ -649,12 +647,10 @@ export default {
         "seed of confidence"
       ],
       "optionReasons": {
-        "seed-mcq-01": "本句指「種下一個想法／為日後的改變埋下種子」。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-01": "本句的「seed of confidence」指「種下一個想法／為日後的改變埋下種子」。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-01"
     },
@@ -666,11 +662,9 @@ export default {
       "masked": "That conversation was the ____ that later became a real project.",
       "options": [
         "seed-mcq-01",
-        "seed-mcq-02",
-        "seed-mcq-03",
-        "seed-mcq-04",
-        "seed-mcq-05",
-        "seed-mcq-06"
+        "seed-mcq-24",
+        "seed-mcq-10",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seed of an idea」指「種下一個想法／為日後的改變埋下種子」。",
       "sentenceIndex": 1,
@@ -679,12 +673,10 @@ export default {
         "seed of an idea"
       ],
       "optionReasons": {
-        "seed-mcq-01": "本句指「種下一個想法／為日後的改變埋下種子」。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-01": "本句的「seed of an idea」指「種下一個想法／為日後的改變埋下種子」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-01"
     },
@@ -696,11 +688,9 @@ export default {
       "masked": "She planted several flower ____.",
       "options": [
         "seed-mcq-02",
-        "seed-mcq-01",
-        "seed-mcq-03",
-        "seed-mcq-04",
-        "seed-mcq-05",
-        "seed-mcq-06"
+        "seed-mcq-28",
+        "seed-mcq-17",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seeds」指「表示種子；例句：「她種下了幾顆花的種子。」」。",
       "sentenceIndex": 2,
@@ -709,12 +699,10 @@ export default {
         "seeds"
       ],
       "optionReasons": {
-        "seed-mcq-02": "本句指「表示種子；例句：「她種下了幾顆花的種子。」」。",
-        "seed-mcq-01": "「種下一個想法／為日後的改變埋下種子」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-02": "本句的「seeds」指「表示種子；例句：「她種下了幾顆花的種子。」」。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-02"
     },
@@ -726,11 +714,9 @@ export default {
       "masked": "These ____ need warm soil to grow.",
       "options": [
         "seed-mcq-02",
-        "seed-mcq-01",
-        "seed-mcq-03",
-        "seed-mcq-04",
         "seed-mcq-05",
-        "seed-mcq-06"
+        "seed-mcq-23",
+        "seed-mcq-10"
       ],
       "explanation": "本句的「seeds」指「表示種子；例句：「她種下了幾顆花的種子。」」。",
       "sentenceIndex": 3,
@@ -739,12 +725,10 @@ export default {
         "seeds"
       ],
       "optionReasons": {
-        "seed-mcq-02": "本句指「表示種子；例句：「她種下了幾顆花的種子。」」。",
-        "seed-mcq-01": "「種下一個想法／為日後的改變埋下種子」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-02": "本句的「seeds」指「表示種子；例句：「她種下了幾顆花的種子。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-02"
     },
@@ -756,11 +740,9 @@ export default {
       "masked": "Remove the ____ from the watermelon.",
       "options": [
         "seed-mcq-03",
-        "seed-mcq-02",
-        "seed-mcq-04",
-        "seed-mcq-01",
-        "seed-mcq-05",
-        "seed-mcq-06"
+        "seed-mcq-23",
+        "seed-mcq-08",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seeds」指「表示籽；種子；例句：「把西瓜裡的籽去掉。」」。",
       "sentenceIndex": 4,
@@ -769,12 +751,10 @@ export default {
         "seeds"
       ],
       "optionReasons": {
-        "seed-mcq-03": "本句指「表示籽；種子；例句：「把西瓜裡的籽去掉。」」。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-01": "「種下一個想法／為日後的改變埋下種子」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-03": "本句的「seeds」指「表示籽；種子；例句：「把西瓜裡的籽去掉。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-03"
     },
@@ -786,11 +766,9 @@ export default {
       "masked": "The grapes contain several small ____.",
       "options": [
         "seed-mcq-03",
-        "seed-mcq-02",
-        "seed-mcq-04",
-        "seed-mcq-01",
-        "seed-mcq-05",
-        "seed-mcq-06"
+        "seed-mcq-17",
+        "seed-mcq-10",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seeds」指「表示籽；種子；例句：「把西瓜裡的籽去掉。」」。",
       "sentenceIndex": 5,
@@ -799,12 +777,10 @@ export default {
         "seeds"
       ],
       "optionReasons": {
-        "seed-mcq-03": "本句指「表示籽；種子；例句：「把西瓜裡的籽去掉。」」。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-01": "「種下一個想法／為日後的改變埋下種子」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-03": "本句的「seeds」指「表示籽；種子；例句：「把西瓜裡的籽去掉。」」。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-03"
     },
@@ -816,11 +792,9 @@ export default {
       "masked": "The discussion contained the ____.",
       "options": [
         "seed-mcq-04",
-        "seed-mcq-03",
-        "seed-mcq-05",
-        "seed-mcq-02",
-        "seed-mcq-06",
-        "seed-mcq-01"
+        "seed-mcq-11",
+        "seed-mcq-28",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seed of a solution」指「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」。",
       "sentenceIndex": 6,
@@ -829,12 +803,10 @@ export default {
         "seed of a solution"
       ],
       "optionReasons": {
-        "seed-mcq-04": "本句指「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-01": "「種下一個想法／為日後的改變埋下種子」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。"
+        "seed-mcq-04": "本句的「seed of a solution」指「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-04"
     },
@@ -846,11 +818,9 @@ export default {
       "masked": "That experience was the ____.",
       "options": [
         "seed-mcq-04",
-        "seed-mcq-03",
-        "seed-mcq-05",
-        "seed-mcq-02",
-        "seed-mcq-06",
-        "seed-mcq-01"
+        "seed-mcq-10",
+        "seed-mcq-11",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seed of his interest in science」指「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」。",
       "sentenceIndex": 7,
@@ -859,12 +829,10 @@ export default {
         "seed of his interest in science"
       ],
       "optionReasons": {
-        "seed-mcq-04": "本句指「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-01": "「種下一個想法／為日後的改變埋下種子」是「Passage anchor > “In a way, she planted a seed.」的用法，與本句語境不同。"
+        "seed-mcq-04": "本句的「seed of his interest in science」指「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-04"
     },
@@ -876,11 +844,9 @@ export default {
       "masked": "She already had the ____ for a new book.",
       "options": [
         "seed-mcq-05",
-        "seed-mcq-04",
-        "seed-mcq-06",
-        "seed-mcq-03",
-        "seed-mcq-07",
-        "seed-mcq-02"
+        "seed-mcq-26",
+        "seed-mcq-24",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seed of an idea」指「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」。",
       "sentenceIndex": 8,
@@ -889,12 +855,10 @@ export default {
         "seed of an idea"
       ],
       "optionReasons": {
-        "seed-mcq-05": "本句指「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。"
+        "seed-mcq-05": "本句的「seed of an idea」指「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」。",
+        "seed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-05"
     },
@@ -906,11 +870,9 @@ export default {
       "masked": "The meeting gave me the ____.",
       "options": [
         "seed-mcq-05",
-        "seed-mcq-04",
-        "seed-mcq-06",
-        "seed-mcq-03",
-        "seed-mcq-07",
-        "seed-mcq-02"
+        "seed-mcq-09",
+        "seed-mcq-23",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seed of an idea」指「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」。",
       "sentenceIndex": 9,
@@ -919,12 +881,10 @@ export default {
         "seed of an idea"
       ],
       "optionReasons": {
-        "seed-mcq-05": "本句指「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-02": "「表示種子；例句：「她種下了幾顆花的種子。」」是「seed — a small part of a plant from which a new plant can grow = the reproductive part of a plant that can develop into a new plant 種子」的用法，與本句語境不同。"
+        "seed-mcq-05": "本句的「seed of an idea」指「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」。",
+        "seed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-05"
     },
@@ -936,11 +896,9 @@ export default {
       "masked": "The experience planted the ____.",
       "options": [
         "seed-mcq-06",
-        "seed-mcq-05",
-        "seed-mcq-07",
-        "seed-mcq-04",
-        "seed-mcq-08",
-        "seed-mcq-03"
+        "seed-mcq-24",
+        "seed-mcq-10",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seeds of change」指「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」。",
       "sentenceIndex": 10,
@@ -949,12 +907,10 @@ export default {
         "seeds of change"
       ],
       "optionReasons": {
-        "seed-mcq-06": "本句指「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。"
+        "seed-mcq-06": "本句的「seeds of change」指「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-06"
     },
@@ -966,11 +922,9 @@ export default {
       "masked": "Small reforms can contain the ____.",
       "options": [
         "seed-mcq-06",
-        "seed-mcq-05",
-        "seed-mcq-07",
-        "seed-mcq-04",
-        "seed-mcq-08",
-        "seed-mcq-03"
+        "seed-mcq-23",
+        "seed-mcq-10",
+        "seed-mcq-11"
       ],
       "explanation": "本句的「seeds of larger change」指「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」。",
       "sentenceIndex": 11,
@@ -979,12 +933,10 @@ export default {
         "seeds of larger change"
       ],
       "optionReasons": {
-        "seed-mcq-06": "本句指「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-03": "「表示籽；種子；例句：「把西瓜裡的籽去掉。」」是「seed — the small hard part inside some fruits = a small reproductive structure found inside fruit 籽；種子」的用法，與本句語境不同。"
+        "seed-mcq-06": "本句的「seeds of larger change」指「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-06"
     },
@@ -996,11 +948,9 @@ export default {
       "masked": "His inconsistent answers planted the ____.",
       "options": [
         "seed-mcq-07",
-        "seed-mcq-06",
-        "seed-mcq-08",
-        "seed-mcq-05",
-        "seed-mcq-09",
-        "seed-mcq-04"
+        "seed-mcq-17",
+        "seed-mcq-24",
+        "seed-mcq-05"
       ],
       "explanation": "本句的「seeds of doubt」指「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」。",
       "sentenceIndex": 12,
@@ -1009,12 +959,10 @@ export default {
         "seeds of doubt"
       ],
       "optionReasons": {
-        "seed-mcq-07": "本句指「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。"
+        "seed-mcq-07": "本句的「seeds of doubt」指「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-07"
     },
@@ -1026,11 +974,9 @@ export default {
       "masked": "The report created ____ in her mind.",
       "options": [
         "seed-mcq-07",
-        "seed-mcq-06",
-        "seed-mcq-08",
         "seed-mcq-05",
-        "seed-mcq-09",
-        "seed-mcq-04"
+        "seed-mcq-10",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seeds of doubt」指「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」。",
       "sentenceIndex": 13,
@@ -1039,12 +985,10 @@ export default {
         "seeds of doubt"
       ],
       "optionReasons": {
-        "seed-mcq-07": "本句指「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-04": "「表示萌芽；開端；種子；例句：「那場討論中已經有了解決方案的萌芽。」」是「seed — the beginning of an idea or development = something small that may later grow into something larger 萌芽；開端；種子」的用法，與本句語境不同。"
+        "seed-mcq-07": "本句的「seeds of doubt」指「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-07"
     },
@@ -1056,11 +1000,9 @@ export default {
       "masked": "The decision planted the ____.",
       "options": [
         "seed-mcq-08",
-        "seed-mcq-07",
-        "seed-mcq-09",
-        "seed-mcq-06",
-        "seed-mcq-10",
-        "seed-mcq-05"
+        "seed-mcq-01",
+        "seed-mcq-28",
+        "seed-mcq-11"
       ],
       "explanation": "本句的「seeds of future conflict」指「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」。",
       "sentenceIndex": 14,
@@ -1069,12 +1011,10 @@ export default {
         "seeds of future conflict"
       ],
       "optionReasons": {
-        "seed-mcq-08": "本句指「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。"
+        "seed-mcq-08": "本句的「seeds of future conflict」指「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」。",
+        "seed-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-08"
     },
@@ -1086,11 +1026,9 @@ export default {
       "masked": "Poor communication can sow the ____.",
       "options": [
         "seed-mcq-08",
-        "seed-mcq-07",
-        "seed-mcq-09",
-        "seed-mcq-06",
-        "seed-mcq-10",
-        "seed-mcq-05"
+        "seed-mcq-18",
+        "seed-mcq-24",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seeds of trouble」指「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」。",
       "sentenceIndex": 15,
@@ -1099,12 +1037,10 @@ export default {
         "seeds of trouble"
       ],
       "optionReasons": {
-        "seed-mcq-08": "本句指「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-05": "「表示想法的萌芽；初步構想；例句：「她已經有了一個新書構想的萌芽。」」是「seed of an idea = the earliest form of an idea before it is fully developed 想法的萌芽；初步構想」的用法，與本句語境不同。"
+        "seed-mcq-08": "本句的「seeds of trouble」指「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」。",
+        "seed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-08"
     },
@@ -1116,11 +1052,9 @@ export default {
       "masked": "Let the flowers ____ naturally.",
       "options": [
         "seed-mcq-09",
-        "seed-mcq-08",
-        "seed-mcq-10",
-        "seed-mcq-07",
-        "seed-mcq-11",
-        "seed-mcq-06"
+        "seed-mcq-28",
+        "seed-mcq-17",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seed」指「表示結籽；產生種子；例句：「讓這些花自然結籽。」」。",
       "sentenceIndex": 16,
@@ -1129,12 +1063,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-09": "本句指「表示結籽；產生種子；例句：「讓這些花自然結籽。」」。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-09": "本句的「seed」指「表示結籽；產生種子；例句：「讓這些花自然結籽。」」。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-09"
     },
@@ -1146,11 +1078,9 @@ export default {
       "masked": "Some grasses ____ very quickly.",
       "options": [
         "seed-mcq-09",
-        "seed-mcq-08",
+        "seed-mcq-05",
         "seed-mcq-10",
-        "seed-mcq-07",
-        "seed-mcq-11",
-        "seed-mcq-06"
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seed」指「表示結籽；產生種子；例句：「讓這些花自然結籽。」」。",
       "sentenceIndex": 17,
@@ -1159,12 +1089,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-09": "本句指「表示結籽；產生種子；例句：「讓這些花自然結籽。」」。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-06": "「表示改變的種子；變革的萌芽；例句：「那次經歷播下了改變的種子。」」是「seeds of change = early conditions or ideas that later produce change 改變的種子；變革的萌芽」的用法，與本句語境不同。"
+        "seed-mcq-09": "本句的「seed」指「表示結籽；產生種子；例句：「讓這些花自然結籽。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-09"
     },
@@ -1177,10 +1105,8 @@ export default {
       "options": [
         "seed-mcq-10",
         "seed-mcq-09",
-        "seed-mcq-11",
-        "seed-mcq-08",
-        "seed-mcq-12",
-        "seed-mcq-07"
+        "seed-mcq-28",
+        "seed-mcq-05"
       ],
       "explanation": "本句的「seeded the field」指「表示播種；撒種；例句：「他們在田裡播下草籽。」」。",
       "sentenceIndex": 18,
@@ -1189,12 +1115,10 @@ export default {
         "seeded the field"
       ],
       "optionReasons": {
-        "seed-mcq-10": "本句指「表示播種；撒種；例句：「他們在田裡播下草籽。」」。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。"
+        "seed-mcq-10": "本句的「seeded the field」指「表示播種；撒種；例句：「他們在田裡播下草籽。」」。",
+        "seed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-10"
     },
@@ -1206,11 +1130,9 @@ export default {
       "masked": "The bare ground was ____ in spring.",
       "options": [
         "seed-mcq-10",
-        "seed-mcq-09",
-        "seed-mcq-11",
-        "seed-mcq-08",
-        "seed-mcq-12",
-        "seed-mcq-07"
+        "seed-mcq-07",
+        "seed-mcq-28",
+        "seed-mcq-17"
       ],
       "explanation": "本句的「seeded」指「表示播種；撒種；例句：「他們在田裡播下草籽。」」。",
       "sentenceIndex": 19,
@@ -1219,12 +1141,10 @@ export default {
         "seeded"
       ],
       "optionReasons": {
-        "seed-mcq-10": "本句指「表示播種；撒種；例句：「他們在田裡播下草籽。」」。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-07": "「表示懷疑的種子；疑念；例句：「他前後不一致的回答種下了懷疑的種子。」」是「seeds of doubt = small doubts that begin to grow 懷疑的種子；疑念」的用法，與本句語境不同。"
+        "seed-mcq-10": "本句的「seeded」指「表示播種；撒種；例句：「他們在田裡播下草籽。」」。",
+        "seed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-10"
     },
@@ -1237,10 +1157,8 @@ export default {
       "options": [
         "seed-mcq-11",
         "seed-mcq-10",
-        "seed-mcq-12",
-        "seed-mcq-09",
-        "seed-mcq-13",
-        "seed-mcq-08"
+        "seed-mcq-19",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「Seed the peppers」指「表示去籽；例句：「切辣椒前先去籽。」」。",
       "sentenceIndex": 20,
@@ -1249,12 +1167,10 @@ export default {
         "Seed the peppers"
       ],
       "optionReasons": {
-        "seed-mcq-11": "本句指「表示去籽；例句：「切辣椒前先去籽。」」。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。"
+        "seed-mcq-11": "本句的「Seed the peppers」指「表示去籽；例句：「切辣椒前先去籽。」」。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-11"
     },
@@ -1266,11 +1182,9 @@ export default {
       "masked": "She ____ before making the sauce.",
       "options": [
         "seed-mcq-11",
-        "seed-mcq-10",
-        "seed-mcq-12",
-        "seed-mcq-09",
-        "seed-mcq-13",
-        "seed-mcq-08"
+        "seed-mcq-25",
+        "seed-mcq-08",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seeded the tomatoes」指「表示去籽；例句：「切辣椒前先去籽。」」。",
       "sentenceIndex": 21,
@@ -1279,12 +1193,10 @@ export default {
         "seeded the tomatoes"
       ],
       "optionReasons": {
-        "seed-mcq-11": "本句指「表示去籽；例句：「切辣椒前先去籽。」」。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-08": "「表示衝突／麻煩的根源或萌芽；例句：「那項決定埋下了未來衝突的種子。」」是「seeds of conflict / trouble = early causes that may later develop into conflict or problems 衝突／麻煩的根源或萌芽」的用法，與本句語境不同。"
+        "seed-mcq-11": "本句的「seeded the tomatoes」指「表示去籽；例句：「切辣椒前先去籽。」」。",
+        "seed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-11"
     },
@@ -1296,11 +1208,9 @@ export default {
       "masked": "She entered the tournament as the top ____.",
       "options": [
         "seed-mcq-12",
+        "seed-mcq-17",
         "seed-mcq-11",
-        "seed-mcq-13",
-        "seed-mcq-10",
-        "seed-mcq-14",
-        "seed-mcq-09"
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seed」指「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」。",
       "sentenceIndex": 22,
@@ -1309,12 +1219,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-12": "本句指「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。"
+        "seed-mcq-12": "本句的「seed」指「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-12"
     },
@@ -1326,11 +1234,9 @@ export default {
       "masked": "The number-one ____ won the match.",
       "options": [
         "seed-mcq-12",
-        "seed-mcq-11",
-        "seed-mcq-13",
-        "seed-mcq-10",
-        "seed-mcq-14",
-        "seed-mcq-09"
+        "seed-mcq-24",
+        "seed-mcq-28",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seed」指「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」。",
       "sentenceIndex": 23,
@@ -1339,12 +1245,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-12": "本句指「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-09": "「表示結籽；產生種子；例句：「讓這些花自然結籽。」」是「seed — produce seeds = form or release seeds 結籽；產生種子」的用法，與本句語境不同。"
+        "seed-mcq-12": "本句的「seed」指「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-12"
     },
@@ -1356,11 +1260,9 @@ export default {
       "masked": "He was ____ in the tournament.",
       "options": [
         "seed-mcq-13",
-        "seed-mcq-12",
-        "seed-mcq-14",
+        "seed-mcq-23",
         "seed-mcq-11",
-        "seed-mcq-15",
-        "seed-mcq-10"
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seeded second」指「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」。",
       "sentenceIndex": 24,
@@ -1369,12 +1271,10 @@ export default {
         "seeded second"
       ],
       "optionReasons": {
-        "seed-mcq-13": "本句指「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。"
+        "seed-mcq-13": "本句的「seeded second」指「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-13"
     },
@@ -1386,11 +1286,9 @@ export default {
       "masked": "The team is highly ____ this year.",
       "options": [
         "seed-mcq-13",
-        "seed-mcq-12",
-        "seed-mcq-14",
-        "seed-mcq-11",
-        "seed-mcq-15",
-        "seed-mcq-10"
+        "seed-mcq-24",
+        "seed-mcq-10",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seeded」指「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」。",
       "sentenceIndex": 25,
@@ -1399,12 +1297,10 @@ export default {
         "seeded"
       ],
       "optionReasons": {
-        "seed-mcq-13": "本句指「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-10": "「表示播種；撒種；例句：「他們在田裡播下草籽。」」是「seed an area = sow seed over an area of land 播種；撒種」的用法，與本句語境不同。"
+        "seed-mcq-13": "本句的「seeded」指「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-13"
     },
@@ -1416,11 +1312,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "seed-mcq-14",
-        "seed-mcq-13",
-        "seed-mcq-15",
-        "seed-mcq-12",
-        "seed-mcq-16",
-        "seed-mcq-11"
+        "seed-mcq-05",
+        "seed-mcq-17",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seeded first」指「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」。",
       "sentenceIndex": 26,
@@ -1429,12 +1323,10 @@ export default {
         "seeded first"
       ],
       "optionReasons": {
-        "seed-mcq-14": "本句指「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。"
+        "seed-mcq-14": "本句的「seeded first」指「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-14"
     },
@@ -1446,11 +1338,9 @@ export default {
       "masked": "The organizers ____ separately.",
       "options": [
         "seed-mcq-14",
-        "seed-mcq-13",
-        "seed-mcq-15",
-        "seed-mcq-12",
-        "seed-mcq-16",
-        "seed-mcq-11"
+        "seed-mcq-28",
+        "seed-mcq-10",
+        "seed-mcq-17"
       ],
       "explanation": "本句的「seeded the strongest teams」指「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」。",
       "sentenceIndex": 27,
@@ -1459,12 +1349,10 @@ export default {
         "seeded the strongest teams"
       ],
       "optionReasons": {
-        "seed-mcq-14": "本句指「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-11": "「表示去籽；例句：「切辣椒前先去籽。」」是「seed a fruit = remove the seeds from fruit 去籽」的用法，與本句語境不同。"
+        "seed-mcq-14": "本句的「seeded the strongest teams」指「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-14"
     },
@@ -1476,11 +1364,9 @@ export default {
       "masked": "The program uses a random ____.",
       "options": [
         "seed-mcq-15",
-        "seed-mcq-14",
-        "seed-mcq-16",
-        "seed-mcq-13",
-        "seed-mcq-17",
-        "seed-mcq-12"
+        "seed-mcq-08",
+        "seed-mcq-28",
+        "seed-mcq-11"
       ],
       "explanation": "本句的「seed」指「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」。",
       "sentenceIndex": 28,
@@ -1489,12 +1375,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-15": "本句指「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。"
+        "seed-mcq-15": "本句的「seed」指「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-15"
     },
@@ -1506,11 +1390,9 @@ export default {
       "masked": "Using the same ____ can reproduce the same sequence.",
       "options": [
         "seed-mcq-15",
-        "seed-mcq-14",
-        "seed-mcq-16",
-        "seed-mcq-13",
-        "seed-mcq-17",
-        "seed-mcq-12"
+        "seed-mcq-23",
+        "seed-mcq-11",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seed」指「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」。",
       "sentenceIndex": 29,
@@ -1519,12 +1401,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-15": "本句指「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-12": "「表示種子選手；種子隊；例句：「她以頭號種子選手身分參賽。」」是「seed — noun: a ranked competitor = a player or team given a ranking in advance of a tournament 種子選手；種子隊」的用法，與本句語境不同。"
+        "seed-mcq-15": "本句的「seed」指「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-15"
     },
@@ -1536,11 +1416,9 @@ export default {
       "masked": "The application includes ____ for testing.",
       "options": [
         "seed-mcq-16",
-        "seed-mcq-15",
-        "seed-mcq-17",
-        "seed-mcq-14",
-        "seed-mcq-18",
-        "seed-mcq-13"
+        "seed-mcq-11",
+        "seed-mcq-10",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seed data」指「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」。",
       "sentenceIndex": 30,
@@ -1549,12 +1427,10 @@ export default {
         "seed data"
       ],
       "optionReasons": {
-        "seed-mcq-16": "本句指「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。"
+        "seed-mcq-16": "本句的「seed data」指「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-16"
     },
@@ -1566,11 +1442,9 @@ export default {
       "masked": "Developers loaded ____ into the database.",
       "options": [
         "seed-mcq-16",
-        "seed-mcq-15",
-        "seed-mcq-17",
-        "seed-mcq-14",
-        "seed-mcq-18",
-        "seed-mcq-13"
+        "seed-mcq-10",
+        "seed-mcq-24",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seed data」指「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」。",
       "sentenceIndex": 31,
@@ -1579,12 +1453,10 @@ export default {
         "seed data"
       ],
       "optionReasons": {
-        "seed-mcq-16": "本句指「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-13": "「表示列為種子的；有種子排名的；例句：「他在賽事中被列為第二種子。」」是「seeded — ranked in a tournament = officially placed in a ranked position before competition 列為種子的；有種子排名的」的用法，與本句語境不同。"
+        "seed-mcq-16": "本句的「seed data」指「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-16"
     },
@@ -1596,10 +1468,8 @@ export default {
       "masked": "The script ____ with sample users.",
       "options": [
         "seed-mcq-17",
-        "seed-mcq-16",
-        "seed-mcq-18",
-        "seed-mcq-15",
-        "seed-mcq-19",
+        "seed-mcq-11",
+        "seed-mcq-08",
         "seed-mcq-14"
       ],
       "explanation": "本句的「seeds the database」指「把初始資料匯入；預先填入資料」。",
@@ -1609,12 +1479,10 @@ export default {
         "seeds the database"
       ],
       "optionReasons": {
-        "seed-mcq-17": "本句指「把初始資料匯入；預先填入資料」。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。"
+        "seed-mcq-17": "本句的「seeds the database」指「把初始資料匯入；預先填入資料」。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-17"
     },
@@ -1626,11 +1494,9 @@ export default {
       "masked": "We ____ with test records.",
       "options": [
         "seed-mcq-17",
-        "seed-mcq-16",
-        "seed-mcq-18",
-        "seed-mcq-15",
-        "seed-mcq-19",
-        "seed-mcq-14"
+        "seed-mcq-26",
+        "seed-mcq-23",
+        "seed-mcq-11"
       ],
       "explanation": "本句的「seeded the system」指「把初始資料匯入；預先填入資料」。",
       "sentenceIndex": 33,
@@ -1639,12 +1505,10 @@ export default {
         "seeded the system"
       ],
       "optionReasons": {
-        "seed-mcq-17": "本句指「把初始資料匯入；預先填入資料」。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-14": "「表示把……列為種子選手／隊伍；例句：「她被列為第一種子。」」是「seed a player / team = assign a ranking to a competitor before a tournament 把……列為種子選手／隊伍」的用法，與本句語境不同。"
+        "seed-mcq-17": "本句的「seeded the system」指「把初始資料匯入；預先填入資料」。",
+        "seed-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-17"
     },
@@ -1656,11 +1520,9 @@ export default {
       "masked": "The startup received ____ from several investors.",
       "options": [
         "seed-mcq-18",
-        "seed-mcq-17",
-        "seed-mcq-19",
-        "seed-mcq-16",
-        "seed-mcq-20",
-        "seed-mcq-15"
+        "seed-mcq-10",
+        "seed-mcq-08",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seed funding」指「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」。",
       "sentenceIndex": 34,
@@ -1669,12 +1531,10 @@ export default {
         "seed funding"
       ],
       "optionReasons": {
-        "seed-mcq-18": "本句指「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。"
+        "seed-mcq-18": "本句的「seed funding」指「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-18"
     },
@@ -1686,11 +1546,9 @@ export default {
       "masked": "They used the ____ to build the first prototype.",
       "options": [
         "seed-mcq-18",
-        "seed-mcq-17",
-        "seed-mcq-19",
-        "seed-mcq-16",
-        "seed-mcq-20",
-        "seed-mcq-15"
+        "seed-mcq-28",
+        "seed-mcq-11",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seed money」指「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」。",
       "sentenceIndex": 35,
@@ -1699,12 +1557,10 @@ export default {
         "seed money"
       ],
       "optionReasons": {
-        "seed-mcq-18": "本句指「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-15": "「表示種子值；初始值；例句：「這個程式使用一個隨機種子值。」」是「seed — initial value used to generate a sequence = a starting value used by an algorithm, especially a random-number generator 種子值；初始值」的用法，與本句語境不同。"
+        "seed-mcq-18": "本句的「seed money」指「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-18"
     },
@@ -1716,11 +1572,9 @@ export default {
       "masked": "The company is looking for a ____.",
       "options": [
         "seed-mcq-19",
-        "seed-mcq-18",
-        "seed-mcq-20",
-        "seed-mcq-17",
-        "seed-mcq-21",
-        "seed-mcq-16"
+        "seed-mcq-23",
+        "seed-mcq-11",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seed investor」指「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」。",
       "sentenceIndex": 36,
@@ -1729,12 +1583,10 @@ export default {
         "seed investor"
       ],
       "optionReasons": {
-        "seed-mcq-19": "本句指「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。"
+        "seed-mcq-19": "本句的「seed investor」指「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-19"
     },
@@ -1746,11 +1598,9 @@ export default {
       "masked": "A ____ helped finance the first version of the product.",
       "options": [
         "seed-mcq-19",
-        "seed-mcq-18",
-        "seed-mcq-20",
-        "seed-mcq-17",
-        "seed-mcq-21",
-        "seed-mcq-16"
+        "seed-mcq-24",
+        "seed-mcq-05",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seed investor」指「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」。",
       "sentenceIndex": 37,
@@ -1759,12 +1609,10 @@ export default {
         "seed investor"
       ],
       "optionReasons": {
-        "seed-mcq-19": "本句指「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-16": "「表示初始資料；種子資料；例句：「這個應用程式包含測試用的初始資料。」」是「seed data = initial data inserted into a database or system 初始資料；種子資料」的用法，與本句語境不同。"
+        "seed-mcq-19": "本句的「seed investor」指「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-19"
     },
@@ -1776,11 +1624,9 @@ export default {
       "masked": "Farmers carefully select high-quality ____.",
       "options": [
         "seed-mcq-20",
-        "seed-mcq-19",
-        "seed-mcq-21",
-        "seed-mcq-18",
-        "seed-mcq-22",
-        "seed-mcq-17"
+        "seed-mcq-24",
+        "seed-mcq-05",
+        "seed-mcq-10"
       ],
       "explanation": "本句的「seed」指「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」。",
       "sentenceIndex": 38,
@@ -1789,12 +1635,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-20": "本句指「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。"
+        "seed-mcq-20": "本句的「seed」指「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-20"
     },
@@ -1806,11 +1650,9 @@ export default {
       "masked": "The crop is grown from certified ____.",
       "options": [
         "seed-mcq-20",
-        "seed-mcq-19",
-        "seed-mcq-21",
-        "seed-mcq-18",
-        "seed-mcq-22",
-        "seed-mcq-17"
+        "seed-mcq-05",
+        "seed-mcq-24",
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seed」指「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」。",
       "sentenceIndex": 39,
@@ -1819,12 +1661,10 @@ export default {
         "seed"
       ],
       "optionReasons": {
-        "seed-mcq-20": "本句指「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-17": "「把初始資料匯入；預先填入資料」是「seed a database / system = populate a system with initial data 把初始資料匯入；預先填入資料」的用法，與本句語境不同。"
+        "seed-mcq-20": "本句的「seed」指「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-20"
     },
@@ -1836,11 +1676,9 @@ export default {
       "masked": "Sprinkle some sesame ____ on top.",
       "options": [
         "seed-mcq-21",
-        "seed-mcq-20",
-        "seed-mcq-22",
-        "seed-mcq-19",
-        "seed-mcq-23",
-        "seed-mcq-18"
+        "seed-mcq-10",
+        "seed-mcq-28",
+        "seed-mcq-17"
       ],
       "explanation": "本句的「seeds」指「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」。",
       "sentenceIndex": 40,
@@ -1849,12 +1687,10 @@ export default {
         "seeds"
       ],
       "optionReasons": {
-        "seed-mcq-21": "本句指「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。"
+        "seed-mcq-21": "本句的「seeds」指「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-21"
     },
@@ -1866,11 +1702,9 @@ export default {
       "masked": "Pumpkin ____ are often eaten as a snack.",
       "options": [
         "seed-mcq-21",
-        "seed-mcq-20",
-        "seed-mcq-22",
-        "seed-mcq-19",
-        "seed-mcq-23",
-        "seed-mcq-18"
+        "seed-mcq-08",
+        "seed-mcq-10",
+        "seed-mcq-17"
       ],
       "explanation": "本句的「seeds」指「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」。",
       "sentenceIndex": 41,
@@ -1879,12 +1713,10 @@ export default {
         "seeds"
       ],
       "optionReasons": {
-        "seed-mcq-21": "本句指「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-18": "「表示種子資金；初期資金；例句：「那家新創公司從幾位投資者獲得了種子資金。」」是「seed money / seed funding = initial money provided to help a new business or project begin 種子資金；初期資金」的用法，與本句語境不同。"
+        "seed-mcq-21": "本句的「seeds」指「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-21"
     },
@@ -1896,11 +1728,9 @@ export default {
       "masked": "Spring ____ begins next week.",
       "options": [
         "seed-mcq-22",
-        "seed-mcq-21",
-        "seed-mcq-23",
-        "seed-mcq-20",
-        "seed-mcq-24",
-        "seed-mcq-19"
+        "seed-mcq-28",
+        "seed-mcq-11",
+        "seed-mcq-23"
       ],
       "explanation": "本句的「seeding」指「播種；設定種子；植入初始資料」。",
       "sentenceIndex": 42,
@@ -1909,12 +1739,10 @@ export default {
         "seeding"
       ],
       "optionReasons": {
-        "seed-mcq-22": "本句指「播種；設定種子；植入初始資料」。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。"
+        "seed-mcq-22": "本句的「seeding」指「播種；設定種子；植入初始資料」。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-22"
     },
@@ -1926,11 +1754,9 @@ export default {
       "masked": "Tournament ____ is based on ranking points.",
       "options": [
         "seed-mcq-22",
-        "seed-mcq-21",
         "seed-mcq-23",
-        "seed-mcq-20",
         "seed-mcq-24",
-        "seed-mcq-19"
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seeding」指「播種；設定種子；植入初始資料」。",
       "sentenceIndex": 43,
@@ -1939,12 +1765,10 @@ export default {
         "seeding"
       ],
       "optionReasons": {
-        "seed-mcq-22": "本句指「播種；設定種子；植入初始資料」。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。"
+        "seed-mcq-22": "本句的「seeding」指「播種；設定種子；植入初始資料」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-22"
     },
@@ -1956,11 +1780,9 @@ export default {
       "masked": "Database ____ is part of the setup process.",
       "options": [
         "seed-mcq-22",
-        "seed-mcq-21",
+        "seed-mcq-08",
         "seed-mcq-23",
-        "seed-mcq-20",
-        "seed-mcq-24",
-        "seed-mcq-19"
+        "seed-mcq-11"
       ],
       "explanation": "本句的「seeding」指「播種；設定種子；植入初始資料」。",
       "sentenceIndex": 44,
@@ -1969,12 +1791,10 @@ export default {
         "seeding"
       ],
       "optionReasons": {
-        "seed-mcq-22": "本句指「播種；設定種子；植入初始資料」。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-19": "「表示種子投資人；早期投資者；例句：「公司正在尋找種子投資人。」」是「seed investor = an investor who provides very early-stage funding 種子投資人；早期投資者」的用法，與本句語境不同。"
+        "seed-mcq-22": "本句的「seeding」指「播種；設定種子；植入初始資料」。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-22"
     },
@@ -1986,11 +1806,9 @@ export default {
       "masked": "The ____ need regular watering.",
       "options": [
         "seed-mcq-23",
-        "seed-mcq-22",
+        "seed-mcq-19",
         "seed-mcq-24",
-        "seed-mcq-21",
-        "seed-mcq-25",
-        "seed-mcq-20"
+        "seed-mcq-28"
       ],
       "explanation": "本句的「seedlings」指「表示幼苗；例句：「這些幼苗需要定期澆水。」」。",
       "sentenceIndex": 45,
@@ -1999,12 +1817,10 @@ export default {
         "seedlings"
       ],
       "optionReasons": {
-        "seed-mcq-23": "本句指「表示幼苗；例句：「這些幼苗需要定期澆水。」」。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。"
+        "seed-mcq-23": "本句的「seedlings」指「表示幼苗；例句：「這些幼苗需要定期澆水。」」。",
+        "seed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-23"
     },
@@ -2016,11 +1832,9 @@ export default {
       "masked": "We moved the ____ into larger pots.",
       "options": [
         "seed-mcq-23",
-        "seed-mcq-22",
-        "seed-mcq-24",
-        "seed-mcq-21",
-        "seed-mcq-25",
-        "seed-mcq-20"
+        "seed-mcq-07",
+        "seed-mcq-08",
+        "seed-mcq-10"
       ],
       "explanation": "本句的「seedlings」指「表示幼苗；例句：「這些幼苗需要定期澆水。」」。",
       "sentenceIndex": 46,
@@ -2029,12 +1843,10 @@ export default {
         "seedlings"
       ],
       "optionReasons": {
-        "seed-mcq-23": "本句指「表示幼苗；例句：「這些幼苗需要定期澆水。」」。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-20": "「表示種子；繁殖材料；例句：「農民會仔細挑選高品質的種子。」」是「seed — reproductive material In biological or agricultural contexts, seed can refer broadly to reproductive material used for propagation. 種子；繁殖材料」的用法，與本句語境不同。"
+        "seed-mcq-23": "本句的「seedlings」指「表示幼苗；例句：「這些幼苗需要定期澆水。」」。",
+        "seed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-23"
     },
@@ -2048,9 +1860,7 @@ export default {
         "seed-mcq-24",
         "seed-mcq-23",
         "seed-mcq-25",
-        "seed-mcq-22",
-        "seed-mcq-26",
-        "seed-mcq-21"
+        "seed-mcq-17"
       ],
       "explanation": "本句的「seedless grapes」指「表示無籽的；例句：「這些是無籽葡萄。」」。",
       "sentenceIndex": 47,
@@ -2059,12 +1869,10 @@ export default {
         "seedless grapes"
       ],
       "optionReasons": {
-        "seed-mcq-24": "本句指「表示無籽的；例句：「這些是無籽葡萄。」」。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。"
+        "seed-mcq-24": "本句的「seedless grapes」指「表示無籽的；例句：「這些是無籽葡萄。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-24"
     },
@@ -2076,11 +1884,9 @@ export default {
       "masked": "I prefer ____.",
       "options": [
         "seed-mcq-24",
-        "seed-mcq-23",
-        "seed-mcq-25",
         "seed-mcq-22",
-        "seed-mcq-26",
-        "seed-mcq-21"
+        "seed-mcq-28",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「seedless watermelon」指「表示無籽的；例句：「這些是無籽葡萄。」」。",
       "sentenceIndex": 48,
@@ -2089,12 +1895,10 @@ export default {
         "seedless watermelon"
       ],
       "optionReasons": {
-        "seed-mcq-24": "本句指「表示無籽的；例句：「這些是無籽葡萄。」」。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-21": "「表示籽；種子類食物；例句：「在上面撒一些芝麻籽。」」是「seeds as food = edible seeds used as ingredients or snacks 籽；種子類食物 Examples: * sunflower seeds 葵花籽」的用法，與本句語境不同。"
+        "seed-mcq-24": "本句的「seedless watermelon」指「表示無籽的；例句：「這些是無籽葡萄。」」。",
+        "seed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-24"
     },
@@ -2107,10 +1911,8 @@ export default {
       "options": [
         "seed-mcq-25",
         "seed-mcq-24",
-        "seed-mcq-26",
-        "seed-mcq-23",
-        "seed-mcq-27",
-        "seed-mcq-22"
+        "seed-mcq-28",
+        "seed-mcq-08"
       ],
       "explanation": "本句的「planted a seed」指「種下一顆種子；播下想法的種子」。",
       "sentenceIndex": 49,
@@ -2119,12 +1921,10 @@ export default {
         "planted a seed"
       ],
       "optionReasons": {
-        "seed-mcq-25": "本句指「種下一顆種子；播下想法的種子」。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-27": "「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」是「seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。"
+        "seed-mcq-25": "本句的「planted a seed」指「種下一顆種子；播下想法的種子」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-25"
     },
@@ -2136,11 +1936,9 @@ export default {
       "masked": "Her question ____.",
       "options": [
         "seed-mcq-25",
-        "seed-mcq-24",
-        "seed-mcq-26",
+        "seed-mcq-17",
         "seed-mcq-23",
-        "seed-mcq-27",
-        "seed-mcq-22"
+        "seed-mcq-08"
       ],
       "explanation": "本句的「planted a seed in my mind」指「種下一顆種子；播下想法的種子」。",
       "sentenceIndex": 50,
@@ -2149,12 +1947,10 @@ export default {
         "planted a seed in my mind"
       ],
       "optionReasons": {
-        "seed-mcq-25": "本句指「種下一顆種子；播下想法的種子」。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。",
-        "seed-mcq-27": "「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」是「seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子」的用法，與本句語境不同。",
-        "seed-mcq-22": "「播種；設定種子；植入初始資料」是「seeding = the act or process of sowing, introducing, or assigning seeds/rankings/data 播種；設定種子；植入初始資料」的用法，與本句語境不同。"
+        "seed-mcq-25": "本句的「planted a seed in my mind」指「種下一顆種子；播下想法的種子」。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-25"
     },
@@ -2166,11 +1962,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "seed-mcq-26",
-        "seed-mcq-25",
-        "seed-mcq-27",
+        "seed-mcq-23",
         "seed-mcq-24",
-        "seed-mcq-28",
-        "seed-mcq-23"
+        "seed-mcq-28"
       ],
       "explanation": "本句的「sowed the seeds of change」指「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」。",
       "sentenceIndex": 51,
@@ -2179,12 +1973,10 @@ export default {
         "sowed the seeds of change"
       ],
       "optionReasons": {
-        "seed-mcq-26": "本句指「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-27": "「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」是「seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-28": "「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」是「go to seed = become neglected, untidy, or less healthy/attractive than before 衰敗；荒廢；變得邋遢」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。"
+        "seed-mcq-26": "本句的「sowed the seeds of change」指「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-26"
     },
@@ -2196,10 +1988,8 @@ export default {
       "masked": "Their disagreement ____.",
       "options": [
         "seed-mcq-26",
-        "seed-mcq-25",
-        "seed-mcq-27",
-        "seed-mcq-24",
-        "seed-mcq-28",
+        "seed-mcq-05",
+        "seed-mcq-11",
         "seed-mcq-23"
       ],
       "explanation": "本句的「sowed the seeds of future conflict」指「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」。",
@@ -2209,12 +1999,10 @@ export default {
         "sowed the seeds of future conflict"
       ],
       "optionReasons": {
-        "seed-mcq-26": "本句指「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-27": "「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」是「seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-28": "「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」是「go to seed = become neglected, untidy, or less healthy/attractive than before 衰敗；荒廢；變得邋遢」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。"
+        "seed-mcq-26": "本句的「sowed the seeds of future conflict」指「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-26"
     },
@@ -2226,11 +2014,9 @@ export default {
       "masked": "His reaction planted a ____ in my mind.",
       "options": [
         "seed-mcq-27",
-        "seed-mcq-26",
+        "seed-mcq-05",
         "seed-mcq-28",
-        "seed-mcq-25",
-        "seed-mcq-24",
-        "seed-mcq-23"
+        "seed-mcq-11"
       ],
       "explanation": "本句的「seed of doubt」指「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」。",
       "sentenceIndex": 53,
@@ -2239,12 +2025,10 @@ export default {
         "seed of doubt"
       ],
       "optionReasons": {
-        "seed-mcq-27": "本句指「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-28": "「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」是「go to seed = become neglected, untidy, or less healthy/attractive than before 衰敗；荒廢；變得邋遢」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。"
+        "seed-mcq-27": "本句的「seed of doubt」指「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-27"
     },
@@ -2256,10 +2040,8 @@ export default {
       "masked": "Once the ____ was there, she started questioning everything.",
       "options": [
         "seed-mcq-27",
-        "seed-mcq-26",
-        "seed-mcq-28",
-        "seed-mcq-25",
-        "seed-mcq-24",
+        "seed-mcq-17",
+        "seed-mcq-08",
         "seed-mcq-23"
       ],
       "explanation": "本句的「seed of doubt」指「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」。",
@@ -2269,12 +2051,10 @@ export default {
         "seed of doubt"
       ],
       "optionReasons": {
-        "seed-mcq-27": "本句指「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-28": "「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」是「go to seed = become neglected, untidy, or less healthy/attractive than before 衰敗；荒廢；變得邋遢」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。"
+        "seed-mcq-27": "本句的「seed of doubt」指「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-27"
     },
@@ -2286,11 +2066,9 @@ export default {
       "masked": "The garden has ____.",
       "options": [
         "seed-mcq-28",
-        "seed-mcq-27",
-        "seed-mcq-26",
-        "seed-mcq-25",
         "seed-mcq-24",
-        "seed-mcq-23"
+        "seed-mcq-10",
+        "seed-mcq-17"
       ],
       "explanation": "本句的「gone to seed」指「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」。",
       "sentenceIndex": 55,
@@ -2299,12 +2077,10 @@ export default {
         "gone to seed"
       ],
       "optionReasons": {
-        "seed-mcq-28": "本句指「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」。",
-        "seed-mcq-27": "「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」是「seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子」的用法，與本句語境不同。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。"
+        "seed-mcq-28": "本句的「gone to seed」指「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-28"
     },
@@ -2316,11 +2092,9 @@ export default {
       "masked": "The old building was slowly ____.",
       "options": [
         "seed-mcq-28",
-        "seed-mcq-27",
-        "seed-mcq-26",
-        "seed-mcq-25",
-        "seed-mcq-24",
-        "seed-mcq-23"
+        "seed-mcq-02",
+        "seed-mcq-05",
+        "seed-mcq-24"
       ],
       "explanation": "本句的「going to seed」指「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」。",
       "sentenceIndex": 56,
@@ -2329,12 +2103,10 @@ export default {
         "going to seed"
       ],
       "optionReasons": {
-        "seed-mcq-28": "本句指「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」。",
-        "seed-mcq-27": "「表示疑念；懷疑的種子；例句：「他的反應在我心中種下了一絲疑念。」」是「seed of doubt = a small doubt that may grow stronger 疑念；懷疑的種子」的用法，與本句語境不同。",
-        "seed-mcq-26": "「表示播下……的種子；埋下……的伏筆；例句：「那次經歷播下了改變的種子。」」是「sow the seeds of something = create the beginnings of a future development 播下……的種子；埋下……的伏筆」的用法，與本句語境不同。",
-        "seed-mcq-25": "「種下一顆種子；播下想法的種子」是「plant a seed = introduce an idea or possibility that can develop later 種下一顆種子；播下想法的種子」的用法，與本句語境不同。",
-        "seed-mcq-24": "「表示無籽的；例句：「這些是無籽葡萄。」」是「seedless = containing no seeds 無籽的」的用法，與本句語境不同。",
-        "seed-mcq-23": "「表示幼苗；例句：「這些幼苗需要定期澆水。」」是「seedling = a very young plant grown from a seed 幼苗」的用法，與本句語境不同。"
+        "seed-mcq-28": "本句的「going to seed」指「表示衰敗；荒廢；變得邋遢；例句：「那座花園已經荒廢了。」」。",
+        "seed-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "seed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seed-mcq-28"
     }
@@ -2346,5 +2118,7 @@ export default {
     "sha256": "5646cd2c4ea24adab2a3eda448836e456f0a05abae3ad029a8a1fc51aebbc3e8",
     "pages": 17
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

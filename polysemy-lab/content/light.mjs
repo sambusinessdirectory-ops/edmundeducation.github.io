@@ -689,16 +689,6 @@ export default {
       "note": "來源詞義：鑑於；考慮到",
       "examples": [
         [
-          "The colour looks different in natural light.",
-          "這個顏色在自然光下看起來不一樣。",
-          "鑑於；考慮到"
-        ],
-        [
-          "Hold the photograph up to the light.",
-          "把照片拿到光線下看看。",
-          "鑑於；考慮到"
-        ],
-        [
           "In light of the new evidence, the decision was reviewed.",
           "鑑於有了新證據，該決定被重新檢討。",
           "鑑於；考慮到"
@@ -1008,6 +998,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "light-reviewed-895a11bc4b",
+      "title": "在有光線照射的情況下",
+      "form": "light · source section 36",
+      "en": "在有光線照射的情況下",
+      "zh": "在有光線照射的情況下",
+      "note": "對照原始教材第 36 節及例句核實。",
+      "examples": [
+        [
+          "The colour looks different in natural light.",
+          "這個顏色在自然光下看起來不一樣。",
+          "在有光線照射的情況下"
+        ],
+        [
+          "Hold the photograph up to the light.",
+          "把照片拿到光線下看看。",
+          "在有光線照射的情況下"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1019,11 +1031,9 @@ export default {
       "masked": "Bright ____ came through the window.",
       "options": [
         "light-mcq-01",
-        "light-mcq-02",
-        "light-mcq-03",
-        "light-mcq-04",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-37",
+        "light-mcq-16",
+        "light-mcq-14"
       ],
       "explanation": "本句的「light」指「光；光線」。",
       "sentenceIndex": 0,
@@ -1032,12 +1042,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-01": "本句指「光；光線」。",
-        "light-mcq-02": "「燈；光源」是「a light」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-01": "本句的「light」指「光；光線」。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-01"
     },
@@ -1049,11 +1057,9 @@ export default {
       "masked": "Plants need ____ to grow.",
       "options": [
         "light-mcq-01",
-        "light-mcq-02",
-        "light-mcq-03",
-        "light-mcq-04",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-33",
+        "light-mcq-37",
+        "light-mcq-39"
       ],
       "explanation": "本句的「light」指「光；光線」。",
       "sentenceIndex": 1,
@@ -1062,12 +1068,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-01": "本句指「光；光線」。",
-        "light-mcq-02": "「燈；光源」是「a light」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-01": "本句的「light」指「光；光線」。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-01"
     },
@@ -1079,11 +1083,9 @@ export default {
       "masked": "I left a ____ on in the kitchen.",
       "options": [
         "light-mcq-02",
-        "light-mcq-01",
-        "light-mcq-03",
-        "light-mcq-04",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-pdf-001",
+        "light-mcq-26",
+        "light-mcq-42"
       ],
       "explanation": "本句的「light」指「燈；光源」。",
       "sentenceIndex": 2,
@@ -1092,12 +1094,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-02": "本句指「燈；光源」。",
-        "light-mcq-01": "「光；光線」是「light (noun)」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-02": "本句的「light」指「燈；光源」。",
+        "light-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-02"
     },
@@ -1109,11 +1109,9 @@ export default {
       "masked": "There was a small ____ beside the bed.",
       "options": [
         "light-mcq-02",
-        "light-mcq-01",
-        "light-mcq-03",
-        "light-mcq-04",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-32",
+        "light-mcq-46",
+        "light-mcq-09"
       ],
       "explanation": "本句的「light」指「燈；光源」。",
       "sentenceIndex": 3,
@@ -1122,12 +1120,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-02": "本句指「燈；光源」。",
-        "light-mcq-01": "「光；光線」是「light (noun)」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-02": "本句的「light」指「燈；光源」。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-02"
     },
@@ -1139,11 +1135,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "light-mcq-41",
-        "light-mcq-40",
-        "light-mcq-42",
-        "light-mcq-39",
-        "light-mcq-43",
-        "light-mcq-38"
+        "light-mcq-05",
+        "light-mcq-19",
+        "light-mcq-14"
       ],
       "explanation": "本句的「turn on the light」指「房間或地方內用來照明的燈」。",
       "sentenceIndex": 4,
@@ -1152,12 +1146,10 @@ export default {
         "turn on the light"
       ],
       "optionReasons": {
-        "light-mcq-41": "本句指「房間或地方內用來照明的燈」。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。"
+        "light-mcq-41": "本句的「turn on the light」指「房間或地方內用來照明的燈」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-41"
     },
@@ -1169,11 +1161,9 @@ export default {
       "masked": "Don't forget to ____ before you leave.",
       "options": [
         "light-mcq-41",
-        "light-mcq-40",
-        "light-mcq-42",
-        "light-mcq-39",
-        "light-mcq-43",
-        "light-mcq-38"
+        "light-mcq-22",
+        "light-mcq-32",
+        "light-mcq-18"
       ],
       "explanation": "本句的「turn off the lights」指「房間或地方內用來照明的燈」。",
       "sentenceIndex": 5,
@@ -1182,12 +1172,10 @@ export default {
         "turn off the lights"
       ],
       "optionReasons": {
-        "light-mcq-41": "本句指「房間或地方內用來照明的燈」。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。"
+        "light-mcq-41": "本句的「turn off the lights」指「房間或地方內用來照明的燈」。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-41"
     },
@@ -1199,11 +1187,9 @@ export default {
       "masked": "The ____ turned green.",
       "options": [
         "light-mcq-02",
-        "light-mcq-01",
-        "light-mcq-03",
-        "light-mcq-04",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-35",
+        "light-pdf-001",
+        "light-mcq-40"
       ],
       "explanation": "本句的「light」指「燈；光源」。",
       "sentenceIndex": 6,
@@ -1212,12 +1198,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-02": "本句指「燈；光源」。",
-        "light-mcq-01": "「光；光線」是「light (noun)」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-02": "本句的「light」指「燈；光源」。",
+        "light-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "light-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-02"
     },
@@ -1229,11 +1213,9 @@ export default {
       "masked": "Stop when the ____ is red.",
       "options": [
         "light-mcq-02",
-        "light-mcq-01",
-        "light-mcq-03",
-        "light-mcq-04",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-33",
+        "light-mcq-25",
+        "light-mcq-09"
       ],
       "explanation": "本句的「light」指「燈；光源」。",
       "sentenceIndex": 7,
@@ -1242,12 +1224,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-02": "本句指「燈；光源」。",
-        "light-mcq-01": "「光；光線」是「light (noun)」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-02": "本句的「light」指「燈；光源」。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-02"
     },
@@ -1259,11 +1239,9 @@ export default {
       "masked": "Turn left at the next ____.",
       "options": [
         "light-mcq-03",
-        "light-mcq-02",
-        "light-mcq-04",
-        "light-mcq-01",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-43",
+        "light-mcq-40",
+        "light-mcq-05"
       ],
       "explanation": "本句的「traffic light」指「交通燈」。",
       "sentenceIndex": 8,
@@ -1272,12 +1250,10 @@ export default {
         "traffic light"
       ],
       "optionReasons": {
-        "light-mcq-03": "本句指「交通燈」。",
-        "light-mcq-02": "「燈；光源」是「a light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-01": "「光；光線」是「light (noun)」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-03": "本句的「traffic light」指「交通燈」。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-03"
     },
@@ -1289,11 +1265,9 @@ export default {
       "masked": "We waited for the ____ to change.",
       "options": [
         "light-mcq-03",
-        "light-mcq-02",
-        "light-mcq-04",
-        "light-mcq-01",
-        "light-mcq-05",
-        "light-mcq-06"
+        "light-mcq-21",
+        "light-mcq-33",
+        "light-pdf-001"
       ],
       "explanation": "本句的「traffic lights」指「交通燈」。",
       "sentenceIndex": 9,
@@ -1302,12 +1276,10 @@ export default {
         "traffic lights"
       ],
       "optionReasons": {
-        "light-mcq-03": "本句指「交通燈」。",
-        "light-mcq-02": "「燈；光源」是「a light」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-01": "「光；光線」是「light (noun)」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-03": "本句的「traffic lights」指「交通燈」。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "light-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-03"
     },
@@ -1319,11 +1291,9 @@ export default {
       "masked": "Have you got a ____?",
       "options": [
         "light-mcq-42",
-        "light-mcq-41",
-        "light-mcq-43",
-        "light-mcq-40",
-        "light-mcq-44",
-        "light-mcq-39"
+        "light-mcq-11",
+        "light-mcq-17",
+        "light-mcq-32"
       ],
       "explanation": "本句的「light」指「用來點燃香煙等物品的火或點火工具」。",
       "sentenceIndex": 10,
@@ -1332,12 +1302,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-42": "本句指「用來點燃香煙等物品的火或點火工具」。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。"
+        "light-mcq-42": "本句的「light」指「用來點燃香煙等物品的火或點火工具」。",
+        "light-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-42"
     },
@@ -1349,11 +1317,9 @@ export default {
       "masked": "He asked someone for a ____.",
       "options": [
         "light-mcq-42",
-        "light-mcq-41",
-        "light-mcq-43",
-        "light-mcq-40",
-        "light-mcq-44",
-        "light-mcq-39"
+        "light-mcq-10",
+        "light-mcq-29",
+        "light-mcq-07"
       ],
       "explanation": "本句的「light」指「用來點燃香煙等物品的火或點火工具」。",
       "sentenceIndex": 11,
@@ -1362,12 +1328,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-42": "本句指「用來點燃香煙等物品的火或點火工具」。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。"
+        "light-mcq-42": "本句的「light」指「用來點燃香煙等物品的火或點火工具」。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-42"
     },
@@ -1379,11 +1343,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "light-mcq-05",
-        "light-mcq-04",
-        "light-mcq-06",
-        "light-mcq-03",
-        "light-mcq-07",
-        "light-mcq-02"
+        "light-mcq-14",
+        "light-mcq-28",
+        "light-reviewed-895a11bc4b"
       ],
       "explanation": "本句的「lit a candle」指「點燃蠟燭」。",
       "sentenceIndex": 12,
@@ -1392,12 +1354,10 @@ export default {
         "lit a candle"
       ],
       "optionReasons": {
-        "light-mcq-05": "本句指「點燃蠟燭」。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。",
-        "light-mcq-02": "「燈；光源」是「a light」的用法，與本句語境不同。"
+        "light-mcq-05": "本句的「lit a candle」指「點燃蠟燭」。",
+        "light-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-05"
     },
@@ -1409,11 +1369,9 @@ export default {
       "masked": "They ____ to keep warm.",
       "options": [
         "light-mcq-05",
-        "light-mcq-04",
-        "light-mcq-06",
-        "light-mcq-03",
-        "light-mcq-07",
-        "light-mcq-02"
+        "light-mcq-21",
+        "light-mcq-31",
+        "light-mcq-35"
       ],
       "explanation": "本句的「lit a fire」指「點燃蠟燭」。",
       "sentenceIndex": 13,
@@ -1422,12 +1380,10 @@ export default {
         "lit a fire"
       ],
       "optionReasons": {
-        "light-mcq-05": "本句指「點燃蠟燭」。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。",
-        "light-mcq-03": "「交通燈」是「traffic light」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。",
-        "light-mcq-02": "「燈；光源」是「a light」的用法，與本句語境不同。"
+        "light-mcq-05": "本句的「lit a fire」指「點燃蠟燭」。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-05"
     },
@@ -1439,11 +1395,9 @@ export default {
       "masked": "Candles ____.",
       "options": [
         "light-mcq-43",
+        "light-mcq-22",
         "light-mcq-42",
-        "light-mcq-44",
-        "light-mcq-41",
-        "light-mcq-45",
-        "light-mcq-40"
+        "light-mcq-10"
       ],
       "explanation": "本句的「lit the room」指「向某個地方提供光線，使其變亮」。",
       "sentenceIndex": 14,
@@ -1452,12 +1406,10 @@ export default {
         "lit the room"
       ],
       "optionReasons": {
-        "light-mcq-43": "本句指「向某個地方提供光線，使其變亮」。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-45": "「以較少、較薄或程度不深的方式」是「30. lightly dressed / lightly covered — 穿得單薄；覆蓋得很少」的用法，與本句語境不同。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。"
+        "light-mcq-43": "本句的「lit the room」指「向某個地方提供光線，使其變亮」。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-43"
     },
@@ -1469,11 +1421,9 @@ export default {
       "masked": "The street was ____ old-fashioned lamps.",
       "options": [
         "light-mcq-43",
-        "light-mcq-42",
-        "light-mcq-44",
-        "light-mcq-41",
-        "light-mcq-45",
-        "light-mcq-40"
+        "light-mcq-17",
+        "light-mcq-10",
+        "light-mcq-03"
       ],
       "explanation": "本句的「lit by」指「向某個地方提供光線，使其變亮」。",
       "sentenceIndex": 15,
@@ -1482,12 +1432,10 @@ export default {
         "lit by"
       ],
       "optionReasons": {
-        "light-mcq-43": "本句指「向某個地方提供光線，使其變亮」。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-45": "「以較少、較薄或程度不深的方式」是「30. lightly dressed / lightly covered — 穿得單薄；覆蓋得很少」的用法，與本句語境不同。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。"
+        "light-mcq-43": "本句的「lit by」指「向某個地方提供光線，使其變亮」。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-43"
     },
@@ -1499,11 +1447,9 @@ export default {
       "masked": "The screen ____ when I touched it.",
       "options": [
         "light-mcq-07",
-        "light-mcq-06",
-        "light-mcq-08",
-        "light-mcq-05",
-        "light-mcq-09",
-        "light-mcq-04"
+        "light-pdf-001",
+        "light-mcq-30",
+        "light-mcq-41"
       ],
       "explanation": "本句的「lit up」指「亮起」。",
       "sentenceIndex": 16,
@@ -1512,12 +1458,10 @@ export default {
         "lit up"
       ],
       "optionReasons": {
-        "light-mcq-07": "本句指「亮起」。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。"
+        "light-mcq-07": "本句的「lit up」指「亮起」。",
+        "light-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-07"
     },
@@ -1529,11 +1473,9 @@ export default {
       "masked": "The whole building ____ after dark.",
       "options": [
         "light-mcq-07",
-        "light-mcq-06",
-        "light-mcq-08",
-        "light-mcq-05",
-        "light-mcq-09",
-        "light-mcq-04"
+        "light-reviewed-895a11bc4b",
+        "light-mcq-40",
+        "light-mcq-09"
       ],
       "explanation": "本句的「lit up」指「亮起」。",
       "sentenceIndex": 17,
@@ -1542,12 +1484,10 @@ export default {
         "lit up"
       ],
       "optionReasons": {
-        "light-mcq-07": "本句指「亮起」。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-05": "「點燃蠟燭」是「light a candle」的用法，與本句語境不同。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-04": "「火；火種」是「a light for a cigarette」的用法，與本句語境不同。"
+        "light-mcq-07": "本句的「lit up」指「亮起」。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-07"
     },
@@ -1559,11 +1499,9 @@ export default {
       "masked": "Fireworks ____.",
       "options": [
         "light-mcq-44",
-        "light-mcq-43",
-        "light-mcq-45",
-        "light-mcq-42",
-        "light-mcq-46",
-        "light-mcq-41"
+        "light-mcq-14",
+        "light-mcq-33",
+        "light-mcq-17"
       ],
       "explanation": "本句的「lit up the sky」指「使某個地方因光線而變得明亮」。",
       "sentenceIndex": 18,
@@ -1572,12 +1510,10 @@ export default {
         "lit up the sky"
       ],
       "optionReasons": {
-        "light-mcq-44": "本句指「使某個地方因光線而變得明亮」。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-45": "「以較少、較薄或程度不深的方式」是「30. lightly dressed / lightly covered — 穿得單薄；覆蓋得很少」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-46": "「以某種方式塑造別人對某人的看法」是「42. paint/present someone in a good/bad light — 把某人描寫得好／差」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。"
+        "light-mcq-44": "本句的「lit up the sky」指「使某個地方因光線而變得明亮」。",
+        "light-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-44"
     },
@@ -1589,11 +1525,9 @@ export default {
       "masked": "Hundreds of lanterns ____.",
       "options": [
         "light-mcq-44",
-        "light-mcq-43",
-        "light-mcq-45",
-        "light-mcq-42",
-        "light-mcq-46",
-        "light-mcq-41"
+        "light-mcq-37",
+        "light-mcq-18",
+        "light-mcq-22"
       ],
       "explanation": "本句的「lit up the street」指「使某個地方因光線而變得明亮」。",
       "sentenceIndex": 19,
@@ -1602,12 +1536,10 @@ export default {
         "lit up the street"
       ],
       "optionReasons": {
-        "light-mcq-44": "本句指「使某個地方因光線而變得明亮」。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-45": "「以較少、較薄或程度不深的方式」是「30. lightly dressed / lightly covered — 穿得單薄；覆蓋得很少」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-46": "「以某種方式塑造別人對某人的看法」是「42. paint/present someone in a good/bad light — 把某人描寫得好／差」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。"
+        "light-mcq-44": "本句的「lit up the street」指「使某個地方因光線而變得明亮」。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-44"
     },
@@ -1619,11 +1551,9 @@ export default {
       "masked": "Her face ____ when she saw her grandson.",
       "options": [
         "light-mcq-09",
-        "light-mcq-08",
-        "light-mcq-10",
-        "light-mcq-07",
-        "light-mcq-11",
-        "light-mcq-06"
+        "light-mcq-03",
+        "light-mcq-29",
+        "light-mcq-17"
       ],
       "explanation": "本句的「lit up」指「臉／眼睛流露喜悅」。",
       "sentenceIndex": 20,
@@ -1632,12 +1562,10 @@ export default {
         "lit up"
       ],
       "optionReasons": {
-        "light-mcq-09": "本句指「臉／眼睛流露喜悅」。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-09": "本句的「lit up」指「臉／眼睛流露喜悅」。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-09"
     },
@@ -1649,11 +1577,9 @@ export default {
       "masked": "His eyes ____ when I mentioned the trip.",
       "options": [
         "light-mcq-09",
-        "light-mcq-08",
-        "light-mcq-10",
         "light-mcq-07",
-        "light-mcq-11",
-        "light-mcq-06"
+        "light-pdf-001",
+        "light-mcq-31"
       ],
       "explanation": "本句的「lit up」指「臉／眼睛流露喜悅」。",
       "sentenceIndex": 21,
@@ -1662,12 +1588,10 @@ export default {
         "lit up"
       ],
       "optionReasons": {
-        "light-mcq-09": "本句指「臉／眼睛流露喜悅」。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-06": "「照亮房間」是「light a room」的用法，與本句語境不同。"
+        "light-mcq-09": "本句的「lit up」指「臉／眼睛流露喜悅」。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "light-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-09"
     },
@@ -1679,11 +1603,9 @@ export default {
       "masked": "He ____ without trying too hard.",
       "options": [
         "light-mcq-10",
-        "light-mcq-09",
-        "light-mcq-11",
-        "light-mcq-08",
-        "light-mcq-12",
-        "light-mcq-07"
+        "light-mcq-40",
+        "light-mcq-44",
+        "light-mcq-20"
       ],
       "explanation": "本句的「lights up the room」指「令全場氣氛愉快、有活力」。",
       "sentenceIndex": 22,
@@ -1692,12 +1614,10 @@ export default {
         "lights up the room"
       ],
       "optionReasons": {
-        "light-mcq-10": "本句指「令全場氣氛愉快、有活力」。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。"
+        "light-mcq-10": "本句的「lights up the room」指「令全場氣氛愉快、有活力」。",
+        "light-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-10"
     },
@@ -1709,11 +1629,9 @@ export default {
       "masked": "Her warm personality ____.",
       "options": [
         "light-mcq-10",
-        "light-mcq-09",
-        "light-mcq-11",
-        "light-mcq-08",
-        "light-mcq-12",
-        "light-mcq-07"
+        "light-mcq-43",
+        "light-mcq-37",
+        "light-mcq-27"
       ],
       "explanation": "本句的「lights up every room she enters」指「令全場氣氛愉快、有活力」。",
       "sentenceIndex": 23,
@@ -1722,12 +1640,10 @@ export default {
         "lights up every room she enters"
       ],
       "optionReasons": {
-        "light-mcq-10": "本句指「令全場氣氛愉快、有活力」。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。"
+        "light-mcq-10": "本句的「lights up every room she enters」指「令全場氣氛愉快、有活力」。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-10"
     },
@@ -1739,11 +1655,9 @@ export default {
       "masked": "The little girl's laughter ____.",
       "options": [
         "light-mcq-10",
-        "light-mcq-09",
-        "light-mcq-11",
-        "light-mcq-08",
-        "light-mcq-12",
-        "light-mcq-07"
+        "light-mcq-19",
+        "light-mcq-05",
+        "light-mcq-46"
       ],
       "explanation": "本句的「lit up the room」指「令全場氣氛愉快、有活力」。",
       "sentenceIndex": 24,
@@ -1752,12 +1666,10 @@ export default {
         "lit up the room"
       ],
       "optionReasons": {
-        "light-mcq-10": "本句指「令全場氣氛愉快、有活力」。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-07": "「亮起」是「light up」的用法，與本句語境不同。"
+        "light-mcq-10": "本句的「lit up the room」指「令全場氣氛愉快、有活力」。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-10"
     },
@@ -1769,11 +1681,9 @@ export default {
       "masked": "The kitchen is very ____ and airy.",
       "options": [
         "light-mcq-11",
-        "light-mcq-10",
-        "light-mcq-12",
-        "light-mcq-09",
-        "light-mcq-13",
-        "light-mcq-08"
+        "light-mcq-18",
+        "light-mcq-22",
+        "light-mcq-21"
       ],
       "explanation": "本句的「light」指「明亮的房間」。",
       "sentenceIndex": 25,
@@ -1782,12 +1692,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-11": "本句指「明亮的房間」。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。"
+        "light-mcq-11": "本句的「light」指「明亮的房間」。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-11"
     },
@@ -1799,11 +1707,9 @@ export default {
       "masked": "I prefer a ____ room with large windows.",
       "options": [
         "light-mcq-11",
-        "light-mcq-10",
-        "light-mcq-12",
-        "light-mcq-09",
-        "light-mcq-13",
-        "light-mcq-08"
+        "light-mcq-31",
+        "light-mcq-27",
+        "light-mcq-05"
       ],
       "explanation": "本句的「light」指「明亮的房間」。",
       "sentenceIndex": 26,
@@ -1812,12 +1718,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-11": "本句指「明亮的房間」。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-08": "「照亮天空」是「light up the sky」的用法，與本句語境不同。"
+        "light-mcq-11": "本句的「light」指「明亮的房間」。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-11"
     },
@@ -1829,11 +1733,9 @@ export default {
       "masked": "She painted the walls a ____.",
       "options": [
         "light-pdf-001",
-        "light-mcq-11",
-        "light-mcq-13",
-        "light-mcq-10",
-        "light-mcq-14",
-        "light-mcq-09"
+        "light-mcq-34",
+        "light-mcq-35",
+        "light-mcq-36"
       ],
       "explanation": "本句的「light blue」指「顏色較淡、接近白色的」。",
       "sentenceIndex": 27,
@@ -1842,12 +1744,10 @@ export default {
         "light blue"
       ],
       "optionReasons": {
-        "light-pdf-001": "本句指「顏色較淡、接近白色的」。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。"
+        "light-pdf-001": "本句的「light blue」指「顏色較淡、接近白色的」。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-pdf-001"
     },
@@ -1859,11 +1759,9 @@ export default {
       "masked": "____ make the room look larger.",
       "options": [
         "light-pdf-001",
-        "light-mcq-11",
-        "light-mcq-13",
-        "light-mcq-10",
-        "light-mcq-14",
-        "light-mcq-09"
+        "light-mcq-18",
+        "light-mcq-32",
+        "light-mcq-03"
       ],
       "explanation": "本句的「Light colours」指「顏色較淡、接近白色的」。",
       "sentenceIndex": 28,
@@ -1872,12 +1770,10 @@ export default {
         "Light colours"
       ],
       "optionReasons": {
-        "light-pdf-001": "本句指「顏色較淡、接近白色的」。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-09": "「臉／眼睛流露喜悅」是「face/eyes light up」的用法，與本句語境不同。"
+        "light-pdf-001": "本句的「Light colours」指「顏色較淡、接近白色的」。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-pdf-001"
     },
@@ -1889,11 +1785,9 @@ export default {
       "masked": "This suitcase is surprisingly ____.",
       "options": [
         "light-mcq-13",
-        "light-mcq-12",
-        "light-mcq-14",
-        "light-mcq-11",
-        "light-mcq-15",
-        "light-mcq-10"
+        "light-mcq-29",
+        "light-mcq-46",
+        "light-mcq-37"
       ],
       "explanation": "本句的「light」指「輕的袋」。",
       "sentenceIndex": 29,
@@ -1902,12 +1796,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-13": "本句指「輕的袋」。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。"
+        "light-mcq-13": "本句的「light」指「輕的袋」。",
+        "light-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-13"
     },
@@ -1919,11 +1811,9 @@ export default {
       "masked": "The box is ____ for me to carry.",
       "options": [
         "light-mcq-13",
-        "light-mcq-12",
-        "light-mcq-14",
-        "light-mcq-11",
         "light-mcq-15",
-        "light-mcq-10"
+        "light-mcq-39",
+        "light-mcq-09"
       ],
       "explanation": "本句的「light enough」指「輕的袋」。",
       "sentenceIndex": 30,
@@ -1932,12 +1822,10 @@ export default {
         "light enough"
       ],
       "optionReasons": {
-        "light-mcq-13": "本句指「輕的袋」。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-10": "「令全場氣氛愉快、有活力」是「light up the room」的用法，與本句語境不同。"
+        "light-mcq-13": "本句的「light enough」指「輕的袋」。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-13"
     },
@@ -1949,11 +1837,9 @@ export default {
       "masked": "Wear ____ in hot weather.",
       "options": [
         "light-mcq-14",
-        "light-mcq-13",
-        "light-mcq-15",
-        "light-mcq-12",
-        "light-mcq-16",
-        "light-mcq-11"
+        "light-mcq-44",
+        "light-mcq-37",
+        "light-mcq-17"
       ],
       "explanation": "本句的「light clothing」指「輕薄衣物」。",
       "sentenceIndex": 31,
@@ -1962,12 +1848,10 @@ export default {
         "light clothing"
       ],
       "optionReasons": {
-        "light-mcq-14": "本句指「輕薄衣物」。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。"
+        "light-mcq-14": "本句的「light clothing」指「輕薄衣物」。",
+        "light-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-14"
     },
@@ -1979,11 +1863,9 @@ export default {
       "masked": "The jacket is made from a ____.",
       "options": [
         "light-mcq-14",
-        "light-mcq-13",
-        "light-mcq-15",
-        "light-mcq-12",
-        "light-mcq-16",
-        "light-mcq-11"
+        "light-mcq-07",
+        "light-reviewed-895a11bc4b",
+        "light-mcq-15"
       ],
       "explanation": "本句的「light material」指「輕薄衣物」。",
       "sentenceIndex": 32,
@@ -1992,12 +1874,10 @@ export default {
         "light material"
       ],
       "optionReasons": {
-        "light-mcq-14": "本句指「輕薄衣物」。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-11": "「明亮的房間」是「light room」的用法，與本句語境不同。"
+        "light-mcq-14": "本句的「light material」指「輕薄衣物」。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-14"
     },
@@ -2009,11 +1889,9 @@ export default {
       "masked": "I only want a ____ tonight.",
       "options": [
         "light-mcq-15",
-        "light-mcq-14",
-        "light-mcq-16",
-        "light-mcq-13",
-        "light-mcq-17",
-        "light-mcq-12"
+        "light-mcq-35",
+        "light-mcq-43",
+        "light-mcq-26"
       ],
       "explanation": "本句的「light meal」指「清淡／份量少的一餐」。",
       "sentenceIndex": 33,
@@ -2022,12 +1900,10 @@ export default {
         "light meal"
       ],
       "optionReasons": {
-        "light-mcq-15": "本句指「清淡／份量少的一餐」。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。"
+        "light-mcq-15": "本句的「light meal」指「清淡／份量少的一餐」。",
+        "light-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-15"
     },
@@ -2039,11 +1915,9 @@ export default {
       "masked": "We had a ____ before the meeting.",
       "options": [
         "light-mcq-15",
-        "light-mcq-14",
-        "light-mcq-16",
-        "light-mcq-13",
-        "light-mcq-17",
-        "light-mcq-12"
+        "light-mcq-39",
+        "light-mcq-24",
+        "light-mcq-46"
       ],
       "explanation": "本句的「light lunch」指「清淡／份量少的一餐」。",
       "sentenceIndex": 34,
@@ -2052,12 +1926,10 @@ export default {
         "light lunch"
       ],
       "optionReasons": {
-        "light-mcq-15": "本句指「清淡／份量少的一餐」。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-12": "「淺藍色」是「light blue」的用法，與本句語境不同。"
+        "light-mcq-15": "本句的「light lunch」指「清淡／份量少的一餐」。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-15"
     },
@@ -2069,11 +1941,9 @@ export default {
       "masked": "He prefers ____.",
       "options": [
         "light-mcq-16",
-        "light-mcq-15",
-        "light-mcq-17",
-        "light-mcq-14",
-        "light-mcq-18",
-        "light-mcq-13"
+        "light-mcq-26",
+        "light-mcq-44",
+        "light-mcq-05"
       ],
       "explanation": "本句的「light beer」指「較淡／較低酒精啤酒」。",
       "sentenceIndex": 35,
@@ -2082,12 +1952,10 @@ export default {
         "light beer"
       ],
       "optionReasons": {
-        "light-mcq-16": "本句指「較淡／較低酒精啤酒」。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。"
+        "light-mcq-16": "本句的「light beer」指「較淡／較低酒精啤酒」。",
+        "light-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-16"
     },
@@ -2099,11 +1967,9 @@ export default {
       "masked": "This wine is pleasantly ____.",
       "options": [
         "light-mcq-16",
-        "light-mcq-15",
-        "light-mcq-17",
-        "light-mcq-14",
-        "light-mcq-18",
-        "light-mcq-13"
+        "light-mcq-36",
+        "light-mcq-29",
+        "light-mcq-28"
       ],
       "explanation": "本句的「light」指「較淡／較低酒精啤酒」。",
       "sentenceIndex": 36,
@@ -2112,12 +1978,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-16": "本句指「較淡／較低酒精啤酒」。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-13": "「輕的袋」是「light bag」的用法，與本句語境不同。"
+        "light-mcq-16": "本句的「light」指「較淡／較低酒精啤酒」。",
+        "light-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-16"
     },
@@ -2129,11 +1993,9 @@ export default {
       "masked": "There will be ____ this afternoon.",
       "options": [
         "light-mcq-17",
-        "light-mcq-16",
-        "light-mcq-18",
+        "light-mcq-32",
         "light-mcq-15",
-        "light-mcq-19",
-        "light-mcq-14"
+        "light-mcq-35"
       ],
       "explanation": "本句的「light rain」指「小雨」。",
       "sentenceIndex": 37,
@@ -2142,12 +2004,10 @@ export default {
         "light rain"
       ],
       "optionReasons": {
-        "light-mcq-17": "本句指「小雨」。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。"
+        "light-mcq-17": "本句的「light rain」指「小雨」。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-17"
     },
@@ -2159,11 +2019,9 @@ export default {
       "masked": "We had ____ overnight.",
       "options": [
         "light-mcq-17",
-        "light-mcq-16",
-        "light-mcq-18",
-        "light-mcq-15",
-        "light-mcq-19",
-        "light-mcq-14"
+        "light-mcq-10",
+        "light-mcq-20",
+        "light-mcq-22"
       ],
       "explanation": "本句的「light snow」指「小雨」。",
       "sentenceIndex": 38,
@@ -2172,12 +2030,10 @@ export default {
         "light snow"
       ],
       "optionReasons": {
-        "light-mcq-17": "本句指「小雨」。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-14": "「輕薄衣物」是「light clothing」的用法，與本句語境不同。"
+        "light-mcq-17": "本句的「light snow」指「小雨」。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-17"
     },
@@ -2189,11 +2045,9 @@ export default {
       "masked": "Traffic is usually ____ early in the morning.",
       "options": [
         "light-mcq-18",
-        "light-mcq-17",
-        "light-mcq-19",
-        "light-mcq-16",
-        "light-mcq-20",
-        "light-mcq-15"
+        "light-mcq-23",
+        "light-mcq-37",
+        "light-mcq-42"
       ],
       "explanation": "本句的「light」指「車流量少」。",
       "sentenceIndex": 39,
@@ -2202,12 +2056,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-18": "本句指「車流量少」。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。"
+        "light-mcq-18": "本句的「light」指「車流量少」。",
+        "light-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-18"
     },
@@ -2219,11 +2071,9 @@ export default {
       "masked": "We arrived quickly because the traffic was ____.",
       "options": [
         "light-mcq-18",
-        "light-mcq-17",
-        "light-mcq-19",
-        "light-mcq-16",
-        "light-mcq-20",
-        "light-mcq-15"
+        "light-mcq-24",
+        "light-mcq-34",
+        "light-reviewed-895a11bc4b"
       ],
       "explanation": "本句的「light」指「車流量少」。",
       "sentenceIndex": 40,
@@ -2232,12 +2082,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-18": "本句指「車流量少」。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-15": "「清淡／份量少的一餐」是「light meal」的用法，與本句語境不同。"
+        "light-mcq-18": "本句的「light」指「車流量少」。",
+        "light-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-18"
     },
@@ -2249,11 +2097,9 @@ export default {
       "masked": "My workload is fairly ____ this week.",
       "options": [
         "light-mcq-19",
-        "light-mcq-18",
-        "light-mcq-20",
-        "light-mcq-17",
-        "light-mcq-21",
-        "light-mcq-16"
+        "light-mcq-10",
+        "light-reviewed-895a11bc4b",
+        "light-mcq-30"
       ],
       "explanation": "本句的「light」指「工作量較少」。",
       "sentenceIndex": 41,
@@ -2262,12 +2108,10 @@ export default {
         "light"
       ],
       "optionReasons": {
-        "light-mcq-19": "本句指「工作量較少」。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。"
+        "light-mcq-19": "本句的「light」指「工作量較少」。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-19"
     },
@@ -2279,11 +2123,9 @@ export default {
       "masked": "He returned to ____ after his injury.",
       "options": [
         "light-mcq-19",
-        "light-mcq-18",
-        "light-mcq-20",
-        "light-mcq-17",
-        "light-mcq-21",
-        "light-mcq-16"
+        "light-mcq-28",
+        "light-mcq-27",
+        "light-mcq-03"
       ],
       "explanation": "本句的「light duties」指「工作量較少」。",
       "sentenceIndex": 42,
@@ -2292,12 +2134,10 @@ export default {
         "light duties"
       ],
       "optionReasons": {
-        "light-mcq-19": "本句指「工作量較少」。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-16": "「較淡／較低酒精啤酒」是「light beer」的用法，與本句語境不同。"
+        "light-mcq-19": "本句的「light duties」指「工作量較少」。",
+        "light-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-19"
     },
@@ -2309,11 +2149,9 @@ export default {
       "masked": "The doctor recommended ____.",
       "options": [
         "light-mcq-20",
-        "light-mcq-19",
-        "light-mcq-21",
-        "light-mcq-18",
-        "light-mcq-22",
-        "light-mcq-17"
+        "light-mcq-34",
+        "light-mcq-02",
+        "light-mcq-39"
       ],
       "explanation": "本句的「light exercise」指「輕量運動」。",
       "sentenceIndex": 43,
@@ -2322,12 +2160,10 @@ export default {
         "light exercise"
       ],
       "optionReasons": {
-        "light-mcq-20": "本句指「輕量運動」。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。"
+        "light-mcq-20": "本句的「light exercise」指「輕量運動」。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-20"
     },
@@ -2339,11 +2175,9 @@ export default {
       "masked": "Start with some ____.",
       "options": [
         "light-mcq-20",
-        "light-mcq-19",
-        "light-mcq-21",
-        "light-mcq-18",
-        "light-mcq-22",
-        "light-mcq-17"
+        "light-mcq-39",
+        "light-mcq-36",
+        "light-mcq-07"
       ],
       "explanation": "本句的「light stretching」指「輕量運動」。",
       "sentenceIndex": 44,
@@ -2352,12 +2186,10 @@ export default {
         "light stretching"
       ],
       "optionReasons": {
-        "light-mcq-20": "本句指「輕量運動」。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-17": "「小雨」是「light rain」的用法，與本句語境不同。"
+        "light-mcq-20": "本句的「light stretching」指「輕量運動」。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-20"
     },
@@ -2369,11 +2201,9 @@ export default {
       "masked": "She felt a ____ on her shoulder.",
       "options": [
         "light-mcq-21",
-        "light-mcq-20",
-        "light-mcq-22",
-        "light-mcq-19",
-        "light-mcq-23",
-        "light-mcq-18"
+        "light-mcq-03",
+        "light-mcq-17",
+        "light-mcq-42"
       ],
       "explanation": "本句的「light touch」指「輕觸」。",
       "sentenceIndex": 45,
@@ -2382,12 +2212,10 @@ export default {
         "light touch"
       ],
       "optionReasons": {
-        "light-mcq-21": "本句指「輕觸」。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。"
+        "light-mcq-21": "本句的「light touch」指「輕觸」。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-21"
     },
@@ -2399,11 +2227,9 @@ export default {
       "masked": "Use a ____ when applying the paint.",
       "options": [
         "light-mcq-21",
-        "light-mcq-20",
-        "light-mcq-22",
-        "light-mcq-19",
-        "light-mcq-23",
-        "light-mcq-18"
+        "light-mcq-39",
+        "light-mcq-11",
+        "light-mcq-19"
       ],
       "explanation": "本句的「light touch」指「輕觸」。",
       "sentenceIndex": 46,
@@ -2412,12 +2238,10 @@ export default {
         "light touch"
       ],
       "optionReasons": {
-        "light-mcq-21": "本句指「輕觸」。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-18": "「車流量少」是「light traffic」的用法，與本句語境不同。"
+        "light-mcq-21": "本句的「light touch」指「輕觸」。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-21"
     },
@@ -2429,11 +2253,9 @@ export default {
       "masked": "I'm a very ____.",
       "options": [
         "light-mcq-22",
-        "light-mcq-21",
-        "light-mcq-23",
-        "light-mcq-20",
-        "light-mcq-24",
-        "light-mcq-19"
+        "light-mcq-39",
+        "light-mcq-31",
+        "light-mcq-14"
       ],
       "explanation": "本句的「light sleeper」指「淺睡」。",
       "sentenceIndex": 47,
@@ -2442,12 +2264,10 @@ export default {
         "light sleeper"
       ],
       "optionReasons": {
-        "light-mcq-22": "本句指「淺睡」。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。"
+        "light-mcq-22": "本句的「light sleeper」指「淺睡」。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-22"
     },
@@ -2459,11 +2279,9 @@ export default {
       "masked": "She was in a ____ when the phone rang.",
       "options": [
         "light-mcq-22",
-        "light-mcq-21",
-        "light-mcq-23",
-        "light-mcq-20",
-        "light-mcq-24",
-        "light-mcq-19"
+        "light-mcq-05",
+        "light-mcq-45",
+        "light-mcq-09"
       ],
       "explanation": "本句的「light sleep」指「淺睡」。",
       "sentenceIndex": 48,
@@ -2472,12 +2290,10 @@ export default {
         "light sleep"
       ],
       "optionReasons": {
-        "light-mcq-22": "本句指「淺睡」。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-19": "「工作量較少」是「light workload」的用法，與本句語境不同。"
+        "light-mcq-22": "本句的「light sleep」指「淺睡」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-22"
     },
@@ -2489,11 +2305,9 @@ export default {
       "masked": "I wanted some ____ for the journey.",
       "options": [
         "light-mcq-23",
-        "light-mcq-22",
-        "light-mcq-24",
-        "light-mcq-21",
-        "light-mcq-25",
-        "light-mcq-20"
+        "light-reviewed-895a11bc4b",
+        "light-mcq-19",
+        "light-mcq-33"
       ],
       "explanation": "本句的「light reading」指「輕鬆讀物」。",
       "sentenceIndex": 49,
@@ -2502,12 +2316,10 @@ export default {
         "light reading"
       ],
       "optionReasons": {
-        "light-mcq-23": "本句指「輕鬆讀物」。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。"
+        "light-mcq-23": "本句的「light reading」指「輕鬆讀物」。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-23"
     },
@@ -2519,11 +2331,9 @@ export default {
       "masked": "The programme provides ____.",
       "options": [
         "light-mcq-23",
-        "light-mcq-22",
-        "light-mcq-24",
-        "light-mcq-21",
-        "light-mcq-25",
-        "light-mcq-20"
+        "light-mcq-28",
+        "light-mcq-01",
+        "light-mcq-18"
       ],
       "explanation": "本句的「light entertainment」指「輕鬆讀物」。",
       "sentenceIndex": 50,
@@ -2532,12 +2342,10 @@ export default {
         "light entertainment"
       ],
       "optionReasons": {
-        "light-mcq-23": "本句指「輕鬆讀物」。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-20": "「輕量運動」是「light exercise」的用法，與本句語境不同。"
+        "light-mcq-23": "本句的「light entertainment」指「輕鬆讀物」。",
+        "light-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-23"
     },
@@ -2549,11 +2357,9 @@ export default {
       "masked": "The film is mostly ____.",
       "options": [
         "light-mcq-24",
-        "light-mcq-23",
-        "light-mcq-25",
-        "light-mcq-22",
-        "light-mcq-26",
-        "light-mcq-21"
+        "light-mcq-15",
+        "light-mcq-07",
+        "light-mcq-34"
       ],
       "explanation": "本句的「light-hearted」指「輕鬆愉快的」。",
       "sentenceIndex": 51,
@@ -2562,12 +2368,10 @@ export default {
         "light-hearted"
       ],
       "optionReasons": {
-        "light-mcq-24": "本句指「輕鬆愉快的」。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。"
+        "light-mcq-24": "本句的「light-hearted」指「輕鬆愉快的」。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-24"
     },
@@ -2579,11 +2383,9 @@ export default {
       "masked": "They had a ____ over dinner.",
       "options": [
         "light-mcq-24",
-        "light-mcq-23",
-        "light-mcq-25",
-        "light-mcq-22",
-        "light-mcq-26",
-        "light-mcq-21"
+        "light-mcq-05",
+        "light-mcq-03",
+        "light-mcq-16"
       ],
       "explanation": "本句的「light-hearted conversation」指「輕鬆愉快的」。",
       "sentenceIndex": 52,
@@ -2592,12 +2394,10 @@ export default {
         "light-hearted conversation"
       ],
       "optionReasons": {
-        "light-mcq-24": "本句指「輕鬆愉快的」。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-21": "「輕觸」是「light touch」的用法，與本句語境不同。"
+        "light-mcq-24": "本句的「light-hearted conversation」指「輕鬆愉快的」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-24"
     },
@@ -2609,11 +2409,9 @@ export default {
       "masked": "Don't ____ the problem.",
       "options": [
         "light-mcq-25",
-        "light-mcq-24",
-        "light-mcq-26",
-        "light-mcq-23",
-        "light-mcq-27",
-        "light-mcq-22"
+        "light-mcq-43",
+        "light-mcq-33",
+        "light-mcq-34"
       ],
       "explanation": "本句的「make light of」指「輕視；淡化」。",
       "sentenceIndex": 53,
@@ -2622,12 +2420,10 @@ export default {
         "make light of"
       ],
       "optionReasons": {
-        "light-mcq-25": "本句指「輕視；淡化」。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。"
+        "light-mcq-25": "本句的「make light of」指「輕視；淡化」。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-25"
     },
@@ -2639,11 +2435,9 @@ export default {
       "masked": "He tried to ____ his injury.",
       "options": [
         "light-mcq-25",
-        "light-mcq-24",
-        "light-mcq-26",
-        "light-mcq-23",
-        "light-mcq-27",
-        "light-mcq-22"
+        "light-mcq-33",
+        "light-mcq-22",
+        "light-mcq-19"
       ],
       "explanation": "本句的「make light of」指「輕視；淡化」。",
       "sentenceIndex": 54,
@@ -2652,12 +2446,10 @@ export default {
         "make light of"
       ],
       "optionReasons": {
-        "light-mcq-25": "本句指「輕視；淡化」。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-22": "「淺睡」是「light sleep」的用法，與本句語境不同。"
+        "light-mcq-25": "本句的「make light of」指「輕視；淡化」。",
+        "light-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-25"
     },
@@ -2669,11 +2461,9 @@ export default {
       "masked": "You shouldn't ____.",
       "options": [
         "light-mcq-26",
-        "light-mcq-25",
-        "light-mcq-27",
-        "light-mcq-24",
-        "light-mcq-28",
-        "light-mcq-23"
+        "light-mcq-03",
+        "light-mcq-34",
+        "light-mcq-18"
       ],
       "explanation": "本句的「take this decision lightly」指「輕率看待」。",
       "sentenceIndex": 55,
@@ -2682,12 +2472,10 @@ export default {
         "take this decision lightly"
       ],
       "optionReasons": {
-        "light-mcq-26": "本句指「輕率看待」。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。"
+        "light-mcq-26": "本句的「take this decision lightly」指「輕率看待」。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-26"
     },
@@ -2699,11 +2487,9 @@ export default {
       "masked": "Safety is not something we ____.",
       "options": [
         "light-mcq-26",
-        "light-mcq-25",
-        "light-mcq-27",
-        "light-mcq-24",
-        "light-mcq-28",
-        "light-mcq-23"
+        "light-mcq-05",
+        "light-mcq-31",
+        "light-mcq-39"
       ],
       "explanation": "本句的「take lightly」指「輕率看待」。",
       "sentenceIndex": 56,
@@ -2712,12 +2498,10 @@ export default {
         "take lightly"
       ],
       "optionReasons": {
-        "light-mcq-26": "本句指「輕率看待」。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-23": "「輕鬆讀物」是「light reading」的用法，與本句語境不同。"
+        "light-mcq-26": "本句的「take lightly」指「輕率看待」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-26"
     },
@@ -2729,11 +2513,9 @@ export default {
       "masked": "She ____ his arm.",
       "options": [
         "light-mcq-27",
-        "light-mcq-26",
-        "light-mcq-28",
-        "light-mcq-25",
-        "light-mcq-29",
-        "light-mcq-24"
+        "light-mcq-05",
+        "light-mcq-44",
+        "light-mcq-17"
       ],
       "explanation": "本句的「lightly touched」指「輕輕地；輕微地」。",
       "sentenceIndex": 57,
@@ -2742,12 +2524,10 @@ export default {
         "lightly touched"
       ],
       "optionReasons": {
-        "light-mcq-27": "本句指「輕輕地；輕微地」。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。"
+        "light-mcq-27": "本句的「lightly touched」指「輕輕地；輕微地」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-27"
     },
@@ -2759,11 +2539,9 @@ export default {
       "masked": "Dust the cake ____ with sugar.",
       "options": [
         "light-mcq-27",
-        "light-mcq-26",
-        "light-mcq-28",
-        "light-mcq-25",
+        "light-mcq-10",
         "light-mcq-29",
-        "light-mcq-24"
+        "light-mcq-36"
       ],
       "explanation": "本句的「lightly」指「輕輕地；輕微地」。",
       "sentenceIndex": 58,
@@ -2772,12 +2550,10 @@ export default {
         "lightly"
       ],
       "optionReasons": {
-        "light-mcq-27": "本句指「輕輕地；輕微地」。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-24": "「輕鬆愉快的」是「light-hearted」的用法，與本句語境不同。"
+        "light-mcq-27": "本句的「lightly」指「輕輕地；輕微地」。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-27"
     },
@@ -2790,10 +2566,8 @@ export default {
       "options": [
         "light-mcq-45",
         "light-mcq-44",
-        "light-mcq-46",
-        "light-mcq-43",
-        "light-mcq-42",
-        "light-mcq-41"
+        "light-mcq-32",
+        "light-mcq-17"
       ],
       "explanation": "本句的「lightly dressed」指「以較少、較薄或程度不深的方式」。",
       "sentenceIndex": 59,
@@ -2802,12 +2576,10 @@ export default {
         "lightly dressed"
       ],
       "optionReasons": {
-        "light-mcq-45": "本句指「以較少、較薄或程度不深的方式」。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-46": "「以某種方式塑造別人對某人的看法」是「42. paint/present someone in a good/bad light — 把某人描寫得好／差」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。"
+        "light-mcq-45": "本句的「lightly dressed」指「以較少、較薄或程度不深的方式」。",
+        "light-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-45"
     },
@@ -2819,11 +2591,9 @@ export default {
       "masked": "The ground was ____ with snow.",
       "options": [
         "light-mcq-45",
-        "light-mcq-44",
-        "light-mcq-46",
-        "light-mcq-43",
-        "light-mcq-42",
-        "light-mcq-41"
+        "light-mcq-34",
+        "light-mcq-02",
+        "light-mcq-20"
       ],
       "explanation": "本句的「lightly covered」指「以較少、較薄或程度不深的方式」。",
       "sentenceIndex": 60,
@@ -2832,12 +2602,10 @@ export default {
         "lightly covered"
       ],
       "optionReasons": {
-        "light-mcq-45": "本句指「以較少、較薄或程度不深的方式」。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-46": "「以某種方式塑造別人對某人的看法」是「42. paint/present someone in a good/bad light — 把某人描寫得好／差」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。"
+        "light-mcq-45": "本句的「lightly covered」指「以較少、較薄或程度不深的方式」。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-45"
     },
@@ -2849,11 +2617,9 @@ export default {
       "masked": "White walls can ____ a dark room.",
       "options": [
         "light-mcq-28",
-        "light-mcq-27",
-        "light-mcq-29",
-        "light-mcq-26",
-        "light-mcq-30",
-        "light-mcq-25"
+        "light-mcq-45",
+        "light-mcq-02",
+        "light-mcq-32"
       ],
       "explanation": "本句的「lighten」指「使房間變亮」。",
       "sentenceIndex": 61,
@@ -2862,12 +2628,10 @@ export default {
         "lighten"
       ],
       "optionReasons": {
-        "light-mcq-28": "本句指「使房間變亮」。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。"
+        "light-mcq-28": "本句的「lighten」指「使房間變亮」。",
+        "light-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-28"
     },
@@ -2879,11 +2643,9 @@ export default {
       "masked": "The sky began to ____ before sunrise.",
       "options": [
         "light-mcq-28",
-        "light-mcq-27",
-        "light-mcq-29",
-        "light-mcq-26",
-        "light-mcq-30",
-        "light-mcq-25"
+        "light-mcq-39",
+        "light-mcq-25",
+        "light-mcq-15"
       ],
       "explanation": "本句的「lighten」指「使房間變亮」。",
       "sentenceIndex": 62,
@@ -2892,12 +2654,10 @@ export default {
         "lighten"
       ],
       "optionReasons": {
-        "light-mcq-28": "本句指「使房間變亮」。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-25": "「輕視；淡化」是「make light of」的用法，與本句語境不同。"
+        "light-mcq-28": "本句的「lighten」指「使房間變亮」。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-28"
     },
@@ -2909,11 +2669,9 @@ export default {
       "masked": "The sun ____ her hair.",
       "options": [
         "light-mcq-29",
-        "light-mcq-28",
-        "light-mcq-30",
-        "light-mcq-27",
-        "light-mcq-31",
-        "light-mcq-26"
+        "light-mcq-45",
+        "light-mcq-17",
+        "light-mcq-39"
       ],
       "explanation": "本句的「lightened」指「使顏色變淺」。",
       "sentenceIndex": 63,
@@ -2922,12 +2680,10 @@ export default {
         "lightened"
       ],
       "optionReasons": {
-        "light-mcq-29": "本句指「使顏色變淺」。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。"
+        "light-mcq-29": "本句的「lightened」指「使顏色變淺」。",
+        "light-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-29"
     },
@@ -2939,11 +2695,9 @@ export default {
       "masked": "Add some white paint to ____.",
       "options": [
         "light-mcq-29",
-        "light-mcq-28",
-        "light-mcq-30",
-        "light-mcq-27",
-        "light-mcq-31",
-        "light-mcq-26"
+        "light-mcq-07",
+        "light-mcq-17",
+        "light-mcq-34"
       ],
       "explanation": "本句的「lighten the colour」指「使顏色變淺」。",
       "sentenceIndex": 64,
@@ -2952,12 +2706,10 @@ export default {
         "lighten the colour"
       ],
       "optionReasons": {
-        "light-mcq-29": "本句指「使顏色變淺」。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-26": "「輕率看待」是「take lightly」的用法，與本句語境不同。"
+        "light-mcq-29": "本句的「lighten the colour」指「使顏色變淺」。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-29"
     },
@@ -2969,11 +2721,9 @@ export default {
       "masked": "Let me carry one of those bags to ____.",
       "options": [
         "light-mcq-30",
-        "light-mcq-29",
-        "light-mcq-31",
-        "light-mcq-28",
-        "light-mcq-32",
-        "light-mcq-27"
+        "light-mcq-10",
+        "light-mcq-46",
+        "light-mcq-03"
       ],
       "explanation": "本句的「lighten your load」指「減輕負擔」。",
       "sentenceIndex": 65,
@@ -2982,12 +2732,10 @@ export default {
         "lighten your load"
       ],
       "optionReasons": {
-        "light-mcq-30": "本句指「減輕負擔」。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。"
+        "light-mcq-30": "本句的「lighten your load」指「減輕負擔」。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-30"
     },
@@ -2999,11 +2747,9 @@ export default {
       "masked": "Extra staff helped ____.",
       "options": [
         "light-mcq-30",
-        "light-mcq-29",
-        "light-mcq-31",
-        "light-mcq-28",
-        "light-mcq-32",
-        "light-mcq-27"
+        "light-mcq-45",
+        "light-mcq-15",
+        "light-mcq-37"
       ],
       "explanation": "本句的「lighten her workload」指「減輕負擔」。",
       "sentenceIndex": 66,
@@ -3012,12 +2758,10 @@ export default {
         "lighten her workload"
       ],
       "optionReasons": {
-        "light-mcq-30": "本句指「減輕負擔」。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-27": "「輕輕地；輕微地」是「lightly」的用法，與本句語境不同。"
+        "light-mcq-30": "本句的「lighten her workload」指「減輕負擔」。",
+        "light-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-30"
     },
@@ -3029,11 +2773,9 @@ export default {
       "masked": "He told a joke to ____.",
       "options": [
         "light-mcq-31",
-        "light-mcq-30",
-        "light-mcq-32",
-        "light-mcq-29",
-        "light-mcq-33",
-        "light-mcq-28"
+        "light-pdf-001",
+        "light-mcq-34",
+        "light-mcq-40"
       ],
       "explanation": "本句的「lighten the mood」指「緩和氣氛」。",
       "sentenceIndex": 67,
@@ -3042,12 +2784,10 @@ export default {
         "lighten the mood"
       ],
       "optionReasons": {
-        "light-mcq-31": "本句指「緩和氣氛」。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。"
+        "light-mcq-31": "本句的「lighten the mood」指「緩和氣氛」。",
+        "light-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-31"
     },
@@ -3060,10 +2800,8 @@ export default {
       "options": [
         "light-mcq-31",
         "light-mcq-30",
-        "light-mcq-32",
-        "light-mcq-29",
-        "light-mcq-33",
-        "light-mcq-28"
+        "light-mcq-07",
+        "light-mcq-46"
       ],
       "explanation": "本句的「lightened the atmosphere」指「緩和氣氛」。",
       "sentenceIndex": 68,
@@ -3072,12 +2810,10 @@ export default {
         "lightened the atmosphere"
       ],
       "optionReasons": {
-        "light-mcq-31": "本句指「緩和氣氛」。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-28": "「使房間變亮」是「lighten a room」的用法，與本句語境不同。"
+        "light-mcq-31": "本句的「lightened the atmosphere」指「緩和氣氛」。",
+        "light-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-31"
     },
@@ -3089,11 +2825,9 @@ export default {
       "masked": "____! It was only a joke.",
       "options": [
         "light-mcq-32",
-        "light-mcq-31",
-        "light-mcq-33",
-        "light-mcq-30",
-        "light-mcq-34",
-        "light-mcq-29"
+        "light-mcq-02",
+        "light-mcq-37",
+        "light-mcq-34"
       ],
       "explanation": "本句的「Lighten up」指「放輕鬆」。",
       "sentenceIndex": 69,
@@ -3102,12 +2836,10 @@ export default {
         "Lighten up"
       ],
       "optionReasons": {
-        "light-mcq-32": "本句指「放輕鬆」。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。"
+        "light-mcq-32": "本句的「Lighten up」指「放輕鬆」。",
+        "light-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-32"
     },
@@ -3119,11 +2851,9 @@ export default {
       "masked": "He needs to ____ and stop worrying about every small mistake.",
       "options": [
         "light-mcq-32",
-        "light-mcq-31",
-        "light-mcq-33",
-        "light-mcq-30",
-        "light-mcq-34",
-        "light-mcq-29"
+        "light-mcq-43",
+        "light-mcq-15",
+        "light-mcq-22"
       ],
       "explanation": "本句的「lighten up」指「放輕鬆」。",
       "sentenceIndex": 70,
@@ -3132,74 +2862,68 @@ export default {
         "lighten up"
       ],
       "optionReasons": {
-        "light-mcq-32": "本句指「放輕鬆」。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-29": "「使顏色變淺」是「lighten a colour」的用法，與本句語境不同。"
+        "light-mcq-32": "本句的「lighten up」指「放輕鬆」。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-32"
     },
     {
       "id": "light-36-0",
-      "sense": "light-mcq-33",
+      "sense": "light-reviewed-895a11bc4b",
       "en": "The colour looks different in natural light.",
       "zh": "這個顏色在自然光下看起來不一樣。",
       "masked": "The colour looks different ____.",
       "options": [
-        "light-mcq-33",
-        "light-mcq-32",
-        "light-mcq-34",
-        "light-mcq-31",
-        "light-mcq-35",
-        "light-mcq-30"
+        "light-reviewed-895a11bc4b",
+        "light-mcq-05",
+        "light-mcq-21",
+        "light-mcq-03"
       ],
-      "explanation": "本句的「in natural light」指「鑑於；考慮到」。",
+      "explanation": "對照完整句子：「這個顏色在自然光下看起來不一樣。」。這裡的「in natural light」表示「在有光線照射的情況下」。",
       "sentenceIndex": 71,
       "sourcePractice": 1,
       "targets": [
         "in natural light"
       ],
       "optionReasons": {
-        "light-mcq-33": "本句指「鑑於；考慮到」。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。"
+        "light-reviewed-895a11bc4b": "對照完整句子：「這個顏色在自然光下看起來不一樣。」。這裡的「in natural light」表示「在有光線照射的情況下」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "light-mcq-33"
+      "correctOption": "light-reviewed-895a11bc4b",
+      "previousCorrectOption": "light-mcq-33",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "light-36-1",
-      "sense": "light-mcq-33",
+      "sense": "light-reviewed-895a11bc4b",
       "en": "Hold the photograph up to the light.",
       "zh": "把照片拿到光線下看看。",
       "masked": "Hold the photograph up to the ____.",
       "options": [
-        "light-mcq-33",
-        "light-mcq-32",
-        "light-mcq-34",
+        "light-reviewed-895a11bc4b",
         "light-mcq-31",
-        "light-mcq-35",
-        "light-mcq-30"
+        "light-mcq-19",
+        "light-mcq-35"
       ],
-      "explanation": "本句的「light」指「鑑於；考慮到」。",
+      "explanation": "對照完整句子：「把照片拿到光線下看看。」。這裡的「light」表示「在有光線照射的情況下」。",
       "sentenceIndex": 72,
       "sourcePractice": 2,
       "targets": [
         "light"
       ],
       "optionReasons": {
-        "light-mcq-33": "本句指「鑑於；考慮到」。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。"
+        "light-reviewed-895a11bc4b": "對照完整句子：「把照片拿到光線下看看。」。這裡的「light」表示「在有光線照射的情況下」。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "light-mcq-33"
+      "correctOption": "light-reviewed-895a11bc4b",
+      "previousCorrectOption": "light-mcq-33",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "light-37-0",
@@ -3209,11 +2933,9 @@ export default {
       "masked": "____ the new evidence, the decision was reviewed.",
       "options": [
         "light-mcq-33",
-        "light-mcq-32",
-        "light-mcq-34",
-        "light-mcq-31",
-        "light-mcq-35",
-        "light-mcq-30"
+        "light-mcq-05",
+        "light-mcq-28",
+        "light-mcq-25"
       ],
       "explanation": "本句的「In light of」指「鑑於；考慮到」。",
       "sentenceIndex": 73,
@@ -3222,12 +2944,10 @@ export default {
         "In light of"
       ],
       "optionReasons": {
-        "light-mcq-33": "本句指「鑑於；考慮到」。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。"
+        "light-mcq-33": "本句的「In light of」指「鑑於；考慮到」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-33"
     },
@@ -3239,11 +2959,9 @@ export default {
       "masked": "We changed our plans ____ the weather forecast.",
       "options": [
         "light-mcq-33",
-        "light-mcq-32",
-        "light-mcq-34",
-        "light-mcq-31",
-        "light-mcq-35",
-        "light-mcq-30"
+        "light-mcq-16",
+        "light-mcq-19",
+        "light-mcq-37"
       ],
       "explanation": "本句的「in light of」指「鑑於；考慮到」。",
       "sentenceIndex": 74,
@@ -3252,12 +2970,10 @@ export default {
         "in light of"
       ],
       "optionReasons": {
-        "light-mcq-33": "本句指「鑑於；考慮到」。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-30": "「減輕負擔」是「lighten a burden」的用法，與本句語境不同。"
+        "light-mcq-33": "本句的「in light of」指「鑑於；考慮到」。",
+        "light-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-33"
     },
@@ -3269,11 +2985,9 @@ export default {
       "masked": "The report ____ the causes of the problem.",
       "options": [
         "light-mcq-34",
-        "light-mcq-33",
-        "light-mcq-35",
-        "light-mcq-32",
-        "light-mcq-36",
-        "light-mcq-31"
+        "light-mcq-26",
+        "light-mcq-16",
+        "light-mcq-01"
       ],
       "explanation": "本句的「sheds light on」指「闡明」。",
       "sentenceIndex": 75,
@@ -3282,12 +2996,10 @@ export default {
         "sheds light on"
       ],
       "optionReasons": {
-        "light-mcq-34": "本句指「闡明」。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。"
+        "light-mcq-34": "本句的「sheds light on」指「闡明」。",
+        "light-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-34"
     },
@@ -3299,11 +3011,9 @@ export default {
       "masked": "Her explanation ____ the situation.",
       "options": [
         "light-mcq-34",
-        "light-mcq-33",
-        "light-mcq-35",
-        "light-mcq-32",
+        "light-mcq-03",
         "light-mcq-36",
-        "light-mcq-31"
+        "light-mcq-05"
       ],
       "explanation": "本句的「shed new light on」指「闡明」。",
       "sentenceIndex": 76,
@@ -3312,12 +3022,10 @@ export default {
         "shed new light on"
       ],
       "optionReasons": {
-        "light-mcq-34": "本句指「闡明」。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。",
-        "light-mcq-31": "「緩和氣氛」是「lighten the mood」的用法，與本句語境不同。"
+        "light-mcq-34": "本句的「shed new light on」指「闡明」。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-34"
     },
@@ -3329,11 +3037,9 @@ export default {
       "masked": "The investigation ____.",
       "options": [
         "light-mcq-35",
-        "light-mcq-34",
-        "light-mcq-36",
-        "light-mcq-33",
-        "light-mcq-37",
-        "light-mcq-32"
+        "light-mcq-14",
+        "light-mcq-42",
+        "light-mcq-15"
       ],
       "explanation": "本句的「brought several problems to light」指「揭露」。",
       "sentenceIndex": 77,
@@ -3342,12 +3048,10 @@ export default {
         "brought several problems to light"
       ],
       "optionReasons": {
-        "light-mcq-35": "本句指「揭露」。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。"
+        "light-mcq-35": "本句的「brought several problems to light」指「揭露」。",
+        "light-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-35"
     },
@@ -3359,11 +3063,9 @@ export default {
       "masked": "New documents ____.",
       "options": [
         "light-mcq-35",
-        "light-mcq-34",
-        "light-mcq-36",
-        "light-mcq-33",
-        "light-mcq-37",
-        "light-mcq-32"
+        "light-mcq-21",
+        "light-mcq-03",
+        "light-mcq-10"
       ],
       "explanation": "本句的「brought the truth to light」指「揭露」。",
       "sentenceIndex": 78,
@@ -3372,12 +3074,10 @@ export default {
         "brought the truth to light"
       ],
       "optionReasons": {
-        "light-mcq-35": "本句指「揭露」。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。",
-        "light-mcq-32": "「放輕鬆」是「lighten up」的用法，與本句語境不同。"
+        "light-mcq-35": "本句的「brought the truth to light」指「揭露」。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-35"
     },
@@ -3389,11 +3089,9 @@ export default {
       "masked": "New evidence has ____.",
       "options": [
         "light-mcq-36",
-        "light-mcq-35",
-        "light-mcq-37",
-        "light-mcq-34",
-        "light-mcq-38",
-        "light-mcq-33"
+        "light-mcq-42",
+        "light-mcq-24",
+        "light-mcq-30"
       ],
       "explanation": "本句的「come to light」指「被發現；曝光」。",
       "sentenceIndex": 79,
@@ -3402,12 +3100,10 @@ export default {
         "come to light"
       ],
       "optionReasons": {
-        "light-mcq-36": "本句指「被發現；曝光」。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。"
+        "light-mcq-36": "本句的「come to light」指「被發現；曝光」。",
+        "light-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-36"
     },
@@ -3419,11 +3115,9 @@ export default {
       "masked": "Several mistakes ____ during the review.",
       "options": [
         "light-mcq-36",
-        "light-mcq-35",
-        "light-mcq-37",
-        "light-mcq-34",
-        "light-mcq-38",
-        "light-mcq-33"
+        "light-mcq-05",
+        "light-mcq-07",
+        "light-mcq-40"
       ],
       "explanation": "本句的「came to light」指「被發現；曝光」。",
       "sentenceIndex": 80,
@@ -3432,12 +3126,10 @@ export default {
         "came to light"
       ],
       "optionReasons": {
-        "light-mcq-36": "本句指「被發現；曝光」。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-33": "「鑑於；考慮到」是「in light of」的用法，與本句語境不同。"
+        "light-mcq-36": "本句的「came to light」指「被發現；曝光」。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-36"
     },
@@ -3449,11 +3141,9 @@ export default {
       "masked": "The conversation made me ____.",
       "options": [
         "light-mcq-37",
-        "light-mcq-36",
-        "light-mcq-38",
-        "light-mcq-35",
-        "light-mcq-39",
-        "light-mcq-34"
+        "light-reviewed-895a11bc4b",
+        "light-mcq-31",
+        "light-mcq-28"
       ],
       "explanation": "本句的「see the problem in a different light」指「以新角度看」。",
       "sentenceIndex": 81,
@@ -3462,12 +3152,10 @@ export default {
         "see the problem in a different light"
       ],
       "optionReasons": {
-        "light-mcq-37": "本句指「以新角度看」。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。"
+        "light-mcq-37": "本句的「see the problem in a different light」指「以新角度看」。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-37"
     },
@@ -3479,11 +3167,9 @@ export default {
       "masked": "After hearing her explanation, I saw him ____.",
       "options": [
         "light-mcq-37",
-        "light-mcq-36",
-        "light-mcq-38",
-        "light-mcq-35",
-        "light-mcq-39",
-        "light-mcq-34"
+        "light-mcq-22",
+        "light-mcq-44",
+        "light-mcq-18"
       ],
       "explanation": "本句的「in a new light」指「以新角度看」。",
       "sentenceIndex": 82,
@@ -3492,12 +3178,10 @@ export default {
         "in a new light"
       ],
       "optionReasons": {
-        "light-mcq-37": "本句指「以新角度看」。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-35": "「揭露」是「bring to light」的用法，與本句語境不同。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。",
-        "light-mcq-34": "「闡明」是「shed light on」的用法，與本句語境不同。"
+        "light-mcq-37": "本句的「in a new light」指「以新角度看」。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-37"
     },
@@ -3509,11 +3193,9 @@ export default {
       "masked": "The article presents the company ____.",
       "options": [
         "light-mcq-46",
-        "light-mcq-45",
-        "light-mcq-44",
         "light-mcq-43",
-        "light-mcq-42",
-        "light-mcq-41"
+        "light-mcq-05",
+        "light-mcq-21"
       ],
       "explanation": "本句的「in a positive light」指「以某種方式塑造別人對某人的看法」。",
       "sentenceIndex": 83,
@@ -3522,12 +3204,10 @@ export default {
         "in a positive light"
       ],
       "optionReasons": {
-        "light-mcq-46": "本句指「以某種方式塑造別人對某人的看法」。",
-        "light-mcq-45": "「以較少、較薄或程度不深的方式」是「30. lightly dressed / lightly covered — 穿得單薄；覆蓋得很少」的用法，與本句語境不同。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。"
+        "light-mcq-46": "本句的「in a positive light」指「以某種方式塑造別人對某人的看法」。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-46"
     },
@@ -3539,11 +3219,9 @@ export default {
       "masked": "The report showed the manager ____.",
       "options": [
         "light-mcq-46",
-        "light-mcq-45",
-        "light-mcq-44",
-        "light-mcq-43",
-        "light-mcq-42",
-        "light-mcq-41"
+        "light-mcq-27",
+        "light-mcq-01",
+        "light-mcq-22"
       ],
       "explanation": "本句的「in a bad light」指「以某種方式塑造別人對某人的看法」。",
       "sentenceIndex": 84,
@@ -3552,12 +3230,10 @@ export default {
         "in a bad light"
       ],
       "optionReasons": {
-        "light-mcq-46": "本句指「以某種方式塑造別人對某人的看法」。",
-        "light-mcq-45": "「以較少、較薄或程度不深的方式」是「30. lightly dressed / lightly covered — 穿得單薄；覆蓋得很少」的用法，與本句語境不同。",
-        "light-mcq-44": "「使某個地方因光線而變得明亮」是「10. light something up（照亮某地） — 把……照亮」的用法，與本句語境不同。",
-        "light-mcq-43": "「向某個地方提供光線，使其變亮」是「8. light something / be lit by（照亮） — 照亮」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。"
+        "light-mcq-46": "本句的「in a bad light」指「以某種方式塑造別人對某人的看法」。",
+        "light-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-46"
     },
@@ -3569,11 +3245,9 @@ export default {
       "masked": "The project has been given the ____.",
       "options": [
         "light-mcq-39",
-        "light-mcq-38",
-        "light-mcq-40",
-        "light-mcq-37",
-        "light-mcq-41",
-        "light-mcq-36"
+        "light-mcq-21",
+        "light-mcq-36",
+        "light-mcq-07"
       ],
       "explanation": "本句的「green light」指「批准」。",
       "sentenceIndex": 85,
@@ -3582,12 +3256,10 @@ export default {
         "green light"
       ],
       "optionReasons": {
-        "light-mcq-39": "本句指「批准」。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。"
+        "light-mcq-39": "本句的「green light」指「批准」。",
+        "light-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-39"
     },
@@ -3599,11 +3271,9 @@ export default {
       "masked": "Management finally ____ to begin.",
       "options": [
         "light-mcq-39",
-        "light-mcq-38",
-        "light-mcq-40",
-        "light-mcq-37",
+        "light-reviewed-895a11bc4b",
         "light-mcq-41",
-        "light-mcq-36"
+        "light-mcq-37"
       ],
       "explanation": "本句的「gave us the green light」指「批准」。",
       "sentenceIndex": 86,
@@ -3612,12 +3282,10 @@ export default {
         "gave us the green light"
       ],
       "optionReasons": {
-        "light-mcq-39": "本句指「批准」。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-40": "「警號；停止訊號」是「red light」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-36": "「被發現；曝光」是「come to light」的用法，與本句語境不同。"
+        "light-mcq-39": "本句的「gave us the green light」指「批准」。",
+        "light-reviewed-895a11bc4b": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-39"
     },
@@ -3630,10 +3298,8 @@ export default {
       "options": [
         "light-mcq-40",
         "light-mcq-39",
-        "light-mcq-41",
-        "light-mcq-38",
-        "light-mcq-42",
-        "light-mcq-37"
+        "light-mcq-09",
+        "light-mcq-05"
       ],
       "explanation": "本句的「red light」指「警號；停止訊號」。",
       "sentenceIndex": 87,
@@ -3642,12 +3308,10 @@ export default {
         "red light"
       ],
       "optionReasons": {
-        "light-mcq-40": "本句指「警號；停止訊號」。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。"
+        "light-mcq-40": "本句的「red light」指「警號；停止訊號」。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-40"
     },
@@ -3659,11 +3323,9 @@ export default {
       "masked": "The warning should have been a ____ for investors.",
       "options": [
         "light-mcq-40",
+        "light-mcq-43",
         "light-mcq-39",
-        "light-mcq-41",
-        "light-mcq-38",
-        "light-mcq-42",
-        "light-mcq-37"
+        "light-mcq-05"
       ],
       "explanation": "本句的「red light」指「警號；停止訊號」。",
       "sentenceIndex": 88,
@@ -3672,12 +3334,10 @@ export default {
         "red light"
       ],
       "optionReasons": {
-        "light-mcq-40": "本句指「警號；停止訊號」。",
-        "light-mcq-39": "「批准」是「green light」的用法，與本句語境不同。",
-        "light-mcq-41": "「房間或地方內用來照明的燈」是「3. turn on/off the light — 開燈／關燈」的用法，與本句語境不同。",
-        "light-mcq-38": "「以正面形象呈現」是「in a positive light」的用法，與本句語境不同。",
-        "light-mcq-42": "「用來點燃香煙等物品的火或點火工具」是「6. light（火焰／點火用的火） — 火；火種」的用法，與本句語境不同。",
-        "light-mcq-37": "「以新角度看」是「see in a new light」的用法，與本句語境不同。"
+        "light-mcq-40": "本句的「red light」指「警號；停止訊號」。",
+        "light-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "light-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "light-mcq-40"
     }
@@ -3689,5 +3349,7 @@ export default {
     "sha256": "d47546f75a17c8551652a5fd2f678bfd0170db147cafa123f0f8342631a482e6",
     "pages": 29
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

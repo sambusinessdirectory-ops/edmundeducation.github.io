@@ -429,7 +429,7 @@ export default {
     },
     {
       "id": "practice-mcq-20",
-      "title": "表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」",
+      "title": "惡作劇",
       "form": "practical joke = prank designed to trick someone",
       "en": "practical joke = prank designed to trick someone",
       "zh": "表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」",
@@ -459,11 +459,9 @@ export default {
       "masked": "The ad mentioned ____ features like comfort, battery life, and sound quality.",
       "options": [
         "practice-mcq-01",
-        "practice-mcq-02",
-        "practice-mcq-03",
-        "practice-mcq-04",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-08",
+        "practice-mcq-07",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practical」指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
       "sentenceIndex": 0,
@@ -472,12 +470,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-01": "本句指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-01": "本句的「practical」指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-01"
     },
@@ -489,11 +485,9 @@ export default {
       "masked": "The bag has several ____ features, including waterproof pockets.",
       "options": [
         "practice-mcq-01",
-        "practice-mcq-02",
-        "practice-mcq-03",
+        "practice-mcq-07",
         "practice-mcq-04",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practical」指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
       "sentenceIndex": 1,
@@ -502,12 +496,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-01": "本句指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-01": "本句的「practical」指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
+        "practice-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-01"
     },
@@ -519,11 +511,9 @@ export default {
       "masked": "This is a simple and ____ solution.",
       "options": [
         "practice-mcq-01",
-        "practice-mcq-02",
-        "practice-mcq-03",
+        "practice-mcq-20",
         "practice-mcq-04",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-11"
       ],
       "explanation": "本句的「practical」指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
       "sentenceIndex": 2,
@@ -532,12 +522,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-01": "本句指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-01": "本句的「practical」指「在真實情況中能發揮作用、解決問題或帶來便利的」。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-01"
     },
@@ -549,11 +537,9 @@ export default {
       "masked": "We need a more ____ plan.",
       "options": [
         "practice-mcq-02",
-        "practice-mcq-01",
-        "practice-mcq-03",
-        "practice-mcq-04",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-15",
+        "practice-mcq-12",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practical」指「不只理論上合理，而是在現實限制下也能實行的」。",
       "sentenceIndex": 3,
@@ -562,12 +548,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-02": "本句指「不只理論上合理，而是在現實限制下也能實行的」。",
-        "practice-mcq-01": "「在真實情況中能發揮作用、解決問題或帶來便利的」是「practical = feature/tool/solution（功能／工具／解決方法）useful in real use」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-02": "本句的「practical」指「不只理論上合理，而是在現實限制下也能實行的」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-02"
     },
@@ -579,11 +563,9 @@ export default {
       "masked": "Her advice was very ____.",
       "options": [
         "practice-mcq-02",
-        "practice-mcq-01",
-        "practice-mcq-03",
-        "practice-mcq-04",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-15",
+        "practice-mcq-08",
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practical」指「不只理論上合理，而是在現實限制下也能實行的」。",
       "sentenceIndex": 4,
@@ -592,12 +574,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-02": "本句指「不只理論上合理，而是在現實限制下也能實行的」。",
-        "practice-mcq-01": "「在真實情況中能發揮作用、解決問題或帶來便利的」是「practical = feature/tool/solution（功能／工具／解決方法）useful in real use」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-02": "本句的「practical」指「不只理論上合理，而是在現實限制下也能實行的」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-02"
     },
@@ -609,11 +589,9 @@ export default {
       "masked": "She is a very ____ person.",
       "options": [
         "practice-mcq-03",
-        "practice-mcq-02",
-        "practice-mcq-04",
-        "practice-mcq-01",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-15",
+        "practice-mcq-12",
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practical」指「重視現實情況、實際效果和可行解決方法的人」。",
       "sentenceIndex": 5,
@@ -622,12 +600,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-03": "本句指「重視現實情況、實際效果和可行解決方法的人」。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-01": "「在真實情況中能發揮作用、解決問題或帶來便利的」是「practical = feature/tool/solution（功能／工具／解決方法）useful in real use」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-03": "本句的「practical」指「重視現實情況、實際效果和可行解決方法的人」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-03"
     },
@@ -639,11 +615,9 @@ export default {
       "masked": "We need someone ____ who can organize the event efficiently.",
       "options": [
         "practice-mcq-03",
-        "practice-mcq-02",
-        "practice-mcq-04",
-        "practice-mcq-01",
-        "practice-mcq-05",
-        "practice-mcq-06"
+        "practice-mcq-08",
+        "practice-mcq-15",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practical」指「重視現實情況、實際效果和可行解決方法的人」。",
       "sentenceIndex": 6,
@@ -652,12 +626,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-03": "本句指「重視現實情況、實際效果和可行解決方法的人」。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-01": "「在真實情況中能發揮作用、解決問題或帶來便利的」是「practical = feature/tool/solution（功能／工具／解決方法）useful in real use」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-03": "本句的「practical」指「重視現實情況、實際效果和可行解決方法的人」。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-03"
     },
@@ -669,11 +641,9 @@ export default {
       "masked": "The course includes both theory and ____ training.",
       "options": [
         "practice-mcq-04",
-        "practice-mcq-03",
-        "practice-mcq-05",
-        "practice-mcq-02",
-        "practice-mcq-06",
-        "practice-mcq-01"
+        "practice-mcq-13",
+        "practice-mcq-01",
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practical」指「涉及親自操作、執行或應用，而不是只停留在理論層面的」。",
       "sentenceIndex": 7,
@@ -682,12 +652,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-04": "本句指「涉及親自操作、執行或應用，而不是只停留在理論層面的」。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-01": "「在真實情況中能發揮作用、解決問題或帶來便利的」是「practical = feature/tool/solution（功能／工具／解決方法）useful in real use」的用法，與本句語境不同。"
+        "practice-mcq-04": "本句的「practical」指「涉及親自操作、執行或應用，而不是只停留在理論層面的」。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-04"
     },
@@ -699,11 +667,9 @@ export default {
       "masked": "Students need more ____ experience.",
       "options": [
         "practice-mcq-04",
-        "practice-mcq-03",
-        "practice-mcq-05",
-        "practice-mcq-02",
-        "practice-mcq-06",
-        "practice-mcq-01"
+        "practice-mcq-15",
+        "practice-mcq-01",
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practical」指「涉及親自操作、執行或應用，而不是只停留在理論層面的」。",
       "sentenceIndex": 8,
@@ -712,12 +678,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-04": "本句指「涉及親自操作、執行或應用，而不是只停留在理論層面的」。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-01": "「在真實情況中能發揮作用、解決問題或帶來便利的」是「practical = feature/tool/solution（功能／工具／解決方法）useful in real use」的用法，與本句語境不同。"
+        "practice-mcq-04": "本句的「practical」指「涉及親自操作、執行或應用，而不是只停留在理論層面的」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-04"
     },
@@ -729,11 +693,9 @@ export default {
       "masked": "The course ends with a written test and a ____ exam.",
       "options": [
         "practice-mcq-05",
-        "practice-mcq-04",
-        "practice-mcq-06",
-        "practice-mcq-03",
-        "practice-mcq-07",
-        "practice-mcq-02"
+        "practice-mcq-15",
+        "practice-mcq-20",
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practical」指「要求考生實際操作或示範技能，而不是只回答理論問題的考試」。",
       "sentenceIndex": 9,
@@ -742,12 +704,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-05": "本句指「要求考生實際操作或示範技能，而不是只回答理論問題的考試」。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。"
+        "practice-mcq-05": "本句的「practical」指「要求考生實際操作或示範技能，而不是只回答理論問題的考試」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-05"
     },
@@ -759,11 +719,9 @@ export default {
       "masked": "She passed the driving ____.",
       "options": [
         "practice-mcq-05",
-        "practice-mcq-04",
-        "practice-mcq-06",
-        "practice-mcq-03",
-        "practice-mcq-07",
-        "practice-mcq-02"
+        "practice-mcq-08",
+        "practice-mcq-15",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practical」指「要求考生實際操作或示範技能，而不是只回答理論問題的考試」。",
       "sentenceIndex": 10,
@@ -772,12 +730,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-05": "本句指「要求考生實際操作或示範技能，而不是只回答理論問題的考試」。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-02": "「不只理論上合理，而是在現實限制下也能實行的」是「practical = plan/idea/advice（計劃／構思／建議）realistic and workable」的用法，與本句語境不同。"
+        "practice-mcq-05": "本句的「practical」指「要求考生實際操作或示範技能，而不是只回答理論問題的考試」。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-05"
     },
@@ -789,11 +745,9 @@ export default {
       "masked": "Speaking English every day gives you valuable ____.",
       "options": [
         "practice-mcq-06",
-        "practice-mcq-05",
-        "practice-mcq-07",
-        "practice-mcq-04",
-        "practice-mcq-08",
-        "practice-mcq-03"
+        "practice-mcq-20",
+        "practice-mcq-15",
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practice」指「為提升技能而反覆進行某項活動的過程」。",
       "sentenceIndex": 11,
@@ -802,12 +756,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-06": "本句指「為提升技能而反覆進行某項活動的過程」。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。"
+        "practice-mcq-06": "本句的「practice」指「為提升技能而反覆進行某項活動的過程」。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-06"
     },
@@ -819,11 +771,9 @@ export default {
       "masked": "The skill improves with ____.",
       "options": [
         "practice-mcq-06",
-        "practice-mcq-05",
-        "practice-mcq-07",
-        "practice-mcq-04",
         "practice-mcq-08",
-        "practice-mcq-03"
+        "practice-mcq-20",
+        "practice-mcq-01"
       ],
       "explanation": "本句的「practice」指「為提升技能而反覆進行某項活動的過程」。",
       "sentenceIndex": 12,
@@ -832,12 +782,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-06": "本句指「為提升技能而反覆進行某項活動的過程」。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-03": "「重視現實情況、實際效果和可行解決方法的人」是「practical = person（人）sensible and focused on real solutions」的用法，與本句語境不同。"
+        "practice-mcq-06": "本句的「practice」指「為提升技能而反覆進行某項活動的過程」。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-06"
     },
@@ -849,11 +797,9 @@ export default {
       "masked": "You should ____ speaking English every day.",
       "options": [
         "practice-mcq-07",
-        "practice-mcq-06",
-        "practice-mcq-08",
-        "practice-mcq-05",
-        "practice-mcq-09",
-        "practice-mcq-04"
+        "practice-mcq-12",
+        "practice-mcq-15",
+        "practice-mcq-01"
       ],
       "explanation": "本句的「practise」指「為了改善能力而反覆進行某項技能或活動」。",
       "sentenceIndex": 13,
@@ -862,12 +808,10 @@ export default {
         "practise"
       ],
       "optionReasons": {
-        "practice-mcq-07": "本句指「為了改善能力而反覆進行某項技能或活動」。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。"
+        "practice-mcq-07": "本句的「practise」指「為了改善能力而反覆進行某項技能或活動」。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-07"
     },
@@ -879,11 +823,9 @@ export default {
       "masked": "She ____ the presentation several times.",
       "options": [
         "practice-mcq-07",
-        "practice-mcq-06",
-        "practice-mcq-08",
-        "practice-mcq-05",
-        "practice-mcq-09",
-        "practice-mcq-04"
+        "practice-mcq-15",
+        "practice-mcq-20",
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practised」指「為了改善能力而反覆進行某項技能或活動」。",
       "sentenceIndex": 14,
@@ -892,12 +834,10 @@ export default {
         "practised"
       ],
       "optionReasons": {
-        "practice-mcq-07": "本句指「為了改善能力而反覆進行某項技能或活動」。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-04": "「涉及親自操作、執行或應用，而不是只停留在理論層面的」是「practical = skill/course/work（技能／課程／工作）hands-on rather than theoretical」的用法，與本句語境不同。"
+        "practice-mcq-07": "本句的「practised」指「為了改善能力而反覆進行某項技能或活動」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-07"
     },
@@ -909,11 +849,9 @@ export default {
       "masked": "It is common ____ to back up important files.",
       "options": [
         "practice-mcq-08",
-        "practice-mcq-07",
         "practice-mcq-09",
-        "practice-mcq-06",
-        "practice-mcq-10",
-        "practice-mcq-05"
+        "practice-mcq-20",
+        "practice-mcq-07"
       ],
       "explanation": "本句的「practice」指「某個人、機構或群體經常採用的做事方式或慣例」。",
       "sentenceIndex": 15,
@@ -922,12 +860,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-08": "本句指「某個人、機構或群體經常採用的做事方式或慣例」。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。"
+        "practice-mcq-08": "本句的「practice」指「某個人、機構或群體經常採用的做事方式或慣例」。",
+        "practice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-08"
     },
@@ -939,11 +875,9 @@ export default {
       "masked": "The company changed its hiring ____.",
       "options": [
         "practice-mcq-08",
+        "practice-mcq-14",
         "practice-mcq-07",
-        "practice-mcq-09",
-        "practice-mcq-06",
-        "practice-mcq-10",
-        "practice-mcq-05"
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practices」指「某個人、機構或群體經常採用的做事方式或慣例」。",
       "sentenceIndex": 16,
@@ -952,12 +886,10 @@ export default {
         "practices"
       ],
       "optionReasons": {
-        "practice-mcq-08": "本句指「某個人、機構或群體經常採用的做事方式或慣例」。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-05": "「要求考生實際操作或示範技能，而不是只回答理論問題的考試」是「practical = exam/test（考試）testing hands-on ability」的用法，與本句語境不同。"
+        "practice-mcq-08": "本句的「practices」指「某個人、機構或群體經常採用的做事方式或慣例」。",
+        "practice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-08"
     },
@@ -969,11 +901,9 @@ export default {
       "masked": "The idea sounds good in theory, but it may not work in ____.",
       "options": [
         "practice-mcq-09",
+        "practice-mcq-13",
         "practice-mcq-08",
-        "practice-mcq-10",
-        "practice-mcq-07",
-        "practice-mcq-11",
-        "practice-mcq-06"
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practice」指「在真正執行或現實運作時，而不是只從理論上看」。",
       "sentenceIndex": 17,
@@ -982,12 +912,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-09": "本句指「在真正執行或現實運作時，而不是只從理論上看」。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-09": "本句的「practice」指「在真正執行或現實運作時，而不是只從理論上看」。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-09"
     },
@@ -1000,10 +928,8 @@ export default {
       "options": [
         "practice-mcq-09",
         "practice-mcq-08",
-        "practice-mcq-10",
-        "practice-mcq-07",
-        "practice-mcq-11",
-        "practice-mcq-06"
+        "practice-mcq-15",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practice」指「在真正執行或現實運作時，而不是只從理論上看」。",
       "sentenceIndex": 18,
@@ -1012,12 +938,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-09": "本句指「在真正執行或現實運作時，而不是只從理論上看」。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-06": "「為提升技能而反覆進行某項活動的過程」是「practice = repeated activity to improve a skill（反覆練習）」的用法，與本句語境不同。"
+        "practice-mcq-09": "本句的「practice」指「在真正執行或現實運作時，而不是只從理論上看」。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-09"
     },
@@ -1029,11 +953,9 @@ export default {
       "masked": "It is time to put the plan into ____.",
       "options": [
         "practice-mcq-10",
-        "practice-mcq-09",
-        "practice-mcq-11",
-        "practice-mcq-08",
-        "practice-mcq-12",
-        "practice-mcq-07"
+        "practice-mcq-15",
+        "practice-mcq-20",
+        "practice-mcq-13"
       ],
       "explanation": "本句的「practice」指「把原本只是理論、構思或知識的內容真正實行／應用」。",
       "sentenceIndex": 19,
@@ -1042,12 +964,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-10": "本句指「把原本只是理論、構思或知識的內容真正實行／應用」。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。"
+        "practice-mcq-10": "本句的「practice」指「把原本只是理論、構思或知識的內容真正實行／應用」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-10"
     },
@@ -1059,11 +979,9 @@ export default {
       "masked": "The course helps students put their knowledge into ____.",
       "options": [
         "practice-mcq-10",
-        "practice-mcq-09",
-        "practice-mcq-11",
-        "practice-mcq-08",
-        "practice-mcq-12",
-        "practice-mcq-07"
+        "practice-mcq-20",
+        "practice-mcq-15",
+        "practice-mcq-13"
       ],
       "explanation": "本句的「practice」指「把原本只是理論、構思或知識的內容真正實行／應用」。",
       "sentenceIndex": 20,
@@ -1072,12 +990,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-10": "本句指「把原本只是理論、構思或知識的內容真正實行／應用」。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-07": "「為了改善能力而反覆進行某項技能或活動」是「practise/practice + skill/activity（技能／活動）」的用法，與本句語境不同。"
+        "practice-mcq-10": "本句的「practice」指「把原本只是理論、構思或知識的內容真正實行／應用」。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-10"
     },
@@ -1089,11 +1005,9 @@ export default {
       "masked": "She works at a private medical ____.",
       "options": [
         "practice-mcq-11",
-        "practice-mcq-10",
-        "practice-mcq-12",
-        "practice-mcq-09",
+        "practice-mcq-01",
         "practice-mcq-13",
-        "practice-mcq-08"
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practice」指「專業人士進行執業工作的業務／機構，或其專業執業本身」。",
       "sentenceIndex": 21,
@@ -1102,12 +1016,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-11": "本句指「專業人士進行執業工作的業務／機構，或其專業執業本身」。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。"
+        "practice-mcq-11": "本句的「practice」指「專業人士進行執業工作的業務／機構，或其專業執業本身」。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-11"
     },
@@ -1119,11 +1031,9 @@ export default {
       "masked": "He joined a large law ____.",
       "options": [
         "practice-mcq-11",
-        "practice-mcq-10",
-        "practice-mcq-12",
-        "practice-mcq-09",
-        "practice-mcq-13",
-        "practice-mcq-08"
+        "practice-mcq-05",
+        "practice-mcq-15",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practice」指「專業人士進行執業工作的業務／機構，或其專業執業本身」。",
       "sentenceIndex": 22,
@@ -1132,12 +1042,10 @@ export default {
         "practice"
       ],
       "optionReasons": {
-        "practice-mcq-11": "本句指「專業人士進行執業工作的業務／機構，或其專業執業本身」。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-08": "「某個人、機構或群體經常採用的做事方式或慣例」是「practice = usual/customary way of doing something（慣常做法）」的用法，與本句語境不同。"
+        "practice-mcq-11": "本句的「practice」指「專業人士進行執業工作的業務／機構，或其專業執業本身」。",
+        "practice-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-11"
     },
@@ -1149,11 +1057,9 @@ export default {
       "masked": "She ____ medicine in London.",
       "options": [
         "practice-mcq-12",
-        "practice-mcq-11",
-        "practice-mcq-13",
-        "practice-mcq-10",
-        "practice-mcq-14",
-        "practice-mcq-09"
+        "practice-mcq-02",
+        "practice-mcq-20",
+        "practice-mcq-07"
       ],
       "explanation": "本句的「practises」指「正式從事某個需要專業資格的職業」。",
       "sentenceIndex": 23,
@@ -1162,12 +1068,10 @@ export default {
         "practises"
       ],
       "optionReasons": {
-        "practice-mcq-12": "本句指「正式從事某個需要專業資格的職業」。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。"
+        "practice-mcq-12": "本句的「practises」指「正式從事某個需要專業資格的職業」。",
+        "practice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-12"
     },
@@ -1179,11 +1083,9 @@ export default {
       "masked": "He ____ law for twenty years.",
       "options": [
         "practice-mcq-12",
-        "practice-mcq-11",
-        "practice-mcq-13",
-        "practice-mcq-10",
-        "practice-mcq-14",
-        "practice-mcq-09"
+        "practice-mcq-06",
+        "practice-mcq-04",
+        "practice-mcq-01"
       ],
       "explanation": "本句的「practised」指「正式從事某個需要專業資格的職業」。",
       "sentenceIndex": 24,
@@ -1192,12 +1094,10 @@ export default {
         "practised"
       ],
       "optionReasons": {
-        "practice-mcq-12": "本句指「正式從事某個需要專業資格的職業」。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-09": "「在真正執行或現實運作時，而不是只從理論上看」是「practice = actual application rather than theory（實際應用）」的用法，與本句語境不同。"
+        "practice-mcq-12": "本句的「practised」指「正式從事某個需要專業資格的職業」。",
+        "practice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-12"
     },
@@ -1209,11 +1109,9 @@ export default {
       "masked": "She is a ____ public speaker.",
       "options": [
         "practice-mcq-13",
-        "practice-mcq-12",
-        "practice-mcq-14",
+        "practice-mcq-02",
         "practice-mcq-11",
-        "practice-mcq-15",
-        "practice-mcq-10"
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practised」指「因長期練習或經驗而變得熟練、有技巧的」。",
       "sentenceIndex": 25,
@@ -1222,12 +1120,10 @@ export default {
         "practised"
       ],
       "optionReasons": {
-        "practice-mcq-13": "本句指「因長期練習或經驗而變得熟練、有技巧的」。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。"
+        "practice-mcq-13": "本句的「practised」指「因長期練習或經驗而變得熟練、有技巧的」。",
+        "practice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-13"
     },
@@ -1239,11 +1135,9 @@ export default {
       "masked": "With a ____ eye, he noticed the problem immediately.",
       "options": [
         "practice-mcq-13",
-        "practice-mcq-12",
-        "practice-mcq-14",
-        "practice-mcq-11",
-        "practice-mcq-15",
-        "practice-mcq-10"
+        "practice-mcq-01",
+        "practice-mcq-04",
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practised」指「因長期練習或經驗而變得熟練、有技巧的」。",
       "sentenceIndex": 26,
@@ -1252,12 +1146,10 @@ export default {
         "practised"
       ],
       "optionReasons": {
-        "practice-mcq-13": "本句指「因長期練習或經驗而變得熟練、有技巧的」。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-10": "「把原本只是理論、構思或知識的內容真正實行／應用」是「put something into practice（知識／計劃）」的用法，與本句語境不同。"
+        "practice-mcq-13": "本句的「practised」指「因長期練習或經驗而變得熟練、有技巧的」。",
+        "practice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-13"
     },
@@ -1269,11 +1161,9 @@ export default {
       "masked": "We need to think ____ about the problem.",
       "options": [
         "practice-mcq-14",
-        "practice-mcq-13",
         "practice-mcq-15",
-        "practice-mcq-12",
-        "practice-mcq-16",
-        "practice-mcq-11"
+        "practice-mcq-20",
+        "practice-mcq-12"
       ],
       "explanation": "本句的「practically」指「以現實、務實及可實行的方式」。",
       "sentenceIndex": 27,
@@ -1282,12 +1172,10 @@ export default {
         "practically"
       ],
       "optionReasons": {
-        "practice-mcq-14": "本句指「以現實、務實及可實行的方式」。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。"
+        "practice-mcq-14": "本句的「practically」指「以現實、務實及可實行的方式」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-14"
     },
@@ -1300,10 +1188,8 @@ export default {
       "options": [
         "practice-mcq-14",
         "practice-mcq-13",
-        "practice-mcq-15",
-        "practice-mcq-12",
-        "practice-mcq-16",
-        "practice-mcq-11"
+        "practice-mcq-20",
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practically」指「以現實、務實及可實行的方式」。",
       "sentenceIndex": 28,
@@ -1312,12 +1198,10 @@ export default {
         "practically"
       ],
       "optionReasons": {
-        "practice-mcq-14": "本句指「以現實、務實及可實行的方式」。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-11": "「專業人士進行執業工作的業務／機構，或其專業執業本身」是「practice = professional work/business（專業工作／業務）」的用法，與本句語境不同。"
+        "practice-mcq-14": "本句的「practically」指「以現實、務實及可實行的方式」。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-14"
     },
@@ -1329,11 +1213,9 @@ export default {
       "masked": "The train was ____ empty.",
       "options": [
         "practice-mcq-15",
-        "practice-mcq-14",
-        "practice-mcq-16",
-        "practice-mcq-13",
-        "practice-mcq-17",
-        "practice-mcq-12"
+        "practice-mcq-11",
+        "practice-mcq-20",
+        "practice-mcq-04"
       ],
       "explanation": "本句的「practically」指「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」。",
       "sentenceIndex": 29,
@@ -1342,12 +1224,10 @@ export default {
         "practically"
       ],
       "optionReasons": {
-        "practice-mcq-15": "本句指「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。"
+        "practice-mcq-15": "本句的「practically」指「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」。",
+        "practice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-15"
     },
@@ -1359,11 +1239,9 @@ export default {
       "masked": "I’ve ____ finished the report.",
       "options": [
         "practice-mcq-15",
-        "practice-mcq-14",
-        "practice-mcq-16",
+        "practice-mcq-04",
         "practice-mcq-13",
-        "practice-mcq-17",
-        "practice-mcq-12"
+        "practice-mcq-11"
       ],
       "explanation": "本句的「practically」指「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」。",
       "sentenceIndex": 30,
@@ -1372,12 +1250,10 @@ export default {
         "practically"
       ],
       "optionReasons": {
-        "practice-mcq-15": "本句指「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-12": "「正式從事某個需要專業資格的職業」是「practise/practice + profession（醫療／法律等）」的用法，與本句語境不同。"
+        "practice-mcq-15": "本句的「practically」指「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-15"
     },
@@ -1390,9 +1266,7 @@ export default {
       "options": [
         "practice-mcq-16",
         "practice-mcq-15",
-        "practice-mcq-17",
-        "practice-mcq-14",
-        "practice-mcq-18",
+        "practice-mcq-20",
         "practice-mcq-13"
       ],
       "explanation": "本句的「practicality」指「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」。",
@@ -1402,12 +1276,10 @@ export default {
         "practicality"
       ],
       "optionReasons": {
-        "practice-mcq-16": "本句指「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。"
+        "practice-mcq-16": "本句的「practicality」指「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-16"
     },
@@ -1419,11 +1291,9 @@ export default {
       "masked": "The design combines style with ____.",
       "options": [
         "practice-mcq-16",
+        "practice-mcq-13",
         "practice-mcq-15",
-        "practice-mcq-17",
-        "practice-mcq-14",
-        "practice-mcq-18",
-        "practice-mcq-13"
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practicality」指「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」。",
       "sentenceIndex": 32,
@@ -1432,12 +1302,10 @@ export default {
         "practicality"
       ],
       "optionReasons": {
-        "practice-mcq-16": "本句指「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-13": "「因長期練習或經驗而變得熟練、有技巧的」是「practised/practiced = skill/person（技能／人物）experienced and skilled through practice」的用法，與本句語境不同。"
+        "practice-mcq-16": "本句的「practicality」指「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-16"
     },
@@ -1449,11 +1317,9 @@ export default {
       "masked": "We agree with the idea, but we still need to discuss the ____.",
       "options": [
         "practice-mcq-17",
-        "practice-mcq-16",
-        "practice-mcq-18",
-        "practice-mcq-15",
-        "practice-mcq-19",
-        "practice-mcq-14"
+        "practice-mcq-13",
+        "practice-mcq-20",
+        "practice-mcq-15"
       ],
       "explanation": "本句的「practicalities」指「要令某件事真正實行時必須處理的具體細節、安排和現實問題」。",
       "sentenceIndex": 33,
@@ -1462,12 +1328,10 @@ export default {
         "practicalities"
       ],
       "optionReasons": {
-        "practice-mcq-17": "本句指「要令某件事真正實行時必須處理的具體細節、安排和現實問題」。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-19": "「實際從事某個專業、技術或工作領域的人」是「practitioner = person professionally engaged in a field（專業從業者）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。"
+        "practice-mcq-17": "本句的「practicalities」指「要令某件事真正實行時必須處理的具體細節、安排和現實問題」。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-17"
     },
@@ -1479,11 +1343,9 @@ export default {
       "masked": "The ____ of moving abroad can be complicated.",
       "options": [
         "practice-mcq-17",
-        "practice-mcq-16",
-        "practice-mcq-18",
         "practice-mcq-15",
-        "practice-mcq-19",
-        "practice-mcq-14"
+        "practice-mcq-13",
+        "practice-mcq-20"
       ],
       "explanation": "本句的「practicalities」指「要令某件事真正實行時必須處理的具體細節、安排和現實問題」。",
       "sentenceIndex": 34,
@@ -1492,12 +1354,10 @@ export default {
         "practicalities"
       ],
       "optionReasons": {
-        "practice-mcq-17": "本句指「要令某件事真正實行時必須處理的具體細節、安排和現實問題」。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。",
-        "practice-mcq-19": "「實際從事某個專業、技術或工作領域的人」是「practitioner = person professionally engaged in a field（專業從業者）」的用法，與本句語境不同。",
-        "practice-mcq-14": "「以現實、務實及可實行的方式」是「practically = in a practical/realistic way」的用法，與本句語境不同。"
+        "practice-mcq-17": "本句的「practicalities」指「要令某件事真正實行時必須處理的具體細節、安排和現實問題」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-17"
     },
@@ -1509,11 +1369,9 @@ export default {
       "masked": "The proposal is technically ____.",
       "options": [
         "practice-mcq-18",
-        "practice-mcq-17",
-        "practice-mcq-19",
-        "practice-mcq-16",
+        "practice-mcq-12",
         "practice-mcq-20",
-        "practice-mcq-15"
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practicable」指「在現實條件下確實能夠被執行或完成的」。",
       "sentenceIndex": 35,
@@ -1522,12 +1380,10 @@ export default {
         "practicable"
       ],
       "optionReasons": {
-        "practice-mcq-18": "本句指「在現實條件下確實能夠被執行或完成的」。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-19": "「實際從事某個專業、技術或工作領域的人」是「practitioner = person professionally engaged in a field（專業從業者）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-20": "「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」是「practical joke = prank designed to trick someone」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。"
+        "practice-mcq-18": "本句的「practicable」指「在現實條件下確實能夠被執行或完成的」。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-18"
     },
@@ -1539,11 +1395,9 @@ export default {
       "masked": "We need to find the safest ____ solution.",
       "options": [
         "practice-mcq-18",
-        "practice-mcq-17",
-        "practice-mcq-19",
-        "practice-mcq-16",
-        "practice-mcq-20",
-        "practice-mcq-15"
+        "practice-mcq-12",
+        "practice-mcq-08",
+        "practice-mcq-13"
       ],
       "explanation": "本句的「practicable」指「在現實條件下確實能夠被執行或完成的」。",
       "sentenceIndex": 36,
@@ -1552,12 +1406,10 @@ export default {
         "practicable"
       ],
       "optionReasons": {
-        "practice-mcq-18": "本句指「在現實條件下確實能夠被執行或完成的」。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-19": "「實際從事某個專業、技術或工作領域的人」是「practitioner = person professionally engaged in a field（專業從業者）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-20": "「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」是「practical joke = prank designed to trick someone」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。"
+        "practice-mcq-18": "本句的「practicable」指「在現實條件下確實能夠被執行或完成的」。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-18"
     },
@@ -1569,11 +1421,9 @@ export default {
       "masked": "She is an experienced medical ____.",
       "options": [
         "practice-mcq-19",
-        "practice-mcq-18",
+        "practice-mcq-04",
         "practice-mcq-20",
-        "practice-mcq-17",
-        "practice-mcq-16",
-        "practice-mcq-15"
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practitioner」指「實際從事某個專業、技術或工作領域的人」。",
       "sentenceIndex": 37,
@@ -1582,12 +1432,10 @@ export default {
         "practitioner"
       ],
       "optionReasons": {
-        "practice-mcq-19": "本句指「實際從事某個專業、技術或工作領域的人」。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-20": "「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」是「practical joke = prank designed to trick someone」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。"
+        "practice-mcq-19": "本句的「practitioner」指「實際從事某個專業、技術或工作領域的人」。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-19"
     },
@@ -1599,11 +1447,9 @@ export default {
       "masked": "The course is designed for legal ____.",
       "options": [
         "practice-mcq-19",
-        "practice-mcq-18",
-        "practice-mcq-20",
-        "practice-mcq-17",
-        "practice-mcq-16",
-        "practice-mcq-15"
+        "practice-mcq-04",
+        "practice-mcq-15",
+        "practice-mcq-08"
       ],
       "explanation": "本句的「practitioners」指「實際從事某個專業、技術或工作領域的人」。",
       "sentenceIndex": 38,
@@ -1612,12 +1458,10 @@ export default {
         "practitioners"
       ],
       "optionReasons": {
-        "practice-mcq-19": "本句指「實際從事某個專業、技術或工作領域的人」。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-20": "「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」是「practical joke = prank designed to trick someone」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。"
+        "practice-mcq-19": "本句的「practitioners」指「實際從事某個專業、技術或工作領域的人」。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-19"
     },
@@ -1629,11 +1473,9 @@ export default {
       "masked": "His friends played a ____ joke on him.",
       "options": [
         "practice-mcq-20",
+        "practice-mcq-15",
         "practice-mcq-19",
-        "practice-mcq-18",
-        "practice-mcq-17",
-        "practice-mcq-16",
-        "practice-mcq-15"
+        "practice-mcq-06"
       ],
       "explanation": "本句的「practical」指「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」。",
       "sentenceIndex": 39,
@@ -1642,12 +1484,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-20": "本句指「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」。",
-        "practice-mcq-19": "「實際從事某個專業、技術或工作領域的人」是「practitioner = person professionally engaged in a field（專業從業者）」的用法，與本句語境不同。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。"
+        "practice-mcq-20": "本句的「practical」指「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」。",
+        "practice-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-20"
     },
@@ -1659,11 +1499,9 @@ export default {
       "masked": "The ____ joke went too far and upset several people.",
       "options": [
         "practice-mcq-20",
-        "practice-mcq-19",
-        "practice-mcq-18",
-        "practice-mcq-17",
         "practice-mcq-16",
-        "practice-mcq-15"
+        "practice-mcq-12",
+        "practice-mcq-04"
       ],
       "explanation": "本句的「practical」指「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」。",
       "sentenceIndex": 40,
@@ -1672,12 +1510,10 @@ export default {
         "practical"
       ],
       "optionReasons": {
-        "practice-mcq-20": "本句指「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」。",
-        "practice-mcq-19": "「實際從事某個專業、技術或工作領域的人」是「practitioner = person professionally engaged in a field（專業從業者）」的用法，與本句語境不同。",
-        "practice-mcq-18": "「在現實條件下確實能夠被執行或完成的」是「practicable = plan/method/action（計劃／方法／行動）capable of being done」的用法，與本句語境不同。",
-        "practice-mcq-17": "「要令某件事真正實行時必須處理的具體細節、安排和現實問題」是「practicalities = practical details that must be arranged（實際細節）」的用法，與本句語境不同。",
-        "practice-mcq-16": "「某個構思、產品或安排在真實情況中是否有用、方便或可實行的程度」是「practicality = usefulness/workability（實用性／可行性）」的用法，與本句語境不同。",
-        "practice-mcq-15": "「幾乎達到某種狀態，雖然嚴格來說尚未完全如此」是「practically = almost / nearly（程度）」的用法，與本句語境不同。"
+        "practice-mcq-20": "本句的「practical」指「表示惡作劇；例句：「他的朋友對他進行了一場惡作劇。」」。",
+        "practice-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "practice-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "practice-mcq-20"
     }
@@ -1689,5 +1525,7 @@ export default {
     "sha256": "a10de3ab9d4543315c718811d8743af61531afd420c6ba1e39af03c980d32427",
     "pages": 18
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

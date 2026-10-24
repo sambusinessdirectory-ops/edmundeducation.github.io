@@ -718,11 +718,9 @@ export default {
       "masked": "One of the bicycle ____ was damaged.",
       "options": [
         "wheel-mcq-01",
-        "wheel-mcq-02",
-        "wheel-mcq-03",
         "wheel-mcq-04",
-        "wheel-mcq-05",
-        "wheel-mcq-06"
+        "wheel-mcq-30",
+        "wheel-mcq-26"
       ],
       "explanation": "本句的「wheels」指「繞中心軸轉動的圓形輪子／輪」。",
       "sentenceIndex": 2,
@@ -731,12 +729,10 @@ export default {
         "wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-01": "本句指「繞中心軸轉動的圓形輪子／輪」。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。"
+        "wheel-mcq-01": "本句的「wheels」指「繞中心軸轉動的圓形輪子／輪」。",
+        "wheel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-01"
     },
@@ -748,11 +744,9 @@ export default {
       "masked": "The cart has four ____.",
       "options": [
         "wheel-mcq-01",
-        "wheel-mcq-02",
-        "wheel-mcq-03",
-        "wheel-mcq-04",
-        "wheel-mcq-05",
-        "wheel-mcq-06"
+        "wheel-mcq-23",
+        "wheel-mcq-16",
+        "wheel-mcq-26"
       ],
       "explanation": "本句的「wheels」指「繞中心軸轉動的圓形輪子／輪」。",
       "sentenceIndex": 3,
@@ -761,12 +755,10 @@ export default {
         "wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-01": "本句指「繞中心軸轉動的圓形輪子／輪」。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。"
+        "wheel-mcq-01": "本句的「wheels」指「繞中心軸轉動的圓形輪子／輪」。",
+        "wheel-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-01"
     },
@@ -778,11 +770,9 @@ export default {
       "masked": "They rode the ____ at sunset.",
       "options": [
         "wheel-mcq-03",
-        "wheel-mcq-02",
-        "wheel-mcq-04",
-        "wheel-mcq-01",
         "wheel-mcq-05",
-        "wheel-mcq-06"
+        "wheel-mcq-16",
+        "wheel-mcq-29"
       ],
       "explanation": "本句的「Ferris wheel」指「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」。",
       "sentenceIndex": 6,
@@ -791,12 +781,10 @@ export default {
         "Ferris wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-03": "本句指「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-01": "「繞中心軸轉動的圓形輪子／輪」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。"
+        "wheel-mcq-03": "本句的「Ferris wheel」指「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-03"
     },
@@ -808,11 +796,9 @@ export default {
       "masked": "The lights on the ____ came on after dark.",
       "options": [
         "wheel-mcq-03",
-        "wheel-mcq-02",
-        "wheel-mcq-04",
-        "wheel-mcq-01",
-        "wheel-mcq-05",
-        "wheel-mcq-06"
+        "wheel-mcq-29",
+        "wheel-mcq-06",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「Ferris wheel」指「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」。",
       "sentenceIndex": 7,
@@ -821,12 +807,10 @@ export default {
         "Ferris wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-03": "本句指「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-01": "「繞中心軸轉動的圓形輪子／輪」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。"
+        "wheel-mcq-03": "本句的「Ferris wheel」指「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-03"
     },
@@ -838,11 +822,9 @@ export default {
       "masked": "Keep both hands on the ____.",
       "options": [
         "wheel-mcq-04",
-        "wheel-mcq-03",
-        "wheel-mcq-05",
-        "wheel-mcq-02",
-        "wheel-mcq-06",
-        "wheel-mcq-01"
+        "wheel-mcq-27",
+        "wheel-mcq-12",
+        "wheel-mcq-22"
       ],
       "explanation": "本句的「steering wheel」指「駕駛用來控制車輛方向的方向盤」。",
       "sentenceIndex": 8,
@@ -851,12 +833,10 @@ export default {
         "steering wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-04": "本句指「駕駛用來控制車輛方向的方向盤」。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-01": "「繞中心軸轉動的圓形輪子／輪」與本句語境不同。"
+        "wheel-mcq-04": "本句的「steering wheel」指「駕駛用來控制車輛方向的方向盤」。",
+        "wheel-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-04"
     },
@@ -868,11 +848,9 @@ export default {
       "masked": "She turned the ____ sharply to the left.",
       "options": [
         "wheel-mcq-04",
-        "wheel-mcq-03",
-        "wheel-mcq-05",
-        "wheel-mcq-02",
-        "wheel-mcq-06",
-        "wheel-mcq-01"
+        "wheel-mcq-29",
+        "wheel-mcq-01",
+        "wheel-mcq-12"
       ],
       "explanation": "本句的「wheel」指「駕駛用來控制車輛方向的方向盤」。",
       "sentenceIndex": 9,
@@ -881,12 +859,10 @@ export default {
         "wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-04": "本句指「駕駛用來控制車輛方向的方向盤」。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-01": "「繞中心軸轉動的圓形輪子／輪」與本句語境不同。"
+        "wheel-mcq-04": "本句的「wheel」指「駕駛用來控制車輛方向的方向盤」。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-04"
     },
@@ -898,11 +874,9 @@ export default {
       "masked": "He fell asleep at the ____.",
       "options": [
         "wheel-mcq-05",
-        "wheel-mcq-04",
-        "wheel-mcq-06",
-        "wheel-mcq-03",
-        "wheel-mcq-07",
-        "wheel-mcq-02"
+        "wheel-mcq-18",
+        "wheel-mcq-10",
+        "wheel-mcq-32"
       ],
       "explanation": "本句的「wheel」指「駕駛語境中的方向盤／駕駛控制」。",
       "sentenceIndex": 10,
@@ -911,12 +885,10 @@ export default {
         "wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-05": "本句指「駕駛語境中的方向盤／駕駛控制」。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。"
+        "wheel-mcq-05": "本句的「wheel」指「駕駛語境中的方向盤／駕駛控制」。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-05"
     },
@@ -928,11 +900,9 @@ export default {
       "masked": "She took the ____ for the final part of the journey.",
       "options": [
         "wheel-mcq-05",
-        "wheel-mcq-04",
-        "wheel-mcq-06",
         "wheel-mcq-03",
-        "wheel-mcq-07",
-        "wheel-mcq-02"
+        "wheel-mcq-11",
+        "wheel-mcq-16"
       ],
       "explanation": "本句的「wheel」指「駕駛語境中的方向盤／駕駛控制」。",
       "sentenceIndex": 11,
@@ -941,12 +911,10 @@ export default {
         "wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-05": "本句指「駕駛語境中的方向盤／駕駛控制」。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。",
-        "wheel-mcq-02": "「汽車、單車等接觸地面並轉動的車輪」與本句語境不同。"
+        "wheel-mcq-05": "本句的「wheel」指「駕駛語境中的方向盤／駕駛控制」。",
+        "wheel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-05"
     },
@@ -958,11 +926,9 @@ export default {
       "masked": "He had been ____ for three hours.",
       "options": [
         "wheel-mcq-06",
-        "wheel-mcq-05",
-        "wheel-mcq-07",
-        "wheel-mcq-04",
-        "wheel-mcq-08",
-        "wheel-mcq-03"
+        "wheel-mcq-26",
+        "wheel-mcq-33",
+        "wheel-mcq-17"
       ],
       "explanation": "本句的「at the wheel」指「正在駕駛車輛」。",
       "sentenceIndex": 12,
@@ -971,12 +937,10 @@ export default {
         "at the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-06": "本句指「正在駕駛車輛」。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。"
+        "wheel-mcq-06": "本句的「at the wheel」指「正在駕駛車輛」。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-06"
     },
@@ -988,11 +952,9 @@ export default {
       "masked": "Never use your phone while ____.",
       "options": [
         "wheel-mcq-06",
-        "wheel-mcq-05",
-        "wheel-mcq-07",
-        "wheel-mcq-04",
-        "wheel-mcq-08",
-        "wheel-mcq-03"
+        "wheel-mcq-26",
+        "wheel-mcq-03",
+        "wheel-mcq-21"
       ],
       "explanation": "本句的「at the wheel」指「正在駕駛車輛」。",
       "sentenceIndex": 13,
@@ -1001,12 +963,10 @@ export default {
         "at the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-06": "本句指「正在駕駛車輛」。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。",
-        "wheel-mcq-03": "「裝有乘客座艙並垂直旋轉的大型遊樂設施；摩天輪」與本句語境不同。"
+        "wheel-mcq-06": "本句的「at the wheel」指「正在駕駛車輛」。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-06"
     },
@@ -1018,11 +978,9 @@ export default {
       "masked": "She is very confident ____.",
       "options": [
         "wheel-mcq-07",
-        "wheel-mcq-06",
-        "wheel-mcq-08",
-        "wheel-mcq-05",
-        "wheel-mcq-09",
-        "wheel-mcq-04"
+        "wheel-mcq-10",
+        "wheel-mcq-22",
+        "wheel-mcq-26"
       ],
       "explanation": "本句的「behind the wheel」指「處於駕駛位置；正在駕駛」。",
       "sentenceIndex": 14,
@@ -1031,12 +989,10 @@ export default {
         "behind the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-07": "本句指「處於駕駛位置；正在駕駛」。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。"
+        "wheel-mcq-07": "本句的「behind the wheel」指「處於駕駛位置；正在駕駛」。",
+        "wheel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-07"
     },
@@ -1048,11 +1004,9 @@ export default {
       "masked": "He spent most of the day ____.",
       "options": [
         "wheel-mcq-07",
-        "wheel-mcq-06",
-        "wheel-mcq-08",
-        "wheel-mcq-05",
-        "wheel-mcq-09",
-        "wheel-mcq-04"
+        "wheel-mcq-21",
+        "wheel-mcq-20",
+        "wheel-mcq-27"
       ],
       "explanation": "本句的「behind the wheel」指「處於駕駛位置；正在駕駛」。",
       "sentenceIndex": 15,
@@ -1061,12 +1015,10 @@ export default {
         "behind the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-07": "本句指「處於駕駛位置；正在駕駛」。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-04": "「駕駛用來控制車輛方向的方向盤」與本句語境不同。"
+        "wheel-mcq-07": "本句的「behind the wheel」指「處於駕駛位置；正在駕駛」。",
+        "wheel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-07"
     },
@@ -1078,11 +1030,9 @@ export default {
       "masked": "I was tired, so she ____.",
       "options": [
         "wheel-mcq-08",
-        "wheel-mcq-07",
-        "wheel-mcq-09",
-        "wheel-mcq-06",
-        "wheel-mcq-10",
-        "wheel-mcq-05"
+        "wheel-mcq-12",
+        "wheel-mcq-26",
+        "wheel-mcq-11"
       ],
       "explanation": "本句的「took the wheel」指「接手駕駛／掌握方向盤」。",
       "sentenceIndex": 16,
@@ -1091,12 +1041,10 @@ export default {
         "took the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-08": "本句指「接手駕駛／掌握方向盤」。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。"
+        "wheel-mcq-08": "本句的「took the wheel」指「接手駕駛／掌握方向盤」。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-08"
     },
@@ -1108,11 +1056,9 @@ export default {
       "masked": "When the manager left, his deputy ____.",
       "options": [
         "wheel-mcq-08",
-        "wheel-mcq-07",
-        "wheel-mcq-09",
-        "wheel-mcq-06",
-        "wheel-mcq-10",
-        "wheel-mcq-05"
+        "wheel-mcq-11",
+        "wheel-mcq-26",
+        "wheel-mcq-18"
       ],
       "explanation": "本句的「took the wheel」指「接手駕駛／掌握方向盤」。",
       "sentenceIndex": 17,
@@ -1121,12 +1067,10 @@ export default {
         "took the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-08": "本句指「接手駕駛／掌握方向盤」。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-06": "「正在駕駛車輛」與本句語境不同。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。",
-        "wheel-mcq-05": "「駕駛語境中的方向盤／駕駛控制」與本句語境不同。"
+        "wheel-mcq-08": "本句的「took the wheel」指「接手駕駛／掌握方向盤」。",
+        "wheel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-08"
     },
@@ -1138,11 +1082,9 @@ export default {
       "masked": "The machine contains several small ____.",
       "options": [
         "wheel-mcq-10",
-        "wheel-mcq-09",
-        "wheel-mcq-11",
-        "wheel-mcq-08",
-        "wheel-mcq-12",
-        "wheel-mcq-07"
+        "wheel-mcq-25",
+        "wheel-mcq-04",
+        "wheel-mcq-26"
       ],
       "explanation": "本句的「wheels」指「機械中會旋轉的圓形部件」。",
       "sentenceIndex": 18,
@@ -1151,12 +1093,10 @@ export default {
         "wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-10": "本句指「機械中會旋轉的圓形部件」。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-11": "「有齒並傳遞機械運動的齒輪」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。"
+        "wheel-mcq-10": "本句的「wheels」指「機械中會旋轉的圓形部件」。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-10"
     },
@@ -1168,11 +1108,9 @@ export default {
       "masked": "The ____ turns when the motor starts.",
       "options": [
         "wheel-mcq-10",
-        "wheel-mcq-09",
-        "wheel-mcq-11",
-        "wheel-mcq-08",
-        "wheel-mcq-12",
-        "wheel-mcq-07"
+        "wheel-mcq-13",
+        "wheel-mcq-06",
+        "wheel-mcq-33"
       ],
       "explanation": "本句的「wheel」指「機械中會旋轉的圓形部件」。",
       "sentenceIndex": 19,
@@ -1181,12 +1119,10 @@ export default {
         "wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-10": "本句指「機械中會旋轉的圓形部件」。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-11": "「有齒並傳遞機械運動的齒輪」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。",
-        "wheel-mcq-07": "「處於駕駛位置；正在駕駛」與本句語境不同。"
+        "wheel-mcq-10": "本句的「wheel」指「機械中會旋轉的圓形部件」。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-10"
     },
@@ -1198,11 +1134,9 @@ export default {
       "masked": "The mechanism contains several ____.",
       "options": [
         "wheel-mcq-11",
-        "wheel-mcq-10",
-        "wheel-mcq-12",
-        "wheel-mcq-09",
-        "wheel-mcq-13",
-        "wheel-mcq-08"
+        "wheel-mcq-19",
+        "wheel-mcq-24",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「gear wheels」指「有齒並傳遞機械運動的齒輪」。",
       "sentenceIndex": 20,
@@ -1211,12 +1145,10 @@ export default {
         "gear wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-11": "本句指「有齒並傳遞機械運動的齒輪」。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。"
+        "wheel-mcq-11": "本句的「gear wheels」指「有齒並傳遞機械運動的齒輪」。",
+        "wheel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-11"
     },
@@ -1228,11 +1160,9 @@ export default {
       "masked": "The damaged ____ had to be replaced.",
       "options": [
         "wheel-mcq-11",
-        "wheel-mcq-10",
-        "wheel-mcq-12",
-        "wheel-mcq-09",
-        "wheel-mcq-13",
-        "wheel-mcq-08"
+        "wheel-mcq-05",
+        "wheel-mcq-20",
+        "wheel-mcq-33"
       ],
       "explanation": "本句的「cogwheel」指「有齒並傳遞機械運動的齒輪」。",
       "sentenceIndex": 21,
@@ -1241,12 +1171,10 @@ export default {
         "cogwheel"
       ],
       "optionReasons": {
-        "wheel-mcq-11": "本句指「有齒並傳遞機械運動的齒輪」。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。",
-        "wheel-mcq-08": "「接手駕駛／掌握方向盤」與本句語境不同。"
+        "wheel-mcq-11": "本句的「cogwheel」指「有齒並傳遞機械運動的齒輪」。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-11"
     },
@@ -1258,11 +1186,9 @@ export default {
       "masked": "She shaped the clay on a ____.",
       "options": [
         "wheel-mcq-12",
-        "wheel-mcq-11",
-        "wheel-mcq-13",
-        "wheel-mcq-10",
-        "wheel-mcq-14",
-        "wheel-mcq-09"
+        "wheel-mcq-25",
+        "wheel-mcq-05",
+        "wheel-mcq-32"
       ],
       "explanation": "本句的「potter’s wheel」指「製陶時旋轉黏土用的陶輪／拉坯機」。",
       "sentenceIndex": 22,
@@ -1271,12 +1197,10 @@ export default {
         "potter’s wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-12": "本句指「製陶時旋轉黏土用的陶輪／拉坯機」。",
-        "wheel-mcq-11": "「有齒並傳遞機械運動的齒輪」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。"
+        "wheel-mcq-12": "本句的「potter’s wheel」指「製陶時旋轉黏土用的陶輪／拉坯機」。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-12"
     },
@@ -1288,11 +1212,9 @@ export default {
       "masked": "Learning to use a ____ takes practice.",
       "options": [
         "wheel-mcq-12",
-        "wheel-mcq-11",
-        "wheel-mcq-13",
-        "wheel-mcq-10",
-        "wheel-mcq-14",
-        "wheel-mcq-09"
+        "wheel-mcq-27",
+        "wheel-mcq-24",
+        "wheel-mcq-07"
       ],
       "explanation": "本句的「potter’s wheel」指「製陶時旋轉黏土用的陶輪／拉坯機」。",
       "sentenceIndex": 23,
@@ -1301,12 +1223,10 @@ export default {
         "potter’s wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-12": "本句指「製陶時旋轉黏土用的陶輪／拉坯機」。",
-        "wheel-mcq-11": "「有齒並傳遞機械運動的齒輪」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-09": "「接手掌控某件事／局面」與本句語境不同。"
+        "wheel-mcq-12": "本句的「potter’s wheel」指「製陶時旋轉黏土用的陶輪／拉坯機」。",
+        "wheel-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-12"
     },
@@ -1318,11 +1238,9 @@ export default {
       "masked": "The museum displayed an old ____.",
       "options": [
         "wheel-mcq-13",
-        "wheel-mcq-12",
-        "wheel-mcq-14",
-        "wheel-mcq-11",
-        "wheel-mcq-15",
-        "wheel-mcq-10"
+        "wheel-mcq-33",
+        "wheel-mcq-05",
+        "wheel-mcq-03"
       ],
       "explanation": "本句的「spinning wheel」指「把纖維紡成紗線的傳統紡車」。",
       "sentenceIndex": 24,
@@ -1331,12 +1249,10 @@ export default {
         "spinning wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-13": "本句指「把纖維紡成紗線的傳統紡車」。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-11": "「有齒並傳遞機械運動的齒輪」與本句語境不同。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。"
+        "wheel-mcq-13": "本句的「spinning wheel」指「把纖維紡成紗線的傳統紡車」。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-13"
     },
@@ -1348,11 +1264,9 @@ export default {
       "masked": "Wool was traditionally spun using a ____.",
       "options": [
         "wheel-mcq-13",
-        "wheel-mcq-12",
-        "wheel-mcq-14",
-        "wheel-mcq-11",
-        "wheel-mcq-15",
-        "wheel-mcq-10"
+        "wheel-mcq-25",
+        "wheel-mcq-27",
+        "wheel-mcq-18"
       ],
       "explanation": "本句的「spinning wheel」指「把纖維紡成紗線的傳統紡車」。",
       "sentenceIndex": 25,
@@ -1361,12 +1275,10 @@ export default {
         "spinning wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-13": "本句指「把纖維紡成紗線的傳統紡車」。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-11": "「有齒並傳遞機械運動的齒輪」與本句語境不同。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。",
-        "wheel-mcq-10": "「機械中會旋轉的圓形部件」與本句語境不同。"
+        "wheel-mcq-13": "本句的「spinning wheel」指「把纖維紡成紗線的傳統紡車」。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-13"
     },
@@ -1378,11 +1290,9 @@ export default {
       "masked": "The ball moved around the ____.",
       "options": [
         "wheel-mcq-15",
-        "wheel-mcq-14",
-        "wheel-mcq-16",
-        "wheel-mcq-13",
-        "wheel-mcq-17",
-        "wheel-mcq-12"
+        "wheel-mcq-29",
+        "wheel-mcq-33",
+        "wheel-mcq-32"
       ],
       "explanation": "本句的「roulette wheel」指「輪盤賭中旋轉的號碼輪盤」。",
       "sentenceIndex": 28,
@@ -1391,12 +1301,10 @@ export default {
         "roulette wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-15": "本句指「輪盤賭中旋轉的號碼輪盤」。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。"
+        "wheel-mcq-15": "本句的「roulette wheel」指「輪盤賭中旋轉的號碼輪盤」。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-15"
     },
@@ -1408,11 +1316,9 @@ export default {
       "masked": "The dealer spun the ____.",
       "options": [
         "wheel-mcq-15",
-        "wheel-mcq-14",
-        "wheel-mcq-16",
-        "wheel-mcq-13",
-        "wheel-mcq-17",
-        "wheel-mcq-12"
+        "wheel-mcq-24",
+        "wheel-mcq-29",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「roulette wheel」指「輪盤賭中旋轉的號碼輪盤」。",
       "sentenceIndex": 29,
@@ -1421,12 +1327,10 @@ export default {
         "roulette wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-15": "本句指「輪盤賭中旋轉的號碼輪盤」。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-12": "「製陶時旋轉黏土用的陶輪／拉坯機」與本句語境不同。"
+        "wheel-mcq-15": "本句的「roulette wheel」指「輪盤賭中旋轉的號碼輪盤」。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-15"
     },
@@ -1438,11 +1342,9 @@ export default {
       "masked": "I finally got some new ____.",
       "options": [
         "wheel-mcq-16",
-        "wheel-mcq-15",
-        "wheel-mcq-17",
-        "wheel-mcq-14",
         "wheel-mcq-18",
-        "wheel-mcq-13"
+        "wheel-mcq-20",
+        "wheel-mcq-31"
       ],
       "explanation": "本句的「wheels」指「非正式：汽車／交通工具」。",
       "sentenceIndex": 30,
@@ -1451,12 +1353,10 @@ export default {
         "wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-16": "本句指「非正式：汽車／交通工具」。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。"
+        "wheel-mcq-16": "本句的「wheels」指「非正式：汽車／交通工具」。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-16"
     },
@@ -1468,11 +1368,9 @@ export default {
       "masked": "Do you have ____, or should we take the bus?",
       "options": [
         "wheel-mcq-16",
-        "wheel-mcq-15",
-        "wheel-mcq-17",
-        "wheel-mcq-14",
-        "wheel-mcq-18",
-        "wheel-mcq-13"
+        "wheel-mcq-24",
+        "wheel-mcq-20",
+        "wheel-mcq-17"
       ],
       "explanation": "本句的「wheels」指「非正式：汽車／交通工具」。",
       "sentenceIndex": 31,
@@ -1481,12 +1379,10 @@ export default {
         "wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-16": "本句指「非正式：汽車／交通工具」。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-13": "「把纖維紡成紗線的傳統紡車」與本句語境不同。"
+        "wheel-mcq-16": "本句的「wheels」指「非正式：汽車／交通工具」。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-16"
     },
@@ -1498,11 +1394,9 @@ export default {
       "masked": "A nurse ____ into the room.",
       "options": [
         "wheel-mcq-17",
-        "wheel-mcq-16",
-        "wheel-mcq-18",
-        "wheel-mcq-15",
-        "wheel-mcq-19",
-        "wheel-mcq-14"
+        "wheel-mcq-33",
+        "wheel-mcq-05",
+        "wheel-mcq-13"
       ],
       "explanation": "本句的「wheeled the patient」指「推著有輪子的物件／設備移動」。",
       "sentenceIndex": 32,
@@ -1511,12 +1405,10 @@ export default {
         "wheeled the patient"
       ],
       "optionReasons": {
-        "wheel-mcq-17": "本句指「推著有輪子的物件／設備移動」。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。"
+        "wheel-mcq-17": "本句的「wheeled the patient」指「推著有輪子的物件／設備移動」。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-17"
     },
@@ -1528,11 +1420,9 @@ export default {
       "masked": "He ____ through the gate.",
       "options": [
         "wheel-mcq-17",
-        "wheel-mcq-16",
-        "wheel-mcq-18",
-        "wheel-mcq-15",
-        "wheel-mcq-19",
-        "wheel-mcq-14"
+        "wheel-mcq-33",
+        "wheel-mcq-04",
+        "wheel-mcq-30"
       ],
       "explanation": "本句的「wheeled the bicycle」指「推著有輪子的物件／設備移動」。",
       "sentenceIndex": 33,
@@ -1541,12 +1431,10 @@ export default {
         "wheeled the bicycle"
       ],
       "optionReasons": {
-        "wheel-mcq-17": "本句指「推著有輪子的物件／設備移動」。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-14": "「旋轉後決定號碼、獎品等的轉盤」與本句語境不同。"
+        "wheel-mcq-17": "本句的「wheeled the bicycle」指「推著有輪子的物件／設備移動」。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-17"
     },
@@ -1558,11 +1446,9 @@ export default {
       "masked": "They ____ another bed.",
       "options": [
         "wheel-mcq-18",
-        "wheel-mcq-17",
-        "wheel-mcq-19",
-        "wheel-mcq-16",
-        "wheel-mcq-20",
-        "wheel-mcq-15"
+        "wheel-mcq-13",
+        "wheel-mcq-31",
+        "wheel-mcq-06"
       ],
       "explanation": "本句的「wheeled in」指「把有輪子的物件推進／推出／推走」。",
       "sentenceIndex": 34,
@@ -1571,12 +1457,10 @@ export default {
         "wheeled in"
       ],
       "optionReasons": {
-        "wheel-mcq-18": "本句指「把有輪子的物件推進／推出／推走」。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。"
+        "wheel-mcq-18": "本句的「wheeled in」指「把有輪子的物件推進／推出／推走」。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-18"
     },
@@ -1588,11 +1472,9 @@ export default {
       "masked": "The equipment was ____ after the event.",
       "options": [
         "wheel-mcq-18",
-        "wheel-mcq-17",
-        "wheel-mcq-19",
-        "wheel-mcq-16",
-        "wheel-mcq-20",
-        "wheel-mcq-15"
+        "wheel-mcq-05",
+        "wheel-mcq-13",
+        "wheel-mcq-29"
       ],
       "explanation": "本句的「wheeled away」指「把有輪子的物件推進／推出／推走」。",
       "sentenceIndex": 35,
@@ -1601,12 +1483,10 @@ export default {
         "wheeled away"
       ],
       "optionReasons": {
-        "wheel-mcq-18": "本句指「把有輪子的物件推進／推出／推走」。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-15": "「輪盤賭中旋轉的號碼輪盤」與本句語境不同。"
+        "wheel-mcq-18": "本句的「wheeled away」指「把有輪子的物件推進／推出／推走」。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-18"
     },
@@ -1618,11 +1498,9 @@ export default {
       "masked": "She ____ when she heard her name.",
       "options": [
         "wheel-mcq-19",
-        "wheel-mcq-18",
-        "wheel-mcq-20",
+        "wheel-mcq-31",
         "wheel-mcq-17",
-        "wheel-mcq-21",
-        "wheel-mcq-16"
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「wheeled around」指「突然轉身或迅速改變方向」。",
       "sentenceIndex": 36,
@@ -1631,12 +1509,10 @@ export default {
         "wheeled around"
       ],
       "optionReasons": {
-        "wheel-mcq-19": "本句指「突然轉身或迅速改變方向」。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。"
+        "wheel-mcq-19": "本句的「wheeled around」指「突然轉身或迅速改變方向」。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-19"
     },
@@ -1648,11 +1524,9 @@ export default {
       "masked": "He ____ and ran back toward the house.",
       "options": [
         "wheel-mcq-19",
-        "wheel-mcq-18",
-        "wheel-mcq-20",
-        "wheel-mcq-17",
-        "wheel-mcq-21",
-        "wheel-mcq-16"
+        "wheel-mcq-30",
+        "wheel-mcq-33",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「wheeled」指「突然轉身或迅速改變方向」。",
       "sentenceIndex": 37,
@@ -1661,12 +1535,10 @@ export default {
         "wheeled"
       ],
       "optionReasons": {
-        "wheel-mcq-19": "本句指「突然轉身或迅速改變方向」。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-16": "「非正式：汽車／交通工具」與本句語境不同。"
+        "wheel-mcq-19": "本句的「wheeled」指「突然轉身或迅速改變方向」。",
+        "wheel-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-19"
     },
@@ -1678,11 +1550,9 @@ export default {
       "masked": "He ____ to face me.",
       "options": [
         "wheel-mcq-20",
-        "wheel-mcq-19",
-        "wheel-mcq-21",
-        "wheel-mcq-18",
-        "wheel-mcq-22",
-        "wheel-mcq-17"
+        "wheel-mcq-24",
+        "wheel-mcq-13",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「wheeled around」指「猛然轉身／迅速回頭」。",
       "sentenceIndex": 38,
@@ -1691,12 +1561,10 @@ export default {
         "wheeled around"
       ],
       "optionReasons": {
-        "wheel-mcq-20": "本句指「猛然轉身／迅速回頭」。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。"
+        "wheel-mcq-20": "本句的「wheeled around」指「猛然轉身／迅速回頭」。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-20"
     },
@@ -1708,11 +1576,9 @@ export default {
       "masked": "She ____ in surprise.",
       "options": [
         "wheel-mcq-20",
-        "wheel-mcq-19",
-        "wheel-mcq-21",
-        "wheel-mcq-18",
-        "wheel-mcq-22",
-        "wheel-mcq-17"
+        "wheel-mcq-26",
+        "wheel-mcq-31",
+        "wheel-mcq-05"
       ],
       "explanation": "本句的「wheeled round」指「猛然轉身／迅速回頭」。",
       "sentenceIndex": 39,
@@ -1721,12 +1587,10 @@ export default {
         "wheeled round"
       ],
       "optionReasons": {
-        "wheel-mcq-20": "本句指「猛然轉身／迅速回頭」。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-17": "「推著有輪子的物件／設備移動」與本句語境不同。"
+        "wheel-mcq-20": "本句的「wheeled round」指「猛然轉身／迅速回頭」。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-20"
     },
@@ -1738,11 +1602,9 @@ export default {
       "masked": "Birds ____ the cliffs.",
       "options": [
         "wheel-mcq-21",
-        "wheel-mcq-20",
-        "wheel-mcq-22",
-        "wheel-mcq-19",
-        "wheel-mcq-23",
-        "wheel-mcq-18"
+        "wheel-mcq-06",
+        "wheel-mcq-18",
+        "wheel-mcq-33"
       ],
       "explanation": "本句的「wheeled above」指「沿圓形路徑迴旋／盤旋」。",
       "sentenceIndex": 40,
@@ -1751,12 +1613,10 @@ export default {
         "wheeled above"
       ],
       "optionReasons": {
-        "wheel-mcq-21": "本句指「沿圓形路徑迴旋／盤旋」。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。"
+        "wheel-mcq-21": "本句的「wheeled above」指「沿圓形路徑迴旋／盤旋」。",
+        "wheel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-21"
     },
@@ -1768,11 +1628,9 @@ export default {
       "masked": "The aircraft ____ and headed back toward the airport.",
       "options": [
         "wheel-mcq-21",
-        "wheel-mcq-20",
-        "wheel-mcq-22",
-        "wheel-mcq-19",
-        "wheel-mcq-23",
-        "wheel-mcq-18"
+        "wheel-mcq-07",
+        "wheel-mcq-17",
+        "wheel-mcq-16"
       ],
       "explanation": "本句的「wheeled」指「沿圓形路徑迴旋／盤旋」。",
       "sentenceIndex": 41,
@@ -1781,12 +1639,10 @@ export default {
         "wheeled"
       ],
       "optionReasons": {
-        "wheel-mcq-21": "本句指「沿圓形路徑迴旋／盤旋」。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。"
+        "wheel-mcq-21": "本句的「wheeled」指「沿圓形路徑迴旋／盤旋」。",
+        "wheel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-21"
     },
@@ -1799,10 +1655,8 @@ export default {
       "options": [
         "wheel-mcq-21",
         "wheel-mcq-20",
-        "wheel-mcq-22",
-        "wheel-mcq-19",
-        "wheel-mcq-23",
-        "wheel-mcq-18"
+        "wheel-mcq-24",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「wheeling overhead」指「沿圓形路徑迴旋／盤旋」。",
       "sentenceIndex": 42,
@@ -1811,12 +1665,10 @@ export default {
         "wheeling overhead"
       ],
       "optionReasons": {
-        "wheel-mcq-21": "本句指「沿圓形路徑迴旋／盤旋」。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。"
+        "wheel-mcq-21": "本句的「wheeling overhead」指「沿圓形路徑迴旋／盤旋」。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-21"
     },
@@ -1828,11 +1680,9 @@ export default {
       "masked": "Eagles ____.",
       "options": [
         "wheel-mcq-21",
-        "wheel-mcq-20",
-        "wheel-mcq-22",
-        "wheel-mcq-19",
         "wheel-mcq-23",
-        "wheel-mcq-18"
+        "wheel-mcq-32",
+        "wheel-mcq-20"
       ],
       "explanation": "本句的「wheeled in the sky」指「沿圓形路徑迴旋／盤旋」。",
       "sentenceIndex": 43,
@@ -1841,12 +1691,10 @@ export default {
         "wheeled in the sky"
       ],
       "optionReasons": {
-        "wheel-mcq-21": "本句指「沿圓形路徑迴旋／盤旋」。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-18": "「把有輪子的物件推進／推出／推走」與本句語境不同。"
+        "wheel-mcq-21": "本句的「wheeled in the sky」指「沿圓形路徑迴旋／盤旋」。",
+        "wheel-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-21"
     },
@@ -1858,11 +1706,9 @@ export default {
       "masked": "The entrance is accessible to ____ users.",
       "options": [
         "wheel-mcq-22",
-        "wheel-mcq-21",
-        "wheel-mcq-23",
-        "wheel-mcq-20",
-        "wheel-mcq-24",
-        "wheel-mcq-19"
+        "wheel-mcq-08",
+        "wheel-mcq-13",
+        "wheel-mcq-30"
       ],
       "explanation": "本句的「wheelchair」指「裝有輪子、供行動不便者乘坐的輪椅」。",
       "sentenceIndex": 44,
@@ -1871,12 +1717,10 @@ export default {
         "wheelchair"
       ],
       "optionReasons": {
-        "wheel-mcq-22": "本句指「裝有輪子、供行動不便者乘坐的輪椅」。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。"
+        "wheel-mcq-22": "本句的「wheelchair」指「裝有輪子、供行動不便者乘坐的輪椅」。",
+        "wheel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-22"
     },
@@ -1888,11 +1732,9 @@ export default {
       "masked": "He uses a ____ for longer journeys.",
       "options": [
         "wheel-mcq-22",
-        "wheel-mcq-21",
-        "wheel-mcq-23",
-        "wheel-mcq-20",
-        "wheel-mcq-24",
-        "wheel-mcq-19"
+        "wheel-mcq-26",
+        "wheel-mcq-25",
+        "wheel-mcq-30"
       ],
       "explanation": "本句的「wheelchair」指「裝有輪子、供行動不便者乘坐的輪椅」。",
       "sentenceIndex": 45,
@@ -1901,12 +1743,10 @@ export default {
         "wheelchair"
       ],
       "optionReasons": {
-        "wheel-mcq-22": "本句指「裝有輪子、供行動不便者乘坐的輪椅」。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-19": "「突然轉身或迅速改變方向」與本句語境不同。"
+        "wheel-mcq-22": "本句的「wheelchair」指「裝有輪子、供行動不便者乘坐的輪椅」。",
+        "wheel-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-22"
     },
@@ -1918,11 +1758,9 @@ export default {
       "masked": "The captain returned to the ____.",
       "options": [
         "wheel-mcq-23",
-        "wheel-mcq-22",
-        "wheel-mcq-24",
-        "wheel-mcq-21",
-        "wheel-mcq-25",
-        "wheel-mcq-20"
+        "wheel-mcq-10",
+        "wheel-mcq-13",
+        "wheel-mcq-31"
       ],
       "explanation": "本句的「wheelhouse」指「船上操控船隻的駕駛室／舵房」。",
       "sentenceIndex": 46,
@@ -1931,12 +1769,10 @@ export default {
         "wheelhouse"
       ],
       "optionReasons": {
-        "wheel-mcq-23": "本句指「船上操控船隻的駕駛室／舵房」。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。"
+        "wheel-mcq-23": "本句的「wheelhouse」指「船上操控船隻的駕駛室／舵房」。",
+        "wheel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-23"
     },
@@ -1948,11 +1784,9 @@ export default {
       "masked": "The controls are located inside the ____.",
       "options": [
         "wheel-mcq-23",
-        "wheel-mcq-22",
         "wheel-mcq-24",
-        "wheel-mcq-21",
-        "wheel-mcq-25",
-        "wheel-mcq-20"
+        "wheel-mcq-17",
+        "wheel-mcq-16"
       ],
       "explanation": "本句的「wheelhouse」指「船上操控船隻的駕駛室／舵房」。",
       "sentenceIndex": 47,
@@ -1961,12 +1795,10 @@ export default {
         "wheelhouse"
       ],
       "optionReasons": {
-        "wheel-mcq-23": "本句指「船上操控船隻的駕駛室／舵房」。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-20": "「猛然轉身／迅速回頭」與本句語境不同。"
+        "wheel-mcq-23": "本句的「wheelhouse」指「船上操控船隻的駕駛室／舵房」。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-23"
     },
@@ -1978,11 +1810,9 @@ export default {
       "masked": "Data analysis is right ____.",
       "options": [
         "wheel-mcq-24",
-        "wheel-mcq-23",
-        "wheel-mcq-25",
-        "wheel-mcq-22",
-        "wheel-mcq-26",
-        "wheel-mcq-21"
+        "wheel-mcq-06",
+        "wheel-mcq-15",
+        "wheel-mcq-19"
       ],
       "explanation": "本句的「in her wheelhouse」指「屬於某人的專長、能力或熟悉領域」。",
       "sentenceIndex": 48,
@@ -1991,12 +1821,10 @@ export default {
         "in her wheelhouse"
       ],
       "optionReasons": {
-        "wheel-mcq-24": "本句指「屬於某人的專長、能力或熟悉領域」。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。"
+        "wheel-mcq-24": "本句的「in her wheelhouse」指「屬於某人的專長、能力或熟悉領域」。",
+        "wheel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-24"
     },
@@ -2008,11 +1836,9 @@ export default {
       "masked": "That type of project is not really ____.",
       "options": [
         "wheel-mcq-24",
-        "wheel-mcq-23",
-        "wheel-mcq-25",
-        "wheel-mcq-22",
-        "wheel-mcq-26",
-        "wheel-mcq-21"
+        "wheel-mcq-07",
+        "wheel-mcq-21",
+        "wheel-mcq-31"
       ],
       "explanation": "本句的「in my wheelhouse」指「屬於某人的專長、能力或熟悉領域」。",
       "sentenceIndex": 49,
@@ -2021,12 +1847,10 @@ export default {
         "in my wheelhouse"
       ],
       "optionReasons": {
-        "wheel-mcq-24": "本句指「屬於某人的專長、能力或熟悉領域」。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-21": "「沿圓形路徑迴旋／盤旋」與本句語境不同。"
+        "wheel-mcq-24": "本句的「in my wheelhouse」指「屬於某人的專長、能力或熟悉領域」。",
+        "wheel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-24"
     },
@@ -2039,10 +1863,8 @@ export default {
       "options": [
         "wheel-mcq-25",
         "wheel-mcq-24",
-        "wheel-mcq-26",
-        "wheel-mcq-23",
-        "wheel-mcq-27",
-        "wheel-mcq-22"
+        "wheel-mcq-20",
+        "wheel-mcq-23"
       ],
       "explanation": "本句的「third wheel」指「陪著一對情侶而顯得多餘的人；電燈泡」。",
       "sentenceIndex": 50,
@@ -2051,12 +1873,10 @@ export default {
         "third wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-25": "本句指「陪著一對情侶而顯得多餘的人；電燈泡」。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。"
+        "wheel-mcq-25": "本句的「third wheel」指「陪著一對情侶而顯得多餘的人；電燈泡」。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-25"
     },
@@ -2068,11 +1888,9 @@ export default {
       "masked": "He did not want to be a ____ on their date.",
       "options": [
         "wheel-mcq-25",
-        "wheel-mcq-24",
-        "wheel-mcq-26",
-        "wheel-mcq-23",
-        "wheel-mcq-27",
-        "wheel-mcq-22"
+        "wheel-mcq-15",
+        "wheel-mcq-07",
+        "wheel-mcq-27"
       ],
       "explanation": "本句的「third wheel」指「陪著一對情侶而顯得多餘的人；電燈泡」。",
       "sentenceIndex": 51,
@@ -2081,12 +1899,10 @@ export default {
         "third wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-25": "本句指「陪著一對情侶而顯得多餘的人；電燈泡」。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-22": "「裝有輪子、供行動不便者乘坐的輪椅」與本句語境不同。"
+        "wheel-mcq-25": "本句的「third wheel」指「陪著一對情侶而顯得多餘的人；電燈泡」。",
+        "wheel-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-25"
     },
@@ -2098,11 +1914,9 @@ export default {
       "masked": "We can use the existing system instead of ____.",
       "options": [
         "wheel-mcq-26",
-        "wheel-mcq-25",
-        "wheel-mcq-27",
-        "wheel-mcq-24",
-        "wheel-mcq-28",
-        "wheel-mcq-23"
+        "wheel-mcq-07",
+        "wheel-mcq-21",
+        "wheel-mcq-22"
       ],
       "explanation": "本句的「reinventing the wheel」指「浪費力氣重新創造已有的解決方案」。",
       "sentenceIndex": 52,
@@ -2111,12 +1925,10 @@ export default {
         "reinventing the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-26": "本句指「浪費力氣重新創造已有的解決方案」。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。"
+        "wheel-mcq-26": "本句的「reinventing the wheel」指「浪費力氣重新創造已有的解決方案」。",
+        "wheel-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-26"
     },
@@ -2128,11 +1940,9 @@ export default {
       "masked": "There is no need to ____.",
       "options": [
         "wheel-mcq-26",
-        "wheel-mcq-25",
-        "wheel-mcq-27",
-        "wheel-mcq-24",
-        "wheel-mcq-28",
-        "wheel-mcq-23"
+        "wheel-mcq-01",
+        "wheel-mcq-08",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「reinvent the wheel」指「浪費力氣重新創造已有的解決方案」。",
       "sentenceIndex": 53,
@@ -2141,12 +1951,10 @@ export default {
         "reinvent the wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-26": "本句指「浪費力氣重新創造已有的解決方案」。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-23": "「船上操控船隻的駕駛室／舵房」與本句語境不同。"
+        "wheel-mcq-26": "本句的「reinvent the wheel」指「浪費力氣重新創造已有的解決方案」。",
+        "wheel-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-26"
     },
@@ -2158,11 +1966,9 @@ export default {
       "masked": "The meeting ____ for the project.",
       "options": [
         "wheel-mcq-27",
-        "wheel-mcq-26",
-        "wheel-mcq-28",
-        "wheel-mcq-25",
-        "wheel-mcq-29",
-        "wheel-mcq-24"
+        "wheel-mcq-19",
+        "wheel-mcq-31",
+        "wheel-mcq-15"
       ],
       "explanation": "本句的「set the wheels in motion」指「啟動一連串程序，使事情開始發展」。",
       "sentenceIndex": 54,
@@ -2171,12 +1977,10 @@ export default {
         "set the wheels in motion"
       ],
       "optionReasons": {
-        "wheel-mcq-27": "本句指「啟動一連串程序，使事情開始發展」。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。"
+        "wheel-mcq-27": "本句的「set the wheels in motion」指「啟動一連串程序，使事情開始發展」。",
+        "wheel-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-27"
     },
@@ -2188,11 +1992,9 @@ export default {
       "masked": "One phone call ____.",
       "options": [
         "wheel-mcq-27",
-        "wheel-mcq-26",
-        "wheel-mcq-28",
-        "wheel-mcq-25",
-        "wheel-mcq-29",
-        "wheel-mcq-24"
+        "wheel-mcq-33",
+        "wheel-mcq-06",
+        "wheel-mcq-15"
       ],
       "explanation": "本句的「set the wheels in motion」指「啟動一連串程序，使事情開始發展」。",
       "sentenceIndex": 55,
@@ -2201,12 +2003,10 @@ export default {
         "set the wheels in motion"
       ],
       "optionReasons": {
-        "wheel-mcq-27": "本句指「啟動一連串程序，使事情開始發展」。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-24": "「屬於某人的專長、能力或熟悉領域」與本句語境不同。"
+        "wheel-mcq-27": "本句的「set the wheels in motion」指「啟動一連串程序，使事情開始發展」。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-27"
     },
@@ -2218,11 +2018,9 @@ export default {
       "masked": "The ____.",
       "options": [
         "wheel-mcq-28",
-        "wheel-mcq-27",
-        "wheel-mcq-29",
-        "wheel-mcq-26",
-        "wheel-mcq-30",
-        "wheel-mcq-25"
+        "wheel-mcq-25",
+        "wheel-mcq-13",
+        "wheel-mcq-19"
       ],
       "explanation": "本句的「wheels are already in motion」指「事情／程序已經啟動並開始推進」。",
       "sentenceIndex": 56,
@@ -2231,12 +2029,10 @@ export default {
         "wheels are already in motion"
       ],
       "optionReasons": {
-        "wheel-mcq-28": "本句指「事情／程序已經啟動並開始推進」。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。"
+        "wheel-mcq-28": "本句的「wheels are already in motion」指「事情／程序已經啟動並開始推進」。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-28"
     },
@@ -2248,11 +2044,9 @@ export default {
       "masked": "Once the ____, it was difficult to stop the plan.",
       "options": [
         "wheel-mcq-28",
-        "wheel-mcq-27",
-        "wheel-mcq-29",
-        "wheel-mcq-26",
-        "wheel-mcq-30",
-        "wheel-mcq-25"
+        "wheel-mcq-20",
+        "wheel-mcq-12",
+        "wheel-mcq-16"
       ],
       "explanation": "本句的「wheels were in motion」指「事情／程序已經啟動並開始推進」。",
       "sentenceIndex": 57,
@@ -2261,12 +2055,10 @@ export default {
         "wheels were in motion"
       ],
       "optionReasons": {
-        "wheel-mcq-28": "本句指「事情／程序已經啟動並開始推進」。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-25": "「陪著一對情侶而顯得多餘的人；電燈泡」與本句語境不同。"
+        "wheel-mcq-28": "本句的「wheels were in motion」指「事情／程序已經啟動並開始推進」。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-28"
     },
@@ -2278,11 +2070,9 @@ export default {
       "masked": "Good communication can ____ of cooperation.",
       "options": [
         "wheel-mcq-29",
-        "wheel-mcq-28",
-        "wheel-mcq-30",
-        "wheel-mcq-27",
-        "wheel-mcq-31",
-        "wheel-mcq-26"
+        "wheel-mcq-20",
+        "wheel-mcq-23",
+        "wheel-mcq-21"
       ],
       "explanation": "本句的「grease the wheels」指「令程序、合作或事情運作得更加順暢」。",
       "sentenceIndex": 58,
@@ -2291,12 +2081,10 @@ export default {
         "grease the wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-29": "本句指「令程序、合作或事情運作得更加順暢」。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。"
+        "wheel-mcq-29": "本句的「grease the wheels」指「令程序、合作或事情運作得更加順暢」。",
+        "wheel-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-29"
     },
@@ -2308,11 +2096,9 @@ export default {
       "masked": "A little flexibility helped ____.",
       "options": [
         "wheel-mcq-29",
-        "wheel-mcq-28",
-        "wheel-mcq-30",
-        "wheel-mcq-27",
-        "wheel-mcq-31",
-        "wheel-mcq-26"
+        "wheel-mcq-12",
+        "wheel-mcq-23",
+        "wheel-mcq-30"
       ],
       "explanation": "本句的「grease the wheels」指「令程序、合作或事情運作得更加順暢」。",
       "sentenceIndex": 59,
@@ -2321,12 +2107,10 @@ export default {
         "grease the wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-29": "本句指「令程序、合作或事情運作得更加順暢」。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-26": "「浪費力氣重新創造已有的解決方案」與本句語境不同。"
+        "wheel-mcq-29": "本句的「grease the wheels」指「令程序、合作或事情運作得更加順暢」。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-29"
     },
@@ -2338,11 +2122,9 @@ export default {
       "masked": "The project was going well until ____.",
       "options": [
         "wheel-mcq-30",
-        "wheel-mcq-29",
-        "wheel-mcq-31",
-        "wheel-mcq-28",
-        "wheel-mcq-32",
-        "wheel-mcq-27"
+        "wheel-mcq-25",
+        "wheel-mcq-17",
+        "wheel-mcq-12"
       ],
       "explanation": "本句的「the wheels came off」指「非正式：計畫、組織等開始嚴重失控／崩盤」。",
       "sentenceIndex": 60,
@@ -2351,12 +2133,10 @@ export default {
         "the wheels came off"
       ],
       "optionReasons": {
-        "wheel-mcq-30": "本句指「非正式：計畫、組織等開始嚴重失控／崩盤」。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-32": "「非正式、較舊：有權勢／重要的大人物」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。"
+        "wheel-mcq-30": "本句的「the wheels came off」指「非正式：計畫、組織等開始嚴重失控／崩盤」。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-30"
     },
@@ -2368,11 +2148,9 @@ export default {
       "masked": "In the second half, ____ for the team.",
       "options": [
         "wheel-mcq-30",
-        "wheel-mcq-29",
-        "wheel-mcq-31",
-        "wheel-mcq-28",
-        "wheel-mcq-32",
-        "wheel-mcq-27"
+        "wheel-mcq-13",
+        "wheel-mcq-10",
+        "wheel-mcq-33"
       ],
       "explanation": "本句的「the wheels came off」指「非正式：計畫、組織等開始嚴重失控／崩盤」。",
       "sentenceIndex": 61,
@@ -2381,12 +2159,10 @@ export default {
         "the wheels came off"
       ],
       "optionReasons": {
-        "wheel-mcq-30": "本句指「非正式：計畫、組織等開始嚴重失控／崩盤」。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。",
-        "wheel-mcq-32": "「非正式、較舊：有權勢／重要的大人物」與本句語境不同。",
-        "wheel-mcq-27": "「啟動一連串程序，使事情開始發展」與本句語境不同。"
+        "wheel-mcq-30": "本句的「the wheels came off」指「非正式：計畫、組織等開始嚴重失控／崩盤」。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-30"
     },
@@ -2398,11 +2174,9 @@ export default {
       "masked": "The case involved ____.",
       "options": [
         "wheel-mcq-31",
-        "wheel-mcq-30",
-        "wheel-mcq-32",
-        "wheel-mcq-29",
+        "wheel-mcq-12",
         "wheel-mcq-33",
-        "wheel-mcq-28"
+        "wheel-mcq-18"
       ],
       "explanation": "本句的「wheels within wheels」指「背後存在錯綜複雜的關係、安排或內情」。",
       "sentenceIndex": 62,
@@ -2411,12 +2185,10 @@ export default {
         "wheels within wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-31": "本句指「背後存在錯綜複雜的關係、安排或內情」。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-32": "「非正式、較舊：有權勢／重要的大人物」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-33": "「善於利用人脈、手腕進行交易的人」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。"
+        "wheel-mcq-31": "本句的「wheels within wheels」指「背後存在錯綜複雜的關係、安排或內情」。",
+        "wheel-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-31"
     },
@@ -2428,11 +2200,9 @@ export default {
       "masked": "There seemed to be ____ behind the decision.",
       "options": [
         "wheel-mcq-31",
-        "wheel-mcq-30",
-        "wheel-mcq-32",
-        "wheel-mcq-29",
-        "wheel-mcq-33",
-        "wheel-mcq-28"
+        "wheel-mcq-27",
+        "wheel-mcq-22",
+        "wheel-mcq-13"
       ],
       "explanation": "本句的「wheels within wheels」指「背後存在錯綜複雜的關係、安排或內情」。",
       "sentenceIndex": 63,
@@ -2441,12 +2211,10 @@ export default {
         "wheels within wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-31": "本句指「背後存在錯綜複雜的關係、安排或內情」。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-32": "「非正式、較舊：有權勢／重要的大人物」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-33": "「善於利用人脈、手腕進行交易的人」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。"
+        "wheel-mcq-31": "本句的「wheels within wheels」指「背後存在錯綜複雜的關係、安排或內情」。",
+        "wheel-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-31"
     },
@@ -2459,10 +2227,8 @@ export default {
       "options": [
         "wheel-mcq-32",
         "wheel-mcq-31",
-        "wheel-mcq-33",
-        "wheel-mcq-30",
-        "wheel-mcq-29",
-        "wheel-mcq-28"
+        "wheel-mcq-18",
+        "wheel-mcq-29"
       ],
       "explanation": "本句的「big wheel」指「非正式、較舊：有權勢／重要的大人物」。",
       "sentenceIndex": 64,
@@ -2471,12 +2237,10 @@ export default {
         "big wheel"
       ],
       "optionReasons": {
-        "wheel-mcq-32": "本句指「非正式、較舊：有權勢／重要的大人物」。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-33": "「善於利用人脈、手腕進行交易的人」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。"
+        "wheel-mcq-32": "本句的「big wheel」指「非正式、較舊：有權勢／重要的大人物」。",
+        "wheel-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-32"
     },
@@ -2488,11 +2252,9 @@ export default {
       "masked": "Several local ____ attended the event.",
       "options": [
         "wheel-mcq-32",
-        "wheel-mcq-31",
-        "wheel-mcq-33",
-        "wheel-mcq-30",
-        "wheel-mcq-29",
-        "wheel-mcq-28"
+        "wheel-mcq-08",
+        "wheel-mcq-22",
+        "wheel-mcq-25"
       ],
       "explanation": "本句的「big wheels」指「非正式、較舊：有權勢／重要的大人物」。",
       "sentenceIndex": 65,
@@ -2501,12 +2263,10 @@ export default {
         "big wheels"
       ],
       "optionReasons": {
-        "wheel-mcq-32": "本句指「非正式、較舊：有權勢／重要的大人物」。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-33": "「善於利用人脈、手腕進行交易的人」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。"
+        "wheel-mcq-32": "本句的「big wheels」指「非正式、較舊：有權勢／重要的大人物」。",
+        "wheel-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-32"
     },
@@ -2518,11 +2278,9 @@ export default {
       "masked": "He had a reputation as a ____.",
       "options": [
         "wheel-mcq-33",
-        "wheel-mcq-32",
-        "wheel-mcq-31",
-        "wheel-mcq-30",
-        "wheel-mcq-29",
-        "wheel-mcq-28"
+        "wheel-mcq-05",
+        "wheel-mcq-24",
+        "wheel-mcq-21"
       ],
       "explanation": "本句的「wheeler-dealer」指「善於利用人脈、手腕進行交易的人」。",
       "sentenceIndex": 66,
@@ -2531,12 +2289,10 @@ export default {
         "wheeler-dealer"
       ],
       "optionReasons": {
-        "wheel-mcq-33": "本句指「善於利用人脈、手腕進行交易的人」。",
-        "wheel-mcq-32": "「非正式、較舊：有權勢／重要的大人物」與本句語境不同。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。"
+        "wheel-mcq-33": "本句的「wheeler-dealer」指「善於利用人脈、手腕進行交易的人」。",
+        "wheel-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-33"
     },
@@ -2548,11 +2304,9 @@ export default {
       "masked": "The businessman was a skilled ____.",
       "options": [
         "wheel-mcq-33",
-        "wheel-mcq-32",
-        "wheel-mcq-31",
-        "wheel-mcq-30",
-        "wheel-mcq-29",
-        "wheel-mcq-28"
+        "wheel-mcq-23",
+        "wheel-mcq-11",
+        "wheel-mcq-15"
       ],
       "explanation": "本句的「wheeler-dealer」指「善於利用人脈、手腕進行交易的人」。",
       "sentenceIndex": 67,
@@ -2561,12 +2315,10 @@ export default {
         "wheeler-dealer"
       ],
       "optionReasons": {
-        "wheel-mcq-33": "本句指「善於利用人脈、手腕進行交易的人」。",
-        "wheel-mcq-32": "「非正式、較舊：有權勢／重要的大人物」與本句語境不同。",
-        "wheel-mcq-31": "「背後存在錯綜複雜的關係、安排或內情」與本句語境不同。",
-        "wheel-mcq-30": "「非正式：計畫、組織等開始嚴重失控／崩盤」與本句語境不同。",
-        "wheel-mcq-29": "「令程序、合作或事情運作得更加順暢」與本句語境不同。",
-        "wheel-mcq-28": "「事情／程序已經啟動並開始推進」與本句語境不同。"
+        "wheel-mcq-33": "本句的「wheeler-dealer」指「善於利用人脈、手腕進行交易的人」。",
+        "wheel-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wheel-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wheel-mcq-33"
     }
@@ -2578,5 +2330,7 @@ export default {
     "sha256": "d112e7bdcdbbbe80d51c7d525f84a3a007842614c5ea9dcc7082e3ea49f016b3",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

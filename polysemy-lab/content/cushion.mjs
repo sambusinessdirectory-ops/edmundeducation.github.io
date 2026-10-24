@@ -90,13 +90,7 @@ export default {
       "en": "cushion an impact/fall",
       "zh": "降低撞擊／跌落產生的力量",
       "note": "來源詞義：降低撞擊／跌落產生的力量",
-      "examples": [
-        [
-          "The packaging contains a foam cushion.",
-          "包裝內有一層泡棉緩衝墊。",
-          "降低撞擊／跌落產生的力量"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -403,6 +397,23 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "cushion-reviewed-934927aa8d",
+      "title": "緩衝墊",
+      "form": "cushion · source section 9",
+      "en": "緩衝墊",
+      "zh": "緩衝墊",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The packaging contains a foam cushion.",
+          "包裝內有一層泡棉緩衝墊。",
+          "緩衝墊"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -414,11 +425,9 @@ export default {
       "masked": "She put a ____ behind her back.",
       "options": [
         "cushion-mcq-01",
-        "cushion-mcq-02",
-        "cushion-mcq-03",
-        "cushion-mcq-04",
-        "cushion-mcq-05",
-        "cushion-mcq-06"
+        "cushion-mcq-20",
+        "cushion-mcq-18",
+        "cushion-mcq-05"
       ],
       "explanation": "本句的「cushion」指「內有柔軟材料、供坐／靠／支撐身體的軟墊」。",
       "sentenceIndex": 0,
@@ -427,44 +436,38 @@ export default {
         "cushion"
       ],
       "optionReasons": {
-        "cushion-mcq-01": "本句指「內有柔軟材料、供坐／靠／支撐身體的軟墊」。",
-        "cushion-mcq-02": "「坐墊／靠背墊」與本句語境不同。",
-        "cushion-mcq-03": "「放在梳化或床上的裝飾靠墊」與本句語境不同。",
-        "cushion-mcq-04": "「套在靠墊外面的布套」與本句語境不同。",
-        "cushion-mcq-05": "「用來吸收撞擊、壓力或震動的緩衝墊」與本句語境不同。",
-        "cushion-mcq-06": "「緩衝、緩震效果或相關材料」與本句語境不同。"
+        "cushion-mcq-01": "本句的「cushion」指「內有柔軟材料、供坐／靠／支撐身體的軟墊」。",
+        "cushion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-01"
     },
     {
       "id": "cushion-09-0",
-      "sense": "cushion-mcq-07",
+      "sense": "cushion-reviewed-934927aa8d",
       "en": "The packaging contains a foam cushion.",
       "zh": "包裝內有一層泡棉緩衝墊。",
       "masked": "The packaging contains a foam ____.",
       "options": [
-        "cushion-mcq-07",
-        "cushion-mcq-06",
-        "cushion-mcq-08",
-        "cushion-mcq-05",
-        "cushion-mcq-09",
-        "cushion-mcq-04"
+        "cushion-reviewed-934927aa8d",
+        "cushion-mcq-12",
+        "cushion-mcq-21"
       ],
-      "explanation": "本句的「cushion」指「降低撞擊／跌落產生的力量」。",
+      "explanation": "對照完整句子：「包裝內有一層泡棉緩衝墊。」。這裡的「cushion」表示「緩衝墊」。",
       "sentenceIndex": 2,
       "sourcePractice": 9,
       "targets": [
         "cushion"
       ],
       "optionReasons": {
-        "cushion-mcq-07": "本句指「降低撞擊／跌落產生的力量」。",
-        "cushion-mcq-06": "「緩衝、緩震效果或相關材料」與本句語境不同。",
-        "cushion-mcq-08": "「減少 X 對某人的不利影響」與本句語境不同。",
-        "cushion-mcq-05": "「用來吸收撞擊、壓力或震動的緩衝墊」與本句語境不同。",
-        "cushion-mcq-09": "「用受壓空氣形成支撐／緩衝的氣墊」與本句語境不同。",
-        "cushion-mcq-04": "「套在靠墊外面的布套」與本句語境不同。"
+        "cushion-reviewed-934927aa8d": "對照完整句子：「包裝內有一層泡棉緩衝墊。」。這裡的「cushion」表示「緩衝墊」。",
+        "cushion-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "cushion-mcq-07"
+      "correctOption": "cushion-reviewed-934927aa8d",
+      "previousCorrectOption": "cushion-mcq-07",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "cushion-13-0",
@@ -474,11 +477,8 @@ export default {
       "masked": "The padding ____ the impact.",
       "options": [
         "cushion-mcq-21",
-        "cushion-mcq-20",
-        "cushion-mcq-22",
-        "cushion-mcq-19",
-        "cushion-mcq-23",
-        "cushion-mcq-18"
+        "cushion-mcq-18",
+        "cushion-reviewed-934927aa8d"
       ],
       "explanation": "本句的「cushioned」指「降低損失／不利影響的嚴重程度」。",
       "sentenceIndex": 4,
@@ -487,12 +487,9 @@ export default {
         "cushioned"
       ],
       "optionReasons": {
-        "cushion-mcq-21": "本句指「降低損失／不利影響的嚴重程度」。",
-        "cushion-mcq-20": "「減輕壞消息、損失或衝擊造成的打擊」與本句語境不同。",
-        "cushion-mcq-22": "「形態或功能像軟墊、能承受壓力的身體組織」與本句語境不同。",
-        "cushion-mcq-19": "「在計劃／預算中事先加入緩衝餘量」與本句語境不同。",
-        "cushion-mcq-23": "「桌邊內側供球反彈的包布橡膠庫邊」與本句語境不同。",
-        "cushion-mcq-18": "「主動預留額外時間、金錢或安全餘量」與本句語境不同。"
+        "cushion-mcq-21": "本句的「cushioned」指「降低損失／不利影響的嚴重程度」。",
+        "cushion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cushion-reviewed-934927aa8d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-21"
     },
@@ -504,11 +501,8 @@ export default {
       "masked": "Keep a cash ____ for unexpected bills.",
       "options": [
         "cushion-mcq-12",
-        "cushion-mcq-11",
-        "cushion-mcq-13",
-        "cushion-mcq-10",
-        "cushion-mcq-14",
-        "cushion-mcq-09"
+        "cushion-reviewed-934927aa8d",
+        "cushion-mcq-21"
       ],
       "explanation": "本句的「cushion」指「為突發需要額外保留的現金」。",
       "sentenceIndex": 12,
@@ -517,12 +511,9 @@ export default {
         "cushion"
       ],
       "optionReasons": {
-        "cushion-mcq-12": "本句指「為突發需要額外保留的現金」。",
-        "cushion-mcq-11": "「可吸收意外開支／收入下降的財務安全墊」與本句語境不同。",
-        "cushion-mcq-13": "「可快速動用以應付現金需求的流動性緩衝」與本句語境不同。",
-        "cushion-mcq-10": "「鞋底吸收落地衝擊的緩震性能」與本句語境不同。",
-        "cushion-mcq-14": "「可用來吸收損失的額外資本」與本句語境不同。",
-        "cushion-mcq-09": "「用受壓空氣形成支撐／緩衝的氣墊」與本句語境不同。"
+        "cushion-mcq-12": "本句的「cushion」指「為突發需要額外保留的現金」。",
+        "cushion-reviewed-934927aa8d": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-12"
     },
@@ -534,11 +525,9 @@ export default {
       "masked": "Leave early to give yourself a ____.",
       "options": [
         "cushion-mcq-18",
-        "cushion-mcq-17",
-        "cushion-mcq-19",
-        "cushion-mcq-16",
         "cushion-mcq-20",
-        "cushion-mcq-15"
+        "cushion-mcq-01",
+        "cushion-mcq-05"
       ],
       "explanation": "本句的「cushion」指「主動預留額外時間、金錢或安全餘量」。",
       "sentenceIndex": 17,
@@ -547,12 +536,10 @@ export default {
         "cushion"
       ],
       "optionReasons": {
-        "cushion-mcq-18": "本句指「主動預留額外時間、金錢或安全餘量」。",
-        "cushion-mcq-17": "「使對手較難追上的額外領先優勢」與本句語境不同。",
-        "cushion-mcq-19": "「在計劃／預算中事先加入緩衝餘量」與本句語境不同。",
-        "cushion-mcq-16": "「為延誤等情況預留的額外時間」與本句語境不同。",
-        "cushion-mcq-20": "「減輕壞消息、損失或衝擊造成的打擊」與本句語境不同。",
-        "cushion-mcq-15": "「預算中預留應付超支／不確定性的額外金額」與本句語境不同。"
+        "cushion-mcq-18": "本句的「cushion」指「主動預留額外時間、金錢或安全餘量」。",
+        "cushion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-18"
     },
@@ -564,11 +551,9 @@ export default {
       "masked": "The savings ____ the blow of losing his job.",
       "options": [
         "cushion-mcq-20",
-        "cushion-mcq-19",
-        "cushion-mcq-21",
         "cushion-mcq-18",
-        "cushion-mcq-22",
-        "cushion-mcq-17"
+        "cushion-mcq-01",
+        "cushion-mcq-05"
       ],
       "explanation": "本句的「cushioned」指「減輕壞消息、損失或衝擊造成的打擊」。",
       "sentenceIndex": 19,
@@ -577,12 +562,10 @@ export default {
         "cushioned"
       ],
       "optionReasons": {
-        "cushion-mcq-20": "本句指「減輕壞消息、損失或衝擊造成的打擊」。",
-        "cushion-mcq-19": "「在計劃／預算中事先加入緩衝餘量」與本句語境不同。",
-        "cushion-mcq-21": "「降低損失／不利影響的嚴重程度」與本句語境不同。",
-        "cushion-mcq-18": "「主動預留額外時間、金錢或安全餘量」與本句語境不同。",
-        "cushion-mcq-22": "「形態或功能像軟墊、能承受壓力的身體組織」與本句語境不同。",
-        "cushion-mcq-17": "「使對手較難追上的額外領先優勢」與本句語境不同。"
+        "cushion-mcq-20": "本句的「cushioned」指「減輕壞消息、損失或衝擊造成的打擊」。",
+        "cushion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-20"
     },
@@ -594,11 +577,8 @@ export default {
       "masked": "Higher sales helped ____ the losses.",
       "options": [
         "cushion-mcq-21",
-        "cushion-mcq-20",
-        "cushion-mcq-22",
-        "cushion-mcq-19",
-        "cushion-mcq-23",
-        "cushion-mcq-18"
+        "cushion-mcq-18",
+        "cushion-reviewed-934927aa8d"
       ],
       "explanation": "本句的「cushion」指「降低損失／不利影響的嚴重程度」。",
       "sentenceIndex": 20,
@@ -607,12 +587,9 @@ export default {
         "cushion"
       ],
       "optionReasons": {
-        "cushion-mcq-21": "本句指「降低損失／不利影響的嚴重程度」。",
-        "cushion-mcq-20": "「減輕壞消息、損失或衝擊造成的打擊」與本句語境不同。",
-        "cushion-mcq-22": "「形態或功能像軟墊、能承受壓力的身體組織」與本句語境不同。",
-        "cushion-mcq-19": "「在計劃／預算中事先加入緩衝餘量」與本句語境不同。",
-        "cushion-mcq-23": "「桌邊內側供球反彈的包布橡膠庫邊」與本句語境不同。",
-        "cushion-mcq-18": "「主動預留額外時間、金錢或安全餘量」與本句語境不同。"
+        "cushion-mcq-21": "本句的「cushion」指「降低損失／不利影響的嚴重程度」。",
+        "cushion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cushion-reviewed-934927aa8d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-21"
     },
@@ -624,11 +601,9 @@ export default {
       "masked": "A layer of foam forms a ____ between the parts.",
       "options": [
         "cushion-mcq-05",
-        "cushion-mcq-04",
-        "cushion-mcq-06",
-        "cushion-mcq-03",
-        "cushion-mcq-07",
-        "cushion-mcq-02"
+        "cushion-mcq-12",
+        "cushion-mcq-21",
+        "cushion-mcq-01"
       ],
       "explanation": "本句的「cushion」指「用來吸收撞擊、壓力或震動的緩衝墊」。",
       "sentenceIndex": 22,
@@ -637,12 +612,10 @@ export default {
         "cushion"
       ],
       "optionReasons": {
-        "cushion-mcq-05": "本句指「用來吸收撞擊、壓力或震動的緩衝墊」。",
-        "cushion-mcq-04": "「套在靠墊外面的布套」與本句語境不同。",
-        "cushion-mcq-06": "「緩衝、緩震效果或相關材料」與本句語境不同。",
-        "cushion-mcq-03": "「放在梳化或床上的裝飾靠墊」與本句語境不同。",
-        "cushion-mcq-07": "「降低撞擊／跌落產生的力量」與本句語境不同。",
-        "cushion-mcq-02": "「坐墊／靠背墊」與本句語境不同。"
+        "cushion-mcq-05": "本句的「cushion」指「用來吸收撞擊、壓力或震動的緩衝墊」。",
+        "cushion-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "cushion-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cushion-mcq-05"
     }
@@ -654,5 +627,7 @@ export default {
     "sha256": "ff8748d038ca7e612e89bfcb079737e0df8462487a914fdd1c1a807c7710e557",
     "pages": 35
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -262,11 +262,9 @@ export default {
       "masked": "She picked a ripe ____ from the tree.",
       "options": [
         "lemon-mcq-01",
-        "lemon-mcq-02",
-        "lemon-mcq-03",
         "lemon-mcq-04",
-        "lemon-mcq-05",
-        "lemon-mcq-06"
+        "lemon-mcq-10",
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon」指「一種黃色、味酸、果汁豐富的柑橘類水果」。",
       "sentenceIndex": 0,
@@ -275,12 +273,10 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-01": "本句指「一種黃色、味酸、果汁豐富的柑橘類水果」。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-01": "本句的「lemon」指「一種黃色、味酸、果汁豐富的柑橘類水果」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-01"
     },
@@ -292,9 +288,6 @@ export default {
       "masked": "Add half a ____ to the drink.",
       "options": [
         "lemon-mcq-01",
-        "lemon-mcq-02",
-        "lemon-mcq-03",
-        "lemon-mcq-04",
         "lemon-mcq-05",
         "lemon-mcq-06"
       ],
@@ -305,12 +298,9 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-01": "本句指「一種黃色、味酸、果汁豐富的柑橘類水果」。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-01": "本句的「lemon」指「一種黃色、味酸、果汁豐富的柑橘類水果」。",
+        "lemon-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-01"
     },
@@ -322,11 +312,8 @@ export default {
       "masked": "She has a small ____.",
       "options": [
         "lemon-mcq-02",
-        "lemon-mcq-01",
-        "lemon-mcq-03",
         "lemon-mcq-04",
-        "lemon-mcq-05",
-        "lemon-mcq-06"
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon tree」指「結出檸檬果實的柑橘類果樹」。",
       "sentenceIndex": 2,
@@ -335,12 +322,9 @@ export default {
         "lemon tree"
       ],
       "optionReasons": {
-        "lemon-mcq-02": "本句指「結出檸檬果實的柑橘類果樹」。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-02": "本句的「lemon tree」指「結出檸檬果實的柑橘類果樹」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-02"
     },
@@ -352,11 +336,7 @@ export default {
       "masked": "The ____ tree needs plenty of sunlight.",
       "options": [
         "lemon-mcq-02",
-        "lemon-mcq-01",
-        "lemon-mcq-03",
-        "lemon-mcq-04",
-        "lemon-mcq-05",
-        "lemon-mcq-06"
+        "lemon-mcq-05"
       ],
       "explanation": "本句的「lemon」指「結出檸檬果實的柑橘類果樹」。",
       "sentenceIndex": 3,
@@ -365,12 +345,8 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-02": "本句指「結出檸檬果實的柑橘類果樹」。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-02": "本句的「lemon」指「結出檸檬果實的柑橘類果樹」。",
+        "lemon-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-02"
     },
@@ -382,11 +358,7 @@ export default {
       "masked": "Her ____ tree produced fruit for the first time this year.",
       "options": [
         "lemon-mcq-02",
-        "lemon-mcq-01",
-        "lemon-mcq-03",
-        "lemon-mcq-04",
-        "lemon-mcq-05",
-        "lemon-mcq-06"
+        "lemon-mcq-05"
       ],
       "explanation": "本句的「lemon」指「結出檸檬果實的柑橘類果樹」。",
       "sentenceIndex": 4,
@@ -395,12 +367,8 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-02": "本句指「結出檸檬果實的柑橘類果樹」。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-02": "本句的「lemon」指「結出檸檬果實的柑橘類果樹」。",
+        "lemon-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-02"
     },
@@ -412,11 +380,8 @@ export default {
       "masked": "She painted the kitchen ____.",
       "options": [
         "lemon-mcq-03",
-        "lemon-mcq-02",
         "lemon-mcq-04",
-        "lemon-mcq-01",
-        "lemon-mcq-05",
-        "lemon-mcq-06"
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon yellow」指「類似檸檬果皮的明亮／偏淡黃色」。",
       "sentenceIndex": 5,
@@ -425,12 +390,9 @@ export default {
         "lemon yellow"
       ],
       "optionReasons": {
-        "lemon-mcq-03": "本句指「類似檸檬果皮的明亮／偏淡黃色」。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-03": "本句的「lemon yellow」指「類似檸檬果皮的明亮／偏淡黃色」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-03"
     },
@@ -442,11 +404,8 @@ export default {
       "masked": "He wore a pale ____ shirt.",
       "options": [
         "lemon-mcq-03",
-        "lemon-mcq-02",
         "lemon-mcq-04",
-        "lemon-mcq-01",
-        "lemon-mcq-05",
-        "lemon-mcq-06"
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon」指「類似檸檬果皮的明亮／偏淡黃色」。",
       "sentenceIndex": 6,
@@ -455,12 +414,9 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-03": "本句指「類似檸檬果皮的明亮／偏淡黃色」。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-03": "本句的「lemon」指「類似檸檬果皮的明亮／偏淡黃色」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-03"
     },
@@ -472,11 +428,8 @@ export default {
       "masked": "The used car turned out to be a ____.",
       "options": [
         "lemon-mcq-04",
-        "lemon-mcq-03",
-        "lemon-mcq-05",
         "lemon-mcq-02",
-        "lemon-mcq-06",
-        "lemon-mcq-01"
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon」指「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」。",
       "sentenceIndex": 7,
@@ -485,12 +438,9 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-04": "本句指「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。"
+        "lemon-mcq-04": "本句的「lemon」指「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」。",
+        "lemon-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-04"
     },
@@ -502,11 +452,9 @@ export default {
       "masked": "I regret buying this laptop — it’s a complete ____.",
       "options": [
         "lemon-mcq-04",
-        "lemon-mcq-03",
-        "lemon-mcq-05",
-        "lemon-mcq-02",
-        "lemon-mcq-06",
-        "lemon-mcq-01"
+        "lemon-mcq-01",
+        "lemon-mcq-10",
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon」指「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」。",
       "sentenceIndex": 8,
@@ -515,12 +463,10 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-04": "本句指「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-01": "「一種黃色、味酸、果汁豐富的柑橘類水果」與本句語境不同。"
+        "lemon-mcq-04": "本句的「lemon」指「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-04"
     },
@@ -532,10 +478,6 @@ export default {
       "masked": "The buyer sought protection under the state’s ____.",
       "options": [
         "lemon-mcq-05",
-        "lemon-mcq-04",
-        "lemon-mcq-06",
-        "lemon-mcq-03",
-        "lemon-mcq-07",
         "lemon-mcq-02"
       ],
       "explanation": "本句的「lemon law」指「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」。",
@@ -545,12 +487,8 @@ export default {
         "lemon law"
       ],
       "optionReasons": {
-        "lemon-mcq-05": "本句指「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。"
+        "lemon-mcq-05": "本句的「lemon law」指「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」。",
+        "lemon-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-05"
     },
@@ -562,11 +500,8 @@ export default {
       "masked": "____ laws may protect consumers who repeatedly receive defective vehicles.",
       "options": [
         "lemon-mcq-05",
-        "lemon-mcq-04",
-        "lemon-mcq-06",
-        "lemon-mcq-03",
-        "lemon-mcq-07",
-        "lemon-mcq-02"
+        "lemon-mcq-10",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「Lemon」指「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」。",
       "sentenceIndex": 10,
@@ -575,12 +510,9 @@ export default {
         "Lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-05": "本句指「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-02": "「結出檸檬果實的柑橘類果樹」與本句語境不同。"
+        "lemon-mcq-05": "本句的「Lemon」指「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」。",
+        "lemon-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-05"
     },
@@ -592,11 +524,9 @@ export default {
       "masked": "The sauce has a fresh ____ flavour.",
       "options": [
         "lemon-mcq-06",
-        "lemon-mcq-05",
-        "lemon-mcq-07",
+        "lemon-mcq-11",
         "lemon-mcq-04",
-        "lemon-mcq-08",
-        "lemon-mcq-03"
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemony」指「味道或香氣帶有明顯檸檬特徵的」。",
       "sentenceIndex": 11,
@@ -605,12 +535,10 @@ export default {
         "lemony"
       ],
       "optionReasons": {
-        "lemon-mcq-06": "本句指「味道或香氣帶有明顯檸檬特徵的」。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。"
+        "lemon-mcq-06": "本句的「lemony」指「味道或香氣帶有明顯檸檬特徵的」。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-06"
     },
@@ -622,11 +550,9 @@ export default {
       "masked": "The leaves give off a slightly ____ scent.",
       "options": [
         "lemon-mcq-06",
-        "lemon-mcq-05",
-        "lemon-mcq-07",
+        "lemon-mcq-11",
         "lemon-mcq-04",
-        "lemon-mcq-08",
-        "lemon-mcq-03"
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemony」指「味道或香氣帶有明顯檸檬特徵的」。",
       "sentenceIndex": 12,
@@ -635,12 +561,10 @@ export default {
         "lemony"
       ],
       "optionReasons": {
-        "lemon-mcq-06": "本句指「味道或香氣帶有明顯檸檬特徵的」。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-03": "「類似檸檬果皮的明亮／偏淡黃色」與本句語境不同。"
+        "lemon-mcq-06": "本句的「lemony」指「味道或香氣帶有明顯檸檬特徵的」。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-06"
     },
@@ -652,11 +576,9 @@ export default {
       "masked": "She made fresh ____ from the lemons in her garden.",
       "options": [
         "lemon-mcq-07",
-        "lemon-mcq-06",
-        "lemon-mcq-08",
-        "lemon-mcq-05",
-        "lemon-mcq-09",
-        "lemon-mcq-04"
+        "lemon-mcq-11",
+        "lemon-mcq-04",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemonade」指「以檸檬汁／檸檬味製成的飲品」。",
       "sentenceIndex": 13,
@@ -665,12 +587,10 @@ export default {
         "lemonade"
       ],
       "optionReasons": {
-        "lemon-mcq-07": "本句指「以檸檬汁／檸檬味製成的飲品」。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。"
+        "lemon-mcq-07": "本句的「lemonade」指「以檸檬汁／檸檬味製成的飲品」。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-07"
     },
@@ -682,11 +602,9 @@ export default {
       "masked": "A glass of cold ____ is refreshing on a hot day.",
       "options": [
         "lemon-mcq-07",
-        "lemon-mcq-06",
-        "lemon-mcq-08",
-        "lemon-mcq-05",
-        "lemon-mcq-09",
-        "lemon-mcq-04"
+        "lemon-mcq-11",
+        "lemon-mcq-04",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemonade」指「以檸檬汁／檸檬味製成的飲品」。",
       "sentenceIndex": 14,
@@ -695,12 +613,10 @@ export default {
         "lemonade"
       ],
       "optionReasons": {
-        "lemon-mcq-07": "本句指「以檸檬汁／檸檬味製成的飲品」。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-04": "「購買後發現品質很差、故障頻繁或有重大缺陷的產品，尤指汽車」與本句語境不同。"
+        "lemon-mcq-07": "本句的「lemonade」指「以檸檬汁／檸檬味製成的飲品」。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-07"
     },
@@ -712,11 +628,9 @@ export default {
       "masked": "Add a little ____ to the salad.",
       "options": [
         "lemon-mcq-08",
-        "lemon-mcq-07",
-        "lemon-mcq-09",
-        "lemon-mcq-06",
-        "lemon-mcq-10",
-        "lemon-mcq-05"
+        "lemon-mcq-04",
+        "lemon-mcq-11",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemon juice」指「從檸檬果肉擠出的汁液」。",
       "sentenceIndex": 15,
@@ -725,12 +639,10 @@ export default {
         "lemon juice"
       ],
       "optionReasons": {
-        "lemon-mcq-08": "本句指「從檸檬果肉擠出的汁液」。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-10": "「以檸檬、糖、蛋等製成的濃稠甜酸醬」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。"
+        "lemon-mcq-08": "本句的「lemon juice」指「從檸檬果肉擠出的汁液」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-08"
     },
@@ -742,11 +654,9 @@ export default {
       "masked": "____ juice can add acidity to a dish.",
       "options": [
         "lemon-mcq-08",
-        "lemon-mcq-07",
-        "lemon-mcq-09",
-        "lemon-mcq-06",
-        "lemon-mcq-10",
-        "lemon-mcq-05"
+        "lemon-mcq-04",
+        "lemon-mcq-11",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「Lemon」指「從檸檬果肉擠出的汁液」。",
       "sentenceIndex": 16,
@@ -755,12 +665,10 @@ export default {
         "Lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-08": "本句指「從檸檬果肉擠出的汁液」。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。",
-        "lemon-mcq-10": "「以檸檬、糖、蛋等製成的濃稠甜酸醬」與本句語境不同。",
-        "lemon-mcq-05": "「為購買到符合特定條件的嚴重瑕疵產品／車輛的消費者提供法律補救的制度」與本句語境不同。"
+        "lemon-mcq-08": "本句的「Lemon」指「從檸檬果肉擠出的汁液」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-08"
     },
@@ -772,11 +680,8 @@ export default {
       "masked": "The cake contains fresh ____.",
       "options": [
         "lemon-mcq-09",
-        "lemon-mcq-08",
-        "lemon-mcq-10",
-        "lemon-mcq-07",
-        "lemon-mcq-11",
-        "lemon-mcq-06"
+        "lemon-mcq-04",
+        "lemon-mcq-11"
       ],
       "explanation": "本句的「lemon zest」指「檸檬外層黃色果皮磨成的細屑」。",
       "sentenceIndex": 17,
@@ -785,12 +690,9 @@ export default {
         "lemon zest"
       ],
       "optionReasons": {
-        "lemon-mcq-09": "本句指「檸檬外層黃色果皮磨成的細屑」。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-10": "「以檸檬、糖、蛋等製成的濃稠甜酸醬」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-11": "「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-09": "本句的「lemon zest」指「檸檬外層黃色果皮磨成的細屑」。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-09"
     },
@@ -802,11 +704,7 @@ export default {
       "masked": "Grate some ____ zest into the sauce.",
       "options": [
         "lemon-mcq-09",
-        "lemon-mcq-08",
-        "lemon-mcq-10",
-        "lemon-mcq-07",
-        "lemon-mcq-11",
-        "lemon-mcq-06"
+        "lemon-mcq-05"
       ],
       "explanation": "本句的「lemon」指「檸檬外層黃色果皮磨成的細屑」。",
       "sentenceIndex": 18,
@@ -815,12 +713,8 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-09": "本句指「檸檬外層黃色果皮磨成的細屑」。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-10": "「以檸檬、糖、蛋等製成的濃稠甜酸醬」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-11": "「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-09": "本句的「lemon」指「檸檬外層黃色果皮磨成的細屑」。",
+        "lemon-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-09"
     },
@@ -832,11 +726,8 @@ export default {
       "masked": "She spread ____ on toast.",
       "options": [
         "lemon-mcq-10",
-        "lemon-mcq-09",
-        "lemon-mcq-11",
-        "lemon-mcq-08",
-        "lemon-mcq-07",
-        "lemon-mcq-06"
+        "lemon-mcq-05",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemon curd」指「以檸檬、糖、蛋等製成的濃稠甜酸醬」。",
       "sentenceIndex": 19,
@@ -845,12 +736,9 @@ export default {
         "lemon curd"
       ],
       "optionReasons": {
-        "lemon-mcq-10": "本句指「以檸檬、糖、蛋等製成的濃稠甜酸醬」。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-11": "「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-10": "本句的「lemon curd」指「以檸檬、糖、蛋等製成的濃稠甜酸醬」。",
+        "lemon-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-10"
     },
@@ -862,11 +750,8 @@ export default {
       "masked": "The tart was filled with ____ curd.",
       "options": [
         "lemon-mcq-10",
-        "lemon-mcq-09",
-        "lemon-mcq-11",
-        "lemon-mcq-08",
-        "lemon-mcq-07",
-        "lemon-mcq-06"
+        "lemon-mcq-05",
+        "lemon-mcq-01"
       ],
       "explanation": "本句的「lemon」指「以檸檬、糖、蛋等製成的濃稠甜酸醬」。",
       "sentenceIndex": 20,
@@ -875,12 +760,9 @@ export default {
         "lemon"
       ],
       "optionReasons": {
-        "lemon-mcq-10": "本句指「以檸檬、糖、蛋等製成的濃稠甜酸醬」。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-11": "「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-10": "本句的「lemon」指「以檸檬、糖、蛋等製成的濃稠甜酸醬」。",
+        "lemon-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-10"
     },
@@ -892,11 +774,9 @@ export default {
       "masked": "She lost her job but started her own business — when life gives you ____, make lemonade.",
       "options": [
         "lemon-mcq-11",
-        "lemon-mcq-10",
-        "lemon-mcq-09",
-        "lemon-mcq-08",
-        "lemon-mcq-07",
-        "lemon-mcq-06"
+        "lemon-mcq-06",
+        "lemon-mcq-01",
+        "lemon-mcq-04"
       ],
       "explanation": "本句的「lemons」指「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」。",
       "sentenceIndex": 21,
@@ -905,12 +785,10 @@ export default {
         "lemons"
       ],
       "optionReasons": {
-        "lemon-mcq-11": "本句指「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」。",
-        "lemon-mcq-10": "「以檸檬、糖、蛋等製成的濃稠甜酸醬」與本句語境不同。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-11": "本句的「lemons」指「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」。",
+        "lemon-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-11"
     },
@@ -922,11 +800,9 @@ export default {
       "masked": "He tried to make the best of the situation: when life gives you ____, make lemonade.",
       "options": [
         "lemon-mcq-11",
-        "lemon-mcq-10",
-        "lemon-mcq-09",
-        "lemon-mcq-08",
-        "lemon-mcq-07",
-        "lemon-mcq-06"
+        "lemon-mcq-06",
+        "lemon-mcq-01",
+        "lemon-mcq-04"
       ],
       "explanation": "本句的「lemons」指「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」。",
       "sentenceIndex": 22,
@@ -935,12 +811,10 @@ export default {
         "lemons"
       ],
       "optionReasons": {
-        "lemon-mcq-11": "本句指「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」。",
-        "lemon-mcq-10": "「以檸檬、糖、蛋等製成的濃稠甜酸醬」與本句語境不同。",
-        "lemon-mcq-09": "「檸檬外層黃色果皮磨成的細屑」與本句語境不同。",
-        "lemon-mcq-08": "「從檸檬果肉擠出的汁液」與本句語境不同。",
-        "lemon-mcq-07": "「以檸檬汁／檸檬味製成的飲品」與本句語境不同。",
-        "lemon-mcq-06": "「味道或香氣帶有明顯檸檬特徵的」與本句語境不同。"
+        "lemon-mcq-11": "本句的「lemons」指「面對逆境時設法利用現有條件，把不利情況轉化成正面結果」。",
+        "lemon-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "lemon-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "lemon-mcq-11"
     }
@@ -952,5 +826,7 @@ export default {
     "sha256": "664ee0f95d012fa4ef4c88bc8e096df42af3064ba47b42402649cd8af55f497a",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

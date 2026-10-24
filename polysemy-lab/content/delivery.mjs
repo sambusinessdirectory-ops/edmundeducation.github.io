@@ -475,11 +475,9 @@ export default {
       "masked": "Your ____ will arrive this afternoon.",
       "options": [
         "delivery-mcq-01",
-        "delivery-mcq-02",
-        "delivery-mcq-03",
-        "delivery-mcq-04",
-        "delivery-mcq-05",
-        "delivery-mcq-06"
+        "delivery-mcq-20",
+        "delivery-mcq-13",
+        "delivery-mcq-09"
       ],
       "explanation": "本句的「delivery」指「把商品、食物、包裹等送到收件人的送貨／配送」。",
       "sentenceIndex": 2,
@@ -488,12 +486,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-01": "本句指「把商品、食物、包裹等送到收件人的送貨／配送」。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-01": "本句的「delivery」指「把商品、食物、包裹等送到收件人的送貨／配送」。",
+        "delivery-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-01"
     },
@@ -505,11 +501,9 @@ export default {
       "masked": "The shop offers free ____.",
       "options": [
         "delivery-mcq-01",
-        "delivery-mcq-02",
-        "delivery-mcq-03",
-        "delivery-mcq-04",
+        "delivery-mcq-18",
         "delivery-mcq-05",
-        "delivery-mcq-06"
+        "delivery-mcq-20"
       ],
       "explanation": "本句的「delivery」指「把商品、食物、包裹等送到收件人的送貨／配送」。",
       "sentenceIndex": 3,
@@ -518,12 +512,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-01": "本句指「把商品、食物、包裹等送到收件人的送貨／配送」。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-01": "本句的「delivery」指「把商品、食物、包裹等送到收件人的送貨／配送」。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-01"
     },
@@ -535,11 +527,9 @@ export default {
       "masked": "We use a same-day ____.",
       "options": [
         "delivery-mcq-02",
-        "delivery-mcq-01",
-        "delivery-mcq-03",
-        "delivery-mcq-04",
-        "delivery-mcq-05",
-        "delivery-mcq-06"
+        "delivery-mcq-16",
+        "delivery-mcq-18",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery service」指「專門把商品送到顧客的配送／送貨服務」。",
       "sentenceIndex": 4,
@@ -548,12 +538,10 @@ export default {
         "delivery service"
       ],
       "optionReasons": {
-        "delivery-mcq-02": "本句指「專門把商品送到顧客的配送／送貨服務」。",
-        "delivery-mcq-01": "「把商品、食物、包裹等送到收件人的送貨／配送」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-02": "本句的「delivery service」指「專門把商品送到顧客的配送／送貨服務」。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-02"
     },
@@ -565,11 +553,9 @@ export default {
       "masked": "The restaurant has its own ____.",
       "options": [
         "delivery-mcq-02",
-        "delivery-mcq-01",
-        "delivery-mcq-03",
-        "delivery-mcq-04",
-        "delivery-mcq-05",
-        "delivery-mcq-06"
+        "delivery-mcq-06",
+        "delivery-mcq-16",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery service」指「專門把商品送到顧客的配送／送貨服務」。",
       "sentenceIndex": 5,
@@ -578,12 +564,10 @@ export default {
         "delivery service"
       ],
       "optionReasons": {
-        "delivery-mcq-02": "本句指「專門把商品送到顧客的配送／送貨服務」。",
-        "delivery-mcq-01": "「把商品、食物、包裹等送到收件人的送貨／配送」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-02": "本句的「delivery service」指「專門把商品送到顧客的配送／送貨服務」。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-02"
     },
@@ -595,11 +579,9 @@ export default {
       "masked": "The bakery provides ____.",
       "options": [
         "delivery-mcq-03",
-        "delivery-mcq-02",
-        "delivery-mcq-04",
-        "delivery-mcq-01",
+        "delivery-mcq-14",
         "delivery-mcq-05",
-        "delivery-mcq-06"
+        "delivery-mcq-08"
       ],
       "explanation": "本句的「home delivery」指「把商品直接送到住宅；送貨上門」。",
       "sentenceIndex": 6,
@@ -608,12 +590,10 @@ export default {
         "home delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-03": "本句指「把商品直接送到住宅；送貨上門」。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-01": "「把商品、食物、包裹等送到收件人的送貨／配送」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-03": "本句的「home delivery」指「把商品直接送到住宅；送貨上門」。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-03"
     },
@@ -625,10 +605,8 @@ export default {
       "masked": "Customers can choose ____ at checkout.",
       "options": [
         "delivery-mcq-03",
-        "delivery-mcq-02",
-        "delivery-mcq-04",
-        "delivery-mcq-01",
-        "delivery-mcq-05",
+        "delivery-mcq-09",
+        "delivery-mcq-17",
         "delivery-mcq-06"
       ],
       "explanation": "本句的「home delivery」指「把商品直接送到住宅；送貨上門」。",
@@ -638,12 +616,10 @@ export default {
         "home delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-03": "本句指「把商品直接送到住宅；送貨上門」。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-01": "「把商品、食物、包裹等送到收件人的送貨／配送」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-03": "本句的「home delivery」指「把商品直接送到住宅；送貨上門」。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-03"
     },
@@ -655,11 +631,9 @@ export default {
       "masked": "A ____ arrived this morning.",
       "options": [
         "delivery-mcq-04",
-        "delivery-mcq-03",
+        "delivery-mcq-18",
         "delivery-mcq-05",
-        "delivery-mcq-02",
-        "delivery-mcq-06",
-        "delivery-mcq-01"
+        "delivery-mcq-14"
       ],
       "explanation": "本句的「delivery」指「已送到或正在運送的一批貨／貨件」。",
       "sentenceIndex": 8,
@@ -668,12 +642,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-04": "本句指「已送到或正在運送的一批貨／貨件」。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-01": "「把商品、食物、包裹等送到收件人的送貨／配送」與本句語境不同。"
+        "delivery-mcq-04": "本句的「delivery」指「已送到或正在運送的一批貨／貨件」。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-04"
     },
@@ -685,11 +657,9 @@ export default {
       "masked": "We are expecting a large ____ of flour.",
       "options": [
         "delivery-mcq-04",
-        "delivery-mcq-03",
-        "delivery-mcq-05",
-        "delivery-mcq-02",
-        "delivery-mcq-06",
-        "delivery-mcq-01"
+        "delivery-mcq-09",
+        "delivery-mcq-08",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery」指「已送到或正在運送的一批貨／貨件」。",
       "sentenceIndex": 9,
@@ -698,12 +668,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-04": "本句指「已送到或正在運送的一批貨／貨件」。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-01": "「把商品、食物、包裹等送到收件人的送貨／配送」與本句語境不同。"
+        "delivery-mcq-04": "本句的「delivery」指「已送到或正在運送的一批貨／貨件」。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-04"
     },
@@ -715,11 +683,9 @@ export default {
       "masked": "The ____ went smoothly.",
       "options": [
         "delivery-mcq-05",
-        "delivery-mcq-04",
-        "delivery-mcq-06",
-        "delivery-mcq-03",
-        "delivery-mcq-07",
-        "delivery-mcq-02"
+        "delivery-mcq-15",
+        "delivery-mcq-18",
+        "delivery-mcq-07"
       ],
       "explanation": "本句的「delivery」指「嬰兒出生的分娩／生產過程」。",
       "sentenceIndex": 10,
@@ -728,12 +694,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-05": "本句指「嬰兒出生的分娩／生產過程」。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。"
+        "delivery-mcq-05": "本句的「delivery」指「嬰兒出生的分娩／生產過程」。",
+        "delivery-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-05"
     },
@@ -745,11 +709,9 @@ export default {
       "masked": "She had a difficult ____.",
       "options": [
         "delivery-mcq-05",
-        "delivery-mcq-04",
-        "delivery-mcq-06",
-        "delivery-mcq-03",
+        "delivery-mcq-11",
         "delivery-mcq-07",
-        "delivery-mcq-02"
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「delivery」指「嬰兒出生的分娩／生產過程」。",
       "sentenceIndex": 11,
@@ -758,12 +720,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-05": "本句指「嬰兒出生的分娩／生產過程」。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-02": "「專門把商品送到顧客的配送／送貨服務」與本句語境不同。"
+        "delivery-mcq-05": "本句的「delivery」指「嬰兒出生的分娩／生產過程」。",
+        "delivery-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-05"
     },
@@ -775,11 +735,9 @@ export default {
       "masked": "She was taken to the ____.",
       "options": [
         "delivery-mcq-06",
-        "delivery-mcq-05",
-        "delivery-mcq-07",
-        "delivery-mcq-04",
-        "delivery-mcq-08",
-        "delivery-mcq-03"
+        "delivery-mcq-19",
+        "delivery-mcq-11",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery room」指「醫院中進行分娩的產房」。",
       "sentenceIndex": 12,
@@ -788,12 +746,10 @@ export default {
         "delivery room"
       ],
       "optionReasons": {
-        "delivery-mcq-06": "本句指「醫院中進行分娩的產房」。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。"
+        "delivery-mcq-06": "本句的「delivery room」指「醫院中進行分娩的產房」。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-06"
     },
@@ -805,11 +761,9 @@ export default {
       "masked": "The baby was born in the ____.",
       "options": [
         "delivery-mcq-06",
-        "delivery-mcq-05",
-        "delivery-mcq-07",
-        "delivery-mcq-04",
         "delivery-mcq-08",
-        "delivery-mcq-03"
+        "delivery-mcq-01",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery room」指「醫院中進行分娩的產房」。",
       "sentenceIndex": 13,
@@ -818,12 +772,10 @@ export default {
         "delivery room"
       ],
       "optionReasons": {
-        "delivery-mcq-06": "本句指「醫院中進行分娩的產房」。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-03": "「把商品直接送到住宅；送貨上門」與本句語境不同。"
+        "delivery-mcq-06": "本句的「delivery room」指「醫院中進行分娩的產房」。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-06"
     },
@@ -835,11 +787,9 @@ export default {
       "masked": "Her speech ____ was calm and confident.",
       "options": [
         "delivery-mcq-07",
-        "delivery-mcq-06",
-        "delivery-mcq-08",
         "delivery-mcq-05",
-        "delivery-mcq-09",
-        "delivery-mcq-04"
+        "delivery-mcq-14",
+        "delivery-mcq-03"
       ],
       "explanation": "本句的「delivery」指「演講、台詞、笑話等的表達／演繹方式」。",
       "sentenceIndex": 14,
@@ -848,12 +798,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-07": "本句指「演講、台詞、笑話等的表達／演繹方式」。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。"
+        "delivery-mcq-07": "本句的「delivery」指「演講、台詞、笑話等的表達／演繹方式」。",
+        "delivery-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-07"
     },
@@ -865,11 +813,9 @@ export default {
       "masked": "Good ____ can make a simple joke much funnier.",
       "options": [
         "delivery-mcq-07",
+        "delivery-mcq-02",
         "delivery-mcq-06",
-        "delivery-mcq-08",
-        "delivery-mcq-05",
-        "delivery-mcq-09",
-        "delivery-mcq-04"
+        "delivery-mcq-19"
       ],
       "explanation": "本句的「delivery」指「演講、台詞、笑話等的表達／演繹方式」。",
       "sentenceIndex": 15,
@@ -878,12 +824,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-07": "本句指「演講、台詞、笑話等的表達／演繹方式」。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-04": "「已送到或正在運送的一批貨／貨件」與本句語境不同。"
+        "delivery-mcq-07": "本句的「delivery」指「演講、台詞、笑話等的表達／演繹方式」。",
+        "delivery-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-07"
     },
@@ -895,11 +839,9 @@ export default {
       "masked": "His ____ was perfectly timed.",
       "options": [
         "delivery-mcq-08",
-        "delivery-mcq-07",
-        "delivery-mcq-09",
         "delivery-mcq-06",
-        "delivery-mcq-10",
-        "delivery-mcq-05"
+        "delivery-mcq-14",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「line delivery」指「演員說出台詞時的語氣、節奏與演繹」。",
       "sentenceIndex": 16,
@@ -908,12 +850,10 @@ export default {
         "line delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-08": "本句指「演員說出台詞時的語氣、節奏與演繹」。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。"
+        "delivery-mcq-08": "本句的「line delivery」指「演員說出台詞時的語氣、節奏與演繹」。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-08"
     },
@@ -925,11 +865,9 @@ export default {
       "masked": "The actor changed the ____ of the final sentence.",
       "options": [
         "delivery-mcq-08",
-        "delivery-mcq-07",
         "delivery-mcq-09",
-        "delivery-mcq-06",
-        "delivery-mcq-10",
-        "delivery-mcq-05"
+        "delivery-mcq-04",
+        "delivery-mcq-13"
       ],
       "explanation": "本句的「delivery」指「演員說出台詞時的語氣、節奏與演繹」。",
       "sentenceIndex": 17,
@@ -938,12 +876,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-08": "本句指「演員說出台詞時的語氣、節奏與演繹」。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-05": "「嬰兒出生的分娩／生產過程」與本句語境不同。"
+        "delivery-mcq-08": "本句的「delivery」指「演員說出台詞時的語氣、節奏與演繹」。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-08"
     },
@@ -955,11 +891,9 @@ export default {
       "masked": "The song’s emotional ____ was impressive.",
       "options": [
         "delivery-mcq-09",
-        "delivery-mcq-08",
-        "delivery-mcq-10",
-        "delivery-mcq-07",
-        "delivery-mcq-11",
-        "delivery-mcq-06"
+        "delivery-mcq-04",
+        "delivery-mcq-17",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery」指「某項內容的呈現／執行方式」。",
       "sentenceIndex": 18,
@@ -968,12 +902,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-09": "本句指「某項內容的呈現／執行方式」。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-09": "本句的「delivery」指「某項內容的呈現／執行方式」。",
+        "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-09"
     },
@@ -985,11 +917,9 @@ export default {
       "masked": "Her ____ made the presentation memorable.",
       "options": [
         "delivery-mcq-09",
-        "delivery-mcq-08",
-        "delivery-mcq-10",
-        "delivery-mcq-07",
-        "delivery-mcq-11",
-        "delivery-mcq-06"
+        "delivery-mcq-13",
+        "delivery-mcq-15",
+        "delivery-mcq-08"
       ],
       "explanation": "本句的「delivery」指「某項內容的呈現／執行方式」。",
       "sentenceIndex": 19,
@@ -998,12 +928,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-09": "本句指「某項內容的呈現／執行方式」。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-06": "「醫院中進行分娩的產房」與本句語境不同。"
+        "delivery-mcq-09": "本句的「delivery」指「某項內容的呈現／執行方式」。",
+        "delivery-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-09"
     },
@@ -1015,11 +943,9 @@ export default {
       "masked": "The bowler changed his ____.",
       "options": [
         "delivery-mcq-10",
-        "delivery-mcq-09",
-        "delivery-mcq-11",
-        "delivery-mcq-08",
-        "delivery-mcq-12",
-        "delivery-mcq-07"
+        "delivery-mcq-03",
+        "delivery-mcq-07",
+        "delivery-mcq-11"
       ],
       "explanation": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
       "sentenceIndex": 20,
@@ -1028,12 +954,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-10": "本句指「投手／投球者將球投出的動作或方式」。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。"
+        "delivery-mcq-10": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
+        "delivery-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-10"
     },
@@ -1045,11 +969,9 @@ export default {
       "masked": "It was a very fast ____.",
       "options": [
         "delivery-mcq-10",
-        "delivery-mcq-09",
-        "delivery-mcq-11",
-        "delivery-mcq-08",
-        "delivery-mcq-12",
-        "delivery-mcq-07"
+        "delivery-mcq-16",
+        "delivery-mcq-01",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
       "sentenceIndex": 21,
@@ -1058,12 +980,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-10": "本句指「投手／投球者將球投出的動作或方式」。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。"
+        "delivery-mcq-10": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-10"
     },
@@ -1075,11 +995,9 @@ export default {
       "masked": "His final ____ was difficult to play.",
       "options": [
         "delivery-mcq-10",
-        "delivery-mcq-09",
-        "delivery-mcq-11",
-        "delivery-mcq-08",
-        "delivery-mcq-12",
-        "delivery-mcq-07"
+        "delivery-mcq-04",
+        "delivery-mcq-06",
+        "delivery-mcq-16"
       ],
       "explanation": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
       "sentenceIndex": 22,
@@ -1088,12 +1006,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-10": "本句指「投手／投球者將球投出的動作或方式」。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。"
+        "delivery-mcq-10": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
+        "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-10"
     },
@@ -1106,10 +1022,8 @@ export default {
       "options": [
         "delivery-mcq-10",
         "delivery-mcq-09",
-        "delivery-mcq-11",
-        "delivery-mcq-08",
-        "delivery-mcq-12",
-        "delivery-mcq-07"
+        "delivery-mcq-04",
+        "delivery-mcq-12"
       ],
       "explanation": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
       "sentenceIndex": 23,
@@ -1118,12 +1032,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-10": "本句指「投手／投球者將球投出的動作或方式」。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-07": "「演講、台詞、笑話等的表達／演繹方式」與本句語境不同。"
+        "delivery-mcq-10": "本句的「delivery」指「投手／投球者將球投出的動作或方式」。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-10"
     },
@@ -1136,10 +1048,8 @@ export default {
       "options": [
         "delivery-mcq-11",
         "delivery-mcq-10",
-        "delivery-mcq-12",
-        "delivery-mcq-09",
-        "delivery-mcq-13",
-        "delivery-mcq-08"
+        "delivery-mcq-06",
+        "delivery-mcq-19"
       ],
       "explanation": "本句的「Delivery」指「正式把貨物、文件等交給對方；交付」。",
       "sentenceIndex": 24,
@@ -1148,12 +1058,10 @@ export default {
         "Delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-11": "本句指「正式把貨物、文件等交給對方；交付」。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。"
+        "delivery-mcq-11": "本句的「Delivery」指「正式把貨物、文件等交給對方；交付」。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-11"
     },
@@ -1165,11 +1073,9 @@ export default {
       "masked": "Payment is due upon ____.",
       "options": [
         "delivery-mcq-11",
-        "delivery-mcq-10",
-        "delivery-mcq-12",
-        "delivery-mcq-09",
-        "delivery-mcq-13",
-        "delivery-mcq-08"
+        "delivery-mcq-08",
+        "delivery-mcq-18",
+        "delivery-mcq-10"
       ],
       "explanation": "本句的「delivery」指「正式把貨物、文件等交給對方；交付」。",
       "sentenceIndex": 25,
@@ -1178,12 +1084,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-11": "本句指「正式把貨物、文件等交給對方；交付」。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-08": "「演員說出台詞時的語氣、節奏與演繹」與本句語境不同。"
+        "delivery-mcq-11": "本句的「delivery」指「正式把貨物、文件等交給對方；交付」。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-11"
     },
@@ -1195,10 +1099,8 @@ export default {
       "masked": "Ownership passes on ____.",
       "options": [
         "delivery-mcq-12",
-        "delivery-mcq-11",
-        "delivery-mcq-13",
-        "delivery-mcq-10",
-        "delivery-mcq-14",
+        "delivery-mcq-19",
+        "delivery-mcq-08",
         "delivery-mcq-09"
       ],
       "explanation": "本句的「delivery of the goods」指「賣方向買方正式交付貨物」。",
@@ -1208,12 +1110,10 @@ export default {
         "delivery of the goods"
       ],
       "optionReasons": {
-        "delivery-mcq-12": "本句指「賣方向買方正式交付貨物」。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。"
+        "delivery-mcq-12": "本句的「delivery of the goods」指「賣方向買方正式交付貨物」。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-12"
     },
@@ -1225,11 +1125,9 @@ export default {
       "masked": "The contract sets the date for ____.",
       "options": [
         "delivery-mcq-12",
-        "delivery-mcq-11",
-        "delivery-mcq-13",
-        "delivery-mcq-10",
-        "delivery-mcq-14",
-        "delivery-mcq-09"
+        "delivery-mcq-09",
+        "delivery-mcq-08",
+        "delivery-mcq-06"
       ],
       "explanation": "本句的「delivery」指「賣方向買方正式交付貨物」。",
       "sentenceIndex": 27,
@@ -1238,12 +1136,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-12": "本句指「賣方向買方正式交付貨物」。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-09": "「某項內容的呈現／執行方式」與本句語境不同。"
+        "delivery-mcq-12": "本句的「delivery」指「賣方向買方正式交付貨物」。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-12"
     },
@@ -1255,11 +1151,9 @@ export default {
       "masked": "The course uses online ____.",
       "options": [
         "delivery-mcq-13",
-        "delivery-mcq-12",
-        "delivery-mcq-14",
-        "delivery-mcq-11",
-        "delivery-mcq-15",
-        "delivery-mcq-10"
+        "delivery-mcq-09",
+        "delivery-mcq-20",
+        "delivery-mcq-08"
       ],
       "explanation": "本句的「delivery」指「機構向使用者提供服務的過程」。",
       "sentenceIndex": 28,
@@ -1268,12 +1162,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-13": "本句指「機構向使用者提供服務的過程」。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。"
+        "delivery-mcq-13": "本句的「delivery」指「機構向使用者提供服務的過程」。",
+        "delivery-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-13"
     },
@@ -1285,11 +1177,9 @@ export default {
       "masked": "The system improves service ____.",
       "options": [
         "delivery-mcq-13",
-        "delivery-mcq-12",
-        "delivery-mcq-14",
-        "delivery-mcq-11",
-        "delivery-mcq-15",
-        "delivery-mcq-10"
+        "delivery-mcq-19",
+        "delivery-mcq-03",
+        "delivery-mcq-20"
       ],
       "explanation": "本句的「delivery」指「機構向使用者提供服務的過程」。",
       "sentenceIndex": 29,
@@ -1298,12 +1188,10 @@ export default {
         "delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-13": "本句指「機構向使用者提供服務的過程」。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。"
+        "delivery-mcq-13": "本句的「delivery」指「機構向使用者提供服務的過程」。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-13"
     },
@@ -1315,11 +1203,9 @@ export default {
       "masked": "The reform aims to improve ____.",
       "options": [
         "delivery-mcq-13",
-        "delivery-mcq-12",
-        "delivery-mcq-14",
-        "delivery-mcq-11",
-        "delivery-mcq-15",
-        "delivery-mcq-10"
+        "delivery-mcq-16",
+        "delivery-mcq-19",
+        "delivery-mcq-01"
       ],
       "explanation": "本句的「service delivery」指「機構向使用者提供服務的過程」。",
       "sentenceIndex": 30,
@@ -1328,12 +1214,10 @@ export default {
         "service delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-13": "本句指「機構向使用者提供服務的過程」。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。"
+        "delivery-mcq-13": "本句的「service delivery」指「機構向使用者提供服務的過程」。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-13"
     },
@@ -1345,11 +1229,9 @@ export default {
       "masked": "Technology can speed up ____.",
       "options": [
         "delivery-mcq-13",
-        "delivery-mcq-12",
-        "delivery-mcq-14",
-        "delivery-mcq-11",
-        "delivery-mcq-15",
-        "delivery-mcq-10"
+        "delivery-mcq-01",
+        "delivery-mcq-16",
+        "delivery-mcq-20"
       ],
       "explanation": "本句的「service delivery」指「機構向使用者提供服務的過程」。",
       "sentenceIndex": 31,
@@ -1358,12 +1240,10 @@ export default {
         "service delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-13": "本句指「機構向使用者提供服務的過程」。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-10": "「投手／投球者將球投出的動作或方式」與本句語境不同。"
+        "delivery-mcq-13": "本句的「service delivery」指「機構向使用者提供服務的過程」。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-13"
     },
@@ -1375,11 +1255,9 @@ export default {
       "masked": "The platform uses a fast ____ system.",
       "options": [
         "delivery-mcq-14",
-        "delivery-mcq-13",
-        "delivery-mcq-15",
         "delivery-mcq-12",
-        "delivery-mcq-16",
-        "delivery-mcq-11"
+        "delivery-mcq-19",
+        "delivery-mcq-02"
       ],
       "explanation": "本句的「content delivery」指「把數位內容傳遞／分發給使用者」。",
       "sentenceIndex": 32,
@@ -1388,12 +1266,10 @@ export default {
         "content delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-14": "本句指「把數位內容傳遞／分發給使用者」。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。"
+        "delivery-mcq-14": "本句的「content delivery」指「把數位內容傳遞／分發給使用者」。",
+        "delivery-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-14"
     },
@@ -1405,11 +1281,9 @@ export default {
       "masked": "Efficient ____ improves loading times.",
       "options": [
         "delivery-mcq-14",
-        "delivery-mcq-13",
-        "delivery-mcq-15",
-        "delivery-mcq-12",
-        "delivery-mcq-16",
-        "delivery-mcq-11"
+        "delivery-mcq-17",
+        "delivery-mcq-01",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「content delivery」指「把數位內容傳遞／分發給使用者」。",
       "sentenceIndex": 33,
@@ -1418,12 +1292,10 @@ export default {
         "content delivery"
       ],
       "optionReasons": {
-        "delivery-mcq-14": "本句指「把數位內容傳遞／分發給使用者」。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-11": "「正式把貨物、文件等交給對方；交付」與本句語境不同。"
+        "delivery-mcq-14": "本句的「content delivery」指「把數位內容傳遞／分發給使用者」。",
+        "delivery-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-14"
     },
@@ -1435,11 +1307,9 @@ export default {
       "masked": "We ____ cakes locally.",
       "options": [
         "delivery-mcq-15",
-        "delivery-mcq-14",
-        "delivery-mcq-16",
-        "delivery-mcq-13",
         "delivery-mcq-17",
-        "delivery-mcq-12"
+        "delivery-mcq-10",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「deliver」指「把商品、食物、包裹等送到目的地」。",
       "sentenceIndex": 36,
@@ -1448,12 +1318,10 @@ export default {
         "deliver"
       ],
       "optionReasons": {
-        "delivery-mcq-15": "本句指「把商品、食物、包裹等送到目的地」。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。"
+        "delivery-mcq-15": "本句的「deliver」指「把商品、食物、包裹等送到目的地」。",
+        "delivery-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-15"
     },
@@ -1465,11 +1333,9 @@ export default {
       "masked": "The parcel was ____ this morning.",
       "options": [
         "delivery-mcq-15",
-        "delivery-mcq-14",
-        "delivery-mcq-16",
         "delivery-mcq-13",
         "delivery-mcq-17",
-        "delivery-mcq-12"
+        "delivery-mcq-08"
       ],
       "explanation": "本句的「delivered」指「把商品、食物、包裹等送到目的地」。",
       "sentenceIndex": 37,
@@ -1478,12 +1344,10 @@ export default {
         "delivered"
       ],
       "optionReasons": {
-        "delivery-mcq-15": "本句指「把商品、食物、包裹等送到目的地」。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-12": "「賣方向買方正式交付貨物」與本句語境不同。"
+        "delivery-mcq-15": "本句的「delivered」指「把商品、食物、包裹等送到目的地」。",
+        "delivery-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-15"
     },
@@ -1495,11 +1359,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "delivery-mcq-16",
-        "delivery-mcq-15",
-        "delivery-mcq-17",
-        "delivery-mcq-14",
         "delivery-mcq-18",
-        "delivery-mcq-13"
+        "delivery-mcq-13",
+        "delivery-mcq-06"
       ],
       "explanation": "本句的「delivered a speech」指「發表演講或傳達訊息」。",
       "sentenceIndex": 38,
@@ -1508,12 +1370,10 @@ export default {
         "delivered a speech"
       ],
       "optionReasons": {
-        "delivery-mcq-16": "本句指「發表演講或傳達訊息」。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。"
+        "delivery-mcq-16": "本句的「delivered a speech」指「發表演講或傳達訊息」。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-16"
     },
@@ -1525,11 +1385,9 @@ export default {
       "masked": "He ____ clearly.",
       "options": [
         "delivery-mcq-16",
-        "delivery-mcq-15",
-        "delivery-mcq-17",
-        "delivery-mcq-14",
-        "delivery-mcq-18",
-        "delivery-mcq-13"
+        "delivery-mcq-19",
+        "delivery-mcq-04",
+        "delivery-mcq-06"
       ],
       "explanation": "本句的「delivered the message」指「發表演講或傳達訊息」。",
       "sentenceIndex": 39,
@@ -1538,12 +1396,10 @@ export default {
         "delivered the message"
       ],
       "optionReasons": {
-        "delivery-mcq-16": "本句指「發表演講或傳達訊息」。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-13": "「機構向使用者提供服務的過程」與本句語境不同。"
+        "delivery-mcq-16": "本句的「delivered the message」指「發表演講或傳達訊息」。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-16"
     },
@@ -1556,10 +1412,8 @@ export default {
       "options": [
         "delivery-mcq-17",
         "delivery-mcq-16",
-        "delivery-mcq-18",
-        "delivery-mcq-15",
-        "delivery-mcq-19",
-        "delivery-mcq-14"
+        "delivery-mcq-03",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「delivered」指「做到預期要求、交出成果」。",
       "sentenceIndex": 40,
@@ -1568,12 +1422,10 @@ export default {
         "delivered"
       ],
       "optionReasons": {
-        "delivery-mcq-17": "本句指「做到預期要求、交出成果」。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-19": "「協助嬰兒出生；接生」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。"
+        "delivery-mcq-17": "本句的「delivered」指「做到預期要求、交出成果」。",
+        "delivery-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-17"
     },
@@ -1585,11 +1437,9 @@ export default {
       "masked": "The company failed to ____.",
       "options": [
         "delivery-mcq-17",
-        "delivery-mcq-16",
-        "delivery-mcq-18",
-        "delivery-mcq-15",
-        "delivery-mcq-19",
-        "delivery-mcq-14"
+        "delivery-mcq-14",
+        "delivery-mcq-04",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「deliver on its promise」指「做到預期要求、交出成果」。",
       "sentenceIndex": 41,
@@ -1598,12 +1448,10 @@ export default {
         "deliver on its promise"
       ],
       "optionReasons": {
-        "delivery-mcq-17": "本句指「做到預期要求、交出成果」。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。",
-        "delivery-mcq-19": "「協助嬰兒出生；接生」與本句語境不同。",
-        "delivery-mcq-14": "「把數位內容傳遞／分發給使用者」與本句語境不同。"
+        "delivery-mcq-17": "本句的「deliver on its promise」指「做到預期要求、交出成果」。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-17"
     },
@@ -1615,11 +1463,9 @@ export default {
       "masked": "The doctor ____ safely.",
       "options": [
         "delivery-mcq-19",
+        "delivery-mcq-07",
         "delivery-mcq-18",
-        "delivery-mcq-20",
-        "delivery-mcq-17",
-        "delivery-mcq-16",
-        "delivery-mcq-15"
+        "delivery-mcq-06"
       ],
       "explanation": "本句的「delivered the baby」指「協助嬰兒出生；接生」。",
       "sentenceIndex": 42,
@@ -1628,12 +1474,10 @@ export default {
         "delivered the baby"
       ],
       "optionReasons": {
-        "delivery-mcq-19": "本句指「協助嬰兒出生；接生」。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-20": "「非正式：達到期待、成功交出成果」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。"
+        "delivery-mcq-19": "本句的「delivered the baby」指「協助嬰兒出生；接生」。",
+        "delivery-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-19"
     },
@@ -1645,11 +1489,9 @@ export default {
       "masked": "She has ____ hundreds of babies.",
       "options": [
         "delivery-mcq-19",
-        "delivery-mcq-18",
-        "delivery-mcq-20",
-        "delivery-mcq-17",
-        "delivery-mcq-16",
-        "delivery-mcq-15"
+        "delivery-mcq-02",
+        "delivery-mcq-12",
+        "delivery-mcq-06"
       ],
       "explanation": "本句的「delivered」指「協助嬰兒出生；接生」。",
       "sentenceIndex": 43,
@@ -1658,12 +1500,10 @@ export default {
         "delivered"
       ],
       "optionReasons": {
-        "delivery-mcq-19": "本句指「協助嬰兒出生；接生」。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-20": "「非正式：達到期待、成功交出成果」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。"
+        "delivery-mcq-19": "本句的「delivered」指「協助嬰兒出生；接生」。",
+        "delivery-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-19"
     },
@@ -1675,11 +1515,9 @@ export default {
       "masked": "The company must ____.",
       "options": [
         "delivery-mcq-18",
-        "delivery-mcq-17",
-        "delivery-mcq-19",
-        "delivery-mcq-16",
-        "delivery-mcq-20",
-        "delivery-mcq-15"
+        "delivery-mcq-10",
+        "delivery-mcq-12",
+        "delivery-mcq-14"
       ],
       "explanation": "本句的「deliver on its promise」指「履行／兌現承諾」。",
       "sentenceIndex": 44,
@@ -1688,12 +1526,10 @@ export default {
         "deliver on its promise"
       ],
       "optionReasons": {
-        "delivery-mcq-18": "本句指「履行／兌現承諾」。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-19": "「協助嬰兒出生；接生」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-20": "「非正式：達到期待、成功交出成果」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。"
+        "delivery-mcq-18": "本句的「deliver on its promise」指「履行／兌現承諾」。",
+        "delivery-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-18"
     },
@@ -1705,11 +1541,9 @@ export default {
       "masked": "He finally ____ what he had promised.",
       "options": [
         "delivery-mcq-18",
-        "delivery-mcq-17",
+        "delivery-mcq-11",
         "delivery-mcq-19",
-        "delivery-mcq-16",
-        "delivery-mcq-20",
-        "delivery-mcq-15"
+        "delivery-mcq-02"
       ],
       "explanation": "本句的「delivered on」指「履行／兌現承諾」。",
       "sentenceIndex": 45,
@@ -1718,12 +1552,10 @@ export default {
         "delivered on"
       ],
       "optionReasons": {
-        "delivery-mcq-18": "本句指「履行／兌現承諾」。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-19": "「協助嬰兒出生；接生」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-20": "「非正式：達到期待、成功交出成果」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。"
+        "delivery-mcq-18": "本句的「delivered on」指「履行／兌現承諾」。",
+        "delivery-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-18"
     },
@@ -1735,11 +1567,9 @@ export default {
       "masked": "The new employee really ____.",
       "options": [
         "delivery-mcq-20",
-        "delivery-mcq-19",
-        "delivery-mcq-18",
-        "delivery-mcq-17",
-        "delivery-mcq-16",
-        "delivery-mcq-15"
+        "delivery-mcq-01",
+        "delivery-mcq-14",
+        "delivery-mcq-18"
       ],
       "explanation": "本句的「delivered the goods」指「非正式：達到期待、成功交出成果」。",
       "sentenceIndex": 46,
@@ -1748,12 +1578,10 @@ export default {
         "delivered the goods"
       ],
       "optionReasons": {
-        "delivery-mcq-20": "本句指「非正式：達到期待、成功交出成果」。",
-        "delivery-mcq-19": "「協助嬰兒出生；接生」與本句語境不同。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。"
+        "delivery-mcq-20": "本句的「delivered the goods」指「非正式：達到期待、成功交出成果」。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-20"
     },
@@ -1765,11 +1593,9 @@ export default {
       "masked": "The team needed to perform, and they ____.",
       "options": [
         "delivery-mcq-20",
-        "delivery-mcq-19",
-        "delivery-mcq-18",
-        "delivery-mcq-17",
-        "delivery-mcq-16",
-        "delivery-mcq-15"
+        "delivery-mcq-06",
+        "delivery-mcq-14",
+        "delivery-mcq-01"
       ],
       "explanation": "本句的「delivered the goods」指「非正式：達到期待、成功交出成果」。",
       "sentenceIndex": 47,
@@ -1778,12 +1604,10 @@ export default {
         "delivered the goods"
       ],
       "optionReasons": {
-        "delivery-mcq-20": "本句指「非正式：達到期待、成功交出成果」。",
-        "delivery-mcq-19": "「協助嬰兒出生；接生」與本句語境不同。",
-        "delivery-mcq-18": "「履行／兌現承諾」與本句語境不同。",
-        "delivery-mcq-17": "「做到預期要求、交出成果」與本句語境不同。",
-        "delivery-mcq-16": "「發表演講或傳達訊息」與本句語境不同。",
-        "delivery-mcq-15": "「把商品、食物、包裹等送到目的地」與本句語境不同。"
+        "delivery-mcq-20": "本句的「delivered the goods」指「非正式：達到期待、成功交出成果」。",
+        "delivery-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "delivery-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "delivery-mcq-20"
     }
@@ -1795,5 +1619,7 @@ export default {
     "sha256": "890003be98088811cdf5e28605d19cbe871bfd7df78e4809475ca340e7d23ab1",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

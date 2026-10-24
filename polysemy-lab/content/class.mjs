@@ -589,11 +589,9 @@ export default {
       "masked": "Her influence did not end when the ____.",
       "options": [
         "class-mcq-01",
-        "class-mcq-02",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-22",
+        "class-mcq-21",
+        "class-mcq-17"
       ],
       "explanation": "本句的「classes ended」指「老師在特定時段教授學生的一節課／課堂」。",
       "sentenceIndex": 0,
@@ -602,12 +600,10 @@ export default {
         "classes ended"
       ],
       "optionReasons": {
-        "class-mcq-01": "本句指「老師在特定時段教授學生的一節課／課堂」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-01": "本句的「classes ended」指「老師在特定時段教授學生的一節課／課堂」。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-01"
     },
@@ -619,11 +615,9 @@ export default {
       "masked": "I have an English ____ at ten.",
       "options": [
         "class-mcq-01",
-        "class-mcq-02",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-13",
+        "class-mcq-10",
+        "class-mcq-09"
       ],
       "explanation": "本句的「class」指「老師在特定時段教授學生的一節課／課堂」。",
       "sentenceIndex": 1,
@@ -632,12 +626,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-01": "本句指「老師在特定時段教授學生的一節課／課堂」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-01": "本句的「class」指「老師在特定時段教授學生的一節課／課堂」。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-01"
     },
@@ -649,11 +641,9 @@ export default {
       "masked": "The ____ lasted fifty minutes.",
       "options": [
         "class-mcq-01",
-        "class-mcq-02",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-07",
+        "class-mcq-16",
+        "class-mcq-21"
       ],
       "explanation": "本句的「class」指「老師在特定時段教授學生的一節課／課堂」。",
       "sentenceIndex": 2,
@@ -662,12 +652,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-01": "本句指「老師在特定時段教授學生的一節課／課堂」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-01": "本句的「class」指「老師在特定時段教授學生的一節課／課堂」。",
+        "class-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-01"
     },
@@ -679,11 +667,9 @@ export default {
       "masked": "She teaches a writing ____.",
       "options": [
         "class-pdf-001",
-        "class-mcq-02",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-20",
+        "class-mcq-12",
+        "class-mcq-18"
       ],
       "explanation": "本句的「class」指「某一科目／技能的教學課程或課堂」。",
       "sentenceIndex": 3,
@@ -692,12 +678,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-pdf-001": "本句指「某一科目／技能的教學課程或課堂」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-pdf-001": "本句的「class」指「某一科目／技能的教學課程或課堂」。",
+        "class-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-pdf-001"
     },
@@ -709,11 +693,9 @@ export default {
       "masked": "Math ____ starts after lunch.",
       "options": [
         "class-pdf-001",
-        "class-mcq-02",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-12",
+        "class-mcq-21",
+        "class-mcq-22"
       ],
       "explanation": "本句的「class」指「某一科目／技能的教學課程或課堂」。",
       "sentenceIndex": 4,
@@ -722,12 +704,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-pdf-001": "本句指「某一科目／技能的教學課程或課堂」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-pdf-001": "本句的「class」指「某一科目／技能的教學課程或課堂」。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-pdf-001"
     },
@@ -739,11 +719,9 @@ export default {
       "masked": "The whole ____ listened carefully.",
       "options": [
         "class-mcq-02",
-        "class-mcq-01",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-22",
+        "class-mcq-08",
+        "class-mcq-09"
       ],
       "explanation": "本句的「class」指「一起接受教學的一組學生／全班」。",
       "sentenceIndex": 5,
@@ -752,12 +730,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-02": "本句指「一起接受教學的一組學生／全班」。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-02": "本句的「class」指「一起接受教學的一組學生／全班」。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-02"
     },
@@ -769,11 +745,9 @@ export default {
       "masked": "She has a ____ of thirty students.",
       "options": [
         "class-mcq-02",
-        "class-mcq-01",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-15",
+        "class-mcq-09",
+        "class-mcq-08"
       ],
       "explanation": "本句的「class」指「一起接受教學的一組學生／全班」。",
       "sentenceIndex": 6,
@@ -782,12 +756,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-02": "本句指「一起接受教學的一組學生／全班」。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-02": "本句的「class」指「一起接受教學的一組學生／全班」。",
+        "class-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-02"
     },
@@ -799,11 +771,9 @@ export default {
       "masked": "The teacher asked the ____ a question.",
       "options": [
         "class-mcq-02",
-        "class-mcq-01",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-17",
+        "class-mcq-21",
+        "class-mcq-22"
       ],
       "explanation": "本句的「class」指「一起接受教學的一組學生／全班」。",
       "sentenceIndex": 7,
@@ -812,12 +782,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-02": "本句指「一起接受教學的一組學生／全班」。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-02": "本句的「class」指「一起接受教學的一組學生／全班」。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-02"
     },
@@ -829,11 +797,9 @@ export default {
       "masked": "The ____ laughed.",
       "options": [
         "class-mcq-02",
-        "class-mcq-01",
-        "class-mcq-03",
-        "class-mcq-04",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-09",
+        "class-mcq-20",
+        "class-mcq-10"
       ],
       "explanation": "本句的「class」指「一起接受教學的一組學生／全班」。",
       "sentenceIndex": 8,
@@ -842,12 +808,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-02": "本句指「一起接受教學的一組學生／全班」。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-02": "本句的「class」指「一起接受教學的一組學生／全班」。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-02"
     },
@@ -859,11 +823,9 @@ export default {
       "masked": "She was in the ____.",
       "options": [
         "class-mcq-03",
-        "class-mcq-02",
-        "class-mcq-04",
-        "class-mcq-01",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-22",
+        "class-mcq-12",
+        "class-mcq-16"
       ],
       "explanation": "本句的「class of 2020」指「同一時期入學、畢業或被視為同屆的一群學生」。",
       "sentenceIndex": 9,
@@ -872,12 +834,10 @@ export default {
         "class of 2020"
       ],
       "optionReasons": {
-        "class-mcq-03": "本句指「同一時期入學、畢業或被視為同屆的一群學生」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-03": "本句的「class of 2020」指「同一時期入學、畢業或被視為同屆的一群學生」。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-03"
     },
@@ -889,11 +849,9 @@ export default {
       "masked": "The graduating ____ celebrated together.",
       "options": [
         "class-mcq-03",
-        "class-mcq-02",
-        "class-mcq-04",
-        "class-mcq-01",
-        "class-mcq-05",
-        "class-mcq-06"
+        "class-mcq-22",
+        "class-mcq-12",
+        "class-mcq-20"
       ],
       "explanation": "本句的「class」指「同一時期入學、畢業或被視為同屆的一群學生」。",
       "sentenceIndex": 10,
@@ -902,12 +860,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-03": "本句指「同一時期入學、畢業或被視為同屆的一群學生」。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-03": "本句的「class」指「同一時期入學、畢業或被視為同屆的一群學生」。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-03"
     },
@@ -919,11 +875,9 @@ export default {
       "masked": "This belongs to a different ____ of problem.",
       "options": [
         "class-mcq-04",
-        "class-mcq-03",
-        "class-mcq-05",
-        "class-mcq-02",
-        "class-mcq-06",
-        "class-mcq-01"
+        "class-mcq-09",
+        "class-mcq-18",
+        "class-mcq-19"
       ],
       "explanation": "本句的「class」指「根據共同特徵劃分出來的一組人／事物」。",
       "sentenceIndex": 11,
@@ -932,12 +886,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-04": "本句指「根據共同特徵劃分出來的一組人／事物」。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。"
+        "class-mcq-04": "本句的「class」指「根據共同特徵劃分出來的一組人／事物」。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-04"
     },
@@ -949,11 +901,9 @@ export default {
       "masked": "These animals form a separate ____.",
       "options": [
         "class-mcq-04",
-        "class-mcq-03",
-        "class-mcq-05",
-        "class-mcq-02",
-        "class-mcq-06",
-        "class-mcq-01"
+        "class-mcq-18",
+        "class-mcq-09",
+        "class-mcq-19"
       ],
       "explanation": "本句的「class」指「根據共同特徵劃分出來的一組人／事物」。",
       "sentenceIndex": 12,
@@ -962,12 +912,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-04": "本句指「根據共同特徵劃分出來的一組人／事物」。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-01": "「老師在特定時段教授學生的一節課／課堂」是「class — lesson」的用法，與本句語境不同。"
+        "class-mcq-04": "本句的「class」指「根據共同特徵劃分出來的一組人／事物」。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-04"
     },
@@ -979,11 +927,9 @@ export default {
       "masked": "This is a new ____.",
       "options": [
         "class-mcq-20",
-        "class-mcq-19",
-        "class-mcq-21",
+        "class-pdf-001",
         "class-mcq-18",
-        "class-mcq-22",
-        "class-mcq-17"
+        "class-mcq-13"
       ],
       "explanation": "本句的「class of product」指「具有相似性質、功能或特徵的分類單位」。",
       "sentenceIndex": 13,
@@ -992,12 +938,10 @@ export default {
         "class of product"
       ],
       "optionReasons": {
-        "class-mcq-20": "本句指「具有相似性質、功能或特徵的分類單位」。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。"
+        "class-mcq-20": "本句的「class of product」指「具有相似性質、功能或特徵的分類單位」。",
+        "class-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-20"
     },
@@ -1009,11 +953,9 @@ export default {
       "masked": "That belongs to a different ____ of risk.",
       "options": [
         "class-mcq-20",
-        "class-mcq-19",
-        "class-mcq-21",
-        "class-mcq-18",
-        "class-mcq-22",
-        "class-mcq-17"
+        "class-mcq-03",
+        "class-mcq-10",
+        "class-mcq-18"
       ],
       "explanation": "本句的「class」指「具有相似性質、功能或特徵的分類單位」。",
       "sentenceIndex": 14,
@@ -1022,12 +964,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-20": "本句指「具有相似性質、功能或特徵的分類單位」。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。"
+        "class-mcq-20": "本句的「class」指「具有相似性質、功能或特徵的分類單位」。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-20"
     },
@@ -1039,11 +979,9 @@ export default {
       "masked": "Mammals belong to a biological ____.",
       "options": [
         "class-mcq-05",
-        "class-mcq-04",
-        "class-mcq-06",
-        "class-mcq-03",
-        "class-mcq-07",
-        "class-mcq-02"
+        "class-mcq-18",
+        "class-mcq-10",
+        "class-mcq-13"
       ],
       "explanation": "本句的「class」指「正式科學分類體系中的一個分類層級」。",
       "sentenceIndex": 15,
@@ -1052,12 +990,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-05": "本句指「正式科學分類體系中的一個分類層級」。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。"
+        "class-mcq-05": "本句的「class」指「正式科學分類體系中的一個分類層級」。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-05"
     },
@@ -1069,11 +1005,9 @@ export default {
       "masked": "The species is placed in a different ____.",
       "options": [
         "class-mcq-05",
-        "class-mcq-04",
-        "class-mcq-06",
-        "class-mcq-03",
-        "class-mcq-07",
-        "class-mcq-02"
+        "class-mcq-13",
+        "class-mcq-12",
+        "class-mcq-18"
       ],
       "explanation": "本句的「class」指「正式科學分類體系中的一個分類層級」。",
       "sentenceIndex": 16,
@@ -1082,12 +1016,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-05": "本句指「正式科學分類體系中的一個分類層級」。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-02": "「一起接受教學的一組學生／全班」是「class — students」的用法，與本句語境不同。"
+        "class-mcq-05": "本句的「class」指「正式科學分類體系中的一個分類層級」。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-05"
     },
@@ -1099,11 +1031,9 @@ export default {
       "masked": "The novel explores differences in ____.",
       "options": [
         "class-mcq-06",
-        "class-mcq-05",
-        "class-mcq-07",
-        "class-mcq-04",
-        "class-mcq-08",
-        "class-mcq-03"
+        "class-mcq-16",
+        "class-mcq-12",
+        "class-mcq-21"
       ],
       "explanation": "本句的「social class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
       "sentenceIndex": 17,
@@ -1112,12 +1042,10 @@ export default {
         "social class"
       ],
       "optionReasons": {
-        "class-mcq-06": "本句指「根據收入、職業、教育、社會地位等形成的社會階層」。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。"
+        "class-mcq-06": "本句的「social class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
+        "class-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-06"
     },
@@ -1129,11 +1057,9 @@ export default {
       "masked": "____ influenced access to education.",
       "options": [
         "class-mcq-06",
-        "class-mcq-05",
-        "class-mcq-07",
-        "class-mcq-04",
-        "class-mcq-08",
-        "class-mcq-03"
+        "class-mcq-23",
+        "class-mcq-12",
+        "class-mcq-15"
       ],
       "explanation": "本句的「Class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
       "sentenceIndex": 18,
@@ -1142,12 +1068,10 @@ export default {
         "Class"
       ],
       "optionReasons": {
-        "class-mcq-06": "本句指「根據收入、職業、教育、社會地位等形成的社會階層」。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。"
+        "class-mcq-06": "本句的「Class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-06"
     },
@@ -1159,11 +1083,9 @@ export default {
       "masked": "He grew up in a ____ family.",
       "options": [
         "class-mcq-06",
-        "class-mcq-05",
-        "class-mcq-07",
-        "class-mcq-04",
-        "class-mcq-08",
-        "class-mcq-03"
+        "class-mcq-15",
+        "class-mcq-13",
+        "class-mcq-10"
       ],
       "explanation": "本句的「working-class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
       "sentenceIndex": 19,
@@ -1172,12 +1094,10 @@ export default {
         "working-class"
       ],
       "optionReasons": {
-        "class-mcq-06": "本句指「根據收入、職業、教育、社會地位等形成的社會階層」。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。"
+        "class-mcq-06": "本句的「working-class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
+        "class-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-06"
     },
@@ -1189,11 +1109,9 @@ export default {
       "masked": "The area became increasingly middle ____.",
       "options": [
         "class-mcq-06",
-        "class-mcq-05",
-        "class-mcq-07",
-        "class-mcq-04",
-        "class-mcq-08",
-        "class-mcq-03"
+        "class-mcq-15",
+        "class-mcq-21",
+        "class-mcq-23"
       ],
       "explanation": "本句的「class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
       "sentenceIndex": 20,
@@ -1202,12 +1120,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-06": "本句指「根據收入、職業、教育、社會地位等形成的社會階層」。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-03": "「同一時期入學、畢業或被視為同屆的一群學生」是「class — cohort」的用法，與本句語境不同。"
+        "class-mcq-06": "本句的「class」指「根據收入、職業、教育、社會地位等形成的社會階層」。",
+        "class-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-06"
     },
@@ -1219,11 +1135,9 @@ export default {
       "masked": "The hotel is in a different ____.",
       "options": [
         "class-mcq-07",
-        "class-mcq-06",
-        "class-mcq-08",
-        "class-mcq-05",
-        "class-mcq-09",
-        "class-mcq-04"
+        "class-mcq-01",
+        "class-mcq-18",
+        "class-mcq-17"
       ],
       "explanation": "本句的「class」指「品質、能力或水準所屬的等級／檔次」。",
       "sentenceIndex": 21,
@@ -1232,12 +1146,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-07": "本句指「品質、能力或水準所屬的等級／檔次」。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。"
+        "class-mcq-07": "本句的「class」指「品質、能力或水準所屬的等級／檔次」。",
+        "class-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-07"
     },
@@ -1249,11 +1161,9 @@ export default {
       "masked": "Her performance was in a ____ of its own.",
       "options": [
         "class-mcq-07",
-        "class-mcq-06",
-        "class-mcq-08",
-        "class-mcq-05",
-        "class-mcq-09",
-        "class-mcq-04"
+        "class-mcq-17",
+        "class-mcq-16",
+        "class-mcq-01"
       ],
       "explanation": "本句的「class」指「品質、能力或水準所屬的等級／檔次」。",
       "sentenceIndex": 22,
@@ -1262,12 +1172,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-07": "本句指「品質、能力或水準所屬的等級／檔次」。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。",
-        "class-mcq-04": "「根據共同特徵劃分出來的一組人／事物」是「class — category」的用法，與本句語境不同。"
+        "class-mcq-07": "本句的「class」指「品質、能力或水準所屬的等級／檔次」。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-07"
     },
@@ -1279,11 +1187,9 @@ export default {
       "masked": "Her voice is ____.",
       "options": [
         "class-mcq-08",
-        "class-mcq-07",
-        "class-mcq-09",
-        "class-mcq-06",
-        "class-mcq-10",
-        "class-mcq-05"
+        "class-mcq-12",
+        "class-mcq-18",
+        "class-pdf-001"
       ],
       "explanation": "本句的「in a class of its own」指「水準或特色遠超一般同類、自成一格」。",
       "sentenceIndex": 23,
@@ -1292,12 +1198,10 @@ export default {
         "in a class of its own"
       ],
       "optionReasons": {
-        "class-mcq-08": "本句指「水準或特色遠超一般同類、自成一格」。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。"
+        "class-mcq-08": "本句的「in a class of its own」指「水準或特色遠超一般同類、自成一格」。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-08"
     },
@@ -1309,11 +1213,9 @@ export default {
       "masked": "That design is in a ____ of its own.",
       "options": [
         "class-mcq-08",
-        "class-mcq-07",
-        "class-mcq-09",
-        "class-mcq-06",
-        "class-mcq-10",
-        "class-mcq-05"
+        "class-pdf-001",
+        "class-mcq-21",
+        "class-mcq-23"
       ],
       "explanation": "本句的「class」指「水準或特色遠超一般同類、自成一格」。",
       "sentenceIndex": 24,
@@ -1322,12 +1224,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-08": "本句指「水準或特色遠超一般同類、自成一格」。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。",
-        "class-mcq-05": "「正式科學分類體系中的一個分類層級」是「scientific class」的用法，與本句語境不同。"
+        "class-mcq-08": "本句的「class」指「水準或特色遠超一般同類、自成一格」。",
+        "class-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-08"
     },
@@ -1339,11 +1239,9 @@ export default {
       "masked": "She has real ____.",
       "options": [
         "class-mcq-09",
-        "class-mcq-08",
-        "class-mcq-10",
-        "class-mcq-07",
-        "class-mcq-11",
-        "class-mcq-06"
+        "class-mcq-04",
+        "class-mcq-18",
+        "class-mcq-01"
       ],
       "explanation": "本句的「class」指「優雅、品味、成熟得體的氣質／風格」。",
       "sentenceIndex": 25,
@@ -1352,12 +1250,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-09": "本句指「優雅、品味、成熟得體的氣質／風格」。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-09": "本句的「class」指「優雅、品味、成熟得體的氣質／風格」。",
+        "class-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-09"
     },
@@ -1369,11 +1265,9 @@ export default {
       "masked": "The event was organized with ____.",
       "options": [
         "class-mcq-09",
-        "class-mcq-08",
-        "class-mcq-10",
-        "class-mcq-07",
-        "class-mcq-11",
-        "class-mcq-06"
+        "class-mcq-04",
+        "class-pdf-001",
+        "class-mcq-23"
       ],
       "explanation": "本句的「class」指「優雅、品味、成熟得體的氣質／風格」。",
       "sentenceIndex": 26,
@@ -1382,12 +1276,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-09": "本句指「優雅、品味、成熟得體的氣質／風格」。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-06": "「根據收入、職業、教育、社會地位等形成的社會階層」是「social class」的用法，與本句語境不同。"
+        "class-mcq-09": "本句的「class」指「優雅、品味、成熟得體的氣質／風格」。",
+        "class-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "class-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-09"
     },
@@ -1399,11 +1291,9 @@ export default {
       "masked": "He handled the situation with ____.",
       "options": [
         "class-mcq-21",
-        "class-mcq-20",
-        "class-mcq-22",
-        "class-mcq-19",
-        "class-mcq-23",
-        "class-mcq-18"
+        "class-mcq-18",
+        "class-mcq-02",
+        "class-mcq-13"
       ],
       "explanation": "本句的「class」指「表現優雅、得體、有風度或有品味」。",
       "sentenceIndex": 27,
@@ -1412,12 +1302,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-21": "本句指「表現優雅、得體、有風度或有品味」。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-23": "「對敏感資訊所設定的安全／保密級別」是「25. classification = security level（保密級別） — 機密分類級別」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。"
+        "class-mcq-21": "本句的「class」指「表現優雅、得體、有風度或有品味」。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-21"
     },
@@ -1429,11 +1317,9 @@ export default {
       "masked": "She has a lot of ____.",
       "options": [
         "class-mcq-21",
-        "class-mcq-20",
-        "class-mcq-22",
-        "class-mcq-19",
-        "class-mcq-23",
-        "class-mcq-18"
+        "class-mcq-04",
+        "class-mcq-03",
+        "class-mcq-23"
       ],
       "explanation": "本句的「class」指「表現優雅、得體、有風度或有品味」。",
       "sentenceIndex": 28,
@@ -1442,12 +1328,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-21": "本句指「表現優雅、得體、有風度或有品味」。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-23": "「對敏感資訊所設定的安全／保密級別」是「25. classification = security level（保密級別） — 機密分類級別」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。"
+        "class-mcq-21": "本句的「class」指「表現優雅、得體、有風度或有品味」。",
+        "class-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-21"
     },
@@ -1459,11 +1343,9 @@ export default {
       "masked": "She’s a real ____.",
       "options": [
         "class-mcq-10",
-        "class-mcq-09",
-        "class-mcq-11",
-        "class-mcq-08",
-        "class-mcq-12",
-        "class-mcq-07"
+        "class-mcq-06",
+        "class-mcq-20",
+        "class-mcq-18"
       ],
       "explanation": "本句的「class act」指「行為、能力或風度非常出色而令人尊敬的人」。",
       "sentenceIndex": 29,
@@ -1472,12 +1354,10 @@ export default {
         "class act"
       ],
       "optionReasons": {
-        "class-mcq-10": "本句指「行為、能力或風度非常出色而令人尊敬的人」。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。"
+        "class-mcq-10": "本句的「class act」指「行為、能力或風度非常出色而令人尊敬的人」。",
+        "class-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-10"
     },
@@ -1489,11 +1369,9 @@ export default {
       "masked": "He was a ____ act even in defeat.",
       "options": [
         "class-mcq-10",
-        "class-mcq-09",
-        "class-mcq-11",
-        "class-mcq-08",
-        "class-mcq-12",
-        "class-mcq-07"
+        "class-mcq-24",
+        "class-mcq-03",
+        "class-mcq-05"
       ],
       "explanation": "本句的「class」指「行為、能力或風度非常出色而令人尊敬的人」。",
       "sentenceIndex": 30,
@@ -1502,12 +1380,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-10": "本句指「行為、能力或風度非常出色而令人尊敬的人」。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-08": "「水準或特色遠超一般同類、自成一格」是「in a class of its own」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-07": "「品質、能力或水準所屬的等級／檔次」是「class — standard/quality」的用法，與本句語境不同。"
+        "class-mcq-10": "本句的「class」指「行為、能力或風度非常出色而令人尊敬的人」。",
+        "class-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-10"
     },
@@ -1519,11 +1395,9 @@ export default {
       "masked": "They travelled ____.",
       "options": [
         "class-mcq-22",
-        "class-mcq-21",
-        "class-mcq-23",
-        "class-mcq-20",
-        "class-mcq-24",
-        "class-mcq-19"
+        "class-mcq-19",
+        "class-mcq-02",
+        "class-mcq-13"
       ],
       "explanation": "本句的「first class」指「交通、服務等按價格和待遇劃分的等級」。",
       "sentenceIndex": 31,
@@ -1532,12 +1406,10 @@ export default {
         "first class"
       ],
       "optionReasons": {
-        "class-mcq-22": "本句指「交通、服務等按價格和待遇劃分的等級」。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-23": "「對敏感資訊所設定的安全／保密級別」是「25. classification = security level（保密級別） — 機密分類級別」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-24": "「統計／資料分析中按範圍或特徵劃分的組別」是「27. class = group in statistics/data（資料類別） — 類別；分組」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。"
+        "class-mcq-22": "本句的「first class」指「交通、服務等按價格和待遇劃分的等級」。",
+        "class-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-22"
     },
@@ -1549,11 +1421,9 @@ export default {
       "masked": "She booked a business-____ seat.",
       "options": [
         "class-mcq-22",
-        "class-mcq-21",
-        "class-mcq-23",
-        "class-mcq-20",
-        "class-mcq-24",
-        "class-mcq-19"
+        "class-mcq-14",
+        "class-mcq-10",
+        "class-mcq-13"
       ],
       "explanation": "本句的「class」指「交通、服務等按價格和待遇劃分的等級」。",
       "sentenceIndex": 32,
@@ -1562,12 +1432,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-22": "本句指「交通、服務等按價格和待遇劃分的等級」。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-23": "「對敏感資訊所設定的安全／保密級別」是「25. classification = security level（保密級別） — 機密分類級別」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-24": "「統計／資料分析中按範圍或特徵劃分的組別」是「27. class = group in statistics/data（資料類別） — 類別；分組」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。"
+        "class-mcq-22": "本句的「class」指「交通、服務等按價格和待遇劃分的等級」。",
+        "class-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-22"
     },
@@ -1579,11 +1447,9 @@ export default {
       "masked": "She did a ____.",
       "options": [
         "class-mcq-12",
-        "class-mcq-11",
-        "class-mcq-13",
-        "class-mcq-10",
-        "class-mcq-14",
-        "class-mcq-09"
+        "class-mcq-03",
+        "class-mcq-18",
+        "class-mcq-17"
       ],
       "explanation": "本句的「first-class job」指「品質非常高、一流的」。",
       "sentenceIndex": 33,
@@ -1592,12 +1458,10 @@ export default {
         "first-class job"
       ],
       "optionReasons": {
-        "class-mcq-12": "本句指「品質非常高、一流的」。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。"
+        "class-mcq-12": "本句的「first-class job」指「品質非常高、一流的」。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-12"
     },
@@ -1609,11 +1473,9 @@ export default {
       "masked": "The service was first-____.",
       "options": [
         "class-mcq-12",
-        "class-mcq-11",
-        "class-mcq-13",
-        "class-mcq-10",
-        "class-mcq-14",
-        "class-mcq-09"
+        "class-mcq-02",
+        "class-mcq-17",
+        "class-mcq-16"
       ],
       "explanation": "本句的「class」指「品質非常高、一流的」。",
       "sentenceIndex": 34,
@@ -1622,12 +1484,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-12": "本句指「品質非常高、一流的」。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-09": "「優雅、品味、成熟得體的氣質／風格」是「class — elegance」的用法，與本句語境不同。"
+        "class-mcq-12": "本句的「class」指「品質非常高、一流的」。",
+        "class-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-12"
     },
@@ -1639,11 +1499,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "class-mcq-13",
-        "class-mcq-12",
-        "class-mcq-14",
-        "class-mcq-11",
-        "class-mcq-15",
-        "class-mcq-10"
+        "class-mcq-01",
+        "class-mcq-21",
+        "class-mcq-17"
       ],
       "explanation": "本句的「world-class athlete」指「達到全球最高水準之一的」。",
       "sentenceIndex": 35,
@@ -1652,12 +1510,10 @@ export default {
         "world-class athlete"
       ],
       "optionReasons": {
-        "class-mcq-13": "本句指「達到全球最高水準之一的」。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。"
+        "class-mcq-13": "本句的「world-class athlete」指「達到全球最高水準之一的」。",
+        "class-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-13"
     },
@@ -1669,11 +1525,9 @@ export default {
       "masked": "The city has world-____ facilities.",
       "options": [
         "class-mcq-13",
-        "class-mcq-12",
-        "class-mcq-14",
-        "class-mcq-11",
-        "class-mcq-15",
-        "class-mcq-10"
+        "class-mcq-09",
+        "class-mcq-20",
+        "class-mcq-19"
       ],
       "explanation": "本句的「class」指「達到全球最高水準之一的」。",
       "sentenceIndex": 36,
@@ -1682,12 +1536,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-13": "本句指「達到全球最高水準之一的」。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-10": "「行為、能力或風度非常出色而令人尊敬的人」是「class act」的用法，與本句語境不同。"
+        "class-mcq-13": "本句的「class」指「達到全球最高水準之一的」。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-13"
     },
@@ -1699,11 +1551,9 @@ export default {
       "masked": "The material is ____.",
       "options": [
         "class-mcq-14",
-        "class-mcq-13",
-        "class-mcq-15",
-        "class-mcq-12",
-        "class-mcq-16",
-        "class-mcq-11"
+        "class-mcq-21",
+        "class-mcq-02",
+        "class-mcq-22"
       ],
       "explanation": "本句的「classed as hazardous」指「根據特徵／標準把人或事物歸入某個類別」。",
       "sentenceIndex": 37,
@@ -1712,12 +1562,10 @@ export default {
         "classed as hazardous"
       ],
       "optionReasons": {
-        "class-mcq-14": "本句指「根據特徵／標準把人或事物歸入某個類別」。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。"
+        "class-mcq-14": "本句的「classed as hazardous」指「根據特徵／標準把人或事物歸入某個類別」。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-14"
     },
@@ -1729,11 +1577,9 @@ export default {
       "masked": "I would ____ this as a serious problem.",
       "options": [
         "class-mcq-14",
-        "class-mcq-13",
-        "class-mcq-15",
-        "class-mcq-12",
-        "class-mcq-16",
-        "class-mcq-11"
+        "class-mcq-10",
+        "class-mcq-22",
+        "class-mcq-09"
       ],
       "explanation": "本句的「class」指「根據特徵／標準把人或事物歸入某個類別」。",
       "sentenceIndex": 38,
@@ -1742,12 +1588,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-14": "本句指「根據特徵／標準把人或事物歸入某個類別」。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。"
+        "class-mcq-14": "本句的「class」指「根據特徵／標準把人或事物歸入某個類別」。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-14"
     },
@@ -1759,11 +1603,9 @@ export default {
       "masked": "These two products are often ____.",
       "options": [
         "class-mcq-14",
-        "class-mcq-13",
-        "class-mcq-15",
+        "class-mcq-22",
         "class-mcq-12",
-        "class-mcq-16",
-        "class-mcq-11"
+        "class-mcq-21"
       ],
       "explanation": "本句的「classed together」指「根據特徵／標準把人或事物歸入某個類別」。",
       "sentenceIndex": 39,
@@ -1772,12 +1614,10 @@ export default {
         "classed together"
       ],
       "optionReasons": {
-        "class-mcq-14": "本句指「根據特徵／標準把人或事物歸入某個類別」。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。"
+        "class-mcq-14": "本句的「classed together」指「根據特徵／標準把人或事物歸入某個類別」。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-14"
     },
@@ -1789,11 +1629,9 @@ export default {
       "masked": "I would not ____ him with the top performers.",
       "options": [
         "class-mcq-14",
-        "class-mcq-13",
-        "class-mcq-15",
-        "class-mcq-12",
-        "class-mcq-16",
-        "class-mcq-11"
+        "class-mcq-21",
+        "class-pdf-001",
+        "class-mcq-22"
       ],
       "explanation": "本句的「class」指「根據特徵／標準把人或事物歸入某個類別」。",
       "sentenceIndex": 40,
@@ -1802,12 +1640,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-14": "本句指「根據特徵／標準把人或事物歸入某個類別」。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-11": "「按價格、待遇或服務水平劃分的等級」是「travel/service class」的用法，與本句語境不同。"
+        "class-mcq-14": "本句的「class」指「根據特徵／標準把人或事物歸入某個類別」。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-14"
     },
@@ -1819,11 +1655,9 @@ export default {
       "masked": "The data were ____.",
       "options": [
         "class-mcq-15",
-        "class-mcq-14",
-        "class-mcq-16",
+        "class-pdf-001",
         "class-mcq-13",
-        "class-mcq-17",
-        "class-mcq-12"
+        "class-mcq-09"
       ],
       "explanation": "本句的「classified into three groups」指「按系統、規則或共同特徵進行分類」。",
       "sentenceIndex": 41,
@@ -1832,12 +1666,10 @@ export default {
         "classified into three groups"
       ],
       "optionReasons": {
-        "class-mcq-15": "本句指「按系統、規則或共同特徵進行分類」。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。"
+        "class-mcq-15": "本句的「classified into three groups」指「按系統、規則或共同特徵進行分類」。",
+        "class-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-15"
     },
@@ -1849,11 +1681,9 @@ export default {
       "masked": "Scientists ____ animals according to shared features.",
       "options": [
         "class-mcq-15",
-        "class-mcq-14",
-        "class-mcq-16",
         "class-mcq-13",
-        "class-mcq-17",
-        "class-mcq-12"
+        "class-mcq-02",
+        "class-mcq-21"
       ],
       "explanation": "本句的「classify」指「按系統、規則或共同特徵進行分類」。",
       "sentenceIndex": 42,
@@ -1862,12 +1692,10 @@ export default {
         "classify"
       ],
       "optionReasons": {
-        "class-mcq-15": "本句指「按系統、規則或共同特徵進行分類」。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-12": "「品質非常高、一流的」是「first-class」的用法，與本句語境不同。"
+        "class-mcq-15": "本句的「classify」指「按系統、規則或共同特徵進行分類」。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-15"
     },
@@ -1879,11 +1707,9 @@ export default {
       "masked": "The ____ is based on size.",
       "options": [
         "class-mcq-16",
-        "class-mcq-15",
-        "class-mcq-17",
-        "class-mcq-14",
-        "class-mcq-18",
-        "class-mcq-13"
+        "class-mcq-03",
+        "class-mcq-07",
+        "class-mcq-23"
       ],
       "explanation": "本句的「classification」指「分類的行為、結果或分類制度」。",
       "sentenceIndex": 43,
@@ -1892,12 +1718,10 @@ export default {
         "classification"
       ],
       "optionReasons": {
-        "class-mcq-16": "本句指「分類的行為、結果或分類制度」。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。"
+        "class-mcq-16": "本句的「classification」指「分類的行為、結果或分類制度」。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-16"
     },
@@ -1909,11 +1733,9 @@ export default {
       "masked": "The system uses a simple ____ scheme.",
       "options": [
         "class-mcq-16",
-        "class-mcq-15",
-        "class-mcq-17",
-        "class-mcq-14",
-        "class-mcq-18",
-        "class-mcq-13"
+        "class-mcq-23",
+        "class-mcq-13",
+        "class-mcq-06"
       ],
       "explanation": "本句的「classification」指「分類的行為、結果或分類制度」。",
       "sentenceIndex": 44,
@@ -1922,12 +1744,10 @@ export default {
         "classification"
       ],
       "optionReasons": {
-        "class-mcq-16": "本句指「分類的行為、結果或分類制度」。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-13": "「達到全球最高水準之一的」是「world-class」的用法，與本句語境不同。"
+        "class-mcq-16": "本句的「classification」指「分類的行為、結果或分類制度」。",
+        "class-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-16"
     },
@@ -1939,11 +1759,9 @@ export default {
       "masked": "The product is ____.",
       "options": [
         "class-mcq-17",
-        "class-mcq-16",
+        "class-mcq-02",
         "class-mcq-18",
-        "class-mcq-15",
-        "class-mcq-19",
-        "class-mcq-14"
+        "class-mcq-13"
       ],
       "explanation": "本句的「classified as medical equipment」指「被正式放入某個類別」。",
       "sentenceIndex": 45,
@@ -1952,12 +1770,10 @@ export default {
         "classified as medical equipment"
       ],
       "optionReasons": {
-        "class-mcq-17": "本句指「被正式放入某個類別」。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。"
+        "class-mcq-17": "本句的「classified as medical equipment」指「被正式放入某個類別」。",
+        "class-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-17"
     },
@@ -1969,11 +1785,9 @@ export default {
       "masked": "The area is ____ as high risk.",
       "options": [
         "class-mcq-17",
-        "class-mcq-16",
-        "class-mcq-18",
-        "class-mcq-15",
-        "class-mcq-19",
-        "class-mcq-14"
+        "class-mcq-10",
+        "class-mcq-01",
+        "class-mcq-18"
       ],
       "explanation": "本句的「classified」指「被正式放入某個類別」。",
       "sentenceIndex": 46,
@@ -1982,12 +1796,10 @@ export default {
         "classified"
       ],
       "optionReasons": {
-        "class-mcq-17": "本句指「被正式放入某個類別」。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-14": "「根據特徵／標準把人或事物歸入某個類別」是「class — verb」的用法，與本句語境不同。"
+        "class-mcq-17": "本句的「classified」指「被正式放入某個類別」。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-17"
     },
@@ -1999,11 +1811,9 @@ export default {
       "masked": "The document is ____.",
       "options": [
         "class-mcq-18",
-        "class-mcq-17",
-        "class-mcq-19",
-        "class-mcq-16",
-        "class-mcq-20",
-        "class-mcq-15"
+        "class-mcq-05",
+        "class-mcq-07",
+        "class-mcq-21"
       ],
       "explanation": "本句的「classified」指「因安全／政府規定而限制公開的機密資訊」。",
       "sentenceIndex": 47,
@@ -2012,12 +1822,10 @@ export default {
         "classified"
       ],
       "optionReasons": {
-        "class-mcq-18": "本句指「因安全／政府規定而限制公開的機密資訊」。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。"
+        "class-mcq-18": "本句的「classified」指「因安全／政府規定而限制公開的機密資訊」。",
+        "class-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-18"
     },
@@ -2029,11 +1837,9 @@ export default {
       "masked": "They were not allowed to share ____ information.",
       "options": [
         "class-mcq-18",
-        "class-mcq-17",
-        "class-mcq-19",
-        "class-mcq-16",
-        "class-mcq-20",
-        "class-mcq-15"
+        "class-mcq-21",
+        "class-mcq-04",
+        "class-mcq-17"
       ],
       "explanation": "本句的「classified」指「因安全／政府規定而限制公開的機密資訊」。",
       "sentenceIndex": 48,
@@ -2042,12 +1848,10 @@ export default {
         "classified"
       ],
       "optionReasons": {
-        "class-mcq-18": "本句指「因安全／政府規定而限制公開的機密資訊」。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-15": "「按系統、規則或共同特徵進行分類」是「classify」的用法，與本句語境不同。"
+        "class-mcq-18": "本句的「classified」指「因安全／政府規定而限制公開的機密資訊」。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-18"
     },
@@ -2059,11 +1863,9 @@ export default {
       "masked": "The document’s security ____ was changed.",
       "options": [
         "class-mcq-23",
-        "class-mcq-22",
-        "class-mcq-24",
-        "class-mcq-21",
-        "class-mcq-20",
-        "class-mcq-19"
+        "class-mcq-08",
+        "class-mcq-03",
+        "class-mcq-12"
       ],
       "explanation": "本句的「classification」指「對敏感資訊所設定的安全／保密級別」。",
       "sentenceIndex": 49,
@@ -2072,12 +1874,10 @@ export default {
         "classification"
       ],
       "optionReasons": {
-        "class-mcq-23": "本句指「對敏感資訊所設定的安全／保密級別」。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-24": "「統計／資料分析中按範圍或特徵劃分的組別」是「27. class = group in statistics/data（資料類別） — 類別；分組」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。"
+        "class-mcq-23": "本句的「classification」指「對敏感資訊所設定的安全／保密級別」。",
+        "class-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-23"
     },
@@ -2089,11 +1889,9 @@ export default {
       "masked": "Different files have different ____ levels.",
       "options": [
         "class-mcq-23",
-        "class-mcq-22",
-        "class-mcq-24",
         "class-mcq-21",
-        "class-mcq-20",
-        "class-mcq-19"
+        "class-mcq-08",
+        "class-mcq-03"
       ],
       "explanation": "本句的「classification」指「對敏感資訊所設定的安全／保密級別」。",
       "sentenceIndex": 50,
@@ -2102,12 +1900,10 @@ export default {
         "classification"
       ],
       "optionReasons": {
-        "class-mcq-23": "本句指「對敏感資訊所設定的安全／保密級別」。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-24": "「統計／資料分析中按範圍或特徵劃分的組別」是「27. class = group in statistics/data（資料類別） — 類別；分組」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。"
+        "class-mcq-23": "本句的「classification」指「對敏感資訊所設定的安全／保密級別」。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-23"
     },
@@ -2119,11 +1915,9 @@ export default {
       "masked": "The program defines a new ____.",
       "options": [
         "class-mcq-19",
-        "class-mcq-18",
-        "class-mcq-20",
-        "class-mcq-17",
+        "class-mcq-03",
         "class-mcq-21",
-        "class-mcq-16"
+        "class-mcq-04"
       ],
       "explanation": "本句的「class」指「物件導向程式設計中定義物件結構與行為的類別／藍圖」。",
       "sentenceIndex": 51,
@@ -2132,12 +1926,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-19": "本句指「物件導向程式設計中定義物件結構與行為的類別／藍圖」。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。"
+        "class-mcq-19": "本句的「class」指「物件導向程式設計中定義物件結構與行為的類別／藍圖」。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-19"
     },
@@ -2149,11 +1941,9 @@ export default {
       "masked": "Each object belongs to a ____.",
       "options": [
         "class-mcq-19",
-        "class-mcq-18",
-        "class-mcq-20",
-        "class-mcq-17",
-        "class-mcq-21",
-        "class-mcq-16"
+        "class-mcq-06",
+        "class-mcq-07",
+        "class-mcq-21"
       ],
       "explanation": "本句的「class」指「物件導向程式設計中定義物件結構與行為的類別／藍圖」。",
       "sentenceIndex": 52,
@@ -2162,12 +1952,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-19": "本句指「物件導向程式設計中定義物件結構與行為的類別／藍圖」。",
-        "class-mcq-18": "「因安全／政府規定而限制公開的機密資訊」是「classified — secret」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-17": "「被正式放入某個類別」是「classified as」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-16": "「分類的行為、結果或分類制度」是「classification」的用法，與本句語境不同。"
+        "class-mcq-19": "本句的「class」指「物件導向程式設計中定義物件結構與行為的類別／藍圖」。",
+        "class-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-19"
     },
@@ -2179,11 +1967,9 @@ export default {
       "masked": "The values were divided into several ____.",
       "options": [
         "class-mcq-24",
-        "class-mcq-23",
-        "class-mcq-22",
-        "class-mcq-21",
-        "class-mcq-20",
-        "class-mcq-19"
+        "class-mcq-06",
+        "class-mcq-12",
+        "class-mcq-13"
       ],
       "explanation": "本句的「classes」指「統計／資料分析中按範圍或特徵劃分的組別」。",
       "sentenceIndex": 53,
@@ -2192,12 +1978,10 @@ export default {
         "classes"
       ],
       "optionReasons": {
-        "class-mcq-24": "本句指「統計／資料分析中按範圍或特徵劃分的組別」。",
-        "class-mcq-23": "「對敏感資訊所設定的安全／保密級別」是「25. classification = security level（保密級別） — 機密分類級別」的用法，與本句語境不同。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。"
+        "class-mcq-24": "本句的「classes」指「統計／資料分析中按範圍或特徵劃分的組別」。",
+        "class-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-24"
     },
@@ -2209,11 +1993,9 @@ export default {
       "masked": "Each ____ contains a range of values.",
       "options": [
         "class-mcq-24",
-        "class-mcq-23",
-        "class-mcq-22",
-        "class-mcq-21",
-        "class-mcq-20",
-        "class-mcq-19"
+        "class-mcq-03",
+        "class-mcq-09",
+        "class-mcq-10"
       ],
       "explanation": "本句的「class」指「統計／資料分析中按範圍或特徵劃分的組別」。",
       "sentenceIndex": 54,
@@ -2222,12 +2004,10 @@ export default {
         "class"
       ],
       "optionReasons": {
-        "class-mcq-24": "本句指「統計／資料分析中按範圍或特徵劃分的組別」。",
-        "class-mcq-23": "「對敏感資訊所設定的安全／保密級別」是「25. classification = security level（保密級別） — 機密分類級別」的用法，與本句語境不同。",
-        "class-mcq-22": "「交通、服務等按價格和待遇劃分的等級」是「16. first class / second class / business class（等級；艙等） — 頭等／二等／商務艙」的用法，與本句語境不同。",
-        "class-mcq-21": "「表現優雅、得體、有風度或有品味」是「14. have class（有品味／有氣質） — 有格調；有風度」的用法，與本句語境不同。",
-        "class-mcq-20": "「具有相似性質、功能或特徵的分類單位」是「7. class of object/product/problem（某一類） — 類別；種類」的用法，與本句語境不同。",
-        "class-mcq-19": "「物件導向程式設計中定義物件結構與行為的類別／藍圖」是「programming class」的用法，與本句語境不同。"
+        "class-mcq-24": "本句的「class」指「統計／資料分析中按範圍或特徵劃分的組別」。",
+        "class-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "class-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "class-mcq-24"
     }
@@ -2239,5 +2019,7 @@ export default {
     "sha256": "01140c8ac2f26da7411d98aa81312f547552381955b4e777032d828f62f9538a",
     "pages": 26
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

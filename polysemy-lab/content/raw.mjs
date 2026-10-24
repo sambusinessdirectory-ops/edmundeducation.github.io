@@ -533,11 +533,9 @@ export default {
       "masked": "Do not eat ____ chicken.",
       "options": [
         "raw-mcq-01",
-        "raw-mcq-02",
-        "raw-mcq-03",
-        "raw-mcq-04",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-10",
+        "raw-mcq-20",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
       "sentenceIndex": 0,
@@ -546,12 +544,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-01": "本句指「尚未經烹煮或加熱處理的」。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-01": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-01"
     },
@@ -563,11 +559,9 @@ export default {
       "masked": "The fish can be eaten ____.",
       "options": [
         "raw-mcq-01",
-        "raw-mcq-02",
-        "raw-mcq-03",
-        "raw-mcq-04",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-20",
+        "raw-mcq-17",
+        "raw-mcq-21"
       ],
       "explanation": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
       "sentenceIndex": 1,
@@ -576,12 +570,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-01": "本句指「尚未經烹煮或加熱處理的」。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-01": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-01"
     },
@@ -593,11 +585,9 @@ export default {
       "masked": "She added ____ vegetables to the salad.",
       "options": [
         "raw-mcq-01",
-        "raw-mcq-02",
-        "raw-mcq-03",
-        "raw-mcq-04",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-20",
+        "raw-mcq-21",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
       "sentenceIndex": 2,
@@ -606,12 +596,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-01": "本句指「尚未經烹煮或加熱處理的」。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-01": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-01"
     },
@@ -623,11 +611,9 @@ export default {
       "masked": "Some people prefer eating carrots ____.",
       "options": [
         "raw-mcq-01",
-        "raw-mcq-02",
-        "raw-mcq-03",
-        "raw-mcq-04",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-10",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
       "sentenceIndex": 3,
@@ -636,12 +622,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-01": "本句指「尚未經烹煮或加熱處理的」。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-01": "本句的「raw」指「尚未經烹煮或加熱處理的」。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-01"
     },
@@ -653,11 +637,9 @@ export default {
       "masked": "The factory imports ____ cotton.",
       "options": [
         "raw-mcq-02",
-        "raw-mcq-01",
-        "raw-mcq-03",
-        "raw-mcq-04",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-15",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「尚未經加工、提煉、精製或製造成成品的」。",
       "sentenceIndex": 4,
@@ -666,12 +648,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-02": "本句指「尚未經加工、提煉、精製或製造成成品的」。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-02": "本句的「raw」指「尚未經加工、提煉、精製或製造成成品的」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-02"
     },
@@ -683,11 +663,9 @@ export default {
       "masked": "The ore must be processed before it can be used.” > “At this stage, it is still a ____ material.",
       "options": [
         "raw-mcq-02",
-        "raw-mcq-01",
-        "raw-mcq-03",
-        "raw-mcq-04",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-20",
+        "raw-mcq-15",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「尚未經加工、提煉、精製或製造成成品的」。",
       "sentenceIndex": 5,
@@ -696,12 +674,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-02": "本句指「尚未經加工、提煉、精製或製造成成品的」。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-02": "本句的「raw」指「尚未經加工、提煉、精製或製造成成品的」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-02"
     },
@@ -713,11 +689,9 @@ export default {
       "masked": "The company imports ____ from several countries.",
       "options": [
         "raw-mcq-03",
-        "raw-mcq-02",
-        "raw-mcq-04",
-        "raw-mcq-01",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-20",
+        "raw-mcq-17",
+        "raw-mcq-15"
       ],
       "explanation": "本句的「raw materials」指「用來生產其他物品、尚未加工成製成品的基本材料」。",
       "sentenceIndex": 6,
@@ -726,12 +700,10 @@ export default {
         "raw materials"
       ],
       "optionReasons": {
-        "raw-mcq-03": "本句指「用來生產其他物品、尚未加工成製成品的基本材料」。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-03": "本句的「raw materials」指「用來生產其他物品、尚未加工成製成品的基本材料」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-03"
     },
@@ -743,11 +715,9 @@ export default {
       "masked": "Higher ____ costs increased production expenses.",
       "options": [
         "raw-mcq-03",
-        "raw-mcq-02",
-        "raw-mcq-04",
-        "raw-mcq-01",
-        "raw-mcq-05",
-        "raw-mcq-06"
+        "raw-mcq-15",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw-material」指「用來生產其他物品、尚未加工成製成品的基本材料」。",
       "sentenceIndex": 7,
@@ -756,12 +726,10 @@ export default {
         "raw-material"
       ],
       "optionReasons": {
-        "raw-mcq-03": "本句指「用來生產其他物品、尚未加工成製成品的基本材料」。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-03": "本句的「raw-material」指「用來生產其他物品、尚未加工成製成品的基本材料」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-03"
     },
@@ -773,11 +741,9 @@ export default {
       "masked": "The students had ____, courage and curiosity.",
       "options": [
         "raw-mcq-04",
-        "raw-mcq-03",
-        "raw-mcq-05",
-        "raw-mcq-02",
-        "raw-mcq-06",
-        "raw-mcq-01"
+        "raw-mcq-15",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw speed」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
       "sentenceIndex": 8,
@@ -786,12 +752,10 @@ export default {
         "raw speed"
       ],
       "optionReasons": {
-        "raw-mcq-04": "本句指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。"
+        "raw-mcq-04": "本句的「raw speed」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-04"
     },
@@ -803,11 +767,9 @@ export default {
       "masked": "The young athlete has a lot of ____.",
       "options": [
         "raw-mcq-04",
-        "raw-mcq-03",
-        "raw-mcq-05",
-        "raw-mcq-02",
-        "raw-mcq-06",
-        "raw-mcq-01"
+        "raw-mcq-10",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw talent」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
       "sentenceIndex": 9,
@@ -816,12 +778,10 @@ export default {
         "raw talent"
       ],
       "optionReasons": {
-        "raw-mcq-04": "本句指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。"
+        "raw-mcq-04": "本句的「raw talent」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-04"
     },
@@ -833,11 +793,9 @@ export default {
       "masked": "The coach saw ____ potential in the teenager.",
       "options": [
         "raw-mcq-04",
-        "raw-mcq-03",
-        "raw-mcq-05",
-        "raw-mcq-02",
-        "raw-mcq-06",
-        "raw-mcq-01"
+        "raw-mcq-17",
+        "raw-mcq-15",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
       "sentenceIndex": 10,
@@ -846,12 +804,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-04": "本句指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。"
+        "raw-mcq-04": "本句的「raw」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-04"
     },
@@ -863,11 +819,9 @@ export default {
       "masked": "____ talent alone does not guarantee success.",
       "options": [
         "raw-mcq-04",
-        "raw-mcq-03",
-        "raw-mcq-05",
-        "raw-mcq-02",
-        "raw-mcq-06",
-        "raw-mcq-01"
+        "raw-mcq-10",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「Raw」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
       "sentenceIndex": 11,
@@ -876,12 +830,10 @@ export default {
         "Raw"
       ],
       "optionReasons": {
-        "raw-mcq-04": "本句指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。"
+        "raw-mcq-04": "本句的「Raw」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-04"
     },
@@ -893,11 +845,9 @@ export default {
       "masked": "Good coaching can turn ____ talent into consistent performance.",
       "options": [
         "raw-mcq-04",
-        "raw-mcq-03",
-        "raw-mcq-05",
-        "raw-mcq-02",
-        "raw-mcq-06",
-        "raw-mcq-01"
+        "raw-mcq-15",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
       "sentenceIndex": 12,
@@ -906,12 +856,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-04": "本句指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-01": "「尚未經烹煮或加熱處理的」與本句語境不同。"
+        "raw-mcq-04": "本句的「raw」指「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-04"
     },
@@ -923,11 +871,9 @@ export default {
       "masked": "He relies heavily on ____.",
       "options": [
         "raw-mcq-05",
-        "raw-mcq-04",
-        "raw-mcq-06",
-        "raw-mcq-03",
-        "raw-mcq-07",
-        "raw-mcq-02"
+        "raw-mcq-14",
+        "raw-mcq-20",
+        "raw-mcq-15"
       ],
       "explanation": "本句的「raw power」指「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」。",
       "sentenceIndex": 13,
@@ -936,12 +882,10 @@ export default {
         "raw power"
       ],
       "optionReasons": {
-        "raw-mcq-05": "本句指「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。"
+        "raw-mcq-05": "本句的「raw power」指「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-05"
     },
@@ -953,11 +897,9 @@ export default {
       "masked": "Her ____ speed makes her difficult to catch.",
       "options": [
         "raw-mcq-05",
-        "raw-mcq-04",
-        "raw-mcq-06",
-        "raw-mcq-03",
-        "raw-mcq-07",
-        "raw-mcq-02"
+        "raw-mcq-20",
+        "raw-mcq-10",
+        "raw-mcq-14"
       ],
       "explanation": "本句的「raw」指「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」。",
       "sentenceIndex": 14,
@@ -966,12 +908,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-05": "本句指「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-02": "「尚未經加工、提煉、精製或製造成成品的」與本句語境不同。"
+        "raw-mcq-05": "本句的「raw」指「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-05"
     },
@@ -983,11 +923,9 @@ export default {
       "masked": "The researchers first examined the ____.",
       "options": [
         "raw-mcq-06",
-        "raw-mcq-05",
-        "raw-mcq-07",
-        "raw-mcq-04",
-        "raw-mcq-08",
-        "raw-mcq-03"
+        "raw-mcq-15",
+        "raw-mcq-17",
+        "raw-mcq-22"
       ],
       "explanation": "本句的「raw data」指「尚未經清理、分析、整理或轉換的原始資料」。",
       "sentenceIndex": 15,
@@ -996,12 +934,10 @@ export default {
         "raw data"
       ],
       "optionReasons": {
-        "raw-mcq-06": "本句指「尚未經清理、分析、整理或轉換的原始資料」。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。"
+        "raw-mcq-06": "本句的「raw data」指「尚未經清理、分析、整理或轉換的原始資料」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-06"
     },
@@ -1013,11 +949,9 @@ export default {
       "masked": "The figures shown here are still ____ and need further analysis.",
       "options": [
         "raw-mcq-06",
-        "raw-mcq-05",
-        "raw-mcq-07",
-        "raw-mcq-04",
-        "raw-mcq-08",
-        "raw-mcq-03"
+        "raw-mcq-20",
+        "raw-mcq-17",
+        "raw-mcq-15"
       ],
       "explanation": "本句的「raw」指「尚未經清理、分析、整理或轉換的原始資料」。",
       "sentenceIndex": 16,
@@ -1026,12 +960,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-06": "本句指「尚未經清理、分析、整理或轉換的原始資料」。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。"
+        "raw-mcq-06": "本句的「raw」指「尚未經清理、分析、整理或轉換的原始資料」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-06"
     },
@@ -1043,11 +975,9 @@ export default {
       "masked": "____ data can be difficult to interpret without context.",
       "options": [
         "raw-mcq-06",
-        "raw-mcq-05",
-        "raw-mcq-07",
-        "raw-mcq-04",
-        "raw-mcq-08",
-        "raw-mcq-03"
+        "raw-mcq-22",
+        "raw-mcq-17",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「Raw」指「尚未經清理、分析、整理或轉換的原始資料」。",
       "sentenceIndex": 17,
@@ -1056,12 +986,10 @@ export default {
         "Raw"
       ],
       "optionReasons": {
-        "raw-mcq-06": "本句指「尚未經清理、分析、整理或轉換的原始資料」。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。"
+        "raw-mcq-06": "本句的「Raw」指「尚未經清理、分析、整理或轉換的原始資料」。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-06"
     },
@@ -1073,11 +1001,9 @@ export default {
       "masked": "The software converts ____ data into charts.",
       "options": [
         "raw-mcq-06",
-        "raw-mcq-05",
-        "raw-mcq-07",
-        "raw-mcq-04",
-        "raw-mcq-08",
-        "raw-mcq-03"
+        "raw-mcq-22",
+        "raw-mcq-15",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「尚未經清理、分析、整理或轉換的原始資料」。",
       "sentenceIndex": 18,
@@ -1086,12 +1012,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-06": "本句指「尚未經清理、分析、整理或轉換的原始資料」。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-03": "「用來生產其他物品、尚未加工成製成品的基本材料」與本句語境不同。"
+        "raw-mcq-06": "本句的「raw」指「尚未經清理、分析、整理或轉換的原始資料」。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-06"
     },
@@ -1103,11 +1027,9 @@ export default {
       "masked": "Her ____ was converted into a percentile.",
       "options": [
         "raw-mcq-07",
-        "raw-mcq-06",
-        "raw-mcq-08",
-        "raw-mcq-05",
-        "raw-mcq-09",
-        "raw-mcq-04"
+        "raw-mcq-20",
+        "raw-mcq-10",
+        "raw-mcq-14"
       ],
       "explanation": "本句的「raw score」指「尚未被換算、標準化或調整的直接得分」。",
       "sentenceIndex": 19,
@@ -1116,12 +1038,10 @@ export default {
         "raw score"
       ],
       "optionReasons": {
-        "raw-mcq-07": "本句指「尚未被換算、標準化或調整的直接得分」。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。"
+        "raw-mcq-07": "本句的「raw score」指「尚未被換算、標準化或調整的直接得分」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-07"
     },
@@ -1133,11 +1053,9 @@ export default {
       "masked": "The ____ score alone does not show how the student performed relative to others.",
       "options": [
         "raw-mcq-07",
-        "raw-mcq-06",
-        "raw-mcq-08",
-        "raw-mcq-05",
-        "raw-mcq-09",
-        "raw-mcq-04"
+        "raw-mcq-22",
+        "raw-mcq-15",
+        "raw-mcq-14"
       ],
       "explanation": "本句的「raw」指「尚未被換算、標準化或調整的直接得分」。",
       "sentenceIndex": 20,
@@ -1146,12 +1064,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-07": "本句指「尚未被換算、標準化或調整的直接得分」。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-04": "「已顯示突出能力，但尚未經充分訓練、經驗或技術打磨的天然天分」與本句語境不同。"
+        "raw-mcq-07": "本句的「raw」指「尚未被換算、標準化或調整的直接得分」。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-07"
     },
@@ -1163,11 +1079,9 @@ export default {
       "masked": "The editor reviewed several hours of ____.",
       "options": [
         "raw-mcq-08",
-        "raw-mcq-07",
-        "raw-mcq-09",
-        "raw-mcq-06",
-        "raw-mcq-10",
-        "raw-mcq-05"
+        "raw-mcq-15",
+        "raw-mcq-20",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw footage」指「拍攝後尚未經剪接或後期製作的原始影像素材」。",
       "sentenceIndex": 21,
@@ -1176,12 +1090,10 @@ export default {
         "raw footage"
       ],
       "optionReasons": {
-        "raw-mcq-08": "本句指「拍攝後尚未經剪接或後期製作的原始影像素材」。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。"
+        "raw-mcq-08": "本句的「raw footage」指「拍攝後尚未經剪接或後期製作的原始影像素材」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-08"
     },
@@ -1193,11 +1105,9 @@ export default {
       "masked": "The documentary used ____ footage from the event.",
       "options": [
         "raw-mcq-08",
-        "raw-mcq-07",
-        "raw-mcq-09",
-        "raw-mcq-06",
+        "raw-mcq-20",
         "raw-mcq-10",
-        "raw-mcq-05"
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「拍攝後尚未經剪接或後期製作的原始影像素材」。",
       "sentenceIndex": 22,
@@ -1206,12 +1116,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-08": "本句指「拍攝後尚未經剪接或後期製作的原始影像素材」。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-05": "「尚未依靠高階技巧修飾，本身已非常突出的天然速度／力量」與本句語境不同。"
+        "raw-mcq-08": "本句的「raw」指「拍攝後尚未經剪接或後期製作的原始影像素材」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-08"
     },
@@ -1223,11 +1131,9 @@ export default {
       "masked": "Professional photographers often shoot in ____.",
       "options": [
         "raw-mcq-09",
-        "raw-mcq-08",
-        "raw-mcq-10",
-        "raw-mcq-07",
-        "raw-mcq-11",
-        "raw-mcq-06"
+        "raw-mcq-20",
+        "raw-mcq-17",
+        "raw-mcq-10"
       ],
       "explanation": "本句的「RAW」指「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」。",
       "sentenceIndex": 23,
@@ -1236,12 +1142,10 @@ export default {
         "RAW"
       ],
       "optionReasons": {
-        "raw-mcq-09": "本句指「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-11": "「強烈、直接而尚未被控制或平復的情感」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-09": "本句的「RAW」指「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-09"
     },
@@ -1253,11 +1157,9 @@ export default {
       "masked": "A ____ file contains more original image information than a heavily processed image.",
       "options": [
         "raw-mcq-09",
-        "raw-mcq-08",
-        "raw-mcq-10",
-        "raw-mcq-07",
-        "raw-mcq-11",
-        "raw-mcq-06"
+        "raw-mcq-20",
+        "raw-mcq-17",
+        "raw-mcq-21"
       ],
       "explanation": "本句的「RAW」指「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」。",
       "sentenceIndex": 24,
@@ -1266,12 +1168,10 @@ export default {
         "RAW"
       ],
       "optionReasons": {
-        "raw-mcq-09": "本句指「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。",
-        "raw-mcq-11": "「強烈、直接而尚未被控制或平復的情感」與本句語境不同。",
-        "raw-mcq-06": "「尚未經清理、分析、整理或轉換的原始資料」與本句語境不同。"
+        "raw-mcq-09": "本句的「RAW」指「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-09"
     },
@@ -1283,11 +1183,9 @@ export default {
       "masked": "The shoes rubbed my heels ____.",
       "options": [
         "raw-mcq-10",
-        "raw-mcq-09",
-        "raw-mcq-11",
-        "raw-mcq-08",
-        "raw-mcq-12",
-        "raw-mcq-07"
+        "raw-mcq-02",
+        "raw-mcq-20",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」。",
       "sentenceIndex": 25,
@@ -1296,12 +1194,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-10": "本句指「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-11": "「強烈、直接而尚未被控制或平復的情感」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。"
+        "raw-mcq-10": "本句的「raw」指「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」。",
+        "raw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-10"
     },
@@ -1313,11 +1209,9 @@ export default {
       "masked": "His hands were red and ____ from the cold.",
       "options": [
         "raw-mcq-10",
-        "raw-mcq-09",
-        "raw-mcq-11",
-        "raw-mcq-08",
-        "raw-mcq-12",
-        "raw-mcq-07"
+        "raw-mcq-07",
+        "raw-mcq-20",
+        "raw-mcq-14"
       ],
       "explanation": "本句的「raw」指「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」。",
       "sentenceIndex": 26,
@@ -1326,12 +1220,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-10": "本句指「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-11": "「強烈、直接而尚未被控制或平復的情感」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-07": "「尚未被換算、標準化或調整的直接得分」與本句語境不同。"
+        "raw-mcq-10": "本句的「raw」指「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」。",
+        "raw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-10"
     },
@@ -1343,11 +1235,9 @@ export default {
       "masked": "The interview was filled with ____.",
       "options": [
         "raw-mcq-11",
-        "raw-mcq-10",
-        "raw-mcq-12",
-        "raw-mcq-09",
-        "raw-mcq-13",
-        "raw-mcq-08"
+        "raw-mcq-14",
+        "raw-mcq-20",
+        "raw-mcq-10"
       ],
       "explanation": "本句的「raw emotion」指「強烈、直接而尚未被控制或平復的情感」。",
       "sentenceIndex": 29,
@@ -1356,12 +1246,10 @@ export default {
         "raw emotion"
       ],
       "optionReasons": {
-        "raw-mcq-11": "本句指「強烈、直接而尚未被控制或平復的情感」。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。"
+        "raw-mcq-11": "本句的「raw emotion」指「強烈、直接而尚未被控制或平復的情感」。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-11"
     },
@@ -1373,11 +1261,9 @@ export default {
       "masked": "Her grief was still ____.",
       "options": [
         "raw-mcq-11",
+        "raw-mcq-14",
         "raw-mcq-10",
-        "raw-mcq-12",
-        "raw-mcq-09",
-        "raw-mcq-13",
-        "raw-mcq-08"
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「強烈、直接而尚未被控制或平復的情感」。",
       "sentenceIndex": 30,
@@ -1386,12 +1272,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-11": "本句指「強烈、直接而尚未被控制或平復的情感」。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。"
+        "raw-mcq-11": "本句的「raw」指「強烈、直接而尚未被控制或平復的情感」。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-11"
     },
@@ -1403,11 +1287,9 @@ export default {
       "masked": "The film captures the ____ emotion of the athletes after defeat.",
       "options": [
         "raw-mcq-11",
-        "raw-mcq-10",
-        "raw-mcq-12",
-        "raw-mcq-09",
-        "raw-mcq-13",
-        "raw-mcq-08"
+        "raw-mcq-14",
+        "raw-mcq-15",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「強烈、直接而尚未被控制或平復的情感」。",
       "sentenceIndex": 31,
@@ -1416,12 +1298,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-11": "本句指「強烈、直接而尚未被控制或平復的情感」。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。"
+        "raw-mcq-11": "本句的「raw」指「強烈、直接而尚未被控制或平復的情感」。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-11"
     },
@@ -1433,11 +1313,9 @@ export default {
       "masked": "Her speech was full of ____ emotion.",
       "options": [
         "raw-mcq-11",
+        "raw-mcq-14",
         "raw-mcq-10",
-        "raw-mcq-12",
-        "raw-mcq-09",
-        "raw-mcq-13",
-        "raw-mcq-08"
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「強烈、直接而尚未被控制或平復的情感」。",
       "sentenceIndex": 32,
@@ -1446,12 +1324,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-11": "本句指「強烈、直接而尚未被控制或平復的情感」。",
-        "raw-mcq-10": "「因摩擦、寒冷或刺激而變得破損、敏感和疼痛的」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-09": "「保留大量原始感光資訊、尚未經完整影像處理的數碼檔案」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-08": "「拍攝後尚未經剪接或後期製作的原始影像素材」與本句語境不同。"
+        "raw-mcq-11": "本句的「raw」指「強烈、直接而尚未被控制或平復的情感」。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-11"
     },
@@ -1463,11 +1339,9 @@ export default {
       "masked": "The army turned ____ recruits into disciplined soldiers.",
       "options": [
         "raw-mcq-14",
-        "raw-mcq-13",
-        "raw-mcq-15",
-        "raw-mcq-12",
-        "raw-mcq-16",
-        "raw-mcq-11"
+        "raw-mcq-22",
+        "raw-mcq-07",
+        "raw-mcq-15"
       ],
       "explanation": "本句的「raw」指「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」。",
       "sentenceIndex": 37,
@@ -1476,12 +1350,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-14": "本句指「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-11": "「強烈、直接而尚未被控制或平復的情感」與本句語境不同。"
+        "raw-mcq-14": "本句的「raw」指「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-14"
     },
@@ -1493,11 +1365,9 @@ export default {
       "masked": "The department hired several ____ recruits straight from university.",
       "options": [
         "raw-mcq-14",
-        "raw-mcq-13",
+        "raw-mcq-07",
         "raw-mcq-15",
-        "raw-mcq-12",
-        "raw-mcq-16",
-        "raw-mcq-11"
+        "raw-mcq-22"
       ],
       "explanation": "本句的「raw」指「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」。",
       "sentenceIndex": 38,
@@ -1506,12 +1376,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-14": "本句指「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-11": "「強烈、直接而尚未被控制或平復的情感」與本句語境不同。"
+        "raw-mcq-14": "本句的「raw」指「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」。",
+        "raw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-14"
     },
@@ -1523,11 +1391,9 @@ export default {
       "masked": "It was a ____ winter morning.",
       "options": [
         "raw-mcq-15",
-        "raw-mcq-14",
-        "raw-mcq-16",
-        "raw-mcq-13",
         "raw-mcq-17",
-        "raw-mcq-12"
+        "raw-mcq-19",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「寒冷、潮濕而令人感到刺骨難受的」。",
       "sentenceIndex": 39,
@@ -1536,12 +1402,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-15": "本句指「寒冷、潮濕而令人感到刺骨難受的」。",
-        "raw-mcq-14": "「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。"
+        "raw-mcq-15": "本句的「raw」指「寒冷、潮濕而令人感到刺骨難受的」。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-15"
     },
@@ -1553,11 +1417,9 @@ export default {
       "masked": "A ____ wind blew across the field.",
       "options": [
         "raw-mcq-15",
-        "raw-mcq-14",
-        "raw-mcq-16",
-        "raw-mcq-13",
+        "raw-mcq-18",
         "raw-mcq-17",
-        "raw-mcq-12"
+        "raw-mcq-22"
       ],
       "explanation": "本句的「raw」指「寒冷、潮濕而令人感到刺骨難受的」。",
       "sentenceIndex": 40,
@@ -1566,12 +1428,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-15": "本句指「寒冷、潮濕而令人感到刺骨難受的」。",
-        "raw-mcq-14": "「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-12": "「情緒傷痛仍非常強烈、尚未被時間平復的」與本句語境不同。"
+        "raw-mcq-15": "本句的「raw」指「寒冷、潮濕而令人感到刺骨難受的」。",
+        "raw-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-15"
     },
@@ -1583,11 +1443,9 @@ export default {
       "masked": "The recording has a ____ sound.",
       "options": [
         "raw-mcq-16",
+        "raw-mcq-22",
         "raw-mcq-15",
-        "raw-mcq-17",
-        "raw-mcq-14",
-        "raw-mcq-18",
-        "raw-mcq-13"
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「未經大量加工或修飾，因此顯得粗獷、直接而真實的」。",
       "sentenceIndex": 41,
@@ -1596,12 +1454,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-16": "本句指「未經大量加工或修飾，因此顯得粗獷、直接而真實的」。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-14": "「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。"
+        "raw-mcq-16": "本句的「raw」指「未經大量加工或修飾，因此顯得粗獷、直接而真實的」。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-16"
     },
@@ -1614,10 +1470,8 @@ export default {
       "options": [
         "raw-mcq-16",
         "raw-mcq-15",
-        "raw-mcq-17",
-        "raw-mcq-14",
-        "raw-mcq-18",
-        "raw-mcq-13"
+        "raw-mcq-22",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「未經大量加工或修飾，因此顯得粗獷、直接而真實的」。",
       "sentenceIndex": 42,
@@ -1626,12 +1480,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-16": "本句指「未經大量加工或修飾，因此顯得粗獷、直接而真實的」。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-14": "「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-13": "「因情緒傷痛尚未恢復而非常敏感、一提起便感到痛苦的」與本句語境不同。"
+        "raw-mcq-16": "本句的「raw」指「未經大量加工或修飾，因此顯得粗獷、直接而真實的」。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-16"
     },
@@ -1643,11 +1495,9 @@ export default {
       "masked": "The documentary gives a ____ account of life after the disaster.",
       "options": [
         "raw-mcq-17",
-        "raw-mcq-16",
-        "raw-mcq-18",
-        "raw-mcq-15",
+        "raw-mcq-22",
         "raw-mcq-19",
-        "raw-mcq-14"
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「沒有過度美化、過濾或包裝的直接描述」。",
       "sentenceIndex": 43,
@@ -1656,12 +1506,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-17": "本句指「沒有過度美化、過濾或包裝的直接描述」。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-14": "「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」與本句語境不同。"
+        "raw-mcq-17": "本句的「raw」指「沒有過度美化、過濾或包裝的直接描述」。",
+        "raw-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-17"
     },
@@ -1673,11 +1521,9 @@ export default {
       "masked": "The book offers a ____ description of his experiences.",
       "options": [
         "raw-mcq-17",
-        "raw-mcq-16",
         "raw-mcq-18",
         "raw-mcq-15",
-        "raw-mcq-19",
-        "raw-mcq-14"
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw」指「沒有過度美化、過濾或包裝的直接描述」。",
       "sentenceIndex": 44,
@@ -1686,12 +1532,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-17": "本句指「沒有過度美化、過濾或包裝的直接描述」。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-14": "「缺乏訓練、實戰或經驗，因此仍顯生嫩的新人」與本句語境不同。"
+        "raw-mcq-17": "本句的「raw」指「沒有過度美化、過濾或包裝的直接描述」。",
+        "raw-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-17"
     },
@@ -1704,10 +1548,8 @@ export default {
       "options": [
         "raw-mcq-18",
         "raw-mcq-17",
-        "raw-mcq-19",
-        "raw-mcq-16",
-        "raw-mcq-20",
-        "raw-mcq-15"
+        "raw-mcq-21",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw sewage」指「尚未經污水處理程序處理的污水」。",
       "sentenceIndex": 45,
@@ -1716,12 +1558,10 @@ export default {
         "raw sewage"
       ],
       "optionReasons": {
-        "raw-mcq-18": "本句指「尚未經污水處理程序處理的污水」。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。"
+        "raw-mcq-18": "本句的「raw sewage」指「尚未經污水處理程序處理的污水」。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-18"
     },
@@ -1733,11 +1573,9 @@ export default {
       "masked": "____ sewage must not be discharged into the sea.",
       "options": [
         "raw-mcq-18",
-        "raw-mcq-17",
-        "raw-mcq-19",
-        "raw-mcq-16",
+        "raw-mcq-10",
         "raw-mcq-20",
-        "raw-mcq-15"
+        "raw-mcq-17"
       ],
       "explanation": "本句的「Raw」指「尚未經污水處理程序處理的污水」。",
       "sentenceIndex": 46,
@@ -1746,12 +1584,10 @@ export default {
         "Raw"
       ],
       "optionReasons": {
-        "raw-mcq-18": "本句指「尚未經污水處理程序處理的污水」。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-15": "「寒冷、潮濕而令人感到刺骨難受的」與本句語境不同。"
+        "raw-mcq-18": "本句的「Raw」指「尚未經污水處理程序處理的污水」。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-18"
     },
@@ -1763,11 +1599,9 @@ export default {
       "masked": "The cheese is made from ____.",
       "options": [
         "raw-mcq-19",
-        "raw-mcq-18",
-        "raw-mcq-20",
         "raw-mcq-17",
-        "raw-mcq-21",
-        "raw-mcq-16"
+        "raw-mcq-20",
+        "raw-mcq-10"
       ],
       "explanation": "本句的「raw milk」指「尚未經巴士德消毒等熱處理的乳品」。",
       "sentenceIndex": 47,
@@ -1776,12 +1610,10 @@ export default {
         "raw milk"
       ],
       "optionReasons": {
-        "raw-mcq-19": "本句指「尚未經巴士德消毒等熱處理的乳品」。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-21": "「容易引起痛苦、憤怒或強烈情緒的敏感問題」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。"
+        "raw-mcq-19": "本句的「raw milk」指「尚未經巴士德消毒等熱處理的乳品」。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-19"
     },
@@ -1793,11 +1625,9 @@ export default {
       "masked": "Rules concerning ____ milk vary by jurisdiction.",
       "options": [
         "raw-mcq-19",
-        "raw-mcq-18",
-        "raw-mcq-20",
-        "raw-mcq-17",
         "raw-mcq-21",
-        "raw-mcq-16"
+        "raw-mcq-20",
+        "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「尚未經巴士德消毒等熱處理的乳品」。",
       "sentenceIndex": 48,
@@ -1806,12 +1636,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-19": "本句指「尚未經巴士德消毒等熱處理的乳品」。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。",
-        "raw-mcq-21": "「容易引起痛苦、憤怒或強烈情緒的敏感問題」與本句語境不同。",
-        "raw-mcq-16": "「未經大量加工或修飾，因此顯得粗獷、直接而真實的」與本句語境不同。"
+        "raw-mcq-19": "本句的「raw」指「尚未經巴士德消毒等熱處理的乳品」。",
+        "raw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-19"
     },
@@ -1823,10 +1651,8 @@ export default {
       "masked": "The workers felt they had received a ____.",
       "options": [
         "raw-mcq-20",
-        "raw-mcq-19",
-        "raw-mcq-21",
-        "raw-mcq-18",
-        "raw-mcq-22",
+        "raw-mcq-10",
+        "raw-mcq-06",
         "raw-mcq-17"
       ],
       "explanation": "本句的「raw deal」指「明顯不公平、令某人吃虧的待遇」。",
@@ -1836,12 +1662,10 @@ export default {
         "raw deal"
       ],
       "optionReasons": {
-        "raw-mcq-20": "本句指「明顯不公平、令某人吃虧的待遇」。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-21": "「容易引起痛苦、憤怒或強烈情緒的敏感問題」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-22": "「提到某個非常敏感、會立即引起強烈情緒的痛處」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。"
+        "raw-mcq-20": "本句的「raw deal」指「明顯不公平、令某人吃虧的待遇」。",
+        "raw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-20"
     },
@@ -1853,10 +1677,8 @@ export default {
       "masked": "Small businesses sometimes get a ____ deal under the system.",
       "options": [
         "raw-mcq-20",
-        "raw-mcq-19",
+        "raw-mcq-09",
         "raw-mcq-21",
-        "raw-mcq-18",
-        "raw-mcq-22",
         "raw-mcq-17"
       ],
       "explanation": "本句的「raw」指「明顯不公平、令某人吃虧的待遇」。",
@@ -1866,12 +1688,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-20": "本句指「明顯不公平、令某人吃虧的待遇」。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-21": "「容易引起痛苦、憤怒或強烈情緒的敏感問題」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。",
-        "raw-mcq-22": "「提到某個非常敏感、會立即引起強烈情緒的痛處」與本句語境不同。",
-        "raw-mcq-17": "「沒有過度美化、過濾或包裝的直接描述」與本句語境不同。"
+        "raw-mcq-20": "本句的「raw」指「明顯不公平、令某人吃虧的待遇」。",
+        "raw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-20"
     },
@@ -1883,11 +1703,9 @@ export default {
       "masked": "His comment ____.",
       "options": [
         "raw-mcq-22",
-        "raw-mcq-21",
-        "raw-mcq-23",
+        "raw-mcq-16",
         "raw-mcq-20",
-        "raw-mcq-19",
-        "raw-mcq-18"
+        "raw-mcq-15"
       ],
       "explanation": "本句的「touched a raw nerve」指「提到某個非常敏感、會立即引起強烈情緒的痛處」。",
       "sentenceIndex": 51,
@@ -1896,12 +1714,10 @@ export default {
         "touched a raw nerve"
       ],
       "optionReasons": {
-        "raw-mcq-22": "本句指「提到某個非常敏感、會立即引起強烈情緒的痛處」。",
-        "raw-mcq-21": "「容易引起痛苦、憤怒或強烈情緒的敏感問題」與本句語境不同。",
-        "raw-mcq-23": "「未經處理、未平復、未精緻化或高度敏感的狀態／特質」與本句語境不同。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。"
+        "raw-mcq-22": "本句的「touched a raw nerve」指「提到某個非常敏感、會立即引起強烈情緒的痛處」。",
+        "raw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-22"
     },
@@ -1913,11 +1729,9 @@ export default {
       "masked": "The discussion touched a ____ nerve among former athletes.",
       "options": [
         "raw-mcq-22",
-        "raw-mcq-21",
-        "raw-mcq-23",
+        "raw-mcq-16",
         "raw-mcq-20",
-        "raw-mcq-19",
-        "raw-mcq-18"
+        "raw-mcq-15"
       ],
       "explanation": "本句的「raw」指「提到某個非常敏感、會立即引起強烈情緒的痛處」。",
       "sentenceIndex": 52,
@@ -1926,12 +1740,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-22": "本句指「提到某個非常敏感、會立即引起強烈情緒的痛處」。",
-        "raw-mcq-21": "「容易引起痛苦、憤怒或強烈情緒的敏感問題」與本句語境不同。",
-        "raw-mcq-23": "「未經處理、未平復、未精緻化或高度敏感的狀態／特質」與本句語境不同。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。"
+        "raw-mcq-22": "本句的「raw」指「提到某個非常敏感、會立即引起強烈情緒的痛處」。",
+        "raw-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-22"
     },
@@ -1943,11 +1755,9 @@ export default {
       "masked": "The issue remains a ____ within the organisation.",
       "options": [
         "raw-mcq-21",
-        "raw-mcq-20",
-        "raw-mcq-22",
         "raw-mcq-19",
-        "raw-mcq-23",
-        "raw-mcq-18"
+        "raw-mcq-14",
+        "raw-mcq-20"
       ],
       "explanation": "本句的「raw nerve」指「容易引起痛苦、憤怒或強烈情緒的敏感問題」。",
       "sentenceIndex": 53,
@@ -1956,12 +1766,10 @@ export default {
         "raw nerve"
       ],
       "optionReasons": {
-        "raw-mcq-21": "本句指「容易引起痛苦、憤怒或強烈情緒的敏感問題」。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-22": "「提到某個非常敏感、會立即引起強烈情緒的痛處」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-23": "「未經處理、未平復、未精緻化或高度敏感的狀態／特質」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。"
+        "raw-mcq-21": "本句的「raw nerve」指「容易引起痛苦、憤怒或強烈情緒的敏感問題」。",
+        "raw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-21"
     },
@@ -1973,11 +1781,9 @@ export default {
       "masked": "Mentioning the failed project hit a ____ nerve.",
       "options": [
         "raw-mcq-21",
-        "raw-mcq-20",
-        "raw-mcq-22",
         "raw-mcq-19",
-        "raw-mcq-23",
-        "raw-mcq-18"
+        "raw-mcq-20",
+        "raw-mcq-14"
       ],
       "explanation": "本句的「raw」指「容易引起痛苦、憤怒或強烈情緒的敏感問題」。",
       "sentenceIndex": 54,
@@ -1986,12 +1792,10 @@ export default {
         "raw"
       ],
       "optionReasons": {
-        "raw-mcq-21": "本句指「容易引起痛苦、憤怒或強烈情緒的敏感問題」。",
-        "raw-mcq-20": "「明顯不公平、令某人吃虧的待遇」與本句語境不同。",
-        "raw-mcq-22": "「提到某個非常敏感、會立即引起強烈情緒的痛處」與本句語境不同。",
-        "raw-mcq-19": "「尚未經巴士德消毒等熱處理的乳品」與本句語境不同。",
-        "raw-mcq-23": "「未經處理、未平復、未精緻化或高度敏感的狀態／特質」與本句語境不同。",
-        "raw-mcq-18": "「尚未經污水處理程序處理的污水」與本句語境不同。"
+        "raw-mcq-21": "本句的「raw」指「容易引起痛苦、憤怒或強烈情緒的敏感問題」。",
+        "raw-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "raw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "raw-mcq-21"
     }
@@ -2003,5 +1807,7 @@ export default {
     "sha256": "3935928c076f8e7b031a1d881eb42465edbfe163492f7e94d1f737d51f0b6f5e",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

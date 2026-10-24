@@ -545,7 +545,7 @@ export default {
     },
     {
       "id": "twist-mcq-26",
-      "title": "表示轉折；反轉；意外發展",
+      "title": "轉折；反轉；意外發展",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示轉折；反轉；意外發展",
@@ -567,7 +567,7 @@ export default {
     },
     {
       "id": "twist-mcq-27",
-      "title": "表示扭轉的；蜿蜒的",
+      "title": "扭轉的；蜿蜒的",
       "form": "25. twisting",
       "en": "25. twisting",
       "zh": "表示扭轉的；蜿蜒的",
@@ -589,7 +589,7 @@ export default {
     },
     {
       "id": "twist-mcq-28",
-      "title": "表示把某人玩弄於股掌之間",
+      "title": "把某人玩弄於股掌之間",
       "form": "29. twist someone around your little finger",
       "en": "29. twist someone around your little finger",
       "zh": "表示把某人玩弄於股掌之間",
@@ -619,11 +619,9 @@ export default {
       "masked": "The film has several unexpected ____.",
       "options": [
         "twist-mcq-26",
-        "twist-mcq-25",
-        "twist-mcq-27",
-        "twist-mcq-24",
-        "twist-mcq-28",
-        "twist-mcq-23"
+        "twist-mcq-03",
+        "twist-mcq-02",
+        "twist-mcq-16"
       ],
       "explanation": "本句的「twists」指「表示轉折；反轉；意外發展」。",
       "sentenceIndex": 0,
@@ -632,12 +630,10 @@ export default {
         "twists"
       ],
       "optionReasons": {
-        "twist-mcq-26": "本句指「表示轉折；反轉；意外發展」。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-27": "「表示扭轉的；蜿蜒的」是「25. twisting」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-28": "「表示把某人玩弄於股掌之間」是「29. twist someone around your little finger」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。"
+        "twist-mcq-26": "本句的「twists」指「表示轉折；反轉；意外發展」。",
+        "twist-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-26"
     },
@@ -649,11 +645,9 @@ export default {
       "masked": "I liked the story even though it did not rely on shocking ____.",
       "options": [
         "twist-mcq-26",
-        "twist-mcq-25",
-        "twist-mcq-27",
-        "twist-mcq-24",
+        "twist-mcq-13",
         "twist-mcq-28",
-        "twist-mcq-23"
+        "twist-mcq-16"
       ],
       "explanation": "本句的「twists」指「表示轉折；反轉；意外發展」。",
       "sentenceIndex": 1,
@@ -662,12 +656,10 @@ export default {
         "twists"
       ],
       "optionReasons": {
-        "twist-mcq-26": "本句指「表示轉折；反轉；意外發展」。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-27": "「表示扭轉的；蜿蜒的」是「25. twisting」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-28": "「表示把某人玩弄於股掌之間」是「29. twist someone around your little finger」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。"
+        "twist-mcq-26": "本句的「twists」指「表示轉折；反轉；意外發展」。",
+        "twist-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-26"
     },
@@ -679,11 +671,9 @@ export default {
       "masked": "____ to open the jar.",
       "options": [
         "twist-mcq-01",
-        "twist-mcq-02",
-        "twist-mcq-03",
-        "twist-mcq-04",
-        "twist-mcq-05",
-        "twist-mcq-06"
+        "twist-mcq-10",
+        "twist-mcq-18",
+        "twist-mcq-14"
       ],
       "explanation": "本句的「Twist the lid」指「以旋轉方式扭、轉、擰某物」。",
       "sentenceIndex": 2,
@@ -692,12 +682,10 @@ export default {
         "Twist the lid"
       ],
       "optionReasons": {
-        "twist-mcq-01": "本句指「以旋轉方式扭、轉、擰某物」。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-01": "本句的「Twist the lid」指「以旋轉方式扭、轉、擰某物」。",
+        "twist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-01"
     },
@@ -709,11 +697,9 @@ export default {
       "masked": "She ____ slowly.",
       "options": [
         "twist-mcq-01",
-        "twist-mcq-02",
-        "twist-mcq-03",
-        "twist-mcq-04",
-        "twist-mcq-05",
-        "twist-mcq-06"
+        "twist-mcq-09",
+        "twist-mcq-20",
+        "twist-mcq-21"
       ],
       "explanation": "本句的「twisted the handle」指「以旋轉方式扭、轉、擰某物」。",
       "sentenceIndex": 3,
@@ -722,12 +708,10 @@ export default {
         "twisted the handle"
       ],
       "optionReasons": {
-        "twist-mcq-01": "本句指「以旋轉方式扭、轉、擰某物」。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-01": "本句的「twisted the handle」指「以旋轉方式扭、轉、擰某物」。",
+        "twist-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-01"
     },
@@ -739,11 +723,9 @@ export default {
       "masked": "____.",
       "options": [
         "twist-mcq-02",
-        "twist-mcq-01",
-        "twist-mcq-03",
-        "twist-mcq-04",
-        "twist-mcq-05",
-        "twist-mcq-06"
+        "twist-mcq-17",
+        "twist-mcq-24",
+        "twist-mcq-21"
       ],
       "explanation": "本句的「Twist the wires together」指「把線、繩等互相纏繞／扭在一起」。",
       "sentenceIndex": 4,
@@ -752,12 +734,10 @@ export default {
         "Twist the wires together"
       ],
       "optionReasons": {
-        "twist-mcq-02": "本句指「把線、繩等互相纏繞／扭在一起」。",
-        "twist-mcq-01": "「以旋轉方式扭、轉、擰某物」是「twist — rotate」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-02": "本句的「Twist the wires together」指「把線、繩等互相纏繞／扭在一起」。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-02"
     },
@@ -769,11 +749,9 @@ export default {
       "masked": "She ____ into a rope-like shape.",
       "options": [
         "twist-mcq-02",
-        "twist-mcq-01",
-        "twist-mcq-03",
-        "twist-mcq-04",
-        "twist-mcq-05",
-        "twist-mcq-06"
+        "twist-mcq-24",
+        "twist-mcq-07",
+        "twist-mcq-10"
       ],
       "explanation": "本句的「twisted the fabric」指「把線、繩等互相纏繞／扭在一起」。",
       "sentenceIndex": 5,
@@ -782,12 +760,10 @@ export default {
         "twisted the fabric"
       ],
       "optionReasons": {
-        "twist-mcq-02": "本句指「把線、繩等互相纏繞／扭在一起」。",
-        "twist-mcq-01": "「以旋轉方式扭、轉、擰某物」是「twist — rotate」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-02": "本句的「twisted the fabric」指「把線、繩等互相纏繞／扭在一起」。",
+        "twist-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-02"
     },
@@ -799,11 +775,9 @@ export default {
       "masked": "The metal had ____ in the heat.",
       "options": [
         "twist-mcq-03",
-        "twist-mcq-02",
-        "twist-mcq-04",
-        "twist-mcq-01",
-        "twist-mcq-05",
-        "twist-mcq-06"
+        "twist-mcq-21",
+        "twist-mcq-26",
+        "twist-mcq-20"
       ],
       "explanation": "本句的「twisted」指「使物件變形、扭曲或彎曲」。",
       "sentenceIndex": 6,
@@ -812,12 +786,10 @@ export default {
         "twisted"
       ],
       "optionReasons": {
-        "twist-mcq-03": "本句指「使物件變形、扭曲或彎曲」。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-01": "「以旋轉方式扭、轉、擰某物」是「twist — rotate」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-03": "本句的「twisted」指「使物件變形、扭曲或彎曲」。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-03"
     },
@@ -829,11 +801,9 @@ export default {
       "masked": "The branch was ____ by the wind.",
       "options": [
         "twist-mcq-03",
-        "twist-mcq-02",
-        "twist-mcq-04",
-        "twist-mcq-01",
-        "twist-mcq-05",
-        "twist-mcq-06"
+        "twist-mcq-06",
+        "twist-mcq-21",
+        "twist-mcq-20"
       ],
       "explanation": "本句的「twisted」指「使物件變形、扭曲或彎曲」。",
       "sentenceIndex": 7,
@@ -842,12 +812,10 @@ export default {
         "twisted"
       ],
       "optionReasons": {
-        "twist-mcq-03": "本句指「使物件變形、扭曲或彎曲」。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-01": "「以旋轉方式扭、轉、擰某物」是「twist — rotate」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-03": "本句的「twisted」指「使物件變形、扭曲或彎曲」。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-03"
     },
@@ -859,11 +827,9 @@ export default {
       "masked": "The road followed a ____ path through the hills.",
       "options": [
         "twist-mcq-04",
-        "twist-mcq-03",
-        "twist-mcq-05",
+        "twist-mcq-28",
         "twist-mcq-02",
-        "twist-mcq-06",
-        "twist-mcq-01"
+        "twist-mcq-14"
       ],
       "explanation": "本句的「twisted」指「因旋轉／受力而變形、扭曲的」。",
       "sentenceIndex": 8,
@@ -872,12 +838,10 @@ export default {
         "twisted"
       ],
       "optionReasons": {
-        "twist-mcq-04": "本句指「因旋轉／受力而變形、扭曲的」。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-01": "「以旋轉方式扭、轉、擰某物」是「twist — rotate」的用法，與本句語境不同。"
+        "twist-mcq-04": "本句的「twisted」指「因旋轉／受力而變形、扭曲的」。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-04"
     },
@@ -889,11 +853,9 @@ export default {
       "masked": "The frame was badly ____.",
       "options": [
         "twist-mcq-04",
-        "twist-mcq-03",
-        "twist-mcq-05",
+        "twist-mcq-28",
         "twist-mcq-02",
-        "twist-mcq-06",
-        "twist-mcq-01"
+        "twist-mcq-26"
       ],
       "explanation": "本句的「twisted」指「因旋轉／受力而變形、扭曲的」。",
       "sentenceIndex": 9,
@@ -902,12 +864,10 @@ export default {
         "twisted"
       ],
       "optionReasons": {
-        "twist-mcq-04": "本句指「因旋轉／受力而變形、扭曲的」。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-01": "「以旋轉方式扭、轉、擰某物」是「twist — rotate」的用法，與本句語境不同。"
+        "twist-mcq-04": "本句的「twisted」指「因旋轉／受力而變形、扭曲的」。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-04"
     },
@@ -919,10 +879,8 @@ export default {
       "masked": "The ending contains a major ____.",
       "options": [
         "twist-mcq-05",
-        "twist-mcq-04",
-        "twist-mcq-06",
-        "twist-mcq-03",
-        "twist-mcq-07",
+        "twist-mcq-13",
+        "twist-mcq-28",
         "twist-mcq-02"
       ],
       "explanation": "本句的「twist」指「故事中出乎意料、改變發展方向的轉折」。",
@@ -932,12 +890,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-05": "本句指「故事中出乎意料、改變發展方向的轉折」。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。"
+        "twist-mcq-05": "本句的「twist」指「故事中出乎意料、改變發展方向的轉折」。",
+        "twist-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-05"
     },
@@ -949,11 +905,9 @@ export default {
       "masked": "The final ____ changes how we understand the whole story.",
       "options": [
         "twist-mcq-05",
-        "twist-mcq-04",
-        "twist-mcq-06",
-        "twist-mcq-03",
-        "twist-mcq-07",
-        "twist-mcq-02"
+        "twist-mcq-02",
+        "twist-mcq-16",
+        "twist-mcq-22"
       ],
       "explanation": "本句的「twist」指「故事中出乎意料、改變發展方向的轉折」。",
       "sentenceIndex": 11,
@@ -962,12 +916,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-05": "本句指「故事中出乎意料、改變發展方向的轉折」。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-02": "「把線、繩等互相纏繞／扭在一起」是「twist together」的用法，與本句語境不同。"
+        "twist-mcq-05": "本句的「twist」指「故事中出乎意料、改變發展方向的轉折」。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-05"
     },
@@ -979,11 +931,9 @@ export default {
       "masked": "The ____ surprised everyone.",
       "options": [
         "twist-mcq-06",
-        "twist-mcq-05",
-        "twist-mcq-07",
-        "twist-mcq-04",
-        "twist-mcq-08",
-        "twist-mcq-03"
+        "twist-mcq-18",
+        "twist-mcq-22",
+        "twist-mcq-28"
       ],
       "explanation": "本句的「plot twist」指「劇情／情節反轉」。",
       "sentenceIndex": 12,
@@ -992,12 +942,10 @@ export default {
         "plot twist"
       ],
       "optionReasons": {
-        "twist-mcq-06": "本句指「劇情／情節反轉」。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。"
+        "twist-mcq-06": "本句的「plot twist」指「劇情／情節反轉」。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-06"
     },
@@ -1009,11 +957,9 @@ export default {
       "masked": "The film depends too heavily on its final ____.",
       "options": [
         "twist-mcq-06",
-        "twist-mcq-05",
-        "twist-mcq-07",
-        "twist-mcq-04",
-        "twist-mcq-08",
-        "twist-mcq-03"
+        "twist-mcq-21",
+        "twist-mcq-22",
+        "twist-mcq-14"
       ],
       "explanation": "本句的「plot twist」指「劇情／情節反轉」。",
       "sentenceIndex": 13,
@@ -1022,12 +968,10 @@ export default {
         "plot twist"
       ],
       "optionReasons": {
-        "twist-mcq-06": "本句指「劇情／情節反轉」。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-03": "「使物件變形、扭曲或彎曲」是「twist — distort shape」的用法，與本句語境不同。"
+        "twist-mcq-06": "本句的「plot twist」指「劇情／情節反轉」。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-06"
     },
@@ -1039,11 +983,9 @@ export default {
       "masked": "The case took an unexpected ____.",
       "options": [
         "twist-mcq-07",
-        "twist-mcq-06",
-        "twist-mcq-08",
-        "twist-mcq-05",
-        "twist-mcq-09",
-        "twist-mcq-04"
+        "twist-mcq-02",
+        "twist-mcq-28",
+        "twist-mcq-16"
       ],
       "explanation": "本句的「twist」指「現實情況中出乎意料的變化／轉折」。",
       "sentenceIndex": 14,
@@ -1052,12 +994,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-07": "本句指「現實情況中出乎意料的變化／轉折」。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。"
+        "twist-mcq-07": "本句的「twist」指「現實情況中出乎意料的變化／轉折」。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-07"
     },
@@ -1069,11 +1009,9 @@ export default {
       "masked": "In a strange ____, the two rivals ended up working together.",
       "options": [
         "twist-mcq-07",
-        "twist-mcq-06",
-        "twist-mcq-08",
-        "twist-mcq-05",
-        "twist-mcq-09",
-        "twist-mcq-04"
+        "twist-mcq-28",
+        "twist-mcq-19",
+        "twist-mcq-02"
       ],
       "explanation": "本句的「twist」指「現實情況中出乎意料的變化／轉折」。",
       "sentenceIndex": 15,
@@ -1082,12 +1020,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-07": "本句指「現實情況中出乎意料的變化／轉折」。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-04": "「因旋轉／受力而變形、扭曲的」是「twisted — physical」的用法，與本句語境不同。"
+        "twist-mcq-07": "本句的「twist」指「現實情況中出乎意料的變化／轉折」。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-07"
     },
@@ -1099,11 +1035,9 @@ export default {
       "masked": "By a strange ____, they met again years later.",
       "options": [
         "twist-mcq-08",
-        "twist-mcq-07",
-        "twist-mcq-09",
-        "twist-mcq-06",
-        "twist-mcq-10",
-        "twist-mcq-05"
+        "twist-mcq-16",
+        "twist-mcq-28",
+        "twist-mcq-02"
       ],
       "explanation": "本句的「twist of fate」指「意外改變人生走向的命運轉折」。",
       "sentenceIndex": 16,
@@ -1112,12 +1046,10 @@ export default {
         "twist of fate"
       ],
       "optionReasons": {
-        "twist-mcq-08": "本句指「意外改變人生走向的命運轉折」。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。"
+        "twist-mcq-08": "本句的「twist of fate」指「意外改變人生走向的命運轉折」。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-08"
     },
@@ -1129,11 +1061,9 @@ export default {
       "masked": "A sudden ____ changed everything.",
       "options": [
         "twist-mcq-08",
-        "twist-mcq-07",
-        "twist-mcq-09",
-        "twist-mcq-06",
-        "twist-mcq-10",
-        "twist-mcq-05"
+        "twist-mcq-16",
+        "twist-mcq-02",
+        "twist-mcq-28"
       ],
       "explanation": "本句的「twist of fate」指「意外改變人生走向的命運轉折」。",
       "sentenceIndex": 17,
@@ -1142,12 +1072,10 @@ export default {
         "twist of fate"
       ],
       "optionReasons": {
-        "twist-mcq-08": "本句指「意外改變人生走向的命運轉折」。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-05": "「故事中出乎意料、改變發展方向的轉折」是「twist — story development」的用法，與本句語境不同。"
+        "twist-mcq-08": "本句的「twist of fate」指「意外改變人生走向的命運轉折」。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-08"
     },
@@ -1159,11 +1087,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "twist-mcq-09",
-        "twist-mcq-08",
-        "twist-mcq-10",
-        "twist-mcq-07",
-        "twist-mcq-11",
-        "twist-mcq-06"
+        "twist-mcq-02",
+        "twist-mcq-27",
+        "twist-mcq-16"
       ],
       "explanation": "本句的「twist my words」指「歪曲、曲解原本的意思或事實」。",
       "sentenceIndex": 18,
@@ -1172,12 +1098,10 @@ export default {
         "twist my words"
       ],
       "optionReasons": {
-        "twist-mcq-09": "本句指「歪曲、曲解原本的意思或事實」。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-09": "本句的「twist my words」指「歪曲、曲解原本的意思或事實」。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-09"
     },
@@ -1189,11 +1113,9 @@ export default {
       "masked": "The report ____.",
       "options": [
         "twist-mcq-09",
-        "twist-mcq-08",
-        "twist-mcq-10",
-        "twist-mcq-07",
-        "twist-mcq-11",
-        "twist-mcq-06"
+        "twist-mcq-20",
+        "twist-mcq-16",
+        "twist-mcq-19"
       ],
       "explanation": "本句的「twisted the facts」指「歪曲、曲解原本的意思或事實」。",
       "sentenceIndex": 19,
@@ -1202,12 +1124,10 @@ export default {
         "twisted the facts"
       ],
       "optionReasons": {
-        "twist-mcq-09": "本句指「歪曲、曲解原本的意思或事實」。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-06": "「劇情／情節反轉」是「plot twist」的用法，與本句語境不同。"
+        "twist-mcq-09": "本句的「twisted the facts」指「歪曲、曲解原本的意思或事實」。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-09"
     },
@@ -1219,11 +1139,9 @@ export default {
       "masked": "He accused the interviewer of ____.",
       "options": [
         "twist-mcq-10",
-        "twist-mcq-09",
-        "twist-mcq-11",
-        "twist-mcq-08",
-        "twist-mcq-12",
-        "twist-mcq-07"
+        "twist-mcq-01",
+        "twist-mcq-06",
+        "twist-mcq-16"
       ],
       "explanation": "本句的「twisting his words」指「故意把某人的話曲解成另一種意思」。",
       "sentenceIndex": 20,
@@ -1232,12 +1150,10 @@ export default {
         "twisting his words"
       ],
       "optionReasons": {
-        "twist-mcq-10": "本句指「故意把某人的話曲解成另一種意思」。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。"
+        "twist-mcq-10": "本句的「twisting his words」指「故意把某人的話曲解成另一種意思」。",
+        "twist-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-10"
     },
@@ -1249,11 +1165,9 @@ export default {
       "masked": "She felt her comments had been ____.",
       "options": [
         "twist-mcq-10",
-        "twist-mcq-09",
         "twist-mcq-11",
-        "twist-mcq-08",
-        "twist-mcq-12",
-        "twist-mcq-07"
+        "twist-mcq-19",
+        "twist-mcq-02"
       ],
       "explanation": "本句的「twisted」指「故意把某人的話曲解成另一種意思」。",
       "sentenceIndex": 21,
@@ -1262,12 +1176,10 @@ export default {
         "twisted"
       ],
       "optionReasons": {
-        "twist-mcq-10": "本句指「故意把某人的話曲解成另一種意思」。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-07": "「現實情況中出乎意料的變化／轉折」是「twist — real-life development」的用法，與本句語境不同。"
+        "twist-mcq-10": "本句的「twisted」指「故意把某人的話曲解成另一種意思」。",
+        "twist-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-10"
     },
@@ -1280,10 +1192,8 @@ export default {
       "options": [
         "twist-mcq-11",
         "twist-mcq-10",
-        "twist-mcq-12",
-        "twist-mcq-09",
-        "twist-mcq-13",
-        "twist-mcq-08"
+        "twist-mcq-14",
+        "twist-mcq-17"
       ],
       "explanation": "本句的「twisted my ankle」指「因突然扭轉關節而扭傷」。",
       "sentenceIndex": 22,
@@ -1292,12 +1202,10 @@ export default {
         "twisted my ankle"
       ],
       "optionReasons": {
-        "twist-mcq-11": "本句指「因突然扭轉關節而扭傷」。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。"
+        "twist-mcq-11": "本句的「twisted my ankle」指「因突然扭轉關節而扭傷」。",
+        "twist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-11"
     },
@@ -1309,11 +1217,9 @@ export default {
       "masked": "She ____ on the stairs.",
       "options": [
         "twist-mcq-11",
-        "twist-mcq-10",
-        "twist-mcq-12",
-        "twist-mcq-09",
-        "twist-mcq-13",
-        "twist-mcq-08"
+        "twist-mcq-17",
+        "twist-mcq-28",
+        "twist-mcq-14"
       ],
       "explanation": "本句的「twisted her knee」指「因突然扭轉關節而扭傷」。",
       "sentenceIndex": 23,
@@ -1322,12 +1228,10 @@ export default {
         "twisted her knee"
       ],
       "optionReasons": {
-        "twist-mcq-11": "本句指「因突然扭轉關節而扭傷」。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。"
+        "twist-mcq-11": "本句的「twisted her knee」指「因突然扭轉關節而扭傷」。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-11"
     },
@@ -1339,11 +1243,9 @@ export default {
       "masked": "He rested because of a ____.",
       "options": [
         "twist-mcq-11",
-        "twist-mcq-10",
-        "twist-mcq-12",
-        "twist-mcq-09",
-        "twist-mcq-13",
-        "twist-mcq-08"
+        "twist-mcq-17",
+        "twist-mcq-20",
+        "twist-mcq-09"
       ],
       "explanation": "本句的「twisted ankle」指「因突然扭轉關節而扭傷」。",
       "sentenceIndex": 24,
@@ -1352,12 +1254,10 @@ export default {
         "twisted ankle"
       ],
       "optionReasons": {
-        "twist-mcq-11": "本句指「因突然扭轉關節而扭傷」。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。"
+        "twist-mcq-11": "本句的「twisted ankle」指「因突然扭轉關節而扭傷」。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-11"
     },
@@ -1369,11 +1269,9 @@ export default {
       "masked": "A ____ can become swollen quickly.",
       "options": [
         "twist-mcq-11",
-        "twist-mcq-10",
-        "twist-mcq-12",
-        "twist-mcq-09",
-        "twist-mcq-13",
-        "twist-mcq-08"
+        "twist-mcq-19",
+        "twist-mcq-18",
+        "twist-mcq-14"
       ],
       "explanation": "本句的「twisted ankle」指「因突然扭轉關節而扭傷」。",
       "sentenceIndex": 25,
@@ -1382,12 +1280,10 @@ export default {
         "twisted ankle"
       ],
       "optionReasons": {
-        "twist-mcq-11": "本句指「因突然扭轉關節而扭傷」。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-08": "「意外改變人生走向的命運轉折」是「twist of fate」的用法，與本句語境不同。"
+        "twist-mcq-11": "本句的「twisted ankle」指「因突然扭轉關節而扭傷」。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-11"
     },
@@ -1399,11 +1295,9 @@ export default {
       "masked": "She ____ to look behind her.",
       "options": [
         "twist-mcq-12",
-        "twist-mcq-11",
-        "twist-mcq-13",
+        "twist-mcq-19",
         "twist-mcq-10",
-        "twist-mcq-14",
-        "twist-mcq-09"
+        "twist-mcq-17"
       ],
       "explanation": "本句的「twisted around」指「扭動身體／轉身」。",
       "sentenceIndex": 26,
@@ -1412,12 +1306,10 @@ export default {
         "twisted around"
       ],
       "optionReasons": {
-        "twist-mcq-12": "本句指「扭動身體／轉身」。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。"
+        "twist-mcq-12": "本句的「twisted around」指「扭動身體／轉身」。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-12"
     },
@@ -1429,11 +1321,9 @@ export default {
       "masked": "He ____ to avoid the ball.",
       "options": [
         "twist-mcq-12",
-        "twist-mcq-11",
-        "twist-mcq-13",
-        "twist-mcq-10",
+        "twist-mcq-18",
         "twist-mcq-14",
-        "twist-mcq-09"
+        "twist-mcq-10"
       ],
       "explanation": "本句的「twisted his body」指「扭動身體／轉身」。",
       "sentenceIndex": 27,
@@ -1442,12 +1332,10 @@ export default {
         "twisted his body"
       ],
       "optionReasons": {
-        "twist-mcq-12": "本句指「扭動身體／轉身」。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-09": "「歪曲、曲解原本的意思或事實」是「twist — distort facts/words」的用法，與本句語境不同。"
+        "twist-mcq-12": "本句的「twisted his body」指「扭動身體／轉身」。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-12"
     },
@@ -1459,11 +1347,9 @@ export default {
       "masked": "His face ____.",
       "options": [
         "twist-mcq-13",
-        "twist-mcq-12",
-        "twist-mcq-14",
-        "twist-mcq-11",
-        "twist-mcq-15",
-        "twist-mcq-10"
+        "twist-mcq-19",
+        "twist-mcq-26",
+        "twist-mcq-20"
       ],
       "explanation": "本句的「twisted in pain」指「臉因疼痛等而扭曲」。",
       "sentenceIndex": 28,
@@ -1472,12 +1358,10 @@ export default {
         "twisted in pain"
       ],
       "optionReasons": {
-        "twist-mcq-13": "本句指「臉因疼痛等而扭曲」。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。"
+        "twist-mcq-13": "本句的「twisted in pain」指「臉因疼痛等而扭曲」。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-13"
     },
@@ -1489,11 +1373,9 @@ export default {
       "masked": "Her mouth ____.",
       "options": [
         "twist-mcq-13",
-        "twist-mcq-12",
-        "twist-mcq-14",
-        "twist-mcq-11",
-        "twist-mcq-15",
-        "twist-mcq-10"
+        "twist-mcq-17",
+        "twist-mcq-19",
+        "twist-mcq-28"
       ],
       "explanation": "本句的「twisted into a smile」指「臉因疼痛等而扭曲」。",
       "sentenceIndex": 29,
@@ -1502,12 +1384,10 @@ export default {
         "twisted into a smile"
       ],
       "optionReasons": {
-        "twist-mcq-13": "本句指「臉因疼痛等而扭曲」。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-10": "「故意把某人的話曲解成另一種意思」是「twist someone’s words」的用法，與本句語境不同。"
+        "twist-mcq-13": "本句的「twisted into a smile」指「臉因疼痛等而扭曲」。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-13"
     },
@@ -1519,11 +1399,9 @@ export default {
       "masked": "The road ____.",
       "options": [
         "twist-mcq-14",
-        "twist-mcq-13",
-        "twist-mcq-15",
-        "twist-mcq-12",
-        "twist-mcq-16",
-        "twist-mcq-11"
+        "twist-mcq-02",
+        "twist-mcq-17",
+        "twist-mcq-28"
       ],
       "explanation": "本句的「twists through the mountains」指「道路／河流蜿蜒曲折」。",
       "sentenceIndex": 30,
@@ -1532,12 +1410,10 @@ export default {
         "twists through the mountains"
       ],
       "optionReasons": {
-        "twist-mcq-14": "本句指「道路／河流蜿蜒曲折」。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。"
+        "twist-mcq-14": "本句的「twists through the mountains」指「道路／河流蜿蜒曲折」。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-14"
     },
@@ -1549,11 +1425,9 @@ export default {
       "masked": "The river ____.",
       "options": [
         "twist-mcq-14",
-        "twist-mcq-13",
-        "twist-mcq-15",
-        "twist-mcq-12",
-        "twist-mcq-16",
-        "twist-mcq-11"
+        "twist-mcq-06",
+        "twist-mcq-28",
+        "twist-mcq-02"
       ],
       "explanation": "本句的「twisted across the valley」指「道路／河流蜿蜒曲折」。",
       "sentenceIndex": 31,
@@ -1562,12 +1436,10 @@ export default {
         "twisted across the valley"
       ],
       "optionReasons": {
-        "twist-mcq-14": "本句指「道路／河流蜿蜒曲折」。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-11": "「因突然扭轉關節而扭傷」是「twist an ankle/knee」的用法，與本句語境不同。"
+        "twist-mcq-14": "本句的「twisted across the valley」指「道路／河流蜿蜒曲折」。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-14"
     },
@@ -1579,11 +1451,9 @@ export default {
       "masked": "The road has several sharp ____.",
       "options": [
         "twist-mcq-15",
-        "twist-mcq-14",
         "twist-mcq-16",
-        "twist-mcq-13",
-        "twist-mcq-17",
-        "twist-mcq-12"
+        "twist-mcq-20",
+        "twist-mcq-21"
       ],
       "explanation": "本句的「twists」指「路線或形狀中的彎曲／轉彎」。",
       "sentenceIndex": 32,
@@ -1592,12 +1462,10 @@ export default {
         "twists"
       ],
       "optionReasons": {
-        "twist-mcq-15": "本句指「路線或形狀中的彎曲／轉彎」。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。"
+        "twist-mcq-15": "本句的「twists」指「路線或形狀中的彎曲／轉彎」。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-15"
     },
@@ -1609,11 +1477,9 @@ export default {
       "masked": "The rope had a strange ____ in it.",
       "options": [
         "twist-mcq-15",
-        "twist-mcq-14",
         "twist-mcq-16",
-        "twist-mcq-13",
-        "twist-mcq-17",
-        "twist-mcq-12"
+        "twist-mcq-28",
+        "twist-mcq-17"
       ],
       "explanation": "本句的「twist」指「路線或形狀中的彎曲／轉彎」。",
       "sentenceIndex": 33,
@@ -1622,12 +1488,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-15": "本句指「路線或形狀中的彎曲／轉彎」。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-12": "「扭動身體／轉身」是「twist — body movement」的用法，與本句語境不同。"
+        "twist-mcq-15": "本句的「twist」指「路線或形狀中的彎曲／轉彎」。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-15"
     },
@@ -1639,11 +1503,9 @@ export default {
       "masked": "They danced ____.",
       "options": [
         "twist-mcq-16",
-        "twist-mcq-15",
-        "twist-mcq-17",
-        "twist-mcq-14",
-        "twist-mcq-18",
-        "twist-mcq-13"
+        "twist-mcq-07",
+        "twist-mcq-06",
+        "twist-mcq-21"
       ],
       "explanation": "本句的「the Twist」指「以扭動身體為特色的扭扭舞」。",
       "sentenceIndex": 34,
@@ -1652,12 +1514,10 @@ export default {
         "the Twist"
       ],
       "optionReasons": {
-        "twist-mcq-16": "本句指「以扭動身體為特色的扭扭舞」。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。"
+        "twist-mcq-16": "本句的「the Twist」指「以扭動身體為特色的扭扭舞」。",
+        "twist-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-16"
     },
@@ -1669,11 +1529,9 @@ export default {
       "masked": "____ became extremely popular.",
       "options": [
         "twist-mcq-16",
-        "twist-mcq-15",
-        "twist-mcq-17",
-        "twist-mcq-14",
-        "twist-mcq-18",
-        "twist-mcq-13"
+        "twist-mcq-07",
+        "twist-mcq-06",
+        "twist-mcq-14"
       ],
       "explanation": "本句的「The Twist」指「以扭動身體為特色的扭扭舞」。",
       "sentenceIndex": 35,
@@ -1682,12 +1540,10 @@ export default {
         "The Twist"
       ],
       "optionReasons": {
-        "twist-mcq-16": "本句指「以扭動身體為特色的扭扭舞」。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-13": "「臉因疼痛等而扭曲」是「face twists in pain」的用法，與本句語境不同。"
+        "twist-mcq-16": "本句的「The Twist」指「以扭動身體為特色的扭扭舞」。",
+        "twist-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-16"
     },
@@ -1699,11 +1555,9 @@ export default {
       "masked": "The chef gave the traditional dish a modern ____.",
       "options": [
         "twist-mcq-17",
-        "twist-mcq-16",
-        "twist-mcq-18",
-        "twist-mcq-15",
-        "twist-mcq-19",
-        "twist-mcq-14"
+        "twist-mcq-27",
+        "twist-mcq-22",
+        "twist-mcq-15"
       ],
       "explanation": "本句的「twist」指「為熟悉事物加入的新變化／新意」。",
       "sentenceIndex": 36,
@@ -1712,12 +1566,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-17": "本句指「為熟悉事物加入的新變化／新意」。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。"
+        "twist-mcq-17": "本句的「twist」指「為熟悉事物加入的新變化／新意」。",
+        "twist-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-17"
     },
@@ -1729,11 +1581,9 @@ export default {
       "masked": "The story is a familiar idea with an unusual ____.",
       "options": [
         "twist-mcq-17",
-        "twist-mcq-16",
-        "twist-mcq-18",
-        "twist-mcq-15",
         "twist-mcq-19",
-        "twist-mcq-14"
+        "twist-mcq-14",
+        "twist-mcq-15"
       ],
       "explanation": "本句的「twist」指「為熟悉事物加入的新變化／新意」。",
       "sentenceIndex": 37,
@@ -1742,12 +1592,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-17": "本句指「為熟悉事物加入的新變化／新意」。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-14": "「道路／河流蜿蜒曲折」是「road/river twists」的用法，與本句語境不同。"
+        "twist-mcq-17": "本句的「twist」指「為熟悉事物加入的新變化／新意」。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-17"
     },
@@ -1759,11 +1607,9 @@ export default {
       "masked": "It is a classic recipe ____.",
       "options": [
         "twist-mcq-18",
-        "twist-mcq-17",
-        "twist-mcq-19",
-        "twist-mcq-16",
         "twist-mcq-20",
-        "twist-mcq-15"
+        "twist-mcq-06",
+        "twist-mcq-24"
       ],
       "explanation": "本句的「with a twist」指「在原本形式上加入意外或新穎變化」。",
       "sentenceIndex": 38,
@@ -1772,12 +1618,10 @@ export default {
         "with a twist"
       ],
       "optionReasons": {
-        "twist-mcq-18": "本句指「在原本形式上加入意外或新穎變化」。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。"
+        "twist-mcq-18": "本句的「with a twist」指「在原本形式上加入意外或新穎變化」。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-18"
     },
@@ -1789,11 +1633,9 @@ export default {
       "masked": "The film is a romance ____.",
       "options": [
         "twist-mcq-18",
-        "twist-mcq-17",
-        "twist-mcq-19",
-        "twist-mcq-16",
-        "twist-mcq-20",
-        "twist-mcq-15"
+        "twist-mcq-12",
+        "twist-mcq-22",
+        "twist-mcq-02"
       ],
       "explanation": "本句的「with a twist」指「在原本形式上加入意外或新穎變化」。",
       "sentenceIndex": 39,
@@ -1802,12 +1644,10 @@ export default {
         "with a twist"
       ],
       "optionReasons": {
-        "twist-mcq-18": "本句指「在原本形式上加入意外或新穎變化」。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-15": "「路線或形狀中的彎曲／轉彎」是「twist — bend/curve noun」的用法，與本句語境不同。"
+        "twist-mcq-18": "本句的「with a twist」指「在原本形式上加入意外或新穎變化」。",
+        "twist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-18"
     },
@@ -1819,11 +1659,9 @@ export default {
       "masked": "Garnish the drink with a lemon ____.",
       "options": [
         "twist-mcq-19",
-        "twist-mcq-18",
-        "twist-mcq-20",
-        "twist-mcq-17",
-        "twist-mcq-21",
-        "twist-mcq-16"
+        "twist-mcq-05",
+        "twist-mcq-02",
+        "twist-mcq-22"
       ],
       "explanation": "本句的「twist」指「飲品中用作裝飾的螺旋狀柑橘皮」。",
       "sentenceIndex": 40,
@@ -1832,12 +1670,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-19": "本句指「飲品中用作裝飾的螺旋狀柑橘皮」。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。"
+        "twist-mcq-19": "本句的「twist」指「飲品中用作裝飾的螺旋狀柑橘皮」。",
+        "twist-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-19"
     },
@@ -1849,11 +1685,9 @@ export default {
       "masked": "The cocktail was served with an orange ____.",
       "options": [
         "twist-mcq-19",
-        "twist-mcq-18",
-        "twist-mcq-20",
-        "twist-mcq-17",
-        "twist-mcq-21",
-        "twist-mcq-16"
+        "twist-mcq-14",
+        "twist-mcq-11",
+        "twist-mcq-18"
       ],
       "explanation": "本句的「twist」指「飲品中用作裝飾的螺旋狀柑橘皮」。",
       "sentenceIndex": 41,
@@ -1862,12 +1696,10 @@ export default {
         "twist"
       ],
       "optionReasons": {
-        "twist-mcq-19": "本句指「飲品中用作裝飾的螺旋狀柑橘皮」。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。",
-        "twist-mcq-16": "「以扭動身體為特色的扭扭舞」是「the Twist」的用法，與本句語境不同。"
+        "twist-mcq-19": "本句的「twist」指「飲品中用作裝飾的螺旋狀柑橘皮」。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-19"
     },
@@ -1879,11 +1711,9 @@ export default {
       "masked": "I didn’t want to go, but she ____.",
       "options": [
         "twist-mcq-20",
-        "twist-mcq-19",
-        "twist-mcq-21",
-        "twist-mcq-18",
+        "twist-mcq-27",
         "twist-mcq-22",
-        "twist-mcq-17"
+        "twist-mcq-06"
       ],
       "explanation": "本句的「twisted my arm」指「施壓或努力說服某人做某事」。",
       "sentenceIndex": 42,
@@ -1892,12 +1722,10 @@ export default {
         "twisted my arm"
       ],
       "optionReasons": {
-        "twist-mcq-20": "本句指「施壓或努力說服某人做某事」。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-22": "「心態、想法等扭曲、病態或令人不安的」是「twisted — psychological/moral」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。"
+        "twist-mcq-20": "本句的「twisted my arm」指「施壓或努力說服某人做某事」。",
+        "twist-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-20"
     },
@@ -1909,11 +1737,9 @@ export default {
       "masked": "You don’t have to ____—I’d love to come.",
       "options": [
         "twist-mcq-20",
-        "twist-mcq-19",
-        "twist-mcq-21",
-        "twist-mcq-18",
-        "twist-mcq-22",
-        "twist-mcq-17"
+        "twist-mcq-15",
+        "twist-mcq-27",
+        "twist-mcq-13"
       ],
       "explanation": "本句的「twist my arm」指「施壓或努力說服某人做某事」。",
       "sentenceIndex": 43,
@@ -1922,12 +1748,10 @@ export default {
         "twist my arm"
       ],
       "optionReasons": {
-        "twist-mcq-20": "本句指「施壓或努力說服某人做某事」。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。",
-        "twist-mcq-22": "「心態、想法等扭曲、病態或令人不安的」是「twisted — psychological/moral」的用法，與本句語境不同。",
-        "twist-mcq-17": "「為熟悉事物加入的新變化／新意」是「twist — unusual variation」的用法，與本句語境不同。"
+        "twist-mcq-20": "本句的「twist my arm」指「施壓或努力說服某人做某事」。",
+        "twist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-20"
     },
@@ -1939,11 +1763,9 @@ export default {
       "masked": "Mentioning his failure only ____.",
       "options": [
         "twist-mcq-21",
-        "twist-mcq-20",
-        "twist-mcq-22",
-        "twist-mcq-19",
-        "twist-mcq-23",
-        "twist-mcq-18"
+        "twist-mcq-02",
+        "twist-mcq-06",
+        "twist-mcq-03"
       ],
       "explanation": "本句的「twisted the knife」指「故意令已經痛苦的情況更加難受；在傷口上撒鹽」。",
       "sentenceIndex": 44,
@@ -1952,12 +1774,10 @@ export default {
         "twisted the knife"
       ],
       "optionReasons": {
-        "twist-mcq-21": "本句指「故意令已經痛苦的情況更加難受；在傷口上撒鹽」。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-22": "「心態、想法等扭曲、病態或令人不安的」是「twisted — psychological/moral」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。"
+        "twist-mcq-21": "本句的「twisted the knife」指「故意令已經痛苦的情況更加難受；在傷口上撒鹽」。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-21"
     },
@@ -1969,11 +1789,9 @@ export default {
       "masked": "She apologized instead of ____.",
       "options": [
         "twist-mcq-21",
-        "twist-mcq-20",
-        "twist-mcq-22",
-        "twist-mcq-19",
-        "twist-mcq-23",
-        "twist-mcq-18"
+        "twist-mcq-15",
+        "twist-mcq-14",
+        "twist-mcq-16"
       ],
       "explanation": "本句的「twisting the knife」指「故意令已經痛苦的情況更加難受；在傷口上撒鹽」。",
       "sentenceIndex": 45,
@@ -1982,12 +1800,10 @@ export default {
         "twisting the knife"
       ],
       "optionReasons": {
-        "twist-mcq-21": "本句指「故意令已經痛苦的情況更加難受；在傷口上撒鹽」。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-22": "「心態、想法等扭曲、病態或令人不安的」是「twisted — psychological/moral」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。",
-        "twist-mcq-18": "「在原本形式上加入意外或新穎變化」是「with a twist」的用法，與本句語境不同。"
+        "twist-mcq-21": "本句的「twisting the knife」指「故意令已經痛苦的情況更加難受；在傷口上撒鹽」。",
+        "twist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-21"
     },
@@ -1999,11 +1815,9 @@ export default {
       "masked": "The villain has a ____.",
       "options": [
         "twist-mcq-22",
-        "twist-mcq-21",
-        "twist-mcq-23",
+        "twist-mcq-05",
         "twist-mcq-20",
-        "twist-mcq-24",
-        "twist-mcq-19"
+        "twist-mcq-06"
       ],
       "explanation": "本句的「twisted sense of humor」指「心態、想法等扭曲、病態或令人不安的」。",
       "sentenceIndex": 46,
@@ -2012,12 +1826,10 @@ export default {
         "twisted sense of humor"
       ],
       "optionReasons": {
-        "twist-mcq-22": "本句指「心態、想法等扭曲、病態或令人不安的」。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。"
+        "twist-mcq-22": "本句的「twisted sense of humor」指「心態、想法等扭曲、病態或令人不安的」。",
+        "twist-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-22"
     },
@@ -2029,10 +1841,8 @@ export default {
       "masked": "It was a ____ plan.",
       "options": [
         "twist-mcq-22",
-        "twist-mcq-21",
-        "twist-mcq-23",
-        "twist-mcq-20",
-        "twist-mcq-24",
+        "twist-mcq-07",
+        "twist-mcq-28",
         "twist-mcq-19"
       ],
       "explanation": "本句的「twisted」指「心態、想法等扭曲、病態或令人不安的」。",
@@ -2042,12 +1852,10 @@ export default {
         "twisted"
       ],
       "optionReasons": {
-        "twist-mcq-22": "本句指「心態、想法等扭曲、病態或令人不安的」。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。",
-        "twist-mcq-20": "「施壓或努力說服某人做某事」是「twist someone’s arm」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-19": "「飲品中用作裝飾的螺旋狀柑橘皮」是「twist — citrus peel」的用法，與本句語境不同。"
+        "twist-mcq-22": "本句的「twisted」指「心態、想法等扭曲、病態或令人不安的」。",
+        "twist-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-22"
     },
@@ -2059,11 +1867,9 @@ export default {
       "masked": "We followed a ____.",
       "options": [
         "twist-mcq-27",
-        "twist-mcq-26",
-        "twist-mcq-28",
-        "twist-mcq-25",
-        "twist-mcq-24",
-        "twist-mcq-23"
+        "twist-mcq-18",
+        "twist-mcq-19",
+        "twist-mcq-10"
       ],
       "explanation": "本句的「twisting road」指「表示扭轉的；蜿蜒的」。",
       "sentenceIndex": 48,
@@ -2072,12 +1878,10 @@ export default {
         "twisting road"
       ],
       "optionReasons": {
-        "twist-mcq-27": "本句指「表示扭轉的；蜿蜒的」。",
-        "twist-mcq-26": "「表示轉折；反轉；意外發展」是「Passage meaning」的用法，與本句語境不同。",
-        "twist-mcq-28": "「表示把某人玩弄於股掌之間」是「29. twist someone around your little finger」的用法，與本句語境不同。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。"
+        "twist-mcq-27": "本句的「twisting road」指「表示扭轉的；蜿蜒的」。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-27"
     },
@@ -2089,11 +1893,9 @@ export default {
       "masked": "The branches formed ____.",
       "options": [
         "twist-mcq-27",
-        "twist-mcq-26",
-        "twist-mcq-28",
-        "twist-mcq-25",
-        "twist-mcq-24",
-        "twist-mcq-23"
+        "twist-mcq-09",
+        "twist-mcq-21",
+        "twist-mcq-28"
       ],
       "explanation": "本句的「twisting shapes」指「表示扭轉的；蜿蜒的」。",
       "sentenceIndex": 49,
@@ -2102,12 +1904,10 @@ export default {
         "twisting shapes"
       ],
       "optionReasons": {
-        "twist-mcq-27": "本句指「表示扭轉的；蜿蜒的」。",
-        "twist-mcq-26": "「表示轉折；反轉；意外發展」是「Passage meaning」的用法，與本句語境不同。",
-        "twist-mcq-28": "「表示把某人玩弄於股掌之間」是「29. twist someone around your little finger」的用法，與本句語境不同。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。"
+        "twist-mcq-27": "本句的「twisting shapes」指「表示扭轉的；蜿蜒的」。",
+        "twist-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-27"
     },
@@ -2119,10 +1919,8 @@ export default {
       "masked": "The story is full of ____.",
       "options": [
         "twist-mcq-24",
-        "twist-mcq-23",
-        "twist-mcq-25",
-        "twist-mcq-22",
-        "twist-mcq-26",
+        "twist-mcq-18",
+        "twist-mcq-16",
         "twist-mcq-21"
       ],
       "explanation": "本句的「twists and turns」指「彎彎曲曲、不斷轉向」。",
@@ -2132,12 +1930,10 @@ export default {
         "twists and turns"
       ],
       "optionReasons": {
-        "twist-mcq-24": "本句指「彎彎曲曲、不斷轉向」。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-22": "「心態、想法等扭曲、病態或令人不安的」是「twisted — psychological/moral」的用法，與本句語境不同。",
-        "twist-mcq-26": "「表示轉折；反轉；意外發展」是「Passage meaning」的用法，與本句語境不同。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。"
+        "twist-mcq-24": "本句的「twists and turns」指「彎彎曲曲、不斷轉向」。",
+        "twist-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-24"
     },
@@ -2149,11 +1945,9 @@ export default {
       "masked": "Their relationship went through many ____.",
       "options": [
         "twist-mcq-24",
-        "twist-mcq-23",
-        "twist-mcq-25",
-        "twist-mcq-22",
-        "twist-mcq-26",
-        "twist-mcq-21"
+        "twist-mcq-17",
+        "twist-mcq-28",
+        "twist-mcq-02"
       ],
       "explanation": "本句的「twists and turns」指「彎彎曲曲、不斷轉向」。",
       "sentenceIndex": 51,
@@ -2162,12 +1956,10 @@ export default {
         "twists and turns"
       ],
       "optionReasons": {
-        "twist-mcq-24": "本句指「彎彎曲曲、不斷轉向」。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-22": "「心態、想法等扭曲、病態或令人不安的」是「twisted — psychological/moral」的用法，與本句語境不同。",
-        "twist-mcq-26": "「表示轉折；反轉；意外發展」是「Passage meaning」的用法，與本句語境不同。",
-        "twist-mcq-21": "「故意令已經痛苦的情況更加難受；在傷口上撒鹽」是「twist the knife」的用法，與本句語境不同。"
+        "twist-mcq-24": "本句的「twists and turns」指「彎彎曲曲、不斷轉向」。",
+        "twist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-24"
     },
@@ -2179,11 +1971,9 @@ export default {
       "masked": "She has him ____.",
       "options": [
         "twist-mcq-28",
-        "twist-mcq-27",
-        "twist-mcq-26",
-        "twist-mcq-25",
-        "twist-mcq-24",
-        "twist-mcq-23"
+        "twist-mcq-11",
+        "twist-mcq-02",
+        "twist-mcq-15"
       ],
       "explanation": "本句的「twisted around her little finger」指「表示把某人玩弄於股掌之間」。",
       "sentenceIndex": 52,
@@ -2192,12 +1982,10 @@ export default {
         "twisted around her little finger"
       ],
       "optionReasons": {
-        "twist-mcq-28": "本句指「表示把某人玩弄於股掌之間」。",
-        "twist-mcq-27": "「表示扭轉的；蜿蜒的」是「25. twisting」的用法，與本句語境不同。",
-        "twist-mcq-26": "「表示轉折；反轉；意外發展」是「Passage meaning」的用法，與本句語境不同。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。"
+        "twist-mcq-28": "本句的「twisted around her little finger」指「表示把某人玩弄於股掌之間」。",
+        "twist-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-28"
     },
@@ -2209,11 +1997,9 @@ export default {
       "masked": "The child seems to have his grandfather ____.",
       "options": [
         "twist-mcq-28",
-        "twist-mcq-27",
-        "twist-mcq-26",
-        "twist-mcq-25",
-        "twist-mcq-24",
-        "twist-mcq-23"
+        "twist-mcq-02",
+        "twist-mcq-03",
+        "twist-mcq-08"
       ],
       "explanation": "本句的「wrapped/twisted around his little finger」指「表示把某人玩弄於股掌之間」。",
       "sentenceIndex": 53,
@@ -2222,12 +2008,10 @@ export default {
         "wrapped/twisted around his little finger"
       ],
       "optionReasons": {
-        "twist-mcq-28": "本句指「表示把某人玩弄於股掌之間」。",
-        "twist-mcq-27": "「表示扭轉的；蜿蜒的」是「25. twisting」的用法，與本句語境不同。",
-        "twist-mcq-26": "「表示轉折；反轉；意外發展」是「Passage meaning」的用法，與本句語境不同。",
-        "twist-mcq-25": "「故事／事情經歷許多意外轉折與波折」是「twists and turns — figurative」的用法，與本句語境不同。",
-        "twist-mcq-24": "「彎彎曲曲、不斷轉向」是「twists and turns — literal」的用法，與本句語境不同。",
-        "twist-mcq-23": "「非正式：龍捲風」是「twister — tornado」的用法，與本句語境不同。"
+        "twist-mcq-28": "本句的「wrapped/twisted around his little finger」指「表示把某人玩弄於股掌之間」。",
+        "twist-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "twist-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "twist-mcq-28"
     }
@@ -2239,5 +2023,7 @@ export default {
     "sha256": "4c35e5ffec0a1f7551be5df3808d9f185615b23d12f62f51a33342a4b9a3832c",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

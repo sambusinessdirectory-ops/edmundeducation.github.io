@@ -611,7 +611,7 @@ export default {
     },
     {
       "id": "fail-mcq-29",
-      "title": "表示衰退；減弱；支撐不住",
+      "title": "衰退；減弱；支撐不住",
       "form": "12. fail — weaken or give way",
       "en": "12. fail — weaken or give way",
       "zh": "表示衰退；減弱；支撐不住",
@@ -663,11 +663,9 @@ export default {
       "masked": "We sometimes ____ what is already going well.",
       "options": [
         "fail-mcq-28",
-        "fail-mcq-27",
-        "fail-mcq-29",
-        "fail-mcq-26",
-        "fail-mcq-30",
-        "fail-mcq-25"
+        "fail-mcq-08",
+        "fail-mcq-06",
+        "fail-mcq-09"
       ],
       "explanation": "本句的「fail to notice」指「沒有看見／未能意識到其價值」。",
       "sentenceIndex": 0,
@@ -676,12 +674,10 @@ export default {
         "fail to notice"
       ],
       "optionReasons": {
-        "fail-mcq-28": "本句指「沒有看見／未能意識到其價值」。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-29": "「表示衰退；減弱；支撐不住」是「12. fail — weaken or give way」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-30": "「失敗／失靈的企業、體制或專案」是「25. failed business / state / project」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。"
+        "fail-mcq-28": "本句的「fail to notice」指「沒有看見／未能意識到其價值」。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-28"
     },
@@ -693,11 +689,9 @@ export default {
       "masked": "He ____ how important the decision was.",
       "options": [
         "fail-mcq-28",
-        "fail-mcq-27",
-        "fail-mcq-29",
-        "fail-mcq-26",
+        "fail-mcq-05",
         "fail-mcq-30",
-        "fail-mcq-25"
+        "fail-mcq-23"
       ],
       "explanation": "本句的「failed to understand」指「沒有看見／未能意識到其價值」。",
       "sentenceIndex": 1,
@@ -706,12 +700,10 @@ export default {
         "failed to understand"
       ],
       "optionReasons": {
-        "fail-mcq-28": "本句指「沒有看見／未能意識到其價值」。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-29": "「表示衰退；減弱；支撐不住」是「12. fail — weaken or give way」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-30": "「失敗／失靈的企業、體制或專案」是「25. failed business / state / project」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。"
+        "fail-mcq-28": "本句的「failed to understand」指「沒有看見／未能意識到其價值」。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-28"
     },
@@ -723,11 +715,9 @@ export default {
       "masked": "The plan ____.",
       "options": [
         "fail-mcq-01",
-        "fail-mcq-02",
-        "fail-mcq-03",
-        "fail-mcq-04",
+        "fail-mcq-10",
         "fail-mcq-05",
-        "fail-mcq-06"
+        "fail-mcq-23"
       ],
       "explanation": "本句的「failed」指「沒有達到目標或預期結果；失敗」。",
       "sentenceIndex": 2,
@@ -736,12 +726,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-01": "本句指「沒有達到目標或預期結果；失敗」。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-01": "本句的「failed」指「沒有達到目標或預期結果；失敗」。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-01"
     },
@@ -753,11 +741,9 @@ export default {
       "masked": "Their first attempt ____.",
       "options": [
         "fail-mcq-01",
-        "fail-mcq-02",
-        "fail-mcq-03",
-        "fail-mcq-04",
+        "fail-mcq-10",
         "fail-mcq-05",
-        "fail-mcq-06"
+        "fail-mcq-25"
       ],
       "explanation": "本句的「failed」指「沒有達到目標或預期結果；失敗」。",
       "sentenceIndex": 3,
@@ -766,12 +752,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-01": "本句指「沒有達到目標或預期結果；失敗」。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-01": "本句的「failed」指「沒有達到目標或預期結果；失敗」。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-01"
     },
@@ -783,11 +767,9 @@ export default {
       "masked": "He ____ his first business venture.",
       "options": [
         "fail-mcq-02",
-        "fail-mcq-01",
-        "fail-mcq-03",
+        "fail-mcq-23",
         "fail-mcq-04",
-        "fail-mcq-05",
-        "fail-mcq-06"
+        "fail-mcq-24"
       ],
       "explanation": "本句的「failed at」指「在某件事上做不成功／失敗」。",
       "sentenceIndex": 4,
@@ -796,12 +778,10 @@ export default {
         "failed at"
       ],
       "optionReasons": {
-        "fail-mcq-02": "本句指「在某件事上做不成功／失敗」。",
-        "fail-mcq-01": "「沒有達到目標或預期結果；失敗」是「fail — not succeed」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-02": "本句的「failed at」指「在某件事上做不成功／失敗」。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-02"
     },
@@ -813,11 +793,9 @@ export default {
       "masked": "She was afraid of ____ the task.",
       "options": [
         "fail-mcq-02",
-        "fail-mcq-01",
-        "fail-mcq-03",
-        "fail-mcq-04",
+        "fail-mcq-23",
         "fail-mcq-05",
-        "fail-mcq-06"
+        "fail-mcq-29"
       ],
       "explanation": "本句的「failing at」指「在某件事上做不成功／失敗」。",
       "sentenceIndex": 5,
@@ -826,12 +804,10 @@ export default {
         "failing at"
       ],
       "optionReasons": {
-        "fail-mcq-02": "本句指「在某件事上做不成功／失敗」。",
-        "fail-mcq-01": "「沒有達到目標或預期結果；失敗」是「fail — not succeed」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-02": "本句的「failing at」指「在某件事上做不成功／失敗」。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-02"
     },
@@ -843,11 +819,9 @@ export default {
       "masked": "He ____ the warning sign.",
       "options": [
         "fail-mcq-03",
-        "fail-mcq-02",
-        "fail-mcq-04",
-        "fail-mcq-01",
-        "fail-mcq-05",
-        "fail-mcq-06"
+        "fail-mcq-21",
+        "fail-mcq-30",
+        "fail-mcq-10"
       ],
       "explanation": "本句的「failed to notice」指「未能完成或沒有做到某事」。",
       "sentenceIndex": 6,
@@ -856,12 +830,10 @@ export default {
         "failed to notice"
       ],
       "optionReasons": {
-        "fail-mcq-03": "本句指「未能完成或沒有做到某事」。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-01": "「沒有達到目標或預期結果；失敗」是「fail — not succeed」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-03": "本句的「failed to notice」指「未能完成或沒有做到某事」。",
+        "fail-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-03"
     },
@@ -873,11 +845,9 @@ export default {
       "masked": "The report ____ the cause clearly.",
       "options": [
         "fail-mcq-03",
-        "fail-mcq-02",
-        "fail-mcq-04",
-        "fail-mcq-01",
-        "fail-mcq-05",
-        "fail-mcq-06"
+        "fail-mcq-12",
+        "fail-mcq-24",
+        "fail-mcq-16"
       ],
       "explanation": "本句的「fails to explain」指「未能完成或沒有做到某事」。",
       "sentenceIndex": 7,
@@ -886,12 +856,10 @@ export default {
         "fails to explain"
       ],
       "optionReasons": {
-        "fail-mcq-03": "本句指「未能完成或沒有做到某事」。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-01": "「沒有達到目標或預期結果；失敗」是「fail — not succeed」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-03": "本句的「fails to explain」指「未能完成或沒有做到某事」。",
+        "fail-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-03"
     },
@@ -903,11 +871,9 @@ export default {
       "masked": "People sometimes ____ the bigger picture.",
       "options": [
         "fail-mcq-04",
-        "fail-mcq-03",
-        "fail-mcq-05",
-        "fail-mcq-02",
-        "fail-mcq-06",
-        "fail-mcq-01"
+        "fail-mcq-29",
+        "fail-mcq-10",
+        "fail-mcq-08"
       ],
       "explanation": "本句的「fail to see」指「沒有看出、意識到或理解某事」。",
       "sentenceIndex": 8,
@@ -916,12 +882,10 @@ export default {
         "fail to see"
       ],
       "optionReasons": {
-        "fail-mcq-04": "本句指「沒有看出、意識到或理解某事」。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-01": "「沒有達到目標或預期結果；失敗」是「fail — not succeed」的用法，與本句語境不同。"
+        "fail-mcq-04": "本句的「fail to see」指「沒有看出、意識到或理解某事」。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-04"
     },
@@ -933,11 +897,9 @@ export default {
       "masked": "She ____ how serious the problem was.",
       "options": [
         "fail-mcq-04",
-        "fail-mcq-03",
-        "fail-mcq-05",
-        "fail-mcq-02",
-        "fail-mcq-06",
-        "fail-mcq-01"
+        "fail-mcq-12",
+        "fail-mcq-21",
+        "fail-mcq-30"
       ],
       "explanation": "本句的「failed to realize」指「沒有看出、意識到或理解某事」。",
       "sentenceIndex": 9,
@@ -946,12 +908,10 @@ export default {
         "failed to realize"
       ],
       "optionReasons": {
-        "fail-mcq-04": "本句指「沒有看出、意識到或理解某事」。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-01": "「沒有達到目標或預期結果；失敗」是「fail — not succeed」的用法，與本句語境不同。"
+        "fail-mcq-04": "本句的「failed to realize」指「沒有看出、意識到或理解某事」。",
+        "fail-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-04"
     },
@@ -963,11 +923,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "fail-mcq-05",
-        "fail-mcq-04",
-        "fail-mcq-06",
+        "fail-mcq-15",
         "fail-mcq-03",
-        "fail-mcq-07",
-        "fail-mcq-02"
+        "fail-mcq-26"
       ],
       "explanation": "本句的「failed the exam」指「考試、測驗或課程不及格」。",
       "sentenceIndex": 10,
@@ -976,12 +934,10 @@ export default {
         "failed the exam"
       ],
       "optionReasons": {
-        "fail-mcq-05": "本句指「考試、測驗或課程不及格」。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。"
+        "fail-mcq-05": "本句的「failed the exam」指「考試、測驗或課程不及格」。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-05"
     },
@@ -993,11 +949,9 @@ export default {
       "masked": "She was worried that she might ____.",
       "options": [
         "fail-mcq-05",
-        "fail-mcq-04",
-        "fail-mcq-06",
         "fail-mcq-03",
-        "fail-mcq-07",
-        "fail-mcq-02"
+        "fail-mcq-08",
+        "fail-mcq-16"
       ],
       "explanation": "本句的「fail」指「考試、測驗或課程不及格」。",
       "sentenceIndex": 11,
@@ -1006,12 +960,10 @@ export default {
         "fail"
       ],
       "optionReasons": {
-        "fail-mcq-05": "本句指「考試、測驗或課程不及格」。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-02": "「在某件事上做不成功／失敗」是「fail at something」的用法，與本句語境不同。"
+        "fail-mcq-05": "本句的「fail」指「考試、測驗或課程不及格」。",
+        "fail-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-05"
     },
@@ -1023,11 +975,9 @@ export default {
       "masked": "The examiner ____.",
       "options": [
         "fail-mcq-06",
-        "fail-mcq-05",
-        "fail-mcq-07",
-        "fail-mcq-04",
+        "fail-mcq-09",
         "fail-mcq-08",
-        "fail-mcq-03"
+        "fail-mcq-29"
       ],
       "explanation": "本句的「failed him」指「判某人不及格」。",
       "sentenceIndex": 12,
@@ -1036,12 +986,10 @@ export default {
         "failed him"
       ],
       "optionReasons": {
-        "fail-mcq-06": "本句指「判某人不及格」。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。"
+        "fail-mcq-06": "本句的「failed him」指「判某人不及格」。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-06"
     },
@@ -1053,11 +1001,9 @@ export default {
       "masked": "She was ____ because her work did not meet the standard.",
       "options": [
         "fail-mcq-06",
-        "fail-mcq-05",
-        "fail-mcq-07",
-        "fail-mcq-04",
-        "fail-mcq-08",
-        "fail-mcq-03"
+        "fail-mcq-24",
+        "fail-mcq-26",
+        "fail-mcq-02"
       ],
       "explanation": "本句的「failed」指「判某人不及格」。",
       "sentenceIndex": 13,
@@ -1066,12 +1012,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-06": "本句指「判某人不及格」。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-03": "「未能完成或沒有做到某事」是「fail to do something」的用法，與本句語境不同。"
+        "fail-mcq-06": "本句的「failed」指「判某人不及格」。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-06"
     },
@@ -1083,11 +1027,9 @@ export default {
       "masked": "The brakes ____.",
       "options": [
         "fail-mcq-07",
-        "fail-mcq-06",
-        "fail-mcq-08",
-        "fail-mcq-05",
-        "fail-mcq-09",
-        "fail-mcq-04"
+        "fail-mcq-28",
+        "fail-mcq-25",
+        "fail-mcq-26"
       ],
       "explanation": "本句的「failed」指「機器、系統等停止正常運作；失靈／故障」。",
       "sentenceIndex": 14,
@@ -1096,12 +1038,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-07": "本句指「機器、系統等停止正常運作；失靈／故障」。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。"
+        "fail-mcq-07": "本句的「failed」指「機器、系統等停止正常運作；失靈／故障」。",
+        "fail-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-07"
     },
@@ -1113,11 +1053,9 @@ export default {
       "masked": "The power system ____ during the storm.",
       "options": [
         "fail-mcq-07",
+        "fail-mcq-18",
         "fail-mcq-06",
-        "fail-mcq-08",
-        "fail-mcq-05",
-        "fail-mcq-09",
-        "fail-mcq-04"
+        "fail-mcq-24"
       ],
       "explanation": "本句的「failed」指「機器、系統等停止正常運作；失靈／故障」。",
       "sentenceIndex": 15,
@@ -1126,12 +1064,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-07": "本句指「機器、系統等停止正常運作；失靈／故障」。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。",
-        "fail-mcq-04": "「沒有看出、意識到或理解某事」是「fail to see/realize/understand」的用法，與本句語境不同。"
+        "fail-mcq-07": "本句的「failed」指「機器、系統等停止正常運作；失靈／故障」。",
+        "fail-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-07"
     },
@@ -1143,11 +1079,9 @@ export default {
       "masked": "The accident was caused by engine ____.",
       "options": [
         "fail-mcq-08",
-        "fail-mcq-07",
-        "fail-mcq-09",
-        "fail-mcq-06",
-        "fail-mcq-10",
-        "fail-mcq-05"
+        "fail-mcq-04",
+        "fail-mcq-05",
+        "fail-mcq-09"
       ],
       "explanation": "本句的「failure」指「設備或系統的故障／失效」。",
       "sentenceIndex": 16,
@@ -1156,12 +1090,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-08": "本句指「設備或系統的故障／失效」。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。"
+        "fail-mcq-08": "本句的「failure」指「設備或系統的故障／失效」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-08"
     },
@@ -1173,11 +1105,9 @@ export default {
       "masked": "A system ____ shut down the network.",
       "options": [
         "fail-mcq-08",
-        "fail-mcq-07",
-        "fail-mcq-09",
-        "fail-mcq-06",
-        "fail-mcq-10",
-        "fail-mcq-05"
+        "fail-mcq-18",
+        "fail-mcq-29",
+        "fail-mcq-22"
       ],
       "explanation": "本句的「failure」指「設備或系統的故障／失效」。",
       "sentenceIndex": 17,
@@ -1186,12 +1116,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-08": "本句指「設備或系統的故障／失效」。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。",
-        "fail-mcq-05": "「考試、測驗或課程不及格」是「fail — exam/test」的用法，與本句語境不同。"
+        "fail-mcq-08": "本句的「failure」指「設備或系統的故障／失效」。",
+        "fail-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-08"
     },
@@ -1204,10 +1132,8 @@ export default {
       "options": [
         "fail-mcq-09",
         "fail-mcq-08",
-        "fail-mcq-10",
-        "fail-mcq-07",
-        "fail-mcq-11",
-        "fail-mcq-06"
+        "fail-mcq-26",
+        "fail-mcq-15"
       ],
       "explanation": "本句的「fail」指「身體器官停止正常運作；衰竭」。",
       "sentenceIndex": 18,
@@ -1216,12 +1142,10 @@ export default {
         "fail"
       ],
       "optionReasons": {
-        "fail-mcq-09": "本句指「身體器官停止正常運作；衰竭」。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-09": "本句的「fail」指「身體器官停止正常運作；衰竭」。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-09"
     },
@@ -1233,11 +1157,9 @@ export default {
       "masked": "The heart can ____ under severe strain.",
       "options": [
         "fail-mcq-09",
-        "fail-mcq-08",
-        "fail-mcq-10",
-        "fail-mcq-07",
-        "fail-mcq-11",
-        "fail-mcq-06"
+        "fail-mcq-02",
+        "fail-mcq-26",
+        "fail-mcq-05"
       ],
       "explanation": "本句的「fail」指「身體器官停止正常運作；衰竭」。",
       "sentenceIndex": 19,
@@ -1246,12 +1168,10 @@ export default {
         "fail"
       ],
       "optionReasons": {
-        "fail-mcq-09": "本句指「身體器官停止正常運作；衰竭」。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-06": "「判某人不及格」是「fail someone — exam」的用法，與本句語境不同。"
+        "fail-mcq-09": "本句的「fail」指「身體器官停止正常運作；衰竭」。",
+        "fail-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-09"
     },
@@ -1263,11 +1183,9 @@ export default {
       "masked": "He retired because of ____.",
       "options": [
         "fail-mcq-10",
-        "fail-mcq-09",
-        "fail-mcq-11",
-        "fail-mcq-08",
-        "fail-mcq-12",
-        "fail-mcq-07"
+        "fail-mcq-22",
+        "fail-mcq-06",
+        "fail-mcq-04"
       ],
       "explanation": "本句的「failing health」指「健康、視力等逐漸衰弱／惡化」。",
       "sentenceIndex": 20,
@@ -1276,12 +1194,10 @@ export default {
         "failing health"
       ],
       "optionReasons": {
-        "fail-mcq-10": "本句指「健康、視力等逐漸衰弱／惡化」。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。"
+        "fail-mcq-10": "本句的「failing health」指「健康、視力等逐漸衰弱／惡化」。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-10"
     },
@@ -1293,11 +1209,9 @@ export default {
       "masked": "Her ____ made reading difficult.",
       "options": [
         "fail-mcq-10",
-        "fail-mcq-09",
-        "fail-mcq-11",
-        "fail-mcq-08",
-        "fail-mcq-12",
-        "fail-mcq-07"
+        "fail-mcq-01",
+        "fail-mcq-25",
+        "fail-mcq-23"
       ],
       "explanation": "本句的「failing eyesight」指「健康、視力等逐漸衰弱／惡化」。",
       "sentenceIndex": 21,
@@ -1306,12 +1220,10 @@ export default {
         "failing eyesight"
       ],
       "optionReasons": {
-        "fail-mcq-10": "本句指「健康、視力等逐漸衰弱／惡化」。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-08": "「設備或系統的故障／失效」是「failure — machine/system」的用法，與本句語境不同。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-07": "「機器、系統等停止正常運作；失靈／故障」是「fail — machine/system」的用法，與本句語境不同。"
+        "fail-mcq-10": "本句的「failing eyesight」指「健康、視力等逐漸衰弱／惡化」。",
+        "fail-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-10"
     },
@@ -1323,11 +1235,9 @@ export default {
       "masked": "His memory began to ____.",
       "options": [
         "fail-mcq-29",
-        "fail-mcq-28",
-        "fail-mcq-30",
-        "fail-mcq-27",
-        "fail-mcq-26",
-        "fail-mcq-25"
+        "fail-mcq-04",
+        "fail-mcq-07",
+        "fail-mcq-16"
       ],
       "explanation": "本句的「fail」指「表示衰退；減弱；支撐不住」。",
       "sentenceIndex": 22,
@@ -1336,12 +1246,10 @@ export default {
         "fail"
       ],
       "optionReasons": {
-        "fail-mcq-29": "本句指「表示衰退；減弱；支撐不住」。",
-        "fail-mcq-28": "「沒有看見／未能意識到其價值」是「Passage meaning」的用法，與本句語境不同。",
-        "fail-mcq-30": "「失敗／失靈的企業、體制或專案」是「25. failed business / state / project」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。"
+        "fail-mcq-29": "本句的「fail」指「表示衰退；減弱；支撐不住」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-29"
     },
@@ -1353,11 +1261,9 @@ export default {
       "masked": "Her voice ____ for a moment.",
       "options": [
         "fail-mcq-29",
-        "fail-mcq-28",
-        "fail-mcq-30",
-        "fail-mcq-27",
-        "fail-mcq-26",
-        "fail-mcq-25"
+        "fail-mcq-16",
+        "fail-mcq-05",
+        "fail-mcq-26"
       ],
       "explanation": "本句的「failed」指「表示衰退；減弱；支撐不住」。",
       "sentenceIndex": 23,
@@ -1366,12 +1272,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-29": "本句指「表示衰退；減弱；支撐不住」。",
-        "fail-mcq-28": "「沒有看見／未能意識到其價值」是「Passage meaning」的用法，與本句語境不同。",
-        "fail-mcq-30": "「失敗／失靈的企業、體制或專案」是「25. failed business / state / project」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。"
+        "fail-mcq-29": "本句的「failed」指「表示衰退；減弱；支撐不住」。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-29"
     },
@@ -1383,11 +1287,9 @@ export default {
       "masked": "His courage ____ at the last moment.",
       "options": [
         "fail-mcq-12",
-        "fail-mcq-11",
-        "fail-mcq-13",
-        "fail-mcq-10",
-        "fail-mcq-14",
-        "fail-mcq-09"
+        "fail-mcq-28",
+        "fail-mcq-24",
+        "fail-mcq-05"
       ],
       "explanation": "本句的「failed him」指「某人在關鍵時刻突然失去勇氣」。",
       "sentenceIndex": 24,
@@ -1396,12 +1298,10 @@ export default {
         "failed him"
       ],
       "optionReasons": {
-        "fail-mcq-12": "本句指「某人在關鍵時刻突然失去勇氣」。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。"
+        "fail-mcq-12": "本句的「failed him」指「某人在關鍵時刻突然失去勇氣」。",
+        "fail-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-12"
     },
@@ -1413,11 +1313,9 @@ export default {
       "masked": "Her nerve ____ just before she went on stage.",
       "options": [
         "fail-mcq-12",
-        "fail-mcq-11",
-        "fail-mcq-13",
-        "fail-mcq-10",
-        "fail-mcq-14",
-        "fail-mcq-09"
+        "fail-mcq-22",
+        "fail-mcq-05",
+        "fail-mcq-28"
       ],
       "explanation": "本句的「failed」指「某人在關鍵時刻突然失去勇氣」。",
       "sentenceIndex": 25,
@@ -1426,12 +1324,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-12": "本句指「某人在關鍵時刻突然失去勇氣」。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-09": "「身體器官停止正常運作；衰竭」是「fail — organ/body」的用法，與本句語境不同。"
+        "fail-mcq-12": "本句的「failed」指「某人在關鍵時刻突然失去勇氣」。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-12"
     },
@@ -1443,11 +1339,9 @@ export default {
       "masked": "I won’t ____.",
       "options": [
         "fail-mcq-13",
-        "fail-mcq-12",
-        "fail-mcq-14",
-        "fail-mcq-11",
+        "fail-mcq-09",
         "fail-mcq-15",
-        "fail-mcq-10"
+        "fail-mcq-22"
       ],
       "explanation": "本句的「fail you」指「沒有給予所需幫助／支持；辜負某人」。",
       "sentenceIndex": 26,
@@ -1456,12 +1350,10 @@ export default {
         "fail you"
       ],
       "optionReasons": {
-        "fail-mcq-13": "本句指「沒有給予所需幫助／支持；辜負某人」。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。"
+        "fail-mcq-13": "本句的「fail you」指「沒有給予所需幫助／支持；辜負某人」。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-13"
     },
@@ -1473,10 +1365,8 @@ export default {
       "masked": "The system ____ who depended on it.",
       "options": [
         "fail-mcq-13",
-        "fail-mcq-12",
-        "fail-mcq-14",
-        "fail-mcq-11",
         "fail-mcq-15",
+        "fail-mcq-26",
         "fail-mcq-10"
       ],
       "explanation": "本句的「failed the people」指「沒有給予所需幫助／支持；辜負某人」。",
@@ -1486,12 +1376,10 @@ export default {
         "failed the people"
       ],
       "optionReasons": {
-        "fail-mcq-13": "本句指「沒有給予所需幫助／支持；辜負某人」。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。"
+        "fail-mcq-13": "本句的「failed the people」指「沒有給予所需幫助／支持；辜負某人」。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-13"
     },
@@ -1503,11 +1391,9 @@ export default {
       "masked": "His friends did not ____ when he needed help.",
       "options": [
         "fail-mcq-13",
-        "fail-mcq-12",
-        "fail-mcq-14",
-        "fail-mcq-11",
-        "fail-mcq-15",
-        "fail-mcq-10"
+        "fail-mcq-22",
+        "fail-mcq-08",
+        "fail-mcq-15"
       ],
       "explanation": "本句的「fail him」指「沒有給予所需幫助／支持；辜負某人」。",
       "sentenceIndex": 28,
@@ -1516,12 +1402,10 @@ export default {
         "fail him"
       ],
       "optionReasons": {
-        "fail-mcq-13": "本句指「沒有給予所需幫助／支持；辜負某人」。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。"
+        "fail-mcq-13": "本句的「fail him」指「沒有給予所需幫助／支持；辜負某人」。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-13"
     },
@@ -1533,11 +1417,9 @@ export default {
       "masked": "She felt that the organization had ____.",
       "options": [
         "fail-mcq-13",
-        "fail-mcq-12",
-        "fail-mcq-14",
-        "fail-mcq-11",
-        "fail-mcq-15",
-        "fail-mcq-10"
+        "fail-mcq-24",
+        "fail-mcq-09",
+        "fail-mcq-16"
       ],
       "explanation": "本句的「failed her」指「沒有給予所需幫助／支持；辜負某人」。",
       "sentenceIndex": 29,
@@ -1546,12 +1428,10 @@ export default {
         "failed her"
       ],
       "optionReasons": {
-        "fail-mcq-13": "本句指「沒有給予所需幫助／支持；辜負某人」。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-10": "「健康、視力等逐漸衰弱／惡化」是「failing health/eyesight」的用法，與本句語境不同。"
+        "fail-mcq-13": "本句的「failed her」指「沒有給予所需幫助／支持；辜負某人」。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-13"
     },
@@ -1563,11 +1443,9 @@ export default {
       "masked": "Several small businesses ____ during the recession.",
       "options": [
         "fail-mcq-15",
-        "fail-mcq-14",
-        "fail-mcq-16",
-        "fail-mcq-13",
         "fail-mcq-17",
-        "fail-mcq-12"
+        "fail-mcq-05",
+        "fail-mcq-29"
       ],
       "explanation": "本句的「failed」指「企業因經營或財務問題而倒閉／失敗」。",
       "sentenceIndex": 30,
@@ -1576,12 +1454,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-15": "本句指「企業因經營或財務問題而倒閉／失敗」。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。"
+        "fail-mcq-15": "本句的「failed」指「企業因經營或財務問題而倒閉／失敗」。",
+        "fail-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-15"
     },
@@ -1593,11 +1469,9 @@ export default {
       "masked": "The company ____ after losing its main customer.",
       "options": [
         "fail-mcq-15",
-        "fail-mcq-14",
-        "fail-mcq-16",
-        "fail-mcq-13",
-        "fail-mcq-17",
-        "fail-mcq-12"
+        "fail-mcq-06",
+        "fail-mcq-26",
+        "fail-mcq-22"
       ],
       "explanation": "本句的「failed」指「企業因經營或財務問題而倒閉／失敗」。",
       "sentenceIndex": 31,
@@ -1606,12 +1480,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-15": "本句指「企業因經營或財務問題而倒閉／失敗」。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。"
+        "fail-mcq-15": "本句的「failed」指「企業因經營或財務問題而倒閉／失敗」。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-15"
     },
@@ -1623,11 +1495,9 @@ export default {
       "masked": "Poor cash flow can lead to business ____.",
       "options": [
         "fail-mcq-16",
-        "fail-mcq-15",
-        "fail-mcq-17",
-        "fail-mcq-14",
-        "fail-mcq-18",
-        "fail-mcq-13"
+        "fail-mcq-04",
+        "fail-mcq-10",
+        "fail-mcq-09"
       ],
       "explanation": "本句的「failure」指「商業上的失敗／企業倒閉」。",
       "sentenceIndex": 32,
@@ -1636,12 +1506,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-16": "本句指「商業上的失敗／企業倒閉」。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。"
+        "fail-mcq-16": "本句的「failure」指「商業上的失敗／企業倒閉」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-16"
     },
@@ -1653,11 +1521,9 @@ export default {
       "masked": "The entrepreneur learned from an earlier ____.",
       "options": [
         "fail-mcq-16",
-        "fail-mcq-15",
-        "fail-mcq-17",
-        "fail-mcq-14",
-        "fail-mcq-18",
-        "fail-mcq-13"
+        "fail-mcq-04",
+        "fail-mcq-23",
+        "fail-mcq-10"
       ],
       "explanation": "本句的「failure」指「商業上的失敗／企業倒閉」。",
       "sentenceIndex": 33,
@@ -1666,12 +1532,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-16": "本句指「商業上的失敗／企業倒閉」。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。"
+        "fail-mcq-16": "本句的「failure」指「商業上的失敗／企業倒閉」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-16"
     },
@@ -1683,11 +1547,9 @@ export default {
       "masked": "The manager ____ to protect staff.",
       "options": [
         "fail-mcq-14",
-        "fail-mcq-13",
-        "fail-mcq-15",
-        "fail-mcq-12",
-        "fail-mcq-16",
-        "fail-mcq-11"
+        "fail-mcq-29",
+        "fail-mcq-09",
+        "fail-mcq-05"
       ],
       "explanation": "本句的「failed in his duty」指「沒有履行應有責任；失職」。",
       "sentenceIndex": 34,
@@ -1696,12 +1558,10 @@ export default {
         "failed in his duty"
       ],
       "optionReasons": {
-        "fail-mcq-14": "本句指「沒有履行應有責任；失職」。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。"
+        "fail-mcq-14": "本句的「failed in his duty」指「沒有履行應有責任；失職」。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-14"
     },
@@ -1713,11 +1573,9 @@ export default {
       "masked": "The organization ____ to act quickly.",
       "options": [
         "fail-mcq-14",
-        "fail-mcq-13",
-        "fail-mcq-15",
-        "fail-mcq-12",
-        "fail-mcq-16",
-        "fail-mcq-11"
+        "fail-mcq-24",
+        "fail-mcq-26",
+        "fail-mcq-10"
       ],
       "explanation": "本句的「failed in its responsibility」指「沒有履行應有責任；失職」。",
       "sentenceIndex": 35,
@@ -1726,12 +1584,10 @@ export default {
         "failed in its responsibility"
       ],
       "optionReasons": {
-        "fail-mcq-14": "本句指「沒有履行應有責任；失職」。",
-        "fail-mcq-13": "「沒有給予所需幫助／支持；辜負某人」是「fail someone — support」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-12": "「某人在關鍵時刻突然失去勇氣」是「courage/nerve fails someone」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-11": "「記憶、聲音、力量等開始衰退或突然不起作用」是「memory/voice fails」的用法，與本句語境不同。"
+        "fail-mcq-14": "本句的「failed in its responsibility」指「沒有履行應有責任；失職」。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-14"
     },
@@ -1743,11 +1599,9 @@ export default {
       "masked": "The crop ____ because of drought.",
       "options": [
         "fail-mcq-17",
-        "fail-mcq-16",
-        "fail-mcq-18",
-        "fail-mcq-15",
-        "fail-mcq-19",
-        "fail-mcq-14"
+        "fail-mcq-30",
+        "fail-mcq-12",
+        "fail-mcq-10"
       ],
       "explanation": "本句的「failed」指「農作物未能正常生長或收成不足；歉收」。",
       "sentenceIndex": 36,
@@ -1756,12 +1610,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-17": "本句指「農作物未能正常生長或收成不足；歉收」。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。"
+        "fail-mcq-17": "本句的「failed」指「農作物未能正常生長或收成不足；歉收」。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-17"
     },
@@ -1773,11 +1625,9 @@ export default {
       "masked": "If the harvest ____, food prices may rise.",
       "options": [
         "fail-mcq-17",
-        "fail-mcq-16",
-        "fail-mcq-18",
-        "fail-mcq-15",
-        "fail-mcq-19",
-        "fail-mcq-14"
+        "fail-mcq-24",
+        "fail-mcq-30",
+        "fail-mcq-21"
       ],
       "explanation": "本句的「fails」指「農作物未能正常生長或收成不足；歉收」。",
       "sentenceIndex": 37,
@@ -1786,12 +1636,10 @@ export default {
         "fails"
       ],
       "optionReasons": {
-        "fail-mcq-17": "本句指「農作物未能正常生長或收成不足；歉收」。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-14": "「沒有履行應有責任；失職」是「fail in your duty」的用法，與本句語境不同。"
+        "fail-mcq-17": "本句的「fails」指「農作物未能正常生長或收成不足；歉收」。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-17"
     },
@@ -1803,11 +1651,9 @@ export default {
       "masked": "The rains ____ that year.",
       "options": [
         "fail-mcq-18",
-        "fail-mcq-17",
-        "fail-mcq-19",
-        "fail-mcq-16",
-        "fail-mcq-20",
-        "fail-mcq-15"
+        "fail-mcq-25",
+        "fail-mcq-10",
+        "fail-mcq-12"
       ],
       "explanation": "本句的「failed」指「預期的雨水沒有到來」。",
       "sentenceIndex": 38,
@@ -1816,12 +1662,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-18": "本句指「預期的雨水沒有到來」。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。"
+        "fail-mcq-18": "本句的「failed」指「預期的雨水沒有到來」。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-18"
     },
@@ -1833,11 +1677,9 @@ export default {
       "masked": "Crops suffered when the seasonal rains ____.",
       "options": [
         "fail-mcq-18",
-        "fail-mcq-17",
-        "fail-mcq-19",
-        "fail-mcq-16",
-        "fail-mcq-20",
-        "fail-mcq-15"
+        "fail-mcq-15",
+        "fail-mcq-24",
+        "fail-mcq-23"
       ],
       "explanation": "本句的「failed」指「預期的雨水沒有到來」。",
       "sentenceIndex": 39,
@@ -1846,12 +1688,10 @@ export default {
         "failed"
       ],
       "optionReasons": {
-        "fail-mcq-18": "本句指「預期的雨水沒有到來」。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-15": "「企業因經營或財務問題而倒閉／失敗」是「fail — business」的用法，與本句語境不同。"
+        "fail-mcq-18": "本句的「failed」指「預期的雨水沒有到來」。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-18"
     },
@@ -1863,11 +1703,9 @@ export default {
       "masked": "The experiment ended in ____.",
       "options": [
         "fail-mcq-19",
-        "fail-mcq-18",
-        "fail-mcq-20",
-        "fail-mcq-17",
-        "fail-mcq-21",
-        "fail-mcq-16"
+        "fail-mcq-05",
+        "fail-mcq-10",
+        "fail-mcq-24"
       ],
       "explanation": "本句的「failure」指「沒有成功的結果／失敗」。",
       "sentenceIndex": 40,
@@ -1876,12 +1714,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-19": "本句指「沒有成功的結果／失敗」。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。"
+        "fail-mcq-19": "本句的「failure」指「沒有成功的結果／失敗」。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-19"
     },
@@ -1893,11 +1729,9 @@ export default {
       "masked": "Fear of ____ stopped him from trying.",
       "options": [
         "fail-mcq-19",
-        "fail-mcq-18",
-        "fail-mcq-20",
-        "fail-mcq-17",
-        "fail-mcq-21",
-        "fail-mcq-16"
+        "fail-mcq-09",
+        "fail-mcq-25",
+        "fail-mcq-06"
       ],
       "explanation": "本句的「failure」指「沒有成功的結果／失敗」。",
       "sentenceIndex": 41,
@@ -1906,12 +1740,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-19": "本句指「沒有成功的結果／失敗」。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-16": "「商業上的失敗／企業倒閉」是「business failure」的用法，與本句語境不同。"
+        "fail-mcq-19": "本句的「failure」指「沒有成功的結果／失敗」。",
+        "fail-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-19"
     },
@@ -1923,11 +1755,9 @@ export default {
       "masked": "The product was a commercial ____.",
       "options": [
         "fail-mcq-20",
-        "fail-mcq-19",
-        "fail-mcq-21",
-        "fail-mcq-18",
-        "fail-mcq-22",
-        "fail-mcq-17"
+        "fail-mcq-24",
+        "fail-mcq-16",
+        "fail-mcq-10"
       ],
       "explanation": "本句的「failure」指「被認為沒有成功的人或事物」。",
       "sentenceIndex": 42,
@@ -1936,12 +1766,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-20": "本句指「被認為沒有成功的人或事物」。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。"
+        "fail-mcq-20": "本句的「failure」指「被認為沒有成功的人或事物」。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-20"
     },
@@ -1953,11 +1781,9 @@ export default {
       "masked": "He viewed the project as a complete ____.",
       "options": [
         "fail-mcq-20",
-        "fail-mcq-19",
-        "fail-mcq-21",
-        "fail-mcq-18",
-        "fail-mcq-22",
-        "fail-mcq-17"
+        "fail-mcq-07",
+        "fail-mcq-24",
+        "fail-mcq-15"
       ],
       "explanation": "本句的「failure」指「被認為沒有成功的人或事物」。",
       "sentenceIndex": 43,
@@ -1966,12 +1792,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-20": "本句指「被認為沒有成功的人或事物」。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-17": "「農作物未能正常生長或收成不足；歉收」是「crop/harvest fails」的用法，與本句語境不同。"
+        "fail-mcq-20": "本句的「failure」指「被認為沒有成功的人或事物」。",
+        "fail-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-20"
     },
@@ -1983,11 +1807,9 @@ export default {
       "masked": "The outage was caused by equipment ____.",
       "options": [
         "fail-mcq-21",
-        "fail-mcq-20",
+        "fail-mcq-04",
         "fail-mcq-22",
-        "fail-mcq-19",
-        "fail-mcq-23",
-        "fail-mcq-18"
+        "fail-mcq-25"
       ],
       "explanation": "本句的「failure」指「機器、系統、器官等失效／故障／衰竭」。",
       "sentenceIndex": 44,
@@ -1996,12 +1818,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-21": "本句指「機器、系統、器官等失效／故障／衰竭」。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。"
+        "fail-mcq-21": "本句的「failure」指「機器、系統、器官等失效／故障／衰竭」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-21"
     },
@@ -2013,11 +1833,9 @@ export default {
       "masked": "The patient suffered kidney ____.",
       "options": [
         "fail-mcq-21",
-        "fail-mcq-20",
+        "fail-mcq-04",
         "fail-mcq-22",
-        "fail-mcq-19",
-        "fail-mcq-23",
-        "fail-mcq-18"
+        "fail-mcq-23"
       ],
       "explanation": "本句的「failure」指「機器、系統、器官等失效／故障／衰竭」。",
       "sentenceIndex": 45,
@@ -2026,12 +1844,10 @@ export default {
         "failure"
       ],
       "optionReasons": {
-        "fail-mcq-21": "本句指「機器、系統、器官等失效／故障／衰竭」。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-18": "「預期的雨水沒有到來」是「rains fail」的用法，與本句語境不同。"
+        "fail-mcq-21": "本句的「failure」指「機器、系統、器官等失效／故障／衰竭」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-21"
     },
@@ -2043,11 +1859,9 @@ export default {
       "masked": "It was a ____ to solve the problem.",
       "options": [
         "fail-mcq-22",
-        "fail-mcq-21",
-        "fail-mcq-23",
-        "fail-mcq-20",
-        "fail-mcq-24",
-        "fail-mcq-19"
+        "fail-mcq-08",
+        "fail-mcq-15",
+        "fail-mcq-23"
       ],
       "explanation": "本句的「failed attempt」指「嘗試過但未成功的」。",
       "sentenceIndex": 46,
@@ -2056,12 +1870,10 @@ export default {
         "failed attempt"
       ],
       "optionReasons": {
-        "fail-mcq-22": "本句指「嘗試過但未成功的」。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。"
+        "fail-mcq-22": "本句的「failed attempt」指「嘗試過但未成功的」。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-22"
     },
@@ -2073,11 +1885,9 @@ export default {
       "masked": "The negotiations followed several ____.",
       "options": [
         "fail-mcq-22",
-        "fail-mcq-21",
-        "fail-mcq-23",
-        "fail-mcq-20",
-        "fail-mcq-24",
-        "fail-mcq-19"
+        "fail-mcq-01",
+        "fail-mcq-25",
+        "fail-mcq-08"
       ],
       "explanation": "本句的「failed efforts」指「嘗試過但未成功的」。",
       "sentenceIndex": 47,
@@ -2086,12 +1896,10 @@ export default {
         "failed efforts"
       ],
       "optionReasons": {
-        "fail-mcq-22": "本句指「嘗試過但未成功的」。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-19": "「沒有成功的結果／失敗」是「failure — lack of success」的用法，與本句語境不同。"
+        "fail-mcq-22": "本句的「failed efforts」指「嘗試過但未成功的」。",
+        "fail-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-22"
     },
@@ -2103,11 +1911,9 @@ export default {
       "masked": "He bought a ____ and rebuilt it.",
       "options": [
         "fail-mcq-30",
-        "fail-mcq-29",
-        "fail-mcq-28",
-        "fail-mcq-27",
-        "fail-mcq-26",
-        "fail-mcq-25"
+        "fail-mcq-20",
+        "fail-mcq-10",
+        "fail-mcq-06"
       ],
       "explanation": "本句的「failed business」指「失敗／失靈的企業、體制或專案」。",
       "sentenceIndex": 48,
@@ -2116,12 +1922,10 @@ export default {
         "failed business"
       ],
       "optionReasons": {
-        "fail-mcq-30": "本句指「失敗／失靈的企業、體制或專案」。",
-        "fail-mcq-29": "「表示衰退；減弱；支撐不住」是「12. fail — weaken or give way」的用法，與本句語境不同。",
-        "fail-mcq-28": "「沒有看見／未能意識到其價值」是「Passage meaning」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。"
+        "fail-mcq-30": "本句的「failed business」指「失敗／失靈的企業、體制或專案」。",
+        "fail-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-30"
     },
@@ -2133,11 +1937,9 @@ export default {
       "masked": "The report examined several ____.",
       "options": [
         "fail-mcq-30",
-        "fail-mcq-29",
-        "fail-mcq-28",
-        "fail-mcq-27",
-        "fail-mcq-26",
-        "fail-mcq-25"
+        "fail-mcq-17",
+        "fail-mcq-10",
+        "fail-mcq-26"
       ],
       "explanation": "本句的「failed projects」指「失敗／失靈的企業、體制或專案」。",
       "sentenceIndex": 49,
@@ -2146,12 +1948,10 @@ export default {
         "failed projects"
       ],
       "optionReasons": {
-        "fail-mcq-30": "本句指「失敗／失靈的企業、體制或專案」。",
-        "fail-mcq-29": "「表示衰退；減弱；支撐不住」是「12. fail — weaken or give way」的用法，與本句語境不同。",
-        "fail-mcq-28": "「沒有看見／未能意識到其價值」是「Passage meaning」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。"
+        "fail-mcq-30": "本句的「failed projects」指「失敗／失靈的企業、體制或專案」。",
+        "fail-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-30"
     },
@@ -2163,11 +1963,9 @@ export default {
       "masked": "She showed ____.",
       "options": [
         "fail-mcq-23",
-        "fail-mcq-22",
-        "fail-mcq-24",
-        "fail-mcq-21",
-        "fail-mcq-25",
-        "fail-mcq-20"
+        "fail-mcq-20",
+        "fail-mcq-30",
+        "fail-mcq-06"
       ],
       "explanation": "本句的「unfailing kindness」指「始終可靠、不變、持續的」。",
       "sentenceIndex": 50,
@@ -2176,12 +1974,10 @@ export default {
         "unfailing kindness"
       ],
       "optionReasons": {
-        "fail-mcq-23": "本句指「始終可靠、不變、持續的」。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。"
+        "fail-mcq-23": "本句的「unfailing kindness」指「始終可靠、不變、持續的」。",
+        "fail-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-23"
     },
@@ -2193,11 +1989,9 @@ export default {
       "masked": "He gave them his ____.",
       "options": [
         "fail-mcq-23",
+        "fail-mcq-05",
         "fail-mcq-22",
-        "fail-mcq-24",
-        "fail-mcq-21",
-        "fail-mcq-25",
-        "fail-mcq-20"
+        "fail-mcq-29"
       ],
       "explanation": "本句的「unfailing support」指「始終可靠、不變、持續的」。",
       "sentenceIndex": 51,
@@ -2206,12 +2000,10 @@ export default {
         "unfailing support"
       ],
       "optionReasons": {
-        "fail-mcq-23": "本句指「始終可靠、不變、持續的」。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。",
-        "fail-mcq-20": "「被認為沒有成功的人或事物」是「failure — unsuccessful thing/person」的用法，與本句語境不同。"
+        "fail-mcq-23": "本句的「unfailing support」指「始終可靠、不變、持續的」。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-23"
     },
@@ -2223,11 +2015,9 @@ export default {
       "masked": "Call me tomorrow ____.",
       "options": [
         "fail-mcq-24",
-        "fail-mcq-23",
-        "fail-mcq-25",
-        "fail-mcq-22",
-        "fail-mcq-26",
-        "fail-mcq-21"
+        "fail-mcq-06",
+        "fail-mcq-16",
+        "fail-mcq-17"
       ],
       "explanation": "本句的「without fail」指「一定；毫無例外地；每次都」。",
       "sentenceIndex": 52,
@@ -2236,12 +2026,10 @@ export default {
         "without fail"
       ],
       "optionReasons": {
-        "fail-mcq-24": "本句指「一定；毫無例外地；每次都」。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。"
+        "fail-mcq-24": "本句的「without fail」指「一定；毫無例外地；每次都」。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-24"
     },
@@ -2253,11 +2041,9 @@ export default {
       "masked": "She arrives at eight every morning ____.",
       "options": [
         "fail-mcq-24",
-        "fail-mcq-23",
-        "fail-mcq-25",
-        "fail-mcq-22",
-        "fail-mcq-26",
-        "fail-mcq-21"
+        "fail-mcq-05",
+        "fail-mcq-08",
+        "fail-mcq-30"
       ],
       "explanation": "本句的「without fail」指「一定；毫無例外地；每次都」。",
       "sentenceIndex": 53,
@@ -2266,12 +2052,10 @@ export default {
         "without fail"
       ],
       "optionReasons": {
-        "fail-mcq-24": "本句指「一定；毫無例外地；每次都」。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-21": "「機器、系統、器官等失效／故障／衰竭」是「failure — breakdown」的用法，與本句語境不同。"
+        "fail-mcq-24": "本句的「without fail」指「一定；毫無例外地；每次都」。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-24"
     },
@@ -2283,11 +2067,9 @@ export default {
       "masked": "That song ____.",
       "options": [
         "fail-mcq-25",
-        "fail-mcq-24",
-        "fail-mcq-26",
-        "fail-mcq-23",
-        "fail-mcq-27",
-        "fail-mcq-22"
+        "fail-mcq-07",
+        "fail-mcq-06",
+        "fail-mcq-15"
       ],
       "explanation": "本句的「never fails to make me smile」指「每次都會做某事；總是能……」。",
       "sentenceIndex": 54,
@@ -2296,12 +2078,10 @@ export default {
         "never fails to make me smile"
       ],
       "optionReasons": {
-        "fail-mcq-25": "本句指「每次都會做某事；總是能……」。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。"
+        "fail-mcq-25": "本句的「never fails to make me smile」指「每次都會做某事；總是能……」。",
+        "fail-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-25"
     },
@@ -2313,11 +2093,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "fail-mcq-25",
-        "fail-mcq-24",
-        "fail-mcq-26",
-        "fail-mcq-23",
-        "fail-mcq-27",
-        "fail-mcq-22"
+        "fail-mcq-19",
+        "fail-mcq-10",
+        "fail-mcq-12"
       ],
       "explanation": "本句的「never fails to surprise me」指「每次都會做某事；總是能……」。",
       "sentenceIndex": 55,
@@ -2326,12 +2104,10 @@ export default {
         "never fails to surprise me"
       ],
       "optionReasons": {
-        "fail-mcq-25": "本句指「每次都會做某事；總是能……」。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-26": "「如果其他所有方法都不奏效」是「if all else fails」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-22": "「嘗試過但未成功的」是「failed — unsuccessful」的用法，與本句語境不同。"
+        "fail-mcq-25": "本句的「never fails to surprise me」指「每次都會做某事；總是能……」。",
+        "fail-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-25"
     },
@@ -2343,11 +2119,9 @@ export default {
       "masked": "____, call a technician.",
       "options": [
         "fail-mcq-26",
-        "fail-mcq-25",
-        "fail-mcq-27",
-        "fail-mcq-24",
-        "fail-mcq-28",
-        "fail-mcq-23"
+        "fail-mcq-04",
+        "fail-mcq-10",
+        "fail-mcq-06"
       ],
       "explanation": "本句的「If all else fails」指「如果其他所有方法都不奏效」。",
       "sentenceIndex": 56,
@@ -2356,12 +2130,10 @@ export default {
         "If all else fails"
       ],
       "optionReasons": {
-        "fail-mcq-26": "本句指「如果其他所有方法都不奏效」。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-28": "「沒有看見／未能意識到其價值」是「Passage meaning」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。"
+        "fail-mcq-26": "本句的「If all else fails」指「如果其他所有方法都不奏效」。",
+        "fail-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-26"
     },
@@ -2373,11 +2145,9 @@ export default {
       "masked": "We can take a taxi ____.",
       "options": [
         "fail-mcq-26",
-        "fail-mcq-25",
-        "fail-mcq-27",
-        "fail-mcq-24",
-        "fail-mcq-28",
-        "fail-mcq-23"
+        "fail-mcq-16",
+        "fail-mcq-20",
+        "fail-mcq-05"
       ],
       "explanation": "本句的「if all else fails」指「如果其他所有方法都不奏效」。",
       "sentenceIndex": 57,
@@ -2386,12 +2156,10 @@ export default {
         "if all else fails"
       ],
       "optionReasons": {
-        "fail-mcq-26": "本句指「如果其他所有方法都不奏效」。",
-        "fail-mcq-25": "「每次都會做某事；總是能……」是「never fail to do」的用法，與本句語境不同。",
-        "fail-mcq-27": "「在故障時仍保持安全的；故障保安機制」是「fail-safe」的用法，與本句語境不同。",
-        "fail-mcq-24": "「一定；毫無例外地；每次都」是「without fail」的用法，與本句語境不同。",
-        "fail-mcq-28": "「沒有看見／未能意識到其價值」是「Passage meaning」的用法，與本句語境不同。",
-        "fail-mcq-23": "「始終可靠、不變、持續的」是「unfailing」的用法，與本句語境不同。"
+        "fail-mcq-26": "本句的「if all else fails」指「如果其他所有方法都不奏效」。",
+        "fail-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fail-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fail-mcq-26"
     }
@@ -2403,5 +2171,7 @@ export default {
     "sha256": "180fe6afd8e4d0405960015005a06cb161b0e0c39a8db609702ba2efdbe71734",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

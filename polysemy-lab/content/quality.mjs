@@ -305,11 +305,8 @@ export default {
       "masked": "The ad mentioned practical features like comfort, battery life, and sound ____.",
       "options": [
         "quality-mcq-01",
-        "quality-mcq-02",
-        "quality-mcq-03",
-        "quality-mcq-04",
-        "quality-mcq-05",
-        "quality-mcq-06"
+        "quality-mcq-12",
+        "quality-mcq-09"
       ],
       "explanation": "本句的「quality」指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
       "sentenceIndex": 0,
@@ -318,12 +315,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-01": "本句指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-01": "本句的「quality」指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
+        "quality-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-01"
     },
@@ -335,11 +329,9 @@ export default {
       "masked": "The ____ of the service has improved.",
       "options": [
         "quality-mcq-01",
-        "quality-mcq-02",
-        "quality-mcq-03",
-        "quality-mcq-04",
-        "quality-mcq-05",
-        "quality-mcq-06"
+        "quality-mcq-08",
+        "quality-mcq-13",
+        "quality-mcq-11"
       ],
       "explanation": "本句的「quality」指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
       "sentenceIndex": 1,
@@ -348,12 +340,10 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-01": "本句指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-01": "本句的「quality」指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-01"
     },
@@ -365,11 +355,9 @@ export default {
       "masked": "Customers expect high ____ at this price.",
       "options": [
         "quality-mcq-01",
-        "quality-mcq-02",
-        "quality-mcq-03",
-        "quality-mcq-04",
-        "quality-mcq-05",
-        "quality-mcq-06"
+        "quality-mcq-08",
+        "quality-mcq-13",
+        "quality-mcq-11"
       ],
       "explanation": "本句的「quality」指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
       "sentenceIndex": 2,
@@ -378,12 +366,10 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-01": "本句指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-01": "本句的「quality」指「某項產品、服務或成果在「好與差」方面所達到的整體水準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-01"
     },
@@ -395,11 +381,8 @@ export default {
       "masked": "The camera produces excellent image ____.",
       "options": [
         "quality-mcq-02",
-        "quality-mcq-01",
-        "quality-mcq-03",
-        "quality-mcq-04",
-        "quality-mcq-05",
-        "quality-mcq-06"
+        "quality-mcq-09",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「quality」指「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」。",
       "sentenceIndex": 0,
@@ -408,12 +391,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-02": "本句指「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」。",
-        "quality-mcq-01": "「某項產品、服務或成果在「好與差」方面所達到的整體水準」是「quality — standard」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-02": "本句的「quality」指「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-02"
     },
@@ -425,11 +405,8 @@ export default {
       "masked": "The laptop has impressive build ____.",
       "options": [
         "quality-mcq-02",
-        "quality-mcq-01",
-        "quality-mcq-03",
-        "quality-mcq-04",
-        "quality-mcq-05",
-        "quality-mcq-06"
+        "quality-mcq-09",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「quality」指「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」。",
       "sentenceIndex": 1,
@@ -438,12 +415,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-02": "本句指「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」。",
-        "quality-mcq-01": "「某項產品、服務或成果在「好與差」方面所達到的整體水準」是「quality — standard」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-02": "本句的「quality」指「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-02"
     },
@@ -455,10 +429,8 @@ export default {
       "masked": "The headphones use ____ materials.",
       "options": [
         "quality-mcq-03",
-        "quality-mcq-02",
-        "quality-mcq-04",
-        "quality-mcq-01",
-        "quality-mcq-05",
+        "quality-mcq-09",
+        "quality-mcq-13",
         "quality-mcq-06"
       ],
       "explanation": "本句的「high-quality」指「品質達到較高／較低標準的」。",
@@ -468,12 +440,10 @@ export default {
         "high-quality"
       ],
       "optionReasons": {
-        "quality-mcq-03": "本句指「品質達到較高／較低標準的」。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-01": "「某項產品、服務或成果在「好與差」方面所達到的整體水準」是「quality — standard」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-03": "本句的「high-quality」指「品質達到較高／較低標準的」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-03"
     },
@@ -485,11 +455,9 @@ export default {
       "masked": "Poor-____ audio can become tiring after a while.",
       "options": [
         "quality-mcq-03",
-        "quality-mcq-02",
-        "quality-mcq-04",
-        "quality-mcq-01",
-        "quality-mcq-05",
-        "quality-mcq-06"
+        "quality-mcq-08",
+        "quality-mcq-07",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「quality」指「品質達到較高／較低標準的」。",
       "sentenceIndex": 1,
@@ -498,12 +466,10 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-03": "本句指「品質達到較高／較低標準的」。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-01": "「某項產品、服務或成果在「好與差」方面所達到的整體水準」是「quality — standard」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-03": "本句的「quality」指「品質達到較高／較低標準的」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-03"
     },
@@ -515,11 +481,8 @@ export default {
       "masked": "The shop specializes in ____ furniture.",
       "options": [
         "quality-mcq-04",
-        "quality-mcq-03",
-        "quality-mcq-05",
-        "quality-mcq-02",
-        "quality-mcq-06",
-        "quality-mcq-01"
+        "quality-mcq-08",
+        "quality-mcq-05"
       ],
       "explanation": "本句的「quality」指「品質優良、達到較高水準的」。",
       "sentenceIndex": 0,
@@ -528,12 +491,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-04": "本句指「品質優良、達到較高水準的」。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-01": "「某項產品、服務或成果在「好與差」方面所達到的整體水準」是「quality — standard」的用法，與本句語境不同。"
+        "quality-mcq-04": "本句的「quality」指「品質優良、達到較高水準的」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-04"
     },
@@ -545,11 +505,8 @@ export default {
       "masked": "Customers are willing to pay more for ____ products.",
       "options": [
         "quality-mcq-04",
-        "quality-mcq-03",
-        "quality-mcq-05",
-        "quality-mcq-02",
-        "quality-mcq-06",
-        "quality-mcq-01"
+        "quality-mcq-08",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「quality」指「品質優良、達到較高水準的」。",
       "sentenceIndex": 1,
@@ -558,12 +515,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-04": "本句指「品質優良、達到較高水準的」。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-01": "「某項產品、服務或成果在「好與差」方面所達到的整體水準」是「quality — standard」的用法，與本句語境不同。"
+        "quality-mcq-04": "本句的「quality」指「品質優良、達到較高水準的」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-04"
     },
@@ -575,11 +529,8 @@ export default {
       "masked": "Patience is an important ____ in a teacher.",
       "options": [
         "quality-mcq-05",
-        "quality-mcq-04",
-        "quality-mcq-06",
-        "quality-mcq-03",
-        "quality-mcq-07",
-        "quality-mcq-02"
+        "quality-mcq-08",
+        "quality-mcq-04"
       ],
       "explanation": "本句的「quality」指「某人或某事物本身具有的一項性格、特徵或性質」。",
       "sentenceIndex": 0,
@@ -588,12 +539,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-05": "本句指「某人或某事物本身具有的一項性格、特徵或性質」。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。"
+        "quality-mcq-05": "本句的「quality」指「某人或某事物本身具有的一項性格、特徵或性質」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-05"
     },
@@ -605,11 +553,9 @@ export default {
       "masked": "The material has several unusual ____.",
       "options": [
         "quality-mcq-05",
-        "quality-mcq-04",
-        "quality-mcq-06",
-        "quality-mcq-03",
-        "quality-mcq-07",
-        "quality-mcq-02"
+        "quality-mcq-08",
+        "quality-mcq-01",
+        "quality-mcq-11"
       ],
       "explanation": "本句的「qualities」指「某人或某事物本身具有的一項性格、特徵或性質」。",
       "sentenceIndex": 1,
@@ -618,12 +564,10 @@ export default {
         "qualities"
       ],
       "optionReasons": {
-        "quality-mcq-05": "本句指「某人或某事物本身具有的一項性格、特徵或性質」。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-02": "「某一特定方面在清晰度、表現或製作等方面所達到的品質標準」是「sound/image/build quality」的用法，與本句語境不同。"
+        "quality-mcq-05": "本句的「qualities」指「某人或某事物本身具有的一項性格、特徵或性質」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-05"
     },
@@ -635,11 +579,9 @@ export default {
       "masked": "Leadership requires several important personal ____.",
       "options": [
         "quality-mcq-06",
-        "quality-mcq-05",
-        "quality-mcq-07",
-        "quality-mcq-04",
-        "quality-mcq-08",
-        "quality-mcq-03"
+        "quality-mcq-09",
+        "quality-mcq-01",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「qualities」指「構成一個人的性格、品格或能力表現的重要特質」。",
       "sentenceIndex": 0,
@@ -648,12 +590,10 @@ export default {
         "qualities"
       ],
       "optionReasons": {
-        "quality-mcq-06": "本句指「構成一個人的性格、品格或能力表現的重要特質」。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。"
+        "quality-mcq-06": "本句的「qualities」指「構成一個人的性格、品格或能力表現的重要特質」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-06"
     },
@@ -665,11 +605,9 @@ export default {
       "masked": "Her best ____ are patience and honesty.",
       "options": [
         "quality-mcq-06",
-        "quality-mcq-05",
-        "quality-mcq-07",
-        "quality-mcq-04",
-        "quality-mcq-08",
-        "quality-mcq-03"
+        "quality-mcq-09",
+        "quality-mcq-01",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「qualities」指「構成一個人的性格、品格或能力表現的重要特質」。",
       "sentenceIndex": 1,
@@ -678,12 +616,10 @@ export default {
         "qualities"
       ],
       "optionReasons": {
-        "quality-mcq-06": "本句指「構成一個人的性格、品格或能力表現的重要特質」。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-03": "「品質達到較高／較低標準的」是「high-/poor-quality」的用法，與本句語境不同。"
+        "quality-mcq-06": "本句的「qualities」指「構成一個人的性格、品格或能力表現的重要特質」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-06"
     },
@@ -695,11 +631,9 @@ export default {
       "masked": "Good public transport can improve ____.",
       "options": [
         "quality-mcq-07",
-        "quality-mcq-06",
+        "quality-mcq-13",
         "quality-mcq-08",
-        "quality-mcq-05",
-        "quality-mcq-09",
-        "quality-mcq-04"
+        "quality-mcq-02"
       ],
       "explanation": "本句的「quality of life」指「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」。",
       "sentenceIndex": 0,
@@ -708,12 +642,10 @@ export default {
         "quality of life"
       ],
       "optionReasons": {
-        "quality-mcq-07": "本句指「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。"
+        "quality-mcq-07": "本句的「quality of life」指「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-07"
     },
@@ -725,11 +657,9 @@ export default {
       "masked": "The treatment improved her ____.",
       "options": [
         "quality-mcq-07",
-        "quality-mcq-06",
         "quality-mcq-08",
-        "quality-mcq-05",
-        "quality-mcq-09",
-        "quality-mcq-04"
+        "quality-mcq-13",
+        "quality-mcq-03"
       ],
       "explanation": "本句的「quality of life」指「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」。",
       "sentenceIndex": 1,
@@ -738,12 +668,10 @@ export default {
         "quality of life"
       ],
       "optionReasons": {
-        "quality-mcq-07": "本句指「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-04": "「品質優良、達到較高水準的」是「quality + noun」的用法，與本句語境不同。"
+        "quality-mcq-07": "本句的「quality of life」指「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-07"
     },
@@ -755,9 +683,6 @@ export default {
       "masked": "I want to spend more ____ with my family.",
       "options": [
         "quality-mcq-08",
-        "quality-mcq-07",
-        "quality-mcq-09",
-        "quality-mcq-06",
         "quality-mcq-10",
         "quality-mcq-05"
       ],
@@ -768,12 +693,9 @@ export default {
         "quality time"
       ],
       "optionReasons": {
-        "quality-mcq-08": "本句指「與重要的人專心、有意義且不受其他事情干擾地相處的時間」。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。"
+        "quality-mcq-08": "本句的「quality time」指「與重要的人專心、有意義且不受其他事情干擾地相處的時間」。",
+        "quality-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-08"
     },
@@ -786,10 +708,8 @@ export default {
       "options": [
         "quality-mcq-08",
         "quality-mcq-07",
-        "quality-mcq-09",
-        "quality-mcq-06",
-        "quality-mcq-10",
-        "quality-mcq-05"
+        "quality-mcq-03",
+        "quality-mcq-13"
       ],
       "explanation": "本句的「quality time」指「與重要的人專心、有意義且不受其他事情干擾地相處的時間」。",
       "sentenceIndex": 1,
@@ -798,12 +718,10 @@ export default {
         "quality time"
       ],
       "optionReasons": {
-        "quality-mcq-08": "本句指「與重要的人專心、有意義且不受其他事情干擾地相處的時間」。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-05": "「某人或某事物本身具有的一項性格、特徵或性質」是「a quality — characteristic」的用法，與本句語境不同。"
+        "quality-mcq-08": "本句的「quality time」指「與重要的人專心、有意義且不受其他事情干擾地相處的時間」。",
+        "quality-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-08"
     },
@@ -815,11 +733,8 @@ export default {
       "masked": "Traffic has affected the city’s air ____.",
       "options": [
         "quality-mcq-09",
-        "quality-mcq-08",
-        "quality-mcq-10",
-        "quality-mcq-07",
-        "quality-mcq-11",
-        "quality-mcq-06"
+        "quality-mcq-03",
+        "quality-mcq-12"
       ],
       "explanation": "本句的「quality」指「空氣、水或其他環境條件在純淨、安全和適用方面的水平」。",
       "sentenceIndex": 0,
@@ -828,12 +743,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-09": "本句指「空氣、水或其他環境條件在純淨、安全和適用方面的水平」。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-09": "本句的「quality」指「空氣、水或其他環境條件在純淨、安全和適用方面的水平」。",
+        "quality-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-09"
     },
@@ -845,11 +757,8 @@ export default {
       "masked": "The laboratory regularly tests water ____.",
       "options": [
         "quality-mcq-09",
-        "quality-mcq-08",
-        "quality-mcq-10",
-        "quality-mcq-07",
-        "quality-mcq-11",
-        "quality-mcq-06"
+        "quality-mcq-12",
+        "quality-mcq-03"
       ],
       "explanation": "本句的「quality」指「空氣、水或其他環境條件在純淨、安全和適用方面的水平」。",
       "sentenceIndex": 1,
@@ -858,12 +767,9 @@ export default {
         "quality"
       ],
       "optionReasons": {
-        "quality-mcq-09": "本句指「空氣、水或其他環境條件在純淨、安全和適用方面的水平」。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-06": "「構成一個人的性格、品格或能力表現的重要特質」是「personal qualities」的用法，與本句語境不同。"
+        "quality-mcq-09": "本句的「quality」指「空氣、水或其他環境條件在純淨、安全和適用方面的水平」。",
+        "quality-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-09"
     },
@@ -875,11 +781,8 @@ export default {
       "masked": "Every unit goes through strict ____.",
       "options": [
         "quality-mcq-10",
-        "quality-mcq-09",
-        "quality-mcq-11",
         "quality-mcq-08",
-        "quality-mcq-12",
-        "quality-mcq-07"
+        "quality-mcq-05"
       ],
       "explanation": "本句的「quality control」指「透過檢查和測試，確保最終產品／成果符合既定品質標準」。",
       "sentenceIndex": 0,
@@ -888,12 +791,9 @@ export default {
         "quality control"
       ],
       "optionReasons": {
-        "quality-mcq-10": "本句指「透過檢查和測試，確保最終產品／成果符合既定品質標準」。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-12": "「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」是「qualitative」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。"
+        "quality-mcq-10": "本句的「quality control」指「透過檢查和測試，確保最終產品／成果符合既定品質標準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-10"
     },
@@ -905,11 +805,8 @@ export default {
       "masked": "The factory strengthened its ____ procedures.",
       "options": [
         "quality-mcq-10",
-        "quality-mcq-09",
-        "quality-mcq-11",
         "quality-mcq-08",
-        "quality-mcq-12",
-        "quality-mcq-07"
+        "quality-mcq-13"
       ],
       "explanation": "本句的「quality control」指「透過檢查和測試，確保最終產品／成果符合既定品質標準」。",
       "sentenceIndex": 1,
@@ -918,12 +815,9 @@ export default {
         "quality control"
       ],
       "optionReasons": {
-        "quality-mcq-10": "本句指「透過檢查和測試，確保最終產品／成果符合既定品質標準」。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。",
-        "quality-mcq-12": "「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」是「qualitative」的用法，與本句語境不同。",
-        "quality-mcq-07": "「一個人在健康、舒適、安全、自由和滿足感方面的整體生活水準」是「quality of life」的用法，與本句語境不同。"
+        "quality-mcq-10": "本句的「quality control」指「透過檢查和測試，確保最終產品／成果符合既定品質標準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-10"
     },
@@ -935,11 +829,9 @@ export default {
       "masked": "The company has a dedicated ____ team.",
       "options": [
         "quality-mcq-11",
-        "quality-mcq-10",
-        "quality-mcq-12",
-        "quality-mcq-09",
+        "quality-mcq-08",
         "quality-mcq-13",
-        "quality-mcq-08"
+        "quality-mcq-01"
       ],
       "explanation": "本句的「quality assurance」指「透過制度和流程預防品質問題並持續確保符合標準」。",
       "sentenceIndex": 0,
@@ -948,12 +840,10 @@ export default {
         "quality assurance"
       ],
       "optionReasons": {
-        "quality-mcq-11": "本句指「透過制度和流程預防品質問題並持續確保符合標準」。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-12": "「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」是「qualitative」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-13": "「從事物的本質、性質或種類差異來看」是「qualitatively」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。"
+        "quality-mcq-11": "本句的「quality assurance」指「透過制度和流程預防品質問題並持續確保符合標準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-11"
     },
@@ -965,11 +855,9 @@ export default {
       "masked": "____ assurance begins before production starts.",
       "options": [
         "quality-mcq-11",
-        "quality-mcq-10",
-        "quality-mcq-12",
-        "quality-mcq-09",
-        "quality-mcq-13",
-        "quality-mcq-08"
+        "quality-mcq-08",
+        "quality-mcq-05",
+        "quality-mcq-01"
       ],
       "explanation": "本句的「Quality」指「透過制度和流程預防品質問題並持續確保符合標準」。",
       "sentenceIndex": 1,
@@ -978,12 +866,10 @@ export default {
         "Quality"
       ],
       "optionReasons": {
-        "quality-mcq-11": "本句指「透過制度和流程預防品質問題並持續確保符合標準」。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-12": "「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」是「qualitative」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-13": "「從事物的本質、性質或種類差異來看」是「qualitatively」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。"
+        "quality-mcq-11": "本句的「Quality」指「透過制度和流程預防品質問題並持續確保符合標準」。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-11"
     },
@@ -995,11 +881,8 @@ export default {
       "masked": "The researchers conducted ____ interviews.",
       "options": [
         "quality-mcq-12",
-        "quality-mcq-11",
-        "quality-mcq-13",
-        "quality-mcq-10",
         "quality-mcq-09",
-        "quality-mcq-08"
+        "quality-mcq-01"
       ],
       "explanation": "本句的「qualitative」指「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」。",
       "sentenceIndex": 0,
@@ -1008,12 +891,9 @@ export default {
         "qualitative"
       ],
       "optionReasons": {
-        "quality-mcq-12": "本句指「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-13": "「從事物的本質、性質或種類差異來看」是「qualitatively」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。"
+        "quality-mcq-12": "本句的「qualitative」指「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-12"
     },
@@ -1025,11 +905,8 @@ export default {
       "masked": "The report includes both quantitative and ____ data.",
       "options": [
         "quality-mcq-12",
-        "quality-mcq-11",
-        "quality-mcq-13",
-        "quality-mcq-10",
         "quality-mcq-09",
-        "quality-mcq-08"
+        "quality-mcq-01"
       ],
       "explanation": "本句的「qualitative」指「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」。",
       "sentenceIndex": 1,
@@ -1038,12 +915,9 @@ export default {
         "qualitative"
       ],
       "optionReasons": {
-        "quality-mcq-12": "本句指「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-13": "「從事物的本質、性質或種類差異來看」是「qualitatively」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。"
+        "quality-mcq-12": "本句的「qualitative」指「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-12"
     },
@@ -1055,11 +929,9 @@ export default {
       "masked": "The two experiences are ____ different.",
       "options": [
         "quality-mcq-13",
-        "quality-mcq-12",
-        "quality-mcq-11",
-        "quality-mcq-10",
         "quality-mcq-09",
-        "quality-mcq-08"
+        "quality-mcq-03",
+        "quality-mcq-06"
       ],
       "explanation": "本句的「qualitatively」指「從事物的本質、性質或種類差異來看」。",
       "sentenceIndex": 0,
@@ -1068,12 +940,10 @@ export default {
         "qualitatively"
       ],
       "optionReasons": {
-        "quality-mcq-13": "本句指「從事物的本質、性質或種類差異來看」。",
-        "quality-mcq-12": "「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」是「qualitative」的用法，與本句語境不同。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。"
+        "quality-mcq-13": "本句的「qualitatively」指「從事物的本質、性質或種類差異來看」。",
+        "quality-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-13"
     },
@@ -1085,11 +955,9 @@ export default {
       "masked": "The second solution is not just faster; it is ____ better.",
       "options": [
         "quality-mcq-13",
-        "quality-mcq-12",
-        "quality-mcq-11",
-        "quality-mcq-10",
-        "quality-mcq-09",
-        "quality-mcq-08"
+        "quality-mcq-07",
+        "quality-mcq-08",
+        "quality-mcq-03"
       ],
       "explanation": "本句的「qualitatively」指「從事物的本質、性質或種類差異來看」。",
       "sentenceIndex": 1,
@@ -1098,12 +966,10 @@ export default {
         "qualitatively"
       ],
       "optionReasons": {
-        "quality-mcq-13": "本句指「從事物的本質、性質或種類差異來看」。",
-        "quality-mcq-12": "「著重事物的性質、特徵、經驗或描述，而非主要以數字衡量的」是「qualitative」的用法，與本句語境不同。",
-        "quality-mcq-11": "「透過制度和流程預防品質問題並持續確保符合標準」是「quality assurance」的用法，與本句語境不同。",
-        "quality-mcq-10": "「透過檢查和測試，確保最終產品／成果符合既定品質標準」是「quality control」的用法，與本句語境不同。",
-        "quality-mcq-09": "「空氣、水或其他環境條件在純淨、安全和適用方面的水平」是「environmental quality」的用法，與本句語境不同。",
-        "quality-mcq-08": "「與重要的人專心、有意義且不受其他事情干擾地相處的時間」是「quality time」的用法，與本句語境不同。"
+        "quality-mcq-13": "本句的「qualitatively」指「從事物的本質、性質或種類差異來看」。",
+        "quality-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "quality-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quality-mcq-13"
     }
@@ -1116,5 +982,7 @@ export default {
     "pages": 14,
     "sha256": "27a4f5af6e8dbcbd631e4d7c53aa0ef013dd7e4bc3a397859a558b685f3449e0"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

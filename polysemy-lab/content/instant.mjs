@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "instant-mcq-02",
-      "title": "經處理後可以非常快速準備、沖製或使用的；屬於",
+      "title": "經處理後可以非常快速準備、沖製或使用的",
       "form": "instant — quick-preparation product",
       "en": "instant — quick-preparation product",
       "zh": "經處理後可以非常快速準備、沖製或使用的；屬於",
@@ -171,7 +171,7 @@ export default {
     },
     {
       "id": "instant-mcq-08",
-      "title": "表示在極短時間內；一下子",
+      "title": "在極短時間內；一下子",
       "form": "Useful expression: in an instant — 轉瞬間；立即",
       "en": "Useful expression: in an instant — 轉瞬間；立即",
       "zh": "表示在極短時間內；一下子",
@@ -215,7 +215,7 @@ export default {
     },
     {
       "id": "instant-mcq-10",
-      "title": "表示一夜／立即成名或成功",
+      "title": "一夜／立即成名或成功",
       "form": "Useful construction: instant success — 一夜／立即成名或成功",
       "en": "Useful construction: instant success — 一夜／立即成名或成功",
       "zh": "表示一夜／立即成名或成功",
@@ -245,11 +245,7 @@ export default {
       "masked": "Everyone seems to want ____.",
       "options": [
         "instant-mcq-01",
-        "instant-mcq-02",
-        "instant-mcq-03",
-        "instant-mcq-04",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant results」指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
       "sentenceIndex": 0,
@@ -258,12 +254,8 @@ export default {
         "instant results"
       ],
       "optionReasons": {
-        "instant-mcq-01": "本句指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-01": "本句的「instant results」指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-01"
     },
@@ -275,11 +267,7 @@ export default {
       "masked": "The announcement had an ____ effect.",
       "options": [
         "instant-mcq-01",
-        "instant-mcq-02",
-        "instant-mcq-03",
-        "instant-mcq-04",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
       "sentenceIndex": 1,
@@ -288,12 +276,8 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-01": "本句指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-01": "本句的「instant」指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-01"
     },
@@ -305,11 +289,7 @@ export default {
       "masked": "She felt an ____ connection with the place.",
       "options": [
         "instant-mcq-01",
-        "instant-mcq-02",
-        "instant-mcq-03",
-        "instant-mcq-04",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
       "sentenceIndex": 2,
@@ -318,12 +298,8 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-01": "本句指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-01": "本句的「instant」指「幾乎沒有等待時間，事情、結果或效果立即出現的」。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-01"
     },
@@ -335,11 +311,9 @@ export default {
       "masked": "He made a cup of ____.",
       "options": [
         "instant-mcq-02",
-        "instant-mcq-01",
-        "instant-mcq-03",
-        "instant-mcq-04",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-06",
+        "instant-mcq-07",
+        "instant-mcq-08"
       ],
       "explanation": "本句的「instant coffee」指「經處理後可以非常快速準備、沖製或使用的；屬於」。",
       "sentenceIndex": 3,
@@ -348,12 +322,10 @@ export default {
         "instant coffee"
       ],
       "optionReasons": {
-        "instant-mcq-02": "本句指「經處理後可以非常快速準備、沖製或使用的；屬於」。",
-        "instant-mcq-01": "「幾乎沒有等待時間，事情、結果或效果立即出現的」是「instant — immediate」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-02": "本句的「instant coffee」指「經處理後可以非常快速準備、沖製或使用的；屬於」。",
+        "instant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-02"
     },
@@ -365,11 +337,9 @@ export default {
       "masked": "The packet contains ____.",
       "options": [
         "instant-mcq-02",
-        "instant-mcq-01",
-        "instant-mcq-03",
-        "instant-mcq-04",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-06",
+        "instant-mcq-07",
+        "instant-mcq-08"
       ],
       "explanation": "本句的「instant noodles」指「經處理後可以非常快速準備、沖製或使用的；屬於」。",
       "sentenceIndex": 4,
@@ -378,12 +348,10 @@ export default {
         "instant noodles"
       ],
       "optionReasons": {
-        "instant-mcq-02": "本句指「經處理後可以非常快速準備、沖製或使用的；屬於」。",
-        "instant-mcq-01": "「幾乎沒有等待時間，事情、結果或效果立即出現的」是「instant — immediate」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-02": "本句的「instant noodles」指「經處理後可以非常快速準備、沖製或使用的；屬於」。",
+        "instant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-02"
     },
@@ -395,11 +363,8 @@ export default {
       "masked": "The app provides ____ access to the information.",
       "options": [
         "instant-mcq-03",
-        "instant-mcq-02",
         "instant-mcq-04",
-        "instant-mcq-01",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」。",
       "sentenceIndex": 5,
@@ -408,12 +373,9 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-03": "本句指「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-01": "「幾乎沒有等待時間，事情、結果或效果立即出現的」是「instant — immediate」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-03": "本句的「instant」指「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」。",
+        "instant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-03"
     },
@@ -425,11 +387,8 @@ export default {
       "masked": "They communicate through ____.",
       "options": [
         "instant-mcq-03",
-        "instant-mcq-02",
         "instant-mcq-04",
-        "instant-mcq-01",
-        "instant-mcq-05",
-        "instant-mcq-06"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant messaging」指「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」。",
       "sentenceIndex": 6,
@@ -438,12 +397,9 @@ export default {
         "instant messaging"
       ],
       "optionReasons": {
-        "instant-mcq-03": "本句指「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-01": "「幾乎沒有等待時間，事情、結果或效果立即出現的」是「instant — immediate」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。"
+        "instant-mcq-03": "本句的「instant messaging」指「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」。",
+        "instant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-03"
     },
@@ -455,11 +411,8 @@ export default {
       "masked": "For an ____, nobody spoke.",
       "options": [
         "instant-mcq-04",
-        "instant-mcq-03",
-        "instant-mcq-05",
-        "instant-mcq-02",
         "instant-mcq-06",
-        "instant-mcq-01"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「極短的一段時間；一瞬間／片刻」。",
       "sentenceIndex": 7,
@@ -468,12 +421,9 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-04": "本句指「極短的一段時間；一瞬間／片刻」。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-01": "「幾乎沒有等待時間，事情、結果或效果立即出現的」是「instant — immediate」的用法，與本句語境不同。"
+        "instant-mcq-04": "本句的「instant」指「極短的一段時間；一瞬間／片刻」。",
+        "instant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-04"
     },
@@ -485,11 +435,8 @@ export default {
       "masked": "She paused for an ____ before answering.",
       "options": [
         "instant-mcq-04",
-        "instant-mcq-03",
-        "instant-mcq-05",
-        "instant-mcq-02",
         "instant-mcq-06",
-        "instant-mcq-01"
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「極短的一段時間；一瞬間／片刻」。",
       "sentenceIndex": 8,
@@ -498,12 +445,9 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-04": "本句指「極短的一段時間；一瞬間／片刻」。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-01": "「幾乎沒有等待時間，事情、結果或效果立即出現的」是「instant — immediate」的用法，與本句語境不同。"
+        "instant-mcq-04": "本句的「instant」指「極短的一段時間；一瞬間／片刻」。",
+        "instant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-04"
     },
@@ -515,10 +459,7 @@ export default {
       "masked": "The ____ I saw him, I recognized him.",
       "options": [
         "instant-mcq-05",
-        "instant-mcq-04",
-        "instant-mcq-06",
-        "instant-mcq-03",
-        "instant-mcq-07",
+        "instant-mcq-08",
         "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「某件事一發生，另一件事立即發生；一……就……」。",
@@ -528,12 +469,9 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-05": "本句指「某件事一發生，另一件事立即發生；一……就……」。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。"
+        "instant-mcq-05": "本句的「instant」指「某件事一發生，另一件事立即發生；一……就……」。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-05"
     },
@@ -546,9 +484,6 @@ export default {
       "options": [
         "instant-mcq-05",
         "instant-mcq-04",
-        "instant-mcq-06",
-        "instant-mcq-03",
-        "instant-mcq-07",
         "instant-mcq-02"
       ],
       "explanation": "本句的「instant」指「某件事一發生，另一件事立即發生；一……就……」。",
@@ -558,12 +493,9 @@ export default {
         "instant"
       ],
       "optionReasons": {
-        "instant-mcq-05": "本句指「某件事一發生，另一件事立即發生；一……就……」。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-02": "「經處理後可以非常快速準備、沖製或使用的；屬於」是「instant — quick-preparation product」的用法，與本句語境不同。"
+        "instant-mcq-05": "本句的「instant」指「某件事一發生，另一件事立即發生；一……就……」。",
+        "instant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-05"
     },
@@ -575,11 +507,8 @@ export default {
       "masked": "She recognized the song ____.",
       "options": [
         "instant-mcq-06",
-        "instant-mcq-05",
-        "instant-mcq-07",
-        "instant-mcq-04",
-        "instant-mcq-08",
-        "instant-mcq-03"
+        "instant-mcq-02",
+        "instant-mcq-04"
       ],
       "explanation": "本句的「instantly」指「立即、馬上、沒有明顯延遲地」。",
       "sentenceIndex": 11,
@@ -588,12 +517,9 @@ export default {
         "instantly"
       ],
       "optionReasons": {
-        "instant-mcq-06": "本句指「立即、馬上、沒有明顯延遲地」。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。"
+        "instant-mcq-06": "本句的「instantly」指「立即、馬上、沒有明顯延遲地」。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-06"
     },
@@ -605,11 +531,9 @@ export default {
       "masked": "The room became ____ quieter.",
       "options": [
         "instant-mcq-06",
-        "instant-mcq-05",
-        "instant-mcq-07",
-        "instant-mcq-04",
         "instant-mcq-08",
-        "instant-mcq-03"
+        "instant-mcq-07",
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instantly」指「立即、馬上、沒有明顯延遲地」。",
       "sentenceIndex": 12,
@@ -618,12 +542,10 @@ export default {
         "instantly"
       ],
       "optionReasons": {
-        "instant-mcq-06": "本句指「立即、馬上、沒有明顯延遲地」。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-03": "「幾乎沒有延遲、可以立即傳送或取得的；屬於 immediate 義」是「instant — technology」的用法，與本句語境不同。"
+        "instant-mcq-06": "本句的「instantly」指「立即、馬上、沒有明顯延遲地」。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-06"
     },
@@ -635,11 +557,9 @@ export default {
       "masked": "The reaction was almost ____.",
       "options": [
         "instant-mcq-07",
+        "instant-mcq-02",
         "instant-mcq-06",
-        "instant-mcq-08",
-        "instant-mcq-05",
-        "instant-mcq-09",
-        "instant-mcq-04"
+        "instant-mcq-08"
       ],
       "explanation": "本句的「instantaneous」指「幾乎在同一瞬間發生的；較正式／技術性」。",
       "sentenceIndex": 13,
@@ -648,12 +568,10 @@ export default {
         "instantaneous"
       ],
       "optionReasons": {
-        "instant-mcq-07": "本句指「幾乎在同一瞬間發生的；較正式／技術性」。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。"
+        "instant-mcq-07": "本句的「instantaneous」指「幾乎在同一瞬間發生的；較正式／技術性」。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-07"
     },
@@ -665,11 +583,9 @@ export default {
       "masked": "Digital communication can seem ____.",
       "options": [
         "instant-mcq-07",
-        "instant-mcq-06",
-        "instant-mcq-08",
-        "instant-mcq-05",
-        "instant-mcq-09",
-        "instant-mcq-04"
+        "instant-mcq-10",
+        "instant-mcq-02",
+        "instant-mcq-08"
       ],
       "explanation": "本句的「instantaneous」指「幾乎在同一瞬間發生的；較正式／技術性」。",
       "sentenceIndex": 14,
@@ -678,12 +594,10 @@ export default {
         "instantaneous"
       ],
       "optionReasons": {
-        "instant-mcq-07": "本句指「幾乎在同一瞬間發生的；較正式／技術性」。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。"
+        "instant-mcq-07": "本句的「instantaneous」指「幾乎在同一瞬間發生的；較正式／技術性」。",
+        "instant-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-07"
     },
@@ -695,11 +609,9 @@ export default {
       "masked": "The signal is transmitted almost ____.",
       "options": [
         "instant-mcq-07",
+        "instant-mcq-02",
         "instant-mcq-06",
-        "instant-mcq-08",
-        "instant-mcq-05",
-        "instant-mcq-09",
-        "instant-mcq-04"
+        "instant-mcq-08"
       ],
       "explanation": "本句的「instantaneously」指「幾乎在同一瞬間發生的；較正式／技術性」。",
       "sentenceIndex": 15,
@@ -708,12 +620,10 @@ export default {
         "instantaneously"
       ],
       "optionReasons": {
-        "instant-mcq-07": "本句指「幾乎在同一瞬間發生的；較正式／技術性」。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-04": "「極短的一段時間；一瞬間／片刻」是「an instant — noun」的用法，與本句語境不同。"
+        "instant-mcq-07": "本句的「instantaneously」指「幾乎在同一瞬間發生的；較正式／技術性」。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-07"
     },
@@ -725,11 +635,9 @@ export default {
       "masked": "Everything changed ____.",
       "options": [
         "instant-mcq-08",
-        "instant-mcq-07",
         "instant-mcq-09",
-        "instant-mcq-06",
-        "instant-mcq-10",
-        "instant-mcq-05"
+        "instant-mcq-02",
+        "instant-mcq-07"
       ],
       "explanation": "本句的「in an instant」指「表示在極短時間內；一下子」。",
       "sentenceIndex": 16,
@@ -738,12 +646,10 @@ export default {
         "in an instant"
       ],
       "optionReasons": {
-        "instant-mcq-08": "本句指「表示在極短時間內；一下子」。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-10": "「表示一夜／立即成名或成功」是「Useful construction: instant success — 一夜／立即成名或成功」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。"
+        "instant-mcq-08": "本句的「in an instant」指「表示在極短時間內；一下子」。",
+        "instant-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-08"
     },
@@ -755,11 +661,8 @@ export default {
       "masked": "The lights went out ____.",
       "options": [
         "instant-mcq-08",
-        "instant-mcq-07",
-        "instant-mcq-09",
-        "instant-mcq-06",
-        "instant-mcq-10",
-        "instant-mcq-05"
+        "instant-mcq-05",
+        "instant-mcq-02"
       ],
       "explanation": "本句的「in an instant」指「表示在極短時間內；一下子」。",
       "sentenceIndex": 17,
@@ -768,12 +671,9 @@ export default {
         "in an instant"
       ],
       "optionReasons": {
-        "instant-mcq-08": "本句指「表示在極短時間內；一下子」。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-10": "「表示一夜／立即成名或成功」是「Useful construction: instant success — 一夜／立即成名或成功」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。"
+        "instant-mcq-08": "本句的「in an instant」指「表示在極短時間內；一下子」。",
+        "instant-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-08"
     },
@@ -785,11 +685,9 @@ export default {
       "masked": "Come here ____!",
       "options": [
         "instant-mcq-09",
-        "instant-mcq-08",
-        "instant-mcq-10",
         "instant-mcq-07",
-        "instant-mcq-06",
-        "instant-mcq-05"
+        "instant-mcq-08",
+        "instant-mcq-02"
       ],
       "explanation": "本句的「this instant」指「現在立即；通常帶命令或強烈語氣」。",
       "sentenceIndex": 18,
@@ -798,12 +696,10 @@ export default {
         "this instant"
       ],
       "optionReasons": {
-        "instant-mcq-09": "本句指「現在立即；通常帶命令或強烈語氣」。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-10": "「表示一夜／立即成名或成功」是「Useful construction: instant success — 一夜／立即成名或成功」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。"
+        "instant-mcq-09": "本句的「this instant」指「現在立即；通常帶命令或強烈語氣」。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-09"
     },
@@ -815,11 +711,9 @@ export default {
       "masked": "Stop that ____.",
       "options": [
         "instant-mcq-09",
-        "instant-mcq-08",
-        "instant-mcq-10",
         "instant-mcq-07",
-        "instant-mcq-06",
-        "instant-mcq-05"
+        "instant-mcq-08",
+        "instant-mcq-02"
       ],
       "explanation": "本句的「this instant」指「現在立即；通常帶命令或強烈語氣」。",
       "sentenceIndex": 19,
@@ -828,12 +722,10 @@ export default {
         "this instant"
       ],
       "optionReasons": {
-        "instant-mcq-09": "本句指「現在立即；通常帶命令或強烈語氣」。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-10": "「表示一夜／立即成名或成功」是「Useful construction: instant success — 一夜／立即成名或成功」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。"
+        "instant-mcq-09": "本句的「this instant」指「現在立即；通常帶命令或強烈語氣」。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-09"
     },
@@ -845,11 +737,8 @@ export default {
       "masked": "The book became an ____.",
       "options": [
         "instant-mcq-10",
-        "instant-mcq-09",
-        "instant-mcq-08",
-        "instant-mcq-07",
-        "instant-mcq-06",
-        "instant-mcq-05"
+        "instant-mcq-04",
+        "instant-mcq-02"
       ],
       "explanation": "本句的「instant success」指「表示一夜／立即成名或成功」。",
       "sentenceIndex": 20,
@@ -858,12 +747,9 @@ export default {
         "instant success"
       ],
       "optionReasons": {
-        "instant-mcq-10": "本句指「表示一夜／立即成名或成功」。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。"
+        "instant-mcq-10": "本句的「instant success」指「表示一夜／立即成名或成功」。",
+        "instant-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-10"
     },
@@ -875,11 +761,9 @@ export default {
       "masked": "The new product was an ____.",
       "options": [
         "instant-mcq-10",
-        "instant-mcq-09",
-        "instant-mcq-08",
         "instant-mcq-07",
-        "instant-mcq-06",
-        "instant-mcq-05"
+        "instant-mcq-02",
+        "instant-mcq-08"
       ],
       "explanation": "本句的「instant hit」指「表示一夜／立即成名或成功」。",
       "sentenceIndex": 21,
@@ -888,12 +772,10 @@ export default {
         "instant hit"
       ],
       "optionReasons": {
-        "instant-mcq-10": "本句指「表示一夜／立即成名或成功」。",
-        "instant-mcq-09": "「現在立即；通常帶命令或強烈語氣」是「Useful expression: this instant — 立即；馬上」的用法，與本句語境不同。",
-        "instant-mcq-08": "「表示在極短時間內；一下子」是「Useful expression: in an instant — 轉瞬間；立即」的用法，與本句語境不同。",
-        "instant-mcq-07": "「幾乎在同一瞬間發生的；較正式／技術性」是「instantaneous」的用法，與本句語境不同。",
-        "instant-mcq-06": "「立即、馬上、沒有明顯延遲地」是「instantly」的用法，與本句語境不同。",
-        "instant-mcq-05": "「某件事一發生，另一件事立即發生；一……就……」是「the instant + clause」的用法，與本句語境不同。"
+        "instant-mcq-10": "本句的「instant hit」指「表示一夜／立即成名或成功」。",
+        "instant-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "instant-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "instant-mcq-10"
     }
@@ -905,5 +787,7 @@ export default {
     "sha256": "870f96520597a18a958df5b721ff6fa34e91e72bed5ee1d67f4bc32b69ca2a27",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -317,11 +317,8 @@ export default {
       "masked": "Charging convenience affects electric-vehicle ____.",
       "options": [
         "adoption-pdf-001",
-        "adoption-mcq-02",
-        "adoption-mcq-03",
-        "adoption-mcq-04",
-        "adoption-mcq-05",
-        "adoption-mcq-06"
+        "adoption-mcq-10",
+        "adoption-mcq-16"
       ],
       "explanation": "本句的「adoption」指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
       "sentenceIndex": 0,
@@ -330,12 +327,9 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-pdf-001": "本句指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
-        "adoption-mcq-02": "「新科技由潛在使用者開始投入實際使用的過程」與本句語境不同。",
-        "adoption-mcq-03": "「某群體實際開始使用某產品／技術的比例或速度」與本句語境不同。",
-        "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
-        "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
-        "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
+        "adoption-pdf-001": "本句的「adoption」指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "adoption-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-pdf-001"
     },
@@ -347,11 +341,8 @@ export default {
       "masked": "High prices can slow the ____ of new technology.",
       "options": [
         "adoption-pdf-001",
-        "adoption-mcq-02",
-        "adoption-mcq-03",
-        "adoption-mcq-04",
-        "adoption-mcq-05",
-        "adoption-mcq-06"
+        "adoption-mcq-10",
+        "adoption-mcq-16"
       ],
       "explanation": "本句的「adoption」指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
       "sentenceIndex": 1,
@@ -360,12 +351,9 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-pdf-001": "本句指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
-        "adoption-mcq-02": "「新科技由潛在使用者開始投入實際使用的過程」與本句語境不同。",
-        "adoption-mcq-03": "「某群體實際開始使用某產品／技術的比例或速度」與本句語境不同。",
-        "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
-        "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
-        "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
+        "adoption-pdf-001": "本句的「adoption」指「從知道／考慮某項新事物，到真正開始使用它的過程」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "adoption-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-pdf-001"
     },
@@ -377,11 +365,7 @@ export default {
       "masked": "Government incentives can accelerate technology ____.",
       "options": [
         "adoption-mcq-02",
-        "adoption-mcq-01",
-        "adoption-mcq-03",
-        "adoption-mcq-04",
-        "adoption-mcq-05",
-        "adoption-mcq-06"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「新科技由潛在使用者開始投入實際使用的過程」。",
       "sentenceIndex": 2,
@@ -390,12 +374,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-02": "本句指「新科技由潛在使用者開始投入實際使用的過程」。",
-        "adoption-mcq-01": "「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」與本句語境不同。",
-        "adoption-mcq-03": "「某群體實際開始使用某產品／技術的比例或速度」與本句語境不同。",
-        "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
-        "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
-        "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
+        "adoption-mcq-02": "本句的「adoption」指「新科技由潛在使用者開始投入實際使用的過程」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-02"
     },
@@ -407,11 +387,7 @@ export default {
       "masked": "Trust is important for technology ____.",
       "options": [
         "adoption-mcq-02",
-        "adoption-mcq-01",
-        "adoption-mcq-03",
-        "adoption-mcq-04",
-        "adoption-mcq-05",
-        "adoption-mcq-06"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「新科技由潛在使用者開始投入實際使用的過程」。",
       "sentenceIndex": 3,
@@ -420,12 +396,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-02": "本句指「新科技由潛在使用者開始投入實際使用的過程」。",
-        "adoption-mcq-01": "「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」與本句語境不同。",
-        "adoption-mcq-03": "「某群體實際開始使用某產品／技術的比例或速度」與本句語境不同。",
-        "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
-        "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
-        "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
+        "adoption-mcq-02": "本句的「adoption」指「新科技由潛在使用者開始投入實際使用的過程」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-02"
     },
@@ -437,11 +409,7 @@ export default {
       "masked": "The ____ rate remains low.",
       "options": [
         "adoption-mcq-03",
-        "adoption-mcq-02",
-        "adoption-mcq-04",
-        "adoption-mcq-01",
-        "adoption-mcq-05",
-        "adoption-mcq-06"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「某群體實際開始使用某產品／技術的比例或速度」。",
       "sentenceIndex": 16,
@@ -450,12 +418,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-03": "本句指「某群體實際開始使用某產品／技術的比例或速度」。",
-        "adoption-mcq-02": "「新科技由潛在使用者開始投入實際使用的過程」與本句語境不同。",
-        "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
-        "adoption-mcq-01": "「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」與本句語境不同。",
-        "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
-        "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
+        "adoption-mcq-03": "本句的「adoption」指「某群體實際開始使用某產品／技術的比例或速度」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-03"
     },
@@ -467,11 +431,7 @@ export default {
       "masked": "The city wants to increase the EV ____ rate.",
       "options": [
         "adoption-mcq-03",
-        "adoption-mcq-02",
-        "adoption-mcq-04",
-        "adoption-mcq-01",
-        "adoption-mcq-05",
-        "adoption-mcq-06"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「某群體實際開始使用某產品／技術的比例或速度」。",
       "sentenceIndex": 17,
@@ -480,12 +440,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-03": "本句指「某群體實際開始使用某產品／技術的比例或速度」。",
-        "adoption-mcq-02": "「新科技由潛在使用者開始投入實際使用的過程」與本句語境不同。",
-        "adoption-mcq-04": "「在大多數人之前率先開始使用新產品／科技的人」與本句語境不同。",
-        "adoption-mcq-01": "「個人／組織開始接受並實際使用某項新技術、產品或系統的過程」與本句語境不同。",
-        "adoption-mcq-05": "「選擇並開始使用某種方法／做法」與本句語境不同。",
-        "adoption-mcq-06": "「正式批准並接受某政策作為機構／政府方針」與本句語境不同。"
+        "adoption-mcq-03": "本句的「adoption」指「某群體實際開始使用某產品／技術的比例或速度」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-03"
     },
@@ -497,11 +453,7 @@ export default {
       "masked": "They decided to ____.",
       "options": [
         "adoption-mcq-10",
-        "adoption-mcq-09",
-        "adoption-mcq-11",
-        "adoption-mcq-08",
-        "adoption-mcq-12",
-        "adoption-mcq-07"
+        "adoption-mcq-03"
       ],
       "explanation": "本句的「adopt a child」指「依法成為某兒童的父母並承擔親權責任」。",
       "sentenceIndex": 21,
@@ -510,12 +462,8 @@ export default {
         "adopt a child"
       ],
       "optionReasons": {
-        "adoption-mcq-10": "本句指「依法成為某兒童的父母並承擔親權責任」。",
-        "adoption-mcq-09": "「選擇並持有某種立場」與本句語境不同。",
-        "adoption-mcq-11": "「建立法律父母子女關係的收養程序」與本句語境不同。",
-        "adoption-mcq-08": "「開始形成並持續某種習慣」與本句語境不同。",
-        "adoption-mcq-12": "「收養孩子並成為其法律父母的人」與本句語境不同。",
-        "adoption-mcq-07": "「正式選擇並開始按某標準運作」與本句語境不同。"
+        "adoption-mcq-10": "本句的「adopt a child」指「依法成為某兒童的父母並承擔親權責任」。",
+        "adoption-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-10"
     },
@@ -527,11 +475,7 @@ export default {
       "masked": "The ____ was finalized last year.",
       "options": [
         "adoption-mcq-11",
-        "adoption-mcq-10",
-        "adoption-mcq-12",
-        "adoption-mcq-09",
-        "adoption-mcq-13",
-        "adoption-mcq-08"
+        "adoption-pdf-001"
       ],
       "explanation": "本句的「adoption」指「建立法律父母子女關係的收養程序」。",
       "sentenceIndex": 22,
@@ -540,12 +484,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-11": "本句指「建立法律父母子女關係的收養程序」。",
-        "adoption-mcq-10": "「依法成為某兒童的父母並承擔親權責任」與本句語境不同。",
-        "adoption-mcq-12": "「收養孩子並成為其法律父母的人」與本句語境不同。",
-        "adoption-mcq-09": "「選擇並持有某種立場」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。",
-        "adoption-mcq-08": "「開始形成並持續某種習慣」與本句語境不同。"
+        "adoption-mcq-11": "本句的「adoption」指「建立法律父母子女關係的收養程序」。",
+        "adoption-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-11"
     },
@@ -557,11 +497,7 @@ export default {
       "masked": "____ laws vary between jurisdictions.",
       "options": [
         "adoption-mcq-11",
-        "adoption-mcq-10",
-        "adoption-mcq-12",
-        "adoption-mcq-09",
-        "adoption-mcq-13",
-        "adoption-mcq-08"
+        "adoption-pdf-001"
       ],
       "explanation": "本句的「Adoption」指「建立法律父母子女關係的收養程序」。",
       "sentenceIndex": 23,
@@ -570,12 +506,8 @@ export default {
         "Adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-11": "本句指「建立法律父母子女關係的收養程序」。",
-        "adoption-mcq-10": "「依法成為某兒童的父母並承擔親權責任」與本句語境不同。",
-        "adoption-mcq-12": "「收養孩子並成為其法律父母的人」與本句語境不同。",
-        "adoption-mcq-09": "「選擇並持有某種立場」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。",
-        "adoption-mcq-08": "「開始形成並持續某種習慣」與本句語境不同。"
+        "adoption-mcq-11": "本句的「Adoption」指「建立法律父母子女關係的收養程序」。",
+        "adoption-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-11"
     },
@@ -587,11 +519,8 @@ export default {
       "masked": "The ____ of the plan took several months.",
       "options": [
         "adoption-mcq-16",
-        "adoption-mcq-15",
-        "adoption-mcq-17",
-        "adoption-mcq-14",
-        "adoption-mcq-18",
-        "adoption-mcq-13"
+        "adoption-mcq-10",
+        "adoption-pdf-001"
       ],
       "explanation": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
       "sentenceIndex": 26,
@@ -600,12 +529,9 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-16": "本句指「某政策、規則、方案經正式程序被批准／採納」。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-17": "「阻礙使用者真正開始採用某技術／產品的因素」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-18": "「推動使用者開始採用某技術／產品的主要因素」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-16": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "adoption-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-16"
     },
@@ -617,11 +543,8 @@ export default {
       "masked": "Formal ____ requires a vote.",
       "options": [
         "adoption-mcq-16",
-        "adoption-mcq-15",
-        "adoption-mcq-17",
-        "adoption-mcq-14",
-        "adoption-mcq-18",
-        "adoption-mcq-13"
+        "adoption-mcq-10",
+        "adoption-pdf-001"
       ],
       "explanation": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
       "sentenceIndex": 27,
@@ -630,12 +553,9 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-16": "本句指「某政策、規則、方案經正式程序被批准／採納」。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-17": "「阻礙使用者真正開始採用某技術／產品的因素」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-18": "「推動使用者開始採用某技術／產品的主要因素」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-16": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "adoption-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-16"
     },
@@ -647,11 +567,8 @@ export default {
       "masked": "The proposal awaits formal ____.",
       "options": [
         "adoption-mcq-16",
-        "adoption-mcq-15",
-        "adoption-mcq-17",
-        "adoption-mcq-14",
-        "adoption-mcq-18",
-        "adoption-mcq-13"
+        "adoption-mcq-10",
+        "adoption-pdf-001"
       ],
       "explanation": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
       "sentenceIndex": 28,
@@ -660,12 +577,9 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-16": "本句指「某政策、規則、方案經正式程序被批准／採納」。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-17": "「阻礙使用者真正開始採用某技術／產品的因素」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-18": "「推動使用者開始採用某技術／產品的主要因素」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-16": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "adoption-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-16"
     },
@@ -677,11 +591,8 @@ export default {
       "masked": "After ____, the rules will take effect.",
       "options": [
         "adoption-mcq-16",
-        "adoption-mcq-15",
-        "adoption-mcq-17",
-        "adoption-mcq-14",
-        "adoption-mcq-18",
-        "adoption-mcq-13"
+        "adoption-mcq-10",
+        "adoption-pdf-001"
       ],
       "explanation": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
       "sentenceIndex": 29,
@@ -690,12 +601,9 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-16": "本句指「某政策、規則、方案經正式程序被批准／採納」。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-17": "「阻礙使用者真正開始採用某技術／產品的因素」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-18": "「推動使用者開始採用某技術／產品的主要因素」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-16": "本句的「adoption」指「某政策、規則、方案經正式程序被批准／採納」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "adoption-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-16"
     },
@@ -707,11 +615,7 @@ export default {
       "masked": "Price is still a major ____ barrier.",
       "options": [
         "adoption-mcq-17",
-        "adoption-mcq-16",
-        "adoption-mcq-18",
-        "adoption-mcq-15",
-        "adoption-mcq-14",
-        "adoption-mcq-13"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「阻礙使用者真正開始採用某技術／產品的因素」。",
       "sentenceIndex": 44,
@@ -720,12 +624,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-17": "本句指「阻礙使用者真正開始採用某技術／產品的因素」。",
-        "adoption-mcq-16": "「某政策、規則、方案經正式程序被批准／採納」與本句語境不同。",
-        "adoption-mcq-18": "「推動使用者開始採用某技術／產品的主要因素」與本句語境不同。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-17": "本句的「adoption」指「阻礙使用者真正開始採用某技術／產品的因素」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-17"
     },
@@ -737,11 +637,7 @@ export default {
       "masked": "Reliable charging can remove ____ barriers.",
       "options": [
         "adoption-mcq-17",
-        "adoption-mcq-16",
-        "adoption-mcq-18",
-        "adoption-mcq-15",
-        "adoption-mcq-14",
-        "adoption-mcq-13"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「阻礙使用者真正開始採用某技術／產品的因素」。",
       "sentenceIndex": 45,
@@ -750,12 +646,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-17": "本句指「阻礙使用者真正開始採用某技術／產品的因素」。",
-        "adoption-mcq-16": "「某政策、規則、方案經正式程序被批准／採納」與本句語境不同。",
-        "adoption-mcq-18": "「推動使用者開始採用某技術／產品的主要因素」與本句語境不同。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-17": "本句的「adoption」指「阻礙使用者真正開始採用某技術／產品的因素」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-17"
     },
@@ -767,11 +659,7 @@ export default {
       "masked": "Convenience is a key ____ driver.",
       "options": [
         "adoption-mcq-18",
-        "adoption-mcq-17",
-        "adoption-mcq-16",
-        "adoption-mcq-15",
-        "adoption-mcq-14",
-        "adoption-mcq-13"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「推動使用者開始採用某技術／產品的主要因素」。",
       "sentenceIndex": 46,
@@ -780,12 +668,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-18": "本句指「推動使用者開始採用某技術／產品的主要因素」。",
-        "adoption-mcq-17": "「阻礙使用者真正開始採用某技術／產品的因素」與本句語境不同。",
-        "adoption-mcq-16": "「某政策、規則、方案經正式程序被批准／採納」與本句語境不同。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-18": "本句的「adoption」指「推動使用者開始採用某技術／產品的主要因素」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-18"
     },
@@ -797,11 +681,7 @@ export default {
       "masked": "Trust and affordability are major ____ drivers.",
       "options": [
         "adoption-mcq-18",
-        "adoption-mcq-17",
-        "adoption-mcq-16",
-        "adoption-mcq-15",
-        "adoption-mcq-14",
-        "adoption-mcq-13"
+        "adoption-mcq-10"
       ],
       "explanation": "本句的「adoption」指「推動使用者開始採用某技術／產品的主要因素」。",
       "sentenceIndex": 47,
@@ -810,12 +690,8 @@ export default {
         "adoption"
       ],
       "optionReasons": {
-        "adoption-mcq-18": "本句指「推動使用者開始採用某技術／產品的主要因素」。",
-        "adoption-mcq-17": "「阻礙使用者真正開始採用某技術／產品的因素」與本句語境不同。",
-        "adoption-mcq-16": "「某政策、規則、方案經正式程序被批准／採納」與本句語境不同。",
-        "adoption-mcq-15": "「從收容所等地方領養動物並承擔照顧責任」與本句語境不同。",
-        "adoption-mcq-14": "「被收養的人」與本句語境不同。",
-        "adoption-mcq-13": "「被他人依法收養的孩子」與本句語境不同。"
+        "adoption-mcq-18": "本句的「adoption」指「推動使用者開始採用某技術／產品的主要因素」。",
+        "adoption-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "adoption-mcq-18"
     }
@@ -827,5 +703,7 @@ export default {
     "sha256": "e09a4c16bde67edbacbe9177667572eefbbc2e12d3d2716622abf814d600b21a",
     "pages": 46
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

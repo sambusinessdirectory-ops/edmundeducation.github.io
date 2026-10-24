@@ -343,11 +343,9 @@ export default {
       "masked": "The story is full of ____.",
       "options": [
         "magic-mcq-01",
-        "magic-mcq-02",
-        "magic-mcq-03",
-        "magic-mcq-04",
-        "magic-mcq-05",
-        "magic-mcq-06"
+        "magic-mcq-09",
+        "magic-pdf-001",
+        "magic-mcq-05"
       ],
       "explanation": "本句的「magic」指「被認為能以超自然力量改變事物或造成不可能效果的力量」。",
       "sentenceIndex": 0,
@@ -356,12 +354,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-01": "本句指「被認為能以超自然力量改變事物或造成不可能效果的力量」。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-01": "本句的「magic」指「被認為能以超自然力量改變事物或造成不可能效果的力量」。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-01"
     },
@@ -373,11 +369,9 @@ export default {
       "masked": "The witch used ____ to open the door.",
       "options": [
         "magic-mcq-01",
-        "magic-mcq-02",
-        "magic-mcq-03",
-        "magic-mcq-04",
         "magic-mcq-05",
-        "magic-mcq-06"
+        "magic-mcq-09",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「被認為能以超自然力量改變事物或造成不可能效果的力量」。",
       "sentenceIndex": 1,
@@ -386,12 +380,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-01": "本句指「被認為能以超自然力量改變事物或造成不可能效果的力量」。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-01": "本句的「magic」指「被認為能以超自然力量改變事物或造成不可能效果的力量」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-01"
     },
@@ -403,11 +395,9 @@ export default {
       "masked": "He studied ancient ____.",
       "options": [
         "magic-mcq-02",
-        "magic-mcq-01",
-        "magic-mcq-03",
-        "magic-mcq-04",
         "magic-mcq-05",
-        "magic-mcq-06"
+        "magic-pdf-001",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magic」指「使用／研究超自然力量的做法或體系」。",
       "sentenceIndex": 2,
@@ -416,12 +406,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-02": "本句指「使用／研究超自然力量的做法或體系」。",
-        "magic-mcq-01": "「被認為能以超自然力量改變事物或造成不可能效果的力量」是「magic — supernatural power」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-02": "本句的「magic」指「使用／研究超自然力量的做法或體系」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-02"
     },
@@ -433,11 +421,9 @@ export default {
       "masked": "The book describes rituals connected with ____.",
       "options": [
         "magic-mcq-02",
-        "magic-mcq-01",
-        "magic-mcq-03",
+        "magic-mcq-08",
         "magic-mcq-04",
-        "magic-mcq-05",
-        "magic-mcq-06"
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magic」指「使用／研究超自然力量的做法或體系」。",
       "sentenceIndex": 3,
@@ -446,12 +432,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-02": "本句指「使用／研究超自然力量的做法或體系」。",
-        "magic-mcq-01": "「被認為能以超自然力量改變事物或造成不可能效果的力量」是「magic — supernatural power」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-02": "本句的「magic」指「使用／研究超自然力量的做法或體系」。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-02"
     },
@@ -463,11 +447,9 @@ export default {
       "masked": "The children watched a ____ show.",
       "options": [
         "magic-mcq-03",
-        "magic-mcq-02",
+        "magic-mcq-09",
         "magic-mcq-04",
-        "magic-mcq-01",
-        "magic-mcq-05",
-        "magic-mcq-06"
+        "magic-mcq-08"
       ],
       "explanation": "本句的「magic」指「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」。",
       "sentenceIndex": 4,
@@ -476,12 +458,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-03": "本句指「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-01": "「被認為能以超自然力量改變事物或造成不可能效果的力量」是「magic — supernatural power」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-03": "本句的「magic」指「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-03"
     },
@@ -493,11 +473,9 @@ export default {
       "masked": "He performs ____ at parties.",
       "options": [
         "magic-mcq-03",
-        "magic-mcq-02",
         "magic-mcq-04",
-        "magic-mcq-01",
-        "magic-mcq-05",
-        "magic-mcq-06"
+        "magic-mcq-09",
+        "magic-mcq-08"
       ],
       "explanation": "本句的「magic」指「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」。",
       "sentenceIndex": 5,
@@ -506,12 +484,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-03": "本句指「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-01": "「被認為能以超自然力量改變事物或造成不可能效果的力量」是「magic — supernatural power」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-03": "本句的「magic」指「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-03"
     },
@@ -523,11 +499,9 @@ export default {
       "masked": "The painting has a kind of quiet ____ about it.",
       "options": [
         "magic-mcq-04",
-        "magic-mcq-03",
-        "magic-mcq-05",
-        "magic-mcq-02",
-        "magic-mcq-06",
-        "magic-mcq-01"
+        "magic-mcq-12",
+        "magic-mcq-08",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」。",
       "sentenceIndex": 6,
@@ -536,12 +510,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-04": "本句指「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-01": "「被認為能以超自然力量改變事物或造成不可能效果的力量」是「magic — supernatural power」的用法，與本句語境不同。"
+        "magic-mcq-04": "本句的「magic」指「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」。",
+        "magic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-04"
     },
@@ -553,11 +525,9 @@ export default {
       "masked": "There is a special ____ in the evening light.",
       "options": [
         "magic-mcq-04",
-        "magic-mcq-03",
-        "magic-mcq-05",
-        "magic-mcq-02",
-        "magic-mcq-06",
-        "magic-mcq-01"
+        "magic-mcq-13",
+        "magic-mcq-08",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」。",
       "sentenceIndex": 7,
@@ -566,12 +536,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-04": "本句指「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-01": "「被認為能以超自然力量改變事物或造成不可能效果的力量」是「magic — supernatural power」的用法，與本句語境不同。"
+        "magic-mcq-04": "本句的「magic」指「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」。",
+        "magic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-04"
     },
@@ -583,11 +551,9 @@ export default {
       "masked": "The music created a sense of ____ in the room.",
       "options": [
         "magic-mcq-05",
-        "magic-mcq-04",
-        "magic-mcq-06",
-        "magic-mcq-03",
-        "magic-mcq-07",
-        "magic-mcq-02"
+        "magic-mcq-12",
+        "magic-pdf-001",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magic」指「令人感到特別、夢幻、迷人的氣氛或感受」。",
       "sentenceIndex": 8,
@@ -596,12 +562,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-05": "本句指「令人感到特別、夢幻、迷人的氣氛或感受」。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。"
+        "magic-mcq-05": "本句的「magic」指「令人感到特別、夢幻、迷人的氣氛或感受」。",
+        "magic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-05"
     },
@@ -613,11 +577,9 @@ export default {
       "masked": "The garden loses some of its ____ in harsh daylight.",
       "options": [
         "magic-mcq-05",
-        "magic-mcq-04",
-        "magic-mcq-06",
-        "magic-mcq-03",
-        "magic-mcq-07",
-        "magic-mcq-02"
+        "magic-mcq-01",
+        "magic-mcq-09",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「令人感到特別、夢幻、迷人的氣氛或感受」。",
       "sentenceIndex": 9,
@@ -626,12 +588,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-05": "本句指「令人感到特別、夢幻、迷人的氣氛或感受」。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-02": "「使用／研究超自然力量的做法或體系」是「magic — supernatural practice」的用法，與本句語境不同。"
+        "magic-mcq-05": "本句的「magic」指「令人感到特別、夢幻、迷人的氣氛或感受」。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-05"
     },
@@ -644,10 +604,7 @@ export default {
       "options": [
         "magic-mcq-06",
         "magic-mcq-05",
-        "magic-mcq-07",
-        "magic-mcq-04",
-        "magic-mcq-08",
-        "magic-mcq-03"
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「某方法帶來出乎意料地好的效果」。",
       "sentenceIndex": 10,
@@ -656,12 +613,9 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-06": "本句指「某方法帶來出乎意料地好的效果」。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。"
+        "magic-mcq-06": "本句的「magic」指「某方法帶來出乎意料地好的效果」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-06"
     },
@@ -674,10 +628,7 @@ export default {
       "options": [
         "magic-mcq-06",
         "magic-mcq-05",
-        "magic-mcq-07",
-        "magic-mcq-04",
-        "magic-mcq-08",
-        "magic-mcq-03"
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「某方法帶來出乎意料地好的效果」。",
       "sentenceIndex": 11,
@@ -686,12 +637,9 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-06": "本句指「某方法帶來出乎意料地好的效果」。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-03": "「利用技巧、錯覺或機關製造看似不可能效果的魔術表演」是「magic — stage entertainment」的用法，與本句語境不同。"
+        "magic-mcq-06": "本句的「magic」指「某方法帶來出乎意料地好的效果」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-06"
     },
@@ -703,11 +651,7 @@ export default {
       "masked": "The character carries a ____ key.",
       "options": [
         "magic-mcq-07",
-        "magic-mcq-06",
-        "magic-mcq-08",
-        "magic-mcq-05",
-        "magic-mcq-09",
-        "magic-mcq-04"
+        "magic-mcq-05"
       ],
       "explanation": "本句的「magic」指「具有魔法力量，或被想像成能神奇解決問題的」。",
       "sentenceIndex": 12,
@@ -716,12 +660,8 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-07": "本句指「具有魔法力量，或被想像成能神奇解決問題的」。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。"
+        "magic-mcq-07": "本句的「magic」指「具有魔法力量，或被想像成能神奇解決問題的」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-07"
     },
@@ -733,11 +673,7 @@ export default {
       "masked": "He waved a ____ wand.",
       "options": [
         "magic-mcq-07",
-        "magic-mcq-06",
-        "magic-mcq-08",
-        "magic-mcq-05",
-        "magic-mcq-09",
-        "magic-mcq-04"
+        "magic-mcq-05"
       ],
       "explanation": "本句的「magic」指「具有魔法力量，或被想像成能神奇解決問題的」。",
       "sentenceIndex": 13,
@@ -746,12 +682,8 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-07": "本句指「具有魔法力量，或被想像成能神奇解決問題的」。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。"
+        "magic-mcq-07": "本句的「magic」指「具有魔法力量，或被想像成能神奇解決問題的」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-07"
     },
@@ -763,11 +695,7 @@ export default {
       "masked": "There is no ____ to the problem.",
       "options": [
         "magic-mcq-07",
-        "magic-mcq-06",
-        "magic-mcq-08",
-        "magic-mcq-05",
-        "magic-mcq-09",
-        "magic-mcq-04"
+        "magic-mcq-05"
       ],
       "explanation": "本句的「magic solution」指「具有魔法力量，或被想像成能神奇解決問題的」。",
       "sentenceIndex": 14,
@@ -776,12 +704,8 @@ export default {
         "magic solution"
       ],
       "optionReasons": {
-        "magic-mcq-07": "本句指「具有魔法力量，或被想像成能神奇解決問題的」。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。"
+        "magic-mcq-07": "本句的「magic solution」指「具有魔法力量，或被想像成能神奇解決問題的」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-07"
     },
@@ -793,11 +717,7 @@ export default {
       "masked": "We are looking for a ____ formula, but none exists.",
       "options": [
         "magic-mcq-07",
-        "magic-mcq-06",
-        "magic-mcq-08",
-        "magic-mcq-05",
-        "magic-mcq-09",
-        "magic-mcq-04"
+        "magic-mcq-05"
       ],
       "explanation": "本句的「magic」指「具有魔法力量，或被想像成能神奇解決問題的」。",
       "sentenceIndex": 15,
@@ -806,12 +726,8 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-07": "本句指「具有魔法力量，或被想像成能神奇解決問題的」。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-04": "「某人、地方、作品或時刻具有的難以解釋但非常迷人的感染力」是「magic — figurative charm」的用法，與本句語境不同。"
+        "magic-mcq-07": "本句的「magic」指「具有魔法力量，或被想像成能神奇解決問題的」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-07"
     },
@@ -823,11 +739,9 @@ export default {
       "masked": "There is no single ____ for the ideal room temperature.",
       "options": [
         "magic-mcq-08",
-        "magic-mcq-07",
-        "magic-mcq-09",
-        "magic-mcq-06",
-        "magic-mcq-10",
-        "magic-mcq-05"
+        "magic-mcq-04",
+        "magic-pdf-001",
+        "magic-mcq-02"
       ],
       "explanation": "本句的「magic number」指「被視為對達成目標或觸發結果特別重要的數字」。",
       "sentenceIndex": 16,
@@ -836,12 +750,10 @@ export default {
         "magic number"
       ],
       "optionReasons": {
-        "magic-mcq-08": "本句指「被視為對達成目標或觸發結果特別重要的數字」。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。"
+        "magic-mcq-08": "本句的「magic number」指「被視為對達成目標或觸發結果特別重要的數字」。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-08"
     },
@@ -853,11 +765,9 @@ export default {
       "masked": "For the team, ten thousand visitors was the ____ number.",
       "options": [
         "magic-mcq-08",
-        "magic-mcq-07",
-        "magic-mcq-09",
-        "magic-mcq-06",
-        "magic-mcq-10",
-        "magic-mcq-05"
+        "magic-mcq-04",
+        "magic-mcq-02",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「被視為對達成目標或觸發結果特別重要的數字」。",
       "sentenceIndex": 17,
@@ -866,12 +776,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-08": "本句指「被視為對達成目標或觸發結果特別重要的數字」。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-05": "「令人感到特別、夢幻、迷人的氣氛或感受」是「magic — atmosphere」的用法，與本句語境不同。"
+        "magic-mcq-08": "本句的「magic」指「被視為對達成目標或觸發結果特別重要的數字」。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-08"
     },
@@ -883,11 +791,8 @@ export default {
       "masked": "There is no ____ for reducing stress.",
       "options": [
         "magic-mcq-09",
-        "magic-mcq-08",
-        "magic-mcq-10",
-        "magic-mcq-07",
-        "magic-mcq-11",
-        "magic-mcq-06"
+        "magic-mcq-03",
+        "magic-mcq-05"
       ],
       "explanation": "本句的「magic bullet」指「被期待能快速解決複雜問題的單一萬靈方法」。",
       "sentenceIndex": 18,
@@ -896,12 +801,9 @@ export default {
         "magic bullet"
       ],
       "optionReasons": {
-        "magic-mcq-09": "本句指「被期待能快速解決複雜問題的單一萬靈方法」。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-09": "本句的「magic bullet」指「被期待能快速解決複雜問題的單一萬靈方法」。",
+        "magic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-09"
     },
@@ -913,11 +815,9 @@ export default {
       "masked": "Technology is not a ____ bullet for every problem.",
       "options": [
         "magic-mcq-09",
-        "magic-mcq-08",
-        "magic-mcq-10",
-        "magic-mcq-07",
-        "magic-mcq-11",
-        "magic-mcq-06"
+        "magic-mcq-01",
+        "magic-mcq-05",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magic」指「被期待能快速解決複雜問題的單一萬靈方法」。",
       "sentenceIndex": 19,
@@ -926,12 +826,10 @@ export default {
         "magic"
       ],
       "optionReasons": {
-        "magic-mcq-09": "本句指「被期待能快速解決複雜問題的單一萬靈方法」。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-06": "「某方法帶來出乎意料地好的效果」是「magic — remarkable effect」的用法，與本句語境不同。"
+        "magic-mcq-09": "本句的「magic」指「被期待能快速解決複雜問題的單一萬靈方法」。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-09"
     },
@@ -943,11 +841,9 @@ export default {
       "masked": "The story takes place in a ____ world.",
       "options": [
         "magic-mcq-10",
-        "magic-mcq-09",
-        "magic-mcq-11",
         "magic-mcq-08",
-        "magic-mcq-12",
-        "magic-mcq-07"
+        "magic-mcq-09",
+        "magic-mcq-04"
       ],
       "explanation": "本句的「magical」指「與超自然魔法力量有關的」。",
       "sentenceIndex": 20,
@@ -956,12 +852,10 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magic-mcq-10": "本句指「與超自然魔法力量有關的」。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。"
+        "magic-mcq-10": "本句的「magical」指「與超自然魔法力量有關的」。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-10"
     },
@@ -973,11 +867,8 @@ export default {
       "masked": "The ring has ____ powers.",
       "options": [
         "magic-mcq-10",
-        "magic-mcq-09",
-        "magic-mcq-11",
-        "magic-mcq-08",
-        "magic-mcq-12",
-        "magic-mcq-07"
+        "magic-mcq-05",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magical」指「與超自然魔法力量有關的」。",
       "sentenceIndex": 21,
@@ -986,12 +877,9 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magic-mcq-10": "本句指「與超自然魔法力量有關的」。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-07": "「具有魔法力量，或被想像成能神奇解決問題的」是「magic + noun」的用法，與本句語境不同。"
+        "magic-mcq-10": "本句的「magical」指「與超自然魔法力量有關的」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-10"
     },
@@ -1003,11 +891,8 @@ export default {
       "masked": "The lake looked ____ at sunset.",
       "options": [
         "magic-mcq-11",
-        "magic-mcq-10",
-        "magic-mcq-12",
-        "magic-mcq-09",
-        "magic-mcq-13",
-        "magic-mcq-08"
+        "magic-mcq-01",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magical」指「美好、迷人得令人感到像魔法般特別的」。",
       "sentenceIndex": 22,
@@ -1016,12 +901,9 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magic-mcq-11": "本句指「美好、迷人得令人感到像魔法般特別的」。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-11": "本句的「magical」指「美好、迷人得令人感到像魔法般特別的」。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-11"
     },
@@ -1033,11 +915,8 @@ export default {
       "masked": "It was a ____ evening.",
       "options": [
         "magic-mcq-11",
-        "magic-mcq-10",
-        "magic-mcq-12",
-        "magic-mcq-09",
-        "magic-mcq-13",
-        "magic-mcq-08"
+        "magic-mcq-01",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magical」指「美好、迷人得令人感到像魔法般特別的」。",
       "sentenceIndex": 23,
@@ -1046,12 +925,9 @@ export default {
         "magical"
       ],
       "optionReasons": {
-        "magic-mcq-11": "本句指「美好、迷人得令人感到像魔法般特別的」。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-11": "本句的「magical」指「美好、迷人得令人感到像魔法般特別的」。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-11"
     },
@@ -1063,11 +939,9 @@ export default {
       "masked": "The door ____ opened.",
       "options": [
         "magic-pdf-001",
-        "magic-mcq-10",
-        "magic-mcq-12",
-        "magic-mcq-09",
-        "magic-mcq-13",
-        "magic-mcq-08"
+        "magic-mcq-04",
+        "magic-mcq-08",
+        "magic-mcq-01"
       ],
       "explanation": "本句的「magically」指「以看似魔法／不可思議的方式」。",
       "sentenceIndex": 24,
@@ -1076,12 +950,10 @@ export default {
         "magically"
       ],
       "optionReasons": {
-        "magic-pdf-001": "本句指「以看似魔法／不可思議的方式」。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-pdf-001": "本句的「magically」指「以看似魔法／不可思議的方式」。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-pdf-001"
     },
@@ -1093,11 +965,9 @@ export default {
       "masked": "The object ____ disappeared.",
       "options": [
         "magic-pdf-001",
-        "magic-mcq-10",
-        "magic-mcq-12",
-        "magic-mcq-09",
-        "magic-mcq-13",
-        "magic-mcq-08"
+        "magic-mcq-08",
+        "magic-mcq-01",
+        "magic-mcq-04"
       ],
       "explanation": "本句的「magically」指「以看似魔法／不可思議的方式」。",
       "sentenceIndex": 25,
@@ -1106,12 +976,10 @@ export default {
         "magically"
       ],
       "optionReasons": {
-        "magic-pdf-001": "本句指「以看似魔法／不可思議的方式」。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-pdf-001": "本句的「magically」指「以看似魔法／不可思議的方式」。",
+        "magic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-pdf-001"
     },
@@ -1123,11 +991,8 @@ export default {
       "masked": "The colours worked ____ together.",
       "options": [
         "magic-mcq-11",
-        "magic-mcq-10",
-        "magic-mcq-12",
-        "magic-mcq-09",
-        "magic-mcq-13",
-        "magic-mcq-08"
+        "magic-mcq-01",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magically」指「美好、迷人得令人感到像魔法般特別的」。",
       "sentenceIndex": 26,
@@ -1136,12 +1001,9 @@ export default {
         "magically"
       ],
       "optionReasons": {
-        "magic-mcq-11": "本句指「美好、迷人得令人感到像魔法般特別的」。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-11": "本句的「magically」指「美好、迷人得令人感到像魔法般特別的」。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-11"
     },
@@ -1153,11 +1015,8 @@ export default {
       "masked": "The room seemed ____ transformed.",
       "options": [
         "magic-mcq-11",
-        "magic-mcq-10",
-        "magic-mcq-12",
-        "magic-mcq-09",
-        "magic-mcq-13",
-        "magic-mcq-08"
+        "magic-mcq-01",
+        "magic-mcq-09"
       ],
       "explanation": "本句的「magically」指「美好、迷人得令人感到像魔法般特別的」。",
       "sentenceIndex": 27,
@@ -1166,12 +1025,9 @@ export default {
         "magically"
       ],
       "optionReasons": {
-        "magic-mcq-11": "本句指「美好、迷人得令人感到像魔法般特別的」。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-11": "本句的「magically」指「美好、迷人得令人感到像魔法般特別的」。",
+        "magic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-11"
     },
@@ -1183,11 +1039,9 @@ export default {
       "masked": "The ____ made the card disappear.",
       "options": [
         "magic-mcq-12",
-        "magic-mcq-11",
-        "magic-mcq-13",
-        "magic-mcq-10",
         "magic-mcq-09",
-        "magic-mcq-08"
+        "magic-mcq-05",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magician」指「以技巧和錯覺表演魔術的人」。",
       "sentenceIndex": 28,
@@ -1196,12 +1050,10 @@ export default {
         "magician"
       ],
       "optionReasons": {
-        "magic-mcq-12": "本句指「以技巧和錯覺表演魔術的人」。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-12": "本句的「magician」指「以技巧和錯覺表演魔術的人」。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-12"
     },
@@ -1213,11 +1065,9 @@ export default {
       "masked": "A professional ____ performed at the event.",
       "options": [
         "magic-mcq-12",
-        "magic-mcq-11",
-        "magic-mcq-13",
-        "magic-mcq-10",
+        "magic-mcq-05",
         "magic-mcq-09",
-        "magic-mcq-08"
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magician」指「以技巧和錯覺表演魔術的人」。",
       "sentenceIndex": 29,
@@ -1226,12 +1076,10 @@ export default {
         "magician"
       ],
       "optionReasons": {
-        "magic-mcq-12": "本句指「以技巧和錯覺表演魔術的人」。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-13": "「在某領域技巧極高、能做出令人驚嘆效果的人」是「magician — figurative」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-12": "本句的「magician」指「以技巧和錯覺表演魔術的人」。",
+        "magic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-12"
     },
@@ -1243,11 +1091,9 @@ export default {
       "masked": "She is a ____ with colour.",
       "options": [
         "magic-mcq-13",
-        "magic-mcq-12",
-        "magic-mcq-11",
-        "magic-mcq-10",
         "magic-mcq-09",
-        "magic-mcq-08"
+        "magic-pdf-001",
+        "magic-mcq-04"
       ],
       "explanation": "本句的「magician」指「在某領域技巧極高、能做出令人驚嘆效果的人」。",
       "sentenceIndex": 30,
@@ -1256,12 +1102,10 @@ export default {
         "magician"
       ],
       "optionReasons": {
-        "magic-mcq-13": "本句指「在某領域技巧極高、能做出令人驚嘆效果的人」。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-13": "本句的「magician」指「在某領域技巧極高、能做出令人驚嘆效果的人」。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-13"
     },
@@ -1273,11 +1117,9 @@ export default {
       "masked": "That chef is a ____ in the kitchen.",
       "options": [
         "magic-mcq-13",
-        "magic-mcq-12",
-        "magic-mcq-11",
-        "magic-mcq-10",
         "magic-mcq-09",
-        "magic-mcq-08"
+        "magic-mcq-04",
+        "magic-pdf-001"
       ],
       "explanation": "本句的「magician」指「在某領域技巧極高、能做出令人驚嘆效果的人」。",
       "sentenceIndex": 31,
@@ -1286,12 +1128,10 @@ export default {
         "magician"
       ],
       "optionReasons": {
-        "magic-mcq-13": "本句指「在某領域技巧極高、能做出令人驚嘆效果的人」。",
-        "magic-mcq-12": "「以技巧和錯覺表演魔術的人」是「magician — performer」的用法，與本句語境不同。",
-        "magic-mcq-11": "「美好、迷人得令人感到像魔法般特別的」是「magical — figurative」的用法，與本句語境不同。",
-        "magic-mcq-10": "「與超自然魔法力量有關的」是「magical — supernatural」的用法，與本句語境不同。",
-        "magic-mcq-09": "「被期待能快速解決複雜問題的單一萬靈方法」是「magic bullet」的用法，與本句語境不同。",
-        "magic-mcq-08": "「被視為對達成目標或觸發結果特別重要的數字」是「magic number」的用法，與本句語境不同。"
+        "magic-mcq-13": "本句的「magician」指「在某領域技巧極高、能做出令人驚嘆效果的人」。",
+        "magic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "magic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "magic-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "magic-mcq-13"
     }
@@ -1303,5 +1143,7 @@ export default {
     "sha256": "b24c11d1092f77263015fe092ec5fa84df5981c70dc7d5ae350deb03bb8c1b7c",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

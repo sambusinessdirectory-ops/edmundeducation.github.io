@@ -802,10 +802,7 @@ export default {
       "options": [
         "buy-01",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：buy + product/item （商品／物品）。這裡著重「買；購買」。",
       "sentenceIndex": 0,
@@ -814,12 +811,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-01": "本句搭配 buy + product/item （商品／物品），應理解為「買；購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + product/item （商品／物品） 的用法不同。"
+        "buy-01": "留意搭配：buy + product/item （商品／物品）。這裡著重「買；購買」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -830,11 +824,8 @@ export default {
       "masked": "我昨天____一副新耳機。",
       "options": [
         "buy-01",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05"
       ],
       "explanation": "留意搭配：buy + product/item （商品／物品）。這裡著重「買；購買」。",
       "sentenceIndex": 1,
@@ -843,12 +834,9 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-01": "本句搭配 buy + product/item （商品／物品），應理解為「買；購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + product/item （商品／物品） 的用法不同。"
+        "buy-01": "留意搭配：buy + product/item （商品／物品）。這裡著重「買；購買」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -859,11 +847,8 @@ export default {
       "masked": "你在哪裡____那部手提電腦？",
       "options": [
         "buy-01",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05"
       ],
       "explanation": "留意搭配：buy + product/item （商品／物品）。這裡著重「買；購買」。",
       "sentenceIndex": 2,
@@ -872,12 +857,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-01": "本句搭配 buy + product/item （商品／物品），應理解為「買；購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + product/item （商品／物品） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + product/item （商品／物品） 的用法不同。"
+        "buy-01": "留意搭配：buy + product/item （商品／物品）。這裡著重「買；購買」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -888,11 +870,8 @@ export default {
       "masked": "我在網上____一張火車票。",
       "options": [
         "buy-02",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-21",
+        "buy-07"
       ],
       "explanation": "留意搭配：buy + food/drink/ticket/service （食物／飲品／票／服務）。這裡著重「購買；付款取得」。",
       "sentenceIndex": 3,
@@ -901,12 +880,9 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-02": "本句搭配 buy + food/drink/ticket/service （食物／飲品／票／服務），應理解為「購買；付款取得」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。"
+        "buy-02": "留意搭配：buy + food/drink/ticket/service （食物／飲品／票／服務）。這裡著重「購買；付款取得」。",
+        "buy-21": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -917,11 +893,8 @@ export default {
       "masked": "她____。",
       "options": [
         "buy-02",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-21",
+        "buy-07"
       ],
       "explanation": "留意搭配：buy + food/drink/ticket/service （食物／飲品／票／服務）。這裡著重「購買；付款取得」。",
       "sentenceIndex": 4,
@@ -930,12 +903,9 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-02": "本句搭配 buy + food/drink/ticket/service （食物／飲品／票／服務），應理解為「購買；付款取得」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + food/drink/ticket/service （食物／飲品／票／服務） 的用法不同。"
+        "buy-02": "留意搭配：buy + food/drink/ticket/service （食物／飲品／票／服務）。這裡著重「購買；付款取得」。",
+        "buy-21": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -946,11 +916,8 @@ export default {
       "masked": "我會____。",
       "options": [
         "buy-03",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05"
       ],
       "explanation": "留意搭配：buy + person + something。這裡著重「買某物給某人；請某人」。",
       "sentenceIndex": 5,
@@ -959,12 +926,9 @@ export default {
         "buy you lunch"
       ],
       "optionReasons": {
-        "buy-03": "本句搭配 buy + person + something，應理解為「買某物給某人；請某人」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + person + something 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + person + something 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + person + something 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + person + something 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + person + something 的用法不同。"
+        "buy-03": "留意搭配：buy + person + something。這裡著重「買某物給某人；請某人」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -976,10 +940,7 @@ export default {
       "options": [
         "buy-03",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：buy + person + something。這裡著重「買某物給某人；請某人」。",
       "sentenceIndex": 6,
@@ -988,12 +949,9 @@ export default {
         "bought her brother a birthday present"
       ],
       "optionReasons": {
-        "buy-03": "本句搭配 buy + person + something，應理解為「買某物給某人；請某人」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + person + something 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + person + something 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + person + something 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + person + something 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + person + something 的用法不同。"
+        "buy-03": "留意搭配：buy + person + something。這裡著重「買某物給某人；請某人」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1004,11 +962,8 @@ export default {
       "masked": "較大的公司____了那間較小的企業。",
       "options": [
         "buy-04",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05"
       ],
       "explanation": "留意搭配：buy + company/business/property/assets （公司／業務／資產）。這裡著重「收購；買下」。",
       "sentenceIndex": 7,
@@ -1017,12 +972,9 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-04": "本句搭配 buy + company/business/property/assets （公司／業務／資產），應理解為「收購；買下」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。"
+        "buy-04": "留意搭配：buy + company/business/property/assets （公司／業務／資產）。這裡著重「收購；買下」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1034,10 +986,7 @@ export default {
       "options": [
         "buy-04",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：buy + company/business/property/assets （公司／業務／資產）。這裡著重「收購；買下」。",
       "sentenceIndex": 8,
@@ -1046,12 +995,9 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-04": "本句搭配 buy + company/business/property/assets （公司／業務／資產），應理解為「收購；買下」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy + company/business/property/assets （公司／業務／資產） 的用法不同。"
+        "buy-04": "留意搭配：buy + company/business/property/assets （公司／業務／資產）。這裡著重「收購；買下」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1062,11 +1008,9 @@ export default {
       "masked": "____。",
       "options": [
         "buy-05",
+        "buy-18",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19",
-        "buy-21"
+        "buy-19"
       ],
       "explanation": "留意搭配：buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）。這裡著重「相信；接受」。",
       "sentenceIndex": 9,
@@ -1075,12 +1019,10 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-05": "本句搭配 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口），應理解為「相信；接受」。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。"
+        "buy-05": "留意搭配：buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）。這裡著重「相信；接受」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-19": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1091,10 +1033,8 @@ export default {
       "masked": "你真的____那個解釋嗎？",
       "options": [
         "buy-05",
+        "buy-11",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19",
         "buy-21"
       ],
       "explanation": "留意搭配：buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）。這裡著重「相信；接受」。",
@@ -1104,12 +1044,10 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-05": "本句搭配 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口），應理解為「相信；接受」。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口） 的用法不同。"
+        "buy-05": "留意搭配：buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）。這裡著重「相信；接受」。",
+        "buy-11": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1121,10 +1059,8 @@ export default {
       "options": [
         "buy-06",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-18",
+        "buy-21"
       ],
       "explanation": "留意搭配：buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠）。這裡著重「用金錢／利益換取；收買」。",
       "sentenceIndex": 11,
@@ -1133,12 +1069,10 @@ export default {
         "buy his silence"
       ],
       "optionReasons": {
-        "buy-06": "本句搭配 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠），應理解為「用金錢／利益換取；收買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。"
+        "buy-06": "留意搭配：buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠）。這裡著重「用金錢／利益換取；收買」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1149,11 +1083,9 @@ export default {
       "masked": "____無法買到真正的忠誠。",
       "options": [
         "buy-06",
+        "buy-18",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-21"
       ],
       "explanation": "留意搭配：buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠）。這裡著重「用金錢／利益換取；收買」。",
       "sentenceIndex": 12,
@@ -1162,12 +1094,10 @@ export default {
         "buy genuine loyalty"
       ],
       "optionReasons": {
-        "buy-06": "本句搭配 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠），應理解為「用金錢／利益換取；收買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠） 的用法不同。"
+        "buy-06": "留意搭配：buy someone’s silence/cooperation/loyalty （沉默／合作／忠誠）。這裡著重「用金錢／利益換取；收買」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1178,11 +1108,9 @@ export default {
       "masked": "臨時維修替我們____了一些時間。",
       "options": [
         "buy-07",
-        "buy-05",
-        "buy-15",
-        "buy-16",
         "buy-19",
-        "buy-21"
+        "buy-18",
+        "buy-05"
       ],
       "explanation": "留意搭配：buy time。這裡著重「爭取時間；拖延以換取更多時間」。",
       "sentenceIndex": 13,
@@ -1191,12 +1119,10 @@ export default {
         "bought us some time"
       ],
       "optionReasons": {
-        "buy-07": "本句搭配 buy time，應理解為「爭取時間；拖延以換取更多時間」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy time 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy time 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy time 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy time 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy time 的用法不同。"
+        "buy-07": "留意搭配：buy time。這裡著重「爭取時間；拖延以換取更多時間」。",
+        "buy-19": "請比較這個意思與句子中標示的用法。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1208,9 +1134,7 @@ export default {
       "options": [
         "buy-07",
         "buy-05",
-        "buy-15",
-        "buy-16",
-        "buy-19",
+        "buy-11",
         "buy-21"
       ],
       "explanation": "留意搭配：buy time。這裡著重「爭取時間；拖延以換取更多時間」。",
@@ -1220,12 +1144,10 @@ export default {
         "buy time"
       ],
       "optionReasons": {
-        "buy-07": "本句搭配 buy time，應理解為「爭取時間；拖延以換取更多時間」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy time 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy time 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy time 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy time 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy time 的用法不同。"
+        "buy-07": "留意搭配：buy time。這裡著重「爭取時間；拖延以換取更多時間」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-11": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1236,11 +1158,9 @@ export default {
       "masked": "____幸福。",
       "options": [
         "buy-08",
-        "buy-05",
+        "buy-18",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05"
       ],
       "explanation": "留意搭配：money can’t buy + abstract quality （幸福／愛／尊重）。這裡著重「金錢買不到 ……」。",
       "sentenceIndex": 15,
@@ -1249,12 +1169,10 @@ export default {
         "buy happiness"
       ],
       "optionReasons": {
-        "buy-08": "本句搭配 money can’t buy + abstract quality （幸福／愛／尊重），應理解為「金錢買不到 ……」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。"
+        "buy-08": "留意搭配：money can’t buy + abstract quality （幸福／愛／尊重）。這裡著重「金錢買不到 ……」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1265,11 +1183,9 @@ export default {
       "masked": "____。",
       "options": [
         "buy-08",
+        "buy-18",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：money can’t buy + abstract quality （幸福／愛／尊重）。這裡著重「金錢買不到 ……」。",
       "sentenceIndex": 16,
@@ -1278,12 +1194,10 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-08": "本句搭配 money can’t buy + abstract quality （幸福／愛／尊重），應理解為「金錢買不到 ……」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 money can’t buy + abstract quality （幸福／愛／尊重） 的用法不同。"
+        "buy-08": "留意搭配：money can’t buy + abstract quality （幸福／愛／尊重）。這裡著重「金錢買不到 ……」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1294,11 +1208,8 @@ export default {
       "masked": "額外投資為公司____更大的彈性。",
       "options": [
         "buy-09",
-        "buy-05",
-        "buy-15",
-        "buy-16",
-        "buy-19",
-        "buy-21"
+        "buy-18",
+        "buy-16"
       ],
       "explanation": "留意搭配：buy = secure a result/advantage by spending resources。這裡著重「換取；取得」。",
       "sentenceIndex": 17,
@@ -1307,12 +1218,9 @@ export default {
         "bought"
       ],
       "optionReasons": {
-        "buy-09": "本句搭配 buy = secure a result/advantage by spending resources，應理解為「換取；取得」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy = secure a result/advantage by spending resources 的用法不同。"
+        "buy-09": "留意搭配：buy = secure a result/advantage by spending resources。這裡著重「換取；取得」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1323,10 +1231,7 @@ export default {
       "masked": "短暫延遲可能替我們____一個更好的結果。",
       "options": [
         "buy-09",
-        "buy-05",
-        "buy-15",
-        "buy-16",
-        "buy-19",
+        "buy-10",
         "buy-21"
       ],
       "explanation": "留意搭配：buy = secure a result/advantage by spending resources。這裡著重「換取；取得」。",
@@ -1336,12 +1241,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-09": "本句搭配 buy = secure a result/advantage by spending resources，應理解為「換取；取得」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy = secure a result/advantage by spending resources 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy = secure a result/advantage by spending resources 的用法不同。"
+        "buy-09": "留意搭配：buy = secure a result/advantage by spending resources。這裡著重「換取；取得」。",
+        "buy-10": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1352,11 +1254,8 @@ export default {
       "masked": "那件外套是我今年買得最值得的一件____。",
       "options": [
         "buy-10",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-09",
+        "buy-21"
       ],
       "explanation": "留意搭配：a buy = something purchased （名詞）。這裡著重「買到的東西；一次購買」。",
       "sentenceIndex": 19,
@@ -1365,12 +1264,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-10": "本句搭配 a buy = something purchased （名詞），應理解為「買到的東西；一次購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 a buy = something purchased （名詞） 的用法不同。"
+        "buy-10": "留意搭配：a buy = something purchased （名詞）。這裡著重「買到的東西；一次購買」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1381,11 +1277,8 @@ export default {
       "masked": "那副耳機是一筆比較昂貴的____。",
       "options": [
         "buy-10",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-09",
+        "buy-21"
       ],
       "explanation": "留意搭配：a buy = something purchased （名詞）。這裡著重「買到的東西；一次購買」。",
       "sentenceIndex": 20,
@@ -1394,12 +1287,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-10": "本句搭配 a buy = something purchased （名詞），應理解為「買到的東西；一次購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 a buy = something purchased （名詞） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 a buy = something purchased （名詞） 的用法不同。"
+        "buy-10": "留意搭配：a buy = something purchased （名詞）。這裡著重「買到的東西；一次購買」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1410,11 +1300,8 @@ export default {
       "masked": "以這個價錢來說，____。",
       "options": [
         "buy-11",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-09",
+        "buy-21"
       ],
       "explanation": "留意搭配：a good/bad buy。這裡著重「划算／不划算的購買」。",
       "sentenceIndex": 21,
@@ -1423,12 +1310,9 @@ export default {
         "good buy"
       ],
       "optionReasons": {
-        "buy-11": "本句搭配 a good/bad buy，應理解為「划算／不划算的購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 a good/bad buy 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 a good/bad buy 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 a good/bad buy 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 a good/bad buy 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 a good/bad buy 的用法不同。"
+        "buy-11": "留意搭配：a good/bad buy。這裡著重「划算／不划算的購買」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1439,11 +1323,9 @@ export default {
       "masked": "那部舊車最後證明是一宗____。",
       "options": [
         "buy-11",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05",
+        "buy-21"
       ],
       "explanation": "留意搭配：a good/bad buy。這裡著重「划算／不划算的購買」。",
       "sentenceIndex": 22,
@@ -1452,12 +1334,10 @@ export default {
         "bad buy"
       ],
       "optionReasons": {
-        "buy-11": "本句搭配 a good/bad buy，應理解為「划算／不划算的購買」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 a good/bad buy 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 a good/bad buy 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 a good/bad buy 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 a good/bad buy 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 a good/bad buy 的用法不同。"
+        "buy-11": "留意搭配：a good/bad buy。這裡著重「划算／不划算的購買」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1468,11 +1348,8 @@ export default {
       "masked": "那間房子吸引了幾名潛在____。",
       "options": [
         "buy-12",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-09",
+        "buy-21"
       ],
       "explanation": "留意搭配：buyer = person/company that buys something。這裡著重「買家；購買者」。",
       "sentenceIndex": 23,
@@ -1481,12 +1358,9 @@ export default {
         "buyers"
       ],
       "optionReasons": {
-        "buy-12": "本句搭配 buyer = person/company that buys something，應理解為「買家；購買者」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyer = person/company that buys something 的用法不同。"
+        "buy-12": "留意搭配：buyer = person/company that buys something。這裡著重「買家；購買者」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1499,9 +1373,7 @@ export default {
         "buy-12",
         "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-21"
       ],
       "explanation": "留意搭配：buyer = person/company that buys something。這裡著重「買家；購買者」。",
       "sentenceIndex": 24,
@@ -1510,12 +1382,10 @@ export default {
         "buyers"
       ],
       "optionReasons": {
-        "buy-12": "本句搭配 buyer = person/company that buys something，應理解為「買家；購買者」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyer = person/company that buys something 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyer = person/company that buys something 的用法不同。"
+        "buy-12": "留意搭配：buyer = person/company that buys something。這裡著重「買家；購買者」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1526,11 +1396,9 @@ export default {
       "masked": "____。",
       "options": [
         "buy-13",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05",
+        "buy-21"
       ],
       "explanation": "留意搭配：buyer = professional purchasing employee （企業採購）。這裡著重「採購員；買手」。",
       "sentenceIndex": 25,
@@ -1539,12 +1407,10 @@ export default {
         "buyer"
       ],
       "optionReasons": {
-        "buy-13": "本句搭配 buyer = professional purchasing employee （企業採購），應理解為「採購員；買手」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。"
+        "buy-13": "留意搭配：buyer = professional purchasing employee （企業採購）。這裡著重「採購員；買手」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1555,11 +1421,8 @@ export default {
       "masked": "____。",
       "options": [
         "buy-13",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-09",
+        "buy-21"
       ],
       "explanation": "留意搭配：buyer = professional purchasing employee （企業採購）。這裡著重「採購員；買手」。",
       "sentenceIndex": 26,
@@ -1568,12 +1431,9 @@ export default {
         "buyer"
       ],
       "optionReasons": {
-        "buy-13": "本句搭配 buyer = professional purchasing employee （企業採購），應理解為「採購員；買手」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyer = professional purchasing employee （企業採購） 的用法不同。"
+        "buy-13": "留意搭配：buyer = professional purchasing employee （企業採購）。這裡著重「採購員；買手」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1584,11 +1444,8 @@ export default {
       "masked": "____。",
       "options": [
         "buy-14",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-09",
+        "buy-21"
       ],
       "explanation": "留意搭配：buying = activity/process of purchasing。這裡著重「購買；採購活動」。",
       "sentenceIndex": 27,
@@ -1597,12 +1454,9 @@ export default {
         "buying"
       ],
       "optionReasons": {
-        "buy-14": "本句搭配 buying = activity/process of purchasing，應理解為「購買；採購活動」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buying = activity/process of purchasing 的用法不同。"
+        "buy-14": "留意搭配：buying = activity/process of purchasing。這裡著重「購買；採購活動」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1613,11 +1467,9 @@ export default {
       "masked": "公司把____工作集中管理。",
       "options": [
         "buy-14",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05",
+        "buy-21"
       ],
       "explanation": "留意搭配：buying = activity/process of purchasing。這裡著重「購買；採購活動」。",
       "sentenceIndex": 28,
@@ -1626,12 +1478,10 @@ export default {
         "buying"
       ],
       "optionReasons": {
-        "buy-14": "本句搭配 buying = activity/process of purchasing，應理解為「購買；採購活動」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buying = activity/process of purchasing 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buying = activity/process of purchasing 的用法不同。"
+        "buy-14": "留意搭配：buying = activity/process of purchasing。這裡著重「購買；採購活動」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1642,11 +1492,7 @@ export default {
       "masked": "通脹會降低消費者的____。",
       "options": [
         "buy-15",
-        "buy-05",
-        "buy-07",
-        "buy-16",
-        "buy-19",
-        "buy-21"
+        "buy-09"
       ],
       "explanation": "留意搭配：buying power / purchasing power。這裡著重「購買力」。",
       "sentenceIndex": 29,
@@ -1655,12 +1501,8 @@ export default {
         "buying power"
       ],
       "optionReasons": {
-        "buy-15": "本句搭配 buying power / purchasing power，應理解為「購買力」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buying power / purchasing power 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buying power / purchasing power 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buying power / purchasing power 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buying power / purchasing power 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buying power / purchasing power 的用法不同。"
+        "buy-15": "留意搭配：buying power / purchasing power。這裡著重「購買力」。",
+        "buy-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1672,10 +1514,7 @@ export default {
       "options": [
         "buy-15",
         "buy-05",
-        "buy-07",
-        "buy-16",
-        "buy-19",
-        "buy-21"
+        "buy-07"
       ],
       "explanation": "留意搭配：buying power / purchasing power。這裡著重「購買力」。",
       "sentenceIndex": 30,
@@ -1684,12 +1523,9 @@ export default {
         "buying power"
       ],
       "optionReasons": {
-        "buy-15": "本句搭配 buying power / purchasing power，應理解為「購買力」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buying power / purchasing power 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buying power / purchasing power 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buying power / purchasing power 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buying power / purchasing power 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buying power / purchasing power 的用法不同。"
+        "buy-15": "留意搭配：buying power / purchasing power。這裡著重「購買力」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1700,11 +1536,9 @@ export default {
       "masked": "需求下降形成了____。",
       "options": [
         "buy-16",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-19",
-        "buy-21"
+        "buy-05",
+        "buy-18"
       ],
       "explanation": "留意搭配：buyer’s market。這裡著重「買方市場」。",
       "sentenceIndex": 31,
@@ -1713,12 +1547,10 @@ export default {
         "buyer’s market"
       ],
       "optionReasons": {
-        "buy-16": "本句搭配 buyer’s market，應理解為「買方市場」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyer’s market 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyer’s market 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyer’s market 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyer’s market 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buyer’s market 的用法不同。"
+        "buy-16": "留意搭配：buyer’s market。這裡著重「買方市場」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-18": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1729,11 +1561,9 @@ export default {
       "masked": "在____中，顧客可能更容易議價。",
       "options": [
         "buy-16",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-19",
-        "buy-21"
+        "buy-18",
+        "buy-05"
       ],
       "explanation": "留意搭配：buyer’s market。這裡著重「買方市場」。",
       "sentenceIndex": 32,
@@ -1742,12 +1572,10 @@ export default {
         "buyer’s market"
       ],
       "optionReasons": {
-        "buy-16": "本句搭配 buyer’s market，應理解為「買方市場」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyer’s market 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyer’s market 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyer’s market 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyer’s market 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buyer’s market 的用法不同。"
+        "buy-16": "留意搭配：buyer’s market。這裡著重「買方市場」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1758,11 +1586,9 @@ export default {
       "masked": "公司同意進行管理層____。",
       "options": [
         "buy-17",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05",
+        "buy-21"
       ],
       "explanation": "留意搭配：buyout = purchase of controlling/full ownership。這裡著重「收購；買斷」。",
       "sentenceIndex": 33,
@@ -1771,12 +1597,10 @@ export default {
         "buyout"
       ],
       "optionReasons": {
-        "buy-17": "本句搭配 buyout = purchase of controlling/full ownership，應理解為「收購；買斷」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyout = purchase of controlling/full ownership 的用法不同。"
+        "buy-17": "留意搭配：buyout = purchase of controlling/full ownership。這裡著重「收購；買斷」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1787,11 +1611,9 @@ export default {
       "masked": "____。",
       "options": [
         "buy-17",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05",
+        "buy-21"
       ],
       "explanation": "留意搭配：buyout = purchase of controlling/full ownership。這裡著重「收購；買斷」。",
       "sentenceIndex": 34,
@@ -1800,12 +1622,10 @@ export default {
         "buyout"
       ],
       "optionReasons": {
-        "buy-17": "本句搭配 buyout = purchase of controlling/full ownership，應理解為「收購；買斷」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyout = purchase of controlling/full ownership 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyout = purchase of controlling/full ownership 的用法不同。"
+        "buy-17": "留意搭配：buyout = purchase of controlling/full ownership。這裡著重「收購；買斷」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1817,10 +1637,8 @@ export default {
       "options": [
         "buy-18",
         "buy-05",
-        "buy-07",
-        "buy-15",
         "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：buyback = company repurchasing something previously sold/issued。這裡著重「回購」。",
       "sentenceIndex": 35,
@@ -1829,12 +1647,10 @@ export default {
         "buyback"
       ],
       "optionReasons": {
-        "buy-18": "本句搭配 buyback = company repurchasing something previously sold/issued，應理解為「回購」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。"
+        "buy-18": "留意搭配：buyback = company repurchasing something previously sold/issued。這裡著重「回購」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-16": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1845,11 +1661,9 @@ export default {
       "masked": "零售商提供裝置____計劃。",
       "options": [
         "buy-18",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-06",
+        "buy-21",
+        "buy-05"
       ],
       "explanation": "留意搭配：buyback = company repurchasing something previously sold/issued。這裡著重「回購」。",
       "sentenceIndex": 36,
@@ -1858,12 +1672,10 @@ export default {
         "buyback"
       ],
       "optionReasons": {
-        "buy-18": "本句搭配 buyback = company repurchasing something previously sold/issued，應理解為「回購」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buyback = company repurchasing something previously sold/issued 的用法不同。"
+        "buy-18": "留意搭配：buyback = company repurchasing something previously sold/issued。這裡著重「回購」。",
+        "buy-06": "請比較這個意思與句子中標示的用法。",
+        "buy-21": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1874,11 +1686,9 @@ export default {
       "masked": "這間店有____優惠。",
       "options": [
         "buy-19",
-        "buy-05",
+        "buy-18",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-21"
+        "buy-05"
       ],
       "explanation": "留意搭配：buy one, get one free / BOGO。這裡著重「買一送一」。",
       "sentenceIndex": 37,
@@ -1887,12 +1697,10 @@ export default {
         "buy one, get one free"
       ],
       "optionReasons": {
-        "buy-19": "本句搭配 buy one, get one free / BOGO，應理解為「買一送一」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy one, get one free / BOGO 的用法不同。"
+        "buy-19": "留意搭配：buy one, get one free / BOGO。這裡著重「買一送一」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1903,11 +1711,9 @@ export default {
       "masked": "今天飲品有____優惠。",
       "options": [
         "buy-19",
+        "buy-18",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-21"
+        "buy-07"
       ],
       "explanation": "留意搭配：buy one, get one free / BOGO。這裡著重「買一送一」。",
       "sentenceIndex": 38,
@@ -1916,12 +1722,10 @@ export default {
         "buy one, get one free"
       ],
       "optionReasons": {
-        "buy-19": "本句搭配 buy one, get one free / BOGO，應理解為「買一送一」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy one, get one free / BOGO 的用法不同。",
-        "buy-21": "「買入評級／買入建議」適用於 a buy = investment recommendation to purchase （金融）；與本句 buy one, get one free / BOGO 的用法不同。"
+        "buy-19": "留意搭配：buy one, get one free / BOGO。這裡著重「買一送一」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1932,11 +1736,8 @@ export default {
       "masked": "價格下跌後，投資者開始____股份。",
       "options": [
         "buy-20",
-        "buy-05",
         "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-05"
       ],
       "explanation": "留意搭配：buy = financial-market purchase （股票／資產）。這裡著重「買入」。",
       "sentenceIndex": 39,
@@ -1945,12 +1746,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-20": "本句搭配 buy = financial-market purchase （股票／資產），應理解為「買入」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy = financial-market purchase （股票／資產） 的用法不同。"
+        "buy-20": "留意搭配：buy = financial-market purchase （股票／資產）。這裡著重「買入」。",
+        "buy-07": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1962,10 +1760,7 @@ export default {
       "options": [
         "buy-20",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：buy = financial-market purchase （股票／資產）。這裡著重「買入」。",
       "sentenceIndex": 40,
@@ -1974,12 +1769,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-20": "本句搭配 buy = financial-market purchase （股票／資產），應理解為「買入」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 buy = financial-market purchase （股票／資產） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 buy = financial-market purchase （股票／資產） 的用法不同。"
+        "buy-20": "留意搭配：buy = financial-market purchase （股票／資產）。這裡著重「買入」。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1990,11 +1782,8 @@ export default {
       "masked": "分析師給予該股票____。",
       "options": [
         "buy-21",
-        "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-18",
+        "buy-09"
       ],
       "explanation": "留意搭配：a buy = investment recommendation to purchase （金融）。這裡著重「買入評級／買入建議」。",
       "sentenceIndex": 41,
@@ -2003,12 +1792,9 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-21": "本句搭配 a buy = investment recommendation to purchase （金融），應理解為「買入評級／買入建議」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。"
+        "buy-21": "留意搭配：a buy = investment recommendation to purchase （金融）。這裡著重「買入評級／買入建議」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -2019,11 +1805,9 @@ export default {
       "masked": "該股票的評級由 『持有』 上調至 『 ____ 』。",
       "options": [
         "buy-21",
+        "buy-18",
         "buy-05",
-        "buy-07",
-        "buy-15",
-        "buy-16",
-        "buy-19"
+        "buy-07"
       ],
       "explanation": "留意搭配：a buy = investment recommendation to purchase （金融）。這裡著重「買入評級／買入建議」。",
       "sentenceIndex": 42,
@@ -2032,12 +1816,10 @@ export default {
         "buy"
       ],
       "optionReasons": {
-        "buy-21": "本句搭配 a buy = investment recommendation to purchase （金融），應理解為「買入評級／買入建議」。",
-        "buy-05": "「相信；接受」適用於 buy = believe / accept a story, explanation, excuse （ 說法／解釋／藉口）；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-07": "「爭取時間；拖延以換取更多時間」適用於 buy time；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-15": "「購買力」適用於 buying power / purchasing power；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-16": "「買方市場」適用於 buyer’s market；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。",
-        "buy-19": "「買一送一」適用於 buy one, get one free / BOGO；與本句 a buy = investment recommendation to purchase （金融） 的用法不同。"
+        "buy-21": "留意搭配：a buy = investment recommendation to purchase （金融）。這裡著重「買入評級／買入建議」。",
+        "buy-18": "請比較這個意思與句子中標示的用法。",
+        "buy-05": "請比較這個意思與句子中標示的用法。",
+        "buy-07": "請比較這個意思與句子中標示的用法。"
       }
     }
   ],
@@ -2045,5 +1827,7 @@ export default {
     "file": "Polysemy exercise_Buy_(5).pdf",
     "sha256": "48bc39a4cfbb0bf06a8a3b0ccf8de2118ccb5c0c2e058880d18105a43446c32d",
     "path": "manuals/buy.pdf"
-  }
+  },
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

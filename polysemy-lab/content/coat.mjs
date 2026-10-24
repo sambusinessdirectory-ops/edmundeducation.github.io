@@ -245,11 +245,9 @@ export default {
       "masked": "It was not cold enough for a heavy ____.",
       "options": [
         "coat-mcq-01",
-        "coat-mcq-02",
-        "coat-mcq-03",
-        "coat-mcq-04",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-06",
+        "coat-mcq-09",
+        "coat-mcq-02"
       ],
       "explanation": "本句的「coat」指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
       "sentenceIndex": 0,
@@ -258,12 +256,10 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-01": "本句指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-01": "本句的「coat」指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
+        "coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-01"
     },
@@ -275,11 +271,9 @@ export default {
       "masked": "She put on her ____ before going outside.",
       "options": [
         "coat-mcq-01",
+        "coat-mcq-06",
         "coat-mcq-02",
-        "coat-mcq-03",
-        "coat-mcq-04",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coat」指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
       "sentenceIndex": 1,
@@ -288,12 +282,10 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-01": "本句指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-01": "本句的「coat」指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
+        "coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-01"
     },
@@ -305,11 +297,9 @@ export default {
       "masked": "His winter ____ is extremely warm.",
       "options": [
         "coat-mcq-01",
-        "coat-mcq-02",
-        "coat-mcq-03",
-        "coat-mcq-04",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-06",
+        "coat-mcq-09",
+        "coat-mcq-02"
       ],
       "explanation": "本句的「coat」指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
       "sentenceIndex": 2,
@@ -318,12 +308,10 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-01": "本句指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-01": "本句的「coat」指「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」。",
+        "coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-01"
     },
@@ -336,10 +324,8 @@ export default {
       "options": [
         "coat-mcq-02",
         "coat-mcq-01",
-        "coat-mcq-03",
-        "coat-mcq-04",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-06",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coat」指「覆蓋動物身體的天然毛髮／毛皮」。",
       "sentenceIndex": 3,
@@ -348,12 +334,10 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-02": "本句指「覆蓋動物身體的天然毛髮／毛皮」。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-02": "本句的「coat」指「覆蓋動物身體的天然毛髮／毛皮」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-02"
     },
@@ -366,9 +350,7 @@ export default {
       "options": [
         "coat-mcq-02",
         "coat-mcq-01",
-        "coat-mcq-03",
-        "coat-mcq-04",
-        "coat-mcq-05",
+        "coat-mcq-09",
         "coat-mcq-06"
       ],
       "explanation": "本句的「coat」指「覆蓋動物身體的天然毛髮／毛皮」。",
@@ -378,12 +360,10 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-02": "本句指「覆蓋動物身體的天然毛髮／毛皮」。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-02": "本句的「coat」指「覆蓋動物身體的天然毛髮／毛皮」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-02"
     },
@@ -395,11 +375,8 @@ export default {
       "masked": "The wall needs another ____ of paint.",
       "options": [
         "coat-mcq-03",
-        "coat-mcq-02",
-        "coat-mcq-04",
         "coat-mcq-01",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coat」指「覆蓋在物體表面的一層物質」。",
       "sentenceIndex": 5,
@@ -408,12 +385,9 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-03": "本句指「覆蓋在物體表面的一層物質」。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-03": "本句的「coat」指「覆蓋在物體表面的一層物質」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-03"
     },
@@ -425,11 +399,8 @@ export default {
       "masked": "A thin ____ of dust covered the shelf.",
       "options": [
         "coat-mcq-03",
-        "coat-mcq-02",
-        "coat-mcq-04",
         "coat-mcq-01",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coat」指「覆蓋在物體表面的一層物質」。",
       "sentenceIndex": 6,
@@ -438,12 +409,9 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-03": "本句指「覆蓋在物體表面的一層物質」。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-03": "本句的「coat」指「覆蓋在物體表面的一層物質」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-03"
     },
@@ -455,11 +423,8 @@ export default {
       "masked": "The cake has a ____ of chocolate.",
       "options": [
         "coat-mcq-03",
-        "coat-mcq-02",
-        "coat-mcq-04",
-        "coat-mcq-01",
-        "coat-mcq-05",
-        "coat-mcq-06"
+        "coat-mcq-09",
+        "coat-mcq-01"
       ],
       "explanation": "本句的「coat」指「覆蓋在物體表面的一層物質」。",
       "sentenceIndex": 7,
@@ -468,12 +433,9 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-mcq-03": "本句指「覆蓋在物體表面的一層物質」。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。"
+        "coat-mcq-03": "本句的「coat」指「覆蓋在物體表面的一層物質」。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-03"
     },
@@ -485,11 +447,8 @@ export default {
       "masked": "The seed has a hard outer ____.",
       "options": [
         "coat-pdf-001",
-        "coat-mcq-03",
-        "coat-mcq-05",
-        "coat-mcq-02",
-        "coat-mcq-06",
-        "coat-mcq-01"
+        "coat-mcq-08",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coat」指「生物結構外圍具有保護作用的外層」。",
       "sentenceIndex": 8,
@@ -498,12 +457,9 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-pdf-001": "本句指「生物結構外圍具有保護作用的外層」。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。"
+        "coat-pdf-001": "本句的「coat」指「生物結構外圍具有保護作用的外層」。",
+        "coat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-pdf-001"
     },
@@ -515,11 +471,8 @@ export default {
       "masked": "The capsule has a protective ____.",
       "options": [
         "coat-pdf-001",
-        "coat-mcq-03",
         "coat-mcq-05",
-        "coat-mcq-02",
-        "coat-mcq-06",
-        "coat-mcq-01"
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coat」指「生物結構外圍具有保護作用的外層」。",
       "sentenceIndex": 9,
@@ -528,12 +481,9 @@ export default {
         "coat"
       ],
       "optionReasons": {
-        "coat-pdf-001": "本句指「生物結構外圍具有保護作用的外層」。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-01": "「穿在其他衣服外面的較長／較厚外衣，主要用來保暖或防護」與本句語境不同。"
+        "coat-pdf-001": "本句的「coat」指「生物結構外圍具有保護作用的外層」。",
+        "coat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-pdf-001"
     },
@@ -545,11 +495,8 @@ export default {
       "masked": "They ____ the walls with paint.",
       "options": [
         "coat-mcq-05",
-        "coat-mcq-04",
-        "coat-mcq-06",
-        "coat-mcq-03",
-        "coat-mcq-07",
-        "coat-mcq-02"
+        "coat-mcq-01",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coated」指「在某物表面覆蓋／塗上一層材料」。",
       "sentenceIndex": 10,
@@ -558,12 +505,9 @@ export default {
         "coated"
       ],
       "optionReasons": {
-        "coat-mcq-05": "本句指「在某物表面覆蓋／塗上一層材料」。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。"
+        "coat-mcq-05": "本句的「coated」指「在某物表面覆蓋／塗上一層材料」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-05"
     },
@@ -575,11 +519,8 @@ export default {
       "masked": "The road was ____ with ice.",
       "options": [
         "coat-mcq-05",
-        "coat-mcq-04",
-        "coat-mcq-06",
-        "coat-mcq-03",
-        "coat-mcq-07",
-        "coat-mcq-02"
+        "coat-mcq-09",
+        "coat-mcq-01"
       ],
       "explanation": "本句的「coated」指「在某物表面覆蓋／塗上一層材料」。",
       "sentenceIndex": 11,
@@ -588,12 +529,9 @@ export default {
         "coated"
       ],
       "optionReasons": {
-        "coat-mcq-05": "本句指「在某物表面覆蓋／塗上一層材料」。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-02": "「覆蓋動物身體的天然毛髮／毛皮」與本句語境不同。"
+        "coat-mcq-05": "本句的「coated」指「在某物表面覆蓋／塗上一層材料」。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-05"
     },
@@ -605,11 +543,9 @@ export default {
       "masked": "____ the chicken in flour.",
       "options": [
         "coat-mcq-06",
-        "coat-mcq-05",
-        "coat-mcq-07",
-        "coat-mcq-04",
-        "coat-mcq-08",
-        "coat-mcq-03"
+        "coat-mcq-02",
+        "coat-mcq-01",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「Coat」指「把食物表面裹上一層麵粉、醬料、朱古力等」。",
       "sentenceIndex": 12,
@@ -618,12 +554,10 @@ export default {
         "Coat"
       ],
       "optionReasons": {
-        "coat-mcq-06": "本句指「把食物表面裹上一層麵粉、醬料、朱古力等」。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。"
+        "coat-mcq-06": "本句的「Coat」指「把食物表面裹上一層麵粉、醬料、朱古力等」。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-06"
     },
@@ -635,11 +569,9 @@ export default {
       "masked": "The cookies were ____ in chocolate.",
       "options": [
         "coat-mcq-06",
-        "coat-mcq-05",
-        "coat-mcq-07",
-        "coat-mcq-04",
-        "coat-mcq-08",
-        "coat-mcq-03"
+        "coat-mcq-02",
+        "coat-mcq-01",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coated」指「把食物表面裹上一層麵粉、醬料、朱古力等」。",
       "sentenceIndex": 13,
@@ -648,12 +580,10 @@ export default {
         "coated"
       ],
       "optionReasons": {
-        "coat-mcq-06": "本句指「把食物表面裹上一層麵粉、醬料、朱古力等」。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。",
-        "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
-        "coat-mcq-03": "「覆蓋在物體表面的一層物質」與本句語境不同。"
+        "coat-mcq-06": "本句的「coated」指「把食物表面裹上一層麵粉、醬料、朱古力等」。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-06"
     },
@@ -665,11 +595,8 @@ export default {
       "masked": "The pan has a non-stick ____.",
       "options": [
         "coat-pdf-002",
-        "coat-mcq-06",
-        "coat-mcq-08",
-        "coat-mcq-05",
         "coat-mcq-09",
-        "coat-mcq-04"
+        "coat-mcq-02"
       ],
       "explanation": "本句的「coating」指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
       "sentenceIndex": 16,
@@ -678,12 +605,9 @@ export default {
         "coating"
       ],
       "optionReasons": {
-        "coat-pdf-002": "本句指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-09": "「家族、城市、機構等使用的紋章；固定詞組」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
+        "coat-pdf-002": "本句的「coating」指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-pdf-002"
     },
@@ -695,11 +619,8 @@ export default {
       "masked": "The tablet has a protective ____.",
       "options": [
         "coat-pdf-002",
-        "coat-mcq-06",
-        "coat-mcq-08",
-        "coat-mcq-05",
         "coat-mcq-09",
-        "coat-mcq-04"
+        "coat-mcq-02"
       ],
       "explanation": "本句的「coating」指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
       "sentenceIndex": 17,
@@ -708,12 +629,9 @@ export default {
         "coating"
       ],
       "optionReasons": {
-        "coat-pdf-002": "本句指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-09": "「家族、城市、機構等使用的紋章；固定詞組」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
+        "coat-pdf-002": "本句的「coating」指「為保護、裝飾、改善功能等而覆在表面的一層材料」。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-pdf-002"
     },
@@ -725,11 +643,8 @@ export default {
       "masked": "The metal is ____ with zinc.",
       "options": [
         "coat-mcq-08",
-        "coat-mcq-07",
-        "coat-mcq-09",
-        "coat-mcq-06",
-        "coat-mcq-05",
-        "coat-mcq-04"
+        "coat-mcq-01",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coated」指「表面被一層物質覆蓋的」。",
       "sentenceIndex": 18,
@@ -738,12 +653,9 @@ export default {
         "coated"
       ],
       "optionReasons": {
-        "coat-mcq-08": "本句指「表面被一層物質覆蓋的」。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-09": "「家族、城市、機構等使用的紋章；固定詞組」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
+        "coat-mcq-08": "本句的「coated」指「表面被一層物質覆蓋的」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-08"
     },
@@ -755,11 +667,8 @@ export default {
       "masked": "She bought chocolate-____ biscuits.",
       "options": [
         "coat-mcq-08",
-        "coat-mcq-07",
-        "coat-mcq-09",
-        "coat-mcq-06",
-        "coat-mcq-05",
-        "coat-mcq-04"
+        "coat-mcq-01",
+        "coat-mcq-09"
       ],
       "explanation": "本句的「coated」指「表面被一層物質覆蓋的」。",
       "sentenceIndex": 19,
@@ -768,12 +677,9 @@ export default {
         "coated"
       ],
       "optionReasons": {
-        "coat-mcq-08": "本句指「表面被一層物質覆蓋的」。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-09": "「家族、城市、機構等使用的紋章；固定詞組」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
+        "coat-mcq-08": "本句的「coated」指「表面被一層物質覆蓋的」。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-08"
     },
@@ -785,11 +691,8 @@ export default {
       "masked": "The city’s ____ appears on the flag.",
       "options": [
         "coat-mcq-09",
-        "coat-mcq-08",
-        "coat-mcq-07",
-        "coat-mcq-06",
-        "coat-mcq-05",
-        "coat-mcq-04"
+        "coat-mcq-03",
+        "coat-mcq-01"
       ],
       "explanation": "本句的「coat of arms」指「家族、城市、機構等使用的紋章；固定詞組」。",
       "sentenceIndex": 20,
@@ -798,12 +701,9 @@ export default {
         "coat of arms"
       ],
       "optionReasons": {
-        "coat-mcq-09": "本句指「家族、城市、機構等使用的紋章；固定詞組」。",
-        "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
+        "coat-mcq-09": "本句的「coat of arms」指「家族、城市、機構等使用的紋章；固定詞組」。",
+        "coat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-09"
     },
@@ -815,11 +715,9 @@ export default {
       "masked": "The family used an old ____.",
       "options": [
         "coat-mcq-09",
-        "coat-mcq-08",
-        "coat-mcq-07",
-        "coat-mcq-06",
-        "coat-mcq-05",
-        "coat-mcq-04"
+        "coat-mcq-02",
+        "coat-mcq-01",
+        "coat-mcq-06"
       ],
       "explanation": "本句的「coat of arms」指「家族、城市、機構等使用的紋章；固定詞組」。",
       "sentenceIndex": 21,
@@ -828,12 +726,10 @@ export default {
         "coat of arms"
       ],
       "optionReasons": {
-        "coat-mcq-09": "本句指「家族、城市、機構等使用的紋章；固定詞組」。",
-        "coat-mcq-08": "「表面被一層物質覆蓋的」與本句語境不同。",
-        "coat-mcq-07": "「覆在物件表面的塗層／包覆層」與本句語境不同。",
-        "coat-mcq-06": "「把食物表面裹上一層麵粉、醬料、朱古力等」與本句語境不同。",
-        "coat-mcq-05": "「在某物表面覆蓋／塗上一層材料」與本句語境不同。",
-        "coat-mcq-04": "「種子、細胞等外面的保護層；屬於 outer-layer 義」與本句語境不同。"
+        "coat-mcq-09": "本句的「coat of arms」指「家族、城市、機構等使用的紋章；固定詞組」。",
+        "coat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coat-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coat-mcq-09"
     }
@@ -845,5 +741,7 @@ export default {
     "sha256": "9b3c3ba69830091c2fc58562a53c6984024cb2d2d05ada72458234f5456b345c",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

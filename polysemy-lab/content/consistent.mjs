@@ -347,11 +347,8 @@ export default {
       "masked": "The quality is ____.",
       "options": [
         "consistent-mcq-01",
-        "consistent-mcq-02",
-        "consistent-mcq-03",
         "consistent-mcq-04",
-        "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「不同時間／批次都能維持相近而可靠的品質水準」。",
       "sentenceIndex": 0,
@@ -360,12 +357,9 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-01": "本句指「不同時間／批次都能維持相近而可靠的品質水準」。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-01": "本句的「consistent」指「不同時間／批次都能維持相近而可靠的品質水準」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-01"
     },
@@ -377,11 +371,8 @@ export default {
       "masked": "Customers return because the food is ____ good.",
       "options": [
         "consistent-mcq-01",
-        "consistent-mcq-02",
-        "consistent-mcq-03",
         "consistent-mcq-04",
-        "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistently」指「不同時間／批次都能維持相近而可靠的品質水準」。",
       "sentenceIndex": 1,
@@ -390,12 +381,9 @@ export default {
         "consistently"
       ],
       "optionReasons": {
-        "consistent-mcq-01": "本句指「不同時間／批次都能維持相近而可靠的品質水準」。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-01": "本句的「consistently」指「不同時間／批次都能維持相近而可靠的品質水準」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-01"
     },
@@ -407,11 +395,8 @@ export default {
       "masked": "The bakery delivers ____ quality every day.",
       "options": [
         "consistent-mcq-01",
-        "consistent-mcq-02",
-        "consistent-mcq-03",
         "consistent-mcq-04",
-        "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「不同時間／批次都能維持相近而可靠的品質水準」。",
       "sentenceIndex": 2,
@@ -420,12 +405,9 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-01": "本句指「不同時間／批次都能維持相近而可靠的品質水準」。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-01": "本句的「consistent」指「不同時間／批次都能維持相近而可靠的品質水準」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-01"
     },
@@ -437,11 +419,9 @@ export default {
       "masked": "She is one of the most ____ performers on the team.",
       "options": [
         "consistent-mcq-02",
-        "consistent-mcq-01",
-        "consistent-mcq-03",
         "consistent-mcq-04",
         "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「一個人的做法或表現長期保持相近模式／水平」。",
       "sentenceIndex": 3,
@@ -450,12 +430,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-02": "本句指「一個人的做法或表現長期保持相近模式／水平」。",
-        "consistent-mcq-01": "「不同時間／批次都能維持相近而可靠的品質水準」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-02": "本句的「consistent」指「一個人的做法或表現長期保持相近模式／水平」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-02"
     },
@@ -467,11 +445,9 @@ export default {
       "masked": "His work has been ____ throughout the year.",
       "options": [
         "consistent-mcq-02",
-        "consistent-mcq-01",
-        "consistent-mcq-03",
         "consistent-mcq-04",
         "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「一個人的做法或表現長期保持相近模式／水平」。",
       "sentenceIndex": 4,
@@ -480,12 +456,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-02": "本句指「一個人的做法或表現長期保持相近模式／水平」。",
-        "consistent-mcq-01": "「不同時間／批次都能維持相近而可靠的品質水準」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-02": "本句的「consistent」指「一個人的做法或表現長期保持相近模式／水平」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-02"
     },
@@ -497,11 +471,9 @@ export default {
       "masked": "Managers should be ____ when applying the rules.",
       "options": [
         "consistent-mcq-03",
-        "consistent-mcq-02",
-        "consistent-mcq-04",
-        "consistent-mcq-01",
-        "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-09",
+        "consistent-mcq-12",
+        "consistent-mcq-05"
       ],
       "explanation": "本句的「consistent」指「做法、判斷或規則前後使用同一標準」。",
       "sentenceIndex": 5,
@@ -510,12 +482,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-03": "本句指「做法、判斷或規則前後使用同一標準」。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-01": "「不同時間／批次都能維持相近而可靠的品質水準」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-03": "本句的「consistent」指「做法、判斷或規則前後使用同一標準」。",
+        "consistent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-03"
     },
@@ -527,11 +497,9 @@ export default {
       "masked": "Her decisions are ____ with her values.",
       "options": [
         "consistent-mcq-03",
-        "consistent-mcq-02",
-        "consistent-mcq-04",
-        "consistent-mcq-01",
-        "consistent-mcq-05",
-        "consistent-mcq-06"
+        "consistent-mcq-09",
+        "consistent-mcq-12",
+        "consistent-mcq-05"
       ],
       "explanation": "本句的「consistent」指「做法、判斷或規則前後使用同一標準」。",
       "sentenceIndex": 6,
@@ -540,12 +508,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-03": "本句指「做法、判斷或規則前後使用同一標準」。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-01": "「不同時間／批次都能維持相近而可靠的品質水準」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-03": "本句的「consistent」指「做法、判斷或規則前後使用同一標準」。",
+        "consistent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-03"
     },
@@ -557,11 +523,8 @@ export default {
       "masked": "The results are ____ our expectations.",
       "options": [
         "consistent-mcq-04",
-        "consistent-mcq-03",
-        "consistent-mcq-05",
-        "consistent-mcq-02",
-        "consistent-mcq-06",
-        "consistent-mcq-01"
+        "consistent-mcq-01",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent with」指「與另一資料、證據、原則或情況相符而不矛盾」。",
       "sentenceIndex": 7,
@@ -570,12 +533,9 @@ export default {
         "consistent with"
       ],
       "optionReasons": {
-        "consistent-mcq-04": "本句指「與另一資料、證據、原則或情況相符而不矛盾」。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-01": "「不同時間／批次都能維持相近而可靠的品質水準」與本句語境不同。"
+        "consistent-mcq-04": "本句的「consistent with」指「與另一資料、證據、原則或情況相符而不矛盾」。",
+        "consistent-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-04"
     },
@@ -587,11 +547,9 @@ export default {
       "masked": "His behaviour is not ____ with the company’s values.",
       "options": [
         "consistent-mcq-04",
-        "consistent-mcq-03",
+        "consistent-mcq-08",
         "consistent-mcq-05",
-        "consistent-mcq-02",
-        "consistent-mcq-06",
-        "consistent-mcq-01"
+        "consistent-mcq-06"
       ],
       "explanation": "本句的「consistent」指「與另一資料、證據、原則或情況相符而不矛盾」。",
       "sentenceIndex": 8,
@@ -600,12 +558,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-04": "本句指「與另一資料、證據、原則或情況相符而不矛盾」。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-01": "「不同時間／批次都能維持相近而可靠的品質水準」與本句語境不同。"
+        "consistent-mcq-04": "本句的「consistent」指「與另一資料、證據、原則或情況相符而不矛盾」。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-04"
     },
@@ -617,11 +573,9 @@ export default {
       "masked": "The argument is internally ____.",
       "options": [
         "consistent-mcq-05",
-        "consistent-mcq-04",
         "consistent-mcq-06",
-        "consistent-mcq-03",
-        "consistent-mcq-07",
-        "consistent-mcq-02"
+        "consistent-mcq-04",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「各部分在邏輯上可以同時成立、不互相衝突」。",
       "sentenceIndex": 9,
@@ -630,12 +584,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-05": "本句指「各部分在邏輯上可以同時成立、不互相衝突」。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。"
+        "consistent-mcq-05": "本句的「consistent」指「各部分在邏輯上可以同時成立、不互相衝突」。",
+        "consistent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-05"
     },
@@ -647,11 +599,9 @@ export default {
       "masked": "The two statements are not ____.",
       "options": [
         "consistent-mcq-05",
-        "consistent-mcq-04",
-        "consistent-mcq-06",
-        "consistent-mcq-03",
-        "consistent-mcq-07",
-        "consistent-mcq-02"
+        "consistent-mcq-02",
+        "consistent-mcq-12",
+        "consistent-mcq-04"
       ],
       "explanation": "本句的「consistent」指「各部分在邏輯上可以同時成立、不互相衝突」。",
       "sentenceIndex": 10,
@@ -660,12 +610,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-05": "本句指「各部分在邏輯上可以同時成立、不互相衝突」。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-02": "「一個人的做法或表現長期保持相近模式／水平」與本句語境不同。"
+        "consistent-mcq-05": "本句的「consistent」指「各部分在邏輯上可以同時成立、不互相衝突」。",
+        "consistent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-05"
     },
@@ -677,11 +625,9 @@ export default {
       "masked": "The experiment produced ____ results.",
       "options": [
         "consistent-mcq-06",
-        "consistent-mcq-05",
-        "consistent-mcq-07",
-        "consistent-mcq-04",
         "consistent-mcq-08",
-        "consistent-mcq-03"
+        "consistent-mcq-04",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「多次實驗、測量或觀察所得結果彼此相近」。",
       "sentenceIndex": 11,
@@ -690,12 +636,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-06": "本句指「多次實驗、測量或觀察所得結果彼此相近」。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。"
+        "consistent-mcq-06": "本句的「consistent」指「多次實驗、測量或觀察所得結果彼此相近」。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-06"
     },
@@ -707,11 +651,9 @@ export default {
       "masked": "The measurements were ____ across several trials.",
       "options": [
         "consistent-mcq-06",
-        "consistent-mcq-05",
-        "consistent-mcq-07",
-        "consistent-mcq-04",
+        "consistent-mcq-03",
         "consistent-mcq-08",
-        "consistent-mcq-03"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistent」指「多次實驗、測量或觀察所得結果彼此相近」。",
       "sentenceIndex": 12,
@@ -720,12 +662,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-06": "本句指「多次實驗、測量或觀察所得結果彼此相近」。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-03": "「做法、判斷或規則前後使用同一標準」與本句語境不同。"
+        "consistent-mcq-06": "本句的「consistent」指「多次實驗、測量或觀察所得結果彼此相近」。",
+        "consistent-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-06"
     },
@@ -737,11 +677,8 @@ export default {
       "masked": "The bakery uses a ____ visual style.",
       "options": [
         "consistent-mcq-07",
-        "consistent-mcq-06",
-        "consistent-mcq-08",
-        "consistent-mcq-05",
-        "consistent-mcq-09",
-        "consistent-mcq-04"
+        "consistent-mcq-12",
+        "consistent-mcq-08"
       ],
       "explanation": "本句的「consistent」指「不同部分使用相同／協調的風格、規則或格式」。",
       "sentenceIndex": 13,
@@ -750,12 +687,9 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-07": "本句指「不同部分使用相同／協調的風格、規則或格式」。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。"
+        "consistent-mcq-07": "本句的「consistent」指「不同部分使用相同／協調的風格、規則或格式」。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-07"
     },
@@ -767,11 +701,8 @@ export default {
       "masked": "Keep the colours ____ across all packaging.",
       "options": [
         "consistent-mcq-07",
-        "consistent-mcq-06",
-        "consistent-mcq-08",
-        "consistent-mcq-05",
-        "consistent-mcq-09",
-        "consistent-mcq-04"
+        "consistent-mcq-12",
+        "consistent-mcq-08"
       ],
       "explanation": "本句的「consistent」指「不同部分使用相同／協調的風格、規則或格式」。",
       "sentenceIndex": 14,
@@ -780,12 +711,9 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-07": "本句指「不同部分使用相同／協調的風格、規則或格式」。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-04": "「與另一資料、證據、原則或情況相符而不矛盾」與本句語境不同。"
+        "consistent-mcq-07": "本句的「consistent」指「不同部分使用相同／協調的風格、規則或格式」。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-07"
     },
@@ -797,11 +725,9 @@ export default {
       "masked": "____ practice leads to improvement.",
       "options": [
         "consistent-mcq-08",
-        "consistent-mcq-07",
-        "consistent-mcq-09",
-        "consistent-mcq-06",
-        "consistent-mcq-10",
-        "consistent-mcq-05"
+        "consistent-pdf-001",
+        "consistent-mcq-13",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「Consistent」指「某行動長時間規律持續，而不是偶爾進行」。",
       "sentenceIndex": 15,
@@ -810,12 +736,10 @@ export default {
         "Consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-08": "本句指「某行動長時間規律持續，而不是偶爾進行」。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。"
+        "consistent-mcq-08": "本句的「Consistent」指「某行動長時間規律持續，而不是偶爾進行」。",
+        "consistent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-08"
     },
@@ -827,10 +751,8 @@ export default {
       "masked": "The business grew through ____ effort.",
       "options": [
         "consistent-mcq-08",
-        "consistent-mcq-07",
-        "consistent-mcq-09",
+        "consistent-mcq-04",
         "consistent-mcq-06",
-        "consistent-mcq-10",
         "consistent-mcq-05"
       ],
       "explanation": "本句的「consistent」指「某行動長時間規律持續，而不是偶爾進行」。",
@@ -840,12 +762,10 @@ export default {
         "consistent"
       ],
       "optionReasons": {
-        "consistent-mcq-08": "本句指「某行動長時間規律持續，而不是偶爾進行」。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-05": "「各部分在邏輯上可以同時成立、不互相衝突」與本句語境不同。"
+        "consistent-mcq-08": "本句的「consistent」指「某行動長時間規律持續，而不是偶爾進行」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-08"
     },
@@ -857,11 +777,9 @@ export default {
       "masked": "The bakery performs ____ well.",
       "options": [
         "consistent-mcq-09",
-        "consistent-mcq-08",
-        "consistent-mcq-10",
-        "consistent-mcq-07",
-        "consistent-mcq-11",
-        "consistent-mcq-06"
+        "consistent-pdf-001",
+        "consistent-mcq-12",
+        "consistent-mcq-05"
       ],
       "explanation": "本句的「consistently」指「長時間以相似、穩定或一貫方式發生」。",
       "sentenceIndex": 17,
@@ -870,12 +788,10 @@ export default {
         "consistently"
       ],
       "optionReasons": {
-        "consistent-mcq-09": "本句指「長時間以相似、穩定或一貫方式發生」。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-09": "本句的「consistently」指「長時間以相似、穩定或一貫方式發生」。",
+        "consistent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-09"
     },
@@ -887,11 +803,9 @@ export default {
       "masked": "She ____ arrives early.",
       "options": [
         "consistent-mcq-09",
-        "consistent-mcq-08",
-        "consistent-mcq-10",
-        "consistent-mcq-07",
-        "consistent-mcq-11",
-        "consistent-mcq-06"
+        "consistent-mcq-04",
+        "consistent-mcq-12",
+        "consistent-mcq-05"
       ],
       "explanation": "本句的「consistently」指「長時間以相似、穩定或一貫方式發生」。",
       "sentenceIndex": 18,
@@ -900,12 +814,10 @@ export default {
         "consistently"
       ],
       "optionReasons": {
-        "consistent-mcq-09": "本句指「長時間以相似、穩定或一貫方式發生」。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-mcq-09": "本句的「consistently」指「長時間以相似、穩定或一貫方式發生」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-09"
     },
@@ -918,10 +830,8 @@ export default {
       "options": [
         "consistent-pdf-001",
         "consistent-mcq-08",
-        "consistent-mcq-10",
-        "consistent-mcq-07",
-        "consistent-mcq-11",
-        "consistent-mcq-06"
+        "consistent-mcq-12",
+        "consistent-mcq-14"
       ],
       "explanation": "本句的「consistently」指「各次做法／結果都符合同一標準或方向」。",
       "sentenceIndex": 19,
@@ -930,12 +840,10 @@ export default {
         "consistently"
       ],
       "optionReasons": {
-        "consistent-pdf-001": "本句指「各次做法／結果都符合同一標準或方向」。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-pdf-001": "本句的「consistently」指「各次做法／結果都符合同一標準或方向」。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-pdf-001"
     },
@@ -948,10 +856,8 @@ export default {
       "options": [
         "consistent-pdf-001",
         "consistent-mcq-08",
-        "consistent-mcq-10",
-        "consistent-mcq-07",
-        "consistent-mcq-11",
-        "consistent-mcq-06"
+        "consistent-mcq-12",
+        "consistent-mcq-14"
       ],
       "explanation": "本句的「consistently」指「各次做法／結果都符合同一標準或方向」。",
       "sentenceIndex": 20,
@@ -960,12 +866,10 @@ export default {
         "consistently"
       ],
       "optionReasons": {
-        "consistent-pdf-001": "本句指「各次做法／結果都符合同一標準或方向」。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-06": "「多次實驗、測量或觀察所得結果彼此相近」與本句語境不同。"
+        "consistent-pdf-001": "本句的「consistently」指「各次做法／結果都符合同一標準或方向」。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-pdf-001"
     },
@@ -977,11 +881,9 @@ export default {
       "masked": "Customers value the ____ of the food.",
       "options": [
         "consistent-mcq-10",
-        "consistent-mcq-09",
-        "consistent-mcq-11",
-        "consistent-mcq-08",
-        "consistent-mcq-12",
-        "consistent-mcq-07"
+        "consistent-mcq-04",
+        "consistent-mcq-05",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistency」指「品質／表現保持相近水準的特質」。",
       "sentenceIndex": 21,
@@ -990,12 +892,10 @@ export default {
         "consistency"
       ],
       "optionReasons": {
-        "consistent-mcq-10": "本句指「品質／表現保持相近水準的特質」。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。"
+        "consistent-mcq-10": "本句的「consistency」指「品質／表現保持相近水準的特質」。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-10"
     },
@@ -1007,11 +907,9 @@ export default {
       "masked": "Success requires ____.",
       "options": [
         "consistent-mcq-10",
-        "consistent-mcq-09",
-        "consistent-mcq-11",
-        "consistent-mcq-08",
-        "consistent-mcq-12",
-        "consistent-mcq-07"
+        "consistent-mcq-05",
+        "consistent-mcq-04",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「consistency」指「品質／表現保持相近水準的特質」。",
       "sentenceIndex": 22,
@@ -1020,12 +918,10 @@ export default {
         "consistency"
       ],
       "optionReasons": {
-        "consistent-mcq-10": "本句指「品質／表現保持相近水準的特質」。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。",
-        "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
-        "consistent-mcq-07": "「不同部分使用相同／協調的風格、規則或格式」與本句語境不同。"
+        "consistent-mcq-10": "本句的「consistency」指「品質／表現保持相近水準的特質」。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-10"
     },
@@ -1037,11 +933,9 @@ export default {
       "masked": "The argument lacks ____.",
       "options": [
         "consistent-mcq-11",
-        "consistent-mcq-10",
         "consistent-mcq-12",
-        "consistent-mcq-09",
-        "consistent-mcq-13",
-        "consistent-mcq-08"
+        "consistent-mcq-08",
+        "consistent-mcq-03"
       ],
       "explanation": "本句的「consistency」指「不同說法、資料或部分之間不互相矛盾的程度」。",
       "sentenceIndex": 23,
@@ -1050,12 +944,10 @@ export default {
         "consistency"
       ],
       "optionReasons": {
-        "consistent-mcq-11": "本句指「不同說法、資料或部分之間不互相矛盾的程度」。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。",
-        "consistent-mcq-13": "「品質／說法／行為前後不穩定、不一致或互相矛盾的」與本句語境不同。",
-        "consistent-mcq-08": "「某行動長時間規律持續，而不是偶爾進行」與本句語境不同。"
+        "consistent-mcq-11": "本句的「consistency」指「不同說法、資料或部分之間不互相矛盾的程度」。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-11"
     },
@@ -1067,11 +959,9 @@ export default {
       "masked": "Mix the dough until it reaches the right ____.",
       "options": [
         "consistent-mcq-12",
-        "consistent-mcq-11",
-        "consistent-mcq-13",
-        "consistent-mcq-10",
-        "consistent-mcq-14",
-        "consistent-mcq-09"
+        "consistent-mcq-06",
+        "consistent-mcq-05",
+        "consistent-mcq-03"
       ],
       "explanation": "本句的「consistency」指「液體、醬料、麵糰等的濃稠／流動／質地狀態」。",
       "sentenceIndex": 24,
@@ -1080,12 +970,10 @@ export default {
         "consistency"
       ],
       "optionReasons": {
-        "consistent-mcq-12": "本句指「液體、醬料、麵糰等的濃稠／流動／質地狀態」。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-13": "「品質／說法／行為前後不穩定、不一致或互相矛盾的」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-14": "「品質、行為、資料或說法之間出現的不一致之處」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。"
+        "consistent-mcq-12": "本句的「consistency」指「液體、醬料、麵糰等的濃稠／流動／質地狀態」。",
+        "consistent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-12"
     },
@@ -1097,11 +985,9 @@ export default {
       "masked": "The service is ____.",
       "options": [
         "consistent-mcq-13",
-        "consistent-mcq-12",
-        "consistent-mcq-14",
-        "consistent-mcq-11",
-        "consistent-mcq-10",
-        "consistent-mcq-09"
+        "consistent-mcq-08",
+        "consistent-pdf-001",
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「inconsistent」指「品質／說法／行為前後不穩定、不一致或互相矛盾的」。",
       "sentenceIndex": 25,
@@ -1110,12 +996,10 @@ export default {
         "inconsistent"
       ],
       "optionReasons": {
-        "consistent-mcq-13": "本句指「品質／說法／行為前後不穩定、不一致或互相矛盾的」。",
-        "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
-        "consistent-mcq-14": "「品質、行為、資料或說法之間出現的不一致之處」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。"
+        "consistent-mcq-13": "本句的「inconsistent」指「品質／說法／行為前後不穩定、不一致或互相矛盾的」。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "consistent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-13"
     },
@@ -1127,11 +1011,8 @@ export default {
       "masked": "His explanation is ____ the evidence.",
       "options": [
         "consistent-pdf-002",
-        "consistent-mcq-12",
-        "consistent-mcq-14",
-        "consistent-mcq-11",
         "consistent-mcq-10",
-        "consistent-mcq-09"
+        "consistent-mcq-12"
       ],
       "explanation": "本句的「inconsistent with」指「兩項資料、說法或原則不能同時相符」。",
       "sentenceIndex": 26,
@@ -1140,12 +1021,9 @@ export default {
         "inconsistent with"
       ],
       "optionReasons": {
-        "consistent-pdf-002": "本句指「兩項資料、說法或原則不能同時相符」。",
-        "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
-        "consistent-mcq-14": "「品質、行為、資料或說法之間出現的不一致之處」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。"
+        "consistent-pdf-002": "本句的「inconsistent with」指「兩項資料、說法或原則不能同時相符」。",
+        "consistent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-pdf-002"
     },
@@ -1157,11 +1035,9 @@ export default {
       "masked": "Customers noticed an ____ in the product quality.",
       "options": [
         "consistent-mcq-14",
-        "consistent-mcq-13",
-        "consistent-mcq-12",
-        "consistent-mcq-11",
-        "consistent-mcq-10",
-        "consistent-mcq-09"
+        "consistent-mcq-05",
+        "consistent-pdf-001",
+        "consistent-mcq-08"
       ],
       "explanation": "本句的「inconsistency」指「品質、行為、資料或說法之間出現的不一致之處」。",
       "sentenceIndex": 27,
@@ -1170,12 +1046,10 @@ export default {
         "inconsistency"
       ],
       "optionReasons": {
-        "consistent-mcq-14": "本句指「品質、行為、資料或說法之間出現的不一致之處」。",
-        "consistent-mcq-13": "「品質／說法／行為前後不穩定、不一致或互相矛盾的」與本句語境不同。",
-        "consistent-mcq-12": "「液體、醬料、麵糰等的濃稠／流動／質地狀態」與本句語境不同。",
-        "consistent-mcq-11": "「不同說法、資料或部分之間不互相矛盾的程度」與本句語境不同。",
-        "consistent-mcq-10": "「品質／表現保持相近水準的特質」與本句語境不同。",
-        "consistent-mcq-09": "「長時間以相似、穩定或一貫方式發生」與本句語境不同。"
+        "consistent-mcq-14": "本句的「inconsistency」指「品質、行為、資料或說法之間出現的不一致之處」。",
+        "consistent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "consistent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "consistent-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "consistent-mcq-14"
     }
@@ -1187,5 +1061,7 @@ export default {
     "sha256": "17d8257135ccb26107429e187aaec9a3aa393176f0325d3e846032a89d620516",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

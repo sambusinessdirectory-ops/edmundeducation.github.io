@@ -436,11 +436,9 @@ export default {
       "masked": "Keep the bottle ____.",
       "options": [
         "upright-mcq-01",
-        "upright-mcq-02",
-        "upright-mcq-03",
-        "upright-mcq-04",
-        "upright-mcq-05",
-        "upright-mcq-06"
+        "upright-mcq-08",
+        "upright-mcq-07",
+        "upright-mcq-18"
       ],
       "explanation": "本句的「upright」指「垂直站立、不平放或傾斜的；直立的」。",
       "sentenceIndex": 2,
@@ -449,12 +447,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-01": "本句指「垂直站立、不平放或傾斜的；直立的」。",
-        "upright-mcq-02": "「身體／背部挺直、不彎腰或斜靠的」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。"
+        "upright-mcq-01": "本句的「upright」指「垂直站立、不平放或傾斜的；直立的」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-01"
     },
@@ -466,11 +462,9 @@ export default {
       "masked": "The box must remain ____ during transport.",
       "options": [
         "upright-mcq-01",
-        "upright-mcq-02",
-        "upright-mcq-03",
-        "upright-mcq-04",
-        "upright-mcq-05",
-        "upright-mcq-06"
+        "upright-mcq-08",
+        "upright-mcq-18",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright」指「垂直站立、不平放或傾斜的；直立的」。",
       "sentenceIndex": 3,
@@ -479,12 +473,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-01": "本句指「垂直站立、不平放或傾斜的；直立的」。",
-        "upright-mcq-02": "「身體／背部挺直、不彎腰或斜靠的」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。"
+        "upright-mcq-01": "本句的「upright」指「垂直站立、不平放或傾斜的；直立的」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-01"
     },
@@ -496,11 +488,9 @@ export default {
       "masked": "She sat ____ at the desk.",
       "options": [
         "upright-mcq-02",
-        "upright-mcq-01",
-        "upright-mcq-03",
-        "upright-mcq-04",
-        "upright-mcq-05",
-        "upright-mcq-06"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-17"
       ],
       "explanation": "本句的「upright」指「身體／背部挺直、不彎腰或斜靠的」。",
       "sentenceIndex": 4,
@@ -509,12 +499,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-02": "本句指「身體／背部挺直、不彎腰或斜靠的」。",
-        "upright-mcq-01": "「垂直站立、不平放或傾斜的；直立的」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。"
+        "upright-mcq-02": "本句的「upright」指「身體／背部挺直、不彎腰或斜靠的」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-02"
     },
@@ -526,11 +514,9 @@ export default {
       "masked": "Try to maintain an ____.",
       "options": [
         "upright-mcq-02",
-        "upright-mcq-01",
-        "upright-mcq-03",
-        "upright-mcq-04",
-        "upright-mcq-05",
-        "upright-mcq-06"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-17"
       ],
       "explanation": "本句的「upright posture」指「身體／背部挺直、不彎腰或斜靠的」。",
       "sentenceIndex": 5,
@@ -539,12 +525,10 @@ export default {
         "upright posture"
       ],
       "optionReasons": {
-        "upright-mcq-02": "本句指「身體／背部挺直、不彎腰或斜靠的」。",
-        "upright-mcq-01": "「垂直站立、不平放或傾斜的；直立的」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。"
+        "upright-mcq-02": "本句的「upright posture」指「身體／背部挺直、不彎腰或斜靠的」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-02"
     },
@@ -556,11 +540,9 @@ export default {
       "masked": "Good chairs can support an ____.",
       "options": [
         "upright-mcq-05",
-        "upright-mcq-04",
-        "upright-mcq-06",
-        "upright-mcq-03",
-        "upright-mcq-07",
-        "upright-mcq-02"
+        "upright-mcq-08",
+        "upright-mcq-18",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright posture」指「身體保持垂直挺直的姿勢／坐姿」。",
       "sentenceIndex": 6,
@@ -569,12 +551,10 @@ export default {
         "upright posture"
       ],
       "optionReasons": {
-        "upright-mcq-05": "本句指「身體保持垂直挺直的姿勢／坐姿」。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-02": "「身體／背部挺直、不彎腰或斜靠的」與本句語境不同。"
+        "upright-mcq-05": "本句的「upright posture」指「身體保持垂直挺直的姿勢／坐姿」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-05"
     },
@@ -586,11 +566,9 @@ export default {
       "masked": "He returned slowly to an ____.",
       "options": [
         "upright-mcq-05",
-        "upright-mcq-04",
-        "upright-mcq-06",
-        "upright-mcq-03",
-        "upright-mcq-07",
-        "upright-mcq-02"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright position」指「身體保持垂直挺直的姿勢／坐姿」。",
       "sentenceIndex": 7,
@@ -599,12 +577,10 @@ export default {
         "upright position"
       ],
       "optionReasons": {
-        "upright-mcq-05": "本句指「身體保持垂直挺直的姿勢／坐姿」。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-02": "「身體／背部挺直、不彎腰或斜靠的」與本句語境不同。"
+        "upright-mcq-05": "本句的「upright position」指「身體保持垂直挺直的姿勢／坐姿」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-05"
     },
@@ -616,11 +592,9 @@ export default {
       "masked": "Only one tree remained ____ after the storm.",
       "options": [
         "upright-mcq-06",
-        "upright-mcq-05",
-        "upright-mcq-07",
-        "upright-mcq-04",
         "upright-mcq-08",
-        "upright-mcq-03"
+        "upright-mcq-10",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「upright」指「保持直立、不倒下」。",
       "sentenceIndex": 8,
@@ -629,12 +603,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-06": "本句指「保持直立、不倒下」。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。"
+        "upright-mcq-06": "本句的「upright」指「保持直立、不倒下」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-06"
     },
@@ -646,11 +618,9 @@ export default {
       "masked": "The damaged fence was barely ____.",
       "options": [
         "upright-mcq-06",
-        "upright-mcq-05",
-        "upright-mcq-07",
-        "upright-mcq-04",
         "upright-mcq-08",
-        "upright-mcq-03"
+        "upright-mcq-02",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright」指「保持直立、不倒下」。",
       "sentenceIndex": 9,
@@ -659,12 +629,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-06": "本句指「保持直立、不倒下」。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。"
+        "upright-mcq-06": "本句的「upright」指「保持直立、不倒下」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-06"
     },
@@ -676,11 +644,9 @@ export default {
       "masked": "The structure could no longer remain ____.",
       "options": [
         "upright-mcq-06",
-        "upright-mcq-05",
-        "upright-mcq-07",
-        "upright-mcq-04",
         "upright-mcq-08",
-        "upright-mcq-03"
+        "upright-mcq-07",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「upright」指「保持直立、不倒下」。",
       "sentenceIndex": 10,
@@ -689,12 +655,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-06": "本句指「保持直立、不倒下」。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。"
+        "upright-mcq-06": "本句的「upright」指「保持直立、不倒下」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-06"
     },
@@ -706,11 +670,9 @@ export default {
       "masked": "He struggled to keep himself ____.",
       "options": [
         "upright-mcq-06",
-        "upright-mcq-05",
-        "upright-mcq-07",
-        "upright-mcq-04",
         "upright-mcq-08",
-        "upright-mcq-03"
+        "upright-mcq-02",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright」指「保持直立、不倒下」。",
       "sentenceIndex": 11,
@@ -719,12 +681,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-06": "本句指「保持直立、不倒下」。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-03": "「挺直身體坐著；坐直」與本句語境不同。"
+        "upright-mcq-06": "本句的「upright」指「保持直立、不倒下」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-06"
     },
@@ -736,11 +696,9 @@ export default {
       "masked": "She ____ and took a deep breath.",
       "options": [
         "upright-mcq-07",
-        "upright-mcq-06",
-        "upright-mcq-08",
-        "upright-mcq-05",
-        "upright-mcq-09",
-        "upright-mcq-04"
+        "upright-mcq-12",
+        "upright-mcq-01",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「stood upright」指「品格正直、誠實、有原則的」。",
       "sentenceIndex": 12,
@@ -749,12 +707,10 @@ export default {
         "stood upright"
       ],
       "optionReasons": {
-        "upright-mcq-07": "本句指「品格正直、誠實、有原則的」。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。"
+        "upright-mcq-07": "本句的「stood upright」指「品格正直、誠實、有原則的」。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-07"
     },
@@ -766,11 +722,9 @@ export default {
       "masked": "The students were told to ____.",
       "options": [
         "upright-mcq-07",
-        "upright-mcq-06",
-        "upright-mcq-08",
-        "upright-mcq-05",
-        "upright-mcq-09",
-        "upright-mcq-04"
+        "upright-mcq-12",
+        "upright-mcq-01",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「sit upright」指「品格正直、誠實、有原則的」。",
       "sentenceIndex": 13,
@@ -779,12 +733,10 @@ export default {
         "sit upright"
       ],
       "optionReasons": {
-        "upright-mcq-07": "本句指「品格正直、誠實、有原則的」。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-04": "「挺直身體站立」與本句語境不同。"
+        "upright-mcq-07": "本句的「sit upright」指「品格正直、誠實、有原則的」。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-07"
     },
@@ -796,11 +748,9 @@ export default {
       "masked": "He was known as an ____.",
       "options": [
         "upright-mcq-08",
-        "upright-mcq-07",
-        "upright-mcq-09",
         "upright-mcq-06",
-        "upright-mcq-10",
-        "upright-mcq-05"
+        "upright-mcq-12",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「upright man」指「品行端正、值得尊敬的人／公民」。",
       "sentenceIndex": 14,
@@ -809,12 +759,10 @@ export default {
         "upright man"
       ],
       "optionReasons": {
-        "upright-mcq-08": "本句指「品行端正、值得尊敬的人／公民」。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。"
+        "upright-mcq-08": "本句的「upright man」指「品行端正、值得尊敬的人／公民」。",
+        "upright-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-08"
     },
@@ -826,11 +774,9 @@ export default {
       "masked": "She is an ____.",
       "options": [
         "upright-mcq-08",
-        "upright-mcq-07",
-        "upright-mcq-09",
-        "upright-mcq-06",
-        "upright-mcq-10",
-        "upright-mcq-05"
+        "upright-mcq-01",
+        "upright-mcq-02",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright and principled person」指「品行端正、值得尊敬的人／公民」。",
       "sentenceIndex": 15,
@@ -839,12 +785,10 @@ export default {
         "upright and principled person"
       ],
       "optionReasons": {
-        "upright-mcq-08": "本句指「品行端正、值得尊敬的人／公民」。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。"
+        "upright-mcq-08": "本句的「upright and principled person」指「品行端正、值得尊敬的人／公民」。",
+        "upright-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-08"
     },
@@ -856,11 +800,9 @@ export default {
       "masked": "He was regarded as an ____.",
       "options": [
         "upright-mcq-08",
-        "upright-mcq-07",
-        "upright-mcq-09",
+        "upright-mcq-02",
         "upright-mcq-06",
-        "upright-mcq-10",
-        "upright-mcq-05"
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright citizen」指「品行端正、值得尊敬的人／公民」。",
       "sentenceIndex": 16,
@@ -869,12 +811,10 @@ export default {
         "upright citizen"
       ],
       "optionReasons": {
-        "upright-mcq-08": "本句指「品行端正、值得尊敬的人／公民」。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。"
+        "upright-mcq-08": "本句的「upright citizen」指「品行端正、值得尊敬的人／公民」。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-08"
     },
@@ -886,11 +826,9 @@ export default {
       "masked": "Everyone trusted her because she was honest and ____.",
       "options": [
         "upright-mcq-08",
-        "upright-mcq-07",
-        "upright-mcq-09",
-        "upright-mcq-06",
-        "upright-mcq-10",
-        "upright-mcq-05"
+        "upright-mcq-17",
+        "upright-mcq-02",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright」指「品行端正、值得尊敬的人／公民」。",
       "sentenceIndex": 17,
@@ -899,12 +837,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-08": "本句指「品行端正、值得尊敬的人／公民」。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-05": "「身體保持垂直挺直的姿勢／坐姿」與本句語境不同。"
+        "upright-mcq-08": "本句的「upright」指「品行端正、值得尊敬的人／公民」。",
+        "upright-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-08"
     },
@@ -916,11 +852,9 @@ export default {
       "masked": "He was respected for his ____.",
       "options": [
         "upright-mcq-09",
-        "upright-mcq-08",
-        "upright-mcq-10",
-        "upright-mcq-07",
-        "upright-mcq-11",
-        "upright-mcq-06"
+        "upright-mcq-12",
+        "upright-mcq-01",
+        "upright-mcq-18"
       ],
       "explanation": "本句的「uprightness」指「正直、品行端正的品質」。",
       "sentenceIndex": 19,
@@ -929,12 +863,10 @@ export default {
         "uprightness"
       ],
       "optionReasons": {
-        "upright-mcq-09": "本句指「正直、品行端正的品質」。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。"
+        "upright-mcq-09": "本句的「uprightness」指「正直、品行端正的品質」。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-09"
     },
@@ -946,11 +878,9 @@ export default {
       "masked": "Her honesty and ____ earned people’s trust.",
       "options": [
         "upright-mcq-09",
-        "upright-mcq-08",
-        "upright-mcq-10",
-        "upright-mcq-07",
-        "upright-mcq-11",
-        "upright-mcq-06"
+        "upright-mcq-12",
+        "upright-mcq-19",
+        "upright-mcq-18"
       ],
       "explanation": "本句的「uprightness」指「正直、品行端正的品質」。",
       "sentenceIndex": 20,
@@ -959,12 +889,10 @@ export default {
         "uprightness"
       ],
       "optionReasons": {
-        "upright-mcq-09": "本句指「正直、品行端正的品質」。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-06": "「保持直立、不倒下」與本句語境不同。"
+        "upright-mcq-09": "本句的「uprightness」指「正直、品行端正的品質」。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-09"
     },
@@ -976,11 +904,9 @@ export default {
       "masked": "He tried to live ____.",
       "options": [
         "upright-mcq-10",
-        "upright-mcq-09",
-        "upright-mcq-11",
-        "upright-mcq-08",
         "upright-mcq-12",
-        "upright-mcq-07"
+        "upright-mcq-06",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「uprightly」指「正式／較少用：正直地、合乎道德地」。",
       "sentenceIndex": 21,
@@ -989,12 +915,10 @@ export default {
         "uprightly"
       ],
       "optionReasons": {
-        "upright-mcq-10": "本句指「正式／較少用：正直地、合乎道德地」。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。"
+        "upright-mcq-10": "本句的「uprightly」指「正式／較少用：正直地、合乎道德地」。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-10"
     },
@@ -1006,11 +930,9 @@ export default {
       "masked": "She acted ____ even under pressure.",
       "options": [
         "upright-mcq-10",
-        "upright-mcq-09",
-        "upright-mcq-11",
-        "upright-mcq-08",
         "upright-mcq-12",
-        "upright-mcq-07"
+        "upright-mcq-06",
+        "upright-mcq-08"
       ],
       "explanation": "本句的「uprightly」指「正式／較少用：正直地、合乎道德地」。",
       "sentenceIndex": 22,
@@ -1019,12 +941,10 @@ export default {
         "uprightly"
       ],
       "optionReasons": {
-        "upright-mcq-10": "本句指「正式／較少用：正直地、合乎道德地」。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-07": "「品格正直、誠實、有原則的」與本句語境不同。"
+        "upright-mcq-10": "本句的「uprightly」指「正式／較少用：正直地、合乎道德地」。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-10"
     },
@@ -1036,11 +956,9 @@ export default {
       "masked": "They have an ____ in the living room.",
       "options": [
         "upright-mcq-11",
-        "upright-mcq-10",
-        "upright-mcq-12",
-        "upright-mcq-09",
-        "upright-mcq-13",
-        "upright-mcq-08"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright piano」指「琴弦及琴體主要垂直排列的立式鋼琴」。",
       "sentenceIndex": 23,
@@ -1049,12 +967,10 @@ export default {
         "upright piano"
       ],
       "optionReasons": {
-        "upright-mcq-11": "本句指「琴弦及琴體主要垂直排列的立式鋼琴」。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。"
+        "upright-mcq-11": "本句的「upright piano」指「琴弦及琴體主要垂直排列的立式鋼琴」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-11"
     },
@@ -1066,11 +982,9 @@ export default {
       "masked": "An ____ takes up less floor space than a grand piano.",
       "options": [
         "upright-mcq-11",
-        "upright-mcq-10",
-        "upright-mcq-12",
-        "upright-mcq-09",
-        "upright-mcq-13",
-        "upright-mcq-08"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright piano」指「琴弦及琴體主要垂直排列的立式鋼琴」。",
       "sentenceIndex": 24,
@@ -1079,12 +993,10 @@ export default {
         "upright piano"
       ],
       "optionReasons": {
-        "upright-mcq-11": "本句指「琴弦及琴體主要垂直排列的立式鋼琴」。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-08": "「品行端正、值得尊敬的人／公民」與本句語境不同。"
+        "upright-mcq-11": "本句的「upright piano」指「琴弦及琴體主要垂直排列的立式鋼琴」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-11"
     },
@@ -1096,11 +1008,9 @@ export default {
       "masked": "The studio contains a grand piano and an ____.",
       "options": [
         "upright-mcq-12",
-        "upright-mcq-11",
-        "upright-mcq-13",
-        "upright-mcq-10",
-        "upright-mcq-14",
-        "upright-mcq-09"
+        "upright-mcq-07",
+        "upright-mcq-18",
+        "upright-mcq-05"
       ],
       "explanation": "本句的「upright」指「音樂語境：一部立式鋼琴」。",
       "sentenceIndex": 25,
@@ -1109,12 +1019,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-12": "本句指「音樂語境：一部立式鋼琴」。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。"
+        "upright-mcq-12": "本句的「upright」指「音樂語境：一部立式鋼琴」。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-12"
     },
@@ -1126,11 +1034,9 @@ export default {
       "masked": "She practises on an old ____.",
       "options": [
         "upright-mcq-12",
-        "upright-mcq-11",
-        "upright-mcq-13",
-        "upright-mcq-10",
-        "upright-mcq-14",
-        "upright-mcq-09"
+        "upright-mcq-09",
+        "upright-mcq-18",
+        "upright-mcq-05"
       ],
       "explanation": "本句的「upright」指「音樂語境：一部立式鋼琴」。",
       "sentenceIndex": 26,
@@ -1139,12 +1045,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-12": "本句指「音樂語境：一部立式鋼琴」。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-09": "「正直、品行端正的品質」與本句語境不同。"
+        "upright-mcq-12": "本句的「upright」指「音樂語境：一部立式鋼琴」。",
+        "upright-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-12"
     },
@@ -1156,11 +1060,9 @@ export default {
       "masked": "He plays ____ in a jazz group.",
       "options": [
         "upright-mcq-13",
-        "upright-mcq-12",
-        "upright-mcq-14",
-        "upright-mcq-11",
-        "upright-mcq-15",
-        "upright-mcq-10"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright bass」指「直立演奏的大型低音弦樂器；低音大提琴」。",
       "sentenceIndex": 27,
@@ -1169,12 +1071,10 @@ export default {
         "upright bass"
       ],
       "optionReasons": {
-        "upright-mcq-13": "本句指「直立演奏的大型低音弦樂器；低音大提琴」。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。"
+        "upright-mcq-13": "本句的「upright bass」指「直立演奏的大型低音弦樂器；低音大提琴」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-13"
     },
@@ -1186,11 +1086,9 @@ export default {
       "masked": "The ____ stood beside the piano.",
       "options": [
         "upright-mcq-13",
-        "upright-mcq-12",
-        "upright-mcq-14",
-        "upright-mcq-11",
-        "upright-mcq-15",
-        "upright-mcq-10"
+        "upright-mcq-08",
+        "upright-mcq-18",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright bass」指「直立演奏的大型低音弦樂器；低音大提琴」。",
       "sentenceIndex": 28,
@@ -1199,12 +1097,10 @@ export default {
         "upright bass"
       ],
       "optionReasons": {
-        "upright-mcq-13": "本句指「直立演奏的大型低音弦樂器；低音大提琴」。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-10": "「正式／較少用：正直地、合乎道德地」與本句語境不同。"
+        "upright-mcq-13": "本句的「upright bass」指「直立演奏的大型低音弦樂器；低音大提琴」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-13"
     },
@@ -1216,11 +1112,9 @@ export default {
       "masked": "They bought an ____ for the kitchen.",
       "options": [
         "upright-mcq-14",
-        "upright-mcq-13",
-        "upright-mcq-15",
-        "upright-mcq-12",
-        "upright-mcq-16",
-        "upright-mcq-11"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright freezer」指「櫃式垂直設計的立式冷凍櫃」。",
       "sentenceIndex": 29,
@@ -1229,12 +1123,10 @@ export default {
         "upright freezer"
       ],
       "optionReasons": {
-        "upright-mcq-14": "本句指「櫃式垂直設計的立式冷凍櫃」。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。"
+        "upright-mcq-14": "本句的「upright freezer」指「櫃式垂直設計的立式冷凍櫃」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-14"
     },
@@ -1246,11 +1138,9 @@ export default {
       "masked": "An ____ is easier to organize than a chest freezer.",
       "options": [
         "upright-mcq-14",
-        "upright-mcq-13",
-        "upright-mcq-15",
-        "upright-mcq-12",
-        "upright-mcq-16",
-        "upright-mcq-11"
+        "upright-mcq-08",
+        "upright-mcq-18",
+        "upright-mcq-10"
       ],
       "explanation": "本句的「upright freezer」指「櫃式垂直設計的立式冷凍櫃」。",
       "sentenceIndex": 30,
@@ -1259,12 +1149,10 @@ export default {
         "upright freezer"
       ],
       "optionReasons": {
-        "upright-mcq-14": "本句指「櫃式垂直設計的立式冷凍櫃」。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。"
+        "upright-mcq-14": "本句的「upright freezer」指「櫃式垂直設計的立式冷凍櫃」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-14"
     },
@@ -1276,11 +1164,9 @@ export default {
       "masked": "She uses an ____ on the carpet.",
       "options": [
         "upright-mcq-14",
-        "upright-mcq-13",
-        "upright-mcq-15",
-        "upright-mcq-12",
-        "upright-mcq-16",
-        "upright-mcq-11"
+        "upright-mcq-08",
+        "upright-mcq-18",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright vacuum」指「櫃式垂直設計的立式冷凍櫃」。",
       "sentenceIndex": 31,
@@ -1289,12 +1175,10 @@ export default {
         "upright vacuum"
       ],
       "optionReasons": {
-        "upright-mcq-14": "本句指「櫃式垂直設計的立式冷凍櫃」。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-11": "「琴弦及琴體主要垂直排列的立式鋼琴」與本句語境不同。"
+        "upright-mcq-14": "本句的「upright vacuum」指「櫃式垂直設計的立式冷凍櫃」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-14"
     },
@@ -1306,11 +1190,9 @@ export default {
       "masked": "The horizontal beam was fixed between two ____.",
       "options": [
         "upright-mcq-15",
-        "upright-mcq-14",
-        "upright-mcq-16",
-        "upright-mcq-13",
-        "upright-mcq-17",
-        "upright-mcq-12"
+        "upright-mcq-08",
+        "upright-mcq-18",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「uprights」指「建築／框架中的垂直立柱或支架」。",
       "sentenceIndex": 32,
@@ -1319,12 +1201,10 @@ export default {
         "uprights"
       ],
       "optionReasons": {
-        "upright-mcq-15": "本句指「建築／框架中的垂直立柱或支架」。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。"
+        "upright-mcq-15": "本句的「uprights」指「建築／框架中的垂直立柱或支架」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-15"
     },
@@ -1336,11 +1216,9 @@ export default {
       "masked": "One of the wooden ____ was damaged.",
       "options": [
         "upright-mcq-15",
-        "upright-mcq-14",
-        "upright-mcq-16",
-        "upright-mcq-13",
-        "upright-mcq-17",
-        "upright-mcq-12"
+        "upright-mcq-18",
+        "upright-mcq-08",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「uprights」指「建築／框架中的垂直立柱或支架」。",
       "sentenceIndex": 33,
@@ -1349,12 +1227,10 @@ export default {
         "uprights"
       ],
       "optionReasons": {
-        "upright-mcq-15": "本句指「建築／框架中的垂直立柱或支架」。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-12": "「音樂語境：一部立式鋼琴」與本句語境不同。"
+        "upright-mcq-15": "本句的「uprights」指「建築／框架中的垂直立柱或支架」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-15"
     },
@@ -1366,11 +1242,9 @@ export default {
       "masked": "The ball struck the ____.",
       "options": [
         "upright-mcq-16",
-        "upright-mcq-15",
-        "upright-mcq-17",
-        "upright-mcq-14",
+        "upright-mcq-08",
         "upright-mcq-18",
-        "upright-mcq-13"
+        "upright-mcq-10"
       ],
       "explanation": "本句的「upright」指「球門兩側的垂直立柱／門柱」。",
       "sentenceIndex": 34,
@@ -1379,12 +1253,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-16": "本句指「球門兩側的垂直立柱／門柱」。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-18": "「把倒下／橫放的東西扶正、豎起」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。"
+        "upright-mcq-16": "本句的「upright」指「球門兩側的垂直立柱／門柱」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-16"
     },
@@ -1396,11 +1268,9 @@ export default {
       "masked": "The shot passed just outside the left ____.",
       "options": [
         "upright-mcq-16",
-        "upright-mcq-15",
-        "upright-mcq-17",
-        "upright-mcq-14",
+        "upright-mcq-08",
         "upright-mcq-18",
-        "upright-mcq-13"
+        "upright-mcq-10"
       ],
       "explanation": "本句的「upright」指「球門兩側的垂直立柱／門柱」。",
       "sentenceIndex": 35,
@@ -1409,12 +1279,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-16": "本句指「球門兩側的垂直立柱／門柱」。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。",
-        "upright-mcq-18": "「把倒下／橫放的東西扶正、豎起」與本句語境不同。",
-        "upright-mcq-13": "「直立演奏的大型低音弦樂器；低音大提琴」與本句語境不同。"
+        "upright-mcq-16": "本句的「upright」指「球門兩側的垂直立柱／門柱」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-16"
     },
@@ -1426,11 +1294,9 @@ export default {
       "masked": "Use the support to ____.",
       "options": [
         "upright-mcq-17",
-        "upright-mcq-16",
+        "upright-mcq-08",
         "upright-mcq-18",
-        "upright-mcq-15",
-        "upright-mcq-19",
-        "upright-mcq-14"
+        "upright-mcq-10"
       ],
       "explanation": "本句的「keep the plant upright」指「使某物維持垂直站立狀態」。",
       "sentenceIndex": 36,
@@ -1439,12 +1305,10 @@ export default {
         "keep the plant upright"
       ],
       "optionReasons": {
-        "upright-mcq-17": "本句指「使某物維持垂直站立狀態」。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-18": "「把倒下／橫放的東西扶正、豎起」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-19": "「從躺、彎或傾斜狀態恢復直立姿勢」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。"
+        "upright-mcq-17": "本句的「keep the plant upright」指「使某物維持垂直站立狀態」。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-17"
     },
@@ -1456,11 +1320,9 @@ export default {
       "masked": "The frame keeps the bottle ____.",
       "options": [
         "upright-mcq-17",
-        "upright-mcq-16",
         "upright-mcq-18",
-        "upright-mcq-15",
-        "upright-mcq-19",
-        "upright-mcq-14"
+        "upright-mcq-08",
+        "upright-mcq-07"
       ],
       "explanation": "本句的「upright」指「使某物維持垂直站立狀態」。",
       "sentenceIndex": 37,
@@ -1469,12 +1331,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-17": "本句指「使某物維持垂直站立狀態」。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-18": "「把倒下／橫放的東西扶正、豎起」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-19": "「從躺、彎或傾斜狀態恢復直立姿勢」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。"
+        "upright-mcq-17": "本句的「upright」指「使某物維持垂直站立狀態」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-17"
     },
@@ -1487,10 +1347,8 @@ export default {
       "options": [
         "upright-mcq-18",
         "upright-mcq-17",
-        "upright-mcq-19",
-        "upright-mcq-16",
-        "upright-mcq-15",
-        "upright-mcq-14"
+        "upright-mcq-13",
+        "upright-mcq-02"
       ],
       "explanation": "本句的「set it upright」指「把倒下／橫放的東西扶正、豎起」。",
       "sentenceIndex": 38,
@@ -1499,12 +1357,10 @@ export default {
         "set it upright"
       ],
       "optionReasons": {
-        "upright-mcq-18": "本句指「把倒下／橫放的東西扶正、豎起」。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-19": "「從躺、彎或傾斜狀態恢復直立姿勢」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。"
+        "upright-mcq-18": "本句的「set it upright」指「把倒下／橫放的東西扶正、豎起」。",
+        "upright-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-18"
     },
@@ -1516,11 +1372,9 @@ export default {
       "masked": "They ____ again.",
       "options": [
         "upright-mcq-18",
-        "upright-mcq-17",
-        "upright-mcq-19",
+        "upright-mcq-02",
         "upright-mcq-16",
-        "upright-mcq-15",
-        "upright-mcq-14"
+        "upright-mcq-12"
       ],
       "explanation": "本句的「set the sign upright」指「把倒下／橫放的東西扶正、豎起」。",
       "sentenceIndex": 39,
@@ -1529,12 +1383,10 @@ export default {
         "set the sign upright"
       ],
       "optionReasons": {
-        "upright-mcq-18": "本句指「把倒下／橫放的東西扶正、豎起」。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-19": "「從躺、彎或傾斜狀態恢復直立姿勢」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。"
+        "upright-mcq-18": "本句的「set the sign upright」指「把倒下／橫放的東西扶正、豎起」。",
+        "upright-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-18"
     },
@@ -1547,10 +1399,8 @@ export default {
       "options": [
         "upright-mcq-19",
         "upright-mcq-18",
-        "upright-mcq-17",
-        "upright-mcq-16",
-        "upright-mcq-15",
-        "upright-mcq-14"
+        "upright-mcq-08",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「return to an upright position」指「從躺、彎或傾斜狀態恢復直立姿勢」。",
       "sentenceIndex": 40,
@@ -1559,12 +1409,10 @@ export default {
         "return to an upright position"
       ],
       "optionReasons": {
-        "upright-mcq-19": "本句指「從躺、彎或傾斜狀態恢復直立姿勢」。",
-        "upright-mcq-18": "「把倒下／橫放的東西扶正、豎起」與本句語境不同。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。"
+        "upright-mcq-19": "本句的「return to an upright position」指「從躺、彎或傾斜狀態恢復直立姿勢」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-19"
     },
@@ -1577,10 +1425,8 @@ export default {
       "options": [
         "upright-mcq-19",
         "upright-mcq-18",
-        "upright-mcq-17",
-        "upright-mcq-16",
-        "upright-mcq-15",
-        "upright-mcq-14"
+        "upright-mcq-08",
+        "upright-mcq-12"
       ],
       "explanation": "本句的「upright」指「從躺、彎或傾斜狀態恢復直立姿勢」。",
       "sentenceIndex": 41,
@@ -1589,12 +1435,10 @@ export default {
         "upright"
       ],
       "optionReasons": {
-        "upright-mcq-19": "本句指「從躺、彎或傾斜狀態恢復直立姿勢」。",
-        "upright-mcq-18": "「把倒下／橫放的東西扶正、豎起」與本句語境不同。",
-        "upright-mcq-17": "「使某物維持垂直站立狀態」與本句語境不同。",
-        "upright-mcq-16": "「球門兩側的垂直立柱／門柱」與本句語境不同。",
-        "upright-mcq-15": "「建築／框架中的垂直立柱或支架」與本句語境不同。",
-        "upright-mcq-14": "「櫃式垂直設計的立式冷凍櫃」與本句語境不同。"
+        "upright-mcq-19": "本句的「upright」指「從躺、彎或傾斜狀態恢復直立姿勢」。",
+        "upright-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "upright-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "upright-mcq-19"
     }
@@ -1606,5 +1450,7 @@ export default {
     "sha256": "7b315a29c9e6374ba2f898be69bb95feeacf1aa2febf221b4655e34d8eeaf148",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

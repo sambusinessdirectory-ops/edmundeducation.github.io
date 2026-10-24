@@ -478,7 +478,7 @@ export default {
     },
     {
       "id": "drama-mcq-26",
-      "title": "表示劇情；戲劇性故事；正劇",
+      "title": "劇情；戲劇性故事；正劇",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示劇情；戲劇性故事；正劇",
@@ -500,7 +500,7 @@ export default {
     },
     {
       "id": "drama-mcq-27",
-      "title": "表示正劇；劇情類作品",
+      "title": "正劇；劇情類作品",
       "form": "2. drama — serious fictional genre",
       "en": "2. drama — serious fictional genre",
       "zh": "表示正劇；劇情類作品",
@@ -530,11 +530,9 @@ export default {
       "masked": "The novel combines fantasy with emotional ____.",
       "options": [
         "drama-mcq-26",
-        "drama-mcq-25",
-        "drama-mcq-27",
-        "drama-mcq-24",
-        "drama-mcq-23",
-        "drama-mcq-22"
+        "drama-mcq-06",
+        "drama-mcq-22",
+        "drama-mcq-20"
       ],
       "explanation": "本句的「drama」指「表示劇情；戲劇性故事；正劇」。",
       "sentenceIndex": 0,
@@ -543,12 +541,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-26": "本句指「表示劇情；戲劇性故事；正劇」。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-27": "「表示正劇；劇情類作品」是「2. drama — serious fictional genre」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。"
+        "drama-mcq-26": "本句的「drama」指「表示劇情；戲劇性故事；正劇」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-26"
     },
@@ -560,11 +556,9 @@ export default {
       "masked": "I enjoy ____ that explore difficult moral questions.",
       "options": [
         "drama-mcq-26",
-        "drama-mcq-25",
-        "drama-mcq-27",
         "drama-mcq-24",
-        "drama-mcq-23",
-        "drama-mcq-22"
+        "drama-mcq-07",
+        "drama-mcq-19"
       ],
       "explanation": "本句的「dramas」指「表示劇情；戲劇性故事；正劇」。",
       "sentenceIndex": 1,
@@ -573,12 +567,10 @@ export default {
         "dramas"
       ],
       "optionReasons": {
-        "drama-mcq-26": "本句指「表示劇情；戲劇性故事；正劇」。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-27": "「表示正劇；劇情類作品」是「2. drama — serious fictional genre」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。"
+        "drama-mcq-26": "本句的「dramas」指「表示劇情；戲劇性故事；正劇」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-26"
     },
@@ -590,11 +582,9 @@ export default {
       "masked": "The film is a family ____.",
       "options": [
         "drama-mcq-27",
-        "drama-mcq-26",
-        "drama-mcq-25",
         "drama-mcq-24",
-        "drama-mcq-23",
-        "drama-mcq-22"
+        "drama-mcq-07",
+        "drama-mcq-20"
       ],
       "explanation": "本句的「drama」指「表示正劇；劇情類作品」。",
       "sentenceIndex": 2,
@@ -603,12 +593,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-27": "本句指「表示正劇；劇情類作品」。",
-        "drama-mcq-26": "「表示劇情；戲劇性故事；正劇」是「Passage meaning」的用法，與本句語境不同。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。"
+        "drama-mcq-27": "本句的「drama」指「表示正劇；劇情類作品」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-27"
     },
@@ -620,11 +608,9 @@ export default {
       "masked": "She prefers ____ to comedy.",
       "options": [
         "drama-mcq-27",
-        "drama-mcq-26",
-        "drama-mcq-25",
-        "drama-mcq-24",
         "drama-mcq-23",
-        "drama-mcq-22"
+        "drama-mcq-07",
+        "drama-mcq-17"
       ],
       "explanation": "本句的「drama」指「表示正劇；劇情類作品」。",
       "sentenceIndex": 3,
@@ -633,12 +619,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-27": "本句指「表示正劇；劇情類作品」。",
-        "drama-mcq-26": "「表示劇情；戲劇性故事；正劇」是「Passage meaning」的用法，與本句語境不同。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。"
+        "drama-mcq-27": "本句的「drama」指「表示正劇；劇情類作品」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-27"
     },
@@ -650,11 +634,9 @@ export default {
       "masked": "The channel is showing a new historical ____.",
       "options": [
         "drama-mcq-02",
-        "drama-mcq-01",
-        "drama-mcq-03",
-        "drama-mcq-04",
-        "drama-mcq-05",
-        "drama-mcq-06"
+        "drama-mcq-07",
+        "drama-mcq-17",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「drama」指「以劇情和人物衝突為主的電視劇／劇情片」。",
       "sentenceIndex": 4,
@@ -663,12 +645,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-02": "本句指「以劇情和人物衝突為主的電視劇／劇情片」。",
-        "drama-mcq-01": "「以人物、情感、關係和衝突為核心的嚴肅劇情／正劇」是「drama — serious genre」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。"
+        "drama-mcq-02": "本句的「drama」指「以劇情和人物衝突為主的電視劇／劇情片」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-02"
     },
@@ -680,11 +660,9 @@ export default {
       "masked": "It is a powerful courtroom ____.",
       "options": [
         "drama-mcq-02",
-        "drama-mcq-01",
-        "drama-mcq-03",
-        "drama-mcq-04",
-        "drama-mcq-05",
-        "drama-mcq-06"
+        "drama-mcq-07",
+        "drama-mcq-08",
+        "drama-mcq-19"
       ],
       "explanation": "本句的「drama」指「以劇情和人物衝突為主的電視劇／劇情片」。",
       "sentenceIndex": 5,
@@ -693,12 +671,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-02": "本句指「以劇情和人物衝突為主的電視劇／劇情片」。",
-        "drama-mcq-01": "「以人物、情感、關係和衝突為核心的嚴肅劇情／正劇」是「drama — serious genre」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。"
+        "drama-mcq-02": "本句的「drama」指「以劇情和人物衝突為主的電視劇／劇情片」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-02"
     },
@@ -710,11 +686,9 @@ export default {
       "masked": "The students studied a Shakespearean ____.",
       "options": [
         "drama-mcq-03",
-        "drama-mcq-02",
-        "drama-mcq-04",
-        "drama-mcq-01",
-        "drama-mcq-05",
-        "drama-mcq-06"
+        "drama-mcq-23",
+        "drama-mcq-07",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「drama」指「為演員舞台演出而寫的戲劇作品」。",
       "sentenceIndex": 6,
@@ -723,12 +697,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-03": "本句指「為演員舞台演出而寫的戲劇作品」。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-01": "「以人物、情感、關係和衝突為核心的嚴肅劇情／正劇」是「drama — serious genre」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。"
+        "drama-mcq-03": "本句的「drama」指「為演員舞台演出而寫的戲劇作品」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-03"
     },
@@ -740,11 +712,9 @@ export default {
       "masked": "The ____ was performed at the local theatre.",
       "options": [
         "drama-mcq-03",
-        "drama-mcq-02",
-        "drama-mcq-04",
-        "drama-mcq-01",
-        "drama-mcq-05",
-        "drama-mcq-06"
+        "drama-mcq-23",
+        "drama-mcq-07",
+        "drama-mcq-19"
       ],
       "explanation": "本句的「drama」指「為演員舞台演出而寫的戲劇作品」。",
       "sentenceIndex": 7,
@@ -753,12 +723,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-03": "本句指「為演員舞台演出而寫的戲劇作品」。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-01": "「以人物、情感、關係和衝突為核心的嚴肅劇情／正劇」是「drama — serious genre」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。"
+        "drama-mcq-03": "本句的「drama」指「為演員舞台演出而寫的戲劇作品」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-03"
     },
@@ -770,11 +738,9 @@ export default {
       "masked": "She studied ____ at university.",
       "options": [
         "drama-mcq-04",
-        "drama-mcq-03",
-        "drama-mcq-05",
-        "drama-mcq-02",
         "drama-mcq-06",
-        "drama-mcq-01"
+        "drama-mcq-27",
+        "drama-mcq-21"
       ],
       "explanation": "本句的「drama」指「戲劇表演、創作與研究這門藝術」。",
       "sentenceIndex": 8,
@@ -783,12 +749,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-04": "本句指「戲劇表演、創作與研究這門藝術」。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-01": "「以人物、情感、關係和衝突為核心的嚴肅劇情／正劇」是「drama — serious genre」的用法，與本句語境不同。"
+        "drama-mcq-04": "本句的「drama」指「戲劇表演、創作與研究這門藝術」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-04"
     },
@@ -800,11 +764,9 @@ export default {
       "masked": "He teaches ____ at a secondary school.",
       "options": [
         "drama-mcq-04",
-        "drama-mcq-03",
-        "drama-mcq-05",
-        "drama-mcq-02",
-        "drama-mcq-06",
-        "drama-mcq-01"
+        "drama-mcq-07",
+        "drama-mcq-24",
+        "drama-mcq-19"
       ],
       "explanation": "本句的「drama」指「戲劇表演、創作與研究這門藝術」。",
       "sentenceIndex": 9,
@@ -813,12 +775,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-04": "本句指「戲劇表演、創作與研究這門藝術」。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-01": "「以人物、情感、關係和衝突為核心的嚴肅劇情／正劇」是「drama — serious genre」的用法，與本句語境不同。"
+        "drama-mcq-04": "本句的「drama」指「戲劇表演、創作與研究這門藝術」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-04"
     },
@@ -831,10 +791,8 @@ export default {
       "options": [
         "drama-mcq-08",
         "drama-mcq-07",
-        "drama-mcq-09",
-        "drama-mcq-06",
-        "drama-mcq-10",
-        "drama-mcq-05"
+        "drama-mcq-24",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「drama class」指「學習表演、戲劇創作等的課程／學校」。",
       "sentenceIndex": 10,
@@ -843,12 +801,10 @@ export default {
         "drama class"
       ],
       "optionReasons": {
-        "drama-mcq-08": "本句指「學習表演、戲劇創作等的課程／學校」。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-09": "「與戲劇或表演有關的」是「dramatic — relating to drama」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-10": "「變化非常巨大或顯著的」是「dramatic — major change」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。"
+        "drama-mcq-08": "本句的「drama class」指「學習表演、戲劇創作等的課程／學校」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-08"
     },
@@ -860,11 +816,9 @@ export default {
       "masked": "He trained at ____.",
       "options": [
         "drama-mcq-08",
+        "drama-mcq-24",
         "drama-mcq-07",
-        "drama-mcq-09",
-        "drama-mcq-06",
-        "drama-mcq-10",
-        "drama-mcq-05"
+        "drama-mcq-19"
       ],
       "explanation": "本句的「drama school」指「學習表演、戲劇創作等的課程／學校」。",
       "sentenceIndex": 11,
@@ -873,12 +827,10 @@ export default {
         "drama school"
       ],
       "optionReasons": {
-        "drama-mcq-08": "本句指「學習表演、戲劇創作等的課程／學校」。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-09": "「與戲劇或表演有關的」是「dramatic — relating to drama」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-10": "「變化非常巨大或顯著的」是「dramatic — major change」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。"
+        "drama-mcq-08": "本句的「drama school」指「學習表演、戲劇創作等的課程／學校」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-08"
     },
@@ -890,11 +842,9 @@ export default {
       "masked": "There was plenty of ____ in the final minutes of the match.",
       "options": [
         "drama-mcq-05",
-        "drama-mcq-04",
         "drama-mcq-06",
-        "drama-mcq-03",
-        "drama-mcq-07",
-        "drama-mcq-02"
+        "drama-mcq-20",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
       "sentenceIndex": 12,
@@ -903,12 +853,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-05": "本句指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。"
+        "drama-mcq-05": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-05"
     },
@@ -920,11 +868,9 @@ export default {
       "masked": "The rescue unfolded with unexpected ____.",
       "options": [
         "drama-mcq-05",
-        "drama-mcq-04",
         "drama-mcq-06",
-        "drama-mcq-03",
-        "drama-mcq-07",
-        "drama-mcq-02"
+        "drama-mcq-22",
+        "drama-mcq-27"
       ],
       "explanation": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
       "sentenceIndex": 13,
@@ -933,12 +879,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-05": "本句指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。"
+        "drama-mcq-05": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-05"
     },
@@ -950,11 +894,9 @@ export default {
       "masked": "The election night produced plenty of ____.",
       "options": [
         "drama-mcq-05",
-        "drama-mcq-04",
-        "drama-mcq-06",
-        "drama-mcq-03",
-        "drama-mcq-07",
-        "drama-mcq-02"
+        "drama-mcq-24",
+        "drama-mcq-22",
+        "drama-mcq-20"
       ],
       "explanation": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
       "sentenceIndex": 14,
@@ -963,12 +905,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-05": "本句指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。"
+        "drama-mcq-05": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-05"
     },
@@ -980,11 +920,9 @@ export default {
       "masked": "Their journey was full of unexpected ____.",
       "options": [
         "drama-mcq-05",
-        "drama-mcq-04",
         "drama-mcq-06",
-        "drama-mcq-03",
-        "drama-mcq-07",
-        "drama-mcq-02"
+        "drama-mcq-27",
+        "drama-mcq-21"
       ],
       "explanation": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
       "sentenceIndex": 15,
@@ -993,12 +931,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-05": "本句指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-02": "「以劇情和人物衝突為主的電視劇／劇情片」是「drama — film/TV work」的用法，與本句語境不同。"
+        "drama-mcq-05": "本句的「drama」指「現實中充滿緊張、意外或轉折的戲劇性事件」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-05"
     },
@@ -1010,11 +946,9 @@ export default {
       "masked": "I don’t want to get involved in their ____.",
       "options": [
         "drama-mcq-06",
-        "drama-mcq-05",
-        "drama-mcq-07",
+        "drama-mcq-02",
         "drama-mcq-04",
-        "drama-mcq-08",
-        "drama-mcq-03"
+        "drama-mcq-20"
       ],
       "explanation": "本句的「drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
       "sentenceIndex": 16,
@@ -1023,12 +957,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-06": "本句指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-08": "「學習表演、戲劇創作等的課程／學校」是「drama class/school」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。"
+        "drama-mcq-06": "本句的「drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
+        "drama-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-06"
     },
@@ -1040,11 +972,9 @@ export default {
       "masked": "There is always some ____ in that group.",
       "options": [
         "drama-mcq-06",
-        "drama-mcq-05",
-        "drama-mcq-07",
-        "drama-mcq-04",
-        "drama-mcq-08",
-        "drama-mcq-03"
+        "drama-mcq-18",
+        "drama-mcq-19",
+        "drama-mcq-02"
       ],
       "explanation": "本句的「drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
       "sentenceIndex": 17,
@@ -1053,12 +983,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-06": "本句指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-08": "「學習表演、戲劇創作等的課程／學校」是「drama class/school」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。"
+        "drama-mcq-06": "本句的「drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
+        "drama-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-06"
     },
@@ -1070,11 +998,9 @@ export default {
       "masked": "I just want a quiet weekend with ____.",
       "options": [
         "drama-mcq-06",
-        "drama-mcq-05",
-        "drama-mcq-07",
         "drama-mcq-04",
-        "drama-mcq-08",
-        "drama-mcq-03"
+        "drama-mcq-02",
+        "drama-mcq-20"
       ],
       "explanation": "本句的「no drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
       "sentenceIndex": 18,
@@ -1083,12 +1009,10 @@ export default {
         "no drama"
       ],
       "optionReasons": {
-        "drama-mcq-06": "本句指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-08": "「學習表演、戲劇創作等的課程／學校」是「drama class/school」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。"
+        "drama-mcq-06": "本句的「no drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
+        "drama-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-06"
     },
@@ -1100,11 +1024,9 @@ export default {
       "masked": "Let’s keep this simple—____.",
       "options": [
         "drama-mcq-06",
-        "drama-mcq-05",
-        "drama-mcq-07",
-        "drama-mcq-04",
-        "drama-mcq-08",
-        "drama-mcq-03"
+        "drama-mcq-03",
+        "drama-mcq-20",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「no drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
       "sentenceIndex": 19,
@@ -1113,12 +1035,10 @@ export default {
         "no drama"
       ],
       "optionReasons": {
-        "drama-mcq-06": "本句指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-07": "「過度誇張、小題大做的情緒反應」是「drama — exaggerated reaction」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。",
-        "drama-mcq-08": "「學習表演、戲劇創作等的課程／學校」是「drama class/school」的用法，與本句語境不同。",
-        "drama-mcq-03": "「為演員舞台演出而寫的戲劇作品」是「drama — stage play」的用法，與本句語境不同。"
+        "drama-mcq-06": "本句的「no drama」指「人與人之間的爭執、八卦、麻煩或情緒風波」。",
+        "drama-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-06"
     },
@@ -1130,11 +1050,9 @@ export default {
       "masked": "There was no need for all that ____.",
       "options": [
         "drama-mcq-07",
-        "drama-mcq-06",
         "drama-mcq-08",
-        "drama-mcq-05",
-        "drama-mcq-09",
-        "drama-mcq-04"
+        "drama-mcq-21",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「drama」指「過度誇張、小題大做的情緒反應」。",
       "sentenceIndex": 20,
@@ -1143,12 +1061,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-07": "本句指「過度誇張、小題大做的情緒反應」。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-08": "「學習表演、戲劇創作等的課程／學校」是「drama class/school」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-09": "「與戲劇或表演有關的」是「dramatic — relating to drama」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。"
+        "drama-mcq-07": "本句的「drama」指「過度誇張、小題大做的情緒反應」。",
+        "drama-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-07"
     },
@@ -1160,11 +1076,9 @@ export default {
       "masked": "He turned a small disagreement into a huge ____.",
       "options": [
         "drama-mcq-07",
-        "drama-mcq-06",
-        "drama-mcq-08",
-        "drama-mcq-05",
-        "drama-mcq-09",
-        "drama-mcq-04"
+        "drama-mcq-22",
+        "drama-mcq-18",
+        "drama-mcq-02"
       ],
       "explanation": "本句的「drama」指「過度誇張、小題大做的情緒反應」。",
       "sentenceIndex": 21,
@@ -1173,12 +1087,10 @@ export default {
         "drama"
       ],
       "optionReasons": {
-        "drama-mcq-07": "本句指「過度誇張、小題大做的情緒反應」。",
-        "drama-mcq-06": "「人與人之間的爭執、八卦、麻煩或情緒風波」是「drama — interpersonal conflict」的用法，與本句語境不同。",
-        "drama-mcq-08": "「學習表演、戲劇創作等的課程／學校」是「drama class/school」的用法，與本句語境不同。",
-        "drama-mcq-05": "「現實中充滿緊張、意外或轉折的戲劇性事件」是「drama — exciting real events」的用法，與本句語境不同。",
-        "drama-mcq-09": "「與戲劇或表演有關的」是「dramatic — relating to drama」的用法，與本句語境不同。",
-        "drama-mcq-04": "「戲劇表演、創作與研究這門藝術」是「drama — art/study」的用法，與本句語境不同。"
+        "drama-mcq-07": "本句的「drama」指「過度誇張、小題大做的情緒反應」。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-07"
     },
@@ -1190,11 +1102,9 @@ export default {
       "masked": "The series is a ____ of real events.",
       "options": [
         "drama-mcq-17",
-        "drama-mcq-16",
-        "drama-mcq-18",
-        "drama-mcq-15",
-        "drama-mcq-19",
-        "drama-mcq-14"
+        "drama-mcq-24",
+        "drama-mcq-07",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「dramatization」指「將故事／真實事件改編或呈現為戲劇的版本」。",
       "sentenceIndex": 22,
@@ -1203,12 +1113,10 @@ export default {
         "dramatization"
       ],
       "optionReasons": {
-        "drama-mcq-17": "本句指「將故事／真實事件改編或呈現為戲劇的版本」。",
-        "drama-mcq-16": "「把事情說得或表現得比實際更嚴重、更戲劇化」是「dramatize — exaggerate」的用法，與本句語境不同。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。",
-        "drama-mcq-15": "「把小說、事件等改編成戲劇形式」是「dramatize — adapt」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-14": "「戲劇性地／誇張地」是「dramatically — theatrically」的用法，與本句語境不同。"
+        "drama-mcq-17": "本句的「dramatization」指「將故事／真實事件改編或呈現為戲劇的版本」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-17"
     },
@@ -1220,11 +1128,9 @@ export default {
       "masked": "Some scenes were added for ____.",
       "options": [
         "drama-mcq-17",
-        "drama-mcq-16",
-        "drama-mcq-18",
-        "drama-mcq-15",
-        "drama-mcq-19",
-        "drama-mcq-14"
+        "drama-mcq-23",
+        "drama-mcq-07",
+        "drama-mcq-27"
       ],
       "explanation": "本句的「dramatisation」指「將故事／真實事件改編或呈現為戲劇的版本」。",
       "sentenceIndex": 23,
@@ -1233,12 +1139,10 @@ export default {
         "dramatisation"
       ],
       "optionReasons": {
-        "drama-mcq-17": "本句指「將故事／真實事件改編或呈現為戲劇的版本」。",
-        "drama-mcq-16": "「把事情說得或表現得比實際更嚴重、更戲劇化」是「dramatize — exaggerate」的用法，與本句語境不同。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。",
-        "drama-mcq-15": "「把小說、事件等改編成戲劇形式」是「dramatize — adapt」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-14": "「戲劇性地／誇張地」是「dramatically — theatrically」的用法，與本句語境不同。"
+        "drama-mcq-17": "本句的「dramatisation」指「將故事／真實事件改編或呈現為戲劇的版本」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-17"
     },
@@ -1250,11 +1154,9 @@ export default {
       "masked": "He became a successful ____.",
       "options": [
         "drama-mcq-18",
-        "drama-mcq-17",
-        "drama-mcq-19",
-        "drama-mcq-16",
-        "drama-mcq-20",
-        "drama-mcq-15"
+        "drama-mcq-07",
+        "drama-mcq-24",
+        "drama-mcq-19"
       ],
       "explanation": "本句的「dramatist」指「創作戲劇作品的劇作家」。",
       "sentenceIndex": 24,
@@ -1263,12 +1165,10 @@ export default {
         "dramatist"
       ],
       "optionReasons": {
-        "drama-mcq-18": "本句指「創作戲劇作品的劇作家」。",
-        "drama-mcq-17": "「將故事／真實事件改編或呈現為戲劇的版本」是「dramatization」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-16": "「把事情說得或表現得比實際更嚴重、更戲劇化」是「dramatize — exaggerate」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-15": "「把小說、事件等改編成戲劇形式」是「dramatize — adapt」的用法，與本句語境不同。"
+        "drama-mcq-18": "本句的「dramatist」指「創作戲劇作品的劇作家」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-18"
     },
@@ -1280,11 +1180,9 @@ export default {
       "masked": "The ____ is known for political plays.",
       "options": [
         "drama-mcq-18",
-        "drama-mcq-17",
+        "drama-mcq-06",
         "drama-mcq-19",
-        "drama-mcq-16",
-        "drama-mcq-20",
-        "drama-mcq-15"
+        "drama-mcq-02"
       ],
       "explanation": "本句的「dramatist」指「創作戲劇作品的劇作家」。",
       "sentenceIndex": 25,
@@ -1293,12 +1191,10 @@ export default {
         "dramatist"
       ],
       "optionReasons": {
-        "drama-mcq-18": "本句指「創作戲劇作品的劇作家」。",
-        "drama-mcq-17": "「將故事／真實事件改編或呈現為戲劇的版本」是「dramatization」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-16": "「把事情說得或表現得比實際更嚴重、更戲劇化」是「dramatize — exaggerate」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-15": "「把小說、事件等改編成戲劇形式」是「dramatize — adapt」的用法，與本句語境不同。"
+        "drama-mcq-18": "本句的「dramatist」指「創作戲劇作品的劇作家」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-18"
     },
@@ -1310,11 +1206,9 @@ export default {
       "masked": "The series is a ____.",
       "options": [
         "drama-mcq-19",
-        "drama-mcq-18",
-        "drama-mcq-20",
-        "drama-mcq-17",
-        "drama-mcq-21",
-        "drama-mcq-16"
+        "drama-mcq-06",
+        "drama-mcq-25",
+        "drama-mcq-21"
       ],
       "explanation": "本句的「historical drama」指「以歷史時期或事件為背景的歷史劇」。",
       "sentenceIndex": 26,
@@ -1323,12 +1217,10 @@ export default {
         "historical drama"
       ],
       "optionReasons": {
-        "drama-mcq-19": "本句指「以歷史時期或事件為背景的歷史劇」。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-17": "「將故事／真實事件改編或呈現為戲劇的版本」是「dramatization」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-16": "「把事情說得或表現得比實際更嚴重、更戲劇化」是「dramatize — exaggerate」的用法，與本句語境不同。"
+        "drama-mcq-19": "本句的「historical drama」指「以歷史時期或事件為背景的歷史劇」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-19"
     },
@@ -1340,11 +1232,9 @@ export default {
       "masked": "She enjoys watching ____.",
       "options": [
         "drama-mcq-19",
-        "drama-mcq-18",
-        "drama-mcq-20",
-        "drama-mcq-17",
-        "drama-mcq-21",
-        "drama-mcq-16"
+        "drama-mcq-24",
+        "drama-mcq-07",
+        "drama-mcq-27"
       ],
       "explanation": "本句的「historical dramas」指「以歷史時期或事件為背景的歷史劇」。",
       "sentenceIndex": 27,
@@ -1353,12 +1243,10 @@ export default {
         "historical dramas"
       ],
       "optionReasons": {
-        "drama-mcq-19": "本句指「以歷史時期或事件為背景的歷史劇」。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-17": "「將故事／真實事件改編或呈現為戲劇的版本」是「dramatization」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-16": "「把事情說得或表現得比實際更嚴重、更戲劇化」是「dramatize — exaggerate」的用法，與本句語境不同。"
+        "drama-mcq-19": "本句的「historical dramas」指「以歷史時期或事件為背景的歷史劇」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-19"
     },
@@ -1370,11 +1258,9 @@ export default {
       "masked": "It is a popular ____.",
       "options": [
         "drama-mcq-20",
-        "drama-mcq-19",
-        "drama-mcq-21",
-        "drama-mcq-18",
-        "drama-mcq-22",
-        "drama-mcq-17"
+        "drama-mcq-23",
+        "drama-mcq-07",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「crime drama」指「以犯罪、警察、調查等為中心的犯罪劇」。",
       "sentenceIndex": 28,
@@ -1383,12 +1269,10 @@ export default {
         "crime drama"
       ],
       "optionReasons": {
-        "drama-mcq-20": "本句指「以犯罪、警察、調查等為中心的犯罪劇」。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-17": "「將故事／真實事件改編或呈現為戲劇的版本」是「dramatization」的用法，與本句語境不同。"
+        "drama-mcq-20": "本句的「crime drama」指「以犯罪、警察、調查等為中心的犯罪劇」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-20"
     },
@@ -1400,11 +1284,9 @@ export default {
       "masked": "He watches several police ____.",
       "options": [
         "drama-mcq-20",
-        "drama-mcq-19",
-        "drama-mcq-21",
-        "drama-mcq-18",
-        "drama-mcq-22",
-        "drama-mcq-17"
+        "drama-mcq-23",
+        "drama-mcq-07",
+        "drama-mcq-25"
       ],
       "explanation": "本句的「dramas」指「以犯罪、警察、調查等為中心的犯罪劇」。",
       "sentenceIndex": 29,
@@ -1413,12 +1295,10 @@ export default {
         "dramas"
       ],
       "optionReasons": {
-        "drama-mcq-20": "本句指「以犯罪、警察、調查等為中心的犯罪劇」。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-17": "「將故事／真實事件改編或呈現為戲劇的版本」是「dramatization」的用法，與本句語境不同。"
+        "drama-mcq-20": "本句的「dramas」指「以犯罪、警察、調查等為中心的犯罪劇」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-20"
     },
@@ -1430,11 +1310,9 @@ export default {
       "masked": "The novel is partly a ____.",
       "options": [
         "drama-mcq-21",
-        "drama-mcq-20",
-        "drama-mcq-22",
-        "drama-mcq-19",
-        "drama-mcq-23",
-        "drama-mcq-18"
+        "drama-mcq-07",
+        "drama-mcq-05",
+        "drama-mcq-27"
       ],
       "explanation": "本句的「family drama」指「以家庭關係與衝突為核心的家庭劇」。",
       "sentenceIndex": 30,
@@ -1443,12 +1321,10 @@ export default {
         "family drama"
       ],
       "optionReasons": {
-        "drama-mcq-21": "本句指「以家庭關係與衝突為核心的家庭劇」。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。"
+        "drama-mcq-21": "本句的「family drama」指「以家庭關係與衝突為核心的家庭劇」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-21"
     },
@@ -1460,11 +1336,9 @@ export default {
       "masked": "The film develops into an intense ____.",
       "options": [
         "drama-mcq-21",
-        "drama-mcq-20",
-        "drama-mcq-22",
-        "drama-mcq-19",
-        "drama-mcq-23",
-        "drama-mcq-18"
+        "drama-mcq-07",
+        "drama-mcq-03",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「family drama」指「以家庭關係與衝突為核心的家庭劇」。",
       "sentenceIndex": 31,
@@ -1473,12 +1347,10 @@ export default {
         "family drama"
       ],
       "optionReasons": {
-        "drama-mcq-21": "本句指「以家庭關係與衝突為核心的家庭劇」。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-18": "「創作戲劇作品的劇作家」是「dramatist」的用法，與本句語境不同。"
+        "drama-mcq-21": "本句的「family drama」指「以家庭關係與衝突為核心的家庭劇」。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-21"
     },
@@ -1490,11 +1362,9 @@ export default {
       "masked": "She loves British ____.",
       "options": [
         "drama-mcq-22",
-        "drama-mcq-21",
         "drama-mcq-23",
-        "drama-mcq-20",
-        "drama-mcq-24",
-        "drama-mcq-19"
+        "drama-mcq-07",
+        "drama-mcq-03"
       ],
       "explanation": "本句的「period dramas」指「設定於特定歷史年代的時代劇」。",
       "sentenceIndex": 32,
@@ -1503,12 +1373,10 @@ export default {
         "period dramas"
       ],
       "optionReasons": {
-        "drama-mcq-22": "本句指「設定於特定歷史年代的時代劇」。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。"
+        "drama-mcq-22": "本句的「period dramas」指「設定於特定歷史年代的時代劇」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-22"
     },
@@ -1520,11 +1388,9 @@ export default {
       "masked": "The costumes are a major attraction of the ____.",
       "options": [
         "drama-mcq-22",
-        "drama-mcq-21",
-        "drama-mcq-23",
-        "drama-mcq-20",
         "drama-mcq-24",
-        "drama-mcq-19"
+        "drama-mcq-07",
+        "drama-mcq-08"
       ],
       "explanation": "本句的「period drama」指「設定於特定歷史年代的時代劇」。",
       "sentenceIndex": 33,
@@ -1533,12 +1399,10 @@ export default {
         "period drama"
       ],
       "optionReasons": {
-        "drama-mcq-22": "本句指「設定於特定歷史年代的時代劇」。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-19": "「以歷史時期或事件為背景的歷史劇」是「historical drama」的用法，與本句語境不同。"
+        "drama-mcq-22": "本句的「period drama」指「設定於特定歷史年代的時代劇」。",
+        "drama-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-22"
     },
@@ -1551,10 +1415,8 @@ export default {
       "options": [
         "drama-mcq-23",
         "drama-mcq-22",
-        "drama-mcq-24",
-        "drama-mcq-21",
-        "drama-mcq-25",
-        "drama-mcq-20"
+        "drama-mcq-07",
+        "drama-mcq-25"
       ],
       "explanation": "本句的「create drama」指「製造不必要的衝突、麻煩或風波」。",
       "sentenceIndex": 34,
@@ -1563,12 +1425,10 @@ export default {
         "create drama"
       ],
       "optionReasons": {
-        "drama-mcq-23": "本句指「製造不必要的衝突、麻煩或風波」。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。"
+        "drama-mcq-23": "本句的「create drama」指「製造不必要的衝突、麻煩或風波」。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-23"
     },
@@ -1580,11 +1440,9 @@ export default {
       "masked": "She was trying not to ____.",
       "options": [
         "drama-mcq-23",
-        "drama-mcq-22",
-        "drama-mcq-24",
-        "drama-mcq-21",
-        "drama-mcq-25",
-        "drama-mcq-20"
+        "drama-mcq-19",
+        "drama-mcq-03",
+        "drama-mcq-07"
       ],
       "explanation": "本句的「create more drama」指「製造不必要的衝突、麻煩或風波」。",
       "sentenceIndex": 35,
@@ -1593,12 +1451,10 @@ export default {
         "create more drama"
       ],
       "optionReasons": {
-        "drama-mcq-23": "本句指「製造不必要的衝突、麻煩或風波」。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-20": "「以犯罪、警察、調查等為中心的犯罪劇」是「crime drama」的用法，與本句語境不同。"
+        "drama-mcq-23": "本句的「create more drama」指「製造不必要的衝突、麻煩或風波」。",
+        "drama-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-23"
     },
@@ -1610,11 +1466,9 @@ export default {
       "masked": "I don’t want to ____.",
       "options": [
         "drama-mcq-24",
-        "drama-mcq-23",
-        "drama-mcq-25",
-        "drama-mcq-22",
-        "drama-mcq-26",
-        "drama-mcq-21"
+        "drama-mcq-17",
+        "drama-mcq-27",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「get caught up in the drama」指「被捲入複雜的人際風波或衝突」。",
       "sentenceIndex": 36,
@@ -1623,12 +1477,10 @@ export default {
         "get caught up in the drama"
       ],
       "optionReasons": {
-        "drama-mcq-24": "本句指「被捲入複雜的人際風波或衝突」。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-26": "「表示劇情；戲劇性故事；正劇」是「Passage meaning」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。"
+        "drama-mcq-24": "本句的「get caught up in the drama」指「被捲入複雜的人際風波或衝突」。",
+        "drama-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-24"
     },
@@ -1640,11 +1492,9 @@ export default {
       "masked": "He became ____ between his friends.",
       "options": [
         "drama-mcq-24",
-        "drama-mcq-23",
-        "drama-mcq-25",
-        "drama-mcq-22",
-        "drama-mcq-26",
-        "drama-mcq-21"
+        "drama-mcq-05",
+        "drama-mcq-27",
+        "drama-mcq-22"
       ],
       "explanation": "本句的「caught up in the drama」指「被捲入複雜的人際風波或衝突」。",
       "sentenceIndex": 37,
@@ -1653,12 +1503,10 @@ export default {
         "caught up in the drama"
       ],
       "optionReasons": {
-        "drama-mcq-24": "本句指「被捲入複雜的人際風波或衝突」。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-25": "「極度緊張、充滿轉折的戲劇性情況」是「high drama」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。",
-        "drama-mcq-26": "「表示劇情；戲劇性故事；正劇」是「Passage meaning」的用法，與本句語境不同。",
-        "drama-mcq-21": "「以家庭關係與衝突為核心的家庭劇」是「family drama」的用法，與本句語境不同。"
+        "drama-mcq-24": "本句的「caught up in the drama」指「被捲入複雜的人際風波或衝突」。",
+        "drama-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-24"
     },
@@ -1670,11 +1518,9 @@ export default {
       "masked": "The final moments were full of ____.",
       "options": [
         "drama-mcq-25",
-        "drama-mcq-24",
-        "drama-mcq-26",
         "drama-mcq-23",
-        "drama-mcq-27",
-        "drama-mcq-22"
+        "drama-mcq-22",
+        "drama-mcq-20"
       ],
       "explanation": "本句的「high drama」指「極度緊張、充滿轉折的戲劇性情況」。",
       "sentenceIndex": 38,
@@ -1683,12 +1529,10 @@ export default {
         "high drama"
       ],
       "optionReasons": {
-        "drama-mcq-25": "本句指「極度緊張、充滿轉折的戲劇性情況」。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-26": "「表示劇情；戲劇性故事；正劇」是「Passage meaning」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-27": "「表示正劇；劇情類作品」是「2. drama — serious fictional genre」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。"
+        "drama-mcq-25": "本句的「high drama」指「極度緊張、充滿轉折的戲劇性情況」。",
+        "drama-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-25"
     },
@@ -1700,10 +1544,8 @@ export default {
       "masked": "The negotiations ended in ____.",
       "options": [
         "drama-mcq-25",
-        "drama-mcq-24",
-        "drama-mcq-26",
-        "drama-mcq-23",
-        "drama-mcq-27",
+        "drama-mcq-06",
+        "drama-mcq-02",
         "drama-mcq-22"
       ],
       "explanation": "本句的「high drama」指「極度緊張、充滿轉折的戲劇性情況」。",
@@ -1713,12 +1555,10 @@ export default {
         "high drama"
       ],
       "optionReasons": {
-        "drama-mcq-25": "本句指「極度緊張、充滿轉折的戲劇性情況」。",
-        "drama-mcq-24": "「被捲入複雜的人際風波或衝突」是「get caught up in the drama」的用法，與本句語境不同。",
-        "drama-mcq-26": "「表示劇情；戲劇性故事；正劇」是「Passage meaning」的用法，與本句語境不同。",
-        "drama-mcq-23": "「製造不必要的衝突、麻煩或風波」是「create drama」的用法，與本句語境不同。",
-        "drama-mcq-27": "「表示正劇；劇情類作品」是「2. drama — serious fictional genre」的用法，與本句語境不同。",
-        "drama-mcq-22": "「設定於特定歷史年代的時代劇」是「period drama」的用法，與本句語境不同。"
+        "drama-mcq-25": "本句的「high drama」指「極度緊張、充滿轉折的戲劇性情況」。",
+        "drama-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "drama-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "drama-mcq-25"
     }
@@ -1730,5 +1570,7 @@ export default {
     "sha256": "ee3d1ccafb36dbfc0b00b0aa18860c077349eff3e56234cd1faf5b10c24249dc",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

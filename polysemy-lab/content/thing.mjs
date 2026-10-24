@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "thing-mcq-11",
-      "title": "表示一件接一件",
+      "title": "一件接一件",
       "form": "Fixed expression: one thing after another — 一件接一件",
       "en": "Fixed expression: one thing after another — 一件接一件",
       "zh": "表示一件接一件",
@@ -279,11 +279,9 @@ export default {
       "masked": "What is that ____ on the table?",
       "options": [
         "thing-mcq-01",
-        "thing-mcq-02",
-        "thing-mcq-03",
-        "thing-mcq-04",
         "thing-mcq-05",
-        "thing-mcq-06"
+        "thing-mcq-12",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing」指「沒有特別指出名稱，或名稱並不重要的一件實體物件」。",
       "sentenceIndex": 0,
@@ -292,12 +290,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-01": "本句指「沒有特別指出名稱，或名稱並不重要的一件實體物件」。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-01": "本句的「thing」指「沒有特別指出名稱，或名稱並不重要的一件實體物件」。",
+        "thing-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-01"
     },
@@ -309,9 +305,7 @@ export default {
       "masked": "There were several strange ____ inside the box.",
       "options": [
         "thing-mcq-01",
-        "thing-mcq-02",
-        "thing-mcq-03",
-        "thing-mcq-04",
+        "thing-mcq-12",
         "thing-mcq-05",
         "thing-mcq-06"
       ],
@@ -322,12 +316,10 @@ export default {
         "things"
       ],
       "optionReasons": {
-        "thing-mcq-01": "本句指「沒有特別指出名稱，或名稱並不重要的一件實體物件」。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-01": "本句的「things」指「沒有特別指出名稱，或名稱並不重要的一件實體物件」。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-01"
     },
@@ -339,11 +331,9 @@ export default {
       "masked": "A strange ____ happened on my way home.",
       "options": [
         "thing-mcq-02",
-        "thing-mcq-01",
-        "thing-mcq-03",
-        "thing-mcq-04",
-        "thing-mcq-05",
-        "thing-mcq-06"
+        "thing-mcq-12",
+        "thing-mcq-08",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing」指「發生、需要處理、需要討論或值得注意的一件事情／事項」。",
       "sentenceIndex": 2,
@@ -352,12 +342,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-02": "本句指「發生、需要處理、需要討論或值得注意的一件事情／事項」。",
-        "thing-mcq-01": "「沒有特別指出名稱，或名稱並不重要的一件實體物件」是「thing = physical object（實體物件）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-02": "本句的「thing」指「發生、需要處理、需要討論或值得注意的一件事情／事項」。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-02"
     },
@@ -369,11 +357,9 @@ export default {
       "masked": "There are several ____ we need to discuss.",
       "options": [
         "thing-mcq-02",
-        "thing-mcq-01",
-        "thing-mcq-03",
-        "thing-mcq-04",
-        "thing-mcq-05",
-        "thing-mcq-06"
+        "thing-mcq-08",
+        "thing-mcq-12",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「things」指「發生、需要處理、需要討論或值得注意的一件事情／事項」。",
       "sentenceIndex": 3,
@@ -382,12 +368,10 @@ export default {
         "things"
       ],
       "optionReasons": {
-        "thing-mcq-02": "本句指「發生、需要處理、需要討論或值得注意的一件事情／事項」。",
-        "thing-mcq-01": "「沒有特別指出名稱，或名稱並不重要的一件實體物件」是「thing = physical object（實體物件）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-02": "本句的「things」指「發生、需要處理、需要討論或值得注意的一件事情／事項」。",
+        "thing-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-02"
     },
@@ -399,11 +383,9 @@ export default {
       "masked": "Travelling alone is not really my ____.",
       "options": [
         "thing-mcq-03",
-        "thing-mcq-02",
-        "thing-mcq-04",
-        "thing-mcq-01",
+        "thing-mcq-09",
         "thing-mcq-05",
-        "thing-mcq-06"
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing」指「某個行動、活動、想法、做法或生活方式，而不是具體物件」。",
       "sentenceIndex": 4,
@@ -412,12 +394,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-03": "本句指「某個行動、活動、想法、做法或生活方式，而不是具體物件」。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-01": "「沒有特別指出名稱，或名稱並不重要的一件實體物件」是「thing = physical object（實體物件）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-03": "本句的「thing」指「某個行動、活動、想法、做法或生活方式，而不是具體物件」。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-03"
     },
@@ -429,11 +409,9 @@ export default {
       "masked": "The important ____ is to stay calm.",
       "options": [
         "thing-mcq-03",
-        "thing-mcq-02",
-        "thing-mcq-04",
-        "thing-mcq-01",
-        "thing-mcq-05",
-        "thing-mcq-06"
+        "thing-mcq-09",
+        "thing-mcq-08",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing」指「某個行動、活動、想法、做法或生活方式，而不是具體物件」。",
       "sentenceIndex": 5,
@@ -442,12 +420,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-03": "本句指「某個行動、活動、想法、做法或生活方式，而不是具體物件」。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-01": "「沒有特別指出名稱，或名稱並不重要的一件實體物件」是「thing = physical object（實體物件）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-03": "本句的「thing」指「某個行動、活動、想法、做法或生活方式，而不是具體物件」。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-03"
     },
@@ -459,11 +435,9 @@ export default {
       "masked": "How are ____ at work?",
       "options": [
         "thing-mcq-04",
-        "thing-mcq-03",
-        "thing-mcq-05",
-        "thing-mcq-02",
-        "thing-mcq-06",
-        "thing-mcq-01"
+        "thing-mcq-08",
+        "thing-mcq-09",
+        "thing-mcq-11"
       ],
       "explanation": "本句的「things」指「某個人、地方或情境目前的整體情況和發展」。",
       "sentenceIndex": 6,
@@ -472,12 +446,10 @@ export default {
         "things"
       ],
       "optionReasons": {
-        "thing-mcq-04": "本句指「某個人、地方或情境目前的整體情況和發展」。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-01": "「沒有特別指出名稱，或名稱並不重要的一件實體物件」是「thing = physical object（實體物件）」的用法，與本句語境不同。"
+        "thing-mcq-04": "本句的「things」指「某個人、地方或情境目前的整體情況和發展」。",
+        "thing-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-04"
     },
@@ -489,11 +461,9 @@ export default {
       "masked": "____ have improved since last month.",
       "options": [
         "thing-mcq-04",
-        "thing-mcq-03",
-        "thing-mcq-05",
-        "thing-mcq-02",
-        "thing-mcq-06",
-        "thing-mcq-01"
+        "thing-mcq-11",
+        "thing-mcq-07",
+        "thing-mcq-12"
       ],
       "explanation": "本句的「Things」指「某個人、地方或情境目前的整體情況和發展」。",
       "sentenceIndex": 7,
@@ -502,12 +472,10 @@ export default {
         "Things"
       ],
       "optionReasons": {
-        "thing-mcq-04": "本句指「某個人、地方或情境目前的整體情況和發展」。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-01": "「沒有特別指出名稱，或名稱並不重要的一件實體物件」是「thing = physical object（實體物件）」的用法，與本句語境不同。"
+        "thing-mcq-04": "本句的「Things」指「某個人、地方或情境目前的整體情況和發展」。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-04"
     },
@@ -519,11 +487,9 @@ export default {
       "masked": "I packed my ____ and left.",
       "options": [
         "thing-mcq-05",
-        "thing-mcq-04",
-        "thing-mcq-06",
-        "thing-mcq-03",
-        "thing-mcq-07",
-        "thing-mcq-02"
+        "thing-mcq-09",
+        "thing-mcq-11",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「things」指「某人擁有、攜帶或使用的個人物品和財物」。",
       "sentenceIndex": 8,
@@ -532,12 +498,10 @@ export default {
         "things"
       ],
       "optionReasons": {
-        "thing-mcq-05": "本句指「某人擁有、攜帶或使用的個人物品和財物」。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。"
+        "thing-mcq-05": "本句的「things」指「某人擁有、攜帶或使用的個人物品和財物」。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-05"
     },
@@ -550,10 +514,8 @@ export default {
       "options": [
         "thing-mcq-05",
         "thing-mcq-04",
-        "thing-mcq-06",
-        "thing-mcq-03",
-        "thing-mcq-07",
-        "thing-mcq-02"
+        "thing-mcq-12",
+        "thing-mcq-09"
       ],
       "explanation": "本句的「things」指「某人擁有、攜帶或使用的個人物品和財物」。",
       "sentenceIndex": 9,
@@ -562,12 +524,10 @@ export default {
         "things"
       ],
       "optionReasons": {
-        "thing-mcq-05": "本句指「某人擁有、攜帶或使用的個人物品和財物」。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-02": "「發生、需要處理、需要討論或值得注意的一件事情／事項」是「thing = matter/event/situation（事情／事件／情況）」的用法，與本句語境不同。"
+        "thing-mcq-05": "本句的「things」指「某人擁有、攜帶或使用的個人物品和財物」。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-05"
     },
@@ -579,11 +539,9 @@ export default {
       "masked": "The poor ____ looked completely exhausted.",
       "options": [
         "thing-mcq-06",
-        "thing-mcq-05",
-        "thing-mcq-07",
+        "thing-mcq-09",
         "thing-mcq-04",
-        "thing-mcq-08",
-        "thing-mcq-03"
+        "thing-mcq-11"
       ],
       "explanation": "本句的「thing」指「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」。",
       "sentenceIndex": 10,
@@ -592,12 +550,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-06": "本句指「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。"
+        "thing-mcq-06": "本句的「thing」指「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-06"
     },
@@ -609,11 +565,9 @@ export default {
       "masked": "You clever little ____!",
       "options": [
         "thing-mcq-06",
-        "thing-mcq-05",
-        "thing-mcq-07",
-        "thing-mcq-04",
+        "thing-mcq-12",
         "thing-mcq-08",
-        "thing-mcq-03"
+        "thing-mcq-11"
       ],
       "explanation": "本句的「thing」指「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」。",
       "sentenceIndex": 11,
@@ -622,12 +576,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-06": "本句指「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-03": "「某個行動、活動、想法、做法或生活方式，而不是具體物件」是「thing = idea/action/activity/type of behaviour（想法／做法／活動）」的用法，與本句語境不同。"
+        "thing-mcq-06": "本句的「thing」指「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-06"
     },
@@ -639,11 +591,9 @@ export default {
       "masked": "Cooking has always been my ____.",
       "options": [
         "thing-mcq-07",
-        "thing-mcq-06",
-        "thing-mcq-08",
-        "thing-mcq-05",
-        "thing-mcq-09",
-        "thing-mcq-04"
+        "thing-mcq-04",
+        "thing-mcq-11",
+        "thing-mcq-09"
       ],
       "explanation": "本句的「thing」指「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」。",
       "sentenceIndex": 12,
@@ -652,12 +602,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-07": "本句指「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。"
+        "thing-mcq-07": "本句的「thing」指「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-07"
     },
@@ -669,11 +617,9 @@ export default {
       "masked": "Large parties aren’t really my ____.",
       "options": [
         "thing-mcq-07",
-        "thing-mcq-06",
-        "thing-mcq-08",
-        "thing-mcq-05",
-        "thing-mcq-09",
-        "thing-mcq-04"
+        "thing-mcq-04",
+        "thing-mcq-11",
+        "thing-mcq-12"
       ],
       "explanation": "本句的「thing」指「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」。",
       "sentenceIndex": 13,
@@ -682,12 +628,10 @@ export default {
         "thing"
       ],
       "optionReasons": {
-        "thing-mcq-07": "本句指「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-04": "「某個人、地方或情境目前的整體情況和發展」是「things = circumstances / general situation（整體情況）」的用法，與本句語境不同。"
+        "thing-mcq-07": "本句的「thing」指「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-07"
     },
@@ -699,11 +643,9 @@ export default {
       "masked": "She has a ____ old cameras.",
       "options": [
         "thing-mcq-08",
-        "thing-mcq-07",
-        "thing-mcq-09",
-        "thing-mcq-06",
-        "thing-mcq-10",
-        "thing-mcq-05"
+        "thing-mcq-04",
+        "thing-mcq-02",
+        "thing-mcq-12"
       ],
       "explanation": "本句的「thing for」指「對某人或某類事物有特別強烈的喜愛、興趣或吸引」。",
       "sentenceIndex": 14,
@@ -712,12 +654,10 @@ export default {
         "thing for"
       ],
       "optionReasons": {
-        "thing-mcq-08": "本句指「對某人或某類事物有特別強烈的喜愛、興趣或吸引」。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。"
+        "thing-mcq-08": "本句的「thing for」指「對某人或某類事物有特別強烈的喜愛、興趣或吸引」。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-08"
     },
@@ -729,11 +669,9 @@ export default {
       "masked": "He seems to have a ____ jazz musicians.",
       "options": [
         "thing-mcq-08",
-        "thing-mcq-07",
-        "thing-mcq-09",
-        "thing-mcq-06",
-        "thing-mcq-10",
-        "thing-mcq-05"
+        "thing-mcq-02",
+        "thing-mcq-03",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing for」指「對某人或某類事物有特別強烈的喜愛、興趣或吸引」。",
       "sentenceIndex": 15,
@@ -742,12 +680,10 @@ export default {
         "thing for"
       ],
       "optionReasons": {
-        "thing-mcq-08": "本句指「對某人或某類事物有特別強烈的喜愛、興趣或吸引」。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-05": "「某人擁有、攜帶或使用的個人物品和財物」是「things = belongings / possessions（個人物品）」的用法，與本句語境不同。"
+        "thing-mcq-08": "本句的「thing for」指「對某人或某類事物有特別強烈的喜愛、興趣或吸引」。",
+        "thing-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-08"
     },
@@ -759,11 +695,9 @@ export default {
       "masked": "The ____, I don’t have enough time.",
       "options": [
         "thing-mcq-09",
-        "thing-mcq-08",
-        "thing-mcq-10",
         "thing-mcq-07",
-        "thing-mcq-11",
-        "thing-mcq-06"
+        "thing-mcq-06",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing is」指「用來引出真正的問題、重要事實、理由或解釋」。",
       "sentenceIndex": 16,
@@ -772,12 +706,10 @@ export default {
         "thing is"
       ],
       "optionReasons": {
-        "thing-mcq-09": "本句指「用來引出真正的問題、重要事實、理由或解釋」。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-11": "「表示一件接一件」是「Fixed expression: one thing after another — 一件接一件」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-09": "本句的「thing is」指「用來引出真正的問題、重要事實、理由或解釋」。",
+        "thing-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-09"
     },
@@ -789,11 +721,9 @@ export default {
       "masked": "The ____, nobody told me the plan had changed.",
       "options": [
         "thing-mcq-09",
-        "thing-mcq-08",
         "thing-mcq-10",
-        "thing-mcq-07",
-        "thing-mcq-11",
-        "thing-mcq-06"
+        "thing-mcq-04",
+        "thing-mcq-03"
       ],
       "explanation": "本句的「thing is」指「用來引出真正的問題、重要事實、理由或解釋」。",
       "sentenceIndex": 17,
@@ -802,12 +732,10 @@ export default {
         "thing is"
       ],
       "optionReasons": {
-        "thing-mcq-09": "本句指「用來引出真正的問題、重要事實、理由或解釋」。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。",
-        "thing-mcq-11": "「表示一件接一件」是「Fixed expression: one thing after another — 一件接一件」的用法，與本句語境不同。",
-        "thing-mcq-06": "「帶有感情色彩地把某個人或生物稱為「傢伙／小東西」，語氣視上下文而定」是「thing = living creature/person treated vaguely（人／生物）」的用法，與本句語境不同。"
+        "thing-mcq-09": "本句的「thing is」指「用來引出真正的問題、重要事實、理由或解釋」。",
+        "thing-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-09"
     },
@@ -819,11 +747,9 @@ export default {
       "masked": "Everyone was free to ____.",
       "options": [
         "thing-mcq-10",
+        "thing-mcq-04",
         "thing-mcq-09",
-        "thing-mcq-11",
-        "thing-mcq-08",
-        "thing-mcq-12",
-        "thing-mcq-07"
+        "thing-mcq-11"
       ],
       "explanation": "本句的「do their own thing」指「不跟隨別人的安排，按自己的興趣、風格或方法行事」。",
       "sentenceIndex": 18,
@@ -832,12 +758,10 @@ export default {
         "do their own thing"
       ],
       "optionReasons": {
-        "thing-mcq-10": "本句指「不跟隨別人的安排，按自己的興趣、風格或方法行事」。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-11": "「表示一件接一件」是「Fixed expression: one thing after another — 一件接一件」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-12": "「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」是「Fixed expression: a thing of the past — 已成過去的事物」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。"
+        "thing-mcq-10": "本句的「do their own thing」指「不跟隨別人的安排，按自己的興趣、風格或方法行事」。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-10"
     },
@@ -850,10 +774,8 @@ export default {
       "options": [
         "thing-mcq-10",
         "thing-mcq-09",
-        "thing-mcq-11",
-        "thing-mcq-08",
-        "thing-mcq-12",
-        "thing-mcq-07"
+        "thing-mcq-04",
+        "thing-mcq-06"
       ],
       "explanation": "本句的「do his own thing」指「不跟隨別人的安排，按自己的興趣、風格或方法行事」。",
       "sentenceIndex": 19,
@@ -862,12 +784,10 @@ export default {
         "do his own thing"
       ],
       "optionReasons": {
-        "thing-mcq-10": "本句指「不跟隨別人的安排，按自己的興趣、風格或方法行事」。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-11": "「表示一件接一件」是「Fixed expression: one thing after another — 一件接一件」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-12": "「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」是「Fixed expression: a thing of the past — 已成過去的事物」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。"
+        "thing-mcq-10": "本句的「do his own thing」指「不跟隨別人的安排，按自己的興趣、風格或方法行事」。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-10"
     },
@@ -879,11 +799,9 @@ export default {
       "masked": "It was ____ all morning.",
       "options": [
         "thing-mcq-11",
+        "thing-mcq-04",
         "thing-mcq-10",
-        "thing-mcq-12",
-        "thing-mcq-09",
-        "thing-mcq-08",
-        "thing-mcq-07"
+        "thing-mcq-06"
       ],
       "explanation": "本句的「one thing after another」指「表示一件接一件」。",
       "sentenceIndex": 20,
@@ -892,12 +810,10 @@ export default {
         "one thing after another"
       ],
       "optionReasons": {
-        "thing-mcq-11": "本句指「表示一件接一件」。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-12": "「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」是「Fixed expression: a thing of the past — 已成過去的事物」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。"
+        "thing-mcq-11": "本句的「one thing after another」指「表示一件接一件」。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-11"
     },
@@ -909,11 +825,9 @@ export default {
       "masked": "First the train was late, then I lost my keys—it was ____.",
       "options": [
         "thing-mcq-11",
-        "thing-mcq-10",
+        "thing-mcq-05",
         "thing-mcq-12",
-        "thing-mcq-09",
-        "thing-mcq-08",
-        "thing-mcq-07"
+        "thing-mcq-09"
       ],
       "explanation": "本句的「one thing after another」指「表示一件接一件」。",
       "sentenceIndex": 21,
@@ -922,12 +836,10 @@ export default {
         "one thing after another"
       ],
       "optionReasons": {
-        "thing-mcq-11": "本句指「表示一件接一件」。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-12": "「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」是「Fixed expression: a thing of the past — 已成過去的事物」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。"
+        "thing-mcq-11": "本句的「one thing after another」指「表示一件接一件」。",
+        "thing-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-11"
     },
@@ -939,11 +851,9 @@ export default {
       "masked": "Paper tickets may soon become a ____.",
       "options": [
         "thing-mcq-12",
-        "thing-mcq-11",
-        "thing-mcq-10",
-        "thing-mcq-09",
         "thing-mcq-08",
-        "thing-mcq-07"
+        "thing-mcq-09",
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing of the past」指「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」。",
       "sentenceIndex": 22,
@@ -952,12 +862,10 @@ export default {
         "thing of the past"
       ],
       "optionReasons": {
-        "thing-mcq-12": "本句指「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」。",
-        "thing-mcq-11": "「表示一件接一件」是「Fixed expression: one thing after another — 一件接一件」的用法，與本句語境不同。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。"
+        "thing-mcq-12": "本句的「thing of the past」指「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」。",
+        "thing-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-12"
     },
@@ -969,11 +877,9 @@ export default {
       "masked": "For many people, handwritten letters are already a ____.",
       "options": [
         "thing-mcq-12",
+        "thing-mcq-05",
         "thing-mcq-11",
-        "thing-mcq-10",
-        "thing-mcq-09",
-        "thing-mcq-08",
-        "thing-mcq-07"
+        "thing-mcq-04"
       ],
       "explanation": "本句的「thing of the past」指「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」。",
       "sentenceIndex": 23,
@@ -982,12 +888,10 @@ export default {
         "thing of the past"
       ],
       "optionReasons": {
-        "thing-mcq-12": "本句指「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」。",
-        "thing-mcq-11": "「表示一件接一件」是「Fixed expression: one thing after another — 一件接一件」的用法，與本句語境不同。",
-        "thing-mcq-10": "「不跟隨別人的安排，按自己的興趣、風格或方法行事」是「Fixed expression: do your own thing — 按自己的方式做；做自己喜歡的事」的用法，與本句語境不同。",
-        "thing-mcq-09": "「用來引出真正的問題、重要事實、理由或解釋」是「Fixed expression: the thing is... — 問題是／其實是……」的用法，與本句語境不同。",
-        "thing-mcq-08": "「對某人或某類事物有特別強烈的喜愛、興趣或吸引」是「have a thing for + person/type of thing（特別喜愛）」的用法，與本句語境不同。",
-        "thing-mcq-07": "「是某人特別喜歡、感興趣、熟悉或擅長的活動／風格／領域」是「thing = subject/area someone likes or is good at（興趣／擅長領域）」的用法，與本句語境不同。"
+        "thing-mcq-12": "本句的「thing of the past」指「曾經常見或存在，但現在已消失或逐漸被淘汰的事物／做法」。",
+        "thing-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "thing-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "thing-mcq-12"
     }
@@ -999,5 +903,7 @@ export default {
     "sha256": "5be6e21215d4c892276d46100a360b4023b3b4cd4e25fbee11a29c735e59aa3f",
     "pages": 12
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

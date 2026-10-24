@@ -223,11 +223,8 @@ export default {
       "masked": "Turn left at the ____.",
       "options": [
         "crossroads-mcq-01",
-        "crossroads-mcq-02",
-        "crossroads-mcq-03",
-        "crossroads-mcq-04",
-        "crossroads-mcq-05",
-        "crossroads-mcq-06"
+        "crossroads-mcq-06",
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「crossroads」指「兩條或以上道路交叉的地方；十字路口／交叉路口」。",
       "sentenceIndex": 2,
@@ -236,12 +233,9 @@ export default {
         "crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-01": "本句指「兩條或以上道路交叉的地方；十字路口／交叉路口」。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。"
+        "crossroads-mcq-01": "本句的「crossroads」指「兩條或以上道路交叉的地方；十字路口／交叉路口」。",
+        "crossroads-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-01"
     },
@@ -253,11 +247,7 @@ export default {
       "masked": "There was a small shop near the ____.",
       "options": [
         "crossroads-mcq-01",
-        "crossroads-mcq-02",
-        "crossroads-mcq-03",
-        "crossroads-mcq-04",
-        "crossroads-mcq-05",
-        "crossroads-mcq-06"
+        "crossroads-mcq-05"
       ],
       "explanation": "本句的「crossroads」指「兩條或以上道路交叉的地方；十字路口／交叉路口」。",
       "sentenceIndex": 3,
@@ -266,12 +256,8 @@ export default {
         "crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-01": "本句指「兩條或以上道路交叉的地方；十字路口／交叉路口」。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。"
+        "crossroads-mcq-01": "本句的「crossroads」指「兩條或以上道路交叉的地方；十字路口／交叉路口」。",
+        "crossroads-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-01"
     },
@@ -283,11 +269,7 @@ export default {
       "masked": "We stopped ____.",
       "options": [
         "crossroads-mcq-02",
-        "crossroads-mcq-01",
-        "crossroads-mcq-03",
-        "crossroads-mcq-04",
-        "crossroads-mcq-05",
-        "crossroads-mcq-06"
+        "crossroads-mcq-05"
       ],
       "explanation": "本句的「at the crossroads」指「位於道路交叉點」。",
       "sentenceIndex": 4,
@@ -296,12 +278,8 @@ export default {
         "at the crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-02": "本句指「位於道路交叉點」。",
-        "crossroads-mcq-01": "「兩條或以上道路交叉的地方；十字路口／交叉路口」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。"
+        "crossroads-mcq-02": "本句的「at the crossroads」指「位於道路交叉點」。",
+        "crossroads-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-02"
     },
@@ -313,11 +291,7 @@ export default {
       "masked": "The sign stands ____.",
       "options": [
         "crossroads-mcq-02",
-        "crossroads-mcq-01",
-        "crossroads-mcq-03",
-        "crossroads-mcq-04",
-        "crossroads-mcq-05",
-        "crossroads-mcq-06"
+        "crossroads-mcq-05"
       ],
       "explanation": "本句的「at the crossroads」指「位於道路交叉點」。",
       "sentenceIndex": 5,
@@ -326,12 +300,8 @@ export default {
         "at the crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-02": "本句指「位於道路交叉點」。",
-        "crossroads-mcq-01": "「兩條或以上道路交叉的地方；十字路口／交叉路口」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。"
+        "crossroads-mcq-02": "本句的「at the crossroads」指「位於道路交叉點」。",
+        "crossroads-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-02"
     },
@@ -343,11 +313,7 @@ export default {
       "masked": "She was ____ in her career.",
       "options": [
         "crossroads-mcq-03",
-        "crossroads-mcq-02",
-        "crossroads-mcq-04",
-        "crossroads-mcq-01",
-        "crossroads-mcq-05",
-        "crossroads-mcq-06"
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「at a crossroads」指「處於必須對未來方向作重要選擇的階段」。",
       "sentenceIndex": 6,
@@ -356,12 +322,8 @@ export default {
         "at a crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-03": "本句指「處於必須對未來方向作重要選擇的階段」。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-01": "「兩條或以上道路交叉的地方；十字路口／交叉路口」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。"
+        "crossroads-mcq-03": "本句的「at a crossroads」指「處於必須對未來方向作重要選擇的階段」。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-03"
     },
@@ -373,11 +335,7 @@ export default {
       "masked": "The country found itself ____.",
       "options": [
         "crossroads-mcq-03",
-        "crossroads-mcq-02",
-        "crossroads-mcq-04",
-        "crossroads-mcq-01",
-        "crossroads-mcq-05",
-        "crossroads-mcq-06"
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「at a crossroads」指「處於必須對未來方向作重要選擇的階段」。",
       "sentenceIndex": 7,
@@ -386,12 +344,8 @@ export default {
         "at a crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-03": "本句指「處於必須對未來方向作重要選擇的階段」。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-01": "「兩條或以上道路交叉的地方；十字路口／交叉路口」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。"
+        "crossroads-mcq-03": "本句的「at a crossroads」指「處於必須對未來方向作重要選擇的階段」。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-03"
     },
@@ -403,11 +357,8 @@ export default {
       "masked": "His career had ____.",
       "options": [
         "crossroads-mcq-04",
-        "crossroads-mcq-03",
-        "crossroads-mcq-05",
-        "crossroads-mcq-02",
-        "crossroads-mcq-06",
-        "crossroads-mcq-01"
+        "crossroads-mcq-01",
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「reached a crossroads」指「走到需要作重大決定的關鍵點」。",
       "sentenceIndex": 8,
@@ -416,12 +367,9 @@ export default {
         "reached a crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-04": "本句指「走到需要作重大決定的關鍵點」。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-01": "「兩條或以上道路交叉的地方；十字路口／交叉路口」與本句語境不同。"
+        "crossroads-mcq-04": "本句的「reached a crossroads」指「走到需要作重大決定的關鍵點」。",
+        "crossroads-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-04"
     },
@@ -433,11 +381,8 @@ export default {
       "masked": "The project ____ after funding was cut.",
       "options": [
         "crossroads-mcq-04",
-        "crossroads-mcq-03",
-        "crossroads-mcq-05",
-        "crossroads-mcq-02",
-        "crossroads-mcq-06",
-        "crossroads-mcq-01"
+        "crossroads-mcq-01",
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「reached a crossroads」指「走到需要作重大決定的關鍵點」。",
       "sentenceIndex": 9,
@@ -446,12 +391,9 @@ export default {
         "reached a crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-04": "本句指「走到需要作重大決定的關鍵點」。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-01": "「兩條或以上道路交叉的地方；十字路口／交叉路口」與本句語境不同。"
+        "crossroads-mcq-04": "本句的「reached a crossroads」指「走到需要作重大決定的關鍵點」。",
+        "crossroads-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-04"
     },
@@ -463,11 +405,7 @@ export default {
       "masked": "Many students ____ after school.",
       "options": [
         "crossroads-mcq-05",
-        "crossroads-mcq-04",
-        "crossroads-mcq-06",
-        "crossroads-mcq-03",
-        "crossroads-mcq-07",
-        "crossroads-mcq-02"
+        "crossroads-mcq-01"
       ],
       "explanation": "本句的「stand at a crossroads」指「正面臨幾個不同未來方向，需要作出選擇」。",
       "sentenceIndex": 10,
@@ -476,12 +414,8 @@ export default {
         "stand at a crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-05": "本句指「正面臨幾個不同未來方向，需要作出選擇」。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-07": "「不同路線、商業或文化匯聚的交會點／樞紐」與本句語境不同。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。"
+        "crossroads-mcq-05": "本句的「stand at a crossroads」指「正面臨幾個不同未來方向，需要作出選擇」。",
+        "crossroads-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-05"
     },
@@ -493,11 +427,7 @@ export default {
       "masked": "The organization now ____.",
       "options": [
         "crossroads-mcq-05",
-        "crossroads-mcq-04",
-        "crossroads-mcq-06",
-        "crossroads-mcq-03",
-        "crossroads-mcq-07",
-        "crossroads-mcq-02"
+        "crossroads-mcq-01"
       ],
       "explanation": "本句的「stands at a crossroads」指「正面臨幾個不同未來方向，需要作出選擇」。",
       "sentenceIndex": 11,
@@ -506,12 +436,8 @@ export default {
         "stands at a crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-05": "本句指「正面臨幾個不同未來方向，需要作出選擇」。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。",
-        "crossroads-mcq-07": "「不同路線、商業或文化匯聚的交會點／樞紐」與本句語境不同。",
-        "crossroads-mcq-02": "「位於道路交叉點」與本句語境不同。"
+        "crossroads-mcq-05": "本句的「stands at a crossroads」指「正面臨幾個不同未來方向，需要作出選擇」。",
+        "crossroads-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-05"
     },
@@ -523,11 +449,8 @@ export default {
       "masked": "The merger marked a ____ for the company.",
       "options": [
         "crossroads-mcq-06",
-        "crossroads-mcq-05",
-        "crossroads-mcq-07",
-        "crossroads-mcq-04",
-        "crossroads-mcq-08",
-        "crossroads-mcq-03"
+        "crossroads-mcq-01",
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「crossroads」指「未來方向可能因此改變的關鍵時刻／轉捩點」。",
       "sentenceIndex": 12,
@@ -536,12 +459,9 @@ export default {
         "crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-06": "本句指「未來方向可能因此改變的關鍵時刻／轉捩點」。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-07": "「不同路線、商業或文化匯聚的交會點／樞紐」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-08": "「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。"
+        "crossroads-mcq-06": "本句的「crossroads」指「未來方向可能因此改變的關鍵時刻／轉捩點」。",
+        "crossroads-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-06"
     },
@@ -553,11 +473,8 @@ export default {
       "masked": "The decision became a major ____ in her life.",
       "options": [
         "crossroads-mcq-06",
-        "crossroads-mcq-05",
-        "crossroads-mcq-07",
-        "crossroads-mcq-04",
-        "crossroads-mcq-08",
-        "crossroads-mcq-03"
+        "crossroads-mcq-01",
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「crossroads」指「未來方向可能因此改變的關鍵時刻／轉捩點」。",
       "sentenceIndex": 13,
@@ -566,12 +483,9 @@ export default {
         "crossroads"
       ],
       "optionReasons": {
-        "crossroads-mcq-06": "本句指「未來方向可能因此改變的關鍵時刻／轉捩點」。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-07": "「不同路線、商業或文化匯聚的交會點／樞紐」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。",
-        "crossroads-mcq-08": "「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」與本句語境不同。",
-        "crossroads-mcq-03": "「處於必須對未來方向作重要選擇的階段」與本句語境不同。"
+        "crossroads-mcq-06": "本句的「crossroads」指「未來方向可能因此改變的關鍵時刻／轉捩點」。",
+        "crossroads-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-06"
     },
@@ -583,11 +497,7 @@ export default {
       "masked": "The city became a ____.",
       "options": [
         "crossroads-mcq-07",
-        "crossroads-mcq-06",
-        "crossroads-mcq-08",
-        "crossroads-mcq-05",
-        "crossroads-mcq-09",
-        "crossroads-mcq-04"
+        "crossroads-mcq-03"
       ],
       "explanation": "本句的「crossroads of trade」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
       "sentenceIndex": 14,
@@ -596,12 +506,8 @@ export default {
         "crossroads of trade"
       ],
       "optionReasons": {
-        "crossroads-mcq-07": "本句指「不同路線、商業或文化匯聚的交會點／樞紐」。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-08": "「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-09": "「crossroads = 重要選擇點；dilemma = 兩難困境」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。"
+        "crossroads-mcq-07": "本句的「crossroads of trade」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
+        "crossroads-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-07"
     },
@@ -613,11 +519,7 @@ export default {
       "masked": "The region has long been a ____.",
       "options": [
         "crossroads-mcq-07",
-        "crossroads-mcq-06",
-        "crossroads-mcq-08",
-        "crossroads-mcq-05",
-        "crossroads-mcq-09",
-        "crossroads-mcq-04"
+        "crossroads-mcq-03"
       ],
       "explanation": "本句的「crossroads of cultures」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
       "sentenceIndex": 15,
@@ -626,12 +528,8 @@ export default {
         "crossroads of cultures"
       ],
       "optionReasons": {
-        "crossroads-mcq-07": "本句指「不同路線、商業或文化匯聚的交會點／樞紐」。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-08": "「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-09": "「crossroads = 重要選擇點；dilemma = 兩難困境」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。"
+        "crossroads-mcq-07": "本句的「crossroads of cultures」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
+        "crossroads-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-07"
     },
@@ -643,11 +541,7 @@ export default {
       "masked": "The port was once a ____.",
       "options": [
         "crossroads-mcq-07",
-        "crossroads-mcq-06",
-        "crossroads-mcq-08",
-        "crossroads-mcq-05",
-        "crossroads-mcq-09",
-        "crossroads-mcq-04"
+        "crossroads-mcq-03"
       ],
       "explanation": "本句的「crossroads of trade」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
       "sentenceIndex": 16,
@@ -656,12 +550,8 @@ export default {
         "crossroads of trade"
       ],
       "optionReasons": {
-        "crossroads-mcq-07": "本句指「不同路線、商業或文化匯聚的交會點／樞紐」。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-08": "「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-09": "「crossroads = 重要選擇點；dilemma = 兩難困境」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。"
+        "crossroads-mcq-07": "本句的「crossroads of trade」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
+        "crossroads-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-07"
     },
@@ -673,11 +563,7 @@ export default {
       "masked": "The city developed as a ____.",
       "options": [
         "crossroads-mcq-07",
-        "crossroads-mcq-06",
-        "crossroads-mcq-08",
-        "crossroads-mcq-05",
-        "crossroads-mcq-09",
-        "crossroads-mcq-04"
+        "crossroads-mcq-03"
       ],
       "explanation": "本句的「crossroads of cultures」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
       "sentenceIndex": 17,
@@ -686,12 +572,8 @@ export default {
         "crossroads of cultures"
       ],
       "optionReasons": {
-        "crossroads-mcq-07": "本句指「不同路線、商業或文化匯聚的交會點／樞紐」。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-08": "「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。",
-        "crossroads-mcq-09": "「crossroads = 重要選擇點；dilemma = 兩難困境」與本句語境不同。",
-        "crossroads-mcq-04": "「走到需要作重大決定的關鍵點」與本句語境不同。"
+        "crossroads-mcq-07": "本句的「crossroads of cultures」指「不同路線、商業或文化匯聚的交會點／樞紐」。",
+        "crossroads-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-07"
     },
@@ -703,10 +585,6 @@ export default {
       "masked": "Turn right at the next ____.",
       "options": [
         "crossroads-mcq-08",
-        "crossroads-mcq-07",
-        "crossroads-mcq-09",
-        "crossroads-mcq-06",
-        "crossroads-mcq-10",
         "crossroads-mcq-05"
       ],
       "explanation": "本句的「intersection」指「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」。",
@@ -716,12 +594,8 @@ export default {
         "intersection"
       ],
       "optionReasons": {
-        "crossroads-mcq-08": "本句指「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」。",
-        "crossroads-mcq-07": "「不同路線、商業或文化匯聚的交會點／樞紐」與本句語境不同。",
-        "crossroads-mcq-09": "「crossroads = 重要選擇點；dilemma = 兩難困境」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-10": "「crossroads = 決定下一步方向；milestone = 標誌已取得的重要進展」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。"
+        "crossroads-mcq-08": "本句的「intersection」指「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」。",
+        "crossroads-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-08"
     },
@@ -733,11 +607,7 @@ export default {
       "masked": "Traffic was heavy near the ____.",
       "options": [
         "crossroads-mcq-08",
-        "crossroads-mcq-07",
-        "crossroads-mcq-09",
-        "crossroads-mcq-06",
-        "crossroads-mcq-10",
-        "crossroads-mcq-05"
+        "crossroads-mcq-07"
       ],
       "explanation": "本句的「intersection」指「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」。",
       "sentenceIndex": 19,
@@ -746,12 +616,8 @@ export default {
         "intersection"
       ],
       "optionReasons": {
-        "crossroads-mcq-08": "本句指「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」。",
-        "crossroads-mcq-07": "「不同路線、商業或文化匯聚的交會點／樞紐」與本句語境不同。",
-        "crossroads-mcq-09": "「crossroads = 重要選擇點；dilemma = 兩難困境」與本句語境不同。",
-        "crossroads-mcq-06": "「未來方向可能因此改變的關鍵時刻／轉捩點」與本句語境不同。",
-        "crossroads-mcq-10": "「crossroads = 決定下一步方向；milestone = 標誌已取得的重要進展」與本句語境不同。",
-        "crossroads-mcq-05": "「正面臨幾個不同未來方向，需要作出選擇」與本句語境不同。"
+        "crossroads-mcq-08": "本句的「intersection」指「crossroads 可比喻重大抉擇；intersection 主要指實體道路交叉口」。",
+        "crossroads-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crossroads-mcq-08"
     }
@@ -763,5 +629,7 @@ export default {
     "sha256": "f554e29539637b00c7a30d0136f50acc05fbe640c83b928b25fe6ec4b318e49f",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

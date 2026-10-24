@@ -934,11 +934,9 @@ export default {
       "masked": "The school ____ for cheating.",
       "options": [
         "punish-pdf-001",
-        "punish-mcq-01",
-        "punish-mcq-03",
-        "punish-mcq-04",
-        "punish-mcq-05",
-        "punish-mcq-06"
+        "punish-mcq-22",
+        "punish-mcq-35",
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punished the student」指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
       "sentenceIndex": 0,
@@ -947,12 +945,10 @@ export default {
         "punished the student"
       ],
       "optionReasons": {
-        "punish-pdf-001": "本句指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
-        "punish-mcq-01": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
+        "punish-pdf-001": "本句的「punished the student」指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
+        "punish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-001"
     },
@@ -964,11 +960,9 @@ export default {
       "masked": "Employees should not be ____ without a fair investigation.",
       "options": [
         "punish-pdf-001",
-        "punish-mcq-01",
-        "punish-mcq-03",
-        "punish-mcq-04",
-        "punish-mcq-05",
-        "punish-mcq-06"
+        "punish-mcq-30",
+        "punish-mcq-36",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punished」指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
       "sentenceIndex": 1,
@@ -977,12 +971,10 @@ export default {
         "punished"
       ],
       "optionReasons": {
-        "punish-pdf-001": "本句指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
-        "punish-mcq-01": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
+        "punish-pdf-001": "本句的「punished」指「因某人的錯誤、違規或不當行為而令他承受不利後果」。",
+        "punish-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-001"
     },
@@ -994,11 +986,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "punish-mcq-03",
-        "punish-mcq-02",
-        "punish-mcq-04",
-        "punish-mcq-01",
-        "punish-mcq-05",
-        "punish-mcq-06"
+        "punish-mcq-35",
+        "punish-mcq-36",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punished for his behaviour」指「因 X 懲罰某人」。",
       "sentenceIndex": 2,
@@ -1007,12 +997,10 @@ export default {
         "punished for his behaviour"
       ],
       "optionReasons": {
-        "punish-mcq-03": "本句指「因 X 懲罰某人」。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-01": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
+        "punish-mcq-03": "本句的「punished for his behaviour」指「因 X 懲罰某人」。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-03"
     },
@@ -1024,11 +1012,9 @@ export default {
       "masked": "Customers should not be ____ for an error in the company's size chart.",
       "options": [
         "punish-mcq-03",
-        "punish-mcq-02",
-        "punish-mcq-04",
-        "punish-mcq-01",
-        "punish-mcq-05",
-        "punish-mcq-06"
+        "punish-mcq-37",
+        "punish-mcq-07",
+        "punish-pdf-005"
       ],
       "explanation": "本句的「punished」指「因 X 懲罰某人」。",
       "sentenceIndex": 3,
@@ -1037,12 +1023,10 @@ export default {
         "punished"
       ],
       "optionReasons": {
-        "punish-mcq-03": "本句指「因 X 懲罰某人」。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-01": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
+        "punish-mcq-03": "本句的「punished」指「因 X 懲罰某人」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-03"
     },
@@ -1054,11 +1038,9 @@ export default {
       "masked": "She was punished ____.",
       "options": [
         "punish-mcq-04",
-        "punish-mcq-03",
-        "punish-mcq-05",
-        "punish-mcq-02",
-        "punish-mcq-06",
-        "punish-mcq-01"
+        "punish-mcq-34",
+        "punish-mcq-33",
+        "punish-mcq-07"
       ],
       "explanation": "本句的「for breaking the rule」指「因做 X 而懲罰」。",
       "sentenceIndex": 4,
@@ -1067,12 +1049,10 @@ export default {
         "for breaking the rule"
       ],
       "optionReasons": {
-        "punish-mcq-04": "本句指「因做 X 而懲罰」。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-01": "「懲罰；處罰」與本句語境不同。"
+        "punish-mcq-04": "本句的「for breaking the rule」指「因做 X 而懲罰」。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-04"
     },
@@ -1084,11 +1064,9 @@ export default {
       "masked": "Genuine customers should not be punished ____.",
       "options": [
         "punish-mcq-04",
-        "punish-mcq-03",
-        "punish-mcq-05",
-        "punish-mcq-02",
-        "punish-mcq-06",
-        "punish-mcq-01"
+        "punish-mcq-35",
+        "punish-pdf-005",
+        "punish-mcq-07"
       ],
       "explanation": "本句的「for reporting a defect」指「因做 X 而懲罰」。",
       "sentenceIndex": 5,
@@ -1097,12 +1075,10 @@ export default {
         "for reporting a defect"
       ],
       "optionReasons": {
-        "punish-mcq-04": "本句指「因做 X 而懲罰」。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-01": "「懲罰；處罰」與本句語境不同。"
+        "punish-mcq-04": "本句的「for reporting a defect」指「因做 X 而懲罰」。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-04"
     },
@@ -1114,11 +1090,9 @@ export default {
       "masked": "Anyone who deliberately abuses the system may ____.",
       "options": [
         "punish-mcq-05",
-        "punish-mcq-04",
-        "punish-mcq-06",
-        "punish-mcq-03",
-        "punish-mcq-07",
-        "punish-mcq-02"
+        "punish-mcq-36",
+        "punish-mcq-18",
+        "punish-mcq-33"
       ],
       "explanation": "本句的「be punished」指「受到懲罰」。",
       "sentenceIndex": 6,
@@ -1127,12 +1101,10 @@ export default {
         "be punished"
       ],
       "optionReasons": {
-        "punish-mcq-05": "本句指「受到懲罰」。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。"
+        "punish-mcq-05": "本句的「be punished」指「受到懲罰」。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-05"
     },
@@ -1144,11 +1116,9 @@ export default {
       "masked": "The child was ____ for lying.",
       "options": [
         "punish-mcq-05",
-        "punish-mcq-04",
-        "punish-mcq-06",
-        "punish-mcq-03",
-        "punish-mcq-07",
-        "punish-mcq-02"
+        "punish-mcq-37",
+        "punish-mcq-16",
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punished」指「受到懲罰」。",
       "sentenceIndex": 7,
@@ -1157,12 +1127,10 @@ export default {
         "punished"
       ],
       "optionReasons": {
-        "punish-mcq-05": "本句指「受到懲罰」。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。"
+        "punish-mcq-05": "本句的「punished」指「受到懲罰」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-05"
     },
@@ -1174,11 +1142,9 @@ export default {
       "masked": "Serious misconduct may be ____.",
       "options": [
         "punish-mcq-05",
-        "punish-mcq-04",
-        "punish-mcq-06",
-        "punish-mcq-03",
+        "punish-mcq-37",
         "punish-mcq-07",
-        "punish-mcq-02"
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punished severely」指「受到懲罰」。",
       "sentenceIndex": 8,
@@ -1187,12 +1153,10 @@ export default {
         "punished severely"
       ],
       "optionReasons": {
-        "punish-mcq-05": "本句指「受到懲罰」。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。"
+        "punish-mcq-05": "本句的「punished severely」指「受到懲罰」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-05"
     },
@@ -1204,11 +1168,9 @@ export default {
       "masked": "Minor mistakes should not automatically be ____ harshly.",
       "options": [
         "punish-mcq-05",
-        "punish-mcq-04",
-        "punish-mcq-06",
-        "punish-mcq-03",
-        "punish-mcq-07",
-        "punish-mcq-02"
+        "punish-mcq-35",
+        "punish-mcq-18",
+        "punish-pdf-002"
       ],
       "explanation": "本句的「punished」指「受到懲罰」。",
       "sentenceIndex": 9,
@@ -1217,12 +1179,10 @@ export default {
         "punished"
       ],
       "optionReasons": {
-        "punish-mcq-05": "本句指「受到懲罰」。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-03": "「因 X 懲罰某人」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-02": "「懲罰某人」與本句語境不同。"
+        "punish-mcq-05": "本句的「punished」指「受到懲罰」。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-05"
     },
@@ -1234,11 +1194,9 @@ export default {
       "masked": "Staff should not be ____.",
       "options": [
         "punish-mcq-07",
-        "punish-mcq-06",
-        "punish-mcq-08",
-        "punish-mcq-05",
-        "punish-mcq-09",
-        "punish-mcq-04"
+        "punish-mcq-34",
+        "punish-mcq-27",
+        "punish-mcq-21"
       ],
       "explanation": "本句的「punished for reporting problems honestly」指「令誠實顧客吃虧」。",
       "sentenceIndex": 13,
@@ -1247,12 +1205,10 @@ export default {
         "punished for reporting problems honestly"
       ],
       "optionReasons": {
-        "punish-mcq-07": "本句指「令誠實顧客吃虧」。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。"
+        "punish-mcq-07": "本句的「punished for reporting problems honestly」指「令誠實顧客吃虧」。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-07"
     },
@@ -1264,11 +1220,9 @@ export default {
       "masked": "A bad incentive system can ____ people for doing the right thing.",
       "options": [
         "punish-mcq-07",
-        "punish-mcq-06",
-        "punish-mcq-08",
-        "punish-mcq-05",
-        "punish-mcq-09",
-        "punish-mcq-04"
+        "punish-mcq-36",
+        "punish-mcq-29",
+        "punish-mcq-14"
       ],
       "explanation": "本句的「punish」指「令誠實顧客吃虧」。",
       "sentenceIndex": 14,
@@ -1277,12 +1231,10 @@ export default {
         "punish"
       ],
       "optionReasons": {
-        "punish-mcq-07": "本句指「令誠實顧客吃虧」。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。"
+        "punish-mcq-07": "本句的「punish」指「令誠實顧客吃虧」。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-07"
     },
@@ -1294,11 +1246,9 @@ export default {
       "masked": "A blanket rule may unintentionally ____.",
       "options": [
         "punish-mcq-07",
-        "punish-mcq-06",
-        "punish-mcq-08",
-        "punish-mcq-05",
-        "punish-mcq-09",
-        "punish-mcq-04"
+        "punish-mcq-25",
+        "punish-mcq-35",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punish genuine customers」指「令誠實顧客吃虧」。",
       "sentenceIndex": 15,
@@ -1307,12 +1257,10 @@ export default {
         "punish genuine customers"
       ],
       "optionReasons": {
-        "punish-mcq-07": "本句指「令誠實顧客吃虧」。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。"
+        "punish-mcq-07": "本句的「punish genuine customers」指「令誠實顧客吃虧」。",
+        "punish-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-07"
     },
@@ -1324,11 +1272,9 @@ export default {
       "masked": "Higher fees can ____ low-value customers disproportionately.",
       "options": [
         "punish-mcq-07",
-        "punish-mcq-06",
-        "punish-mcq-08",
-        "punish-mcq-05",
-        "punish-mcq-09",
-        "punish-mcq-04"
+        "punish-mcq-40",
+        "punish-mcq-18",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punish」指「令誠實顧客吃虧」。",
       "sentenceIndex": 16,
@@ -1337,12 +1283,10 @@ export default {
         "punish"
       ],
       "optionReasons": {
-        "punish-mcq-07": "本句指「令誠實顧客吃虧」。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-04": "「因做 X 而懲罰」與本句語境不同。"
+        "punish-mcq-07": "本句的「punish」指「令誠實顧客吃虧」。",
+        "punish-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-07"
     },
@@ -1354,11 +1298,9 @@ export default {
       "masked": "Do not ____.",
       "options": [
         "punish-mcq-08",
-        "punish-mcq-07",
-        "punish-mcq-09",
-        "punish-mcq-06",
-        "punish-mcq-10",
-        "punish-mcq-05"
+        "punish-mcq-16",
+        "punish-mcq-36",
+        "punish-mcq-18"
       ],
       "explanation": "本句的「punish yourself for one mistake」指「懲罰／折磨自己」。",
       "sentenceIndex": 17,
@@ -1367,12 +1309,10 @@ export default {
         "punish yourself for one mistake"
       ],
       "optionReasons": {
-        "punish-mcq-08": "本句指「懲罰／折磨自己」。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。"
+        "punish-mcq-08": "本句的「punish yourself for one mistake」指「懲罰／折磨自己」。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-08"
     },
@@ -1384,11 +1324,9 @@ export default {
       "masked": "He kept ____ himself for a decision he could no longer change.",
       "options": [
         "punish-mcq-08",
-        "punish-mcq-07",
-        "punish-mcq-09",
-        "punish-mcq-06",
-        "punish-mcq-10",
-        "punish-mcq-05"
+        "punish-mcq-37",
+        "punish-pdf-005",
+        "punish-mcq-18"
       ],
       "explanation": "本句的「punishing」指「懲罰／折磨自己」。",
       "sentenceIndex": 18,
@@ -1397,12 +1335,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-08": "本句指「懲罰／折磨自己」。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-05": "「受到懲罰」與本句語境不同。"
+        "punish-mcq-08": "本句的「punishing」指「懲罰／折磨自己」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-08"
     },
@@ -1414,11 +1350,9 @@ export default {
       "masked": "The ____ should fit the offence.",
       "options": [
         "punish-pdf-002",
-        "punish-mcq-08",
-        "punish-mcq-10",
-        "punish-mcq-07",
-        "punish-mcq-11",
-        "punish-mcq-06"
+        "punish-pdf-004",
+        "punish-mcq-35",
+        "punish-mcq-16"
       ],
       "explanation": "本句的「punishment」指「因違規、犯罪或錯誤行為而施加的不利後果」。",
       "sentenceIndex": 19,
@@ -1427,12 +1361,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-pdf-002": "本句指「因違規、犯罪或錯誤行為而施加的不利後果」。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
+        "punish-pdf-002": "本句的「punishment」指「因違規、犯罪或錯誤行為而施加的不利後果」。",
+        "punish-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-002"
     },
@@ -1444,11 +1376,9 @@ export default {
       "masked": "The manager thought the ____ was too severe.",
       "options": [
         "punish-pdf-002",
-        "punish-mcq-08",
-        "punish-mcq-10",
-        "punish-mcq-07",
-        "punish-mcq-11",
-        "punish-mcq-06"
+        "punish-mcq-19",
+        "punish-mcq-37",
+        "punish-pdf-005"
       ],
       "explanation": "本句的「punishment」指「因違規、犯罪或錯誤行為而施加的不利後果」。",
       "sentenceIndex": 20,
@@ -1457,12 +1387,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-pdf-002": "本句指「因違規、犯罪或錯誤行為而施加的不利後果」。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-06": "「覺得自己像被懲罰」與本句語境不同。"
+        "punish-pdf-002": "本句的「punishment」指「因違規、犯罪或錯誤行為而施加的不利後果」。",
+        "punish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-002"
     },
@@ -1474,11 +1402,9 @@ export default {
       "masked": "The teacher gave him a ____.",
       "options": [
         "punish-mcq-10",
-        "punish-mcq-09",
-        "punish-mcq-11",
-        "punish-mcq-08",
-        "punish-mcq-12",
-        "punish-mcq-07"
+        "punish-mcq-37",
+        "punish-mcq-07",
+        "punish-mcq-32"
       ],
       "explanation": "本句的「punishment」指「一項懲罰」。",
       "sentenceIndex": 21,
@@ -1487,12 +1413,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-10": "本句指「一項懲罰」。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。"
+        "punish-mcq-10": "本句的「punishment」指「一項懲罰」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-10"
     },
@@ -1504,11 +1428,9 @@ export default {
       "masked": "Losing access permanently would be a very severe ____.",
       "options": [
         "punish-mcq-10",
-        "punish-mcq-09",
-        "punish-mcq-11",
-        "punish-mcq-08",
-        "punish-mcq-12",
-        "punish-mcq-07"
+        "punish-mcq-07",
+        "punish-mcq-18",
+        "punish-mcq-16"
       ],
       "explanation": "本句的「punishment」指「一項懲罰」。",
       "sentenceIndex": 22,
@@ -1517,12 +1439,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-10": "本句指「一項懲罰」。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。"
+        "punish-mcq-10": "本句的「punishment」指「一項懲罰」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-10"
     },
@@ -1534,11 +1454,9 @@ export default {
       "masked": "The behaviour deserves ____.",
       "options": [
         "punish-mcq-10",
-        "punish-mcq-09",
-        "punish-mcq-11",
-        "punish-mcq-08",
-        "punish-mcq-12",
-        "punish-mcq-07"
+        "punish-mcq-36",
+        "punish-mcq-35",
+        "punish-pdf-001"
       ],
       "explanation": "本句的「punishment」指「一項懲罰」。",
       "sentenceIndex": 23,
@@ -1547,12 +1465,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-10": "本句指「一項懲罰」。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。"
+        "punish-mcq-10": "本句的「punishment」指「一項懲罰」。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-10"
     },
@@ -1564,11 +1480,9 @@ export default {
       "masked": "Fear of ____ may deter some misconduct.",
       "options": [
         "punish-mcq-10",
-        "punish-mcq-09",
-        "punish-mcq-11",
-        "punish-mcq-08",
-        "punish-mcq-12",
-        "punish-mcq-07"
+        "punish-mcq-07",
+        "punish-mcq-18",
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punishment」指「一項懲罰」。",
       "sentenceIndex": 24,
@@ -1577,12 +1491,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-10": "本句指「一項懲罰」。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-07": "「令誠實顧客吃虧」與本句語境不同。"
+        "punish-mcq-10": "本句的「punishment」指「一項懲罰」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-10"
     },
@@ -1594,11 +1506,9 @@ export default {
       "masked": "Those responsible received ____.",
       "options": [
         "punish-mcq-11",
-        "punish-mcq-10",
-        "punish-mcq-12",
-        "punish-mcq-09",
-        "punish-mcq-13",
-        "punish-mcq-08"
+        "punish-mcq-32",
+        "punish-mcq-35",
+        "punish-pdf-002"
       ],
       "explanation": "本句的「punishment」指「面臨懲罰」。",
       "sentenceIndex": 25,
@@ -1607,12 +1517,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-11": "本句指「面臨懲罰」。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。"
+        "punish-mcq-11": "本句的「punishment」指「面臨懲罰」。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-11"
     },
@@ -1624,11 +1532,9 @@ export default {
       "masked": "The severity of ____ varied.",
       "options": [
         "punish-mcq-11",
-        "punish-mcq-10",
-        "punish-mcq-12",
-        "punish-mcq-09",
-        "punish-mcq-13",
-        "punish-mcq-08"
+        "punish-mcq-32",
+        "punish-mcq-33",
+        "punish-pdf-001"
       ],
       "explanation": "本句的「punishment」指「面臨懲罰」。",
       "sentenceIndex": 26,
@@ -1637,12 +1543,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-11": "本句指「面臨懲罰」。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。"
+        "punish-mcq-11": "本句的「punishment」指「面臨懲罰」。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-11"
     },
@@ -1654,11 +1558,9 @@ export default {
       "masked": "Employees who falsify records may ____.",
       "options": [
         "punish-mcq-11",
-        "punish-mcq-10",
-        "punish-mcq-12",
-        "punish-mcq-09",
-        "punish-mcq-13",
-        "punish-mcq-08"
+        "punish-mcq-07",
+        "punish-pdf-005",
+        "punish-mcq-33"
       ],
       "explanation": "本句的「face punishment」指「面臨懲罰」。",
       "sentenceIndex": 27,
@@ -1667,12 +1569,10 @@ export default {
         "face punishment"
       ],
       "optionReasons": {
-        "punish-mcq-11": "本句指「面臨懲罰」。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。"
+        "punish-mcq-11": "本句的「face punishment」指「面臨懲罰」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-11"
     },
@@ -1684,11 +1584,9 @@ export default {
       "masked": "Serious violations can result in disciplinary ____.",
       "options": [
         "punish-mcq-11",
-        "punish-mcq-10",
-        "punish-mcq-12",
-        "punish-mcq-09",
-        "punish-mcq-13",
-        "punish-mcq-08"
+        "punish-mcq-07",
+        "punish-mcq-36",
+        "punish-mcq-35"
       ],
       "explanation": "本句的「punishment」指「面臨懲罰」。",
       "sentenceIndex": 28,
@@ -1697,12 +1595,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-11": "本句指「面臨懲罰」。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-08": "「懲罰／折磨自己」與本句語境不同。"
+        "punish-mcq-11": "本句的「punishment」指「面臨懲罰」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-11"
     },
@@ -1714,11 +1610,9 @@ export default {
       "masked": "He broke the rule but ____.",
       "options": [
         "punish-mcq-12",
-        "punish-mcq-11",
-        "punish-mcq-13",
-        "punish-mcq-10",
-        "punish-mcq-14",
-        "punish-mcq-09"
+        "punish-mcq-36",
+        "punish-mcq-07",
+        "punish-mcq-35"
       ],
       "explanation": "本句的「escaped punishment」指「逃過懲罰」。",
       "sentenceIndex": 29,
@@ -1727,12 +1621,10 @@ export default {
         "escaped punishment"
       ],
       "optionReasons": {
-        "punish-mcq-12": "本句指「逃過懲罰」。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。"
+        "punish-mcq-12": "本句的「escaped punishment」指「逃過懲罰」。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-12"
     },
@@ -1744,11 +1636,9 @@ export default {
       "masked": "People should not assume that misconduct will always escape ____.",
       "options": [
         "punish-mcq-12",
-        "punish-mcq-11",
-        "punish-mcq-13",
-        "punish-mcq-10",
-        "punish-mcq-14",
-        "punish-mcq-09"
+        "punish-mcq-34",
+        "punish-mcq-35",
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punishment」指「逃過懲罰」。",
       "sentenceIndex": 30,
@@ -1757,12 +1647,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-12": "本句指「逃過懲罰」。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。",
-        "punish-mcq-09": "「懲罰；處罰」與本句語境不同。"
+        "punish-mcq-12": "本句的「punishment」指「逃過懲罰」。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-12"
     },
@@ -1774,11 +1662,9 @@ export default {
       "masked": "Serious misconduct should not ____.",
       "options": [
         "punish-mcq-13",
-        "punish-mcq-12",
-        "punish-mcq-14",
-        "punish-mcq-11",
-        "punish-mcq-15",
-        "punish-mcq-10"
+        "punish-mcq-32",
+        "punish-mcq-35",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「go unpunished」指「沒有受到懲罰」。",
       "sentenceIndex": 31,
@@ -1787,12 +1673,10 @@ export default {
         "go unpunished"
       ],
       "optionReasons": {
-        "punish-mcq-13": "本句指「沒有受到懲罰」。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。",
-        "punish-mcq-10": "「一項懲罰」與本句語境不同。"
+        "punish-mcq-13": "本句的「go unpunished」指「沒有受到懲罰」。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-13"
     },
@@ -1804,11 +1688,9 @@ export default {
       "masked": "Managers should choose an ____.",
       "options": [
         "punish-mcq-14",
-        "punish-mcq-13",
-        "punish-mcq-15",
-        "punish-mcq-12",
-        "punish-mcq-16",
-        "punish-mcq-11"
+        "punish-mcq-18",
+        "punish-mcq-36",
+        "punish-mcq-35"
       ],
       "explanation": "本句的「appropriate punishment」指「適當處罰」。",
       "sentenceIndex": 32,
@@ -1817,12 +1699,10 @@ export default {
         "appropriate punishment"
       ],
       "optionReasons": {
-        "punish-mcq-14": "本句指「適當處罰」。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。",
-        "punish-mcq-11": "「面臨懲罰」與本句語境不同。"
+        "punish-mcq-14": "本句的「appropriate punishment」指「適當處罰」。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-14"
     },
@@ -1834,11 +1714,9 @@ export default {
       "masked": "Punishment should be ____.",
       "options": [
         "punish-mcq-15",
-        "punish-mcq-14",
-        "punish-mcq-16",
-        "punish-mcq-13",
-        "punish-mcq-17",
-        "punish-mcq-12"
+        "punish-mcq-18",
+        "punish-pdf-005",
+        "punish-mcq-37"
       ],
       "explanation": "本句的「proportionate to the offence」指「相稱處罰」。",
       "sentenceIndex": 33,
@@ -1847,12 +1725,10 @@ export default {
         "proportionate to the offence"
       ],
       "optionReasons": {
-        "punish-mcq-15": "本句指「相稱處罰」。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-12": "「逃過懲罰」與本句語境不同。"
+        "punish-mcq-15": "本句的「proportionate to the offence」指「相稱處罰」。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-15"
     },
@@ -1864,11 +1740,9 @@ export default {
       "masked": "Repeated misconduct may lead to ____.",
       "options": [
         "punish-mcq-16",
-        "punish-mcq-15",
-        "punish-mcq-17",
-        "punish-mcq-14",
-        "punish-mcq-18",
-        "punish-mcq-13"
+        "punish-mcq-38",
+        "punish-mcq-33",
+        "punish-pdf-002"
       ],
       "explanation": "本句的「disciplinary action」指「紀律處分」。",
       "sentenceIndex": 34,
@@ -1877,12 +1751,10 @@ export default {
         "disciplinary action"
       ],
       "optionReasons": {
-        "punish-mcq-16": "本句指「紀律處分」。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。"
+        "punish-mcq-16": "本句的「disciplinary action」指「紀律處分」。",
+        "punish-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-16"
     },
@@ -1894,11 +1766,9 @@ export default {
       "masked": "Formal ____ should follow a clear disciplinary process.",
       "options": [
         "punish-mcq-16",
-        "punish-mcq-15",
-        "punish-mcq-17",
-        "punish-mcq-14",
+        "punish-mcq-24",
         "punish-mcq-18",
-        "punish-mcq-13"
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punishment」指「紀律處分」。",
       "sentenceIndex": 35,
@@ -1907,12 +1777,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-16": "本句指「紀律處分」。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-13": "「沒有受到懲罰」與本句語境不同。"
+        "punish-mcq-16": "本句的「punishment」指「紀律處分」。",
+        "punish-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-16"
     },
@@ -1924,11 +1792,9 @@ export default {
       "masked": "____ means physical punishment imposed on a person.",
       "options": [
         "punish-mcq-17",
-        "punish-mcq-16",
-        "punish-mcq-18",
-        "punish-mcq-15",
-        "punish-mcq-19",
-        "punish-mcq-14"
+        "punish-mcq-34",
+        "punish-mcq-32",
+        "punish-mcq-33"
       ],
       "explanation": "本句的「Corporal punishment」指「體罰」。",
       "sentenceIndex": 36,
@@ -1937,12 +1803,10 @@ export default {
         "Corporal punishment"
       ],
       "optionReasons": {
-        "punish-mcq-17": "本句指「體罰」。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-14": "「適當處罰」與本句語境不同。"
+        "punish-mcq-17": "本句的「Corporal punishment」指「體罰」。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-17"
     },
@@ -1954,11 +1818,9 @@ export default {
       "masked": "____ means punishment by death under a legal system.",
       "options": [
         "punish-mcq-18",
-        "punish-mcq-17",
-        "punish-mcq-19",
-        "punish-mcq-16",
-        "punish-mcq-20",
-        "punish-mcq-15"
+        "punish-mcq-38",
+        "punish-mcq-07",
+        "punish-mcq-16"
       ],
       "explanation": "本句的「Capital punishment」指「死刑」。",
       "sentenceIndex": 37,
@@ -1967,12 +1829,10 @@ export default {
         "Capital punishment"
       ],
       "optionReasons": {
-        "punish-mcq-18": "本句指「死刑」。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。"
+        "punish-mcq-18": "本句的「Capital punishment」指「死刑」。",
+        "punish-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-18"
     },
@@ -1985,10 +1845,8 @@ export default {
       "options": [
         "punish-mcq-18",
         "punish-mcq-17",
-        "punish-mcq-19",
-        "punish-mcq-16",
-        "punish-mcq-20",
-        "punish-mcq-15"
+        "punish-mcq-36",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishment」指「死刑」。",
       "sentenceIndex": 38,
@@ -1997,12 +1855,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-18": "本句指「死刑」。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-15": "「相稱處罰」與本句語境不同。"
+        "punish-mcq-18": "本句的「punishment」指「死刑」。",
+        "punish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-18"
     },
@@ -2014,11 +1870,9 @@ export default {
       "masked": "A policy that penalises every customer for the misconduct of a few can feel like ____.",
       "options": [
         "punish-mcq-19",
-        "punish-mcq-18",
-        "punish-mcq-20",
-        "punish-mcq-17",
-        "punish-mcq-21",
-        "punish-mcq-16"
+        "punish-mcq-07",
+        "punish-mcq-35",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「collective punishment」指「集體懲罰」。",
       "sentenceIndex": 39,
@@ -2027,12 +1881,10 @@ export default {
         "collective punishment"
       ],
       "optionReasons": {
-        "punish-mcq-19": "本句指「集體懲罰」。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。"
+        "punish-mcq-19": "本句的「collective punishment」指「集體懲罰」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-19"
     },
@@ -2044,11 +1896,9 @@ export default {
       "masked": "Collective ____ treats a broader group as liable for conduct not committed by every member.",
       "options": [
         "punish-mcq-19",
-        "punish-mcq-18",
-        "punish-mcq-20",
-        "punish-mcq-17",
-        "punish-mcq-21",
-        "punish-mcq-16"
+        "punish-pdf-001",
+        "punish-mcq-32",
+        "punish-mcq-35"
       ],
       "explanation": "本句的「punishment」指「集體懲罰」。",
       "sentenceIndex": 40,
@@ -2057,12 +1907,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-19": "本句指「集體懲罰」。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-16": "「紀律處分」與本句語境不同。"
+        "punish-mcq-19": "本句的「punishment」指「集體懲罰」。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-19"
     },
@@ -2074,11 +1922,9 @@ export default {
       "masked": "The offence is ____.",
       "options": [
         "punish-pdf-003",
-        "punish-mcq-19",
-        "punish-mcq-21",
-        "punish-mcq-18",
-        "punish-mcq-22",
-        "punish-mcq-17"
+        "punish-mcq-33",
+        "punish-mcq-34",
+        "punish-mcq-07"
       ],
       "explanation": "本句的「punishable by a fine」指「根據法律或規則可以被處罰的」。",
       "sentenceIndex": 41,
@@ -2087,12 +1933,10 @@ export default {
         "punishable by a fine"
       ],
       "optionReasons": {
-        "punish-pdf-003": "本句指「根據法律或規則可以被處罰的」。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。"
+        "punish-pdf-003": "本句的「punishable by a fine」指「根據法律或規則可以被處罰的」。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-003"
     },
@@ -2104,11 +1948,9 @@ export default {
       "masked": "Serious misconduct may be ____ under company rules.",
       "options": [
         "punish-pdf-003",
-        "punish-mcq-19",
-        "punish-mcq-21",
         "punish-mcq-18",
-        "punish-mcq-22",
-        "punish-mcq-17"
+        "punish-mcq-37",
+        "punish-pdf-005"
       ],
       "explanation": "本句的「punishable」指「根據法律或規則可以被處罰的」。",
       "sentenceIndex": 42,
@@ -2117,12 +1959,10 @@ export default {
         "punishable"
       ],
       "optionReasons": {
-        "punish-pdf-003": "本句指「根據法律或規則可以被處罰的」。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-17": "「體罰」與本句語境不同。"
+        "punish-pdf-003": "本句的「punishable」指「根據法律或規則可以被處罰的」。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-003"
     },
@@ -2134,11 +1974,9 @@ export default {
       "masked": "Fraud is a ____.",
       "options": [
         "punish-mcq-21",
-        "punish-mcq-20",
-        "punish-mcq-22",
-        "punish-mcq-19",
-        "punish-mcq-23",
-        "punish-mcq-18"
+        "punish-mcq-18",
+        "punish-pdf-005",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishable offence」指「可處罰罪行」。",
       "sentenceIndex": 43,
@@ -2147,12 +1985,10 @@ export default {
         "punishable offence"
       ],
       "optionReasons": {
-        "punish-mcq-21": "本句指「可處罰罪行」。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。"
+        "punish-mcq-21": "本句的「punishable offence」指「可處罰罪行」。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-21"
     },
@@ -2164,11 +2000,9 @@ export default {
       "masked": "The precise ____ depends on the applicable rules or law.",
       "options": [
         "punish-mcq-21",
-        "punish-mcq-20",
-        "punish-mcq-22",
-        "punish-mcq-19",
-        "punish-mcq-23",
-        "punish-mcq-18"
+        "punish-pdf-005",
+        "punish-mcq-33",
+        "punish-mcq-07"
       ],
       "explanation": "本句的「punishment」指「可處罰罪行」。",
       "sentenceIndex": 44,
@@ -2177,12 +2011,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-21": "本句指「可處罰罪行」。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。",
-        "punish-mcq-18": "「死刑」與本句語境不同。"
+        "punish-mcq-21": "本句的「punishment」指「可處罰罪行」。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-21"
     },
@@ -2194,11 +2026,9 @@ export default {
       "masked": "The offence is ____.",
       "options": [
         "punish-mcq-22",
-        "punish-mcq-21",
-        "punish-mcq-23",
-        "punish-mcq-20",
-        "punish-mcq-24",
-        "punish-mcq-19"
+        "punish-pdf-002",
+        "punish-mcq-33",
+        "punish-mcq-32"
       ],
       "explanation": "本句的「punishable by imprisonment」指「可處罰款」。",
       "sentenceIndex": 45,
@@ -2207,12 +2037,10 @@ export default {
         "punishable by imprisonment"
       ],
       "optionReasons": {
-        "punish-mcq-22": "本句指「可處罰款」。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。"
+        "punish-mcq-22": "本句的「punishable by imprisonment」指「可處罰款」。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-22"
     },
@@ -2224,11 +2052,9 @@ export default {
       "masked": "The violation is ____ by a fine.",
       "options": [
         "punish-mcq-22",
-        "punish-mcq-21",
-        "punish-mcq-23",
-        "punish-mcq-20",
-        "punish-mcq-24",
-        "punish-mcq-19"
+        "punish-pdf-002",
+        "punish-mcq-35",
+        "punish-pdf-005"
       ],
       "explanation": "本句的「punishable」指「可處罰款」。",
       "sentenceIndex": 46,
@@ -2237,12 +2063,10 @@ export default {
         "punishable"
       ],
       "optionReasons": {
-        "punish-mcq-22": "本句指「可處罰款」。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-19": "「集體懲罰」與本句語境不同。"
+        "punish-mcq-22": "本句的「punishable」指「可處罰款」。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-22"
     },
@@ -2254,11 +2078,9 @@ export default {
       "masked": "The policy should protect the company without becoming ____ toward genuine customers.",
       "options": [
         "punish-pdf-004",
-        "punish-mcq-22",
-        "punish-mcq-24",
-        "punish-mcq-21",
-        "punish-mcq-25",
-        "punish-mcq-20"
+        "punish-mcq-16",
+        "punish-mcq-37",
+        "punish-mcq-18"
       ],
       "explanation": "本句的「punitive」指「目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的」。",
       "sentenceIndex": 47,
@@ -2267,12 +2089,10 @@ export default {
         "punitive"
       ],
       "optionReasons": {
-        "punish-pdf-004": "本句指「目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的」。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。"
+        "punish-pdf-004": "本句的「punitive」指「目的在於懲罰，或嚴厲程度帶有明顯懲罰意味的」。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-004"
     },
@@ -2284,11 +2104,9 @@ export default {
       "masked": "A permanent ban would be a highly ____.",
       "options": [
         "punish-mcq-24",
-        "punish-mcq-23",
-        "punish-mcq-25",
-        "punish-mcq-22",
-        "punish-mcq-26",
-        "punish-mcq-21"
+        "punish-mcq-18",
+        "punish-mcq-07",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punitive measure」指「懲罰性措施」。",
       "sentenceIndex": 48,
@@ -2297,12 +2115,10 @@ export default {
         "punitive measure"
       ],
       "optionReasons": {
-        "punish-mcq-24": "本句指「懲罰性措施」。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-26": "「懲罰性罰款」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。"
+        "punish-mcq-24": "本句的「punitive measure」指「懲罰性措施」。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-24"
     },
@@ -2314,11 +2130,9 @@ export default {
       "masked": "Management took ____ after repeated deliberate abuse.",
       "options": [
         "punish-mcq-25",
-        "punish-mcq-24",
-        "punish-mcq-26",
-        "punish-mcq-23",
-        "punish-mcq-27",
-        "punish-mcq-22"
+        "punish-mcq-07",
+        "punish-pdf-005",
+        "punish-mcq-16"
       ],
       "explanation": "本句的「punitive action」指「懲罰性行動」。",
       "sentenceIndex": 49,
@@ -2327,12 +2141,10 @@ export default {
         "punitive action"
       ],
       "optionReasons": {
-        "punish-mcq-25": "本句指「懲罰性行動」。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-26": "「懲罰性罰款」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。"
+        "punish-mcq-25": "本句的「punitive action」指「懲罰性行動」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-25"
     },
@@ -2344,11 +2156,9 @@ export default {
       "masked": "The fee should cover actual costs rather than become a ____.",
       "options": [
         "punish-mcq-26",
-        "punish-mcq-25",
-        "punish-mcq-27",
-        "punish-mcq-24",
-        "punish-mcq-28",
-        "punish-mcq-23"
+        "punish-mcq-37",
+        "punish-pdf-002",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punitive penalty」指「懲罰性罰款」。",
       "sentenceIndex": 50,
@@ -2357,12 +2167,10 @@ export default {
         "punitive penalty"
       ],
       "optionReasons": {
-        "punish-mcq-26": "本句指「懲罰性罰款」。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。"
+        "punish-mcq-26": "本句的「punitive penalty」指「懲罰性罰款」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-26"
     },
@@ -2374,11 +2182,9 @@ export default {
       "masked": "The regulator imposed a ____.",
       "options": [
         "punish-mcq-26",
-        "punish-mcq-25",
-        "punish-mcq-27",
-        "punish-mcq-24",
-        "punish-mcq-28",
-        "punish-mcq-23"
+        "punish-mcq-33",
+        "punish-mcq-07",
+        "punish-mcq-18"
       ],
       "explanation": "本句的「punitive fine」指「懲罰性罰款」。",
       "sentenceIndex": 51,
@@ -2387,12 +2193,10 @@ export default {
         "punitive fine"
       ],
       "optionReasons": {
-        "punish-mcq-26": "本句指「懲罰性罰款」。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。"
+        "punish-mcq-26": "本句的「punitive fine」指「懲罰性罰款」。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-26"
     },
@@ -2404,11 +2208,9 @@ export default {
       "masked": "Punitive” emphasizes ____ rather than mere cost recovery.",
       "options": [
         "punish-mcq-26",
-        "punish-mcq-25",
-        "punish-mcq-27",
-        "punish-mcq-24",
-        "punish-mcq-28",
-        "punish-mcq-23"
+        "punish-pdf-001",
+        "punish-mcq-18",
+        "punish-mcq-35"
       ],
       "explanation": "本句的「punishment」指「懲罰性罰款」。",
       "sentenceIndex": 52,
@@ -2417,12 +2219,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-26": "本句指「懲罰性罰款」。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-23": "「懲罰性的」與本句語境不同。"
+        "punish-mcq-26": "本句的「punishment」指「懲罰性罰款」。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-26"
     },
@@ -2434,11 +2234,9 @@ export default {
       "masked": "A very high return fee could feel ____.",
       "options": [
         "punish-mcq-27",
-        "punish-mcq-26",
-        "punish-mcq-28",
-        "punish-mcq-25",
-        "punish-mcq-29",
-        "punish-mcq-24"
+        "punish-mcq-36",
+        "punish-mcq-16",
+        "punish-mcq-33"
       ],
       "explanation": "本句的「punitive」指「懲罰性收費」。",
       "sentenceIndex": 53,
@@ -2447,12 +2245,10 @@ export default {
         "punitive"
       ],
       "optionReasons": {
-        "punish-mcq-27": "本句指「懲罰性收費」。",
-        "punish-mcq-26": "「懲罰性罰款」與本句語境不同。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。"
+        "punish-mcq-27": "本句的「punitive」指「懲罰性收費」。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-27"
     },
@@ -2464,11 +2260,9 @@ export default {
       "masked": "____ are designed primarily to punish particularly wrongful conduct rather than merely compensate for loss.",
       "options": [
         "punish-mcq-28",
-        "punish-mcq-27",
-        "punish-mcq-29",
-        "punish-mcq-26",
-        "punish-mcq-30",
-        "punish-mcq-25"
+        "punish-mcq-36",
+        "punish-pdf-001",
+        "punish-mcq-33"
       ],
       "explanation": "本句的「Punitive damages」指「懲罰性損害賠償」。",
       "sentenceIndex": 54,
@@ -2477,12 +2271,10 @@ export default {
         "Punitive damages"
       ],
       "optionReasons": {
-        "punish-mcq-28": "本句指「懲罰性損害賠償」。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。",
-        "punish-mcq-26": "「懲罰性罰款」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。"
+        "punish-mcq-28": "本句的「Punitive damages」指「懲罰性損害賠償」。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-28"
     },
@@ -2494,11 +2286,9 @@ export default {
       "masked": "The business faced ____.",
       "options": [
         "punish-mcq-23",
-        "punish-mcq-22",
-        "punish-mcq-24",
-        "punish-mcq-21",
-        "punish-mcq-25",
-        "punish-mcq-20"
+        "punish-mcq-35",
+        "punish-mcq-34",
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punitive borrowing costs」指「懲罰性的」。",
       "sentenceIndex": 55,
@@ -2507,12 +2297,10 @@ export default {
         "punitive borrowing costs"
       ],
       "optionReasons": {
-        "punish-mcq-23": "本句指「懲罰性的」。",
-        "punish-mcq-22": "「可處罰款」與本句語境不同。",
-        "punish-mcq-24": "「懲罰性措施」與本句語境不同。",
-        "punish-mcq-21": "「可處罰罪行」與本句語境不同。",
-        "punish-mcq-25": "「懲罰性行動」與本句語境不同。",
-        "punish-mcq-20": "「可受懲罰的」與本句語境不同。"
+        "punish-mcq-23": "本句的「punitive borrowing costs」指「懲罰性的」。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-23"
     },
@@ -2524,11 +2312,9 @@ export default {
       "masked": "The employees faced a ____.",
       "options": [
         "punish-pdf-005",
-        "punish-mcq-31",
-        "punish-mcq-33",
-        "punish-mcq-30",
-        "punish-mcq-34",
-        "punish-mcq-29"
+        "punish-mcq-37",
+        "punish-pdf-003",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishing workload」指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
       "sentenceIndex": 56,
@@ -2537,12 +2323,10 @@ export default {
         "punishing workload"
       ],
       "optionReasons": {
-        "punish-pdf-005": "本句指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。"
+        "punish-pdf-005": "本句的「punishing workload」指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-005"
     },
@@ -2554,11 +2338,9 @@ export default {
       "masked": "They maintained a ____ schedule during the launch.",
       "options": [
         "punish-pdf-005",
-        "punish-mcq-31",
-        "punish-mcq-33",
-        "punish-mcq-30",
-        "punish-mcq-34",
-        "punish-mcq-29"
+        "punish-mcq-18",
+        "punish-mcq-17",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishing」指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
       "sentenceIndex": 57,
@@ -2567,12 +2349,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-pdf-005": "本句指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。"
+        "punish-pdf-005": "本句的「punishing」指「嚴酷到令人非常疲累、難以承受或付出很大代價的」。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-pdf-005"
     },
@@ -2584,11 +2364,9 @@ export default {
       "masked": "The manager worked a ____.",
       "options": [
         "punish-mcq-33",
-        "punish-mcq-32",
-        "punish-mcq-34",
-        "punish-mcq-31",
-        "punish-mcq-35",
-        "punish-mcq-30"
+        "punish-mcq-17",
+        "punish-mcq-18",
+        "punish-mcq-16"
       ],
       "explanation": "本句的「punishing schedule」指「極繁重日程」。",
       "sentenceIndex": 58,
@@ -2597,12 +2375,10 @@ export default {
         "punishing schedule"
       ],
       "optionReasons": {
-        "punish-mcq-33": "本句指「極繁重日程」。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。"
+        "punish-mcq-33": "本句的「punishing schedule」指「極繁重日程」。",
+        "punish-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-33"
     },
@@ -2614,11 +2390,9 @@ export default {
       "masked": "A ____ schedule can lead to exhaustion.",
       "options": [
         "punish-mcq-33",
-        "punish-mcq-32",
-        "punish-mcq-34",
-        "punish-mcq-31",
-        "punish-mcq-35",
-        "punish-mcq-30"
+        "punish-mcq-28",
+        "punish-pdf-002",
+        "punish-mcq-14"
       ],
       "explanation": "本句的「punishing」指「極繁重日程」。",
       "sentenceIndex": 59,
@@ -2627,12 +2401,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-33": "本句指「極繁重日程」。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。"
+        "punish-mcq-33": "本句的「punishing」指「極繁重日程」。",
+        "punish-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-33"
     },
@@ -2644,11 +2416,9 @@ export default {
       "masked": "The team worked at a ____.",
       "options": [
         "punish-mcq-34",
-        "punish-mcq-33",
-        "punish-mcq-35",
-        "punish-mcq-32",
-        "punish-mcq-36",
-        "punish-mcq-31"
+        "punish-mcq-05",
+        "punish-mcq-07",
+        "punish-mcq-36"
       ],
       "explanation": "本句的「punishing pace」指「極高強度節奏」。",
       "sentenceIndex": 60,
@@ -2657,12 +2427,10 @@ export default {
         "punishing pace"
       ],
       "optionReasons": {
-        "punish-mcq-34": "本句指「極高強度節奏」。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。"
+        "punish-mcq-34": "本句的「punishing pace」指「極高強度節奏」。",
+        "punish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-34"
     },
@@ -2674,11 +2442,9 @@ export default {
       "masked": "Fast-fashion production can operate at a ____ pace.",
       "options": [
         "punish-mcq-34",
-        "punish-mcq-33",
-        "punish-mcq-35",
-        "punish-mcq-32",
-        "punish-mcq-36",
-        "punish-mcq-31"
+        "punish-mcq-14",
+        "punish-mcq-29",
+        "punish-mcq-16"
       ],
       "explanation": "本句的「punishing」指「極高強度節奏」。",
       "sentenceIndex": 61,
@@ -2687,12 +2453,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-34": "本句指「極高強度節奏」。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。"
+        "punish-mcq-34": "本句的「punishing」指「極高強度節奏」。",
+        "punish-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-34"
     },
@@ -2704,11 +2468,9 @@ export default {
       "masked": "Returns created a ____ for warehouse staff.",
       "options": [
         "punish-mcq-35",
-        "punish-mcq-34",
-        "punish-mcq-36",
-        "punish-mcq-33",
-        "punish-mcq-37",
-        "punish-mcq-32"
+        "punish-mcq-19",
+        "punish-mcq-07",
+        "punish-mcq-14"
       ],
       "explanation": "本句的「punishing workload」指「極重工作量」。",
       "sentenceIndex": 62,
@@ -2717,12 +2479,10 @@ export default {
         "punishing workload"
       ],
       "optionReasons": {
-        "punish-mcq-35": "本句指「極重工作量」。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。"
+        "punish-mcq-35": "本句的「punishing workload」指「極重工作量」。",
+        "punish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-35"
     },
@@ -2734,11 +2494,9 @@ export default {
       "masked": "Better procedures could reduce the ____ workload.",
       "options": [
         "punish-mcq-35",
-        "punish-mcq-34",
-        "punish-mcq-36",
-        "punish-mcq-33",
-        "punish-mcq-37",
-        "punish-mcq-32"
+        "punish-mcq-27",
+        "punish-pdf-003",
+        "punish-pdf-005"
       ],
       "explanation": "本句的「punishing」指「極重工作量」。",
       "sentenceIndex": 63,
@@ -2747,12 +2505,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-35": "本句指「極重工作量」。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。"
+        "punish-mcq-35": "本句的「punishing」指「極重工作量」。",
+        "punish-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-35"
     },
@@ -2764,11 +2520,9 @@ export default {
       "masked": "Workers operated in ____.",
       "options": [
         "punish-mcq-36",
-        "punish-mcq-35",
         "punish-mcq-37",
-        "punish-mcq-34",
-        "punish-mcq-38",
-        "punish-mcq-33"
+        "punish-pdf-002",
+        "punish-mcq-14"
       ],
       "explanation": "本句的「punishing conditions」指「嚴酷條件」。",
       "sentenceIndex": 64,
@@ -2777,12 +2531,10 @@ export default {
         "punishing conditions"
       ],
       "optionReasons": {
-        "punish-mcq-36": "本句指「嚴酷條件」。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。"
+        "punish-mcq-36": "本句的「punishing conditions」指「嚴酷條件」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-36"
     },
@@ -2794,11 +2546,9 @@ export default {
       "masked": "The race took place in ____ heat.",
       "options": [
         "punish-mcq-36",
-        "punish-mcq-35",
-        "punish-mcq-37",
-        "punish-mcq-34",
-        "punish-mcq-38",
-        "punish-mcq-33"
+        "punish-mcq-26",
+        "punish-mcq-18",
+        "punish-mcq-35"
       ],
       "explanation": "本句的「punishing」指「嚴酷條件」。",
       "sentenceIndex": 65,
@@ -2807,12 +2557,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-36": "本句指「嚴酷條件」。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。"
+        "punish-mcq-36": "本句的「punishing」指「嚴酷條件」。",
+        "punish-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-36"
     },
@@ -2824,11 +2572,9 @@ export default {
       "masked": "Small businesses faced ____.",
       "options": [
         "punish-mcq-37",
-        "punish-mcq-36",
-        "punish-mcq-38",
-        "punish-mcq-35",
-        "punish-mcq-39",
-        "punish-mcq-34"
+        "punish-mcq-19",
+        "punish-pdf-003",
+        "punish-pdf-002"
       ],
       "explanation": "本句的「punishing energy costs」指「極沉重成本」。",
       "sentenceIndex": 66,
@@ -2837,12 +2583,10 @@ export default {
         "punishing energy costs"
       ],
       "optionReasons": {
-        "punish-mcq-37": "本句指「極沉重成本」。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-39": "「免受懲罰」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。"
+        "punish-mcq-37": "本句的「punishing energy costs」指「極沉重成本」。",
+        "punish-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-37"
     },
@@ -2854,11 +2598,9 @@ export default {
       "masked": "Excessive return processing can create ____ costs.",
       "options": [
         "punish-mcq-37",
-        "punish-mcq-36",
-        "punish-mcq-38",
-        "punish-mcq-35",
-        "punish-mcq-39",
-        "punish-mcq-34"
+        "punish-pdf-005",
+        "punish-mcq-16",
+        "punish-mcq-30"
       ],
       "explanation": "本句的「punishing」指「極沉重成本」。",
       "sentenceIndex": 67,
@@ -2867,12 +2609,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-37": "本句指「極沉重成本」。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-39": "「免受懲罰」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。"
+        "punish-mcq-37": "本句的「punishing」指「極沉重成本」。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-37"
     },
@@ -2884,11 +2624,9 @@ export default {
       "masked": "The borrower faced a ____.",
       "options": [
         "punish-mcq-37",
-        "punish-mcq-36",
-        "punish-mcq-38",
-        "punish-mcq-35",
-        "punish-mcq-39",
-        "punish-mcq-34"
+        "punish-mcq-16",
+        "punish-mcq-30",
+        "punish-mcq-14"
       ],
       "explanation": "本句的「punishing interest rate」指「極沉重成本」。",
       "sentenceIndex": 68,
@@ -2897,12 +2635,10 @@ export default {
         "punishing interest rate"
       ],
       "optionReasons": {
-        "punish-mcq-37": "本句指「極沉重成本」。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-39": "「免受懲罰」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。"
+        "punish-mcq-37": "本句的「punishing interest rate」指「極沉重成本」。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-37"
     },
@@ -2914,11 +2650,9 @@ export default {
       "masked": "____” here means financially severe, not that the rate literally disciplines someone.",
       "options": [
         "punish-mcq-37",
-        "punish-mcq-36",
-        "punish-mcq-38",
-        "punish-mcq-35",
-        "punish-mcq-39",
-        "punish-mcq-34"
+        "punish-mcq-22",
+        "punish-mcq-18",
+        "punish-mcq-07"
       ],
       "explanation": "本句的「Punishing」指「極沉重成本」。",
       "sentenceIndex": 69,
@@ -2927,12 +2661,10 @@ export default {
         "Punishing"
       ],
       "optionReasons": {
-        "punish-mcq-37": "本句指「極沉重成本」。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-39": "「免受懲罰」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。"
+        "punish-mcq-37": "本句的「Punishing」指「極沉重成本」。",
+        "punish-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-37"
     },
@@ -2944,11 +2676,9 @@ export default {
       "masked": "The company should not treat genuine mistakes ____.",
       "options": [
         "punish-mcq-31",
-        "punish-mcq-30",
+        "punish-mcq-34",
         "punish-mcq-32",
-        "punish-mcq-29",
-        "punish-mcq-33",
-        "punish-mcq-28"
+        "punish-mcq-35"
       ],
       "explanation": "本句的「punitively」指「懲罰性地」。",
       "sentenceIndex": 70,
@@ -2957,12 +2687,10 @@ export default {
         "punitively"
       ],
       "optionReasons": {
-        "punish-mcq-31": "本句指「懲罰性地」。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。"
+        "punish-mcq-31": "本句的「punitively」指「懲罰性地」。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-31"
     },
@@ -2974,11 +2702,9 @@ export default {
       "masked": "Customers should not be able to abuse the system ____.",
       "options": [
         "punish-mcq-38",
+        "punish-mcq-07",
         "punish-mcq-37",
-        "punish-mcq-39",
-        "punish-mcq-36",
-        "punish-mcq-40",
-        "punish-mcq-35"
+        "punish-mcq-16"
       ],
       "explanation": "本句的「with impunity」指「不受懲罰地」。",
       "sentenceIndex": 71,
@@ -2987,12 +2713,10 @@ export default {
         "with impunity"
       ],
       "optionReasons": {
-        "punish-mcq-38": "本句指「不受懲罰地」。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-39": "「免受懲罰」與本句語境不同。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-40": "「罰當其罪」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。"
+        "punish-mcq-38": "本句的「with impunity」指「不受懲罰地」。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-38"
     },
@@ -3004,11 +2728,9 @@ export default {
       "masked": "A lifetime ban for one innocent mistake would not make the ____ fit the offence.",
       "options": [
         "punish-mcq-40",
-        "punish-mcq-39",
-        "punish-mcq-38",
-        "punish-mcq-37",
-        "punish-mcq-36",
-        "punish-mcq-35"
+        "punish-mcq-35",
+        "punish-mcq-32",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishment」指「罰當其罪」。",
       "sentenceIndex": 72,
@@ -3017,12 +2739,10 @@ export default {
         "punishment"
       ],
       "optionReasons": {
-        "punish-mcq-40": "本句指「罰當其罪」。",
-        "punish-mcq-39": "「免受懲罰」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-36": "「嚴酷條件」與本句語境不同。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。"
+        "punish-mcq-40": "本句的「punishment」指「罰當其罪」。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-40"
     },
@@ -3034,11 +2754,9 @@ export default {
       "masked": "The runners completed a ____.",
       "options": [
         "punish-mcq-32",
-        "punish-mcq-31",
-        "punish-mcq-33",
-        "punish-mcq-30",
-        "punish-mcq-34",
-        "punish-mcq-29"
+        "punish-mcq-21",
+        "punish-mcq-35",
+        "punish-mcq-30"
       ],
       "explanation": "本句的「punishing course」指「嚴酷、吃力的」。",
       "sentenceIndex": 73,
@@ -3047,12 +2765,10 @@ export default {
         "punishing course"
       ],
       "optionReasons": {
-        "punish-mcq-32": "本句指「嚴酷、吃力的」。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。"
+        "punish-mcq-32": "本句的「punishing course」指「嚴酷、吃力的」。",
+        "punish-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-32"
     },
@@ -3065,10 +2781,8 @@ export default {
       "options": [
         "punish-mcq-32",
         "punish-mcq-31",
-        "punish-mcq-33",
-        "punish-mcq-30",
-        "punish-mcq-34",
-        "punish-mcq-29"
+        "punish-pdf-001",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishing」指「嚴酷、吃力的」。",
       "sentenceIndex": 74,
@@ -3077,12 +2791,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-32": "本句指「嚴酷、吃力的」。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。"
+        "punish-mcq-32": "本句的「punishing」指「嚴酷、吃力的」。",
+        "punish-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-32"
     },
@@ -3094,11 +2806,9 @@ export default {
       "masked": "Small retailers faced ____.",
       "options": [
         "punish-mcq-36",
-        "punish-mcq-35",
-        "punish-mcq-37",
-        "punish-mcq-34",
-        "punish-mcq-38",
-        "punish-mcq-33"
+        "punish-mcq-40",
+        "punish-mcq-33",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishing market conditions」指「嚴酷條件」。",
       "sentenceIndex": 75,
@@ -3107,12 +2817,10 @@ export default {
         "punishing market conditions"
       ],
       "optionReasons": {
-        "punish-mcq-36": "本句指「嚴酷條件」。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。"
+        "punish-mcq-36": "本句的「punishing market conditions」指「嚴酷條件」。",
+        "punish-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-36"
     },
@@ -3124,11 +2832,9 @@ export default {
       "masked": "High costs and weak demand created ____ conditions.",
       "options": [
         "punish-mcq-36",
-        "punish-mcq-35",
-        "punish-mcq-37",
-        "punish-mcq-34",
-        "punish-mcq-38",
-        "punish-mcq-33"
+        "punish-mcq-03",
+        "punish-mcq-07",
+        "punish-mcq-34"
       ],
       "explanation": "本句的「punishing」指「嚴酷條件」。",
       "sentenceIndex": 76,
@@ -3137,12 +2843,10 @@ export default {
         "punishing"
       ],
       "optionReasons": {
-        "punish-mcq-36": "本句指「嚴酷條件」。",
-        "punish-mcq-35": "「極重工作量」與本句語境不同。",
-        "punish-mcq-37": "「極沉重成本」與本句語境不同。",
-        "punish-mcq-34": "「極高強度節奏」與本句語境不同。",
-        "punish-mcq-38": "「不受懲罰地」與本句語境不同。",
-        "punish-mcq-33": "「極繁重日程」與本句語境不同。"
+        "punish-mcq-36": "本句的「punishing」指「嚴酷條件」。",
+        "punish-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-36"
     },
@@ -3154,11 +2858,9 @@ export default {
       "masked": "A returns system should not become a ____ toward genuine customers.",
       "options": [
         "punish-mcq-29",
-        "punish-mcq-28",
-        "punish-mcq-30",
-        "punish-mcq-27",
-        "punish-mcq-31",
-        "punish-mcq-26"
+        "punish-mcq-37",
+        "punish-mcq-16",
+        "punish-pdf-001"
       ],
       "explanation": "本句的「punitive policy」指「懲罰性政策」。",
       "sentenceIndex": 77,
@@ -3167,12 +2869,10 @@ export default {
         "punitive policy"
       ],
       "optionReasons": {
-        "punish-mcq-29": "本句指「懲罰性政策」。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-26": "「懲罰性罰款」與本句語境不同。"
+        "punish-mcq-29": "本句的「punitive policy」指「懲罰性政策」。",
+        "punish-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-29"
     },
@@ -3184,11 +2884,9 @@ export default {
       "masked": "A policy may be described as punitive when its burdens seem designed mainly to ____ rather than solve the problem.",
       "options": [
         "punish-mcq-29",
-        "punish-mcq-28",
-        "punish-mcq-30",
-        "punish-mcq-27",
-        "punish-mcq-31",
-        "punish-mcq-26"
+        "punish-mcq-16",
+        "punish-pdf-005",
+        "punish-pdf-002"
       ],
       "explanation": "本句的「punish」指「懲罰性政策」。",
       "sentenceIndex": 78,
@@ -3197,12 +2895,10 @@ export default {
         "punish"
       ],
       "optionReasons": {
-        "punish-mcq-29": "本句指「懲罰性政策」。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-30": "「懲罰式做法」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-26": "「懲罰性罰款」與本句語境不同。"
+        "punish-mcq-29": "本句的「punish」指「懲罰性政策」。",
+        "punish-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-29"
     },
@@ -3214,11 +2910,9 @@ export default {
       "masked": "A purely ____ may not address the cause of the problem.",
       "options": [
         "punish-mcq-30",
-        "punish-mcq-29",
-        "punish-mcq-31",
-        "punish-mcq-28",
-        "punish-mcq-32",
-        "punish-mcq-27"
+        "punish-mcq-35",
+        "punish-pdf-005",
+        "punish-mcq-07"
       ],
       "explanation": "本句的「punitive approach」指「懲罰式做法」。",
       "sentenceIndex": 79,
@@ -3227,12 +2921,10 @@ export default {
         "punitive approach"
       ],
       "optionReasons": {
-        "punish-mcq-30": "本句指「懲罰式做法」。",
-        "punish-mcq-29": "「懲罰性政策」與本句語境不同。",
-        "punish-mcq-31": "「懲罰性地」與本句語境不同。",
-        "punish-mcq-28": "「懲罰性損害賠償」與本句語境不同。",
-        "punish-mcq-32": "「嚴酷、吃力的」與本句語境不同。",
-        "punish-mcq-27": "「懲罰性收費」與本句語境不同。"
+        "punish-mcq-30": "本句的「punitive approach」指「懲罰式做法」。",
+        "punish-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "punish-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "punish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "punish-mcq-30"
     }
@@ -3244,5 +2936,7 @@ export default {
     "sha256": "1745e247a3e9b64cea2e777b30c0aa46dcc72798c3165d2f272a8d611b23324e",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

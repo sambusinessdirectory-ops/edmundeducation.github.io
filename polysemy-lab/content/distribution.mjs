@@ -324,16 +324,6 @@ export default {
           "The film secured a distribution deal.",
           "這部電影取得了一份發行協議。",
           "電影發行"
-        ],
-        [
-          "The distributor released the film internationally.",
-          "發行商把電影推向國際市場。",
-          "電影發行"
-        ],
-        [
-          "Independent filmmakers often need to find a distributor.",
-          "獨立電影製作人通常需要尋找發行商。",
-          "電影發行"
         ]
       ],
       "options": [],
@@ -700,6 +690,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "distribution-reviewed-cb34845c92",
+      "title": "負責把電影推向戲院、平台和市場的公司",
+      "form": "distribution · source section 17",
+      "en": "負責把電影推向戲院、平台和市場的公司",
+      "zh": "負責把電影推向戲院、平台和市場的公司",
+      "note": "對照原始教材第 17 節及例句核實。",
+      "examples": [
+        [
+          "The distributor released the film internationally.",
+          "發行商把電影推向國際市場。",
+          "負責把電影推向戲院、平台和市場的公司"
+        ],
+        [
+          "Independent filmmakers often need to find a distributor.",
+          "獨立電影製作人通常需要尋找發行商。",
+          "負責把電影推向戲院、平台和市場的公司"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -711,11 +723,8 @@ export default {
       "masked": "One major challenge is the unequal ____.",
       "options": [
         "distribution-mcq-01",
-        "distribution-mcq-02",
-        "distribution-mcq-03",
-        "distribution-mcq-04",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-mcq-09",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution of effort」指「分配」。",
       "sentenceIndex": 0,
@@ -724,12 +733,9 @@ export default {
         "distribution of effort"
       ],
       "optionReasons": {
-        "distribution-mcq-01": "本句指「分配」。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-01": "本句的「distribution of effort」指「分配」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-01"
     },
@@ -741,11 +747,8 @@ export default {
       "masked": "A fair ____ can reduce resentment.",
       "options": [
         "distribution-mcq-01",
-        "distribution-mcq-02",
-        "distribution-mcq-03",
-        "distribution-mcq-04",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution of work」指「分配」。",
       "sentenceIndex": 1,
@@ -754,12 +757,9 @@ export default {
         "distribution of work"
       ],
       "optionReasons": {
-        "distribution-mcq-01": "本句指「分配」。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-01": "本句的「distribution of work」指「分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-01"
     },
@@ -771,11 +771,8 @@ export default {
       "masked": "The manager reviewed the ____ across the team.",
       "options": [
         "distribution-mcq-01",
-        "distribution-mcq-02",
-        "distribution-mcq-03",
-        "distribution-mcq-04",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution of responsibilities」指「分配」。",
       "sentenceIndex": 2,
@@ -784,12 +781,9 @@ export default {
         "distribution of responsibilities"
       ],
       "optionReasons": {
-        "distribution-mcq-01": "本句指「分配」。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-01": "本句的「distribution of responsibilities」指「分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-01"
     },
@@ -801,11 +795,9 @@ export default {
       "masked": "The ____ was clearly unequal.",
       "options": [
         "distribution-mcq-02",
-        "distribution-mcq-01",
-        "distribution-mcq-03",
-        "distribution-mcq-04",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-19"
       ],
       "explanation": "本句的「distribution of effort」指「努力／付出分配」。",
       "sentenceIndex": 3,
@@ -814,12 +806,10 @@ export default {
         "distribution of effort"
       ],
       "optionReasons": {
-        "distribution-mcq-02": "本句指「努力／付出分配」。",
-        "distribution-mcq-01": "「分配」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-02": "本句的「distribution of effort」指「努力／付出分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-02"
     },
@@ -831,11 +821,9 @@ export default {
       "masked": "Better role allocation can improve the ____.",
       "options": [
         "distribution-mcq-02",
-        "distribution-mcq-01",
-        "distribution-mcq-03",
-        "distribution-mcq-04",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-27"
       ],
       "explanation": "本句的「distribution of effort」指「努力／付出分配」。",
       "sentenceIndex": 4,
@@ -844,12 +832,10 @@ export default {
         "distribution of effort"
       ],
       "optionReasons": {
-        "distribution-mcq-02": "本句指「努力／付出分配」。",
-        "distribution-mcq-01": "「分配」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-02": "本句的「distribution of effort」指「努力／付出分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-02"
     },
@@ -861,11 +847,8 @@ export default {
       "masked": "The ____ should be fair.",
       "options": [
         "distribution-mcq-03",
-        "distribution-mcq-02",
-        "distribution-mcq-04",
-        "distribution-mcq-01",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-reviewed-cb34845c92",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distribution of work」指「工作分配」。",
       "sentenceIndex": 5,
@@ -874,12 +857,9 @@ export default {
         "distribution of work"
       ],
       "optionReasons": {
-        "distribution-mcq-03": "本句指「工作分配」。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-01": "「分配」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-03": "本句的「distribution of work」指「工作分配」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-03"
     },
@@ -891,11 +871,8 @@ export default {
       "masked": "Poor ____ left two employees overwhelmed.",
       "options": [
         "distribution-mcq-03",
-        "distribution-mcq-02",
-        "distribution-mcq-04",
-        "distribution-mcq-01",
-        "distribution-mcq-05",
-        "distribution-mcq-06"
+        "distribution-mcq-09",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution of workload」指「工作分配」。",
       "sentenceIndex": 6,
@@ -904,12 +881,9 @@ export default {
         "distribution of workload"
       ],
       "optionReasons": {
-        "distribution-mcq-03": "本句指「工作分配」。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-01": "「分配」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-03": "本句的「distribution of workload」指「工作分配」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-03"
     },
@@ -921,11 +895,8 @@ export default {
       "masked": "The team suffered from an ____.",
       "options": [
         "distribution-mcq-04",
-        "distribution-mcq-03",
-        "distribution-mcq-05",
-        "distribution-mcq-02",
-        "distribution-mcq-06",
-        "distribution-mcq-01"
+        "distribution-mcq-15",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「unequal distribution of responsibilities」指「分配不均」。",
       "sentenceIndex": 7,
@@ -934,12 +905,9 @@ export default {
         "unequal distribution of responsibilities"
       ],
       "optionReasons": {
-        "distribution-mcq-04": "本句指「分配不均」。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-01": "「分配」與本句語境不同。"
+        "distribution-mcq-04": "本句的「unequal distribution of responsibilities」指「分配不均」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-04"
     },
@@ -951,11 +919,8 @@ export default {
       "masked": "There is an ____ between departments.",
       "options": [
         "distribution-mcq-04",
-        "distribution-mcq-03",
-        "distribution-mcq-05",
-        "distribution-mcq-02",
-        "distribution-mcq-06",
-        "distribution-mcq-01"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-09"
       ],
       "explanation": "本句的「uneven distribution of resources」指「分配不均」。",
       "sentenceIndex": 8,
@@ -964,12 +929,9 @@ export default {
         "uneven distribution of resources"
       ],
       "optionReasons": {
-        "distribution-mcq-04": "本句指「分配不均」。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-01": "「分配」與本句語境不同。"
+        "distribution-mcq-04": "本句的「uneven distribution of resources」指「分配不均」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-04"
     },
@@ -981,11 +943,9 @@ export default {
       "masked": "Workers expect a ____.",
       "options": [
         "distribution-mcq-05",
-        "distribution-mcq-04",
-        "distribution-mcq-06",
-        "distribution-mcq-03",
-        "distribution-mcq-07",
-        "distribution-mcq-02"
+        "distribution-pdf-002",
+        "distribution-mcq-15",
+        "distribution-mcq-13"
       ],
       "explanation": "本句的「fair distribution of tasks」指「公平分配」。",
       "sentenceIndex": 9,
@@ -994,12 +954,10 @@ export default {
         "fair distribution of tasks"
       ],
       "optionReasons": {
-        "distribution-mcq-05": "本句指「公平分配」。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。"
+        "distribution-mcq-05": "本句的「fair distribution of tasks」指「公平分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-05"
     },
@@ -1011,11 +969,9 @@ export default {
       "masked": "Equal ____ is not always the same as fair distribution.",
       "options": [
         "distribution-mcq-05",
-        "distribution-mcq-04",
-        "distribution-mcq-06",
-        "distribution-mcq-03",
-        "distribution-mcq-07",
-        "distribution-mcq-02"
+        "distribution-mcq-09",
+        "distribution-mcq-23",
+        "distribution-mcq-14"
       ],
       "explanation": "本句的「distribution」指「公平分配」。",
       "sentenceIndex": 10,
@@ -1024,12 +980,10 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-05": "本句指「公平分配」。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-02": "「努力／付出分配」與本句語境不同。"
+        "distribution-mcq-05": "本句的「distribution」指「公平分配」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-05"
     },
@@ -1041,11 +995,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "distribution-pdf-001",
-        "distribution-mcq-05",
-        "distribution-mcq-07",
-        "distribution-mcq-04",
-        "distribution-mcq-08",
-        "distribution-mcq-03"
+        "distribution-mcq-29",
+        "distribution-mcq-09",
+        "distribution-mcq-14"
       ],
       "explanation": "本句的「distributed the tasks among the team members」指「把 X 分給多個人或群體」。",
       "sentenceIndex": 11,
@@ -1054,12 +1006,10 @@ export default {
         "distributed the tasks among the team members"
       ],
       "optionReasons": {
-        "distribution-pdf-001": "本句指「把 X 分給多個人或群體」。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。"
+        "distribution-pdf-001": "本句的「distributed the tasks among the team members」指「把 X 分給多個人或群體」。",
+        "distribution-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-pdf-001"
     },
@@ -1071,11 +1021,9 @@ export default {
       "masked": "The work was ____.",
       "options": [
         "distribution-pdf-001",
-        "distribution-mcq-05",
-        "distribution-mcq-07",
-        "distribution-mcq-04",
-        "distribution-mcq-08",
-        "distribution-mcq-03"
+        "distribution-mcq-12",
+        "distribution-mcq-09",
+        "distribution-mcq-20"
       ],
       "explanation": "本句的「distributed between the two departments」指「把 X 分給多個人或群體」。",
       "sentenceIndex": 12,
@@ -1084,12 +1032,10 @@ export default {
         "distributed between the two departments"
       ],
       "optionReasons": {
-        "distribution-pdf-001": "本句指「把 X 分給多個人或群體」。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-03": "「工作分配」與本句語境不同。"
+        "distribution-pdf-001": "本句的「distributed between the two departments」指「把 X 分給多個人或群體」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-pdf-001"
     },
@@ -1101,11 +1047,9 @@ export default {
       "masked": "Managers need to ____.",
       "options": [
         "distribution-mcq-07",
-        "distribution-mcq-06",
-        "distribution-mcq-08",
-        "distribution-mcq-05",
+        "distribution-reviewed-cb34845c92",
         "distribution-mcq-09",
-        "distribution-mcq-04"
+        "distribution-mcq-19"
       ],
       "explanation": "本句的「distribute resources carefully」指「分配資源」。",
       "sentenceIndex": 13,
@@ -1114,12 +1058,10 @@ export default {
         "distribute resources carefully"
       ],
       "optionReasons": {
-        "distribution-mcq-07": "本句指「分配資源」。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。"
+        "distribution-mcq-07": "本句的「distribute resources carefully」指「分配資源」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-07"
     },
@@ -1131,11 +1073,9 @@ export default {
       "masked": "The budget was ____.",
       "options": [
         "distribution-mcq-07",
-        "distribution-mcq-06",
-        "distribution-mcq-08",
-        "distribution-mcq-05",
-        "distribution-mcq-09",
-        "distribution-mcq-04"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-13"
       ],
       "explanation": "本句的「distributed across several projects」指「分配資源」。",
       "sentenceIndex": 14,
@@ -1144,12 +1084,10 @@ export default {
         "distributed across several projects"
       ],
       "optionReasons": {
-        "distribution-mcq-07": "本句指「分配資源」。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-04": "「分配不均」與本句語境不同。"
+        "distribution-mcq-07": "本句的「distributed across several projects」指「分配資源」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-07"
     },
@@ -1161,11 +1099,8 @@ export default {
       "masked": "Volunteers helped with the ____.",
       "options": [
         "distribution-mcq-08",
-        "distribution-mcq-07",
-        "distribution-mcq-09",
-        "distribution-mcq-06",
-        "distribution-mcq-10",
-        "distribution-mcq-05"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「distribution of food」指「分發；派發」。",
       "sentenceIndex": 15,
@@ -1174,12 +1109,9 @@ export default {
         "distribution of food"
       ],
       "optionReasons": {
-        "distribution-mcq-08": "本句指「分發；派發」。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。"
+        "distribution-mcq-08": "本句的「distribution of food」指「分發；派發」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-08"
     },
@@ -1191,11 +1123,8 @@ export default {
       "masked": "The organisation manages the ____.",
       "options": [
         "distribution-mcq-08",
-        "distribution-mcq-07",
-        "distribution-mcq-09",
-        "distribution-mcq-06",
-        "distribution-mcq-10",
-        "distribution-mcq-05"
+        "distribution-mcq-12",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution of emergency supplies」指「分發；派發」。",
       "sentenceIndex": 16,
@@ -1204,12 +1133,9 @@ export default {
         "distribution of emergency supplies"
       ],
       "optionReasons": {
-        "distribution-mcq-08": "本句指「分發；派發」。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-05": "「公平分配」與本句語境不同。"
+        "distribution-mcq-08": "本句的「distribution of emergency supplies」指「分發；派發」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-08"
     },
@@ -1221,11 +1147,9 @@ export default {
       "masked": "The centre organised ____ for local families.",
       "options": [
         "distribution-mcq-09",
-        "distribution-mcq-08",
-        "distribution-mcq-10",
-        "distribution-mcq-07",
-        "distribution-mcq-11",
-        "distribution-mcq-06"
+        "distribution-mcq-05",
+        "distribution-mcq-20",
+        "distribution-pdf-001"
       ],
       "explanation": "本句的「food distribution」指「食物派發」。",
       "sentenceIndex": 17,
@@ -1234,12 +1158,10 @@ export default {
         "food distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-09": "本句指「食物派發」。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-09": "本句的「food distribution」指「食物派發」。",
+        "distribution-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-09"
     },
@@ -1251,11 +1173,9 @@ export default {
       "masked": "The storm interrupted the ____.",
       "options": [
         "distribution-mcq-09",
-        "distribution-mcq-08",
-        "distribution-mcq-10",
-        "distribution-mcq-07",
-        "distribution-mcq-11",
-        "distribution-mcq-06"
+        "distribution-mcq-25",
+        "distribution-mcq-13",
+        "distribution-mcq-27"
       ],
       "explanation": "本句的「distribution of aid」指「食物派發」。",
       "sentenceIndex": 18,
@@ -1264,12 +1184,10 @@ export default {
         "distribution of aid"
       ],
       "optionReasons": {
-        "distribution-mcq-09": "本句指「食物派發」。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-mcq-09": "本句的「distribution of aid」指「食物派發」。",
+        "distribution-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-09"
     },
@@ -1281,11 +1199,9 @@ export default {
       "masked": "Staff ____ before the meeting.",
       "options": [
         "distribution-pdf-002",
-        "distribution-mcq-08",
-        "distribution-mcq-10",
-        "distribution-mcq-07",
-        "distribution-mcq-11",
-        "distribution-mcq-06"
+        "distribution-mcq-14",
+        "distribution-mcq-24",
+        "distribution-mcq-27"
       ],
       "explanation": "本句的「distributed the documents」指「把多份 X 派給多個人」。",
       "sentenceIndex": 19,
@@ -1294,12 +1210,10 @@ export default {
         "distributed the documents"
       ],
       "optionReasons": {
-        "distribution-pdf-002": "本句指「把多份 X 派給多個人」。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-pdf-002": "本句的「distributed the documents」指「把多份 X 派給多個人」。",
+        "distribution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-pdf-002"
     },
@@ -1311,11 +1225,9 @@ export default {
       "masked": "Volunteers ____ outside the station.",
       "options": [
         "distribution-pdf-002",
-        "distribution-mcq-08",
-        "distribution-mcq-10",
-        "distribution-mcq-07",
-        "distribution-mcq-11",
-        "distribution-mcq-06"
+        "distribution-mcq-16",
+        "distribution-mcq-12",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distributed leaflets」指「把多份 X 派給多個人」。",
       "sentenceIndex": 20,
@@ -1324,12 +1236,10 @@ export default {
         "distributed leaflets"
       ],
       "optionReasons": {
-        "distribution-pdf-002": "本句指「把多份 X 派給多個人」。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-06": "「分派任務」與本句語境不同。"
+        "distribution-pdf-002": "本句的「distributed leaflets」指「把多份 X 派給多個人」。",
+        "distribution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-pdf-002"
     },
@@ -1341,11 +1251,9 @@ export default {
       "masked": "The company has an efficient ____.",
       "options": [
         "distribution-mcq-10",
-        "distribution-mcq-09",
-        "distribution-mcq-11",
-        "distribution-mcq-08",
-        "distribution-mcq-12",
-        "distribution-mcq-07"
+        "distribution-mcq-15",
+        "distribution-pdf-002",
+        "distribution-mcq-22"
       ],
       "explanation": "本句的「distribution network」指「配送；分銷」。",
       "sentenceIndex": 21,
@@ -1354,12 +1262,10 @@ export default {
         "distribution network"
       ],
       "optionReasons": {
-        "distribution-mcq-10": "本句指「配送；分銷」。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。"
+        "distribution-mcq-10": "本句的「distribution network」指「配送；分銷」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-10"
     },
@@ -1372,10 +1278,8 @@ export default {
       "options": [
         "distribution-mcq-10",
         "distribution-mcq-09",
-        "distribution-mcq-11",
-        "distribution-mcq-08",
-        "distribution-mcq-12",
-        "distribution-mcq-07"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-23"
       ],
       "explanation": "本句的「distribution」指「配送；分銷」。",
       "sentenceIndex": 22,
@@ -1384,12 +1288,10 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-10": "本句指「配送；分銷」。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-07": "「分配資源」與本句語境不同。"
+        "distribution-mcq-10": "本句的「distribution」指「配送；分銷」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-10"
     },
@@ -1401,11 +1303,9 @@ export default {
       "masked": "The company expanded its ____.",
       "options": [
         "distribution-mcq-11",
-        "distribution-mcq-10",
-        "distribution-mcq-12",
-        "distribution-mcq-09",
-        "distribution-mcq-13",
-        "distribution-mcq-08"
+        "distribution-mcq-15",
+        "distribution-pdf-002",
+        "distribution-mcq-19"
       ],
       "explanation": "本句的「distribution network」指「配送／分銷網絡」。",
       "sentenceIndex": 23,
@@ -1414,12 +1314,10 @@ export default {
         "distribution network"
       ],
       "optionReasons": {
-        "distribution-mcq-11": "本句指「配送／分銷網絡」。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。"
+        "distribution-mcq-11": "本句的「distribution network」指「配送／分銷網絡」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-11"
     },
@@ -1431,11 +1329,9 @@ export default {
       "masked": "A strong ____ helps products reach customers quickly.",
       "options": [
         "distribution-mcq-11",
-        "distribution-mcq-10",
-        "distribution-mcq-12",
         "distribution-mcq-09",
-        "distribution-mcq-13",
-        "distribution-mcq-08"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-22"
       ],
       "explanation": "本句的「distribution network」指「配送／分銷網絡」。",
       "sentenceIndex": 24,
@@ -1444,12 +1340,10 @@ export default {
         "distribution network"
       ],
       "optionReasons": {
-        "distribution-mcq-11": "本句指「配送／分銷網絡」。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-08": "「分發；派發」與本句語境不同。"
+        "distribution-mcq-11": "本句的「distribution network」指「配送／分銷網絡」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-11"
     },
@@ -1461,11 +1355,9 @@ export default {
       "masked": "The goods are sent to a regional ____.",
       "options": [
         "distribution-mcq-12",
-        "distribution-mcq-11",
-        "distribution-mcq-13",
-        "distribution-mcq-10",
-        "distribution-mcq-14",
-        "distribution-mcq-09"
+        "distribution-mcq-28",
+        "distribution-mcq-20",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distribution centre」指「配送中心」。",
       "sentenceIndex": 25,
@@ -1474,12 +1366,10 @@ export default {
         "distribution centre"
       ],
       "optionReasons": {
-        "distribution-mcq-12": "本句指「配送中心」。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。"
+        "distribution-mcq-12": "本句的「distribution centre」指「配送中心」。",
+        "distribution-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-12"
     },
@@ -1491,11 +1381,8 @@ export default {
       "masked": "The company opened a new ____.",
       "options": [
         "distribution-mcq-12",
-        "distribution-mcq-11",
-        "distribution-mcq-13",
-        "distribution-mcq-10",
-        "distribution-mcq-14",
-        "distribution-mcq-09"
+        "distribution-mcq-08",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution centre」指「配送中心」。",
       "sentenceIndex": 26,
@@ -1504,12 +1391,9 @@ export default {
         "distribution centre"
       ],
       "optionReasons": {
-        "distribution-mcq-12": "本句指「配送中心」。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-09": "「食物派發」與本句語境不同。"
+        "distribution-mcq-12": "本句的「distribution centre」指「配送中心」。",
+        "distribution-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-12"
     },
@@ -1521,11 +1405,9 @@ export default {
       "masked": "Online sales became an important ____.",
       "options": [
         "distribution-mcq-13",
+        "distribution-mcq-09",
         "distribution-mcq-12",
-        "distribution-mcq-14",
-        "distribution-mcq-11",
-        "distribution-mcq-15",
-        "distribution-mcq-10"
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distribution channel」指「分銷渠道」。",
       "sentenceIndex": 27,
@@ -1534,12 +1416,10 @@ export default {
         "distribution channel"
       ],
       "optionReasons": {
-        "distribution-mcq-13": "本句指「分銷渠道」。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。"
+        "distribution-mcq-13": "本句的「distribution channel」指「分銷渠道」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-13"
     },
@@ -1551,11 +1431,9 @@ export default {
       "masked": "The company uses several ____.",
       "options": [
         "distribution-mcq-13",
-        "distribution-mcq-12",
-        "distribution-mcq-14",
-        "distribution-mcq-11",
+        "distribution-pdf-002",
         "distribution-mcq-15",
-        "distribution-mcq-10"
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「distribution channels」指「分銷渠道」。",
       "sentenceIndex": 28,
@@ -1564,12 +1442,10 @@ export default {
         "distribution channels"
       ],
       "optionReasons": {
-        "distribution-mcq-13": "本句指「分銷渠道」。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-10": "「配送；分銷」與本句語境不同。"
+        "distribution-mcq-13": "本句的「distribution channels」指「分銷渠道」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-13"
     },
@@ -1581,11 +1457,9 @@ export default {
       "masked": "The manufacturer sells through local ____.",
       "options": [
         "distribution-mcq-14",
-        "distribution-mcq-13",
         "distribution-mcq-15",
         "distribution-mcq-12",
-        "distribution-mcq-16",
-        "distribution-mcq-11"
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distributors」指「分銷商；經銷商」。",
       "sentenceIndex": 29,
@@ -1594,12 +1468,10 @@ export default {
         "distributors"
       ],
       "optionReasons": {
-        "distribution-mcq-14": "本句指「分銷商；經銷商」。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。"
+        "distribution-mcq-14": "本句的「distributors」指「分銷商；經銷商」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-14"
     },
@@ -1611,11 +1483,9 @@ export default {
       "masked": "They became the official ____ for the brand.",
       "options": [
         "distribution-mcq-14",
-        "distribution-mcq-13",
         "distribution-mcq-15",
         "distribution-mcq-12",
-        "distribution-mcq-16",
-        "distribution-mcq-11"
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distributor」指「分銷商；經銷商」。",
       "sentenceIndex": 30,
@@ -1624,12 +1494,10 @@ export default {
         "distributor"
       ],
       "optionReasons": {
-        "distribution-mcq-14": "本句指「分銷商；經銷商」。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-11": "「配送／分銷網絡」與本句語境不同。"
+        "distribution-mcq-14": "本句的「distributor」指「分銷商；經銷商」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-14"
     },
@@ -1641,11 +1509,9 @@ export default {
       "masked": "The studio handles international film ____.",
       "options": [
         "distribution-mcq-15",
+        "distribution-mcq-19",
         "distribution-mcq-14",
-        "distribution-mcq-16",
-        "distribution-mcq-13",
-        "distribution-mcq-17",
-        "distribution-mcq-12"
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distribution」指「電影發行」。",
       "sentenceIndex": 31,
@@ -1654,12 +1520,10 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-15": "本句指「電影發行」。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。"
+        "distribution-mcq-15": "本句的「distribution」指「電影發行」。",
+        "distribution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-15"
     },
@@ -1671,11 +1535,9 @@ export default {
       "masked": "The film secured a ____.",
       "options": [
         "distribution-mcq-15",
-        "distribution-mcq-14",
-        "distribution-mcq-16",
-        "distribution-mcq-13",
-        "distribution-mcq-17",
-        "distribution-mcq-12"
+        "distribution-mcq-02",
+        "distribution-pdf-002",
+        "distribution-mcq-13"
       ],
       "explanation": "本句的「distribution deal」指「電影發行」。",
       "sentenceIndex": 32,
@@ -1684,74 +1546,68 @@ export default {
         "distribution deal"
       ],
       "optionReasons": {
-        "distribution-mcq-15": "本句指「電影發行」。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。"
+        "distribution-mcq-15": "本句的「distribution deal」指「電影發行」。",
+        "distribution-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-15"
     },
     {
       "id": "distribution-17-0",
-      "sense": "distribution-mcq-15",
+      "sense": "distribution-reviewed-cb34845c92",
       "en": "The distributor released the film internationally.",
       "zh": "發行商把電影推向國際市場。",
       "masked": "The ____ released the film internationally.",
       "options": [
-        "distribution-mcq-15",
-        "distribution-mcq-14",
-        "distribution-mcq-16",
-        "distribution-mcq-13",
-        "distribution-mcq-17",
-        "distribution-mcq-12"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-07",
+        "distribution-mcq-19",
+        "distribution-pdf-002"
       ],
-      "explanation": "本句的「distributor」指「電影發行」。",
+      "explanation": "對照完整句子：「發行商把電影推向國際市場。」。這裡的「distributor」表示「負責把電影推向戲院、平台和市場的公司」。",
       "sentenceIndex": 33,
       "sourcePractice": 1,
       "targets": [
         "distributor"
       ],
       "optionReasons": {
-        "distribution-mcq-15": "本句指「電影發行」。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。"
+        "distribution-reviewed-cb34845c92": "對照完整句子：「發行商把電影推向國際市場。」。這裡的「distributor」表示「負責把電影推向戲院、平台和市場的公司」。",
+        "distribution-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "distribution-mcq-15"
+      "correctOption": "distribution-reviewed-cb34845c92",
+      "previousCorrectOption": "distribution-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "distribution-17-1",
-      "sense": "distribution-mcq-15",
+      "sense": "distribution-reviewed-cb34845c92",
       "en": "Independent filmmakers often need to find a distributor.",
       "zh": "獨立電影製作人通常需要尋找發行商。",
       "masked": "Independent filmmakers often need to find a ____.",
       "options": [
-        "distribution-mcq-15",
-        "distribution-mcq-14",
-        "distribution-mcq-16",
-        "distribution-mcq-13",
-        "distribution-mcq-17",
-        "distribution-mcq-12"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-12",
+        "distribution-mcq-18",
+        "distribution-mcq-09"
       ],
-      "explanation": "本句的「distributor」指「電影發行」。",
+      "explanation": "對照完整句子：「獨立電影製作人通常需要尋找發行商。」。這裡的「distributor」表示「負責把電影推向戲院、平台和市場的公司」。",
       "sentenceIndex": 34,
       "sourcePractice": 2,
       "targets": [
         "distributor"
       ],
       "optionReasons": {
-        "distribution-mcq-15": "本句指「電影發行」。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-12": "「配送中心」與本句語境不同。"
+        "distribution-reviewed-cb34845c92": "對照完整句子：「獨立電影製作人通常需要尋找發行商。」。這裡的「distributor」表示「負責把電影推向戲院、平台和市場的公司」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "distribution-mcq-15"
+      "correctOption": "distribution-reviewed-cb34845c92",
+      "previousCorrectOption": "distribution-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "distribution-18-0",
@@ -1761,11 +1617,8 @@ export default {
       "masked": "The map shows the ____.",
       "options": [
         "distribution-mcq-16",
-        "distribution-mcq-15",
-        "distribution-mcq-17",
-        "distribution-mcq-14",
-        "distribution-mcq-18",
-        "distribution-mcq-13"
+        "distribution-mcq-29",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distribution of the population」指「分布」。",
       "sentenceIndex": 35,
@@ -1774,12 +1627,9 @@ export default {
         "distribution of the population"
       ],
       "optionReasons": {
-        "distribution-mcq-16": "本句指「分布」。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。"
+        "distribution-mcq-16": "本句的「distribution of the population」指「分布」。",
+        "distribution-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-16"
     },
@@ -1791,11 +1641,8 @@ export default {
       "masked": "Rainfall has an uneven ____ across the region.",
       "options": [
         "distribution-mcq-16",
-        "distribution-mcq-15",
-        "distribution-mcq-17",
-        "distribution-mcq-14",
-        "distribution-mcq-18",
-        "distribution-mcq-13"
+        "distribution-mcq-29",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distribution」指「分布」。",
       "sentenceIndex": 36,
@@ -1804,12 +1651,9 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-16": "本句指「分布」。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-13": "「分銷渠道」與本句語境不同。"
+        "distribution-mcq-16": "本句的「distribution」指「分布」。",
+        "distribution-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-16"
     },
@@ -1821,11 +1665,9 @@ export default {
       "masked": "Geography affects ____.",
       "options": [
         "distribution-mcq-17",
-        "distribution-mcq-16",
-        "distribution-mcq-18",
-        "distribution-mcq-15",
-        "distribution-mcq-19",
-        "distribution-mcq-14"
+        "distribution-reviewed-cb34845c92",
+        "distribution-pdf-002",
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「population distribution」指「人口分布」。",
       "sentenceIndex": 37,
@@ -1834,12 +1676,10 @@ export default {
         "population distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-17": "本句指「人口分布」。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。"
+        "distribution-mcq-17": "本句的「population distribution」指「人口分布」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-17"
     },
@@ -1851,11 +1691,9 @@ export default {
       "masked": "The map illustrates the country's ____.",
       "options": [
         "distribution-mcq-17",
-        "distribution-mcq-16",
-        "distribution-mcq-18",
-        "distribution-mcq-15",
-        "distribution-mcq-19",
-        "distribution-mcq-14"
+        "distribution-mcq-12",
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「population distribution」指「人口分布」。",
       "sentenceIndex": 38,
@@ -1864,12 +1702,10 @@ export default {
         "population distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-17": "本句指「人口分布」。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-14": "「分銷商；經銷商」與本句語境不同。"
+        "distribution-mcq-17": "本句的「population distribution」指「人口分布」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-17"
     },
@@ -1881,11 +1717,8 @@ export default {
       "masked": "Researchers studied the ____ of the species.",
       "options": [
         "distribution-mcq-18",
-        "distribution-mcq-17",
-        "distribution-mcq-19",
-        "distribution-mcq-16",
-        "distribution-mcq-20",
-        "distribution-mcq-15"
+        "distribution-mcq-29",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「geographical distribution」指「地理分布」。",
       "sentenceIndex": 39,
@@ -1894,12 +1727,9 @@ export default {
         "geographical distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-18": "本句指「地理分布」。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。"
+        "distribution-mcq-18": "本句的「geographical distribution」指「地理分布」。",
+        "distribution-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-18"
     },
@@ -1911,11 +1741,9 @@ export default {
       "masked": "The disease has a wide ____.",
       "options": [
         "distribution-mcq-18",
-        "distribution-mcq-17",
-        "distribution-mcq-19",
-        "distribution-mcq-16",
-        "distribution-mcq-20",
-        "distribution-mcq-15"
+        "distribution-pdf-002",
+        "distribution-mcq-15",
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「geographical distribution」指「地理分布」。",
       "sentenceIndex": 40,
@@ -1924,12 +1752,10 @@ export default {
         "geographical distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-18": "本句指「地理分布」。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-15": "「電影發行」與本句語境不同。"
+        "distribution-mcq-18": "本句的「geographical distribution」指「地理分布」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-18"
     },
@@ -1941,11 +1767,9 @@ export default {
       "masked": "The species is ____ across Asia.",
       "options": [
         "distribution-mcq-19",
-        "distribution-mcq-18",
-        "distribution-mcq-20",
-        "distribution-mcq-17",
-        "distribution-mcq-21",
-        "distribution-mcq-16"
+        "distribution-pdf-002",
+        "distribution-mcq-29",
+        "distribution-mcq-13"
       ],
       "explanation": "本句的「widely distributed」指「廣泛分布」。",
       "sentenceIndex": 41,
@@ -1954,12 +1778,10 @@ export default {
         "widely distributed"
       ],
       "optionReasons": {
-        "distribution-mcq-19": "本句指「廣泛分布」。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。"
+        "distribution-mcq-19": "本句的「widely distributed」指「廣泛分布」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-19"
     },
@@ -1971,11 +1793,9 @@ export default {
       "masked": "Offices are ____.",
       "options": [
         "distribution-mcq-19",
-        "distribution-mcq-18",
-        "distribution-mcq-20",
-        "distribution-mcq-17",
-        "distribution-mcq-21",
-        "distribution-mcq-16"
+        "distribution-pdf-002",
+        "distribution-mcq-12",
+        "distribution-mcq-15"
       ],
       "explanation": "本句的「distributed across several cities」指「廣泛分布」。",
       "sentenceIndex": 42,
@@ -1984,12 +1804,10 @@ export default {
         "distributed across several cities"
       ],
       "optionReasons": {
-        "distribution-mcq-19": "本句指「廣泛分布」。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-16": "「分布」與本句語境不同。"
+        "distribution-mcq-19": "本句的「distributed across several cities」指「廣泛分布」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-19"
     },
@@ -2001,11 +1819,9 @@ export default {
       "masked": "The data follow a normal ____.",
       "options": [
         "distribution-mcq-20",
-        "distribution-mcq-19",
-        "distribution-mcq-21",
-        "distribution-mcq-18",
-        "distribution-mcq-22",
-        "distribution-mcq-17"
+        "distribution-mcq-15",
+        "distribution-mcq-12",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「distribution」指「統計分布」。",
       "sentenceIndex": 43,
@@ -2014,12 +1830,10 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-20": "本句指「統計分布」。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。"
+        "distribution-mcq-20": "本句的「distribution」指「統計分布」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-20"
     },
@@ -2031,11 +1845,9 @@ export default {
       "masked": "The graph shows the ____.",
       "options": [
         "distribution-mcq-20",
-        "distribution-mcq-19",
-        "distribution-mcq-21",
-        "distribution-mcq-18",
-        "distribution-mcq-22",
-        "distribution-mcq-17"
+        "distribution-mcq-29",
+        "distribution-mcq-09",
+        "distribution-pdf-001"
       ],
       "explanation": "本句的「distribution of test scores」指「統計分布」。",
       "sentenceIndex": 44,
@@ -2044,12 +1856,10 @@ export default {
         "distribution of test scores"
       ],
       "optionReasons": {
-        "distribution-mcq-20": "本句指「統計分布」。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-17": "「人口分布」與本句語境不同。"
+        "distribution-mcq-20": "本句的「distribution of test scores」指「統計分布」。",
+        "distribution-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-20"
     },
@@ -2061,11 +1871,9 @@ export default {
       "masked": "The table shows the ____ of the scores.",
       "options": [
         "distribution-mcq-21",
-        "distribution-mcq-20",
-        "distribution-mcq-22",
-        "distribution-mcq-19",
-        "distribution-mcq-23",
-        "distribution-mcq-18"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「frequency distribution」指「頻數分布」。",
       "sentenceIndex": 45,
@@ -2074,12 +1882,10 @@ export default {
         "frequency distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-21": "本句指「頻數分布」。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。"
+        "distribution-mcq-21": "本句的「frequency distribution」指「頻數分布」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-21"
     },
@@ -2091,11 +1897,9 @@ export default {
       "masked": "A ____ summarizes how often each value occurs.",
       "options": [
         "distribution-mcq-21",
-        "distribution-mcq-20",
-        "distribution-mcq-22",
-        "distribution-mcq-19",
-        "distribution-mcq-23",
-        "distribution-mcq-18"
+        "distribution-mcq-12",
+        "distribution-reviewed-cb34845c92",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「frequency distribution」指「頻數分布」。",
       "sentenceIndex": 46,
@@ -2104,12 +1908,10 @@ export default {
         "frequency distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-21": "本句指「頻數分布」。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-18": "「地理分布」與本句語境不同。"
+        "distribution-mcq-21": "本句的「frequency distribution」指「頻數分布」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-21"
     },
@@ -2121,11 +1923,9 @@ export default {
       "masked": "The measurements roughly follow a ____.",
       "options": [
         "distribution-mcq-22",
-        "distribution-mcq-21",
-        "distribution-mcq-23",
-        "distribution-mcq-20",
-        "distribution-mcq-24",
-        "distribution-mcq-19"
+        "distribution-mcq-12",
+        "distribution-pdf-002",
+        "distribution-mcq-15"
       ],
       "explanation": "本句的「normal distribution」指「常態／正態分布」。",
       "sentenceIndex": 47,
@@ -2134,12 +1934,10 @@ export default {
         "normal distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-22": "本句指「常態／正態分布」。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。"
+        "distribution-mcq-22": "本句的「normal distribution」指「常態／正態分布」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-22"
     },
@@ -2151,11 +1949,9 @@ export default {
       "masked": "A ____ has a characteristic bell-shaped curve.",
       "options": [
         "distribution-mcq-22",
-        "distribution-mcq-21",
-        "distribution-mcq-23",
-        "distribution-mcq-20",
-        "distribution-mcq-24",
-        "distribution-mcq-19"
+        "distribution-mcq-12",
+        "distribution-mcq-15",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「normal distribution」指「常態／正態分布」。",
       "sentenceIndex": 48,
@@ -2164,12 +1960,10 @@ export default {
         "normal distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-22": "本句指「常態／正態分布」。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-19": "「廣泛分布」與本句語境不同。"
+        "distribution-mcq-22": "本句的「normal distribution」指「常態／正態分布」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-22"
     },
@@ -2181,11 +1975,9 @@ export default {
       "masked": "The model uses a ____.",
       "options": [
         "distribution-mcq-23",
-        "distribution-mcq-22",
-        "distribution-mcq-24",
-        "distribution-mcq-21",
-        "distribution-mcq-25",
-        "distribution-mcq-20"
+        "distribution-mcq-15",
+        "distribution-mcq-12",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「probability distribution」指「機率分布」。",
       "sentenceIndex": 49,
@@ -2194,12 +1986,10 @@ export default {
         "probability distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-23": "本句指「機率分布」。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。"
+        "distribution-mcq-23": "本句的「probability distribution」指「機率分布」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-23"
     },
@@ -2211,11 +2001,9 @@ export default {
       "masked": "A ____ assigns probabilities to possible outcomes.",
       "options": [
         "distribution-mcq-23",
-        "distribution-mcq-22",
-        "distribution-mcq-24",
-        "distribution-mcq-21",
-        "distribution-mcq-25",
-        "distribution-mcq-20"
+        "distribution-mcq-15",
+        "distribution-pdf-002",
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「probability distribution」指「機率分布」。",
       "sentenceIndex": 50,
@@ -2224,12 +2012,10 @@ export default {
         "probability distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-23": "本句指「機率分布」。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-20": "「統計分布」與本句語境不同。"
+        "distribution-mcq-23": "本句的「probability distribution」指「機率分布」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-23"
     },
@@ -2241,11 +2027,9 @@ export default {
       "masked": "The report examines income ____.",
       "options": [
         "distribution-mcq-24",
-        "distribution-mcq-23",
-        "distribution-mcq-25",
-        "distribution-mcq-22",
-        "distribution-mcq-26",
-        "distribution-mcq-21"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-27"
       ],
       "explanation": "本句的「distribution」指「收入分配」。",
       "sentenceIndex": 51,
@@ -2254,12 +2038,10 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-24": "本句指「收入分配」。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。"
+        "distribution-mcq-24": "本句的「distribution」指「收入分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-24"
     },
@@ -2271,11 +2053,9 @@ export default {
       "masked": "The country has a highly unequal ____.",
       "options": [
         "distribution-mcq-24",
-        "distribution-mcq-23",
-        "distribution-mcq-25",
-        "distribution-mcq-22",
-        "distribution-mcq-26",
-        "distribution-mcq-21"
+        "distribution-mcq-15",
+        "distribution-pdf-002",
+        "distribution-mcq-23"
       ],
       "explanation": "本句的「distribution of wealth」指「收入分配」。",
       "sentenceIndex": 52,
@@ -2284,12 +2064,10 @@ export default {
         "distribution of wealth"
       ],
       "optionReasons": {
-        "distribution-mcq-24": "本句指「收入分配」。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。"
+        "distribution-mcq-24": "本句的「distribution of wealth」指「收入分配」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-24"
     },
@@ -2301,11 +2079,9 @@ export default {
       "masked": "Tax policy can affect ____.",
       "options": [
         "distribution-mcq-24",
-        "distribution-mcq-23",
-        "distribution-mcq-25",
-        "distribution-mcq-22",
-        "distribution-mcq-26",
-        "distribution-mcq-21"
+        "distribution-mcq-15",
+        "distribution-pdf-002",
+        "distribution-mcq-27"
       ],
       "explanation": "本句的「income distribution」指「收入分配」。",
       "sentenceIndex": 53,
@@ -2314,12 +2090,10 @@ export default {
         "income distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-24": "本句指「收入分配」。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。"
+        "distribution-mcq-24": "本句的「income distribution」指「收入分配」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-24"
     },
@@ -2331,11 +2105,9 @@ export default {
       "masked": "The study compared ____ across regions.",
       "options": [
         "distribution-mcq-24",
-        "distribution-mcq-23",
-        "distribution-mcq-25",
-        "distribution-mcq-22",
-        "distribution-mcq-26",
-        "distribution-mcq-21"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-14"
       ],
       "explanation": "本句的「income distribution」指「收入分配」。",
       "sentenceIndex": 54,
@@ -2344,12 +2116,10 @@ export default {
         "income distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-24": "本句指「收入分配」。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-21": "「頻數分布」與本句語境不同。"
+        "distribution-mcq-24": "本句的「income distribution」指「收入分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-24"
     },
@@ -2361,11 +2131,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "distribution-mcq-25",
-        "distribution-mcq-24",
-        "distribution-mcq-26",
-        "distribution-mcq-23",
-        "distribution-mcq-27",
-        "distribution-mcq-22"
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-20"
       ],
       "explanation": "本句的「redistributed the workload」指「重新分配」。",
       "sentenceIndex": 55,
@@ -2374,12 +2142,10 @@ export default {
         "redistributed the workload"
       ],
       "optionReasons": {
-        "distribution-mcq-25": "本句指「重新分配」。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。"
+        "distribution-mcq-25": "本句的「redistributed the workload」指「重新分配」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-25"
     },
@@ -2391,11 +2157,9 @@ export default {
       "masked": "Resources were ____.",
       "options": [
         "distribution-mcq-25",
-        "distribution-mcq-24",
-        "distribution-mcq-26",
-        "distribution-mcq-23",
-        "distribution-mcq-27",
-        "distribution-mcq-22"
+        "distribution-reviewed-cb34845c92",
+        "distribution-pdf-002",
+        "distribution-mcq-21"
       ],
       "explanation": "本句的「redistributed across departments」指「重新分配」。",
       "sentenceIndex": 56,
@@ -2404,12 +2168,10 @@ export default {
         "redistributed across departments"
       ],
       "optionReasons": {
-        "distribution-mcq-25": "本句指「重新分配」。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-22": "「常態／正態分布」與本句語境不同。"
+        "distribution-mcq-25": "本句的「redistributed across departments」指「重新分配」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-25"
     },
@@ -2421,11 +2183,8 @@ export default {
       "masked": "The ____ made the workload fairer.",
       "options": [
         "distribution-mcq-26",
-        "distribution-mcq-25",
-        "distribution-mcq-27",
-        "distribution-mcq-24",
-        "distribution-mcq-28",
-        "distribution-mcq-23"
+        "distribution-mcq-15",
+        "distribution-pdf-002"
       ],
       "explanation": "本句的「redistribution of tasks」指「再分配」。",
       "sentenceIndex": 57,
@@ -2434,12 +2193,9 @@ export default {
         "redistribution of tasks"
       ],
       "optionReasons": {
-        "distribution-mcq-26": "本句指「再分配」。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-28": "「分散式／異地團隊」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。"
+        "distribution-mcq-26": "本句的「redistribution of tasks」指「再分配」。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-26"
     },
@@ -2451,11 +2207,8 @@ export default {
       "masked": "The policy led to a ____.",
       "options": [
         "distribution-mcq-26",
-        "distribution-mcq-25",
-        "distribution-mcq-27",
-        "distribution-mcq-24",
-        "distribution-mcq-28",
-        "distribution-mcq-23"
+        "distribution-reviewed-cb34845c92",
+        "distribution-mcq-09"
       ],
       "explanation": "本句的「redistribution of resources」指「再分配」。",
       "sentenceIndex": 58,
@@ -2464,12 +2217,9 @@ export default {
         "redistribution of resources"
       ],
       "optionReasons": {
-        "distribution-mcq-26": "本句指「再分配」。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。",
-        "distribution-mcq-28": "「分散式／異地團隊」與本句語境不同。",
-        "distribution-mcq-23": "「機率分布」與本句語境不同。"
+        "distribution-mcq-26": "本句的「redistribution of resources」指「再分配」。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-26"
     },
@@ -2481,11 +2231,9 @@ export default {
       "masked": "The service runs on a ____.",
       "options": [
         "distribution-mcq-27",
-        "distribution-mcq-26",
-        "distribution-mcq-28",
-        "distribution-mcq-25",
-        "distribution-mcq-29",
-        "distribution-mcq-24"
+        "distribution-mcq-09",
+        "distribution-mcq-12",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「distributed system」指「分布式系統」。",
       "sentenceIndex": 59,
@@ -2494,12 +2242,10 @@ export default {
         "distributed system"
       ],
       "optionReasons": {
-        "distribution-mcq-27": "本句指「分布式系統」。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-28": "「分散式／異地團隊」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-29": "「配電」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。"
+        "distribution-mcq-27": "本句的「distributed system」指「分布式系統」。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-27"
     },
@@ -2511,11 +2257,9 @@ export default {
       "masked": "____ uses multiple connected computers.",
       "options": [
         "distribution-mcq-27",
-        "distribution-mcq-26",
-        "distribution-mcq-28",
-        "distribution-mcq-25",
-        "distribution-mcq-29",
-        "distribution-mcq-24"
+        "distribution-mcq-12",
+        "distribution-pdf-002",
+        "distribution-reviewed-cb34845c92"
       ],
       "explanation": "本句的「Distributed computing」指「分布式系統」。",
       "sentenceIndex": 60,
@@ -2524,12 +2268,10 @@ export default {
         "Distributed computing"
       ],
       "optionReasons": {
-        "distribution-mcq-27": "本句指「分布式系統」。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-28": "「分散式／異地團隊」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-29": "「配電」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。"
+        "distribution-mcq-27": "本句的「Distributed computing」指「分布式系統」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-reviewed-cb34845c92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-27"
     },
@@ -2541,11 +2283,9 @@ export default {
       "masked": "Managing a ____ requires clear communication.",
       "options": [
         "distribution-mcq-28",
-        "distribution-mcq-27",
-        "distribution-mcq-29",
-        "distribution-mcq-26",
-        "distribution-mcq-25",
-        "distribution-mcq-24"
+        "distribution-mcq-12",
+        "distribution-mcq-09",
+        "distribution-mcq-21"
       ],
       "explanation": "本句的「distributed team」指「分散式／異地團隊」。",
       "sentenceIndex": 61,
@@ -2554,12 +2294,10 @@ export default {
         "distributed team"
       ],
       "optionReasons": {
-        "distribution-mcq-28": "本句指「分散式／異地團隊」。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-29": "「配電」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。"
+        "distribution-mcq-28": "本句的「distributed team」指「分散式／異地團隊」。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-28"
     },
@@ -2571,11 +2309,9 @@ export default {
       "masked": "The company has a globally ____.",
       "options": [
         "distribution-mcq-28",
-        "distribution-mcq-27",
-        "distribution-mcq-29",
-        "distribution-mcq-26",
-        "distribution-mcq-25",
-        "distribution-mcq-24"
+        "distribution-pdf-002",
+        "distribution-mcq-15",
+        "distribution-mcq-12"
       ],
       "explanation": "本句的「distributed workforce」指「分散式／異地團隊」。",
       "sentenceIndex": 62,
@@ -2584,12 +2320,10 @@ export default {
         "distributed workforce"
       ],
       "optionReasons": {
-        "distribution-mcq-28": "本句指「分散式／異地團隊」。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-29": "「配電」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。"
+        "distribution-mcq-28": "本句的「distributed workforce」指「分散式／異地團隊」。",
+        "distribution-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-28"
     },
@@ -2601,11 +2335,9 @@ export default {
       "masked": "The storm damaged the electricity ____.",
       "options": [
         "distribution-mcq-29",
-        "distribution-mcq-28",
-        "distribution-mcq-27",
-        "distribution-mcq-26",
-        "distribution-mcq-25",
-        "distribution-mcq-24"
+        "distribution-mcq-21",
+        "distribution-mcq-14",
+        "distribution-mcq-28"
       ],
       "explanation": "本句的「distribution network」指「配電」。",
       "sentenceIndex": 63,
@@ -2614,12 +2346,10 @@ export default {
         "distribution network"
       ],
       "optionReasons": {
-        "distribution-mcq-29": "本句指「配電」。",
-        "distribution-mcq-28": "「分散式／異地團隊」與本句語境不同。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。"
+        "distribution-mcq-29": "本句的「distribution network」指「配電」。",
+        "distribution-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "distribution-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-29"
     },
@@ -2631,11 +2361,7 @@ export default {
       "masked": "Power ____ is managed through local networks.",
       "options": [
         "distribution-mcq-29",
-        "distribution-mcq-28",
-        "distribution-mcq-27",
-        "distribution-mcq-26",
-        "distribution-mcq-25",
-        "distribution-mcq-24"
+        "distribution-mcq-08"
       ],
       "explanation": "本句的「distribution」指「配電」。",
       "sentenceIndex": 64,
@@ -2644,12 +2370,8 @@ export default {
         "distribution"
       ],
       "optionReasons": {
-        "distribution-mcq-29": "本句指「配電」。",
-        "distribution-mcq-28": "「分散式／異地團隊」與本句語境不同。",
-        "distribution-mcq-27": "「分布式系統」與本句語境不同。",
-        "distribution-mcq-26": "「再分配」與本句語境不同。",
-        "distribution-mcq-25": "「重新分配」與本句語境不同。",
-        "distribution-mcq-24": "「收入分配」與本句語境不同。"
+        "distribution-mcq-29": "本句的「distribution」指「配電」。",
+        "distribution-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "distribution-mcq-29"
     }
@@ -2661,5 +2383,7 @@ export default {
     "sha256": "0ce244d186163fe58446a9f61311c57ff67ef65fa11809953a9121a5e53624df",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

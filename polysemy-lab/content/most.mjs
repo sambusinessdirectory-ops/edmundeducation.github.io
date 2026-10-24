@@ -323,11 +323,9 @@ export default {
       "masked": "____ need light.",
       "options": [
         "most-mcq-01",
-        "most-mcq-02",
-        "most-mcq-03",
-        "most-mcq-04",
-        "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-pdf-001"
       ],
       "explanation": "本句的「Most plants」指「某類可數人／事物整體中的大多數」。",
       "sentenceIndex": 0,
@@ -336,12 +334,10 @@ export default {
         "Most plants"
       ],
       "optionReasons": {
-        "most-mcq-01": "本句指「某類可數人／事物整體中的大多數」。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-01": "本句的「Most plants」指「某類可數人／事物整體中的大多數」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-01"
     },
@@ -353,11 +349,9 @@ export default {
       "masked": "____ people enjoy some form of music.",
       "options": [
         "most-mcq-01",
-        "most-mcq-02",
-        "most-mcq-03",
-        "most-mcq-04",
-        "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-pdf-001"
       ],
       "explanation": "本句的「Most」指「某類可數人／事物整體中的大多數」。",
       "sentenceIndex": 1,
@@ -366,12 +360,10 @@ export default {
         "Most"
       ],
       "optionReasons": {
-        "most-mcq-01": "本句指「某類可數人／事物整體中的大多數」。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-01": "本句的「Most」指「某類可數人／事物整體中的大多數」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-01"
     },
@@ -383,11 +375,9 @@ export default {
       "masked": "____ on Earth is salty.",
       "options": [
         "most-mcq-02",
-        "most-mcq-01",
-        "most-mcq-03",
-        "most-mcq-04",
-        "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「Most water」指「某類不可數事物中的大部分」。",
       "sentenceIndex": 2,
@@ -396,12 +386,10 @@ export default {
         "Most water"
       ],
       "optionReasons": {
-        "most-mcq-02": "本句指「某類不可數事物中的大部分」。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-02": "本句的「Most water」指「某類不可數事物中的大部分」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-02"
     },
@@ -413,11 +401,9 @@ export default {
       "masked": "____ information is now stored digitally.",
       "options": [
         "most-mcq-02",
-        "most-mcq-01",
-        "most-mcq-03",
-        "most-mcq-04",
-        "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「Most」指「某類不可數事物中的大部分」。",
       "sentenceIndex": 3,
@@ -426,12 +412,10 @@ export default {
         "Most"
       ],
       "optionReasons": {
-        "most-mcq-02": "本句指「某類不可數事物中的大部分」。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-02": "本句的「Most」指「某類不可數事物中的大部分」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-02"
     },
@@ -443,11 +427,9 @@ export default {
       "masked": "____ are grown on the rooftop.",
       "options": [
         "most-mcq-03",
-        "most-mcq-02",
-        "most-mcq-04",
-        "most-mcq-01",
-        "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-07",
+        "most-mcq-09",
+        "most-mcq-11"
       ],
       "explanation": "本句的「Most of these plants」指「某個已限定群體／事物中的大部分」。",
       "sentenceIndex": 4,
@@ -456,12 +438,10 @@ export default {
         "Most of these plants"
       ],
       "optionReasons": {
-        "most-mcq-03": "本句指「某個已限定群體／事物中的大部分」。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-03": "本句的「Most of these plants」指「某個已限定群體／事物中的大部分」。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-03"
     },
@@ -473,11 +453,9 @@ export default {
       "masked": "____ of my friends live nearby.",
       "options": [
         "most-mcq-03",
-        "most-mcq-02",
-        "most-mcq-04",
-        "most-mcq-01",
-        "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「Most」指「某個已限定群體／事物中的大部分」。",
       "sentenceIndex": 5,
@@ -486,12 +464,10 @@ export default {
         "Most"
       ],
       "optionReasons": {
-        "most-mcq-03": "本句指「某個已限定群體／事物中的大部分」。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-03": "本句的「Most」指「某個已限定群體／事物中的大部分」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-03"
     },
@@ -503,11 +479,9 @@ export default {
       "masked": "____ of them were ready.",
       "options": [
         "most-mcq-03",
-        "most-mcq-02",
-        "most-mcq-04",
-        "most-mcq-01",
+        "most-mcq-07",
         "most-mcq-05",
-        "most-mcq-06"
+        "most-mcq-11"
       ],
       "explanation": "本句的「Most」指「某個已限定群體／事物中的大部分」。",
       "sentenceIndex": 6,
@@ -516,12 +490,10 @@ export default {
         "Most"
       ],
       "optionReasons": {
-        "most-mcq-03": "本句指「某個已限定群體／事物中的大部分」。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-03": "本句的「Most」指「某個已限定群體／事物中的大部分」。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-03"
     },
@@ -533,11 +505,9 @@ export default {
       "masked": "Some plants need shade, but ____ prefer sunlight.",
       "options": [
         "most-mcq-04",
-        "most-mcq-03",
-        "most-mcq-05",
-        "most-mcq-02",
         "most-mcq-06",
-        "most-mcq-01"
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「most」指「已知群體中的大多數人／事物」。",
       "sentenceIndex": 7,
@@ -546,12 +516,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-04": "本句指「已知群體中的大多數人／事物」。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。"
+        "most-mcq-04": "本句的「most」指「已知群體中的大多數人／事物」。",
+        "most-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-04"
     },
@@ -563,11 +531,9 @@ export default {
       "masked": "____ were satisfied with the result.",
       "options": [
         "most-mcq-04",
-        "most-mcq-03",
-        "most-mcq-05",
-        "most-mcq-02",
-        "most-mcq-06",
-        "most-mcq-01"
+        "most-mcq-07",
+        "most-mcq-08",
+        "most-mcq-11"
       ],
       "explanation": "本句的「Most」指「已知群體中的大多數人／事物」。",
       "sentenceIndex": 8,
@@ -576,12 +542,10 @@ export default {
         "Most"
       ],
       "optionReasons": {
-        "most-mcq-04": "本句指「已知群體中的大多數人／事物」。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-01": "「某類可數人／事物整體中的大多數」與本句語境不同。"
+        "most-mcq-04": "本句的「Most」指「已知群體中的大多數人／事物」。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-04"
     },
@@ -593,11 +557,9 @@ export default {
       "masked": "Which plant needs the ____ water?",
       "options": [
         "most-mcq-05",
-        "most-mcq-04",
-        "most-mcq-06",
-        "most-mcq-03",
         "most-mcq-07",
-        "most-mcq-02"
+        "most-pdf-001",
+        "most-mcq-01"
       ],
       "explanation": "本句的「most」指「數量、程度或份量最高；最多」。",
       "sentenceIndex": 9,
@@ -606,12 +568,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-05": "本句指「數量、程度或份量最高；最多」。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。"
+        "most-mcq-05": "本句的「most」指「數量、程度或份量最高；最多」。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-05"
     },
@@ -623,11 +583,9 @@ export default {
       "masked": "She spends ____ on gardening supplies.",
       "options": [
         "most-mcq-05",
-        "most-mcq-04",
-        "most-mcq-06",
         "most-mcq-03",
         "most-mcq-07",
-        "most-mcq-02"
+        "most-mcq-11"
       ],
       "explanation": "本句的「most」指「數量、程度或份量最高；最多」。",
       "sentenceIndex": 10,
@@ -636,12 +594,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-05": "本句指「數量、程度或份量最高；最多」。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-02": "「某類不可數事物中的大部分」與本句語境不同。"
+        "most-mcq-05": "本句的「most」指「數量、程度或份量最高；最多」。",
+        "most-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-05"
     },
@@ -653,11 +609,9 @@ export default {
       "masked": "This is the ____ flower in the garden.",
       "options": [
         "most-mcq-06",
-        "most-mcq-05",
-        "most-mcq-07",
-        "most-mcq-04",
-        "most-mcq-08",
-        "most-mcq-03"
+        "most-pdf-001",
+        "most-mcq-01",
+        "most-mcq-07"
       ],
       "explanation": "本句的「most beautiful」指「在比較範圍中程度最高；最……」。",
       "sentenceIndex": 11,
@@ -666,12 +620,10 @@ export default {
         "most beautiful"
       ],
       "optionReasons": {
-        "most-mcq-06": "本句指「在比較範圍中程度最高；最……」。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。"
+        "most-mcq-06": "本句的「most beautiful」指「在比較範圍中程度最高；最……」。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-06"
     },
@@ -683,11 +635,9 @@ export default {
       "masked": "She works ____ with young plants.",
       "options": [
         "most-mcq-06",
-        "most-mcq-05",
-        "most-mcq-07",
         "most-mcq-04",
-        "most-mcq-08",
-        "most-mcq-03"
+        "most-mcq-07",
+        "most-pdf-001"
       ],
       "explanation": "本句的「most carefully」指「在比較範圍中程度最高；最……」。",
       "sentenceIndex": 12,
@@ -696,12 +646,10 @@ export default {
         "most carefully"
       ],
       "optionReasons": {
-        "most-mcq-06": "本句指「在比較範圍中程度最高；最……」。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-03": "「某個已限定群體／事物中的大部分」與本句語境不同。"
+        "most-mcq-06": "本句的「most carefully」指「在比較範圍中程度最高；最……」。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-06"
     },
@@ -713,10 +661,8 @@ export default {
       "masked": "That was a ____ talk.",
       "options": [
         "most-mcq-07",
-        "most-mcq-06",
         "most-mcq-08",
-        "most-mcq-05",
-        "most-mcq-09",
+        "most-pdf-001",
         "most-mcq-04"
       ],
       "explanation": "本句的「most interesting」指「非常、極其」。",
@@ -726,12 +672,10 @@ export default {
         "most interesting"
       ],
       "optionReasons": {
-        "most-mcq-07": "本句指「非常、極其」。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。"
+        "most-mcq-07": "本句的「most interesting」指「非常、極其」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-07"
     },
@@ -743,11 +687,9 @@ export default {
       "masked": "She was ____ helpful.",
       "options": [
         "most-mcq-07",
-        "most-mcq-06",
-        "most-mcq-08",
         "most-mcq-05",
-        "most-mcq-09",
-        "most-mcq-04"
+        "most-mcq-04",
+        "most-pdf-001"
       ],
       "explanation": "本句的「most」指「非常、極其」。",
       "sentenceIndex": 14,
@@ -756,12 +698,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-07": "本句指「非常、極其」。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-04": "「已知群體中的大多數人／事物」與本句語境不同。"
+        "most-mcq-07": "本句的「most」指「非常、極其」。",
+        "most-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-07"
     },
@@ -773,11 +713,9 @@ export default {
       "masked": "What I value ____ is honesty.",
       "options": [
         "most-mcq-08",
+        "most-mcq-02",
         "most-mcq-07",
-        "most-mcq-09",
-        "most-mcq-06",
-        "most-mcq-10",
-        "most-mcq-05"
+        "most-mcq-11"
       ],
       "explanation": "本句的「most」指「在程度上最高；最」。",
       "sentenceIndex": 15,
@@ -786,12 +724,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-08": "本句指「在程度上最高；最」。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。"
+        "most-mcq-08": "本句的「most」指「在程度上最高；最」。",
+        "most-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-08"
     },
@@ -803,11 +739,9 @@ export default {
       "masked": "She enjoys gardening ____ in spring.",
       "options": [
         "most-mcq-08",
+        "most-mcq-02",
         "most-mcq-07",
-        "most-mcq-09",
-        "most-mcq-06",
-        "most-mcq-10",
-        "most-mcq-05"
+        "most-mcq-11"
       ],
       "explanation": "本句的「most」指「在程度上最高；最」。",
       "sentenceIndex": 16,
@@ -816,12 +750,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-08": "本句指「在程度上最高；最」。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-05": "「數量、程度或份量最高；最多」與本句語境不同。"
+        "most-mcq-08": "本句的「most」指「在程度上最高；最」。",
+        "most-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-08"
     },
@@ -833,11 +765,9 @@ export default {
       "masked": "The task will take two hours ____.",
       "options": [
         "most-mcq-09",
-        "most-mcq-08",
-        "most-mcq-10",
+        "most-mcq-03",
         "most-mcq-07",
-        "most-mcq-11",
-        "most-mcq-06"
+        "most-mcq-11"
       ],
       "explanation": "本句的「at most」指「不超過某個數量／程度；至多」。",
       "sentenceIndex": 19,
@@ -846,12 +776,10 @@ export default {
         "at most"
       ],
       "optionReasons": {
-        "most-mcq-09": "本句指「不超過某個數量／程度；至多」。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-09": "本句的「at most」指「不超過某個數量／程度；至多」。",
+        "most-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-09"
     },
@@ -863,11 +791,9 @@ export default {
       "masked": "There were twenty people at ____.",
       "options": [
         "most-mcq-09",
-        "most-mcq-08",
-        "most-mcq-10",
+        "most-pdf-001",
         "most-mcq-07",
-        "most-mcq-11",
-        "most-mcq-06"
+        "most-mcq-11"
       ],
       "explanation": "本句的「most」指「不超過某個數量／程度；至多」。",
       "sentenceIndex": 20,
@@ -876,12 +802,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-09": "本句指「不超過某個數量／程度；至多」。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-06": "「在比較範圍中程度最高；最……」與本句語境不同。"
+        "most-mcq-09": "本句的「most」指「不超過某個數量／程度；至多」。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-09"
     },
@@ -893,11 +817,9 @@ export default {
       "masked": "The plants are, ____, healthy.",
       "options": [
         "most-mcq-10",
-        "most-mcq-09",
-        "most-mcq-11",
         "most-mcq-08",
-        "most-mcq-12",
-        "most-mcq-07"
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「for the most part」指「大部分情況下；大體而言」。",
       "sentenceIndex": 21,
@@ -906,12 +828,10 @@ export default {
         "for the most part"
       ],
       "optionReasons": {
-        "most-mcq-10": "本句指「大部分情況下；大體而言」。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-12": "「主要地；大部分情況下；多數由……構成」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。"
+        "most-mcq-10": "本句的「for the most part」指「大部分情況下；大體而言」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-10"
     },
@@ -923,11 +843,9 @@ export default {
       "masked": "The project was successful for the ____ part.",
       "options": [
         "most-mcq-10",
-        "most-mcq-09",
-        "most-mcq-11",
-        "most-mcq-08",
-        "most-mcq-12",
-        "most-mcq-07"
+        "most-mcq-05",
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「most」指「大部分情況下；大體而言」。",
       "sentenceIndex": 22,
@@ -936,12 +854,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-10": "本句指「大部分情況下；大體而言」。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。",
-        "most-mcq-12": "「主要地；大部分情況下；多數由……構成」與本句語境不同。",
-        "most-mcq-07": "「非常、極其」與本句語境不同。"
+        "most-mcq-10": "本句的「most」指「大部分情況下；大體而言」。",
+        "most-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-10"
     },
@@ -953,11 +869,9 @@ export default {
       "masked": "She ____ the small balcony.",
       "options": [
         "most-mcq-11",
-        "most-mcq-10",
-        "most-mcq-12",
-        "most-mcq-09",
-        "most-mcq-13",
-        "most-mcq-08"
+        "most-mcq-06",
+        "most-mcq-04",
+        "most-mcq-07"
       ],
       "explanation": "本句的「made the most of」指「把某個機會、資源或條件盡量充分利用」。",
       "sentenceIndex": 23,
@@ -966,12 +880,10 @@ export default {
         "made the most of"
       ],
       "optionReasons": {
-        "most-mcq-11": "本句指「把某個機會、資源或條件盡量充分利用」。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-12": "「主要地；大部分情況下；多數由……構成」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-mcq-11": "本句的「made the most of」指「把某個機會、資源或條件盡量充分利用」。",
+        "most-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-11"
     },
@@ -983,11 +895,9 @@ export default {
       "masked": "We should make the ____ of our time.",
       "options": [
         "most-mcq-11",
-        "most-mcq-10",
-        "most-mcq-12",
-        "most-mcq-09",
-        "most-mcq-13",
-        "most-mcq-08"
+        "most-mcq-06",
+        "most-mcq-04",
+        "most-mcq-07"
       ],
       "explanation": "本句的「most」指「把某個機會、資源或條件盡量充分利用」。",
       "sentenceIndex": 24,
@@ -996,12 +906,10 @@ export default {
         "most"
       ],
       "optionReasons": {
-        "most-mcq-11": "本句指「把某個機會、資源或條件盡量充分利用」。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-12": "「主要地；大部分情況下；多數由……構成」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-mcq-11": "本句的「most」指「把某個機會、資源或條件盡量充分利用」。",
+        "most-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-11"
     },
@@ -1013,11 +921,9 @@ export default {
       "masked": "The garden is ____ used for vegetables.",
       "options": [
         "most-mcq-12",
-        "most-mcq-11",
-        "most-mcq-13",
-        "most-mcq-10",
-        "most-mcq-09",
-        "most-mcq-08"
+        "most-mcq-06",
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「mostly」指「主要地；大部分情況下；多數由……構成」。",
       "sentenceIndex": 25,
@@ -1026,12 +932,10 @@ export default {
         "mostly"
       ],
       "optionReasons": {
-        "most-mcq-12": "本句指「主要地；大部分情況下；多數由……構成」。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-mcq-12": "本句的「mostly」指「主要地；大部分情況下；多數由……構成」。",
+        "most-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-12"
     },
@@ -1043,11 +947,9 @@ export default {
       "masked": "The audience was ____ young people.",
       "options": [
         "most-mcq-12",
-        "most-mcq-11",
-        "most-mcq-13",
-        "most-mcq-10",
-        "most-mcq-09",
-        "most-mcq-08"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-mcq-11"
       ],
       "explanation": "本句的「mostly」指「主要地；大部分情況下；多數由……構成」。",
       "sentenceIndex": 26,
@@ -1056,12 +958,10 @@ export default {
         "mostly"
       ],
       "optionReasons": {
-        "most-mcq-12": "本句指「主要地；大部分情況下；多數由……構成」。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-mcq-12": "本句的「mostly」指「主要地；大部分情況下；多數由……構成」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-12"
     },
@@ -1073,11 +973,9 @@ export default {
       "masked": "The sky was ____ clear.",
       "options": [
         "most-pdf-001",
-        "most-mcq-11",
-        "most-mcq-13",
-        "most-mcq-10",
-        "most-mcq-09",
-        "most-mcq-08"
+        "most-mcq-08",
+        "most-mcq-07",
+        "most-mcq-04"
       ],
       "explanation": "本句的「mostly」指「某狀況佔絕大部分，但不是百分之百」。",
       "sentenceIndex": 27,
@@ -1086,12 +984,10 @@ export default {
         "mostly"
       ],
       "optionReasons": {
-        "most-pdf-001": "本句指「某狀況佔絕大部分，但不是百分之百」。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-pdf-001": "本句的「mostly」指「某狀況佔絕大部分，但不是百分之百」。",
+        "most-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-pdf-001"
     },
@@ -1103,11 +999,9 @@ export default {
       "masked": "The soil is ____ dry.",
       "options": [
         "most-pdf-001",
-        "most-mcq-11",
-        "most-mcq-13",
-        "most-mcq-10",
         "most-mcq-09",
-        "most-mcq-08"
+        "most-mcq-07",
+        "most-mcq-04"
       ],
       "explanation": "本句的「mostly」指「某狀況佔絕大部分，但不是百分之百」。",
       "sentenceIndex": 28,
@@ -1116,12 +1010,10 @@ export default {
         "mostly"
       ],
       "optionReasons": {
-        "most-pdf-001": "本句指「某狀況佔絕大部分，但不是百分之百」。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-13": "「可能達到的最大程度／最高限度」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-pdf-001": "本句的「mostly」指「某狀況佔絕大部分，但不是百分之百」。",
+        "most-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-pdf-001"
     },
@@ -1133,11 +1025,9 @@ export default {
       "masked": "The plants were handled with the ____.",
       "options": [
         "most-mcq-13",
-        "most-mcq-12",
-        "most-mcq-11",
-        "most-mcq-10",
-        "most-mcq-09",
-        "most-mcq-08"
+        "most-mcq-07",
+        "most-pdf-001",
+        "most-mcq-04"
       ],
       "explanation": "本句的「utmost care」指「可能達到的最大程度／最高限度」。",
       "sentenceIndex": 29,
@@ -1146,12 +1036,10 @@ export default {
         "utmost care"
       ],
       "optionReasons": {
-        "most-mcq-13": "本句指「可能達到的最大程度／最高限度」。",
-        "most-mcq-12": "「主要地；大部分情況下；多數由……構成」與本句語境不同。",
-        "most-mcq-11": "「把某個機會、資源或條件盡量充分利用」與本句語境不同。",
-        "most-mcq-10": "「大部分情況下；大體而言」與本句語境不同。",
-        "most-mcq-09": "「不超過某個數量／程度；至多」與本句語境不同。",
-        "most-mcq-08": "「在程度上最高；最」與本句語境不同。"
+        "most-mcq-13": "本句的「utmost care」指「可能達到的最大程度／最高限度」。",
+        "most-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "most-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "most-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "most-mcq-13"
     }
@@ -1163,5 +1051,7 @@ export default {
     "sha256": "42a49698779d910505a32b7db9f81b1ca746e49c145984b7267789ff9dbc6391",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

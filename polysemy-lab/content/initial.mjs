@@ -355,11 +355,8 @@ export default {
       "masked": "Her ____ were engraved on the pen.",
       "options": [
         "initial-mcq-01",
-        "initial-mcq-02",
         "initial-mcq-03",
-        "initial-mcq-04",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-14"
       ],
       "explanation": "本句的「initials」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
       "sentenceIndex": 0,
@@ -368,12 +365,9 @@ export default {
         "initials"
       ],
       "optionReasons": {
-        "initial-mcq-01": "本句指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-01": "本句的「initials」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-01"
     },
@@ -385,11 +379,8 @@ export default {
       "masked": "Please write your ____ in the corner.",
       "options": [
         "initial-mcq-01",
-        "initial-mcq-02",
-        "initial-mcq-03",
-        "initial-mcq-04",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-14",
+        "initial-mcq-03"
       ],
       "explanation": "本句的「initials」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
       "sentenceIndex": 1,
@@ -398,12 +389,9 @@ export default {
         "initials"
       ],
       "optionReasons": {
-        "initial-mcq-01": "本句指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-01": "本句的「initials」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-01"
     },
@@ -415,11 +403,7 @@ export default {
       "masked": "His first ____ is J.",
       "options": [
         "initial-mcq-01",
-        "initial-mcq-02",
-        "initial-mcq-03",
-        "initial-mcq-04",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-04"
       ],
       "explanation": "本句的「initial」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
       "sentenceIndex": 2,
@@ -428,12 +412,8 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-01": "本句指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-01": "本句的「initial」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
+        "initial-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-01"
     },
@@ -445,11 +425,8 @@ export default {
       "masked": "Write your surname ____ here.",
       "options": [
         "initial-mcq-01",
-        "initial-mcq-02",
-        "initial-mcq-03",
-        "initial-mcq-04",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-13",
+        "initial-mcq-03"
       ],
       "explanation": "本句的「initial」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
       "sentenceIndex": 3,
@@ -458,12 +435,9 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-01": "本句指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-01": "本句的「initial」指「一個人姓名中某個名字的第一個字母；姓名首字母」。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-01"
     },
@@ -475,11 +449,9 @@ export default {
       "masked": "The bag had her ____ on it.",
       "options": [
         "initial-mcq-02",
-        "initial-mcq-01",
-        "initial-mcq-03",
-        "initial-mcq-04",
+        "initial-mcq-13",
         "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-10"
       ],
       "explanation": "本句的「initials」指「一個人各部分姓名的首字母組合；姓名縮寫」。",
       "sentenceIndex": 4,
@@ -488,12 +460,10 @@ export default {
         "initials"
       ],
       "optionReasons": {
-        "initial-mcq-02": "本句指「一個人各部分姓名的首字母組合；姓名縮寫」。",
-        "initial-mcq-01": "「一個人姓名中某個名字的第一個字母；姓名首字母」是「initial — name letter」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-02": "本句的「initials」指「一個人各部分姓名的首字母組合；姓名縮寫」。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-02"
     },
@@ -505,11 +475,9 @@ export default {
       "masked": "He signed the page with his ____.",
       "options": [
         "initial-mcq-02",
-        "initial-mcq-01",
         "initial-mcq-03",
-        "initial-mcq-04",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-13",
+        "initial-mcq-10"
       ],
       "explanation": "本句的「initials」指「一個人各部分姓名的首字母組合；姓名縮寫」。",
       "sentenceIndex": 5,
@@ -518,12 +486,10 @@ export default {
         "initials"
       ],
       "optionReasons": {
-        "initial-mcq-02": "本句指「一個人各部分姓名的首字母組合；姓名縮寫」。",
-        "initial-mcq-01": "「一個人姓名中某個名字的第一個字母；姓名首字母」是「initial — name letter」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-02": "本句的「initials」指「一個人各部分姓名的首字母組合；姓名縮寫」。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-02"
     },
@@ -535,11 +501,9 @@ export default {
       "masked": "My ____ was surprise.",
       "options": [
         "initial-mcq-03",
-        "initial-mcq-02",
-        "initial-mcq-04",
-        "initial-mcq-01",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-07",
+        "initial-mcq-10",
+        "initial-mcq-13"
       ],
       "explanation": "本句的「initial reaction」指「發生在最開始階段的；最初的／初步的」。",
       "sentenceIndex": 6,
@@ -548,12 +512,10 @@ export default {
         "initial reaction"
       ],
       "optionReasons": {
-        "initial-mcq-03": "本句指「發生在最開始階段的；最初的／初步的」。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-01": "「一個人姓名中某個名字的第一個字母；姓名首字母」是「initial — name letter」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-03": "本句的「initial reaction」指「發生在最開始階段的；最初的／初步的」。",
+        "initial-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-03"
     },
@@ -566,10 +528,8 @@ export default {
       "options": [
         "initial-mcq-03",
         "initial-mcq-02",
-        "initial-mcq-04",
-        "initial-mcq-01",
-        "initial-mcq-05",
-        "initial-mcq-06"
+        "initial-mcq-10",
+        "initial-mcq-13"
       ],
       "explanation": "本句的「initial meeting」指「發生在最開始階段的；最初的／初步的」。",
       "sentenceIndex": 7,
@@ -578,12 +538,10 @@ export default {
         "initial meeting"
       ],
       "optionReasons": {
-        "initial-mcq-03": "本句指「發生在最開始階段的；最初的／初步的」。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-01": "「一個人姓名中某個名字的第一個字母；姓名首字母」是「initial — name letter」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-03": "本句的「initial meeting」指「發生在最開始階段的；最初的／初步的」。",
+        "initial-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-03"
     },
@@ -595,11 +553,9 @@ export default {
       "masked": "The project is still in its ____.",
       "options": [
         "initial-mcq-04",
-        "initial-mcq-03",
-        "initial-mcq-05",
-        "initial-mcq-02",
-        "initial-mcq-06",
-        "initial-mcq-01"
+        "initial-mcq-08",
+        "initial-mcq-09",
+        "initial-mcq-06"
       ],
       "explanation": "本句的「initial stage」指「一個過程剛開始的階段；初始階段」。",
       "sentenceIndex": 8,
@@ -608,12 +564,10 @@ export default {
         "initial stage"
       ],
       "optionReasons": {
-        "initial-mcq-04": "本句指「一個過程剛開始的階段；初始階段」。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-01": "「一個人姓名中某個名字的第一個字母；姓名首字母」是「initial — name letter」的用法，與本句語境不同。"
+        "initial-mcq-04": "本句的「initial stage」指「一個過程剛開始的階段；初始階段」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-04"
     },
@@ -625,11 +579,9 @@ export default {
       "masked": "Problems appeared during the ____.",
       "options": [
         "initial-mcq-04",
-        "initial-mcq-03",
-        "initial-mcq-05",
-        "initial-mcq-02",
-        "initial-mcq-06",
-        "initial-mcq-01"
+        "initial-mcq-08",
+        "initial-mcq-09",
+        "initial-mcq-06"
       ],
       "explanation": "本句的「initial stages」指「一個過程剛開始的階段；初始階段」。",
       "sentenceIndex": 9,
@@ -638,12 +590,10 @@ export default {
         "initial stages"
       ],
       "optionReasons": {
-        "initial-mcq-04": "本句指「一個過程剛開始的階段；初始階段」。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-01": "「一個人姓名中某個名字的第一個字母；姓名首字母」是「initial — name letter」的用法，與本句語境不同。"
+        "initial-mcq-04": "本句的「initial stages」指「一個過程剛開始的階段；初始階段」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-04"
     },
@@ -655,11 +605,9 @@ export default {
       "masked": "Her ____ was positive.",
       "options": [
         "initial-mcq-05",
-        "initial-mcq-04",
-        "initial-mcq-06",
-        "initial-mcq-03",
         "initial-mcq-07",
-        "initial-mcq-02"
+        "initial-mcq-10",
+        "initial-mcq-12"
       ],
       "explanation": "本句的「initial response」指「在深入思考前出現的第一反應／初步回應」。",
       "sentenceIndex": 10,
@@ -668,12 +616,10 @@ export default {
         "initial response"
       ],
       "optionReasons": {
-        "initial-mcq-05": "本句指「在深入思考前出現的第一反應／初步回應」。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。"
+        "initial-mcq-05": "本句的「initial response」指「在深入思考前出現的第一反應／初步回應」。",
+        "initial-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-05"
     },
@@ -685,11 +631,9 @@ export default {
       "masked": "My ____ changed after I heard the full story.",
       "options": [
         "initial-mcq-05",
-        "initial-mcq-04",
-        "initial-mcq-06",
-        "initial-mcq-03",
-        "initial-mcq-07",
-        "initial-mcq-02"
+        "initial-mcq-08",
+        "initial-mcq-10",
+        "initial-mcq-13"
       ],
       "explanation": "本句的「initial reaction」指「在深入思考前出現的第一反應／初步回應」。",
       "sentenceIndex": 11,
@@ -698,12 +642,10 @@ export default {
         "initial reaction"
       ],
       "optionReasons": {
-        "initial-mcq-05": "本句指「在深入思考前出現的第一反應／初步回應」。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-02": "「一個人各部分姓名的首字母組合；姓名縮寫」是「initials」的用法，與本句語境不同。"
+        "initial-mcq-05": "本句的「initial reaction」指「在深入思考前出現的第一反應／初步回應」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-05"
     },
@@ -715,11 +657,9 @@ export default {
       "masked": "My ____ was wrong.",
       "options": [
         "initial-mcq-06",
-        "initial-mcq-05",
-        "initial-mcq-07",
-        "initial-mcq-04",
+        "initial-mcq-11",
         "initial-mcq-08",
-        "initial-mcq-03"
+        "initial-mcq-13"
       ],
       "explanation": "本句的「initial impression」指「第一次接觸時形成的初步印象」。",
       "sentenceIndex": 12,
@@ -728,12 +668,10 @@ export default {
         "initial impression"
       ],
       "optionReasons": {
-        "initial-mcq-06": "本句指「第一次接觸時形成的初步印象」。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。"
+        "initial-mcq-06": "本句的「initial impression」指「第一次接觸時形成的初步印象」。",
+        "initial-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-06"
     },
@@ -745,11 +683,9 @@ export default {
       "masked": "The design made a strong ____.",
       "options": [
         "initial-mcq-06",
-        "initial-mcq-05",
-        "initial-mcq-07",
-        "initial-mcq-04",
-        "initial-mcq-08",
-        "initial-mcq-03"
+        "initial-mcq-10",
+        "initial-mcq-02",
+        "initial-mcq-04"
       ],
       "explanation": "本句的「initial impression」指「第一次接觸時形成的初步印象」。",
       "sentenceIndex": 13,
@@ -758,12 +694,10 @@ export default {
         "initial impression"
       ],
       "optionReasons": {
-        "initial-mcq-06": "本句指「第一次接觸時形成的初步印象」。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-03": "「發生在最開始階段的；最初的／初步的」是「initial — adjective」的用法，與本句語境不同。"
+        "initial-mcq-06": "本句的「initial impression」指「第一次接觸時形成的初步印象」。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-06"
     },
@@ -775,11 +709,9 @@ export default {
       "masked": "Please ____ each page.",
       "options": [
         "initial-mcq-07",
-        "initial-mcq-06",
-        "initial-mcq-08",
-        "initial-mcq-05",
-        "initial-mcq-09",
-        "initial-mcq-04"
+        "initial-mcq-03",
+        "initial-mcq-14",
+        "initial-mcq-10"
       ],
       "explanation": "本句的「initial」指「在文件等上簽寫自己的姓名首字母」。",
       "sentenceIndex": 14,
@@ -788,12 +720,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-07": "本句指「在文件等上簽寫自己的姓名首字母」。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。"
+        "initial-mcq-07": "本句的「initial」指「在文件等上簽寫自己的姓名首字母」。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-07"
     },
@@ -805,11 +735,9 @@ export default {
       "masked": "She ____ the change in the contract.",
       "options": [
         "initial-mcq-07",
-        "initial-mcq-06",
-        "initial-mcq-08",
-        "initial-mcq-05",
-        "initial-mcq-09",
-        "initial-mcq-04"
+        "initial-mcq-03",
+        "initial-mcq-14",
+        "initial-mcq-10"
       ],
       "explanation": "本句的「initialled」指「在文件等上簽寫自己的姓名首字母」。",
       "sentenceIndex": 15,
@@ -818,12 +746,10 @@ export default {
         "initialled"
       ],
       "optionReasons": {
-        "initial-mcq-07": "本句指「在文件等上簽寫自己的姓名首字母」。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-04": "「一個過程剛開始的階段；初始階段」是「initial stage」的用法，與本句語境不同。"
+        "initial-mcq-07": "本句的「initialled」指「在文件等上簽寫自己的姓名首字母」。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-07"
     },
@@ -835,11 +761,9 @@ export default {
       "masked": "Both parties must ____.",
       "options": [
         "initial-mcq-08",
-        "initial-mcq-07",
-        "initial-mcq-09",
-        "initial-mcq-06",
-        "initial-mcq-10",
-        "initial-mcq-05"
+        "initial-mcq-11",
+        "initial-mcq-05",
+        "initial-mcq-14"
       ],
       "explanation": "本句的「initial the amendment」指「以姓名縮寫在文件／頁面上確認或簽署」。",
       "sentenceIndex": 16,
@@ -848,12 +772,10 @@ export default {
         "initial the amendment"
       ],
       "optionReasons": {
-        "initial-mcq-08": "本句指「以姓名縮寫在文件／頁面上確認或簽署」。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。"
+        "initial-mcq-08": "本句的「initial the amendment」指「以姓名縮寫在文件／頁面上確認或簽署」。",
+        "initial-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-08"
     },
@@ -865,10 +787,8 @@ export default {
       "masked": "He ____ of the agreement.",
       "options": [
         "initial-mcq-08",
-        "initial-mcq-07",
+        "initial-mcq-12",
         "initial-mcq-09",
-        "initial-mcq-06",
-        "initial-mcq-10",
         "initial-mcq-05"
       ],
       "explanation": "本句的「initialled every page」指「以姓名縮寫在文件／頁面上確認或簽署」。",
@@ -878,12 +798,10 @@ export default {
         "initialled every page"
       ],
       "optionReasons": {
-        "initial-mcq-08": "本句指「以姓名縮寫在文件／頁面上確認或簽署」。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-05": "「在深入思考前出現的第一反應／初步回應」是「initial reaction/response」的用法，與本句語境不同。"
+        "initial-mcq-08": "本句的「initialled every page」指「以姓名縮寫在文件／頁面上確認或簽署」。",
+        "initial-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-08"
     },
@@ -895,11 +813,9 @@ export default {
       "masked": "The ____ of “London” is L.",
       "options": [
         "initial-mcq-09",
-        "initial-mcq-08",
-        "initial-mcq-10",
-        "initial-mcq-07",
-        "initial-mcq-11",
-        "initial-mcq-06"
+        "initial-mcq-06",
+        "initial-mcq-13",
+        "initial-mcq-08"
       ],
       "explanation": "本句的「initial」指「一個單字最前面的字母」。",
       "sentenceIndex": 18,
@@ -908,12 +824,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-09": "本句指「一個單字最前面的字母」。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-09": "本句的「initial」指「一個單字最前面的字母」。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-09"
     },
@@ -926,10 +840,8 @@ export default {
       "options": [
         "initial-mcq-09",
         "initial-mcq-08",
-        "initial-mcq-10",
-        "initial-mcq-07",
-        "initial-mcq-11",
-        "initial-mcq-06"
+        "initial-mcq-06",
+        "initial-mcq-13"
       ],
       "explanation": "本句的「initial」指「一個單字最前面的字母」。",
       "sentenceIndex": 19,
@@ -938,12 +850,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-09": "本句指「一個單字最前面的字母」。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-06": "「第一次接觸時形成的初步印象」是「initial impression」的用法，與本句語境不同。"
+        "initial-mcq-09": "本句的「initial」指「一個單字最前面的字母」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-09"
     },
@@ -955,11 +865,9 @@ export default {
       "masked": "The word has a voiced ____ consonant.",
       "options": [
         "initial-mcq-10",
-        "initial-mcq-09",
-        "initial-mcq-11",
+        "initial-mcq-14",
         "initial-mcq-08",
-        "initial-mcq-12",
-        "initial-mcq-07"
+        "initial-mcq-05"
       ],
       "explanation": "本句的「initial」指「位於單字或音節開頭的音；詞首音／聲母」。",
       "sentenceIndex": 20,
@@ -968,12 +876,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-10": "本句指「位於單字或音節開頭的音；詞首音／聲母」。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。"
+        "initial-mcq-10": "本句的「initial」指「位於單字或音節開頭的音；詞首音／聲母」。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-10"
     },
@@ -985,11 +891,9 @@ export default {
       "masked": "In some linguistic systems, the syllable ____ is analyzed separately from the final.",
       "options": [
         "initial-mcq-10",
-        "initial-mcq-09",
-        "initial-mcq-11",
-        "initial-mcq-08",
-        "initial-mcq-12",
-        "initial-mcq-07"
+        "initial-mcq-06",
+        "initial-mcq-13",
+        "initial-mcq-08"
       ],
       "explanation": "本句的「initial」指「位於單字或音節開頭的音；詞首音／聲母」。",
       "sentenceIndex": 21,
@@ -998,12 +902,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-10": "本句指「位於單字或音節開頭的音；詞首音／聲母」。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-07": "「在文件等上簽寫自己的姓名首字母」是「initial — verb」的用法，與本句語境不同。"
+        "initial-mcq-10": "本句的「initial」指「位於單字或音節開頭的音；詞首音／聲母」。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-10"
     },
@@ -1015,11 +917,9 @@ export default {
       "masked": "The manuscript begins with a decorated ____.",
       "options": [
         "initial-mcq-11",
-        "initial-mcq-10",
-        "initial-mcq-12",
-        "initial-mcq-09",
-        "initial-mcq-13",
-        "initial-mcq-08"
+        "initial-mcq-08",
+        "initial-mcq-14",
+        "initial-mcq-06"
       ],
       "explanation": "本句的「initial」指「章節或段落開頭的大型／裝飾首字母」。",
       "sentenceIndex": 22,
@@ -1028,12 +928,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-11": "本句指「章節或段落開頭的大型／裝飾首字母」。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。"
+        "initial-mcq-11": "本句的「initial」指「章節或段落開頭的大型／裝飾首字母」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-11"
     },
@@ -1045,10 +943,8 @@ export default {
       "masked": "The chapter opens with a large illuminated ____.",
       "options": [
         "initial-mcq-11",
-        "initial-mcq-10",
-        "initial-mcq-12",
-        "initial-mcq-09",
-        "initial-mcq-13",
+        "initial-mcq-05",
+        "initial-mcq-14",
         "initial-mcq-08"
       ],
       "explanation": "本句的「initial」指「章節或段落開頭的大型／裝飾首字母」。",
@@ -1058,12 +954,10 @@ export default {
         "initial"
       ],
       "optionReasons": {
-        "initial-mcq-11": "本句指「章節或段落開頭的大型／裝飾首字母」。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-08": "「以姓名縮寫在文件／頁面上確認或簽署」是「initial a document/page」的用法，與本句語境不同。"
+        "initial-mcq-11": "本句的「initial」指「章節或段落開頭的大型／裝飾首字母」。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-11"
     },
@@ -1075,11 +969,9 @@ export default {
       "masked": "I was ____ unsure about the idea.",
       "options": [
         "initial-mcq-12",
-        "initial-mcq-11",
-        "initial-mcq-13",
-        "initial-mcq-10",
-        "initial-mcq-14",
-        "initial-mcq-09"
+        "initial-mcq-08",
+        "initial-mcq-09",
+        "initial-mcq-05"
       ],
       "explanation": "本句的「initially」指「在最開始時；起初／最初」。",
       "sentenceIndex": 24,
@@ -1088,12 +980,10 @@ export default {
         "initially"
       ],
       "optionReasons": {
-        "initial-mcq-12": "本句指「在最開始時；起初／最初」。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-14": "「設定初始狀態的過程；初始化」是「initialization / initialisation」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。"
+        "initial-mcq-12": "本句的「initially」指「在最開始時；起初／最初」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-12"
     },
@@ -1105,11 +995,7 @@ export default {
       "masked": "The plan was ____ rejected.",
       "options": [
         "initial-mcq-12",
-        "initial-mcq-11",
-        "initial-mcq-13",
-        "initial-mcq-10",
-        "initial-mcq-14",
-        "initial-mcq-09"
+        "initial-mcq-01"
       ],
       "explanation": "本句的「initially」指「在最開始時；起初／最初」。",
       "sentenceIndex": 25,
@@ -1118,12 +1004,8 @@ export default {
         "initially"
       ],
       "optionReasons": {
-        "initial-mcq-12": "本句指「在最開始時；起初／最初」。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。",
-        "initial-mcq-14": "「設定初始狀態的過程；初始化」是「initialization / initialisation」的用法，與本句語境不同。",
-        "initial-mcq-09": "「一個單字最前面的字母」是「initial — first letter of a word」的用法，與本句語境不同。"
+        "initial-mcq-12": "本句的「initially」指「在最開始時；起初／最初」。",
+        "initial-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-12"
     },
@@ -1135,11 +1017,9 @@ export default {
       "masked": "The system performs ____ at startup.",
       "options": [
         "initial-mcq-14",
-        "initial-mcq-13",
-        "initial-mcq-15",
-        "initial-mcq-12",
         "initial-mcq-11",
-        "initial-mcq-10"
+        "initial-mcq-08",
+        "initial-mcq-05"
       ],
       "explanation": "本句的「initialization」指「設定初始狀態的過程；初始化」。",
       "sentenceIndex": 26,
@@ -1148,12 +1028,10 @@ export default {
         "initialization"
       ],
       "optionReasons": {
-        "initial-mcq-14": "本句指「設定初始狀態的過程；初始化」。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-15": "「由首字母組成並逐字母讀出的縮寫詞」是「initialism」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。"
+        "initial-mcq-14": "本句的「initialization」指「設定初始狀態的過程；初始化」。",
+        "initial-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-14"
     },
@@ -1165,11 +1043,9 @@ export default {
       "masked": "The device failed during ____.",
       "options": [
         "initial-mcq-14",
-        "initial-mcq-13",
-        "initial-mcq-15",
-        "initial-mcq-12",
-        "initial-mcq-11",
-        "initial-mcq-10"
+        "initial-mcq-08",
+        "initial-mcq-10",
+        "initial-mcq-06"
       ],
       "explanation": "本句的「initialisation」指「設定初始狀態的過程；初始化」。",
       "sentenceIndex": 27,
@@ -1178,12 +1054,10 @@ export default {
         "initialisation"
       ],
       "optionReasons": {
-        "initial-mcq-14": "本句指「設定初始狀態的過程；初始化」。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-15": "「由首字母組成並逐字母讀出的縮寫詞」是「initialism」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。"
+        "initial-mcq-14": "本句的「initialisation」指「設定初始狀態的過程；初始化」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-14"
     },
@@ -1195,11 +1069,9 @@ export default {
       "masked": "The program ____ the variable to zero.",
       "options": [
         "initial-mcq-13",
-        "initial-mcq-12",
-        "initial-mcq-14",
-        "initial-mcq-11",
-        "initial-mcq-15",
-        "initial-mcq-10"
+        "initial-mcq-08",
+        "initial-mcq-09",
+        "initial-mcq-06"
       ],
       "explanation": "本句的「initializes」指「把系統、變數等設定到初始狀態；初始化」。",
       "sentenceIndex": 28,
@@ -1208,12 +1080,10 @@ export default {
         "initializes"
       ],
       "optionReasons": {
-        "initial-mcq-13": "本句指「把系統、變數等設定到初始狀態；初始化」。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-14": "「設定初始狀態的過程；初始化」是「initialization / initialisation」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-15": "「由首字母組成並逐字母讀出的縮寫詞」是「initialism」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。"
+        "initial-mcq-13": "本句的「initializes」指「把系統、變數等設定到初始狀態；初始化」。",
+        "initial-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-13"
     },
@@ -1225,11 +1095,8 @@ export default {
       "masked": "The device must be ____ before use.",
       "options": [
         "initial-mcq-13",
-        "initial-mcq-12",
-        "initial-mcq-14",
-        "initial-mcq-11",
         "initial-mcq-15",
-        "initial-mcq-10"
+        "initial-mcq-06"
       ],
       "explanation": "本句的「initialized」指「把系統、變數等設定到初始狀態；初始化」。",
       "sentenceIndex": 29,
@@ -1238,12 +1105,9 @@ export default {
         "initialized"
       ],
       "optionReasons": {
-        "initial-mcq-13": "本句指「把系統、變數等設定到初始狀態；初始化」。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-14": "「設定初始狀態的過程；初始化」是「initialization / initialisation」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-15": "「由首字母組成並逐字母讀出的縮寫詞」是「initialism」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。"
+        "initial-mcq-13": "本句的「initialized」指「把系統、變數等設定到初始狀態；初始化」。",
+        "initial-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-13"
     },
@@ -1255,11 +1119,8 @@ export default {
       "masked": "BBC” is an ____.",
       "options": [
         "initial-mcq-15",
-        "initial-mcq-14",
-        "initial-mcq-13",
-        "initial-mcq-12",
-        "initial-mcq-11",
-        "initial-mcq-10"
+        "initial-mcq-03",
+        "initial-mcq-14"
       ],
       "explanation": "本句的「initialism」指「由首字母組成並逐字母讀出的縮寫詞」。",
       "sentenceIndex": 30,
@@ -1268,12 +1129,9 @@ export default {
         "initialism"
       ],
       "optionReasons": {
-        "initial-mcq-15": "本句指「由首字母組成並逐字母讀出的縮寫詞」。",
-        "initial-mcq-14": "「設定初始狀態的過程；初始化」是「initialization / initialisation」的用法，與本句語境不同。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。"
+        "initial-mcq-15": "本句的「initialism」指「由首字母組成並逐字母讀出的縮寫詞」。",
+        "initial-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-15"
     },
@@ -1285,11 +1143,8 @@ export default {
       "masked": "An ____ is usually pronounced letter by letter.",
       "options": [
         "initial-mcq-15",
-        "initial-mcq-14",
-        "initial-mcq-13",
         "initial-mcq-12",
-        "initial-mcq-11",
-        "initial-mcq-10"
+        "initial-mcq-05"
       ],
       "explanation": "本句的「initialism」指「由首字母組成並逐字母讀出的縮寫詞」。",
       "sentenceIndex": 31,
@@ -1298,12 +1153,9 @@ export default {
         "initialism"
       ],
       "optionReasons": {
-        "initial-mcq-15": "本句指「由首字母組成並逐字母讀出的縮寫詞」。",
-        "initial-mcq-14": "「設定初始狀態的過程；初始化」是「initialization / initialisation」的用法，與本句語境不同。",
-        "initial-mcq-13": "「把系統、變數等設定到初始狀態；初始化」是「initialize / initialise」的用法，與本句語境不同。",
-        "initial-mcq-12": "「在最開始時；起初／最初」是「initially」的用法，與本句語境不同。",
-        "initial-mcq-11": "「章節或段落開頭的大型／裝飾首字母」是「initial — typography」的用法，與本句語境不同。",
-        "initial-mcq-10": "「位於單字或音節開頭的音；詞首音／聲母」是「initial — linguistics」的用法，與本句語境不同。"
+        "initial-mcq-15": "本句的「initialism」指「由首字母組成並逐字母讀出的縮寫詞」。",
+        "initial-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "initial-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "initial-mcq-15"
     }
@@ -1315,5 +1167,7 @@ export default {
     "sha256": "63c68b2cc942e03f236a5669f1a6ab8a20c60d4762d50642d07d974326266481",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

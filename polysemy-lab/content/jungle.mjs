@@ -218,10 +218,7 @@ export default {
       "masked": "The living room … turns into a ____.",
       "options": [
         "jungle-mcq-01",
-        "jungle-mcq-02",
-        "jungle-mcq-03",
-        "jungle-mcq-04",
-        "jungle-mcq-05",
+        "jungle-mcq-08",
         "jungle-mcq-06"
       ],
       "explanation": "本句的「jungle」指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
@@ -231,12 +228,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-01": "本句指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-01": "本句的「jungle」指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-01"
     },
@@ -248,10 +242,7 @@ export default {
       "masked": "They travelled through the ____ for three days.",
       "options": [
         "jungle-mcq-01",
-        "jungle-mcq-02",
-        "jungle-mcq-03",
-        "jungle-mcq-04",
-        "jungle-mcq-05",
+        "jungle-mcq-08",
         "jungle-mcq-06"
       ],
       "explanation": "本句的「jungle」指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
@@ -261,12 +252,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-01": "本句指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-01": "本句的「jungle」指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-01"
     },
@@ -278,11 +266,8 @@ export default {
       "masked": "Many animals live deep in the ____.",
       "options": [
         "jungle-mcq-01",
-        "jungle-mcq-02",
-        "jungle-mcq-03",
-        "jungle-mcq-04",
-        "jungle-mcq-05",
-        "jungle-mcq-06"
+        "jungle-mcq-06",
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「jungle」指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
       "sentenceIndex": 2,
@@ -291,12 +276,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-01": "本句指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-01": "本句的「jungle」指「長滿茂密樹木、植物和藤蔓的熱帶野外地區」。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-01"
     },
@@ -308,11 +290,8 @@ export default {
       "masked": "The garden had become a ____.",
       "options": [
         "jungle-mcq-02",
-        "jungle-mcq-01",
-        "jungle-mcq-03",
-        "jungle-mcq-04",
-        "jungle-mcq-05",
-        "jungle-mcq-06"
+        "jungle-mcq-06",
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「jungle」指「植物生長極度茂密、雜亂而難以穿行的地方」。",
       "sentenceIndex": 3,
@@ -321,12 +300,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-02": "本句指「植物生長極度茂密、雜亂而難以穿行的地方」。",
-        "jungle-mcq-01": "「長滿茂密樹木、植物和藤蔓的熱帶野外地區」是「jungle — literal tropical」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-02": "本句的「jungle」指「植物生長極度茂密、雜亂而難以穿行的地方」。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-02"
     },
@@ -338,10 +314,7 @@ export default {
       "masked": "Behind the house was a ____ of weeds.",
       "options": [
         "jungle-mcq-02",
-        "jungle-mcq-01",
-        "jungle-mcq-03",
-        "jungle-mcq-04",
-        "jungle-mcq-05",
+        "jungle-mcq-08",
         "jungle-mcq-06"
       ],
       "explanation": "本句的「jungle」指「植物生長極度茂密、雜亂而難以穿行的地方」。",
@@ -351,12 +324,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-02": "本句指「植物生長極度茂密、雜亂而難以穿行的地方」。",
-        "jungle-mcq-01": "「長滿茂密樹木、植物和藤蔓的熱帶野外地區」是「jungle — literal tropical」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-02": "本句的「jungle」指「植物生長極度茂密、雜亂而難以穿行的地方」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-02"
     },
@@ -368,11 +338,8 @@ export default {
       "masked": "The city can feel like a ____.",
       "options": [
         "jungle-mcq-03",
-        "jungle-mcq-02",
-        "jungle-mcq-04",
-        "jungle-mcq-01",
-        "jungle-mcq-05",
-        "jungle-mcq-06"
+        "jungle-mcq-08",
+        "jungle-mcq-07"
       ],
       "explanation": "本句的「jungle」指「規則不清、資訊繁雜或令人難以應付的複雜環境」。",
       "sentenceIndex": 5,
@@ -381,12 +348,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-03": "本句指「規則不清、資訊繁雜或令人難以應付的複雜環境」。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-01": "「長滿茂密樹木、植物和藤蔓的熱帶野外地區」是「jungle — literal tropical」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-03": "本句的「jungle」指「規則不清、資訊繁雜或令人難以應付的複雜環境」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-03"
     },
@@ -398,11 +362,8 @@ export default {
       "masked": "The online marketplace is a ____ for inexperienced buyers.",
       "options": [
         "jungle-mcq-03",
-        "jungle-mcq-02",
-        "jungle-mcq-04",
-        "jungle-mcq-01",
-        "jungle-mcq-05",
-        "jungle-mcq-06"
+        "jungle-mcq-07",
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「jungle」指「規則不清、資訊繁雜或令人難以應付的複雜環境」。",
       "sentenceIndex": 6,
@@ -411,12 +372,9 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-03": "本句指「規則不清、資訊繁雜或令人難以應付的複雜環境」。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-01": "「長滿茂密樹木、植物和藤蔓的熱帶野外地區」是「jungle — literal tropical」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。"
+        "jungle-mcq-03": "本句的「jungle」指「規則不清、資訊繁雜或令人難以應付的複雜環境」。",
+        "jungle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-03"
     },
@@ -428,11 +386,7 @@ export default {
       "masked": "The fashion industry can be a ____.",
       "options": [
         "jungle-mcq-04",
-        "jungle-mcq-03",
-        "jungle-mcq-05",
-        "jungle-mcq-02",
-        "jungle-mcq-06",
-        "jungle-mcq-01"
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「jungle」指「競爭激烈、每個人都要努力保護自己利益的環境」。",
       "sentenceIndex": 7,
@@ -441,12 +395,8 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-04": "本句指「競爭激烈、每個人都要努力保護自己利益的環境」。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-01": "「長滿茂密樹木、植物和藤蔓的熱帶野外地區」是「jungle — literal tropical」的用法，與本句語境不同。"
+        "jungle-mcq-04": "本句的「jungle」指「競爭激烈、每個人都要努力保護自己利益的環境」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-04"
     },
@@ -458,11 +408,7 @@ export default {
       "masked": "Surviving in the corporate ____ requires confidence.",
       "options": [
         "jungle-mcq-04",
-        "jungle-mcq-03",
-        "jungle-mcq-05",
-        "jungle-mcq-02",
-        "jungle-mcq-06",
-        "jungle-mcq-01"
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「jungle」指「競爭激烈、每個人都要努力保護自己利益的環境」。",
       "sentenceIndex": 8,
@@ -471,12 +417,8 @@ export default {
         "jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-04": "本句指「競爭激烈、每個人都要努力保護自己利益的環境」。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-01": "「長滿茂密樹木、植物和藤蔓的熱帶野外地區」是「jungle — literal tropical」的用法，與本句語境不同。"
+        "jungle-mcq-04": "本句的「jungle」指「競爭激烈、每個人都要努力保護自己利益的環境」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-04"
     },
@@ -488,11 +430,7 @@ export default {
       "masked": "He wanted to escape the ____.",
       "options": [
         "jungle-mcq-05",
-        "jungle-mcq-04",
-        "jungle-mcq-06",
-        "jungle-mcq-03",
-        "jungle-mcq-07",
-        "jungle-mcq-02"
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「concrete jungle」指「建築物和道路高度密集、缺少自然空間的都市環境」。",
       "sentenceIndex": 9,
@@ -501,12 +439,8 @@ export default {
         "concrete jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-05": "本句指「建築物和道路高度密集、缺少自然空間的都市環境」。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。"
+        "jungle-mcq-05": "本句的「concrete jungle」指「建築物和道路高度密集、缺少自然空間的都市環境」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-05"
     },
@@ -518,11 +452,7 @@ export default {
       "masked": "The district has become a ____.",
       "options": [
         "jungle-mcq-05",
-        "jungle-mcq-04",
-        "jungle-mcq-06",
-        "jungle-mcq-03",
-        "jungle-mcq-07",
-        "jungle-mcq-02"
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「concrete jungle」指「建築物和道路高度密集、缺少自然空間的都市環境」。",
       "sentenceIndex": 10,
@@ -531,12 +461,8 @@ export default {
         "concrete jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-05": "本句指「建築物和道路高度密集、缺少自然空間的都市環境」。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-02": "「植物生長極度茂密、雜亂而難以穿行的地方」是「jungle — overgrown vegetation」的用法，與本句語境不同。"
+        "jungle-mcq-05": "本句的「concrete jungle」指「建築物和道路高度密集、缺少自然空間的都市環境」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-05"
     },
@@ -548,11 +474,8 @@ export default {
       "masked": "The company should not operate by the ____.",
       "options": [
         "jungle-mcq-06",
-        "jungle-mcq-05",
-        "jungle-mcq-07",
-        "jungle-mcq-04",
-        "jungle-mcq-08",
-        "jungle-mcq-03"
+        "jungle-mcq-02",
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「law of the jungle」指「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」。",
       "sentenceIndex": 11,
@@ -561,12 +484,9 @@ export default {
         "law of the jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-06": "本句指「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-08": "「供兒童攀爬玩耍的架構／攀爬架」是「jungle gym」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。"
+        "jungle-mcq-06": "本句的「law of the jungle」指「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」。",
+        "jungle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-06"
     },
@@ -578,11 +498,8 @@ export default {
       "masked": "Without rules, it becomes the ____.",
       "options": [
         "jungle-mcq-06",
-        "jungle-mcq-05",
-        "jungle-mcq-07",
-        "jungle-mcq-04",
-        "jungle-mcq-08",
-        "jungle-mcq-03"
+        "jungle-mcq-01",
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「law of the jungle」指「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」。",
       "sentenceIndex": 12,
@@ -591,12 +508,9 @@ export default {
         "law of the jungle"
       ],
       "optionReasons": {
-        "jungle-mcq-06": "本句指「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。",
-        "jungle-mcq-08": "「供兒童攀爬玩耍的架構／攀爬架」是「jungle gym」的用法，與本句語境不同。",
-        "jungle-mcq-03": "「規則不清、資訊繁雜或令人難以應付的複雜環境」是「jungle — confusing environment」的用法，與本句語境不同。"
+        "jungle-mcq-06": "本句的「law of the jungle」指「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」。",
+        "jungle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-06"
     },
@@ -608,11 +522,8 @@ export default {
       "masked": "The soldiers trained for ____.",
       "options": [
         "jungle-mcq-07",
-        "jungle-mcq-06",
-        "jungle-mcq-08",
-        "jungle-mcq-05",
-        "jungle-mcq-09",
-        "jungle-mcq-04"
+        "jungle-mcq-03",
+        "jungle-mcq-08"
       ],
       "explanation": "本句的「jungle warfare」指「在濃密熱帶植被地區進行的軍事作戰」。",
       "sentenceIndex": 13,
@@ -621,12 +532,9 @@ export default {
         "jungle warfare"
       ],
       "optionReasons": {
-        "jungle-mcq-07": "本句指「在濃密熱帶植被地區進行的軍事作戰」。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-08": "「供兒童攀爬玩耍的架構／攀爬架」是「jungle gym」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-09": "「在外觀、植物密度或氣氛上像叢林一樣的」是「jungle-like」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。"
+        "jungle-mcq-07": "本句的「jungle warfare」指「在濃密熱帶植被地區進行的軍事作戰」。",
+        "jungle-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-07"
     },
@@ -640,9 +548,7 @@ export default {
         "jungle-mcq-07",
         "jungle-mcq-06",
         "jungle-mcq-08",
-        "jungle-mcq-05",
-        "jungle-mcq-09",
-        "jungle-mcq-04"
+        "jungle-mcq-09"
       ],
       "explanation": "本句的「jungle warfare」指「在濃密熱帶植被地區進行的軍事作戰」。",
       "sentenceIndex": 14,
@@ -651,12 +557,10 @@ export default {
         "jungle warfare"
       ],
       "optionReasons": {
-        "jungle-mcq-07": "本句指「在濃密熱帶植被地區進行的軍事作戰」。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-08": "「供兒童攀爬玩耍的架構／攀爬架」是「jungle gym」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-09": "「在外觀、植物密度或氣氛上像叢林一樣的」是「jungle-like」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。"
+        "jungle-mcq-07": "本句的「jungle warfare」指「在濃密熱帶植被地區進行的軍事作戰」。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-07"
     },
@@ -668,11 +572,8 @@ export default {
       "masked": "The children climbed on the ____.",
       "options": [
         "jungle-mcq-08",
-        "jungle-mcq-07",
-        "jungle-mcq-09",
-        "jungle-mcq-06",
-        "jungle-mcq-05",
-        "jungle-mcq-04"
+        "jungle-mcq-02",
+        "jungle-mcq-06"
       ],
       "explanation": "本句的「jungle gym」指「供兒童攀爬玩耍的架構／攀爬架」。",
       "sentenceIndex": 15,
@@ -681,12 +582,9 @@ export default {
         "jungle gym"
       ],
       "optionReasons": {
-        "jungle-mcq-08": "本句指「供兒童攀爬玩耍的架構／攀爬架」。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-09": "「在外觀、植物密度或氣氛上像叢林一樣的」是「jungle-like」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。"
+        "jungle-mcq-08": "本句的「jungle gym」指「供兒童攀爬玩耍的架構／攀爬架」。",
+        "jungle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-08"
     },
@@ -698,11 +596,8 @@ export default {
       "masked": "The playground has a large ____.",
       "options": [
         "jungle-mcq-08",
-        "jungle-mcq-07",
-        "jungle-mcq-09",
-        "jungle-mcq-06",
-        "jungle-mcq-05",
-        "jungle-mcq-04"
+        "jungle-mcq-02",
+        "jungle-mcq-06"
       ],
       "explanation": "本句的「jungle gym」指「供兒童攀爬玩耍的架構／攀爬架」。",
       "sentenceIndex": 16,
@@ -711,12 +606,9 @@ export default {
         "jungle gym"
       ],
       "optionReasons": {
-        "jungle-mcq-08": "本句指「供兒童攀爬玩耍的架構／攀爬架」。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-09": "「在外觀、植物密度或氣氛上像叢林一樣的」是「jungle-like」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。"
+        "jungle-mcq-08": "本句的「jungle gym」指「供兒童攀爬玩耍的架構／攀爬架」。",
+        "jungle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-08"
     },
@@ -729,10 +621,8 @@ export default {
       "options": [
         "jungle-mcq-09",
         "jungle-mcq-08",
-        "jungle-mcq-07",
         "jungle-mcq-06",
-        "jungle-mcq-05",
-        "jungle-mcq-04"
+        "jungle-mcq-07"
       ],
       "explanation": "本句的「jungle-like」指「在外觀、植物密度或氣氛上像叢林一樣的」。",
       "sentenceIndex": 17,
@@ -741,12 +631,10 @@ export default {
         "jungle-like"
       ],
       "optionReasons": {
-        "jungle-mcq-09": "本句指「在外觀、植物密度或氣氛上像叢林一樣的」。",
-        "jungle-mcq-08": "「供兒童攀爬玩耍的架構／攀爬架」是「jungle gym」的用法，與本句語境不同。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。"
+        "jungle-mcq-09": "本句的「jungle-like」指「在外觀、植物密度或氣氛上像叢林一樣的」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-09"
     },
@@ -759,10 +647,8 @@ export default {
       "options": [
         "jungle-mcq-09",
         "jungle-mcq-08",
-        "jungle-mcq-07",
         "jungle-mcq-06",
-        "jungle-mcq-05",
-        "jungle-mcq-04"
+        "jungle-mcq-07"
       ],
       "explanation": "本句的「jungle-like」指「在外觀、植物密度或氣氛上像叢林一樣的」。",
       "sentenceIndex": 18,
@@ -771,12 +657,10 @@ export default {
         "jungle-like"
       ],
       "optionReasons": {
-        "jungle-mcq-09": "本句指「在外觀、植物密度或氣氛上像叢林一樣的」。",
-        "jungle-mcq-08": "「供兒童攀爬玩耍的架構／攀爬架」是「jungle gym」的用法，與本句語境不同。",
-        "jungle-mcq-07": "「在濃密熱帶植被地區進行的軍事作戰」是「jungle warfare」的用法，與本句語境不同。",
-        "jungle-mcq-06": "「缺乏公平規則、強者靠力量取得優勢的弱肉強食狀況」是「law of the jungle」的用法，與本句語境不同。",
-        "jungle-mcq-05": "「建築物和道路高度密集、缺少自然空間的都市環境」是「concrete jungle」的用法，與本句語境不同。",
-        "jungle-mcq-04": "「競爭激烈、每個人都要努力保護自己利益的環境」是「jungle — competitive environment」的用法，與本句語境不同。"
+        "jungle-mcq-09": "本句的「jungle-like」指「在外觀、植物密度或氣氛上像叢林一樣的」。",
+        "jungle-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "jungle-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jungle-mcq-09"
     }
@@ -788,5 +672,7 @@ export default {
     "sha256": "3282487f9e09ded11b613c6f0360f63cb8e9768e10609e65c5706a0073273f22",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -424,11 +424,9 @@ export default {
       "masked": "Work has been causing me a lot of ____ lately.",
       "options": [
         "stress-mcq-01",
-        "stress-mcq-02",
         "stress-mcq-03",
-        "stress-mcq-04",
-        "stress-mcq-05",
-        "stress-mcq-06"
+        "stress-pdf-001",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stress」指「因責任、困難或威脅而產生的心理緊張和精神負擔」。",
       "sentenceIndex": 0,
@@ -437,12 +435,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-01": "本句指「因責任、困難或威脅而產生的心理緊張和精神負擔」。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-mcq-01": "本句的「stress」指「因責任、困難或威脅而產生的心理緊張和精神負擔」。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-01"
     },
@@ -454,11 +450,9 @@ export default {
       "masked": "Too much ____ can affect sleep.",
       "options": [
         "stress-mcq-01",
-        "stress-mcq-02",
-        "stress-mcq-03",
+        "stress-mcq-08",
         "stress-mcq-04",
-        "stress-mcq-05",
-        "stress-mcq-06"
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stress」指「因責任、困難或威脅而產生的心理緊張和精神負擔」。",
       "sentenceIndex": 1,
@@ -467,12 +461,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-01": "本句指「因責任、困難或威脅而產生的心理緊張和精神負擔」。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-mcq-01": "本句的「stress」指「因責任、困難或威脅而產生的心理緊張和精神負擔」。",
+        "stress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-01"
     },
@@ -484,11 +476,9 @@ export default {
       "masked": "Running on hard surfaces can put ____ on the knees.",
       "options": [
         "stress-mcq-02",
-        "stress-mcq-01",
-        "stress-mcq-03",
+        "stress-pdf-001",
         "stress-mcq-04",
-        "stress-mcq-05",
-        "stress-mcq-06"
+        "stress-mcq-14"
       ],
       "explanation": "本句的「stress」指「身體或某部位因受力、負荷或重複動作而承受的額外負擔」。",
       "sentenceIndex": 2,
@@ -497,12 +487,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-02": "本句指「身體或某部位因受力、負荷或重複動作而承受的額外負擔」。",
-        "stress-mcq-01": "「因責任、困難或威脅而產生的心理緊張和精神負擔」是「stress — psychological」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-mcq-02": "本句的「stress」指「身體或某部位因受力、負荷或重複動作而承受的額外負擔」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-02"
     },
@@ -514,11 +502,9 @@ export default {
       "masked": "Poor posture places extra ____ on the lower back.",
       "options": [
         "stress-mcq-02",
-        "stress-mcq-01",
-        "stress-mcq-03",
-        "stress-mcq-04",
+        "stress-pdf-001",
         "stress-mcq-05",
-        "stress-mcq-06"
+        "stress-mcq-03"
       ],
       "explanation": "本句的「stress」指「身體或某部位因受力、負荷或重複動作而承受的額外負擔」。",
       "sentenceIndex": 3,
@@ -527,12 +513,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-02": "本句指「身體或某部位因受力、負荷或重複動作而承受的額外負擔」。",
-        "stress-mcq-01": "「因責任、困難或威脅而產生的心理緊張和精神負擔」是「stress — psychological」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-mcq-02": "本句的「stress」指「身體或某部位因受力、負荷或重複動作而承受的額外負擔」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-02"
     },
@@ -544,11 +528,9 @@ export default {
       "masked": "The course places particular ____ on practical skills.",
       "options": [
         "stress-mcq-03",
-        "stress-mcq-02",
-        "stress-mcq-04",
-        "stress-mcq-01",
-        "stress-mcq-05",
-        "stress-mcq-06"
+        "stress-mcq-14",
+        "stress-mcq-17",
+        "stress-pdf-001"
       ],
       "explanation": "本句的「stress」指「對某個觀點、原則或部分給予特別重視」。",
       "sentenceIndex": 4,
@@ -557,12 +539,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-03": "本句指「對某個觀點、原則或部分給予特別重視」。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-01": "「因責任、困難或威脅而產生的心理緊張和精神負擔」是「stress — psychological」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-mcq-03": "本句的「stress」指「對某個觀點、原則或部分給予特別重視」。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-03"
     },
@@ -574,11 +554,9 @@ export default {
       "masked": "The report puts more ____ on prevention.",
       "options": [
         "stress-mcq-03",
-        "stress-mcq-02",
-        "stress-mcq-04",
-        "stress-mcq-01",
         "stress-mcq-05",
-        "stress-mcq-06"
+        "stress-pdf-001",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stress」指「對某個觀點、原則或部分給予特別重視」。",
       "sentenceIndex": 5,
@@ -587,12 +565,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-03": "本句指「對某個觀點、原則或部分給予特別重視」。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-01": "「因責任、困難或威脅而產生的心理緊張和精神負擔」是「stress — psychological」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-mcq-03": "本句的「stress」指「對某個觀點、原則或部分給予特別重視」。",
+        "stress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-03"
     },
@@ -604,11 +580,9 @@ export default {
       "masked": "The teacher ____ the importance of checking your work.",
       "options": [
         "stress-mcq-04",
-        "stress-mcq-03",
-        "stress-mcq-05",
-        "stress-mcq-02",
-        "stress-mcq-06",
-        "stress-mcq-01"
+        "stress-mcq-10",
+        "stress-mcq-13",
+        "stress-pdf-001"
       ],
       "explanation": "本句的「stressed」指「特別指出某件事情的重要性，希望別人留意」。",
       "sentenceIndex": 6,
@@ -617,12 +591,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-04": "本句指「特別指出某件事情的重要性，希望別人留意」。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-01": "「因責任、困難或威脅而產生的心理緊張和精神負擔」是「stress — psychological」的用法，與本句語境不同。"
+        "stress-mcq-04": "本句的「stressed」指「特別指出某件事情的重要性，希望別人留意」。",
+        "stress-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-04"
     },
@@ -634,11 +606,9 @@ export default {
       "masked": "The report ____ the need for better safety measures.",
       "options": [
         "stress-mcq-04",
-        "stress-mcq-03",
-        "stress-mcq-05",
-        "stress-mcq-02",
-        "stress-mcq-06",
-        "stress-mcq-01"
+        "stress-mcq-01",
+        "stress-pdf-001",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stresses」指「特別指出某件事情的重要性，希望別人留意」。",
       "sentenceIndex": 7,
@@ -647,12 +617,10 @@ export default {
         "stresses"
       ],
       "optionReasons": {
-        "stress-mcq-04": "本句指「特別指出某件事情的重要性，希望別人留意」。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-01": "「因責任、困難或威脅而產生的心理緊張和精神負擔」是「stress — psychological」的用法，與本句語境不同。"
+        "stress-mcq-04": "本句的「stresses」指「特別指出某件事情的重要性，希望別人留意」。",
+        "stress-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-04"
     },
@@ -664,11 +632,9 @@ export default {
       "masked": "Deadlines ____ me.",
       "options": [
         "stress-mcq-05",
-        "stress-mcq-04",
-        "stress-mcq-06",
         "stress-mcq-03",
-        "stress-mcq-07",
-        "stress-mcq-02"
+        "stress-pdf-001",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stress」指「令某人產生心理壓力、焦慮或精神緊張」。",
       "sentenceIndex": 8,
@@ -677,12 +643,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-05": "本句指「令某人產生心理壓力、焦慮或精神緊張」。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。"
+        "stress-mcq-05": "本句的「stress」指「令某人產生心理壓力、焦慮或精神緊張」。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-05"
     },
@@ -694,11 +658,9 @@ export default {
       "masked": "The constant noise was ____ everyone.",
       "options": [
         "stress-mcq-05",
-        "stress-mcq-04",
-        "stress-mcq-06",
-        "stress-mcq-03",
-        "stress-mcq-07",
-        "stress-mcq-02"
+        "stress-pdf-001",
+        "stress-mcq-17",
+        "stress-mcq-03"
       ],
       "explanation": "本句的「stressing」指「令某人產生心理壓力、焦慮或精神緊張」。",
       "sentenceIndex": 9,
@@ -707,12 +669,10 @@ export default {
         "stressing"
       ],
       "optionReasons": {
-        "stress-mcq-05": "本句指「令某人產生心理壓力、焦慮或精神緊張」。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-02": "「身體或某部位因受力、負荷或重複動作而承受的額外負擔」是「stress — physical body」的用法，與本句語境不同。"
+        "stress-mcq-05": "本句的「stressing」指「令某人產生心理壓力、焦慮或精神緊張」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-05"
     },
@@ -724,11 +684,9 @@ export default {
       "masked": "The ad showed ordinary people in ____ places.",
       "options": [
         "stress-mcq-06",
-        "stress-mcq-05",
-        "stress-mcq-07",
         "stress-mcq-04",
-        "stress-mcq-08",
-        "stress-mcq-03"
+        "stress-pdf-001",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stressful」指「本身會造成心理壓力、焦慮或精神負擔的」。",
       "sentenceIndex": 10,
@@ -737,12 +695,10 @@ export default {
         "stressful"
       ],
       "optionReasons": {
-        "stress-mcq-06": "本句指「本身會造成心理壓力、焦慮或精神負擔的」。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。"
+        "stress-mcq-06": "本句的「stressful」指「本身會造成心理壓力、焦慮或精神負擔的」。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-06"
     },
@@ -754,11 +710,9 @@ export default {
       "masked": "Moving house can be very ____.",
       "options": [
         "stress-mcq-06",
-        "stress-mcq-05",
-        "stress-mcq-07",
+        "stress-pdf-001",
         "stress-mcq-04",
-        "stress-mcq-08",
-        "stress-mcq-03"
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stressful」指「本身會造成心理壓力、焦慮或精神負擔的」。",
       "sentenceIndex": 11,
@@ -767,12 +721,10 @@ export default {
         "stressful"
       ],
       "optionReasons": {
-        "stress-mcq-06": "本句指「本身會造成心理壓力、焦慮或精神負擔的」。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。"
+        "stress-mcq-06": "本句的「stressful」指「本身會造成心理壓力、焦慮或精神負擔的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-06"
     },
@@ -784,11 +736,9 @@ export default {
       "masked": "She has a ____ job.",
       "options": [
         "stress-mcq-06",
-        "stress-mcq-05",
-        "stress-mcq-07",
         "stress-mcq-04",
         "stress-mcq-08",
-        "stress-mcq-03"
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stressful」指「本身會造成心理壓力、焦慮或精神負擔的」。",
       "sentenceIndex": 12,
@@ -797,12 +747,10 @@ export default {
         "stressful"
       ],
       "optionReasons": {
-        "stress-mcq-06": "本句指「本身會造成心理壓力、焦慮或精神負擔的」。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-03": "「對某個觀點、原則或部分給予特別重視」是「stress — emphasis」的用法，與本句語境不同。"
+        "stress-mcq-06": "本句的「stressful」指「本身會造成心理壓力、焦慮或精神負擔的」。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-06"
     },
@@ -814,11 +762,9 @@ export default {
       "masked": "I felt ____ after a long day at work.",
       "options": [
         "stress-mcq-07",
-        "stress-mcq-06",
-        "stress-mcq-08",
-        "stress-mcq-05",
-        "stress-mcq-09",
-        "stress-mcq-04"
+        "stress-pdf-001",
+        "stress-mcq-04",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stressed」指「正在承受心理壓力、緊張或精神負擔的」。",
       "sentenceIndex": 13,
@@ -827,12 +773,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-07": "本句指「正在承受心理壓力、緊張或精神負擔的」。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。"
+        "stress-mcq-07": "本句的「stressed」指「正在承受心理壓力、緊張或精神負擔的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-07"
     },
@@ -844,11 +788,9 @@ export default {
       "masked": "She looks ____.",
       "options": [
         "stress-mcq-07",
-        "stress-mcq-06",
-        "stress-mcq-08",
-        "stress-mcq-05",
-        "stress-mcq-09",
-        "stress-mcq-04"
+        "stress-pdf-001",
+        "stress-mcq-04",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stressed」指「正在承受心理壓力、緊張或精神負擔的」。",
       "sentenceIndex": 14,
@@ -857,12 +799,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-07": "本句指「正在承受心理壓力、緊張或精神負擔的」。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-04": "「特別指出某件事情的重要性，希望別人留意」是「stress — verb: emphasize」的用法，與本句語境不同。"
+        "stress-mcq-07": "本句的「stressed」指「正在承受心理壓力、緊張或精神負擔的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-07"
     },
@@ -874,11 +814,9 @@ export default {
       "masked": "The first syllable is ____.",
       "options": [
         "stress-mcq-08",
-        "stress-mcq-07",
-        "stress-mcq-09",
-        "stress-mcq-06",
-        "stress-mcq-10",
-        "stress-mcq-05"
+        "stress-mcq-17",
+        "stress-mcq-01",
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stressed」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
       "sentenceIndex": 15,
@@ -887,12 +825,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-08": "本句指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。"
+        "stress-mcq-08": "本句的「stressed」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-08"
     },
@@ -904,11 +840,9 @@ export default {
       "masked": "Content words are often ____ in English sentences.",
       "options": [
         "stress-mcq-08",
-        "stress-mcq-07",
-        "stress-mcq-09",
-        "stress-mcq-06",
-        "stress-mcq-10",
-        "stress-mcq-05"
+        "stress-mcq-15",
+        "stress-mcq-16",
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stressed」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
       "sentenceIndex": 16,
@@ -917,12 +851,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-08": "本句指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。"
+        "stress-mcq-08": "本句的「stressed」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
+        "stress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-08"
     },
@@ -935,10 +867,8 @@ export default {
       "options": [
         "stress-mcq-08",
         "stress-mcq-07",
-        "stress-mcq-09",
-        "stress-mcq-06",
-        "stress-mcq-10",
-        "stress-mcq-05"
+        "stress-mcq-17",
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stress」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
       "sentenceIndex": 17,
@@ -947,12 +877,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-08": "本句指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。"
+        "stress-mcq-08": "本句的「stress」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
+        "stress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-08"
     },
@@ -964,11 +892,9 @@ export default {
       "masked": "Changing the ____ can affect how natural the sentence sounds.",
       "options": [
         "stress-mcq-08",
-        "stress-mcq-07",
-        "stress-mcq-09",
-        "stress-mcq-06",
-        "stress-mcq-10",
-        "stress-mcq-05"
+        "stress-mcq-01",
+        "stress-mcq-17",
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stress」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
       "sentenceIndex": 18,
@@ -977,12 +903,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-08": "本句指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-05": "「令某人產生心理壓力、焦慮或精神緊張」是「stress someone」的用法，與本句語境不同。"
+        "stress-mcq-08": "本句的「stress」指「發音時令某個音節／詞比其他部分更加突出／重讀的現象」。",
+        "stress-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-08"
     },
@@ -994,11 +918,9 @@ export default {
       "masked": "____ the first syllable.",
       "options": [
         "stress-pdf-001",
-        "stress-mcq-08",
-        "stress-mcq-10",
-        "stress-mcq-07",
         "stress-mcq-11",
-        "stress-mcq-06"
+        "stress-mcq-15",
+        "stress-mcq-03"
       ],
       "explanation": "本句的「Stress」指「發音時有意把某個音節或詞讀得更突出」。",
       "sentenceIndex": 19,
@@ -1007,12 +929,10 @@ export default {
         "Stress"
       ],
       "optionReasons": {
-        "stress-pdf-001": "本句指「發音時有意把某個音節或詞讀得更突出」。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-pdf-001": "本句的「Stress」指「發音時有意把某個音節或詞讀得更突出」。",
+        "stress-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-pdf-001"
     },
@@ -1024,11 +944,9 @@ export default {
       "masked": "Native speakers often ____ the key word.",
       "options": [
         "stress-pdf-001",
-        "stress-mcq-08",
-        "stress-mcq-10",
-        "stress-mcq-07",
         "stress-mcq-11",
-        "stress-mcq-06"
+        "stress-mcq-05",
+        "stress-mcq-03"
       ],
       "explanation": "本句的「stress」指「發音時有意把某個音節或詞讀得更突出」。",
       "sentenceIndex": 20,
@@ -1037,12 +955,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-pdf-001": "本句指「發音時有意把某個音節或詞讀得更突出」。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-06": "「本身會造成心理壓力、焦慮或精神負擔的」是「stressful」的用法，與本句語境不同。"
+        "stress-pdf-001": "本句的「stress」指「發音時有意把某個音節或詞讀得更突出」。",
+        "stress-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-pdf-001"
     },
@@ -1054,11 +970,9 @@ export default {
       "masked": "Engineers calculated the ____ on the beam.",
       "options": [
         "stress-mcq-10",
-        "stress-mcq-09",
-        "stress-mcq-11",
-        "stress-mcq-08",
-        "stress-mcq-12",
-        "stress-mcq-07"
+        "stress-mcq-17",
+        "stress-mcq-04",
+        "stress-mcq-14"
       ],
       "explanation": "本句的「stress」指「材料受到外力時內部單位面積所承受的力／應力」。",
       "sentenceIndex": 21,
@@ -1067,12 +981,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-10": "本句指「材料受到外力時內部單位面積所承受的力／應力」。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。"
+        "stress-mcq-10": "本句的「stress」指「材料受到外力時內部單位面積所承受的力／應力」。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-10"
     },
@@ -1084,11 +996,9 @@ export default {
       "masked": "The material can withstand high levels of ____.",
       "options": [
         "stress-mcq-10",
-        "stress-mcq-09",
-        "stress-mcq-11",
-        "stress-mcq-08",
-        "stress-mcq-12",
-        "stress-mcq-07"
+        "stress-mcq-04",
+        "stress-mcq-17",
+        "stress-pdf-001"
       ],
       "explanation": "本句的「stress」指「材料受到外力時內部單位面積所承受的力／應力」。",
       "sentenceIndex": 22,
@@ -1097,12 +1007,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-10": "本句指「材料受到外力時內部單位面積所承受的力／應力」。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-07": "「正在承受心理壓力、緊張或精神負擔的」是「stressed — emotional」的用法，與本句語境不同。"
+        "stress-mcq-10": "本句的「stress」指「材料受到外力時內部單位面積所承受的力／應力」。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-10"
     },
@@ -1114,11 +1022,9 @@ export default {
       "masked": "The ____ section of the structure needs reinforcement.",
       "options": [
         "stress-mcq-11",
-        "stress-mcq-10",
-        "stress-mcq-12",
-        "stress-mcq-09",
-        "stress-mcq-13",
-        "stress-mcq-08"
+        "stress-pdf-001",
+        "stress-mcq-03",
+        "stress-mcq-14"
       ],
       "explanation": "本句的「stressed」指「正承受機械應力或較大物理負荷的」。",
       "sentenceIndex": 23,
@@ -1127,12 +1033,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-11": "本句指「正承受機械應力或較大物理負荷的」。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。"
+        "stress-mcq-11": "本句的「stressed」指「正承受機械應力或較大物理負荷的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-11"
     },
@@ -1144,11 +1048,9 @@ export default {
       "masked": "Cracks appeared in highly ____ areas.",
       "options": [
         "stress-mcq-11",
-        "stress-mcq-10",
-        "stress-mcq-12",
-        "stress-mcq-09",
-        "stress-mcq-13",
-        "stress-mcq-08"
+        "stress-pdf-001",
+        "stress-mcq-04",
+        "stress-mcq-14"
       ],
       "explanation": "本句的「stressed」指「正承受機械應力或較大物理負荷的」。",
       "sentenceIndex": 24,
@@ -1157,12 +1059,10 @@ export default {
         "stressed"
       ],
       "optionReasons": {
-        "stress-mcq-11": "本句指「正承受機械應力或較大物理負荷的」。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-08": "「發音時令某個音節／詞比其他部分更加突出／重讀的現象」是「stress — linguistics」的用法，與本句語境不同。"
+        "stress-mcq-11": "本句的「stressed」指「正承受機械應力或較大物理負荷的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-11"
     },
@@ -1174,11 +1074,9 @@ export default {
       "masked": "Heat ____ can affect the body.",
       "options": [
         "stress-mcq-12",
-        "stress-mcq-11",
-        "stress-mcq-13",
-        "stress-mcq-10",
-        "stress-mcq-14",
-        "stress-mcq-09"
+        "stress-mcq-03",
+        "stress-pdf-001",
+        "stress-mcq-15"
       ],
       "explanation": "本句的「stress」指「生物面對不利條件時產生的生理負荷／應激反應」。",
       "sentenceIndex": 25,
@@ -1187,12 +1085,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-12": "本句指「生物面對不利條件時產生的生理負荷／應激反應」。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。"
+        "stress-mcq-12": "本句的「stress」指「生物面對不利條件時產生的生理負荷／應激反應」。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-12"
     },
@@ -1204,11 +1100,9 @@ export default {
       "masked": "Plants experience water ____ during drought.",
       "options": [
         "stress-mcq-12",
-        "stress-mcq-11",
-        "stress-mcq-13",
-        "stress-mcq-10",
-        "stress-mcq-14",
-        "stress-mcq-09"
+        "stress-mcq-03",
+        "stress-pdf-001",
+        "stress-mcq-15"
       ],
       "explanation": "本句的「stress」指「生物面對不利條件時產生的生理負荷／應激反應」。",
       "sentenceIndex": 26,
@@ -1217,12 +1111,10 @@ export default {
         "stress"
       ],
       "optionReasons": {
-        "stress-mcq-12": "本句指「生物面對不利條件時產生的生理負荷／應激反應」。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-09": "「在發音時承受重音、被特別重讀的」是「stressed — linguistics」的用法，與本句語境不同。"
+        "stress-mcq-12": "本句的「stress」指「生物面對不利條件時產生的生理負荷／應激反應」。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-12"
     },
@@ -1234,11 +1126,9 @@ export default {
       "masked": "Noise is a common workplace ____.",
       "options": [
         "stress-mcq-13",
-        "stress-mcq-12",
-        "stress-mcq-14",
-        "stress-mcq-11",
-        "stress-mcq-15",
-        "stress-mcq-10"
+        "stress-mcq-17",
+        "stress-mcq-08",
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stressor」指「會引起心理、生理或生物壓力反應的因素」。",
       "sentenceIndex": 27,
@@ -1247,12 +1137,10 @@ export default {
         "stressor"
       ],
       "optionReasons": {
-        "stress-mcq-13": "本句指「會引起心理、生理或生物壓力反應的因素」。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。"
+        "stress-mcq-13": "本句的「stressor」指「會引起心理、生理或生物壓力反應的因素」。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-13"
     },
@@ -1264,11 +1152,9 @@ export default {
       "masked": "Financial problems can be major ____.",
       "options": [
         "stress-mcq-13",
-        "stress-mcq-12",
-        "stress-mcq-14",
-        "stress-mcq-11",
-        "stress-mcq-15",
-        "stress-mcq-10"
+        "stress-mcq-17",
+        "stress-mcq-03",
+        "stress-pdf-001"
       ],
       "explanation": "本句的「stressors」指「會引起心理、生理或生物壓力反應的因素」。",
       "sentenceIndex": 28,
@@ -1277,12 +1163,10 @@ export default {
         "stressors"
       ],
       "optionReasons": {
-        "stress-mcq-13": "本句指「會引起心理、生理或生物壓力反應的因素」。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-10": "「材料受到外力時內部單位面積所承受的力／應力」是「stress — engineering」的用法，與本句語境不同。"
+        "stress-mcq-13": "本句的「stressors」指「會引起心理、生理或生物壓力反應的因素」。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-13"
     },
@@ -1294,11 +1178,9 @@ export default {
       "masked": "She took time off because of ____ health problems.",
       "options": [
         "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-15",
-        "stress-mcq-12",
-        "stress-mcq-16",
-        "stress-mcq-11"
+        "stress-mcq-17",
+        "stress-mcq-03",
+        "stress-pdf-001"
       ],
       "explanation": "本句的「stress-related」指「與壓力直接相關或可能由壓力造成的」。",
       "sentenceIndex": 29,
@@ -1307,12 +1189,10 @@ export default {
         "stress-related"
       ],
       "optionReasons": {
-        "stress-mcq-14": "本句指「與壓力直接相關或可能由壓力造成的」。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-16": "「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」是「stress test」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。"
+        "stress-mcq-14": "本句的「stress-related」指「與壓力直接相關或可能由壓力造成的」。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-14"
     },
@@ -1324,11 +1204,9 @@ export default {
       "masked": "The company introduced measures to reduce ____ absence.",
       "options": [
         "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-15",
-        "stress-mcq-12",
-        "stress-mcq-16",
-        "stress-mcq-11"
+        "stress-pdf-001",
+        "stress-mcq-04",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stress-related」指「與壓力直接相關或可能由壓力造成的」。",
       "sentenceIndex": 30,
@@ -1337,12 +1215,10 @@ export default {
         "stress-related"
       ],
       "optionReasons": {
-        "stress-mcq-14": "本句指「與壓力直接相關或可能由壓力造成的」。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。",
-        "stress-mcq-16": "「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」是「stress test」的用法，與本句語境不同。",
-        "stress-mcq-11": "「正承受機械應力或較大物理負荷的」是「stressed — engineering」的用法，與本句語境不同。"
+        "stress-mcq-14": "本句的「stress-related」指「與壓力直接相關或可能由壓力造成的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-14"
     },
@@ -1354,11 +1230,9 @@ export default {
       "masked": "They wanted a more ____ journey.",
       "options": [
         "stress-mcq-15",
-        "stress-mcq-14",
-        "stress-mcq-16",
-        "stress-mcq-13",
+        "stress-pdf-001",
         "stress-mcq-17",
-        "stress-mcq-12"
+        "stress-mcq-03"
       ],
       "explanation": "本句的「stress-free」指「幾乎沒有心理壓力、緊張或麻煩的」。",
       "sentenceIndex": 31,
@@ -1367,12 +1241,10 @@ export default {
         "stress-free"
       ],
       "optionReasons": {
-        "stress-mcq-15": "本句指「幾乎沒有心理壓力、緊張或麻煩的」。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-16": "「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」是「stress test」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-17": "「刻意在高負荷或極端條件下測試某物是否穩定可靠」是「stress-test」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-15": "本句的「stress-free」指「幾乎沒有心理壓力、緊張或麻煩的」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-15"
     },
@@ -1384,11 +1256,9 @@ export default {
       "masked": "Online check-in can make travelling more ____.",
       "options": [
         "stress-mcq-15",
-        "stress-mcq-14",
-        "stress-mcq-16",
-        "stress-mcq-13",
-        "stress-mcq-17",
-        "stress-mcq-12"
+        "stress-mcq-04",
+        "stress-pdf-001",
+        "stress-mcq-17"
       ],
       "explanation": "本句的「stress-free」指「幾乎沒有心理壓力、緊張或麻煩的」。",
       "sentenceIndex": 32,
@@ -1397,12 +1267,10 @@ export default {
         "stress-free"
       ],
       "optionReasons": {
-        "stress-mcq-15": "本句指「幾乎沒有心理壓力、緊張或麻煩的」。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-16": "「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」是「stress test」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-17": "「刻意在高負荷或極端條件下測試某物是否穩定可靠」是「stress-test」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-15": "本句的「stress-free」指「幾乎沒有心理壓力、緊張或麻煩的」。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-15"
     },
@@ -1414,11 +1282,9 @@ export default {
       "masked": "The engineers performed a ____ on the system.",
       "options": [
         "stress-mcq-16",
-        "stress-mcq-15",
-        "stress-mcq-17",
-        "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-12"
+        "stress-mcq-03",
+        "stress-pdf-001",
+        "stress-mcq-14"
       ],
       "explanation": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
       "sentenceIndex": 33,
@@ -1427,12 +1293,10 @@ export default {
         "stress test"
       ],
       "optionReasons": {
-        "stress-mcq-16": "本句指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-17": "「刻意在高負荷或極端條件下測試某物是否穩定可靠」是「stress-test」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-16": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-16"
     },
@@ -1444,11 +1308,9 @@ export default {
       "masked": "The bank passed the financial ____.",
       "options": [
         "stress-mcq-16",
-        "stress-mcq-15",
-        "stress-mcq-17",
+        "stress-mcq-08",
         "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-12"
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
       "sentenceIndex": 34,
@@ -1457,12 +1319,10 @@ export default {
         "stress test"
       ],
       "optionReasons": {
-        "stress-mcq-16": "本句指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-17": "「刻意在高負荷或極端條件下測試某物是否穩定可靠」是「stress-test」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-16": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
+        "stress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-16"
     },
@@ -1474,11 +1334,9 @@ export default {
       "masked": "The doctor recommended a cardiac ____.",
       "options": [
         "stress-mcq-16",
-        "stress-mcq-15",
-        "stress-mcq-17",
+        "stress-mcq-08",
         "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-12"
+        "stress-mcq-04"
       ],
       "explanation": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
       "sentenceIndex": 35,
@@ -1487,12 +1345,10 @@ export default {
         "stress test"
       ],
       "optionReasons": {
-        "stress-mcq-16": "本句指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-17": "「刻意在高負荷或極端條件下測試某物是否穩定可靠」是「stress-test」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-16": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
+        "stress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-16"
     },
@@ -1504,11 +1360,9 @@ export default {
       "masked": "The ____ measures how the heart performs during exercise.",
       "options": [
         "stress-mcq-16",
-        "stress-mcq-15",
-        "stress-mcq-17",
-        "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-12"
+        "stress-pdf-001",
+        "stress-mcq-03",
+        "stress-mcq-14"
       ],
       "explanation": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
       "sentenceIndex": 36,
@@ -1517,12 +1371,10 @@ export default {
         "stress test"
       ],
       "optionReasons": {
-        "stress-mcq-16": "本句指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-17": "「刻意在高負荷或極端條件下測試某物是否穩定可靠」是「stress-test」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-16": "本句的「stress test」指「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」。",
+        "stress-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-16"
     },
@@ -1534,11 +1386,9 @@ export default {
       "masked": "The developers ____ the software before release.",
       "options": [
         "stress-mcq-17",
-        "stress-mcq-16",
+        "stress-mcq-08",
         "stress-mcq-15",
-        "stress-mcq-14",
-        "stress-mcq-13",
-        "stress-mcq-12"
+        "stress-mcq-10"
       ],
       "explanation": "本句的「stress-tested」指「刻意在高負荷或極端條件下測試某物是否穩定可靠」。",
       "sentenceIndex": 37,
@@ -1547,12 +1397,10 @@ export default {
         "stress-tested"
       ],
       "optionReasons": {
-        "stress-mcq-17": "本句指「刻意在高負荷或極端條件下測試某物是否穩定可靠」。",
-        "stress-mcq-16": "「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」是「stress test」的用法，與本句語境不同。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-17": "本句的「stress-tested」指「刻意在高負荷或極端條件下測試某物是否穩定可靠」。",
+        "stress-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-17"
     },
@@ -1564,11 +1412,9 @@ export default {
       "masked": "The new bridge was ____ before opening.",
       "options": [
         "stress-mcq-17",
-        "stress-mcq-16",
-        "stress-mcq-15",
-        "stress-mcq-14",
         "stress-mcq-13",
-        "stress-mcq-12"
+        "stress-mcq-03",
+        "stress-mcq-10"
       ],
       "explanation": "本句的「stress-tested」指「刻意在高負荷或極端條件下測試某物是否穩定可靠」。",
       "sentenceIndex": 38,
@@ -1577,12 +1423,10 @@ export default {
         "stress-tested"
       ],
       "optionReasons": {
-        "stress-mcq-17": "本句指「刻意在高負荷或極端條件下測試某物是否穩定可靠」。",
-        "stress-mcq-16": "「在極端／高負荷條件下檢查承受能力的測試；醫療上亦可指心臟負荷測試」是「stress test」的用法，與本句語境不同。",
-        "stress-mcq-15": "「幾乎沒有心理壓力、緊張或麻煩的」是「stress-free」的用法，與本句語境不同。",
-        "stress-mcq-14": "「與壓力直接相關或可能由壓力造成的」是「stress-related」的用法，與本句語境不同。",
-        "stress-mcq-13": "「會引起心理、生理或生物壓力反應的因素」是「stressor」的用法，與本句語境不同。",
-        "stress-mcq-12": "「生物面對不利條件時產生的生理負荷／應激反應」是「stress — biological」的用法，與本句語境不同。"
+        "stress-mcq-17": "本句的「stress-tested」指「刻意在高負荷或極端條件下測試某物是否穩定可靠」。",
+        "stress-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stress-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stress-mcq-17"
     }
@@ -1594,5 +1438,7 @@ export default {
     "sha256": "d217d8a4d974364a027bc21c646c7e67cf6da1c9f8debc084cd4d371e81a0ba9",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -217,11 +217,9 @@ export default {
       "masked": "The bakery is famous for its ____.",
       "options": [
         "egg-mcq-01",
-        "egg-mcq-02",
+        "egg-mcq-06",
         "egg-mcq-03",
-        "egg-mcq-04",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-09"
       ],
       "explanation": "本句的「egg tarts」指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
       "sentenceIndex": 0,
@@ -230,12 +228,10 @@ export default {
         "egg tarts"
       ],
       "optionReasons": {
-        "egg-mcq-01": "本句指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-01": "本句的「egg tarts」指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-01"
     },
@@ -247,11 +243,9 @@ export default {
       "masked": "She had two ____ for breakfast.",
       "options": [
         "egg-mcq-01",
-        "egg-mcq-02",
         "egg-mcq-03",
-        "egg-mcq-04",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-06",
+        "egg-mcq-09"
       ],
       "explanation": "本句的「eggs」指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
       "sentenceIndex": 1,
@@ -260,12 +254,10 @@ export default {
         "eggs"
       ],
       "optionReasons": {
-        "egg-mcq-01": "本句指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-01": "本句的「eggs」指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-01"
     },
@@ -277,11 +269,9 @@ export default {
       "masked": "Add an ____ to the mixture.",
       "options": [
         "egg-mcq-01",
-        "egg-mcq-02",
+        "egg-mcq-06",
         "egg-mcq-03",
-        "egg-mcq-04",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-04"
       ],
       "explanation": "本句的「egg」指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
       "sentenceIndex": 2,
@@ -290,12 +280,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-01": "本句指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-01": "本句的「egg」指「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-01"
     },
@@ -307,11 +295,9 @@ export default {
       "masked": "The bird laid three ____.",
       "options": [
         "egg-mcq-02",
-        "egg-mcq-01",
-        "egg-mcq-03",
         "egg-mcq-04",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-06",
+        "egg-mcq-09"
       ],
       "explanation": "本句的「eggs」指「動物產生、可發育成新個體的生殖結構」。",
       "sentenceIndex": 3,
@@ -320,12 +306,10 @@ export default {
         "eggs"
       ],
       "optionReasons": {
-        "egg-mcq-02": "本句指「動物產生、可發育成新個體的生殖結構」。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-02": "本句的「eggs」指「動物產生、可發育成新個體的生殖結構」。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-02"
     },
@@ -337,11 +321,9 @@ export default {
       "masked": "The insect lays its ____ on leaves.",
       "options": [
         "egg-mcq-02",
-        "egg-mcq-01",
-        "egg-mcq-03",
-        "egg-mcq-04",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-07",
+        "egg-mcq-06",
+        "egg-mcq-04"
       ],
       "explanation": "本句的「eggs」指「動物產生、可發育成新個體的生殖結構」。",
       "sentenceIndex": 4,
@@ -350,12 +332,10 @@ export default {
         "eggs"
       ],
       "optionReasons": {
-        "egg-mcq-02": "本句指「動物產生、可發育成新個體的生殖結構」。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-02": "本句的「eggs」指「動物產生、可發育成新個體的生殖結構」。",
+        "egg-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-02"
     },
@@ -367,11 +347,9 @@ export default {
       "masked": "An ____ can be fertilized by a sperm cell.",
       "options": [
         "egg-mcq-03",
-        "egg-mcq-02",
-        "egg-mcq-04",
-        "egg-mcq-01",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-06",
+        "egg-mcq-09",
+        "egg-mcq-01"
       ],
       "explanation": "本句的「egg」指「雌性生殖細胞；卵細胞」。",
       "sentenceIndex": 5,
@@ -380,12 +358,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-03": "本句指「雌性生殖細胞；卵細胞」。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-03": "本句的「egg」指「雌性生殖細胞；卵細胞」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-03"
     },
@@ -397,11 +373,9 @@ export default {
       "masked": "The ovaries release ____.",
       "options": [
         "egg-mcq-03",
-        "egg-mcq-02",
-        "egg-mcq-04",
-        "egg-mcq-01",
-        "egg-mcq-05",
-        "egg-mcq-06"
+        "egg-mcq-08",
+        "egg-mcq-06",
+        "egg-mcq-01"
       ],
       "explanation": "本句的「eggs」指「雌性生殖細胞；卵細胞」。",
       "sentenceIndex": 6,
@@ -410,12 +384,10 @@ export default {
         "eggs"
       ],
       "optionReasons": {
-        "egg-mcq-03": "本句指「雌性生殖細胞；卵細胞」。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。"
+        "egg-mcq-03": "本句的「eggs」指「雌性生殖細胞；卵細胞」。",
+        "egg-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-03"
     },
@@ -427,11 +399,9 @@ export default {
       "masked": "The sculpture has the shape of an ____.",
       "options": [
         "egg-mcq-04",
-        "egg-mcq-03",
-        "egg-mcq-05",
-        "egg-mcq-02",
+        "egg-mcq-09",
         "egg-mcq-06",
-        "egg-mcq-01"
+        "egg-mcq-02"
       ],
       "explanation": "本句的「egg」指「外形像蛋一樣呈卵形／橢圓形的」。",
       "sentenceIndex": 7,
@@ -440,12 +410,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-04": "本句指「外形像蛋一樣呈卵形／橢圓形的」。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。"
+        "egg-mcq-04": "本句的「egg」指「外形像蛋一樣呈卵形／橢圓形的」。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-04"
     },
@@ -457,11 +425,9 @@ export default {
       "masked": "The stone looked like a giant ____.",
       "options": [
         "egg-mcq-04",
-        "egg-mcq-03",
-        "egg-mcq-05",
+        "egg-mcq-09",
         "egg-mcq-02",
-        "egg-mcq-06",
-        "egg-mcq-01"
+        "egg-mcq-06"
       ],
       "explanation": "本句的「egg」指「外形像蛋一樣呈卵形／橢圓形的」。",
       "sentenceIndex": 8,
@@ -470,12 +436,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-04": "本句指「外形像蛋一樣呈卵形／橢圓形的」。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。"
+        "egg-mcq-04": "本句的「egg」指「外形像蛋一樣呈卵形／橢圓形的」。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-04"
     },
@@ -487,11 +451,9 @@ export default {
       "masked": "The table has an ____ top.",
       "options": [
         "egg-mcq-04",
-        "egg-mcq-03",
-        "egg-mcq-05",
         "egg-mcq-02",
-        "egg-mcq-06",
-        "egg-mcq-01"
+        "egg-mcq-08",
+        "egg-mcq-06"
       ],
       "explanation": "本句的「egg-shaped」指「外形像蛋一樣呈卵形／橢圓形的」。",
       "sentenceIndex": 9,
@@ -500,12 +462,10 @@ export default {
         "egg-shaped"
       ],
       "optionReasons": {
-        "egg-mcq-04": "本句指「外形像蛋一樣呈卵形／橢圓形的」。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。"
+        "egg-mcq-04": "本句的「egg-shaped」指「外形像蛋一樣呈卵形／橢圓形的」。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-04"
     },
@@ -517,11 +477,9 @@ export default {
       "masked": "They chose an ____ lamp.",
       "options": [
         "egg-mcq-04",
-        "egg-mcq-03",
-        "egg-mcq-05",
-        "egg-mcq-02",
         "egg-mcq-06",
-        "egg-mcq-01"
+        "egg-mcq-09",
+        "egg-mcq-02"
       ],
       "explanation": "本句的「egg-shaped」指「外形像蛋一樣呈卵形／橢圓形的」。",
       "sentenceIndex": 10,
@@ -530,12 +488,10 @@ export default {
         "egg-shaped"
       ],
       "optionReasons": {
-        "egg-mcq-04": "本句指「外形像蛋一樣呈卵形／橢圓形的」。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-02": "「動物產生、可發育成新個體的生殖結構」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-01": "「作為食物／烹飪材料使用的鳥蛋，日常通常指雞蛋」與本句語境不同。"
+        "egg-mcq-04": "本句的「egg-shaped」指「外形像蛋一樣呈卵形／橢圓形的」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-04"
     },
@@ -547,11 +503,9 @@ export default {
       "masked": "They saved a small ____ for emergencies.",
       "options": [
         "egg-mcq-06",
-        "egg-mcq-05",
-        "egg-mcq-07",
         "egg-mcq-04",
-        "egg-mcq-08",
-        "egg-mcq-03"
+        "egg-mcq-02",
+        "egg-mcq-08"
       ],
       "explanation": "本句的「nest egg」指「為未來用途逐步累積的一筆儲蓄／資金」。",
       "sentenceIndex": 13,
@@ -560,12 +514,10 @@ export default {
         "nest egg"
       ],
       "optionReasons": {
-        "egg-mcq-06": "本句指「為未來用途逐步累積的一筆儲蓄／資金」。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-07": "「非正式指非常學術、書卷氣重或聰明的人」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-08": "「非正式／較舊式指好人、可靠的人」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。"
+        "egg-mcq-06": "本句的「nest egg」指「為未來用途逐步累積的一筆儲蓄／資金」。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-06"
     },
@@ -577,11 +529,9 @@ export default {
       "masked": "She built up a nest ____ for retirement.",
       "options": [
         "egg-mcq-06",
-        "egg-mcq-05",
         "egg-mcq-07",
-        "egg-mcq-04",
-        "egg-mcq-08",
-        "egg-mcq-03"
+        "egg-mcq-03",
+        "egg-mcq-04"
       ],
       "explanation": "本句的「egg」指「為未來用途逐步累積的一筆儲蓄／資金」。",
       "sentenceIndex": 14,
@@ -590,12 +540,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-06": "本句指「為未來用途逐步累積的一筆儲蓄／資金」。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-07": "「非正式指非常學術、書卷氣重或聰明的人」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。",
-        "egg-mcq-08": "「非正式／較舊式指好人、可靠的人」與本句語境不同。",
-        "egg-mcq-03": "「雌性生殖細胞；卵細胞」與本句語境不同。"
+        "egg-mcq-06": "本句的「egg」指「為未來用途逐步累積的一筆儲蓄／資金」。",
+        "egg-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-06"
     },
@@ -607,11 +555,9 @@ export default {
       "masked": "He was teased for being an ____.",
       "options": [
         "egg-mcq-07",
-        "egg-mcq-06",
-        "egg-mcq-08",
-        "egg-mcq-05",
-        "egg-mcq-09",
-        "egg-mcq-04"
+        "egg-mcq-03",
+        "egg-mcq-04",
+        "egg-mcq-06"
       ],
       "explanation": "本句的「egghead」指「非正式指非常學術、書卷氣重或聰明的人」。",
       "sentenceIndex": 15,
@@ -620,12 +566,10 @@ export default {
         "egghead"
       ],
       "optionReasons": {
-        "egg-mcq-07": "本句指「非正式指非常學術、書卷氣重或聰明的人」。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-08": "「非正式／較舊式指好人、可靠的人」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-09": "「非正式／較舊式指品格差或麻煩的人」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。"
+        "egg-mcq-07": "本句的「egghead」指「非正式指非常學術、書卷氣重或聰明的人」。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-07"
     },
@@ -637,11 +581,9 @@ export default {
       "masked": "The discussion was full of policy ____.",
       "options": [
         "egg-mcq-07",
+        "egg-mcq-04",
         "egg-mcq-06",
-        "egg-mcq-08",
-        "egg-mcq-05",
-        "egg-mcq-09",
-        "egg-mcq-04"
+        "egg-mcq-03"
       ],
       "explanation": "本句的「eggheads」指「非正式指非常學術、書卷氣重或聰明的人」。",
       "sentenceIndex": 16,
@@ -650,12 +592,10 @@ export default {
         "eggheads"
       ],
       "optionReasons": {
-        "egg-mcq-07": "本句指「非正式指非常學術、書卷氣重或聰明的人」。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-08": "「非正式／較舊式指好人、可靠的人」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-09": "「非正式／較舊式指品格差或麻煩的人」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。"
+        "egg-mcq-07": "本句的「eggheads」指「非正式指非常學術、書卷氣重或聰明的人」。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-07"
     },
@@ -667,11 +607,9 @@ export default {
       "masked": "He’s a ____.",
       "options": [
         "egg-mcq-08",
-        "egg-mcq-07",
-        "egg-mcq-09",
         "egg-mcq-06",
-        "egg-mcq-05",
-        "egg-mcq-04"
+        "egg-mcq-04",
+        "egg-mcq-02"
       ],
       "explanation": "本句的「good egg」指「非正式／較舊式指好人、可靠的人」。",
       "sentenceIndex": 17,
@@ -680,12 +618,10 @@ export default {
         "good egg"
       ],
       "optionReasons": {
-        "egg-mcq-08": "本句指「非正式／較舊式指好人、可靠的人」。",
-        "egg-mcq-07": "「非正式指非常學術、書卷氣重或聰明的人」與本句語境不同。",
-        "egg-mcq-09": "「非正式／較舊式指品格差或麻煩的人」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。"
+        "egg-mcq-08": "本句的「good egg」指「非正式／較舊式指好人、可靠的人」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-08"
     },
@@ -697,11 +633,9 @@ export default {
       "masked": "She turned out to be a good ____.",
       "options": [
         "egg-mcq-08",
-        "egg-mcq-07",
-        "egg-mcq-09",
         "egg-mcq-06",
-        "egg-mcq-05",
-        "egg-mcq-04"
+        "egg-mcq-04",
+        "egg-mcq-02"
       ],
       "explanation": "本句的「egg」指「非正式／較舊式指好人、可靠的人」。",
       "sentenceIndex": 18,
@@ -710,12 +644,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-08": "本句指「非正式／較舊式指好人、可靠的人」。",
-        "egg-mcq-07": "「非正式指非常學術、書卷氣重或聰明的人」與本句語境不同。",
-        "egg-mcq-09": "「非正式／較舊式指品格差或麻煩的人」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。"
+        "egg-mcq-08": "本句的「egg」指「非正式／較舊式指好人、可靠的人」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-08"
     },
@@ -727,11 +659,9 @@ export default {
       "masked": "He was considered a ____.",
       "options": [
         "egg-mcq-09",
-        "egg-mcq-08",
-        "egg-mcq-07",
         "egg-mcq-06",
-        "egg-mcq-05",
-        "egg-mcq-04"
+        "egg-mcq-04",
+        "egg-mcq-03"
       ],
       "explanation": "本句的「bad egg」指「非正式／較舊式指品格差或麻煩的人」。",
       "sentenceIndex": 19,
@@ -740,12 +670,10 @@ export default {
         "bad egg"
       ],
       "optionReasons": {
-        "egg-mcq-09": "本句指「非正式／較舊式指品格差或麻煩的人」。",
-        "egg-mcq-08": "「非正式／較舊式指好人、可靠的人」與本句語境不同。",
-        "egg-mcq-07": "「非正式指非常學術、書卷氣重或聰明的人」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。"
+        "egg-mcq-09": "本句的「bad egg」指「非正式／較舊式指品格差或麻煩的人」。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-09"
     },
@@ -757,11 +685,9 @@ export default {
       "masked": "One bad ____ can cause problems for the whole team.",
       "options": [
         "egg-mcq-09",
-        "egg-mcq-08",
-        "egg-mcq-07",
+        "egg-mcq-04",
         "egg-mcq-06",
-        "egg-mcq-05",
-        "egg-mcq-04"
+        "egg-mcq-03"
       ],
       "explanation": "本句的「egg」指「非正式／較舊式指品格差或麻煩的人」。",
       "sentenceIndex": 20,
@@ -770,12 +696,10 @@ export default {
         "egg"
       ],
       "optionReasons": {
-        "egg-mcq-09": "本句指「非正式／較舊式指品格差或麻煩的人」。",
-        "egg-mcq-08": "「非正式／較舊式指好人、可靠的人」與本句語境不同。",
-        "egg-mcq-07": "「非正式指非常學術、書卷氣重或聰明的人」與本句語境不同。",
-        "egg-mcq-06": "「為未來用途逐步累積的一筆儲蓄／資金」與本句語境不同。",
-        "egg-mcq-05": "「魚類產生的卵；魚卵」與本句語境不同。",
-        "egg-mcq-04": "「外形像蛋一樣呈卵形／橢圓形的」與本句語境不同。"
+        "egg-mcq-09": "本句的「egg」指「非正式／較舊式指品格差或麻煩的人」。",
+        "egg-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "egg-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "egg-mcq-09"
     }
@@ -787,5 +711,7 @@ export default {
     "sha256": "a0231cbe1531943b023cb077535164ee18e67b7eaac6e8f573b8c3702db0acbf",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

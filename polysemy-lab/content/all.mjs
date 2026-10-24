@@ -596,11 +596,9 @@ export default {
       "masked": "____ need water.",
       "options": [
         "all-mcq-01",
-        "all-mcq-02",
-        "all-mcq-03",
-        "all-mcq-04",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-14",
+        "all-mcq-10",
+        "all-mcq-20"
       ],
       "explanation": "本句的「All plants」指「某群體中的每一個成員，沒有例外」。",
       "sentenceIndex": 0,
@@ -609,12 +607,10 @@ export default {
         "All plants"
       ],
       "optionReasons": {
-        "all-mcq-01": "本句指「某群體中的每一個成員，沒有例外」。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-01": "本句的「All plants」指「某群體中的每一個成員，沒有例外」。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-01"
     },
@@ -626,11 +622,9 @@ export default {
       "masked": "____ students must submit the form.",
       "options": [
         "all-mcq-01",
-        "all-mcq-02",
-        "all-mcq-03",
-        "all-mcq-04",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-23",
+        "all-mcq-17",
+        "all-mcq-21"
       ],
       "explanation": "本句的「All」指「某群體中的每一個成員，沒有例外」。",
       "sentenceIndex": 1,
@@ -639,12 +633,10 @@ export default {
         "All"
       ],
       "optionReasons": {
-        "all-mcq-01": "本句指「某群體中的每一個成員，沒有例外」。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-01": "本句的「All」指「某群體中的每一個成員，沒有例外」。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-01"
     },
@@ -656,11 +648,9 @@ export default {
       "masked": "____ in the tank was removed.",
       "options": [
         "all-mcq-02",
-        "all-mcq-01",
-        "all-mcq-03",
-        "all-mcq-04",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-24",
+        "all-mcq-21",
+        "all-mcq-07"
       ],
       "explanation": "本句的「All water」指「某不可數事物的全部份量／內容」。",
       "sentenceIndex": 2,
@@ -669,12 +659,10 @@ export default {
         "All water"
       ],
       "optionReasons": {
-        "all-mcq-02": "本句指「某不可數事物的全部份量／內容」。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-02": "本句的「All water」指「某不可數事物的全部份量／內容」。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-02"
     },
@@ -686,11 +674,9 @@ export default {
       "masked": "____ information must be checked carefully.",
       "options": [
         "all-mcq-02",
-        "all-mcq-01",
-        "all-mcq-03",
-        "all-mcq-04",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-09",
+        "all-mcq-23",
+        "all-mcq-07"
       ],
       "explanation": "本句的「All」指「某不可數事物的全部份量／內容」。",
       "sentenceIndex": 3,
@@ -699,12 +685,10 @@ export default {
         "All"
       ],
       "optionReasons": {
-        "all-mcq-02": "本句指「某不可數事物的全部份量／內容」。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-02": "本句的「All」指「某不可數事物的全部份量／內容」。",
+        "all-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-02"
     },
@@ -716,11 +700,9 @@ export default {
       "masked": "She spent ____ in the garden.” More natural modern English: > “She spent all day in the garden.",
       "options": [
         "all-mcq-02",
-        "all-mcq-01",
-        "all-mcq-03",
-        "all-mcq-04",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-24",
+        "all-mcq-22",
+        "all-mcq-07"
       ],
       "explanation": "本句的「all the day」指「某不可數事物的全部份量／內容」。",
       "sentenceIndex": 4,
@@ -729,12 +711,10 @@ export default {
         "all the day"
       ],
       "optionReasons": {
-        "all-mcq-02": "本句指「某不可數事物的全部份量／內容」。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-02": "本句的「all the day」指「某不可數事物的全部份量／內容」。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-02"
     },
@@ -746,11 +726,9 @@ export default {
       "masked": "He ate ____.",
       "options": [
         "all-mcq-02",
-        "all-mcq-01",
-        "all-mcq-03",
-        "all-mcq-04",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-16",
+        "all-mcq-11",
+        "all-mcq-10"
       ],
       "explanation": "本句的「all the cake」指「某不可數事物的全部份量／內容」。",
       "sentenceIndex": 5,
@@ -759,12 +737,10 @@ export default {
         "all the cake"
       ],
       "optionReasons": {
-        "all-mcq-02": "本句指「某不可數事物的全部份量／內容」。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-02": "本句的「all the cake」指「某不可數事物的全部份量／內容」。",
+        "all-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-02"
     },
@@ -776,11 +752,9 @@ export default {
       "masked": "____ need sunlight.",
       "options": [
         "all-mcq-03",
-        "all-mcq-02",
-        "all-mcq-04",
-        "all-mcq-01",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-10",
+        "all-mcq-07",
+        "all-mcq-22"
       ],
       "explanation": "本句的「All of these plants」指「某個已明確限定群體中的全部」。",
       "sentenceIndex": 6,
@@ -789,12 +763,10 @@ export default {
         "All of these plants"
       ],
       "optionReasons": {
-        "all-mcq-03": "本句指「某個已明確限定群體中的全部」。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-03": "本句的「All of these plants」指「某個已明確限定群體中的全部」。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-03"
     },
@@ -806,11 +778,9 @@ export default {
       "masked": "____ of them were healthy.",
       "options": [
         "all-mcq-03",
-        "all-mcq-02",
-        "all-mcq-04",
-        "all-mcq-01",
-        "all-mcq-05",
-        "all-mcq-06"
+        "all-mcq-16",
+        "all-mcq-08",
+        "all-mcq-10"
       ],
       "explanation": "本句的「All」指「某個已明確限定群體中的全部」。",
       "sentenceIndex": 7,
@@ -819,12 +789,10 @@ export default {
         "All"
       ],
       "optionReasons": {
-        "all-mcq-03": "本句指「某個已明確限定群體中的全部」。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-03": "本句的「All」指「某個已明確限定群體中的全部」。",
+        "all-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-03"
     },
@@ -836,11 +804,9 @@ export default {
       "masked": "Some plants survived, but not ____.",
       "options": [
         "all-mcq-04",
-        "all-mcq-03",
-        "all-mcq-05",
-        "all-mcq-02",
-        "all-mcq-06",
-        "all-mcq-01"
+        "all-mcq-21",
+        "all-mcq-22",
+        "all-mcq-08"
       ],
       "explanation": "本句的「all」指「已知群體中的全部人／事物」。",
       "sentenceIndex": 8,
@@ -849,12 +815,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-04": "本句指「已知群體中的全部人／事物」。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。"
+        "all-mcq-04": "本句的「all」指「已知群體中的全部人／事物」。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-04"
     },
@@ -866,11 +830,9 @@ export default {
       "masked": "____ were invited.",
       "options": [
         "all-mcq-04",
-        "all-mcq-03",
-        "all-mcq-05",
-        "all-mcq-02",
-        "all-mcq-06",
-        "all-mcq-01"
+        "all-mcq-15",
+        "all-mcq-11",
+        "all-mcq-24"
       ],
       "explanation": "本句的「All」指「已知群體中的全部人／事物」。",
       "sentenceIndex": 9,
@@ -879,12 +841,10 @@ export default {
         "All"
       ],
       "optionReasons": {
-        "all-mcq-04": "本句指「已知群體中的全部人／事物」。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。"
+        "all-mcq-04": "本句的「All」指「已知群體中的全部人／事物」。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-04"
     },
@@ -896,10 +856,8 @@ export default {
       "masked": "That is ____ I know.",
       "options": [
         "all-pdf-001",
-        "all-mcq-03",
-        "all-mcq-05",
-        "all-mcq-02",
-        "all-mcq-06",
+        "all-mcq-07",
+        "all-mcq-10",
         "all-mcq-01"
       ],
       "explanation": "本句的「all」指「某事物的全部內容、數量或範圍」。",
@@ -909,12 +867,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-pdf-001": "本句指「某事物的全部內容、數量或範圍」。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。"
+        "all-pdf-001": "本句的「all」指「某事物的全部內容、數量或範圍」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-pdf-001"
     },
@@ -926,11 +882,9 @@ export default {
       "masked": "She gave away ____ she had grown.",
       "options": [
         "all-pdf-001",
-        "all-mcq-03",
-        "all-mcq-05",
-        "all-mcq-02",
-        "all-mcq-06",
-        "all-mcq-01"
+        "all-mcq-07",
+        "all-mcq-10",
+        "all-mcq-22"
       ],
       "explanation": "本句的「all」指「某事物的全部內容、數量或範圍」。",
       "sentenceIndex": 11,
@@ -939,12 +893,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-pdf-001": "本句指「某事物的全部內容、數量或範圍」。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-01": "「某群體中的每一個成員，沒有例外」與本句語境不同。"
+        "all-pdf-001": "本句的「all」指「某事物的全部內容、數量或範圍」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-pdf-001"
     },
@@ -956,11 +908,9 @@ export default {
       "masked": "She worked in the garden ____.",
       "options": [
         "all-mcq-05",
-        "all-mcq-04",
-        "all-mcq-06",
-        "all-mcq-03",
-        "all-mcq-07",
-        "all-mcq-02"
+        "all-mcq-21",
+        "all-mcq-24",
+        "all-mcq-22"
       ],
       "explanation": "本句的「all morning」指「某段時間從頭到尾全部如此」。",
       "sentenceIndex": 12,
@@ -969,12 +919,10 @@ export default {
         "all morning"
       ],
       "optionReasons": {
-        "all-mcq-05": "本句指「某段時間從頭到尾全部如此」。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。"
+        "all-mcq-05": "本句的「all morning」指「某段時間從頭到尾全部如此」。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-05"
     },
@@ -986,11 +934,9 @@ export default {
       "masked": "It rained ____.",
       "options": [
         "all-mcq-05",
-        "all-mcq-04",
-        "all-mcq-06",
-        "all-mcq-03",
         "all-mcq-07",
-        "all-mcq-02"
+        "all-mcq-22",
+        "all-mcq-10"
       ],
       "explanation": "本句的「all night」指「某段時間從頭到尾全部如此」。",
       "sentenceIndex": 13,
@@ -999,12 +945,10 @@ export default {
         "all night"
       ],
       "optionReasons": {
-        "all-mcq-05": "本句指「某段時間從頭到尾全部如此」。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-02": "「某不可數事物的全部份量／內容」與本句語境不同。"
+        "all-mcq-05": "本句的「all night」指「某段時間從頭到尾全部如此」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-05"
     },
@@ -1016,11 +960,9 @@ export default {
       "masked": "Her clothes were ____.",
       "options": [
         "all-mcq-06",
-        "all-mcq-05",
-        "all-mcq-07",
-        "all-mcq-04",
-        "all-mcq-08",
-        "all-mcq-03"
+        "all-mcq-10",
+        "all-mcq-21",
+        "all-mcq-24"
       ],
       "explanation": "本句的「all wet」指「完全地；全部處於某種狀態」。",
       "sentenceIndex": 16,
@@ -1029,12 +971,10 @@ export default {
         "all wet"
       ],
       "optionReasons": {
-        "all-mcq-06": "本句指「完全地；全部處於某種狀態」。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。"
+        "all-mcq-06": "本句的「all wet」指「完全地；全部處於某種狀態」。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-06"
     },
@@ -1046,11 +986,9 @@ export default {
       "masked": "The windows were ____ open.",
       "options": [
         "all-mcq-06",
-        "all-mcq-05",
-        "all-mcq-07",
-        "all-mcq-04",
         "all-mcq-08",
-        "all-mcq-03"
+        "all-mcq-15",
+        "all-mcq-10"
       ],
       "explanation": "本句的「all」指「完全地；全部處於某種狀態」。",
       "sentenceIndex": 17,
@@ -1059,12 +997,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-06": "本句指「完全地；全部處於某種狀態」。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-03": "「某個已明確限定群體中的全部」與本句語境不同。"
+        "all-mcq-06": "本句的「all」指「完全地；全部處於某種狀態」。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-06"
     },
@@ -1076,11 +1012,9 @@ export default {
       "masked": "That makes it ____ important.",
       "options": [
         "all-mcq-07",
-        "all-mcq-06",
+        "all-mcq-04",
         "all-mcq-08",
-        "all-mcq-05",
-        "all-mcq-09",
-        "all-mcq-04"
+        "all-mcq-10"
       ],
       "explanation": "本句的「all the more」指「因某情況而變得更加……」。",
       "sentenceIndex": 18,
@@ -1089,12 +1023,10 @@ export default {
         "all the more"
       ],
       "optionReasons": {
-        "all-mcq-07": "本句指「因某情況而變得更加……」。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。"
+        "all-mcq-07": "本句的「all the more」指「因某情況而變得更加……」。",
+        "all-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-07"
     },
@@ -1106,11 +1038,9 @@ export default {
       "masked": "The garden looked ____ the better after the rain.",
       "options": [
         "all-mcq-07",
-        "all-mcq-06",
-        "all-mcq-08",
-        "all-mcq-05",
-        "all-mcq-09",
-        "all-mcq-04"
+        "all-mcq-10",
+        "all-mcq-15",
+        "all-mcq-23"
       ],
       "explanation": "本句的「all」指「因某情況而變得更加……」。",
       "sentenceIndex": 19,
@@ -1119,12 +1049,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-07": "本句指「因某情況而變得更加……」。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-04": "「已知群體中的全部人／事物」與本句語境不同。"
+        "all-mcq-07": "本句的「all」指「因某情況而變得更加……」。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-07"
     },
@@ -1137,10 +1065,8 @@ export default {
       "options": [
         "all-mcq-08",
         "all-mcq-07",
-        "all-mcq-09",
-        "all-mcq-06",
-        "all-mcq-10",
-        "all-mcq-05"
+        "all-mcq-21",
+        "all-mcq-06"
       ],
       "explanation": "本句的「First of all」指「用來引出第一個重點、理由或步驟；首先」。",
       "sentenceIndex": 20,
@@ -1149,12 +1075,10 @@ export default {
         "First of all"
       ],
       "optionReasons": {
-        "all-mcq-08": "本句指「用來引出第一個重點、理由或步驟；首先」。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。"
+        "all-mcq-08": "本句的「First of all」指「用來引出第一個重點、理由或步驟；首先」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-08"
     },
@@ -1166,11 +1090,9 @@ export default {
       "masked": "First of ____, we need to choose the right plants.",
       "options": [
         "all-mcq-08",
-        "all-mcq-07",
-        "all-mcq-09",
-        "all-mcq-06",
-        "all-mcq-10",
-        "all-mcq-05"
+        "all-mcq-05",
+        "all-mcq-16",
+        "all-mcq-21"
       ],
       "explanation": "本句的「all」指「用來引出第一個重點、理由或步驟；首先」。",
       "sentenceIndex": 21,
@@ -1179,12 +1101,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-08": "本句指「用來引出第一個重點、理由或步驟；首先」。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。"
+        "all-mcq-08": "本句的「all」指「用來引出第一個重點、理由或步驟；首先」。",
+        "all-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-08"
     },
@@ -1196,11 +1116,9 @@ export default {
       "masked": "First of ____, thank you for coming.",
       "options": [
         "all-mcq-08",
-        "all-mcq-07",
-        "all-mcq-09",
-        "all-mcq-06",
-        "all-mcq-10",
-        "all-mcq-05"
+        "all-mcq-02",
+        "all-mcq-01",
+        "all-mcq-23"
       ],
       "explanation": "本句的「all」指「用來引出第一個重點、理由或步驟；首先」。",
       "sentenceIndex": 22,
@@ -1209,12 +1127,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-08": "本句指「用來引出第一個重點、理由或步驟；首先」。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-05": "「某段時間從頭到尾全部如此」與本句語境不同。"
+        "all-mcq-08": "本句的「all」指「用來引出第一個重點、理由或步驟；首先」。",
+        "all-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-08"
     },
@@ -1226,11 +1142,9 @@ export default {
       "masked": "She deserves a rest; ____, she has been working all day.",
       "options": [
         "all-mcq-09",
-        "all-mcq-08",
-        "all-mcq-10",
-        "all-mcq-07",
-        "all-mcq-11",
-        "all-mcq-06"
+        "all-mcq-24",
+        "all-mcq-17",
+        "all-mcq-07"
       ],
       "explanation": "本句的「after all」指「提醒對方考慮支持前面觀點的重要事實；畢竟」。",
       "sentenceIndex": 23,
@@ -1239,12 +1153,10 @@ export default {
         "after all"
       ],
       "optionReasons": {
-        "all-mcq-09": "本句指「提醒對方考慮支持前面觀點的重要事實；畢竟」。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-09": "本句的「after all」指「提醒對方考慮支持前面觀點的重要事實；畢竟」。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-09"
     },
@@ -1256,11 +1168,9 @@ export default {
       "masked": "Don’t be too hard on him. After ____, he is still learning.",
       "options": [
         "all-mcq-09",
-        "all-mcq-08",
-        "all-mcq-10",
-        "all-mcq-07",
-        "all-mcq-11",
-        "all-mcq-06"
+        "all-mcq-22",
+        "all-mcq-14",
+        "all-mcq-23"
       ],
       "explanation": "本句的「all」指「提醒對方考慮支持前面觀點的重要事實；畢竟」。",
       "sentenceIndex": 24,
@@ -1269,12 +1179,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-09": "本句指「提醒對方考慮支持前面觀點的重要事實；畢竟」。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。",
-        "all-mcq-06": "「完全地；全部處於某種狀態」與本句語境不同。"
+        "all-mcq-09": "本句的「all」指「提醒對方考慮支持前面觀點的重要事實；畢竟」。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-09"
     },
@@ -1286,11 +1194,9 @@ export default {
       "masked": "It didn’t rain ____.",
       "options": [
         "all-mcq-10",
-        "all-mcq-09",
-        "all-mcq-11",
-        "all-mcq-08",
-        "all-mcq-12",
-        "all-mcq-07"
+        "all-mcq-05",
+        "all-mcq-07",
+        "all-mcq-21"
       ],
       "explanation": "本句的「after all」指「最終結果與先前預期不同；結果還是」。",
       "sentenceIndex": 25,
@@ -1299,12 +1205,10 @@ export default {
         "after all"
       ],
       "optionReasons": {
-        "all-mcq-10": "本句指「最終結果與先前預期不同；結果還是」。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。"
+        "all-mcq-10": "本句的「after all」指「最終結果與先前預期不同；結果還是」。",
+        "all-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-10"
     },
@@ -1316,11 +1220,9 @@ export default {
       "masked": "She decided to come after ____.",
       "options": [
         "all-mcq-10",
-        "all-mcq-09",
-        "all-mcq-11",
-        "all-mcq-08",
-        "all-mcq-12",
-        "all-mcq-07"
+        "all-mcq-15",
+        "all-mcq-04",
+        "all-mcq-24"
       ],
       "explanation": "本句的「all」指「最終結果與先前預期不同；結果還是」。",
       "sentenceIndex": 26,
@@ -1329,12 +1231,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-10": "本句指「最終結果與先前預期不同；結果還是」。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-07": "「因某情況而變得更加……」與本句語境不同。"
+        "all-mcq-10": "本句的「all」指「最終結果與先前預期不同；結果還是」。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-10"
     },
@@ -1346,11 +1246,9 @@ export default {
       "masked": "Plants need water, light, and, ____, patience.",
       "options": [
         "all-mcq-11",
-        "all-mcq-10",
+        "all-mcq-14",
         "all-mcq-12",
-        "all-mcq-09",
-        "all-mcq-13",
-        "all-mcq-08"
+        "all-mcq-01"
       ],
       "explanation": "本句的「above all」指「比其他因素更重要；最重要的是」。",
       "sentenceIndex": 27,
@@ -1359,12 +1257,10 @@ export default {
         "above all"
       ],
       "optionReasons": {
-        "all-mcq-11": "本句指「比其他因素更重要；最重要的是」。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。"
+        "all-mcq-11": "本句的「above all」指「比其他因素更重要；最重要的是」。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-11"
     },
@@ -1376,11 +1272,9 @@ export default {
       "masked": "Above ____, stay calm.",
       "options": [
         "all-mcq-11",
-        "all-mcq-10",
-        "all-mcq-12",
-        "all-mcq-09",
-        "all-mcq-13",
-        "all-mcq-08"
+        "all-mcq-01",
+        "all-mcq-06",
+        "all-mcq-14"
       ],
       "explanation": "本句的「all」指「比其他因素更重要；最重要的是」。",
       "sentenceIndex": 28,
@@ -1389,12 +1283,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-11": "本句指「比其他因素更重要；最重要的是」。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-08": "「用來引出第一個重點、理由或步驟；首先」與本句語境不同。"
+        "all-mcq-11": "本句的「all」指「比其他因素更重要；最重要的是」。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-11"
     },
@@ -1407,10 +1299,8 @@ export default {
       "options": [
         "all-mcq-12",
         "all-mcq-11",
-        "all-mcq-13",
-        "all-mcq-10",
         "all-mcq-14",
-        "all-mcq-09"
+        "all-mcq-15"
       ],
       "explanation": "本句的「All in all」指「把各方面考慮後作出的整體總結」。",
       "sentenceIndex": 29,
@@ -1419,12 +1309,10 @@ export default {
         "All in all"
       ],
       "optionReasons": {
-        "all-mcq-12": "本句指「把各方面考慮後作出的整體總結」。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。"
+        "all-mcq-12": "本句的「All in all」指「把各方面考慮後作出的整體總結」。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-12"
     },
@@ -1436,11 +1324,9 @@ export default {
       "masked": "____ in all, it was a rewarding experience.",
       "options": [
         "all-mcq-12",
-        "all-mcq-11",
-        "all-mcq-13",
-        "all-mcq-10",
-        "all-mcq-14",
-        "all-mcq-09"
+        "all-mcq-24",
+        "all-mcq-07",
+        "all-mcq-14"
       ],
       "explanation": "本句的「All」指「把各方面考慮後作出的整體總結」。",
       "sentenceIndex": 30,
@@ -1449,12 +1335,10 @@ export default {
         "All"
       ],
       "optionReasons": {
-        "all-mcq-12": "本句指「把各方面考慮後作出的整體總結」。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-10": "「最終結果與先前預期不同；結果還是」與本句語境不同。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。",
-        "all-mcq-09": "「提醒對方考慮支持前面觀點的重要事實；畢竟」與本句語境不同。"
+        "all-mcq-12": "本句的「All」指「把各方面考慮後作出的整體總結」。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-12"
     },
@@ -1466,11 +1350,9 @@ export default {
       "masked": "____, the lights went out.",
       "options": [
         "all-mcq-14",
-        "all-mcq-13",
-        "all-mcq-15",
-        "all-mcq-12",
-        "all-mcq-16",
-        "all-mcq-11"
+        "all-mcq-20",
+        "all-mcq-21",
+        "all-mcq-01"
       ],
       "explanation": "本句的「All at once」指「多件事情在同一時間發生」。",
       "sentenceIndex": 31,
@@ -1479,12 +1361,10 @@ export default {
         "All at once"
       ],
       "optionReasons": {
-        "all-mcq-14": "本句指「多件事情在同一時間發生」。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。"
+        "all-mcq-14": "本句的「All at once」指「多件事情在同一時間發生」。",
+        "all-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-14"
     },
@@ -1496,10 +1376,8 @@ export default {
       "masked": "She suddenly felt tired ____ at once.",
       "options": [
         "all-mcq-14",
-        "all-mcq-13",
-        "all-mcq-15",
         "all-mcq-12",
-        "all-mcq-16",
+        "all-mcq-01",
         "all-mcq-11"
       ],
       "explanation": "本句的「all」指「多件事情在同一時間發生」。",
@@ -1509,12 +1387,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-14": "本句指「多件事情在同一時間發生」。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。"
+        "all-mcq-14": "本句的「all」指「多件事情在同一時間發生」。",
+        "all-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-14"
     },
@@ -1526,11 +1402,9 @@ export default {
       "masked": "Don’t water all the plants ____.",
       "options": [
         "all-mcq-14",
-        "all-mcq-13",
-        "all-mcq-15",
-        "all-mcq-12",
-        "all-mcq-16",
-        "all-mcq-11"
+        "all-pdf-001",
+        "all-mcq-24",
+        "all-mcq-08"
       ],
       "explanation": "本句的「all at once」指「多件事情在同一時間發生」。",
       "sentenceIndex": 33,
@@ -1539,12 +1413,10 @@ export default {
         "all at once"
       ],
       "optionReasons": {
-        "all-mcq-14": "本句指「多件事情在同一時間發生」。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。"
+        "all-mcq-14": "本句的「all at once」指「多件事情在同一時間發生」。",
+        "all-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-14"
     },
@@ -1556,11 +1428,9 @@ export default {
       "masked": "Everyone started talking ____ at once.",
       "options": [
         "all-mcq-14",
-        "all-mcq-13",
-        "all-mcq-15",
-        "all-mcq-12",
-        "all-mcq-16",
-        "all-mcq-11"
+        "all-mcq-01",
+        "all-mcq-08",
+        "all-mcq-18"
       ],
       "explanation": "本句的「all」指「多件事情在同一時間發生」。",
       "sentenceIndex": 34,
@@ -1569,12 +1439,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-14": "本句指「多件事情在同一時間發生」。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-11": "「比其他因素更重要；最重要的是」與本句語境不同。"
+        "all-mcq-14": "本句的「all」指「多件事情在同一時間發生」。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-14"
     },
@@ -1586,11 +1454,9 @@ export default {
       "masked": "I knew ____ that she would succeed.",
       "options": [
         "all-mcq-15",
-        "all-mcq-14",
-        "all-mcq-16",
-        "all-mcq-13",
-        "all-mcq-17",
-        "all-mcq-12"
+        "all-mcq-11",
+        "all-mcq-03",
+        "all-mcq-16"
       ],
       "explanation": "本句的「all along」指「從一開始到現在一直如此」。",
       "sentenceIndex": 35,
@@ -1599,12 +1465,10 @@ export default {
         "all along"
       ],
       "optionReasons": {
-        "all-mcq-15": "本句指「從一開始到現在一直如此」。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。"
+        "all-mcq-15": "本句的「all along」指「從一開始到現在一直如此」。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-15"
     },
@@ -1616,11 +1480,9 @@ export default {
       "masked": "The answer had been there ____ along.",
       "options": [
         "all-mcq-15",
-        "all-mcq-14",
-        "all-mcq-16",
-        "all-mcq-13",
-        "all-mcq-17",
-        "all-mcq-12"
+        "all-mcq-09",
+        "all-mcq-01",
+        "all-mcq-07"
       ],
       "explanation": "本句的「all」指「從一開始到現在一直如此」。",
       "sentenceIndex": 36,
@@ -1629,12 +1491,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-15": "本句指「從一開始到現在一直如此」。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-12": "「把各方面考慮後作出的整體總結」與本句語境不同。"
+        "all-mcq-15": "本句的「all」指「從一開始到現在一直如此」。",
+        "all-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-15"
     },
@@ -1646,11 +1506,9 @@ export default {
       "masked": "There were flowers ____ the balcony.",
       "options": [
         "all-mcq-16",
-        "all-mcq-15",
-        "all-mcq-17",
-        "all-mcq-14",
-        "all-mcq-18",
-        "all-mcq-13"
+        "all-mcq-19",
+        "all-mcq-07",
+        "all-mcq-09"
       ],
       "explanation": "本句的「all over」指「某地方／物件的很多位置都有」。",
       "sentenceIndex": 37,
@@ -1659,12 +1517,10 @@ export default {
         "all over"
       ],
       "optionReasons": {
-        "all-mcq-16": "本句指「某地方／物件的很多位置都有」。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。"
+        "all-mcq-16": "本句的「all over」指「某地方／物件的很多位置都有」。",
+        "all-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-16"
     },
@@ -1676,11 +1532,9 @@ export default {
       "masked": "Mud was ____ over his shoes.",
       "options": [
         "all-mcq-16",
-        "all-mcq-15",
-        "all-mcq-17",
-        "all-mcq-14",
-        "all-mcq-18",
-        "all-mcq-13"
+        "all-mcq-23",
+        "all-mcq-08",
+        "all-mcq-10"
       ],
       "explanation": "本句的「all」指「某地方／物件的很多位置都有」。",
       "sentenceIndex": 38,
@@ -1689,12 +1543,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-16": "本句指「某地方／物件的很多位置都有」。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-13": "「突然地」與本句語境不同。"
+        "all-mcq-16": "本句的「all」指「某地方／物件的很多位置都有」。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-16"
     },
@@ -1706,11 +1558,9 @@ export default {
       "masked": "The meeting is ____.",
       "options": [
         "all-mcq-17",
-        "all-mcq-16",
-        "all-mcq-18",
-        "all-mcq-15",
-        "all-mcq-19",
-        "all-mcq-14"
+        "all-mcq-07",
+        "all-mcq-01",
+        "all-mcq-21"
       ],
       "explanation": "本句的「all over」指「某件事情已完全結束」。",
       "sentenceIndex": 39,
@@ -1719,12 +1569,10 @@ export default {
         "all over"
       ],
       "optionReasons": {
-        "all-mcq-17": "本句指「某件事情已完全結束」。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。"
+        "all-mcq-17": "本句的「all over」指「某件事情已完全結束」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-17"
     },
@@ -1736,11 +1584,9 @@ export default {
       "masked": "By six o’clock, it was ____ over.",
       "options": [
         "all-mcq-17",
-        "all-mcq-16",
-        "all-mcq-18",
-        "all-mcq-15",
-        "all-mcq-19",
-        "all-mcq-14"
+        "all-mcq-07",
+        "all-mcq-24",
+        "all-mcq-23"
       ],
       "explanation": "本句的「all」指「某件事情已完全結束」。",
       "sentenceIndex": 40,
@@ -1749,12 +1595,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-17": "本句指「某件事情已完全結束」。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-14": "「多件事情在同一時間發生」與本句語境不同。"
+        "all-mcq-17": "本句的「all」指「某件事情已完全結束」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-17"
     },
@@ -1766,11 +1610,9 @@ export default {
       "masked": "The plant was ____.",
       "options": [
         "all-mcq-18",
-        "all-mcq-17",
-        "all-mcq-19",
-        "all-mcq-16",
-        "all-mcq-20",
-        "all-mcq-15"
+        "all-mcq-07",
+        "all-mcq-14",
+        "all-mcq-01"
       ],
       "explanation": "本句的「all but dead」指「幾乎完全……，只差一點」。",
       "sentenceIndex": 41,
@@ -1779,12 +1621,10 @@ export default {
         "all but dead"
       ],
       "optionReasons": {
-        "all-mcq-18": "本句指「幾乎完全……，只差一點」。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。"
+        "all-mcq-18": "本句的「all but dead」指「幾乎完全……，只差一點」。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-18"
     },
@@ -1796,11 +1636,9 @@ export default {
       "masked": "The project is ____ but complete.",
       "options": [
         "all-mcq-18",
-        "all-mcq-17",
-        "all-mcq-19",
-        "all-mcq-16",
-        "all-mcq-20",
-        "all-mcq-15"
+        "all-mcq-23",
+        "all-mcq-22",
+        "all-mcq-07"
       ],
       "explanation": "本句的「all」指「幾乎完全……，只差一點」。",
       "sentenceIndex": 42,
@@ -1809,12 +1647,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-18": "本句指「幾乎完全……，只差一點」。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-15": "「從一開始到現在一直如此」與本句語境不同。"
+        "all-mcq-18": "本句的「all」指「幾乎完全……，只差一點」。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-18"
     },
@@ -1826,11 +1662,9 @@ export default {
       "masked": "____ of the plants survived.",
       "options": [
         "all-mcq-19",
-        "all-mcq-18",
-        "all-mcq-20",
-        "all-mcq-17",
-        "all-mcq-21",
-        "all-mcq-16"
+        "all-mcq-14",
+        "all-mcq-11",
+        "all-mcq-22"
       ],
       "explanation": "本句的「All but one」指「除指定的人／物之外，其餘全部」。",
       "sentenceIndex": 43,
@@ -1839,12 +1673,10 @@ export default {
         "All but one"
       ],
       "optionReasons": {
-        "all-mcq-19": "本句指「除指定的人／物之外，其餘全部」。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。"
+        "all-mcq-19": "本句的「All but one」指「除指定的人／物之外，其餘全部」。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-19"
     },
@@ -1856,11 +1688,9 @@ export default {
       "masked": "____ but two students passed.",
       "options": [
         "all-mcq-19",
-        "all-mcq-18",
-        "all-mcq-20",
-        "all-mcq-17",
-        "all-mcq-21",
-        "all-mcq-16"
+        "all-mcq-08",
+        "all-mcq-16",
+        "all-mcq-14"
       ],
       "explanation": "本句的「All」指「除指定的人／物之外，其餘全部」。",
       "sentenceIndex": 44,
@@ -1869,12 +1699,10 @@ export default {
         "All"
       ],
       "optionReasons": {
-        "all-mcq-19": "本句指「除指定的人／物之外，其餘全部」。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-16": "「某地方／物件的很多位置都有」與本句語境不同。"
+        "all-mcq-19": "本句的「All」指「除指定的人／物之外，其餘全部」。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-19"
     },
@@ -1886,11 +1714,9 @@ export default {
       "masked": "We walked ____ home.",
       "options": [
         "all-mcq-20",
-        "all-mcq-19",
-        "all-mcq-21",
-        "all-mcq-18",
-        "all-mcq-22",
-        "all-mcq-17"
+        "all-mcq-15",
+        "all-mcq-11",
+        "all-mcq-14"
       ],
       "explanation": "本句的「all the way」指「從起點到終點完整地；亦可指完全支持到底」。",
       "sentenceIndex": 45,
@@ -1899,12 +1725,10 @@ export default {
         "all the way"
       ],
       "optionReasons": {
-        "all-mcq-20": "本句指「從起點到終點完整地；亦可指完全支持到底」。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。"
+        "all-mcq-20": "本句的「all the way」指「從起點到終點完整地；亦可指完全支持到底」。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-20"
     },
@@ -1916,11 +1740,9 @@ export default {
       "masked": "She supported the idea ____ the way.",
       "options": [
         "all-mcq-20",
-        "all-mcq-19",
-        "all-mcq-21",
-        "all-mcq-18",
-        "all-mcq-22",
-        "all-mcq-17"
+        "all-mcq-11",
+        "all-mcq-15",
+        "all-mcq-24"
       ],
       "explanation": "本句的「all」指「從起點到終點完整地；亦可指完全支持到底」。",
       "sentenceIndex": 46,
@@ -1929,12 +1751,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-20": "本句指「從起點到終點完整地；亦可指完全支持到底」。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-17": "「某件事情已完全結束」與本句語境不同。"
+        "all-mcq-20": "本句的「all」指「從起點到終點完整地；亦可指完全支持到底」。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-20"
     },
@@ -1946,11 +1766,9 @@ export default {
       "masked": "She talks about plants ____.",
       "options": [
         "all-mcq-21",
-        "all-mcq-20",
+        "all-mcq-08",
         "all-mcq-22",
-        "all-mcq-19",
-        "all-mcq-23",
-        "all-mcq-18"
+        "all-mcq-23"
       ],
       "explanation": "本句的「all the time」指「持續地或非常頻繁地」。",
       "sentenceIndex": 47,
@@ -1959,12 +1777,10 @@ export default {
         "all the time"
       ],
       "optionReasons": {
-        "all-mcq-21": "本句指「持續地或非常頻繁地」。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。"
+        "all-mcq-21": "本句的「all the time」指「持續地或非常頻繁地」。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-21"
     },
@@ -1976,11 +1792,9 @@ export default {
       "masked": "The machine runs ____ the time.",
       "options": [
         "all-mcq-21",
-        "all-mcq-20",
-        "all-mcq-22",
-        "all-mcq-19",
+        "all-mcq-12",
         "all-mcq-23",
-        "all-mcq-18"
+        "all-mcq-15"
       ],
       "explanation": "本句的「all」指「持續地或非常頻繁地」。",
       "sentenceIndex": 48,
@@ -1989,12 +1803,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-21": "本句指「持續地或非常頻繁地」。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-18": "「幾乎完全……，只差一點」與本句語境不同。"
+        "all-mcq-21": "本句的「all」指「持續地或非常頻繁地」。",
+        "all-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-21"
     },
@@ -2006,11 +1818,9 @@ export default {
       "masked": "We need to solve this problem ____.",
       "options": [
         "all-mcq-22",
+        "all-mcq-14",
         "all-mcq-21",
-        "all-mcq-23",
-        "all-mcq-20",
-        "all-mcq-24",
-        "all-mcq-19"
+        "all-mcq-07"
       ],
       "explanation": "本句的「once and for all」指「最後一次並永久地解決／結束」。",
       "sentenceIndex": 49,
@@ -2019,12 +1829,10 @@ export default {
         "once and for all"
       ],
       "optionReasons": {
-        "all-mcq-22": "本句指「最後一次並永久地解決／結束」。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-24": "「在多方面都有能力或涵蓋多個方面的」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。"
+        "all-mcq-22": "本句的「once and for all」指「最後一次並永久地解決／結束」。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-22"
     },
@@ -2036,11 +1844,9 @@ export default {
       "masked": "She decided to settle the matter once and for ____.",
       "options": [
         "all-mcq-22",
+        "all-mcq-06",
         "all-mcq-21",
-        "all-mcq-23",
-        "all-mcq-20",
-        "all-mcq-24",
-        "all-mcq-19"
+        "all-mcq-01"
       ],
       "explanation": "本句的「all」指「最後一次並永久地解決／結束」。",
       "sentenceIndex": 50,
@@ -2049,12 +1855,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-22": "本句指「最後一次並永久地解決／結束」。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。",
-        "all-mcq-24": "「在多方面都有能力或涵蓋多個方面的」與本句語境不同。",
-        "all-mcq-19": "「除指定的人／物之外，其餘全部」與本句語境不同。"
+        "all-mcq-22": "本句的「all」指「最後一次並永久地解決／結束」。",
+        "all-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-22"
     },
@@ -2066,11 +1870,9 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "all-mcq-23",
-        "all-mcq-22",
-        "all-mcq-24",
-        "all-mcq-21",
-        "all-mcq-25",
-        "all-mcq-20"
+        "all-mcq-01",
+        "all-mcq-11",
+        "all-mcq-10"
       ],
       "explanation": "本句的「all right」指「安然無恙、可以接受或尚可」。",
       "sentenceIndex": 51,
@@ -2079,12 +1881,10 @@ export default {
         "all right"
       ],
       "optionReasons": {
-        "all-mcq-23": "本句指「安然無恙、可以接受或尚可」。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-24": "「在多方面都有能力或涵蓋多個方面的」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-25": "「總共；完全地」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。"
+        "all-mcq-23": "本句的「all right」指「安然無恙、可以接受或尚可」。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-23"
     },
@@ -2096,11 +1896,9 @@ export default {
       "masked": "The food was ____ right, but not amazing.",
       "options": [
         "all-mcq-23",
+        "all-mcq-04",
         "all-mcq-22",
-        "all-mcq-24",
-        "all-mcq-21",
-        "all-mcq-25",
-        "all-mcq-20"
+        "all-mcq-11"
       ],
       "explanation": "本句的「all」指「安然無恙、可以接受或尚可」。",
       "sentenceIndex": 52,
@@ -2109,12 +1907,10 @@ export default {
         "all"
       ],
       "optionReasons": {
-        "all-mcq-23": "本句指「安然無恙、可以接受或尚可」。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-24": "「在多方面都有能力或涵蓋多個方面的」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-25": "「總共；完全地」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。"
+        "all-mcq-23": "本句的「all」指「安然無恙、可以接受或尚可」。",
+        "all-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-23"
     },
@@ -2126,11 +1922,9 @@ export default {
       "masked": "She is a strong ____ student.",
       "options": [
         "all-mcq-24",
-        "all-mcq-23",
-        "all-mcq-25",
-        "all-mcq-22",
+        "all-mcq-18",
         "all-mcq-21",
-        "all-mcq-20"
+        "all-mcq-08"
       ],
       "explanation": "本句的「all-round」指「在多方面都有能力或涵蓋多個方面的」。",
       "sentenceIndex": 53,
@@ -2139,12 +1933,10 @@ export default {
         "all-round"
       ],
       "optionReasons": {
-        "all-mcq-24": "本句指「在多方面都有能力或涵蓋多個方面的」。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-25": "「總共；完全地」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。"
+        "all-mcq-24": "本句的「all-round」指「在多方面都有能力或涵蓋多個方面的」。",
+        "all-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-24"
     },
@@ -2156,11 +1948,9 @@ export default {
       "masked": "This is a good ____ tool.",
       "options": [
         "all-mcq-24",
-        "all-mcq-23",
-        "all-mcq-25",
-        "all-mcq-22",
-        "all-mcq-21",
-        "all-mcq-20"
+        "all-mcq-09",
+        "all-mcq-14",
+        "all-mcq-22"
       ],
       "explanation": "本句的「all-around」指「在多方面都有能力或涵蓋多個方面的」。",
       "sentenceIndex": 54,
@@ -2169,12 +1959,10 @@ export default {
         "all-around"
       ],
       "optionReasons": {
-        "all-mcq-24": "本句指「在多方面都有能力或涵蓋多個方面的」。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-25": "「總共；完全地」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。"
+        "all-mcq-24": "本句的「all-around」指「在多方面都有能力或涵蓋多個方面的」。",
+        "all-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-24"
     },
@@ -2186,11 +1974,9 @@ export default {
       "masked": "There were ten plants ____.",
       "options": [
         "all-mcq-25",
-        "all-mcq-24",
-        "all-mcq-23",
-        "all-mcq-22",
         "all-mcq-21",
-        "all-mcq-20"
+        "all-mcq-11",
+        "all-mcq-01"
       ],
       "explanation": "本句的「altogether」指「總共；完全地」。",
       "sentenceIndex": 55,
@@ -2199,12 +1985,10 @@ export default {
         "altogether"
       ],
       "optionReasons": {
-        "all-mcq-25": "本句指「總共；完全地」。",
-        "all-mcq-24": "「在多方面都有能力或涵蓋多個方面的」與本句語境不同。",
-        "all-mcq-23": "「安然無恙、可以接受或尚可」與本句語境不同。",
-        "all-mcq-22": "「最後一次並永久地解決／結束」與本句語境不同。",
-        "all-mcq-21": "「持續地或非常頻繁地」與本句語境不同。",
-        "all-mcq-20": "「從起點到終點完整地；亦可指完全支持到底」與本句語境不同。"
+        "all-mcq-25": "本句的「altogether」指「總共；完全地」。",
+        "all-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "all-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "all-mcq-25"
     }
@@ -2216,5 +2000,7 @@ export default {
     "sha256": "08acca9c64aaa148ec0698ba9c74553be6d8473ebda6f94845e51c58dca45fd2",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

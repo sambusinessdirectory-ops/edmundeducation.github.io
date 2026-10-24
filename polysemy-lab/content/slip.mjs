@@ -704,11 +704,9 @@ export default {
       "masked": "Be careful not to ____ on the wet floor.",
       "options": [
         "slip-mcq-01",
-        "slip-mcq-02",
-        "slip-mcq-03",
-        "slip-mcq-04",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-11",
+        "slip-mcq-08",
+        "slip-mcq-10"
       ],
       "explanation": "本句的「slip」指「滑倒；失足」。",
       "sentenceIndex": 0,
@@ -717,12 +715,10 @@ export default {
         "slip"
       ],
       "optionReasons": {
-        "slip-mcq-01": "本句指「滑倒；失足」。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-01": "本句的「slip」指「滑倒；失足」。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-01"
     },
@@ -734,11 +730,9 @@ export default {
       "masked": "She ____ on the ice.",
       "options": [
         "slip-mcq-01",
-        "slip-mcq-02",
-        "slip-mcq-03",
-        "slip-mcq-04",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-09",
+        "slip-mcq-07",
+        "slip-mcq-24"
       ],
       "explanation": "本句的「slipped」指「滑倒；失足」。",
       "sentenceIndex": 1,
@@ -747,12 +741,10 @@ export default {
         "slipped"
       ],
       "optionReasons": {
-        "slip-mcq-01": "本句指「滑倒；失足」。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-01": "本句的「slipped」指「滑倒；失足」。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-01"
     },
@@ -764,11 +756,9 @@ export default {
       "masked": "I nearly ____ on the stairs.",
       "options": [
         "slip-mcq-01",
-        "slip-mcq-02",
-        "slip-mcq-03",
-        "slip-mcq-04",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-16",
+        "slip-mcq-17",
+        "slip-mcq-10"
       ],
       "explanation": "本句的「slipped」指「滑倒；失足」。",
       "sentenceIndex": 2,
@@ -777,12 +767,10 @@ export default {
         "slipped"
       ],
       "optionReasons": {
-        "slip-mcq-01": "本句指「滑倒；失足」。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-01": "本句的「slipped」指「滑倒；失足」。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-01"
     },
@@ -794,11 +782,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-02",
-        "slip-mcq-01",
-        "slip-mcq-03",
-        "slip-mcq-04",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-11",
+        "slip-mcq-08",
+        "slip-mcq-22"
       ],
       "explanation": "本句的「slipped on a wet step」指「在 X 上滑倒」。",
       "sentenceIndex": 3,
@@ -807,12 +793,10 @@ export default {
         "slipped on a wet step"
       ],
       "optionReasons": {
-        "slip-mcq-02": "本句指「在 X 上滑倒」。",
-        "slip-mcq-01": "「滑倒；失足」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-02": "本句的「slipped on a wet step」指「在 X 上滑倒」。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-02"
     },
@@ -824,11 +808,9 @@ export default {
       "masked": "She ____ near the door.",
       "options": [
         "slip-mcq-02",
-        "slip-mcq-01",
-        "slip-mcq-03",
-        "slip-mcq-04",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-21",
+        "slip-mcq-13",
+        "slip-mcq-24"
       ],
       "explanation": "本句的「slipped on some water」指「在 X 上滑倒」。",
       "sentenceIndex": 4,
@@ -837,12 +819,10 @@ export default {
         "slipped on some water"
       ],
       "optionReasons": {
-        "slip-mcq-02": "本句指「在 X 上滑倒」。",
-        "slip-mcq-01": "「滑倒；失足」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-02": "本句的「slipped on some water」指「在 X 上滑倒」。",
+        "slip-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-02"
     },
@@ -854,11 +834,9 @@ export default {
       "masked": "The glass ____.",
       "options": [
         "slip-mcq-03",
-        "slip-mcq-02",
-        "slip-mcq-04",
-        "slip-mcq-01",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-19",
+        "slip-mcq-24",
+        "slip-mcq-07"
       ],
       "explanation": "本句的「slipped from my hand」指「從手中滑落」。",
       "sentenceIndex": 5,
@@ -867,12 +845,10 @@ export default {
         "slipped from my hand"
       ],
       "optionReasons": {
-        "slip-mcq-03": "本句指「從手中滑落」。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-01": "「滑倒；失足」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-03": "本句的「slipped from my hand」指「從手中滑落」。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-03"
     },
@@ -884,11 +860,9 @@ export default {
       "masked": "The phone ____.",
       "options": [
         "slip-mcq-03",
-        "slip-mcq-02",
-        "slip-mcq-04",
-        "slip-mcq-01",
-        "slip-mcq-05",
-        "slip-mcq-06"
+        "slip-mcq-24",
+        "slip-mcq-06",
+        "slip-mcq-21"
       ],
       "explanation": "本句的「slipped out of her hand」指「從手中滑落」。",
       "sentenceIndex": 6,
@@ -897,12 +871,10 @@ export default {
         "slipped out of her hand"
       ],
       "optionReasons": {
-        "slip-mcq-03": "本句指「從手中滑落」。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-01": "「滑倒；失足」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-03": "本句的「slipped out of her hand」指「從手中滑落」。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-03"
     },
@@ -914,11 +886,9 @@ export default {
       "masked": "The bag ____.",
       "options": [
         "slip-mcq-04",
-        "slip-mcq-03",
-        "slip-mcq-05",
-        "slip-mcq-02",
-        "slip-mcq-06",
-        "slip-mcq-01"
+        "slip-mcq-09",
+        "slip-mcq-19",
+        "slip-mcq-16"
       ],
       "explanation": "本句的「slipped off my shoulder」指「滑落／滑下」。",
       "sentenceIndex": 7,
@@ -927,12 +897,10 @@ export default {
         "slipped off my shoulder"
       ],
       "optionReasons": {
-        "slip-mcq-04": "本句指「滑落／滑下」。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-01": "「滑倒；失足」與本句語境不同。"
+        "slip-mcq-04": "本句的「slipped off my shoulder」指「滑落／滑下」。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-04"
     },
@@ -944,11 +912,9 @@ export default {
       "masked": "His glasses kept ____.",
       "options": [
         "slip-mcq-04",
-        "slip-mcq-03",
+        "slip-mcq-19",
         "slip-mcq-05",
-        "slip-mcq-02",
-        "slip-mcq-06",
-        "slip-mcq-01"
+        "slip-mcq-11"
       ],
       "explanation": "本句的「slipping down his nose」指「滑落／滑下」。",
       "sentenceIndex": 8,
@@ -957,12 +923,10 @@ export default {
         "slipping down his nose"
       ],
       "optionReasons": {
-        "slip-mcq-04": "本句指「滑落／滑下」。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-01": "「滑倒；失足」與本句語境不同。"
+        "slip-mcq-04": "本句的「slipping down his nose」指「滑落／滑下」。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-04"
     },
@@ -974,11 +938,9 @@ export default {
       "masked": "She ____ quietly.",
       "options": [
         "slip-mcq-05",
-        "slip-mcq-04",
-        "slip-mcq-06",
-        "slip-mcq-03",
         "slip-mcq-07",
-        "slip-mcq-02"
+        "slip-mcq-22",
+        "slip-mcq-18"
       ],
       "explanation": "本句的「slipped out of the room」指「悄悄離開／消失」。",
       "sentenceIndex": 9,
@@ -987,12 +949,10 @@ export default {
         "slipped out of the room"
       ],
       "optionReasons": {
-        "slip-mcq-05": "本句指「悄悄離開／消失」。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。"
+        "slip-mcq-05": "本句的「slipped out of the room」指「悄悄離開／消失」。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-05"
     },
@@ -1004,9 +964,7 @@ export default {
       "masked": "He ____ before anyone noticed.",
       "options": [
         "slip-mcq-05",
-        "slip-mcq-04",
-        "slip-mcq-06",
-        "slip-mcq-03",
+        "slip-mcq-17",
         "slip-mcq-07",
         "slip-mcq-02"
       ],
@@ -1017,12 +975,10 @@ export default {
         "slipped away"
       ],
       "optionReasons": {
-        "slip-mcq-05": "本句指「悄悄離開／消失」。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。"
+        "slip-mcq-05": "本句的「slipped away」指「悄悄離開／消失」。",
+        "slip-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-05"
     },
@@ -1034,11 +990,9 @@ export default {
       "masked": "He ____ during the break.",
       "options": [
         "slip-mcq-05",
-        "slip-mcq-04",
-        "slip-mcq-06",
         "slip-mcq-03",
         "slip-mcq-07",
-        "slip-mcq-02"
+        "slip-mcq-17"
       ],
       "explanation": "本句的「slipped away」指「悄悄離開／消失」。",
       "sentenceIndex": 11,
@@ -1047,12 +1001,10 @@ export default {
         "slipped away"
       ],
       "optionReasons": {
-        "slip-mcq-05": "本句指「悄悄離開／消失」。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。"
+        "slip-mcq-05": "本句的「slipped away」指「悄悄離開／消失」。",
+        "slip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-05"
     },
@@ -1064,11 +1016,9 @@ export default {
       "masked": "The afternoon ____ quickly.",
       "options": [
         "slip-mcq-05",
-        "slip-mcq-04",
-        "slip-mcq-06",
+        "slip-mcq-19",
         "slip-mcq-03",
-        "slip-mcq-07",
-        "slip-mcq-02"
+        "slip-mcq-18"
       ],
       "explanation": "本句的「slipped away」指「悄悄離開／消失」。",
       "sentenceIndex": 12,
@@ -1077,12 +1027,10 @@ export default {
         "slipped away"
       ],
       "optionReasons": {
-        "slip-mcq-05": "本句指「悄悄離開／消失」。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-02": "「在 X 上滑倒」與本句語境不同。"
+        "slip-mcq-05": "本句的「slipped away」指「悄悄離開／消失」。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-05"
     },
@@ -1094,11 +1042,9 @@ export default {
       "masked": "Time ____ while we were talking.",
       "options": [
         "slip-mcq-06",
-        "slip-mcq-05",
-        "slip-mcq-07",
-        "slip-mcq-04",
-        "slip-mcq-08",
-        "slip-mcq-03"
+        "slip-mcq-28",
+        "slip-mcq-18",
+        "slip-mcq-12"
       ],
       "explanation": "本句的「slipped away」指「時間流逝」。",
       "sentenceIndex": 13,
@@ -1107,12 +1053,10 @@ export default {
         "slipped away"
       ],
       "optionReasons": {
-        "slip-mcq-06": "本句指「時間流逝」。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。"
+        "slip-mcq-06": "本句的「slipped away」指「時間流逝」。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-06"
     },
@@ -1124,11 +1068,9 @@ export default {
       "masked": "The years ____ quickly.",
       "options": [
         "slip-mcq-06",
-        "slip-mcq-05",
-        "slip-mcq-07",
-        "slip-mcq-04",
         "slip-mcq-08",
-        "slip-mcq-03"
+        "slip-mcq-02",
+        "slip-mcq-21"
       ],
       "explanation": "本句的「slipped by」指「時間流逝」。",
       "sentenceIndex": 14,
@@ -1137,12 +1079,10 @@ export default {
         "slipped by"
       ],
       "optionReasons": {
-        "slip-mcq-06": "本句指「時間流逝」。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-03": "「從手中滑落」與本句語境不同。"
+        "slip-mcq-06": "本句的「slipped by」指「時間流逝」。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-06"
     },
@@ -1154,11 +1094,9 @@ export default {
       "masked": "The coin ____.",
       "options": [
         "slip-mcq-07",
-        "slip-mcq-06",
-        "slip-mcq-08",
-        "slip-mcq-05",
         "slip-mcq-09",
-        "slip-mcq-04"
+        "slip-mcq-13",
+        "slip-mcq-30"
       ],
       "explanation": "本句的「slipped through the gap」指「從縫隙穿過／逃過」。",
       "sentenceIndex": 15,
@@ -1167,12 +1105,10 @@ export default {
         "slipped through the gap"
       ],
       "optionReasons": {
-        "slip-mcq-07": "本句指「從縫隙穿過／逃過」。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。"
+        "slip-mcq-07": "本句的「slipped through the gap」指「從縫隙穿過／逃過」。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-07"
     },
@@ -1184,11 +1120,9 @@ export default {
       "masked": "The fish ____.",
       "options": [
         "slip-mcq-07",
-        "slip-mcq-06",
-        "slip-mcq-08",
-        "slip-mcq-05",
         "slip-mcq-09",
-        "slip-mcq-04"
+        "slip-mcq-04",
+        "slip-mcq-13"
       ],
       "explanation": "本句的「slipped through the net」指「從縫隙穿過／逃過」。",
       "sentenceIndex": 16,
@@ -1197,12 +1131,10 @@ export default {
         "slipped through the net"
       ],
       "optionReasons": {
-        "slip-mcq-07": "本句指「從縫隙穿過／逃過」。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-04": "「滑落／滑下」與本句語境不同。"
+        "slip-mcq-07": "本句的「slipped through the net」指「從縫隙穿過／逃過」。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-07"
     },
@@ -1214,10 +1146,8 @@ export default {
       "masked": "The album captured moments that might otherwise have ____.",
       "options": [
         "slip-mcq-08",
-        "slip-mcq-07",
-        "slip-mcq-09",
+        "slip-mcq-02",
         "slip-mcq-06",
-        "slip-mcq-10",
         "slip-mcq-05"
       ],
       "explanation": "本句的「slipped through the cracks」指「被遺漏／忽略」。",
@@ -1227,12 +1157,10 @@ export default {
         "slipped through the cracks"
       ],
       "optionReasons": {
-        "slip-mcq-08": "本句指「被遺漏／忽略」。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。"
+        "slip-mcq-08": "本句的「slipped through the cracks」指「被遺漏／忽略」。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-08"
     },
@@ -1244,11 +1172,9 @@ export default {
       "masked": "Some students can ____ in a large school system.",
       "options": [
         "slip-mcq-08",
-        "slip-mcq-07",
-        "slip-mcq-09",
-        "slip-mcq-06",
-        "slip-mcq-10",
-        "slip-mcq-05"
+        "slip-mcq-16",
+        "slip-mcq-01",
+        "slip-mcq-12"
       ],
       "explanation": "本句的「slip through the cracks」指「被遺漏／忽略」。",
       "sentenceIndex": 18,
@@ -1257,12 +1183,10 @@ export default {
         "slip through the cracks"
       ],
       "optionReasons": {
-        "slip-mcq-08": "本句指「被遺漏／忽略」。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。"
+        "slip-mcq-08": "本句的「slip through the cracks」指「被遺漏／忽略」。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-08"
     },
@@ -1274,11 +1198,9 @@ export default {
       "masked": "Important details sometimes ____.",
       "options": [
         "slip-mcq-08",
-        "slip-mcq-07",
-        "slip-mcq-09",
-        "slip-mcq-06",
-        "slip-mcq-10",
-        "slip-mcq-05"
+        "slip-mcq-13",
+        "slip-mcq-30",
+        "slip-mcq-22"
       ],
       "explanation": "本句的「slip through the cracks」指「被遺漏／忽略」。",
       "sentenceIndex": 19,
@@ -1287,12 +1209,10 @@ export default {
         "slip through the cracks"
       ],
       "optionReasons": {
-        "slip-mcq-08": "本句指「被遺漏／忽略」。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-05": "「悄悄離開／消失」與本句語境不同。"
+        "slip-mcq-08": "本句的「slip through the cracks」指「被遺漏／忽略」。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-08"
     },
@@ -1304,11 +1224,9 @@ export default {
       "masked": "A few errors ____.",
       "options": [
         "slip-mcq-09",
-        "slip-mcq-08",
-        "slip-mcq-10",
-        "slip-mcq-07",
-        "slip-mcq-11",
-        "slip-mcq-06"
+        "slip-mcq-15",
+        "slip-mcq-28",
+        "slip-mcq-25"
       ],
       "explanation": "本句的「slipped through the net」指「漏網」。",
       "sentenceIndex": 20,
@@ -1317,12 +1235,10 @@ export default {
         "slipped through the net"
       ],
       "optionReasons": {
-        "slip-mcq-09": "本句指「漏網」。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-09": "本句的「slipped through the net」指「漏網」。",
+        "slip-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-09"
     },
@@ -1334,11 +1250,9 @@ export default {
       "masked": "The suspect managed to ____.",
       "options": [
         "slip-mcq-09",
-        "slip-mcq-08",
-        "slip-mcq-10",
-        "slip-mcq-07",
-        "slip-mcq-11",
-        "slip-mcq-06"
+        "slip-mcq-25",
+        "slip-mcq-01",
+        "slip-mcq-12"
       ],
       "explanation": "本句的「slip through the net」指「漏網」。",
       "sentenceIndex": 21,
@@ -1347,12 +1261,10 @@ export default {
         "slip through the net"
       ],
       "optionReasons": {
-        "slip-mcq-09": "本句指「漏網」。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-06": "「時間流逝」與本句語境不同。"
+        "slip-mcq-09": "本句的「slip through the net」指「漏網」。",
+        "slip-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-09"
     },
@@ -1364,11 +1276,9 @@ export default {
       "masked": "She ____ without making a sound.",
       "options": [
         "slip-mcq-10",
-        "slip-mcq-09",
-        "slip-mcq-11",
-        "slip-mcq-08",
-        "slip-mcq-12",
-        "slip-mcq-07"
+        "slip-mcq-28",
+        "slip-mcq-02",
+        "slip-mcq-30"
       ],
       "explanation": "本句的「slipped into the room」指「悄悄進入」。",
       "sentenceIndex": 22,
@@ -1377,12 +1287,10 @@ export default {
         "slipped into the room"
       ],
       "optionReasons": {
-        "slip-mcq-10": "本句指「悄悄進入」。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。"
+        "slip-mcq-10": "本句的「slipped into the room」指「悄悄進入」。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-10"
     },
@@ -1394,11 +1302,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-10",
-        "slip-mcq-09",
-        "slip-mcq-11",
-        "slip-mcq-08",
-        "slip-mcq-12",
-        "slip-mcq-07"
+        "slip-mcq-07",
+        "slip-mcq-01",
+        "slip-mcq-19"
       ],
       "explanation": "本句的「slipped into the back seat」指「悄悄進入」。",
       "sentenceIndex": 23,
@@ -1407,12 +1313,10 @@ export default {
         "slipped into the back seat"
       ],
       "optionReasons": {
-        "slip-mcq-10": "本句指「悄悄進入」。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-07": "「從縫隙穿過／逃過」與本句語境不同。"
+        "slip-mcq-10": "本句的「slipped into the back seat」指「悄悄進入」。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-10"
     },
@@ -1424,11 +1328,9 @@ export default {
       "masked": "She ____ before dinner.",
       "options": [
         "slip-mcq-11",
-        "slip-mcq-10",
-        "slip-mcq-12",
-        "slip-mcq-09",
-        "slip-mcq-13",
-        "slip-mcq-08"
+        "slip-mcq-18",
+        "slip-mcq-22",
+        "slip-mcq-04"
       ],
       "explanation": "本句的「slipped into a dress」指「快速穿上」。",
       "sentenceIndex": 24,
@@ -1437,12 +1339,10 @@ export default {
         "slipped into a dress"
       ],
       "optionReasons": {
-        "slip-mcq-11": "本句指「快速穿上」。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。"
+        "slip-mcq-11": "本句的「slipped into a dress」指「快速穿上」。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-11"
     },
@@ -1454,11 +1354,9 @@ export default {
       "masked": "I ____ and left.",
       "options": [
         "slip-mcq-11",
-        "slip-mcq-10",
-        "slip-mcq-12",
-        "slip-mcq-09",
-        "slip-mcq-13",
-        "slip-mcq-08"
+        "slip-mcq-27",
+        "slip-mcq-17",
+        "slip-mcq-14"
       ],
       "explanation": "本句的「slipped into my shoes」指「快速穿上」。",
       "sentenceIndex": 25,
@@ -1467,12 +1365,10 @@ export default {
         "slipped into my shoes"
       ],
       "optionReasons": {
-        "slip-mcq-11": "本句指「快速穿上」。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。"
+        "slip-mcq-11": "本句的「slipped into my shoes」指「快速穿上」。",
+        "slip-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-11"
     },
@@ -1484,11 +1380,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-11",
-        "slip-mcq-10",
-        "slip-mcq-12",
-        "slip-mcq-09",
-        "slip-mcq-13",
-        "slip-mcq-08"
+        "slip-mcq-24",
+        "slip-mcq-02",
+        "slip-mcq-19"
       ],
       "explanation": "本句的「slipped out of his jacket」指「快速穿上」。",
       "sentenceIndex": 26,
@@ -1497,12 +1391,10 @@ export default {
         "slipped out of his jacket"
       ],
       "optionReasons": {
-        "slip-mcq-11": "本句指「快速穿上」。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。"
+        "slip-mcq-11": "本句的「slipped out of his jacket」指「快速穿上」。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-11"
     },
@@ -1514,11 +1406,9 @@ export default {
       "masked": "She ____ at the door.",
       "options": [
         "slip-mcq-11",
-        "slip-mcq-10",
+        "slip-mcq-23",
         "slip-mcq-12",
-        "slip-mcq-09",
-        "slip-mcq-13",
-        "slip-mcq-08"
+        "slip-mcq-22"
       ],
       "explanation": "本句的「slipped out of her shoes」指「快速穿上」。",
       "sentenceIndex": 27,
@@ -1527,12 +1417,10 @@ export default {
         "slipped out of her shoes"
       ],
       "optionReasons": {
-        "slip-mcq-11": "本句指「快速穿上」。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-08": "「被遺漏／忽略」與本句語境不同。"
+        "slip-mcq-11": "本句的「slipped out of her shoes」指「快速穿上」。",
+        "slip-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-11"
     },
@@ -1544,11 +1432,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "slip-mcq-12",
+        "slip-mcq-22",
         "slip-mcq-11",
-        "slip-mcq-13",
-        "slip-mcq-10",
-        "slip-mcq-14",
-        "slip-mcq-09"
+        "slip-mcq-28"
       ],
       "explanation": "本句的「slipped the note into his bag」指「悄悄把 X 放進 Y」。",
       "sentenceIndex": 28,
@@ -1557,12 +1443,10 @@ export default {
         "slipped the note into his bag"
       ],
       "optionReasons": {
-        "slip-mcq-12": "本句指「悄悄把 X 放進 Y」。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。"
+        "slip-mcq-12": "本句的「slipped the note into his bag」指「悄悄把 X 放進 Y」。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-12"
     },
@@ -1574,11 +1458,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-12",
-        "slip-mcq-11",
-        "slip-mcq-13",
-        "slip-mcq-10",
         "slip-mcq-14",
-        "slip-mcq-09"
+        "slip-mcq-27",
+        "slip-mcq-23"
       ],
       "explanation": "本句的「slipped the key into his pocket」指「悄悄把 X 放進 Y」。",
       "sentenceIndex": 29,
@@ -1587,12 +1469,10 @@ export default {
         "slipped the key into his pocket"
       ],
       "optionReasons": {
-        "slip-mcq-12": "本句指「悄悄把 X 放進 Y」。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-09": "「漏網」與本句語境不同。"
+        "slip-mcq-12": "本句的「slipped the key into his pocket」指「悄悄把 X 放進 Y」。",
+        "slip-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-12"
     },
@@ -1604,11 +1484,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "slip-mcq-13",
-        "slip-mcq-12",
-        "slip-mcq-14",
-        "slip-mcq-11",
-        "slip-mcq-15",
-        "slip-mcq-10"
+        "slip-mcq-02",
+        "slip-mcq-07",
+        "slip-mcq-08"
       ],
       "explanation": "本句的「slipped me a note」指「悄悄遞給某人 X」。",
       "sentenceIndex": 30,
@@ -1617,12 +1495,10 @@ export default {
         "slipped me a note"
       ],
       "optionReasons": {
-        "slip-mcq-13": "本句指「悄悄遞給某人 X」。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。"
+        "slip-mcq-13": "本句的「slipped me a note」指「悄悄遞給某人 X」。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-13"
     },
@@ -1634,11 +1510,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-13",
-        "slip-mcq-12",
-        "slip-mcq-14",
-        "slip-mcq-11",
-        "slip-mcq-15",
-        "slip-mcq-10"
+        "slip-mcq-20",
+        "slip-mcq-06",
+        "slip-mcq-07"
       ],
       "explanation": "本句的「slipped the waiter some money」指「悄悄遞給某人 X」。",
       "sentenceIndex": 31,
@@ -1647,12 +1521,10 @@ export default {
         "slipped the waiter some money"
       ],
       "optionReasons": {
-        "slip-mcq-13": "本句指「悄悄遞給某人 X」。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-10": "「悄悄進入」與本句語境不同。"
+        "slip-mcq-13": "本句的「slipped the waiter some money」指「悄悄遞給某人 X」。",
+        "slip-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-13"
     },
@@ -1664,11 +1536,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-14",
+        "slip-mcq-02",
         "slip-mcq-13",
-        "slip-mcq-15",
-        "slip-mcq-12",
-        "slip-mcq-16",
-        "slip-mcq-11"
+        "slip-mcq-18"
       ],
       "explanation": "本句的「slipped into silence」指「不知不覺養成習慣」。",
       "sentenceIndex": 32,
@@ -1677,12 +1547,10 @@ export default {
         "slipped into silence"
       ],
       "optionReasons": {
-        "slip-mcq-14": "本句指「不知不覺養成習慣」。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。"
+        "slip-mcq-14": "本句的「slipped into silence」指「不知不覺養成習慣」。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-14"
     },
@@ -1694,11 +1562,9 @@ export default {
       "masked": "It's easy to ____.",
       "options": [
         "slip-mcq-14",
-        "slip-mcq-13",
-        "slip-mcq-15",
-        "slip-mcq-12",
-        "slip-mcq-16",
-        "slip-mcq-11"
+        "slip-mcq-22",
+        "slip-mcq-01",
+        "slip-mcq-10"
       ],
       "explanation": "本句的「slip into bad habits」指「不知不覺養成習慣」。",
       "sentenceIndex": 33,
@@ -1707,12 +1573,10 @@ export default {
         "slip into bad habits"
       ],
       "optionReasons": {
-        "slip-mcq-14": "本句指「不知不覺養成習慣」。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-11": "「快速穿上」與本句語境不同。"
+        "slip-mcq-14": "本句的「slip into bad habits」指「不知不覺養成習慣」。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-14"
     },
@@ -1724,10 +1588,8 @@ export default {
       "masked": "His grades began to ____.",
       "options": [
         "slip-mcq-15",
-        "slip-mcq-14",
-        "slip-mcq-16",
-        "slip-mcq-13",
-        "slip-mcq-17",
+        "slip-mcq-06",
+        "slip-mcq-22",
         "slip-mcq-12"
       ],
       "explanation": "本句的「slip」指「成績下滑」。",
@@ -1737,12 +1599,10 @@ export default {
         "slip"
       ],
       "optionReasons": {
-        "slip-mcq-15": "本句指「成績下滑」。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。"
+        "slip-mcq-15": "本句的「slip」指「成績下滑」。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-15"
     },
@@ -1754,11 +1614,9 @@ export default {
       "masked": "Service standards have ____ recently.",
       "options": [
         "slip-mcq-15",
-        "slip-mcq-14",
-        "slip-mcq-16",
         "slip-mcq-13",
-        "slip-mcq-17",
-        "slip-mcq-12"
+        "slip-mcq-23",
+        "slip-mcq-07"
       ],
       "explanation": "本句的「slipped」指「成績下滑」。",
       "sentenceIndex": 35,
@@ -1767,12 +1625,10 @@ export default {
         "slipped"
       ],
       "optionReasons": {
-        "slip-mcq-15": "本句指「成績下滑」。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-12": "「悄悄把 X 放進 Y」與本句語境不同。"
+        "slip-mcq-15": "本句的「slipped」指「成績下滑」。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-15"
     },
@@ -1784,11 +1640,9 @@ export default {
       "masked": "The share price ____ slightly.",
       "options": [
         "slip-mcq-16",
-        "slip-mcq-15",
-        "slip-mcq-17",
-        "slip-mcq-14",
-        "slip-mcq-18",
-        "slip-mcq-13"
+        "slip-mcq-23",
+        "slip-mcq-22",
+        "slip-mcq-10"
       ],
       "explanation": "本句的「slipped」指「價格下跌」。",
       "sentenceIndex": 36,
@@ -1797,12 +1651,10 @@ export default {
         "slipped"
       ],
       "optionReasons": {
-        "slip-mcq-16": "本句指「價格下跌」。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。"
+        "slip-mcq-16": "本句的「slipped」指「價格下跌」。",
+        "slip-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-16"
     },
@@ -1814,11 +1666,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "slip-mcq-16",
-        "slip-mcq-15",
-        "slip-mcq-17",
-        "slip-mcq-14",
-        "slip-mcq-18",
-        "slip-mcq-13"
+        "slip-mcq-12",
+        "slip-mcq-09",
+        "slip-mcq-01"
       ],
       "explanation": "本句的「slipped to third place」指「價格下跌」。",
       "sentenceIndex": 37,
@@ -1827,12 +1677,10 @@ export default {
         "slipped to third place"
       ],
       "optionReasons": {
-        "slip-mcq-16": "本句指「價格下跌」。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-13": "「悄悄遞給某人 X」與本句語境不同。"
+        "slip-mcq-16": "本句的「slipped to third place」指「價格下跌」。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-16"
     },
@@ -1844,11 +1692,9 @@ export default {
       "masked": "I'm sorry—it completely ____.",
       "options": [
         "slip-mcq-17",
-        "slip-mcq-16",
-        "slip-mcq-18",
-        "slip-mcq-15",
-        "slip-mcq-19",
-        "slip-mcq-14"
+        "slip-mcq-20",
+        "slip-mcq-12",
+        "slip-mcq-11"
       ],
       "explanation": "本句的「slipped my mind」指「一時忘記」。",
       "sentenceIndex": 38,
@@ -1857,12 +1703,10 @@ export default {
         "slipped my mind"
       ],
       "optionReasons": {
-        "slip-mcq-17": "本句指「一時忘記」。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。"
+        "slip-mcq-17": "本句的「slipped my mind」指「一時忘記」。",
+        "slip-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-17"
     },
@@ -1874,11 +1718,9 @@ export default {
       "masked": "Her birthday ____.",
       "options": [
         "slip-mcq-17",
-        "slip-mcq-16",
-        "slip-mcq-18",
-        "slip-mcq-15",
-        "slip-mcq-19",
-        "slip-mcq-14"
+        "slip-mcq-11",
+        "slip-mcq-02",
+        "slip-mcq-28"
       ],
       "explanation": "本句的「slipped my mind」指「一時忘記」。",
       "sentenceIndex": 39,
@@ -1887,12 +1729,10 @@ export default {
         "slipped my mind"
       ],
       "optionReasons": {
-        "slip-mcq-17": "本句指「一時忘記」。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-14": "「不知不覺養成習慣」與本句語境不同。"
+        "slip-mcq-17": "本句的「slipped my mind」指「一時忘記」。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-17"
     },
@@ -1904,11 +1744,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "slip-mcq-18",
-        "slip-mcq-17",
+        "slip-mcq-02",
         "slip-mcq-19",
-        "slip-mcq-16",
-        "slip-mcq-20",
-        "slip-mcq-15"
+        "slip-mcq-28"
       ],
       "explanation": "本句的「let the secret slip」指「說漏嘴」。",
       "sentenceIndex": 40,
@@ -1917,12 +1755,10 @@ export default {
         "let the secret slip"
       ],
       "optionReasons": {
-        "slip-mcq-18": "本句指「說漏嘴」。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。"
+        "slip-mcq-18": "本句的「let the secret slip」指「說漏嘴」。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-18"
     },
@@ -1935,10 +1771,8 @@ export default {
       "options": [
         "slip-mcq-18",
         "slip-mcq-17",
-        "slip-mcq-19",
-        "slip-mcq-16",
-        "slip-mcq-20",
-        "slip-mcq-15"
+        "slip-mcq-02",
+        "slip-mcq-28"
       ],
       "explanation": "本句的「let slip」指「說漏嘴」。",
       "sentenceIndex": 41,
@@ -1947,12 +1781,10 @@ export default {
         "let slip"
       ],
       "optionReasons": {
-        "slip-mcq-18": "本句指「說漏嘴」。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-15": "「成績下滑」與本句語境不同。"
+        "slip-mcq-18": "本句的「let slip」指「說漏嘴」。",
+        "slip-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-18"
     },
@@ -1964,11 +1796,9 @@ export default {
       "masked": "I ____ and sent the email to the wrong person.",
       "options": [
         "slip-mcq-19",
-        "slip-mcq-18",
-        "slip-mcq-20",
-        "slip-mcq-17",
+        "slip-mcq-06",
         "slip-mcq-21",
-        "slip-mcq-16"
+        "slip-mcq-14"
       ],
       "explanation": "本句的「slipped up」指「犯小錯」。",
       "sentenceIndex": 42,
@@ -1977,12 +1807,10 @@ export default {
         "slipped up"
       ],
       "optionReasons": {
-        "slip-mcq-19": "本句指「犯小錯」。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。"
+        "slip-mcq-19": "本句的「slipped up」指「犯小錯」。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-19"
     },
@@ -1994,11 +1822,9 @@ export default {
       "masked": "Everyone ____ occasionally.",
       "options": [
         "slip-mcq-19",
-        "slip-mcq-18",
-        "slip-mcq-20",
         "slip-mcq-17",
-        "slip-mcq-21",
-        "slip-mcq-16"
+        "slip-mcq-25",
+        "slip-mcq-30"
       ],
       "explanation": "本句的「slips up」指「犯小錯」。",
       "sentenceIndex": 43,
@@ -2007,12 +1833,10 @@ export default {
         "slips up"
       ],
       "optionReasons": {
-        "slip-mcq-19": "本句指「犯小錯」。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-16": "「價格下跌」與本句語境不同。"
+        "slip-mcq-19": "本句的「slips up」指「犯小錯」。",
+        "slip-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-19"
     },
@@ -2024,11 +1848,9 @@ export default {
       "masked": "It was a minor ____.",
       "options": [
         "slip-mcq-20",
-        "slip-mcq-19",
-        "slip-mcq-21",
-        "slip-mcq-18",
-        "slip-mcq-22",
-        "slip-mcq-17"
+        "slip-mcq-02",
+        "slip-mcq-11",
+        "slip-mcq-08"
       ],
       "explanation": "本句的「slip-up」指「小失誤」。",
       "sentenceIndex": 44,
@@ -2037,12 +1859,10 @@ export default {
         "slip-up"
       ],
       "optionReasons": {
-        "slip-mcq-20": "本句指「小失誤」。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。"
+        "slip-mcq-20": "本句的「slip-up」指「小失誤」。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-20"
     },
@@ -2054,11 +1874,9 @@ export default {
       "masked": "One administrative ____ caused the delay.",
       "options": [
         "slip-mcq-20",
-        "slip-mcq-19",
-        "slip-mcq-21",
-        "slip-mcq-18",
-        "slip-mcq-22",
-        "slip-mcq-17"
+        "slip-mcq-24",
+        "slip-mcq-13",
+        "slip-mcq-29"
       ],
       "explanation": "本句的「slip-up」指「小失誤」。",
       "sentenceIndex": 45,
@@ -2067,12 +1885,10 @@ export default {
         "slip-up"
       ],
       "optionReasons": {
-        "slip-mcq-20": "本句指「小失誤」。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。"
+        "slip-mcq-20": "本句的「slip-up」指「小失誤」。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-20"
     },
@@ -2084,11 +1900,9 @@ export default {
       "masked": "It was just a ____.",
       "options": [
         "slip-mcq-20",
-        "slip-mcq-19",
-        "slip-mcq-21",
-        "slip-mcq-18",
-        "slip-mcq-22",
-        "slip-mcq-17"
+        "slip-mcq-13",
+        "slip-mcq-16",
+        "slip-mcq-24"
       ],
       "explanation": "本句的「slip」指「小失誤」。",
       "sentenceIndex": 46,
@@ -2097,12 +1911,10 @@ export default {
         "slip"
       ],
       "optionReasons": {
-        "slip-mcq-20": "本句指「小失誤」。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。"
+        "slip-mcq-20": "本句的「slip」指「小失誤」。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-20"
     },
@@ -2114,11 +1926,9 @@ export default {
       "masked": "One small ____ ruined the calculation.",
       "options": [
         "slip-mcq-20",
-        "slip-mcq-19",
-        "slip-mcq-21",
-        "slip-mcq-18",
-        "slip-mcq-22",
-        "slip-mcq-17"
+        "slip-mcq-29",
+        "slip-mcq-11",
+        "slip-mcq-08"
       ],
       "explanation": "本句的「slip」指「小失誤」。",
       "sentenceIndex": 47,
@@ -2127,12 +1937,10 @@ export default {
         "slip"
       ],
       "optionReasons": {
-        "slip-mcq-20": "本句指「小失誤」。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-17": "「一時忘記」與本句語境不同。"
+        "slip-mcq-20": "本句的「slip」指「小失誤」。",
+        "slip-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-20"
     },
@@ -2144,10 +1952,8 @@ export default {
       "masked": "Calling him by the wrong name was a ____.",
       "options": [
         "slip-mcq-21",
-        "slip-mcq-20",
-        "slip-mcq-22",
-        "slip-mcq-19",
-        "slip-mcq-23",
+        "slip-mcq-04",
+        "slip-mcq-13",
         "slip-mcq-18"
       ],
       "explanation": "本句的「slip of the tongue」指「口誤」。",
@@ -2157,12 +1963,10 @@ export default {
         "slip of the tongue"
       ],
       "optionReasons": {
-        "slip-mcq-21": "本句指「口誤」。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。"
+        "slip-mcq-21": "本句的「slip of the tongue」指「口誤」。",
+        "slip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-21"
     },
@@ -2174,11 +1978,9 @@ export default {
       "masked": "Her comment was probably a ____.",
       "options": [
         "slip-mcq-21",
-        "slip-mcq-20",
-        "slip-mcq-22",
-        "slip-mcq-19",
-        "slip-mcq-23",
-        "slip-mcq-18"
+        "slip-mcq-07",
+        "slip-mcq-15",
+        "slip-mcq-10"
       ],
       "explanation": "本句的「slip of the tongue」指「口誤」。",
       "sentenceIndex": 49,
@@ -2187,12 +1989,10 @@ export default {
         "slip of the tongue"
       ],
       "optionReasons": {
-        "slip-mcq-21": "本句指「口誤」。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-18": "「說漏嘴」與本句語境不同。"
+        "slip-mcq-21": "本句的「slip of the tongue」指「口誤」。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-21"
     },
@@ -2204,11 +2004,9 @@ export default {
       "masked": "The wrong date was a ____.",
       "options": [
         "slip-mcq-22",
-        "slip-mcq-21",
-        "slip-mcq-23",
-        "slip-mcq-20",
-        "slip-mcq-24",
-        "slip-mcq-19"
+        "slip-mcq-19",
+        "slip-mcq-15",
+        "slip-mcq-06"
       ],
       "explanation": "本句的「slip of the pen」指「筆誤」。",
       "sentenceIndex": 50,
@@ -2217,12 +2015,10 @@ export default {
         "slip of the pen"
       ],
       "optionReasons": {
-        "slip-mcq-22": "本句指「筆誤」。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。"
+        "slip-mcq-22": "本句的「slip of the pen」指「筆誤」。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-22"
     },
@@ -2234,11 +2030,9 @@ export default {
       "masked": "It was clearly a ____, not a factual error.",
       "options": [
         "slip-mcq-22",
-        "slip-mcq-21",
-        "slip-mcq-23",
-        "slip-mcq-20",
-        "slip-mcq-24",
-        "slip-mcq-19"
+        "slip-mcq-16",
+        "slip-mcq-28",
+        "slip-mcq-18"
       ],
       "explanation": "本句的「slip of the pen」指「筆誤」。",
       "sentenceIndex": 51,
@@ -2247,12 +2041,10 @@ export default {
         "slip of the pen"
       ],
       "optionReasons": {
-        "slip-mcq-22": "本句指「筆誤」。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。",
-        "slip-mcq-19": "「犯小錯」與本句語境不同。"
+        "slip-mcq-22": "本句的「slip of the pen」指「筆誤」。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-22"
     },
@@ -2264,11 +2056,9 @@ export default {
       "masked": "She wrote the number on a ____.",
       "options": [
         "slip-mcq-23",
-        "slip-mcq-22",
-        "slip-mcq-24",
-        "slip-mcq-21",
-        "slip-mcq-25",
-        "slip-mcq-20"
+        "slip-mcq-10",
+        "slip-mcq-07",
+        "slip-mcq-01"
       ],
       "explanation": "本句的「slip of paper」指「小紙條」。",
       "sentenceIndex": 52,
@@ -2277,12 +2067,10 @@ export default {
         "slip of paper"
       ],
       "optionReasons": {
-        "slip-mcq-23": "本句指「小紙條」。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。"
+        "slip-mcq-23": "本句的「slip of paper」指「小紙條」。",
+        "slip-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-23"
     },
@@ -2294,11 +2082,9 @@ export default {
       "masked": "He handed me a ____.",
       "options": [
         "slip-mcq-23",
-        "slip-mcq-22",
+        "slip-mcq-05",
         "slip-mcq-24",
-        "slip-mcq-21",
-        "slip-mcq-25",
-        "slip-mcq-20"
+        "slip-mcq-15"
       ],
       "explanation": "本句的「slip of paper」指「小紙條」。",
       "sentenceIndex": 53,
@@ -2307,12 +2093,10 @@ export default {
         "slip of paper"
       ],
       "optionReasons": {
-        "slip-mcq-23": "本句指「小紙條」。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。",
-        "slip-mcq-20": "「小失誤」與本句語境不同。"
+        "slip-mcq-23": "本句的「slip of paper」指「小紙條」。",
+        "slip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-23"
     },
@@ -2324,11 +2108,9 @@ export default {
       "masked": "Keep the ____ as proof of purchase.",
       "options": [
         "slip-mcq-24",
-        "slip-mcq-23",
-        "slip-mcq-25",
-        "slip-mcq-22",
-        "slip-mcq-26",
-        "slip-mcq-21"
+        "slip-mcq-15",
+        "slip-mcq-19",
+        "slip-mcq-30"
       ],
       "explanation": "本句的「sales slip」指「糧單／薪金單」。",
       "sentenceIndex": 54,
@@ -2337,12 +2119,10 @@ export default {
         "sales slip"
       ],
       "optionReasons": {
-        "slip-mcq-24": "本句指「糧單／薪金單」。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。"
+        "slip-mcq-24": "本句的「sales slip」指「糧單／薪金單」。",
+        "slip-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-24"
     },
@@ -2354,11 +2134,9 @@ export default {
       "masked": "Employees can download their ____ online.",
       "options": [
         "slip-mcq-24",
-        "slip-mcq-23",
-        "slip-mcq-25",
-        "slip-mcq-22",
-        "slip-mcq-26",
-        "slip-mcq-21"
+        "slip-mcq-19",
+        "slip-mcq-13",
+        "slip-mcq-09"
       ],
       "explanation": "本句的「pay slips」指「糧單／薪金單」。",
       "sentenceIndex": 55,
@@ -2367,12 +2145,10 @@ export default {
         "pay slips"
       ],
       "optionReasons": {
-        "slip-mcq-24": "本句指「糧單／薪金單」。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-21": "「口誤」與本句語境不同。"
+        "slip-mcq-24": "本句的「pay slips」指「糧單／薪金單」。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-24"
     },
@@ -2384,11 +2160,9 @@ export default {
       "masked": "He received a ____ on Friday.",
       "options": [
         "slip-mcq-25",
-        "slip-mcq-24",
-        "slip-mcq-26",
         "slip-mcq-23",
-        "slip-mcq-27",
-        "slip-mcq-22"
+        "slip-mcq-28",
+        "slip-mcq-12"
       ],
       "explanation": "本句的「pink slip」指「解僱通知」。",
       "sentenceIndex": 56,
@@ -2397,12 +2171,10 @@ export default {
         "pink slip"
       ],
       "optionReasons": {
-        "slip-mcq-25": "本句指「解僱通知」。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。"
+        "slip-mcq-25": "本句的「pink slip」指「解僱通知」。",
+        "slip-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-25"
     },
@@ -2414,11 +2186,9 @@ export default {
       "masked": "Several workers were given ____.",
       "options": [
         "slip-mcq-25",
-        "slip-mcq-24",
-        "slip-mcq-26",
-        "slip-mcq-23",
-        "slip-mcq-27",
-        "slip-mcq-22"
+        "slip-mcq-11",
+        "slip-mcq-06",
+        "slip-mcq-16"
       ],
       "explanation": "本句的「pink slips」指「解僱通知」。",
       "sentenceIndex": 57,
@@ -2427,12 +2197,10 @@ export default {
         "pink slips"
       ],
       "optionReasons": {
-        "slip-mcq-25": "本句指「解僱通知」。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-23": "「小紙條」與本句語境不同。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-22": "「筆誤」與本句語境不同。"
+        "slip-mcq-25": "本句的「pink slips」指「解僱通知」。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-25"
     },
@@ -2444,11 +2212,9 @@ export default {
       "masked": "The floor is ____ when wet.",
       "options": [
         "slip-mcq-27",
-        "slip-mcq-26",
-        "slip-mcq-28",
-        "slip-mcq-25",
-        "slip-mcq-29",
-        "slip-mcq-24"
+        "slip-mcq-22",
+        "slip-mcq-30",
+        "slip-mcq-06"
       ],
       "explanation": "本句的「slippery」指「滑的」。",
       "sentenceIndex": 60,
@@ -2457,12 +2223,10 @@ export default {
         "slippery"
       ],
       "optionReasons": {
-        "slip-mcq-27": "本句指「滑的」。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-28": "「難捉摸的」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。",
-        "slip-mcq-29": "「滑坡效應」與本句語境不同。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。"
+        "slip-mcq-27": "本句的「slippery」指「滑的」。",
+        "slip-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-27"
     },
@@ -2474,11 +2238,9 @@ export default {
       "masked": "Be careful—the rocks are ____.",
       "options": [
         "slip-mcq-27",
-        "slip-mcq-26",
-        "slip-mcq-28",
-        "slip-mcq-25",
-        "slip-mcq-29",
-        "slip-mcq-24"
+        "slip-mcq-09",
+        "slip-mcq-19",
+        "slip-mcq-05"
       ],
       "explanation": "本句的「slippery」指「滑的」。",
       "sentenceIndex": 61,
@@ -2487,12 +2249,10 @@ export default {
         "slippery"
       ],
       "optionReasons": {
-        "slip-mcq-27": "本句指「滑的」。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-28": "「難捉摸的」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。",
-        "slip-mcq-29": "「滑坡效應」與本句語境不同。",
-        "slip-mcq-24": "「糧單／薪金單」與本句語境不同。"
+        "slip-mcq-27": "本句的「slippery」指「滑的」。",
+        "slip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-27"
     },
@@ -2504,11 +2264,9 @@ export default {
       "masked": "He's a ____.",
       "options": [
         "slip-mcq-28",
-        "slip-mcq-27",
-        "slip-mcq-29",
-        "slip-mcq-26",
-        "slip-mcq-30",
-        "slip-mcq-25"
+        "slip-mcq-08",
+        "slip-mcq-13",
+        "slip-mcq-21"
       ],
       "explanation": "本句的「slippery character」指「難捉摸的」。",
       "sentenceIndex": 62,
@@ -2517,12 +2275,10 @@ export default {
         "slippery character"
       ],
       "optionReasons": {
-        "slip-mcq-28": "本句指「難捉摸的」。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-29": "「滑坡效應」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-30": "「拖鞋」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。"
+        "slip-mcq-28": "本句的「slippery character」指「難捉摸的」。",
+        "slip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-28"
     },
@@ -2534,10 +2290,8 @@ export default {
       "masked": "The concept is surprisingly ____.",
       "options": [
         "slip-mcq-28",
-        "slip-mcq-27",
-        "slip-mcq-29",
-        "slip-mcq-26",
-        "slip-mcq-30",
+        "slip-mcq-11",
+        "slip-mcq-14",
         "slip-mcq-25"
       ],
       "explanation": "本句的「slippery」指「難捉摸的」。",
@@ -2547,12 +2301,10 @@ export default {
         "slippery"
       ],
       "optionReasons": {
-        "slip-mcq-28": "本句指「難捉摸的」。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-29": "「滑坡效應」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-30": "「拖鞋」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。"
+        "slip-mcq-28": "本句的「slippery」指「難捉摸的」。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-28"
     },
@@ -2564,11 +2316,9 @@ export default {
       "masked": "Ignoring small rules can become a ____.",
       "options": [
         "slip-mcq-29",
+        "slip-mcq-16",
         "slip-mcq-28",
-        "slip-mcq-30",
-        "slip-mcq-27",
-        "slip-mcq-26",
-        "slip-mcq-25"
+        "slip-mcq-07"
       ],
       "explanation": "本句的「slippery slope」指「滑坡效應」。",
       "sentenceIndex": 64,
@@ -2577,12 +2327,10 @@ export default {
         "slippery slope"
       ],
       "optionReasons": {
-        "slip-mcq-29": "本句指「滑坡效應」。",
-        "slip-mcq-28": "「難捉摸的」與本句語境不同。",
-        "slip-mcq-30": "「拖鞋」與本句語境不同。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。"
+        "slip-mcq-29": "本句的「slippery slope」指「滑坡效應」。",
+        "slip-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-29"
     },
@@ -2594,11 +2342,9 @@ export default {
       "masked": "Critics argued that the change could lead to a ____.",
       "options": [
         "slip-mcq-29",
-        "slip-mcq-28",
-        "slip-mcq-30",
-        "slip-mcq-27",
-        "slip-mcq-26",
-        "slip-mcq-25"
+        "slip-mcq-18",
+        "slip-mcq-14",
+        "slip-mcq-28"
       ],
       "explanation": "本句的「slippery slope」指「滑坡效應」。",
       "sentenceIndex": 65,
@@ -2607,12 +2353,10 @@ export default {
         "slippery slope"
       ],
       "optionReasons": {
-        "slip-mcq-29": "本句指「滑坡效應」。",
-        "slip-mcq-28": "「難捉摸的」與本句語境不同。",
-        "slip-mcq-30": "「拖鞋」與本句語境不同。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。"
+        "slip-mcq-29": "本句的「slippery slope」指「滑坡效應」。",
+        "slip-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-29"
     },
@@ -2624,11 +2368,9 @@ export default {
       "masked": "He wore ____ around the house.",
       "options": [
         "slip-mcq-30",
-        "slip-mcq-29",
-        "slip-mcq-28",
-        "slip-mcq-27",
-        "slip-mcq-26",
-        "slip-mcq-25"
+        "slip-mcq-02",
+        "slip-mcq-24",
+        "slip-mcq-11"
       ],
       "explanation": "本句的「slippers」指「拖鞋」。",
       "sentenceIndex": 66,
@@ -2637,12 +2379,10 @@ export default {
         "slippers"
       ],
       "optionReasons": {
-        "slip-mcq-30": "本句指「拖鞋」。",
-        "slip-mcq-29": "「滑坡效應」與本句語境不同。",
-        "slip-mcq-28": "「難捉摸的」與本句語境不同。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。"
+        "slip-mcq-30": "本句的「slippers」指「拖鞋」。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-30"
     },
@@ -2654,11 +2394,9 @@ export default {
       "masked": "I left my ____ beside the bed.",
       "options": [
         "slip-mcq-30",
-        "slip-mcq-29",
-        "slip-mcq-28",
-        "slip-mcq-27",
-        "slip-mcq-26",
-        "slip-mcq-25"
+        "slip-mcq-12",
+        "slip-mcq-25",
+        "slip-mcq-02"
       ],
       "explanation": "本句的「slippers」指「拖鞋」。",
       "sentenceIndex": 67,
@@ -2667,12 +2405,10 @@ export default {
         "slippers"
       ],
       "optionReasons": {
-        "slip-mcq-30": "本句指「拖鞋」。",
-        "slip-mcq-29": "「滑坡效應」與本句語境不同。",
-        "slip-mcq-28": "「難捉摸的」與本句語境不同。",
-        "slip-mcq-27": "「滑的」與本句語境不同。",
-        "slip-mcq-26": "「襯裙」與本句語境不同。",
-        "slip-mcq-25": "「解僱通知」與本句語境不同。"
+        "slip-mcq-30": "本句的「slippers」指「拖鞋」。",
+        "slip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "slip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "slip-mcq-30"
     }
@@ -2684,5 +2420,7 @@ export default {
     "sha256": "5d0476a9feb643bf1a125300cb6f142990c38d0cd92118d5723863a9d6be7290",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

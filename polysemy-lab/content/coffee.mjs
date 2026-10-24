@@ -279,10 +279,8 @@ export default {
       "masked": "I went in for a quick ____.",
       "options": [
         "coffee-mcq-01",
-        "coffee-mcq-02",
-        "coffee-mcq-03",
-        "coffee-mcq-04",
-        "coffee-mcq-05",
+        "coffee-mcq-08",
+        "coffee-mcq-09",
         "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee」指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
@@ -292,12 +290,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-01": "本句指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-01": "本句的「coffee」指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-01"
     },
@@ -309,11 +305,9 @@ export default {
       "masked": "She drinks ____ every morning.",
       "options": [
         "coffee-mcq-01",
-        "coffee-mcq-02",
-        "coffee-mcq-03",
-        "coffee-mcq-04",
-        "coffee-mcq-05",
-        "coffee-mcq-06"
+        "coffee-mcq-09",
+        "coffee-mcq-06",
+        "coffee-mcq-08"
       ],
       "explanation": "本句的「coffee」指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
       "sentenceIndex": 1,
@@ -322,12 +316,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-01": "本句指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-01": "本句的「coffee」指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-01"
     },
@@ -339,11 +331,9 @@ export default {
       "masked": "The ____ smells excellent.",
       "options": [
         "coffee-mcq-01",
-        "coffee-mcq-02",
-        "coffee-mcq-03",
-        "coffee-mcq-04",
-        "coffee-mcq-05",
-        "coffee-mcq-06"
+        "coffee-mcq-06",
+        "coffee-mcq-09",
+        "coffee-mcq-08"
       ],
       "explanation": "本句的「coffee」指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
       "sentenceIndex": 2,
@@ -352,12 +342,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-01": "本句指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-01": "本句的「coffee」指「用烘焙咖啡豆研磨後沖泡而成的飲品」。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-01"
     },
@@ -369,11 +357,9 @@ export default {
       "masked": "Can I have ____, please?",
       "options": [
         "coffee-mcq-02",
-        "coffee-mcq-01",
-        "coffee-mcq-03",
-        "coffee-mcq-04",
-        "coffee-mcq-05",
-        "coffee-mcq-06"
+        "coffee-mcq-08",
+        "coffee-mcq-06",
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「a coffee」指「一杯／一份咖啡飲品」。",
       "sentenceIndex": 3,
@@ -382,12 +368,10 @@ export default {
         "a coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-02": "本句指「一杯／一份咖啡飲品」。",
-        "coffee-mcq-01": "「用烘焙咖啡豆研磨後沖泡而成的飲品」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-02": "本句的「a coffee」指「一杯／一份咖啡飲品」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-02"
     },
@@ -399,11 +383,9 @@ export default {
       "masked": "We ordered two ____.",
       "options": [
         "coffee-mcq-02",
-        "coffee-mcq-01",
-        "coffee-mcq-03",
-        "coffee-mcq-04",
-        "coffee-mcq-05",
-        "coffee-mcq-06"
+        "coffee-mcq-06",
+        "coffee-mcq-09",
+        "coffee-mcq-08"
       ],
       "explanation": "本句的「coffees」指「一杯／一份咖啡飲品」。",
       "sentenceIndex": 4,
@@ -412,12 +394,10 @@ export default {
         "coffees"
       ],
       "optionReasons": {
-        "coffee-mcq-02": "本句指「一杯／一份咖啡飲品」。",
-        "coffee-mcq-01": "「用烘焙咖啡豆研磨後沖泡而成的飲品」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-02": "本句的「coffees」指「一杯／一份咖啡飲品」。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-02"
     },
@@ -429,10 +409,8 @@ export default {
       "masked": "This shop sells freshly roasted ____.",
       "options": [
         "coffee-mcq-03",
-        "coffee-mcq-02",
-        "coffee-mcq-04",
-        "coffee-mcq-01",
-        "coffee-mcq-05",
+        "coffee-mcq-09",
+        "coffee-mcq-08",
         "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee」指「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」。",
@@ -442,12 +420,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-03": "本句指「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-01": "「用烘焙咖啡豆研磨後沖泡而成的飲品」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-03": "本句的「coffee」指「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-03"
     },
@@ -459,11 +435,9 @@ export default {
       "masked": "Keep the ____ in an airtight container.",
       "options": [
         "coffee-mcq-03",
-        "coffee-mcq-02",
-        "coffee-mcq-04",
-        "coffee-mcq-01",
-        "coffee-mcq-05",
-        "coffee-mcq-06"
+        "coffee-mcq-08",
+        "coffee-mcq-06",
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee」指「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」。",
       "sentenceIndex": 6,
@@ -472,12 +446,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-03": "本句指「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-01": "「用烘焙咖啡豆研磨後沖泡而成的飲品」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-03": "本句的「coffee」指「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-03"
     },
@@ -489,11 +461,9 @@ export default {
       "masked": "The region grows ____.",
       "options": [
         "coffee-mcq-04",
-        "coffee-mcq-03",
-        "coffee-mcq-05",
-        "coffee-mcq-02",
+        "coffee-mcq-08",
         "coffee-mcq-06",
-        "coffee-mcq-01"
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee」指「作為農作物種植及收成的咖啡植物／咖啡豆」。",
       "sentenceIndex": 7,
@@ -502,12 +472,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-04": "本句指「作為農作物種植及收成的咖啡植物／咖啡豆」。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-01": "「用烘焙咖啡豆研磨後沖泡而成的飲品」與本句語境不同。"
+        "coffee-mcq-04": "本句的「coffee」指「作為農作物種植及收成的咖啡植物／咖啡豆」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-04"
     },
@@ -519,11 +487,9 @@ export default {
       "masked": "____ is an important export crop.",
       "options": [
         "coffee-mcq-04",
-        "coffee-mcq-03",
-        "coffee-mcq-05",
-        "coffee-mcq-02",
         "coffee-mcq-06",
-        "coffee-mcq-01"
+        "coffee-mcq-08",
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「Coffee」指「作為農作物種植及收成的咖啡植物／咖啡豆」。",
       "sentenceIndex": 8,
@@ -532,12 +498,10 @@ export default {
         "Coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-04": "本句指「作為農作物種植及收成的咖啡植物／咖啡豆」。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-01": "「用烘焙咖啡豆研磨後沖泡而成的飲品」與本句語境不同。"
+        "coffee-mcq-04": "本句的「Coffee」指「作為農作物種植及收成的咖啡植物／咖啡豆」。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-04"
     },
@@ -549,11 +513,8 @@ export default {
       "masked": "Let’s meet for ____.",
       "options": [
         "coffee-mcq-05",
-        "coffee-mcq-04",
-        "coffee-mcq-06",
-        "coffee-mcq-03",
-        "coffee-mcq-07",
-        "coffee-mcq-02"
+        "coffee-mcq-08",
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee」指「以喝咖啡為中心的短暫社交會面」。",
       "sentenceIndex": 9,
@@ -562,12 +523,9 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-05": "本句指「以喝咖啡為中心的短暫社交會面」。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。"
+        "coffee-mcq-05": "本句的「coffee」指「以喝咖啡為中心的短暫社交會面」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-05"
     },
@@ -579,11 +537,8 @@ export default {
       "masked": "We had ____ after the meeting.",
       "options": [
         "coffee-mcq-05",
-        "coffee-mcq-04",
-        "coffee-mcq-06",
-        "coffee-mcq-03",
-        "coffee-mcq-07",
-        "coffee-mcq-02"
+        "coffee-mcq-08",
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee」指「以喝咖啡為中心的短暫社交會面」。",
       "sentenceIndex": 10,
@@ -592,12 +547,9 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-05": "本句指「以喝咖啡為中心的短暫社交會面」。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-02": "「一杯／一份咖啡飲品」與本句語境不同。"
+        "coffee-mcq-05": "本句的「coffee」指「以喝咖啡為中心的短暫社交會面」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-05"
     },
@@ -609,11 +561,9 @@ export default {
       "masked": "We took a short ____.",
       "options": [
         "coffee-mcq-06",
-        "coffee-mcq-05",
-        "coffee-mcq-07",
-        "coffee-mcq-04",
+        "coffee-mcq-01",
         "coffee-mcq-08",
-        "coffee-mcq-03"
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee break」指「工作／會議期間的短暫小休」。",
       "sentenceIndex": 11,
@@ -622,12 +572,10 @@ export default {
         "coffee break"
       ],
       "optionReasons": {
-        "coffee-mcq-06": "本句指「工作／會議期間的短暫小休」。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。"
+        "coffee-mcq-06": "本句的「coffee break」指「工作／會議期間的短暫小休」。",
+        "coffee-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-06"
     },
@@ -639,11 +587,9 @@ export default {
       "masked": "The meeting resumes after the ____ break.",
       "options": [
         "coffee-mcq-06",
-        "coffee-mcq-05",
         "coffee-mcq-07",
-        "coffee-mcq-04",
-        "coffee-mcq-08",
-        "coffee-mcq-03"
+        "coffee-mcq-09",
+        "coffee-mcq-08"
       ],
       "explanation": "本句的「coffee」指「工作／會議期間的短暫小休」。",
       "sentenceIndex": 12,
@@ -652,12 +598,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-06": "本句指「工作／會議期間的短暫小休」。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-03": "「用來沖泡飲品的咖啡豆、咖啡粉或相關咖啡產品」與本句語境不同。"
+        "coffee-mcq-06": "本句的「coffee」指「工作／會議期間的短暫小休」。",
+        "coffee-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-06"
     },
@@ -669,11 +613,9 @@ export default {
       "masked": "There is a small ____ next to the bakery.",
       "options": [
         "coffee-mcq-07",
-        "coffee-mcq-06",
-        "coffee-mcq-08",
-        "coffee-mcq-05",
         "coffee-mcq-09",
-        "coffee-mcq-04"
+        "coffee-mcq-08",
+        "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee shop」指「主要供應咖啡及簡單食品的店舖」。",
       "sentenceIndex": 13,
@@ -682,12 +624,10 @@ export default {
         "coffee shop"
       ],
       "optionReasons": {
-        "coffee-mcq-07": "本句指「主要供應咖啡及簡單食品的店舖」。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。"
+        "coffee-mcq-07": "本句的「coffee shop」指「主要供應咖啡及簡單食品的店舖」。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-07"
     },
@@ -699,11 +639,9 @@ export default {
       "masked": "The ____ shop serves pastries as well.",
       "options": [
         "coffee-mcq-07",
-        "coffee-mcq-06",
-        "coffee-mcq-08",
-        "coffee-mcq-05",
         "coffee-mcq-09",
-        "coffee-mcq-04"
+        "coffee-mcq-08",
+        "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee」指「主要供應咖啡及簡單食品的店舖」。",
       "sentenceIndex": 14,
@@ -712,12 +650,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-07": "本句指「主要供應咖啡及簡單食品的店舖」。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-04": "「作為農作物種植及收成的咖啡植物／咖啡豆」與本句語境不同。"
+        "coffee-mcq-07": "本句的「coffee」指「主要供應咖啡及簡單食品的店舖」。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-07"
     },
@@ -729,11 +665,9 @@ export default {
       "masked": "The magazine is on the ____.",
       "options": [
         "coffee-mcq-08",
-        "coffee-mcq-07",
-        "coffee-mcq-09",
+        "coffee-mcq-01",
         "coffee-mcq-06",
-        "coffee-mcq-10",
-        "coffee-mcq-05"
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee table」指「客廳中通常放在沙發前的矮桌」。",
       "sentenceIndex": 15,
@@ -742,12 +676,10 @@ export default {
         "coffee table"
       ],
       "optionReasons": {
-        "coffee-mcq-08": "本句指「客廳中通常放在沙發前的矮桌」。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。"
+        "coffee-mcq-08": "本句的「coffee table」指「客廳中通常放在沙發前的矮桌」。",
+        "coffee-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-08"
     },
@@ -759,11 +691,9 @@ export default {
       "masked": "They bought a wooden ____ table.",
       "options": [
         "coffee-mcq-08",
-        "coffee-mcq-07",
+        "coffee-mcq-02",
         "coffee-mcq-09",
-        "coffee-mcq-06",
-        "coffee-mcq-10",
-        "coffee-mcq-05"
+        "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee」指「客廳中通常放在沙發前的矮桌」。",
       "sentenceIndex": 16,
@@ -772,12 +702,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-08": "本句指「客廳中通常放在沙發前的矮桌」。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-05": "「以喝咖啡為中心的短暫社交會面」與本句語境不同。"
+        "coffee-mcq-08": "本句的「coffee」指「客廳中通常放在沙發前的矮桌」。",
+        "coffee-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-08"
     },
@@ -789,10 +717,8 @@ export default {
       "masked": "The museum published a beautiful ____.",
       "options": [
         "coffee-mcq-09",
+        "coffee-mcq-02",
         "coffee-mcq-08",
-        "coffee-mcq-10",
-        "coffee-mcq-07",
-        "coffee-mcq-11",
         "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee-table book」指「大型、精美、圖片豐富，適合展示翻閱的書」。",
@@ -802,12 +728,10 @@ export default {
         "coffee-table book"
       ],
       "optionReasons": {
-        "coffee-mcq-09": "本句指「大型、精美、圖片豐富，適合展示翻閱的書」。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-11": "「沖泡咖啡後剩下的咖啡粉渣」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-09": "本句的「coffee-table book」指「大型、精美、圖片豐富，適合展示翻閱的書」。",
+        "coffee-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-09"
     },
@@ -819,11 +743,9 @@ export default {
       "masked": "She chose a warm ____ for the wall.",
       "options": [
         "coffee-mcq-10",
+        "coffee-mcq-06",
         "coffee-mcq-09",
-        "coffee-mcq-11",
-        "coffee-mcq-08",
-        "coffee-mcq-07",
-        "coffee-mcq-06"
+        "coffee-mcq-08"
       ],
       "explanation": "本句的「coffee brown」指「像咖啡般的棕啡色」。",
       "sentenceIndex": 18,
@@ -832,12 +754,10 @@ export default {
         "coffee brown"
       ],
       "optionReasons": {
-        "coffee-mcq-10": "本句指「像咖啡般的棕啡色」。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-11": "「沖泡咖啡後剩下的咖啡粉渣」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-10": "本句的「coffee brown」指「像咖啡般的棕啡色」。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-10"
     },
@@ -849,11 +769,9 @@ export default {
       "masked": "The bag is ____.",
       "options": [
         "coffee-mcq-10",
+        "coffee-mcq-06",
         "coffee-mcq-09",
-        "coffee-mcq-11",
-        "coffee-mcq-08",
-        "coffee-mcq-07",
-        "coffee-mcq-06"
+        "coffee-mcq-08"
       ],
       "explanation": "本句的「coffee-coloured」指「像咖啡般的棕啡色」。",
       "sentenceIndex": 19,
@@ -862,12 +780,10 @@ export default {
         "coffee-coloured"
       ],
       "optionReasons": {
-        "coffee-mcq-10": "本句指「像咖啡般的棕啡色」。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-11": "「沖泡咖啡後剩下的咖啡粉渣」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-10": "本句的「coffee-coloured」指「像咖啡般的棕啡色」。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-10"
     },
@@ -879,10 +795,8 @@ export default {
       "masked": "Do not pour ____ into the sink.",
       "options": [
         "coffee-mcq-11",
-        "coffee-mcq-10",
         "coffee-mcq-09",
         "coffee-mcq-08",
-        "coffee-mcq-07",
         "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee grounds」指「沖泡咖啡後剩下的咖啡粉渣」。",
@@ -892,12 +806,10 @@ export default {
         "coffee grounds"
       ],
       "optionReasons": {
-        "coffee-mcq-11": "本句指「沖泡咖啡後剩下的咖啡粉渣」。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-11": "本句的「coffee grounds」指「沖泡咖啡後剩下的咖啡粉渣」。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-11"
     },
@@ -909,11 +821,9 @@ export default {
       "masked": "The café composts used ____ grounds.",
       "options": [
         "coffee-mcq-11",
-        "coffee-mcq-10",
-        "coffee-mcq-09",
         "coffee-mcq-08",
-        "coffee-mcq-07",
-        "coffee-mcq-06"
+        "coffee-mcq-06",
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee」指「沖泡咖啡後剩下的咖啡粉渣」。",
       "sentenceIndex": 21,
@@ -922,12 +832,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-mcq-11": "本句指「沖泡咖啡後剩下的咖啡粉渣」。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-mcq-11": "本句的「coffee」指「沖泡咖啡後剩下的咖啡粉渣」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-mcq-11"
     },
@@ -939,11 +847,9 @@ export default {
       "masked": "These ____ were roasted this morning.",
       "options": [
         "coffee-pdf-001",
-        "coffee-mcq-10",
-        "coffee-mcq-09",
+        "coffee-mcq-06",
         "coffee-mcq-08",
-        "coffee-mcq-07",
-        "coffee-mcq-06"
+        "coffee-mcq-09"
       ],
       "explanation": "本句的「coffee beans」指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
       "sentenceIndex": 22,
@@ -952,12 +858,10 @@ export default {
         "coffee beans"
       ],
       "optionReasons": {
-        "coffee-pdf-001": "本句指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-pdf-001": "本句的「coffee beans」指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-pdf-001"
     },
@@ -969,10 +873,8 @@ export default {
       "masked": "Different ____ beans produce different flavours.",
       "options": [
         "coffee-pdf-001",
-        "coffee-mcq-10",
-        "coffee-mcq-09",
         "coffee-mcq-08",
-        "coffee-mcq-07",
+        "coffee-mcq-09",
         "coffee-mcq-06"
       ],
       "explanation": "本句的「coffee」指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
@@ -982,12 +884,10 @@ export default {
         "coffee"
       ],
       "optionReasons": {
-        "coffee-pdf-001": "本句指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
-        "coffee-mcq-10": "「像咖啡般的棕啡色」與本句語境不同。",
-        "coffee-mcq-09": "「大型、精美、圖片豐富，適合展示翻閱的書」與本句語境不同。",
-        "coffee-mcq-08": "「客廳中通常放在沙發前的矮桌」與本句語境不同。",
-        "coffee-mcq-07": "「主要供應咖啡及簡單食品的店舖」與本句語境不同。",
-        "coffee-mcq-06": "「工作／會議期間的短暫小休」與本句語境不同。"
+        "coffee-pdf-001": "本句的「coffee」指「咖啡植物種子，經處理、烘焙後用來沖泡咖啡」。",
+        "coffee-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "coffee-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "coffee-pdf-001"
     }
@@ -999,5 +899,7 @@ export default {
     "sha256": "2c58cb8ff22e1b808a9973c45182a4825533f531a73af0b5361d71dd96941aad",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

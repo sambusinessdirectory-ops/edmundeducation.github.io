@@ -347,11 +347,7 @@ export default {
       "masked": "a packed train, a busy café, and a ____ office",
       "options": [
         "noise-mcq-01",
-        "noise-mcq-02",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
       "sentenceIndex": 0,
@@ -360,12 +356,8 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-01": "本句指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-01": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-01"
     },
@@ -377,11 +369,7 @@ export default {
       "masked": "The restaurant became very ____ during dinner.",
       "options": [
         "noise-mcq-01",
-        "noise-mcq-02",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
       "sentenceIndex": 1,
@@ -390,12 +378,8 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-01": "本句指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-01": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-01"
     },
@@ -407,11 +391,7 @@ export default {
       "masked": "It is difficult to concentrate in a ____ classroom.",
       "options": [
         "noise-mcq-01",
-        "noise-mcq-02",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
       "sentenceIndex": 2,
@@ -420,12 +400,8 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-01": "本句指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-01": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-01"
     },
@@ -437,11 +413,8 @@ export default {
       "masked": "The children were extremely ____ this morning.",
       "options": [
         "noise-mcq-15",
-        "noise-mcq-14",
-        "noise-mcq-13",
-        "noise-mcq-12",
-        "noise-mcq-11",
-        "noise-mcq-10"
+        "noise-mcq-10",
+        "noise-mcq-06"
       ],
       "explanation": "本句的「noisy」指「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」。",
       "sentenceIndex": 0,
@@ -450,12 +423,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-15": "本句指「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」。",
-        "noise-mcq-14": "「環境中過量而有害或令人困擾的噪音污染」是「noise pollution」的用法，與本句語境不同。",
-        "noise-mcq-13": "「某地方、人或物件產生大量聲響的程度」是「noisiness」的用法，與本句語境不同。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。"
+        "noise-mcq-15": "本句的「noisy」指「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-15"
     },
@@ -467,11 +437,8 @@ export default {
       "masked": "A ____ group of tourists entered the café.",
       "options": [
         "noise-mcq-15",
-        "noise-mcq-14",
-        "noise-mcq-13",
-        "noise-mcq-12",
-        "noise-mcq-11",
-        "noise-mcq-10"
+        "noise-mcq-10",
+        "noise-mcq-06"
       ],
       "explanation": "本句的「noisy」指「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」。",
       "sentenceIndex": 1,
@@ -480,12 +447,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-15": "本句指「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」。",
-        "noise-mcq-14": "「環境中過量而有害或令人困擾的噪音污染」是「noise pollution」的用法，與本句語境不同。",
-        "noise-mcq-13": "「某地方、人或物件產生大量聲響的程度」是「noisiness」的用法，與本句語境不同。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。"
+        "noise-mcq-15": "本句的「noisy」指「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-15"
     },
@@ -497,11 +461,7 @@ export default {
       "masked": "The old air conditioner is very ____.",
       "options": [
         "noise-mcq-01",
-        "noise-mcq-02",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
       "sentenceIndex": 0,
@@ -510,12 +470,8 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-01": "本句指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-01": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-01"
     },
@@ -527,11 +483,7 @@ export default {
       "masked": "Construction work can be extremely ____.",
       "options": [
         "noise-mcq-01",
-        "noise-mcq-02",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
       "sentenceIndex": 1,
@@ -540,12 +492,8 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-01": "本句指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-01": "本句的「noisy」指「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-01"
     },
@@ -557,11 +505,7 @@ export default {
       "masked": "I couldn’t sleep because of the traffic ____.",
       "options": [
         "noise-mcq-02",
-        "noise-mcq-01",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "noise-mcq-09"
       ],
       "explanation": "本句的「noise」指「不需要、令人不舒服或會造成干擾的聲音」。",
       "sentenceIndex": 0,
@@ -570,12 +514,8 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-02": "本句指「不需要、令人不舒服或會造成干擾的聲音」。",
-        "noise-mcq-01": "「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」是「noisy place/person/machine」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-02": "本句的「noise」指「不需要、令人不舒服或會造成干擾的聲音」。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-02"
     },
@@ -587,11 +527,7 @@ export default {
       "masked": "The headphones block out most background ____.",
       "options": [
         "noise-mcq-02",
-        "noise-mcq-01",
-        "noise-mcq-03",
-        "noise-mcq-04",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "noise-mcq-09"
       ],
       "explanation": "本句的「noise」指「不需要、令人不舒服或會造成干擾的聲音」。",
       "sentenceIndex": 1,
@@ -600,12 +536,8 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-02": "本句指「不需要、令人不舒服或會造成干擾的聲音」。",
-        "noise-mcq-01": "「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」是「noisy place/person/machine」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-02": "本句的「noise」指「不需要、令人不舒服或會造成干擾的聲音」。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-02"
     },
@@ -617,11 +549,7 @@ export default {
       "masked": "I heard a strange ____ downstairs.",
       "options": [
         "noise-mcq-03",
-        "noise-mcq-02",
-        "noise-mcq-04",
-        "noise-mcq-01",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "noise-mcq-09"
       ],
       "explanation": "本句的「noise」指「某個可以被聽見、辨認或注意到的聲響」。",
       "sentenceIndex": 0,
@@ -630,12 +558,8 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-03": "本句指「某個可以被聽見、辨認或注意到的聲響」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-01": "「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」是「noisy place/person/machine」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-03": "本句的「noise」指「某個可以被聽見、辨認或注意到的聲響」。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-03"
     },
@@ -647,11 +571,7 @@ export default {
       "masked": "The engine suddenly made a clicking ____.",
       "options": [
         "noise-mcq-03",
-        "noise-mcq-02",
-        "noise-mcq-04",
-        "noise-mcq-01",
-        "noise-mcq-05",
-        "noise-mcq-06"
+        "noise-mcq-09"
       ],
       "explanation": "本句的「noise」指「某個可以被聽見、辨認或注意到的聲響」。",
       "sentenceIndex": 1,
@@ -660,12 +580,8 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-03": "本句指「某個可以被聽見、辨認或注意到的聲響」。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-01": "「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」是「noisy place/person/machine」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-03": "本句的「noise」指「某個可以被聽見、辨認或注意到的聲響」。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-03"
     },
@@ -677,11 +593,8 @@ export default {
       "masked": "There was too much ____ during the call.",
       "options": [
         "noise-mcq-04",
-        "noise-mcq-03",
-        "noise-mcq-05",
-        "noise-mcq-02",
-        "noise-mcq-06",
-        "noise-mcq-01"
+        "noise-mcq-10",
+        "noise-mcq-09"
       ],
       "explanation": "本句的「background noise」指「在主要聲音之外存在、可能干擾聆聽的環境聲」。",
       "sentenceIndex": 0,
@@ -690,12 +603,9 @@ export default {
         "background noise"
       ],
       "optionReasons": {
-        "noise-mcq-04": "本句指「在主要聲音之外存在、可能干擾聆聽的環境聲」。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。",
-        "noise-mcq-01": "「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」是「noisy place/person/machine」的用法，與本句語境不同。"
+        "noise-mcq-04": "本句的「background noise」指「在主要聲音之外存在、可能干擾聆聽的環境聲」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-04"
     },
@@ -707,11 +617,8 @@ export default {
       "masked": "The microphone reduces ____.",
       "options": [
         "noise-mcq-04",
-        "noise-mcq-03",
-        "noise-mcq-05",
-        "noise-mcq-02",
-        "noise-mcq-06",
-        "noise-mcq-01"
+        "noise-mcq-09",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「background noise」指「在主要聲音之外存在、可能干擾聆聽的環境聲」。",
       "sentenceIndex": 1,
@@ -720,12 +627,9 @@ export default {
         "background noise"
       ],
       "optionReasons": {
-        "noise-mcq-04": "本句指「在主要聲音之外存在、可能干擾聆聽的環境聲」。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。",
-        "noise-mcq-01": "「產生或包含大量明顯聲響，以致環境嘈吵或令人受到干擾的」是「noisy place/person/machine」的用法，與本句語境不同。"
+        "noise-mcq-04": "本句的「background noise」指「在主要聲音之外存在、可能干擾聆聽的環境聲」。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-04"
     },
@@ -737,11 +641,8 @@ export default {
       "masked": "I bought a pair of ____ headphones for my commute.",
       "options": [
         "noise-mcq-05",
-        "noise-mcq-04",
-        "noise-mcq-06",
-        "noise-mcq-03",
-        "noise-mcq-07",
-        "noise-mcq-02"
+        "noise-mcq-10",
+        "noise-mcq-08"
       ],
       "explanation": "本句的「noise-cancelling」指「利用技術減弱或抵消周圍不需要聲音的」。",
       "sentenceIndex": 2,
@@ -750,12 +651,9 @@ export default {
         "noise-cancelling"
       ],
       "optionReasons": {
-        "noise-mcq-05": "本句指「利用技術減弱或抵消周圍不需要聲音的」。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。"
+        "noise-mcq-05": "本句的「noise-cancelling」指「利用技術減弱或抵消周圍不需要聲音的」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-05"
     },
@@ -767,11 +665,8 @@ export default {
       "masked": "The ____ feature works well on planes.",
       "options": [
         "noise-mcq-05",
-        "noise-mcq-04",
-        "noise-mcq-06",
-        "noise-mcq-03",
-        "noise-mcq-07",
-        "noise-mcq-02"
+        "noise-mcq-10",
+        "noise-mcq-08"
       ],
       "explanation": "本句的「noise-cancelling」指「利用技術減弱或抵消周圍不需要聲音的」。",
       "sentenceIndex": 3,
@@ -780,12 +675,9 @@ export default {
         "noise-cancelling"
       ],
       "optionReasons": {
-        "noise-mcq-05": "本句指「利用技術減弱或抵消周圍不需要聲音的」。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-02": "「不需要、令人不舒服或會造成干擾的聲音」是「noise — unwanted sound」的用法，與本句語境不同。"
+        "noise-mcq-05": "本句的「noise-cancelling」指「利用技術減弱或抵消周圍不需要聲音的」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-05"
     },
@@ -797,11 +689,8 @@ export default {
       "masked": "There is too much ____ in the audio signal.",
       "options": [
         "noise-mcq-06",
-        "noise-mcq-05",
-        "noise-mcq-07",
-        "noise-mcq-04",
-        "noise-mcq-08",
-        "noise-mcq-03"
+        "noise-mcq-15",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noise」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
       "sentenceIndex": 0,
@@ -810,12 +699,9 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-06": "本句指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。"
+        "noise-mcq-06": "本句的「noise」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
+        "noise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-06"
     },
@@ -827,11 +713,8 @@ export default {
       "masked": "Engineers tried to reduce the ____ in the transmission.",
       "options": [
         "noise-mcq-06",
-        "noise-mcq-05",
-        "noise-mcq-07",
-        "noise-mcq-04",
-        "noise-mcq-08",
-        "noise-mcq-03"
+        "noise-mcq-11",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noise」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
       "sentenceIndex": 1,
@@ -840,12 +723,9 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-06": "本句指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。"
+        "noise-mcq-06": "本句的「noise」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
+        "noise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-06"
     },
@@ -857,11 +737,8 @@ export default {
       "masked": "The sensor produced very ____ data.",
       "options": [
         "noise-mcq-06",
-        "noise-mcq-05",
-        "noise-mcq-07",
-        "noise-mcq-04",
-        "noise-mcq-08",
-        "noise-mcq-03"
+        "noise-mcq-12",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noisy」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
       "sentenceIndex": 2,
@@ -870,12 +747,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-06": "本句指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。"
+        "noise-mcq-06": "本句的「noisy」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
+        "noise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-06"
     },
@@ -887,11 +761,8 @@ export default {
       "masked": "The signal is too ____ to analyse accurately.",
       "options": [
         "noise-mcq-06",
-        "noise-mcq-05",
-        "noise-mcq-07",
-        "noise-mcq-04",
-        "noise-mcq-08",
-        "noise-mcq-03"
+        "noise-mcq-13",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noisy」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
       "sentenceIndex": 3,
@@ -900,12 +771,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-06": "本句指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-04": "「在主要聲音之外存在、可能干擾聆聽的環境聲」是「background noise」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-03": "「某個可以被聽見、辨認或注意到的聲響」是「a noise — particular sound」的用法，與本句語境不同。"
+        "noise-mcq-06": "本句的「noisy」指「混入主要訊號、令真正訊息較難辨認的干擾雜訊」。",
+        "noise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-06"
     },
@@ -917,11 +785,8 @@ export default {
       "masked": "We need to separate the useful information from the ____.",
       "options": [
         "noise-mcq-08",
-        "noise-mcq-07",
-        "noise-mcq-09",
-        "noise-mcq-06",
-        "noise-mcq-10",
-        "noise-mcq-05"
+        "noise-mcq-11",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noise」指「大量無關或次要資訊，令真正重要訊息變得難以辨認」。",
       "sentenceIndex": 0,
@@ -930,12 +795,9 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-08": "本句指「大量無關或次要資訊，令真正重要訊息變得難以辨認」。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。"
+        "noise-mcq-08": "本句的「noise」指「大量無關或次要資訊，令真正重要訊息變得難以辨認」。",
+        "noise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-08"
     },
@@ -947,11 +809,8 @@ export default {
       "masked": "Social media can contain a lot of ____.",
       "options": [
         "noise-mcq-08",
-        "noise-mcq-07",
-        "noise-mcq-09",
-        "noise-mcq-06",
-        "noise-mcq-10",
-        "noise-mcq-05"
+        "noise-mcq-11",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noise」指「大量無關或次要資訊，令真正重要訊息變得難以辨認」。",
       "sentenceIndex": 1,
@@ -960,12 +819,9 @@ export default {
         "noise"
       ],
       "optionReasons": {
-        "noise-mcq-08": "本句指「大量無關或次要資訊，令真正重要訊息變得難以辨認」。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-05": "「利用技術減弱或抵消周圍不需要聲音的」是「noise-cancelling」的用法，與本句語境不同。"
+        "noise-mcq-08": "本句的「noise」指「大量無關或次要資訊，令真正重要訊息變得難以辨認」。",
+        "noise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-08"
     },
@@ -977,11 +833,8 @@ export default {
       "masked": "Photos taken in very low light can look ____.",
       "options": [
         "noise-mcq-09",
-        "noise-mcq-08",
-        "noise-mcq-10",
-        "noise-mcq-07",
-        "noise-mcq-11",
-        "noise-mcq-06"
+        "noise-mcq-04",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noisy」指「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」。",
       "sentenceIndex": 0,
@@ -990,12 +843,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-09": "本句指「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-09": "本句的「noisy」指「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」。",
+        "noise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-09"
     },
@@ -1007,11 +857,8 @@ export default {
       "masked": "The image becomes ____ at high ISO settings.",
       "options": [
         "noise-mcq-09",
-        "noise-mcq-08",
-        "noise-mcq-10",
-        "noise-mcq-07",
-        "noise-mcq-11",
-        "noise-mcq-06"
+        "noise-mcq-04",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noisier」指「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」。",
       "sentenceIndex": 1,
@@ -1020,12 +867,9 @@ export default {
         "noisier"
       ],
       "optionReasons": {
-        "noise-mcq-09": "本句指「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-06": "「混入主要訊號、令真正訊息較難辨認的干擾雜訊」是「noise — signal interference」的用法，與本句語境不同。"
+        "noise-mcq-09": "本句的「noisier」指「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」。",
+        "noise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-09"
     },
@@ -1037,11 +881,8 @@ export default {
       "masked": "The website design feels too ____.",
       "options": [
         "noise-mcq-10",
-        "noise-mcq-09",
-        "noise-mcq-11",
-        "noise-mcq-08",
-        "noise-mcq-12",
-        "noise-mcq-07"
+        "noise-mcq-15",
+        "noise-mcq-08"
       ],
       "explanation": "本句的「noisy」指「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」。",
       "sentenceIndex": 0,
@@ -1050,12 +891,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-10": "本句指「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。"
+        "noise-mcq-10": "本句的「noisy」指「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」。",
+        "noise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-10"
     },
@@ -1067,11 +905,8 @@ export default {
       "masked": "The designer replaced the ____ colours with softer tones.",
       "options": [
         "noise-mcq-10",
-        "noise-mcq-09",
-        "noise-mcq-11",
-        "noise-mcq-08",
-        "noise-mcq-12",
-        "noise-mcq-07"
+        "noise-mcq-04",
+        "noise-mcq-09"
       ],
       "explanation": "本句的「noisy」指「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」。",
       "sentenceIndex": 1,
@@ -1080,12 +915,9 @@ export default {
         "noisy"
       ],
       "optionReasons": {
-        "noise-mcq-10": "本句指「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-07": "「含有大量隨機干擾、波動或誤差的」是「noisy data/signal」的用法，與本句語境不同。"
+        "noise-mcq-10": "本句的「noisy」指「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」。",
+        "noise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-10"
     },
@@ -1097,11 +929,8 @@ export default {
       "masked": "I use ____ to help me sleep.",
       "options": [
         "noise-mcq-11",
-        "noise-mcq-10",
-        "noise-mcq-12",
-        "noise-mcq-09",
-        "noise-mcq-13",
-        "noise-mcq-08"
+        "noise-mcq-06",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「white noise」指「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」。",
       "sentenceIndex": 0,
@@ -1110,12 +939,9 @@ export default {
         "white noise"
       ],
       "optionReasons": {
-        "noise-mcq-11": "本句指「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。",
-        "noise-mcq-13": "「某地方、人或物件產生大量聲響的程度」是「noisiness」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。"
+        "noise-mcq-11": "本句的「white noise」指「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-11"
     },
@@ -1128,9 +954,6 @@ export default {
       "options": [
         "noise-mcq-11",
         "noise-mcq-10",
-        "noise-mcq-12",
-        "noise-mcq-09",
-        "noise-mcq-13",
         "noise-mcq-08"
       ],
       "explanation": "本句的「white noise」指「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」。",
@@ -1140,12 +963,9 @@ export default {
         "white noise"
       ],
       "optionReasons": {
-        "noise-mcq-11": "本句指「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。",
-        "noise-mcq-13": "「某地方、人或物件產生大量聲響的程度」是「noisiness」的用法，與本句語境不同。",
-        "noise-mcq-08": "「大量無關或次要資訊，令真正重要訊息變得難以辨認」是「noise — irrelevant information」的用法，與本句語境不同。"
+        "noise-mcq-11": "本句的「white noise」指「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-11"
     },
@@ -1157,11 +977,8 @@ export default {
       "masked": "The children ran ____ through the hallway.",
       "options": [
         "noise-mcq-12",
-        "noise-mcq-11",
-        "noise-mcq-13",
-        "noise-mcq-10",
-        "noise-mcq-14",
-        "noise-mcq-09"
+        "noise-mcq-06",
+        "noise-mcq-10"
       ],
       "explanation": "本句的「noisily」指「以產生大量明顯聲響的方式」。",
       "sentenceIndex": 0,
@@ -1170,12 +987,9 @@ export default {
         "noisily"
       ],
       "optionReasons": {
-        "noise-mcq-12": "本句指「以產生大量明顯聲響的方式」。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-13": "「某地方、人或物件產生大量聲響的程度」是「noisiness」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-14": "「環境中過量而有害或令人困擾的噪音污染」是「noise pollution」的用法，與本句語境不同。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。"
+        "noise-mcq-12": "本句的「noisily」指「以產生大量明顯聲響的方式」。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-12"
     },
@@ -1187,11 +1001,8 @@ export default {
       "masked": "The old fan turned ____ above us.",
       "options": [
         "noise-mcq-12",
-        "noise-mcq-11",
-        "noise-mcq-13",
         "noise-mcq-10",
-        "noise-mcq-14",
-        "noise-mcq-09"
+        "noise-mcq-06"
       ],
       "explanation": "本句的「noisily」指「以產生大量明顯聲響的方式」。",
       "sentenceIndex": 1,
@@ -1200,12 +1011,9 @@ export default {
         "noisily"
       ],
       "optionReasons": {
-        "noise-mcq-12": "本句指「以產生大量明顯聲響的方式」。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-13": "「某地方、人或物件產生大量聲響的程度」是「noisiness」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。",
-        "noise-mcq-14": "「環境中過量而有害或令人困擾的噪音污染」是「noise pollution」的用法，與本句語境不同。",
-        "noise-mcq-09": "「含大量隨機顆粒、斑點或影像雜訊而令畫質下降的」是「noisy image」的用法，與本句語境不同。"
+        "noise-mcq-12": "本句的「noisily」指「以產生大量明顯聲響的方式」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-12"
     },
@@ -1217,11 +1025,8 @@ export default {
       "masked": "Customers complained about the ____ of the restaurant.",
       "options": [
         "noise-mcq-13",
-        "noise-mcq-12",
-        "noise-mcq-14",
-        "noise-mcq-11",
-        "noise-mcq-15",
-        "noise-mcq-10"
+        "noise-mcq-10",
+        "noise-mcq-06"
       ],
       "explanation": "本句的「noisiness」指「某地方、人或物件產生大量聲響的程度」。",
       "sentenceIndex": 0,
@@ -1230,12 +1035,9 @@ export default {
         "noisiness"
       ],
       "optionReasons": {
-        "noise-mcq-13": "本句指「某地方、人或物件產生大量聲響的程度」。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-14": "「環境中過量而有害或令人困擾的噪音污染」是「noise pollution」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-15": "「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」是「2. noisy = person/group（人／群體）making a lot of loud sound — 說話或活動聲音很大的；吵鬧的」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。"
+        "noise-mcq-13": "本句的「noisiness」指「某地方、人或物件產生大量聲響的程度」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-13"
     },
@@ -1247,11 +1049,8 @@ export default {
       "masked": "The ____ of the machine makes it unsuitable for an office.",
       "options": [
         "noise-mcq-13",
-        "noise-mcq-12",
-        "noise-mcq-14",
-        "noise-mcq-11",
-        "noise-mcq-15",
-        "noise-mcq-10"
+        "noise-mcq-10",
+        "noise-mcq-06"
       ],
       "explanation": "本句的「noisiness」指「某地方、人或物件產生大量聲響的程度」。",
       "sentenceIndex": 1,
@@ -1260,12 +1059,9 @@ export default {
         "noisiness"
       ],
       "optionReasons": {
-        "noise-mcq-13": "本句指「某地方、人或物件產生大量聲響的程度」。",
-        "noise-mcq-12": "「以產生大量明顯聲響的方式」是「noisily」的用法，與本句語境不同。",
-        "noise-mcq-14": "「環境中過量而有害或令人困擾的噪音污染」是「noise pollution」的用法，與本句語境不同。",
-        "noise-mcq-11": "「持續均勻、含廣泛頻率並常用來遮蓋其他聲音的背景聲」是「white noise」的用法，與本句語境不同。",
-        "noise-mcq-15": "「因說話、叫喊、嬉戲或活動而發出很多大聲聲響的人或群體」是「2. noisy = person/group（人／群體）making a lot of loud sound — 說話或活動聲音很大的；吵鬧的」的用法，與本句語境不同。",
-        "noise-mcq-10": "「視覺刺激過強或元素互相爭奪注意力、令人感到繁雜的」是「noisy design/colour」的用法，與本句語境不同。"
+        "noise-mcq-13": "本句的「noisiness」指「某地方、人或物件產生大量聲響的程度」。",
+        "noise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "noise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "noise-mcq-13"
     }
@@ -1278,5 +1074,12 @@ export default {
     "pages": 13,
     "sha256": "b9b51169d39435822280af718496946af530909ebd4b31c3283133ef6c5c1a62"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

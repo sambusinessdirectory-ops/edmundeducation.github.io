@@ -598,11 +598,9 @@ export default {
       "masked": "She ____ after hearing the news.",
       "options": [
         "cry-mcq-01",
-        "cry-mcq-02",
-        "cry-mcq-03",
-        "cry-mcq-04",
-        "cry-mcq-05",
-        "cry-mcq-06"
+        "cry-mcq-20",
+        "cry-mcq-26",
+        "cry-mcq-15"
       ],
       "explanation": "本句的「cried」指「因悲傷、疼痛、恐懼、感動等而哭／流淚」。",
       "sentenceIndex": 2,
@@ -611,12 +609,10 @@ export default {
         "cried"
       ],
       "optionReasons": {
-        "cry-mcq-01": "本句指「因悲傷、疼痛、恐懼、感動等而哭／流淚」。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-01": "本句的「cried」指「因悲傷、疼痛、恐懼、感動等而哭／流淚」。",
+        "cry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-01"
     },
@@ -628,11 +624,9 @@ export default {
       "masked": "The baby started ____.",
       "options": [
         "cry-mcq-01",
-        "cry-mcq-02",
-        "cry-mcq-03",
-        "cry-mcq-04",
-        "cry-mcq-05",
-        "cry-mcq-06"
+        "cry-mcq-18",
+        "cry-mcq-21",
+        "cry-mcq-15"
       ],
       "explanation": "本句的「crying」指「因悲傷、疼痛、恐懼、感動等而哭／流淚」。",
       "sentenceIndex": 3,
@@ -641,12 +635,10 @@ export default {
         "crying"
       ],
       "optionReasons": {
-        "cry-mcq-01": "本句指「因悲傷、疼痛、恐懼、感動等而哭／流淚」。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-01": "本句的「crying」指「因悲傷、疼痛、恐懼、感動等而哭／流淚」。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-01"
     },
@@ -658,11 +650,9 @@ export default {
       "masked": "Sometimes you just need a good ____.",
       "options": [
         "cry-mcq-02",
-        "cry-mcq-01",
-        "cry-mcq-03",
-        "cry-mcq-04",
-        "cry-mcq-05",
-        "cry-mcq-06"
+        "cry-mcq-06",
+        "cry-mcq-15",
+        "cry-mcq-12"
       ],
       "explanation": "本句的「cry」指「一次／一陣哭泣；哭一場」。",
       "sentenceIndex": 4,
@@ -671,12 +661,10 @@ export default {
         "cry"
       ],
       "optionReasons": {
-        "cry-mcq-02": "本句指「一次／一陣哭泣；哭一場」。",
-        "cry-mcq-01": "「因悲傷、疼痛、恐懼、感動等而哭／流淚」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-02": "本句的「cry」指「一次／一陣哭泣；哭一場」。",
+        "cry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-02"
     },
@@ -688,11 +676,9 @@ export default {
       "masked": "She had a long ____ and felt better afterwards.",
       "options": [
         "cry-mcq-02",
-        "cry-mcq-01",
-        "cry-mcq-03",
-        "cry-mcq-04",
         "cry-mcq-05",
-        "cry-mcq-06"
+        "cry-mcq-21",
+        "cry-mcq-14"
       ],
       "explanation": "本句的「cry」指「一次／一陣哭泣；哭一場」。",
       "sentenceIndex": 5,
@@ -701,12 +687,10 @@ export default {
         "cry"
       ],
       "optionReasons": {
-        "cry-mcq-02": "本句指「一次／一陣哭泣；哭一場」。",
-        "cry-mcq-01": "「因悲傷、疼痛、恐懼、感動等而哭／流淚」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-02": "本句的「cry」指「一次／一陣哭泣；哭一場」。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-02"
     },
@@ -718,11 +702,9 @@ export default {
       "masked": "He ____ after hurting his leg.",
       "options": [
         "cry-mcq-03",
-        "cry-mcq-02",
-        "cry-mcq-04",
-        "cry-mcq-01",
+        "cry-mcq-13",
         "cry-mcq-05",
-        "cry-mcq-06"
+        "cry-mcq-10"
       ],
       "explanation": "本句的「cried with pain」指「因悲傷或疼痛而哭」。",
       "sentenceIndex": 6,
@@ -731,12 +713,10 @@ export default {
         "cried with pain"
       ],
       "optionReasons": {
-        "cry-mcq-03": "本句指「因悲傷或疼痛而哭」。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-01": "「因悲傷、疼痛、恐懼、感動等而哭／流淚」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-03": "本句的「cried with pain」指「因悲傷或疼痛而哭」。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-03"
     },
@@ -748,10 +728,8 @@ export default {
       "masked": "She ____ when they said goodbye.",
       "options": [
         "cry-mcq-03",
-        "cry-mcq-02",
-        "cry-mcq-04",
-        "cry-mcq-01",
-        "cry-mcq-05",
+        "cry-mcq-22",
+        "cry-mcq-18",
         "cry-mcq-06"
       ],
       "explanation": "本句的「cried with sadness」指「因悲傷或疼痛而哭」。",
@@ -761,12 +739,10 @@ export default {
         "cried with sadness"
       ],
       "optionReasons": {
-        "cry-mcq-03": "本句指「因悲傷或疼痛而哭」。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-01": "「因悲傷、疼痛、恐懼、感動等而哭／流淚」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-03": "本句的「cried with sadness」指「因悲傷或疼痛而哭」。",
+        "cry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-03"
     },
@@ -778,11 +754,9 @@ export default {
       "masked": "She ____ when she saw her family.",
       "options": [
         "cry-mcq-04",
-        "cry-mcq-03",
-        "cry-mcq-05",
-        "cry-mcq-02",
+        "cry-mcq-15",
         "cry-mcq-06",
-        "cry-mcq-01"
+        "cry-mcq-17"
       ],
       "explanation": "本句的「cried with joy」指「因非常開心或感動而流淚；喜極而泣」。",
       "sentenceIndex": 8,
@@ -791,12 +765,10 @@ export default {
         "cried with joy"
       ],
       "optionReasons": {
-        "cry-mcq-04": "本句指「因非常開心或感動而流淚；喜極而泣」。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-01": "「因悲傷、疼痛、恐懼、感動等而哭／流淚」與本句語境不同。"
+        "cry-mcq-04": "本句的「cried with joy」指「因非常開心或感動而流淚；喜極而泣」。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-04"
     },
@@ -808,11 +780,9 @@ export default {
       "masked": "He was so relieved that he almost ____.",
       "options": [
         "cry-mcq-04",
-        "cry-mcq-03",
-        "cry-mcq-05",
-        "cry-mcq-02",
-        "cry-mcq-06",
-        "cry-mcq-01"
+        "cry-mcq-21",
+        "cry-mcq-19",
+        "cry-mcq-18"
       ],
       "explanation": "本句的「cried」指「因非常開心或感動而流淚；喜極而泣」。",
       "sentenceIndex": 9,
@@ -821,12 +791,10 @@ export default {
         "cried"
       ],
       "optionReasons": {
-        "cry-mcq-04": "本句指「因非常開心或感動而流淚；喜極而泣」。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-01": "「因悲傷、疼痛、恐懼、感動等而哭／流淚」與本句語境不同。"
+        "cry-mcq-04": "本句的「cried」指「因非常開心或感動而流淚；喜極而泣」。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-04"
     },
@@ -838,11 +806,9 @@ export default {
       "masked": "The story made us ____.",
       "options": [
         "cry-mcq-05",
-        "cry-mcq-04",
-        "cry-mcq-06",
-        "cry-mcq-03",
-        "cry-mcq-07",
-        "cry-mcq-02"
+        "cry-mcq-11",
+        "cry-mcq-21",
+        "cry-mcq-22"
       ],
       "explanation": "本句的「cry with laughter」指「笑得太厲害而流眼淚」。",
       "sentenceIndex": 10,
@@ -851,12 +817,10 @@ export default {
         "cry with laughter"
       ],
       "optionReasons": {
-        "cry-mcq-05": "本句指「笑得太厲害而流眼淚」。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。"
+        "cry-mcq-05": "本句的「cry with laughter」指「笑得太厲害而流眼淚」。",
+        "cry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-05"
     },
@@ -868,11 +832,9 @@ export default {
       "masked": "I was ____ by the end.",
       "options": [
         "cry-mcq-05",
-        "cry-mcq-04",
-        "cry-mcq-06",
-        "cry-mcq-03",
-        "cry-mcq-07",
-        "cry-mcq-02"
+        "cry-mcq-10",
+        "cry-mcq-27",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「crying with laughter」指「笑得太厲害而流眼淚」。",
       "sentenceIndex": 11,
@@ -881,12 +843,10 @@ export default {
         "crying with laughter"
       ],
       "optionReasons": {
-        "cry-mcq-05": "本句指「笑得太厲害而流眼淚」。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-02": "「一次／一陣哭泣；哭一場」與本句語境不同。"
+        "cry-mcq-05": "本句的「crying with laughter」指「笑得太厲害而流眼淚」。",
+        "cry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-05"
     },
@@ -898,11 +858,9 @@ export default {
       "masked": "Stop!” she ____.",
       "options": [
         "cry-mcq-06",
-        "cry-mcq-05",
-        "cry-mcq-07",
+        "cry-mcq-20",
         "cry-mcq-04",
-        "cry-mcq-08",
-        "cry-mcq-03"
+        "cry-mcq-10"
       ],
       "explanation": "本句的「cried」指「帶強烈情緒地大聲喊叫／呼喊」。",
       "sentenceIndex": 12,
@@ -911,12 +869,10 @@ export default {
         "cried"
       ],
       "optionReasons": {
-        "cry-mcq-06": "本句指「帶強烈情緒地大聲喊叫／呼喊」。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。"
+        "cry-mcq-06": "本句的「cried」指「帶強烈情緒地大聲喊叫／呼喊」。",
+        "cry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-06"
     },
@@ -928,11 +884,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "cry-mcq-06",
-        "cry-mcq-05",
-        "cry-mcq-07",
-        "cry-mcq-04",
-        "cry-mcq-08",
-        "cry-mcq-03"
+        "cry-mcq-18",
+        "cry-mcq-27",
+        "cry-mcq-12"
       ],
       "explanation": "本句的「cried for help」指「帶強烈情緒地大聲喊叫／呼喊」。",
       "sentenceIndex": 13,
@@ -941,12 +895,10 @@ export default {
         "cried for help"
       ],
       "optionReasons": {
-        "cry-mcq-06": "本句指「帶強烈情緒地大聲喊叫／呼喊」。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-03": "「因悲傷或疼痛而哭」與本句語境不同。"
+        "cry-mcq-06": "本句的「cried for help」指「帶強烈情緒地大聲喊叫／呼喊」。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-06"
     },
@@ -958,11 +910,9 @@ export default {
       "masked": "We heard a ____ from the next room.",
       "options": [
         "cry-mcq-07",
-        "cry-mcq-06",
-        "cry-mcq-08",
-        "cry-mcq-05",
-        "cry-mcq-09",
-        "cry-mcq-04"
+        "cry-mcq-16",
+        "cry-mcq-18",
+        "cry-mcq-17"
       ],
       "explanation": "本句的「cry」指「人發出的喊聲／叫聲」。",
       "sentenceIndex": 14,
@@ -971,12 +921,10 @@ export default {
         "cry"
       ],
       "optionReasons": {
-        "cry-mcq-07": "本句指「人發出的喊聲／叫聲」。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。"
+        "cry-mcq-07": "本句的「cry」指「人發出的喊聲／叫聲」。",
+        "cry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-07"
     },
@@ -988,11 +936,9 @@ export default {
       "masked": "A sudden ____ came from the crowd.",
       "options": [
         "cry-mcq-07",
-        "cry-mcq-06",
-        "cry-mcq-08",
-        "cry-mcq-05",
-        "cry-mcq-09",
-        "cry-mcq-04"
+        "cry-mcq-13",
+        "cry-mcq-27",
+        "cry-mcq-15"
       ],
       "explanation": "本句的「cry of pain」指「人發出的喊聲／叫聲」。",
       "sentenceIndex": 15,
@@ -1001,12 +947,10 @@ export default {
         "cry of pain"
       ],
       "optionReasons": {
-        "cry-mcq-07": "本句指「人發出的喊聲／叫聲」。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-04": "「因非常開心或感動而流淚；喜極而泣」與本句語境不同。"
+        "cry-mcq-07": "本句的「cry of pain」指「人發出的喊聲／叫聲」。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-07"
     },
@@ -1018,11 +962,9 @@ export default {
       "masked": "We heard the ____.",
       "options": [
         "cry-mcq-08",
-        "cry-mcq-07",
-        "cry-mcq-09",
-        "cry-mcq-06",
-        "cry-mcq-10",
-        "cry-mcq-05"
+        "cry-mcq-03",
+        "cry-mcq-23",
+        "cry-mcq-13"
       ],
       "explanation": "本句的「cry of a seagull」指「動物或鳥類的鳴叫聲」。",
       "sentenceIndex": 16,
@@ -1031,12 +973,10 @@ export default {
         "cry of a seagull"
       ],
       "optionReasons": {
-        "cry-mcq-08": "本句指「動物或鳥類的鳴叫聲」。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。"
+        "cry-mcq-08": "本句的「cry of a seagull」指「動物或鳥類的鳴叫聲」。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-08"
     },
@@ -1048,10 +988,8 @@ export default {
       "masked": "The strange ____ of the animal echoed through the forest.",
       "options": [
         "cry-mcq-08",
-        "cry-mcq-07",
-        "cry-mcq-09",
-        "cry-mcq-06",
         "cry-mcq-10",
+        "cry-mcq-02",
         "cry-mcq-05"
       ],
       "explanation": "本句的「cry」指「動物或鳥類的鳴叫聲」。",
@@ -1061,12 +999,10 @@ export default {
         "cry"
       ],
       "optionReasons": {
-        "cry-mcq-08": "本句指「動物或鳥類的鳴叫聲」。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-05": "「笑得太厲害而流眼淚」與本句語境不同。"
+        "cry-mcq-08": "本句的「cry」指「動物或鳥類的鳴叫聲」。",
+        "cry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-08"
     },
@@ -1078,11 +1014,9 @@ export default {
       "masked": "Someone heard her ____.",
       "options": [
         "cry-mcq-09",
-        "cry-mcq-08",
-        "cry-mcq-10",
-        "cry-mcq-07",
-        "cry-mcq-11",
-        "cry-mcq-06"
+        "cry-mcq-12",
+        "cry-mcq-17",
+        "cry-mcq-18"
       ],
       "explanation": "本句的「cry for help」指「因需要緊急援助而大聲呼救」。",
       "sentenceIndex": 18,
@@ -1091,12 +1025,10 @@ export default {
         "cry for help"
       ],
       "optionReasons": {
-        "cry-mcq-09": "本句指「因需要緊急援助而大聲呼救」。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-09": "本句的「cry for help」指「因需要緊急援助而大聲呼救」。",
+        "cry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-09"
     },
@@ -1108,11 +1040,9 @@ export default {
       "masked": "His ____ attracted attention.",
       "options": [
         "cry-mcq-09",
-        "cry-mcq-08",
-        "cry-mcq-10",
-        "cry-mcq-07",
-        "cry-mcq-11",
-        "cry-mcq-06"
+        "cry-mcq-17",
+        "cry-mcq-19",
+        "cry-mcq-13"
       ],
       "explanation": "本句的「cries for help」指「因需要緊急援助而大聲呼救」。",
       "sentenceIndex": 19,
@@ -1121,12 +1051,10 @@ export default {
         "cries for help"
       ],
       "optionReasons": {
-        "cry-mcq-09": "本句指「因需要緊急援助而大聲呼救」。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-06": "「帶強烈情緒地大聲喊叫／呼喊」與本句語境不同。"
+        "cry-mcq-09": "本句的「cries for help」指「因需要緊急援助而大聲呼救」。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-09"
     },
@@ -1138,11 +1066,9 @@ export default {
       "masked": "His behavior may have been a ____.",
       "options": [
         "cry-mcq-10",
-        "cry-mcq-09",
-        "cry-mcq-11",
-        "cry-mcq-08",
-        "cry-mcq-12",
-        "cry-mcq-07"
+        "cry-mcq-07",
+        "cry-mcq-04",
+        "cry-mcq-14"
       ],
       "explanation": "本句的「cry for help」指「顯示某人迫切需要支援的求助訊號」。",
       "sentenceIndex": 20,
@@ -1151,12 +1077,10 @@ export default {
         "cry for help"
       ],
       "optionReasons": {
-        "cry-mcq-10": "本句指「顯示某人迫切需要支援的求助訊號」。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。"
+        "cry-mcq-10": "本句的「cry for help」指「顯示某人迫切需要支援的求助訊號」。",
+        "cry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-10"
     },
@@ -1168,11 +1092,9 @@ export default {
       "masked": "The message sounded like a ____.",
       "options": [
         "cry-mcq-10",
-        "cry-mcq-09",
-        "cry-mcq-11",
-        "cry-mcq-08",
-        "cry-mcq-12",
-        "cry-mcq-07"
+        "cry-mcq-19",
+        "cry-mcq-23",
+        "cry-mcq-14"
       ],
       "explanation": "本句的「cry for help」指「顯示某人迫切需要支援的求助訊號」。",
       "sentenceIndex": 21,
@@ -1181,12 +1103,10 @@ export default {
         "cry for help"
       ],
       "optionReasons": {
-        "cry-mcq-10": "本句指「顯示某人迫切需要支援的求助訊號」。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-07": "「人發出的喊聲／叫聲」與本句語境不同。"
+        "cry-mcq-10": "本句的「cry for help」指「顯示某人迫切需要支援的求助訊號」。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-10"
     },
@@ -1198,11 +1118,9 @@ export default {
       "masked": "There were growing ____.",
       "options": [
         "cry-mcq-11",
-        "cry-mcq-10",
-        "cry-mcq-12",
-        "cry-mcq-09",
-        "cry-mcq-13",
-        "cry-mcq-08"
+        "cry-mcq-16",
+        "cry-mcq-19",
+        "cry-mcq-17"
       ],
       "explanation": "本句的「cries for reform」指「公開而強烈要求某事的呼聲」。",
       "sentenceIndex": 22,
@@ -1211,12 +1129,10 @@ export default {
         "cries for reform"
       ],
       "optionReasons": {
-        "cry-mcq-11": "本句指「公開而強烈要求某事的呼聲」。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。"
+        "cry-mcq-11": "本句的「cries for reform」指「公開而強烈要求某事的呼聲」。",
+        "cry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-11"
     },
@@ -1228,11 +1144,9 @@ export default {
       "masked": "The incident led to renewed ____.",
       "options": [
         "cry-mcq-11",
-        "cry-mcq-10",
-        "cry-mcq-12",
-        "cry-mcq-09",
-        "cry-mcq-13",
-        "cry-mcq-08"
+        "cry-mcq-02",
+        "cry-mcq-03",
+        "cry-mcq-23"
       ],
       "explanation": "本句的「cries for change」指「公開而強烈要求某事的呼聲」。",
       "sentenceIndex": 23,
@@ -1241,12 +1155,10 @@ export default {
         "cries for change"
       ],
       "optionReasons": {
-        "cry-mcq-11": "本句指「公開而強烈要求某事的呼聲」。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-08": "「動物或鳥類的鳴叫聲」與本句語境不同。"
+        "cry-mcq-11": "本句的「cries for change」指「公開而強烈要求某事的呼聲」。",
+        "cry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-11"
     },
@@ -1258,11 +1170,9 @@ export default {
       "masked": "The phrase became a ____ for the movement.",
       "options": [
         "cry-mcq-12",
-        "cry-mcq-11",
-        "cry-mcq-13",
-        "cry-mcq-10",
-        "cry-mcq-14",
-        "cry-mcq-09"
+        "cry-mcq-09",
+        "cry-mcq-23",
+        "cry-mcq-07"
       ],
       "explanation": "本句的「rallying cry」指「用來團結、鼓舞一群人的號召口號／共同訴求」。",
       "sentenceIndex": 24,
@@ -1271,12 +1181,10 @@ export default {
         "rallying cry"
       ],
       "optionReasons": {
-        "cry-mcq-12": "本句指「用來團結、鼓舞一群人的號召口號／共同訴求」。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。"
+        "cry-mcq-12": "本句的「rallying cry」指「用來團結、鼓舞一群人的號召口號／共同訴求」。",
+        "cry-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-12"
     },
@@ -1288,10 +1196,8 @@ export default {
       "masked": "Equality became their ____.",
       "options": [
         "cry-mcq-12",
-        "cry-mcq-11",
-        "cry-mcq-13",
-        "cry-mcq-10",
-        "cry-mcq-14",
+        "cry-mcq-03",
+        "cry-mcq-23",
         "cry-mcq-09"
       ],
       "explanation": "本句的「rallying cry」指「用來團結、鼓舞一群人的號召口號／共同訴求」。",
@@ -1301,12 +1207,10 @@ export default {
         "rallying cry"
       ],
       "optionReasons": {
-        "cry-mcq-12": "本句指「用來團結、鼓舞一群人的號召口號／共同訴求」。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-09": "「因需要緊急援助而大聲呼救」與本句語境不同。"
+        "cry-mcq-12": "本句的「rallying cry」指「用來團結、鼓舞一群人的號召口號／共同訴求」。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-12"
     },
@@ -1318,11 +1222,9 @@ export default {
       "masked": "The soldiers shouted their ____.",
       "options": [
         "cry-mcq-13",
-        "cry-mcq-12",
-        "cry-mcq-14",
-        "cry-mcq-11",
-        "cry-mcq-15",
-        "cry-mcq-10"
+        "cry-mcq-01",
+        "cry-mcq-21",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「battle cry」指「戰鬥時的戰吼；鼓舞鬥志的口號」。",
       "sentenceIndex": 26,
@@ -1331,12 +1233,10 @@ export default {
         "battle cry"
       ],
       "optionReasons": {
-        "cry-mcq-13": "本句指「戰鬥時的戰吼；鼓舞鬥志的口號」。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。"
+        "cry-mcq-13": "本句的「battle cry」指「戰鬥時的戰吼；鼓舞鬥志的口號」。",
+        "cry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-13"
     },
@@ -1348,11 +1248,9 @@ export default {
       "masked": "The slogan became a political ____.",
       "options": [
         "cry-mcq-13",
-        "cry-mcq-12",
-        "cry-mcq-14",
-        "cry-mcq-11",
-        "cry-mcq-15",
-        "cry-mcq-10"
+        "cry-mcq-03",
+        "cry-mcq-04",
+        "cry-mcq-07"
       ],
       "explanation": "本句的「battle cry」指「戰鬥時的戰吼；鼓舞鬥志的口號」。",
       "sentenceIndex": 27,
@@ -1361,12 +1259,10 @@ export default {
         "battle cry"
       ],
       "optionReasons": {
-        "cry-mcq-13": "本句指「戰鬥時的戰吼；鼓舞鬥志的口號」。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-10": "「顯示某人迫切需要支援的求助訊號」與本句語境不同。"
+        "cry-mcq-13": "本句的「battle cry」指「戰鬥時的戰吼；鼓舞鬥志的口號」。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-13"
     },
@@ -1378,11 +1274,9 @@ export default {
       "masked": "She ____ in pain.",
       "options": [
         "cry-mcq-14",
-        "cry-mcq-13",
-        "cry-mcq-15",
-        "cry-mcq-12",
-        "cry-mcq-16",
-        "cry-mcq-11"
+        "cry-mcq-05",
+        "cry-mcq-27",
+        "cry-mcq-17"
       ],
       "explanation": "本句的「cried out」指「因疼痛、恐懼、驚訝等突然大叫」。",
       "sentenceIndex": 28,
@@ -1391,12 +1285,10 @@ export default {
         "cried out"
       ],
       "optionReasons": {
-        "cry-mcq-14": "本句指「因疼痛、恐懼、驚訝等突然大叫」。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。"
+        "cry-mcq-14": "本句的「cried out」指「因疼痛、恐懼、驚訝等突然大叫」。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-14"
     },
@@ -1408,11 +1300,9 @@ export default {
       "masked": "He ____ when he saw the accident.",
       "options": [
         "cry-mcq-14",
-        "cry-mcq-13",
-        "cry-mcq-15",
-        "cry-mcq-12",
-        "cry-mcq-16",
-        "cry-mcq-11"
+        "cry-mcq-19",
+        "cry-mcq-18",
+        "cry-mcq-15"
       ],
       "explanation": "本句的「cried out」指「因疼痛、恐懼、驚訝等突然大叫」。",
       "sentenceIndex": 29,
@@ -1421,12 +1311,10 @@ export default {
         "cried out"
       ],
       "optionReasons": {
-        "cry-mcq-14": "本句指「因疼痛、恐懼、驚訝等突然大叫」。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-11": "「公開而強烈要求某事的呼聲」與本句語境不同。"
+        "cry-mcq-14": "本句的「cried out」指「因疼痛、恐懼、驚訝等突然大叫」。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-14"
     },
@@ -1438,11 +1326,9 @@ export default {
       "masked": "The old building ____.",
       "options": [
         "cry-mcq-15",
+        "cry-mcq-05",
         "cry-mcq-14",
-        "cry-mcq-16",
-        "cry-mcq-13",
-        "cry-mcq-17",
-        "cry-mcq-12"
+        "cry-mcq-16"
       ],
       "explanation": "本句的「cries out for renovation」指「明顯而迫切地需要某事」。",
       "sentenceIndex": 30,
@@ -1451,12 +1337,10 @@ export default {
         "cries out for renovation"
       ],
       "optionReasons": {
-        "cry-mcq-15": "本句指「明顯而迫切地需要某事」。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。"
+        "cry-mcq-15": "本句的「cries out for renovation」指「明顯而迫切地需要某事」。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-15"
     },
@@ -1468,11 +1352,9 @@ export default {
       "masked": "The situation ____.",
       "options": [
         "cry-mcq-15",
-        "cry-mcq-14",
-        "cry-mcq-16",
-        "cry-mcq-13",
-        "cry-mcq-17",
-        "cry-mcq-12"
+        "cry-mcq-05",
+        "cry-mcq-08",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「cries out for action」指「明顯而迫切地需要某事」。",
       "sentenceIndex": 31,
@@ -1481,12 +1363,10 @@ export default {
         "cries out for action"
       ],
       "optionReasons": {
-        "cry-mcq-15": "本句指「明顯而迫切地需要某事」。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-12": "「用來團結、鼓舞一群人的號召口號／共同訴求」與本句語境不同。"
+        "cry-mcq-15": "本句的「cries out for action」指「明顯而迫切地需要某事」。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-15"
     },
@@ -1498,11 +1378,9 @@ export default {
       "masked": "She ____ after the breakup.",
       "options": [
         "cry-mcq-16",
-        "cry-mcq-15",
-        "cry-mcq-17",
-        "cry-mcq-14",
-        "cry-mcq-18",
-        "cry-mcq-13"
+        "cry-mcq-13",
+        "cry-mcq-11",
+        "cry-mcq-08"
       ],
       "explanation": "本句的「cried her eyes out」指「非常傷心地大哭很久」。",
       "sentenceIndex": 32,
@@ -1511,12 +1389,10 @@ export default {
         "cried her eyes out"
       ],
       "optionReasons": {
-        "cry-mcq-16": "本句指「非常傷心地大哭很久」。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。"
+        "cry-mcq-16": "本句的「cried her eyes out」指「非常傷心地大哭很久」。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-16"
     },
@@ -1528,9 +1404,7 @@ export default {
       "masked": "The child was ____.",
       "options": [
         "cry-mcq-16",
-        "cry-mcq-15",
-        "cry-mcq-17",
-        "cry-mcq-14",
+        "cry-mcq-05",
         "cry-mcq-18",
         "cry-mcq-13"
       ],
@@ -1541,12 +1415,10 @@ export default {
         "crying his eyes out"
       ],
       "optionReasons": {
-        "cry-mcq-16": "本句指「非常傷心地大哭很久」。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-13": "「戰鬥時的戰吼；鼓舞鬥志的口號」與本句語境不同。"
+        "cry-mcq-16": "本句的「crying his eyes out」指「非常傷心地大哭很久」。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-16"
     },
@@ -1558,11 +1430,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "cry-mcq-17",
-        "cry-mcq-16",
-        "cry-mcq-18",
         "cry-mcq-15",
-        "cry-mcq-19",
-        "cry-mcq-14"
+        "cry-mcq-12",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「cried herself to sleep」指「一直哭到睡著」。",
       "sentenceIndex": 34,
@@ -1571,12 +1441,10 @@ export default {
         "cried herself to sleep"
       ],
       "optionReasons": {
-        "cry-mcq-17": "本句指「一直哭到睡著」。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。"
+        "cry-mcq-17": "本句的「cried herself to sleep」指「一直哭到睡著」。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-17"
     },
@@ -1588,11 +1456,9 @@ export default {
       "masked": "The child finally ____.",
       "options": [
         "cry-mcq-17",
-        "cry-mcq-16",
-        "cry-mcq-18",
-        "cry-mcq-15",
-        "cry-mcq-19",
-        "cry-mcq-14"
+        "cry-mcq-14",
+        "cry-mcq-20",
+        "cry-mcq-06"
       ],
       "explanation": "本句的「cried himself to sleep」指「一直哭到睡著」。",
       "sentenceIndex": 35,
@@ -1601,12 +1467,10 @@ export default {
         "cried himself to sleep"
       ],
       "optionReasons": {
-        "cry-mcq-17": "本句指「一直哭到睡著」。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-14": "「因疼痛、恐懼、驚訝等突然大叫」與本句語境不同。"
+        "cry-mcq-17": "本句的「cried himself to sleep」指「一直哭到睡著」。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-17"
     },
@@ -1618,11 +1482,9 @@ export default {
       "masked": "You can always ____.",
       "options": [
         "cry-mcq-18",
-        "cry-mcq-17",
-        "cry-mcq-19",
         "cry-mcq-16",
-        "cry-mcq-20",
-        "cry-mcq-15"
+        "cry-mcq-19",
+        "cry-mcq-24"
       ],
       "explanation": "本句的「cry on my shoulder」指「向某人傾訴煩惱並尋求安慰」。",
       "sentenceIndex": 36,
@@ -1631,12 +1493,10 @@ export default {
         "cry on my shoulder"
       ],
       "optionReasons": {
-        "cry-mcq-18": "本句指「向某人傾訴煩惱並尋求安慰」。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。"
+        "cry-mcq-18": "本句的「cry on my shoulder」指「向某人傾訴煩惱並尋求安慰」。",
+        "cry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-18"
     },
@@ -1648,11 +1508,9 @@ export default {
       "masked": "She needed someone to ____.",
       "options": [
         "cry-mcq-18",
-        "cry-mcq-17",
-        "cry-mcq-19",
-        "cry-mcq-16",
-        "cry-mcq-20",
-        "cry-mcq-15"
+        "cry-mcq-26",
+        "cry-mcq-24",
+        "cry-mcq-27"
       ],
       "explanation": "本句的「cry on their shoulder」指「向某人傾訴煩惱並尋求安慰」。",
       "sentenceIndex": 37,
@@ -1661,12 +1519,10 @@ export default {
         "cry on their shoulder"
       ],
       "optionReasons": {
-        "cry-mcq-18": "本句指「向某人傾訴煩惱並尋求安慰」。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-15": "「明顯而迫切地需要某事」與本句語境不同。"
+        "cry-mcq-18": "本句的「cry on their shoulder」指「向某人傾訴煩惱並尋求安慰」。",
+        "cry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-18"
     },
@@ -1678,11 +1534,9 @@ export default {
       "masked": "There is no point ____.",
       "options": [
         "cry-mcq-19",
-        "cry-mcq-18",
-        "cry-mcq-20",
-        "cry-mcq-17",
-        "cry-mcq-21",
-        "cry-mcq-16"
+        "cry-mcq-01",
+        "cry-mcq-23",
+        "cry-mcq-12"
       ],
       "explanation": "本句的「crying over spilled milk」指「為已發生且無法改變的事懊悔」。",
       "sentenceIndex": 38,
@@ -1691,12 +1545,10 @@ export default {
         "crying over spilled milk"
       ],
       "optionReasons": {
-        "cry-mcq-19": "本句指「為已發生且無法改變的事懊悔」。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。"
+        "cry-mcq-19": "本句的「crying over spilled milk」指「為已發生且無法改變的事懊悔」。",
+        "cry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-19"
     },
@@ -1708,11 +1560,9 @@ export default {
       "masked": "We made a mistake, but there’s no use ____.",
       "options": [
         "cry-mcq-19",
-        "cry-mcq-18",
-        "cry-mcq-20",
-        "cry-mcq-17",
-        "cry-mcq-21",
-        "cry-mcq-16"
+        "cry-mcq-13",
+        "cry-mcq-23",
+        "cry-mcq-14"
       ],
       "explanation": "本句的「crying over spilled milk」指「為已發生且無法改變的事懊悔」。",
       "sentenceIndex": 39,
@@ -1721,12 +1571,10 @@ export default {
         "crying over spilled milk"
       ],
       "optionReasons": {
-        "cry-mcq-19": "本句指「為已發生且無法改變的事懊悔」。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-16": "「非常傷心地大哭很久」與本句語境不同。"
+        "cry-mcq-19": "本句的「crying over spilled milk」指「為已發生且無法改變的事懊悔」。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-19"
     },
@@ -1738,11 +1586,9 @@ export default {
       "masked": "If you keep ____, nobody will believe you.",
       "options": [
         "cry-mcq-20",
-        "cry-mcq-19",
-        "cry-mcq-21",
-        "cry-mcq-18",
-        "cry-mcq-22",
-        "cry-mcq-17"
+        "cry-mcq-09",
+        "cry-mcq-08",
+        "cry-mcq-24"
       ],
       "explanation": "本句的「crying wolf」指「多次虛報危險，以致真正有事時無人相信」。",
       "sentenceIndex": 40,
@@ -1751,12 +1597,10 @@ export default {
         "crying wolf"
       ],
       "optionReasons": {
-        "cry-mcq-20": "本句指「多次虛報危險，以致真正有事時無人相信」。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。"
+        "cry-mcq-20": "本句的「crying wolf」指「多次虛報危險，以致真正有事時無人相信」。",
+        "cry-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-20"
     },
@@ -1768,11 +1612,9 @@ export default {
       "masked": "Officials were accused of ____.",
       "options": [
         "cry-mcq-20",
-        "cry-mcq-19",
-        "cry-mcq-21",
-        "cry-mcq-18",
-        "cry-mcq-22",
-        "cry-mcq-17"
+        "cry-mcq-15",
+        "cry-mcq-05",
+        "cry-mcq-08"
       ],
       "explanation": "本句的「crying wolf」指「多次虛報危險，以致真正有事時無人相信」。",
       "sentenceIndex": 41,
@@ -1781,12 +1623,10 @@ export default {
         "crying wolf"
       ],
       "optionReasons": {
-        "cry-mcq-20": "本句指「多次虛報危險，以致真正有事時無人相信」。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-17": "「一直哭到睡著」與本句語境不同。"
+        "cry-mcq-20": "本句的「crying wolf」指「多次虛報危險，以致真正有事時無人相信」。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-20"
     },
@@ -1798,11 +1638,9 @@ export default {
       "masked": "Competitors ____ over the decision.",
       "options": [
         "cry-mcq-21",
-        "cry-mcq-20",
-        "cry-mcq-22",
-        "cry-mcq-19",
-        "cry-mcq-23",
-        "cry-mcq-18"
+        "cry-mcq-16",
+        "cry-mcq-13",
+        "cry-mcq-15"
       ],
       "explanation": "本句的「cried foul」指「抗議某件事不公平、違規或不誠實」。",
       "sentenceIndex": 42,
@@ -1811,12 +1649,10 @@ export default {
         "cried foul"
       ],
       "optionReasons": {
-        "cry-mcq-21": "本句指「抗議某件事不公平、違規或不誠實」。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。"
+        "cry-mcq-21": "本句的「cried foul」指「抗議某件事不公平、違規或不誠實」。",
+        "cry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-21"
     },
@@ -1828,11 +1664,9 @@ export default {
       "masked": "Fans ____ after the rule change.",
       "options": [
         "cry-mcq-21",
-        "cry-mcq-20",
-        "cry-mcq-22",
-        "cry-mcq-19",
-        "cry-mcq-23",
-        "cry-mcq-18"
+        "cry-mcq-14",
+        "cry-mcq-17",
+        "cry-mcq-23"
       ],
       "explanation": "本句的「cried foul」指「抗議某件事不公平、違規或不誠實」。",
       "sentenceIndex": 43,
@@ -1841,12 +1675,10 @@ export default {
         "cried foul"
       ],
       "optionReasons": {
-        "cry-mcq-21": "本句指「抗議某件事不公平、違規或不誠實」。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-18": "「向某人傾訴煩惱並尋求安慰」與本句語境不同。"
+        "cry-mcq-21": "本句的「cried foul」指「抗議某件事不公平、違規或不誠實」。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-21"
     },
@@ -1858,11 +1690,9 @@ export default {
       "masked": "His new life is ____ his school days.",
       "options": [
         "cry-mcq-22",
-        "cry-mcq-21",
-        "cry-mcq-23",
-        "cry-mcq-20",
-        "cry-mcq-24",
-        "cry-mcq-19"
+        "cry-mcq-17",
+        "cry-mcq-03",
+        "cry-mcq-21"
       ],
       "explanation": "本句的「a far cry from」指「與另一事物非常不同；相差甚遠」。",
       "sentenceIndex": 44,
@@ -1871,12 +1701,10 @@ export default {
         "a far cry from"
       ],
       "optionReasons": {
-        "cry-mcq-22": "本句指「與另一事物非常不同；相差甚遠」。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。"
+        "cry-mcq-22": "本句的「a far cry from」指「與另一事物非常不同；相差甚遠」。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-22"
     },
@@ -1888,11 +1716,9 @@ export default {
       "masked": "The final product was ____ what we expected.",
       "options": [
         "cry-mcq-22",
-        "cry-mcq-21",
-        "cry-mcq-23",
-        "cry-mcq-20",
-        "cry-mcq-24",
-        "cry-mcq-19"
+        "cry-mcq-17",
+        "cry-mcq-15",
+        "cry-mcq-18"
       ],
       "explanation": "本句的「a far cry from」指「與另一事物非常不同；相差甚遠」。",
       "sentenceIndex": 45,
@@ -1901,12 +1727,10 @@ export default {
         "a far cry from"
       ],
       "optionReasons": {
-        "cry-mcq-22": "本句指「與另一事物非常不同；相差甚遠」。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-19": "「為已發生且無法改變的事懊悔」與本句語境不同。"
+        "cry-mcq-22": "本句的「a far cry from」指「與另一事物非常不同；相差甚遠」。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-22"
     },
@@ -1918,11 +1742,9 @@ export default {
       "masked": "____, be careful!",
       "options": [
         "cry-mcq-23",
-        "cry-mcq-22",
-        "cry-mcq-24",
-        "cry-mcq-21",
-        "cry-mcq-25",
-        "cry-mcq-20"
+        "cry-mcq-12",
+        "cry-mcq-26",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「For crying out loud」指「非正式：表示不耐煩／惱怒的「拜託、真是的」」。",
       "sentenceIndex": 46,
@@ -1931,12 +1753,10 @@ export default {
         "For crying out loud"
       ],
       "optionReasons": {
-        "cry-mcq-23": "本句指「非正式：表示不耐煩／惱怒的「拜託、真是的」」。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。"
+        "cry-mcq-23": "本句的「For crying out loud」指「非正式：表示不耐煩／惱怒的「拜託、真是的」」。",
+        "cry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-23"
     },
@@ -1948,11 +1768,9 @@ export default {
       "masked": "Oh, ____!",
       "options": [
         "cry-mcq-23",
-        "cry-mcq-22",
         "cry-mcq-24",
-        "cry-mcq-21",
-        "cry-mcq-25",
-        "cry-mcq-20"
+        "cry-mcq-03",
+        "cry-mcq-06"
       ],
       "explanation": "本句的「for crying out loud」指「非正式：表示不耐煩／惱怒的「拜託、真是的」」。",
       "sentenceIndex": 47,
@@ -1961,12 +1779,10 @@ export default {
         "for crying out loud"
       ],
       "optionReasons": {
-        "cry-mcq-23": "本句指「非正式：表示不耐煩／惱怒的「拜託、真是的」」。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-20": "「多次虛報危險，以致真正有事時無人相信」與本句語境不同。"
+        "cry-mcq-23": "本句的「for crying out loud」指「非正式：表示不耐煩／惱怒的「拜託、真是的」」。",
+        "cry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-23"
     },
@@ -1978,10 +1794,8 @@ export default {
       "masked": "I could hear ____ in the next room.",
       "options": [
         "cry-mcq-24",
-        "cry-mcq-23",
-        "cry-mcq-25",
+        "cry-mcq-14",
         "cry-mcq-22",
-        "cry-mcq-26",
         "cry-mcq-21"
       ],
       "explanation": "本句的「crying」指「哭泣這一行為；哭聲」。",
@@ -1991,12 +1805,10 @@ export default {
         "crying"
       ],
       "optionReasons": {
-        "cry-mcq-24": "本句指「哭泣這一行為；哭聲」。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-26": "「傳統上在公共場所大聲宣讀公告的傳令員」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。"
+        "cry-mcq-24": "本句的「crying」指「哭泣這一行為；哭聲」。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-24"
     },
@@ -2008,11 +1820,9 @@ export default {
       "masked": "The baby’s ____ woke everyone up.",
       "options": [
         "cry-mcq-24",
-        "cry-mcq-23",
-        "cry-mcq-25",
-        "cry-mcq-22",
-        "cry-mcq-26",
-        "cry-mcq-21"
+        "cry-mcq-15",
+        "cry-mcq-05",
+        "cry-mcq-20"
       ],
       "explanation": "本句的「crying」指「哭泣這一行為；哭聲」。",
       "sentenceIndex": 49,
@@ -2021,12 +1831,10 @@ export default {
         "crying"
       ],
       "optionReasons": {
-        "cry-mcq-24": "本句指「哭泣這一行為；哭聲」。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。",
-        "cry-mcq-26": "「傳統上在公共場所大聲宣讀公告的傳令員」與本句語境不同。",
-        "cry-mcq-21": "「抗議某件事不公平、違規或不誠實」與本句語境不同。"
+        "cry-mcq-24": "本句的「crying」指「哭泣這一行為；哭聲」。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-24"
     },
@@ -2038,11 +1846,9 @@ export default {
       "masked": "The ____ announced the festival.",
       "options": [
         "cry-mcq-26",
-        "cry-mcq-25",
-        "cry-mcq-27",
-        "cry-mcq-24",
-        "cry-mcq-23",
-        "cry-mcq-22"
+        "cry-mcq-22",
+        "cry-mcq-17",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「town crier」指「傳統上在公共場所大聲宣讀公告的傳令員」。",
       "sentenceIndex": 50,
@@ -2051,12 +1857,10 @@ export default {
         "town crier"
       ],
       "optionReasons": {
-        "cry-mcq-26": "本句指「傳統上在公共場所大聲宣讀公告的傳令員」。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-27": "「非正式貶義：很容易哭或抱怨的人；愛哭鬼」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。"
+        "cry-mcq-26": "本句的「town crier」指「傳統上在公共場所大聲宣讀公告的傳令員」。",
+        "cry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-26"
     },
@@ -2068,11 +1872,9 @@ export default {
       "masked": "A costumed ____ opened the ceremony.",
       "options": [
         "cry-mcq-26",
-        "cry-mcq-25",
-        "cry-mcq-27",
-        "cry-mcq-24",
-        "cry-mcq-23",
-        "cry-mcq-22"
+        "cry-mcq-05",
+        "cry-mcq-15",
+        "cry-mcq-03"
       ],
       "explanation": "本句的「town crier」指「傳統上在公共場所大聲宣讀公告的傳令員」。",
       "sentenceIndex": 51,
@@ -2081,12 +1883,10 @@ export default {
         "town crier"
       ],
       "optionReasons": {
-        "cry-mcq-26": "本句指「傳統上在公共場所大聲宣讀公告的傳令員」。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-27": "「非正式貶義：很容易哭或抱怨的人；愛哭鬼」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。"
+        "cry-mcq-26": "本句的「town crier」指「傳統上在公共場所大聲宣讀公告的傳令員」。",
+        "cry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-26"
     },
@@ -2098,11 +1898,9 @@ export default {
       "masked": "Don’t call the child a ____.",
       "options": [
         "cry-mcq-27",
-        "cry-mcq-26",
-        "cry-mcq-25",
-        "cry-mcq-24",
-        "cry-mcq-23",
-        "cry-mcq-22"
+        "cry-mcq-14",
+        "cry-mcq-07",
+        "cry-mcq-13"
       ],
       "explanation": "本句的「crybaby」指「非正式貶義：很容易哭或抱怨的人；愛哭鬼」。",
       "sentenceIndex": 52,
@@ -2111,12 +1909,10 @@ export default {
         "crybaby"
       ],
       "optionReasons": {
-        "cry-mcq-27": "本句指「非正式貶義：很容易哭或抱怨的人；愛哭鬼」。",
-        "cry-mcq-26": "「傳統上在公共場所大聲宣讀公告的傳令員」與本句語境不同。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。"
+        "cry-mcq-27": "本句的「crybaby」指「非正式貶義：很容易哭或抱怨的人；愛哭鬼」。",
+        "cry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-27"
     },
@@ -2128,11 +1924,9 @@ export default {
       "masked": "He was teased for being a ____.",
       "options": [
         "cry-mcq-27",
-        "cry-mcq-26",
-        "cry-mcq-25",
-        "cry-mcq-24",
-        "cry-mcq-23",
-        "cry-mcq-22"
+        "cry-mcq-09",
+        "cry-mcq-13",
+        "cry-mcq-19"
       ],
       "explanation": "本句的「crybaby」指「非正式貶義：很容易哭或抱怨的人；愛哭鬼」。",
       "sentenceIndex": 53,
@@ -2141,12 +1935,10 @@ export default {
         "crybaby"
       ],
       "optionReasons": {
-        "cry-mcq-27": "本句指「非正式貶義：很容易哭或抱怨的人；愛哭鬼」。",
-        "cry-mcq-26": "「傳統上在公共場所大聲宣讀公告的傳令員」與本句語境不同。",
-        "cry-mcq-25": "「非常令人惋惜／遺憾的事情」與本句語境不同。",
-        "cry-mcq-24": "「哭泣這一行為；哭聲」與本句語境不同。",
-        "cry-mcq-23": "「非正式：表示不耐煩／惱怒的「拜託、真是的」」與本句語境不同。",
-        "cry-mcq-22": "「與另一事物非常不同；相差甚遠」與本句語境不同。"
+        "cry-mcq-27": "本句的「crybaby」指「非正式貶義：很容易哭或抱怨的人；愛哭鬼」。",
+        "cry-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cry-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cry-mcq-27"
     }
@@ -2158,5 +1950,7 @@ export default {
     "sha256": "d4b0cf8bb74a1d88f8f355cdc4af7970bc9f121bb87a8e7f53369b5b62b3e7e3",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

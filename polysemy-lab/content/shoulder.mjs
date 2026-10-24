@@ -529,11 +529,9 @@ export default {
       "masked": "He carried the bag over his ____.",
       "options": [
         "shoulder-mcq-01",
-        "shoulder-mcq-02",
-        "shoulder-mcq-03",
-        "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-18",
+        "shoulder-mcq-20",
+        "shoulder-mcq-21"
       ],
       "explanation": "本句的「shoulder」指「肩膀；肩部」。",
       "sentenceIndex": 0,
@@ -542,12 +540,10 @@ export default {
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-01": "本句指「肩膀；肩部」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-mcq-01": "本句的「shoulder」指「肩膀；肩部」。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-01"
     },
@@ -559,11 +555,9 @@ export default {
       "masked": "She injured her ____ while exercising.",
       "options": [
         "shoulder-mcq-01",
-        "shoulder-mcq-02",
-        "shoulder-mcq-03",
-        "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-16",
+        "shoulder-mcq-19",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder」指「肩膀；肩部」。",
       "sentenceIndex": 1,
@@ -572,12 +566,10 @@ export default {
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-01": "本句指「肩膀；肩部」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-mcq-01": "本句的「shoulder」指「肩膀；肩部」。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-01"
     },
@@ -589,11 +581,9 @@ export default {
       "masked": "He put his hand on my ____.",
       "options": [
         "shoulder-mcq-01",
-        "shoulder-mcq-02",
-        "shoulder-mcq-03",
-        "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-06",
+        "shoulder-mcq-19",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder」指「肩膀；肩部」。",
       "sentenceIndex": 2,
@@ -602,12 +592,10 @@ export default {
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-01": "本句指「肩膀；肩部」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-mcq-01": "本句的「shoulder」指「肩膀；肩部」。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-01"
     },
@@ -619,11 +607,9 @@ export default {
       "masked": "She carried the laptop bag ____.",
       "options": [
         "shoulder-pdf-001",
-        "shoulder-mcq-02",
-        "shoulder-mcq-03",
-        "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-06",
+        "shoulder-mcq-21",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「on her shoulder」指「從肩膀上方向身後看」。",
       "sentenceIndex": 3,
@@ -632,12 +618,10 @@ export default {
         "on her shoulder"
       ],
       "optionReasons": {
-        "shoulder-pdf-001": "本句指「從肩膀上方向身後看」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-pdf-001": "本句的「on her shoulder」指「從肩膀上方向身後看」。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-pdf-001"
     },
@@ -649,11 +633,9 @@ export default {
       "masked": "He looked ____.",
       "options": [
         "shoulder-pdf-001",
-        "shoulder-mcq-02",
-        "shoulder-mcq-03",
+        "shoulder-mcq-21",
         "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「over his shoulder」指「從肩膀上方向身後看」。",
       "sentenceIndex": 4,
@@ -662,12 +644,10 @@ export default {
         "over his shoulder"
       ],
       "optionReasons": {
-        "shoulder-pdf-001": "本句指「從肩膀上方向身後看」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-pdf-001": "本句的「over his shoulder」指「從肩膀上方向身後看」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-pdf-001"
     },
@@ -679,11 +659,9 @@ export default {
       "masked": "The ____ are slightly too wide.",
       "options": [
         "shoulder-pdf-002",
-        "shoulder-mcq-01",
-        "shoulder-mcq-03",
+        "shoulder-mcq-21",
         "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「shoulders of the jacket」指「衣服覆蓋人體肩膀的部分」。",
       "sentenceIndex": 7,
@@ -692,12 +670,10 @@ export default {
         "shoulders of the jacket"
       ],
       "optionReasons": {
-        "shoulder-pdf-002": "本句指「衣服覆蓋人體肩膀的部分」。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-pdf-002": "本句的「shoulders of the jacket」指「衣服覆蓋人體肩膀的部分」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-pdf-002"
     },
@@ -709,11 +685,9 @@ export default {
       "masked": "The dress has padded ____.",
       "options": [
         "shoulder-pdf-002",
-        "shoulder-mcq-01",
-        "shoulder-mcq-03",
-        "shoulder-mcq-04",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-08",
+        "shoulder-mcq-19",
+        "shoulder-mcq-16"
       ],
       "explanation": "本句的「shoulders」指「衣服覆蓋人體肩膀的部分」。",
       "sentenceIndex": 8,
@@ -722,12 +696,10 @@ export default {
         "shoulders"
       ],
       "optionReasons": {
-        "shoulder-pdf-002": "本句指「衣服覆蓋人體肩膀的部分」。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-pdf-002": "本句的「shoulders」指「衣服覆蓋人體肩膀的部分」。",
+        "shoulder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-pdf-002"
     },
@@ -739,11 +711,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "shoulder-mcq-03",
-        "shoulder-mcq-02",
-        "shoulder-mcq-04",
-        "shoulder-mcq-01",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-06",
+        "shoulder-mcq-16",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder-length hair」指「齊肩長度」。",
       "sentenceIndex": 9,
@@ -752,12 +722,10 @@ export default {
         "shoulder-length hair"
       ],
       "optionReasons": {
-        "shoulder-mcq-03": "本句指「齊肩長度」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-mcq-03": "本句的「shoulder-length hair」指「齊肩長度」。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-03"
     },
@@ -769,11 +737,9 @@ export default {
       "masked": "He cut his hair to ____.",
       "options": [
         "shoulder-mcq-03",
-        "shoulder-mcq-02",
-        "shoulder-mcq-04",
-        "shoulder-mcq-01",
-        "shoulder-mcq-05",
-        "shoulder-mcq-06"
+        "shoulder-mcq-08",
+        "shoulder-mcq-16",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder length」指「齊肩長度」。",
       "sentenceIndex": 10,
@@ -782,12 +748,10 @@ export default {
         "shoulder length"
       ],
       "optionReasons": {
-        "shoulder-mcq-03": "本句指「齊肩長度」。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。"
+        "shoulder-mcq-03": "本句的「shoulder length」指「齊肩長度」。",
+        "shoulder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-03"
     },
@@ -799,11 +763,9 @@ export default {
       "masked": "Some employees ____.",
       "options": [
         "shoulder-mcq-04",
-        "shoulder-mcq-03",
-        "shoulder-mcq-05",
-        "shoulder-mcq-02",
-        "shoulder-mcq-06",
-        "shoulder-mcq-01"
+        "shoulder-mcq-19",
+        "shoulder-pdf-003",
+        "shoulder-mcq-03"
       ],
       "explanation": "本句的「shoulder most of the burden」指「承擔重擔」。",
       "sentenceIndex": 11,
@@ -812,12 +774,10 @@ export default {
         "shoulder most of the burden"
       ],
       "optionReasons": {
-        "shoulder-mcq-04": "本句指「承擔重擔」。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。"
+        "shoulder-mcq-04": "本句的「shoulder most of the burden」指「承擔重擔」。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-04"
     },
@@ -829,11 +789,9 @@ export default {
       "masked": "A few team members were left to ____.",
       "options": [
         "shoulder-mcq-04",
+        "shoulder-pdf-002",
         "shoulder-mcq-03",
-        "shoulder-mcq-05",
-        "shoulder-mcq-02",
-        "shoulder-mcq-06",
-        "shoulder-mcq-01"
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder the entire burden」指「承擔重擔」。",
       "sentenceIndex": 12,
@@ -842,12 +800,10 @@ export default {
         "shoulder the entire burden"
       ],
       "optionReasons": {
-        "shoulder-mcq-04": "本句指「承擔重擔」。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。"
+        "shoulder-mcq-04": "本句的「shoulder the entire burden」指「承擔重擔」。",
+        "shoulder-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-04"
     },
@@ -859,11 +815,9 @@ export default {
       "masked": "No one person should have to ____.",
       "options": [
         "shoulder-mcq-04",
-        "shoulder-mcq-03",
-        "shoulder-mcq-05",
-        "shoulder-mcq-02",
-        "shoulder-mcq-06",
-        "shoulder-mcq-01"
+        "shoulder-mcq-12",
+        "shoulder-mcq-19",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder the burden alone」指「承擔重擔」。",
       "sentenceIndex": 13,
@@ -872,12 +826,10 @@ export default {
         "shoulder the burden alone"
       ],
       "optionReasons": {
-        "shoulder-mcq-04": "本句指「承擔重擔」。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-01": "「肩膀；肩部」與本句語境不同。"
+        "shoulder-mcq-04": "本句的「shoulder the burden alone」指「承擔重擔」。",
+        "shoulder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-04"
     },
@@ -889,11 +841,9 @@ export default {
       "masked": "Managers must ____ for difficult decisions.",
       "options": [
         "shoulder-mcq-05",
-        "shoulder-mcq-04",
-        "shoulder-mcq-06",
-        "shoulder-mcq-03",
-        "shoulder-mcq-07",
-        "shoulder-mcq-02"
+        "shoulder-mcq-21",
+        "shoulder-mcq-19",
+        "shoulder-mcq-16"
       ],
       "explanation": "本句的「shoulder responsibility」指「肩負責任」。",
       "sentenceIndex": 14,
@@ -902,12 +852,10 @@ export default {
         "shoulder responsibility"
       ],
       "optionReasons": {
-        "shoulder-mcq-05": "本句指「肩負責任」。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。"
+        "shoulder-mcq-05": "本句的「shoulder responsibility」指「肩負責任」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-05"
     },
@@ -919,11 +867,9 @@ export default {
       "masked": "She was willing to ____.",
       "options": [
         "shoulder-mcq-05",
-        "shoulder-mcq-04",
-        "shoulder-mcq-06",
-        "shoulder-mcq-03",
-        "shoulder-mcq-07",
-        "shoulder-mcq-02"
+        "shoulder-mcq-21",
+        "shoulder-mcq-16",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「shoulder more responsibility」指「肩負責任」。",
       "sentenceIndex": 15,
@@ -932,12 +878,10 @@ export default {
         "shoulder more responsibility"
       ],
       "optionReasons": {
-        "shoulder-mcq-05": "本句指「肩負責任」。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。",
-        "shoulder-mcq-02": "「衣服肩位」與本句語境不同。"
+        "shoulder-mcq-05": "本句的「shoulder more responsibility」指「肩負責任」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-05"
     },
@@ -949,11 +893,9 @@ export default {
       "masked": "Two people ended up ____.",
       "options": [
         "shoulder-mcq-06",
-        "shoulder-mcq-05",
-        "shoulder-mcq-07",
-        "shoulder-mcq-04",
-        "shoulder-mcq-08",
-        "shoulder-mcq-03"
+        "shoulder-pdf-001",
+        "shoulder-pdf-003",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shouldering most of the work」指「承擔工作量」。",
       "sentenceIndex": 16,
@@ -962,12 +904,10 @@ export default {
         "shouldering most of the work"
       ],
       "optionReasons": {
-        "shoulder-mcq-06": "本句指「承擔工作量」。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。"
+        "shoulder-mcq-06": "本句的「shouldering most of the work」指「承擔工作量」。",
+        "shoulder-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shoulder-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-06"
     },
@@ -979,11 +919,9 @@ export default {
       "masked": "Junior staff should not have to ____.",
       "options": [
         "shoulder-mcq-06",
-        "shoulder-mcq-05",
-        "shoulder-mcq-07",
-        "shoulder-mcq-04",
-        "shoulder-mcq-08",
-        "shoulder-mcq-03"
+        "shoulder-mcq-15",
+        "shoulder-mcq-21",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「shoulder the whole workload」指「承擔工作量」。",
       "sentenceIndex": 17,
@@ -992,12 +930,10 @@ export default {
         "shoulder the whole workload"
       ],
       "optionReasons": {
-        "shoulder-mcq-06": "本句指「承擔工作量」。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-03": "「齊肩長度」與本句語境不同。"
+        "shoulder-mcq-06": "本句的「shoulder the whole workload」指「承擔工作量」。",
+        "shoulder-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-06"
     },
@@ -1009,11 +945,9 @@ export default {
       "masked": "The company agreed to ____.",
       "options": [
         "shoulder-mcq-07",
-        "shoulder-mcq-06",
-        "shoulder-mcq-08",
-        "shoulder-mcq-05",
-        "shoulder-mcq-09",
-        "shoulder-mcq-04"
+        "shoulder-mcq-12",
+        "shoulder-pdf-002",
+        "shoulder-mcq-03"
       ],
       "explanation": "本句的「shoulder the cost of repairs」指「承擔成本」。",
       "sentenceIndex": 18,
@@ -1022,12 +956,10 @@ export default {
         "shoulder the cost of repairs"
       ],
       "optionReasons": {
-        "shoulder-mcq-07": "本句指「承擔成本」。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。"
+        "shoulder-mcq-07": "本句的「shoulder the cost of repairs」指「承擔成本」。",
+        "shoulder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shoulder-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-07"
     },
@@ -1039,11 +971,9 @@ export default {
       "masked": "Taxpayers may have to ____.",
       "options": [
         "shoulder-mcq-07",
-        "shoulder-mcq-06",
-        "shoulder-mcq-08",
-        "shoulder-mcq-05",
-        "shoulder-mcq-09",
-        "shoulder-mcq-04"
+        "shoulder-pdf-001",
+        "shoulder-pdf-003",
+        "shoulder-mcq-03"
       ],
       "explanation": "本句的「shoulder part of the cost」指「承擔成本」。",
       "sentenceIndex": 19,
@@ -1052,12 +982,10 @@ export default {
         "shoulder part of the cost"
       ],
       "optionReasons": {
-        "shoulder-mcq-07": "本句指「承擔成本」。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-04": "「承擔重擔」與本句語境不同。"
+        "shoulder-mcq-07": "本句的「shoulder part of the cost」指「承擔成本」。",
+        "shoulder-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shoulder-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-07"
     },
@@ -1069,11 +997,9 @@ export default {
       "masked": "She unfairly had to ____ for the failure.",
       "options": [
         "shoulder-mcq-08",
-        "shoulder-mcq-07",
-        "shoulder-mcq-09",
-        "shoulder-mcq-06",
-        "shoulder-mcq-10",
-        "shoulder-mcq-05"
+        "shoulder-mcq-21",
+        "shoulder-mcq-12",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「shoulder the blame」指「承擔責任／罪責」。",
       "sentenceIndex": 20,
@@ -1082,12 +1008,10 @@ export default {
         "shoulder the blame"
       ],
       "optionReasons": {
-        "shoulder-mcq-08": "本句指「承擔責任／罪責」。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。"
+        "shoulder-mcq-08": "本句的「shoulder the blame」指「承擔責任／罪責」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-08"
     },
@@ -1099,11 +1023,9 @@ export default {
       "masked": "One employee should not ____.",
       "options": [
         "shoulder-mcq-08",
-        "shoulder-mcq-07",
-        "shoulder-mcq-09",
-        "shoulder-mcq-06",
-        "shoulder-mcq-10",
-        "shoulder-mcq-05"
+        "shoulder-mcq-16",
+        "shoulder-mcq-03",
+        "shoulder-pdf-001"
       ],
       "explanation": "本句的「shoulder all the blame」指「承擔責任／罪責」。",
       "sentenceIndex": 21,
@@ -1112,12 +1034,10 @@ export default {
         "shoulder all the blame"
       ],
       "optionReasons": {
-        "shoulder-mcq-08": "本句指「承擔責任／罪責」。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-06": "「承擔工作量」與本句語境不同。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。",
-        "shoulder-mcq-05": "「肩負責任」與本句語境不同。"
+        "shoulder-mcq-08": "本句的「shoulder all the blame」指「承擔責任／罪責」。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shoulder-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-08"
     },
@@ -1129,11 +1049,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "shoulder-mcq-10",
-        "shoulder-mcq-09",
-        "shoulder-mcq-11",
-        "shoulder-mcq-08",
-        "shoulder-mcq-12",
-        "shoulder-mcq-07"
+        "shoulder-mcq-21",
+        "shoulder-mcq-16",
+        "shoulder-mcq-20"
       ],
       "explanation": "本句的「shouldered the door open」指「用肩擠過」。",
       "sentenceIndex": 24,
@@ -1142,12 +1060,10 @@ export default {
         "shouldered the door open"
       ],
       "optionReasons": {
-        "shoulder-mcq-10": "本句指「用肩擠過」。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。"
+        "shoulder-mcq-10": "本句的「shouldered the door open」指「用肩擠過」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-10"
     },
@@ -1159,11 +1075,9 @@ export default {
       "masked": "She ____ and walked past.",
       "options": [
         "shoulder-mcq-10",
-        "shoulder-mcq-09",
-        "shoulder-mcq-11",
-        "shoulder-mcq-08",
-        "shoulder-mcq-12",
-        "shoulder-mcq-07"
+        "shoulder-mcq-20",
+        "shoulder-mcq-18",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「shouldered him aside」指「用肩擠過」。",
       "sentenceIndex": 25,
@@ -1172,12 +1086,10 @@ export default {
         "shouldered him aside"
       ],
       "optionReasons": {
-        "shoulder-mcq-10": "本句指「用肩擠過」。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。"
+        "shoulder-mcq-10": "本句的「shouldered him aside」指「用肩擠過」。",
+        "shoulder-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-10"
     },
@@ -1189,11 +1101,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "shoulder-mcq-10",
-        "shoulder-mcq-09",
-        "shoulder-mcq-11",
-        "shoulder-mcq-08",
-        "shoulder-mcq-12",
-        "shoulder-mcq-07"
+        "shoulder-mcq-06",
+        "shoulder-mcq-18",
+        "shoulder-mcq-16"
       ],
       "explanation": "本句的「shouldered his way through the crowd」指「用肩擠過」。",
       "sentenceIndex": 26,
@@ -1202,12 +1112,10 @@ export default {
         "shouldered his way through the crowd"
       ],
       "optionReasons": {
-        "shoulder-mcq-10": "本句指「用肩擠過」。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。"
+        "shoulder-mcq-10": "本句的「shouldered his way through the crowd」指「用肩擠過」。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-10"
     },
@@ -1219,11 +1127,9 @@ export default {
       "masked": "She had to ____ the packed entrance.",
       "options": [
         "shoulder-mcq-10",
-        "shoulder-mcq-09",
-        "shoulder-mcq-11",
-        "shoulder-mcq-08",
-        "shoulder-mcq-12",
-        "shoulder-mcq-07"
+        "shoulder-mcq-07",
+        "shoulder-mcq-18",
+        "shoulder-mcq-21"
       ],
       "explanation": "本句的「shoulder her way through」指「用肩擠過」。",
       "sentenceIndex": 27,
@@ -1232,12 +1138,10 @@ export default {
         "shoulder her way through"
       ],
       "optionReasons": {
-        "shoulder-mcq-10": "本句指「用肩擠過」。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-07": "「承擔成本」與本句語境不同。"
+        "shoulder-mcq-10": "本句的「shoulder her way through」指「用肩擠過」。",
+        "shoulder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-10"
     },
@@ -1249,11 +1153,9 @@ export default {
       "masked": "The driver pulled onto the ____.",
       "options": [
         "shoulder-mcq-11",
-        "shoulder-mcq-10",
-        "shoulder-mcq-12",
-        "shoulder-mcq-09",
-        "shoulder-mcq-13",
-        "shoulder-mcq-08"
+        "shoulder-mcq-06",
+        "shoulder-mcq-19",
+        "shoulder-mcq-16"
       ],
       "explanation": "本句的「shoulder」指「路肩」。",
       "sentenceIndex": 28,
@@ -1262,12 +1164,10 @@ export default {
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-11": "本句指「路肩」。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。"
+        "shoulder-mcq-11": "本句的「shoulder」指「路肩」。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-11"
     },
@@ -1279,11 +1179,9 @@ export default {
       "masked": "The broken-down car was parked on the ____.",
       "options": [
         "shoulder-mcq-11",
-        "shoulder-mcq-10",
-        "shoulder-mcq-12",
-        "shoulder-mcq-09",
-        "shoulder-mcq-13",
-        "shoulder-mcq-08"
+        "shoulder-mcq-04",
+        "shoulder-mcq-16",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「road shoulder」指「路肩」。",
       "sentenceIndex": 29,
@@ -1292,12 +1190,10 @@ export default {
         "road shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-11": "本句指「路肩」。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-08": "「承擔責任／罪責」與本句語境不同。"
+        "shoulder-mcq-11": "本句的「road shoulder」指「路肩」。",
+        "shoulder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-11"
     },
@@ -1309,11 +1205,9 @@ export default {
       "masked": "The car stopped on the ____.",
       "options": [
         "shoulder-mcq-12",
-        "shoulder-mcq-11",
-        "shoulder-mcq-13",
-        "shoulder-mcq-10",
-        "shoulder-mcq-14",
-        "shoulder-mcq-09"
+        "shoulder-mcq-04",
+        "shoulder-mcq-16",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「hard shoulder」指「高速公路路肩」。",
       "sentenceIndex": 30,
@@ -1322,12 +1216,10 @@ export default {
         "hard shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-12": "本句指「高速公路路肩」。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。"
+        "shoulder-mcq-12": "本句的「hard shoulder」指「高速公路路肩」。",
+        "shoulder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-12"
     },
@@ -1339,11 +1231,9 @@ export default {
       "masked": "Do not drive on the ____ unless permitted.",
       "options": [
         "shoulder-mcq-12",
-        "shoulder-mcq-11",
-        "shoulder-mcq-13",
-        "shoulder-mcq-10",
-        "shoulder-mcq-14",
-        "shoulder-mcq-09"
+        "shoulder-mcq-16",
+        "shoulder-mcq-21",
+        "shoulder-mcq-06"
       ],
       "explanation": "本句的「hard shoulder」指「高速公路路肩」。",
       "sentenceIndex": 31,
@@ -1352,12 +1242,10 @@ export default {
         "hard shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-12": "本句指「高速公路路肩」。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-09": "「用肩把某人擠開」與本句語境不同。"
+        "shoulder-mcq-12": "本句的「hard shoulder」指「高速公路路肩」。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-12"
     },
@@ -1369,11 +1257,9 @@ export default {
       "masked": "The path crosses the ____.",
       "options": [
         "shoulder-mcq-13",
-        "shoulder-mcq-12",
-        "shoulder-mcq-14",
-        "shoulder-mcq-11",
-        "shoulder-mcq-15",
-        "shoulder-mcq-10"
+        "shoulder-mcq-07",
+        "shoulder-mcq-21",
+        "shoulder-mcq-19"
       ],
       "explanation": "本句的「shoulder of the mountain」指「山肩」。",
       "sentenceIndex": 32,
@@ -1382,12 +1268,10 @@ export default {
         "shoulder of the mountain"
       ],
       "optionReasons": {
-        "shoulder-mcq-13": "本句指「山肩」。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。"
+        "shoulder-mcq-13": "本句的「shoulder of the mountain」指「山肩」。",
+        "shoulder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-13"
     },
@@ -1399,11 +1283,9 @@ export default {
       "masked": "Snow remained on the northern ____ of the peak.",
       "options": [
         "shoulder-mcq-13",
-        "shoulder-mcq-12",
-        "shoulder-mcq-14",
-        "shoulder-mcq-11",
-        "shoulder-mcq-15",
-        "shoulder-mcq-10"
+        "shoulder-mcq-16",
+        "shoulder-mcq-21",
+        "shoulder-mcq-04"
       ],
       "explanation": "本句的「shoulder」指「山肩」。",
       "sentenceIndex": 33,
@@ -1412,12 +1294,10 @@ export default {
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-13": "本句指「山肩」。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
-        "shoulder-mcq-10": "「用肩擠過」與本句語境不同。"
+        "shoulder-mcq-13": "本句的「shoulder」指「山肩」。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-13"
     },
@@ -1429,11 +1309,9 @@ export default {
       "masked": "We cooked a ____.",
       "options": [
         "shoulder-pdf-003",
-        "shoulder-mcq-13",
-        "shoulder-mcq-15",
-        "shoulder-mcq-12",
-        "shoulder-mcq-16",
-        "shoulder-mcq-11"
+        "shoulder-mcq-19",
+        "shoulder-mcq-06",
+        "shoulder-mcq-21"
       ],
       "explanation": "本句的「shoulder of lamb」指「從動物肩部切下的一塊肉」。",
       "sentenceIndex": 34,
@@ -1442,12 +1320,10 @@ export default {
         "shoulder of lamb"
       ],
       "optionReasons": {
-        "shoulder-pdf-003": "本句指「從動物肩部切下的一塊肉」。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。"
+        "shoulder-pdf-003": "本句的「shoulder of lamb」指「從動物肩部切下的一塊肉」。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-pdf-003"
     },
@@ -1459,11 +1335,9 @@ export default {
       "masked": "Pork ____ is suitable for slow cooking.",
       "options": [
         "shoulder-pdf-003",
-        "shoulder-mcq-13",
-        "shoulder-mcq-15",
-        "shoulder-mcq-12",
+        "shoulder-mcq-18",
         "shoulder-mcq-16",
-        "shoulder-mcq-11"
+        "shoulder-mcq-06"
       ],
       "explanation": "本句的「shoulder」指「從動物肩部切下的一塊肉」。",
       "sentenceIndex": 35,
@@ -1472,12 +1346,10 @@ export default {
         "shoulder"
       ],
       "optionReasons": {
-        "shoulder-pdf-003": "本句指「從動物肩部切下的一塊肉」。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-11": "「路肩」與本句語境不同。"
+        "shoulder-pdf-003": "本句的「shoulder」指「從動物肩部切下的一塊肉」。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-pdf-003"
     },
@@ -1489,11 +1361,9 @@ export default {
       "masked": "The passengers stood ____.",
       "options": [
         "shoulder-mcq-15",
-        "shoulder-mcq-14",
-        "shoulder-mcq-16",
-        "shoulder-mcq-13",
-        "shoulder-mcq-17",
-        "shoulder-mcq-12"
+        "shoulder-mcq-21",
+        "shoulder-mcq-19",
+        "shoulder-mcq-06"
       ],
       "explanation": "本句的「shoulder to shoulder」指「肩並肩；並肩合作」。",
       "sentenceIndex": 36,
@@ -1502,12 +1372,10 @@ export default {
         "shoulder to shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-15": "本句指「肩並肩；並肩合作」。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。"
+        "shoulder-mcq-15": "本句的「shoulder to shoulder」指「肩並肩；並肩合作」。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-15"
     },
@@ -1519,11 +1387,9 @@ export default {
       "masked": "The two teams worked ____ during the crisis.",
       "options": [
         "shoulder-mcq-15",
-        "shoulder-mcq-14",
         "shoulder-mcq-16",
-        "shoulder-mcq-13",
-        "shoulder-mcq-17",
-        "shoulder-mcq-12"
+        "shoulder-mcq-18",
+        "shoulder-mcq-21"
       ],
       "explanation": "本句的「shoulder to shoulder」指「肩並肩；並肩合作」。",
       "sentenceIndex": 37,
@@ -1532,12 +1398,10 @@ export default {
         "shoulder to shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-15": "本句指「肩並肩；並肩合作」。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。"
+        "shoulder-mcq-15": "本句的「shoulder to shoulder」指「肩並肩；並肩合作」。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-15"
     },
@@ -1549,11 +1413,9 @@ export default {
       "masked": "Colleagues stood ____ to finish the project.",
       "options": [
         "shoulder-mcq-15",
-        "shoulder-mcq-14",
-        "shoulder-mcq-16",
-        "shoulder-mcq-13",
-        "shoulder-mcq-17",
-        "shoulder-mcq-12"
+        "shoulder-mcq-19",
+        "shoulder-mcq-04",
+        "shoulder-mcq-16"
       ],
       "explanation": "本句的「shoulder to shoulder」指「肩並肩；並肩合作」。",
       "sentenceIndex": 38,
@@ -1562,12 +1424,10 @@ export default {
         "shoulder to shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-15": "本句指「肩並肩；並肩合作」。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。"
+        "shoulder-mcq-15": "本句的「shoulder to shoulder」指「肩並肩；並肩合作」。",
+        "shoulder-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-15"
     },
@@ -1579,11 +1439,9 @@ export default {
       "masked": "She promised to stand ____.",
       "options": [
         "shoulder-mcq-15",
-        "shoulder-mcq-14",
+        "shoulder-mcq-06",
         "shoulder-mcq-16",
-        "shoulder-mcq-13",
-        "shoulder-mcq-17",
-        "shoulder-mcq-12"
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「shoulder to shoulder with her team」指「肩並肩；並肩合作」。",
       "sentenceIndex": 39,
@@ -1592,12 +1450,10 @@ export default {
         "shoulder to shoulder with her team"
       ],
       "optionReasons": {
-        "shoulder-mcq-15": "本句指「肩並肩；並肩合作」。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-12": "「高速公路路肩」與本句語境不同。"
+        "shoulder-mcq-15": "本句的「shoulder to shoulder with her team」指「肩並肩；並肩合作」。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-15"
     },
@@ -1609,11 +1465,9 @@ export default {
       "masked": "At the conference, students could ____.",
       "options": [
         "shoulder-mcq-16",
-        "shoulder-mcq-15",
-        "shoulder-mcq-17",
-        "shoulder-mcq-14",
-        "shoulder-mcq-18",
-        "shoulder-mcq-13"
+        "shoulder-mcq-03",
+        "shoulder-mcq-08",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「rub shoulders with industry leaders」指「與……接觸來往」。",
       "sentenceIndex": 40,
@@ -1622,12 +1476,10 @@ export default {
         "rub shoulders with industry leaders"
       ],
       "optionReasons": {
-        "shoulder-mcq-16": "本句指「與……接觸來往」。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。"
+        "shoulder-mcq-16": "本句的「rub shoulders with industry leaders」指「與……接觸來往」。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-16"
     },
@@ -1639,11 +1491,9 @@ export default {
       "masked": "He regularly ____.",
       "options": [
         "shoulder-mcq-16",
-        "shoulder-mcq-15",
-        "shoulder-mcq-17",
-        "shoulder-mcq-14",
-        "shoulder-mcq-18",
-        "shoulder-mcq-13"
+        "shoulder-mcq-11",
+        "shoulder-mcq-20",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「rubs shoulders with senior executives」指「與……接觸來往」。",
       "sentenceIndex": 41,
@@ -1652,12 +1502,10 @@ export default {
         "rubs shoulders with senior executives"
       ],
       "optionReasons": {
-        "shoulder-mcq-16": "本句指「與……接觸來往」。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-14": "「豬肩／羊肩肉」與本句語境不同。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-13": "「山肩」與本句語境不同。"
+        "shoulder-mcq-16": "本句的「rubs shoulders with senior executives」指「與……接觸來往」。",
+        "shoulder-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-16"
     },
@@ -1669,11 +1517,9 @@ export default {
       "masked": "He seems to have ____ about his background.",
       "options": [
         "shoulder-mcq-18",
-        "shoulder-mcq-17",
-        "shoulder-mcq-19",
-        "shoulder-mcq-16",
-        "shoulder-mcq-20",
-        "shoulder-mcq-15"
+        "shoulder-mcq-07",
+        "shoulder-mcq-10",
+        "shoulder-mcq-21"
       ],
       "explanation": "本句的「a chip on his shoulder」指「心有不忿」。",
       "sentenceIndex": 44,
@@ -1682,12 +1528,10 @@ export default {
         "a chip on his shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-18": "本句指「心有不忿」。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-19": "「回頭看／提防」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-20": "「能承受重任」與本句語境不同。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。"
+        "shoulder-mcq-18": "本句的「a chip on his shoulder」指「心有不忿」。",
+        "shoulder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-18"
     },
@@ -1699,11 +1543,9 @@ export default {
       "masked": "Don't go into the discussion with ____.",
       "options": [
         "shoulder-mcq-18",
-        "shoulder-mcq-17",
-        "shoulder-mcq-19",
+        "shoulder-mcq-07",
         "shoulder-mcq-16",
-        "shoulder-mcq-20",
-        "shoulder-mcq-15"
+        "shoulder-mcq-11"
       ],
       "explanation": "本句的「a chip on your shoulder」指「心有不忿」。",
       "sentenceIndex": 45,
@@ -1712,12 +1554,10 @@ export default {
         "a chip on your shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-18": "本句指「心有不忿」。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-19": "「回頭看／提防」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。",
-        "shoulder-mcq-20": "「能承受重任」與本句語境不同。",
-        "shoulder-mcq-15": "「肩並肩；並肩合作」與本句語境不同。"
+        "shoulder-mcq-18": "本句的「a chip on your shoulder」指「心有不忿」。",
+        "shoulder-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-18"
     },
@@ -1729,11 +1569,9 @@ export default {
       "masked": "She ____ before crossing the road.",
       "options": [
         "shoulder-mcq-19",
-        "shoulder-mcq-18",
         "shoulder-mcq-20",
-        "shoulder-mcq-17",
-        "shoulder-mcq-21",
-        "shoulder-mcq-16"
+        "shoulder-mcq-18",
+        "shoulder-mcq-13"
       ],
       "explanation": "本句的「looked over her shoulder」指「回頭看／提防」。",
       "sentenceIndex": 46,
@@ -1742,12 +1580,10 @@ export default {
         "looked over her shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-19": "本句指「回頭看／提防」。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-20": "「能承受重任」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-21": "「淡旺季之間」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。"
+        "shoulder-mcq-19": "本句的「looked over her shoulder」指「回頭看／提防」。",
+        "shoulder-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-19"
     },
@@ -1759,11 +1595,9 @@ export default {
       "masked": "He was constantly ____ after receiving the threat.",
       "options": [
         "shoulder-mcq-19",
-        "shoulder-mcq-18",
-        "shoulder-mcq-20",
-        "shoulder-mcq-17",
-        "shoulder-mcq-21",
-        "shoulder-mcq-16"
+        "shoulder-mcq-15",
+        "shoulder-mcq-06",
+        "shoulder-mcq-18"
       ],
       "explanation": "本句的「looking over his shoulder」指「回頭看／提防」。",
       "sentenceIndex": 47,
@@ -1772,12 +1606,10 @@ export default {
         "looking over his shoulder"
       ],
       "optionReasons": {
-        "shoulder-mcq-19": "本句指「回頭看／提防」。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-20": "「能承受重任」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-21": "「淡旺季之間」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。"
+        "shoulder-mcq-19": "本句的「looking over his shoulder」指「回頭看／提防」。",
+        "shoulder-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-19"
     },
@@ -1789,11 +1621,9 @@ export default {
       "masked": "She has ____ and can handle criticism.",
       "options": [
         "shoulder-mcq-20",
-        "shoulder-mcq-19",
-        "shoulder-mcq-21",
+        "shoulder-pdf-001",
         "shoulder-mcq-18",
-        "shoulder-mcq-17",
-        "shoulder-mcq-16"
+        "shoulder-mcq-03"
       ],
       "explanation": "本句的「broad shoulders」指「能承受重任」。",
       "sentenceIndex": 48,
@@ -1802,12 +1632,10 @@ export default {
         "broad shoulders"
       ],
       "optionReasons": {
-        "shoulder-mcq-20": "本句指「能承受重任」。",
-        "shoulder-mcq-19": "「回頭看／提防」與本句語境不同。",
-        "shoulder-mcq-21": "「淡旺季之間」與本句語境不同。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。"
+        "shoulder-mcq-20": "本句的「broad shoulders」指「能承受重任」。",
+        "shoulder-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-20"
     },
@@ -1819,11 +1647,9 @@ export default {
       "masked": "Leaders need ____.",
       "options": [
         "shoulder-mcq-20",
-        "shoulder-mcq-19",
-        "shoulder-mcq-21",
+        "shoulder-mcq-11",
         "shoulder-mcq-18",
-        "shoulder-mcq-17",
-        "shoulder-mcq-16"
+        "shoulder-mcq-21"
       ],
       "explanation": "本句的「broad shoulders」指「能承受重任」。",
       "sentenceIndex": 49,
@@ -1832,12 +1658,10 @@ export default {
         "broad shoulders"
       ],
       "optionReasons": {
-        "shoulder-mcq-20": "本句指「能承受重任」。",
-        "shoulder-mcq-19": "「回頭看／提防」與本句語境不同。",
-        "shoulder-mcq-21": "「淡旺季之間」與本句語境不同。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。"
+        "shoulder-mcq-20": "本句的「broad shoulders」指「能承受重任」。",
+        "shoulder-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-20"
     },
@@ -1850,10 +1674,8 @@ export default {
       "options": [
         "shoulder-mcq-21",
         "shoulder-mcq-20",
-        "shoulder-mcq-19",
-        "shoulder-mcq-18",
-        "shoulder-mcq-17",
-        "shoulder-mcq-16"
+        "shoulder-mcq-12",
+        "shoulder-pdf-003"
       ],
       "explanation": "本句的「shoulder season」指「淡旺季之間」。",
       "sentenceIndex": 50,
@@ -1862,12 +1684,10 @@ export default {
         "shoulder season"
       ],
       "optionReasons": {
-        "shoulder-mcq-21": "本句指「淡旺季之間」。",
-        "shoulder-mcq-20": "「能承受重任」與本句語境不同。",
-        "shoulder-mcq-19": "「回頭看／提防」與本句語境不同。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。"
+        "shoulder-mcq-21": "本句的「shoulder season」指「淡旺季之間」。",
+        "shoulder-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "shoulder-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-21"
     },
@@ -1879,10 +1699,8 @@ export default {
       "masked": "We prefer travelling in the ____.",
       "options": [
         "shoulder-mcq-21",
-        "shoulder-mcq-20",
-        "shoulder-mcq-19",
-        "shoulder-mcq-18",
-        "shoulder-mcq-17",
+        "shoulder-pdf-003",
+        "shoulder-mcq-06",
         "shoulder-mcq-16"
       ],
       "explanation": "本句的「shoulder season」指「淡旺季之間」。",
@@ -1892,12 +1710,10 @@ export default {
         "shoulder season"
       ],
       "optionReasons": {
-        "shoulder-mcq-21": "本句指「淡旺季之間」。",
-        "shoulder-mcq-20": "「能承受重任」與本句語境不同。",
-        "shoulder-mcq-19": "「回頭看／提防」與本句語境不同。",
-        "shoulder-mcq-18": "「心有不忿」與本句語境不同。",
-        "shoulder-mcq-17": "「冷待；冷落」與本句語境不同。",
-        "shoulder-mcq-16": "「與……接觸來往」與本句語境不同。"
+        "shoulder-mcq-21": "本句的「shoulder season」指「淡旺季之間」。",
+        "shoulder-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "shoulder-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "shoulder-mcq-21"
     }
@@ -1909,5 +1725,7 @@ export default {
     "sha256": "aa9893eb50a9584b11419b4431033493251988edc317f90b01e5c573b9525a67",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

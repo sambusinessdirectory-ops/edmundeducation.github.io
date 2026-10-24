@@ -436,11 +436,9 @@ export default {
       "masked": "a packed train, a busy café, and a noisy ____",
       "options": [
         "office-mcq-01",
-        "office-mcq-02",
-        "office-mcq-03",
-        "office-mcq-04",
-        "office-mcq-05",
-        "office-mcq-06"
+        "office-mcq-17",
+        "office-mcq-12",
+        "office-mcq-10"
       ],
       "explanation": "本句的「office」指「供人進行行政、商業或專業工作的房間或工作場所」。",
       "sentenceIndex": 0,
@@ -449,12 +447,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-01": "本句指「供人進行行政、商業或專業工作的房間或工作場所」。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-01": "本句的「office」指「供人進行行政、商業或專業工作的房間或工作場所」。",
+        "office-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-01"
     },
@@ -466,11 +462,9 @@ export default {
       "masked": "She works in a large ____ in the city centre.",
       "options": [
         "office-mcq-01",
-        "office-mcq-02",
-        "office-mcq-03",
-        "office-mcq-04",
-        "office-mcq-05",
-        "office-mcq-06"
+        "office-mcq-14",
+        "office-mcq-10",
+        "office-mcq-12"
       ],
       "explanation": "本句的「office」指「供人進行行政、商業或專業工作的房間或工作場所」。",
       "sentenceIndex": 1,
@@ -479,12 +473,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-01": "本句指「供人進行行政、商業或專業工作的房間或工作場所」。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-01": "本句的「office」指「供人進行行政、商業或專業工作的房間或工作場所」。",
+        "office-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-01"
     },
@@ -496,11 +488,9 @@ export default {
       "masked": "My ____ is on the fifth floor.",
       "options": [
         "office-mcq-01",
-        "office-mcq-02",
-        "office-mcq-03",
-        "office-mcq-04",
-        "office-mcq-05",
-        "office-mcq-06"
+        "office-mcq-17",
+        "office-mcq-10",
+        "office-mcq-12"
       ],
       "explanation": "本句的「office」指「供人進行行政、商業或專業工作的房間或工作場所」。",
       "sentenceIndex": 2,
@@ -509,12 +499,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-01": "本句指「供人進行行政、商業或專業工作的房間或工作場所」。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-01": "本句的「office」指「供人進行行政、商業或專業工作的房間或工作場所」。",
+        "office-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-01"
     },
@@ -526,11 +514,9 @@ export default {
       "masked": "Please contact the admissions ____ for more information.",
       "options": [
         "office-mcq-02",
-        "office-mcq-01",
-        "office-mcq-03",
-        "office-mcq-04",
-        "office-mcq-05",
-        "office-mcq-06"
+        "office-mcq-06",
+        "office-mcq-10",
+        "office-mcq-12"
       ],
       "explanation": "本句的「office」指「負責某項行政、管理或服務工作的辦事機構／部門」。",
       "sentenceIndex": 0,
@@ -539,12 +525,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-02": "本句指「負責某項行政、管理或服務工作的辦事機構／部門」。",
-        "office-mcq-01": "「供人進行行政、商業或專業工作的房間或工作場所」是「office — workplace」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-02": "本句的「office」指「負責某項行政、管理或服務工作的辦事機構／部門」。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-02"
     },
@@ -556,10 +540,8 @@ export default {
       "masked": "The regional ____ handles customer complaints.",
       "options": [
         "office-mcq-02",
-        "office-mcq-01",
-        "office-mcq-03",
-        "office-mcq-04",
-        "office-mcq-05",
+        "office-mcq-12",
+        "office-mcq-10",
         "office-mcq-06"
       ],
       "explanation": "本句的「office」指「負責某項行政、管理或服務工作的辦事機構／部門」。",
@@ -569,12 +551,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-02": "本句指「負責某項行政、管理或服務工作的辦事機構／部門」。",
-        "office-mcq-01": "「供人進行行政、商業或專業工作的房間或工作場所」是「office — workplace」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-02": "本句的「office」指「負責某項行政、管理或服務工作的辦事機構／部門」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-02"
     },
@@ -586,10 +566,8 @@ export default {
       "masked": "The company has ____ in London and Singapore.",
       "options": [
         "office-mcq-03",
-        "office-mcq-02",
-        "office-mcq-04",
-        "office-mcq-01",
-        "office-mcq-05",
+        "office-mcq-13",
+        "office-mcq-12",
         "office-mcq-06"
       ],
       "explanation": "本句的「offices」指「某機構在特定地點設立的工作據點或分部」。",
@@ -599,12 +577,10 @@ export default {
         "offices"
       ],
       "optionReasons": {
-        "office-mcq-03": "本句指「某機構在特定地點設立的工作據點或分部」。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-01": "「供人進行行政、商業或專業工作的房間或工作場所」是「office — workplace」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-03": "本句的「offices」指「某機構在特定地點設立的工作據點或分部」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-03"
     },
@@ -616,11 +592,9 @@ export default {
       "masked": "She transferred to the company’s New York ____.",
       "options": [
         "office-mcq-03",
-        "office-mcq-02",
-        "office-mcq-04",
-        "office-mcq-01",
-        "office-mcq-05",
-        "office-mcq-06"
+        "office-mcq-12",
+        "office-mcq-06",
+        "office-mcq-13"
       ],
       "explanation": "本句的「office」指「某機構在特定地點設立的工作據點或分部」。",
       "sentenceIndex": 1,
@@ -629,12 +603,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-03": "本句指「某機構在特定地點設立的工作據點或分部」。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-01": "「供人進行行政、商業或專業工作的房間或工作場所」是「office — workplace」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-03": "本句的「office」指「某機構在特定地點設立的工作據點或分部」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-03"
     },
@@ -646,11 +618,9 @@ export default {
       "masked": "I have an appointment at the doctor’s ____.",
       "options": [
         "office-mcq-04",
-        "office-mcq-03",
-        "office-mcq-05",
-        "office-mcq-02",
+        "office-mcq-12",
         "office-mcq-06",
-        "office-mcq-01"
+        "office-mcq-13"
       ],
       "explanation": "本句的「office」指「醫生、律師等專業人士接待客戶或病人的工作場所」。",
       "sentenceIndex": 0,
@@ -659,12 +629,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-04": "本句指「醫生、律師等專業人士接待客戶或病人的工作場所」。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-01": "「供人進行行政、商業或專業工作的房間或工作場所」是「office — workplace」的用法，與本句語境不同。"
+        "office-mcq-04": "本句的「office」指「醫生、律師等專業人士接待客戶或病人的工作場所」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-04"
     },
@@ -676,11 +644,9 @@ export default {
       "masked": "She called her lawyer’s ____.",
       "options": [
         "office-mcq-04",
-        "office-mcq-03",
-        "office-mcq-05",
-        "office-mcq-02",
+        "office-mcq-13",
         "office-mcq-06",
-        "office-mcq-01"
+        "office-mcq-12"
       ],
       "explanation": "本句的「office」指「醫生、律師等專業人士接待客戶或病人的工作場所」。",
       "sentenceIndex": 1,
@@ -689,12 +655,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-04": "本句指「醫生、律師等專業人士接待客戶或病人的工作場所」。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-01": "「供人進行行政、商業或專業工作的房間或工作場所」是「office — workplace」的用法，與本句語境不同。"
+        "office-mcq-04": "本句的「office」指「醫生、律師等專業人士接待客戶或病人的工作場所」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-04"
     },
@@ -706,11 +670,9 @@ export default {
       "masked": "She was elected to public ____.",
       "options": [
         "office-mcq-05",
-        "office-mcq-04",
-        "office-mcq-06",
-        "office-mcq-03",
-        "office-mcq-07",
-        "office-mcq-02"
+        "office-mcq-12",
+        "office-mcq-10",
+        "office-mcq-13"
       ],
       "explanation": "本句的「office」指「在政府或機構中具有正式權力和責任的公職／職位」。",
       "sentenceIndex": 0,
@@ -719,12 +681,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-05": "本句指「在政府或機構中具有正式權力和責任的公職／職位」。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。"
+        "office-mcq-05": "本句的「office」指「在政府或機構中具有正式權力和責任的公職／職位」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-05"
     },
@@ -736,11 +696,9 @@ export default {
       "masked": "He has held ____ for six years.",
       "options": [
         "office-mcq-05",
-        "office-mcq-04",
-        "office-mcq-06",
-        "office-mcq-03",
-        "office-mcq-07",
-        "office-mcq-02"
+        "office-mcq-12",
+        "office-mcq-10",
+        "office-mcq-13"
       ],
       "explanation": "本句的「office」指「在政府或機構中具有正式權力和責任的公職／職位」。",
       "sentenceIndex": 1,
@@ -749,12 +707,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-05": "本句指「在政府或機構中具有正式權力和責任的公職／職位」。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-02": "「負責某項行政、管理或服務工作的辦事機構／部門」是「office — administrative unit」的用法，與本句語境不同。"
+        "office-mcq-05": "本句的「office」指「在政府或機構中具有正式權力和責任的公職／職位」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-05"
     },
@@ -766,11 +722,9 @@ export default {
       "masked": "The new president ____ in January.",
       "options": [
         "office-mcq-06",
-        "office-mcq-05",
-        "office-mcq-07",
-        "office-mcq-04",
-        "office-mcq-08",
-        "office-mcq-03"
+        "office-mcq-01",
+        "office-mcq-12",
+        "office-mcq-10"
       ],
       "explanation": "本句的「took office」指「正式開始擔任／結束擔任某個公職」。",
       "sentenceIndex": 0,
@@ -779,12 +733,10 @@ export default {
         "took office"
       ],
       "optionReasons": {
-        "office-mcq-06": "本句指「正式開始擔任／結束擔任某個公職」。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。"
+        "office-mcq-06": "本句的「took office」指「正式開始擔任／結束擔任某個公職」。",
+        "office-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-06"
     },
@@ -796,11 +748,9 @@ export default {
       "masked": "She ____ at the end of her term.",
       "options": [
         "office-mcq-06",
-        "office-mcq-05",
-        "office-mcq-07",
-        "office-mcq-04",
-        "office-mcq-08",
-        "office-mcq-03"
+        "office-mcq-01",
+        "office-mcq-12",
+        "office-mcq-13"
       ],
       "explanation": "本句的「left office」指「正式開始擔任／結束擔任某個公職」。",
       "sentenceIndex": 1,
@@ -809,12 +759,10 @@ export default {
         "left office"
       ],
       "optionReasons": {
-        "office-mcq-06": "本句指「正式開始擔任／結束擔任某個公職」。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-03": "「某機構在特定地點設立的工作據點或分部」是「office — branch」的用法，與本句語境不同。"
+        "office-mcq-06": "本句的「left office」指「正式開始擔任／結束擔任某個公職」。",
+        "office-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-06"
     },
@@ -826,11 +774,8 @@ export default {
       "masked": "His ____ ends next year.",
       "options": [
         "office-mcq-07",
-        "office-mcq-06",
-        "office-mcq-08",
-        "office-mcq-05",
-        "office-mcq-09",
-        "office-mcq-04"
+        "office-mcq-13",
+        "office-mcq-12"
       ],
       "explanation": "本句的「term of office」指「某人正式擔任某職位的任職期間」。",
       "sentenceIndex": 0,
@@ -839,12 +784,9 @@ export default {
         "term of office"
       ],
       "optionReasons": {
-        "office-mcq-07": "本句指「某人正式擔任某職位的任職期間」。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。"
+        "office-mcq-07": "本句的「term of office」指「某人正式擔任某職位的任職期間」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-07"
     },
@@ -856,11 +798,8 @@ export default {
       "masked": "During her ____, several reforms were introduced.",
       "options": [
         "office-mcq-07",
-        "office-mcq-06",
-        "office-mcq-08",
-        "office-mcq-05",
-        "office-mcq-09",
-        "office-mcq-04"
+        "office-mcq-13",
+        "office-mcq-12"
       ],
       "explanation": "本句的「term of office」指「某人正式擔任某職位的任職期間」。",
       "sentenceIndex": 1,
@@ -869,12 +808,9 @@ export default {
         "term of office"
       ],
       "optionReasons": {
-        "office-mcq-07": "本句指「某人正式擔任某職位的任職期間」。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-04": "「醫生、律師等專業人士接待客戶或病人的工作場所」是「professional’s office」的用法，與本句語境不同。"
+        "office-mcq-07": "本句的「term of office」指「某人正式擔任某職位的任職期間」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-07"
     },
@@ -886,11 +822,9 @@ export default {
       "masked": "The mayor’s ____ issued a statement.",
       "options": [
         "office-mcq-08",
-        "office-mcq-07",
-        "office-mcq-09",
-        "office-mcq-06",
         "office-mcq-10",
-        "office-mcq-05"
+        "office-mcq-12",
+        "office-mcq-06"
       ],
       "explanation": "本句的「office」指「為某位官員或主管提供支援的行政／幕僚團隊」。",
       "sentenceIndex": 0,
@@ -899,12 +833,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-08": "本句指「為某位官員或主管提供支援的行政／幕僚團隊」。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。"
+        "office-mcq-08": "本句的「office」指「為某位官員或主管提供支援的行政／幕僚團隊」。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-08"
     },
@@ -916,11 +848,9 @@ export default {
       "masked": "Her ____ arranged the meeting.",
       "options": [
         "office-mcq-08",
-        "office-mcq-07",
-        "office-mcq-09",
+        "office-mcq-11",
         "office-mcq-06",
-        "office-mcq-10",
-        "office-mcq-05"
+        "office-mcq-12"
       ],
       "explanation": "本句的「office」指「為某位官員或主管提供支援的行政／幕僚團隊」。",
       "sentenceIndex": 1,
@@ -929,12 +859,10 @@ export default {
         "office"
       ],
       "optionReasons": {
-        "office-mcq-08": "本句指「為某位官員或主管提供支援的行政／幕僚團隊」。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-05": "「在政府或機構中具有正式權力和責任的公職／職位」是「office — position」的用法，與本句語境不同。"
+        "office-mcq-08": "本句的「office」指「為某位官員或主管提供支援的行政／幕僚團隊」。",
+        "office-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-08"
     },
@@ -946,10 +874,8 @@ export default {
       "masked": "Our ____ are from nine to five.",
       "options": [
         "office-mcq-09",
-        "office-mcq-08",
-        "office-mcq-10",
-        "office-mcq-07",
-        "office-mcq-11",
+        "office-mcq-12",
+        "office-mcq-01",
         "office-mcq-06"
       ],
       "explanation": "本句的「office hours」指「機構正常辦公或提供服務的時段」。",
@@ -959,12 +885,10 @@ export default {
         "office hours"
       ],
       "optionReasons": {
-        "office-mcq-09": "本句指「機構正常辦公或提供服務的時段」。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-09": "本句的「office hours」指「機構正常辦公或提供服務的時段」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-09"
     },
@@ -976,10 +900,8 @@ export default {
       "masked": "Please call during normal ____.",
       "options": [
         "office-mcq-09",
-        "office-mcq-08",
-        "office-mcq-10",
-        "office-mcq-07",
-        "office-mcq-11",
+        "office-mcq-12",
+        "office-mcq-01",
         "office-mcq-06"
       ],
       "explanation": "本句的「office hours」指「機構正常辦公或提供服務的時段」。",
@@ -989,12 +911,10 @@ export default {
         "office hours"
       ],
       "optionReasons": {
-        "office-mcq-09": "本句指「機構正常辦公或提供服務的時段」。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-06": "「正式開始擔任／結束擔任某個公職」是「take/leave office」的用法，與本句語境不同。"
+        "office-mcq-09": "本句的「office hours」指「機構正常辦公或提供服務的時段」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-09"
     },
@@ -1006,11 +926,9 @@ export default {
       "masked": "You can ask the professor during her ____.",
       "options": [
         "office-mcq-10",
-        "office-mcq-09",
-        "office-mcq-11",
-        "office-mcq-08",
-        "office-mcq-12",
-        "office-mcq-07"
+        "office-mcq-18",
+        "office-mcq-13",
+        "office-mcq-12"
       ],
       "explanation": "本句的「office hours」指「教師指定讓學生前來諮詢或討論課業的時段」。",
       "sentenceIndex": 0,
@@ -1019,12 +937,10 @@ export default {
         "office hours"
       ],
       "optionReasons": {
-        "office-mcq-10": "本句指「教師指定讓學生前來諮詢或討論課業的時段」。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。"
+        "office-mcq-10": "本句的「office hours」指「教師指定讓學生前來諮詢或討論課業的時段」。",
+        "office-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-10"
     },
@@ -1036,11 +952,9 @@ export default {
       "masked": "I visited my tutor during ____.",
       "options": [
         "office-mcq-10",
-        "office-mcq-09",
-        "office-mcq-11",
-        "office-mcq-08",
-        "office-mcq-12",
-        "office-mcq-07"
+        "office-mcq-16",
+        "office-mcq-13",
+        "office-mcq-12"
       ],
       "explanation": "本句的「office hours」指「教師指定讓學生前來諮詢或討論課業的時段」。",
       "sentenceIndex": 1,
@@ -1049,12 +963,10 @@ export default {
         "office hours"
       ],
       "optionReasons": {
-        "office-mcq-10": "本句指「教師指定讓學生前來諮詢或討論課業的時段」。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-07": "「某人正式擔任某職位的任職期間」是「term of office」的用法，與本句語境不同。"
+        "office-mcq-10": "本句的「office hours」指「教師指定讓學生前來諮詢或討論課業的時段」。",
+        "office-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-10"
     },
@@ -1066,11 +978,9 @@ export default {
       "masked": "She converted the spare bedroom into a ____.",
       "options": [
         "office-mcq-11",
-        "office-mcq-10",
+        "office-mcq-08",
         "office-mcq-12",
-        "office-mcq-09",
-        "office-mcq-13",
-        "office-mcq-08"
+        "office-mcq-10"
       ],
       "explanation": "本句的「home office」指「家中專門用來工作的辦公空間」。",
       "sentenceIndex": 0,
@@ -1079,12 +989,10 @@ export default {
         "home office"
       ],
       "optionReasons": {
-        "office-mcq-11": "本句指「家中專門用來工作的辦公空間」。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。"
+        "office-mcq-11": "本句的「home office」指「家中專門用來工作的辦公空間」。",
+        "office-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-11"
     },
@@ -1096,11 +1004,9 @@ export default {
       "masked": "I need a quieter ____ for video meetings.",
       "options": [
         "office-mcq-11",
-        "office-mcq-10",
         "office-mcq-12",
-        "office-mcq-09",
-        "office-mcq-13",
-        "office-mcq-08"
+        "office-mcq-17",
+        "office-mcq-13"
       ],
       "explanation": "本句的「home office」指「家中專門用來工作的辦公空間」。",
       "sentenceIndex": 1,
@@ -1109,12 +1015,10 @@ export default {
         "home office"
       ],
       "optionReasons": {
-        "office-mcq-11": "本句指「家中專門用來工作的辦公空間」。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-08": "「為某位官員或主管提供支援的行政／幕僚團隊」是「someone’s office」的用法，與本句語境不同。"
+        "office-mcq-11": "本句的「home office」指「家中專門用來工作的辦公空間」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-11"
     },
@@ -1126,11 +1030,8 @@ export default {
       "masked": "We bought the tickets at the ____.",
       "options": [
         "office-mcq-12",
-        "office-mcq-11",
         "office-mcq-13",
-        "office-mcq-10",
-        "office-mcq-14",
-        "office-mcq-09"
+        "office-mcq-07"
       ],
       "explanation": "本句的「box office」指「售票處；亦可指電影／表演的票房收入表現」。",
       "sentenceIndex": 0,
@@ -1139,12 +1040,9 @@ export default {
         "box office"
       ],
       "optionReasons": {
-        "office-mcq-12": "本句指「售票處；亦可指電影／表演的票房收入表現」。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。"
+        "office-mcq-12": "本句的「box office」指「售票處；亦可指電影／表演的票房收入表現」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-12"
     },
@@ -1156,11 +1054,9 @@ export default {
       "masked": "The film performed well at the ____.",
       "options": [
         "office-mcq-12",
-        "office-mcq-11",
+        "office-mcq-17",
         "office-mcq-13",
-        "office-mcq-10",
-        "office-mcq-14",
-        "office-mcq-09"
+        "office-mcq-11"
       ],
       "explanation": "本句的「box office」指「售票處；亦可指電影／表演的票房收入表現」。",
       "sentenceIndex": 1,
@@ -1169,12 +1065,10 @@ export default {
         "box office"
       ],
       "optionReasons": {
-        "office-mcq-12": "本句指「售票處；亦可指電影／表演的票房收入表現」。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-09": "「機構正常辦公或提供服務的時段」是「office hours — business」的用法，與本句語境不同。"
+        "office-mcq-12": "本句的「box office」指「售票處；亦可指電影／表演的票房收入表現」。",
+        "office-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-12"
     },
@@ -1186,11 +1080,9 @@ export default {
       "masked": "I need to go to the ____ to send this parcel.",
       "options": [
         "office-mcq-13",
-        "office-mcq-12",
-        "office-mcq-14",
         "office-mcq-11",
-        "office-mcq-15",
-        "office-mcq-10"
+        "office-mcq-17",
+        "office-mcq-12"
       ],
       "explanation": "本句的「post office」指「提供郵政及包裹服務的郵局」。",
       "sentenceIndex": 0,
@@ -1199,12 +1091,10 @@ export default {
         "post office"
       ],
       "optionReasons": {
-        "office-mcq-13": "本句指「提供郵政及包裹服務的郵局」。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。"
+        "office-mcq-13": "本句的「post office」指「提供郵政及包裹服務的郵局」。",
+        "office-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-13"
     },
@@ -1216,11 +1106,9 @@ export default {
       "masked": "The nearest ____ closes at five.",
       "options": [
         "office-mcq-13",
-        "office-mcq-12",
-        "office-mcq-14",
-        "office-mcq-11",
-        "office-mcq-15",
-        "office-mcq-10"
+        "office-mcq-04",
+        "office-mcq-06",
+        "office-mcq-12"
       ],
       "explanation": "本句的「post office」指「提供郵政及包裹服務的郵局」。",
       "sentenceIndex": 1,
@@ -1229,12 +1117,10 @@ export default {
         "post office"
       ],
       "optionReasons": {
-        "office-mcq-13": "本句指「提供郵政及包裹服務的郵局」。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-10": "「教師指定讓學生前來諮詢或討論課業的時段」是「office hours — academic」的用法，與本句語境不同。"
+        "office-mcq-13": "本句的「post office」指「提供郵政及包裹服務的郵局」。",
+        "office-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-13"
     },
@@ -1246,11 +1132,9 @@ export default {
       "masked": "We are waiting for the ____ announcement.",
       "options": [
         "office-mcq-14",
-        "office-mcq-13",
-        "office-mcq-15",
-        "office-mcq-12",
-        "office-mcq-16",
-        "office-mcq-11"
+        "office-mcq-11",
+        "office-mcq-10",
+        "office-mcq-12"
       ],
       "explanation": "本句的「official」指「經有權機構正式批准、確認或發布的」。",
       "sentenceIndex": 0,
@@ -1259,12 +1143,10 @@ export default {
         "official"
       ],
       "optionReasons": {
-        "office-mcq-14": "本句指「經有權機構正式批准、確認或發布的」。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。"
+        "office-mcq-14": "本句的「official」指「經有權機構正式批准、確認或發布的」。",
+        "office-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-14"
     },
@@ -1276,11 +1158,9 @@ export default {
       "masked": "The ____ results will be released tomorrow.",
       "options": [
         "office-mcq-14",
-        "office-mcq-13",
-        "office-mcq-15",
         "office-mcq-12",
-        "office-mcq-16",
-        "office-mcq-11"
+        "office-mcq-10",
+        "office-mcq-01"
       ],
       "explanation": "本句的「official」指「經有權機構正式批准、確認或發布的」。",
       "sentenceIndex": 1,
@@ -1289,12 +1169,10 @@ export default {
         "official"
       ],
       "optionReasons": {
-        "office-mcq-14": "本句指「經有權機構正式批准、確認或發布的」。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-11": "「家中專門用來工作的辦公空間」是「home office」的用法，與本句語境不同。"
+        "office-mcq-14": "本句的「official」指「經有權機構正式批准、確認或發布的」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-14"
     },
@@ -1306,11 +1184,9 @@ export default {
       "masked": "The minister made an ____ visit to Japan.",
       "options": [
         "office-mcq-15",
-        "office-mcq-14",
-        "office-mcq-16",
-        "office-mcq-13",
-        "office-mcq-17",
-        "office-mcq-12"
+        "office-mcq-10",
+        "office-mcq-12",
+        "office-mcq-13"
       ],
       "explanation": "本句的「official」指「與某人的正式職責或公務有關的」。",
       "sentenceIndex": 0,
@@ -1319,12 +1195,10 @@ export default {
         "official"
       ],
       "optionReasons": {
-        "office-mcq-15": "本句指「與某人的正式職責或公務有關的」。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。"
+        "office-mcq-15": "本句的「official」指「與某人的正式職責或公務有關的」。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-15"
     },
@@ -1336,11 +1210,9 @@ export default {
       "masked": "She travelled there on ____ business.",
       "options": [
         "office-mcq-15",
-        "office-mcq-14",
-        "office-mcq-16",
-        "office-mcq-13",
-        "office-mcq-17",
-        "office-mcq-12"
+        "office-mcq-12",
+        "office-mcq-10",
+        "office-mcq-13"
       ],
       "explanation": "本句的「official」指「與某人的正式職責或公務有關的」。",
       "sentenceIndex": 1,
@@ -1349,12 +1221,10 @@ export default {
         "official"
       ],
       "optionReasons": {
-        "office-mcq-15": "本句指「與某人的正式職責或公務有關的」。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-12": "「售票處；亦可指電影／表演的票房收入表現」是「box office」的用法，與本句語境不同。"
+        "office-mcq-15": "本句的「official」指「與某人的正式職責或公務有關的」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-15"
     },
@@ -1366,10 +1236,8 @@ export default {
       "masked": "Government ____ attended the meeting.",
       "options": [
         "office-mcq-16",
-        "office-mcq-15",
-        "office-mcq-17",
-        "office-mcq-14",
-        "office-mcq-18",
+        "office-mcq-12",
+        "office-mcq-10",
         "office-mcq-13"
       ],
       "explanation": "本句的「officials」指「在政府或機構中擁有正式職責或權限的人」。",
@@ -1379,12 +1247,10 @@ export default {
         "officials"
       ],
       "optionReasons": {
-        "office-mcq-16": "本句指「在政府或機構中擁有正式職責或權限的人」。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-18": "「在組織中負責正式職能並具有相應責任或權限的人」是「officer」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。"
+        "office-mcq-16": "本句的「officials」指「在政府或機構中擁有正式職責或權限的人」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-16"
     },
@@ -1396,10 +1262,8 @@ export default {
       "masked": "An airport ____ checked the documents.",
       "options": [
         "office-mcq-16",
-        "office-mcq-15",
-        "office-mcq-17",
-        "office-mcq-14",
-        "office-mcq-18",
+        "office-mcq-12",
+        "office-mcq-10",
         "office-mcq-13"
       ],
       "explanation": "本句的「official」指「在政府或機構中擁有正式職責或權限的人」。",
@@ -1409,12 +1273,10 @@ export default {
         "official"
       ],
       "optionReasons": {
-        "office-mcq-16": "本句指「在政府或機構中擁有正式職責或權限的人」。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。",
-        "office-mcq-18": "「在組織中負責正式職能並具有相應責任或權限的人」是「officer」的用法，與本句語境不同。",
-        "office-mcq-13": "「提供郵政及包裹服務的郵局」是「post office」的用法，與本句語境不同。"
+        "office-mcq-16": "本句的「official」指「在政府或機構中擁有正式職責或權限的人」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-16"
     },
@@ -1426,11 +1288,9 @@ export default {
       "masked": "The company ____ launched the product today.",
       "options": [
         "office-mcq-17",
-        "office-mcq-16",
-        "office-mcq-18",
-        "office-mcq-15",
-        "office-mcq-19",
-        "office-mcq-14"
+        "office-mcq-13",
+        "office-mcq-11",
+        "office-mcq-12"
       ],
       "explanation": "本句的「officially」指「以正式、獲授權或獲機構認可的方式」。",
       "sentenceIndex": 0,
@@ -1439,12 +1299,10 @@ export default {
         "officially"
       ],
       "optionReasons": {
-        "office-mcq-17": "本句指「以正式、獲授權或獲機構認可的方式」。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-18": "「在組織中負責正式職能並具有相應責任或權限的人」是「officer」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-19": "「職場內部涉及影響力、派系、人際競爭和權力的非正式角力」是「office politics」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。"
+        "office-mcq-17": "本句的「officially」指「以正式、獲授權或獲機構認可的方式」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-17"
     },
@@ -1456,11 +1314,9 @@ export default {
       "masked": "The results have not been ____ confirmed.",
       "options": [
         "office-mcq-17",
-        "office-mcq-16",
-        "office-mcq-18",
-        "office-mcq-15",
-        "office-mcq-19",
-        "office-mcq-14"
+        "office-mcq-11",
+        "office-mcq-10",
+        "office-mcq-13"
       ],
       "explanation": "本句的「officially」指「以正式、獲授權或獲機構認可的方式」。",
       "sentenceIndex": 1,
@@ -1469,12 +1325,10 @@ export default {
         "officially"
       ],
       "optionReasons": {
-        "office-mcq-17": "本句指「以正式、獲授權或獲機構認可的方式」。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-18": "「在組織中負責正式職能並具有相應責任或權限的人」是「officer」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-19": "「職場內部涉及影響力、派系、人際競爭和權力的非正式角力」是「office politics」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。"
+        "office-mcq-17": "本句的「officially」指「以正式、獲授權或獲機構認可的方式」。",
+        "office-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-17"
     },
@@ -1486,11 +1340,9 @@ export default {
       "masked": "She is the company’s compliance ____.",
       "options": [
         "office-mcq-18",
-        "office-mcq-17",
-        "office-mcq-19",
-        "office-mcq-16",
-        "office-mcq-15",
-        "office-mcq-14"
+        "office-mcq-10",
+        "office-mcq-13",
+        "office-mcq-12"
       ],
       "explanation": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
       "sentenceIndex": 0,
@@ -1499,12 +1351,10 @@ export default {
         "officer"
       ],
       "optionReasons": {
-        "office-mcq-18": "本句指「在組織中負責正式職能並具有相應責任或權限的人」。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-19": "「職場內部涉及影響力、派系、人際競爭和權力的非正式角力」是「office politics」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。"
+        "office-mcq-18": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-18"
     },
@@ -1516,11 +1366,9 @@ export default {
       "masked": "The safety ____ inspected the building.",
       "options": [
         "office-mcq-18",
-        "office-mcq-17",
-        "office-mcq-19",
-        "office-mcq-16",
-        "office-mcq-15",
-        "office-mcq-14"
+        "office-mcq-12",
+        "office-mcq-13",
+        "office-mcq-10"
       ],
       "explanation": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
       "sentenceIndex": 1,
@@ -1529,12 +1377,10 @@ export default {
         "officer"
       ],
       "optionReasons": {
-        "office-mcq-18": "本句指「在組織中負責正式職能並具有相應責任或權限的人」。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-19": "「職場內部涉及影響力、派系、人際競爭和權力的非正式角力」是「office politics」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。"
+        "office-mcq-18": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-18"
     },
@@ -1546,11 +1392,9 @@ export default {
       "masked": "A police ____ spoke to the driver.",
       "options": [
         "office-mcq-18",
-        "office-mcq-17",
-        "office-mcq-19",
-        "office-mcq-16",
-        "office-mcq-15",
-        "office-mcq-14"
+        "office-mcq-13",
+        "office-mcq-12",
+        "office-mcq-10"
       ],
       "explanation": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
       "sentenceIndex": 0,
@@ -1559,12 +1403,10 @@ export default {
         "officer"
       ],
       "optionReasons": {
-        "office-mcq-18": "本句指「在組織中負責正式職能並具有相應責任或權限的人」。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-19": "「職場內部涉及影響力、派系、人際競爭和權力的非正式角力」是「office politics」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。"
+        "office-mcq-18": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-18"
     },
@@ -1576,11 +1418,9 @@ export default {
       "masked": "He served as an army ____ for ten years.",
       "options": [
         "office-mcq-18",
-        "office-mcq-17",
-        "office-mcq-19",
-        "office-mcq-16",
-        "office-mcq-15",
-        "office-mcq-14"
+        "office-mcq-12",
+        "office-mcq-10",
+        "office-mcq-13"
       ],
       "explanation": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
       "sentenceIndex": 1,
@@ -1589,12 +1429,10 @@ export default {
         "officer"
       ],
       "optionReasons": {
-        "office-mcq-18": "本句指「在組織中負責正式職能並具有相應責任或權限的人」。",
-        "office-mcq-17": "「以正式、獲授權或獲機構認可的方式」是「officially」的用法，與本句語境不同。",
-        "office-mcq-19": "「職場內部涉及影響力、派系、人際競爭和權力的非正式角力」是「office politics」的用法，與本句語境不同。",
-        "office-mcq-16": "「在政府或機構中擁有正式職責或權限的人」是「official — person」的用法，與本句語境不同。",
-        "office-mcq-15": "「與某人的正式職責或公務有關的」是「official — duties」的用法，與本句語境不同。",
-        "office-mcq-14": "「經有權機構正式批准、確認或發布的」是「official — authorized」的用法，與本句語境不同。"
+        "office-mcq-18": "本句的「officer」指「在組織中負責正式職能並具有相應責任或權限的人」。",
+        "office-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "office-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "office-mcq-18"
     }
@@ -1607,5 +1445,7 @@ export default {
     "pages": 14,
     "sha256": "8c39a78c92037e7335c8ec1004e6ec229e1cdc86fc8e1bebc95eb3e167e74319"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

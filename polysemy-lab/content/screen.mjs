@@ -315,16 +315,6 @@ export default {
       "note": "來源詞義：在網絡平台上代替真名顯示的名稱",
       "examples": [
         [
-          "The computer automatically starts the screensaver.",
-          "電腦會自動啟動螢幕保護程式。",
-          "在網絡平台上代替真名顯示的名稱"
-        ],
-        [
-          "She changed the screensaver image.",
-          "她更改了螢幕保護程式的圖片。",
-          "在網絡平台上代替真名顯示的名稱"
-        ],
-        [
           "He uses a different screen name online.",
           "他在網上使用另一個網名／顯示名稱。",
           "在網絡平台上代替真名顯示的名稱"
@@ -381,6 +371,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "screen-reviewed-d2b407d809",
+      "title": "螢幕保護程式",
+      "form": "screen · source section 19",
+      "en": "螢幕保護程式",
+      "zh": "螢幕保護程式",
+      "note": "對照原始教材第 19 節及例句核實。",
+      "examples": [
+        [
+          "The computer automatically starts the screensaver.",
+          "電腦會自動啟動螢幕保護程式。",
+          "螢幕保護程式"
+        ],
+        [
+          "She changed the screensaver image.",
+          "她更改了螢幕保護程式的圖片。",
+          "螢幕保護程式"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -392,11 +404,8 @@ export default {
       "masked": "I stared at the ____.",
       "options": [
         "screen-mcq-01",
-        "screen-mcq-02",
-        "screen-mcq-03",
-        "screen-mcq-04",
-        "screen-mcq-05",
-        "screen-mcq-06"
+        "screen-mcq-08",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screen」指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
       "sentenceIndex": 0,
@@ -405,12 +414,9 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-01": "本句指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-01": "本句的「screen」指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
+        "screen-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-01"
     },
@@ -422,11 +428,8 @@ export default {
       "masked": "Her phone ____ suddenly went dark.",
       "options": [
         "screen-mcq-01",
-        "screen-mcq-02",
-        "screen-mcq-03",
-        "screen-mcq-04",
-        "screen-mcq-05",
-        "screen-mcq-06"
+        "screen-pdf-002",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screen」指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
       "sentenceIndex": 1,
@@ -435,12 +438,9 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-01": "本句指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-01": "本句的「screen」指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
+        "screen-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-01"
     },
@@ -452,11 +452,8 @@ export default {
       "masked": "The message appeared on the ____.",
       "options": [
         "screen-mcq-01",
-        "screen-mcq-02",
-        "screen-mcq-03",
-        "screen-mcq-04",
-        "screen-mcq-05",
-        "screen-mcq-06"
+        "screen-mcq-08",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screen」指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
       "sentenceIndex": 2,
@@ -465,12 +462,9 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-01": "本句指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-01": "本句的「screen」指「手機、電腦、電視等顯示文字、圖片或影片的電子表面」。",
+        "screen-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-01"
     },
@@ -482,11 +476,9 @@ export default {
       "masked": "The film looked spectacular on the big ____.",
       "options": [
         "screen-mcq-02",
-        "screen-mcq-01",
-        "screen-mcq-03",
-        "screen-mcq-04",
-        "screen-mcq-05",
-        "screen-mcq-06"
+        "screen-mcq-06",
+        "screen-mcq-15",
+        "screen-pdf-002"
       ],
       "explanation": "本句的「screen」指「電影院中用來投射影片的大型銀幕」。",
       "sentenceIndex": 3,
@@ -495,12 +487,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-02": "本句指「電影院中用來投射影片的大型銀幕」。",
-        "screen-mcq-01": "「手機、電腦、電視等顯示文字、圖片或影片的電子表面」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-02": "本句的「screen」指「電影院中用來投射影片的大型銀幕」。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-02"
     },
@@ -512,11 +502,9 @@ export default {
       "masked": "Her face appeared on the cinema ____.",
       "options": [
         "screen-mcq-02",
-        "screen-mcq-01",
-        "screen-mcq-03",
-        "screen-mcq-04",
-        "screen-mcq-05",
-        "screen-mcq-06"
+        "screen-mcq-15",
+        "screen-mcq-06",
+        "screen-mcq-09"
       ],
       "explanation": "本句的「screen」指「電影院中用來投射影片的大型銀幕」。",
       "sentenceIndex": 4,
@@ -525,12 +513,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-02": "本句指「電影院中用來投射影片的大型銀幕」。",
-        "screen-mcq-01": "「手機、電腦、電視等顯示文字、圖片或影片的電子表面」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-02": "本句的「screen」指「電影院中用來投射影片的大型銀幕」。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-02"
     },
@@ -542,11 +528,9 @@ export default {
       "masked": "The actor returned to the ____ after five years.",
       "options": [
         "screen-mcq-03",
-        "screen-mcq-02",
-        "screen-mcq-04",
-        "screen-mcq-01",
-        "screen-mcq-05",
-        "screen-mcq-06"
+        "screen-mcq-15",
+        "screen-mcq-08",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screen」指「電影／電視作為表演與傳播媒介」。",
       "sentenceIndex": 5,
@@ -555,12 +539,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-03": "本句指「電影／電視作為表演與傳播媒介」。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-01": "「手機、電腦、電視等顯示文字、圖片或影片的電子表面」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-03": "本句的「screen」指「電影／電視作為表演與傳播媒介」。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-03"
     },
@@ -572,10 +554,8 @@ export default {
       "masked": "The story was adapted for the ____.",
       "options": [
         "screen-mcq-03",
-        "screen-mcq-02",
-        "screen-mcq-04",
-        "screen-mcq-01",
-        "screen-mcq-05",
+        "screen-mcq-09",
+        "screen-reviewed-d2b407d809",
         "screen-mcq-06"
       ],
       "explanation": "本句的「screen」指「電影／電視作為表演與傳播媒介」。",
@@ -585,12 +565,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-03": "本句指「電影／電視作為表演與傳播媒介」。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-01": "「手機、電腦、電視等顯示文字、圖片或影片的電子表面」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-03": "本句的「screen」指「電影／電視作為表演與傳播媒介」。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-reviewed-d2b407d809": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-03"
     },
@@ -602,11 +580,9 @@ export default {
       "masked": "A wooden ____ divided the room.",
       "options": [
         "screen-mcq-04",
-        "screen-mcq-03",
-        "screen-mcq-05",
-        "screen-mcq-02",
-        "screen-mcq-06",
-        "screen-mcq-01"
+        "screen-mcq-11",
+        "screen-reviewed-d2b407d809",
+        "screen-pdf-002"
       ],
       "explanation": "本句的「screen」指「用來分隔空間、遮擋視線或提供私隱的物件」。",
       "sentenceIndex": 7,
@@ -615,12 +591,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-04": "本句指「用來分隔空間、遮擋視線或提供私隱的物件」。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-01": "「手機、電腦、電視等顯示文字、圖片或影片的電子表面」與本句語境不同。"
+        "screen-mcq-04": "本句的「screen」指「用來分隔空間、遮擋視線或提供私隱的物件」。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "screen-reviewed-d2b407d809": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-04"
     },
@@ -632,11 +606,9 @@ export default {
       "masked": "They placed a ____ around the changing area.",
       "options": [
         "screen-mcq-04",
-        "screen-mcq-03",
-        "screen-mcq-05",
-        "screen-mcq-02",
-        "screen-mcq-06",
-        "screen-mcq-01"
+        "screen-mcq-09",
+        "screen-mcq-15",
+        "screen-mcq-11"
       ],
       "explanation": "本句的「screen」指「用來分隔空間、遮擋視線或提供私隱的物件」。",
       "sentenceIndex": 8,
@@ -645,12 +617,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-04": "本句指「用來分隔空間、遮擋視線或提供私隱的物件」。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-01": "「手機、電腦、電視等顯示文字、圖片或影片的電子表面」與本句語境不同。"
+        "screen-mcq-04": "本句的「screen」指「用來分隔空間、遮擋視線或提供私隱的物件」。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-04"
     },
@@ -662,11 +632,9 @@ export default {
       "masked": "The window has an insect ____.",
       "options": [
         "screen-mcq-05",
-        "screen-mcq-04",
-        "screen-mcq-06",
+        "screen-pdf-001",
         "screen-mcq-03",
-        "screen-mcq-07",
-        "screen-mcq-02"
+        "screen-mcq-06"
       ],
       "explanation": "本句的「screen」指「用來阻擋昆蟲、碎片等的網狀防護物」。",
       "sentenceIndex": 9,
@@ -675,12 +643,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-05": "本句指「用來阻擋昆蟲、碎片等的網狀防護物」。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。"
+        "screen-mcq-05": "本句的「screen」指「用來阻擋昆蟲、碎片等的網狀防護物」。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-05"
     },
@@ -692,11 +658,9 @@ export default {
       "masked": "A metal ____ protected the machine.",
       "options": [
         "screen-mcq-05",
-        "screen-mcq-04",
-        "screen-mcq-06",
         "screen-mcq-03",
-        "screen-mcq-07",
-        "screen-mcq-02"
+        "screen-mcq-09",
+        "screen-mcq-06"
       ],
       "explanation": "本句的「screen」指「用來阻擋昆蟲、碎片等的網狀防護物」。",
       "sentenceIndex": 10,
@@ -705,12 +669,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-05": "本句指「用來阻擋昆蟲、碎片等的網狀防護物」。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-02": "「電影院中用來投射影片的大型銀幕」與本句語境不同。"
+        "screen-mcq-05": "本句的「screen」指「用來阻擋昆蟲、碎片等的網狀防護物」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-05"
     },
@@ -722,11 +684,9 @@ export default {
       "masked": "Trees ____ the house from the road.",
       "options": [
         "screen-mcq-06",
-        "screen-mcq-05",
-        "screen-mcq-07",
-        "screen-mcq-04",
-        "screen-mcq-08",
-        "screen-mcq-03"
+        "screen-pdf-001",
+        "screen-mcq-13",
+        "screen-mcq-02"
       ],
       "explanation": "本句的「screened」指「用遮擋物使某人／某物不能被看見」。",
       "sentenceIndex": 11,
@@ -735,12 +695,10 @@ export default {
         "screened"
       ],
       "optionReasons": {
-        "screen-mcq-06": "本句指「用遮擋物使某人／某物不能被看見」。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。"
+        "screen-mcq-06": "本句的「screened」指「用遮擋物使某人／某物不能被看見」。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-06"
     },
@@ -752,11 +710,9 @@ export default {
       "masked": "A wall ____ the garden from view.",
       "options": [
         "screen-mcq-06",
-        "screen-mcq-05",
-        "screen-mcq-07",
-        "screen-mcq-04",
-        "screen-mcq-08",
-        "screen-mcq-03"
+        "screen-mcq-03",
+        "screen-pdf-001",
+        "screen-mcq-15"
       ],
       "explanation": "本句的「screens」指「用遮擋物使某人／某物不能被看見」。",
       "sentenceIndex": 12,
@@ -765,12 +721,10 @@ export default {
         "screens"
       ],
       "optionReasons": {
-        "screen-mcq-06": "本句指「用遮擋物使某人／某物不能被看見」。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-03": "「電影／電視作為表演與傳播媒介」與本句語境不同。"
+        "screen-mcq-06": "本句的「screens」指「用遮擋物使某人／某物不能被看見」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-06"
     },
@@ -782,11 +736,8 @@ export default {
       "masked": "Patients are ____ for diabetes.",
       "options": [
         "screen-mcq-07",
-        "screen-mcq-06",
-        "screen-mcq-08",
-        "screen-mcq-05",
-        "screen-mcq-09",
-        "screen-mcq-04"
+        "screen-mcq-02",
+        "screen-pdf-001"
       ],
       "explanation": "本句的「screened」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
       "sentenceIndex": 15,
@@ -795,12 +746,9 @@ export default {
         "screened"
       ],
       "optionReasons": {
-        "screen-mcq-07": "本句指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。"
+        "screen-mcq-07": "本句的「screened」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
+        "screen-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-07"
     },
@@ -812,11 +760,9 @@ export default {
       "masked": "The programme ____ people for early signs of cancer.",
       "options": [
         "screen-mcq-07",
-        "screen-mcq-06",
-        "screen-mcq-08",
-        "screen-mcq-05",
-        "screen-mcq-09",
-        "screen-mcq-04"
+        "screen-mcq-11",
+        "screen-pdf-001",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screens」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
       "sentenceIndex": 16,
@@ -825,12 +771,10 @@ export default {
         "screens"
       ],
       "optionReasons": {
-        "screen-mcq-07": "本句指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。"
+        "screen-mcq-07": "本句的「screens」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-07"
     },
@@ -842,11 +786,9 @@ export default {
       "masked": "She went for a health ____.",
       "options": [
         "screen-mcq-07",
-        "screen-mcq-06",
-        "screen-mcq-08",
-        "screen-mcq-05",
-        "screen-mcq-09",
-        "screen-mcq-04"
+        "screen-pdf-001",
+        "screen-mcq-10",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screening」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
       "sentenceIndex": 17,
@@ -855,12 +797,10 @@ export default {
         "screening"
       ],
       "optionReasons": {
-        "screen-mcq-07": "本句指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。"
+        "screen-mcq-07": "本句的「screening」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-07"
     },
@@ -872,11 +812,9 @@ export default {
       "masked": "Regular ____ can detect some diseases early.",
       "options": [
         "screen-mcq-07",
-        "screen-mcq-06",
-        "screen-mcq-08",
-        "screen-mcq-05",
-        "screen-mcq-09",
-        "screen-mcq-04"
+        "screen-mcq-03",
+        "screen-pdf-001",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screening」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
       "sentenceIndex": 18,
@@ -885,12 +823,10 @@ export default {
         "screening"
       ],
       "optionReasons": {
-        "screen-mcq-07": "本句指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-04": "「用來分隔空間、遮擋視線或提供私隱的物件」與本句語境不同。"
+        "screen-mcq-07": "本句的「screening」指「系統檢查沒有明顯症狀的人，以找出疾病或風險」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-07"
     },
@@ -902,11 +838,9 @@ export default {
       "masked": "All applicants are ____ before the interview.",
       "options": [
         "screen-mcq-08",
-        "screen-mcq-07",
-        "screen-mcq-09",
-        "screen-mcq-06",
-        "screen-mcq-10",
-        "screen-mcq-05"
+        "screen-mcq-13",
+        "screen-mcq-05",
+        "screen-mcq-11"
       ],
       "explanation": "本句的「screened」指「檢查某人是否合適、安全或符合條件」。",
       "sentenceIndex": 19,
@@ -915,12 +849,10 @@ export default {
         "screened"
       ],
       "optionReasons": {
-        "screen-mcq-08": "本句指「檢查某人是否合適、安全或符合條件」。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。"
+        "screen-mcq-08": "本句的「screened」指「檢查某人是否合適、安全或符合條件」。",
+        "screen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-08"
     },
@@ -932,10 +864,8 @@ export default {
       "masked": "Passengers are ____ before boarding.",
       "options": [
         "screen-mcq-08",
-        "screen-mcq-07",
-        "screen-mcq-09",
-        "screen-mcq-06",
-        "screen-mcq-10",
+        "screen-mcq-11",
+        "screen-mcq-13",
         "screen-mcq-05"
       ],
       "explanation": "本句的「screened」指「檢查某人是否合適、安全或符合條件」。",
@@ -945,12 +875,10 @@ export default {
         "screened"
       ],
       "optionReasons": {
-        "screen-mcq-08": "本句指「檢查某人是否合適、安全或符合條件」。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-05": "「用來阻擋昆蟲、碎片等的網狀防護物」與本句語境不同。"
+        "screen-mcq-08": "本句的「screened」指「檢查某人是否合適、安全或符合條件」。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-08"
     },
@@ -962,11 +890,9 @@ export default {
       "masked": "The company ____ hundreds of applications.",
       "options": [
         "screen-pdf-001",
-        "screen-mcq-08",
-        "screen-mcq-10",
-        "screen-mcq-07",
-        "screen-mcq-11",
-        "screen-mcq-06"
+        "screen-mcq-13",
+        "screen-mcq-05",
+        "screen-mcq-11"
       ],
       "explanation": "本句的「screened」指「從大量人／資料中先排除不符合條件者」。",
       "sentenceIndex": 21,
@@ -975,12 +901,10 @@ export default {
         "screened"
       ],
       "optionReasons": {
-        "screen-pdf-001": "本句指「從大量人／資料中先排除不符合條件者」。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-pdf-001": "本句的「screened」指「從大量人／資料中先排除不符合條件者」。",
+        "screen-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-pdf-001"
     },
@@ -992,11 +916,9 @@ export default {
       "masked": "HR ____ candidates before sending names to the manager.",
       "options": [
         "screen-pdf-001",
-        "screen-mcq-08",
         "screen-mcq-10",
-        "screen-mcq-07",
-        "screen-mcq-11",
-        "screen-mcq-06"
+        "screen-mcq-06",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screens」指「從大量人／資料中先排除不符合條件者」。",
       "sentenceIndex": 22,
@@ -1005,12 +927,10 @@ export default {
         "screens"
       ],
       "optionReasons": {
-        "screen-pdf-001": "本句指「從大量人／資料中先排除不符合條件者」。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-pdf-001": "本句的「screens」指「從大量人／資料中先排除不符合條件者」。",
+        "screen-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-pdf-001"
     },
@@ -1022,11 +942,9 @@ export default {
       "masked": "The software ____ messages for spam.",
       "options": [
         "screen-mcq-09",
-        "screen-mcq-08",
-        "screen-mcq-10",
-        "screen-mcq-07",
-        "screen-mcq-11",
-        "screen-mcq-06"
+        "screen-mcq-03",
+        "screen-mcq-15",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screens」指「檢查並篩除不符合要求的內容／項目」。",
       "sentenceIndex": 23,
@@ -1035,12 +953,10 @@ export default {
         "screens"
       ],
       "optionReasons": {
-        "screen-mcq-09": "本句指「檢查並篩除不符合要求的內容／項目」。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-09": "本句的「screens」指「檢查並篩除不符合要求的內容／項目」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-09"
     },
@@ -1052,11 +968,9 @@ export default {
       "masked": "The system ____ out inappropriate content.",
       "options": [
         "screen-mcq-09",
-        "screen-mcq-08",
-        "screen-mcq-10",
-        "screen-mcq-07",
-        "screen-mcq-11",
-        "screen-mcq-06"
+        "screen-mcq-03",
+        "screen-mcq-06",
+        "screen-mcq-15"
       ],
       "explanation": "本句的「screens」指「檢查並篩除不符合要求的內容／項目」。",
       "sentenceIndex": 24,
@@ -1065,12 +979,10 @@ export default {
         "screens"
       ],
       "optionReasons": {
-        "screen-mcq-09": "本句指「檢查並篩除不符合要求的內容／項目」。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-mcq-09": "本句的「screens」指「檢查並篩除不符合要求的內容／項目」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-09"
     },
@@ -1082,11 +994,9 @@ export default {
       "masked": "The filter ____ harmful particles.",
       "options": [
         "screen-pdf-002",
-        "screen-mcq-08",
-        "screen-mcq-10",
-        "screen-mcq-07",
         "screen-mcq-11",
-        "screen-mcq-06"
+        "screen-mcq-15",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screens out」指「經過檢查／過濾後把不需要或不合格者排除」。",
       "sentenceIndex": 25,
@@ -1095,12 +1005,10 @@ export default {
         "screens out"
       ],
       "optionReasons": {
-        "screen-pdf-002": "本句指「經過檢查／過濾後把不需要或不合格者排除」。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-pdf-002": "本句的「screens out」指「經過檢查／過濾後把不需要或不合格者排除」。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-pdf-002"
     },
@@ -1112,10 +1020,8 @@ export default {
       "masked": "The first test ____ out unsuitable applicants.",
       "options": [
         "screen-pdf-002",
-        "screen-mcq-08",
-        "screen-mcq-10",
-        "screen-mcq-07",
-        "screen-mcq-11",
+        "screen-mcq-03",
+        "screen-mcq-05",
         "screen-mcq-06"
       ],
       "explanation": "本句的「screens」指「經過檢查／過濾後把不需要或不合格者排除」。",
@@ -1125,12 +1031,10 @@ export default {
         "screens"
       ],
       "optionReasons": {
-        "screen-pdf-002": "本句指「經過檢查／過濾後把不需要或不合格者排除」。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-06": "「用遮擋物使某人／某物不能被看見」與本句語境不同。"
+        "screen-pdf-002": "本句的「screens」指「經過檢查／過濾後把不需要或不合格者排除」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-pdf-002"
     },
@@ -1142,11 +1046,9 @@ export default {
       "masked": "The cinema will ____ the film next week.",
       "options": [
         "screen-mcq-10",
-        "screen-mcq-09",
-        "screen-mcq-11",
-        "screen-mcq-08",
-        "screen-mcq-12",
-        "screen-mcq-07"
+        "screen-reviewed-d2b407d809",
+        "screen-pdf-002",
+        "screen-mcq-06"
       ],
       "explanation": "本句的「screen」指「在電影院、電視等媒體上放映影片／節目」。",
       "sentenceIndex": 27,
@@ -1155,12 +1057,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-10": "本句指「在電影院、電視等媒體上放映影片／節目」。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。"
+        "screen-mcq-10": "本句的「screen」指「在電影院、電視等媒體上放映影片／節目」。",
+        "screen-reviewed-d2b407d809": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-10"
     },
@@ -1172,11 +1072,9 @@ export default {
       "masked": "The documentary was ____ on television.",
       "options": [
         "screen-mcq-10",
-        "screen-mcq-09",
-        "screen-mcq-11",
-        "screen-mcq-08",
-        "screen-mcq-12",
-        "screen-mcq-07"
+        "screen-pdf-001",
+        "screen-mcq-07",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screened」指「在電影院、電視等媒體上放映影片／節目」。",
       "sentenceIndex": 28,
@@ -1185,12 +1083,10 @@ export default {
         "screened"
       ],
       "optionReasons": {
-        "screen-mcq-10": "本句指「在電影院、電視等媒體上放映影片／節目」。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-07": "「系統檢查沒有明顯症狀的人，以找出疾病或風險」與本句語境不同。"
+        "screen-mcq-10": "本句的「screened」指「在電影院、電視等媒體上放映影片／節目」。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-10"
     },
@@ -1202,11 +1098,9 @@ export default {
       "masked": "We went to an evening ____.",
       "options": [
         "screen-mcq-11",
-        "screen-mcq-10",
-        "screen-mcq-12",
-        "screen-mcq-09",
-        "screen-mcq-13",
-        "screen-mcq-08"
+        "screen-pdf-001",
+        "screen-reviewed-d2b407d809",
+        "screen-mcq-04"
       ],
       "explanation": "本句的「screening」指「一次電影／影片公開放映的活動或場次」。",
       "sentenceIndex": 29,
@@ -1215,12 +1109,10 @@ export default {
         "screening"
       ],
       "optionReasons": {
-        "screen-mcq-11": "本句指「一次電影／影片公開放映的活動或場次」。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-13": "「使用手機、電腦、平板、電視等螢幕的時間」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。"
+        "screen-mcq-11": "本句的「screening」指「一次電影／影片公開放映的活動或場次」。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-reviewed-d2b407d809": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-11"
     },
@@ -1232,11 +1124,9 @@ export default {
       "masked": "The first ____ starts at seven.",
       "options": [
         "screen-mcq-11",
-        "screen-mcq-10",
-        "screen-mcq-12",
+        "screen-mcq-04",
         "screen-mcq-09",
-        "screen-mcq-13",
-        "screen-mcq-08"
+        "screen-reviewed-d2b407d809"
       ],
       "explanation": "本句的「screening」指「一次電影／影片公開放映的活動或場次」。",
       "sentenceIndex": 30,
@@ -1245,12 +1135,10 @@ export default {
         "screening"
       ],
       "optionReasons": {
-        "screen-mcq-11": "本句指「一次電影／影片公開放映的活動或場次」。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-09": "「檢查並篩除不符合要求的內容／項目」與本句語境不同。",
-        "screen-mcq-13": "「使用手機、電腦、平板、電視等螢幕的時間」與本句語境不同。",
-        "screen-mcq-08": "「檢查某人是否合適、安全或符合條件」與本句語境不同。"
+        "screen-mcq-11": "本句的「screening」指「一次電影／影片公開放映的活動或場次」。",
+        "screen-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-reviewed-d2b407d809": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-11"
     },
@@ -1262,11 +1150,9 @@ export default {
       "masked": "Too much ____ can affect sleep.",
       "options": [
         "screen-mcq-13",
-        "screen-mcq-12",
-        "screen-mcq-14",
-        "screen-mcq-11",
-        "screen-mcq-15",
-        "screen-mcq-10"
+        "screen-mcq-09",
+        "screen-mcq-06",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screen time」指「使用手機、電腦、平板、電視等螢幕的時間」。",
       "sentenceIndex": 35,
@@ -1275,12 +1161,10 @@ export default {
         "screen time"
       ],
       "optionReasons": {
-        "screen-mcq-13": "本句指「使用手機、電腦、平板、電視等螢幕的時間」。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-14": "「某演員／角色實際出現在畫面上的時間」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-15": "「在網絡平台上代替真名顯示的名稱」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。"
+        "screen-mcq-13": "本句的「screen time」指「使用手機、電腦、平板、電視等螢幕的時間」。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-13"
     },
@@ -1292,11 +1176,9 @@ export default {
       "masked": "She is trying to reduce her ____ time.",
       "options": [
         "screen-mcq-13",
-        "screen-mcq-12",
-        "screen-mcq-14",
-        "screen-mcq-11",
-        "screen-mcq-15",
-        "screen-mcq-10"
+        "screen-pdf-002",
+        "screen-mcq-06",
+        "screen-mcq-05"
       ],
       "explanation": "本句的「screen」指「使用手機、電腦、平板、電視等螢幕的時間」。",
       "sentenceIndex": 36,
@@ -1305,74 +1187,68 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-13": "本句指「使用手機、電腦、平板、電視等螢幕的時間」。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-14": "「某演員／角色實際出現在畫面上的時間」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-15": "「在網絡平台上代替真名顯示的名稱」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。"
+        "screen-mcq-13": "本句的「screen」指「使用手機、電腦、平板、電視等螢幕的時間」。",
+        "screen-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-13"
     },
     {
       "id": "screen-19-0",
-      "sense": "screen-mcq-15",
+      "sense": "screen-reviewed-d2b407d809",
       "en": "The computer automatically starts the screensaver.",
       "zh": "電腦會自動啟動螢幕保護程式。",
       "masked": "The computer automatically starts the ____.",
       "options": [
-        "screen-mcq-15",
-        "screen-mcq-14",
-        "screen-mcq-13",
-        "screen-mcq-12",
-        "screen-mcq-11",
-        "screen-mcq-10"
+        "screen-reviewed-d2b407d809",
+        "screen-mcq-06",
+        "screen-mcq-09",
+        "screen-mcq-11"
       ],
-      "explanation": "本句的「screensaver」指「在網絡平台上代替真名顯示的名稱」。",
+      "explanation": "對照完整句子：「電腦會自動啟動螢幕保護程式。」。這裡的「screensaver」表示「螢幕保護程式」。",
       "sentenceIndex": 37,
       "sourcePractice": 38,
       "targets": [
         "screensaver"
       ],
       "optionReasons": {
-        "screen-mcq-15": "本句指「在網絡平台上代替真名顯示的名稱」。",
-        "screen-mcq-14": "「某演員／角色實際出現在畫面上的時間」與本句語境不同。",
-        "screen-mcq-13": "「使用手機、電腦、平板、電視等螢幕的時間」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。"
+        "screen-reviewed-d2b407d809": "對照完整句子：「電腦會自動啟動螢幕保護程式。」。這裡的「screensaver」表示「螢幕保護程式」。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "screen-mcq-15"
+      "correctOption": "screen-reviewed-d2b407d809",
+      "previousCorrectOption": "screen-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "screen-19-1",
-      "sense": "screen-mcq-15",
+      "sense": "screen-reviewed-d2b407d809",
       "en": "She changed the screensaver image.",
       "zh": "她更改了螢幕保護程式的圖片。",
       "masked": "She changed the ____ image.",
       "options": [
-        "screen-mcq-15",
-        "screen-mcq-14",
-        "screen-mcq-13",
-        "screen-mcq-12",
+        "screen-reviewed-d2b407d809",
+        "screen-mcq-09",
         "screen-mcq-11",
-        "screen-mcq-10"
+        "screen-mcq-06"
       ],
-      "explanation": "本句的「screensaver」指「在網絡平台上代替真名顯示的名稱」。",
+      "explanation": "對照完整句子：「她更改了螢幕保護程式的圖片。」。這裡的「screensaver」表示「螢幕保護程式」。",
       "sentenceIndex": 38,
       "sourcePractice": 39,
       "targets": [
         "screensaver"
       ],
       "optionReasons": {
-        "screen-mcq-15": "本句指「在網絡平台上代替真名顯示的名稱」。",
-        "screen-mcq-14": "「某演員／角色實際出現在畫面上的時間」與本句語境不同。",
-        "screen-mcq-13": "「使用手機、電腦、平板、電視等螢幕的時間」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。"
+        "screen-reviewed-d2b407d809": "對照完整句子：「她更改了螢幕保護程式的圖片。」。這裡的「screensaver」表示「螢幕保護程式」。",
+        "screen-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "screen-mcq-15"
+      "correctOption": "screen-reviewed-d2b407d809",
+      "previousCorrectOption": "screen-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "screen-20-0",
@@ -1382,11 +1258,9 @@ export default {
       "masked": "He uses a different ____ online.",
       "options": [
         "screen-mcq-15",
-        "screen-mcq-14",
-        "screen-mcq-13",
-        "screen-mcq-12",
         "screen-mcq-11",
-        "screen-mcq-10"
+        "screen-mcq-04",
+        "screen-pdf-002"
       ],
       "explanation": "本句的「screen name」指「在網絡平台上代替真名顯示的名稱」。",
       "sentenceIndex": 39,
@@ -1395,12 +1269,10 @@ export default {
         "screen name"
       ],
       "optionReasons": {
-        "screen-mcq-15": "本句指「在網絡平台上代替真名顯示的名稱」。",
-        "screen-mcq-14": "「某演員／角色實際出現在畫面上的時間」與本句語境不同。",
-        "screen-mcq-13": "「使用手機、電腦、平板、電視等螢幕的時間」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。"
+        "screen-mcq-15": "本句的「screen name」指「在網絡平台上代替真名顯示的名稱」。",
+        "screen-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-15"
     },
@@ -1412,11 +1284,9 @@ export default {
       "masked": "Her real name is different from her ____ name.",
       "options": [
         "screen-mcq-15",
-        "screen-mcq-14",
-        "screen-mcq-13",
-        "screen-mcq-12",
-        "screen-mcq-11",
-        "screen-mcq-10"
+        "screen-mcq-03",
+        "screen-pdf-001",
+        "screen-mcq-04"
       ],
       "explanation": "本句的「screen」指「在網絡平台上代替真名顯示的名稱」。",
       "sentenceIndex": 40,
@@ -1425,12 +1295,10 @@ export default {
         "screen"
       ],
       "optionReasons": {
-        "screen-mcq-15": "本句指「在網絡平台上代替真名顯示的名稱」。",
-        "screen-mcq-14": "「某演員／角色實際出現在畫面上的時間」與本句語境不同。",
-        "screen-mcq-13": "「使用手機、電腦、平板、電視等螢幕的時間」與本句語境不同。",
-        "screen-mcq-12": "「系統性的疾病／風險篩查」與本句語境不同。",
-        "screen-mcq-11": "「一次電影／影片公開放映的活動或場次」與本句語境不同。",
-        "screen-mcq-10": "「在電影院、電視等媒體上放映影片／節目」與本句語境不同。"
+        "screen-mcq-15": "本句的「screen」指「在網絡平台上代替真名顯示的名稱」。",
+        "screen-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "screen-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "screen-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "screen-mcq-15"
     }
@@ -1442,5 +1310,7 @@ export default {
     "sha256": "5a6fdea5aec3e1bb4e1ceb93c2dc582002164ebcc8ac689adac822b1ec3b9d84",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -166,7 +166,7 @@ export default {
     },
     {
       "id": "door-mcq-08",
-      "title": "表示進入或離開某",
+      "title": "進入或離開某",
       "form": "6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某",
       "en": "6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某",
       "zh": "表示進入或離開某",
@@ -262,11 +262,9 @@ export default {
       "masked": "She opened the ____ and walked into the room.",
       "options": [
         "door-mcq-01",
-        "door-mcq-02",
-        "door-mcq-03",
-        "door-mcq-04",
         "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-09",
+        "door-mcq-11"
       ],
       "explanation": "本句的「door」指「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」。",
       "sentenceIndex": 0,
@@ -275,12 +273,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-01": "本句指「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-01": "本句的「door」指「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-01"
     },
@@ -292,11 +288,9 @@ export default {
       "masked": "Please close the ____ quietly.",
       "options": [
         "door-mcq-01",
-        "door-mcq-02",
-        "door-mcq-03",
-        "door-mcq-04",
         "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-09",
+        "door-mcq-11"
       ],
       "explanation": "本句的「door」指「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」。",
       "sentenceIndex": 1,
@@ -305,12 +299,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-01": "本句指「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-01": "本句的「door」指「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-01"
     },
@@ -322,11 +314,9 @@ export default {
       "masked": "Someone was waiting at the ____.",
       "options": [
         "door-mcq-02",
-        "door-mcq-01",
-        "door-mcq-03",
-        "door-mcq-04",
-        "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-09",
+        "door-mcq-11",
+        "door-mcq-08"
       ],
       "explanation": "本句的「door」指「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」。",
       "sentenceIndex": 2,
@@ -335,12 +325,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-02": "本句指「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-02": "本句的「door」指「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-02"
     },
@@ -352,11 +340,9 @@ export default {
       "masked": "There was a long queue outside the ____.",
       "options": [
         "door-mcq-02",
-        "door-mcq-01",
-        "door-mcq-03",
-        "door-mcq-04",
-        "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-11",
+        "door-mcq-09",
+        "door-mcq-08"
       ],
       "explanation": "本句的「door」指「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」。",
       "sentenceIndex": 3,
@@ -365,12 +351,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-02": "本句指「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-02": "本句的「door」指「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-02"
     },
@@ -382,11 +366,9 @@ export default {
       "masked": "Speaking to him feels like opening a ____ to a different way of thinking.",
       "options": [
         "door-mcq-03",
-        "door-mcq-02",
-        "door-mcq-04",
-        "door-mcq-01",
-        "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-09",
+        "door-mcq-06",
+        "door-mcq-11"
       ],
       "explanation": "本句的「door」指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
       "sentenceIndex": 4,
@@ -395,12 +377,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-03": "本句指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-03": "本句的「door」指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-03"
     },
@@ -412,11 +392,9 @@ export default {
       "masked": "Learning another language can open the ____ to new cultures.",
       "options": [
         "door-mcq-03",
+        "door-mcq-09",
         "door-mcq-02",
-        "door-mcq-04",
-        "door-mcq-01",
-        "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-11"
       ],
       "explanation": "本句的「door」指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
       "sentenceIndex": 5,
@@ -425,12 +403,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-03": "本句指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-03": "本句的「door」指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-03"
     },
@@ -442,11 +418,9 @@ export default {
       "masked": "The internship opened a ____ to a career in journalism.",
       "options": [
         "door-mcq-03",
-        "door-mcq-02",
-        "door-mcq-04",
-        "door-mcq-01",
-        "door-mcq-05",
-        "door-mcq-06"
+        "door-mcq-09",
+        "door-mcq-06",
+        "door-mcq-04"
       ],
       "explanation": "本句的「door」指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
       "sentenceIndex": 6,
@@ -455,12 +429,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-03": "本句指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-03": "本句的「door」指「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-03"
     },
@@ -472,11 +444,9 @@ export default {
       "masked": "The agreement could ____ further cooperation.",
       "options": [
         "door-mcq-05",
-        "door-mcq-04",
         "door-mcq-06",
-        "door-mcq-03",
-        "door-mcq-07",
-        "door-mcq-02"
+        "door-mcq-04",
+        "door-mcq-09"
       ],
       "explanation": "本句的「open the door to」指「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」。",
       "sentenceIndex": 7,
@@ -485,12 +455,10 @@ export default {
         "open the door to"
       ],
       "optionReasons": {
-        "door-mcq-05": "本句指「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。"
+        "door-mcq-05": "本句的「open the door to」指「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」。",
+        "door-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-05"
     },
@@ -502,11 +470,9 @@ export default {
       "masked": "The decision may ____ future negotiations.",
       "options": [
         "door-mcq-05",
-        "door-mcq-04",
-        "door-mcq-06",
-        "door-mcq-03",
-        "door-mcq-07",
-        "door-mcq-02"
+        "door-mcq-11",
+        "door-mcq-09",
+        "door-mcq-01"
       ],
       "explanation": "本句的「close the door on」指「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」。",
       "sentenceIndex": 8,
@@ -515,12 +481,10 @@ export default {
         "close the door on"
       ],
       "optionReasons": {
-        "door-mcq-05": "本句指「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。"
+        "door-mcq-05": "本句的「close the door on」指「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-05"
     },
@@ -532,11 +496,9 @@ export default {
       "masked": "They live three ____ down from us.",
       "options": [
         "door-mcq-04",
-        "door-mcq-03",
         "door-mcq-05",
-        "door-mcq-02",
-        "door-mcq-06",
-        "door-mcq-01"
+        "door-mcq-11",
+        "door-mcq-09"
       ],
       "explanation": "本句的「doors」指「以住宅入口代表一戶家庭、一個住址或一間住宅」。",
       "sentenceIndex": 9,
@@ -545,12 +507,10 @@ export default {
         "doors"
       ],
       "optionReasons": {
-        "door-mcq-04": "本句指「以住宅入口代表一戶家庭、一個住址或一間住宅」。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。"
+        "door-mcq-04": "本句的「doors」指「以住宅入口代表一戶家庭、一個住址或一間住宅」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-04"
     },
@@ -562,11 +522,9 @@ export default {
       "masked": "She went from ____ asking for donations.",
       "options": [
         "door-mcq-04",
-        "door-mcq-03",
+        "door-mcq-11",
         "door-mcq-05",
-        "door-mcq-02",
-        "door-mcq-06",
-        "door-mcq-01"
+        "door-mcq-10"
       ],
       "explanation": "本句的「door to door」指「以住宅入口代表一戶家庭、一個住址或一間住宅」。",
       "sentenceIndex": 10,
@@ -575,12 +533,10 @@ export default {
         "door to door"
       ],
       "optionReasons": {
-        "door-mcq-04": "本句指「以住宅入口代表一戶家庭、一個住址或一間住宅」。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-02": "「讓人進出房間、建築物或其他封閉空間的位置；與實體門義高度相關」是「door — entrance/access point」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-01": "「安裝在入口位置、可以開關，用來讓人或物進出或把空間封閉起來的活動結構」是「door — physical barrier/entrance」的用法，與本句語境不同。"
+        "door-mcq-04": "本句的「door to door」指「以住宅入口代表一戶家庭、一個住址或一間住宅」。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-04"
     },
@@ -592,11 +548,9 @@ export default {
       "masked": "The temporary job helped her get a ____.",
       "options": [
         "door-mcq-08",
-        "door-mcq-07",
-        "door-mcq-09",
-        "door-mcq-06",
-        "door-mcq-10",
-        "door-mcq-05"
+        "door-mcq-11",
+        "door-mcq-05",
+        "door-mcq-09"
       ],
       "explanation": "本句的「foot in the door」指「表示進入或離開某」。",
       "sentenceIndex": 11,
@@ -605,12 +559,10 @@ export default {
         "foot in the door"
       ],
       "optionReasons": {
-        "door-mcq-08": "本句指「表示進入或離開某」。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-10": "「要某人離開某個地方，通常帶有不歡迎或解僱意味」是「Fixed expression: show someone the door — 請某人離開；趕走」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。"
+        "door-mcq-08": "本句的「foot in the door」指「表示進入或離開某」。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-08"
     },
@@ -622,10 +574,8 @@ export default {
       "masked": "Once you have a foot in the ____, it becomes easier to build contacts.",
       "options": [
         "door-mcq-08",
-        "door-mcq-07",
         "door-mcq-09",
-        "door-mcq-06",
-        "door-mcq-10",
+        "door-mcq-11",
         "door-mcq-05"
       ],
       "explanation": "本句的「door」指「表示進入或離開某」。",
@@ -635,12 +585,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-08": "本句指「表示進入或離開某」。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-10": "「要某人離開某個地方，通常帶有不歡迎或解僱意味」是「Fixed expression: show someone the door — 請某人離開；趕走」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。"
+        "door-mcq-08": "本句的「door」指「表示進入或離開某」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-08"
     },
@@ -652,11 +600,9 @@ export default {
       "masked": "The negotiations took place ____.",
       "options": [
         "door-mcq-09",
-        "door-mcq-08",
-        "door-mcq-10",
-        "door-mcq-07",
+        "door-mcq-01",
         "door-mcq-11",
-        "door-mcq-06"
+        "door-mcq-05"
       ],
       "explanation": "本句的「behind closed doors」指「在不讓公眾或外人參與、觀看或知道詳情的情況下」。",
       "sentenceIndex": 13,
@@ -665,12 +611,10 @@ export default {
         "behind closed doors"
       ],
       "optionReasons": {
-        "door-mcq-09": "本句指「在不讓公眾或外人參與、觀看或知道詳情的情況下」。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-10": "「要某人離開某個地方，通常帶有不歡迎或解僱意味」是「Fixed expression: show someone the door — 請某人離開；趕走」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-11": "「病得非常嚴重，接近死亡；可字面或誇張使用」是「Fixed expression: at death’s door — 病危；瀕死」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-09": "本句的「behind closed doors」指「在不讓公眾或外人參與、觀看或知道詳情的情況下」。",
+        "door-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-09"
     },
@@ -682,11 +626,9 @@ export default {
       "masked": "The committee discussed the matter ____.",
       "options": [
         "door-mcq-09",
-        "door-mcq-08",
-        "door-mcq-10",
-        "door-mcq-07",
-        "door-mcq-11",
-        "door-mcq-06"
+        "door-mcq-05",
+        "door-mcq-06",
+        "door-mcq-04"
       ],
       "explanation": "本句的「behind closed doors」指「在不讓公眾或外人參與、觀看或知道詳情的情況下」。",
       "sentenceIndex": 14,
@@ -695,12 +637,10 @@ export default {
         "behind closed doors"
       ],
       "optionReasons": {
-        "door-mcq-09": "本句指「在不讓公眾或外人參與、觀看或知道詳情的情況下」。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-10": "「要某人離開某個地方，通常帶有不歡迎或解僱意味」是「Fixed expression: show someone the door — 請某人離開；趕走」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-11": "「病得非常嚴重，接近死亡；可字面或誇張使用」是「Fixed expression: at death’s door — 病危；瀕死」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-09": "本句的「behind closed doors」指「在不讓公眾或外人參與、觀看或知道詳情的情況下」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-09"
     },
@@ -712,11 +652,9 @@ export default {
       "masked": "After his rude behaviour, the manager ____.",
       "options": [
         "door-mcq-10",
-        "door-mcq-09",
-        "door-mcq-11",
-        "door-mcq-08",
-        "door-mcq-07",
-        "door-mcq-06"
+        "door-mcq-05",
+        "door-mcq-04",
+        "door-mcq-09"
       ],
       "explanation": "本句的「showed him the door」指「要某人離開某個地方，通常帶有不歡迎或解僱意味」。",
       "sentenceIndex": 15,
@@ -725,12 +663,10 @@ export default {
         "showed him the door"
       ],
       "optionReasons": {
-        "door-mcq-10": "本句指「要某人離開某個地方，通常帶有不歡迎或解僱意味」。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-11": "「病得非常嚴重，接近死亡；可字面或誇張使用」是「Fixed expression: at death’s door — 病危；瀕死」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-10": "本句的「showed him the door」指「要某人離開某個地方，通常帶有不歡迎或解僱意味」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-10"
     },
@@ -743,10 +679,8 @@ export default {
       "options": [
         "door-mcq-10",
         "door-mcq-09",
-        "door-mcq-11",
-        "door-mcq-08",
-        "door-mcq-07",
-        "door-mcq-06"
+        "door-mcq-05",
+        "door-mcq-04"
       ],
       "explanation": "本句的「door」指「要某人離開某個地方，通常帶有不歡迎或解僱意味」。",
       "sentenceIndex": 16,
@@ -755,12 +689,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-10": "本句指「要某人離開某個地方，通常帶有不歡迎或解僱意味」。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-11": "「病得非常嚴重，接近死亡；可字面或誇張使用」是「Fixed expression: at death’s door — 病危；瀕死」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-10": "本句的「door」指「要某人離開某個地方，通常帶有不歡迎或解僱意味」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-10"
     },
@@ -772,11 +704,9 @@ export default {
       "masked": "He was seriously ill and seemed to be ____.",
       "options": [
         "door-mcq-11",
-        "door-mcq-10",
         "door-mcq-09",
-        "door-mcq-08",
-        "door-mcq-07",
-        "door-mcq-06"
+        "door-mcq-02",
+        "door-mcq-08"
       ],
       "explanation": "本句的「at death’s door」指「病得非常嚴重，接近死亡；可字面或誇張使用」。",
       "sentenceIndex": 17,
@@ -785,12 +715,10 @@ export default {
         "at death’s door"
       ],
       "optionReasons": {
-        "door-mcq-11": "本句指「病得非常嚴重，接近死亡；可字面或誇張使用」。",
-        "door-mcq-10": "「要某人離開某個地方，通常帶有不歡迎或解僱意味」是「Fixed expression: show someone the door — 請某人離開；趕走」的用法，與本句語境不同。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-11": "本句的「at death’s door」指「病得非常嚴重，接近死亡；可字面或誇張使用」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-11"
     },
@@ -802,11 +730,9 @@ export default {
       "masked": "She joked that the flu had left her at death’s ____.",
       "options": [
         "door-mcq-11",
-        "door-mcq-10",
-        "door-mcq-09",
-        "door-mcq-08",
-        "door-mcq-07",
-        "door-mcq-06"
+        "door-mcq-01",
+        "door-mcq-05",
+        "door-mcq-09"
       ],
       "explanation": "本句的「door」指「病得非常嚴重，接近死亡；可字面或誇張使用」。",
       "sentenceIndex": 18,
@@ -815,12 +741,10 @@ export default {
         "door"
       ],
       "optionReasons": {
-        "door-mcq-11": "本句指「病得非常嚴重，接近死亡；可字面或誇張使用」。",
-        "door-mcq-10": "「要某人離開某個地方，通常帶有不歡迎或解僱意味」是「Fixed expression: show someone the door — 請某人離開；趕走」的用法，與本句語境不同。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。"
+        "door-mcq-11": "本句的「door」指「病得非常嚴重，接近死亡；可字面或誇張使用」。",
+        "door-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-11"
     },
@@ -832,11 +756,9 @@ export default {
       "masked": "He stood in the ____.",
       "options": [
         "door-mcq-06",
+        "door-mcq-09",
         "door-mcq-05",
-        "door-mcq-07",
-        "door-mcq-04",
-        "door-mcq-08",
-        "door-mcq-03"
+        "door-mcq-11"
       ],
       "explanation": "本句的「doorway」指「安裝門的開口位置，以及供人出入的門口空間」。",
       "sentenceIndex": 19,
@@ -845,12 +767,10 @@ export default {
         "doorway"
       ],
       "optionReasons": {
-        "door-mcq-06": "本句指「安裝門的開口位置，以及供人出入的門口空間」。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。"
+        "door-mcq-06": "本句的「doorway」指「安裝門的開口位置，以及供人出入的門口空間」。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-06"
     },
@@ -862,11 +782,9 @@ export default {
       "masked": "A bicycle was blocking the ____.",
       "options": [
         "door-mcq-06",
+        "door-mcq-11",
         "door-mcq-05",
-        "door-mcq-07",
-        "door-mcq-04",
-        "door-mcq-08",
-        "door-mcq-03"
+        "door-mcq-09"
       ],
       "explanation": "本句的「doorway」指「安裝門的開口位置，以及供人出入的門口空間」。",
       "sentenceIndex": 20,
@@ -875,12 +793,10 @@ export default {
         "doorway"
       ],
       "optionReasons": {
-        "door-mcq-06": "本句指「安裝門的開口位置，以及供人出入的門口空間」。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-07": "「建築物外門前的台階或緊貼入口的位置」是「doorstep」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-03": "「讓人能夠接觸、進入或發展某個新領域、機會、想法或可能性的途徑」是「door — figurative access/opportunity」的用法，與本句語境不同。"
+        "door-mcq-06": "本句的「doorway」指「安裝門的開口位置，以及供人出入的門口空間」。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-06"
     },
@@ -892,11 +808,9 @@ export default {
       "masked": "The package was left on the ____.",
       "options": [
         "door-mcq-07",
-        "door-mcq-06",
-        "door-mcq-08",
         "door-mcq-05",
-        "door-mcq-09",
-        "door-mcq-04"
+        "door-mcq-11",
+        "door-mcq-09"
       ],
       "explanation": "本句的「doorstep」指「建築物外門前的台階或緊貼入口的位置」。",
       "sentenceIndex": 21,
@@ -905,12 +819,10 @@ export default {
         "doorstep"
       ],
       "optionReasons": {
-        "door-mcq-07": "本句指「建築物外門前的台階或緊貼入口的位置」。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。"
+        "door-mcq-07": "本句的「doorstep」指「建築物外門前的台階或緊貼入口的位置」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-07"
     },
@@ -922,11 +834,9 @@ export default {
       "masked": "Reporters gathered on his ____.",
       "options": [
         "door-mcq-07",
-        "door-mcq-06",
-        "door-mcq-08",
         "door-mcq-05",
-        "door-mcq-09",
-        "door-mcq-04"
+        "door-mcq-11",
+        "door-mcq-09"
       ],
       "explanation": "本句的「doorstep」指「建築物外門前的台階或緊貼入口的位置」。",
       "sentenceIndex": 22,
@@ -935,12 +845,10 @@ export default {
         "doorstep"
       ],
       "optionReasons": {
-        "door-mcq-07": "本句指「建築物外門前的台階或緊貼入口的位置」。",
-        "door-mcq-06": "「安裝門的開口位置，以及供人出入的門口空間」是「doorway」的用法，與本句語境不同。",
-        "door-mcq-08": "「表示進入或離開某」是「6. door = means of entering/leaving an organization or career（機構／職業） — 進入或離開某」的用法，與本句語境不同。",
-        "door-mcq-05": "「令某種機會或發展成為可能，或阻止其繼續發展；屬於「機會／途徑」義」是「open/close the door to something」的用法，與本句語境不同。",
-        "door-mcq-09": "「在不讓公眾或外人參與、觀看或知道詳情的情況下」是「Fixed expression: behind closed doors — 閉門進行；不公開」的用法，與本句語境不同。",
-        "door-mcq-04": "「以住宅入口代表一戶家庭、一個住址或一間住宅」是「door — household/residence」的用法，與本句語境不同。"
+        "door-mcq-07": "本句的「doorstep」指「建築物外門前的台階或緊貼入口的位置」。",
+        "door-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "door-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "door-mcq-07"
     }
@@ -952,5 +860,7 @@ export default {
     "sha256": "0351fc0ddcd9a24b781e23fd7181ec5e0d84beb1cefb0fb1bb4790a209cd48ae",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

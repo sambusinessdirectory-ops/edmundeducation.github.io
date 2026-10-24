@@ -300,11 +300,7 @@ export default {
       "masked": "瓶子裡____。",
       "options": [
         "empty-mcq-01",
-        "empty-mcq-02",
-        "empty-mcq-03",
-        "empty-mcq-04",
-        "empty-mcq-05",
-        "empty-mcq-06"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「容器內沒有任何內容物的」。",
       "sentenceIndex": 0,
@@ -313,12 +309,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-01": "本句指「容器內沒有任何內容物的」。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-01": "本句的「empty」指「容器內沒有任何內容物的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-01"
     },
@@ -330,11 +322,7 @@ export default {
       "masked": "我打開盒子，但裡面____。",
       "options": [
         "empty-mcq-01",
-        "empty-mcq-02",
-        "empty-mcq-03",
-        "empty-mcq-04",
-        "empty-mcq-05",
-        "empty-mcq-06"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「容器內沒有任何內容物的」。",
       "sentenceIndex": 1,
@@ -343,12 +331,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-01": "本句指「容器內沒有任何內容物的」。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-01": "本句的「empty」指「容器內沒有任何內容物的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-01"
     },
@@ -360,11 +344,7 @@ export default {
       "masked": "我到達時，辦公室裡____。",
       "options": [
         "empty-mcq-02",
-        "empty-mcq-01",
-        "empty-mcq-03",
-        "empty-mcq-04",
-        "empty-mcq-05",
-        "empty-mcq-06"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「裡面沒有人、顯得空無一人的」。",
       "sentenceIndex": 2,
@@ -373,12 +353,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-02": "本句指「裡面沒有人、顯得空無一人的」。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-02": "本句的「empty」指「裡面沒有人、顯得空無一人的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-02"
     },
@@ -390,11 +366,7 @@ export default {
       "masked": "深夜時，街上____。",
       "options": [
         "empty-mcq-02",
-        "empty-mcq-01",
-        "empty-mcq-03",
-        "empty-mcq-04",
-        "empty-mcq-05",
-        "empty-mcq-06"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「裡面沒有人、顯得空無一人的」。",
       "sentenceIndex": 3,
@@ -403,12 +375,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-02": "本句指「裡面沒有人、顯得空無一人的」。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-02": "本句的「empty」指「裡面沒有人、顯得空無一人的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-02"
     },
@@ -420,11 +388,8 @@ export default {
       "masked": "這個座位____嗎？",
       "options": [
         "empty-mcq-03",
-        "empty-mcq-02",
-        "empty-mcq-04",
-        "empty-mcq-01",
-        "empty-mcq-05",
-        "empty-mcq-06"
+        "empty-mcq-10",
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「沒有人或物佔用、目前可以使用的」。",
       "sentenceIndex": 4,
@@ -433,12 +398,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-03": "本句指「沒有人或物佔用、目前可以使用的」。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-03": "本句的「empty」指「沒有人或物佔用、目前可以使用的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-03"
     },
@@ -450,11 +412,8 @@ export default {
       "masked": "入口附近有一個____。",
       "options": [
         "empty-mcq-03",
-        "empty-mcq-02",
-        "empty-mcq-04",
-        "empty-mcq-01",
-        "empty-mcq-05",
-        "empty-mcq-06"
+        "empty-mcq-10",
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「沒有人或物佔用、目前可以使用的」。",
       "sentenceIndex": 5,
@@ -463,12 +422,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-03": "本句指「沒有人或物佔用、目前可以使用的」。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-03": "本句的「empty」指「沒有人或物佔用、目前可以使用的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-03"
     },
@@ -480,11 +436,7 @@ export default {
       "masked": "它並不花巧浮誇，也不咄咄逼人，更沒有充斥____。",
       "options": [
         "empty-mcq-04",
-        "empty-mcq-03",
-        "empty-mcq-05",
-        "empty-mcq-02",
-        "empty-mcq-06",
-        "empty-mcq-01"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
       "sentenceIndex": 6,
@@ -493,12 +445,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-04": "本句指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。"
+        "empty-mcq-04": "本句的「empty」指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-04"
     },
@@ -510,11 +458,7 @@ export default {
       "masked": "顧客已厭倦公司那些____。",
       "options": [
         "empty-mcq-04",
-        "empty-mcq-03",
-        "empty-mcq-05",
-        "empty-mcq-02",
-        "empty-mcq-06",
-        "empty-mcq-01"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
       "sentenceIndex": 7,
@@ -523,12 +467,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-04": "本句指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。"
+        "empty-mcq-04": "本句的「empty」指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-04"
     },
@@ -540,11 +480,7 @@ export default {
       "masked": "他的道歉聽起來____。",
       "options": [
         "empty-mcq-04",
-        "empty-mcq-03",
-        "empty-mcq-05",
-        "empty-mcq-02",
-        "empty-mcq-06",
-        "empty-mcq-01"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
       "sentenceIndex": 8,
@@ -553,12 +489,8 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-04": "本句指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-01": "「容器內沒有任何內容物的」是「empty container」的用法，與本句語境不同。"
+        "empty-mcq-04": "本句的「empty」指「表面有內容，但實際缺乏誠意、行動或實質意義的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-04"
     },
@@ -570,11 +502,8 @@ export default {
       "masked": "專案結束後，她感到一種____。",
       "options": [
         "empty-mcq-05",
-        "empty-mcq-04",
-        "empty-mcq-06",
-        "empty-mcq-03",
-        "empty-mcq-07",
-        "empty-mcq-02"
+        "empty-mcq-09",
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「內心缺乏意義、情感或滿足感的」。",
       "sentenceIndex": 9,
@@ -583,12 +512,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-05": "本句指「內心缺乏意義、情感或滿足感的」。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。"
+        "empty-mcq-05": "本句的「empty」指「內心缺乏意義、情感或滿足感的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-05"
     },
@@ -600,11 +526,8 @@ export default {
       "masked": "如果沒有人可以分享，成功也讓人感到____。",
       "options": [
         "empty-mcq-05",
-        "empty-mcq-04",
-        "empty-mcq-06",
-        "empty-mcq-03",
-        "empty-mcq-07",
-        "empty-mcq-02"
+        "empty-mcq-09",
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「內心缺乏意義、情感或滿足感的」。",
       "sentenceIndex": 10,
@@ -613,12 +536,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-05": "本句指「內心缺乏意義、情感或滿足感的」。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-02": "「裡面沒有人、顯得空無一人的」是「empty room/place」的用法，與本句語境不同。"
+        "empty-mcq-05": "本句的「empty」指「內心缺乏意義、情感或滿足感的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-05"
     },
@@ -630,11 +550,8 @@ export default {
       "masked": "我____就去上班了。",
       "options": [
         "empty-mcq-06",
-        "empty-mcq-05",
-        "empty-mcq-07",
-        "empty-mcq-04",
-        "empty-mcq-08",
-        "empty-mcq-03"
+        "empty-mcq-10",
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「胃裡沒有食物、處於空腹狀態的」。",
       "sentenceIndex": 11,
@@ -643,12 +560,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-06": "本句指「胃裡沒有食物、處於空腹狀態的」。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。"
+        "empty-mcq-06": "本句的「empty」指「胃裡沒有食物、處於空腹狀態的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-06"
     },
@@ -660,11 +574,8 @@ export default {
       "masked": "你不應該在____服用這種藥。",
       "options": [
         "empty-mcq-06",
-        "empty-mcq-05",
-        "empty-mcq-07",
-        "empty-mcq-04",
-        "empty-mcq-08",
-        "empty-mcq-03"
+        "empty-mcq-10",
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「胃裡沒有食物、處於空腹狀態的」。",
       "sentenceIndex": 12,
@@ -673,12 +584,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-06": "本句指「胃裡沒有食物、處於空腹狀態的」。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-03": "「沒有人或物佔用、目前可以使用的」是「empty seat/space」的用法，與本句語境不同。"
+        "empty-mcq-06": "本句的「empty」指「胃裡沒有食物、處於空腹狀態的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-06"
     },
@@ -690,11 +598,8 @@ export default {
       "masked": "他用一副____看著我。",
       "options": [
         "empty-mcq-07",
-        "empty-mcq-06",
-        "empty-mcq-08",
-        "empty-mcq-05",
         "empty-mcq-09",
-        "empty-mcq-04"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「沒有流露明顯情緒或反應、顯得茫然的」。",
       "sentenceIndex": 13,
@@ -703,12 +608,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-07": "本句指「沒有流露明顯情緒或反應、顯得茫然的」。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。"
+        "empty-mcq-07": "本句的「empty」指「沒有流露明顯情緒或反應、顯得茫然的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-07"
     },
@@ -720,11 +622,8 @@ export default {
       "masked": "她的眼神____。",
       "options": [
         "empty-mcq-07",
-        "empty-mcq-06",
-        "empty-mcq-08",
-        "empty-mcq-05",
-        "empty-mcq-09",
-        "empty-mcq-04"
+        "empty-mcq-10",
+        "empty-mcq-09"
       ],
       "explanation": "本句的「empty」指「沒有流露明顯情緒或反應、顯得茫然的」。",
       "sentenceIndex": 14,
@@ -733,12 +632,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-07": "本句指「沒有流露明顯情緒或反應、顯得茫然的」。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-04": "「表面有內容，但實際缺乏誠意、行動或實質意義的」是「empty promise/words」的用法，與本句語境不同。"
+        "empty-mcq-07": "本句的「empty」指「沒有流露明顯情緒或反應、顯得茫然的」。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-07"
     },
@@ -750,11 +646,8 @@ export default {
       "masked": "那個房間令他的聲音聽起來____。",
       "options": [
         "empty-mcq-08",
-        "empty-mcq-07",
         "empty-mcq-09",
-        "empty-mcq-06",
-        "empty-mcq-10",
-        "empty-mcq-05"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「聲音缺乏厚度、層次或共鳴的」。",
       "sentenceIndex": 15,
@@ -763,12 +656,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-08": "本句指「聲音缺乏厚度、層次或共鳴的」。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。"
+        "empty-mcq-08": "本句的「empty」指「聲音缺乏厚度、層次或共鳴的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-08"
     },
@@ -780,11 +670,8 @@ export default {
       "masked": "沒有低音後，錄音聽起來____。",
       "options": [
         "empty-mcq-08",
-        "empty-mcq-07",
         "empty-mcq-09",
-        "empty-mcq-06",
-        "empty-mcq-10",
-        "empty-mcq-05"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「聲音缺乏厚度、層次或共鳴的」。",
       "sentenceIndex": 16,
@@ -793,12 +680,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-08": "本句指「聲音缺乏厚度、層次或共鳴的」。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-05": "「內心缺乏意義、情感或滿足感的」是「feel empty」的用法，與本句語境不同。"
+        "empty-mcq-08": "本句的「empty」指「聲音缺乏厚度、層次或共鳴的」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-08"
     },
@@ -810,11 +694,8 @@ export default {
       "masked": "請把垃圾桶裡的東西____。",
       "options": [
         "empty-mcq-09",
-        "empty-mcq-08",
-        "empty-mcq-10",
-        "empty-mcq-07",
-        "empty-mcq-11",
-        "empty-mcq-06"
+        "empty-mcq-03",
+        "empty-mcq-10"
       ],
       "explanation": "本句的「empty」指「把裡面的東西全部清走或倒出」。",
       "sentenceIndex": 17,
@@ -823,12 +704,9 @@ export default {
         "empty"
       ],
       "optionReasons": {
-        "empty-mcq-09": "本句指「把裡面的東西全部清走或倒出」。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-11": "「缺乏人、物或內容所形成的空蕩狀態」是「emptiness — physical」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-09": "本句的「empty」指「把裡面的東西全部清走或倒出」。",
+        "empty-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-09"
     },
@@ -840,11 +718,8 @@ export default {
       "masked": "她把袋子裡的東西____。",
       "options": [
         "empty-mcq-09",
-        "empty-mcq-08",
-        "empty-mcq-10",
-        "empty-mcq-07",
-        "empty-mcq-11",
-        "empty-mcq-06"
+        "empty-mcq-12",
+        "empty-mcq-10"
       ],
       "explanation": "本句的「emptied」指「把裡面的東西全部清走或倒出」。",
       "sentenceIndex": 18,
@@ -853,12 +728,9 @@ export default {
         "emptied"
       ],
       "optionReasons": {
-        "empty-mcq-09": "本句指「把裡面的東西全部清走或倒出」。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。",
-        "empty-mcq-11": "「缺乏人、物或內容所形成的空蕩狀態」是「emptiness — physical」的用法，與本句語境不同。",
-        "empty-mcq-06": "「胃裡沒有食物、處於空腹狀態的」是「empty stomach」的用法，與本句語境不同。"
+        "empty-mcq-09": "本句的「emptied」指「把裡面的東西全部清走或倒出」。",
+        "empty-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-09"
     },
@@ -871,10 +743,7 @@ export default {
       "options": [
         "empty-mcq-10",
         "empty-mcq-09",
-        "empty-mcq-11",
-        "empty-mcq-08",
-        "empty-mcq-12",
-        "empty-mcq-07"
+        "empty-mcq-08"
       ],
       "explanation": "本句的「emptied」指「因人或內容物離開而逐漸變空」。",
       "sentenceIndex": 19,
@@ -883,12 +752,9 @@ export default {
         "emptied"
       ],
       "optionReasons": {
-        "empty-mcq-10": "本句指「因人或內容物離開而逐漸變空」。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-11": "「缺乏人、物或內容所形成的空蕩狀態」是「emptiness — physical」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-12": "「內心缺乏意義、連結或滿足感的空虛狀態」是「emptiness — emotional」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。"
+        "empty-mcq-10": "本句的「emptied」指「因人或內容物離開而逐漸變空」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-10"
     },
@@ -900,11 +766,8 @@ export default {
       "masked": "隨著水慢慢漏出，瓶子逐漸____。",
       "options": [
         "empty-mcq-10",
-        "empty-mcq-09",
-        "empty-mcq-11",
-        "empty-mcq-08",
-        "empty-mcq-12",
-        "empty-mcq-07"
+        "empty-mcq-07",
+        "empty-mcq-09"
       ],
       "explanation": "本句的「emptied」指「因人或內容物離開而逐漸變空」。",
       "sentenceIndex": 20,
@@ -913,12 +776,9 @@ export default {
         "emptied"
       ],
       "optionReasons": {
-        "empty-mcq-10": "本句指「因人或內容物離開而逐漸變空」。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-11": "「缺乏人、物或內容所形成的空蕩狀態」是「emptiness — physical」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-12": "「內心缺乏意義、連結或滿足感的空虛狀態」是「emptiness — emotional」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。"
+        "empty-mcq-10": "本句的「emptied」指「因人或內容物離開而逐漸變空」。",
+        "empty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-10"
     },
@@ -930,11 +790,7 @@ export default {
       "masked": "大樓____令人覺得不尋常。",
       "options": [
         "empty-mcq-11",
-        "empty-mcq-10",
-        "empty-mcq-12",
-        "empty-mcq-09",
-        "empty-mcq-08",
-        "empty-mcq-07"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「emptiness」指「缺乏人、物或內容所形成的空蕩狀態」。",
       "sentenceIndex": 21,
@@ -943,12 +799,8 @@ export default {
         "emptiness"
       ],
       "optionReasons": {
-        "empty-mcq-11": "本句指「缺乏人、物或內容所形成的空蕩狀態」。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-12": "「內心缺乏意義、連結或滿足感的空虛狀態」是「emptiness — emotional」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。"
+        "empty-mcq-11": "本句的「emptiness」指「缺乏人、物或內容所形成的空蕩狀態」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-11"
     },
@@ -960,11 +812,7 @@ export default {
       "masked": "房間因為____，所以顯得更大。",
       "options": [
         "empty-mcq-11",
-        "empty-mcq-10",
-        "empty-mcq-12",
-        "empty-mcq-09",
-        "empty-mcq-08",
-        "empty-mcq-07"
+        "empty-mcq-09"
       ],
       "explanation": "本句的「emptiness」指「缺乏人、物或內容所形成的空蕩狀態」。",
       "sentenceIndex": 22,
@@ -973,12 +821,8 @@ export default {
         "emptiness"
       ],
       "optionReasons": {
-        "empty-mcq-11": "本句指「缺乏人、物或內容所形成的空蕩狀態」。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-12": "「內心缺乏意義、連結或滿足感的空虛狀態」是「emptiness — emotional」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。"
+        "empty-mcq-11": "本句的「emptiness」指「缺乏人、物或內容所形成的空蕩狀態」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-11"
     },
@@ -990,11 +834,8 @@ export default {
       "masked": "退休後，他感到很深的____。",
       "options": [
         "empty-mcq-12",
-        "empty-mcq-11",
-        "empty-mcq-10",
         "empty-mcq-09",
-        "empty-mcq-08",
-        "empty-mcq-07"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「emptiness」指「內心缺乏意義、連結或滿足感的空虛狀態」。",
       "sentenceIndex": 23,
@@ -1003,12 +844,9 @@ export default {
         "emptiness"
       ],
       "optionReasons": {
-        "empty-mcq-12": "本句指「內心缺乏意義、連結或滿足感的空虛狀態」。",
-        "empty-mcq-11": "「缺乏人、物或內容所形成的空蕩狀態」是「emptiness — physical」的用法，與本句語境不同。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。"
+        "empty-mcq-12": "本句的「emptiness」指「內心缺乏意義、連結或滿足感的空虛狀態」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-12"
     },
@@ -1020,11 +858,8 @@ export default {
       "masked": "物質上的成功並沒有消除她那種____。",
       "options": [
         "empty-mcq-12",
-        "empty-mcq-11",
-        "empty-mcq-10",
         "empty-mcq-09",
-        "empty-mcq-08",
-        "empty-mcq-07"
+        "empty-mcq-10"
       ],
       "explanation": "本句的「emptiness」指「內心缺乏意義、連結或滿足感的空虛狀態」。",
       "sentenceIndex": 24,
@@ -1033,12 +868,9 @@ export default {
         "emptiness"
       ],
       "optionReasons": {
-        "empty-mcq-12": "本句指「內心缺乏意義、連結或滿足感的空虛狀態」。",
-        "empty-mcq-11": "「缺乏人、物或內容所形成的空蕩狀態」是「emptiness — physical」的用法，與本句語境不同。",
-        "empty-mcq-10": "「因人或內容物離開而逐漸變空」是「place/container empties」的用法，與本句語境不同。",
-        "empty-mcq-09": "「把裡面的東西全部清走或倒出」是「empty + container/place」的用法，與本句語境不同。",
-        "empty-mcq-08": "「聲音缺乏厚度、層次或共鳴的」是「empty sound」的用法，與本句語境不同。",
-        "empty-mcq-07": "「沒有流露明顯情緒或反應、顯得茫然的」是「empty expression/look」的用法，與本句語境不同。"
+        "empty-mcq-12": "本句的「emptiness」指「內心缺乏意義、連結或滿足感的空虛狀態」。",
+        "empty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "empty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "empty-mcq-12"
     }
@@ -1048,5 +880,7 @@ export default {
     "sha256": "9551a44f36633466271a4f80fc0c8bd7a5fb7e58882fc82ebbf6dcd36ee7b92c",
     "path": "manuals/empty.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

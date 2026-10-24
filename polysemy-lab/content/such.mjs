@@ -208,11 +208,9 @@ export default {
       "masked": "I think he is ____.",
       "options": [
         "such-mcq-01",
-        "such-mcq-02",
-        "such-mcq-03",
-        "such-mcq-04",
-        "such-mcq-05",
-        "such-mcq-06"
+        "such-pdf-001",
+        "such-mcq-06",
+        "such-mcq-04"
       ],
       "explanation": "本句的「such an interesting person」指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
       "sentenceIndex": 0,
@@ -221,12 +219,10 @@ export default {
         "such an interesting person"
       ],
       "optionReasons": {
-        "such-mcq-01": "本句指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-01": "本句的「such an interesting person」指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-01"
     },
@@ -238,11 +234,9 @@ export default {
       "masked": "It was ____.",
       "options": [
         "such-mcq-01",
-        "such-mcq-02",
-        "such-mcq-03",
-        "such-mcq-04",
-        "such-mcq-05",
-        "such-mcq-06"
+        "such-pdf-001",
+        "such-mcq-06",
+        "such-mcq-04"
       ],
       "explanation": "本句的「such a beautiful day」指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
       "sentenceIndex": 1,
@@ -251,12 +245,10 @@ export default {
         "such a beautiful day"
       ],
       "optionReasons": {
-        "such-mcq-01": "本句指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-01": "本句的「such a beautiful day」指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-01"
     },
@@ -268,11 +260,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "such-mcq-01",
-        "such-mcq-02",
-        "such-mcq-03",
-        "such-mcq-04",
-        "such-mcq-05",
-        "such-mcq-06"
+        "such-pdf-001",
+        "such-mcq-06",
+        "such-mcq-04"
       ],
       "explanation": "本句的「such a thoughtful teacher」指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
       "sentenceIndex": 2,
@@ -281,12 +271,10 @@ export default {
         "such a thoughtful teacher"
       ],
       "optionReasons": {
-        "such-mcq-01": "本句指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-01": "本句的「such a thoughtful teacher」指「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-01"
     },
@@ -298,11 +286,8 @@ export default {
       "masked": "Why do people make ____?",
       "options": [
         "such-mcq-02",
-        "such-mcq-01",
-        "such-mcq-03",
-        "such-mcq-04",
-        "such-mcq-05",
-        "such-mcq-06"
+        "such-pdf-001",
+        "such-mcq-08"
       ],
       "explanation": "本句的「such mistakes」指「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」。",
       "sentenceIndex": 3,
@@ -311,12 +296,9 @@ export default {
         "such mistakes"
       ],
       "optionReasons": {
-        "such-mcq-02": "本句指「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」。",
-        "such-mcq-01": "「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」是「such a/an + adjective + noun」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-02": "本句的「such mistakes」指「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-02"
     },
@@ -328,11 +310,8 @@ export default {
       "masked": "We had ____ during the trip.",
       "options": [
         "such-mcq-02",
-        "such-mcq-01",
-        "such-mcq-03",
-        "such-mcq-04",
-        "such-mcq-05",
-        "such-mcq-06"
+        "such-pdf-001",
+        "such-mcq-08"
       ],
       "explanation": "本句的「such good weather」指「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」。",
       "sentenceIndex": 4,
@@ -341,12 +320,9 @@ export default {
         "such good weather"
       ],
       "optionReasons": {
-        "such-mcq-02": "本句指「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」。",
-        "such-mcq-01": "「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」是「such a/an + adjective + noun」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-02": "本句的「such good weather」指「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-02"
     },
@@ -358,11 +334,9 @@ export default {
       "masked": "I have never seen ____ before.",
       "options": [
         "such-mcq-03",
-        "such-mcq-02",
+        "such-pdf-001",
         "such-mcq-04",
-        "such-mcq-01",
-        "such-mcq-05",
-        "such-mcq-06"
+        "such-mcq-01"
       ],
       "explanation": "本句的「such behaviour」指「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」。",
       "sentenceIndex": 5,
@@ -371,12 +345,10 @@ export default {
         "such behaviour"
       ],
       "optionReasons": {
-        "such-mcq-03": "本句指「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-01": "「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」是「such a/an + adjective + noun」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-03": "本句的「such behaviour」指「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-03"
     },
@@ -388,11 +360,9 @@ export default {
       "masked": "People in ____ often need support.",
       "options": [
         "such-mcq-03",
-        "such-mcq-02",
-        "such-mcq-04",
-        "such-mcq-01",
+        "such-pdf-001",
         "such-mcq-05",
-        "such-mcq-06"
+        "such-mcq-04"
       ],
       "explanation": "本句的「such situations」指「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」。",
       "sentenceIndex": 6,
@@ -401,12 +371,10 @@ export default {
         "such situations"
       ],
       "optionReasons": {
-        "such-mcq-03": "本句指「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-01": "「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」是「such a/an + adjective + noun」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。"
+        "such-mcq-03": "本句的「such situations」指「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-03"
     },
@@ -418,11 +386,9 @@ export default {
       "masked": "He enjoys traditional transport, ____ trams and ferries.",
       "options": [
         "such-mcq-04",
-        "such-mcq-03",
+        "such-pdf-001",
         "such-mcq-05",
-        "such-mcq-02",
-        "such-mcq-06",
-        "such-mcq-01"
+        "such-mcq-03"
       ],
       "explanation": "本句的「such as」指「用來列出某個較大類別中的具體例子；例如／諸如」。",
       "sentenceIndex": 7,
@@ -431,12 +397,10 @@ export default {
         "such as"
       ],
       "optionReasons": {
-        "such-mcq-04": "本句指「用來列出某個較大類別中的具體例子；例如／諸如」。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-01": "「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」是「such a/an + adjective + noun」的用法，與本句語境不同。"
+        "such-mcq-04": "本句的「such as」指「用來列出某個較大類別中的具體例子；例如／諸如」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-04"
     },
@@ -448,11 +412,9 @@ export default {
       "masked": "Creative activities, ____ writing and painting, can help people relax.",
       "options": [
         "such-mcq-04",
-        "such-mcq-03",
+        "such-pdf-001",
         "such-mcq-05",
-        "such-mcq-02",
-        "such-mcq-06",
-        "such-mcq-01"
+        "such-mcq-03"
       ],
       "explanation": "本句的「such as」指「用來列出某個較大類別中的具體例子；例如／諸如」。",
       "sentenceIndex": 8,
@@ -461,12 +423,10 @@ export default {
         "such as"
       ],
       "optionReasons": {
-        "such-mcq-04": "本句指「用來列出某個較大類別中的具體例子；例如／諸如」。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-01": "「強調某人或某物具有某種性質，而且程度相當高；如此……的／這麼……的」是「such a/an + adjective + noun」的用法，與本句語境不同。"
+        "such-mcq-04": "本句的「such as」指「用來列出某個較大類別中的具體例子；例如／諸如」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-04"
     },
@@ -480,9 +440,7 @@ export default {
         "such-mcq-05",
         "such-mcq-04",
         "such-mcq-06",
-        "such-mcq-03",
-        "such-mcq-07",
-        "such-mcq-02"
+        "such-pdf-001"
       ],
       "explanation": "本句的「such an interesting conversation that」指「某種程度或性質強烈到足以產生後面所述的結果」。",
       "sentenceIndex": 9,
@@ -491,12 +449,10 @@ export default {
         "such an interesting conversation that"
       ],
       "optionReasons": {
-        "such-mcq-05": "本句指「某種程度或性質強烈到足以產生後面所述的結果」。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-07": "「以剛才提到的身分／性質來說；或表示「嚴格來說」」是「as such」的用法，與本句語境不同。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。"
+        "such-mcq-05": "本句的「such an interesting conversation that」指「某種程度或性質強烈到足以產生後面所述的結果」。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-05"
     },
@@ -508,11 +464,9 @@ export default {
       "masked": "She spoke with ____ everyone listened.",
       "options": [
         "such-mcq-05",
-        "such-mcq-04",
+        "such-pdf-001",
         "such-mcq-06",
-        "such-mcq-03",
-        "such-mcq-07",
-        "such-mcq-02"
+        "such-mcq-04"
       ],
       "explanation": "本句的「such confidence that」指「某種程度或性質強烈到足以產生後面所述的結果」。",
       "sentenceIndex": 10,
@@ -521,12 +475,10 @@ export default {
         "such confidence that"
       ],
       "optionReasons": {
-        "such-mcq-05": "本句指「某種程度或性質強烈到足以產生後面所述的結果」。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。",
-        "such-mcq-07": "「以剛才提到的身分／性質來說；或表示「嚴格來說」」是「as such」的用法，與本句語境不同。",
-        "such-mcq-02": "「強調某類人、事物或情況具有明顯特質；屬於程度強調的同一核心概念」是「such + plural/uncountable noun」的用法，與本句語境不同。"
+        "such-mcq-05": "本句的「such confidence that」指「某種程度或性質強烈到足以產生後面所述的結果」。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-05"
     },
@@ -539,10 +491,8 @@ export default {
       "options": [
         "such-mcq-06",
         "such-mcq-05",
-        "such-mcq-07",
-        "such-mcq-04",
-        "such-mcq-08",
-        "such-mcq-03"
+        "such-pdf-001",
+        "such-mcq-04"
       ],
       "explanation": "本句的「such」指「代替前面已提到的那一類人、事物、身分或情況；較正式」。",
       "sentenceIndex": 11,
@@ -551,12 +501,10 @@ export default {
         "such"
       ],
       "optionReasons": {
-        "such-mcq-06": "本句指「代替前面已提到的那一類人、事物、身分或情況；較正式」。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-07": "「以剛才提到的身分／性質來說；或表示「嚴格來說」」是「as such」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-08": "「代替沒有具體說出的名字、人物、地方或細節；某某／某個」是「such and such」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
+        "such-mcq-06": "本句的「such」指「代替前面已提到的那一類人、事物、身分或情況；較正式」。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-06"
     },
@@ -568,11 +516,9 @@ export default {
       "masked": "The law applies only to companies registered as ____.",
       "options": [
         "such-mcq-06",
-        "such-mcq-05",
-        "such-mcq-07",
-        "such-mcq-04",
-        "such-mcq-08",
-        "such-mcq-03"
+        "such-mcq-01",
+        "such-pdf-001",
+        "such-mcq-04"
       ],
       "explanation": "本句的「such」指「代替前面已提到的那一類人、事物、身分或情況；較正式」。",
       "sentenceIndex": 12,
@@ -581,12 +527,10 @@ export default {
         "such"
       ],
       "optionReasons": {
-        "such-mcq-06": "本句指「代替前面已提到的那一類人、事物、身分或情況；較正式」。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-07": "「以剛才提到的身分／性質來說；或表示「嚴格來說」」是「as such」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-08": "「代替沒有具體說出的名字、人物、地方或細節；某某／某個」是「such and such」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
+        "such-mcq-06": "本句的「such」指「代替前面已提到的那一類人、事物、身分或情況；較正式」。",
+        "such-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-06"
     },
@@ -598,11 +542,8 @@ export default {
       "masked": "He is the team leader and, ____, is responsible for the final decision.",
       "options": [
         "such-mcq-07",
-        "such-mcq-06",
-        "such-mcq-08",
-        "such-mcq-05",
-        "such-mcq-04",
-        "such-mcq-03"
+        "such-mcq-02",
+        "such-mcq-08"
       ],
       "explanation": "本句的「as such」指「以剛才提到的身分／性質來說；或表示「嚴格來說」」。",
       "sentenceIndex": 13,
@@ -611,12 +552,9 @@ export default {
         "as such"
       ],
       "optionReasons": {
-        "such-mcq-07": "本句指「以剛才提到的身分／性質來說；或表示「嚴格來說」」。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-08": "「代替沒有具體說出的名字、人物、地方或細節；某某／某個」是「such and such」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
+        "such-mcq-07": "本句的「as such」指「以剛才提到的身分／性質來說；或表示「嚴格來說」」。",
+        "such-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-07"
     },
@@ -628,11 +566,9 @@ export default {
       "masked": "It isn’t a problem ____; it’s more of an inconvenience.",
       "options": [
         "such-pdf-001",
-        "such-mcq-06",
-        "such-mcq-08",
+        "such-mcq-03",
         "such-mcq-05",
-        "such-mcq-04",
-        "such-mcq-03"
+        "such-mcq-04"
       ],
       "explanation": "本句的「as such」指「就該詞最嚴格、最本身的意義而言」。",
       "sentenceIndex": 14,
@@ -641,12 +577,10 @@ export default {
         "as such"
       ],
       "optionReasons": {
-        "such-pdf-001": "本句指「就該詞最嚴格、最本身的意義而言」。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-08": "「代替沒有具體說出的名字、人物、地方或細節；某某／某個」是「such and such」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
+        "such-pdf-001": "本句的「as such」指「就該詞最嚴格、最本身的意義而言」。",
+        "such-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-pdf-001"
     },
@@ -658,11 +592,8 @@ export default {
       "masked": "He said he had to meet ____ a person.",
       "options": [
         "such-mcq-08",
-        "such-mcq-07",
-        "such-mcq-06",
         "such-mcq-05",
-        "such-mcq-04",
-        "such-mcq-03"
+        "such-pdf-001"
       ],
       "explanation": "本句的「such and such」指「代替沒有具體說出的名字、人物、地方或細節；某某／某個」。",
       "sentenceIndex": 15,
@@ -671,12 +602,9 @@ export default {
         "such and such"
       ],
       "optionReasons": {
-        "such-mcq-08": "本句指「代替沒有具體說出的名字、人物、地方或細節；某某／某個」。",
-        "such-mcq-07": "「以剛才提到的身分／性質來說；或表示「嚴格來說」」是「as such」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
+        "such-mcq-08": "本句的「such and such」指「代替沒有具體說出的名字、人物、地方或細節；某某／某個」。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-08"
     },
@@ -688,11 +616,8 @@ export default {
       "masked": "They told us to go to ____ an address.",
       "options": [
         "such-mcq-08",
-        "such-mcq-07",
-        "such-mcq-06",
         "such-mcq-05",
-        "such-mcq-04",
-        "such-mcq-03"
+        "such-pdf-001"
       ],
       "explanation": "本句的「such and such」指「代替沒有具體說出的名字、人物、地方或細節；某某／某個」。",
       "sentenceIndex": 16,
@@ -701,12 +626,9 @@ export default {
         "such and such"
       ],
       "optionReasons": {
-        "such-mcq-08": "本句指「代替沒有具體說出的名字、人物、地方或細節；某某／某個」。",
-        "such-mcq-07": "「以剛才提到的身分／性質來說；或表示「嚴格來說」」是「as such」的用法，與本句語境不同。",
-        "such-mcq-06": "「代替前面已提到的那一類人、事物、身分或情況；較正式」是「such — pronoun-like」的用法，與本句語境不同。",
-        "such-mcq-05": "「某種程度或性質強烈到足以產生後面所述的結果」是「such...that...」的用法，與本句語境不同。",
-        "such-mcq-04": "「用來列出某個較大類別中的具體例子；例如／諸如」是「such as」的用法，與本句語境不同。",
-        "such-mcq-03": "「指屬於剛才提到、描述或理解的那種類型；這樣的／此類的」是「such + noun — type/kind」的用法，與本句語境不同。"
+        "such-mcq-08": "本句的「such and such」指「代替沒有具體說出的名字、人物、地方或細節；某某／某個」。",
+        "such-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "such-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "such-mcq-08"
     }
@@ -718,5 +640,7 @@ export default {
     "sha256": "c312747d979cff42e7169177abc9e99d1b6c4da550bc4577e3471659b41414e1",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

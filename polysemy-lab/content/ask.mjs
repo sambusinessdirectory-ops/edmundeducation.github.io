@@ -547,11 +547,9 @@ export default {
       "masked": "He also ____ endless questions about how things work.",
       "options": [
         "ask-mcq-01",
-        "ask-mcq-02",
-        "ask-mcq-03",
-        "ask-mcq-04",
-        "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-09",
+        "ask-mcq-15",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asks」指「為獲得資訊、答案或解釋而提出問題」。",
       "sentenceIndex": 0,
@@ -560,12 +558,10 @@ export default {
         "asks"
       ],
       "optionReasons": {
-        "ask-mcq-01": "本句指「為獲得資訊、答案或解釋而提出問題」。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-01": "本句的「asks」指「為獲得資訊、答案或解釋而提出問題」。",
+        "ask-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-01"
     },
@@ -577,11 +573,9 @@ export default {
       "masked": "She ____ me a difficult question.",
       "options": [
         "ask-mcq-01",
-        "ask-mcq-02",
-        "ask-mcq-03",
-        "ask-mcq-04",
-        "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-15",
+        "ask-mcq-23",
+        "ask-mcq-18"
       ],
       "explanation": "本句的「asked」指「為獲得資訊、答案或解釋而提出問題」。",
       "sentenceIndex": 1,
@@ -590,12 +584,10 @@ export default {
         "asked"
       ],
       "optionReasons": {
-        "ask-mcq-01": "本句指「為獲得資訊、答案或解釋而提出問題」。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-01": "本句的「asked」指「為獲得資訊、答案或解釋而提出問題」。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-01"
     },
@@ -607,11 +599,9 @@ export default {
       "masked": "The child kept ____ questions.",
       "options": [
         "ask-mcq-01",
-        "ask-mcq-02",
-        "ask-mcq-03",
-        "ask-mcq-04",
-        "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-13",
+        "ask-mcq-15",
+        "ask-mcq-22"
       ],
       "explanation": "本句的「asking」指「為獲得資訊、答案或解釋而提出問題」。",
       "sentenceIndex": 2,
@@ -620,12 +610,10 @@ export default {
         "asking"
       ],
       "optionReasons": {
-        "ask-mcq-01": "本句指「為獲得資訊、答案或解釋而提出問題」。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-01": "本句的「asking」指「為獲得資訊、答案或解釋而提出問題」。",
+        "ask-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-01"
     },
@@ -637,11 +625,9 @@ export default {
       "masked": "I ____ his name.",
       "options": [
         "ask-mcq-02",
-        "ask-mcq-01",
-        "ask-mcq-03",
-        "ask-mcq-04",
-        "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-24",
+        "ask-mcq-16",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked him」指「向某人提出某個問題」。",
       "sentenceIndex": 3,
@@ -650,12 +636,10 @@ export default {
         "asked him"
       ],
       "optionReasons": {
-        "ask-mcq-02": "本句指「向某人提出某個問題」。",
-        "ask-mcq-01": "「為獲得資訊、答案或解釋而提出問題」是「ask a question」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-02": "本句的「asked him」指「向某人提出某個問題」。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-02"
     },
@@ -667,11 +651,9 @@ export default {
       "masked": "She ____ a question.",
       "options": [
         "ask-mcq-02",
-        "ask-mcq-01",
-        "ask-mcq-03",
-        "ask-mcq-04",
-        "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-24",
+        "ask-mcq-23",
+        "ask-mcq-16"
       ],
       "explanation": "本句的「asked the teacher」指「向某人提出某個問題」。",
       "sentenceIndex": 4,
@@ -680,12 +662,10 @@ export default {
         "asked the teacher"
       ],
       "optionReasons": {
-        "ask-mcq-02": "本句指「向某人提出某個問題」。",
-        "ask-mcq-01": "「為獲得資訊、答案或解釋而提出問題」是「ask a question」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-02": "本句的「asked the teacher」指「向某人提出某個問題」。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-02"
     },
@@ -697,11 +677,9 @@ export default {
       "masked": "He ____ the new project.",
       "options": [
         "ask-mcq-03",
-        "ask-mcq-02",
-        "ask-mcq-04",
-        "ask-mcq-01",
-        "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-23",
+        "ask-mcq-11",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked about」指「詢問與某事有關的資訊」。",
       "sentenceIndex": 5,
@@ -710,12 +688,10 @@ export default {
         "asked about"
       ],
       "optionReasons": {
-        "ask-mcq-03": "本句指「詢問與某事有關的資訊」。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-01": "「為獲得資訊、答案或解釋而提出問題」是「ask a question」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-03": "本句的「asked about」指「詢問與某事有關的資訊」。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-03"
     },
@@ -727,11 +703,9 @@ export default {
       "masked": "She ____ my family.",
       "options": [
         "ask-mcq-03",
-        "ask-mcq-02",
-        "ask-mcq-04",
-        "ask-mcq-01",
         "ask-mcq-05",
-        "ask-mcq-06"
+        "ask-mcq-20",
+        "ask-mcq-16"
       ],
       "explanation": "本句的「asked me about」指「詢問與某事有關的資訊」。",
       "sentenceIndex": 6,
@@ -740,12 +714,10 @@ export default {
         "asked me about"
       ],
       "optionReasons": {
-        "ask-mcq-03": "本句指「詢問與某事有關的資訊」。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-01": "「為獲得資訊、答案或解釋而提出問題」是「ask a question」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-03": "本句的「asked me about」指「詢問與某事有關的資訊」。",
+        "ask-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-03"
     },
@@ -757,11 +729,9 @@ export default {
       "masked": "She ____ a glass of water.",
       "options": [
         "ask-mcq-16",
-        "ask-mcq-15",
-        "ask-mcq-17",
-        "ask-mcq-14",
-        "ask-mcq-18",
-        "ask-mcq-13"
+        "ask-mcq-03",
+        "ask-mcq-22",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
       "sentenceIndex": 7,
@@ -770,12 +740,10 @@ export default {
         "asked for"
       ],
       "optionReasons": {
-        "ask-mcq-16": "本句指「明確要求獲得某物／待遇／行動」。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。"
+        "ask-mcq-16": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
+        "ask-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-16"
     },
@@ -787,11 +755,9 @@ export default {
       "masked": "He ____ more time.",
       "options": [
         "ask-mcq-16",
+        "ask-mcq-02",
         "ask-mcq-15",
-        "ask-mcq-17",
-        "ask-mcq-14",
-        "ask-mcq-18",
-        "ask-mcq-13"
+        "ask-mcq-19"
       ],
       "explanation": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
       "sentenceIndex": 8,
@@ -800,12 +766,10 @@ export default {
         "asked for"
       ],
       "optionReasons": {
-        "ask-mcq-16": "本句指「明確要求獲得某物／待遇／行動」。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。"
+        "ask-mcq-16": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
+        "ask-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-16"
     },
@@ -817,11 +781,9 @@ export default {
       "masked": "Don’t be afraid to ____.",
       "options": [
         "ask-mcq-05",
-        "ask-mcq-04",
-        "ask-mcq-06",
-        "ask-mcq-03",
-        "ask-mcq-07",
-        "ask-mcq-02"
+        "ask-mcq-24",
+        "ask-mcq-19",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「ask for help」指「主動尋求別人的協助」。",
       "sentenceIndex": 9,
@@ -830,12 +792,10 @@ export default {
         "ask for help"
       ],
       "optionReasons": {
-        "ask-mcq-05": "本句指「主動尋求別人的協助」。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。"
+        "ask-mcq-05": "本句的「ask for help」指「主動尋求別人的協助」。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-05"
     },
@@ -847,11 +807,9 @@ export default {
       "masked": "She ____ with her homework.",
       "options": [
         "ask-mcq-05",
-        "ask-mcq-04",
-        "ask-mcq-06",
-        "ask-mcq-03",
-        "ask-mcq-07",
-        "ask-mcq-02"
+        "ask-mcq-14",
+        "ask-mcq-22",
+        "ask-mcq-19"
       ],
       "explanation": "本句的「asked for help」指「主動尋求別人的協助」。",
       "sentenceIndex": 10,
@@ -860,12 +818,10 @@ export default {
         "asked for help"
       ],
       "optionReasons": {
-        "ask-mcq-05": "本句指「主動尋求別人的協助」。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-02": "「向某人提出某個問題」是「ask someone something」的用法，與本句語境不同。"
+        "ask-mcq-05": "本句的「asked for help」指「主動尋求別人的協助」。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-05"
     },
@@ -877,11 +833,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "ask-mcq-06",
-        "ask-mcq-05",
-        "ask-mcq-07",
-        "ask-mcq-04",
-        "ask-mcq-08",
-        "ask-mcq-03"
+        "ask-mcq-03",
+        "ask-mcq-24",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「asked him to wait」指「要求／請某人做某事」。",
       "sentenceIndex": 11,
@@ -890,12 +844,10 @@ export default {
         "asked him to wait"
       ],
       "optionReasons": {
-        "ask-mcq-06": "本句指「要求／請某人做某事」。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。"
+        "ask-mcq-06": "本句的「asked him to wait」指「要求／請某人做某事」。",
+        "ask-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-06"
     },
@@ -907,11 +859,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "ask-mcq-06",
-        "ask-mcq-05",
-        "ask-mcq-07",
-        "ask-mcq-04",
-        "ask-mcq-08",
-        "ask-mcq-03"
+        "ask-mcq-03",
+        "ask-mcq-20",
+        "ask-mcq-24"
       ],
       "explanation": "本句的「asked me to help」指「要求／請某人做某事」。",
       "sentenceIndex": 12,
@@ -920,12 +870,10 @@ export default {
         "asked me to help"
       ],
       "optionReasons": {
-        "ask-mcq-06": "本句指「要求／請某人做某事」。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-03": "「詢問與某事有關的資訊」是「ask about」的用法，與本句語境不同。"
+        "ask-mcq-06": "本句的「asked me to help」指「要求／請某人做某事」。",
+        "ask-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-06"
     },
@@ -937,11 +885,9 @@ export default {
       "masked": "I ____ she was ready.",
       "options": [
         "ask-mcq-07",
-        "ask-mcq-06",
-        "ask-mcq-08",
-        "ask-mcq-05",
-        "ask-mcq-09",
-        "ask-mcq-04"
+        "ask-mcq-12",
+        "ask-mcq-15",
+        "ask-mcq-22"
       ],
       "explanation": "本句的「asked her if」指「詢問某件事情是否成立／可行」。",
       "sentenceIndex": 13,
@@ -950,12 +896,10 @@ export default {
         "asked her if"
       ],
       "optionReasons": {
-        "ask-mcq-07": "本句指「詢問某件事情是否成立／可行」。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。"
+        "ask-mcq-07": "本句的「asked her if」指「詢問某件事情是否成立／可行」。",
+        "ask-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-07"
     },
@@ -967,11 +911,9 @@ export default {
       "masked": "He ____ we could come.",
       "options": [
         "ask-mcq-07",
-        "ask-mcq-06",
-        "ask-mcq-08",
-        "ask-mcq-05",
-        "ask-mcq-09",
-        "ask-mcq-04"
+        "ask-mcq-18",
+        "ask-mcq-20",
+        "ask-mcq-24"
       ],
       "explanation": "本句的「asked whether」指「詢問某件事情是否成立／可行」。",
       "sentenceIndex": 14,
@@ -980,12 +922,10 @@ export default {
         "asked whether"
       ],
       "optionReasons": {
-        "ask-mcq-07": "本句指「詢問某件事情是否成立／可行」。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-04": "「要求／索取某物、服務、待遇或行動」是「ask for」的用法，與本句語境不同。"
+        "ask-mcq-07": "本句的「asked whether」指「詢問某件事情是否成立／可行」。",
+        "ask-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-07"
     },
@@ -997,11 +937,9 @@ export default {
       "masked": "She ____ he was late.",
       "options": [
         "ask-mcq-08",
-        "ask-mcq-07",
-        "ask-mcq-09",
-        "ask-mcq-06",
-        "ask-mcq-10",
-        "ask-mcq-05"
+        "ask-mcq-23",
+        "ask-mcq-15",
+        "ask-mcq-09"
       ],
       "explanation": "本句的「asked why」指「詢問特定資訊」。",
       "sentenceIndex": 15,
@@ -1010,12 +948,10 @@ export default {
         "asked why"
       ],
       "optionReasons": {
-        "ask-mcq-08": "本句指「詢問特定資訊」。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。"
+        "ask-mcq-08": "本句的「asked why」指「詢問特定資訊」。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-08"
     },
@@ -1027,11 +963,9 @@ export default {
       "masked": "He ____ the machine worked.",
       "options": [
         "ask-mcq-08",
-        "ask-mcq-07",
-        "ask-mcq-09",
-        "ask-mcq-06",
-        "ask-mcq-10",
-        "ask-mcq-05"
+        "ask-mcq-20",
+        "ask-mcq-15",
+        "ask-mcq-22"
       ],
       "explanation": "本句的「asked how」指「詢問特定資訊」。",
       "sentenceIndex": 16,
@@ -1040,12 +974,10 @@ export default {
         "asked how"
       ],
       "optionReasons": {
-        "ask-mcq-08": "本句指「詢問特定資訊」。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-05": "「主動尋求別人的協助」是「ask for help」的用法，與本句語境不同。"
+        "ask-mcq-08": "本句的「asked how」指「詢問特定資訊」。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-08"
     },
@@ -1057,11 +989,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "ask-mcq-09",
-        "ask-mcq-08",
-        "ask-mcq-10",
-        "ask-mcq-07",
-        "ask-mcq-11",
-        "ask-mcq-06"
+        "ask-mcq-03",
+        "ask-mcq-16",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked me to dinner」指「邀請某人吃飯／赴宴」。",
       "sentenceIndex": 17,
@@ -1070,12 +1000,10 @@ export default {
         "asked me to dinner"
       ],
       "optionReasons": {
-        "ask-mcq-09": "本句指「邀請某人吃飯／赴宴」。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-09": "本句的「asked me to dinner」指「邀請某人吃飯／赴宴」。",
+        "ask-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-09"
     },
@@ -1087,11 +1015,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "ask-mcq-09",
-        "ask-mcq-08",
-        "ask-mcq-10",
-        "ask-mcq-07",
-        "ask-mcq-11",
-        "ask-mcq-06"
+        "ask-mcq-14",
+        "ask-mcq-16",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked us to their wedding」指「邀請某人吃飯／赴宴」。",
       "sentenceIndex": 18,
@@ -1100,12 +1026,10 @@ export default {
         "asked us to their wedding"
       ],
       "optionReasons": {
-        "ask-mcq-09": "本句指「邀請某人吃飯／赴宴」。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-06": "「要求／請某人做某事」是「ask someone to do」的用法，與本句語境不同。"
+        "ask-mcq-09": "本句的「asked us to their wedding」指「邀請某人吃飯／赴宴」。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-09"
     },
@@ -1117,11 +1041,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "ask-mcq-10",
-        "ask-mcq-09",
+        "ask-mcq-23",
         "ask-mcq-11",
-        "ask-mcq-08",
-        "ask-mcq-12",
-        "ask-mcq-07"
+        "ask-mcq-22"
       ],
       "explanation": "本句的「asked her out」指「約某人出去約會」。",
       "sentenceIndex": 19,
@@ -1130,12 +1052,10 @@ export default {
         "asked her out"
       ],
       "optionReasons": {
-        "ask-mcq-10": "本句指「約某人出去約會」。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。"
+        "ask-mcq-10": "本句的「asked her out」指「約某人出去約會」。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-10"
     },
@@ -1147,11 +1067,9 @@ export default {
       "masked": "She finally ____.",
       "options": [
         "ask-mcq-10",
-        "ask-mcq-09",
         "ask-mcq-11",
-        "ask-mcq-08",
-        "ask-mcq-12",
-        "ask-mcq-07"
+        "ask-mcq-14",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked him out」指「約某人出去約會」。",
       "sentenceIndex": 20,
@@ -1160,12 +1078,10 @@ export default {
         "asked him out"
       ],
       "optionReasons": {
-        "ask-mcq-10": "本句指「約某人出去約會」。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-07": "「詢問某件事情是否成立／可行」是「ask if/whether」的用法，與本句語境不同。"
+        "ask-mcq-10": "本句的「asked him out」指「約某人出去約會」。",
+        "ask-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-10"
     },
@@ -1177,11 +1093,9 @@ export default {
       "masked": "You should ____ first.",
       "options": [
         "ask-mcq-11",
-        "ask-mcq-10",
-        "ask-mcq-12",
-        "ask-mcq-09",
-        "ask-mcq-13",
-        "ask-mcq-08"
+        "ask-mcq-23",
+        "ask-mcq-14",
+        "ask-mcq-02"
       ],
       "explanation": "本句的「ask for permission」指「請求許可」。",
       "sentenceIndex": 21,
@@ -1190,12 +1104,10 @@ export default {
         "ask for permission"
       ],
       "optionReasons": {
-        "ask-mcq-11": "本句指「請求許可」。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。"
+        "ask-mcq-11": "本句的「ask for permission」指「請求許可」。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-11"
     },
@@ -1207,11 +1119,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "ask-mcq-11",
-        "ask-mcq-10",
-        "ask-mcq-12",
-        "ask-mcq-09",
-        "ask-mcq-13",
-        "ask-mcq-08"
+        "ask-mcq-22",
+        "ask-mcq-07",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「asked his parents for permission」指「請求許可」。",
       "sentenceIndex": 22,
@@ -1220,12 +1130,10 @@ export default {
         "asked his parents for permission"
       ],
       "optionReasons": {
-        "ask-mcq-11": "本句指「請求許可」。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-08": "「詢問特定資訊」是「ask why/how/when/where」的用法，與本句語境不同。"
+        "ask-mcq-11": "本句的「asked his parents for permission」指「請求許可」。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-11"
     },
@@ -1237,11 +1145,9 @@ export default {
       "masked": "Can I ____?",
       "options": [
         "ask-mcq-12",
-        "ask-mcq-11",
-        "ask-mcq-13",
-        "ask-mcq-10",
-        "ask-mcq-14",
-        "ask-mcq-09"
+        "ask-mcq-20",
+        "ask-mcq-21",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「ask you a favour」指「請某人幫一個忙」。",
       "sentenceIndex": 23,
@@ -1250,12 +1156,10 @@ export default {
         "ask you a favour"
       ],
       "optionReasons": {
-        "ask-mcq-12": "本句指「請某人幫一個忙」。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。"
+        "ask-mcq-12": "本句的「ask you a favour」指「請某人幫一個忙」。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-12"
     },
@@ -1267,11 +1171,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "ask-mcq-12",
-        "ask-mcq-11",
-        "ask-mcq-13",
-        "ask-mcq-10",
-        "ask-mcq-14",
-        "ask-mcq-09"
+        "ask-mcq-03",
+        "ask-mcq-24",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked me a favour」指「請某人幫一個忙」。",
       "sentenceIndex": 24,
@@ -1280,12 +1182,10 @@ export default {
         "asked me a favour"
       ],
       "optionReasons": {
-        "ask-mcq-12": "本句指「請某人幫一個忙」。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-09": "「邀請某人吃飯／赴宴」是「ask someone to dinner」的用法，與本句語境不同。"
+        "ask-mcq-12": "本句的「asked me a favour」指「請某人幫一個忙」。",
+        "ask-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-12"
     },
@@ -1297,11 +1197,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "ask-mcq-13",
-        "ask-mcq-12",
-        "ask-mcq-14",
-        "ask-mcq-11",
-        "ask-mcq-15",
-        "ask-mcq-10"
+        "ask-mcq-24",
+        "ask-mcq-21",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked her opinion」指「徵求某人的意見」。",
       "sentenceIndex": 25,
@@ -1310,12 +1208,10 @@ export default {
         "asked her opinion"
       ],
       "optionReasons": {
-        "ask-mcq-13": "本句指「徵求某人的意見」。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。"
+        "ask-mcq-13": "本句的「asked her opinion」指「徵求某人的意見」。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-13"
     },
@@ -1327,11 +1223,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "ask-mcq-13",
-        "ask-mcq-12",
-        "ask-mcq-14",
-        "ask-mcq-11",
-        "ask-mcq-15",
-        "ask-mcq-10"
+        "ask-mcq-07",
+        "ask-mcq-01",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked me what I thought」指「徵求某人的意見」。",
       "sentenceIndex": 26,
@@ -1340,12 +1234,10 @@ export default {
         "asked me what I thought"
       ],
       "optionReasons": {
-        "ask-mcq-13": "本句指「徵求某人的意見」。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-10": "「約某人出去約會」是「ask someone out」的用法，與本句語境不同。"
+        "ask-mcq-13": "本句的「asked me what I thought」指「徵求某人的意見」。",
+        "ask-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-13"
     },
@@ -1357,11 +1249,9 @@ export default {
       "masked": "I ____ it cost.",
       "options": [
         "ask-mcq-14",
-        "ask-mcq-13",
-        "ask-mcq-15",
         "ask-mcq-12",
-        "ask-mcq-16",
-        "ask-mcq-11"
+        "ask-mcq-22",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked how much」指「詢問價格」。",
       "sentenceIndex": 27,
@@ -1370,12 +1260,10 @@ export default {
         "asked how much"
       ],
       "optionReasons": {
-        "ask-mcq-14": "本句指「詢問價格」。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。"
+        "ask-mcq-14": "本句的「asked how much」指「詢問價格」。",
+        "ask-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-14"
     },
@@ -1387,11 +1275,9 @@ export default {
       "masked": "She ____ before buying it.",
       "options": [
         "ask-mcq-14",
-        "ask-mcq-13",
-        "ask-mcq-15",
-        "ask-mcq-12",
-        "ask-mcq-16",
-        "ask-mcq-11"
+        "ask-mcq-17",
+        "ask-mcq-20",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked the price」指「詢問價格」。",
       "sentenceIndex": 28,
@@ -1400,12 +1286,10 @@ export default {
         "asked the price"
       ],
       "optionReasons": {
-        "ask-mcq-14": "本句指「詢問價格」。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-11": "「請求許可」是「ask for permission」的用法，與本句語境不同。"
+        "ask-mcq-14": "本句的「asked the price」指「詢問價格」。",
+        "ask-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-14"
     },
@@ -1417,11 +1301,9 @@ export default {
       "masked": "They are ____ £500 for the table.",
       "options": [
         "ask-mcq-15",
-        "ask-mcq-14",
-        "ask-mcq-16",
-        "ask-mcq-13",
-        "ask-mcq-17",
-        "ask-mcq-12"
+        "ask-mcq-12",
+        "ask-mcq-23",
+        "ask-mcq-21"
       ],
       "explanation": "本句的「asking」指「開價／索價」。",
       "sentenceIndex": 29,
@@ -1430,12 +1312,10 @@ export default {
         "asking"
       ],
       "optionReasons": {
-        "ask-mcq-15": "本句指「開價／索價」。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。"
+        "ask-mcq-15": "本句的「asking」指「開價／索價」。",
+        "ask-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-15"
     },
@@ -1447,11 +1327,9 @@ export default {
       "masked": "How much are they ____ the car?",
       "options": [
         "ask-mcq-15",
-        "ask-mcq-14",
-        "ask-mcq-16",
-        "ask-mcq-13",
-        "ask-mcq-17",
-        "ask-mcq-12"
+        "ask-mcq-12",
+        "ask-mcq-19",
+        "ask-mcq-08"
       ],
       "explanation": "本句的「asking for」指「開價／索價」。",
       "sentenceIndex": 30,
@@ -1460,12 +1338,10 @@ export default {
         "asking for"
       ],
       "optionReasons": {
-        "ask-mcq-15": "本句指「開價／索價」。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-12": "「請某人幫一個忙」是「ask a favour」的用法，與本句語境不同。"
+        "ask-mcq-15": "本句的「asking for」指「開價／索價」。",
+        "ask-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-15"
     },
@@ -1477,11 +1353,9 @@ export default {
       "masked": "The workers ____ better conditions.",
       "options": [
         "ask-mcq-16",
-        "ask-mcq-15",
-        "ask-mcq-17",
-        "ask-mcq-14",
-        "ask-mcq-18",
-        "ask-mcq-13"
+        "ask-mcq-08",
+        "ask-mcq-24",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
       "sentenceIndex": 31,
@@ -1490,12 +1364,10 @@ export default {
         "asked for"
       ],
       "optionReasons": {
-        "ask-mcq-16": "本句指「明確要求獲得某物／待遇／行動」。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。"
+        "ask-mcq-16": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-16"
     },
@@ -1507,11 +1379,9 @@ export default {
       "masked": "The group ____ an explanation.",
       "options": [
         "ask-mcq-16",
-        "ask-mcq-15",
-        "ask-mcq-17",
         "ask-mcq-14",
-        "ask-mcq-18",
-        "ask-mcq-13"
+        "ask-mcq-09",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
       "sentenceIndex": 32,
@@ -1520,12 +1390,10 @@ export default {
         "asked for"
       ],
       "optionReasons": {
-        "ask-mcq-16": "本句指「明確要求獲得某物／待遇／行動」。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-13": "「徵求某人的意見」是「ask someone’s opinion」的用法，與本句語境不同。"
+        "ask-mcq-16": "本句的「asked for」指「明確要求獲得某物／待遇／行動」。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-16"
     },
@@ -1537,9 +1405,7 @@ export default {
       "masked": "The teacher ____ Leo to answer.",
       "options": [
         "ask-mcq-17",
-        "ask-mcq-16",
-        "ask-mcq-18",
-        "ask-mcq-15",
+        "ask-mcq-22",
         "ask-mcq-19",
         "ask-mcq-14"
       ],
@@ -1550,12 +1416,10 @@ export default {
         "asked"
       ],
       "optionReasons": {
-        "ask-mcq-17": "本句指「請／要求某人回答或發言」。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。"
+        "ask-mcq-17": "本句的「asked」指「請／要求某人回答或發言」。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-17"
     },
@@ -1567,11 +1431,9 @@ export default {
       "masked": "She ____ to explain his idea.",
       "options": [
         "ask-mcq-17",
-        "ask-mcq-16",
-        "ask-mcq-18",
-        "ask-mcq-15",
         "ask-mcq-19",
-        "ask-mcq-14"
+        "ask-mcq-14",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked him」指「請／要求某人回答或發言」。",
       "sentenceIndex": 34,
@@ -1580,12 +1442,10 @@ export default {
         "asked him"
       ],
       "optionReasons": {
-        "ask-mcq-17": "本句指「請／要求某人回答或發言」。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-14": "「詢問價格」是「ask the price」的用法，與本句語境不同。"
+        "ask-mcq-17": "本句的「asked him」指「請／要求某人回答或發言」。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-17"
     },
@@ -1597,11 +1457,9 @@ export default {
       "masked": "She ____ her grandmother for advice.",
       "options": [
         "ask-mcq-18",
-        "ask-mcq-17",
-        "ask-mcq-19",
-        "ask-mcq-16",
-        "ask-mcq-20",
-        "ask-mcq-15"
+        "ask-mcq-01",
+        "ask-mcq-14",
+        "ask-mcq-19"
       ],
       "explanation": "本句的「asked」指「向某人請教／尋求建議」。",
       "sentenceIndex": 35,
@@ -1610,12 +1468,10 @@ export default {
         "asked"
       ],
       "optionReasons": {
-        "ask-mcq-18": "本句指「向某人請教／尋求建議」。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。"
+        "ask-mcq-18": "本句的「asked」指「向某人請教／尋求建議」。",
+        "ask-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-18"
     },
@@ -1627,11 +1483,9 @@ export default {
       "masked": "I ____ my teacher what I should do.",
       "options": [
         "ask-mcq-18",
-        "ask-mcq-17",
-        "ask-mcq-19",
-        "ask-mcq-16",
-        "ask-mcq-20",
-        "ask-mcq-15"
+        "ask-mcq-21",
+        "ask-mcq-22",
+        "ask-mcq-23"
       ],
       "explanation": "本句的「asked」指「向某人請教／尋求建議」。",
       "sentenceIndex": 36,
@@ -1640,12 +1494,10 @@ export default {
         "asked"
       ],
       "optionReasons": {
-        "ask-mcq-18": "本句指「向某人請教／尋求建議」。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-15": "「開價／索價」是「ask a price / ask for a price」的用法，與本句語境不同。"
+        "ask-mcq-18": "本句的「asked」指「向某人請教／尋求建議」。",
+        "ask-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-18"
     },
@@ -1657,11 +1509,9 @@ export default {
       "masked": "I ____ whether I had made the right choice.",
       "options": [
         "ask-mcq-19",
-        "ask-mcq-18",
-        "ask-mcq-20",
-        "ask-mcq-17",
-        "ask-mcq-21",
-        "ask-mcq-16"
+        "ask-mcq-16",
+        "ask-mcq-10",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked myself」指「自問；在心中思考」。",
       "sentenceIndex": 37,
@@ -1670,12 +1520,10 @@ export default {
         "asked myself"
       ],
       "optionReasons": {
-        "ask-mcq-19": "本句指「自問；在心中思考」。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。"
+        "ask-mcq-19": "本句的「asked myself」指「自問；在心中思考」。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-19"
     },
@@ -1687,11 +1535,9 @@ export default {
       "masked": "She ____ why she felt so nervous.",
       "options": [
         "ask-mcq-19",
-        "ask-mcq-18",
-        "ask-mcq-20",
         "ask-mcq-17",
-        "ask-mcq-21",
-        "ask-mcq-16"
+        "ask-mcq-15",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asked herself」指「自問；在心中思考」。",
       "sentenceIndex": 38,
@@ -1700,12 +1546,10 @@ export default {
         "asked herself"
       ],
       "optionReasons": {
-        "ask-mcq-19": "本句指「自問；在心中思考」。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-16": "「明確要求獲得某物／待遇／行動」是「ask for something」的用法，與本句語境不同。"
+        "ask-mcq-19": "本句的「asked herself」指「自問；在心中思考」。",
+        "ask-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-19"
     },
@@ -1717,11 +1561,9 @@ export default {
       "masked": "I’ll ____ and see if anyone knows.",
       "options": [
         "ask-mcq-20",
-        "ask-mcq-19",
-        "ask-mcq-21",
-        "ask-mcq-18",
-        "ask-mcq-22",
-        "ask-mcq-17"
+        "ask-mcq-11",
+        "ask-mcq-10",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「ask around」指「向不同的人四處打聽」。",
       "sentenceIndex": 39,
@@ -1730,12 +1572,10 @@ export default {
         "ask around"
       ],
       "optionReasons": {
-        "ask-mcq-20": "本句指「向不同的人四處打聽」。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。"
+        "ask-mcq-20": "本句的「ask around」指「向不同的人四處打聽」。",
+        "ask-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-20"
     },
@@ -1747,11 +1587,9 @@ export default {
       "masked": "She ____ about the best restaurant.",
       "options": [
         "ask-mcq-20",
-        "ask-mcq-19",
-        "ask-mcq-21",
-        "ask-mcq-18",
-        "ask-mcq-22",
-        "ask-mcq-17"
+        "ask-mcq-11",
+        "ask-mcq-08",
+        "ask-mcq-24"
       ],
       "explanation": "本句的「asked around」指「向不同的人四處打聽」。",
       "sentenceIndex": 40,
@@ -1760,12 +1598,10 @@ export default {
         "asked around"
       ],
       "optionReasons": {
-        "ask-mcq-20": "本句指「向不同的人四處打聽」。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-17": "「請／要求某人回答或發言」是「ask someone to answer」的用法，與本句語境不同。"
+        "ask-mcq-20": "本句的「asked around」指「向不同的人四處打聽」。",
+        "ask-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-20"
     },
@@ -1777,11 +1613,9 @@ export default {
       "masked": "He answered, then ____, ‘Why?’",
       "options": [
         "ask-mcq-21",
-        "ask-mcq-20",
+        "ask-mcq-09",
         "ask-mcq-22",
-        "ask-mcq-19",
-        "ask-mcq-23",
-        "ask-mcq-18"
+        "ask-mcq-16"
       ],
       "explanation": "本句的「asked back」指「反問」。",
       "sentenceIndex": 41,
@@ -1790,12 +1624,10 @@ export default {
         "asked back"
       ],
       "optionReasons": {
-        "ask-mcq-21": "本句指「反問」。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-23": "「依我看；以我的意見」是「if you ask me」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。"
+        "ask-mcq-21": "本句的「asked back」指「反問」。",
+        "ask-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-21"
     },
@@ -1808,10 +1640,8 @@ export default {
       "options": [
         "ask-mcq-21",
         "ask-mcq-20",
-        "ask-mcq-22",
-        "ask-mcq-19",
-        "ask-mcq-23",
-        "ask-mcq-18"
+        "ask-mcq-15",
+        "ask-mcq-24"
       ],
       "explanation": "本句的「asked back」指「反問」。",
       "sentenceIndex": 42,
@@ -1820,12 +1650,10 @@ export default {
         "asked back"
       ],
       "optionReasons": {
-        "ask-mcq-21": "本句指「反問」。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。",
-        "ask-mcq-23": "「依我看；以我的意見」是「if you ask me」的用法，與本句語境不同。",
-        "ask-mcq-18": "「向某人請教／尋求建議」是「ask for advice」的用法，與本句語境不同。"
+        "ask-mcq-21": "本句的「asked back」指「反問」。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-21"
     },
@@ -1837,11 +1665,9 @@ export default {
       "masked": "You’re ____ if you ignore the warning.",
       "options": [
         "ask-mcq-22",
-        "ask-mcq-21",
-        "ask-mcq-23",
-        "ask-mcq-20",
-        "ask-mcq-24",
-        "ask-mcq-19"
+        "ask-mcq-08",
+        "ask-mcq-13",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「asking for trouble」指「做某事而自找麻煩」。",
       "sentenceIndex": 43,
@@ -1850,12 +1676,10 @@ export default {
         "asking for trouble"
       ],
       "optionReasons": {
-        "ask-mcq-22": "本句指「做某事而自找麻煩」。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-23": "「依我看；以我的意見」是「if you ask me」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-24": "「自找麻煩／自找惡果」是「ask for it」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。"
+        "ask-mcq-22": "本句的「asking for trouble」指「做某事而自找麻煩」。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-22"
     },
@@ -1867,11 +1691,9 @@ export default {
       "masked": "Driving that fast is ____.",
       "options": [
         "ask-mcq-22",
-        "ask-mcq-21",
-        "ask-mcq-23",
-        "ask-mcq-20",
-        "ask-mcq-24",
-        "ask-mcq-19"
+        "ask-mcq-09",
+        "ask-mcq-08",
+        "ask-mcq-15"
       ],
       "explanation": "本句的「asking for trouble」指「做某事而自找麻煩」。",
       "sentenceIndex": 44,
@@ -1880,12 +1702,10 @@ export default {
         "asking for trouble"
       ],
       "optionReasons": {
-        "ask-mcq-22": "本句指「做某事而自找麻煩」。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-23": "「依我看；以我的意見」是「if you ask me」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-24": "「自找麻煩／自找惡果」是「ask for it」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。"
+        "ask-mcq-22": "本句的「asking for trouble」指「做某事而自找麻煩」。",
+        "ask-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-22"
     },
@@ -1897,11 +1717,9 @@ export default {
       "masked": "It’s too expensive, ____.",
       "options": [
         "ask-mcq-23",
-        "ask-mcq-22",
-        "ask-mcq-24",
-        "ask-mcq-21",
-        "ask-mcq-20",
-        "ask-mcq-19"
+        "ask-mcq-18",
+        "ask-mcq-08",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「if you ask me」指「依我看；以我的意見」。",
       "sentenceIndex": 45,
@@ -1910,12 +1728,10 @@ export default {
         "if you ask me"
       ],
       "optionReasons": {
-        "ask-mcq-23": "本句指「依我看；以我的意見」。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-24": "「自找麻煩／自找惡果」是「ask for it」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。"
+        "ask-mcq-23": "本句的「if you ask me」指「依我看；以我的意見」。",
+        "ask-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-23"
     },
@@ -1927,11 +1743,9 @@ export default {
       "masked": "He needs a break, ____.",
       "options": [
         "ask-mcq-23",
-        "ask-mcq-22",
-        "ask-mcq-24",
-        "ask-mcq-21",
-        "ask-mcq-20",
-        "ask-mcq-19"
+        "ask-mcq-12",
+        "ask-mcq-08",
+        "ask-mcq-22"
       ],
       "explanation": "本句的「if you ask me」指「依我看；以我的意見」。",
       "sentenceIndex": 46,
@@ -1940,12 +1754,10 @@ export default {
         "if you ask me"
       ],
       "optionReasons": {
-        "ask-mcq-23": "本句指「依我看；以我的意見」。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-24": "「自找麻煩／自找惡果」是「ask for it」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。"
+        "ask-mcq-23": "本句的「if you ask me」指「依我看；以我的意見」。",
+        "ask-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-23"
     },
@@ -1957,11 +1769,9 @@ export default {
       "masked": "He knew it was dangerous, but he ____.",
       "options": [
         "ask-mcq-24",
-        "ask-mcq-23",
-        "ask-mcq-22",
-        "ask-mcq-21",
-        "ask-mcq-20",
-        "ask-mcq-19"
+        "ask-mcq-01",
+        "ask-mcq-17",
+        "ask-mcq-07"
       ],
       "explanation": "本句的「asked for it」指「自找麻煩／自找惡果」。",
       "sentenceIndex": 47,
@@ -1970,12 +1780,10 @@ export default {
         "asked for it"
       ],
       "optionReasons": {
-        "ask-mcq-24": "本句指「自找麻煩／自找惡果」。",
-        "ask-mcq-23": "「依我看；以我的意見」是「if you ask me」的用法，與本句語境不同。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。"
+        "ask-mcq-24": "本句的「asked for it」指「自找麻煩／自找惡果」。",
+        "ask-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-24"
     },
@@ -1987,11 +1795,9 @@ export default {
       "masked": "If you keep provoking him, you’re ____.",
       "options": [
         "ask-mcq-24",
-        "ask-mcq-23",
-        "ask-mcq-22",
-        "ask-mcq-21",
-        "ask-mcq-20",
-        "ask-mcq-19"
+        "ask-mcq-11",
+        "ask-mcq-07",
+        "ask-mcq-20"
       ],
       "explanation": "本句的「asking for it」指「自找麻煩／自找惡果」。",
       "sentenceIndex": 48,
@@ -2000,12 +1806,10 @@ export default {
         "asking for it"
       ],
       "optionReasons": {
-        "ask-mcq-24": "本句指「自找麻煩／自找惡果」。",
-        "ask-mcq-23": "「依我看；以我的意見」是「if you ask me」的用法，與本句語境不同。",
-        "ask-mcq-22": "「做某事而自找麻煩」是「ask for trouble」的用法，與本句語境不同。",
-        "ask-mcq-21": "「反問」是「ask back」的用法，與本句語境不同。",
-        "ask-mcq-20": "「向不同的人四處打聽」是「ask around」的用法，與本句語境不同。",
-        "ask-mcq-19": "「自問；在心中思考」是「ask oneself」的用法，與本句語境不同。"
+        "ask-mcq-24": "本句的「asking for it」指「自找麻煩／自找惡果」。",
+        "ask-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ask-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ask-mcq-24"
     }
@@ -2017,5 +1821,7 @@ export default {
     "sha256": "633e9b0a7a31bdf1614d8395865ac5373610aab3958bc0feed4ae37481384aaa",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

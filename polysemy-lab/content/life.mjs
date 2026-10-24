@@ -371,11 +371,7 @@ export default {
       "masked": "Doctors managed to save his ____.",
       "options": [
         "life-mcq-01",
-        "life-mcq-02",
-        "life-mcq-03",
-        "life-mcq-04",
-        "life-mcq-05",
-        "life-mcq-06"
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「生物處於活著、生存而非死亡的狀態」。",
       "sentenceIndex": 0,
@@ -384,12 +380,8 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-01": "本句指「生物處於活著、生存而非死亡的狀態」。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-01": "本句的「life」指「生物處於活著、生存而非死亡的狀態」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-01"
     },
@@ -401,11 +393,7 @@ export default {
       "masked": "Scientists continue to search for signs of ____ on other planets.",
       "options": [
         "life-mcq-01",
-        "life-mcq-02",
-        "life-mcq-03",
-        "life-mcq-04",
-        "life-mcq-05",
-        "life-mcq-06"
+        "life-mcq-15"
       ],
       "explanation": "本句的「life」指「生物處於活著、生存而非死亡的狀態」。",
       "sentenceIndex": 1,
@@ -414,12 +402,8 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-01": "本句指「生物處於活著、生存而非死亡的狀態」。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-01": "本句的「life」指「生物處於活著、生存而非死亡的狀態」。",
+        "life-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-01"
     },
@@ -431,11 +415,9 @@ export default {
       "masked": "She spent most of her ____ in Hong Kong.",
       "options": [
         "life-mcq-02",
-        "life-mcq-01",
-        "life-mcq-03",
-        "life-mcq-04",
-        "life-mcq-05",
-        "life-mcq-06"
+        "life-mcq-16",
+        "life-mcq-09",
+        "life-mcq-14"
       ],
       "explanation": "本句的「life」指「從出生到死亡之間的整段人生／生命歷程」。",
       "sentenceIndex": 2,
@@ -444,12 +426,10 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-02": "本句指「從出生到死亡之間的整段人生／生命歷程」。",
-        "life-mcq-01": "「生物處於活著、生存而非死亡的狀態」是「life — biological state」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-02": "本句的「life」指「從出生到死亡之間的整段人生／生命歷程」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-02"
     },
@@ -461,11 +441,9 @@ export default {
       "masked": "His ____ changed completely after the accident.",
       "options": [
         "life-mcq-02",
-        "life-mcq-01",
-        "life-mcq-03",
-        "life-mcq-04",
-        "life-mcq-05",
-        "life-mcq-06"
+        "life-mcq-10",
+        "life-mcq-16",
+        "life-mcq-14"
       ],
       "explanation": "本句的「life」指「從出生到死亡之間的整段人生／生命歷程」。",
       "sentenceIndex": 3,
@@ -474,12 +452,10 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-02": "本句指「從出生到死亡之間的整段人生／生命歷程」。",
-        "life-mcq-01": "「生物處於活著、生存而非死亡的狀態」是「life — biological state」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-02": "本句的「life」指「從出生到死亡之間的整段人生／生命歷程」。",
+        "life-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-02"
     },
@@ -491,11 +467,8 @@ export default {
       "masked": "Work is only one part of ____.",
       "options": [
         "life-mcq-03",
-        "life-mcq-02",
-        "life-mcq-04",
-        "life-mcq-01",
-        "life-mcq-05",
-        "life-mcq-06"
+        "life-mcq-15",
+        "life-mcq-14"
       ],
       "explanation": "本句的「life」指「構成一個人日常存在的活動、經歷、人際關係和生活情況」。",
       "sentenceIndex": 4,
@@ -504,12 +477,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-03": "本句指「構成一個人日常存在的活動、經歷、人際關係和生活情況」。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-01": "「生物處於活著、生存而非死亡的狀態」是「life — biological state」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-03": "本句的「life」指「構成一個人日常存在的活動、經歷、人際關係和生活情況」。",
+        "life-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-03"
     },
@@ -521,11 +491,8 @@ export default {
       "masked": "She wants a better balance between work and personal ____.",
       "options": [
         "life-mcq-03",
-        "life-mcq-02",
-        "life-mcq-04",
-        "life-mcq-01",
-        "life-mcq-05",
-        "life-mcq-06"
+        "life-mcq-16",
+        "life-mcq-05"
       ],
       "explanation": "本句的「life」指「構成一個人日常存在的活動、經歷、人際關係和生活情況」。",
       "sentenceIndex": 5,
@@ -534,12 +501,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-03": "本句指「構成一個人日常存在的活動、經歷、人際關係和生活情況」。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-01": "「生物處於活著、生存而非死亡的狀態」是「life — biological state」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-03": "本句的「life」指「構成一個人日常存在的活動、經歷、人際關係和生活情況」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-03"
     },
@@ -551,11 +515,8 @@ export default {
       "masked": "University ____ can be very different from school.",
       "options": [
         "life-mcq-04",
-        "life-mcq-03",
-        "life-mcq-05",
-        "life-mcq-02",
-        "life-mcq-06",
-        "life-mcq-01"
+        "life-mcq-09",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「某種環境、階段或角色下形成的生活方式／人生經歷」。",
       "sentenceIndex": 6,
@@ -564,12 +525,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-04": "本句指「某種環境、階段或角色下形成的生活方式／人生經歷」。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-01": "「生物處於活著、生存而非死亡的狀態」是「life — biological state」的用法，與本句語境不同。"
+        "life-mcq-04": "本句的「life」指「某種環境、階段或角色下形成的生活方式／人生經歷」。",
+        "life-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-04"
     },
@@ -581,11 +539,8 @@ export default {
       "masked": "He enjoys city ____ but misses the countryside.",
       "options": [
         "life-mcq-04",
-        "life-mcq-03",
-        "life-mcq-05",
-        "life-mcq-02",
-        "life-mcq-06",
-        "life-mcq-01"
+        "life-mcq-08",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「某種環境、階段或角色下形成的生活方式／人生經歷」。",
       "sentenceIndex": 7,
@@ -594,12 +549,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-04": "本句指「某種環境、階段或角色下形成的生活方式／人生經歷」。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-01": "「生物處於活著、生存而非死亡的狀態」是「life — biological state」的用法，與本句語境不同。"
+        "life-mcq-04": "本句的「life」指「某種環境、階段或角色下形成的生活方式／人生經歷」。",
+        "life-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-04"
     },
@@ -611,11 +563,8 @@ export default {
       "masked": "The forest contains a rich variety of plant and animal ____.",
       "options": [
         "life-mcq-05",
-        "life-mcq-04",
-        "life-mcq-06",
-        "life-mcq-03",
         "life-mcq-07",
-        "life-mcq-02"
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「某個環境中的生物或生命形式總稱」。",
       "sentenceIndex": 8,
@@ -624,12 +573,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-05": "本句指「某個環境中的生物或生命形式總稱」。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。"
+        "life-mcq-05": "本句的「life」指「某個環境中的生物或生命形式總稱」。",
+        "life-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-05"
     },
@@ -641,11 +587,8 @@ export default {
       "masked": "Marine ____ is threatened by pollution.",
       "options": [
         "life-mcq-05",
-        "life-mcq-04",
-        "life-mcq-06",
-        "life-mcq-03",
-        "life-mcq-07",
-        "life-mcq-02"
+        "life-mcq-09",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「某個環境中的生物或生命形式總稱」。",
       "sentenceIndex": 9,
@@ -654,12 +597,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-05": "本句指「某個環境中的生物或生命形式總稱」。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-02": "「從出生到死亡之間的整段人生／生命歷程」是「life — lifetime of a person」的用法，與本句語境不同。"
+        "life-mcq-05": "本句的「life」指「某個環境中的生物或生命形式總稱」。",
+        "life-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-05"
     },
@@ -671,11 +611,8 @@ export default {
       "masked": "The music brought the party to ____.",
       "options": [
         "life-mcq-06",
-        "life-mcq-05",
-        "life-mcq-07",
-        "life-mcq-04",
-        "life-mcq-08",
-        "life-mcq-03"
+        "life-mcq-10",
+        "life-mcq-05"
       ],
       "explanation": "本句的「life」指「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」。",
       "sentenceIndex": 10,
@@ -684,12 +621,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-06": "本句指「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。"
+        "life-mcq-06": "本句的「life」指「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」。",
+        "life-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-06"
     },
@@ -701,11 +635,9 @@ export default {
       "masked": "The café is full of ____ in the evening.",
       "options": [
         "life-mcq-06",
-        "life-mcq-05",
-        "life-mcq-07",
-        "life-mcq-04",
-        "life-mcq-08",
-        "life-mcq-03"
+        "life-mcq-09",
+        "life-mcq-02",
+        "life-mcq-14"
       ],
       "explanation": "本句的「life」指「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」。",
       "sentenceIndex": 11,
@@ -714,12 +646,10 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-06": "本句指「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-03": "「構成一個人日常存在的活動、經歷、人際關係和生活情況」是「life — everyday existence」的用法，與本句語境不同。"
+        "life-mcq-06": "本句的「life」指「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」。",
+        "life-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-06"
     },
@@ -731,11 +661,8 @@ export default {
       "masked": "Regular maintenance can extend the ____ of the machine.",
       "options": [
         "life-mcq-07",
-        "life-mcq-06",
-        "life-mcq-08",
-        "life-mcq-05",
-        "life-mcq-09",
-        "life-mcq-04"
+        "life-mcq-04",
+        "life-mcq-06"
       ],
       "explanation": "本句的「life」指「某個物件能持續正常運作或保持可用狀態的時間」。",
       "sentenceIndex": 12,
@@ -744,12 +671,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-07": "本句指「某個物件能持續正常運作或保持可用狀態的時間」。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。"
+        "life-mcq-07": "本句的「life」指「某個物件能持續正常運作或保持可用狀態的時間」。",
+        "life-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-07"
     },
@@ -761,10 +685,7 @@ export default {
       "masked": "The coating increases the ____ of the equipment.",
       "options": [
         "life-mcq-07",
-        "life-mcq-06",
-        "life-mcq-08",
-        "life-mcq-05",
-        "life-mcq-09",
+        "life-mcq-15",
         "life-mcq-04"
       ],
       "explanation": "本句的「life」指「某個物件能持續正常運作或保持可用狀態的時間」。",
@@ -774,12 +695,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-07": "本句指「某個物件能持續正常運作或保持可用狀態的時間」。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-04": "「某種環境、階段或角色下形成的生活方式／人生經歷」是「life — type of life」的用法，與本句語境不同。"
+        "life-mcq-07": "本句的「life」指「某個物件能持續正常運作或保持可用狀態的時間」。",
+        "life-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-07"
     },
@@ -791,11 +709,8 @@ export default {
       "masked": "The ad mentioned practical features like comfort, battery ____, and sound quality.",
       "options": [
         "life-mcq-08",
-        "life-mcq-07",
-        "life-mcq-09",
-        "life-mcq-06",
-        "life-mcq-10",
-        "life-mcq-05"
+        "life-mcq-15",
+        "life-mcq-14"
       ],
       "explanation": "本句的「life」指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
       "sentenceIndex": 14,
@@ -804,12 +719,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-08": "本句指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。"
+        "life-mcq-08": "本句的「life」指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
+        "life-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-08"
     },
@@ -821,11 +733,8 @@ export default {
       "masked": "These headphones have excellent battery ____.",
       "options": [
         "life-mcq-08",
-        "life-mcq-07",
-        "life-mcq-09",
-        "life-mcq-06",
-        "life-mcq-10",
-        "life-mcq-05"
+        "life-mcq-05",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
       "sentenceIndex": 15,
@@ -834,12 +743,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-08": "本句指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。"
+        "life-mcq-08": "本句的「life」指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-08"
     },
@@ -851,11 +757,8 @@ export default {
       "masked": "Turning off noise cancellation can improve battery ____.",
       "options": [
         "life-mcq-08",
-        "life-mcq-07",
-        "life-mcq-09",
-        "life-mcq-06",
-        "life-mcq-10",
-        "life-mcq-05"
+        "life-mcq-05",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
       "sentenceIndex": 16,
@@ -864,12 +767,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-08": "本句指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-05": "「某個環境中的生物或生命形式總稱」是「life — organisms collectively」的用法，與本句語境不同。"
+        "life-mcq-08": "本句的「life」指「電池在需要充電或更換前能持續讓裝置運作的時間」。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-08"
     },
@@ -881,11 +781,8 @@ export default {
       "masked": "Fresh bread has a short shelf ____.",
       "options": [
         "life-mcq-09",
-        "life-mcq-08",
-        "life-mcq-10",
-        "life-mcq-07",
-        "life-mcq-11",
-        "life-mcq-06"
+        "life-mcq-04",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「產品仍保持適合使用、食用或銷售狀態的保存期限」。",
       "sentenceIndex": 17,
@@ -894,12 +791,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-09": "本句指「產品仍保持適合使用、食用或銷售狀態的保存期限」。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-09": "本句的「life」指「產品仍保持適合使用、食用或銷售狀態的保存期限」。",
+        "life-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-09"
     },
@@ -911,11 +805,9 @@ export default {
       "masked": "The new packaging extends the product’s shelf ____.",
       "options": [
         "life-mcq-09",
-        "life-mcq-08",
-        "life-mcq-10",
-        "life-mcq-07",
-        "life-mcq-11",
-        "life-mcq-06"
+        "life-mcq-06",
+        "life-mcq-14",
+        "life-mcq-02"
       ],
       "explanation": "本句的「life」指「產品仍保持適合使用、食用或銷售狀態的保存期限」。",
       "sentenceIndex": 18,
@@ -924,12 +816,10 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-09": "本句指「產品仍保持適合使用、食用或銷售狀態的保存期限」。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-06": "「令人或地方顯得活躍、有精神、有生氣的能量和氣氛」是「life — energy/vitality」的用法，與本句語境不同。"
+        "life-mcq-09": "本句的「life」指「產品仍保持適合使用、食用或銷售狀態的保存期限」。",
+        "life-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-09"
     },
@@ -941,11 +831,8 @@ export default {
       "masked": "The filter has a service ____ of approximately two years.",
       "options": [
         "life-mcq-10",
-        "life-mcq-09",
-        "life-mcq-11",
-        "life-mcq-08",
-        "life-mcq-12",
-        "life-mcq-07"
+        "life-mcq-05",
+        "life-mcq-16"
       ],
       "explanation": "本句的「life」指「設備或零件能維持正常功能並符合使用要求的年限」。",
       "sentenceIndex": 19,
@@ -954,12 +841,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-10": "本句指「設備或零件能維持正常功能並符合使用要求的年限」。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。"
+        "life-mcq-10": "本句的「life」指「設備或零件能維持正常功能並符合使用要求的年限」。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-10"
     },
@@ -971,11 +855,8 @@ export default {
       "masked": "Proper maintenance can increase the service ____ of the equipment.",
       "options": [
         "life-mcq-10",
-        "life-mcq-09",
-        "life-mcq-11",
-        "life-mcq-08",
-        "life-mcq-12",
-        "life-mcq-07"
+        "life-mcq-16",
+        "life-mcq-05"
       ],
       "explanation": "本句的「life」指「設備或零件能維持正常功能並符合使用要求的年限」。",
       "sentenceIndex": 20,
@@ -984,12 +865,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-10": "本句指「設備或零件能維持正常功能並符合使用要求的年限」。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-07": "「某個物件能持續正常運作或保持可用狀態的時間」是「life — product/equipment」的用法，與本句語境不同。"
+        "life-mcq-10": "本句的「life」指「設備或零件能維持正常功能並符合使用要求的年限」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-10"
     },
@@ -1001,11 +879,8 @@ export default {
       "masked": "The average ____span of the animal is about fifteen years.",
       "options": [
         "life-mcq-11",
-        "life-mcq-10",
-        "life-mcq-12",
-        "life-mcq-09",
-        "life-mcq-13",
-        "life-mcq-08"
+        "life-mcq-16",
+        "life-mcq-02"
       ],
       "explanation": "本句的「life」指「生物或物件從開始存在／運作至結束的總時間」。",
       "sentenceIndex": 21,
@@ -1014,12 +889,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-11": "本句指「生物或物件從開始存在／運作至結束的總時間」。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。"
+        "life-mcq-11": "本句的「life」指「生物或物件從開始存在／運作至結束的總時間」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-11"
     },
@@ -1031,11 +903,8 @@ export default {
       "masked": "Heavy use may shorten the ____span of the battery.",
       "options": [
         "life-mcq-11",
-        "life-mcq-10",
-        "life-mcq-12",
-        "life-mcq-09",
-        "life-mcq-13",
-        "life-mcq-08"
+        "life-mcq-16",
+        "life-mcq-02"
       ],
       "explanation": "本句的「life」指「生物或物件從開始存在／運作至結束的總時間」。",
       "sentenceIndex": 22,
@@ -1044,12 +913,9 @@ export default {
         "life"
       ],
       "optionReasons": {
-        "life-mcq-11": "本句指「生物或物件從開始存在／運作至結束的總時間」。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-08": "「電池在需要充電或更換前能持續讓裝置運作的時間」是「battery life」的用法，與本句語境不同。"
+        "life-mcq-11": "本句的「life」指「生物或物件從開始存在／運作至結束的總時間」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-11"
     },
@@ -1061,11 +927,8 @@ export default {
       "masked": "She achieved more in a ____ than most people could imagine.",
       "options": [
         "life-mcq-12",
-        "life-mcq-11",
-        "life-mcq-13",
-        "life-mcq-10",
-        "life-mcq-14",
-        "life-mcq-09"
+        "life-mcq-16",
+        "life-mcq-14"
       ],
       "explanation": "本句的「lifetime」指「一個人整個一生，或某物整段存在／使用期限」。",
       "sentenceIndex": 23,
@@ -1074,12 +937,9 @@ export default {
         "lifetime"
       ],
       "optionReasons": {
-        "life-mcq-12": "本句指「一個人整個一生，或某物整段存在／使用期限」。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。"
+        "life-mcq-12": "本句的「lifetime」指「一個人整個一生，或某物整段存在／使用期限」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-12"
     },
@@ -1091,11 +951,8 @@ export default {
       "masked": "The manufacturer offers a ____ warranty.",
       "options": [
         "life-mcq-12",
-        "life-mcq-11",
-        "life-mcq-13",
-        "life-mcq-10",
-        "life-mcq-14",
-        "life-mcq-09"
+        "life-mcq-16",
+        "life-mcq-14"
       ],
       "explanation": "本句的「lifetime」指「一個人整個一生，或某物整段存在／使用期限」。",
       "sentenceIndex": 24,
@@ -1104,12 +961,9 @@ export default {
         "lifetime"
       ],
       "optionReasons": {
-        "life-mcq-12": "本句指「一個人整個一生，或某物整段存在／使用期限」。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-09": "「產品仍保持適合使用、食用或銷售狀態的保存期限」是「shelf life」的用法，與本句語境不同。"
+        "life-mcq-12": "本句的「lifetime」指「一個人整個一生，或某物整段存在／使用期限」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-12"
     },
@@ -1121,11 +975,8 @@ export default {
       "masked": "She has been a ____ music lover.",
       "options": [
         "life-mcq-13",
-        "life-mcq-12",
-        "life-mcq-14",
-        "life-mcq-11",
-        "life-mcq-15",
-        "life-mcq-10"
+        "life-mcq-16",
+        "life-mcq-05"
       ],
       "explanation": "本句的「lifelong」指「持續一生或人生大部分時間的」。",
       "sentenceIndex": 25,
@@ -1134,12 +985,9 @@ export default {
         "lifelong"
       ],
       "optionReasons": {
-        "life-mcq-13": "本句指「持續一生或人生大部分時間的」。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-15": "「沒有生命或完全沒有生命跡象的」是「lifeless — literal」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。"
+        "life-mcq-13": "本句的「lifelong」指「持續一生或人生大部分時間的」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-13"
     },
@@ -1151,11 +999,8 @@ export default {
       "masked": "Education can encourage ____ learning.",
       "options": [
         "life-mcq-13",
-        "life-mcq-12",
-        "life-mcq-14",
-        "life-mcq-11",
-        "life-mcq-15",
-        "life-mcq-10"
+        "life-mcq-16",
+        "life-mcq-05"
       ],
       "explanation": "本句的「lifelong」指「持續一生或人生大部分時間的」。",
       "sentenceIndex": 26,
@@ -1164,12 +1009,9 @@ export default {
         "lifelong"
       ],
       "optionReasons": {
-        "life-mcq-13": "本句指「持續一生或人生大部分時間的」。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。",
-        "life-mcq-15": "「沒有生命或完全沒有生命跡象的」是「lifeless — literal」的用法，與本句語境不同。",
-        "life-mcq-10": "「設備或零件能維持正常功能並符合使用要求的年限」是「service life」的用法，與本句語境不同。"
+        "life-mcq-13": "本句的「lifelong」指「持續一生或人生大部分時間的」。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-13"
     },
@@ -1181,11 +1023,9 @@ export default {
       "masked": "The statue looks remarkably ____.",
       "options": [
         "life-mcq-14",
-        "life-mcq-13",
-        "life-mcq-15",
-        "life-mcq-12",
+        "life-mcq-09",
         "life-mcq-16",
-        "life-mcq-11"
+        "life-mcq-02"
       ],
       "explanation": "本句的「lifelike」指「外觀或動作非常接近真人／真實生物、栩栩如生的」。",
       "sentenceIndex": 27,
@@ -1194,12 +1034,10 @@ export default {
         "lifelike"
       ],
       "optionReasons": {
-        "life-mcq-14": "本句指「外觀或動作非常接近真人／真實生物、栩栩如生的」。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-15": "「沒有生命或完全沒有生命跡象的」是「lifeless — literal」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-16": "「缺乏活力、情感或吸引力而顯得沉悶的」是「lifeless — figurative」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。"
+        "life-mcq-14": "本句的「lifelike」指「外觀或動作非常接近真人／真實生物、栩栩如生的」。",
+        "life-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-14"
     },
@@ -1211,11 +1049,9 @@ export default {
       "masked": "The game uses highly ____ animations.",
       "options": [
         "life-mcq-14",
-        "life-mcq-13",
-        "life-mcq-15",
-        "life-mcq-12",
+        "life-mcq-09",
         "life-mcq-16",
-        "life-mcq-11"
+        "life-mcq-02"
       ],
       "explanation": "本句的「lifelike」指「外觀或動作非常接近真人／真實生物、栩栩如生的」。",
       "sentenceIndex": 28,
@@ -1224,12 +1060,10 @@ export default {
         "lifelike"
       ],
       "optionReasons": {
-        "life-mcq-14": "本句指「外觀或動作非常接近真人／真實生物、栩栩如生的」。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-15": "「沒有生命或完全沒有生命跡象的」是「lifeless — literal」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-16": "「缺乏活力、情感或吸引力而顯得沉悶的」是「lifeless — figurative」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。"
+        "life-mcq-14": "本句的「lifelike」指「外觀或動作非常接近真人／真實生物、栩栩如生的」。",
+        "life-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-14"
     },
@@ -1241,11 +1075,8 @@ export default {
       "masked": "The bird lay ____ on the ground.",
       "options": [
         "life-mcq-15",
-        "life-mcq-14",
-        "life-mcq-16",
-        "life-mcq-13",
-        "life-mcq-12",
-        "life-mcq-11"
+        "life-mcq-08",
+        "life-mcq-04"
       ],
       "explanation": "本句的「lifeless」指「沒有生命或完全沒有生命跡象的」。",
       "sentenceIndex": 29,
@@ -1254,12 +1085,9 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "life-mcq-15": "本句指「沒有生命或完全沒有生命跡象的」。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-16": "「缺乏活力、情感或吸引力而顯得沉悶的」是「lifeless — figurative」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。"
+        "life-mcq-15": "本句的「lifeless」指「沒有生命或完全沒有生命跡象的」。",
+        "life-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-15"
     },
@@ -1271,11 +1099,8 @@ export default {
       "masked": "The plant looked dry and ____.",
       "options": [
         "life-mcq-15",
-        "life-mcq-14",
-        "life-mcq-16",
-        "life-mcq-13",
-        "life-mcq-12",
-        "life-mcq-11"
+        "life-mcq-08",
+        "life-mcq-04"
       ],
       "explanation": "本句的「lifeless」指「沒有生命或完全沒有生命跡象的」。",
       "sentenceIndex": 30,
@@ -1284,12 +1109,9 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "life-mcq-15": "本句指「沒有生命或完全沒有生命跡象的」。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-16": "「缺乏活力、情感或吸引力而顯得沉悶的」是「lifeless — figurative」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。"
+        "life-mcq-15": "本句的「lifeless」指「沒有生命或完全沒有生命跡象的」。",
+        "life-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-15"
     },
@@ -1301,11 +1123,8 @@ export default {
       "masked": "The performance felt flat and ____.",
       "options": [
         "life-mcq-16",
-        "life-mcq-15",
-        "life-mcq-14",
-        "life-mcq-13",
-        "life-mcq-12",
-        "life-mcq-11"
+        "life-mcq-05",
+        "life-mcq-13"
       ],
       "explanation": "本句的「lifeless」指「缺乏活力、情感或吸引力而顯得沉悶的」。",
       "sentenceIndex": 31,
@@ -1314,12 +1133,9 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "life-mcq-16": "本句指「缺乏活力、情感或吸引力而顯得沉悶的」。",
-        "life-mcq-15": "「沒有生命或完全沒有生命跡象的」是「lifeless — literal」的用法，與本句語境不同。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。"
+        "life-mcq-16": "本句的「lifeless」指「缺乏活力、情感或吸引力而顯得沉悶的」。",
+        "life-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-16"
     },
@@ -1331,11 +1147,8 @@ export default {
       "masked": "The room looked cold and ____.",
       "options": [
         "life-mcq-16",
-        "life-mcq-15",
-        "life-mcq-14",
-        "life-mcq-13",
         "life-mcq-12",
-        "life-mcq-11"
+        "life-mcq-14"
       ],
       "explanation": "本句的「lifeless」指「缺乏活力、情感或吸引力而顯得沉悶的」。",
       "sentenceIndex": 32,
@@ -1344,12 +1157,9 @@ export default {
         "lifeless"
       ],
       "optionReasons": {
-        "life-mcq-16": "本句指「缺乏活力、情感或吸引力而顯得沉悶的」。",
-        "life-mcq-15": "「沒有生命或完全沒有生命跡象的」是「lifeless — literal」的用法，與本句語境不同。",
-        "life-mcq-14": "「外觀或動作非常接近真人／真實生物、栩栩如生的」是「lifelike」的用法，與本句語境不同。",
-        "life-mcq-13": "「持續一生或人生大部分時間的」是「lifelong」的用法，與本句語境不同。",
-        "life-mcq-12": "「一個人整個一生，或某物整段存在／使用期限」是「lifetime」的用法，與本句語境不同。",
-        "life-mcq-11": "「生物或物件從開始存在／運作至結束的總時間」是「lifespan」的用法，與本句語境不同。"
+        "life-mcq-16": "本句的「lifeless」指「缺乏活力、情感或吸引力而顯得沉悶的」。",
+        "life-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "life-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "life-mcq-16"
     }
@@ -1361,5 +1171,7 @@ export default {
     "sha256": "a626583409dc8387bd3e0a61765edd2f6814ac526c4bbd6689c3126d9fdd2f79",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

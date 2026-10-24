@@ -426,11 +426,9 @@ export default {
       "masked": "I heard a strange ____ outside.",
       "options": [
         "sound-mcq-01",
-        "sound-mcq-02",
-        "sound-mcq-03",
-        "sound-mcq-04",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-11",
+        "sound-mcq-07",
+        "sound-mcq-09"
       ],
       "explanation": "本句的「sound」指「人耳能夠聽到的聲音或聲響」。",
       "sentenceIndex": 0,
@@ -439,12 +437,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-01": "本句指「人耳能夠聽到的聲音或聲響」。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-01": "本句的「sound」指「人耳能夠聽到的聲音或聲響」。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-01"
     },
@@ -456,11 +452,9 @@ export default {
       "masked": "I like the ____ of that.",
       "options": [
         "sound-pdf-like-sound",
-        "sound-mcq-15",
-        "sound-mcq-17",
-        "sound-mcq-14",
         "sound-mcq-13",
-        "sound-mcq-12"
+        "sound-mcq-10",
+        "sound-mcq-07"
       ],
       "explanation": "本句的「sound」指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
       "sentenceIndex": 1,
@@ -469,12 +463,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-pdf-like-sound": "本句指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
+        "sound-pdf-like-sound": "本句的「sound」指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-pdf-like-sound"
     },
@@ -486,11 +478,9 @@ export default {
       "masked": "The ____ of rain helped me relax.",
       "options": [
         "sound-mcq-01",
-        "sound-mcq-02",
-        "sound-mcq-03",
-        "sound-mcq-04",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-13",
+        "sound-mcq-12",
+        "sound-mcq-08"
       ],
       "explanation": "本句的「sound」指「人耳能夠聽到的聲音或聲響」。",
       "sentenceIndex": 2,
@@ -499,12 +489,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-01": "本句指「人耳能夠聽到的聲音或聲響」。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-01": "本句的「sound」指「人耳能夠聽到的聲音或聲響」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-01"
     },
@@ -516,11 +504,9 @@ export default {
       "masked": "I like the ____ of that.",
       "options": [
         "sound-pdf-like-sound",
-        "sound-mcq-15",
-        "sound-mcq-17",
-        "sound-mcq-14",
-        "sound-mcq-13",
-        "sound-mcq-12"
+        "sound-mcq-11",
+        "sound-mcq-10",
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sound」指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
       "sentenceIndex": 3,
@@ -529,12 +515,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-pdf-like-sound": "本句指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
+        "sound-pdf-like-sound": "本句的「sound」指「聽到構思、安排或提議後，覺得它吸引並產生好感」。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-pdf-like-sound"
     },
@@ -546,11 +530,9 @@ export default {
       "masked": "The ad mentioned comfort, battery life, and ____.",
       "options": [
         "sound-mcq-02",
-        "sound-mcq-01",
-        "sound-mcq-03",
-        "sound-mcq-04",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-10",
+        "sound-mcq-12",
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sound quality」指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
       "sentenceIndex": 4,
@@ -559,12 +541,10 @@ export default {
         "sound quality"
       ],
       "optionReasons": {
-        "sound-mcq-02": "本句指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-02": "本句的「sound quality」指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-02"
     },
@@ -576,11 +556,9 @@ export default {
       "masked": "I don’t like the ____ of that.",
       "options": [
         "sound-pdf-not-like-sound",
-        "sound-mcq-15",
-        "sound-mcq-17",
-        "sound-mcq-14",
-        "sound-mcq-13",
-        "sound-mcq-12"
+        "sound-mcq-07",
+        "sound-mcq-11",
+        "sound-mcq-09"
       ],
       "explanation": "本句的「sound」指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
       "sentenceIndex": 5,
@@ -589,12 +567,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-pdf-not-like-sound": "本句指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
+        "sound-pdf-not-like-sound": "本句的「sound」指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-pdf-not-like-sound"
     },
@@ -606,11 +582,9 @@ export default {
       "masked": "These headphones produce a warm, detailed ____.",
       "options": [
         "sound-mcq-02",
-        "sound-mcq-01",
-        "sound-mcq-03",
-        "sound-mcq-04",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-10",
+        "sound-mcq-13",
+        "sound-mcq-12"
       ],
       "explanation": "本句的「sound」指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
       "sentenceIndex": 6,
@@ -619,12 +593,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-02": "本句指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-02": "本句的「sound」指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-02"
     },
@@ -636,10 +608,8 @@ export default {
       "masked": "I don’t like the ____ of that.",
       "options": [
         "sound-pdf-not-like-sound",
-        "sound-mcq-15",
-        "sound-mcq-17",
-        "sound-mcq-14",
         "sound-mcq-13",
+        "sound-mcq-08",
         "sound-mcq-12"
       ],
       "explanation": "本句的「sound」指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
@@ -649,12 +619,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-pdf-not-like-sound": "本句指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」與本句語境不同。"
+        "sound-pdf-not-like-sound": "本句的「sound」指「聽到消息或情況後，覺得它不妙、令人擔心或不吸引」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-pdf-not-like-sound"
     },
@@ -666,11 +634,9 @@ export default {
       "masked": "I prefer the ____ of these speakers.",
       "options": [
         "sound-mcq-02",
-        "sound-mcq-01",
-        "sound-mcq-03",
-        "sound-mcq-04",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-13",
+        "sound-mcq-12",
+        "sound-mcq-10"
       ],
       "explanation": "本句的「sound」指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
       "sentenceIndex": 8,
@@ -679,12 +645,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-02": "本句指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-02": "本句的「sound」指「耳機、音響、樂器或錄音所呈現出的可聽音訊」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-02"
     },
@@ -696,11 +660,9 @@ export default {
       "masked": "The band has developed its own distinctive ____.",
       "options": [
         "sound-mcq-03",
-        "sound-mcq-02",
-        "sound-mcq-04",
-        "sound-mcq-01",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-12",
+        "sound-mcq-10",
+        "sound-mcq-07"
       ],
       "explanation": "本句的「sound」指「某個聲音來源具有辨識度的音色、風格或整體聽感」。",
       "sentenceIndex": 9,
@@ -709,12 +671,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-03": "本句指「某個聲音來源具有辨識度的音色、風格或整體聽感」。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-03": "本句的「sound」指「某個聲音來源具有辨識度的音色、風格或整體聽感」。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-03"
     },
@@ -726,11 +686,9 @@ export default {
       "masked": "She wanted a softer ____ for the recording.",
       "options": [
         "sound-mcq-03",
-        "sound-mcq-02",
-        "sound-mcq-04",
-        "sound-mcq-01",
-        "sound-mcq-05",
-        "sound-mcq-06"
+        "sound-mcq-12",
+        "sound-mcq-10",
+        "sound-mcq-07"
       ],
       "explanation": "本句的「sound」指「某個聲音來源具有辨識度的音色、風格或整體聽感」。",
       "sentenceIndex": 10,
@@ -739,12 +697,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-03": "本句指「某個聲音來源具有辨識度的音色、風格或整體聽感」。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-03": "本句的「sound」指「某個聲音來源具有辨識度的音色、風格或整體聽感」。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-03"
     },
@@ -756,11 +712,9 @@ export default {
       "masked": "That ____ like a good idea.",
       "options": [
         "sound-mcq-17",
-        "sound-mcq-16",
-        "sound-mcq-15",
-        "sound-mcq-14",
-        "sound-mcq-13",
-        "sound-mcq-12"
+        "sound-mcq-10",
+        "sound-mcq-12",
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sounds」指「根據聽到的資料或說法，給人某種印象」。",
       "sentenceIndex": 11,
@@ -769,12 +723,10 @@ export default {
         "sounds"
       ],
       "optionReasons": {
-        "sound-mcq-17": "本句指「根據聽到的資料或說法，給人某種印象」。",
-        "sound-mcq-16": "「耳機播放出來、能被使用者聽見的音訊」是「For your original sentence」的用法，與本句語境不同。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-mcq-17": "本句的「sounds」指「根據聽到的資料或說法，給人某種印象」。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-17"
     },
@@ -786,11 +738,9 @@ export default {
       "masked": "The job ____ interesting.",
       "options": [
         "sound-mcq-17",
-        "sound-mcq-16",
-        "sound-mcq-15",
+        "sound-mcq-11",
         "sound-mcq-14",
-        "sound-mcq-13",
-        "sound-mcq-12"
+        "sound-mcq-07"
       ],
       "explanation": "本句的「sounds」指「根據聽到的資料或說法，給人某種印象」。",
       "sentenceIndex": 12,
@@ -799,12 +749,10 @@ export default {
         "sounds"
       ],
       "optionReasons": {
-        "sound-mcq-17": "本句指「根據聽到的資料或說法，給人某種印象」。",
-        "sound-mcq-16": "「耳機播放出來、能被使用者聽見的音訊」是「For your original sentence」的用法，與本句語境不同。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-mcq-17": "本句的「sounds」指「根據聽到的資料或說法，給人某種印象」。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-17"
     },
@@ -816,11 +764,9 @@ export default {
       "masked": "You ____.",
       "options": [
         "sound-mcq-04",
-        "sound-mcq-03",
-        "sound-mcq-05",
-        "sound-mcq-02",
-        "sound-mcq-06",
-        "sound-mcq-01"
+        "sound-mcq-13",
+        "sound-mcq-10",
+        "sound-mcq-07"
       ],
       "explanation": "本句的「sound tired」指「根據某人的聲音或說話內容判斷其似乎具有某種狀態」。",
       "sentenceIndex": 13,
@@ -829,12 +775,10 @@ export default {
         "sound tired"
       ],
       "optionReasons": {
-        "sound-mcq-04": "本句指「根據某人的聲音或說話內容判斷其似乎具有某種狀態」。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。"
+        "sound-mcq-04": "本句的「sound tired」指「根據某人的聲音或說話內容判斷其似乎具有某種狀態」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-04"
     },
@@ -846,11 +790,9 @@ export default {
       "masked": "She ____ on the phone.",
       "options": [
         "sound-mcq-04",
-        "sound-mcq-03",
-        "sound-mcq-05",
-        "sound-mcq-02",
-        "sound-mcq-06",
-        "sound-mcq-01"
+        "sound-mcq-10",
+        "sound-mcq-13",
+        "sound-mcq-12"
       ],
       "explanation": "本句的「sounded worried」指「根據某人的聲音或說話內容判斷其似乎具有某種狀態」。",
       "sentenceIndex": 14,
@@ -859,12 +801,10 @@ export default {
         "sounded worried"
       ],
       "optionReasons": {
-        "sound-mcq-04": "本句指「根據某人的聲音或說話內容判斷其似乎具有某種狀態」。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-01": "「人耳能夠聽到的聲音或聲響」是「sound — audible phenomenon」的用法，與本句語境不同。"
+        "sound-mcq-04": "本句的「sounded worried」指「根據某人的聲音或說話內容判斷其似乎具有某種狀態」。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-04"
     },
@@ -876,11 +816,9 @@ export default {
       "masked": "That ____ thunder.",
       "options": [
         "sound-mcq-05",
-        "sound-mcq-04",
-        "sound-mcq-06",
-        "sound-mcq-03",
+        "sound-mcq-13",
         "sound-mcq-07",
-        "sound-mcq-02"
+        "sound-mcq-10"
       ],
       "explanation": "本句的「sounds like」指「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」。",
       "sentenceIndex": 15,
@@ -889,12 +827,10 @@ export default {
         "sounds like"
       ],
       "optionReasons": {
-        "sound-mcq-05": "本句指「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。"
+        "sound-mcq-05": "本句的「sounds like」指「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-05"
     },
@@ -906,11 +842,9 @@ export default {
       "masked": "It ____ you had a difficult day.",
       "options": [
         "sound-mcq-05",
-        "sound-mcq-04",
-        "sound-mcq-06",
-        "sound-mcq-03",
-        "sound-mcq-07",
-        "sound-mcq-02"
+        "sound-mcq-10",
+        "sound-mcq-12",
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sounds like」指「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」。",
       "sentenceIndex": 16,
@@ -919,12 +853,10 @@ export default {
         "sounds like"
       ],
       "optionReasons": {
-        "sound-mcq-05": "本句指「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-02": "「耳機、音響、樂器或錄音所呈現出的可聽音訊」是「sound — audio output」的用法，與本句語境不同。"
+        "sound-mcq-05": "本句的「sounds like」指「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」。",
+        "sound-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-05"
     },
@@ -936,11 +868,9 @@ export default {
       "masked": "The alarm ____ at six in the morning.",
       "options": [
         "sound-mcq-06",
-        "sound-mcq-05",
-        "sound-mcq-07",
-        "sound-mcq-04",
+        "sound-mcq-13",
         "sound-mcq-08",
-        "sound-mcq-03"
+        "sound-mcq-11"
       ],
       "explanation": "本句的「sounded」指「發出可以被聽見的聲音」。",
       "sentenceIndex": 17,
@@ -949,12 +879,10 @@ export default {
         "sounded"
       ],
       "optionReasons": {
-        "sound-mcq-06": "本句指「發出可以被聽見的聲音」。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。"
+        "sound-mcq-06": "本句的「sounded」指「發出可以被聽見的聲音」。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-06"
     },
@@ -966,11 +894,9 @@ export default {
       "masked": "A bell ____ in the distance.",
       "options": [
         "sound-mcq-06",
-        "sound-mcq-05",
-        "sound-mcq-07",
-        "sound-mcq-04",
+        "sound-mcq-11",
         "sound-mcq-08",
-        "sound-mcq-03"
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sounded」指「發出可以被聽見的聲音」。",
       "sentenceIndex": 18,
@@ -979,12 +905,10 @@ export default {
         "sounded"
       ],
       "optionReasons": {
-        "sound-mcq-06": "本句指「發出可以被聽見的聲音」。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-03": "「某個聲音來源具有辨識度的音色、風格或整體聽感」是「sound — auditory character」的用法，與本句語境不同。"
+        "sound-mcq-06": "本句的「sounded」指「發出可以被聽見的聲音」。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-06"
     },
@@ -996,11 +920,9 @@ export default {
       "masked": "The guard ____.",
       "options": [
         "sound-mcq-07",
-        "sound-mcq-06",
-        "sound-mcq-08",
-        "sound-mcq-05",
-        "sound-mcq-09",
-        "sound-mcq-04"
+        "sound-mcq-14",
+        "sound-pdf-not-like-sound",
+        "sound-mcq-11"
       ],
       "explanation": "本句的「sounded the alarm」指「發出警報；亦可比喻公開警告某項危險」。",
       "sentenceIndex": 19,
@@ -1009,12 +931,10 @@ export default {
         "sounded the alarm"
       ],
       "optionReasons": {
-        "sound-mcq-07": "本句指「發出警報；亦可比喻公開警告某項危險」。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。"
+        "sound-mcq-07": "本句的「sounded the alarm」指「發出警報；亦可比喻公開警告某項危險」。",
+        "sound-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sound-pdf-not-like-sound": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-07"
     },
@@ -1026,11 +946,9 @@ export default {
       "masked": "Doctors have ____ about rising infection rates.",
       "options": [
         "sound-mcq-07",
-        "sound-mcq-06",
-        "sound-mcq-08",
-        "sound-mcq-05",
-        "sound-mcq-09",
-        "sound-mcq-04"
+        "sound-mcq-15",
+        "sound-mcq-12",
+        "sound-mcq-03"
       ],
       "explanation": "本句的「sounded the alarm」指「發出警報；亦可比喻公開警告某項危險」。",
       "sentenceIndex": 20,
@@ -1039,12 +957,10 @@ export default {
         "sounded the alarm"
       ],
       "optionReasons": {
-        "sound-mcq-07": "本句指「發出警報；亦可比喻公開警告某項危險」。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-04": "「根據某人的聲音或說話內容判斷其似乎具有某種狀態」是「sound + adjective」的用法，與本句語境不同。"
+        "sound-mcq-07": "本句的「sounded the alarm」指「發出警報；亦可比喻公開警告某項危險」。",
+        "sound-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-07"
     },
@@ -1056,11 +972,9 @@ export default {
       "masked": "The building is structurally ____.",
       "options": [
         "sound-mcq-08",
-        "sound-mcq-07",
-        "sound-mcq-09",
         "sound-mcq-06",
-        "sound-mcq-10",
-        "sound-mcq-05"
+        "sound-mcq-11",
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sound」指「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」。",
       "sentenceIndex": 21,
@@ -1069,12 +983,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-08": "本句指「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。"
+        "sound-mcq-08": "本句的「sound」指「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」。",
+        "sound-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-08"
     },
@@ -1087,10 +999,8 @@ export default {
       "options": [
         "sound-mcq-08",
         "sound-mcq-07",
-        "sound-mcq-09",
-        "sound-mcq-06",
-        "sound-mcq-10",
-        "sound-mcq-05"
+        "sound-pdf-not-like-sound",
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sound」指「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」。",
       "sentenceIndex": 22,
@@ -1099,12 +1009,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-08": "本句指「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-05": "「根據所聽到的聲音或資訊判斷，像某人／某物／某種情況」是「sound like」的用法，與本句語境不同。"
+        "sound-mcq-08": "本句的「sound」指「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-pdf-not-like-sound": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-08"
     },
@@ -1116,11 +1024,9 @@ export default {
       "masked": "That is ____ advice.",
       "options": [
         "sound-mcq-09",
-        "sound-mcq-08",
-        "sound-mcq-10",
-        "sound-mcq-07",
-        "sound-mcq-11",
-        "sound-mcq-06"
+        "sound-mcq-06",
+        "sound-mcq-12",
+        "sound-mcq-08"
       ],
       "explanation": "本句的「sound」指「有充分理據、邏輯可靠並值得信任的」。",
       "sentenceIndex": 23,
@@ -1129,12 +1035,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-09": "本句指「有充分理據、邏輯可靠並值得信任的」。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-09": "本句的「sound」指「有充分理據、邏輯可靠並值得信任的」。",
+        "sound-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-09"
     },
@@ -1146,11 +1050,9 @@ export default {
       "masked": "The conclusion is based on ____ evidence.",
       "options": [
         "sound-mcq-09",
-        "sound-mcq-08",
-        "sound-mcq-10",
-        "sound-mcq-07",
-        "sound-mcq-11",
-        "sound-mcq-06"
+        "sound-mcq-06",
+        "sound-mcq-12",
+        "sound-mcq-14"
       ],
       "explanation": "本句的「sound」指「有充分理據、邏輯可靠並值得信任的」。",
       "sentenceIndex": 24,
@@ -1159,12 +1061,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-09": "本句指「有充分理據、邏輯可靠並值得信任的」。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-06": "「發出可以被聽見的聲音」是「sound — produce noise」的用法，與本句語境不同。"
+        "sound-mcq-09": "本句的「sound」指「有充分理據、邏輯可靠並值得信任的」。",
+        "sound-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-09"
     },
@@ -1176,11 +1076,9 @@ export default {
       "masked": "The company is in a ____ financial position.",
       "options": [
         "sound-mcq-10",
-        "sound-mcq-09",
-        "sound-mcq-11",
-        "sound-mcq-08",
-        "sound-mcq-12",
-        "sound-mcq-07"
+        "sound-pdf-like-sound",
+        "sound-mcq-07",
+        "sound-mcq-02"
       ],
       "explanation": "本句的「sound」指「財務穩定、基礎可靠而沒有重大弱點的」。",
       "sentenceIndex": 25,
@@ -1189,12 +1087,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-10": "本句指「財務穩定、基礎可靠而沒有重大弱點的」。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。"
+        "sound-mcq-10": "本句的「sound」指「財務穩定、基礎可靠而沒有重大弱點的」。",
+        "sound-pdf-like-sound": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-10"
     },
@@ -1206,11 +1102,9 @@ export default {
       "masked": "They made a ____ investment.",
       "options": [
         "sound-mcq-10",
-        "sound-mcq-09",
+        "sound-mcq-06",
         "sound-mcq-11",
-        "sound-mcq-08",
-        "sound-mcq-12",
-        "sound-mcq-07"
+        "sound-mcq-13"
       ],
       "explanation": "本句的「sound」指「財務穩定、基礎可靠而沒有重大弱點的」。",
       "sentenceIndex": 26,
@@ -1219,12 +1113,10 @@ export default {
         "sound"
       ],
       "optionReasons": {
-        "sound-mcq-10": "本句指「財務穩定、基礎可靠而沒有重大弱點的」。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-07": "「發出警報；亦可比喻公開警告某項危險」是「sound the alarm」的用法，與本句語境不同。"
+        "sound-mcq-10": "本句的「sound」指「財務穩定、基礎可靠而沒有重大弱點的」。",
+        "sound-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-10"
     },
@@ -1236,11 +1128,9 @@ export default {
       "masked": "The baby was ____.",
       "options": [
         "sound-mcq-11",
-        "sound-mcq-10",
-        "sound-mcq-12",
-        "sound-mcq-09",
-        "sound-mcq-13",
-        "sound-mcq-08"
+        "sound-mcq-14",
+        "sound-pdf-like-sound",
+        "sound-mcq-07"
       ],
       "explanation": "本句的「sound asleep」指「睡得非常深沉、不容易被吵醒的」。",
       "sentenceIndex": 27,
@@ -1249,12 +1139,10 @@ export default {
         "sound asleep"
       ],
       "optionReasons": {
-        "sound-mcq-11": "本句指「睡得非常深沉、不容易被吵醒的」。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。"
+        "sound-mcq-11": "本句的「sound asleep」指「睡得非常深沉、不容易被吵醒的」。",
+        "sound-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sound-pdf-like-sound": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-11"
     },
@@ -1266,11 +1154,9 @@ export default {
       "masked": "He was still ____ when I left.",
       "options": [
         "sound-mcq-11",
-        "sound-mcq-10",
-        "sound-mcq-12",
-        "sound-mcq-09",
-        "sound-mcq-13",
-        "sound-mcq-08"
+        "sound-mcq-07",
+        "sound-pdf-like-sound",
+        "sound-mcq-14"
       ],
       "explanation": "本句的「sound asleep」指「睡得非常深沉、不容易被吵醒的」。",
       "sentenceIndex": 28,
@@ -1279,12 +1165,10 @@ export default {
         "sound asleep"
       ],
       "optionReasons": {
-        "sound-mcq-11": "本句指「睡得非常深沉、不容易被吵醒的」。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-08": "「身體、結構或物件狀況良好、穩固而沒有重大缺陷的」是「sound — physical/structural」的用法，與本句語境不同。"
+        "sound-mcq-11": "本句的「sound asleep」指「睡得非常深沉、不容易被吵醒的」。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-pdf-like-sound": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-11"
     },
@@ -1296,10 +1180,8 @@ export default {
       "masked": "She slept ____ despite the noise.",
       "options": [
         "sound-mcq-12",
-        "sound-mcq-11",
-        "sound-mcq-13",
-        "sound-mcq-10",
         "sound-mcq-14",
+        "sound-mcq-01",
         "sound-mcq-09"
       ],
       "explanation": "本句的「soundly」指「以深沉安穩、不易受到干擾的方式睡眠」。",
@@ -1309,12 +1191,10 @@ export default {
         "soundly"
       ],
       "optionReasons": {
-        "sound-mcq-12": "本句指「以深沉安穩、不易受到干擾的方式睡眠」。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。"
+        "sound-mcq-12": "本句的「soundly」指「以深沉安穩、不易受到干擾的方式睡眠」。",
+        "sound-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-12"
     },
@@ -1326,11 +1206,9 @@ export default {
       "masked": "The children were sleeping ____.",
       "options": [
         "sound-mcq-12",
-        "sound-mcq-11",
-        "sound-mcq-13",
-        "sound-mcq-10",
-        "sound-mcq-14",
-        "sound-mcq-09"
+        "sound-mcq-09",
+        "sound-mcq-05",
+        "sound-mcq-07"
       ],
       "explanation": "本句的「soundly」指「以深沉安穩、不易受到干擾的方式睡眠」。",
       "sentenceIndex": 30,
@@ -1339,12 +1217,10 @@ export default {
         "soundly"
       ],
       "optionReasons": {
-        "sound-mcq-12": "本句指「以深沉安穩、不易受到干擾的方式睡眠」。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-09": "「有充分理據、邏輯可靠並值得信任的」是「sound — advice/argument」的用法，與本句語境不同。"
+        "sound-mcq-12": "本句的「soundly」指「以深沉安穩、不易受到干擾的方式睡眠」。",
+        "sound-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-12"
     },
@@ -1356,11 +1232,9 @@ export default {
       "masked": "The team was ____ defeated.",
       "options": [
         "sound-mcq-13",
+        "sound-mcq-04",
         "sound-mcq-12",
-        "sound-mcq-14",
-        "sound-mcq-11",
-        "sound-mcq-15",
-        "sound-mcq-10"
+        "sound-mcq-02"
       ],
       "explanation": "本句的「soundly」指「程度徹底、充分或明顯地」。",
       "sentenceIndex": 31,
@@ -1369,12 +1243,10 @@ export default {
         "soundly"
       ],
       "optionReasons": {
-        "sound-mcq-13": "本句指「程度徹底、充分或明顯地」。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。"
+        "sound-mcq-13": "本句的「soundly」指「程度徹底、充分或明顯地」。",
+        "sound-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-13"
     },
@@ -1386,11 +1258,9 @@ export default {
       "masked": "The proposal was ____ rejected.",
       "options": [
         "sound-mcq-13",
-        "sound-mcq-12",
-        "sound-mcq-14",
-        "sound-mcq-11",
-        "sound-mcq-15",
-        "sound-mcq-10"
+        "sound-pdf-like-sound",
+        "sound-mcq-02",
+        "sound-mcq-08"
       ],
       "explanation": "本句的「soundly」指「程度徹底、充分或明顯地」。",
       "sentenceIndex": 32,
@@ -1399,12 +1269,10 @@ export default {
         "soundly"
       ],
       "optionReasons": {
-        "sound-mcq-13": "本句指「程度徹底、充分或明顯地」。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-10": "「財務穩定、基礎可靠而沒有重大弱點的」是「sound — financial/business」的用法，與本句語境不同。"
+        "sound-mcq-13": "本句的「soundly」指「程度徹底、充分或明顯地」。",
+        "sound-pdf-like-sound": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-13"
     },
@@ -1416,11 +1284,9 @@ export default {
       "masked": "Engineers checked the structural ____ of the bridge.",
       "options": [
         "sound-mcq-14",
-        "sound-mcq-13",
-        "sound-mcq-15",
-        "sound-mcq-12",
-        "sound-mcq-16",
-        "sound-mcq-11"
+        "sound-mcq-07",
+        "sound-mcq-11",
+        "sound-pdf-not-like-sound"
       ],
       "explanation": "本句的「soundness」指「結構或系統沒有重大缺陷、保持良好狀態的程度」。",
       "sentenceIndex": 33,
@@ -1429,12 +1295,10 @@ export default {
         "soundness"
       ],
       "optionReasons": {
-        "sound-mcq-14": "本句指「結構或系統沒有重大缺陷、保持良好狀態的程度」。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-16": "「耳機播放出來、能被使用者聽見的音訊」是「For your original sentence」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。"
+        "sound-mcq-14": "本句的「soundness」指「結構或系統沒有重大缺陷、保持良好狀態的程度」。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-pdf-not-like-sound": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-14"
     },
@@ -1446,11 +1310,9 @@ export default {
       "masked": "The inspection confirmed the ____ of the building.",
       "options": [
         "sound-mcq-14",
-        "sound-mcq-13",
-        "sound-mcq-15",
-        "sound-mcq-12",
-        "sound-mcq-16",
-        "sound-mcq-11"
+        "sound-mcq-05",
+        "sound-mcq-02",
+        "sound-mcq-12"
       ],
       "explanation": "本句的「soundness」指「結構或系統沒有重大缺陷、保持良好狀態的程度」。",
       "sentenceIndex": 34,
@@ -1459,12 +1321,10 @@ export default {
         "soundness"
       ],
       "optionReasons": {
-        "sound-mcq-14": "本句指「結構或系統沒有重大缺陷、保持良好狀態的程度」。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-15": "「論證、判斷或財務狀況在可靠性和穩健性方面的程度」是「soundness — reasoning/finance」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。",
-        "sound-mcq-16": "「耳機播放出來、能被使用者聽見的音訊」是「For your original sentence」的用法，與本句語境不同。",
-        "sound-mcq-11": "「睡得非常深沉、不容易被吵醒的」是「sound asleep」的用法，與本句語境不同。"
+        "sound-mcq-14": "本句的「soundness」指「結構或系統沒有重大缺陷、保持良好狀態的程度」。",
+        "sound-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-14"
     },
@@ -1476,11 +1336,8 @@ export default {
       "masked": "The committee questioned the ____ of the argument.",
       "options": [
         "sound-mcq-15",
-        "sound-mcq-14",
-        "sound-mcq-16",
-        "sound-mcq-13",
-        "sound-mcq-17",
-        "sound-mcq-12"
+        "sound-mcq-11",
+        "sound-mcq-06"
       ],
       "explanation": "本句的「soundness」指「論證、判斷或財務狀況在可靠性和穩健性方面的程度」。",
       "sentenceIndex": 35,
@@ -1489,12 +1346,9 @@ export default {
         "soundness"
       ],
       "optionReasons": {
-        "sound-mcq-15": "本句指「論證、判斷或財務狀況在可靠性和穩健性方面的程度」。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-16": "「耳機播放出來、能被使用者聽見的音訊」是「For your original sentence」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」是「4. sound = impression created by words/idea（說話／構思給人的感覺） — 聽起來的感覺／印象」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-mcq-15": "本句的「soundness」指「論證、判斷或財務狀況在可靠性和穩健性方面的程度」。",
+        "sound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-15"
     },
@@ -1506,11 +1360,9 @@ export default {
       "masked": "Investors examined the financial ____ of the company.",
       "options": [
         "sound-mcq-15",
-        "sound-mcq-14",
-        "sound-mcq-16",
-        "sound-mcq-13",
+        "sound-mcq-07",
         "sound-mcq-17",
-        "sound-mcq-12"
+        "sound-mcq-02"
       ],
       "explanation": "本句的「soundness」指「論證、判斷或財務狀況在可靠性和穩健性方面的程度」。",
       "sentenceIndex": 36,
@@ -1519,12 +1371,10 @@ export default {
         "soundness"
       ],
       "optionReasons": {
-        "sound-mcq-15": "本句指「論證、判斷或財務狀況在可靠性和穩健性方面的程度」。",
-        "sound-mcq-14": "「結構或系統沒有重大缺陷、保持良好狀態的程度」是「soundness — structural」的用法，與本句語境不同。",
-        "sound-mcq-16": "「耳機播放出來、能被使用者聽見的音訊」是「For your original sentence」的用法，與本句語境不同。",
-        "sound-mcq-13": "「程度徹底、充分或明顯地」是「soundly — thoroughly」的用法，與本句語境不同。",
-        "sound-mcq-17": "「根據聽到的資料或說法，給人某種印象」是「4. sound = impression created by words/idea（說話／構思給人的感覺） — 聽起來的感覺／印象」的用法，與本句語境不同。",
-        "sound-mcq-12": "「以深沉安穩、不易受到干擾的方式睡眠」是「soundly — sleep」的用法，與本句語境不同。"
+        "sound-mcq-15": "本句的「soundness」指「論證、判斷或財務狀況在可靠性和穩健性方面的程度」。",
+        "sound-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sound-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sound-mcq-15"
     }
@@ -1536,5 +1386,7 @@ export default {
     "sha256": "84d48ac7adb5c92fccaf61cc462768e95d6f7757a194715f501fc03e13674c08",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -289,11 +289,7 @@ export default {
       "masked": "An old stone ____ stood beside the road.",
       "options": [
         "milestone-mcq-01",
-        "milestone-mcq-02",
-        "milestone-mcq-03",
-        "milestone-mcq-04",
-        "milestone-mcq-05",
-        "milestone-mcq-06"
+        "milestone-mcq-07"
       ],
       "explanation": "本句的「milestone」指「道路旁顯示距離的石碑／里程標誌」。",
       "sentenceIndex": 2,
@@ -302,12 +298,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-01": "本句指「道路旁顯示距離的石碑／里程標誌」。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-01": "本句的「milestone」指「道路旁顯示距離的石碑／里程標誌」。",
+        "milestone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-01"
     },
@@ -319,11 +311,7 @@ export default {
       "masked": "The ____ showed that the town was five miles away.",
       "options": [
         "milestone-mcq-01",
-        "milestone-mcq-02",
-        "milestone-mcq-03",
-        "milestone-mcq-04",
-        "milestone-mcq-05",
-        "milestone-mcq-06"
+        "milestone-mcq-07"
       ],
       "explanation": "本句的「milestone」指「道路旁顯示距離的石碑／里程標誌」。",
       "sentenceIndex": 3,
@@ -332,12 +320,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-01": "本句指「道路旁顯示距離的石碑／里程標誌」。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-01": "本句的「milestone」指「道路旁顯示距離的石碑／里程標誌」。",
+        "milestone-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-01"
     },
@@ -349,11 +333,7 @@ export default {
       "masked": "Learning to drive was an important ____.",
       "options": [
         "milestone-mcq-02",
-        "milestone-mcq-01",
-        "milestone-mcq-03",
-        "milestone-mcq-04",
-        "milestone-mcq-05",
-        "milestone-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「milestone」指「標誌重要進展、發展或改變的事件／階段；里程碑」。",
       "sentenceIndex": 4,
@@ -362,12 +342,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-02": "本句指「標誌重要進展、發展或改變的事件／階段；里程碑」。",
-        "milestone-mcq-01": "「道路旁顯示距離的石碑／里程標誌」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-02": "本句的「milestone」指「標誌重要進展、發展或改變的事件／階段；里程碑」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-02"
     },
@@ -379,11 +355,7 @@ export default {
       "masked": "The company reached a major ____ this year.",
       "options": [
         "milestone-mcq-02",
-        "milestone-mcq-01",
-        "milestone-mcq-03",
-        "milestone-mcq-04",
-        "milestone-mcq-05",
-        "milestone-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「milestone」指「標誌重要進展、發展或改變的事件／階段；里程碑」。",
       "sentenceIndex": 5,
@@ -392,12 +364,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-02": "本句指「標誌重要進展、發展或改變的事件／階段；里程碑」。",
-        "milestone-mcq-01": "「道路旁顯示距離的石碑／里程標誌」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-02": "本句的「milestone」指「標誌重要進展、發展或改變的事件／階段；里程碑」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-02"
     },
@@ -409,11 +377,7 @@ export default {
       "masked": "Graduation is a major ____.",
       "options": [
         "milestone-mcq-03",
-        "milestone-mcq-02",
-        "milestone-mcq-04",
-        "milestone-mcq-01",
-        "milestone-mcq-05",
-        "milestone-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「personal milestone」指「一個人生命中具有重要意義的階段或事件；人生里程碑」。",
       "sentenceIndex": 6,
@@ -422,12 +386,8 @@ export default {
         "personal milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-03": "本句指「一個人生命中具有重要意義的階段或事件；人生里程碑」。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-01": "「道路旁顯示距離的石碑／里程標誌」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-03": "本句的「personal milestone」指「一個人生命中具有重要意義的階段或事件；人生里程碑」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-03"
     },
@@ -439,11 +399,7 @@ export default {
       "masked": "Her first job was another ____.",
       "options": [
         "milestone-mcq-03",
-        "milestone-mcq-02",
-        "milestone-mcq-04",
-        "milestone-mcq-01",
-        "milestone-mcq-05",
-        "milestone-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「personal milestone」指「一個人生命中具有重要意義的階段或事件；人生里程碑」。",
       "sentenceIndex": 7,
@@ -452,12 +408,8 @@ export default {
         "personal milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-03": "本句指「一個人生命中具有重要意義的階段或事件；人生里程碑」。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-01": "「道路旁顯示距離的石碑／里程標誌」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-03": "本句的「personal milestone」指「一個人生命中具有重要意義的階段或事件；人生里程碑」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-03"
     },
@@ -469,10 +421,6 @@ export default {
       "masked": "Walking is an important ____ for a child.",
       "options": [
         "milestone-mcq-04",
-        "milestone-mcq-03",
-        "milestone-mcq-05",
-        "milestone-mcq-02",
-        "milestone-mcq-06",
         "milestone-mcq-01"
       ],
       "explanation": "本句的「developmental milestone」指「身體、認知、情緒或社交發展中的重要階段指標」。",
@@ -482,12 +430,8 @@ export default {
         "developmental milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-04": "本句指「身體、認知、情緒或社交發展中的重要階段指標」。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-01": "「道路旁顯示距離的石碑／里程標誌」與本句語境不同。"
+        "milestone-mcq-04": "本句的「developmental milestone」指「身體、認知、情緒或社交發展中的重要階段指標」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-04"
     },
@@ -499,10 +443,6 @@ export default {
       "masked": "Doctors monitor key ____.",
       "options": [
         "milestone-mcq-04",
-        "milestone-mcq-03",
-        "milestone-mcq-05",
-        "milestone-mcq-02",
-        "milestone-mcq-06",
         "milestone-mcq-01"
       ],
       "explanation": "本句的「developmental milestones」指「身體、認知、情緒或社交發展中的重要階段指標」。",
@@ -512,12 +452,8 @@ export default {
         "developmental milestones"
       ],
       "optionReasons": {
-        "milestone-mcq-04": "本句指「身體、認知、情緒或社交發展中的重要階段指標」。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-01": "「道路旁顯示距離的石碑／里程標誌」與本句語境不同。"
+        "milestone-mcq-04": "本句的「developmental milestones」指「身體、認知、情緒或社交發展中的重要階段指標」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-04"
     },
@@ -529,11 +465,7 @@ export default {
       "masked": "Completing the prototype was a major project ____.",
       "options": [
         "milestone-mcq-05",
-        "milestone-mcq-04",
-        "milestone-mcq-06",
-        "milestone-mcq-03",
-        "milestone-mcq-07",
-        "milestone-mcq-02"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
       "sentenceIndex": 10,
@@ -542,12 +474,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-05": "本句指「用來衡量專案進展的重要階段／關鍵節點」。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。"
+        "milestone-mcq-05": "本句的「milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-05"
     },
@@ -559,11 +487,7 @@ export default {
       "masked": "The team reached its first ____ on schedule.",
       "options": [
         "milestone-mcq-05",
-        "milestone-mcq-04",
-        "milestone-mcq-06",
-        "milestone-mcq-03",
-        "milestone-mcq-07",
-        "milestone-mcq-02"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
       "sentenceIndex": 11,
@@ -572,12 +496,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-05": "本句指「用來衡量專案進展的重要階段／關鍵節點」。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。"
+        "milestone-mcq-05": "本句的「milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-05"
     },
@@ -589,11 +509,7 @@ export default {
       "masked": "Each ____ has a target date.",
       "options": [
         "milestone-mcq-05",
-        "milestone-mcq-04",
-        "milestone-mcq-06",
-        "milestone-mcq-03",
-        "milestone-mcq-07",
-        "milestone-mcq-02"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「project milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
       "sentenceIndex": 12,
@@ -602,12 +518,8 @@ export default {
         "project milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-05": "本句指「用來衡量專案進展的重要階段／關鍵節點」。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。"
+        "milestone-mcq-05": "本句的「project milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-05"
     },
@@ -619,11 +531,7 @@ export default {
       "masked": "The next ____ is final testing.",
       "options": [
         "milestone-mcq-05",
-        "milestone-mcq-04",
-        "milestone-mcq-06",
-        "milestone-mcq-03",
-        "milestone-mcq-07",
-        "milestone-mcq-02"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
       "sentenceIndex": 13,
@@ -632,12 +540,8 @@ export default {
         "milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-05": "本句指「用來衡量專案進展的重要階段／關鍵節點」。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-02": "「標誌重要進展、發展或改變的事件／階段；里程碑」與本句語境不同。"
+        "milestone-mcq-05": "本句的「milestone」指「用來衡量專案進展的重要階段／關鍵節點」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-05"
     },
@@ -649,11 +553,7 @@ export default {
       "masked": "The discovery was a ____ in the field.",
       "options": [
         "milestone-mcq-06",
-        "milestone-mcq-05",
-        "milestone-mcq-07",
-        "milestone-mcq-04",
-        "milestone-mcq-08",
-        "milestone-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「milestone achievement」指「標誌重大進步或意義的成就；里程碑式成就」。",
       "sentenceIndex": 14,
@@ -662,12 +562,8 @@ export default {
         "milestone achievement"
       ],
       "optionReasons": {
-        "milestone-mcq-06": "本句指「標誌重大進步或意義的成就；里程碑式成就」。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。"
+        "milestone-mcq-06": "本句的「milestone achievement」指「標誌重大進步或意義的成就；里程碑式成就」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-06"
     },
@@ -679,11 +575,7 @@ export default {
       "masked": "Reaching one million users was a major ____.",
       "options": [
         "milestone-mcq-06",
-        "milestone-mcq-05",
-        "milestone-mcq-07",
-        "milestone-mcq-04",
-        "milestone-mcq-08",
-        "milestone-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「milestone achievement」指「標誌重大進步或意義的成就；里程碑式成就」。",
       "sentenceIndex": 15,
@@ -692,12 +584,8 @@ export default {
         "milestone achievement"
       ],
       "optionReasons": {
-        "milestone-mcq-06": "本句指「標誌重大進步或意義的成就；里程碑式成就」。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-03": "「一個人生命中具有重要意義的階段或事件；人生里程碑」與本句語境不同。"
+        "milestone-mcq-06": "本句的「milestone achievement」指「標誌重大進步或意義的成就；里程碑式成就」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-06"
     },
@@ -709,11 +597,7 @@ export default {
       "masked": "She celebrated her fiftieth as a ____.",
       "options": [
         "milestone-mcq-07",
-        "milestone-mcq-06",
-        "milestone-mcq-08",
-        "milestone-mcq-05",
-        "milestone-mcq-09",
-        "milestone-mcq-04"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone birthday」指「被視為特別重要的生日／週年紀念」。",
       "sentenceIndex": 16,
@@ -722,12 +606,8 @@ export default {
         "milestone birthday"
       ],
       "optionReasons": {
-        "milestone-mcq-07": "本句指「被視為特別重要的生日／週年紀念」。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。"
+        "milestone-mcq-07": "本句的「milestone birthday」指「被視為特別重要的生日／週年紀念」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-07"
     },
@@ -739,11 +619,7 @@ export default {
       "masked": "Their tenth anniversary was a ____.",
       "options": [
         "milestone-mcq-07",
-        "milestone-mcq-06",
-        "milestone-mcq-08",
-        "milestone-mcq-05",
-        "milestone-mcq-09",
-        "milestone-mcq-04"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone anniversary」指「被視為特別重要的生日／週年紀念」。",
       "sentenceIndex": 17,
@@ -752,12 +628,8 @@ export default {
         "milestone anniversary"
       ],
       "optionReasons": {
-        "milestone-mcq-07": "本句指「被視為特別重要的生日／週年紀念」。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-04": "「身體、認知、情緒或社交發展中的重要階段指標」與本句語境不同。"
+        "milestone-mcq-07": "本句的「milestone anniversary」指「被視為特別重要的生日／週年紀念」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-07"
     },
@@ -769,11 +641,7 @@ export default {
       "masked": "The project has ____.",
       "options": [
         "milestone-mcq-08",
-        "milestone-mcq-07",
-        "milestone-mcq-09",
-        "milestone-mcq-06",
-        "milestone-mcq-10",
-        "milestone-mcq-05"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「reached an important milestone」指「達到一個重要發展階段或成就」。",
       "sentenceIndex": 18,
@@ -782,12 +650,8 @@ export default {
         "reached an important milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-08": "本句指「達到一個重要發展階段或成就」。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。"
+        "milestone-mcq-08": "本句的「reached an important milestone」指「達到一個重要發展階段或成就」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-08"
     },
@@ -799,11 +663,7 @@ export default {
       "masked": "She ____ in her career.",
       "options": [
         "milestone-mcq-08",
-        "milestone-mcq-07",
-        "milestone-mcq-09",
-        "milestone-mcq-06",
-        "milestone-mcq-10",
-        "milestone-mcq-05"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「reached a major milestone」指「達到一個重要發展階段或成就」。",
       "sentenceIndex": 19,
@@ -812,12 +672,8 @@ export default {
         "reached a major milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-08": "本句指「達到一個重要發展階段或成就」。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-05": "「用來衡量專案進展的重要階段／關鍵節點」與本句語境不同。"
+        "milestone-mcq-08": "本句的「reached a major milestone」指「達到一個重要發展階段或成就」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-08"
     },
@@ -829,11 +685,7 @@ export default {
       "masked": "The ceremony ____.",
       "options": [
         "milestone-mcq-09",
-        "milestone-mcq-08",
-        "milestone-mcq-10",
-        "milestone-mcq-07",
-        "milestone-mcq-11",
-        "milestone-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「marked a major milestone」指「標誌或紀念一個重要階段」。",
       "sentenceIndex": 20,
@@ -842,12 +694,8 @@ export default {
         "marked a major milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-09": "本句指「標誌或紀念一個重要階段」。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-11": "「具有重大階段性意義的事件」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-09": "本句的「marked a major milestone」指「標誌或紀念一個重要階段」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-09"
     },
@@ -859,11 +707,7 @@ export default {
       "masked": "The launch ____ for the company.",
       "options": [
         "milestone-mcq-09",
-        "milestone-mcq-08",
-        "milestone-mcq-10",
-        "milestone-mcq-07",
-        "milestone-mcq-11",
-        "milestone-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「marks a milestone」指「標誌或紀念一個重要階段」。",
       "sentenceIndex": 21,
@@ -872,12 +716,8 @@ export default {
         "marks a milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-09": "本句指「標誌或紀念一個重要階段」。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。",
-        "milestone-mcq-11": "「具有重大階段性意義的事件」與本句語境不同。",
-        "milestone-mcq-06": "「標誌重大進步或意義的成就；里程碑式成就」與本句語境不同。"
+        "milestone-mcq-09": "本句的「marks a milestone」指「標誌或紀念一個重要階段」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-09"
     },
@@ -889,11 +729,7 @@ export default {
       "masked": "Passing the exam felt like a ____.",
       "options": [
         "milestone-mcq-10",
-        "milestone-mcq-09",
-        "milestone-mcq-11",
-        "milestone-mcq-08",
-        "milestone-mcq-12",
-        "milestone-mcq-07"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「small milestone」指「規模不大但仍有意義的重要進展」。",
       "sentenceIndex": 22,
@@ -902,12 +738,8 @@ export default {
         "small milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-10": "本句指「規模不大但仍有意義的重要進展」。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-11": "「具有重大階段性意義的事件」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-12": "「標誌重大進展或改變的重要時刻」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。"
+        "milestone-mcq-10": "本句的「small milestone」指「規模不大但仍有意義的重要進展」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-10"
     },
@@ -919,11 +751,7 @@ export default {
       "masked": "Even a ____ can feel meaningful.",
       "options": [
         "milestone-mcq-10",
-        "milestone-mcq-09",
-        "milestone-mcq-11",
-        "milestone-mcq-08",
-        "milestone-mcq-12",
-        "milestone-mcq-07"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「small milestone」指「規模不大但仍有意義的重要進展」。",
       "sentenceIndex": 23,
@@ -932,12 +760,8 @@ export default {
         "small milestone"
       ],
       "optionReasons": {
-        "milestone-mcq-10": "本句指「規模不大但仍有意義的重要進展」。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-11": "「具有重大階段性意義的事件」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-12": "「標誌重大進展或改變的重要時刻」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。"
+        "milestone-mcq-10": "本句的「small milestone」指「規模不大但仍有意義的重要進展」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-10"
     },
@@ -949,11 +773,7 @@ export default {
       "masked": "The signing was a ____ in the negotiations.",
       "options": [
         "milestone-mcq-11",
-        "milestone-mcq-10",
-        "milestone-mcq-12",
-        "milestone-mcq-09",
-        "milestone-mcq-08",
-        "milestone-mcq-07"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone event」指「具有重大階段性意義的事件」。",
       "sentenceIndex": 24,
@@ -962,12 +782,8 @@ export default {
         "milestone event"
       ],
       "optionReasons": {
-        "milestone-mcq-11": "本句指「具有重大階段性意義的事件」。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-12": "「標誌重大進展或改變的重要時刻」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。"
+        "milestone-mcq-11": "本句的「milestone event」指「具有重大階段性意義的事件」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-11"
     },
@@ -979,11 +795,7 @@ export default {
       "masked": "The invention became a ____ in modern technology.",
       "options": [
         "milestone-mcq-11",
-        "milestone-mcq-10",
-        "milestone-mcq-12",
-        "milestone-mcq-09",
-        "milestone-mcq-08",
-        "milestone-mcq-07"
+        "milestone-mcq-01"
       ],
       "explanation": "本句的「milestone event」指「具有重大階段性意義的事件」。",
       "sentenceIndex": 25,
@@ -992,12 +804,8 @@ export default {
         "milestone event"
       ],
       "optionReasons": {
-        "milestone-mcq-11": "本句指「具有重大階段性意義的事件」。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-12": "「標誌重大進展或改變的重要時刻」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。"
+        "milestone-mcq-11": "本句的「milestone event」指「具有重大階段性意義的事件」。",
+        "milestone-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-11"
     },
@@ -1009,11 +817,7 @@ export default {
       "masked": "It was a ____ in her career.",
       "options": [
         "milestone-mcq-12",
-        "milestone-mcq-11",
-        "milestone-mcq-10",
-        "milestone-mcq-09",
-        "milestone-mcq-08",
-        "milestone-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「milestone moment」指「標誌重大進展或改變的重要時刻」。",
       "sentenceIndex": 26,
@@ -1022,12 +826,8 @@ export default {
         "milestone moment"
       ],
       "optionReasons": {
-        "milestone-mcq-12": "本句指「標誌重大進展或改變的重要時刻」。",
-        "milestone-mcq-11": "「具有重大階段性意義的事件」與本句語境不同。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。"
+        "milestone-mcq-12": "本句的「milestone moment」指「標誌重大進展或改變的重要時刻」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-12"
     },
@@ -1039,11 +839,7 @@ export default {
       "masked": "Winning the award was a ____ for the team.",
       "options": [
         "milestone-mcq-12",
-        "milestone-mcq-11",
-        "milestone-mcq-10",
-        "milestone-mcq-09",
-        "milestone-mcq-08",
-        "milestone-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「milestone moment」指「標誌重大進展或改變的重要時刻」。",
       "sentenceIndex": 27,
@@ -1052,12 +848,8 @@ export default {
         "milestone moment"
       ],
       "optionReasons": {
-        "milestone-mcq-12": "本句指「標誌重大進展或改變的重要時刻」。",
-        "milestone-mcq-11": "「具有重大階段性意義的事件」與本句語境不同。",
-        "milestone-mcq-10": "「規模不大但仍有意義的重要進展」與本句語境不同。",
-        "milestone-mcq-09": "「標誌或紀念一個重要階段」與本句語境不同。",
-        "milestone-mcq-08": "「達到一個重要發展階段或成就」與本句語境不同。",
-        "milestone-mcq-07": "「被視為特別重要的生日／週年紀念」與本句語境不同。"
+        "milestone-mcq-12": "本句的「milestone moment」指「標誌重大進展或改變的重要時刻」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "milestone-mcq-12"
     }
@@ -1069,5 +861,12 @@ export default {
     "sha256": "d56df7d10e63d589bd2a595fa902b76bf4fca4f37f6c374693c9e310b6acaff5",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

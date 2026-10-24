@@ -492,11 +492,9 @@ export default {
       "masked": "The glasses made him look serious ____.",
       "options": [
         "sight-mcq-01",
-        "sight-mcq-02",
-        "sight-mcq-04",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-08"
+        "sight-mcq-11",
+        "sight-mcq-19",
+        "sight-mcq-03"
       ],
       "explanation": "本句的「at first sight」指「第一眼；乍看之下」。",
       "sentenceIndex": 0,
@@ -505,12 +503,10 @@ export default {
         "at first sight"
       ],
       "optionReasons": {
-        "sight-mcq-01": "本句指「第一眼；乍看之下」。",
-        "sight-mcq-02": "「視力」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-01": "本句的「at first sight」指「第一眼；乍看之下」。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-01"
     },
@@ -522,9 +518,7 @@ export default {
       "masked": "____, the problem looked simple.",
       "options": [
         "sight-mcq-01",
-        "sight-mcq-02",
-        "sight-mcq-04",
-        "sight-mcq-05",
+        "sight-mcq-19",
         "sight-mcq-06",
         "sight-mcq-08"
       ],
@@ -535,12 +529,10 @@ export default {
         "At first sight"
       ],
       "optionReasons": {
-        "sight-mcq-01": "本句指「第一眼；乍看之下」。",
-        "sight-mcq-02": "「視力」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-01": "本句的「At first sight」指「第一眼；乍看之下」。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-01"
     },
@@ -552,10 +544,8 @@ export default {
       "masked": "The building seems ordinary ____.",
       "options": [
         "sight-mcq-01",
-        "sight-mcq-02",
-        "sight-mcq-04",
-        "sight-mcq-05",
-        "sight-mcq-06",
+        "sight-mcq-11",
+        "sight-pdf-001",
         "sight-mcq-08"
       ],
       "explanation": "本句的「at first sight」指「第一眼；乍看之下」。",
@@ -565,12 +555,10 @@ export default {
         "at first sight"
       ],
       "optionReasons": {
-        "sight-mcq-01": "本句指「第一眼；乍看之下」。",
-        "sight-mcq-02": "「視力」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-01": "本句的「at first sight」指「第一眼；乍看之下」。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-01"
     },
@@ -582,11 +570,9 @@ export default {
       "masked": "His ____ has become worse with age.",
       "options": [
         "sight-mcq-02",
-        "sight-mcq-01",
-        "sight-mcq-04",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-08"
+        "sight-mcq-14",
+        "sight-mcq-11",
+        "sight-mcq-18"
       ],
       "explanation": "本句的「sight」指「視力」。",
       "sentenceIndex": 3,
@@ -595,12 +581,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-02": "本句指「視力」。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-02": "本句的「sight」指「視力」。",
+        "sight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-02"
     },
@@ -612,11 +596,9 @@ export default {
       "masked": "She gradually lost her ____.",
       "options": [
         "sight-mcq-02",
-        "sight-mcq-01",
-        "sight-mcq-04",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-08"
+        "sight-mcq-15",
+        "sight-mcq-12",
+        "sight-mcq-18"
       ],
       "explanation": "本句的「sight」指「視力」。",
       "sentenceIndex": 4,
@@ -625,12 +607,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-02": "本句指「視力」。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-02": "本句的「sight」指「視力」。",
+        "sight-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-02"
     },
@@ -642,11 +622,9 @@ export default {
       "masked": "Reading in poor light can strain your ____.",
       "options": [
         "sight-mcq-03",
-        "sight-mcq-04",
-        "sight-mcq-01",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-08"
+        "sight-mcq-14",
+        "sight-mcq-11",
+        "sight-mcq-09"
       ],
       "explanation": "本句的「eyesight」指「視力」。",
       "sentenceIndex": 5,
@@ -655,12 +633,10 @@ export default {
         "eyesight"
       ],
       "optionReasons": {
-        "sight-mcq-03": "本句指「視力」。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-03": "本句的「eyesight」指「視力」。",
+        "sight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-03"
     },
@@ -672,11 +648,9 @@ export default {
       "masked": "His ____ is excellent.",
       "options": [
         "sight-mcq-03",
-        "sight-mcq-04",
-        "sight-mcq-01",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-08"
+        "sight-mcq-18",
+        "sight-mcq-08",
+        "sight-mcq-11"
       ],
       "explanation": "本句的「eyesight」指「視力」。",
       "sentenceIndex": 6,
@@ -685,12 +659,10 @@ export default {
         "eyesight"
       ],
       "optionReasons": {
-        "sight-mcq-03": "本句指「視力」。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-03": "本句的「eyesight」指「視力」。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-03"
     },
@@ -702,11 +674,9 @@ export default {
       "masked": "The car disappeared from ____.",
       "options": [
         "sight-mcq-04",
-        "sight-mcq-03",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-01",
-        "sight-mcq-08"
+        "sight-mcq-12",
+        "sight-mcq-19",
+        "sight-mcq-16"
       ],
       "explanation": "本句的「sight」指「看得見」。",
       "sentenceIndex": 7,
@@ -715,12 +685,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-04": "本句指「看得見」。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-04": "本句的「sight」指「看得見」。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-04"
     },
@@ -732,11 +700,9 @@ export default {
       "masked": "The mountains came into ____.",
       "options": [
         "sight-mcq-04",
-        "sight-mcq-03",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-01",
-        "sight-mcq-08"
+        "sight-mcq-18",
+        "sight-mcq-11",
+        "sight-mcq-10"
       ],
       "explanation": "本句的「sight」指「看得見」。",
       "sentenceIndex": 8,
@@ -745,12 +711,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-04": "本句指「看得見」。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-04": "本句的「sight」指「看得見」。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-04"
     },
@@ -762,11 +726,9 @@ export default {
       "masked": "The station is finally ____.",
       "options": [
         "sight-mcq-04",
+        "sight-mcq-10",
         "sight-mcq-03",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-01",
-        "sight-mcq-08"
+        "sight-mcq-20"
       ],
       "explanation": "本句的「in sight」指「看得見」。",
       "sentenceIndex": 9,
@@ -775,12 +737,10 @@ export default {
         "in sight"
       ],
       "optionReasons": {
-        "sight-mcq-04": "本句指「看得見」。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-04": "本句的「in sight」指「看得見」。",
+        "sight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-04"
     },
@@ -792,11 +752,9 @@ export default {
       "masked": "There was no one ____.",
       "options": [
         "sight-mcq-04",
-        "sight-mcq-03",
-        "sight-mcq-05",
-        "sight-mcq-06",
-        "sight-mcq-01",
-        "sight-mcq-08"
+        "sight-mcq-16",
+        "sight-mcq-20",
+        "sight-mcq-03"
       ],
       "explanation": "本句的「in sight」指「看得見」。",
       "sentenceIndex": 10,
@@ -805,12 +763,10 @@ export default {
         "in sight"
       ],
       "optionReasons": {
-        "sight-mcq-04": "本句指「看得見」。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-04": "本句的「in sight」指「看得見」。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-04"
     },
@@ -822,11 +778,9 @@ export default {
       "masked": "The boat soon moved ____.",
       "options": [
         "sight-mcq-05",
-        "sight-mcq-04",
-        "sight-mcq-06",
-        "sight-mcq-03",
-        "sight-mcq-08",
-        "sight-mcq-01"
+        "sight-mcq-16",
+        "sight-mcq-12",
+        "sight-mcq-03"
       ],
       "explanation": "本句的「out of sight」指「看不見」。",
       "sentenceIndex": 11,
@@ -835,12 +789,10 @@ export default {
         "out of sight"
       ],
       "optionReasons": {
-        "sight-mcq-05": "本句指「看不見」。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。"
+        "sight-mcq-05": "本句的「out of sight」指「看不見」。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-05"
     },
@@ -852,11 +804,9 @@ export default {
       "masked": "Keep the documents ____.",
       "options": [
         "sight-mcq-05",
-        "sight-mcq-04",
-        "sight-mcq-06",
-        "sight-mcq-03",
-        "sight-mcq-08",
-        "sight-mcq-01"
+        "sight-mcq-02",
+        "sight-mcq-19",
+        "sight-mcq-20"
       ],
       "explanation": "本句的「out of sight」指「看不見」。",
       "sentenceIndex": 12,
@@ -865,12 +815,10 @@ export default {
         "out of sight"
       ],
       "optionReasons": {
-        "sight-mcq-05": "本句指「看不見」。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-01": "「第一眼；乍看之下」與本句語境不同。"
+        "sight-mcq-05": "本句的「out of sight」指「看不見」。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-05"
     },
@@ -882,10 +830,8 @@ export default {
       "masked": "Stay ____ of the group.",
       "options": [
         "sight-mcq-06",
+        "sight-mcq-12",
         "sight-mcq-05",
-        "sight-mcq-04",
-        "sight-mcq-08",
-        "sight-mcq-03",
         "sight-mcq-09"
       ],
       "explanation": "本句的「within sight」指「在視線範圍內」。",
@@ -895,12 +841,10 @@ export default {
         "within sight"
       ],
       "optionReasons": {
-        "sight-mcq-06": "本句指「在視線範圍內」。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。"
+        "sight-mcq-06": "本句的「within sight」指「在視線範圍內」。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-06"
     },
@@ -912,11 +856,9 @@ export default {
       "masked": "The village was ____.",
       "options": [
         "sight-mcq-06",
-        "sight-mcq-05",
-        "sight-mcq-04",
-        "sight-mcq-08",
-        "sight-mcq-03",
-        "sight-mcq-09"
+        "sight-pdf-001",
+        "sight-mcq-10",
+        "sight-mcq-08"
       ],
       "explanation": "本句的「within sight」指「在視線範圍內」。",
       "sentenceIndex": 14,
@@ -925,12 +867,10 @@ export default {
         "within sight"
       ],
       "optionReasons": {
-        "sight-mcq-06": "本句指「在視線範圍內」。",
-        "sight-mcq-05": "「看不見」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-03": "「視力」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。"
+        "sight-mcq-06": "本句的「within sight」指「在視線範圍內」。",
+        "sight-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-06"
     },
@@ -942,11 +882,9 @@ export default {
       "masked": "We ____ in the fog.",
       "options": [
         "sight-mcq-07",
-        "sight-mcq-06",
-        "sight-mcq-08",
-        "sight-mcq-09",
-        "sight-mcq-04",
-        "sight-mcq-10"
+        "sight-mcq-02",
+        "sight-mcq-16",
+        "sight-mcq-20"
       ],
       "explanation": "本句的「lost sight of the boat」指「看不見」。",
       "sentenceIndex": 15,
@@ -955,12 +893,10 @@ export default {
         "lost sight of the boat"
       ],
       "optionReasons": {
-        "sight-mcq-07": "本句指「看不見」。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。"
+        "sight-mcq-07": "本句的「lost sight of the boat」指「看不見」。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-07"
     },
@@ -973,10 +909,8 @@ export default {
       "options": [
         "sight-mcq-07",
         "sight-mcq-06",
-        "sight-mcq-08",
-        "sight-mcq-09",
-        "sight-mcq-04",
-        "sight-mcq-10"
+        "sight-mcq-20",
+        "sight-mcq-09"
       ],
       "explanation": "本句的「lose sight of the children」指「看不見」。",
       "sentenceIndex": 16,
@@ -985,12 +919,10 @@ export default {
         "lose sight of the children"
       ],
       "optionReasons": {
-        "sight-mcq-07": "本句指「看不見」。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-04": "「看得見」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。"
+        "sight-mcq-07": "本句的「lose sight of the children」指「看不見」。",
+        "sight-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-07"
     },
@@ -1002,11 +934,9 @@ export default {
       "masked": "I ____ across the street.",
       "options": [
         "sight-mcq-08",
-        "sight-mcq-07",
-        "sight-mcq-09",
-        "sight-mcq-06",
-        "sight-mcq-10",
-        "sight-mcq-11"
+        "sight-mcq-01",
+        "sight-mcq-18",
+        "sight-mcq-16"
       ],
       "explanation": "本句的「caught sight of him」指「突然瞥見」。",
       "sentenceIndex": 17,
@@ -1015,12 +945,10 @@ export default {
         "caught sight of him"
       ],
       "optionReasons": {
-        "sight-mcq-08": "本句指「突然瞥見」。",
-        "sight-mcq-07": "「看不見」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。"
+        "sight-mcq-08": "本句的「caught sight of him」指「突然瞥見」。",
+        "sight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-08"
     },
@@ -1032,11 +960,9 @@ export default {
       "masked": "She ____ in the mirror.",
       "options": [
         "sight-mcq-08",
-        "sight-mcq-07",
-        "sight-mcq-09",
-        "sight-mcq-06",
-        "sight-mcq-10",
-        "sight-mcq-11"
+        "sight-mcq-01",
+        "sight-mcq-11",
+        "sight-mcq-19"
       ],
       "explanation": "本句的「caught sight of herself」指「突然瞥見」。",
       "sentenceIndex": 18,
@@ -1045,12 +971,10 @@ export default {
         "caught sight of herself"
       ],
       "optionReasons": {
-        "sight-mcq-08": "本句指「突然瞥見」。",
-        "sight-mcq-07": "「看不見」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。"
+        "sight-mcq-08": "本句的「caught sight of herself」指「突然瞥見」。",
+        "sight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-08"
     },
@@ -1062,11 +986,9 @@ export default {
       "masked": "The sunset was a beautiful ____.",
       "options": [
         "sight-mcq-09",
-        "sight-mcq-08",
-        "sight-mcq-10",
-        "sight-mcq-07",
-        "sight-mcq-11",
-        "sight-mcq-06"
+        "sight-mcq-16",
+        "sight-mcq-05",
+        "sight-mcq-02"
       ],
       "explanation": "本句的「sight」指「美麗景象」。",
       "sentenceIndex": 19,
@@ -1075,12 +997,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-09": "本句指「美麗景象」。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-07": "「看不見」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。"
+        "sight-mcq-09": "本句的「sight」指「美麗景象」。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-09"
     },
@@ -1092,11 +1012,9 @@ export default {
       "masked": "The empty classroom was a strange ____.",
       "options": [
         "sight-mcq-09",
-        "sight-mcq-08",
-        "sight-mcq-10",
-        "sight-mcq-07",
-        "sight-mcq-11",
-        "sight-mcq-06"
+        "sight-mcq-12",
+        "sight-mcq-02",
+        "sight-mcq-04"
       ],
       "explanation": "本句的「sight」指「美麗景象」。",
       "sentenceIndex": 20,
@@ -1105,12 +1023,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-09": "本句指「美麗景象」。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-07": "「看不見」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。"
+        "sight-mcq-09": "本句的「sight」指「美麗景象」。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-09"
     },
@@ -1122,11 +1038,9 @@ export default {
       "masked": "The old building was a ____.",
       "options": [
         "sight-pdf-001",
-        "sight-mcq-08",
-        "sight-mcq-10",
-        "sight-mcq-07",
-        "sight-mcq-11",
-        "sight-mcq-06"
+        "sight-mcq-03",
+        "sight-mcq-12",
+        "sight-mcq-16"
       ],
       "explanation": "本句的「familiar sight」指「某個帶有特定感受或評價的所見景象」。",
       "sentenceIndex": 21,
@@ -1135,12 +1049,10 @@ export default {
         "familiar sight"
       ],
       "optionReasons": {
-        "sight-pdf-001": "本句指「某個帶有特定感受或評價的所見景象」。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-07": "「看不見」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。"
+        "sight-pdf-001": "本句的「familiar sight」指「某個帶有特定感受或評價的所見景象」。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-pdf-001"
     },
@@ -1152,11 +1064,9 @@ export default {
       "masked": "After hours of walking, the hotel was a ____.",
       "options": [
         "sight-pdf-001",
-        "sight-mcq-08",
-        "sight-mcq-10",
-        "sight-mcq-07",
-        "sight-mcq-11",
-        "sight-mcq-06"
+        "sight-mcq-03",
+        "sight-mcq-12",
+        "sight-mcq-20"
       ],
       "explanation": "本句的「welcome sight」指「某個帶有特定感受或評價的所見景象」。",
       "sentenceIndex": 22,
@@ -1165,12 +1075,10 @@ export default {
         "welcome sight"
       ],
       "optionReasons": {
-        "sight-pdf-001": "本句指「某個帶有特定感受或評價的所見景象」。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-07": "「看不見」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-06": "「在視線範圍內」與本句語境不同。"
+        "sight-pdf-001": "本句的「welcome sight」指「某個帶有特定感受或評價的所見景象」。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-pdf-001"
     },
@@ -1182,11 +1090,9 @@ export default {
       "masked": "We spent the afternoon seeing the ____.",
       "options": [
         "sight-mcq-10",
-        "sight-mcq-09",
-        "sight-mcq-11",
-        "sight-mcq-08",
-        "sight-mcq-12",
-        "sight-mcq-07"
+        "sight-mcq-02",
+        "sight-mcq-20",
+        "sight-mcq-18"
       ],
       "explanation": "本句的「sights」指「名勝景點」。",
       "sentenceIndex": 23,
@@ -1195,12 +1101,10 @@ export default {
         "sights"
       ],
       "optionReasons": {
-        "sight-mcq-10": "本句指「名勝景點」。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-07": "「看不見」與本句語境不同。"
+        "sight-mcq-10": "本句的「sights」指「名勝景點」。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-10"
     },
@@ -1212,11 +1116,9 @@ export default {
       "masked": "The city has many famous ____.",
       "options": [
         "sight-mcq-10",
-        "sight-mcq-09",
-        "sight-mcq-11",
-        "sight-mcq-08",
-        "sight-mcq-12",
-        "sight-mcq-07"
+        "sight-mcq-14",
+        "sight-mcq-20",
+        "sight-mcq-12"
       ],
       "explanation": "本句的「sights」指「名勝景點」。",
       "sentenceIndex": 24,
@@ -1225,12 +1127,10 @@ export default {
         "sights"
       ],
       "optionReasons": {
-        "sight-mcq-10": "本句指「名勝景點」。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-07": "「看不見」與本句語境不同。"
+        "sight-mcq-10": "本句的「sights」指「名勝景點」。",
+        "sight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-10"
     },
@@ -1242,11 +1142,9 @@ export default {
       "masked": "We went ____ in the old town.",
       "options": [
         "sight-mcq-11",
-        "sight-mcq-10",
-        "sight-mcq-12",
-        "sight-mcq-09",
-        "sight-mcq-13",
-        "sight-mcq-08"
+        "sight-mcq-14",
+        "sight-mcq-18",
+        "sight-mcq-09"
       ],
       "explanation": "本句的「sightseeing」指「觀光」。",
       "sentenceIndex": 25,
@@ -1255,12 +1153,10 @@ export default {
         "sightseeing"
       ],
       "optionReasons": {
-        "sight-mcq-11": "本句指「觀光」。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-11": "本句的「sightseeing」指「觀光」。",
+        "sight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-11"
     },
@@ -1272,11 +1168,9 @@ export default {
       "masked": "They spent two days ____.",
       "options": [
         "sight-mcq-11",
-        "sight-mcq-10",
-        "sight-mcq-12",
-        "sight-mcq-09",
-        "sight-mcq-13",
-        "sight-mcq-08"
+        "sight-mcq-15",
+        "sight-mcq-19",
+        "sight-mcq-20"
       ],
       "explanation": "本句的「sightseeing」指「觀光」。",
       "sentenceIndex": 26,
@@ -1285,12 +1179,10 @@ export default {
         "sightseeing"
       ],
       "optionReasons": {
-        "sight-mcq-11": "本句指「觀光」。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-08": "「突然瞥見」與本句語境不同。"
+        "sight-mcq-11": "本句的「sightseeing」指「觀光」。",
+        "sight-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-11"
     },
@@ -1302,11 +1194,9 @@ export default {
       "masked": "The square was full of ____.",
       "options": [
         "sight-mcq-12",
-        "sight-mcq-11",
-        "sight-mcq-13",
-        "sight-mcq-10",
-        "sight-mcq-14",
-        "sight-mcq-09"
+        "sight-mcq-20",
+        "sight-mcq-08",
+        "sight-mcq-03"
       ],
       "explanation": "本句的「sightseers」指「觀光客」。",
       "sentenceIndex": 27,
@@ -1315,12 +1205,10 @@ export default {
         "sightseers"
       ],
       "optionReasons": {
-        "sight-mcq-12": "本句指「觀光客」。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。"
+        "sight-mcq-12": "本句的「sightseers」指「觀光客」。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-12"
     },
@@ -1332,11 +1220,9 @@ export default {
       "masked": "The museum attracts thousands of ____.",
       "options": [
         "sight-mcq-12",
-        "sight-mcq-11",
-        "sight-mcq-13",
-        "sight-mcq-10",
-        "sight-mcq-14",
-        "sight-mcq-09"
+        "sight-mcq-08",
+        "sight-mcq-03",
+        "sight-mcq-16"
       ],
       "explanation": "本句的「sightseers」指「觀光客」。",
       "sentenceIndex": 28,
@@ -1345,12 +1231,10 @@ export default {
         "sightseers"
       ],
       "optionReasons": {
-        "sight-mcq-12": "本句指「觀光客」。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-09": "「美麗景象」與本句語境不同。"
+        "sight-mcq-12": "本句的「sightseers」指「觀光客」。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-12"
     },
@@ -1363,10 +1247,8 @@ export default {
       "options": [
         "sight-mcq-13",
         "sight-mcq-12",
-        "sight-mcq-14",
-        "sight-mcq-11",
-        "sight-mcq-15",
-        "sight-mcq-10"
+        "sight-mcq-20",
+        "sight-mcq-19"
       ],
       "explanation": "本句的「sight of blood」指「看見 X」。",
       "sentenceIndex": 29,
@@ -1375,12 +1257,10 @@ export default {
         "sight of blood"
       ],
       "optionReasons": {
-        "sight-mcq-13": "本句指「看見 X」。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。"
+        "sight-mcq-13": "本句的「sight of blood」指「看見 X」。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-13"
     },
@@ -1392,11 +1272,9 @@ export default {
       "masked": "She smiled at the ____.",
       "options": [
         "sight-mcq-13",
-        "sight-mcq-12",
-        "sight-mcq-14",
-        "sight-mcq-11",
-        "sight-mcq-15",
-        "sight-mcq-10"
+        "sight-mcq-16",
+        "sight-mcq-02",
+        "sight-mcq-20"
       ],
       "explanation": "本句的「sight of her friend」指「看見 X」。",
       "sentenceIndex": 30,
@@ -1405,12 +1283,10 @@ export default {
         "sight of her friend"
       ],
       "optionReasons": {
-        "sight-mcq-13": "本句指「看見 X」。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-10": "「名勝景點」與本句語境不同。"
+        "sight-mcq-13": "本句的「sight of her friend」指「看見 X」。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-13"
     },
@@ -1422,11 +1298,9 @@ export default {
       "masked": "The child cried ____.",
       "options": [
         "sight-mcq-14",
-        "sight-mcq-13",
-        "sight-mcq-15",
-        "sight-mcq-12",
-        "sight-mcq-16",
-        "sight-mcq-11"
+        "sight-mcq-03",
+        "sight-mcq-10",
+        "sight-mcq-09"
       ],
       "explanation": "本句的「at the sight of the doctor」指「一看見 X」。",
       "sentenceIndex": 31,
@@ -1435,12 +1309,10 @@ export default {
         "at the sight of the doctor"
       ],
       "optionReasons": {
-        "sight-mcq-14": "本句指「一看見 X」。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。"
+        "sight-mcq-14": "本句的「at the sight of the doctor」指「一看見 X」。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-14"
     },
@@ -1452,10 +1324,8 @@ export default {
       "masked": "He smiled ____.",
       "options": [
         "sight-mcq-14",
-        "sight-mcq-13",
-        "sight-mcq-15",
-        "sight-mcq-12",
-        "sight-mcq-16",
+        "sight-mcq-19",
+        "sight-mcq-02",
         "sight-mcq-11"
       ],
       "explanation": "本句的「at the sight of the gift」指「一看見 X」。",
@@ -1465,12 +1335,10 @@ export default {
         "at the sight of the gift"
       ],
       "optionReasons": {
-        "sight-mcq-14": "本句指「一看見 X」。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-11": "「觀光」與本句語境不同。"
+        "sight-mcq-14": "本句的「at the sight of the gift」指「一看見 X」。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-14"
     },
@@ -1482,11 +1350,9 @@ export default {
       "masked": "The sailors ____.",
       "options": [
         "sight-mcq-15",
-        "sight-mcq-14",
-        "sight-mcq-16",
-        "sight-mcq-13",
-        "sight-mcq-17",
-        "sight-mcq-12"
+        "sight-mcq-19",
+        "sight-mcq-20",
+        "sight-mcq-03"
       ],
       "explanation": "本句的「sighted land」指「看見；發現」。",
       "sentenceIndex": 33,
@@ -1495,12 +1361,10 @@ export default {
         "sighted land"
       ],
       "optionReasons": {
-        "sight-mcq-15": "本句指「看見；發現」。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。"
+        "sight-mcq-15": "本句的「sighted land」指「看見；發現」。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-15"
     },
@@ -1512,10 +1376,8 @@ export default {
       "masked": "A rare bird was ____ near the lake.",
       "options": [
         "sight-mcq-15",
-        "sight-mcq-14",
-        "sight-mcq-16",
-        "sight-mcq-13",
-        "sight-mcq-17",
+        "sight-mcq-20",
+        "sight-mcq-09",
         "sight-mcq-12"
       ],
       "explanation": "本句的「sighted」指「看見；發現」。",
@@ -1525,12 +1387,10 @@ export default {
         "sighted"
       ],
       "optionReasons": {
-        "sight-mcq-15": "本句指「看見；發現」。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-12": "「觀光客」與本句語境不同。"
+        "sight-mcq-15": "本句的「sighted」指「看見；發現」。",
+        "sight-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-15"
     },
@@ -1542,11 +1402,9 @@ export default {
       "masked": "There have been several ____ of the animal.",
       "options": [
         "sight-mcq-16",
-        "sight-mcq-15",
-        "sight-mcq-17",
-        "sight-mcq-14",
-        "sight-mcq-18",
-        "sight-mcq-13"
+        "sight-mcq-11",
+        "sight-pdf-001",
+        "sight-mcq-08"
       ],
       "explanation": "本句的「sightings」指「目擊；發現」。",
       "sentenceIndex": 35,
@@ -1555,12 +1413,10 @@ export default {
         "sightings"
       ],
       "optionReasons": {
-        "sight-mcq-16": "本句指「目擊；發現」。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。"
+        "sight-mcq-16": "本句的「sightings」指「目擊；發現」。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-16"
     },
@@ -1572,11 +1428,9 @@ export default {
       "masked": "The police received a reported ____ of the missing person.",
       "options": [
         "sight-mcq-16",
-        "sight-mcq-15",
         "sight-mcq-17",
-        "sight-mcq-14",
-        "sight-mcq-18",
-        "sight-mcq-13"
+        "sight-mcq-01",
+        "sight-mcq-11"
       ],
       "explanation": "本句的「sighting」指「目擊；發現」。",
       "sentenceIndex": 36,
@@ -1585,12 +1439,10 @@ export default {
         "sighting"
       ],
       "optionReasons": {
-        "sight-mcq-16": "本句指「目擊；發現」。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-13": "「看見 X」與本句語境不同。"
+        "sight-mcq-16": "本句的「sighting」指「目擊；發現」。",
+        "sight-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-16"
     },
@@ -1602,11 +1454,9 @@ export default {
       "masked": "For them, it was ____.",
       "options": [
         "sight-mcq-17",
-        "sight-mcq-16",
-        "sight-mcq-18",
-        "sight-mcq-15",
-        "sight-mcq-19",
-        "sight-mcq-14"
+        "sight-mcq-03",
+        "sight-mcq-10",
+        "sight-mcq-18"
       ],
       "explanation": "本句的「love at first sight」指「一見鍾情」。",
       "sentenceIndex": 37,
@@ -1615,12 +1465,10 @@ export default {
         "love at first sight"
       ],
       "optionReasons": {
-        "sight-mcq-17": "本句指「一見鍾情」。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-19": "「鎖定 X 為目標」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。"
+        "sight-mcq-17": "本句的「love at first sight」指「一見鍾情」。",
+        "sight-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-17"
     },
@@ -1632,11 +1480,9 @@ export default {
       "masked": "She doesn't believe in ____.",
       "options": [
         "sight-mcq-17",
-        "sight-mcq-16",
-        "sight-mcq-18",
-        "sight-mcq-15",
-        "sight-mcq-19",
-        "sight-mcq-14"
+        "sight-mcq-11",
+        "sight-mcq-09",
+        "sight-mcq-02"
       ],
       "explanation": "本句的「love at first sight」指「一見鍾情」。",
       "sentenceIndex": 38,
@@ -1645,12 +1491,10 @@ export default {
         "love at first sight"
       ],
       "optionReasons": {
-        "sight-mcq-17": "本句指「一見鍾情」。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。",
-        "sight-mcq-19": "「鎖定 X 為目標」與本句語境不同。",
-        "sight-mcq-14": "「一看見 X」與本句語境不同。"
+        "sight-mcq-17": "本句的「love at first sight」指「一見鍾情」。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-17"
     },
@@ -1662,11 +1506,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "sight-mcq-18",
-        "sight-mcq-17",
-        "sight-mcq-19",
-        "sight-mcq-16",
-        "sight-mcq-20",
-        "sight-mcq-15"
+        "sight-mcq-15",
+        "sight-mcq-01",
+        "sight-mcq-08"
       ],
       "explanation": "本句的「lose sight of your main goal」指「忘記／忽略目標」。",
       "sentenceIndex": 41,
@@ -1675,12 +1517,10 @@ export default {
         "lose sight of your main goal"
       ],
       "optionReasons": {
-        "sight-mcq-18": "本句指「忘記／忽略目標」。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-19": "「鎖定 X 為目標」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-20": "「瞄準器」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。"
+        "sight-mcq-18": "本句的「lose sight of your main goal」指「忘記／忽略目標」。",
+        "sight-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-18"
     },
@@ -1692,11 +1532,9 @@ export default {
       "masked": "We must not ____.",
       "options": [
         "sight-mcq-18",
-        "sight-mcq-17",
-        "sight-mcq-19",
-        "sight-mcq-16",
-        "sight-mcq-20",
-        "sight-mcq-15"
+        "sight-mcq-05",
+        "sight-mcq-09",
+        "sight-mcq-06"
       ],
       "explanation": "本句的「lose sight of the original purpose」指「忘記／忽略目標」。",
       "sentenceIndex": 42,
@@ -1705,12 +1543,10 @@ export default {
         "lose sight of the original purpose"
       ],
       "optionReasons": {
-        "sight-mcq-18": "本句指「忘記／忽略目標」。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-19": "「鎖定 X 為目標」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-20": "「瞄準器」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。"
+        "sight-mcq-18": "本句的「lose sight of the original purpose」指「忘記／忽略目標」。",
+        "sight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-18"
     },
@@ -1722,11 +1558,9 @@ export default {
       "masked": "She has ____ becoming a doctor.",
       "options": [
         "sight-mcq-19",
-        "sight-mcq-18",
-        "sight-mcq-20",
-        "sight-mcq-17",
-        "sight-mcq-16",
-        "sight-mcq-15"
+        "sight-mcq-02",
+        "sight-mcq-14",
+        "sight-mcq-09"
       ],
       "explanation": "本句的「set her sights on」指「鎖定 X 為目標」。",
       "sentenceIndex": 43,
@@ -1735,12 +1569,10 @@ export default {
         "set her sights on"
       ],
       "optionReasons": {
-        "sight-mcq-19": "本句指「鎖定 X 為目標」。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-20": "「瞄準器」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。"
+        "sight-mcq-19": "本句的「set her sights on」指「鎖定 X 為目標」。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-19"
     },
@@ -1752,11 +1584,9 @@ export default {
       "masked": "The team ____ the championship.",
       "options": [
         "sight-mcq-19",
-        "sight-mcq-18",
-        "sight-mcq-20",
-        "sight-mcq-17",
-        "sight-mcq-16",
-        "sight-mcq-15"
+        "sight-mcq-09",
+        "sight-mcq-04",
+        "sight-mcq-02"
       ],
       "explanation": "本句的「set its sights on」指「鎖定 X 為目標」。",
       "sentenceIndex": 44,
@@ -1765,12 +1595,10 @@ export default {
         "set its sights on"
       ],
       "optionReasons": {
-        "sight-mcq-19": "本句指「鎖定 X 為目標」。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-20": "「瞄準器」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。"
+        "sight-mcq-19": "本句的「set its sights on」指「鎖定 X 為目標」。",
+        "sight-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-19"
     },
@@ -1782,11 +1610,9 @@ export default {
       "masked": "He looked through the rifle ____.",
       "options": [
         "sight-mcq-20",
-        "sight-mcq-19",
-        "sight-mcq-18",
-        "sight-mcq-17",
-        "sight-mcq-16",
-        "sight-mcq-15"
+        "sight-mcq-05",
+        "sight-mcq-11",
+        "sight-mcq-18"
       ],
       "explanation": "本句的「sight」指「瞄準器」。",
       "sentenceIndex": 45,
@@ -1795,12 +1621,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-20": "本句指「瞄準器」。",
-        "sight-mcq-19": "「鎖定 X 為目標」與本句語境不同。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。"
+        "sight-mcq-20": "本句的「sight」指「瞄準器」。",
+        "sight-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-20"
     },
@@ -1812,11 +1636,9 @@ export default {
       "masked": "The camera has an electronic ____.",
       "options": [
         "sight-mcq-20",
-        "sight-mcq-19",
-        "sight-mcq-18",
-        "sight-mcq-17",
         "sight-mcq-16",
-        "sight-mcq-15"
+        "sight-mcq-13",
+        "sight-mcq-19"
       ],
       "explanation": "本句的「sight」指「瞄準器」。",
       "sentenceIndex": 46,
@@ -1825,12 +1647,10 @@ export default {
         "sight"
       ],
       "optionReasons": {
-        "sight-mcq-20": "本句指「瞄準器」。",
-        "sight-mcq-19": "「鎖定 X 為目標」與本句語境不同。",
-        "sight-mcq-18": "「忘記／忽略目標」與本句語境不同。",
-        "sight-mcq-17": "「一見鍾情」與本句語境不同。",
-        "sight-mcq-16": "「目擊；發現」與本句語境不同。",
-        "sight-mcq-15": "「看見；發現」與本句語境不同。"
+        "sight-mcq-20": "本句的「sight」指「瞄準器」。",
+        "sight-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sight-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sight-mcq-20"
     }
@@ -1842,5 +1662,7 @@ export default {
     "sha256": "0a7509e247a1948a22095a4b7fcb1dc5db9a49d0ecb019739eb4244907e423aa",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

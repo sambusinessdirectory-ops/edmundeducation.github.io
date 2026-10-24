@@ -169,11 +169,7 @@ export default {
       "masked": "Let me give you an ____.",
       "options": [
         "example-mcq-01",
-        "example-mcq-02",
-        "example-mcq-03",
-        "example-mcq-04",
-        "example-mcq-05",
-        "example-mcq-06"
+        "example-mcq-05"
       ],
       "explanation": "本句的「example」指「用來說明、展示或代表某個一般概念的具體案例／例子」。",
       "sentenceIndex": 0,
@@ -182,12 +178,8 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-01": "本句指「用來說明、展示或代表某個一般概念的具體案例／例子」。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-01": "本句的「example」指「用來說明、展示或代表某個一般概念的具體案例／例子」。",
+        "example-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-01"
     },
@@ -199,11 +191,7 @@ export default {
       "masked": "This sentence is a good ____ of formal English.",
       "options": [
         "example-mcq-01",
-        "example-mcq-02",
-        "example-mcq-03",
-        "example-mcq-04",
-        "example-mcq-05",
-        "example-mcq-06"
+        "example-mcq-05"
       ],
       "explanation": "本句的「example」指「用來說明、展示或代表某個一般概念的具體案例／例子」。",
       "sentenceIndex": 1,
@@ -212,12 +200,8 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-01": "本句指「用來說明、展示或代表某個一般概念的具體案例／例子」。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-01": "本句的「example」指「用來說明、展示或代表某個一般概念的具體案例／例子」。",
+        "example-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-01"
     },
@@ -229,10 +213,7 @@ export default {
       "masked": "He taught me through action, repetition, and ____.",
       "options": [
         "example-mcq-02",
-        "example-mcq-01",
         "example-mcq-03",
-        "example-mcq-04",
-        "example-mcq-05",
         "example-mcq-06"
       ],
       "explanation": "本句的「example」指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
@@ -242,12 +223,9 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-02": "本句指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-02": "本句的「example」指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-02"
     },
@@ -259,11 +237,8 @@ export default {
       "masked": "Parents often teach their children by ____.",
       "options": [
         "example-mcq-02",
-        "example-mcq-01",
-        "example-mcq-03",
-        "example-mcq-04",
-        "example-mcq-05",
-        "example-mcq-06"
+        "example-mcq-06",
+        "example-mcq-03"
       ],
       "explanation": "本句的「example」指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
       "sentenceIndex": 3,
@@ -272,12 +247,9 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-02": "本句指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-02": "本句的「example」指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
+        "example-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-02"
     },
@@ -289,11 +261,8 @@ export default {
       "masked": "She set a good ____ for the younger students.",
       "options": [
         "example-mcq-02",
-        "example-mcq-01",
-        "example-mcq-03",
-        "example-mcq-04",
-        "example-mcq-05",
-        "example-mcq-06"
+        "example-mcq-06",
+        "example-mcq-03"
       ],
       "explanation": "本句的「example」指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
       "sentenceIndex": 4,
@@ -302,12 +271,9 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-02": "本句指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-02": "本句的「example」指「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」。",
+        "example-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-02"
     },
@@ -320,10 +286,7 @@ export default {
       "options": [
         "example-mcq-03",
         "example-mcq-02",
-        "example-mcq-04",
-        "example-mcq-01",
-        "example-mcq-05",
-        "example-mcq-06"
+        "example-mcq-07"
       ],
       "explanation": "本句的「example」指「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」。",
       "sentenceIndex": 5,
@@ -332,12 +295,9 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-03": "本句指「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-03": "本句的「example」指「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」。",
+        "example-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-03"
     },
@@ -350,10 +310,7 @@ export default {
       "options": [
         "example-mcq-03",
         "example-mcq-02",
-        "example-mcq-04",
-        "example-mcq-01",
-        "example-mcq-05",
-        "example-mcq-06"
+        "example-mcq-07"
       ],
       "explanation": "本句的「example」指「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」。",
       "sentenceIndex": 6,
@@ -362,12 +319,9 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-03": "本句指「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。"
+        "example-mcq-03": "本句的「example」指「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」。",
+        "example-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-03"
     },
@@ -379,11 +333,7 @@ export default {
       "masked": "The punishment was intended to make an ____ of him.",
       "options": [
         "example-mcq-04",
-        "example-mcq-03",
-        "example-mcq-05",
-        "example-mcq-02",
-        "example-mcq-06",
-        "example-mcq-01"
+        "example-mcq-06"
       ],
       "explanation": "本句的「example」指「被用來警告別人、顯示錯誤行為後果的案例／反面教材」。",
       "sentenceIndex": 7,
@@ -392,12 +342,8 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-04": "本句指「被用來警告別人、顯示錯誤行為後果的案例／反面教材」。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。"
+        "example-mcq-04": "本句的「example」指「被用來警告別人、顯示錯誤行為後果的案例／反面教材」。",
+        "example-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-04"
     },
@@ -409,11 +355,7 @@ export default {
       "masked": "The incident became an ____ of what not to do.",
       "options": [
         "example-mcq-04",
-        "example-mcq-03",
-        "example-mcq-05",
-        "example-mcq-02",
-        "example-mcq-06",
-        "example-mcq-01"
+        "example-mcq-06"
       ],
       "explanation": "本句的「example」指「被用來警告別人、顯示錯誤行為後果的案例／反面教材」。",
       "sentenceIndex": 8,
@@ -422,12 +364,8 @@ export default {
         "example"
       ],
       "optionReasons": {
-        "example-mcq-04": "本句指「被用來警告別人、顯示錯誤行為後果的案例／反面教材」。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。",
-        "example-mcq-01": "「用來說明、展示或代表某個一般概念的具體案例／例子」與本句語境不同。"
+        "example-mcq-04": "本句的「example」指「被用來警告別人、顯示錯誤行為後果的案例／反面教材」。",
+        "example-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-04"
     },
@@ -439,11 +377,8 @@ export default {
       "masked": "Her behaviour was ____.",
       "options": [
         "example-mcq-05",
-        "example-mcq-04",
-        "example-mcq-06",
-        "example-mcq-03",
         "example-mcq-07",
-        "example-mcq-02"
+        "example-mcq-03"
       ],
       "explanation": "本句的「exemplary」指「非常優秀、值得別人仿效的；模範的」。",
       "sentenceIndex": 17,
@@ -452,12 +387,9 @@ export default {
         "exemplary"
       ],
       "optionReasons": {
-        "example-mcq-05": "本句指「非常優秀、值得別人仿效的；模範的」。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-07": "「透過例子來說明概念的過程或方法」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。"
+        "example-mcq-05": "本句的「exemplary」指「非常優秀、值得別人仿效的；模範的」。",
+        "example-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-05"
     },
@@ -469,11 +401,8 @@ export default {
       "masked": "He showed ____ patience.",
       "options": [
         "example-mcq-05",
-        "example-mcq-04",
-        "example-mcq-06",
-        "example-mcq-03",
         "example-mcq-07",
-        "example-mcq-02"
+        "example-mcq-03"
       ],
       "explanation": "本句的「exemplary」指「非常優秀、值得別人仿效的；模範的」。",
       "sentenceIndex": 18,
@@ -482,12 +411,9 @@ export default {
         "exemplary"
       ],
       "optionReasons": {
-        "example-mcq-05": "本句指「非常優秀、值得別人仿效的；模範的」。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-07": "「透過例子來說明概念的過程或方法」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。"
+        "example-mcq-05": "本句的「exemplary」指「非常優秀、值得別人仿效的；模範的」。",
+        "example-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-05"
     },
@@ -499,11 +425,8 @@ export default {
       "masked": "His actions ____ patience.",
       "options": [
         "example-mcq-06",
-        "example-mcq-05",
-        "example-mcq-07",
-        "example-mcq-04",
-        "example-mcq-03",
-        "example-mcq-02"
+        "example-mcq-02",
+        "example-mcq-03"
       ],
       "explanation": "本句的「exemplify」指「成為某種特質、概念或類型的清楚例證／體現」。",
       "sentenceIndex": 19,
@@ -512,12 +435,9 @@ export default {
         "exemplify"
       ],
       "optionReasons": {
-        "example-mcq-06": "本句指「成為某種特質、概念或類型的清楚例證／體現」。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-07": "「透過例子來說明概念的過程或方法」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。"
+        "example-mcq-06": "本句的「exemplify」指「成為某種特質、概念或類型的清楚例證／體現」。",
+        "example-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-06"
     },
@@ -529,11 +449,8 @@ export default {
       "masked": "This case ____ the problem perfectly.",
       "options": [
         "example-mcq-06",
-        "example-mcq-05",
-        "example-mcq-07",
-        "example-mcq-04",
-        "example-mcq-03",
-        "example-mcq-02"
+        "example-mcq-02",
+        "example-mcq-03"
       ],
       "explanation": "本句的「exemplifies」指「成為某種特質、概念或類型的清楚例證／體現」。",
       "sentenceIndex": 20,
@@ -542,12 +459,9 @@ export default {
         "exemplifies"
       ],
       "optionReasons": {
-        "example-mcq-06": "本句指「成為某種特質、概念或類型的清楚例證／體現」。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-07": "「透過例子來說明概念的過程或方法」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。"
+        "example-mcq-06": "本句的「exemplifies」指「成為某種特質、概念或類型的清楚例證／體現」。",
+        "example-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-06"
     },
@@ -559,11 +473,8 @@ export default {
       "masked": "The paragraph uses ____ to explain the idea.",
       "options": [
         "example-mcq-07",
-        "example-mcq-06",
         "example-mcq-05",
-        "example-mcq-04",
-        "example-mcq-03",
-        "example-mcq-02"
+        "example-mcq-03"
       ],
       "explanation": "本句的「exemplification」指「透過例子來說明概念的過程或方法」。",
       "sentenceIndex": 21,
@@ -572,12 +483,9 @@ export default {
         "exemplification"
       ],
       "optionReasons": {
-        "example-mcq-07": "本句指「透過例子來說明概念的過程或方法」。",
-        "example-mcq-06": "「成為某種特質、概念或類型的清楚例證／體現」與本句語境不同。",
-        "example-mcq-05": "「非常優秀、值得別人仿效的；模範的」與本句語境不同。",
-        "example-mcq-04": "「被用來警告別人、顯示錯誤行為後果的案例／反面教材」與本句語境不同。",
-        "example-mcq-03": "「某類事物中具有代表性、能反映該類特徵的個體或案例；與 illustrative-instance 義相關」與本句語境不同。",
-        "example-mcq-02": "「某人的行為或做法可供別人觀察、學習和模仿的榜樣／示範」與本句語境不同。"
+        "example-mcq-07": "本句的「exemplification」指「透過例子來說明概念的過程或方法」。",
+        "example-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "example-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "example-mcq-07"
     }
@@ -589,5 +497,7 @@ export default {
     "sha256": "cdb50fb9743d762bd0df73965ef1e08951f3fa64521dde9202da30f2d6b63527",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

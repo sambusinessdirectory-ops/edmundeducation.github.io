@@ -568,11 +568,8 @@ export default {
       "masked": "His mind moves at lightning ____.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-22",
+        "speed-mcq-14"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 0,
@@ -581,12 +578,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -598,11 +592,8 @@ export default {
       "masked": "The car was travelling at a high ____.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 1,
@@ -611,12 +602,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -628,11 +616,8 @@ export default {
       "masked": "The train gradually increased its ____.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-22",
+        "speed-mcq-14"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 2,
@@ -641,12 +626,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -658,11 +640,8 @@ export default {
       "masked": "I was surprised by the ____ of his recovery.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 3,
@@ -671,12 +650,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -688,11 +664,8 @@ export default {
       "masked": "Technology is changing at an incredible ____.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 4,
@@ -701,12 +674,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -718,11 +688,8 @@ export default {
       "masked": "She completed the task with impressive ____.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-22",
+        "speed-mcq-14"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 5,
@@ -731,12 +698,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -748,11 +712,8 @@ export default {
       "masked": "The emergency team responded with great ____.",
       "options": [
         "speed-mcq-01",
-        "speed-mcq-02",
-        "speed-mcq-03",
-        "speed-mcq-04",
-        "speed-mcq-05",
-        "speed-mcq-06"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed」指「速度；速率」。",
       "sentenceIndex": 6,
@@ -761,12 +722,9 @@ export default {
         "speed"
       ],
       "optionReasons": {
-        "speed-mcq-01": "本句指「速度；速率」。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-01": "本句的「speed」指「速度；速率」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-01"
     },
@@ -778,11 +736,9 @@ export default {
       "masked": "The cyclist took the corner ____.",
       "options": [
         "speed-mcq-04",
-        "speed-mcq-03",
-        "speed-mcq-05",
-        "speed-mcq-02",
-        "speed-mcq-06",
-        "speed-mcq-01"
+        "speed-mcq-22",
+        "speed-mcq-12",
+        "speed-mcq-17"
       ],
       "explanation": "本句的「at speed」指「高速行進中」。",
       "sentenceIndex": 7,
@@ -791,12 +747,10 @@ export default {
         "at speed"
       ],
       "optionReasons": {
-        "speed-mcq-04": "本句指「高速行進中」。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-01": "「速度；速率」是「speed」的用法，與本句語境不同。"
+        "speed-mcq-04": "本句的「at speed」指「高速行進中」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-04"
     },
@@ -808,11 +762,9 @@ export default {
       "masked": "The vehicle hit the barrier ____.",
       "options": [
         "speed-mcq-04",
-        "speed-mcq-03",
-        "speed-mcq-05",
-        "speed-mcq-02",
-        "speed-mcq-06",
-        "speed-mcq-01"
+        "speed-mcq-22",
+        "speed-mcq-12",
+        "speed-mcq-15"
       ],
       "explanation": "本句的「at speed」指「高速行進中」。",
       "sentenceIndex": 8,
@@ -821,12 +773,10 @@ export default {
         "at speed"
       ],
       "optionReasons": {
-        "speed-mcq-04": "本句指「高速行進中」。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-01": "「速度；速率」是「speed」的用法，與本句語境不同。"
+        "speed-mcq-04": "本句的「at speed」指「高速行進中」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-04"
     },
@@ -838,11 +788,8 @@ export default {
       "masked": "The machine can operate safely at ____.",
       "options": [
         "speed-mcq-05",
-        "speed-mcq-04",
-        "speed-mcq-06",
-        "speed-mcq-03",
-        "speed-mcq-07",
-        "speed-mcq-02"
+        "speed-mcq-22",
+        "speed-mcq-14"
       ],
       "explanation": "本句的「high speed」指「高／低速」。",
       "sentenceIndex": 9,
@@ -851,12 +798,9 @@ export default {
         "high speed"
       ],
       "optionReasons": {
-        "speed-mcq-05": "本句指「高／低速」。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。"
+        "speed-mcq-05": "本句的「high speed」指「高／低速」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-05"
     },
@@ -868,11 +812,8 @@ export default {
       "masked": "Drive at ____ on icy roads.",
       "options": [
         "speed-mcq-05",
-        "speed-mcq-04",
-        "speed-mcq-06",
-        "speed-mcq-03",
-        "speed-mcq-07",
-        "speed-mcq-02"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「low speed」指「高／低速」。",
       "sentenceIndex": 10,
@@ -881,12 +822,9 @@ export default {
         "low speed"
       ],
       "optionReasons": {
-        "speed-mcq-05": "本句指「高／低速」。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-02": "「變化／康復速度」是「speed of change/recovery」的用法，與本句語境不同。"
+        "speed-mcq-05": "本句的「low speed」指「高／低速」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-05"
     },
@@ -898,11 +836,9 @@ export default {
       "masked": "The car can reach a ____ of 250 kilometres per hour.",
       "options": [
         "speed-mcq-06",
-        "speed-mcq-05",
-        "speed-mcq-07",
-        "speed-mcq-04",
-        "speed-mcq-08",
-        "speed-mcq-03"
+        "speed-mcq-14",
+        "speed-mcq-15",
+        "speed-mcq-17"
       ],
       "explanation": "本句的「top speed」指「最高速度」。",
       "sentenceIndex": 11,
@@ -911,12 +847,10 @@ export default {
         "top speed"
       ],
       "optionReasons": {
-        "speed-mcq-06": "本句指「最高速度」。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。"
+        "speed-mcq-06": "本句的「top speed」指「最高速度」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-06"
     },
@@ -928,11 +862,9 @@ export default {
       "masked": "The animal can run at ____ for only a short distance.",
       "options": [
         "speed-mcq-06",
-        "speed-mcq-05",
-        "speed-mcq-07",
-        "speed-mcq-04",
-        "speed-mcq-08",
-        "speed-mcq-03"
+        "speed-mcq-14",
+        "speed-mcq-17",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「top speed」指「最高速度」。",
       "sentenceIndex": 12,
@@ -941,12 +873,10 @@ export default {
         "top speed"
       ],
       "optionReasons": {
-        "speed-mcq-06": "本句指「最高速度」。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-03": "「迅速地」是「with speed」的用法，與本句語境不同。"
+        "speed-mcq-06": "本句的「top speed」指「最高速度」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-06"
     },
@@ -958,11 +888,8 @@ export default {
       "masked": "The boat moved ahead at ____.",
       "options": [
         "speed-mcq-07",
-        "speed-mcq-06",
-        "speed-mcq-08",
-        "speed-mcq-05",
-        "speed-mcq-09",
-        "speed-mcq-04"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「full speed」指「全速」。",
       "sentenceIndex": 13,
@@ -971,12 +898,9 @@ export default {
         "full speed"
       ],
       "optionReasons": {
-        "speed-mcq-07": "本句指「全速」。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。"
+        "speed-mcq-07": "本句的「full speed」指「全速」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-07"
     },
@@ -988,11 +912,8 @@ export default {
       "masked": "He ran towards the station at ____.",
       "options": [
         "speed-mcq-07",
-        "speed-mcq-06",
-        "speed-mcq-08",
-        "speed-mcq-05",
-        "speed-mcq-09",
-        "speed-mcq-04"
+        "speed-mcq-12",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「full speed」指「全速」。",
       "sentenceIndex": 14,
@@ -1001,12 +922,9 @@ export default {
         "full speed"
       ],
       "optionReasons": {
-        "speed-mcq-07": "本句指「全速」。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-04": "「高速行進中」是「at speed」的用法，與本句語境不同。"
+        "speed-mcq-07": "本句的「full speed」指「全速」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-07"
     },
@@ -1018,11 +936,9 @@ export default {
       "masked": "The train began to ____ after leaving the station.",
       "options": [
         "speed-mcq-08",
-        "speed-mcq-07",
-        "speed-mcq-09",
-        "speed-mcq-06",
-        "speed-mcq-10",
-        "speed-mcq-05"
+        "speed-mcq-22",
+        "speed-mcq-14",
+        "speed-mcq-15"
       ],
       "explanation": "本句的「pick up speed」指「加速；進展加快」。",
       "sentenceIndex": 15,
@@ -1031,12 +947,10 @@ export default {
         "pick up speed"
       ],
       "optionReasons": {
-        "speed-mcq-08": "本句指「加速；進展加快」。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。"
+        "speed-mcq-08": "本句的「pick up speed」指「加速；進展加快」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-08"
     },
@@ -1048,11 +962,9 @@ export default {
       "masked": "The project is finally ____.",
       "options": [
         "speed-mcq-08",
-        "speed-mcq-07",
-        "speed-mcq-09",
-        "speed-mcq-06",
-        "speed-mcq-10",
-        "speed-mcq-05"
+        "speed-mcq-22",
+        "speed-mcq-17",
+        "speed-mcq-15"
       ],
       "explanation": "本句的「picking up speed」指「加速；進展加快」。",
       "sentenceIndex": 16,
@@ -1061,12 +973,10 @@ export default {
         "picking up speed"
       ],
       "optionReasons": {
-        "speed-mcq-08": "本句指「加速；進展加快」。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-05": "「高／低速」是「high/low speed」的用法，與本句語境不同。"
+        "speed-mcq-08": "本句的「picking up speed」指「加速；進展加快」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-08"
     },
@@ -1078,11 +988,8 @@ export default {
       "masked": "The car began to ____ on the steep hill.",
       "options": [
         "speed-mcq-09",
-        "speed-mcq-08",
-        "speed-mcq-10",
-        "speed-mcq-07",
-        "speed-mcq-11",
-        "speed-mcq-06"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「lose speed」指「減速」。",
       "sentenceIndex": 17,
@@ -1091,12 +998,9 @@ export default {
         "lose speed"
       ],
       "optionReasons": {
-        "speed-mcq-09": "本句指「減速」。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-09": "本句的「lose speed」指「減速」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-09"
     },
@@ -1108,11 +1012,8 @@ export default {
       "masked": "The boat suddenly ____.",
       "options": [
         "speed-mcq-09",
-        "speed-mcq-08",
-        "speed-mcq-10",
-        "speed-mcq-07",
-        "speed-mcq-11",
-        "speed-mcq-06"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「lost speed」指「減速」。",
       "sentenceIndex": 18,
@@ -1121,12 +1022,9 @@ export default {
         "lost speed"
       ],
       "optionReasons": {
-        "speed-mcq-09": "本句指「減速」。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-06": "「最高速度」是「top speed」的用法，與本句語境不同。"
+        "speed-mcq-09": "本句的「lost speed」指「減速」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-09"
     },
@@ -1138,11 +1036,9 @@ export default {
       "masked": "The train ____ as it left the city.",
       "options": [
         "speed-mcq-10",
-        "speed-mcq-09",
-        "speed-mcq-11",
-        "speed-mcq-08",
-        "speed-mcq-12",
-        "speed-mcq-07"
+        "speed-mcq-14",
+        "speed-mcq-22",
+        "speed-mcq-15"
       ],
       "explanation": "本句的「gathered speed」指「逐漸加速」。",
       "sentenceIndex": 19,
@@ -1151,12 +1047,10 @@ export default {
         "gathered speed"
       ],
       "optionReasons": {
-        "speed-mcq-10": "本句指「逐漸加速」。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。"
+        "speed-mcq-10": "本句的「gathered speed」指「逐漸加速」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-10"
     },
@@ -1168,11 +1062,9 @@ export default {
       "masked": "The campaign is ____.",
       "options": [
         "speed-mcq-10",
-        "speed-mcq-09",
-        "speed-mcq-11",
-        "speed-mcq-08",
-        "speed-mcq-12",
-        "speed-mcq-07"
+        "speed-mcq-14",
+        "speed-mcq-22",
+        "speed-mcq-13"
       ],
       "explanation": "本句的「gathering speed」指「逐漸加速」。",
       "sentenceIndex": 20,
@@ -1181,12 +1073,10 @@ export default {
         "gathering speed"
       ],
       "optionReasons": {
-        "speed-mcq-10": "本句指「逐漸加速」。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-07": "「全速」是「full speed」的用法，與本句語境不同。"
+        "speed-mcq-10": "本句的「gathering speed」指「逐漸加速」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-10"
     },
@@ -1198,11 +1088,7 @@ export default {
       "masked": "The driver ____ to overtake the truck.",
       "options": [
         "speed-mcq-11",
-        "speed-mcq-10",
-        "speed-mcq-12",
-        "speed-mcq-09",
-        "speed-mcq-13",
-        "speed-mcq-08"
+        "speed-mcq-22"
       ],
       "explanation": "本句的「sped up」指「加速；加快」。",
       "sentenceIndex": 21,
@@ -1211,12 +1097,8 @@ export default {
         "sped up"
       ],
       "optionReasons": {
-        "speed-mcq-11": "本句指「加速；加快」。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。"
+        "speed-mcq-11": "本句的「sped up」指「加速；加快」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-11"
     },
@@ -1228,11 +1110,7 @@ export default {
       "masked": "We need to ____ the approval process.",
       "options": [
         "speed-mcq-11",
-        "speed-mcq-10",
-        "speed-mcq-12",
-        "speed-mcq-09",
-        "speed-mcq-13",
-        "speed-mcq-08"
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed up」指「加速；加快」。",
       "sentenceIndex": 22,
@@ -1241,12 +1119,8 @@ export default {
         "speed up"
       ],
       "optionReasons": {
-        "speed-mcq-11": "本句指「加速；加快」。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-08": "「加速；進展加快」是「pick up speed」的用法，與本句語境不同。"
+        "speed-mcq-11": "本句的「speed up」指「加速；加快」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-11"
     },
@@ -1258,11 +1132,9 @@ export default {
       "masked": "The new software should ____.",
       "options": [
         "speed-mcq-12",
-        "speed-mcq-11",
         "speed-mcq-13",
-        "speed-mcq-10",
-        "speed-mcq-14",
-        "speed-mcq-09"
+        "speed-mcq-22",
+        "speed-mcq-17"
       ],
       "explanation": "本句的「speed up the process」指「加快某事」。",
       "sentenceIndex": 23,
@@ -1271,12 +1143,10 @@ export default {
         "speed up the process"
       ],
       "optionReasons": {
-        "speed-mcq-12": "本句指「加快某事」。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。"
+        "speed-mcq-12": "本句的「speed up the process」指「加快某事」。",
+        "speed-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-12"
     },
@@ -1288,11 +1158,8 @@ export default {
       "masked": "Extra staff were brought in to ____.",
       "options": [
         "speed-mcq-12",
-        "speed-mcq-11",
-        "speed-mcq-13",
-        "speed-mcq-10",
-        "speed-mcq-14",
-        "speed-mcq-09"
+        "speed-mcq-05",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed things up」指「加快某事」。",
       "sentenceIndex": 24,
@@ -1301,12 +1168,9 @@ export default {
         "speed things up"
       ],
       "optionReasons": {
-        "speed-mcq-12": "本句指「加快某事」。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-09": "「減速」是「lose speed」的用法，與本句語境不同。"
+        "speed-mcq-12": "本句的「speed things up」指「加快某事」。",
+        "speed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-12"
     },
@@ -1318,11 +1182,9 @@ export default {
       "masked": "A motorbike ____.",
       "options": [
         "speed-mcq-13",
-        "speed-mcq-12",
         "speed-mcq-14",
-        "speed-mcq-11",
-        "speed-mcq-15",
-        "speed-mcq-10"
+        "speed-mcq-22",
+        "speed-mcq-08"
       ],
       "explanation": "本句的「sped past us」指「高速駛過」。",
       "sentenceIndex": 25,
@@ -1331,12 +1193,10 @@ export default {
         "sped past us"
       ],
       "optionReasons": {
-        "speed-mcq-13": "本句指「高速駛過」。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。"
+        "speed-mcq-13": "本句的「sped past us」指「高速駛過」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-13"
     },
@@ -1348,11 +1208,9 @@ export default {
       "masked": "The ambulance ____.",
       "options": [
         "speed-mcq-13",
+        "speed-mcq-22",
         "speed-mcq-12",
-        "speed-mcq-14",
-        "speed-mcq-11",
-        "speed-mcq-15",
-        "speed-mcq-10"
+        "speed-mcq-17"
       ],
       "explanation": "本句的「sped through the streets」指「高速駛過」。",
       "sentenceIndex": 26,
@@ -1361,12 +1219,10 @@ export default {
         "sped through the streets"
       ],
       "optionReasons": {
-        "speed-mcq-13": "本句指「高速駛過」。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-10": "「逐漸加速」是「gather speed」的用法，與本句語境不同。"
+        "speed-mcq-13": "本句的「sped through the streets」指「高速駛過」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-13"
     },
@@ -1378,11 +1234,9 @@ export default {
       "masked": "The car ____ the school.",
       "options": [
         "speed-mcq-25",
-        "speed-mcq-24",
-        "speed-mcq-23",
         "speed-mcq-22",
-        "speed-mcq-21",
-        "speed-mcq-20"
+        "speed-mcq-14",
+        "speed-mcq-17"
       ],
       "explanation": "本句的「sped past」指「以很快速度從某人／某物旁邊經過」。",
       "sentenceIndex": 27,
@@ -1391,12 +1245,10 @@ export default {
         "sped past"
       ],
       "optionReasons": {
-        "speed-mcq-25": "本句指「以很快速度從某人／某物旁邊經過」。",
-        "speed-mcq-24": "「速讀」是「speed-read」的用法，與本句語境不同。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。"
+        "speed-mcq-25": "本句的「sped past」指「以很快速度從某人／某物旁邊經過」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-25"
     },
@@ -1408,11 +1260,9 @@ export default {
       "masked": "A cyclist ____ on the path.",
       "options": [
         "speed-mcq-25",
-        "speed-mcq-24",
-        "speed-mcq-23",
         "speed-mcq-22",
-        "speed-mcq-21",
-        "speed-mcq-20"
+        "speed-mcq-17",
+        "speed-mcq-14"
       ],
       "explanation": "本句的「sped past me」指「以很快速度從某人／某物旁邊經過」。",
       "sentenceIndex": 28,
@@ -1421,12 +1271,10 @@ export default {
         "sped past me"
       ],
       "optionReasons": {
-        "speed-mcq-25": "本句指「以很快速度從某人／某物旁邊經過」。",
-        "speed-mcq-24": "「速讀」是「speed-read」的用法，與本句語境不同。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。"
+        "speed-mcq-25": "本句的「sped past me」指「以很快速度從某人／某物旁邊經過」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-25"
     },
@@ -1438,11 +1286,8 @@ export default {
       "masked": "The car ____ before anyone could see the number plate.",
       "options": [
         "speed-mcq-14",
-        "speed-mcq-13",
-        "speed-mcq-15",
-        "speed-mcq-12",
-        "speed-mcq-16",
-        "speed-mcq-11"
+        "speed-mcq-01",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「sped away」指「飛快離去」。",
       "sentenceIndex": 29,
@@ -1451,12 +1296,9 @@ export default {
         "sped away"
       ],
       "optionReasons": {
-        "speed-mcq-14": "本句指「飛快離去」。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。"
+        "speed-mcq-14": "本句的「sped away」指「飛快離去」。",
+        "speed-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-14"
     },
@@ -1468,11 +1310,9 @@ export default {
       "masked": "The motorcyclist ____ down the road.",
       "options": [
         "speed-mcq-14",
-        "speed-mcq-13",
-        "speed-mcq-15",
-        "speed-mcq-12",
-        "speed-mcq-16",
-        "speed-mcq-11"
+        "speed-mcq-18",
+        "speed-mcq-04",
+        "speed-mcq-15"
       ],
       "explanation": "本句的「sped off」指「飛快離去」。",
       "sentenceIndex": 30,
@@ -1481,12 +1321,10 @@ export default {
         "sped off"
       ],
       "optionReasons": {
-        "speed-mcq-14": "本句指「飛快離去」。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-11": "「加速；加快」是「speed up」的用法，與本句語境不同。"
+        "speed-mcq-14": "本句的「sped off」指「飛快離去」。",
+        "speed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-14"
     },
@@ -1498,11 +1336,9 @@ export default {
       "masked": "He was fined for ____.",
       "options": [
         "speed-mcq-15",
-        "speed-mcq-14",
-        "speed-mcq-16",
-        "speed-mcq-13",
-        "speed-mcq-17",
-        "speed-mcq-12"
+        "speed-mcq-22",
+        "speed-mcq-12",
+        "speed-mcq-04"
       ],
       "explanation": "本句的「speeding」指「超速駕駛」。",
       "sentenceIndex": 31,
@@ -1511,12 +1347,10 @@ export default {
         "speeding"
       ],
       "optionReasons": {
-        "speed-mcq-15": "本句指「超速駕駛」。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。"
+        "speed-mcq-15": "本句的「speeding」指「超速駕駛」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-15"
     },
@@ -1528,11 +1362,9 @@ export default {
       "masked": "____ is one of the main causes of serious road accidents.",
       "options": [
         "speed-mcq-15",
-        "speed-mcq-14",
-        "speed-mcq-16",
-        "speed-mcq-13",
-        "speed-mcq-17",
-        "speed-mcq-12"
+        "speed-mcq-12",
+        "speed-mcq-22",
+        "speed-mcq-04"
       ],
       "explanation": "本句的「Speeding」指「超速駕駛」。",
       "sentenceIndex": 32,
@@ -1541,12 +1373,10 @@ export default {
         "Speeding"
       ],
       "optionReasons": {
-        "speed-mcq-15": "本句指「超速駕駛」。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-12": "「加快某事」是「speed something up」的用法，與本句語境不同。"
+        "speed-mcq-15": "本句的「Speeding」指「超速駕駛」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-15"
     },
@@ -1558,11 +1388,8 @@ export default {
       "masked": "The ____ here is 50 kilometres per hour.",
       "options": [
         "speed-mcq-16",
-        "speed-mcq-15",
-        "speed-mcq-17",
-        "speed-mcq-14",
-        "speed-mcq-18",
-        "speed-mcq-13"
+        "speed-mcq-22",
+        "speed-mcq-12"
       ],
       "explanation": "本句的「speed limit」指「車速上限」。",
       "sentenceIndex": 33,
@@ -1571,12 +1398,9 @@ export default {
         "speed limit"
       ],
       "optionReasons": {
-        "speed-mcq-16": "本句指「車速上限」。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。"
+        "speed-mcq-16": "本句的「speed limit」指「車速上限」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-16"
     },
@@ -1588,11 +1412,8 @@ export default {
       "masked": "Drivers must obey the ____.",
       "options": [
         "speed-mcq-16",
-        "speed-mcq-15",
-        "speed-mcq-17",
-        "speed-mcq-14",
-        "speed-mcq-18",
-        "speed-mcq-13"
+        "speed-mcq-12",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed limit」指「車速上限」。",
       "sentenceIndex": 34,
@@ -1601,12 +1422,9 @@ export default {
         "speed limit"
       ],
       "optionReasons": {
-        "speed-mcq-16": "本句指「車速上限」。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-13": "「高速駛過」是「speed past」的用法，與本句語境不同。"
+        "speed-mcq-16": "本句的「speed limit」指「車速上限」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-16"
     },
@@ -1618,11 +1436,9 @@ export default {
       "masked": "A ____ recorded the car travelling too fast.",
       "options": [
         "speed-mcq-17",
-        "speed-mcq-16",
-        "speed-mcq-18",
-        "speed-mcq-15",
-        "speed-mcq-19",
-        "speed-mcq-14"
+        "speed-mcq-14",
+        "speed-mcq-22",
+        "speed-mcq-25"
       ],
       "explanation": "本句的「speed camera」指「測速攝影機」。",
       "sentenceIndex": 35,
@@ -1631,12 +1447,10 @@ export default {
         "speed camera"
       ],
       "optionReasons": {
-        "speed-mcq-17": "本句指「測速攝影機」。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。"
+        "speed-mcq-17": "本句的「speed camera」指「測速攝影機」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-17"
     },
@@ -1648,11 +1462,9 @@ export default {
       "masked": "There are several ____ on this road.",
       "options": [
         "speed-mcq-17",
-        "speed-mcq-16",
-        "speed-mcq-18",
-        "speed-mcq-15",
-        "speed-mcq-19",
-        "speed-mcq-14"
+        "speed-mcq-12",
+        "speed-mcq-22",
+        "speed-mcq-13"
       ],
       "explanation": "本句的「speed cameras」指「測速攝影機」。",
       "sentenceIndex": 36,
@@ -1661,12 +1473,10 @@ export default {
         "speed cameras"
       ],
       "optionReasons": {
-        "speed-mcq-17": "本句指「測速攝影機」。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-14": "「飛快離去」是「speed away/off」的用法，與本句語境不同。"
+        "speed-mcq-17": "本句的「speed cameras」指「測速攝影機」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-17"
     },
@@ -1678,11 +1488,9 @@ export default {
       "masked": "Drivers have to slow down for the ____.",
       "options": [
         "speed-mcq-18",
-        "speed-mcq-17",
-        "speed-mcq-19",
-        "speed-mcq-16",
-        "speed-mcq-20",
-        "speed-mcq-15"
+        "speed-mcq-22",
+        "speed-mcq-14",
+        "speed-mcq-17"
       ],
       "explanation": "本句的「speed bump」指「減速壆／減速帶」。",
       "sentenceIndex": 37,
@@ -1691,12 +1499,10 @@ export default {
         "speed bump"
       ],
       "optionReasons": {
-        "speed-mcq-18": "本句指「減速壆／減速帶」。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。"
+        "speed-mcq-18": "本句的「speed bump」指「減速壆／減速帶」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-18"
     },
@@ -1708,11 +1514,9 @@ export default {
       "masked": "The council installed several ____ near the school.",
       "options": [
         "speed-mcq-18",
-        "speed-mcq-17",
-        "speed-mcq-19",
-        "speed-mcq-16",
-        "speed-mcq-20",
-        "speed-mcq-15"
+        "speed-mcq-14",
+        "speed-mcq-22",
+        "speed-mcq-04"
       ],
       "explanation": "本句的「speed bumps」指「減速壆／減速帶」。",
       "sentenceIndex": 38,
@@ -1721,12 +1525,10 @@ export default {
         "speed bumps"
       ],
       "optionReasons": {
-        "speed-mcq-18": "本句指「減速壆／減速帶」。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-15": "「超速駕駛」是「speeding」的用法，與本句語境不同。"
+        "speed-mcq-18": "本句的「speed bumps」指「減速壆／減速帶」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-18"
     },
@@ -1738,11 +1540,8 @@ export default {
       "masked": "We travelled by ____.",
       "options": [
         "speed-mcq-19",
-        "speed-mcq-18",
-        "speed-mcq-20",
-        "speed-mcq-17",
-        "speed-mcq-21",
-        "speed-mcq-16"
+        "speed-mcq-12",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「high-speed train」指「高速的」。",
       "sentenceIndex": 39,
@@ -1751,12 +1550,9 @@ export default {
         "high-speed train"
       ],
       "optionReasons": {
-        "speed-mcq-19": "本句指「高速的」。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。"
+        "speed-mcq-19": "本句的「high-speed train」指「高速的」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-19"
     },
@@ -1768,11 +1564,8 @@ export default {
       "masked": "The office has ____.",
       "options": [
         "speed-mcq-19",
-        "speed-mcq-18",
-        "speed-mcq-20",
-        "speed-mcq-17",
-        "speed-mcq-21",
-        "speed-mcq-16"
+        "speed-mcq-12",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「high-speed internet」指「高速的」。",
       "sentenceIndex": 40,
@@ -1781,12 +1574,9 @@ export default {
         "high-speed internet"
       ],
       "optionReasons": {
-        "speed-mcq-19": "本句指「高速的」。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-16": "「車速上限」是「speed limit」的用法，與本句語境不同。"
+        "speed-mcq-19": "本句的「high-speed internet」指「高速的」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-19"
     },
@@ -1798,11 +1588,8 @@ export default {
       "masked": "We wish you a ____.",
       "options": [
         "speed-mcq-20",
-        "speed-mcq-19",
-        "speed-mcq-21",
-        "speed-mcq-18",
         "speed-mcq-22",
-        "speed-mcq-17"
+        "speed-mcq-14"
       ],
       "explanation": "本句的「speedy recovery」指「迅速的」。",
       "sentenceIndex": 41,
@@ -1811,12 +1598,9 @@ export default {
         "speedy recovery"
       ],
       "optionReasons": {
-        "speed-mcq-20": "本句指「迅速的」。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。"
+        "speed-mcq-20": "本句的「speedy recovery」指「迅速的」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-20"
     },
@@ -1828,11 +1612,8 @@ export default {
       "masked": "The problem requires a ____.",
       "options": [
         "speed-mcq-20",
-        "speed-mcq-19",
-        "speed-mcq-21",
-        "speed-mcq-18",
         "speed-mcq-22",
-        "speed-mcq-17"
+        "speed-mcq-14"
       ],
       "explanation": "本句的「speedy solution」指「迅速的」。",
       "sentenceIndex": 42,
@@ -1841,12 +1622,9 @@ export default {
         "speedy solution"
       ],
       "optionReasons": {
-        "speed-mcq-20": "本句指「迅速的」。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-17": "「測速攝影機」是「speed camera」的用法，與本句語境不同。"
+        "speed-mcq-20": "本句的「speedy solution」指「迅速的」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-20"
     },
@@ -1858,11 +1636,9 @@ export default {
       "masked": "The documents must be sent ____.",
       "options": [
         "speed-pdf-001",
-        "speed-mcq-20",
         "speed-mcq-22",
-        "speed-mcq-19",
-        "speed-mcq-23",
-        "speed-mcq-18"
+        "speed-mcq-04",
+        "speed-mcq-14"
       ],
       "explanation": "本句的「with all speed」指「非常迅速地；盡快地」。",
       "sentenceIndex": 43,
@@ -1871,12 +1647,10 @@ export default {
         "with all speed"
       ],
       "optionReasons": {
-        "speed-pdf-001": "本句指「非常迅速地；盡快地」。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。"
+        "speed-pdf-001": "本句的「with all speed」指「非常迅速地；盡快地」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-pdf-001"
     },
@@ -1888,11 +1662,9 @@ export default {
       "masked": "The rescue team acted ____.",
       "options": [
         "speed-pdf-001",
-        "speed-mcq-20",
         "speed-mcq-22",
-        "speed-mcq-19",
-        "speed-mcq-23",
-        "speed-mcq-18"
+        "speed-mcq-14",
+        "speed-mcq-15"
       ],
       "explanation": "本句的「with great speed」指「非常迅速地；盡快地」。",
       "sentenceIndex": 44,
@@ -1901,12 +1673,10 @@ export default {
         "with great speed"
       ],
       "optionReasons": {
-        "speed-pdf-001": "本句指「非常迅速地；盡快地」。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-18": "「減速壆／減速帶」是「speed bump」的用法，與本句語境不同。"
+        "speed-pdf-001": "本句的「with great speed」指「非常迅速地；盡快地」。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-pdf-001"
     },
@@ -1918,11 +1688,9 @@ export default {
       "masked": "It took me a few days to get ____ with the new system.",
       "options": [
         "speed-mcq-22",
-        "speed-mcq-21",
-        "speed-mcq-23",
-        "speed-mcq-20",
-        "speed-mcq-24",
-        "speed-mcq-19"
+        "speed-mcq-25",
+        "speed-mcq-17",
+        "speed-mcq-04"
       ],
       "explanation": "本句的「up to speed」指「掌握最新情況／達到要求」。",
       "sentenceIndex": 45,
@@ -1931,12 +1699,10 @@ export default {
         "up to speed"
       ],
       "optionReasons": {
-        "speed-mcq-22": "本句指「掌握最新情況／達到要求」。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-24": "「速讀」是「speed-read」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。"
+        "speed-mcq-22": "本句的「up to speed」指「掌握最新情況／達到要求」。",
+        "speed-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-22"
     },
@@ -1948,11 +1714,8 @@ export default {
       "masked": "Can you bring me ____ on the project?",
       "options": [
         "speed-mcq-22",
-        "speed-mcq-21",
-        "speed-mcq-23",
         "speed-mcq-20",
-        "speed-mcq-24",
-        "speed-mcq-19"
+        "speed-mcq-14"
       ],
       "explanation": "本句的「up to speed」指「掌握最新情況／達到要求」。",
       "sentenceIndex": 46,
@@ -1961,12 +1724,9 @@ export default {
         "up to speed"
       ],
       "optionReasons": {
-        "speed-mcq-22": "本句指「掌握最新情況／達到要求」。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。",
-        "speed-mcq-24": "「速讀」是「speed-read」的用法，與本句語境不同。",
-        "speed-mcq-19": "「高速的」是「high-speed」的用法，與本句語境不同。"
+        "speed-mcq-22": "本句的「up to speed」指「掌握最新情況／達到要求」。",
+        "speed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-22"
     },
@@ -1978,11 +1738,8 @@ export default {
       "masked": "She learned how to ____ academic articles.",
       "options": [
         "speed-mcq-24",
-        "speed-mcq-23",
-        "speed-mcq-25",
-        "speed-mcq-22",
-        "speed-mcq-21",
-        "speed-mcq-20"
+        "speed-mcq-12",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「speed-read」指「速讀」。",
       "sentenceIndex": 47,
@@ -1991,12 +1748,9 @@ export default {
         "speed-read"
       ],
       "optionReasons": {
-        "speed-mcq-24": "本句指「速讀」。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-25": "「以很快速度從某人／某物旁邊經過」是「14. speed past someone/something — 飛快經過」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。"
+        "speed-mcq-24": "本句的「speed-read」指「速讀」。",
+        "speed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-24"
     },
@@ -2008,11 +1762,8 @@ export default {
       "masked": "____ can help when you need to scan a large amount of material.",
       "options": [
         "speed-mcq-24",
-        "speed-mcq-23",
-        "speed-mcq-25",
-        "speed-mcq-22",
-        "speed-mcq-21",
-        "speed-mcq-20"
+        "speed-mcq-14",
+        "speed-mcq-22"
       ],
       "explanation": "本句的「Speed-reading」指「速讀」。",
       "sentenceIndex": 48,
@@ -2021,12 +1772,9 @@ export default {
         "Speed-reading"
       ],
       "optionReasons": {
-        "speed-mcq-24": "本句指「速讀」。",
-        "speed-mcq-23": "「讓某人了解最新情況」是「bring someone up to speed」的用法，與本句語境不同。",
-        "speed-mcq-25": "「以很快速度從某人／某物旁邊經過」是「14. speed past someone/something — 飛快經過」的用法，與本句語境不同。",
-        "speed-mcq-22": "「掌握最新情況／達到要求」是「up to speed」的用法，與本句語境不同。",
-        "speed-mcq-21": "「早日／迅速康復」是「speedy recovery」的用法，與本句語境不同。",
-        "speed-mcq-20": "「迅速的」是「speedy」的用法，與本句語境不同。"
+        "speed-mcq-24": "本句的「Speed-reading」指「速讀」。",
+        "speed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "speed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "speed-mcq-24"
     }
@@ -2038,5 +1786,7 @@ export default {
     "sha256": "49c26fcf3ff2ef849e36853b4f1d3e6197be175936850742cb74db8f57129767",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

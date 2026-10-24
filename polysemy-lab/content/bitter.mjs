@@ -542,11 +542,9 @@ export default {
       "masked": "The medicine tastes ____.",
       "options": [
         "bitter-mcq-01",
-        "bitter-mcq-02",
-        "bitter-mcq-03",
         "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-14",
+        "bitter-mcq-07"
       ],
       "explanation": "本句的「bitter」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
       "sentenceIndex": 0,
@@ -555,12 +553,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-01": "本句指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-01": "本句的「bitter」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-01"
     },
@@ -572,11 +568,9 @@ export default {
       "masked": "The coffee was too ____ for me.",
       "options": [
         "bitter-mcq-01",
-        "bitter-mcq-02",
-        "bitter-mcq-03",
         "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-07",
+        "bitter-mcq-14"
       ],
       "explanation": "本句的「bitter」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
       "sentenceIndex": 1,
@@ -585,12 +579,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-01": "本句指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-01": "本句的「bitter」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-01"
     },
@@ -602,11 +594,9 @@ export default {
       "masked": "The vegetables have a slightly ____.",
       "options": [
         "bitter-mcq-01",
-        "bitter-mcq-02",
-        "bitter-mcq-03",
         "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-07",
+        "bitter-mcq-14"
       ],
       "explanation": "本句的「bitter taste」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
       "sentenceIndex": 2,
@@ -615,12 +605,10 @@ export default {
         "bitter taste"
       ],
       "optionReasons": {
-        "bitter-mcq-01": "本句指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-01": "本句的「bitter taste」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-01"
     },
@@ -632,11 +620,7 @@ export default {
       "masked": "Dark chocolate can have a ____ flavour.",
       "options": [
         "bitter-mcq-01",
-        "bitter-mcq-02",
-        "bitter-mcq-03",
-        "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-16"
       ],
       "explanation": "本句的「bitter」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
       "sentenceIndex": 3,
@@ -645,12 +629,8 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-01": "本句指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-01": "本句的「bitter」指「食物／飲品帶有強烈、通常不令人愉快的苦味」。",
+        "bitter-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-01"
     },
@@ -662,11 +642,9 @@ export default {
       "masked": "She has handled hardship in life without becoming ____.",
       "options": [
         "bitter-mcq-02",
-        "bitter-mcq-01",
-        "bitter-mcq-03",
-        "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-12",
+        "bitter-mcq-17",
+        "bitter-mcq-09"
       ],
       "explanation": "本句的「bitter」指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
       "sentenceIndex": 4,
@@ -675,12 +653,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-02": "本句指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-02": "本句的「bitter」指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-02"
     },
@@ -692,11 +668,9 @@ export default {
       "masked": "He became ____ after years of disappointment.",
       "options": [
         "bitter-mcq-02",
-        "bitter-mcq-01",
-        "bitter-mcq-03",
-        "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-12",
+        "bitter-mcq-15",
+        "bitter-mcq-09"
       ],
       "explanation": "本句的「bitter」指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
       "sentenceIndex": 5,
@@ -705,12 +679,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-02": "本句指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-02": "本句的「bitter」指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-02"
     },
@@ -722,11 +694,9 @@ export default {
       "masked": "She refused to become ____ about what had happened.",
       "options": [
         "bitter-mcq-02",
-        "bitter-mcq-01",
-        "bitter-mcq-03",
-        "bitter-mcq-04",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-12",
+        "bitter-mcq-15",
+        "bitter-mcq-09"
       ],
       "explanation": "本句的「bitter」指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
       "sentenceIndex": 6,
@@ -735,12 +705,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-02": "本句指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-02": "本句的「bitter」指「因痛苦、不公平或失望而長期帶著怨恨和憤怒」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-02"
     },
@@ -752,11 +720,9 @@ export default {
       "masked": "He is still ____ losing his job.",
       "options": [
         "bitter-mcq-03",
-        "bitter-mcq-02",
-        "bitter-mcq-04",
-        "bitter-mcq-01",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-09",
+        "bitter-mcq-17",
+        "bitter-mcq-19"
       ],
       "explanation": "本句的「bitter about」指「因某件不愉快／不公平的事情長時間耿耿於懷」。",
       "sentenceIndex": 7,
@@ -765,12 +731,10 @@ export default {
         "bitter about"
       ],
       "optionReasons": {
-        "bitter-mcq-03": "本句指「因某件不愉快／不公平的事情長時間耿耿於懷」。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-03": "本句的「bitter about」指「因某件不愉快／不公平的事情長時間耿耿於懷」。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-03"
     },
@@ -782,11 +746,8 @@ export default {
       "masked": "She was ____ about the way she had been treated.",
       "options": [
         "bitter-mcq-03",
-        "bitter-mcq-02",
-        "bitter-mcq-04",
-        "bitter-mcq-01",
-        "bitter-mcq-05",
-        "bitter-mcq-06"
+        "bitter-mcq-06",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter」指「因某件不愉快／不公平的事情長時間耿耿於懷」。",
       "sentenceIndex": 8,
@@ -795,12 +756,9 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-03": "本句指「因某件不愉快／不公平的事情長時間耿耿於懷」。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-03": "本句的「bitter」指「因某件不愉快／不公平的事情長時間耿耿於懷」。",
+        "bitter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-03"
     },
@@ -812,11 +770,9 @@ export default {
       "masked": "He became ____ his former colleague.",
       "options": [
         "bitter-mcq-04",
-        "bitter-mcq-03",
-        "bitter-mcq-05",
-        "bitter-mcq-02",
         "bitter-mcq-06",
-        "bitter-mcq-01"
+        "bitter-mcq-15",
+        "bitter-mcq-12"
       ],
       "explanation": "本句的「bitter toward」指「因過去傷害／不公平待遇而對某人持續懷恨」。",
       "sentenceIndex": 9,
@@ -825,12 +781,10 @@ export default {
         "bitter toward"
       ],
       "optionReasons": {
-        "bitter-mcq-04": "本句指「因過去傷害／不公平待遇而對某人持續懷恨」。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。"
+        "bitter-mcq-04": "本句的「bitter toward」指「因過去傷害／不公平待遇而對某人持續懷恨」。",
+        "bitter-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-04"
     },
@@ -842,11 +796,9 @@ export default {
       "masked": "She had every reason to be angry, but she was not ____ toward anyone.",
       "options": [
         "bitter-mcq-04",
-        "bitter-mcq-03",
         "bitter-mcq-05",
-        "bitter-mcq-02",
-        "bitter-mcq-06",
-        "bitter-mcq-01"
+        "bitter-mcq-17",
+        "bitter-mcq-07"
       ],
       "explanation": "本句的「bitter」指「因過去傷害／不公平待遇而對某人持續懷恨」。",
       "sentenceIndex": 10,
@@ -855,12 +807,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-04": "本句指「因過去傷害／不公平待遇而對某人持續懷恨」。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-01": "「食物／飲品帶有強烈、通常不令人愉快的苦味」是「bitter — taste」的用法，與本句語境不同。"
+        "bitter-mcq-04": "本句的「bitter」指「因過去傷害／不公平待遇而對某人持續懷恨」。",
+        "bitter-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-04"
     },
@@ -872,11 +822,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "bitter-mcq-05",
-        "bitter-mcq-04",
-        "bitter-mcq-06",
         "bitter-mcq-03",
         "bitter-mcq-07",
-        "bitter-mcq-02"
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter disappointment」指「強烈、痛苦而令人難以接受的失望」。",
       "sentenceIndex": 11,
@@ -885,12 +833,10 @@ export default {
         "bitter disappointment"
       ],
       "optionReasons": {
-        "bitter-mcq-05": "本句指「強烈、痛苦而令人難以接受的失望」。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。"
+        "bitter-mcq-05": "本句的「bitter disappointment」指「強烈、痛苦而令人難以接受的失望」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-05"
     },
@@ -903,10 +849,8 @@ export default {
       "options": [
         "bitter-mcq-05",
         "bitter-mcq-04",
-        "bitter-mcq-06",
-        "bitter-mcq-03",
         "bitter-mcq-07",
-        "bitter-mcq-02"
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter」指「強烈、痛苦而令人難以接受的失望」。",
       "sentenceIndex": 12,
@@ -915,12 +859,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-05": "本句指「強烈、痛苦而令人難以接受的失望」。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。"
+        "bitter-mcq-05": "本句的「bitter」指「強烈、痛苦而令人難以接受的失望」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-05"
     },
@@ -933,10 +875,8 @@ export default {
       "options": [
         "bitter-mcq-05",
         "bitter-mcq-04",
-        "bitter-mcq-06",
-        "bitter-mcq-03",
-        "bitter-mcq-07",
-        "bitter-mcq-02"
+        "bitter-mcq-12",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter disappointment」指「強烈、痛苦而令人難以接受的失望」。",
       "sentenceIndex": 13,
@@ -945,12 +885,10 @@ export default {
         "bitter disappointment"
       ],
       "optionReasons": {
-        "bitter-mcq-05": "本句指「強烈、痛苦而令人難以接受的失望」。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。"
+        "bitter-mcq-05": "本句的「bitter disappointment」指「強烈、痛苦而令人難以接受的失望」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-05"
     },
@@ -963,10 +901,8 @@ export default {
       "options": [
         "bitter-mcq-05",
         "bitter-mcq-04",
-        "bitter-mcq-06",
-        "bitter-mcq-03",
-        "bitter-mcq-07",
-        "bitter-mcq-02"
+        "bitter-mcq-12",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter」指「強烈、痛苦而令人難以接受的失望」。",
       "sentenceIndex": 14,
@@ -975,12 +911,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-05": "本句指「強烈、痛苦而令人難以接受的失望」。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-02": "「因痛苦、不公平或失望而長期帶著怨恨和憤怒」是「bitter — resentful」的用法，與本句語境不同。"
+        "bitter-mcq-05": "本句的「bitter」指「強烈、痛苦而令人難以接受的失望」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-05"
     },
@@ -992,11 +926,9 @@ export default {
       "masked": "The argument left ____.",
       "options": [
         "bitter-mcq-06",
-        "bitter-mcq-05",
-        "bitter-mcq-07",
         "bitter-mcq-04",
-        "bitter-mcq-08",
-        "bitter-mcq-03"
+        "bitter-mcq-12",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter memories」指「帶來強烈痛苦、失望或負面情緒的經歷／回憶」。",
       "sentenceIndex": 15,
@@ -1005,12 +937,10 @@ export default {
         "bitter memories"
       ],
       "optionReasons": {
-        "bitter-mcq-06": "本句指「帶來強烈痛苦、失望或負面情緒的經歷／回憶」。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。"
+        "bitter-mcq-06": "本句的「bitter memories」指「帶來強烈痛苦、失望或負面情緒的經歷／回憶」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-06"
     },
@@ -1022,11 +952,8 @@ export default {
       "masked": "It was a ____ experience, but she learned from it.",
       "options": [
         "bitter-mcq-06",
-        "bitter-mcq-05",
-        "bitter-mcq-07",
-        "bitter-mcq-04",
-        "bitter-mcq-08",
-        "bitter-mcq-03"
+        "bitter-mcq-03",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter」指「帶來強烈痛苦、失望或負面情緒的經歷／回憶」。",
       "sentenceIndex": 16,
@@ -1035,12 +962,9 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-06": "本句指「帶來強烈痛苦、失望或負面情緒的經歷／回憶」。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-03": "「因某件不愉快／不公平的事情長時間耿耿於懷」是「bitter about X」的用法，與本句語境不同。"
+        "bitter-mcq-06": "本句的「bitter」指「帶來強烈痛苦、失望或負面情緒的經歷／回憶」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-06"
     },
@@ -1052,11 +976,9 @@ export default {
       "masked": "They had a ____.",
       "options": [
         "bitter-pdf-001",
-        "bitter-mcq-06",
-        "bitter-mcq-08",
-        "bitter-mcq-05",
-        "bitter-mcq-09",
-        "bitter-mcq-04"
+        "bitter-mcq-11",
+        "bitter-mcq-03",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter argument」指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
       "sentenceIndex": 17,
@@ -1065,12 +987,10 @@ export default {
         "bitter argument"
       ],
       "optionReasons": {
-        "bitter-pdf-001": "本句指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。"
+        "bitter-pdf-001": "本句的「bitter argument」指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
+        "bitter-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-pdf-001"
     },
@@ -1082,11 +1002,9 @@ export default {
       "masked": "The issue caused a ____ dispute.",
       "options": [
         "bitter-pdf-001",
-        "bitter-mcq-06",
-        "bitter-mcq-08",
-        "bitter-mcq-05",
-        "bitter-mcq-09",
-        "bitter-mcq-04"
+        "bitter-mcq-12",
+        "bitter-mcq-15",
+        "bitter-mcq-14"
       ],
       "explanation": "本句的「bitter」指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
       "sentenceIndex": 18,
@@ -1095,12 +1013,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-pdf-001": "本句指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。"
+        "bitter-pdf-001": "本句的「bitter」指「衝突、爭論或競爭中帶有強烈憤怒、敵意或怨恨」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-pdf-001"
     },
@@ -1112,11 +1028,9 @@ export default {
       "masked": "A ____ developed between the two groups.",
       "options": [
         "bitter-mcq-07",
-        "bitter-mcq-06",
-        "bitter-mcq-08",
-        "bitter-mcq-05",
-        "bitter-mcq-09",
-        "bitter-mcq-04"
+        "bitter-mcq-10",
+        "bitter-mcq-03",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter dispute」指「情緒激烈並充滿敵意、怨恨的爭論」。",
       "sentenceIndex": 19,
@@ -1125,12 +1039,10 @@ export default {
         "bitter dispute"
       ],
       "optionReasons": {
-        "bitter-mcq-07": "本句指「情緒激烈並充滿敵意、怨恨的爭論」。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。"
+        "bitter-mcq-07": "本句的「bitter dispute」指「情緒激烈並充滿敵意、怨恨的爭論」。",
+        "bitter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-07"
     },
@@ -1142,10 +1054,8 @@ export default {
       "masked": "Their disagreement turned into a ____ argument.",
       "options": [
         "bitter-mcq-07",
-        "bitter-mcq-06",
-        "bitter-mcq-08",
-        "bitter-mcq-05",
-        "bitter-mcq-09",
+        "bitter-mcq-18",
+        "bitter-mcq-15",
         "bitter-mcq-04"
       ],
       "explanation": "本句的「bitter」指「情緒激烈並充滿敵意、怨恨的爭論」。",
@@ -1155,12 +1065,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-07": "本句指「情緒激烈並充滿敵意、怨恨的爭論」。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-04": "「因過去傷害／不公平待遇而對某人持續懷恨」是「bitter toward someone」的用法，與本句語境不同。"
+        "bitter-mcq-07": "本句的「bitter」指「情緒激烈並充滿敵意、怨恨的爭論」。",
+        "bitter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-07"
     },
@@ -1172,11 +1080,9 @@ export default {
       "masked": "The two teams are ____.",
       "options": [
         "bitter-mcq-08",
-        "bitter-mcq-07",
-        "bitter-mcq-09",
-        "bitter-mcq-06",
-        "bitter-mcq-10",
-        "bitter-mcq-05"
+        "bitter-mcq-12",
+        "bitter-mcq-14",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter rivals」指「長期競爭激烈並彼此有強烈敵意的對手」。",
       "sentenceIndex": 21,
@@ -1185,12 +1091,10 @@ export default {
         "bitter rivals"
       ],
       "optionReasons": {
-        "bitter-mcq-08": "本句指「長期競爭激烈並彼此有強烈敵意的對手」。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。"
+        "bitter-mcq-08": "本句的「bitter rivals」指「長期競爭激烈並彼此有強烈敵意的對手」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-08"
     },
@@ -1202,11 +1106,9 @@ export default {
       "masked": "The companies have been ____ rivals for years.",
       "options": [
         "bitter-mcq-08",
-        "bitter-mcq-07",
-        "bitter-mcq-09",
-        "bitter-mcq-06",
-        "bitter-mcq-10",
-        "bitter-mcq-05"
+        "bitter-mcq-18",
+        "bitter-mcq-15",
+        "bitter-mcq-04"
       ],
       "explanation": "本句的「bitter」指「長期競爭激烈並彼此有強烈敵意的對手」。",
       "sentenceIndex": 22,
@@ -1215,12 +1117,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-08": "本句指「長期競爭激烈並彼此有強烈敵意的對手」。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-05": "「強烈、痛苦而令人難以接受的失望」是「bitter disappointment」的用法，與本句語境不同。"
+        "bitter-mcq-08": "本句的「bitter」指「長期競爭激烈並彼此有強烈敵意的對手」。",
+        "bitter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-08"
     },
@@ -1232,11 +1132,8 @@ export default {
       "masked": "They became ____.",
       "options": [
         "bitter-mcq-09",
-        "bitter-mcq-08",
-        "bitter-mcq-10",
-        "bitter-mcq-07",
-        "bitter-mcq-11",
-        "bitter-mcq-06"
+        "bitter-mcq-18",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter enemies」指「彼此存在強烈、持續仇恨的敵人」。",
       "sentenceIndex": 23,
@@ -1245,12 +1142,9 @@ export default {
         "bitter enemies"
       ],
       "optionReasons": {
-        "bitter-mcq-09": "本句指「彼此存在強烈、持續仇恨的敵人」。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-09": "本句的「bitter enemies」指「彼此存在強烈、持續仇恨的敵人」。",
+        "bitter-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-09"
     },
@@ -1262,11 +1156,9 @@ export default {
       "masked": "Former friends can sometimes become ____ enemies.",
       "options": [
         "bitter-mcq-09",
-        "bitter-mcq-08",
-        "bitter-mcq-10",
-        "bitter-mcq-07",
-        "bitter-mcq-11",
-        "bitter-mcq-06"
+        "bitter-mcq-03",
+        "bitter-mcq-14",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter」指「彼此存在強烈、持續仇恨的敵人」。",
       "sentenceIndex": 24,
@@ -1275,12 +1167,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-09": "本句指「彼此存在強烈、持續仇恨的敵人」。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-06": "「帶來強烈痛苦、失望或負面情緒的經歷／回憶」是「bitter experience/memory」的用法，與本句語境不同。"
+        "bitter-mcq-09": "本句的「bitter」指「彼此存在強烈、持續仇恨的敵人」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-09"
     },
@@ -1292,10 +1182,8 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "bitter-mcq-10",
-        "bitter-mcq-09",
-        "bitter-mcq-11",
-        "bitter-mcq-08",
-        "bitter-mcq-12",
+        "bitter-mcq-04",
+        "bitter-mcq-17",
         "bitter-mcq-07"
       ],
       "explanation": "本句的「bitter winter morning」指「寒冷程度極強、令人感到刺骨難受」。",
@@ -1305,12 +1193,10 @@ export default {
         "bitter winter morning"
       ],
       "optionReasons": {
-        "bitter-mcq-10": "本句指「寒冷程度極強、令人感到刺骨難受」。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。"
+        "bitter-mcq-10": "本句的「bitter winter morning」指「寒冷程度極強、令人感到刺骨難受」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-10"
     },
@@ -1322,10 +1208,8 @@ export default {
       "masked": "We went outside in the ____ cold.",
       "options": [
         "bitter-mcq-10",
-        "bitter-mcq-09",
-        "bitter-mcq-11",
-        "bitter-mcq-08",
-        "bitter-mcq-12",
+        "bitter-mcq-17",
+        "bitter-mcq-03",
         "bitter-mcq-07"
       ],
       "explanation": "本句的「bitter」指「寒冷程度極強、令人感到刺骨難受」。",
@@ -1335,12 +1219,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-10": "本句指「寒冷程度極強、令人感到刺骨難受」。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。"
+        "bitter-mcq-10": "本句的「bitter」指「寒冷程度極強、令人感到刺骨難受」。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-10"
     },
@@ -1352,10 +1234,8 @@ export default {
       "masked": "They waited outside in the ____.",
       "options": [
         "bitter-mcq-10",
-        "bitter-mcq-09",
-        "bitter-mcq-11",
-        "bitter-mcq-08",
-        "bitter-mcq-12",
+        "bitter-mcq-17",
+        "bitter-mcq-04",
         "bitter-mcq-07"
       ],
       "explanation": "本句的「bitter cold」指「寒冷程度極強、令人感到刺骨難受」。",
@@ -1365,12 +1245,10 @@ export default {
         "bitter cold"
       ],
       "optionReasons": {
-        "bitter-mcq-10": "本句指「寒冷程度極強、令人感到刺骨難受」。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。"
+        "bitter-mcq-10": "本句的「bitter cold」指「寒冷程度極強、令人感到刺骨難受」。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-10"
     },
@@ -1382,11 +1260,9 @@ export default {
       "masked": "The ____ cold made walking difficult.",
       "options": [
         "bitter-mcq-10",
-        "bitter-mcq-09",
-        "bitter-mcq-11",
-        "bitter-mcq-08",
-        "bitter-mcq-12",
-        "bitter-mcq-07"
+        "bitter-mcq-03",
+        "bitter-mcq-07",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter」指「寒冷程度極強、令人感到刺骨難受」。",
       "sentenceIndex": 28,
@@ -1395,12 +1271,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-10": "本句指「寒冷程度極強、令人感到刺骨難受」。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。"
+        "bitter-mcq-10": "本句的「bitter」指「寒冷程度極強、令人感到刺骨難受」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-10"
     },
@@ -1412,10 +1286,8 @@ export default {
       "masked": "A ____ blew across the field.",
       "options": [
         "bitter-mcq-10",
-        "bitter-mcq-09",
-        "bitter-mcq-11",
-        "bitter-mcq-08",
-        "bitter-mcq-12",
+        "bitter-mcq-04",
+        "bitter-mcq-17",
         "bitter-mcq-07"
       ],
       "explanation": "本句的「bitter wind」指「寒冷程度極強、令人感到刺骨難受」。",
@@ -1425,12 +1297,10 @@ export default {
         "bitter wind"
       ],
       "optionReasons": {
-        "bitter-mcq-10": "本句指「寒冷程度極強、令人感到刺骨難受」。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。"
+        "bitter-mcq-10": "本句的「bitter wind」指「寒冷程度極強、令人感到刺骨難受」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-10"
     },
@@ -1442,11 +1312,9 @@ export default {
       "masked": "The ____ wind made my eyes water.",
       "options": [
         "bitter-mcq-10",
-        "bitter-mcq-09",
-        "bitter-mcq-11",
-        "bitter-mcq-08",
-        "bitter-mcq-12",
-        "bitter-mcq-07"
+        "bitter-mcq-04",
+        "bitter-mcq-07",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter」指「寒冷程度極強、令人感到刺骨難受」。",
       "sentenceIndex": 30,
@@ -1455,12 +1323,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-10": "本句指「寒冷程度極強、令人感到刺骨難受」。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-07": "「情緒激烈並充滿敵意、怨恨的爭論」是「bitter argument/dispute」的用法，與本句語境不同。"
+        "bitter-mcq-10": "本句的「bitter」指「寒冷程度極強、令人感到刺骨難受」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-10"
     },
@@ -1472,11 +1338,9 @@ export default {
       "masked": "He finally accepted the ____.",
       "options": [
         "bitter-mcq-11",
-        "bitter-mcq-10",
-        "bitter-mcq-12",
-        "bitter-mcq-09",
-        "bitter-mcq-13",
-        "bitter-mcq-08"
+        "bitter-mcq-04",
+        "bitter-mcq-07",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter truth」指「真實但令人痛苦、失望而難以接受的事實」。",
       "sentenceIndex": 31,
@@ -1485,12 +1349,10 @@ export default {
         "bitter truth"
       ],
       "optionReasons": {
-        "bitter-mcq-11": "本句指「真實但令人痛苦、失望而難以接受的事實」。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。"
+        "bitter-mcq-11": "本句的「bitter truth」指「真實但令人痛苦、失望而難以接受的事實」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-11"
     },
@@ -1502,11 +1364,9 @@ export default {
       "masked": "The result was a ____ reminder of their earlier failure.",
       "options": [
         "bitter-mcq-11",
-        "bitter-mcq-10",
-        "bitter-mcq-12",
-        "bitter-mcq-09",
-        "bitter-mcq-13",
-        "bitter-mcq-08"
+        "bitter-mcq-03",
+        "bitter-mcq-08",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter」指「真實但令人痛苦、失望而難以接受的事實」。",
       "sentenceIndex": 32,
@@ -1515,12 +1375,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-11": "本句指「真實但令人痛苦、失望而難以接受的事實」。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。"
+        "bitter-mcq-11": "本句的「bitter」指「真實但令人痛苦、失望而難以接受的事實」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-11"
     },
@@ -1532,11 +1390,9 @@ export default {
       "masked": "The ____ was that they had run out of time.",
       "options": [
         "bitter-mcq-11",
-        "bitter-mcq-10",
-        "bitter-mcq-12",
-        "bitter-mcq-09",
-        "bitter-mcq-13",
-        "bitter-mcq-08"
+        "bitter-pdf-001",
+        "bitter-mcq-03",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter truth」指「真實但令人痛苦、失望而難以接受的事實」。",
       "sentenceIndex": 33,
@@ -1545,12 +1401,10 @@ export default {
         "bitter truth"
       ],
       "optionReasons": {
-        "bitter-mcq-11": "本句指「真實但令人痛苦、失望而難以接受的事實」。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。"
+        "bitter-mcq-11": "本句的「bitter truth」指「真實但令人痛苦、失望而難以接受的事實」。",
+        "bitter-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-11"
     },
@@ -1562,11 +1416,9 @@ export default {
       "masked": "Sometimes people avoid facing a ____ truth.",
       "options": [
         "bitter-mcq-11",
-        "bitter-mcq-10",
-        "bitter-mcq-12",
         "bitter-mcq-09",
-        "bitter-mcq-13",
-        "bitter-mcq-08"
+        "bitter-mcq-03",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitter」指「真實但令人痛苦、失望而難以接受的事實」。",
       "sentenceIndex": 34,
@@ -1575,12 +1427,10 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-11": "本句指「真實但令人痛苦、失望而難以接受的事實」。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-08": "「長期競爭激烈並彼此有強烈敵意的對手」是「bitter rivals」的用法，與本句語境不同。"
+        "bitter-mcq-11": "本句的「bitter」指「真實但令人痛苦、失望而難以接受的事實」。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-11"
     },
@@ -1592,11 +1442,9 @@ export default {
       "masked": "She supported the team ____.",
       "options": [
         "bitter-mcq-12",
-        "bitter-mcq-11",
-        "bitter-mcq-13",
-        "bitter-mcq-10",
         "bitter-mcq-14",
-        "bitter-mcq-09"
+        "bitter-pdf-001",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「to the bitter end」指「即使困難／不愉快仍一直堅持到完全結束」。",
       "sentenceIndex": 35,
@@ -1605,12 +1453,10 @@ export default {
         "to the bitter end"
       ],
       "optionReasons": {
-        "bitter-mcq-12": "本句指「即使困難／不愉快仍一直堅持到完全結束」。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。"
+        "bitter-mcq-12": "本句的「to the bitter end」指「即使困難／不愉快仍一直堅持到完全結束」。",
+        "bitter-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "bitter-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-12"
     },
@@ -1622,11 +1468,8 @@ export default {
       "masked": "They were determined to continue to the ____ end.",
       "options": [
         "bitter-mcq-12",
-        "bitter-mcq-11",
-        "bitter-mcq-13",
-        "bitter-mcq-10",
-        "bitter-mcq-14",
-        "bitter-mcq-09"
+        "bitter-mcq-16",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitter」指「即使困難／不愉快仍一直堅持到完全結束」。",
       "sentenceIndex": 36,
@@ -1635,12 +1478,9 @@ export default {
         "bitter"
       ],
       "optionReasons": {
-        "bitter-mcq-12": "本句指「即使困難／不愉快仍一直堅持到完全結束」。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-09": "「彼此存在強烈、持續仇恨的敵人」是「bitter enemy」的用法，與本句語境不同。"
+        "bitter-mcq-12": "本句的「bitter」指「即使困難／不愉快仍一直堅持到完全結束」。",
+        "bitter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-12"
     },
@@ -1652,11 +1492,8 @@ export default {
       "masked": "He complained ____ about the decision.",
       "options": [
         "bitter-mcq-13",
-        "bitter-mcq-12",
-        "bitter-mcq-14",
-        "bitter-mcq-11",
-        "bitter-mcq-15",
-        "bitter-mcq-10"
+        "bitter-mcq-03",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
       "sentenceIndex": 37,
@@ -1665,12 +1502,9 @@ export default {
         "bitterly"
       ],
       "optionReasons": {
-        "bitter-mcq-13": "本句指「帶著強烈怨氣、憤怒或不滿地」。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。"
+        "bitter-mcq-13": "本句的「bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-13"
     },
@@ -1682,11 +1516,8 @@ export default {
       "masked": "She spoke ____ about how she had been treated.",
       "options": [
         "bitter-mcq-13",
-        "bitter-mcq-12",
-        "bitter-mcq-14",
-        "bitter-mcq-11",
-        "bitter-mcq-15",
-        "bitter-mcq-10"
+        "bitter-mcq-03",
+        "bitter-mcq-15"
       ],
       "explanation": "本句的「bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
       "sentenceIndex": 38,
@@ -1695,12 +1526,9 @@ export default {
         "bitterly"
       ],
       "optionReasons": {
-        "bitter-mcq-13": "本句指「帶著強烈怨氣、憤怒或不滿地」。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。"
+        "bitter-mcq-13": "本句的「bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-13"
     },
@@ -1712,11 +1540,8 @@ export default {
       "masked": "Customers ____ about the delays.",
       "options": [
         "bitter-mcq-13",
-        "bitter-mcq-12",
-        "bitter-mcq-14",
-        "bitter-mcq-11",
         "bitter-mcq-15",
-        "bitter-mcq-10"
+        "bitter-mcq-03"
       ],
       "explanation": "本句的「complained bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
       "sentenceIndex": 39,
@@ -1725,12 +1550,9 @@ export default {
         "complained bitterly"
       ],
       "optionReasons": {
-        "bitter-mcq-13": "本句指「帶著強烈怨氣、憤怒或不滿地」。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。"
+        "bitter-mcq-13": "本句的「complained bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-13"
     },
@@ -1742,11 +1564,9 @@ export default {
       "masked": "He complained ____ that nobody had listened.",
       "options": [
         "bitter-mcq-13",
-        "bitter-mcq-12",
-        "bitter-mcq-14",
-        "bitter-mcq-11",
         "bitter-mcq-15",
-        "bitter-mcq-10"
+        "bitter-mcq-04",
+        "bitter-mcq-12"
       ],
       "explanation": "本句的「bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
       "sentenceIndex": 40,
@@ -1755,12 +1575,10 @@ export default {
         "bitterly"
       ],
       "optionReasons": {
-        "bitter-mcq-13": "本句指「帶著強烈怨氣、憤怒或不滿地」。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-10": "「寒冷程度極強、令人感到刺骨難受」是「bitter cold」的用法，與本句語境不同。"
+        "bitter-mcq-13": "本句的「bitterly」指「帶著強烈怨氣、憤怒或不滿地」。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-13"
     },
@@ -1772,11 +1590,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "bitter-mcq-19",
-        "bitter-mcq-18",
-        "bitter-mcq-20",
-        "bitter-mcq-17",
-        "bitter-mcq-16",
-        "bitter-mcq-15"
+        "bitter-mcq-04",
+        "bitter-mcq-12",
+        "bitter-pdf-001"
       ],
       "explanation": "本句的「bitterly disappointed」指「強調失望、後悔等負面情緒程度非常強」。",
       "sentenceIndex": 41,
@@ -1785,12 +1601,10 @@ export default {
         "bitterly disappointed"
       ],
       "optionReasons": {
-        "bitter-mcq-19": "本句指「強調失望、後悔等負面情緒程度非常強」。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-20": "「雙方因過去衝突而留下的強烈不滿／敵意」是「25. bitterness between people/groups（彼此怨恨） — 敵意；積怨」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。"
+        "bitter-mcq-19": "本句的「bitterly disappointed」指「強調失望、後悔等負面情緒程度非常強」。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-19"
     },
@@ -1802,11 +1616,9 @@ export default {
       "masked": "He ____ regretted the decision.",
       "options": [
         "bitter-mcq-19",
-        "bitter-mcq-18",
-        "bitter-mcq-20",
-        "bitter-mcq-17",
-        "bitter-mcq-16",
-        "bitter-mcq-15"
+        "bitter-mcq-12",
+        "bitter-mcq-04",
+        "bitter-mcq-08"
       ],
       "explanation": "本句的「bitterly」指「強調失望、後悔等負面情緒程度非常強」。",
       "sentenceIndex": 42,
@@ -1815,12 +1627,10 @@ export default {
         "bitterly"
       ],
       "optionReasons": {
-        "bitter-mcq-19": "本句指「強調失望、後悔等負面情緒程度非常強」。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-20": "「雙方因過去衝突而留下的強烈不滿／敵意」是「25. bitterness between people/groups（彼此怨恨） — 敵意；積怨」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。"
+        "bitter-mcq-19": "本句的「bitterly」指「強調失望、後悔等負面情緒程度非常強」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-19"
     },
@@ -1832,11 +1642,9 @@ export default {
       "masked": "They were ____ by the result.",
       "options": [
         "bitter-mcq-14",
-        "bitter-mcq-13",
-        "bitter-mcq-15",
-        "bitter-mcq-12",
-        "bitter-mcq-16",
-        "bitter-mcq-11"
+        "bitter-mcq-03",
+        "bitter-mcq-09",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bitterly disappointed」指「感到極度、痛苦地失望」。",
       "sentenceIndex": 43,
@@ -1845,12 +1653,10 @@ export default {
         "bitterly disappointed"
       ],
       "optionReasons": {
-        "bitter-mcq-14": "本句指「感到極度、痛苦地失望」。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。"
+        "bitter-mcq-14": "本句的「bitterly disappointed」指「感到極度、痛苦地失望」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-14"
     },
@@ -1862,11 +1668,9 @@ export default {
       "masked": "She was ____ disappointed not to be selected.",
       "options": [
         "bitter-mcq-14",
-        "bitter-mcq-13",
-        "bitter-mcq-15",
         "bitter-mcq-12",
-        "bitter-mcq-16",
-        "bitter-mcq-11"
+        "bitter-mcq-04",
+        "bitter-mcq-08"
       ],
       "explanation": "本句的「bitterly」指「感到極度、痛苦地失望」。",
       "sentenceIndex": 44,
@@ -1875,12 +1679,10 @@ export default {
         "bitterly"
       ],
       "optionReasons": {
-        "bitter-mcq-14": "本句指「感到極度、痛苦地失望」。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-11": "「真實但令人痛苦、失望而難以接受的事實」是「bitter truth」的用法，與本句語境不同。"
+        "bitter-mcq-14": "本句的「bitterly」指「感到極度、痛苦地失望」。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-14"
     },
@@ -1892,11 +1694,9 @@ export default {
       "masked": "The sugar reduced the ____ of the coffee.",
       "options": [
         "bitter-mcq-15",
-        "bitter-mcq-14",
-        "bitter-mcq-16",
-        "bitter-mcq-13",
-        "bitter-mcq-17",
-        "bitter-mcq-12"
+        "bitter-mcq-09",
+        "bitter-mcq-03",
+        "bitter-mcq-11"
       ],
       "explanation": "本句的「bitterness」指「食物／飲品中苦味的性質或程度」。",
       "sentenceIndex": 45,
@@ -1905,12 +1705,10 @@ export default {
         "bitterness"
       ],
       "optionReasons": {
-        "bitter-mcq-15": "本句指「食物／飲品中苦味的性質或程度」。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。"
+        "bitter-mcq-15": "本句的「bitterness」指「食物／飲品中苦味的性質或程度」。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-15"
     },
@@ -1922,10 +1720,7 @@ export default {
       "masked": "The drink has a slight ____.",
       "options": [
         "bitter-mcq-15",
-        "bitter-mcq-14",
         "bitter-mcq-16",
-        "bitter-mcq-13",
-        "bitter-mcq-17",
         "bitter-mcq-12"
       ],
       "explanation": "本句的「bitterness」指「食物／飲品中苦味的性質或程度」。",
@@ -1935,12 +1730,9 @@ export default {
         "bitterness"
       ],
       "optionReasons": {
-        "bitter-mcq-15": "本句指「食物／飲品中苦味的性質或程度」。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-12": "「即使困難／不愉快仍一直堅持到完全結束」是「to the bitter end」的用法，與本句語境不同。"
+        "bitter-mcq-15": "本句的「bitterness」指「食物／飲品中苦味的性質或程度」。",
+        "bitter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-15"
     },
@@ -1952,11 +1744,7 @@ export default {
       "masked": "She spoke without ____.",
       "options": [
         "bitter-mcq-16",
-        "bitter-mcq-15",
-        "bitter-mcq-17",
-        "bitter-mcq-14",
-        "bitter-mcq-18",
-        "bitter-mcq-13"
+        "bitter-mcq-01"
       ],
       "explanation": "本句的「bitterness」指「因傷害、不公平或失望而長期存在的怨恨／憤懣」。",
       "sentenceIndex": 47,
@@ -1965,12 +1753,8 @@ export default {
         "bitterness"
       ],
       "optionReasons": {
-        "bitter-mcq-16": "本句指「因傷害、不公平或失望而長期存在的怨恨／憤懣」。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。"
+        "bitter-mcq-16": "本句的「bitterness」指「因傷害、不公平或失望而長期存在的怨恨／憤懣」。",
+        "bitter-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-16"
     },
@@ -1982,11 +1766,7 @@ export default {
       "masked": "Years of conflict created deep ____.",
       "options": [
         "bitter-mcq-16",
-        "bitter-mcq-15",
-        "bitter-mcq-17",
-        "bitter-mcq-14",
-        "bitter-mcq-18",
-        "bitter-mcq-13"
+        "bitter-mcq-01"
       ],
       "explanation": "本句的「bitterness」指「因傷害、不公平或失望而長期存在的怨恨／憤懣」。",
       "sentenceIndex": 48,
@@ -1995,12 +1775,8 @@ export default {
         "bitterness"
       ],
       "optionReasons": {
-        "bitter-mcq-16": "本句指「因傷害、不公平或失望而長期存在的怨恨／憤懣」。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-13": "「帶著強烈怨氣、憤怒或不滿地」是「bitterly — resentfully」的用法，與本句語境不同。"
+        "bitter-mcq-16": "本句的「bitterness」指「因傷害、不公平或失望而長期存在的怨恨／憤懣」。",
+        "bitter-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-16"
     },
@@ -2012,11 +1788,8 @@ export default {
       "masked": "There was considerable ____.",
       "options": [
         "bitter-mcq-20",
-        "bitter-mcq-19",
-        "bitter-mcq-18",
-        "bitter-mcq-17",
-        "bitter-mcq-16",
-        "bitter-mcq-15"
+        "bitter-mcq-15",
+        "bitter-mcq-12"
       ],
       "explanation": "本句的「bitterness between the two families」指「雙方因過去衝突而留下的強烈不滿／敵意」。",
       "sentenceIndex": 49,
@@ -2025,12 +1798,9 @@ export default {
         "bitterness between the two families"
       ],
       "optionReasons": {
-        "bitter-mcq-20": "本句指「雙方因過去衝突而留下的強烈不滿／敵意」。",
-        "bitter-mcq-19": "「強調失望、後悔等負面情緒程度非常強」是「21. bitterly = extremely / deeply with negative emotion（極度地） — 非常；深深地」的用法，與本句語境不同。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。"
+        "bitter-mcq-20": "本句的「bitterness between the two families」指「雙方因過去衝突而留下的強烈不滿／敵意」。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-20"
     },
@@ -2042,11 +1812,8 @@ export default {
       "masked": "The dispute left lasting ____.",
       "options": [
         "bitter-mcq-20",
-        "bitter-mcq-19",
-        "bitter-mcq-18",
-        "bitter-mcq-17",
-        "bitter-mcq-16",
-        "bitter-mcq-15"
+        "bitter-mcq-15",
+        "bitter-mcq-12"
       ],
       "explanation": "本句的「bitterness」指「雙方因過去衝突而留下的強烈不滿／敵意」。",
       "sentenceIndex": 50,
@@ -2055,12 +1822,9 @@ export default {
         "bitterness"
       ],
       "optionReasons": {
-        "bitter-mcq-20": "本句指「雙方因過去衝突而留下的強烈不滿／敵意」。",
-        "bitter-mcq-19": "「強調失望、後悔等負面情緒程度非常強」是「21. bitterly = extremely / deeply with negative emotion（極度地） — 非常；深深地」的用法，與本句語境不同。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。"
+        "bitter-mcq-20": "本句的「bitterness」指「雙方因過去衝突而留下的強烈不滿／敵意」。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-20"
     },
@@ -2072,11 +1836,9 @@ export default {
       "masked": "The recipe uses a few drops of ____.",
       "options": [
         "bitter-mcq-17",
-        "bitter-mcq-16",
-        "bitter-mcq-18",
-        "bitter-mcq-15",
-        "bitter-mcq-19",
-        "bitter-mcq-14"
+        "bitter-mcq-03",
+        "bitter-mcq-10",
+        "bitter-pdf-001"
       ],
       "explanation": "本句的「bitters」指「用於飲品等、具有濃烈苦味的草本調味液」。",
       "sentenceIndex": 51,
@@ -2085,12 +1847,10 @@ export default {
         "bitters"
       ],
       "optionReasons": {
-        "bitter-mcq-17": "本句指「用於飲品等、具有濃烈苦味的草本調味液」。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-19": "「強調失望、後悔等負面情緒程度非常強」是「21. bitterly = extremely / deeply with negative emotion（極度地） — 非常；深深地」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。"
+        "bitter-mcq-17": "本句的「bitters」指「用於飲品等、具有濃烈苦味的草本調味液」。",
+        "bitter-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bitter-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-17"
     },
@@ -2103,10 +1863,7 @@ export default {
       "options": [
         "bitter-mcq-17",
         "bitter-mcq-16",
-        "bitter-mcq-18",
-        "bitter-mcq-15",
-        "bitter-mcq-19",
-        "bitter-mcq-14"
+        "bitter-mcq-12"
       ],
       "explanation": "本句的「Bitters」指「用於飲品等、具有濃烈苦味的草本調味液」。",
       "sentenceIndex": 52,
@@ -2115,12 +1872,9 @@ export default {
         "Bitters"
       ],
       "optionReasons": {
-        "bitter-mcq-17": "本句指「用於飲品等、具有濃烈苦味的草本調味液」。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-18": "「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」是「bittersweet」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。",
-        "bitter-mcq-19": "「強調失望、後悔等負面情緒程度非常強」是「21. bitterly = extremely / deeply with negative emotion（極度地） — 非常；深深地」的用法，與本句語境不同。",
-        "bitter-mcq-14": "「感到極度、痛苦地失望」是「bitterly disappointed」的用法，與本句語境不同。"
+        "bitter-mcq-17": "本句的「Bitters」指「用於飲品等、具有濃烈苦味的草本調味液」。",
+        "bitter-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-17"
     },
@@ -2132,11 +1886,9 @@ export default {
       "masked": "Saying goodbye was ____.",
       "options": [
         "bitter-mcq-18",
-        "bitter-mcq-17",
-        "bitter-mcq-19",
-        "bitter-mcq-16",
-        "bitter-mcq-20",
-        "bitter-mcq-15"
+        "bitter-mcq-07",
+        "bitter-mcq-04",
+        "bitter-mcq-17"
       ],
       "explanation": "本句的「bittersweet」指「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」。",
       "sentenceIndex": 53,
@@ -2145,12 +1897,10 @@ export default {
         "bittersweet"
       ],
       "optionReasons": {
-        "bitter-mcq-18": "本句指「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-19": "「強調失望、後悔等負面情緒程度非常強」是「21. bitterly = extremely / deeply with negative emotion（極度地） — 非常；深深地」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-20": "「雙方因過去衝突而留下的強烈不滿／敵意」是「25. bitterness between people/groups（彼此怨恨） — 敵意；積怨」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。"
+        "bitter-mcq-18": "本句的「bittersweet」指「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」。",
+        "bitter-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-18"
     },
@@ -2162,10 +1912,7 @@ export default {
       "masked": "It was a ____ memory.",
       "options": [
         "bitter-mcq-18",
-        "bitter-mcq-17",
-        "bitter-mcq-19",
-        "bitter-mcq-16",
-        "bitter-mcq-20",
+        "bitter-mcq-09",
         "bitter-mcq-15"
       ],
       "explanation": "本句的「bittersweet」指「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」。",
@@ -2175,12 +1922,9 @@ export default {
         "bittersweet"
       ],
       "optionReasons": {
-        "bitter-mcq-18": "本句指「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」。",
-        "bitter-mcq-17": "「用於飲品等、具有濃烈苦味的草本調味液」是「bitters」的用法，與本句語境不同。",
-        "bitter-mcq-19": "「強調失望、後悔等負面情緒程度非常強」是「21. bitterly = extremely / deeply with negative emotion（極度地） — 非常；深深地」的用法，與本句語境不同。",
-        "bitter-mcq-16": "「因傷害、不公平或失望而長期存在的怨恨／憤懣」是「bitterness — resentment」的用法，與本句語境不同。",
-        "bitter-mcq-20": "「雙方因過去衝突而留下的強烈不滿／敵意」是「25. bitterness between people/groups（彼此怨恨） — 敵意；積怨」的用法，與本句語境不同。",
-        "bitter-mcq-15": "「食物／飲品中苦味的性質或程度」是「bitterness — taste」的用法，與本句語境不同。"
+        "bitter-mcq-18": "本句的「bittersweet」指「同時帶有快樂／美好及悲傷／痛苦的感受；苦樂參半」。",
+        "bitter-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bitter-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bitter-mcq-18"
     }
@@ -2192,5 +1936,7 @@ export default {
     "sha256": "2080750a228169daa0975fba8540e27d32c39105e1b3fed45895a114e998d51c",
     "pages": 25
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

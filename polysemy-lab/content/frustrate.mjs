@@ -466,11 +466,9 @@ export default {
       "masked": "He suddenly got ____.",
       "options": [
         "frustrate-mcq-02",
-        "frustrate-mcq-01",
-        "frustrate-mcq-03",
-        "frustrate-mcq-04",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-20",
+        "frustrate-mcq-16",
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「frustrated」指「感到挫折的」。",
       "sentenceIndex": 0,
@@ -479,12 +477,10 @@ export default {
         "frustrated"
       ],
       "optionReasons": {
-        "frustrate-mcq-02": "本句指「感到挫折的」。",
-        "frustrate-mcq-01": "「使某人挫折／惱火」是「frustrate someone」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-02": "本句的「frustrated」指「感到挫折的」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-02"
     },
@@ -496,11 +492,9 @@ export default {
       "masked": "I felt ____ because the computer kept crashing.",
       "options": [
         "frustrate-mcq-02",
-        "frustrate-mcq-01",
-        "frustrate-mcq-03",
-        "frustrate-mcq-04",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-16",
+        "frustrate-mcq-20",
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「frustrated」指「感到挫折的」。",
       "sentenceIndex": 1,
@@ -509,12 +503,10 @@ export default {
         "frustrated"
       ],
       "optionReasons": {
-        "frustrate-mcq-02": "本句指「感到挫折的」。",
-        "frustrate-mcq-01": "「使某人挫折／惱火」是「frustrate someone」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-02": "本句的「frustrated」指「感到挫折的」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-02"
     },
@@ -526,11 +518,9 @@ export default {
       "masked": "She became ____ when nobody listened to her.",
       "options": [
         "frustrate-mcq-02",
-        "frustrate-mcq-01",
-        "frustrate-mcq-03",
-        "frustrate-mcq-04",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-16",
+        "frustrate-mcq-07",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrated」指「感到挫折的」。",
       "sentenceIndex": 2,
@@ -539,12 +529,10 @@ export default {
         "frustrated"
       ],
       "optionReasons": {
-        "frustrate-mcq-02": "本句指「感到挫折的」。",
-        "frustrate-mcq-01": "「使某人挫折／惱火」是「frustrate someone」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-02": "本句的「frustrated」指「感到挫折的」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-02"
     },
@@ -556,11 +544,9 @@ export default {
       "masked": "Don't ____ if you make a mistake.",
       "options": [
         "frustrate-mcq-03",
-        "frustrate-mcq-02",
-        "frustrate-mcq-04",
-        "frustrate-mcq-01",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-16",
+        "frustrate-mcq-07",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「get frustrated」指「感到挫折」。",
       "sentenceIndex": 3,
@@ -569,12 +555,10 @@ export default {
         "get frustrated"
       ],
       "optionReasons": {
-        "frustrate-mcq-03": "本句指「感到挫折」。",
-        "frustrate-mcq-02": "「感到挫折的」是「frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-01": "「使某人挫折／惱火」是「frustrate someone」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-03": "本句的「get frustrated」指「感到挫折」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-03"
     },
@@ -586,11 +570,9 @@ export default {
       "masked": "I ____ when progress is too slow.",
       "options": [
         "frustrate-mcq-03",
-        "frustrate-mcq-02",
-        "frustrate-mcq-04",
-        "frustrate-mcq-01",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-16",
+        "frustrate-mcq-07",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「feel frustrated」指「感到挫折」。",
       "sentenceIndex": 4,
@@ -599,12 +581,10 @@ export default {
         "feel frustrated"
       ],
       "optionReasons": {
-        "frustrate-mcq-03": "本句指「感到挫折」。",
-        "frustrate-mcq-02": "「感到挫折的」是「frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-01": "「使某人挫折／惱火」是「frustrate someone」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-03": "本句的「feel frustrated」指「感到挫折」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-03"
     },
@@ -616,11 +596,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "frustrate-mcq-05",
-        "frustrate-mcq-04",
-        "frustrate-mcq-06",
-        "frustrate-mcq-03",
-        "frustrate-mcq-07",
-        "frustrate-mcq-02"
+        "frustrate-mcq-15",
+        "frustrate-mcq-17",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrated with her teammate」指「對某人感到無奈／惱火」。",
       "sentenceIndex": 5,
@@ -629,12 +607,10 @@ export default {
         "frustrated with her teammate"
       ],
       "optionReasons": {
-        "frustrate-mcq-05": "本句指「對某人感到無奈／惱火」。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-02": "「感到挫折的」是「frustrated」的用法，與本句語境不同。"
+        "frustrate-mcq-05": "本句的「frustrated with her teammate」指「對某人感到無奈／惱火」。",
+        "frustrate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-05"
     },
@@ -646,11 +622,9 @@ export default {
       "masked": "I'm getting ____ because he never replies.",
       "options": [
         "frustrate-mcq-05",
-        "frustrate-mcq-04",
-        "frustrate-mcq-06",
-        "frustrate-mcq-03",
-        "frustrate-mcq-07",
-        "frustrate-mcq-02"
+        "frustrate-mcq-14",
+        "frustrate-mcq-19",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrated with him」指「對某人感到無奈／惱火」。",
       "sentenceIndex": 6,
@@ -659,12 +633,10 @@ export default {
         "frustrated with him"
       ],
       "optionReasons": {
-        "frustrate-mcq-05": "本句指「對某人感到無奈／惱火」。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-02": "「感到挫折的」是「frustrated」的用法，與本句語境不同。"
+        "frustrate-mcq-05": "本句的「frustrated with him」指「對某人感到無奈／惱火」。",
+        "frustrate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-05"
     },
@@ -676,11 +648,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "frustrate-mcq-06",
-        "frustrate-mcq-05",
         "frustrate-mcq-07",
-        "frustrate-mcq-04",
-        "frustrate-mcq-08",
-        "frustrate-mcq-03"
+        "frustrate-mcq-20",
+        "frustrate-mcq-16"
       ],
       "explanation": "本句的「frustrated by the delay」指「被某事弄得挫折」。",
       "sentenceIndex": 7,
@@ -689,12 +659,10 @@ export default {
         "frustrated by the delay"
       ],
       "optionReasons": {
-        "frustrate-mcq-06": "本句指「被某事弄得挫折」。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。"
+        "frustrate-mcq-06": "本句的「frustrated by the delay」指「被某事弄得挫折」。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-06"
     },
@@ -707,10 +675,7 @@ export default {
       "options": [
         "frustrate-mcq-06",
         "frustrate-mcq-05",
-        "frustrate-mcq-07",
-        "frustrate-mcq-04",
-        "frustrate-mcq-08",
-        "frustrate-mcq-03"
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrated by the lack of progress」指「被某事弄得挫折」。",
       "sentenceIndex": 8,
@@ -719,12 +684,9 @@ export default {
         "frustrated by the lack of progress"
       ],
       "optionReasons": {
-        "frustrate-mcq-06": "本句指「被某事弄得挫折」。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。"
+        "frustrate-mcq-06": "本句的「frustrated by the lack of progress」指「被某事弄得挫折」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-06"
     },
@@ -736,11 +698,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "frustrate-mcq-07",
-        "frustrate-mcq-06",
-        "frustrate-mcq-08",
-        "frustrate-mcq-05",
-        "frustrate-mcq-09",
-        "frustrate-mcq-04"
+        "frustrate-mcq-15",
+        "frustrate-mcq-17",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrated at his own mistake」指「因某事懊惱」。",
       "sentenceIndex": 9,
@@ -749,12 +709,10 @@ export default {
         "frustrated at his own mistake"
       ],
       "optionReasons": {
-        "frustrate-mcq-07": "本句指「因某事懊惱」。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。"
+        "frustrate-mcq-07": "本句的「frustrated at his own mistake」指「因某事懊惱」。",
+        "frustrate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-07"
     },
@@ -766,11 +724,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "frustrate-mcq-07",
-        "frustrate-mcq-06",
-        "frustrate-mcq-08",
-        "frustrate-mcq-05",
-        "frustrate-mcq-09",
-        "frustrate-mcq-04"
+        "frustrate-mcq-15",
+        "frustrate-mcq-20",
+        "frustrate-mcq-17"
       ],
       "explanation": "本句的「frustrated at the slow pace」指「因某事懊惱」。",
       "sentenceIndex": 10,
@@ -779,12 +735,10 @@ export default {
         "frustrated at the slow pace"
       ],
       "optionReasons": {
-        "frustrate-mcq-07": "本句指「因某事懊惱」。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。"
+        "frustrate-mcq-07": "本句的「frustrated at the slow pace」指「因某事懊惱」。",
+        "frustrate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-07"
     },
@@ -796,10 +750,7 @@ export default {
       "masked": "I was ____.",
       "options": [
         "frustrate-mcq-08",
-        "frustrate-mcq-07",
-        "frustrate-mcq-09",
-        "frustrate-mcq-06",
-        "frustrate-mcq-10",
+        "frustrate-mcq-20",
         "frustrate-mcq-05"
       ],
       "explanation": "本句的「frustrated that nobody had told me earlier」指「因……而挫折」。",
@@ -809,12 +760,9 @@ export default {
         "frustrated that nobody had told me earlier"
       ],
       "optionReasons": {
-        "frustrate-mcq-08": "本句指「因……而挫折」。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。"
+        "frustrate-mcq-08": "本句的「frustrated that nobody had told me earlier」指「因……而挫折」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-08"
     },
@@ -826,11 +774,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "frustrate-mcq-08",
-        "frustrate-mcq-07",
-        "frustrate-mcq-09",
-        "frustrate-mcq-06",
-        "frustrate-mcq-10",
-        "frustrate-mcq-05"
+        "frustrate-mcq-05",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrated that the plan kept changing」指「因……而挫折」。",
       "sentenceIndex": 12,
@@ -839,12 +784,9 @@ export default {
         "frustrated that the plan kept changing"
       ],
       "optionReasons": {
-        "frustrate-mcq-08": "本句指「因……而挫折」。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。"
+        "frustrate-mcq-08": "本句的「frustrated that the plan kept changing」指「因……而挫折」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-08"
     },
@@ -856,11 +798,9 @@ export default {
       "masked": "The whole situation was extremely ____.",
       "options": [
         "frustrate-mcq-09",
-        "frustrate-mcq-08",
-        "frustrate-mcq-10",
-        "frustrate-mcq-07",
-        "frustrate-mcq-11",
-        "frustrate-mcq-06"
+        "frustrate-mcq-16",
+        "frustrate-mcq-20",
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「frustrating」指「令人挫折的」。",
       "sentenceIndex": 13,
@@ -869,12 +809,10 @@ export default {
         "frustrating"
       ],
       "optionReasons": {
-        "frustrate-mcq-09": "本句指「令人挫折的」。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-09": "本句的「frustrating」指「令人挫折的」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-09"
     },
@@ -886,11 +824,9 @@ export default {
       "masked": "It's ____ when technology doesn't work.",
       "options": [
         "frustrate-mcq-09",
-        "frustrate-mcq-08",
-        "frustrate-mcq-10",
         "frustrate-mcq-07",
-        "frustrate-mcq-11",
-        "frustrate-mcq-06"
+        "frustrate-mcq-20",
+        "frustrate-mcq-16"
       ],
       "explanation": "本句的「frustrating」指「令人挫折的」。",
       "sentenceIndex": 14,
@@ -899,12 +835,10 @@ export default {
         "frustrating"
       ],
       "optionReasons": {
-        "frustrate-mcq-09": "本句指「令人挫折的」。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-09": "本句的「frustrating」指「令人挫折的」。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-09"
     },
@@ -916,11 +850,9 @@ export default {
       "masked": "It was a very ____.",
       "options": [
         "frustrate-mcq-10",
-        "frustrate-mcq-09",
-        "frustrate-mcq-11",
-        "frustrate-mcq-08",
-        "frustrate-mcq-12",
-        "frustrate-mcq-07"
+        "frustrate-mcq-16",
+        "frustrate-mcq-07",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustrating experience」指「令人挫折的經歷」。",
       "sentenceIndex": 15,
@@ -929,12 +861,10 @@ export default {
         "frustrating experience"
       ],
       "optionReasons": {
-        "frustrate-mcq-10": "本句指「令人挫折的經歷」。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。"
+        "frustrate-mcq-10": "本句的「frustrating experience」指「令人挫折的經歷」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-10"
     },
@@ -946,11 +876,9 @@ export default {
       "masked": "Trying to fix the problem became a ____.",
       "options": [
         "frustrate-mcq-10",
-        "frustrate-mcq-09",
-        "frustrate-mcq-11",
-        "frustrate-mcq-08",
-        "frustrate-mcq-12",
-        "frustrate-mcq-07"
+        "frustrate-mcq-05",
+        "frustrate-mcq-20",
+        "frustrate-mcq-17"
       ],
       "explanation": "本句的「frustrating experience」指「令人挫折的經歷」。",
       "sentenceIndex": 16,
@@ -959,12 +887,10 @@ export default {
         "frustrating experience"
       ],
       "optionReasons": {
-        "frustrate-mcq-10": "本句指「令人挫折的經歷」。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-07": "「因某事懊惱」是「frustrated at something」的用法，與本句語境不同。"
+        "frustrate-mcq-10": "本句的「frustrating experience」指「令人挫折的經歷」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-10"
     },
@@ -976,11 +902,9 @@ export default {
       "masked": "He sighed in ____.",
       "options": [
         "frustrate-mcq-11",
-        "frustrate-mcq-10",
-        "frustrate-mcq-12",
-        "frustrate-mcq-09",
-        "frustrate-mcq-13",
-        "frustrate-mcq-08"
+        "frustrate-mcq-07",
+        "frustrate-mcq-16",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「frustration」指「挫折感；煩躁」。",
       "sentenceIndex": 17,
@@ -989,12 +913,10 @@ export default {
         "frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-11": "本句指「挫折感；煩躁」。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。"
+        "frustrate-mcq-11": "本句的「frustration」指「挫折感；煩躁」。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-11"
     },
@@ -1006,11 +928,9 @@ export default {
       "masked": "I could hear the ____ in her voice.",
       "options": [
         "frustrate-mcq-11",
-        "frustrate-mcq-10",
-        "frustrate-mcq-12",
-        "frustrate-mcq-09",
-        "frustrate-mcq-13",
-        "frustrate-mcq-08"
+        "frustrate-mcq-20",
+        "frustrate-mcq-07",
+        "frustrate-mcq-16"
       ],
       "explanation": "本句的「frustration」指「挫折感；煩躁」。",
       "sentenceIndex": 18,
@@ -1019,12 +939,10 @@ export default {
         "frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-11": "本句指「挫折感；煩躁」。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-08": "「因……而挫折」是「frustrated that...」的用法，與本句語境不同。"
+        "frustrate-mcq-11": "本句的「frustration」指「挫折感；煩躁」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-11"
     },
@@ -1036,11 +954,8 @@ export default {
       "masked": "He threw his pen down ____.",
       "options": [
         "frustrate-mcq-12",
-        "frustrate-mcq-11",
-        "frustrate-mcq-13",
-        "frustrate-mcq-10",
-        "frustrate-mcq-14",
-        "frustrate-mcq-09"
+        "frustrate-mcq-05",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「in frustration」指「挫折地」。",
       "sentenceIndex": 19,
@@ -1049,12 +964,9 @@ export default {
         "in frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-12": "本句指「挫折地」。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。"
+        "frustrate-mcq-12": "本句的「in frustration」指「挫折地」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-12"
     },
@@ -1066,11 +978,9 @@ export default {
       "masked": "She closed the laptop ____.",
       "options": [
         "frustrate-mcq-12",
-        "frustrate-mcq-11",
-        "frustrate-mcq-13",
-        "frustrate-mcq-10",
-        "frustrate-mcq-14",
-        "frustrate-mcq-09"
+        "frustrate-mcq-16",
+        "frustrate-mcq-07",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「in frustration」指「挫折地」。",
       "sentenceIndex": 20,
@@ -1079,12 +989,10 @@ export default {
         "in frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-12": "本句指「挫折地」。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-09": "「令人挫折的」是「frustrating」的用法，與本句語境不同。"
+        "frustrate-mcq-12": "本句的「in frustration」指「挫折地」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-12"
     },
@@ -1096,11 +1004,8 @@ export default {
       "masked": "He spoke too harshly ____.",
       "options": [
         "frustrate-mcq-13",
-        "frustrate-mcq-12",
-        "frustrate-mcq-14",
-        "frustrate-mcq-11",
-        "frustrate-mcq-15",
-        "frustrate-mcq-10"
+        "frustrate-mcq-05",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「out of frustration」指「因挫折而」。",
       "sentenceIndex": 21,
@@ -1109,12 +1014,9 @@ export default {
         "out of frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-13": "本句指「因挫折而」。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。"
+        "frustrate-mcq-13": "本句的「out of frustration」指「因挫折而」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-13"
     },
@@ -1126,11 +1028,8 @@ export default {
       "masked": "She walked away ____.",
       "options": [
         "frustrate-mcq-13",
-        "frustrate-mcq-12",
-        "frustrate-mcq-14",
-        "frustrate-mcq-11",
-        "frustrate-mcq-15",
-        "frustrate-mcq-10"
+        "frustrate-mcq-16",
+        "frustrate-mcq-20"
       ],
       "explanation": "本句的「out of frustration」指「因挫折而」。",
       "sentenceIndex": 22,
@@ -1139,12 +1038,9 @@ export default {
         "out of frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-13": "本句指「因挫折而」。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-10": "「令人挫折的經歷」是「frustrating experience」的用法，與本句語境不同。"
+        "frustrate-mcq-13": "本句的「out of frustration」指「因挫折而」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-13"
     },
@@ -1156,11 +1052,9 @@ export default {
       "masked": "Several students ____ with the new system.",
       "options": [
         "frustrate-mcq-14",
-        "frustrate-mcq-13",
-        "frustrate-mcq-15",
-        "frustrate-mcq-12",
         "frustrate-mcq-16",
-        "frustrate-mcq-11"
+        "frustrate-mcq-20",
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「expressed frustration」指「表達不滿／挫折」。",
       "sentenceIndex": 23,
@@ -1169,12 +1063,10 @@ export default {
         "expressed frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-14": "本句指「表達不滿／挫折」。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-14": "本句的「expressed frustration」指「表達不滿／挫折」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-14"
     },
@@ -1186,11 +1078,9 @@ export default {
       "masked": "He openly ____.",
       "options": [
         "frustrate-mcq-14",
-        "frustrate-mcq-13",
-        "frustrate-mcq-15",
-        "frustrate-mcq-12",
-        "frustrate-mcq-16",
-        "frustrate-mcq-11"
+        "frustrate-mcq-20",
+        "frustrate-mcq-05",
+        "frustrate-mcq-19"
       ],
       "explanation": "本句的「expressed his frustration」指「表達不滿／挫折」。",
       "sentenceIndex": 24,
@@ -1199,12 +1089,10 @@ export default {
         "expressed his frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-14": "本句指「表達不滿／挫折」。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。",
-        "frustrate-mcq-11": "「挫折感；煩躁」是「frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-14": "本句的「expressed his frustration」指「表達不滿／挫折」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-14"
     },
@@ -1216,11 +1104,9 @@ export default {
       "masked": "The constant delays became a major ____.",
       "options": [
         "frustrate-mcq-15",
-        "frustrate-mcq-14",
+        "frustrate-mcq-20",
         "frustrate-mcq-16",
-        "frustrate-mcq-13",
-        "frustrate-mcq-17",
-        "frustrate-mcq-12"
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「source of frustration」指「挫折來源」。",
       "sentenceIndex": 25,
@@ -1229,12 +1115,10 @@ export default {
         "source of frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-15": "本句指「挫折來源」。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-15": "本句的「source of frustration」指「挫折來源」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-15"
     },
@@ -1246,11 +1130,9 @@ export default {
       "masked": "Poor communication is a common ____.",
       "options": [
         "frustrate-mcq-15",
-        "frustrate-mcq-14",
-        "frustrate-mcq-16",
-        "frustrate-mcq-13",
-        "frustrate-mcq-17",
-        "frustrate-mcq-12"
+        "frustrate-mcq-05",
+        "frustrate-mcq-20",
+        "frustrate-mcq-19"
       ],
       "explanation": "本句的「source of frustration」指「挫折來源」。",
       "sentenceIndex": 26,
@@ -1259,12 +1141,10 @@ export default {
         "source of frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-15": "本句指「挫折來源」。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。",
-        "frustrate-mcq-12": "「挫折地」是「in frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-15": "本句的「source of frustration」指「挫折來源」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-15"
     },
@@ -1276,11 +1156,8 @@ export default {
       "masked": "The repeated errors ____.",
       "options": [
         "frustrate-mcq-01",
-        "frustrate-mcq-02",
-        "frustrate-mcq-03",
-        "frustrate-mcq-04",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-20",
+        "frustrate-mcq-17"
       ],
       "explanation": "本句的「frustrated me」指「使某人挫折／惱火」。",
       "sentenceIndex": 27,
@@ -1289,12 +1166,9 @@ export default {
         "frustrated me"
       ],
       "optionReasons": {
-        "frustrate-mcq-01": "本句指「使某人挫折／惱火」。",
-        "frustrate-mcq-02": "「感到挫折的」是「frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-01": "本句的「frustrated me」指「使某人挫折／惱火」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-01"
     },
@@ -1306,11 +1180,8 @@ export default {
       "masked": "His lack of effort ____.",
       "options": [
         "frustrate-mcq-01",
-        "frustrate-mcq-02",
-        "frustrate-mcq-03",
-        "frustrate-mcq-04",
-        "frustrate-mcq-05",
-        "frustrate-mcq-06"
+        "frustrate-mcq-20",
+        "frustrate-mcq-17"
       ],
       "explanation": "本句的「frustrated the whole team」指「使某人挫折／惱火」。",
       "sentenceIndex": 28,
@@ -1319,12 +1190,9 @@ export default {
         "frustrated the whole team"
       ],
       "optionReasons": {
-        "frustrate-mcq-01": "本句指「使某人挫折／惱火」。",
-        "frustrate-mcq-02": "「感到挫折的」是「frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-03": "「感到挫折」是「feel frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-04": "「變得煩躁／挫折」是「get frustrated」的用法，與本句語境不同。",
-        "frustrate-mcq-05": "「對某人感到無奈／惱火」是「frustrated with someone」的用法，與本句語境不同。",
-        "frustrate-mcq-06": "「被某事弄得挫折」是「frustrated by something」的用法，與本句語境不同。"
+        "frustrate-mcq-01": "本句的「frustrated the whole team」指「使某人挫折／惱火」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-01"
     },
@@ -1336,11 +1204,8 @@ export default {
       "masked": "Bad weather ____ to finish the work.",
       "options": [
         "frustrate-mcq-16",
-        "frustrate-mcq-15",
-        "frustrate-mcq-17",
-        "frustrate-mcq-14",
-        "frustrate-mcq-18",
-        "frustrate-mcq-13"
+        "frustrate-mcq-20",
+        "frustrate-mcq-08"
       ],
       "explanation": "本句的「frustrated our efforts」指「阻撓某人的努力」。",
       "sentenceIndex": 29,
@@ -1349,12 +1214,9 @@ export default {
         "frustrated our efforts"
       ],
       "optionReasons": {
-        "frustrate-mcq-16": "本句指「阻撓某人的努力」。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-16": "本句的「frustrated our efforts」指「阻撓某人的努力」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-16"
     },
@@ -1366,11 +1228,9 @@ export default {
       "masked": "Technical problems ____ to launch the system.",
       "options": [
         "frustrate-mcq-16",
-        "frustrate-mcq-15",
-        "frustrate-mcq-17",
-        "frustrate-mcq-14",
-        "frustrate-mcq-18",
-        "frustrate-mcq-13"
+        "frustrate-mcq-12",
+        "frustrate-mcq-20",
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「frustrated their efforts」指「阻撓某人的努力」。",
       "sentenceIndex": 30,
@@ -1379,12 +1239,10 @@ export default {
         "frustrated their efforts"
       ],
       "optionReasons": {
-        "frustrate-mcq-16": "本句指「阻撓某人的努力」。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-13": "「因挫折而」是「out of frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-16": "本句的「frustrated their efforts」指「阻撓某人的努力」。",
+        "frustrate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-16"
     },
@@ -1396,11 +1254,9 @@ export default {
       "masked": "The security system ____ to enter the building.",
       "options": [
         "frustrate-mcq-17",
-        "frustrate-mcq-16",
-        "frustrate-mcq-18",
-        "frustrate-mcq-15",
-        "frustrate-mcq-19",
-        "frustrate-mcq-14"
+        "frustrate-mcq-05",
+        "frustrate-mcq-20",
+        "frustrate-mcq-11"
       ],
       "explanation": "本句的「frustrated the attempt」指「阻礙／挫敗計劃」。",
       "sentenceIndex": 31,
@@ -1409,12 +1265,10 @@ export default {
         "frustrated the attempt"
       ],
       "optionReasons": {
-        "frustrate-mcq-17": "本句指「阻礙／挫敗計劃」。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-19": "「挫敗攻勢」是「frustrate an attack」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-17": "本句的「frustrated the attempt」指「阻礙／挫敗計劃」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-17"
     },
@@ -1426,11 +1280,9 @@ export default {
       "masked": "Unexpected delays ____.",
       "options": [
         "frustrate-mcq-17",
-        "frustrate-mcq-16",
-        "frustrate-mcq-18",
-        "frustrate-mcq-15",
-        "frustrate-mcq-19",
-        "frustrate-mcq-14"
+        "frustrate-mcq-07",
+        "frustrate-mcq-20",
+        "frustrate-mcq-15"
       ],
       "explanation": "本句的「frustrated their plans」指「阻礙／挫敗計劃」。",
       "sentenceIndex": 32,
@@ -1439,12 +1291,10 @@ export default {
         "frustrated their plans"
       ],
       "optionReasons": {
-        "frustrate-mcq-17": "本句指「阻礙／挫敗計劃」。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-15": "「挫折來源」是「source of frustration」的用法，與本句語境不同。",
-        "frustrate-mcq-19": "「挫敗攻勢」是「frustrate an attack」的用法，與本句語境不同。",
-        "frustrate-mcq-14": "「表達不滿／挫折」是「express frustration」的用法，與本句語境不同。"
+        "frustrate-mcq-17": "本句的「frustrated their plans」指「阻礙／挫敗計劃」。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-17"
     },
@@ -1456,11 +1306,9 @@ export default {
       "masked": "The defence ____.",
       "options": [
         "frustrate-mcq-19",
-        "frustrate-mcq-18",
+        "frustrate-mcq-05",
         "frustrate-mcq-20",
-        "frustrate-mcq-17",
-        "frustrate-mcq-21",
-        "frustrate-mcq-16"
+        "frustrate-mcq-11"
       ],
       "explanation": "本句的「frustrated the attack」指「挫敗攻勢」。",
       "sentenceIndex": 33,
@@ -1469,12 +1317,10 @@ export default {
         "frustrated the attack"
       ],
       "optionReasons": {
-        "frustrate-mcq-19": "本句指「挫敗攻勢」。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-20": "「未能實現的抱負」是「frustrated ambition」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。",
-        "frustrate-mcq-21": "「令人挫折地」是「frustratingly」的用法，與本句語境不同。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。"
+        "frustrate-mcq-19": "本句的「frustrated the attack」指「挫敗攻勢」。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-19"
     },
@@ -1486,11 +1332,9 @@ export default {
       "masked": "Strong security measures ____.",
       "options": [
         "frustrate-mcq-19",
-        "frustrate-mcq-18",
         "frustrate-mcq-20",
-        "frustrate-mcq-17",
-        "frustrate-mcq-21",
-        "frustrate-mcq-16"
+        "frustrate-mcq-16",
+        "frustrate-mcq-07"
       ],
       "explanation": "本句的「frustrated the attempted attack」指「挫敗攻勢」。",
       "sentenceIndex": 34,
@@ -1499,12 +1343,10 @@ export default {
         "frustrated the attempted attack"
       ],
       "optionReasons": {
-        "frustrate-mcq-19": "本句指「挫敗攻勢」。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-20": "「未能實現的抱負」是「frustrated ambition」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。",
-        "frustrate-mcq-21": "「令人挫折地」是「frustratingly」的用法，與本句語境不同。",
-        "frustrate-mcq-16": "「阻撓某人的努力」是「frustrate someone's efforts」的用法，與本句語境不同。"
+        "frustrate-mcq-19": "本句的「frustrated the attempted attack」指「挫敗攻勢」。",
+        "frustrate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-19"
     },
@@ -1516,11 +1358,8 @@ export default {
       "masked": "His ____ made him bitter.",
       "options": [
         "frustrate-mcq-20",
-        "frustrate-mcq-19",
-        "frustrate-mcq-21",
-        "frustrate-mcq-18",
-        "frustrate-mcq-22",
-        "frustrate-mcq-17"
+        "frustrate-mcq-13",
+        "frustrate-mcq-16"
       ],
       "explanation": "本句的「frustrated ambitions」指「未能實現的抱負」。",
       "sentenceIndex": 35,
@@ -1529,12 +1368,9 @@ export default {
         "frustrated ambitions"
       ],
       "optionReasons": {
-        "frustrate-mcq-20": "本句指「未能實現的抱負」。",
-        "frustrate-mcq-19": "「挫敗攻勢」是「frustrate an attack」的用法，與本句語境不同。",
-        "frustrate-mcq-21": "「令人挫折地」是「frustratingly」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-22": "「因性欲或親密需要長期未能滿足而產生的挫折感」是「19. sexual frustration — 性方面未獲滿足而產生的挫折感」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。"
+        "frustrate-mcq-20": "本句的「frustrated ambitions」指「未能實現的抱負」。",
+        "frustrate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-20"
     },
@@ -1546,11 +1382,8 @@ export default {
       "masked": "The novel explores ____.",
       "options": [
         "frustrate-mcq-20",
-        "frustrate-mcq-19",
-        "frustrate-mcq-21",
-        "frustrate-mcq-18",
-        "frustrate-mcq-22",
-        "frustrate-mcq-17"
+        "frustrate-mcq-08",
+        "frustrate-mcq-05"
       ],
       "explanation": "本句的「frustrated desire」指「未能實現的抱負」。",
       "sentenceIndex": 36,
@@ -1559,12 +1392,9 @@ export default {
         "frustrated desire"
       ],
       "optionReasons": {
-        "frustrate-mcq-20": "本句指「未能實現的抱負」。",
-        "frustrate-mcq-19": "「挫敗攻勢」是「frustrate an attack」的用法，與本句語境不同。",
-        "frustrate-mcq-21": "「令人挫折地」是「frustratingly」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-22": "「因性欲或親密需要長期未能滿足而產生的挫折感」是「19. sexual frustration — 性方面未獲滿足而產生的挫折感」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。"
+        "frustrate-mcq-20": "本句的「frustrated desire」指「未能實現的抱負」。",
+        "frustrate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-20"
     },
@@ -1576,11 +1406,8 @@ export default {
       "masked": "The phrase ____ refers to distress caused by unmet sexual desires.",
       "options": [
         "frustrate-mcq-22",
-        "frustrate-mcq-21",
-        "frustrate-mcq-20",
-        "frustrate-mcq-19",
-        "frustrate-mcq-18",
-        "frustrate-mcq-17"
+        "frustrate-mcq-16",
+        "frustrate-mcq-19"
       ],
       "explanation": "本句的「sexual frustration」指「因性欲或親密需要長期未能滿足而產生的挫折感」。",
       "sentenceIndex": 37,
@@ -1589,12 +1416,9 @@ export default {
         "sexual frustration"
       ],
       "optionReasons": {
-        "frustrate-mcq-22": "本句指「因性欲或親密需要長期未能滿足而產生的挫折感」。",
-        "frustrate-mcq-21": "「令人挫折地」是「frustratingly」的用法，與本句語境不同。",
-        "frustrate-mcq-20": "「未能實現的抱負」是「frustrated ambition」的用法，與本句語境不同。",
-        "frustrate-mcq-19": "「挫敗攻勢」是「frustrate an attack」的用法，與本句語境不同。",
-        "frustrate-mcq-18": "「挫敗企圖」是「frustrate an attempt」的用法，與本句語境不同。",
-        "frustrate-mcq-17": "「阻礙／挫敗計劃」是「frustrate a plan」的用法，與本句語境不同。"
+        "frustrate-mcq-22": "本句的「sexual frustration」指「因性欲或親密需要長期未能滿足而產生的挫折感」。",
+        "frustrate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frustrate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frustrate-mcq-22"
     }
@@ -1606,5 +1430,7 @@ export default {
     "sha256": "e6ed7ceb53b50c0c3dfa9d25c96381e20776ea2931b9d5b0b8eb2535cf3ba0e5",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

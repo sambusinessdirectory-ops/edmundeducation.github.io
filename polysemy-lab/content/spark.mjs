@@ -377,11 +377,8 @@ export default {
       "masked": "A ____ flew from the fire.",
       "options": [
         "spark-mcq-01",
-        "spark-mcq-02",
-        "spark-mcq-03",
-        "spark-mcq-04",
         "spark-mcq-05",
-        "spark-mcq-06"
+        "spark-mcq-08"
       ],
       "explanation": "本句的「spark」指「燃燒、摩擦或撞擊時產生的一小點亮光／火星」。",
       "sentenceIndex": 0,
@@ -390,12 +387,9 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-01": "本句指「燃燒、摩擦或撞擊時產生的一小點亮光／火星」。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-01": "本句的「spark」指「燃燒、摩擦或撞擊時產生的一小點亮光／火星」。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-01"
     },
@@ -407,11 +401,8 @@ export default {
       "masked": "The metal produced ____ when it hit the ground.",
       "options": [
         "spark-mcq-01",
-        "spark-mcq-02",
-        "spark-mcq-03",
-        "spark-mcq-04",
-        "spark-mcq-05",
-        "spark-mcq-06"
+        "spark-mcq-13",
+        "spark-mcq-05"
       ],
       "explanation": "本句的「sparks」指「燃燒、摩擦或撞擊時產生的一小點亮光／火星」。",
       "sentenceIndex": 1,
@@ -420,12 +411,9 @@ export default {
         "sparks"
       ],
       "optionReasons": {
-        "spark-mcq-01": "本句指「燃燒、摩擦或撞擊時產生的一小點亮光／火星」。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-01": "本句的「sparks」指「燃燒、摩擦或撞擊時產生的一小點亮光／火星」。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-01"
     },
@@ -437,11 +425,9 @@ export default {
       "masked": "A small electrical ____ jumped between the wires.",
       "options": [
         "spark-mcq-02",
-        "spark-mcq-01",
-        "spark-mcq-03",
-        "spark-mcq-04",
         "spark-mcq-05",
-        "spark-mcq-06"
+        "spark-mcq-13",
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「電流瞬間跳過空隙時產生的小型電火花」。",
       "sentenceIndex": 2,
@@ -450,12 +436,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-02": "本句指「電流瞬間跳過空隙時產生的小型電火花」。",
-        "spark-mcq-01": "「燃燒、摩擦或撞擊時產生的一小點亮光／火星」是「spark — fire」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-02": "本句的「spark」指「電流瞬間跳過空隙時產生的小型電火花」。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-02"
     },
@@ -467,11 +451,9 @@ export default {
       "masked": "The faulty switch produced a ____.",
       "options": [
         "spark-mcq-02",
-        "spark-mcq-01",
-        "spark-mcq-03",
-        "spark-mcq-04",
+        "spark-mcq-13",
         "spark-mcq-05",
-        "spark-mcq-06"
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「電流瞬間跳過空隙時產生的小型電火花」。",
       "sentenceIndex": 3,
@@ -480,12 +462,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-02": "本句指「電流瞬間跳過空隙時產生的小型電火花」。",
-        "spark-mcq-01": "「燃燒、摩擦或撞擊時產生的一小點亮光／火星」是「spark — fire」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-02": "本句的「spark」指「電流瞬間跳過空隙時產生的小型電火花」。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-02"
     },
@@ -497,11 +477,9 @@ export default {
       "masked": "The damaged wire ____ a fire.",
       "options": [
         "spark-mcq-03",
-        "spark-mcq-02",
-        "spark-mcq-04",
-        "spark-mcq-01",
-        "spark-mcq-05",
-        "spark-mcq-06"
+        "spark-mcq-07",
+        "spark-mcq-08",
+        "spark-mcq-12"
       ],
       "explanation": "本句的「sparked」指「因火花或點火作用令某物開始燃燒」。",
       "sentenceIndex": 4,
@@ -510,12 +488,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-03": "本句指「因火花或點火作用令某物開始燃燒」。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-01": "「燃燒、摩擦或撞擊時產生的一小點亮光／火星」是「spark — fire」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-03": "本句的「sparked」指「因火花或點火作用令某物開始燃燒」。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-03"
     },
@@ -527,11 +503,9 @@ export default {
       "masked": "A cigarette can ____ a wildfire in dry conditions.",
       "options": [
         "spark-mcq-03",
-        "spark-mcq-02",
-        "spark-mcq-04",
-        "spark-mcq-01",
-        "spark-mcq-05",
-        "spark-mcq-06"
+        "spark-mcq-10",
+        "spark-mcq-08",
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「因火花或點火作用令某物開始燃燒」。",
       "sentenceIndex": 5,
@@ -540,12 +514,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-03": "本句指「因火花或點火作用令某物開始燃燒」。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-01": "「燃燒、摩擦或撞擊時產生的一小點亮光／火星」是「spark — fire」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-03": "本句的「spark」指「因火花或點火作用令某物開始燃燒」。",
+        "spark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-03"
     },
@@ -557,11 +529,9 @@ export default {
       "masked": "The painting could ____.",
       "options": [
         "spark-mcq-04",
-        "spark-mcq-03",
-        "spark-mcq-05",
-        "spark-mcq-02",
-        "spark-mcq-06",
-        "spark-mcq-01"
+        "spark-mcq-12",
+        "spark-mcq-09",
+        "spark-mcq-02"
       ],
       "explanation": "本句的「spark conversation」指「使某個活動、反應、討論或事件開始發生」。",
       "sentenceIndex": 6,
@@ -570,12 +540,10 @@ export default {
         "spark conversation"
       ],
       "optionReasons": {
-        "spark-mcq-04": "本句指「使某個活動、反應、討論或事件開始發生」。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-01": "「燃燒、摩擦或撞擊時產生的一小點亮光／火星」是「spark — fire」的用法，與本句語境不同。"
+        "spark-mcq-04": "本句的「spark conversation」指「使某個活動、反應、討論或事件開始發生」。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-04"
     },
@@ -587,11 +555,9 @@ export default {
       "masked": "The exhibition ____ a lot of discussion.",
       "options": [
         "spark-mcq-04",
-        "spark-mcq-03",
-        "spark-mcq-05",
+        "spark-mcq-13",
         "spark-mcq-02",
-        "spark-mcq-06",
-        "spark-mcq-01"
+        "spark-pdf-001"
       ],
       "explanation": "本句的「sparked」指「使某個活動、反應、討論或事件開始發生」。",
       "sentenceIndex": 7,
@@ -600,12 +566,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-04": "本句指「使某個活動、反應、討論或事件開始發生」。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-01": "「燃燒、摩擦或撞擊時產生的一小點亮光／火星」是「spark — fire」的用法，與本句語境不同。"
+        "spark-mcq-04": "本句的「sparked」指「使某個活動、反應、討論或事件開始發生」。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spark-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-04"
     },
@@ -617,11 +581,8 @@ export default {
       "masked": "The painting ____ my interest in Impressionism.",
       "options": [
         "spark-mcq-05",
-        "spark-mcq-04",
-        "spark-mcq-06",
-        "spark-mcq-03",
-        "spark-mcq-07",
-        "spark-mcq-02"
+        "spark-mcq-01",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「sparked」指「令某種興趣、好奇或注意突然開始」。",
       "sentenceIndex": 8,
@@ -630,12 +591,9 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-05": "本句指「令某種興趣、好奇或注意突然開始」。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。"
+        "spark-mcq-05": "本句的「sparked」指「令某種興趣、好奇或注意突然開始」。",
+        "spark-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-05"
     },
@@ -647,10 +605,8 @@ export default {
       "masked": "Her question ____ my curiosity.",
       "options": [
         "spark-mcq-05",
-        "spark-mcq-04",
-        "spark-mcq-06",
-        "spark-mcq-03",
-        "spark-mcq-07",
+        "spark-mcq-08",
+        "spark-mcq-12",
         "spark-mcq-02"
       ],
       "explanation": "本句的「sparked」指「令某種興趣、好奇或注意突然開始」。",
@@ -660,12 +616,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-05": "本句指「令某種興趣、好奇或注意突然開始」。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-02": "「電流瞬間跳過空隙時產生的小型電火花」是「spark — electrical」的用法，與本句語境不同。"
+        "spark-mcq-05": "本句的「sparked」指「令某種興趣、好奇或注意突然開始」。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-05"
     },
@@ -677,11 +631,9 @@ export default {
       "masked": "The trip ____ an idea for a new project.",
       "options": [
         "spark-mcq-06",
-        "spark-mcq-05",
-        "spark-mcq-07",
-        "spark-mcq-04",
-        "spark-mcq-08",
-        "spark-mcq-03"
+        "spark-mcq-15",
+        "spark-mcq-12",
+        "spark-mcq-13"
       ],
       "explanation": "本句的「sparked」指「促使新的想法或創意開始形成」。",
       "sentenceIndex": 10,
@@ -690,12 +642,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-06": "本句指「促使新的想法或創意開始形成」。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。"
+        "spark-mcq-06": "本句的「sparked」指「促使新的想法或創意開始形成」。",
+        "spark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-06"
     },
@@ -707,11 +657,9 @@ export default {
       "masked": "The colours ____ his imagination.",
       "options": [
         "spark-mcq-06",
-        "spark-mcq-05",
-        "spark-mcq-07",
-        "spark-mcq-04",
-        "spark-mcq-08",
-        "spark-mcq-03"
+        "spark-mcq-14",
+        "spark-mcq-09",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「sparked」指「促使新的想法或創意開始形成」。",
       "sentenceIndex": 11,
@@ -720,12 +668,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-06": "本句指「促使新的想法或創意開始形成」。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-03": "「因火花或點火作用令某物開始燃燒」是「spark — ignite」的用法，與本句語境不同。"
+        "spark-mcq-06": "本句的「sparked」指「促使新的想法或創意開始形成」。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-06"
     },
@@ -737,11 +683,9 @@ export default {
       "masked": "The decision ____ protests.",
       "options": [
         "spark-mcq-07",
-        "spark-mcq-06",
-        "spark-mcq-08",
-        "spark-mcq-05",
-        "spark-mcq-09",
-        "spark-mcq-04"
+        "spark-mcq-03",
+        "spark-mcq-12",
+        "spark-pdf-001"
       ],
       "explanation": "本句的「sparked」指「引起抗議、爭議、憤怒等較強烈反應」。",
       "sentenceIndex": 12,
@@ -750,12 +694,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-07": "本句指「引起抗議、爭議、憤怒等較強烈反應」。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。"
+        "spark-mcq-07": "本句的「sparked」指「引起抗議、爭議、憤怒等較強烈反應」。",
+        "spark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-07"
     },
@@ -767,11 +709,9 @@ export default {
       "masked": "The comment ____ an argument.",
       "options": [
         "spark-mcq-07",
-        "spark-mcq-06",
-        "spark-mcq-08",
-        "spark-mcq-05",
-        "spark-mcq-09",
-        "spark-mcq-04"
+        "spark-mcq-03",
+        "spark-pdf-001",
+        "spark-mcq-14"
       ],
       "explanation": "本句的「sparked」指「引起抗議、爭議、憤怒等較強烈反應」。",
       "sentenceIndex": 13,
@@ -780,12 +720,10 @@ export default {
         "sparked"
       ],
       "optionReasons": {
-        "spark-mcq-07": "本句指「引起抗議、爭議、憤怒等較強烈反應」。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-04": "「使某個活動、反應、討論或事件開始發生」是「spark — trigger」的用法，與本句語境不同。"
+        "spark-mcq-07": "本句的「sparked」指「引起抗議、爭議、憤怒等較強烈反應」。",
+        "spark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-07"
     },
@@ -797,10 +735,8 @@ export default {
       "masked": "There was a ____ of excitement in her voice.",
       "options": [
         "spark-mcq-08",
-        "spark-mcq-07",
-        "spark-mcq-09",
-        "spark-mcq-06",
-        "spark-mcq-10",
+        "spark-mcq-12",
+        "spark-mcq-11",
         "spark-mcq-05"
       ],
       "explanation": "本句的「spark」指「少量但明顯的情感、希望、活力或特色」。",
@@ -810,12 +746,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-08": "本句指「少量但明顯的情感、希望、活力或特色」。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。"
+        "spark-mcq-08": "本句的「spark」指「少量但明顯的情感、希望、活力或特色」。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-08"
     },
@@ -827,10 +761,7 @@ export default {
       "masked": "The performance lacked a real ____.",
       "options": [
         "spark-mcq-08",
-        "spark-mcq-07",
-        "spark-mcq-09",
-        "spark-mcq-06",
-        "spark-mcq-10",
+        "spark-mcq-01",
         "spark-mcq-05"
       ],
       "explanation": "本句的「spark」指「少量但明顯的情感、希望、活力或特色」。",
@@ -840,12 +771,9 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-08": "本句指「少量但明顯的情感、希望、活力或特色」。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-05": "「令某種興趣、好奇或注意突然開始」是「spark — interest」的用法，與本句語境不同。"
+        "spark-mcq-08": "本句的「spark」指「少量但明顯的情感、希望、活力或特色」。",
+        "spark-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-08"
     },
@@ -857,11 +785,9 @@ export default {
       "masked": "She brings a real ____ to the team.",
       "options": [
         "spark-mcq-09",
-        "spark-mcq-08",
-        "spark-mcq-10",
-        "spark-mcq-07",
-        "spark-mcq-11",
-        "spark-mcq-06"
+        "spark-mcq-06",
+        "spark-mcq-12",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「spark」指「令人／事物顯得有生氣、有趣或吸引人的特質」。",
       "sentenceIndex": 16,
@@ -870,12 +796,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-09": "本句指「令人／事物顯得有生氣、有趣或吸引人的特質」。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-09": "本句的「spark」指「令人／事物顯得有生氣、有趣或吸引人的特質」。",
+        "spark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-09"
     },
@@ -887,11 +811,9 @@ export default {
       "masked": "The room needs something to give it more ____.",
       "options": [
         "spark-mcq-09",
-        "spark-mcq-08",
-        "spark-mcq-10",
-        "spark-mcq-07",
-        "spark-mcq-11",
-        "spark-mcq-06"
+        "spark-mcq-12",
+        "spark-mcq-06",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「spark」指「令人／事物顯得有生氣、有趣或吸引人的特質」。",
       "sentenceIndex": 17,
@@ -900,12 +822,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-09": "本句指「令人／事物顯得有生氣、有趣或吸引人的特質」。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-06": "「促使新的想法或創意開始形成」是「spark — inspiration」的用法，與本句語境不同。"
+        "spark-mcq-09": "本句的「spark」指「令人／事物顯得有生氣、有趣或吸引人的特質」。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-09"
     },
@@ -917,11 +837,9 @@ export default {
       "masked": "There was an immediate ____ between them.",
       "options": [
         "spark-mcq-10",
-        "spark-mcq-09",
-        "spark-mcq-11",
-        "spark-mcq-08",
-        "spark-mcq-12",
-        "spark-mcq-07"
+        "spark-mcq-03",
+        "spark-mcq-14",
+        "spark-mcq-13"
       ],
       "explanation": "本句的「spark」指「兩人之間突然產生的浪漫吸引力／化學反應」。",
       "sentenceIndex": 18,
@@ -930,12 +848,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-10": "本句指「兩人之間突然產生的浪漫吸引力／化學反應」。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。"
+        "spark-mcq-10": "本句的「spark」指「兩人之間突然產生的浪漫吸引力／化學反應」。",
+        "spark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-10"
     },
@@ -947,11 +863,9 @@ export default {
       "masked": "They got along well, but there was no ____.",
       "options": [
         "spark-mcq-10",
-        "spark-mcq-09",
-        "spark-mcq-11",
-        "spark-mcq-08",
-        "spark-mcq-12",
-        "spark-mcq-07"
+        "spark-mcq-14",
+        "spark-mcq-03",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「spark」指「兩人之間突然產生的浪漫吸引力／化學反應」。",
       "sentenceIndex": 19,
@@ -960,12 +874,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-10": "本句指「兩人之間突然產生的浪漫吸引力／化學反應」。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-07": "「引起抗議、爭議、憤怒等較強烈反應」是「spark — conflict/reaction」的用法，與本句語境不同。"
+        "spark-mcq-10": "本句的「spark」指「兩人之間突然產生的浪漫吸引力／化學反應」。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-10"
     },
@@ -977,11 +889,9 @@ export default {
       "masked": "____ flew during the debate.",
       "options": [
         "spark-mcq-15",
+        "spark-mcq-02",
         "spark-mcq-14",
-        "spark-mcq-13",
-        "spark-mcq-12",
-        "spark-mcq-11",
-        "spark-mcq-10"
+        "spark-mcq-08"
       ],
       "explanation": "本句的「Sparks」指「情緒、爭論或吸引力突然變得非常強烈」。",
       "sentenceIndex": 20,
@@ -990,12 +900,10 @@ export default {
         "Sparks"
       ],
       "optionReasons": {
-        "spark-mcq-15": "本句指「情緒、爭論或吸引力突然變得非常強烈」。",
-        "spark-mcq-14": "「表面有很多細小亮點、閃閃發光的」是「sparkly」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。"
+        "spark-mcq-15": "本句的「Sparks」指「情緒、爭論或吸引力突然變得非常強烈」。",
+        "spark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-15"
     },
@@ -1008,10 +916,8 @@ export default {
       "options": [
         "spark-mcq-15",
         "spark-mcq-14",
-        "spark-mcq-13",
-        "spark-mcq-12",
-        "spark-mcq-11",
-        "spark-mcq-10"
+        "spark-mcq-02",
+        "spark-mcq-13"
       ],
       "explanation": "本句的「Sparks」指「情緒、爭論或吸引力突然變得非常強烈」。",
       "sentenceIndex": 21,
@@ -1020,12 +926,10 @@ export default {
         "Sparks"
       ],
       "optionReasons": {
-        "spark-mcq-15": "本句指「情緒、爭論或吸引力突然變得非常強烈」。",
-        "spark-mcq-14": "「表面有很多細小亮點、閃閃發光的」是「sparkly」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。"
+        "spark-mcq-15": "本句的「Sparks」指「情緒、爭論或吸引力突然變得非常強烈」。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-15"
     },
@@ -1037,11 +941,9 @@ export default {
       "masked": "The engine needs a new ____.",
       "options": [
         "spark-mcq-11",
-        "spark-mcq-10",
-        "spark-mcq-12",
-        "spark-mcq-09",
         "spark-mcq-13",
-        "spark-mcq-08"
+        "spark-mcq-12",
+        "spark-mcq-05"
       ],
       "explanation": "本句的「spark plug」指「汽油引擎中產生火花點燃燃料的零件」。",
       "sentenceIndex": 22,
@@ -1050,12 +952,10 @@ export default {
         "spark plug"
       ],
       "optionReasons": {
-        "spark-mcq-11": "本句指「汽油引擎中產生火花點燃燃料的零件」。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
+        "spark-mcq-11": "本句的「spark plug」指「汽油引擎中產生火花點燃燃料的零件」。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-11"
     },
@@ -1067,11 +967,9 @@ export default {
       "masked": "A faulty ____ plug can affect engine performance.",
       "options": [
         "spark-mcq-11",
-        "spark-mcq-10",
-        "spark-mcq-12",
-        "spark-mcq-09",
-        "spark-mcq-13",
-        "spark-mcq-08"
+        "spark-mcq-08",
+        "spark-mcq-05",
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
       "sentenceIndex": 23,
@@ -1080,12 +978,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-11": "本句指「汽油引擎中產生火花點燃燃料的零件」。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
+        "spark-mcq-11": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-11"
     },
@@ -1097,11 +993,9 @@ export default {
       "masked": "The engine is not getting a strong ____.",
       "options": [
         "spark-mcq-11",
-        "spark-mcq-10",
-        "spark-mcq-12",
-        "spark-mcq-09",
         "spark-mcq-13",
-        "spark-mcq-08"
+        "spark-mcq-12",
+        "spark-mcq-05"
       ],
       "explanation": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
       "sentenceIndex": 24,
@@ -1110,12 +1004,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-11": "本句指「汽油引擎中產生火花點燃燃料的零件」。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
+        "spark-mcq-11": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-11"
     },
@@ -1127,11 +1019,9 @@ export default {
       "masked": "The mechanic checked the ____.",
       "options": [
         "spark-mcq-11",
-        "spark-mcq-10",
-        "spark-mcq-12",
-        "spark-mcq-09",
-        "spark-mcq-13",
-        "spark-mcq-08"
+        "spark-mcq-05",
+        "spark-mcq-08",
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
       "sentenceIndex": 25,
@@ -1140,12 +1030,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-mcq-11": "本句指「汽油引擎中產生火花點燃燃料的零件」。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
+        "spark-mcq-11": "本句的「spark」指「汽油引擎中產生火花點燃燃料的零件」。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-11"
     },
@@ -1157,11 +1045,9 @@ export default {
       "masked": "A ____ of hope returned.",
       "options": [
         "spark-pdf-001",
-        "spark-mcq-10",
-        "spark-mcq-12",
         "spark-mcq-09",
-        "spark-mcq-13",
-        "spark-mcq-08"
+        "spark-mcq-07",
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「某種想法、情感或希望突然出現的一小點開端」。",
       "sentenceIndex": 26,
@@ -1170,12 +1056,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-pdf-001": "本句指「某種想法、情感或希望突然出現的一小點開端」。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
+        "spark-pdf-001": "本句的「spark」指「某種想法、情感或希望突然出現的一小點開端」。",
+        "spark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-pdf-001"
     },
@@ -1187,11 +1071,9 @@ export default {
       "masked": "The idea began with a tiny ____ of inspiration.",
       "options": [
         "spark-pdf-001",
-        "spark-mcq-10",
-        "spark-mcq-12",
+        "spark-mcq-07",
         "spark-mcq-09",
-        "spark-mcq-13",
-        "spark-mcq-08"
+        "spark-mcq-12"
       ],
       "explanation": "本句的「spark」指「某種想法、情感或希望突然出現的一小點開端」。",
       "sentenceIndex": 27,
@@ -1200,12 +1082,10 @@ export default {
         "spark"
       ],
       "optionReasons": {
-        "spark-pdf-001": "本句指「某種想法、情感或希望突然出現的一小點開端」。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-08": "「少量但明顯的情感、希望、活力或特色」是「a spark — emotion/energy」的用法，與本句語境不同。"
+        "spark-pdf-001": "本句的「spark」指「某種想法、情感或希望突然出現的一小點開端」。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-pdf-001"
     },
@@ -1218,10 +1098,8 @@ export default {
       "options": [
         "spark-mcq-12",
         "spark-mcq-11",
-        "spark-mcq-13",
-        "spark-mcq-10",
-        "spark-mcq-14",
-        "spark-mcq-09"
+        "spark-mcq-05",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「sparkled」指「發出許多細小而快速變化的亮光」。",
       "sentenceIndex": 28,
@@ -1230,12 +1108,10 @@ export default {
         "sparkled"
       ],
       "optionReasons": {
-        "spark-mcq-12": "本句指「發出許多細小而快速變化的亮光」。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-14": "「表面有很多細小亮點、閃閃發光的」是「sparkly」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。"
+        "spark-mcq-12": "本句的「sparkled」指「發出許多細小而快速變化的亮光」。",
+        "spark-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-12"
     },
@@ -1247,11 +1123,9 @@ export default {
       "masked": "Her eyes ____ with excitement.",
       "options": [
         "spark-mcq-12",
-        "spark-mcq-11",
-        "spark-mcq-13",
-        "spark-mcq-10",
-        "spark-mcq-14",
-        "spark-mcq-09"
+        "spark-mcq-03",
+        "spark-mcq-09",
+        "spark-mcq-07"
       ],
       "explanation": "本句的「sparkled」指「發出許多細小而快速變化的亮光」。",
       "sentenceIndex": 29,
@@ -1260,12 +1134,10 @@ export default {
         "sparkled"
       ],
       "optionReasons": {
-        "spark-mcq-12": "本句指「發出許多細小而快速變化的亮光」。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。",
-        "spark-mcq-14": "「表面有很多細小亮點、閃閃發光的」是「sparkly」的用法，與本句語境不同。",
-        "spark-mcq-09": "「令人／事物顯得有生氣、有趣或吸引人的特質」是「spark — liveliness」的用法，與本句語境不同。"
+        "spark-mcq-12": "本句的「sparkled」指「發出許多細小而快速變化的亮光」。",
+        "spark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-12"
     },
@@ -1277,11 +1149,9 @@ export default {
       "masked": "Her conversation ____ with humour.",
       "options": [
         "spark-mcq-13",
-        "spark-mcq-12",
+        "spark-mcq-03",
         "spark-mcq-14",
-        "spark-mcq-11",
-        "spark-mcq-15",
-        "spark-mcq-10"
+        "spark-mcq-07"
       ],
       "explanation": "本句的「sparkled」指「表現出機智、活力、魅力或神采」。",
       "sentenceIndex": 30,
@@ -1290,12 +1160,10 @@ export default {
         "sparkled"
       ],
       "optionReasons": {
-        "spark-mcq-13": "本句指「表現出機智、活力、魅力或神采」。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-14": "「表面有很多細小亮點、閃閃發光的」是「sparkly」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-15": "「情緒、爭論或吸引力突然變得非常強烈」是「11. sparks fly = 火花四濺；比喻激烈衝突／強烈化學反應」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。"
+        "spark-mcq-13": "本句的「sparkled」指「表現出機智、活力、魅力或神采」。",
+        "spark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-13"
     },
@@ -1307,11 +1175,9 @@ export default {
       "masked": "The performance ____ from beginning to end.",
       "options": [
         "spark-mcq-13",
-        "spark-mcq-12",
-        "spark-mcq-14",
-        "spark-mcq-11",
-        "spark-mcq-15",
-        "spark-mcq-10"
+        "spark-mcq-05",
+        "spark-mcq-02",
+        "spark-mcq-14"
       ],
       "explanation": "本句的「sparkled」指「表現出機智、活力、魅力或神采」。",
       "sentenceIndex": 31,
@@ -1320,12 +1186,10 @@ export default {
         "sparkled"
       ],
       "optionReasons": {
-        "spark-mcq-13": "本句指「表現出機智、活力、魅力或神采」。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-14": "「表面有很多細小亮點、閃閃發光的」是「sparkly」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-15": "「情緒、爭論或吸引力突然變得非常強烈」是「11. sparks fly = 火花四濺；比喻激烈衝突／強烈化學反應」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。"
+        "spark-mcq-13": "本句的「sparkled」指「表現出機智、活力、魅力或神采」。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-13"
     },
@@ -1337,11 +1201,9 @@ export default {
       "masked": "She wore a ____ dress.",
       "options": [
         "spark-mcq-14",
-        "spark-mcq-13",
-        "spark-mcq-15",
-        "spark-mcq-12",
-        "spark-mcq-11",
-        "spark-mcq-10"
+        "spark-mcq-07",
+        "spark-mcq-05",
+        "spark-mcq-13"
       ],
       "explanation": "本句的「sparkly」指「表面有很多細小亮點、閃閃發光的」。",
       "sentenceIndex": 32,
@@ -1350,12 +1212,10 @@ export default {
         "sparkly"
       ],
       "optionReasons": {
-        "spark-mcq-14": "本句指「表面有很多細小亮點、閃閃發光的」。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-15": "「情緒、爭論或吸引力突然變得非常強烈」是「11. sparks fly = 火花四濺；比喻激烈衝突／強烈化學反應」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。"
+        "spark-mcq-14": "本句的「sparkly」指「表面有很多細小亮點、閃閃發光的」。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-14"
     },
@@ -1367,11 +1227,9 @@ export default {
       "masked": "The decorations were bright and ____.",
       "options": [
         "spark-mcq-14",
-        "spark-mcq-13",
-        "spark-mcq-15",
-        "spark-mcq-12",
-        "spark-mcq-11",
-        "spark-mcq-10"
+        "spark-mcq-09",
+        "spark-mcq-07",
+        "spark-mcq-08"
       ],
       "explanation": "本句的「sparkly」指「表面有很多細小亮點、閃閃發光的」。",
       "sentenceIndex": 33,
@@ -1380,12 +1238,10 @@ export default {
         "sparkly"
       ],
       "optionReasons": {
-        "spark-mcq-14": "本句指「表面有很多細小亮點、閃閃發光的」。",
-        "spark-mcq-13": "「表現出機智、活力、魅力或神采」是「sparkle — figurative」的用法，與本句語境不同。",
-        "spark-mcq-15": "「情緒、爭論或吸引力突然變得非常強烈」是「11. sparks fly = 火花四濺；比喻激烈衝突／強烈化學反應」的用法，與本句語境不同。",
-        "spark-mcq-12": "「發出許多細小而快速變化的亮光」是「sparkle — literal」的用法，與本句語境不同。",
-        "spark-mcq-11": "「汽油引擎中產生火花點燃燃料的零件」是「spark plug」的用法，與本句語境不同。",
-        "spark-mcq-10": "「兩人之間突然產生的浪漫吸引力／化學反應」是「spark — romance」的用法，與本句語境不同。"
+        "spark-mcq-14": "本句的「sparkly」指「表面有很多細小亮點、閃閃發光的」。",
+        "spark-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spark-mcq-14"
     }
@@ -1397,5 +1253,7 @@ export default {
     "sha256": "9911b067a1c27a46f00ebd49a25de8aeb6d86f22157c19a5fe11468f3595f4a1",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -620,11 +620,9 @@ export default {
       "masked": "We should ____ for their contribution.",
       "options": [
         "credit-mcq-02",
-        "credit-mcq-01",
-        "credit-mcq-03",
-        "credit-mcq-04",
-        "credit-mcq-05",
-        "credit-mcq-06"
+        "credit-mcq-10",
+        "credit-mcq-31",
+        "credit-mcq-22"
       ],
       "explanation": "本句的「give everyone credit」指「給某人肯定／功勞」。",
       "sentenceIndex": 3,
@@ -633,12 +631,10 @@ export default {
         "give everyone credit"
       ],
       "optionReasons": {
-        "credit-mcq-02": "本句指「給某人肯定／功勞」。",
-        "credit-mcq-01": "「功勞；肯定」與本句語境不同。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。"
+        "credit-mcq-02": "本句的「give everyone credit」指「給某人肯定／功勞」。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-02"
     },
@@ -650,11 +646,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "credit-mcq-02",
-        "credit-mcq-01",
-        "credit-mcq-03",
-        "credit-mcq-04",
-        "credit-mcq-05",
-        "credit-mcq-06"
+        "credit-mcq-10",
+        "credit-mcq-13",
+        "credit-mcq-29"
       ],
       "explanation": "本句的「gave her credit for solving the problem」指「給某人肯定／功勞」。",
       "sentenceIndex": 4,
@@ -663,12 +657,10 @@ export default {
         "gave her credit for solving the problem"
       ],
       "optionReasons": {
-        "credit-mcq-02": "本句指「給某人肯定／功勞」。",
-        "credit-mcq-01": "「功勞；肯定」與本句語境不同。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。"
+        "credit-mcq-02": "本句的「gave her credit for solving the problem」指「給某人肯定／功勞」。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-02"
     },
@@ -680,11 +672,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "credit-mcq-03",
-        "credit-mcq-02",
-        "credit-mcq-04",
-        "credit-mcq-01",
-        "credit-mcq-05",
-        "credit-mcq-06"
+        "credit-mcq-26",
+        "credit-mcq-17",
+        "credit-mcq-31"
       ],
       "explanation": "本句的「got credit for work he had barely done」指「得到功勞」。",
       "sentenceIndex": 5,
@@ -693,12 +683,10 @@ export default {
         "got credit for work he had barely done"
       ],
       "optionReasons": {
-        "credit-mcq-03": "本句指「得到功勞」。",
-        "credit-mcq-02": "「給某人肯定／功勞」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-01": "「功勞；肯定」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。"
+        "credit-mcq-03": "本句的「got credit for work he had barely done」指「得到功勞」。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-03"
     },
@@ -710,11 +698,9 @@ export default {
       "masked": "She deserves to ____.",
       "options": [
         "credit-mcq-03",
-        "credit-mcq-02",
-        "credit-mcq-04",
-        "credit-mcq-01",
-        "credit-mcq-05",
-        "credit-mcq-06"
+        "credit-mcq-20",
+        "credit-mcq-11",
+        "credit-mcq-10"
       ],
       "explanation": "本句的「receive credit for the idea」指「得到功勞」。",
       "sentenceIndex": 6,
@@ -723,12 +709,10 @@ export default {
         "receive credit for the idea"
       ],
       "optionReasons": {
-        "credit-mcq-03": "本句指「得到功勞」。",
-        "credit-mcq-02": "「給某人肯定／功勞」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-01": "「功勞；肯定」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。"
+        "credit-mcq-03": "本句的「receive credit for the idea」指「得到功勞」。",
+        "credit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-03"
     },
@@ -740,11 +724,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "credit-mcq-04",
-        "credit-mcq-03",
-        "credit-mcq-05",
-        "credit-mcq-02",
-        "credit-mcq-06",
-        "credit-mcq-01"
+        "credit-mcq-29",
+        "credit-mcq-27",
+        "credit-mcq-23"
       ],
       "explanation": "本句的「took credit for the team's work」指「把功勞歸自己」。",
       "sentenceIndex": 7,
@@ -753,12 +735,10 @@ export default {
         "took credit for the team's work"
       ],
       "optionReasons": {
-        "credit-mcq-04": "本句指「把功勞歸自己」。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-02": "「給某人肯定／功勞」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-01": "「功勞；肯定」與本句語境不同。"
+        "credit-mcq-04": "本句的「took credit for the team's work」指「把功勞歸自己」。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-04"
     },
@@ -770,11 +750,9 @@ export default {
       "masked": "She refused to ____.",
       "options": [
         "credit-mcq-04",
-        "credit-mcq-03",
-        "credit-mcq-05",
-        "credit-mcq-02",
-        "credit-mcq-06",
-        "credit-mcq-01"
+        "credit-mcq-22",
+        "credit-mcq-23",
+        "credit-mcq-17"
       ],
       "explanation": "本句的「take all the credit」指「把功勞歸自己」。",
       "sentenceIndex": 8,
@@ -783,12 +761,10 @@ export default {
         "take all the credit"
       ],
       "optionReasons": {
-        "credit-mcq-04": "本句指「把功勞歸自己」。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-02": "「給某人肯定／功勞」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-01": "「功勞；肯定」與本句語境不同。"
+        "credit-mcq-04": "本句的「take all the credit」指「把功勞歸自己」。",
+        "credit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-04"
     },
@@ -800,11 +776,9 @@ export default {
       "masked": "Several people ____.",
       "options": [
         "credit-mcq-05",
-        "credit-mcq-04",
-        "credit-mcq-06",
-        "credit-mcq-03",
-        "credit-mcq-07",
-        "credit-mcq-02"
+        "credit-mcq-20",
+        "credit-mcq-19",
+        "credit-mcq-17"
       ],
       "explanation": "本句的「claimed credit for the idea」指「聲稱自己有功」。",
       "sentenceIndex": 9,
@@ -813,12 +787,10 @@ export default {
         "claimed credit for the idea"
       ],
       "optionReasons": {
-        "credit-mcq-05": "本句指「聲稱自己有功」。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。",
-        "credit-mcq-02": "「給某人肯定／功勞」與本句語境不同。"
+        "credit-mcq-05": "本句的「claimed credit for the idea」指「聲稱自己有功」。",
+        "credit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-05"
     },
@@ -830,11 +802,9 @@ export default {
       "masked": "He should not ____.",
       "options": [
         "credit-mcq-05",
-        "credit-mcq-04",
+        "credit-mcq-26",
         "credit-mcq-06",
-        "credit-mcq-03",
-        "credit-mcq-07",
-        "credit-mcq-02"
+        "credit-mcq-15"
       ],
       "explanation": "本句的「claim credit for other people's work」指「聲稱自己有功」。",
       "sentenceIndex": 10,
@@ -843,12 +813,10 @@ export default {
         "claim credit for other people's work"
       ],
       "optionReasons": {
-        "credit-mcq-05": "本句指「聲稱自己有功」。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。",
-        "credit-mcq-02": "「給某人肯定／功勞」與本句語境不同。"
+        "credit-mcq-05": "本句的「claim credit for other people's work」指「聲稱自己有功」。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-05"
     },
@@ -860,11 +828,9 @@ export default {
       "masked": "The quieter members also ____.",
       "options": [
         "credit-mcq-06",
+        "credit-mcq-29",
         "credit-mcq-05",
-        "credit-mcq-07",
-        "credit-mcq-04",
-        "credit-mcq-08",
-        "credit-mcq-03"
+        "credit-mcq-15"
       ],
       "explanation": "本句的「deserve credit」指「值得肯定」。",
       "sentenceIndex": 11,
@@ -873,12 +839,10 @@ export default {
         "deserve credit"
       ],
       "optionReasons": {
-        "credit-mcq-06": "本句指「值得肯定」。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。"
+        "credit-mcq-06": "本句的「deserve credit」指「值得肯定」。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-06"
     },
@@ -890,11 +854,9 @@ export default {
       "masked": "She deserves a lot of ____.",
       "options": [
         "credit-mcq-06",
-        "credit-mcq-05",
-        "credit-mcq-07",
-        "credit-mcq-04",
-        "credit-mcq-08",
-        "credit-mcq-03"
+        "credit-mcq-03",
+        "credit-mcq-18",
+        "credit-mcq-26"
       ],
       "explanation": "本句的「credit for keeping the team together」指「值得肯定」。",
       "sentenceIndex": 12,
@@ -903,12 +865,10 @@ export default {
         "credit for keeping the team together"
       ],
       "optionReasons": {
-        "credit-mcq-06": "本句指「值得肯定」。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。",
-        "credit-mcq-03": "「得到功勞」與本句語境不同。"
+        "credit-mcq-06": "本句的「credit for keeping the team together」指「值得肯定」。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-06"
     },
@@ -920,11 +880,9 @@ export default {
       "masked": "A good leader ____ with the team.",
       "options": [
         "credit-mcq-07",
-        "credit-mcq-06",
-        "credit-mcq-08",
-        "credit-mcq-05",
-        "credit-mcq-09",
-        "credit-mcq-04"
+        "credit-mcq-17",
+        "credit-mcq-11",
+        "credit-mcq-10"
       ],
       "explanation": "本句的「shares the credit」指「分享功勞」。",
       "sentenceIndex": 13,
@@ -933,12 +891,10 @@ export default {
         "shares the credit"
       ],
       "optionReasons": {
-        "credit-mcq-07": "本句指「分享功勞」。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。"
+        "credit-mcq-07": "本句的「shares the credit」指「分享功勞」。",
+        "credit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-07"
     },
@@ -950,11 +906,9 @@ export default {
       "masked": "They agreed to ____.",
       "options": [
         "credit-mcq-07",
-        "credit-mcq-06",
-        "credit-mcq-08",
-        "credit-mcq-05",
-        "credit-mcq-09",
-        "credit-mcq-04"
+        "credit-mcq-31",
+        "credit-mcq-23",
+        "credit-mcq-22"
       ],
       "explanation": "本句的「share the credit equally」指「分享功勞」。",
       "sentenceIndex": 14,
@@ -963,12 +917,10 @@ export default {
         "share the credit equally"
       ],
       "optionReasons": {
-        "credit-mcq-07": "本句指「分享功勞」。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-04": "「把功勞歸自己」與本句語境不同。"
+        "credit-mcq-07": "本句的「share the credit equally」指「分享功勞」。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-07"
     },
@@ -980,11 +932,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "credit-mcq-08",
-        "credit-mcq-07",
-        "credit-mcq-09",
-        "credit-mcq-06",
-        "credit-mcq-10",
-        "credit-mcq-05"
+        "credit-mcq-13",
+        "credit-mcq-26",
+        "credit-mcq-31"
       ],
       "explanation": "本句的「credited with improving team morale」指「把 X 歸功於某人」。",
       "sentenceIndex": 15,
@@ -993,12 +943,10 @@ export default {
         "credited with improving team morale"
       ],
       "optionReasons": {
-        "credit-mcq-08": "本句指「把 X 歸功於某人」。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-10": "「值得稱讚的是」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。"
+        "credit-mcq-08": "本句的「credited with improving team morale」指「把 X 歸功於某人」。",
+        "credit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-08"
     },
@@ -1010,11 +958,9 @@ export default {
       "masked": "He is often ____.",
       "options": [
         "credit-mcq-08",
-        "credit-mcq-07",
-        "credit-mcq-09",
-        "credit-mcq-06",
         "credit-mcq-10",
-        "credit-mcq-05"
+        "credit-mcq-23",
+        "credit-mcq-31"
       ],
       "explanation": "本句的「credited with creating the original design」指「把 X 歸功於某人」。",
       "sentenceIndex": 16,
@@ -1023,12 +969,10 @@ export default {
         "credited with creating the original design"
       ],
       "optionReasons": {
-        "credit-mcq-08": "本句指「把 X 歸功於某人」。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-06": "「值得肯定」與本句語境不同。",
-        "credit-mcq-10": "「值得稱讚的是」與本句語境不同。",
-        "credit-mcq-05": "「聲稱自己有功」與本句語境不同。"
+        "credit-mcq-08": "本句的「credited with creating the original design」指「把 X 歸功於某人」。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-08"
     },
@@ -1040,11 +984,9 @@ export default {
       "masked": "____, he admitted the mistake immediately.",
       "options": [
         "credit-mcq-10",
-        "credit-mcq-09",
+        "credit-mcq-07",
         "credit-mcq-11",
-        "credit-mcq-08",
-        "credit-mcq-12",
-        "credit-mcq-07"
+        "credit-mcq-19"
       ],
       "explanation": "本句的「To his credit」指「值得稱讚的是」。",
       "sentenceIndex": 19,
@@ -1053,12 +995,10 @@ export default {
         "To his credit"
       ],
       "optionReasons": {
-        "credit-mcq-10": "本句指「值得稱讚的是」。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-11": "「為某人增光」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。"
+        "credit-mcq-10": "本句的「To his credit」指「值得稱讚的是」。",
+        "credit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-10"
     },
@@ -1070,11 +1010,9 @@ export default {
       "masked": "To her ____, she made sure everyone was heard.",
       "options": [
         "credit-mcq-10",
-        "credit-mcq-09",
-        "credit-mcq-11",
-        "credit-mcq-08",
-        "credit-mcq-12",
-        "credit-mcq-07"
+        "credit-mcq-04",
+        "credit-mcq-16",
+        "credit-mcq-29"
       ],
       "explanation": "本句的「credit」指「值得稱讚的是」。",
       "sentenceIndex": 20,
@@ -1083,12 +1021,10 @@ export default {
         "credit"
       ],
       "optionReasons": {
-        "credit-mcq-10": "本句指「值得稱讚的是」。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-11": "「為某人增光」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。",
-        "credit-mcq-07": "「分享功勞」與本句語境不同。"
+        "credit-mcq-10": "本句的「credit」指「值得稱讚的是」。",
+        "credit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-10"
     },
@@ -1100,11 +1036,9 @@ export default {
       "masked": "His calm response ____.",
       "options": [
         "credit-mcq-11",
-        "credit-mcq-10",
-        "credit-mcq-12",
-        "credit-mcq-09",
-        "credit-mcq-13",
-        "credit-mcq-08"
+        "credit-mcq-05",
+        "credit-mcq-07",
+        "credit-mcq-15"
       ],
       "explanation": "本句的「did him credit」指「為某人增光」。",
       "sentenceIndex": 21,
@@ -1113,12 +1047,10 @@ export default {
         "did him credit"
       ],
       "optionReasons": {
-        "credit-mcq-11": "本句指「為某人增光」。",
-        "credit-mcq-10": "「值得稱讚的是」與本句語境不同。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-13": "「信貸」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。"
+        "credit-mcq-11": "本句的「did him credit」指「為某人增光」。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-11"
     },
@@ -1130,11 +1062,9 @@ export default {
       "masked": "Your willingness to apologise ____.",
       "options": [
         "credit-mcq-11",
-        "credit-mcq-10",
-        "credit-mcq-12",
-        "credit-mcq-09",
-        "credit-mcq-13",
-        "credit-mcq-08"
+        "credit-mcq-15",
+        "credit-mcq-26",
+        "credit-mcq-05"
       ],
       "explanation": "本句的「does you credit」指「為某人增光」。",
       "sentenceIndex": 22,
@@ -1143,12 +1073,10 @@ export default {
         "does you credit"
       ],
       "optionReasons": {
-        "credit-mcq-11": "本句指「為某人增光」。",
-        "credit-mcq-10": "「值得稱讚的是」與本句語境不同。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。",
-        "credit-mcq-09": "「把 X 歸功／歸因於 Y」與本句語境不同。",
-        "credit-mcq-13": "「信貸」與本句語境不同。",
-        "credit-mcq-08": "「把 X 歸功於某人」與本句語境不同。"
+        "credit-mcq-11": "本句的「does you credit」指「為某人增光」。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-11"
     },
@@ -1160,11 +1088,9 @@ export default {
       "masked": "The company needs access to ____.",
       "options": [
         "credit-mcq-13",
-        "credit-mcq-12",
-        "credit-mcq-14",
-        "credit-mcq-11",
-        "credit-mcq-15",
-        "credit-mcq-10"
+        "credit-mcq-10",
+        "credit-mcq-19",
+        "credit-mcq-08"
       ],
       "explanation": "本句的「credit」指「信貸」。",
       "sentenceIndex": 25,
@@ -1173,12 +1099,10 @@ export default {
         "credit"
       ],
       "optionReasons": {
-        "credit-mcq-13": "本句指「信貸」。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。",
-        "credit-mcq-11": "「為某人增光」與本句語境不同。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。",
-        "credit-mcq-10": "「值得稱讚的是」與本句語境不同。"
+        "credit-mcq-13": "本句的「credit」指「信貸」。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-13"
     },
@@ -1190,11 +1114,9 @@ export default {
       "masked": "Banks may be unwilling to extend ____ to risky borrowers.",
       "options": [
         "credit-mcq-13",
-        "credit-mcq-12",
-        "credit-mcq-14",
-        "credit-mcq-11",
-        "credit-mcq-15",
-        "credit-mcq-10"
+        "credit-mcq-21",
+        "credit-mcq-06",
+        "credit-mcq-05"
       ],
       "explanation": "本句的「credit」指「信貸」。",
       "sentenceIndex": 26,
@@ -1203,12 +1125,10 @@ export default {
         "credit"
       ],
       "optionReasons": {
-        "credit-mcq-13": "本句指「信貸」。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。",
-        "credit-mcq-11": "「為某人增光」與本句語境不同。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。",
-        "credit-mcq-10": "「值得稱讚的是」與本句語境不同。"
+        "credit-mcq-13": "本句的「credit」指「信貸」。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-13"
     },
@@ -1220,11 +1140,9 @@ export default {
       "masked": "The bank increased my ____.",
       "options": [
         "credit-mcq-15",
-        "credit-mcq-14",
-        "credit-mcq-16",
-        "credit-mcq-13",
-        "credit-mcq-17",
-        "credit-mcq-12"
+        "credit-mcq-19",
+        "credit-mcq-10",
+        "credit-mcq-08"
       ],
       "explanation": "本句的「credit limit」指「信貸限額」。",
       "sentenceIndex": 29,
@@ -1233,12 +1151,10 @@ export default {
         "credit limit"
       ],
       "optionReasons": {
-        "credit-mcq-15": "本句指「信貸限額」。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。",
-        "credit-mcq-13": "「信貸」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。"
+        "credit-mcq-15": "本句的「credit limit」指「信貸限額」。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-15"
     },
@@ -1250,11 +1166,9 @@ export default {
       "masked": "You have reached your ____.",
       "options": [
         "credit-mcq-15",
-        "credit-mcq-14",
-        "credit-mcq-16",
-        "credit-mcq-13",
-        "credit-mcq-17",
-        "credit-mcq-12"
+        "credit-mcq-26",
+        "credit-mcq-08",
+        "credit-mcq-10"
       ],
       "explanation": "本句的「credit limit」指「信貸限額」。",
       "sentenceIndex": 30,
@@ -1263,12 +1177,10 @@ export default {
         "credit limit"
       ],
       "optionReasons": {
-        "credit-mcq-15": "本句指「信貸限額」。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。",
-        "credit-mcq-13": "「信貸」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-12": "「為 X 爭光」與本句語境不同。"
+        "credit-mcq-15": "本句的「credit limit」指「信貸限額」。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-15"
     },
@@ -1280,11 +1192,9 @@ export default {
       "masked": "Missing payments can affect your ____.",
       "options": [
         "credit-mcq-16",
-        "credit-mcq-15",
-        "credit-mcq-17",
-        "credit-mcq-14",
-        "credit-mcq-18",
-        "credit-mcq-13"
+        "credit-mcq-20",
+        "credit-mcq-31",
+        "credit-mcq-05"
       ],
       "explanation": "本句的「credit rating」指「信貸評級／信用評分」。",
       "sentenceIndex": 31,
@@ -1293,12 +1203,10 @@ export default {
         "credit rating"
       ],
       "optionReasons": {
-        "credit-mcq-16": "本句指「信貸評級／信用評分」。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-13": "「信貸」與本句語境不同。"
+        "credit-mcq-16": "本句的「credit rating」指「信貸評級／信用評分」。",
+        "credit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-16"
     },
@@ -1310,11 +1218,9 @@ export default {
       "masked": "Lenders may check your ____.",
       "options": [
         "credit-mcq-16",
-        "credit-mcq-15",
-        "credit-mcq-17",
-        "credit-mcq-14",
-        "credit-mcq-18",
-        "credit-mcq-13"
+        "credit-mcq-10",
+        "credit-mcq-23",
+        "credit-mcq-02"
       ],
       "explanation": "本句的「credit score」指「信貸評級／信用評分」。",
       "sentenceIndex": 32,
@@ -1323,12 +1229,10 @@ export default {
         "credit score"
       ],
       "optionReasons": {
-        "credit-mcq-16": "本句指「信貸評級／信用評分」。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-13": "「信貸」與本句語境不同。"
+        "credit-mcq-16": "本句的「credit score」指「信貸評級／信用評分」。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-16"
     },
@@ -1340,11 +1244,9 @@ export default {
       "masked": "The bank reviewed his ____.",
       "options": [
         "credit-mcq-17",
-        "credit-mcq-16",
-        "credit-mcq-18",
-        "credit-mcq-15",
-        "credit-mcq-19",
-        "credit-mcq-14"
+        "credit-mcq-02",
+        "credit-mcq-31",
+        "credit-mcq-23"
       ],
       "explanation": "本句的「credit history」指「信貸紀錄」。",
       "sentenceIndex": 33,
@@ -1353,12 +1255,10 @@ export default {
         "credit history"
       ],
       "optionReasons": {
-        "credit-mcq-17": "本句指「信貸紀錄」。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。"
+        "credit-mcq-17": "本句的「credit history」指「信貸紀錄」。",
+        "credit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-17"
     },
@@ -1370,11 +1270,9 @@ export default {
       "masked": "A strong ____ may make borrowing easier.",
       "options": [
         "credit-mcq-17",
-        "credit-mcq-16",
-        "credit-mcq-18",
-        "credit-mcq-15",
-        "credit-mcq-19",
-        "credit-mcq-14"
+        "credit-mcq-27",
+        "credit-mcq-26",
+        "credit-mcq-21"
       ],
       "explanation": "本句的「credit history」指「信貸紀錄」。",
       "sentenceIndex": 34,
@@ -1383,12 +1281,10 @@ export default {
         "credit history"
       ],
       "optionReasons": {
-        "credit-mcq-17": "本句指「信貸紀錄」。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-14": "「賒購；以信貸方式」與本句語境不同。"
+        "credit-mcq-17": "本句的「credit history」指「信貸紀錄」。",
+        "credit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-17"
     },
@@ -1400,11 +1296,9 @@ export default {
       "masked": "The bank considers her ____.",
       "options": [
         "credit-mcq-18",
-        "credit-mcq-17",
-        "credit-mcq-19",
-        "credit-mcq-16",
-        "credit-mcq-20",
-        "credit-mcq-15"
+        "credit-mcq-11",
+        "credit-mcq-23",
+        "credit-mcq-21"
       ],
       "explanation": "本句的「creditworthy」指「信用良好的」。",
       "sentenceIndex": 35,
@@ -1413,12 +1307,10 @@ export default {
         "creditworthy"
       ],
       "optionReasons": {
-        "credit-mcq-18": "本句指「信用良好的」。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。"
+        "credit-mcq-18": "本句的「creditworthy」指「信用良好的」。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-18"
     },
@@ -1430,11 +1322,9 @@ export default {
       "masked": "Lenders prefer ____.",
       "options": [
         "credit-mcq-18",
-        "credit-mcq-17",
-        "credit-mcq-19",
-        "credit-mcq-16",
-        "credit-mcq-20",
-        "credit-mcq-15"
+        "credit-mcq-26",
+        "credit-mcq-02",
+        "credit-mcq-29"
       ],
       "explanation": "本句的「creditworthy borrowers」指「信用良好的」。",
       "sentenceIndex": 36,
@@ -1443,12 +1333,10 @@ export default {
         "creditworthy borrowers"
       ],
       "optionReasons": {
-        "credit-mcq-18": "本句指「信用良好的」。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-15": "「信貸限額」與本句語境不同。"
+        "credit-mcq-18": "本句的「creditworthy borrowers」指「信用良好的」。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-18"
     },
@@ -1461,10 +1349,8 @@ export default {
       "options": [
         "credit-mcq-19",
         "credit-mcq-18",
-        "credit-mcq-20",
-        "credit-mcq-17",
-        "credit-mcq-21",
-        "credit-mcq-16"
+        "credit-mcq-08",
+        "credit-mcq-31"
       ],
       "explanation": "本句的「creditors」指「債權人」。",
       "sentenceIndex": 37,
@@ -1473,12 +1359,10 @@ export default {
         "creditors"
       ],
       "optionReasons": {
-        "credit-mcq-19": "本句指「債權人」。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。"
+        "credit-mcq-19": "本句的「creditors」指「債權人」。",
+        "credit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-19"
     },
@@ -1490,11 +1374,9 @@ export default {
       "masked": "____ may demand repayment.",
       "options": [
         "credit-mcq-19",
-        "credit-mcq-18",
-        "credit-mcq-20",
-        "credit-mcq-17",
+        "credit-mcq-11",
         "credit-mcq-21",
-        "credit-mcq-16"
+        "credit-mcq-25"
       ],
       "explanation": "本句的「Creditors」指「債權人」。",
       "sentenceIndex": 38,
@@ -1503,12 +1385,10 @@ export default {
         "Creditors"
       ],
       "optionReasons": {
-        "credit-mcq-19": "本句指「債權人」。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-16": "「信貸評級／信用評分」與本句語境不同。"
+        "credit-mcq-19": "本句的「Creditors」指「債權人」。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-19"
     },
@@ -1520,11 +1400,9 @@ export default {
       "masked": "A ____ appeared on my account.",
       "options": [
         "credit-mcq-20",
-        "credit-mcq-19",
-        "credit-mcq-21",
         "credit-mcq-18",
-        "credit-mcq-22",
-        "credit-mcq-17"
+        "credit-mcq-26",
+        "credit-mcq-10"
       ],
       "explanation": "本句的「credit」指「入帳額」。",
       "sentenceIndex": 39,
@@ -1533,12 +1411,10 @@ export default {
         "credit"
       ],
       "optionReasons": {
-        "credit-mcq-20": "本句指「入帳額」。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。"
+        "credit-mcq-20": "本句的「credit」指「入帳額」。",
+        "credit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-20"
     },
@@ -1550,11 +1426,9 @@ export default {
       "masked": "The refund will appear as a ____.",
       "options": [
         "credit-mcq-20",
-        "credit-mcq-19",
-        "credit-mcq-21",
-        "credit-mcq-18",
-        "credit-mcq-22",
-        "credit-mcq-17"
+        "credit-mcq-11",
+        "credit-mcq-25",
+        "credit-mcq-29"
       ],
       "explanation": "本句的「credit」指「入帳額」。",
       "sentenceIndex": 40,
@@ -1563,12 +1437,10 @@ export default {
         "credit"
       ],
       "optionReasons": {
-        "credit-mcq-20": "本句指「入帳額」。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。",
-        "credit-mcq-17": "「信貸紀錄」與本句語境不同。"
+        "credit-mcq-20": "本句的「credit」指「入帳額」。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-20"
     },
@@ -1580,11 +1452,9 @@ export default {
       "masked": "The refund was ____.",
       "options": [
         "credit-mcq-21",
-        "credit-mcq-20",
-        "credit-mcq-22",
-        "credit-mcq-19",
-        "credit-mcq-23",
-        "credit-mcq-18"
+        "credit-mcq-03",
+        "credit-mcq-16",
+        "credit-mcq-27"
       ],
       "explanation": "本句的「credited to my account」指「把款項記入帳戶」。",
       "sentenceIndex": 41,
@@ -1593,12 +1463,10 @@ export default {
         "credited to my account"
       ],
       "optionReasons": {
-        "credit-mcq-21": "本句指「把款項記入帳戶」。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。"
+        "credit-mcq-21": "本句的「credited to my account」指「把款項記入帳戶」。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-21"
     },
@@ -1610,11 +1478,9 @@ export default {
       "masked": "Your account will be ____ within three days.",
       "options": [
         "credit-mcq-21",
-        "credit-mcq-20",
-        "credit-mcq-22",
-        "credit-mcq-19",
-        "credit-mcq-23",
-        "credit-mcq-18"
+        "credit-mcq-03",
+        "credit-mcq-29",
+        "credit-mcq-23"
       ],
       "explanation": "本句的「credited with the amount」指「把款項記入帳戶」。",
       "sentenceIndex": 42,
@@ -1623,12 +1489,10 @@ export default {
         "credited with the amount"
       ],
       "optionReasons": {
-        "credit-mcq-21": "本句指「把款項記入帳戶」。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。",
-        "credit-mcq-18": "「信用良好的」與本句語境不同。"
+        "credit-mcq-21": "本句的「credited with the amount」指「把款項記入帳戶」。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-21"
     },
@@ -1640,11 +1504,9 @@ export default {
       "masked": "The account has a small ____.",
       "options": [
         "credit-mcq-22",
+        "credit-mcq-11",
         "credit-mcq-21",
-        "credit-mcq-23",
-        "credit-mcq-20",
-        "credit-mcq-24",
-        "credit-mcq-19"
+        "credit-mcq-18"
       ],
       "explanation": "本句的「credit balance」指「貸方／正數餘額」。",
       "sentenceIndex": 43,
@@ -1653,12 +1515,10 @@ export default {
         "credit balance"
       ],
       "optionReasons": {
-        "credit-mcq-22": "本句指「貸方／正數餘額」。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。"
+        "credit-mcq-22": "本句的「credit balance」指「貸方／正數餘額」。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-22"
     },
@@ -1670,11 +1530,9 @@ export default {
       "masked": "The unused amount remains as a ____.",
       "options": [
         "credit-mcq-22",
-        "credit-mcq-21",
-        "credit-mcq-23",
-        "credit-mcq-20",
-        "credit-mcq-24",
-        "credit-mcq-19"
+        "credit-mcq-03",
+        "credit-mcq-31",
+        "credit-mcq-10"
       ],
       "explanation": "本句的「credit balance」指「貸方／正數餘額」。",
       "sentenceIndex": 44,
@@ -1683,12 +1541,10 @@ export default {
         "credit balance"
       ],
       "optionReasons": {
-        "credit-mcq-22": "本句指「貸方／正數餘額」。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-19": "「債權人」與本句語境不同。"
+        "credit-mcq-22": "本句的「credit balance」指「貸方／正數餘額」。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-22"
     },
@@ -1700,11 +1556,9 @@ export default {
       "masked": "The shop offered me ____ instead of a cash refund.",
       "options": [
         "credit-mcq-23",
-        "credit-mcq-22",
-        "credit-mcq-24",
-        "credit-mcq-21",
-        "credit-mcq-25",
-        "credit-mcq-20"
+        "credit-mcq-16",
+        "credit-mcq-11",
+        "credit-mcq-21"
       ],
       "explanation": "本句的「store credit」指「商店購物額度」。",
       "sentenceIndex": 45,
@@ -1713,12 +1567,10 @@ export default {
         "store credit"
       ],
       "optionReasons": {
-        "credit-mcq-23": "本句指「商店購物額度」。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-25": "「取得學分」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。"
+        "credit-mcq-23": "本句的「store credit」指「商店購物額度」。",
+        "credit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-23"
     },
@@ -1730,11 +1582,9 @@ export default {
       "masked": "You can use the ____ on your next purchase.",
       "options": [
         "credit-mcq-23",
-        "credit-mcq-22",
-        "credit-mcq-24",
-        "credit-mcq-21",
-        "credit-mcq-25",
-        "credit-mcq-20"
+        "credit-mcq-03",
+        "credit-mcq-10",
+        "credit-mcq-27"
       ],
       "explanation": "本句的「store credit」指「商店購物額度」。",
       "sentenceIndex": 46,
@@ -1743,12 +1593,10 @@ export default {
         "store credit"
       ],
       "optionReasons": {
-        "credit-mcq-23": "本句指「商店購物額度」。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-21": "「把款項記入帳戶」與本句語境不同。",
-        "credit-mcq-25": "「取得學分」與本句語境不同。",
-        "credit-mcq-20": "「入帳額」與本句語境不同。"
+        "credit-mcq-23": "本句的「store credit」指「商店購物額度」。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-23"
     },
@@ -1760,11 +1608,9 @@ export default {
       "masked": "Students ____ by completing the course.",
       "options": [
         "credit-mcq-25",
-        "credit-mcq-24",
-        "credit-mcq-26",
-        "credit-mcq-23",
-        "credit-mcq-27",
-        "credit-mcq-22"
+        "credit-mcq-31",
+        "credit-mcq-02",
+        "credit-mcq-19"
       ],
       "explanation": "本句的「earn credit」指「取得學分」。",
       "sentenceIndex": 49,
@@ -1773,12 +1619,10 @@ export default {
         "earn credit"
       ],
       "optionReasons": {
-        "credit-mcq-25": "本句指「取得學分」。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。"
+        "credit-mcq-25": "本句的「earn credit」指「取得學分」。",
+        "credit-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-25"
     },
@@ -1790,11 +1634,9 @@ export default {
       "masked": "You will not ____ if you fail the assessment.",
       "options": [
         "credit-mcq-25",
-        "credit-mcq-24",
-        "credit-mcq-26",
-        "credit-mcq-23",
-        "credit-mcq-27",
-        "credit-mcq-22"
+        "credit-mcq-08",
+        "credit-mcq-13",
+        "credit-mcq-19"
       ],
       "explanation": "本句的「receive credit」指「取得學分」。",
       "sentenceIndex": 50,
@@ -1803,12 +1645,10 @@ export default {
         "receive credit"
       ],
       "optionReasons": {
-        "credit-mcq-25": "本句指「取得學分」。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-22": "「貸方／正數餘額」與本句語境不同。"
+        "credit-mcq-25": "本句的「receive credit」指「取得學分」。",
+        "credit-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-25"
     },
@@ -1820,11 +1660,9 @@ export default {
       "masked": "Are you taking the course ____?",
       "options": [
         "credit-mcq-26",
-        "credit-mcq-25",
-        "credit-mcq-27",
-        "credit-mcq-24",
-        "credit-mcq-28",
-        "credit-mcq-23"
+        "credit-mcq-03",
+        "credit-mcq-23",
+        "credit-mcq-21"
       ],
       "explanation": "本句的「for credit」指「計學分的」。",
       "sentenceIndex": 51,
@@ -1833,12 +1671,10 @@ export default {
         "for credit"
       ],
       "optionReasons": {
-        "credit-mcq-26": "本句指「計學分的」。",
-        "credit-mcq-25": "「取得學分」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。"
+        "credit-mcq-26": "本句的「for credit」指「計學分的」。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-26"
     },
@@ -1850,11 +1686,9 @@ export default {
       "masked": "The workshop is not offered ____.",
       "options": [
         "credit-mcq-26",
-        "credit-mcq-25",
-        "credit-mcq-27",
-        "credit-mcq-24",
-        "credit-mcq-28",
-        "credit-mcq-23"
+        "credit-mcq-22",
+        "credit-mcq-19",
+        "credit-mcq-27"
       ],
       "explanation": "本句的「for academic credit」指「計學分的」。",
       "sentenceIndex": 52,
@@ -1863,12 +1697,10 @@ export default {
         "for academic credit"
       ],
       "optionReasons": {
-        "credit-mcq-26": "本句指「計學分的」。",
-        "credit-mcq-25": "「取得學分」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-23": "「商店購物額度」與本句語境不同。"
+        "credit-mcq-26": "本句的「for academic credit」指「計學分的」。",
+        "credit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-26"
     },
@@ -1880,11 +1712,9 @@ export default {
       "masked": "We stayed to watch the ____.",
       "options": [
         "credit-mcq-27",
-        "credit-mcq-26",
-        "credit-mcq-28",
-        "credit-mcq-25",
         "credit-mcq-29",
-        "credit-mcq-24"
+        "credit-mcq-15",
+        "credit-mcq-05"
       ],
       "explanation": "本句的「credits」指「製作人員名單」。",
       "sentenceIndex": 55,
@@ -1893,12 +1723,10 @@ export default {
         "credits"
       ],
       "optionReasons": {
-        "credit-mcq-27": "本句指「製作人員名單」。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-25": "「取得學分」與本句語境不同。",
-        "credit-mcq-29": "「片尾字幕」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。"
+        "credit-mcq-27": "本句的「credits」指「製作人員名單」。",
+        "credit-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-27"
     },
@@ -1910,11 +1738,9 @@ export default {
       "masked": "Her name appeared in the ____.",
       "options": [
         "credit-mcq-27",
-        "credit-mcq-26",
-        "credit-mcq-28",
-        "credit-mcq-25",
-        "credit-mcq-29",
-        "credit-mcq-24"
+        "credit-mcq-21",
+        "credit-mcq-16",
+        "credit-mcq-04"
       ],
       "explanation": "本句的「opening credits」指「製作人員名單」。",
       "sentenceIndex": 56,
@@ -1923,12 +1749,10 @@ export default {
         "opening credits"
       ],
       "optionReasons": {
-        "credit-mcq-27": "本句指「製作人員名單」。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-25": "「取得學分」與本句語境不同。",
-        "credit-mcq-29": "「片尾字幕」與本句語境不同。",
-        "credit-mcq-24": "「學分」與本句語境不同。"
+        "credit-mcq-27": "本句的「opening credits」指「製作人員名單」。",
+        "credit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-27"
     },
@@ -1940,11 +1764,9 @@ export default {
       "masked": "The song plays during the ____.",
       "options": [
         "credit-mcq-29",
-        "credit-mcq-28",
-        "credit-mcq-30",
-        "credit-mcq-27",
-        "credit-mcq-31",
-        "credit-mcq-26"
+        "credit-mcq-25",
+        "credit-mcq-18",
+        "credit-mcq-23"
       ],
       "explanation": "本句的「closing credits」指「片尾字幕」。",
       "sentenceIndex": 57,
@@ -1953,12 +1775,10 @@ export default {
         "closing credits"
       ],
       "optionReasons": {
-        "credit-mcq-29": "本句指「片尾字幕」。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-30": "「署名為 X」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-31": "「圖片署名／來源」與本句語境不同。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。"
+        "credit-mcq-29": "本句的「closing credits」指「片尾字幕」。",
+        "credit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-29"
     },
@@ -1970,11 +1790,9 @@ export default {
       "masked": "His name appears in the ____.",
       "options": [
         "credit-mcq-29",
-        "credit-mcq-28",
-        "credit-mcq-30",
-        "credit-mcq-27",
-        "credit-mcq-31",
-        "credit-mcq-26"
+        "credit-mcq-22",
+        "credit-mcq-05",
+        "credit-mcq-23"
       ],
       "explanation": "本句的「opening credits」指「片尾字幕」。",
       "sentenceIndex": 58,
@@ -1983,12 +1801,10 @@ export default {
         "opening credits"
       ],
       "optionReasons": {
-        "credit-mcq-29": "本句指「片尾字幕」。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-30": "「署名為 X」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-31": "「圖片署名／來源」與本句語境不同。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。"
+        "credit-mcq-29": "本句的「opening credits」指「片尾字幕」。",
+        "credit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-29"
     },
@@ -2000,10 +1816,8 @@ export default {
       "masked": "The ____ appears below the image.",
       "options": [
         "credit-mcq-31",
-        "credit-mcq-30",
-        "credit-mcq-29",
-        "credit-mcq-28",
-        "credit-mcq-27",
+        "credit-mcq-15",
+        "credit-mcq-06",
         "credit-mcq-26"
       ],
       "explanation": "本句的「photo credit」指「圖片署名／來源」。",
@@ -2013,12 +1827,10 @@ export default {
         "photo credit"
       ],
       "optionReasons": {
-        "credit-mcq-31": "本句指「圖片署名／來源」。",
-        "credit-mcq-30": "「署名為 X」與本句語境不同。",
-        "credit-mcq-29": "「片尾字幕」與本句語境不同。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。"
+        "credit-mcq-31": "本句的「photo credit」指「圖片署名／來源」。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-31"
     },
@@ -2030,11 +1842,9 @@ export default {
       "masked": "Always include the photographer's ____.",
       "options": [
         "credit-mcq-31",
-        "credit-mcq-30",
-        "credit-mcq-29",
-        "credit-mcq-28",
-        "credit-mcq-27",
-        "credit-mcq-26"
+        "credit-mcq-26",
+        "credit-mcq-03",
+        "credit-mcq-15"
       ],
       "explanation": "本句的「credit」指「圖片署名／來源」。",
       "sentenceIndex": 62,
@@ -2043,12 +1853,10 @@ export default {
         "credit"
       ],
       "optionReasons": {
-        "credit-mcq-31": "本句指「圖片署名／來源」。",
-        "credit-mcq-30": "「署名為 X」與本句語境不同。",
-        "credit-mcq-29": "「片尾字幕」與本句語境不同。",
-        "credit-mcq-28": "「片頭字幕」與本句語境不同。",
-        "credit-mcq-27": "「製作人員名單」與本句語境不同。",
-        "credit-mcq-26": "「計學分的」與本句語境不同。"
+        "credit-mcq-31": "本句的「credit」指「圖片署名／來源」。",
+        "credit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "credit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "credit-mcq-31"
     }
@@ -2060,5 +1868,7 @@ export default {
     "sha256": "62944f34de4a6895615b27a721e969f3039d962560a043b833b8d3e540b7f2ff",
     "pages": 24
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

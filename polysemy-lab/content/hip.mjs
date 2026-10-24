@@ -147,11 +147,9 @@ export default {
       "masked": "She put one hand on her ____.",
       "options": [
         "hip-mcq-01",
-        "hip-mcq-02",
-        "hip-mcq-03",
-        "hip-mcq-04",
+        "hip-mcq-07",
         "hip-mcq-05",
-        "hip-mcq-06"
+        "hip-mcq-02"
       ],
       "explanation": "本句的「hip」指「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」。",
       "sentenceIndex": 0,
@@ -160,12 +158,10 @@ export default {
         "hip"
       ],
       "optionReasons": {
-        "hip-mcq-01": "本句指「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。"
+        "hip-mcq-01": "本句的「hip」指「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」。",
+        "hip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-01"
     },
@@ -177,11 +173,9 @@ export default {
       "masked": "He injured his ____ in the fall.",
       "options": [
         "hip-mcq-01",
-        "hip-mcq-02",
-        "hip-mcq-03",
-        "hip-mcq-04",
+        "hip-mcq-07",
         "hip-mcq-05",
-        "hip-mcq-06"
+        "hip-mcq-02"
       ],
       "explanation": "本句的「hip」指「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」。",
       "sentenceIndex": 1,
@@ -190,12 +184,10 @@ export default {
         "hip"
       ],
       "optionReasons": {
-        "hip-mcq-01": "本句指「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。"
+        "hip-mcq-01": "本句的「hip」指「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」。",
+        "hip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-01"
     },
@@ -207,11 +199,9 @@ export default {
       "masked": "The neighbourhood has become a ____ place for young artists.",
       "options": [
         "hip-mcq-02",
-        "hip-mcq-01",
-        "hip-mcq-03",
-        "hip-mcq-04",
+        "hip-mcq-07",
         "hip-mcq-05",
-        "hip-mcq-06"
+        "hip-mcq-01"
       ],
       "explanation": "本句的「hip」指「符合當代潮流、具有時尚或文化吸引力的；非正式」。",
       "sentenceIndex": 2,
@@ -220,12 +210,10 @@ export default {
         "hip"
       ],
       "optionReasons": {
-        "hip-mcq-02": "本句指「符合當代潮流、具有時尚或文化吸引力的；非正式」。",
-        "hip-mcq-01": "「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。"
+        "hip-mcq-02": "本句的「hip」指「符合當代潮流、具有時尚或文化吸引力的；非正式」。",
+        "hip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-02"
     },
@@ -238,10 +226,8 @@ export default {
       "options": [
         "hip-mcq-02",
         "hip-mcq-01",
-        "hip-mcq-03",
-        "hip-mcq-04",
         "hip-mcq-05",
-        "hip-mcq-06"
+        "hip-mcq-07"
       ],
       "explanation": "本句的「hip」指「符合當代潮流、具有時尚或文化吸引力的；非正式」。",
       "sentenceIndex": 3,
@@ -250,12 +236,10 @@ export default {
         "hip"
       ],
       "optionReasons": {
-        "hip-mcq-02": "本句指「符合當代潮流、具有時尚或文化吸引力的；非正式」。",
-        "hip-mcq-01": "「人體兩側、大腿與骨盆相接附近的髖部／臀胯部」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。"
+        "hip-mcq-02": "本句的「hip」指「符合當代潮流、具有時尚或文化吸引力的；非正式」。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-02"
     },
@@ -267,9 +251,7 @@ export default {
       "masked": "Rose ____ often turn red or orange in autumn.",
       "options": [
         "hip-mcq-05",
-        "hip-mcq-04",
-        "hip-mcq-06",
-        "hip-mcq-03",
+        "hip-mcq-01",
         "hip-mcq-07",
         "hip-mcq-02"
       ],
@@ -280,12 +262,10 @@ export default {
         "hips"
       ],
       "optionReasons": {
-        "hip-mcq-05": "本句指「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-07": "「未經充分準備或思考便迅速說話、判斷或行動」與本句語境不同。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。"
+        "hip-mcq-05": "本句的「hips」指「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-05"
     },
@@ -297,11 +277,9 @@ export default {
       "masked": "The tea is made from dried rose ____.",
       "options": [
         "hip-mcq-05",
-        "hip-mcq-04",
-        "hip-mcq-06",
-        "hip-mcq-03",
+        "hip-mcq-02",
         "hip-mcq-07",
-        "hip-mcq-02"
+        "hip-mcq-01"
       ],
       "explanation": "本句的「hips」指「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」。",
       "sentenceIndex": 7,
@@ -310,12 +288,10 @@ export default {
         "hips"
       ],
       "optionReasons": {
-        "hip-mcq-05": "本句指「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-07": "「未經充分準備或思考便迅速說話、判斷或行動」與本句語境不同。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。"
+        "hip-mcq-05": "本句的「hips」指「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-05"
     },
@@ -327,11 +303,9 @@ export default {
       "masked": "For a few years, we were almost ____.",
       "options": [
         "hip-mcq-06",
-        "hip-mcq-05",
-        "hip-mcq-07",
-        "hip-mcq-04",
-        "hip-mcq-03",
-        "hip-mcq-02"
+        "hip-mcq-01",
+        "hip-mcq-02",
+        "hip-mcq-05"
       ],
       "explanation": "本句的「joined at the hip」指「兩個人關係非常親密，經常一起行動，幾乎形影不離」。",
       "sentenceIndex": 8,
@@ -340,12 +314,10 @@ export default {
         "joined at the hip"
       ],
       "optionReasons": {
-        "hip-mcq-06": "本句指「兩個人關係非常親密，經常一起行動，幾乎形影不離」。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-07": "「未經充分準備或思考便迅速說話、判斷或行動」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。"
+        "hip-mcq-06": "本句的「joined at the hip」指「兩個人關係非常親密，經常一起行動，幾乎形影不離」。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-06"
     },
@@ -357,11 +329,9 @@ export default {
       "masked": "The sisters were ____ when they were children.",
       "options": [
         "hip-mcq-06",
+        "hip-mcq-02",
         "hip-mcq-05",
-        "hip-mcq-07",
-        "hip-mcq-04",
-        "hip-mcq-03",
-        "hip-mcq-02"
+        "hip-mcq-01"
       ],
       "explanation": "本句的「joined at the hip」指「兩個人關係非常親密，經常一起行動，幾乎形影不離」。",
       "sentenceIndex": 9,
@@ -370,12 +340,10 @@ export default {
         "joined at the hip"
       ],
       "optionReasons": {
-        "hip-mcq-06": "本句指「兩個人關係非常親密，經常一起行動，幾乎形影不離」。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-07": "「未經充分準備或思考便迅速說話、判斷或行動」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。"
+        "hip-mcq-06": "本句的「joined at the hip」指「兩個人關係非常親密，經常一起行動，幾乎形影不離」。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-06"
     },
@@ -387,10 +355,8 @@ export default {
       "masked": "He tends to ____ instead of thinking carefully first.",
       "options": [
         "hip-mcq-07",
-        "hip-mcq-06",
+        "hip-mcq-01",
         "hip-mcq-05",
-        "hip-mcq-04",
-        "hip-mcq-03",
         "hip-mcq-02"
       ],
       "explanation": "本句的「shoot from the hip」指「未經充分準備或思考便迅速說話、判斷或行動」。",
@@ -400,12 +366,10 @@ export default {
         "shoot from the hip"
       ],
       "optionReasons": {
-        "hip-mcq-07": "本句指「未經充分準備或思考便迅速說話、判斷或行動」。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。"
+        "hip-mcq-07": "本句的「shoot from the hip」指「未經充分準備或思考便迅速說話、判斷或行動」。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-07"
     },
@@ -417,11 +381,9 @@ export default {
       "masked": "Try not to ____ when answering difficult questions.",
       "options": [
         "hip-mcq-07",
-        "hip-mcq-06",
+        "hip-mcq-02",
         "hip-mcq-05",
-        "hip-mcq-04",
-        "hip-mcq-03",
-        "hip-mcq-02"
+        "hip-mcq-01"
       ],
       "explanation": "本句的「shoot from the hip」指「未經充分準備或思考便迅速說話、判斷或行動」。",
       "sentenceIndex": 11,
@@ -430,12 +392,10 @@ export default {
         "shoot from the hip"
       ],
       "optionReasons": {
-        "hip-mcq-07": "本句指「未經充分準備或思考便迅速說話、判斷或行動」。",
-        "hip-mcq-06": "「兩個人關係非常親密，經常一起行動，幾乎形影不離」與本句語境不同。",
-        "hip-mcq-05": "「玫瑰或薔薇開花後形成的果實；薔薇果／玫瑰果」與本句語境不同。",
-        "hip-mcq-04": "「義相關」與本句語境不同。",
-        "hip-mcq-03": "「熟悉、了解或意識到某種潮流或情況；較舊／非正式，與」與本句語境不同。",
-        "hip-mcq-02": "「符合當代潮流、具有時尚或文化吸引力的；非正式」與本句語境不同。"
+        "hip-mcq-07": "本句的「shoot from the hip」指「未經充分準備或思考便迅速說話、判斷或行動」。",
+        "hip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hip-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hip-mcq-07"
     }
@@ -447,5 +407,7 @@ export default {
     "sha256": "86e66ebf9f2cb04763579771b6188057e5d6b997d75b9d178b6c65122831194c",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

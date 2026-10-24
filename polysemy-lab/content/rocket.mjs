@@ -438,11 +438,9 @@ export default {
       "masked": "He can spend hours … folding paper ____ out of old notebooks.",
       "options": [
         "rocket-mcq-01",
-        "rocket-mcq-02",
-        "rocket-mcq-03",
-        "rocket-mcq-04",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-13",
+        "rocket-mcq-19",
+        "rocket-mcq-18"
       ],
       "explanation": "本句的「rockets」指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
       "sentenceIndex": 0,
@@ -451,12 +449,10 @@ export default {
         "rockets"
       ],
       "optionReasons": {
-        "rocket-mcq-01": "本句指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-01": "本句的「rockets」指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-01"
     },
@@ -468,11 +464,9 @@ export default {
       "masked": "The ____ was launched successfully.",
       "options": [
         "rocket-mcq-01",
-        "rocket-mcq-02",
-        "rocket-mcq-03",
-        "rocket-mcq-04",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-13",
+        "rocket-mcq-19",
+        "rocket-mcq-07"
       ],
       "explanation": "本句的「rocket」指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
       "sentenceIndex": 1,
@@ -481,12 +475,10 @@ export default {
         "rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-01": "本句指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-01": "本句的「rocket」指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-01"
     },
@@ -498,11 +490,9 @@ export default {
       "masked": "The ____ carried a satellite into space.",
       "options": [
         "rocket-mcq-01",
-        "rocket-mcq-02",
-        "rocket-mcq-03",
-        "rocket-mcq-04",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-08",
+        "rocket-mcq-19",
+        "rocket-mcq-11"
       ],
       "explanation": "本句的「rocket」指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
       "sentenceIndex": 2,
@@ -511,12 +501,10 @@ export default {
         "rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-01": "本句指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-01": "本句的「rocket」指「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」。",
+        "rocket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-01"
     },
@@ -528,11 +516,9 @@ export default {
       "masked": "The company is developing a new ____.",
       "options": [
         "rocket-mcq-02",
-        "rocket-mcq-01",
-        "rocket-mcq-03",
-        "rocket-mcq-04",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-10",
+        "rocket-mcq-07",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「space rocket」指「用來把衛星、設備或太空船送往太空的火箭」。",
       "sentenceIndex": 3,
@@ -541,12 +527,10 @@ export default {
         "space rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-02": "本句指「用來把衛星、設備或太空船送往太空的火箭」。",
-        "rocket-mcq-01": "「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」是「rocket — space/launch vehicle」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-02": "本句的「space rocket」指「用來把衛星、設備或太空船送往太空的火箭」。",
+        "rocket-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-02"
     },
@@ -558,11 +542,9 @@ export default {
       "masked": "The ____ carried equipment into orbit.",
       "options": [
         "rocket-mcq-02",
-        "rocket-mcq-01",
-        "rocket-mcq-03",
-        "rocket-mcq-04",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-17",
+        "rocket-mcq-19",
+        "rocket-mcq-13"
       ],
       "explanation": "本句的「space rocket」指「用來把衛星、設備或太空船送往太空的火箭」。",
       "sentenceIndex": 4,
@@ -571,12 +553,10 @@ export default {
         "space rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-02": "本句指「用來把衛星、設備或太空船送往太空的火箭」。",
-        "rocket-mcq-01": "「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」是「rocket — space/launch vehicle」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-02": "本句的「space rocket」指「用來把衛星、設備或太空船送往太空的火箭」。",
+        "rocket-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-02"
     },
@@ -588,11 +568,9 @@ export default {
       "masked": "The vehicle was struck by a ____.",
       "options": [
         "rocket-mcq-03",
-        "rocket-mcq-02",
-        "rocket-mcq-04",
-        "rocket-mcq-01",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-18",
+        "rocket-mcq-07",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocket」指「以火箭推進方式飛向目標的武器／火箭彈」。",
       "sentenceIndex": 5,
@@ -601,12 +579,10 @@ export default {
         "rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-03": "本句指「以火箭推進方式飛向目標的武器／火箭彈」。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-01": "「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」是「rocket — space/launch vehicle」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-03": "本句的「rocket」指「以火箭推進方式飛向目標的武器／火箭彈」。",
+        "rocket-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-03"
     },
@@ -618,11 +594,9 @@ export default {
       "masked": "Several ____ were fired.",
       "options": [
         "rocket-mcq-03",
-        "rocket-mcq-02",
-        "rocket-mcq-04",
-        "rocket-mcq-01",
-        "rocket-mcq-05",
-        "rocket-mcq-06"
+        "rocket-mcq-08",
+        "rocket-mcq-19",
+        "rocket-mcq-18"
       ],
       "explanation": "本句的「rockets」指「以火箭推進方式飛向目標的武器／火箭彈」。",
       "sentenceIndex": 6,
@@ -631,12 +605,10 @@ export default {
         "rockets"
       ],
       "optionReasons": {
-        "rocket-mcq-03": "本句指「以火箭推進方式飛向目標的武器／火箭彈」。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-01": "「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」是「rocket — space/launch vehicle」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-03": "本句的「rockets」指「以火箭推進方式飛向目標的武器／火箭彈」。",
+        "rocket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-03"
     },
@@ -648,11 +620,8 @@ export default {
       "masked": "A ____ shot into the night sky.",
       "options": [
         "rocket-mcq-04",
-        "rocket-mcq-03",
-        "rocket-mcq-05",
-        "rocket-mcq-02",
-        "rocket-mcq-06",
-        "rocket-mcq-01"
+        "rocket-mcq-12",
+        "rocket-mcq-08"
       ],
       "explanation": "本句的「rocket」指「點燃後快速升上天空並爆開／發光的煙花」。",
       "sentenceIndex": 7,
@@ -661,12 +630,9 @@ export default {
         "rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-04": "本句指「點燃後快速升上天空並爆開／發光的煙花」。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-01": "「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」是「rocket — space/launch vehicle」的用法，與本句語境不同。"
+        "rocket-mcq-04": "本句的「rocket」指「點燃後快速升上天空並爆開／發光的煙花」。",
+        "rocket-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-04"
     },
@@ -678,11 +644,8 @@ export default {
       "masked": "They set off several ____ at midnight.",
       "options": [
         "rocket-mcq-04",
-        "rocket-mcq-03",
-        "rocket-mcq-05",
-        "rocket-mcq-02",
-        "rocket-mcq-06",
-        "rocket-mcq-01"
+        "rocket-mcq-12",
+        "rocket-mcq-08"
       ],
       "explanation": "本句的「rockets」指「點燃後快速升上天空並爆開／發光的煙花」。",
       "sentenceIndex": 8,
@@ -691,12 +654,9 @@ export default {
         "rockets"
       ],
       "optionReasons": {
-        "rocket-mcq-04": "本句指「點燃後快速升上天空並爆開／發光的煙花」。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-01": "「利用高速噴出氣體產生推力、可飛往高空或太空的飛行器／裝置」是「rocket — space/launch vehicle」的用法，與本句語境不同。"
+        "rocket-mcq-04": "本句的「rockets」指「點燃後快速升上天空並爆開／發光的煙花」。",
+        "rocket-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-04"
     },
@@ -708,11 +668,9 @@ export default {
       "masked": "Leo made a ____.",
       "options": [
         "rocket-mcq-05",
-        "rocket-mcq-04",
-        "rocket-mcq-06",
-        "rocket-mcq-03",
         "rocket-mcq-07",
-        "rocket-mcq-02"
+        "rocket-mcq-09",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「paper rocket」指「模仿真實火箭外形或功能而製作的紙製／模型物件」。",
       "sentenceIndex": 9,
@@ -721,12 +679,10 @@ export default {
         "paper rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-05": "本句指「模仿真實火箭外形或功能而製作的紙製／模型物件」。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。"
+        "rocket-mcq-05": "本句的「paper rocket」指「模仿真實火箭外形或功能而製作的紙製／模型物件」。",
+        "rocket-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-05"
     },
@@ -738,11 +694,9 @@ export default {
       "masked": "The children launched a small ____.",
       "options": [
         "rocket-mcq-05",
-        "rocket-mcq-04",
-        "rocket-mcq-06",
-        "rocket-mcq-03",
-        "rocket-mcq-07",
-        "rocket-mcq-02"
+        "rocket-mcq-18",
+        "rocket-mcq-19",
+        "rocket-mcq-13"
       ],
       "explanation": "本句的「model rocket」指「模仿真實火箭外形或功能而製作的紙製／模型物件」。",
       "sentenceIndex": 10,
@@ -751,12 +705,10 @@ export default {
         "model rocket"
       ],
       "optionReasons": {
-        "rocket-mcq-05": "本句指「模仿真實火箭外形或功能而製作的紙製／模型物件」。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-02": "「用來把衛星、設備或太空船送往太空的火箭」是「space rocket」的用法，與本句語境不同。"
+        "rocket-mcq-05": "本句的「model rocket」指「模仿真實火箭外形或功能而製作的紙製／模型物件」。",
+        "rocket-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-05"
     },
@@ -769,10 +721,8 @@ export default {
       "options": [
         "rocket-mcq-06",
         "rocket-mcq-05",
-        "rocket-mcq-07",
-        "rocket-mcq-04",
-        "rocket-mcq-08",
-        "rocket-mcq-03"
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed」指「數字、價格或程度在短時間內非常快速上升」。",
       "sentenceIndex": 11,
@@ -781,12 +731,10 @@ export default {
         "rocketed"
       ],
       "optionReasons": {
-        "rocket-mcq-06": "本句指「數字、價格或程度在短時間內非常快速上升」。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。"
+        "rocket-mcq-06": "本句的「rocketed」指「數字、價格或程度在短時間內非常快速上升」。",
+        "rocket-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-06"
     },
@@ -798,11 +746,9 @@ export default {
       "masked": "The temperature ____ in the afternoon.",
       "options": [
         "rocket-mcq-06",
-        "rocket-mcq-05",
-        "rocket-mcq-07",
-        "rocket-mcq-04",
-        "rocket-mcq-08",
-        "rocket-mcq-03"
+        "rocket-mcq-03",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed」指「數字、價格或程度在短時間內非常快速上升」。",
       "sentenceIndex": 12,
@@ -811,12 +757,10 @@ export default {
         "rocketed"
       ],
       "optionReasons": {
-        "rocket-mcq-06": "本句指「數字、價格或程度在短時間內非常快速上升」。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-03": "「以火箭推進方式飛向目標的武器／火箭彈」是「rocket — weapon」的用法，與本句語境不同。"
+        "rocket-mcq-06": "本句的「rocketed」指「數字、價格或程度在短時間內非常快速上升」。",
+        "rocket-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-06"
     },
@@ -828,11 +772,9 @@ export default {
       "masked": "Sales ____ record levels.",
       "options": [
         "rocket-mcq-07",
-        "rocket-mcq-06",
-        "rocket-mcq-08",
         "rocket-mcq-05",
-        "rocket-mcq-09",
-        "rocket-mcq-04"
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed to」指「急速上升至某個水平／數值」。",
       "sentenceIndex": 13,
@@ -841,12 +783,10 @@ export default {
         "rocketed to"
       ],
       "optionReasons": {
-        "rocket-mcq-07": "本句指「急速上升至某個水平／數值」。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。"
+        "rocket-mcq-07": "本句的「rocketed to」指「急速上升至某個水平／數值」。",
+        "rocket-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-07"
     },
@@ -858,11 +798,9 @@ export default {
       "masked": "The price ____ $100.",
       "options": [
         "rocket-mcq-07",
-        "rocket-mcq-06",
-        "rocket-mcq-08",
-        "rocket-mcq-05",
-        "rocket-mcq-09",
-        "rocket-mcq-04"
+        "rocket-mcq-12",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed to」指「急速上升至某個水平／數值」。",
       "sentenceIndex": 14,
@@ -871,12 +809,10 @@ export default {
         "rocketed to"
       ],
       "optionReasons": {
-        "rocket-mcq-07": "本句指「急速上升至某個水平／數值」。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-04": "「點燃後快速升上天空並爆開／發光的煙花」是「rocket — firework」的用法，與本句語境不同。"
+        "rocket-mcq-07": "本句的「rocketed to」指「急速上升至某個水平／數值」。",
+        "rocket-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-07"
     },
@@ -888,11 +824,9 @@ export default {
       "masked": "Costs ____ 30 percent.",
       "options": [
         "rocket-mcq-08",
-        "rocket-mcq-07",
-        "rocket-mcq-09",
-        "rocket-mcq-06",
-        "rocket-mcq-10",
-        "rocket-mcq-05"
+        "rocket-mcq-03",
+        "rocket-mcq-04",
+        "rocket-mcq-01"
       ],
       "explanation": "本句的「rocketed by」指「在短時間內增加某個明確幅度」。",
       "sentenceIndex": 15,
@@ -901,12 +835,10 @@ export default {
         "rocketed by"
       ],
       "optionReasons": {
-        "rocket-mcq-08": "本句指「在短時間內增加某個明確幅度」。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。"
+        "rocket-mcq-08": "本句的「rocketed by」指「在短時間內增加某個明確幅度」。",
+        "rocket-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-08"
     },
@@ -918,11 +850,9 @@ export default {
       "masked": "Demand ____ nearly half.",
       "options": [
         "rocket-mcq-08",
-        "rocket-mcq-07",
-        "rocket-mcq-09",
-        "rocket-mcq-06",
-        "rocket-mcq-10",
-        "rocket-mcq-05"
+        "rocket-mcq-03",
+        "rocket-mcq-01",
+        "rocket-mcq-11"
       ],
       "explanation": "本句的「rocketed by」指「在短時間內增加某個明確幅度」。",
       "sentenceIndex": 16,
@@ -931,12 +861,10 @@ export default {
         "rocketed by"
       ],
       "optionReasons": {
-        "rocket-mcq-08": "本句指「在短時間內增加某個明確幅度」。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-05": "「模仿真實火箭外形或功能而製作的紙製／模型物件」是「paper/model rocket」的用法，與本句語境不同。"
+        "rocket-mcq-08": "本句的「rocketed by」指「在短時間內增加某個明確幅度」。",
+        "rocket-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-08"
     },
@@ -948,11 +876,9 @@ export default {
       "masked": "The ball ____ across the field.",
       "options": [
         "rocket-mcq-09",
-        "rocket-mcq-08",
-        "rocket-mcq-10",
-        "rocket-mcq-07",
-        "rocket-mcq-11",
-        "rocket-mcq-06"
+        "rocket-mcq-02",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed」指「以非常高的速度向某方向移動」。",
       "sentenceIndex": 17,
@@ -961,12 +887,10 @@ export default {
         "rocketed"
       ],
       "optionReasons": {
-        "rocket-mcq-09": "本句指「以非常高的速度向某方向移動」。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-09": "本句的「rocketed」指「以非常高的速度向某方向移動」。",
+        "rocket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-09"
     },
@@ -978,11 +902,9 @@ export default {
       "masked": "He ____ down the hill on his bike.",
       "options": [
         "rocket-mcq-09",
-        "rocket-mcq-08",
-        "rocket-mcq-10",
-        "rocket-mcq-07",
-        "rocket-mcq-11",
-        "rocket-mcq-06"
+        "rocket-mcq-02",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed」指「以非常高的速度向某方向移動」。",
       "sentenceIndex": 18,
@@ -991,12 +913,10 @@ export default {
         "rocketed"
       ],
       "optionReasons": {
-        "rocket-mcq-09": "本句指「以非常高的速度向某方向移動」。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-06": "「數字、價格或程度在短時間內非常快速上升」是「rocket — rise quickly」的用法，與本句語境不同。"
+        "rocket-mcq-09": "本句的「rocketed」指「以非常高的速度向某方向移動」。",
+        "rocket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-09"
     },
@@ -1008,11 +928,9 @@ export default {
       "masked": "The singer ____ after one hit song.",
       "options": [
         "rocket-mcq-10",
-        "rocket-mcq-09",
-        "rocket-mcq-11",
-        "rocket-mcq-08",
-        "rocket-mcq-12",
-        "rocket-mcq-07"
+        "rocket-mcq-03",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed to fame」指「在短時間內迅速獲得很高知名度」。",
       "sentenceIndex": 19,
@@ -1021,12 +939,10 @@ export default {
         "rocketed to fame"
       ],
       "optionReasons": {
-        "rocket-mcq-10": "本句指「在短時間內迅速獲得很高知名度」。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。"
+        "rocket-mcq-10": "本句的「rocketed to fame」指「在短時間內迅速獲得很高知名度」。",
+        "rocket-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-10"
     },
@@ -1038,11 +954,9 @@ export default {
       "masked": "The actor ____ in his twenties.",
       "options": [
         "rocket-mcq-10",
-        "rocket-mcq-09",
-        "rocket-mcq-11",
-        "rocket-mcq-08",
+        "rocket-mcq-19",
         "rocket-mcq-12",
-        "rocket-mcq-07"
+        "rocket-mcq-13"
       ],
       "explanation": "本句的「rocketed to stardom」指「在短時間內迅速獲得很高知名度」。",
       "sentenceIndex": 20,
@@ -1051,12 +965,10 @@ export default {
         "rocketed to stardom"
       ],
       "optionReasons": {
-        "rocket-mcq-10": "本句指「在短時間內迅速獲得很高知名度」。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-07": "「急速上升至某個水平／數值」是「rocket to X」的用法，與本句語境不同。"
+        "rocket-mcq-10": "本句的「rocketed to stardom」指「在短時間內迅速獲得很高知名度」。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-10"
     },
@@ -1068,11 +980,9 @@ export default {
       "masked": "The song ____.",
       "options": [
         "rocket-mcq-11",
-        "rocket-mcq-10",
-        "rocket-mcq-12",
-        "rocket-mcq-09",
+        "rocket-mcq-16",
         "rocket-mcq-13",
-        "rocket-mcq-08"
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed up the charts」指「在排名／榜單中快速向上移動」。",
       "sentenceIndex": 21,
@@ -1081,12 +991,10 @@ export default {
         "rocketed up the charts"
       ],
       "optionReasons": {
-        "rocket-mcq-11": "本句指「在排名／榜單中快速向上移動」。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。"
+        "rocket-mcq-11": "本句的「rocketed up the charts」指「在排名／榜單中快速向上移動」。",
+        "rocket-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-11"
     },
@@ -1098,11 +1006,9 @@ export default {
       "masked": "She ____ after the tournament.",
       "options": [
         "rocket-mcq-11",
-        "rocket-mcq-10",
-        "rocket-mcq-12",
-        "rocket-mcq-09",
+        "rocket-mcq-05",
         "rocket-mcq-13",
-        "rocket-mcq-08"
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketed up the rankings」指「在排名／榜單中快速向上移動」。",
       "sentenceIndex": 22,
@@ -1111,12 +1017,10 @@ export default {
         "rocketed up the rankings"
       ],
       "optionReasons": {
-        "rocket-mcq-11": "本句指「在排名／榜單中快速向上移動」。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-08": "「在短時間內增加某個明確幅度」是「rocket by X」的用法，與本句語境不同。"
+        "rocket-mcq-11": "本句的「rocketed up the rankings」指「在排名／榜單中快速向上移動」。",
+        "rocket-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-11"
     },
@@ -1128,11 +1032,9 @@ export default {
       "masked": "He studied ____ at university.",
       "options": [
         "rocket-mcq-12",
-        "rocket-mcq-11",
+        "rocket-mcq-09",
         "rocket-mcq-13",
-        "rocket-mcq-10",
-        "rocket-mcq-14",
-        "rocket-mcq-09"
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocket science」指「研究火箭推進、飛行和設計的科學／工程領域」。",
       "sentenceIndex": 23,
@@ -1141,12 +1043,10 @@ export default {
         "rocket science"
       ],
       "optionReasons": {
-        "rocket-mcq-12": "本句指「研究火箭推進、飛行和設計的科學／工程領域」。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。"
+        "rocket-mcq-12": "本句的「rocket science」指「研究火箭推進、飛行和設計的科學／工程領域」。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-12"
     },
@@ -1158,11 +1058,9 @@ export default {
       "masked": "Modern ____ involves physics, engineering, and materials science.",
       "options": [
         "rocket-mcq-12",
-        "rocket-mcq-11",
+        "rocket-mcq-04",
         "rocket-mcq-13",
-        "rocket-mcq-10",
-        "rocket-mcq-14",
-        "rocket-mcq-09"
+        "rocket-mcq-07"
       ],
       "explanation": "本句的「rocket science」指「研究火箭推進、飛行和設計的科學／工程領域」。",
       "sentenceIndex": 24,
@@ -1171,12 +1069,10 @@ export default {
         "rocket science"
       ],
       "optionReasons": {
-        "rocket-mcq-12": "本句指「研究火箭推進、飛行和設計的科學／工程領域」。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-09": "「以非常高的速度向某方向移動」是「rocket — move quickly」的用法，與本句語境不同。"
+        "rocket-mcq-12": "本句的「rocket science」指「研究火箭推進、飛行和設計的科學／工程領域」。",
+        "rocket-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-12"
     },
@@ -1188,11 +1084,9 @@ export default {
       "masked": "Come on, it’s ____.",
       "options": [
         "rocket-mcq-13",
-        "rocket-mcq-12",
-        "rocket-mcq-14",
-        "rocket-mcq-11",
-        "rocket-mcq-15",
-        "rocket-mcq-10"
+        "rocket-mcq-17",
+        "rocket-mcq-16",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「not rocket science」指「某事並不特別複雜或難理解」。",
       "sentenceIndex": 25,
@@ -1201,12 +1095,10 @@ export default {
         "not rocket science"
       ],
       "optionReasons": {
-        "rocket-mcq-13": "本句指「某事並不特別複雜或難理解」。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。"
+        "rocket-mcq-13": "本句的「not rocket science」指「某事並不特別複雜或難理解」。",
+        "rocket-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-13"
     },
@@ -1218,11 +1110,9 @@ export default {
       "masked": "Using the machine is ____.",
       "options": [
         "rocket-mcq-13",
-        "rocket-mcq-12",
-        "rocket-mcq-14",
-        "rocket-mcq-11",
-        "rocket-mcq-15",
-        "rocket-mcq-10"
+        "rocket-mcq-10",
+        "rocket-mcq-02",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「not rocket science」指「某事並不特別複雜或難理解」。",
       "sentenceIndex": 26,
@@ -1231,12 +1121,10 @@ export default {
         "not rocket science"
       ],
       "optionReasons": {
-        "rocket-mcq-13": "本句指「某事並不特別複雜或難理解」。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-10": "「在短時間內迅速獲得很高知名度」是「rocket to fame/stardom」的用法，與本句語境不同。"
+        "rocket-mcq-13": "本句的「not rocket science」指「某事並不特別複雜或難理解」。",
+        "rocket-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-13"
     },
@@ -1249,10 +1137,8 @@ export default {
       "options": [
         "rocket-mcq-14",
         "rocket-mcq-13",
-        "rocket-mcq-15",
-        "rocket-mcq-12",
-        "rocket-mcq-16",
-        "rocket-mcq-11"
+        "rocket-mcq-19",
+        "rocket-mcq-06"
       ],
       "explanation": "本句的「rocket engine」指「透過高速噴氣產生推力的火箭動力裝置」。",
       "sentenceIndex": 27,
@@ -1261,12 +1147,10 @@ export default {
         "rocket engine"
       ],
       "optionReasons": {
-        "rocket-mcq-14": "本句指「透過高速噴氣產生推力的火箭動力裝置」。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。"
+        "rocket-mcq-14": "本句的「rocket engine」指「透過高速噴氣產生推力的火箭動力裝置」。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-14"
     },
@@ -1278,11 +1162,9 @@ export default {
       "masked": "A ____ produces thrust by expelling gas.",
       "options": [
         "rocket-mcq-14",
-        "rocket-mcq-13",
-        "rocket-mcq-15",
-        "rocket-mcq-12",
-        "rocket-mcq-16",
-        "rocket-mcq-11"
+        "rocket-mcq-08",
+        "rocket-mcq-19",
+        "rocket-mcq-18"
       ],
       "explanation": "本句的「rocket engine」指「透過高速噴氣產生推力的火箭動力裝置」。",
       "sentenceIndex": 28,
@@ -1291,12 +1173,10 @@ export default {
         "rocket engine"
       ],
       "optionReasons": {
-        "rocket-mcq-14": "本句指「透過高速噴氣產生推力的火箭動力裝置」。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-11": "「在排名／榜單中快速向上移動」是「rocket up rankings/charts」的用法，與本句語境不同。"
+        "rocket-mcq-14": "本句的「rocket engine」指「透過高速噴氣產生推力的火箭動力裝置」。",
+        "rocket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-14"
     },
@@ -1308,11 +1188,9 @@ export default {
       "masked": "Thousands watched the ____.",
       "options": [
         "rocket-mcq-15",
-        "rocket-mcq-14",
-        "rocket-mcq-16",
+        "rocket-mcq-09",
         "rocket-mcq-13",
-        "rocket-mcq-17",
-        "rocket-mcq-12"
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocket launch」指「火箭由地面發射升空的事件／過程」。",
       "sentenceIndex": 29,
@@ -1321,12 +1199,10 @@ export default {
         "rocket launch"
       ],
       "optionReasons": {
-        "rocket-mcq-15": "本句指「火箭由地面發射升空的事件／過程」。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。"
+        "rocket-mcq-15": "本句的「rocket launch」指「火箭由地面發射升空的事件／過程」。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-15"
     },
@@ -1338,11 +1214,9 @@ export default {
       "masked": "The ____ was delayed.",
       "options": [
         "rocket-mcq-15",
-        "rocket-mcq-14",
-        "rocket-mcq-16",
-        "rocket-mcq-13",
-        "rocket-mcq-17",
-        "rocket-mcq-12"
+        "rocket-mcq-09",
+        "rocket-mcq-19",
+        "rocket-mcq-13"
       ],
       "explanation": "本句的「rocket launch」指「火箭由地面發射升空的事件／過程」。",
       "sentenceIndex": 30,
@@ -1351,12 +1225,10 @@ export default {
         "rocket launch"
       ],
       "optionReasons": {
-        "rocket-mcq-15": "本句指「火箭由地面發射升空的事件／過程」。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-12": "「研究火箭推進、飛行和設計的科學／工程領域」是「rocket science」的用法，與本句語境不同。"
+        "rocket-mcq-15": "本句的「rocket launch」指「火箭由地面發射升空的事件／過程」。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-15"
     },
@@ -1368,11 +1240,9 @@ export default {
       "masked": "The vehicle carried a ____.",
       "options": [
         "rocket-mcq-16",
-        "rocket-mcq-15",
-        "rocket-mcq-17",
-        "rocket-mcq-14",
-        "rocket-mcq-18",
-        "rocket-mcq-13"
+        "rocket-mcq-09",
+        "rocket-mcq-08",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocket launcher」指「用來發射火箭彈的裝置／武器」。",
       "sentenceIndex": 31,
@@ -1381,12 +1251,10 @@ export default {
         "rocket launcher"
       ],
       "optionReasons": {
-        "rocket-mcq-16": "本句指「用來發射火箭彈的裝置／武器」。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-18": "「非常快速而大幅地飆升」是「skyrocket — verb」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。"
+        "rocket-mcq-16": "本句的「rocket launcher」指「用來發射火箭彈的裝置／武器」。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-16"
     },
@@ -1398,11 +1266,9 @@ export default {
       "masked": "The ____ was removed from service.",
       "options": [
         "rocket-mcq-16",
-        "rocket-mcq-15",
-        "rocket-mcq-17",
-        "rocket-mcq-14",
-        "rocket-mcq-18",
-        "rocket-mcq-13"
+        "rocket-mcq-09",
+        "rocket-mcq-13",
+        "rocket-mcq-07"
       ],
       "explanation": "本句的「rocket launcher」指「用來發射火箭彈的裝置／武器」。",
       "sentenceIndex": 32,
@@ -1411,12 +1277,10 @@ export default {
         "rocket launcher"
       ],
       "optionReasons": {
-        "rocket-mcq-16": "本句指「用來發射火箭彈的裝置／武器」。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。",
-        "rocket-mcq-18": "「非常快速而大幅地飆升」是「skyrocket — verb」的用法，與本句語境不同。",
-        "rocket-mcq-13": "「某事並不特別複雜或難理解」是「not rocket science」的用法，與本句語境不同。"
+        "rocket-mcq-16": "本句的「rocket launcher」指「用來發射火箭彈的裝置／武器」。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-16"
     },
@@ -1428,11 +1292,9 @@ export default {
       "masked": "Consumers are worried about ____.",
       "options": [
         "rocket-mcq-17",
-        "rocket-mcq-16",
-        "rocket-mcq-18",
-        "rocket-mcq-15",
-        "rocket-mcq-19",
-        "rocket-mcq-14"
+        "rocket-mcq-12",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「rocketing prices」指「在短時間內快速、大幅上升的」。",
       "sentenceIndex": 33,
@@ -1441,12 +1303,10 @@ export default {
         "rocketing prices"
       ],
       "optionReasons": {
-        "rocket-mcq-17": "本句指「在短時間內快速、大幅上升的」。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-18": "「非常快速而大幅地飆升」是「skyrocket — verb」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-19": "「沖天後爆開的煙花」是「skyrocket — noun」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。"
+        "rocket-mcq-17": "本句的「rocketing prices」指「在短時間內快速、大幅上升的」。",
+        "rocket-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-17"
     },
@@ -1459,10 +1319,8 @@ export default {
       "options": [
         "rocket-mcq-17",
         "rocket-mcq-16",
-        "rocket-mcq-18",
-        "rocket-mcq-15",
         "rocket-mcq-19",
-        "rocket-mcq-14"
+        "rocket-mcq-13"
       ],
       "explanation": "本句的「rocketing housing costs」指「在短時間內快速、大幅上升的」。",
       "sentenceIndex": 34,
@@ -1471,12 +1329,10 @@ export default {
         "rocketing housing costs"
       ],
       "optionReasons": {
-        "rocket-mcq-17": "本句指「在短時間內快速、大幅上升的」。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-18": "「非常快速而大幅地飆升」是「skyrocket — verb」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-19": "「沖天後爆開的煙花」是「skyrocket — noun」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。"
+        "rocket-mcq-17": "本句的「rocketing housing costs」指「在短時間內快速、大幅上升的」。",
+        "rocket-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-17"
     },
@@ -1488,11 +1344,9 @@ export default {
       "masked": "Housing prices ____.",
       "options": [
         "rocket-mcq-18",
-        "rocket-mcq-17",
-        "rocket-mcq-19",
+        "rocket-mcq-13",
         "rocket-mcq-16",
-        "rocket-mcq-15",
-        "rocket-mcq-14"
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「skyrocketed」指「非常快速而大幅地飆升」。",
       "sentenceIndex": 35,
@@ -1501,12 +1355,10 @@ export default {
         "skyrocketed"
       ],
       "optionReasons": {
-        "rocket-mcq-18": "本句指「非常快速而大幅地飆升」。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-19": "「沖天後爆開的煙花」是「skyrocket — noun」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。"
+        "rocket-mcq-18": "本句的「skyrocketed」指「非常快速而大幅地飆升」。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-18"
     },
@@ -1518,11 +1370,9 @@ export default {
       "masked": "Demand has ____ in recent years.",
       "options": [
         "rocket-mcq-18",
-        "rocket-mcq-17",
-        "rocket-mcq-19",
-        "rocket-mcq-16",
-        "rocket-mcq-15",
-        "rocket-mcq-14"
+        "rocket-mcq-05",
+        "rocket-mcq-13",
+        "rocket-mcq-19"
       ],
       "explanation": "本句的「skyrocketed」指「非常快速而大幅地飆升」。",
       "sentenceIndex": 36,
@@ -1531,12 +1381,10 @@ export default {
         "skyrocketed"
       ],
       "optionReasons": {
-        "rocket-mcq-18": "本句指「非常快速而大幅地飆升」。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-19": "「沖天後爆開的煙花」是「skyrocket — noun」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。"
+        "rocket-mcq-18": "本句的「skyrocketed」指「非常快速而大幅地飆升」。",
+        "rocket-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-18"
     },
@@ -1548,11 +1396,9 @@ export default {
       "masked": "A ____ exploded above the park.",
       "options": [
         "rocket-mcq-19",
-        "rocket-mcq-18",
-        "rocket-mcq-17",
-        "rocket-mcq-16",
         "rocket-mcq-15",
-        "rocket-mcq-14"
+        "rocket-mcq-09",
+        "rocket-mcq-13"
       ],
       "explanation": "本句的「skyrocket」指「沖天後爆開的煙花」。",
       "sentenceIndex": 37,
@@ -1561,12 +1407,10 @@ export default {
         "skyrocket"
       ],
       "optionReasons": {
-        "rocket-mcq-19": "本句指「沖天後爆開的煙花」。",
-        "rocket-mcq-18": "「非常快速而大幅地飆升」是「skyrocket — verb」的用法，與本句語境不同。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。"
+        "rocket-mcq-19": "本句的「skyrocket」指「沖天後爆開的煙花」。",
+        "rocket-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-19"
     },
@@ -1578,11 +1422,9 @@ export default {
       "masked": "They launched several ____.",
       "options": [
         "rocket-mcq-19",
-        "rocket-mcq-18",
-        "rocket-mcq-17",
-        "rocket-mcq-16",
-        "rocket-mcq-15",
-        "rocket-mcq-14"
+        "rocket-mcq-02",
+        "rocket-mcq-13",
+        "rocket-mcq-06"
       ],
       "explanation": "本句的「skyrockets」指「沖天後爆開的煙花」。",
       "sentenceIndex": 38,
@@ -1591,12 +1433,10 @@ export default {
         "skyrockets"
       ],
       "optionReasons": {
-        "rocket-mcq-19": "本句指「沖天後爆開的煙花」。",
-        "rocket-mcq-18": "「非常快速而大幅地飆升」是「skyrocket — verb」的用法，與本句語境不同。",
-        "rocket-mcq-17": "「在短時間內快速、大幅上升的」是「rocketing」的用法，與本句語境不同。",
-        "rocket-mcq-16": "「用來發射火箭彈的裝置／武器」是「rocket launcher」的用法，與本句語境不同。",
-        "rocket-mcq-15": "「火箭由地面發射升空的事件／過程」是「rocket launch」的用法，與本句語境不同。",
-        "rocket-mcq-14": "「透過高速噴氣產生推力的火箭動力裝置」是「rocket engine」的用法，與本句語境不同。"
+        "rocket-mcq-19": "本句的「skyrockets」指「沖天後爆開的煙花」。",
+        "rocket-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rocket-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rocket-mcq-19"
     }
@@ -1608,5 +1448,7 @@ export default {
     "sha256": "207a9183ef59d642ac00263a12b7e9cf6d61d1784bb073b45aca5d51b8d06481",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

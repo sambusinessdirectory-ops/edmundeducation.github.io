@@ -1834,11 +1834,9 @@ export default {
       "masked": "Write a diary ____ from the victim’s point of view.",
       "options": [
         "entry-mcq-01",
-        "entry-mcq-02",
-        "entry-mcq-03",
-        "entry-mcq-04",
-        "entry-mcq-05",
-        "entry-mcq-06"
+        "entry-mcq-87",
+        "entry-mcq-80",
+        "entry-mcq-14"
       ],
       "explanation": "本句的「entry」指「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」。",
       "sentenceIndex": 0,
@@ -1847,12 +1845,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-01": "本句指「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。"
+        "entry-mcq-01": "本句的「entry」指「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」。",
+        "entry-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-01"
     },
@@ -1864,11 +1860,9 @@ export default {
       "masked": "Her final diary ____ described how the incident changed her feelings.",
       "options": [
         "entry-mcq-01",
-        "entry-mcq-02",
-        "entry-mcq-03",
-        "entry-mcq-04",
-        "entry-mcq-05",
-        "entry-mcq-06"
+        "entry-mcq-85",
+        "entry-mcq-65",
+        "entry-mcq-80"
       ],
       "explanation": "本句的「entry」指「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」。",
       "sentenceIndex": 1,
@@ -1877,12 +1871,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-01": "本句指「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。"
+        "entry-mcq-01": "本句的「entry」指「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」。",
+        "entry-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-01"
     },
@@ -1894,11 +1886,9 @@ export default {
       "masked": "Students wrote a reflective journal ____.",
       "options": [
         "entry-mcq-02",
-        "entry-mcq-01",
-        "entry-mcq-03",
-        "entry-mcq-04",
-        "entry-mcq-05",
-        "entry-mcq-06"
+        "entry-mcq-92",
+        "entry-mcq-77",
+        "entry-mcq-46"
       ],
       "explanation": "本句的「entry」指「日誌／反思日誌中的一則書面記錄」。",
       "sentenceIndex": 2,
@@ -1907,12 +1897,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-02": "本句指「日誌／反思日誌中的一則書面記錄」。",
-        "entry-mcq-01": "「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」與本句語境不同。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。"
+        "entry-mcq-02": "本句的「entry」指「日誌／反思日誌中的一則書面記錄」。",
+        "entry-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-02"
     },
@@ -1924,11 +1912,9 @@ export default {
       "masked": "Each ____ includes a date and description.",
       "options": [
         "entry-mcq-03",
-        "entry-mcq-02",
-        "entry-mcq-04",
-        "entry-mcq-01",
-        "entry-mcq-05",
-        "entry-mcq-06"
+        "entry-mcq-90",
+        "entry-mcq-64",
+        "entry-mcq-35"
       ],
       "explanation": "本句的「entry」指「被寫入／保存於某記錄系統中的一項資料／條目」。",
       "sentenceIndex": 3,
@@ -1937,12 +1923,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-03": "本句指「被寫入／保存於某記錄系統中的一項資料／條目」。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-01": "「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。"
+        "entry-mcq-03": "本句的「entry」指「被寫入／保存於某記錄系統中的一項資料／條目」。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-03"
     },
@@ -1954,11 +1938,9 @@ export default {
       "masked": "I found an old ____ from 2018.",
       "options": [
         "entry-mcq-03",
-        "entry-mcq-02",
-        "entry-mcq-04",
-        "entry-mcq-01",
-        "entry-mcq-05",
-        "entry-mcq-06"
+        "entry-mcq-64",
+        "entry-mcq-90",
+        "entry-mcq-85"
       ],
       "explanation": "本句的「entry」指「被寫入／保存於某記錄系統中的一項資料／條目」。",
       "sentenceIndex": 4,
@@ -1967,12 +1949,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-03": "本句指「被寫入／保存於某記錄系統中的一項資料／條目」。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-01": "「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。"
+        "entry-mcq-03": "本句的「entry」指「被寫入／保存於某記錄系統中的一項資料／條目」。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-03"
     },
@@ -1984,11 +1964,9 @@ export default {
       "masked": "The system created a new log ____.",
       "options": [
         "entry-mcq-04",
-        "entry-mcq-03",
-        "entry-mcq-05",
-        "entry-mcq-02",
-        "entry-mcq-06",
-        "entry-mcq-01"
+        "entry-mcq-65",
+        "entry-mcq-46",
+        "entry-mcq-90"
       ],
       "explanation": "本句的「entry」指「日誌中的一筆事件／系統記錄」。",
       "sentenceIndex": 5,
@@ -1997,12 +1975,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-04": "本句指「日誌中的一筆事件／系統記錄」。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。",
-        "entry-mcq-01": "「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」與本句語境不同。"
+        "entry-mcq-04": "本句的「entry」指「日誌中的一筆事件／系統記錄」。",
+        "entry-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-04"
     },
@@ -2014,11 +1990,9 @@ export default {
       "masked": "Check the final log ____ before the failure.",
       "options": [
         "entry-mcq-04",
-        "entry-mcq-03",
-        "entry-mcq-05",
-        "entry-mcq-02",
-        "entry-mcq-06",
-        "entry-mcq-01"
+        "entry-mcq-46",
+        "entry-mcq-89",
+        "entry-mcq-81"
       ],
       "explanation": "本句的「entry」指「日誌中的一筆事件／系統記錄」。",
       "sentenceIndex": 6,
@@ -2027,12 +2001,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-04": "本句指「日誌中的一筆事件／系統記錄」。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。",
-        "entry-mcq-01": "「日記中一個獨立、通常與某日期／事件相關的書面記錄；一篇日記」與本句語境不同。"
+        "entry-mcq-04": "本句的「entry」指「日誌中的一筆事件／系統記錄」。",
+        "entry-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-81": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-04"
     },
@@ -2044,11 +2016,9 @@ export default {
       "masked": "She wrote a blog ____ about the trip.",
       "options": [
         "entry-mcq-05",
-        "entry-mcq-04",
-        "entry-mcq-06",
-        "entry-mcq-03",
-        "entry-mcq-07",
-        "entry-mcq-02"
+        "entry-mcq-36",
+        "entry-mcq-64",
+        "entry-mcq-85"
       ],
       "explanation": "本句的「entry」指「網誌中的一篇文章」。",
       "sentenceIndex": 7,
@@ -2057,12 +2027,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-05": "本句指「網誌中的一篇文章」。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。",
-        "entry-mcq-07": "「百科全書中關於某主題的一個條目」與本句語境不同。",
-        "entry-mcq-02": "「日誌／反思日誌中的一則書面記錄」與本句語境不同。"
+        "entry-mcq-05": "本句的「entry」指「網誌中的一篇文章」。",
+        "entry-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-85": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-05"
     },
@@ -2074,11 +2042,9 @@ export default {
       "masked": "Each dictionary ____ includes pronunciation and meaning.",
       "options": [
         "entry-mcq-06",
-        "entry-mcq-05",
-        "entry-mcq-07",
         "entry-mcq-04",
-        "entry-mcq-08",
-        "entry-mcq-03"
+        "entry-mcq-87",
+        "entry-mcq-84"
       ],
       "explanation": "本句的「entry」指「詞典中關於一個詞的完整詞條」。",
       "sentenceIndex": 8,
@@ -2087,12 +2053,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-06": "本句指「詞典中關於一個詞的完整詞條」。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-07": "「百科全書中關於某主題的一個條目」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。",
-        "entry-mcq-08": "「詞彙表中的術語條目」與本句語境不同。",
-        "entry-mcq-03": "「被寫入／保存於某記錄系統中的一項資料／條目」與本句語境不同。"
+        "entry-mcq-06": "本句的「entry」指「詞典中關於一個詞的完整詞條」。",
+        "entry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-06"
     },
@@ -2104,11 +2068,9 @@ export default {
       "masked": "The encyclopedia contains an ____ on climate change.",
       "options": [
         "entry-mcq-07",
-        "entry-mcq-06",
-        "entry-mcq-08",
-        "entry-mcq-05",
-        "entry-mcq-09",
-        "entry-mcq-04"
+        "entry-mcq-77",
+        "entry-mcq-61",
+        "entry-mcq-28"
       ],
       "explanation": "本句的「entry」指「百科全書中關於某主題的一個條目」。",
       "sentenceIndex": 9,
@@ -2117,12 +2079,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-07": "本句指「百科全書中關於某主題的一個條目」。",
-        "entry-mcq-06": "「詞典中關於一個詞的完整詞條」與本句語境不同。",
-        "entry-mcq-08": "「詞彙表中的術語條目」與本句語境不同。",
-        "entry-mcq-05": "「網誌中的一篇文章」與本句語境不同。",
-        "entry-mcq-09": "「索引中的一項」與本句語境不同。",
-        "entry-mcq-04": "「日誌中的一筆事件／系統記錄」與本句語境不同。"
+        "entry-mcq-07": "本句的「entry」指「百科全書中關於某主題的一個條目」。",
+        "entry-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-07"
     },
@@ -2134,11 +2094,9 @@ export default {
       "masked": "The museum updated the catalogue ____.",
       "options": [
         "entry-mcq-10",
-        "entry-mcq-09",
-        "entry-mcq-11",
-        "entry-mcq-08",
-        "entry-mcq-12",
-        "entry-mcq-07"
+        "entry-mcq-61",
+        "entry-mcq-94",
+        "entry-mcq-64"
       ],
       "explanation": "本句的「entry」指「目錄／館藏系統中的編目記錄」。",
       "sentenceIndex": 10,
@@ -2147,12 +2105,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-10": "本句指「目錄／館藏系統中的編目記錄」。",
-        "entry-mcq-09": "「索引中的一項」與本句語境不同。",
-        "entry-mcq-11": "「書目／文獻資料中的一個條目」與本句語境不同。",
-        "entry-mcq-08": "「詞彙表中的術語條目」與本句語境不同。",
-        "entry-mcq-12": "「參考文獻列表中的一項」與本句語境不同。",
-        "entry-mcq-07": "「百科全書中關於某主題的一個條目」與本句語境不同。"
+        "entry-mcq-10": "本句的「entry」指「目錄／館藏系統中的編目記錄」。",
+        "entry-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-10"
     },
@@ -2164,11 +2120,9 @@ export default {
       "masked": "Each customer has a separate database ____.",
       "options": [
         "entry-mcq-13",
-        "entry-mcq-12",
-        "entry-mcq-14",
-        "entry-mcq-11",
-        "entry-mcq-15",
-        "entry-mcq-10"
+        "entry-mcq-81",
+        "entry-mcq-80",
+        "entry-mcq-77"
       ],
       "explanation": "本句的「entry」指「資料庫中的一項記錄」。",
       "sentenceIndex": 11,
@@ -2177,12 +2131,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-13": "本句指「資料庫中的一項記錄」。",
-        "entry-mcq-12": "「參考文獻列表中的一項」與本句語境不同。",
-        "entry-mcq-14": "「表格中的某一數值／項目」與本句語境不同。",
-        "entry-mcq-11": "「書目／文獻資料中的一個條目」與本句語境不同。",
-        "entry-mcq-15": "「把資料輸入電腦／資料庫的工作」與本句語境不同。",
-        "entry-mcq-10": "「目錄／館藏系統中的編目記錄」與本句語境不同。"
+        "entry-mcq-13": "本句的「entry」指「資料庫中的一項記錄」。",
+        "entry-mcq-81": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-13"
     },
@@ -2194,11 +2146,9 @@ export default {
       "masked": "Check the ____ in the final column.",
       "options": [
         "entry-mcq-14",
-        "entry-mcq-13",
-        "entry-mcq-15",
-        "entry-mcq-12",
-        "entry-mcq-16",
-        "entry-mcq-11"
+        "entry-mcq-94",
+        "entry-mcq-46",
+        "entry-mcq-05"
       ],
       "explanation": "本句的「entry」指「表格中的某一數值／項目」。",
       "sentenceIndex": 12,
@@ -2207,12 +2157,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-14": "本句指「表格中的某一數值／項目」。",
-        "entry-mcq-13": "「資料庫中的一項記錄」與本句語境不同。",
-        "entry-mcq-15": "「把資料輸入電腦／資料庫的工作」與本句語境不同。",
-        "entry-mcq-12": "「參考文獻列表中的一項」與本句語境不同。",
-        "entry-mcq-16": "「專門輸入資料的資料輸入員」與本句語境不同。",
-        "entry-mcq-11": "「書目／文獻資料中的一個條目」與本句語境不同。"
+        "entry-mcq-14": "本句的「entry」指「表格中的某一數值／項目」。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-14"
     },
@@ -2224,11 +2172,9 @@ export default {
       "masked": "The job involves a lot of data ____.",
       "options": [
         "entry-mcq-16",
-        "entry-mcq-15",
-        "entry-mcq-17",
+        "entry-mcq-64",
         "entry-mcq-14",
-        "entry-mcq-18",
-        "entry-mcq-13"
+        "entry-mcq-06"
       ],
       "explanation": "本句的「entry」指「專門輸入資料的資料輸入員」。",
       "sentenceIndex": 13,
@@ -2237,12 +2183,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-16": "本句指「專門輸入資料的資料輸入員」。",
-        "entry-mcq-15": "「把資料輸入電腦／資料庫的工作」與本句語境不同。",
-        "entry-mcq-17": "「把資料輸入電腦／系統」與本句語境不同。",
-        "entry-mcq-14": "「表格中的某一數值／項目」與本句語境不同。",
-        "entry-mcq-18": "「輸入數值／文字／密碼」與本句語境不同。",
-        "entry-mcq-13": "「資料庫中的一項記錄」與本句語境不同。"
+        "entry-mcq-16": "本句的「entry」指「專門輸入資料的資料輸入員」。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-16"
     },
@@ -2254,11 +2198,9 @@ export default {
       "masked": "I added a new calendar ____.",
       "options": [
         "entry-mcq-24",
-        "entry-mcq-23",
-        "entry-mcq-25",
-        "entry-mcq-22",
-        "entry-mcq-26",
-        "entry-mcq-21"
+        "entry-pdf-plain-065",
+        "entry-mcq-90",
+        "entry-mcq-07"
       ],
       "explanation": "本句的「entry」指「行事曆中的活動／事項記錄」。",
       "sentenceIndex": 14,
@@ -2267,12 +2209,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-24": "本句指「行事曆中的活動／事項記錄」。",
-        "entry-mcq-23": "「路由表中的一項路由資料」與本句語境不同。",
-        "entry-mcq-25": "「通訊錄中的聯絡人記錄」與本句語境不同。",
-        "entry-mcq-22": "「快取中保存的一個項目」與本句語境不同。",
-        "entry-mcq-26": "「帳簿中的一筆帳目分錄」與本句語境不同。",
-        "entry-mcq-21": "「系統註冊表／登錄中的一項資料」與本句語境不同。"
+        "entry-mcq-24": "本句的「entry」指「行事曆中的活動／事項記錄」。",
+        "entry-pdf-plain-065": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-24"
     },
@@ -2284,11 +2224,9 @@ export default {
       "masked": "The accountant corrected the ____.",
       "options": [
         "entry-mcq-27",
-        "entry-mcq-26",
-        "entry-mcq-28",
-        "entry-mcq-25",
-        "entry-mcq-29",
-        "entry-mcq-24"
+        "entry-mcq-34",
+        "entry-mcq-06",
+        "entry-mcq-84"
       ],
       "explanation": "本句的「entry」指「會計系統中的一筆正式分錄」。",
       "sentenceIndex": 15,
@@ -2297,12 +2235,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-27": "本句指「會計系統中的一筆正式分錄」。",
-        "entry-mcq-26": "「帳簿中的一筆帳目分錄」與本句語境不同。",
-        "entry-mcq-28": "「會計日記帳中的借貸分錄」與本句語境不同。",
-        "entry-mcq-25": "「通訊錄中的聯絡人記錄」與本句語境不同。",
-        "entry-mcq-29": "「每宗交易以相應借貸記錄的複式簿記」與本句語境不同。",
-        "entry-mcq-24": "「行事曆中的活動／事項記錄」與本句語境不同。"
+        "entry-mcq-27": "本句的「entry」指「會計系統中的一筆正式分錄」。",
+        "entry-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-27"
     },
@@ -2314,11 +2250,9 @@ export default {
       "masked": "Record the transaction with a journal ____.",
       "options": [
         "entry-mcq-28",
-        "entry-mcq-27",
-        "entry-mcq-29",
-        "entry-mcq-26",
-        "entry-mcq-30",
-        "entry-mcq-25"
+        "entry-mcq-89",
+        "entry-mcq-64",
+        "entry-mcq-36"
       ],
       "explanation": "本句的「entry」指「會計日記帳中的借貸分錄」。",
       "sentenceIndex": 16,
@@ -2327,12 +2261,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-28": "本句指「會計日記帳中的借貸分錄」。",
-        "entry-mcq-27": "「會計系統中的一筆正式分錄」與本句語境不同。",
-        "entry-mcq-29": "「每宗交易以相應借貸記錄的複式簿記」與本句語境不同。",
-        "entry-mcq-26": "「帳簿中的一筆帳目分錄」與本句語境不同。",
-        "entry-mcq-30": "「期末調整帳戶餘額的調整分錄」與本句語境不同。",
-        "entry-mcq-25": "「通訊錄中的聯絡人記錄」與本句語境不同。"
+        "entry-mcq-28": "本句的「entry」指「會計日記帳中的借貸分錄」。",
+        "entry-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-28"
     },
@@ -2344,11 +2276,9 @@ export default {
       "masked": "Unauthorized ____ is prohibited.",
       "options": [
         "entry-mcq-33",
-        "entry-mcq-32",
-        "entry-mcq-34",
-        "entry-mcq-31",
-        "entry-mcq-35",
-        "entry-mcq-30"
+        "entry-mcq-14",
+        "entry-mcq-94",
+        "entry-mcq-06"
       ],
       "explanation": "本句的「entry」指「進入某地點／系統的行為」。",
       "sentenceIndex": 17,
@@ -2357,12 +2287,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-33": "本句指「進入某地點／系統的行為」。",
-        "entry-mcq-32": "「用來轉回較早會計分錄的轉回／沖銷分錄」與本句語境不同。",
-        "entry-mcq-34": "「成功獲准／設法進入」與本句語境不同。",
-        "entry-mcq-31": "「會計期末用來結清暫記帳戶的結帳分錄」與本句語境不同。",
-        "entry-mcq-35": "「被拒絕進入／入境」與本句語境不同。",
-        "entry-mcq-30": "「期末調整帳戶餘額的調整分錄」與本句語境不同。"
+        "entry-mcq-33": "本句的「entry」指「進入某地點／系統的行為」。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-33"
     },
@@ -2374,11 +2302,9 @@ export default {
       "masked": "Police forced ____ into the building.",
       "options": [
         "entry-mcq-33",
-        "entry-mcq-32",
-        "entry-mcq-34",
-        "entry-mcq-31",
-        "entry-mcq-35",
-        "entry-mcq-30"
+        "entry-mcq-13",
+        "entry-mcq-07",
+        "entry-mcq-64"
       ],
       "explanation": "本句的「entry」指「進入某地點／系統的行為」。",
       "sentenceIndex": 18,
@@ -2387,12 +2313,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-33": "本句指「進入某地點／系統的行為」。",
-        "entry-mcq-32": "「用來轉回較早會計分錄的轉回／沖銷分錄」與本句語境不同。",
-        "entry-mcq-34": "「成功獲准／設法進入」與本句語境不同。",
-        "entry-mcq-31": "「會計期末用來結清暫記帳戶的結帳分錄」與本句語境不同。",
-        "entry-mcq-35": "「被拒絕進入／入境」與本句語境不同。",
-        "entry-mcq-30": "「期末調整帳戶餘額的調整分錄」與本句語境不同。"
+        "entry-mcq-33": "本句的「entry」指「進入某地點／系統的行為」。",
+        "entry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-33"
     },
@@ -2404,11 +2328,9 @@ export default {
       "masked": "Only ticket holders can gain ____.",
       "options": [
         "entry-mcq-34",
-        "entry-mcq-33",
-        "entry-mcq-35",
-        "entry-mcq-32",
-        "entry-mcq-36",
-        "entry-mcq-31"
+        "entry-mcq-05",
+        "entry-mcq-06",
+        "entry-mcq-28"
       ],
       "explanation": "本句的「entry」指「成功獲准／設法進入」。",
       "sentenceIndex": 19,
@@ -2417,12 +2339,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-34": "本句指「成功獲准／設法進入」。",
-        "entry-mcq-33": "「進入某地點／系統的行為」與本句語境不同。",
-        "entry-mcq-35": "「被拒絕進入／入境」與本句語境不同。",
-        "entry-mcq-32": "「用來轉回較早會計分錄的轉回／沖銷分錄」與本句語境不同。",
-        "entry-mcq-36": "「以破壞／武力方式強行闖入」與本句語境不同。",
-        "entry-mcq-31": "「會計期末用來結清暫記帳戶的結帳分錄」與本句語境不同。"
+        "entry-mcq-34": "本句的「entry」指「成功獲准／設法進入」。",
+        "entry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-34"
     },
@@ -2434,11 +2354,9 @@ export default {
       "masked": "The thieves gained ____ through a window.",
       "options": [
         "entry-mcq-34",
-        "entry-mcq-33",
-        "entry-mcq-35",
-        "entry-mcq-32",
-        "entry-mcq-36",
-        "entry-mcq-31"
+        "entry-mcq-02",
+        "entry-mcq-07",
+        "entry-mcq-14"
       ],
       "explanation": "本句的「entry」指「成功獲准／設法進入」。",
       "sentenceIndex": 20,
@@ -2447,12 +2365,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-34": "本句指「成功獲准／設法進入」。",
-        "entry-mcq-33": "「進入某地點／系統的行為」與本句語境不同。",
-        "entry-mcq-35": "「被拒絕進入／入境」與本句語境不同。",
-        "entry-mcq-32": "「用來轉回較早會計分錄的轉回／沖銷分錄」與本句語境不同。",
-        "entry-mcq-36": "「以破壞／武力方式強行闖入」與本句語境不同。",
-        "entry-mcq-31": "「會計期末用來結清暫記帳戶的結帳分錄」與本句語境不同。"
+        "entry-mcq-34": "本句的「entry」指「成功獲准／設法進入」。",
+        "entry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-34"
     },
@@ -2464,11 +2380,9 @@ export default {
       "masked": "Visitors without identification may be refused ____.",
       "options": [
         "entry-mcq-35",
-        "entry-mcq-34",
-        "entry-mcq-36",
-        "entry-mcq-33",
-        "entry-mcq-37",
-        "entry-mcq-32"
+        "entry-mcq-24",
+        "entry-mcq-06",
+        "entry-mcq-94"
       ],
       "explanation": "本句的「entry」指「被拒絕進入／入境」。",
       "sentenceIndex": 21,
@@ -2477,12 +2391,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-35": "本句指「被拒絕進入／入境」。",
-        "entry-mcq-34": "「成功獲准／設法進入」與本句語境不同。",
-        "entry-mcq-36": "「以破壞／武力方式強行闖入」與本句語境不同。",
-        "entry-mcq-33": "「進入某地點／系統的行為」與本句語境不同。",
-        "entry-mcq-37": "「未經授權的進入」與本句語境不同。",
-        "entry-mcq-32": "「用來轉回較早會計分錄的轉回／沖銷分錄」與本句語境不同。"
+        "entry-mcq-35": "本句的「entry」指「被拒絕進入／入境」。",
+        "entry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-35"
     },
@@ -2494,11 +2406,9 @@ export default {
       "masked": "Police found signs of forced ____.",
       "options": [
         "entry-mcq-36",
-        "entry-mcq-35",
-        "entry-mcq-37",
-        "entry-mcq-34",
-        "entry-mcq-38",
-        "entry-mcq-33"
+        "entry-mcq-90",
+        "entry-mcq-06",
+        "entry-mcq-01"
       ],
       "explanation": "本句的「entry」指「以破壞／武力方式強行闖入」。",
       "sentenceIndex": 22,
@@ -2507,12 +2417,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-36": "本句指「以破壞／武力方式強行闖入」。",
-        "entry-mcq-35": "「被拒絕進入／入境」與本句語境不同。",
-        "entry-mcq-37": "「未經授權的進入」與本句語境不同。",
-        "entry-mcq-34": "「成功獲准／設法進入」與本句語境不同。",
-        "entry-mcq-38": "「違反法律的非法進入／入境」與本句語境不同。",
-        "entry-mcq-33": "「進入某地點／系統的行為」與本句語境不同。"
+        "entry-mcq-36": "本句的「entry」指「以破壞／武力方式強行闖入」。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-36"
     },
@@ -2524,11 +2432,9 @@ export default {
       "masked": "The sign said NO ____.",
       "options": [
         "entry-mcq-39",
-        "entry-mcq-38",
-        "entry-mcq-40",
-        "entry-mcq-37",
-        "entry-mcq-41",
-        "entry-mcq-36"
+        "entry-mcq-06",
+        "entry-mcq-24",
+        "entry-mcq-94"
       ],
       "explanation": "本句的「ENTRY」指「禁止進入；交通語境可指不准由此方向駛入」。",
       "sentenceIndex": 23,
@@ -2537,12 +2443,10 @@ export default {
         "ENTRY"
       ],
       "optionReasons": {
-        "entry-mcq-39": "本句指「禁止進入；交通語境可指不准由此方向駛入」。",
-        "entry-mcq-38": "「違反法律的非法進入／入境」與本句語境不同。",
-        "entry-mcq-40": "「可供人進入的入口／進入處」與本句語境不同。",
-        "entry-mcq-37": "「未經授權的進入」與本句語境不同。",
-        "entry-mcq-41": "「正門／側門／後方入口」與本句語境不同。",
-        "entry-mcq-36": "「以破壞／武力方式強行闖入」與本句語境不同。"
+        "entry-mcq-39": "本句的「ENTRY」指「禁止進入；交通語境可指不准由此方向駛入」。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-39"
     },
@@ -2554,11 +2458,9 @@ export default {
       "masked": "Guards monitored every ____ point.",
       "options": [
         "entry-pdf-plain-061",
-        "entry-mcq-89",
-        "entry-mcq-91",
-        "entry-mcq-88",
-        "entry-mcq-92",
-        "entry-mcq-87"
+        "entry-mcq-28",
+        "entry-mcq-24",
+        "entry-mcq-65"
       ],
       "explanation": "本句的「entry」指「供人或事物進入的入口點」。",
       "sentenceIndex": 26,
@@ -2567,12 +2469,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-pdf-plain-061": "本句指「供人或事物進入的入口點」。",
-        "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
-        "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
-        "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
-        "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
+        "entry-pdf-plain-061": "本句的「entry」指「供人或事物進入的入口點」。",
+        "entry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-pdf-plain-061"
     },
@@ -2584,11 +2484,9 @@ export default {
       "masked": "Travelers were inspected at the port of ____.",
       "options": [
         "entry-mcq-46",
-        "entry-mcq-45",
-        "entry-mcq-47",
-        "entry-mcq-44",
-        "entry-mcq-48",
-        "entry-mcq-43"
+        "entry-mcq-10",
+        "entry-mcq-89",
+        "entry-mcq-14"
       ],
       "explanation": "本句的「entry」指「官方指定供人／貨物入境的入境口岸」。",
       "sentenceIndex": 27,
@@ -2597,12 +2495,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-46": "本句指「官方指定供人／貨物入境的入境口岸」。",
-        "entry-mcq-45": "「進入／侵入所經過的地點」與本句語境不同。",
-        "entry-mcq-47": "「程式／系統開始執行或存取的入口點」與本句語境不同。",
-        "entry-mcq-44": "「某人／某物實際進入的具體位置」與本句語境不同。",
-        "entry-mcq-48": "「攻擊者進入系統的入侵入口／途徑」與本句語境不同。",
-        "entry-mcq-43": "「供人／車輛進入的閘門」與本句語境不同。"
+        "entry-mcq-46": "本句的「entry」指「官方指定供人／貨物入境的入境口岸」。",
+        "entry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-46"
     },
@@ -2614,11 +2510,9 @@ export default {
       "masked": "The program’s main function is its ____ point.",
       "options": [
         "entry-pdf-plain-064",
-        "entry-mcq-89",
-        "entry-mcq-91",
-        "entry-mcq-88",
-        "entry-mcq-92",
-        "entry-mcq-87"
+        "entry-mcq-64",
+        "entry-mcq-02",
+        "entry-mcq-06"
       ],
       "explanation": "本句的「entry」指「程式開始執行的入口點」。",
       "sentenceIndex": 28,
@@ -2627,12 +2521,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-pdf-plain-064": "本句指「程式開始執行的入口點」。",
-        "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
-        "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
-        "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
-        "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
+        "entry-pdf-plain-064": "本句的「entry」指「程式開始執行的入口點」。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-pdf-plain-064"
     },
@@ -2644,11 +2536,9 @@ export default {
       "masked": "The exposed service became an ____ point for attackers.",
       "options": [
         "entry-pdf-plain-065",
-        "entry-mcq-89",
-        "entry-mcq-91",
-        "entry-mcq-88",
-        "entry-mcq-92",
-        "entry-mcq-87"
+        "entry-mcq-05",
+        "entry-mcq-06",
+        "entry-mcq-90"
       ],
       "explanation": "本句的「entry」指「攻擊者得以進入系統的入侵入口點」。",
       "sentenceIndex": 29,
@@ -2657,12 +2547,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-pdf-plain-065": "本句指「攻擊者得以進入系統的入侵入口點」。",
-        "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
-        "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
-        "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
-        "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
+        "entry-pdf-plain-065": "本句的「entry」指「攻擊者得以進入系統的入侵入口點」。",
+        "entry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-pdf-plain-065"
     },
@@ -2674,11 +2562,9 @@ export default {
       "masked": "Check the course ____ requirements.",
       "options": [
         "entry-mcq-57",
-        "entry-mcq-56",
-        "entry-mcq-58",
-        "entry-mcq-55",
-        "entry-mcq-59",
-        "entry-mcq-54"
+        "entry-mcq-89",
+        "entry-mcq-14",
+        "entry-mcq-02"
       ],
       "explanation": "本句的「entry」指「入讀課程／學校所須具備的條件」。",
       "sentenceIndex": 30,
@@ -2687,12 +2573,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-57": "本句指「入讀課程／學校所須具備的條件」。",
-        "entry-mcq-56": "「入境某國所須符合的條件」與本句語境不同。",
-        "entry-mcq-58": "「入境／入場所需遵循的程序」與本句語境不同。",
-        "entry-mcq-55": "「有效期內容許多次入境的簽證」與本句語境不同。",
-        "entry-mcq-59": "「再次進入／再次入境」與本句語境不同。",
-        "entry-mcq-54": "「只允許一次入境的簽證」與本句語境不同。"
+        "entry-mcq-57": "本句的「entry」指「入讀課程／學校所須具備的條件」。",
+        "entry-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-57"
     },
@@ -2704,11 +2588,9 @@ export default {
       "masked": "The permit allows re-____.",
       "options": [
         "entry-mcq-59",
-        "entry-mcq-58",
-        "entry-mcq-60",
-        "entry-mcq-57",
-        "entry-mcq-61",
-        "entry-mcq-56"
+        "entry-mcq-10",
+        "entry-mcq-28",
+        "entry-mcq-65"
       ],
       "explanation": "本句的「entry」指「再次進入／再次入境」。",
       "sentenceIndex": 31,
@@ -2717,12 +2599,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-59": "本句指「再次進入／再次入境」。",
-        "entry-mcq-58": "「入境／入場所需遵循的程序」與本句語境不同。",
-        "entry-mcq-60": "「准許再次入境的許可」與本句語境不同。",
-        "entry-mcq-57": "「入讀課程／學校所須具備的條件」與本句語境不同。",
-        "entry-mcq-61": "「太空器重新進入大氣層的重返大氣層過程」與本句語境不同。",
-        "entry-mcq-56": "「入境某國所須符合的條件」與本句語境不同。"
+        "entry-mcq-59": "本句的「entry」指「再次進入／再次入境」。",
+        "entry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-59"
     },
@@ -2734,11 +2614,9 @@ export default {
       "masked": "The capsule survived atmospheric re-____.",
       "options": [
         "entry-mcq-61",
-        "entry-mcq-60",
-        "entry-mcq-62",
-        "entry-mcq-59",
-        "entry-mcq-63",
-        "entry-mcq-58"
+        "entry-mcq-01",
+        "entry-mcq-27",
+        "entry-mcq-65"
       ],
       "explanation": "本句的「entry」指「太空器重新進入大氣層的重返大氣層過程」。",
       "sentenceIndex": 32,
@@ -2747,12 +2625,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-61": "本句指「太空器重新進入大氣層的重返大氣層過程」。",
-        "entry-mcq-60": "「准許再次入境的許可」與本句語境不同。",
-        "entry-mcq-62": "「離開一段時間後重新融入職場／社會」與本句語境不同。",
-        "entry-mcq-59": "「再次進入／再次入境」與本句語境不同。",
-        "entry-mcq-63": "「報名／加入比賽」與本句語境不同。",
-        "entry-mcq-58": "「入境／入場所需遵循的程序」與本句語境不同。"
+        "entry-mcq-61": "本句的「entry」指「太空器重新進入大氣層的重返大氣層過程」。",
+        "entry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-61"
     },
@@ -2764,11 +2640,9 @@ export default {
       "masked": "____ closes on Friday.",
       "options": [
         "entry-mcq-64",
-        "entry-mcq-63",
-        "entry-mcq-65",
-        "entry-mcq-62",
-        "entry-mcq-66",
-        "entry-mcq-61"
+        "entry-mcq-13",
+        "entry-mcq-33",
+        "entry-mcq-77"
       ],
       "explanation": "本句的「Entry」指「參賽報名，或依語境指參賽作品」。",
       "sentenceIndex": 34,
@@ -2777,12 +2651,10 @@ export default {
         "Entry"
       ],
       "optionReasons": {
-        "entry-mcq-64": "本句指「參賽報名，或依語境指參賽作品」。",
-        "entry-mcq-63": "「報名／加入比賽」與本句語境不同。",
-        "entry-mcq-65": "「向比賽提交參賽作品／項目」與本句語境不同。",
-        "entry-mcq-62": "「離開一段時間後重新融入職場／社會」與本句語境不同。",
-        "entry-mcq-66": "「正式送交評審的參賽作品／項目」與本句語境不同。",
-        "entry-mcq-61": "「太空器重新進入大氣層的重返大氣層過程」與本句語境不同。"
+        "entry-mcq-64": "本句的「Entry」指「參賽報名，或依語境指參賽作品」。",
+        "entry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-64"
     },
@@ -2794,11 +2666,9 @@ export default {
       "masked": "____ is open to students aged 12–16.",
       "options": [
         "entry-mcq-64",
-        "entry-mcq-63",
-        "entry-mcq-65",
-        "entry-mcq-62",
-        "entry-mcq-66",
-        "entry-mcq-61"
+        "entry-mcq-03",
+        "entry-mcq-72",
+        "entry-mcq-80"
       ],
       "explanation": "本句的「Entry」指「參賽報名，或依語境指參賽作品」。",
       "sentenceIndex": 35,
@@ -2807,12 +2677,10 @@ export default {
         "Entry"
       ],
       "optionReasons": {
-        "entry-mcq-64": "本句指「參賽報名，或依語境指參賽作品」。",
-        "entry-mcq-63": "「報名／加入比賽」與本句語境不同。",
-        "entry-mcq-65": "「向比賽提交參賽作品／項目」與本句語境不同。",
-        "entry-mcq-62": "「離開一段時間後重新融入職場／社會」與本句語境不同。",
-        "entry-mcq-66": "「正式送交評審的參賽作品／項目」與本句語境不同。",
-        "entry-mcq-61": "「太空器重新進入大氣層的重返大氣層過程」與本句語境不同。"
+        "entry-mcq-64": "本句的「Entry」指「參賽報名，或依語境指參賽作品」。",
+        "entry-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-64"
     },
@@ -2824,11 +2692,9 @@ export default {
       "masked": "Each student may submit one ____.",
       "options": [
         "entry-mcq-65",
-        "entry-mcq-64",
-        "entry-mcq-66",
-        "entry-mcq-63",
-        "entry-mcq-67",
-        "entry-mcq-62"
+        "entry-mcq-05",
+        "entry-mcq-33",
+        "entry-mcq-89"
       ],
       "explanation": "本句的「entry」指「向比賽提交參賽作品／項目」。",
       "sentenceIndex": 36,
@@ -2837,12 +2703,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-65": "本句指「向比賽提交參賽作品／項目」。",
-        "entry-mcq-64": "「參賽報名，或依語境指參賽作品」與本句語境不同。",
-        "entry-mcq-66": "「正式送交評審的參賽作品／項目」與本句語境不同。",
-        "entry-mcq-63": "「報名／加入比賽」與本句語境不同。",
-        "entry-mcq-67": "「獲勝／獲獎的參賽作品」與本句語境不同。",
-        "entry-mcq-62": "「離開一段時間後重新融入職場／社會」與本句語境不同。"
+        "entry-mcq-65": "本句的「entry」指「向比賽提交參賽作品／項目」。",
+        "entry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-65"
     },
@@ -2854,11 +2718,9 @@ export default {
       "masked": "Her photograph was the winning ____.",
       "options": [
         "entry-mcq-64",
-        "entry-mcq-63",
-        "entry-mcq-65",
-        "entry-mcq-62",
-        "entry-mcq-66",
-        "entry-mcq-61"
+        "entry-mcq-10",
+        "entry-mcq-61",
+        "entry-mcq-36"
       ],
       "explanation": "本句的「entry」指「參賽報名，或依語境指參賽作品」。",
       "sentenceIndex": 37,
@@ -2867,12 +2729,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-64": "本句指「參賽報名，或依語境指參賽作品」。",
-        "entry-mcq-63": "「報名／加入比賽」與本句語境不同。",
-        "entry-mcq-65": "「向比賽提交參賽作品／項目」與本句語境不同。",
-        "entry-mcq-62": "「離開一段時間後重新融入職場／社會」與本句語境不同。",
-        "entry-mcq-66": "「正式送交評審的參賽作品／項目」與本句語境不同。",
-        "entry-mcq-61": "「太空器重新進入大氣層的重返大氣層過程」與本句語境不同。"
+        "entry-mcq-64": "本句的「entry」指「參賽報名，或依語境指參賽作品」。",
+        "entry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-64"
     },
@@ -2884,11 +2744,9 @@ export default {
       "masked": "The race has a $20 ____ fee.",
       "options": [
         "entry-mcq-72",
-        "entry-mcq-71",
-        "entry-mcq-73",
-        "entry-mcq-70",
-        "entry-mcq-74",
-        "entry-mcq-69"
+        "entry-mcq-14",
+        "entry-mcq-64",
+        "entry-mcq-94"
       ],
       "explanation": "本句的「entry」指「進入場館／景點所付的入場費」。",
       "sentenceIndex": 38,
@@ -2897,12 +2755,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-72": "本句指「進入場館／景點所付的入場費」。",
-        "entry-mcq-71": "「參賽時須繳付的報名費」與本句語境不同。",
-        "entry-mcq-73": "「報名／提交參賽作品的截止日期」與本句語境不同。",
-        "entry-mcq-70": "「參加比賽所填寫的報名表」與本句語境不同。",
-        "entry-mcq-74": "「分配給參賽者／作品的參賽編號」與本句語境不同。",
-        "entry-mcq-69": "「逾期報名／較遲加入的參賽者或作品」與本句語境不同。"
+        "entry-mcq-72": "本句的「entry」指「進入場館／景點所付的入場費」。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-72"
     },
@@ -2914,11 +2770,9 @@ export default {
       "masked": "There is no ____ fee for the museum.",
       "options": [
         "entry-mcq-72",
-        "entry-mcq-71",
-        "entry-mcq-73",
-        "entry-mcq-70",
-        "entry-mcq-74",
-        "entry-mcq-69"
+        "entry-mcq-24",
+        "entry-mcq-94",
+        "entry-mcq-64"
       ],
       "explanation": "本句的「entry」指「進入場館／景點所付的入場費」。",
       "sentenceIndex": 39,
@@ -2927,12 +2781,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-72": "本句指「進入場館／景點所付的入場費」。",
-        "entry-mcq-71": "「參賽時須繳付的報名費」與本句語境不同。",
-        "entry-mcq-73": "「報名／提交參賽作品的截止日期」與本句語境不同。",
-        "entry-mcq-70": "「參加比賽所填寫的報名表」與本句語境不同。",
-        "entry-mcq-74": "「分配給參賽者／作品的參賽編號」與本句語境不同。",
-        "entry-mcq-69": "「逾期報名／較遲加入的參賽者或作品」與本句語境不同。"
+        "entry-mcq-72": "本句的「entry」指「進入場館／景點所付的入場費」。",
+        "entry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-72"
     },
@@ -2944,11 +2796,9 @@ export default {
       "masked": "Children have free ____.",
       "options": [
         "entry-mcq-77",
-        "entry-mcq-76",
-        "entry-mcq-78",
-        "entry-mcq-75",
-        "entry-mcq-79",
-        "entry-mcq-74"
+        "entry-mcq-64",
+        "entry-mcq-05",
+        "entry-mcq-06"
       ],
       "explanation": "本句的「entry」指「不需付入場費；免費入場」。",
       "sentenceIndex": 41,
@@ -2957,12 +2807,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-77": "本句指「不需付入場費；免費入場」。",
-        "entry-mcq-76": "「進入場地／活動的資格或行為」與本句語境不同。",
-        "entry-mcq-78": "「只准特定人士進入／參與」與本句語境不同。",
-        "entry-mcq-75": "「已正式報名的參賽名單」與本句語境不同。",
-        "entry-mcq-79": "「正式進入某專業／課程」與本句語境不同。",
-        "entry-mcq-74": "「分配給參賽者／作品的參賽編號」與本句語境不同。"
+        "entry-mcq-77": "本句的「entry」指「不需付入場費；免費入場」。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-77"
     },
@@ -2974,11 +2822,9 @@ export default {
       "masked": "Some applicants qualify for direct ____ into Year 2.",
       "options": [
         "entry-mcq-80",
-        "entry-mcq-79",
-        "entry-mcq-81",
-        "entry-mcq-78",
-        "entry-mcq-82",
-        "entry-mcq-77"
+        "entry-mcq-13",
+        "entry-mcq-64",
+        "entry-mcq-89"
       ],
       "explanation": "本句的「entry」指「不經較早階段而直接入讀／加入某一級別」。",
       "sentenceIndex": 43,
@@ -2987,12 +2833,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-80": "本句指「不經較早階段而直接入讀／加入某一級別」。",
-        "entry-mcq-79": "「正式進入某專業／課程」與本句語境不同。",
-        "entry-mcq-81": "「適合剛進入行業／初學者的；入門級／初級」與本句語境不同。",
-        "entry-mcq-78": "「只准特定人士進入／參與」與本句語境不同。",
-        "entry-mcq-82": "「為經驗較少人士而設的初級職位」與本句語境不同。",
-        "entry-mcq-77": "「不需付入場費；免費入場」與本句語境不同。"
+        "entry-mcq-80": "本句的「entry」指「不經較早階段而直接入讀／加入某一級別」。",
+        "entry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-80"
     },
@@ -3004,11 +2848,9 @@ export default {
       "masked": "She applied for an ____ job.",
       "options": [
         "entry-mcq-81",
-        "entry-mcq-80",
-        "entry-mcq-82",
-        "entry-mcq-79",
-        "entry-mcq-83",
-        "entry-mcq-78"
+        "entry-mcq-14",
+        "entry-mcq-64",
+        "entry-mcq-07"
       ],
       "explanation": "本句的「entry-level」指「適合剛進入行業／初學者的；入門級／初級」。",
       "sentenceIndex": 44,
@@ -3017,12 +2859,10 @@ export default {
         "entry-level"
       ],
       "optionReasons": {
-        "entry-mcq-81": "本句指「適合剛進入行業／初學者的；入門級／初級」。",
-        "entry-mcq-80": "「不經較早階段而直接入讀／加入某一級別」與本句語境不同。",
-        "entry-mcq-82": "「為經驗較少人士而設的初級職位」與本句語境不同。",
-        "entry-mcq-79": "「正式進入某專業／課程」與本句語境不同。",
-        "entry-mcq-83": "「初級職位／新入行人士的起薪」與本句語境不同。",
-        "entry-mcq-78": "「只准特定人士進入／參與」與本句語境不同。"
+        "entry-mcq-81": "本句的「entry-level」指「適合剛進入行業／初學者的；入門級／初級」。",
+        "entry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-81"
     },
@@ -3034,11 +2874,9 @@ export default {
       "masked": "This is an ____ camera.",
       "options": [
         "entry-mcq-81",
-        "entry-mcq-80",
-        "entry-mcq-82",
-        "entry-mcq-79",
-        "entry-mcq-83",
-        "entry-mcq-78"
+        "entry-mcq-10",
+        "entry-mcq-06",
+        "entry-mcq-94"
       ],
       "explanation": "本句的「entry-level」指「適合剛進入行業／初學者的；入門級／初級」。",
       "sentenceIndex": 45,
@@ -3047,12 +2885,10 @@ export default {
         "entry-level"
       ],
       "optionReasons": {
-        "entry-mcq-81": "本句指「適合剛進入行業／初學者的；入門級／初級」。",
-        "entry-mcq-80": "「不經較早階段而直接入讀／加入某一級別」與本句語境不同。",
-        "entry-mcq-82": "「為經驗較少人士而設的初級職位」與本句語境不同。",
-        "entry-mcq-79": "「正式進入某專業／課程」與本句語境不同。",
-        "entry-mcq-83": "「初級職位／新入行人士的起薪」與本句語境不同。",
-        "entry-mcq-78": "「只准特定人士進入／參與」與本句語境不同。"
+        "entry-mcq-81": "本句的「entry-level」指「適合剛進入行業／初學者的；入門級／初級」。",
+        "entry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-94": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-81"
     },
@@ -3064,11 +2900,9 @@ export default {
       "masked": "The company introduced an ____ model.",
       "options": [
         "entry-mcq-84",
-        "entry-mcq-83",
-        "entry-mcq-85",
-        "entry-mcq-82",
-        "entry-mcq-86",
-        "entry-mcq-81"
+        "entry-mcq-01",
+        "entry-mcq-07",
+        "entry-mcq-27"
       ],
       "explanation": "本句的「entry-level」指「供新手使用、功能／價格較基本的入門產品」。",
       "sentenceIndex": 46,
@@ -3077,12 +2911,10 @@ export default {
         "entry-level"
       ],
       "optionReasons": {
-        "entry-mcq-84": "本句指「供新手使用、功能／價格較基本的入門產品」。",
-        "entry-mcq-83": "「初級職位／新入行人士的起薪」與本句語境不同。",
-        "entry-mcq-85": "「企業開始在某市場銷售／營運的市場進入」與本句語境不同。",
-        "entry-mcq-82": "「為經驗較少人士而設的初級職位」與本句語境不同。",
-        "entry-mcq-86": "「企業進入新市場的計畫／策略」與本句語境不同。",
-        "entry-mcq-81": "「適合剛進入行業／初學者的；入門級／初級」與本句語境不同。"
+        "entry-mcq-84": "本句的「entry-level」指「供新手使用、功能／價格較基本的入門產品」。",
+        "entry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-84"
     },
@@ -3094,11 +2926,9 @@ export default {
       "masked": "The company is planning its market ____.",
       "options": [
         "entry-mcq-85",
-        "entry-mcq-84",
-        "entry-mcq-86",
-        "entry-mcq-83",
-        "entry-mcq-87",
-        "entry-mcq-82"
+        "entry-mcq-27",
+        "entry-mcq-65",
+        "entry-mcq-06"
       ],
       "explanation": "本句的「entry」指「企業開始在某市場銷售／營運的市場進入」。",
       "sentenceIndex": 47,
@@ -3107,12 +2937,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-85": "本句指「企業開始在某市場銷售／營運的市場進入」。",
-        "entry-mcq-84": "「供新手使用、功能／價格較基本的入門產品」與本句語境不同。",
-        "entry-mcq-86": "「企業進入新市場的計畫／策略」與本句語境不同。",
-        "entry-mcq-83": "「初級職位／新入行人士的起薪」與本句語境不同。",
-        "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。",
-        "entry-mcq-82": "「為經驗較少人士而設的初級職位」與本句語境不同。"
+        "entry-mcq-85": "本句的「entry」指「企業開始在某市場銷售／營運的市場進入」。",
+        "entry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-85"
     },
@@ -3124,11 +2952,9 @@ export default {
       "masked": "High startup costs create a barrier to ____.",
       "options": [
         "entry-mcq-87",
-        "entry-mcq-86",
-        "entry-mcq-88",
-        "entry-mcq-85",
-        "entry-mcq-89",
-        "entry-mcq-84"
+        "entry-mcq-04",
+        "entry-mcq-90",
+        "entry-mcq-07"
       ],
       "explanation": "本句的「entry」指「令新企業難以進入市場的進入壁壘」。",
       "sentenceIndex": 48,
@@ -3137,12 +2963,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-87": "本句指「令新企業難以進入市場的進入壁壘」。",
-        "entry-mcq-86": "「企業進入新市場的計畫／策略」與本句語境不同。",
-        "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
-        "entry-mcq-85": "「企業開始在某市場銷售／營運的市場進入」與本句語境不同。",
-        "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
-        "entry-mcq-84": "「供新手使用、功能／價格較基本的入門產品」與本句語境不同。"
+        "entry-mcq-87": "本句的「entry」指「令新企業難以進入市場的進入壁壘」。",
+        "entry-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-87"
     },
@@ -3154,11 +2978,9 @@ export default {
       "masked": "The trader set an ____ price.",
       "options": [
         "entry-mcq-89",
-        "entry-mcq-88",
-        "entry-mcq-90",
-        "entry-mcq-87",
-        "entry-mcq-91",
-        "entry-mcq-86"
+        "entry-mcq-06",
+        "entry-mcq-80",
+        "entry-mcq-24"
       ],
       "explanation": "本句的「entry」指「投資者建立倉位時的進場價格」。",
       "sentenceIndex": 49,
@@ -3167,12 +2989,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-89": "本句指「投資者建立倉位時的進場價格」。",
-        "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
-        "entry-mcq-90": "「適合建立交易倉位的價格／時機」與本句語境不同。",
-        "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
-        "entry-mcq-86": "「企業進入新市場的計畫／策略」與本句語境不同。"
+        "entry-mcq-89": "本句的「entry」指「投資者建立倉位時的進場價格」。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-89"
     },
@@ -3184,11 +3004,9 @@ export default {
       "masked": "Investors are looking for a better ____ point.",
       "options": [
         "entry-mcq-90",
-        "entry-mcq-89",
-        "entry-mcq-91",
-        "entry-mcq-88",
-        "entry-mcq-92",
-        "entry-mcq-87"
+        "entry-mcq-57",
+        "entry-mcq-28",
+        "entry-mcq-72"
       ],
       "explanation": "本句的「entry」指「適合建立交易倉位的價格／時機」。",
       "sentenceIndex": 50,
@@ -3197,12 +3015,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-90": "本句指「適合建立交易倉位的價格／時機」。",
-        "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
-        "entry-mcq-88": "「剛進入市場的新競爭者」與本句語境不同。",
-        "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
-        "entry-mcq-87": "「令新企業難以進入市場的進入壁壘」與本句語境不同。"
+        "entry-mcq-90": "本句的「entry」指「適合建立交易倉位的價格／時機」。",
+        "entry-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-90"
     },
@@ -3214,11 +3030,9 @@ export default {
       "masked": "The aircraft’s ____ into service was delayed.",
       "options": [
         "entry-mcq-92",
-        "entry-mcq-91",
-        "entry-mcq-93",
-        "entry-mcq-90",
-        "entry-mcq-94",
-        "entry-mcq-89"
+        "entry-mcq-64",
+        "entry-mcq-06",
+        "entry-mcq-13"
       ],
       "explanation": "本句的「entry」指「設備／車輛等正式開始投入服務」。",
       "sentenceIndex": 52,
@@ -3227,12 +3041,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-92": "本句指「設備／車輛等正式開始投入服務」。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。",
-        "entry-mcq-93": "「正式開始生產」與本句語境不同。",
-        "entry-mcq-90": "「適合建立交易倉位的價格／時機」與本句語境不同。",
-        "entry-mcq-94": "「法律、條約、規則等正式開始具有效力」與本句語境不同。",
-        "entry-mcq-89": "「投資者建立倉位時的進場價格」與本句語境不同。"
+        "entry-mcq-92": "本句的「entry」指「設備／車輛等正式開始投入服務」。",
+        "entry-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-92"
     },
@@ -3244,11 +3056,9 @@ export default {
       "masked": "The treaty’s ____ into force occurred the following year.",
       "options": [
         "entry-mcq-94",
-        "entry-mcq-93",
-        "entry-mcq-95",
-        "entry-mcq-92",
-        "entry-mcq-96",
-        "entry-mcq-91"
+        "entry-mcq-16",
+        "entry-mcq-90",
+        "entry-mcq-61"
       ],
       "explanation": "本句的「entry」指「法律、條約、規則等正式開始具有效力」。",
       "sentenceIndex": 53,
@@ -3257,12 +3067,10 @@ export default {
         "entry"
       ],
       "optionReasons": {
-        "entry-mcq-94": "本句指「法律、條約、規則等正式開始具有效力」。",
-        "entry-mcq-93": "「正式開始生產」與本句語境不同。",
-        "entry-mcq-95": "「正式生效」與本句語境不同。",
-        "entry-mcq-92": "「設備／車輛等正式開始投入服務」與本句語境不同。",
-        "entry-mcq-96": "「法院判決被正式登錄／記入紀錄」與本句語境不同。",
-        "entry-mcq-91": "「開始參與公共生活／商業活動」與本句語境不同。"
+        "entry-mcq-94": "本句的「entry」指「法律、條約、規則等正式開始具有效力」。",
+        "entry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "entry-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "entry-mcq-94"
     }
@@ -3274,5 +3082,7 @@ export default {
     "sha256": "443b1c3ad9fdfa8db245814db80b69b1172e9095e23242eaf1f398adebdc6735",
     "pages": 122
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -169,11 +169,7 @@ export default {
       "masked": "I ____ his phone number on a piece of paper.",
       "options": [
         "jot-mcq-01",
-        "jot-mcq-02",
-        "jot-mcq-03",
-        "jot-mcq-04",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-04"
       ],
       "explanation": "本句的「jotted」指「快速而簡短地把資料、想法或提醒寫下來」。",
       "sentenceIndex": 0,
@@ -182,12 +178,8 @@ export default {
         "jotted"
       ],
       "optionReasons": {
-        "jot-mcq-01": "本句指「快速而簡短地把資料、想法或提醒寫下來」。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-01": "本句的「jotted」指「快速而簡短地把資料、想法或提醒寫下來」。",
+        "jot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-01"
     },
@@ -199,11 +191,7 @@ export default {
       "masked": "She ____ a few ideas in her notebook.",
       "options": [
         "jot-mcq-01",
-        "jot-mcq-02",
-        "jot-mcq-03",
-        "jot-mcq-04",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-03"
       ],
       "explanation": "本句的「jotted」指「快速而簡短地把資料、想法或提醒寫下來」。",
       "sentenceIndex": 1,
@@ -212,12 +200,8 @@ export default {
         "jotted"
       ],
       "optionReasons": {
-        "jot-mcq-01": "本句指「快速而簡短地把資料、想法或提醒寫下來」。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-01": "本句的「jotted」指「快速而簡短地把資料、想法或提醒寫下來」。",
+        "jot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-01"
     },
@@ -229,11 +213,8 @@ export default {
       "masked": "I like ____ ideas in a notebook.",
       "options": [
         "jot-mcq-02",
-        "jot-mcq-01",
-        "jot-mcq-03",
         "jot-mcq-04",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-05"
       ],
       "explanation": "本句的「jotting down」指「為免忘記而隨手、快速記下某事」。",
       "sentenceIndex": 2,
@@ -242,12 +223,9 @@ export default {
         "jotting down"
       ],
       "optionReasons": {
-        "jot-mcq-02": "本句指「為免忘記而隨手、快速記下某事」。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-02": "本句的「jotting down」指「為免忘記而隨手、快速記下某事」。",
+        "jot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "jot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-02"
     },
@@ -259,11 +237,8 @@ export default {
       "masked": "Let me ____ your address.",
       "options": [
         "jot-mcq-02",
-        "jot-mcq-01",
         "jot-mcq-03",
-        "jot-mcq-04",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-05"
       ],
       "explanation": "本句的「jot down」指「為免忘記而隨手、快速記下某事」。",
       "sentenceIndex": 3,
@@ -272,12 +247,9 @@ export default {
         "jot down"
       ],
       "optionReasons": {
-        "jot-mcq-02": "本句指「為免忘記而隨手、快速記下某事」。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-02": "本句的「jot down」指「為免忘記而隨手、快速記下某事」。",
+        "jot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-02"
     },
@@ -289,11 +261,8 @@ export default {
       "masked": "I ____ a few questions before the meeting.",
       "options": [
         "jot-mcq-02",
-        "jot-mcq-01",
         "jot-mcq-03",
-        "jot-mcq-04",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-05"
       ],
       "explanation": "本句的「jotted down」指「為免忘記而隨手、快速記下某事」。",
       "sentenceIndex": 4,
@@ -302,12 +271,9 @@ export default {
         "jotted down"
       ],
       "optionReasons": {
-        "jot-mcq-02": "本句指「為免忘記而隨手、快速記下某事」。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-02": "本句的「jotted down」指「為免忘記而隨手、快速記下某事」。",
+        "jot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-02"
     },
@@ -319,11 +285,7 @@ export default {
       "masked": "I don’t care one ____ what they think.",
       "options": [
         "jot-mcq-03",
-        "jot-mcq-02",
-        "jot-mcq-04",
-        "jot-mcq-01",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-07"
       ],
       "explanation": "本句的「jot」指「極少的一點；一丁點；絲毫」。",
       "sentenceIndex": 5,
@@ -332,12 +294,8 @@ export default {
         "jot"
       ],
       "optionReasons": {
-        "jot-mcq-03": "本句指「極少的一點；一丁點；絲毫」。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-03": "本句的「jot」指「極少的一點；一丁點；絲毫」。",
+        "jot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-03"
     },
@@ -349,11 +307,7 @@ export default {
       "masked": "His explanation did not help one ____.",
       "options": [
         "jot-mcq-03",
-        "jot-mcq-02",
-        "jot-mcq-04",
-        "jot-mcq-01",
-        "jot-mcq-05",
-        "jot-mcq-06"
+        "jot-mcq-01"
       ],
       "explanation": "本句的「jot」指「極少的一點；一丁點；絲毫」。",
       "sentenceIndex": 6,
@@ -362,12 +316,8 @@ export default {
         "jot"
       ],
       "optionReasons": {
-        "jot-mcq-03": "本句指「極少的一點；一丁點；絲毫」。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-03": "本句的「jot」指「極少的一點；一丁點；絲毫」。",
+        "jot-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-03"
     },
@@ -379,10 +329,6 @@ export default {
       "masked": "There wasn’t a ____ of evidence to support the claim.",
       "options": [
         "jot-mcq-03",
-        "jot-mcq-02",
-        "jot-mcq-04",
-        "jot-mcq-01",
-        "jot-mcq-05",
         "jot-mcq-06"
       ],
       "explanation": "本句的「jot」指「極少的一點；一丁點；絲毫」。",
@@ -392,12 +338,8 @@ export default {
         "jot"
       ],
       "optionReasons": {
-        "jot-mcq-03": "本句指「極少的一點；一丁點；絲毫」。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。"
+        "jot-mcq-03": "本句的「jot」指「極少的一點；一丁點；絲毫」。",
+        "jot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-03"
     },
@@ -409,11 +351,8 @@ export default {
       "masked": "She hasn’t changed a ____.",
       "options": [
         "jot-mcq-04",
-        "jot-mcq-03",
         "jot-mcq-05",
-        "jot-mcq-02",
-        "jot-mcq-06",
-        "jot-mcq-01"
+        "jot-mcq-02"
       ],
       "explanation": "本句的「jot」指「一點也不；絲毫沒有」。",
       "sentenceIndex": 8,
@@ -422,12 +361,9 @@ export default {
         "jot"
       ],
       "optionReasons": {
-        "jot-mcq-04": "本句指「一點也不；絲毫沒有」。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。"
+        "jot-mcq-04": "本句的「jot」指「一點也不；絲毫沒有」。",
+        "jot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "jot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-04"
     },
@@ -439,11 +375,8 @@ export default {
       "masked": "It made not a ____ of difference.",
       "options": [
         "jot-mcq-04",
-        "jot-mcq-03",
-        "jot-mcq-05",
         "jot-mcq-02",
-        "jot-mcq-06",
-        "jot-mcq-01"
+        "jot-mcq-05"
       ],
       "explanation": "本句的「jot」指「一點也不；絲毫沒有」。",
       "sentenceIndex": 9,
@@ -452,12 +385,9 @@ export default {
         "jot"
       ],
       "optionReasons": {
-        "jot-mcq-04": "本句指「一點也不；絲毫沒有」。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。",
-        "jot-mcq-01": "「快速而簡短地把資料、想法或提醒寫下來」與本句語境不同。"
+        "jot-mcq-04": "本句的「jot」指「一點也不；絲毫沒有」。",
+        "jot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "jot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-04"
     },
@@ -469,10 +399,7 @@ export default {
       "masked": "I found an old ____ in the back of my notebook.",
       "options": [
         "jot-mcq-05",
-        "jot-mcq-04",
-        "jot-mcq-06",
         "jot-mcq-03",
-        "jot-mcq-07",
         "jot-mcq-02"
       ],
       "explanation": "本句的「jotting」指「一則匆匆寫下的簡短筆記」。",
@@ -482,12 +409,9 @@ export default {
         "jotting"
       ],
       "optionReasons": {
-        "jot-mcq-05": "本句指「一則匆匆寫下的簡短筆記」。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-07": "「用來隨手記錄的小記事簿；較低頻」與本句語境不同。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。"
+        "jot-mcq-05": "本句的「jotting」指「一則匆匆寫下的簡短筆記」。",
+        "jot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "jot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-05"
     },
@@ -499,11 +423,7 @@ export default {
       "masked": "These are just a few ____ from the lecture.",
       "options": [
         "jot-mcq-06",
-        "jot-mcq-05",
-        "jot-mcq-07",
-        "jot-mcq-04",
-        "jot-mcq-03",
-        "jot-mcq-02"
+        "jot-mcq-03"
       ],
       "explanation": "本句的「jottings」指「一些零碎、隨手寫下的筆記」。",
       "sentenceIndex": 11,
@@ -512,12 +432,8 @@ export default {
         "jottings"
       ],
       "optionReasons": {
-        "jot-mcq-06": "本句指「一些零碎、隨手寫下的筆記」。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-07": "「用來隨手記錄的小記事簿；較低頻」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。"
+        "jot-mcq-06": "本句的「jottings」指「一些零碎、隨手寫下的筆記」。",
+        "jot-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-06"
     },
@@ -529,11 +445,7 @@ export default {
       "masked": "Her notebooks were full of sketches and ____.",
       "options": [
         "jot-mcq-06",
-        "jot-mcq-05",
-        "jot-mcq-07",
-        "jot-mcq-04",
-        "jot-mcq-03",
-        "jot-mcq-02"
+        "jot-mcq-04"
       ],
       "explanation": "本句的「jottings」指「一些零碎、隨手寫下的筆記」。",
       "sentenceIndex": 12,
@@ -542,12 +454,8 @@ export default {
         "jottings"
       ],
       "optionReasons": {
-        "jot-mcq-06": "本句指「一些零碎、隨手寫下的筆記」。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-07": "「用來隨手記錄的小記事簿；較低頻」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。"
+        "jot-mcq-06": "本句的「jottings」指「一些零碎、隨手寫下的筆記」。",
+        "jot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-06"
     },
@@ -559,11 +467,7 @@ export default {
       "masked": "He kept a small ____ beside the phone.",
       "options": [
         "jot-mcq-07",
-        "jot-mcq-06",
-        "jot-mcq-05",
-        "jot-mcq-04",
-        "jot-mcq-03",
-        "jot-mcq-02"
+        "jot-mcq-04"
       ],
       "explanation": "本句的「jotter」指「用來隨手記錄的小記事簿；較低頻」。",
       "sentenceIndex": 13,
@@ -572,12 +476,8 @@ export default {
         "jotter"
       ],
       "optionReasons": {
-        "jot-mcq-07": "本句指「用來隨手記錄的小記事簿；較低頻」。",
-        "jot-mcq-06": "「一些零碎、隨手寫下的筆記」與本句語境不同。",
-        "jot-mcq-05": "「一則匆匆寫下的簡短筆記」與本句語境不同。",
-        "jot-mcq-04": "「一點也不；絲毫沒有」與本句語境不同。",
-        "jot-mcq-03": "「極少的一點；一丁點；絲毫」與本句語境不同。",
-        "jot-mcq-02": "「為免忘記而隨手、快速記下某事」與本句語境不同。"
+        "jot-mcq-07": "本句的「jotter」指「用來隨手記錄的小記事簿；較低頻」。",
+        "jot-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "jot-mcq-07"
     }
@@ -589,5 +489,7 @@ export default {
     "sha256": "a2d61bbcfa498057b1517829c2deb981d68e01408732e8ac0dca7f1e18848ee1",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

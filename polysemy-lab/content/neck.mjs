@@ -539,11 +539,9 @@ export default {
       "masked": "My ____ hurts after sitting at the desk all day.",
       "options": [
         "neck-mcq-01",
-        "neck-mcq-02",
-        "neck-mcq-03",
-        "neck-mcq-04",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-13",
+        "neck-mcq-07",
+        "neck-mcq-19"
       ],
       "explanation": "本句的「neck」指「頸；脖子」。",
       "sentenceIndex": 0,
@@ -552,12 +550,10 @@ export default {
         "neck"
       ],
       "optionReasons": {
-        "neck-mcq-01": "本句指「頸；脖子」。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-01": "本句的「neck」指「頸；脖子」。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-01"
     },
@@ -569,11 +565,9 @@ export default {
       "masked": "She wore a scarf around her ____.",
       "options": [
         "neck-mcq-01",
-        "neck-mcq-02",
-        "neck-mcq-03",
-        "neck-mcq-04",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-17",
+        "neck-mcq-18",
+        "neck-mcq-15"
       ],
       "explanation": "本句的「neck」指「頸；脖子」。",
       "sentenceIndex": 1,
@@ -582,12 +576,10 @@ export default {
         "neck"
       ],
       "optionReasons": {
-        "neck-mcq-01": "本句指「頸；脖子」。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-01": "本句的「neck」指「頸；脖子」。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-01"
     },
@@ -599,11 +591,9 @@ export default {
       "masked": "He turned his ____ slowly.",
       "options": [
         "neck-mcq-01",
-        "neck-mcq-02",
-        "neck-mcq-03",
-        "neck-mcq-04",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-17",
+        "neck-mcq-07",
+        "neck-mcq-11"
       ],
       "explanation": "本句的「neck」指「頸；脖子」。",
       "sentenceIndex": 2,
@@ -612,12 +602,10 @@ export default {
         "neck"
       ],
       "optionReasons": {
-        "neck-mcq-01": "本句指「頸；脖子」。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-01": "本句的「neck」指「頸；脖子」。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-01"
     },
@@ -629,11 +617,9 @@ export default {
       "masked": "I felt a pain at the ____.",
       "options": [
         "neck-mcq-02",
-        "neck-mcq-01",
-        "neck-mcq-03",
-        "neck-mcq-04",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-16",
+        "neck-mcq-17",
+        "neck-mcq-07"
       ],
       "explanation": "本句的「back of my neck」指「後頸」。",
       "sentenceIndex": 3,
@@ -642,12 +628,10 @@ export default {
         "back of my neck"
       ],
       "optionReasons": {
-        "neck-mcq-02": "本句指「後頸」。",
-        "neck-mcq-01": "「頸；脖子」是「neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-02": "本句的「back of my neck」指「後頸」。",
+        "neck-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-02"
     },
@@ -659,11 +643,9 @@ export default {
       "masked": "The sun burned the ____.",
       "options": [
         "neck-mcq-02",
-        "neck-mcq-01",
-        "neck-mcq-03",
-        "neck-mcq-04",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-08",
+        "neck-mcq-15",
+        "neck-mcq-14"
       ],
       "explanation": "本句的「back of his neck」指「後頸」。",
       "sentenceIndex": 4,
@@ -672,12 +654,10 @@ export default {
         "back of his neck"
       ],
       "optionReasons": {
-        "neck-mcq-02": "本句指「後頸」。",
-        "neck-mcq-01": "「頸；脖子」是「neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-02": "本句的「back of his neck」指「後頸」。",
+        "neck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-02"
     },
@@ -689,11 +669,9 @@ export default {
       "masked": "Poor posture can cause ____.",
       "options": [
         "neck-mcq-03",
-        "neck-mcq-02",
-        "neck-mcq-04",
-        "neck-mcq-01",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-17",
+        "neck-mcq-19",
+        "neck-mcq-07"
       ],
       "explanation": "本句的「neck pain」指「頸部僵硬」。",
       "sentenceIndex": 5,
@@ -702,12 +680,10 @@ export default {
         "neck pain"
       ],
       "optionReasons": {
-        "neck-mcq-03": "本句指「頸部僵硬」。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-01": "「頸；脖子」是「neck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-03": "本句的「neck pain」指「頸部僵硬」。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-03"
     },
@@ -719,11 +695,9 @@ export default {
       "masked": "I woke up with a ____.",
       "options": [
         "neck-mcq-03",
-        "neck-mcq-02",
-        "neck-mcq-04",
-        "neck-mcq-01",
-        "neck-mcq-05",
-        "neck-mcq-06"
+        "neck-mcq-07",
+        "neck-mcq-13",
+        "neck-mcq-20"
       ],
       "explanation": "本句的「stiff neck」指「頸部僵硬」。",
       "sentenceIndex": 6,
@@ -732,12 +706,10 @@ export default {
         "stiff neck"
       ],
       "optionReasons": {
-        "neck-mcq-03": "本句指「頸部僵硬」。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-01": "「頸；脖子」是「neck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-03": "本句的「stiff neck」指「頸部僵硬」。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-03"
     },
@@ -749,11 +721,9 @@ export default {
       "masked": "Hold the bottle by the ____.",
       "options": [
         "neck-mcq-23",
-        "neck-mcq-22",
-        "neck-mcq-21",
-        "neck-mcq-20",
         "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-14",
+        "neck-mcq-07"
       ],
       "explanation": "本句的「neck」指「物件中像頸一樣較窄、連接兩部分的位置」。",
       "sentenceIndex": 7,
@@ -762,12 +732,10 @@ export default {
         "neck"
       ],
       "optionReasons": {
-        "neck-mcq-23": "本句指「物件中像頸一樣較窄、連接兩部分的位置」。",
-        "neck-mcq-22": "「親熱；擁吻」是「necking」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-23": "本句的「neck」指「物件中像頸一樣較窄、連接兩部分的位置」。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-23"
     },
@@ -779,11 +747,9 @@ export default {
       "masked": "The ____ is very narrow.",
       "options": [
         "neck-mcq-23",
-        "neck-mcq-22",
-        "neck-mcq-21",
         "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-15",
+        "neck-mcq-06"
       ],
       "explanation": "本句的「neck of the bottle」指「物件中像頸一樣較窄、連接兩部分的位置」。",
       "sentenceIndex": 8,
@@ -792,12 +758,10 @@ export default {
         "neck of the bottle"
       ],
       "optionReasons": {
-        "neck-mcq-23": "本句指「物件中像頸一樣較窄、連接兩部分的位置」。",
-        "neck-mcq-22": "「親熱；擁吻」是「necking」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-23": "本句的「neck of the bottle」指「物件中像頸一樣較窄、連接兩部分的位置」。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-23"
     },
@@ -809,11 +773,9 @@ export default {
       "masked": "The label goes around the ____.",
       "options": [
         "neck-mcq-04",
-        "neck-mcq-03",
-        "neck-mcq-05",
-        "neck-mcq-02",
-        "neck-mcq-06",
-        "neck-mcq-01"
+        "neck-mcq-19",
+        "neck-mcq-13",
+        "neck-mcq-22"
       ],
       "explanation": "本句的「neck of the bottle」指「瓶頸」。",
       "sentenceIndex": 9,
@@ -822,12 +784,10 @@ export default {
         "neck of the bottle"
       ],
       "optionReasons": {
-        "neck-mcq-04": "本句指「瓶頸」。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。",
-        "neck-mcq-01": "「頸；脖子」是「neck」的用法，與本句語境不同。"
+        "neck-mcq-04": "本句的「neck of the bottle」指「瓶頸」。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-04"
     },
@@ -839,11 +799,9 @@ export default {
       "masked": "The cork was stuck in the ____.",
       "options": [
         "neck-mcq-04",
-        "neck-mcq-03",
-        "neck-mcq-05",
-        "neck-mcq-02",
-        "neck-mcq-06",
-        "neck-mcq-01"
+        "neck-mcq-12",
+        "neck-mcq-13",
+        "neck-mcq-15"
       ],
       "explanation": "本句的「neck of the bottle」指「瓶頸」。",
       "sentenceIndex": 10,
@@ -852,12 +810,10 @@ export default {
         "neck of the bottle"
       ],
       "optionReasons": {
-        "neck-mcq-04": "本句指「瓶頸」。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-02": "「後頸」是「back of the neck」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。",
-        "neck-mcq-01": "「頸；脖子」是「neck」的用法，與本句語境不同。"
+        "neck-mcq-04": "本句的「neck of the bottle」指「瓶頸」。",
+        "neck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-04"
     },
@@ -869,11 +825,9 @@ export default {
       "masked": "The village sits on a narrow ____.",
       "options": [
         "neck-mcq-23",
-        "neck-mcq-22",
-        "neck-mcq-21",
+        "neck-mcq-07",
         "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-22"
       ],
       "explanation": "本句的「neck of land」指「物件中像頸一樣較窄、連接兩部分的位置」。",
       "sentenceIndex": 11,
@@ -882,12 +836,10 @@ export default {
         "neck of land"
       ],
       "optionReasons": {
-        "neck-mcq-23": "本句指「物件中像頸一樣較窄、連接兩部分的位置」。",
-        "neck-mcq-22": "「親熱；擁吻」是「necking」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-23": "本句的「neck of land」指「物件中像頸一樣較窄、連接兩部分的位置」。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-23"
     },
@@ -899,11 +851,9 @@ export default {
       "masked": "A thin ____ connects the peninsula to the mainland.",
       "options": [
         "neck-mcq-23",
-        "neck-mcq-22",
-        "neck-mcq-21",
-        "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-07",
+        "neck-mcq-13",
+        "neck-mcq-22"
       ],
       "explanation": "本句的「neck of land」指「物件中像頸一樣較窄、連接兩部分的位置」。",
       "sentenceIndex": 12,
@@ -912,12 +862,10 @@ export default {
         "neck of land"
       ],
       "optionReasons": {
-        "neck-mcq-23": "本句指「物件中像頸一樣較窄、連接兩部分的位置」。",
-        "neck-mcq-22": "「親熱；擁吻」是「necking」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-23": "本句的「neck of land」指「物件中像頸一樣較窄、連接兩部分的位置」。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-23"
     },
@@ -929,11 +877,9 @@ export default {
       "masked": "She wore a dress with a high ____.",
       "options": [
         "neck-mcq-06",
-        "neck-mcq-05",
-        "neck-mcq-07",
-        "neck-mcq-04",
-        "neck-mcq-08",
-        "neck-mcq-03"
+        "neck-mcq-19",
+        "neck-mcq-03",
+        "neck-mcq-10"
       ],
       "explanation": "本句的「neck」指「領口」。",
       "sentenceIndex": 13,
@@ -942,12 +888,10 @@ export default {
         "neck"
       ],
       "optionReasons": {
-        "neck-mcq-06": "本句指「領口」。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。"
+        "neck-mcq-06": "本句的「neck」指「領口」。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-06"
     },
@@ -959,11 +903,9 @@ export default {
       "masked": "I prefer shirts with a loose ____.",
       "options": [
         "neck-mcq-06",
-        "neck-mcq-05",
-        "neck-mcq-07",
-        "neck-mcq-04",
-        "neck-mcq-08",
-        "neck-mcq-03"
+        "neck-mcq-12",
+        "neck-mcq-19",
+        "neck-mcq-18"
       ],
       "explanation": "本句的「neck」指「領口」。",
       "sentenceIndex": 14,
@@ -972,12 +914,10 @@ export default {
         "neck"
       ],
       "optionReasons": {
-        "neck-mcq-06": "本句指「領口」。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-03": "「頸部僵硬」是「stiff neck」的用法，與本句語境不同。"
+        "neck-mcq-06": "本句的「neck」指「領口」。",
+        "neck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-06"
     },
@@ -989,11 +929,9 @@ export default {
       "masked": "He wore a ____.",
       "options": [
         "neck-mcq-07",
-        "neck-mcq-06",
-        "neck-mcq-08",
-        "neck-mcq-05",
-        "neck-mcq-09",
-        "neck-mcq-04"
+        "neck-mcq-14",
+        "neck-mcq-10",
+        "neck-mcq-03"
       ],
       "explanation": "本句的「V-neck sweater」指「V 領」。",
       "sentenceIndex": 15,
@@ -1002,12 +940,10 @@ export default {
         "V-neck sweater"
       ],
       "optionReasons": {
-        "neck-mcq-07": "本句指「V 領」。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。"
+        "neck-mcq-07": "本句的「V-neck sweater」指「V 領」。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-07"
     },
@@ -1019,11 +955,9 @@ export default {
       "masked": "She prefers ____.",
       "options": [
         "neck-mcq-07",
-        "neck-mcq-06",
-        "neck-mcq-08",
-        "neck-mcq-05",
-        "neck-mcq-09",
-        "neck-mcq-04"
+        "neck-mcq-10",
+        "neck-mcq-12",
+        "neck-mcq-13"
       ],
       "explanation": "本句的「V-neck tops」指「V 領」。",
       "sentenceIndex": 16,
@@ -1032,12 +966,10 @@ export default {
         "V-neck tops"
       ],
       "optionReasons": {
-        "neck-mcq-07": "本句指「V 領」。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-04": "「瓶頸」是「neck of a bottle」的用法，與本句語境不同。"
+        "neck-mcq-07": "本句的「V-neck tops」指「V 領」。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-07"
     },
@@ -1049,11 +981,9 @@ export default {
       "masked": "He bought a ____.",
       "options": [
         "neck-mcq-08",
-        "neck-mcq-07",
-        "neck-mcq-09",
-        "neck-mcq-06",
-        "neck-mcq-10",
-        "neck-mcq-05"
+        "neck-mcq-02",
+        "neck-mcq-11",
+        "neck-mcq-22"
       ],
       "explanation": "本句的「crew-neck T-shirt」指「圓領」。",
       "sentenceIndex": 17,
@@ -1062,12 +992,10 @@ export default {
         "crew-neck T-shirt"
       ],
       "optionReasons": {
-        "neck-mcq-08": "本句指「圓領」。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。"
+        "neck-mcq-08": "本句的「crew-neck T-shirt」指「圓領」。",
+        "neck-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-08"
     },
@@ -1079,11 +1007,9 @@ export default {
       "masked": "This sweater has a ____.",
       "options": [
         "neck-mcq-08",
-        "neck-mcq-07",
-        "neck-mcq-09",
-        "neck-mcq-06",
         "neck-mcq-10",
-        "neck-mcq-05"
+        "neck-mcq-14",
+        "neck-mcq-17"
       ],
       "explanation": "本句的「crew neck」指「圓領」。",
       "sentenceIndex": 18,
@@ -1092,12 +1018,10 @@ export default {
         "crew neck"
       ],
       "optionReasons": {
-        "neck-mcq-08": "本句指「圓領」。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-05": "「狹長地帶／地峽」是「neck of land」的用法，與本句語境不同。"
+        "neck-mcq-08": "本句的「crew neck」指「圓領」。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-08"
     },
@@ -1109,11 +1033,9 @@ export default {
       "masked": "The dress has an elegant ____.",
       "options": [
         "neck-mcq-09",
-        "neck-mcq-08",
-        "neck-mcq-10",
-        "neck-mcq-07",
-        "neck-mcq-11",
-        "neck-mcq-06"
+        "neck-mcq-03",
+        "neck-mcq-13",
+        "neck-mcq-11"
       ],
       "explanation": "本句的「neckline」指「領口線」。",
       "sentenceIndex": 19,
@@ -1122,12 +1044,10 @@ export default {
         "neckline"
       ],
       "optionReasons": {
-        "neck-mcq-09": "本句指「領口線」。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-09": "本句的「neckline」指「領口線」。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-09"
     },
@@ -1139,11 +1059,9 @@ export default {
       "masked": "Different ____ suit different styles.",
       "options": [
         "neck-mcq-09",
-        "neck-mcq-08",
+        "neck-mcq-15",
         "neck-mcq-10",
-        "neck-mcq-07",
-        "neck-mcq-11",
-        "neck-mcq-06"
+        "neck-mcq-23"
       ],
       "explanation": "本句的「necklines」指「領口線」。",
       "sentenceIndex": 20,
@@ -1152,12 +1070,10 @@ export default {
         "necklines"
       ],
       "optionReasons": {
-        "neck-mcq-09": "本句指「領口線」。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-06": "「領口」是「neck (clothing)」的用法，與本句語境不同。"
+        "neck-mcq-09": "本句的「necklines」指「領口線」。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-09"
     },
@@ -1169,11 +1085,9 @@ export default {
       "masked": "Traffic creates a ____ near the bridge.",
       "options": [
         "neck-mcq-10",
-        "neck-mcq-09",
-        "neck-mcq-11",
-        "neck-mcq-08",
-        "neck-mcq-12",
-        "neck-mcq-07"
+        "neck-mcq-17",
+        "neck-mcq-22",
+        "neck-mcq-11"
       ],
       "explanation": "本句的「bottleneck」指「瓶頸；阻礙」。",
       "sentenceIndex": 21,
@@ -1182,12 +1096,10 @@ export default {
         "bottleneck"
       ],
       "optionReasons": {
-        "neck-mcq-10": "本句指「瓶頸；阻礙」。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。"
+        "neck-mcq-10": "本句的「bottleneck」指「瓶頸；阻礙」。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-10"
     },
@@ -1200,10 +1112,8 @@ export default {
       "options": [
         "neck-mcq-10",
         "neck-mcq-09",
-        "neck-mcq-11",
-        "neck-mcq-08",
-        "neck-mcq-12",
-        "neck-mcq-07"
+        "neck-mcq-22",
+        "neck-mcq-15"
       ],
       "explanation": "本句的「bottleneck」指「瓶頸；阻礙」。",
       "sentenceIndex": 22,
@@ -1212,12 +1122,10 @@ export default {
         "bottleneck"
       ],
       "optionReasons": {
-        "neck-mcq-10": "本句指「瓶頸；阻礙」。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。"
+        "neck-mcq-10": "本句的「bottleneck」指「瓶頸；阻礙」。",
+        "neck-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-10"
     },
@@ -1229,11 +1137,9 @@ export default {
       "masked": "The tunnel is a traffic ____.",
       "options": [
         "neck-mcq-10",
-        "neck-mcq-09",
-        "neck-mcq-11",
-        "neck-mcq-08",
-        "neck-mcq-12",
-        "neck-mcq-07"
+        "neck-mcq-18",
+        "neck-mcq-14",
+        "neck-mcq-12"
       ],
       "explanation": "本句的「bottleneck」指「瓶頸；阻礙」。",
       "sentenceIndex": 23,
@@ -1242,12 +1148,10 @@ export default {
         "bottleneck"
       ],
       "optionReasons": {
-        "neck-mcq-10": "本句指「瓶頸；阻礙」。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。"
+        "neck-mcq-10": "本句的「bottleneck」指「瓶頸；阻礙」。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-10"
     },
@@ -1259,11 +1163,9 @@ export default {
       "masked": "Packaging became the production ____.",
       "options": [
         "neck-mcq-10",
-        "neck-mcq-09",
-        "neck-mcq-11",
-        "neck-mcq-08",
-        "neck-mcq-12",
-        "neck-mcq-07"
+        "neck-mcq-14",
+        "neck-mcq-19",
+        "neck-mcq-18"
       ],
       "explanation": "本句的「bottleneck」指「瓶頸；阻礙」。",
       "sentenceIndex": 24,
@@ -1272,12 +1174,10 @@ export default {
         "bottleneck"
       ],
       "optionReasons": {
-        "neck-mcq-10": "本句指「瓶頸；阻礙」。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-07": "「V 領」是「V-neck」的用法，與本句語境不同。"
+        "neck-mcq-10": "本句的「bottleneck」指「瓶頸；阻礙」。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-10"
     },
@@ -1289,11 +1189,9 @@ export default {
       "masked": "Filling in all these forms is a real ____.",
       "options": [
         "neck-mcq-11",
-        "neck-mcq-10",
-        "neck-mcq-12",
-        "neck-mcq-09",
-        "neck-mcq-13",
-        "neck-mcq-08"
+        "neck-mcq-22",
+        "neck-mcq-04",
+        "neck-mcq-09"
       ],
       "explanation": "本句的「pain in the neck」指「很煩的人／事」。",
       "sentenceIndex": 25,
@@ -1302,12 +1200,10 @@ export default {
         "pain in the neck"
       ],
       "optionReasons": {
-        "neck-mcq-11": "本句指「很煩的人／事」。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。"
+        "neck-mcq-11": "本句的「pain in the neck」指「很煩的人／事」。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-11"
     },
@@ -1319,11 +1215,9 @@ export default {
       "masked": "That broken printer is becoming a ____.",
       "options": [
         "neck-mcq-11",
-        "neck-mcq-10",
-        "neck-mcq-12",
-        "neck-mcq-09",
-        "neck-mcq-13",
-        "neck-mcq-08"
+        "neck-mcq-18",
+        "neck-mcq-06",
+        "neck-mcq-20"
       ],
       "explanation": "本句的「pain in the neck」指「很煩的人／事」。",
       "sentenceIndex": 26,
@@ -1332,12 +1226,10 @@ export default {
         "pain in the neck"
       ],
       "optionReasons": {
-        "neck-mcq-11": "本句指「很煩的人／事」。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-08": "「圓領」是「crew neck」的用法，與本句語境不同。"
+        "neck-mcq-11": "本句的「pain in the neck」指「很煩的人／事」。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-11"
     },
@@ -1349,11 +1241,9 @@ export default {
       "masked": "The deadline was ____.",
       "options": [
         "neck-mcq-12",
-        "neck-mcq-11",
-        "neck-mcq-13",
-        "neck-mcq-10",
-        "neck-mcq-14",
-        "neck-mcq-09"
+        "neck-mcq-06",
+        "neck-mcq-20",
+        "neck-mcq-02"
       ],
       "explanation": "本句的「breathing down our necks」指「緊迫監督／催促」。",
       "sentenceIndex": 27,
@@ -1362,12 +1252,10 @@ export default {
         "breathing down our necks"
       ],
       "optionReasons": {
-        "neck-mcq-12": "本句指「緊迫監督／催促」。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。"
+        "neck-mcq-12": "本句的「breathing down our necks」指「緊迫監督／催促」。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-12"
     },
@@ -1379,11 +1267,9 @@ export default {
       "masked": "I can't work properly with my manager ____.",
       "options": [
         "neck-mcq-12",
-        "neck-mcq-11",
-        "neck-mcq-13",
-        "neck-mcq-10",
-        "neck-mcq-14",
-        "neck-mcq-09"
+        "neck-mcq-18",
+        "neck-mcq-16",
+        "neck-mcq-19"
       ],
       "explanation": "本句的「breathing down my neck」指「緊迫監督／催促」。",
       "sentenceIndex": 28,
@@ -1392,12 +1278,10 @@ export default {
         "breathing down my neck"
       ],
       "optionReasons": {
-        "neck-mcq-12": "本句指「緊迫監督／催促」。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。"
+        "neck-mcq-12": "本句的「breathing down my neck」指「緊迫監督／催促」。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-12"
     },
@@ -1409,11 +1293,9 @@ export default {
       "masked": "We had inspectors ____ all week.",
       "options": [
         "neck-mcq-12",
-        "neck-mcq-11",
-        "neck-mcq-13",
-        "neck-mcq-10",
-        "neck-mcq-14",
-        "neck-mcq-09"
+        "neck-mcq-08",
+        "neck-mcq-02",
+        "neck-mcq-15"
       ],
       "explanation": "本句的「breathing down our necks」指「緊迫監督／催促」。",
       "sentenceIndex": 29,
@@ -1422,12 +1304,10 @@ export default {
         "breathing down our necks"
       ],
       "optionReasons": {
-        "neck-mcq-12": "本句指「緊迫監督／催促」。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-09": "「領口線」是「neckline」的用法，與本句語境不同。"
+        "neck-mcq-12": "本句的「breathing down our necks」指「緊迫監督／催促」。",
+        "neck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-12"
     },
@@ -1439,11 +1319,9 @@ export default {
       "masked": "She ____ to defend her teammate.",
       "options": [
         "neck-mcq-13",
-        "neck-mcq-12",
-        "neck-mcq-14",
-        "neck-mcq-11",
-        "neck-mcq-15",
-        "neck-mcq-10"
+        "neck-mcq-04",
+        "neck-mcq-18",
+        "neck-mcq-11"
       ],
       "explanation": "本句的「stuck her neck out」指「冒險挺身而出」。",
       "sentenceIndex": 30,
@@ -1452,12 +1330,10 @@ export default {
         "stuck her neck out"
       ],
       "optionReasons": {
-        "neck-mcq-13": "本句指「冒險挺身而出」。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。"
+        "neck-mcq-13": "本句的「stuck her neck out」指「冒險挺身而出」。",
+        "neck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-13"
     },
@@ -1469,11 +1345,9 @@ export default {
       "masked": "I'm not willing to ____ without more information.",
       "options": [
         "neck-mcq-13",
-        "neck-mcq-12",
-        "neck-mcq-14",
-        "neck-mcq-11",
-        "neck-mcq-15",
-        "neck-mcq-10"
+        "neck-mcq-08",
+        "neck-mcq-22",
+        "neck-mcq-23"
       ],
       "explanation": "本句的「stick my neck out」指「冒險挺身而出」。",
       "sentenceIndex": 31,
@@ -1482,12 +1356,10 @@ export default {
         "stick my neck out"
       ],
       "optionReasons": {
-        "neck-mcq-13": "本句指「冒險挺身而出」。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-10": "「瓶頸；阻礙」是「bottleneck」的用法，與本句語境不同。"
+        "neck-mcq-13": "本句的「stick my neck out」指「冒險挺身而出」。",
+        "neck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-13"
     },
@@ -1499,10 +1371,8 @@ export default {
       "masked": "Don't ____ for something so minor.",
       "options": [
         "neck-mcq-14",
-        "neck-mcq-13",
-        "neck-mcq-15",
-        "neck-mcq-12",
-        "neck-mcq-16",
+        "neck-mcq-09",
+        "neck-mcq-23",
         "neck-mcq-11"
       ],
       "explanation": "本句的「risk your neck」指「冒大險」。",
@@ -1512,12 +1382,10 @@ export default {
         "risk your neck"
       ],
       "optionReasons": {
-        "neck-mcq-14": "本句指「冒大險」。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。"
+        "neck-mcq-14": "本句的「risk your neck」指「冒大險」。",
+        "neck-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-14"
     },
@@ -1529,11 +1397,9 @@ export default {
       "masked": "The rescuers ____ to help people.",
       "options": [
         "neck-mcq-14",
-        "neck-mcq-13",
-        "neck-mcq-15",
-        "neck-mcq-12",
-        "neck-mcq-16",
-        "neck-mcq-11"
+        "neck-mcq-18",
+        "neck-mcq-10",
+        "neck-mcq-03"
       ],
       "explanation": "本句的「risked their necks」指「冒大險」。",
       "sentenceIndex": 33,
@@ -1542,12 +1408,10 @@ export default {
         "risked their necks"
       ],
       "optionReasons": {
-        "neck-mcq-14": "本句指「冒大險」。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-11": "「很煩的人／事」是「pain in the neck」的用法，與本句語境不同。"
+        "neck-mcq-14": "本句的「risked their necks」指「冒大險」。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-14"
     },
@@ -1559,11 +1423,9 @@ export default {
       "masked": "Your help really ____.",
       "options": [
         "neck-mcq-15",
-        "neck-mcq-14",
-        "neck-mcq-16",
-        "neck-mcq-13",
-        "neck-mcq-17",
-        "neck-mcq-12"
+        "neck-mcq-06",
+        "neck-mcq-03",
+        "neck-mcq-22"
       ],
       "explanation": "本句的「saved my neck」指「救某人一把」。",
       "sentenceIndex": 34,
@@ -1572,12 +1434,10 @@ export default {
         "saved my neck"
       ],
       "optionReasons": {
-        "neck-mcq-15": "本句指「救某人一把」。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。"
+        "neck-mcq-15": "本句的「saved my neck」指「救某人一把」。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-15"
     },
@@ -1589,11 +1449,9 @@ export default {
       "masked": "That extra copy ____ when the original disappeared.",
       "options": [
         "neck-mcq-15",
-        "neck-mcq-14",
-        "neck-mcq-16",
-        "neck-mcq-13",
-        "neck-mcq-17",
-        "neck-mcq-12"
+        "neck-mcq-10",
+        "neck-mcq-20",
+        "neck-mcq-23"
       ],
       "explanation": "本句的「saved his neck」指「救某人一把」。",
       "sentenceIndex": 35,
@@ -1602,12 +1460,10 @@ export default {
         "saved his neck"
       ],
       "optionReasons": {
-        "neck-mcq-15": "本句指「救某人一把」。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-12": "「緊迫監督／催促」是「breathe down someone's neck」的用法，與本句語境不同。"
+        "neck-mcq-15": "本句的「saved his neck」指「救某人一把」。",
+        "neck-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-15"
     },
@@ -1619,11 +1475,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "neck-mcq-16",
-        "neck-mcq-15",
-        "neck-mcq-17",
-        "neck-mcq-14",
         "neck-mcq-18",
-        "neck-mcq-13"
+        "neck-mcq-14",
+        "neck-mcq-06"
       ],
       "explanation": "本句的「up to my neck in work」指「深陷於；忙到不可開交」。",
       "sentenceIndex": 36,
@@ -1632,12 +1486,10 @@ export default {
         "up to my neck in work"
       ],
       "optionReasons": {
-        "neck-mcq-16": "本句指「深陷於；忙到不可開交」。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。"
+        "neck-mcq-16": "本句的「up to my neck in work」指「深陷於；忙到不可開交」。",
+        "neck-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-16"
     },
@@ -1649,11 +1501,9 @@ export default {
       "masked": "They were ____.",
       "options": [
         "neck-mcq-16",
-        "neck-mcq-15",
-        "neck-mcq-17",
-        "neck-mcq-14",
-        "neck-mcq-18",
-        "neck-mcq-13"
+        "neck-mcq-13",
+        "neck-mcq-19",
+        "neck-mcq-01"
       ],
       "explanation": "本句的「up to their necks in debt」指「深陷於；忙到不可開交」。",
       "sentenceIndex": 37,
@@ -1662,12 +1512,10 @@ export default {
         "up to their necks in debt"
       ],
       "optionReasons": {
-        "neck-mcq-16": "本句指「深陷於；忙到不可開交」。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-13": "「冒險挺身而出」是「stick your neck out」的用法，與本句語境不同。"
+        "neck-mcq-16": "本句的「up to their necks in debt」指「深陷於；忙到不可開交」。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-16"
     },
@@ -1679,11 +1527,9 @@ export default {
       "masked": "The two runners were ____.",
       "options": [
         "neck-mcq-17",
-        "neck-mcq-16",
-        "neck-mcq-18",
-        "neck-mcq-15",
+        "neck-mcq-08",
         "neck-mcq-19",
-        "neck-mcq-14"
+        "neck-mcq-04"
       ],
       "explanation": "本句的「neck and neck」指「不相上下」。",
       "sentenceIndex": 38,
@@ -1692,12 +1538,10 @@ export default {
         "neck and neck"
       ],
       "optionReasons": {
-        "neck-mcq-17": "本句指「不相上下」。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。"
+        "neck-mcq-17": "本句的「neck and neck」指「不相上下」。",
+        "neck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-17"
     },
@@ -1709,11 +1553,9 @@ export default {
       "masked": "The two teams remained ____ until the end.",
       "options": [
         "neck-mcq-17",
-        "neck-mcq-16",
-        "neck-mcq-18",
-        "neck-mcq-15",
-        "neck-mcq-19",
-        "neck-mcq-14"
+        "neck-mcq-03",
+        "neck-mcq-06",
+        "neck-mcq-11"
       ],
       "explanation": "本句的「neck and neck」指「不相上下」。",
       "sentenceIndex": 39,
@@ -1722,12 +1564,10 @@ export default {
         "neck and neck"
       ],
       "optionReasons": {
-        "neck-mcq-17": "本句指「不相上下」。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-14": "「冒大險」是「risk your neck」的用法，與本句語境不同。"
+        "neck-mcq-17": "本句的「neck and neck」指「不相上下」。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-17"
     },
@@ -1739,11 +1579,9 @@ export default {
       "masked": "What brings you to this ____?",
       "options": [
         "neck-mcq-18",
-        "neck-mcq-17",
         "neck-mcq-19",
-        "neck-mcq-16",
-        "neck-mcq-20",
-        "neck-mcq-15"
+        "neck-mcq-14",
+        "neck-mcq-03"
       ],
       "explanation": "本句的「neck of the woods」指「某個地區／一帶」。",
       "sentenceIndex": 40,
@@ -1752,12 +1590,10 @@ export default {
         "neck of the woods"
       ],
       "optionReasons": {
-        "neck-mcq-18": "本句指「某個地區／一帶」。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。"
+        "neck-mcq-18": "本句的「neck of the woods」指「某個地區／一帶」。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-18"
     },
@@ -1769,11 +1605,9 @@ export default {
       "masked": "There aren't many restaurants in this ____.",
       "options": [
         "neck-mcq-18",
-        "neck-mcq-17",
-        "neck-mcq-19",
-        "neck-mcq-16",
-        "neck-mcq-20",
-        "neck-mcq-15"
+        "neck-mcq-09",
+        "neck-mcq-01",
+        "neck-mcq-22"
       ],
       "explanation": "本句的「neck of the woods」指「某個地區／一帶」。",
       "sentenceIndex": 41,
@@ -1782,12 +1616,10 @@ export default {
         "neck of the woods"
       ],
       "optionReasons": {
-        "neck-mcq-18": "本句指「某個地區／一帶」。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-15": "「救某人一把」是「save someone's neck」的用法，與本句語境不同。"
+        "neck-mcq-18": "本句的「neck of the woods」指「某個地區／一帶」。",
+        "neck-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-18"
     },
@@ -1799,11 +1631,9 @@ export default {
       "masked": "I'll ____ if I'm late again.",
       "options": [
         "neck-mcq-19",
-        "neck-mcq-18",
         "neck-mcq-20",
-        "neck-mcq-17",
-        "neck-mcq-21",
-        "neck-mcq-16"
+        "neck-mcq-02",
+        "neck-mcq-06"
       ],
       "explanation": "本句的「get it in the neck」指「被責罵／受罰」。",
       "sentenceIndex": 42,
@@ -1812,12 +1642,10 @@ export default {
         "get it in the neck"
       ],
       "optionReasons": {
-        "neck-mcq-19": "本句指「被責罵／受罰」。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。"
+        "neck-mcq-19": "本句的「get it in the neck」指「被責罵／受罰」。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-19"
     },
@@ -1829,11 +1657,9 @@ export default {
       "masked": "He ____ for the mistake.",
       "options": [
         "neck-mcq-19",
-        "neck-mcq-18",
-        "neck-mcq-20",
-        "neck-mcq-17",
-        "neck-mcq-21",
-        "neck-mcq-16"
+        "neck-mcq-13",
+        "neck-mcq-06",
+        "neck-mcq-20"
       ],
       "explanation": "本句的「got it in the neck」指「被責罵／受罰」。",
       "sentenceIndex": 43,
@@ -1842,12 +1668,10 @@ export default {
         "got it in the neck"
       ],
       "optionReasons": {
-        "neck-mcq-19": "本句指「被責罵／受罰」。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-16": "「深陷於；忙到不可開交」是「up to your neck in」的用法，與本句語境不同。"
+        "neck-mcq-19": "本句的「got it in the neck」指「被責罵／受罰」。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-19"
     },
@@ -1859,11 +1683,9 @@ export default {
       "masked": "I ____ on time.",
       "options": [
         "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-21",
-        "neck-mcq-18",
         "neck-mcq-22",
-        "neck-mcq-17"
+        "neck-mcq-12",
+        "neck-mcq-19"
       ],
       "explanation": "本句的「broke my neck to finish the report」指「拼命做……」。",
       "sentenceIndex": 44,
@@ -1872,12 +1694,10 @@ export default {
         "broke my neck to finish the report"
       ],
       "optionReasons": {
-        "neck-mcq-20": "本句指「拼命做……」。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-22": "「親熱；擁吻」是「necking」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。"
+        "neck-mcq-20": "本句的「broke my neck to finish the report」指「拼命做……」。",
+        "neck-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-20"
     },
@@ -1889,11 +1709,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-21",
-        "neck-mcq-18",
-        "neck-mcq-22",
-        "neck-mcq-17"
+        "neck-mcq-13",
+        "neck-mcq-23",
+        "neck-mcq-07"
       ],
       "explanation": "本句的「break your neck trying to impress everyone」指「拼命做……」。",
       "sentenceIndex": 45,
@@ -1902,12 +1720,10 @@ export default {
         "break your neck trying to impress everyone"
       ],
       "optionReasons": {
-        "neck-mcq-20": "本句指「拼命做……」。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。",
-        "neck-mcq-22": "「親熱；擁吻」是「necking」的用法，與本句語境不同。",
-        "neck-mcq-17": "「不相上下」是「neck and neck」的用法，與本句語境不同。"
+        "neck-mcq-20": "本句的「break your neck trying to impress everyone」指「拼命做……」。",
+        "neck-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-20"
     },
@@ -1919,11 +1735,9 @@ export default {
       "masked": "The couple were ____ in the back row.",
       "options": [
         "neck-mcq-22",
-        "neck-mcq-21",
-        "neck-mcq-23",
-        "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-14",
+        "neck-mcq-04",
+        "neck-mcq-20"
       ],
       "explanation": "本句的「necking」指「親熱；擁吻」。",
       "sentenceIndex": 46,
@@ -1932,12 +1746,10 @@ export default {
         "necking"
       ],
       "optionReasons": {
-        "neck-mcq-22": "本句指「親熱；擁吻」。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-23": "「物件中像頸一樣較窄、連接兩部分的位置」是「4. neck（瓶頸／細長部分） — 頸部；細窄部分」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-22": "本句的「necking」指「親熱；擁吻」。",
+        "neck-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-22"
     },
@@ -1949,11 +1761,9 @@ export default {
       "masked": "They spent the evening ____ in the car.",
       "options": [
         "neck-mcq-22",
-        "neck-mcq-21",
-        "neck-mcq-23",
-        "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-04",
+        "neck-mcq-08",
+        "neck-mcq-16"
       ],
       "explanation": "本句的「necking」指「親熱；擁吻」。",
       "sentenceIndex": 47,
@@ -1962,12 +1772,10 @@ export default {
         "necking"
       ],
       "optionReasons": {
-        "neck-mcq-22": "本句指「親熱；擁吻」。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-23": "「物件中像頸一樣較窄、連接兩部分的位置」是「4. neck（瓶頸／細長部分） — 頸部；細窄部分」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-22": "本句的「necking」指「親熱；擁吻」。",
+        "neck-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-22"
     },
@@ -1979,11 +1787,9 @@ export default {
       "masked": "The old film used the word ____ for kissing and cuddling.",
       "options": [
         "neck-mcq-22",
-        "neck-mcq-21",
-        "neck-mcq-23",
-        "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-11",
+        "neck-mcq-17",
+        "neck-mcq-20"
       ],
       "explanation": "本句的「necking」指「親熱；擁吻」。",
       "sentenceIndex": 48,
@@ -1992,12 +1798,10 @@ export default {
         "necking"
       ],
       "optionReasons": {
-        "neck-mcq-22": "本句指「親熱；擁吻」。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-23": "「物件中像頸一樣較窄、連接兩部分的位置」是「4. neck（瓶頸／細長部分） — 頸部；細窄部分」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-22": "本句的「necking」指「親熱；擁吻」。",
+        "neck-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-22"
     },
@@ -2009,11 +1813,9 @@ export default {
       "masked": "The term ____ can sound old-fashioned today.",
       "options": [
         "neck-mcq-22",
-        "neck-mcq-21",
-        "neck-mcq-23",
         "neck-mcq-20",
-        "neck-mcq-19",
-        "neck-mcq-18"
+        "neck-mcq-01",
+        "neck-mcq-08"
       ],
       "explanation": "本句的「necking」指「親熱；擁吻」。",
       "sentenceIndex": 49,
@@ -2022,12 +1824,10 @@ export default {
         "necking"
       ],
       "optionReasons": {
-        "neck-mcq-22": "本句指「親熱；擁吻」。",
-        "neck-mcq-21": "「親熱接吻」是「neck (verb)」的用法，與本句語境不同。",
-        "neck-mcq-23": "「物件中像頸一樣較窄、連接兩部分的位置」是「4. neck（瓶頸／細長部分） — 頸部；細窄部分」的用法，與本句語境不同。",
-        "neck-mcq-20": "「拼命做……」是「break your neck to」的用法，與本句語境不同。",
-        "neck-mcq-19": "「被責罵／受罰」是「get it in the neck」的用法，與本句語境不同。",
-        "neck-mcq-18": "「某個地區／一帶」是「neck of the woods」的用法，與本句語境不同。"
+        "neck-mcq-22": "本句的「necking」指「親熱；擁吻」。",
+        "neck-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "neck-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neck-mcq-22"
     }
@@ -2039,5 +1839,7 @@ export default {
     "sha256": "ca0b5b0b671c0b5cf1df8f9739a08ce1345a1e1c2ea9c0e3b0af8d27b59a14ff",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

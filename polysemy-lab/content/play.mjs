@@ -911,11 +911,9 @@ export default {
       "masked": "He can spend hours ____.",
       "options": [
         "play-mcq-01",
-        "play-mcq-02",
-        "play-mcq-03",
-        "play-mcq-04",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-20",
+        "play-mcq-34",
+        "play-mcq-32"
       ],
       "explanation": "本句的「playing with Lego」指「為了娛樂、樂趣或消遣而進行活動」。",
       "sentenceIndex": 0,
@@ -924,12 +922,10 @@ export default {
         "playing with Lego"
       ],
       "optionReasons": {
-        "play-mcq-01": "本句指「為了娛樂、樂趣或消遣而進行活動」。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-01": "本句的「playing with Lego」指「為了娛樂、樂趣或消遣而進行活動」。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-01"
     },
@@ -941,11 +937,9 @@ export default {
       "masked": "The children are ____ outside.",
       "options": [
         "play-mcq-01",
-        "play-mcq-02",
-        "play-mcq-03",
-        "play-mcq-04",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-23",
+        "play-mcq-06",
+        "play-mcq-18"
       ],
       "explanation": "本句的「playing」指「為了娛樂、樂趣或消遣而進行活動」。",
       "sentenceIndex": 1,
@@ -954,12 +948,10 @@ export default {
         "playing"
       ],
       "optionReasons": {
-        "play-mcq-01": "本句指「為了娛樂、樂趣或消遣而進行活動」。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-01": "本句的「playing」指「為了娛樂、樂趣或消遣而進行活動」。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-01"
     },
@@ -971,11 +963,9 @@ export default {
       "masked": "Leo loves to ____ after school.",
       "options": [
         "play-mcq-01",
-        "play-mcq-02",
-        "play-mcq-03",
-        "play-mcq-04",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-36",
+        "play-pdf-002",
+        "play-mcq-20"
       ],
       "explanation": "本句的「play」指「為了娛樂、樂趣或消遣而進行活動」。",
       "sentenceIndex": 2,
@@ -984,12 +974,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-01": "本句指「為了娛樂、樂趣或消遣而進行活動」。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-01": "本句的「play」指「為了娛樂、樂趣或消遣而進行活動」。",
+        "play-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-01"
     },
@@ -1001,11 +989,9 @@ export default {
       "masked": "She was ____ a toy car.",
       "options": [
         "play-mcq-02",
-        "play-mcq-01",
-        "play-mcq-03",
-        "play-mcq-04",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-22",
+        "play-mcq-36",
+        "play-mcq-11"
       ],
       "explanation": "本句的「playing with」指「把某物當作娛樂、遊戲或想像活動的一部分」。",
       "sentenceIndex": 3,
@@ -1014,12 +1000,10 @@ export default {
         "playing with"
       ],
       "optionReasons": {
-        "play-mcq-02": "本句指「把某物當作娛樂、遊戲或想像活動的一部分」。",
-        "play-mcq-01": "「為了娛樂、樂趣或消遣而進行活動」是「play — recreational activity」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-02": "本句的「playing with」指「把某物當作娛樂、遊戲或想像活動的一部分」。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-02"
     },
@@ -1031,11 +1015,9 @@ export default {
       "masked": "The child likes ____ blocks.",
       "options": [
         "play-mcq-02",
-        "play-mcq-01",
-        "play-mcq-03",
-        "play-mcq-04",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-35",
+        "play-mcq-37",
+        "play-mcq-32"
       ],
       "explanation": "本句的「playing with」指「把某物當作娛樂、遊戲或想像活動的一部分」。",
       "sentenceIndex": 4,
@@ -1044,12 +1026,10 @@ export default {
         "playing with"
       ],
       "optionReasons": {
-        "play-mcq-02": "本句指「把某物當作娛樂、遊戲或想像活動的一部分」。",
-        "play-mcq-01": "「為了娛樂、樂趣或消遣而進行活動」是「play — recreational activity」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-02": "本句的「playing with」指「把某物當作娛樂、遊戲或想像活動的一部分」。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-02"
     },
@@ -1061,11 +1041,9 @@ export default {
       "masked": "He likes ____ his cousins.",
       "options": [
         "play-mcq-03",
-        "play-mcq-02",
-        "play-mcq-04",
-        "play-mcq-01",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-21",
+        "play-mcq-09",
+        "play-mcq-28"
       ],
       "explanation": "本句的「playing with」指「與某人一起玩耍／進行遊戲活動」。",
       "sentenceIndex": 5,
@@ -1074,12 +1052,10 @@ export default {
         "playing with"
       ],
       "optionReasons": {
-        "play-mcq-03": "本句指「與某人一起玩耍／進行遊戲活動」。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-01": "「為了娛樂、樂趣或消遣而進行活動」是「play — recreational activity」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-03": "本句的「playing with」指「與某人一起玩耍／進行遊戲活動」。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-03"
     },
@@ -1091,11 +1067,9 @@ export default {
       "masked": "The younger child asked Leo to ____ him.",
       "options": [
         "play-mcq-03",
-        "play-mcq-02",
-        "play-mcq-04",
-        "play-mcq-01",
-        "play-mcq-05",
-        "play-mcq-06"
+        "play-mcq-22",
+        "play-pdf-001",
+        "play-mcq-09"
       ],
       "explanation": "本句的「play with」指「與某人一起玩耍／進行遊戲活動」。",
       "sentenceIndex": 6,
@@ -1104,12 +1078,10 @@ export default {
         "play with"
       ],
       "optionReasons": {
-        "play-mcq-03": "本句指「與某人一起玩耍／進行遊戲活動」。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-01": "「為了娛樂、樂趣或消遣而進行活動」是「play — recreational activity」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-03": "本句的「play with」指「與某人一起玩耍／進行遊戲活動」。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-03"
     },
@@ -1121,11 +1093,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "play-mcq-04",
-        "play-mcq-03",
-        "play-mcq-05",
-        "play-mcq-02",
+        "play-mcq-33",
         "play-mcq-06",
-        "play-mcq-01"
+        "play-mcq-32"
       ],
       "explanation": "本句的「play a game」指「參與有規則或娛樂目的的遊戲」。",
       "sentenceIndex": 7,
@@ -1134,12 +1104,10 @@ export default {
         "play a game"
       ],
       "optionReasons": {
-        "play-mcq-04": "本句指「參與有規則或娛樂目的的遊戲」。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-01": "「為了娛樂、樂趣或消遣而進行活動」是「play — recreational activity」的用法，與本句語境不同。"
+        "play-mcq-04": "本句的「play a game」指「參與有規則或娛樂目的的遊戲」。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-04"
     },
@@ -1151,11 +1119,9 @@ export default {
       "masked": "They ____ a board game after dinner.",
       "options": [
         "play-mcq-04",
-        "play-mcq-03",
-        "play-mcq-05",
-        "play-mcq-02",
-        "play-mcq-06",
-        "play-mcq-01"
+        "play-mcq-21",
+        "play-mcq-33",
+        "play-mcq-22"
       ],
       "explanation": "本句的「played」指「參與有規則或娛樂目的的遊戲」。",
       "sentenceIndex": 8,
@@ -1164,12 +1130,10 @@ export default {
         "played"
       ],
       "optionReasons": {
-        "play-mcq-04": "本句指「參與有規則或娛樂目的的遊戲」。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-01": "「為了娛樂、樂趣或消遣而進行活動」是「play — recreational activity」的用法，與本句語境不同。"
+        "play-mcq-04": "本句的「played」指「參與有規則或娛樂目的的遊戲」。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-04"
     },
@@ -1181,11 +1145,9 @@ export default {
       "masked": "He ____ every weekend.",
       "options": [
         "play-mcq-05",
-        "play-mcq-04",
-        "play-mcq-06",
-        "play-mcq-03",
-        "play-mcq-07",
-        "play-mcq-02"
+        "play-mcq-31",
+        "play-mcq-33",
+        "play-mcq-14"
       ],
       "explanation": "本句的「plays football」指「參與某項球類或遊戲型運動」。",
       "sentenceIndex": 9,
@@ -1194,12 +1156,10 @@ export default {
         "plays football"
       ],
       "optionReasons": {
-        "play-mcq-05": "本句指「參與某項球類或遊戲型運動」。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。"
+        "play-mcq-05": "本句的「plays football」指「參與某項球類或遊戲型運動」。",
+        "play-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-05"
     },
@@ -1211,11 +1171,9 @@ export default {
       "masked": "She ____ at school.",
       "options": [
         "play-mcq-05",
-        "play-mcq-04",
-        "play-mcq-06",
-        "play-mcq-03",
-        "play-mcq-07",
-        "play-mcq-02"
+        "play-mcq-37",
+        "play-mcq-35",
+        "play-mcq-09"
       ],
       "explanation": "本句的「plays tennis」指「參與某項球類或遊戲型運動」。",
       "sentenceIndex": 10,
@@ -1224,12 +1182,10 @@ export default {
         "plays tennis"
       ],
       "optionReasons": {
-        "play-mcq-05": "本句指「參與某項球類或遊戲型運動」。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-02": "「把某物當作娛樂、遊戲或想像活動的一部分」是「play with a toy/object」的用法，與本句語境不同。"
+        "play-mcq-05": "本句的「plays tennis」指「參與某項球類或遊戲型運動」。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-05"
     },
@@ -1241,11 +1197,9 @@ export default {
       "masked": "Our team ____ theirs tomorrow.",
       "options": [
         "play-mcq-06",
-        "play-mcq-05",
-        "play-mcq-07",
-        "play-mcq-04",
-        "play-mcq-08",
-        "play-mcq-03"
+        "play-mcq-14",
+        "play-mcq-37",
+        "play-mcq-38"
       ],
       "explanation": "本句的「plays」指「在比賽中與某人／某隊對抗」。",
       "sentenceIndex": 11,
@@ -1254,12 +1208,10 @@ export default {
         "plays"
       ],
       "optionReasons": {
-        "play-mcq-06": "本句指「在比賽中與某人／某隊對抗」。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。"
+        "play-mcq-06": "本句的「plays」指「在比賽中與某人／某隊對抗」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-06"
     },
@@ -1271,11 +1223,9 @@ export default {
       "masked": "Who are you ____ this weekend?",
       "options": [
         "play-mcq-06",
-        "play-mcq-05",
-        "play-mcq-07",
-        "play-mcq-04",
-        "play-mcq-08",
-        "play-mcq-03"
+        "play-mcq-14",
+        "play-mcq-21",
+        "play-mcq-34"
       ],
       "explanation": "本句的「playing」指「在比賽中與某人／某隊對抗」。",
       "sentenceIndex": 12,
@@ -1284,12 +1234,10 @@ export default {
         "playing"
       ],
       "optionReasons": {
-        "play-mcq-06": "本句指「在比賽中與某人／某隊對抗」。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-03": "「與某人一起玩耍／進行遊戲活動」是「play with someone」的用法，與本句語境不同。"
+        "play-mcq-06": "本句的「playing」指「在比賽中與某人／某隊對抗」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-06"
     },
@@ -1301,11 +1249,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "play-mcq-07",
-        "play-mcq-06",
-        "play-mcq-08",
-        "play-mcq-05",
-        "play-mcq-09",
-        "play-mcq-04"
+        "play-mcq-34",
+        "play-mcq-21",
+        "play-mcq-22"
       ],
       "explanation": "本句的「plays the piano」指「用樂器演奏音樂」。",
       "sentenceIndex": 13,
@@ -1314,12 +1260,10 @@ export default {
         "plays the piano"
       ],
       "optionReasons": {
-        "play-mcq-07": "本句指「用樂器演奏音樂」。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。"
+        "play-mcq-07": "本句的「plays the piano」指「用樂器演奏音樂」。",
+        "play-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-07"
     },
@@ -1331,11 +1275,9 @@ export default {
       "masked": "He ____ the guitar at the party.",
       "options": [
         "play-mcq-07",
-        "play-mcq-06",
-        "play-mcq-08",
-        "play-mcq-05",
-        "play-mcq-09",
-        "play-mcq-04"
+        "play-pdf-002",
+        "play-mcq-37",
+        "play-mcq-16"
       ],
       "explanation": "本句的「played」指「用樂器演奏音樂」。",
       "sentenceIndex": 14,
@@ -1344,12 +1286,10 @@ export default {
         "played"
       ],
       "optionReasons": {
-        "play-mcq-07": "本句指「用樂器演奏音樂」。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-04": "「參與有規則或娛樂目的的遊戲」是「play a game」的用法，與本句語境不同。"
+        "play-mcq-07": "本句的「played」指「用樂器演奏音樂」。",
+        "play-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-07"
     },
@@ -1361,11 +1301,9 @@ export default {
       "masked": "Can you ____ the song again?",
       "options": [
         "play-mcq-09",
-        "play-mcq-08",
-        "play-mcq-10",
-        "play-mcq-07",
-        "play-mcq-11",
-        "play-mcq-06"
+        "play-mcq-20",
+        "play-mcq-24",
+        "play-mcq-05"
       ],
       "explanation": "本句的「play」指「使錄音、影片或數碼內容開始播放」。",
       "sentenceIndex": 15,
@@ -1374,12 +1312,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-09": "本句指「使錄音、影片或數碼內容開始播放」。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-09": "本句的「play」指「使錄音、影片或數碼內容開始播放」。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-09"
     },
@@ -1391,11 +1327,9 @@ export default {
       "masked": "The video won’t ____.",
       "options": [
         "play-mcq-09",
-        "play-mcq-08",
-        "play-mcq-10",
-        "play-mcq-07",
-        "play-mcq-11",
-        "play-mcq-06"
+        "play-mcq-01",
+        "play-mcq-29",
+        "play-mcq-23"
       ],
       "explanation": "本句的「play」指「使錄音、影片或數碼內容開始播放」。",
       "sentenceIndex": 16,
@@ -1404,12 +1338,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-09": "本句指「使錄音、影片或數碼內容開始播放」。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。"
+        "play-mcq-09": "本句的「play」指「使錄音、影片或數碼內容開始播放」。",
+        "play-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-09"
     },
@@ -1421,11 +1353,9 @@ export default {
       "masked": "The band ____ my favourite song.",
       "options": [
         "play-pdf-001",
-        "play-mcq-07",
-        "play-mcq-09",
-        "play-mcq-06",
-        "play-mcq-10",
-        "play-mcq-05"
+        "play-mcq-32",
+        "play-mcq-21",
+        "play-mcq-19"
       ],
       "explanation": "本句的「played」指「演奏某首樂曲／歌曲」。",
       "sentenceIndex": 17,
@@ -1434,12 +1364,10 @@ export default {
         "played"
       ],
       "optionReasons": {
-        "play-pdf-001": "本句指「演奏某首樂曲／歌曲」。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。"
+        "play-pdf-001": "本句的「played」指「演奏某首樂曲／歌曲」。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-pdf-001"
     },
@@ -1451,11 +1379,9 @@ export default {
       "masked": "She ____ a short piece on the piano.",
       "options": [
         "play-pdf-001",
-        "play-mcq-07",
-        "play-mcq-09",
-        "play-mcq-06",
-        "play-mcq-10",
-        "play-mcq-05"
+        "play-mcq-14",
+        "play-mcq-13",
+        "play-pdf-002"
       ],
       "explanation": "本句的「played」指「演奏某首樂曲／歌曲」。",
       "sentenceIndex": 18,
@@ -1464,12 +1390,10 @@ export default {
         "played"
       ],
       "optionReasons": {
-        "play-pdf-001": "本句指「演奏某首樂曲／歌曲」。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-06": "「在比賽中與某人／某隊對抗」是「play an opponent」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-05": "「參與某項球類或遊戲型運動」是「play a sport」的用法，與本句語境不同。"
+        "play-pdf-001": "本句的「played」指「演奏某首樂曲／歌曲」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-pdf-001"
     },
@@ -1481,11 +1405,9 @@ export default {
       "masked": "She ____ the queen in the school play.",
       "options": [
         "play-mcq-10",
-        "play-mcq-09",
-        "play-mcq-11",
-        "play-mcq-08",
-        "play-mcq-12",
-        "play-mcq-07"
+        "play-mcq-34",
+        "play-mcq-18",
+        "play-mcq-13"
       ],
       "explanation": "本句的「played」指「在戲劇、電影或表演中扮演某人物」。",
       "sentenceIndex": 19,
@@ -1494,12 +1416,10 @@ export default {
         "played"
       ],
       "optionReasons": {
-        "play-mcq-10": "本句指「在戲劇、電影或表演中扮演某人物」。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。"
+        "play-mcq-10": "本句的「played」指「在戲劇、電影或表演中扮演某人物」。",
+        "play-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-10"
     },
@@ -1511,11 +1431,9 @@ export default {
       "masked": "He ____ a doctor in the film.",
       "options": [
         "play-mcq-10",
-        "play-mcq-09",
-        "play-mcq-11",
-        "play-mcq-08",
-        "play-mcq-12",
-        "play-mcq-07"
+        "play-mcq-18",
+        "play-mcq-23",
+        "play-mcq-35"
       ],
       "explanation": "本句的「plays」指「在戲劇、電影或表演中扮演某人物」。",
       "sentenceIndex": 20,
@@ -1524,12 +1442,10 @@ export default {
         "plays"
       ],
       "optionReasons": {
-        "play-mcq-10": "本句指「在戲劇、電影或表演中扮演某人物」。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-07": "「用樂器演奏音樂」是「play an instrument」的用法，與本句語境不同。"
+        "play-mcq-10": "本句的「plays」指「在戲劇、電影或表演中扮演某人物」。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-10"
     },
@@ -1541,11 +1457,9 @@ export default {
       "masked": "Parents ____ in a child’s development.",
       "options": [
         "play-mcq-11",
-        "play-mcq-10",
-        "play-mcq-12",
-        "play-mcq-09",
-        "play-mcq-13",
-        "play-mcq-08"
+        "play-mcq-29",
+        "play-mcq-15",
+        "play-mcq-24"
       ],
       "explanation": "本句的「play an important role」指「在某件事中具有某種功能、影響或重要性」。",
       "sentenceIndex": 21,
@@ -1554,12 +1468,10 @@ export default {
         "play an important role"
       ],
       "optionReasons": {
-        "play-mcq-11": "本句指「在某件事中具有某種功能、影響或重要性」。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。"
+        "play-mcq-11": "本句的「play an important role」指「在某件事中具有某種功能、影響或重要性」。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-11"
     },
@@ -1571,11 +1483,9 @@ export default {
       "masked": "Luck ____ in the result.",
       "options": [
         "play-mcq-11",
-        "play-mcq-10",
-        "play-mcq-12",
-        "play-mcq-09",
-        "play-mcq-13",
-        "play-mcq-08"
+        "play-mcq-25",
+        "play-mcq-01",
+        "play-mcq-37"
       ],
       "explanation": "本句的「played a part」指「在某件事中具有某種功能、影響或重要性」。",
       "sentenceIndex": 22,
@@ -1584,12 +1494,10 @@ export default {
         "played a part"
       ],
       "optionReasons": {
-        "play-mcq-11": "本句指「在某件事中具有某種功能、影響或重要性」。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-08": "「演奏音樂，或使錄音開始播放；依語境判斷」是「play music/song」的用法，與本句語境不同。"
+        "play-mcq-11": "本句的「played a part」指「在某件事中具有某種功能、影響或重要性」。",
+        "play-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-11"
     },
@@ -1601,11 +1509,9 @@ export default {
       "masked": "The children ____ astronauts.",
       "options": [
         "play-mcq-12",
-        "play-mcq-11",
-        "play-mcq-13",
-        "play-mcq-10",
-        "play-mcq-14",
-        "play-mcq-09"
+        "play-mcq-26",
+        "play-mcq-18",
+        "play-mcq-23"
       ],
       "explanation": "本句的「played」指「在想像遊戲中假裝自己是某種人物／處於某情境」。",
       "sentenceIndex": 23,
@@ -1614,12 +1520,10 @@ export default {
         "played"
       ],
       "optionReasons": {
-        "play-mcq-12": "本句指「在想像遊戲中假裝自己是某種人物／處於某情境」。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。"
+        "play-mcq-12": "本句的「played」指「在想像遊戲中假裝自己是某種人物／處於某情境」。",
+        "play-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-12"
     },
@@ -1631,11 +1535,9 @@ export default {
       "masked": "They were ____ doctors.",
       "options": [
         "play-mcq-12",
-        "play-mcq-11",
         "play-mcq-13",
-        "play-mcq-10",
-        "play-mcq-14",
-        "play-mcq-09"
+        "play-pdf-001",
+        "play-mcq-28"
       ],
       "explanation": "本句的「playing」指「在想像遊戲中假裝自己是某種人物／處於某情境」。",
       "sentenceIndex": 24,
@@ -1644,12 +1546,10 @@ export default {
         "playing"
       ],
       "optionReasons": {
-        "play-mcq-12": "本句指「在想像遊戲中假裝自己是某種人物／處於某情境」。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-09": "「使錄音、影片或數碼內容開始播放」是「play media」的用法，與本句語境不同。"
+        "play-mcq-12": "本句的「playing」指「在想像遊戲中假裝自己是某種人物／處於某情境」。",
+        "play-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-12"
     },
@@ -1663,9 +1563,7 @@ export default {
         "play-mcq-13",
         "play-mcq-12",
         "play-mcq-14",
-        "play-mcq-11",
-        "play-mcq-15",
-        "play-mcq-10"
+        "play-mcq-30"
       ],
       "explanation": "本句的「played with」指「沒有明確目的地反覆碰、擺弄或移動某物」。",
       "sentenceIndex": 25,
@@ -1674,12 +1572,10 @@ export default {
         "played with"
       ],
       "optionReasons": {
-        "play-mcq-13": "本句指「沒有明確目的地反覆碰、擺弄或移動某物」。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。"
+        "play-mcq-13": "本句的「played with」指「沒有明確目的地反覆碰、擺弄或移動某物」。",
+        "play-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-13"
     },
@@ -1691,11 +1587,9 @@ export default {
       "masked": "She nervously ____ her hair.",
       "options": [
         "play-mcq-13",
-        "play-mcq-12",
-        "play-mcq-14",
-        "play-mcq-11",
-        "play-mcq-15",
-        "play-mcq-10"
+        "play-mcq-21",
+        "play-mcq-07",
+        "play-mcq-32"
       ],
       "explanation": "本句的「played with」指「沒有明確目的地反覆碰、擺弄或移動某物」。",
       "sentenceIndex": 26,
@@ -1704,12 +1598,10 @@ export default {
         "played with"
       ],
       "optionReasons": {
-        "play-mcq-13": "本句指「沒有明確目的地反覆碰、擺弄或移動某物」。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-10": "「在戲劇、電影或表演中扮演某人物」是「play a character」的用法，與本句語境不同。"
+        "play-mcq-13": "本句的「played with」指「沒有明確目的地反覆碰、擺弄或移動某物」。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-13"
     },
@@ -1721,11 +1613,9 @@ export default {
       "masked": "We are ____ of moving.",
       "options": [
         "play-mcq-14",
-        "play-mcq-13",
-        "play-mcq-15",
-        "play-mcq-12",
-        "play-mcq-16",
-        "play-mcq-11"
+        "play-mcq-38",
+        "play-mcq-06",
+        "play-mcq-34"
       ],
       "explanation": "本句的「playing with the idea」指「暫時、靈活地考慮或試驗某個想法」。",
       "sentenceIndex": 27,
@@ -1734,12 +1624,10 @@ export default {
         "playing with the idea"
       ],
       "optionReasons": {
-        "play-mcq-14": "本句指「暫時、靈活地考慮或試驗某個想法」。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。"
+        "play-mcq-14": "本句的「playing with the idea」指「暫時、靈活地考慮或試驗某個想法」。",
+        "play-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-14"
     },
@@ -1751,11 +1639,9 @@ export default {
       "masked": "The designer ____ several different concepts.",
       "options": [
         "play-mcq-14",
-        "play-mcq-13",
-        "play-mcq-15",
-        "play-mcq-12",
-        "play-mcq-16",
-        "play-mcq-11"
+        "play-mcq-11",
+        "play-pdf-001",
+        "play-mcq-32"
       ],
       "explanation": "本句的「played with」指「暫時、靈活地考慮或試驗某個想法」。",
       "sentenceIndex": 28,
@@ -1764,12 +1650,10 @@ export default {
         "played with"
       ],
       "optionReasons": {
-        "play-mcq-14": "本句指「暫時、靈活地考慮或試驗某個想法」。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-11": "「在某件事中具有某種功能、影響或重要性」是「play a role/part」的用法，與本句語境不同。"
+        "play-mcq-14": "本句的「played with」指「暫時、靈活地考慮或試驗某個想法」。",
+        "play-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-14"
     },
@@ -1781,11 +1665,9 @@ export default {
       "masked": "The poet likes to ____.",
       "options": [
         "play-mcq-15",
-        "play-mcq-14",
-        "play-mcq-16",
-        "play-mcq-13",
-        "play-mcq-17",
-        "play-mcq-12"
+        "play-mcq-06",
+        "play-mcq-34",
+        "play-mcq-30"
       ],
       "explanation": "本句的「play with words」指「有創意地運用文字、意思、聲音或雙關」。",
       "sentenceIndex": 29,
@@ -1794,12 +1676,10 @@ export default {
         "play with words"
       ],
       "optionReasons": {
-        "play-mcq-15": "本句指「有創意地運用文字、意思、聲音或雙關」。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。"
+        "play-mcq-15": "本句的「play with words」指「有創意地運用文字、意思、聲音或雙關」。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-15"
     },
@@ -1811,11 +1691,9 @@ export default {
       "masked": "The advertisement ____ in a clever way.",
       "options": [
         "play-mcq-15",
-        "play-mcq-14",
-        "play-mcq-16",
-        "play-mcq-13",
-        "play-mcq-17",
-        "play-mcq-12"
+        "play-mcq-06",
+        "play-mcq-27",
+        "play-mcq-04"
       ],
       "explanation": "本句的「plays with language」指「有創意地運用文字、意思、聲音或雙關」。",
       "sentenceIndex": 30,
@@ -1824,12 +1702,10 @@ export default {
         "plays with language"
       ],
       "optionReasons": {
-        "play-mcq-15": "本句指「有創意地運用文字、意思、聲音或雙關」。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-12": "「在想像遊戲中假裝自己是某種人物／處於某情境」是「play — make-believe」的用法，與本句語境不同。"
+        "play-mcq-15": "本句的「plays with language」指「有創意地運用文字、意思、聲音或雙關」。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-15"
     },
@@ -1841,11 +1717,9 @@ export default {
       "masked": "The children ____ their teacher.",
       "options": [
         "play-mcq-16",
-        "play-mcq-15",
-        "play-mcq-17",
-        "play-mcq-14",
-        "play-mcq-18",
-        "play-mcq-13"
+        "play-mcq-22",
+        "play-mcq-07",
+        "play-mcq-37"
       ],
       "explanation": "本句的「played a trick on」指「以小把戲或欺騙方式捉弄某人」。",
       "sentenceIndex": 31,
@@ -1854,12 +1728,10 @@ export default {
         "played a trick on"
       ],
       "optionReasons": {
-        "play-mcq-16": "本句指「以小把戲或欺騙方式捉弄某人」。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。"
+        "play-mcq-16": "本句的「played a trick on」指「以小把戲或欺騙方式捉弄某人」。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-16"
     },
@@ -1871,11 +1743,9 @@ export default {
       "masked": "Someone ____ him.",
       "options": [
         "play-mcq-16",
-        "play-mcq-15",
-        "play-mcq-17",
-        "play-mcq-14",
-        "play-mcq-18",
-        "play-mcq-13"
+        "play-mcq-37",
+        "play-mcq-28",
+        "play-mcq-18"
       ],
       "explanation": "本句的「played a joke on」指「以小把戲或欺騙方式捉弄某人」。",
       "sentenceIndex": 32,
@@ -1884,12 +1754,10 @@ export default {
         "played a joke on"
       ],
       "optionReasons": {
-        "play-mcq-16": "本句指「以小把戲或欺騙方式捉弄某人」。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-13": "「沒有明確目的地反覆碰、擺弄或移動某物」是「play with something — fiddle」的用法，與本句語境不同。"
+        "play-mcq-16": "本句的「played a joke on」指「以小把戲或欺騙方式捉弄某人」。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-16"
     },
@@ -1901,11 +1769,9 @@ export default {
       "masked": "He knows how to ____.",
       "options": [
         "play-mcq-17",
-        "play-mcq-16",
-        "play-mcq-18",
-        "play-mcq-15",
-        "play-mcq-19",
-        "play-mcq-14"
+        "play-mcq-05",
+        "play-mcq-24",
+        "play-mcq-25"
       ],
       "explanation": "本句的「play the system」指「策略性操弄規則、情況或別人的反應」。",
       "sentenceIndex": 33,
@@ -1914,12 +1780,10 @@ export default {
         "play the system"
       ],
       "optionReasons": {
-        "play-mcq-17": "本句指「策略性操弄規則、情況或別人的反應」。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。"
+        "play-mcq-17": "本句的「play the system」指「策略性操弄規則、情況或別人的反應」。",
+        "play-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-17"
     },
@@ -1931,11 +1795,9 @@ export default {
       "masked": "She felt that he was ____ with her.",
       "options": [
         "play-mcq-17",
-        "play-mcq-16",
-        "play-mcq-18",
-        "play-mcq-15",
-        "play-mcq-19",
-        "play-mcq-14"
+        "play-mcq-37",
+        "play-mcq-02",
+        "play-mcq-35"
       ],
       "explanation": "本句的「playing games」指「策略性操弄規則、情況或別人的反應」。",
       "sentenceIndex": 34,
@@ -1944,12 +1806,10 @@ export default {
         "playing games"
       ],
       "optionReasons": {
-        "play-mcq-17": "本句指「策略性操弄規則、情況或別人的反應」。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-14": "「暫時、靈活地考慮或試驗某個想法」是「play with an idea」的用法，與本句語境不同。"
+        "play-mcq-17": "本句的「playing games」指「策略性操弄規則、情況或別人的反應」。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-17"
     },
@@ -1962,10 +1822,8 @@ export default {
       "options": [
         "play-mcq-18",
         "play-mcq-17",
-        "play-mcq-19",
-        "play-mcq-16",
-        "play-mcq-20",
-        "play-mcq-15"
+        "play-mcq-23",
+        "play-mcq-27"
       ],
       "explanation": "本句的「play it safe」指「選擇風險較低、較保守的做法」。",
       "sentenceIndex": 35,
@@ -1974,12 +1832,10 @@ export default {
         "play it safe"
       ],
       "optionReasons": {
-        "play-mcq-18": "本句指「選擇風險較低、較保守的做法」。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。"
+        "play-mcq-18": "本句的「play it safe」指「選擇風險較低、較保守的做法」。",
+        "play-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-18"
     },
@@ -1991,11 +1847,9 @@ export default {
       "masked": "He decided to ____.",
       "options": [
         "play-mcq-18",
-        "play-mcq-17",
-        "play-mcq-19",
-        "play-mcq-16",
-        "play-mcq-20",
-        "play-mcq-15"
+        "play-mcq-32",
+        "play-mcq-11",
+        "play-mcq-16"
       ],
       "explanation": "本句的「play it safe」指「選擇風險較低、較保守的做法」。",
       "sentenceIndex": 36,
@@ -2004,12 +1858,10 @@ export default {
         "play it safe"
       ],
       "optionReasons": {
-        "play-mcq-18": "本句指「選擇風險較低、較保守的做法」。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-15": "「有創意地運用文字、意思、聲音或雙關」是「play with words」的用法，與本句語境不同。"
+        "play-mcq-18": "本句的「play it safe」指「選擇風險較低、較保守的做法」。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-18"
     },
@@ -2021,11 +1873,9 @@ export default {
       "masked": "Everyone should ____.",
       "options": [
         "play-mcq-19",
-        "play-mcq-18",
-        "play-mcq-20",
-        "play-mcq-17",
-        "play-mcq-21",
-        "play-mcq-16"
+        "play-mcq-07",
+        "play-mcq-31",
+        "play-mcq-29"
       ],
       "explanation": "本句的「play fair」指「按公平、誠實的規則行事」。",
       "sentenceIndex": 37,
@@ -2034,12 +1884,10 @@ export default {
         "play fair"
       ],
       "optionReasons": {
-        "play-mcq-19": "本句指「按公平、誠實的規則行事」。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。"
+        "play-mcq-19": "本句的「play fair」指「按公平、誠實的規則行事」。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-19"
     },
@@ -2051,11 +1899,9 @@ export default {
       "masked": "If you want people to trust you, ____.",
       "options": [
         "play-mcq-19",
-        "play-mcq-18",
-        "play-mcq-20",
-        "play-mcq-17",
-        "play-mcq-21",
-        "play-mcq-16"
+        "play-mcq-13",
+        "play-mcq-39",
+        "play-mcq-11"
       ],
       "explanation": "本句的「play fair」指「按公平、誠實的規則行事」。",
       "sentenceIndex": 38,
@@ -2064,12 +1910,10 @@ export default {
         "play fair"
       ],
       "optionReasons": {
-        "play-mcq-19": "本句指「按公平、誠實的規則行事」。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-16": "「以小把戲或欺騙方式捉弄某人」是「play a trick on」的用法，與本句語境不同。"
+        "play-mcq-19": "本句的「play fair」指「按公平、誠實的規則行事」。",
+        "play-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-19"
     },
@@ -2081,11 +1925,9 @@ export default {
       "masked": "I knew it was a joke, but I ____.",
       "options": [
         "play-mcq-20",
-        "play-mcq-19",
-        "play-mcq-21",
-        "play-mcq-18",
-        "play-mcq-22",
-        "play-mcq-17"
+        "play-mcq-16",
+        "play-mcq-26",
+        "play-pdf-001"
       ],
       "explanation": "本句的「played along」指「暫時配合某情境、計劃或假裝」。",
       "sentenceIndex": 39,
@@ -2094,12 +1936,10 @@ export default {
         "played along"
       ],
       "optionReasons": {
-        "play-mcq-20": "本句指「暫時配合某情境、計劃或假裝」。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。"
+        "play-mcq-20": "本句的「played along」指「暫時配合某情境、計劃或假裝」。",
+        "play-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-20"
     },
@@ -2111,11 +1951,9 @@ export default {
       "masked": "She decided to ____ with the story.",
       "options": [
         "play-mcq-20",
-        "play-mcq-19",
-        "play-mcq-21",
-        "play-mcq-18",
-        "play-mcq-22",
-        "play-mcq-17"
+        "play-mcq-15",
+        "play-mcq-16",
+        "play-mcq-18"
       ],
       "explanation": "本句的「play along」指「暫時配合某情境、計劃或假裝」。",
       "sentenceIndex": 40,
@@ -2124,12 +1962,10 @@ export default {
         "play along"
       ],
       "optionReasons": {
-        "play-mcq-20": "本句指「暫時配合某情境、計劃或假裝」。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-17": "「策略性操弄規則、情況或別人的反應」是「play the system/games」的用法，與本句語境不同。"
+        "play-mcq-20": "本句的「play along」指「暫時配合某情境、計劃或假裝」。",
+        "play-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-20"
     },
@@ -2141,11 +1977,9 @@ export default {
       "masked": "The company tried to ____ the problem.",
       "options": [
         "play-mcq-21",
-        "play-mcq-20",
-        "play-mcq-22",
-        "play-mcq-19",
-        "play-mcq-23",
-        "play-mcq-18"
+        "play-mcq-24",
+        "play-mcq-30",
+        "play-mcq-09"
       ],
       "explanation": "本句的「play down」指「刻意淡化某事的重要性／嚴重性」。",
       "sentenceIndex": 41,
@@ -2154,12 +1988,10 @@ export default {
         "play down"
       ],
       "optionReasons": {
-        "play-mcq-21": "本句指「刻意淡化某事的重要性／嚴重性」。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。"
+        "play-mcq-21": "本句的「play down」指「刻意淡化某事的重要性／嚴重性」。",
+        "play-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-21"
     },
@@ -2171,11 +2003,9 @@ export default {
       "masked": "She ____ her achievements.",
       "options": [
         "play-mcq-21",
-        "play-mcq-20",
-        "play-mcq-22",
-        "play-mcq-19",
-        "play-mcq-23",
-        "play-mcq-18"
+        "play-mcq-10",
+        "play-mcq-33",
+        "play-mcq-02"
       ],
       "explanation": "本句的「played down」指「刻意淡化某事的重要性／嚴重性」。",
       "sentenceIndex": 42,
@@ -2184,12 +2014,10 @@ export default {
         "played down"
       ],
       "optionReasons": {
-        "play-mcq-21": "本句指「刻意淡化某事的重要性／嚴重性」。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-18": "「選擇風險較低、較保守的做法」是「play it safe」的用法，與本句語境不同。"
+        "play-mcq-21": "本句的「played down」指「刻意淡化某事的重要性／嚴重性」。",
+        "play-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-21"
     },
@@ -2201,10 +2029,8 @@ export default {
       "masked": "The advertisement ____ the product’s simplicity.",
       "options": [
         "play-mcq-22",
-        "play-mcq-21",
-        "play-mcq-23",
-        "play-mcq-20",
-        "play-mcq-24",
+        "play-mcq-39",
+        "play-mcq-26",
         "play-mcq-19"
       ],
       "explanation": "本句的「plays up」指「強調某事；英式口語亦可指鬧事／出問題」。",
@@ -2214,12 +2040,10 @@ export default {
         "plays up"
       ],
       "optionReasons": {
-        "play-mcq-22": "本句指「強調某事；英式口語亦可指鬧事／出問題」。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。"
+        "play-mcq-22": "本句的「plays up」指「強調某事；英式口語亦可指鬧事／出問題」。",
+        "play-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-22"
     },
@@ -2231,11 +2055,9 @@ export default {
       "masked": "The children were ____ all afternoon.",
       "options": [
         "play-mcq-22",
-        "play-mcq-21",
-        "play-mcq-23",
-        "play-mcq-20",
-        "play-mcq-24",
-        "play-mcq-19"
+        "play-mcq-18",
+        "play-mcq-04",
+        "play-mcq-14"
       ],
       "explanation": "本句的「playing up」指「強調某事；英式口語亦可指鬧事／出問題」。",
       "sentenceIndex": 44,
@@ -2244,12 +2066,10 @@ export default {
         "playing up"
       ],
       "optionReasons": {
-        "play-mcq-22": "本句指「強調某事；英式口語亦可指鬧事／出問題」。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-19": "「按公平、誠實的規則行事」是「play fair」的用法，與本句語境不同。"
+        "play-mcq-22": "本句的「playing up」指「強調某事；英式口語亦可指鬧事／出問題」。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-22"
     },
@@ -2261,11 +2081,9 @@ export default {
       "masked": "We need to see how the situation ____.",
       "options": [
         "play-mcq-23",
-        "play-mcq-22",
-        "play-mcq-24",
-        "play-mcq-21",
-        "play-mcq-25",
-        "play-mcq-20"
+        "play-mcq-07",
+        "play-mcq-01",
+        "play-mcq-05"
       ],
       "explanation": "本句的「plays out」指「某個情況或事件逐步發展至結果出現」。",
       "sentenceIndex": 45,
@@ -2274,12 +2092,10 @@ export default {
         "plays out"
       ],
       "optionReasons": {
-        "play-mcq-23": "本句指「某個情況或事件逐步發展至結果出現」。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。"
+        "play-mcq-23": "本句的「plays out」指「某個情況或事件逐步發展至結果出現」。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-23"
     },
@@ -2291,11 +2107,9 @@ export default {
       "masked": "The argument ____ in public.",
       "options": [
         "play-mcq-23",
-        "play-mcq-22",
-        "play-mcq-24",
-        "play-mcq-21",
-        "play-mcq-25",
-        "play-mcq-20"
+        "play-mcq-04",
+        "play-mcq-14",
+        "play-mcq-31"
       ],
       "explanation": "本句的「played out」指「某個情況或事件逐步發展至結果出現」。",
       "sentenceIndex": 46,
@@ -2304,12 +2118,10 @@ export default {
         "played out"
       ],
       "optionReasons": {
-        "play-mcq-23": "本句指「某個情況或事件逐步發展至結果出現」。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-20": "「暫時配合某情境、計劃或假裝」是「play along」的用法，與本句語境不同。"
+        "play-mcq-23": "本句的「played out」指「某個情況或事件逐步發展至結果出現」。",
+        "play-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-23"
     },
@@ -2321,11 +2133,9 @@ export default {
       "masked": "Children learn through ____.",
       "options": [
         "play-mcq-24",
-        "play-mcq-23",
-        "play-mcq-25",
-        "play-mcq-22",
-        "play-mcq-26",
-        "play-mcq-21"
+        "play-mcq-10",
+        "play-mcq-09",
+        "play-mcq-23"
       ],
       "explanation": "本句的「play」指「為娛樂、探索、學習或想像而進行的玩耍活動」。",
       "sentenceIndex": 47,
@@ -2334,12 +2144,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-24": "本句指「為娛樂、探索、學習或想像而進行的玩耍活動」。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。"
+        "play-mcq-24": "本句的「play」指「為娛樂、探索、學習或想像而進行的玩耍活動」。",
+        "play-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-24"
     },
@@ -2351,11 +2159,9 @@ export default {
       "masked": "Free ____ is important for young children.",
       "options": [
         "play-mcq-24",
-        "play-mcq-23",
-        "play-mcq-25",
         "play-mcq-22",
-        "play-mcq-26",
-        "play-mcq-21"
+        "play-mcq-17",
+        "play-mcq-18"
       ],
       "explanation": "本句的「play」指「為娛樂、探索、學習或想像而進行的玩耍活動」。",
       "sentenceIndex": 48,
@@ -2364,12 +2170,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-24": "本句指「為娛樂、探索、學習或想像而進行的玩耍活動」。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-21": "「刻意淡化某事的重要性／嚴重性」是「play down」的用法，與本句語境不同。"
+        "play-mcq-24": "本句的「play」指「為娛樂、探索、學習或想像而進行的玩耍活動」。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-24"
     },
@@ -2381,11 +2185,9 @@ export default {
       "masked": "We watched a ____ at the theatre.",
       "options": [
         "play-mcq-25",
-        "play-mcq-24",
+        "play-mcq-33",
         "play-mcq-26",
-        "play-mcq-23",
-        "play-mcq-27",
-        "play-mcq-22"
+        "play-mcq-20"
       ],
       "explanation": "本句的「play」指「為舞台演出而創作的戲劇作品」。",
       "sentenceIndex": 49,
@@ -2394,12 +2196,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-25": "本句指「為舞台演出而創作的戲劇作品」。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。"
+        "play-mcq-25": "本句的「play」指「為舞台演出而創作的戲劇作品」。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-25"
     },
@@ -2411,11 +2211,9 @@ export default {
       "masked": "Shakespeare wrote many ____.",
       "options": [
         "play-mcq-25",
-        "play-mcq-24",
-        "play-mcq-26",
-        "play-mcq-23",
-        "play-mcq-27",
-        "play-mcq-22"
+        "play-mcq-20",
+        "play-mcq-28",
+        "play-mcq-21"
       ],
       "explanation": "本句的「plays」指「為舞台演出而創作的戲劇作品」。",
       "sentenceIndex": 50,
@@ -2424,12 +2222,10 @@ export default {
         "plays"
       ],
       "optionReasons": {
-        "play-mcq-25": "本句指「為舞台演出而創作的戲劇作品」。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-22": "「強調某事；英式口語亦可指鬧事／出問題」是「play up」的用法，與本句語境不同。"
+        "play-mcq-25": "本句的「plays」指「為舞台演出而創作的戲劇作品」。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-25"
     },
@@ -2441,11 +2237,9 @@ export default {
       "masked": "That was an excellent ____.",
       "options": [
         "play-mcq-26",
-        "play-mcq-25",
-        "play-mcq-27",
-        "play-mcq-24",
-        "play-mcq-28",
-        "play-mcq-23"
+        "play-mcq-30",
+        "play-mcq-14",
+        "play-mcq-31"
       ],
       "explanation": "本句的「play」指「比賽進行本身或比賽中的具體動作／戰術」。",
       "sentenceIndex": 51,
@@ -2454,12 +2248,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-26": "本句指「比賽進行本身或比賽中的具體動作／戰術」。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。"
+        "play-mcq-26": "本句的「play」指「比賽進行本身或比賽中的具體動作／戰術」。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-26"
     },
@@ -2471,11 +2263,9 @@ export default {
       "masked": "The referee stopped ____.",
       "options": [
         "play-mcq-26",
-        "play-mcq-25",
-        "play-mcq-27",
-        "play-mcq-24",
-        "play-mcq-28",
-        "play-mcq-23"
+        "play-mcq-30",
+        "play-mcq-16",
+        "play-mcq-21"
       ],
       "explanation": "本句的「play」指「比賽進行本身或比賽中的具體動作／戰術」。",
       "sentenceIndex": 52,
@@ -2484,12 +2274,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-26": "本句指「比賽進行本身或比賽中的具體動作／戰術」。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-23": "「某個情況或事件逐步發展至結果出現」是「play out」的用法，與本句語境不同。"
+        "play-mcq-26": "本句的「play」指「比賽進行本身或比賽中的具體動作／戰術」。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-26"
     },
@@ -2501,11 +2289,9 @@ export default {
       "masked": "There is too much ____ in the steering wheel.",
       "options": [
         "play-mcq-27",
-        "play-mcq-26",
-        "play-mcq-28",
-        "play-mcq-25",
-        "play-mcq-29",
-        "play-mcq-24"
+        "play-mcq-30",
+        "play-mcq-36",
+        "play-mcq-15"
       ],
       "explanation": "本句的「play」指「機械部件之間可自由移動的鬆動量／活動空間」。",
       "sentenceIndex": 53,
@@ -2514,12 +2300,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-27": "本句指「機械部件之間可自由移動的鬆動量／活動空間」。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。"
+        "play-mcq-27": "本句的「play」指「機械部件之間可自由移動的鬆動量／活動空間」。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-27"
     },
@@ -2531,11 +2315,9 @@ export default {
       "masked": "The joint should have a little ____.",
       "options": [
         "play-mcq-27",
-        "play-mcq-26",
-        "play-mcq-28",
-        "play-mcq-25",
-        "play-mcq-29",
-        "play-mcq-24"
+        "play-mcq-07",
+        "play-mcq-22",
+        "play-mcq-19"
       ],
       "explanation": "本句的「play」指「機械部件之間可自由移動的鬆動量／活動空間」。",
       "sentenceIndex": 54,
@@ -2544,12 +2326,10 @@ export default {
         "play"
       ],
       "optionReasons": {
-        "play-mcq-27": "本句指「機械部件之間可自由移動的鬆動量／活動空間」。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-24": "「為娛樂、探索、學習或想像而進行的玩耍活動」是「play — noun recreation」的用法，與本句語境不同。"
+        "play-mcq-27": "本句的「play」指「機械部件之間可自由移動的鬆動量／活動空間」。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-27"
     },
@@ -2561,11 +2341,9 @@ export default {
       "masked": "Several factors are ____.",
       "options": [
         "play-mcq-28",
-        "play-mcq-27",
-        "play-mcq-29",
-        "play-mcq-26",
-        "play-mcq-30",
-        "play-mcq-25"
+        "play-mcq-14",
+        "play-mcq-38",
+        "play-mcq-07"
       ],
       "explanation": "本句的「at play」指「某種力量、因素或影響正在發揮作用」。",
       "sentenceIndex": 55,
@@ -2574,12 +2352,10 @@ export default {
         "at play"
       ],
       "optionReasons": {
-        "play-mcq-28": "本句指「某種力量、因素或影響正在發揮作用」。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。"
+        "play-mcq-28": "本句的「at play」指「某種力量、因素或影響正在發揮作用」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-28"
     },
@@ -2591,11 +2367,9 @@ export default {
       "masked": "Different emotions were ____.",
       "options": [
         "play-mcq-28",
-        "play-mcq-27",
-        "play-mcq-29",
-        "play-mcq-26",
-        "play-mcq-30",
-        "play-mcq-25"
+        "play-mcq-01",
+        "play-mcq-17",
+        "play-mcq-13"
       ],
       "explanation": "本句的「at play」指「某種力量、因素或影響正在發揮作用」。",
       "sentenceIndex": 56,
@@ -2604,12 +2378,10 @@ export default {
         "at play"
       ],
       "optionReasons": {
-        "play-mcq-28": "本句指「某種力量、因素或影響正在發揮作用」。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-25": "「為舞台演出而創作的戲劇作品」是「play — noun drama」的用法，與本句語境不同。"
+        "play-mcq-28": "本句的「at play」指「某種力量、因素或影響正在發揮作用」。",
+        "play-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-28"
     },
@@ -2621,11 +2393,9 @@ export default {
       "masked": "She is a talented tennis ____.",
       "options": [
         "play-mcq-29",
-        "play-mcq-28",
-        "play-mcq-30",
-        "play-mcq-27",
-        "play-mcq-31",
-        "play-mcq-26"
+        "play-mcq-21",
+        "play-mcq-36",
+        "play-mcq-28"
       ],
       "explanation": "本句的「player」指「參與運動、遊戲或競賽的人」。",
       "sentenceIndex": 57,
@@ -2634,12 +2404,10 @@ export default {
         "player"
       ],
       "optionReasons": {
-        "play-mcq-29": "本句指「參與運動、遊戲或競賽的人」。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。"
+        "play-mcq-29": "本句的「player」指「參與運動、遊戲或競賽的人」。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-29"
     },
@@ -2651,11 +2419,9 @@ export default {
       "masked": "The game supports four ____.",
       "options": [
         "play-mcq-29",
-        "play-mcq-28",
-        "play-mcq-30",
-        "play-mcq-27",
-        "play-mcq-31",
-        "play-mcq-26"
+        "play-mcq-37",
+        "play-mcq-07",
+        "play-mcq-20"
       ],
       "explanation": "本句的「players」指「參與運動、遊戲或競賽的人」。",
       "sentenceIndex": 58,
@@ -2664,12 +2430,10 @@ export default {
         "players"
       ],
       "optionReasons": {
-        "play-mcq-29": "本句指「參與運動、遊戲或競賽的人」。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-26": "「比賽進行本身或比賽中的具體動作／戰術」是「play — sports noun」的用法，與本句語境不同。"
+        "play-mcq-29": "本句的「players」指「參與運動、遊戲或競賽的人」。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-29"
     },
@@ -2681,11 +2445,9 @@ export default {
       "masked": "He is an excellent guitar ____.",
       "options": [
         "play-mcq-30",
-        "play-mcq-29",
-        "play-mcq-31",
-        "play-mcq-28",
-        "play-mcq-32",
-        "play-mcq-27"
+        "play-mcq-15",
+        "play-mcq-16",
+        "play-mcq-38"
       ],
       "explanation": "本句的「player」指「演奏樂器的人」。",
       "sentenceIndex": 59,
@@ -2694,12 +2456,10 @@ export default {
         "player"
       ],
       "optionReasons": {
-        "play-mcq-30": "本句指「演奏樂器的人」。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。"
+        "play-mcq-30": "本句的「player」指「演奏樂器的人」。",
+        "play-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-30"
     },
@@ -2711,11 +2471,9 @@ export default {
       "masked": "The orchestra includes several young ____.",
       "options": [
         "play-mcq-30",
-        "play-mcq-29",
-        "play-mcq-31",
-        "play-mcq-28",
-        "play-mcq-32",
-        "play-mcq-27"
+        "play-mcq-09",
+        "play-mcq-36",
+        "play-mcq-28"
       ],
       "explanation": "本句的「players」指「演奏樂器的人」。",
       "sentenceIndex": 60,
@@ -2724,12 +2482,10 @@ export default {
         "players"
       ],
       "optionReasons": {
-        "play-mcq-30": "本句指「演奏樂器的人」。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-27": "「機械部件之間可自由移動的鬆動量／活動空間」是「play — mechanical」的用法，與本句語境不同。"
+        "play-mcq-30": "本句的「players」指「演奏樂器的人」。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-30"
     },
@@ -2741,11 +2497,9 @@ export default {
       "masked": "The company is a major ____ in the market.",
       "options": [
         "play-mcq-31",
-        "play-mcq-30",
-        "play-mcq-32",
-        "play-mcq-29",
-        "play-mcq-33",
-        "play-mcq-28"
+        "play-mcq-20",
+        "play-mcq-18",
+        "play-mcq-35"
       ],
       "explanation": "本句的「player」指「某領域中有重要影響力的人／組織」。",
       "sentenceIndex": 61,
@@ -2754,12 +2508,10 @@ export default {
         "player"
       ],
       "optionReasons": {
-        "play-mcq-31": "本句指「某領域中有重要影響力的人／組織」。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。"
+        "play-mcq-31": "本句的「player」指「某領域中有重要影響力的人／組織」。",
+        "play-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-31"
     },
@@ -2771,11 +2523,9 @@ export default {
       "masked": "Several international ____ are involved.",
       "options": [
         "play-mcq-31",
-        "play-mcq-30",
-        "play-mcq-32",
-        "play-mcq-29",
-        "play-mcq-33",
-        "play-mcq-28"
+        "play-mcq-14",
+        "play-mcq-35",
+        "play-mcq-30"
       ],
       "explanation": "本句的「players」指「某領域中有重要影響力的人／組織」。",
       "sentenceIndex": 62,
@@ -2784,12 +2534,10 @@ export default {
         "players"
       ],
       "optionReasons": {
-        "play-mcq-31": "本句指「某領域中有重要影響力的人／組織」。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-28": "「某種力量、因素或影響正在發揮作用」是「at play」的用法，與本句語境不同。"
+        "play-mcq-31": "本句的「players」指「某領域中有重要影響力的人／組織」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-31"
     },
@@ -2801,11 +2549,9 @@ export default {
       "masked": "I need a new media ____.",
       "options": [
         "play-mcq-32",
-        "play-mcq-31",
+        "play-mcq-18",
         "play-mcq-33",
-        "play-mcq-30",
-        "play-mcq-34",
-        "play-mcq-29"
+        "play-mcq-37"
       ],
       "explanation": "本句的「player」指「播放音訊、影片或其他媒體的裝置／程式」。",
       "sentenceIndex": 63,
@@ -2814,12 +2560,10 @@ export default {
         "player"
       ],
       "optionReasons": {
-        "play-mcq-32": "本句指「播放音訊、影片或其他媒體的裝置／程式」。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。"
+        "play-mcq-32": "本句的「player」指「播放音訊、影片或其他媒體的裝置／程式」。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-32"
     },
@@ -2831,10 +2575,8 @@ export default {
       "masked": "The music ____ stopped working.",
       "options": [
         "play-mcq-32",
-        "play-mcq-31",
-        "play-mcq-33",
-        "play-mcq-30",
-        "play-mcq-34",
+        "play-pdf-001",
+        "play-mcq-37",
         "play-mcq-29"
       ],
       "explanation": "本句的「player」指「播放音訊、影片或其他媒體的裝置／程式」。",
@@ -2844,12 +2586,10 @@ export default {
         "player"
       ],
       "optionReasons": {
-        "play-mcq-32": "本句指「播放音訊、影片或其他媒體的裝置／程式」。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-29": "「參與運動、遊戲或競賽的人」是「player — sport/game」的用法，與本句語境不同。"
+        "play-mcq-32": "本句的「player」指「播放音訊、影片或其他媒體的裝置／程式」。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-32"
     },
@@ -2861,11 +2601,9 @@ export default {
       "masked": "Leo has a ____ personality.",
       "options": [
         "play-mcq-33",
+        "play-mcq-29",
         "play-mcq-32",
-        "play-mcq-34",
-        "play-mcq-31",
-        "play-mcq-35",
-        "play-mcq-30"
+        "play-mcq-13"
       ],
       "explanation": "本句的「playful」指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
       "sentenceIndex": 65,
@@ -2874,12 +2612,10 @@ export default {
         "playful"
       ],
       "optionReasons": {
-        "play-mcq-33": "本句指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。"
+        "play-mcq-33": "本句的「playful」指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-33"
     },
@@ -2891,11 +2627,9 @@ export default {
       "masked": "She gave him a ____ smile.",
       "options": [
         "play-mcq-33",
-        "play-mcq-32",
-        "play-mcq-34",
-        "play-mcq-31",
-        "play-mcq-35",
-        "play-mcq-30"
+        "play-mcq-17",
+        "play-mcq-23",
+        "play-pdf-001"
       ],
       "explanation": "本句的「playful」指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
       "sentenceIndex": 66,
@@ -2904,12 +2638,10 @@ export default {
         "playful"
       ],
       "optionReasons": {
-        "play-mcq-33": "本句指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。"
+        "play-mcq-33": "本句的「playful」指「愛玩、調皮、輕鬆有趣或帶玩味的」。",
+        "play-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-33"
     },
@@ -2921,11 +2653,9 @@ export default {
       "masked": "The design has a ____ style.",
       "options": [
         "play-pdf-002",
-        "play-mcq-32",
-        "play-mcq-34",
-        "play-mcq-31",
-        "play-mcq-35",
-        "play-mcq-30"
+        "play-mcq-14",
+        "play-mcq-27",
+        "play-pdf-001"
       ],
       "explanation": "本句的「playful」指「不嚴肅、帶創意、幽默或遊戲感的」。",
       "sentenceIndex": 67,
@@ -2934,12 +2664,10 @@ export default {
         "playful"
       ],
       "optionReasons": {
-        "play-pdf-002": "本句指「不嚴肅、帶創意、幽默或遊戲感的」。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。"
+        "play-pdf-002": "本句的「playful」指「不嚴肅、帶創意、幽默或遊戲感的」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "play-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-pdf-002"
     },
@@ -2951,11 +2679,9 @@ export default {
       "masked": "The writer uses a ____ tone.",
       "options": [
         "play-pdf-002",
-        "play-mcq-32",
-        "play-mcq-34",
-        "play-mcq-31",
-        "play-mcq-35",
-        "play-mcq-30"
+        "play-mcq-19",
+        "play-mcq-23",
+        "play-mcq-36"
       ],
       "explanation": "本句的「playful」指「不嚴肅、帶創意、幽默或遊戲感的」。",
       "sentenceIndex": 68,
@@ -2964,12 +2690,10 @@ export default {
         "playful"
       ],
       "optionReasons": {
-        "play-pdf-002": "本句指「不嚴肅、帶創意、幽默或遊戲感的」。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-30": "「演奏樂器的人」是「player — musician」的用法，與本句語境不同。"
+        "play-pdf-002": "本句的「playful」指「不嚴肅、帶創意、幽默或遊戲感的」。",
+        "play-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-pdf-002"
     },
@@ -2981,11 +2705,9 @@ export default {
       "masked": "She ____ pushed him away.",
       "options": [
         "play-mcq-34",
-        "play-mcq-33",
-        "play-mcq-35",
-        "play-mcq-32",
-        "play-mcq-36",
-        "play-mcq-31"
+        "play-mcq-07",
+        "play-mcq-21",
+        "play-mcq-29"
       ],
       "explanation": "本句的「playfully」指「以輕鬆、調皮、開玩笑的方式」。",
       "sentenceIndex": 69,
@@ -2994,12 +2716,10 @@ export default {
         "playfully"
       ],
       "optionReasons": {
-        "play-mcq-34": "本句指「以輕鬆、調皮、開玩笑的方式」。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。"
+        "play-mcq-34": "本句的「playfully」指「以輕鬆、調皮、開玩笑的方式」。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-34"
     },
@@ -3011,11 +2731,9 @@ export default {
       "masked": "He ____ pretended to be angry.",
       "options": [
         "play-mcq-34",
-        "play-mcq-33",
-        "play-mcq-35",
-        "play-mcq-32",
-        "play-mcq-36",
-        "play-mcq-31"
+        "play-mcq-06",
+        "play-mcq-01",
+        "play-mcq-23"
       ],
       "explanation": "本句的「playfully」指「以輕鬆、調皮、開玩笑的方式」。",
       "sentenceIndex": 70,
@@ -3024,12 +2742,10 @@ export default {
         "playfully"
       ],
       "optionReasons": {
-        "play-mcq-34": "本句指「以輕鬆、調皮、開玩笑的方式」。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-31": "「某領域中有重要影響力的人／組織」是「player — industry」的用法，與本句語境不同。"
+        "play-mcq-34": "本句的「playfully」指「以輕鬆、調皮、開玩笑的方式」。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-34"
     },
@@ -3041,11 +2757,9 @@ export default {
       "masked": "His ____ makes children comfortable.",
       "options": [
         "play-mcq-35",
-        "play-mcq-34",
-        "play-mcq-36",
-        "play-mcq-33",
-        "play-mcq-37",
-        "play-mcq-32"
+        "play-mcq-04",
+        "play-mcq-09",
+        "play-mcq-14"
       ],
       "explanation": "本句的「playfulness」指「愛玩、輕鬆、富創意或調皮的特質」。",
       "sentenceIndex": 71,
@@ -3054,12 +2768,10 @@ export default {
         "playfulness"
       ],
       "optionReasons": {
-        "play-mcq-35": "本句指「愛玩、輕鬆、富創意或調皮的特質」。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。"
+        "play-mcq-35": "本句的「playfulness」指「愛玩、輕鬆、富創意或調皮的特質」。",
+        "play-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-35"
     },
@@ -3071,11 +2783,9 @@ export default {
       "masked": "The room’s design has a sense of ____.",
       "options": [
         "play-mcq-35",
-        "play-mcq-34",
-        "play-mcq-36",
-        "play-mcq-33",
-        "play-mcq-37",
-        "play-mcq-32"
+        "play-mcq-14",
+        "play-mcq-07",
+        "play-mcq-11"
       ],
       "explanation": "本句的「playfulness」指「愛玩、輕鬆、富創意或調皮的特質」。",
       "sentenceIndex": 72,
@@ -3084,12 +2794,10 @@ export default {
         "playfulness"
       ],
       "optionReasons": {
-        "play-mcq-35": "本句指「愛玩、輕鬆、富創意或調皮的特質」。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-32": "「播放音訊、影片或其他媒體的裝置／程式」是「player — device/software」的用法，與本句語境不同。"
+        "play-mcq-35": "本句的「playfulness」指「愛玩、輕鬆、富創意或調皮的特質」。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-35"
     },
@@ -3101,11 +2809,9 @@ export default {
       "masked": "The two children became ____.",
       "options": [
         "play-mcq-36",
-        "play-mcq-35",
-        "play-mcq-37",
-        "play-mcq-34",
-        "play-mcq-38",
-        "play-mcq-33"
+        "play-mcq-07",
+        "play-mcq-21",
+        "play-mcq-04"
       ],
       "explanation": "本句的「playmates」指「經常和某人一起玩耍的人」。",
       "sentenceIndex": 73,
@@ -3114,12 +2820,10 @@ export default {
         "playmates"
       ],
       "optionReasons": {
-        "play-mcq-36": "本句指「經常和某人一起玩耍的人」。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-38": "「電子遊戲實際操作、互動和進行的方式」是「gameplay」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。"
+        "play-mcq-36": "本句的「playmates」指「經常和某人一起玩耍的人」。",
+        "play-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-36"
     },
@@ -3131,11 +2835,9 @@ export default {
       "masked": "He invited his ____ over.",
       "options": [
         "play-mcq-36",
-        "play-mcq-35",
-        "play-mcq-37",
-        "play-mcq-34",
-        "play-mcq-38",
-        "play-mcq-33"
+        "play-mcq-15",
+        "play-mcq-25",
+        "play-mcq-29"
       ],
       "explanation": "本句的「playmate」指「經常和某人一起玩耍的人」。",
       "sentenceIndex": 74,
@@ -3144,12 +2846,10 @@ export default {
         "playmate"
       ],
       "optionReasons": {
-        "play-mcq-36": "本句指「經常和某人一起玩耍的人」。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。",
-        "play-mcq-38": "「電子遊戲實際操作、互動和進行的方式」是「gameplay」的用法，與本句語境不同。",
-        "play-mcq-33": "「愛玩、調皮、輕鬆有趣或帶玩味的」是「playful」的用法，與本句語境不同。"
+        "play-mcq-36": "本句的「playmate」指「經常和某人一起玩耍的人」。",
+        "play-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-36"
     },
@@ -3161,11 +2861,9 @@ export default {
       "masked": "The children are in the ____.",
       "options": [
         "play-mcq-37",
-        "play-mcq-36",
-        "play-mcq-38",
-        "play-mcq-35",
-        "play-mcq-39",
-        "play-mcq-34"
+        "play-mcq-02",
+        "play-mcq-32",
+        "play-mcq-10"
       ],
       "explanation": "本句的「playground」指「專供兒童玩耍的地方」。",
       "sentenceIndex": 75,
@@ -3174,12 +2872,10 @@ export default {
         "playground"
       ],
       "optionReasons": {
-        "play-mcq-37": "本句指「專供兒童玩耍的地方」。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-38": "「電子遊戲實際操作、互動和進行的方式」是「gameplay」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-39": "「扮演人物／情境以練習、娛樂或模擬互動」是「role-play」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。"
+        "play-mcq-37": "本句的「playground」指「專供兒童玩耍的地方」。",
+        "play-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-37"
     },
@@ -3191,11 +2887,9 @@ export default {
       "masked": "The school built a new ____.",
       "options": [
         "play-mcq-37",
-        "play-mcq-36",
-        "play-mcq-38",
-        "play-mcq-35",
-        "play-mcq-39",
-        "play-mcq-34"
+        "play-mcq-06",
+        "play-mcq-14",
+        "play-mcq-15"
       ],
       "explanation": "本句的「playground」指「專供兒童玩耍的地方」。",
       "sentenceIndex": 76,
@@ -3204,12 +2898,10 @@ export default {
         "playground"
       ],
       "optionReasons": {
-        "play-mcq-37": "本句指「專供兒童玩耍的地方」。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-38": "「電子遊戲實際操作、互動和進行的方式」是「gameplay」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-39": "「扮演人物／情境以練習、娛樂或模擬互動」是「role-play」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。"
+        "play-mcq-37": "本句的「playground」指「專供兒童玩耍的地方」。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-37"
     },
@@ -3221,11 +2913,9 @@ export default {
       "masked": "The game has simple ____.",
       "options": [
         "play-mcq-38",
-        "play-mcq-37",
-        "play-mcq-39",
-        "play-mcq-36",
-        "play-mcq-35",
-        "play-mcq-34"
+        "play-mcq-33",
+        "play-mcq-06",
+        "play-mcq-14"
       ],
       "explanation": "本句的「gameplay」指「電子遊戲實際操作、互動和進行的方式」。",
       "sentenceIndex": 77,
@@ -3234,12 +2924,10 @@ export default {
         "gameplay"
       ],
       "optionReasons": {
-        "play-mcq-38": "本句指「電子遊戲實際操作、互動和進行的方式」。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-39": "「扮演人物／情境以練習、娛樂或模擬互動」是「role-play」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。"
+        "play-mcq-38": "本句的「gameplay」指「電子遊戲實際操作、互動和進行的方式」。",
+        "play-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-38"
     },
@@ -3251,11 +2939,9 @@ export default {
       "masked": "Good ____ matters more than graphics.",
       "options": [
         "play-mcq-38",
-        "play-mcq-37",
-        "play-mcq-39",
-        "play-mcq-36",
-        "play-mcq-35",
-        "play-mcq-34"
+        "play-mcq-18",
+        "play-mcq-31",
+        "play-mcq-23"
       ],
       "explanation": "本句的「gameplay」指「電子遊戲實際操作、互動和進行的方式」。",
       "sentenceIndex": 78,
@@ -3264,12 +2950,10 @@ export default {
         "gameplay"
       ],
       "optionReasons": {
-        "play-mcq-38": "本句指「電子遊戲實際操作、互動和進行的方式」。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-39": "「扮演人物／情境以練習、娛樂或模擬互動」是「role-play」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。"
+        "play-mcq-38": "本句的「gameplay」指「電子遊戲實際操作、互動和進行的方式」。",
+        "play-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-38"
     },
@@ -3281,11 +2965,9 @@ export default {
       "masked": "Students ____ a job interview.",
       "options": [
         "play-mcq-39",
-        "play-mcq-38",
-        "play-mcq-37",
-        "play-mcq-36",
         "play-mcq-35",
-        "play-mcq-34"
+        "play-mcq-21",
+        "play-mcq-37"
       ],
       "explanation": "本句的「role-played」指「扮演人物／情境以練習、娛樂或模擬互動」。",
       "sentenceIndex": 79,
@@ -3294,12 +2976,10 @@ export default {
         "role-played"
       ],
       "optionReasons": {
-        "play-mcq-39": "本句指「扮演人物／情境以練習、娛樂或模擬互動」。",
-        "play-mcq-38": "「電子遊戲實際操作、互動和進行的方式」是「gameplay」的用法，與本句語境不同。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。"
+        "play-mcq-39": "本句的「role-played」指「扮演人物／情境以練習、娛樂或模擬互動」。",
+        "play-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-39"
     },
@@ -3311,11 +2991,9 @@ export default {
       "masked": "The activity uses ____ to practise speaking.",
       "options": [
         "play-mcq-39",
-        "play-mcq-38",
-        "play-mcq-37",
-        "play-mcq-36",
-        "play-mcq-35",
-        "play-mcq-34"
+        "play-pdf-002",
+        "play-mcq-23",
+        "play-mcq-28"
       ],
       "explanation": "本句的「role-play」指「扮演人物／情境以練習、娛樂或模擬互動」。",
       "sentenceIndex": 80,
@@ -3324,12 +3002,10 @@ export default {
         "role-play"
       ],
       "optionReasons": {
-        "play-mcq-39": "本句指「扮演人物／情境以練習、娛樂或模擬互動」。",
-        "play-mcq-38": "「電子遊戲實際操作、互動和進行的方式」是「gameplay」的用法，與本句語境不同。",
-        "play-mcq-37": "「專供兒童玩耍的地方」是「playground」的用法，與本句語境不同。",
-        "play-mcq-36": "「經常和某人一起玩耍的人」是「playmate」的用法，與本句語境不同。",
-        "play-mcq-35": "「愛玩、輕鬆、富創意或調皮的特質」是「playfulness」的用法，與本句語境不同。",
-        "play-mcq-34": "「以輕鬆、調皮、開玩笑的方式」是「playfully」的用法，與本句語境不同。"
+        "play-mcq-39": "本句的「role-play」指「扮演人物／情境以練習、娛樂或模擬互動」。",
+        "play-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "play-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "play-mcq-39"
     }
@@ -3341,5 +3017,7 @@ export default {
     "sha256": "bc736c0ad1ae0080fca9fe11648cbb3bbb17c43d6de1f9d0646bf40d76de59d3",
     "pages": 28
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

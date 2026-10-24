@@ -63,26 +63,6 @@ export default {
       "note": "來源詞義：用夾子／扣件把東西固定在另一物件上",
       "examples": [
         [
-          "Use a paper clip to keep the pages together.",
-          "用一個萬字夾／迴紋針把紙張夾在一起。",
-          "用夾子／扣件把東西固定在另一物件上"
-        ],
-        [
-          "There were several paper clips on the desk.",
-          "桌上有幾個萬字夾。",
-          "用夾子／扣件把東西固定在另一物件上"
-        ],
-        [
-          "She put her hair up with a hair clip.",
-          "她用髮夾把頭髮夾起來。",
-          "用夾子／扣件把東西固定在另一物件上"
-        ],
-        [
-          "The hair clip matched her dress.",
-          "那個髮夾和她的裙子很配。",
-          "用夾子／扣件把東西固定在另一物件上"
-        ],
-        [
           "She clipped the papers together.",
           "她把文件夾在一起。",
           "用夾子／扣件把東西固定在另一物件上"
@@ -357,6 +337,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "clip-reviewed-3671b2bed0",
+      "title": "萬字夾；迴紋針",
+      "form": "clip · source section 4",
+      "en": "萬字夾；迴紋針",
+      "zh": "萬字夾；迴紋針",
+      "note": "對照原始教材第 4 節及例句核實。",
+      "examples": [
+        [
+          "Use a paper clip to keep the pages together.",
+          "用一個萬字夾／迴紋針把紙張夾在一起。",
+          "萬字夾；迴紋針"
+        ],
+        [
+          "There were several paper clips on the desk.",
+          "桌上有幾個萬字夾。",
+          "萬字夾；迴紋針"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "clip-reviewed-a2e1617560",
+      "title": "髮夾",
+      "form": "clip · source section 5",
+      "en": "髮夾",
+      "zh": "髮夾",
+      "note": "對照原始教材第 5 節及例句核實。",
+      "examples": [
+        [
+          "She put her hair up with a hair clip.",
+          "她用髮夾把頭髮夾起來。",
+          "髮夾"
+        ],
+        [
+          "The hair clip matched her dress.",
+          "那個髮夾和她的裙子很配。",
+          "髮夾"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -368,11 +392,9 @@ export default {
       "masked": "It was a short, light-hearted ____.",
       "options": [
         "clip-mcq-01",
-        "clip-mcq-02",
-        "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-reviewed-3671b2bed0",
+        "clip-mcq-08",
+        "clip-mcq-12"
       ],
       "explanation": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
       "sentenceIndex": 0,
@@ -381,12 +403,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-01": "本句指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-01": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-01"
     },
@@ -398,11 +418,9 @@ export default {
       "masked": "She shared a short ____ from the interview.",
       "options": [
         "clip-mcq-01",
-        "clip-mcq-02",
         "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-pdf-002",
+        "clip-reviewed-3671b2bed0"
       ],
       "explanation": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
       "sentenceIndex": 1,
@@ -411,12 +429,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-01": "本句指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-01": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+        "clip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clip-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-01"
     },
@@ -428,11 +444,9 @@ export default {
       "masked": "The ____ was only twenty seconds long.",
       "options": [
         "clip-mcq-01",
-        "clip-mcq-02",
-        "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-mcq-09",
+        "clip-mcq-12",
+        "clip-mcq-07"
       ],
       "explanation": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
       "sentenceIndex": 2,
@@ -441,12 +455,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-01": "本句指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-01": "本句的「clip」指「一段很短的影片／錄音內容，或從較長內容中截取的一小段」。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-01"
     },
@@ -458,11 +470,9 @@ export default {
       "masked": "The podcast included a short audio ____.",
       "options": [
         "clip-pdf-001",
-        "clip-mcq-02",
-        "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-reviewed-3671b2bed0",
+        "clip-mcq-09",
+        "clip-mcq-03"
       ],
       "explanation": "本句的「clip」指「一小段錄音／音訊內容」。",
       "sentenceIndex": 3,
@@ -471,12 +481,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-pdf-001": "本句指「一小段錄音／音訊內容」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-pdf-001": "本句的「clip」指「一小段錄音／音訊內容」。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-pdf-001"
     },
@@ -488,11 +496,9 @@ export default {
       "masked": "They played a ____ from the recording.",
       "options": [
         "clip-pdf-001",
-        "clip-mcq-02",
-        "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-reviewed-3671b2bed0",
+        "clip-mcq-08",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clip」指「一小段錄音／音訊內容」。",
       "sentenceIndex": 4,
@@ -501,12 +507,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-pdf-001": "本句指「一小段錄音／音訊內容」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-pdf-001": "本句的「clip」指「一小段錄音／音訊內容」。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-pdf-001"
     },
@@ -518,10 +522,8 @@ export default {
       "masked": "She used a ____ to hold the papers together.",
       "options": [
         "clip-mcq-02",
-        "clip-mcq-01",
-        "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
+        "clip-mcq-08",
+        "clip-mcq-11",
         "clip-mcq-06"
       ],
       "explanation": "本句的「clip」指「用來夾住、固定或扣住物件的小型裝置」。",
@@ -531,12 +533,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-02": "本句指「用來夾住、固定或扣住物件的小型裝置」。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-02": "本句的「clip」指「用來夾住、固定或扣住物件的小型裝置」。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-02"
     },
@@ -548,11 +548,9 @@ export default {
       "masked": "The bag has a metal ____.",
       "options": [
         "clip-mcq-02",
-        "clip-mcq-01",
-        "clip-mcq-03",
-        "clip-mcq-04",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-pdf-002",
+        "clip-mcq-06",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clip」指「用來夾住、固定或扣住物件的小型裝置」。",
       "sentenceIndex": 6,
@@ -561,134 +559,124 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-02": "本句指「用來夾住、固定或扣住物件的小型裝置」。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-02": "本句的「clip」指「用來夾住、固定或扣住物件的小型裝置」。",
+        "clip-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-02"
     },
     {
       "id": "clip-04-0",
-      "sense": "clip-mcq-03",
+      "sense": "clip-reviewed-3671b2bed0",
       "en": "Use a paper clip to keep the pages together.",
       "zh": "用一個萬字夾／迴紋針把紙張夾在一起。",
       "masked": "Use a ____ to keep the pages together.",
       "options": [
-        "clip-mcq-03",
-        "clip-mcq-02",
+        "clip-reviewed-3671b2bed0",
         "clip-mcq-04",
-        "clip-mcq-01",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-mcq-10",
+        "clip-mcq-07"
       ],
-      "explanation": "本句的「paper clip」指「用夾子／扣件把東西固定在另一物件上」。",
+      "explanation": "對照完整句子：「用一個萬字夾／迴紋針把紙張夾在一起。」。這裡的「paper clip」表示「萬字夾；迴紋針」。",
       "sentenceIndex": 7,
       "sourcePractice": 8,
       "targets": [
         "paper clip"
       ],
       "optionReasons": {
-        "clip-mcq-03": "本句指「用夾子／扣件把東西固定在另一物件上」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-reviewed-3671b2bed0": "對照完整句子：「用一個萬字夾／迴紋針把紙張夾在一起。」。這裡的「paper clip」表示「萬字夾；迴紋針」。",
+        "clip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clip-mcq-03"
+      "correctOption": "clip-reviewed-3671b2bed0",
+      "previousCorrectOption": "clip-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clip-04-1",
-      "sense": "clip-mcq-03",
+      "sense": "clip-reviewed-3671b2bed0",
       "en": "There were several paper clips on the desk.",
       "zh": "桌上有幾個萬字夾。",
       "masked": "There were several paper ____ on the desk.",
       "options": [
-        "clip-mcq-03",
-        "clip-mcq-02",
-        "clip-mcq-04",
-        "clip-mcq-01",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-reviewed-3671b2bed0",
+        "clip-mcq-10",
+        "clip-mcq-07",
+        "clip-mcq-09"
       ],
-      "explanation": "本句的「clips」指「用夾子／扣件把東西固定在另一物件上」。",
+      "explanation": "對照完整句子：「桌上有幾個萬字夾。」。這裡的「clips」表示「萬字夾；迴紋針」。",
       "sentenceIndex": 8,
       "sourcePractice": 9,
       "targets": [
         "clips"
       ],
       "optionReasons": {
-        "clip-mcq-03": "本句指「用夾子／扣件把東西固定在另一物件上」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-reviewed-3671b2bed0": "對照完整句子：「桌上有幾個萬字夾。」。這裡的「clips」表示「萬字夾；迴紋針」。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clip-mcq-03"
+      "correctOption": "clip-reviewed-3671b2bed0",
+      "previousCorrectOption": "clip-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clip-05-0",
-      "sense": "clip-mcq-03",
+      "sense": "clip-reviewed-a2e1617560",
       "en": "She put her hair up with a hair clip.",
       "zh": "她用髮夾把頭髮夾起來。",
       "masked": "She put her hair up with a ____.",
       "options": [
-        "clip-mcq-03",
-        "clip-mcq-02",
-        "clip-mcq-04",
+        "clip-reviewed-a2e1617560",
         "clip-mcq-01",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-mcq-07",
+        "clip-mcq-04"
       ],
-      "explanation": "本句的「hair clip」指「用夾子／扣件把東西固定在另一物件上」。",
+      "explanation": "對照完整句子：「她用髮夾把頭髮夾起來。」。這裡的「hair clip」表示「髮夾」。",
       "sentenceIndex": 9,
       "sourcePractice": 10,
       "targets": [
         "hair clip"
       ],
       "optionReasons": {
-        "clip-mcq-03": "本句指「用夾子／扣件把東西固定在另一物件上」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-reviewed-a2e1617560": "對照完整句子：「她用髮夾把頭髮夾起來。」。這裡的「hair clip」表示「髮夾」。",
+        "clip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clip-mcq-03"
+      "correctOption": "clip-reviewed-a2e1617560",
+      "previousCorrectOption": "clip-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clip-05-1",
-      "sense": "clip-mcq-03",
+      "sense": "clip-reviewed-a2e1617560",
       "en": "The hair clip matched her dress.",
       "zh": "那個髮夾和她的裙子很配。",
       "masked": "The hair ____ matched her dress.",
       "options": [
-        "clip-mcq-03",
-        "clip-mcq-02",
-        "clip-mcq-04",
-        "clip-mcq-01",
+        "clip-reviewed-a2e1617560",
         "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-pdf-002",
+        "clip-mcq-10"
       ],
-      "explanation": "本句的「clip」指「用夾子／扣件把東西固定在另一物件上」。",
+      "explanation": "對照完整句子：「那個髮夾和她的裙子很配。」。這裡的「clip」表示「髮夾」。",
       "sentenceIndex": 10,
       "sourcePractice": 11,
       "targets": [
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-03": "本句指「用夾子／扣件把東西固定在另一物件上」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-reviewed-a2e1617560": "對照完整句子：「那個髮夾和她的裙子很配。」。這裡的「clip」表示「髮夾」。",
+        "clip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "clip-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "clip-mcq-03"
+      "correctOption": "clip-reviewed-a2e1617560",
+      "previousCorrectOption": "clip-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "clip-06-0",
@@ -698,11 +686,9 @@ export default {
       "masked": "She ____ the papers together.",
       "options": [
         "clip-mcq-03",
-        "clip-mcq-02",
-        "clip-mcq-04",
-        "clip-mcq-01",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-mcq-09",
+        "clip-mcq-06",
+        "clip-mcq-07"
       ],
       "explanation": "本句的「clipped」指「用夾子／扣件把東西固定在另一物件上」。",
       "sentenceIndex": 11,
@@ -711,12 +697,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-03": "本句指「用夾子／扣件把東西固定在另一物件上」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-03": "本句的「clipped」指「用夾子／扣件把東西固定在另一物件上」。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-03"
     },
@@ -728,11 +712,9 @@ export default {
       "masked": "____ the microphone to your shirt.",
       "options": [
         "clip-mcq-03",
-        "clip-mcq-02",
         "clip-mcq-04",
-        "clip-mcq-01",
-        "clip-mcq-05",
-        "clip-mcq-06"
+        "clip-mcq-07",
+        "clip-mcq-10"
       ],
       "explanation": "本句的「Clip」指「用夾子／扣件把東西固定在另一物件上」。",
       "sentenceIndex": 12,
@@ -741,12 +723,10 @@ export default {
         "Clip"
       ],
       "optionReasons": {
-        "clip-mcq-03": "本句指「用夾子／扣件把東西固定在另一物件上」。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-03": "本句的「Clip」指「用夾子／扣件把東西固定在另一物件上」。",
+        "clip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-03"
     },
@@ -758,11 +738,9 @@ export default {
       "masked": "He ____ the hedge.",
       "options": [
         "clip-mcq-04",
-        "clip-mcq-03",
-        "clip-mcq-05",
+        "clip-mcq-07",
         "clip-mcq-02",
-        "clip-mcq-06",
-        "clip-mcq-01"
+        "clip-reviewed-3671b2bed0"
       ],
       "explanation": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
       "sentenceIndex": 13,
@@ -771,12 +749,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-04": "本句指「用剪刀／刀片快速剪去一部分或修短」。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。"
+        "clip-mcq-04": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-04"
     },
@@ -788,11 +764,9 @@ export default {
       "masked": "She ____ the loose thread with scissors.",
       "options": [
         "clip-mcq-04",
-        "clip-mcq-03",
-        "clip-mcq-05",
-        "clip-mcq-02",
-        "clip-mcq-06",
-        "clip-mcq-01"
+        "clip-pdf-001",
+        "clip-mcq-07",
+        "clip-mcq-03"
       ],
       "explanation": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
       "sentenceIndex": 14,
@@ -801,12 +775,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-04": "本句指「用剪刀／刀片快速剪去一部分或修短」。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。"
+        "clip-mcq-04": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
+        "clip-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-04"
     },
@@ -818,11 +790,9 @@ export default {
       "masked": "The dog’s fur was ____ short.",
       "options": [
         "clip-mcq-04",
-        "clip-mcq-03",
-        "clip-mcq-05",
-        "clip-mcq-02",
-        "clip-mcq-06",
-        "clip-mcq-01"
+        "clip-mcq-12",
+        "clip-mcq-07",
+        "clip-pdf-001"
       ],
       "explanation": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
       "sentenceIndex": 15,
@@ -831,12 +801,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-04": "本句指「用剪刀／刀片快速剪去一部分或修短」。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。"
+        "clip-mcq-04": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-04"
     },
@@ -848,11 +816,9 @@ export default {
       "masked": "He ____ his beard neatly.",
       "options": [
         "clip-mcq-04",
-        "clip-mcq-03",
-        "clip-mcq-05",
-        "clip-mcq-02",
-        "clip-mcq-06",
-        "clip-mcq-01"
+        "clip-pdf-001",
+        "clip-reviewed-3671b2bed0",
+        "clip-mcq-07"
       ],
       "explanation": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
       "sentenceIndex": 16,
@@ -861,12 +827,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-04": "本句指「用剪刀／刀片快速剪去一部分或修短」。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-01": "「一段很短的影片／錄音內容，或從較長內容中截取的一小段」與本句語境不同。"
+        "clip-mcq-04": "本句的「clipped」指「用剪刀／刀片快速剪去一部分或修短」。",
+        "clip-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-04"
     },
@@ -878,11 +842,9 @@ export default {
       "masked": "She collected newspaper ____.",
       "options": [
         "clip-mcq-05",
-        "clip-mcq-04",
-        "clip-mcq-06",
-        "clip-mcq-03",
-        "clip-mcq-07",
-        "clip-mcq-02"
+        "clip-mcq-10",
+        "clip-reviewed-a2e1617560",
+        "clip-mcq-07"
       ],
       "explanation": "本句的「clippings」指「被剪下的一小部分」。",
       "sentenceIndex": 17,
@@ -891,12 +853,10 @@ export default {
         "clippings"
       ],
       "optionReasons": {
-        "clip-mcq-05": "本句指「被剪下的一小部分」。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。"
+        "clip-mcq-05": "本句的「clippings」指「被剪下的一小部分」。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-a2e1617560": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-05"
     },
@@ -908,11 +868,9 @@ export default {
       "masked": "Grass ____ covered the path.",
       "options": [
         "clip-mcq-05",
-        "clip-mcq-04",
-        "clip-mcq-06",
-        "clip-mcq-03",
-        "clip-mcq-07",
-        "clip-mcq-02"
+        "clip-mcq-12",
+        "clip-mcq-08",
+        "clip-reviewed-3671b2bed0"
       ],
       "explanation": "本句的「clippings」指「被剪下的一小部分」。",
       "sentenceIndex": 18,
@@ -921,12 +879,10 @@ export default {
         "clippings"
       ],
       "optionReasons": {
-        "clip-mcq-05": "本句指「被剪下的一小部分」。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-02": "「用來夾住、固定或扣住物件的小型裝置」與本句語境不同。"
+        "clip-mcq-05": "本句的「clippings」指「被剪下的一小部分」。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-05"
     },
@@ -938,11 +894,9 @@ export default {
       "masked": "He kept a newspaper ____ about the event.",
       "options": [
         "clip-mcq-06",
-        "clip-mcq-05",
-        "clip-mcq-07",
-        "clip-mcq-04",
-        "clip-mcq-08",
-        "clip-mcq-03"
+        "clip-mcq-09",
+        "clip-mcq-12",
+        "clip-mcq-07"
       ],
       "explanation": "本句的「clipping」指「從報紙剪下並保存的文章／圖片」。",
       "sentenceIndex": 19,
@@ -951,12 +905,10 @@ export default {
         "clipping"
       ],
       "optionReasons": {
-        "clip-mcq-06": "本句指「從報紙剪下並保存的文章／圖片」。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。"
+        "clip-mcq-06": "本句的「clipping」指「從報紙剪下並保存的文章／圖片」。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-06"
     },
@@ -968,11 +920,9 @@ export default {
       "masked": "The album was full of old ____.",
       "options": [
         "clip-mcq-06",
-        "clip-mcq-05",
-        "clip-mcq-07",
-        "clip-mcq-04",
+        "clip-reviewed-a2e1617560",
         "clip-mcq-08",
-        "clip-mcq-03"
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clippings」指「從報紙剪下並保存的文章／圖片」。",
       "sentenceIndex": 20,
@@ -981,12 +931,10 @@ export default {
         "clippings"
       ],
       "optionReasons": {
-        "clip-mcq-06": "本句指「從報紙剪下並保存的文章／圖片」。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-03": "「用夾子／扣件把東西固定在另一物件上」與本句語境不同。"
+        "clip-mcq-06": "本句的「clippings」指「從報紙剪下並保存的文章／圖片」。",
+        "clip-reviewed-a2e1617560": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-06"
     },
@@ -998,11 +946,9 @@ export default {
       "masked": "The car ____ the side mirror.",
       "options": [
         "clip-mcq-07",
-        "clip-mcq-06",
-        "clip-mcq-08",
-        "clip-mcq-05",
-        "clip-mcq-09",
-        "clip-mcq-04"
+        "clip-mcq-04",
+        "clip-mcq-12",
+        "clip-mcq-06"
       ],
       "explanation": "本句的「clipped」指「在移動中輕微擦撞某人／某物」。",
       "sentenceIndex": 21,
@@ -1011,12 +957,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-07": "本句指「在移動中輕微擦撞某人／某物」。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。"
+        "clip-mcq-07": "本句的「clipped」指「在移動中輕微擦撞某人／某物」。",
+        "clip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-07"
     },
@@ -1028,11 +972,9 @@ export default {
       "masked": "The cyclist ____ the curb.",
       "options": [
         "clip-mcq-07",
-        "clip-mcq-06",
-        "clip-mcq-08",
-        "clip-mcq-05",
-        "clip-mcq-09",
-        "clip-mcq-04"
+        "clip-mcq-04",
+        "clip-mcq-02",
+        "clip-mcq-10"
       ],
       "explanation": "本句的「clipped」指「在移動中輕微擦撞某人／某物」。",
       "sentenceIndex": 22,
@@ -1041,12 +983,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-07": "本句指「在移動中輕微擦撞某人／某物」。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-04": "「用剪刀／刀片快速剪去一部分或修短」與本句語境不同。"
+        "clip-mcq-07": "本句的「clipped」指「在移動中輕微擦撞某人／某物」。",
+        "clip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-07"
     },
@@ -1058,11 +998,9 @@ export default {
       "masked": "The ball ____ him on the shoulder.",
       "options": [
         "clip-pdf-002",
-        "clip-mcq-07",
-        "clip-mcq-09",
-        "clip-mcq-06",
-        "clip-mcq-10",
-        "clip-mcq-05"
+        "clip-mcq-01",
+        "clip-mcq-12",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clipped」指「快速、輕微但明顯地擊中某人／某物」。",
       "sentenceIndex": 23,
@@ -1071,12 +1009,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-pdf-002": "本句指「快速、輕微但明顯地擊中某人／某物」。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。"
+        "clip-pdf-002": "本句的「clipped」指「快速、輕微但明顯地擊中某人／某物」。",
+        "clip-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-pdf-002"
     },
@@ -1088,11 +1024,9 @@ export default {
       "masked": "The branch ____ her arm as she ran past.",
       "options": [
         "clip-pdf-002",
-        "clip-mcq-07",
-        "clip-mcq-09",
         "clip-mcq-06",
-        "clip-mcq-10",
-        "clip-mcq-05"
+        "clip-mcq-12",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clipped」指「快速、輕微但明顯地擊中某人／某物」。",
       "sentenceIndex": 24,
@@ -1101,12 +1035,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-pdf-002": "本句指「快速、輕微但明顯地擊中某人／某物」。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。"
+        "clip-pdf-002": "本句的「clipped」指「快速、輕微但明顯地擊中某人／某物」。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-pdf-002"
     },
@@ -1118,9 +1050,7 @@ export default {
       "masked": "The car was ____ at a good speed.",
       "options": [
         "clip-mcq-08",
-        "clip-mcq-07",
-        "clip-mcq-09",
-        "clip-mcq-06",
+        "clip-reviewed-3671b2bed0",
         "clip-mcq-10",
         "clip-mcq-05"
       ],
@@ -1131,12 +1061,10 @@ export default {
         "clipping along"
       ],
       "optionReasons": {
-        "clip-mcq-08": "本句指「以輕快而迅速的速度前進」。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。"
+        "clip-mcq-08": "本句的「clipping along」指「以輕快而迅速的速度前進」。",
+        "clip-reviewed-3671b2bed0": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-08"
     },
@@ -1148,10 +1076,8 @@ export default {
       "masked": "They ____ along the road before sunset.",
       "options": [
         "clip-mcq-08",
-        "clip-mcq-07",
-        "clip-mcq-09",
-        "clip-mcq-06",
-        "clip-mcq-10",
+        "clip-reviewed-a2e1617560",
+        "clip-mcq-11",
         "clip-mcq-05"
       ],
       "explanation": "本句的「clipped」指「以輕快而迅速的速度前進」。",
@@ -1161,12 +1087,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-08": "本句指「以輕快而迅速的速度前進」。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-05": "「被剪下的一小部分」與本句語境不同。"
+        "clip-mcq-08": "本句的「clipped」指「以輕快而迅速的速度前進」。",
+        "clip-reviewed-a2e1617560": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-08"
     },
@@ -1178,11 +1102,9 @@ export default {
       "masked": "The train was moving ____.",
       "options": [
         "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-10",
-        "clip-mcq-07",
-        "clip-mcq-11",
-        "clip-mcq-06"
+        "clip-mcq-06",
+        "clip-reviewed-a2e1617560",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「at a good clip」指「以相當快的速度」。",
       "sentenceIndex": 27,
@@ -1191,12 +1113,10 @@ export default {
         "at a good clip"
       ],
       "optionReasons": {
-        "clip-mcq-09": "本句指「以相當快的速度」。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-09": "本句的「at a good clip」指「以相當快的速度」。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-a2e1617560": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-09"
     },
@@ -1208,11 +1128,9 @@ export default {
       "masked": "Business is growing at a good ____.",
       "options": [
         "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-10",
-        "clip-mcq-07",
-        "clip-mcq-11",
-        "clip-mcq-06"
+        "clip-pdf-001",
+        "clip-reviewed-a2e1617560",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clip」指「以相當快的速度」。",
       "sentenceIndex": 28,
@@ -1221,12 +1139,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-09": "本句指「以相當快的速度」。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-06": "「從報紙剪下並保存的文章／圖片」與本句語境不同。"
+        "clip-mcq-09": "本句的「clip」指「以相當快的速度」。",
+        "clip-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-a2e1617560": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-09"
     },
@@ -1238,11 +1154,9 @@ export default {
       "masked": "The editor ____ several paragraphs from the article.",
       "options": [
         "clip-mcq-10",
-        "clip-mcq-09",
-        "clip-mcq-11",
         "clip-mcq-08",
-        "clip-mcq-12",
-        "clip-mcq-07"
+        "clip-reviewed-a2e1617560",
+        "clip-mcq-05"
       ],
       "explanation": "本句的「clipped」指「把內容刪短／削減」。",
       "sentenceIndex": 29,
@@ -1251,12 +1165,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-10": "本句指「把內容刪短／削減」。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-12": "「用來固定零件、電線或其他物件的卡扣／夾具」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-10": "本句的「clipped」指「把內容刪短／削減」。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-reviewed-a2e1617560": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-10"
     },
@@ -1268,11 +1180,9 @@ export default {
       "masked": "The speech was ____ to fit the time limit.",
       "options": [
         "clip-mcq-10",
-        "clip-mcq-09",
-        "clip-mcq-11",
-        "clip-mcq-08",
-        "clip-mcq-12",
-        "clip-mcq-07"
+        "clip-pdf-002",
+        "clip-mcq-05",
+        "clip-mcq-12"
       ],
       "explanation": "本句的「clipped」指「把內容刪短／削減」。",
       "sentenceIndex": 30,
@@ -1281,12 +1191,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-10": "本句指「把內容刪短／削減」。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-12": "「用來固定零件、電線或其他物件的卡扣／夾具」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-10": "本句的「clipped」指「把內容刪短／削減」。",
+        "clip-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-10"
     },
@@ -1298,11 +1206,9 @@ export default {
       "masked": "She answered in a ____ tone.",
       "options": [
         "clip-mcq-11",
-        "clip-mcq-10",
-        "clip-mcq-12",
-        "clip-mcq-09",
+        "clip-mcq-03",
         "clip-mcq-08",
-        "clip-mcq-07"
+        "clip-mcq-06"
       ],
       "explanation": "本句的「clipped」指「說話簡短、短促、生硬而沒有多餘字句的」。",
       "sentenceIndex": 31,
@@ -1311,12 +1217,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-11": "本句指「說話簡短、短促、生硬而沒有多餘字句的」。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-12": "「用來固定零件、電線或其他物件的卡扣／夾具」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-11": "本句的「clipped」指「說話簡短、短促、生硬而沒有多餘字句的」。",
+        "clip-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-11"
     },
@@ -1328,11 +1232,9 @@ export default {
       "masked": "His ____ replies made him sound impatient.",
       "options": [
         "clip-mcq-11",
-        "clip-mcq-10",
         "clip-mcq-12",
         "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-07"
+        "clip-pdf-001"
       ],
       "explanation": "本句的「clipped」指「說話簡短、短促、生硬而沒有多餘字句的」。",
       "sentenceIndex": 32,
@@ -1341,12 +1243,10 @@ export default {
         "clipped"
       ],
       "optionReasons": {
-        "clip-mcq-11": "本句指「說話簡短、短促、生硬而沒有多餘字句的」。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-12": "「用來固定零件、電線或其他物件的卡扣／夾具」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-11": "本句的「clipped」指「說話簡短、短促、生硬而沒有多餘字句的」。",
+        "clip-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clip-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-11"
     },
@@ -1358,11 +1258,9 @@ export default {
       "masked": "The ammunition was held in a metal ____.",
       "options": [
         "clip-mcq-12",
-        "clip-mcq-11",
-        "clip-mcq-10",
-        "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-07"
+        "clip-mcq-06",
+        "clip-pdf-002",
+        "clip-mcq-11"
       ],
       "explanation": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
       "sentenceIndex": 33,
@@ -1371,12 +1269,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-12": "本句指「用來固定零件、電線或其他物件的卡扣／夾具」。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-12": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-12"
     },
@@ -1388,11 +1284,9 @@ export default {
       "masked": "The ____ holds the rounds together.",
       "options": [
         "clip-mcq-12",
+        "clip-mcq-06",
         "clip-mcq-11",
-        "clip-mcq-10",
-        "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-07"
+        "clip-mcq-08"
       ],
       "explanation": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
       "sentenceIndex": 34,
@@ -1401,12 +1295,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-12": "本句指「用來固定零件、電線或其他物件的卡扣／夾具」。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-12": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-12"
     },
@@ -1418,11 +1310,9 @@ export default {
       "masked": "The cable is secured with a plastic ____.",
       "options": [
         "clip-mcq-12",
+        "clip-mcq-06",
         "clip-mcq-11",
-        "clip-mcq-10",
-        "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-07"
+        "clip-mcq-09"
       ],
       "explanation": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
       "sentenceIndex": 35,
@@ -1431,12 +1321,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-12": "本句指「用來固定零件、電線或其他物件的卡扣／夾具」。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-12": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
+        "clip-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-12"
     },
@@ -1448,11 +1336,9 @@ export default {
       "masked": "The ____ snapped into place.",
       "options": [
         "clip-mcq-12",
-        "clip-mcq-11",
-        "clip-mcq-10",
-        "clip-mcq-09",
-        "clip-mcq-08",
-        "clip-mcq-07"
+        "clip-mcq-04",
+        "clip-mcq-07",
+        "clip-pdf-001"
       ],
       "explanation": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
       "sentenceIndex": 36,
@@ -1461,12 +1347,10 @@ export default {
         "clip"
       ],
       "optionReasons": {
-        "clip-mcq-12": "本句指「用來固定零件、電線或其他物件的卡扣／夾具」。",
-        "clip-mcq-11": "「說話簡短、短促、生硬而沒有多餘字句的」與本句語境不同。",
-        "clip-mcq-10": "「把內容刪短／削減」與本句語境不同。",
-        "clip-mcq-09": "「以相當快的速度」與本句語境不同。",
-        "clip-mcq-08": "「以輕快而迅速的速度前進」與本句語境不同。",
-        "clip-mcq-07": "「在移動中輕微擦撞某人／某物」與本句語境不同。"
+        "clip-mcq-12": "本句的「clip」指「用來固定零件、電線或其他物件的卡扣／夾具」。",
+        "clip-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clip-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clip-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clip-mcq-12"
     }
@@ -1478,5 +1362,7 @@ export default {
     "sha256": "acdb9c5a1b2b828a612a94fc5f71e7abe977d03157c085cf0510551d7d408e12",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

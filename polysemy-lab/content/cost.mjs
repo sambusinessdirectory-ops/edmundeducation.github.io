@@ -366,16 +366,6 @@ export default {
           "Housing is a major part of the cost of living.",
           "住屋是生活成本的重要部分。",
           "維持日常生活所需支付的整體費用"
-        ],
-        [
-          "Higher energy prices increased production costs.",
-          "能源價格上升令生產成本增加。",
-          "維持日常生活所需支付的整體費用"
-        ],
-        [
-          "The company is trying to reduce operating costs.",
-          "公司正嘗試降低營運成本。",
-          "維持日常生活所需支付的整體費用"
         ]
       ],
       "options": [],
@@ -424,6 +414,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "cost-reviewed-3d916d10c6",
+      "title": "人工成本／生產成本／營運成本",
+      "form": "cost · source section 19",
+      "en": "人工成本／生產成本／營運成本",
+      "zh": "人工成本／生產成本／營運成本",
+      "note": "對照原始教材第 19 節及例句核實。",
+      "examples": [
+        [
+          "Higher energy prices increased production costs.",
+          "能源價格上升令生產成本增加。",
+          "人工成本／生產成本／營運成本"
+        ],
+        [
+          "The company is trying to reduce operating costs.",
+          "公司正嘗試降低營運成本。",
+          "人工成本／生產成本／營運成本"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -435,11 +447,9 @@ export default {
       "masked": "It would ____ a fortune.",
       "options": [
         "cost-mcq-02",
-        "cost-mcq-01",
-        "cost-mcq-03",
-        "cost-mcq-04",
-        "cost-mcq-05",
-        "cost-mcq-06"
+        "cost-mcq-14",
+        "cost-mcq-08",
+        "cost-mcq-18"
       ],
       "explanation": "本句的「cost」指「某件事令某人需要支付指定金額」。",
       "sentenceIndex": 0,
@@ -448,12 +458,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-02": "本句指「某件事令某人需要支付指定金額」。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-02": "本句的「cost」指「某件事令某人需要支付指定金額」。",
+        "cost-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-02"
     },
@@ -465,11 +473,9 @@ export default {
       "masked": "The frame ____ five hundred dollars.",
       "options": [
         "cost-mcq-02",
-        "cost-mcq-01",
-        "cost-mcq-03",
-        "cost-mcq-04",
-        "cost-mcq-05",
-        "cost-mcq-06"
+        "cost-mcq-08",
+        "cost-mcq-18",
+        "cost-mcq-13"
       ],
       "explanation": "本句的「cost」指「某件事令某人需要支付指定金額」。",
       "sentenceIndex": 1,
@@ -478,12 +484,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-02": "本句指「某件事令某人需要支付指定金額」。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-02": "本句的「cost」指「某件事令某人需要支付指定金額」。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-02"
     },
@@ -495,11 +499,9 @@ export default {
       "masked": "How much does the ticket ____?",
       "options": [
         "cost-mcq-02",
-        "cost-mcq-01",
-        "cost-mcq-03",
-        "cost-mcq-04",
+        "cost-mcq-13",
         "cost-mcq-05",
-        "cost-mcq-06"
+        "cost-mcq-04"
       ],
       "explanation": "本句的「cost」指「某件事令某人需要支付指定金額」。",
       "sentenceIndex": 2,
@@ -508,12 +510,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-02": "本句指「某件事令某人需要支付指定金額」。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-02": "本句的「cost」指「某件事令某人需要支付指定金額」。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-02"
     },
@@ -525,11 +525,9 @@ export default {
       "masked": "The reproduction would ____ around four thousand dollars.",
       "options": [
         "cost-mcq-02",
-        "cost-mcq-01",
-        "cost-mcq-03",
-        "cost-mcq-04",
-        "cost-mcq-05",
-        "cost-mcq-06"
+        "cost-reviewed-3d916d10c6",
+        "cost-mcq-08",
+        "cost-mcq-09"
       ],
       "explanation": "本句的「cost me」指「某件事令某人需要支付指定金額」。",
       "sentenceIndex": 3,
@@ -538,12 +536,10 @@ export default {
         "cost me"
       ],
       "optionReasons": {
-        "cost-mcq-02": "本句指「某件事令某人需要支付指定金額」。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-02": "本句的「cost me」指「某件事令某人需要支付指定金額」。",
+        "cost-reviewed-3d916d10c6": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-02"
     },
@@ -555,11 +551,9 @@ export default {
       "masked": "The repair ____ us more than expected.",
       "options": [
         "cost-mcq-02",
-        "cost-mcq-01",
-        "cost-mcq-03",
-        "cost-mcq-04",
         "cost-mcq-05",
-        "cost-mcq-06"
+        "cost-mcq-13",
+        "cost-mcq-04"
       ],
       "explanation": "本句的「cost」指「某件事令某人需要支付指定金額」。",
       "sentenceIndex": 4,
@@ -568,12 +562,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-02": "本句指「某件事令某人需要支付指定金額」。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-02": "本句的「cost」指「某件事令某人需要支付指定金額」。",
+        "cost-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-02"
     },
@@ -585,11 +577,9 @@ export default {
       "masked": "The total ____ was higher than expected.",
       "options": [
         "cost-mcq-03",
-        "cost-mcq-02",
-        "cost-mcq-04",
-        "cost-mcq-01",
         "cost-mcq-05",
-        "cost-mcq-06"
+        "cost-mcq-07",
+        "cost-mcq-10"
       ],
       "explanation": "本句的「cost」指「購買、製造或完成某事所需的金錢」。",
       "sentenceIndex": 5,
@@ -598,12 +588,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-03": "本句指「購買、製造或完成某事所需的金錢」。",
-        "cost-mcq-02": "「某件事令某人需要支付指定金額」是「cost + person + amount」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-03": "本句的「cost」指「購買、製造或完成某事所需的金錢」。",
+        "cost-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-03"
     },
@@ -615,10 +603,8 @@ export default {
       "masked": "We need to reduce the ____ of production.",
       "options": [
         "cost-mcq-03",
-        "cost-mcq-02",
-        "cost-mcq-04",
-        "cost-mcq-01",
-        "cost-mcq-05",
+        "cost-mcq-09",
+        "cost-mcq-08",
         "cost-mcq-06"
       ],
       "explanation": "本句的「cost」指「購買、製造或完成某事所需的金錢」。",
@@ -628,12 +614,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-03": "本句指「購買、製造或完成某事所需的金錢」。",
-        "cost-mcq-02": "「某件事令某人需要支付指定金額」是「cost + person + amount」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-03": "本句的「cost」指「購買、製造或完成某事所需的金錢」。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-03"
     },
@@ -645,11 +629,9 @@ export default {
       "masked": "Travel ____ have increased.",
       "options": [
         "cost-mcq-04",
-        "cost-mcq-03",
-        "cost-mcq-05",
-        "cost-mcq-02",
+        "cost-mcq-10",
         "cost-mcq-06",
-        "cost-mcq-01"
+        "cost-mcq-09"
       ],
       "explanation": "本句的「costs」指「某類活動或生活產生的各項開支」。",
       "sentenceIndex": 7,
@@ -658,12 +640,10 @@ export default {
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-04": "本句指「某類活動或生活產生的各項開支」。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-02": "「某件事令某人需要支付指定金額」是「cost + person + amount」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。"
+        "cost-mcq-04": "本句的「costs」指「某類活動或生活產生的各項開支」。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-04"
     },
@@ -675,11 +655,9 @@ export default {
       "masked": "Housing ____ are very high.",
       "options": [
         "cost-mcq-04",
-        "cost-mcq-03",
-        "cost-mcq-05",
-        "cost-mcq-02",
-        "cost-mcq-06",
-        "cost-mcq-01"
+        "cost-mcq-08",
+        "cost-mcq-11",
+        "cost-mcq-09"
       ],
       "explanation": "本句的「costs」指「某類活動或生活產生的各項開支」。",
       "sentenceIndex": 8,
@@ -688,12 +666,10 @@ export default {
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-04": "本句指「某類活動或生活產生的各項開支」。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-02": "「某件事令某人需要支付指定金額」是「cost + person + amount」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-01": "「購買、取得或完成某事需要支付某個金額」是「cost — verb: price」的用法，與本句語境不同。"
+        "cost-mcq-04": "本句的「costs」指「某類活動或生活產生的各項開支」。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-04"
     },
@@ -705,11 +681,9 @@ export default {
       "masked": "Success came at a high ____.",
       "options": [
         "cost-mcq-05",
-        "cost-mcq-04",
-        "cost-mcq-06",
-        "cost-mcq-03",
-        "cost-mcq-07",
-        "cost-mcq-02"
+        "cost-reviewed-3d916d10c6",
+        "cost-mcq-16",
+        "cost-mcq-07"
       ],
       "explanation": "本句的「cost」指「為得到某結果而失去、犧牲或承受的代價」。",
       "sentenceIndex": 9,
@@ -718,12 +692,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-05": "本句指「為得到某結果而失去、犧牲或承受的代價」。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-02": "「某件事令某人需要支付指定金額」是「cost + person + amount」的用法，與本句語境不同。"
+        "cost-mcq-05": "本句的「cost」指「為得到某結果而失去、犧牲或承受的代價」。",
+        "cost-reviewed-3d916d10c6": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-05"
     },
@@ -735,11 +707,9 @@ export default {
       "masked": "The project was completed, but at considerable personal ____.",
       "options": [
         "cost-mcq-05",
-        "cost-mcq-04",
-        "cost-mcq-06",
-        "cost-mcq-03",
         "cost-mcq-07",
-        "cost-mcq-02"
+        "cost-mcq-16",
+        "cost-mcq-13"
       ],
       "explanation": "本句的「cost」指「為得到某結果而失去、犧牲或承受的代價」。",
       "sentenceIndex": 10,
@@ -748,12 +718,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-05": "本句指「為得到某結果而失去、犧牲或承受的代價」。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-02": "「某件事令某人需要支付指定金額」是「cost + person + amount」的用法，與本句語境不同。"
+        "cost-mcq-05": "本句的「cost」指「為得到某結果而失去、犧牲或承受的代價」。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-05"
     },
@@ -765,11 +733,9 @@ export default {
       "masked": "The mistake ____.",
       "options": [
         "cost-mcq-06",
-        "cost-mcq-05",
-        "cost-mcq-07",
-        "cost-mcq-04",
-        "cost-mcq-08",
-        "cost-mcq-03"
+        "cost-mcq-09",
+        "cost-mcq-10",
+        "cost-mcq-17"
       ],
       "explanation": "本句的「cost him his job」指「某件事令某人失去某物或承受某種損失」。",
       "sentenceIndex": 11,
@@ -778,12 +744,10 @@ export default {
         "cost him his job"
       ],
       "optionReasons": {
-        "cost-mcq-06": "本句指「某件事令某人失去某物或承受某種損失」。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。"
+        "cost-mcq-06": "本句的「cost him his job」指「某件事令某人失去某物或承受某種損失」。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-06"
     },
@@ -795,11 +759,9 @@ export default {
       "masked": "The delay could ____ the company customers.",
       "options": [
         "cost-mcq-06",
-        "cost-mcq-05",
-        "cost-mcq-07",
-        "cost-mcq-04",
-        "cost-mcq-08",
-        "cost-mcq-03"
+        "cost-mcq-03",
+        "cost-mcq-09",
+        "cost-mcq-10"
       ],
       "explanation": "本句的「cost」指「某件事令某人失去某物或承受某種損失」。",
       "sentenceIndex": 12,
@@ -808,12 +770,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-06": "本句指「某件事令某人失去某物或承受某種損失」。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-03": "「購買、製造或完成某事所需的金錢」是「cost — noun: financial」的用法，與本句語境不同。"
+        "cost-mcq-06": "本句的「cost」指「某件事令某人失去某物或承受某種損失」。",
+        "cost-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-06"
     },
@@ -825,10 +785,8 @@ export default {
       "masked": "The error ____.",
       "options": [
         "cost-mcq-07",
-        "cost-mcq-06",
+        "cost-mcq-13",
         "cost-mcq-08",
-        "cost-mcq-05",
-        "cost-mcq-09",
         "cost-mcq-04"
       ],
       "explanation": "本句的「cost us several hours」指「令某人不得不付出額外時間或精力」。",
@@ -838,12 +796,10 @@ export default {
         "cost us several hours"
       ],
       "optionReasons": {
-        "cost-mcq-07": "本句指「令某人不得不付出額外時間或精力」。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。"
+        "cost-mcq-07": "本句的「cost us several hours」指「令某人不得不付出額外時間或精力」。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-07"
     },
@@ -855,11 +811,9 @@ export default {
       "masked": "Poor planning can ____ you a lot of effort.",
       "options": [
         "cost-mcq-07",
-        "cost-mcq-06",
-        "cost-mcq-08",
-        "cost-mcq-05",
-        "cost-mcq-09",
-        "cost-mcq-04"
+        "cost-mcq-13",
+        "cost-mcq-11",
+        "cost-mcq-18"
       ],
       "explanation": "本句的「cost」指「令某人不得不付出額外時間或精力」。",
       "sentenceIndex": 14,
@@ -868,12 +822,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-07": "本句指「令某人不得不付出額外時間或精力」。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-04": "「某類活動或生活產生的各項開支」是「costs — expenses」的用法，與本句語境不同。"
+        "cost-mcq-07": "本句的「cost」指「令某人不得不付出額外時間或精力」。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-07"
     },
@@ -885,11 +837,9 @@ export default {
       "masked": "The room looked beautiful, but ____.",
       "options": [
         "cost-mcq-08",
-        "cost-mcq-07",
-        "cost-mcq-09",
         "cost-mcq-06",
-        "cost-mcq-10",
-        "cost-mcq-05"
+        "cost-mcq-11",
+        "cost-mcq-14"
       ],
       "explanation": "本句的「at a cost」指「為得到某物而犧牲另一物」。",
       "sentenceIndex": 15,
@@ -898,12 +848,10 @@ export default {
         "at a cost"
       ],
       "optionReasons": {
-        "cost-mcq-08": "本句指「為得到某物而犧牲另一物」。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。"
+        "cost-mcq-08": "本句的「at a cost」指「為得到某物而犧牲另一物」。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-08"
     },
@@ -916,10 +864,8 @@ export default {
       "options": [
         "cost-mcq-08",
         "cost-mcq-07",
-        "cost-mcq-09",
-        "cost-mcq-06",
-        "cost-mcq-10",
-        "cost-mcq-05"
+        "cost-mcq-04",
+        "cost-mcq-10"
       ],
       "explanation": "本句的「cost」指「為得到某物而犧牲另一物」。",
       "sentenceIndex": 16,
@@ -928,12 +874,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-08": "本句指「為得到某物而犧牲另一物」。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。"
+        "cost-mcq-08": "本句的「cost」指「為得到某物而犧牲另一物」。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-08"
     },
@@ -945,11 +889,9 @@ export default {
       "masked": "He worked long hours ____.",
       "options": [
         "cost-mcq-08",
-        "cost-mcq-07",
-        "cost-mcq-09",
-        "cost-mcq-06",
-        "cost-mcq-10",
-        "cost-mcq-05"
+        "cost-mcq-12",
+        "cost-mcq-13",
+        "cost-mcq-09"
       ],
       "explanation": "本句的「at the cost of his health」指「為得到某物而犧牲另一物」。",
       "sentenceIndex": 17,
@@ -958,12 +900,10 @@ export default {
         "at the cost of his health"
       ],
       "optionReasons": {
-        "cost-mcq-08": "本句指「為得到某物而犧牲另一物」。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。"
+        "cost-mcq-08": "本句的「at the cost of his health」指「為得到某物而犧牲另一物」。",
+        "cost-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-08"
     },
@@ -975,11 +915,9 @@ export default {
       "masked": "Speed should not come at the ____ of quality.",
       "options": [
         "cost-mcq-08",
-        "cost-mcq-07",
         "cost-mcq-09",
-        "cost-mcq-06",
-        "cost-mcq-10",
-        "cost-mcq-05"
+        "cost-mcq-03",
+        "cost-mcq-14"
       ],
       "explanation": "本句的「cost」指「為得到某物而犧牲另一物」。",
       "sentenceIndex": 18,
@@ -988,12 +926,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-08": "本句指「為得到某物而犧牲另一物」。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-05": "「為得到某結果而失去、犧牲或承受的代價」是「cost — sacrifice」的用法，與本句語境不同。"
+        "cost-mcq-08": "本句的「cost」指「為得到某物而犧牲另一物」。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-08"
     },
@@ -1005,11 +941,9 @@ export default {
       "masked": "They wanted to avoid damaging the painting ____.",
       "options": [
         "cost-mcq-09",
-        "cost-mcq-08",
-        "cost-mcq-10",
-        "cost-mcq-07",
-        "cost-mcq-11",
-        "cost-mcq-06"
+        "cost-mcq-03",
+        "cost-mcq-14",
+        "cost-mcq-08"
       ],
       "explanation": "本句的「at all costs」指「無論付出甚麼代價都要做到」。",
       "sentenceIndex": 19,
@@ -1018,12 +952,10 @@ export default {
         "at all costs"
       ],
       "optionReasons": {
-        "cost-mcq-09": "本句指「無論付出甚麼代價都要做到」。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-09": "本句的「at all costs」指「無論付出甚麼代價都要做到」。",
+        "cost-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-09"
     },
@@ -1035,11 +967,9 @@ export default {
       "masked": "She was determined to succeed at all ____.",
       "options": [
         "cost-mcq-09",
-        "cost-mcq-08",
-        "cost-mcq-10",
-        "cost-mcq-07",
-        "cost-mcq-11",
-        "cost-mcq-06"
+        "cost-mcq-13",
+        "cost-mcq-04",
+        "cost-mcq-08"
       ],
       "explanation": "本句的「costs」指「無論付出甚麼代價都要做到」。",
       "sentenceIndex": 20,
@@ -1048,12 +978,10 @@ export default {
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-09": "本句指「無論付出甚麼代價都要做到」。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-06": "「某件事令某人失去某物或承受某種損失」是「cost someone something」的用法，與本句語境不同。"
+        "cost-mcq-09": "本句的「costs」指「無論付出甚麼代價都要做到」。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-09"
     },
@@ -1065,11 +993,9 @@ export default {
       "masked": "Digital printing can be more ____.",
       "options": [
         "cost-mcq-10",
-        "cost-mcq-09",
-        "cost-mcq-11",
         "cost-mcq-08",
-        "cost-mcq-12",
-        "cost-mcq-07"
+        "cost-mcq-06",
+        "cost-mcq-04"
       ],
       "explanation": "本句的「cost-effective」指「所付成本與所得效果相比合理、值得」。",
       "sentenceIndex": 21,
@@ -1078,12 +1004,10 @@ export default {
         "cost-effective"
       ],
       "optionReasons": {
-        "cost-mcq-10": "本句指「所付成本與所得效果相比合理、值得」。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。"
+        "cost-mcq-10": "本句的「cost-effective」指「所付成本與所得效果相比合理、值得」。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-10"
     },
@@ -1095,11 +1019,9 @@ export default {
       "masked": "We need a ____ solution.",
       "options": [
         "cost-mcq-10",
-        "cost-mcq-09",
-        "cost-mcq-11",
-        "cost-mcq-08",
-        "cost-mcq-12",
-        "cost-mcq-07"
+        "cost-mcq-06",
+        "cost-mcq-17",
+        "cost-mcq-08"
       ],
       "explanation": "本句的「cost-effective」指「所付成本與所得效果相比合理、值得」。",
       "sentenceIndex": 22,
@@ -1108,12 +1030,10 @@ export default {
         "cost-effective"
       ],
       "optionReasons": {
-        "cost-mcq-10": "本句指「所付成本與所得效果相比合理、值得」。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-07": "「令某人不得不付出額外時間或精力」是「cost someone time/effort」的用法，與本句語境不同。"
+        "cost-mcq-10": "本句的「cost-effective」指「所付成本與所得效果相比合理、值得」。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-10"
     },
@@ -1125,11 +1045,9 @@ export default {
       "masked": "The restoration was extremely ____.",
       "options": [
         "cost-mcq-11",
-        "cost-mcq-10",
-        "cost-mcq-12",
-        "cost-mcq-09",
-        "cost-mcq-13",
-        "cost-mcq-08"
+        "cost-mcq-05",
+        "cost-mcq-07",
+        "cost-reviewed-3d916d10c6"
       ],
       "explanation": "本句的「costly」指「需要花很多金錢的」。",
       "sentenceIndex": 23,
@@ -1138,12 +1056,10 @@ export default {
         "costly"
       ],
       "optionReasons": {
-        "cost-mcq-11": "本句指「需要花很多金錢的」。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。"
+        "cost-mcq-11": "本句的「costly」指「需要花很多金錢的」。",
+        "cost-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cost-reviewed-3d916d10c6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-11"
     },
@@ -1155,10 +1071,8 @@ export default {
       "masked": "It was a ____ piece of equipment.",
       "options": [
         "cost-mcq-11",
-        "cost-mcq-10",
-        "cost-mcq-12",
-        "cost-mcq-09",
-        "cost-mcq-13",
+        "cost-reviewed-3d916d10c6",
+        "cost-mcq-06",
         "cost-mcq-08"
       ],
       "explanation": "本句的「costly」指「需要花很多金錢的」。",
@@ -1168,12 +1082,10 @@ export default {
         "costly"
       ],
       "optionReasons": {
-        "cost-mcq-11": "本句指「需要花很多金錢的」。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-08": "「為得到某物而犧牲另一物」是「at the cost of」的用法，與本句語境不同。"
+        "cost-mcq-11": "本句的「costly」指「需要花很多金錢的」。",
+        "cost-reviewed-3d916d10c6": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-11"
     },
@@ -1185,11 +1097,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "cost-mcq-12",
-        "cost-mcq-11",
-        "cost-mcq-13",
-        "cost-mcq-10",
-        "cost-mcq-14",
-        "cost-mcq-09"
+        "cost-mcq-09",
+        "cost-mcq-08",
+        "cost-mcq-13"
       ],
       "explanation": "本句的「costly mistake」指「造成嚴重金錢、時間或其他損失的」。",
       "sentenceIndex": 25,
@@ -1198,12 +1108,10 @@ export default {
         "costly mistake"
       ],
       "optionReasons": {
-        "cost-mcq-12": "本句指「造成嚴重金錢、時間或其他損失的」。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。"
+        "cost-mcq-12": "本句的「costly mistake」指「造成嚴重金錢、時間或其他損失的」。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-12"
     },
@@ -1215,11 +1123,9 @@ export default {
       "masked": "The delay proved ____.",
       "options": [
         "cost-mcq-12",
-        "cost-mcq-11",
-        "cost-mcq-13",
-        "cost-mcq-10",
-        "cost-mcq-14",
-        "cost-mcq-09"
+        "cost-mcq-08",
+        "cost-mcq-09",
+        "cost-mcq-14"
       ],
       "explanation": "本句的「costly」指「造成嚴重金錢、時間或其他損失的」。",
       "sentenceIndex": 26,
@@ -1228,12 +1134,10 @@ export default {
         "costly"
       ],
       "optionReasons": {
-        "cost-mcq-12": "本句指「造成嚴重金錢、時間或其他損失的」。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-09": "「無論付出甚麼代價都要做到」是「at all costs」的用法，與本句語境不同。"
+        "cost-mcq-12": "本句的「costly」指「造成嚴重金錢、時間或其他損失的」。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-12"
     },
@@ -1245,11 +1149,9 @@ export default {
       "masked": "The finance team prepared a detailed ____.",
       "options": [
         "cost-mcq-13",
-        "cost-mcq-12",
-        "cost-mcq-14",
-        "cost-mcq-11",
-        "cost-mcq-15",
-        "cost-mcq-10"
+        "cost-mcq-16",
+        "cost-mcq-06",
+        "cost-mcq-09"
       ],
       "explanation": "本句的「costing」指「計算產品、服務或項目成本的過程」。",
       "sentenceIndex": 27,
@@ -1258,12 +1160,10 @@ export default {
         "costing"
       ],
       "optionReasons": {
-        "cost-mcq-13": "本句指「計算產品、服務或項目成本的過程」。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。"
+        "cost-mcq-13": "本句的「costing」指「計算產品、服務或項目成本的過程」。",
+        "cost-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-13"
     },
@@ -1275,11 +1175,9 @@ export default {
       "masked": "We need a full ____ before approving the project.",
       "options": [
         "cost-mcq-13",
-        "cost-mcq-12",
-        "cost-mcq-14",
         "cost-mcq-11",
-        "cost-mcq-15",
-        "cost-mcq-10"
+        "cost-mcq-09",
+        "cost-mcq-08"
       ],
       "explanation": "本句的「costing」指「計算產品、服務或項目成本的過程」。",
       "sentenceIndex": 28,
@@ -1288,12 +1186,10 @@ export default {
         "costing"
       ],
       "optionReasons": {
-        "cost-mcq-13": "本句指「計算產品、服務或項目成本的過程」。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-10": "「所付成本與所得效果相比合理、值得」是「cost-effective」的用法，與本句語境不同。"
+        "cost-mcq-13": "本句的「costing」指「計算產品、服務或項目成本的過程」。",
+        "cost-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-13"
     },
@@ -1305,11 +1201,9 @@ export default {
       "masked": "The project was carefully ____ before approval.",
       "options": [
         "cost-mcq-14",
-        "cost-mcq-13",
-        "cost-mcq-15",
-        "cost-mcq-12",
-        "cost-mcq-16",
-        "cost-mcq-11"
+        "cost-mcq-09",
+        "cost-mcq-02",
+        "cost-mcq-08"
       ],
       "explanation": "本句的「costed」指「已對某項目／產品進行成本核算」。",
       "sentenceIndex": 29,
@@ -1318,12 +1212,10 @@ export default {
         "costed"
       ],
       "optionReasons": {
-        "cost-mcq-14": "本句指「已對某項目／產品進行成本核算」。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。"
+        "cost-mcq-14": "本句的「costed」指「已對某項目／產品進行成本核算」。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-14"
     },
@@ -1335,11 +1227,9 @@ export default {
       "masked": "We have ____ the new design.",
       "options": [
         "cost-mcq-14",
-        "cost-mcq-13",
-        "cost-mcq-15",
-        "cost-mcq-12",
+        "cost-mcq-05",
         "cost-mcq-16",
-        "cost-mcq-11"
+        "cost-mcq-07"
       ],
       "explanation": "本句的「costed」指「已對某項目／產品進行成本核算」。",
       "sentenceIndex": 30,
@@ -1348,12 +1238,10 @@ export default {
         "costed"
       ],
       "optionReasons": {
-        "cost-mcq-14": "本句指「已對某項目／產品進行成本核算」。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-11": "「需要花很多金錢的」是「costly — price」的用法，與本句語境不同。"
+        "cost-mcq-14": "本句的「costed」指「已對某項目／產品進行成本核算」。",
+        "cost-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-14"
     },
@@ -1365,11 +1253,7 @@ export default {
       "masked": "The shop sold the item at ____.",
       "options": [
         "cost-mcq-15",
-        "cost-mcq-14",
-        "cost-mcq-16",
-        "cost-mcq-13",
-        "cost-mcq-17",
-        "cost-mcq-12"
+        "cost-mcq-07"
       ],
       "explanation": "本句的「cost price」指「商品生產／取得成本，不包括利潤的價格」。",
       "sentenceIndex": 31,
@@ -1378,12 +1262,8 @@ export default {
         "cost price"
       ],
       "optionReasons": {
-        "cost-mcq-15": "本句指「商品生產／取得成本，不包括利潤的價格」。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。"
+        "cost-mcq-15": "本句的「cost price」指「商品生產／取得成本，不包括利潤的價格」。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-15"
     },
@@ -1395,11 +1275,8 @@ export default {
       "masked": "The ____ price does not include profit.",
       "options": [
         "cost-mcq-15",
-        "cost-mcq-14",
-        "cost-mcq-16",
-        "cost-mcq-13",
-        "cost-mcq-17",
-        "cost-mcq-12"
+        "cost-mcq-06",
+        "cost-mcq-09"
       ],
       "explanation": "本句的「cost」指「商品生產／取得成本，不包括利潤的價格」。",
       "sentenceIndex": 32,
@@ -1408,12 +1285,9 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-15": "本句指「商品生產／取得成本，不包括利潤的價格」。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-12": "「造成嚴重金錢、時間或其他損失的」是「costly — consequence」的用法，與本句語境不同。"
+        "cost-mcq-15": "本句的「cost」指「商品生產／取得成本，不包括利潤的價格」。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-15"
     },
@@ -1425,11 +1299,9 @@ export default {
       "masked": "The ____ has risen.",
       "options": [
         "cost-mcq-16",
-        "cost-mcq-15",
-        "cost-mcq-17",
+        "cost-mcq-08",
         "cost-mcq-14",
-        "cost-mcq-18",
-        "cost-mcq-13"
+        "cost-mcq-06"
       ],
       "explanation": "本句的「cost of living」指「維持日常生活所需支付的整體費用」。",
       "sentenceIndex": 33,
@@ -1438,12 +1310,10 @@ export default {
         "cost of living"
       ],
       "optionReasons": {
-        "cost-mcq-16": "本句指「維持日常生活所需支付的整體費用」。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-18": "「某活動對社會／環境造成的負面負擔或代價」是「social/environmental cost」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-mcq-16": "本句的「cost of living」指「維持日常生活所需支付的整體費用」。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-16"
     },
@@ -1455,11 +1325,9 @@ export default {
       "masked": "Housing is a major part of the ____ of living.",
       "options": [
         "cost-mcq-16",
-        "cost-mcq-15",
-        "cost-mcq-17",
-        "cost-mcq-14",
-        "cost-mcq-18",
-        "cost-mcq-13"
+        "cost-mcq-13",
+        "cost-mcq-06",
+        "cost-mcq-08"
       ],
       "explanation": "本句的「cost」指「維持日常生活所需支付的整體費用」。",
       "sentenceIndex": 34,
@@ -1468,74 +1336,68 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-16": "本句指「維持日常生活所需支付的整體費用」。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-18": "「某活動對社會／環境造成的負面負擔或代價」是「social/environmental cost」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-mcq-16": "本句的「cost」指「維持日常生活所需支付的整體費用」。",
+        "cost-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-16"
     },
     {
       "id": "cost-19-0",
-      "sense": "cost-mcq-16",
+      "sense": "cost-reviewed-3d916d10c6",
       "en": "Higher energy prices increased production costs.",
       "zh": "能源價格上升令生產成本增加。",
       "masked": "Higher energy prices increased production ____.",
       "options": [
-        "cost-mcq-16",
-        "cost-mcq-15",
-        "cost-mcq-17",
-        "cost-mcq-14",
-        "cost-mcq-18",
-        "cost-mcq-13"
+        "cost-reviewed-3d916d10c6",
+        "cost-mcq-02",
+        "cost-mcq-09",
+        "cost-mcq-08"
       ],
-      "explanation": "本句的「costs」指「維持日常生活所需支付的整體費用」。",
+      "explanation": "對照完整句子：「能源價格上升令生產成本增加。」。這裡的「costs」表示「人工成本／生產成本／營運成本」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-16": "本句指「維持日常生活所需支付的整體費用」。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-18": "「某活動對社會／環境造成的負面負擔或代價」是「social/environmental cost」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-reviewed-3d916d10c6": "對照完整句子：「能源價格上升令生產成本增加。」。這裡的「costs」表示「人工成本／生產成本／營運成本」。",
+        "cost-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "cost-mcq-16"
+      "correctOption": "cost-reviewed-3d916d10c6",
+      "previousCorrectOption": "cost-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "cost-19-1",
-      "sense": "cost-mcq-16",
+      "sense": "cost-reviewed-3d916d10c6",
       "en": "The company is trying to reduce operating costs.",
       "zh": "公司正嘗試降低營運成本。",
       "masked": "The company is trying to reduce operating ____.",
       "options": [
-        "cost-mcq-16",
-        "cost-mcq-15",
-        "cost-mcq-17",
-        "cost-mcq-14",
-        "cost-mcq-18",
-        "cost-mcq-13"
+        "cost-reviewed-3d916d10c6",
+        "cost-mcq-09",
+        "cost-mcq-08",
+        "cost-mcq-06"
       ],
-      "explanation": "本句的「costs」指「維持日常生活所需支付的整體費用」。",
+      "explanation": "對照完整句子：「公司正嘗試降低營運成本。」。這裡的「costs」表示「人工成本／生產成本／營運成本」。",
       "sentenceIndex": 36,
       "sourcePractice": 37,
       "targets": [
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-16": "本句指「維持日常生活所需支付的整體費用」。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-18": "「某活動對社會／環境造成的負面負擔或代價」是「social/environmental cost」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-reviewed-3d916d10c6": "對照完整句子：「公司正嘗試降低營運成本。」。這裡的「costs」表示「人工成本／生產成本／營運成本」。",
+        "cost-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "cost-mcq-16"
+      "correctOption": "cost-reviewed-3d916d10c6",
+      "previousCorrectOption": "cost-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "cost-20-0",
@@ -1545,11 +1407,9 @@ export default {
       "masked": "The losing side may have to pay the legal ____.",
       "options": [
         "cost-mcq-17",
-        "cost-mcq-16",
-        "cost-mcq-18",
-        "cost-mcq-15",
-        "cost-mcq-14",
-        "cost-mcq-13"
+        "cost-mcq-10",
+        "cost-mcq-08",
+        "cost-mcq-06"
       ],
       "explanation": "本句的「costs」指「因法律服務或訴訟程序產生的費用」。",
       "sentenceIndex": 37,
@@ -1558,12 +1418,10 @@ export default {
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-17": "本句指「因法律服務或訴訟程序產生的費用」。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-18": "「某活動對社會／環境造成的負面負擔或代價」是「social/environmental cost」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-mcq-17": "本句的「costs」指「因法律服務或訴訟程序產生的費用」。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-17"
     },
@@ -1575,11 +1433,9 @@ export default {
       "masked": "Legal ____ can be substantial.",
       "options": [
         "cost-mcq-17",
-        "cost-mcq-16",
-        "cost-mcq-18",
-        "cost-mcq-15",
-        "cost-mcq-14",
-        "cost-mcq-13"
+        "cost-mcq-05",
+        "cost-mcq-07",
+        "cost-mcq-10"
       ],
       "explanation": "本句的「costs」指「因法律服務或訴訟程序產生的費用」。",
       "sentenceIndex": 38,
@@ -1588,12 +1444,10 @@ export default {
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-17": "本句指「因法律服務或訴訟程序產生的費用」。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-18": "「某活動對社會／環境造成的負面負擔或代價」是「social/environmental cost」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-mcq-17": "本句的「costs」指「因法律服務或訴訟程序產生的費用」。",
+        "cost-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-17"
     },
@@ -1605,11 +1459,9 @@ export default {
       "masked": "Air pollution creates serious social ____.",
       "options": [
         "cost-mcq-18",
-        "cost-mcq-17",
-        "cost-mcq-16",
-        "cost-mcq-15",
-        "cost-mcq-14",
-        "cost-mcq-13"
+        "cost-mcq-08",
+        "cost-mcq-11",
+        "cost-mcq-07"
       ],
       "explanation": "本句的「costs」指「某活動對社會／環境造成的負面負擔或代價」。",
       "sentenceIndex": 39,
@@ -1618,12 +1470,10 @@ export default {
         "costs"
       ],
       "optionReasons": {
-        "cost-mcq-18": "本句指「某活動對社會／環境造成的負面負擔或代價」。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-mcq-18": "本句的「costs」指「某活動對社會／環境造成的負面負擔或代價」。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-18"
     },
@@ -1635,11 +1485,9 @@ export default {
       "masked": "The environmental ____ of the project was high.",
       "options": [
         "cost-mcq-18",
-        "cost-mcq-17",
-        "cost-mcq-16",
-        "cost-mcq-15",
-        "cost-mcq-14",
-        "cost-mcq-13"
+        "cost-mcq-07",
+        "cost-mcq-08",
+        "cost-mcq-11"
       ],
       "explanation": "本句的「cost」指「某活動對社會／環境造成的負面負擔或代價」。",
       "sentenceIndex": 40,
@@ -1648,12 +1496,10 @@ export default {
         "cost"
       ],
       "optionReasons": {
-        "cost-mcq-18": "本句指「某活動對社會／環境造成的負面負擔或代價」。",
-        "cost-mcq-17": "「因法律服務或訴訟程序產生的費用」是「legal costs」的用法，與本句語境不同。",
-        "cost-mcq-16": "「維持日常生活所需支付的整體費用」是「cost of living」的用法，與本句語境不同。",
-        "cost-mcq-15": "「商品生產／取得成本，不包括利潤的價格」是「cost price」的用法，與本句語境不同。",
-        "cost-mcq-14": "「已對某項目／產品進行成本核算」是「costed」的用法，與本句語境不同。",
-        "cost-mcq-13": "「計算產品、服務或項目成本的過程」是「costing」的用法，與本句語境不同。"
+        "cost-mcq-18": "本句的「cost」指「某活動對社會／環境造成的負面負擔或代價」。",
+        "cost-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cost-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cost-mcq-18"
     }
@@ -1665,5 +1511,7 @@ export default {
     "sha256": "9b9d7f27f636af8d937fef04e02470df1024e6113a73af039e9fae4615dee2f8",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

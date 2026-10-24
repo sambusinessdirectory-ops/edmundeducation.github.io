@@ -759,11 +759,9 @@ export default {
       "masked": "The ball ____.",
       "options": [
         "strike-mcq-01",
-        "strike-mcq-02",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-10",
+        "strike-mcq-14",
+        "strike-mcq-21"
       ],
       "explanation": "本句的「struck the wall」指「用力打、擊中或撞到」。",
       "sentenceIndex": 2,
@@ -772,12 +770,10 @@ export default {
         "struck the wall"
       ],
       "optionReasons": {
-        "strike-mcq-01": "本句指「用力打、擊中或撞到」。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-01": "本句的「struck the wall」指「用力打、擊中或撞到」。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-01"
     },
@@ -789,11 +785,9 @@ export default {
       "masked": "He accidentally ____ on the shelf.",
       "options": [
         "strike-mcq-01",
-        "strike-mcq-02",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-20",
+        "strike-mcq-11",
+        "strike-mcq-18"
       ],
       "explanation": "本句的「struck his head」指「用力打、擊中或撞到」。",
       "sentenceIndex": 3,
@@ -802,12 +796,10 @@ export default {
         "struck his head"
       ],
       "optionReasons": {
-        "strike-mcq-01": "本句指「用力打、擊中或撞到」。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-01": "本句的「struck his head」指「用力打、擊中或撞到」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-01"
     },
@@ -819,11 +811,9 @@ export default {
       "masked": "He was ____ by a falling object.",
       "options": [
         "strike-mcq-01",
-        "strike-mcq-02",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-24",
+        "strike-mcq-31",
+        "strike-mcq-12"
       ],
       "explanation": "本句的「struck」指「用力打、擊中或撞到」。",
       "sentenceIndex": 4,
@@ -832,12 +822,10 @@ export default {
         "struck"
       ],
       "optionReasons": {
-        "strike-mcq-01": "本句指「用力打、擊中或撞到」。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-01": "本句的「struck」指「用力打、擊中或撞到」。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-01"
     },
@@ -849,11 +837,9 @@ export default {
       "masked": "The branch ____ on the shoulder.",
       "options": [
         "strike-mcq-01",
-        "strike-mcq-02",
-        "strike-mcq-03",
-        "strike-mcq-04",
+        "strike-mcq-15",
         "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-22"
       ],
       "explanation": "本句的「struck him」指「用力打、擊中或撞到」。",
       "sentenceIndex": 5,
@@ -862,12 +848,10 @@ export default {
         "struck him"
       ],
       "optionReasons": {
-        "strike-mcq-01": "本句指「用力打、擊中或撞到」。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-01": "本句的「struck him」指「用力打、擊中或撞到」。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-01"
     },
@@ -879,11 +863,9 @@ export default {
       "masked": "The forces ____ at dawn.",
       "options": [
         "strike-mcq-02",
-        "strike-mcq-01",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-25",
+        "strike-mcq-16",
+        "strike-mcq-18"
       ],
       "explanation": "本句的「struck」指「突然對人、地方或目標發動攻擊」。",
       "sentenceIndex": 6,
@@ -892,12 +874,10 @@ export default {
         "struck"
       ],
       "optionReasons": {
-        "strike-mcq-02": "本句指「突然對人、地方或目標發動攻擊」。",
-        "strike-mcq-01": "「用力打、擊中或撞到」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-02": "本句的「struck」指「突然對人、地方或目標發動攻擊」。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-02"
     },
@@ -909,11 +889,9 @@ export default {
       "masked": "The storm ____ overnight.",
       "options": [
         "strike-mcq-02",
-        "strike-mcq-01",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-13",
+        "strike-mcq-19",
+        "strike-mcq-18"
       ],
       "explanation": "本句的「struck the coast」指「突然對人、地方或目標發動攻擊」。",
       "sentenceIndex": 7,
@@ -922,12 +900,10 @@ export default {
         "struck the coast"
       ],
       "optionReasons": {
-        "strike-mcq-02": "本句指「突然對人、地方或目標發動攻擊」。",
-        "strike-mcq-01": "「用力打、擊中或撞到」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-02": "本句的「struck the coast」指「突然對人、地方或目標發動攻擊」。",
+        "strike-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-02"
     },
@@ -939,11 +915,9 @@ export default {
       "masked": "The missile ____.",
       "options": [
         "strike-mcq-02",
-        "strike-mcq-01",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-07",
+        "strike-mcq-24",
+        "strike-mcq-20"
       ],
       "explanation": "本句的「struck the target」指「突然對人、地方或目標發動攻擊」。",
       "sentenceIndex": 8,
@@ -952,12 +926,10 @@ export default {
         "struck the target"
       ],
       "optionReasons": {
-        "strike-mcq-02": "本句指「突然對人、地方或目標發動攻擊」。",
-        "strike-mcq-01": "「用力打、擊中或撞到」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-02": "本句的「struck the target」指「突然對人、地方或目標發動攻擊」。",
+        "strike-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-02"
     },
@@ -969,11 +941,9 @@ export default {
       "masked": "Lightning ____.",
       "options": [
         "strike-mcq-02",
-        "strike-mcq-01",
-        "strike-mcq-03",
-        "strike-mcq-04",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-20",
+        "strike-mcq-18",
+        "strike-mcq-19"
       ],
       "explanation": "本句的「struck the tower」指「突然對人、地方或目標發動攻擊」。",
       "sentenceIndex": 9,
@@ -982,12 +952,10 @@ export default {
         "struck the tower"
       ],
       "optionReasons": {
-        "strike-mcq-02": "本句指「突然對人、地方或目標發動攻擊」。",
-        "strike-mcq-01": "「用力打、擊中或撞到」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-02": "本句的「struck the tower」指「突然對人、地方或目標發動攻擊」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-02"
     },
@@ -999,11 +967,9 @@ export default {
       "masked": "An earthquake ____.",
       "options": [
         "strike-mcq-03",
-        "strike-mcq-02",
-        "strike-mcq-04",
-        "strike-mcq-01",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-06",
+        "strike-mcq-24",
+        "strike-mcq-09"
       ],
       "explanation": "本句的「struck the region」指「災害等突然侵襲某地」。",
       "sentenceIndex": 10,
@@ -1012,12 +978,10 @@ export default {
         "struck the region"
       ],
       "optionReasons": {
-        "strike-mcq-03": "本句指「災害等突然侵襲某地」。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-01": "「用力打、擊中或撞到」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-03": "本句的「struck the region」指「災害等突然侵襲某地」。",
+        "strike-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-03"
     },
@@ -1029,11 +993,9 @@ export default {
       "masked": "A severe drought ____ the area.",
       "options": [
         "strike-mcq-03",
-        "strike-mcq-02",
-        "strike-mcq-04",
-        "strike-mcq-01",
-        "strike-mcq-05",
-        "strike-mcq-06"
+        "strike-mcq-34",
+        "strike-mcq-16",
+        "strike-mcq-31"
       ],
       "explanation": "本句的「struck」指「災害等突然侵襲某地」。",
       "sentenceIndex": 11,
@@ -1042,12 +1004,10 @@ export default {
         "struck"
       ],
       "optionReasons": {
-        "strike-mcq-03": "本句指「災害等突然侵襲某地」。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-01": "「用力打、擊中或撞到」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-03": "本句的「struck」指「災害等突然侵襲某地」。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-03"
     },
@@ -1059,10 +1019,8 @@ export default {
       "masked": "The staff voted to ____.",
       "options": [
         "strike-mcq-05",
-        "strike-mcq-04",
-        "strike-mcq-06",
-        "strike-mcq-03",
-        "strike-mcq-07",
+        "strike-mcq-22",
+        "strike-mcq-01",
         "strike-mcq-02"
       ],
       "explanation": "本句的「go on strike」指「開始參與罷工」。",
@@ -1072,12 +1030,10 @@ export default {
         "go on strike"
       ],
       "optionReasons": {
-        "strike-mcq-05": "本句指「開始參與罷工」。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。"
+        "strike-mcq-05": "本句的「go on strike」指「開始參與罷工」。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-05"
     },
@@ -1089,11 +1045,9 @@ export default {
       "masked": "Drivers threatened to ____.",
       "options": [
         "strike-mcq-05",
-        "strike-mcq-04",
-        "strike-mcq-06",
-        "strike-mcq-03",
-        "strike-mcq-07",
-        "strike-mcq-02"
+        "strike-mcq-22",
+        "strike-mcq-17",
+        "strike-mcq-08"
       ],
       "explanation": "本句的「go on strike」指「開始參與罷工」。",
       "sentenceIndex": 15,
@@ -1102,12 +1056,10 @@ export default {
         "go on strike"
       ],
       "optionReasons": {
-        "strike-mcq-05": "本句指「開始參與罷工」。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-02": "「突然對人、地方或目標發動攻擊」與本句語境不同。"
+        "strike-mcq-05": "本句的「go on strike」指「開始參與罷工」。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-05"
     },
@@ -1119,11 +1071,9 @@ export default {
       "masked": "The union announced ____.",
       "options": [
         "strike-mcq-06",
-        "strike-mcq-05",
-        "strike-mcq-07",
-        "strike-mcq-04",
-        "strike-mcq-08",
-        "strike-mcq-03"
+        "strike-mcq-10",
+        "strike-mcq-20",
+        "strike-mcq-15"
       ],
       "explanation": "本句的「strike action」指「有組織的罷工行動」。",
       "sentenceIndex": 16,
@@ -1132,12 +1082,10 @@ export default {
         "strike action"
       ],
       "optionReasons": {
-        "strike-mcq-06": "本句指「有組織的罷工行動」。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。"
+        "strike-mcq-06": "本句的「strike action」指「有組織的罷工行動」。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-06"
     },
@@ -1149,11 +1097,9 @@ export default {
       "masked": "Talks resumed to avoid ____.",
       "options": [
         "strike-mcq-06",
-        "strike-mcq-05",
-        "strike-mcq-07",
-        "strike-mcq-04",
-        "strike-mcq-08",
-        "strike-mcq-03"
+        "strike-mcq-21",
+        "strike-mcq-14",
+        "strike-mcq-17"
       ],
       "explanation": "本句的「strike action」指「有組織的罷工行動」。",
       "sentenceIndex": 17,
@@ -1162,12 +1108,10 @@ export default {
         "strike action"
       ],
       "optionReasons": {
-        "strike-mcq-06": "本句指「有組織的罷工行動」。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-03": "「災害等突然侵襲某地」與本句語境不同。"
+        "strike-mcq-06": "本句的「strike action」指「有組織的罷工行動」。",
+        "strike-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-06"
     },
@@ -1179,11 +1123,9 @@ export default {
       "masked": "What ____ most was her calmness.",
       "options": [
         "strike-mcq-07",
-        "strike-mcq-06",
-        "strike-mcq-08",
-        "strike-mcq-05",
-        "strike-mcq-09",
-        "strike-mcq-04"
+        "strike-mcq-17",
+        "strike-mcq-02",
+        "strike-mcq-19"
       ],
       "explanation": "本句的「struck me」指「使某人強烈注意或留下深刻印象」。",
       "sentenceIndex": 18,
@@ -1192,12 +1134,10 @@ export default {
         "struck me"
       ],
       "optionReasons": {
-        "strike-mcq-07": "本句指「使某人強烈注意或留下深刻印象」。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。"
+        "strike-mcq-07": "本句的「struck me」指「使某人強烈注意或留下深刻印象」。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-07"
     },
@@ -1209,11 +1149,9 @@ export default {
       "masked": "His honesty ____ immediately.",
       "options": [
         "strike-mcq-07",
-        "strike-mcq-06",
-        "strike-mcq-08",
-        "strike-mcq-05",
-        "strike-mcq-09",
-        "strike-mcq-04"
+        "strike-mcq-20",
+        "strike-mcq-11",
+        "strike-mcq-14"
       ],
       "explanation": "本句的「struck me」指「使某人強烈注意或留下深刻印象」。",
       "sentenceIndex": 19,
@@ -1222,12 +1160,10 @@ export default {
         "struck me"
       ],
       "optionReasons": {
-        "strike-mcq-07": "本句指「使某人強烈注意或留下深刻印象」。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-04": "「工人集體停止工作以提出要求；罷工」與本句語境不同。"
+        "strike-mcq-07": "本句的「struck me」指「使某人強烈注意或留下深刻印象」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-07"
     },
@@ -1239,11 +1175,9 @@ export default {
       "masked": "It ____ I had forgotten my keys.",
       "options": [
         "strike-mcq-08",
-        "strike-mcq-07",
-        "strike-mcq-09",
-        "strike-mcq-06",
-        "strike-mcq-10",
-        "strike-mcq-05"
+        "strike-mcq-15",
+        "strike-mcq-24",
+        "strike-mcq-20"
       ],
       "explanation": "本句的「struck me that」指「某人突然想到／意識到某事」。",
       "sentenceIndex": 20,
@@ -1252,12 +1186,10 @@ export default {
         "struck me that"
       ],
       "optionReasons": {
-        "strike-mcq-08": "本句指「某人突然想到／意識到某事」。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。"
+        "strike-mcq-08": "本句的「struck me that」指「某人突然想到／意識到某事」。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-08"
     },
@@ -1269,11 +1201,9 @@ export default {
       "masked": "It ____ the room was unusually quiet.",
       "options": [
         "strike-mcq-08",
-        "strike-mcq-07",
-        "strike-mcq-09",
-        "strike-mcq-06",
-        "strike-mcq-10",
-        "strike-mcq-05"
+        "strike-mcq-20",
+        "strike-mcq-16",
+        "strike-mcq-33"
       ],
       "explanation": "本句的「struck her that」指「某人突然想到／意識到某事」。",
       "sentenceIndex": 21,
@@ -1282,12 +1212,10 @@ export default {
         "struck her that"
       ],
       "optionReasons": {
-        "strike-mcq-08": "本句指「某人突然想到／意識到某事」。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-05": "「開始參與罷工」與本句語境不同。"
+        "strike-mcq-08": "本句的「struck her that」指「某人突然想到／意識到某事」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-08"
     },
@@ -1299,11 +1227,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "strike-mcq-09",
-        "strike-mcq-08",
-        "strike-mcq-10",
-        "strike-mcq-07",
-        "strike-mcq-11",
-        "strike-mcq-06"
+        "strike-mcq-18",
+        "strike-mcq-31",
+        "strike-mcq-05"
       ],
       "explanation": "本句的「struck by her confidence」指「被某事深深打動、驚訝或留下深刻印象」。",
       "sentenceIndex": 22,
@@ -1312,12 +1238,10 @@ export default {
         "struck by her confidence"
       ],
       "optionReasons": {
-        "strike-mcq-09": "本句指「被某事深深打動、驚訝或留下深刻印象」。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-09": "本句的「struck by her confidence」指「被某事深深打動、驚訝或留下深刻印象」。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-09"
     },
@@ -1329,11 +1253,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "strike-mcq-09",
-        "strike-mcq-08",
-        "strike-mcq-10",
-        "strike-mcq-07",
         "strike-mcq-11",
-        "strike-mcq-06"
+        "strike-mcq-24",
+        "strike-mcq-03"
       ],
       "explanation": "本句的「struck by the beauty of the place」指「被某事深深打動、驚訝或留下深刻印象」。",
       "sentenceIndex": 23,
@@ -1342,12 +1264,10 @@ export default {
         "struck by the beauty of the place"
       ],
       "optionReasons": {
-        "strike-mcq-09": "本句指「被某事深深打動、驚訝或留下深刻印象」。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-06": "「有組織的罷工行動」與本句語境不同。"
+        "strike-mcq-09": "本句的「struck by the beauty of the place」指「被某事深深打動、驚訝或留下深刻印象」。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-09"
     },
@@ -1359,11 +1279,9 @@ export default {
       "masked": "The message ____ with young people.",
       "options": [
         "strike-mcq-10",
-        "strike-mcq-09",
-        "strike-mcq-11",
-        "strike-mcq-08",
-        "strike-mcq-12",
-        "strike-mcq-07"
+        "strike-mcq-19",
+        "strike-mcq-01",
+        "strike-mcq-28"
       ],
       "explanation": "本句的「struck a chord」指「引起情感、經歷或想法上的共鳴」。",
       "sentenceIndex": 24,
@@ -1372,12 +1290,10 @@ export default {
         "struck a chord"
       ],
       "optionReasons": {
-        "strike-mcq-10": "本句指「引起情感、經歷或想法上的共鳴」。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。"
+        "strike-mcq-10": "本句的「struck a chord」指「引起情感、經歷或想法上的共鳴」。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-10"
     },
@@ -1390,10 +1306,8 @@ export default {
       "options": [
         "strike-mcq-10",
         "strike-mcq-09",
-        "strike-mcq-11",
-        "strike-mcq-08",
-        "strike-mcq-12",
-        "strike-mcq-07"
+        "strike-mcq-22",
+        "strike-mcq-27"
       ],
       "explanation": "本句的「struck a chord with me」指「引起情感、經歷或想法上的共鳴」。",
       "sentenceIndex": 25,
@@ -1402,12 +1316,10 @@ export default {
         "struck a chord with me"
       ],
       "optionReasons": {
-        "strike-mcq-10": "本句指「引起情感、經歷或想法上的共鳴」。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-07": "「使某人強烈注意或留下深刻印象」與本句語境不同。"
+        "strike-mcq-10": "本句的「struck a chord with me」指「引起情感、經歷或想法上的共鳴」。",
+        "strike-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-10"
     },
@@ -1419,11 +1331,9 @@ export default {
       "masked": "The miners finally ____.",
       "options": [
         "strike-mcq-11",
-        "strike-mcq-10",
-        "strike-mcq-12",
-        "strike-mcq-09",
-        "strike-mcq-13",
-        "strike-mcq-08"
+        "strike-mcq-01",
+        "strike-mcq-05",
+        "strike-mcq-13"
       ],
       "explanation": "本句的「struck gold」指「字面發現金礦；比喻找到極成功／有價值的東西」。",
       "sentenceIndex": 26,
@@ -1432,12 +1342,10 @@ export default {
         "struck gold"
       ],
       "optionReasons": {
-        "strike-mcq-11": "本句指「字面發現金礦；比喻找到極成功／有價值的東西」。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。"
+        "strike-mcq-11": "本句的「struck gold」指「字面發現金礦；比喻找到極成功／有價值的東西」。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-11"
     },
@@ -1449,11 +1357,9 @@ export default {
       "masked": "The company ____ with its new product.",
       "options": [
         "strike-mcq-11",
-        "strike-mcq-10",
-        "strike-mcq-12",
-        "strike-mcq-09",
-        "strike-mcq-13",
-        "strike-mcq-08"
+        "strike-mcq-25",
+        "strike-mcq-34",
+        "strike-mcq-06"
       ],
       "explanation": "本句的「struck gold」指「字面發現金礦；比喻找到極成功／有價值的東西」。",
       "sentenceIndex": 27,
@@ -1462,12 +1368,10 @@ export default {
         "struck gold"
       ],
       "optionReasons": {
-        "strike-mcq-11": "本句指「字面發現金礦；比喻找到極成功／有價值的東西」。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-08": "「某人突然想到／意識到某事」與本句語境不同。"
+        "strike-mcq-11": "本句的「struck gold」指「字面發現金礦；比喻找到極成功／有價值的東西」。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-11"
     },
@@ -1479,11 +1383,9 @@ export default {
       "masked": "The company ____ in the desert.",
       "options": [
         "strike-mcq-12",
-        "strike-mcq-11",
-        "strike-mcq-13",
-        "strike-mcq-10",
-        "strike-mcq-14",
-        "strike-mcq-09"
+        "strike-mcq-28",
+        "strike-mcq-34",
+        "strike-mcq-24"
       ],
       "explanation": "本句的「struck oil」指「鑽探時發現石油」。",
       "sentenceIndex": 28,
@@ -1492,12 +1394,10 @@ export default {
         "struck oil"
       ],
       "optionReasons": {
-        "strike-mcq-12": "本句指「鑽探時發現石油」。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。"
+        "strike-mcq-12": "本句的「struck oil」指「鑽探時發現石油」。",
+        "strike-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-12"
     },
@@ -1509,11 +1409,9 @@ export default {
       "masked": "They hoped to ____.",
       "options": [
         "strike-mcq-12",
-        "strike-mcq-11",
-        "strike-mcq-13",
-        "strike-mcq-10",
-        "strike-mcq-14",
-        "strike-mcq-09"
+        "strike-mcq-17",
+        "strike-mcq-26",
+        "strike-mcq-19"
       ],
       "explanation": "本句的「strike oil」指「鑽探時發現石油」。",
       "sentenceIndex": 29,
@@ -1522,12 +1420,10 @@ export default {
         "strike oil"
       ],
       "optionReasons": {
-        "strike-mcq-12": "本句指「鑽探時發現石油」。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-09": "「被某事深深打動、驚訝或留下深刻印象」與本句語境不同。"
+        "strike-mcq-12": "本句的「strike oil」指「鑽探時發現石油」。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-12"
     },
@@ -1539,11 +1435,9 @@ export default {
       "masked": "His name was ____.",
       "options": [
         "strike-mcq-13",
-        "strike-mcq-12",
-        "strike-mcq-14",
-        "strike-mcq-11",
+        "strike-mcq-25",
         "strike-mcq-15",
-        "strike-mcq-10"
+        "strike-mcq-16"
       ],
       "explanation": "本句的「struck from the list」指「把某人／某物從名單等正式刪除」。",
       "sentenceIndex": 30,
@@ -1552,12 +1446,10 @@ export default {
         "struck from the list"
       ],
       "optionReasons": {
-        "strike-mcq-13": "本句指「把某人／某物從名單等正式刪除」。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。"
+        "strike-mcq-13": "本句的「struck from the list」指「把某人／某物從名單等正式刪除」。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-13"
     },
@@ -1569,11 +1461,9 @@ export default {
       "masked": "The item was ____.",
       "options": [
         "strike-mcq-13",
-        "strike-mcq-12",
-        "strike-mcq-14",
-        "strike-mcq-11",
-        "strike-mcq-15",
-        "strike-mcq-10"
+        "strike-mcq-10",
+        "strike-mcq-16",
+        "strike-mcq-01"
       ],
       "explanation": "本句的「struck off the agenda」指「把某人／某物從名單等正式刪除」。",
       "sentenceIndex": 31,
@@ -1582,12 +1472,10 @@ export default {
         "struck off the agenda"
       ],
       "optionReasons": {
-        "strike-mcq-13": "本句指「把某人／某物從名單等正式刪除」。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-10": "「引起情感、經歷或想法上的共鳴」與本句語境不同。"
+        "strike-mcq-13": "本句的「struck off the agenda」指「把某人／某物從名單等正式刪除」。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-13"
     },
@@ -1599,11 +1487,9 @@ export default {
       "masked": "She ____ the final sentence.",
       "options": [
         "strike-mcq-14",
-        "strike-mcq-13",
-        "strike-mcq-15",
-        "strike-mcq-12",
-        "strike-mcq-16",
-        "strike-mcq-11"
+        "strike-mcq-09",
+        "strike-mcq-23",
+        "strike-mcq-33"
       ],
       "explanation": "本句的「struck out」指「用線劃掉文字，表示刪除」。",
       "sentenceIndex": 32,
@@ -1612,12 +1498,10 @@ export default {
         "struck out"
       ],
       "optionReasons": {
-        "strike-mcq-14": "本句指「用線劃掉文字，表示刪除」。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。"
+        "strike-mcq-14": "本句的「struck out」指「用線劃掉文字，表示刪除」。",
+        "strike-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-14"
     },
@@ -1629,11 +1513,9 @@ export default {
       "masked": "The editor ____ several words.",
       "options": [
         "strike-mcq-14",
-        "strike-mcq-13",
-        "strike-mcq-15",
-        "strike-mcq-12",
-        "strike-mcq-16",
-        "strike-mcq-11"
+        "strike-mcq-01",
+        "strike-mcq-03",
+        "strike-mcq-23"
       ],
       "explanation": "本句的「struck out」指「用線劃掉文字，表示刪除」。",
       "sentenceIndex": 33,
@@ -1642,12 +1524,10 @@ export default {
         "struck out"
       ],
       "optionReasons": {
-        "strike-mcq-14": "本句指「用線劃掉文字，表示刪除」。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-11": "「字面發現金礦；比喻找到極成功／有價值的東西」與本句語境不同。"
+        "strike-mcq-14": "本句的「struck out」指「用線劃掉文字，表示刪除」。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-14"
     },
@@ -1659,11 +1539,9 @@ export default {
       "masked": "The pitcher threw a ____.",
       "options": [
         "strike-mcq-15",
-        "strike-mcq-14",
-        "strike-mcq-16",
-        "strike-mcq-13",
-        "strike-mcq-17",
-        "strike-mcq-12"
+        "strike-mcq-20",
+        "strike-mcq-33",
+        "strike-mcq-07"
       ],
       "explanation": "本句的「strike」指「棒球中的好球」。",
       "sentenceIndex": 34,
@@ -1672,12 +1550,10 @@ export default {
         "strike"
       ],
       "optionReasons": {
-        "strike-mcq-15": "本句指「棒球中的好球」。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。"
+        "strike-mcq-15": "本句的「strike」指「棒球中的好球」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-15"
     },
@@ -1689,11 +1565,9 @@ export default {
       "masked": "That was his second ____.",
       "options": [
         "strike-mcq-15",
-        "strike-mcq-14",
-        "strike-mcq-16",
-        "strike-mcq-13",
-        "strike-mcq-17",
-        "strike-mcq-12"
+        "strike-mcq-01",
+        "strike-mcq-31",
+        "strike-mcq-14"
       ],
       "explanation": "本句的「strike」指「棒球中的好球」。",
       "sentenceIndex": 35,
@@ -1702,12 +1576,10 @@ export default {
         "strike"
       ],
       "optionReasons": {
-        "strike-mcq-15": "本句指「棒球中的好球」。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-12": "「鑽探時發現石油」與本句語境不同。"
+        "strike-mcq-15": "本句的「strike」指「棒球中的好球」。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-15"
     },
@@ -1719,11 +1591,9 @@ export default {
       "masked": "He ____ in the final inning.",
       "options": [
         "strike-mcq-16",
-        "strike-mcq-15",
-        "strike-mcq-17",
-        "strike-mcq-14",
-        "strike-mcq-18",
-        "strike-mcq-13"
+        "strike-mcq-12",
+        "strike-mcq-13",
+        "strike-mcq-24"
       ],
       "explanation": "本句的「struck out」指「三振出局／三振打者」。",
       "sentenceIndex": 36,
@@ -1732,12 +1602,10 @@ export default {
         "struck out"
       ],
       "optionReasons": {
-        "strike-mcq-16": "本句指「三振出局／三振打者」。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。"
+        "strike-mcq-16": "本句的「struck out」指「三振出局／三振打者」。",
+        "strike-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-16"
     },
@@ -1749,11 +1617,9 @@ export default {
       "masked": "The pitcher ____ ten batters.",
       "options": [
         "strike-mcq-16",
-        "strike-mcq-15",
-        "strike-mcq-17",
-        "strike-mcq-14",
-        "strike-mcq-18",
-        "strike-mcq-13"
+        "strike-mcq-13",
+        "strike-mcq-10",
+        "strike-mcq-12"
       ],
       "explanation": "本句的「struck out」指「三振出局／三振打者」。",
       "sentenceIndex": 37,
@@ -1762,12 +1628,10 @@ export default {
         "struck out"
       ],
       "optionReasons": {
-        "strike-mcq-16": "本句指「三振出局／三振打者」。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-13": "「把某人／某物從名單等正式刪除」與本句語境不同。"
+        "strike-mcq-16": "本句的「struck out」指「三振出局／三振打者」。",
+        "strike-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-16"
     },
@@ -1779,11 +1643,9 @@ export default {
       "masked": "She rolled a ____.",
       "options": [
         "strike-mcq-17",
-        "strike-mcq-16",
-        "strike-mcq-18",
-        "strike-mcq-15",
+        "strike-mcq-03",
         "strike-mcq-19",
-        "strike-mcq-14"
+        "strike-mcq-27"
       ],
       "explanation": "本句的「strike」指「一球擊倒全部球瓶；全倒」。",
       "sentenceIndex": 38,
@@ -1792,12 +1654,10 @@ export default {
         "strike"
       ],
       "optionReasons": {
-        "strike-mcq-17": "本句指「一球擊倒全部球瓶；全倒」。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。"
+        "strike-mcq-17": "本句的「strike」指「一球擊倒全部球瓶；全倒」。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-17"
     },
@@ -1809,11 +1669,9 @@ export default {
       "masked": "He got three ____ in a row.",
       "options": [
         "strike-mcq-17",
-        "strike-mcq-16",
-        "strike-mcq-18",
-        "strike-mcq-15",
-        "strike-mcq-19",
-        "strike-mcq-14"
+        "strike-mcq-05",
+        "strike-mcq-09",
+        "strike-mcq-11"
       ],
       "explanation": "本句的「strikes」指「一球擊倒全部球瓶；全倒」。",
       "sentenceIndex": 39,
@@ -1822,12 +1680,10 @@ export default {
         "strikes"
       ],
       "optionReasons": {
-        "strike-mcq-17": "本句指「一球擊倒全部球瓶；全倒」。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-14": "「用線劃掉文字，表示刪除」與本句語境不同。"
+        "strike-mcq-17": "本句的「strikes」指「一球擊倒全部球瓶；全倒」。",
+        "strike-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-17"
     },
@@ -1839,11 +1695,9 @@ export default {
       "masked": "The clock ____.",
       "options": [
         "strike-mcq-18",
-        "strike-mcq-17",
-        "strike-mcq-19",
-        "strike-mcq-16",
-        "strike-mcq-20",
-        "strike-mcq-15"
+        "strike-mcq-21",
+        "strike-mcq-23",
+        "strike-mcq-19"
       ],
       "explanation": "本句的「struck twelve」指「鐘、鈴敲響或報時」。",
       "sentenceIndex": 40,
@@ -1852,12 +1706,10 @@ export default {
         "struck twelve"
       ],
       "optionReasons": {
-        "strike-mcq-18": "本句指「鐘、鈴敲響或報時」。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。"
+        "strike-mcq-18": "本句的「struck twelve」指「鐘、鈴敲響或報時」。",
+        "strike-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-18"
     },
@@ -1871,9 +1723,7 @@ export default {
         "strike-mcq-18",
         "strike-mcq-17",
         "strike-mcq-19",
-        "strike-mcq-16",
-        "strike-mcq-20",
-        "strike-mcq-15"
+        "strike-mcq-14"
       ],
       "explanation": "本句的「struck」指「鐘、鈴敲響或報時」。",
       "sentenceIndex": 41,
@@ -1882,12 +1732,10 @@ export default {
         "struck"
       ],
       "optionReasons": {
-        "strike-mcq-18": "本句指「鐘、鈴敲響或報時」。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。"
+        "strike-mcq-18": "本句的「struck」指「鐘、鈴敲響或報時」。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-18"
     },
@@ -1899,11 +1747,9 @@ export default {
       "masked": "The church clock ____.",
       "options": [
         "strike-mcq-18",
-        "strike-mcq-17",
         "strike-mcq-19",
-        "strike-mcq-16",
-        "strike-mcq-20",
-        "strike-mcq-15"
+        "strike-mcq-23",
+        "strike-mcq-10"
       ],
       "explanation": "本句的「struck the hour」指「鐘、鈴敲響或報時」。",
       "sentenceIndex": 42,
@@ -1912,12 +1758,10 @@ export default {
         "struck the hour"
       ],
       "optionReasons": {
-        "strike-mcq-18": "本句指「鐘、鈴敲響或報時」。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。"
+        "strike-mcq-18": "本句的「struck the hour」指「鐘、鈴敲響或報時」。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-18"
     },
@@ -1929,11 +1773,9 @@ export default {
       "masked": "We heard the clock ____.",
       "options": [
         "strike-mcq-18",
-        "strike-mcq-17",
-        "strike-mcq-19",
-        "strike-mcq-16",
-        "strike-mcq-20",
-        "strike-mcq-15"
+        "strike-mcq-11",
+        "strike-mcq-24",
+        "strike-mcq-19"
       ],
       "explanation": "本句的「strike six」指「鐘、鈴敲響或報時」。",
       "sentenceIndex": 43,
@@ -1942,12 +1784,10 @@ export default {
         "strike six"
       ],
       "optionReasons": {
-        "strike-mcq-18": "本句指「鐘、鈴敲響或報時」。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-15": "「棒球中的好球」與本句語境不同。"
+        "strike-mcq-18": "本句的「strike six」指「鐘、鈴敲響或報時」。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-18"
     },
@@ -1959,11 +1799,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "strike-mcq-19",
-        "strike-mcq-18",
-        "strike-mcq-20",
-        "strike-mcq-17",
-        "strike-mcq-21",
-        "strike-mcq-16"
+        "strike-mcq-07",
+        "strike-mcq-33",
+        "strike-mcq-03"
       ],
       "explanation": "本句的「struck a match」指「劃火柴使其點燃」。",
       "sentenceIndex": 44,
@@ -1972,12 +1810,10 @@ export default {
         "struck a match"
       ],
       "optionReasons": {
-        "strike-mcq-19": "本句指「劃火柴使其點燃」。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。"
+        "strike-mcq-19": "本句的「struck a match」指「劃火柴使其點燃」。",
+        "strike-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-19"
     },
@@ -1989,11 +1825,9 @@ export default {
       "masked": "She ____ and lit the candle.",
       "options": [
         "strike-mcq-19",
-        "strike-mcq-18",
-        "strike-mcq-20",
-        "strike-mcq-17",
-        "strike-mcq-21",
-        "strike-mcq-16"
+        "strike-mcq-34",
+        "strike-mcq-10",
+        "strike-mcq-18"
       ],
       "explanation": "本句的「struck the match」指「劃火柴使其點燃」。",
       "sentenceIndex": 45,
@@ -2002,12 +1836,10 @@ export default {
         "struck the match"
       ],
       "optionReasons": {
-        "strike-mcq-19": "本句指「劃火柴使其點燃」。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-16": "「三振出局／三振打者」與本句語境不同。"
+        "strike-mcq-19": "本句的「struck the match」指「劃火柴使其點燃」。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-19"
     },
@@ -2019,11 +1851,9 @@ export default {
       "masked": "The two companies ____.",
       "options": [
         "strike-mcq-20",
-        "strike-mcq-19",
-        "strike-mcq-21",
-        "strike-mcq-18",
-        "strike-mcq-22",
-        "strike-mcq-17"
+        "strike-mcq-03",
+        "strike-mcq-31",
+        "strike-mcq-25"
       ],
       "explanation": "本句的「struck a deal」指「談成並達成協議／交易」。",
       "sentenceIndex": 46,
@@ -2032,12 +1862,10 @@ export default {
         "struck a deal"
       ],
       "optionReasons": {
-        "strike-mcq-20": "本句指「談成並達成協議／交易」。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。"
+        "strike-mcq-20": "本句的「struck a deal」指「談成並達成協議／交易」。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-20"
     },
@@ -2049,11 +1877,9 @@ export default {
       "masked": "They finally ____ after weeks of negotiation.",
       "options": [
         "strike-mcq-20",
-        "strike-mcq-19",
-        "strike-mcq-21",
+        "strike-mcq-02",
         "strike-mcq-18",
-        "strike-mcq-22",
-        "strike-mcq-17"
+        "strike-mcq-19"
       ],
       "explanation": "本句的「struck a deal」指「談成並達成協議／交易」。",
       "sentenceIndex": 47,
@@ -2062,12 +1888,10 @@ export default {
         "struck a deal"
       ],
       "optionReasons": {
-        "strike-mcq-20": "本句指「談成並達成協議／交易」。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。"
+        "strike-mcq-20": "本句的「struck a deal」指「談成並達成協議／交易」。",
+        "strike-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-20"
     },
@@ -2079,11 +1903,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "strike-mcq-20",
-        "strike-mcq-19",
-        "strike-mcq-21",
-        "strike-mcq-18",
-        "strike-mcq-22",
-        "strike-mcq-17"
+        "strike-mcq-15",
+        "strike-mcq-16",
+        "strike-mcq-33"
       ],
       "explanation": "本句的「struck a bargain」指「談成並達成協議／交易」。",
       "sentenceIndex": 48,
@@ -2092,12 +1914,10 @@ export default {
         "struck a bargain"
       ],
       "optionReasons": {
-        "strike-mcq-20": "本句指「談成並達成協議／交易」。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。"
+        "strike-mcq-20": "本句的「struck a bargain」指「談成並達成協議／交易」。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-20"
     },
@@ -2109,11 +1929,9 @@ export default {
       "masked": "The buyer and seller quickly ____.",
       "options": [
         "strike-mcq-20",
-        "strike-mcq-19",
-        "strike-mcq-21",
-        "strike-mcq-18",
-        "strike-mcq-22",
-        "strike-mcq-17"
+        "strike-mcq-24",
+        "strike-mcq-06",
+        "strike-mcq-34"
       ],
       "explanation": "本句的「struck a bargain」指「談成並達成協議／交易」。",
       "sentenceIndex": 49,
@@ -2122,12 +1940,10 @@ export default {
         "struck a bargain"
       ],
       "optionReasons": {
-        "strike-mcq-20": "本句指「談成並達成協議／交易」。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-17": "「一球擊倒全部球瓶；全倒」與本句語境不同。"
+        "strike-mcq-20": "本句的「struck a bargain」指「談成並達成協議／交易」。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-20"
     },
@@ -2139,11 +1955,9 @@ export default {
       "masked": "We need to ____ between speed and quality.",
       "options": [
         "strike-mcq-21",
-        "strike-mcq-20",
-        "strike-mcq-22",
-        "strike-mcq-19",
-        "strike-mcq-23",
-        "strike-mcq-18"
+        "strike-mcq-34",
+        "strike-mcq-12",
+        "strike-mcq-03"
       ],
       "explanation": "本句的「strike a balance」指「在互相競爭的需要之間取得適當平衡」。",
       "sentenceIndex": 50,
@@ -2152,12 +1966,10 @@ export default {
         "strike a balance"
       ],
       "optionReasons": {
-        "strike-mcq-21": "本句指「在互相競爭的需要之間取得適當平衡」。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。"
+        "strike-mcq-21": "本句的「strike a balance」指「在互相競爭的需要之間取得適當平衡」。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-21"
     },
@@ -2169,11 +1981,9 @@ export default {
       "masked": "She tries to ____ between work and family.",
       "options": [
         "strike-mcq-21",
-        "strike-mcq-20",
-        "strike-mcq-22",
-        "strike-mcq-19",
-        "strike-mcq-23",
-        "strike-mcq-18"
+        "strike-mcq-16",
+        "strike-mcq-07",
+        "strike-mcq-25"
       ],
       "explanation": "本句的「strike a balance」指「在互相競爭的需要之間取得適當平衡」。",
       "sentenceIndex": 51,
@@ -2182,12 +1992,10 @@ export default {
         "strike a balance"
       ],
       "optionReasons": {
-        "strike-mcq-21": "本句指「在互相競爭的需要之間取得適當平衡」。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-18": "「鐘、鈴敲響或報時」與本句語境不同。"
+        "strike-mcq-21": "本句的「strike a balance」指「在互相競爭的需要之間取得適當平衡」。",
+        "strike-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-21"
     },
@@ -2199,11 +2007,9 @@ export default {
       "masked": "She ____ for the camera.",
       "options": [
         "strike-mcq-22",
-        "strike-mcq-21",
-        "strike-mcq-23",
-        "strike-mcq-20",
-        "strike-mcq-24",
-        "strike-mcq-19"
+        "strike-mcq-18",
+        "strike-mcq-31",
+        "strike-mcq-11"
       ],
       "explanation": "本句的「struck a pose」指「有意擺出特定姿勢」。",
       "sentenceIndex": 52,
@@ -2212,12 +2018,10 @@ export default {
         "struck a pose"
       ],
       "optionReasons": {
-        "strike-mcq-22": "本句指「有意擺出特定姿勢」。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。"
+        "strike-mcq-22": "本句的「struck a pose」指「有意擺出特定姿勢」。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-22"
     },
@@ -2229,11 +2033,9 @@ export default {
       "masked": "The model ____.",
       "options": [
         "strike-mcq-22",
-        "strike-mcq-21",
-        "strike-mcq-23",
         "strike-mcq-20",
-        "strike-mcq-24",
-        "strike-mcq-19"
+        "strike-mcq-11",
+        "strike-mcq-05"
       ],
       "explanation": "本句的「struck a dramatic pose」指「有意擺出特定姿勢」。",
       "sentenceIndex": 53,
@@ -2242,12 +2044,10 @@ export default {
         "struck a dramatic pose"
       ],
       "optionReasons": {
-        "strike-mcq-22": "本句指「有意擺出特定姿勢」。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-19": "「劃火柴使其點燃」與本句語境不同。"
+        "strike-mcq-22": "本句的「struck a dramatic pose」指「有意擺出特定姿勢」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-22"
     },
@@ -2259,11 +2059,9 @@ export default {
       "masked": "He ____ with the person beside him.",
       "options": [
         "strike-mcq-23",
-        "strike-mcq-22",
-        "strike-mcq-24",
-        "strike-mcq-21",
-        "strike-mcq-25",
-        "strike-mcq-20"
+        "strike-mcq-10",
+        "strike-mcq-03",
+        "strike-mcq-01"
       ],
       "explanation": "本句的「struck up a conversation」指「主動開始與某人交談」。",
       "sentenceIndex": 54,
@@ -2272,12 +2070,10 @@ export default {
         "struck up a conversation"
       ],
       "optionReasons": {
-        "strike-mcq-23": "本句指「主動開始與某人交談」。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。"
+        "strike-mcq-23": "本句的「struck up a conversation」指「主動開始與某人交談」。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-23"
     },
@@ -2289,11 +2085,9 @@ export default {
       "masked": "She ____ while waiting.",
       "options": [
         "strike-mcq-23",
-        "strike-mcq-22",
-        "strike-mcq-24",
-        "strike-mcq-21",
         "strike-mcq-25",
-        "strike-mcq-20"
+        "strike-mcq-27",
+        "strike-mcq-14"
       ],
       "explanation": "本句的「struck up a conversation」指「主動開始與某人交談」。",
       "sentenceIndex": 55,
@@ -2302,12 +2096,10 @@ export default {
         "struck up a conversation"
       ],
       "optionReasons": {
-        "strike-mcq-23": "本句指「主動開始與某人交談」。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-20": "「談成並達成協議／交易」與本句語境不同。"
+        "strike-mcq-23": "本句的「struck up a conversation」指「主動開始與某人交談」。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-23"
     },
@@ -2319,11 +2111,9 @@ export default {
       "masked": "They ____ at university.",
       "options": [
         "strike-mcq-24",
-        "strike-mcq-23",
-        "strike-mcq-25",
-        "strike-mcq-22",
-        "strike-mcq-26",
-        "strike-mcq-21"
+        "strike-mcq-20",
+        "strike-mcq-34",
+        "strike-mcq-14"
       ],
       "explanation": "本句的「struck up a friendship」指「開始建立友誼」。",
       "sentenceIndex": 56,
@@ -2332,12 +2122,10 @@ export default {
         "struck up a friendship"
       ],
       "optionReasons": {
-        "strike-mcq-24": "本句指「開始建立友誼」。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。"
+        "strike-mcq-24": "本句的「struck up a friendship」指「開始建立友誼」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-24"
     },
@@ -2349,11 +2137,9 @@ export default {
       "masked": "We quickly ____.",
       "options": [
         "strike-mcq-24",
-        "strike-mcq-23",
-        "strike-mcq-25",
-        "strike-mcq-22",
-        "strike-mcq-26",
-        "strike-mcq-21"
+        "strike-mcq-15",
+        "strike-mcq-18",
+        "strike-mcq-31"
       ],
       "explanation": "本句的「struck up a friendship」指「開始建立友誼」。",
       "sentenceIndex": 57,
@@ -2362,12 +2148,10 @@ export default {
         "struck up a friendship"
       ],
       "optionReasons": {
-        "strike-mcq-24": "本句指「開始建立友誼」。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-21": "「在互相競爭的需要之間取得適當平衡」與本句語境不同。"
+        "strike-mcq-24": "本句的「struck up a friendship」指「開始建立友誼」。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-24"
     },
@@ -2379,11 +2163,9 @@ export default {
       "masked": "He ____ on the piano.",
       "options": [
         "strike-mcq-25",
-        "strike-mcq-24",
         "strike-mcq-26",
-        "strike-mcq-23",
-        "strike-mcq-27",
-        "strike-mcq-22"
+        "strike-mcq-12",
+        "strike-mcq-17"
       ],
       "explanation": "本句的「struck a chord」指「在樂器上奏出音符／和弦」。",
       "sentenceIndex": 58,
@@ -2392,12 +2174,10 @@ export default {
         "struck a chord"
       ],
       "optionReasons": {
-        "strike-mcq-25": "本句指「在樂器上奏出音符／和弦」。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-27": "「因震驚等而一時說不出話」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。"
+        "strike-mcq-25": "本句的「struck a chord」指「在樂器上奏出音符／和弦」。",
+        "strike-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-25"
     },
@@ -2409,11 +2189,9 @@ export default {
       "masked": "The guitarist ____.",
       "options": [
         "strike-mcq-25",
-        "strike-mcq-24",
-        "strike-mcq-26",
-        "strike-mcq-23",
-        "strike-mcq-27",
-        "strike-mcq-22"
+        "strike-mcq-07",
+        "strike-mcq-31",
+        "strike-mcq-24"
       ],
       "explanation": "本句的「struck the final note」指「在樂器上奏出音符／和弦」。",
       "sentenceIndex": 59,
@@ -2422,12 +2200,10 @@ export default {
         "struck the final note"
       ],
       "optionReasons": {
-        "strike-mcq-25": "本句指「在樂器上奏出音符／和弦」。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。",
-        "strike-mcq-27": "「因震驚等而一時說不出話」與本句語境不同。",
-        "strike-mcq-22": "「有意擺出特定姿勢」與本句語境不同。"
+        "strike-mcq-25": "本句的「struck the final note」指「在樂器上奏出音符／和弦」。",
+        "strike-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-25"
     },
@@ -2439,11 +2215,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "strike-mcq-26",
-        "strike-mcq-25",
-        "strike-mcq-27",
-        "strike-mcq-24",
-        "strike-mcq-28",
-        "strike-mcq-23"
+        "strike-mcq-22",
+        "strike-mcq-33",
+        "strike-mcq-25"
       ],
       "explanation": "本句的「struck me as very thoughtful」指「給某人某種印象；讓某人覺得……」。",
       "sentenceIndex": 60,
@@ -2452,12 +2226,10 @@ export default {
         "struck me as very thoughtful"
       ],
       "optionReasons": {
-        "strike-mcq-26": "本句指「給某人某種印象；讓某人覺得……」。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-27": "「因震驚等而一時說不出話」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-28": "「正式把某人從專業名冊等除名」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。"
+        "strike-mcq-26": "本句的「struck me as very thoughtful」指「給某人某種印象；讓某人覺得……」。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-26"
     },
@@ -2469,11 +2241,9 @@ export default {
       "masked": "The idea ____.",
       "options": [
         "strike-mcq-26",
-        "strike-mcq-25",
-        "strike-mcq-27",
-        "strike-mcq-24",
-        "strike-mcq-28",
-        "strike-mcq-23"
+        "strike-mcq-14",
+        "strike-mcq-18",
+        "strike-mcq-27"
       ],
       "explanation": "本句的「strikes me as risky」指「給某人某種印象；讓某人覺得……」。",
       "sentenceIndex": 61,
@@ -2482,12 +2252,10 @@ export default {
         "strikes me as risky"
       ],
       "optionReasons": {
-        "strike-mcq-26": "本句指「給某人某種印象；讓某人覺得……」。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-27": "「因震驚等而一時說不出話」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。",
-        "strike-mcq-28": "「正式把某人從專業名冊等除名」與本句語境不同。",
-        "strike-mcq-23": "「主動開始與某人交談」與本句語境不同。"
+        "strike-mcq-26": "本句的「strikes me as risky」指「給某人某種印象；讓某人覺得……」。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-26"
     },
@@ -2499,11 +2267,9 @@ export default {
       "masked": "I was ____ by the news.",
       "options": [
         "strike-mcq-27",
-        "strike-mcq-26",
-        "strike-mcq-28",
-        "strike-mcq-25",
-        "strike-mcq-29",
-        "strike-mcq-24"
+        "strike-mcq-15",
+        "strike-mcq-23",
+        "strike-mcq-11"
       ],
       "explanation": "本句的「struck dumb」指「因震驚等而一時說不出話」。",
       "sentenceIndex": 62,
@@ -2512,12 +2278,10 @@ export default {
         "struck dumb"
       ],
       "optionReasons": {
-        "strike-mcq-27": "本句指「因震驚等而一時說不出話」。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-28": "「正式把某人從專業名冊等除名」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。"
+        "strike-mcq-27": "本句的「struck dumb」指「因震驚等而一時說不出話」。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-27"
     },
@@ -2529,11 +2293,9 @@ export default {
       "masked": "She stood there ____.",
       "options": [
         "strike-mcq-27",
-        "strike-mcq-26",
-        "strike-mcq-28",
-        "strike-mcq-25",
-        "strike-mcq-29",
-        "strike-mcq-24"
+        "strike-mcq-10",
+        "strike-mcq-15",
+        "strike-mcq-14"
       ],
       "explanation": "本句的「struck dumb」指「因震驚等而一時說不出話」。",
       "sentenceIndex": 63,
@@ -2542,12 +2304,10 @@ export default {
         "struck dumb"
       ],
       "optionReasons": {
-        "strike-mcq-27": "本句指「因震驚等而一時說不出話」。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-28": "「正式把某人從專業名冊等除名」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。",
-        "strike-mcq-24": "「開始建立友誼」與本句語境不同。"
+        "strike-mcq-27": "本句的「struck dumb」指「因震驚等而一時說不出話」。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-27"
     },
@@ -2559,11 +2319,9 @@ export default {
       "masked": "The doctor was ____ the medical register.",
       "options": [
         "strike-mcq-28",
-        "strike-mcq-27",
-        "strike-mcq-29",
-        "strike-mcq-26",
-        "strike-mcq-30",
-        "strike-mcq-25"
+        "strike-mcq-17",
+        "strike-mcq-10",
+        "strike-mcq-01"
       ],
       "explanation": "本句的「struck off」指「正式把某人從專業名冊等除名」。",
       "sentenceIndex": 64,
@@ -2572,12 +2330,10 @@ export default {
         "struck off"
       ],
       "optionReasons": {
-        "strike-mcq-28": "本句指「正式把某人從專業名冊等除名」。",
-        "strike-mcq-27": "「因震驚等而一時說不出話」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。"
+        "strike-mcq-28": "本句的「struck off」指「正式把某人從專業名冊等除名」。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-28"
     },
@@ -2589,11 +2345,9 @@ export default {
       "masked": "He risked being ____.",
       "options": [
         "strike-mcq-28",
-        "strike-mcq-27",
-        "strike-mcq-29",
-        "strike-mcq-26",
-        "strike-mcq-30",
-        "strike-mcq-25"
+        "strike-mcq-21",
+        "strike-mcq-22",
+        "strike-mcq-31"
       ],
       "explanation": "本句的「struck off」指「正式把某人從專業名冊等除名」。",
       "sentenceIndex": 65,
@@ -2602,12 +2356,10 @@ export default {
         "struck off"
       ],
       "optionReasons": {
-        "strike-mcq-28": "本句指「正式把某人從專業名冊等除名」。",
-        "strike-mcq-27": "「因震驚等而一時說不出話」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。",
-        "strike-mcq-26": "「給某人某種印象；讓某人覺得……」與本句語境不同。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-25": "「在樂器上奏出音符／和弦」與本句語境不同。"
+        "strike-mcq-28": "本句的「struck off」指「正式把某人從專業名冊等除名」。",
+        "strike-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-28"
     },
@@ -2619,11 +2371,9 @@ export default {
       "masked": "The two designs are ____.",
       "options": [
         "strike-mcq-31",
-        "strike-mcq-30",
-        "strike-mcq-32",
-        "strike-mcq-29",
-        "strike-mcq-33",
-        "strike-mcq-28"
+        "strike-mcq-26",
+        "strike-mcq-22",
+        "strike-mcq-01"
       ],
       "explanation": "本句的「strikingly similar」指「非常顯眼、引人注目的」。",
       "sentenceIndex": 66,
@@ -2632,12 +2382,10 @@ export default {
         "strikingly similar"
       ],
       "optionReasons": {
-        "strike-mcq-31": "本句指「非常顯眼、引人注目的」。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-32": "「正在參與罷工的」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。",
-        "strike-mcq-33": "「趁有利時機立即行動；打鐵趁熱」與本句語境不同。",
-        "strike-mcq-28": "「正式把某人從專業名冊等除名」與本句語境不同。"
+        "strike-mcq-31": "本句的「strikingly similar」指「非常顯眼、引人注目的」。",
+        "strike-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-31"
     },
@@ -2649,11 +2397,9 @@ export default {
       "masked": "She looked ____.",
       "options": [
         "strike-mcq-31",
-        "strike-mcq-30",
-        "strike-mcq-32",
-        "strike-mcq-29",
-        "strike-mcq-33",
-        "strike-mcq-28"
+        "strike-mcq-17",
+        "strike-mcq-18",
+        "strike-mcq-12"
       ],
       "explanation": "本句的「strikingly different」指「非常顯眼、引人注目的」。",
       "sentenceIndex": 67,
@@ -2662,12 +2408,10 @@ export default {
         "strikingly different"
       ],
       "optionReasons": {
-        "strike-mcq-31": "本句指「非常顯眼、引人注目的」。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-32": "「正在參與罷工的」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。",
-        "strike-mcq-33": "「趁有利時機立即行動；打鐵趁熱」與本句語境不同。",
-        "strike-mcq-28": "「正式把某人從專業名冊等除名」與本句語境不同。"
+        "strike-mcq-31": "本句的「strikingly different」指「非常顯眼、引人注目的」。",
+        "strike-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-31"
     },
@@ -2679,11 +2423,9 @@ export default {
       "masked": "Interest is high, so we should ____.",
       "options": [
         "strike-mcq-33",
-        "strike-mcq-32",
-        "strike-mcq-34",
-        "strike-mcq-31",
-        "strike-mcq-30",
-        "strike-mcq-29"
+        "strike-mcq-22",
+        "strike-mcq-20",
+        "strike-mcq-26"
       ],
       "explanation": "本句的「strike while the iron is hot」指「趁有利時機立即行動；打鐵趁熱」。",
       "sentenceIndex": 68,
@@ -2692,12 +2434,10 @@ export default {
         "strike while the iron is hot"
       ],
       "optionReasons": {
-        "strike-mcq-33": "本句指「趁有利時機立即行動；打鐵趁熱」。",
-        "strike-mcq-32": "「正在參與罷工的」與本句語境不同。",
-        "strike-mcq-34": "「深深打動或讓人真正意識到某事」與本句語境不同。",
-        "strike-mcq-31": "「非常顯眼、引人注目的」與本句語境不同。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。"
+        "strike-mcq-33": "本句的「strike while the iron is hot」指「趁有利時機立即行動；打鐵趁熱」。",
+        "strike-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-33"
     },
@@ -2709,11 +2449,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "strike-mcq-33",
-        "strike-mcq-32",
-        "strike-mcq-34",
-        "strike-mcq-31",
-        "strike-mcq-30",
-        "strike-mcq-29"
+        "strike-mcq-11",
+        "strike-mcq-07",
+        "strike-mcq-19"
       ],
       "explanation": "本句的「strike while the iron was hot」指「趁有利時機立即行動；打鐵趁熱」。",
       "sentenceIndex": 69,
@@ -2722,12 +2460,10 @@ export default {
         "strike while the iron was hot"
       ],
       "optionReasons": {
-        "strike-mcq-33": "本句指「趁有利時機立即行動；打鐵趁熱」。",
-        "strike-mcq-32": "「正在參與罷工的」與本句語境不同。",
-        "strike-mcq-34": "「深深打動或讓人真正意識到某事」與本句語境不同。",
-        "strike-mcq-31": "「非常顯眼、引人注目的」與本句語境不同。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。"
+        "strike-mcq-33": "本句的「strike while the iron was hot」指「趁有利時機立即行動；打鐵趁熱」。",
+        "strike-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-33"
     },
@@ -2739,11 +2475,9 @@ export default {
       "masked": "His final words really ____.",
       "options": [
         "strike-mcq-34",
-        "strike-mcq-33",
-        "strike-mcq-32",
-        "strike-mcq-31",
-        "strike-mcq-30",
-        "strike-mcq-29"
+        "strike-mcq-14",
+        "strike-mcq-24",
+        "strike-mcq-26"
       ],
       "explanation": "本句的「struck home」指「深深打動或讓人真正意識到某事」。",
       "sentenceIndex": 70,
@@ -2752,12 +2486,10 @@ export default {
         "struck home"
       ],
       "optionReasons": {
-        "strike-mcq-34": "本句指「深深打動或讓人真正意識到某事」。",
-        "strike-mcq-33": "「趁有利時機立即行動；打鐵趁熱」與本句語境不同。",
-        "strike-mcq-32": "「正在參與罷工的」與本句語境不同。",
-        "strike-mcq-31": "「非常顯眼、引人注目的」與本句語境不同。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。"
+        "strike-mcq-34": "本句的「struck home」指「深深打動或讓人真正意識到某事」。",
+        "strike-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-34"
     },
@@ -2769,11 +2501,9 @@ export default {
       "masked": "The seriousness of the situation finally ____.",
       "options": [
         "strike-mcq-34",
-        "strike-mcq-33",
-        "strike-mcq-32",
-        "strike-mcq-31",
-        "strike-mcq-30",
-        "strike-mcq-29"
+        "strike-mcq-20",
+        "strike-mcq-19",
+        "strike-mcq-05"
       ],
       "explanation": "本句的「struck home」指「深深打動或讓人真正意識到某事」。",
       "sentenceIndex": 71,
@@ -2782,12 +2512,10 @@ export default {
         "struck home"
       ],
       "optionReasons": {
-        "strike-mcq-34": "本句指「深深打動或讓人真正意識到某事」。",
-        "strike-mcq-33": "「趁有利時機立即行動；打鐵趁熱」與本句語境不同。",
-        "strike-mcq-32": "「正在參與罷工的」與本句語境不同。",
-        "strike-mcq-31": "「非常顯眼、引人注目的」與本句語境不同。",
-        "strike-mcq-30": "「足球前鋒」與本句語境不同。",
-        "strike-mcq-29": "「參與罷工的人」與本句語境不同。"
+        "strike-mcq-34": "本句的「struck home」指「深深打動或讓人真正意識到某事」。",
+        "strike-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "strike-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "strike-mcq-34"
     }
@@ -2799,5 +2527,7 @@ export default {
     "sha256": "9c7ebfa73ac0fd2b77d5eb73749c512c0fe747ac7b913c90e5fb2ef571c7812b",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

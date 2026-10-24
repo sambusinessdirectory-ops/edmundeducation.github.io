@@ -568,11 +568,9 @@ export default {
       "masked": "____, it captured small moments from our family life.",
       "options": [
         "page-mcq-01",
-        "page-mcq-02",
-        "page-mcq-03",
-        "page-mcq-04",
-        "page-mcq-05",
-        "page-mcq-06"
+        "page-mcq-06",
+        "page-mcq-18",
+        "page-mcq-24"
       ],
       "explanation": "本句的「Page by page」指「頁；頁面」。",
       "sentenceIndex": 0,
@@ -581,12 +579,10 @@ export default {
         "Page by page"
       ],
       "optionReasons": {
-        "page-mcq-01": "本句指「頁；頁面」。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-01": "本句的「Page by page」指「頁；頁面」。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-01"
     },
@@ -598,11 +594,9 @@ export default {
       "masked": "She turned the ____ and smiled at the next photograph.",
       "options": [
         "page-mcq-01",
-        "page-mcq-02",
-        "page-mcq-03",
-        "page-mcq-04",
-        "page-mcq-05",
-        "page-mcq-06"
+        "page-pdf-001",
+        "page-mcq-18",
+        "page-mcq-11"
       ],
       "explanation": "本句的「page」指「頁；頁面」。",
       "sentenceIndex": 1,
@@ -611,12 +605,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-01": "本句指「頁；頁面」。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-01": "本句的「page」指「頁；頁面」。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-01"
     },
@@ -628,11 +620,9 @@ export default {
       "masked": "I wrote a short note at the bottom of the ____.",
       "options": [
         "page-mcq-01",
-        "page-mcq-02",
-        "page-mcq-03",
-        "page-mcq-04",
-        "page-mcq-05",
-        "page-mcq-06"
+        "page-mcq-18",
+        "page-mcq-13",
+        "page-mcq-17"
       ],
       "explanation": "本句的「page」指「頁；頁面」。",
       "sentenceIndex": 2,
@@ -641,12 +631,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-01": "本句指「頁；頁面」。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-01": "本句的「page」指「頁；頁面」。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-01"
     },
@@ -658,10 +646,8 @@ export default {
       "masked": "We looked through the album ____.",
       "options": [
         "page-mcq-02",
-        "page-mcq-01",
-        "page-mcq-03",
-        "page-mcq-04",
-        "page-mcq-05",
+        "page-pdf-001",
+        "page-mcq-18",
         "page-mcq-06"
       ],
       "explanation": "本句的「page by page」指「逐頁；一頁一頁」。",
@@ -671,12 +657,10 @@ export default {
         "page by page"
       ],
       "optionReasons": {
-        "page-mcq-02": "本句指「逐頁；一頁一頁」。",
-        "page-mcq-01": "「頁；頁面」是「page (book)」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-02": "本句的「page by page」指「逐頁；一頁一頁」。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-02"
     },
@@ -688,11 +672,9 @@ export default {
       "masked": "She checked the report ____.",
       "options": [
         "page-mcq-02",
-        "page-mcq-01",
-        "page-mcq-03",
-        "page-mcq-04",
-        "page-mcq-05",
-        "page-mcq-06"
+        "page-mcq-13",
+        "page-mcq-17",
+        "page-mcq-14"
       ],
       "explanation": "本句的「page by page」指「逐頁；一頁一頁」。",
       "sentenceIndex": 4,
@@ -701,12 +683,10 @@ export default {
         "page by page"
       ],
       "optionReasons": {
-        "page-mcq-02": "本句指「逐頁；一頁一頁」。",
-        "page-mcq-01": "「頁；頁面」是「page (book)」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-02": "本句的「page by page」指「逐頁；一頁一頁」。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-02"
     },
@@ -718,11 +698,9 @@ export default {
       "masked": "____ to see the next photo.",
       "options": [
         "page-mcq-03",
-        "page-mcq-02",
-        "page-mcq-04",
-        "page-mcq-01",
-        "page-mcq-05",
-        "page-mcq-06"
+        "page-mcq-18",
+        "page-mcq-12",
+        "page-mcq-14"
       ],
       "explanation": "本句的「Turn the page」指「翻頁」。",
       "sentenceIndex": 5,
@@ -731,12 +709,10 @@ export default {
         "Turn the page"
       ],
       "optionReasons": {
-        "page-mcq-03": "本句指「翻頁」。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-01": "「頁；頁面」是「page (book)」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-03": "本句的「Turn the page」指「翻頁」。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-03"
     },
@@ -748,11 +724,9 @@ export default {
       "masked": "He slowly ____.",
       "options": [
         "page-mcq-03",
-        "page-mcq-02",
-        "page-mcq-04",
-        "page-mcq-01",
-        "page-mcq-05",
-        "page-mcq-06"
+        "page-mcq-18",
+        "page-mcq-14",
+        "page-mcq-17"
       ],
       "explanation": "本句的「turned the page」指「翻頁」。",
       "sentenceIndex": 6,
@@ -761,12 +735,10 @@ export default {
         "turned the page"
       ],
       "optionReasons": {
-        "page-mcq-03": "本句指「翻頁」。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-01": "「頁；頁面」是「page (book)」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。"
+        "page-mcq-03": "本句的「turned the page」指「翻頁」。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-03"
     },
@@ -778,11 +750,9 @@ export default {
       "masked": "The answer is ____.",
       "options": [
         "page-mcq-04",
-        "page-mcq-03",
-        "page-mcq-05",
-        "page-mcq-02",
-        "page-mcq-06",
-        "page-mcq-01"
+        "page-mcq-17",
+        "page-mcq-18",
+        "page-mcq-13"
       ],
       "explanation": "本句的「on page 15」指「在第 X 頁」。",
       "sentenceIndex": 7,
@@ -791,12 +761,10 @@ export default {
         "on page 15"
       ],
       "optionReasons": {
-        "page-mcq-04": "本句指「在第 X 頁」。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-01": "「頁；頁面」是「page (book)」的用法，與本句語境不同。"
+        "page-mcq-04": "本句的「on page 15」指「在第 X 頁」。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-04"
     },
@@ -808,11 +776,9 @@ export default {
       "masked": "Look at the picture ____.",
       "options": [
         "page-mcq-04",
-        "page-mcq-03",
-        "page-mcq-05",
-        "page-mcq-02",
-        "page-mcq-06",
-        "page-mcq-01"
+        "page-mcq-24",
+        "page-mcq-18",
+        "page-mcq-17"
       ],
       "explanation": "本句的「on the next page」指「在第 X 頁」。",
       "sentenceIndex": 8,
@@ -821,12 +787,10 @@ export default {
         "on the next page"
       ],
       "optionReasons": {
-        "page-mcq-04": "本句指「在第 X 頁」。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-01": "「頁；頁面」是「page (book)」的用法，與本句語境不同。"
+        "page-mcq-04": "本句的「on the next page」指「在第 X 頁」。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-04"
     },
@@ -838,11 +802,9 @@ export default {
       "masked": "I wrote three ____ last night.",
       "options": [
         "page-mcq-05",
-        "page-mcq-04",
-        "page-mcq-06",
-        "page-mcq-03",
-        "page-mcq-07",
-        "page-mcq-02"
+        "page-mcq-12",
+        "page-pdf-001",
+        "page-mcq-14"
       ],
       "explanation": "本句的「pages」指「一頁篇幅」。",
       "sentenceIndex": 9,
@@ -851,12 +813,10 @@ export default {
         "pages"
       ],
       "optionReasons": {
-        "page-mcq-05": "本句指「一頁篇幅」。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。"
+        "page-mcq-05": "本句的「pages」指「一頁篇幅」。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-05"
     },
@@ -868,11 +828,9 @@ export default {
       "masked": "The essay should be about five ____ long.",
       "options": [
         "page-mcq-05",
-        "page-mcq-04",
-        "page-mcq-06",
-        "page-mcq-03",
-        "page-mcq-07",
-        "page-mcq-02"
+        "page-mcq-14",
+        "page-mcq-17",
+        "page-mcq-06"
       ],
       "explanation": "本句的「pages」指「一頁篇幅」。",
       "sentenceIndex": 10,
@@ -881,12 +839,10 @@ export default {
         "pages"
       ],
       "optionReasons": {
-        "page-mcq-05": "本句指「一頁篇幅」。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。",
-        "page-mcq-02": "「逐頁；一頁一頁」是「page by page」的用法，與本句語境不同。"
+        "page-mcq-05": "本句的「pages」指「一頁篇幅」。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-05"
     },
@@ -898,11 +854,9 @@ export default {
       "masked": "The story appeared on the ____ of the newspaper.",
       "options": [
         "page-mcq-06",
-        "page-mcq-05",
-        "page-mcq-07",
-        "page-mcq-04",
-        "page-mcq-08",
-        "page-mcq-03"
+        "page-mcq-20",
+        "page-mcq-23",
+        "page-mcq-12"
       ],
       "explanation": "本句的「front page」指「頭版」。",
       "sentenceIndex": 11,
@@ -911,12 +865,10 @@ export default {
         "front page"
       ],
       "optionReasons": {
-        "page-mcq-06": "本句指「頭版」。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。"
+        "page-mcq-06": "本句的「front page」指「頭版」。",
+        "page-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-06"
     },
@@ -928,11 +880,9 @@ export default {
       "masked": "Her photograph was on the ____.",
       "options": [
         "page-mcq-06",
-        "page-mcq-05",
         "page-mcq-07",
-        "page-mcq-04",
-        "page-mcq-08",
-        "page-mcq-03"
+        "page-mcq-24",
+        "page-mcq-13"
       ],
       "explanation": "本句的「front page」指「頭版」。",
       "sentenceIndex": 12,
@@ -941,12 +891,10 @@ export default {
         "front page"
       ],
       "optionReasons": {
-        "page-mcq-06": "本句指「頭版」。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-03": "「翻頁」是「turn the page」的用法，與本句語境不同。"
+        "page-mcq-06": "本句的「front page」指「頭版」。",
+        "page-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-06"
     },
@@ -958,11 +906,9 @@ export default {
       "masked": "I found the information on the university's website ____.",
       "options": [
         "page-mcq-07",
-        "page-mcq-06",
-        "page-mcq-08",
-        "page-mcq-05",
-        "page-mcq-09",
-        "page-mcq-04"
+        "page-mcq-11",
+        "page-mcq-14",
+        "page-mcq-06"
       ],
       "explanation": "本句的「page」指「網頁」。",
       "sentenceIndex": 13,
@@ -971,12 +917,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-07": "本句指「網頁」。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。"
+        "page-mcq-07": "本句的「page」指「網頁」。",
+        "page-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-07"
     },
@@ -988,11 +932,9 @@ export default {
       "masked": "This ____ takes a long time to load.",
       "options": [
         "page-mcq-07",
-        "page-mcq-06",
-        "page-mcq-08",
-        "page-mcq-05",
-        "page-mcq-09",
-        "page-mcq-04"
+        "page-mcq-14",
+        "page-mcq-17",
+        "page-pdf-001"
       ],
       "explanation": "本句的「page」指「網頁」。",
       "sentenceIndex": 14,
@@ -1001,12 +943,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-07": "本句指「網頁」。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。"
+        "page-mcq-07": "本句的「page」指「網頁」。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-07"
     },
@@ -1018,11 +958,9 @@ export default {
       "masked": "Each ____ has a different address.",
       "options": [
         "page-mcq-07",
-        "page-mcq-06",
-        "page-mcq-08",
-        "page-mcq-05",
-        "page-mcq-09",
-        "page-mcq-04"
+        "page-mcq-10",
+        "page-mcq-14",
+        "page-mcq-24"
       ],
       "explanation": "本句的「web page」指「網頁」。",
       "sentenceIndex": 15,
@@ -1031,12 +969,10 @@ export default {
         "web page"
       ],
       "optionReasons": {
-        "page-mcq-07": "本句指「網頁」。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。"
+        "page-mcq-07": "本句的「web page」指「網頁」。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-07"
     },
@@ -1048,11 +984,9 @@ export default {
       "masked": "The ____ contains useful information for students.",
       "options": [
         "page-mcq-07",
-        "page-mcq-06",
-        "page-mcq-08",
-        "page-mcq-05",
-        "page-mcq-09",
-        "page-mcq-04"
+        "page-mcq-17",
+        "page-mcq-10",
+        "page-mcq-18"
       ],
       "explanation": "本句的「web page」指「網頁」。",
       "sentenceIndex": 16,
@@ -1061,12 +995,10 @@ export default {
         "web page"
       ],
       "optionReasons": {
-        "page-mcq-07": "本句指「網頁」。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-04": "「在第 X 頁」是「on page X」的用法，與本句語境不同。"
+        "page-mcq-07": "本句的「web page」指「網頁」。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-07"
     },
@@ -1078,11 +1010,9 @@ export default {
       "masked": "Click the logo to return to the ____.",
       "options": [
         "page-mcq-08",
-        "page-mcq-07",
-        "page-mcq-09",
-        "page-mcq-06",
         "page-mcq-10",
-        "page-mcq-05"
+        "page-mcq-13",
+        "page-mcq-06"
       ],
       "explanation": "本句的「home page」指「首頁；主頁」。",
       "sentenceIndex": 17,
@@ -1091,12 +1021,10 @@ export default {
         "home page"
       ],
       "optionReasons": {
-        "page-mcq-08": "本句指「首頁；主頁」。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。"
+        "page-mcq-08": "本句的「home page」指「首頁；主頁」。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-08"
     },
@@ -1108,11 +1036,9 @@ export default {
       "masked": "The announcement appears on the school's ____.",
       "options": [
         "page-mcq-08",
-        "page-mcq-07",
-        "page-mcq-09",
+        "page-mcq-12",
         "page-mcq-06",
-        "page-mcq-10",
-        "page-mcq-05"
+        "page-mcq-18"
       ],
       "explanation": "本句的「homepage」指「首頁；主頁」。",
       "sentenceIndex": 18,
@@ -1121,12 +1047,10 @@ export default {
         "homepage"
       ],
       "optionReasons": {
-        "page-mcq-08": "本句指「首頁；主頁」。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-06": "「頭版」是「front page」的用法，與本句語境不同。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。",
-        "page-mcq-05": "「一頁篇幅」是「page (length)」的用法，與本句語境不同。"
+        "page-mcq-08": "本句的「homepage」指「首頁；主頁」。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-08"
     },
@@ -1138,11 +1062,9 @@ export default {
       "masked": "The restaurant has an official social media ____.",
       "options": [
         "page-mcq-23",
-        "page-mcq-22",
+        "page-mcq-10",
         "page-mcq-24",
-        "page-mcq-21",
-        "page-mcq-20",
-        "page-mcq-19"
+        "page-mcq-14"
       ],
       "explanation": "本句的「page」指「網絡平台上代表某人、機構、品牌或主題的公開頁面」。",
       "sentenceIndex": 19,
@@ -1151,12 +1073,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-23": "本句指「網絡平台上代表某人、機構、品牌或主題的公開頁面」。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-24": "「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」是「25. page（侍從；服務人員） — 侍從；傳令員」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。"
+        "page-mcq-23": "本句的「page」指「網絡平台上代表某人、機構、品牌或主題的公開頁面」。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-23"
     },
@@ -1168,11 +1088,9 @@ export default {
       "masked": "Follow our ____ for updates.",
       "options": [
         "page-mcq-23",
-        "page-mcq-22",
         "page-mcq-24",
-        "page-mcq-21",
-        "page-mcq-20",
-        "page-mcq-19"
+        "page-mcq-14",
+        "page-mcq-18"
       ],
       "explanation": "本句的「page」指「網絡平台上代表某人、機構、品牌或主題的公開頁面」。",
       "sentenceIndex": 20,
@@ -1181,12 +1099,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-23": "本句指「網絡平台上代表某人、機構、品牌或主題的公開頁面」。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-24": "「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」是「25. page（侍從；服務人員） — 侍從；傳令員」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。"
+        "page-mcq-23": "本句的「page」指「網絡平台上代表某人、機構、品牌或主題的公開頁面」。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-23"
     },
@@ -1198,11 +1114,9 @@ export default {
       "masked": "She ____ slowly.",
       "options": [
         "page-mcq-10",
-        "page-mcq-09",
-        "page-mcq-11",
-        "page-mcq-08",
-        "page-mcq-12",
-        "page-mcq-07"
+        "page-mcq-19",
+        "page-mcq-14",
+        "page-mcq-06"
       ],
       "explanation": "本句的「paged through the album」指「翻閱」。",
       "sentenceIndex": 21,
@@ -1211,12 +1125,10 @@ export default {
         "paged through the album"
       ],
       "optionReasons": {
-        "page-mcq-10": "本句指「翻閱」。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。"
+        "page-mcq-10": "本句的「paged through the album」指「翻閱」。",
+        "page-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-10"
     },
@@ -1228,11 +1140,9 @@ export default {
       "masked": "I ____ while waiting.",
       "options": [
         "page-mcq-10",
-        "page-mcq-09",
-        "page-mcq-11",
-        "page-mcq-08",
-        "page-mcq-12",
-        "page-mcq-07"
+        "page-mcq-04",
+        "page-mcq-06",
+        "page-mcq-13"
       ],
       "explanation": "本句的「paged through the magazine」指「翻閱」。",
       "sentenceIndex": 22,
@@ -1241,12 +1151,10 @@ export default {
         "paged through the magazine"
       ],
       "optionReasons": {
-        "page-mcq-10": "本句指「翻閱」。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-07": "「網頁」是「web page」的用法，與本句語境不同。"
+        "page-mcq-10": "本句的「paged through the magazine」指「翻閱」。",
+        "page-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-10"
     },
@@ -1258,11 +1166,9 @@ export default {
       "masked": "Could you ____, please?",
       "options": [
         "page-mcq-11",
+        "page-mcq-14",
         "page-mcq-10",
-        "page-mcq-12",
-        "page-mcq-09",
-        "page-mcq-13",
-        "page-mcq-08"
+        "page-mcq-05"
       ],
       "explanation": "本句的「page Dr Lee」指「傳呼／呼叫某人」。",
       "sentenceIndex": 23,
@@ -1271,12 +1177,10 @@ export default {
         "page Dr Lee"
       ],
       "optionReasons": {
-        "page-mcq-11": "本句指「傳呼／呼叫某人」。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。"
+        "page-mcq-11": "本句的「page Dr Lee」指「傳呼／呼叫某人」。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-11"
     },
@@ -1288,11 +1192,9 @@ export default {
       "masked": "The receptionist ____ over the speaker system.",
       "options": [
         "page-mcq-11",
-        "page-mcq-10",
-        "page-mcq-12",
-        "page-mcq-09",
-        "page-mcq-13",
-        "page-mcq-08"
+        "page-mcq-03",
+        "page-mcq-18",
+        "page-mcq-06"
       ],
       "explanation": "本句的「paged him」指「傳呼／呼叫某人」。",
       "sentenceIndex": 24,
@@ -1301,12 +1203,10 @@ export default {
         "paged him"
       ],
       "optionReasons": {
-        "page-mcq-11": "本句指「傳呼／呼叫某人」。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-08": "「首頁；主頁」是「home page」的用法，與本句語境不同。"
+        "page-mcq-11": "本句的「paged him」指「傳呼／呼叫某人」。",
+        "page-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-11"
     },
@@ -1318,11 +1218,9 @@ export default {
       "masked": "The doctor was ____ during dinner.",
       "options": [
         "page-mcq-12",
-        "page-mcq-11",
-        "page-mcq-13",
-        "page-mcq-10",
+        "page-mcq-08",
         "page-mcq-14",
-        "page-mcq-09"
+        "page-mcq-18"
       ],
       "explanation": "本句的「paged」指「被傳呼」。",
       "sentenceIndex": 25,
@@ -1331,12 +1229,10 @@ export default {
         "paged"
       ],
       "optionReasons": {
-        "page-mcq-12": "本句指「被傳呼」。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。"
+        "page-mcq-12": "本句的「paged」指「被傳呼」。",
+        "page-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-12"
     },
@@ -1348,11 +1244,9 @@ export default {
       "masked": "I heard my name being ____ at the airport.",
       "options": [
         "page-mcq-12",
-        "page-mcq-11",
-        "page-mcq-13",
-        "page-mcq-10",
-        "page-mcq-14",
-        "page-mcq-09"
+        "page-mcq-02",
+        "page-mcq-17",
+        "page-mcq-06"
       ],
       "explanation": "本句的「paged」指「被傳呼」。",
       "sentenceIndex": 26,
@@ -1361,12 +1255,10 @@ export default {
         "paged"
       ],
       "optionReasons": {
-        "page-mcq-12": "本句指「被傳呼」。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-09": "「專頁」是「social-media page」的用法，與本句語境不同。"
+        "page-mcq-12": "本句的「paged」指「被傳呼」。",
+        "page-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-12"
     },
@@ -1378,11 +1270,9 @@ export default {
       "masked": "The hospital uses an electronic ____.",
       "options": [
         "page-mcq-13",
-        "page-mcq-12",
-        "page-mcq-14",
-        "page-mcq-11",
-        "page-mcq-15",
-        "page-mcq-10"
+        "page-mcq-16",
+        "page-mcq-06",
+        "page-mcq-18"
       ],
       "explanation": "本句的「paging system」指「傳呼系統」。",
       "sentenceIndex": 27,
@@ -1391,12 +1281,10 @@ export default {
         "paging system"
       ],
       "optionReasons": {
-        "page-mcq-13": "本句指「傳呼系統」。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。"
+        "page-mcq-13": "本句的「paging system」指「傳呼系統」。",
+        "page-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-13"
     },
@@ -1408,11 +1296,9 @@ export default {
       "masked": "Airport ____ is used to locate passengers.",
       "options": [
         "page-mcq-13",
-        "page-mcq-12",
-        "page-mcq-14",
-        "page-mcq-11",
-        "page-mcq-15",
-        "page-mcq-10"
+        "page-mcq-16",
+        "page-mcq-18",
+        "page-mcq-14"
       ],
       "explanation": "本句的「paging」指「傳呼系統」。",
       "sentenceIndex": 28,
@@ -1421,12 +1307,10 @@ export default {
         "paging"
       ],
       "optionReasons": {
-        "page-mcq-13": "本句指「傳呼系統」。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-10": "「翻閱」是「page through」的用法，與本句語境不同。"
+        "page-mcq-13": "本句的「paging」指「傳呼系統」。",
+        "page-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-13"
     },
@@ -1438,11 +1322,9 @@ export default {
       "masked": "We need to make sure everyone is ____.",
       "options": [
         "page-mcq-14",
-        "page-mcq-13",
-        "page-mcq-15",
-        "page-mcq-12",
-        "page-mcq-16",
-        "page-mcq-11"
+        "page-mcq-07",
+        "page-pdf-001",
+        "page-mcq-10"
       ],
       "explanation": "本句的「on the same page」指「有共識；理解一致」。",
       "sentenceIndex": 29,
@@ -1451,12 +1333,10 @@ export default {
         "on the same page"
       ],
       "optionReasons": {
-        "page-mcq-14": "本句指「有共識；理解一致」。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。"
+        "page-mcq-14": "本句的「on the same page」指「有共識；理解一致」。",
+        "page-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-14"
     },
@@ -1469,10 +1349,8 @@ export default {
       "options": [
         "page-mcq-14",
         "page-mcq-13",
-        "page-mcq-15",
-        "page-mcq-12",
-        "page-mcq-16",
-        "page-mcq-11"
+        "page-mcq-24",
+        "page-mcq-02"
       ],
       "explanation": "本句的「on the same page」指「有共識；理解一致」。",
       "sentenceIndex": 30,
@@ -1481,12 +1359,10 @@ export default {
         "on the same page"
       ],
       "optionReasons": {
-        "page-mcq-14": "本句指「有共識；理解一致」。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。"
+        "page-mcq-14": "本句的「on the same page」指「有共識；理解一致」。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-14"
     },
@@ -1498,11 +1374,9 @@ export default {
       "masked": "Let's meet tomorrow and ____.",
       "options": [
         "page-mcq-14",
-        "page-mcq-13",
-        "page-mcq-15",
-        "page-mcq-12",
         "page-mcq-16",
-        "page-mcq-11"
+        "page-mcq-11",
+        "page-mcq-10"
       ],
       "explanation": "本句的「get on the same page」指「有共識；理解一致」。",
       "sentenceIndex": 31,
@@ -1511,12 +1385,10 @@ export default {
         "get on the same page"
       ],
       "optionReasons": {
-        "page-mcq-14": "本句指「有共識；理解一致」。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。"
+        "page-mcq-14": "本句的「get on the same page」指「有共識；理解一致」。",
+        "page-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-14"
     },
@@ -1528,11 +1400,9 @@ export default {
       "masked": "The two departments need to ____.",
       "options": [
         "page-mcq-14",
-        "page-mcq-13",
         "page-mcq-15",
         "page-mcq-12",
-        "page-mcq-16",
-        "page-mcq-11"
+        "page-mcq-06"
       ],
       "explanation": "本句的「get on the same page」指「有共識；理解一致」。",
       "sentenceIndex": 32,
@@ -1541,12 +1411,10 @@ export default {
         "get on the same page"
       ],
       "optionReasons": {
-        "page-mcq-14": "本句指「有共識；理解一致」。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-11": "「傳呼／呼叫某人」是「page someone」的用法，與本句語境不同。"
+        "page-mcq-14": "本句的「get on the same page」指「有共識；理解一致」。",
+        "page-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-14"
     },
@@ -1558,11 +1426,9 @@ export default {
       "masked": "She was ready to ____.",
       "options": [
         "page-mcq-15",
-        "page-mcq-14",
-        "page-mcq-16",
-        "page-mcq-13",
-        "page-mcq-17",
-        "page-mcq-12"
+        "page-mcq-24",
+        "page-mcq-18",
+        "page-mcq-17"
       ],
       "explanation": "本句的「turn the page on that difficult period」指「告別 X；翻開新一頁」。",
       "sentenceIndex": 33,
@@ -1571,12 +1437,10 @@ export default {
         "turn the page on that difficult period"
       ],
       "optionReasons": {
-        "page-mcq-15": "本句指「告別 X；翻開新一頁」。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。"
+        "page-mcq-15": "本句的「turn the page on that difficult period」指「告別 X；翻開新一頁」。",
+        "page-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-15"
     },
@@ -1588,11 +1452,9 @@ export default {
       "masked": "After years of conflict, they hoped to ____.",
       "options": [
         "page-mcq-15",
-        "page-mcq-14",
-        "page-mcq-16",
         "page-mcq-13",
         "page-mcq-17",
-        "page-mcq-12"
+        "page-mcq-14"
       ],
       "explanation": "本句的「turn the page」指「告別 X；翻開新一頁」。",
       "sentenceIndex": 34,
@@ -1601,12 +1463,10 @@ export default {
         "turn the page"
       ],
       "optionReasons": {
-        "page-mcq-15": "本句指「告別 X；翻開新一頁」。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-12": "「被傳呼」是「be paged」的用法，與本句語境不同。"
+        "page-mcq-15": "本句的「turn the page」指「告別 X；翻開新一頁」。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-15"
     },
@@ -1618,11 +1478,9 @@ export default {
       "masked": "Moving abroad opened a new ____ in her life.",
       "options": [
         "page-pdf-001",
-        "page-mcq-15",
-        "page-mcq-17",
-        "page-mcq-14",
-        "page-mcq-18",
-        "page-mcq-13"
+        "page-mcq-20",
+        "page-mcq-12",
+        "page-mcq-06"
       ],
       "explanation": "本句的「page」指「比喻人生、關係或歷史中一個新的階段」。",
       "sentenceIndex": 35,
@@ -1631,12 +1489,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-pdf-001": "本句指「比喻人生、關係或歷史中一個新的階段」。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。"
+        "page-pdf-001": "本句的「page」指「比喻人生、關係或歷史中一個新的階段」。",
+        "page-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-pdf-001"
     },
@@ -1648,11 +1504,9 @@ export default {
       "masked": "The agreement marked a new ____ in their relationship.",
       "options": [
         "page-pdf-001",
-        "page-mcq-15",
-        "page-mcq-17",
-        "page-mcq-14",
-        "page-mcq-18",
-        "page-mcq-13"
+        "page-mcq-05",
+        "page-mcq-06",
+        "page-mcq-12"
       ],
       "explanation": "本句的「page」指「比喻人生、關係或歷史中一個新的階段」。",
       "sentenceIndex": 36,
@@ -1661,12 +1515,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-pdf-001": "本句指「比喻人生、關係或歷史中一個新的階段」。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。"
+        "page-pdf-001": "本句的「page」指「比喻人生、關係或歷史中一個新的階段」。",
+        "page-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-pdf-001"
     },
@@ -1678,11 +1530,9 @@ export default {
       "masked": "The event became an important ____.",
       "options": [
         "page-mcq-16",
-        "page-mcq-15",
-        "page-mcq-17",
+        "page-mcq-11",
         "page-mcq-14",
-        "page-mcq-18",
-        "page-mcq-13"
+        "page-mcq-06"
       ],
       "explanation": "本句的「page in history」指「歷史的一頁」。",
       "sentenceIndex": 37,
@@ -1691,12 +1541,10 @@ export default {
         "page in history"
       ],
       "optionReasons": {
-        "page-mcq-16": "本句指「歷史的一頁」。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。"
+        "page-mcq-16": "本句的「page in history」指「歷史的一頁」。",
+        "page-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-16"
     },
@@ -1708,11 +1556,9 @@ export default {
       "masked": "The photographs preserve a forgotten ____.",
       "options": [
         "page-mcq-16",
-        "page-mcq-15",
+        "page-mcq-12",
         "page-mcq-17",
-        "page-mcq-14",
-        "page-mcq-18",
-        "page-mcq-13"
+        "page-mcq-06"
       ],
       "explanation": "本句的「page of local history」指「歷史的一頁」。",
       "sentenceIndex": 38,
@@ -1721,12 +1567,10 @@ export default {
         "page of local history"
       ],
       "optionReasons": {
-        "page-mcq-16": "本句指「歷史的一頁」。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-13": "「傳呼系統」是「paging system」的用法，與本句語境不同。"
+        "page-mcq-16": "本句的「page of local history」指「歷史的一頁」。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-16"
     },
@@ -1738,11 +1582,9 @@ export default {
       "masked": "We could ____ and plan more carefully.",
       "options": [
         "page-mcq-17",
-        "page-mcq-16",
-        "page-mcq-18",
-        "page-mcq-15",
-        "page-mcq-19",
-        "page-mcq-14"
+        "page-mcq-01",
+        "page-pdf-001",
+        "page-mcq-10"
       ],
       "explanation": "本句的「take a page from her book」指「借鑑某人做法」。",
       "sentenceIndex": 39,
@@ -1751,12 +1593,10 @@ export default {
         "take a page from her book"
       ],
       "optionReasons": {
-        "page-mcq-17": "本句指「借鑑某人做法」。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。"
+        "page-mcq-17": "本句的「take a page from her book」指「借鑑某人做法」。",
+        "page-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-17"
     },
@@ -1768,11 +1608,9 @@ export default {
       "masked": "He ____ and started saving early.",
       "options": [
         "page-mcq-17",
-        "page-mcq-16",
-        "page-mcq-18",
-        "page-mcq-15",
-        "page-mcq-19",
-        "page-mcq-14"
+        "page-mcq-07",
+        "page-pdf-001",
+        "page-mcq-13"
       ],
       "explanation": "本句的「took a page from his father's book」指「借鑑某人做法」。",
       "sentenceIndex": 40,
@@ -1781,12 +1619,10 @@ export default {
         "took a page from his father's book"
       ],
       "optionReasons": {
-        "page-mcq-17": "本句指「借鑑某人做法」。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-14": "「有共識；理解一致」是「on the same page」的用法，與本句語境不同。"
+        "page-mcq-17": "本句的「took a page from his father's book」指「借鑑某人做法」。",
+        "page-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-17"
     },
@@ -1799,10 +1635,8 @@ export default {
       "options": [
         "page-mcq-18",
         "page-mcq-17",
-        "page-mcq-19",
-        "page-mcq-16",
         "page-mcq-20",
-        "page-mcq-15"
+        "page-mcq-13"
       ],
       "explanation": "本句的「page-turner」指「令人欲罷不能的書」。",
       "sentenceIndex": 41,
@@ -1811,12 +1645,10 @@ export default {
         "page-turner"
       ],
       "optionReasons": {
-        "page-mcq-18": "本句指「令人欲罷不能的書」。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。"
+        "page-mcq-18": "本句的「page-turner」指「令人欲罷不能的書」。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-18"
     },
@@ -1828,11 +1660,9 @@ export default {
       "masked": "I finished it in one night because it was such a ____.",
       "options": [
         "page-mcq-18",
-        "page-mcq-17",
-        "page-mcq-19",
-        "page-mcq-16",
-        "page-mcq-20",
-        "page-mcq-15"
+        "page-mcq-14",
+        "page-mcq-02",
+        "page-mcq-12"
       ],
       "explanation": "本句的「page-turner」指「令人欲罷不能的書」。",
       "sentenceIndex": 42,
@@ -1841,12 +1671,10 @@ export default {
         "page-turner"
       ],
       "optionReasons": {
-        "page-mcq-18": "本句指「令人欲罷不能的書」。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-15": "「告別 X；翻開新一頁」是「turn the page on X」的用法，與本句語境不同。"
+        "page-mcq-18": "本句的「page-turner」指「令人欲罷不能的書」。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-18"
     },
@@ -1858,11 +1686,9 @@ export default {
       "masked": "Check the ____ before printing the report.",
       "options": [
         "page-mcq-19",
-        "page-mcq-18",
-        "page-mcq-20",
-        "page-mcq-17",
-        "page-mcq-21",
-        "page-mcq-16"
+        "page-mcq-10",
+        "page-mcq-12",
+        "page-mcq-18"
       ],
       "explanation": "本句的「pagination」指「頁碼編排；分頁」。",
       "sentenceIndex": 43,
@@ -1871,12 +1697,10 @@ export default {
         "pagination"
       ],
       "optionReasons": {
-        "page-mcq-19": "本句指「頁碼編排；分頁」。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。"
+        "page-mcq-19": "本句的「pagination」指「頁碼編排；分頁」。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-19"
     },
@@ -1888,11 +1712,9 @@ export default {
       "masked": "The website uses numbered ____ at the bottom.",
       "options": [
         "page-mcq-19",
-        "page-mcq-18",
-        "page-mcq-20",
+        "page-mcq-14",
         "page-mcq-17",
-        "page-mcq-21",
-        "page-mcq-16"
+        "page-mcq-06"
       ],
       "explanation": "本句的「pagination」指「頁碼編排；分頁」。",
       "sentenceIndex": 44,
@@ -1901,12 +1723,10 @@ export default {
         "pagination"
       ],
       "optionReasons": {
-        "page-mcq-19": "本句指「頁碼編排；分頁」。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-16": "「歷史的一頁」是「a page in history」的用法，與本句語境不同。"
+        "page-mcq-19": "本句的「pagination」指「頁碼編排；分頁」。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-19"
     },
@@ -1918,11 +1738,9 @@ export default {
       "masked": "The operating system uses ____ to manage memory.",
       "options": [
         "page-mcq-20",
-        "page-mcq-19",
-        "page-mcq-21",
-        "page-mcq-18",
-        "page-mcq-22",
-        "page-mcq-17"
+        "page-pdf-001",
+        "page-mcq-06",
+        "page-mcq-12"
       ],
       "explanation": "本句的「paging」指「記憶體分頁」。",
       "sentenceIndex": 45,
@@ -1931,12 +1749,10 @@ export default {
         "paging"
       ],
       "optionReasons": {
-        "page-mcq-20": "本句指「記憶體分頁」。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。"
+        "page-mcq-20": "本句的「paging」指「記憶體分頁」。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-20"
     },
@@ -1948,11 +1764,9 @@ export default {
       "masked": "Excessive ____ can reduce system performance.",
       "options": [
         "page-mcq-20",
-        "page-mcq-19",
-        "page-mcq-21",
-        "page-mcq-18",
-        "page-mcq-22",
-        "page-mcq-17"
+        "page-mcq-17",
+        "page-mcq-06",
+        "page-mcq-10"
       ],
       "explanation": "本句的「paging」指「記憶體分頁」。",
       "sentenceIndex": 46,
@@ -1961,12 +1775,10 @@ export default {
         "paging"
       ],
       "optionReasons": {
-        "page-mcq-20": "本句指「記憶體分頁」。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-17": "「借鑑某人做法」是「take a page from someone's book」的用法，與本句語境不同。"
+        "page-mcq-20": "本句的「paging」指「記憶體分頁」。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-20"
     },
@@ -1978,11 +1790,9 @@ export default {
       "masked": "The system moves a memory ____ to disk.",
       "options": [
         "page-mcq-21",
-        "page-mcq-20",
-        "page-mcq-22",
-        "page-mcq-19",
-        "page-mcq-23",
-        "page-mcq-18"
+        "page-mcq-13",
+        "page-mcq-10",
+        "page-pdf-001"
       ],
       "explanation": "本句的「page」指「記憶體頁」。",
       "sentenceIndex": 47,
@@ -1991,12 +1801,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-21": "本句指「記憶體頁」。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-23": "「網絡平台上代表某人、機構、品牌或主題的公開頁面」是「10. page（社交媒體／機構專頁） — 專頁；頁面」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。"
+        "page-mcq-21": "本句的「page」指「記憶體頁」。",
+        "page-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-21"
     },
@@ -2008,11 +1816,9 @@ export default {
       "masked": "Each ____ contains a fixed amount of data.",
       "options": [
         "page-mcq-21",
-        "page-mcq-20",
-        "page-mcq-22",
-        "page-mcq-19",
-        "page-mcq-23",
-        "page-mcq-18"
+        "page-mcq-11",
+        "page-mcq-14",
+        "page-mcq-06"
       ],
       "explanation": "本句的「page」指「記憶體頁」。",
       "sentenceIndex": 48,
@@ -2021,12 +1827,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-21": "本句指「記憶體頁」。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。",
-        "page-mcq-23": "「網絡平台上代表某人、機構、品牌或主題的公開頁面」是「10. page（社交媒體／機構專頁） — 專頁；頁面」的用法，與本句語境不同。",
-        "page-mcq-18": "「令人欲罷不能的書」是「page-turner」的用法，與本句語境不同。"
+        "page-mcq-21": "本句的「page」指「記憶體頁」。",
+        "page-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-21"
     },
@@ -2038,11 +1842,9 @@ export default {
       "masked": "In the historical drama, the young ____ served a nobleman.",
       "options": [
         "page-mcq-24",
-        "page-mcq-23",
-        "page-mcq-22",
-        "page-mcq-21",
-        "page-mcq-20",
-        "page-mcq-19"
+        "page-mcq-10",
+        "page-mcq-04",
+        "page-mcq-17"
       ],
       "explanation": "本句的「page」指「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」。",
       "sentenceIndex": 49,
@@ -2051,12 +1853,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-24": "本句指「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」。",
-        "page-mcq-23": "「網絡平台上代表某人、機構、品牌或主題的公開頁面」是「10. page（社交媒體／機構專頁） — 專頁；頁面」的用法，與本句語境不同。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。"
+        "page-mcq-24": "本句的「page」指「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」。",
+        "page-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-24"
     },
@@ -2068,11 +1868,9 @@ export default {
       "masked": "A ____ carried messages through the palace.",
       "options": [
         "page-mcq-24",
-        "page-mcq-23",
-        "page-mcq-22",
-        "page-mcq-21",
-        "page-mcq-20",
-        "page-mcq-19"
+        "page-mcq-03",
+        "page-mcq-18",
+        "page-mcq-17"
       ],
       "explanation": "本句的「page」指「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」。",
       "sentenceIndex": 50,
@@ -2081,12 +1879,10 @@ export default {
         "page"
       ],
       "optionReasons": {
-        "page-mcq-24": "本句指「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」。",
-        "page-mcq-23": "「網絡平台上代表某人、機構、品牌或主題的公開頁面」是「10. page（社交媒體／機構專頁） — 專頁；頁面」的用法，與本句語境不同。",
-        "page-mcq-22": "「侍從；傳令員」是「page (attendant)」的用法，與本句語境不同。",
-        "page-mcq-21": "「記憶體頁」是「page (computing)」的用法，與本句語境不同。",
-        "page-mcq-20": "「記憶體分頁」是「paging (computing)」的用法，與本句語境不同。",
-        "page-mcq-19": "「頁碼編排；分頁」是「pagination」的用法，與本句語境不同。"
+        "page-mcq-24": "本句的「page」指「歷史上為貴族服務、傳遞訊息或接受訓練的年輕侍從」。",
+        "page-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "page-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "page-mcq-24"
     }
@@ -2098,5 +1894,7 @@ export default {
     "sha256": "dba32c31c5d70a92183a19da98caa8f37285787ffd2e3a5faa1a17bd96de70e3",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

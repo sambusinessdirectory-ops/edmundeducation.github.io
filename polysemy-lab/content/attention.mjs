@@ -493,10 +493,8 @@ export default {
       "options": [
         "attention-mcq-01",
         "attention-mcq-02",
-        "attention-mcq-03",
-        "attention-mcq-04",
-        "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-11",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「attention」指「人把感官、思考和精神集中在某個對象上的狀態」。",
       "sentenceIndex": 0,
@@ -505,12 +503,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-01": "本句指「人把感官、思考和精神集中在某個對象上的狀態」。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-01": "本句的「attention」指「人把感官、思考和精神集中在某個對象上的狀態」。",
+        "attention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-01"
     },
@@ -522,11 +518,9 @@ export default {
       "masked": "The teacher asked for the students’ full ____.",
       "options": [
         "attention-mcq-01",
-        "attention-mcq-02",
-        "attention-mcq-03",
-        "attention-mcq-04",
-        "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-06",
+        "attention-mcq-09",
+        "attention-mcq-04"
       ],
       "explanation": "本句的「attention」指「人把感官、思考和精神集中在某個對象上的狀態」。",
       "sentenceIndex": 1,
@@ -535,12 +529,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-01": "本句指「人把感官、思考和精神集中在某個對象上的狀態」。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-01": "本句的「attention」指「人把感官、思考和精神集中在某個對象上的狀態」。",
+        "attention-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-01"
     },
@@ -553,10 +545,8 @@ export default {
       "options": [
         "attention-mcq-02",
         "attention-mcq-01",
-        "attention-mcq-03",
-        "attention-mcq-04",
-        "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-11",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「caught my attention」指「令某人開始注意某人／某事，將注意力轉向它」。",
       "sentenceIndex": 2,
@@ -565,12 +555,10 @@ export default {
         "caught my attention"
       ],
       "optionReasons": {
-        "attention-mcq-02": "本句指「令某人開始注意某人／某事，將注意力轉向它」。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-02": "本句的「caught my attention」指「令某人開始注意某人／某事，將注意力轉向它」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-02"
     },
@@ -582,11 +570,9 @@ export default {
       "masked": "The unusual design ____.",
       "options": [
         "attention-mcq-02",
-        "attention-mcq-01",
-        "attention-mcq-03",
-        "attention-mcq-04",
         "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-11",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「caught my attention」指「令某人開始注意某人／某事，將注意力轉向它」。",
       "sentenceIndex": 3,
@@ -595,12 +581,10 @@ export default {
         "caught my attention"
       ],
       "optionReasons": {
-        "attention-mcq-02": "本句指「令某人開始注意某人／某事，將注意力轉向它」。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-02": "本句的「caught my attention」指「令某人開始注意某人／某事，將注意力轉向它」。",
+        "attention-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-02"
     },
@@ -612,11 +596,9 @@ export default {
       "masked": "Bright colours are often used to ____.",
       "options": [
         "attention-mcq-02",
-        "attention-mcq-01",
-        "attention-mcq-03",
-        "attention-mcq-04",
         "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-11",
+        "attention-pdf-001"
       ],
       "explanation": "本句的「attract attention」指「令某人開始注意某人／某事，將注意力轉向它」。",
       "sentenceIndex": 4,
@@ -625,12 +607,10 @@ export default {
         "attract attention"
       ],
       "optionReasons": {
-        "attention-mcq-02": "本句指「令某人開始注意某人／某事，將注意力轉向它」。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-02": "本句的「attract attention」指「令某人開始注意某人／某事，將注意力轉向它」。",
+        "attention-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-02"
     },
@@ -642,11 +622,9 @@ export default {
       "masked": "Please ____ the instructions.",
       "options": [
         "attention-mcq-03",
-        "attention-mcq-02",
-        "attention-mcq-04",
-        "attention-mcq-01",
-        "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-11",
+        "attention-mcq-08",
+        "attention-pdf-001"
       ],
       "explanation": "本句的「pay attention to」指「主動把注意力集中在某個對象，以免錯過重要資訊」。",
       "sentenceIndex": 5,
@@ -655,12 +633,10 @@ export default {
         "pay attention to"
       ],
       "optionReasons": {
-        "attention-mcq-03": "本句指「主動把注意力集中在某個對象，以免錯過重要資訊」。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-03": "本句的「pay attention to」指「主動把注意力集中在某個對象，以免錯過重要資訊」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-03"
     },
@@ -672,11 +648,9 @@ export default {
       "masked": "You need to ____ the details.",
       "options": [
         "attention-mcq-03",
-        "attention-mcq-02",
-        "attention-mcq-04",
-        "attention-mcq-01",
-        "attention-mcq-05",
-        "attention-mcq-06"
+        "attention-mcq-11",
+        "attention-mcq-08",
+        "attention-pdf-001"
       ],
       "explanation": "本句的「pay attention to」指「主動把注意力集中在某個對象，以免錯過重要資訊」。",
       "sentenceIndex": 6,
@@ -685,12 +659,10 @@ export default {
         "pay attention to"
       ],
       "optionReasons": {
-        "attention-mcq-03": "本句指「主動把注意力集中在某個對象，以免錯過重要資訊」。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-03": "本句的「pay attention to」指「主動把注意力集中在某個對象，以免錯過重要資訊」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-03"
     },
@@ -702,11 +674,9 @@ export default {
       "masked": "The report ____ several safety problems.",
       "options": [
         "attention-mcq-04",
-        "attention-mcq-03",
-        "attention-mcq-05",
-        "attention-mcq-02",
-        "attention-mcq-06",
-        "attention-mcq-01"
+        "attention-mcq-09",
+        "attention-mcq-01",
+        "attention-mcq-11"
       ],
       "explanation": "本句的「draws attention to」指「有意令別人注意某項原本可能被忽略的事情」。",
       "sentenceIndex": 7,
@@ -715,12 +685,10 @@ export default {
         "draws attention to"
       ],
       "optionReasons": {
-        "attention-mcq-04": "本句指「有意令別人注意某項原本可能被忽略的事情」。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。"
+        "attention-mcq-04": "本句的「draws attention to」指「有意令別人注意某項原本可能被忽略的事情」。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-04"
     },
@@ -732,11 +700,9 @@ export default {
       "masked": "She ____ an error in the figures.",
       "options": [
         "attention-mcq-04",
-        "attention-mcq-03",
-        "attention-mcq-05",
-        "attention-mcq-02",
-        "attention-mcq-06",
-        "attention-mcq-01"
+        "attention-mcq-01",
+        "attention-mcq-11",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「called attention to」指「有意令別人注意某項原本可能被忽略的事情」。",
       "sentenceIndex": 8,
@@ -745,12 +711,10 @@ export default {
         "called attention to"
       ],
       "optionReasons": {
-        "attention-mcq-04": "本句指「有意令別人注意某項原本可能被忽略的事情」。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-01": "「人把感官、思考和精神集中在某個對象上的狀態」是「attention — mental focus」的用法，與本句語境不同。"
+        "attention-mcq-04": "本句的「called attention to」指「有意令別人注意某項原本可能被忽略的事情」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-04"
     },
@@ -762,11 +726,9 @@ export default {
       "masked": "The issue requires immediate ____.",
       "options": [
         "attention-mcq-05",
-        "attention-mcq-04",
-        "attention-mcq-06",
-        "attention-mcq-03",
-        "attention-mcq-07",
-        "attention-mcq-02"
+        "attention-mcq-14",
+        "attention-pdf-001",
+        "attention-mcq-11"
       ],
       "explanation": "本句的「attention」指「對重要事情投入時間、思考和處理，以確保得到妥善處置」。",
       "sentenceIndex": 9,
@@ -775,12 +737,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-05": "本句指「對重要事情投入時間、思考和處理，以確保得到妥善處置」。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。"
+        "attention-mcq-05": "本句的「attention」指「對重要事情投入時間、思考和處理，以確保得到妥善處置」。",
+        "attention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-05"
     },
@@ -793,10 +753,8 @@ export default {
       "options": [
         "attention-mcq-05",
         "attention-mcq-04",
-        "attention-mcq-06",
-        "attention-mcq-03",
-        "attention-mcq-07",
-        "attention-mcq-02"
+        "attention-pdf-001",
+        "attention-mcq-11"
       ],
       "explanation": "本句的「attention」指「對重要事情投入時間、思考和處理，以確保得到妥善處置」。",
       "sentenceIndex": 10,
@@ -805,12 +763,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-05": "本句指「對重要事情投入時間、思考和處理，以確保得到妥善處置」。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-02": "「令某人開始注意某人／某事，將注意力轉向它」是「catch/attract attention」的用法，與本句語境不同。"
+        "attention-mcq-05": "本句的「attention」指「對重要事情投入時間、思考和處理，以確保得到妥善處置」。",
+        "attention-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-05"
     },
@@ -822,11 +778,8 @@ export default {
       "masked": "The job requires excellent ____.",
       "options": [
         "attention-mcq-06",
-        "attention-mcq-05",
-        "attention-mcq-07",
-        "attention-mcq-04",
-        "attention-mcq-08",
-        "attention-mcq-03"
+        "attention-mcq-01",
+        "attention-mcq-08"
       ],
       "explanation": "本句的「attention to detail」指「對細小但重要的資訊保持高度留意、避免錯漏的能力」。",
       "sentenceIndex": 11,
@@ -835,12 +788,9 @@ export default {
         "attention to detail"
       ],
       "optionReasons": {
-        "attention-mcq-06": "本句指「對細小但重要的資訊保持高度留意、避免錯漏的能力」。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。"
+        "attention-mcq-06": "本句的「attention to detail」指「對細小但重要的資訊保持高度留意、避免錯漏的能力」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-06"
     },
@@ -852,11 +802,8 @@ export default {
       "masked": "Her ____ improved the quality of the final report.",
       "options": [
         "attention-mcq-06",
-        "attention-mcq-05",
-        "attention-mcq-07",
-        "attention-mcq-04",
-        "attention-mcq-08",
-        "attention-mcq-03"
+        "attention-mcq-01",
+        "attention-mcq-08"
       ],
       "explanation": "本句的「attention to detail」指「對細小但重要的資訊保持高度留意、避免錯漏的能力」。",
       "sentenceIndex": 12,
@@ -865,12 +812,9 @@ export default {
         "attention to detail"
       ],
       "optionReasons": {
-        "attention-mcq-06": "本句指「對細小但重要的資訊保持高度留意、避免錯漏的能力」。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-03": "「主動把注意力集中在某個對象，以免錯過重要資訊」是「pay attention to」的用法，與本句語境不同。"
+        "attention-mcq-06": "本句的「attention to detail」指「對細小但重要的資訊保持高度留意、避免錯漏的能力」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-06"
     },
@@ -882,11 +826,9 @@ export default {
       "masked": "The patient needs constant ____.",
       "options": [
         "attention-mcq-07",
-        "attention-mcq-06",
-        "attention-mcq-08",
-        "attention-mcq-05",
-        "attention-mcq-09",
-        "attention-mcq-04"
+        "attention-mcq-01",
+        "attention-pdf-001",
+        "attention-mcq-11"
       ],
       "explanation": "本句的「attention」指「為滿足某人的需要而給予的照料、協助或服務」。",
       "sentenceIndex": 13,
@@ -895,12 +837,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-07": "本句指「為滿足某人的需要而給予的照料、協助或服務」。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。"
+        "attention-mcq-07": "本句的「attention」指「為滿足某人的需要而給予的照料、協助或服務」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-07"
     },
@@ -912,11 +852,9 @@ export default {
       "masked": "The staff gave us excellent ____ throughout our stay.",
       "options": [
         "attention-mcq-07",
-        "attention-mcq-06",
-        "attention-mcq-08",
-        "attention-mcq-05",
-        "attention-mcq-09",
-        "attention-mcq-04"
+        "attention-mcq-01",
+        "attention-mcq-16",
+        "attention-mcq-11"
       ],
       "explanation": "本句的「attention」指「為滿足某人的需要而給予的照料、協助或服務」。",
       "sentenceIndex": 14,
@@ -925,12 +863,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-07": "本句指「為滿足某人的需要而給予的照料、協助或服務」。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-04": "「有意令別人注意某項原本可能被忽略的事情」是「draw/call attention to」的用法，與本句語境不同。"
+        "attention-mcq-07": "本句的「attention」指「為滿足某人的需要而給予的照料、協助或服務」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-07"
     },
@@ -942,11 +878,9 @@ export default {
       "masked": "The injury requires immediate medical ____.",
       "options": [
         "attention-mcq-08",
-        "attention-mcq-07",
-        "attention-mcq-09",
-        "attention-mcq-06",
-        "attention-mcq-10",
-        "attention-mcq-05"
+        "attention-mcq-03",
+        "attention-mcq-11",
+        "attention-pdf-001"
       ],
       "explanation": "本句的「attention」指「由醫療人員提供的檢查、照顧或治療」。",
       "sentenceIndex": 15,
@@ -955,12 +889,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-08": "本句指「由醫療人員提供的檢查、照顧或治療」。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。"
+        "attention-mcq-08": "本句的「attention」指「由醫療人員提供的檢查、照顧或治療」。",
+        "attention-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-08"
     },
@@ -972,11 +904,9 @@ export default {
       "masked": "Seek medical ____ if the symptoms become worse.",
       "options": [
         "attention-mcq-08",
-        "attention-mcq-07",
-        "attention-mcq-09",
-        "attention-mcq-06",
-        "attention-mcq-10",
-        "attention-mcq-05"
+        "attention-mcq-03",
+        "attention-pdf-001",
+        "attention-mcq-11"
       ],
       "explanation": "本句的「attention」指「由醫療人員提供的檢查、照顧或治療」。",
       "sentenceIndex": 16,
@@ -985,12 +915,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-08": "本句指「由醫療人員提供的檢查、照顧或治療」。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-05": "「對重要事情投入時間、思考和處理，以確保得到妥善處置」是「attention — consideration」的用法，與本句語境不同。"
+        "attention-mcq-08": "本句的「attention」指「由醫療人員提供的檢查、照顧或治療」。",
+        "attention-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-08"
     },
@@ -1002,11 +930,9 @@ export default {
       "masked": "The engine needs urgent ____.",
       "options": [
         "attention-mcq-09",
-        "attention-mcq-08",
-        "attention-mcq-10",
-        "attention-mcq-07",
         "attention-mcq-11",
-        "attention-mcq-06"
+        "attention-mcq-02",
+        "attention-pdf-001"
       ],
       "explanation": "本句的「attention」指「對有問題的設備／情況進行必要檢查、維修或處理」。",
       "sentenceIndex": 17,
@@ -1015,12 +941,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-09": "本句指「對有問題的設備／情況進行必要檢查、維修或處理」。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-09": "本句的「attention」指「對有問題的設備／情況進行必要檢查、維修或處理」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-09"
     },
@@ -1032,11 +956,9 @@ export default {
       "masked": "Several areas of the building require ____.",
       "options": [
         "attention-mcq-09",
-        "attention-mcq-08",
-        "attention-mcq-10",
-        "attention-mcq-07",
+        "attention-mcq-14",
         "attention-mcq-11",
-        "attention-mcq-06"
+        "attention-pdf-001"
       ],
       "explanation": "本句的「attention」指「對有問題的設備／情況進行必要檢查、維修或處理」。",
       "sentenceIndex": 18,
@@ -1045,12 +967,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-09": "本句指「對有問題的設備／情況進行必要檢查、維修或處理」。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-06": "「對細小但重要的資訊保持高度留意、避免錯漏的能力」是「attention to detail」的用法，與本句語境不同。"
+        "attention-mcq-09": "本句的「attention」指「對有問題的設備／情況進行必要檢查、維修或處理」。",
+        "attention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-09"
     },
@@ -1062,11 +982,8 @@ export default {
       "masked": "____ The train will depart shortly.",
       "options": [
         "attention-mcq-10",
-        "attention-mcq-09",
-        "attention-mcq-11",
         "attention-mcq-08",
-        "attention-mcq-12",
-        "attention-mcq-07"
+        "attention-pdf-001"
       ],
       "explanation": "本句的「Attention, please.」指「用來立即要求所有人集中注意的正式呼叫／警告」。",
       "sentenceIndex": 19,
@@ -1075,12 +992,9 @@ export default {
         "Attention, please."
       ],
       "optionReasons": {
-        "attention-mcq-10": "本句指「用來立即要求所有人集中注意的正式呼叫／警告」。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。"
+        "attention-mcq-10": "本句的「Attention, please.」指「用來立即要求所有人集中注意的正式呼叫／警告」。",
+        "attention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-10"
     },
@@ -1092,11 +1006,8 @@ export default {
       "masked": "____ This area is closed to the public.",
       "options": [
         "attention-mcq-10",
-        "attention-mcq-09",
-        "attention-mcq-11",
         "attention-mcq-08",
-        "attention-mcq-12",
-        "attention-mcq-07"
+        "attention-pdf-001"
       ],
       "explanation": "本句的「Attention!」指「用來立即要求所有人集中注意的正式呼叫／警告」。",
       "sentenceIndex": 20,
@@ -1105,12 +1016,9 @@ export default {
         "Attention!"
       ],
       "optionReasons": {
-        "attention-mcq-10": "本句指「用來立即要求所有人集中注意的正式呼叫／警告」。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-07": "「為滿足某人的需要而給予的照料、協助或服務」是「attention — care/service」的用法，與本句語境不同。"
+        "attention-mcq-10": "本句的「Attention!」指「用來立即要求所有人集中注意的正式呼叫／警告」。",
+        "attention-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-10"
     },
@@ -1122,11 +1030,9 @@ export default {
       "masked": "The soldiers stood ____.",
       "options": [
         "attention-mcq-11",
-        "attention-mcq-10",
-        "attention-mcq-12",
-        "attention-mcq-09",
-        "attention-mcq-13",
-        "attention-mcq-08"
+        "attention-mcq-14",
+        "attention-pdf-001",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「at attention」指「身體挺直、保持正式軍事立正姿勢」。",
       "sentenceIndex": 21,
@@ -1135,12 +1041,10 @@ export default {
         "at attention"
       ],
       "optionReasons": {
-        "attention-mcq-11": "本句指「身體挺直、保持正式軍事立正姿勢」。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。"
+        "attention-mcq-11": "本句的「at attention」指「身體挺直、保持正式軍事立正姿勢」。",
+        "attention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-11"
     },
@@ -1152,11 +1056,9 @@ export default {
       "masked": "The officer ordered the group to come ____.",
       "options": [
         "attention-mcq-11",
-        "attention-mcq-10",
-        "attention-mcq-12",
-        "attention-mcq-09",
-        "attention-mcq-13",
-        "attention-mcq-08"
+        "attention-mcq-07",
+        "attention-pdf-001",
+        "attention-mcq-01"
       ],
       "explanation": "本句的「to attention」指「身體挺直、保持正式軍事立正姿勢」。",
       "sentenceIndex": 22,
@@ -1165,12 +1067,10 @@ export default {
         "to attention"
       ],
       "optionReasons": {
-        "attention-mcq-11": "本句指「身體挺直、保持正式軍事立正姿勢」。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-08": "「由醫療人員提供的檢查、照顧或治療」是「medical attention」的用法，與本句語境不同。"
+        "attention-mcq-11": "本句的「to attention」指「身體挺直、保持正式軍事立正姿勢」。",
+        "attention-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-11"
     },
@@ -1182,11 +1082,9 @@ export default {
       "masked": "She was uncomfortable with his persistent ____.",
       "options": [
         "attention-mcq-12",
-        "attention-mcq-11",
-        "attention-mcq-13",
-        "attention-mcq-10",
-        "attention-mcq-14",
-        "attention-mcq-09"
+        "attention-mcq-16",
+        "attention-mcq-05",
+        "attention-mcq-10"
       ],
       "explanation": "本句的「attentions」指「對某人持續而明顯的殷勤、追求或密集關注」。",
       "sentenceIndex": 23,
@@ -1195,12 +1093,10 @@ export default {
         "attentions"
       ],
       "optionReasons": {
-        "attention-mcq-12": "本句指「對某人持續而明顯的殷勤、追求或密集關注」。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。"
+        "attention-mcq-12": "本句的「attentions」指「對某人持續而明顯的殷勤、追求或密集關注」。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-12"
     },
@@ -1212,11 +1108,9 @@ export default {
       "masked": "He tried to avoid the unwanted ____ of the press.",
       "options": [
         "attention-mcq-12",
-        "attention-mcq-11",
-        "attention-mcq-13",
-        "attention-mcq-10",
-        "attention-mcq-14",
-        "attention-mcq-09"
+        "attention-mcq-09",
+        "attention-mcq-20",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「attentions」指「對某人持續而明顯的殷勤、追求或密集關注」。",
       "sentenceIndex": 24,
@@ -1225,12 +1119,10 @@ export default {
         "attentions"
       ],
       "optionReasons": {
-        "attention-mcq-12": "本句指「對某人持續而明顯的殷勤、追求或密集關注」。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-09": "「對有問題的設備／情況進行必要檢查、維修或處理」是「attention — maintenance」的用法，與本句語境不同。"
+        "attention-mcq-12": "本句的「attentions」指「對某人持續而明顯的殷勤、追求或密集關注」。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-12"
     },
@@ -1242,11 +1134,9 @@ export default {
       "masked": "Young children often have shorter ____.",
       "options": [
         "attention-mcq-13",
-        "attention-mcq-12",
-        "attention-mcq-14",
-        "attention-mcq-11",
-        "attention-mcq-15",
-        "attention-mcq-10"
+        "attention-mcq-01",
+        "attention-mcq-09",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「attention spans」指「一個人在注意力分散前能持續專注的時間長度」。",
       "sentenceIndex": 25,
@@ -1255,12 +1145,10 @@ export default {
         "attention spans"
       ],
       "optionReasons": {
-        "attention-mcq-13": "本句指「一個人在注意力分散前能持續專注的時間長度」。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。"
+        "attention-mcq-13": "本句的「attention spans」指「一個人在注意力分散前能持續專注的時間長度」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-13"
     },
@@ -1272,11 +1160,9 @@ export default {
       "masked": "Constant notifications can affect your ____.",
       "options": [
         "attention-mcq-13",
-        "attention-mcq-12",
-        "attention-mcq-14",
-        "attention-mcq-11",
-        "attention-mcq-15",
-        "attention-mcq-10"
+        "attention-mcq-09",
+        "attention-mcq-01",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「attention span」指「一個人在注意力分散前能持續專注的時間長度」。",
       "sentenceIndex": 26,
@@ -1285,12 +1171,10 @@ export default {
         "attention span"
       ],
       "optionReasons": {
-        "attention-mcq-13": "本句指「一個人在注意力分散前能持續專注的時間長度」。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-10": "「用來立即要求所有人集中注意的正式呼叫／警告」是「Attention!」的用法，與本句語境不同。"
+        "attention-mcq-13": "本句的「attention span」指「一個人在注意力分散前能持續專注的時間長度」。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-13"
     },
@@ -1302,11 +1186,9 @@ export default {
       "masked": "The commercial used an ____ opening.",
       "options": [
         "attention-mcq-14",
-        "attention-mcq-13",
-        "attention-mcq-15",
-        "attention-mcq-12",
-        "attention-mcq-16",
-        "attention-mcq-11"
+        "attention-mcq-11",
+        "attention-mcq-01",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「attention-grabbing」指「特別能迅速吸引別人注意的」。",
       "sentenceIndex": 27,
@@ -1315,12 +1197,10 @@ export default {
         "attention-grabbing"
       ],
       "optionReasons": {
-        "attention-mcq-14": "本句指「特別能迅速吸引別人注意的」。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。"
+        "attention-mcq-14": "本句的「attention-grabbing」指「特別能迅速吸引別人注意的」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-14"
     },
@@ -1332,10 +1212,8 @@ export default {
       "masked": "The packaging is colourful and ____.",
       "options": [
         "attention-mcq-14",
-        "attention-mcq-13",
-        "attention-mcq-15",
-        "attention-mcq-12",
-        "attention-mcq-16",
+        "attention-mcq-09",
+        "attention-mcq-20",
         "attention-mcq-11"
       ],
       "explanation": "本句的「attention-grabbing」指「特別能迅速吸引別人注意的」。",
@@ -1345,12 +1223,10 @@ export default {
         "attention-grabbing"
       ],
       "optionReasons": {
-        "attention-mcq-14": "本句指「特別能迅速吸引別人注意的」。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-11": "「身體挺直、保持正式軍事立正姿勢」是「at attention」的用法，與本句語境不同。"
+        "attention-mcq-14": "本句的「attention-grabbing」指「特別能迅速吸引別人注意的」。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-14"
     },
@@ -1362,11 +1238,9 @@ export default {
       "masked": "His behaviour seemed ____.",
       "options": [
         "attention-mcq-15",
-        "attention-mcq-14",
-        "attention-mcq-16",
-        "attention-mcq-13",
-        "attention-mcq-17",
-        "attention-mcq-12"
+        "attention-mcq-20",
+        "attention-mcq-11",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「attention-seeking」指「刻意透過行為來獲得他人關注的，通常帶負面意味」。",
       "sentenceIndex": 29,
@@ -1375,12 +1249,10 @@ export default {
         "attention-seeking"
       ],
       "optionReasons": {
-        "attention-mcq-15": "本句指「刻意透過行為來獲得他人關注的，通常帶負面意味」。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。"
+        "attention-mcq-15": "本句的「attention-seeking」指「刻意透過行為來獲得他人關注的，通常帶負面意味」。",
+        "attention-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-15"
     },
@@ -1392,11 +1264,9 @@ export default {
       "masked": "The post was criticized as ____.",
       "options": [
         "attention-mcq-15",
-        "attention-mcq-14",
-        "attention-mcq-16",
-        "attention-mcq-13",
-        "attention-mcq-17",
-        "attention-mcq-12"
+        "attention-mcq-11",
+        "attention-mcq-01",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「attention-seeking」指「刻意透過行為來獲得他人關注的，通常帶負面意味」。",
       "sentenceIndex": 30,
@@ -1405,12 +1275,10 @@ export default {
         "attention-seeking"
       ],
       "optionReasons": {
-        "attention-mcq-15": "本句指「刻意透過行為來獲得他人關注的，通常帶負面意味」。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-12": "「對某人持續而明顯的殷勤、追求或密集關注」是「attentions」的用法，與本句語境不同。"
+        "attention-mcq-15": "本句的「attention-seeking」指「刻意透過行為來獲得他人關注的，通常帶負面意味」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-15"
     },
@@ -1422,11 +1290,9 @@ export default {
       "masked": "The students were quiet and ____.",
       "options": [
         "attention-mcq-16",
-        "attention-mcq-15",
-        "attention-mcq-17",
-        "attention-mcq-14",
-        "attention-mcq-18",
-        "attention-mcq-13"
+        "attention-mcq-05",
+        "attention-mcq-11",
+        "attention-mcq-02"
       ],
       "explanation": "本句的「attentive」指「主動仔細留意所聽、所看或所做事情的」。",
       "sentenceIndex": 31,
@@ -1435,12 +1301,10 @@ export default {
         "attentive"
       ],
       "optionReasons": {
-        "attention-mcq-16": "本句指「主動仔細留意所聽、所看或所做事情的」。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。"
+        "attention-mcq-16": "本句的「attentive」指「主動仔細留意所聽、所看或所做事情的」。",
+        "attention-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-16"
     },
@@ -1452,11 +1316,9 @@ export default {
       "masked": "Be ____ during the safety briefing.",
       "options": [
         "attention-mcq-16",
-        "attention-mcq-15",
-        "attention-mcq-17",
-        "attention-mcq-14",
-        "attention-mcq-18",
-        "attention-mcq-13"
+        "attention-mcq-09",
+        "attention-mcq-12",
+        "attention-mcq-01"
       ],
       "explanation": "本句的「attentive」指「主動仔細留意所聽、所看或所做事情的」。",
       "sentenceIndex": 32,
@@ -1465,12 +1327,10 @@ export default {
         "attentive"
       ],
       "optionReasons": {
-        "attention-mcq-16": "本句指「主動仔細留意所聽、所看或所做事情的」。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-13": "「一個人在注意力分散前能持續專注的時間長度」是「attention span」的用法，與本句語境不同。"
+        "attention-mcq-16": "本句的「attentive」指「主動仔細留意所聽、所看或所做事情的」。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-16"
     },
@@ -1482,11 +1342,9 @@ export default {
       "masked": "The hotel staff were extremely ____.",
       "options": [
         "attention-mcq-17",
-        "attention-mcq-16",
-        "attention-mcq-18",
-        "attention-mcq-15",
-        "attention-mcq-19",
-        "attention-mcq-14"
+        "attention-mcq-01",
+        "attention-mcq-11",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「attentive」指「主動留意別人的需要並給予細心照顧的」。",
       "sentenceIndex": 33,
@@ -1495,12 +1353,10 @@ export default {
         "attentive"
       ],
       "optionReasons": {
-        "attention-mcq-17": "本句指「主動留意別人的需要並給予細心照顧的」。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。"
+        "attention-mcq-17": "本句的「attentive」指「主動留意別人的需要並給予細心照顧的」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-17"
     },
@@ -1512,11 +1368,9 @@ export default {
       "masked": "He is an ____ father.",
       "options": [
         "attention-mcq-17",
-        "attention-mcq-16",
-        "attention-mcq-18",
-        "attention-mcq-15",
-        "attention-mcq-19",
-        "attention-mcq-14"
+        "attention-mcq-11",
+        "attention-mcq-01",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「attentive」指「主動留意別人的需要並給予細心照顧的」。",
       "sentenceIndex": 34,
@@ -1525,12 +1379,10 @@ export default {
         "attentive"
       ],
       "optionReasons": {
-        "attention-mcq-17": "本句指「主動留意別人的需要並給予細心照顧的」。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。"
+        "attention-mcq-17": "本句的「attentive」指「主動留意別人的需要並給予細心照顧的」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-17"
     },
@@ -1542,11 +1394,9 @@ export default {
       "masked": "She listened ____.",
       "options": [
         "attention-pdf-001",
-        "attention-mcq-16",
-        "attention-mcq-18",
-        "attention-mcq-15",
-        "attention-mcq-19",
-        "attention-mcq-14"
+        "attention-mcq-09",
+        "attention-mcq-11",
+        "attention-mcq-01"
       ],
       "explanation": "本句的「attentively」指「以高度留意、專心而不分心的方式」。",
       "sentenceIndex": 35,
@@ -1555,12 +1405,10 @@ export default {
         "attentively"
       ],
       "optionReasons": {
-        "attention-pdf-001": "本句指「以高度留意、專心而不分心的方式」。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。"
+        "attention-pdf-001": "本句的「attentively」指「以高度留意、專心而不分心的方式」。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-pdf-001"
     },
@@ -1572,11 +1420,9 @@ export default {
       "masked": "He watched ____ as the technician explained the controls.",
       "options": [
         "attention-pdf-001",
-        "attention-mcq-16",
-        "attention-mcq-18",
-        "attention-mcq-15",
-        "attention-mcq-19",
-        "attention-mcq-14"
+        "attention-mcq-05",
+        "attention-mcq-12",
+        "attention-mcq-10"
       ],
       "explanation": "本句的「attentively」指「以高度留意、專心而不分心的方式」。",
       "sentenceIndex": 36,
@@ -1585,12 +1431,10 @@ export default {
         "attentively"
       ],
       "optionReasons": {
-        "attention-pdf-001": "本句指「以高度留意、專心而不分心的方式」。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-14": "「特別能迅速吸引別人注意的」是「attention-grabbing」的用法，與本句語境不同。"
+        "attention-pdf-001": "本句的「attentively」指「以高度留意、專心而不分心的方式」。",
+        "attention-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-pdf-001"
     },
@@ -1602,11 +1446,9 @@ export default {
       "masked": "The driver appeared ____.",
       "options": [
         "attention-mcq-18",
-        "attention-mcq-17",
-        "attention-mcq-19",
-        "attention-mcq-16",
-        "attention-mcq-20",
-        "attention-mcq-15"
+        "attention-mcq-01",
+        "attention-mcq-11",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「inattentive」指「沒有給予應有注意力、容易忽略重要事情的」。",
       "sentenceIndex": 37,
@@ -1615,12 +1457,10 @@ export default {
         "inattentive"
       ],
       "optionReasons": {
-        "attention-mcq-18": "本句指「沒有給予應有注意力、容易忽略重要事情的」。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-20": "「模型動態判斷不同輸入部分相對重要程度的計算機制」是「attention — AI」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
+        "attention-mcq-18": "本句的「inattentive」指「沒有給予應有注意力、容易忽略重要事情的」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-18"
     },
@@ -1632,11 +1472,9 @@ export default {
       "masked": "An ____ reader may miss the difference.",
       "options": [
         "attention-mcq-18",
-        "attention-mcq-17",
-        "attention-mcq-19",
-        "attention-mcq-16",
-        "attention-mcq-20",
-        "attention-mcq-15"
+        "attention-mcq-11",
+        "attention-mcq-01",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「inattentive」指「沒有給予應有注意力、容易忽略重要事情的」。",
       "sentenceIndex": 38,
@@ -1645,12 +1483,10 @@ export default {
         "inattentive"
       ],
       "optionReasons": {
-        "attention-mcq-18": "本句指「沒有給予應有注意力、容易忽略重要事情的」。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-20": "「模型動態判斷不同輸入部分相對重要程度的計算機制」是「attention — AI」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
+        "attention-mcq-18": "本句的「inattentive」指「沒有給予應有注意力、容易忽略重要事情的」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-18"
     },
@@ -1662,11 +1498,9 @@ export default {
       "masked": "The mistake was caused by ____.",
       "options": [
         "attention-pdf-002",
-        "attention-mcq-18",
-        "attention-mcq-20",
-        "attention-mcq-17",
-        "attention-mcq-16",
-        "attention-mcq-15"
+        "attention-mcq-01",
+        "attention-mcq-11",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「inattention」指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
       "sentenceIndex": 39,
@@ -1675,12 +1509,10 @@ export default {
         "inattention"
       ],
       "optionReasons": {
-        "attention-pdf-002": "本句指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-20": "「模型動態判斷不同輸入部分相對重要程度的計算機制」是「attention — AI」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
+        "attention-pdf-002": "本句的「inattention」指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-pdf-002"
     },
@@ -1692,11 +1524,9 @@ export default {
       "masked": "A moment of ____ can cause an accident.",
       "options": [
         "attention-pdf-002",
-        "attention-mcq-18",
-        "attention-mcq-20",
-        "attention-mcq-17",
-        "attention-mcq-16",
-        "attention-mcq-15"
+        "attention-mcq-01",
+        "attention-mcq-11",
+        "attention-pdf-001"
       ],
       "explanation": "本句的「inattention」指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
       "sentenceIndex": 40,
@@ -1705,12 +1535,10 @@ export default {
         "inattention"
       ],
       "optionReasons": {
-        "attention-pdf-002": "本句指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-20": "「模型動態判斷不同輸入部分相對重要程度的計算機制」是「attention — AI」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
+        "attention-pdf-002": "本句的「inattention」指「沒有給予應有的注意力，導致忽略重要資訊或事情」。",
+        "attention-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-pdf-002"
     },
@@ -1722,11 +1550,9 @@ export default {
       "masked": "Transformers use ____ to relate different parts of a sequence.",
       "options": [
         "attention-mcq-20",
-        "attention-mcq-19",
-        "attention-mcq-18",
-        "attention-mcq-17",
-        "attention-mcq-16",
-        "attention-mcq-15"
+        "attention-mcq-12",
+        "attention-mcq-10",
+        "attention-mcq-09"
       ],
       "explanation": "本句的「attention」指「模型動態判斷不同輸入部分相對重要程度的計算機制」。",
       "sentenceIndex": 41,
@@ -1735,12 +1561,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-20": "本句指「模型動態判斷不同輸入部分相對重要程度的計算機制」。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
+        "attention-mcq-20": "本句的「attention」指「模型動態判斷不同輸入部分相對重要程度的計算機制」。",
+        "attention-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-20"
     },
@@ -1752,11 +1576,9 @@ export default {
       "masked": "The model assigns higher ____ to relevant words.",
       "options": [
         "attention-mcq-20",
-        "attention-mcq-19",
-        "attention-mcq-18",
-        "attention-mcq-17",
-        "attention-mcq-16",
-        "attention-mcq-15"
+        "attention-mcq-11",
+        "attention-mcq-14",
+        "attention-mcq-16"
       ],
       "explanation": "本句的「attention」指「模型動態判斷不同輸入部分相對重要程度的計算機制」。",
       "sentenceIndex": 42,
@@ -1765,12 +1587,10 @@ export default {
         "attention"
       ],
       "optionReasons": {
-        "attention-mcq-20": "本句指「模型動態判斷不同輸入部分相對重要程度的計算機制」。",
-        "attention-mcq-19": "「缺乏應有注意力而造成的分心／疏忽」是「inattention」的用法，與本句語境不同。",
-        "attention-mcq-18": "「沒有給予應有注意力、容易忽略重要事情的」是「inattentive」的用法，與本句語境不同。",
-        "attention-mcq-17": "「主動留意別人的需要並給予細心照顧的」是「attentive — caring」的用法，與本句語境不同。",
-        "attention-mcq-16": "「主動仔細留意所聽、所看或所做事情的」是「attentive — concentration」的用法，與本句語境不同。",
-        "attention-mcq-15": "「刻意透過行為來獲得他人關注的，通常帶負面意味」是「attention-seeking」的用法，與本句語境不同。"
+        "attention-mcq-20": "本句的「attention」指「模型動態判斷不同輸入部分相對重要程度的計算機制」。",
+        "attention-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "attention-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attention-mcq-20"
     }
@@ -1782,5 +1602,7 @@ export default {
     "sha256": "e2a3e281bde27f5942807f89a381eb222d229a198ffe931205e5c82fe44ff571",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

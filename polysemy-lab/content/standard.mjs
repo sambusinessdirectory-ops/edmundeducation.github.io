@@ -224,16 +224,6 @@ export default {
           "The school uses standard grading categories.",
           "學校採用標準的評分級別。",
           "標準型號／版本"
-        ],
-        [
-          "The lamp was mounted on a tall standard.",
-          "燈具安裝在一根高的直立支架上。",
-          "標準型號／版本"
-        ],
-        [
-          "The flag was fixed to a metal standard.",
-          "旗幟固定在金屬旗杆／支架上。",
-          "標準型號／版本"
         ]
       ],
       "options": [],
@@ -392,6 +382,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "standard-reviewed-7a42ba6b17",
+      "title": "直立支架；旗杆",
+      "form": "standard · source section 14",
+      "en": "直立支架；旗杆",
+      "zh": "直立支架；旗杆",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The lamp was mounted on a tall standard.",
+          "燈具安裝在一根高的直立支架上。",
+          "直立支架；旗杆"
+        ],
+        [
+          "The flag was fixed to a metal standard.",
+          "旗幟固定在金屬旗杆／支架上。",
+          "直立支架；旗杆"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -404,10 +416,8 @@ export default {
       "options": [
         "standard-mcq-01",
         "standard-mcq-02",
-        "standard-mcq-03",
-        "standard-mcq-04",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-09",
+        "standard-mcq-08"
       ],
       "explanation": "本句的「high standards」指「預期達到的水平；要求」。",
       "sentenceIndex": 0,
@@ -416,12 +426,10 @@ export default {
         "high standards"
       ],
       "optionReasons": {
-        "standard-mcq-01": "本句指「預期達到的水平；要求」。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-01": "本句的「high standards」指「預期達到的水平；要求」。",
+        "standard-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-01"
     },
@@ -433,11 +441,9 @@ export default {
       "masked": "The school has very high academic ____.",
       "options": [
         "standard-mcq-01",
-        "standard-mcq-02",
-        "standard-mcq-03",
         "standard-mcq-04",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-08",
+        "standard-mcq-07"
       ],
       "explanation": "本句的「standards」指「預期達到的水平；要求」。",
       "sentenceIndex": 1,
@@ -446,12 +452,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-01": "本句指「預期達到的水平；要求」。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-01": "本句的「standards」指「預期達到的水平；要求」。",
+        "standard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-01"
     },
@@ -463,11 +467,9 @@ export default {
       "masked": "You need to meet the required ____ before moving to the next level.",
       "options": [
         "standard-mcq-01",
-        "standard-mcq-02",
-        "standard-mcq-03",
-        "standard-mcq-04",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-13",
+        "standard-mcq-07",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「standard」指「預期達到的水平；要求」。",
       "sentenceIndex": 2,
@@ -476,12 +478,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-01": "本句指「預期達到的水平；要求」。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-01": "本句的「standard」指「預期達到的水平；要求」。",
+        "standard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-01"
     },
@@ -493,11 +493,9 @@ export default {
       "masked": "The product must meet international safety ____.",
       "options": [
         "standard-mcq-02",
-        "standard-mcq-01",
-        "standard-mcq-03",
-        "standard-mcq-04",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-09",
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-05"
       ],
       "explanation": "本句的「standards」指「用來判定合格與否的準則」。",
       "sentenceIndex": 3,
@@ -506,12 +504,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-02": "本句指「用來判定合格與否的準則」。",
-        "standard-mcq-01": "「預期達到的水平；要求」是「standard — expected level」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-02": "本句的「standards」指「用來判定合格與否的準則」。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-02"
     },
@@ -523,11 +519,9 @@ export default {
       "masked": "The new system does not meet the required technical ____.",
       "options": [
         "standard-mcq-02",
-        "standard-mcq-01",
-        "standard-mcq-03",
-        "standard-mcq-04",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-09",
+        "standard-mcq-08",
+        "standard-mcq-05"
       ],
       "explanation": "本句的「standards」指「用來判定合格與否的準則」。",
       "sentenceIndex": 4,
@@ -536,12 +530,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-02": "本句指「用來判定合格與否的準則」。",
-        "standard-mcq-01": "「預期達到的水平；要求」是「standard — expected level」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-02": "本句的「standards」指「用來判定合格與否的準則」。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-02"
     },
@@ -553,11 +545,9 @@ export default {
       "masked": "The equipment was tested according to international ____.",
       "options": [
         "standard-mcq-03",
-        "standard-mcq-02",
-        "standard-mcq-04",
-        "standard-mcq-01",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-08",
+        "standard-mcq-07",
+        "standard-mcq-17"
       ],
       "explanation": "本句的「standards」指「正式訂立的技術／產業規格」。",
       "sentenceIndex": 5,
@@ -566,12 +556,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-03": "本句指「正式訂立的技術／產業規格」。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-01": "「預期達到的水平；要求」是「standard — expected level」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-03": "本句的「standards」指「正式訂立的技術／產業規格」。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-03"
     },
@@ -583,11 +571,9 @@ export default {
       "masked": "The industry introduced a new safety ____.",
       "options": [
         "standard-mcq-03",
-        "standard-mcq-02",
-        "standard-mcq-04",
-        "standard-mcq-01",
-        "standard-mcq-05",
-        "standard-mcq-06"
+        "standard-mcq-07",
+        "standard-mcq-12",
+        "standard-mcq-16"
       ],
       "explanation": "本句的「standard」指「正式訂立的技術／產業規格」。",
       "sentenceIndex": 6,
@@ -596,12 +582,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-03": "本句指「正式訂立的技術／產業規格」。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-01": "「預期達到的水平；要求」是「standard — expected level」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-03": "本句的「standard」指「正式訂立的技術／產業規格」。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-03"
     },
@@ -613,11 +597,9 @@ export default {
       "masked": "The room has ____ equipment.",
       "options": [
         "standard-mcq-04",
-        "standard-mcq-03",
         "standard-mcq-05",
-        "standard-mcq-02",
-        "standard-mcq-06",
-        "standard-mcq-01"
+        "standard-mcq-08",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「standard」指「一般的；標準的；常規的」。",
       "sentenceIndex": 7,
@@ -626,12 +608,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-04": "本句指「一般的；標準的；常規的」。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-01": "「預期達到的水平；要求」是「standard — expected level」的用法，與本句語境不同。"
+        "standard-mcq-04": "本句的「standard」指「一般的；標準的；常規的」。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-04"
     },
@@ -643,11 +623,9 @@ export default {
       "masked": "The hotel offers ____ and deluxe rooms.",
       "options": [
         "standard-mcq-04",
-        "standard-mcq-03",
-        "standard-mcq-05",
-        "standard-mcq-02",
-        "standard-mcq-06",
-        "standard-mcq-01"
+        "standard-mcq-01",
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「standard」指「一般的；標準的；常規的」。",
       "sentenceIndex": 8,
@@ -656,12 +634,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-04": "本句指「一般的；標準的；常規的」。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-01": "「預期達到的水平；要求」是「standard — expected level」的用法，與本句語境不同。"
+        "standard-mcq-04": "本句的「standard」指「一般的；標準的；常規的」。",
+        "standard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-04"
     },
@@ -673,11 +649,9 @@ export default {
       "masked": "The company uses a ____ format for all reports.",
       "options": [
         "standard-mcq-15",
-        "standard-mcq-14",
-        "standard-mcq-16",
-        "standard-mcq-13",
         "standard-mcq-17",
-        "standard-mcq-12"
+        "standard-mcq-07",
+        "standard-mcq-11"
       ],
       "explanation": "本句的「standard」指「大家共同採用的規格、格式或方法」。",
       "sentenceIndex": 9,
@@ -686,12 +660,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-15": "本句指「大家共同採用的規格、格式或方法」。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-16": "「用來衡量或比較其他事物的基準」是「8. standard = benchmark for comparison（比較基準） — 基準；參考標準」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-17": "「實際達到的品質或表現水平」是「9. standard = level of excellence（高水平／高質素） — 水準；品質」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。"
+        "standard-mcq-15": "本句的「standard」指「大家共同採用的規格、格式或方法」。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-15"
     },
@@ -703,11 +675,9 @@ export default {
       "masked": "The files must follow a ____ naming convention.",
       "options": [
         "standard-mcq-15",
-        "standard-mcq-14",
-        "standard-mcq-16",
-        "standard-mcq-13",
-        "standard-mcq-17",
-        "standard-mcq-12"
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-11",
+        "standard-mcq-07"
       ],
       "explanation": "本句的「standard」指「大家共同採用的規格、格式或方法」。",
       "sentenceIndex": 10,
@@ -716,12 +686,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-15": "本句指「大家共同採用的規格、格式或方法」。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-16": "「用來衡量或比較其他事物的基準」是「8. standard = benchmark for comparison（比較基準） — 基準；參考標準」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-17": "「實際達到的品質或表現水平」是「9. standard = level of excellence（高水平／高質素） — 水準；品質」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。"
+        "standard-mcq-15": "本句的「standard」指「大家共同採用的規格、格式或方法」。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-15"
     },
@@ -733,11 +701,9 @@ export default {
       "masked": "The restaurant maintains a high ____ of service.",
       "options": [
         "standard-mcq-05",
-        "standard-mcq-04",
-        "standard-mcq-06",
-        "standard-mcq-03",
-        "standard-mcq-07",
-        "standard-mcq-02"
+        "standard-mcq-09",
+        "standard-mcq-08",
+        "standard-mcq-15"
       ],
       "explanation": "本句的「standard」指「公認或普遍接受的水平」。",
       "sentenceIndex": 11,
@@ -746,12 +712,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-05": "本句指「公認或普遍接受的水平」。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。"
+        "standard-mcq-05": "本句的「standard」指「公認或普遍接受的水平」。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-05"
     },
@@ -763,11 +727,9 @@ export default {
       "masked": "The work was below the usual ____.",
       "options": [
         "standard-mcq-05",
-        "standard-mcq-04",
-        "standard-mcq-06",
         "standard-mcq-03",
         "standard-mcq-07",
-        "standard-mcq-02"
+        "standard-mcq-08"
       ],
       "explanation": "本句的「standard」指「公認或普遍接受的水平」。",
       "sentenceIndex": 12,
@@ -776,12 +738,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-05": "本句指「公認或普遍接受的水平」。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-03": "「正式訂立的技術／產業規格」是「standard — technical specification」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。",
-        "standard-mcq-02": "「用來判定合格與否的準則」是「standard — criterion」的用法，與本句語境不同。"
+        "standard-mcq-05": "本句的「standard」指「公認或普遍接受的水平」。",
+        "standard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-05"
     },
@@ -793,11 +753,9 @@ export default {
       "masked": "Everyone should be held to the same ethical ____.",
       "options": [
         "standard-mcq-07",
-        "standard-mcq-06",
-        "standard-mcq-08",
-        "standard-mcq-05",
         "standard-mcq-09",
-        "standard-mcq-04"
+        "standard-mcq-01",
+        "standard-mcq-03"
       ],
       "explanation": "本句的「standards」指「道德／行為準則」。",
       "sentenceIndex": 13,
@@ -806,12 +764,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-07": "本句指「道德／行為準則」。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。"
+        "standard-mcq-07": "本句的「standards」指「道德／行為準則」。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-07"
     },
@@ -823,11 +779,9 @@ export default {
       "masked": "The organization has strict professional ____.",
       "options": [
         "standard-mcq-07",
-        "standard-mcq-06",
-        "standard-mcq-08",
-        "standard-mcq-05",
         "standard-mcq-09",
-        "standard-mcq-04"
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-15"
       ],
       "explanation": "本句的「standards」指「道德／行為準則」。",
       "sentenceIndex": 14,
@@ -836,12 +790,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-07": "本句指「道德／行為準則」。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-04": "「一般的；標準的；常規的」是「standard — normal/conventional」的用法，與本句語境不同。"
+        "standard-mcq-07": "本句的「standards」指「道德／行為準則」。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-07"
     },
@@ -853,11 +805,9 @@ export default {
       "masked": "The test provides a useful ____ for comparison.",
       "options": [
         "standard-mcq-16",
-        "standard-mcq-15",
         "standard-mcq-17",
-        "standard-mcq-14",
-        "standard-mcq-13",
-        "standard-mcq-12"
+        "standard-mcq-15",
+        "standard-reviewed-7a42ba6b17"
       ],
       "explanation": "本句的「standard」指「用來衡量或比較其他事物的基準」。",
       "sentenceIndex": 15,
@@ -866,12 +816,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-16": "本句指「用來衡量或比較其他事物的基準」。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-17": "「實際達到的品質或表現水平」是「9. standard = level of excellence（高水平／高質素） — 水準；品質」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。"
+        "standard-mcq-16": "本句的「standard」指「用來衡量或比較其他事物的基準」。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-16"
     },
@@ -883,11 +831,9 @@ export default {
       "masked": "The old system became the industry ____.",
       "options": [
         "standard-mcq-16",
-        "standard-mcq-15",
-        "standard-mcq-17",
-        "standard-mcq-14",
-        "standard-mcq-13",
-        "standard-mcq-12"
+        "standard-mcq-01",
+        "standard-mcq-09",
+        "standard-reviewed-7a42ba6b17"
       ],
       "explanation": "本句的「standard」指「用來衡量或比較其他事物的基準」。",
       "sentenceIndex": 16,
@@ -896,12 +842,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-16": "本句指「用來衡量或比較其他事物的基準」。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-17": "「實際達到的品質或表現水平」是「9. standard = level of excellence（高水平／高質素） — 水準；品質」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。"
+        "standard-mcq-16": "本句的「standard」指「用來衡量或比較其他事物的基準」。",
+        "standard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-16"
     },
@@ -913,11 +857,9 @@ export default {
       "masked": "Her work is always of a very high ____.",
       "options": [
         "standard-mcq-17",
-        "standard-mcq-16",
-        "standard-mcq-15",
-        "standard-mcq-14",
-        "standard-mcq-13",
-        "standard-mcq-12"
+        "standard-mcq-03",
+        "standard-mcq-07",
+        "standard-mcq-16"
       ],
       "explanation": "本句的「standard」指「實際達到的品質或表現水平」。",
       "sentenceIndex": 17,
@@ -926,12 +868,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-17": "本句指「實際達到的品質或表現水平」。",
-        "standard-mcq-16": "「用來衡量或比較其他事物的基準」是「8. standard = benchmark for comparison（比較基準） — 基準；參考標準」的用法，與本句語境不同。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。"
+        "standard-mcq-17": "本句的「standard」指「實際達到的品質或表現水平」。",
+        "standard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-17"
     },
@@ -943,11 +883,9 @@ export default {
       "masked": "The students produced work of an impressive ____.",
       "options": [
         "standard-mcq-17",
-        "standard-mcq-16",
-        "standard-mcq-15",
-        "standard-mcq-14",
         "standard-mcq-13",
-        "standard-mcq-12"
+        "standard-mcq-16",
+        "standard-mcq-07"
       ],
       "explanation": "本句的「standard」指「實際達到的品質或表現水平」。",
       "sentenceIndex": 18,
@@ -956,12 +894,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-17": "本句指「實際達到的品質或表現水平」。",
-        "standard-mcq-16": "「用來衡量或比較其他事物的基準」是「8. standard = benchmark for comparison（比較基準） — 基準；參考標準」的用法，與本句語境不同。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。"
+        "standard-mcq-17": "本句的「standard」指「實際達到的品質或表現水平」。",
+        "standard-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-17"
     },
@@ -973,11 +909,9 @@ export default {
       "masked": "The soldiers gathered around the royal ____.",
       "options": [
         "standard-mcq-08",
-        "standard-mcq-07",
-        "standard-mcq-09",
-        "standard-mcq-06",
-        "standard-mcq-10",
-        "standard-mcq-05"
+        "standard-mcq-05",
+        "standard-mcq-16",
+        "standard-mcq-12"
       ],
       "explanation": "本句的「standard」指「旗幟；軍旗」。",
       "sentenceIndex": 19,
@@ -986,12 +920,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-08": "本句指「旗幟；軍旗」。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。"
+        "standard-mcq-08": "本句的「standard」指「旗幟；軍旗」。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-08"
     },
@@ -1003,11 +935,9 @@ export default {
       "masked": "The ancient army marched behind its ____.",
       "options": [
         "standard-mcq-08",
-        "standard-mcq-07",
-        "standard-mcq-09",
-        "standard-mcq-06",
-        "standard-mcq-10",
-        "standard-mcq-05"
+        "standard-mcq-04",
+        "standard-mcq-16",
+        "standard-mcq-17"
       ],
       "explanation": "本句的「standard」指「旗幟；軍旗」。",
       "sentenceIndex": 20,
@@ -1016,12 +946,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-08": "本句指「旗幟；軍旗」。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-05": "「公認或普遍接受的水平」是「standard — accepted level」的用法，與本句語境不同。"
+        "standard-mcq-08": "本句的「standard」指「旗幟；軍旗」。",
+        "standard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-08"
     },
@@ -1033,11 +961,9 @@ export default {
       "masked": "The band played several jazz ____.",
       "options": [
         "standard-mcq-09",
-        "standard-mcq-08",
-        "standard-mcq-10",
-        "standard-mcq-07",
-        "standard-mcq-11",
-        "standard-mcq-06"
+        "standard-mcq-16",
+        "standard-mcq-05",
+        "standard-mcq-15"
       ],
       "explanation": "本句的「standards」指「廣為演奏的經典曲目」。",
       "sentenceIndex": 21,
@@ -1046,12 +972,10 @@ export default {
         "standards"
       ],
       "optionReasons": {
-        "standard-mcq-09": "本句指「廣為演奏的經典曲目」。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-09": "本句的「standards」指「廣為演奏的經典曲目」。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-09"
     },
@@ -1063,11 +987,9 @@ export default {
       "masked": "It has become a popular ____ among jazz musicians.",
       "options": [
         "standard-mcq-09",
-        "standard-mcq-08",
-        "standard-mcq-10",
-        "standard-mcq-07",
-        "standard-mcq-11",
-        "standard-mcq-06"
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-12",
+        "standard-mcq-07"
       ],
       "explanation": "本句的「standard」指「廣為演奏的經典曲目」。",
       "sentenceIndex": 22,
@@ -1076,12 +998,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-09": "本句指「廣為演奏的經典曲目」。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-06": "「用來比較或衡量的基準」是「standard — benchmark」的用法，與本句語境不同。"
+        "standard-mcq-09": "本句的「standard」指「廣為演奏的經典曲目」。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-09"
     },
@@ -1093,11 +1013,9 @@ export default {
       "masked": "I chose the ____ package rather than the premium one.",
       "options": [
         "standard-mcq-10",
-        "standard-mcq-09",
-        "standard-mcq-11",
-        "standard-mcq-08",
-        "standard-mcq-12",
-        "standard-mcq-07"
+        "standard-mcq-15",
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-05"
       ],
       "explanation": "本句的「standard」指「標準型號／版本」。",
       "sentenceIndex": 23,
@@ -1106,12 +1024,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-10": "本句指「標準型號／版本」。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。"
+        "standard-mcq-10": "本句的「standard」指「標準型號／版本」。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-10"
     },
@@ -1123,11 +1039,9 @@ export default {
       "masked": "The ____ model is cheaper.",
       "options": [
         "standard-mcq-10",
+        "standard-mcq-03",
         "standard-mcq-09",
-        "standard-mcq-11",
-        "standard-mcq-08",
-        "standard-mcq-12",
-        "standard-mcq-07"
+        "standard-reviewed-7a42ba6b17"
       ],
       "explanation": "本句的「standard」指「標準型號／版本」。",
       "sentenceIndex": 24,
@@ -1136,12 +1050,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-10": "本句指「標準型號／版本」。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。"
+        "standard-mcq-10": "本句的「standard」指「標準型號／版本」。",
+        "standard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-10"
     },
@@ -1153,11 +1065,9 @@ export default {
       "masked": "The box is a ____ size.",
       "options": [
         "standard-mcq-10",
-        "standard-mcq-09",
-        "standard-mcq-11",
         "standard-mcq-08",
-        "standard-mcq-12",
-        "standard-mcq-07"
+        "standard-mcq-05",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「standard」指「標準型號／版本」。",
       "sentenceIndex": 25,
@@ -1166,12 +1076,10 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-10": "本句指「標準型號／版本」。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。"
+        "standard-mcq-10": "本句的「standard」指「標準型號／版本」。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-10"
     },
@@ -1183,11 +1091,9 @@ export default {
       "masked": "The school uses ____ grading categories.",
       "options": [
         "standard-mcq-10",
-        "standard-mcq-09",
-        "standard-mcq-11",
         "standard-mcq-08",
-        "standard-mcq-12",
-        "standard-mcq-07"
+        "standard-mcq-15",
+        "standard-mcq-17"
       ],
       "explanation": "本句的「standard」指「標準型號／版本」。",
       "sentenceIndex": 26,
@@ -1196,74 +1102,68 @@ export default {
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-10": "本句指「標準型號／版本」。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。"
+        "standard-mcq-10": "本句的「standard」指「標準型號／版本」。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-10"
     },
     {
       "id": "standard-14-0",
-      "sense": "standard-mcq-10",
+      "sense": "standard-reviewed-7a42ba6b17",
       "en": "The lamp was mounted on a tall standard.",
       "zh": "燈具安裝在一根高的直立支架上。",
       "masked": "The lamp was mounted on a tall ____.",
       "options": [
-        "standard-mcq-10",
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-04",
         "standard-mcq-09",
-        "standard-mcq-11",
-        "standard-mcq-08",
-        "standard-mcq-12",
-        "standard-mcq-07"
+        "standard-mcq-01"
       ],
-      "explanation": "本句的「standard」指「標準型號／版本」。",
+      "explanation": "對照完整句子：「燈具安裝在一根高的直立支架上。」。這裡的「standard」表示「直立支架；旗杆」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-10": "本句指「標準型號／版本」。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。"
+        "standard-reviewed-7a42ba6b17": "對照完整句子：「燈具安裝在一根高的直立支架上。」。這裡的「standard」表示「直立支架；旗杆」。",
+        "standard-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "standard-mcq-10"
+      "correctOption": "standard-reviewed-7a42ba6b17",
+      "previousCorrectOption": "standard-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "standard-14-1",
-      "sense": "standard-mcq-10",
+      "sense": "standard-reviewed-7a42ba6b17",
       "en": "The flag was fixed to a metal standard.",
       "zh": "旗幟固定在金屬旗杆／支架上。",
       "masked": "The flag was fixed to a metal ____.",
       "options": [
-        "standard-mcq-10",
-        "standard-mcq-09",
-        "standard-mcq-11",
-        "standard-mcq-08",
-        "standard-mcq-12",
-        "standard-mcq-07"
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-05",
+        "standard-mcq-07",
+        "standard-mcq-16"
       ],
-      "explanation": "本句的「standard」指「標準型號／版本」。",
+      "explanation": "對照完整句子：「旗幟固定在金屬旗杆／支架上。」。這裡的「standard」表示「直立支架；旗杆」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "standard"
       ],
       "optionReasons": {
-        "standard-mcq-10": "本句指「標準型號／版本」。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-07": "「道德／行為準則」是「standard — moral/behavioural」的用法，與本句語境不同。"
+        "standard-reviewed-7a42ba6b17": "對照完整句子：「旗幟固定在金屬旗杆／支架上。」。這裡的「standard」表示「直立支架；旗杆」。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "standard-mcq-10"
+      "correctOption": "standard-reviewed-7a42ba6b17",
+      "previousCorrectOption": "standard-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "standard-15-0",
@@ -1273,11 +1173,9 @@ export default {
       "masked": "The company is trying to ____ its procedures.",
       "options": [
         "standard-mcq-11",
-        "standard-mcq-10",
-        "standard-mcq-12",
-        "standard-mcq-09",
-        "standard-mcq-13",
-        "standard-mcq-08"
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-03",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「standardize」指「使符合統一標準；標準化」。",
       "sentenceIndex": 29,
@@ -1286,12 +1184,10 @@ export default {
         "standardize"
       ],
       "optionReasons": {
-        "standard-mcq-11": "本句指「使符合統一標準；標準化」。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。"
+        "standard-mcq-11": "本句的「standardize」指「使符合統一標準；標準化」。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-11"
     },
@@ -1303,11 +1199,9 @@ export default {
       "masked": "The equipment was ____ across all branches.",
       "options": [
         "standard-mcq-11",
-        "standard-mcq-10",
-        "standard-mcq-12",
-        "standard-mcq-09",
-        "standard-mcq-13",
-        "standard-mcq-08"
+        "standard-mcq-17",
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-03"
       ],
       "explanation": "本句的「standardized」指「使符合統一標準；標準化」。",
       "sentenceIndex": 30,
@@ -1316,12 +1210,10 @@ export default {
         "standardized"
       ],
       "optionReasons": {
-        "standard-mcq-11": "本句指「使符合統一標準；標準化」。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-08": "「旗幟；軍旗」是「standard — flag」的用法，與本句語境不同。"
+        "standard-mcq-11": "本句的「standardized」指「使符合統一標準；標準化」。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-11"
     },
@@ -1333,11 +1225,9 @@ export default {
       "masked": "Students took a ____.",
       "options": [
         "standard-mcq-12",
-        "standard-mcq-11",
-        "standard-mcq-13",
-        "standard-mcq-10",
-        "standard-mcq-14",
-        "standard-mcq-09"
+        "standard-mcq-01",
+        "standard-mcq-08",
+        "standard-mcq-15"
       ],
       "explanation": "本句的「standardized test」指「按統一標準製作／處理的」。",
       "sentenceIndex": 31,
@@ -1346,12 +1236,10 @@ export default {
         "standardized test"
       ],
       "optionReasons": {
-        "standard-mcq-12": "本句指「按統一標準製作／處理的」。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。"
+        "standard-mcq-12": "本句的「standardized test」指「按統一標準製作／處理的」。",
+        "standard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-12"
     },
@@ -1363,11 +1251,9 @@ export default {
       "masked": "The company uses ____ procedures.",
       "options": [
         "standard-mcq-12",
-        "standard-mcq-11",
-        "standard-mcq-13",
-        "standard-mcq-10",
-        "standard-mcq-14",
-        "standard-mcq-09"
+        "standard-mcq-05",
+        "standard-mcq-09",
+        "standard-mcq-08"
       ],
       "explanation": "本句的「standardized」指「按統一標準製作／處理的」。",
       "sentenceIndex": 32,
@@ -1376,12 +1262,10 @@ export default {
         "standardized"
       ],
       "optionReasons": {
-        "standard-mcq-12": "本句指「按統一標準製作／處理的」。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-09": "「廣為演奏的經典曲目」是「standard — jazz」的用法，與本句語境不同。"
+        "standard-mcq-12": "本句的「standardized」指「按統一標準製作／處理的」。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-12"
     },
@@ -1393,11 +1277,9 @@ export default {
       "masked": "The industry is moving toward greater ____.",
       "options": [
         "standard-mcq-13",
-        "standard-mcq-12",
-        "standard-mcq-14",
-        "standard-mcq-11",
-        "standard-mcq-15",
-        "standard-mcq-10"
+        "standard-mcq-01",
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「standardization」指「標準化；規格統一」。",
       "sentenceIndex": 33,
@@ -1406,12 +1288,10 @@ export default {
         "standardization"
       ],
       "optionReasons": {
-        "standard-mcq-13": "本句指「標準化；規格統一」。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。"
+        "standard-mcq-13": "本句的「standardization」指「標準化；規格統一」。",
+        "standard-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-13"
     },
@@ -1423,11 +1303,9 @@ export default {
       "masked": "____ makes the products easier to compare.",
       "options": [
         "standard-mcq-13",
-        "standard-mcq-12",
-        "standard-mcq-14",
-        "standard-mcq-11",
-        "standard-mcq-15",
-        "standard-mcq-10"
+        "standard-reviewed-7a42ba6b17",
+        "standard-mcq-05",
+        "standard-mcq-09"
       ],
       "explanation": "本句的「Standardization」指「標準化；規格統一」。",
       "sentenceIndex": 34,
@@ -1436,12 +1314,10 @@ export default {
         "Standardization"
       ],
       "optionReasons": {
-        "standard-mcq-13": "本句指「標準化；規格統一」。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-14": "「低於要求標準的；不合格的」是「substandard」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-10": "「標準型號／版本」是「standard model/version」的用法，與本句語境不同。"
+        "standard-mcq-13": "本句的「Standardization」指「標準化；規格統一」。",
+        "standard-reviewed-7a42ba6b17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-13"
     },
@@ -1453,11 +1329,9 @@ export default {
       "masked": "The building was constructed with ____ materials.",
       "options": [
         "standard-mcq-14",
-        "standard-mcq-13",
-        "standard-mcq-15",
-        "standard-mcq-12",
-        "standard-mcq-16",
-        "standard-mcq-11"
+        "standard-mcq-17",
+        "standard-mcq-08",
+        "standard-mcq-16"
       ],
       "explanation": "本句的「substandard」指「低於要求標準的；不合格的」。",
       "sentenceIndex": 35,
@@ -1466,12 +1340,10 @@ export default {
         "substandard"
       ],
       "optionReasons": {
-        "standard-mcq-14": "本句指「低於要求標準的；不合格的」。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-16": "「用來衡量或比較其他事物的基準」是「8. standard = benchmark for comparison（比較基準） — 基準；參考標準」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。"
+        "standard-mcq-14": "本句的「substandard」指「低於要求標準的；不合格的」。",
+        "standard-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-14"
     },
@@ -1483,11 +1355,9 @@ export default {
       "masked": "Customers complained about ____ service.",
       "options": [
         "standard-mcq-14",
-        "standard-mcq-13",
-        "standard-mcq-15",
-        "standard-mcq-12",
-        "standard-mcq-16",
-        "standard-mcq-11"
+        "standard-mcq-08",
+        "standard-mcq-09",
+        "standard-mcq-05"
       ],
       "explanation": "本句的「substandard」指「低於要求標準的；不合格的」。",
       "sentenceIndex": 36,
@@ -1496,12 +1366,10 @@ export default {
         "substandard"
       ],
       "optionReasons": {
-        "standard-mcq-14": "本句指「低於要求標準的；不合格的」。",
-        "standard-mcq-13": "「標準化；規格統一」是「standardization」的用法，與本句語境不同。",
-        "standard-mcq-15": "「大家共同採用的規格、格式或方法」是「5. standard = officially recognized model or form（統一規格／標準形式） — 標準規格；統一」的用法，與本句語境不同。",
-        "standard-mcq-12": "「按統一標準製作／處理的」是「standardized」的用法，與本句語境不同。",
-        "standard-mcq-16": "「用來衡量或比較其他事物的基準」是「8. standard = benchmark for comparison（比較基準） — 基準；參考標準」的用法，與本句語境不同。",
-        "standard-mcq-11": "「使符合統一標準；標準化」是「standardize」的用法，與本句語境不同。"
+        "standard-mcq-14": "本句的「substandard」指「低於要求標準的；不合格的」。",
+        "standard-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "standard-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "standard-mcq-14"
     }
@@ -1513,5 +1381,7 @@ export default {
     "sha256": "7b5bdc97ef77626640a5df9fe69e53a2acbd38600701fa78d6b3829504537296",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

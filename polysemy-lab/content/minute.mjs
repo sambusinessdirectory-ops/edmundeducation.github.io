@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "minute-mcq-02",
-      "title": "表示兩種情況在很短時間內快速、明顯地轉換",
+      "title": "兩種情況在很短時間內快速、明顯地轉換",
       "form": "one minute…the next",
       "en": "one minute…the next",
       "zh": "表示兩種情況在很短時間內快速、明顯地轉換",
@@ -405,11 +405,9 @@ export default {
       "masked": "Wait five ____.",
       "options": [
         "minute-mcq-01",
-        "minute-mcq-02",
-        "minute-mcq-03",
-        "minute-mcq-04",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-mcq-10",
+        "minute-mcq-15",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minutes」指「一小時的六十分之一，即六十秒」。",
       "sentenceIndex": 0,
@@ -418,12 +416,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-01": "本句指「一小時的六十分之一，即六十秒」。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-01": "本句的「minutes」指「一小時的六十分之一，即六十秒」。",
+        "minute-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-01"
     },
@@ -435,11 +431,9 @@ export default {
       "masked": "The journey takes about thirty ____.",
       "options": [
         "minute-mcq-01",
-        "minute-mcq-02",
-        "minute-mcq-03",
+        "minute-mcq-11",
         "minute-mcq-04",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-mcq-15"
       ],
       "explanation": "本句的「minutes」指「一小時的六十分之一，即六十秒」。",
       "sentenceIndex": 1,
@@ -448,12 +442,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-01": "本句指「一小時的六十分之一，即六十秒」。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-01": "本句的「minutes」指「一小時的六十分之一，即六十秒」。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-01"
     },
@@ -465,11 +457,9 @@ export default {
       "masked": "____, the living room becomes a space station, and the next it turns into a jungle.",
       "options": [
         "minute-mcq-02",
-        "minute-mcq-01",
-        "minute-mcq-03",
-        "minute-mcq-04",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-mcq-14",
+        "minute-mcq-17",
+        "minute-pdf-001"
       ],
       "explanation": "本句的「One minute」指「表示兩種情況在很短時間內快速、明顯地轉換」。",
       "sentenceIndex": 2,
@@ -478,12 +468,10 @@ export default {
         "One minute"
       ],
       "optionReasons": {
-        "minute-mcq-02": "本句指「表示兩種情況在很短時間內快速、明顯地轉換」。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-02": "本句的「One minute」指「表示兩種情況在很短時間內快速、明顯地轉換」。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-02"
     },
@@ -495,11 +483,9 @@ export default {
       "masked": "____ he’s laughing, and the next he’s completely serious.",
       "options": [
         "minute-mcq-02",
-        "minute-mcq-01",
-        "minute-mcq-03",
-        "minute-mcq-04",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-pdf-001",
+        "minute-mcq-16",
+        "minute-mcq-17"
       ],
       "explanation": "本句的「One minute」指「表示兩種情況在很短時間內快速、明顯地轉換」。",
       "sentenceIndex": 3,
@@ -508,12 +494,10 @@ export default {
         "One minute"
       ],
       "optionReasons": {
-        "minute-mcq-02": "本句指「表示兩種情況在很短時間內快速、明顯地轉換」。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-02": "本句的「One minute」指「表示兩種情況在很短時間內快速、明顯地轉換」。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-02"
     },
@@ -525,11 +509,9 @@ export default {
       "masked": "____ the sky was clear, and the next it was pouring.",
       "options": [
         "minute-mcq-02",
-        "minute-mcq-01",
-        "minute-mcq-03",
-        "minute-mcq-04",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-mcq-10",
+        "minute-mcq-16",
+        "minute-pdf-001"
       ],
       "explanation": "本句的「One minute」指「表示兩種情況在很短時間內快速、明顯地轉換」。",
       "sentenceIndex": 4,
@@ -538,12 +520,10 @@ export default {
         "One minute"
       ],
       "optionReasons": {
-        "minute-mcq-02": "本句指「表示兩種情況在很短時間內快速、明顯地轉換」。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-02": "本句的「One minute」指「表示兩種情況在很短時間內快速、明顯地轉換」。",
+        "minute-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-02"
     },
@@ -555,11 +535,9 @@ export default {
       "masked": "Can I speak to you for a ____?",
       "options": [
         "minute-mcq-03",
-        "minute-mcq-02",
-        "minute-mcq-04",
-        "minute-mcq-01",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-mcq-16",
+        "minute-mcq-11",
+        "minute-mcq-17"
       ],
       "explanation": "本句的「minute」指「一段很短但不一定精確為六十秒的時間」。",
       "sentenceIndex": 5,
@@ -568,12 +546,10 @@ export default {
         "minute"
       ],
       "optionReasons": {
-        "minute-mcq-03": "本句指「一段很短但不一定精確為六十秒的時間」。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-03": "本句的「minute」指「一段很短但不一定精確為六十秒的時間」。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-03"
     },
@@ -585,11 +561,9 @@ export default {
       "masked": "Give me a ____ to think.",
       "options": [
         "minute-mcq-03",
-        "minute-mcq-02",
-        "minute-mcq-04",
-        "minute-mcq-01",
-        "minute-mcq-05",
-        "minute-mcq-06"
+        "minute-mcq-11",
+        "minute-mcq-14",
+        "minute-mcq-17"
       ],
       "explanation": "本句的「minute」指「一段很短但不一定精確為六十秒的時間」。",
       "sentenceIndex": 6,
@@ -598,12 +572,10 @@ export default {
         "minute"
       ],
       "optionReasons": {
-        "minute-mcq-03": "本句指「一段很短但不一定精確為六十秒的時間」。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-03": "本句的「minute」指「一段很短但不一定精確為六十秒的時間」。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-03"
     },
@@ -615,11 +587,9 @@ export default {
       "masked": "____—that doesn’t make sense.",
       "options": [
         "minute-mcq-04",
-        "minute-mcq-03",
-        "minute-mcq-05",
-        "minute-mcq-02",
-        "minute-mcq-06",
-        "minute-mcq-01"
+        "minute-mcq-01",
+        "minute-mcq-12",
+        "minute-mcq-07"
       ],
       "explanation": "本句的「Wait a minute」指「要求短暫等待；亦可表示「慢著」」。",
       "sentenceIndex": 7,
@@ -628,12 +598,10 @@ export default {
         "Wait a minute"
       ],
       "optionReasons": {
-        "minute-mcq-04": "本句指「要求短暫等待；亦可表示「慢著」」。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。"
+        "minute-mcq-04": "本句的「Wait a minute」指「要求短暫等待；亦可表示「慢著」」。",
+        "minute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-04"
     },
@@ -645,11 +613,9 @@ export default {
       "masked": "____, please.",
       "options": [
         "minute-mcq-04",
-        "minute-mcq-03",
-        "minute-mcq-05",
-        "minute-mcq-02",
-        "minute-mcq-06",
-        "minute-mcq-01"
+        "minute-mcq-01",
+        "minute-mcq-13",
+        "minute-mcq-07"
       ],
       "explanation": "本句的「Just a minute」指「要求短暫等待；亦可表示「慢著」」。",
       "sentenceIndex": 8,
@@ -658,12 +624,10 @@ export default {
         "Just a minute"
       ],
       "optionReasons": {
-        "minute-mcq-04": "本句指「要求短暫等待；亦可表示「慢著」」。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。",
-        "minute-mcq-01": "「一小時的六十分之一，即六十秒」是「minute — time unit」的用法，與本句語境不同。"
+        "minute-mcq-04": "本句的「Just a minute」指「要求短暫等待；亦可表示「慢著」」。",
+        "minute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-04"
     },
@@ -675,11 +639,9 @@ export default {
       "masked": "She should arrive ____.",
       "options": [
         "minute-mcq-05",
-        "minute-mcq-04",
-        "minute-mcq-06",
-        "minute-mcq-03",
-        "minute-mcq-07",
-        "minute-mcq-02"
+        "minute-mcq-17",
+        "minute-mcq-12",
+        "minute-mcq-16"
       ],
       "explanation": "本句的「any minute」指「某件事預期隨時、很快發生」。",
       "sentenceIndex": 9,
@@ -688,12 +650,10 @@ export default {
         "any minute"
       ],
       "optionReasons": {
-        "minute-mcq-05": "本句指「某件事預期隨時、很快發生」。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。"
+        "minute-mcq-05": "本句的「any minute」指「某件事預期隨時、很快發生」。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-05"
     },
@@ -705,11 +665,9 @@ export default {
       "masked": "The bus could come ____.",
       "options": [
         "minute-mcq-05",
-        "minute-mcq-04",
-        "minute-mcq-06",
-        "minute-mcq-03",
-        "minute-mcq-07",
-        "minute-mcq-02"
+        "minute-mcq-14",
+        "minute-mcq-12",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「any minute now」指「某件事預期隨時、很快發生」。",
       "sentenceIndex": 10,
@@ -718,12 +676,10 @@ export default {
         "any minute now"
       ],
       "optionReasons": {
-        "minute-mcq-05": "本句指「某件事預期隨時、很快發生」。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-02": "「表示兩種情況在很短時間內快速、明顯地轉換」是「one minute…the next」的用法，與本句語境不同。"
+        "minute-mcq-05": "本句的「any minute now」指「某件事預期隨時、很快發生」。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-05"
     },
@@ -735,11 +691,9 @@ export default {
       "masked": "The situation changed ____.",
       "options": [
         "minute-mcq-06",
-        "minute-mcq-05",
-        "minute-mcq-07",
-        "minute-mcq-04",
-        "minute-mcq-08",
-        "minute-mcq-03"
+        "minute-mcq-11",
+        "minute-mcq-15",
+        "minute-pdf-001"
       ],
       "explanation": "本句的「minute by minute」指「每分鐘／隨著每一小段時間持續變化」。",
       "sentenceIndex": 11,
@@ -748,12 +702,10 @@ export default {
         "minute by minute"
       ],
       "optionReasons": {
-        "minute-mcq-06": "本句指「每分鐘／隨著每一小段時間持續變化」。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。"
+        "minute-mcq-06": "本句的「minute by minute」指「每分鐘／隨著每一小段時間持續變化」。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-06"
     },
@@ -765,11 +717,9 @@ export default {
       "masked": "Her condition improved ____.",
       "options": [
         "minute-mcq-06",
-        "minute-mcq-05",
-        "minute-mcq-07",
-        "minute-mcq-04",
-        "minute-mcq-08",
-        "minute-mcq-03"
+        "minute-mcq-11",
+        "minute-mcq-15",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minute by minute」指「每分鐘／隨著每一小段時間持續變化」。",
       "sentenceIndex": 12,
@@ -778,12 +728,10 @@ export default {
         "minute by minute"
       ],
       "optionReasons": {
-        "minute-mcq-06": "本句指「每分鐘／隨著每一小段時間持續變化」。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-03": "「一段很短但不一定精確為六十秒的時間」是「a minute — short period」的用法，與本句語境不同。"
+        "minute-mcq-06": "本句的「minute by minute」指「每分鐘／隨著每一小段時間持續變化」。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-06"
     },
@@ -795,11 +743,9 @@ export default {
       "masked": "He changed his mind ____.",
       "options": [
         "minute-mcq-07",
-        "minute-mcq-06",
-        "minute-mcq-08",
-        "minute-mcq-05",
-        "minute-mcq-09",
-        "minute-mcq-04"
+        "minute-mcq-04",
+        "minute-mcq-12",
+        "minute-mcq-16"
       ],
       "explanation": "本句的「at the last minute」指「在最後可能時刻、幾乎沒有時間剩下時」。",
       "sentenceIndex": 13,
@@ -808,12 +754,10 @@ export default {
         "at the last minute"
       ],
       "optionReasons": {
-        "minute-mcq-07": "本句指「在最後可能時刻、幾乎沒有時間剩下時」。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。"
+        "minute-mcq-07": "本句的「at the last minute」指「在最後可能時刻、幾乎沒有時間剩下時」。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-07"
     },
@@ -825,11 +769,9 @@ export default {
       "masked": "Don’t leave everything until the ____.",
       "options": [
         "minute-mcq-07",
-        "minute-mcq-06",
-        "minute-mcq-08",
-        "minute-mcq-05",
-        "minute-mcq-09",
-        "minute-mcq-04"
+        "minute-pdf-001",
+        "minute-mcq-12",
+        "minute-mcq-16"
       ],
       "explanation": "本句的「last minute」指「在最後可能時刻、幾乎沒有時間剩下時」。",
       "sentenceIndex": 14,
@@ -838,12 +780,10 @@ export default {
         "last minute"
       ],
       "optionReasons": {
-        "minute-mcq-07": "本句指「在最後可能時刻、幾乎沒有時間剩下時」。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-05": "「某件事預期隨時、很快發生」是「any minute」的用法，與本句語境不同。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。",
-        "minute-mcq-04": "「要求短暫等待；亦可表示「慢著」」是「wait a minute」的用法，與本句語境不同。"
+        "minute-mcq-07": "本句的「last minute」指「在最後可能時刻、幾乎沒有時間剩下時」。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-07"
     },
@@ -855,11 +795,9 @@ export default {
       "masked": "He was here a ____.",
       "options": [
         "minute-mcq-17",
-        "minute-mcq-16",
-        "minute-mcq-15",
         "minute-mcq-14",
-        "minute-mcq-13",
-        "minute-mcq-12"
+        "minute-mcq-07",
+        "minute-mcq-11"
       ],
       "explanation": "本句的「minute ago」指「一分鐘前；口語中亦可較鬆散地表示「剛才」」。",
       "sentenceIndex": 15,
@@ -868,12 +806,10 @@ export default {
         "minute ago"
       ],
       "optionReasons": {
-        "minute-mcq-17": "本句指「一分鐘前；口語中亦可較鬆散地表示「剛才」」。",
-        "minute-mcq-16": "「以極仔細、極詳細、注意微小細節的方式」是「minutely」的用法，與本句語境不同。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。"
+        "minute-mcq-17": "本句的「minute ago」指「一分鐘前；口語中亦可較鬆散地表示「剛才」」。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-17"
     },
@@ -885,11 +821,9 @@ export default {
       "masked": "I saw her a few ____.",
       "options": [
         "minute-mcq-17",
-        "minute-mcq-16",
-        "minute-mcq-15",
+        "minute-mcq-10",
         "minute-mcq-14",
-        "minute-mcq-13",
-        "minute-mcq-12"
+        "minute-mcq-05"
       ],
       "explanation": "本句的「minutes ago」指「一分鐘前；口語中亦可較鬆散地表示「剛才」」。",
       "sentenceIndex": 16,
@@ -898,12 +832,10 @@ export default {
         "minutes ago"
       ],
       "optionReasons": {
-        "minute-mcq-17": "本句指「一分鐘前；口語中亦可較鬆散地表示「剛才」」。",
-        "minute-mcq-16": "「以極仔細、極詳細、注意微小細節的方式」是「minutely」的用法，與本句語境不同。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。"
+        "minute-mcq-17": "本句的「minutes ago」指「一分鐘前；口語中亦可較鬆散地表示「剛才」」。",
+        "minute-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-17"
     },
@@ -915,11 +847,9 @@ export default {
       "masked": "One degree contains sixty ____ of arc.",
       "options": [
         "minute-pdf-001",
-        "minute-mcq-08",
-        "minute-mcq-10",
-        "minute-mcq-07",
-        "minute-mcq-11",
-        "minute-mcq-06"
+        "minute-mcq-14",
+        "minute-mcq-02",
+        "minute-mcq-10"
       ],
       "explanation": "本句的「minutes」指「角度單位，等於一度的六十分之一」。",
       "sentenceIndex": 17,
@@ -928,12 +858,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-pdf-001": "本句指「角度單位，等於一度的六十分之一」。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-pdf-001": "本句的「minutes」指「角度單位，等於一度的六十分之一」。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-pdf-001"
     },
@@ -945,11 +873,9 @@ export default {
       "masked": "The angle was measured in degrees and ____.",
       "options": [
         "minute-pdf-001",
-        "minute-mcq-08",
-        "minute-mcq-10",
-        "minute-mcq-07",
-        "minute-mcq-11",
-        "minute-mcq-06"
+        "minute-mcq-12",
+        "minute-mcq-02",
+        "minute-mcq-14"
       ],
       "explanation": "本句的「minutes」指「角度單位，等於一度的六十分之一」。",
       "sentenceIndex": 18,
@@ -958,12 +884,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-pdf-001": "本句指「角度單位，等於一度的六十分之一」。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-pdf-001": "本句的「minutes」指「角度單位，等於一度的六十分之一」。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-pdf-001"
     },
@@ -975,11 +899,9 @@ export default {
       "masked": "The ____ is pointing at twelve.",
       "options": [
         "minute-mcq-09",
-        "minute-mcq-08",
-        "minute-mcq-10",
-        "minute-mcq-07",
-        "minute-mcq-11",
-        "minute-mcq-06"
+        "minute-mcq-15",
+        "minute-mcq-04",
+        "minute-mcq-12"
       ],
       "explanation": "本句的「minute hand」指「時鐘上顯示分鐘的指針」。",
       "sentenceIndex": 19,
@@ -988,12 +910,10 @@ export default {
         "minute hand"
       ],
       "optionReasons": {
-        "minute-mcq-09": "本句指「時鐘上顯示分鐘的指針」。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-09": "本句的「minute hand」指「時鐘上顯示分鐘的指針」。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-09"
     },
@@ -1005,11 +925,9 @@ export default {
       "masked": "The ____ moves faster than the hour hand.",
       "options": [
         "minute-mcq-09",
-        "minute-mcq-08",
-        "minute-mcq-10",
-        "minute-mcq-07",
-        "minute-mcq-11",
-        "minute-mcq-06"
+        "minute-mcq-04",
+        "minute-mcq-14",
+        "minute-mcq-12"
       ],
       "explanation": "本句的「minute hand」指「時鐘上顯示分鐘的指針」。",
       "sentenceIndex": 20,
@@ -1018,12 +936,10 @@ export default {
         "minute hand"
       ],
       "optionReasons": {
-        "minute-mcq-09": "本句指「時鐘上顯示分鐘的指針」。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-06": "「每分鐘／隨著每一小段時間持續變化」是「minute by minute」的用法，與本句語境不同。"
+        "minute-mcq-09": "本句的「minute hand」指「時鐘上顯示分鐘的指針」。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-09"
     },
@@ -1035,11 +951,9 @@ export default {
       "masked": "Did you read the ____ of the meeting?",
       "options": [
         "minute-mcq-10",
-        "minute-mcq-09",
-        "minute-mcq-11",
-        "minute-mcq-08",
-        "minute-mcq-12",
-        "minute-mcq-07"
+        "minute-mcq-01",
+        "minute-mcq-17",
+        "minute-mcq-02"
       ],
       "explanation": "本句的「minutes」指「正式記錄會議討論、決定和行動項目的文件」。",
       "sentenceIndex": 21,
@@ -1048,12 +962,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-10": "本句指「正式記錄會議討論、決定和行動項目的文件」。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。"
+        "minute-mcq-10": "本句的「minutes」指「正式記錄會議討論、決定和行動項目的文件」。",
+        "minute-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-10"
     },
@@ -1066,10 +978,8 @@ export default {
       "options": [
         "minute-mcq-10",
         "minute-mcq-09",
-        "minute-mcq-11",
-        "minute-mcq-08",
-        "minute-mcq-12",
-        "minute-mcq-07"
+        "minute-mcq-15",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minutes」指「正式記錄會議討論、決定和行動項目的文件」。",
       "sentenceIndex": 22,
@@ -1078,12 +988,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-10": "本句指「正式記錄會議討論、決定和行動項目的文件」。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-07": "「在最後可能時刻、幾乎沒有時間剩下時」是「at the last minute」的用法，與本句語境不同。"
+        "minute-mcq-10": "本句的「minutes」指「正式記錄會議討論、決定和行動項目的文件」。",
+        "minute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-10"
     },
@@ -1095,11 +1003,9 @@ export default {
       "masked": "Who is taking the ____ today?",
       "options": [
         "minute-mcq-11",
-        "minute-mcq-10",
-        "minute-mcq-12",
-        "minute-mcq-09",
-        "minute-mcq-13",
-        "minute-mcq-08"
+        "minute-mcq-16",
+        "minute-mcq-07",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minutes」指「正式記錄會議內容」。",
       "sentenceIndex": 23,
@@ -1108,12 +1014,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-11": "本句指「正式記錄會議內容」。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。"
+        "minute-mcq-11": "本句的「minutes」指「正式記錄會議內容」。",
+        "minute-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-11"
     },
@@ -1125,11 +1029,9 @@ export default {
       "masked": "She kept detailed ____ of the discussion.",
       "options": [
         "minute-mcq-11",
-        "minute-mcq-10",
-        "minute-mcq-12",
-        "minute-mcq-09",
-        "minute-mcq-13",
-        "minute-mcq-08"
+        "minute-mcq-17",
+        "minute-mcq-15",
+        "minute-pdf-001"
       ],
       "explanation": "本句的「minutes」指「正式記錄會議內容」。",
       "sentenceIndex": 24,
@@ -1138,12 +1040,10 @@ export default {
         "minutes"
       ],
       "optionReasons": {
-        "minute-mcq-11": "本句指「正式記錄會議內容」。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-08": "「等於一度六十分之一的角度單位」是「minute — angular unit」的用法，與本句語境不同。"
+        "minute-mcq-11": "本句的「minutes」指「正式記錄會議內容」。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-11"
     },
@@ -1155,11 +1055,9 @@ export default {
       "masked": "The decision was ____.",
       "options": [
         "minute-mcq-12",
-        "minute-mcq-11",
+        "minute-mcq-02",
         "minute-mcq-13",
-        "minute-mcq-10",
-        "minute-mcq-14",
-        "minute-mcq-09"
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minuted」指「把某事正式記入會議紀錄」。",
       "sentenceIndex": 25,
@@ -1168,12 +1066,10 @@ export default {
         "minuted"
       ],
       "optionReasons": {
-        "minute-mcq-12": "本句指「把某事正式記入會議紀錄」。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。"
+        "minute-mcq-12": "本句的「minuted」指「把某事正式記入會議紀錄」。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-12"
     },
@@ -1185,11 +1081,9 @@ export default {
       "masked": "Please ensure that the objection is ____.",
       "options": [
         "minute-mcq-12",
-        "minute-mcq-11",
         "minute-mcq-13",
-        "minute-mcq-10",
-        "minute-mcq-14",
-        "minute-mcq-09"
+        "minute-mcq-17",
+        "minute-mcq-01"
       ],
       "explanation": "本句的「minuted」指「把某事正式記入會議紀錄」。",
       "sentenceIndex": 26,
@@ -1198,12 +1092,10 @@ export default {
         "minuted"
       ],
       "optionReasons": {
-        "minute-mcq-12": "本句指「把某事正式記入會議紀錄」。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-09": "「時鐘上顯示分鐘的指針」是「minute hand」的用法，與本句語境不同。"
+        "minute-mcq-12": "本句的「minuted」指「把某事正式記入會議紀錄」。",
+        "minute-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-12"
     },
@@ -1215,11 +1107,9 @@ export default {
       "masked": "The machine contains ____ parts.",
       "options": [
         "minute-mcq-13",
+        "minute-mcq-07",
         "minute-mcq-12",
-        "minute-mcq-14",
-        "minute-mcq-11",
-        "minute-mcq-15",
-        "minute-mcq-10"
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minute」指「尺寸、數量或程度極其細小的」。",
       "sentenceIndex": 27,
@@ -1228,12 +1118,10 @@ export default {
         "minute"
       ],
       "optionReasons": {
-        "minute-mcq-13": "本句指「尺寸、數量或程度極其細小的」。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。"
+        "minute-mcq-13": "本句的「minute」指「尺寸、數量或程度極其細小的」。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-13"
     },
@@ -1245,11 +1133,9 @@ export default {
       "masked": "Only a ____ amount was detected.",
       "options": [
         "minute-mcq-13",
-        "minute-mcq-12",
-        "minute-mcq-14",
-        "minute-mcq-11",
-        "minute-mcq-15",
-        "minute-mcq-10"
+        "minute-mcq-09",
+        "minute-mcq-07",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minute」指「尺寸、數量或程度極其細小的」。",
       "sentenceIndex": 28,
@@ -1258,12 +1144,10 @@ export default {
         "minute"
       ],
       "optionReasons": {
-        "minute-mcq-13": "本句指「尺寸、數量或程度極其細小的」。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-10": "「正式記錄會議討論、決定和行動項目的文件」是「minutes — meeting record」的用法，與本句語境不同。"
+        "minute-mcq-13": "本句的「minute」指「尺寸、數量或程度極其細小的」。",
+        "minute-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-13"
     },
@@ -1275,11 +1159,9 @@ export default {
       "masked": "She noticed every ____.",
       "options": [
         "minute-mcq-14",
-        "minute-mcq-13",
-        "minute-mcq-15",
-        "minute-mcq-12",
-        "minute-mcq-16",
-        "minute-mcq-11"
+        "minute-mcq-04",
+        "minute-mcq-02",
+        "minute-pdf-001"
       ],
       "explanation": "本句的「minute detail」指「非常細小、不容易察覺的細節」。",
       "sentenceIndex": 29,
@@ -1288,12 +1170,10 @@ export default {
         "minute detail"
       ],
       "optionReasons": {
-        "minute-mcq-14": "本句指「非常細小、不容易察覺的細節」。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-16": "「以極仔細、極詳細、注意微小細節的方式」是「minutely」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。"
+        "minute-mcq-14": "本句的「minute detail」指「非常細小、不容易察覺的細節」。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "minute-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-14"
     },
@@ -1305,11 +1185,9 @@ export default {
       "masked": "The painting was examined in ____.",
       "options": [
         "minute-mcq-14",
-        "minute-mcq-13",
-        "minute-mcq-15",
-        "minute-mcq-12",
-        "minute-mcq-16",
-        "minute-mcq-11"
+        "minute-mcq-05",
+        "minute-mcq-17",
+        "minute-mcq-12"
       ],
       "explanation": "本句的「minute detail」指「非常細小、不容易察覺的細節」。",
       "sentenceIndex": 30,
@@ -1318,12 +1196,10 @@ export default {
         "minute detail"
       ],
       "optionReasons": {
-        "minute-mcq-14": "本句指「非常細小、不容易察覺的細節」。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。",
-        "minute-mcq-16": "「以極仔細、極詳細、注意微小細節的方式」是「minutely」的用法，與本句語境不同。",
-        "minute-mcq-11": "「正式記錄會議內容」是「take minutes」的用法，與本句語境不同。"
+        "minute-mcq-14": "本句的「minute detail」指「非常細小、不容易察覺的細節」。",
+        "minute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-14"
     },
@@ -1335,11 +1211,9 @@ export default {
       "masked": "There is only a ____ between the two versions.",
       "options": [
         "minute-mcq-15",
-        "minute-mcq-14",
-        "minute-mcq-16",
-        "minute-mcq-13",
-        "minute-mcq-17",
-        "minute-mcq-12"
+        "minute-mcq-05",
+        "minute-mcq-07",
+        "minute-mcq-17"
       ],
       "explanation": "本句的「minute difference」指「程度極低、非常細微的差別」。",
       "sentenceIndex": 31,
@@ -1348,12 +1222,10 @@ export default {
         "minute difference"
       ],
       "optionReasons": {
-        "minute-mcq-15": "本句指「程度極低、非常細微的差別」。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-16": "「以極仔細、極詳細、注意微小細節的方式」是「minutely」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-17": "「一分鐘前；口語中亦可較鬆散地表示「剛才」」是「8. a minute ago（剛才） — 一分鐘前；剛剛」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。"
+        "minute-mcq-15": "本句的「minute difference」指「程度極低、非常細微的差別」。",
+        "minute-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-15"
     },
@@ -1365,11 +1237,9 @@ export default {
       "masked": "The temperature showed a ____.",
       "options": [
         "minute-mcq-15",
-        "minute-mcq-14",
-        "minute-mcq-16",
-        "minute-mcq-13",
-        "minute-mcq-17",
-        "minute-mcq-12"
+        "minute-mcq-06",
+        "minute-mcq-11",
+        "minute-mcq-04"
       ],
       "explanation": "本句的「minute change」指「程度極低、非常細微的差別」。",
       "sentenceIndex": 32,
@@ -1378,12 +1248,10 @@ export default {
         "minute change"
       ],
       "optionReasons": {
-        "minute-mcq-15": "本句指「程度極低、非常細微的差別」。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-16": "「以極仔細、極詳細、注意微小細節的方式」是「minutely」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-17": "「一分鐘前；口語中亦可較鬆散地表示「剛才」」是「8. a minute ago（剛才） — 一分鐘前；剛剛」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。"
+        "minute-mcq-15": "本句的「minute change」指「程度極低、非常細微的差別」。",
+        "minute-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-15"
     },
@@ -1395,11 +1263,9 @@ export default {
       "masked": "The evidence was examined ____.",
       "options": [
         "minute-mcq-16",
-        "minute-mcq-15",
-        "minute-mcq-17",
-        "minute-mcq-14",
-        "minute-mcq-13",
-        "minute-mcq-12"
+        "minute-mcq-12",
+        "minute-mcq-04",
+        "minute-mcq-02"
       ],
       "explanation": "本句的「minutely」指「以極仔細、極詳細、注意微小細節的方式」。",
       "sentenceIndex": 33,
@@ -1408,12 +1274,10 @@ export default {
         "minutely"
       ],
       "optionReasons": {
-        "minute-mcq-16": "本句指「以極仔細、極詳細、注意微小細節的方式」。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-17": "「一分鐘前；口語中亦可較鬆散地表示「剛才」」是「8. a minute ago（剛才） — 一分鐘前；剛剛」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。"
+        "minute-mcq-16": "本句的「minutely」指「以極仔細、極詳細、注意微小細節的方式」。",
+        "minute-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-16"
     },
@@ -1425,11 +1289,9 @@ export default {
       "masked": "She described the scene ____.",
       "options": [
         "minute-mcq-16",
-        "minute-mcq-15",
+        "minute-mcq-10",
         "minute-mcq-17",
-        "minute-mcq-14",
-        "minute-mcq-13",
-        "minute-mcq-12"
+        "minute-mcq-02"
       ],
       "explanation": "本句的「minutely」指「以極仔細、極詳細、注意微小細節的方式」。",
       "sentenceIndex": 34,
@@ -1438,12 +1300,10 @@ export default {
         "minutely"
       ],
       "optionReasons": {
-        "minute-mcq-16": "本句指「以極仔細、極詳細、注意微小細節的方式」。",
-        "minute-mcq-15": "「程度極低、非常細微的差別」是「minute difference」的用法，與本句語境不同。",
-        "minute-mcq-17": "「一分鐘前；口語中亦可較鬆散地表示「剛才」」是「8. a minute ago（剛才） — 一分鐘前；剛剛」的用法，與本句語境不同。",
-        "minute-mcq-14": "「非常細小、不容易察覺的細節」是「minute detail」的用法，與本句語境不同。",
-        "minute-mcq-13": "「尺寸、數量或程度極其細小的」是「minute /maɪˈnjuːt/ — tiny」的用法，與本句語境不同。",
-        "minute-mcq-12": "「把某事正式記入會議紀錄」是「minute — verb」的用法，與本句語境不同。"
+        "minute-mcq-16": "本句的「minutely」指「以極仔細、極詳細、注意微小細節的方式」。",
+        "minute-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "minute-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "minute-mcq-16"
     }
@@ -1455,5 +1315,7 @@ export default {
     "sha256": "c5f212b996f9299a234743468e8402edbc0705f9e64f7942c2650bdbeeb69772",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

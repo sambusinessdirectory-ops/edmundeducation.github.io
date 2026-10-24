@@ -495,11 +495,8 @@ export default {
       "masked": "The novel explores different ____ of the same life.",
       "options": [
         "version-mcq-02",
-        "version-mcq-01",
-        "version-mcq-03",
-        "version-mcq-04",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「versions」指「同一事物的另一種形式／另一版本」。",
       "sentenceIndex": 0,
@@ -508,12 +505,9 @@ export default {
         "versions"
       ],
       "optionReasons": {
-        "version-mcq-02": "本句指「同一事物的另一種形式／另一版本」。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-02": "本句的「versions」指「同一事物的另一種形式／另一版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-02"
     },
@@ -525,11 +519,8 @@ export default {
       "masked": "Each choice seems to create another ____ of her future.",
       "options": [
         "version-mcq-02",
-        "version-mcq-01",
         "version-mcq-03",
-        "version-mcq-04",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「同一事物的另一種形式／另一版本」。",
       "sentenceIndex": 1,
@@ -538,12 +529,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-02": "本句指「同一事物的另一種形式／另一版本」。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-02": "本句的「version」指「同一事物的另一種形式／另一版本」。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-02"
     },
@@ -555,11 +543,8 @@ export default {
       "masked": "This is a cheaper ____ of the same product.",
       "options": [
         "version-mcq-02",
-        "version-mcq-01",
         "version-mcq-03",
-        "version-mcq-04",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「同一事物的另一種形式／另一版本」。",
       "sentenceIndex": 2,
@@ -568,12 +553,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-02": "本句指「同一事物的另一種形式／另一版本」。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-02": "本句的「version」指「同一事物的另一種形式／另一版本」。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-02"
     },
@@ -585,11 +567,8 @@ export default {
       "masked": "The new design is a simplified ____ of the original.",
       "options": [
         "version-mcq-02",
-        "version-mcq-01",
-        "version-mcq-03",
-        "version-mcq-04",
         "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「同一事物的另一種形式／另一版本」。",
       "sentenceIndex": 3,
@@ -598,12 +577,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-02": "本句指「同一事物的另一種形式／另一版本」。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-02": "本句的「version」指「同一事物的另一種形式／另一版本」。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-02"
     },
@@ -615,11 +591,8 @@ export default {
       "masked": "The story exists in several ____.",
       "options": [
         "version-mcq-02",
-        "version-mcq-01",
-        "version-mcq-03",
-        "version-mcq-04",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「versions」指「同一事物的另一種形式／另一版本」。",
       "sentenceIndex": 4,
@@ -628,12 +601,9 @@ export default {
         "versions"
       ],
       "optionReasons": {
-        "version-mcq-02": "本句指「同一事物的另一種形式／另一版本」。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-02": "本句的「versions」指「同一事物的另一種形式／另一版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-02"
     },
@@ -645,11 +615,8 @@ export default {
       "masked": "We tested three ____ of the design.",
       "options": [
         "version-mcq-02",
-        "version-mcq-01",
-        "version-mcq-03",
-        "version-mcq-04",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「versions」指「同一事物的另一種形式／另一版本」。",
       "sentenceIndex": 5,
@@ -658,12 +625,9 @@ export default {
         "versions"
       ],
       "optionReasons": {
-        "version-mcq-02": "本句指「同一事物的另一種形式／另一版本」。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-02": "本句的「versions」指「同一事物的另一種形式／另一版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-02"
     },
@@ -675,11 +639,8 @@ export default {
       "masked": "I heard a different ____.",
       "options": [
         "version-mcq-03",
-        "version-mcq-02",
-        "version-mcq-04",
-        "version-mcq-01",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-12",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version of the story」指「某人對事情經過的說法／敘述」。",
       "sentenceIndex": 6,
@@ -688,12 +649,9 @@ export default {
         "version of the story"
       ],
       "optionReasons": {
-        "version-mcq-03": "本句指「某人對事情經過的說法／敘述」。",
-        "version-mcq-02": "「同一事物的另一種形式／另一版本」是「different version of something」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-03": "本句的「version of the story」指「某人對事情經過的說法／敘述」。",
+        "version-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-03"
     },
@@ -705,11 +663,8 @@ export default {
       "masked": "Their ____ did not match.",
       "options": [
         "version-mcq-03",
-        "version-mcq-02",
-        "version-mcq-04",
-        "version-mcq-01",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-18",
+        "version-mcq-14"
       ],
       "explanation": "本句的「versions of events」指「某人對事情經過的說法／敘述」。",
       "sentenceIndex": 7,
@@ -718,12 +673,9 @@ export default {
         "versions of events"
       ],
       "optionReasons": {
-        "version-mcq-03": "本句指「某人對事情經過的說法／敘述」。",
-        "version-mcq-02": "「同一事物的另一種形式／另一版本」是「different version of something」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-03": "本句的「versions of events」指「某人對事情經過的說法／敘述」。",
+        "version-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-03"
     },
@@ -735,11 +687,8 @@ export default {
       "masked": "The police listened to his ____.",
       "options": [
         "version-mcq-03",
-        "version-mcq-02",
-        "version-mcq-04",
-        "version-mcq-01",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-14",
+        "version-mcq-17"
       ],
       "explanation": "本句的「version of events」指「某人對事情經過的說法／敘述」。",
       "sentenceIndex": 8,
@@ -748,12 +697,9 @@ export default {
         "version of events"
       ],
       "optionReasons": {
-        "version-mcq-03": "本句指「某人對事情經過的說法／敘述」。",
-        "version-mcq-02": "「同一事物的另一種形式／另一版本」是「different version of something」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-03": "本句的「version of events」指「某人對事情經過的說法／敘述」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-03"
     },
@@ -765,11 +711,8 @@ export default {
       "masked": "Her ____ differed from mine.",
       "options": [
         "version-mcq-03",
-        "version-mcq-02",
-        "version-mcq-04",
-        "version-mcq-01",
-        "version-mcq-05",
-        "version-mcq-06"
+        "version-mcq-14",
+        "version-mcq-11"
       ],
       "explanation": "本句的「version of events」指「某人對事情經過的說法／敘述」。",
       "sentenceIndex": 9,
@@ -778,12 +721,9 @@ export default {
         "version of events"
       ],
       "optionReasons": {
-        "version-mcq-03": "本句指「某人對事情經過的說法／敘述」。",
-        "version-mcq-02": "「同一事物的另一種形式／另一版本」是「different version of something」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-01": "「同一事物眾多形式中的其中一種；版本」是「version — particular form」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-03": "本句的「version of events」指「某人對事情經過的說法／敘述」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-03"
     },
@@ -795,11 +735,8 @@ export default {
       "masked": "The film offers a modern ____ of the legend.",
       "options": [
         "version-mcq-05",
-        "version-mcq-04",
-        "version-mcq-06",
-        "version-mcq-03",
-        "version-mcq-07",
-        "version-mcq-02"
+        "version-mcq-12",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「對人物、故事、概念等的一種詮釋／呈現」。",
       "sentenceIndex": 10,
@@ -808,12 +745,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-05": "本句指「對人物、故事、概念等的一種詮釋／呈現」。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-02": "「同一事物的另一種形式／另一版本」是「different version of something」的用法，與本句語境不同。"
+        "version-mcq-05": "本句的「version」指「對人物、故事、概念等的一種詮釋／呈現」。",
+        "version-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-05"
     },
@@ -825,11 +759,8 @@ export default {
       "masked": "His ____ of the character is much darker.",
       "options": [
         "version-mcq-05",
-        "version-mcq-04",
-        "version-mcq-06",
-        "version-mcq-03",
-        "version-mcq-07",
-        "version-mcq-02"
+        "version-mcq-17",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「對人物、故事、概念等的一種詮釋／呈現」。",
       "sentenceIndex": 11,
@@ -838,12 +769,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-05": "本句指「對人物、故事、概念等的一種詮釋／呈現」。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-02": "「同一事物的另一種形式／另一版本」是「different version of something」的用法，與本句語境不同。"
+        "version-mcq-05": "本句的「version」指「對人物、故事、概念等的一種詮釋／呈現」。",
+        "version-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-05"
     },
@@ -855,10 +783,7 @@ export default {
       "masked": "I prefer the film ____ of the story.",
       "options": [
         "version-mcq-06",
-        "version-mcq-05",
-        "version-mcq-07",
-        "version-mcq-04",
-        "version-mcq-08",
+        "version-mcq-14",
         "version-mcq-03"
       ],
       "explanation": "本句的「version」指「經改編、翻譯、重新演奏等形成的版本」。",
@@ -868,12 +793,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-06": "本句指「經改編、翻譯、重新演奏等形成的版本」。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。"
+        "version-mcq-06": "本句的「version」指「經改編、翻譯、重新演奏等形成的版本」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-06"
     },
@@ -885,10 +807,7 @@ export default {
       "masked": "She recorded an acoustic ____ of the song.",
       "options": [
         "version-mcq-06",
-        "version-mcq-05",
-        "version-mcq-07",
-        "version-mcq-04",
-        "version-mcq-08",
+        "version-mcq-14",
         "version-mcq-03"
       ],
       "explanation": "本句的「version」指「經改編、翻譯、重新演奏等形成的版本」。",
@@ -898,12 +817,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-06": "本句指「經改編、翻譯、重新演奏等形成的版本」。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-03": "「某人對事情經過的說法／敘述」是「version of events」的用法，與本句語境不同。"
+        "version-mcq-06": "本句的「version」指「經改編、翻譯、重新演奏等形成的版本」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-06"
     },
@@ -915,11 +831,8 @@ export default {
       "masked": "I read the English ____ of the novel.",
       "options": [
         "version-mcq-07",
-        "version-mcq-06",
-        "version-mcq-08",
-        "version-mcq-05",
-        "version-mcq-09",
-        "version-mcq-04"
+        "version-mcq-13",
+        "version-mcq-20"
       ],
       "explanation": "本句的「version」指「翻譯成另一語言的譯本／版本」。",
       "sentenceIndex": 14,
@@ -928,12 +841,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-07": "本句指「翻譯成另一語言的譯本／版本」。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。"
+        "version-mcq-07": "本句的「version」指「翻譯成另一語言的譯本／版本」。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-07"
     },
@@ -945,11 +855,8 @@ export default {
       "masked": "A revised Chinese ____ was published later.",
       "options": [
         "version-mcq-07",
-        "version-mcq-06",
-        "version-mcq-08",
-        "version-mcq-05",
-        "version-mcq-09",
-        "version-mcq-04"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「翻譯成另一語言的譯本／版本」。",
       "sentenceIndex": 15,
@@ -958,12 +865,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-07": "本句指「翻譯成另一語言的譯本／版本」。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-04": "「某人自己對事情的描述或解釋」是「someone’s version of the story」的用法，與本句語境不同。"
+        "version-mcq-07": "本句的「version」指「翻譯成另一語言的譯本／版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-07"
     },
@@ -975,11 +879,8 @@ export default {
       "masked": "The stage ____ is very different from the novel.",
       "options": [
         "version-mcq-08",
-        "version-mcq-07",
-        "version-mcq-09",
-        "version-mcq-06",
-        "version-mcq-10",
-        "version-mcq-05"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「改編成電影／舞台／影視形式的版本」。",
       "sentenceIndex": 16,
@@ -988,12 +889,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-08": "本句指「改編成電影／舞台／影視形式的版本」。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。"
+        "version-mcq-08": "本句的「version」指「改編成電影／舞台／影視形式的版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-08"
     },
@@ -1005,11 +903,8 @@ export default {
       "masked": "The screen ____ shortened the ending.",
       "options": [
         "version-mcq-08",
-        "version-mcq-07",
-        "version-mcq-09",
-        "version-mcq-06",
-        "version-mcq-10",
-        "version-mcq-05"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「改編成電影／舞台／影視形式的版本」。",
       "sentenceIndex": 17,
@@ -1018,12 +913,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-08": "本句指「改編成電影／舞台／影視形式的版本」。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-05": "「對人物、故事、概念等的一種詮釋／呈現」是「version — interpretation」的用法，與本句語境不同。"
+        "version-mcq-08": "本句的「version」指「改編成電影／舞台／影視形式的版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-08"
     },
@@ -1035,11 +927,8 @@ export default {
       "masked": "Which ____ of the app are you using?",
       "options": [
         "version-mcq-09",
-        "version-mcq-08",
-        "version-mcq-10",
-        "version-mcq-07",
-        "version-mcq-11",
-        "version-mcq-06"
+        "version-mcq-13",
+        "version-mcq-03"
       ],
       "explanation": "本句的「version」指「軟體某次發布或更新後的版本」。",
       "sentenceIndex": 18,
@@ -1048,12 +937,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-09": "本句指「軟體某次發布或更新後的版本」。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-09": "本句的「version」指「軟體某次發布或更新後的版本」。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-09"
     },
@@ -1065,11 +951,8 @@ export default {
       "masked": "The latest ____ fixes several bugs.",
       "options": [
         "version-mcq-09",
-        "version-mcq-08",
-        "version-mcq-10",
-        "version-mcq-07",
-        "version-mcq-11",
-        "version-mcq-06"
+        "version-mcq-20",
+        "version-mcq-13"
       ],
       "explanation": "本句的「version」指「軟體某次發布或更新後的版本」。",
       "sentenceIndex": 19,
@@ -1078,12 +961,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-09": "本句指「軟體某次發布或更新後的版本」。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-06": "「經改編、翻譯、重新演奏等形成的版本」是「version — adaptation/rendition」的用法，與本句語境不同。"
+        "version-mcq-09": "本句的「version」指「軟體某次發布或更新後的版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-09"
     },
@@ -1095,11 +975,8 @@ export default {
       "masked": "Check the ____ in the settings.",
       "options": [
         "version-mcq-10",
-        "version-mcq-09",
-        "version-mcq-11",
-        "version-mcq-08",
-        "version-mcq-12",
-        "version-mcq-07"
+        "version-mcq-14",
+        "version-mcq-20"
       ],
       "explanation": "本句的「version number」指「用來識別軟體／產品版本的編號」。",
       "sentenceIndex": 20,
@@ -1108,12 +985,9 @@ export default {
         "version number"
       ],
       "optionReasons": {
-        "version-mcq-10": "本句指「用來識別軟體／產品版本的編號」。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。"
+        "version-mcq-10": "本句的「version number」指「用來識別軟體／產品版本的編號」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-10"
     },
@@ -1125,11 +999,8 @@ export default {
       "masked": "The update changed the ____.",
       "options": [
         "version-mcq-10",
-        "version-mcq-09",
-        "version-mcq-11",
-        "version-mcq-08",
-        "version-mcq-12",
-        "version-mcq-07"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version number」指「用來識別軟體／產品版本的編號」。",
       "sentenceIndex": 21,
@@ -1138,12 +1009,9 @@ export default {
         "version number"
       ],
       "optionReasons": {
-        "version-mcq-10": "本句指「用來識別軟體／產品版本的編號」。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-07": "「翻譯成另一語言的譯本／版本」是「translated version」的用法，與本句語境不同。"
+        "version-mcq-10": "本句的「version number」指「用來識別軟體／產品版本的編號」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-10"
     },
@@ -1155,11 +1023,8 @@ export default {
       "masked": "The team uses ____ for its code.",
       "options": [
         "version-mcq-11",
-        "version-mcq-10",
-        "version-mcq-12",
-        "version-mcq-09",
         "version-mcq-13",
-        "version-mcq-08"
+        "version-mcq-20"
       ],
       "explanation": "本句的「version control」指「記錄、管理檔案或程式碼不同修改版本的系統」。",
       "sentenceIndex": 22,
@@ -1168,12 +1033,9 @@ export default {
         "version control"
       ],
       "optionReasons": {
-        "version-mcq-11": "本句指「記錄、管理檔案或程式碼不同修改版本的系統」。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。"
+        "version-mcq-11": "本句的「version control」指「記錄、管理檔案或程式碼不同修改版本的系統」。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-11"
     },
@@ -1185,11 +1047,8 @@ export default {
       "masked": "Good ____ prevents accidental data loss.",
       "options": [
         "version-mcq-11",
-        "version-mcq-10",
-        "version-mcq-12",
-        "version-mcq-09",
-        "version-mcq-13",
-        "version-mcq-08"
+        "version-mcq-05",
+        "version-mcq-13"
       ],
       "explanation": "本句的「version control」指「記錄、管理檔案或程式碼不同修改版本的系統」。",
       "sentenceIndex": 23,
@@ -1198,12 +1057,9 @@ export default {
         "version control"
       ],
       "optionReasons": {
-        "version-mcq-11": "本句指「記錄、管理檔案或程式碼不同修改版本的系統」。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-08": "「改編成電影／舞台／影視形式的版本」是「film/stage/screen version」的用法，與本句語境不同。"
+        "version-mcq-11": "本句的「version control」指「記錄、管理檔案或程式碼不同修改版本的系統」。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-11"
     },
@@ -1215,11 +1071,8 @@ export default {
       "masked": "There is also a smaller ____ of the device.",
       "options": [
         "version-mcq-12",
-        "version-mcq-11",
-        "version-mcq-13",
-        "version-mcq-10",
         "version-mcq-14",
-        "version-mcq-09"
+        "version-mcq-20"
       ],
       "explanation": "本句的「version」指「同一產品的不同形式、規格或配置版本」。",
       "sentenceIndex": 24,
@@ -1228,12 +1081,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-12": "本句指「同一產品的不同形式、規格或配置版本」。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。"
+        "version-mcq-12": "本句的「version」指「同一產品的不同形式、規格或配置版本」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-12"
     },
@@ -1245,11 +1095,8 @@ export default {
       "masked": "The premium ____ includes extra features.",
       "options": [
         "version-mcq-12",
-        "version-mcq-11",
-        "version-mcq-13",
-        "version-mcq-10",
-        "version-mcq-14",
-        "version-mcq-09"
+        "version-mcq-20",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「同一產品的不同形式、規格或配置版本」。",
       "sentenceIndex": 25,
@@ -1258,12 +1105,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-12": "本句指「同一產品的不同形式、規格或配置版本」。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-09": "「軟體某次發布或更新後的版本」是「version — software」的用法，與本句語境不同。"
+        "version-mcq-12": "本句的「version」指「同一產品的不同形式、規格或配置版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-12"
     },
@@ -1275,11 +1119,8 @@ export default {
       "masked": "I want to become a better ____.",
       "options": [
         "version-mcq-13",
-        "version-mcq-12",
-        "version-mcq-14",
-        "version-mcq-11",
-        "version-mcq-15",
-        "version-mcq-10"
+        "version-mcq-16",
+        "version-mcq-05"
       ],
       "explanation": "本句的「version of myself」指「某種狀態或形式下的自己」。",
       "sentenceIndex": 26,
@@ -1288,12 +1129,9 @@ export default {
         "version of myself"
       ],
       "optionReasons": {
-        "version-mcq-13": "本句指「某種狀態或形式下的自己」。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。"
+        "version-mcq-13": "本句的「version of myself」指「某種狀態或形式下的自己」。",
+        "version-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-13"
     },
@@ -1305,11 +1143,8 @@ export default {
       "masked": "She feels like a different ____ now.",
       "options": [
         "version-mcq-13",
-        "version-mcq-12",
-        "version-mcq-14",
-        "version-mcq-11",
-        "version-mcq-15",
-        "version-mcq-10"
+        "version-mcq-18",
+        "version-mcq-20"
       ],
       "explanation": "本句的「version of herself」指「某種狀態或形式下的自己」。",
       "sentenceIndex": 27,
@@ -1318,12 +1153,9 @@ export default {
         "version of herself"
       ],
       "optionReasons": {
-        "version-mcq-13": "本句指「某種狀態或形式下的自己」。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-10": "「用來識別軟體／產品版本的編號」是「version number」的用法，與本句語境不同。"
+        "version-mcq-13": "本句的「version of herself」指「某種狀態或形式下的自己」。",
+        "version-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-13"
     },
@@ -1335,11 +1167,8 @@ export default {
       "masked": "The goal is to become the ____.",
       "options": [
         "version-mcq-14",
-        "version-mcq-13",
-        "version-mcq-15",
-        "version-mcq-12",
-        "version-mcq-16",
-        "version-mcq-11"
+        "version-mcq-10",
+        "version-mcq-05"
       ],
       "explanation": "本句的「best version of yourself」指「自己能達到的較理想／最佳狀態」。",
       "sentenceIndex": 28,
@@ -1348,12 +1177,9 @@ export default {
         "best version of yourself"
       ],
       "optionReasons": {
-        "version-mcq-14": "本句指「自己能達到的較理想／最佳狀態」。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。"
+        "version-mcq-14": "本句的「best version of yourself」指「自己能達到的較理想／最佳狀態」。",
+        "version-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-14"
     },
@@ -1365,11 +1191,8 @@ export default {
       "masked": "Good habits can help you become a better ____.",
       "options": [
         "version-mcq-14",
-        "version-mcq-13",
-        "version-mcq-15",
         "version-mcq-12",
-        "version-mcq-16",
-        "version-mcq-11"
+        "version-mcq-03"
       ],
       "explanation": "本句的「version of yourself」指「自己能達到的較理想／最佳狀態」。",
       "sentenceIndex": 29,
@@ -1378,12 +1201,9 @@ export default {
         "version of yourself"
       ],
       "optionReasons": {
-        "version-mcq-14": "本句指「自己能達到的較理想／最佳狀態」。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-11": "「記錄、管理檔案或程式碼不同修改版本的系統」是「version control」的用法，與本句語境不同。"
+        "version-mcq-14": "本句的「version of yourself」指「自己能達到的較理想／最佳狀態」。",
+        "version-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-14"
     },
@@ -1395,11 +1215,8 @@ export default {
       "masked": "We read a shortened ____ of the article.",
       "options": [
         "version-mcq-15",
-        "version-mcq-14",
-        "version-mcq-16",
-        "version-mcq-13",
-        "version-mcq-17",
-        "version-mcq-12"
+        "version-mcq-05",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「經縮短、簡化或編輯過的版本」。",
       "sentenceIndex": 30,
@@ -1408,12 +1225,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-15": "本句指「經縮短、簡化或編輯過的版本」。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。"
+        "version-mcq-15": "本句的「version」指「經縮短、簡化或編輯過的版本」。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-15"
     },
@@ -1425,11 +1239,8 @@ export default {
       "masked": "The guide includes a simplified ____ of the instructions.",
       "options": [
         "version-mcq-15",
-        "version-mcq-14",
-        "version-mcq-16",
-        "version-mcq-13",
-        "version-mcq-17",
-        "version-mcq-12"
+        "version-mcq-05",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version」指「經縮短、簡化或編輯過的版本」。",
       "sentenceIndex": 31,
@@ -1438,12 +1249,9 @@ export default {
         "version"
       ],
       "optionReasons": {
-        "version-mcq-15": "本句指「經縮短、簡化或編輯過的版本」。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-12": "「同一產品的不同形式、規格或配置版本」是「version — product」的用法，與本句語境不同。"
+        "version-mcq-15": "本句的「version」指「經縮短、簡化或編輯過的版本」。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-15"
     },
@@ -1455,11 +1263,8 @@ export default {
       "masked": "This is the ____ of the document.",
       "options": [
         "version-mcq-16",
-        "version-mcq-15",
-        "version-mcq-17",
-        "version-mcq-14",
-        "version-mcq-18",
-        "version-mcq-13"
+        "version-mcq-05",
+        "version-mcq-14"
       ],
       "explanation": "本句的「official version」指「正式認可的版本；亦可指官方說法」。",
       "sentenceIndex": 32,
@@ -1468,12 +1273,9 @@ export default {
         "official version"
       ],
       "optionReasons": {
-        "version-mcq-16": "本句指「正式認可的版本；亦可指官方說法」。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。"
+        "version-mcq-16": "本句的「official version」指「正式認可的版本；亦可指官方說法」。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-16"
     },
@@ -1485,11 +1287,8 @@ export default {
       "masked": "The ____ of events was released later.",
       "options": [
         "version-mcq-16",
-        "version-mcq-15",
-        "version-mcq-17",
         "version-mcq-14",
-        "version-mcq-18",
-        "version-mcq-13"
+        "version-mcq-05"
       ],
       "explanation": "本句的「official version」指「正式認可的版本；亦可指官方說法」。",
       "sentenceIndex": 33,
@@ -1498,12 +1297,9 @@ export default {
         "official version"
       ],
       "optionReasons": {
-        "version-mcq-16": "本句指「正式認可的版本；亦可指官方說法」。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-13": "「某種狀態或形式下的自己」是「version of yourself」的用法，與本句語境不同。"
+        "version-mcq-16": "本句的「official version」指「正式認可的版本；亦可指官方說法」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-16"
     },
@@ -1515,11 +1311,8 @@ export default {
       "masked": "The album includes an ____ of the song.",
       "options": [
         "version-mcq-17",
-        "version-mcq-16",
-        "version-mcq-18",
-        "version-mcq-15",
-        "version-mcq-19",
-        "version-mcq-14"
+        "version-mcq-14",
+        "version-mcq-03"
       ],
       "explanation": "本句的「alternative version」指「與主要版本不同的另一版本」。",
       "sentenceIndex": 34,
@@ -1528,12 +1321,9 @@ export default {
         "alternative version"
       ],
       "optionReasons": {
-        "version-mcq-17": "本句指「與主要版本不同的另一版本」。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。"
+        "version-mcq-17": "本句的「alternative version」指「與主要版本不同的另一版本」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-17"
     },
@@ -1545,11 +1335,8 @@ export default {
       "masked": "We prepared an ____ of the proposal.",
       "options": [
         "version-mcq-17",
-        "version-mcq-16",
-        "version-mcq-18",
-        "version-mcq-15",
-        "version-mcq-19",
-        "version-mcq-14"
+        "version-mcq-14",
+        "version-mcq-20"
       ],
       "explanation": "本句的「alternative version」指「與主要版本不同的另一版本」。",
       "sentenceIndex": 35,
@@ -1558,12 +1345,9 @@ export default {
         "alternative version"
       ],
       "optionReasons": {
-        "version-mcq-17": "本句指「與主要版本不同的另一版本」。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-14": "「自己能達到的較理想／最佳狀態」是「best version of yourself」的用法，與本句語境不同。"
+        "version-mcq-17": "本句的「alternative version」指「與主要版本不同的另一版本」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-17"
     },
@@ -1575,11 +1359,8 @@ export default {
       "masked": "The files are ____ automatically.",
       "options": [
         "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-19",
-        "version-mcq-16",
-        "version-mcq-20",
-        "version-mcq-15"
+        "version-mcq-05",
+        "version-mcq-13"
       ],
       "explanation": "本句的「versioned」指「按不同版本保存或管理的」。",
       "sentenceIndex": 36,
@@ -1588,12 +1369,9 @@ export default {
         "versioned"
       ],
       "optionReasons": {
-        "version-mcq-18": "本句指「按不同版本保存或管理的」。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-20": "「從某一角度呈現的真相／說法」是「a version of the truth」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。"
+        "version-mcq-18": "本句的「versioned」指「按不同版本保存或管理的」。",
+        "version-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-18"
     },
@@ -1605,11 +1383,8 @@ export default {
       "masked": "The API is ____ to preserve compatibility.",
       "options": [
         "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-19",
-        "version-mcq-16",
-        "version-mcq-20",
-        "version-mcq-15"
+        "version-mcq-03",
+        "version-mcq-13"
       ],
       "explanation": "本句的「versioned」指「按不同版本保存或管理的」。",
       "sentenceIndex": 37,
@@ -1618,12 +1393,9 @@ export default {
         "versioned"
       ],
       "optionReasons": {
-        "version-mcq-18": "本句指「按不同版本保存或管理的」。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。",
-        "version-mcq-20": "「從某一角度呈現的真相／說法」是「a version of the truth」的用法，與本句語境不同。",
-        "version-mcq-15": "「經縮短、簡化或編輯過的版本」是「short/simplified/edited version」的用法，與本句語境不同。"
+        "version-mcq-18": "本句的「versioned」指「按不同版本保存或管理的」。",
+        "version-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-18"
     },
@@ -1635,11 +1407,8 @@ export default {
       "masked": "API ____ is important in software development.",
       "options": [
         "version-mcq-19",
-        "version-mcq-18",
-        "version-mcq-20",
-        "version-mcq-17",
-        "version-mcq-21",
-        "version-mcq-16"
+        "version-mcq-13",
+        "version-mcq-20"
       ],
       "explanation": "本句的「versioning」指「建立、區分或管理不同版本的過程」。",
       "sentenceIndex": 38,
@@ -1648,12 +1417,9 @@ export default {
         "versioning"
       ],
       "optionReasons": {
-        "version-mcq-19": "本句指「建立、區分或管理不同版本的過程」。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-20": "「從某一角度呈現的真相／說法」是「a version of the truth」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-21": "「經修改、改善或加入新內容的更新版本」是「updated version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-19": "本句的「versioning」指「建立、區分或管理不同版本的過程」。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-19"
     },
@@ -1665,11 +1431,8 @@ export default {
       "masked": "The platform supports document ____.",
       "options": [
         "version-mcq-19",
-        "version-mcq-18",
-        "version-mcq-20",
-        "version-mcq-17",
-        "version-mcq-21",
-        "version-mcq-16"
+        "version-mcq-13",
+        "version-mcq-20"
       ],
       "explanation": "本句的「versioning」指「建立、區分或管理不同版本的過程」。",
       "sentenceIndex": 39,
@@ -1678,12 +1441,9 @@ export default {
         "versioning"
       ],
       "optionReasons": {
-        "version-mcq-19": "本句指「建立、區分或管理不同版本的過程」。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-20": "「從某一角度呈現的真相／說法」是「a version of the truth」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-21": "「經修改、改善或加入新內容的更新版本」是「updated version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-19": "本句的「versioning」指「建立、區分或管理不同版本的過程」。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-19"
     },
@@ -1695,11 +1455,8 @@ export default {
       "masked": "I want to hear ____.",
       "options": [
         "version-mcq-20",
-        "version-mcq-19",
-        "version-mcq-21",
         "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-16"
+        "version-mcq-14"
       ],
       "explanation": "本句的「your version of the story」指「從某一角度呈現的真相／說法」。",
       "sentenceIndex": 40,
@@ -1708,12 +1465,9 @@ export default {
         "your version of the story"
       ],
       "optionReasons": {
-        "version-mcq-20": "本句指「從某一角度呈現的真相／說法」。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-21": "「經修改、改善或加入新內容的更新版本」是「updated version」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-20": "本句的「your version of the story」指「從某一角度呈現的真相／說法」。",
+        "version-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-20"
     },
@@ -1725,11 +1479,8 @@ export default {
       "masked": "That was only ____.",
       "options": [
         "version-mcq-20",
-        "version-mcq-19",
-        "version-mcq-21",
-        "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-16"
+        "version-mcq-15",
+        "version-mcq-13"
       ],
       "explanation": "本句的「his version of the story」指「從某一角度呈現的真相／說法」。",
       "sentenceIndex": 41,
@@ -1738,12 +1489,9 @@ export default {
         "his version of the story"
       ],
       "optionReasons": {
-        "version-mcq-20": "本句指「從某一角度呈現的真相／說法」。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-21": "「經修改、改善或加入新內容的更新版本」是「updated version」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-20": "本句的「his version of the story」指「從某一角度呈現的真相／說法」。",
+        "version-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-20"
     },
@@ -1755,11 +1503,8 @@ export default {
       "masked": "Each witness offered a different ____.",
       "options": [
         "version-mcq-20",
-        "version-mcq-19",
-        "version-mcq-21",
-        "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-16"
+        "version-mcq-12",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version of the truth」指「從某一角度呈現的真相／說法」。",
       "sentenceIndex": 42,
@@ -1768,12 +1513,9 @@ export default {
         "version of the truth"
       ],
       "optionReasons": {
-        "version-mcq-20": "本句指「從某一角度呈現的真相／說法」。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-21": "「經修改、改善或加入新內容的更新版本」是「updated version」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-20": "本句的「version of the truth」指「從某一角度呈現的真相／說法」。",
+        "version-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-20"
     },
@@ -1785,11 +1527,8 @@ export default {
       "masked": "The memoir presents one ____.",
       "options": [
         "version-mcq-20",
-        "version-mcq-19",
-        "version-mcq-21",
-        "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-16"
+        "version-mcq-09",
+        "version-mcq-14"
       ],
       "explanation": "本句的「version of the truth」指「從某一角度呈現的真相／說法」。",
       "sentenceIndex": 43,
@@ -1798,12 +1537,9 @@ export default {
         "version of the truth"
       ],
       "optionReasons": {
-        "version-mcq-20": "本句指「從某一角度呈現的真相／說法」。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-21": "「經修改、改善或加入新內容的更新版本」是「updated version」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-20": "本句的「version of the truth」指「從某一角度呈現的真相／說法」。",
+        "version-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-20"
     },
@@ -1816,10 +1552,7 @@ export default {
       "options": [
         "version-mcq-21",
         "version-mcq-20",
-        "version-mcq-19",
-        "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-16"
+        "version-mcq-14"
       ],
       "explanation": "本句的「updated version」指「經修改、改善或加入新內容的更新版本」。",
       "sentenceIndex": 44,
@@ -1828,12 +1561,9 @@ export default {
         "updated version"
       ],
       "optionReasons": {
-        "version-mcq-21": "本句指「經修改、改善或加入新內容的更新版本」。",
-        "version-mcq-20": "「從某一角度呈現的真相／說法」是「a version of the truth」的用法，與本句語境不同。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-21": "本句的「updated version」指「經修改、改善或加入新內容的更新版本」。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-21"
     },
@@ -1845,11 +1575,8 @@ export default {
       "masked": "Please use the ____ of the document.",
       "options": [
         "version-mcq-21",
-        "version-mcq-20",
-        "version-mcq-19",
-        "version-mcq-18",
-        "version-mcq-17",
-        "version-mcq-16"
+        "version-mcq-14",
+        "version-mcq-20"
       ],
       "explanation": "本句的「updated version」指「經修改、改善或加入新內容的更新版本」。",
       "sentenceIndex": 45,
@@ -1858,12 +1585,9 @@ export default {
         "updated version"
       ],
       "optionReasons": {
-        "version-mcq-21": "本句指「經修改、改善或加入新內容的更新版本」。",
-        "version-mcq-20": "「從某一角度呈現的真相／說法」是「a version of the truth」的用法，與本句語境不同。",
-        "version-mcq-19": "「建立、區分或管理不同版本的過程」是「versioning」的用法，與本句語境不同。",
-        "version-mcq-18": "「按不同版本保存或管理的」是「versioned」的用法，與本句語境不同。",
-        "version-mcq-17": "「與主要版本不同的另一版本」是「alternative version」的用法，與本句語境不同。",
-        "version-mcq-16": "「正式認可的版本；亦可指官方說法」是「official version」的用法，與本句語境不同。"
+        "version-mcq-21": "本句的「updated version」指「經修改、改善或加入新內容的更新版本」。",
+        "version-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "version-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "version-mcq-21"
     }
@@ -1875,5 +1599,7 @@ export default {
     "sha256": "7730ebf718885d6f222afa04d9dba9006231bee78ca9b29c850a3c15d5a949e4",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

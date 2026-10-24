@@ -220,26 +220,6 @@ export default {
           "Your new camera is pretty neat.",
           "你的新相機挺不錯的。",
           "很酷／很不錯"
-        ],
-        [
-          "He ordered the whisky neat.",
-          "他點了純飲威士忌，不加冰也不加水。",
-          "很酷／很不錯"
-        ],
-        [
-          "She prefers brandy neat.",
-          "她喜歡純飲白蘭地。",
-          "很酷／很不錯"
-        ],
-        [
-          "Do not use the chemical neat on your skin.",
-          "不要把這種化學品未經稀釋直接使用在皮膚上。",
-          "很酷／很不錯"
-        ],
-        [
-          "The solution should not be applied neat.",
-          "這種溶液不應以原液形式直接使用。",
-          "很酷／很不錯"
         ]
       ],
       "options": [],
@@ -332,6 +312,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "neat-reviewed-8da2451169",
+      "title": "酒類不加水、冰塊、汽水或其他飲料直接飲用的",
+      "form": "neat · source section 12",
+      "en": "酒類不加水、冰塊、汽水或其他飲料直接飲用的",
+      "zh": "酒類不加水、冰塊、汽水或其他飲料直接飲用的",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "He ordered the whisky neat.",
+          "他點了純飲威士忌，不加冰也不加水。",
+          "酒類不加水、冰塊、汽水或其他飲料直接飲用的"
+        ],
+        [
+          "She prefers brandy neat.",
+          "她喜歡純飲白蘭地。",
+          "酒類不加水、冰塊、汽水或其他飲料直接飲用的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "neat-reviewed-5e64a05854",
+      "title": "未經稀釋、混合或添加其他物質的",
+      "form": "neat · source section 13",
+      "en": "未經稀釋、混合或添加其他物質的",
+      "zh": "未經稀釋、混合或添加其他物質的",
+      "note": "對照原始教材第 13 節及例句核實。",
+      "examples": [
+        [
+          "Do not use the chemical neat on your skin.",
+          "不要把這種化學品未經稀釋直接使用在皮膚上。",
+          "未經稀釋、混合或添加其他物質的"
+        ],
+        [
+          "The solution should not be applied neat.",
+          "這種溶液不應以原液形式直接使用。",
+          "未經稀釋、混合或添加其他物質的"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -343,11 +367,9 @@ export default {
       "masked": "He wore ____ to the interview.",
       "options": [
         "neat-mcq-02",
-        "neat-mcq-01",
-        "neat-mcq-03",
-        "neat-mcq-04",
-        "neat-mcq-05",
-        "neat-mcq-06"
+        "neat-mcq-09",
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-14"
       ],
       "explanation": "本句的「neat clothes」指「整齊衣着」。",
       "sentenceIndex": 3,
@@ -356,12 +378,10 @@ export default {
         "neat clothes"
       ],
       "optionReasons": {
-        "neat-mcq-02": "本句指「整齊衣着」。",
-        "neat-mcq-01": "「整潔的；俐落的」與本句語境不同。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。"
+        "neat-mcq-02": "本句的「neat clothes」指「整齊衣着」。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-02"
     },
@@ -373,11 +393,9 @@ export default {
       "masked": "Her ____ made a good first impression.",
       "options": [
         "neat-mcq-02",
-        "neat-mcq-01",
-        "neat-mcq-03",
-        "neat-mcq-04",
-        "neat-mcq-05",
-        "neat-mcq-06"
+        "neat-mcq-11",
+        "neat-reviewed-8da2451169",
+        "neat-mcq-09"
       ],
       "explanation": "本句的「neat appearance」指「整齊衣着」。",
       "sentenceIndex": 4,
@@ -386,12 +404,10 @@ export default {
         "neat appearance"
       ],
       "optionReasons": {
-        "neat-mcq-02": "本句指「整齊衣着」。",
-        "neat-mcq-01": "「整潔的；俐落的」與本句語境不同。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。"
+        "neat-mcq-02": "本句的「neat appearance」指「整齊衣着」。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-8da2451169": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-02"
     },
@@ -403,11 +419,9 @@ export default {
       "masked": "His desk is always ____.",
       "options": [
         "neat-mcq-03",
-        "neat-mcq-02",
-        "neat-mcq-04",
-        "neat-mcq-01",
-        "neat-mcq-05",
-        "neat-mcq-06"
+        "neat-mcq-09",
+        "neat-mcq-11",
+        "neat-mcq-14"
       ],
       "explanation": "本句的「neat」指「整齊房間／桌面」。",
       "sentenceIndex": 5,
@@ -416,12 +430,10 @@ export default {
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-03": "本句指「整齊房間／桌面」。",
-        "neat-mcq-02": "「整齊衣着」與本句語境不同。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-01": "「整潔的；俐落的」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。"
+        "neat-mcq-03": "本句的「neat」指「整齊房間／桌面」。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-03"
     },
@@ -433,11 +445,9 @@ export default {
       "masked": "She keeps her room ____.",
       "options": [
         "neat-mcq-03",
-        "neat-mcq-02",
-        "neat-mcq-04",
-        "neat-mcq-01",
-        "neat-mcq-05",
-        "neat-mcq-06"
+        "neat-mcq-14",
+        "neat-mcq-10",
+        "neat-reviewed-5e64a05854"
       ],
       "explanation": "本句的「neat and tidy」指「整齊房間／桌面」。",
       "sentenceIndex": 6,
@@ -446,12 +456,10 @@ export default {
         "neat and tidy"
       ],
       "optionReasons": {
-        "neat-mcq-03": "本句指「整齊房間／桌面」。",
-        "neat-mcq-02": "「整齊衣着」與本句語境不同。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-01": "「整潔的；俐落的」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。"
+        "neat-mcq-03": "本句的「neat and tidy」指「整齊房間／桌面」。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-03"
     },
@@ -463,11 +471,9 @@ export default {
       "masked": "She has very ____.",
       "options": [
         "neat-mcq-04",
-        "neat-mcq-03",
-        "neat-mcq-05",
-        "neat-mcq-02",
-        "neat-mcq-06",
-        "neat-mcq-01"
+        "neat-reviewed-8da2451169",
+        "neat-mcq-14",
+        "neat-mcq-09"
       ],
       "explanation": "本句的「neat handwriting」指「工整字跡」。",
       "sentenceIndex": 7,
@@ -476,12 +482,10 @@ export default {
         "neat handwriting"
       ],
       "optionReasons": {
-        "neat-mcq-04": "本句指「工整字跡」。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-02": "「整齊衣着」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。",
-        "neat-mcq-01": "「整潔的；俐落的」與本句語境不同。"
+        "neat-mcq-04": "本句的「neat handwriting」指「工整字跡」。",
+        "neat-reviewed-8da2451169": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-04"
     },
@@ -493,11 +497,9 @@ export default {
       "masked": "Please write your answers in ____.",
       "options": [
         "neat-mcq-04",
-        "neat-mcq-03",
-        "neat-mcq-05",
-        "neat-mcq-02",
-        "neat-mcq-06",
-        "neat-mcq-01"
+        "neat-mcq-14",
+        "neat-mcq-10",
+        "neat-mcq-11"
       ],
       "explanation": "本句的「neat handwriting」指「工整字跡」。",
       "sentenceIndex": 8,
@@ -506,12 +508,10 @@ export default {
         "neat handwriting"
       ],
       "optionReasons": {
-        "neat-mcq-04": "本句指「工整字跡」。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-02": "「整齊衣着」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。",
-        "neat-mcq-01": "「整潔的；俐落的」與本句語境不同。"
+        "neat-mcq-04": "本句的「neat handwriting」指「工整字跡」。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-04"
     },
@@ -523,11 +523,9 @@ export default {
       "masked": "The books were stacked in a ____.",
       "options": [
         "neat-mcq-05",
-        "neat-mcq-04",
-        "neat-mcq-06",
-        "neat-mcq-03",
-        "neat-mcq-07",
-        "neat-mcq-02"
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-09",
+        "neat-mcq-11"
       ],
       "explanation": "本句的「neat pile」指「整齊排列」。",
       "sentenceIndex": 9,
@@ -536,12 +534,10 @@ export default {
         "neat pile"
       ],
       "optionReasons": {
-        "neat-mcq-05": "本句指「整齊排列」。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-02": "「整齊衣着」與本句語境不同。"
+        "neat-mcq-05": "本句的「neat pile」指「整齊排列」。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-05"
     },
@@ -553,11 +549,9 @@ export default {
       "masked": "The chairs were arranged in ____.",
       "options": [
         "neat-mcq-05",
-        "neat-mcq-04",
-        "neat-mcq-06",
-        "neat-mcq-03",
-        "neat-mcq-07",
-        "neat-mcq-02"
+        "neat-mcq-14",
+        "neat-mcq-09",
+        "neat-mcq-11"
       ],
       "explanation": "本句的「neat rows」指「整齊排列」。",
       "sentenceIndex": 10,
@@ -566,12 +560,10 @@ export default {
         "neat rows"
       ],
       "optionReasons": {
-        "neat-mcq-05": "本句指「整齊排列」。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-02": "「整齊衣着」與本句語境不同。"
+        "neat-mcq-05": "本句的「neat rows」指「整齊排列」。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-05"
     },
@@ -583,11 +575,9 @@ export default {
       "masked": "The papers were ____ on the desk.",
       "options": [
         "neat-mcq-06",
-        "neat-mcq-05",
-        "neat-mcq-07",
-        "neat-mcq-04",
-        "neat-mcq-08",
-        "neat-mcq-03"
+        "neat-mcq-10",
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-14"
       ],
       "explanation": "本句的「neatly arranged」指「穿着整潔」。",
       "sentenceIndex": 11,
@@ -596,12 +586,10 @@ export default {
         "neatly arranged"
       ],
       "optionReasons": {
-        "neat-mcq-06": "本句指「穿着整潔」。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。"
+        "neat-mcq-06": "本句的「neatly arranged」指「穿着整潔」。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-06"
     },
@@ -613,11 +601,9 @@ export default {
       "masked": "He was ____ in a plain shirt and dark trousers.",
       "options": [
         "neat-mcq-06",
-        "neat-mcq-05",
-        "neat-mcq-07",
-        "neat-mcq-04",
-        "neat-mcq-08",
-        "neat-mcq-03"
+        "neat-mcq-14",
+        "neat-mcq-11",
+        "neat-mcq-09"
       ],
       "explanation": "本句的「neatly dressed」指「穿着整潔」。",
       "sentenceIndex": 12,
@@ -626,12 +612,10 @@ export default {
         "neatly dressed"
       ],
       "optionReasons": {
-        "neat-mcq-06": "本句指「穿着整潔」。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-04": "「工整字跡」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。",
-        "neat-mcq-03": "「整齊房間／桌面」與本句語境不同。"
+        "neat-mcq-06": "本句的「neatly dressed」指「穿着整潔」。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-06"
     },
@@ -643,11 +627,9 @@ export default {
       "masked": "That's a ____ to the problem.",
       "options": [
         "neat-mcq-08",
-        "neat-mcq-07",
-        "neat-mcq-09",
-        "neat-mcq-06",
-        "neat-mcq-10",
-        "neat-mcq-05"
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-11",
+        "neat-mcq-04"
       ],
       "explanation": "本句的「neat solution」指「巧妙簡潔的解決方法」。",
       "sentenceIndex": 15,
@@ -656,12 +638,10 @@ export default {
         "neat solution"
       ],
       "optionReasons": {
-        "neat-mcq-08": "本句指「巧妙簡潔的解決方法」。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。"
+        "neat-mcq-08": "本句的「neat solution」指「巧妙簡潔的解決方法」。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-08"
     },
@@ -673,11 +653,9 @@ export default {
       "masked": "The engineer came up with a ____ to reduce waste.",
       "options": [
         "neat-mcq-08",
-        "neat-mcq-07",
-        "neat-mcq-09",
-        "neat-mcq-06",
-        "neat-mcq-10",
-        "neat-mcq-05"
+        "neat-mcq-15",
+        "neat-mcq-14",
+        "neat-reviewed-5e64a05854"
       ],
       "explanation": "本句的「neat way」指「巧妙簡潔的解決方法」。",
       "sentenceIndex": 16,
@@ -686,12 +664,10 @@ export default {
         "neat way"
       ],
       "optionReasons": {
-        "neat-mcq-08": "本句指「巧妙簡潔的解決方法」。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-05": "「整齊排列」與本句語境不同。"
+        "neat-mcq-08": "本句的「neat way」指「巧妙簡潔的解決方法」。",
+        "neat-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-08"
     },
@@ -703,11 +679,9 @@ export default {
       "masked": "That's a ____.",
       "options": [
         "neat-mcq-09",
-        "neat-mcq-08",
-        "neat-mcq-10",
-        "neat-mcq-07",
         "neat-mcq-11",
-        "neat-mcq-06"
+        "neat-mcq-16",
+        "neat-reviewed-8da2451169"
       ],
       "explanation": "本句的「neat idea」指「巧妙想法」。",
       "sentenceIndex": 17,
@@ -716,12 +690,10 @@ export default {
         "neat idea"
       ],
       "optionReasons": {
-        "neat-mcq-09": "本句指「巧妙想法」。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。"
+        "neat-mcq-09": "本句的「neat idea」指「巧妙想法」。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-8da2451169": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-09"
     },
@@ -733,11 +705,9 @@ export default {
       "masked": "She had a ____ for organising the files.",
       "options": [
         "neat-mcq-09",
-        "neat-mcq-08",
-        "neat-mcq-10",
-        "neat-mcq-07",
-        "neat-mcq-11",
-        "neat-mcq-06"
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-14",
+        "neat-mcq-16"
       ],
       "explanation": "本句的「neat idea」指「巧妙想法」。",
       "sentenceIndex": 18,
@@ -746,12 +716,10 @@ export default {
         "neat idea"
       ],
       "optionReasons": {
-        "neat-mcq-09": "本句指「巧妙想法」。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。",
-        "neat-mcq-06": "「穿着整潔」與本句語境不同。"
+        "neat-mcq-09": "本句的「neat idea」指「巧妙想法」。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-09"
     },
@@ -763,11 +731,9 @@ export default {
       "masked": "Let me show you a ____.",
       "options": [
         "neat-mcq-10",
-        "neat-mcq-09",
-        "neat-mcq-11",
-        "neat-mcq-08",
-        "neat-mcq-12",
-        "neat-mcq-07"
+        "neat-mcq-06",
+        "neat-mcq-14",
+        "neat-reviewed-5e64a05854"
       ],
       "explanation": "本句的「neat trick」指「巧妙技巧」。",
       "sentenceIndex": 19,
@@ -776,12 +742,10 @@ export default {
         "neat trick"
       ],
       "optionReasons": {
-        "neat-mcq-10": "本句指「巧妙技巧」。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。"
+        "neat-mcq-10": "本句的「neat trick」指「巧妙技巧」。",
+        "neat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-10"
     },
@@ -793,11 +757,9 @@ export default {
       "masked": "That's a ____ for remembering names.",
       "options": [
         "neat-mcq-10",
-        "neat-mcq-09",
-        "neat-mcq-11",
-        "neat-mcq-08",
-        "neat-mcq-12",
-        "neat-mcq-07"
+        "neat-mcq-03",
+        "neat-mcq-06",
+        "neat-mcq-14"
       ],
       "explanation": "本句的「neat trick」指「巧妙技巧」。",
       "sentenceIndex": 20,
@@ -806,12 +768,10 @@ export default {
         "neat trick"
       ],
       "optionReasons": {
-        "neat-mcq-10": "本句指「巧妙技巧」。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-07": "「俐落精準的切口／工作」與本句語境不同。"
+        "neat-mcq-10": "本句的「neat trick」指「巧妙技巧」。",
+        "neat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-10"
     },
@@ -824,10 +784,8 @@ export default {
       "options": [
         "neat-mcq-11",
         "neat-mcq-10",
-        "neat-mcq-12",
-        "neat-mcq-09",
-        "neat-mcq-13",
-        "neat-mcq-08"
+        "neat-reviewed-8da2451169",
+        "neat-mcq-16"
       ],
       "explanation": "本句的「neat」指「很酷／很不錯」。",
       "sentenceIndex": 21,
@@ -836,12 +794,10 @@ export default {
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-11": "本句指「很酷／很不錯」。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。"
+        "neat-mcq-11": "本句的「neat」指「很酷／很不錯」。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-8da2451169": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-11"
     },
@@ -853,11 +809,9 @@ export default {
       "masked": "Your new camera is pretty ____.",
       "options": [
         "neat-mcq-11",
-        "neat-mcq-10",
-        "neat-mcq-12",
-        "neat-mcq-09",
-        "neat-mcq-13",
-        "neat-mcq-08"
+        "neat-mcq-16",
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-10"
       ],
       "explanation": "本句的「neat」指「很酷／很不錯」。",
       "sentenceIndex": 22,
@@ -866,134 +820,124 @@ export default {
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-11": "本句指「很酷／很不錯」。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。"
+        "neat-mcq-11": "本句的「neat」指「很酷／很不錯」。",
+        "neat-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-11"
     },
     {
       "id": "neat-12-0",
-      "sense": "neat-mcq-11",
+      "sense": "neat-reviewed-8da2451169",
       "en": "He ordered the whisky neat.",
       "zh": "他點了純飲威士忌，不加冰也不加水。",
       "masked": "He ordered the whisky ____.",
       "options": [
+        "neat-reviewed-8da2451169",
         "neat-mcq-11",
-        "neat-mcq-10",
-        "neat-mcq-12",
-        "neat-mcq-09",
-        "neat-mcq-13",
-        "neat-mcq-08"
+        "neat-mcq-04",
+        "neat-mcq-03"
       ],
-      "explanation": "本句的「neat」指「很酷／很不錯」。",
+      "explanation": "對照完整句子：「他點了純飲威士忌，不加冰也不加水。」。這裡的「neat」表示「酒類不加水、冰塊、汽水或其他飲料直接飲用的」。",
       "sentenceIndex": 23,
       "sourcePractice": 1,
       "targets": [
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-11": "本句指「很酷／很不錯」。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。"
+        "neat-reviewed-8da2451169": "對照完整句子：「他點了純飲威士忌，不加冰也不加水。」。這裡的「neat」表示「酒類不加水、冰塊、汽水或其他飲料直接飲用的」。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "neat-mcq-11"
+      "correctOption": "neat-reviewed-8da2451169",
+      "previousCorrectOption": "neat-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "neat-12-1",
-      "sense": "neat-mcq-11",
+      "sense": "neat-reviewed-8da2451169",
       "en": "She prefers brandy neat.",
       "zh": "她喜歡純飲白蘭地。",
       "masked": "She prefers brandy ____.",
       "options": [
-        "neat-mcq-11",
+        "neat-reviewed-8da2451169",
+        "neat-mcq-06",
         "neat-mcq-10",
-        "neat-mcq-12",
-        "neat-mcq-09",
-        "neat-mcq-13",
-        "neat-mcq-08"
+        "neat-mcq-14"
       ],
-      "explanation": "本句的「neat」指「很酷／很不錯」。",
+      "explanation": "對照完整句子：「她喜歡純飲白蘭地。」。這裡的「neat」表示「酒類不加水、冰塊、汽水或其他飲料直接飲用的」。",
       "sentenceIndex": 24,
       "sourcePractice": 2,
       "targets": [
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-11": "本句指「很酷／很不錯」。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。"
+        "neat-reviewed-8da2451169": "對照完整句子：「她喜歡純飲白蘭地。」。這裡的「neat」表示「酒類不加水、冰塊、汽水或其他飲料直接飲用的」。",
+        "neat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "neat-mcq-11"
+      "correctOption": "neat-reviewed-8da2451169",
+      "previousCorrectOption": "neat-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "neat-13-0",
-      "sense": "neat-mcq-11",
+      "sense": "neat-reviewed-5e64a05854",
       "en": "Do not use the chemical neat on your skin.",
       "zh": "不要把這種化學品未經稀釋直接使用在皮膚上。",
       "masked": "Do not use the chemical ____ on your skin.",
       "options": [
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-03",
         "neat-mcq-11",
-        "neat-mcq-10",
-        "neat-mcq-12",
-        "neat-mcq-09",
-        "neat-mcq-13",
-        "neat-mcq-08"
+        "neat-mcq-09"
       ],
-      "explanation": "本句的「neat」指「很酷／很不錯」。",
+      "explanation": "對照完整句子：「不要把這種化學品未經稀釋直接使用在皮膚上。」。這裡的「neat」表示「未經稀釋、混合或添加其他物質的」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-11": "本句指「很酷／很不錯」。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。"
+        "neat-reviewed-5e64a05854": "對照完整句子：「不要把這種化學品未經稀釋直接使用在皮膚上。」。這裡的「neat」表示「未經稀釋、混合或添加其他物質的」。",
+        "neat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "neat-mcq-11"
+      "correctOption": "neat-reviewed-5e64a05854",
+      "previousCorrectOption": "neat-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "neat-13-1",
-      "sense": "neat-mcq-11",
+      "sense": "neat-reviewed-5e64a05854",
       "en": "The solution should not be applied neat.",
       "zh": "這種溶液不應以原液形式直接使用。",
       "masked": "The solution should not be applied ____.",
       "options": [
-        "neat-mcq-11",
-        "neat-mcq-10",
-        "neat-mcq-12",
+        "neat-reviewed-5e64a05854",
+        "neat-mcq-02",
         "neat-mcq-09",
-        "neat-mcq-13",
-        "neat-mcq-08"
+        "neat-mcq-11"
       ],
-      "explanation": "本句的「neat」指「很酷／很不錯」。",
+      "explanation": "對照完整句子：「這種溶液不應以原液形式直接使用。」。這裡的「neat」表示「未經稀釋、混合或添加其他物質的」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "neat"
       ],
       "optionReasons": {
-        "neat-mcq-11": "本句指「很酷／很不錯」。",
-        "neat-mcq-10": "「巧妙技巧」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-09": "「巧妙想法」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-08": "「巧妙簡潔的解決方法」與本句語境不同。"
+        "neat-reviewed-5e64a05854": "對照完整句子：「這種溶液不應以原液形式直接使用。」。這裡的「neat」表示「未經稀釋、混合或添加其他物質的」。",
+        "neat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "neat-mcq-11"
+      "correctOption": "neat-reviewed-5e64a05854",
+      "previousCorrectOption": "neat-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "neat-14-0",
@@ -1003,10 +947,8 @@ export default {
       "masked": "The box is a ____ in the cupboard.",
       "options": [
         "neat-mcq-14",
-        "neat-mcq-13",
-        "neat-mcq-15",
-        "neat-mcq-12",
-        "neat-mcq-16",
+        "neat-mcq-05",
+        "neat-mcq-09",
         "neat-mcq-11"
       ],
       "explanation": "本句的「neat fit」指「剛好貼合」。",
@@ -1016,12 +958,10 @@ export default {
         "neat fit"
       ],
       "optionReasons": {
-        "neat-mcq-14": "本句指「剛好貼合」。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-15": "「整齊乾淨」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-16": "「整齊；整潔」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。"
+        "neat-mcq-14": "本句的「neat fit」指「剛好貼合」。",
+        "neat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-14"
     },
@@ -1033,10 +973,8 @@ export default {
       "masked": "The parts form a ____.",
       "options": [
         "neat-mcq-14",
-        "neat-mcq-13",
-        "neat-mcq-15",
-        "neat-mcq-12",
-        "neat-mcq-16",
+        "neat-mcq-05",
+        "neat-mcq-10",
         "neat-mcq-11"
       ],
       "explanation": "本句的「neat fit」指「剛好貼合」。",
@@ -1046,12 +984,10 @@ export default {
         "neat fit"
       ],
       "optionReasons": {
-        "neat-mcq-14": "本句指「剛好貼合」。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-15": "「整齊乾淨」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-16": "「整齊；整潔」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。"
+        "neat-mcq-14": "本句的「neat fit」指「剛好貼合」。",
+        "neat-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-14"
     },
@@ -1063,10 +999,8 @@ export default {
       "masked": "Keep your desk ____.",
       "options": [
         "neat-mcq-15",
+        "neat-reviewed-8da2451169",
         "neat-mcq-14",
-        "neat-mcq-16",
-        "neat-mcq-13",
-        "neat-mcq-12",
         "neat-mcq-11"
       ],
       "explanation": "本句的「neat and tidy」指「整齊乾淨」。",
@@ -1076,12 +1010,10 @@ export default {
         "neat and tidy"
       ],
       "optionReasons": {
-        "neat-mcq-15": "本句指「整齊乾淨」。",
-        "neat-mcq-14": "「剛好貼合」與本句語境不同。",
-        "neat-mcq-16": "「整齊；整潔」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。"
+        "neat-mcq-15": "本句的「neat and tidy」指「整齊乾淨」。",
+        "neat-reviewed-8da2451169": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-15"
     },
@@ -1093,11 +1025,9 @@ export default {
       "masked": "The classroom was always ____.",
       "options": [
         "neat-mcq-15",
-        "neat-mcq-14",
-        "neat-mcq-16",
-        "neat-mcq-13",
-        "neat-mcq-12",
-        "neat-mcq-11"
+        "neat-mcq-11",
+        "neat-mcq-09",
+        "neat-reviewed-5e64a05854"
       ],
       "explanation": "本句的「neat and tidy」指「整齊乾淨」。",
       "sentenceIndex": 30,
@@ -1106,12 +1036,10 @@ export default {
         "neat and tidy"
       ],
       "optionReasons": {
-        "neat-mcq-15": "本句指「整齊乾淨」。",
-        "neat-mcq-14": "「剛好貼合」與本句語境不同。",
-        "neat-mcq-16": "「整齊；整潔」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。"
+        "neat-mcq-15": "本句的「neat and tidy」指「整齊乾淨」。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-5e64a05854": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-15"
     },
@@ -1123,11 +1051,9 @@ export default {
       "masked": "The teacher praised the ____ of her work.",
       "options": [
         "neat-mcq-16",
-        "neat-mcq-15",
+        "neat-mcq-11",
         "neat-mcq-14",
-        "neat-mcq-13",
-        "neat-mcq-12",
-        "neat-mcq-11"
+        "neat-mcq-09"
       ],
       "explanation": "本句的「neatness」指「整齊；整潔」。",
       "sentenceIndex": 31,
@@ -1136,12 +1062,10 @@ export default {
         "neatness"
       ],
       "optionReasons": {
-        "neat-mcq-16": "本句指「整齊；整潔」。",
-        "neat-mcq-15": "「整齊乾淨」與本句語境不同。",
-        "neat-mcq-14": "「剛好貼合」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。"
+        "neat-mcq-16": "本句的「neatness」指「整齊；整潔」。",
+        "neat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-16"
     },
@@ -1153,11 +1077,9 @@ export default {
       "masked": "He is known for the ____ of his desk.",
       "options": [
         "neat-mcq-16",
-        "neat-mcq-15",
+        "neat-mcq-10",
         "neat-mcq-14",
-        "neat-mcq-13",
-        "neat-mcq-12",
-        "neat-mcq-11"
+        "neat-reviewed-8da2451169"
       ],
       "explanation": "本句的「neatness」指「整齊；整潔」。",
       "sentenceIndex": 32,
@@ -1166,12 +1088,10 @@ export default {
         "neatness"
       ],
       "optionReasons": {
-        "neat-mcq-16": "本句指「整齊；整潔」。",
-        "neat-mcq-15": "「整齊乾淨」與本句語境不同。",
-        "neat-mcq-14": "「剛好貼合」與本句語境不同。",
-        "neat-mcq-13": "「原液直接使用」與本句語境不同。",
-        "neat-mcq-12": "「純飲威士忌」與本句語境不同。",
-        "neat-mcq-11": "「很酷／很不錯」與本句語境不同。"
+        "neat-mcq-16": "本句的「neatness」指「整齊；整潔」。",
+        "neat-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "neat-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "neat-reviewed-8da2451169": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "neat-mcq-16"
     }
@@ -1183,5 +1103,7 @@ export default {
     "sha256": "f3825b5ac2e195c4a820a317e33f4da59c2aa4aecb26f5cb59b2aab04e4613c4",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

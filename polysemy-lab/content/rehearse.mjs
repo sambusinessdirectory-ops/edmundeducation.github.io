@@ -1291,11 +1291,9 @@ export default {
       "masked": "We ____ the scene several times.",
       "options": [
         "rehearse-mcq-01",
-        "rehearse-mcq-02",
-        "rehearse-mcq-03",
-        "rehearse-mcq-04",
-        "rehearse-mcq-05",
-        "rehearse-mcq-06"
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-63",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsed」指「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」。",
       "sentenceIndex": 0,
@@ -1304,12 +1302,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-01": "本句指「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」。",
-        "rehearse-mcq-02": "「排練戲劇中的一個場景」與本句語境不同。",
-        "rehearse-mcq-03": "「在正式上演前排練戲劇」與本句語境不同。",
-        "rehearse-mcq-04": "「為正式表演作練習」與本句語境不同。",
-        "rehearse-mcq-05": "「練習如何演繹某一角色」與本句語境不同。",
-        "rehearse-mcq-06": "「反覆練習自己要說的台詞」與本句語境不同。"
+        "rehearse-mcq-01": "本句的「rehearsed」指「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-01"
     },
@@ -1321,11 +1317,9 @@ export default {
       "masked": "The students ____ until the dialogue felt natural.",
       "options": [
         "rehearse-mcq-01",
-        "rehearse-mcq-02",
-        "rehearse-mcq-03",
-        "rehearse-mcq-04",
-        "rehearse-mcq-05",
-        "rehearse-mcq-06"
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-63",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsed」指「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」。",
       "sentenceIndex": 1,
@@ -1334,12 +1328,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-01": "本句指「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」。",
-        "rehearse-mcq-02": "「排練戲劇中的一個場景」與本句語境不同。",
-        "rehearse-mcq-03": "「在正式上演前排練戲劇」與本句語境不同。",
-        "rehearse-mcq-04": "「為正式表演作練習」與本句語境不同。",
-        "rehearse-mcq-05": "「練習如何演繹某一角色」與本句語境不同。",
-        "rehearse-mcq-06": "「反覆練習自己要說的台詞」與本句語境不同。"
+        "rehearse-mcq-01": "本句的「rehearsed」指「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-01"
     },
@@ -1351,11 +1343,9 @@ export default {
       "masked": "The actors ____ the final scene.",
       "options": [
         "rehearse-mcq-02",
-        "rehearse-mcq-01",
-        "rehearse-mcq-03",
-        "rehearse-mcq-04",
-        "rehearse-mcq-05",
-        "rehearse-mcq-06"
+        "rehearse-mcq-21",
+        "rehearse-mcq-63",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsed」指「排練戲劇中的一個場景」。",
       "sentenceIndex": 2,
@@ -1364,12 +1354,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-02": "本句指「排練戲劇中的一個場景」。",
-        "rehearse-mcq-01": "「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」與本句語境不同。",
-        "rehearse-mcq-03": "「在正式上演前排練戲劇」與本句語境不同。",
-        "rehearse-mcq-04": "「為正式表演作練習」與本句語境不同。",
-        "rehearse-mcq-05": "「練習如何演繹某一角色」與本句語境不同。",
-        "rehearse-mcq-06": "「反覆練習自己要說的台詞」與本句語境不同。"
+        "rehearse-mcq-02": "本句的「rehearsed」指「排練戲劇中的一個場景」。",
+        "rehearse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-02"
     },
@@ -1381,11 +1369,9 @@ export default {
       "masked": "The class spent two weeks ____ the play.",
       "options": [
         "rehearse-mcq-03",
-        "rehearse-mcq-02",
-        "rehearse-mcq-04",
-        "rehearse-mcq-01",
-        "rehearse-mcq-05",
-        "rehearse-mcq-06"
+        "rehearse-mcq-63",
+        "rehearse-mcq-56",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsing」指「在正式上演前排練戲劇」。",
       "sentenceIndex": 3,
@@ -1394,12 +1380,10 @@ export default {
         "rehearsing"
       ],
       "optionReasons": {
-        "rehearse-mcq-03": "本句指「在正式上演前排練戲劇」。",
-        "rehearse-mcq-02": "「排練戲劇中的一個場景」與本句語境不同。",
-        "rehearse-mcq-04": "「為正式表演作練習」與本句語境不同。",
-        "rehearse-mcq-01": "「在正式表演／呈現前反覆練習場景、角色、台詞和動作；排練」與本句語境不同。",
-        "rehearse-mcq-05": "「練習如何演繹某一角色」與本句語境不同。",
-        "rehearse-mcq-06": "「反覆練習自己要說的台詞」與本句語境不同。"
+        "rehearse-mcq-03": "本句的「rehearsing」指「在正式上演前排練戲劇」。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-03"
     },
@@ -1411,11 +1395,9 @@ export default {
       "masked": "She spent the afternoon ____ her role.",
       "options": [
         "rehearse-mcq-05",
-        "rehearse-mcq-04",
-        "rehearse-mcq-06",
-        "rehearse-mcq-03",
-        "rehearse-mcq-07",
-        "rehearse-mcq-02"
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-63",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsing」指「練習如何演繹某一角色」。",
       "sentenceIndex": 4,
@@ -1424,12 +1406,10 @@ export default {
         "rehearsing"
       ],
       "optionReasons": {
-        "rehearse-mcq-05": "本句指「練習如何演繹某一角色」。",
-        "rehearse-mcq-04": "「為正式表演作練習」與本句語境不同。",
-        "rehearse-mcq-06": "「反覆練習自己要說的台詞」與本句語境不同。",
-        "rehearse-mcq-03": "「在正式上演前排練戲劇」與本句語境不同。",
-        "rehearse-mcq-07": "「練習角色之間的對白」與本句語境不同。",
-        "rehearse-mcq-02": "「排練戲劇中的一個場景」與本句語境不同。"
+        "rehearse-mcq-05": "本句的「rehearsing」指「練習如何演繹某一角色」。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-05"
     },
@@ -1441,11 +1421,9 @@ export default {
       "masked": "He was backstage ____ his lines.",
       "options": [
         "rehearse-mcq-06",
-        "rehearse-mcq-05",
-        "rehearse-mcq-07",
-        "rehearse-mcq-04",
-        "rehearse-mcq-08",
-        "rehearse-mcq-03"
+        "rehearse-mcq-15",
+        "rehearse-mcq-63",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsing」指「反覆練習自己要說的台詞」。",
       "sentenceIndex": 5,
@@ -1454,12 +1432,10 @@ export default {
         "rehearsing"
       ],
       "optionReasons": {
-        "rehearse-mcq-06": "本句指「反覆練習自己要說的台詞」。",
-        "rehearse-mcq-05": "「練習如何演繹某一角色」與本句語境不同。",
-        "rehearse-mcq-07": "「練習角色之間的對白」與本句語境不同。",
-        "rehearse-mcq-04": "「為正式表演作練習」與本句語境不同。",
-        "rehearse-mcq-08": "「與其他演員／表演者共同排練」與本句語境不同。",
-        "rehearse-mcq-03": "「在正式上演前排練戲劇」與本句語境不同。"
+        "rehearse-mcq-06": "本句的「rehearsing」指「反覆練習自己要說的台詞」。",
+        "rehearse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-06"
     },
@@ -1471,11 +1447,9 @@ export default {
       "masked": "The musicians ____ the piece all morning.",
       "options": [
         "rehearse-mcq-10",
-        "rehearse-mcq-09",
-        "rehearse-mcq-11",
-        "rehearse-mcq-08",
-        "rehearse-mcq-12",
-        "rehearse-mcq-07"
+        "rehearse-mcq-61",
+        "rehearse-mcq-56",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsed」指「正式演奏前排練音樂作品」。",
       "sentenceIndex": 8,
@@ -1484,12 +1458,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-10": "本句指「正式演奏前排練音樂作品」。",
-        "rehearse-mcq-09": "「為某場正式表演進行排練」與本句語境不同。",
-        "rehearse-mcq-11": "「指揮／帶領合唱團或樂團排練」與本句語境不同。",
-        "rehearse-mcq-08": "「與其他演員／表演者共同排練」與本句語境不同。",
-        "rehearse-mcq-12": "「導演／教師帶領演員進行排練」與本句語境不同。",
-        "rehearse-mcq-07": "「練習角色之間的對白」與本句語境不同。"
+        "rehearse-mcq-10": "本句的「rehearsed」指「正式演奏前排練音樂作品」。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-10"
     },
@@ -1501,11 +1473,9 @@ export default {
       "masked": "The conductor ____ the orchestra for three hours.",
       "options": [
         "rehearse-mcq-11",
-        "rehearse-mcq-10",
-        "rehearse-mcq-12",
-        "rehearse-mcq-09",
-        "rehearse-mcq-13",
-        "rehearse-mcq-08"
+        "rehearse-mcq-15",
+        "rehearse-mcq-63",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsed」指「指揮／帶領合唱團或樂團排練」。",
       "sentenceIndex": 10,
@@ -1514,12 +1484,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-11": "本句指「指揮／帶領合唱團或樂團排練」。",
-        "rehearse-mcq-10": "「正式演奏前排練音樂作品」與本句語境不同。",
-        "rehearse-mcq-12": "「導演／教師帶領演員進行排練」與本句語境不同。",
-        "rehearse-mcq-09": "「為某場正式表演進行排練」與本句語境不同。",
-        "rehearse-mcq-13": "「排練舞蹈／編舞動作」與本句語境不同。",
-        "rehearse-mcq-08": "「與其他演員／表演者共同排練」與本句語境不同。"
+        "rehearse-mcq-11": "本句的「rehearsed」指「指揮／帶領合唱團或樂團排練」。",
+        "rehearse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-11"
     },
@@ -1531,11 +1499,9 @@ export default {
       "masked": "The director ____ the actors intensively.",
       "options": [
         "rehearse-mcq-12",
-        "rehearse-mcq-11",
-        "rehearse-mcq-13",
-        "rehearse-mcq-10",
-        "rehearse-mcq-14",
-        "rehearse-mcq-09"
+        "rehearse-mcq-71",
+        "rehearse-mcq-63",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsed」指「導演／教師帶領演員進行排練」。",
       "sentenceIndex": 11,
@@ -1544,12 +1510,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-12": "本句指「導演／教師帶領演員進行排練」。",
-        "rehearse-mcq-11": "「指揮／帶領合唱團或樂團排練」與本句語境不同。",
-        "rehearse-mcq-13": "「排練舞蹈／編舞動作」與本句語境不同。",
-        "rehearse-mcq-10": "「正式演奏前排練音樂作品」與本句語境不同。",
-        "rehearse-mcq-14": "「正式發言前預先練習演說」與本句語境不同。",
-        "rehearse-mcq-09": "「為某場正式表演進行排練」與本句語境不同。"
+        "rehearse-mcq-12": "本句的「rehearsed」指「導演／教師帶領演員進行排練」。",
+        "rehearse-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-12"
     },
@@ -1561,10 +1525,8 @@ export default {
       "masked": "She ____ her speech several times.",
       "options": [
         "rehearse-mcq-14",
-        "rehearse-mcq-13",
-        "rehearse-mcq-15",
-        "rehearse-mcq-12",
-        "rehearse-mcq-16",
+        "rehearse-mcq-63",
+        "rehearse-pdf-plain-138",
         "rehearse-mcq-11"
       ],
       "explanation": "本句的「rehearsed」指「正式發言前預先練習演說」。",
@@ -1574,12 +1536,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-14": "本句指「正式發言前預先練習演說」。",
-        "rehearse-mcq-13": "「排練舞蹈／編舞動作」與本句語境不同。",
-        "rehearse-mcq-15": "「正式匯報前預演簡報」與本句語境不同。",
-        "rehearse-mcq-12": "「導演／教師帶領演員進行排練」與本句語境不同。",
-        "rehearse-mcq-16": "「正式面試前模擬／預演面試」與本句語境不同。",
-        "rehearse-mcq-11": "「指揮／帶領合唱團或樂團排練」與本句語境不同。"
+        "rehearse-mcq-14": "本句的「rehearsed」指「正式發言前預先練習演說」。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-14"
     },
@@ -1591,11 +1551,9 @@ export default {
       "masked": "____ your presentation before the meeting.",
       "options": [
         "rehearse-mcq-15",
-        "rehearse-mcq-14",
-        "rehearse-mcq-16",
-        "rehearse-mcq-13",
-        "rehearse-mcq-17",
-        "rehearse-mcq-12"
+        "rehearse-mcq-57",
+        "rehearse-mcq-58",
+        "rehearse-mcq-61"
       ],
       "explanation": "本句的「Rehearse」指「正式匯報前預演簡報」。",
       "sentenceIndex": 13,
@@ -1604,12 +1562,10 @@ export default {
         "Rehearse"
       ],
       "optionReasons": {
-        "rehearse-mcq-15": "本句指「正式匯報前預演簡報」。",
-        "rehearse-mcq-14": "「正式發言前預先練習演說」與本句語境不同。",
-        "rehearse-mcq-16": "「正式面試前模擬／預演面試」與本句語境不同。",
-        "rehearse-mcq-13": "「排練舞蹈／編舞動作」與本句語境不同。",
-        "rehearse-mcq-17": "「事先反覆練習要作出的答案」與本句語境不同。",
-        "rehearse-mcq-12": "「導演／教師帶領演員進行排練」與本句語境不同。"
+        "rehearse-mcq-15": "本句的「Rehearse」指「正式匯報前預演簡報」。",
+        "rehearse-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-15"
     },
@@ -1621,11 +1577,9 @@ export default {
       "masked": "We ____ the interview together.",
       "options": [
         "rehearse-mcq-16",
-        "rehearse-mcq-15",
-        "rehearse-mcq-17",
-        "rehearse-mcq-14",
-        "rehearse-mcq-18",
-        "rehearse-mcq-13"
+        "rehearse-mcq-57",
+        "rehearse-mcq-61",
+        "rehearse-mcq-58"
       ],
       "explanation": "本句的「rehearsed」指「正式面試前模擬／預演面試」。",
       "sentenceIndex": 14,
@@ -1634,12 +1588,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-16": "本句指「正式面試前模擬／預演面試」。",
-        "rehearse-mcq-15": "「正式匯報前預演簡報」與本句語境不同。",
-        "rehearse-mcq-17": "「事先反覆練習要作出的答案」與本句語境不同。",
-        "rehearse-mcq-14": "「正式發言前預先練習演說」與本句語境不同。",
-        "rehearse-mcq-18": "「預先想好並練習要說的內容」與本句語境不同。",
-        "rehearse-mcq-13": "「排練舞蹈／編舞動作」與本句語境不同。"
+        "rehearse-mcq-16": "本句的「rehearsed」指「正式面試前模擬／預演面試」。",
+        "rehearse-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-16"
     },
@@ -1651,11 +1603,9 @@ export default {
       "masked": "He had clearly ____ his answer.",
       "options": [
         "rehearse-mcq-17",
-        "rehearse-mcq-16",
-        "rehearse-mcq-18",
-        "rehearse-mcq-15",
-        "rehearse-mcq-19",
-        "rehearse-mcq-14"
+        "rehearse-mcq-71",
+        "rehearse-mcq-63",
+        "rehearse-mcq-57"
       ],
       "explanation": "本句的「rehearsed」指「事先反覆練習要作出的答案」。",
       "sentenceIndex": 15,
@@ -1664,12 +1614,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-17": "本句指「事先反覆練習要作出的答案」。",
-        "rehearse-mcq-16": "「正式面試前模擬／預演面試」與本句語境不同。",
-        "rehearse-mcq-18": "「預先想好並練習要說的內容」與本句語境不同。",
-        "rehearse-mcq-15": "「正式匯報前預演簡報」與本句語境不同。",
-        "rehearse-mcq-19": "「在現實對話前先練習／模擬一次」與本句語境不同。",
-        "rehearse-mcq-14": "「正式發言前預先練習演說」與本句語境不同。"
+        "rehearse-mcq-17": "本句的「rehearsed」指「事先反覆練習要作出的答案」。",
+        "rehearse-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-17"
     },
@@ -1681,11 +1629,9 @@ export default {
       "masked": "She mentally ____ what she would say.",
       "options": [
         "rehearse-mcq-18",
-        "rehearse-mcq-17",
-        "rehearse-mcq-19",
-        "rehearse-mcq-16",
-        "rehearse-mcq-20",
-        "rehearse-mcq-15"
+        "rehearse-mcq-71",
+        "rehearse-pdf-plain-123",
+        "rehearse-mcq-11"
       ],
       "explanation": "本句的「rehearsed」指「預先想好並練習要說的內容」。",
       "sentenceIndex": 16,
@@ -1694,12 +1640,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-18": "本句指「預先想好並練習要說的內容」。",
-        "rehearse-mcq-17": "「事先反覆練習要作出的答案」與本句語境不同。",
-        "rehearse-mcq-19": "「在現實對話前先練習／模擬一次」與本句語境不同。",
-        "rehearse-mcq-16": "「正式面試前模擬／預演面試」與本句語境不同。",
-        "rehearse-mcq-20": "「預先練習遇到某情況時的回應」與本句語境不同。",
-        "rehearse-mcq-15": "「正式匯報前預演簡報」與本句語境不同。"
+        "rehearse-mcq-18": "本句的「rehearsed」指「預先想好並練習要說的內容」。",
+        "rehearse-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-18"
     },
@@ -1711,11 +1655,9 @@ export default {
       "masked": "He ____ the conversation in his head.",
       "options": [
         "rehearse-mcq-19",
-        "rehearse-mcq-18",
-        "rehearse-mcq-20",
-        "rehearse-mcq-17",
-        "rehearse-mcq-21",
-        "rehearse-mcq-16"
+        "rehearse-mcq-39",
+        "rehearse-mcq-63",
+        "rehearse-mcq-02"
       ],
       "explanation": "本句的「rehearsed」指「在現實對話前先練習／模擬一次」。",
       "sentenceIndex": 17,
@@ -1724,12 +1666,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-19": "本句指「在現實對話前先練習／模擬一次」。",
-        "rehearse-mcq-18": "「預先想好並練習要說的內容」與本句語境不同。",
-        "rehearse-mcq-20": "「預先練習遇到某情況時的回應」與本句語境不同。",
-        "rehearse-mcq-17": "「事先反覆練習要作出的答案」與本句語境不同。",
-        "rehearse-mcq-21": "「不實際行動，而在腦中預演言語／動作」與本句語境不同。",
-        "rehearse-mcq-16": "「正式面試前模擬／預演面試」與本句語境不同。"
+        "rehearse-mcq-19": "本句的「rehearsed」指「在現實對話前先練習／模擬一次」。",
+        "rehearse-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-19"
     },
@@ -1741,11 +1681,9 @@ export default {
       "masked": "Staff ____ their responses to difficult questions.",
       "options": [
         "rehearse-mcq-20",
-        "rehearse-mcq-19",
-        "rehearse-mcq-21",
-        "rehearse-mcq-18",
-        "rehearse-mcq-22",
-        "rehearse-mcq-17"
+        "rehearse-pdf-plain-123",
+        "rehearse-mcq-39",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsed」指「預先練習遇到某情況時的回應」。",
       "sentenceIndex": 18,
@@ -1754,12 +1692,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-20": "本句指「預先練習遇到某情況時的回應」。",
-        "rehearse-mcq-19": "「在現實對話前先練習／模擬一次」與本句語境不同。",
-        "rehearse-mcq-21": "「不實際行動，而在腦中預演言語／動作」與本句語境不同。",
-        "rehearse-mcq-18": "「預先想好並練習要說的內容」與本句語境不同。",
-        "rehearse-mcq-22": "「透過想像反覆練習未來表現的心理演練」與本句語境不同。",
-        "rehearse-mcq-17": "「事先反覆練習要作出的答案」與本句語境不同。"
+        "rehearse-mcq-20": "本句的「rehearsed」指「預先練習遇到某情況時的回應」。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-20"
     },
@@ -1771,11 +1707,9 @@ export default {
       "masked": "Before speaking, she mentally ____ the opening sentence.",
       "options": [
         "rehearse-mcq-21",
-        "rehearse-mcq-20",
-        "rehearse-mcq-22",
-        "rehearse-mcq-19",
-        "rehearse-mcq-23",
-        "rehearse-mcq-18"
+        "rehearse-mcq-61",
+        "rehearse-mcq-58",
+        "rehearse-mcq-11"
       ],
       "explanation": "本句的「rehearsed」指「不實際行動，而在腦中預演言語／動作」。",
       "sentenceIndex": 19,
@@ -1784,12 +1718,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-21": "本句指「不實際行動，而在腦中預演言語／動作」。",
-        "rehearse-mcq-20": "「預先練習遇到某情況時的回應」與本句語境不同。",
-        "rehearse-mcq-22": "「透過想像反覆練習未來表現的心理演練」與本句語境不同。",
-        "rehearse-mcq-19": "「在現實對話前先練習／模擬一次」與本句語境不同。",
-        "rehearse-mcq-23": "「在真實情況發生前演練一套程序」與本句語境不同。",
-        "rehearse-mcq-18": "「預先想好並練習要說的內容」與本句語境不同。"
+        "rehearse-mcq-21": "本句的「rehearsed」指「不實際行動，而在腦中預演言語／動作」。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-21"
     },
@@ -1801,11 +1733,9 @@ export default {
       "masked": "Athletes often use mental ____ before competition.",
       "options": [
         "rehearse-mcq-22",
-        "rehearse-mcq-21",
-        "rehearse-mcq-23",
-        "rehearse-mcq-20",
-        "rehearse-mcq-24",
-        "rehearse-mcq-19"
+        "rehearse-mcq-63",
+        "rehearse-mcq-29",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsal」指「透過想像反覆練習未來表現的心理演練」。",
       "sentenceIndex": 20,
@@ -1814,12 +1744,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-22": "本句指「透過想像反覆練習未來表現的心理演練」。",
-        "rehearse-mcq-21": "「不實際行動，而在腦中預演言語／動作」與本句語境不同。",
-        "rehearse-mcq-23": "「在真實情況發生前演練一套程序」與本句語境不同。",
-        "rehearse-mcq-20": "「預先練習遇到某情況時的回應」與本句語境不同。",
-        "rehearse-mcq-24": "「演練緊急事故時應採取的步驟」與本句語境不同。",
-        "rehearse-mcq-19": "「在現實對話前先練習／模擬一次」與本句語境不同。"
+        "rehearse-mcq-22": "本句的「rehearsal」指「透過想像反覆練習未來表現的心理演練」。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-22"
     },
@@ -1831,11 +1759,9 @@ export default {
       "masked": "Staff regularly ____ emergency procedures.",
       "options": [
         "rehearse-mcq-23",
-        "rehearse-mcq-22",
-        "rehearse-mcq-24",
-        "rehearse-mcq-21",
-        "rehearse-mcq-25",
-        "rehearse-mcq-20"
+        "rehearse-pdf-plain-123",
+        "rehearse-mcq-56",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearse」指「在真實情況發生前演練一套程序」。",
       "sentenceIndex": 21,
@@ -1844,12 +1770,10 @@ export default {
         "rehearse"
       ],
       "optionReasons": {
-        "rehearse-mcq-23": "本句指「在真實情況發生前演練一套程序」。",
-        "rehearse-mcq-22": "「透過想像反覆練習未來表現的心理演練」與本句語境不同。",
-        "rehearse-mcq-24": "「演練緊急事故時應採取的步驟」與本句語境不同。",
-        "rehearse-mcq-21": "「不實際行動，而在腦中預演言語／動作」與本句語境不同。",
-        "rehearse-mcq-25": "「預先演練如何處理緊急事故」與本句語境不同。",
-        "rehearse-mcq-20": "「預先練習遇到某情況時的回應」與本句語境不同。"
+        "rehearse-mcq-23": "本句的「rehearse」指「在真實情況發生前演練一套程序」。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-23"
     },
@@ -1861,11 +1785,9 @@ export default {
       "masked": "The hospital ____ its emergency response.",
       "options": [
         "rehearse-mcq-25",
-        "rehearse-mcq-24",
-        "rehearse-mcq-26",
-        "rehearse-mcq-23",
-        "rehearse-mcq-27",
-        "rehearse-mcq-22"
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-61",
+        "rehearse-mcq-29"
       ],
       "explanation": "本句的「rehearsed」指「預先演練如何處理緊急事故」。",
       "sentenceIndex": 22,
@@ -1874,12 +1796,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-25": "本句指「預先演練如何處理緊急事故」。",
-        "rehearse-mcq-24": "「演練緊急事故時應採取的步驟」與本句語境不同。",
-        "rehearse-mcq-26": "「演練疏散程序」與本句語境不同。",
-        "rehearse-mcq-23": "「在真實情況發生前演練一套程序」與本句語境不同。",
-        "rehearse-mcq-27": "「在真正需要前先演練應急方案」與本句語境不同。",
-        "rehearse-mcq-22": "「透過想像反覆練習未來表現的心理演練」與本句語境不同。"
+        "rehearse-mcq-25": "本句的「rehearsed」指「預先演練如何處理緊急事故」。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-25"
     },
@@ -1891,11 +1811,9 @@ export default {
       "masked": "The team ____ the launch process.",
       "options": [
         "rehearse-mcq-28",
-        "rehearse-mcq-27",
-        "rehearse-mcq-29",
-        "rehearse-mcq-26",
-        "rehearse-mcq-30",
-        "rehearse-mcq-25"
+        "rehearse-mcq-17",
+        "rehearse-mcq-02",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsed」指「正式執行前預演整個流程」。",
       "sentenceIndex": 23,
@@ -1904,12 +1822,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-28": "本句指「正式執行前預演整個流程」。",
-        "rehearse-mcq-27": "「在真正需要前先演練應急方案」與本句語境不同。",
-        "rehearse-mcq-29": "「正式舉行前彩排儀式」與本句語境不同。",
-        "rehearse-mcq-26": "「演練疏散程序」與本句語境不同。",
-        "rehearse-mcq-30": "「婚禮前預演儀式流程」與本句語境不同。",
-        "rehearse-mcq-25": "「預先演練如何處理緊急事故」與本句語境不同。"
+        "rehearse-mcq-28": "本句的「rehearsed」指「正式執行前預演整個流程」。",
+        "rehearse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-28"
     },
@@ -1921,11 +1837,9 @@ export default {
       "masked": "They ____ the wedding ceremony.",
       "options": [
         "rehearse-mcq-29",
-        "rehearse-mcq-28",
-        "rehearse-mcq-30",
-        "rehearse-mcq-27",
-        "rehearse-mcq-31",
-        "rehearse-mcq-26"
+        "rehearse-mcq-63",
+        "rehearse-mcq-17",
+        "rehearse-mcq-25"
       ],
       "explanation": "本句的「rehearsed」指「正式舉行前彩排儀式」。",
       "sentenceIndex": 24,
@@ -1934,12 +1848,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-29": "本句指「正式舉行前彩排儀式」。",
-        "rehearse-mcq-28": "「正式執行前預演整個流程」與本句語境不同。",
-        "rehearse-mcq-30": "「婚禮前預演儀式流程」與本句語境不同。",
-        "rehearse-mcq-27": "「在真正需要前先演練應急方案」與本句語境不同。",
-        "rehearse-mcq-31": "「尤其北美：婚禮彩排前後舉行的晚宴」與本句語境不同。",
-        "rehearse-mcq-26": "「演練疏散程序」與本句語境不同。"
+        "rehearse-mcq-29": "本句的「rehearsed」指「正式舉行前彩排儀式」。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-29"
     },
@@ -1951,11 +1863,9 @@ export default {
       "masked": "The founders ____ their investor pitch.",
       "options": [
         "rehearse-mcq-32",
-        "rehearse-mcq-31",
-        "rehearse-mcq-33",
-        "rehearse-mcq-30",
-        "rehearse-mcq-34",
-        "rehearse-mcq-29"
+        "rehearse-mcq-67",
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-11"
       ],
       "explanation": "本句的「rehearsed」指「正式推介／提案前預演內容」。",
       "sentenceIndex": 25,
@@ -1964,12 +1874,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-32": "本句指「正式推介／提案前預演內容」。",
-        "rehearse-mcq-31": "「尤其北美：婚禮彩排前後舉行的晚宴」與本句語境不同。",
-        "rehearse-mcq-33": "「正式辯論前預先演練自己的論點」與本句語境不同。",
-        "rehearse-mcq-30": "「婚禮前預演儀式流程」與本句語境不同。",
-        "rehearse-mcq-34": "「正式表演前的排練／彩排」與本句語境不同。",
-        "rehearse-mcq-29": "「正式舉行前彩排儀式」與本句語境不同。"
+        "rehearse-mcq-32": "本句的「rehearsed」指「正式推介／提案前預演內容」。",
+        "rehearse-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-32"
     },
@@ -1981,11 +1889,9 @@ export default {
       "masked": "She ____ her argument before the debate.",
       "options": [
         "rehearse-mcq-33",
-        "rehearse-mcq-32",
-        "rehearse-mcq-34",
-        "rehearse-mcq-31",
-        "rehearse-mcq-35",
-        "rehearse-mcq-30"
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-61",
+        "rehearse-mcq-02"
       ],
       "explanation": "本句的「rehearsed」指「正式辯論前預先演練自己的論點」。",
       "sentenceIndex": 26,
@@ -1994,12 +1900,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-33": "本句指「正式辯論前預先演練自己的論點」。",
-        "rehearse-mcq-32": "「正式推介／提案前預演內容」與本句語境不同。",
-        "rehearse-mcq-34": "「正式表演前的排練／彩排」與本句語境不同。",
-        "rehearse-mcq-31": "「尤其北美：婚禮彩排前後舉行的晚宴」與本句語境不同。",
-        "rehearse-mcq-35": "「一次正式安排的排練時段」與本句語境不同。",
-        "rehearse-mcq-30": "「婚禮前預演儀式流程」與本句語境不同。"
+        "rehearse-mcq-33": "本句的「rehearsed」指「正式辯論前預先演練自己的論點」。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-33"
     },
@@ -2011,11 +1915,9 @@ export default {
       "masked": "We have a ____ after school.",
       "options": [
         "rehearse-mcq-34",
-        "rehearse-mcq-78",
-        "rehearse-mcq-80",
-        "rehearse-mcq-77",
-        "rehearse-mcq-81",
-        "rehearse-mcq-76"
+        "rehearse-pdf-plain-123",
+        "rehearse-mcq-56",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsal」指「正式表演前的排練／彩排」。",
       "sentenceIndex": 27,
@@ -2024,12 +1926,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-34": "本句指「正式表演前的排練／彩排」。",
-        "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
-        "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
-        "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
-        "rehearse-mcq-81": "「練習」與本句語境不同。",
-        "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
+        "rehearse-mcq-34": "本句的「rehearsal」指「正式表演前的排練／彩排」。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-34"
     },
@@ -2041,11 +1941,9 @@ export default {
       "masked": "The final ____ went smoothly.",
       "options": [
         "rehearse-mcq-34",
-        "rehearse-mcq-78",
-        "rehearse-mcq-80",
-        "rehearse-mcq-77",
-        "rehearse-mcq-81",
-        "rehearse-mcq-76"
+        "rehearse-pdf-plain-123",
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsal」指「正式表演前的排練／彩排」。",
       "sentenceIndex": 28,
@@ -2054,12 +1952,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-34": "本句指「正式表演前的排練／彩排」。",
-        "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
-        "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
-        "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
-        "rehearse-mcq-81": "「練習」與本句語境不同。",
-        "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
+        "rehearse-mcq-34": "本句的「rehearsal」指「正式表演前的排練／彩排」。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-34"
     },
@@ -2071,11 +1967,9 @@ export default {
       "masked": "The dress ____ is tomorrow evening.",
       "options": [
         "rehearse-mcq-39",
-        "rehearse-mcq-38",
-        "rehearse-mcq-40",
-        "rehearse-mcq-37",
-        "rehearse-mcq-41",
-        "rehearse-mcq-36"
+        "rehearse-mcq-20",
+        "rehearse-pdf-plain-123",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsal」指「以服裝、舞台等接近正式演出條件進行的總彩排」。",
       "sentenceIndex": 30,
@@ -2084,12 +1978,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-39": "本句指「以服裝、舞台等接近正式演出條件進行的總彩排」。",
-        "rehearse-mcq-38": "「製作正式演出前的整段排練期」與本句語境不同。",
-        "rehearse-mcq-40": "「正式大型活動前非常接近真實情況的全面預演」與本句語境不同。",
-        "rehearse-mcq-37": "「排練日期、時間安排」與本句語境不同。",
-        "rehearse-mcq-41": "「主要處理燈光、音響、走位提示等技術元素的彩排」與本句語境不同。",
-        "rehearse-mcq-36": "「專供排練使用的房間／工作室」與本句語境不同。"
+        "rehearse-mcq-39": "本句的「rehearsal」指「以服裝、舞台等接近正式演出條件進行的總彩排」。",
+        "rehearse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-39"
     },
@@ -2101,11 +1993,9 @@ export default {
       "masked": "The smaller event served as a dress ____ for the main conference.",
       "options": [
         "rehearse-mcq-39",
-        "rehearse-mcq-38",
-        "rehearse-mcq-40",
-        "rehearse-mcq-37",
-        "rehearse-mcq-41",
-        "rehearse-mcq-36"
+        "rehearse-mcq-61",
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsal」指「以服裝、舞台等接近正式演出條件進行的總彩排」。",
       "sentenceIndex": 31,
@@ -2114,12 +2004,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-39": "本句指「以服裝、舞台等接近正式演出條件進行的總彩排」。",
-        "rehearse-mcq-38": "「製作正式演出前的整段排練期」與本句語境不同。",
-        "rehearse-mcq-40": "「正式大型活動前非常接近真實情況的全面預演」與本句語境不同。",
-        "rehearse-mcq-37": "「排練日期、時間安排」與本句語境不同。",
-        "rehearse-mcq-41": "「主要處理燈光、音響、走位提示等技術元素的彩排」與本句語境不同。",
-        "rehearse-mcq-36": "「專供排練使用的房間／工作室」與本句語境不同。"
+        "rehearse-mcq-39": "本句的「rehearsal」指「以服裝、舞台等接近正式演出條件進行的總彩排」。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-39"
     },
@@ -2131,11 +2019,9 @@ export default {
       "masked": "The director used the morning for blocking ____.",
       "options": [
         "rehearse-mcq-47",
-        "rehearse-mcq-46",
-        "rehearse-mcq-48",
-        "rehearse-mcq-45",
-        "rehearse-mcq-49",
-        "rehearse-mcq-44"
+        "rehearse-mcq-56",
+        "rehearse-pdf-plain-123",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsal」指「主要練習演員位置及移動路線的走位排練」。",
       "sentenceIndex": 32,
@@ -2144,12 +2030,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-47": "本句指「主要練習演員位置及移動路線的走位排練」。",
-        "rehearse-mcq-46": "「樂團只有某一樂器組／聲部參加的分部排練」與本句語境不同。",
-        "rehearse-mcq-48": "「演員共同朗讀劇本的讀劇／圍讀」與本句語境不同。",
-        "rehearse-mcq-45": "「容許觀眾／公眾旁觀的公開排練」與本句語境不同。",
-        "rehearse-mcq-49": "「演員坐在一起朗讀完整劇本的劇本圍讀」與本句語境不同。",
-        "rehearse-mcq-44": "「正式表演前最後一次排練」與本句語境不同。"
+        "rehearse-mcq-47": "本句的「rehearsal」指「主要練習演員位置及移動路線的走位排練」。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-47"
     },
@@ -2161,11 +2045,9 @@ export default {
       "masked": "His answer sounded like a ____ response.",
       "options": [
         "rehearse-mcq-55",
-        "rehearse-mcq-54",
-        "rehearse-mcq-56",
-        "rehearse-mcq-53",
-        "rehearse-mcq-57",
-        "rehearse-mcq-52"
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-63",
+        "rehearse-mcq-29"
       ],
       "explanation": "本句的「rehearsed」指「預先準備並練過的回答」。",
       "sentenceIndex": 34,
@@ -2174,12 +2056,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-55": "本句指「預先準備並練過的回答」。",
-        "rehearse-mcq-54": "「事先反覆練習過的演說」與本句語境不同。",
-        "rehearse-mcq-56": "「回答聽起來像預先背好，缺少自然感」與本句語境不同。",
-        "rehearse-mcq-53": "「已在正式場合前練習／準備過的」與本句語境不同。",
-        "rehearse-mcq-57": "「經充分排練、熟練準備的」與本句語境不同。",
-        "rehearse-mcq-52": "「用來測試程序、系統或活動是否可行的試運行」與本句語境不同。"
+        "rehearse-mcq-55": "本句的「rehearsed」指「預先準備並練過的回答」。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-55"
     },
@@ -2191,11 +2071,9 @@ export default {
       "masked": "Try not to sound ____ in the interview.",
       "options": [
         "rehearse-mcq-56",
-        "rehearse-mcq-55",
-        "rehearse-mcq-57",
-        "rehearse-mcq-54",
-        "rehearse-mcq-58",
-        "rehearse-mcq-53"
+        "rehearse-mcq-05",
+        "rehearse-pdf-plain-123",
+        "rehearse-mcq-10"
       ],
       "explanation": "本句的「rehearsed」指「回答聽起來像預先背好，缺少自然感」。",
       "sentenceIndex": 36,
@@ -2204,12 +2082,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-56": "本句指「回答聽起來像預先背好，缺少自然感」。",
-        "rehearse-mcq-55": "「預先準備並練過的回答」與本句語境不同。",
-        "rehearse-mcq-57": "「經充分排練、熟練準備的」與本句語境不同。",
-        "rehearse-mcq-54": "「事先反覆練習過的演說」與本句語境不同。",
-        "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。",
-        "rehearse-mcq-53": "「已在正式場合前練習／準備過的」與本句語境不同。"
+        "rehearse-mcq-56": "本句的「rehearsed」指「回答聽起來像預先背好，缺少自然感」。",
+        "rehearse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-56"
     },
@@ -2221,11 +2097,9 @@ export default {
       "masked": "The presentation felt over-____.",
       "options": [
         "rehearse-mcq-58",
-        "rehearse-mcq-57",
-        "rehearse-mcq-59",
-        "rehearse-mcq-56",
-        "rehearse-mcq-60",
-        "rehearse-mcq-55"
+        "rehearse-mcq-63",
+        "rehearse-mcq-15",
+        "rehearse-pdf-plain-138"
       ],
       "explanation": "本句的「rehearsed」指「因練習太多而顯得僵硬／不自然的」。",
       "sentenceIndex": 37,
@@ -2234,12 +2108,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-58": "本句指「因練習太多而顯得僵硬／不自然的」。",
-        "rehearse-mcq-57": "「經充分排練、熟練準備的」與本句語境不同。",
-        "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
-        "rehearse-mcq-56": "「回答聽起來像預先背好，缺少自然感」與本句語境不同。",
-        "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。",
-        "rehearse-mcq-55": "「預先準備並練過的回答」與本句語境不同。"
+        "rehearse-mcq-58": "本句的「rehearsed」指「因練習太多而顯得僵硬／不自然的」。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-58"
     },
@@ -2251,11 +2123,9 @@ export default {
       "masked": "The performance was polished and well-____.",
       "options": [
         "rehearse-mcq-57",
-        "rehearse-mcq-56",
-        "rehearse-mcq-58",
-        "rehearse-mcq-55",
-        "rehearse-mcq-59",
-        "rehearse-mcq-54"
+        "rehearse-mcq-71",
+        "rehearse-mcq-61",
+        "rehearse-mcq-56"
       ],
       "explanation": "本句的「rehearsed」指「經充分排練、熟練準備的」。",
       "sentenceIndex": 38,
@@ -2264,12 +2134,10 @@ export default {
         "rehearsed"
       ],
       "optionReasons": {
-        "rehearse-mcq-57": "本句指「經充分排練、熟練準備的」。",
-        "rehearse-mcq-56": "「回答聽起來像預先背好，缺少自然感」與本句語境不同。",
-        "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。",
-        "rehearse-mcq-55": "「預先準備並練過的回答」與本句語境不同。",
-        "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
-        "rehearse-mcq-54": "「事先反覆練習過的演說」與本句語境不同。"
+        "rehearse-mcq-57": "本句的「rehearsed」指「經充分排練、熟練準備的」。",
+        "rehearse-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-57"
     },
@@ -2281,11 +2149,9 @@ export default {
       "masked": "The exercise was a useful ____ for the real interview.",
       "options": [
         "rehearse-pdf-orphan-01",
-        "rehearse-mcq-78",
-        "rehearse-mcq-80",
-        "rehearse-mcq-77",
-        "rehearse-mcq-81",
-        "rehearse-mcq-76"
+        "rehearse-mcq-63",
+        "rehearse-pdf-plain-138",
+        "rehearse-mcq-29"
       ],
       "explanation": "本句的「rehearsal」指「為日後真實活動而做的練習或預演」。",
       "sentenceIndex": 39,
@@ -2294,12 +2160,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-pdf-orphan-01": "本句指「為日後真實活動而做的練習或預演」。",
-        "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
-        "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
-        "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
-        "rehearse-mcq-81": "「練習」與本句語境不同。",
-        "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
+        "rehearse-pdf-orphan-01": "本句的「rehearsal」指「為日後真實活動而做的練習或預演」。",
+        "rehearse-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-138": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-pdf-orphan-01"
     },
@@ -2311,11 +2175,9 @@ export default {
       "masked": "Repeated ____ can help keep information in short-term memory.",
       "options": [
         "rehearse-pdf-plain-123",
-        "rehearse-mcq-78",
-        "rehearse-mcq-80",
-        "rehearse-mcq-77",
-        "rehearse-mcq-81",
-        "rehearse-mcq-76"
+        "rehearse-mcq-11",
+        "rehearse-mcq-05",
+        "rehearse-mcq-55"
       ],
       "explanation": "本句的「rehearsal」指「為保持記憶而反覆默念或複誦」。",
       "sentenceIndex": 41,
@@ -2324,12 +2186,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-pdf-plain-123": "本句指「為保持記憶而反覆默念或複誦」。",
-        "rehearse-mcq-78": "「供表演者練習使用的伴奏／參考音軌」與本句語境不同。",
-        "rehearse-mcq-80": "「排練；預演；演練」與本句語境不同。",
-        "rehearse-mcq-77": "「樂譜中方便排練定位的字母／數字標記」與本句語境不同。",
-        "rehearse-mcq-81": "「練習」與本句語境不同。",
-        "rehearse-mcq-76": "「事先練過／安排好的說法」與本句語境不同。"
+        "rehearse-pdf-plain-123": "本句的「rehearsal」指「為保持記憶而反覆默念或複誦」。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-pdf-plain-123"
     },
@@ -2341,11 +2201,9 @@ export default {
       "masked": "Learners may ____ a phone number until they can write it down.",
       "options": [
         "rehearse-mcq-61",
-        "rehearse-mcq-60",
-        "rehearse-mcq-62",
-        "rehearse-mcq-59",
-        "rehearse-mcq-63",
-        "rehearse-mcq-58"
+        "rehearse-mcq-58",
+        "rehearse-mcq-25",
+        "rehearse-mcq-11"
       ],
       "explanation": "本句的「rehearse」指「為保持資訊在記憶中而反覆默念／回想」。",
       "sentenceIndex": 42,
@@ -2354,12 +2212,10 @@ export default {
         "rehearse"
       ],
       "optionReasons": {
-        "rehearse-mcq-61": "本句指「為保持資訊在記憶中而反覆默念／回想」。",
-        "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。",
-        "rehearse-mcq-62": "「主要靠機械式重複維持資訊的維持性複誦」與本句語境不同。",
-        "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
-        "rehearse-mcq-63": "「把新資訊與意義、舊知識等連結的精緻化複誦」與本句語境不同。",
-        "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。"
+        "rehearse-mcq-61": "本句的「rehearse」指「為保持資訊在記憶中而反覆默念／回想」。",
+        "rehearse-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-61"
     },
@@ -2371,11 +2227,9 @@ export default {
       "masked": "Elaborative ____ involves connecting new information to what you already know.",
       "options": [
         "rehearse-mcq-63",
-        "rehearse-mcq-62",
-        "rehearse-mcq-64",
-        "rehearse-mcq-61",
-        "rehearse-mcq-65",
-        "rehearse-mcq-60"
+        "rehearse-mcq-23",
+        "rehearse-mcq-17",
+        "rehearse-mcq-11"
       ],
       "explanation": "本句的「rehearsal」指「把新資訊與意義、舊知識等連結的精緻化複誦」。",
       "sentenceIndex": 43,
@@ -2384,12 +2238,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-63": "本句指「把新資訊與意義、舊知識等連結的精緻化複誦」。",
-        "rehearse-mcq-62": "「主要靠機械式重複維持資訊的維持性複誦」與本句語境不同。",
-        "rehearse-mcq-64": "「透過反覆說出／默念詞語進行記憶練習」與本句語境不同。",
-        "rehearse-mcq-61": "「為保持資訊在記憶中而反覆默念／回想」與本句語境不同。",
-        "rehearse-mcq-65": "「在心中默念資訊以維持記憶」與本句語境不同。",
-        "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。"
+        "rehearse-mcq-63": "本句的「rehearsal」指「把新資訊與意義、舊知識等連結的精緻化複誦」。",
+        "rehearse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-63"
     },
@@ -2401,11 +2253,9 @@ export default {
       "masked": "The training used behavioral ____ of difficult conversations.",
       "options": [
         "rehearse-mcq-67",
-        "rehearse-mcq-66",
-        "rehearse-mcq-68",
-        "rehearse-mcq-65",
-        "rehearse-mcq-69",
-        "rehearse-mcq-64"
+        "rehearse-mcq-56",
+        "rehearse-mcq-61",
+        "rehearse-mcq-15"
       ],
       "explanation": "本句的「rehearsal」指「在模擬情境中實際練習希望採取的行為」。",
       "sentenceIndex": 44,
@@ -2414,12 +2264,10 @@ export default {
         "rehearsal"
       ],
       "optionReasons": {
-        "rehearse-mcq-67": "本句指「在模擬情境中實際練習希望採取的行為」。",
-        "rehearse-mcq-66": "「在腦中預演行為、回應或應對方式」與本句語境不同。",
-        "rehearse-mcq-68": "「利用心理意象預演動作／表現」與本句語境不同。",
-        "rehearse-mcq-65": "「在心中默念資訊以維持記憶」與本句語境不同。",
-        "rehearse-mcq-69": "「對動作程序進行心理或實際演練」與本句語境不同。",
-        "rehearse-mcq-64": "「透過反覆說出／默念詞語進行記憶練習」與本句語境不同。"
+        "rehearse-mcq-67": "本句的「rehearsal」指「在模擬情境中實際練習希望採取的行為」。",
+        "rehearse-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-67"
     },
@@ -2431,11 +2279,9 @@ export default {
       "masked": "There is no need to ____ all the arguments again.",
       "options": [
         "rehearse-pdf-plain-138",
-        "rehearse-mcq-60",
-        "rehearse-mcq-62",
-        "rehearse-mcq-59",
-        "rehearse-mcq-63",
-        "rehearse-mcq-58"
+        "rehearse-mcq-25",
+        "rehearse-mcq-16",
+        "rehearse-mcq-47"
       ],
       "explanation": "本句的「rehearse」指「再次重述、詳述或列舉」。",
       "sentenceIndex": 45,
@@ -2444,12 +2290,10 @@ export default {
         "rehearse"
       ],
       "optionReasons": {
-        "rehearse-pdf-plain-138": "本句指「再次重述、詳述或列舉」。",
-        "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。",
-        "rehearse-mcq-62": "「主要靠機械式重複維持資訊的維持性複誦」與本句語境不同。",
-        "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
-        "rehearse-mcq-63": "「把新資訊與意義、舊知識等連結的精緻化複誦」與本句語境不同。",
-        "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。"
+        "rehearse-pdf-plain-138": "本句的「rehearse」指「再次重述、詳述或列舉」。",
+        "rehearse-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-pdf-plain-138"
     },
@@ -2461,11 +2305,9 @@ export default {
       "masked": "The report ____ the familiar criticisms.",
       "options": [
         "rehearse-pdf-plain-138",
-        "rehearse-mcq-60",
-        "rehearse-mcq-62",
-        "rehearse-mcq-59",
-        "rehearse-mcq-63",
-        "rehearse-mcq-58"
+        "rehearse-mcq-22",
+        "rehearse-mcq-21",
+        "rehearse-mcq-02"
       ],
       "explanation": "本句的「rehearses」指「再次重述、詳述或列舉」。",
       "sentenceIndex": 46,
@@ -2474,12 +2316,10 @@ export default {
         "rehearses"
       ],
       "optionReasons": {
-        "rehearse-pdf-plain-138": "本句指「再次重述、詳述或列舉」。",
-        "rehearse-mcq-60": "「透過反覆默念／思考資訊來維持或強化記憶的複誦」與本句語境不同。",
-        "rehearse-mcq-62": "「主要靠機械式重複維持資訊的維持性複誦」與本句語境不同。",
-        "rehearse-mcq-59": "「沒有事先排練／準備的」與本句語境不同。",
-        "rehearse-mcq-63": "「把新資訊與意義、舊知識等連結的精緻化複誦」與本句語境不同。",
-        "rehearse-mcq-58": "「因練習太多而顯得僵硬／不自然的」與本句語境不同。"
+        "rehearse-pdf-plain-138": "本句的「rehearses」指「再次重述、詳述或列舉」。",
+        "rehearse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-pdf-plain-138"
     },
@@ -2491,11 +2331,9 @@ export default {
       "masked": "The introduction briefly ____ the facts of the case.",
       "options": [
         "rehearse-mcq-71",
-        "rehearse-mcq-70",
-        "rehearse-mcq-72",
-        "rehearse-mcq-69",
-        "rehearse-mcq-73",
-        "rehearse-mcq-68"
+        "rehearse-mcq-47",
+        "rehearse-mcq-25",
+        "rehearse-pdf-plain-123"
       ],
       "explanation": "本句的「rehearses」指「正式：重述／回顧有關事實」。",
       "sentenceIndex": 47,
@@ -2504,12 +2342,10 @@ export default {
         "rehearses"
       ],
       "optionReasons": {
-        "rehearse-mcq-71": "本句指「正式：重述／回顧有關事實」。",
-        "rehearse-mcq-70": "「正式／文學：重述、逐一回顧事實、論點、歷史等」與本句語境不同。",
-        "rehearse-mcq-72": "「反覆重述已多次出現的老論點」與本句語境不同。",
-        "rehearse-mcq-69": "「對動作程序進行心理或實際演練」與本句語境不同。",
-        "rehearse-mcq-73": "「正式：回顧／重述某事的歷史」與本句語境不同。",
-        "rehearse-mcq-68": "「利用心理意象預演動作／表現」與本句語境不同。"
+        "rehearse-mcq-71": "本句的「rehearses」指「正式：重述／回顧有關事實」。",
+        "rehearse-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "rehearse-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "rehearse-pdf-plain-123": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rehearse-mcq-71"
     }
@@ -2521,5 +2357,7 @@ export default {
     "sha256": "5bcd7e824e5cf7198b2ad0a2a2969c85030cf40709d7ea09e490537decc6d595",
     "pages": 81
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

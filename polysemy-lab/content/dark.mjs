@@ -548,11 +548,9 @@ export default {
       "masked": "He usually wore ____.",
       "options": [
         "dark-pdf-001",
-        "dark-mcq-02",
-        "dark-mcq-03",
-        "dark-mcq-04",
-        "dark-mcq-05",
-        "dark-mcq-06"
+        "dark-mcq-18",
+        "dark-mcq-22",
+        "dark-mcq-19"
       ],
       "explanation": "本句的「dark trousers」指「顏色接近黑色、亮度較低的」。",
       "sentenceIndex": 0,
@@ -561,12 +559,10 @@ export default {
         "dark trousers"
       ],
       "optionReasons": {
-        "dark-pdf-001": "本句指「顏色接近黑色、亮度較低的」。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
+        "dark-pdf-001": "本句的「dark trousers」指「顏色接近黑色、亮度較低的」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-pdf-001"
     },
@@ -578,11 +574,9 @@ export default {
       "masked": "She prefers ____ in winter.",
       "options": [
         "dark-pdf-001",
-        "dark-mcq-02",
-        "dark-mcq-03",
         "dark-mcq-04",
-        "dark-mcq-05",
-        "dark-mcq-06"
+        "dark-mcq-14",
+        "dark-mcq-15"
       ],
       "explanation": "本句的「dark colours」指「顏色接近黑色、亮度較低的」。",
       "sentenceIndex": 1,
@@ -591,12 +585,10 @@ export default {
         "dark colours"
       ],
       "optionReasons": {
-        "dark-pdf-001": "本句指「顏色接近黑色、亮度較低的」。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
+        "dark-pdf-001": "本句的「dark colours」指「顏色接近黑色、亮度較低的」。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-pdf-001"
     },
@@ -608,11 +600,9 @@ export default {
       "masked": "He wore a ____.",
       "options": [
         "dark-pdf-001",
-        "dark-mcq-02",
-        "dark-mcq-03",
-        "dark-mcq-04",
-        "dark-mcq-05",
-        "dark-mcq-06"
+        "dark-mcq-17",
+        "dark-mcq-18",
+        "dark-mcq-20"
       ],
       "explanation": "本句的「dark blue jacket」指「顏色接近黑色、亮度較低的」。",
       "sentenceIndex": 2,
@@ -621,12 +611,10 @@ export default {
         "dark blue jacket"
       ],
       "optionReasons": {
-        "dark-pdf-001": "本句指「顏色接近黑色、亮度較低的」。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
+        "dark-pdf-001": "本句的「dark blue jacket」指「顏色接近黑色、亮度較低的」。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-pdf-001"
     },
@@ -638,11 +626,9 @@ export default {
       "masked": "He has ____ and brown eyes.",
       "options": [
         "dark-mcq-03",
-        "dark-mcq-02",
-        "dark-mcq-04",
-        "dark-mcq-01",
-        "dark-mcq-05",
-        "dark-mcq-06"
+        "dark-mcq-18",
+        "dark-mcq-23",
+        "dark-mcq-20"
       ],
       "explanation": "本句的「dark hair」指「深色頭髮／眼睛」。",
       "sentenceIndex": 3,
@@ -651,12 +637,10 @@ export default {
         "dark hair"
       ],
       "optionReasons": {
-        "dark-mcq-03": "本句指「深色頭髮／眼睛」。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-01": "「深色長褲」是「dark trousers」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
+        "dark-mcq-03": "本句的「dark hair」指「深色頭髮／眼睛」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-03"
     },
@@ -668,11 +652,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "dark-mcq-03",
-        "dark-mcq-02",
-        "dark-mcq-04",
-        "dark-mcq-01",
-        "dark-mcq-05",
-        "dark-mcq-06"
+        "dark-mcq-22",
+        "dark-mcq-17",
+        "dark-mcq-20"
       ],
       "explanation": "本句的「dark eyes」指「深色頭髮／眼睛」。",
       "sentenceIndex": 4,
@@ -681,12 +663,10 @@ export default {
         "dark eyes"
       ],
       "optionReasons": {
-        "dark-mcq-03": "本句指「深色頭髮／眼睛」。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-01": "「深色長褲」是「dark trousers」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。"
+        "dark-mcq-03": "本句的「dark eyes」指「深色頭髮／眼睛」。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-03"
     },
@@ -698,11 +678,9 @@ export default {
       "masked": "The room was too ____ to read in.",
       "options": [
         "dark-mcq-04",
-        "dark-mcq-03",
-        "dark-mcq-05",
-        "dark-mcq-02",
         "dark-mcq-06",
-        "dark-mcq-01"
+        "dark-mcq-22",
+        "dark-mcq-03"
       ],
       "explanation": "本句的「dark」指「昏暗房間」。",
       "sentenceIndex": 5,
@@ -711,12 +689,10 @@ export default {
         "dark"
       ],
       "optionReasons": {
-        "dark-mcq-04": "本句指「昏暗房間」。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-01": "「深色長褲」是「dark trousers」的用法，與本句語境不同。"
+        "dark-mcq-04": "本句的「dark」指「昏暗房間」。",
+        "dark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-04"
     },
@@ -728,11 +704,9 @@ export default {
       "masked": "We walked down a ____.",
       "options": [
         "dark-mcq-04",
+        "dark-mcq-17",
         "dark-mcq-03",
-        "dark-mcq-05",
-        "dark-mcq-02",
-        "dark-mcq-06",
-        "dark-mcq-01"
+        "dark-mcq-24"
       ],
       "explanation": "本句的「dark street」指「昏暗房間」。",
       "sentenceIndex": 6,
@@ -741,12 +715,10 @@ export default {
         "dark street"
       ],
       "optionReasons": {
-        "dark-mcq-04": "本句指「昏暗房間」。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-01": "「深色長褲」是「dark trousers」的用法，與本句語境不同。"
+        "dark-mcq-04": "本句的「dark street」指「昏暗房間」。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-04"
     },
@@ -758,11 +730,9 @@ export default {
       "masked": "It gets ____ early in winter.",
       "options": [
         "dark-mcq-05",
-        "dark-mcq-04",
-        "dark-mcq-06",
-        "dark-mcq-03",
-        "dark-mcq-07",
-        "dark-mcq-02"
+        "dark-mcq-18",
+        "dark-mcq-17",
+        "dark-mcq-10"
       ],
       "explanation": "本句的「dark」指「天黑」。",
       "sentenceIndex": 7,
@@ -771,12 +741,10 @@ export default {
         "dark"
       ],
       "optionReasons": {
-        "dark-mcq-05": "本句指「天黑」。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-07": "「黑暗」是「the dark」的用法，與本句語境不同。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。"
+        "dark-mcq-05": "本句的「dark」指「天黑」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-05"
     },
@@ -788,11 +756,9 @@ export default {
       "masked": "We should leave before it gets ____.",
       "options": [
         "dark-mcq-05",
-        "dark-mcq-04",
-        "dark-mcq-06",
-        "dark-mcq-03",
-        "dark-mcq-07",
-        "dark-mcq-02"
+        "dark-mcq-20",
+        "dark-mcq-24",
+        "dark-mcq-18"
       ],
       "explanation": "本句的「dark」指「天黑」。",
       "sentenceIndex": 8,
@@ -801,12 +767,10 @@ export default {
         "dark"
       ],
       "optionReasons": {
-        "dark-mcq-05": "本句指「天黑」。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-07": "「黑暗」是「the dark」的用法，與本句語境不同。",
-        "dark-mcq-02": "「深藍色」是「dark blue」的用法，與本句語境不同。"
+        "dark-mcq-05": "本句的「dark」指「天黑」。",
+        "dark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-05"
     },
@@ -818,11 +782,9 @@ export default {
       "masked": "The park closes ____.",
       "options": [
         "dark-mcq-06",
-        "dark-mcq-05",
-        "dark-mcq-07",
+        "dark-mcq-15",
         "dark-mcq-04",
-        "dark-mcq-03",
-        "dark-mcq-09"
+        "dark-pdf-002"
       ],
       "explanation": "本句的「after dark」指「天黑後」。",
       "sentenceIndex": 9,
@@ -831,12 +793,10 @@ export default {
         "after dark"
       ],
       "optionReasons": {
-        "dark-mcq-06": "本句指「天黑後」。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-07": "「黑暗」是「the dark」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。"
+        "dark-mcq-06": "本句的「after dark」指「天黑後」。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dark-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-06"
     },
@@ -848,11 +808,9 @@ export default {
       "masked": "I don't like walking there ____.",
       "options": [
         "dark-mcq-06",
-        "dark-mcq-05",
-        "dark-mcq-07",
-        "dark-mcq-04",
-        "dark-mcq-03",
-        "dark-mcq-09"
+        "dark-mcq-15",
+        "dark-pdf-002",
+        "dark-mcq-14"
       ],
       "explanation": "本句的「after dark」指「天黑後」。",
       "sentenceIndex": 10,
@@ -861,12 +819,10 @@ export default {
         "after dark"
       ],
       "optionReasons": {
-        "dark-mcq-06": "本句指「天黑後」。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-07": "「黑暗」是「the dark」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-03": "「深色頭髮／眼睛」是「dark hair/eyes」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。"
+        "dark-mcq-06": "本句的「after dark」指「天黑後」。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dark-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-06"
     },
@@ -878,11 +834,9 @@ export default {
       "masked": "I'm afraid of ____.",
       "options": [
         "dark-mcq-07",
-        "dark-mcq-06",
-        "dark-mcq-05",
-        "dark-mcq-09",
-        "dark-mcq-04",
-        "dark-mcq-10"
+        "dark-mcq-24",
+        "dark-mcq-22",
+        "dark-mcq-19"
       ],
       "explanation": "本句的「the dark」指「黑暗」。",
       "sentenceIndex": 11,
@@ -891,12 +845,10 @@ export default {
         "the dark"
       ],
       "optionReasons": {
-        "dark-mcq-07": "本句指「黑暗」。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。"
+        "dark-mcq-07": "本句的「the dark」指「黑暗」。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-07"
     },
@@ -908,11 +860,9 @@ export default {
       "masked": "Something moved in ____.",
       "options": [
         "dark-mcq-07",
-        "dark-mcq-06",
-        "dark-mcq-05",
-        "dark-mcq-09",
-        "dark-mcq-04",
-        "dark-mcq-10"
+        "dark-mcq-18",
+        "dark-mcq-19",
+        "dark-mcq-14"
       ],
       "explanation": "本句的「the dark」指「黑暗」。",
       "sentenceIndex": 12,
@@ -921,12 +871,10 @@ export default {
         "the dark"
       ],
       "optionReasons": {
-        "dark-mcq-07": "本句指「黑暗」。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-04": "「昏暗房間」是「dark room」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。"
+        "dark-mcq-07": "本句的「the dark」指「黑暗」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-07"
     },
@@ -938,11 +886,9 @@ export default {
       "masked": "The room was filled with ____.",
       "options": [
         "dark-mcq-08",
-        "dark-mcq-09",
-        "dark-mcq-06",
-        "dark-mcq-10",
-        "dark-mcq-05",
-        "dark-mcq-11"
+        "dark-pdf-002",
+        "dark-mcq-18",
+        "dark-mcq-17"
       ],
       "explanation": "本句的「darkness」指「黑暗」。",
       "sentenceIndex": 13,
@@ -951,12 +897,10 @@ export default {
         "darkness"
       ],
       "optionReasons": {
-        "dark-mcq-08": "本句指「黑暗」。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。"
+        "dark-mcq-08": "本句的「darkness」指「黑暗」。",
+        "dark-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-08"
     },
@@ -968,11 +912,9 @@ export default {
       "masked": "They waited until ____ fell.",
       "options": [
         "dark-mcq-08",
-        "dark-mcq-09",
-        "dark-mcq-06",
-        "dark-mcq-10",
-        "dark-mcq-05",
-        "dark-mcq-11"
+        "dark-mcq-14",
+        "dark-mcq-24",
+        "dark-mcq-17"
       ],
       "explanation": "本句的「darkness」指「黑暗」。",
       "sentenceIndex": 14,
@@ -981,12 +923,10 @@ export default {
         "darkness"
       ],
       "optionReasons": {
-        "dark-mcq-08": "本句指「黑暗」。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-06": "「天黑後」是「after dark」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。",
-        "dark-mcq-05": "「天黑」是「get dark」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。"
+        "dark-mcq-08": "本句的「darkness」指「黑暗」。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-08"
     },
@@ -998,11 +938,9 @@ export default {
       "masked": "The film has a very ____.",
       "options": [
         "dark-mcq-10",
-        "dark-mcq-09",
-        "dark-mcq-11",
-        "dark-mcq-08",
-        "dark-mcq-12",
-        "dark-mcq-13"
+        "dark-mcq-24",
+        "dark-mcq-06",
+        "dark-mcq-14"
       ],
       "explanation": "本句的「dark atmosphere」指「陰暗氣氛」。",
       "sentenceIndex": 15,
@@ -1011,12 +949,10 @@ export default {
         "dark atmosphere"
       ],
       "optionReasons": {
-        "dark-mcq-10": "本句指「陰暗氣氛」。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。",
-        "dark-mcq-08": "「黑暗」是「darkness」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。"
+        "dark-mcq-10": "本句的「dark atmosphere」指「陰暗氣氛」。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-10"
     },
@@ -1028,11 +964,9 @@ export default {
       "masked": "He was in a ____ all evening.",
       "options": [
         "dark-mcq-10",
-        "dark-mcq-09",
-        "dark-mcq-11",
-        "dark-mcq-08",
-        "dark-mcq-12",
-        "dark-mcq-13"
+        "dark-mcq-19",
+        "dark-mcq-24",
+        "dark-mcq-14"
       ],
       "explanation": "本句的「dark mood」指「陰暗氣氛」。",
       "sentenceIndex": 16,
@@ -1041,12 +975,10 @@ export default {
         "dark mood"
       ],
       "optionReasons": {
-        "dark-mcq-10": "本句指「陰暗氣氛」。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。",
-        "dark-mcq-08": "「黑暗」是「darkness」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。"
+        "dark-mcq-10": "本句的「dark mood」指「陰暗氣氛」。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-10"
     },
@@ -1058,11 +990,9 @@ export default {
       "masked": "The novel explores some ____.",
       "options": [
         "dark-mcq-11",
-        "dark-mcq-10",
-        "dark-mcq-12",
-        "dark-mcq-09",
-        "dark-mcq-13",
-        "dark-mcq-08"
+        "dark-mcq-24",
+        "dark-mcq-19",
+        "dark-mcq-14"
       ],
       "explanation": "本句的「dark themes」指「黑暗沉重故事／主題」。",
       "sentenceIndex": 17,
@@ -1071,12 +1001,10 @@ export default {
         "dark themes"
       ],
       "optionReasons": {
-        "dark-mcq-11": "本句指「黑暗沉重故事／主題」。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-08": "「黑暗」是「darkness」的用法，與本句語境不同。"
+        "dark-mcq-11": "本句的「dark themes」指「黑暗沉重故事／主題」。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-11"
     },
@@ -1088,11 +1016,9 @@ export default {
       "masked": "It's a surprisingly ____.",
       "options": [
         "dark-mcq-11",
-        "dark-mcq-10",
-        "dark-mcq-12",
-        "dark-mcq-09",
-        "dark-mcq-13",
-        "dark-mcq-08"
+        "dark-mcq-14",
+        "dark-mcq-17",
+        "dark-mcq-24"
       ],
       "explanation": "本句的「dark story」指「黑暗沉重故事／主題」。",
       "sentenceIndex": 18,
@@ -1101,12 +1027,10 @@ export default {
         "dark story"
       ],
       "optionReasons": {
-        "dark-mcq-11": "本句指「黑暗沉重故事／主題」。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-08": "「黑暗」是「darkness」的用法，與本句語境不同。"
+        "dark-mcq-11": "本句的「dark story」指「黑暗沉重故事／主題」。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-11"
     },
@@ -1118,11 +1042,9 @@ export default {
       "masked": "The film uses a lot of ____.",
       "options": [
         "dark-mcq-12",
-        "dark-mcq-11",
-        "dark-mcq-13",
-        "dark-mcq-10",
-        "dark-mcq-14",
-        "dark-mcq-09"
+        "dark-mcq-18",
+        "dark-mcq-20",
+        "dark-mcq-24"
       ],
       "explanation": "本句的「dark humour」指「黑色幽默」。",
       "sentenceIndex": 19,
@@ -1131,12 +1053,10 @@ export default {
         "dark humour"
       ],
       "optionReasons": {
-        "dark-mcq-12": "本句指「黑色幽默」。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。"
+        "dark-mcq-12": "本句的「dark humour」指「黑色幽默」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-12"
     },
@@ -1148,11 +1068,9 @@ export default {
       "masked": "His jokes often have a ____.",
       "options": [
         "dark-mcq-12",
-        "dark-mcq-11",
-        "dark-mcq-13",
-        "dark-mcq-10",
-        "dark-mcq-14",
-        "dark-mcq-09"
+        "dark-mcq-04",
+        "dark-mcq-18",
+        "dark-mcq-24"
       ],
       "explanation": "本句的「dark sense of humour」指「黑色幽默」。",
       "sentenceIndex": 20,
@@ -1161,12 +1079,10 @@ export default {
         "dark sense of humour"
       ],
       "optionReasons": {
-        "dark-mcq-12": "本句指「黑色幽默」。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-09": "「陰沉情緒」是「dark mood」的用法，與本句語境不同。"
+        "dark-mcq-12": "本句的「dark sense of humour」指「黑色幽默」。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-12"
     },
@@ -1178,11 +1094,9 @@ export default {
       "masked": "The documentary shows the ____ of fame.",
       "options": [
         "dark-mcq-13",
-        "dark-mcq-12",
+        "dark-mcq-17",
         "dark-mcq-14",
-        "dark-mcq-11",
-        "dark-mcq-15",
-        "dark-mcq-10"
+        "dark-pdf-002"
       ],
       "explanation": "本句的「dark side」指「黑暗面」。",
       "sentenceIndex": 21,
@@ -1191,12 +1105,10 @@ export default {
         "dark side"
       ],
       "optionReasons": {
-        "dark-mcq-13": "本句指「黑暗面」。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。"
+        "dark-mcq-13": "本句的「dark side」指「黑暗面」。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-13"
     },
@@ -1208,11 +1120,9 @@ export default {
       "masked": "Every industry has a ____.",
       "options": [
         "dark-mcq-13",
-        "dark-mcq-12",
-        "dark-mcq-14",
-        "dark-mcq-11",
-        "dark-mcq-15",
-        "dark-mcq-10"
+        "dark-mcq-03",
+        "dark-mcq-19",
+        "dark-mcq-18"
       ],
       "explanation": "本句的「dark side」指「黑暗面」。",
       "sentenceIndex": 22,
@@ -1221,12 +1131,10 @@ export default {
         "dark side"
       ],
       "optionReasons": {
-        "dark-mcq-13": "本句指「黑暗面」。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-10": "「陰暗氣氛」是「dark atmosphere」的用法，與本句語境不同。"
+        "dark-mcq-13": "本句的「dark side」指「黑暗面」。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-13"
     },
@@ -1238,11 +1146,9 @@ export default {
       "masked": "He had been hiding a ____.",
       "options": [
         "dark-mcq-14",
-        "dark-mcq-13",
-        "dark-mcq-15",
-        "dark-mcq-12",
+        "dark-mcq-04",
         "dark-mcq-16",
-        "dark-mcq-11"
+        "dark-mcq-17"
       ],
       "explanation": "本句的「dark secret」指「不可告人的秘密」。",
       "sentenceIndex": 23,
@@ -1251,12 +1157,10 @@ export default {
         "dark secret"
       ],
       "optionReasons": {
-        "dark-mcq-14": "本句指「不可告人的秘密」。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。"
+        "dark-mcq-14": "本句的「dark secret」指「不可告人的秘密」。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-14"
     },
@@ -1268,11 +1172,9 @@ export default {
       "masked": "The family had a ____.",
       "options": [
         "dark-mcq-14",
-        "dark-mcq-13",
-        "dark-mcq-15",
-        "dark-mcq-12",
-        "dark-mcq-16",
-        "dark-mcq-11"
+        "dark-mcq-23",
+        "dark-mcq-22",
+        "dark-mcq-20"
       ],
       "explanation": "本句的「dark secret」指「不可告人的秘密」。",
       "sentenceIndex": 24,
@@ -1281,12 +1183,10 @@ export default {
         "dark secret"
       ],
       "optionReasons": {
-        "dark-mcq-14": "本句指「不可告人的秘密」。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-11": "「黑暗沉重故事／主題」是「dark story/theme」的用法，與本句語境不同。"
+        "dark-mcq-14": "本句的「dark secret」指「不可告人的秘密」。",
+        "dark-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-14"
     },
@@ -1298,11 +1198,9 @@ export default {
       "masked": "The conversation took a ____.",
       "options": [
         "dark-mcq-24",
-        "dark-mcq-23",
-        "dark-mcq-22",
-        "dark-mcq-21",
-        "dark-mcq-20",
-        "dark-mcq-19"
+        "dark-mcq-14",
+        "dark-mcq-17",
+        "dark-mcq-07"
       ],
       "explanation": "本句的「dark turn」指「思想內容帶有悲觀、危險或令人不安的意味」。",
       "sentenceIndex": 25,
@@ -1311,12 +1209,10 @@ export default {
         "dark turn"
       ],
       "optionReasons": {
-        "dark-mcq-24": "本句指「思想內容帶有悲觀、危險或令人不安的意味」。",
-        "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。"
+        "dark-mcq-24": "本句的「dark turn」指「思想內容帶有悲觀、危險或令人不安的意味」。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-24"
     },
@@ -1328,11 +1224,9 @@ export default {
       "masked": "His thoughts became increasingly ____.",
       "options": [
         "dark-mcq-24",
-        "dark-mcq-23",
-        "dark-mcq-22",
-        "dark-mcq-21",
-        "dark-mcq-20",
-        "dark-mcq-19"
+        "dark-mcq-03",
+        "dark-mcq-16",
+        "dark-mcq-18"
       ],
       "explanation": "本句的「dark」指「思想內容帶有悲觀、危險或令人不安的意味」。",
       "sentenceIndex": 26,
@@ -1341,12 +1235,10 @@ export default {
         "dark"
       ],
       "optionReasons": {
-        "dark-mcq-24": "本句指「思想內容帶有悲觀、危險或令人不安的意味」。",
-        "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。"
+        "dark-mcq-24": "本句的「dark」指「思想內容帶有悲觀、危險或令人不安的意味」。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-24"
     },
@@ -1358,11 +1250,9 @@ export default {
       "masked": "The character has a ____.",
       "options": [
         "dark-mcq-15",
-        "dark-mcq-14",
-        "dark-mcq-16",
-        "dark-mcq-13",
         "dark-mcq-17",
-        "dark-mcq-12"
+        "dark-mcq-18",
+        "dark-mcq-14"
       ],
       "explanation": "本句的「dark past」指「陰暗過去」。",
       "sentenceIndex": 27,
@@ -1371,12 +1261,10 @@ export default {
         "dark past"
       ],
       "optionReasons": {
-        "dark-mcq-15": "本句指「陰暗過去」。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。"
+        "dark-mcq-15": "本句的「dark past」指「陰暗過去」。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-15"
     },
@@ -1388,11 +1276,9 @@ export default {
       "masked": "The story slowly reveals his ____.",
       "options": [
         "dark-mcq-15",
+        "dark-mcq-23",
         "dark-mcq-14",
-        "dark-mcq-16",
-        "dark-mcq-13",
-        "dark-mcq-17",
-        "dark-mcq-12"
+        "dark-mcq-18"
       ],
       "explanation": "本句的「dark past」指「陰暗過去」。",
       "sentenceIndex": 28,
@@ -1401,12 +1287,10 @@ export default {
         "dark past"
       ],
       "optionReasons": {
-        "dark-mcq-15": "本句指「陰暗過去」。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-12": "「黑色幽默」是「dark humour」的用法，與本句語境不同。"
+        "dark-mcq-15": "本句的「dark past」指「陰暗過去」。",
+        "dark-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-15"
     },
@@ -1418,11 +1302,9 @@ export default {
       "masked": "The country went through a ____.",
       "options": [
         "dark-mcq-16",
-        "dark-mcq-15",
-        "dark-mcq-17",
-        "dark-mcq-14",
-        "dark-mcq-18",
-        "dark-mcq-13"
+        "dark-mcq-22",
+        "dark-mcq-24",
+        "dark-mcq-18"
       ],
       "explanation": "本句的「dark period」指「黑暗時期」。",
       "sentenceIndex": 29,
@@ -1431,12 +1313,10 @@ export default {
         "dark period"
       ],
       "optionReasons": {
-        "dark-mcq-16": "本句指「黑暗時期」。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。"
+        "dark-mcq-16": "本句的「dark period」指「黑暗時期」。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-16"
     },
@@ -1448,11 +1328,9 @@ export default {
       "masked": "Those were ____ for the family.",
       "options": [
         "dark-mcq-16",
-        "dark-mcq-15",
-        "dark-mcq-17",
+        "dark-mcq-03",
         "dark-mcq-14",
-        "dark-mcq-18",
-        "dark-mcq-13"
+        "dark-mcq-19"
       ],
       "explanation": "本句的「dark days」指「黑暗時期」。",
       "sentenceIndex": 30,
@@ -1461,12 +1339,10 @@ export default {
         "dark days"
       ],
       "optionReasons": {
-        "dark-mcq-16": "本句指「黑暗時期」。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-13": "「黑暗面」是「dark side」的用法，與本句語境不同。"
+        "dark-mcq-16": "本句的「dark days」指「黑暗時期」。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-16"
     },
@@ -1479,10 +1355,8 @@ export default {
       "options": [
         "dark-mcq-17",
         "dark-mcq-16",
-        "dark-mcq-18",
-        "dark-mcq-15",
-        "dark-mcq-19",
-        "dark-mcq-14"
+        "dark-mcq-10",
+        "dark-mcq-19"
       ],
       "explanation": "本句的「in the dark」指「蒙在鼓裏」。",
       "sentenceIndex": 31,
@@ -1491,12 +1365,10 @@ export default {
         "in the dark"
       ],
       "optionReasons": {
-        "dark-mcq-17": "本句指「蒙在鼓裏」。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。"
+        "dark-mcq-17": "本句的「in the dark」指「蒙在鼓裏」。",
+        "dark-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-17"
     },
@@ -1508,11 +1380,9 @@ export default {
       "masked": "I was completely ____.",
       "options": [
         "dark-mcq-17",
-        "dark-mcq-16",
-        "dark-mcq-18",
-        "dark-mcq-15",
-        "dark-mcq-19",
-        "dark-mcq-14"
+        "dark-mcq-24",
+        "dark-mcq-07",
+        "dark-mcq-22"
       ],
       "explanation": "本句的「in the dark」指「蒙在鼓裏」。",
       "sentenceIndex": 32,
@@ -1521,12 +1391,10 @@ export default {
         "in the dark"
       ],
       "optionReasons": {
-        "dark-mcq-17": "本句指「蒙在鼓裏」。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-14": "「不可告人的秘密」是「dark secret」的用法，與本句語境不同。"
+        "dark-mcq-17": "本句的「in the dark」指「蒙在鼓裏」。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-17"
     },
@@ -1538,11 +1406,9 @@ export default {
       "masked": "Why did you ____?",
       "options": [
         "dark-mcq-18",
-        "dark-mcq-17",
-        "dark-mcq-19",
-        "dark-mcq-16",
-        "dark-mcq-20",
-        "dark-mcq-15"
+        "dark-mcq-07",
+        "dark-mcq-22",
+        "dark-mcq-03"
       ],
       "explanation": "本句的「keep me in the dark」指「瞞着 X」。",
       "sentenceIndex": 33,
@@ -1551,12 +1417,10 @@ export default {
         "keep me in the dark"
       ],
       "optionReasons": {
-        "dark-mcq-18": "本句指「瞞着 X」。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。"
+        "dark-mcq-18": "本句的「keep me in the dark」指「瞞着 X」。",
+        "dark-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-18"
     },
@@ -1568,11 +1432,9 @@ export default {
       "masked": "Employees were ____ about the changes.",
       "options": [
         "dark-mcq-18",
-        "dark-mcq-17",
-        "dark-mcq-19",
-        "dark-mcq-16",
-        "dark-mcq-20",
-        "dark-mcq-15"
+        "dark-mcq-15",
+        "dark-pdf-001",
+        "dark-mcq-03"
       ],
       "explanation": "本句的「kept in the dark」指「瞞着 X」。",
       "sentenceIndex": 34,
@@ -1581,12 +1443,10 @@ export default {
         "kept in the dark"
       ],
       "optionReasons": {
-        "dark-mcq-18": "本句指「瞞着 X」。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-15": "「陰暗過去」是「dark past」的用法，與本句語境不同。"
+        "dark-mcq-18": "本句的「kept in the dark」指「瞞着 X」。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-18"
     },
@@ -1598,11 +1458,9 @@ export default {
       "masked": "My answer was really a ____.",
       "options": [
         "dark-mcq-19",
-        "dark-mcq-18",
-        "dark-mcq-20",
         "dark-mcq-17",
-        "dark-mcq-21",
-        "dark-mcq-16"
+        "dark-mcq-11",
+        "dark-mcq-24"
       ],
       "explanation": "本句的「shot in the dark」指「沒把握的猜測」。",
       "sentenceIndex": 35,
@@ -1611,12 +1469,10 @@ export default {
         "shot in the dark"
       ],
       "optionReasons": {
-        "dark-mcq-19": "本句指「沒把握的猜測」。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。"
+        "dark-mcq-19": "本句的「shot in the dark」指「沒把握的猜測」。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-19"
     },
@@ -1628,11 +1484,9 @@ export default {
       "masked": "Choosing that option was a ____.",
       "options": [
         "dark-mcq-19",
-        "dark-mcq-18",
-        "dark-mcq-20",
-        "dark-mcq-17",
-        "dark-mcq-21",
-        "dark-mcq-16"
+        "dark-mcq-24",
+        "dark-mcq-11",
+        "dark-mcq-04"
       ],
       "explanation": "本句的「leap in the dark」指「沒把握的猜測」。",
       "sentenceIndex": 36,
@@ -1641,12 +1495,10 @@ export default {
         "leap in the dark"
       ],
       "optionReasons": {
-        "dark-mcq-19": "本句指「沒把握的猜測」。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-16": "「黑暗時期」是「dark days」的用法，與本句語境不同。"
+        "dark-mcq-19": "本句的「leap in the dark」指「沒把握的猜測」。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-19"
     },
@@ -1658,11 +1510,9 @@ export default {
       "masked": "The sky began to ____.",
       "options": [
         "dark-mcq-20",
-        "dark-mcq-19",
-        "dark-mcq-21",
-        "dark-mcq-18",
+        "dark-pdf-001",
         "dark-mcq-22",
-        "dark-mcq-17"
+        "dark-mcq-19"
       ],
       "explanation": "本句的「darken」指「變暗；使變暗」。",
       "sentenceIndex": 37,
@@ -1671,12 +1521,10 @@ export default {
         "darken"
       ],
       "optionReasons": {
-        "dark-mcq-20": "本句指「變暗；使變暗」。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。"
+        "dark-mcq-20": "本句的「darken」指「變暗；使變暗」。",
+        "dark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-20"
     },
@@ -1688,11 +1536,9 @@ export default {
       "masked": "Heavy curtains ____.",
       "options": [
         "dark-mcq-20",
-        "dark-mcq-19",
-        "dark-mcq-21",
-        "dark-mcq-18",
+        "dark-mcq-24",
         "dark-mcq-22",
-        "dark-mcq-17"
+        "dark-mcq-19"
       ],
       "explanation": "本句的「darkened the room」指「變暗；使變暗」。",
       "sentenceIndex": 38,
@@ -1701,12 +1547,10 @@ export default {
         "darkened the room"
       ],
       "optionReasons": {
-        "dark-mcq-20": "本句指「變暗；使變暗」。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-17": "「蒙在鼓裏」是「in the dark」的用法，與本句語境不同。"
+        "dark-mcq-20": "本句的「darkened the room」指「變暗；使變暗」。",
+        "dark-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-20"
     },
@@ -1718,11 +1562,9 @@ export default {
       "masked": "The news ____.",
       "options": [
         "dark-pdf-002",
-        "dark-mcq-20",
-        "dark-mcq-22",
-        "dark-mcq-19",
-        "dark-mcq-23",
-        "dark-mcq-18"
+        "dark-mcq-18",
+        "dark-mcq-13",
+        "dark-mcq-03"
       ],
       "explanation": "本句的「darkened his mood」指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
       "sentenceIndex": 39,
@@ -1731,12 +1573,10 @@ export default {
         "darkened his mood"
       ],
       "optionReasons": {
-        "dark-pdf-002": "本句指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。"
+        "dark-pdf-002": "本句的「darkened his mood」指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-pdf-002"
     },
@@ -1748,11 +1588,9 @@ export default {
       "masked": "Her expression ____ when she heard his name.",
       "options": [
         "dark-pdf-002",
-        "dark-mcq-20",
-        "dark-mcq-22",
-        "dark-mcq-19",
-        "dark-mcq-23",
-        "dark-mcq-18"
+        "dark-pdf-001",
+        "dark-mcq-04",
+        "dark-mcq-15"
       ],
       "explanation": "本句的「darkened」指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
       "sentenceIndex": 40,
@@ -1761,12 +1599,10 @@ export default {
         "darkened"
       ],
       "optionReasons": {
-        "dark-pdf-002": "本句指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。",
-        "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
-        "dark-mcq-18": "「瞞着 X」是「keep X in the dark」的用法，與本句語境不同。"
+        "dark-pdf-002": "本句的「darkened」指「令情緒、神情或氣氛變得更沉重、不快或帶威脅感」。",
+        "dark-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-pdf-002"
     },
@@ -1778,11 +1614,9 @@ export default {
       "masked": "He spoke ____ about what might happen.",
       "options": [
         "dark-mcq-22",
-        "dark-mcq-21",
-        "dark-mcq-23",
-        "dark-mcq-20",
-        "dark-mcq-24",
-        "dark-mcq-19"
+        "dark-mcq-18",
+        "dark-mcq-19",
+        "dark-mcq-08"
       ],
       "explanation": "本句的「darkly」指「陰沉地」。",
       "sentenceIndex": 41,
@@ -1791,12 +1625,10 @@ export default {
         "darkly"
       ],
       "optionReasons": {
-        "dark-mcq-22": "本句指「陰沉地」。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-24": "「思想內容帶有悲觀、危險或令人不安的意味」是「13. dark thought / thought gets dark — 陰暗想法」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。"
+        "dark-mcq-22": "本句的「darkly」指「陰沉地」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-22"
     },
@@ -1808,11 +1640,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "dark-mcq-22",
-        "dark-mcq-21",
-        "dark-mcq-23",
-        "dark-mcq-20",
-        "dark-mcq-24",
-        "dark-mcq-19"
+        "dark-mcq-12",
+        "dark-mcq-18",
+        "dark-mcq-04"
       ],
       "explanation": "本句的「darkly」指「陰沉地」。",
       "sentenceIndex": 42,
@@ -1821,12 +1651,10 @@ export default {
         "darkly"
       ],
       "optionReasons": {
-        "dark-mcq-22": "本句指「陰沉地」。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-23": "「黑馬」是「dark horse」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-24": "「思想內容帶有悲觀、危險或令人不安的意味」是「13. dark thought / thought gets dark — 陰暗想法」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。"
+        "dark-mcq-22": "本句的「darkly」指「陰沉地」。",
+        "dark-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-22"
     },
@@ -1838,11 +1666,9 @@ export default {
       "masked": "She could be the ____ of the competition.",
       "options": [
         "dark-mcq-23",
-        "dark-mcq-22",
-        "dark-mcq-24",
-        "dark-mcq-21",
-        "dark-mcq-20",
-        "dark-mcq-19"
+        "dark-mcq-15",
+        "dark-mcq-17",
+        "dark-mcq-03"
       ],
       "explanation": "本句的「dark horse」指「黑馬」。",
       "sentenceIndex": 43,
@@ -1851,12 +1677,10 @@ export default {
         "dark horse"
       ],
       "optionReasons": {
-        "dark-mcq-23": "本句指「黑馬」。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-24": "「思想內容帶有悲觀、危險或令人不安的意味」是「13. dark thought / thought gets dark — 陰暗想法」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。"
+        "dark-mcq-23": "本句的「dark horse」指「黑馬」。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-23"
     },
@@ -1868,11 +1692,9 @@ export default {
       "masked": "The team emerged as a ____.",
       "options": [
         "dark-mcq-23",
-        "dark-mcq-22",
-        "dark-mcq-24",
-        "dark-mcq-21",
-        "dark-mcq-20",
-        "dark-mcq-19"
+        "dark-mcq-18",
+        "dark-mcq-14",
+        "dark-mcq-15"
       ],
       "explanation": "本句的「dark horse」指「黑馬」。",
       "sentenceIndex": 44,
@@ -1881,12 +1703,10 @@ export default {
         "dark horse"
       ],
       "optionReasons": {
-        "dark-mcq-23": "本句指「黑馬」。",
-        "dark-mcq-22": "「陰沉地」是「darkly」的用法，與本句語境不同。",
-        "dark-mcq-24": "「思想內容帶有悲觀、危險或令人不安的意味」是「13. dark thought / thought gets dark — 陰暗想法」的用法，與本句語境不同。",
-        "dark-mcq-21": "「神情沉下來」是「expression darkened」的用法，與本句語境不同。",
-        "dark-mcq-20": "「變暗；使變暗」是「darken」的用法，與本句語境不同。",
-        "dark-mcq-19": "「沒把握的猜測」是「shot in the dark」的用法，與本句語境不同。"
+        "dark-mcq-23": "本句的「dark horse」指「黑馬」。",
+        "dark-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dark-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dark-mcq-23"
     }
@@ -1898,5 +1718,7 @@ export default {
     "sha256": "63f977f738239d8cb6e48e08c95f103a61f54697e61f0e18220e9c5388589967",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

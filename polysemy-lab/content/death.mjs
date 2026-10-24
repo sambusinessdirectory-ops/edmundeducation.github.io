@@ -1237,7 +1237,7 @@ export default {
     },
     {
       "id": "death-mcq-58",
-      "title": "表示死亡；生命終結",
+      "title": "死亡；生命終結",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示死亡；生命終結",
@@ -1259,7 +1259,7 @@ export default {
     },
     {
       "id": "death-mcq-59",
-      "title": "表示死於……",
+      "title": "死於……",
       "form": "3. die of something",
       "en": "3. die of something",
       "zh": "表示死於……",
@@ -1281,7 +1281,7 @@ export default {
     },
     {
       "id": "death-mcq-60",
-      "title": "表示尷尬死了；笑死了",
+      "title": "尷尬死了；笑死了",
       "form": "14. die of embarrassment / laughter",
       "en": "14. die of embarrassment / laughter",
       "zh": "表示尷尬死了；笑死了",
@@ -1311,11 +1311,9 @@ export default {
       "masked": "The novel imagines a place between life and ____.",
       "options": [
         "death-mcq-58",
-        "death-mcq-57",
-        "death-mcq-59",
-        "death-mcq-56",
-        "death-mcq-60",
-        "death-mcq-55"
+        "death-mcq-29",
+        "death-mcq-39",
+        "death-mcq-36"
       ],
       "explanation": "本句的「death」指「表示死亡；生命終結」。",
       "sentenceIndex": 0,
@@ -1324,12 +1322,10 @@ export default {
         "death"
       ],
       "optionReasons": {
-        "death-mcq-58": "本句指「表示死亡；生命終結」。",
-        "death-mcq-57": "「某事已徹底結束／成為過去」是「dead and buried — figurative」的用法，與本句語境不同。",
-        "death-mcq-59": "「表示死於……」是「3. die of something」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-60": "「表示尷尬死了；笑死了」是「14. die of embarrassment / laughter」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。"
+        "death-mcq-58": "本句的「death」指「表示死亡；生命終結」。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-58"
     },
@@ -1341,11 +1337,9 @@ export default {
       "masked": "Different cultures have different beliefs about ____.",
       "options": [
         "death-mcq-58",
-        "death-mcq-57",
-        "death-mcq-59",
-        "death-mcq-56",
-        "death-mcq-60",
-        "death-mcq-55"
+        "death-mcq-27",
+        "death-mcq-09",
+        "death-mcq-29"
       ],
       "explanation": "本句的「death」指「表示死亡；生命終結」。",
       "sentenceIndex": 1,
@@ -1354,12 +1348,10 @@ export default {
         "death"
       ],
       "optionReasons": {
-        "death-mcq-58": "本句指「表示死亡；生命終結」。",
-        "death-mcq-57": "「某事已徹底結束／成為過去」是「dead and buried — figurative」的用法，與本句語境不同。",
-        "death-mcq-59": "「表示死於……」是「3. die of something」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-60": "「表示尷尬死了；笑死了」是「14. die of embarrassment / laughter」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。"
+        "death-mcq-58": "本句的「death」指「表示死亡；生命終結」。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-58"
     },
@@ -1371,11 +1363,9 @@ export default {
       "masked": "The animal ____ during the night.",
       "options": [
         "death-mcq-01",
-        "death-mcq-02",
-        "death-mcq-03",
-        "death-mcq-04",
-        "death-mcq-05",
-        "death-mcq-06"
+        "death-mcq-40",
+        "death-mcq-43",
+        "death-mcq-23"
       ],
       "explanation": "本句的「died」指「停止生命；死亡／去世」。",
       "sentenceIndex": 2,
@@ -1384,12 +1374,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-01": "本句指「停止生命；死亡／去世」。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-01": "本句的「died」指「停止生命；死亡／去世」。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-01"
     },
@@ -1401,11 +1389,9 @@ export default {
       "masked": "He ____ at the age of ninety.",
       "options": [
         "death-mcq-01",
-        "death-mcq-02",
-        "death-mcq-03",
-        "death-mcq-04",
+        "death-mcq-09",
         "death-mcq-05",
-        "death-mcq-06"
+        "death-mcq-37"
       ],
       "explanation": "本句的「died」指「停止生命；死亡／去世」。",
       "sentenceIndex": 3,
@@ -1414,12 +1400,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-01": "本句指「停止生命；死亡／去世」。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-01": "本句的「died」指「停止生命；死亡／去世」。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-01"
     },
@@ -1431,11 +1415,9 @@ export default {
       "masked": "Many people once ____ infectious diseases.",
       "options": [
         "death-mcq-59",
-        "death-mcq-58",
-        "death-mcq-60",
-        "death-mcq-57",
-        "death-mcq-56",
-        "death-mcq-55"
+        "death-mcq-39",
+        "death-mcq-13",
+        "death-mcq-23"
       ],
       "explanation": "本句的「died of」指「表示死於……」。",
       "sentenceIndex": 4,
@@ -1444,12 +1426,10 @@ export default {
         "died of"
       ],
       "optionReasons": {
-        "death-mcq-59": "本句指「表示死於……」。",
-        "death-mcq-58": "「表示死亡；生命終結」是「Passage meaning」的用法，與本句語境不同。",
-        "death-mcq-60": "「表示尷尬死了；笑死了」是「14. die of embarrassment / laughter」的用法，與本句語境不同。",
-        "death-mcq-57": "「某事已徹底結束／成為過去」是「dead and buried — figurative」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。"
+        "death-mcq-59": "本句的「died of」指「表示死於……」。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-59"
     },
@@ -1461,11 +1441,9 @@ export default {
       "masked": "The plants ____ lack of water.",
       "options": [
         "death-mcq-59",
-        "death-mcq-58",
-        "death-mcq-60",
-        "death-mcq-57",
-        "death-mcq-56",
-        "death-mcq-55"
+        "death-mcq-08",
+        "death-mcq-50",
+        "death-mcq-36"
       ],
       "explanation": "本句的「died of」指「表示死於……」。",
       "sentenceIndex": 5,
@@ -1474,12 +1452,10 @@ export default {
         "died of"
       ],
       "optionReasons": {
-        "death-mcq-59": "本句指「表示死於……」。",
-        "death-mcq-58": "「表示死亡；生命終結」是「Passage meaning」的用法，與本句語境不同。",
-        "death-mcq-60": "「表示尷尬死了；笑死了」是「14. die of embarrassment / laughter」的用法，與本句語境不同。",
-        "death-mcq-57": "「某事已徹底結束／成為過去」是「dead and buried — figurative」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。"
+        "death-mcq-59": "本句的「died of」指「表示死於……」。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-59"
     },
@@ -1491,11 +1467,9 @@ export default {
       "masked": "He ____ his injuries.",
       "options": [
         "death-mcq-02",
-        "death-mcq-01",
-        "death-mcq-03",
-        "death-mcq-04",
-        "death-mcq-05",
-        "death-mcq-06"
+        "death-mcq-30",
+        "death-mcq-32",
+        "death-mcq-39"
       ],
       "explanation": "本句的「died from」指「因疾病、傷害、原因等而死亡」。",
       "sentenceIndex": 6,
@@ -1504,12 +1478,10 @@ export default {
         "died from"
       ],
       "optionReasons": {
-        "death-mcq-02": "本句指「因疾病、傷害、原因等而死亡」。",
-        "death-mcq-01": "「停止生命；死亡／去世」是「die — biological」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-02": "本句的「died from」指「因疾病、傷害、原因等而死亡」。",
+        "death-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-02"
     },
@@ -1521,11 +1493,9 @@ export default {
       "masked": "Fish can ____ polluted water.",
       "options": [
         "death-mcq-02",
-        "death-mcq-01",
-        "death-mcq-03",
+        "death-mcq-57",
         "death-mcq-04",
-        "death-mcq-05",
-        "death-mcq-06"
+        "death-mcq-39"
       ],
       "explanation": "本句的「die from」指「因疾病、傷害、原因等而死亡」。",
       "sentenceIndex": 7,
@@ -1534,12 +1504,10 @@ export default {
         "die from"
       ],
       "optionReasons": {
-        "death-mcq-02": "本句指「因疾病、傷害、原因等而死亡」。",
-        "death-mcq-01": "「停止生命；死亡／去世」是「die — biological」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-02": "本句的「die from」指「因疾病、傷害、原因等而死亡」。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-02"
     },
@@ -1551,11 +1519,9 @@ export default {
       "masked": "Some traditions are slowly ____.",
       "options": [
         "death-mcq-03",
-        "death-mcq-02",
-        "death-mcq-04",
-        "death-mcq-01",
-        "death-mcq-05",
-        "death-mcq-06"
+        "death-mcq-08",
+        "death-mcq-40",
+        "death-mcq-31"
       ],
       "explanation": "本句的「dying」指「傳統、習俗等逐漸消失／消亡」。",
       "sentenceIndex": 8,
@@ -1564,12 +1530,10 @@ export default {
         "dying"
       ],
       "optionReasons": {
-        "death-mcq-03": "本句指「傳統、習俗等逐漸消失／消亡」。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-01": "「停止生命；死亡／去世」是「die — biological」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-03": "本句的「dying」指「傳統、習俗等逐漸消失／消亡」。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-03"
     },
@@ -1581,11 +1545,9 @@ export default {
       "masked": "The old custom eventually ____.",
       "options": [
         "death-mcq-03",
-        "death-mcq-02",
-        "death-mcq-04",
-        "death-mcq-01",
-        "death-mcq-05",
-        "death-mcq-06"
+        "death-mcq-27",
+        "death-mcq-39",
+        "death-mcq-49"
       ],
       "explanation": "本句的「died」指「傳統、習俗等逐漸消失／消亡」。",
       "sentenceIndex": 9,
@@ -1594,12 +1556,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-03": "本句指「傳統、習俗等逐漸消失／消亡」。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-01": "「停止生命；死亡／去世」是「die — biological」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-03": "本句的「died」指「傳統、習俗等逐漸消失／消亡」。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-03"
     },
@@ -1611,11 +1571,9 @@ export default {
       "masked": "Many species are at risk of ____.",
       "options": [
         "death-mcq-04",
-        "death-mcq-03",
-        "death-mcq-05",
-        "death-mcq-02",
-        "death-mcq-06",
-        "death-mcq-01"
+        "death-mcq-43",
+        "death-mcq-57",
+        "death-mcq-49"
       ],
       "explanation": "本句的「dying out」指「完全消失、失傳或滅絕」。",
       "sentenceIndex": 10,
@@ -1624,12 +1582,10 @@ export default {
         "dying out"
       ],
       "optionReasons": {
-        "death-mcq-04": "本句指「完全消失、失傳或滅絕」。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-01": "「停止生命；死亡／去世」是「die — biological」的用法，與本句語境不同。"
+        "death-mcq-04": "本句的「dying out」指「完全消失、失傳或滅絕」。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-04"
     },
@@ -1641,11 +1597,9 @@ export default {
       "masked": "The tradition nearly ____.",
       "options": [
         "death-mcq-04",
-        "death-mcq-03",
-        "death-mcq-05",
-        "death-mcq-02",
-        "death-mcq-06",
-        "death-mcq-01"
+        "death-mcq-33",
+        "death-mcq-41",
+        "death-mcq-21"
       ],
       "explanation": "本句的「died out」指「完全消失、失傳或滅絕」。",
       "sentenceIndex": 11,
@@ -1654,12 +1608,10 @@ export default {
         "died out"
       ],
       "optionReasons": {
-        "death-mcq-04": "本句指「完全消失、失傳或滅絕」。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-01": "「停止生命；死亡／去世」是「die — biological」的用法，與本句語境不同。"
+        "death-mcq-04": "本句的「died out」指「完全消失、失傳或滅絕」。",
+        "death-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-04"
     },
@@ -1671,11 +1623,9 @@ export default {
       "masked": "The music slowly ____.",
       "options": [
         "death-mcq-05",
-        "death-mcq-04",
-        "death-mcq-06",
-        "death-mcq-03",
-        "death-mcq-07",
-        "death-mcq-02"
+        "death-mcq-31",
+        "death-mcq-43",
+        "death-mcq-40"
       ],
       "explanation": "本句的「died away」指「聲音、光線等逐漸減弱直到消失」。",
       "sentenceIndex": 12,
@@ -1684,12 +1634,10 @@ export default {
         "died away"
       ],
       "optionReasons": {
-        "death-mcq-05": "本句指「聲音、光線等逐漸減弱直到消失」。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。"
+        "death-mcq-05": "本句的「died away」指「聲音、光線等逐漸減弱直到消失」。",
+        "death-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-05"
     },
@@ -1701,11 +1649,9 @@ export default {
       "masked": "The laughter ____.",
       "options": [
         "death-mcq-05",
-        "death-mcq-04",
-        "death-mcq-06",
-        "death-mcq-03",
-        "death-mcq-07",
-        "death-mcq-02"
+        "death-mcq-58",
+        "death-mcq-51",
+        "death-mcq-10"
       ],
       "explanation": "本句的「died away」指「聲音、光線等逐漸減弱直到消失」。",
       "sentenceIndex": 13,
@@ -1714,12 +1660,10 @@ export default {
         "died away"
       ],
       "optionReasons": {
-        "death-mcq-05": "本句指「聲音、光線等逐漸減弱直到消失」。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-02": "「因疾病、傷害、原因等而死亡」是「die of/from」的用法，與本句語境不同。"
+        "death-mcq-05": "本句的「died away」指「聲音、光線等逐漸減弱直到消失」。",
+        "death-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-05"
     },
@@ -1731,11 +1675,9 @@ export default {
       "masked": "The wind finally ____.",
       "options": [
         "death-mcq-06",
-        "death-mcq-05",
-        "death-mcq-07",
-        "death-mcq-04",
-        "death-mcq-08",
-        "death-mcq-03"
+        "death-mcq-17",
+        "death-mcq-39",
+        "death-mcq-28"
       ],
       "explanation": "本句的「died down」指「風勢、情緒、爭議等逐漸減弱／平息」。",
       "sentenceIndex": 14,
@@ -1744,12 +1686,10 @@ export default {
         "died down"
       ],
       "optionReasons": {
-        "death-mcq-06": "本句指「風勢、情緒、爭議等逐漸減弱／平息」。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。"
+        "death-mcq-06": "本句的「died down」指「風勢、情緒、爭議等逐漸減弱／平息」。",
+        "death-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-06"
     },
@@ -1761,11 +1701,9 @@ export default {
       "masked": "The excitement began to ____.",
       "options": [
         "death-mcq-06",
-        "death-mcq-05",
-        "death-mcq-07",
-        "death-mcq-04",
-        "death-mcq-08",
-        "death-mcq-03"
+        "death-mcq-53",
+        "death-mcq-10",
+        "death-mcq-23"
       ],
       "explanation": "本句的「die down」指「風勢、情緒、爭議等逐漸減弱／平息」。",
       "sentenceIndex": 15,
@@ -1774,12 +1712,10 @@ export default {
         "die down"
       ],
       "optionReasons": {
-        "death-mcq-06": "本句指「風勢、情緒、爭議等逐漸減弱／平息」。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-03": "「傳統、習俗等逐漸消失／消亡」是「die — disappear/end」的用法，與本句語境不同。"
+        "death-mcq-06": "本句的「die down」指「風勢、情緒、爭議等逐漸減弱／平息」。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-06"
     },
@@ -1791,11 +1727,9 @@ export default {
       "masked": "The plants began to ____ in the heat.",
       "options": [
         "death-mcq-07",
-        "death-mcq-06",
-        "death-mcq-08",
-        "death-mcq-05",
-        "death-mcq-09",
-        "death-mcq-04"
+        "death-mcq-43",
+        "death-mcq-36",
+        "death-mcq-51"
       ],
       "explanation": "本句的「die off」指「多個生命體相繼死亡／大量死亡」。",
       "sentenceIndex": 16,
@@ -1804,12 +1738,10 @@ export default {
         "die off"
       ],
       "optionReasons": {
-        "death-mcq-07": "本句指「多個生命體相繼死亡／大量死亡」。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。"
+        "death-mcq-07": "本句的「die off」指「多個生命體相繼死亡／大量死亡」。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-07"
     },
@@ -1821,11 +1753,9 @@ export default {
       "masked": "Several older trees ____.",
       "options": [
         "death-mcq-07",
-        "death-mcq-06",
-        "death-mcq-08",
-        "death-mcq-05",
-        "death-mcq-09",
-        "death-mcq-04"
+        "death-mcq-22",
+        "death-mcq-52",
+        "death-mcq-42"
       ],
       "explanation": "本句的「died off」指「多個生命體相繼死亡／大量死亡」。",
       "sentenceIndex": 17,
@@ -1834,12 +1764,10 @@ export default {
         "died off"
       ],
       "optionReasons": {
-        "death-mcq-07": "本句指「多個生命體相繼死亡／大量死亡」。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-04": "「完全消失、失傳或滅絕」是「die out」的用法，與本句語境不同。"
+        "death-mcq-07": "本句的「died off」指「多個生命體相繼死亡／大量死亡」。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-07"
     },
@@ -1852,10 +1780,8 @@ export default {
       "options": [
         "death-mcq-08",
         "death-mcq-07",
-        "death-mcq-09",
-        "death-mcq-06",
-        "death-mcq-10",
-        "death-mcq-05"
+        "death-mcq-51",
+        "death-mcq-45"
       ],
       "explanation": "本句的「died」指「設備停止運作；電池耗盡」。",
       "sentenceIndex": 18,
@@ -1864,12 +1790,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-08": "本句指「設備停止運作；電池耗盡」。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。"
+        "death-mcq-08": "本句的「died」指「設備停止運作；電池耗盡」。",
+        "death-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-08"
     },
@@ -1881,11 +1805,9 @@ export default {
       "masked": "The engine suddenly ____.",
       "options": [
         "death-mcq-08",
-        "death-mcq-07",
-        "death-mcq-09",
-        "death-mcq-06",
-        "death-mcq-10",
-        "death-mcq-05"
+        "death-mcq-52",
+        "death-mcq-29",
+        "death-mcq-14"
       ],
       "explanation": "本句的「died」指「設備停止運作；電池耗盡」。",
       "sentenceIndex": 19,
@@ -1894,12 +1816,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-08": "本句指「設備停止運作；電池耗盡」。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。"
+        "death-mcq-08": "本句的「died」指「設備停止運作；電池耗盡」。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-08"
     },
@@ -1911,11 +1831,9 @@ export default {
       "masked": "My battery ____ during the call.",
       "options": [
         "death-mcq-08",
-        "death-mcq-07",
-        "death-mcq-09",
-        "death-mcq-06",
-        "death-mcq-10",
-        "death-mcq-05"
+        "death-mcq-12",
+        "death-mcq-40",
+        "death-mcq-04"
       ],
       "explanation": "本句的「died」指「設備停止運作；電池耗盡」。",
       "sentenceIndex": 20,
@@ -1924,12 +1842,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-08": "本句指「設備停止運作；電池耗盡」。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。"
+        "death-mcq-08": "本句的「died」指「設備停止運作；電池耗盡」。",
+        "death-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-08"
     },
@@ -1941,11 +1857,9 @@ export default {
       "masked": "The camera ____ because the battery was empty.",
       "options": [
         "death-mcq-08",
-        "death-mcq-07",
-        "death-mcq-09",
-        "death-mcq-06",
-        "death-mcq-10",
-        "death-mcq-05"
+        "death-mcq-21",
+        "death-mcq-50",
+        "death-mcq-60"
       ],
       "explanation": "本句的「died」指「設備停止運作；電池耗盡」。",
       "sentenceIndex": 21,
@@ -1954,12 +1868,10 @@ export default {
         "died"
       ],
       "optionReasons": {
-        "death-mcq-08": "本句指「設備停止運作；電池耗盡」。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-05": "「聲音、光線等逐漸減弱直到消失」是「die away」的用法，與本句語境不同。"
+        "death-mcq-08": "本句的「died」指「設備停止運作；電池耗盡」。",
+        "death-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-08"
     },
@@ -1971,11 +1883,9 @@ export default {
       "masked": "I’m ____ the next chapter.",
       "options": [
         "death-mcq-09",
-        "death-mcq-08",
-        "death-mcq-10",
-        "death-mcq-07",
-        "death-mcq-11",
-        "death-mcq-06"
+        "death-mcq-30",
+        "death-mcq-36",
+        "death-mcq-47"
       ],
       "explanation": "本句的「dying to read」指「非常想做某事；迫不及待」。",
       "sentenceIndex": 22,
@@ -1984,12 +1894,10 @@ export default {
         "dying to read"
       ],
       "optionReasons": {
-        "death-mcq-09": "本句指「非常想做某事；迫不及待」。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-09": "本句的「dying to read」指「非常想做某事；迫不及待」。",
+        "death-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-09"
     },
@@ -2001,11 +1909,9 @@ export default {
       "masked": "She is ____ what happened.",
       "options": [
         "death-mcq-09",
-        "death-mcq-08",
-        "death-mcq-10",
-        "death-mcq-07",
-        "death-mcq-11",
-        "death-mcq-06"
+        "death-mcq-21",
+        "death-mcq-46",
+        "death-mcq-41"
       ],
       "explanation": "本句的「dying to know」指「非常想做某事；迫不及待」。",
       "sentenceIndex": 23,
@@ -2014,12 +1920,10 @@ export default {
         "dying to know"
       ],
       "optionReasons": {
-        "death-mcq-09": "本句指「非常想做某事；迫不及待」。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-06": "「風勢、情緒、爭議等逐漸減弱／平息」是「die down」的用法，與本句語境不同。"
+        "death-mcq-09": "本句的「dying to know」指「非常想做某事；迫不及待」。",
+        "death-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-09"
     },
@@ -2031,11 +1935,9 @@ export default {
       "masked": "I’m ____.",
       "options": [
         "death-mcq-10",
-        "death-mcq-09",
-        "death-mcq-11",
-        "death-mcq-08",
+        "death-mcq-32",
         "death-mcq-12",
-        "death-mcq-07"
+        "death-mcq-53"
       ],
       "explanation": "本句的「dying for a coffee」指「非常想要／極需要某物」。",
       "sentenceIndex": 24,
@@ -2044,12 +1946,10 @@ export default {
         "dying for a coffee"
       ],
       "optionReasons": {
-        "death-mcq-10": "本句指「非常想要／極需要某物」。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。"
+        "death-mcq-10": "本句的「dying for a coffee」指「非常想要／極需要某物」。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-10"
     },
@@ -2061,11 +1961,9 @@ export default {
       "masked": "After the walk, we were ____.",
       "options": [
         "death-mcq-10",
-        "death-mcq-09",
-        "death-mcq-11",
-        "death-mcq-08",
-        "death-mcq-12",
-        "death-mcq-07"
+        "death-mcq-23",
+        "death-mcq-03",
+        "death-mcq-02"
       ],
       "explanation": "本句的「dying for some water」指「非常想要／極需要某物」。",
       "sentenceIndex": 25,
@@ -2074,12 +1972,10 @@ export default {
         "dying for some water"
       ],
       "optionReasons": {
-        "death-mcq-10": "本句指「非常想要／極需要某物」。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-07": "「多個生命體相繼死亡／大量死亡」是「die off」的用法，與本句語境不同。"
+        "death-mcq-10": "本句的「dying for some water」指「非常想要／極需要某物」。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-10"
     },
@@ -2091,11 +1987,9 @@ export default {
       "masked": "I nearly ____.",
       "options": [
         "death-mcq-60",
-        "death-mcq-59",
-        "death-mcq-58",
-        "death-mcq-57",
-        "death-mcq-56",
-        "death-mcq-55"
+        "death-mcq-04",
+        "death-mcq-22",
+        "death-mcq-39"
       ],
       "explanation": "本句的「died of embarrassment」指「表示尷尬死了；笑死了」。",
       "sentenceIndex": 26,
@@ -2104,12 +1998,10 @@ export default {
         "died of embarrassment"
       ],
       "optionReasons": {
-        "death-mcq-60": "本句指「表示尷尬死了；笑死了」。",
-        "death-mcq-59": "「表示死於……」是「3. die of something」的用法，與本句語境不同。",
-        "death-mcq-58": "「表示死亡；生命終結」是「Passage meaning」的用法，與本句語境不同。",
-        "death-mcq-57": "「某事已徹底結束／成為過去」是「dead and buried — figurative」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。"
+        "death-mcq-60": "本句的「died of embarrassment」指「表示尷尬死了；笑死了」。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-60"
     },
@@ -2121,11 +2013,9 @@ export default {
       "masked": "We were ____.",
       "options": [
         "death-mcq-60",
-        "death-mcq-59",
-        "death-mcq-58",
-        "death-mcq-57",
-        "death-mcq-56",
-        "death-mcq-55"
+        "death-mcq-04",
+        "death-mcq-52",
+        "death-mcq-06"
       ],
       "explanation": "本句的「dying with laughter」指「表示尷尬死了；笑死了」。",
       "sentenceIndex": 27,
@@ -2134,12 +2024,10 @@ export default {
         "dying with laughter"
       ],
       "optionReasons": {
-        "death-mcq-60": "本句指「表示尷尬死了；笑死了」。",
-        "death-mcq-59": "「表示死於……」是「3. die of something」的用法，與本句語境不同。",
-        "death-mcq-58": "「表示死亡；生命終結」是「Passage meaning」的用法，與本句語境不同。",
-        "death-mcq-57": "「某事已徹底結束／成為過去」是「dead and buried — figurative」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。"
+        "death-mcq-60": "本句的「dying with laughter」指「表示尷尬死了；笑死了」。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-60"
     },
@@ -2151,11 +2039,9 @@ export default {
       "masked": "His ____ shocked the community.",
       "options": [
         "death-mcq-11",
-        "death-mcq-10",
-        "death-mcq-12",
-        "death-mcq-09",
-        "death-mcq-13",
-        "death-mcq-08"
+        "death-mcq-40",
+        "death-mcq-39",
+        "death-mcq-36"
       ],
       "explanation": "本句的「death」指「生命永久終結；死亡」。",
       "sentenceIndex": 28,
@@ -2164,12 +2050,10 @@ export default {
         "death"
       ],
       "optionReasons": {
-        "death-mcq-11": "本句指「生命永久終結；死亡」。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。"
+        "death-mcq-11": "本句的「death」指「生命永久終結；死亡」。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-11"
     },
@@ -2181,11 +2065,9 @@ export default {
       "masked": "The disease can cause ____.",
       "options": [
         "death-mcq-11",
-        "death-mcq-10",
-        "death-mcq-12",
-        "death-mcq-09",
-        "death-mcq-13",
-        "death-mcq-08"
+        "death-mcq-42",
+        "death-mcq-08",
+        "death-mcq-51"
       ],
       "explanation": "本句的「death」指「生命永久終結；死亡」。",
       "sentenceIndex": 29,
@@ -2194,12 +2076,10 @@ export default {
         "death"
       ],
       "optionReasons": {
-        "death-mcq-11": "本句指「生命永久終結；死亡」。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-08": "「設備停止運作；電池耗盡」是「die — machine/device」的用法，與本句語境不同。"
+        "death-mcq-11": "本句的「death」指「生命永久終結；死亡」。",
+        "death-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-11"
     },
@@ -2211,10 +2091,8 @@ export default {
       "masked": "The accident resulted in one ____.",
       "options": [
         "death-mcq-12",
-        "death-mcq-11",
-        "death-mcq-13",
-        "death-mcq-10",
-        "death-mcq-14",
+        "death-mcq-37",
+        "death-mcq-39",
         "death-mcq-09"
       ],
       "explanation": "本句的「death」指「一宗／一次死亡事件」。",
@@ -2224,12 +2102,10 @@ export default {
         "death"
       ],
       "optionReasons": {
-        "death-mcq-12": "本句指「一宗／一次死亡事件」。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。"
+        "death-mcq-12": "本句的「death」指「一宗／一次死亡事件」。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-12"
     },
@@ -2241,11 +2117,9 @@ export default {
       "masked": "The hospital reported no further ____.",
       "options": [
         "death-mcq-12",
-        "death-mcq-11",
-        "death-mcq-13",
-        "death-mcq-10",
-        "death-mcq-14",
-        "death-mcq-09"
+        "death-mcq-57",
+        "death-mcq-43",
+        "death-mcq-23"
       ],
       "explanation": "本句的「deaths」指「一宗／一次死亡事件」。",
       "sentenceIndex": 31,
@@ -2254,12 +2128,10 @@ export default {
         "deaths"
       ],
       "optionReasons": {
-        "death-mcq-12": "本句指「一宗／一次死亡事件」。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-09": "「非常想做某事；迫不及待」是「be dying to do」的用法，與本句語境不同。"
+        "death-mcq-12": "本句的「deaths」指「一宗／一次死亡事件」。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-12"
     },
@@ -2271,11 +2143,9 @@ export default {
       "masked": "Some feared the ____.",
       "options": [
         "death-mcq-13",
-        "death-mcq-12",
-        "death-mcq-14",
-        "death-mcq-11",
-        "death-mcq-15",
-        "death-mcq-10"
+        "death-mcq-08",
+        "death-mcq-30",
+        "death-mcq-50"
       ],
       "explanation": "本句的「death of print」指「制度、傳統、產業等的終結／消亡」。",
       "sentenceIndex": 32,
@@ -2284,12 +2154,10 @@ export default {
         "death of print"
       ],
       "optionReasons": {
-        "death-mcq-13": "本句指「制度、傳統、產業等的終結／消亡」。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。"
+        "death-mcq-13": "本句的「death of print」指「制度、傳統、產業等的終結／消亡」。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-13"
     },
@@ -2301,11 +2169,9 @@ export default {
       "masked": "The decision could mean the ____.",
       "options": [
         "death-mcq-13",
-        "death-mcq-12",
-        "death-mcq-14",
-        "death-mcq-11",
-        "death-mcq-15",
-        "death-mcq-10"
+        "death-mcq-46",
+        "death-mcq-48",
+        "death-mcq-29"
       ],
       "explanation": "本句的「death of the project」指「制度、傳統、產業等的終結／消亡」。",
       "sentenceIndex": 33,
@@ -2314,12 +2180,10 @@ export default {
         "death of the project"
       ],
       "optionReasons": {
-        "death-mcq-13": "本句指「制度、傳統、產業等的終結／消亡」。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。"
+        "death-mcq-13": "本句的「death of the project」指「制度、傳統、產業等的終結／消亡」。",
+        "death-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-13"
     },
@@ -2331,11 +2195,9 @@ export default {
       "masked": "The change did not lead to the ____.",
       "options": [
         "death-mcq-13",
-        "death-mcq-12",
-        "death-mcq-14",
-        "death-mcq-11",
-        "death-mcq-15",
-        "death-mcq-10"
+        "death-mcq-59",
+        "death-mcq-26",
+        "death-mcq-30"
       ],
       "explanation": "本句的「death of the industry」指「制度、傳統、產業等的終結／消亡」。",
       "sentenceIndex": 34,
@@ -2344,12 +2206,10 @@ export default {
         "death of the industry"
       ],
       "optionReasons": {
-        "death-mcq-13": "本句指「制度、傳統、產業等的終結／消亡」。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。"
+        "death-mcq-13": "本句的「death of the industry」指「制度、傳統、產業等的終結／消亡」。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-13"
     },
@@ -2361,11 +2221,9 @@ export default {
       "masked": "People predicted the ____.",
       "options": [
         "death-mcq-13",
-        "death-mcq-12",
-        "death-mcq-14",
-        "death-mcq-11",
-        "death-mcq-15",
-        "death-mcq-10"
+        "death-mcq-59",
+        "death-mcq-27",
+        "death-mcq-52"
       ],
       "explanation": "本句的「death of handwriting」指「制度、傳統、產業等的終結／消亡」。",
       "sentenceIndex": 35,
@@ -2374,12 +2232,10 @@ export default {
         "death of handwriting"
       ],
       "optionReasons": {
-        "death-mcq-13": "本句指「制度、傳統、產業等的終結／消亡」。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-10": "「非常想要／極需要某物」是「be dying for」的用法，與本句語境不同。"
+        "death-mcq-13": "本句的「death of handwriting」指「制度、傳統、產業等的終結／消亡」。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-13"
     },
@@ -2391,11 +2247,9 @@ export default {
       "masked": "____ appears as a character in many stories.",
       "options": [
         "death-mcq-14",
-        "death-mcq-13",
-        "death-mcq-15",
-        "death-mcq-12",
-        "death-mcq-16",
-        "death-mcq-11"
+        "death-mcq-40",
+        "death-mcq-28",
+        "death-mcq-29"
       ],
       "explanation": "本句的「Death」指「擬人化的死亡／死神」。",
       "sentenceIndex": 36,
@@ -2404,12 +2258,10 @@ export default {
         "Death"
       ],
       "optionReasons": {
-        "death-mcq-14": "本句指「擬人化的死亡／死神」。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-16": "「某事件造成的死亡人數」是「death toll」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。"
+        "death-mcq-14": "本句的「Death」指「擬人化的死亡／死神」。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-14"
     },
@@ -2421,11 +2273,9 @@ export default {
       "masked": "Medieval art often personified ____.",
       "options": [
         "death-mcq-14",
-        "death-mcq-13",
-        "death-mcq-15",
-        "death-mcq-12",
-        "death-mcq-16",
-        "death-mcq-11"
+        "death-mcq-37",
+        "death-mcq-04",
+        "death-mcq-22"
       ],
       "explanation": "本句的「Death」指「擬人化的死亡／死神」。",
       "sentenceIndex": 37,
@@ -2434,12 +2284,10 @@ export default {
         "Death"
       ],
       "optionReasons": {
-        "death-mcq-14": "本句指「擬人化的死亡／死神」。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。",
-        "death-mcq-16": "「某事件造成的死亡人數」是「death toll」的用法，與本句語境不同。",
-        "death-mcq-11": "「生命永久終結；死亡」是「death — literal」的用法，與本句語境不同。"
+        "death-mcq-14": "本句的「Death」指「擬人化的死亡／死神」。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-14"
     },
@@ -2451,11 +2299,9 @@ export default {
       "masked": "The report identified the ____.",
       "options": [
         "death-mcq-15",
-        "death-mcq-14",
-        "death-mcq-16",
-        "death-mcq-13",
-        "death-mcq-17",
-        "death-mcq-12"
+        "death-mcq-08",
+        "death-mcq-26",
+        "death-mcq-40"
       ],
       "explanation": "本句的「cause of death」指「導致某人死亡的原因；死因」。",
       "sentenceIndex": 38,
@@ -2464,12 +2310,10 @@ export default {
         "cause of death"
       ],
       "optionReasons": {
-        "death-mcq-15": "本句指「導致某人死亡的原因；死因」。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-16": "「某事件造成的死亡人數」是「death toll」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-17": "「死刑」是「death penalty」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。"
+        "death-mcq-15": "本句的「cause of death」指「導致某人死亡的原因；死因」。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-15"
     },
@@ -2481,11 +2325,9 @@ export default {
       "masked": "The exact ____ remained unclear.",
       "options": [
         "death-mcq-15",
-        "death-mcq-14",
-        "death-mcq-16",
-        "death-mcq-13",
-        "death-mcq-17",
-        "death-mcq-12"
+        "death-mcq-22",
+        "death-mcq-06",
+        "death-mcq-53"
       ],
       "explanation": "本句的「cause of death」指「導致某人死亡的原因；死因」。",
       "sentenceIndex": 39,
@@ -2494,12 +2336,10 @@ export default {
         "cause of death"
       ],
       "optionReasons": {
-        "death-mcq-15": "本句指「導致某人死亡的原因；死因」。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-16": "「某事件造成的死亡人數」是「death toll」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。",
-        "death-mcq-17": "「死刑」是「death penalty」的用法，與本句語境不同。",
-        "death-mcq-12": "「一宗／一次死亡事件」是「a death」的用法，與本句語境不同。"
+        "death-mcq-15": "本句的「cause of death」指「導致某人死亡的原因；死因」。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-15"
     },
@@ -2511,11 +2351,9 @@ export default {
       "masked": "The ____ continued to rise.",
       "options": [
         "death-mcq-16",
-        "death-mcq-15",
-        "death-mcq-17",
-        "death-mcq-14",
-        "death-mcq-18",
-        "death-mcq-13"
+        "death-mcq-05",
+        "death-mcq-09",
+        "death-mcq-08"
       ],
       "explanation": "本句的「death toll」指「某事件造成的死亡人數」。",
       "sentenceIndex": 40,
@@ -2524,12 +2362,10 @@ export default {
         "death toll"
       ],
       "optionReasons": {
-        "death-mcq-16": "本句指「某事件造成的死亡人數」。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-17": "「死刑」是「death penalty」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。"
+        "death-mcq-16": "本句的「death toll」指「某事件造成的死亡人數」。",
+        "death-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-16"
     },
@@ -2541,11 +2377,9 @@ export default {
       "masked": "Officials revised the ____.",
       "options": [
         "death-mcq-16",
-        "death-mcq-15",
-        "death-mcq-17",
-        "death-mcq-14",
-        "death-mcq-18",
-        "death-mcq-13"
+        "death-mcq-23",
+        "death-mcq-06",
+        "death-mcq-53"
       ],
       "explanation": "本句的「death toll」指「某事件造成的死亡人數」。",
       "sentenceIndex": 41,
@@ -2554,12 +2388,10 @@ export default {
         "death toll"
       ],
       "optionReasons": {
-        "death-mcq-16": "本句指「某事件造成的死亡人數」。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-17": "「死刑」是「death penalty」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。",
-        "death-mcq-13": "「制度、傳統、產業等的終結／消亡」是「death — figurative ending」的用法，與本句語境不同。"
+        "death-mcq-16": "本句的「death toll」指「某事件造成的死亡人數」。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-16"
     },
@@ -2571,11 +2403,9 @@ export default {
       "masked": "The country abolished the ____.",
       "options": [
         "death-mcq-17",
-        "death-mcq-16",
-        "death-mcq-18",
-        "death-mcq-15",
-        "death-mcq-19",
-        "death-mcq-14"
+        "death-mcq-22",
+        "death-mcq-53",
+        "death-mcq-49"
       ],
       "explanation": "本句的「death penalty」指「死刑」。",
       "sentenceIndex": 42,
@@ -2584,12 +2414,10 @@ export default {
         "death penalty"
       ],
       "optionReasons": {
-        "death-mcq-17": "本句指「死刑」。",
-        "death-mcq-16": "「某事件造成的死亡人數」是「death toll」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。"
+        "death-mcq-17": "本句的「death penalty」指「死刑」。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-17"
     },
@@ -2601,11 +2429,9 @@ export default {
       "masked": "The debate focused on the ____.",
       "options": [
         "death-mcq-17",
-        "death-mcq-16",
-        "death-mcq-18",
-        "death-mcq-15",
-        "death-mcq-19",
-        "death-mcq-14"
+        "death-mcq-35",
+        "death-mcq-49",
+        "death-mcq-39"
       ],
       "explanation": "本句的「death penalty」指「死刑」。",
       "sentenceIndex": 43,
@@ -2614,12 +2440,10 @@ export default {
         "death penalty"
       ],
       "optionReasons": {
-        "death-mcq-17": "本句指「死刑」。",
-        "death-mcq-16": "「某事件造成的死亡人數」是「death toll」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。",
-        "death-mcq-15": "「導致某人死亡的原因；死因」是「cause of death」的用法，與本句語境不同。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。",
-        "death-mcq-14": "「擬人化的死亡／死神」是「Death — personified」的用法，與本句語境不同。"
+        "death-mcq-17": "本句的「death penalty」指「死刑」。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-17"
     },
@@ -2631,11 +2455,9 @@ export default {
       "masked": "He spent years on ____.",
       "options": [
         "death-mcq-20",
-        "death-mcq-19",
-        "death-mcq-21",
-        "death-mcq-18",
-        "death-mcq-22",
-        "death-mcq-17"
+        "death-mcq-26",
+        "death-mcq-43",
+        "death-mcq-40"
       ],
       "explanation": "本句的「death row」指「關押死刑犯的死囚區」。",
       "sentenceIndex": 44,
@@ -2644,12 +2466,10 @@ export default {
         "death row"
       ],
       "optionReasons": {
-        "death-mcq-20": "本句指「關押死刑犯的死囚區」。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-17": "「死刑」是「death penalty」的用法，與本句語境不同。"
+        "death-mcq-20": "本句的「death row」指「關押死刑犯的死囚區」。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-20"
     },
@@ -2661,11 +2481,9 @@ export default {
       "masked": "The documentary examines life on ____.",
       "options": [
         "death-mcq-20",
-        "death-mcq-19",
-        "death-mcq-21",
-        "death-mcq-18",
-        "death-mcq-22",
-        "death-mcq-17"
+        "death-mcq-35",
+        "death-mcq-32",
+        "death-mcq-26"
       ],
       "explanation": "本句的「death row」指「關押死刑犯的死囚區」。",
       "sentenceIndex": 45,
@@ -2674,12 +2492,10 @@ export default {
         "death row"
       ],
       "optionReasons": {
-        "death-mcq-20": "本句指「關押死刑犯的死囚區」。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-17": "「死刑」是「death penalty」的用法，與本句語境不同。"
+        "death-mcq-20": "本句的「death row」指「關押死刑犯的死囚區」。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-20"
     },
@@ -2691,11 +2507,9 @@ export default {
       "masked": "The bird was ____.",
       "options": [
         "death-mcq-21",
-        "death-mcq-20",
-        "death-mcq-22",
-        "death-mcq-19",
-        "death-mcq-23",
-        "death-mcq-18"
+        "death-mcq-29",
+        "death-mcq-40",
+        "death-mcq-39"
       ],
       "explanation": "本句的「dead」指「已不再有生命的；死的」。",
       "sentenceIndex": 46,
@@ -2704,12 +2518,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-21": "本句指「已不再有生命的；死的」。",
-        "death-mcq-20": "「關押死刑犯的死囚區」是「death row」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。"
+        "death-mcq-21": "本句的「dead」指「已不再有生命的；死的」。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-21"
     },
@@ -2721,11 +2533,9 @@ export default {
       "masked": "The tree is completely ____.",
       "options": [
         "death-mcq-21",
-        "death-mcq-20",
-        "death-mcq-22",
-        "death-mcq-19",
-        "death-mcq-23",
-        "death-mcq-18"
+        "death-mcq-26",
+        "death-mcq-06",
+        "death-mcq-28"
       ],
       "explanation": "本句的「dead」指「已不再有生命的；死的」。",
       "sentenceIndex": 47,
@@ -2734,12 +2544,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-21": "本句指「已不再有生命的；死的」。",
-        "death-mcq-20": "「關押死刑犯的死囚區」是「death row」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-18": "「死刑判決」是「death sentence — literal」的用法，與本句語境不同。"
+        "death-mcq-21": "本句的「dead」指「已不再有生命的；死的」。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-21"
     },
@@ -2751,11 +2559,9 @@ export default {
       "masked": "My phone is ____.",
       "options": [
         "death-mcq-22",
-        "death-mcq-21",
-        "death-mcq-23",
-        "death-mcq-20",
-        "death-mcq-24",
-        "death-mcq-19"
+        "death-mcq-59",
+        "death-mcq-26",
+        "death-mcq-10"
       ],
       "explanation": "本句的「dead」指「已停止運作／沒電／失效的」。",
       "sentenceIndex": 48,
@@ -2764,12 +2570,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-22": "本句指「已停止運作／沒電／失效的」。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-20": "「關押死刑犯的死囚區」是「death row」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。"
+        "death-mcq-22": "本句的「dead」指「已停止運作／沒電／失效的」。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-22"
     },
@@ -2781,11 +2585,9 @@ export default {
       "masked": "The engine is ____.",
       "options": [
         "death-mcq-22",
-        "death-mcq-21",
-        "death-mcq-23",
-        "death-mcq-20",
-        "death-mcq-24",
-        "death-mcq-19"
+        "death-mcq-13",
+        "death-mcq-59",
+        "death-mcq-10"
       ],
       "explanation": "本句的「dead」指「已停止運作／沒電／失效的」。",
       "sentenceIndex": 49,
@@ -2794,12 +2596,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-22": "本句指「已停止運作／沒電／失效的」。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-20": "「關押死刑犯的死囚區」是「death row」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-19": "「對某人／某事造成毀滅性後果的致命打擊」是「death sentence — figurative」的用法，與本句語境不同。"
+        "death-mcq-22": "本句的「dead」指「已停止運作／沒電／失效的」。",
+        "death-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-22"
     },
@@ -2811,11 +2611,9 @@ export default {
       "masked": "The car would not start because of a ____.",
       "options": [
         "death-mcq-23",
-        "death-mcq-22",
-        "death-mcq-24",
-        "death-mcq-21",
-        "death-mcq-25",
-        "death-mcq-20"
+        "death-mcq-12",
+        "death-mcq-10",
+        "death-mcq-46"
       ],
       "explanation": "本句的「dead battery」指「已無電量的電池」。",
       "sentenceIndex": 50,
@@ -2824,12 +2622,10 @@ export default {
         "dead battery"
       ],
       "optionReasons": {
-        "death-mcq-23": "本句指「已無電量的電池」。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-20": "「關押死刑犯的死囚區」是「death row」的用法，與本句語境不同。"
+        "death-mcq-23": "本句的「dead battery」指「已無電量的電池」。",
+        "death-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-23"
     },
@@ -2841,11 +2637,9 @@ export default {
       "masked": "I replaced the ____.",
       "options": [
         "death-mcq-23",
-        "death-mcq-22",
-        "death-mcq-24",
-        "death-mcq-21",
-        "death-mcq-25",
-        "death-mcq-20"
+        "death-mcq-35",
+        "death-mcq-29",
+        "death-mcq-46"
       ],
       "explanation": "本句的「dead battery」指「已無電量的電池」。",
       "sentenceIndex": 51,
@@ -2854,12 +2648,10 @@ export default {
         "dead battery"
       ],
       "optionReasons": {
-        "death-mcq-23": "本句指「已無電量的電池」。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-20": "「關押死刑犯的死囚區」是「death row」的用法，與本句語境不同。"
+        "death-mcq-23": "本句的「dead battery」指「已無電量的電池」。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-23"
     },
@@ -2871,11 +2663,9 @@ export default {
       "masked": "The town centre was ____ after midnight.",
       "options": [
         "death-mcq-24",
-        "death-mcq-23",
-        "death-mcq-25",
-        "death-mcq-22",
-        "death-mcq-26",
-        "death-mcq-21"
+        "death-mcq-51",
+        "death-mcq-27",
+        "death-mcq-06"
       ],
       "explanation": "本句的「dead」指「沒有活動、非常冷清或死氣沉沉的」。",
       "sentenceIndex": 52,
@@ -2884,12 +2674,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-24": "本句指「沒有活動、非常冷清或死氣沉沉的」。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。"
+        "death-mcq-24": "本句的「dead」指「沒有活動、非常冷清或死氣沉沉的」。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-24"
     },
@@ -2901,11 +2689,9 @@ export default {
       "masked": "Business was ____ that afternoon.",
       "options": [
         "death-mcq-24",
-        "death-mcq-23",
-        "death-mcq-25",
-        "death-mcq-22",
-        "death-mcq-26",
-        "death-mcq-21"
+        "death-mcq-27",
+        "death-mcq-06",
+        "death-mcq-51"
       ],
       "explanation": "本句的「dead」指「沒有活動、非常冷清或死氣沉沉的」。",
       "sentenceIndex": 53,
@@ -2914,12 +2700,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-24": "本句指「沒有活動、非常冷清或死氣沉沉的」。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-21": "「已不再有生命的；死的」是「dead — literal」的用法，與本句語境不同。"
+        "death-mcq-24": "本句的「dead」指「沒有活動、非常冷清或死氣沉沉的」。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-24"
     },
@@ -2931,11 +2715,9 @@ export default {
       "masked": "The room fell into ____.",
       "options": [
         "death-mcq-25",
-        "death-mcq-24",
-        "death-mcq-26",
-        "death-mcq-23",
-        "death-mcq-27",
-        "death-mcq-22"
+        "death-mcq-37",
+        "death-mcq-35",
+        "death-mcq-09"
       ],
       "explanation": "本句的「dead silence」指「完全沒有聲音；一片死寂」。",
       "sentenceIndex": 54,
@@ -2944,12 +2726,10 @@ export default {
         "dead silence"
       ],
       "optionReasons": {
-        "death-mcq-25": "本句指「完全沒有聲音；一片死寂」。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。"
+        "death-mcq-25": "本句的「dead silence」指「完全沒有聲音；一片死寂」。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-25"
     },
@@ -2961,11 +2741,9 @@ export default {
       "masked": "There was ____ after the announcement.",
       "options": [
         "death-mcq-25",
-        "death-mcq-24",
-        "death-mcq-26",
-        "death-mcq-23",
-        "death-mcq-27",
-        "death-mcq-22"
+        "death-mcq-32",
+        "death-mcq-52",
+        "death-mcq-53"
       ],
       "explanation": "本句的「dead silence」指「完全沒有聲音；一片死寂」。",
       "sentenceIndex": 55,
@@ -2974,12 +2752,10 @@ export default {
         "dead silence"
       ],
       "optionReasons": {
-        "death-mcq-25": "本句指「完全沒有聲音；一片死寂」。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-22": "「已停止運作／沒電／失效的」是「dead — device/system」的用法，與本句語境不同。"
+        "death-mcq-25": "本句的「dead silence」指「完全沒有聲音；一片死寂」。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-25"
     },
@@ -2991,11 +2767,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "death-mcq-26",
-        "death-mcq-25",
-        "death-mcq-27",
-        "death-mcq-24",
-        "death-mcq-28",
-        "death-mcq-23"
+        "death-mcq-32",
+        "death-mcq-16",
+        "death-mcq-47"
       ],
       "explanation": "本句的「dead tired」指「完全地、徹底地」。",
       "sentenceIndex": 56,
@@ -3004,12 +2778,10 @@ export default {
         "dead tired"
       ],
       "optionReasons": {
-        "death-mcq-26": "本句指「完全地、徹底地」。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。"
+        "death-mcq-26": "本句的「dead tired」指「完全地、徹底地」。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-26"
     },
@@ -3021,11 +2793,9 @@ export default {
       "masked": "The road was ____.",
       "options": [
         "death-mcq-26",
-        "death-mcq-25",
-        "death-mcq-27",
-        "death-mcq-24",
-        "death-mcq-28",
-        "death-mcq-23"
+        "death-mcq-42",
+        "death-mcq-10",
+        "death-mcq-38"
       ],
       "explanation": "本句的「dead straight」指「完全地、徹底地」。",
       "sentenceIndex": 57,
@@ -3034,12 +2804,10 @@ export default {
         "dead straight"
       ],
       "optionReasons": {
-        "death-mcq-26": "本句指「完全地、徹底地」。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-23": "「已無電量的電池」是「dead battery」的用法，與本句語境不同。"
+        "death-mcq-26": "本句的「dead straight」指「完全地、徹底地」。",
+        "death-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-26"
     },
@@ -3051,11 +2819,9 @@ export default {
       "masked": "You were ____.",
       "options": [
         "death-mcq-27",
-        "death-mcq-26",
-        "death-mcq-28",
-        "death-mcq-25",
-        "death-mcq-29",
-        "death-mcq-24"
+        "death-mcq-09",
+        "death-mcq-23",
+        "death-mcq-45"
       ],
       "explanation": "本句的「dead right」指「完全正確／完全錯誤」。",
       "sentenceIndex": 58,
@@ -3064,12 +2830,10 @@ export default {
         "dead right"
       ],
       "optionReasons": {
-        "death-mcq-27": "本句指「完全正確／完全錯誤」。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。"
+        "death-mcq-27": "本句的「dead right」指「完全正確／完全錯誤」。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-27"
     },
@@ -3081,11 +2845,9 @@ export default {
       "masked": "My first guess was ____.",
       "options": [
         "death-mcq-27",
-        "death-mcq-26",
-        "death-mcq-28",
-        "death-mcq-25",
-        "death-mcq-29",
-        "death-mcq-24"
+        "death-mcq-59",
+        "death-mcq-08",
+        "death-mcq-36"
       ],
       "explanation": "本句的「dead wrong」指「完全正確／完全錯誤」。",
       "sentenceIndex": 59,
@@ -3094,12 +2856,10 @@ export default {
         "dead wrong"
       ],
       "optionReasons": {
-        "death-mcq-27": "本句指「完全正確／完全錯誤」。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-24": "「沒有活動、非常冷清或死氣沉沉的」是「dead — inactive」的用法，與本句語境不同。"
+        "death-mcq-27": "本句的「dead wrong」指「完全正確／完全錯誤」。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-27"
     },
@@ -3111,11 +2871,9 @@ export default {
       "masked": "The arrow hit ____.",
       "options": [
         "death-mcq-28",
-        "death-mcq-27",
-        "death-mcq-29",
-        "death-mcq-26",
-        "death-mcq-30",
-        "death-mcq-25"
+        "death-mcq-46",
+        "death-mcq-09",
+        "death-mcq-54"
       ],
       "explanation": "本句的「dead centre」指「正中央／正前方」。",
       "sentenceIndex": 60,
@@ -3124,12 +2882,10 @@ export default {
         "dead centre"
       ],
       "optionReasons": {
-        "death-mcq-28": "本句指「正中央／正前方」。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。"
+        "death-mcq-28": "本句的「dead centre」指「正中央／正前方」。",
+        "death-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-28"
     },
@@ -3141,11 +2897,9 @@ export default {
       "masked": "The island was ____.",
       "options": [
         "death-mcq-28",
-        "death-mcq-27",
-        "death-mcq-29",
-        "death-mcq-26",
-        "death-mcq-30",
-        "death-mcq-25"
+        "death-mcq-03",
+        "death-mcq-07",
+        "death-mcq-42"
       ],
       "explanation": "本句的「dead ahead」指「正中央／正前方」。",
       "sentenceIndex": 61,
@@ -3154,12 +2908,10 @@ export default {
         "dead ahead"
       ],
       "optionReasons": {
-        "death-mcq-28": "本句指「正中央／正前方」。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-25": "「完全沒有聲音；一片死寂」是「dead silence」的用法，與本句語境不同。"
+        "death-mcq-28": "本句的「dead ahead」指「正中央／正前方」。",
+        "death-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-28"
     },
@@ -3171,11 +2923,9 @@ export default {
       "masked": "My leg went ____ after I sat on it too long.",
       "options": [
         "death-mcq-29",
-        "death-mcq-28",
-        "death-mcq-30",
-        "death-mcq-27",
-        "death-mcq-31",
-        "death-mcq-26"
+        "death-mcq-48",
+        "death-mcq-09",
+        "death-mcq-13"
       ],
       "explanation": "本句的「dead」指「身體部位麻木、失去知覺的」。",
       "sentenceIndex": 62,
@@ -3184,12 +2934,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-29": "本句指「身體部位麻木、失去知覺的」。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。"
+        "death-mcq-29": "本句的「dead」指「身體部位麻木、失去知覺的」。",
+        "death-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-29"
     },
@@ -3201,11 +2949,9 @@ export default {
       "masked": "His fingers felt ____ in the cold.",
       "options": [
         "death-mcq-29",
-        "death-mcq-28",
-        "death-mcq-30",
-        "death-mcq-27",
-        "death-mcq-31",
-        "death-mcq-26"
+        "death-mcq-40",
+        "death-mcq-37",
+        "death-mcq-28"
       ],
       "explanation": "本句的「dead」指「身體部位麻木、失去知覺的」。",
       "sentenceIndex": 63,
@@ -3214,12 +2960,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-29": "本句指「身體部位麻木、失去知覺的」。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-26": "「完全地、徹底地」是「dead — intensifier」的用法，與本句語境不同。"
+        "death-mcq-29": "本句的「dead」指「身體部位麻木、失去知覺的」。",
+        "death-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-29"
     },
@@ -3231,11 +2975,9 @@ export default {
       "masked": "The phone line went ____.",
       "options": [
         "death-mcq-30",
-        "death-mcq-29",
-        "death-mcq-31",
+        "death-mcq-14",
         "death-mcq-28",
-        "death-mcq-32",
-        "death-mcq-27"
+        "death-mcq-39"
       ],
       "explanation": "本句的「dead」指「已失效、沒有訊號的線路／連線」。",
       "sentenceIndex": 64,
@@ -3244,12 +2986,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-30": "本句指「已失效、沒有訊號的線路／連線」。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。"
+        "death-mcq-30": "本句的「dead」指「已失效、沒有訊號的線路／連線」。",
+        "death-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-30"
     },
@@ -3261,11 +3001,9 @@ export default {
       "masked": "The connection was completely ____.",
       "options": [
         "death-mcq-30",
-        "death-mcq-29",
-        "death-mcq-31",
-        "death-mcq-28",
-        "death-mcq-32",
-        "death-mcq-27"
+        "death-mcq-15",
+        "death-mcq-26",
+        "death-mcq-10"
       ],
       "explanation": "本句的「dead」指「已失效、沒有訊號的線路／連線」。",
       "sentenceIndex": 65,
@@ -3274,12 +3012,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-30": "本句指「已失效、沒有訊號的線路／連線」。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-27": "「完全正確／完全錯誤」是「dead right/wrong」的用法，與本句語境不同。"
+        "death-mcq-30": "本句的「dead」指「已失效、沒有訊號的線路／連線」。",
+        "death-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-30"
     },
@@ -3291,11 +3027,9 @@ export default {
       "masked": "Latin is often described as a ____.",
       "options": [
         "death-mcq-31",
-        "death-mcq-30",
-        "death-mcq-32",
-        "death-mcq-29",
-        "death-mcq-33",
-        "death-mcq-28"
+        "death-mcq-35",
+        "death-mcq-37",
+        "death-mcq-26"
       ],
       "explanation": "本句的「dead language」指「已無母語使用者的死語」。",
       "sentenceIndex": 66,
@@ -3304,12 +3038,10 @@ export default {
         "dead language"
       ],
       "optionReasons": {
-        "death-mcq-31": "本句指「已無母語使用者的死語」。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。"
+        "death-mcq-31": "本句的「dead language」指「已無母語使用者的死語」。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-31"
     },
@@ -3321,11 +3053,9 @@ export default {
       "masked": "A ____ may still be studied academically.",
       "options": [
         "death-mcq-31",
-        "death-mcq-30",
-        "death-mcq-32",
         "death-mcq-29",
-        "death-mcq-33",
-        "death-mcq-28"
+        "death-mcq-44",
+        "death-mcq-10"
       ],
       "explanation": "本句的「dead language」指「已無母語使用者的死語」。",
       "sentenceIndex": 67,
@@ -3334,12 +3064,10 @@ export default {
         "dead language"
       ],
       "optionReasons": {
-        "death-mcq-31": "本句指「已無母語使用者的死語」。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-28": "「正中央／正前方」是「dead centre/ahead」的用法，與本句語境不同。"
+        "death-mcq-31": "本句的「dead language」指「已無母語使用者的死語」。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-31"
     },
@@ -3351,11 +3079,9 @@ export default {
       "masked": "The format is practically ____.",
       "options": [
         "death-mcq-32",
-        "death-mcq-31",
-        "death-mcq-33",
-        "death-mcq-30",
-        "death-mcq-34",
-        "death-mcq-29"
+        "death-mcq-10",
+        "death-mcq-17",
+        "death-mcq-06"
       ],
       "explanation": "本句的「dead」指「已淘汰、停止使用的技術」。",
       "sentenceIndex": 68,
@@ -3364,12 +3090,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-32": "本句指「已淘汰、停止使用的技術」。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。"
+        "death-mcq-32": "本句的「dead」指「已淘汰、停止使用的技術」。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-32"
     },
@@ -3381,11 +3105,9 @@ export default {
       "masked": "The technology is not quite ____ yet.",
       "options": [
         "death-mcq-32",
-        "death-mcq-31",
-        "death-mcq-33",
-        "death-mcq-30",
-        "death-mcq-34",
-        "death-mcq-29"
+        "death-mcq-27",
+        "death-mcq-50",
+        "death-mcq-48"
       ],
       "explanation": "本句的「dead」指「已淘汰、停止使用的技術」。",
       "sentenceIndex": 69,
@@ -3394,12 +3116,10 @@ export default {
         "dead"
       ],
       "optionReasons": {
-        "death-mcq-32": "本句指「已淘汰、停止使用的技術」。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-29": "「身體部位麻木、失去知覺的」是「dead — numb」的用法，與本句語境不同。"
+        "death-mcq-32": "本句的「dead」指「已淘汰、停止使用的技術」。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-32"
     },
@@ -3411,11 +3131,9 @@ export default {
       "masked": "He joked that he felt ____ after the exhausting week.",
       "options": [
         "death-mcq-33",
-        "death-mcq-32",
-        "death-mcq-34",
-        "death-mcq-31",
-        "death-mcq-35",
-        "death-mcq-30"
+        "death-mcq-04",
+        "death-mcq-53",
+        "death-mcq-32"
       ],
       "explanation": "本句的「dead inside」指「情緒麻木、空虛；心如死灰」。",
       "sentenceIndex": 70,
@@ -3424,12 +3142,10 @@ export default {
         "dead inside"
       ],
       "optionReasons": {
-        "death-mcq-33": "本句指「情緒麻木、空虛；心如死灰」。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。"
+        "death-mcq-33": "本句的「dead inside」指「情緒麻木、空虛；心如死灰」。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-33"
     },
@@ -3441,11 +3157,9 @@ export default {
       "masked": "The character describes herself as ____.",
       "options": [
         "death-mcq-33",
+        "death-mcq-28",
         "death-mcq-32",
-        "death-mcq-34",
-        "death-mcq-31",
-        "death-mcq-35",
-        "death-mcq-30"
+        "death-mcq-52"
       ],
       "explanation": "本句的「dead inside」指「情緒麻木、空虛；心如死灰」。",
       "sentenceIndex": 71,
@@ -3454,12 +3168,10 @@ export default {
         "dead inside"
       ],
       "optionReasons": {
-        "death-mcq-33": "本句指「情緒麻木、空虛；心如死灰」。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-30": "「已失效、沒有訊號的線路／連線」是「dead line/connection」的用法，與本句語境不同。"
+        "death-mcq-33": "本句的「dead inside」指「情緒麻木、空虛；心如死灰」。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-33"
     },
@@ -3471,11 +3183,9 @@ export default {
       "masked": "The doctor stayed beside the ____.",
       "options": [
         "death-mcq-34",
-        "death-mcq-33",
-        "death-mcq-35",
-        "death-mcq-32",
-        "death-mcq-36",
-        "death-mcq-31"
+        "death-mcq-09",
+        "death-mcq-52",
+        "death-mcq-26"
       ],
       "explanation": "本句的「dying patient」指「接近死亡的；垂死的」。",
       "sentenceIndex": 72,
@@ -3484,12 +3194,10 @@ export default {
         "dying patient"
       ],
       "optionReasons": {
-        "death-mcq-34": "本句指「接近死亡的；垂死的」。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。"
+        "death-mcq-34": "本句的「dying patient」指「接近死亡的；垂死的」。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-34"
     },
@@ -3501,11 +3209,9 @@ export default {
       "masked": "They cared for a ____.",
       "options": [
         "death-mcq-34",
-        "death-mcq-33",
-        "death-mcq-35",
-        "death-mcq-32",
-        "death-mcq-36",
-        "death-mcq-31"
+        "death-mcq-26",
+        "death-mcq-29",
+        "death-mcq-05"
       ],
       "explanation": "本句的「dying animal」指「接近死亡的；垂死的」。",
       "sentenceIndex": 73,
@@ -3514,12 +3220,10 @@ export default {
         "dying animal"
       ],
       "optionReasons": {
-        "death-mcq-34": "本句指「接近死亡的；垂死的」。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-31": "「已無母語使用者的死語」是「dead language」的用法，與本句語境不同。"
+        "death-mcq-34": "本句的「dying animal」指「接近死亡的；垂死的」。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-34"
     },
@@ -3531,11 +3235,9 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "death-mcq-35",
-        "death-mcq-34",
-        "death-mcq-36",
-        "death-mcq-33",
-        "death-mcq-37",
-        "death-mcq-32"
+        "death-mcq-50",
+        "death-mcq-57",
+        "death-mcq-43"
       ],
       "explanation": "本句的「dying tradition」指「正逐漸消失、瀕臨消亡的」。",
       "sentenceIndex": 74,
@@ -3544,12 +3246,10 @@ export default {
         "dying tradition"
       ],
       "optionReasons": {
-        "death-mcq-35": "本句指「正逐漸消失、瀕臨消亡的」。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。"
+        "death-mcq-35": "本句的「dying tradition」指「正逐漸消失、瀕臨消亡的」。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-35"
     },
@@ -3561,11 +3261,9 @@ export default {
       "masked": "Some describe the craft as a ____.",
       "options": [
         "death-mcq-35",
-        "death-mcq-34",
-        "death-mcq-36",
-        "death-mcq-33",
-        "death-mcq-37",
-        "death-mcq-32"
+        "death-mcq-50",
+        "death-mcq-09",
+        "death-mcq-17"
       ],
       "explanation": "本句的「dying art」指「正逐漸消失、瀕臨消亡的」。",
       "sentenceIndex": 75,
@@ -3574,12 +3272,10 @@ export default {
         "dying art"
       ],
       "optionReasons": {
-        "death-mcq-35": "本句指「正逐漸消失、瀕臨消亡的」。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-32": "「已淘汰、停止使用的技術」是「dead technology」的用法，與本句語境不同。"
+        "death-mcq-35": "本句的「dying art」指「正逐漸消失、瀕臨消亡的」。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-35"
     },
@@ -3591,11 +3287,9 @@ export default {
       "masked": "The region depended on a ____.",
       "options": [
         "death-mcq-36",
-        "death-mcq-35",
-        "death-mcq-37",
-        "death-mcq-34",
-        "death-mcq-38",
-        "death-mcq-33"
+        "death-mcq-53",
+        "death-mcq-21",
+        "death-mcq-42"
       ],
       "explanation": "本句的「dying industry」指「日漸式微、接近消失的產業」。",
       "sentenceIndex": 76,
@@ -3604,12 +3298,10 @@ export default {
         "dying industry"
       ],
       "optionReasons": {
-        "death-mcq-36": "本句指「日漸式微、接近消失的產業」。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。"
+        "death-mcq-36": "本句的「dying industry」指「日漸式微、接近消失的產業」。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-36"
     },
@@ -3621,11 +3313,9 @@ export default {
       "masked": "Shops were closing in the ____.",
       "options": [
         "death-mcq-36",
-        "death-mcq-35",
-        "death-mcq-37",
-        "death-mcq-34",
-        "death-mcq-38",
-        "death-mcq-33"
+        "death-mcq-52",
+        "death-mcq-12",
+        "death-mcq-23"
       ],
       "explanation": "本句的「dying town」指「日漸式微、接近消失的產業」。",
       "sentenceIndex": 77,
@@ -3634,12 +3324,10 @@ export default {
         "dying town"
       ],
       "optionReasons": {
-        "death-mcq-36": "本句指「日漸式微、接近消失的產業」。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-33": "「情緒麻木、空虛；心如死灰」是「dead inside」的用法，與本句語境不同。"
+        "death-mcq-36": "本句的「dying town」指「日漸式微、接近消失的產業」。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-36"
     },
@@ -3651,11 +3339,9 @@ export default {
       "masked": "He made the request on his ____.",
       "options": [
         "death-mcq-37",
-        "death-mcq-36",
-        "death-mcq-38",
-        "death-mcq-35",
-        "death-mcq-39",
-        "death-mcq-34"
+        "death-mcq-59",
+        "death-mcq-51",
+        "death-mcq-23"
       ],
       "explanation": "本句的「deathbed」指「臨終病床；臨終時期」。",
       "sentenceIndex": 78,
@@ -3664,12 +3350,10 @@ export default {
         "deathbed"
       ],
       "optionReasons": {
-        "death-mcq-37": "本句指「臨終病床；臨終時期」。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。"
+        "death-mcq-37": "本句的「deathbed」指「臨終病床；臨終時期」。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-37"
     },
@@ -3681,11 +3365,9 @@ export default {
       "masked": "It was described as a ____.",
       "options": [
         "death-mcq-37",
-        "death-mcq-36",
-        "death-mcq-38",
-        "death-mcq-35",
-        "death-mcq-39",
-        "death-mcq-34"
+        "death-mcq-04",
+        "death-mcq-41",
+        "death-mcq-28"
       ],
       "explanation": "本句的「deathbed confession」指「臨終病床；臨終時期」。",
       "sentenceIndex": 79,
@@ -3694,12 +3376,10 @@ export default {
         "deathbed confession"
       ],
       "optionReasons": {
-        "death-mcq-37": "本句指「臨終病床；臨終時期」。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-34": "「接近死亡的；垂死的」是「dying — literal」的用法，與本句語境不同。"
+        "death-mcq-37": "本句的「deathbed confession」指「臨終病床；臨終時期」。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-37"
     },
@@ -3711,11 +3391,9 @@ export default {
       "masked": "The snake’s venom can be ____.",
       "options": [
         "death-mcq-38",
-        "death-mcq-37",
-        "death-mcq-39",
         "death-mcq-36",
-        "death-mcq-40",
-        "death-mcq-35"
+        "death-mcq-43",
+        "death-mcq-29"
       ],
       "explanation": "本句的「deadly」指「能造成死亡的；致命的」。",
       "sentenceIndex": 80,
@@ -3724,12 +3402,10 @@ export default {
         "deadly"
       ],
       "optionReasons": {
-        "death-mcq-38": "本句指「能造成死亡的；致命的」。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。"
+        "death-mcq-38": "本句的「deadly」指「能造成死亡的；致命的」。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-38"
     },
@@ -3741,11 +3417,9 @@ export default {
       "masked": "The disease can become ____.",
       "options": [
         "death-mcq-38",
-        "death-mcq-37",
-        "death-mcq-39",
-        "death-mcq-36",
-        "death-mcq-40",
-        "death-mcq-35"
+        "death-mcq-06",
+        "death-mcq-26",
+        "death-mcq-08"
       ],
       "explanation": "本句的「deadly」指「能造成死亡的；致命的」。",
       "sentenceIndex": 81,
@@ -3754,12 +3428,10 @@ export default {
         "deadly"
       ],
       "optionReasons": {
-        "death-mcq-38": "本句指「能造成死亡的；致命的」。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-35": "「正逐漸消失、瀕臨消亡的」是「dying — disappearing」的用法，與本句語境不同。"
+        "death-mcq-38": "本句的「deadly」指「能造成死亡的；致命的」。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-38"
     },
@@ -3771,11 +3443,9 @@ export default {
       "masked": "The combination can be ____.",
       "options": [
         "death-mcq-39",
-        "death-mcq-38",
-        "death-mcq-40",
-        "death-mcq-37",
-        "death-mcq-41",
-        "death-mcq-36"
+        "death-mcq-07",
+        "death-mcq-44",
+        "death-mcq-43"
       ],
       "explanation": "本句的「deadly」指「極度危險的」。",
       "sentenceIndex": 82,
@@ -3784,12 +3454,10 @@ export default {
         "deadly"
       ],
       "optionReasons": {
-        "death-mcq-39": "本句指「極度危險的」。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。"
+        "death-mcq-39": "本句的「deadly」指「極度危險的」。",
+        "death-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-39"
     },
@@ -3801,11 +3469,9 @@ export default {
       "masked": "Drivers must avoid ____.",
       "options": [
         "death-mcq-39",
-        "death-mcq-38",
-        "death-mcq-40",
-        "death-mcq-37",
-        "death-mcq-41",
-        "death-mcq-36"
+        "death-mcq-59",
+        "death-mcq-05",
+        "death-mcq-09"
       ],
       "explanation": "本句的「deadly mistakes」指「極度危險的」。",
       "sentenceIndex": 83,
@@ -3814,12 +3480,10 @@ export default {
         "deadly mistakes"
       ],
       "optionReasons": {
-        "death-mcq-39": "本句指「極度危險的」。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-36": "「日漸式微、接近消失的產業」是「dying industry」的用法，與本句語境不同。"
+        "death-mcq-39": "本句的「deadly mistakes」指「極度危險的」。",
+        "death-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-39"
     },
@@ -3831,11 +3495,9 @@ export default {
       "masked": "The striker is ____ in front of goal.",
       "options": [
         "death-mcq-40",
-        "death-mcq-39",
-        "death-mcq-41",
-        "death-mcq-38",
-        "death-mcq-42",
-        "death-mcq-37"
+        "death-mcq-04",
+        "death-mcq-33",
+        "death-mcq-44"
       ],
       "explanation": "本句的「deadly」指「極具殺傷力、非常準確有效的」。",
       "sentenceIndex": 84,
@@ -3844,12 +3506,10 @@ export default {
         "deadly"
       ],
       "optionReasons": {
-        "death-mcq-40": "本句指「極具殺傷力、非常準確有效的」。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。"
+        "death-mcq-40": "本句的「deadly」指「極具殺傷力、非常準確有效的」。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-40"
     },
@@ -3861,11 +3521,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "death-mcq-40",
-        "death-mcq-39",
-        "death-mcq-41",
-        "death-mcq-38",
-        "death-mcq-42",
-        "death-mcq-37"
+        "death-mcq-29",
+        "death-mcq-31",
+        "death-mcq-35"
       ],
       "explanation": "本句的「deadly accuracy」指「極具殺傷力、非常準確有效的」。",
       "sentenceIndex": 85,
@@ -3874,12 +3532,10 @@ export default {
         "deadly accuracy"
       ],
       "optionReasons": {
-        "death-mcq-40": "本句指「極具殺傷力、非常準確有效的」。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-37": "「臨終病床；臨終時期」是「deathbed」的用法，與本句語境不同。"
+        "death-mcq-40": "本句的「deadly accuracy」指「極具殺傷力、非常準確有效的」。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-40"
     },
@@ -3891,11 +3547,9 @@ export default {
       "masked": "His face turned ____.",
       "options": [
         "death-mcq-41",
-        "death-mcq-40",
-        "death-mcq-42",
-        "death-mcq-39",
-        "death-mcq-43",
-        "death-mcq-38"
+        "death-mcq-52",
+        "death-mcq-30",
+        "death-mcq-27"
       ],
       "explanation": "本句的「deathly pale」指「像死亡般慘白、安靜、冰冷等的」。",
       "sentenceIndex": 86,
@@ -3904,12 +3558,10 @@ export default {
         "deathly pale"
       ],
       "optionReasons": {
-        "death-mcq-41": "本句指「像死亡般慘白、安靜、冰冷等的」。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。"
+        "death-mcq-41": "本句的「deathly pale」指「像死亡般慘白、安靜、冰冷等的」。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-41"
     },
@@ -3921,11 +3573,9 @@ export default {
       "masked": "A ____ filled the room.",
       "options": [
         "death-mcq-41",
-        "death-mcq-40",
-        "death-mcq-42",
-        "death-mcq-39",
-        "death-mcq-43",
-        "death-mcq-38"
+        "death-mcq-29",
+        "death-mcq-49",
+        "death-mcq-37"
       ],
       "explanation": "本句的「deathly silence」指「像死亡般慘白、安靜、冰冷等的」。",
       "sentenceIndex": 87,
@@ -3934,12 +3584,10 @@ export default {
         "deathly silence"
       ],
       "optionReasons": {
-        "death-mcq-41": "本句指「像死亡般慘白、安靜、冰冷等的」。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-38": "「能造成死亡的；致命的」是「deadly — lethal」的用法，與本句語境不同。"
+        "death-mcq-41": "本句的「deathly silence」指「像死亡般慘白、安靜、冰冷等的」。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-41"
     },
@@ -3951,11 +3599,9 @@ export default {
       "masked": "The material helps ____.",
       "options": [
         "death-mcq-42",
-        "death-mcq-41",
-        "death-mcq-43",
-        "death-mcq-40",
-        "death-mcq-44",
-        "death-mcq-39"
+        "death-mcq-57",
+        "death-mcq-52",
+        "death-mcq-30"
       ],
       "explanation": "本句的「deaden sound」指「使感覺、疼痛、聲音等減弱／麻木」。",
       "sentenceIndex": 88,
@@ -3964,12 +3610,10 @@ export default {
         "deaden sound"
       ],
       "optionReasons": {
-        "death-mcq-42": "本句指「使感覺、疼痛、聲音等減弱／麻木」。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。"
+        "death-mcq-42": "本句的「deaden sound」指「使感覺、疼痛、聲音等減弱／麻木」。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-42"
     },
@@ -3981,11 +3625,9 @@ export default {
       "masked": "The medicine ____.",
       "options": [
         "death-mcq-42",
-        "death-mcq-41",
-        "death-mcq-43",
-        "death-mcq-40",
-        "death-mcq-44",
-        "death-mcq-39"
+        "death-mcq-51",
+        "death-mcq-09",
+        "death-mcq-36"
       ],
       "explanation": "本句的「deadened the pain」指「使感覺、疼痛、聲音等減弱／麻木」。",
       "sentenceIndex": 89,
@@ -3994,12 +3636,10 @@ export default {
         "deadened the pain"
       ],
       "optionReasons": {
-        "death-mcq-42": "本句指「使感覺、疼痛、聲音等減弱／麻木」。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-39": "「極度危險的」是「deadly — very dangerous」的用法，與本句語境不同。"
+        "death-mcq-42": "本句的「deadened the pain」指「使感覺、疼痛、聲音等減弱／麻木」。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-42"
     },
@@ -4011,11 +3651,9 @@ export default {
       "masked": "Negotiations ended in ____.",
       "options": [
         "death-mcq-43",
-        "death-mcq-42",
-        "death-mcq-44",
-        "death-mcq-41",
-        "death-mcq-45",
-        "death-mcq-40"
+        "death-mcq-34",
+        "death-mcq-26",
+        "death-mcq-10"
       ],
       "explanation": "本句的「deadlock」指「雙方無法取得進展的僵局」。",
       "sentenceIndex": 90,
@@ -4024,12 +3662,10 @@ export default {
         "deadlock"
       ],
       "optionReasons": {
-        "death-mcq-43": "本句指「雙方無法取得進展的僵局」。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。"
+        "death-mcq-43": "本句的「deadlock」指「雙方無法取得進展的僵局」。",
+        "death-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-43"
     },
@@ -4041,11 +3677,9 @@ export default {
       "masked": "The two sides are still ____.",
       "options": [
         "death-mcq-43",
-        "death-mcq-42",
+        "death-mcq-03",
         "death-mcq-44",
-        "death-mcq-41",
-        "death-mcq-45",
-        "death-mcq-40"
+        "death-mcq-12"
       ],
       "explanation": "本句的「deadlocked」指「雙方無法取得進展的僵局」。",
       "sentenceIndex": 91,
@@ -4054,12 +3688,10 @@ export default {
         "deadlocked"
       ],
       "optionReasons": {
-        "death-mcq-43": "本句指「雙方無法取得進展的僵局」。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-40": "「極具殺傷力、非常準確有效的」是「deadly — highly effective」的用法，與本句語境不同。"
+        "death-mcq-43": "本句的「deadlocked」指「雙方無法取得進展的僵局」。",
+        "death-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-43"
     },
@@ -4071,11 +3703,9 @@ export default {
       "masked": "The application ____ is Friday.",
       "options": [
         "death-mcq-44",
-        "death-mcq-43",
-        "death-mcq-45",
-        "death-mcq-42",
-        "death-mcq-46",
-        "death-mcq-41"
+        "death-mcq-03",
+        "death-mcq-23",
+        "death-mcq-50"
       ],
       "explanation": "本句的「deadline」指「必須完成某事的最遲時間；截止期限」。",
       "sentenceIndex": 92,
@@ -4084,12 +3714,10 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "death-mcq-44": "本句指「必須完成某事的最遲時間；截止期限」。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。"
+        "death-mcq-44": "本句的「deadline」指「必須完成某事的最遲時間；截止期限」。",
+        "death-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-44"
     },
@@ -4101,11 +3729,9 @@ export default {
       "masked": "We need to meet the ____.",
       "options": [
         "death-mcq-44",
-        "death-mcq-43",
-        "death-mcq-45",
         "death-mcq-42",
-        "death-mcq-46",
-        "death-mcq-41"
+        "death-mcq-41",
+        "death-mcq-24"
       ],
       "explanation": "本句的「deadline」指「必須完成某事的最遲時間；截止期限」。",
       "sentenceIndex": 93,
@@ -4114,12 +3740,10 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "death-mcq-44": "本句指「必須完成某事的最遲時間；截止期限」。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-41": "「像死亡般慘白、安靜、冰冷等的」是「deathly」的用法，與本句語境不同。"
+        "death-mcq-44": "本句的「deadline」指「必須完成某事的最遲時間；截止期限」。",
+        "death-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-44"
     },
@@ -4131,11 +3755,9 @@ export default {
       "masked": "The street ends in a ____.",
       "options": [
         "death-mcq-45",
-        "death-mcq-44",
-        "death-mcq-46",
-        "death-mcq-43",
-        "death-mcq-47",
-        "death-mcq-42"
+        "death-mcq-51",
+        "death-mcq-57",
+        "death-mcq-53"
       ],
       "explanation": "本句的「dead end」指「沒有出口的死路／死巷」。",
       "sentenceIndex": 94,
@@ -4144,12 +3766,10 @@ export default {
         "dead end"
       ],
       "optionReasons": {
-        "death-mcq-45": "本句指「沒有出口的死路／死巷」。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。"
+        "death-mcq-45": "本句的「dead end」指「沒有出口的死路／死巷」。",
+        "death-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-45"
     },
@@ -4161,11 +3781,9 @@ export default {
       "masked": "We accidentally drove into a ____.",
       "options": [
         "death-mcq-45",
-        "death-mcq-44",
-        "death-mcq-46",
-        "death-mcq-43",
-        "death-mcq-47",
-        "death-mcq-42"
+        "death-mcq-06",
+        "death-mcq-13",
+        "death-mcq-10"
       ],
       "explanation": "本句的「dead end」指「沒有出口的死路／死巷」。",
       "sentenceIndex": 95,
@@ -4174,12 +3792,10 @@ export default {
         "dead end"
       ],
       "optionReasons": {
-        "death-mcq-45": "本句指「沒有出口的死路／死巷」。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-42": "「使感覺、疼痛、聲音等減弱／麻木」是「deaden」的用法，與本句語境不同。"
+        "death-mcq-45": "本句的「dead end」指「沒有出口的死路／死巷」。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-45"
     },
@@ -4191,11 +3807,9 @@ export default {
       "masked": "The investigation reached a ____.",
       "options": [
         "death-mcq-46",
-        "death-mcq-45",
-        "death-mcq-47",
-        "death-mcq-44",
-        "death-mcq-48",
-        "death-mcq-43"
+        "death-mcq-03",
+        "death-mcq-53",
+        "death-mcq-09"
       ],
       "explanation": "本句的「dead end」指「沒有進展或出路的死胡同」。",
       "sentenceIndex": 96,
@@ -4204,12 +3818,10 @@ export default {
         "dead end"
       ],
       "optionReasons": {
-        "death-mcq-46": "本句指「沒有進展或出路的死胡同」。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。"
+        "death-mcq-46": "本句的「dead end」指「沒有進展或出路的死胡同」。",
+        "death-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-46"
     },
@@ -4221,11 +3833,9 @@ export default {
       "masked": "He felt trapped in a ____.",
       "options": [
         "death-mcq-46",
-        "death-mcq-45",
-        "death-mcq-47",
-        "death-mcq-44",
-        "death-mcq-48",
-        "death-mcq-43"
+        "death-mcq-26",
+        "death-mcq-29",
+        "death-mcq-44"
       ],
       "explanation": "本句的「dead-end job」指「沒有進展或出路的死胡同」。",
       "sentenceIndex": 97,
@@ -4234,12 +3844,10 @@ export default {
         "dead-end job"
       ],
       "optionReasons": {
-        "death-mcq-46": "本句指「沒有進展或出路的死胡同」。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-43": "「雙方無法取得進展的僵局」是「deadlock」的用法，與本句語境不同。"
+        "death-mcq-46": "本句的「dead-end job」指「沒有進展或出路的死胡同」。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-46"
     },
@@ -4251,11 +3859,9 @@ export default {
       "masked": "Doctors sometimes make ____.",
       "options": [
         "death-mcq-47",
-        "death-mcq-46",
-        "death-mcq-48",
-        "death-mcq-45",
-        "death-mcq-49",
-        "death-mcq-44"
+        "death-mcq-29",
+        "death-mcq-04",
+        "death-mcq-08"
       ],
       "explanation": "本句的「life-and-death decisions」指「生與死；亦可指極其重要、攸關生死」。",
       "sentenceIndex": 98,
@@ -4264,12 +3870,10 @@ export default {
         "life-and-death decisions"
       ],
       "optionReasons": {
-        "death-mcq-47": "本句指「生與死；亦可指極其重要、攸關生死」。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。"
+        "death-mcq-47": "本句的「life-and-death decisions」指「生與死；亦可指極其重要、攸關生死」。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-47"
     },
@@ -4281,11 +3885,9 @@ export default {
       "masked": "In the passage, the library exists between ____.",
       "options": [
         "death-mcq-47",
-        "death-mcq-46",
-        "death-mcq-48",
-        "death-mcq-45",
-        "death-mcq-49",
-        "death-mcq-44"
+        "death-mcq-44",
+        "death-mcq-05",
+        "death-mcq-28"
       ],
       "explanation": "本句的「life and death」指「生與死；亦可指極其重要、攸關生死」。",
       "sentenceIndex": 99,
@@ -4294,12 +3896,10 @@ export default {
         "life and death"
       ],
       "optionReasons": {
-        "death-mcq-47": "本句指「生與死；亦可指極其重要、攸關生死」。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-44": "「必須完成某事的最遲時間；截止期限」是「deadline」的用法，與本句語境不同。"
+        "death-mcq-47": "本句的「life and death」指「生與死；亦可指極其重要、攸關生死」。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-47"
     },
@@ -4311,11 +3911,9 @@ export default {
       "masked": "In an emergency, timing can be a ____.",
       "options": [
         "death-mcq-48",
-        "death-mcq-47",
-        "death-mcq-49",
-        "death-mcq-46",
-        "death-mcq-50",
-        "death-mcq-45"
+        "death-mcq-22",
+        "death-mcq-52",
+        "death-mcq-36"
       ],
       "explanation": "本句的「matter of life and death」指「生死攸關／極其重要的事情」。",
       "sentenceIndex": 100,
@@ -4324,12 +3922,10 @@ export default {
         "matter of life and death"
       ],
       "optionReasons": {
-        "death-mcq-48": "本句指「生死攸關／極其重要的事情」。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。"
+        "death-mcq-48": "本句的「matter of life and death」指「生死攸關／極其重要的事情」。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-48"
     },
@@ -4341,11 +3937,9 @@ export default {
       "masked": "He spoke as if the decision were a ____.",
       "options": [
         "death-mcq-48",
-        "death-mcq-47",
-        "death-mcq-49",
-        "death-mcq-46",
-        "death-mcq-50",
-        "death-mcq-45"
+        "death-mcq-03",
+        "death-mcq-52",
+        "death-mcq-37"
       ],
       "explanation": "本句的「matter of life and death」指「生死攸關／極其重要的事情」。",
       "sentenceIndex": 101,
@@ -4354,12 +3948,10 @@ export default {
         "matter of life and death"
       ],
       "optionReasons": {
-        "death-mcq-48": "本句指「生死攸關／極其重要的事情」。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-45": "「沒有出口的死路／死巷」是「dead end — literal」的用法，與本句語境不同。"
+        "death-mcq-48": "本句的「matter of life and death」指「生死攸關／極其重要的事情」。",
+        "death-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-48"
     },
@@ -4371,11 +3963,9 @@ export default {
       "masked": "You ____!",
       "options": [
         "death-mcq-49",
-        "death-mcq-48",
-        "death-mcq-50",
-        "death-mcq-47",
-        "death-mcq-51",
-        "death-mcq-46"
+        "death-mcq-32",
+        "death-mcq-46",
+        "death-mcq-28"
       ],
       "explanation": "本句的「scared me to death」指「把某人嚇得要命；嚇壞某人」。",
       "sentenceIndex": 102,
@@ -4384,12 +3974,10 @@ export default {
         "scared me to death"
       ],
       "optionReasons": {
-        "death-mcq-49": "本句指「把某人嚇得要命；嚇壞某人」。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。"
+        "death-mcq-49": "本句的「scared me to death」指「把某人嚇得要命；嚇壞某人」。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-49"
     },
@@ -4401,11 +3989,9 @@ export default {
       "masked": "That sudden noise nearly ____.",
       "options": [
         "death-mcq-49",
-        "death-mcq-48",
-        "death-mcq-50",
-        "death-mcq-47",
-        "death-mcq-51",
-        "death-mcq-46"
+        "death-mcq-45",
+        "death-mcq-44",
+        "death-mcq-06"
       ],
       "explanation": "本句的「scared her to death」指「把某人嚇得要命；嚇壞某人」。",
       "sentenceIndex": 103,
@@ -4414,12 +4000,10 @@ export default {
         "scared her to death"
       ],
       "optionReasons": {
-        "death-mcq-49": "本句指「把某人嚇得要命；嚇壞某人」。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-46": "「沒有進展或出路的死胡同」是「dead end — figurative」的用法，與本句語境不同。"
+        "death-mcq-49": "本句的「scared her to death」指「把某人嚇得要命；嚇壞某人」。",
+        "death-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-49"
     },
@@ -4431,11 +4015,9 @@ export default {
       "masked": "The lecture ____.",
       "options": [
         "death-mcq-50",
-        "death-mcq-49",
-        "death-mcq-51",
-        "death-mcq-48",
-        "death-mcq-52",
-        "death-mcq-47"
+        "death-mcq-16",
+        "death-mcq-60",
+        "death-mcq-21"
       ],
       "explanation": "本句的「bored me to death」指「使某人無聊透頂」。",
       "sentenceIndex": 104,
@@ -4444,12 +4026,10 @@ export default {
         "bored me to death"
       ],
       "optionReasons": {
-        "death-mcq-50": "本句指「使某人無聊透頂」。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。"
+        "death-mcq-50": "本句的「bored me to death」指「使某人無聊透頂」。",
+        "death-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-50"
     },
@@ -4461,11 +4041,9 @@ export default {
       "masked": "He joked that the meeting would ____.",
       "options": [
         "death-mcq-50",
-        "death-mcq-49",
-        "death-mcq-51",
-        "death-mcq-48",
-        "death-mcq-52",
-        "death-mcq-47"
+        "death-mcq-54",
+        "death-mcq-20",
+        "death-mcq-60"
       ],
       "explanation": "本句的「bore everyone to death」指「使某人無聊透頂」。",
       "sentenceIndex": 105,
@@ -4474,12 +4052,10 @@ export default {
         "bore everyone to death"
       ],
       "optionReasons": {
-        "death-mcq-50": "本句指「使某人無聊透頂」。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-47": "「生與死；亦可指極其重要、攸關生死」是「life and death」的用法，與本句語境不同。"
+        "death-mcq-50": "本句的「bore everyone to death」指「使某人無聊透頂」。",
+        "death-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-50"
     },
@@ -4491,11 +4067,9 @@ export default {
       "masked": "They are ____.",
       "options": [
         "death-mcq-51",
-        "death-mcq-50",
+        "death-mcq-04",
         "death-mcq-52",
-        "death-mcq-49",
-        "death-mcq-53",
-        "death-mcq-48"
+        "death-mcq-17"
       ],
       "explanation": "本句的「working him to death」指「令某人過度勞累；操勞至極」。",
       "sentenceIndex": 106,
@@ -4504,12 +4078,10 @@ export default {
         "working him to death"
       ],
       "optionReasons": {
-        "death-mcq-51": "本句指「令某人過度勞累；操勞至極」。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-53": "「病危；命在旦夕」是「at death’s door」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。"
+        "death-mcq-51": "本句的「working him to death」指「令某人過度勞累；操勞至極」。",
+        "death-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-51"
     },
@@ -4521,11 +4093,9 @@ export default {
       "masked": "Don’t ____.",
       "options": [
         "death-mcq-51",
-        "death-mcq-50",
-        "death-mcq-52",
-        "death-mcq-49",
+        "death-mcq-32",
         "death-mcq-53",
-        "death-mcq-48"
+        "death-mcq-16"
       ],
       "explanation": "本句的「work yourself to death」指「令某人過度勞累；操勞至極」。",
       "sentenceIndex": 107,
@@ -4534,12 +4104,10 @@ export default {
         "work yourself to death"
       ],
       "optionReasons": {
-        "death-mcq-51": "本句指「令某人過度勞累；操勞至極」。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。",
-        "death-mcq-53": "「病危；命在旦夕」是「at death’s door」的用法，與本句語境不同。",
-        "death-mcq-48": "「生死攸關／極其重要的事情」是「matter of life and death」的用法，與本句語境不同。"
+        "death-mcq-51": "本句的「work yourself to death」指「令某人過度勞累；操勞至極」。",
+        "death-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-51"
     },
@@ -4551,11 +4119,9 @@ export default {
       "masked": "I’m ____ hearing that excuse.",
       "options": [
         "death-mcq-52",
-        "death-mcq-51",
-        "death-mcq-53",
-        "death-mcq-50",
-        "death-mcq-54",
-        "death-mcq-49"
+        "death-mcq-26",
+        "death-mcq-23",
+        "death-mcq-09"
       ],
       "explanation": "本句的「sick to death of」指「對某事厭煩透頂／受夠了」。",
       "sentenceIndex": 108,
@@ -4564,12 +4130,10 @@ export default {
         "sick to death of"
       ],
       "optionReasons": {
-        "death-mcq-52": "本句指「對某事厭煩透頂／受夠了」。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-53": "「病危；命在旦夕」是「at death’s door」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-54": "「戰至死亡；拼到底」是「to the death」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。"
+        "death-mcq-52": "本句的「sick to death of」指「對某事厭煩透頂／受夠了」。",
+        "death-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-52"
     },
@@ -4581,11 +4145,9 @@ export default {
       "masked": "She was ____ the constant noise.",
       "options": [
         "death-mcq-52",
-        "death-mcq-51",
-        "death-mcq-53",
-        "death-mcq-50",
-        "death-mcq-54",
-        "death-mcq-49"
+        "death-mcq-57",
+        "death-mcq-33",
+        "death-mcq-35"
       ],
       "explanation": "本句的「sick to death of」指「對某事厭煩透頂／受夠了」。",
       "sentenceIndex": 109,
@@ -4594,12 +4156,10 @@ export default {
         "sick to death of"
       ],
       "optionReasons": {
-        "death-mcq-52": "本句指「對某事厭煩透頂／受夠了」。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-53": "「病危；命在旦夕」是「at death’s door」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。",
-        "death-mcq-54": "「戰至死亡；拼到底」是「to the death」的用法，與本句語境不同。",
-        "death-mcq-49": "「把某人嚇得要命；嚇壞某人」是「scare someone to death」的用法，與本句語境不同。"
+        "death-mcq-52": "本句的「sick to death of」指「對某事厭煩透頂／受夠了」。",
+        "death-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-52"
     },
@@ -4611,11 +4171,9 @@ export default {
       "masked": "He looked as though he was ____.",
       "options": [
         "death-mcq-53",
-        "death-mcq-52",
-        "death-mcq-54",
-        "death-mcq-51",
-        "death-mcq-55",
-        "death-mcq-50"
+        "death-mcq-60",
+        "death-mcq-29",
+        "death-mcq-25"
       ],
       "explanation": "本句的「at death’s door」指「病危；命在旦夕」。",
       "sentenceIndex": 110,
@@ -4624,12 +4182,10 @@ export default {
         "at death’s door"
       ],
       "optionReasons": {
-        "death-mcq-53": "本句指「病危；命在旦夕」。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-54": "「戰至死亡；拼到底」是「to the death」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。"
+        "death-mcq-53": "本句的「at death’s door」指「病危；命在旦夕」。",
+        "death-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-53"
     },
@@ -4641,11 +4197,9 @@ export default {
       "masked": "She joked that she felt ____ with the flu.",
       "options": [
         "death-mcq-53",
-        "death-mcq-52",
-        "death-mcq-54",
-        "death-mcq-51",
-        "death-mcq-55",
-        "death-mcq-50"
+        "death-mcq-36",
+        "death-mcq-06",
+        "death-mcq-54"
       ],
       "explanation": "本句的「at death’s door」指「病危；命在旦夕」。",
       "sentenceIndex": 111,
@@ -4654,12 +4208,10 @@ export default {
         "at death’s door"
       ],
       "optionReasons": {
-        "death-mcq-53": "本句指「病危；命在旦夕」。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-54": "「戰至死亡；拼到底」是「to the death」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。",
-        "death-mcq-50": "「使某人無聊透頂」是「bore someone to death」的用法，與本句語境不同。"
+        "death-mcq-53": "本句的「at death’s door」指「病危；命在旦夕」。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-53"
     },
@@ -4671,11 +4223,9 @@ export default {
       "masked": "In the story, they fought ____.",
       "options": [
         "death-mcq-54",
-        "death-mcq-53",
-        "death-mcq-55",
-        "death-mcq-52",
-        "death-mcq-56",
-        "death-mcq-51"
+        "death-mcq-49",
+        "death-mcq-39",
+        "death-mcq-22"
       ],
       "explanation": "本句的「to the death」指「戰至死亡；拼到底」。",
       "sentenceIndex": 112,
@@ -4684,12 +4234,10 @@ export default {
         "to the death"
       ],
       "optionReasons": {
-        "death-mcq-54": "本句指「戰至死亡；拼到底」。",
-        "death-mcq-53": "「病危；命在旦夕」是「at death’s door」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。"
+        "death-mcq-54": "本句的「to the death」指「戰至死亡；拼到底」。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-54"
     },
@@ -4701,11 +4249,9 @@ export default {
       "masked": "The rivals seemed ready to argue ____.",
       "options": [
         "death-mcq-54",
-        "death-mcq-53",
-        "death-mcq-55",
-        "death-mcq-52",
-        "death-mcq-56",
-        "death-mcq-51"
+        "death-mcq-39",
+        "death-mcq-29",
+        "death-mcq-05"
       ],
       "explanation": "本句的「to the death」指「戰至死亡；拼到底」。",
       "sentenceIndex": 113,
@@ -4714,12 +4260,10 @@ export default {
         "to the death"
       ],
       "optionReasons": {
-        "death-mcq-54": "本句指「戰至死亡；拼到底」。",
-        "death-mcq-53": "「病危；命在旦夕」是「at death’s door」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。",
-        "death-mcq-52": "「對某事厭煩透頂／受夠了」是「sick to death of」的用法，與本句語境不同。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-51": "「令某人過度勞累；操勞至極」是「work someone to death」的用法，與本句語境不同。"
+        "death-mcq-54": "本句的「to the death」指「戰至死亡；拼到底」。",
+        "death-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-54"
     },
@@ -4731,11 +4275,9 @@ export default {
       "masked": "That idea is ____.",
       "options": [
         "death-mcq-57",
-        "death-mcq-56",
-        "death-mcq-58",
-        "death-mcq-55",
-        "death-mcq-59",
-        "death-mcq-54"
+        "death-mcq-49",
+        "death-mcq-36",
+        "death-mcq-02"
       ],
       "explanation": "本句的「dead and buried」指「某事已徹底結束／成為過去」。",
       "sentenceIndex": 114,
@@ -4744,12 +4286,10 @@ export default {
         "dead and buried"
       ],
       "optionReasons": {
-        "death-mcq-57": "本句指「某事已徹底結束／成為過去」。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-58": "「表示死亡；生命終結」是「Passage meaning」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。",
-        "death-mcq-59": "「表示死於……」是「3. die of something」的用法，與本句語境不同。",
-        "death-mcq-54": "「戰至死亡；拼到底」是「to the death」的用法，與本句語境不同。"
+        "death-mcq-57": "本句的「dead and buried」指「某事已徹底結束／成為過去」。",
+        "death-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-57"
     },
@@ -4761,11 +4301,9 @@ export default {
       "masked": "He thought the controversy was ____.",
       "options": [
         "death-mcq-57",
-        "death-mcq-56",
-        "death-mcq-58",
-        "death-mcq-55",
-        "death-mcq-59",
-        "death-mcq-54"
+        "death-mcq-15",
+        "death-mcq-43",
+        "death-mcq-52"
       ],
       "explanation": "本句的「dead and buried」指「某事已徹底結束／成為過去」。",
       "sentenceIndex": 115,
@@ -4774,12 +4312,10 @@ export default {
         "dead and buried"
       ],
       "optionReasons": {
-        "death-mcq-57": "本句指「某事已徹底結束／成為過去」。",
-        "death-mcq-56": "「很粗魯地叫人滾開／去死」是「drop dead — insult」的用法，與本句語境不同。",
-        "death-mcq-58": "「表示死亡；生命終結」是「Passage meaning」的用法，與本句語境不同。",
-        "death-mcq-55": "「突然倒地死亡」是「drop dead — literal」的用法，與本句語境不同。",
-        "death-mcq-59": "「表示死於……」是「3. die of something」的用法，與本句語境不同。",
-        "death-mcq-54": "「戰至死亡；拼到底」是「to the death」的用法，與本句語境不同。"
+        "death-mcq-57": "本句的「dead and buried」指「某事已徹底結束／成為過去」。",
+        "death-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "death-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "death-mcq-57"
     }
@@ -4791,5 +4327,7 @@ export default {
     "sha256": "60f215880bd300183fbf44316bddedb73b437d2b5f6259e7dfcba8d108af9075",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -196,11 +196,7 @@ export default {
       "masked": "Our ____ concern is safety.",
       "options": [
         "primary-mcq-01",
-        "primary-mcq-02",
-        "primary-mcq-03",
-        "primary-mcq-04",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-03"
       ],
       "explanation": "本句的「primary」指「在多個原因、目的、責任或考慮之中最主要、最重要的」。",
       "sentenceIndex": 0,
@@ -209,12 +205,8 @@ export default {
         "primary"
       ],
       "optionReasons": {
-        "primary-mcq-01": "本句指「在多個原因、目的、責任或考慮之中最主要、最重要的」。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-01": "本句的「primary」指「在多個原因、目的、責任或考慮之中最主要、最重要的」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-01"
     },
@@ -226,11 +218,7 @@ export default {
       "masked": "The ____ reason for the delay was bad weather.",
       "options": [
         "primary-mcq-01",
-        "primary-mcq-02",
-        "primary-mcq-03",
-        "primary-mcq-04",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-03"
       ],
       "explanation": "本句的「primary」指「在多個原因、目的、責任或考慮之中最主要、最重要的」。",
       "sentenceIndex": 1,
@@ -239,12 +227,8 @@ export default {
         "primary"
       ],
       "optionReasons": {
-        "primary-mcq-01": "本句指「在多個原因、目的、責任或考慮之中最主要、最重要的」。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-01": "本句的「primary」指「在多個原因、目的、責任或考慮之中最主要、最重要的」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-01"
     },
@@ -256,11 +240,7 @@ export default {
       "masked": "The disease is still in its ____ stage.",
       "options": [
         "primary-mcq-02",
-        "primary-mcq-01",
-        "primary-mcq-03",
-        "primary-mcq-04",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-08"
       ],
       "explanation": "本句的「primary」指「在發展、程序或次序上屬於最初或第一階段的」。",
       "sentenceIndex": 2,
@@ -269,12 +249,8 @@ export default {
         "primary"
       ],
       "optionReasons": {
-        "primary-mcq-02": "本句指「在發展、程序或次序上屬於最初或第一階段的」。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-02": "本句的「primary」指「在發展、程序或次序上屬於最初或第一階段的」。",
+        "primary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-02"
     },
@@ -286,11 +262,7 @@ export default {
       "masked": "The ____ phase of the project focused on research.",
       "options": [
         "primary-mcq-02",
-        "primary-mcq-01",
-        "primary-mcq-03",
-        "primary-mcq-04",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-08"
       ],
       "explanation": "本句的「primary」指「在發展、程序或次序上屬於最初或第一階段的」。",
       "sentenceIndex": 3,
@@ -299,12 +271,8 @@ export default {
         "primary"
       ],
       "optionReasons": {
-        "primary-mcq-02": "本句指「在發展、程序或次序上屬於最初或第一階段的」。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-02": "本句的「primary」指「在發展、程序或次序上屬於最初或第一階段的」。",
+        "primary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-02"
     },
@@ -316,11 +284,7 @@ export default {
       "masked": "Ryan was my classmate in ____.",
       "options": [
         "primary-mcq-03",
-        "primary-mcq-02",
-        "primary-mcq-04",
-        "primary-mcq-01",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-04"
       ],
       "explanation": "本句的「primary school」指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
       "sentenceIndex": 4,
@@ -329,12 +293,8 @@ export default {
         "primary school"
       ],
       "optionReasons": {
-        "primary-mcq-03": "本句指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-03": "本句的「primary school」指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
+        "primary-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-03"
     },
@@ -346,11 +306,7 @@ export default {
       "masked": "She teaches at a local ____.",
       "options": [
         "primary-mcq-03",
-        "primary-mcq-02",
-        "primary-mcq-04",
-        "primary-mcq-01",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-08"
       ],
       "explanation": "本句的「primary school」指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
       "sentenceIndex": 5,
@@ -359,12 +315,8 @@ export default {
         "primary school"
       ],
       "optionReasons": {
-        "primary-mcq-03": "本句指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-03": "本句的「primary school」指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
+        "primary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-03"
     },
@@ -376,11 +328,7 @@ export default {
       "masked": "Children usually begin ____ at a young age.",
       "options": [
         "primary-mcq-03",
-        "primary-mcq-02",
-        "primary-mcq-04",
-        "primary-mcq-01",
-        "primary-mcq-05",
-        "primary-mcq-06"
+        "primary-mcq-01"
       ],
       "explanation": "本句的「primary education」指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
       "sentenceIndex": 6,
@@ -389,12 +337,8 @@ export default {
         "primary education"
       ],
       "optionReasons": {
-        "primary-mcq-03": "本句指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。"
+        "primary-mcq-03": "本句的「primary education」指「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」。",
+        "primary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-03"
     },
@@ -406,11 +350,7 @@ export default {
       "masked": "Food and shelter are ____.",
       "options": [
         "primary-mcq-04",
-        "primary-mcq-03",
-        "primary-mcq-05",
-        "primary-mcq-02",
-        "primary-mcq-06",
-        "primary-mcq-01"
+        "primary-mcq-03"
       ],
       "explanation": "本句的「primary needs」指「構成某個系統、需求或知識的基本、核心部分」。",
       "sentenceIndex": 7,
@@ -419,12 +359,8 @@ export default {
         "primary needs"
       ],
       "optionReasons": {
-        "primary-mcq-04": "本句指「構成某個系統、需求或知識的基本、核心部分」。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。"
+        "primary-mcq-04": "本句的「primary needs」指「構成某個系統、需求或知識的基本、核心部分」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-04"
     },
@@ -436,11 +372,7 @@ export default {
       "masked": "The course introduces the ____ of design.",
       "options": [
         "primary-mcq-04",
-        "primary-mcq-03",
-        "primary-mcq-05",
-        "primary-mcq-02",
-        "primary-mcq-06",
-        "primary-mcq-01"
+        "primary-mcq-03"
       ],
       "explanation": "本句的「primary principles」指「構成某個系統、需求或知識的基本、核心部分」。",
       "sentenceIndex": 8,
@@ -449,12 +381,8 @@ export default {
         "primary principles"
       ],
       "optionReasons": {
-        "primary-mcq-04": "本句指「構成某個系統、需求或知識的基本、核心部分」。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-01": "「在多個原因、目的、責任或考慮之中最主要、最重要的」與本句語境不同。"
+        "primary-mcq-04": "本句的「primary principles」指「構成某個系統、需求或知識的基本、核心部分」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-04"
     },
@@ -466,11 +394,7 @@ export default {
       "masked": "Letters and diaries can be useful ____.",
       "options": [
         "primary-mcq-05",
-        "primary-mcq-04",
-        "primary-mcq-06",
-        "primary-mcq-03",
-        "primary-mcq-07",
-        "primary-mcq-02"
+        "primary-mcq-04"
       ],
       "explanation": "本句的「primary sources」指「直接來自事件、人物、時期或原始材料本身的第一手資料」。",
       "sentenceIndex": 9,
@@ -479,12 +403,8 @@ export default {
         "primary sources"
       ],
       "optionReasons": {
-        "primary-mcq-05": "本句指「直接來自事件、人物、時期或原始材料本身的第一手資料」。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-07": "「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」與本句語境不同。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。"
+        "primary-mcq-05": "本句的「primary sources」指「直接來自事件、人物、時期或原始材料本身的第一手資料」。",
+        "primary-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-05"
     },
@@ -496,11 +416,7 @@ export default {
       "masked": "The researcher examined ____ from the period.",
       "options": [
         "primary-mcq-05",
-        "primary-mcq-04",
-        "primary-mcq-06",
-        "primary-mcq-03",
-        "primary-mcq-07",
-        "primary-mcq-02"
+        "primary-mcq-01"
       ],
       "explanation": "本句的「primary evidence」指「直接來自事件、人物、時期或原始材料本身的第一手資料」。",
       "sentenceIndex": 10,
@@ -509,12 +425,8 @@ export default {
         "primary evidence"
       ],
       "optionReasons": {
-        "primary-mcq-05": "本句指「直接來自事件、人物、時期或原始材料本身的第一手資料」。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。",
-        "primary-mcq-07": "「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」與本句語境不同。",
-        "primary-mcq-02": "「在發展、程序或次序上屬於最初或第一階段的」與本句語境不同。"
+        "primary-mcq-05": "本句的「primary evidence」指「直接來自事件、人物、時期或原始材料本身的第一手資料」。",
+        "primary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-05"
     },
@@ -526,11 +438,7 @@ export default {
       "masked": "Most patients first see a ____ doctor.",
       "options": [
         "primary-mcq-06",
-        "primary-mcq-05",
-        "primary-mcq-07",
-        "primary-mcq-04",
-        "primary-mcq-08",
-        "primary-mcq-03"
+        "primary-mcq-08"
       ],
       "explanation": "本句的「primary care」指「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」。",
       "sentenceIndex": 11,
@@ -539,12 +447,8 @@ export default {
         "primary care"
       ],
       "optionReasons": {
-        "primary-mcq-06": "本句指「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-07": "「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-08": "「主要地；以某件事情為主」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。"
+        "primary-mcq-06": "本句的「primary care」指「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」。",
+        "primary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-06"
     },
@@ -556,11 +460,7 @@ export default {
       "masked": "The clinic provides ____ services.",
       "options": [
         "primary-mcq-06",
-        "primary-mcq-05",
-        "primary-mcq-07",
-        "primary-mcq-04",
-        "primary-mcq-08",
-        "primary-mcq-03"
+        "primary-mcq-08"
       ],
       "explanation": "本句的「primary care」指「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」。",
       "sentenceIndex": 12,
@@ -569,12 +469,8 @@ export default {
         "primary care"
       ],
       "optionReasons": {
-        "primary-mcq-06": "本句指「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-07": "「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-08": "「主要地；以某件事情為主」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。"
+        "primary-mcq-06": "本句的「primary care」指「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」。",
+        "primary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-06"
     },
@@ -586,10 +482,6 @@ export default {
       "masked": "Red, blue, and yellow are traditionally taught as ____ in art.",
       "options": [
         "primary-mcq-07",
-        "primary-mcq-06",
-        "primary-mcq-08",
-        "primary-mcq-05",
-        "primary-mcq-04",
         "primary-mcq-03"
       ],
       "explanation": "本句的「primary colours」指「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」。",
@@ -599,12 +491,8 @@ export default {
         "primary colours"
       ],
       "optionReasons": {
-        "primary-mcq-07": "本句指「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-08": "「主要地；以某件事情為主」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。"
+        "primary-mcq-07": "本句的「primary colours」指「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-07"
     },
@@ -616,10 +504,6 @@ export default {
       "masked": "The design uses bright ____.",
       "options": [
         "primary-mcq-07",
-        "primary-mcq-06",
-        "primary-mcq-08",
-        "primary-mcq-05",
-        "primary-mcq-04",
         "primary-mcq-03"
       ],
       "explanation": "本句的「primary colours」指「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」。",
@@ -629,12 +513,8 @@ export default {
         "primary colours"
       ],
       "optionReasons": {
-        "primary-mcq-07": "本句指「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-08": "「主要地；以某件事情為主」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。"
+        "primary-mcq-07": "本句的「primary colours」指「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-07"
     },
@@ -646,11 +526,7 @@ export default {
       "masked": "The course is ____ designed for beginners.",
       "options": [
         "primary-mcq-08",
-        "primary-mcq-07",
-        "primary-mcq-06",
-        "primary-mcq-05",
-        "primary-mcq-04",
-        "primary-mcq-03"
+        "primary-mcq-02"
       ],
       "explanation": "本句的「primarily」指「主要地；以某件事情為主」。",
       "sentenceIndex": 15,
@@ -659,12 +535,8 @@ export default {
         "primarily"
       ],
       "optionReasons": {
-        "primary-mcq-08": "本句指「主要地；以某件事情為主」。",
-        "primary-mcq-07": "「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。"
+        "primary-mcq-08": "本句的「primarily」指「主要地；以某件事情為主」。",
+        "primary-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-08"
     },
@@ -676,10 +548,6 @@ export default {
       "masked": "The area is ____ residential.",
       "options": [
         "primary-mcq-08",
-        "primary-mcq-07",
-        "primary-mcq-06",
-        "primary-mcq-05",
-        "primary-mcq-04",
         "primary-mcq-03"
       ],
       "explanation": "本句的「primarily」指「主要地；以某件事情為主」。",
@@ -689,12 +557,8 @@ export default {
         "primarily"
       ],
       "optionReasons": {
-        "primary-mcq-08": "本句指「主要地；以某件事情為主」。",
-        "primary-mcq-07": "「在特定色彩系統中作為基本來源、用來組合其他顏色的基本色」與本句語境不同。",
-        "primary-mcq-06": "「病人最先接觸、處理一般健康問題的基層／第一線醫療服務」與本句語境不同。",
-        "primary-mcq-05": "「直接來自事件、人物、時期或原始材料本身的第一手資料」與本句語境不同。",
-        "primary-mcq-04": "「構成某個系統、需求或知識的基本、核心部分」與本句語境不同。",
-        "primary-mcq-03": "「屬於兒童在中學之前接受的第一階段正式教育；小學／初等教育的」與本句語境不同。"
+        "primary-mcq-08": "本句的「primarily」指「主要地；以某件事情為主」。",
+        "primary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "primary-mcq-08"
     }
@@ -706,5 +570,7 @@ export default {
     "sha256": "6a140cca662c82b34b05eb05e760895214462777e7aa59b9775b4440b9562d4e",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

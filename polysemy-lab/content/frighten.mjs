@@ -408,11 +408,8 @@ export default {
       "masked": "The topic seemed ____ at first, but the teacher explained it clearly.",
       "options": [
         "frighten-mcq-17",
-        "frighten-mcq-16",
-        "frighten-mcq-15",
-        "frighten-mcq-14",
         "frighten-mcq-13",
-        "frighten-mcq-12"
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frightening」指「沒那麼可怕；沒那麼令人畏懼」。",
       "sentenceIndex": 0,
@@ -421,12 +418,9 @@ export default {
         "frightening"
       ],
       "optionReasons": {
-        "frighten-mcq-17": "本句指「沒那麼可怕；沒那麼令人畏懼」。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。"
+        "frighten-mcq-17": "本句的「frightening」指「沒那麼可怕；沒那麼令人畏懼」。",
+        "frighten-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-17"
     },
@@ -438,11 +432,8 @@ export default {
       "masked": "Good explanations can make difficult subjects feel less ____.",
       "options": [
         "frighten-mcq-17",
-        "frighten-mcq-16",
-        "frighten-mcq-15",
-        "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-12"
+        "frighten-mcq-04",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frightening」指「沒那麼可怕；沒那麼令人畏懼」。",
       "sentenceIndex": 1,
@@ -451,12 +442,9 @@ export default {
         "frightening"
       ],
       "optionReasons": {
-        "frighten-mcq-17": "本句指「沒那麼可怕；沒那麼令人畏懼」。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。"
+        "frighten-mcq-17": "本句的「frightening」指「沒那麼可怕；沒那麼令人畏懼」。",
+        "frighten-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-17"
     },
@@ -468,11 +456,7 @@ export default {
       "masked": "The sudden noise ____.",
       "options": [
         "frighten-mcq-01",
-        "frighten-mcq-02",
-        "frighten-mcq-03",
-        "frighten-mcq-04",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened me」指「使某人感到害怕；把某人嚇到」。",
       "sentenceIndex": 2,
@@ -481,12 +465,8 @@ export default {
         "frightened me"
       ],
       "optionReasons": {
-        "frighten-mcq-01": "本句指「使某人感到害怕；把某人嚇到」。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-01": "本句的「frightened me」指「使某人感到害怕；把某人嚇到」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-01"
     },
@@ -498,11 +478,7 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "frighten-mcq-01",
-        "frighten-mcq-02",
-        "frighten-mcq-03",
-        "frighten-mcq-04",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「frightened the child」指「使某人感到害怕；把某人嚇到」。",
       "sentenceIndex": 3,
@@ -511,12 +487,8 @@ export default {
         "frightened the child"
       ],
       "optionReasons": {
-        "frighten-mcq-01": "本句指「使某人感到害怕；把某人嚇到」。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-01": "本句的「frightened the child」指「使某人感到害怕；把某人嚇到」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-01"
     },
@@ -528,11 +500,7 @@ export default {
       "masked": "You ____ when you shouted.",
       "options": [
         "frighten-mcq-01",
-        "frighten-mcq-02",
-        "frighten-mcq-03",
-        "frighten-mcq-04",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened me」指「使某人感到害怕；把某人嚇到」。",
       "sentenceIndex": 4,
@@ -541,12 +509,8 @@ export default {
         "frightened me"
       ],
       "optionReasons": {
-        "frighten-mcq-01": "本句指「使某人感到害怕；把某人嚇到」。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-01": "本句的「frightened me」指「使某人感到害怕；把某人嚇到」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-01"
     },
@@ -558,11 +522,7 @@ export default {
       "masked": "The dark room ____.",
       "options": [
         "frighten-mcq-01",
-        "frighten-mcq-02",
-        "frighten-mcq-03",
-        "frighten-mcq-04",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「frightened her」指「使某人感到害怕；把某人嚇到」。",
       "sentenceIndex": 5,
@@ -571,12 +531,8 @@ export default {
         "frightened her"
       ],
       "optionReasons": {
-        "frighten-mcq-01": "本句指「使某人感到害怕；把某人嚇到」。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-01": "本句的「frightened her」指「使某人感到害怕；把某人嚇到」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-01"
     },
@@ -588,11 +544,7 @@ export default {
       "masked": "The warning ____.",
       "options": [
         "frighten-mcq-02",
-        "frighten-mcq-01",
-        "frighten-mcq-03",
-        "frighten-mcq-04",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened him into changing his behavior」指「以恐懼促使／迫使某人去做某事」。",
       "sentenceIndex": 6,
@@ -601,12 +553,8 @@ export default {
         "frightened him into changing his behavior"
       ],
       "optionReasons": {
-        "frighten-mcq-02": "本句指「以恐懼促使／迫使某人去做某事」。",
-        "frighten-mcq-01": "「使某人感到害怕；把某人嚇到」是「frighten someone」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-02": "本句的「frightened him into changing his behavior」指「以恐懼促使／迫使某人去做某事」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-02"
     },
@@ -618,11 +566,7 @@ export default {
       "masked": "They tried to ____.",
       "options": [
         "frighten-mcq-02",
-        "frighten-mcq-01",
-        "frighten-mcq-03",
-        "frighten-mcq-04",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frighten people into obeying」指「以恐懼促使／迫使某人去做某事」。",
       "sentenceIndex": 7,
@@ -631,12 +575,8 @@ export default {
         "frighten people into obeying"
       ],
       "optionReasons": {
-        "frighten-mcq-02": "本句指「以恐懼促使／迫使某人去做某事」。",
-        "frighten-mcq-01": "「使某人感到害怕；把某人嚇到」是「frighten someone」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-02": "本句的「frighten people into obeying」指「以恐懼促使／迫使某人去做某事」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-02"
     },
@@ -648,11 +588,7 @@ export default {
       "masked": "The accident ____ for several months.",
       "options": [
         "frighten-mcq-03",
-        "frighten-mcq-02",
-        "frighten-mcq-04",
-        "frighten-mcq-01",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「frightened her out of driving」指「使某人因害怕而不敢做某事」。",
       "sentenceIndex": 8,
@@ -661,12 +597,8 @@ export default {
         "frightened her out of driving"
       ],
       "optionReasons": {
-        "frighten-mcq-03": "本句指「使某人因害怕而不敢做某事」。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-01": "「使某人感到害怕；把某人嚇到」是「frighten someone」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-03": "本句的「frightened her out of driving」指「使某人因害怕而不敢做某事」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-03"
     },
@@ -678,11 +610,7 @@ export default {
       "masked": "Don’t let one bad experience ____.",
       "options": [
         "frighten-mcq-03",
-        "frighten-mcq-02",
-        "frighten-mcq-04",
-        "frighten-mcq-01",
-        "frighten-mcq-05",
-        "frighten-mcq-06"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frighten you out of trying again」指「使某人因害怕而不敢做某事」。",
       "sentenceIndex": 9,
@@ -691,12 +619,8 @@ export default {
         "frighten you out of trying again"
       ],
       "optionReasons": {
-        "frighten-mcq-03": "本句指「使某人因害怕而不敢做某事」。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-01": "「使某人感到害怕；把某人嚇到」是「frighten someone」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-03": "本句的「frighten you out of trying again」指「使某人因害怕而不敢做某事」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-03"
     },
@@ -708,11 +632,8 @@ export default {
       "masked": "The noise ____.",
       "options": [
         "frighten-mcq-04",
-        "frighten-mcq-03",
-        "frighten-mcq-05",
-        "frighten-mcq-02",
-        "frighten-mcq-06",
-        "frighten-mcq-01"
+        "frighten-mcq-17",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frightened the birds away」指「因驚嚇而使某人／某物離開；嚇走」。",
       "sentenceIndex": 10,
@@ -721,12 +642,9 @@ export default {
         "frightened the birds away"
       ],
       "optionReasons": {
-        "frighten-mcq-04": "本句指「因驚嚇而使某人／某物離開；嚇走」。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-01": "「使某人感到害怕；把某人嚇到」是「frighten someone」的用法，與本句語境不同。"
+        "frighten-mcq-04": "本句的「frightened the birds away」指「因驚嚇而使某人／某物離開；嚇走」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-04"
     },
@@ -738,11 +656,8 @@ export default {
       "masked": "Loud music may ____.",
       "options": [
         "frighten-mcq-04",
-        "frighten-mcq-03",
-        "frighten-mcq-05",
-        "frighten-mcq-02",
-        "frighten-mcq-06",
-        "frighten-mcq-01"
+        "frighten-mcq-17",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frighten customers away」指「因驚嚇而使某人／某物離開；嚇走」。",
       "sentenceIndex": 11,
@@ -751,12 +666,9 @@ export default {
         "frighten customers away"
       ],
       "optionReasons": {
-        "frighten-mcq-04": "本句指「因驚嚇而使某人／某物離開；嚇走」。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-01": "「使某人感到害怕；把某人嚇到」是「frighten someone」的用法，與本句語境不同。"
+        "frighten-mcq-04": "本句的「frighten customers away」指「因驚嚇而使某人／某物離開；嚇走」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-04"
     },
@@ -768,11 +680,7 @@ export default {
       "masked": "The high price ____.",
       "options": [
         "frighten-mcq-05",
-        "frighten-mcq-04",
-        "frighten-mcq-06",
-        "frighten-mcq-03",
-        "frighten-mcq-07",
-        "frighten-mcq-02"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened some buyers off」指「使某人因恐懼、擔憂或不適而退卻／離開」。",
       "sentenceIndex": 12,
@@ -781,12 +689,8 @@ export default {
         "frightened some buyers off"
       ],
       "optionReasons": {
-        "frighten-mcq-05": "本句指「使某人因恐懼、擔憂或不適而退卻／離開」。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。"
+        "frighten-mcq-05": "本句的「frightened some buyers off」指「使某人因恐懼、擔憂或不適而退卻／離開」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-05"
     },
@@ -798,11 +702,7 @@ export default {
       "masked": "Don’t make the course sound so hard that you ____.",
       "options": [
         "frighten-mcq-05",
-        "frighten-mcq-04",
-        "frighten-mcq-06",
-        "frighten-mcq-03",
-        "frighten-mcq-07",
-        "frighten-mcq-02"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frighten students off」指「使某人因恐懼、擔憂或不適而退卻／離開」。",
       "sentenceIndex": 13,
@@ -811,12 +711,8 @@ export default {
         "frighten students off"
       ],
       "optionReasons": {
-        "frighten-mcq-05": "本句指「使某人因恐懼、擔憂或不適而退卻／離開」。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-02": "「以恐懼促使／迫使某人去做某事」是「frighten someone into doing」的用法，與本句語境不同。"
+        "frighten-mcq-05": "本句的「frighten students off」指「使某人因恐懼、擔憂或不適而退卻／離開」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-05"
     },
@@ -828,11 +724,8 @@ export default {
       "masked": "I was ____ by the noise.",
       "options": [
         "frighten-mcq-06",
-        "frighten-mcq-05",
-        "frighten-mcq-07",
-        "frighten-mcq-04",
-        "frighten-mcq-08",
-        "frighten-mcq-03"
+        "frighten-mcq-14",
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened」指「自己感到恐懼、受驚；害怕的」。",
       "sentenceIndex": 14,
@@ -841,12 +734,9 @@ export default {
         "frightened"
       ],
       "optionReasons": {
-        "frighten-mcq-06": "本句指「自己感到恐懼、受驚；害怕的」。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。"
+        "frighten-mcq-06": "本句的「frightened」指「自己感到恐懼、受驚；害怕的」。",
+        "frighten-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-06"
     },
@@ -858,11 +748,8 @@ export default {
       "masked": "She looked ____.",
       "options": [
         "frighten-mcq-06",
-        "frighten-mcq-05",
-        "frighten-mcq-07",
-        "frighten-mcq-04",
-        "frighten-mcq-08",
-        "frighten-mcq-03"
+        "frighten-mcq-14",
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened」指「自己感到恐懼、受驚；害怕的」。",
       "sentenceIndex": 15,
@@ -871,12 +758,9 @@ export default {
         "frightened"
       ],
       "optionReasons": {
-        "frighten-mcq-06": "本句指「自己感到恐懼、受驚；害怕的」。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-03": "「使某人因害怕而不敢做某事」是「frighten someone out of doing」的用法，與本句語境不同。"
+        "frighten-mcq-06": "本句的「frightened」指「自己感到恐懼、受驚；害怕的」。",
+        "frighten-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-06"
     },
@@ -888,11 +772,7 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "frighten-mcq-07",
-        "frighten-mcq-06",
-        "frighten-mcq-08",
-        "frighten-mcq-05",
-        "frighten-mcq-09",
-        "frighten-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frightening experience」指「使別人產生恐懼或畏懼；令人害怕的」。",
       "sentenceIndex": 16,
@@ -901,12 +781,8 @@ export default {
         "frightening experience"
       ],
       "optionReasons": {
-        "frighten-mcq-07": "本句指「使別人產生恐懼或畏懼；令人害怕的」。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。"
+        "frighten-mcq-07": "本句的「frightening experience」指「使別人產生恐懼或畏懼；令人害怕的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-07"
     },
@@ -918,11 +794,7 @@ export default {
       "masked": "The problem looked more ____ than it really was.",
       "options": [
         "frighten-mcq-07",
-        "frighten-mcq-06",
-        "frighten-mcq-08",
-        "frighten-mcq-05",
-        "frighten-mcq-09",
-        "frighten-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frightening」指「使別人產生恐懼或畏懼；令人害怕的」。",
       "sentenceIndex": 17,
@@ -931,12 +803,8 @@ export default {
         "frightening"
       ],
       "optionReasons": {
-        "frighten-mcq-07": "本句指「使別人產生恐懼或畏懼；令人害怕的」。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。"
+        "frighten-mcq-07": "本句的「frightening」指「使別人產生恐懼或畏懼；令人害怕的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-07"
     },
@@ -948,11 +816,7 @@ export default {
       "masked": "She is ____.",
       "options": [
         "frighten-mcq-08",
-        "frighten-mcq-07",
-        "frighten-mcq-09",
-        "frighten-mcq-06",
-        "frighten-mcq-10",
-        "frighten-mcq-05"
+        "contrast-energy"
       ],
       "explanation": "本句的「frightened of spiders」指「害怕某人、某物或某件事」。",
       "sentenceIndex": 18,
@@ -961,12 +825,8 @@ export default {
         "frightened of spiders"
       ],
       "optionReasons": {
-        "frighten-mcq-08": "本句指「害怕某人、某物或某件事」。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。"
+        "frighten-mcq-08": "本句的「frightened of spiders」指「害怕某人、某物或某件事」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-08"
     },
@@ -978,11 +838,7 @@ export default {
       "masked": "Some students are ____.",
       "options": [
         "frighten-mcq-08",
-        "frighten-mcq-07",
-        "frighten-mcq-09",
-        "frighten-mcq-06",
-        "frighten-mcq-10",
-        "frighten-mcq-05"
+        "contrast-energy"
       ],
       "explanation": "本句的「frightened of speaking in public」指「害怕某人、某物或某件事」。",
       "sentenceIndex": 19,
@@ -991,12 +847,8 @@ export default {
         "frightened of speaking in public"
       ],
       "optionReasons": {
-        "frighten-mcq-08": "本句指「害怕某人、某物或某件事」。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。"
+        "frighten-mcq-08": "本句的「frightened of speaking in public」指「害怕某人、某物或某件事」。",
+        "contrast-energy": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-08"
     },
@@ -1008,11 +860,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "frighten-mcq-09",
-        "frighten-mcq-08",
-        "frighten-mcq-10",
-        "frighten-mcq-07",
         "frighten-mcq-11",
-        "frighten-mcq-06"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened to ask a question」指「因害怕而不敢做某事」。",
       "sentenceIndex": 20,
@@ -1021,12 +870,9 @@ export default {
         "frightened to ask a question"
       ],
       "optionReasons": {
-        "frighten-mcq-09": "本句指「因害怕而不敢做某事」。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-09": "本句的「frightened to ask a question」指「因害怕而不敢做某事」。",
+        "frighten-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-09"
     },
@@ -1038,11 +884,8 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "frighten-mcq-09",
-        "frighten-mcq-08",
-        "frighten-mcq-10",
-        "frighten-mcq-07",
-        "frighten-mcq-11",
-        "frighten-mcq-06"
+        "frighten-mcq-13",
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「frightened to speak in front of the class」指「因害怕而不敢做某事」。",
       "sentenceIndex": 21,
@@ -1051,12 +894,9 @@ export default {
         "frightened to speak in front of the class"
       ],
       "optionReasons": {
-        "frighten-mcq-09": "本句指「因害怕而不敢做某事」。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。"
+        "frighten-mcq-09": "本句的「frightened to speak in front of the class」指「因害怕而不敢做某事」。",
+        "frighten-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-09"
     },
@@ -1068,11 +908,8 @@ export default {
       "masked": "The loud noise gave me a ____.",
       "options": [
         "frighten-mcq-10",
-        "frighten-mcq-09",
-        "frighten-mcq-11",
-        "frighten-mcq-08",
-        "frighten-mcq-12",
-        "frighten-mcq-07"
+        "frighten-mcq-14",
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「fright」指「突然或強烈的恐懼／驚嚇」。",
       "sentenceIndex": 22,
@@ -1081,12 +918,9 @@ export default {
         "fright"
       ],
       "optionReasons": {
-        "frighten-mcq-10": "本句指「突然或強烈的恐懼／驚嚇」。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。"
+        "frighten-mcq-10": "本句的「fright」指「突然或強烈的恐懼／驚嚇」。",
+        "frighten-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-10"
     },
@@ -1098,11 +932,8 @@ export default {
       "masked": "She cried out in ____.",
       "options": [
         "frighten-mcq-10",
-        "frighten-mcq-09",
-        "frighten-mcq-11",
-        "frighten-mcq-08",
-        "frighten-mcq-12",
-        "frighten-mcq-07"
+        "frighten-mcq-14",
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「fright」指「突然或強烈的恐懼／驚嚇」。",
       "sentenceIndex": 23,
@@ -1111,12 +942,9 @@ export default {
         "fright"
       ],
       "optionReasons": {
-        "frighten-mcq-10": "本句指「突然或強烈的恐懼／驚嚇」。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-07": "「使別人產生恐懼或畏懼；令人害怕的」是「frightening」的用法，與本句語境不同。"
+        "frighten-mcq-10": "本句的「fright」指「突然或強烈的恐懼／驚嚇」。",
+        "frighten-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-10"
     },
@@ -1128,11 +956,8 @@ export default {
       "masked": "You gave me a ____!",
       "options": [
         "frighten-mcq-11",
-        "frighten-mcq-10",
-        "frighten-mcq-12",
         "frighten-mcq-09",
-        "frighten-mcq-13",
-        "frighten-mcq-08"
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「fright」指「突然把某人嚇一跳」。",
       "sentenceIndex": 24,
@@ -1141,12 +966,9 @@ export default {
         "fright"
       ],
       "optionReasons": {
-        "frighten-mcq-11": "本句指「突然把某人嚇一跳」。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。"
+        "frighten-mcq-11": "本句的「fright」指「突然把某人嚇一跳」。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-11"
     },
@@ -1158,11 +980,8 @@ export default {
       "masked": "The sudden movement gave her a ____.",
       "options": [
         "frighten-mcq-11",
-        "frighten-mcq-10",
-        "frighten-mcq-12",
-        "frighten-mcq-09",
-        "frighten-mcq-13",
-        "frighten-mcq-08"
+        "frighten-mcq-16",
+        "frighten-mcq-06"
       ],
       "explanation": "本句的「fright」指「突然把某人嚇一跳」。",
       "sentenceIndex": 25,
@@ -1171,12 +990,9 @@ export default {
         "fright"
       ],
       "optionReasons": {
-        "frighten-mcq-11": "本句指「突然把某人嚇一跳」。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。"
+        "frighten-mcq-11": "本句的「fright」指「突然把某人嚇一跳」。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-11"
     },
@@ -1188,11 +1004,7 @@ export default {
       "masked": "University can seem ____ at first.",
       "options": [
         "frighten-mcq-07",
-        "frighten-mcq-06",
-        "frighten-mcq-08",
-        "frighten-mcq-05",
-        "frighten-mcq-09",
-        "frighten-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frightening」指「使別人產生恐懼或畏懼；令人害怕的」。",
       "sentenceIndex": 26,
@@ -1201,12 +1013,8 @@ export default {
         "frightening"
       ],
       "optionReasons": {
-        "frighten-mcq-07": "本句指「使別人產生恐懼或畏懼；令人害怕的」。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。"
+        "frighten-mcq-07": "本句的「frightening」指「使別人產生恐懼或畏懼；令人害怕的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-07"
     },
@@ -1218,11 +1026,7 @@ export default {
       "masked": "A complicated formula may look ____ to beginners.",
       "options": [
         "frighten-mcq-07",
-        "frighten-mcq-06",
-        "frighten-mcq-08",
-        "frighten-mcq-05",
-        "frighten-mcq-09",
-        "frighten-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「frightening」指「使別人產生恐懼或畏懼；令人害怕的」。",
       "sentenceIndex": 27,
@@ -1231,12 +1035,8 @@ export default {
         "frightening"
       ],
       "optionReasons": {
-        "frighten-mcq-07": "本句指「使別人產生恐懼或畏懼；令人害怕的」。",
-        "frighten-mcq-06": "「自己感到恐懼、受驚；害怕的」是「frightened」的用法，與本句語境不同。",
-        "frighten-mcq-08": "「害怕某人、某物或某件事」是「frightened of」的用法，與本句語境不同。",
-        "frighten-mcq-05": "「使某人因恐懼、擔憂或不適而退卻／離開」是「frighten off」的用法，與本句語境不同。",
-        "frighten-mcq-09": "「因害怕而不敢做某事」是「frightened to do」的用法，與本句語境不同。",
-        "frighten-mcq-04": "「因驚嚇而使某人／某物離開；嚇走」是「frighten away」的用法，與本句語境不同。"
+        "frighten-mcq-07": "本句的「frightening」指「使別人產生恐懼或畏懼；令人害怕的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-07"
     },
@@ -1248,11 +1048,8 @@ export default {
       "masked": "That scream ____.",
       "options": [
         "frighten-mcq-13",
-        "frighten-mcq-12",
-        "frighten-mcq-14",
-        "frighten-mcq-11",
-        "frighten-mcq-15",
-        "frighten-mcq-10"
+        "frighten-mcq-17",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frightened the life out of me」指「把某人嚇個半死；非常強烈地驚嚇某人」。",
       "sentenceIndex": 28,
@@ -1261,12 +1058,9 @@ export default {
         "frightened the life out of me"
       ],
       "optionReasons": {
-        "frighten-mcq-13": "本句指「把某人嚇個半死；非常強烈地驚嚇某人」。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。"
+        "frighten-mcq-13": "本句的「frightened the life out of me」指「把某人嚇個半死；非常強烈地驚嚇某人」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-13"
     },
@@ -1278,11 +1072,8 @@ export default {
       "masked": "The sudden knock ____.",
       "options": [
         "frighten-mcq-13",
-        "frighten-mcq-12",
-        "frighten-mcq-14",
-        "frighten-mcq-11",
-        "frighten-mcq-15",
-        "frighten-mcq-10"
+        "frighten-mcq-09",
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「frightened the life out of her」指「把某人嚇個半死；非常強烈地驚嚇某人」。",
       "sentenceIndex": 29,
@@ -1291,12 +1082,9 @@ export default {
         "frightened the life out of her"
       ],
       "optionReasons": {
-        "frighten-mcq-13": "本句指「把某人嚇個半死；非常強烈地驚嚇某人」。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-10": "「突然或強烈的恐懼／驚嚇」是「fright」的用法，與本句語境不同。"
+        "frighten-mcq-13": "本句的「frightened the life out of her」指「把某人嚇個半死；非常強烈地驚嚇某人」。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-13"
     },
@@ -1308,11 +1096,8 @@ export default {
       "masked": "You ____!",
       "options": [
         "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-15",
-        "frighten-mcq-12",
-        "frighten-mcq-16",
-        "frighten-mcq-11"
+        "frighten-mcq-17",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frightened me to death」指「把某人嚇壞／嚇死，通常是誇張說法」。",
       "sentenceIndex": 30,
@@ -1321,12 +1106,9 @@ export default {
         "frightened me to death"
       ],
       "optionReasons": {
-        "frighten-mcq-14": "本句指「把某人嚇壞／嚇死，通常是誇張說法」。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。"
+        "frighten-mcq-14": "本句的「frightened me to death」指「把某人嚇壞／嚇死，通常是誇張說法」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-14"
     },
@@ -1338,11 +1120,8 @@ export default {
       "masked": "The thunder ____.",
       "options": [
         "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-15",
-        "frighten-mcq-12",
-        "frighten-mcq-16",
-        "frighten-mcq-11"
+        "frighten-mcq-06",
+        "frighten-mcq-16"
       ],
       "explanation": "本句的「frightened the child to death」指「把某人嚇壞／嚇死，通常是誇張說法」。",
       "sentenceIndex": 31,
@@ -1351,12 +1130,9 @@ export default {
         "frightened the child to death"
       ],
       "optionReasons": {
-        "frighten-mcq-14": "本句指「把某人嚇壞／嚇死，通常是誇張說法」。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。"
+        "frighten-mcq-14": "本句的「frightened the child to death」指「把某人嚇壞／嚇死，通常是誇張說法」。",
+        "frighten-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-14"
     },
@@ -1368,11 +1144,8 @@ export default {
       "masked": "Bad publicity ____.",
       "options": [
         "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-15",
-        "frighten-mcq-12",
-        "frighten-mcq-16",
-        "frighten-mcq-11"
+        "frighten-mcq-09",
+        "frighten-mcq-17"
       ],
       "explanation": "本句的「frightened investors away」指「把某人嚇壞／嚇死，通常是誇張說法」。",
       "sentenceIndex": 32,
@@ -1381,12 +1154,9 @@ export default {
         "frightened investors away"
       ],
       "optionReasons": {
-        "frighten-mcq-14": "本句指「把某人嚇壞／嚇死，通常是誇張說法」。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。"
+        "frighten-mcq-14": "本句的「frightened investors away」指「把某人嚇壞／嚇死，通常是誇張說法」。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-14"
     },
@@ -1398,11 +1168,8 @@ export default {
       "masked": "Don’t let technical language ____.",
       "options": [
         "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-15",
-        "frighten-mcq-12",
-        "frighten-mcq-16",
-        "frighten-mcq-11"
+        "frighten-mcq-17",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frighten you away from science」指「把某人嚇壞／嚇死，通常是誇張說法」。",
       "sentenceIndex": 33,
@@ -1411,12 +1178,9 @@ export default {
         "frighten you away from science"
       ],
       "optionReasons": {
-        "frighten-mcq-14": "本句指「把某人嚇壞／嚇死，通常是誇張說法」。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-11": "「突然把某人嚇一跳」是「give someone a fright」的用法，與本句語境不同。"
+        "frighten-mcq-14": "本句的「frighten you away from science」指「把某人嚇壞／嚇死，通常是誇張說法」。",
+        "frighten-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-14"
     },
@@ -1428,11 +1192,7 @@ export default {
       "masked": "The road was ____.",
       "options": [
         "frighten-mcq-15",
-        "frighten-mcq-14",
-        "frighten-mcq-16",
-        "frighten-mcq-13",
-        "frighten-mcq-17",
-        "frighten-mcq-12"
+        "frighten-mcq-11"
       ],
       "explanation": "本句的「frighteningly narrow」指「以令人害怕或驚人程度呈現；嚇人地」。",
       "sentenceIndex": 34,
@@ -1441,12 +1201,8 @@ export default {
         "frighteningly narrow"
       ],
       "optionReasons": {
-        "frighten-mcq-15": "本句指「以令人害怕或驚人程度呈現；嚇人地」。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-17": "「沒那麼可怕；沒那麼令人畏懼」是「Passage meaning」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。"
+        "frighten-mcq-15": "本句的「frighteningly narrow」指「以令人害怕或驚人程度呈現；嚇人地」。",
+        "frighten-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-15"
     },
@@ -1458,11 +1214,7 @@ export default {
       "masked": "The machine moved ____.",
       "options": [
         "frighten-mcq-15",
-        "frighten-mcq-14",
-        "frighten-mcq-16",
-        "frighten-mcq-13",
-        "frighten-mcq-17",
-        "frighten-mcq-12"
+        "frighten-mcq-14"
       ],
       "explanation": "本句的「frighteningly fast」指「以令人害怕或驚人程度呈現；嚇人地」。",
       "sentenceIndex": 35,
@@ -1471,12 +1223,8 @@ export default {
         "frighteningly fast"
       ],
       "optionReasons": {
-        "frighten-mcq-15": "本句指「以令人害怕或驚人程度呈現；嚇人地」。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-16": "「非常可怕、糟糕或令人震驚的」是「frightful」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-17": "「沒那麼可怕；沒那麼令人畏懼」是「Passage meaning」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。"
+        "frighten-mcq-15": "本句的「frighteningly fast」指「以令人害怕或驚人程度呈現；嚇人地」。",
+        "frighten-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-15"
     },
@@ -1488,11 +1236,8 @@ export default {
       "masked": "The weather was ____.",
       "options": [
         "frighten-mcq-16",
-        "frighten-mcq-15",
-        "frighten-mcq-17",
-        "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-12"
+        "frighten-mcq-11",
+        "frighten-mcq-09"
       ],
       "explanation": "本句的「frightful」指「非常可怕、糟糕或令人震驚的」。",
       "sentenceIndex": 36,
@@ -1501,12 +1246,9 @@ export default {
         "frightful"
       ],
       "optionReasons": {
-        "frighten-mcq-16": "本句指「非常可怕、糟糕或令人震驚的」。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-17": "「沒那麼可怕；沒那麼令人畏懼」是「Passage meaning」的用法，與本句語境不同。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。"
+        "frighten-mcq-16": "本句的「frightful」指「非常可怕、糟糕或令人震驚的」。",
+        "frighten-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "frighten-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-16"
     },
@@ -1518,11 +1260,7 @@ export default {
       "masked": "They heard a ____.",
       "options": [
         "frighten-mcq-16",
-        "frighten-mcq-15",
-        "frighten-mcq-17",
-        "frighten-mcq-14",
-        "frighten-mcq-13",
-        "frighten-mcq-12"
+        "frighten-mcq-02"
       ],
       "explanation": "本句的「frightful scream」指「非常可怕、糟糕或令人震驚的」。",
       "sentenceIndex": 37,
@@ -1531,12 +1269,8 @@ export default {
         "frightful scream"
       ],
       "optionReasons": {
-        "frighten-mcq-16": "本句指「非常可怕、糟糕或令人震驚的」。",
-        "frighten-mcq-15": "「以令人害怕或驚人程度呈現；嚇人地」是「frighteningly」的用法，與本句語境不同。",
-        "frighten-mcq-17": "「沒那麼可怕；沒那麼令人畏懼」是「Passage meaning」的用法，與本句語境不同。",
-        "frighten-mcq-14": "「把某人嚇壞／嚇死，通常是誇張說法」是「frighten someone to death」的用法，與本句語境不同。",
-        "frighten-mcq-13": "「把某人嚇個半死；非常強烈地驚嚇某人」是「frighten the life out of someone」的用法，與本句語境不同。",
-        "frighten-mcq-12": "「因太困難、陌生或有壓力而令人畏懼、卻步」是「frightening — intimidating」的用法，與本句語境不同。"
+        "frighten-mcq-16": "本句的「frightful scream」指「非常可怕、糟糕或令人震驚的」。",
+        "frighten-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "frighten-mcq-16"
     }
@@ -1548,5 +1282,16 @@ export default {
     "sha256": "d317851b83a55c0a270c83a3ef42997775b9ad937f39ec5828f5c035a94df3b0",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-energy",
+      "title": "消耗身體的體力或精力"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

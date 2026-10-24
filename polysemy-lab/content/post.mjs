@@ -414,10 +414,8 @@ export default {
       "masked": "I ____ a 45-second video.",
       "options": [
         "post-mcq-01",
-        "post-mcq-02",
-        "post-mcq-03",
-        "post-mcq-04",
-        "post-mcq-05",
+        "post-pdf-002",
+        "post-mcq-15",
         "post-mcq-06"
       ],
       "explanation": "本句的「posted」指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
@@ -427,12 +425,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-01": "本句指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-01": "本句的「posted」指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-01"
     },
@@ -444,11 +440,9 @@ export default {
       "masked": "She ____ a photo after the event.",
       "options": [
         "post-mcq-01",
-        "post-mcq-02",
-        "post-mcq-03",
-        "post-mcq-04",
-        "post-mcq-05",
-        "post-mcq-06"
+        "post-mcq-11",
+        "post-mcq-07",
+        "post-mcq-15"
       ],
       "explanation": "本句的「posted」指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
       "sentenceIndex": 1,
@@ -457,12 +451,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-01": "本句指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-01": "本句的「posted」指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-01"
     },
@@ -474,11 +466,9 @@ export default {
       "masked": "He ____ short videos every week.",
       "options": [
         "post-mcq-01",
-        "post-mcq-02",
-        "post-mcq-03",
-        "post-mcq-04",
-        "post-mcq-05",
-        "post-mcq-06"
+        "post-mcq-11",
+        "post-mcq-07",
+        "post-mcq-15"
       ],
       "explanation": "本句的「posts」指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
       "sentenceIndex": 2,
@@ -487,12 +477,10 @@ export default {
         "posts"
       ],
       "optionReasons": {
-        "post-mcq-01": "本句指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-01": "本句的「posts」指「把文字、圖片、影片等上載並公開發佈到網絡平台」。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-01"
     },
@@ -504,11 +492,9 @@ export default {
       "masked": "The ____ received thousands of likes.",
       "options": [
         "post-mcq-02",
-        "post-mcq-01",
         "post-mcq-03",
-        "post-mcq-04",
-        "post-mcq-05",
-        "post-mcq-06"
+        "post-mcq-07",
+        "post-mcq-15"
       ],
       "explanation": "本句的「post」指「在社交媒體、論壇或博客公開發佈的一則內容」。",
       "sentenceIndex": 3,
@@ -517,12 +503,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-02": "本句指「在社交媒體、論壇或博客公開發佈的一則內容」。",
-        "post-mcq-01": "「把文字、圖片、影片等上載並公開發佈到網絡平台」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-02": "本句的「post」指「在社交媒體、論壇或博客公開發佈的一則內容」。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-02"
     },
@@ -534,11 +518,9 @@ export default {
       "masked": "I saw your latest ____ this morning.",
       "options": [
         "post-mcq-02",
-        "post-mcq-01",
-        "post-mcq-03",
-        "post-mcq-04",
-        "post-mcq-05",
-        "post-mcq-06"
+        "post-mcq-14",
+        "post-mcq-07",
+        "post-pdf-002"
       ],
       "explanation": "本句的「post」指「在社交媒體、論壇或博客公開發佈的一則內容」。",
       "sentenceIndex": 4,
@@ -547,12 +529,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-02": "本句指「在社交媒體、論壇或博客公開發佈的一則內容」。",
-        "post-mcq-01": "「把文字、圖片、影片等上載並公開發佈到網絡平台」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-02": "本句的「post」指「在社交媒體、論壇或博客公開發佈的一則內容」。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-02"
     },
@@ -564,11 +544,9 @@ export default {
       "masked": "The documents arrived by ____.",
       "options": [
         "post-mcq-03",
-        "post-mcq-02",
-        "post-mcq-04",
-        "post-mcq-01",
         "post-mcq-05",
-        "post-mcq-06"
+        "post-mcq-02",
+        "post-mcq-08"
       ],
       "explanation": "本句的「post」指「郵遞系統，或透過郵遞收到的郵件」。",
       "sentenceIndex": 5,
@@ -577,12 +555,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-03": "本句指「郵遞系統，或透過郵遞收到的郵件」。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-01": "「把文字、圖片、影片等上載並公開發佈到網絡平台」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-03": "本句的「post」指「郵遞系統，或透過郵遞收到的郵件」。",
+        "post-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-03"
     },
@@ -594,10 +570,8 @@ export default {
       "masked": "Is there any ____ for me?",
       "options": [
         "post-mcq-03",
-        "post-mcq-02",
-        "post-mcq-04",
-        "post-mcq-01",
-        "post-mcq-05",
+        "post-mcq-12",
+        "post-mcq-08",
         "post-mcq-06"
       ],
       "explanation": "本句的「post」指「郵遞系統，或透過郵遞收到的郵件」。",
@@ -607,12 +581,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-03": "本句指「郵遞系統，或透過郵遞收到的郵件」。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-01": "「把文字、圖片、影片等上載並公開發佈到網絡平台」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-03": "本句的「post」指「郵遞系統，或透過郵遞收到的郵件」。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-03"
     },
@@ -624,11 +596,9 @@ export default {
       "masked": "I’ll ____ the letter tomorrow.",
       "options": [
         "post-mcq-04",
-        "post-mcq-03",
-        "post-mcq-05",
-        "post-mcq-02",
-        "post-mcq-06",
-        "post-mcq-01"
+        "post-mcq-11",
+        "post-mcq-08",
+        "post-mcq-06"
       ],
       "explanation": "本句的「post」指「透過郵政系統寄送信件、文件或包裹」。",
       "sentenceIndex": 7,
@@ -637,12 +607,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-04": "本句指「透過郵政系統寄送信件、文件或包裹」。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-01": "「把文字、圖片、影片等上載並公開發佈到網絡平台」與本句語境不同。"
+        "post-mcq-04": "本句的「post」指「透過郵政系統寄送信件、文件或包裹」。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-04"
     },
@@ -654,11 +622,9 @@ export default {
       "masked": "Please ____ the form before Friday.",
       "options": [
         "post-mcq-04",
-        "post-mcq-03",
-        "post-mcq-05",
-        "post-mcq-02",
-        "post-mcq-06",
-        "post-mcq-01"
+        "post-mcq-07",
+        "post-mcq-11",
+        "post-mcq-08"
       ],
       "explanation": "本句的「post」指「透過郵政系統寄送信件、文件或包裹」。",
       "sentenceIndex": 8,
@@ -667,12 +633,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-04": "本句指「透過郵政系統寄送信件、文件或包裹」。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-01": "「把文字、圖片、影片等上載並公開發佈到網絡平台」與本句語境不同。"
+        "post-mcq-04": "本句的「post」指「透過郵政系統寄送信件、文件或包裹」。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-04"
     },
@@ -684,11 +648,9 @@ export default {
       "masked": "She applied for a senior ____.",
       "options": [
         "post-mcq-05",
-        "post-mcq-04",
-        "post-mcq-06",
+        "post-mcq-15",
         "post-mcq-03",
-        "post-mcq-07",
-        "post-mcq-02"
+        "post-pdf-002"
       ],
       "explanation": "本句的「post」指「機構／公司／政府中的正式職位」。",
       "sentenceIndex": 9,
@@ -697,12 +659,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-05": "本句指「機構／公司／政府中的正式職位」。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。"
+        "post-mcq-05": "本句的「post」指「機構／公司／政府中的正式職位」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-05"
     },
@@ -714,11 +674,9 @@ export default {
       "masked": "The company created three new ____.",
       "options": [
         "post-mcq-05",
-        "post-mcq-04",
-        "post-mcq-06",
         "post-mcq-03",
-        "post-mcq-07",
-        "post-mcq-02"
+        "post-mcq-08",
+        "post-pdf-002"
       ],
       "explanation": "本句的「posts」指「機構／公司／政府中的正式職位」。",
       "sentenceIndex": 10,
@@ -727,12 +685,10 @@ export default {
         "posts"
       ],
       "optionReasons": {
-        "post-mcq-05": "本句指「機構／公司／政府中的正式職位」。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-02": "「在社交媒體、論壇或博客公開發佈的一則內容」與本句語境不同。"
+        "post-mcq-05": "本句的「posts」指「機構／公司／政府中的正式職位」。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-05"
     },
@@ -744,11 +700,9 @@ export default {
       "masked": "The guard returned to his ____.",
       "options": [
         "post-mcq-06",
-        "post-mcq-05",
-        "post-mcq-07",
         "post-mcq-04",
-        "post-mcq-08",
-        "post-mcq-03"
+        "post-pdf-002",
+        "post-mcq-11"
       ],
       "explanation": "本句的「post」指「某人被指派站守或履行職責的位置」。",
       "sentenceIndex": 11,
@@ -757,12 +711,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-06": "本句指「某人被指派站守或履行職責的位置」。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。"
+        "post-mcq-06": "本句的「post」指「某人被指派站守或履行職責的位置」。",
+        "post-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-06"
     },
@@ -774,11 +726,9 @@ export default {
       "masked": "Do not leave your ____ without permission.",
       "options": [
         "post-mcq-06",
-        "post-mcq-05",
-        "post-mcq-07",
-        "post-mcq-04",
-        "post-mcq-08",
-        "post-mcq-03"
+        "post-mcq-01",
+        "post-mcq-15",
+        "post-mcq-08"
       ],
       "explanation": "本句的「post」指「某人被指派站守或履行職責的位置」。",
       "sentenceIndex": 12,
@@ -787,12 +737,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-06": "本句指「某人被指派站守或履行職責的位置」。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-03": "「郵遞系統，或透過郵遞收到的郵件」與本句語境不同。"
+        "post-mcq-06": "本句的「post」指「某人被指派站守或履行職責的位置」。",
+        "post-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-06"
     },
@@ -804,11 +752,9 @@ export default {
       "masked": "The soldiers defended the ____.",
       "options": [
         "post-mcq-07",
-        "post-mcq-06",
-        "post-mcq-08",
-        "post-mcq-05",
-        "post-mcq-09",
-        "post-mcq-04"
+        "post-mcq-14",
+        "post-mcq-02",
+        "post-mcq-12"
       ],
       "explanation": "本句的「post」指「軍人駐守或執行任務的據點／駐地」。",
       "sentenceIndex": 13,
@@ -817,12 +763,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-07": "本句指「軍人駐守或執行任務的據點／駐地」。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。"
+        "post-mcq-07": "本句的「post」指「軍人駐守或執行任務的據點／駐地」。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-07"
     },
@@ -834,11 +778,9 @@ export default {
       "masked": "They were sent to a remote military ____.",
       "options": [
         "post-mcq-07",
-        "post-mcq-06",
-        "post-mcq-08",
-        "post-mcq-05",
-        "post-mcq-09",
-        "post-mcq-04"
+        "post-mcq-15",
+        "post-mcq-10",
+        "post-mcq-03"
       ],
       "explanation": "本句的「post」指「軍人駐守或執行任務的據點／駐地」。",
       "sentenceIndex": 14,
@@ -847,12 +789,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-07": "本句指「軍人駐守或執行任務的據點／駐地」。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-04": "「透過郵政系統寄送信件、文件或包裹」與本句語境不同。"
+        "post-mcq-07": "本句的「post」指「軍人駐守或執行任務的據點／駐地」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-07"
     },
@@ -864,11 +804,9 @@ export default {
       "masked": "The sign was attached to a wooden ____.",
       "options": [
         "post-mcq-08",
-        "post-mcq-07",
-        "post-mcq-09",
-        "post-mcq-06",
-        "post-mcq-10",
-        "post-mcq-05"
+        "post-pdf-002",
+        "post-pdf-001",
+        "post-mcq-14"
       ],
       "explanation": "本句的「post」指「直立固定、用作支撐／標記的柱、桿或樁」。",
       "sentenceIndex": 15,
@@ -877,12 +815,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-08": "本句指「直立固定、用作支撐／標記的柱、桿或樁」。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。"
+        "post-mcq-08": "本句的「post」指「直立固定、用作支撐／標記的柱、桿或樁」。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-08"
     },
@@ -894,11 +830,9 @@ export default {
       "masked": "They tied the rope to a fence ____.",
       "options": [
         "post-mcq-08",
-        "post-mcq-07",
-        "post-mcq-09",
-        "post-mcq-06",
         "post-mcq-10",
-        "post-mcq-05"
+        "post-mcq-14",
+        "post-mcq-12"
       ],
       "explanation": "本句的「post」指「直立固定、用作支撐／標記的柱、桿或樁」。",
       "sentenceIndex": 16,
@@ -907,12 +841,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-08": "本句指「直立固定、用作支撐／標記的柱、桿或樁」。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。"
+        "post-mcq-08": "本句的「post」指「直立固定、用作支撐／標記的柱、桿或樁」。",
+        "post-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-08"
     },
@@ -924,11 +856,9 @@ export default {
       "masked": "The ball hit the ____.",
       "options": [
         "post-mcq-08",
-        "post-mcq-07",
-        "post-mcq-09",
-        "post-mcq-06",
-        "post-mcq-10",
-        "post-mcq-05"
+        "post-mcq-13",
+        "post-pdf-002",
+        "post-mcq-07"
       ],
       "explanation": "本句的「post」指「直立固定、用作支撐／標記的柱、桿或樁」。",
       "sentenceIndex": 17,
@@ -937,12 +867,10 @@ export default {
         "post"
       ],
       "optionReasons": {
-        "post-mcq-08": "本句指「直立固定、用作支撐／標記的柱、桿或樁」。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。"
+        "post-mcq-08": "本句的「post」指「直立固定、用作支撐／標記的柱、桿或樁」。",
+        "post-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-08"
     },
@@ -954,11 +882,9 @@ export default {
       "masked": "The roof is supported by several ____.",
       "options": [
         "post-mcq-08",
-        "post-mcq-07",
-        "post-mcq-09",
+        "post-pdf-001",
         "post-mcq-06",
-        "post-mcq-10",
-        "post-mcq-05"
+        "post-mcq-03"
       ],
       "explanation": "本句的「posts」指「直立固定、用作支撐／標記的柱、桿或樁」。",
       "sentenceIndex": 18,
@@ -967,12 +893,10 @@ export default {
         "posts"
       ],
       "optionReasons": {
-        "post-mcq-08": "本句指「直立固定、用作支撐／標記的柱、桿或樁」。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-05": "「機構／公司／政府中的正式職位」與本句語境不同。"
+        "post-mcq-08": "本句的「posts」指「直立固定、用作支撐／標記的柱、桿或樁」。",
+        "post-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-08"
     },
@@ -984,11 +908,9 @@ export default {
       "masked": "She was ____ to Singapore for two years.",
       "options": [
         "post-mcq-09",
-        "post-mcq-08",
         "post-mcq-10",
-        "post-mcq-07",
-        "post-mcq-11",
-        "post-mcq-06"
+        "post-mcq-08",
+        "post-mcq-14"
       ],
       "explanation": "本句的「posted」指「正式派某人到某地任職／駐守」。",
       "sentenceIndex": 19,
@@ -997,12 +919,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-09": "本句指「正式派某人到某地任職／駐守」。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-09": "本句的「posted」指「正式派某人到某地任職／駐守」。",
+        "post-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-09"
     },
@@ -1014,11 +934,9 @@ export default {
       "masked": "The officer was ____ overseas.",
       "options": [
         "post-mcq-09",
-        "post-mcq-08",
-        "post-mcq-10",
-        "post-mcq-07",
-        "post-mcq-11",
-        "post-mcq-06"
+        "post-mcq-03",
+        "post-mcq-02",
+        "post-pdf-002"
       ],
       "explanation": "本句的「posted」指「正式派某人到某地任職／駐守」。",
       "sentenceIndex": 20,
@@ -1027,12 +945,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-09": "本句指「正式派某人到某地任職／駐守」。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-09": "本句的「posted」指「正式派某人到某地任職／駐守」。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-09"
     },
@@ -1044,11 +960,9 @@ export default {
       "masked": "His overseas ____ lasted three years.",
       "options": [
         "post-mcq-09",
+        "post-pdf-002",
         "post-mcq-08",
-        "post-mcq-10",
-        "post-mcq-07",
-        "post-mcq-11",
-        "post-mcq-06"
+        "post-mcq-01"
       ],
       "explanation": "本句的「posting」指「正式派某人到某地任職／駐守」。",
       "sentenceIndex": 21,
@@ -1057,12 +971,10 @@ export default {
         "posting"
       ],
       "optionReasons": {
-        "post-mcq-09": "本句指「正式派某人到某地任職／駐守」。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-09": "本句的「posting」指「正式派某人到某地任職／駐守」。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-09"
     },
@@ -1075,10 +987,8 @@ export default {
       "options": [
         "post-mcq-09",
         "post-mcq-08",
-        "post-mcq-10",
-        "post-mcq-07",
-        "post-mcq-11",
-        "post-mcq-06"
+        "post-pdf-002",
+        "post-mcq-02"
       ],
       "explanation": "本句的「posting」指「正式派某人到某地任職／駐守」。",
       "sentenceIndex": 22,
@@ -1087,12 +997,10 @@ export default {
         "posting"
       ],
       "optionReasons": {
-        "post-mcq-09": "本句指「正式派某人到某地任職／駐守」。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-06": "「某人被指派站守或履行職責的位置」與本句語境不同。"
+        "post-mcq-09": "本句的「posting」指「正式派某人到某地任職／駐守」。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-09"
     },
@@ -1104,11 +1012,9 @@ export default {
       "masked": "The school ____ the results on the noticeboard.",
       "options": [
         "post-mcq-10",
-        "post-mcq-09",
-        "post-mcq-11",
         "post-mcq-08",
-        "post-mcq-12",
-        "post-mcq-07"
+        "post-mcq-15",
+        "post-pdf-002"
       ],
       "explanation": "本句的「posted」指「把通知／資料張貼在公開位置」。",
       "sentenceIndex": 23,
@@ -1117,12 +1023,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-10": "本句指「把通知／資料張貼在公開位置」。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。"
+        "post-mcq-10": "本句的「posted」指「把通知／資料張貼在公開位置」。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-10"
     },
@@ -1134,11 +1038,9 @@ export default {
       "masked": "The opening hours are ____ at the entrance.",
       "options": [
         "post-mcq-10",
-        "post-mcq-09",
-        "post-mcq-11",
-        "post-mcq-08",
-        "post-mcq-12",
-        "post-mcq-07"
+        "post-mcq-15",
+        "post-mcq-03",
+        "post-mcq-09"
       ],
       "explanation": "本句的「posted」指「把通知／資料張貼在公開位置」。",
       "sentenceIndex": 24,
@@ -1147,12 +1049,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-10": "本句指「把通知／資料張貼在公開位置」。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。"
+        "post-mcq-10": "本句的「posted」指「把通知／資料張貼在公開位置」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-10"
     },
@@ -1164,11 +1064,9 @@ export default {
       "masked": "The company ____ its quarterly results.",
       "options": [
         "post-pdf-001",
-        "post-mcq-09",
-        "post-mcq-11",
-        "post-mcq-08",
-        "post-mcq-12",
-        "post-mcq-07"
+        "post-mcq-15",
+        "post-mcq-07",
+        "post-mcq-03"
       ],
       "explanation": "本句的「posted」指「正式把資訊公開發布」。",
       "sentenceIndex": 25,
@@ -1177,12 +1075,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-pdf-001": "本句指「正式把資訊公開發布」。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。"
+        "post-pdf-001": "本句的「posted」指「正式把資訊公開發布」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-pdf-001"
     },
@@ -1194,11 +1090,9 @@ export default {
       "masked": "The university ____ the timetable online.",
       "options": [
         "post-pdf-001",
-        "post-mcq-09",
-        "post-mcq-11",
-        "post-mcq-08",
-        "post-mcq-12",
-        "post-mcq-07"
+        "post-pdf-002",
+        "post-mcq-07",
+        "post-mcq-15"
       ],
       "explanation": "本句的「posted」指「正式把資訊公開發布」。",
       "sentenceIndex": 26,
@@ -1207,12 +1101,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-pdf-001": "本句指「正式把資訊公開發布」。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-07": "「軍人駐守或執行任務的據點／駐地」與本句語境不同。"
+        "post-pdf-001": "本句的「posted」指「正式把資訊公開發布」。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-pdf-001"
     },
@@ -1224,11 +1116,9 @@ export default {
       "masked": "The payment was ____ to the account yesterday.",
       "options": [
         "post-mcq-11",
-        "post-mcq-10",
-        "post-mcq-12",
-        "post-mcq-09",
-        "post-mcq-13",
-        "post-mcq-08"
+        "post-mcq-03",
+        "post-pdf-002",
+        "post-mcq-06"
       ],
       "explanation": "本句的「posted」指「把交易或款項正式記入帳戶／帳簿」。",
       "sentenceIndex": 27,
@@ -1237,12 +1127,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-11": "本句指「把交易或款項正式記入帳戶／帳簿」。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。"
+        "post-mcq-11": "本句的「posted」指「把交易或款項正式記入帳戶／帳簿」。",
+        "post-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-11"
     },
@@ -1254,11 +1142,9 @@ export default {
       "masked": "The transaction has not yet been ____.",
       "options": [
         "post-mcq-11",
+        "post-mcq-15",
         "post-mcq-10",
-        "post-mcq-12",
-        "post-mcq-09",
-        "post-mcq-13",
-        "post-mcq-08"
+        "post-mcq-07"
       ],
       "explanation": "本句的「posted」指「把交易或款項正式記入帳戶／帳簿」。",
       "sentenceIndex": 28,
@@ -1267,12 +1153,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-11": "本句指「把交易或款項正式記入帳戶／帳簿」。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-08": "「直立固定、用作支撐／標記的柱、桿或樁」與本句語境不同。"
+        "post-mcq-11": "本句的「posted」指「把交易或款項正式記入帳戶／帳簿」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-11"
     },
@@ -1284,11 +1168,9 @@ export default {
       "masked": "The company ____ strong sales figures.",
       "options": [
         "post-mcq-12",
-        "post-mcq-11",
-        "post-mcq-13",
-        "post-mcq-10",
+        "post-mcq-06",
         "post-mcq-14",
-        "post-mcq-09"
+        "post-mcq-08"
       ],
       "explanation": "本句的「posted」指「正式錄得或公布某個數字、成績或結果」。",
       "sentenceIndex": 29,
@@ -1297,12 +1179,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-12": "本句指「正式錄得或公布某個數字、成績或結果」。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-14": "「與郵件和郵政系統有關的」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。"
+        "post-mcq-12": "本句的「posted」指「正式錄得或公布某個數字、成績或結果」。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-12"
     },
@@ -1314,11 +1194,9 @@ export default {
       "masked": "She ____ the fastest time of the day.",
       "options": [
         "post-mcq-12",
-        "post-mcq-11",
-        "post-mcq-13",
-        "post-mcq-10",
-        "post-mcq-14",
-        "post-mcq-09"
+        "post-mcq-15",
+        "post-pdf-002",
+        "post-mcq-08"
       ],
       "explanation": "本句的「posted」指「正式錄得或公布某個數字、成績或結果」。",
       "sentenceIndex": 30,
@@ -1327,12 +1205,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-12": "本句指「正式錄得或公布某個數字、成績或結果」。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。",
-        "post-mcq-14": "「與郵件和郵政系統有關的」與本句語境不同。",
-        "post-mcq-09": "「正式派某人到某地任職／駐守」與本句語境不同。"
+        "post-mcq-12": "本句的「posted」指「正式錄得或公布某個數字、成績或結果」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-12"
     },
@@ -1344,11 +1220,9 @@ export default {
       "masked": "Keep me ____ on what happens.",
       "options": [
         "post-mcq-13",
-        "post-mcq-12",
-        "post-mcq-14",
-        "post-mcq-11",
         "post-mcq-15",
-        "post-mcq-10"
+        "post-mcq-07",
+        "post-mcq-12"
       ],
       "explanation": "本句的「posted」指「持續向某人提供最新消息／進展」。",
       "sentenceIndex": 33,
@@ -1357,12 +1231,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-13": "本句指「持續向某人提供最新消息／進展」。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-14": "「與郵件和郵政系統有關的」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-mcq-13": "本句的「posted」指「持續向某人提供最新消息／進展」。",
+        "post-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-13"
     },
@@ -1374,11 +1246,9 @@ export default {
       "masked": "I’ll keep you ____ about the results.",
       "options": [
         "post-mcq-13",
-        "post-mcq-12",
+        "post-pdf-002",
         "post-mcq-14",
-        "post-mcq-11",
-        "post-mcq-15",
-        "post-mcq-10"
+        "post-mcq-12"
       ],
       "explanation": "本句的「posted」指「持續向某人提供最新消息／進展」。",
       "sentenceIndex": 34,
@@ -1387,12 +1257,10 @@ export default {
         "posted"
       ],
       "optionReasons": {
-        "post-mcq-13": "本句指「持續向某人提供最新消息／進展」。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-14": "「與郵件和郵政系統有關的」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-mcq-13": "本句的「posted」指「持續向某人提供最新消息／進展」。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-13"
     },
@@ -1404,10 +1272,8 @@ export default {
       "masked": "The country faced major problems in the ____ period.",
       "options": [
         "post-pdf-002",
-        "post-mcq-13",
-        "post-mcq-15",
+        "post-mcq-07",
         "post-mcq-12",
-        "post-mcq-11",
         "post-mcq-10"
       ],
       "explanation": "本句的「post-war」指「在某件事／某時期之後」。",
@@ -1417,12 +1283,10 @@ export default {
         "post-war"
       ],
       "optionReasons": {
-        "post-pdf-002": "本句指「在某件事／某時期之後」。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-pdf-002": "本句的「post-war」指「在某件事／某時期之後」。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-pdf-002"
     },
@@ -1434,11 +1298,9 @@ export default {
       "masked": "We discussed our plans for the ____ period.",
       "options": [
         "post-pdf-002",
-        "post-mcq-13",
-        "post-mcq-15",
-        "post-mcq-12",
-        "post-mcq-11",
-        "post-mcq-10"
+        "post-mcq-06",
+        "post-mcq-08",
+        "post-mcq-11"
       ],
       "explanation": "本句的「post-exam」指「在某件事／某時期之後」。",
       "sentenceIndex": 36,
@@ -1447,12 +1309,10 @@ export default {
         "post-exam"
       ],
       "optionReasons": {
-        "post-pdf-002": "本句指「在某件事／某時期之後」。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-pdf-002": "本句的「post-exam」指「在某件事／某時期之後」。",
+        "post-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-pdf-002"
     },
@@ -1464,11 +1324,9 @@ export default {
       "masked": "The ____ service was delayed.",
       "options": [
         "post-mcq-14",
-        "post-mcq-13",
-        "post-mcq-15",
-        "post-mcq-12",
+        "post-mcq-10",
         "post-mcq-11",
-        "post-mcq-10"
+        "post-mcq-07"
       ],
       "explanation": "本句的「postal」指「與郵件和郵政系統有關的」。",
       "sentenceIndex": 37,
@@ -1477,12 +1335,10 @@ export default {
         "postal"
       ],
       "optionReasons": {
-        "post-mcq-14": "本句指「與郵件和郵政系統有關的」。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-mcq-14": "本句的「postal」指「與郵件和郵政系統有關的」。",
+        "post-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-14"
     },
@@ -1494,11 +1350,9 @@ export default {
       "masked": "Please write your ____ address clearly.",
       "options": [
         "post-mcq-14",
-        "post-mcq-13",
-        "post-mcq-15",
-        "post-mcq-12",
-        "post-mcq-11",
-        "post-mcq-10"
+        "post-mcq-07",
+        "post-mcq-02",
+        "post-mcq-12"
       ],
       "explanation": "本句的「postal」指「與郵件和郵政系統有關的」。",
       "sentenceIndex": 38,
@@ -1507,12 +1361,10 @@ export default {
         "postal"
       ],
       "optionReasons": {
-        "post-mcq-14": "本句指「與郵件和郵政系統有關的」。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-15": "「郵寄物件所需支付的費用」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-mcq-14": "本句的「postal」指「與郵件和郵政系統有關的」。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-14"
     },
@@ -1524,11 +1376,9 @@ export default {
       "masked": "The price includes ____.",
       "options": [
         "post-mcq-15",
-        "post-mcq-14",
-        "post-mcq-13",
-        "post-mcq-12",
-        "post-mcq-11",
-        "post-mcq-10"
+        "post-mcq-02",
+        "post-mcq-07",
+        "post-mcq-12"
       ],
       "explanation": "本句的「postage」指「郵寄物件所需支付的費用」。",
       "sentenceIndex": 39,
@@ -1537,12 +1387,10 @@ export default {
         "postage"
       ],
       "optionReasons": {
-        "post-mcq-15": "本句指「郵寄物件所需支付的費用」。",
-        "post-mcq-14": "「與郵件和郵政系統有關的」與本句語境不同。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-mcq-15": "本句的「postage」指「郵寄物件所需支付的費用」。",
+        "post-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-15"
     },
@@ -1554,11 +1402,9 @@ export default {
       "masked": "How much is the ____ to Canada?",
       "options": [
         "post-mcq-15",
-        "post-mcq-14",
-        "post-mcq-13",
-        "post-mcq-12",
-        "post-mcq-11",
-        "post-mcq-10"
+        "post-pdf-001",
+        "post-mcq-07",
+        "post-pdf-002"
       ],
       "explanation": "本句的「postage」指「郵寄物件所需支付的費用」。",
       "sentenceIndex": 40,
@@ -1567,12 +1413,10 @@ export default {
         "postage"
       ],
       "optionReasons": {
-        "post-mcq-15": "本句指「郵寄物件所需支付的費用」。",
-        "post-mcq-14": "「與郵件和郵政系統有關的」與本句語境不同。",
-        "post-mcq-13": "「持續向某人提供最新消息／進展」與本句語境不同。",
-        "post-mcq-12": "「正式錄得或公布某個數字、成績或結果」與本句語境不同。",
-        "post-mcq-11": "「把交易或款項正式記入帳戶／帳簿」與本句語境不同。",
-        "post-mcq-10": "「把通知／資料張貼在公開位置」與本句語境不同。"
+        "post-mcq-15": "本句的「postage」指「郵寄物件所需支付的費用」。",
+        "post-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "post-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "post-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "post-mcq-15"
     }
@@ -1584,5 +1428,7 @@ export default {
     "sha256": "76ee1d2fdf63125b57f16041aa595588968d98a2cd90beebd2ff2494eefa6889",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

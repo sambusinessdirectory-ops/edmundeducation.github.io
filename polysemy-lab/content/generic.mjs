@@ -438,11 +438,9 @@ export default {
       "masked": "I want to give fewer ____ in the future.",
       "options": [
         "generic-mcq-01",
-        "generic-mcq-02",
-        "generic-mcq-03",
-        "generic-mcq-04",
-        "generic-mcq-05",
-        "generic-mcq-06"
+        "generic-mcq-10",
+        "generic-mcq-12",
+        "generic-mcq-08"
       ],
       "explanation": "本句的「generic presents」指「制式化的；缺乏特色的」。",
       "sentenceIndex": 0,
@@ -451,12 +449,10 @@ export default {
         "generic presents"
       ],
       "optionReasons": {
-        "generic-mcq-01": "本句指「制式化的；缺乏特色的」。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-01": "本句的「generic presents」指「制式化的；缺乏特色的」。",
+        "generic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-01"
     },
@@ -468,11 +464,9 @@ export default {
       "masked": "The message sounded too ____.",
       "options": [
         "generic-mcq-01",
-        "generic-mcq-02",
-        "generic-mcq-03",
-        "generic-mcq-04",
-        "generic-mcq-05",
-        "generic-mcq-06"
+        "generic-mcq-11",
+        "generic-mcq-08",
+        "generic-mcq-19"
       ],
       "explanation": "本句的「generic」指「制式化的；缺乏特色的」。",
       "sentenceIndex": 1,
@@ -481,12 +475,10 @@ export default {
         "generic"
       ],
       "optionReasons": {
-        "generic-mcq-01": "本句指「制式化的；缺乏特色的」。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-01": "本句的「generic」指「制式化的；缺乏特色的」。",
+        "generic-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-01"
     },
@@ -498,11 +490,9 @@ export default {
       "masked": "The design is clean but a little ____.",
       "options": [
         "generic-mcq-01",
-        "generic-mcq-02",
-        "generic-mcq-03",
-        "generic-mcq-04",
-        "generic-mcq-05",
-        "generic-mcq-06"
+        "generic-mcq-18",
+        "generic-mcq-07",
+        "generic-mcq-13"
       ],
       "explanation": "本句的「generic」指「制式化的；缺乏特色的」。",
       "sentenceIndex": 2,
@@ -511,12 +501,10 @@ export default {
         "generic"
       ],
       "optionReasons": {
-        "generic-mcq-01": "本句指「制式化的；缺乏特色的」。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-01": "本句的「generic」指「制式化的；缺乏特色的」。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-01"
     },
@@ -528,10 +516,8 @@ export default {
       "masked": "A gift card can feel like a ____ if no thought goes into it.",
       "options": [
         "generic-mcq-02",
-        "generic-mcq-01",
-        "generic-mcq-03",
-        "generic-mcq-04",
-        "generic-mcq-05",
+        "generic-mcq-14",
+        "generic-mcq-12",
         "generic-mcq-06"
       ],
       "explanation": "本句的「generic gift」指「大路／制式化禮物」。",
@@ -541,12 +527,10 @@ export default {
         "generic gift"
       ],
       "optionReasons": {
-        "generic-mcq-02": "本句指「大路／制式化禮物」。",
-        "generic-mcq-01": "「制式化的；缺乏特色的」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-02": "本句的「generic gift」指「大路／制式化禮物」。",
+        "generic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-02"
     },
@@ -558,11 +542,9 @@ export default {
       "masked": "She wanted something more personal than a ____.",
       "options": [
         "generic-mcq-02",
-        "generic-mcq-01",
-        "generic-mcq-03",
-        "generic-mcq-04",
-        "generic-mcq-05",
-        "generic-mcq-06"
+        "generic-mcq-07",
+        "generic-mcq-18",
+        "generic-mcq-12"
       ],
       "explanation": "本句的「generic present」指「大路／制式化禮物」。",
       "sentenceIndex": 4,
@@ -571,12 +553,10 @@ export default {
         "generic present"
       ],
       "optionReasons": {
-        "generic-mcq-02": "本句指「大路／制式化禮物」。",
-        "generic-mcq-01": "「制式化的；缺乏特色的」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-02": "本句的「generic present」指「大路／制式化禮物」。",
+        "generic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-02"
     },
@@ -588,11 +568,9 @@ export default {
       "masked": "His answer was too ____.",
       "options": [
         "generic-mcq-03",
-        "generic-mcq-02",
-        "generic-mcq-04",
-        "generic-mcq-01",
-        "generic-mcq-05",
-        "generic-mcq-06"
+        "generic-mcq-07",
+        "generic-mcq-13",
+        "generic-mcq-18"
       ],
       "explanation": "本句的「generic」指「籠統／公式化答案」。",
       "sentenceIndex": 5,
@@ -601,12 +579,10 @@ export default {
         "generic"
       ],
       "optionReasons": {
-        "generic-mcq-03": "本句指「籠統／公式化答案」。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-01": "「制式化的；缺乏特色的」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-03": "本句的「generic」指「籠統／公式化答案」。",
+        "generic-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-03"
     },
@@ -618,11 +594,9 @@ export default {
       "masked": "Try to avoid ____ in an interview.",
       "options": [
         "generic-mcq-03",
-        "generic-mcq-02",
-        "generic-mcq-04",
-        "generic-mcq-01",
-        "generic-mcq-05",
-        "generic-mcq-06"
+        "generic-mcq-11",
+        "generic-mcq-13",
+        "generic-mcq-18"
       ],
       "explanation": "本句的「generic answers」指「籠統／公式化答案」。",
       "sentenceIndex": 6,
@@ -631,12 +605,10 @@ export default {
         "generic answers"
       ],
       "optionReasons": {
-        "generic-mcq-03": "本句指「籠統／公式化答案」。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-01": "「制式化的；缺乏特色的」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-03": "本句的「generic answers」指「籠統／公式化答案」。",
+        "generic-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-03"
     },
@@ -648,11 +620,9 @@ export default {
       "masked": "The article gives very ____.",
       "options": [
         "generic-mcq-04",
-        "generic-mcq-03",
-        "generic-mcq-05",
-        "generic-mcq-02",
-        "generic-mcq-06",
-        "generic-mcq-01"
+        "generic-mcq-12",
+        "generic-mcq-18",
+        "generic-mcq-14"
       ],
       "explanation": "本句的「generic advice」指「一般化建議」。",
       "sentenceIndex": 7,
@@ -661,12 +631,10 @@ export default {
         "generic advice"
       ],
       "optionReasons": {
-        "generic-mcq-04": "本句指「一般化建議」。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-01": "「制式化的；缺乏特色的」與本句語境不同。"
+        "generic-mcq-04": "本句的「generic advice」指「一般化建議」。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-04"
     },
@@ -678,11 +646,9 @@ export default {
       "masked": "I need specific help, not ____.",
       "options": [
         "generic-mcq-04",
-        "generic-mcq-03",
-        "generic-mcq-05",
-        "generic-mcq-02",
+        "generic-mcq-15",
         "generic-mcq-06",
-        "generic-mcq-01"
+        "generic-mcq-13"
       ],
       "explanation": "本句的「generic advice」指「一般化建議」。",
       "sentenceIndex": 8,
@@ -691,12 +657,10 @@ export default {
         "generic advice"
       ],
       "optionReasons": {
-        "generic-mcq-04": "本句指「一般化建議」。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-01": "「制式化的；缺乏特色的」與本句語境不同。"
+        "generic-mcq-04": "本句的「generic advice」指「一般化建議」。",
+        "generic-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-04"
     },
@@ -708,11 +672,9 @@ export default {
       "masked": "The email felt like a ____ sent to everyone.",
       "options": [
         "generic-mcq-05",
-        "generic-mcq-04",
+        "generic-mcq-12",
         "generic-mcq-06",
-        "generic-mcq-03",
-        "generic-mcq-07",
-        "generic-mcq-02"
+        "generic-mcq-11"
       ],
       "explanation": "本句的「generic message」指「罐頭／公式化訊息」。",
       "sentenceIndex": 9,
@@ -721,12 +683,10 @@ export default {
         "generic message"
       ],
       "optionReasons": {
-        "generic-mcq-05": "本句指「罐頭／公式化訊息」。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。"
+        "generic-mcq-05": "本句的「generic message」指「罐頭／公式化訊息」。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-05"
     },
@@ -738,11 +698,9 @@ export default {
       "masked": "A personal note feels warmer than a ____.",
       "options": [
         "generic-mcq-05",
-        "generic-mcq-04",
-        "generic-mcq-06",
-        "generic-mcq-03",
-        "generic-mcq-07",
-        "generic-mcq-02"
+        "generic-mcq-09",
+        "generic-mcq-12",
+        "generic-mcq-06"
       ],
       "explanation": "本句的「generic message」指「罐頭／公式化訊息」。",
       "sentenceIndex": 10,
@@ -751,12 +709,10 @@ export default {
         "generic message"
       ],
       "optionReasons": {
-        "generic-mcq-05": "本句指「罐頭／公式化訊息」。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-02": "「大路／制式化禮物」與本句語境不同。"
+        "generic-mcq-05": "本句的「generic message」指「罐頭／公式化訊息」。",
+        "generic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-05"
     },
@@ -768,11 +724,9 @@ export default {
       "masked": "The hotel has a rather ____.",
       "options": [
         "generic-mcq-06",
-        "generic-mcq-05",
-        "generic-mcq-07",
-        "generic-mcq-04",
-        "generic-mcq-08",
-        "generic-mcq-03"
+        "generic-mcq-02",
+        "generic-mcq-10",
+        "generic-mcq-04"
       ],
       "explanation": "本句的「generic design」指「缺乏辨識度的設計」。",
       "sentenceIndex": 11,
@@ -781,12 +735,10 @@ export default {
         "generic design"
       ],
       "optionReasons": {
-        "generic-mcq-06": "本句指「缺乏辨識度的設計」。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。"
+        "generic-mcq-06": "本句的「generic design」指「缺乏辨識度的設計」。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-06"
     },
@@ -798,11 +750,9 @@ export default {
       "masked": "The logo looks too ____.",
       "options": [
         "generic-mcq-06",
-        "generic-mcq-05",
-        "generic-mcq-07",
-        "generic-mcq-04",
         "generic-mcq-08",
-        "generic-mcq-03"
+        "generic-mcq-19",
+        "generic-mcq-13"
       ],
       "explanation": "本句的「generic」指「缺乏辨識度的設計」。",
       "sentenceIndex": 12,
@@ -811,12 +761,10 @@ export default {
         "generic"
       ],
       "optionReasons": {
-        "generic-mcq-06": "本句指「缺乏辨識度的設計」。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-03": "「籠統／公式化答案」與本句語境不同。"
+        "generic-mcq-06": "本句的「generic」指「缺乏辨識度的設計」。",
+        "generic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-06"
     },
@@ -828,11 +776,9 @@ export default {
       "masked": "We need a ____ that covers all these products.",
       "options": [
         "generic-mcq-07",
-        "generic-mcq-06",
-        "generic-mcq-08",
-        "generic-mcq-05",
-        "generic-mcq-09",
-        "generic-mcq-04"
+        "generic-mcq-01",
+        "generic-mcq-12",
+        "generic-mcq-19"
       ],
       "explanation": "本句的「generic term」指「通用的；一般性的」。",
       "sentenceIndex": 13,
@@ -841,12 +787,10 @@ export default {
         "generic term"
       ],
       "optionReasons": {
-        "generic-mcq-07": "本句指「通用的；一般性的」。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。"
+        "generic-mcq-07": "本句的「generic term」指「通用的；一般性的」。",
+        "generic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-07"
     },
@@ -858,11 +802,9 @@ export default {
       "masked": "The software uses a ____.",
       "options": [
         "generic-mcq-07",
+        "generic-mcq-12",
         "generic-mcq-06",
-        "generic-mcq-08",
-        "generic-mcq-05",
-        "generic-mcq-09",
-        "generic-mcq-04"
+        "generic-mcq-19"
       ],
       "explanation": "本句的「generic interface」指「通用的；一般性的」。",
       "sentenceIndex": 14,
@@ -871,12 +813,10 @@ export default {
         "generic interface"
       ],
       "optionReasons": {
-        "generic-mcq-07": "本句指「通用的；一般性的」。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-04": "「一般化建議」與本句語境不同。"
+        "generic-mcq-07": "本句的「generic interface」指「通用的；一般性的」。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-07"
     },
@@ -888,11 +828,9 @@ export default {
       "masked": "Vehicle” is a ____ for cars, buses, and trucks.",
       "options": [
         "generic-mcq-08",
-        "generic-mcq-07",
-        "generic-mcq-09",
-        "generic-mcq-06",
-        "generic-mcq-10",
-        "generic-mcq-05"
+        "generic-mcq-02",
+        "generic-mcq-13",
+        "generic-mcq-04"
       ],
       "explanation": "本句的「generic term」指「通用名稱／統稱」。",
       "sentenceIndex": 15,
@@ -901,12 +839,10 @@ export default {
         "generic term"
       ],
       "optionReasons": {
-        "generic-mcq-08": "本句指「通用名稱／統稱」。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。"
+        "generic-mcq-08": "本句的「generic term」指「通用名稱／統稱」。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-08"
     },
@@ -918,11 +854,9 @@ export default {
       "masked": "We need a ____ for all these devices.",
       "options": [
         "generic-mcq-08",
-        "generic-mcq-07",
-        "generic-mcq-09",
-        "generic-mcq-06",
-        "generic-mcq-10",
-        "generic-mcq-05"
+        "generic-mcq-18",
+        "generic-mcq-13",
+        "generic-mcq-04"
       ],
       "explanation": "本句的「generic term」指「通用名稱／統稱」。",
       "sentenceIndex": 16,
@@ -931,12 +865,10 @@ export default {
         "generic term"
       ],
       "optionReasons": {
-        "generic-mcq-08": "本句指「通用名稱／統稱」。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-05": "「罐頭／公式化訊息」與本句語境不同。"
+        "generic-mcq-08": "本句的「generic term」指「通用名稱／統稱」。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-08"
     },
@@ -948,11 +880,9 @@ export default {
       "masked": "Paracetamol is a ____, while brands may use different product names.",
       "options": [
         "generic-mcq-09",
-        "generic-mcq-08",
-        "generic-mcq-10",
-        "generic-mcq-07",
-        "generic-mcq-11",
-        "generic-mcq-06"
+        "generic-mcq-06",
+        "generic-mcq-05",
+        "generic-mcq-04"
       ],
       "explanation": "本句的「generic name」指「通用名稱」。",
       "sentenceIndex": 17,
@@ -961,12 +891,10 @@ export default {
         "generic name"
       ],
       "optionReasons": {
-        "generic-mcq-09": "本句指「通用名稱」。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-09": "本句的「generic name」指「通用名稱」。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-09"
     },
@@ -978,11 +906,9 @@ export default {
       "masked": "The form asks for the ____ of the substance.",
       "options": [
         "generic-mcq-09",
-        "generic-mcq-08",
-        "generic-mcq-10",
-        "generic-mcq-07",
-        "generic-mcq-11",
-        "generic-mcq-06"
+        "generic-mcq-03",
+        "generic-mcq-19",
+        "generic-mcq-13"
       ],
       "explanation": "本句的「generic name」指「通用名稱」。",
       "sentenceIndex": 18,
@@ -991,12 +917,10 @@ export default {
         "generic name"
       ],
       "optionReasons": {
-        "generic-mcq-09": "本句指「通用名稱」。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-06": "「缺乏辨識度的設計」與本句語境不同。"
+        "generic-mcq-09": "本句的「generic name」指「通用名稱」。",
+        "generic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-09"
     },
@@ -1008,11 +932,9 @@ export default {
       "masked": "The supermarket sells cheaper ____.",
       "options": [
         "generic-mcq-10",
-        "generic-mcq-09",
-        "generic-mcq-11",
-        "generic-mcq-08",
-        "generic-mcq-12",
-        "generic-mcq-07"
+        "generic-mcq-06",
+        "generic-mcq-03",
+        "generic-mcq-13"
       ],
       "explanation": "本句的「generic products」指「非品牌／普通產品」。",
       "sentenceIndex": 19,
@@ -1021,12 +943,10 @@ export default {
         "generic products"
       ],
       "optionReasons": {
-        "generic-mcq-10": "本句指「非品牌／普通產品」。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。"
+        "generic-mcq-10": "本句的「generic products」指「非品牌／普通產品」。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-10"
     },
@@ -1038,11 +958,9 @@ export default {
       "masked": "Some consumers prefer ____ to branded ones.",
       "options": [
         "generic-mcq-10",
-        "generic-mcq-09",
-        "generic-mcq-11",
-        "generic-mcq-08",
-        "generic-mcq-12",
-        "generic-mcq-07"
+        "generic-mcq-04",
+        "generic-mcq-06",
+        "generic-mcq-05"
       ],
       "explanation": "本句的「generic products」指「非品牌／普通產品」。",
       "sentenceIndex": 20,
@@ -1051,12 +969,10 @@ export default {
         "generic products"
       ],
       "optionReasons": {
-        "generic-mcq-10": "本句指「非品牌／普通產品」。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-07": "「通用的；一般性的」與本句語境不同。"
+        "generic-mcq-10": "本句的「generic products」指「非品牌／普通產品」。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-10"
     },
@@ -1068,11 +984,9 @@ export default {
       "masked": "The store offers a cheaper ____.",
       "options": [
         "generic-mcq-11",
-        "generic-mcq-10",
-        "generic-mcq-12",
-        "generic-mcq-09",
-        "generic-mcq-13",
-        "generic-mcq-08"
+        "generic-mcq-01",
+        "generic-mcq-19",
+        "generic-mcq-04"
       ],
       "explanation": "本句的「generic brand」指「自家牌／普通品牌」。",
       "sentenceIndex": 21,
@@ -1081,12 +995,10 @@ export default {
         "generic brand"
       ],
       "optionReasons": {
-        "generic-mcq-11": "本句指「自家牌／普通品牌」。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。"
+        "generic-mcq-11": "本句的「generic brand」指「自家牌／普通品牌」。",
+        "generic-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-11"
     },
@@ -1098,11 +1010,9 @@ export default {
       "masked": "She chose the ____ instead of the famous one.",
       "options": [
         "generic-mcq-11",
-        "generic-mcq-10",
-        "generic-mcq-12",
-        "generic-mcq-09",
-        "generic-mcq-13",
-        "generic-mcq-08"
+        "generic-mcq-06",
+        "generic-mcq-03",
+        "generic-mcq-04"
       ],
       "explanation": "本句的「generic brand」指「自家牌／普通品牌」。",
       "sentenceIndex": 22,
@@ -1111,12 +1021,10 @@ export default {
         "generic brand"
       ],
       "optionReasons": {
-        "generic-mcq-11": "本句指「自家牌／普通品牌」。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-08": "「通用名稱／統稱」與本句語境不同。"
+        "generic-mcq-11": "本句的「generic brand」指「自家牌／普通品牌」。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-11"
     },
@@ -1128,11 +1036,9 @@ export default {
       "masked": "The doctor said a ____ would work just as well.",
       "options": [
         "generic-mcq-12",
-        "generic-mcq-11",
-        "generic-mcq-13",
-        "generic-mcq-10",
-        "generic-mcq-14",
-        "generic-mcq-09"
+        "generic-mcq-05",
+        "generic-mcq-17",
+        "generic-mcq-19"
       ],
       "explanation": "本句的「generic drug」指「仿製藥」。",
       "sentenceIndex": 23,
@@ -1141,12 +1047,10 @@ export default {
         "generic drug"
       ],
       "optionReasons": {
-        "generic-mcq-12": "本句指「仿製藥」。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。"
+        "generic-mcq-12": "本句的「generic drug」指「仿製藥」。",
+        "generic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-12"
     },
@@ -1158,11 +1062,9 @@ export default {
       "masked": "____ are often cheaper than brand-name versions.",
       "options": [
         "generic-mcq-12",
-        "generic-mcq-11",
-        "generic-mcq-13",
-        "generic-mcq-10",
-        "generic-mcq-14",
-        "generic-mcq-09"
+        "generic-mcq-19",
+        "generic-mcq-05",
+        "generic-mcq-07"
       ],
       "explanation": "本句的「Generic medicines」指「仿製藥」。",
       "sentenceIndex": 24,
@@ -1171,12 +1073,10 @@ export default {
         "Generic medicines"
       ],
       "optionReasons": {
-        "generic-mcq-12": "本句指「仿製藥」。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-09": "「通用名稱」與本句語境不同。"
+        "generic-mcq-12": "本句的「Generic medicines」指「仿製藥」。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-12"
     },
@@ -1188,11 +1088,9 @@ export default {
       "masked": "The pharmacist offered me a cheaper ____.",
       "options": [
         "generic-mcq-13",
-        "generic-mcq-12",
-        "generic-mcq-14",
-        "generic-mcq-11",
-        "generic-mcq-15",
-        "generic-mcq-10"
+        "generic-mcq-02",
+        "generic-mcq-04",
+        "generic-mcq-06"
       ],
       "explanation": "本句的「generic」指「一種仿製藥」。",
       "sentenceIndex": 25,
@@ -1201,12 +1099,10 @@ export default {
         "generic"
       ],
       "optionReasons": {
-        "generic-mcq-13": "本句指「一種仿製藥」。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。"
+        "generic-mcq-13": "本句的「generic」指「一種仿製藥」。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-13"
     },
@@ -1218,11 +1114,9 @@ export default {
       "masked": "Many common medicines are available as ____.",
       "options": [
         "generic-mcq-13",
-        "generic-mcq-12",
-        "generic-mcq-14",
-        "generic-mcq-11",
-        "generic-mcq-15",
-        "generic-mcq-10"
+        "generic-mcq-03",
+        "generic-mcq-18",
+        "generic-mcq-17"
       ],
       "explanation": "本句的「generics」指「一種仿製藥」。",
       "sentenceIndex": 26,
@@ -1231,12 +1125,10 @@ export default {
         "generics"
       ],
       "optionReasons": {
-        "generic-mcq-13": "本句指「一種仿製藥」。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-10": "「非品牌／普通產品」與本句語境不同。"
+        "generic-mcq-13": "本句的「generics」指「一種仿製藥」。",
+        "generic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-13"
     },
@@ -1248,11 +1140,9 @@ export default {
       "masked": "There's a cheaper ____ of the product.",
       "options": [
         "generic-mcq-14",
-        "generic-mcq-13",
-        "generic-mcq-15",
-        "generic-mcq-12",
-        "generic-mcq-16",
-        "generic-mcq-11"
+        "generic-mcq-06",
+        "generic-mcq-03",
+        "generic-mcq-19"
       ],
       "explanation": "本句的「generic version」指「通用版」。",
       "sentenceIndex": 27,
@@ -1261,12 +1151,10 @@ export default {
         "generic version"
       ],
       "optionReasons": {
-        "generic-mcq-14": "本句指「通用版」。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。"
+        "generic-mcq-14": "本句的「generic version」指「通用版」。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-14"
     },
@@ -1278,11 +1166,9 @@ export default {
       "masked": "The company released a ____ for broader use.",
       "options": [
         "generic-mcq-14",
-        "generic-mcq-13",
-        "generic-mcq-15",
         "generic-mcq-12",
         "generic-mcq-16",
-        "generic-mcq-11"
+        "generic-mcq-18"
       ],
       "explanation": "本句的「generic version」指「通用版」。",
       "sentenceIndex": 28,
@@ -1291,12 +1177,10 @@ export default {
         "generic version"
       ],
       "optionReasons": {
-        "generic-mcq-14": "本句指「通用版」。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-11": "「自家牌／普通品牌」與本句語境不同。"
+        "generic-mcq-14": "本句的「generic version」指「通用版」。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-14"
     },
@@ -1308,11 +1192,9 @@ export default {
       "masked": "The company chose a ____.",
       "options": [
         "generic-mcq-15",
-        "generic-mcq-14",
-        "generic-mcq-16",
-        "generic-mcq-13",
-        "generic-mcq-17",
-        "generic-mcq-12"
+        "generic-mcq-19",
+        "generic-mcq-04",
+        "generic-mcq-01"
       ],
       "explanation": "本句的「generic software solution」指「通用方案」。",
       "sentenceIndex": 29,
@@ -1321,12 +1203,10 @@ export default {
         "generic software solution"
       ],
       "optionReasons": {
-        "generic-mcq-15": "本句指「通用方案」。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。"
+        "generic-mcq-15": "本句的「generic software solution」指「通用方案」。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-15"
     },
@@ -1338,11 +1218,9 @@ export default {
       "masked": "A ____ may not fit every customer's needs.",
       "options": [
         "generic-mcq-15",
-        "generic-mcq-14",
-        "generic-mcq-16",
-        "generic-mcq-13",
-        "generic-mcq-17",
-        "generic-mcq-12"
+        "generic-mcq-04",
+        "generic-mcq-05",
+        "generic-mcq-13"
       ],
       "explanation": "本句的「generic solution」指「通用方案」。",
       "sentenceIndex": 30,
@@ -1351,12 +1229,10 @@ export default {
         "generic solution"
       ],
       "optionReasons": {
-        "generic-mcq-15": "本句指「通用方案」。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-12": "「仿製藥」與本句語境不同。"
+        "generic-mcq-15": "本句的「generic solution」指「通用方案」。",
+        "generic-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-15"
     },
@@ -1368,10 +1244,8 @@ export default {
       "masked": "The film has several ____.",
       "options": [
         "generic-mcq-16",
-        "generic-mcq-15",
-        "generic-mcq-17",
-        "generic-mcq-14",
-        "generic-mcq-18",
+        "generic-mcq-08",
+        "generic-mcq-11",
         "generic-mcq-13"
       ],
       "explanation": "本句的「generic characters」指「公式化角色」。",
@@ -1381,12 +1255,10 @@ export default {
         "generic characters"
       ],
       "optionReasons": {
-        "generic-mcq-16": "本句指「公式化角色」。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-18": "「泛型程式設計」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。"
+        "generic-mcq-16": "本句的「generic characters」指「公式化角色」。",
+        "generic-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-16"
     },
@@ -1398,11 +1270,9 @@ export default {
       "masked": "The plot felt predictable and ____.",
       "options": [
         "generic-mcq-16",
-        "generic-mcq-15",
-        "generic-mcq-17",
-        "generic-mcq-14",
-        "generic-mcq-18",
-        "generic-mcq-13"
+        "generic-mcq-09",
+        "generic-mcq-12",
+        "generic-mcq-06"
       ],
       "explanation": "本句的「generic」指「公式化角色」。",
       "sentenceIndex": 32,
@@ -1411,12 +1281,10 @@ export default {
         "generic"
       ],
       "optionReasons": {
-        "generic-mcq-16": "本句指「公式化角色」。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。",
-        "generic-mcq-18": "「泛型程式設計」與本句語境不同。",
-        "generic-mcq-13": "「一種仿製藥」與本句語境不同。"
+        "generic-mcq-16": "本句的「generic」指「公式化角色」。",
+        "generic-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-16"
     },
@@ -1428,11 +1296,9 @@ export default {
       "masked": "The product is ____ described as a cleaning agent.",
       "options": [
         "generic-mcq-17",
-        "generic-mcq-16",
-        "generic-mcq-18",
-        "generic-mcq-15",
+        "generic-mcq-12",
         "generic-mcq-19",
-        "generic-mcq-14"
+        "generic-mcq-05"
       ],
       "explanation": "本句的「generically」指「一般地；通用地」。",
       "sentenceIndex": 33,
@@ -1441,12 +1307,10 @@ export default {
         "generically"
       ],
       "optionReasons": {
-        "generic-mcq-17": "本句指「一般地；通用地」。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-18": "「泛型程式設計」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-19": "「泛型類型」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。"
+        "generic-mcq-17": "本句的「generically」指「一般地；通用地」。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-17"
     },
@@ -1458,11 +1322,9 @@ export default {
       "masked": "The template is designed ____ so that different teams can use it.",
       "options": [
         "generic-mcq-17",
-        "generic-mcq-16",
+        "generic-mcq-02",
         "generic-mcq-18",
-        "generic-mcq-15",
-        "generic-mcq-19",
-        "generic-mcq-14"
+        "generic-mcq-12"
       ],
       "explanation": "本句的「generically」指「一般地；通用地」。",
       "sentenceIndex": 34,
@@ -1471,12 +1333,10 @@ export default {
         "generically"
       ],
       "optionReasons": {
-        "generic-mcq-17": "本句指「一般地；通用地」。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-18": "「泛型程式設計」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-19": "「泛型類型」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。"
+        "generic-mcq-17": "本句的「generically」指「一般地；通用地」。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-17"
     },
@@ -1488,11 +1348,9 @@ export default {
       "masked": "The course introduces ____.",
       "options": [
         "generic-mcq-18",
-        "generic-mcq-17",
-        "generic-mcq-19",
-        "generic-mcq-16",
-        "generic-mcq-15",
-        "generic-mcq-14"
+        "generic-mcq-14",
+        "generic-mcq-02",
+        "generic-mcq-12"
       ],
       "explanation": "本句的「generic programming」指「泛型程式設計」。",
       "sentenceIndex": 35,
@@ -1501,12 +1359,10 @@ export default {
         "generic programming"
       ],
       "optionReasons": {
-        "generic-mcq-18": "本句指「泛型程式設計」。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-19": "「泛型類型」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。"
+        "generic-mcq-18": "本句的「generic programming」指「泛型程式設計」。",
+        "generic-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-18"
     },
@@ -1518,11 +1374,9 @@ export default {
       "masked": "____ allows code to work with different data types.",
       "options": [
         "generic-mcq-18",
-        "generic-mcq-17",
-        "generic-mcq-19",
-        "generic-mcq-16",
-        "generic-mcq-15",
-        "generic-mcq-14"
+        "generic-mcq-03",
+        "generic-mcq-12",
+        "generic-mcq-10"
       ],
       "explanation": "本句的「Generic programming」指「泛型程式設計」。",
       "sentenceIndex": 36,
@@ -1531,12 +1385,10 @@ export default {
         "Generic programming"
       ],
       "optionReasons": {
-        "generic-mcq-18": "本句指「泛型程式設計」。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-19": "「泛型類型」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。"
+        "generic-mcq-18": "本句的「Generic programming」指「泛型程式設計」。",
+        "generic-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-18"
     },
@@ -1548,11 +1400,9 @@ export default {
       "masked": "The function accepts a ____.",
       "options": [
         "generic-mcq-19",
-        "generic-mcq-18",
-        "generic-mcq-17",
-        "generic-mcq-16",
-        "generic-mcq-15",
-        "generic-mcq-14"
+        "generic-mcq-02",
+        "generic-mcq-10",
+        "generic-mcq-06"
       ],
       "explanation": "本句的「generic type」指「泛型類型」。",
       "sentenceIndex": 37,
@@ -1561,12 +1411,10 @@ export default {
         "generic type"
       ],
       "optionReasons": {
-        "generic-mcq-19": "本句指「泛型類型」。",
-        "generic-mcq-18": "「泛型程式設計」與本句語境不同。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。"
+        "generic-mcq-19": "本句的「generic type」指「泛型類型」。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-19"
     },
@@ -1578,11 +1426,9 @@ export default {
       "masked": "The library provides several ____.",
       "options": [
         "generic-mcq-19",
-        "generic-mcq-18",
         "generic-mcq-17",
-        "generic-mcq-16",
-        "generic-mcq-15",
-        "generic-mcq-14"
+        "generic-mcq-06",
+        "generic-mcq-02"
       ],
       "explanation": "本句的「generic classes」指「泛型類型」。",
       "sentenceIndex": 38,
@@ -1591,12 +1437,10 @@ export default {
         "generic classes"
       ],
       "optionReasons": {
-        "generic-mcq-19": "本句指「泛型類型」。",
-        "generic-mcq-18": "「泛型程式設計」與本句語境不同。",
-        "generic-mcq-17": "「一般地；通用地」與本句語境不同。",
-        "generic-mcq-16": "「公式化角色」與本句語境不同。",
-        "generic-mcq-15": "「通用方案」與本句語境不同。",
-        "generic-mcq-14": "「通用版」與本句語境不同。"
+        "generic-mcq-19": "本句的「generic classes」指「泛型類型」。",
+        "generic-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generic-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generic-mcq-19"
     }
@@ -1608,5 +1452,7 @@ export default {
     "sha256": "08ef8a48b4383b9b4e6931a7b2bba960f538d4338b8b78454de5edc9b576aa4c",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

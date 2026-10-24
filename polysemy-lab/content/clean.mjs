@@ -653,11 +653,9 @@ export default {
       "masked": "The kitchen is very ____.",
       "options": [
         "clean-mcq-01",
-        "clean-mcq-02",
-        "clean-mcq-03",
-        "clean-mcq-04",
-        "clean-mcq-05",
-        "clean-mcq-06"
+        "clean-mcq-28",
+        "clean-mcq-19",
+        "clean-mcq-12"
       ],
       "explanation": "本句的「clean」指「沒有污垢、灰塵、污漬等髒東西的」。",
       "sentenceIndex": 0,
@@ -666,12 +664,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-01": "本句指「沒有污垢、灰塵、污漬等髒東西的」。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-01": "本句的「clean」指「沒有污垢、灰塵、污漬等髒東西的」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-01"
     },
@@ -683,11 +679,9 @@ export default {
       "masked": "Use a ____ cloth to wipe the leaves.",
       "options": [
         "clean-mcq-01",
-        "clean-mcq-02",
-        "clean-mcq-03",
-        "clean-mcq-04",
-        "clean-mcq-05",
-        "clean-mcq-06"
+        "clean-mcq-28",
+        "clean-mcq-12",
+        "clean-mcq-19"
       ],
       "explanation": "本句的「clean」指「沒有污垢、灰塵、污漬等髒東西的」。",
       "sentenceIndex": 1,
@@ -696,12 +690,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-01": "本句指「沒有污垢、灰塵、污漬等髒東西的」。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-01": "本句的「clean」指「沒有污垢、灰塵、污漬等髒東西的」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-01"
     },
@@ -713,11 +705,9 @@ export default {
       "masked": "Make sure the drinking water is ____.",
       "options": [
         "clean-mcq-02",
-        "clean-mcq-01",
-        "clean-mcq-03",
-        "clean-mcq-04",
-        "clean-mcq-05",
-        "clean-mcq-06"
+        "clean-mcq-28",
+        "clean-mcq-18",
+        "clean-mcq-26"
       ],
       "explanation": "本句的「clean」指「沒有足以造成污染、感染或健康問題的有害物質」。",
       "sentenceIndex": 2,
@@ -726,12 +716,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-02": "本句指「沒有足以造成污染、感染或健康問題的有害物質」。",
-        "clean-mcq-01": "「沒有污垢、灰塵、污漬等髒東西的」是「clean — physical」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-02": "本句的「clean」指「沒有足以造成污染、感染或健康問題的有害物質」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-02"
     },
@@ -743,11 +731,9 @@ export default {
       "masked": "The tools must be kept ____.",
       "options": [
         "clean-mcq-02",
-        "clean-mcq-01",
-        "clean-mcq-03",
-        "clean-mcq-04",
-        "clean-mcq-05",
-        "clean-mcq-06"
+        "clean-mcq-26",
+        "clean-mcq-23",
+        "clean-mcq-12"
       ],
       "explanation": "本句的「clean」指「沒有足以造成污染、感染或健康問題的有害物質」。",
       "sentenceIndex": 3,
@@ -756,12 +742,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-02": "本句指「沒有足以造成污染、感染或健康問題的有害物質」。",
-        "clean-mcq-01": "「沒有污垢、灰塵、污漬等髒東西的」是「clean — physical」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-02": "本句的「clean」指「沒有足以造成污染、感染或健康問題的有害物質」。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-02"
     },
@@ -773,11 +757,9 @@ export default {
       "masked": "The laboratory needs a supply of ____.",
       "options": [
         "clean-mcq-03",
-        "clean-mcq-02",
-        "clean-mcq-04",
-        "clean-mcq-01",
+        "clean-mcq-28",
         "clean-mcq-05",
-        "clean-mcq-06"
+        "clean-mcq-18"
       ],
       "explanation": "本句的「clean air」指「不含不需要的污染物、雜質或有害成分的」。",
       "sentenceIndex": 4,
@@ -786,12 +768,10 @@ export default {
         "clean air"
       ],
       "optionReasons": {
-        "clean-mcq-03": "本句指「不含不需要的污染物、雜質或有害成分的」。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-01": "「沒有污垢、灰塵、污漬等髒東西的」是「clean — physical」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-03": "本句的「clean air」指「不含不需要的污染物、雜質或有害成分的」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-03"
     },
@@ -803,11 +783,9 @@ export default {
       "masked": "The process produces ____ water.",
       "options": [
         "clean-mcq-03",
-        "clean-mcq-02",
-        "clean-mcq-04",
-        "clean-mcq-01",
+        "clean-mcq-23",
         "clean-mcq-05",
-        "clean-mcq-06"
+        "clean-mcq-19"
       ],
       "explanation": "本句的「cleaner」指「不含不需要的污染物、雜質或有害成分的」。",
       "sentenceIndex": 5,
@@ -816,12 +794,10 @@ export default {
         "cleaner"
       ],
       "optionReasons": {
-        "clean-mcq-03": "本句指「不含不需要的污染物、雜質或有害成分的」。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-01": "「沒有污垢、灰塵、污漬等髒東西的」是「clean — physical」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-03": "本句的「cleaner」指「不含不需要的污染物、雜質或有害成分的」。",
+        "clean-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-03"
     },
@@ -833,11 +809,9 @@ export default {
       "masked": "The room has a ____.",
       "options": [
         "clean-mcq-04",
-        "clean-mcq-03",
-        "clean-mcq-05",
-        "clean-mcq-02",
-        "clean-mcq-06",
-        "clean-mcq-01"
+        "clean-mcq-24",
+        "clean-mcq-10",
+        "clean-mcq-12"
       ],
       "explanation": "本句的「clean, simple design」指「視覺上簡潔整齊、沒有多餘混亂元素的」。",
       "sentenceIndex": 6,
@@ -846,12 +820,10 @@ export default {
         "clean, simple design"
       ],
       "optionReasons": {
-        "clean-mcq-04": "本句指「視覺上簡潔整齊、沒有多餘混亂元素的」。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-01": "「沒有污垢、灰塵、污漬等髒東西的」是「clean — physical」的用法，與本句語境不同。"
+        "clean-mcq-04": "本句的「clean, simple design」指「視覺上簡潔整齊、沒有多餘混亂元素的」。",
+        "clean-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-04"
     },
@@ -864,10 +836,8 @@ export default {
       "options": [
         "clean-mcq-04",
         "clean-mcq-03",
-        "clean-mcq-05",
-        "clean-mcq-02",
-        "clean-mcq-06",
-        "clean-mcq-01"
+        "clean-mcq-14",
+        "clean-mcq-27"
       ],
       "explanation": "本句的「clean」指「視覺上簡潔整齊、沒有多餘混亂元素的」。",
       "sentenceIndex": 7,
@@ -876,12 +846,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-04": "本句指「視覺上簡潔整齊、沒有多餘混亂元素的」。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-01": "「沒有污垢、灰塵、污漬等髒東西的」是「clean — physical」的用法，與本句語境不同。"
+        "clean-mcq-04": "本句的「clean」指「視覺上簡潔整齊、沒有多餘混亂元素的」。",
+        "clean-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-04"
     },
@@ -893,11 +861,9 @@ export default {
       "masked": "The player made a ____.",
       "options": [
         "clean-mcq-05",
-        "clean-mcq-04",
-        "clean-mcq-06",
-        "clean-mcq-03",
-        "clean-mcq-07",
-        "clean-mcq-02"
+        "clean-mcq-13",
+        "clean-mcq-19",
+        "clean-mcq-03"
       ],
       "explanation": "本句的「clean catch」指「動作／結果準確俐落、沒有失誤或拖泥帶水的」。",
       "sentenceIndex": 8,
@@ -906,12 +872,10 @@ export default {
         "clean catch"
       ],
       "optionReasons": {
-        "clean-mcq-05": "本句指「動作／結果準確俐落、沒有失誤或拖泥帶水的」。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。"
+        "clean-mcq-05": "本句的「clean catch」指「動作／結果準確俐落、沒有失誤或拖泥帶水的」。",
+        "clean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-05"
     },
@@ -923,11 +887,9 @@ export default {
       "masked": "The knife made a ____ cut.",
       "options": [
         "clean-mcq-05",
-        "clean-mcq-04",
-        "clean-mcq-06",
-        "clean-mcq-03",
-        "clean-mcq-07",
-        "clean-mcq-02"
+        "clean-mcq-25",
+        "clean-mcq-24",
+        "clean-mcq-19"
       ],
       "explanation": "本句的「clean」指「動作／結果準確俐落、沒有失誤或拖泥帶水的」。",
       "sentenceIndex": 9,
@@ -936,12 +898,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-05": "本句指「動作／結果準確俐落、沒有失誤或拖泥帶水的」。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-02": "「沒有足以造成污染、感染或健康問題的有害物質」是「clean — hygienic」的用法，與本句語境不同。"
+        "clean-mcq-05": "本句的「clean」指「動作／結果準確俐落、沒有失誤或拖泥帶水的」。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-05"
     },
@@ -953,11 +913,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "clean-mcq-06",
-        "clean-mcq-05",
-        "clean-mcq-07",
-        "clean-mcq-04",
-        "clean-mcq-08",
-        "clean-mcq-03"
+        "clean-mcq-20",
+        "clean-mcq-14",
+        "clean-mcq-18"
       ],
       "explanation": "本句的「clean record」指「沒有犯罪、違規、作弊或不當行為紀錄的」。",
       "sentenceIndex": 10,
@@ -966,12 +924,10 @@ export default {
         "clean record"
       ],
       "optionReasons": {
-        "clean-mcq-06": "本句指「沒有犯罪、違規、作弊或不當行為紀錄的」。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。"
+        "clean-mcq-06": "本句的「clean record」指「沒有犯罪、違規、作弊或不當行為紀錄的」。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-06"
     },
@@ -983,11 +939,9 @@ export default {
       "masked": "The investigation found the employee to be ____.",
       "options": [
         "clean-mcq-06",
-        "clean-mcq-05",
-        "clean-mcq-07",
-        "clean-mcq-04",
-        "clean-mcq-08",
-        "clean-mcq-03"
+        "clean-mcq-16",
+        "clean-mcq-10",
+        "clean-mcq-18"
       ],
       "explanation": "本句的「clean」指「沒有犯罪、違規、作弊或不當行為紀錄的」。",
       "sentenceIndex": 11,
@@ -996,12 +950,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-06": "本句指「沒有犯罪、違規、作弊或不當行為紀錄的」。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-03": "「不含不需要的污染物、雜質或有害成分的」是「clean — pure/uncontaminated」的用法，與本句語境不同。"
+        "clean-mcq-06": "本句的「clean」指「沒有犯罪、違規、作弊或不當行為紀錄的」。",
+        "clean-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-06"
     },
@@ -1013,11 +965,9 @@ export default {
       "masked": "The athlete tested ____.",
       "options": [
         "clean-mcq-07",
-        "clean-mcq-06",
-        "clean-mcq-08",
-        "clean-mcq-05",
-        "clean-mcq-09",
-        "clean-mcq-04"
+        "clean-mcq-16",
+        "clean-mcq-10",
+        "clean-mcq-09"
       ],
       "explanation": "本句的「clean」指「沒有使用毒品、禁藥或其他受禁物質的」。",
       "sentenceIndex": 12,
@@ -1026,12 +976,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-07": "本句指「沒有使用毒品、禁藥或其他受禁物質的」。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。"
+        "clean-mcq-07": "本句的「clean」指「沒有使用毒品、禁藥或其他受禁物質的」。",
+        "clean-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-07"
     },
@@ -1043,11 +991,9 @@ export default {
       "masked": "He has been ____ for two years.",
       "options": [
         "clean-mcq-07",
-        "clean-mcq-06",
-        "clean-mcq-08",
-        "clean-mcq-05",
-        "clean-mcq-09",
-        "clean-mcq-04"
+        "clean-mcq-23",
+        "clean-mcq-20",
+        "clean-mcq-26"
       ],
       "explanation": "本句的「clean」指「沒有使用毒品、禁藥或其他受禁物質的」。",
       "sentenceIndex": 13,
@@ -1056,12 +1002,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-07": "本句指「沒有使用毒品、禁藥或其他受禁物質的」。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-04": "「視覺上簡潔整齊、沒有多餘混亂元素的」是「clean — design」的用法，與本句語境不同。"
+        "clean-mcq-07": "本句的「clean」指「沒有使用毒品、禁藥或其他受禁物質的」。",
+        "clean-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-07"
     },
@@ -1073,11 +1017,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "clean-mcq-08",
-        "clean-mcq-07",
-        "clean-mcq-09",
-        "clean-mcq-06",
         "clean-mcq-10",
-        "clean-mcq-05"
+        "clean-mcq-20",
+        "clean-mcq-25"
       ],
       "explanation": "本句的「clean tackle」指「沒有犯規、作弊或使用不正當手段的」。",
       "sentenceIndex": 14,
@@ -1086,12 +1028,10 @@ export default {
         "clean tackle"
       ],
       "optionReasons": {
-        "clean-mcq-08": "本句指「沒有犯規、作弊或使用不正當手段的」。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。"
+        "clean-mcq-08": "本句的「clean tackle」指「沒有犯規、作弊或使用不正當手段的」。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-08"
     },
@@ -1103,11 +1043,9 @@ export default {
       "masked": "The match was hard but ____.",
       "options": [
         "clean-mcq-08",
-        "clean-mcq-07",
-        "clean-mcq-09",
-        "clean-mcq-06",
-        "clean-mcq-10",
-        "clean-mcq-05"
+        "clean-mcq-20",
+        "clean-mcq-23",
+        "clean-mcq-10"
       ],
       "explanation": "本句的「clean」指「沒有犯規、作弊或使用不正當手段的」。",
       "sentenceIndex": 15,
@@ -1116,12 +1054,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-08": "本句指「沒有犯規、作弊或使用不正當手段的」。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-05": "「動作／結果準確俐落、沒有失誤或拖泥帶水的」是「clean — precise」的用法，與本句語境不同。"
+        "clean-mcq-08": "本句的「clean」指「沒有犯規、作弊或使用不正當手段的」。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-08"
     },
@@ -1133,11 +1069,9 @@ export default {
       "masked": "The comedian kept the jokes ____.",
       "options": [
         "clean-mcq-09",
-        "clean-mcq-08",
-        "clean-mcq-10",
-        "clean-mcq-07",
-        "clean-mcq-11",
-        "clean-mcq-06"
+        "clean-mcq-01",
+        "clean-mcq-13",
+        "clean-mcq-25"
       ],
       "explanation": "本句的「clean」指「不含粗俗、猥褻或冒犯內容的」。",
       "sentenceIndex": 16,
@@ -1146,12 +1080,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-09": "本句指「不含粗俗、猥褻或冒犯內容的」。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-09": "本句的「clean」指「不含粗俗、猥褻或冒犯內容的」。",
+        "clean-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-09"
     },
@@ -1163,11 +1095,9 @@ export default {
       "masked": "It’s a ____ family show.",
       "options": [
         "clean-mcq-09",
-        "clean-mcq-08",
-        "clean-mcq-10",
-        "clean-mcq-07",
-        "clean-mcq-11",
-        "clean-mcq-06"
+        "clean-mcq-05",
+        "clean-mcq-27",
+        "clean-mcq-19"
       ],
       "explanation": "本句的「clean」指「不含粗俗、猥褻或冒犯內容的」。",
       "sentenceIndex": 17,
@@ -1176,12 +1106,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-09": "本句指「不含粗俗、猥褻或冒犯內容的」。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-06": "「沒有犯罪、違規、作弊或不當行為紀錄的」是「clean — record」的用法，與本句語境不同。"
+        "clean-mcq-09": "本句的「clean」指「不含粗俗、猥褻或冒犯內容的」。",
+        "clean-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-09"
     },
@@ -1193,11 +1121,9 @@ export default {
       "masked": "The country is investing in ____.",
       "options": [
         "clean-mcq-10",
-        "clean-mcq-09",
-        "clean-mcq-11",
-        "clean-mcq-08",
-        "clean-mcq-12",
-        "clean-mcq-07"
+        "clean-mcq-28",
+        "clean-mcq-21",
+        "clean-mcq-26"
       ],
       "explanation": "本句的「clean energy」指「產生較少污染、排放或環境傷害的」。",
       "sentenceIndex": 18,
@@ -1206,12 +1132,10 @@ export default {
         "clean energy"
       ],
       "optionReasons": {
-        "clean-mcq-10": "本句指「產生較少污染、排放或環境傷害的」。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。"
+        "clean-mcq-10": "本句的「clean energy」指「產生較少污染、排放或環境傷害的」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-10"
     },
@@ -1223,11 +1147,9 @@ export default {
       "masked": "____ technology can reduce pollution.",
       "options": [
         "clean-mcq-10",
-        "clean-mcq-09",
-        "clean-mcq-11",
-        "clean-mcq-08",
-        "clean-mcq-12",
-        "clean-mcq-07"
+        "clean-mcq-26",
+        "clean-mcq-21",
+        "clean-mcq-27"
       ],
       "explanation": "本句的「Clean」指「產生較少污染、排放或環境傷害的」。",
       "sentenceIndex": 19,
@@ -1236,12 +1158,10 @@ export default {
         "Clean"
       ],
       "optionReasons": {
-        "clean-mcq-10": "本句指「產生較少污染、排放或環境傷害的」。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-07": "「沒有使用毒品、禁藥或其他受禁物質的」是「clean — drug-free」的用法，與本句語境不同。"
+        "clean-mcq-10": "本句的「Clean」指「產生較少污染、排放或環境傷害的」。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-10"
     },
@@ -1253,11 +1173,9 @@ export default {
       "masked": "We need a ____ before analysis.",
       "options": [
         "clean-mcq-11",
-        "clean-mcq-10",
-        "clean-mcq-12",
-        "clean-mcq-09",
-        "clean-mcq-13",
-        "clean-mcq-08"
+        "clean-mcq-24",
+        "clean-mcq-19",
+        "clean-mcq-25"
       ],
       "explanation": "本句的「clean dataset」指「沒有錯誤、雜訊、污染資料或多餘內容的」。",
       "sentenceIndex": 20,
@@ -1266,12 +1184,10 @@ export default {
         "clean dataset"
       ],
       "optionReasons": {
-        "clean-mcq-11": "本句指「沒有錯誤、雜訊、污染資料或多餘內容的」。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。"
+        "clean-mcq-11": "本句的「clean dataset」指「沒有錯誤、雜訊、污染資料或多餘內容的」。",
+        "clean-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-11"
     },
@@ -1283,11 +1199,9 @@ export default {
       "masked": "The recording has a very ____ sound.",
       "options": [
         "clean-mcq-11",
-        "clean-mcq-10",
-        "clean-mcq-12",
-        "clean-mcq-09",
-        "clean-mcq-13",
-        "clean-mcq-08"
+        "clean-mcq-26",
+        "clean-mcq-18",
+        "clean-mcq-23"
       ],
       "explanation": "本句的「clean」指「沒有錯誤、雜訊、污染資料或多餘內容的」。",
       "sentenceIndex": 21,
@@ -1296,12 +1210,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-11": "本句指「沒有錯誤、雜訊、污染資料或多餘內容的」。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-08": "「沒有犯規、作弊或使用不正當手段的」是「clean — sport」的用法，與本句語境不同。"
+        "clean-mcq-11": "本句的「clean」指「沒有錯誤、雜訊、污染資料或多餘內容的」。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-11"
     },
@@ -1313,11 +1225,9 @@ export default {
       "masked": "Start with a ____.",
       "options": [
         "clean-mcq-12",
-        "clean-mcq-11",
-        "clean-mcq-13",
-        "clean-mcq-10",
-        "clean-mcq-14",
-        "clean-mcq-09"
+        "clean-mcq-27",
+        "clean-mcq-21",
+        "clean-mcq-18"
       ],
       "explanation": "本句的「clean sheet of paper」指「尚未寫上、修改或加入其他內容的」。",
       "sentenceIndex": 22,
@@ -1326,12 +1236,10 @@ export default {
         "clean sheet of paper"
       ],
       "optionReasons": {
-        "clean-mcq-12": "本句指「尚未寫上、修改或加入其他內容的」。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。"
+        "clean-mcq-12": "本句的「clean sheet of paper」指「尚未寫上、修改或加入其他內容的」。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-12"
     },
@@ -1343,11 +1251,9 @@ export default {
       "masked": "Open a ____ document and copy the text into it.",
       "options": [
         "clean-mcq-12",
-        "clean-mcq-11",
+        "clean-mcq-22",
         "clean-mcq-13",
-        "clean-mcq-10",
-        "clean-mcq-14",
-        "clean-mcq-09"
+        "clean-mcq-18"
       ],
       "explanation": "本句的「clean」指「尚未寫上、修改或加入其他內容的」。",
       "sentenceIndex": 23,
@@ -1356,12 +1262,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-12": "本句指「尚未寫上、修改或加入其他內容的」。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-09": "「不含粗俗、猥褻或冒犯內容的」是「clean — content」的用法，與本句語境不同。"
+        "clean-mcq-12": "本句的「clean」指「尚未寫上、修改或加入其他內容的」。",
+        "clean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-12"
     },
@@ -1373,11 +1277,9 @@ export default {
       "masked": "They made a ____ with the past.",
       "options": [
         "clean-mcq-13",
-        "clean-mcq-12",
-        "clean-mcq-14",
-        "clean-mcq-11",
-        "clean-mcq-15",
-        "clean-mcq-10"
+        "clean-mcq-19",
+        "clean-mcq-07",
+        "clean-mcq-20"
       ],
       "explanation": "本句的「clean break」指「完整、徹底、不留殘餘或例外的」。",
       "sentenceIndex": 24,
@@ -1386,12 +1288,10 @@ export default {
         "clean break"
       ],
       "optionReasons": {
-        "clean-mcq-13": "本句指「完整、徹底、不留殘餘或例外的」。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。"
+        "clean-mcq-13": "本句的「clean break」指「完整、徹底、不留殘餘或例外的」。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-13"
     },
@@ -1403,11 +1303,9 @@ export default {
       "masked": "The team achieved a ____ sweep.",
       "options": [
         "clean-mcq-13",
-        "clean-mcq-12",
+        "clean-mcq-20",
         "clean-mcq-14",
-        "clean-mcq-11",
-        "clean-mcq-15",
-        "clean-mcq-10"
+        "clean-mcq-03"
       ],
       "explanation": "本句的「clean」指「完整、徹底、不留殘餘或例外的」。",
       "sentenceIndex": 25,
@@ -1416,12 +1314,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-13": "本句指「完整、徹底、不留殘餘或例外的」。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-10": "「產生較少污染、排放或環境傷害的」是「clean — environmental」的用法，與本句語境不同。"
+        "clean-mcq-13": "本句的「clean」指「完整、徹底、不留殘餘或例外的」。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-13"
     },
@@ -1433,11 +1329,9 @@ export default {
       "masked": "She ____ the kitchen.",
       "options": [
         "clean-mcq-14",
+        "clean-mcq-09",
         "clean-mcq-13",
-        "clean-mcq-15",
-        "clean-mcq-12",
-        "clean-mcq-16",
-        "clean-mcq-11"
+        "clean-mcq-21"
       ],
       "explanation": "本句的「cleaned」指「去除污垢、灰塵等，使某物變乾淨」。",
       "sentenceIndex": 26,
@@ -1446,12 +1340,10 @@ export default {
         "cleaned"
       ],
       "optionReasons": {
-        "clean-mcq-14": "本句指「去除污垢、灰塵等，使某物變乾淨」。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。"
+        "clean-mcq-14": "本句的「cleaned」指「去除污垢、灰塵等，使某物變乾淨」。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-14"
     },
@@ -1463,11 +1355,9 @@ export default {
       "masked": "____ the tools after using them.",
       "options": [
         "clean-mcq-14",
-        "clean-mcq-13",
-        "clean-mcq-15",
-        "clean-mcq-12",
-        "clean-mcq-16",
-        "clean-mcq-11"
+        "clean-mcq-05",
+        "clean-mcq-18",
+        "clean-mcq-24"
       ],
       "explanation": "本句的「Clean」指「去除污垢、灰塵等，使某物變乾淨」。",
       "sentenceIndex": 27,
@@ -1476,12 +1366,10 @@ export default {
         "Clean"
       ],
       "optionReasons": {
-        "clean-mcq-14": "本句指「去除污垢、灰塵等，使某物變乾淨」。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-11": "「沒有錯誤、雜訊、污染資料或多餘內容的」是「clean — data/audio」的用法，與本句語境不同。"
+        "clean-mcq-14": "本句的「Clean」指「去除污垢、灰塵等，使某物變乾淨」。",
+        "clean-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-14"
     },
@@ -1493,10 +1381,8 @@ export default {
       "masked": "We need to ____ the data before analysis.",
       "options": [
         "clean-mcq-15",
-        "clean-mcq-14",
-        "clean-mcq-16",
-        "clean-mcq-13",
-        "clean-mcq-17",
+        "clean-mcq-18",
+        "clean-mcq-28",
         "clean-mcq-12"
       ],
       "explanation": "本句的「clean」指「去除不需要、不能使用或有問題的部分」。",
@@ -1506,12 +1392,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-15": "本句指「去除不需要、不能使用或有問題的部分」。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。"
+        "clean-mcq-15": "本句的「clean」指「去除不需要、不能使用或有問題的部分」。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-15"
     },
@@ -1523,11 +1407,9 @@ export default {
       "masked": "She ____ the fish before cooking it.",
       "options": [
         "clean-mcq-15",
-        "clean-mcq-14",
-        "clean-mcq-16",
-        "clean-mcq-13",
-        "clean-mcq-17",
-        "clean-mcq-12"
+        "clean-mcq-09",
+        "clean-mcq-10",
+        "clean-mcq-19"
       ],
       "explanation": "本句的「cleaned」指「去除不需要、不能使用或有問題的部分」。",
       "sentenceIndex": 29,
@@ -1536,12 +1418,10 @@ export default {
         "cleaned"
       ],
       "optionReasons": {
-        "clean-mcq-15": "本句指「去除不需要、不能使用或有問題的部分」。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-12": "「尚未寫上、修改或加入其他內容的」是「clean — blank/fresh」的用法，與本句語境不同。"
+        "clean-mcq-15": "本句的「cleaned」指「去除不需要、不能使用或有問題的部分」。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-15"
     },
@@ -1553,11 +1433,9 @@ export default {
       "masked": "The branch broke ____.",
       "options": [
         "clean-pdf-001",
-        "clean-mcq-15",
-        "clean-mcq-17",
-        "clean-mcq-14",
-        "clean-mcq-18",
-        "clean-mcq-13"
+        "clean-mcq-19",
+        "clean-mcq-10",
+        "clean-mcq-14"
       ],
       "explanation": "本句的「cleanly」指「動作整齊、完整、沒有拖拉或破碎地完成」。",
       "sentenceIndex": 30,
@@ -1566,12 +1444,10 @@ export default {
         "cleanly"
       ],
       "optionReasons": {
-        "clean-pdf-001": "本句指「動作整齊、完整、沒有拖拉或破碎地完成」。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。"
+        "clean-pdf-001": "本句的「cleanly」指「動作整齊、完整、沒有拖拉或破碎地完成」。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-pdf-001"
     },
@@ -1583,11 +1459,9 @@ export default {
       "masked": "The knife cut ____ through the fruit.",
       "options": [
         "clean-pdf-001",
-        "clean-mcq-15",
-        "clean-mcq-17",
-        "clean-mcq-14",
         "clean-mcq-18",
-        "clean-mcq-13"
+        "clean-mcq-09",
+        "clean-mcq-14"
       ],
       "explanation": "本句的「cleanly」指「動作整齊、完整、沒有拖拉或破碎地完成」。",
       "sentenceIndex": 31,
@@ -1596,12 +1470,10 @@ export default {
         "cleanly"
       ],
       "optionReasons": {
-        "clean-pdf-001": "本句指「動作整齊、完整、沒有拖拉或破碎地完成」。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。"
+        "clean-pdf-001": "本句的「cleanly」指「動作整齊、完整、沒有拖拉或破碎地完成」。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-pdf-001"
     },
@@ -1613,11 +1485,9 @@ export default {
       "masked": "The food must be prepared ____.",
       "options": [
         "clean-mcq-16",
-        "clean-mcq-15",
-        "clean-mcq-17",
-        "clean-mcq-14",
-        "clean-mcq-18",
-        "clean-mcq-13"
+        "clean-mcq-25",
+        "clean-mcq-20",
+        "clean-mcq-19"
       ],
       "explanation": "本句的「cleanly」指「以整齊俐落、完整或衛生的方式」。",
       "sentenceIndex": 32,
@@ -1626,12 +1496,10 @@ export default {
         "cleanly"
       ],
       "optionReasons": {
-        "clean-mcq-16": "本句指「以整齊俐落、完整或衛生的方式」。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。"
+        "clean-mcq-16": "本句的「cleanly」指「以整齊俐落、完整或衛生的方式」。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-16"
     },
@@ -1643,11 +1511,9 @@ export default {
       "masked": "The wound was ____ dressed.",
       "options": [
         "clean-mcq-16",
-        "clean-mcq-15",
-        "clean-mcq-17",
-        "clean-mcq-14",
-        "clean-mcq-18",
-        "clean-mcq-13"
+        "clean-mcq-01",
+        "clean-mcq-03",
+        "clean-mcq-25"
       ],
       "explanation": "本句的「cleanly」指「以整齊俐落、完整或衛生的方式」。",
       "sentenceIndex": 33,
@@ -1656,12 +1522,10 @@ export default {
         "cleanly"
       ],
       "optionReasons": {
-        "clean-mcq-16": "本句指「以整齊俐落、完整或衛生的方式」。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-13": "「完整、徹底、不留殘餘或例外的」是「clean — complete」的用法，與本句語境不同。"
+        "clean-mcq-16": "本句的「cleanly」指「以整齊俐落、完整或衛生的方式」。",
+        "clean-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-16"
     },
@@ -1673,11 +1537,9 @@ export default {
       "masked": "The hotel is known for its ____.",
       "options": [
         "clean-mcq-17",
-        "clean-mcq-16",
-        "clean-mcq-18",
-        "clean-mcq-15",
-        "clean-mcq-19",
-        "clean-mcq-14"
+        "clean-mcq-28",
+        "clean-mcq-09",
+        "clean-mcq-20"
       ],
       "explanation": "本句的「cleanliness」指「沒有污垢、污染並保持衛生整潔的狀態」。",
       "sentenceIndex": 34,
@@ -1686,12 +1548,10 @@ export default {
         "cleanliness"
       ],
       "optionReasons": {
-        "clean-mcq-17": "本句指「沒有污垢、污染並保持衛生整潔的狀態」。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。"
+        "clean-mcq-17": "本句的「cleanliness」指「沒有污垢、污染並保持衛生整潔的狀態」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-17"
     },
@@ -1703,11 +1563,9 @@ export default {
       "masked": "Kitchen ____ is essential.",
       "options": [
         "clean-mcq-17",
-        "clean-mcq-16",
-        "clean-mcq-18",
-        "clean-mcq-15",
-        "clean-mcq-19",
-        "clean-mcq-14"
+        "clean-mcq-28",
+        "clean-mcq-12",
+        "clean-mcq-20"
       ],
       "explanation": "本句的「cleanliness」指「沒有污垢、污染並保持衛生整潔的狀態」。",
       "sentenceIndex": 35,
@@ -1716,12 +1574,10 @@ export default {
         "cleanliness"
       ],
       "optionReasons": {
-        "clean-mcq-17": "本句指「沒有污垢、污染並保持衛生整潔的狀態」。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-14": "「去除污垢、灰塵等，使某物變乾淨」是「clean — verb」的用法，與本句語境不同。"
+        "clean-mcq-17": "本句的「cleanliness」指「沒有污垢、污染並保持衛生整潔的狀態」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-17"
     },
@@ -1733,11 +1589,9 @@ export default {
       "masked": "The ____ comes every Friday.",
       "options": [
         "clean-mcq-18",
-        "clean-mcq-17",
-        "clean-mcq-19",
-        "clean-mcq-16",
-        "clean-mcq-20",
-        "clean-mcq-15"
+        "clean-mcq-14",
+        "clean-mcq-21",
+        "clean-mcq-12"
       ],
       "explanation": "本句的「cleaner」指「負責清潔建築物／房間的人」。",
       "sentenceIndex": 36,
@@ -1746,12 +1600,10 @@ export default {
         "cleaner"
       ],
       "optionReasons": {
-        "clean-mcq-18": "本句指「負責清潔建築物／房間的人」。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。"
+        "clean-mcq-18": "本句的「cleaner」指「負責清潔建築物／房間的人」。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-18"
     },
@@ -1763,11 +1615,9 @@ export default {
       "masked": "The office employs two ____.",
       "options": [
         "clean-mcq-18",
-        "clean-mcq-17",
-        "clean-mcq-19",
-        "clean-mcq-16",
-        "clean-mcq-20",
-        "clean-mcq-15"
+        "clean-mcq-01",
+        "clean-mcq-10",
+        "clean-mcq-28"
       ],
       "explanation": "本句的「cleaners」指「負責清潔建築物／房間的人」。",
       "sentenceIndex": 37,
@@ -1776,12 +1626,10 @@ export default {
         "cleaners"
       ],
       "optionReasons": {
-        "clean-mcq-18": "本句指「負責清潔建築物／房間的人」。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-15": "「去除不需要、不能使用或有問題的部分」是「clean — remove unwanted material」的用法，與本句語境不同。"
+        "clean-mcq-18": "本句的「cleaners」指「負責清潔建築物／房間的人」。",
+        "clean-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-18"
     },
@@ -1793,11 +1641,9 @@ export default {
       "masked": "Use a glass ____ on the window.",
       "options": [
         "clean-mcq-19",
-        "clean-mcq-18",
-        "clean-mcq-20",
-        "clean-mcq-17",
         "clean-mcq-21",
-        "clean-mcq-16"
+        "clean-mcq-09",
+        "clean-mcq-14"
       ],
       "explanation": "本句的「cleaner」指「用來清潔的化學產品、工具或設備」。",
       "sentenceIndex": 38,
@@ -1806,12 +1652,10 @@ export default {
         "cleaner"
       ],
       "optionReasons": {
-        "clean-mcq-19": "本句指「用來清潔的化學產品、工具或設備」。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。"
+        "clean-mcq-19": "本句的「cleaner」指「用來清潔的化學產品、工具或設備」。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-19"
     },
@@ -1823,11 +1667,9 @@ export default {
       "masked": "This steam ____ works well on floors.",
       "options": [
         "clean-mcq-19",
-        "clean-mcq-18",
-        "clean-mcq-20",
-        "clean-mcq-17",
-        "clean-mcq-21",
-        "clean-mcq-16"
+        "clean-mcq-22",
+        "clean-mcq-24",
+        "clean-mcq-09"
       ],
       "explanation": "本句的「cleaner」指「用來清潔的化學產品、工具或設備」。",
       "sentenceIndex": 39,
@@ -1836,12 +1678,10 @@ export default {
         "cleaner"
       ],
       "optionReasons": {
-        "clean-mcq-19": "本句指「用來清潔的化學產品、工具或設備」。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-16": "「以整齊俐落、完整或衛生的方式」是「cleanly」的用法，與本句語境不同。"
+        "clean-mcq-19": "本句的「cleaner」指「用來清潔的化學產品、工具或設備」。",
+        "clean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-19"
     },
@@ -1853,11 +1693,9 @@ export default {
       "masked": "The ____ took several hours.",
       "options": [
         "clean-mcq-20",
-        "clean-mcq-19",
-        "clean-mcq-21",
-        "clean-mcq-18",
+        "clean-mcq-28",
         "clean-mcq-22",
-        "clean-mcq-17"
+        "clean-mcq-09"
       ],
       "explanation": "本句的「cleanup」指「清除垃圾、污物或混亂的活動／過程」。",
       "sentenceIndex": 40,
@@ -1866,12 +1704,10 @@ export default {
         "cleanup"
       ],
       "optionReasons": {
-        "clean-mcq-20": "本句指「清除垃圾、污物或混亂的活動／過程」。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。"
+        "clean-mcq-20": "本句的「cleanup」指「清除垃圾、污物或混亂的活動／過程」。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-20"
     },
@@ -1883,11 +1719,9 @@ export default {
       "masked": "Volunteers joined the beach ____.",
       "options": [
         "clean-mcq-20",
-        "clean-mcq-19",
-        "clean-mcq-21",
-        "clean-mcq-18",
-        "clean-mcq-22",
-        "clean-mcq-17"
+        "clean-mcq-13",
+        "clean-mcq-09",
+        "clean-mcq-06"
       ],
       "explanation": "本句的「clean-up」指「清除垃圾、污物或混亂的活動／過程」。",
       "sentenceIndex": 41,
@@ -1896,12 +1730,10 @@ export default {
         "clean-up"
       ],
       "optionReasons": {
-        "clean-mcq-20": "本句指「清除垃圾、污物或混亂的活動／過程」。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-17": "「沒有污垢、污染並保持衛生整潔的狀態」是「cleanliness」的用法，與本句語境不同。"
+        "clean-mcq-20": "本句的「clean-up」指「清除垃圾、污物或混亂的活動／過程」。",
+        "clean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-20"
     },
@@ -1914,10 +1746,8 @@ export default {
       "options": [
         "clean-mcq-21",
         "clean-mcq-20",
-        "clean-mcq-22",
-        "clean-mcq-19",
-        "clean-mcq-23",
-        "clean-mcq-18"
+        "clean-mcq-26",
+        "clean-mcq-24"
       ],
       "explanation": "本句的「clean driving record」指「沒有犯罪、違規或處分的紀錄」。",
       "sentenceIndex": 42,
@@ -1926,12 +1756,10 @@ export default {
         "clean driving record"
       ],
       "optionReasons": {
-        "clean-mcq-21": "本句指「沒有犯罪、違規或處分的紀錄」。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。"
+        "clean-mcq-21": "本句的「clean driving record」指「沒有犯罪、違規或處分的紀錄」。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-21"
     },
@@ -1943,11 +1771,9 @@ export default {
       "masked": "The candidate had a ____ disciplinary record.",
       "options": [
         "clean-mcq-21",
-        "clean-mcq-20",
-        "clean-mcq-22",
-        "clean-mcq-19",
-        "clean-mcq-23",
-        "clean-mcq-18"
+        "clean-mcq-27",
+        "clean-mcq-14",
+        "clean-mcq-25"
       ],
       "explanation": "本句的「clean」指「沒有犯罪、違規或處分的紀錄」。",
       "sentenceIndex": 43,
@@ -1956,12 +1782,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-21": "本句指「沒有犯罪、違規或處分的紀錄」。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-18": "「負責清潔建築物／房間的人」是「cleaner — person」的用法，與本句語境不同。"
+        "clean-mcq-21": "本句的「clean」指「沒有犯罪、違規或處分的紀錄」。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-21"
     },
@@ -1973,11 +1797,9 @@ export default {
       "masked": "The doctor gave him a ____.",
       "options": [
         "clean-mcq-22",
-        "clean-mcq-21",
-        "clean-mcq-23",
-        "clean-mcq-20",
-        "clean-mcq-24",
-        "clean-mcq-19"
+        "clean-mcq-03",
+        "clean-mcq-28",
+        "clean-mcq-20"
       ],
       "explanation": "本句的「clean bill of health」指「經檢查後確認健康／狀況良好、沒有重大問題」。",
       "sentenceIndex": 44,
@@ -1986,12 +1808,10 @@ export default {
         "clean bill of health"
       ],
       "optionReasons": {
-        "clean-mcq-22": "本句指「經檢查後確認健康／狀況良好、沒有重大問題」。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。"
+        "clean-mcq-22": "本句的「clean bill of health」指「經檢查後確認健康／狀況良好、沒有重大問題」。",
+        "clean-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-22"
     },
@@ -2003,11 +1823,9 @@ export default {
       "masked": "The inspection gave the system a ____ bill of health.",
       "options": [
         "clean-mcq-22",
-        "clean-mcq-21",
-        "clean-mcq-23",
-        "clean-mcq-20",
-        "clean-mcq-24",
-        "clean-mcq-19"
+        "clean-mcq-13",
+        "clean-mcq-14",
+        "clean-mcq-10"
       ],
       "explanation": "本句的「clean」指「經檢查後確認健康／狀況良好、沒有重大問題」。",
       "sentenceIndex": 45,
@@ -2016,12 +1834,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-22": "本句指「經檢查後確認健康／狀況良好、沒有重大問題」。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-19": "「用來清潔的化學產品、工具或設備」是「cleaner — product/device」的用法，與本句語境不同。"
+        "clean-mcq-22": "本句的「clean」指「經檢查後確認健康／狀況良好、沒有重大問題」。",
+        "clean-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-22"
     },
@@ -2033,11 +1849,9 @@ export default {
       "masked": "She wanted a ____ from her old job.",
       "options": [
         "clean-mcq-23",
-        "clean-mcq-22",
-        "clean-mcq-24",
-        "clean-mcq-21",
-        "clean-mcq-25",
-        "clean-mcq-20"
+        "clean-mcq-10",
+        "clean-mcq-01",
+        "clean-mcq-09"
       ],
       "explanation": "本句的「clean break」指「清楚而完整地結束過去關係／制度／狀況」。",
       "sentenceIndex": 46,
@@ -2046,12 +1860,10 @@ export default {
         "clean break"
       ],
       "optionReasons": {
-        "clean-mcq-23": "本句指「清楚而完整地結束過去關係／制度／狀況」。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。"
+        "clean-mcq-23": "本句的「clean break」指「清楚而完整地結束過去關係／制度／狀況」。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-23"
     },
@@ -2063,11 +1875,9 @@ export default {
       "masked": "The company made a ____ break with the old system.",
       "options": [
         "clean-mcq-23",
-        "clean-mcq-22",
-        "clean-mcq-24",
-        "clean-mcq-21",
-        "clean-mcq-25",
-        "clean-mcq-20"
+        "clean-mcq-11",
+        "clean-mcq-14",
+        "clean-mcq-26"
       ],
       "explanation": "本句的「clean」指「清楚而完整地結束過去關係／制度／狀況」。",
       "sentenceIndex": 47,
@@ -2076,12 +1886,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-23": "本句指「清楚而完整地結束過去關係／制度／狀況」。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-20": "「清除垃圾、污物或混亂的活動／過程」是「cleanup」的用法，與本句語境不同。"
+        "clean-mcq-23": "本句的「clean」指「清楚而完整地結束過去關係／制度／狀況」。",
+        "clean-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-23"
     },
@@ -2093,11 +1901,9 @@ export default {
       "masked": "The team made a ____ of the awards.",
       "options": [
         "clean-mcq-24",
-        "clean-mcq-23",
-        "clean-mcq-25",
-        "clean-mcq-22",
-        "clean-mcq-26",
-        "clean-mcq-21"
+        "clean-mcq-09",
+        "clean-mcq-10",
+        "clean-mcq-07"
       ],
       "explanation": "本句的「clean sweep」指「在一系列競賽或項目中全部取勝」。",
       "sentenceIndex": 48,
@@ -2106,12 +1912,10 @@ export default {
         "clean sweep"
       ],
       "optionReasons": {
-        "clean-mcq-24": "本句指「在一系列競賽或項目中全部取勝」。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。"
+        "clean-mcq-24": "本句的「clean sweep」指「在一系列競賽或項目中全部取勝」。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-24"
     },
@@ -2123,11 +1927,9 @@ export default {
       "masked": "The party achieved a ____ sweep in the local contests.",
       "options": [
         "clean-mcq-24",
-        "clean-mcq-23",
+        "clean-mcq-06",
         "clean-mcq-25",
-        "clean-mcq-22",
-        "clean-mcq-26",
-        "clean-mcq-21"
+        "clean-mcq-09"
       ],
       "explanation": "本句的「clean」指「在一系列競賽或項目中全部取勝」。",
       "sentenceIndex": 49,
@@ -2136,12 +1938,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-24": "本句指「在一系列競賽或項目中全部取勝」。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-21": "「沒有犯罪、違規或處分的紀錄」是「clean record」的用法，與本句語境不同。"
+        "clean-mcq-24": "本句的「clean」指「在一系列競賽或項目中全部取勝」。",
+        "clean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-24"
     },
@@ -2153,11 +1953,9 @@ export default {
       "masked": "They decided to start with a ____.",
       "options": [
         "clean-mcq-25",
-        "clean-mcq-24",
-        "clean-mcq-26",
-        "clean-mcq-23",
-        "clean-mcq-27",
-        "clean-mcq-22"
+        "clean-mcq-21",
+        "clean-mcq-19",
+        "clean-mcq-27"
       ],
       "explanation": "本句的「clean slate」指「不受過往問題影響，重新開始的狀態」。",
       "sentenceIndex": 50,
@@ -2166,12 +1964,10 @@ export default {
         "clean slate"
       ],
       "optionReasons": {
-        "clean-mcq-25": "本句指「不受過往問題影響，重新開始的狀態」。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-27": "「臉上鬍鬚全部剃掉的」是「clean-shaven」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。"
+        "clean-mcq-25": "本句的「clean slate」指「不受過往問題影響，重新開始的狀態」。",
+        "clean-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-25"
     },
@@ -2183,11 +1979,9 @@ export default {
       "masked": "The new manager wanted a ____ slate.",
       "options": [
         "clean-mcq-25",
-        "clean-mcq-24",
-        "clean-mcq-26",
-        "clean-mcq-23",
-        "clean-mcq-27",
-        "clean-mcq-22"
+        "clean-mcq-04",
+        "clean-mcq-18",
+        "clean-mcq-27"
       ],
       "explanation": "本句的「clean」指「不受過往問題影響，重新開始的狀態」。",
       "sentenceIndex": 51,
@@ -2196,12 +1990,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-25": "本句指「不受過往問題影響，重新開始的狀態」。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。",
-        "clean-mcq-27": "「臉上鬍鬚全部剃掉的」是「clean-shaven」的用法，與本句語境不同。",
-        "clean-mcq-22": "「經檢查後確認健康／狀況良好、沒有重大問題」是「clean bill of health」的用法，與本句語境不同。"
+        "clean-mcq-25": "本句的「clean」指「不受過往問題影響，重新開始的狀態」。",
+        "clean-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-25"
     },
@@ -2213,11 +2005,9 @@ export default {
       "masked": "He has a ____ appearance.",
       "options": [
         "clean-mcq-26",
-        "clean-mcq-25",
-        "clean-mcq-27",
-        "clean-mcq-24",
-        "clean-mcq-28",
-        "clean-mcq-23"
+        "clean-mcq-03",
+        "clean-mcq-20",
+        "clean-mcq-27"
       ],
       "explanation": "本句的「clean-cut」指「外表、線條或風格整潔俐落的」。",
       "sentenceIndex": 52,
@@ -2226,12 +2016,10 @@ export default {
         "clean-cut"
       ],
       "optionReasons": {
-        "clean-mcq-26": "本句指「外表、線條或風格整潔俐落的」。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-27": "「臉上鬍鬚全部剃掉的」是「clean-shaven」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-28": "「完全地；徹底地，常見於固定／非正式用法」是「clean — adverb」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。"
+        "clean-mcq-26": "本句的「clean-cut」指「外表、線條或風格整潔俐落的」。",
+        "clean-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-26"
     },
@@ -2243,11 +2031,9 @@ export default {
       "masked": "The design is simple and ____.",
       "options": [
         "clean-mcq-26",
-        "clean-mcq-25",
-        "clean-mcq-27",
-        "clean-mcq-24",
+        "clean-mcq-10",
         "clean-mcq-28",
-        "clean-mcq-23"
+        "clean-mcq-12"
       ],
       "explanation": "本句的「clean-cut」指「外表、線條或風格整潔俐落的」。",
       "sentenceIndex": 53,
@@ -2256,12 +2042,10 @@ export default {
         "clean-cut"
       ],
       "optionReasons": {
-        "clean-mcq-26": "本句指「外表、線條或風格整潔俐落的」。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-27": "「臉上鬍鬚全部剃掉的」是「clean-shaven」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-28": "「完全地；徹底地，常見於固定／非正式用法」是「clean — adverb」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。"
+        "clean-mcq-26": "本句的「clean-cut」指「外表、線條或風格整潔俐落的」。",
+        "clean-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-26"
     },
@@ -2273,11 +2057,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "clean-mcq-27",
-        "clean-mcq-26",
-        "clean-mcq-28",
-        "clean-mcq-25",
-        "clean-mcq-24",
-        "clean-mcq-23"
+        "clean-mcq-06",
+        "clean-mcq-18",
+        "clean-mcq-14"
       ],
       "explanation": "本句的「clean-shaven」指「臉上鬍鬚全部剃掉的」。",
       "sentenceIndex": 54,
@@ -2286,12 +2068,10 @@ export default {
         "clean-shaven"
       ],
       "optionReasons": {
-        "clean-mcq-27": "本句指「臉上鬍鬚全部剃掉的」。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-28": "「完全地；徹底地，常見於固定／非正式用法」是「clean — adverb」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。"
+        "clean-mcq-27": "本句的「clean-shaven」指「臉上鬍鬚全部剃掉的」。",
+        "clean-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-27"
     },
@@ -2303,11 +2083,9 @@ export default {
       "masked": "The photo shows him ____.",
       "options": [
         "clean-mcq-27",
-        "clean-mcq-26",
-        "clean-mcq-28",
-        "clean-mcq-25",
-        "clean-mcq-24",
-        "clean-mcq-23"
+        "clean-mcq-20",
+        "clean-mcq-22",
+        "clean-mcq-12"
       ],
       "explanation": "本句的「clean-shaven」指「臉上鬍鬚全部剃掉的」。",
       "sentenceIndex": 55,
@@ -2316,12 +2094,10 @@ export default {
         "clean-shaven"
       ],
       "optionReasons": {
-        "clean-mcq-27": "本句指「臉上鬍鬚全部剃掉的」。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-28": "「完全地；徹底地，常見於固定／非正式用法」是「clean — adverb」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。"
+        "clean-mcq-27": "本句的「clean-shaven」指「臉上鬍鬚全部剃掉的」。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-27"
     },
@@ -2333,11 +2109,9 @@ export default {
       "masked": "The ball went ____ the window.",
       "options": [
         "clean-mcq-28",
-        "clean-mcq-27",
-        "clean-mcq-26",
-        "clean-mcq-25",
-        "clean-mcq-24",
-        "clean-mcq-23"
+        "clean-mcq-17",
+        "clean-mcq-09",
+        "clean-mcq-18"
       ],
       "explanation": "本句的「clean through」指「完全地；徹底地，常見於固定／非正式用法」。",
       "sentenceIndex": 56,
@@ -2346,12 +2120,10 @@ export default {
         "clean through"
       ],
       "optionReasons": {
-        "clean-mcq-28": "本句指「完全地；徹底地，常見於固定／非正式用法」。",
-        "clean-mcq-27": "「臉上鬍鬚全部剃掉的」是「clean-shaven」的用法，與本句語境不同。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。"
+        "clean-mcq-28": "本句的「clean through」指「完全地；徹底地，常見於固定／非正式用法」。",
+        "clean-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-28"
     },
@@ -2363,11 +2135,9 @@ export default {
       "masked": "I ____ forgot about the meeting.",
       "options": [
         "clean-mcq-28",
-        "clean-mcq-27",
-        "clean-mcq-26",
-        "clean-mcq-25",
-        "clean-mcq-24",
-        "clean-mcq-23"
+        "clean-mcq-09",
+        "clean-mcq-01",
+        "clean-mcq-20"
       ],
       "explanation": "本句的「clean」指「完全地；徹底地，常見於固定／非正式用法」。",
       "sentenceIndex": 57,
@@ -2376,12 +2146,10 @@ export default {
         "clean"
       ],
       "optionReasons": {
-        "clean-mcq-28": "本句指「完全地；徹底地，常見於固定／非正式用法」。",
-        "clean-mcq-27": "「臉上鬍鬚全部剃掉的」是「clean-shaven」的用法，與本句語境不同。",
-        "clean-mcq-26": "「外表、線條或風格整潔俐落的」是「clean-cut」的用法，與本句語境不同。",
-        "clean-mcq-25": "「不受過往問題影響，重新開始的狀態」是「clean slate」的用法，與本句語境不同。",
-        "clean-mcq-24": "「在一系列競賽或項目中全部取勝」是「clean sweep」的用法，與本句語境不同。",
-        "clean-mcq-23": "「清楚而完整地結束過去關係／制度／狀況」是「clean break」的用法，與本句語境不同。"
+        "clean-mcq-28": "本句的「clean」指「完全地；徹底地，常見於固定／非正式用法」。",
+        "clean-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "clean-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "clean-mcq-28"
     }
@@ -2393,5 +2161,7 @@ export default {
     "sha256": "c0217460a47c3ce97459b9f065b7e58f0d9578b713d008b858f8a3161d6aa1cb",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

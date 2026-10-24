@@ -476,11 +476,7 @@ export default {
       "masked": "One major ____ of the novel is regret.",
       "options": [
         "theme-mcq-01",
-        "theme-mcq-02",
-        "theme-mcq-03",
-        "theme-mcq-04",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「theme」指「文學、電影、演說等反覆探討的核心思想／主題」。",
       "sentenceIndex": 2,
@@ -489,12 +485,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-01": "本句指「文學、電影、演說等反覆探討的核心思想／主題」。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-01": "本句的「theme」指「文學、電影、演說等反覆探討的核心思想／主題」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-01"
     },
@@ -506,11 +498,7 @@ export default {
       "masked": "The film explores the ____ of family responsibility.",
       "options": [
         "theme-mcq-01",
-        "theme-mcq-02",
-        "theme-mcq-03",
-        "theme-mcq-04",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「theme」指「文學、電影、演說等反覆探討的核心思想／主題」。",
       "sentenceIndex": 3,
@@ -519,12 +507,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-01": "本句指「文學、電影、演說等反覆探討的核心思想／主題」。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-01": "本句的「theme」指「文學、電影、演說等反覆探討的核心思想／主題」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-01"
     },
@@ -536,11 +520,7 @@ export default {
       "masked": "Loneliness is a recurring ____ in her writing.",
       "options": [
         "theme-mcq-02",
-        "theme-mcq-01",
-        "theme-mcq-03",
-        "theme-mcq-04",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "theme-mcq-15"
       ],
       "explanation": "本句的「theme」指「在作品、討論等中反覆出現的核心議題」。",
       "sentenceIndex": 4,
@@ -549,12 +529,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-02": "本句指「在作品、討論等中反覆出現的核心議題」。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-02": "本句的「theme」指「在作品、討論等中反覆出現的核心議題」。",
+        "theme-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-02"
     },
@@ -566,11 +542,7 @@ export default {
       "masked": "A common ____ in the interviews was lack of time.",
       "options": [
         "theme-mcq-02",
-        "theme-mcq-01",
-        "theme-mcq-03",
-        "theme-mcq-04",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "theme-mcq-10"
       ],
       "explanation": "本句的「theme」指「在作品、討論等中反覆出現的核心議題」。",
       "sentenceIndex": 5,
@@ -579,12 +551,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-02": "本句指「在作品、討論等中反覆出現的核心議題」。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-02": "本句的「theme」指「在作品、討論等中反覆出現的核心議題」。",
+        "theme-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-02"
     },
@@ -596,11 +564,7 @@ export default {
       "masked": "The conference ____ is sustainability.",
       "options": [
         "theme-mcq-03",
-        "theme-mcq-02",
-        "theme-mcq-04",
-        "theme-mcq-01",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
       "sentenceIndex": 6,
@@ -609,12 +573,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-03": "本句指「活動、文章、討論等圍繞的主題／題目」。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-03": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-03"
     },
@@ -626,11 +586,7 @@ export default {
       "masked": "We were asked to write an essay on the ____ of change.",
       "options": [
         "theme-mcq-03",
-        "theme-mcq-02",
-        "theme-mcq-04",
-        "theme-mcq-01",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
       "sentenceIndex": 7,
@@ -639,12 +595,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-03": "本句指「活動、文章、討論等圍繞的主題／題目」。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-03": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-03"
     },
@@ -656,11 +608,7 @@ export default {
       "masked": "This year’s festival has a space ____.",
       "options": [
         "theme-mcq-03",
-        "theme-mcq-02",
-        "theme-mcq-04",
-        "theme-mcq-01",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
       "sentenceIndex": 8,
@@ -669,12 +617,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-03": "本句指「活動、文章、討論等圍繞的主題／題目」。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-03": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-03"
     },
@@ -686,11 +630,7 @@ export default {
       "masked": "The wedding had a vintage ____.",
       "options": [
         "theme-mcq-03",
-        "theme-mcq-02",
-        "theme-mcq-04",
-        "theme-mcq-01",
-        "theme-mcq-05",
-        "theme-mcq-06"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
       "sentenceIndex": 9,
@@ -699,12 +639,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-03": "本句指「活動、文章、討論等圍繞的主題／題目」。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-03": "本句的「theme」指「活動、文章、討論等圍繞的主題／題目」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-03"
     },
@@ -716,11 +652,7 @@ export default {
       "masked": "The restaurant has a tropical ____.",
       "options": [
         "theme-mcq-04",
-        "theme-mcq-03",
-        "theme-mcq-05",
-        "theme-mcq-02",
-        "theme-mcq-06",
-        "theme-mcq-01"
+        "theme-mcq-18"
       ],
       "explanation": "本句的「theme」指「用來統一裝飾、設計或風格的核心概念」。",
       "sentenceIndex": 10,
@@ -729,12 +661,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-04": "本句指「用來統一裝飾、設計或風格的核心概念」。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。"
+        "theme-mcq-04": "本句的「theme」指「用來統一裝飾、設計或風格的核心概念」。",
+        "theme-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-04"
     },
@@ -746,11 +674,7 @@ export default {
       "masked": "The room was decorated around a nautical ____.",
       "options": [
         "theme-mcq-04",
-        "theme-mcq-03",
-        "theme-mcq-05",
-        "theme-mcq-02",
-        "theme-mcq-06",
-        "theme-mcq-01"
+        "theme-mcq-18"
       ],
       "explanation": "本句的「theme」指「用來統一裝飾、設計或風格的核心概念」。",
       "sentenceIndex": 11,
@@ -759,12 +683,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-04": "本句指「用來統一裝飾、設計或風格的核心概念」。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-01": "「文學、電影、演說等反覆探討的核心思想／主題」與本句語境不同。"
+        "theme-mcq-04": "本句的「theme」指「用來統一裝飾、設計或風格的核心概念」。",
+        "theme-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-04"
     },
@@ -776,10 +696,6 @@ export default {
       "masked": "The city has a large ____.",
       "options": [
         "theme-mcq-05",
-        "theme-mcq-04",
-        "theme-mcq-06",
-        "theme-mcq-03",
-        "theme-mcq-07",
         "theme-mcq-02"
       ],
       "explanation": "本句的「theme park」指「遊樂設施與區域按特定故事／概念設計的主題樂園」。",
@@ -789,12 +705,8 @@ export default {
         "theme park"
       ],
       "optionReasons": {
-        "theme-mcq-05": "本句指「遊樂設施與區域按特定故事／概念設計的主題樂園」。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。"
+        "theme-mcq-05": "本句的「theme park」指「遊樂設施與區域按特定故事／概念設計的主題樂園」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-05"
     },
@@ -806,10 +718,6 @@ export default {
       "masked": "The ____ includes several themed areas.",
       "options": [
         "theme-mcq-05",
-        "theme-mcq-04",
-        "theme-mcq-06",
-        "theme-mcq-03",
-        "theme-mcq-07",
         "theme-mcq-02"
       ],
       "explanation": "本句的「theme park」指「遊樂設施與區域按特定故事／概念設計的主題樂園」。",
@@ -819,12 +727,8 @@ export default {
         "theme park"
       ],
       "optionReasons": {
-        "theme-mcq-05": "本句指「遊樂設施與區域按特定故事／概念設計的主題樂園」。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-02": "「在作品、討論等中反覆出現的核心議題」與本句語境不同。"
+        "theme-mcq-05": "本句的「theme park」指「遊樂設施與區域按特定故事／概念設計的主題樂園」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-05"
     },
@@ -836,11 +740,7 @@ export default {
       "masked": "The park has a pirate-____.",
       "options": [
         "theme-mcq-06",
-        "theme-mcq-05",
-        "theme-mcq-07",
-        "theme-mcq-04",
-        "theme-mcq-08",
-        "theme-mcq-03"
+        "theme-mcq-02"
       ],
       "explanation": "本句的「themed area」指「按某個特定主題設計的區域／景點」。",
       "sentenceIndex": 14,
@@ -849,12 +749,8 @@ export default {
         "themed area"
       ],
       "optionReasons": {
-        "theme-mcq-06": "本句指「按某個特定主題設計的區域／景點」。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。"
+        "theme-mcq-06": "本句的「themed area」指「按某個特定主題設計的區域／景點」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-06"
     },
@@ -866,11 +762,7 @@ export default {
       "masked": "Children loved the space-____.",
       "options": [
         "theme-mcq-06",
-        "theme-mcq-05",
-        "theme-mcq-07",
-        "theme-mcq-04",
-        "theme-mcq-08",
-        "theme-mcq-03"
+        "theme-mcq-02"
       ],
       "explanation": "本句的「themed attraction」指「按某個特定主題設計的區域／景點」。",
       "sentenceIndex": 15,
@@ -879,12 +771,8 @@ export default {
         "themed attraction"
       ],
       "optionReasons": {
-        "theme-mcq-06": "本句指「按某個特定主題設計的區域／景點」。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-03": "「活動、文章、討論等圍繞的主題／題目」與本句語境不同。"
+        "theme-mcq-06": "本句的「themed attraction」指「按某個特定主題設計的區域／景點」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-06"
     },
@@ -896,11 +784,7 @@ export default {
       "masked": "They held a 1980s ____.",
       "options": [
         "theme-mcq-07",
-        "theme-mcq-06",
-        "theme-mcq-08",
-        "theme-mcq-05",
-        "theme-mcq-09",
-        "theme-mcq-04"
+        "theme-mcq-02"
       ],
       "explanation": "本句的「theme party」指「服裝、裝飾等圍繞某概念安排的主題派對」。",
       "sentenceIndex": 16,
@@ -909,12 +793,8 @@ export default {
         "theme party"
       ],
       "optionReasons": {
-        "theme-mcq-07": "本句指「服裝、裝飾等圍繞某概念安排的主題派對」。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。"
+        "theme-mcq-07": "本句的「theme party」指「服裝、裝飾等圍繞某概念安排的主題派對」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-07"
     },
@@ -926,11 +806,7 @@ export default {
       "masked": "Everyone wore costumes for the ____.",
       "options": [
         "theme-mcq-07",
-        "theme-mcq-06",
-        "theme-mcq-08",
-        "theme-mcq-05",
-        "theme-mcq-09",
-        "theme-mcq-04"
+        "theme-mcq-02"
       ],
       "explanation": "本句的「theme party」指「服裝、裝飾等圍繞某概念安排的主題派對」。",
       "sentenceIndex": 17,
@@ -939,12 +815,8 @@ export default {
         "theme party"
       ],
       "optionReasons": {
-        "theme-mcq-07": "本句指「服裝、裝飾等圍繞某概念安排的主題派對」。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-04": "「用來統一裝飾、設計或風格的核心概念」與本句語境不同。"
+        "theme-mcq-07": "本句的「theme party」指「服裝、裝飾等圍繞某概念安排的主題派對」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-07"
     },
@@ -956,11 +828,7 @@ export default {
       "masked": "I immediately recognized the film’s ____.",
       "options": [
         "theme-mcq-08",
-        "theme-mcq-07",
-        "theme-mcq-09",
-        "theme-mcq-06",
-        "theme-mcq-10",
-        "theme-mcq-05"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「電影、人物、樂曲等反覆使用的主題旋律」。",
       "sentenceIndex": 18,
@@ -969,12 +837,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-08": "本句指「電影、人物、樂曲等反覆使用的主題旋律」。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。"
+        "theme-mcq-08": "本句的「theme」指「電影、人物、樂曲等反覆使用的主題旋律」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-08"
     },
@@ -986,11 +850,7 @@ export default {
       "masked": "The composer wrote a memorable ____ for the character.",
       "options": [
         "theme-mcq-08",
-        "theme-mcq-07",
-        "theme-mcq-09",
-        "theme-mcq-06",
-        "theme-mcq-10",
-        "theme-mcq-05"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「電影、人物、樂曲等反覆使用的主題旋律」。",
       "sentenceIndex": 19,
@@ -999,12 +859,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-08": "本句指「電影、人物、樂曲等反覆使用的主題旋律」。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。",
-        "theme-mcq-05": "「遊樂設施與區域按特定故事／概念設計的主題樂園」與本句語境不同。"
+        "theme-mcq-08": "本句的「theme」指「電影、人物、樂曲等反覆使用的主題旋律」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-08"
     },
@@ -1016,11 +872,7 @@ export default {
       "masked": "Everyone knows the show’s ____.",
       "options": [
         "theme-mcq-09",
-        "theme-mcq-08",
-        "theme-mcq-10",
-        "theme-mcq-07",
-        "theme-mcq-11",
-        "theme-mcq-06"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme song」指「與節目、電影等密切相關的主題曲」。",
       "sentenceIndex": 20,
@@ -1029,12 +881,8 @@ export default {
         "theme song"
       ],
       "optionReasons": {
-        "theme-mcq-09": "本句指「與節目、電影等密切相關的主題曲」。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-11": "「在樂曲中反覆出現並發展的主題旋律」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-09": "本句的「theme song」指「與節目、電影等密切相關的主題曲」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-09"
     },
@@ -1046,11 +894,7 @@ export default {
       "masked": "The singer recorded the movie’s ____.",
       "options": [
         "theme-mcq-09",
-        "theme-mcq-08",
-        "theme-mcq-10",
-        "theme-mcq-07",
-        "theme-mcq-11",
-        "theme-mcq-06"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme song」指「與節目、電影等密切相關的主題曲」。",
       "sentenceIndex": 21,
@@ -1059,12 +903,8 @@ export default {
         "theme song"
       ],
       "optionReasons": {
-        "theme-mcq-09": "本句指「與節目、電影等密切相關的主題曲」。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。",
-        "theme-mcq-11": "「在樂曲中反覆出現並發展的主題旋律」與本句語境不同。",
-        "theme-mcq-06": "「按某個特定主題設計的區域／景點」與本句語境不同。"
+        "theme-mcq-09": "本句的「theme song」指「與節目、電影等密切相關的主題曲」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-09"
     },
@@ -1076,11 +916,7 @@ export default {
       "masked": "I still remember the television show’s ____.",
       "options": [
         "theme-mcq-10",
-        "theme-mcq-09",
-        "theme-mcq-11",
-        "theme-mcq-08",
-        "theme-mcq-12",
-        "theme-mcq-07"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme tune」指「節目固定使用的主題音樂」。",
       "sentenceIndex": 22,
@@ -1089,12 +925,8 @@ export default {
         "theme tune"
       ],
       "optionReasons": {
-        "theme-mcq-10": "本句指「節目固定使用的主題音樂」。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-11": "「在樂曲中反覆出現並發展的主題旋律」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。"
+        "theme-mcq-10": "本句的「theme tune」指「節目固定使用的主題音樂」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-10"
     },
@@ -1106,11 +938,7 @@ export default {
       "masked": "The familiar ____ began to play.",
       "options": [
         "theme-mcq-10",
-        "theme-mcq-09",
-        "theme-mcq-11",
-        "theme-mcq-08",
-        "theme-mcq-12",
-        "theme-mcq-07"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme tune」指「節目固定使用的主題音樂」。",
       "sentenceIndex": 23,
@@ -1119,12 +947,8 @@ export default {
         "theme tune"
       ],
       "optionReasons": {
-        "theme-mcq-10": "本句指「節目固定使用的主題音樂」。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-11": "「在樂曲中反覆出現並發展的主題旋律」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。",
-        "theme-mcq-07": "「服裝、裝飾等圍繞某概念安排的主題派對」與本句語境不同。"
+        "theme-mcq-10": "本句的「theme tune」指「節目固定使用的主題音樂」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-10"
     },
@@ -1136,11 +960,7 @@ export default {
       "masked": "The main ____ returns near the end of the piece.",
       "options": [
         "theme-mcq-11",
-        "theme-mcq-10",
-        "theme-mcq-12",
-        "theme-mcq-09",
-        "theme-mcq-13",
-        "theme-mcq-08"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「在樂曲中反覆出現並發展的主題旋律」。",
       "sentenceIndex": 24,
@@ -1149,12 +969,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-11": "本句指「在樂曲中反覆出現並發展的主題旋律」。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-13": "「網站或應用程式的整體視覺版型／佈景主題」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。"
+        "theme-mcq-11": "本句的「theme」指「在樂曲中反覆出現並發展的主題旋律」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-11"
     },
@@ -1166,11 +982,7 @@ export default {
       "masked": "The composer develops the ____ throughout the movement.",
       "options": [
         "theme-mcq-11",
-        "theme-mcq-10",
-        "theme-mcq-12",
-        "theme-mcq-09",
-        "theme-mcq-13",
-        "theme-mcq-08"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「在樂曲中反覆出現並發展的主題旋律」。",
       "sentenceIndex": 25,
@@ -1179,12 +991,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-11": "本句指「在樂曲中反覆出現並發展的主題旋律」。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。",
-        "theme-mcq-09": "「與節目、電影等密切相關的主題曲」與本句語境不同。",
-        "theme-mcq-13": "「網站或應用程式的整體視覺版型／佈景主題」與本句語境不同。",
-        "theme-mcq-08": "「電影、人物、樂曲等反覆使用的主題旋律」與本句語境不同。"
+        "theme-mcq-11": "本句的「theme」指「在樂曲中反覆出現並發展的主題旋律」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-11"
     },
@@ -1196,11 +1004,7 @@ export default {
       "masked": "The website uses a minimalist ____.",
       "options": [
         "theme-mcq-13",
-        "theme-mcq-12",
-        "theme-mcq-14",
-        "theme-mcq-11",
-        "theme-mcq-15",
-        "theme-mcq-10"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「網站或應用程式的整體視覺版型／佈景主題」。",
       "sentenceIndex": 28,
@@ -1209,12 +1013,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-13": "本句指「網站或應用程式的整體視覺版型／佈景主題」。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。",
-        "theme-mcq-11": "「在樂曲中反覆出現並發展的主題旋律」與本句語境不同。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。"
+        "theme-mcq-13": "本句的「theme」指「網站或應用程式的整體視覺版型／佈景主題」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-13"
     },
@@ -1226,11 +1026,7 @@ export default {
       "masked": "You can install a new ____ for the site.",
       "options": [
         "theme-mcq-13",
-        "theme-mcq-12",
-        "theme-mcq-14",
-        "theme-mcq-11",
-        "theme-mcq-15",
-        "theme-mcq-10"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「theme」指「網站或應用程式的整體視覺版型／佈景主題」。",
       "sentenceIndex": 29,
@@ -1239,12 +1035,8 @@ export default {
         "theme"
       ],
       "optionReasons": {
-        "theme-mcq-13": "本句指「網站或應用程式的整體視覺版型／佈景主題」。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。",
-        "theme-mcq-11": "「在樂曲中反覆出現並發展的主題旋律」與本句語境不同。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。",
-        "theme-mcq-10": "「節目固定使用的主題音樂」與本句語境不同。"
+        "theme-mcq-13": "本句的「theme」指「網站或應用程式的整體視覺版型／佈景主題」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-13"
     },
@@ -1256,11 +1048,7 @@ export default {
       "masked": "They stayed in a ____.",
       "options": [
         "theme-mcq-15",
-        "theme-mcq-14",
-        "theme-mcq-16",
-        "theme-mcq-13",
-        "theme-mcq-17",
-        "theme-mcq-12"
+        "theme-mcq-02"
       ],
       "explanation": "本句的「themed hotel room」指「按某個特定主題設計、裝飾或安排的」。",
       "sentenceIndex": 32,
@@ -1269,12 +1057,8 @@ export default {
         "themed hotel room"
       ],
       "optionReasons": {
-        "theme-mcq-15": "本句指「按某個特定主題設計、裝飾或安排的」。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。",
-        "theme-mcq-16": "「以 X 作為主要設計概念的」與本句語境不同。",
-        "theme-mcq-13": "「網站或應用程式的整體視覺版型／佈景主題」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。"
+        "theme-mcq-15": "本句的「themed hotel room」指「按某個特定主題設計、裝飾或安排的」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-15"
     },
@@ -1286,11 +1070,7 @@ export default {
       "masked": "The café hosts ____.",
       "options": [
         "theme-mcq-15",
-        "theme-mcq-14",
-        "theme-mcq-16",
-        "theme-mcq-13",
-        "theme-mcq-17",
-        "theme-mcq-12"
+        "theme-mcq-02"
       ],
       "explanation": "本句的「themed evenings」指「按某個特定主題設計、裝飾或安排的」。",
       "sentenceIndex": 33,
@@ -1299,12 +1079,8 @@ export default {
         "themed evenings"
       ],
       "optionReasons": {
-        "theme-mcq-15": "本句指「按某個特定主題設計、裝飾或安排的」。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。",
-        "theme-mcq-16": "「以 X 作為主要設計概念的」與本句語境不同。",
-        "theme-mcq-13": "「網站或應用程式的整體視覺版型／佈景主題」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。",
-        "theme-mcq-12": "「控制介面顏色、背景、字體等外觀的主題／佈景」與本句語境不同。"
+        "theme-mcq-15": "本句的「themed evenings」指「按某個特定主題設計、裝飾或安排的」。",
+        "theme-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-15"
     },
@@ -1316,11 +1092,7 @@ export default {
       "masked": "It is a dinosaur-____.",
       "options": [
         "theme-mcq-16",
-        "theme-mcq-15",
-        "theme-mcq-17",
-        "theme-mcq-14",
-        "theme-mcq-18",
-        "theme-mcq-13"
+        "theme-mcq-08"
       ],
       "explanation": "本句的「themed restaurant」指「以 X 作為主要設計概念的」。",
       "sentenceIndex": 34,
@@ -1329,12 +1101,8 @@ export default {
         "themed restaurant"
       ],
       "optionReasons": {
-        "theme-mcq-16": "本句指「以 X 作為主要設計概念的」。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-13": "「網站或應用程式的整體視覺版型／佈景主題」與本句語境不同。"
+        "theme-mcq-16": "本句的「themed restaurant」指「以 X 作為主要設計概念的」。",
+        "theme-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-16"
     },
@@ -1346,11 +1114,7 @@ export default {
       "masked": "She planned a beach-____.",
       "options": [
         "theme-mcq-16",
-        "theme-mcq-15",
-        "theme-mcq-17",
-        "theme-mcq-14",
-        "theme-mcq-18",
-        "theme-mcq-13"
+        "theme-mcq-21"
       ],
       "explanation": "本句的「themed party」指「以 X 作為主要設計概念的」。",
       "sentenceIndex": 35,
@@ -1359,12 +1123,8 @@ export default {
         "themed party"
       ],
       "optionReasons": {
-        "theme-mcq-16": "本句指「以 X 作為主要設計概念的」。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-13": "「網站或應用程式的整體視覺版型／佈景主題」與本句語境不同。"
+        "theme-mcq-16": "本句的「themed party」指「以 X 作為主要設計概念的」。",
+        "theme-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-16"
     },
@@ -1376,11 +1136,7 @@ export default {
       "masked": "The book uses a ____.",
       "options": [
         "theme-mcq-17",
-        "theme-mcq-16",
-        "theme-mcq-18",
-        "theme-mcq-15",
-        "theme-mcq-19",
-        "theme-mcq-14"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「thematic structure」指「與主題有關或按主題組織的」。",
       "sentenceIndex": 36,
@@ -1389,12 +1145,8 @@ export default {
         "thematic structure"
       ],
       "optionReasons": {
-        "theme-mcq-17": "本句指「與主題有關或按主題組織的」。",
-        "theme-mcq-16": "「以 X 作為主要設計概念的」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。"
+        "theme-mcq-17": "本句的「thematic structure」指「與主題有關或按主題組織的」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-17"
     },
@@ -1406,11 +1158,7 @@ export default {
       "masked": "There are strong ____ between the films.",
       "options": [
         "theme-mcq-17",
-        "theme-mcq-16",
-        "theme-mcq-18",
-        "theme-mcq-15",
-        "theme-mcq-19",
-        "theme-mcq-14"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「thematic similarities」指「與主題有關或按主題組織的」。",
       "sentenceIndex": 37,
@@ -1419,12 +1167,8 @@ export default {
         "thematic similarities"
       ],
       "optionReasons": {
-        "theme-mcq-17": "本句指「與主題有關或按主題組織的」。",
-        "theme-mcq-16": "「以 X 作為主要設計概念的」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-14": "「按某一核心概念設計或組織某事物」與本句語境不同。"
+        "theme-mcq-17": "本句的「thematic similarities」指「與主題有關或按主題組織的」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-17"
     },
@@ -1436,11 +1180,7 @@ export default {
       "masked": "The two stories are ____.",
       "options": [
         "theme-mcq-18",
-        "theme-mcq-17",
-        "theme-mcq-19",
-        "theme-mcq-16",
-        "theme-mcq-20",
-        "theme-mcq-15"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「thematically similar」指「從主題角度而言／在主題上」。",
       "sentenceIndex": 38,
@@ -1449,12 +1189,8 @@ export default {
         "thematically similar"
       ],
       "optionReasons": {
-        "theme-mcq-18": "本句指「從主題角度而言／在主題上」。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-16": "「以 X 作為主要設計概念的」與本句語境不同。",
-        "theme-mcq-20": "「作品或討論中最重要的中心主題」與本句語境不同。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。"
+        "theme-mcq-18": "本句的「thematically similar」指「從主題角度而言／在主題上」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-18"
     },
@@ -1466,11 +1202,7 @@ export default {
       "masked": "The final chapter connects ____ with the opening.",
       "options": [
         "theme-mcq-18",
-        "theme-mcq-17",
-        "theme-mcq-19",
-        "theme-mcq-16",
-        "theme-mcq-20",
-        "theme-mcq-15"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「thematically」指「從主題角度而言／在主題上」。",
       "sentenceIndex": 39,
@@ -1479,12 +1211,8 @@ export default {
         "thematically"
       ],
       "optionReasons": {
-        "theme-mcq-18": "本句指「從主題角度而言／在主題上」。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-16": "「以 X 作為主要設計概念的」與本句語境不同。",
-        "theme-mcq-20": "「作品或討論中最重要的中心主題」與本句語境不同。",
-        "theme-mcq-15": "「按某個特定主題設計、裝飾或安排的」與本句語境不同。"
+        "theme-mcq-18": "本句的「thematically」指「從主題角度而言／在主題上」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-18"
     },
@@ -1496,11 +1224,7 @@ export default {
       "masked": "Kindness is a ____ of the story.",
       "options": [
         "theme-mcq-20",
-        "theme-mcq-19",
-        "theme-mcq-21",
-        "theme-mcq-18",
-        "theme-mcq-22",
-        "theme-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「central theme」指「作品或討論中最重要的中心主題」。",
       "sentenceIndex": 42,
@@ -1509,12 +1233,8 @@ export default {
         "central theme"
       ],
       "optionReasons": {
-        "theme-mcq-20": "本句指「作品或討論中最重要的中心主題」。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-21": "「反覆出現的主題／思想」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-22": "「多個事物共有或反覆呈現的共同主題」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。"
+        "theme-mcq-20": "本句的「central theme」指「作品或討論中最重要的中心主題」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-20"
     },
@@ -1526,11 +1246,7 @@ export default {
       "masked": "The ____ is personal change.",
       "options": [
         "theme-mcq-20",
-        "theme-mcq-19",
-        "theme-mcq-21",
-        "theme-mcq-18",
-        "theme-mcq-22",
-        "theme-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「central theme」指「作品或討論中最重要的中心主題」。",
       "sentenceIndex": 43,
@@ -1539,12 +1255,8 @@ export default {
         "central theme"
       ],
       "optionReasons": {
-        "theme-mcq-20": "本句指「作品或討論中最重要的中心主題」。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-21": "「反覆出現的主題／思想」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-22": "「多個事物共有或反覆呈現的共同主題」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。"
+        "theme-mcq-20": "本句的「central theme」指「作品或討論中最重要的中心主題」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-20"
     },
@@ -1556,11 +1268,7 @@ export default {
       "masked": "Responsibility is a ____ in the novel.",
       "options": [
         "theme-mcq-21",
-        "theme-mcq-20",
-        "theme-mcq-22",
-        "theme-mcq-19",
-        "theme-mcq-18",
-        "theme-mcq-17"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「recurring theme」指「反覆出現的主題／思想」。",
       "sentenceIndex": 44,
@@ -1569,12 +1277,8 @@ export default {
         "recurring theme"
       ],
       "optionReasons": {
-        "theme-mcq-21": "本句指「反覆出現的主題／思想」。",
-        "theme-mcq-20": "「作品或討論中最重要的中心主題」與本句語境不同。",
-        "theme-mcq-22": "「多個事物共有或反覆呈現的共同主題」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。"
+        "theme-mcq-21": "本句的「recurring theme」指「反覆出現的主題／思想」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-21"
     },
@@ -1586,11 +1290,7 @@ export default {
       "masked": "One ____ in his speeches is education.",
       "options": [
         "theme-mcq-21",
-        "theme-mcq-20",
-        "theme-mcq-22",
-        "theme-mcq-19",
-        "theme-mcq-18",
-        "theme-mcq-17"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「recurring theme」指「反覆出現的主題／思想」。",
       "sentenceIndex": 45,
@@ -1599,12 +1299,8 @@ export default {
         "recurring theme"
       ],
       "optionReasons": {
-        "theme-mcq-21": "本句指「反覆出現的主題／思想」。",
-        "theme-mcq-20": "「作品或討論中最重要的中心主題」與本句語境不同。",
-        "theme-mcq-22": "「多個事物共有或反覆呈現的共同主題」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。"
+        "theme-mcq-21": "本句的「recurring theme」指「反覆出現的主題／思想」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-21"
     },
@@ -1616,11 +1312,7 @@ export default {
       "masked": "A ____ emerged from the interviews.",
       "options": [
         "theme-mcq-22",
-        "theme-mcq-21",
-        "theme-mcq-20",
-        "theme-mcq-19",
-        "theme-mcq-18",
-        "theme-mcq-17"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「common theme」指「多個事物共有或反覆呈現的共同主題」。",
       "sentenceIndex": 46,
@@ -1629,12 +1321,8 @@ export default {
         "common theme"
       ],
       "optionReasons": {
-        "theme-mcq-22": "本句指「多個事物共有或反覆呈現的共同主題」。",
-        "theme-mcq-21": "「反覆出現的主題／思想」與本句語境不同。",
-        "theme-mcq-20": "「作品或討論中最重要的中心主題」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。"
+        "theme-mcq-22": "本句的「common theme」指「多個事物共有或反覆呈現的共同主題」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-22"
     },
@@ -1646,11 +1334,7 @@ export default {
       "masked": "Loss is a ____ in these stories.",
       "options": [
         "theme-mcq-22",
-        "theme-mcq-21",
-        "theme-mcq-20",
-        "theme-mcq-19",
-        "theme-mcq-18",
-        "theme-mcq-17"
+        "theme-mcq-04"
       ],
       "explanation": "本句的「common theme」指「多個事物共有或反覆呈現的共同主題」。",
       "sentenceIndex": 47,
@@ -1659,12 +1343,8 @@ export default {
         "common theme"
       ],
       "optionReasons": {
-        "theme-mcq-22": "本句指「多個事物共有或反覆呈現的共同主題」。",
-        "theme-mcq-21": "「反覆出現的主題／思想」與本句語境不同。",
-        "theme-mcq-20": "「作品或討論中最重要的中心主題」與本句語境不同。",
-        "theme-mcq-19": "「某些語言學理論中句子訊息的主位／起點」與本句語境不同。",
-        "theme-mcq-18": "「從主題角度而言／在主題上」與本句語境不同。",
-        "theme-mcq-17": "「與主題有關或按主題組織的」與本句語境不同。"
+        "theme-mcq-22": "本句的「common theme」指「多個事物共有或反覆呈現的共同主題」。",
+        "theme-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "theme-mcq-22"
     }
@@ -1676,5 +1356,12 @@ export default {
     "sha256": "f128c593819057ecdd721238d15672dfe798afa0710af65e9d917bfdc83804ab",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

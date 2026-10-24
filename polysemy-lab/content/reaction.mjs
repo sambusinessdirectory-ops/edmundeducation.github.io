@@ -546,11 +546,7 @@ export default {
       "masked": "Her ____ told me I had chosen the right gift.",
       "options": [
         "reaction-mcq-01",
-        "reaction-mcq-02",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「反應」。",
       "sentenceIndex": 0,
@@ -559,12 +555,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-01": "本句指「反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-01": "本句的「reaction」指「反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-01"
     },
@@ -576,11 +568,7 @@ export default {
       "masked": "His ____ surprised everyone.",
       "options": [
         "reaction-mcq-01",
-        "reaction-mcq-02",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「反應」。",
       "sentenceIndex": 1,
@@ -589,12 +577,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-01": "本句指「反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-01": "本句的「reaction」指「反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-01"
     },
@@ -606,11 +590,7 @@ export default {
       "masked": "I watched her face to see her ____.",
       "options": [
         "reaction-mcq-01",
-        "reaction-mcq-02",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「反應」。",
       "sentenceIndex": 2,
@@ -619,12 +599,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-01": "本句指「反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-01": "本句的「reaction」指「反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-01"
     },
@@ -636,11 +612,7 @@ export default {
       "masked": "What was her ____?",
       "options": [
         "reaction-mcq-02",
-        "reaction-mcq-01",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction to the gift」指「對 X 的反應」。",
       "sentenceIndex": 3,
@@ -649,12 +621,8 @@ export default {
         "reaction to the gift"
       ],
       "optionReasons": {
-        "reaction-mcq-02": "本句指「對 X 的反應」。",
-        "reaction-mcq-01": "「反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-02": "本句的「reaction to the gift」指「對 X 的反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-02"
     },
@@ -666,11 +634,7 @@ export default {
       "masked": "His ____ was surprisingly calm.",
       "options": [
         "reaction-mcq-02",
-        "reaction-mcq-01",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction to the news」指「對 X 的反應」。",
       "sentenceIndex": 4,
@@ -679,12 +643,8 @@ export default {
         "reaction to the news"
       ],
       "optionReasons": {
-        "reaction-mcq-02": "本句指「對 X 的反應」。",
-        "reaction-mcq-01": "「反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-02": "本句的「reaction to the news」指「對 X 的反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-02"
     },
@@ -696,11 +656,7 @@ export default {
       "masked": "My ____ was to laugh.",
       "options": [
         "reaction-mcq-03",
-        "reaction-mcq-02",
-        "reaction-mcq-04",
-        "reaction-mcq-01",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「immediate reaction」指「即時／第一反應」。",
       "sentenceIndex": 5,
@@ -709,12 +665,8 @@ export default {
         "immediate reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-03": "本句指「即時／第一反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-01": "「反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-03": "本句的「immediate reaction」指「即時／第一反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-03"
     },
@@ -726,11 +678,7 @@ export default {
       "masked": "Her ____ was one of surprise.",
       "options": [
         "reaction-mcq-03",
-        "reaction-mcq-02",
-        "reaction-mcq-04",
-        "reaction-mcq-01",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「immediate reaction」指「即時／第一反應」。",
       "sentenceIndex": 6,
@@ -739,12 +687,8 @@ export default {
         "immediate reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-03": "本句指「即時／第一反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-01": "「反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-03": "本句的「immediate reaction」指「即時／第一反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-03"
     },
@@ -756,11 +700,7 @@ export default {
       "masked": "His ____ was negative.",
       "options": [
         "reaction-mcq-04",
-        "reaction-mcq-03",
-        "reaction-mcq-05",
-        "reaction-mcq-02",
-        "reaction-mcq-06",
-        "reaction-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「initial reaction」指「最初反應」。",
       "sentenceIndex": 7,
@@ -769,12 +709,8 @@ export default {
         "initial reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-04": "本句指「最初反應」。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-01": "「反應」與本句語境不同。"
+        "reaction-mcq-04": "本句的「initial reaction」指「最初反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-04"
     },
@@ -786,11 +722,7 @@ export default {
       "masked": "My ____ changed after I understood the reason.",
       "options": [
         "reaction-mcq-04",
-        "reaction-mcq-03",
-        "reaction-mcq-05",
-        "reaction-mcq-02",
-        "reaction-mcq-06",
-        "reaction-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「initial reaction」指「最初反應」。",
       "sentenceIndex": 8,
@@ -799,12 +731,8 @@ export default {
         "initial reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-04": "本句指「最初反應」。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-01": "「反應」與本句語境不同。"
+        "reaction-mcq-04": "本句的「initial reaction」指「最初反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-04"
     },
@@ -816,11 +744,7 @@ export default {
       "masked": "The decision caused a ____.",
       "options": [
         "reaction-mcq-05",
-        "reaction-mcq-04",
-        "reaction-mcq-06",
-        "reaction-mcq-03",
-        "reaction-mcq-07",
-        "reaction-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「strong reaction」指「強烈反應」。",
       "sentenceIndex": 9,
@@ -829,12 +753,8 @@ export default {
         "strong reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-05": "本句指「強烈反應」。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。"
+        "reaction-mcq-05": "本句的「strong reaction」指「強烈反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-05"
     },
@@ -846,11 +766,7 @@ export default {
       "masked": "She had a ____ to the photo.",
       "options": [
         "reaction-mcq-05",
-        "reaction-mcq-04",
-        "reaction-mcq-06",
-        "reaction-mcq-03",
-        "reaction-mcq-07",
-        "reaction-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「strong emotional reaction」指「強烈反應」。",
       "sentenceIndex": 10,
@@ -859,12 +775,8 @@ export default {
         "strong emotional reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-05": "本句指「強烈反應」。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。"
+        "reaction-mcq-05": "本句的「strong emotional reaction」指「強烈反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-05"
     },
@@ -876,11 +788,7 @@ export default {
       "masked": "The album produced a very ____.",
       "options": [
         "reaction-mcq-06",
-        "reaction-mcq-05",
-        "reaction-mcq-07",
-        "reaction-mcq-04",
-        "reaction-mcq-08",
-        "reaction-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「emotional reaction」指「情緒反應」。",
       "sentenceIndex": 11,
@@ -889,12 +797,8 @@ export default {
         "emotional reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-06": "本句指「情緒反應」。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。"
+        "reaction-mcq-06": "本句的「emotional reaction」指「情緒反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-06"
     },
@@ -906,11 +810,7 @@ export default {
       "masked": "His ____ was understandable.",
       "options": [
         "reaction-mcq-06",
-        "reaction-mcq-05",
-        "reaction-mcq-07",
-        "reaction-mcq-04",
-        "reaction-mcq-08",
-        "reaction-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「emotional reaction」指「情緒反應」。",
       "sentenceIndex": 12,
@@ -919,12 +819,8 @@ export default {
         "emotional reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-06": "本句指「情緒反應」。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。"
+        "reaction-mcq-06": "本句的「emotional reaction」指「情緒反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-06"
     },
@@ -936,11 +832,7 @@ export default {
       "masked": "She ____ to the idea.",
       "options": [
         "reaction-mcq-07",
-        "reaction-mcq-06",
-        "reaction-mcq-08",
-        "reaction-mcq-05",
-        "reaction-mcq-09",
-        "reaction-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「had a positive reaction」指「出現反應」。",
       "sentenceIndex": 13,
@@ -949,12 +841,8 @@ export default {
         "had a positive reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-07": "本句指「出現反應」。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。"
+        "reaction-mcq-07": "本句的「had a positive reaction」指「出現反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-07"
     },
@@ -966,11 +854,7 @@ export default {
       "masked": "He ____ at all.",
       "options": [
         "reaction-mcq-07",
-        "reaction-mcq-06",
-        "reaction-mcq-08",
-        "reaction-mcq-05",
-        "reaction-mcq-09",
-        "reaction-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「had no reaction」指「出現反應」。",
       "sentenceIndex": 14,
@@ -979,12 +863,8 @@ export default {
         "had no reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-07": "本句指「出現反應」。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。"
+        "reaction-mcq-07": "本句的「had no reaction」指「出現反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-07"
     },
@@ -996,11 +876,7 @@ export default {
       "masked": "The joke finally ____ from the audience.",
       "options": [
         "reaction-mcq-08",
-        "reaction-mcq-07",
-        "reaction-mcq-09",
-        "reaction-mcq-06",
-        "reaction-mcq-10",
-        "reaction-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「got a reaction」指「引起反應」。",
       "sentenceIndex": 15,
@@ -1009,12 +885,8 @@ export default {
         "got a reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-08": "本句指「引起反應」。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。"
+        "reaction-mcq-08": "本句的「got a reaction」指「引起反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-08"
     },
@@ -1026,11 +898,7 @@ export default {
       "masked": "I showed her the photo to ____.",
       "options": [
         "reaction-mcq-08",
-        "reaction-mcq-07",
-        "reaction-mcq-09",
-        "reaction-mcq-06",
-        "reaction-mcq-10",
-        "reaction-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「get a reaction」指「引起反應」。",
       "sentenceIndex": 16,
@@ -1039,12 +907,8 @@ export default {
         "get a reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-08": "本句指「引起反應」。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。"
+        "reaction-mcq-08": "本句的「get a reaction」指「引起反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-08"
     },
@@ -1056,11 +920,7 @@ export default {
       "masked": "The announcement caused a mixed ____.",
       "options": [
         "reaction-mcq-09",
-        "reaction-mcq-08",
-        "reaction-mcq-10",
-        "reaction-mcq-07",
-        "reaction-mcq-11",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「public reaction」指「公眾反應」。",
       "sentenceIndex": 17,
@@ -1069,12 +929,8 @@ export default {
         "public reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-09": "本句指「公眾反應」。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-09": "本句的「public reaction」指「公眾反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-09"
     },
@@ -1086,11 +942,7 @@ export default {
       "masked": "The company monitored ____ closely.",
       "options": [
         "reaction-mcq-09",
-        "reaction-mcq-08",
-        "reaction-mcq-10",
-        "reaction-mcq-07",
-        "reaction-mcq-11",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「public reaction」指「公眾反應」。",
       "sentenceIndex": 18,
@@ -1099,12 +951,8 @@ export default {
         "public reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-09": "本句指「公眾反應」。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-09": "本句的「public reaction」指「公眾反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-09"
     },
@@ -1116,11 +964,7 @@ export default {
       "masked": "The ____ was immediate.",
       "options": [
         "reaction-mcq-10",
-        "reaction-mcq-09",
-        "reaction-mcq-11",
-        "reaction-mcq-08",
-        "reaction-mcq-12",
-        "reaction-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「market reaction」指「市場反應」。",
       "sentenceIndex": 19,
@@ -1129,12 +973,8 @@ export default {
         "market reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-10": "本句指「市場反應」。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。"
+        "reaction-mcq-10": "本句的「market reaction」指「市場反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-10"
     },
@@ -1146,11 +986,7 @@ export default {
       "masked": "Investors watched the ____ to the announcement.",
       "options": [
         "reaction-mcq-10",
-        "reaction-mcq-09",
-        "reaction-mcq-11",
-        "reaction-mcq-08",
-        "reaction-mcq-12",
-        "reaction-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「market reaction」指「市場反應」。",
       "sentenceIndex": 20,
@@ -1159,12 +995,8 @@ export default {
         "market reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-10": "本句指「市場反應」。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-07": "「出現反應」與本句語境不同。"
+        "reaction-mcq-10": "本句的「market reaction」指「市場反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-10"
     },
@@ -1176,11 +1008,7 @@ export default {
       "masked": "She had a bad ____ to the medicine.",
       "options": [
         "reaction-mcq-11",
-        "reaction-mcq-10",
-        "reaction-mcq-12",
-        "reaction-mcq-09",
-        "reaction-mcq-13",
-        "reaction-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「身體反應」。",
       "sentenceIndex": 21,
@@ -1189,12 +1017,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-11": "本句指「身體反應」。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。"
+        "reaction-mcq-11": "本句的「reaction」指「身體反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-11"
     },
@@ -1206,11 +1030,7 @@ export default {
       "masked": "Stop using the product if you develop a skin ____.",
       "options": [
         "reaction-mcq-11",
-        "reaction-mcq-10",
-        "reaction-mcq-12",
-        "reaction-mcq-09",
-        "reaction-mcq-13",
-        "reaction-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「身體反應」。",
       "sentenceIndex": 22,
@@ -1219,12 +1039,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-11": "本句指「身體反應」。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-08": "「引起反應」與本句語境不同。"
+        "reaction-mcq-11": "本句的「reaction」指「身體反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-11"
     },
@@ -1236,11 +1052,7 @@ export default {
       "masked": "He had an ____ to peanuts.",
       "options": [
         "reaction-mcq-12",
-        "reaction-mcq-11",
-        "reaction-mcq-13",
-        "reaction-mcq-10",
-        "reaction-mcq-14",
-        "reaction-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「allergic reaction」指「過敏反應」。",
       "sentenceIndex": 23,
@@ -1249,12 +1061,8 @@ export default {
         "allergic reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-12": "本句指「過敏反應」。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。"
+        "reaction-mcq-12": "本句的「allergic reaction」指「過敏反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-12"
     },
@@ -1266,11 +1074,7 @@ export default {
       "masked": "The cream caused a mild ____.",
       "options": [
         "reaction-mcq-12",
-        "reaction-mcq-11",
-        "reaction-mcq-13",
-        "reaction-mcq-10",
-        "reaction-mcq-14",
-        "reaction-mcq-09"
+        "contrast-purchase"
       ],
       "explanation": "本句的「allergic reaction」指「過敏反應」。",
       "sentenceIndex": 24,
@@ -1279,12 +1083,8 @@ export default {
         "allergic reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-12": "本句指「過敏反應」。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-09": "「公眾反應」與本句語境不同。"
+        "reaction-mcq-12": "本句的「allergic reaction」指「過敏反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-12"
     },
@@ -1296,11 +1096,7 @@ export default {
       "masked": "Some patients experience an ____.",
       "options": [
         "reaction-mcq-13",
-        "reaction-mcq-12",
-        "reaction-mcq-14",
-        "reaction-mcq-11",
-        "reaction-mcq-15",
-        "reaction-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adverse reaction」指「不良反應」。",
       "sentenceIndex": 25,
@@ -1309,12 +1105,8 @@ export default {
         "adverse reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-13": "本句指「不良反應」。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。"
+        "reaction-mcq-13": "本句的「adverse reaction」指「不良反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-13"
     },
@@ -1326,11 +1118,7 @@ export default {
       "masked": "The drug was withdrawn after reports of serious ____.",
       "options": [
         "reaction-mcq-13",
-        "reaction-mcq-12",
-        "reaction-mcq-14",
-        "reaction-mcq-11",
-        "reaction-mcq-15",
-        "reaction-mcq-10"
+        "contrast-purchase"
       ],
       "explanation": "本句的「adverse reactions」指「不良反應」。",
       "sentenceIndex": 26,
@@ -1339,12 +1127,8 @@ export default {
         "adverse reactions"
       ],
       "optionReasons": {
-        "reaction-mcq-13": "本句指「不良反應」。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-10": "「市場反應」與本句語境不同。"
+        "reaction-mcq-13": "本句的「adverse reactions」指「不良反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-13"
     },
@@ -1356,11 +1140,7 @@ export default {
       "masked": "Mixing the two substances caused a chemical ____.",
       "options": [
         "reaction-mcq-14",
-        "reaction-mcq-13",
-        "reaction-mcq-15",
-        "reaction-mcq-12",
-        "reaction-mcq-16",
-        "reaction-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「化學反應」。",
       "sentenceIndex": 27,
@@ -1369,12 +1149,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-14": "本句指「化學反應」。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。"
+        "reaction-mcq-14": "本句的「reaction」指「化學反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-14"
     },
@@ -1386,11 +1162,7 @@ export default {
       "masked": "The ____ released heat.",
       "options": [
         "reaction-mcq-14",
-        "reaction-mcq-13",
-        "reaction-mcq-15",
-        "reaction-mcq-12",
-        "reaction-mcq-16",
-        "reaction-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「化學反應」。",
       "sentenceIndex": 28,
@@ -1399,12 +1171,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-14": "本句指「化學反應」。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。"
+        "reaction-mcq-14": "本句的「reaction」指「化學反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-14"
     },
@@ -1416,11 +1184,7 @@ export default {
       "masked": "Rusting is a chemical ____.",
       "options": [
         "reaction-mcq-14",
-        "reaction-mcq-13",
-        "reaction-mcq-15",
-        "reaction-mcq-12",
-        "reaction-mcq-16",
-        "reaction-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「化學反應」。",
       "sentenceIndex": 29,
@@ -1429,12 +1193,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-14": "本句指「化學反應」。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。"
+        "reaction-mcq-14": "本句的「reaction」指「化學反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-14"
     },
@@ -1446,11 +1206,7 @@ export default {
       "masked": "The experiment produced a visible chemical ____.",
       "options": [
         "reaction-mcq-14",
-        "reaction-mcq-13",
-        "reaction-mcq-15",
-        "reaction-mcq-12",
-        "reaction-mcq-16",
-        "reaction-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「化學反應」。",
       "sentenceIndex": 30,
@@ -1459,12 +1215,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-14": "本句指「化學反應」。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-11": "「身體反應」與本句語境不同。"
+        "reaction-mcq-14": "本句的「reaction」指「化學反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-14"
     },
@@ -1476,11 +1228,7 @@ export default {
       "masked": "One event started a ____.",
       "options": [
         "reaction-mcq-15",
-        "reaction-mcq-14",
-        "reaction-mcq-16",
-        "reaction-mcq-13",
-        "reaction-mcq-17",
-        "reaction-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「chain reaction」指「連鎖反應」。",
       "sentenceIndex": 31,
@@ -1489,12 +1237,8 @@ export default {
         "chain reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-15": "本句指「連鎖反應」。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。"
+        "reaction-mcq-15": "本句的「chain reaction」指「連鎖反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-15"
     },
@@ -1506,11 +1250,7 @@ export default {
       "masked": "The failure caused a ____ across the system.",
       "options": [
         "reaction-mcq-15",
-        "reaction-mcq-14",
-        "reaction-mcq-16",
-        "reaction-mcq-13",
-        "reaction-mcq-17",
-        "reaction-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「chain reaction」指「連鎖反應」。",
       "sentenceIndex": 32,
@@ -1519,12 +1259,8 @@ export default {
         "chain reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-15": "本句指「連鎖反應」。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-12": "「過敏反應」與本句語境不同。"
+        "reaction-mcq-15": "本句的「chain reaction」指「連鎖反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-15"
     },
@@ -1536,11 +1272,7 @@ export default {
       "masked": "Drivers need fast ____.",
       "options": [
         "reaction-mcq-16",
-        "reaction-mcq-15",
-        "reaction-mcq-17",
-        "reaction-mcq-14",
-        "reaction-mcq-18",
-        "reaction-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction times」指「反應時間」。",
       "sentenceIndex": 33,
@@ -1549,12 +1281,8 @@ export default {
         "reaction times"
       ],
       "optionReasons": {
-        "reaction-mcq-16": "本句指「反應時間」。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。"
+        "reaction-mcq-16": "本句的「reaction times」指「反應時間」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-16"
     },
@@ -1566,11 +1294,7 @@ export default {
       "masked": "Fatigue can slow your ____.",
       "options": [
         "reaction-mcq-16",
-        "reaction-mcq-15",
-        "reaction-mcq-17",
-        "reaction-mcq-14",
-        "reaction-mcq-18",
-        "reaction-mcq-13"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction time」指「反應時間」。",
       "sentenceIndex": 34,
@@ -1579,12 +1303,8 @@ export default {
         "reaction time"
       ],
       "optionReasons": {
-        "reaction-mcq-16": "本句指「反應時間」。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-13": "「不良反應」與本句語境不同。"
+        "reaction-mcq-16": "本句的「reaction time」指「反應時間」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-16"
     },
@@ -1596,11 +1316,7 @@ export default {
       "masked": "The change produced an unexpected ____.",
       "options": [
         "reaction-mcq-01",
-        "reaction-mcq-02",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「反應」。",
       "sentenceIndex": 35,
@@ -1609,12 +1325,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-01": "本句指「反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-01": "本句的「reaction」指「反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-01"
     },
@@ -1626,11 +1338,7 @@ export default {
       "masked": "Strict rules sometimes create an opposite ____.",
       "options": [
         "reaction-mcq-01",
-        "reaction-mcq-02",
-        "reaction-mcq-03",
-        "reaction-mcq-04",
-        "reaction-mcq-05",
-        "reaction-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「反應」。",
       "sentenceIndex": 36,
@@ -1639,12 +1347,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "reaction-mcq-01": "本句指「反應」。",
-        "reaction-mcq-02": "「對 X 的反應」與本句語境不同。",
-        "reaction-mcq-03": "「即時／第一反應」與本句語境不同。",
-        "reaction-mcq-04": "「最初反應」與本句語境不同。",
-        "reaction-mcq-05": "「強烈反應」與本句語境不同。",
-        "reaction-mcq-06": "「情緒反應」與本句語境不同。"
+        "reaction-mcq-01": "本句的「reaction」指「反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-01"
     },
@@ -1656,11 +1360,7 @@ export default {
       "masked": "How did she ____?",
       "options": [
         "reaction-mcq-17",
-        "reaction-mcq-16",
-        "reaction-mcq-18",
-        "reaction-mcq-15",
-        "reaction-mcq-19",
-        "reaction-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「react to the gift」指「對 X 作反應」。",
       "sentenceIndex": 37,
@@ -1669,12 +1369,8 @@ export default {
         "react to the gift"
       ],
       "optionReasons": {
-        "reaction-mcq-17": "本句指「對 X 作反應」。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。"
+        "reaction-mcq-17": "本句的「react to the gift」指「對 X 作反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-17"
     },
@@ -1686,11 +1382,7 @@ export default {
       "masked": "He ____ to the news.",
       "options": [
         "reaction-mcq-17",
-        "reaction-mcq-16",
-        "reaction-mcq-18",
-        "reaction-mcq-15",
-        "reaction-mcq-19",
-        "reaction-mcq-14"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reacted calmly」指「對 X 作反應」。",
       "sentenceIndex": 38,
@@ -1699,12 +1391,8 @@ export default {
         "reacted calmly"
       ],
       "optionReasons": {
-        "reaction-mcq-17": "本句指「對 X 作反應」。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-14": "「化學反應」與本句語境不同。"
+        "reaction-mcq-17": "本句的「reacted calmly」指「對 X 作反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-17"
     },
@@ -1716,11 +1404,7 @@ export default {
       "masked": "She ____ to the criticism.",
       "options": [
         "reaction-mcq-18",
-        "reaction-mcq-17",
-        "reaction-mcq-19",
-        "reaction-mcq-16",
-        "reaction-mcq-20",
-        "reaction-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reacted strongly」指「強烈／不良反應」。",
       "sentenceIndex": 39,
@@ -1729,12 +1413,8 @@ export default {
         "reacted strongly"
       ],
       "optionReasons": {
-        "reaction-mcq-18": "本句指「強烈／不良反應」。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。"
+        "reaction-mcq-18": "本句的「reacted strongly」指「強烈／不良反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-18"
     },
@@ -1746,11 +1426,7 @@ export default {
       "masked": "His skin ____ to the cream.",
       "options": [
         "reaction-mcq-18",
-        "reaction-mcq-17",
-        "reaction-mcq-19",
-        "reaction-mcq-16",
-        "reaction-mcq-20",
-        "reaction-mcq-15"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reacted badly」指「強烈／不良反應」。",
       "sentenceIndex": 40,
@@ -1759,12 +1435,8 @@ export default {
         "reacted badly"
       ],
       "optionReasons": {
-        "reaction-mcq-18": "本句指「強烈／不良反應」。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-15": "「連鎖反應」與本句語境不同。"
+        "reaction-mcq-18": "本句的「reacted badly」指「強烈／不良反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-18"
     },
@@ -1776,11 +1448,7 @@ export default {
       "masked": "I think you're ____.",
       "options": [
         "reaction-mcq-19",
-        "reaction-mcq-18",
-        "reaction-mcq-20",
-        "reaction-mcq-17",
-        "reaction-mcq-21",
-        "reaction-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「overreacting」指「反應過度」。",
       "sentenceIndex": 41,
@@ -1789,12 +1457,8 @@ export default {
         "overreacting"
       ],
       "optionReasons": {
-        "reaction-mcq-19": "本句指「反應過度」。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。"
+        "reaction-mcq-19": "本句的「overreacting」指「反應過度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-19"
     },
@@ -1806,11 +1470,7 @@ export default {
       "masked": "He ____ to a small mistake.",
       "options": [
         "reaction-mcq-19",
-        "reaction-mcq-18",
-        "reaction-mcq-20",
-        "reaction-mcq-17",
-        "reaction-mcq-21",
-        "reaction-mcq-16"
+        "contrast-purchase"
       ],
       "explanation": "本句的「overreacted」指「反應過度」。",
       "sentenceIndex": 42,
@@ -1819,12 +1479,8 @@ export default {
         "overreacted"
       ],
       "optionReasons": {
-        "reaction-mcq-19": "本句指「反應過度」。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-16": "「反應時間」與本句語境不同。"
+        "reaction-mcq-19": "本句的「overreacted」指「反應過度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-19"
     },
@@ -1836,11 +1492,7 @@ export default {
       "masked": "The company ____ to the warning signs.",
       "options": [
         "reaction-mcq-20",
-        "reaction-mcq-19",
-        "reaction-mcq-21",
-        "reaction-mcq-18",
-        "reaction-mcq-22",
-        "reaction-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「underreacted」指「反應不足」。",
       "sentenceIndex": 43,
@@ -1849,12 +1501,8 @@ export default {
         "underreacted"
       ],
       "optionReasons": {
-        "reaction-mcq-20": "本句指「反應不足」。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-22": "「被動應對的」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。"
+        "reaction-mcq-20": "本句的「underreacted」指「反應不足」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-20"
     },
@@ -1866,11 +1514,7 @@ export default {
       "masked": "It's possible to ____ as well as overreact.",
       "options": [
         "reaction-mcq-20",
-        "reaction-mcq-19",
-        "reaction-mcq-21",
-        "reaction-mcq-18",
-        "reaction-mcq-22",
-        "reaction-mcq-17"
+        "contrast-purchase"
       ],
       "explanation": "本句的「underreact」指「反應不足」。",
       "sentenceIndex": 44,
@@ -1879,12 +1523,8 @@ export default {
         "underreact"
       ],
       "optionReasons": {
-        "reaction-mcq-20": "本句指「反應不足」。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。",
-        "reaction-mcq-22": "「被動應對的」與本句語境不同。",
-        "reaction-mcq-17": "「對 X 作反應」與本句語境不同。"
+        "reaction-mcq-20": "本句的「underreact」指「反應不足」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-20"
     },
@@ -1896,11 +1536,7 @@ export default {
       "masked": "This metal is highly ____.",
       "options": [
         "reaction-mcq-21",
-        "reaction-mcq-20",
-        "reaction-mcq-22",
-        "reaction-mcq-19",
-        "reaction-mcq-23",
-        "reaction-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactive」指「反應性高的」。",
       "sentenceIndex": 45,
@@ -1909,12 +1545,8 @@ export default {
         "reactive"
       ],
       "optionReasons": {
-        "reaction-mcq-21": "本句指「反應性高的」。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-22": "「被動應對的」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-23": "「反應性；活性」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。"
+        "reaction-mcq-21": "本句的「reactive」指「反應性高的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-21"
     },
@@ -1926,11 +1558,7 @@ export default {
       "masked": "The substance becomes more ____ when heated.",
       "options": [
         "reaction-mcq-21",
-        "reaction-mcq-20",
-        "reaction-mcq-22",
-        "reaction-mcq-19",
-        "reaction-mcq-23",
-        "reaction-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactive」指「反應性高的」。",
       "sentenceIndex": 46,
@@ -1939,12 +1567,8 @@ export default {
         "reactive"
       ],
       "optionReasons": {
-        "reaction-mcq-21": "本句指「反應性高的」。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-22": "「被動應對的」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-23": "「反應性；活性」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。"
+        "reaction-mcq-21": "本句的「reactive」指「反應性高的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-21"
     },
@@ -1956,11 +1580,7 @@ export default {
       "masked": "The team was too ____ and rarely planned ahead.",
       "options": [
         "reaction-mcq-22",
-        "reaction-mcq-21",
-        "reaction-mcq-23",
-        "reaction-mcq-20",
-        "reaction-mcq-19",
-        "reaction-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactive」指「被動應對的」。",
       "sentenceIndex": 47,
@@ -1969,12 +1589,8 @@ export default {
         "reactive"
       ],
       "optionReasons": {
-        "reaction-mcq-22": "本句指「被動應對的」。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-23": "「反應性；活性」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。"
+        "reaction-mcq-22": "本句的「reactive」指「被動應對的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-22"
     },
@@ -1986,11 +1602,7 @@ export default {
       "masked": "We need a proactive rather than ____ approach.",
       "options": [
         "reaction-mcq-22",
-        "reaction-mcq-21",
-        "reaction-mcq-23",
-        "reaction-mcq-20",
-        "reaction-mcq-19",
-        "reaction-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactive」指「被動應對的」。",
       "sentenceIndex": 48,
@@ -1999,12 +1611,8 @@ export default {
         "reactive"
       ],
       "optionReasons": {
-        "reaction-mcq-22": "本句指「被動應對的」。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-23": "「反應性；活性」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。"
+        "reaction-mcq-22": "本句的「reactive」指「被動應對的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-22"
     },
@@ -2016,11 +1624,7 @@ export default {
       "masked": "Scientists measured the chemical ____ of the material.",
       "options": [
         "reaction-mcq-23",
-        "reaction-mcq-22",
-        "reaction-mcq-21",
-        "reaction-mcq-20",
-        "reaction-mcq-19",
-        "reaction-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactivity」指「反應性；活性」。",
       "sentenceIndex": 49,
@@ -2029,12 +1633,8 @@ export default {
         "reactivity"
       ],
       "optionReasons": {
-        "reaction-mcq-23": "本句指「反應性；活性」。",
-        "reaction-mcq-22": "「被動應對的」與本句語境不同。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。"
+        "reaction-mcq-23": "本句的「reactivity」指「反應性；活性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-23"
     },
@@ -2046,11 +1646,7 @@ export default {
       "masked": "Stress can increase emotional ____.",
       "options": [
         "reaction-mcq-23",
-        "reaction-mcq-22",
-        "reaction-mcq-21",
-        "reaction-mcq-20",
-        "reaction-mcq-19",
-        "reaction-mcq-18"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactivity」指「反應性；活性」。",
       "sentenceIndex": 50,
@@ -2059,12 +1655,8 @@ export default {
         "reactivity"
       ],
       "optionReasons": {
-        "reaction-mcq-23": "本句指「反應性；活性」。",
-        "reaction-mcq-22": "「被動應對的」與本句語境不同。",
-        "reaction-mcq-21": "「反應性高的」與本句語境不同。",
-        "reaction-mcq-20": "「反應不足」與本句語境不同。",
-        "reaction-mcq-19": "「反應過度」與本句語境不同。",
-        "reaction-mcq-18": "「強烈／不良反應」與本句語境不同。"
+        "reaction-mcq-23": "本句的「reactivity」指「反應性；活性」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reaction-mcq-23"
     }
@@ -2076,5 +1668,12 @@ export default {
     "sha256": "34e280bc6b06679f65ee12cfeebc55ccf17a011786d467340cd287a91fb5ca45",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

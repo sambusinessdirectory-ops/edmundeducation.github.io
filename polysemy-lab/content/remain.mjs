@@ -508,11 +508,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "remain-mcq-01",
-        "remain-mcq-02",
-        "remain-mcq-03",
-        "remain-mcq-04",
-        "remain-mcq-05",
-        "remain-mcq-06"
+        "remain-mcq-19",
+        "remain-mcq-17",
+        "remain-mcq-12"
       ],
       "explanation": "本句的「remain calm」指「繼續處於某種狀態；仍然／保持……」。",
       "sentenceIndex": 2,
@@ -521,12 +519,10 @@ export default {
         "remain calm"
       ],
       "optionReasons": {
-        "remain-mcq-01": "本句指「繼續處於某種狀態；仍然／保持……」。",
-        "remain-mcq-02": "「繼續不說話；保持沉默」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。"
+        "remain-mcq-01": "本句的「remain calm」指「繼續處於某種狀態；仍然／保持……」。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-01"
     },
@@ -538,11 +534,9 @@ export default {
       "masked": "The door ____.",
       "options": [
         "remain-mcq-01",
-        "remain-mcq-02",
-        "remain-mcq-03",
-        "remain-mcq-04",
-        "remain-mcq-05",
-        "remain-mcq-06"
+        "remain-mcq-19",
+        "remain-mcq-17",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remained open」指「繼續處於某種狀態；仍然／保持……」。",
       "sentenceIndex": 3,
@@ -551,12 +545,10 @@ export default {
         "remained open"
       ],
       "optionReasons": {
-        "remain-mcq-01": "本句指「繼續處於某種狀態；仍然／保持……」。",
-        "remain-mcq-02": "「繼續不說話；保持沉默」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。"
+        "remain-mcq-01": "本句的「remained open」指「繼續處於某種狀態；仍然／保持……」。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-01"
     },
@@ -568,11 +560,9 @@ export default {
       "masked": "He chose to ____.",
       "options": [
         "remain-mcq-02",
-        "remain-mcq-01",
-        "remain-mcq-03",
-        "remain-mcq-04",
+        "remain-mcq-17",
         "remain-mcq-05",
-        "remain-mcq-06"
+        "remain-mcq-20"
       ],
       "explanation": "本句的「remain silent」指「繼續不說話；保持沉默」。",
       "sentenceIndex": 4,
@@ -581,12 +571,10 @@ export default {
         "remain silent"
       ],
       "optionReasons": {
-        "remain-mcq-02": "本句指「繼續不說話；保持沉默」。",
-        "remain-mcq-01": "「繼續處於某種狀態；仍然／保持……」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。"
+        "remain-mcq-02": "本句的「remain silent」指「繼續不說話；保持沉默」。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-02"
     },
@@ -598,11 +586,9 @@ export default {
       "masked": "She ____ throughout the discussion.",
       "options": [
         "remain-mcq-02",
-        "remain-mcq-01",
-        "remain-mcq-03",
-        "remain-mcq-04",
         "remain-mcq-05",
-        "remain-mcq-06"
+        "remain-mcq-19",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remained silent」指「繼續不說話；保持沉默」。",
       "sentenceIndex": 5,
@@ -611,12 +597,10 @@ export default {
         "remained silent"
       ],
       "optionReasons": {
-        "remain-mcq-02": "本句指「繼續不說話；保持沉默」。",
-        "remain-mcq-01": "「繼續處於某種狀態；仍然／保持……」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。"
+        "remain-mcq-02": "本句的「remained silent」指「繼續不說話；保持沉默」。",
+        "remain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-02"
     },
@@ -628,11 +612,9 @@ export default {
       "masked": "The rules ____.",
       "options": [
         "remain-mcq-04",
-        "remain-mcq-03",
-        "remain-mcq-05",
-        "remain-mcq-02",
-        "remain-mcq-06",
-        "remain-mcq-01"
+        "remain-mcq-11",
+        "remain-mcq-20",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remain unchanged」指「保持不變」。",
       "sentenceIndex": 6,
@@ -641,12 +623,10 @@ export default {
         "remain unchanged"
       ],
       "optionReasons": {
-        "remain-mcq-04": "本句指「保持不變」。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-02": "「繼續不說話；保持沉默」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-01": "「繼續處於某種狀態；仍然／保持……」與本句語境不同。"
+        "remain-mcq-04": "本句的「remain unchanged」指「保持不變」。",
+        "remain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-04"
     },
@@ -658,11 +638,9 @@ export default {
       "masked": "His opinion ____.",
       "options": [
         "remain-mcq-04",
-        "remain-mcq-03",
-        "remain-mcq-05",
-        "remain-mcq-02",
-        "remain-mcq-06",
-        "remain-mcq-01"
+        "remain-mcq-19",
+        "remain-mcq-17",
+        "remain-mcq-13"
       ],
       "explanation": "本句的「remained unchanged」指「保持不變」。",
       "sentenceIndex": 7,
@@ -671,12 +649,10 @@ export default {
         "remained unchanged"
       ],
       "optionReasons": {
-        "remain-mcq-04": "本句指「保持不變」。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-02": "「繼續不說話；保持沉默」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-01": "「繼續處於某種狀態；仍然／保持……」與本句語境不同。"
+        "remain-mcq-04": "本句的「remained unchanged」指「保持不變」。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-04"
     },
@@ -688,11 +664,9 @@ export default {
       "masked": "The cause ____.",
       "options": [
         "remain-mcq-05",
-        "remain-mcq-04",
-        "remain-mcq-06",
-        "remain-mcq-03",
-        "remain-mcq-07",
-        "remain-mcq-02"
+        "remain-mcq-02",
+        "remain-mcq-17",
+        "remain-mcq-20"
       ],
       "explanation": "本句的「remains unclear」指「仍然不清楚／未知」。",
       "sentenceIndex": 8,
@@ -701,12 +675,10 @@ export default {
         "remains unclear"
       ],
       "optionReasons": {
-        "remain-mcq-05": "本句指「仍然不清楚／未知」。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。",
-        "remain-mcq-02": "「繼續不說話；保持沉默」與本句語境不同。"
+        "remain-mcq-05": "本句的「remains unclear」指「仍然不清楚／未知」。",
+        "remain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-05"
     },
@@ -718,11 +690,9 @@ export default {
       "masked": "His reasons ____.",
       "options": [
         "remain-mcq-05",
-        "remain-mcq-04",
+        "remain-mcq-19",
         "remain-mcq-06",
-        "remain-mcq-03",
-        "remain-mcq-07",
-        "remain-mcq-02"
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remain unknown」指「仍然不清楚／未知」。",
       "sentenceIndex": 9,
@@ -731,12 +701,10 @@ export default {
         "remain unknown"
       ],
       "optionReasons": {
-        "remain-mcq-05": "本句指「仍然不清楚／未知」。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。",
-        "remain-mcq-02": "「繼續不說話；保持沉默」與本句語境不同。"
+        "remain-mcq-05": "本句的「remain unknown」指「仍然不清楚／未知」。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-05"
     },
@@ -748,11 +716,9 @@ export default {
       "masked": "She ____ after the lesson.",
       "options": [
         "remain-mcq-06",
-        "remain-mcq-05",
-        "remain-mcq-07",
-        "remain-mcq-04",
-        "remain-mcq-08",
-        "remain-mcq-03"
+        "remain-mcq-20",
+        "remain-mcq-17",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remained in the classroom」指「不離開某處；留下／繼續待在」。",
       "sentenceIndex": 10,
@@ -761,12 +727,10 @@ export default {
         "remained in the classroom"
       ],
       "optionReasons": {
-        "remain-mcq-06": "本句指「不離開某處；留下／繼續待在」。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。"
+        "remain-mcq-06": "本句的「remained in the classroom」指「不離開某處；留下／繼續待在」。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-06"
     },
@@ -779,10 +743,8 @@ export default {
       "options": [
         "remain-mcq-06",
         "remain-mcq-05",
-        "remain-mcq-07",
-        "remain-mcq-04",
-        "remain-mcq-08",
-        "remain-mcq-03"
+        "remain-mcq-19",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remain here」指「不離開某處；留下／繼續待在」。",
       "sentenceIndex": 11,
@@ -791,12 +753,10 @@ export default {
         "remain here"
       ],
       "optionReasons": {
-        "remain-mcq-06": "本句指「不離開某處；留下／繼續待在」。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-03": "「繼續保持冷靜」與本句語境不同。"
+        "remain-mcq-06": "本句的「remain here」指「不離開某處；留下／繼續待在」。",
+        "remain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-06"
     },
@@ -808,11 +768,9 @@ export default {
       "masked": "He ____ all day.",
       "options": [
         "remain-mcq-07",
-        "remain-mcq-06",
-        "remain-mcq-08",
-        "remain-mcq-05",
-        "remain-mcq-09",
-        "remain-mcq-04"
+        "remain-mcq-17",
+        "remain-mcq-12",
+        "remain-mcq-11"
       ],
       "explanation": "本句的「remained at home」指「留在某地／某人身邊」。",
       "sentenceIndex": 12,
@@ -821,12 +779,10 @@ export default {
         "remained at home"
       ],
       "optionReasons": {
-        "remain-mcq-07": "本句指「留在某地／某人身邊」。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。"
+        "remain-mcq-07": "本句的「remained at home」指「留在某地／某人身邊」。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-07"
     },
@@ -838,11 +794,9 @@ export default {
       "masked": "Two staff members ____.",
       "options": [
         "remain-mcq-07",
-        "remain-mcq-06",
-        "remain-mcq-08",
-        "remain-mcq-05",
-        "remain-mcq-09",
-        "remain-mcq-04"
+        "remain-mcq-20",
+        "remain-mcq-12",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remained with the child」指「留在某地／某人身邊」。",
       "sentenceIndex": 13,
@@ -851,12 +805,10 @@ export default {
         "remained with the child"
       ],
       "optionReasons": {
-        "remain-mcq-07": "本句指「留在某地／某人身邊」。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-04": "「保持不變」與本句語境不同。"
+        "remain-mcq-07": "本句的「remained with the child」指「留在某地／某人身邊」。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-07"
     },
@@ -868,11 +820,9 @@ export default {
       "masked": "Only a few old buildings ____.",
       "options": [
         "remain-mcq-08",
-        "remain-mcq-07",
-        "remain-mcq-09",
-        "remain-mcq-06",
         "remain-mcq-10",
-        "remain-mcq-05"
+        "remain-mcq-17",
+        "remain-mcq-12"
       ],
       "explanation": "本句的「remain」指「經過一段時間後仍然存在／保留下來」。",
       "sentenceIndex": 14,
@@ -881,12 +831,10 @@ export default {
         "remain"
       ],
       "optionReasons": {
-        "remain-mcq-08": "本句指「經過一段時間後仍然存在／保留下來」。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。"
+        "remain-mcq-08": "本句的「remain」指「經過一段時間後仍然存在／保留下來」。",
+        "remain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-08"
     },
@@ -898,11 +846,9 @@ export default {
       "masked": "The tradition ____ today.",
       "options": [
         "remain-mcq-08",
-        "remain-mcq-07",
-        "remain-mcq-09",
-        "remain-mcq-06",
         "remain-mcq-10",
-        "remain-mcq-05"
+        "remain-mcq-17",
+        "remain-mcq-13"
       ],
       "explanation": "本句的「remains」指「經過一段時間後仍然存在／保留下來」。",
       "sentenceIndex": 15,
@@ -911,12 +857,10 @@ export default {
         "remains"
       ],
       "optionReasons": {
-        "remain-mcq-08": "本句指「經過一段時間後仍然存在／保留下來」。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-06": "「不離開某處；留下／繼續待在」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。",
-        "remain-mcq-05": "「仍然不清楚／未知」與本句語境不同。"
+        "remain-mcq-08": "本句的「remains」指「經過一段時間後仍然存在／保留下來」。",
+        "remain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-08"
     },
@@ -928,11 +872,9 @@ export default {
       "masked": "We used the ____ to revise.",
       "options": [
         "remain-mcq-10",
-        "remain-mcq-09",
-        "remain-mcq-11",
-        "remain-mcq-08",
-        "remain-mcq-12",
-        "remain-mcq-07"
+        "remain-mcq-07",
+        "remain-mcq-13",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remaining time」指「尚未用完、離開或完成的；剩餘／餘下的」。",
       "sentenceIndex": 20,
@@ -941,12 +883,10 @@ export default {
         "remaining time"
       ],
       "optionReasons": {
-        "remain-mcq-10": "本句指「尚未用完、離開或完成的；剩餘／餘下的」。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。"
+        "remain-mcq-10": "本句的「remaining time」指「尚未用完、離開或完成的；剩餘／餘下的」。",
+        "remain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-10"
     },
@@ -958,11 +898,9 @@ export default {
       "masked": "The ____ left after lunch.",
       "options": [
         "remain-mcq-10",
-        "remain-mcq-09",
-        "remain-mcq-11",
-        "remain-mcq-08",
-        "remain-mcq-12",
-        "remain-mcq-07"
+        "remain-mcq-01",
+        "remain-mcq-17",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remaining students」指「尚未用完、離開或完成的；剩餘／餘下的」。",
       "sentenceIndex": 21,
@@ -971,12 +909,10 @@ export default {
         "remaining students"
       ],
       "optionReasons": {
-        "remain-mcq-10": "本句指「尚未用完、離開或完成的；剩餘／餘下的」。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。"
+        "remain-mcq-10": "本句的「remaining students」指「尚未用完、離開或完成的；剩餘／餘下的」。",
+        "remain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-10"
     },
@@ -988,11 +924,9 @@ export default {
       "masked": "Much work ____.",
       "options": [
         "remain-mcq-11",
-        "remain-mcq-10",
-        "remain-mcq-12",
-        "remain-mcq-09",
-        "remain-mcq-13",
-        "remain-mcq-08"
+        "remain-mcq-21",
+        "remain-mcq-17",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remains to be done」指「某工作仍然需要完成；有待完成」。",
       "sentenceIndex": 22,
@@ -1001,12 +935,10 @@ export default {
         "remains to be done"
       ],
       "optionReasons": {
-        "remain-mcq-11": "本句指「某工作仍然需要完成；有待完成」。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-13": "「結果目前還不知道；仍有待觀察」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。"
+        "remain-mcq-11": "本句的「remains to be done」指「某工作仍然需要完成；有待完成」。",
+        "remain-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-11"
     },
@@ -1018,11 +950,9 @@ export default {
       "masked": "Several issues ____.",
       "options": [
         "remain-mcq-11",
-        "remain-mcq-10",
-        "remain-mcq-12",
-        "remain-mcq-09",
-        "remain-mcq-13",
-        "remain-mcq-08"
+        "remain-mcq-20",
+        "remain-mcq-17",
+        "remain-mcq-07"
       ],
       "explanation": "本句的「remain to be resolved」指「某工作仍然需要完成；有待完成」。",
       "sentenceIndex": 23,
@@ -1031,12 +961,10 @@ export default {
         "remain to be resolved"
       ],
       "optionReasons": {
-        "remain-mcq-11": "本句指「某工作仍然需要完成；有待完成」。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-13": "「結果目前還不知道；仍有待觀察」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。"
+        "remain-mcq-11": "本句的「remain to be resolved」指「某工作仍然需要完成；有待完成」。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-11"
     },
@@ -1048,11 +976,9 @@ export default {
       "masked": "The problem ____.",
       "options": [
         "remain-mcq-12",
-        "remain-mcq-11",
-        "remain-mcq-13",
-        "remain-mcq-10",
-        "remain-mcq-14",
-        "remain-mcq-09"
+        "remain-mcq-25",
+        "remain-mcq-19",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remains unresolved」指「問題仍未解決／問題仍未得到回答」。",
       "sentenceIndex": 24,
@@ -1061,12 +987,10 @@ export default {
         "remains unresolved"
       ],
       "optionReasons": {
-        "remain-mcq-12": "本句指「問題仍未解決／問題仍未得到回答」。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-13": "「結果目前還不知道；仍有待觀察」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。"
+        "remain-mcq-12": "本句的「remains unresolved」指「問題仍未解決／問題仍未得到回答」。",
+        "remain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-12"
     },
@@ -1078,11 +1002,9 @@ export default {
       "masked": "Several questions ____.",
       "options": [
         "remain-mcq-12",
-        "remain-mcq-11",
-        "remain-mcq-13",
-        "remain-mcq-10",
-        "remain-mcq-14",
-        "remain-mcq-09"
+        "remain-mcq-19",
+        "remain-mcq-06",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remain unanswered」指「問題仍未解決／問題仍未得到回答」。",
       "sentenceIndex": 25,
@@ -1091,12 +1013,10 @@ export default {
         "remain unanswered"
       ],
       "optionReasons": {
-        "remain-mcq-12": "本句指「問題仍未解決／問題仍未得到回答」。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-13": "「結果目前還不知道；仍有待觀察」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。"
+        "remain-mcq-12": "本句的「remain unanswered」指「問題仍未解決／問題仍未得到回答」。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-12"
     },
@@ -1108,11 +1028,9 @@ export default {
       "masked": "Whether the plan will work ____.",
       "options": [
         "remain-mcq-13",
-        "remain-mcq-12",
-        "remain-mcq-14",
-        "remain-mcq-11",
-        "remain-mcq-15",
-        "remain-mcq-10"
+        "remain-mcq-20",
+        "remain-mcq-07",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remains to be seen」指「結果目前還不知道；仍有待觀察」。",
       "sentenceIndex": 26,
@@ -1121,12 +1039,10 @@ export default {
         "remains to be seen"
       ],
       "optionReasons": {
-        "remain-mcq-13": "本句指「結果目前還不知道；仍有待觀察」。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。"
+        "remain-mcq-13": "本句的「remains to be seen」指「結果目前還不知道；仍有待觀察」。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-13"
     },
@@ -1138,11 +1054,9 @@ export default {
       "masked": "It ____ how students will respond.",
       "options": [
         "remain-mcq-13",
-        "remain-mcq-12",
-        "remain-mcq-14",
-        "remain-mcq-11",
-        "remain-mcq-15",
-        "remain-mcq-10"
+        "remain-mcq-02",
+        "remain-mcq-19",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remains to be seen」指「結果目前還不知道；仍有待觀察」。",
       "sentenceIndex": 27,
@@ -1151,12 +1065,10 @@ export default {
         "remains to be seen"
       ],
       "optionReasons": {
-        "remain-mcq-13": "本句指「結果目前還不知道；仍有待觀察」。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。"
+        "remain-mcq-13": "本句的「remains to be seen」指「結果目前還不知道；仍有待觀察」。",
+        "remain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-13"
     },
@@ -1168,11 +1080,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "remain-mcq-13",
-        "remain-mcq-12",
-        "remain-mcq-14",
-        "remain-mcq-11",
-        "remain-mcq-15",
-        "remain-mcq-10"
+        "remain-mcq-10",
+        "remain-mcq-21",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remains a close friend」指「結果目前還不知道；仍有待觀察」。",
       "sentenceIndex": 28,
@@ -1181,12 +1091,10 @@ export default {
         "remains a close friend"
       ],
       "optionReasons": {
-        "remain-mcq-13": "本句指「結果目前還不知道；仍有待觀察」。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。"
+        "remain-mcq-13": "本句的「remains a close friend」指「結果目前還不知道；仍有待觀察」。",
+        "remain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-13"
     },
@@ -1198,11 +1106,9 @@ export default {
       "masked": "The reason ____.",
       "options": [
         "remain-mcq-13",
-        "remain-mcq-12",
-        "remain-mcq-14",
-        "remain-mcq-11",
-        "remain-mcq-15",
-        "remain-mcq-10"
+        "remain-mcq-25",
+        "remain-mcq-18",
+        "remain-mcq-19"
       ],
       "explanation": "本句的「remains a mystery」指「結果目前還不知道；仍有待觀察」。",
       "sentenceIndex": 29,
@@ -1211,12 +1117,10 @@ export default {
         "remains a mystery"
       ],
       "optionReasons": {
-        "remain-mcq-13": "本句指「結果目前還不知道；仍有待觀察」。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。",
-        "remain-mcq-10": "「尚未用完、離開或完成的；剩餘／餘下的」與本句語境不同。"
+        "remain-mcq-13": "本句的「remains a mystery」指「結果目前還不知道；仍有待觀察」。",
+        "remain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-13"
     },
@@ -1228,11 +1132,9 @@ export default {
       "masked": "We need to decide what to do with ____.",
       "options": [
         "remain-mcq-15",
-        "remain-mcq-14",
-        "remain-mcq-16",
-        "remain-mcq-13",
         "remain-mcq-17",
-        "remain-mcq-12"
+        "remain-mcq-13",
+        "remain-mcq-10"
       ],
       "explanation": "本句的「what remains」指「仍然剩下／存在的部分」。",
       "sentenceIndex": 32,
@@ -1241,12 +1143,10 @@ export default {
         "what remains"
       ],
       "optionReasons": {
-        "remain-mcq-15": "本句指「仍然剩下／存在的部分」。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。",
-        "remain-mcq-13": "「結果目前還不知道；仍有待觀察」與本句語境不同。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。"
+        "remain-mcq-15": "本句的「what remains」指「仍然剩下／存在的部分」。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-15"
     },
@@ -1258,11 +1158,9 @@ export default {
       "masked": "____ is difficult to identify.",
       "options": [
         "remain-mcq-15",
-        "remain-mcq-14",
-        "remain-mcq-16",
-        "remain-mcq-13",
         "remain-mcq-17",
-        "remain-mcq-12"
+        "remain-mcq-12",
+        "remain-mcq-10"
       ],
       "explanation": "本句的「What remains」指「仍然剩下／存在的部分」。",
       "sentenceIndex": 33,
@@ -1271,12 +1169,10 @@ export default {
         "What remains"
       ],
       "optionReasons": {
-        "remain-mcq-15": "本句指「仍然剩下／存在的部分」。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。",
-        "remain-mcq-13": "「結果目前還不知道；仍有待觀察」與本句語境不同。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。"
+        "remain-mcq-15": "本句的「What remains」指「仍然剩下／存在的部分」。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-15"
     },
@@ -1288,11 +1184,9 @@ export default {
       "masked": "Investigators discovered ____.",
       "options": [
         "remain-mcq-17",
-        "remain-mcq-16",
-        "remain-mcq-18",
-        "remain-mcq-15",
-        "remain-mcq-19",
-        "remain-mcq-14"
+        "remain-mcq-20",
+        "remain-mcq-11",
+        "remain-mcq-06"
       ],
       "explanation": "本句的「human remains」指「正式：死者的遺體／遺骸」。",
       "sentenceIndex": 36,
@@ -1301,12 +1195,10 @@ export default {
         "human remains"
       ],
       "optionReasons": {
-        "remain-mcq-17": "本句指「正式：死者的遺體／遺骸」。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。"
+        "remain-mcq-17": "本句的「human remains」指「正式：死者的遺體／遺骸」。",
+        "remain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-17"
     },
@@ -1318,11 +1210,9 @@ export default {
       "masked": "The ____ were identified several days later.",
       "options": [
         "remain-mcq-17",
-        "remain-mcq-16",
-        "remain-mcq-18",
-        "remain-mcq-15",
-        "remain-mcq-19",
-        "remain-mcq-14"
+        "remain-mcq-11",
+        "remain-mcq-02",
+        "remain-mcq-12"
       ],
       "explanation": "本句的「remains」指「正式：死者的遺體／遺骸」。",
       "sentenceIndex": 37,
@@ -1331,12 +1221,10 @@ export default {
         "remains"
       ],
       "optionReasons": {
-        "remain-mcq-17": "本句指「正式：死者的遺體／遺骸」。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-14": "「繼續是某種身分／事物」與本句語境不同。"
+        "remain-mcq-17": "本句的「remains」指「正式：死者的遺體／遺骸」。",
+        "remain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-17"
     },
@@ -1348,11 +1236,9 @@ export default {
       "masked": "The site contains important ____.",
       "options": [
         "remain-mcq-18",
-        "remain-mcq-17",
-        "remain-mcq-19",
-        "remain-mcq-16",
-        "remain-mcq-20",
-        "remain-mcq-15"
+        "remain-mcq-21",
+        "remain-mcq-10",
+        "remain-mcq-05"
       ],
       "explanation": "本句的「archaeological remains」指「從古代保存下來的考古遺跡／遺存」。",
       "sentenceIndex": 38,
@@ -1361,12 +1247,10 @@ export default {
         "archaeological remains"
       ],
       "optionReasons": {
-        "remain-mcq-18": "本句指「從古代保存下來的考古遺跡／遺存」。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。"
+        "remain-mcq-18": "本句的「archaeological remains」指「從古代保存下來的考古遺跡／遺存」。",
+        "remain-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-18"
     },
@@ -1378,11 +1262,9 @@ export default {
       "masked": "Ancient ____ were found beneath the building.",
       "options": [
         "remain-mcq-18",
-        "remain-mcq-17",
-        "remain-mcq-19",
-        "remain-mcq-16",
-        "remain-mcq-20",
-        "remain-mcq-15"
+        "remain-mcq-07",
+        "remain-mcq-11",
+        "remain-mcq-12"
       ],
       "explanation": "本句的「remains」指「從古代保存下來的考古遺跡／遺存」。",
       "sentenceIndex": 39,
@@ -1391,12 +1273,10 @@ export default {
         "remains"
       ],
       "optionReasons": {
-        "remain-mcq-18": "本句指「從古代保存下來的考古遺跡／遺存」。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。",
-        "remain-mcq-15": "「仍然剩下／存在的部分」與本句語境不同。"
+        "remain-mcq-18": "本句的「remains」指「從古代保存下來的考古遺跡／遺存」。",
+        "remain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-18"
     },
@@ -1408,11 +1288,9 @@ export default {
       "masked": "We spent the ____ at home.",
       "options": [
         "remain-mcq-19",
-        "remain-mcq-18",
-        "remain-mcq-20",
-        "remain-mcq-17",
-        "remain-mcq-21",
-        "remain-mcq-16"
+        "remain-mcq-13",
+        "remain-mcq-02",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remainder of the day」指「使用、完成、分配後餘下的部分」。",
       "sentenceIndex": 40,
@@ -1421,12 +1299,10 @@ export default {
         "remainder of the day"
       ],
       "optionReasons": {
-        "remain-mcq-19": "本句指「使用、完成、分配後餘下的部分」。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。",
-        "remain-mcq-21": "「除法不能整除時剩下的餘數」與本句語境不同。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。"
+        "remain-mcq-19": "本句的「remainder of the day」指「使用、完成、分配後餘下的部分」。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-19"
     },
@@ -1438,11 +1314,9 @@ export default {
       "masked": "The ____ was divided equally.",
       "options": [
         "remain-mcq-19",
-        "remain-mcq-18",
-        "remain-mcq-20",
-        "remain-mcq-17",
-        "remain-mcq-21",
-        "remain-mcq-16"
+        "remain-mcq-04",
+        "remain-mcq-13",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remainder」指「使用、完成、分配後餘下的部分」。",
       "sentenceIndex": 41,
@@ -1451,12 +1325,10 @@ export default {
         "remainder"
       ],
       "optionReasons": {
-        "remain-mcq-19": "本句指「使用、完成、分配後餘下的部分」。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。",
-        "remain-mcq-21": "「除法不能整除時剩下的餘數」與本句語境不同。",
-        "remain-mcq-16": "「事物毀壞、消失後留下的殘骸／遺跡」與本句語境不同。"
+        "remain-mcq-19": "本句的「remainder」指「使用、完成、分配後餘下的部分」。",
+        "remain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-19"
     },
@@ -1468,10 +1340,8 @@ export default {
       "masked": "She stayed for ____.",
       "options": [
         "remain-mcq-20",
-        "remain-mcq-19",
-        "remain-mcq-21",
-        "remain-mcq-18",
-        "remain-mcq-22",
+        "remain-mcq-05",
+        "remain-mcq-07",
         "remain-mcq-17"
       ],
       "explanation": "本句的「the remainder of the lesson」指「某段時間、數量等其餘／餘下部分」。",
@@ -1481,12 +1351,10 @@ export default {
         "the remainder of the lesson"
       ],
       "optionReasons": {
-        "remain-mcq-20": "本句指「某段時間、數量等其餘／餘下部分」。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-21": "「除法不能整除時剩下的餘數」與本句語境不同。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。",
-        "remain-mcq-22": "「繼續開著、沒有關閉」與本句語境不同。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。"
+        "remain-mcq-20": "本句的「the remainder of the lesson」指「某段時間、數量等其餘／餘下部分」。",
+        "remain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-20"
     },
@@ -1498,11 +1366,9 @@ export default {
       "masked": "The weather stayed dry for ____.",
       "options": [
         "remain-mcq-20",
-        "remain-mcq-19",
-        "remain-mcq-21",
-        "remain-mcq-18",
-        "remain-mcq-22",
-        "remain-mcq-17"
+        "remain-mcq-25",
+        "remain-mcq-13",
+        "remain-mcq-12"
       ],
       "explanation": "本句的「the remainder of the week」指「某段時間、數量等其餘／餘下部分」。",
       "sentenceIndex": 43,
@@ -1511,12 +1377,10 @@ export default {
         "the remainder of the week"
       ],
       "optionReasons": {
-        "remain-mcq-20": "本句指「某段時間、數量等其餘／餘下部分」。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-21": "「除法不能整除時剩下的餘數」與本句語境不同。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。",
-        "remain-mcq-22": "「繼續開著、沒有關閉」與本句語境不同。",
-        "remain-mcq-17": "「正式：死者的遺體／遺骸」與本句語境不同。"
+        "remain-mcq-20": "本句的「the remainder of the week」指「某段時間、數量等其餘／餘下部分」。",
+        "remain-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-20"
     },
@@ -1528,10 +1392,8 @@ export default {
       "masked": "Ten divided by three leaves a ____ of one.",
       "options": [
         "remain-mcq-21",
-        "remain-mcq-20",
-        "remain-mcq-22",
-        "remain-mcq-19",
-        "remain-mcq-23",
+        "remain-mcq-05",
+        "remain-mcq-17",
         "remain-mcq-18"
       ],
       "explanation": "本句的「remainder」指「除法不能整除時剩下的餘數」。",
@@ -1541,12 +1403,10 @@ export default {
         "remainder"
       ],
       "optionReasons": {
-        "remain-mcq-21": "本句指「除法不能整除時剩下的餘數」。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。",
-        "remain-mcq-22": "「繼續開著、沒有關閉」與本句語境不同。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-23": "「繼續營業／開放」與本句語境不同。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。"
+        "remain-mcq-21": "本句的「remainder」指「除法不能整除時剩下的餘數」。",
+        "remain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-21"
     },
@@ -1558,11 +1418,9 @@ export default {
       "masked": "Find the ____.",
       "options": [
         "remain-mcq-21",
-        "remain-mcq-20",
-        "remain-mcq-22",
-        "remain-mcq-19",
-        "remain-mcq-23",
-        "remain-mcq-18"
+        "remain-mcq-12",
+        "remain-mcq-17",
+        "remain-mcq-13"
       ],
       "explanation": "本句的「remainder」指「除法不能整除時剩下的餘數」。",
       "sentenceIndex": 45,
@@ -1571,12 +1429,10 @@ export default {
         "remainder"
       ],
       "optionReasons": {
-        "remain-mcq-21": "本句指「除法不能整除時剩下的餘數」。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。",
-        "remain-mcq-22": "「繼續開著、沒有關閉」與本句語境不同。",
-        "remain-mcq-19": "「使用、完成、分配後餘下的部分」與本句語境不同。",
-        "remain-mcq-23": "「繼續營業／開放」與本句語境不同。",
-        "remain-mcq-18": "「從古代保存下來的考古遺跡／遺存」與本句語境不同。"
+        "remain-mcq-21": "本句的「remainder」指「除法不能整除時剩下的餘數」。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-21"
     },
@@ -1588,11 +1444,9 @@ export default {
       "masked": "The ____ was returned.",
       "options": [
         "remain-mcq-10",
-        "remain-mcq-09",
-        "remain-mcq-11",
-        "remain-mcq-08",
-        "remain-mcq-12",
-        "remain-mcq-07"
+        "remain-mcq-02",
+        "remain-mcq-17",
+        "remain-mcq-18"
       ],
       "explanation": "本句的「remaining money」指「尚未用完、離開或完成的；剩餘／餘下的」。",
       "sentenceIndex": 46,
@@ -1601,12 +1455,10 @@ export default {
         "remaining money"
       ],
       "optionReasons": {
-        "remain-mcq-10": "本句指「尚未用完、離開或完成的；剩餘／餘下的」。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。"
+        "remain-mcq-10": "本句的「remaining money」指「尚未用完、離開或完成的；剩餘／餘下的」。",
+        "remain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-10"
     },
@@ -1618,11 +1470,9 @@ export default {
       "masked": "Finish the ____.",
       "options": [
         "remain-mcq-10",
-        "remain-mcq-09",
-        "remain-mcq-11",
-        "remain-mcq-08",
-        "remain-mcq-12",
-        "remain-mcq-07"
+        "remain-mcq-04",
+        "remain-mcq-13",
+        "remain-mcq-17"
       ],
       "explanation": "本句的「remaining questions」指「尚未用完、離開或完成的；剩餘／餘下的」。",
       "sentenceIndex": 47,
@@ -1631,12 +1481,10 @@ export default {
         "remaining questions"
       ],
       "optionReasons": {
-        "remain-mcq-10": "本句指「尚未用完、離開或完成的；剩餘／餘下的」。",
-        "remain-mcq-09": "「其他部分消失、用完等之後仍然剩下」與本句語境不同。",
-        "remain-mcq-11": "「某工作仍然需要完成；有待完成」與本句語境不同。",
-        "remain-mcq-08": "「經過一段時間後仍然存在／保留下來」與本句語境不同。",
-        "remain-mcq-12": "「問題仍未解決／問題仍未得到回答」與本句語境不同。",
-        "remain-mcq-07": "「留在某地／某人身邊」與本句語境不同。"
+        "remain-mcq-10": "本句的「remaining questions」指「尚未用完、離開或完成的；剩餘／餘下的」。",
+        "remain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-10"
     },
@@ -1648,11 +1496,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "remain-mcq-25",
-        "remain-mcq-24",
-        "remain-mcq-23",
-        "remain-mcq-22",
-        "remain-mcq-21",
-        "remain-mcq-20"
+        "remain-mcq-17",
+        "remain-mcq-19",
+        "remain-mcq-12"
       ],
       "explanation": "本句的「remain in place」指「繼續留在原位、不移動」。",
       "sentenceIndex": 48,
@@ -1661,12 +1507,10 @@ export default {
         "remain in place"
       ],
       "optionReasons": {
-        "remain-mcq-25": "本句指「繼續留在原位、不移動」。",
-        "remain-mcq-24": "「問題仍未解決／仍未有定論」與本句語境不同。",
-        "remain-mcq-23": "「繼續營業／開放」與本句語境不同。",
-        "remain-mcq-22": "「繼續開著、沒有關閉」與本句語境不同。",
-        "remain-mcq-21": "「除法不能整除時剩下的餘數」與本句語境不同。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。"
+        "remain-mcq-25": "本句的「remain in place」指「繼續留在原位、不移動」。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-25"
     },
@@ -1678,11 +1522,9 @@ export default {
       "masked": "The barriers will ____ overnight.",
       "options": [
         "remain-mcq-25",
-        "remain-mcq-24",
-        "remain-mcq-23",
-        "remain-mcq-22",
-        "remain-mcq-21",
-        "remain-mcq-20"
+        "remain-mcq-13",
+        "remain-mcq-17",
+        "remain-mcq-19"
       ],
       "explanation": "本句的「remain in place」指「繼續留在原位、不移動」。",
       "sentenceIndex": 49,
@@ -1691,12 +1533,10 @@ export default {
         "remain in place"
       ],
       "optionReasons": {
-        "remain-mcq-25": "本句指「繼續留在原位、不移動」。",
-        "remain-mcq-24": "「問題仍未解決／仍未有定論」與本句語境不同。",
-        "remain-mcq-23": "「繼續營業／開放」與本句語境不同。",
-        "remain-mcq-22": "「繼續開著、沒有關閉」與本句語境不同。",
-        "remain-mcq-21": "「除法不能整除時剩下的餘數」與本句語境不同。",
-        "remain-mcq-20": "「某段時間、數量等其餘／餘下部分」與本句語境不同。"
+        "remain-mcq-25": "本句的「remain in place」指「繼續留在原位、不移動」。",
+        "remain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "remain-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "remain-mcq-25"
     }
@@ -1708,5 +1548,7 @@ export default {
     "sha256": "7406557267c1ea0b57061ff82103dffda4a80ec421ace7dfc8b754961c93a4ff",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

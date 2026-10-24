@@ -317,11 +317,9 @@ export default {
       "masked": "Please ____ the label to the package.",
       "options": [
         "attach-mcq-01",
-        "attach-mcq-02",
-        "attach-mcq-03",
-        "attach-mcq-04",
+        "attach-mcq-08",
         "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attach」指「把一件東西固定、連接或附在另一件東西上」。",
       "sentenceIndex": 0,
@@ -330,12 +328,10 @@ export default {
         "attach"
       ],
       "optionReasons": {
-        "attach-mcq-01": "本句指「把一件東西固定、連接或附在另一件東西上」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-01": "本句的「attach」指「把一件東西固定、連接或附在另一件東西上」。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-01"
     },
@@ -347,11 +343,9 @@ export default {
       "masked": "The camera can be ____ to a tripod.",
       "options": [
         "attach-mcq-01",
-        "attach-mcq-02",
-        "attach-mcq-03",
-        "attach-mcq-04",
-        "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-07",
+        "attach-mcq-12",
+        "attach-pdf-002"
       ],
       "explanation": "本句的「attached」指「把一件東西固定、連接或附在另一件東西上」。",
       "sentenceIndex": 1,
@@ -360,12 +354,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-01": "本句指「把一件東西固定、連接或附在另一件東西上」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-01": "本句的「attached」指「把一件東西固定、連接或附在另一件東西上」。",
+        "attach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-01"
     },
@@ -377,11 +369,9 @@ export default {
       "masked": "A small tag was ____ to the bag.",
       "options": [
         "attach-mcq-01",
-        "attach-mcq-02",
-        "attach-mcq-03",
-        "attach-mcq-04",
-        "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-08",
+        "attach-mcq-12",
+        "attach-mcq-05"
       ],
       "explanation": "本句的「attached」指「把一件東西固定、連接或附在另一件東西上」。",
       "sentenceIndex": 2,
@@ -390,12 +380,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-01": "本句指「把一件東西固定、連接或附在另一件東西上」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-01": "本句的「attached」指「把一件東西固定、連接或附在另一件東西上」。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-01"
     },
@@ -407,11 +395,9 @@ export default {
       "masked": "The balcony ____ to the main building.",
       "options": [
         "attach-pdf-001",
-        "attach-mcq-02",
-        "attach-mcq-03",
-        "attach-mcq-04",
-        "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-12",
+        "attach-mcq-08",
+        "attach-mcq-05"
       ],
       "explanation": "本句的「attaches」指「與某物實際相連或附着」。",
       "sentenceIndex": 3,
@@ -420,12 +406,10 @@ export default {
         "attaches"
       ],
       "optionReasons": {
-        "attach-pdf-001": "本句指「與某物實際相連或附着」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-pdf-001": "本句的「attaches」指「與某物實際相連或附着」。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-pdf-001"
     },
@@ -437,11 +421,9 @@ export default {
       "masked": "The muscle ____ to the bone.",
       "options": [
         "attach-pdf-001",
-        "attach-mcq-02",
-        "attach-mcq-03",
+        "attach-pdf-002",
         "attach-mcq-04",
-        "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attaches」指「與某物實際相連或附着」。",
       "sentenceIndex": 4,
@@ -450,12 +432,10 @@ export default {
         "attaches"
       ],
       "optionReasons": {
-        "attach-pdf-001": "本句指「與某物實際相連或附着」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-pdf-001": "本句的「attaches」指「與某物實際相連或附着」。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-pdf-001"
     },
@@ -467,11 +447,9 @@ export default {
       "masked": "I’ve ____ the report to the email.",
       "options": [
         "attach-mcq-02",
-        "attach-mcq-01",
-        "attach-mcq-03",
-        "attach-mcq-04",
-        "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-11",
+        "attach-mcq-08",
+        "attach-mcq-05"
       ],
       "explanation": "本句的「attached」指「把檔案、文件等附加到電郵、表格或訊息中」。",
       "sentenceIndex": 5,
@@ -480,12 +458,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-02": "本句指「把檔案、文件等附加到電郵、表格或訊息中」。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-02": "本句的「attached」指「把檔案、文件等附加到電郵、表格或訊息中」。",
+        "attach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-02"
     },
@@ -497,11 +473,9 @@ export default {
       "masked": "Please ____ a copy of your receipt.",
       "options": [
         "attach-mcq-02",
-        "attach-mcq-01",
-        "attach-mcq-03",
-        "attach-mcq-04",
+        "attach-mcq-11",
         "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-08"
       ],
       "explanation": "本句的「attach」指「把檔案、文件等附加到電郵、表格或訊息中」。",
       "sentenceIndex": 6,
@@ -510,12 +484,10 @@ export default {
         "attach"
       ],
       "optionReasons": {
-        "attach-mcq-02": "本句指「把檔案、文件等附加到電郵、表格或訊息中」。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-02": "本句的「attach」指「把檔案、文件等附加到電郵、表格或訊息中」。",
+        "attach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-02"
     },
@@ -527,11 +499,9 @@ export default {
       "masked": "People often ____ special meaning to old objects.",
       "options": [
         "attach-mcq-03",
-        "attach-mcq-02",
-        "attach-mcq-04",
-        "attach-mcq-01",
+        "attach-mcq-12",
         "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-08"
       ],
       "explanation": "本句的「attach」指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
       "sentenceIndex": 7,
@@ -540,12 +510,10 @@ export default {
         "attach"
       ],
       "optionReasons": {
-        "attach-mcq-03": "本句指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-03": "本句的「attach」指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-03"
     },
@@ -557,11 +525,9 @@ export default {
       "masked": "She ____ great importance to honesty.",
       "options": [
         "attach-mcq-03",
-        "attach-mcq-02",
-        "attach-mcq-04",
-        "attach-mcq-01",
-        "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-08",
+        "attach-mcq-12",
+        "attach-mcq-09"
       ],
       "explanation": "本句的「attaches」指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
       "sentenceIndex": 8,
@@ -570,12 +536,10 @@ export default {
         "attaches"
       ],
       "optionReasons": {
-        "attach-mcq-03": "本句指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-03": "本句的「attaches」指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-03"
     },
@@ -587,11 +551,9 @@ export default {
       "masked": "A lot of emotional value is ____ to the photograph.",
       "options": [
         "attach-mcq-03",
-        "attach-mcq-02",
-        "attach-mcq-04",
-        "attach-mcq-01",
         "attach-mcq-05",
-        "attach-mcq-06"
+        "attach-mcq-08",
+        "attach-mcq-09"
       ],
       "explanation": "本句的「attached」指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
       "sentenceIndex": 9,
@@ -600,12 +562,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-03": "本句指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-03": "本句的「attached」指「把重要性、意義、價值、責任等與某事物聯繫起來」。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-03"
     },
@@ -617,11 +577,9 @@ export default {
       "masked": "She is very ____ her dog.",
       "options": [
         "attach-mcq-04",
-        "attach-mcq-03",
-        "attach-mcq-05",
-        "attach-mcq-02",
-        "attach-mcq-06",
-        "attach-mcq-01"
+        "attach-pdf-002",
+        "attach-pdf-001",
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attached to」指「對某人、地方、動物或物件產生深厚感情／依戀」。",
       "sentenceIndex": 10,
@@ -630,12 +588,10 @@ export default {
         "attached to"
       ],
       "optionReasons": {
-        "attach-mcq-04": "本句指「對某人、地方、動物或物件產生深厚感情／依戀」。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。"
+        "attach-mcq-04": "本句的「attached to」指「對某人、地方、動物或物件產生深厚感情／依戀」。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-04"
     },
@@ -647,11 +603,9 @@ export default {
       "masked": "I’ve become quite ____ this old jacket.",
       "options": [
         "attach-mcq-04",
-        "attach-mcq-03",
-        "attach-mcq-05",
-        "attach-mcq-02",
-        "attach-mcq-06",
-        "attach-mcq-01"
+        "attach-pdf-002",
+        "attach-mcq-12",
+        "attach-mcq-03"
       ],
       "explanation": "本句的「attached to」指「對某人、地方、動物或物件產生深厚感情／依戀」。",
       "sentenceIndex": 11,
@@ -660,12 +614,10 @@ export default {
         "attached to"
       ],
       "optionReasons": {
-        "attach-mcq-04": "本句指「對某人、地方、動物或物件產生深厚感情／依戀」。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。"
+        "attach-mcq-04": "本句的「attached to」指「對某人、地方、動物或物件產生深厚感情／依戀」。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-04"
     },
@@ -678,10 +630,8 @@ export default {
       "options": [
         "attach-mcq-04",
         "attach-mcq-03",
-        "attach-mcq-05",
-        "attach-mcq-02",
-        "attach-mcq-06",
-        "attach-mcq-01"
+        "attach-pdf-002",
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attached to」指「對某人、地方、動物或物件產生深厚感情／依戀」。",
       "sentenceIndex": 12,
@@ -690,12 +640,10 @@ export default {
         "attached to"
       ],
       "optionReasons": {
-        "attach-mcq-04": "本句指「對某人、地方、動物或物件產生深厚感情／依戀」。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-01": "「把一件東西固定、連接或附在另一件東西上」與本句語境不同。"
+        "attach-mcq-04": "本句的「attached to」指「對某人、地方、動物或物件產生深厚感情／依戀」。",
+        "attach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-04"
     },
@@ -707,11 +655,9 @@ export default {
       "masked": "She is currently ____ the research department.",
       "options": [
         "attach-mcq-05",
-        "attach-mcq-04",
-        "attach-mcq-06",
         "attach-mcq-03",
-        "attach-mcq-07",
-        "attach-mcq-02"
+        "attach-mcq-08",
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attached to」指「被派駐、借調或隸屬於某機構／單位」。",
       "sentenceIndex": 13,
@@ -720,12 +666,10 @@ export default {
         "attached to"
       ],
       "optionReasons": {
-        "attach-mcq-05": "本句指「被派駐、借調或隸屬於某機構／單位」。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。"
+        "attach-mcq-05": "本句的「attached to」指「被派駐、借調或隸屬於某機構／單位」。",
+        "attach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-05"
     },
@@ -737,11 +681,9 @@ export default {
       "masked": "He was ____ the embassy for six months.",
       "options": [
         "attach-mcq-05",
-        "attach-mcq-04",
-        "attach-mcq-06",
-        "attach-mcq-03",
-        "attach-mcq-07",
-        "attach-mcq-02"
+        "attach-mcq-11",
+        "attach-mcq-02",
+        "attach-mcq-08"
       ],
       "explanation": "本句的「attached to」指「被派駐、借調或隸屬於某機構／單位」。",
       "sentenceIndex": 14,
@@ -750,12 +692,10 @@ export default {
         "attached to"
       ],
       "optionReasons": {
-        "attach-mcq-05": "本句指「被派駐、借調或隸屬於某機構／單位」。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。"
+        "attach-mcq-05": "本句的「attached to」指「被派駐、借調或隸屬於某機構／單位」。",
+        "attach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-05"
     },
@@ -767,11 +707,9 @@ export default {
       "masked": "The officer was ____ to a special unit.",
       "options": [
         "attach-mcq-05",
-        "attach-mcq-04",
-        "attach-mcq-06",
-        "attach-mcq-03",
-        "attach-mcq-07",
-        "attach-mcq-02"
+        "attach-mcq-02",
+        "attach-mcq-10",
+        "attach-mcq-08"
       ],
       "explanation": "本句的「attached」指「被派駐、借調或隸屬於某機構／單位」。",
       "sentenceIndex": 15,
@@ -780,12 +718,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-05": "本句指「被派駐、借調或隸屬於某機構／單位」。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。"
+        "attach-mcq-05": "本句的「attached」指「被派駐、借調或隸屬於某機構／單位」。",
+        "attach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-05"
     },
@@ -797,11 +733,9 @@ export default {
       "masked": "They ____ two specialists to the project team.",
       "options": [
         "attach-mcq-05",
-        "attach-mcq-04",
-        "attach-mcq-06",
+        "attach-pdf-002",
         "attach-mcq-03",
-        "attach-mcq-07",
-        "attach-mcq-02"
+        "attach-mcq-09"
       ],
       "explanation": "本句的「attached」指「被派駐、借調或隸屬於某機構／單位」。",
       "sentenceIndex": 16,
@@ -810,12 +744,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-05": "本句指「被派駐、借調或隸屬於某機構／單位」。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-02": "「把檔案、文件等附加到電郵、表格或訊息中」與本句語境不同。"
+        "attach-mcq-05": "本句的「attached」指「被派駐、借調或隸屬於某機構／單位」。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-05"
     },
@@ -827,11 +759,9 @@ export default {
       "masked": "The funding comes with several conditions ____.",
       "options": [
         "attach-pdf-002",
-        "attach-mcq-05",
-        "attach-mcq-07",
-        "attach-mcq-04",
-        "attach-mcq-08",
-        "attach-mcq-03"
+        "attach-mcq-12",
+        "attach-pdf-001",
+        "attach-mcq-04"
       ],
       "explanation": "本句的「attached」指「把某項要求或限制加進協議／安排之中」。",
       "sentenceIndex": 17,
@@ -840,12 +770,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-pdf-002": "本句指「把某項要求或限制加進協議／安排之中」。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。"
+        "attach-pdf-002": "本句的「attached」指「把某項要求或限制加進協議／安排之中」。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "attach-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-pdf-002"
     },
@@ -857,11 +785,9 @@ export default {
       "masked": "No special conditions were ____ to the offer.",
       "options": [
         "attach-pdf-002",
-        "attach-mcq-05",
+        "attach-mcq-10",
         "attach-mcq-07",
-        "attach-mcq-04",
-        "attach-mcq-08",
-        "attach-mcq-03"
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attached」指「把某項要求或限制加進協議／安排之中」。",
       "sentenceIndex": 18,
@@ -870,12 +796,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-pdf-002": "本句指「把某項要求或限制加進協議／安排之中」。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-03": "「把重要性、意義、價值、責任等與某事物聯繫起來」與本句語境不同。"
+        "attach-pdf-002": "本句的「attached」指「把某項要求或限制加進協議／安排之中」。",
+        "attach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-pdf-002"
     },
@@ -887,11 +811,9 @@ export default {
       "masked": "Liability may ____ to the owner.",
       "options": [
         "attach-mcq-07",
-        "attach-mcq-06",
-        "attach-mcq-08",
-        "attach-mcq-05",
+        "attach-pdf-002",
         "attach-mcq-09",
-        "attach-mcq-04"
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attach」指「正式把責任、過錯或法律後果歸於某人／某事」。",
       "sentenceIndex": 21,
@@ -900,12 +822,10 @@ export default {
         "attach"
       ],
       "optionReasons": {
-        "attach-mcq-07": "本句指「正式把責任、過錯或法律後果歸於某人／某事」。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。"
+        "attach-mcq-07": "本句的「attach」指「正式把責任、過錯或法律後果歸於某人／某事」。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-07"
     },
@@ -917,11 +837,9 @@ export default {
       "masked": "No blame should be ____ to the staff.",
       "options": [
         "attach-mcq-07",
-        "attach-mcq-06",
-        "attach-mcq-08",
-        "attach-mcq-05",
-        "attach-mcq-09",
-        "attach-mcq-04"
+        "attach-mcq-11",
+        "attach-pdf-002",
+        "attach-mcq-09"
       ],
       "explanation": "本句的「attached」指「正式把責任、過錯或法律後果歸於某人／某事」。",
       "sentenceIndex": 22,
@@ -930,12 +848,10 @@ export default {
         "attached"
       ],
       "optionReasons": {
-        "attach-mcq-07": "本句指「正式把責任、過錯或法律後果歸於某人／某事」。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-04": "「對某人、地方、動物或物件產生深厚感情／依戀」與本句語境不同。"
+        "attach-mcq-07": "本句的「attached」指「正式把責任、過錯或法律後果歸於某人／某事」。",
+        "attach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-07"
     },
@@ -947,11 +863,9 @@ export default {
       "masked": "The court ordered the creditor to ____ the debtor’s assets.",
       "options": [
         "attach-mcq-08",
-        "attach-mcq-07",
-        "attach-mcq-09",
-        "attach-mcq-06",
-        "attach-mcq-10",
-        "attach-mcq-05"
+        "attach-mcq-01",
+        "attach-mcq-05",
+        "attach-mcq-02"
       ],
       "explanation": "本句的「attach」指「依法查封、扣押或控制財產；專門法律用法」。",
       "sentenceIndex": 23,
@@ -960,12 +874,10 @@ export default {
         "attach"
       ],
       "optionReasons": {
-        "attach-mcq-08": "本句指「依法查封、扣押或控制財產；專門法律用法」。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。",
-        "attach-mcq-10": "「情感依戀／情感連結」與本句語境不同。",
-        "attach-mcq-05": "「被派駐、借調或隸屬於某機構／單位」與本句語境不同。"
+        "attach-mcq-08": "本句的「attach」指「依法查封、扣押或控制財產；專門法律用法」。",
+        "attach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-08"
     },
@@ -977,11 +889,9 @@ export default {
       "masked": "Please open the email ____.",
       "options": [
         "attach-mcq-09",
-        "attach-mcq-08",
-        "attach-mcq-10",
-        "attach-mcq-07",
+        "attach-mcq-05",
         "attach-mcq-11",
-        "attach-mcq-06"
+        "attach-mcq-08"
       ],
       "explanation": "本句的「attachment」指「附件、附加部件、電郵附件」。",
       "sentenceIndex": 25,
@@ -990,12 +900,10 @@ export default {
         "attachment"
       ],
       "optionReasons": {
-        "attach-mcq-09": "本句指「附件、附加部件、電郵附件」。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-10": "「情感依戀／情感連結」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。",
-        "attach-mcq-11": "「把原本連接的東西拆開／分離」與本句語境不同。",
-        "attach-mcq-06": "「在提議、安排或協議中附加條件／限制」與本句語境不同。"
+        "attach-mcq-09": "本句的「attachment」指「附件、附加部件、電郵附件」。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-09"
     },
@@ -1007,11 +915,9 @@ export default {
       "masked": "She developed a strong ____ to the place.",
       "options": [
         "attach-mcq-10",
-        "attach-mcq-09",
-        "attach-mcq-11",
-        "attach-mcq-08",
-        "attach-mcq-12",
-        "attach-mcq-07"
+        "attach-mcq-02",
+        "attach-mcq-05",
+        "attach-mcq-12"
       ],
       "explanation": "本句的「attachment」指「情感依戀／情感連結」。",
       "sentenceIndex": 26,
@@ -1020,12 +926,10 @@ export default {
         "attachment"
       ],
       "optionReasons": {
-        "attach-mcq-10": "本句指「情感依戀／情感連結」。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-11": "「把原本連接的東西拆開／分離」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-12": "「可拆卸的」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。"
+        "attach-mcq-10": "本句的「attachment」指「情感依戀／情感連結」。",
+        "attach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-10"
     },
@@ -1037,11 +941,9 @@ export default {
       "masked": "____ the form and return it.",
       "options": [
         "attach-mcq-11",
-        "attach-mcq-10",
-        "attach-mcq-12",
         "attach-mcq-09",
-        "attach-mcq-08",
-        "attach-mcq-07"
+        "attach-mcq-05",
+        "attach-mcq-08"
       ],
       "explanation": "本句的「Detach」指「把原本連接的東西拆開／分離」。",
       "sentenceIndex": 28,
@@ -1050,12 +952,10 @@ export default {
         "Detach"
       ],
       "optionReasons": {
-        "attach-mcq-11": "本句指「把原本連接的東西拆開／分離」。",
-        "attach-mcq-10": "「情感依戀／情感連結」與本句語境不同。",
-        "attach-mcq-12": "「可拆卸的」與本句語境不同。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。"
+        "attach-mcq-11": "本句的「Detach」指「把原本連接的東西拆開／分離」。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-11"
     },
@@ -1067,11 +967,9 @@ export default {
       "masked": "The cable can be easily ____.",
       "options": [
         "attach-mcq-11",
-        "attach-mcq-10",
-        "attach-mcq-12",
+        "attach-pdf-002",
         "attach-mcq-09",
-        "attach-mcq-08",
-        "attach-mcq-07"
+        "attach-mcq-04"
       ],
       "explanation": "本句的「detached」指「把原本連接的東西拆開／分離」。",
       "sentenceIndex": 29,
@@ -1080,12 +978,10 @@ export default {
         "detached"
       ],
       "optionReasons": {
-        "attach-mcq-11": "本句指「把原本連接的東西拆開／分離」。",
-        "attach-mcq-10": "「情感依戀／情感連結」與本句語境不同。",
-        "attach-mcq-12": "「可拆卸的」與本句語境不同。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。"
+        "attach-mcq-11": "本句的「detached」指「把原本連接的東西拆開／分離」。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-11"
     },
@@ -1097,11 +993,9 @@ export default {
       "masked": "The jacket has a ____ hood.",
       "options": [
         "attach-mcq-12",
-        "attach-mcq-11",
-        "attach-mcq-10",
-        "attach-mcq-09",
-        "attach-mcq-08",
-        "attach-mcq-07"
+        "attach-mcq-01",
+        "attach-mcq-04",
+        "attach-pdf-002"
       ],
       "explanation": "本句的「detachable」指「可拆卸的」。",
       "sentenceIndex": 30,
@@ -1110,12 +1004,10 @@ export default {
         "detachable"
       ],
       "optionReasons": {
-        "attach-mcq-12": "本句指「可拆卸的」。",
-        "attach-mcq-11": "「把原本連接的東西拆開／分離」與本句語境不同。",
-        "attach-mcq-10": "「情感依戀／情感連結」與本句語境不同。",
-        "attach-mcq-09": "「附件、附加部件、電郵附件」與本句語境不同。",
-        "attach-mcq-08": "「依法查封、扣押或控制財產；專門法律用法」與本句語境不同。",
-        "attach-mcq-07": "「正式把責任、過錯或法律後果歸於某人／某事」與本句語境不同。"
+        "attach-mcq-12": "本句的「detachable」指「可拆卸的」。",
+        "attach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "attach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "attach-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "attach-mcq-12"
     }
@@ -1127,5 +1019,7 @@ export default {
     "sha256": "fbd86e14abc46ccf8b1d0dadd00daad0ef039d4f3afa5e6a0d4e34169048dbeb",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

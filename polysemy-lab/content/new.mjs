@@ -284,11 +284,8 @@ export default {
       "masked": "The company launched a ____ product.",
       "options": [
         "new-mcq-01",
-        "new-mcq-02",
-        "new-mcq-03",
-        "new-mcq-04",
-        "new-mcq-05",
-        "new-mcq-06"
+        "new-mcq-11",
+        "new-mcq-12"
       ],
       "explanation": "本句的「new」指「最近才被創造、製造、推出、建立或開始存在的」。",
       "sentenceIndex": 0,
@@ -297,12 +294,9 @@ export default {
         "new"
       ],
       "optionReasons": {
-        "new-mcq-01": "本句指「最近才被創造、製造、推出、建立或開始存在的」。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-01": "本句的「new」指「最近才被創造、製造、推出、建立或開始存在的」。",
+        "new-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-01"
     },
@@ -314,11 +308,8 @@ export default {
       "masked": "They introduced a ____ system last month.",
       "options": [
         "new-mcq-01",
-        "new-mcq-02",
-        "new-mcq-03",
-        "new-mcq-04",
-        "new-mcq-05",
-        "new-mcq-06"
+        "new-mcq-12",
+        "new-mcq-11"
       ],
       "explanation": "本句的「new」指「最近才被創造、製造、推出、建立或開始存在的」。",
       "sentenceIndex": 1,
@@ -327,12 +318,9 @@ export default {
         "new"
       ],
       "optionReasons": {
-        "new-mcq-01": "本句指「最近才被創造、製造、推出、建立或開始存在的」。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-01": "本句的「new」指「最近才被創造、製造、推出、建立或開始存在的」。",
+        "new-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-01"
     },
@@ -344,11 +332,8 @@ export default {
       "masked": "I bought a ____ car last week.",
       "options": [
         "new-mcq-02",
-        "new-mcq-01",
-        "new-mcq-03",
-        "new-mcq-04",
-        "new-mcq-05",
-        "new-mcq-06"
+        "new-mcq-10",
+        "new-mcq-07"
       ],
       "explanation": "本句的「new」指「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」。",
       "sentenceIndex": 2,
@@ -357,12 +342,9 @@ export default {
         "new"
       ],
       "optionReasons": {
-        "new-mcq-02": "本句指「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」。",
-        "new-mcq-01": "「最近才被創造、製造、推出、建立或開始存在的」是「new — recently created/introduced」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-02": "本句的「new」指「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-02"
     },
@@ -374,11 +356,8 @@ export default {
       "masked": "Have you met the ____ manager?",
       "options": [
         "new-mcq-02",
-        "new-mcq-01",
-        "new-mcq-03",
-        "new-mcq-04",
-        "new-mcq-05",
-        "new-mcq-06"
+        "new-mcq-10",
+        "new-mcq-07"
       ],
       "explanation": "本句的「new」指「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」。",
       "sentenceIndex": 3,
@@ -387,12 +366,9 @@ export default {
         "new"
       ],
       "optionReasons": {
-        "new-mcq-02": "本句指「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」。",
-        "new-mcq-01": "「最近才被創造、製造、推出、建立或開始存在的」是「new — recently created/introduced」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-02": "本句的「new」指「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-02"
     },
@@ -404,11 +380,8 @@ export default {
       "masked": "The phone is completely ____ and still in its box.",
       "options": [
         "new-mcq-03",
-        "new-mcq-02",
-        "new-mcq-04",
         "new-mcq-01",
-        "new-mcq-05",
-        "new-mcq-06"
+        "new-mcq-12"
       ],
       "explanation": "本句的「new」指「從未被使用、穿着或擁有過，仍處於原本全新狀態的」。",
       "sentenceIndex": 4,
@@ -417,12 +390,9 @@ export default {
         "new"
       ],
       "optionReasons": {
-        "new-mcq-03": "本句指「從未被使用、穿着或擁有過，仍處於原本全新狀態的」。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-01": "「最近才被創造、製造、推出、建立或開始存在的」是「new — recently created/introduced」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-03": "本句的「new」指「從未被使用、穿着或擁有過，仍處於原本全新狀態的」。",
+        "new-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-03"
     },
@@ -434,11 +404,8 @@ export default {
       "masked": "Do you want to buy a ____ car or a used one?",
       "options": [
         "new-mcq-03",
-        "new-mcq-02",
-        "new-mcq-04",
         "new-mcq-01",
-        "new-mcq-05",
-        "new-mcq-06"
+        "new-mcq-12"
       ],
       "explanation": "本句的「new」指「從未被使用、穿着或擁有過，仍處於原本全新狀態的」。",
       "sentenceIndex": 5,
@@ -447,12 +414,9 @@ export default {
         "new"
       ],
       "optionReasons": {
-        "new-mcq-03": "本句指「從未被使用、穿着或擁有過，仍處於原本全新狀態的」。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-01": "「最近才被創造、製造、推出、建立或開始存在的」是「new — recently created/introduced」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-03": "本句的「new」指「從未被使用、穿着或擁有過，仍處於原本全新狀態的」。",
+        "new-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-03"
     },
@@ -464,11 +428,7 @@ export default {
       "masked": "This idea is completely ____.",
       "options": [
         "new-mcq-04",
-        "new-mcq-03",
-        "new-mcq-05",
-        "new-mcq-02",
-        "new-mcq-06",
-        "new-mcq-01"
+        "new-mcq-05"
       ],
       "explanation": "本句的「new to me」指「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」。",
       "sentenceIndex": 6,
@@ -477,12 +437,8 @@ export default {
         "new to me"
       ],
       "optionReasons": {
-        "new-mcq-04": "本句指「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-01": "「最近才被創造、製造、推出、建立或開始存在的」是「new — recently created/introduced」的用法，與本句語境不同。"
+        "new-mcq-04": "本句的「new to me」指「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」。",
+        "new-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-04"
     },
@@ -494,11 +450,7 @@ export default {
       "masked": "She is ____ teaching.",
       "options": [
         "new-mcq-04",
-        "new-mcq-03",
-        "new-mcq-05",
-        "new-mcq-02",
-        "new-mcq-06",
-        "new-mcq-01"
+        "new-mcq-05"
       ],
       "explanation": "本句的「new to」指「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」。",
       "sentenceIndex": 7,
@@ -507,12 +459,8 @@ export default {
         "new to"
       ],
       "optionReasons": {
-        "new-mcq-04": "本句指「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-01": "「最近才被創造、製造、推出、建立或開始存在的」是「new — recently created/introduced」的用法，與本句語境不同。"
+        "new-mcq-04": "本句的「new to」指「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」。",
+        "new-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-04"
     },
@@ -524,11 +472,7 @@ export default {
       "masked": "He makes other people see the world with ____.",
       "options": [
         "new-mcq-05",
-        "new-mcq-04",
-        "new-mcq-06",
-        "new-mcq-03",
-        "new-mcq-07",
-        "new-mcq-02"
+        "new-mcq-04"
       ],
       "explanation": "本句的「new eyes」指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
       "sentenceIndex": 8,
@@ -537,12 +481,8 @@ export default {
         "new eyes"
       ],
       "optionReasons": {
-        "new-mcq-05": "本句指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。"
+        "new-mcq-05": "本句的「new eyes」指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
+        "new-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-05"
     },
@@ -554,11 +494,7 @@ export default {
       "masked": "The experience gave her a ____ on life.",
       "options": [
         "new-mcq-05",
-        "new-mcq-04",
-        "new-mcq-06",
-        "new-mcq-03",
-        "new-mcq-07",
-        "new-mcq-02"
+        "new-mcq-04"
       ],
       "explanation": "本句的「new perspective」指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
       "sentenceIndex": 9,
@@ -567,12 +503,8 @@ export default {
         "new perspective"
       ],
       "optionReasons": {
-        "new-mcq-05": "本句指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。"
+        "new-mcq-05": "本句的「new perspective」指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
+        "new-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-05"
     },
@@ -584,11 +516,7 @@ export default {
       "masked": "We need a ____ to the problem.",
       "options": [
         "new-mcq-05",
-        "new-mcq-04",
-        "new-mcq-06",
-        "new-mcq-03",
-        "new-mcq-07",
-        "new-mcq-02"
+        "new-mcq-04"
       ],
       "explanation": "本句的「new approach」指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
       "sentenceIndex": 10,
@@ -597,12 +525,8 @@ export default {
         "new approach"
       ],
       "optionReasons": {
-        "new-mcq-05": "本句指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-02": "「最近才與某人或組織建立關係，例如新買、新加入、新上任或新搬來的」是「new — recently acquired/appointed/arrived」的用法，與本句語境不同。"
+        "new-mcq-05": "本句的「new approach」指「與以往不同，形成新的觀點、方法、方向、狀態或可能性」。",
+        "new-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-05"
     },
@@ -614,11 +538,7 @@ export default {
       "masked": "Police found ____ in the case.",
       "options": [
         "new-mcq-09",
-        "new-mcq-08",
-        "new-mcq-10",
-        "new-mcq-07",
-        "new-mcq-11",
-        "new-mcq-06"
+        "new-mcq-05"
       ],
       "explanation": "本句的「new evidence」指「最近才被發現、取得或知道，而之前並未掌握的資料」。",
       "sentenceIndex": 11,
@@ -627,12 +547,8 @@ export default {
         "new evidence"
       ],
       "optionReasons": {
-        "new-mcq-09": "本句指「最近才被發現、取得或知道，而之前並未掌握的資料」。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-11": "「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」是「Fixed expression: as good as new — 恢復得像新的一樣」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-09": "本句的「new evidence」指「最近才被發現、取得或知道，而之前並未掌握的資料」。",
+        "new-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-09"
     },
@@ -644,11 +560,7 @@ export default {
       "masked": "The research provides ____ about the disease.",
       "options": [
         "new-mcq-09",
-        "new-mcq-08",
-        "new-mcq-10",
-        "new-mcq-07",
-        "new-mcq-11",
-        "new-mcq-06"
+        "new-mcq-11"
       ],
       "explanation": "本句的「new information」指「最近才被發現、取得或知道，而之前並未掌握的資料」。",
       "sentenceIndex": 12,
@@ -657,12 +569,8 @@ export default {
         "new information"
       ],
       "optionReasons": {
-        "new-mcq-09": "本句指「最近才被發現、取得或知道，而之前並未掌握的資料」。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-11": "「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」是「Fixed expression: as good as new — 恢復得像新的一樣」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。"
+        "new-mcq-09": "本句的「new information」指「最近才被發現、取得或知道，而之前並未掌握的資料」。",
+        "new-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-09"
     },
@@ -674,11 +582,8 @@ export default {
       "masked": "They moved into a ____ apartment.",
       "options": [
         "new-mcq-06",
-        "new-mcq-05",
-        "new-mcq-07",
-        "new-mcq-04",
-        "new-mcq-08",
-        "new-mcq-03"
+        "new-mcq-12",
+        "new-mcq-10"
       ],
       "explanation": "本句的「newly built」指「某種身分、狀態、行動或創造在最近才開始或完成」。",
       "sentenceIndex": 13,
@@ -687,12 +592,9 @@ export default {
         "newly built"
       ],
       "optionReasons": {
-        "new-mcq-06": "本句指「某種身分、狀態、行動或創造在最近才開始或完成」。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。"
+        "new-mcq-06": "本句的「newly built」指「某種身分、狀態、行動或創造在最近才開始或完成」。",
+        "new-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-06"
     },
@@ -704,11 +606,8 @@ export default {
       "masked": "She is the ____ director.",
       "options": [
         "new-mcq-06",
-        "new-mcq-05",
-        "new-mcq-07",
-        "new-mcq-04",
-        "new-mcq-08",
-        "new-mcq-03"
+        "new-mcq-12",
+        "new-mcq-10"
       ],
       "explanation": "本句的「newly appointed」指「某種身分、狀態、行動或創造在最近才開始或完成」。",
       "sentenceIndex": 14,
@@ -717,12 +616,9 @@ export default {
         "newly appointed"
       ],
       "optionReasons": {
-        "new-mcq-06": "本句指「某種身分、狀態、行動或創造在最近才開始或完成」。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-03": "「從未被使用、穿着或擁有過，仍處於原本全新狀態的」是「new — unused」的用法，與本句語境不同。"
+        "new-mcq-06": "本句的「newly appointed」指「某種身分、狀態、行動或創造在最近才開始或完成」。",
+        "new-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-06"
     },
@@ -734,11 +630,8 @@ export default {
       "masked": "The ____ of the experience made it exciting.",
       "options": [
         "new-mcq-07",
-        "new-mcq-06",
         "new-mcq-08",
-        "new-mcq-05",
-        "new-mcq-09",
-        "new-mcq-04"
+        "new-mcq-10"
       ],
       "explanation": "本句的「newness」指「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」。",
       "sentenceIndex": 15,
@@ -747,12 +640,9 @@ export default {
         "newness"
       ],
       "optionReasons": {
-        "new-mcq-07": "本句指「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。"
+        "new-mcq-07": "本句的「newness」指「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」。",
+        "new-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-07"
     },
@@ -764,11 +654,8 @@ export default {
       "masked": "After a few weeks, the ____ began to wear off.",
       "options": [
         "new-mcq-07",
-        "new-mcq-06",
         "new-mcq-08",
-        "new-mcq-05",
-        "new-mcq-09",
-        "new-mcq-04"
+        "new-mcq-10"
       ],
       "explanation": "本句的「newness」指「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」。",
       "sentenceIndex": 16,
@@ -777,12 +664,9 @@ export default {
         "newness"
       ],
       "optionReasons": {
-        "new-mcq-07": "本句指「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-04": "「某人之前沒有接觸、知道或經歷過，或剛開始參與而經驗尚少的」是「new to someone/activity」的用法，與本句語境不同。"
+        "new-mcq-07": "本句的「newness」指「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」。",
+        "new-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-07"
     },
@@ -795,10 +679,7 @@ export default {
       "options": [
         "new-mcq-08",
         "new-mcq-07",
-        "new-mcq-09",
-        "new-mcq-06",
-        "new-mcq-10",
-        "new-mcq-05"
+        "new-mcq-10"
       ],
       "explanation": "本句的「newcomer」指「最近才來到某地方、加入某群體或開始參與某領域的人」。",
       "sentenceIndex": 17,
@@ -807,12 +688,9 @@ export default {
         "newcomer"
       ],
       "optionReasons": {
-        "new-mcq-08": "本句指「最近才來到某地方、加入某群體或開始參與某領域的人」。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。"
+        "new-mcq-08": "本句的「newcomer」指「最近才來到某地方、加入某群體或開始參與某領域的人」。",
+        "new-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-08"
     },
@@ -824,10 +702,6 @@ export default {
       "masked": "The club welcomes ____.",
       "options": [
         "new-mcq-08",
-        "new-mcq-07",
-        "new-mcq-09",
-        "new-mcq-06",
-        "new-mcq-10",
         "new-mcq-05"
       ],
       "explanation": "本句的「newcomers」指「最近才來到某地方、加入某群體或開始參與某領域的人」。",
@@ -837,12 +711,8 @@ export default {
         "newcomers"
       ],
       "optionReasons": {
-        "new-mcq-08": "本句指「最近才來到某地方、加入某群體或開始參與某領域的人」。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-06": "「某種身分、狀態、行動或創造在最近才開始或完成」是「newly」的用法，與本句語境不同。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-05": "「與以往不同，形成新的觀點、方法、方向、狀態或可能性」是「new — fresh/different from before」的用法，與本句語境不同。"
+        "new-mcq-08": "本句的「newcomers」指「最近才來到某地方、加入某群體或開始參與某領域的人」。",
+        "new-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-08"
     },
@@ -854,10 +724,7 @@ export default {
       "masked": "She bought a ____ laptop.",
       "options": [
         "new-mcq-10",
-        "new-mcq-09",
-        "new-mcq-11",
         "new-mcq-08",
-        "new-mcq-12",
         "new-mcq-07"
       ],
       "explanation": "本句的「brand-new」指「完全新的，尤其強調從未使用或剛剛製成／推出」。",
@@ -867,12 +734,9 @@ export default {
         "brand-new"
       ],
       "optionReasons": {
-        "new-mcq-10": "本句指「完全新的，尤其強調從未使用或剛剛製成／推出」。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-11": "「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」是「Fixed expression: as good as new — 恢復得像新的一樣」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-12": "「某人或某物重新獲得活力、用途或發展機會」是「Fixed expression: a new lease of life — 重獲活力／新生」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。"
+        "new-mcq-10": "本句的「brand-new」指「完全新的，尤其強調從未使用或剛剛製成／推出」。",
+        "new-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-10"
     },
@@ -884,10 +748,7 @@ export default {
       "masked": "The school has a ____ sports centre.",
       "options": [
         "new-mcq-10",
-        "new-mcq-09",
-        "new-mcq-11",
         "new-mcq-08",
-        "new-mcq-12",
         "new-mcq-07"
       ],
       "explanation": "本句的「brand-new」指「完全新的，尤其強調從未使用或剛剛製成／推出」。",
@@ -897,12 +758,9 @@ export default {
         "brand-new"
       ],
       "optionReasons": {
-        "new-mcq-10": "本句指「完全新的，尤其強調從未使用或剛剛製成／推出」。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-11": "「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」是「Fixed expression: as good as new — 恢復得像新的一樣」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-12": "「某人或某物重新獲得活力、用途或發展機會」是「Fixed expression: a new lease of life — 重獲活力／新生」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。"
+        "new-mcq-10": "本句的「brand-new」指「完全新的，尤其強調從未使用或剛剛製成／推出」。",
+        "new-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-10"
     },
@@ -914,11 +772,7 @@ export default {
       "masked": "After the repair, the bike was ____.",
       "options": [
         "new-mcq-11",
-        "new-mcq-10",
-        "new-mcq-12",
-        "new-mcq-09",
-        "new-mcq-08",
-        "new-mcq-07"
+        "new-mcq-08"
       ],
       "explanation": "本句的「as good as new」指「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」。",
       "sentenceIndex": 21,
@@ -927,12 +781,8 @@ export default {
         "as good as new"
       ],
       "optionReasons": {
-        "new-mcq-11": "本句指「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-12": "「某人或某物重新獲得活力、用途或發展機會」是「Fixed expression: a new lease of life — 重獲活力／新生」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。"
+        "new-mcq-11": "本句的「as good as new」指「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」。",
+        "new-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-11"
     },
@@ -944,11 +794,7 @@ export default {
       "masked": "Wash the cover and it will look ____.",
       "options": [
         "new-mcq-11",
-        "new-mcq-10",
-        "new-mcq-12",
-        "new-mcq-09",
-        "new-mcq-08",
-        "new-mcq-07"
+        "new-mcq-09"
       ],
       "explanation": "本句的「as good as new」指「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」。",
       "sentenceIndex": 22,
@@ -957,12 +803,8 @@ export default {
         "as good as new"
       ],
       "optionReasons": {
-        "new-mcq-11": "本句指「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-12": "「某人或某物重新獲得活力、用途或發展機會」是「Fixed expression: a new lease of life — 重獲活力／新生」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。"
+        "new-mcq-11": "本句的「as good as new」指「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」。",
+        "new-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-11"
     },
@@ -974,11 +816,8 @@ export default {
       "masked": "The renovation gave the old building a ____.",
       "options": [
         "new-mcq-12",
-        "new-mcq-11",
-        "new-mcq-10",
-        "new-mcq-09",
-        "new-mcq-08",
-        "new-mcq-07"
+        "new-mcq-06",
+        "new-mcq-10"
       ],
       "explanation": "本句的「new lease of life」指「某人或某物重新獲得活力、用途或發展機會」。",
       "sentenceIndex": 23,
@@ -987,12 +826,9 @@ export default {
         "new lease of life"
       ],
       "optionReasons": {
-        "new-mcq-12": "本句指「某人或某物重新獲得活力、用途或發展機會」。",
-        "new-mcq-11": "「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」是「Fixed expression: as good as new — 恢復得像新的一樣」的用法，與本句語境不同。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。"
+        "new-mcq-12": "本句的「new lease of life」指「某人或某物重新獲得活力、用途或發展機會」。",
+        "new-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-12"
     },
@@ -1004,11 +840,8 @@ export default {
       "masked": "The new role gave him a ____.",
       "options": [
         "new-mcq-12",
-        "new-mcq-11",
-        "new-mcq-10",
-        "new-mcq-09",
-        "new-mcq-08",
-        "new-mcq-07"
+        "new-mcq-06",
+        "new-mcq-10"
       ],
       "explanation": "本句的「new lease of life」指「某人或某物重新獲得活力、用途或發展機會」。",
       "sentenceIndex": 24,
@@ -1017,12 +850,9 @@ export default {
         "new lease of life"
       ],
       "optionReasons": {
-        "new-mcq-12": "本句指「某人或某物重新獲得活力、用途或發展機會」。",
-        "new-mcq-11": "「雖然不是新的，但經修理、清潔或恢復後狀態幾乎像全新一樣」是「Fixed expression: as good as new — 恢復得像新的一樣」的用法，與本句語境不同。",
-        "new-mcq-10": "「完全新的，尤其強調從未使用或剛剛製成／推出」是「Fixed expression: brand-new — 全新的；嶄新的」的用法，與本句語境不同。",
-        "new-mcq-09": "「最近才被發現、取得或知道，而之前並未掌握的資料」是「6. new = recently discovered/learned（資訊／證據／知識） — 新發現的；新獲得的」的用法，與本句語境不同。",
-        "new-mcq-08": "「最近才來到某地方、加入某群體或開始參與某領域的人」是「newcomer」的用法，與本句語境不同。",
-        "new-mcq-07": "「某件事因剛出現、剛接觸或與以往不同而具有的新鮮狀態／感覺」是「newness」的用法，與本句語境不同。"
+        "new-mcq-12": "本句的「new lease of life」指「某人或某物重新獲得活力、用途或發展機會」。",
+        "new-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "new-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "new-mcq-12"
     }
@@ -1034,5 +864,7 @@ export default {
     "sha256": "3ade7226d88647fe1ac0ac33e282920d78b8c586decff3d47ae8200ccc32937a",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

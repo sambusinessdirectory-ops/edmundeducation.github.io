@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "feedback-mcq-06",
-      "title": "表示肯定、滿意或認為表現良好的正面回饋",
+      "title": "肯定、滿意或認為表現良好的正面回饋",
       "form": "positive feedback — everyday",
       "en": "positive feedback — everyday",
       "zh": "表示肯定、滿意或認為表現良好的正面回饋",
@@ -486,11 +486,7 @@ export default {
       "masked": "The teacher gave me detailed ____ on my essay.",
       "options": [
         "feedback-mcq-01",
-        "feedback-mcq-02",
-        "feedback-mcq-03",
-        "feedback-mcq-04",
-        "feedback-mcq-05",
-        "feedback-mcq-06"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback」指「針對某人的作品、表現或行為所提供的評語、意見或回饋」。",
       "sentenceIndex": 2,
@@ -499,12 +495,8 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-01": "本句指「針對某人的作品、表現或行為所提供的評語、意見或回饋」。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-01": "本句的「feedback」指「針對某人的作品、表現或行為所提供的評語、意見或回饋」。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-01"
     },
@@ -516,11 +508,7 @@ export default {
       "masked": "I’d appreciate your ____ on this presentation.",
       "options": [
         "feedback-mcq-01",
-        "feedback-mcq-02",
-        "feedback-mcq-03",
-        "feedback-mcq-04",
-        "feedback-mcq-05",
-        "feedback-mcq-06"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback」指「針對某人的作品、表現或行為所提供的評語、意見或回饋」。",
       "sentenceIndex": 3,
@@ -529,12 +517,8 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-01": "本句指「針對某人的作品、表現或行為所提供的評語、意見或回饋」。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-01": "本句的「feedback」指「針對某人的作品、表現或行為所提供的評語、意見或回饋」。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-01"
     },
@@ -546,11 +530,8 @@ export default {
       "masked": "Please ____ on my writing.",
       "options": [
         "feedback-mcq-02",
-        "feedback-mcq-01",
-        "feedback-mcq-03",
-        "feedback-mcq-04",
-        "feedback-mcq-05",
-        "feedback-mcq-06"
+        "feedback-mcq-16",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「give me some feedback」指「向某人提供關於其表現、作品或做法的意見」。",
       "sentenceIndex": 4,
@@ -559,12 +540,9 @@ export default {
         "give me some feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-02": "本句指「向某人提供關於其表現、作品或做法的意見」。",
-        "feedback-mcq-01": "「針對某人的作品、表現或行為所提供的評語、意見或回饋」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-02": "本句的「give me some feedback」指「向某人提供關於其表現、作品或做法的意見」。",
+        "feedback-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-02"
     },
@@ -576,11 +554,8 @@ export default {
       "masked": "Managers should ____ to staff.",
       "options": [
         "feedback-mcq-02",
-        "feedback-mcq-01",
-        "feedback-mcq-03",
-        "feedback-mcq-04",
-        "feedback-mcq-05",
-        "feedback-mcq-06"
+        "feedback-mcq-17",
+        "feedback-mcq-07"
       ],
       "explanation": "本句的「give regular feedback」指「向某人提供關於其表現、作品或做法的意見」。",
       "sentenceIndex": 5,
@@ -589,12 +564,9 @@ export default {
         "give regular feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-02": "本句指「向某人提供關於其表現、作品或做法的意見」。",
-        "feedback-mcq-01": "「針對某人的作品、表現或行為所提供的評語、意見或回饋」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-02": "本句的「give regular feedback」指「向某人提供關於其表現、作品或做法的意見」。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-02"
     },
@@ -606,11 +578,8 @@ export default {
       "masked": "Students ____ after each assignment.",
       "options": [
         "feedback-mcq-03",
-        "feedback-mcq-02",
-        "feedback-mcq-04",
-        "feedback-mcq-01",
-        "feedback-mcq-05",
-        "feedback-mcq-06"
+        "feedback-mcq-16",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「receive feedback」指「從別人取得關於自己表現、作品或做法的評語／意見」。",
       "sentenceIndex": 6,
@@ -619,12 +588,9 @@ export default {
         "receive feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-03": "本句指「從別人取得關於自己表現、作品或做法的評語／意見」。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-01": "「針對某人的作品、表現或行為所提供的評語、意見或回饋」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-03": "本句的「receive feedback」指「從別人取得關於自己表現、作品或做法的評語／意見」。",
+        "feedback-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-03"
     },
@@ -636,11 +602,8 @@ export default {
       "masked": "She was open to ____.",
       "options": [
         "feedback-mcq-03",
-        "feedback-mcq-02",
-        "feedback-mcq-04",
-        "feedback-mcq-01",
-        "feedback-mcq-05",
-        "feedback-mcq-06"
+        "feedback-mcq-15",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「receiving feedback」指「從別人取得關於自己表現、作品或做法的評語／意見」。",
       "sentenceIndex": 7,
@@ -649,12 +612,9 @@ export default {
         "receiving feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-03": "本句指「從別人取得關於自己表現、作品或做法的評語／意見」。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-01": "「針對某人的作品、表現或行為所提供的評語、意見或回饋」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-03": "本句的「receiving feedback」指「從別人取得關於自己表現、作品或做法的評語／意見」。",
+        "feedback-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-03"
     },
@@ -666,11 +626,8 @@ export default {
       "masked": "We received useful ____.",
       "options": [
         "feedback-mcq-04",
-        "feedback-mcq-03",
-        "feedback-mcq-05",
-        "feedback-mcq-02",
-        "feedback-mcq-06",
-        "feedback-mcq-01"
+        "feedback-mcq-15",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback on the new design」指「專門針對某個作品、技能、設計或行動所提供的意見」。",
       "sentenceIndex": 8,
@@ -679,12 +636,9 @@ export default {
         "feedback on the new design"
       ],
       "optionReasons": {
-        "feedback-mcq-04": "本句指「專門針對某個作品、技能、設計或行動所提供的意見」。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-01": "「針對某人的作品、表現或行為所提供的評語、意見或回饋」與本句語境不同。"
+        "feedback-mcq-04": "本句的「feedback on the new design」指「專門針對某個作品、技能、設計或行動所提供的意見」。",
+        "feedback-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-04"
     },
@@ -696,11 +650,8 @@ export default {
       "masked": "Can you give me ____?",
       "options": [
         "feedback-mcq-04",
-        "feedback-mcq-03",
-        "feedback-mcq-05",
-        "feedback-mcq-02",
-        "feedback-mcq-06",
-        "feedback-mcq-01"
+        "feedback-mcq-16",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback on my pronunciation」指「專門針對某個作品、技能、設計或行動所提供的意見」。",
       "sentenceIndex": 9,
@@ -709,12 +660,9 @@ export default {
         "feedback on my pronunciation"
       ],
       "optionReasons": {
-        "feedback-mcq-04": "本句指「專門針對某個作品、技能、設計或行動所提供的意見」。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-01": "「針對某人的作品、表現或行為所提供的評語、意見或回饋」與本句語境不同。"
+        "feedback-mcq-04": "本句的「feedback on my pronunciation」指「專門針對某個作品、技能、設計或行動所提供的意見」。",
+        "feedback-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-04"
     },
@@ -726,11 +674,7 @@ export default {
       "masked": "She always gives ____ instead of simply criticizing.",
       "options": [
         "feedback-mcq-05",
-        "feedback-mcq-04",
-        "feedback-mcq-06",
-        "feedback-mcq-03",
-        "feedback-mcq-07",
-        "feedback-mcq-02"
+        "feedback-mcq-09"
       ],
       "explanation": "本句的「constructive feedback」指「目的在幫助改進、具體指出優點與改善方向的建設性回饋」。",
       "sentenceIndex": 10,
@@ -739,12 +683,8 @@ export default {
         "constructive feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-05": "本句指「目的在幫助改進、具體指出優點與改善方向的建設性回饋」。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。"
+        "feedback-mcq-05": "本句的「constructive feedback」指「目的在幫助改進、具體指出優點與改善方向的建設性回饋」。",
+        "feedback-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-05"
     },
@@ -756,11 +696,7 @@ export default {
       "masked": "____ should be specific and practical.",
       "options": [
         "feedback-mcq-05",
-        "feedback-mcq-04",
-        "feedback-mcq-06",
-        "feedback-mcq-03",
-        "feedback-mcq-07",
-        "feedback-mcq-02"
+        "feedback-mcq-03"
       ],
       "explanation": "本句的「Constructive feedback」指「目的在幫助改進、具體指出優點與改善方向的建設性回饋」。",
       "sentenceIndex": 11,
@@ -769,12 +705,8 @@ export default {
         "Constructive feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-05": "本句指「目的在幫助改進、具體指出優點與改善方向的建設性回饋」。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-02": "「向某人提供關於其表現、作品或做法的意見」與本句語境不同。"
+        "feedback-mcq-05": "本句的「Constructive feedback」指「目的在幫助改進、具體指出優點與改善方向的建設性回饋」。",
+        "feedback-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-05"
     },
@@ -786,11 +718,7 @@ export default {
       "masked": "The new programme received a lot of ____.",
       "options": [
         "feedback-mcq-06",
-        "feedback-mcq-05",
-        "feedback-mcq-07",
-        "feedback-mcq-04",
-        "feedback-mcq-08",
-        "feedback-mcq-03"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「positive feedback」指「表示肯定、滿意或認為表現良好的正面回饋」。",
       "sentenceIndex": 12,
@@ -799,12 +727,8 @@ export default {
         "positive feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-06": "本句指「表示肯定、滿意或認為表現良好的正面回饋」。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。"
+        "feedback-mcq-06": "本句的「positive feedback」指「表示肯定、滿意或認為表現良好的正面回饋」。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-06"
     },
@@ -816,11 +740,7 @@ export default {
       "masked": "Positive ____ can increase confidence.",
       "options": [
         "feedback-mcq-06",
-        "feedback-mcq-05",
-        "feedback-mcq-07",
-        "feedback-mcq-04",
-        "feedback-mcq-08",
-        "feedback-mcq-03"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback」指「表示肯定、滿意或認為表現良好的正面回饋」。",
       "sentenceIndex": 13,
@@ -829,12 +749,8 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-06": "本句指「表示肯定、滿意或認為表現良好的正面回饋」。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-03": "「從別人取得關於自己表現、作品或做法的評語／意見」與本句語境不同。"
+        "feedback-mcq-06": "本句的「feedback」指「表示肯定、滿意或認為表現良好的正面回饋」。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-06"
     },
@@ -846,11 +762,8 @@ export default {
       "masked": "The product received some ____.",
       "options": [
         "feedback-mcq-07",
-        "feedback-mcq-06",
-        "feedback-mcq-08",
-        "feedback-mcq-05",
-        "feedback-mcq-09",
-        "feedback-mcq-04"
+        "feedback-mcq-12",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「negative feedback」指「指出問題、不滿或不足之處的負面回饋」。",
       "sentenceIndex": 14,
@@ -859,12 +772,9 @@ export default {
         "negative feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-07": "本句指「指出問題、不滿或不足之處的負面回饋」。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。"
+        "feedback-mcq-07": "本句的「negative feedback」指「指出問題、不滿或不足之處的負面回饋」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-07"
     },
@@ -876,11 +786,8 @@ export default {
       "masked": "Even ____ can be useful if it is specific.",
       "options": [
         "feedback-mcq-07",
-        "feedback-mcq-06",
-        "feedback-mcq-08",
-        "feedback-mcq-05",
-        "feedback-mcq-09",
-        "feedback-mcq-04"
+        "feedback-mcq-12",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「negative feedback」指「指出問題、不滿或不足之處的負面回饋」。",
       "sentenceIndex": 15,
@@ -889,12 +796,9 @@ export default {
         "negative feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-07": "本句指「指出問題、不滿或不足之處的負面回饋」。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。"
+        "feedback-mcq-07": "本句的「negative feedback」指「指出問題、不滿或不足之處的負面回饋」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-07"
     },
@@ -906,11 +810,8 @@ export default {
       "masked": "Students benefit from ____.",
       "options": [
         "feedback-mcq-07",
-        "feedback-mcq-06",
-        "feedback-mcq-08",
-        "feedback-mcq-05",
-        "feedback-mcq-09",
-        "feedback-mcq-04"
+        "feedback-mcq-03",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「specific feedback」指「指出問題、不滿或不足之處的負面回饋」。",
       "sentenceIndex": 16,
@@ -919,12 +820,9 @@ export default {
         "specific feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-07": "本句指「指出問題、不滿或不足之處的負面回饋」。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。"
+        "feedback-mcq-07": "本句的「specific feedback」指「指出問題、不滿或不足之處的負面回饋」。",
+        "feedback-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-07"
     },
@@ -936,11 +834,8 @@ export default {
       "masked": "Her comments were much more useful because the ____.",
       "options": [
         "feedback-mcq-07",
-        "feedback-mcq-06",
-        "feedback-mcq-08",
-        "feedback-mcq-05",
-        "feedback-mcq-09",
-        "feedback-mcq-04"
+        "feedback-mcq-12",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback was detailed」指「指出問題、不滿或不足之處的負面回饋」。",
       "sentenceIndex": 17,
@@ -949,12 +844,9 @@ export default {
         "feedback was detailed"
       ],
       "optionReasons": {
-        "feedback-mcq-07": "本句指「指出問題、不滿或不足之處的負面回饋」。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-04": "「專門針對某個作品、技能、設計或行動所提供的意見」與本句語境不同。"
+        "feedback-mcq-07": "本句的「feedback was detailed」指「指出問題、不滿或不足之處的負面回饋」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-07"
     },
@@ -966,11 +858,8 @@ export default {
       "masked": "The company collects ____ online.",
       "options": [
         "feedback-mcq-08",
-        "feedback-mcq-07",
-        "feedback-mcq-09",
-        "feedback-mcq-06",
-        "feedback-mcq-10",
-        "feedback-mcq-05"
+        "feedback-mcq-21",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「customer feedback」指「顧客對產品、服務或體驗所提供的意見／反應」。",
       "sentenceIndex": 18,
@@ -979,12 +868,9 @@ export default {
         "customer feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-08": "本句指「顧客對產品、服務或體驗所提供的意見／反應」。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。"
+        "feedback-mcq-08": "本句的「customer feedback」指「顧客對產品、服務或體驗所提供的意見／反應」。",
+        "feedback-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-08"
     },
@@ -996,11 +882,8 @@ export default {
       "masked": "____ helped improve the product.",
       "options": [
         "feedback-mcq-08",
-        "feedback-mcq-07",
-        "feedback-mcq-09",
-        "feedback-mcq-06",
-        "feedback-mcq-10",
-        "feedback-mcq-05"
+        "feedback-mcq-15",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「Customer feedback」指「顧客對產品、服務或體驗所提供的意見／反應」。",
       "sentenceIndex": 19,
@@ -1009,12 +892,9 @@ export default {
         "Customer feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-08": "本句指「顧客對產品、服務或體驗所提供的意見／反應」。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-05": "「目的在幫助改進、具體指出優點與改善方向的建設性回饋」與本句語境不同。"
+        "feedback-mcq-08": "本句的「Customer feedback」指「顧客對產品、服務或體驗所提供的意見／反應」。",
+        "feedback-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-08"
     },
@@ -1026,11 +906,7 @@ export default {
       "masked": "The app was redesigned based on ____.",
       "options": [
         "feedback-mcq-09",
-        "feedback-mcq-08",
-        "feedback-mcq-10",
-        "feedback-mcq-07",
-        "feedback-mcq-11",
-        "feedback-mcq-06"
+        "feedback-mcq-15"
       ],
       "explanation": "本句的「user feedback」指「使用者對系統、產品或服務所提供的意見」。",
       "sentenceIndex": 20,
@@ -1039,12 +915,8 @@ export default {
         "user feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-09": "本句指「使用者對系統、產品或服務所提供的意見」。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-09": "本句的「user feedback」指「使用者對系統、產品或服務所提供的意見」。",
+        "feedback-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-09"
     },
@@ -1056,11 +928,7 @@ export default {
       "masked": "We are gathering ____ before launch.",
       "options": [
         "feedback-mcq-09",
-        "feedback-mcq-08",
-        "feedback-mcq-10",
-        "feedback-mcq-07",
-        "feedback-mcq-11",
-        "feedback-mcq-06"
+        "feedback-mcq-07"
       ],
       "explanation": "本句的「user feedback」指「使用者對系統、產品或服務所提供的意見」。",
       "sentenceIndex": 21,
@@ -1069,12 +937,8 @@ export default {
         "user feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-09": "本句指「使用者對系統、產品或服務所提供的意見」。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。",
-        "feedback-mcq-06": "「表示肯定、滿意或認為表現良好的正面回饋」與本句語境不同。"
+        "feedback-mcq-09": "本句的「user feedback」指「使用者對系統、產品或服務所提供的意見」。",
+        "feedback-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-09"
     },
@@ -1086,11 +950,8 @@ export default {
       "masked": "Employees receive regular ____.",
       "options": [
         "feedback-mcq-10",
-        "feedback-mcq-09",
-        "feedback-mcq-11",
-        "feedback-mcq-08",
         "feedback-mcq-12",
-        "feedback-mcq-07"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「performance feedback」指「對員工或個人工作表現所提供的評估性回饋」。",
       "sentenceIndex": 26,
@@ -1099,12 +960,9 @@ export default {
         "performance feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-10": "本句指「對員工或個人工作表現所提供的評估性回饋」。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。"
+        "feedback-mcq-10": "本句的「performance feedback」指「對員工或個人工作表現所提供的評估性回饋」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-10"
     },
@@ -1116,11 +974,8 @@ export default {
       "masked": "Clear ____ helps staff improve.",
       "options": [
         "feedback-mcq-10",
-        "feedback-mcq-09",
-        "feedback-mcq-11",
-        "feedback-mcq-08",
         "feedback-mcq-12",
-        "feedback-mcq-07"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「performance feedback」指「對員工或個人工作表現所提供的評估性回饋」。",
       "sentenceIndex": 27,
@@ -1129,12 +984,9 @@ export default {
         "performance feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-10": "本句指「對員工或個人工作表現所提供的評估性回饋」。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。",
-        "feedback-mcq-07": "「指出問題、不滿或不足之處的負面回饋」與本句語境不同。"
+        "feedback-mcq-10": "本句的「performance feedback」指「對員工或個人工作表現所提供的評估性回饋」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-10"
     },
@@ -1146,11 +998,8 @@ export default {
       "masked": "Students exchanged ____ on their essays.",
       "options": [
         "feedback-mcq-11",
-        "feedback-mcq-10",
-        "feedback-mcq-12",
-        "feedback-mcq-09",
-        "feedback-mcq-13",
-        "feedback-mcq-08"
+        "feedback-mcq-19",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「peer feedback」指「由同學、同事等同儕提供的回饋」。",
       "sentenceIndex": 28,
@@ -1159,12 +1008,9 @@ export default {
         "peer feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-11": "本句指「由同學、同事等同儕提供的回饋」。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。"
+        "feedback-mcq-11": "本句的「peer feedback」指「由同學、同事等同儕提供的回饋」。",
+        "feedback-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-11"
     },
@@ -1176,11 +1022,8 @@ export default {
       "masked": "____ can provide a different perspective.",
       "options": [
         "feedback-mcq-11",
-        "feedback-mcq-10",
-        "feedback-mcq-12",
-        "feedback-mcq-09",
-        "feedback-mcq-13",
-        "feedback-mcq-08"
+        "feedback-mcq-19",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「Peer feedback」指「由同學、同事等同儕提供的回饋」。",
       "sentenceIndex": 29,
@@ -1189,12 +1032,9 @@ export default {
         "Peer feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-11": "本句指「由同學、同事等同儕提供的回饋」。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-08": "「顧客對產品、服務或體驗所提供的意見／反應」與本句語境不同。"
+        "feedback-mcq-11": "本句的「Peer feedback」指「由同學、同事等同儕提供的回饋」。",
+        "feedback-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-11"
     },
@@ -1206,11 +1046,8 @@ export default {
       "masked": "I revised the essay using my teacher’s ____.",
       "options": [
         "feedback-mcq-12",
-        "feedback-mcq-11",
-        "feedback-mcq-13",
-        "feedback-mcq-10",
-        "feedback-mcq-14",
-        "feedback-mcq-09"
+        "feedback-mcq-21",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback」指「人們對某項想法、產品或行動的整體反應」。",
       "sentenceIndex": 30,
@@ -1219,12 +1056,9 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-12": "本句指「人們對某項想法、產品或行動的整體反應」。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。"
+        "feedback-mcq-12": "本句的「feedback」指「人們對某項想法、產品或行動的整體反應」。",
+        "feedback-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-12"
     },
@@ -1236,11 +1070,8 @@ export default {
       "masked": "Regular ____ supports learning.",
       "options": [
         "feedback-mcq-12",
-        "feedback-mcq-11",
-        "feedback-mcq-13",
-        "feedback-mcq-10",
-        "feedback-mcq-14",
-        "feedback-mcq-09"
+        "feedback-mcq-21",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「teacher feedback」指「人們對某項想法、產品或行動的整體反應」。",
       "sentenceIndex": 31,
@@ -1249,12 +1080,9 @@ export default {
         "teacher feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-12": "本句指「人們對某項想法、產品或行動的整體反應」。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-10": "「對員工或個人工作表現所提供的評估性回饋」與本句語境不同。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。",
-        "feedback-mcq-09": "「使用者對系統、產品或服務所提供的意見」與本句語境不同。"
+        "feedback-mcq-12": "本句的「teacher feedback」指「人們對某項想法、產品或行動的整體反應」。",
+        "feedback-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-12"
     },
@@ -1266,11 +1094,7 @@ export default {
       "masked": "The system contains a ____.",
       "options": [
         "feedback-mcq-14",
-        "feedback-mcq-13",
-        "feedback-mcq-15",
-        "feedback-mcq-12",
-        "feedback-mcq-16",
-        "feedback-mcq-11"
+        "feedback-mcq-19"
       ],
       "explanation": "本句的「feedback loop」指「輸出再次影響後續輸入或運作的回饋／回授迴路」。",
       "sentenceIndex": 34,
@@ -1279,12 +1103,8 @@ export default {
         "feedback loop"
       ],
       "optionReasons": {
-        "feedback-mcq-14": "本句指「輸出再次影響後續輸入或運作的回饋／回授迴路」。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。"
+        "feedback-mcq-14": "本句的「feedback loop」指「輸出再次影響後續輸入或運作的回饋／回授迴路」。",
+        "feedback-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-14"
     },
@@ -1296,11 +1116,7 @@ export default {
       "masked": "Social media can create a ____ in which popular content receives even more attention.",
       "options": [
         "feedback-mcq-14",
-        "feedback-mcq-13",
-        "feedback-mcq-15",
-        "feedback-mcq-12",
-        "feedback-mcq-16",
-        "feedback-mcq-11"
+        "feedback-mcq-09"
       ],
       "explanation": "本句的「feedback loop」指「輸出再次影響後續輸入或運作的回饋／回授迴路」。",
       "sentenceIndex": 35,
@@ -1309,12 +1125,8 @@ export default {
         "feedback loop"
       ],
       "optionReasons": {
-        "feedback-mcq-14": "本句指「輸出再次影響後續輸入或運作的回饋／回授迴路」。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-11": "「由同學、同事等同儕提供的回饋」與本句語境不同。"
+        "feedback-mcq-14": "本句的「feedback loop」指「輸出再次影響後續輸入或運作的回饋／回授迴路」。",
+        "feedback-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-14"
     },
@@ -1326,11 +1138,7 @@ export default {
       "masked": "A ____ can accelerate change.",
       "options": [
         "feedback-mcq-15",
-        "feedback-mcq-14",
-        "feedback-mcq-16",
-        "feedback-mcq-13",
-        "feedback-mcq-17",
-        "feedback-mcq-12"
+        "feedback-mcq-09"
       ],
       "explanation": "本句的「positive feedback loop」指「會放大、強化原有變化的正回饋機制」。",
       "sentenceIndex": 36,
@@ -1339,12 +1147,8 @@ export default {
         "positive feedback loop"
       ],
       "optionReasons": {
-        "feedback-mcq-15": "本句指「會放大、強化原有變化的正回饋機制」。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。"
+        "feedback-mcq-15": "本句的「positive feedback loop」指「會放大、強化原有變化的正回饋機制」。",
+        "feedback-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-15"
     },
@@ -1356,11 +1160,8 @@ export default {
       "masked": "The process is strengthened by ____.",
       "options": [
         "feedback-mcq-15",
-        "feedback-mcq-14",
-        "feedback-mcq-16",
-        "feedback-mcq-13",
-        "feedback-mcq-17",
-        "feedback-mcq-12"
+        "feedback-mcq-03",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「positive feedback」指「會放大、強化原有變化的正回饋機制」。",
       "sentenceIndex": 37,
@@ -1369,12 +1170,9 @@ export default {
         "positive feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-15": "本句指「會放大、強化原有變化的正回饋機制」。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-12": "「人們對某項想法、產品或行動的整體反應」與本句語境不同。"
+        "feedback-mcq-15": "本句的「positive feedback」指「會放大、強化原有變化的正回饋機制」。",
+        "feedback-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-15"
     },
@@ -1386,11 +1184,8 @@ export default {
       "masked": "The body uses ____ to regulate temperature.",
       "options": [
         "feedback-mcq-16",
-        "feedback-mcq-15",
-        "feedback-mcq-17",
-        "feedback-mcq-14",
-        "feedback-mcq-18",
-        "feedback-mcq-13"
+        "feedback-mcq-08",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「negative feedback」指「會抑制變化、維持穩定的負回饋機制」。",
       "sentenceIndex": 38,
@@ -1399,12 +1194,9 @@ export default {
         "negative feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-16": "本句指「會抑制變化、維持穩定的負回饋機制」。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。"
+        "feedback-mcq-16": "本句的「negative feedback」指「會抑制變化、維持穩定的負回饋機制」。",
+        "feedback-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-16"
     },
@@ -1416,11 +1208,8 @@ export default {
       "masked": "____ can stabilize the system.",
       "options": [
         "feedback-mcq-16",
-        "feedback-mcq-15",
-        "feedback-mcq-17",
-        "feedback-mcq-14",
-        "feedback-mcq-18",
-        "feedback-mcq-13"
+        "feedback-mcq-02",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「Negative feedback」指「會抑制變化、維持穩定的負回饋機制」。",
       "sentenceIndex": 39,
@@ -1429,12 +1218,9 @@ export default {
         "Negative feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-16": "本句指「會抑制變化、維持穩定的負回饋機制」。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-13": "「系統把輸出資訊回傳，用來調整後續運作的回授機制」與本句語境不同。"
+        "feedback-mcq-16": "本句的「Negative feedback」指「會抑制變化、維持穩定的負回饋機制」。",
+        "feedback-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-16"
     },
@@ -1446,11 +1232,8 @@ export default {
       "masked": "The microphone produced terrible ____.",
       "options": [
         "feedback-mcq-17",
-        "feedback-mcq-16",
-        "feedback-mcq-18",
-        "feedback-mcq-15",
-        "feedback-mcq-19",
-        "feedback-mcq-14"
+        "feedback-mcq-02",
+        "feedback-mcq-07"
       ],
       "explanation": "本句的「feedback」指「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」。",
       "sentenceIndex": 40,
@@ -1459,12 +1242,9 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-17": "本句指「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。"
+        "feedback-mcq-17": "本句的「feedback」指「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」。",
+        "feedback-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-17"
     },
@@ -1476,11 +1256,8 @@ export default {
       "masked": "Move the speaker farther away to reduce ____.",
       "options": [
         "feedback-mcq-17",
-        "feedback-mcq-16",
-        "feedback-mcq-18",
-        "feedback-mcq-15",
         "feedback-mcq-19",
-        "feedback-mcq-14"
+        "feedback-mcq-11"
       ],
       "explanation": "本句的「feedback」指「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」。",
       "sentenceIndex": 41,
@@ -1489,12 +1266,9 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-17": "本句指「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-14": "「輸出再次影響後續輸入或運作的回饋／回授迴路」與本句語境不同。"
+        "feedback-mcq-17": "本句的「feedback」指「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」。",
+        "feedback-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-17"
     },
@@ -1506,11 +1280,7 @@ export default {
       "masked": "The results are ____.",
       "options": [
         "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-19",
-        "feedback-mcq-16",
-        "feedback-mcq-20",
-        "feedback-mcq-15"
+        "feedback-mcq-16"
       ],
       "explanation": "本句的「fed back into the system」指「把結果、意見或資訊傳回原來的系統／人員」。",
       "sentenceIndex": 42,
@@ -1519,12 +1289,8 @@ export default {
         "fed back into the system"
       ],
       "optionReasons": {
-        "feedback-mcq-18": "本句指「把結果、意見或資訊傳回原來的系統／人員」。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。"
+        "feedback-mcq-18": "本句的「fed back into the system」指「把結果、意見或資訊傳回原來的系統／人員」。",
+        "feedback-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-18"
     },
@@ -1536,11 +1302,7 @@ export default {
       "masked": "Staff ____ to management.",
       "options": [
         "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-19",
-        "feedback-mcq-16",
-        "feedback-mcq-20",
-        "feedback-mcq-15"
+        "feedback-mcq-20"
       ],
       "explanation": "本句的「fed back their concerns」指「把結果、意見或資訊傳回原來的系統／人員」。",
       "sentenceIndex": 43,
@@ -1549,12 +1311,8 @@ export default {
         "fed back their concerns"
       ],
       "optionReasons": {
-        "feedback-mcq-18": "本句指「把結果、意見或資訊傳回原來的系統／人員」。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-15": "「會放大、強化原有變化的正回饋機制」與本句語境不同。"
+        "feedback-mcq-18": "本句的「fed back their concerns」指「把結果、意見或資訊傳回原來的系統／人員」。",
+        "feedback-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-18"
     },
@@ -1566,11 +1324,8 @@ export default {
       "masked": "Don’t be afraid to ____.",
       "options": [
         "feedback-mcq-19",
-        "feedback-mcq-18",
-        "feedback-mcq-20",
-        "feedback-mcq-17",
-        "feedback-mcq-21",
-        "feedback-mcq-16"
+        "feedback-mcq-15",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「ask for feedback」指「主動徵求別人對作品、表現或做法的意見」。",
       "sentenceIndex": 48,
@@ -1579,12 +1334,9 @@ export default {
         "ask for feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-19": "本句指「主動徵求別人對作品、表現或做法的意見」。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-21": "「把別人的回饋納入修改、設計或後續工作中」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-19": "本句的「ask for feedback」指「主動徵求別人對作品、表現或做法的意見」。",
+        "feedback-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-19"
     },
@@ -1596,11 +1348,8 @@ export default {
       "masked": "She ____ after the presentation.",
       "options": [
         "feedback-mcq-19",
-        "feedback-mcq-18",
-        "feedback-mcq-20",
-        "feedback-mcq-17",
-        "feedback-mcq-21",
-        "feedback-mcq-16"
+        "feedback-mcq-11",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「asked for feedback」指「主動徵求別人對作品、表現或做法的意見」。",
       "sentenceIndex": 49,
@@ -1609,12 +1358,9 @@ export default {
         "asked for feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-19": "本句指「主動徵求別人對作品、表現或做法的意見」。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-21": "「把別人的回饋納入修改、設計或後續工作中」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-19": "本句的「asked for feedback」指「主動徵求別人對作品、表現或做法的意見」。",
+        "feedback-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-19"
     },
@@ -1627,10 +1373,7 @@ export default {
       "options": [
         "feedback-mcq-20",
         "feedback-mcq-19",
-        "feedback-mcq-21",
-        "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-16"
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「act on feedback」指「根據收到的回饋實際採取修改或改善行動」。",
       "sentenceIndex": 50,
@@ -1639,12 +1382,9 @@ export default {
         "act on feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-20": "本句指「根據收到的回饋實際採取修改或改善行動」。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-21": "「把別人的回饋納入修改、設計或後續工作中」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-20": "本句的「act on feedback」指「根據收到的回饋實際採取修改或改善行動」。",
+        "feedback-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-20"
     },
@@ -1656,11 +1396,7 @@ export default {
       "masked": "The company ____ and simplified the design.",
       "options": [
         "feedback-mcq-20",
-        "feedback-mcq-19",
-        "feedback-mcq-21",
-        "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-16"
+        "feedback-mcq-18"
       ],
       "explanation": "本句的「acted on customer feedback」指「根據收到的回饋實際採取修改或改善行動」。",
       "sentenceIndex": 51,
@@ -1669,12 +1405,8 @@ export default {
         "acted on customer feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-20": "本句指「根據收到的回饋實際採取修改或改善行動」。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-21": "「把別人的回饋納入修改、設計或後續工作中」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-20": "本句的「acted on customer feedback」指「根據收到的回饋實際採取修改或改善行動」。",
+        "feedback-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-20"
     },
@@ -1686,11 +1418,8 @@ export default {
       "masked": "I ____ into the final draft.",
       "options": [
         "feedback-mcq-21",
-        "feedback-mcq-20",
-        "feedback-mcq-19",
-        "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-16"
+        "feedback-mcq-12",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「incorporated her feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
       "sentenceIndex": 52,
@@ -1699,12 +1428,9 @@ export default {
         "incorporated her feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-21": "本句指「把別人的回饋納入修改、設計或後續工作中」。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-21": "本句的「incorporated her feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-21"
     },
@@ -1716,11 +1442,8 @@ export default {
       "masked": "The team revised the product after ____.",
       "options": [
         "feedback-mcq-21",
-        "feedback-mcq-20",
-        "feedback-mcq-19",
-        "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-16"
+        "feedback-mcq-08",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「incorporating user feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
       "sentenceIndex": 53,
@@ -1729,12 +1452,9 @@ export default {
         "incorporating user feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-21": "本句指「把別人的回饋納入修改、設計或後續工作中」。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-21": "本句的「incorporating user feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
+        "feedback-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-21"
     },
@@ -1746,11 +1466,8 @@ export default {
       "masked": "She responds well to ____.",
       "options": [
         "feedback-mcq-21",
-        "feedback-mcq-20",
-        "feedback-mcq-19",
-        "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-16"
+        "feedback-mcq-12",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
       "sentenceIndex": 54,
@@ -1759,12 +1476,9 @@ export default {
         "feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-21": "本句指「把別人的回饋納入修改、設計或後續工作中」。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-21": "本句的「feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-21"
     },
@@ -1776,11 +1490,8 @@ export default {
       "masked": "The company quickly ____.",
       "options": [
         "feedback-mcq-21",
-        "feedback-mcq-20",
-        "feedback-mcq-19",
-        "feedback-mcq-18",
-        "feedback-mcq-17",
-        "feedback-mcq-16"
+        "feedback-mcq-12",
+        "feedback-mcq-17"
       ],
       "explanation": "本句的「responded to customer feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
       "sentenceIndex": 55,
@@ -1789,12 +1500,9 @@ export default {
         "responded to customer feedback"
       ],
       "optionReasons": {
-        "feedback-mcq-21": "本句指「把別人的回饋納入修改、設計或後續工作中」。",
-        "feedback-mcq-20": "「根據收到的回饋實際採取修改或改善行動」與本句語境不同。",
-        "feedback-mcq-19": "「主動徵求別人對作品、表現或做法的意見」與本句語境不同。",
-        "feedback-mcq-18": "「把結果、意見或資訊傳回原來的系統／人員」與本句語境不同。",
-        "feedback-mcq-17": "「麥克風與擴音設備形成循環而產生的刺耳回授／嘯叫聲」與本句語境不同。",
-        "feedback-mcq-16": "「會抑制變化、維持穩定的負回饋機制」與本句語境不同。"
+        "feedback-mcq-21": "本句的「responded to customer feedback」指「把別人的回饋納入修改、設計或後續工作中」。",
+        "feedback-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "feedback-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "feedback-mcq-21"
     }
@@ -1806,5 +1514,7 @@ export default {
     "sha256": "bb1e8838e52a7df261fdd7af292bc9416caf460fc32f646d02b0d4593919b6c9",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

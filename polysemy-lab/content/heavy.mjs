@@ -744,7 +744,7 @@ export default {
     },
     {
       "id": "heavy-mcq-36",
-      "title": "表示沉重的步伐／動作",
+      "title": "沉重的步伐／動作",
       "form": "24. heavy steps / movement",
       "en": "24. heavy steps / movement",
       "zh": "表示沉重的步伐／動作",
@@ -766,7 +766,7 @@ export default {
     },
     {
       "id": "heavy-mcq-37",
-      "title": "表示嚴厲責備／處罰某人",
+      "title": "嚴厲責備／處罰某人",
       "form": "36. come down heavy on someone",
       "en": "36. come down heavy on someone",
       "zh": "表示嚴厲責備／處罰某人",
@@ -796,11 +796,9 @@ export default {
       "masked": "The film was good, but the subject matter felt a little ____.",
       "options": [
         "heavy-mcq-35",
-        "heavy-mcq-34",
-        "heavy-mcq-36",
-        "heavy-mcq-33",
-        "heavy-mcq-37",
-        "heavy-mcq-32"
+        "heavy-mcq-19",
+        "heavy-mcq-13",
+        "heavy-mcq-28"
       ],
       "explanation": "本句的「heavy」指「沉重的；令人感到壓力的；情緒負擔較重的」。",
       "sentenceIndex": 0,
@@ -809,12 +807,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-35": "本句指「沉重的；令人感到壓力的；情緒負擔較重的」。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-36": "「表示沉重的步伐／動作」是「24. heavy steps / movement」的用法，與本句語境不同。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-37": "「表示嚴厲責備／處罰某人」是「36. come down heavy on someone」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。"
+        "heavy-mcq-35": "本句的「heavy」指「沉重的；令人感到壓力的；情緒負擔較重的」。",
+        "heavy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-35"
     },
@@ -826,11 +822,9 @@ export default {
       "masked": "I usually avoid reading anything too ____ before bed.",
       "options": [
         "heavy-mcq-35",
-        "heavy-mcq-34",
-        "heavy-mcq-36",
-        "heavy-mcq-33",
-        "heavy-mcq-37",
-        "heavy-mcq-32"
+        "heavy-mcq-10",
+        "heavy-mcq-20",
+        "heavy-mcq-13"
       ],
       "explanation": "本句的「heavy」指「沉重的；令人感到壓力的；情緒負擔較重的」。",
       "sentenceIndex": 1,
@@ -839,12 +833,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-35": "本句指「沉重的；令人感到壓力的；情緒負擔較重的」。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-36": "「表示沉重的步伐／動作」是「24. heavy steps / movement」的用法，與本句語境不同。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-37": "「表示嚴厲責備／處罰某人」是「36. come down heavy on someone」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。"
+        "heavy-mcq-35": "本句的「heavy」指「沉重的；令人感到壓力的；情緒負擔較重的」。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-35"
     },
@@ -856,11 +848,9 @@ export default {
       "masked": "This box is very ____.",
       "options": [
         "heavy-mcq-01",
-        "heavy-mcq-02",
-        "heavy-mcq-03",
-        "heavy-mcq-04",
-        "heavy-mcq-05",
-        "heavy-mcq-06"
+        "heavy-mcq-34",
+        "heavy-mcq-15",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「heavy」指「重量很大的；沉重的」。",
       "sentenceIndex": 2,
@@ -869,12 +859,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-01": "本句指「重量很大的；沉重的」。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-01": "本句的「heavy」指「重量很大的；沉重的」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-01"
     },
@@ -886,11 +874,9 @@ export default {
       "masked": "She was carrying a ____.",
       "options": [
         "heavy-mcq-01",
-        "heavy-mcq-02",
-        "heavy-mcq-03",
-        "heavy-mcq-04",
-        "heavy-mcq-05",
-        "heavy-mcq-06"
+        "heavy-mcq-06",
+        "heavy-mcq-17",
+        "heavy-mcq-27"
       ],
       "explanation": "本句的「heavy bag」指「重量很大的；沉重的」。",
       "sentenceIndex": 3,
@@ -899,12 +885,10 @@ export default {
         "heavy bag"
       ],
       "optionReasons": {
-        "heavy-mcq-01": "本句指「重量很大的；沉重的」。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-01": "本句的「heavy bag」指「重量很大的；沉重的」。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-01"
     },
@@ -916,11 +900,9 @@ export default {
       "masked": "The truck was carrying a ____.",
       "options": [
         "heavy-mcq-02",
-        "heavy-mcq-01",
-        "heavy-mcq-03",
-        "heavy-mcq-04",
-        "heavy-mcq-05",
-        "heavy-mcq-06"
+        "heavy-mcq-20",
+        "heavy-mcq-15",
+        "heavy-mcq-37"
       ],
       "explanation": "本句的「heavy load」指「很重的負荷／重物」。",
       "sentenceIndex": 4,
@@ -929,12 +911,10 @@ export default {
         "heavy load"
       ],
       "optionReasons": {
-        "heavy-mcq-02": "本句指「很重的負荷／重物」。",
-        "heavy-mcq-01": "「重量很大的；沉重的」是「heavy — physical weight」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-02": "本句的「heavy load」指「很重的負荷／重物」。",
+        "heavy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-02"
     },
@@ -946,11 +926,9 @@ export default {
       "masked": "Do not lift ____ without proper technique.",
       "options": [
         "heavy-mcq-02",
-        "heavy-mcq-01",
-        "heavy-mcq-03",
-        "heavy-mcq-04",
-        "heavy-mcq-05",
-        "heavy-mcq-06"
+        "heavy-mcq-27",
+        "heavy-mcq-06",
+        "heavy-mcq-15"
       ],
       "explanation": "本句的「heavy weights」指「很重的負荷／重物」。",
       "sentenceIndex": 5,
@@ -959,12 +937,10 @@ export default {
         "heavy weights"
       ],
       "optionReasons": {
-        "heavy-mcq-02": "本句指「很重的負荷／重物」。",
-        "heavy-mcq-01": "「重量很大的；沉重的」是「heavy — physical weight」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-02": "本句的「heavy weights」指「很重的負荷／重物」。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-02"
     },
@@ -976,11 +952,9 @@ export default {
       "masked": "It is a ____ film about grief and loss.",
       "options": [
         "heavy-mcq-03",
-        "heavy-mcq-02",
-        "heavy-mcq-04",
-        "heavy-mcq-01",
-        "heavy-mcq-05",
-        "heavy-mcq-06"
+        "heavy-mcq-13",
+        "heavy-mcq-14",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「heavy」指「情緒上嚴肅、壓抑或令人有負擔的；沉重的」。",
       "sentenceIndex": 6,
@@ -989,12 +963,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-03": "本句指「情緒上嚴肅、壓抑或令人有負擔的；沉重的」。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-01": "「重量很大的；沉重的」是「heavy — physical weight」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-03": "本句的「heavy」指「情緒上嚴肅、壓抑或令人有負擔的；沉重的」。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-03"
     },
@@ -1006,11 +978,9 @@ export default {
       "masked": "The conversation became quite ____.",
       "options": [
         "heavy-mcq-03",
-        "heavy-mcq-02",
-        "heavy-mcq-04",
-        "heavy-mcq-01",
-        "heavy-mcq-05",
-        "heavy-mcq-06"
+        "heavy-mcq-13",
+        "heavy-mcq-10",
+        "heavy-mcq-08"
       ],
       "explanation": "本句的「heavy」指「情緒上嚴肅、壓抑或令人有負擔的；沉重的」。",
       "sentenceIndex": 7,
@@ -1019,12 +989,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-03": "本句指「情緒上嚴肅、壓抑或令人有負擔的；沉重的」。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-01": "「重量很大的；沉重的」是「heavy — physical weight」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-03": "本句的「heavy」指「情緒上嚴肅、壓抑或令人有負擔的；沉重的」。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-03"
     },
@@ -1036,11 +1004,9 @@ export default {
       "masked": "The book deals with some ____.",
       "options": [
         "heavy-mcq-04",
-        "heavy-mcq-03",
-        "heavy-mcq-05",
-        "heavy-mcq-02",
-        "heavy-mcq-06",
-        "heavy-mcq-01"
+        "heavy-mcq-34",
+        "heavy-mcq-09",
+        "heavy-mcq-05"
       ],
       "explanation": "本句的「heavy topics」指「情緒或內容較沉重、嚴肅的話題／題材」。",
       "sentenceIndex": 8,
@@ -1049,12 +1015,10 @@ export default {
         "heavy topics"
       ],
       "optionReasons": {
-        "heavy-mcq-04": "本句指「情緒或內容較沉重、嚴肅的話題／題材」。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-01": "「重量很大的；沉重的」是「heavy — physical weight」的用法，與本句語境不同。"
+        "heavy-mcq-04": "本句的「heavy topics」指「情緒或內容較沉重、嚴肅的話題／題材」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-04"
     },
@@ -1066,11 +1030,9 @@ export default {
       "masked": "Let’s talk about something less ____.",
       "options": [
         "heavy-mcq-04",
-        "heavy-mcq-03",
-        "heavy-mcq-05",
-        "heavy-mcq-02",
-        "heavy-mcq-06",
-        "heavy-mcq-01"
+        "heavy-mcq-08",
+        "heavy-mcq-10",
+        "heavy-mcq-14"
       ],
       "explanation": "本句的「heavy」指「情緒或內容較沉重、嚴肅的話題／題材」。",
       "sentenceIndex": 9,
@@ -1079,12 +1041,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-04": "本句指「情緒或內容較沉重、嚴肅的話題／題材」。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-01": "「重量很大的；沉重的」是「heavy — physical weight」的用法，與本句語境不同。"
+        "heavy-mcq-04": "本句的「heavy」指「情緒或內容較沉重、嚴肅的話題／題材」。",
+        "heavy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-04"
     },
@@ -1096,11 +1056,9 @@ export default {
       "masked": "The article is quite ____.",
       "options": [
         "heavy-mcq-05",
-        "heavy-mcq-04",
-        "heavy-mcq-06",
-        "heavy-mcq-03",
-        "heavy-mcq-07",
-        "heavy-mcq-02"
+        "heavy-mcq-35",
+        "heavy-mcq-21",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy reading」指「需要大量思考或精神投入的；費神／艱深的」。",
       "sentenceIndex": 10,
@@ -1109,12 +1067,10 @@ export default {
         "heavy reading"
       ],
       "optionReasons": {
-        "heavy-mcq-05": "本句指「需要大量思考或精神投入的；費神／艱深的」。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。"
+        "heavy-mcq-05": "本句的「heavy reading」指「需要大量思考或精神投入的；費神／艱深的」。",
+        "heavy-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-05"
     },
@@ -1126,11 +1082,9 @@ export default {
       "masked": "The theory section is a little ____.",
       "options": [
         "heavy-mcq-05",
-        "heavy-mcq-04",
-        "heavy-mcq-06",
-        "heavy-mcq-03",
-        "heavy-mcq-07",
-        "heavy-mcq-02"
+        "heavy-mcq-02",
+        "heavy-mcq-37",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「heavy」指「需要大量思考或精神投入的；費神／艱深的」。",
       "sentenceIndex": 11,
@@ -1139,12 +1093,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-05": "本句指「需要大量思考或精神投入的；費神／艱深的」。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-02": "「很重的負荷／重物」是「heavy load/weight」的用法，與本句語境不同。"
+        "heavy-mcq-05": "本句的「heavy」指「需要大量思考或精神投入的；費神／艱深的」。",
+        "heavy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-05"
     },
@@ -1156,11 +1108,9 @@ export default {
       "masked": "I don’t want any ____ tonight.",
       "options": [
         "heavy-mcq-06",
-        "heavy-mcq-05",
-        "heavy-mcq-07",
-        "heavy-mcq-04",
-        "heavy-mcq-08",
-        "heavy-mcq-03"
+        "heavy-mcq-16",
+        "heavy-mcq-23",
+        "heavy-mcq-13"
       ],
       "explanation": "本句的「heavy reading」指「讀起來在思想或情緒上較吃力的讀物」。",
       "sentenceIndex": 12,
@@ -1169,12 +1119,10 @@ export default {
         "heavy reading"
       ],
       "optionReasons": {
-        "heavy-mcq-06": "本句指「讀起來在思想或情緒上較吃力的讀物」。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。"
+        "heavy-mcq-06": "本句的「heavy reading」指「讀起來在思想或情緒上較吃力的讀物」。",
+        "heavy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-06"
     },
@@ -1186,11 +1134,9 @@ export default {
       "masked": "The book is interesting, but it is ____.",
       "options": [
         "heavy-mcq-06",
-        "heavy-mcq-05",
-        "heavy-mcq-07",
-        "heavy-mcq-04",
-        "heavy-mcq-08",
-        "heavy-mcq-03"
+        "heavy-mcq-19",
+        "heavy-mcq-18",
+        "heavy-mcq-09"
       ],
       "explanation": "本句的「heavy reading」指「讀起來在思想或情緒上較吃力的讀物」。",
       "sentenceIndex": 13,
@@ -1199,12 +1145,10 @@ export default {
         "heavy reading"
       ],
       "optionReasons": {
-        "heavy-mcq-06": "本句指「讀起來在思想或情緒上較吃力的讀物」。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-03": "「情緒上嚴肅、壓抑或令人有負擔的；沉重的」是「heavy — emotional」的用法，與本句語境不同。"
+        "heavy-mcq-06": "本句的「heavy reading」指「讀起來在思想或情緒上較吃力的讀物」。",
+        "heavy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-06"
     },
@@ -1216,11 +1160,9 @@ export default {
       "masked": "There was ____ for tickets.",
       "options": [
         "heavy-mcq-07",
+        "heavy-mcq-37",
         "heavy-mcq-06",
-        "heavy-mcq-08",
-        "heavy-mcq-05",
-        "heavy-mcq-09",
-        "heavy-mcq-04"
+        "heavy-mcq-21"
       ],
       "explanation": "本句的「heavy demand」指「數量、程度或強度很大的」。",
       "sentenceIndex": 14,
@@ -1229,12 +1171,10 @@ export default {
         "heavy demand"
       ],
       "optionReasons": {
-        "heavy-mcq-07": "本句指「數量、程度或強度很大的」。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。"
+        "heavy-mcq-07": "本句的「heavy demand」指「數量、程度或強度很大的」。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-07"
     },
@@ -1247,10 +1187,8 @@ export default {
       "options": [
         "heavy-mcq-07",
         "heavy-mcq-06",
-        "heavy-mcq-08",
-        "heavy-mcq-05",
-        "heavy-mcq-09",
-        "heavy-mcq-04"
+        "heavy-mcq-15",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy damage」指「數量、程度或強度很大的」。",
       "sentenceIndex": 15,
@@ -1259,12 +1197,10 @@ export default {
         "heavy damage"
       ],
       "optionReasons": {
-        "heavy-mcq-07": "本句指「數量、程度或強度很大的」。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-04": "「情緒或內容較沉重、嚴肅的話題／題材」是「heavy topic/subject」的用法，與本句語境不同。"
+        "heavy-mcq-07": "本句的「heavy damage」指「數量、程度或強度很大的」。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-07"
     },
@@ -1276,11 +1212,9 @@ export default {
       "masked": "The battery drains quickly under ____.",
       "options": [
         "heavy-mcq-08",
-        "heavy-mcq-07",
-        "heavy-mcq-09",
-        "heavy-mcq-06",
-        "heavy-mcq-10",
-        "heavy-mcq-05"
+        "heavy-mcq-37",
+        "heavy-mcq-36",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「heavy use」指「高頻率／大量使用」。",
       "sentenceIndex": 16,
@@ -1289,12 +1223,10 @@ export default {
         "heavy use"
       ],
       "optionReasons": {
-        "heavy-mcq-08": "本句指「高頻率／大量使用」。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。"
+        "heavy-mcq-08": "本句的「heavy use」指「高頻率／大量使用」。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-08"
     },
@@ -1306,11 +1238,9 @@ export default {
       "masked": "The road shows signs of ____.",
       "options": [
         "heavy-mcq-08",
-        "heavy-mcq-07",
-        "heavy-mcq-09",
-        "heavy-mcq-06",
+        "heavy-mcq-03",
         "heavy-mcq-10",
-        "heavy-mcq-05"
+        "heavy-mcq-22"
       ],
       "explanation": "本句的「heavy use」指「高頻率／大量使用」。",
       "sentenceIndex": 17,
@@ -1319,12 +1249,10 @@ export default {
         "heavy use"
       ],
       "optionReasons": {
-        "heavy-mcq-08": "本句指「高頻率／大量使用」。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-05": "「需要大量思考或精神投入的；費神／艱深的」是「heavy — mentally demanding」的用法，與本句語境不同。"
+        "heavy-mcq-08": "本句的「heavy use」指「高頻率／大量使用」。",
+        "heavy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-08"
     },
@@ -1336,11 +1264,9 @@ export default {
       "masked": "____ caused flooding.",
       "options": [
         "heavy-mcq-09",
-        "heavy-mcq-08",
-        "heavy-mcq-10",
-        "heavy-mcq-07",
-        "heavy-mcq-11",
-        "heavy-mcq-06"
+        "heavy-mcq-36",
+        "heavy-mcq-06",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「Heavy rain」指「強度很大的雨／雪；大雨／大雪」。",
       "sentenceIndex": 18,
@@ -1349,12 +1275,10 @@ export default {
         "Heavy rain"
       ],
       "optionReasons": {
-        "heavy-mcq-09": "本句指「強度很大的雨／雪；大雨／大雪」。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-09": "本句的「Heavy rain」指「強度很大的雨／雪；大雨／大雪」。",
+        "heavy-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-09"
     },
@@ -1366,11 +1290,9 @@ export default {
       "masked": "____ blocked the road.",
       "options": [
         "heavy-mcq-09",
-        "heavy-mcq-08",
-        "heavy-mcq-10",
-        "heavy-mcq-07",
-        "heavy-mcq-11",
-        "heavy-mcq-06"
+        "heavy-mcq-33",
+        "heavy-mcq-17",
+        "heavy-mcq-37"
       ],
       "explanation": "本句的「Heavy snow」指「強度很大的雨／雪；大雨／大雪」。",
       "sentenceIndex": 19,
@@ -1379,12 +1301,10 @@ export default {
         "Heavy snow"
       ],
       "optionReasons": {
-        "heavy-mcq-09": "本句指「強度很大的雨／雪；大雨／大雪」。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-06": "「讀起來在思想或情緒上較吃力的讀物」是「heavy reading」的用法，與本句語境不同。"
+        "heavy-mcq-09": "本句的「Heavy snow」指「強度很大的雨／雪；大雨／大雪」。",
+        "heavy-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-09"
     },
@@ -1396,11 +1316,9 @@ export default {
       "masked": "The hills disappeared in ____.",
       "options": [
         "heavy-mcq-10",
-        "heavy-mcq-09",
-        "heavy-mcq-11",
-        "heavy-mcq-08",
-        "heavy-mcq-12",
-        "heavy-mcq-07"
+        "heavy-mcq-25",
+        "heavy-mcq-20",
+        "heavy-mcq-37"
       ],
       "explanation": "本句的「heavy fog」指「很濃的霧／很厚的雲層」。",
       "sentenceIndex": 20,
@@ -1409,12 +1327,10 @@ export default {
         "heavy fog"
       ],
       "optionReasons": {
-        "heavy-mcq-10": "本句指「很濃的霧／很厚的雲層」。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。"
+        "heavy-mcq-10": "本句的「heavy fog」指「很濃的霧／很厚的雲層」。",
+        "heavy-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-10"
     },
@@ -1426,11 +1342,9 @@ export default {
       "masked": "____ covered the sky.",
       "options": [
         "heavy-mcq-10",
-        "heavy-mcq-09",
-        "heavy-mcq-11",
-        "heavy-mcq-08",
-        "heavy-mcq-12",
-        "heavy-mcq-07"
+        "heavy-mcq-30",
+        "heavy-mcq-19",
+        "heavy-mcq-13"
       ],
       "explanation": "本句的「Heavy cloud」指「很濃的霧／很厚的雲層」。",
       "sentenceIndex": 21,
@@ -1439,12 +1353,10 @@ export default {
         "Heavy cloud"
       ],
       "optionReasons": {
-        "heavy-mcq-10": "本句指「很濃的霧／很厚的雲層」。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-07": "「數量、程度或強度很大的」是「heavy — large amount/degree」的用法，與本句語境不同。"
+        "heavy-mcq-10": "本句的「Heavy cloud」指「很濃的霧／很厚的雲層」。",
+        "heavy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-10"
     },
@@ -1456,11 +1368,9 @@ export default {
       "masked": "We got stuck in ____.",
       "options": [
         "heavy-mcq-11",
-        "heavy-mcq-10",
-        "heavy-mcq-12",
-        "heavy-mcq-09",
+        "heavy-mcq-34",
         "heavy-mcq-13",
-        "heavy-mcq-08"
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy traffic」指「車流量很大；交通繁忙／塞車嚴重」。",
       "sentenceIndex": 22,
@@ -1469,12 +1379,10 @@ export default {
         "heavy traffic"
       ],
       "optionReasons": {
-        "heavy-mcq-11": "本句指「車流量很大；交通繁忙／塞車嚴重」。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。"
+        "heavy-mcq-11": "本句的「heavy traffic」指「車流量很大；交通繁忙／塞車嚴重」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-11"
     },
@@ -1486,11 +1394,9 @@ export default {
       "masked": "Traffic is usually ____ at this time.",
       "options": [
         "heavy-mcq-11",
-        "heavy-mcq-10",
-        "heavy-mcq-12",
-        "heavy-mcq-09",
         "heavy-mcq-13",
-        "heavy-mcq-08"
+        "heavy-mcq-21",
+        "heavy-mcq-27"
       ],
       "explanation": "本句的「heavy」指「車流量很大；交通繁忙／塞車嚴重」。",
       "sentenceIndex": 23,
@@ -1499,12 +1405,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-11": "本句指「車流量很大；交通繁忙／塞車嚴重」。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-08": "「高頻率／大量使用」是「heavy use」的用法，與本句語境不同。"
+        "heavy-mcq-11": "本句的「heavy」指「車流量很大；交通繁忙／塞車嚴重」。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-11"
     },
@@ -1516,11 +1420,9 @@ export default {
       "masked": "She has a ____ this month.",
       "options": [
         "heavy-mcq-12",
-        "heavy-mcq-11",
-        "heavy-mcq-13",
-        "heavy-mcq-10",
-        "heavy-mcq-14",
-        "heavy-mcq-09"
+        "heavy-mcq-15",
+        "heavy-mcq-27",
+        "heavy-mcq-34"
       ],
       "explanation": "本句的「heavy workload」指「工作量很大；繁重工作量」。",
       "sentenceIndex": 24,
@@ -1529,12 +1431,10 @@ export default {
         "heavy workload"
       ],
       "optionReasons": {
-        "heavy-mcq-12": "本句指「工作量很大；繁重工作量」。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。"
+        "heavy-mcq-12": "本句的「heavy workload」指「工作量很大；繁重工作量」。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-12"
     },
@@ -1546,11 +1446,9 @@ export default {
       "masked": "A ____ can cause stress.",
       "options": [
         "heavy-mcq-12",
-        "heavy-mcq-11",
+        "heavy-mcq-34",
         "heavy-mcq-13",
-        "heavy-mcq-10",
-        "heavy-mcq-14",
-        "heavy-mcq-09"
+        "heavy-mcq-28"
       ],
       "explanation": "本句的「heavy workload」指「工作量很大；繁重工作量」。",
       "sentenceIndex": 25,
@@ -1559,12 +1457,10 @@ export default {
         "heavy workload"
       ],
       "optionReasons": {
-        "heavy-mcq-12": "本句指「工作量很大；繁重工作量」。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-09": "「強度很大的雨／雪；大雨／大雪」是「heavy rain/snow」的用法，與本句語境不同。"
+        "heavy-mcq-12": "本句的「heavy workload」指「工作量很大；繁重工作量」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-12"
     },
@@ -1576,11 +1472,9 @@ export default {
       "masked": "He has a ____ this week.",
       "options": [
         "heavy-mcq-13",
-        "heavy-mcq-12",
-        "heavy-mcq-14",
-        "heavy-mcq-11",
-        "heavy-mcq-15",
-        "heavy-mcq-10"
+        "heavy-mcq-08",
+        "heavy-mcq-27",
+        "heavy-mcq-36"
       ],
       "explanation": "本句的「heavy schedule」指「行程或賽程非常密集」。",
       "sentenceIndex": 26,
@@ -1589,12 +1483,10 @@ export default {
         "heavy schedule"
       ],
       "optionReasons": {
-        "heavy-mcq-13": "本句指「行程或賽程非常密集」。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。"
+        "heavy-mcq-13": "本句的「heavy schedule」指「行程或賽程非常密集」。",
+        "heavy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-13"
     },
@@ -1606,11 +1498,9 @@ export default {
       "masked": "The team faces a ____ of matches.",
       "options": [
         "heavy-mcq-13",
-        "heavy-mcq-12",
-        "heavy-mcq-14",
-        "heavy-mcq-11",
-        "heavy-mcq-15",
-        "heavy-mcq-10"
+        "heavy-mcq-10",
+        "heavy-mcq-33",
+        "heavy-mcq-12"
       ],
       "explanation": "本句的「heavy schedule」指「行程或賽程非常密集」。",
       "sentenceIndex": 27,
@@ -1619,12 +1509,10 @@ export default {
         "heavy schedule"
       ],
       "optionReasons": {
-        "heavy-mcq-13": "本句指「行程或賽程非常密集」。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-10": "「很濃的霧／很厚的雲層」是「heavy fog/cloud」的用法，與本句語境不同。"
+        "heavy-mcq-13": "本句的「heavy schedule」指「行程或賽程非常密集」。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-13"
     },
@@ -1636,11 +1524,9 @@ export default {
       "masked": "The door closed with a ____.",
       "options": [
         "heavy-mcq-14",
-        "heavy-mcq-13",
-        "heavy-mcq-15",
-        "heavy-mcq-12",
-        "heavy-mcq-16",
-        "heavy-mcq-11"
+        "heavy-mcq-04",
+        "heavy-mcq-17",
+        "heavy-mcq-18"
       ],
       "explanation": "本句的「heavy blow」指「力度很大、猛烈的」。",
       "sentenceIndex": 28,
@@ -1649,12 +1535,10 @@ export default {
         "heavy blow"
       ],
       "optionReasons": {
-        "heavy-mcq-14": "本句指「力度很大、猛烈的」。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。"
+        "heavy-mcq-14": "本句的「heavy blow」指「力度很大、猛烈的」。",
+        "heavy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-14"
     },
@@ -1666,11 +1550,9 @@ export default {
       "masked": "The area came under ____.",
       "options": [
         "heavy-mcq-14",
-        "heavy-mcq-13",
-        "heavy-mcq-15",
-        "heavy-mcq-12",
-        "heavy-mcq-16",
-        "heavy-mcq-11"
+        "heavy-mcq-03",
+        "heavy-mcq-10",
+        "heavy-mcq-37"
       ],
       "explanation": "本句的「heavy fire」指「力度很大、猛烈的」。",
       "sentenceIndex": 29,
@@ -1679,12 +1561,10 @@ export default {
         "heavy fire"
       ],
       "optionReasons": {
-        "heavy-mcq-14": "本句指「力度很大、猛烈的」。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-11": "「車流量很大；交通繁忙／塞車嚴重」是「heavy traffic」的用法，與本句語境不同。"
+        "heavy-mcq-14": "本句的「heavy fire」指「力度很大、猛烈的」。",
+        "heavy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-14"
     },
@@ -1696,11 +1576,9 @@ export default {
       "masked": "____ continued overnight.",
       "options": [
         "heavy-mcq-15",
-        "heavy-mcq-14",
-        "heavy-mcq-16",
-        "heavy-mcq-13",
-        "heavy-mcq-17",
-        "heavy-mcq-12"
+        "heavy-mcq-35",
+        "heavy-mcq-26",
+        "heavy-mcq-21"
       ],
       "explanation": "本句的「Heavy fighting」指「非常激烈的戰鬥」。",
       "sentenceIndex": 30,
@@ -1709,12 +1587,10 @@ export default {
         "Heavy fighting"
       ],
       "optionReasons": {
-        "heavy-mcq-15": "本句指「非常激烈的戰鬥」。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。"
+        "heavy-mcq-15": "本句的「Heavy fighting」指「非常激烈的戰鬥」。",
+        "heavy-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-15"
     },
@@ -1726,11 +1602,9 @@ export default {
       "masked": "The town was damaged during ____.",
       "options": [
         "heavy-mcq-15",
-        "heavy-mcq-14",
-        "heavy-mcq-16",
-        "heavy-mcq-13",
+        "heavy-mcq-05",
         "heavy-mcq-17",
-        "heavy-mcq-12"
+        "heavy-mcq-36"
       ],
       "explanation": "本句的「heavy fighting」指「非常激烈的戰鬥」。",
       "sentenceIndex": 31,
@@ -1739,12 +1613,10 @@ export default {
         "heavy fighting"
       ],
       "optionReasons": {
-        "heavy-mcq-15": "本句指「非常激烈的戰鬥」。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-12": "「工作量很大；繁重工作量」是「heavy workload」的用法，與本句語境不同。"
+        "heavy-mcq-15": "本句的「heavy fighting」指「非常激烈的戰鬥」。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-15"
     },
@@ -1756,11 +1628,9 @@ export default {
       "masked": "The song has a ____.",
       "options": [
         "heavy-mcq-16",
-        "heavy-mcq-15",
+        "heavy-mcq-13",
         "heavy-mcq-17",
-        "heavy-mcq-14",
-        "heavy-mcq-18",
-        "heavy-mcq-13"
+        "heavy-mcq-34"
       ],
       "explanation": "本句的「heavy beat」指「強烈節拍／沉重腳步聲」。",
       "sentenceIndex": 32,
@@ -1769,12 +1639,10 @@ export default {
         "heavy beat"
       ],
       "optionReasons": {
-        "heavy-mcq-16": "本句指「強烈節拍／沉重腳步聲」。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。"
+        "heavy-mcq-16": "本句的「heavy beat」指「強烈節拍／沉重腳步聲」。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-16"
     },
@@ -1786,10 +1654,8 @@ export default {
       "masked": "We heard ____ outside.",
       "options": [
         "heavy-mcq-16",
-        "heavy-mcq-15",
-        "heavy-mcq-17",
-        "heavy-mcq-14",
-        "heavy-mcq-18",
+        "heavy-mcq-34",
+        "heavy-mcq-05",
         "heavy-mcq-13"
       ],
       "explanation": "本句的「heavy footsteps」指「強烈節拍／沉重腳步聲」。",
@@ -1799,12 +1665,10 @@ export default {
         "heavy footsteps"
       ],
       "optionReasons": {
-        "heavy-mcq-16": "本句指「強烈節拍／沉重腳步聲」。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-13": "「行程或賽程非常密集」是「heavy schedule」的用法，與本句語境不同。"
+        "heavy-mcq-16": "本句的「heavy footsteps」指「強烈節拍／沉重腳步聲」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-16"
     },
@@ -1816,11 +1680,9 @@ export default {
       "masked": "I avoid ____ late at night.",
       "options": [
         "heavy-mcq-17",
-        "heavy-mcq-16",
-        "heavy-mcq-18",
-        "heavy-mcq-15",
-        "heavy-mcq-19",
-        "heavy-mcq-14"
+        "heavy-mcq-12",
+        "heavy-mcq-33",
+        "heavy-mcq-15"
       ],
       "explanation": "本句的「heavy meals」指「濃厚、油膩、飽滯或較難消化的食物」。",
       "sentenceIndex": 34,
@@ -1829,12 +1691,10 @@ export default {
         "heavy meals"
       ],
       "optionReasons": {
-        "heavy-mcq-17": "本句指「濃厚、油膩、飽滯或較難消化的食物」。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。"
+        "heavy-mcq-17": "本句的「heavy meals」指「濃厚、油膩、飽滯或較難消化的食物」。",
+        "heavy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-17"
     },
@@ -1846,11 +1706,9 @@ export default {
       "masked": "The sauce was too ____.",
       "options": [
         "heavy-mcq-17",
-        "heavy-mcq-16",
-        "heavy-mcq-18",
-        "heavy-mcq-15",
         "heavy-mcq-19",
-        "heavy-mcq-14"
+        "heavy-mcq-30",
+        "heavy-mcq-28"
       ],
       "explanation": "本句的「heavy」指「濃厚、油膩、飽滯或較難消化的食物」。",
       "sentenceIndex": 35,
@@ -1859,12 +1717,10 @@ export default {
         "heavy"
       ],
       "optionReasons": {
-        "heavy-mcq-17": "本句指「濃厚、油膩、飽滯或較難消化的食物」。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-14": "「力度很大、猛烈的」是「heavy — forceful」的用法，與本句語境不同。"
+        "heavy-mcq-17": "本句的「heavy」指「濃厚、油膩、飽滯或較難消化的食物」。",
+        "heavy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-17"
     },
@@ -1876,11 +1732,9 @@ export default {
       "masked": "He wore a ____.",
       "options": [
         "heavy-mcq-18",
-        "heavy-mcq-17",
-        "heavy-mcq-19",
-        "heavy-mcq-16",
-        "heavy-mcq-20",
-        "heavy-mcq-15"
+        "heavy-mcq-34",
+        "heavy-mcq-28",
+        "heavy-mcq-05"
       ],
       "explanation": "本句的「heavy coat」指「厚實、厚重的布料／衣物」。",
       "sentenceIndex": 36,
@@ -1889,12 +1743,10 @@ export default {
         "heavy coat"
       ],
       "optionReasons": {
-        "heavy-mcq-18": "本句指「厚實、厚重的布料／衣物」。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。"
+        "heavy-mcq-18": "本句的「heavy coat」指「厚實、厚重的布料／衣物」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-18"
     },
@@ -1906,10 +1758,8 @@ export default {
       "masked": "The curtains are made from ____.",
       "options": [
         "heavy-mcq-18",
-        "heavy-mcq-17",
-        "heavy-mcq-19",
-        "heavy-mcq-16",
-        "heavy-mcq-20",
+        "heavy-mcq-06",
+        "heavy-mcq-09",
         "heavy-mcq-15"
       ],
       "explanation": "本句的「heavy fabric」指「厚實、厚重的布料／衣物」。",
@@ -1919,12 +1769,10 @@ export default {
         "heavy fabric"
       ],
       "optionReasons": {
-        "heavy-mcq-18": "本句指「厚實、厚重的布料／衣物」。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-15": "「非常激烈的戰鬥」是「heavy fighting」的用法，與本句語境不同。"
+        "heavy-mcq-18": "本句的「heavy fabric」指「厚實、厚重的布料／衣物」。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-18"
     },
@@ -1936,11 +1784,9 @@ export default {
       "masked": "He used to be a ____.",
       "options": [
         "heavy-mcq-19",
-        "heavy-mcq-18",
-        "heavy-mcq-20",
-        "heavy-mcq-17",
-        "heavy-mcq-21",
-        "heavy-mcq-16"
+        "heavy-mcq-06",
+        "heavy-mcq-10",
+        "heavy-mcq-36"
       ],
       "explanation": "本句的「heavy drinker」指「經常大量飲酒的人」。",
       "sentenceIndex": 38,
@@ -1949,12 +1795,10 @@ export default {
         "heavy drinker"
       ],
       "optionReasons": {
-        "heavy-mcq-19": "本句指「經常大量飲酒的人」。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。"
+        "heavy-mcq-19": "本句的「heavy drinker」指「經常大量飲酒的人」。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-19"
     },
@@ -1966,11 +1810,9 @@ export default {
       "masked": "____ can damage health.",
       "options": [
         "heavy-mcq-19",
-        "heavy-mcq-18",
-        "heavy-mcq-20",
-        "heavy-mcq-17",
-        "heavy-mcq-21",
-        "heavy-mcq-16"
+        "heavy-mcq-16",
+        "heavy-mcq-27",
+        "heavy-mcq-18"
       ],
       "explanation": "本句的「Heavy drinking」指「經常大量飲酒的人」。",
       "sentenceIndex": 39,
@@ -1979,12 +1821,10 @@ export default {
         "Heavy drinking"
       ],
       "optionReasons": {
-        "heavy-mcq-19": "本句指「經常大量飲酒的人」。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-16": "「強烈節拍／沉重腳步聲」是「heavy beat/footsteps」的用法，與本句語境不同。"
+        "heavy-mcq-19": "本句的「Heavy drinking」指「經常大量飲酒的人」。",
+        "heavy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-19"
     },
@@ -1996,11 +1836,9 @@ export default {
       "masked": "He was a ____ for many years.",
       "options": [
         "heavy-mcq-20",
-        "heavy-mcq-19",
-        "heavy-mcq-21",
-        "heavy-mcq-18",
-        "heavy-mcq-22",
-        "heavy-mcq-17"
+        "heavy-mcq-35",
+        "heavy-mcq-27",
+        "heavy-mcq-21"
       ],
       "explanation": "本句的「heavy smoker」指「經常大量吸煙的人」。",
       "sentenceIndex": 40,
@@ -2009,12 +1847,10 @@ export default {
         "heavy smoker"
       ],
       "optionReasons": {
-        "heavy-mcq-20": "本句指「經常大量吸煙的人」。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。"
+        "heavy-mcq-20": "本句的「heavy smoker」指「經常大量吸煙的人」。",
+        "heavy-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-20"
     },
@@ -2026,11 +1862,9 @@ export default {
       "masked": "The study focused on ____.",
       "options": [
         "heavy-mcq-20",
-        "heavy-mcq-19",
-        "heavy-mcq-21",
-        "heavy-mcq-18",
-        "heavy-mcq-22",
-        "heavy-mcq-17"
+        "heavy-mcq-02",
+        "heavy-mcq-17",
+        "heavy-mcq-21"
       ],
       "explanation": "本句的「heavy smokers」指「經常大量吸煙的人」。",
       "sentenceIndex": 41,
@@ -2039,12 +1873,10 @@ export default {
         "heavy smokers"
       ],
       "optionReasons": {
-        "heavy-mcq-20": "本句指「經常大量吸煙的人」。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-17": "「濃厚、油膩、飽滯或較難消化的食物」是「heavy meal/food」的用法，與本句語境不同。"
+        "heavy-mcq-20": "本句的「heavy smokers」指「經常大量吸煙的人」。",
+        "heavy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-20"
     },
@@ -2056,11 +1888,9 @@ export default {
       "masked": "I’m a ____.",
       "options": [
         "heavy-mcq-21",
-        "heavy-mcq-20",
-        "heavy-mcq-22",
-        "heavy-mcq-19",
-        "heavy-mcq-23",
-        "heavy-mcq-18"
+        "heavy-mcq-07",
+        "heavy-mcq-28",
+        "heavy-mcq-15"
       ],
       "explanation": "本句的「heavy sleeper」指「睡得很沉、不容易被喚醒的人」。",
       "sentenceIndex": 42,
@@ -2069,12 +1899,10 @@ export default {
         "heavy sleeper"
       ],
       "optionReasons": {
-        "heavy-mcq-21": "本句指「睡得很沉、不容易被喚醒的人」。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。"
+        "heavy-mcq-21": "本句的「heavy sleeper」指「睡得很沉、不容易被喚醒的人」。",
+        "heavy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-21"
     },
@@ -2086,11 +1914,9 @@ export default {
       "masked": "He is such a ____ that alarms rarely wake him.",
       "options": [
         "heavy-mcq-21",
-        "heavy-mcq-20",
-        "heavy-mcq-22",
-        "heavy-mcq-19",
-        "heavy-mcq-23",
-        "heavy-mcq-18"
+        "heavy-mcq-15",
+        "heavy-mcq-28",
+        "heavy-mcq-25"
       ],
       "explanation": "本句的「heavy sleeper」指「睡得很沉、不容易被喚醒的人」。",
       "sentenceIndex": 43,
@@ -2099,12 +1925,10 @@ export default {
         "heavy sleeper"
       ],
       "optionReasons": {
-        "heavy-mcq-21": "本句指「睡得很沉、不容易被喚醒的人」。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-18": "「厚實、厚重的布料／衣物」是「heavy fabric/clothing」的用法，與本句語境不同。"
+        "heavy-mcq-21": "本句的「heavy sleeper」指「睡得很沉、不容易被喚醒的人」。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-21"
     },
@@ -2116,11 +1940,9 @@ export default {
       "masked": "We could hear his ____.",
       "options": [
         "heavy-mcq-22",
-        "heavy-mcq-21",
-        "heavy-mcq-23",
-        "heavy-mcq-20",
-        "heavy-mcq-24",
-        "heavy-mcq-19"
+        "heavy-mcq-19",
+        "heavy-mcq-37",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy breathing」指「粗重、強烈或費力的呼吸」。",
       "sentenceIndex": 44,
@@ -2129,12 +1951,10 @@ export default {
         "heavy breathing"
       ],
       "optionReasons": {
-        "heavy-mcq-22": "本句指「粗重、強烈或費力的呼吸」。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。"
+        "heavy-mcq-22": "本句的「heavy breathing」指「粗重、強烈或費力的呼吸」。",
+        "heavy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-22"
     },
@@ -2146,11 +1966,9 @@ export default {
       "masked": "Running uphill left her breathing ____.",
       "options": [
         "heavy-mcq-22",
+        "heavy-mcq-37",
         "heavy-mcq-21",
-        "heavy-mcq-23",
-        "heavy-mcq-20",
-        "heavy-mcq-24",
-        "heavy-mcq-19"
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「heavily」指「粗重、強烈或費力的呼吸」。",
       "sentenceIndex": 45,
@@ -2159,12 +1977,10 @@ export default {
         "heavily"
       ],
       "optionReasons": {
-        "heavy-mcq-22": "本句指「粗重、強烈或費力的呼吸」。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-19": "「經常大量飲酒的人」是「heavy drinker」的用法，與本句語境不同。"
+        "heavy-mcq-22": "本句的「heavily」指「粗重、強烈或費力的呼吸」。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-22"
     },
@@ -2176,11 +1992,9 @@ export default {
       "masked": "He walked away with ____.",
       "options": [
         "heavy-mcq-36",
-        "heavy-mcq-35",
-        "heavy-mcq-37",
-        "heavy-mcq-34",
-        "heavy-mcq-33",
-        "heavy-mcq-32"
+        "heavy-mcq-10",
+        "heavy-mcq-05",
+        "heavy-mcq-14"
       ],
       "explanation": "本句的「heavy steps」指「表示沉重的步伐／動作」。",
       "sentenceIndex": 46,
@@ -2189,12 +2003,10 @@ export default {
         "heavy steps"
       ],
       "optionReasons": {
-        "heavy-mcq-36": "本句指「表示沉重的步伐／動作」。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-37": "「表示嚴厲責備／處罰某人」是「36. come down heavy on someone」的用法，與本句語境不同。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。"
+        "heavy-mcq-36": "本句的「heavy steps」指「表示沉重的步伐／動作」。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-36"
     },
@@ -2206,11 +2018,9 @@ export default {
       "masked": "She moved ____ after the long journey.",
       "options": [
         "heavy-mcq-36",
-        "heavy-mcq-35",
-        "heavy-mcq-37",
-        "heavy-mcq-34",
-        "heavy-mcq-33",
-        "heavy-mcq-32"
+        "heavy-mcq-17",
+        "heavy-mcq-09",
+        "heavy-mcq-15"
       ],
       "explanation": "本句的「heavily」指「表示沉重的步伐／動作」。",
       "sentenceIndex": 47,
@@ -2219,12 +2029,10 @@ export default {
         "heavily"
       ],
       "optionReasons": {
-        "heavy-mcq-36": "本句指「表示沉重的步伐／動作」。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-37": "「表示嚴厲責備／處罰某人」是「36. come down heavy on someone」的用法，與本句語境不同。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。"
+        "heavy-mcq-36": "本句的「heavily」指「表示沉重的步伐／動作」。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-36"
     },
@@ -2236,11 +2044,9 @@ export default {
       "masked": "The region was once dominated by ____.",
       "options": [
         "heavy-mcq-23",
-        "heavy-mcq-22",
-        "heavy-mcq-24",
-        "heavy-mcq-21",
-        "heavy-mcq-25",
-        "heavy-mcq-20"
+        "heavy-mcq-34",
+        "heavy-mcq-10",
+        "heavy-mcq-13"
       ],
       "explanation": "本句的「heavy industry」指「使用大型設備、處理大量原料的重工業」。",
       "sentenceIndex": 48,
@@ -2249,12 +2055,10 @@ export default {
         "heavy industry"
       ],
       "optionReasons": {
-        "heavy-mcq-23": "本句指「使用大型設備、處理大量原料的重工業」。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。"
+        "heavy-mcq-23": "本句的「heavy industry」指「使用大型設備、處理大量原料的重工業」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-23"
     },
@@ -2266,11 +2070,9 @@ export default {
       "masked": "Steel production is part of ____.",
       "options": [
         "heavy-mcq-23",
-        "heavy-mcq-22",
-        "heavy-mcq-24",
         "heavy-mcq-21",
-        "heavy-mcq-25",
-        "heavy-mcq-20"
+        "heavy-mcq-27",
+        "heavy-mcq-13"
       ],
       "explanation": "本句的「heavy industry」指「使用大型設備、處理大量原料的重工業」。",
       "sentenceIndex": 49,
@@ -2279,12 +2081,10 @@ export default {
         "heavy industry"
       ],
       "optionReasons": {
-        "heavy-mcq-23": "本句指「使用大型設備、處理大量原料的重工業」。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-20": "「經常大量吸煙的人」是「heavy smoker」的用法，與本句語境不同。"
+        "heavy-mcq-23": "本句的「heavy industry」指「使用大型設備、處理大量原料的重工業」。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-23"
     },
@@ -2296,11 +2096,9 @@ export default {
       "masked": "____ was brought to the site.",
       "options": [
         "heavy-mcq-24",
-        "heavy-mcq-23",
-        "heavy-mcq-25",
-        "heavy-mcq-22",
-        "heavy-mcq-26",
-        "heavy-mcq-21"
+        "heavy-mcq-13",
+        "heavy-mcq-28",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「Heavy machinery」指「大型、強力的重型機械」。",
       "sentenceIndex": 50,
@@ -2309,12 +2107,10 @@ export default {
         "Heavy machinery"
       ],
       "optionReasons": {
-        "heavy-mcq-24": "本句指「大型、強力的重型機械」。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。"
+        "heavy-mcq-24": "本句的「Heavy machinery」指「大型、強力的重型機械」。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-24"
     },
@@ -2326,11 +2122,9 @@ export default {
       "masked": "Only trained workers may operate ____.",
       "options": [
         "heavy-mcq-24",
-        "heavy-mcq-23",
-        "heavy-mcq-25",
-        "heavy-mcq-22",
-        "heavy-mcq-26",
-        "heavy-mcq-21"
+        "heavy-mcq-21",
+        "heavy-mcq-10",
+        "heavy-mcq-13"
       ],
       "explanation": "本句的「heavy machinery」指「大型、強力的重型機械」。",
       "sentenceIndex": 51,
@@ -2339,12 +2133,10 @@ export default {
         "heavy machinery"
       ],
       "optionReasons": {
-        "heavy-mcq-24": "本句指「大型、強力的重型機械」。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-21": "「睡得很沉、不容易被喚醒的人」是「heavy sleeper」的用法，與本句語境不同。"
+        "heavy-mcq-24": "本句的「heavy machinery」指「大型、強力的重型機械」。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-24"
     },
@@ -2356,11 +2148,9 @@ export default {
       "masked": "The army deployed ____.",
       "options": [
         "heavy-mcq-25",
-        "heavy-mcq-24",
-        "heavy-mcq-26",
-        "heavy-mcq-23",
-        "heavy-mcq-27",
-        "heavy-mcq-22"
+        "heavy-mcq-21",
+        "heavy-mcq-15",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy artillery」指「威力及規模較大的重型武器／重炮」。",
       "sentenceIndex": 52,
@@ -2369,12 +2159,10 @@ export default {
         "heavy artillery"
       ],
       "optionReasons": {
-        "heavy-mcq-25": "本句指「威力及規模較大的重型武器／重炮」。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。"
+        "heavy-mcq-25": "本句的「heavy artillery」指「威力及規模較大的重型武器／重炮」。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-25"
     },
@@ -2386,11 +2174,9 @@ export default {
       "masked": "The agreement restricted ____.",
       "options": [
         "heavy-mcq-25",
-        "heavy-mcq-24",
-        "heavy-mcq-26",
-        "heavy-mcq-23",
-        "heavy-mcq-27",
-        "heavy-mcq-22"
+        "heavy-mcq-15",
+        "heavy-mcq-37",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy weapons」指「威力及規模較大的重型武器／重炮」。",
       "sentenceIndex": 53,
@@ -2399,12 +2185,10 @@ export default {
         "heavy weapons"
       ],
       "optionReasons": {
-        "heavy-mcq-25": "本句指「威力及規模較大的重型武器／重炮」。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。",
-        "heavy-mcq-22": "「粗重、強烈或費力的呼吸」是「heavy breathing」的用法，與本句語境不同。"
+        "heavy-mcq-25": "本句的「heavy weapons」指「威力及規模較大的重型武器／重炮」。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-25"
     },
@@ -2416,11 +2200,9 @@ export default {
       "masked": "The course places ____ practical skills.",
       "options": [
         "heavy-mcq-26",
-        "heavy-mcq-25",
-        "heavy-mcq-27",
-        "heavy-mcq-24",
-        "heavy-mcq-28",
-        "heavy-mcq-23"
+        "heavy-mcq-21",
+        "heavy-mcq-15",
+        "heavy-mcq-34"
       ],
       "explanation": "本句的「heavy emphasis on」指「對某事給予很大比重；高度重視」。",
       "sentenceIndex": 54,
@@ -2429,12 +2211,10 @@ export default {
         "heavy emphasis on"
       ],
       "optionReasons": {
-        "heavy-mcq-26": "本句指「對某事給予很大比重；高度重視」。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-28": "「嚴厲處罰／高額罰款」是「heavy penalty/fine」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。"
+        "heavy-mcq-26": "本句的「heavy emphasis on」指「對某事給予很大比重；高度重視」。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-26"
     },
@@ -2446,11 +2226,9 @@ export default {
       "masked": "The company puts ____ customer service.",
       "options": [
         "heavy-mcq-26",
-        "heavy-mcq-25",
-        "heavy-mcq-27",
-        "heavy-mcq-24",
-        "heavy-mcq-28",
-        "heavy-mcq-23"
+        "heavy-mcq-17",
+        "heavy-mcq-13",
+        "heavy-mcq-06"
       ],
       "explanation": "本句的「heavy emphasis on」指「對某事給予很大比重；高度重視」。",
       "sentenceIndex": 55,
@@ -2459,12 +2237,10 @@ export default {
         "heavy emphasis on"
       ],
       "optionReasons": {
-        "heavy-mcq-26": "本句指「對某事給予很大比重；高度重視」。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。",
-        "heavy-mcq-28": "「嚴厲處罰／高額罰款」是「heavy penalty/fine」的用法，與本句語境不同。",
-        "heavy-mcq-23": "「使用大型設備、處理大量原料的重工業」是「heavy industry」的用法，與本句語境不同。"
+        "heavy-mcq-26": "本句的「heavy emphasis on」指「對某事給予很大比重；高度重視」。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-26"
     },
@@ -2476,11 +2252,9 @@ export default {
       "masked": "The system has a ____ manual processing.",
       "options": [
         "heavy-mcq-27",
-        "heavy-mcq-26",
-        "heavy-mcq-28",
-        "heavy-mcq-25",
-        "heavy-mcq-29",
-        "heavy-mcq-24"
+        "heavy-mcq-35",
+        "heavy-mcq-37",
+        "heavy-mcq-05"
       ],
       "explanation": "本句的「heavy reliance on」指「對某事高度依賴」。",
       "sentenceIndex": 56,
@@ -2489,12 +2263,10 @@ export default {
         "heavy reliance on"
       ],
       "optionReasons": {
-        "heavy-mcq-27": "本句指「對某事高度依賴」。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-28": "「嚴厲處罰／高額罰款」是「heavy penalty/fine」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-29": "「沉重地、猛烈地、大量地或高度地」是「heavily」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。"
+        "heavy-mcq-27": "本句的「heavy reliance on」指「對某事高度依賴」。",
+        "heavy-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-27"
     },
@@ -2506,11 +2278,9 @@ export default {
       "masked": "The economy developed a ____ exports.",
       "options": [
         "heavy-mcq-27",
-        "heavy-mcq-26",
-        "heavy-mcq-28",
-        "heavy-mcq-25",
-        "heavy-mcq-29",
-        "heavy-mcq-24"
+        "heavy-mcq-19",
+        "heavy-mcq-15",
+        "heavy-mcq-02"
       ],
       "explanation": "本句的「heavy reliance on」指「對某事高度依賴」。",
       "sentenceIndex": 57,
@@ -2519,12 +2289,10 @@ export default {
         "heavy reliance on"
       ],
       "optionReasons": {
-        "heavy-mcq-27": "本句指「對某事高度依賴」。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-28": "「嚴厲處罰／高額罰款」是「heavy penalty/fine」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。",
-        "heavy-mcq-29": "「沉重地、猛烈地、大量地或高度地」是「heavily」的用法，與本句語境不同。",
-        "heavy-mcq-24": "「大型、強力的重型機械」是「heavy machinery」的用法，與本句語境不同。"
+        "heavy-mcq-27": "本句的「heavy reliance on」指「對某事高度依賴」。",
+        "heavy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-27"
     },
@@ -2536,11 +2304,9 @@ export default {
       "masked": "The offense carries a ____.",
       "options": [
         "heavy-mcq-28",
-        "heavy-mcq-27",
-        "heavy-mcq-29",
-        "heavy-mcq-26",
-        "heavy-mcq-30",
-        "heavy-mcq-25"
+        "heavy-mcq-24",
+        "heavy-mcq-21",
+        "heavy-mcq-17"
       ],
       "explanation": "本句的「heavy penalty」指「嚴厲處罰／高額罰款」。",
       "sentenceIndex": 58,
@@ -2549,12 +2315,10 @@ export default {
         "heavy penalty"
       ],
       "optionReasons": {
-        "heavy-mcq-28": "本句指「嚴厲處罰／高額罰款」。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。",
-        "heavy-mcq-29": "「沉重地、猛烈地、大量地或高度地」是「heavily」的用法，與本句語境不同。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-30": "「重量、情緒或氣氛上的沉重感」是「heaviness」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。"
+        "heavy-mcq-28": "本句的「heavy penalty」指「嚴厲處罰／高額罰款」。",
+        "heavy-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-28"
     },
@@ -2566,11 +2330,9 @@ export default {
       "masked": "The company received a ____.",
       "options": [
         "heavy-mcq-28",
-        "heavy-mcq-27",
-        "heavy-mcq-29",
-        "heavy-mcq-26",
-        "heavy-mcq-30",
-        "heavy-mcq-25"
+        "heavy-mcq-10",
+        "heavy-mcq-36",
+        "heavy-mcq-05"
       ],
       "explanation": "本句的「heavy fine」指「嚴厲處罰／高額罰款」。",
       "sentenceIndex": 59,
@@ -2579,12 +2341,10 @@ export default {
         "heavy fine"
       ],
       "optionReasons": {
-        "heavy-mcq-28": "本句指「嚴厲處罰／高額罰款」。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。",
-        "heavy-mcq-29": "「沉重地、猛烈地、大量地或高度地」是「heavily」的用法，與本句語境不同。",
-        "heavy-mcq-26": "「對某事給予很大比重；高度重視」是「heavy emphasis on」的用法，與本句語境不同。",
-        "heavy-mcq-30": "「重量、情緒或氣氛上的沉重感」是「heaviness」的用法，與本句語境不同。",
-        "heavy-mcq-25": "「威力及規模較大的重型武器／重炮」是「heavy weapons/artillery」的用法，與本句語境不同。"
+        "heavy-mcq-28": "本句的「heavy fine」指「嚴厲處罰／高額罰款」。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-28"
     },
@@ -2596,11 +2356,9 @@ export default {
       "masked": "She noticed a ____ in her legs.",
       "options": [
         "heavy-mcq-30",
-        "heavy-mcq-29",
-        "heavy-mcq-31",
-        "heavy-mcq-28",
-        "heavy-mcq-32",
-        "heavy-mcq-27"
+        "heavy-mcq-37",
+        "heavy-mcq-15",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heaviness」指「重量、情緒或氣氛上的沉重感」。",
       "sentenceIndex": 60,
@@ -2609,12 +2367,10 @@ export default {
         "heaviness"
       ],
       "optionReasons": {
-        "heavy-mcq-30": "本句指「重量、情緒或氣氛上的沉重感」。",
-        "heavy-mcq-29": "「沉重地、猛烈地、大量地或高度地」是「heavily」的用法，與本句語境不同。",
-        "heavy-mcq-31": "「運動中的重量級」是「heavyweight — sport」的用法，與本句語境不同。",
-        "heavy-mcq-28": "「嚴厲處罰／高額罰款」是「heavy penalty/fine」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。"
+        "heavy-mcq-30": "本句的「heaviness」指「重量、情緒或氣氛上的沉重感」。",
+        "heavy-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-30"
     },
@@ -2626,11 +2382,9 @@ export default {
       "masked": "The film has an emotional ____.",
       "options": [
         "heavy-mcq-30",
-        "heavy-mcq-29",
-        "heavy-mcq-31",
-        "heavy-mcq-28",
-        "heavy-mcq-32",
-        "heavy-mcq-27"
+        "heavy-mcq-13",
+        "heavy-mcq-17",
+        "heavy-mcq-28"
       ],
       "explanation": "本句的「heaviness」指「重量、情緒或氣氛上的沉重感」。",
       "sentenceIndex": 61,
@@ -2639,12 +2393,10 @@ export default {
         "heaviness"
       ],
       "optionReasons": {
-        "heavy-mcq-30": "本句指「重量、情緒或氣氛上的沉重感」。",
-        "heavy-mcq-29": "「沉重地、猛烈地、大量地或高度地」是「heavily」的用法，與本句語境不同。",
-        "heavy-mcq-31": "「運動中的重量級」是「heavyweight — sport」的用法，與本句語境不同。",
-        "heavy-mcq-28": "「嚴厲處罰／高額罰款」是「heavy penalty/fine」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。",
-        "heavy-mcq-27": "「對某事高度依賴」是「heavy reliance on」的用法，與本句語境不同。"
+        "heavy-mcq-30": "本句的「heaviness」指「重量、情緒或氣氛上的沉重感」。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-30"
     },
@@ -2656,11 +2408,9 @@ export default {
       "masked": "She left with a ____.",
       "options": [
         "heavy-mcq-33",
-        "heavy-mcq-32",
         "heavy-mcq-34",
-        "heavy-mcq-31",
-        "heavy-mcq-35",
-        "heavy-mcq-30"
+        "heavy-mcq-08",
+        "heavy-mcq-14"
       ],
       "explanation": "本句的「heavy heart」指「悲傷、沉重的心情」。",
       "sentenceIndex": 62,
@@ -2669,12 +2419,10 @@ export default {
         "heavy heart"
       ],
       "optionReasons": {
-        "heavy-mcq-33": "本句指「悲傷、沉重的心情」。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-31": "「運動中的重量級」是「heavyweight — sport」的用法，與本句語境不同。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-30": "「重量、情緒或氣氛上的沉重感」是「heaviness」的用法，與本句語境不同。"
+        "heavy-mcq-33": "本句的「heavy heart」指「悲傷、沉重的心情」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-33"
     },
@@ -2686,11 +2434,9 @@ export default {
       "masked": "It was with a ____ that he said goodbye.",
       "options": [
         "heavy-mcq-33",
-        "heavy-mcq-32",
         "heavy-mcq-34",
-        "heavy-mcq-31",
-        "heavy-mcq-35",
-        "heavy-mcq-30"
+        "heavy-mcq-13",
+        "heavy-mcq-28"
       ],
       "explanation": "本句的「heavy heart」指「悲傷、沉重的心情」。",
       "sentenceIndex": 63,
@@ -2699,12 +2445,10 @@ export default {
         "heavy heart"
       ],
       "optionReasons": {
-        "heavy-mcq-33": "本句指「悲傷、沉重的心情」。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-31": "「運動中的重量級」是「heavyweight — sport」的用法，與本句語境不同。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-30": "「重量、情緒或氣氛上的沉重感」是「heaviness」的用法，與本句語境不同。"
+        "heavy-mcq-33": "本句的「heavy heart」指「悲傷、沉重的心情」。",
+        "heavy-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-33"
     },
@@ -2716,11 +2460,9 @@ export default {
       "masked": "The first few chapters are ____.",
       "options": [
         "heavy-mcq-34",
-        "heavy-mcq-33",
-        "heavy-mcq-35",
-        "heavy-mcq-32",
-        "heavy-mcq-36",
-        "heavy-mcq-31"
+        "heavy-mcq-26",
+        "heavy-mcq-15",
+        "heavy-mcq-20"
       ],
       "explanation": "本句的「heavy going」指「某事尤其讀物難以進行／難讀而費力」。",
       "sentenceIndex": 64,
@@ -2729,12 +2471,10 @@ export default {
         "heavy going"
       ],
       "optionReasons": {
-        "heavy-mcq-34": "本句指「某事尤其讀物難以進行／難讀而費力」。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。",
-        "heavy-mcq-36": "「表示沉重的步伐／動作」是「24. heavy steps / movement」的用法，與本句語境不同。",
-        "heavy-mcq-31": "「運動中的重量級」是「heavyweight — sport」的用法，與本句語境不同。"
+        "heavy-mcq-34": "本句的「heavy going」指「某事尤其讀物難以進行／難讀而費力」。",
+        "heavy-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-34"
     },
@@ -2746,11 +2486,9 @@ export default {
       "masked": "The textbook is useful but ____.",
       "options": [
         "heavy-mcq-34",
-        "heavy-mcq-33",
-        "heavy-mcq-35",
-        "heavy-mcq-32",
-        "heavy-mcq-36",
-        "heavy-mcq-31"
+        "heavy-mcq-03",
+        "heavy-mcq-27",
+        "heavy-mcq-10"
       ],
       "explanation": "本句的「heavy going」指「某事尤其讀物難以進行／難讀而費力」。",
       "sentenceIndex": 65,
@@ -2759,12 +2497,10 @@ export default {
         "heavy going"
       ],
       "optionReasons": {
-        "heavy-mcq-34": "本句指「某事尤其讀物難以進行／難讀而費力」。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。",
-        "heavy-mcq-36": "「表示沉重的步伐／動作」是「24. heavy steps / movement」的用法，與本句語境不同。",
-        "heavy-mcq-31": "「運動中的重量級」是「heavyweight — sport」的用法，與本句語境不同。"
+        "heavy-mcq-34": "本句的「heavy going」指「某事尤其讀物難以進行／難讀而費力」。",
+        "heavy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-34"
     },
@@ -2776,11 +2512,9 @@ export default {
       "masked": "The manager ____ repeated mistakes.",
       "options": [
         "heavy-mcq-37",
-        "heavy-mcq-36",
-        "heavy-mcq-35",
-        "heavy-mcq-34",
         "heavy-mcq-33",
-        "heavy-mcq-32"
+        "heavy-mcq-07",
+        "heavy-mcq-15"
       ],
       "explanation": "本句的「came down heavily on」指「表示嚴厲責備／處罰某人」。",
       "sentenceIndex": 66,
@@ -2789,12 +2523,10 @@ export default {
         "came down heavily on"
       ],
       "optionReasons": {
-        "heavy-mcq-37": "本句指「表示嚴厲責備／處罰某人」。",
-        "heavy-mcq-36": "「表示沉重的步伐／動作」是「24. heavy steps / movement」的用法，與本句語境不同。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。"
+        "heavy-mcq-37": "本句的「came down heavily on」指「表示嚴厲責備／處罰某人」。",
+        "heavy-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-37"
     },
@@ -2806,11 +2538,9 @@ export default {
       "masked": "Authorities may ____ violations.",
       "options": [
         "heavy-mcq-37",
-        "heavy-mcq-36",
-        "heavy-mcq-35",
-        "heavy-mcq-34",
-        "heavy-mcq-33",
-        "heavy-mcq-32"
+        "heavy-mcq-12",
+        "heavy-mcq-22",
+        "heavy-mcq-21"
       ],
       "explanation": "本句的「come down heavy on」指「表示嚴厲責備／處罰某人」。",
       "sentenceIndex": 67,
@@ -2819,12 +2549,10 @@ export default {
         "come down heavy on"
       ],
       "optionReasons": {
-        "heavy-mcq-37": "本句指「表示嚴厲責備／處罰某人」。",
-        "heavy-mcq-36": "「表示沉重的步伐／動作」是「24. heavy steps / movement」的用法，與本句語境不同。",
-        "heavy-mcq-35": "「沉重的；令人感到壓力的；情緒負擔較重的」是「Passage meaning」的用法，與本句語境不同。",
-        "heavy-mcq-34": "「某事尤其讀物難以進行／難讀而費力」是「heavy going」的用法，與本句語境不同。",
-        "heavy-mcq-33": "「悲傷、沉重的心情」是「heavy heart」的用法，與本句語境不同。",
-        "heavy-mcq-32": "「某領域中極有影響力的重量級人物／組織」是「heavyweight — figurative」的用法，與本句語境不同。"
+        "heavy-mcq-37": "本句的「come down heavy on」指「表示嚴厲責備／處罰某人」。",
+        "heavy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "heavy-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "heavy-mcq-37"
     }
@@ -2836,5 +2564,7 @@ export default {
     "sha256": "95b0485fc132ce7e3a909c2d1bdcfa6827f7e0b7dd12fb52ef3abe0e3534ddc5",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

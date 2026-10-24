@@ -880,11 +880,9 @@ export default {
       "masked": "The balloon ____ as more air entered it.",
       "options": [
         "expand-mcq-01",
-        "expand-mcq-02",
-        "expand-mcq-03",
-        "expand-mcq-04",
-        "expand-mcq-05",
-        "expand-mcq-06"
+        "expand-mcq-59",
+        "expand-mcq-11",
+        "expand-mcq-12"
       ],
       "explanation": "本句的「expanded」指「物件的長度、面積或體積變大；膨脹」。",
       "sentenceIndex": 0,
@@ -893,12 +891,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-01": "本句指「物件的長度、面積或體積變大；膨脹」。",
-        "expand-mcq-02": "「擴建／擴大某個實體場所」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-01": "本句的「expanded」指「物件的長度、面積或體積變大；膨脹」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-01"
     },
@@ -910,11 +906,9 @@ export default {
       "masked": "Metal ____ when heated.",
       "options": [
         "expand-mcq-01",
-        "expand-mcq-02",
-        "expand-mcq-03",
+        "expand-mcq-59",
         "expand-mcq-04",
-        "expand-mcq-05",
-        "expand-mcq-06"
+        "expand-mcq-42"
       ],
       "explanation": "本句的「expands」指「物件的長度、面積或體積變大；膨脹」。",
       "sentenceIndex": 1,
@@ -923,12 +917,10 @@ export default {
         "expands"
       ],
       "optionReasons": {
-        "expand-mcq-01": "本句指「物件的長度、面積或體積變大；膨脹」。",
-        "expand-mcq-02": "「擴建／擴大某個實體場所」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-01": "本句的「expands」指「物件的長度、面積或體積變大；膨脹」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-01"
     },
@@ -940,11 +932,9 @@ export default {
       "masked": "The container can be ____ to hold more equipment.",
       "options": [
         "expand-mcq-02",
-        "expand-mcq-01",
-        "expand-mcq-03",
-        "expand-mcq-04",
-        "expand-mcq-05",
-        "expand-mcq-06"
+        "expand-mcq-36",
+        "expand-mcq-59",
+        "expand-pdf-001"
       ],
       "explanation": "本句的「expanded」指「擴建／擴大某個實體場所」。",
       "sentenceIndex": 2,
@@ -953,12 +943,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-02": "本句指「擴建／擴大某個實體場所」。",
-        "expand-mcq-01": "「物件的長度、面積或體積變大；膨脹」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-02": "本句的「expanded」指「擴建／擴大某個實體場所」。",
+        "expand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-02"
     },
@@ -970,11 +958,9 @@ export default {
       "masked": "The library plans to ____ its study area.",
       "options": [
         "expand-mcq-02",
-        "expand-mcq-01",
-        "expand-mcq-03",
-        "expand-mcq-04",
-        "expand-mcq-05",
-        "expand-mcq-06"
+        "expand-mcq-59",
+        "expand-mcq-42",
+        "expand-pdf-001"
       ],
       "explanation": "本句的「expand」指「擴建／擴大某個實體場所」。",
       "sentenceIndex": 3,
@@ -983,12 +969,10 @@ export default {
         "expand"
       ],
       "optionReasons": {
-        "expand-mcq-02": "本句指「擴建／擴大某個實體場所」。",
-        "expand-mcq-01": "「物件的長度、面積或體積變大；膨脹」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-02": "本句的「expand」指「擴建／擴大某個實體場所」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-02"
     },
@@ -1000,11 +984,9 @@ export default {
       "masked": "The hospital was ____ to accommodate more patients.",
       "options": [
         "expand-mcq-02",
-        "expand-mcq-01",
-        "expand-mcq-03",
-        "expand-mcq-04",
-        "expand-mcq-05",
-        "expand-mcq-06"
+        "expand-mcq-36",
+        "expand-mcq-59",
+        "expand-pdf-001"
       ],
       "explanation": "本句的「expanded」指「擴建／擴大某個實體場所」。",
       "sentenceIndex": 4,
@@ -1013,12 +995,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-02": "本句指「擴建／擴大某個實體場所」。",
-        "expand-mcq-01": "「物件的長度、面積或體積變大；膨脹」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-02": "本句的「expanded」指「擴建／擴大某個實體場所」。",
+        "expand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-02"
     },
@@ -1030,11 +1010,9 @@ export default {
       "masked": "The school needs to ____ before admitting more students.",
       "options": [
         "expand-mcq-03",
-        "expand-mcq-02",
-        "expand-mcq-04",
-        "expand-mcq-01",
-        "expand-mcq-05",
-        "expand-mcq-06"
+        "expand-mcq-59",
+        "expand-mcq-28",
+        "expand-mcq-60"
       ],
       "explanation": "本句的「expand capacity」指「增加能容納、處理或生產的最大數量」。",
       "sentenceIndex": 5,
@@ -1043,12 +1021,10 @@ export default {
         "expand capacity"
       ],
       "optionReasons": {
-        "expand-mcq-03": "本句指「增加能容納、處理或生產的最大數量」。",
-        "expand-mcq-02": "「擴建／擴大某個實體場所」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-01": "「物件的長度、面積或體積變大；膨脹」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-03": "本句的「expand capacity」指「增加能容納、處理或生產的最大數量」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-03"
     },
@@ -1060,11 +1036,9 @@ export default {
       "masked": "The programme aims to ____ to education.",
       "options": [
         "expand-mcq-04",
-        "expand-mcq-03",
-        "expand-mcq-05",
-        "expand-mcq-02",
-        "expand-mcq-06",
-        "expand-mcq-01"
+        "expand-mcq-64",
+        "expand-mcq-01",
+        "expand-mcq-59"
       ],
       "explanation": "本句的「expand access」指「令更多人可以取得／使用某項服務」。",
       "sentenceIndex": 6,
@@ -1073,12 +1047,10 @@ export default {
         "expand access"
       ],
       "optionReasons": {
-        "expand-mcq-04": "本句指「令更多人可以取得／使用某項服務」。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-02": "「擴建／擴大某個實體場所」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。",
-        "expand-mcq-01": "「物件的長度、面積或體積變大；膨脹」與本句語境不同。"
+        "expand-mcq-04": "本句的「expand access」指「令更多人可以取得／使用某項服務」。",
+        "expand-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-04"
     },
@@ -1090,11 +1062,9 @@ export default {
       "masked": "The company is ____ new markets.",
       "options": [
         "expand-pdf-001",
-        "expand-mcq-05",
-        "expand-mcq-07",
-        "expand-mcq-04",
-        "expand-mcq-08",
-        "expand-mcq-03"
+        "expand-mcq-13",
+        "expand-mcq-21",
+        "expand-mcq-28"
       ],
       "explanation": "本句的「expanding into」指「由原有範圍進一步進入新的領域」。",
       "sentenceIndex": 9,
@@ -1103,12 +1073,10 @@ export default {
         "expanding into"
       ],
       "optionReasons": {
-        "expand-pdf-001": "本句指「由原有範圍進一步進入新的領域」。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。"
+        "expand-pdf-001": "本句的「expanding into」指「由原有範圍進一步進入新的領域」。",
+        "expand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-pdf-001"
     },
@@ -1120,11 +1088,9 @@ export default {
       "masked": "The restaurant chain ____ into delivery services.",
       "options": [
         "expand-pdf-001",
-        "expand-mcq-05",
-        "expand-mcq-07",
-        "expand-mcq-04",
-        "expand-mcq-08",
-        "expand-mcq-03"
+        "expand-mcq-59",
+        "expand-mcq-61",
+        "expand-mcq-28"
       ],
       "explanation": "本句的「expanded」指「由原有範圍進一步進入新的領域」。",
       "sentenceIndex": 10,
@@ -1133,12 +1099,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-pdf-001": "本句指「由原有範圍進一步進入新的領域」。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
-        "expand-mcq-04": "「令更多人可以取得／使用某項服務」與本句語境不同。",
-        "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
-        "expand-mcq-03": "「增加能容納、處理或生產的最大數量」與本句語境不同。"
+        "expand-pdf-001": "本句的「expanded」指「由原有範圍進一步進入新的領域」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-pdf-001"
     },
@@ -1150,11 +1114,9 @@ export default {
       "masked": "The course was ____ to include digital skills.",
       "options": [
         "expand-mcq-08",
-        "expand-mcq-07",
-        "expand-mcq-09",
-        "expand-mcq-06",
-        "expand-mcq-10",
-        "expand-mcq-05"
+        "expand-mcq-59",
+        "expand-mcq-19",
+        "expand-mcq-36"
       ],
       "explanation": "本句的「expanded」指「擴大內容、研究或活動涵蓋範圍」。",
       "sentenceIndex": 11,
@@ -1163,12 +1125,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-08": "本句指「擴大內容、研究或活動涵蓋範圍」。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
-        "expand-mcq-09": "「增加新內容的增訂／擴充版本」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。",
-        "expand-mcq-10": "「為某個論點／內容加入更多細節並進一步闡述」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。"
+        "expand-mcq-08": "本句的「expanded」指「擴大內容、研究或活動涵蓋範圍」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-08"
     },
@@ -1180,11 +1140,9 @@ export default {
       "masked": "The investigation ____ to include several departments.",
       "options": [
         "expand-mcq-08",
-        "expand-mcq-07",
-        "expand-mcq-09",
-        "expand-mcq-06",
-        "expand-mcq-10",
-        "expand-mcq-05"
+        "expand-mcq-59",
+        "expand-mcq-36",
+        "expand-mcq-19"
       ],
       "explanation": "本句的「expanded」指「擴大內容、研究或活動涵蓋範圍」。",
       "sentenceIndex": 12,
@@ -1193,12 +1151,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-08": "本句指「擴大內容、研究或活動涵蓋範圍」。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
-        "expand-mcq-09": "「增加新內容的增訂／擴充版本」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。",
-        "expand-mcq-10": "「為某個論點／內容加入更多細節並進一步闡述」與本句語境不同。",
-        "expand-mcq-05": "「增加企業規模、地點、人員或活動」與本句語境不同。"
+        "expand-mcq-08": "本句的「expanded」指「擴大內容、研究或活動涵蓋範圍」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-08"
     },
@@ -1210,11 +1166,9 @@ export default {
       "masked": "The publisher released an ____.",
       "options": [
         "expand-mcq-09",
-        "expand-mcq-08",
-        "expand-mcq-10",
-        "expand-mcq-07",
-        "expand-mcq-11",
-        "expand-mcq-06"
+        "expand-mcq-59",
+        "expand-mcq-36",
+        "expand-mcq-01"
       ],
       "explanation": "本句的「expanded edition」指「增加新內容的增訂／擴充版本」。",
       "sentenceIndex": 13,
@@ -1223,12 +1177,10 @@ export default {
         "expanded edition"
       ],
       "optionReasons": {
-        "expand-mcq-09": "本句指「增加新內容的增訂／擴充版本」。",
-        "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
-        "expand-mcq-10": "「為某個論點／內容加入更多細節並進一步闡述」與本句語境不同。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。",
-        "expand-mcq-11": "「加入例子、解釋和細節以擴寫內容」與本句語境不同。",
-        "expand-mcq-06": "「把活動／業務拓展到新的市場或領域」與本句語境不同。"
+        "expand-mcq-09": "本句的「expanded edition」指「增加新內容的增訂／擴充版本」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-09"
     },
@@ -1240,11 +1192,9 @@ export default {
       "masked": "Could you ____ that point?",
       "options": [
         "expand-mcq-10",
-        "expand-mcq-09",
-        "expand-mcq-11",
-        "expand-mcq-08",
-        "expand-mcq-12",
-        "expand-mcq-07"
+        "expand-mcq-01",
+        "expand-mcq-59",
+        "expand-mcq-60"
       ],
       "explanation": "本句的「expand on」指「為某個論點／內容加入更多細節並進一步闡述」。",
       "sentenceIndex": 14,
@@ -1253,12 +1203,10 @@ export default {
         "expand on"
       ],
       "optionReasons": {
-        "expand-mcq-10": "本句指「為某個論點／內容加入更多細節並進一步闡述」。",
-        "expand-mcq-09": "「增加新內容的增訂／擴充版本」與本句語境不同。",
-        "expand-mcq-11": "「加入例子、解釋和細節以擴寫內容」與本句語境不同。",
-        "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
-        "expand-mcq-12": "「增加知識／詞彙量」與本句語境不同。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。"
+        "expand-mcq-10": "本句的「expand on」指「為某個論點／內容加入更多細節並進一步闡述」。",
+        "expand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-10"
     },
@@ -1270,11 +1218,9 @@ export default {
       "masked": "The report ____ upon the findings of the earlier study.",
       "options": [
         "expand-mcq-10",
-        "expand-mcq-09",
-        "expand-mcq-11",
-        "expand-mcq-08",
-        "expand-mcq-12",
-        "expand-mcq-07"
+        "expand-mcq-01",
+        "expand-mcq-60",
+        "expand-mcq-59"
       ],
       "explanation": "本句的「expands」指「為某個論點／內容加入更多細節並進一步闡述」。",
       "sentenceIndex": 15,
@@ -1283,12 +1229,10 @@ export default {
         "expands"
       ],
       "optionReasons": {
-        "expand-mcq-10": "本句指「為某個論點／內容加入更多細節並進一步闡述」。",
-        "expand-mcq-09": "「增加新內容的增訂／擴充版本」與本句語境不同。",
-        "expand-mcq-11": "「加入例子、解釋和細節以擴寫內容」與本句語境不同。",
-        "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。",
-        "expand-mcq-12": "「增加知識／詞彙量」與本句語境不同。",
-        "expand-mcq-07": "「市場／業務範圍和規模的擴張」與本句語境不同。"
+        "expand-mcq-10": "本句的「expands」指「為某個論點／內容加入更多細節並進一步闡述」。",
+        "expand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-10"
     },
@@ -1300,11 +1244,9 @@ export default {
       "masked": "____ the paragraph with examples.",
       "options": [
         "expand-mcq-11",
-        "expand-mcq-10",
-        "expand-mcq-12",
-        "expand-mcq-09",
-        "expand-mcq-13",
-        "expand-mcq-08"
+        "expand-mcq-36",
+        "expand-mcq-04",
+        "expand-mcq-19"
       ],
       "explanation": "本句的「Expand」指「加入例子、解釋和細節以擴寫內容」。",
       "sentenceIndex": 16,
@@ -1313,12 +1255,10 @@ export default {
         "Expand"
       ],
       "optionReasons": {
-        "expand-mcq-11": "本句指「加入例子、解釋和細節以擴寫內容」。",
-        "expand-mcq-10": "「為某個論點／內容加入更多細節並進一步闡述」與本句語境不同。",
-        "expand-mcq-12": "「增加知識／詞彙量」與本句語境不同。",
-        "expand-mcq-09": "「增加新內容的增訂／擴充版本」與本句語境不同。",
-        "expand-mcq-13": "「接觸更多經驗／觀點而開闊眼界」與本句語境不同。",
-        "expand-mcq-08": "「擴大內容、研究或活動涵蓋範圍」與本句語境不同。"
+        "expand-mcq-11": "本句的「Expand」指「加入例子、解釋和細節以擴寫內容」。",
+        "expand-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-11"
     },
@@ -1330,11 +1270,9 @@ export default {
       "masked": "Reading widely helps ____.",
       "options": [
         "expand-mcq-12",
-        "expand-mcq-11",
-        "expand-mcq-13",
-        "expand-mcq-10",
-        "expand-mcq-14",
-        "expand-mcq-09"
+        "expand-pdf-001",
+        "expand-mcq-19",
+        "expand-mcq-60"
       ],
       "explanation": "本句的「expand your knowledge」指「增加知識／詞彙量」。",
       "sentenceIndex": 17,
@@ -1343,12 +1281,10 @@ export default {
         "expand your knowledge"
       ],
       "optionReasons": {
-        "expand-mcq-12": "本句指「增加知識／詞彙量」。",
-        "expand-mcq-11": "「加入例子、解釋和細節以擴寫內容」與本句語境不同。",
-        "expand-mcq-13": "「接觸更多經驗／觀點而開闊眼界」與本句語境不同。",
-        "expand-mcq-10": "「為某個論點／內容加入更多細節並進一步闡述」與本句語境不同。",
-        "expand-mcq-14": "「城市土地／建成區向外擴張」與本句語境不同。",
-        "expand-mcq-09": "「增加新內容的增訂／擴充版本」與本句語境不同。"
+        "expand-mcq-12": "本句的「expand your knowledge」指「增加知識／詞彙量」。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-12"
     },
@@ -1360,11 +1296,9 @@ export default {
       "masked": "Travel can ____.",
       "options": [
         "expand-mcq-13",
-        "expand-mcq-12",
-        "expand-mcq-14",
-        "expand-mcq-11",
-        "expand-mcq-15",
-        "expand-mcq-10"
+        "expand-pdf-001",
+        "expand-mcq-21",
+        "expand-mcq-28"
       ],
       "explanation": "本句的「expand your horizons」指「接觸更多經驗／觀點而開闊眼界」。",
       "sentenceIndex": 18,
@@ -1373,12 +1307,10 @@ export default {
         "expand your horizons"
       ],
       "optionReasons": {
-        "expand-mcq-13": "本句指「接觸更多經驗／觀點而開闊眼界」。",
-        "expand-mcq-12": "「增加知識／詞彙量」與本句語境不同。",
-        "expand-mcq-14": "「城市土地／建成區向外擴張」與本句語境不同。",
-        "expand-mcq-11": "「加入例子、解釋和細節以擴寫內容」與本句語境不同。",
-        "expand-mcq-15": "「控制／領土範圍擴大」與本句語境不同。",
-        "expand-mcq-10": "「為某個論點／內容加入更多細節並進一步闡述」與本句語境不同。"
+        "expand-mcq-13": "本句的「expand your horizons」指「接觸更多經驗／觀點而開闊眼界」。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-13"
     },
@@ -1390,11 +1322,9 @@ export default {
       "masked": "Engineers must allow for thermal ____.",
       "options": [
         "expand-mcq-19",
-        "expand-mcq-18",
-        "expand-mcq-20",
-        "expand-mcq-17",
-        "expand-mcq-21",
-        "expand-mcq-16"
+        "expand-mcq-11",
+        "expand-pdf-001",
+        "expand-mcq-04"
       ],
       "explanation": "本句的「expansion」指「物質因溫度變化而產生的尺寸／體積膨脹」。",
       "sentenceIndex": 19,
@@ -1403,12 +1333,10 @@ export default {
         "expansion"
       ],
       "optionReasons": {
-        "expand-mcq-19": "本句指「物質因溫度變化而產生的尺寸／體積膨脹」。",
-        "expand-mcq-18": "「利潤率提高／擴大」與本句語境不同。",
-        "expand-mcq-20": "「衡量材料隨溫度變化而膨脹程度的熱膨脹係數」與本句語境不同。",
-        "expand-mcq-17": "「旨在刺激／擴大經濟活動的擴張性政策」與本句語境不同。",
-        "expand-mcq-21": "「氣體體積增大的過程」與本句語境不同。",
-        "expand-mcq-16": "「整體經濟活動增加的經濟擴張期」與本句語境不同。"
+        "expand-mcq-19": "本句的「expansion」指「物質因溫度變化而產生的尺寸／體積膨脹」。",
+        "expand-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-19"
     },
@@ -1420,11 +1348,9 @@ export default {
       "masked": "The gas ____ as the pressure fell.",
       "options": [
         "expand-mcq-21",
-        "expand-mcq-20",
-        "expand-mcq-22",
-        "expand-mcq-19",
-        "expand-mcq-23",
-        "expand-mcq-18"
+        "expand-mcq-13",
+        "expand-mcq-28",
+        "expand-mcq-42"
       ],
       "explanation": "本句的「expanded」指「氣體體積增大的過程」。",
       "sentenceIndex": 20,
@@ -1433,12 +1359,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-21": "本句指「氣體體積增大的過程」。",
-        "expand-mcq-20": "「衡量材料隨溫度變化而膨脹程度的熱膨脹係數」與本句語境不同。",
-        "expand-mcq-22": "「絕熱／等溫／自由膨脹」與本句語境不同。",
-        "expand-mcq-19": "「物質因溫度變化而產生的尺寸／體積膨脹」與本句語境不同。",
-        "expand-mcq-23": "「容許結構熱脹冷縮／移動的伸縮縫」與本句語境不同。",
-        "expand-mcq-18": "「利潤率提高／擴大」與本句語境不同。"
+        "expand-mcq-21": "本句的「expanded」指「氣體體積增大的過程」。",
+        "expand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-21"
     },
@@ -1450,11 +1374,9 @@ export default {
       "masked": "The lungs ____ during inhalation.",
       "options": [
         "expand-mcq-28",
-        "expand-mcq-27",
-        "expand-mcq-29",
-        "expand-mcq-26",
-        "expand-mcq-30",
-        "expand-mcq-25"
+        "expand-mcq-60",
+        "expand-mcq-03",
+        "expand-mcq-42"
       ],
       "explanation": "本句的「expand」指「肺部／胸廓在呼吸時的擴張」。",
       "sentenceIndex": 21,
@@ -1463,12 +1385,10 @@ export default {
         "expand"
       ],
       "optionReasons": {
-        "expand-mcq-28": "本句指「肺部／胸廓在呼吸時的擴張」。",
-        "expand-mcq-27": "「大尺度宇宙隨時間發生的宇宙膨脹」與本句語境不同。",
-        "expand-mcq-29": "「增加循環血液／血漿容量」與本句語境不同。",
-        "expand-mcq-26": "「利用擴張作用固定的膨脹錨栓／螺栓」與本句語境不同。",
-        "expand-mcq-30": "「漸進擴張組織以取得更多可用組織」與本句語境不同。",
-        "expand-mcq-25": "「製冷／空調系統中的膨脹閥」與本句語境不同。"
+        "expand-mcq-28": "本句的「expand」指「肺部／胸廓在呼吸時的擴張」。",
+        "expand-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-28"
     },
@@ -1480,11 +1400,9 @@ export default {
       "masked": "____ \\((x+2)(x+3)\\).",
       "options": [
         "expand-mcq-36",
-        "expand-mcq-35",
-        "expand-mcq-37",
-        "expand-mcq-34",
-        "expand-mcq-38",
-        "expand-mcq-33"
+        "expand-mcq-09",
+        "expand-mcq-28",
+        "expand-pdf-001"
       ],
       "explanation": "本句的「Expand」指「把括號／乘積形式展開成等價的代數式」。",
       "sentenceIndex": 22,
@@ -1493,12 +1411,10 @@ export default {
         "Expand"
       ],
       "optionReasons": {
-        "expand-mcq-36": "本句指「把括號／乘積形式展開成等價的代數式」。",
-        "expand-mcq-35": "「物理膨脹標本以提高可觀察解析度的顯微技術」與本句語境不同。",
-        "expand-mcq-37": "「二項式展開」與本句語境不同。",
-        "expand-mcq-34": "「DNA 重複序列單元數量增加」與本句語境不同。",
-        "expand-mcq-38": "「泰勒／麥克勞林／洛朗展開」與本句語境不同。",
-        "expand-mcq-33": "「特定細胞克隆大量增殖」與本句語境不同。"
+        "expand-mcq-36": "本句的「Expand」指「把括號／乘積形式展開成等價的代數式」。",
+        "expand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-36"
     },
@@ -1510,11 +1426,9 @@ export default {
       "masked": "Click the arrow to ____ the folder.",
       "options": [
         "expand-mcq-42",
-        "expand-mcq-41",
-        "expand-mcq-43",
-        "expand-mcq-40",
-        "expand-mcq-44",
-        "expand-mcq-39"
+        "expand-mcq-60",
+        "expand-mcq-21",
+        "expand-mcq-12"
       ],
       "explanation": "本句的「expand」指「在介面中展開項目以顯示隱藏內容」。",
       "sentenceIndex": 23,
@@ -1523,12 +1437,10 @@ export default {
         "expand"
       ],
       "optionReasons": {
-        "expand-mcq-42": "本句指「在介面中展開項目以顯示隱藏內容」。",
-        "expand-mcq-41": "「行列式的餘因子／拉普拉斯展開」與本句語境不同。",
-        "expand-mcq-43": "「顯示較多細節的展開檢視」與本句語境不同。",
-        "expand-mcq-40": "「把數字按位值拆開的展開式」與本句語境不同。",
-        "expand-mcq-44": "「增加裝置記憶體容量」與本句語境不同。",
-        "expand-mcq-39": "「數字的十進制展開表示」與本句語境不同。"
+        "expand-mcq-42": "本句的「expand」指「在介面中展開項目以顯示隱藏內容」。",
+        "expand-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-42"
     },
@@ -1540,11 +1452,9 @@ export default {
       "masked": "He became more ____ as the evening continued.",
       "options": [
         "expand-mcq-59",
-        "expand-mcq-58",
-        "expand-mcq-60",
-        "expand-mcq-57",
-        "expand-mcq-61",
-        "expand-mcq-56"
+        "expand-mcq-19",
+        "expand-pdf-001",
+        "expand-mcq-12"
       ],
       "explanation": "本句的「expansive」指「健談、開朗、外放的」。",
       "sentenceIndex": 24,
@@ -1553,12 +1463,10 @@ export default {
         "expansive"
       ],
       "optionReasons": {
-        "expand-mcq-59": "本句指「健談、開朗、外放的」。",
-        "expand-mcq-58": "「涵蓋範圍廣、宏大的」與本句語境不同。",
-        "expand-mcq-60": "「一大片連續的廣闊區域」與本句語境不同。",
-        "expand-mcq-57": "「廣闊、開闊的」與本句語境不同。",
-        "expand-mcq-61": "「可以擴大、增加容量或展開的」與本句語境不同。",
-        "expand-mcq-56": "「支持／追求擴張的；亦可指擴張主義者」與本句語境不同。"
+        "expand-mcq-59": "本句的「expansive」指「健談、開朗、外放的」。",
+        "expand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-59"
     },
@@ -1571,10 +1479,8 @@ export default {
       "options": [
         "expand-mcq-60",
         "expand-mcq-59",
-        "expand-mcq-61",
-        "expand-mcq-58",
-        "expand-mcq-62",
-        "expand-mcq-57"
+        "expand-mcq-09",
+        "expand-mcq-28"
       ],
       "explanation": "本句的「expanse」指「一大片連續的廣闊區域」。",
       "sentenceIndex": 25,
@@ -1583,12 +1489,10 @@ export default {
         "expanse"
       ],
       "optionReasons": {
-        "expand-mcq-60": "本句指「一大片連續的廣闊區域」。",
-        "expand-mcq-59": "「健談、開朗、外放的」與本句語境不同。",
-        "expand-mcq-61": "「可以擴大、增加容量或展開的」與本句語境不同。",
-        "expand-mcq-58": "「涵蓋範圍廣、宏大的」與本句語境不同。",
-        "expand-mcq-62": "「用來使某物擴張的裝置」與本句語境不同。",
-        "expand-mcq-57": "「廣闊、開闊的」與本句語境不同。"
+        "expand-mcq-60": "本句的「expanse」指「一大片連續的廣闊區域」。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-60"
     },
@@ -1600,11 +1504,9 @@ export default {
       "masked": "The table is ____.",
       "options": [
         "expand-mcq-61",
-        "expand-mcq-60",
-        "expand-mcq-62",
-        "expand-mcq-59",
-        "expand-mcq-63",
-        "expand-mcq-58"
+        "expand-mcq-19",
+        "expand-pdf-001",
+        "expand-mcq-59"
       ],
       "explanation": "本句的「expandable」指「可以擴大、增加容量或展開的」。",
       "sentenceIndex": 26,
@@ -1613,12 +1515,10 @@ export default {
         "expandable"
       ],
       "optionReasons": {
-        "expand-mcq-61": "本句指「可以擴大、增加容量或展開的」。",
-        "expand-mcq-60": "「一大片連續的廣闊區域」與本句語境不同。",
-        "expand-mcq-62": "「用來使某物擴張的裝置」與本句語境不同。",
-        "expand-mcq-59": "「健談、開朗、外放的」與本句語境不同。",
-        "expand-mcq-63": "「擴大音訊動態範圍的處理器」與本句語境不同。",
-        "expand-mcq-58": "「涵蓋範圍廣、宏大的」與本句語境不同。"
+        "expand-mcq-61": "本句的「expandable」指「可以擴大、增加容量或展開的」。",
+        "expand-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "expand-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-61"
     },
@@ -1630,10 +1530,8 @@ export default {
       "masked": "The service ____ from two locations to six.",
       "options": [
         "expand-mcq-64",
-        "expand-mcq-63",
-        "expand-mcq-62",
-        "expand-mcq-61",
-        "expand-mcq-60",
+        "expand-mcq-04",
+        "expand-mcq-01",
         "expand-mcq-59"
       ],
       "explanation": "本句的「expanded」指「理論電腦科學／圖論中的擴展圖」。",
@@ -1643,12 +1541,10 @@ export default {
         "expanded"
       ],
       "optionReasons": {
-        "expand-mcq-64": "本句指「理論電腦科學／圖論中的擴展圖」。",
-        "expand-mcq-63": "「擴大音訊動態範圍的處理器」與本句語境不同。",
-        "expand-mcq-62": "「用來使某物擴張的裝置」與本句語境不同。",
-        "expand-mcq-61": "「可以擴大、增加容量或展開的」與本句語境不同。",
-        "expand-mcq-60": "「一大片連續的廣闊區域」與本句語境不同。",
-        "expand-mcq-59": "「健談、開朗、外放的」與本句語境不同。"
+        "expand-mcq-64": "本句的「expanded」指「理論電腦科學／圖論中的擴展圖」。",
+        "expand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "expand-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "expand-mcq-64"
     }
@@ -1660,5 +1556,7 @@ export default {
     "sha256": "e4a7581526732c0ce33a41c612cb6a13f2d97c113dccd96c43e24957c131c58c",
     "pages": 52
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

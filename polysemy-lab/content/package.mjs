@@ -475,11 +475,9 @@ export default {
       "masked": "I bought a ____.",
       "options": [
         "package-mcq-02",
-        "package-mcq-01",
-        "package-mcq-03",
-        "package-mcq-04",
-        "package-mcq-05",
-        "package-mcq-06"
+        "package-mcq-18",
+        "package-mcq-21",
+        "package-mcq-11"
       ],
       "explanation": "本句的「package of cookies」指「作為一個包裝單位出售／運送的商品」。",
       "sentenceIndex": 4,
@@ -488,12 +486,10 @@ export default {
         "package of cookies"
       ],
       "optionReasons": {
-        "package-mcq-02": "本句指「作為一個包裝單位出售／運送的商品」。",
-        "package-mcq-01": "「經包裝、裝箱以便運送或交付的包裹」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。"
+        "package-mcq-02": "本句的「package of cookies」指「作為一個包裝單位出售／運送的商品」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-02"
     },
@@ -505,11 +501,9 @@ export default {
       "masked": "Open the ____ carefully.",
       "options": [
         "package-mcq-02",
-        "package-mcq-01",
-        "package-mcq-03",
-        "package-mcq-04",
-        "package-mcq-05",
-        "package-mcq-06"
+        "package-mcq-10",
+        "package-mcq-17",
+        "package-mcq-18"
       ],
       "explanation": "本句的「package」指「作為一個包裝單位出售／運送的商品」。",
       "sentenceIndex": 5,
@@ -518,12 +512,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-02": "本句指「作為一個包裝單位出售／運送的商品」。",
-        "package-mcq-01": "「經包裝、裝箱以便運送或交付的包裹」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。"
+        "package-mcq-02": "本句的「package」指「作為一個包裝單位出售／運送的商品」。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-02"
     },
@@ -535,11 +527,9 @@ export default {
       "masked": "We want recyclable ____.",
       "options": [
         "package-mcq-03",
-        "package-mcq-02",
-        "package-mcq-04",
-        "package-mcq-01",
-        "package-mcq-05",
-        "package-mcq-06"
+        "package-mcq-10",
+        "package-mcq-18",
+        "package-mcq-17"
       ],
       "explanation": "本句的「packaging」指「用於包裹、保護、運送產品的包裝／包裝材料」。",
       "sentenceIndex": 6,
@@ -548,12 +538,10 @@ export default {
         "packaging"
       ],
       "optionReasons": {
-        "package-mcq-03": "本句指「用於包裹、保護、運送產品的包裝／包裝材料」。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-01": "「經包裝、裝箱以便運送或交付的包裹」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。"
+        "package-mcq-03": "本句的「packaging」指「用於包裹、保護、運送產品的包裝／包裝材料」。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-03"
     },
@@ -565,11 +553,9 @@ export default {
       "masked": "The ____ must protect the cakes during delivery.",
       "options": [
         "package-mcq-03",
-        "package-mcq-02",
-        "package-mcq-04",
-        "package-mcq-01",
-        "package-mcq-05",
-        "package-mcq-06"
+        "package-mcq-09",
+        "package-mcq-18",
+        "package-mcq-13"
       ],
       "explanation": "本句的「packaging」指「用於包裹、保護、運送產品的包裝／包裝材料」。",
       "sentenceIndex": 7,
@@ -578,12 +564,10 @@ export default {
         "packaging"
       ],
       "optionReasons": {
-        "package-mcq-03": "本句指「用於包裹、保護、運送產品的包裝／包裝材料」。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-01": "「經包裝、裝箱以便運送或交付的包裹」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。"
+        "package-mcq-03": "本句的「packaging」指「用於包裹、保護、運送產品的包裝／包裝材料」。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-03"
     },
@@ -595,11 +579,9 @@ export default {
       "masked": "The product has attractive ____.",
       "options": [
         "package-mcq-04",
-        "package-mcq-03",
-        "package-mcq-05",
-        "package-mcq-02",
-        "package-mcq-06",
-        "package-mcq-01"
+        "package-mcq-18",
+        "package-mcq-10",
+        "package-mcq-21"
       ],
       "explanation": "本句的「packaging」指「產品外觀、標籤、容器等構成的包裝設計與呈現」。",
       "sentenceIndex": 8,
@@ -608,12 +590,10 @@ export default {
         "packaging"
       ],
       "optionReasons": {
-        "package-mcq-04": "本句指「產品外觀、標籤、容器等構成的包裝設計與呈現」。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-01": "「經包裝、裝箱以便運送或交付的包裹」與本句語境不同。"
+        "package-mcq-04": "本句的「packaging」指「產品外觀、標籤、容器等構成的包裝設計與呈現」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-04"
     },
@@ -625,11 +605,9 @@ export default {
       "masked": "Good ____ can influence customers.",
       "options": [
         "package-mcq-04",
-        "package-mcq-03",
-        "package-mcq-05",
-        "package-mcq-02",
-        "package-mcq-06",
-        "package-mcq-01"
+        "package-mcq-18",
+        "package-mcq-11",
+        "package-mcq-21"
       ],
       "explanation": "本句的「packaging」指「產品外觀、標籤、容器等構成的包裝設計與呈現」。",
       "sentenceIndex": 9,
@@ -638,12 +616,10 @@ export default {
         "packaging"
       ],
       "optionReasons": {
-        "package-mcq-04": "本句指「產品外觀、標籤、容器等構成的包裝設計與呈現」。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-01": "「經包裝、裝箱以便運送或交付的包裹」與本句語境不同。"
+        "package-mcq-04": "本句的「packaging」指「產品外觀、標籤、容器等構成的包裝設計與呈現」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-04"
     },
@@ -655,11 +631,9 @@ export default {
       "masked": "The cookies are ____ individually.",
       "options": [
         "package-mcq-05",
-        "package-mcq-04",
-        "package-mcq-06",
-        "package-mcq-03",
-        "package-mcq-07",
-        "package-mcq-02"
+        "package-mcq-18",
+        "package-mcq-09",
+        "package-mcq-15"
       ],
       "explanation": "本句的「packaged」指「把商品包裝、裝箱，以便出售、保存或運送」。",
       "sentenceIndex": 10,
@@ -668,12 +642,10 @@ export default {
         "packaged"
       ],
       "optionReasons": {
-        "package-mcq-05": "本句指「把商品包裝、裝箱，以便出售、保存或運送」。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。"
+        "package-mcq-05": "本句的「packaged」指「把商品包裝、裝箱，以便出售、保存或運送」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-05"
     },
@@ -685,11 +657,9 @@ export default {
       "masked": "The products are ____ for delivery.",
       "options": [
         "package-mcq-05",
-        "package-mcq-04",
-        "package-mcq-06",
-        "package-mcq-03",
-        "package-mcq-07",
-        "package-mcq-02"
+        "package-mcq-11",
+        "package-mcq-17",
+        "package-mcq-18"
       ],
       "explanation": "本句的「packaged」指「把商品包裝、裝箱，以便出售、保存或運送」。",
       "sentenceIndex": 11,
@@ -698,12 +668,10 @@ export default {
         "packaged"
       ],
       "optionReasons": {
-        "package-mcq-05": "本句指「把商品包裝、裝箱，以便出售、保存或運送」。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。"
+        "package-mcq-05": "本句的「packaged」指「把商品包裝、裝箱，以便出售、保存或運送」。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-05"
     },
@@ -715,11 +683,9 @@ export default {
       "masked": "Fragile items must be ____.",
       "options": [
         "package-mcq-05",
-        "package-mcq-04",
-        "package-mcq-06",
-        "package-mcq-03",
-        "package-mcq-07",
-        "package-mcq-02"
+        "package-mcq-11",
+        "package-mcq-18",
+        "package-mcq-17"
       ],
       "explanation": "本句的「packaged carefully」指「把商品包裝、裝箱，以便出售、保存或運送」。",
       "sentenceIndex": 12,
@@ -728,12 +694,10 @@ export default {
         "packaged carefully"
       ],
       "optionReasons": {
-        "package-mcq-05": "本句指「把商品包裝、裝箱，以便出售、保存或運送」。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。"
+        "package-mcq-05": "本句的「packaged carefully」指「把商品包裝、裝箱，以便出售、保存或運送」。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-05"
     },
@@ -745,11 +709,9 @@ export default {
       "masked": "The cakes were ____.",
       "options": [
         "package-mcq-05",
-        "package-mcq-04",
-        "package-mcq-06",
-        "package-mcq-03",
-        "package-mcq-07",
-        "package-mcq-02"
+        "package-mcq-11",
+        "package-mcq-18",
+        "package-mcq-17"
       ],
       "explanation": "本句的「packaged securely」指「把商品包裝、裝箱，以便出售、保存或運送」。",
       "sentenceIndex": 13,
@@ -758,12 +720,10 @@ export default {
         "packaged securely"
       ],
       "optionReasons": {
-        "package-mcq-05": "本句指「把商品包裝、裝箱，以便出售、保存或運送」。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-02": "「作為一個包裝單位出售／運送的商品」與本句語境不同。"
+        "package-mcq-05": "本句的「packaged securely」指「把商品包裝、裝箱，以便出售、保存或運送」。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-05"
     },
@@ -775,11 +735,9 @@ export default {
       "masked": "The hotel offers a weekend ____.",
       "options": [
         "package-mcq-06",
-        "package-mcq-05",
-        "package-mcq-07",
-        "package-mcq-04",
-        "package-mcq-08",
-        "package-mcq-03"
+        "package-mcq-18",
+        "package-mcq-21",
+        "package-mcq-16"
       ],
       "explanation": "本句的「package」指「把多項產品、服務或福利組合提供的套裝／方案」。",
       "sentenceIndex": 14,
@@ -788,12 +746,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-06": "本句指「把多項產品、服務或福利組合提供的套裝／方案」。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。"
+        "package-mcq-06": "本句的「package」指「把多項產品、服務或福利組合提供的套裝／方案」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-06"
     },
@@ -805,11 +761,9 @@ export default {
       "masked": "The service comes as part of a larger ____.",
       "options": [
         "package-mcq-06",
-        "package-mcq-05",
-        "package-mcq-07",
-        "package-mcq-04",
-        "package-mcq-08",
-        "package-mcq-03"
+        "package-mcq-18",
+        "package-mcq-21",
+        "package-mcq-16"
       ],
       "explanation": "本句的「package」指「把多項產品、服務或福利組合提供的套裝／方案」。",
       "sentenceIndex": 15,
@@ -818,12 +772,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-06": "本句指「把多項產品、服務或福利組合提供的套裝／方案」。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-03": "「用於包裹、保護、運送產品的包裝／包裝材料」與本句語境不同。"
+        "package-mcq-06": "本句的「package」指「把多項產品、服務或福利組合提供的套裝／方案」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-06"
     },
@@ -835,11 +787,9 @@ export default {
       "masked": "Flights and accommodation were sold as a ____.",
       "options": [
         "package-mcq-07",
-        "package-mcq-06",
-        "package-mcq-08",
-        "package-mcq-05",
         "package-mcq-09",
-        "package-mcq-04"
+        "package-mcq-18",
+        "package-mcq-16"
       ],
       "explanation": "本句的「package deal」指「多項商品／服務一併提供的一攬子／套裝交易」。",
       "sentenceIndex": 16,
@@ -848,12 +798,10 @@ export default {
         "package deal"
       ],
       "optionReasons": {
-        "package-mcq-07": "本句指「多項商品／服務一併提供的一攬子／套裝交易」。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。"
+        "package-mcq-07": "本句的「package deal」指「多項商品／服務一併提供的一攬子／套裝交易」。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-07"
     },
@@ -865,11 +813,9 @@ export default {
       "masked": "The two services come as a ____.",
       "options": [
         "package-mcq-07",
-        "package-mcq-06",
-        "package-mcq-08",
-        "package-mcq-05",
-        "package-mcq-09",
-        "package-mcq-04"
+        "package-mcq-18",
+        "package-mcq-17",
+        "package-mcq-19"
       ],
       "explanation": "本句的「package deal」指「多項商品／服務一併提供的一攬子／套裝交易」。",
       "sentenceIndex": 17,
@@ -878,12 +824,10 @@ export default {
         "package deal"
       ],
       "optionReasons": {
-        "package-mcq-07": "本句指「多項商品／服務一併提供的一攬子／套裝交易」。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-04": "「產品外觀、標籤、容器等構成的包裝設計與呈現」與本句語境不同。"
+        "package-mcq-07": "本句的「package deal」指「多項商品／服務一併提供的一攬子／套裝交易」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-07"
     },
@@ -895,11 +839,9 @@ export default {
       "masked": "They booked a ____ to Spain.",
       "options": [
         "package-mcq-08",
-        "package-mcq-07",
-        "package-mcq-09",
-        "package-mcq-06",
-        "package-mcq-10",
-        "package-mcq-05"
+        "package-mcq-21",
+        "package-mcq-18",
+        "package-mcq-03"
       ],
       "explanation": "本句的「package holiday」指「把交通、住宿等合併出售的套裝旅行」。",
       "sentenceIndex": 18,
@@ -908,12 +850,10 @@ export default {
         "package holiday"
       ],
       "optionReasons": {
-        "package-mcq-08": "本句指「把交通、住宿等合併出售的套裝旅行」。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。"
+        "package-mcq-08": "本句的「package holiday」指「把交通、住宿等合併出售的套裝旅行」。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-08"
     },
@@ -925,11 +865,9 @@ export default {
       "masked": "A ____ may include hotels and transport.",
       "options": [
         "package-mcq-08",
-        "package-mcq-07",
-        "package-mcq-09",
-        "package-mcq-06",
-        "package-mcq-10",
-        "package-mcq-05"
+        "package-mcq-21",
+        "package-mcq-18",
+        "package-mcq-03"
       ],
       "explanation": "本句的「package tour」指「把交通、住宿等合併出售的套裝旅行」。",
       "sentenceIndex": 19,
@@ -938,12 +876,10 @@ export default {
         "package tour"
       ],
       "optionReasons": {
-        "package-mcq-08": "本句指「把交通、住宿等合併出售的套裝旅行」。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-05": "「把商品包裝、裝箱，以便出售、保存或運送」與本句語境不同。"
+        "package-mcq-08": "本句的「package tour」指「把交通、住宿等合併出售的套裝旅行」。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-08"
     },
@@ -955,11 +891,9 @@ export default {
       "masked": "The company offered an attractive ____.",
       "options": [
         "package-mcq-09",
-        "package-mcq-08",
-        "package-mcq-10",
-        "package-mcq-07",
-        "package-mcq-11",
-        "package-mcq-06"
+        "package-mcq-16",
+        "package-mcq-18",
+        "package-mcq-13"
       ],
       "explanation": "本句的「salary package」指「薪金、獎金、福利等合在一起的整體薪酬待遇」。",
       "sentenceIndex": 20,
@@ -968,12 +902,10 @@ export default {
         "salary package"
       ],
       "optionReasons": {
-        "package-mcq-09": "本句指「薪金、獎金、福利等合在一起的整體薪酬待遇」。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。"
+        "package-mcq-09": "本句的「salary package」指「薪金、獎金、福利等合在一起的整體薪酬待遇」。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-09"
     },
@@ -985,11 +917,9 @@ export default {
       "masked": "The ____ includes health benefits.",
       "options": [
         "package-mcq-09",
-        "package-mcq-08",
-        "package-mcq-10",
+        "package-mcq-18",
         "package-mcq-07",
-        "package-mcq-11",
-        "package-mcq-06"
+        "package-mcq-19"
       ],
       "explanation": "本句的「compensation package」指「薪金、獎金、福利等合在一起的整體薪酬待遇」。",
       "sentenceIndex": 21,
@@ -998,12 +928,10 @@ export default {
         "compensation package"
       ],
       "optionReasons": {
-        "package-mcq-09": "本句指「薪金、獎金、福利等合在一起的整體薪酬待遇」。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-06": "「把多項產品、服務或福利組合提供的套裝／方案」與本句語境不同。"
+        "package-mcq-09": "本句的「compensation package」指「薪金、獎金、福利等合在一起的整體薪酬待遇」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-09"
     },
@@ -1015,11 +943,9 @@ export default {
       "masked": "The job comes with a strong ____.",
       "options": [
         "package-mcq-10",
-        "package-mcq-09",
-        "package-mcq-11",
-        "package-mcq-08",
-        "package-mcq-12",
-        "package-mcq-07"
+        "package-mcq-16",
+        "package-mcq-18",
+        "package-mcq-21"
       ],
       "explanation": "本句的「benefits package」指「僱員獲得的一整套福利」。",
       "sentenceIndex": 22,
@@ -1028,12 +954,10 @@ export default {
         "benefits package"
       ],
       "optionReasons": {
-        "package-mcq-10": "本句指「僱員獲得的一整套福利」。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。"
+        "package-mcq-10": "本句的「benefits package」指「僱員獲得的一整套福利」。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-10"
     },
@@ -1045,11 +969,9 @@ export default {
       "masked": "They improved the employee ____.",
       "options": [
         "package-mcq-10",
-        "package-mcq-09",
-        "package-mcq-11",
-        "package-mcq-08",
-        "package-mcq-12",
-        "package-mcq-07"
+        "package-mcq-16",
+        "package-mcq-18",
+        "package-mcq-08"
       ],
       "explanation": "本句的「benefits package」指「僱員獲得的一整套福利」。",
       "sentenceIndex": 23,
@@ -1058,12 +980,10 @@ export default {
         "benefits package"
       ],
       "optionReasons": {
-        "package-mcq-10": "本句指「僱員獲得的一整套福利」。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-07": "「多項商品／服務一併提供的一攬子／套裝交易」與本句語境不同。"
+        "package-mcq-10": "本句的「benefits package」指「僱員獲得的一整套福利」。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-10"
     },
@@ -1075,11 +995,9 @@ export default {
       "masked": "The government announced a financial ____.",
       "options": [
         "package-mcq-11",
-        "package-mcq-10",
-        "package-mcq-12",
-        "package-mcq-09",
-        "package-mcq-13",
-        "package-mcq-08"
+        "package-mcq-16",
+        "package-mcq-18",
+        "package-mcq-13"
       ],
       "explanation": "本句的「package」指「一整套財政措施／救助方案」。",
       "sentenceIndex": 24,
@@ -1088,12 +1006,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-11": "本句指「一整套財政措施／救助方案」。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。"
+        "package-mcq-11": "本句的「package」指「一整套財政措施／救助方案」。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-11"
     },
@@ -1105,11 +1021,9 @@ export default {
       "masked": "The company received a rescue ____.",
       "options": [
         "package-mcq-11",
-        "package-mcq-10",
-        "package-mcq-12",
-        "package-mcq-09",
-        "package-mcq-13",
-        "package-mcq-08"
+        "package-mcq-04",
+        "package-mcq-18",
+        "package-mcq-07"
       ],
       "explanation": "本句的「package」指「一整套財政措施／救助方案」。",
       "sentenceIndex": 25,
@@ -1118,12 +1032,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-11": "本句指「一整套財政措施／救助方案」。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-08": "「把交通、住宿等合併出售的套裝旅行」與本句語境不同。"
+        "package-mcq-11": "本句的「package」指「一整套財政措施／救助方案」。",
+        "package-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-11"
     },
@@ -1135,11 +1047,9 @@ export default {
       "masked": "The company sells an accounting ____.",
       "options": [
         "package-mcq-12",
-        "package-mcq-11",
-        "package-mcq-13",
-        "package-mcq-10",
-        "package-mcq-14",
-        "package-mcq-09"
+        "package-mcq-16",
+        "package-mcq-17",
+        "package-mcq-18"
       ],
       "explanation": "本句的「software package」指「作為一套產品提供的軟體／軟件套件」。",
       "sentenceIndex": 26,
@@ -1148,12 +1058,10 @@ export default {
         "software package"
       ],
       "optionReasons": {
-        "package-mcq-12": "本句指「作為一套產品提供的軟體／軟件套件」。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。"
+        "package-mcq-12": "本句的「software package」指「作為一套產品提供的軟體／軟件套件」。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-12"
     },
@@ -1165,11 +1073,9 @@ export default {
       "masked": "Install the complete ____.",
       "options": [
         "package-mcq-12",
-        "package-mcq-11",
-        "package-mcq-13",
-        "package-mcq-10",
-        "package-mcq-14",
-        "package-mcq-09"
+        "package-mcq-16",
+        "package-mcq-17",
+        "package-mcq-08"
       ],
       "explanation": "本句的「package」指「作為一套產品提供的軟體／軟件套件」。",
       "sentenceIndex": 27,
@@ -1178,12 +1084,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-12": "本句指「作為一套產品提供的軟體／軟件套件」。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-09": "「薪金、獎金、福利等合在一起的整體薪酬待遇」與本句語境不同。"
+        "package-mcq-12": "本句的「package」指「作為一套產品提供的軟體／軟件套件」。",
+        "package-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-12"
     },
@@ -1195,11 +1099,9 @@ export default {
       "masked": "We installed a new Python ____.",
       "options": [
         "package-mcq-13",
-        "package-mcq-12",
-        "package-mcq-14",
-        "package-mcq-11",
         "package-mcq-15",
-        "package-mcq-10"
+        "package-mcq-09",
+        "package-mcq-18"
       ],
       "explanation": "本句的「package」指「可安裝、重用的一組程式碼／模組；程式套件」。",
       "sentenceIndex": 28,
@@ -1208,12 +1110,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-13": "本句指「可安裝、重用的一組程式碼／模組；程式套件」。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。"
+        "package-mcq-13": "本句的「package」指「可安裝、重用的一組程式碼／模組；程式套件」。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-13"
     },
@@ -1225,11 +1125,9 @@ export default {
       "masked": "The ____ contains several useful tools.",
       "options": [
         "package-mcq-13",
-        "package-mcq-12",
-        "package-mcq-14",
-        "package-mcq-11",
+        "package-mcq-09",
         "package-mcq-15",
-        "package-mcq-10"
+        "package-mcq-05"
       ],
       "explanation": "本句的「package」指「可安裝、重用的一組程式碼／模組；程式套件」。",
       "sentenceIndex": 29,
@@ -1238,12 +1136,10 @@ export default {
         "package"
       ],
       "optionReasons": {
-        "package-mcq-13": "本句指「可安裝、重用的一組程式碼／模組；程式套件」。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-10": "「僱員獲得的一整套福利」與本句語境不同。"
+        "package-mcq-13": "本句的「package」指「可安裝、重用的一組程式碼／模組；程式套件」。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-13"
     },
@@ -1255,11 +1151,9 @@ export default {
       "masked": "Use a ____ to install the library.",
       "options": [
         "package-mcq-14",
-        "package-mcq-13",
         "package-mcq-15",
-        "package-mcq-12",
-        "package-mcq-16",
-        "package-mcq-11"
+        "package-mcq-02",
+        "package-mcq-09"
       ],
       "explanation": "本句的「package manager」指「安裝、更新、管理軟體套件的工具」。",
       "sentenceIndex": 30,
@@ -1268,12 +1162,10 @@ export default {
         "package manager"
       ],
       "optionReasons": {
-        "package-mcq-14": "本句指「安裝、更新、管理軟體套件的工具」。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。"
+        "package-mcq-14": "本句的「package manager」指「安裝、更新、管理軟體套件的工具」。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-14"
     },
@@ -1285,10 +1177,8 @@ export default {
       "masked": "The ____ checks dependencies automatically.",
       "options": [
         "package-mcq-14",
-        "package-mcq-13",
         "package-mcq-15",
-        "package-mcq-12",
-        "package-mcq-16",
+        "package-mcq-21",
         "package-mcq-11"
       ],
       "explanation": "本句的「package manager」指「安裝、更新、管理軟體套件的工具」。",
@@ -1298,12 +1188,10 @@ export default {
         "package manager"
       ],
       "optionReasons": {
-        "package-mcq-14": "本句指「安裝、更新、管理軟體套件的工具」。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-11": "「一整套財政措施／救助方案」與本句語境不同。"
+        "package-mcq-14": "本句的「package manager」指「安裝、更新、管理軟體套件的工具」。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-14"
     },
@@ -1315,11 +1203,9 @@ export default {
       "masked": "The idea was ____ a simple solution.",
       "options": [
         "package-mcq-15",
+        "package-mcq-21",
         "package-mcq-14",
-        "package-mcq-16",
-        "package-mcq-13",
-        "package-mcq-17",
-        "package-mcq-12"
+        "package-mcq-11"
       ],
       "explanation": "本句的「packaged as」指「把想法、產品、人物等刻意塑造成某種形象／形式」。",
       "sentenceIndex": 32,
@@ -1328,12 +1214,10 @@ export default {
         "packaged as"
       ],
       "optionReasons": {
-        "package-mcq-15": "本句指「把想法、產品、人物等刻意塑造成某種形象／形式」。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。"
+        "package-mcq-15": "本句的「packaged as」指「把想法、產品、人物等刻意塑造成某種形象／形式」。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-15"
     },
@@ -1345,11 +1229,9 @@ export default {
       "masked": "The campaign ____ carefully.",
       "options": [
         "package-mcq-15",
-        "package-mcq-14",
-        "package-mcq-16",
-        "package-mcq-13",
-        "package-mcq-17",
-        "package-mcq-12"
+        "package-mcq-18",
+        "package-mcq-19",
+        "package-mcq-11"
       ],
       "explanation": "本句的「packaged the message」指「把想法、產品、人物等刻意塑造成某種形象／形式」。",
       "sentenceIndex": 33,
@@ -1358,12 +1240,10 @@ export default {
         "packaged the message"
       ],
       "optionReasons": {
-        "package-mcq-15": "本句指「把想法、產品、人物等刻意塑造成某種形象／形式」。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-12": "「作為一套產品提供的軟體／軟件套件」與本句語境不同。"
+        "package-mcq-15": "本句的「packaged the message」指「把想法、產品、人物等刻意塑造成某種形象／形式」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-15"
     },
@@ -1375,11 +1255,9 @@ export default {
       "masked": "The product was ____ a luxury item.",
       "options": [
         "package-mcq-16",
-        "package-mcq-15",
-        "package-mcq-17",
-        "package-mcq-14",
-        "package-mcq-18",
-        "package-mcq-13"
+        "package-mcq-11",
+        "package-mcq-12",
+        "package-mcq-18"
       ],
       "explanation": "本句的「packaged as」指「把某物包裝／呈現為某種形象或類型」。",
       "sentenceIndex": 34,
@@ -1388,12 +1266,10 @@ export default {
         "packaged as"
       ],
       "optionReasons": {
-        "package-mcq-16": "本句指「把某物包裝／呈現為某種形象或類型」。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。"
+        "package-mcq-16": "本句的「packaged as」指「把某物包裝／呈現為某種形象或類型」。",
+        "package-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-16"
     },
@@ -1405,11 +1281,9 @@ export default {
       "masked": "The course is ____ beginner-friendly.",
       "options": [
         "package-mcq-16",
-        "package-mcq-15",
-        "package-mcq-17",
-        "package-mcq-14",
+        "package-mcq-10",
         "package-mcq-18",
-        "package-mcq-13"
+        "package-mcq-21"
       ],
       "explanation": "本句的「packaged as」指「把某物包裝／呈現為某種形象或類型」。",
       "sentenceIndex": 35,
@@ -1418,12 +1292,10 @@ export default {
         "packaged as"
       ],
       "optionReasons": {
-        "package-mcq-16": "本句指「把某物包裝／呈現為某種形象或類型」。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-13": "「可安裝、重用的一組程式碼／模組；程式套件」與本句語境不同。"
+        "package-mcq-16": "本句的「packaged as」指「把某物包裝／呈現為某種形象或類型」。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-16"
     },
@@ -1435,11 +1307,9 @@ export default {
       "masked": "The material was ____ a short video series.",
       "options": [
         "package-mcq-17",
-        "package-mcq-16",
-        "package-mcq-18",
-        "package-mcq-15",
-        "package-mcq-19",
-        "package-mcq-14"
+        "package-mcq-03",
+        "package-mcq-07",
+        "package-mcq-13"
       ],
       "explanation": "本句的「packaged into」指「把資訊、媒體等整合整理成完整可用形式」。",
       "sentenceIndex": 36,
@@ -1448,12 +1318,10 @@ export default {
         "packaged into"
       ],
       "optionReasons": {
-        "package-mcq-17": "本句指「把資訊、媒體等整合整理成完整可用形式」。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。"
+        "package-mcq-17": "本句的「packaged into」指「把資訊、媒體等整合整理成完整可用形式」。",
+        "package-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-17"
     },
@@ -1465,11 +1333,9 @@ export default {
       "masked": "The information was ____ for a general audience.",
       "options": [
         "package-mcq-17",
-        "package-mcq-16",
-        "package-mcq-18",
-        "package-mcq-15",
-        "package-mcq-19",
-        "package-mcq-14"
+        "package-mcq-05",
+        "package-mcq-13",
+        "package-mcq-18"
       ],
       "explanation": "本句的「packaged」指「把資訊、媒體等整合整理成完整可用形式」。",
       "sentenceIndex": 37,
@@ -1478,12 +1344,10 @@ export default {
         "packaged"
       ],
       "optionReasons": {
-        "package-mcq-17": "本句指「把資訊、媒體等整合整理成完整可用形式」。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-14": "「安裝、更新、管理軟體套件的工具」與本句語境不同。"
+        "package-mcq-17": "本句的「packaged」指「把資訊、媒體等整合整理成完整可用形式」。",
+        "package-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-17"
     },
@@ -1495,11 +1359,9 @@ export default {
       "masked": "She has talent, discipline, and confidence—the ____.",
       "options": [
         "package-mcq-18",
+        "package-mcq-02",
         "package-mcq-17",
-        "package-mcq-19",
-        "package-mcq-16",
-        "package-mcq-20",
-        "package-mcq-15"
+        "package-mcq-10"
       ],
       "explanation": "本句的「whole package」指「各方面優點／條件都具備的人或事物」。",
       "sentenceIndex": 38,
@@ -1508,12 +1370,10 @@ export default {
         "whole package"
       ],
       "optionReasons": {
-        "package-mcq-18": "本句指「各方面優點／條件都具備的人或事物」。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。"
+        "package-mcq-18": "本句的「whole package」指「各方面優點／條件都具備的人或事物」。",
+        "package-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-18"
     },
@@ -1525,11 +1385,9 @@ export default {
       "masked": "The product is attractive, practical, and affordable—the ____.",
       "options": [
         "package-mcq-18",
-        "package-mcq-17",
-        "package-mcq-19",
-        "package-mcq-16",
-        "package-mcq-20",
-        "package-mcq-15"
+        "package-mcq-10",
+        "package-mcq-02",
+        "package-mcq-21"
       ],
       "explanation": "本句的「complete package」指「各方面優點／條件都具備的人或事物」。",
       "sentenceIndex": 39,
@@ -1538,12 +1396,10 @@ export default {
         "complete package"
       ],
       "optionReasons": {
-        "package-mcq-18": "本句指「各方面優點／條件都具備的人或事物」。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。"
+        "package-mcq-18": "本句的「complete package」指「各方面優點／條件都具備的人或事物」。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-18"
     },
@@ -1555,11 +1411,9 @@ export default {
       "masked": "The service is a ____.",
       "options": [
         "package-mcq-18",
-        "package-mcq-17",
-        "package-mcq-19",
-        "package-mcq-16",
-        "package-mcq-20",
-        "package-mcq-15"
+        "package-mcq-10",
+        "package-mcq-02",
+        "package-mcq-21"
       ],
       "explanation": "本句的「complete package」指「各方面優點／條件都具備的人或事物」。",
       "sentenceIndex": 40,
@@ -1568,12 +1422,10 @@ export default {
         "complete package"
       ],
       "optionReasons": {
-        "package-mcq-18": "本句指「各方面優點／條件都具備的人或事物」。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。"
+        "package-mcq-18": "本句的「complete package」指「各方面優點／條件都具備的人或事物」。",
+        "package-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-18"
     },
@@ -1585,11 +1437,9 @@ export default {
       "masked": "He is considered the ____ as a player.",
       "options": [
         "package-mcq-18",
-        "package-mcq-17",
-        "package-mcq-19",
-        "package-mcq-16",
-        "package-mcq-20",
-        "package-mcq-15"
+        "package-mcq-03",
+        "package-mcq-21",
+        "package-mcq-07"
       ],
       "explanation": "本句的「complete package」指「各方面優點／條件都具備的人或事物」。",
       "sentenceIndex": 41,
@@ -1598,12 +1448,10 @@ export default {
         "complete package"
       ],
       "optionReasons": {
-        "package-mcq-18": "本句指「各方面優點／條件都具備的人或事物」。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-15": "「把想法、產品、人物等刻意塑造成某種形象／形式」與本句語境不同。"
+        "package-mcq-18": "本句的「complete package」指「各方面優點／條件都具備的人或事物」。",
+        "package-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-18"
     },
@@ -1615,11 +1463,9 @@ export default {
       "masked": "The food ____ must follow safety rules.",
       "options": [
         "package-mcq-19",
+        "package-mcq-15",
         "package-mcq-18",
-        "package-mcq-20",
-        "package-mcq-17",
-        "package-mcq-21",
-        "package-mcq-16"
+        "package-mcq-09"
       ],
       "explanation": "本句的「packager」指「已包裝好的」。",
       "sentenceIndex": 42,
@@ -1628,12 +1474,10 @@ export default {
         "packager"
       ],
       "optionReasons": {
-        "package-mcq-19": "本句指「已包裝好的」。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-21": "「某整體情況中自然附帶、難以分開的一部分」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。"
+        "package-mcq-19": "本句的「packager」指「已包裝好的」。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-19"
     },
@@ -1645,11 +1489,9 @@ export default {
       "masked": "The company works with a third-party ____.",
       "options": [
         "package-mcq-19",
+        "package-mcq-15",
         "package-mcq-18",
-        "package-mcq-20",
-        "package-mcq-17",
-        "package-mcq-21",
-        "package-mcq-16"
+        "package-mcq-09"
       ],
       "explanation": "本句的「packager」指「已包裝好的」。",
       "sentenceIndex": 43,
@@ -1658,12 +1500,10 @@ export default {
         "packager"
       ],
       "optionReasons": {
-        "package-mcq-19": "本句指「已包裝好的」。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-21": "「某整體情況中自然附帶、難以分開的一部分」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。"
+        "package-mcq-19": "本句的「packager」指「已包裝好的」。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-19"
     },
@@ -1675,11 +1515,9 @@ export default {
       "masked": "Long hours are sometimes ____.",
       "options": [
         "package-mcq-21",
-        "package-mcq-20",
-        "package-mcq-19",
-        "package-mcq-18",
-        "package-mcq-17",
-        "package-mcq-16"
+        "package-mcq-05",
+        "package-mcq-15",
+        "package-mcq-13"
       ],
       "explanation": "本句的「part of the package」指「某整體情況中自然附帶、難以分開的一部分」。",
       "sentenceIndex": 46,
@@ -1688,12 +1526,10 @@ export default {
         "part of the package"
       ],
       "optionReasons": {
-        "package-mcq-21": "本句指「某整體情況中自然附帶、難以分開的一部分」。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。"
+        "package-mcq-21": "本句的「part of the package」指「某整體情況中自然附帶、難以分開的一部分」。",
+        "package-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-21"
     },
@@ -1705,11 +1541,9 @@ export default {
       "masked": "Some stress comes ____ of running a business.",
       "options": [
         "package-mcq-21",
-        "package-mcq-20",
-        "package-mcq-19",
         "package-mcq-18",
-        "package-mcq-17",
-        "package-mcq-16"
+        "package-mcq-04",
+        "package-mcq-13"
       ],
       "explanation": "本句的「with the package」指「某整體情況中自然附帶、難以分開的一部分」。",
       "sentenceIndex": 47,
@@ -1718,12 +1552,10 @@ export default {
         "with the package"
       ],
       "optionReasons": {
-        "package-mcq-21": "本句指「某整體情況中自然附帶、難以分開的一部分」。",
-        "package-mcq-20": "「經刻意塑造、整理或行銷呈現的」與本句語境不同。",
-        "package-mcq-19": "「已包裝好的」與本句語境不同。",
-        "package-mcq-18": "「各方面優點／條件都具備的人或事物」與本句語境不同。",
-        "package-mcq-17": "「把資訊、媒體等整合整理成完整可用形式」與本句語境不同。",
-        "package-mcq-16": "「把某物包裝／呈現為某種形象或類型」與本句語境不同。"
+        "package-mcq-21": "本句的「with the package」指「某整體情況中自然附帶、難以分開的一部分」。",
+        "package-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "package-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "package-mcq-21"
     }
@@ -1735,5 +1567,7 @@ export default {
     "sha256": "15e697cac59efff3f925073e1b2f4fdce16d317bfae175415c311580242b02ea",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

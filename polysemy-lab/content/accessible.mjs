@@ -707,11 +707,8 @@ export default {
       "masked": "The village is easily ____ by road.",
       "options": [
         "accessible-mcq-01",
-        "accessible-mcq-02",
-        "accessible-mcq-03",
-        "accessible-mcq-04",
-        "accessible-mcq-05",
-        "accessible-mcq-06"
+        "accessible-mcq-08",
+        "accessible-mcq-04"
       ],
       "explanation": "本句的「accessible」指「容易到達／進入的」。",
       "sentenceIndex": 0,
@@ -720,12 +717,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-01": "本句指「容易到達／進入的」。",
-        "accessible-mcq-02": "「可經公路／鐵路方便到達」與本句語境不同。",
-        "accessible-mcq-03": "「公眾可以進入／使用的」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。"
+        "accessible-mcq-01": "本句的「accessible」指「容易到達／進入的」。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-01"
     },
@@ -737,11 +731,8 @@ export default {
       "masked": "The beach is only ____ on foot.",
       "options": [
         "accessible-mcq-01",
-        "accessible-mcq-02",
-        "accessible-mcq-03",
-        "accessible-mcq-04",
-        "accessible-mcq-05",
-        "accessible-mcq-06"
+        "accessible-mcq-07",
+        "accessible-mcq-08"
       ],
       "explanation": "本句的「accessible」指「容易到達／進入的」。",
       "sentenceIndex": 1,
@@ -750,12 +741,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-01": "本句指「容易到達／進入的」。",
-        "accessible-mcq-02": "「可經公路／鐵路方便到達」與本句語境不同。",
-        "accessible-mcq-03": "「公眾可以進入／使用的」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。"
+        "accessible-mcq-01": "本句的「accessible」指「容易到達／進入的」。",
+        "accessible-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-01"
     },
@@ -767,11 +755,9 @@ export default {
       "masked": "The library is easily ____ by public transport.",
       "options": [
         "accessible-mcq-02",
-        "accessible-mcq-01",
-        "accessible-mcq-03",
-        "accessible-mcq-04",
-        "accessible-mcq-05",
-        "accessible-mcq-06"
+        "accessible-mcq-08",
+        "accessible-mcq-23",
+        "accessible-mcq-07"
       ],
       "explanation": "本句的「accessible」指「可經公路／鐵路方便到達」。",
       "sentenceIndex": 2,
@@ -780,12 +766,10 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-02": "本句指「可經公路／鐵路方便到達」。",
-        "accessible-mcq-01": "「容易到達／進入的」與本句語境不同。",
-        "accessible-mcq-03": "「公眾可以進入／使用的」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。"
+        "accessible-mcq-02": "本句的「accessible」指「可經公路／鐵路方便到達」。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-02"
     },
@@ -797,10 +781,7 @@ export default {
       "masked": "The building is ____ through the main entrance.",
       "options": [
         "accessible-mcq-03",
-        "accessible-mcq-02",
-        "accessible-mcq-04",
-        "accessible-mcq-01",
-        "accessible-mcq-05",
+        "accessible-mcq-50",
         "accessible-mcq-06"
       ],
       "explanation": "本句的「accessible」指「公眾可以進入／使用的」。",
@@ -810,12 +791,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-03": "本句指「公眾可以進入／使用的」。",
-        "accessible-mcq-02": "「可經公路／鐵路方便到達」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。",
-        "accessible-mcq-01": "「容易到達／進入的」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。"
+        "accessible-mcq-03": "本句的「accessible」指「公眾可以進入／使用的」。",
+        "accessible-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-03"
     },
@@ -827,11 +805,9 @@ export default {
       "masked": "The garden is ____ to the public during the day.",
       "options": [
         "accessible-mcq-03",
-        "accessible-mcq-02",
-        "accessible-mcq-04",
-        "accessible-mcq-01",
-        "accessible-mcq-05",
-        "accessible-mcq-06"
+        "accessible-mcq-22",
+        "accessible-mcq-07",
+        "accessible-mcq-08"
       ],
       "explanation": "本句的「accessible」指「公眾可以進入／使用的」。",
       "sentenceIndex": 4,
@@ -840,12 +816,10 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-03": "本句指「公眾可以進入／使用的」。",
-        "accessible-mcq-02": "「可經公路／鐵路方便到達」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。",
-        "accessible-mcq-01": "「容易到達／進入的」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。"
+        "accessible-mcq-03": "本句的「accessible」指「公眾可以進入／使用的」。",
+        "accessible-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-03"
     },
@@ -858,10 +832,8 @@ export default {
       "options": [
         "accessible-mcq-04",
         "accessible-mcq-03",
-        "accessible-mcq-05",
-        "accessible-mcq-02",
-        "accessible-mcq-06",
-        "accessible-mcq-01"
+        "accessible-mcq-08",
+        "accessible-mcq-22"
       ],
       "explanation": "本句的「accessible」指「實際可以取得、接觸或使用的」。",
       "sentenceIndex": 5,
@@ -870,12 +842,10 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-04": "本句指「實際可以取得、接觸或使用的」。",
-        "accessible-mcq-03": "「公眾可以進入／使用的」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-02": "「可經公路／鐵路方便到達」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。",
-        "accessible-mcq-01": "「容易到達／進入的」與本句語境不同。"
+        "accessible-mcq-04": "本句的「accessible」指「實際可以取得、接觸或使用的」。",
+        "accessible-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-04"
     },
@@ -887,10 +857,7 @@ export default {
       "masked": "The information should be easily ____.",
       "options": [
         "accessible-mcq-06",
-        "accessible-mcq-05",
-        "accessible-mcq-07",
-        "accessible-mcq-04",
-        "accessible-mcq-08",
+        "accessible-mcq-22",
         "accessible-mcq-03"
       ],
       "explanation": "本句的「accessible」指「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」。",
@@ -900,12 +867,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-06": "本句指「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-07": "「人們能實際參與／取得的教育」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。",
-        "accessible-mcq-08": "「無障礙的；設計上可讓殘疾人士使用」與本句語境不同。",
-        "accessible-mcq-03": "「公眾可以進入／使用的」與本句語境不同。"
+        "accessible-mcq-06": "本句的「accessible」指「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」。",
+        "accessible-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-06"
     },
@@ -917,11 +881,9 @@ export default {
       "masked": "Basic services should be ____ to all residents.",
       "options": [
         "accessible-mcq-07",
-        "accessible-mcq-06",
-        "accessible-mcq-08",
-        "accessible-mcq-05",
-        "accessible-mcq-09",
-        "accessible-mcq-04"
+        "accessible-mcq-22",
+        "accessible-mcq-03",
+        "accessible-mcq-08"
       ],
       "explanation": "本句的「accessible」指「人們能實際參與／取得的教育」。",
       "sentenceIndex": 7,
@@ -930,12 +892,10 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-07": "本句指「人們能實際參與／取得的教育」。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。",
-        "accessible-mcq-08": "「無障礙的；設計上可讓殘疾人士使用」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。",
-        "accessible-mcq-09": "「輪椅使用者可以無障礙進入／使用的」與本句語境不同。",
-        "accessible-mcq-04": "「實際可以取得、接觸或使用的」與本句語境不同。"
+        "accessible-mcq-07": "本句的「accessible」指「人們能實際參與／取得的教育」。",
+        "accessible-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-07"
     },
@@ -947,11 +907,9 @@ export default {
       "masked": "The building is fully ____.” In the right context:",
       "options": [
         "accessible-mcq-08",
+        "accessible-mcq-50",
         "accessible-mcq-07",
-        "accessible-mcq-09",
-        "accessible-mcq-06",
-        "accessible-mcq-10",
-        "accessible-mcq-05"
+        "accessible-mcq-03"
       ],
       "explanation": "本句的「accessible」指「無障礙的；設計上可讓殘疾人士使用」。",
       "sentenceIndex": 8,
@@ -960,12 +918,10 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-08": "本句指「無障礙的；設計上可讓殘疾人士使用」。",
-        "accessible-mcq-07": "「人們能實際參與／取得的教育」與本句語境不同。",
-        "accessible-mcq-09": "「輪椅使用者可以無障礙進入／使用的」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。",
-        "accessible-mcq-10": "「無障礙入口／通道」與本句語境不同。",
-        "accessible-mcq-05": "「學生實際可以進入並使用的學習空間」與本句語境不同。"
+        "accessible-mcq-08": "本句的「accessible」指「無障礙的；設計上可讓殘疾人士使用」。",
+        "accessible-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-08"
     },
@@ -977,11 +933,8 @@ export default {
       "masked": "The entrance is wheelchair-____.",
       "options": [
         "accessible-mcq-09",
-        "accessible-mcq-08",
-        "accessible-mcq-10",
-        "accessible-mcq-07",
-        "accessible-mcq-11",
-        "accessible-mcq-06"
+        "accessible-mcq-04",
+        "accessible-mcq-22"
       ],
       "explanation": "本句的「accessible」指「輪椅使用者可以無障礙進入／使用的」。",
       "sentenceIndex": 9,
@@ -990,12 +943,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-09": "本句指「輪椅使用者可以無障礙進入／使用的」。",
-        "accessible-mcq-08": "「無障礙的；設計上可讓殘疾人士使用」與本句語境不同。",
-        "accessible-mcq-10": "「無障礙入口／通道」與本句語境不同。",
-        "accessible-mcq-07": "「人們能實際參與／取得的教育」與本句語境不同。",
-        "accessible-mcq-11": "「無障礙洗手間」與本句語境不同。",
-        "accessible-mcq-06": "「在地點、成本、時間、語言等障礙下仍能實際取得的醫療服務」與本句語境不同。"
+        "accessible-mcq-09": "本句的「accessible」指「輪椅使用者可以無障礙進入／使用的」。",
+        "accessible-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-09"
     },
@@ -1007,11 +957,8 @@ export default {
       "masked": "The book makes economics ____ to beginners.",
       "options": [
         "accessible-mcq-20",
-        "accessible-mcq-19",
-        "accessible-mcq-21",
-        "accessible-mcq-18",
-        "accessible-mcq-22",
-        "accessible-mcq-17"
+        "accessible-mcq-09",
+        "accessible-mcq-04"
       ],
       "explanation": "本句的「accessible」指「淺白清楚、非專家也容易理解的」。",
       "sentenceIndex": 10,
@@ -1020,12 +967,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-20": "本句指「淺白清楚、非專家也容易理解的」。",
-        "accessible-mcq-19": "「大字、點字、音訊、結構化電子文本等可取用格式」與本句語境不同。",
-        "accessible-mcq-21": "「清晰、少不必要術語、容易理解的語言」與本句語境不同。",
-        "accessible-mcq-18": "「可由輔助科技等正確使用的無障礙文件／PDF」與本句語境不同。",
-        "accessible-mcq-22": "「把艱深內容解釋得容易理解」與本句語境不同。",
-        "accessible-mcq-17": "「幫助有不同使用需要者操作系統的無障礙功能」與本句語境不同。"
+        "accessible-mcq-20": "本句的「accessible」指「淺白清楚、非專家也容易理解的」。",
+        "accessible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-20"
     },
@@ -1037,11 +981,9 @@ export default {
       "masked": "She writes in a clear, ____ style.",
       "options": [
         "accessible-mcq-20",
-        "accessible-mcq-19",
-        "accessible-mcq-21",
-        "accessible-mcq-18",
-        "accessible-mcq-22",
-        "accessible-mcq-17"
+        "accessible-mcq-04",
+        "accessible-mcq-08",
+        "accessible-mcq-03"
       ],
       "explanation": "本句的「accessible」指「淺白清楚、非專家也容易理解的」。",
       "sentenceIndex": 11,
@@ -1050,12 +992,10 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-20": "本句指「淺白清楚、非專家也容易理解的」。",
-        "accessible-mcq-19": "「大字、點字、音訊、結構化電子文本等可取用格式」與本句語境不同。",
-        "accessible-mcq-21": "「清晰、少不必要術語、容易理解的語言」與本句語境不同。",
-        "accessible-mcq-18": "「可由輔助科技等正確使用的無障礙文件／PDF」與本句語境不同。",
-        "accessible-mcq-22": "「把艱深內容解釋得容易理解」與本句語境不同。",
-        "accessible-mcq-17": "「幫助有不同使用需要者操作系統的無障礙功能」與本句語境不同。"
+        "accessible-mcq-20": "本句的「accessible」指「淺白清楚、非專家也容易理解的」。",
+        "accessible-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-20"
     },
@@ -1067,11 +1007,8 @@ export default {
       "masked": "The documentary makes science ____ to a broad audience.",
       "options": [
         "accessible-mcq-22",
-        "accessible-mcq-21",
-        "accessible-mcq-23",
-        "accessible-mcq-20",
-        "accessible-mcq-24",
-        "accessible-mcq-19"
+        "accessible-mcq-06",
+        "accessible-mcq-02"
       ],
       "explanation": "本句的「accessible」指「把艱深內容解釋得容易理解」。",
       "sentenceIndex": 12,
@@ -1080,12 +1017,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-22": "本句指「把艱深內容解釋得容易理解」。",
-        "accessible-mcq-21": "「清晰、少不必要術語、容易理解的語言」與本句語境不同。",
-        "accessible-mcq-23": "「一般觀眾較容易理解／欣賞的」與本句語境不同。",
-        "accessible-mcq-20": "「淺白清楚、非專家也容易理解的」與本句語境不同。",
-        "accessible-mcq-24": "「容易接觸、聯絡或交談的」與本句語境不同。",
-        "accessible-mcq-19": "「大字、點字、音訊、結構化電子文本等可取用格式」與本句語境不同。"
+        "accessible-mcq-22": "本句的「accessible」指「把艱深內容解釋得容易理解」。",
+        "accessible-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-22"
     },
@@ -1097,11 +1031,8 @@ export default {
       "masked": "The professor is very ____ to students.",
       "options": [
         "accessible-mcq-23",
-        "accessible-mcq-22",
-        "accessible-mcq-24",
-        "accessible-mcq-21",
-        "accessible-mcq-25",
-        "accessible-mcq-20"
+        "accessible-mcq-09",
+        "accessible-mcq-04"
       ],
       "explanation": "本句的「accessible」指「一般觀眾較容易理解／欣賞的」。",
       "sentenceIndex": 13,
@@ -1110,12 +1041,9 @@ export default {
         "accessible"
       ],
       "optionReasons": {
-        "accessible-mcq-23": "本句指「一般觀眾較容易理解／欣賞的」。",
-        "accessible-mcq-22": "「把艱深內容解釋得容易理解」與本句語境不同。",
-        "accessible-mcq-24": "「容易接觸、聯絡或交談的」與本句語境不同。",
-        "accessible-mcq-21": "「清晰、少不必要術語、容易理解的語言」與本句語境不同。",
-        "accessible-mcq-25": "「進入、使用、取得某物的機會／權利／能力」與本句語境不同。",
-        "accessible-mcq-20": "「淺白清楚、非專家也容易理解的」與本句語境不同。"
+        "accessible-mcq-23": "本句的「accessible」指「一般觀眾較容易理解／欣賞的」。",
+        "accessible-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-23"
     },
@@ -1127,11 +1055,9 @@ export default {
       "masked": "The topic is explained ____.",
       "options": [
         "accessible-mcq-50",
-        "accessible-mcq-49",
-        "accessible-mcq-51",
-        "accessible-mcq-48",
-        "accessible-mcq-52",
-        "accessible-mcq-47"
+        "accessible-mcq-08",
+        "accessible-mcq-03",
+        "accessible-mcq-07"
       ],
       "explanation": "本句的「accessibly」指「以容易理解／方便使用的方式」。",
       "sentenceIndex": 14,
@@ -1140,12 +1066,10 @@ export default {
         "accessibly"
       ],
       "optionReasons": {
-        "accessible-mcq-50": "本句指「以容易理解／方便使用的方式」。",
-        "accessible-mcq-49": "「可達、可取得、可使用、易理解或無障礙的程度；依語境翻譯」與本句語境不同。",
-        "accessible-mcq-51": "「難以／無法到達」與本句語境不同。",
-        "accessible-mcq-48": "「人們實際使用法律制度和救濟的司法可及性」與本句語境不同。",
-        "accessible-mcq-52": "「無法或很難存取／取得」與本句語境不同。",
-        "accessible-mcq-47": "「從某地到工作、學校、服務等目的地的可達性」與本句語境不同。"
+        "accessible-mcq-50": "本句的「accessibly」指「以容易理解／方便使用的方式」。",
+        "accessible-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "accessible-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "accessible-mcq-50"
     }
@@ -1157,5 +1081,7 @@ export default {
     "sha256": "229419678e646c1317b530fbe0a1f7a7a2a86c97221e1edd3e6678af5842ff37",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

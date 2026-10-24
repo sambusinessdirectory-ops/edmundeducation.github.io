@@ -124,21 +124,6 @@ export default {
       "note": "來源詞義：令某人承擔額外的困難、責任、成本或憂慮",
       "examples": [
         [
-          "The practice places an unfair burden on businesses.",
-          "這種做法給商戶造成不公平的負擔。",
-          "令某人承擔額外的困難、責任、成本或憂慮"
-        ],
-        [
-          "Caring for everything alone became a heavy burden.",
-          "獨自處理所有事情成了沉重的負擔。",
-          "令某人承擔額外的困難、責任、成本或憂慮"
-        ],
-        [
-          "The additional costs created a financial burden for the family.",
-          "額外開支給這個家庭造成了經濟負擔。",
-          "令某人承擔額外的困難、責任、成本或憂慮"
-        ],
-        [
           "I don’t want to burden you with my problems.",
           "我不想拿自己的問題來增加你的負擔。",
           "令某人承擔額外的困難、責任、成本或憂慮"
@@ -146,11 +131,6 @@ export default {
         [
           "The new rules may burden small businesses with extra paperwork.",
           "新規則可能會讓小型企業承擔更多文書工作，加重其負擔。",
-          "令某人承擔額外的困難、責任、成本或憂慮"
-        ],
-        [
-          "The animals were heavily burdened with supplies.",
-          "那些動物背着大量補給品，負載很重。",
           "令某人承擔額外的困難、責任、成本或憂慮"
         ]
       ],
@@ -190,26 +170,6 @@ export default {
         [
           "Donkeys have long been used as beasts of burden.",
           "驢長久以來都被當作役畜使用。",
-          "用來載重或拉東西的役畜"
-        ],
-        [
-          "Customers should not have to bear the burden of the company’s mistakes.",
-          "顧客不應被迫承擔公司的錯誤所造成的負擔。",
-          "用來載重或拉東西的役畜"
-        ],
-        [
-          "She carried the emotional burden for years.",
-          "她多年來一直背負着那份情感重擔。",
-          "用來載重或拉東西的役畜"
-        ],
-        [
-          "The costs should be shared so that one group does not carry the entire burden.",
-          "成本應該共同承擔，避免由一個群體承受全部負擔。",
-          "用來載重或拉東西的役畜"
-        ],
-        [
-          "Automation can reduce the administrative burden.",
-          "自動化可以減輕行政負擔。",
           "用來載重或拉東西的役畜"
         ]
       ],
@@ -354,6 +314,106 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "burden-reviewed-8c09bdb4f1",
+      "title": "負擔；重擔",
+      "form": "burden · source section 2",
+      "en": "負擔；重擔",
+      "zh": "負擔；重擔",
+      "note": "對照原始教材第 2 節及例句核實。",
+      "examples": [
+        [
+          "The practice places an unfair burden on businesses.",
+          "這種做法給商戶造成不公平的負擔。",
+          "負擔；重擔"
+        ],
+        [
+          "Caring for everything alone became a heavy burden.",
+          "獨自處理所有事情成了沉重的負擔。",
+          "負擔；重擔"
+        ],
+        [
+          "The additional costs created a financial burden for the family.",
+          "額外開支給這個家庭造成了經濟負擔。",
+          "負擔；重擔"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "burden-reviewed-73217205f4",
+      "title": "把重物加在其身上，使其負重",
+      "form": "burden · source section 9",
+      "en": "把重物加在其身上，使其負重",
+      "zh": "把重物加在其身上，使其負重",
+      "note": "對照原始教材第 9 節及例句核實。",
+      "examples": [
+        [
+          "The animals were heavily burdened with supplies.",
+          "那些動物背着大量補給品，負載很重。",
+          "把重物加在其身上，使其負重"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "burden-reviewed-ab2f00b154",
+      "title": "承擔負擔／責任",
+      "form": "burden · source section 12",
+      "en": "承擔負擔／責任",
+      "zh": "承擔負擔／責任",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "Customers should not have to bear the burden of the company’s mistakes.",
+          "顧客不應被迫承擔公司的錯誤所造成的負擔。",
+          "承擔負擔／責任"
+        ],
+        [
+          "She carried the emotional burden for years.",
+          "她多年來一直背負着那份情感重擔。",
+          "承擔負擔／責任"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "burden-reviewed-3591e12d25",
+      "title": "分擔負擔",
+      "form": "burden · source section 13",
+      "en": "分擔負擔",
+      "zh": "分擔負擔",
+      "note": "對照原始教材第 13 節及例句核實。",
+      "examples": [
+        [
+          "The costs should be shared so that one group does not carry the entire burden.",
+          "成本應該共同承擔，避免由一個群體承受全部負擔。",
+          "分擔負擔"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "burden-reviewed-f31d2a6048",
+      "title": "減輕負擔",
+      "form": "burden · source section 14",
+      "en": "減輕負擔",
+      "zh": "減輕負擔",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "Automation can reduce the administrative burden.",
+          "自動化可以減輕行政負擔。",
+          "減輕負擔"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -365,11 +425,9 @@ export default {
       "masked": "The animal struggled under its heavy ____.",
       "options": [
         "burden-mcq-01",
-        "burden-mcq-02",
-        "burden-mcq-03",
-        "burden-mcq-04",
-        "burden-mcq-05",
-        "burden-mcq-06"
+        "burden-mcq-09",
+        "burden-mcq-13",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「burden」指「必須攜帶／承受的沉重實體重量；重擔、負荷」。",
       "sentenceIndex": 0,
@@ -378,12 +436,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-01": "本句指「必須攜帶／承受的沉重實體重量；重擔、負荷」。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-01": "本句的「burden」指「必須攜帶／承受的沉重實體重量；重擔、負荷」。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-01"
     },
@@ -395,11 +451,9 @@ export default {
       "masked": "He put down his ____ and rested.",
       "options": [
         "burden-mcq-01",
-        "burden-mcq-02",
-        "burden-mcq-03",
-        "burden-mcq-04",
-        "burden-mcq-05",
-        "burden-mcq-06"
+        "burden-mcq-13",
+        "burden-mcq-09",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「burden」指「必須攜帶／承受的沉重實體重量；重擔、負荷」。",
       "sentenceIndex": 1,
@@ -408,104 +462,90 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-01": "本句指「必須攜帶／承受的沉重實體重量；重擔、負荷」。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-01": "本句的「burden」指「必須攜帶／承受的沉重實體重量；重擔、負荷」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-01"
     },
     {
       "id": "burden-02-0",
-      "sense": "burden-mcq-06",
+      "sense": "burden-reviewed-8c09bdb4f1",
       "en": "The practice places an unfair burden on businesses.",
       "zh": "這種做法給商戶造成不公平的負擔。",
       "masked": "The practice places an unfair ____ on businesses.",
       "options": [
-        "burden-mcq-06",
-        "burden-mcq-05",
-        "burden-mcq-07",
-        "burden-mcq-04",
-        "burden-mcq-08",
-        "burden-mcq-03"
+        "burden-reviewed-8c09bdb4f1",
+        "burden-mcq-13",
+        "burden-mcq-09"
       ],
-      "explanation": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
+      "explanation": "對照完整句子：「這種做法給商戶造成不公平的負擔。」。這裡的「burden」表示「負擔；重擔」。",
       "sentenceIndex": 2,
       "sourcePractice": 3,
       "targets": [
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-06": "本句指「令某人承擔額外的困難、責任、成本或憂慮」。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。"
+        "burden-reviewed-8c09bdb4f1": "對照完整句子：「這種做法給商戶造成不公平的負擔。」。這裡的「burden」表示「負擔；重擔」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-06"
+      "correctOption": "burden-reviewed-8c09bdb4f1",
+      "previousCorrectOption": "burden-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-02-1",
-      "sense": "burden-mcq-06",
+      "sense": "burden-reviewed-8c09bdb4f1",
       "en": "Caring for everything alone became a heavy burden.",
       "zh": "獨自處理所有事情成了沉重的負擔。",
       "masked": "Caring for everything alone became a heavy ____.",
       "options": [
-        "burden-mcq-06",
-        "burden-mcq-05",
-        "burden-mcq-07",
-        "burden-mcq-04",
-        "burden-mcq-08",
-        "burden-mcq-03"
+        "burden-reviewed-8c09bdb4f1",
+        "burden-mcq-13",
+        "burden-mcq-09"
       ],
-      "explanation": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
+      "explanation": "對照完整句子：「獨自處理所有事情成了沉重的負擔。」。這裡的「burden」表示「負擔；重擔」。",
       "sentenceIndex": 3,
       "sourcePractice": 4,
       "targets": [
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-06": "本句指「令某人承擔額外的困難、責任、成本或憂慮」。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。"
+        "burden-reviewed-8c09bdb4f1": "對照完整句子：「獨自處理所有事情成了沉重的負擔。」。這裡的「burden」表示「負擔；重擔」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-06"
+      "correctOption": "burden-reviewed-8c09bdb4f1",
+      "previousCorrectOption": "burden-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-02-2",
-      "sense": "burden-mcq-06",
+      "sense": "burden-reviewed-8c09bdb4f1",
       "en": "The additional costs created a financial burden for the family.",
       "zh": "額外開支給這個家庭造成了經濟負擔。",
       "masked": "The additional costs created a financial ____ for the family.",
       "options": [
-        "burden-mcq-06",
-        "burden-mcq-05",
-        "burden-mcq-07",
-        "burden-mcq-04",
-        "burden-mcq-08",
-        "burden-mcq-03"
+        "burden-reviewed-8c09bdb4f1",
+        "burden-mcq-09",
+        "burden-mcq-13"
       ],
-      "explanation": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
+      "explanation": "對照完整句子：「額外開支給這個家庭造成了經濟負擔。」。這裡的「burden」表示「負擔；重擔」。",
       "sentenceIndex": 4,
       "sourcePractice": 5,
       "targets": [
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-06": "本句指「令某人承擔額外的困難、責任、成本或憂慮」。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。"
+        "burden-reviewed-8c09bdb4f1": "對照完整句子：「額外開支給這個家庭造成了經濟負擔。」。這裡的「burden」表示「負擔；重擔」。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-06"
+      "correctOption": "burden-reviewed-8c09bdb4f1",
+      "previousCorrectOption": "burden-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-03-0",
@@ -515,11 +555,9 @@ export default {
       "masked": "The ____ of caring for the children fell mainly on her.",
       "options": [
         "burden-mcq-02",
-        "burden-mcq-01",
-        "burden-mcq-03",
-        "burden-mcq-04",
-        "burden-mcq-05",
-        "burden-mcq-06"
+        "burden-mcq-13",
+        "burden-mcq-08",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden」指「令人承受大量困難、成本、責任、工作或憂慮的負擔」。",
       "sentenceIndex": 5,
@@ -528,12 +566,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-02": "本句指「令人承受大量困難、成本、責任、工作或憂慮的負擔」。",
-        "burden-mcq-01": "「必須攜帶／承受的沉重實體重量；重擔、負荷」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-02": "本句的「burden」指「令人承受大量困難、成本、責任、工作或憂慮的負擔」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-02"
     },
@@ -545,11 +581,9 @@ export default {
       "masked": "Businesses should not carry the entire ____.",
       "options": [
         "burden-mcq-02",
-        "burden-mcq-01",
-        "burden-mcq-03",
-        "burden-mcq-04",
-        "burden-mcq-05",
-        "burden-mcq-06"
+        "burden-mcq-08",
+        "burden-mcq-13",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden」指「令人承受大量困難、成本、責任、工作或憂慮的負擔」。",
       "sentenceIndex": 6,
@@ -558,12 +592,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-02": "本句指「令人承受大量困難、成本、責任、工作或憂慮的負擔」。",
-        "burden-mcq-01": "「必須攜帶／承受的沉重實體重量；重擔、負荷」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-02": "本句的「burden」指「令人承受大量困難、成本、責任、工作或憂慮的負擔」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-02"
     },
@@ -575,11 +607,9 @@ export default {
       "masked": "Higher interest rates increase the ____ on borrowers.",
       "options": [
         "burden-mcq-03",
-        "burden-mcq-02",
-        "burden-mcq-04",
-        "burden-mcq-01",
-        "burden-mcq-05",
-        "burden-mcq-06"
+        "burden-reviewed-73217205f4",
+        "burden-mcq-13",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「burden」指「必須承擔的經濟、債務、稅務等壓力」。",
       "sentenceIndex": 7,
@@ -588,12 +618,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-03": "本句指「必須承擔的經濟、債務、稅務等壓力」。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-01": "「必須攜帶／承受的沉重實體重量；重擔、負荷」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-03": "本句的「burden」指「必須承擔的經濟、債務、稅務等壓力」。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-03"
     },
@@ -605,11 +633,9 @@ export default {
       "masked": "The policy could reduce the tax ____ on small businesses.",
       "options": [
         "burden-mcq-03",
-        "burden-mcq-02",
-        "burden-mcq-04",
-        "burden-mcq-01",
-        "burden-mcq-05",
-        "burden-mcq-06"
+        "burden-mcq-08",
+        "burden-mcq-13",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden」指「必須承擔的經濟、債務、稅務等壓力」。",
       "sentenceIndex": 8,
@@ -618,12 +644,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-03": "本句指「必須承擔的經濟、債務、稅務等壓力」。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-01": "「必須攜帶／承受的沉重實體重量；重擔、負荷」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-03": "本句的「burden」指「必須承擔的經濟、債務、稅務等壓力」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-03"
     },
@@ -635,11 +659,9 @@ export default {
       "masked": "The ____ lies with the prosecution.",
       "options": [
         "burden-mcq-04",
-        "burden-mcq-03",
-        "burden-mcq-05",
-        "burden-mcq-02",
-        "burden-mcq-06",
-        "burden-mcq-01"
+        "burden-reviewed-73217205f4",
+        "burden-mcq-08",
+        "burden-mcq-13"
       ],
       "explanation": "本句的「burden of proof」指「有責任證明某項主張成立的一方所承擔的舉證責任」。",
       "sentenceIndex": 9,
@@ -648,12 +670,10 @@ export default {
         "burden of proof"
       ],
       "optionReasons": {
-        "burden-mcq-04": "本句指「有責任證明某項主張成立的一方所承擔的舉證責任」。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-01": "「必須攜帶／承受的沉重實體重量；重擔、負荷」與本句語境不同。"
+        "burden-mcq-04": "本句的「burden of proof」指「有責任證明某項主張成立的一方所承擔的舉證責任」。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-04"
     },
@@ -665,11 +685,9 @@ export default {
       "masked": "Who carries the ____?",
       "options": [
         "burden-mcq-04",
-        "burden-mcq-03",
-        "burden-mcq-05",
-        "burden-mcq-02",
-        "burden-mcq-06",
-        "burden-mcq-01"
+        "burden-mcq-13",
+        "burden-mcq-08",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden of proof」指「有責任證明某項主張成立的一方所承擔的舉證責任」。",
       "sentenceIndex": 10,
@@ -678,12 +696,10 @@ export default {
         "burden of proof"
       ],
       "optionReasons": {
-        "burden-mcq-04": "本句指「有責任證明某項主張成立的一方所承擔的舉證責任」。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-01": "「必須攜帶／承受的沉重實體重量；重擔、負荷」與本句語境不同。"
+        "burden-mcq-04": "本句的「burden of proof」指「有責任證明某項主張成立的一方所承擔的舉證責任」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-04"
     },
@@ -695,11 +711,9 @@ export default {
       "masked": "The study measured the ____ in older adults.",
       "options": [
         "burden-mcq-05",
-        "burden-mcq-04",
-        "burden-mcq-06",
-        "burden-mcq-03",
-        "burden-mcq-07",
-        "burden-mcq-02"
+        "burden-mcq-08",
+        "burden-mcq-13",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden of disease」指「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」。",
       "sentenceIndex": 11,
@@ -708,12 +722,10 @@ export default {
         "burden of disease"
       ],
       "optionReasons": {
-        "burden-mcq-05": "本句指「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。"
+        "burden-mcq-05": "本句的「burden of disease」指「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-05"
     },
@@ -725,11 +737,9 @@ export default {
       "masked": "Air pollution contributes substantially to the health ____.",
       "options": [
         "burden-mcq-05",
-        "burden-mcq-04",
-        "burden-mcq-06",
-        "burden-mcq-03",
-        "burden-mcq-07",
-        "burden-mcq-02"
+        "burden-mcq-13",
+        "burden-mcq-08",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden」指「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」。",
       "sentenceIndex": 12,
@@ -738,12 +748,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-05": "本句指「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-02": "「令人承受大量困難、成本、責任、工作或憂慮的負擔」與本句語境不同。"
+        "burden-mcq-05": "本句的「burden」指「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-05"
     },
@@ -755,11 +763,9 @@ export default {
       "masked": "I don’t want to ____ you with my problems.",
       "options": [
         "burden-mcq-06",
-        "burden-mcq-05",
-        "burden-mcq-07",
-        "burden-mcq-04",
         "burden-mcq-08",
-        "burden-mcq-03"
+        "burden-reviewed-73217205f4",
+        "burden-mcq-13"
       ],
       "explanation": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
       "sentenceIndex": 13,
@@ -768,12 +774,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-06": "本句指「令某人承擔額外的困難、責任、成本或憂慮」。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。"
+        "burden-mcq-06": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-06"
     },
@@ -785,11 +789,9 @@ export default {
       "masked": "The new rules may ____ small businesses with extra paperwork.",
       "options": [
         "burden-mcq-06",
-        "burden-mcq-05",
-        "burden-mcq-07",
-        "burden-mcq-04",
+        "burden-reviewed-73217205f4",
         "burden-mcq-08",
-        "burden-mcq-03"
+        "burden-mcq-13"
       ],
       "explanation": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
       "sentenceIndex": 14,
@@ -798,44 +800,40 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-06": "本句指「令某人承擔額外的困難、責任、成本或憂慮」。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。"
+        "burden-mcq-06": "本句的「burden」指「令某人承擔額外的困難、責任、成本或憂慮」。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-06"
     },
     {
       "id": "burden-09-0",
-      "sense": "burden-mcq-06",
+      "sense": "burden-reviewed-73217205f4",
       "en": "The animals were heavily burdened with supplies.",
       "zh": "那些動物背着大量補給品，負載很重。",
       "masked": "The animals were heavily ____ with supplies.",
       "options": [
-        "burden-mcq-06",
-        "burden-mcq-05",
-        "burden-mcq-07",
+        "burden-reviewed-73217205f4",
         "burden-mcq-04",
-        "burden-mcq-08",
-        "burden-mcq-03"
+        "burden-mcq-13",
+        "burden-mcq-09"
       ],
-      "explanation": "本句的「burdened」指「令某人承擔額外的困難、責任、成本或憂慮」。",
+      "explanation": "對照完整句子：「那些動物背着大量補給品，負載很重。」。這裡的「burdened」表示「把重物加在其身上，使其負重」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "burdened"
       ],
       "optionReasons": {
-        "burden-mcq-06": "本句指「令某人承擔額外的困難、責任、成本或憂慮」。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-03": "「必須承擔的經濟、債務、稅務等壓力」與本句語境不同。"
+        "burden-reviewed-73217205f4": "對照完整句子：「那些動物背着大量補給品，負載很重。」。這裡的「burdened」表示「把重物加在其身上，使其負重」。",
+        "burden-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-06"
+      "correctOption": "burden-reviewed-73217205f4",
+      "previousCorrectOption": "burden-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-10-0",
@@ -845,11 +843,9 @@ export default {
       "masked": "The company is ____ debt.",
       "options": [
         "burden-mcq-07",
-        "burden-mcq-06",
-        "burden-mcq-08",
-        "burden-mcq-05",
         "burden-mcq-09",
-        "burden-mcq-04"
+        "burden-mcq-13",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「burdened with」指「背負、承受或被某種問題／責任壓着」。",
       "sentenceIndex": 16,
@@ -858,12 +854,10 @@ export default {
         "burdened with"
       ],
       "optionReasons": {
-        "burden-mcq-07": "本句指「背負、承受或被某種問題／責任壓着」。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。"
+        "burden-mcq-07": "本句的「burdened with」指「背負、承受或被某種問題／責任壓着」。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-07"
     },
@@ -875,11 +869,9 @@ export default {
       "masked": "She felt ____ responsibility.",
       "options": [
         "burden-mcq-07",
-        "burden-mcq-06",
         "burden-mcq-08",
-        "burden-mcq-05",
         "burden-mcq-09",
-        "burden-mcq-04"
+        "burden-mcq-13"
       ],
       "explanation": "本句的「burdened by」指「背負、承受或被某種問題／責任壓着」。",
       "sentenceIndex": 17,
@@ -888,12 +880,10 @@ export default {
         "burdened by"
       ],
       "optionReasons": {
-        "burden-mcq-07": "本句指「背負、承受或被某種問題／責任壓着」。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-04": "「有責任證明某項主張成立的一方所承擔的舉證責任」與本句語境不同。"
+        "burden-mcq-07": "本句的「burdened by」指「背負、承受或被某種問題／責任壓着」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-07"
     },
@@ -905,11 +895,9 @@ export default {
       "masked": "Donkeys have long been used as beasts of ____.",
       "options": [
         "burden-mcq-08",
-        "burden-mcq-07",
-        "burden-mcq-09",
-        "burden-mcq-06",
-        "burden-mcq-10",
-        "burden-mcq-05"
+        "burden-mcq-05",
+        "burden-mcq-13",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden」指「用來載重或拉東西的役畜」。",
       "sentenceIndex": 18,
@@ -918,134 +906,122 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-08": "本句指「用來載重或拉東西的役畜」。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。"
+        "burden-mcq-08": "本句的「burden」指「用來載重或拉東西的役畜」。",
+        "burden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-08"
     },
     {
       "id": "burden-12-0",
-      "sense": "burden-mcq-08",
+      "sense": "burden-reviewed-ab2f00b154",
       "en": "Customers should not have to bear the burden of the company’s mistakes.",
       "zh": "顧客不應被迫承擔公司的錯誤所造成的負擔。",
       "masked": "Customers should not have to ____ of the company’s mistakes.",
       "options": [
+        "burden-reviewed-ab2f00b154",
         "burden-mcq-08",
-        "burden-mcq-07",
         "burden-mcq-09",
-        "burden-mcq-06",
-        "burden-mcq-10",
-        "burden-mcq-05"
+        "burden-mcq-13"
       ],
-      "explanation": "本句的「bear the burden」指「用來載重或拉東西的役畜」。",
+      "explanation": "對照完整句子：「顧客不應被迫承擔公司的錯誤所造成的負擔。」。這裡的「bear the burden」表示「承擔負擔／責任」。",
       "sentenceIndex": 19,
       "sourcePractice": 20,
       "targets": [
         "bear the burden"
       ],
       "optionReasons": {
-        "burden-mcq-08": "本句指「用來載重或拉東西的役畜」。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。"
+        "burden-reviewed-ab2f00b154": "對照完整句子：「顧客不應被迫承擔公司的錯誤所造成的負擔。」。這裡的「bear the burden」表示「承擔負擔／責任」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-08"
+      "correctOption": "burden-reviewed-ab2f00b154",
+      "previousCorrectOption": "burden-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-12-1",
-      "sense": "burden-mcq-08",
+      "sense": "burden-reviewed-ab2f00b154",
       "en": "She carried the emotional burden for years.",
       "zh": "她多年來一直背負着那份情感重擔。",
       "masked": "She carried the emotional ____ for years.",
       "options": [
-        "burden-mcq-08",
-        "burden-mcq-07",
+        "burden-reviewed-ab2f00b154",
         "burden-mcq-09",
-        "burden-mcq-06",
-        "burden-mcq-10",
-        "burden-mcq-05"
+        "burden-mcq-13",
+        "burden-mcq-08"
       ],
-      "explanation": "本句的「burden」指「用來載重或拉東西的役畜」。",
+      "explanation": "對照完整句子：「她多年來一直背負着那份情感重擔。」。這裡的「burden」表示「承擔負擔／責任」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-08": "本句指「用來載重或拉東西的役畜」。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。"
+        "burden-reviewed-ab2f00b154": "對照完整句子：「她多年來一直背負着那份情感重擔。」。這裡的「burden」表示「承擔負擔／責任」。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-08"
+      "correctOption": "burden-reviewed-ab2f00b154",
+      "previousCorrectOption": "burden-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-13-0",
-      "sense": "burden-mcq-08",
+      "sense": "burden-reviewed-3591e12d25",
       "en": "The costs should be shared so that one group does not carry the entire burden.",
       "zh": "成本應該共同承擔，避免由一個群體承受全部負擔。",
       "masked": "The costs should be shared so that one group does not carry the entire ____.",
       "options": [
-        "burden-mcq-08",
-        "burden-mcq-07",
-        "burden-mcq-09",
-        "burden-mcq-06",
-        "burden-mcq-10",
-        "burden-mcq-05"
+        "burden-reviewed-3591e12d25",
+        "burden-mcq-13",
+        "burden-mcq-08"
       ],
-      "explanation": "本句的「burden」指「用來載重或拉東西的役畜」。",
+      "explanation": "對照完整句子：「成本應該共同承擔，避免由一個群體承受全部負擔。」。這裡的「burden」表示「分擔負擔」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-08": "本句指「用來載重或拉東西的役畜」。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。"
+        "burden-reviewed-3591e12d25": "對照完整句子：「成本應該共同承擔，避免由一個群體承受全部負擔。」。這裡的「burden」表示「分擔負擔」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-08"
+      "correctOption": "burden-reviewed-3591e12d25",
+      "previousCorrectOption": "burden-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-14-0",
-      "sense": "burden-mcq-08",
+      "sense": "burden-reviewed-f31d2a6048",
       "en": "Automation can reduce the administrative burden.",
       "zh": "自動化可以減輕行政負擔。",
       "masked": "Automation can reduce the administrative ____.",
       "options": [
-        "burden-mcq-08",
-        "burden-mcq-07",
+        "burden-reviewed-f31d2a6048",
+        "burden-mcq-13",
         "burden-mcq-09",
-        "burden-mcq-06",
-        "burden-mcq-10",
-        "burden-mcq-05"
+        "burden-mcq-08"
       ],
-      "explanation": "本句的「burden」指「用來載重或拉東西的役畜」。",
+      "explanation": "對照完整句子：「自動化可以減輕行政負擔。」。這裡的「burden」表示「減輕負擔」。",
       "sentenceIndex": 22,
       "sourcePractice": 23,
       "targets": [
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-08": "本句指「用來載重或拉東西的役畜」。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-09": "「分配到產品／人工上的間接成本、製造費用；專門」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。",
-        "burden-mcq-05": "「疾病、傷害、殘疾、死亡等對個人／人口造成的整體健康負擔」與本句語境不同。"
+        "burden-reviewed-f31d2a6048": "對照完整句子：「自動化可以減輕行政負擔。」。這裡的「burden」表示「減輕負擔」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "burden-mcq-08"
+      "correctOption": "burden-reviewed-f31d2a6048",
+      "previousCorrectOption": "burden-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "burden-15-0",
@@ -1055,11 +1031,9 @@ export default {
       "masked": "The calculation includes wages plus labour ____.",
       "options": [
         "burden-mcq-09",
-        "burden-mcq-08",
-        "burden-mcq-10",
+        "burden-reviewed-73217205f4",
         "burden-mcq-07",
-        "burden-mcq-11",
-        "burden-mcq-06"
+        "burden-mcq-08"
       ],
       "explanation": "本句的「burden」指「分配到產品／人工上的間接成本、製造費用；專門」。",
       "sentenceIndex": 23,
@@ -1068,12 +1042,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-09": "本句指「分配到產品／人工上的間接成本、製造費用；專門」。",
-        "burden-mcq-08": "「用來載重或拉東西的役畜」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。",
-        "burden-mcq-07": "「背負、承受或被某種問題／責任壓着」與本句語境不同。",
-        "burden-mcq-11": "「船舶載重能力／載貨量；專門」與本句語境不同。",
-        "burden-mcq-06": "「令某人承擔額外的困難、責任、成本或憂慮」與本句語境不同。"
+        "burden-mcq-09": "本句的「burden」指「分配到產品／人工上的間接成本、製造費用；專門」。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-09"
     },
@@ -1085,11 +1057,9 @@ export default {
       "masked": "The same ____ returned at the end of each verse.",
       "options": [
         "burden-mcq-13",
-        "burden-mcq-12",
-        "burden-mcq-14",
-        "burden-mcq-11",
-        "burden-mcq-15",
-        "burden-mcq-10"
+        "burden-mcq-05",
+        "burden-mcq-08",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burden」指「歌曲反覆出現的副歌／反覆句；文學、低頻」。",
       "sentenceIndex": 24,
@@ -1098,12 +1068,10 @@ export default {
         "burden"
       ],
       "optionReasons": {
-        "burden-mcq-13": "本句指「歌曲反覆出現的副歌／反覆句；文學、低頻」。",
-        "burden-mcq-12": "「加入冶煉爐中的爐料；專門」與本句語境不同。",
-        "burden-mcq-14": "「講話、論述等反覆或主要的主旨；正式、低頻」與本句語境不同。",
-        "burden-mcq-11": "「船舶載重能力／載貨量；專門」與本句語境不同。",
-        "burden-mcq-15": "「令人承擔繁重成本、工作或責任的」與本句語境不同。",
-        "burden-mcq-10": "「儀用變壓器等所承受的電氣負載；專門」與本句語境不同。"
+        "burden-mcq-13": "本句的「burden」指「歌曲反覆出現的副歌／反覆句；文學、低頻」。",
+        "burden-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-13"
     },
@@ -1115,11 +1083,9 @@ export default {
       "masked": "The paperwork became increasingly ____.",
       "options": [
         "burden-mcq-15",
-        "burden-mcq-14",
-        "burden-mcq-16",
         "burden-mcq-13",
-        "burden-mcq-17",
-        "burden-mcq-12"
+        "burden-reviewed-73217205f4",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「burdensome」指「令人承擔繁重成本、工作或責任的」。",
       "sentenceIndex": 25,
@@ -1128,12 +1094,10 @@ export default {
         "burdensome"
       ],
       "optionReasons": {
-        "burden-mcq-15": "本句指「令人承擔繁重成本、工作或責任的」。",
-        "burden-mcq-14": "「講話、論述等反覆或主要的主旨；正式、低頻」與本句語境不同。",
-        "burden-mcq-16": "「使負擔過重、不堪重負」與本句語境不同。",
-        "burden-mcq-13": "「歌曲反覆出現的副歌／反覆句；文學、低頻」與本句語境不同。",
-        "burden-mcq-17": "「向別人傾吐心事，卸下心理負擔」與本句語境不同。",
-        "burden-mcq-12": "「加入冶煉爐中的爐料；專門」與本句語境不同。"
+        "burden-mcq-15": "本句的「burdensome」指「令人承擔繁重成本、工作或責任的」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-15"
     },
@@ -1145,11 +1109,9 @@ export default {
       "masked": "Small businesses complained about ____ regulations.",
       "options": [
         "burden-mcq-15",
-        "burden-mcq-14",
-        "burden-mcq-16",
         "burden-mcq-13",
-        "burden-mcq-17",
-        "burden-mcq-12"
+        "burden-mcq-08",
+        "burden-reviewed-73217205f4"
       ],
       "explanation": "本句的「burdensome」指「令人承擔繁重成本、工作或責任的」。",
       "sentenceIndex": 26,
@@ -1158,12 +1120,10 @@ export default {
         "burdensome"
       ],
       "optionReasons": {
-        "burden-mcq-15": "本句指「令人承擔繁重成本、工作或責任的」。",
-        "burden-mcq-14": "「講話、論述等反覆或主要的主旨；正式、低頻」與本句語境不同。",
-        "burden-mcq-16": "「使負擔過重、不堪重負」與本句語境不同。",
-        "burden-mcq-13": "「歌曲反覆出現的副歌／反覆句；文學、低頻」與本句語境不同。",
-        "burden-mcq-17": "「向別人傾吐心事，卸下心理負擔」與本句語境不同。",
-        "burden-mcq-12": "「加入冶煉爐中的爐料；專門」與本句語境不同。"
+        "burden-mcq-15": "本句的「burdensome」指「令人承擔繁重成本、工作或責任的」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-reviewed-73217205f4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-15"
     },
@@ -1175,11 +1135,9 @@ export default {
       "masked": "The system is already ____.",
       "options": [
         "burden-mcq-16",
-        "burden-mcq-15",
-        "burden-mcq-17",
-        "burden-mcq-14",
         "burden-mcq-13",
-        "burden-mcq-12"
+        "burden-mcq-09",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「overburdened」指「使負擔過重、不堪重負」。",
       "sentenceIndex": 27,
@@ -1188,12 +1146,10 @@ export default {
         "overburdened"
       ],
       "optionReasons": {
-        "burden-mcq-16": "本句指「使負擔過重、不堪重負」。",
-        "burden-mcq-15": "「令人承擔繁重成本、工作或責任的」與本句語境不同。",
-        "burden-mcq-17": "「向別人傾吐心事，卸下心理負擔」與本句語境不同。",
-        "burden-mcq-14": "「講話、論述等反覆或主要的主旨；正式、低頻」與本句語境不同。",
-        "burden-mcq-13": "「歌曲反覆出現的副歌／反覆句；文學、低頻」與本句語境不同。",
-        "burden-mcq-12": "「加入冶煉爐中的爐料；專門」與本句語境不同。"
+        "burden-mcq-16": "本句的「overburdened」指「使負擔過重、不堪重負」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-16"
     },
@@ -1205,11 +1161,9 @@ export default {
       "masked": "We should not ____ staff with unnecessary paperwork.",
       "options": [
         "burden-mcq-16",
-        "burden-mcq-15",
-        "burden-mcq-17",
-        "burden-mcq-14",
         "burden-mcq-13",
-        "burden-mcq-12"
+        "burden-mcq-09",
+        "burden-mcq-08"
       ],
       "explanation": "本句的「overburden」指「使負擔過重、不堪重負」。",
       "sentenceIndex": 28,
@@ -1218,12 +1172,10 @@ export default {
         "overburden"
       ],
       "optionReasons": {
-        "burden-mcq-16": "本句指「使負擔過重、不堪重負」。",
-        "burden-mcq-15": "「令人承擔繁重成本、工作或責任的」與本句語境不同。",
-        "burden-mcq-17": "「向別人傾吐心事，卸下心理負擔」與本句語境不同。",
-        "burden-mcq-14": "「講話、論述等反覆或主要的主旨；正式、低頻」與本句語境不同。",
-        "burden-mcq-13": "「歌曲反覆出現的副歌／反覆句；文學、低頻」與本句語境不同。",
-        "burden-mcq-12": "「加入冶煉爐中的爐料；專門」與本句語境不同。"
+        "burden-mcq-16": "本句的「overburden」指「使負擔過重、不堪重負」。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-16"
     },
@@ -1235,11 +1187,9 @@ export default {
       "masked": "She ____ herself to a close friend.",
       "options": [
         "burden-mcq-17",
-        "burden-mcq-16",
-        "burden-mcq-15",
-        "burden-mcq-14",
+        "burden-mcq-08",
         "burden-mcq-13",
-        "burden-mcq-12"
+        "burden-mcq-09"
       ],
       "explanation": "本句的「unburdened」指「向別人傾吐心事，卸下心理負擔」。",
       "sentenceIndex": 29,
@@ -1248,12 +1198,10 @@ export default {
         "unburdened"
       ],
       "optionReasons": {
-        "burden-mcq-17": "本句指「向別人傾吐心事，卸下心理負擔」。",
-        "burden-mcq-16": "「使負擔過重、不堪重負」與本句語境不同。",
-        "burden-mcq-15": "「令人承擔繁重成本、工作或責任的」與本句語境不同。",
-        "burden-mcq-14": "「講話、論述等反覆或主要的主旨；正式、低頻」與本句語境不同。",
-        "burden-mcq-13": "「歌曲反覆出現的副歌／反覆句；文學、低頻」與本句語境不同。",
-        "burden-mcq-12": "「加入冶煉爐中的爐料；專門」與本句語境不同。"
+        "burden-mcq-17": "本句的「unburdened」指「向別人傾吐心事，卸下心理負擔」。",
+        "burden-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "burden-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "burden-mcq-17"
     }
@@ -1265,5 +1213,7 @@ export default {
     "sha256": "d15017b0e897657caf58d14801b437a23d745ee4da28e4663e916c9f0c214b82",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

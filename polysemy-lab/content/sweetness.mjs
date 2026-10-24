@@ -792,11 +792,9 @@ export default {
       "masked": "The cake is too ____ for me.",
       "options": [
         "sweetness-mcq-01",
-        "sweetness-mcq-02",
-        "sweetness-mcq-03",
-        "sweetness-mcq-04",
-        "sweetness-mcq-05",
-        "sweetness-mcq-06"
+        "sweetness-mcq-15",
+        "sweetness-mcq-26",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweet」指「味道像糖、蜂蜜等；甜的」。",
       "sentenceIndex": 2,
@@ -805,12 +803,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-01": "本句指「味道像糖、蜂蜜等；甜的」。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-01": "本句的「sweet」指「味道像糖、蜂蜜等；甜的」。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-01"
     },
@@ -822,11 +818,9 @@ export default {
       "masked": "These strawberries are naturally ____.",
       "options": [
         "sweetness-mcq-01",
-        "sweetness-mcq-02",
-        "sweetness-mcq-03",
-        "sweetness-mcq-04",
-        "sweetness-mcq-05",
-        "sweetness-mcq-06"
+        "sweetness-mcq-11",
+        "sweetness-mcq-08",
+        "sweetness-mcq-12"
       ],
       "explanation": "本句的「sweet」指「味道像糖、蜂蜜等；甜的」。",
       "sentenceIndex": 3,
@@ -835,12 +829,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-01": "本句指「味道像糖、蜂蜜等；甜的」。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-01": "本句的「sweet」指「味道像糖、蜂蜜等；甜的」。",
+        "sweetness-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-01"
     },
@@ -852,11 +844,9 @@ export default {
       "masked": "I try not to eat too much ____.",
       "options": [
         "sweetness-mcq-28",
-        "sweetness-mcq-27",
-        "sweetness-mcq-29",
-        "sweetness-mcq-26",
-        "sweetness-mcq-30",
-        "sweetness-mcq-25"
+        "sweetness-mcq-13",
+        "sweetness-mcq-08",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweet food」指「很喜歡吃甜食；嗜甜」。",
       "sentenceIndex": 4,
@@ -865,12 +855,10 @@ export default {
         "sweet food"
       ],
       "optionReasons": {
-        "sweetness-mcq-28": "本句指「很喜歡吃甜食；嗜甜」。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。"
+        "sweetness-mcq-28": "本句的「sweet food」指「很喜歡吃甜食；嗜甜」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-28"
     },
@@ -882,11 +870,9 @@ export default {
       "masked": "She prefers ____ to savory ones.",
       "options": [
         "sweetness-mcq-28",
-        "sweetness-mcq-27",
-        "sweetness-mcq-29",
-        "sweetness-mcq-26",
+        "sweetness-mcq-08",
         "sweetness-mcq-30",
-        "sweetness-mcq-25"
+        "sweetness-mcq-15"
       ],
       "explanation": "本句的「sweet dishes」指「很喜歡吃甜食；嗜甜」。",
       "sentenceIndex": 5,
@@ -895,12 +881,10 @@ export default {
         "sweet dishes"
       ],
       "optionReasons": {
-        "sweetness-mcq-28": "本句指「很喜歡吃甜食；嗜甜」。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。"
+        "sweetness-mcq-28": "本句的「sweet dishes」指「很喜歡吃甜食；嗜甜」。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-28"
     },
@@ -912,11 +896,9 @@ export default {
       "masked": "The child asked for a ____.",
       "options": [
         "sweetness-mcq-03",
-        "sweetness-mcq-02",
-        "sweetness-mcq-04",
-        "sweetness-mcq-01",
-        "sweetness-mcq-05",
-        "sweetness-mcq-06"
+        "sweetness-mcq-08",
+        "sweetness-mcq-10",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet」指「糖果／甜食」。",
       "sentenceIndex": 6,
@@ -925,12 +907,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-03": "本句指「糖果／甜食」。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-01": "「味道像糖、蜂蜜等；甜的」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-03": "本句的「sweet」指「糖果／甜食」。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-03"
     },
@@ -942,11 +922,9 @@ export default {
       "masked": "Don’t eat too many ____ before dinner.",
       "options": [
         "sweetness-mcq-03",
-        "sweetness-mcq-02",
-        "sweetness-mcq-04",
-        "sweetness-mcq-01",
-        "sweetness-mcq-05",
-        "sweetness-mcq-06"
+        "sweetness-mcq-13",
+        "sweetness-mcq-10",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweets」指「糖果／甜食」。",
       "sentenceIndex": 7,
@@ -955,12 +933,10 @@ export default {
         "sweets"
       ],
       "optionReasons": {
-        "sweetness-mcq-03": "本句指「糖果／甜食」。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-01": "「味道像糖、蜂蜜等；甜的」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-03": "本句的「sweets」指「糖果／甜食」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-03"
     },
@@ -972,11 +948,9 @@ export default {
       "masked": "She has always loved ____.",
       "options": [
         "sweetness-mcq-03",
-        "sweetness-mcq-02",
-        "sweetness-mcq-04",
-        "sweetness-mcq-01",
-        "sweetness-mcq-05",
-        "sweetness-mcq-06"
+        "sweetness-mcq-35",
+        "sweetness-mcq-29",
+        "sweetness-mcq-15"
       ],
       "explanation": "本句的「sweets」指「糖果／甜食」。",
       "sentenceIndex": 8,
@@ -985,12 +959,10 @@ export default {
         "sweets"
       ],
       "optionReasons": {
-        "sweetness-mcq-03": "本句指「糖果／甜食」。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-01": "「味道像糖、蜂蜜等；甜的」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-03": "本句的「sweets」指「糖果／甜食」。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-03"
     },
@@ -1002,11 +974,9 @@ export default {
       "masked": "The shop sells cakes, biscuits, and other ____.",
       "options": [
         "sweetness-mcq-03",
-        "sweetness-mcq-02",
-        "sweetness-mcq-04",
-        "sweetness-mcq-01",
-        "sweetness-mcq-05",
-        "sweetness-mcq-06"
+        "sweetness-mcq-19",
+        "sweetness-mcq-29",
+        "sweetness-mcq-15"
       ],
       "explanation": "本句的「sweets」指「糖果／甜食」。",
       "sentenceIndex": 9,
@@ -1015,12 +985,10 @@ export default {
         "sweets"
       ],
       "optionReasons": {
-        "sweetness-mcq-03": "本句指「糖果／甜食」。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-01": "「味道像糖、蜂蜜等；甜的」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-03": "本句的「sweets」指「糖果／甜食」。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-03"
     },
@@ -1032,11 +1000,9 @@ export default {
       "masked": "What would you like for ____?",
       "options": [
         "sweetness-mcq-04",
-        "sweetness-mcq-03",
-        "sweetness-mcq-05",
-        "sweetness-mcq-02",
-        "sweetness-mcq-06",
-        "sweetness-mcq-01"
+        "sweetness-mcq-08",
+        "sweetness-mcq-20",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweet」指「英式英語：餐後甜品」。",
       "sentenceIndex": 10,
@@ -1045,12 +1011,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-04": "本句指「英式英語：餐後甜品」。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-01": "「味道像糖、蜂蜜等；甜的」與本句語境不同。"
+        "sweetness-mcq-04": "本句的「sweet」指「英式英語：餐後甜品」。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-04"
     },
@@ -1062,11 +1026,9 @@ export default {
       "masked": "We had fruit for ____.",
       "options": [
         "sweetness-mcq-04",
-        "sweetness-mcq-03",
-        "sweetness-mcq-05",
-        "sweetness-mcq-02",
-        "sweetness-mcq-06",
-        "sweetness-mcq-01"
+        "sweetness-mcq-07",
+        "sweetness-mcq-12",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet」指「英式英語：餐後甜品」。",
       "sentenceIndex": 11,
@@ -1075,12 +1037,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-04": "本句指「英式英語：餐後甜品」。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-01": "「味道像糖、蜂蜜等；甜的」與本句語境不同。"
+        "sweetness-mcq-04": "本句的「sweet」指「英式英語：餐後甜品」。",
+        "sweetness-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-04"
     },
@@ -1092,11 +1052,9 @@ export default {
       "masked": "The flowers have a ____.",
       "options": [
         "sweetness-mcq-05",
-        "sweetness-mcq-04",
-        "sweetness-mcq-06",
-        "sweetness-mcq-03",
-        "sweetness-mcq-07",
-        "sweetness-mcq-02"
+        "sweetness-mcq-29",
+        "sweetness-mcq-12",
+        "sweetness-mcq-09"
       ],
       "explanation": "本句的「sweet smell」指「氣味芳香、令人愉快的」。",
       "sentenceIndex": 12,
@@ -1105,12 +1063,10 @@ export default {
         "sweet smell"
       ],
       "optionReasons": {
-        "sweetness-mcq-05": "本句指「氣味芳香、令人愉快的」。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。"
+        "sweetness-mcq-05": "本句的「sweet smell」指「氣味芳香、令人愉快的」。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-05"
     },
@@ -1122,11 +1078,9 @@ export default {
       "masked": "A ____ filled the room.",
       "options": [
         "sweetness-mcq-05",
-        "sweetness-mcq-04",
-        "sweetness-mcq-06",
-        "sweetness-mcq-03",
-        "sweetness-mcq-07",
-        "sweetness-mcq-02"
+        "sweetness-mcq-16",
+        "sweetness-mcq-30",
+        "sweetness-mcq-15"
       ],
       "explanation": "本句的「sweet scent」指「氣味芳香、令人愉快的」。",
       "sentenceIndex": 13,
@@ -1135,12 +1089,10 @@ export default {
         "sweet scent"
       ],
       "optionReasons": {
-        "sweetness-mcq-05": "本句指「氣味芳香、令人愉快的」。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-02": "「英式英語常指糖果」與本句語境不同。"
+        "sweetness-mcq-05": "本句的「sweet scent」指「氣味芳香、令人愉快的」。",
+        "sweetness-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-05"
     },
@@ -1152,11 +1104,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "sweetness-mcq-06",
-        "sweetness-mcq-05",
-        "sweetness-mcq-07",
-        "sweetness-mcq-04",
-        "sweetness-mcq-08",
-        "sweetness-mcq-03"
+        "sweetness-mcq-12",
+        "sweetness-mcq-10",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet voice」指「聲音柔和、悅耳、甜美的」。",
       "sentenceIndex": 14,
@@ -1165,12 +1115,10 @@ export default {
         "sweet voice"
       ],
       "optionReasons": {
-        "sweetness-mcq-06": "本句指「聲音柔和、悅耳、甜美的」。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。"
+        "sweetness-mcq-06": "本句的「sweet voice」指「聲音柔和、悅耳、甜美的」。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-06"
     },
@@ -1182,11 +1130,9 @@ export default {
       "masked": "We heard the ____ of birds singing.",
       "options": [
         "sweetness-mcq-06",
-        "sweetness-mcq-05",
-        "sweetness-mcq-07",
-        "sweetness-mcq-04",
-        "sweetness-mcq-08",
-        "sweetness-mcq-03"
+        "sweetness-mcq-35",
+        "sweetness-mcq-30",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet sound」指「聲音柔和、悅耳、甜美的」。",
       "sentenceIndex": 15,
@@ -1195,12 +1141,10 @@ export default {
         "sweet sound"
       ],
       "optionReasons": {
-        "sweetness-mcq-06": "本句指「聲音柔和、悅耳、甜美的」。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-03": "「糖果／甜食」與本句語境不同。"
+        "sweetness-mcq-06": "本句的「sweet sound」指「聲音柔和、悅耳、甜美的」。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-06"
     },
@@ -1212,11 +1156,9 @@ export default {
       "masked": "That was very ____.",
       "options": [
         "sweetness-mcq-07",
-        "sweetness-mcq-06",
-        "sweetness-mcq-08",
-        "sweetness-mcq-05",
-        "sweetness-mcq-09",
-        "sweetness-mcq-04"
+        "sweetness-mcq-17",
+        "sweetness-mcq-12",
+        "sweetness-mcq-31"
       ],
       "explanation": "本句的「sweet of you」指「親切、溫柔、體貼、討人喜歡的」。",
       "sentenceIndex": 16,
@@ -1225,12 +1167,10 @@ export default {
         "sweet of you"
       ],
       "optionReasons": {
-        "sweetness-mcq-07": "本句指「親切、溫柔、體貼、討人喜歡的」。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。"
+        "sweetness-mcq-07": "本句的「sweet of you」指「親切、溫柔、體貼、討人喜歡的」。",
+        "sweetness-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-07"
     },
@@ -1242,11 +1182,9 @@ export default {
       "masked": "She is a very ____.",
       "options": [
         "sweetness-mcq-07",
-        "sweetness-mcq-06",
-        "sweetness-mcq-08",
-        "sweetness-mcq-05",
-        "sweetness-mcq-09",
-        "sweetness-mcq-04"
+        "sweetness-mcq-03",
+        "sweetness-mcq-29",
+        "sweetness-mcq-12"
       ],
       "explanation": "本句的「sweet person」指「親切、溫柔、體貼、討人喜歡的」。",
       "sentenceIndex": 17,
@@ -1255,12 +1193,10 @@ export default {
         "sweet person"
       ],
       "optionReasons": {
-        "sweetness-mcq-07": "本句指「親切、溫柔、體貼、討人喜歡的」。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-04": "「英式英語：餐後甜品」與本句語境不同。"
+        "sweetness-mcq-07": "本句的「sweet person」指「親切、溫柔、體貼、討人喜歡的」。",
+        "sweetness-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-07"
     },
@@ -1272,11 +1208,9 @@ export default {
       "masked": "It was ____ to remember my birthday.",
       "options": [
         "sweetness-mcq-08",
-        "sweetness-mcq-07",
-        "sweetness-mcq-09",
-        "sweetness-mcq-06",
-        "sweetness-mcq-10",
-        "sweetness-mcq-05"
+        "sweetness-mcq-25",
+        "sweetness-mcq-05",
+        "sweetness-mcq-01"
       ],
       "explanation": "本句的「sweet of him」指「某人的行為很貼心／體貼」。",
       "sentenceIndex": 18,
@@ -1285,12 +1219,10 @@ export default {
         "sweet of him"
       ],
       "optionReasons": {
-        "sweetness-mcq-08": "本句指「某人的行為很貼心／體貼」。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。"
+        "sweetness-mcq-08": "本句的「sweet of him」指「某人的行為很貼心／體貼」。",
+        "sweetness-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-08"
     },
@@ -1302,11 +1234,9 @@ export default {
       "masked": "That’s ____ to say.",
       "options": [
         "sweetness-mcq-08",
-        "sweetness-mcq-07",
         "sweetness-mcq-09",
-        "sweetness-mcq-06",
-        "sweetness-mcq-10",
-        "sweetness-mcq-05"
+        "sweetness-mcq-17",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweet of you」指「某人的行為很貼心／體貼」。",
       "sentenceIndex": 19,
@@ -1315,12 +1245,10 @@ export default {
         "sweet of you"
       ],
       "optionReasons": {
-        "sweetness-mcq-08": "本句指「某人的行為很貼心／體貼」。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-05": "「氣味芳香、令人愉快的」與本句語境不同。"
+        "sweetness-mcq-08": "本句的「sweet of you」指「某人的行為很貼心／體貼」。",
+        "sweetness-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-08"
     },
@@ -1332,11 +1260,9 @@ export default {
       "masked": "He wrote her a ____.",
       "options": [
         "sweetness-mcq-09",
+        "sweetness-mcq-19",
         "sweetness-mcq-08",
-        "sweetness-mcq-10",
-        "sweetness-mcq-07",
-        "sweetness-mcq-11",
-        "sweetness-mcq-06"
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweet message」指「充滿愛意、溫柔或浪漫的；甜蜜的」。",
       "sentenceIndex": 20,
@@ -1345,12 +1271,10 @@ export default {
         "sweet message"
       ],
       "optionReasons": {
-        "sweetness-mcq-09": "本句指「充滿愛意、溫柔或浪漫的；甜蜜的」。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-09": "本句的「sweet message」指「充滿愛意、溫柔或浪漫的；甜蜜的」。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-09"
     },
@@ -1362,11 +1286,9 @@ export default {
       "masked": "They shared a ____ together.",
       "options": [
         "sweetness-mcq-09",
-        "sweetness-mcq-08",
-        "sweetness-mcq-10",
-        "sweetness-mcq-07",
-        "sweetness-mcq-11",
-        "sweetness-mcq-06"
+        "sweetness-mcq-12",
+        "sweetness-mcq-05",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweet moment」指「充滿愛意、溫柔或浪漫的；甜蜜的」。",
       "sentenceIndex": 21,
@@ -1375,12 +1297,10 @@ export default {
         "sweet moment"
       ],
       "optionReasons": {
-        "sweetness-mcq-09": "本句指「充滿愛意、溫柔或浪漫的；甜蜜的」。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-06": "「聲音柔和、悅耳、甜美的」與本句語境不同。"
+        "sweetness-mcq-09": "本句的「sweet moment」指「充滿愛意、溫柔或浪漫的；甜蜜的」。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-09"
     },
@@ -1392,11 +1312,9 @@ export default {
       "masked": "What a ____!",
       "options": [
         "sweetness-mcq-10",
-        "sweetness-mcq-09",
-        "sweetness-mcq-11",
-        "sweetness-mcq-08",
-        "sweetness-mcq-12",
-        "sweetness-mcq-07"
+        "sweetness-mcq-13",
+        "sweetness-mcq-17",
+        "sweetness-mcq-27"
       ],
       "explanation": "本句的「sweet little dog」指「可愛、討人喜歡的」。",
       "sentenceIndex": 22,
@@ -1405,12 +1323,10 @@ export default {
         "sweet little dog"
       ],
       "optionReasons": {
-        "sweetness-mcq-10": "本句指「可愛、討人喜歡的」。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。"
+        "sweetness-mcq-10": "本句的「sweet little dog」指「可愛、討人喜歡的」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-10"
     },
@@ -1422,11 +1338,9 @@ export default {
       "masked": "That is such a ____.",
       "options": [
         "sweetness-mcq-10",
-        "sweetness-mcq-09",
-        "sweetness-mcq-11",
-        "sweetness-mcq-08",
-        "sweetness-mcq-12",
-        "sweetness-mcq-07"
+        "sweetness-mcq-13",
+        "sweetness-mcq-24",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweet picture」指「可愛、討人喜歡的」。",
       "sentenceIndex": 23,
@@ -1435,12 +1349,10 @@ export default {
         "sweet picture"
       ],
       "optionReasons": {
-        "sweetness-mcq-10": "本句指「可愛、討人喜歡的」。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-07": "「親切、溫柔、體貼、討人喜歡的」與本句語境不同。"
+        "sweetness-mcq-10": "本句的「sweet picture」指「可愛、討人喜歡的」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-10"
     },
@@ -1452,11 +1364,9 @@ export default {
       "masked": "Victory felt especially ____ after years of disappointment.",
       "options": [
         "sweetness-mcq-11",
-        "sweetness-mcq-10",
-        "sweetness-mcq-12",
-        "sweetness-mcq-09",
-        "sweetness-mcq-13",
-        "sweetness-mcq-08"
+        "sweetness-mcq-04",
+        "sweetness-mcq-27",
+        "sweetness-mcq-21"
       ],
       "explanation": "本句的「sweet」指「令人特別愉快、滿足或痛快的」。",
       "sentenceIndex": 24,
@@ -1465,12 +1375,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-11": "本句指「令人特別愉快、滿足或痛快的」。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。"
+        "sweetness-mcq-11": "本句的「sweet」指「令人特別愉快、滿足或痛快的」。",
+        "sweetness-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-11"
     },
@@ -1482,11 +1390,9 @@ export default {
       "masked": "It was a ____ for the whole team.",
       "options": [
         "sweetness-mcq-11",
-        "sweetness-mcq-10",
-        "sweetness-mcq-12",
-        "sweetness-mcq-09",
-        "sweetness-mcq-13",
-        "sweetness-mcq-08"
+        "sweetness-mcq-01",
+        "sweetness-mcq-32",
+        "sweetness-mcq-29"
       ],
       "explanation": "本句的「sweet moment」指「令人特別愉快、滿足或痛快的」。",
       "sentenceIndex": 25,
@@ -1495,12 +1401,10 @@ export default {
         "sweet moment"
       ],
       "optionReasons": {
-        "sweetness-mcq-11": "本句指「令人特別愉快、滿足或痛快的」。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。"
+        "sweetness-mcq-11": "本句的「sweet moment」指「令人特別愉快、滿足或痛快的」。",
+        "sweetness-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-11"
     },
@@ -1512,11 +1416,9 @@ export default {
       "masked": "Revenge made the victory even ____.",
       "options": [
         "sweetness-mcq-11",
-        "sweetness-mcq-10",
-        "sweetness-mcq-12",
-        "sweetness-mcq-09",
-        "sweetness-mcq-13",
-        "sweetness-mcq-08"
+        "sweetness-mcq-16",
+        "sweetness-mcq-23",
+        "sweetness-mcq-06"
       ],
       "explanation": "本句的「sweeter」指「令人特別愉快、滿足或痛快的」。",
       "sentenceIndex": 26,
@@ -1525,12 +1427,10 @@ export default {
         "sweeter"
       ],
       "optionReasons": {
-        "sweetness-mcq-11": "本句指「令人特別愉快、滿足或痛快的」。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。"
+        "sweetness-mcq-11": "本句的「sweeter」指「令人特別愉快、滿足或痛快的」。",
+        "sweetness-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-11"
     },
@@ -1542,11 +1442,9 @@ export default {
       "masked": "After years of work, success was ____.",
       "options": [
         "sweetness-mcq-11",
-        "sweetness-mcq-10",
-        "sweetness-mcq-12",
-        "sweetness-mcq-09",
-        "sweetness-mcq-13",
-        "sweetness-mcq-08"
+        "sweetness-mcq-16",
+        "sweetness-mcq-29",
+        "sweetness-mcq-04"
       ],
       "explanation": "本句的「sweet」指「令人特別愉快、滿足或痛快的」。",
       "sentenceIndex": 27,
@@ -1555,12 +1453,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-11": "本句指「令人特別愉快、滿足或痛快的」。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-08": "「某人的行為很貼心／體貼」與本句語境不同。"
+        "sweetness-mcq-11": "本句的「sweet」指「令人特別愉快、滿足或痛快的」。",
+        "sweetness-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-11"
     },
@@ -1572,11 +1468,9 @@ export default {
       "masked": "We got front-row seats.” “____",
       "options": [
         "sweetness-mcq-12",
-        "sweetness-mcq-11",
-        "sweetness-mcq-13",
-        "sweetness-mcq-10",
-        "sweetness-mcq-14",
-        "sweetness-mcq-09"
+        "sweetness-mcq-17",
+        "sweetness-mcq-05",
+        "sweetness-mcq-27"
       ],
       "explanation": "本句的「Sweet!」指「很棒！太好了！」。",
       "sentenceIndex": 28,
@@ -1585,12 +1479,10 @@ export default {
         "Sweet!"
       ],
       "optionReasons": {
-        "sweetness-mcq-12": "本句指「很棒！太好了！」。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。"
+        "sweetness-mcq-12": "本句的「Sweet!」指「很棒！太好了！」。",
+        "sweetness-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-12"
     },
@@ -1602,11 +1494,9 @@ export default {
       "masked": "That new setup is ____.",
       "options": [
         "sweetness-mcq-12",
-        "sweetness-mcq-11",
-        "sweetness-mcq-13",
-        "sweetness-mcq-10",
-        "sweetness-mcq-14",
-        "sweetness-mcq-09"
+        "sweetness-mcq-35",
+        "sweetness-mcq-03",
+        "sweetness-mcq-04"
       ],
       "explanation": "本句的「sweet」指「很棒！太好了！」。",
       "sentenceIndex": 29,
@@ -1615,12 +1505,10 @@ export default {
         "sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-12": "本句指「很棒！太好了！」。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-09": "「充滿愛意、溫柔或浪漫的；甜蜜的」與本句語境不同。"
+        "sweetness-mcq-12": "本句的「sweet」指「很棒！太好了！」。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-12"
     },
@@ -1632,11 +1520,9 @@ export default {
       "masked": "The refinery processes ____.",
       "options": [
         "sweetness-mcq-13",
-        "sweetness-mcq-12",
-        "sweetness-mcq-14",
-        "sweetness-mcq-11",
-        "sweetness-mcq-15",
-        "sweetness-mcq-10"
+        "sweetness-mcq-03",
+        "sweetness-mcq-19",
+        "sweetness-mcq-18"
       ],
       "explanation": "本句的「sweet crude oil」指「石油等含硫量低的」。",
       "sentenceIndex": 30,
@@ -1645,12 +1531,10 @@ export default {
         "sweet crude oil"
       ],
       "optionReasons": {
-        "sweetness-mcq-13": "本句指「石油等含硫量低的」。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。"
+        "sweetness-mcq-13": "本句的「sweet crude oil」指「石油等含硫量低的」。",
+        "sweetness-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-13"
     },
@@ -1662,11 +1546,9 @@ export default {
       "masked": "____ generally contains less sulfur than sour crude.",
       "options": [
         "sweetness-mcq-13",
-        "sweetness-mcq-12",
-        "sweetness-mcq-14",
-        "sweetness-mcq-11",
-        "sweetness-mcq-15",
-        "sweetness-mcq-10"
+        "sweetness-mcq-19",
+        "sweetness-mcq-32",
+        "sweetness-mcq-03"
       ],
       "explanation": "本句的「Sweet crude」指「石油等含硫量低的」。",
       "sentenceIndex": 31,
@@ -1675,12 +1557,10 @@ export default {
         "Sweet crude"
       ],
       "optionReasons": {
-        "sweetness-mcq-13": "本句指「石油等含硫量低的」。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-10": "「可愛、討人喜歡的」與本句語境不同。"
+        "sweetness-mcq-13": "本句的「Sweet crude」指「石油等含硫量低的」。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-13"
     },
@@ -1692,11 +1572,9 @@ export default {
       "masked": "The fruit has a natural ____.",
       "options": [
         "sweetness-mcq-14",
-        "sweetness-mcq-13",
+        "sweetness-mcq-20",
         "sweetness-mcq-15",
-        "sweetness-mcq-12",
-        "sweetness-mcq-16",
-        "sweetness-mcq-11"
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetness」指「食物／飲品的甜味或甜度」。",
       "sentenceIndex": 32,
@@ -1705,12 +1583,10 @@ export default {
         "sweetness"
       ],
       "optionReasons": {
-        "sweetness-mcq-14": "本句指「食物／飲品的甜味或甜度」。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。"
+        "sweetness-mcq-14": "本句的「sweetness」指「食物／飲品的甜味或甜度」。",
+        "sweetness-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-14"
     },
@@ -1722,11 +1598,9 @@ export default {
       "masked": "Reduce the ____ by using less sugar.",
       "options": [
         "sweetness-mcq-14",
-        "sweetness-mcq-13",
-        "sweetness-mcq-15",
+        "sweetness-mcq-26",
         "sweetness-mcq-12",
-        "sweetness-mcq-16",
-        "sweetness-mcq-11"
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetness」指「食物／飲品的甜味或甜度」。",
       "sentenceIndex": 33,
@@ -1735,12 +1609,10 @@ export default {
         "sweetness"
       ],
       "optionReasons": {
-        "sweetness-mcq-14": "本句指「食物／飲品的甜味或甜度」。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-11": "「令人特別愉快、滿足或痛快的」與本句語境不同。"
+        "sweetness-mcq-14": "本句的「sweetness」指「食物／飲品的甜味或甜度」。",
+        "sweetness-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-14"
     },
@@ -1752,11 +1624,9 @@ export default {
       "masked": "Everyone noticed the ____ of her personality.",
       "options": [
         "sweetness-mcq-15",
+        "sweetness-mcq-12",
         "sweetness-mcq-14",
-        "sweetness-mcq-16",
-        "sweetness-mcq-13",
-        "sweetness-mcq-17",
-        "sweetness-mcq-12"
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetness」指「溫柔、親切、可愛的特質」。",
       "sentenceIndex": 34,
@@ -1765,12 +1635,10 @@ export default {
         "sweetness"
       ],
       "optionReasons": {
-        "sweetness-mcq-15": "本句指「溫柔、親切、可愛的特質」。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。"
+        "sweetness-mcq-15": "本句的「sweetness」指「溫柔、親切、可愛的特質」。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-15"
     },
@@ -1782,11 +1650,9 @@ export default {
       "masked": "There was real ____ in the way he cared for his family.",
       "options": [
         "sweetness-mcq-15",
-        "sweetness-mcq-14",
-        "sweetness-mcq-16",
-        "sweetness-mcq-13",
-        "sweetness-mcq-17",
-        "sweetness-mcq-12"
+        "sweetness-mcq-08",
+        "sweetness-mcq-03",
+        "sweetness-mcq-35"
       ],
       "explanation": "本句的「sweetness」指「溫柔、親切、可愛的特質」。",
       "sentenceIndex": 35,
@@ -1795,12 +1661,10 @@ export default {
         "sweetness"
       ],
       "optionReasons": {
-        "sweetness-mcq-15": "本句指「溫柔、親切、可愛的特質」。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-12": "「很棒！太好了！」與本句語境不同。"
+        "sweetness-mcq-15": "本句的「sweetness」指「溫柔、親切、可愛的特質」。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-15"
     },
@@ -1812,11 +1676,9 @@ export default {
       "masked": "The story contains both sadness and ____.",
       "options": [
         "sweetness-mcq-16",
-        "sweetness-mcq-15",
-        "sweetness-mcq-17",
-        "sweetness-mcq-14",
-        "sweetness-mcq-18",
-        "sweetness-mcq-13"
+        "sweetness-mcq-26",
+        "sweetness-mcq-13",
+        "sweetness-mcq-29"
       ],
       "explanation": "本句的「sweetness」指「生活、關係或經歷中的甜蜜、溫馨與美好」。",
       "sentenceIndex": 36,
@@ -1825,12 +1687,10 @@ export default {
         "sweetness"
       ],
       "optionReasons": {
-        "sweetness-mcq-16": "本句指「生活、關係或經歷中的甜蜜、溫馨與美好」。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。"
+        "sweetness-mcq-16": "本句的「sweetness」指「生活、關係或經歷中的甜蜜、溫馨與美好」。",
+        "sweetness-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-16"
     },
@@ -1842,10 +1702,8 @@ export default {
       "masked": "The celebration added some ____ to an ordinary day.",
       "options": [
         "sweetness-mcq-16",
-        "sweetness-mcq-15",
-        "sweetness-mcq-17",
-        "sweetness-mcq-14",
-        "sweetness-mcq-18",
+        "sweetness-mcq-35",
+        "sweetness-mcq-08",
         "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetness」指「生活、關係或經歷中的甜蜜、溫馨與美好」。",
@@ -1855,12 +1713,10 @@ export default {
         "sweetness"
       ],
       "optionReasons": {
-        "sweetness-mcq-16": "本句指「生活、關係或經歷中的甜蜜、溫馨與美好」。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-13": "「石油等含硫量低的」與本句語境不同。"
+        "sweetness-mcq-16": "本句的「sweetness」指「生活、關係或經歷中的甜蜜、溫馨與美好」。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-16"
     },
@@ -1872,11 +1728,9 @@ export default {
       "masked": "She ____ with honey.",
       "options": [
         "sweetness-mcq-17",
-        "sweetness-mcq-16",
-        "sweetness-mcq-18",
         "sweetness-mcq-15",
-        "sweetness-mcq-19",
-        "sweetness-mcq-14"
+        "sweetness-mcq-30",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweetened the tea」指「加入糖／甜味劑使食物或飲品變甜」。",
       "sentenceIndex": 38,
@@ -1885,12 +1739,10 @@ export default {
         "sweetened the tea"
       ],
       "optionReasons": {
-        "sweetness-mcq-17": "本句指「加入糖／甜味劑使食物或飲品變甜」。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。"
+        "sweetness-mcq-17": "本句的「sweetened the tea」指「加入糖／甜味劑使食物或飲品變甜」。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-17"
     },
@@ -1902,11 +1754,9 @@ export default {
       "masked": "The yogurt is lightly ____.",
       "options": [
         "sweetness-mcq-17",
-        "sweetness-mcq-16",
-        "sweetness-mcq-18",
-        "sweetness-mcq-15",
-        "sweetness-mcq-19",
-        "sweetness-mcq-14"
+        "sweetness-mcq-13",
+        "sweetness-mcq-35",
+        "sweetness-mcq-12"
       ],
       "explanation": "本句的「sweetened」指「加入糖／甜味劑使食物或飲品變甜」。",
       "sentenceIndex": 39,
@@ -1915,12 +1765,10 @@ export default {
         "sweetened"
       ],
       "optionReasons": {
-        "sweetness-mcq-17": "本句指「加入糖／甜味劑使食物或飲品變甜」。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-14": "「食物／飲品的甜味或甜度」與本句語境不同。"
+        "sweetness-mcq-17": "本句的「sweetened」指「加入糖／甜味劑使食物或飲品變甜」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-17"
     },
@@ -1932,11 +1780,9 @@ export default {
       "masked": "The fruit ____ as it ripens.",
       "options": [
         "sweetness-mcq-18",
-        "sweetness-mcq-17",
         "sweetness-mcq-19",
-        "sweetness-mcq-16",
-        "sweetness-mcq-20",
-        "sweetness-mcq-15"
+        "sweetness-mcq-30",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetens」指「味道逐漸變甜」。",
       "sentenceIndex": 40,
@@ -1945,12 +1791,10 @@ export default {
         "sweetens"
       ],
       "optionReasons": {
-        "sweetness-mcq-18": "本句指「味道逐漸變甜」。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。"
+        "sweetness-mcq-18": "本句的「sweetens」指「味道逐漸變甜」。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-18"
     },
@@ -1962,10 +1806,8 @@ export default {
       "masked": "The sauce ____ as it reduced.",
       "options": [
         "sweetness-mcq-18",
-        "sweetness-mcq-17",
+        "sweetness-mcq-08",
         "sweetness-mcq-19",
-        "sweetness-mcq-16",
-        "sweetness-mcq-20",
         "sweetness-mcq-15"
       ],
       "explanation": "本句的「sweetened」指「味道逐漸變甜」。",
@@ -1975,12 +1817,10 @@ export default {
         "sweetened"
       ],
       "optionReasons": {
-        "sweetness-mcq-18": "本句指「味道逐漸變甜」。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-15": "「溫柔、親切、可愛的特質」與本句語境不同。"
+        "sweetness-mcq-18": "本句的「sweetened」指「味道逐漸變甜」。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-18"
     },
@@ -1992,11 +1832,9 @@ export default {
       "masked": "They ____ with a signing bonus.",
       "options": [
         "sweetness-mcq-19",
-        "sweetness-mcq-18",
-        "sweetness-mcq-20",
-        "sweetness-mcq-17",
-        "sweetness-mcq-21",
-        "sweetness-mcq-16"
+        "sweetness-mcq-09",
+        "sweetness-mcq-24",
+        "sweetness-mcq-04"
       ],
       "explanation": "本句的「sweetened the offer」指「加入額外好處，使提議／交易更吸引」。",
       "sentenceIndex": 42,
@@ -2005,12 +1843,10 @@ export default {
         "sweetened the offer"
       ],
       "optionReasons": {
-        "sweetness-mcq-19": "本句指「加入額外好處，使提議／交易更吸引」。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。"
+        "sweetness-mcq-19": "本句的「sweetened the offer」指「加入額外好處，使提議／交易更吸引」。",
+        "sweetness-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-19"
     },
@@ -2022,11 +1858,9 @@ export default {
       "masked": "The seller ____ by including free delivery.",
       "options": [
         "sweetness-mcq-19",
-        "sweetness-mcq-18",
-        "sweetness-mcq-20",
-        "sweetness-mcq-17",
-        "sweetness-mcq-21",
-        "sweetness-mcq-16"
+        "sweetness-mcq-29",
+        "sweetness-mcq-24",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetened the deal」指「加入額外好處，使提議／交易更吸引」。",
       "sentenceIndex": 43,
@@ -2035,12 +1869,10 @@ export default {
         "sweetened the deal"
       ],
       "optionReasons": {
-        "sweetness-mcq-19": "本句指「加入額外好處，使提議／交易更吸引」。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。"
+        "sweetness-mcq-19": "本句的「sweetened the deal」指「加入額外好處，使提議／交易更吸引」。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-19"
     },
@@ -2052,11 +1884,9 @@ export default {
       "masked": "They added a discount to ____.",
       "options": [
         "sweetness-mcq-19",
-        "sweetness-mcq-18",
-        "sweetness-mcq-20",
-        "sweetness-mcq-17",
-        "sweetness-mcq-21",
-        "sweetness-mcq-16"
+        "sweetness-mcq-29",
+        "sweetness-mcq-31",
+        "sweetness-mcq-27"
       ],
       "explanation": "本句的「sweeten the deal」指「加入額外好處，使提議／交易更吸引」。",
       "sentenceIndex": 44,
@@ -2065,12 +1895,10 @@ export default {
         "sweeten the deal"
       ],
       "optionReasons": {
-        "sweetness-mcq-19": "本句指「加入額外好處，使提議／交易更吸引」。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。"
+        "sweetness-mcq-19": "本句的「sweeten the deal」指「加入額外好處，使提議／交易更吸引」。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-19"
     },
@@ -2082,11 +1910,9 @@ export default {
       "masked": "Free installation helped ____.",
       "options": [
         "sweetness-mcq-19",
-        "sweetness-mcq-18",
-        "sweetness-mcq-20",
-        "sweetness-mcq-17",
-        "sweetness-mcq-21",
-        "sweetness-mcq-16"
+        "sweetness-mcq-13",
+        "sweetness-mcq-15",
+        "sweetness-mcq-31"
       ],
       "explanation": "本句的「sweeten the deal」指「加入額外好處，使提議／交易更吸引」。",
       "sentenceIndex": 45,
@@ -2095,12 +1921,10 @@ export default {
         "sweeten the deal"
       ],
       "optionReasons": {
-        "sweetness-mcq-19": "本句指「加入額外好處，使提議／交易更吸引」。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-16": "「生活、關係或經歷中的甜蜜、溫馨與美好」與本句語境不同。"
+        "sweetness-mcq-19": "本句的「sweeten the deal」指「加入額外好處，使提議／交易更吸引」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-19"
     },
@@ -2112,11 +1936,9 @@ export default {
       "masked": "A small bonus helped ____.",
       "options": [
         "sweetness-mcq-20",
-        "sweetness-mcq-19",
-        "sweetness-mcq-21",
-        "sweetness-mcq-18",
         "sweetness-mcq-22",
-        "sweetness-mcq-17"
+        "sweetness-mcq-13",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweeten the disappointment」指「使原本不理想的情況變得較愉快／較容易接受」。",
       "sentenceIndex": 46,
@@ -2125,12 +1947,10 @@ export default {
         "sweeten the disappointment"
       ],
       "optionReasons": {
-        "sweetness-mcq-20": "本句指「使原本不理想的情況變得較愉快／較容易接受」。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。"
+        "sweetness-mcq-20": "本句的「sweeten the disappointment」指「使原本不理想的情況變得較愉快／較容易接受」。",
+        "sweetness-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-20"
     },
@@ -2142,11 +1962,9 @@ export default {
       "masked": "The good news ____ an otherwise difficult day.",
       "options": [
         "sweetness-mcq-20",
-        "sweetness-mcq-19",
-        "sweetness-mcq-21",
-        "sweetness-mcq-18",
-        "sweetness-mcq-22",
-        "sweetness-mcq-17"
+        "sweetness-mcq-12",
+        "sweetness-mcq-31",
+        "sweetness-mcq-09"
       ],
       "explanation": "本句的「sweetened」指「使原本不理想的情況變得較愉快／較容易接受」。",
       "sentenceIndex": 47,
@@ -2155,12 +1973,10 @@ export default {
         "sweetened"
       ],
       "optionReasons": {
-        "sweetness-mcq-20": "本句指「使原本不理想的情況變得較愉快／較容易接受」。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-17": "「加入糖／甜味劑使食物或飲品變甜」與本句語境不同。"
+        "sweetness-mcq-20": "本句的「sweetened」指「使原本不理想的情況變得較愉快／較容易接受」。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-20"
     },
@@ -2172,11 +1988,9 @@ export default {
       "masked": "I prefer un____ to sweetened milk.",
       "options": [
         "sweetness-mcq-21",
-        "sweetness-mcq-20",
-        "sweetness-mcq-22",
-        "sweetness-mcq-19",
-        "sweetness-mcq-23",
-        "sweetness-mcq-18"
+        "sweetness-mcq-35",
+        "sweetness-mcq-12",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetened milk」指「已加入糖或其他甜味劑的」。",
       "sentenceIndex": 48,
@@ -2185,12 +1999,10 @@ export default {
         "sweetened milk"
       ],
       "optionReasons": {
-        "sweetness-mcq-21": "本句指「已加入糖或其他甜味劑的」。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。"
+        "sweetness-mcq-21": "本句的「sweetened milk」指「已加入糖或其他甜味劑的」。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-21"
     },
@@ -2202,11 +2014,9 @@ export default {
       "masked": "The drink is artificially ____.",
       "options": [
         "sweetness-mcq-21",
-        "sweetness-mcq-20",
-        "sweetness-mcq-22",
-        "sweetness-mcq-19",
-        "sweetness-mcq-23",
-        "sweetness-mcq-18"
+        "sweetness-mcq-30",
+        "sweetness-mcq-08",
+        "sweetness-mcq-15"
       ],
       "explanation": "本句的「sweetened」指「已加入糖或其他甜味劑的」。",
       "sentenceIndex": 49,
@@ -2215,12 +2025,10 @@ export default {
         "sweetened"
       ],
       "optionReasons": {
-        "sweetness-mcq-21": "本句指「已加入糖或其他甜味劑的」。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-18": "「味道逐漸變甜」與本句語境不同。"
+        "sweetness-mcq-21": "本句的「sweetened」指「已加入糖或其他甜味劑的」。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-21"
     },
@@ -2232,11 +2040,9 @@ export default {
       "masked": "Use ____.",
       "options": [
         "sweetness-mcq-22",
-        "sweetness-mcq-21",
-        "sweetness-mcq-23",
-        "sweetness-mcq-20",
-        "sweetness-mcq-24",
-        "sweetness-mcq-19"
+        "sweetness-mcq-10",
+        "sweetness-mcq-30",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「unsweetened cocoa powder」指「沒有添加糖或甜味劑的」。",
       "sentenceIndex": 50,
@@ -2245,12 +2051,10 @@ export default {
         "unsweetened cocoa powder"
       ],
       "optionReasons": {
-        "sweetness-mcq-22": "本句指「沒有添加糖或甜味劑的」。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。"
+        "sweetness-mcq-22": "本句的「unsweetened cocoa powder」指「沒有添加糖或甜味劑的」。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-22"
     },
@@ -2262,11 +2066,9 @@ export default {
       "masked": "She drinks ____.",
       "options": [
         "sweetness-mcq-22",
-        "sweetness-mcq-21",
-        "sweetness-mcq-23",
-        "sweetness-mcq-20",
-        "sweetness-mcq-24",
-        "sweetness-mcq-19"
+        "sweetness-mcq-07",
+        "sweetness-mcq-12",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「unsweetened tea」指「沒有添加糖或甜味劑的」。",
       "sentenceIndex": 51,
@@ -2275,12 +2077,10 @@ export default {
         "unsweetened tea"
       ],
       "optionReasons": {
-        "sweetness-mcq-22": "本句指「沒有添加糖或甜味劑的」。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-19": "「加入額外好處，使提議／交易更吸引」與本句語境不同。"
+        "sweetness-mcq-22": "本句的「unsweetened tea」指「沒有添加糖或甜味劑的」。",
+        "sweetness-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-22"
     },
@@ -2292,11 +2092,9 @@ export default {
       "masked": "Honey can be used as a natural ____.",
       "options": [
         "sweetness-mcq-23",
-        "sweetness-mcq-22",
-        "sweetness-mcq-24",
-        "sweetness-mcq-21",
-        "sweetness-mcq-25",
-        "sweetness-mcq-20"
+        "sweetness-mcq-10",
+        "sweetness-mcq-12",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweetener」指「用來增加甜味的糖或其他甜味劑」。",
       "sentenceIndex": 52,
@@ -2305,12 +2103,10 @@ export default {
         "sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-23": "本句指「用來增加甜味的糖或其他甜味劑」。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。"
+        "sweetness-mcq-23": "本句的「sweetener」指「用來增加甜味的糖或其他甜味劑」。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-23"
     },
@@ -2322,11 +2118,9 @@ export default {
       "masked": "The drink contains an artificial ____.",
       "options": [
         "sweetness-mcq-23",
-        "sweetness-mcq-22",
-        "sweetness-mcq-24",
-        "sweetness-mcq-21",
-        "sweetness-mcq-25",
-        "sweetness-mcq-20"
+        "sweetness-mcq-30",
+        "sweetness-mcq-11",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweetener」指「用來增加甜味的糖或其他甜味劑」。",
       "sentenceIndex": 53,
@@ -2335,12 +2129,10 @@ export default {
         "sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-23": "本句指「用來增加甜味的糖或其他甜味劑」。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-20": "「使原本不理想的情況變得較愉快／較容易接受」與本句語境不同。"
+        "sweetness-mcq-23": "本句的「sweetener」指「用來增加甜味的糖或其他甜味劑」。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-23"
     },
@@ -2352,11 +2144,9 @@ export default {
       "masked": "Some drinks contain ____.",
       "options": [
         "sweetness-mcq-24",
-        "sweetness-mcq-23",
-        "sweetness-mcq-25",
-        "sweetness-mcq-22",
-        "sweetness-mcq-26",
-        "sweetness-mcq-21"
+        "sweetness-mcq-29",
+        "sweetness-mcq-19",
+        "sweetness-mcq-15"
       ],
       "explanation": "本句的「artificial sweeteners」指「非糖類的人工甜味劑／代糖」。",
       "sentenceIndex": 54,
@@ -2365,12 +2155,10 @@ export default {
         "artificial sweeteners"
       ],
       "optionReasons": {
-        "sweetness-mcq-24": "本句指「非糖類的人工甜味劑／代糖」。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。"
+        "sweetness-mcq-24": "本句的「artificial sweeteners」指「非糖類的人工甜味劑／代糖」。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-24"
     },
@@ -2382,11 +2170,9 @@ export default {
       "masked": "She uses an ____ instead of sugar.",
       "options": [
         "sweetness-mcq-24",
-        "sweetness-mcq-23",
-        "sweetness-mcq-25",
-        "sweetness-mcq-22",
+        "sweetness-mcq-29",
         "sweetness-mcq-26",
-        "sweetness-mcq-21"
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「artificial sweetener」指「非糖類的人工甜味劑／代糖」。",
       "sentenceIndex": 55,
@@ -2395,12 +2181,10 @@ export default {
         "artificial sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-24": "本句指「非糖類的人工甜味劑／代糖」。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-21": "「已加入糖或其他甜味劑的」與本句語境不同。"
+        "sweetness-mcq-24": "本句的「artificial sweetener」指「非糖類的人工甜味劑／代糖」。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-24"
     },
@@ -2412,11 +2196,9 @@ export default {
       "masked": "Honey is often used as a ____.",
       "options": [
         "sweetness-mcq-25",
-        "sweetness-mcq-24",
-        "sweetness-mcq-26",
-        "sweetness-mcq-23",
-        "sweetness-mcq-27",
-        "sweetness-mcq-22"
+        "sweetness-mcq-15",
+        "sweetness-mcq-20",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「natural sweetener」指「天然來源的甜味劑」。",
       "sentenceIndex": 56,
@@ -2425,12 +2207,10 @@ export default {
         "natural sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-25": "本句指「天然來源的甜味劑」。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。"
+        "sweetness-mcq-25": "本句的「natural sweetener」指「天然來源的甜味劑」。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-25"
     },
@@ -2442,11 +2222,9 @@ export default {
       "masked": "The recipe uses fruit as a ____.",
       "options": [
         "sweetness-mcq-25",
-        "sweetness-mcq-24",
-        "sweetness-mcq-26",
-        "sweetness-mcq-23",
-        "sweetness-mcq-27",
-        "sweetness-mcq-22"
+        "sweetness-mcq-13",
+        "sweetness-mcq-15",
+        "sweetness-mcq-19"
       ],
       "explanation": "本句的「natural sweetener」指「天然來源的甜味劑」。",
       "sentenceIndex": 57,
@@ -2455,12 +2233,10 @@ export default {
         "natural sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-25": "本句指「天然來源的甜味劑」。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-22": "「沒有添加糖或甜味劑的」與本句語境不同。"
+        "sweetness-mcq-25": "本句的「natural sweetener」指「天然來源的甜味劑」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-25"
     },
@@ -2473,10 +2249,8 @@ export default {
       "options": [
         "sweetness-mcq-26",
         "sweetness-mcq-25",
-        "sweetness-mcq-27",
-        "sweetness-mcq-24",
-        "sweetness-mcq-28",
-        "sweetness-mcq-23"
+        "sweetness-mcq-09",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweetener」指「為令交易／提議更吸引而加入的額外優惠／誘因」。",
       "sentenceIndex": 58,
@@ -2485,12 +2259,10 @@ export default {
         "sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-26": "本句指「為令交易／提議更吸引而加入的額外優惠／誘因」。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。"
+        "sweetness-mcq-26": "本句的「sweetener」指「為令交易／提議更吸引而加入的額外優惠／誘因」。",
+        "sweetness-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-26"
     },
@@ -2502,11 +2274,9 @@ export default {
       "masked": "Free delivery was included as a ____.",
       "options": [
         "sweetness-mcq-26",
-        "sweetness-mcq-25",
-        "sweetness-mcq-27",
-        "sweetness-mcq-24",
-        "sweetness-mcq-28",
-        "sweetness-mcq-23"
+        "sweetness-mcq-14",
+        "sweetness-mcq-13",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweetener」指「為令交易／提議更吸引而加入的額外優惠／誘因」。",
       "sentenceIndex": 59,
@@ -2515,12 +2285,10 @@ export default {
         "sweetener"
       ],
       "optionReasons": {
-        "sweetness-mcq-26": "本句指「為令交易／提議更吸引而加入的額外優惠／誘因」。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-23": "「用來增加甜味的糖或其他甜味劑」與本句語境不同。"
+        "sweetness-mcq-26": "本句的「sweetener」指「為令交易／提議更吸引而加入的額外優惠／誘因」。",
+        "sweetness-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-26"
     },
@@ -2532,11 +2300,9 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "sweetness-mcq-27",
-        "sweetness-mcq-26",
-        "sweetness-mcq-28",
-        "sweetness-mcq-25",
-        "sweetness-mcq-29",
-        "sweetness-mcq-24"
+        "sweetness-mcq-08",
+        "sweetness-mcq-35",
+        "sweetness-mcq-29"
       ],
       "explanation": "本句的「sweetly」指「溫柔、甜美或悅耳地」。",
       "sentenceIndex": 60,
@@ -2545,12 +2311,10 @@ export default {
         "sweetly"
       ],
       "optionReasons": {
-        "sweetness-mcq-27": "本句指「溫柔、甜美或悅耳地」。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。"
+        "sweetness-mcq-27": "本句的「sweetly」指「溫柔、甜美或悅耳地」。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-27"
     },
@@ -2562,11 +2326,9 @@ export default {
       "masked": "The birds sang ____.",
       "options": [
         "sweetness-mcq-27",
-        "sweetness-mcq-26",
-        "sweetness-mcq-28",
-        "sweetness-mcq-25",
-        "sweetness-mcq-29",
-        "sweetness-mcq-24"
+        "sweetness-mcq-11",
+        "sweetness-mcq-13",
+        "sweetness-mcq-29"
       ],
       "explanation": "本句的「sweetly」指「溫柔、甜美或悅耳地」。",
       "sentenceIndex": 61,
@@ -2575,12 +2337,10 @@ export default {
         "sweetly"
       ],
       "optionReasons": {
-        "sweetness-mcq-27": "本句指「溫柔、甜美或悅耳地」。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-24": "「非糖類的人工甜味劑／代糖」與本句語境不同。"
+        "sweetness-mcq-27": "本句的「sweetly」指「溫柔、甜美或悅耳地」。",
+        "sweetness-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-27"
     },
@@ -2592,11 +2352,9 @@ export default {
       "masked": "I have a ____.",
       "options": [
         "sweetness-mcq-28",
-        "sweetness-mcq-27",
-        "sweetness-mcq-29",
-        "sweetness-mcq-26",
-        "sweetness-mcq-30",
-        "sweetness-mcq-25"
+        "sweetness-mcq-13",
+        "sweetness-mcq-15",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweet tooth」指「很喜歡吃甜食；嗜甜」。",
       "sentenceIndex": 62,
@@ -2605,12 +2363,10 @@ export default {
         "sweet tooth"
       ],
       "optionReasons": {
-        "sweetness-mcq-28": "本句指「很喜歡吃甜食；嗜甜」。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。"
+        "sweetness-mcq-28": "本句的「sweet tooth」指「很喜歡吃甜食；嗜甜」。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-28"
     },
@@ -2622,11 +2378,9 @@ export default {
       "masked": "This bakery is perfect for anyone with a ____.",
       "options": [
         "sweetness-mcq-28",
-        "sweetness-mcq-27",
-        "sweetness-mcq-29",
-        "sweetness-mcq-26",
-        "sweetness-mcq-30",
-        "sweetness-mcq-25"
+        "sweetness-mcq-12",
+        "sweetness-mcq-15",
+        "sweetness-mcq-08"
       ],
       "explanation": "本句的「sweet tooth」指「很喜歡吃甜食；嗜甜」。",
       "sentenceIndex": 63,
@@ -2635,12 +2389,10 @@ export default {
         "sweet tooth"
       ],
       "optionReasons": {
-        "sweetness-mcq-28": "本句指「很喜歡吃甜食；嗜甜」。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-25": "「天然來源的甜味劑」與本句語境不同。"
+        "sweetness-mcq-28": "本句的「sweet tooth」指「很喜歡吃甜食；嗜甜」。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-28"
     },
@@ -2652,11 +2404,9 @@ export default {
       "masked": "We need to find the ____ between price and quality.",
       "options": [
         "sweetness-mcq-29",
-        "sweetness-mcq-28",
-        "sweetness-mcq-30",
-        "sweetness-mcq-27",
-        "sweetness-mcq-31",
-        "sweetness-mcq-26"
+        "sweetness-mcq-07",
+        "sweetness-mcq-01",
+        "sweetness-mcq-16"
       ],
       "explanation": "本句的「sweet spot」指「最理想的程度、位置或平衡點」。",
       "sentenceIndex": 64,
@@ -2665,12 +2415,10 @@ export default {
         "sweet spot"
       ],
       "optionReasons": {
-        "sweetness-mcq-29": "本句指「最理想的程度、位置或平衡點」。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。"
+        "sweetness-mcq-29": "本句的「sweet spot」指「最理想的程度、位置或平衡點」。",
+        "sweetness-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-29"
     },
@@ -2682,11 +2430,9 @@ export default {
       "masked": "The oven temperature has a ____ for these cookies.",
       "options": [
         "sweetness-mcq-29",
-        "sweetness-mcq-28",
-        "sweetness-mcq-30",
-        "sweetness-mcq-27",
         "sweetness-mcq-31",
-        "sweetness-mcq-26"
+        "sweetness-mcq-19",
+        "sweetness-mcq-06"
       ],
       "explanation": "本句的「sweet spot」指「最理想的程度、位置或平衡點」。",
       "sentenceIndex": 65,
@@ -2695,12 +2441,10 @@ export default {
         "sweet spot"
       ],
       "optionReasons": {
-        "sweetness-mcq-29": "本句指「最理想的程度、位置或平衡點」。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-26": "「為令交易／提議更吸引而加入的額外優惠／誘因」與本句語境不同。"
+        "sweetness-mcq-29": "本句的「sweet spot」指「最理想的程度、位置或平衡點」。",
+        "sweetness-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-29"
     },
@@ -2712,11 +2456,9 @@ export default {
       "masked": "The ball hit the racket’s ____.",
       "options": [
         "sweetness-mcq-30",
-        "sweetness-mcq-29",
-        "sweetness-mcq-31",
-        "sweetness-mcq-28",
-        "sweetness-mcq-32",
-        "sweetness-mcq-27"
+        "sweetness-mcq-11",
+        "sweetness-mcq-15",
+        "sweetness-mcq-22"
       ],
       "explanation": "本句的「sweet spot」指「球拍、球棒等產生最佳擊球效果的位置」。",
       "sentenceIndex": 66,
@@ -2725,12 +2467,10 @@ export default {
         "sweet spot"
       ],
       "optionReasons": {
-        "sweetness-mcq-30": "本句指「球拍、球棒等產生最佳擊球效果的位置」。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-32": "「用來討好／說服人的甜言蜜語」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。"
+        "sweetness-mcq-30": "本句的「sweet spot」指「球拍、球棒等產生最佳擊球效果的位置」。",
+        "sweetness-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-30"
     },
@@ -2742,11 +2482,9 @@ export default {
       "masked": "He struck the ball right on the ____.",
       "options": [
         "sweetness-mcq-30",
-        "sweetness-mcq-29",
-        "sweetness-mcq-31",
-        "sweetness-mcq-28",
-        "sweetness-mcq-32",
-        "sweetness-mcq-27"
+        "sweetness-mcq-18",
+        "sweetness-mcq-10",
+        "sweetness-mcq-06"
       ],
       "explanation": "本句的「sweet spot」指「球拍、球棒等產生最佳擊球效果的位置」。",
       "sentenceIndex": 67,
@@ -2755,12 +2493,10 @@ export default {
         "sweet spot"
       ],
       "optionReasons": {
-        "sweetness-mcq-30": "本句指「球拍、球棒等產生最佳擊球效果的位置」。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。",
-        "sweetness-mcq-32": "「用來討好／說服人的甜言蜜語」與本句語境不同。",
-        "sweetness-mcq-27": "「溫柔、甜美或悅耳地」與本句語境不同。"
+        "sweetness-mcq-30": "本句的「sweet spot」指「球拍、球棒等產生最佳擊球效果的位置」。",
+        "sweetness-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-30"
     },
@@ -2772,11 +2508,9 @@ export default {
       "masked": "He ____ them into giving him another chance.",
       "options": [
         "sweetness-mcq-31",
-        "sweetness-mcq-30",
-        "sweetness-mcq-32",
-        "sweetness-mcq-29",
-        "sweetness-mcq-33",
-        "sweetness-mcq-28"
+        "sweetness-mcq-12",
+        "sweetness-mcq-07",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet-talked」指「用奉承、甜言蜜語說服某人」。",
       "sentenceIndex": 68,
@@ -2785,12 +2519,10 @@ export default {
         "sweet-talked"
       ],
       "optionReasons": {
-        "sweetness-mcq-31": "本句指「用奉承、甜言蜜語說服某人」。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-32": "「用來討好／說服人的甜言蜜語」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-33": "「愛人／戀人」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。"
+        "sweetness-mcq-31": "本句的「sweet-talked」指「用奉承、甜言蜜語說服某人」。",
+        "sweetness-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-31"
     },
@@ -2803,10 +2535,8 @@ export default {
       "options": [
         "sweetness-mcq-31",
         "sweetness-mcq-30",
-        "sweetness-mcq-32",
-        "sweetness-mcq-29",
-        "sweetness-mcq-33",
-        "sweetness-mcq-28"
+        "sweetness-mcq-10",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet-talk me」指「用奉承、甜言蜜語說服某人」。",
       "sentenceIndex": 69,
@@ -2815,12 +2545,10 @@ export default {
         "sweet-talk me"
       ],
       "optionReasons": {
-        "sweetness-mcq-31": "本句指「用奉承、甜言蜜語說服某人」。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-32": "「用來討好／說服人的甜言蜜語」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。",
-        "sweetness-mcq-33": "「愛人／戀人」與本句語境不同。",
-        "sweetness-mcq-28": "「很喜歡吃甜食；嗜甜」與本句語境不同。"
+        "sweetness-mcq-31": "本句的「sweet-talk me」指「用奉承、甜言蜜語說服某人」。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-31"
     },
@@ -2832,11 +2560,9 @@ export default {
       "masked": "His ____ did not convince her.",
       "options": [
         "sweetness-mcq-32",
-        "sweetness-mcq-31",
-        "sweetness-mcq-33",
-        "sweetness-mcq-30",
-        "sweetness-mcq-34",
-        "sweetness-mcq-29"
+        "sweetness-mcq-05",
+        "sweetness-mcq-15",
+        "sweetness-mcq-30"
       ],
       "explanation": "本句的「sweet talk」指「用來討好／說服人的甜言蜜語」。",
       "sentenceIndex": 70,
@@ -2845,12 +2571,10 @@ export default {
         "sweet talk"
       ],
       "optionReasons": {
-        "sweetness-mcq-32": "本句指「用來討好／說服人的甜言蜜語」。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-33": "「愛人／戀人」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-34": "「非正式：很可愛、很貼心的人」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。"
+        "sweetness-mcq-32": "本句的「sweet talk」指「用來討好／說服人的甜言蜜語」。",
+        "sweetness-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-32"
     },
@@ -2862,11 +2586,9 @@ export default {
       "masked": "She saw through all the ____.",
       "options": [
         "sweetness-mcq-32",
-        "sweetness-mcq-31",
-        "sweetness-mcq-33",
         "sweetness-mcq-30",
-        "sweetness-mcq-34",
-        "sweetness-mcq-29"
+        "sweetness-mcq-11",
+        "sweetness-mcq-13"
       ],
       "explanation": "本句的「sweet talk」指「用來討好／說服人的甜言蜜語」。",
       "sentenceIndex": 71,
@@ -2875,12 +2597,10 @@ export default {
         "sweet talk"
       ],
       "optionReasons": {
-        "sweetness-mcq-32": "本句指「用來討好／說服人的甜言蜜語」。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-33": "「愛人／戀人」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。",
-        "sweetness-mcq-34": "「非正式：很可愛、很貼心的人」與本句語境不同。",
-        "sweetness-mcq-29": "「最理想的程度、位置或平衡點」與本句語境不同。"
+        "sweetness-mcq-32": "本句的「sweet talk」指「用來討好／說服人的甜言蜜語」。",
+        "sweetness-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-32"
     },
@@ -2892,11 +2612,9 @@ export default {
       "masked": "Keep the presentation ____.",
       "options": [
         "sweetness-mcq-35",
-        "sweetness-mcq-34",
-        "sweetness-mcq-33",
-        "sweetness-mcq-32",
-        "sweetness-mcq-31",
-        "sweetness-mcq-30"
+        "sweetness-mcq-06",
+        "sweetness-mcq-23",
+        "sweetness-mcq-09"
       ],
       "explanation": "本句的「short and sweet」指「簡短但清楚、有效或令人愉快的」。",
       "sentenceIndex": 72,
@@ -2905,12 +2623,10 @@ export default {
         "short and sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-35": "本句指「簡短但清楚、有效或令人愉快的」。",
-        "sweetness-mcq-34": "「非正式：很可愛、很貼心的人」與本句語境不同。",
-        "sweetness-mcq-33": "「愛人／戀人」與本句語境不同。",
-        "sweetness-mcq-32": "「用來討好／說服人的甜言蜜語」與本句語境不同。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。"
+        "sweetness-mcq-35": "本句的「short and sweet」指「簡短但清楚、有效或令人愉快的」。",
+        "sweetness-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-35"
     },
@@ -2922,11 +2638,9 @@ export default {
       "masked": "His message was ____.",
       "options": [
         "sweetness-mcq-35",
-        "sweetness-mcq-34",
-        "sweetness-mcq-33",
+        "sweetness-mcq-15",
         "sweetness-mcq-32",
-        "sweetness-mcq-31",
-        "sweetness-mcq-30"
+        "sweetness-mcq-18"
       ],
       "explanation": "本句的「short and sweet」指「簡短但清楚、有效或令人愉快的」。",
       "sentenceIndex": 73,
@@ -2935,12 +2649,10 @@ export default {
         "short and sweet"
       ],
       "optionReasons": {
-        "sweetness-mcq-35": "本句指「簡短但清楚、有效或令人愉快的」。",
-        "sweetness-mcq-34": "「非正式：很可愛、很貼心的人」與本句語境不同。",
-        "sweetness-mcq-33": "「愛人／戀人」與本句語境不同。",
-        "sweetness-mcq-32": "「用來討好／說服人的甜言蜜語」與本句語境不同。",
-        "sweetness-mcq-31": "「用奉承、甜言蜜語說服某人」與本句語境不同。",
-        "sweetness-mcq-30": "「球拍、球棒等產生最佳擊球效果的位置」與本句語境不同。"
+        "sweetness-mcq-35": "本句的「short and sweet」指「簡短但清楚、有效或令人愉快的」。",
+        "sweetness-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "sweetness-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sweetness-mcq-35"
     }
@@ -2952,5 +2664,7 @@ export default {
     "sha256": "6cd168026f335d6dcdfa758519250a255cba8097da6c366ebfd42aca88abf9c7",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

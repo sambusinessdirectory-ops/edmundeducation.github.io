@@ -317,10 +317,8 @@ export default {
       "options": [
         "junior-mcq-01",
         "junior-mcq-02",
-        "junior-mcq-03",
-        "junior-mcq-04",
-        "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-pdf-001",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「junior secondary school」指「初中」。",
       "sentenceIndex": 0,
@@ -329,12 +327,10 @@ export default {
         "junior secondary school"
       ],
       "optionReasons": {
-        "junior-mcq-01": "本句指「初中」。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-01": "本句的「junior secondary school」指「初中」。",
+        "junior-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-01"
     },
@@ -346,11 +342,8 @@ export default {
       "masked": "Students in ____ study a broad range of subjects.",
       "options": [
         "junior-mcq-01",
-        "junior-mcq-02",
-        "junior-mcq-03",
-        "junior-mcq-04",
-        "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-mcq-08",
+        "junior-mcq-05"
       ],
       "explanation": "本句的「junior secondary school」指「初中」。",
       "sentenceIndex": 1,
@@ -359,12 +352,9 @@ export default {
         "junior secondary school"
       ],
       "optionReasons": {
-        "junior-mcq-01": "本句指「初中」。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-01": "本句的「junior secondary school」指「初中」。",
+        "junior-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-01"
     },
@@ -376,11 +366,9 @@ export default {
       "masked": "She taught science at a ____.",
       "options": [
         "junior-mcq-01",
-        "junior-mcq-02",
-        "junior-mcq-03",
-        "junior-mcq-04",
         "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-pdf-001",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「junior secondary school」指「初中」。",
       "sentenceIndex": 2,
@@ -389,12 +377,10 @@ export default {
         "junior secondary school"
       ],
       "optionReasons": {
-        "junior-mcq-01": "本句指「初中」。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-01": "本句的「junior secondary school」指「初中」。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-01"
     },
@@ -407,10 +393,8 @@ export default {
       "options": [
         "junior-mcq-02",
         "junior-mcq-01",
-        "junior-mcq-03",
-        "junior-mcq-04",
-        "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-mcq-06",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「junior students」指「低年級班／學生」。",
       "sentenceIndex": 3,
@@ -419,12 +403,10 @@ export default {
         "junior students"
       ],
       "optionReasons": {
-        "junior-mcq-02": "本句指「低年級班／學生」。",
-        "junior-mcq-01": "「初中」是「junior secondary school」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-02": "本句的「junior students」指「低年級班／學生」。",
+        "junior-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-02"
     },
@@ -437,10 +419,8 @@ export default {
       "options": [
         "junior-mcq-02",
         "junior-mcq-01",
-        "junior-mcq-03",
-        "junior-mcq-04",
-        "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-mcq-06",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「junior classes」指「低年級班／學生」。",
       "sentenceIndex": 4,
@@ -449,12 +429,10 @@ export default {
         "junior classes"
       ],
       "optionReasons": {
-        "junior-mcq-02": "本句指「低年級班／學生」。",
-        "junior-mcq-01": "「初中」是「junior secondary school」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-02": "本句的「junior classes」指「低年級班／學生」。",
+        "junior-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-02"
     },
@@ -466,11 +444,9 @@ export default {
       "masked": "She started as a ____.",
       "options": [
         "junior-mcq-03",
-        "junior-mcq-02",
-        "junior-mcq-04",
-        "junior-mcq-01",
-        "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-mcq-07",
+        "junior-pdf-001",
+        "junior-mcq-02"
       ],
       "explanation": "本句的「junior employee」指「初級員工」。",
       "sentenceIndex": 5,
@@ -479,12 +455,10 @@ export default {
         "junior employee"
       ],
       "optionReasons": {
-        "junior-mcq-03": "本句指「初級員工」。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-01": "「初中」是「junior secondary school」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-03": "本句的「junior employee」指「初級員工」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-03"
     },
@@ -496,11 +470,7 @@ export default {
       "masked": "The company provides training for ____.",
       "options": [
         "junior-mcq-03",
-        "junior-mcq-02",
-        "junior-mcq-04",
-        "junior-mcq-01",
-        "junior-mcq-05",
-        "junior-mcq-06"
+        "junior-mcq-08"
       ],
       "explanation": "本句的「junior staff」指「初級員工」。",
       "sentenceIndex": 6,
@@ -509,12 +479,8 @@ export default {
         "junior staff"
       ],
       "optionReasons": {
-        "junior-mcq-03": "本句指「初級員工」。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-01": "「初中」是「junior secondary school」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-03": "本句的「junior staff」指「初級員工」。",
+        "junior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-03"
     },
@@ -526,11 +492,9 @@ export default {
       "masked": "He applied for a ____ in marketing.",
       "options": [
         "junior-mcq-04",
-        "junior-mcq-03",
-        "junior-mcq-05",
-        "junior-mcq-02",
         "junior-mcq-06",
-        "junior-mcq-01"
+        "junior-mcq-07",
+        "junior-mcq-02"
       ],
       "explanation": "本句的「junior position」指「初級職位」。",
       "sentenceIndex": 7,
@@ -539,12 +503,10 @@ export default {
         "junior position"
       ],
       "optionReasons": {
-        "junior-mcq-04": "本句指「初級職位」。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-01": "「初中」是「junior secondary school」的用法，與本句語境不同。"
+        "junior-mcq-04": "本句的「junior position」指「初級職位」。",
+        "junior-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-04"
     },
@@ -556,11 +518,7 @@ export default {
       "masked": "She joined the company in a ____.",
       "options": [
         "junior-mcq-04",
-        "junior-mcq-03",
-        "junior-mcq-05",
-        "junior-mcq-02",
-        "junior-mcq-06",
-        "junior-mcq-01"
+        "junior-mcq-08"
       ],
       "explanation": "本句的「junior role」指「初級職位」。",
       "sentenceIndex": 8,
@@ -569,12 +527,8 @@ export default {
         "junior role"
       ],
       "optionReasons": {
-        "junior-mcq-04": "本句指「初級職位」。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-01": "「初中」是「junior secondary school」的用法，與本句語境不同。"
+        "junior-mcq-04": "本句的「junior role」指「初級職位」。",
+        "junior-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-04"
     },
@@ -586,11 +540,9 @@ export default {
       "masked": "She is ____ in the department.",
       "options": [
         "junior-mcq-05",
-        "junior-mcq-04",
-        "junior-mcq-06",
-        "junior-mcq-03",
+        "junior-pdf-001",
         "junior-mcq-07",
-        "junior-mcq-02"
+        "junior-mcq-01"
       ],
       "explanation": "本句的「junior to me」指「職級／資歷低於某人」。",
       "sentenceIndex": 9,
@@ -599,12 +551,10 @@ export default {
         "junior to me"
       ],
       "optionReasons": {
-        "junior-mcq-05": "本句指「職級／資歷低於某人」。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。"
+        "junior-mcq-05": "本句的「junior to me」指「職級／資歷低於某人」。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-05"
     },
@@ -616,11 +566,9 @@ export default {
       "masked": "He is several levels ____.",
       "options": [
         "junior-mcq-05",
-        "junior-mcq-04",
-        "junior-mcq-06",
-        "junior-mcq-03",
+        "junior-pdf-001",
         "junior-mcq-07",
-        "junior-mcq-02"
+        "junior-mcq-01"
       ],
       "explanation": "本句的「junior to the director」指「職級／資歷低於某人」。",
       "sentenceIndex": 10,
@@ -629,12 +577,10 @@ export default {
         "junior to the director"
       ],
       "optionReasons": {
-        "junior-mcq-05": "本句指「職級／資歷低於某人」。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-02": "「低年級班／學生」是「junior class/student」的用法，與本句語境不同。"
+        "junior-mcq-05": "本句的「junior to the director」指「職級／資歷低於某人」。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-05"
     },
@@ -647,10 +593,8 @@ export default {
       "options": [
         "junior-mcq-06",
         "junior-mcq-05",
-        "junior-mcq-07",
-        "junior-mcq-04",
-        "junior-mcq-08",
-        "junior-mcq-03"
+        "junior-mcq-11",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「his junior」指「比他年輕五歲」。",
       "sentenceIndex": 11,
@@ -659,12 +603,10 @@ export default {
         "his junior"
       ],
       "optionReasons": {
-        "junior-mcq-06": "本句指「比他年輕五歲」。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。"
+        "junior-mcq-06": "本句的「his junior」指「比他年輕五歲」。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-06"
     },
@@ -676,11 +618,9 @@ export default {
       "masked": "My brother is two years ____.",
       "options": [
         "junior-mcq-06",
+        "junior-mcq-01",
         "junior-mcq-05",
-        "junior-mcq-07",
-        "junior-mcq-04",
-        "junior-mcq-08",
-        "junior-mcq-03"
+        "junior-mcq-07"
       ],
       "explanation": "本句的「my junior」指「比他年輕五歲」。",
       "sentenceIndex": 12,
@@ -689,12 +629,10 @@ export default {
         "my junior"
       ],
       "optionReasons": {
-        "junior-mcq-06": "本句指「比他年輕五歲」。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-03": "「初級員工」是「junior staff」的用法，與本句語境不同。"
+        "junior-mcq-06": "本句的「my junior」指「比他年輕五歲」。",
+        "junior-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-06"
     },
@@ -706,11 +644,9 @@ export default {
       "masked": "The ____ of the family sat together.",
       "options": [
         "junior-mcq-07",
-        "junior-mcq-06",
-        "junior-mcq-08",
+        "junior-mcq-10",
         "junior-mcq-05",
-        "junior-mcq-09",
-        "junior-mcq-04"
+        "junior-pdf-001"
       ],
       "explanation": "本句的「junior members」指「青少年組」。",
       "sentenceIndex": 13,
@@ -719,12 +655,10 @@ export default {
         "junior members"
       ],
       "optionReasons": {
-        "junior-mcq-07": "本句指「青少年組」。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。"
+        "junior-mcq-07": "本句的「junior members」指「青少年組」。",
+        "junior-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-07"
     },
@@ -736,11 +670,9 @@ export default {
       "masked": "She competed in the ____.",
       "options": [
         "junior-mcq-07",
-        "junior-mcq-06",
-        "junior-mcq-08",
+        "junior-mcq-10",
         "junior-mcq-05",
-        "junior-mcq-09",
-        "junior-mcq-04"
+        "junior-mcq-06"
       ],
       "explanation": "本句的「junior category」指「青少年組」。",
       "sentenceIndex": 14,
@@ -749,12 +681,10 @@ export default {
         "junior category"
       ],
       "optionReasons": {
-        "junior-mcq-07": "本句指「青少年組」。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-04": "「初級職位」是「junior position」的用法，與本句語境不同。"
+        "junior-mcq-07": "本句的「junior category」指「青少年組」。",
+        "junior-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-07"
     },
@@ -766,11 +696,8 @@ export default {
       "masked": "He plays for the club's ____.",
       "options": [
         "junior-mcq-08",
-        "junior-mcq-07",
-        "junior-mcq-09",
-        "junior-mcq-06",
-        "junior-mcq-10",
-        "junior-mcq-05"
+        "junior-mcq-05",
+        "junior-mcq-11"
       ],
       "explanation": "本句的「junior team」指「青年隊」。",
       "sentenceIndex": 15,
@@ -779,12 +706,9 @@ export default {
         "junior team"
       ],
       "optionReasons": {
-        "junior-mcq-08": "本句指「青年隊」。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。"
+        "junior-mcq-08": "本句的「junior team」指「青年隊」。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-08"
     },
@@ -796,9 +720,6 @@ export default {
       "masked": "She won the ____.",
       "options": [
         "junior-mcq-08",
-        "junior-mcq-07",
-        "junior-mcq-09",
-        "junior-mcq-06",
         "junior-mcq-10",
         "junior-mcq-05"
       ],
@@ -809,12 +730,9 @@ export default {
         "junior championship"
       ],
       "optionReasons": {
-        "junior-mcq-08": "本句指「青年隊」。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-05": "「職級／資歷低於某人」是「junior to someone」的用法，與本句語境不同。"
+        "junior-mcq-08": "本句的「junior championship」指「青年隊」。",
+        "junior-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-08"
     },
@@ -826,11 +744,7 @@ export default {
       "masked": "He is one of the ____ of the research team.",
       "options": [
         "junior-mcq-09",
-        "junior-mcq-08",
-        "junior-mcq-10",
-        "junior-mcq-07",
-        "junior-mcq-11",
-        "junior-mcq-06"
+        "junior-mcq-07"
       ],
       "explanation": "本句的「junior members」指「年輕／初級成員」。",
       "sentenceIndex": 17,
@@ -839,12 +753,8 @@ export default {
         "junior members"
       ],
       "optionReasons": {
-        "junior-mcq-09": "本句指「年輕／初級成員」。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-09": "本句的「junior members」指「年輕／初級成員」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-09"
     },
@@ -856,11 +766,7 @@ export default {
       "masked": "The club has activities for ____.",
       "options": [
         "junior-mcq-09",
-        "junior-mcq-08",
-        "junior-mcq-10",
-        "junior-mcq-07",
-        "junior-mcq-11",
-        "junior-mcq-06"
+        "junior-mcq-07"
       ],
       "explanation": "本句的「junior members」指「年輕／初級成員」。",
       "sentenceIndex": 18,
@@ -869,12 +775,8 @@ export default {
         "junior members"
       ],
       "optionReasons": {
-        "junior-mcq-09": "本句指「年輕／初級成員」。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-09": "本句的「junior members」指「年輕／初級成員」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-09"
     },
@@ -886,11 +788,9 @@ export default {
       "masked": "His father is also called David, so he is David Smith ____.",
       "options": [
         "junior-pdf-001",
-        "junior-mcq-08",
-        "junior-mcq-10",
-        "junior-mcq-07",
-        "junior-mcq-11",
-        "junior-mcq-06"
+        "junior-mcq-04",
+        "junior-mcq-02",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「Junior」指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
       "sentenceIndex": 19,
@@ -899,12 +799,10 @@ export default {
         "Junior"
       ],
       "optionReasons": {
-        "junior-pdf-001": "本句指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-pdf-001": "本句的「Junior」指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
+        "junior-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-pdf-001"
     },
@@ -916,11 +814,9 @@ export default {
       "masked": "Robert Downey ____ is an actor.",
       "options": [
         "junior-pdf-001",
-        "junior-mcq-08",
-        "junior-mcq-10",
-        "junior-mcq-07",
-        "junior-mcq-11",
-        "junior-mcq-06"
+        "junior-mcq-01",
+        "junior-mcq-05",
+        "junior-mcq-07"
       ],
       "explanation": "本句的「Jr.」指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
       "sentenceIndex": 20,
@@ -929,12 +825,10 @@ export default {
         "Jr."
       ],
       "optionReasons": {
-        "junior-pdf-001": "本句指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-pdf-001": "本句的「Jr.」指「用在與父親同名的兒子姓名後，表示較年輕的一代」。",
+        "junior-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-pdf-001"
     },
@@ -946,11 +840,7 @@ export default {
       "masked": "The ____ trained separately from the seniors.",
       "options": [
         "junior-mcq-09",
-        "junior-mcq-08",
-        "junior-mcq-10",
-        "junior-mcq-07",
-        "junior-mcq-11",
-        "junior-mcq-06"
+        "junior-mcq-07"
       ],
       "explanation": "本句的「juniors」指「年輕／初級成員」。",
       "sentenceIndex": 21,
@@ -959,12 +849,8 @@ export default {
         "juniors"
       ],
       "optionReasons": {
-        "junior-mcq-09": "本句指「年輕／初級成員」。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-09": "本句的「juniors」指「年輕／初級成員」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-09"
     },
@@ -976,11 +862,7 @@ export default {
       "masked": "The competition includes both seniors and ____.",
       "options": [
         "junior-mcq-09",
-        "junior-mcq-08",
-        "junior-mcq-10",
-        "junior-mcq-07",
-        "junior-mcq-11",
-        "junior-mcq-06"
+        "junior-mcq-07"
       ],
       "explanation": "本句的「juniors」指「年輕／初級成員」。",
       "sentenceIndex": 22,
@@ -989,12 +871,8 @@ export default {
         "juniors"
       ],
       "optionReasons": {
-        "junior-mcq-09": "本句指「年輕／初級成員」。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-06": "「比他年輕五歲」是「five years his junior」的用法，與本句語境不同。"
+        "junior-mcq-09": "本句的「juniors」指「年輕／初級成員」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-09"
     },
@@ -1006,11 +884,9 @@ export default {
       "masked": "She worked as a ____ after graduating.",
       "options": [
         "junior-mcq-10",
-        "junior-mcq-09",
-        "junior-mcq-11",
-        "junior-mcq-08",
-        "junior-mcq-12",
-        "junior-mcq-07"
+        "junior-pdf-001",
+        "junior-mcq-07",
+        "junior-mcq-05"
       ],
       "explanation": "本句的「junior doctor」指「初級醫生」。",
       "sentenceIndex": 23,
@@ -1019,12 +895,10 @@ export default {
         "junior doctor"
       ],
       "optionReasons": {
-        "junior-mcq-10": "本句指「初級醫生」。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-12": "「小……」是「Junior / Jr.」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。"
+        "junior-mcq-10": "本句的「junior doctor」指「初級醫生」。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-10"
     },
@@ -1036,11 +910,9 @@ export default {
       "masked": "The hospital provides supervision for ____.",
       "options": [
         "junior-mcq-10",
-        "junior-mcq-09",
-        "junior-mcq-11",
-        "junior-mcq-08",
-        "junior-mcq-12",
-        "junior-mcq-07"
+        "junior-mcq-07",
+        "junior-mcq-06",
+        "junior-mcq-05"
       ],
       "explanation": "本句的「junior doctors」指「初級醫生」。",
       "sentenceIndex": 24,
@@ -1049,12 +921,10 @@ export default {
         "junior doctors"
       ],
       "optionReasons": {
-        "junior-mcq-10": "本句指「初級醫生」。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-11": "「初級合夥人」是「junior partner」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。",
-        "junior-mcq-12": "「小……」是「Junior / Jr.」的用法，與本句語境不同。",
-        "junior-mcq-07": "「青少年組」是「junior category」的用法，與本句語境不同。"
+        "junior-mcq-10": "本句的「junior doctors」指「初級醫生」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-10"
     },
@@ -1066,11 +936,9 @@ export default {
       "masked": "He became a ____ at the firm.",
       "options": [
         "junior-mcq-11",
-        "junior-mcq-10",
-        "junior-mcq-12",
-        "junior-mcq-09",
-        "junior-mcq-13",
-        "junior-mcq-08"
+        "junior-pdf-001",
+        "junior-mcq-07",
+        "junior-mcq-05"
       ],
       "explanation": "本句的「junior partner」指「初級合夥人」。",
       "sentenceIndex": 25,
@@ -1079,12 +947,10 @@ export default {
         "junior partner"
       ],
       "optionReasons": {
-        "junior-mcq-11": "本句指「初級合夥人」。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-12": "「小……」是「Junior / Jr.」的用法，與本句語境不同。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-13": "「年輕者／初級成員」是「a junior」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。"
+        "junior-mcq-11": "本句的「junior partner」指「初級合夥人」。",
+        "junior-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-11"
     },
@@ -1096,11 +962,9 @@ export default {
       "masked": "The ____ had less authority than the senior partner.",
       "options": [
         "junior-mcq-11",
-        "junior-mcq-10",
-        "junior-mcq-12",
-        "junior-mcq-09",
-        "junior-mcq-13",
-        "junior-mcq-08"
+        "junior-mcq-07",
+        "junior-mcq-06",
+        "junior-mcq-05"
       ],
       "explanation": "本句的「junior partner」指「初級合夥人」。",
       "sentenceIndex": 26,
@@ -1109,12 +973,10 @@ export default {
         "junior partner"
       ],
       "optionReasons": {
-        "junior-mcq-11": "本句指「初級合夥人」。",
-        "junior-mcq-10": "「初級醫生」是「junior doctor」的用法，與本句語境不同。",
-        "junior-mcq-12": "「小……」是「Junior / Jr.」的用法，與本句語境不同。",
-        "junior-mcq-09": "「年輕／初級成員」是「junior member」的用法，與本句語境不同。",
-        "junior-mcq-13": "「年輕者／初級成員」是「a junior」的用法，與本句語境不同。",
-        "junior-mcq-08": "「青年隊」是「junior team」的用法，與本句語境不同。"
+        "junior-mcq-11": "本句的「junior partner」指「初級合夥人」。",
+        "junior-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "junior-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "junior-mcq-11"
     }
@@ -1126,5 +988,7 @@ export default {
     "sha256": "49c67cbb48197c8273768ed071e5bf404d4e4db540a192372c99e6f4675ff8d5",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

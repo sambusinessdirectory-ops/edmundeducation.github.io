@@ -239,11 +239,8 @@ export default {
       "masked": "We only ____ in the lift from time to time.",
       "options": [
         "exchange-mcq-01",
-        "exchange-mcq-02",
-        "exchange-mcq-03",
-        "exchange-mcq-04",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-09",
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchanged greetings」指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
       "sentenceIndex": 0,
@@ -252,12 +249,9 @@ export default {
         "exchanged greetings"
       ],
       "optionReasons": {
-        "exchange-mcq-01": "本句指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-01": "本句的「exchanged greetings」指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
+        "exchange-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-01"
     },
@@ -269,11 +263,8 @@ export default {
       "masked": "The two researchers ____ after the conference.",
       "options": [
         "exchange-mcq-01",
-        "exchange-mcq-02",
-        "exchange-mcq-03",
-        "exchange-mcq-04",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-06",
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchanged ideas」指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
       "sentenceIndex": 1,
@@ -282,12 +273,9 @@ export default {
         "exchanged ideas"
       ],
       "optionReasons": {
-        "exchange-mcq-01": "本句指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-01": "本句的「exchanged ideas」指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
+        "exchange-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-01"
     },
@@ -299,11 +287,8 @@ export default {
       "masked": "They ____ before the meeting began.",
       "options": [
         "exchange-mcq-01",
-        "exchange-mcq-02",
-        "exchange-mcq-03",
         "exchange-mcq-04",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchanged a few words」指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
       "sentenceIndex": 2,
@@ -312,12 +297,9 @@ export default {
         "exchanged a few words"
       ],
       "optionReasons": {
-        "exchange-mcq-01": "本句指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-01": "本句的「exchanged a few words」指「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」。",
+        "exchange-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-01"
     },
@@ -329,11 +311,8 @@ export default {
       "masked": "The children ____ at the party.",
       "options": [
         "exchange-mcq-02",
-        "exchange-mcq-01",
-        "exchange-mcq-03",
-        "exchange-mcq-04",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-06",
+        "exchange-mcq-05"
       ],
       "explanation": "本句的「exchanged gifts」指「交出一件物品或事物，同時取得另一件作替代或回報」。",
       "sentenceIndex": 3,
@@ -342,12 +321,9 @@ export default {
         "exchanged gifts"
       ],
       "optionReasons": {
-        "exchange-mcq-02": "本句指「交出一件物品或事物，同時取得另一件作替代或回報」。",
-        "exchange-mcq-01": "「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」是「exchange greetings/ideas/information」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-02": "本句的「exchanged gifts」指「交出一件物品或事物，同時取得另一件作替代或回報」。",
+        "exchange-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-02"
     },
@@ -359,11 +335,8 @@ export default {
       "masked": "I ____.",
       "options": [
         "exchange-mcq-02",
-        "exchange-mcq-01",
-        "exchange-mcq-03",
-        "exchange-mcq-04",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-06",
+        "exchange-mcq-05"
       ],
       "explanation": "本句的「exchanged my old phone for a newer model」指「交出一件物品或事物，同時取得另一件作替代或回報」。",
       "sentenceIndex": 4,
@@ -372,12 +345,9 @@ export default {
         "exchanged my old phone for a newer model"
       ],
       "optionReasons": {
-        "exchange-mcq-02": "本句指「交出一件物品或事物，同時取得另一件作替代或回報」。",
-        "exchange-mcq-01": "「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」是「exchange greetings/ideas/information」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-02": "本句的「exchanged my old phone for a newer model」指「交出一件物品或事物，同時取得另一件作替代或回報」。",
+        "exchange-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-02"
     },
@@ -389,11 +359,8 @@ export default {
       "masked": "Can I ____ this shirt for a larger size?",
       "options": [
         "exchange-mcq-03",
-        "exchange-mcq-02",
-        "exchange-mcq-04",
         "exchange-mcq-01",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchange」指「把已購買的商品交回商店，再換取另一件商品」。",
       "sentenceIndex": 5,
@@ -402,12 +369,9 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-03": "本句指「把已購買的商品交回商店，再換取另一件商品」。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-01": "「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」是「exchange greetings/ideas/information」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-03": "本句的「exchange」指「把已購買的商品交回商店，再換取另一件商品」。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-03"
     },
@@ -419,11 +383,8 @@ export default {
       "masked": "The shop allows customers to ____ unwanted items within fourteen days.",
       "options": [
         "exchange-mcq-03",
-        "exchange-mcq-02",
-        "exchange-mcq-04",
         "exchange-mcq-01",
-        "exchange-mcq-05",
-        "exchange-mcq-06"
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchange」指「把已購買的商品交回商店，再換取另一件商品」。",
       "sentenceIndex": 6,
@@ -432,12 +393,9 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-03": "本句指「把已購買的商品交回商店，再換取另一件商品」。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-01": "「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」是「exchange greetings/ideas/information」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。"
+        "exchange-mcq-03": "本句的「exchange」指「把已購買的商品交回商店，再換取另一件商品」。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-03"
     },
@@ -449,10 +407,7 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "exchange-mcq-04",
-        "exchange-mcq-03",
-        "exchange-mcq-05",
-        "exchange-mcq-02",
-        "exchange-mcq-06",
+        "exchange-mcq-07",
         "exchange-mcq-01"
       ],
       "explanation": "本句的「exchange some Hong Kong dollars for yen」指「按照匯率把一種貨幣轉換成另一種貨幣」。",
@@ -462,12 +417,9 @@ export default {
         "exchange some Hong Kong dollars for yen"
       ],
       "optionReasons": {
-        "exchange-mcq-04": "本句指「按照匯率把一種貨幣轉換成另一種貨幣」。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-01": "「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」是「exchange greetings/ideas/information」的用法，與本句語境不同。"
+        "exchange-mcq-04": "本句的「exchange some Hong Kong dollars for yen」指「按照匯率把一種貨幣轉換成另一種貨幣」。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-04"
     },
@@ -479,11 +431,7 @@ export default {
       "masked": "You can ____ at the airport.",
       "options": [
         "exchange-mcq-04",
-        "exchange-mcq-03",
-        "exchange-mcq-05",
-        "exchange-mcq-02",
-        "exchange-mcq-06",
-        "exchange-mcq-01"
+        "exchange-mcq-05"
       ],
       "explanation": "本句的「exchange currency」指「按照匯率把一種貨幣轉換成另一種貨幣」。",
       "sentenceIndex": 8,
@@ -492,12 +440,8 @@ export default {
         "exchange currency"
       ],
       "optionReasons": {
-        "exchange-mcq-04": "本句指「按照匯率把一種貨幣轉換成另一種貨幣」。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-01": "「雙方互相向對方表達、傳遞或給予同類的說話、想法、資訊或反應」是「exchange greetings/ideas/information」的用法，與本句語境不同。"
+        "exchange-mcq-04": "本句的「exchange currency」指「按照匯率把一種貨幣轉換成另一種貨幣」。",
+        "exchange-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-04"
     },
@@ -509,11 +453,7 @@ export default {
       "masked": "They ____ across the room.",
       "options": [
         "exchange-mcq-05",
-        "exchange-mcq-04",
-        "exchange-mcq-06",
-        "exchange-mcq-03",
-        "exchange-mcq-07",
-        "exchange-mcq-02"
+        "exchange-mcq-09"
       ],
       "explanation": "本句的「exchanged smiles」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
       "sentenceIndex": 9,
@@ -522,12 +462,8 @@ export default {
         "exchanged smiles"
       ],
       "optionReasons": {
-        "exchange-mcq-05": "本句指「雙方互相說話、回應或作出反應的一段交流或交談」。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。"
+        "exchange-mcq-05": "本句的「exchanged smiles」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
+        "exchange-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-05"
     },
@@ -539,11 +475,7 @@ export default {
       "masked": "The two players ____ after the match.",
       "options": [
         "exchange-mcq-05",
-        "exchange-mcq-04",
-        "exchange-mcq-06",
-        "exchange-mcq-03",
-        "exchange-mcq-07",
-        "exchange-mcq-02"
+        "exchange-mcq-04"
       ],
       "explanation": "本句的「exchanged angry words」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
       "sentenceIndex": 10,
@@ -552,12 +484,8 @@ export default {
         "exchanged angry words"
       ],
       "optionReasons": {
-        "exchange-mcq-05": "本句指「雙方互相說話、回應或作出反應的一段交流或交談」。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。"
+        "exchange-mcq-05": "本句的「exchanged angry words」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
+        "exchange-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-05"
     },
@@ -569,11 +497,7 @@ export default {
       "masked": "They had a brief ____ before the interview.",
       "options": [
         "exchange-mcq-05",
-        "exchange-mcq-04",
-        "exchange-mcq-06",
-        "exchange-mcq-03",
-        "exchange-mcq-07",
-        "exchange-mcq-02"
+        "exchange-mcq-09"
       ],
       "explanation": "本句的「exchange」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
       "sentenceIndex": 11,
@@ -582,12 +506,8 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-05": "本句指「雙方互相說話、回應或作出反應的一段交流或交談」。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。"
+        "exchange-mcq-05": "本句的「exchange」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
+        "exchange-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-05"
     },
@@ -599,11 +519,7 @@ export default {
       "masked": "The discussion ended after a heated ____.",
       "options": [
         "exchange-mcq-05",
-        "exchange-mcq-04",
-        "exchange-mcq-06",
-        "exchange-mcq-03",
-        "exchange-mcq-07",
-        "exchange-mcq-02"
+        "exchange-mcq-09"
       ],
       "explanation": "本句的「exchange」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
       "sentenceIndex": 12,
@@ -612,12 +528,8 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-05": "本句指「雙方互相說話、回應或作出反應的一段交流或交談」。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-02": "「交出一件物品或事物，同時取得另一件作替代或回報」是「exchange one thing for another」的用法，與本句語境不同。"
+        "exchange-mcq-05": "本句的「exchange」指「雙方互相說話、回應或作出反應的一段交流或交談」。",
+        "exchange-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-05"
     },
@@ -629,11 +541,8 @@ export default {
       "masked": "The company’s shares are traded on the stock ____.",
       "options": [
         "exchange-mcq-06",
-        "exchange-mcq-05",
-        "exchange-mcq-07",
-        "exchange-mcq-04",
-        "exchange-mcq-08",
-        "exchange-mcq-03"
+        "exchange-mcq-01",
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchange」指「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」。",
       "sentenceIndex": 13,
@@ -642,12 +551,9 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-06": "本句指「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-08": "「提供某物或作出某行動，以取得另一項回報；作為交換」是「in exchange for」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。"
+        "exchange-mcq-06": "本句的「exchange」指「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-06"
     },
@@ -659,11 +565,8 @@ export default {
       "masked": "Trading on the ____ was unusually active that morning.",
       "options": [
         "exchange-mcq-06",
-        "exchange-mcq-05",
-        "exchange-mcq-07",
-        "exchange-mcq-04",
-        "exchange-mcq-08",
-        "exchange-mcq-03"
+        "exchange-mcq-01",
+        "exchange-mcq-07"
       ],
       "explanation": "本句的「exchange」指「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」。",
       "sentenceIndex": 14,
@@ -672,12 +575,9 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-06": "本句指「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。",
-        "exchange-mcq-08": "「提供某物或作出某行動，以取得另一項回報；作為交換」是「in exchange for」的用法，與本句語境不同。",
-        "exchange-mcq-03": "「把已購買的商品交回商店，再換取另一件商品」是「exchange a purchased item」的用法，與本句語境不同。"
+        "exchange-mcq-06": "本句的「exchange」指「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-06"
     },
@@ -689,11 +589,8 @@ export default {
       "masked": "She spent a semester in Canada on a student ____.",
       "options": [
         "exchange-mcq-07",
-        "exchange-mcq-06",
-        "exchange-mcq-08",
-        "exchange-mcq-05",
-        "exchange-mcq-09",
-        "exchange-mcq-04"
+        "exchange-mcq-04",
+        "exchange-mcq-01"
       ],
       "explanation": "本句的「exchange」指「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」。",
       "sentenceIndex": 15,
@@ -702,12 +599,9 @@ export default {
         "exchange"
       ],
       "optionReasons": {
-        "exchange-mcq-07": "本句指「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-08": "「提供某物或作出某行動，以取得另一項回報；作為交換」是「in exchange for」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-09": "「一種貨幣可以兌換多少另一種貨幣的比率」是「exchange rate」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。"
+        "exchange-mcq-07": "本句的「exchange」指「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」。",
+        "exchange-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-07"
     },
@@ -719,11 +613,8 @@ export default {
       "masked": "The schools have organized an ____ for their students.",
       "options": [
         "exchange-mcq-07",
-        "exchange-mcq-06",
-        "exchange-mcq-08",
-        "exchange-mcq-05",
-        "exchange-mcq-09",
-        "exchange-mcq-04"
+        "exchange-mcq-04",
+        "exchange-mcq-01"
       ],
       "explanation": "本句的「exchange programme」指「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」。",
       "sentenceIndex": 16,
@@ -732,12 +623,9 @@ export default {
         "exchange programme"
       ],
       "optionReasons": {
-        "exchange-mcq-07": "本句指「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-08": "「提供某物或作出某行動，以取得另一項回報；作為交換」是「in exchange for」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。",
-        "exchange-mcq-09": "「一種貨幣可以兌換多少另一種貨幣的比率」是「exchange rate」的用法，與本句語境不同。",
-        "exchange-mcq-04": "「按照匯率把一種貨幣轉換成另一種貨幣」是「exchange currency」的用法，與本句語境不同。"
+        "exchange-mcq-07": "本句的「exchange programme」指「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」。",
+        "exchange-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-07"
     },
@@ -749,10 +637,6 @@ export default {
       "masked": "The ____ has changed significantly this week.",
       "options": [
         "exchange-mcq-09",
-        "exchange-mcq-08",
-        "exchange-mcq-10",
-        "exchange-mcq-07",
-        "exchange-mcq-06",
         "exchange-mcq-05"
       ],
       "explanation": "本句的「exchange rate」指「一種貨幣可以兌換多少另一種貨幣的比率」。",
@@ -762,12 +646,8 @@ export default {
         "exchange rate"
       ],
       "optionReasons": {
-        "exchange-mcq-09": "本句指「一種貨幣可以兌換多少另一種貨幣的比率」。",
-        "exchange-mcq-08": "「提供某物或作出某行動，以取得另一項回報；作為交換」是「in exchange for」的用法，與本句語境不同。",
-        "exchange-mcq-10": "「可以被交換、更換或以另一項事物替代的」是「exchangeable」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。"
+        "exchange-mcq-09": "本句的「exchange rate」指「一種貨幣可以兌換多少另一種貨幣的比率」。",
+        "exchange-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-09"
     },
@@ -779,11 +659,8 @@ export default {
       "masked": "Check the ____ before changing your money.",
       "options": [
         "exchange-mcq-09",
-        "exchange-mcq-08",
-        "exchange-mcq-10",
         "exchange-mcq-07",
-        "exchange-mcq-06",
-        "exchange-mcq-05"
+        "exchange-mcq-01"
       ],
       "explanation": "本句的「exchange rate」指「一種貨幣可以兌換多少另一種貨幣的比率」。",
       "sentenceIndex": 18,
@@ -792,12 +669,9 @@ export default {
         "exchange rate"
       ],
       "optionReasons": {
-        "exchange-mcq-09": "本句指「一種貨幣可以兌換多少另一種貨幣的比率」。",
-        "exchange-mcq-08": "「提供某物或作出某行動，以取得另一項回報；作為交換」是「in exchange for」的用法，與本句語境不同。",
-        "exchange-mcq-10": "「可以被交換、更換或以另一項事物替代的」是「exchangeable」的用法，與本句語境不同。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。"
+        "exchange-mcq-09": "本句的「exchange rate」指「一種貨幣可以兌換多少另一種貨幣的比率」。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-09"
     },
@@ -810,10 +684,7 @@ export default {
       "options": [
         "exchange-mcq-08",
         "exchange-mcq-07",
-        "exchange-mcq-09",
-        "exchange-mcq-06",
-        "exchange-mcq-10",
-        "exchange-mcq-05"
+        "exchange-mcq-06"
       ],
       "explanation": "本句的「in exchange for」指「提供某物或作出某行動，以取得另一項回報；作為交換」。",
       "sentenceIndex": 19,
@@ -822,12 +693,9 @@ export default {
         "in exchange for"
       ],
       "optionReasons": {
-        "exchange-mcq-08": "本句指「提供某物或作出某行動，以取得另一項回報；作為交換」。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-09": "「一種貨幣可以兌換多少另一種貨幣的比率」是「exchange rate」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-10": "「可以被交換、更換或以另一項事物替代的」是「exchangeable」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。"
+        "exchange-mcq-08": "本句的「in exchange for」指「提供某物或作出某行動，以取得另一項回報；作為交換」。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-08"
     },
@@ -840,10 +708,7 @@ export default {
       "options": [
         "exchange-mcq-08",
         "exchange-mcq-07",
-        "exchange-mcq-09",
-        "exchange-mcq-06",
-        "exchange-mcq-10",
-        "exchange-mcq-05"
+        "exchange-mcq-06"
       ],
       "explanation": "本句的「in exchange for」指「提供某物或作出某行動，以取得另一項回報；作為交換」。",
       "sentenceIndex": 20,
@@ -852,12 +717,9 @@ export default {
         "in exchange for"
       ],
       "optionReasons": {
-        "exchange-mcq-08": "本句指「提供某物或作出某行動，以取得另一項回報；作為交換」。",
-        "exchange-mcq-07": "「讓不同學校、地區或國家的人暫時到對方環境學習、工作或生活的交流安排」是「exchange programme」的用法，與本句語境不同。",
-        "exchange-mcq-09": "「一種貨幣可以兌換多少另一種貨幣的比率」是「exchange rate」的用法，與本句語境不同。",
-        "exchange-mcq-06": "「讓股票、商品、證券等按照規則進行買賣的正式交易市場或系統」是「exchange — trading institution」的用法，與本句語境不同。",
-        "exchange-mcq-10": "「可以被交換、更換或以另一項事物替代的」是「exchangeable」的用法，與本句語境不同。",
-        "exchange-mcq-05": "「雙方互相說話、回應或作出反應的一段交流或交談」是「an exchange — interaction」的用法，與本句語境不同。"
+        "exchange-mcq-08": "本句的「in exchange for」指「提供某物或作出某行動，以取得另一項回報；作為交換」。",
+        "exchange-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exchange-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exchange-mcq-08"
     }
@@ -869,5 +731,7 @@ export default {
     "sha256": "4d6c815e84d97c10d76aa63478039656a4eaee6251bdbed93bc57c2dac6c6c0f",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

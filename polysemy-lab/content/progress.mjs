@@ -243,11 +243,8 @@ export default {
       "masked": "The book asks difficult questions about human ____.",
       "options": [
         "progress-mcq-01",
-        "progress-mcq-02",
-        "progress-mcq-03",
-        "progress-mcq-04",
         "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progress」指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
       "sentenceIndex": 0,
@@ -256,12 +253,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-01": "本句指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-01": "本句的「progress」指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-01"
     },
@@ -273,11 +267,8 @@ export default {
       "masked": "Technology has brought enormous ____ in medicine.",
       "options": [
         "progress-mcq-01",
-        "progress-mcq-02",
-        "progress-mcq-03",
-        "progress-mcq-04",
         "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progress」指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
       "sentenceIndex": 1,
@@ -286,12 +277,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-01": "本句指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-01": "本句的「progress」指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-01"
     },
@@ -303,11 +291,8 @@ export default {
       "masked": "The country has made significant ____ in education.",
       "options": [
         "progress-mcq-01",
-        "progress-mcq-02",
-        "progress-mcq-03",
-        "progress-mcq-04",
         "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progress」指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
       "sentenceIndex": 2,
@@ -316,12 +301,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-01": "本句指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-01": "本句的「progress」指「朝更先進、更完善或更理想的狀態逐步發展；進步」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-01"
     },
@@ -333,11 +315,7 @@ export default {
       "masked": "We are making good ____ on the project.",
       "options": [
         "progress-mcq-02",
-        "progress-mcq-01",
-        "progress-mcq-03",
-        "progress-mcq-04",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-07"
       ],
       "explanation": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
       "sentenceIndex": 3,
@@ -346,12 +324,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-02": "本句指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-02": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-02"
     },
@@ -363,11 +337,7 @@ export default {
       "masked": "The teacher checked the students’ ____.",
       "options": [
         "progress-mcq-02",
-        "progress-mcq-01",
-        "progress-mcq-03",
-        "progress-mcq-04",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-07"
       ],
       "explanation": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
       "sentenceIndex": 4,
@@ -376,12 +346,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-02": "本句指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-02": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-02"
     },
@@ -393,11 +359,7 @@ export default {
       "masked": "The work is ____ well.",
       "options": [
         "progress-mcq-03",
-        "progress-mcq-02",
-        "progress-mcq-04",
-        "progress-mcq-01",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-02"
       ],
       "explanation": "本句的「progressing」指「逐步向前發展、進行或進入下一階段」。",
       "sentenceIndex": 5,
@@ -406,12 +368,8 @@ export default {
         "progressing"
       ],
       "optionReasons": {
-        "progress-mcq-03": "本句指「逐步向前發展、進行或進入下一階段」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-03": "本句的「progressing」指「逐步向前發展、進行或進入下一階段」。",
+        "progress-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-03"
     },
@@ -423,11 +381,7 @@ export default {
       "masked": "As the course ____, the material became more difficult.",
       "options": [
         "progress-mcq-03",
-        "progress-mcq-02",
-        "progress-mcq-04",
-        "progress-mcq-01",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-02"
       ],
       "explanation": "本句的「progressed」指「逐步向前發展、進行或進入下一階段」。",
       "sentenceIndex": 6,
@@ -436,12 +390,8 @@ export default {
         "progressed"
       ],
       "optionReasons": {
-        "progress-mcq-03": "本句指「逐步向前發展、進行或進入下一階段」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-03": "本句的「progressed」指「逐步向前發展、進行或進入下一階段」。",
+        "progress-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-03"
     },
@@ -453,11 +403,7 @@ export default {
       "masked": "Only the top teams will ____ to the next round.",
       "options": [
         "progress-mcq-03",
-        "progress-mcq-02",
-        "progress-mcq-04",
-        "progress-mcq-01",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-02"
       ],
       "explanation": "本句的「progress」指「逐步向前發展、進行或進入下一階段」。",
       "sentenceIndex": 7,
@@ -466,12 +412,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-03": "本句指「逐步向前發展、進行或進入下一階段」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-03": "本句的「progress」指「逐步向前發展、進行或進入下一階段」。",
+        "progress-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-03"
     },
@@ -483,11 +425,7 @@ export default {
       "masked": "Students must pass the test before they can ____ to the next level.",
       "options": [
         "progress-mcq-03",
-        "progress-mcq-02",
-        "progress-mcq-04",
-        "progress-mcq-01",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-02"
       ],
       "explanation": "本句的「progress」指「逐步向前發展、進行或進入下一階段」。",
       "sentenceIndex": 8,
@@ -496,12 +434,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-03": "本句指「逐步向前發展、進行或進入下一階段」。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-03": "本句的「progress」指「逐步向前發展、進行或進入下一階段」。",
+        "progress-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-03"
     },
@@ -513,11 +447,8 @@ export default {
       "masked": "The disease ____ rapidly.",
       "options": [
         "progress-mcq-04",
-        "progress-mcq-03",
         "progress-mcq-05",
-        "progress-mcq-02",
-        "progress-mcq-06",
-        "progress-mcq-01"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progressed」指「某種病情或情況逐步發展到更後期；不一定表示改善」。",
       "sentenceIndex": 9,
@@ -526,12 +457,9 @@ export default {
         "progressed"
       ],
       "optionReasons": {
-        "progress-mcq-04": "本句指「某種病情或情況逐步發展到更後期；不一定表示改善」。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。"
+        "progress-mcq-04": "本句的「progressed」指「某種病情或情況逐步發展到更後期；不一定表示改善」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-04"
     },
@@ -543,11 +471,8 @@ export default {
       "masked": "The situation ____ from disagreement to open conflict.",
       "options": [
         "progress-mcq-04",
-        "progress-mcq-03",
         "progress-mcq-05",
-        "progress-mcq-02",
-        "progress-mcq-06",
-        "progress-mcq-01"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progressed」指「某種病情或情況逐步發展到更後期；不一定表示改善」。",
       "sentenceIndex": 10,
@@ -556,12 +481,9 @@ export default {
         "progressed"
       ],
       "optionReasons": {
-        "progress-mcq-04": "本句指「某種病情或情況逐步發展到更後期；不一定表示改善」。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。"
+        "progress-mcq-04": "本句的「progressed」指「某種病情或情況逐步發展到更後期；不一定表示改善」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-04"
     },
@@ -574,10 +496,7 @@ export default {
       "options": [
         "progress-mcq-05",
         "progress-mcq-04",
-        "progress-mcq-06",
-        "progress-mcq-03",
-        "progress-mcq-07",
-        "progress-mcq-02"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progress」指「在空間中向前推進；較低頻」。",
       "sentenceIndex": 11,
@@ -586,12 +505,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-05": "本句指「在空間中向前推進；較低頻」。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。"
+        "progress-mcq-05": "本句的「progress」指「在空間中向前推進；較低頻」。",
+        "progress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-05"
     },
@@ -603,11 +519,8 @@ export default {
       "masked": "The vehicle could make little ____ on the muddy road.",
       "options": [
         "progress-mcq-05",
-        "progress-mcq-04",
-        "progress-mcq-06",
-        "progress-mcq-03",
         "progress-mcq-07",
-        "progress-mcq-02"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progress」指「在空間中向前推進；較低頻」。",
       "sentenceIndex": 12,
@@ -616,12 +529,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-05": "本句指「在空間中向前推進；較低頻」。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-02": "「某項工作、學習或過程朝完成／目標推進的程度；進展」是「progress — advancement toward goal」的用法，與本句語境不同。"
+        "progress-mcq-05": "本句的「progress」指「在空間中向前推進；較低頻」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-05"
     },
@@ -633,11 +543,8 @@ export default {
       "masked": "The patient showed ____ improvement.",
       "options": [
         "progress-mcq-06",
-        "progress-mcq-05",
-        "progress-mcq-07",
-        "progress-mcq-04",
-        "progress-mcq-08",
-        "progress-mcq-03"
+        "progress-mcq-09",
+        "progress-mcq-05"
       ],
       "explanation": "本句的「progressive」指「漸進的；逐步發展的；某些語境下可指改革取向的」。",
       "sentenceIndex": 13,
@@ -646,12 +553,9 @@ export default {
         "progressive"
       ],
       "optionReasons": {
-        "progress-mcq-06": "本句指「漸進的；逐步發展的；某些語境下可指改革取向的」。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-08": "「從一個階段逐步進入下一階段的發展過程」是「progression」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。"
+        "progress-mcq-06": "本句的「progressive」指「漸進的；逐步發展的；某些語境下可指改革取向的」。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-06"
     },
@@ -663,11 +567,8 @@ export default {
       "masked": "The school introduced a more ____ teaching approach.",
       "options": [
         "progress-mcq-06",
-        "progress-mcq-05",
-        "progress-mcq-07",
-        "progress-mcq-04",
-        "progress-mcq-08",
-        "progress-mcq-03"
+        "progress-mcq-09",
+        "progress-mcq-05"
       ],
       "explanation": "本句的「progressive」指「漸進的；逐步發展的；某些語境下可指改革取向的」。",
       "sentenceIndex": 14,
@@ -676,12 +577,9 @@ export default {
         "progressive"
       ],
       "optionReasons": {
-        "progress-mcq-06": "本句指「漸進的；逐步發展的；某些語境下可指改革取向的」。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-08": "「從一個階段逐步進入下一階段的發展過程」是「progression」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。"
+        "progress-mcq-06": "本句的「progressive」指「漸進的；逐步發展的；某些語境下可指改革取向的」。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-06"
     },
@@ -693,11 +591,8 @@ export default {
       "masked": "The exercises become ____ harder.",
       "options": [
         "progress-mcq-07",
-        "progress-mcq-06",
-        "progress-mcq-08",
-        "progress-mcq-05",
         "progress-mcq-09",
-        "progress-mcq-04"
+        "progress-mcq-05"
       ],
       "explanation": "本句的「progressively」指「逐漸地；一步一步地」。",
       "sentenceIndex": 15,
@@ -706,12 +601,9 @@ export default {
         "progressively"
       ],
       "optionReasons": {
-        "progress-mcq-07": "本句指「逐漸地；一步一步地」。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-08": "「從一個階段逐步進入下一階段的發展過程」是「progression」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-09": "「某項活動已開始但尚未完成；正在進行中」是「in progress — 正在進行中」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。"
+        "progress-mcq-07": "本句的「progressively」指「逐漸地；一步一步地」。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-07"
     },
@@ -723,11 +615,7 @@ export default {
       "masked": "The weather became ____ worse.",
       "options": [
         "progress-mcq-07",
-        "progress-mcq-06",
-        "progress-mcq-08",
-        "progress-mcq-05",
-        "progress-mcq-09",
-        "progress-mcq-04"
+        "progress-mcq-02"
       ],
       "explanation": "本句的「progressively」指「逐漸地；一步一步地」。",
       "sentenceIndex": 16,
@@ -736,12 +624,8 @@ export default {
         "progressively"
       ],
       "optionReasons": {
-        "progress-mcq-07": "本句指「逐漸地；一步一步地」。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-08": "「從一個階段逐步進入下一階段的發展過程」是「progression」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-09": "「某項活動已開始但尚未完成；正在進行中」是「in progress — 正在進行中」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。"
+        "progress-mcq-07": "本句的「progressively」指「逐漸地；一步一步地」。",
+        "progress-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-07"
     },
@@ -753,11 +637,8 @@ export default {
       "masked": "The course follows a logical ____ from basic to advanced topics.",
       "options": [
         "progress-mcq-08",
-        "progress-mcq-07",
-        "progress-mcq-09",
-        "progress-mcq-06",
         "progress-mcq-05",
-        "progress-mcq-04"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progression」指「從一個階段逐步進入下一階段的發展過程」。",
       "sentenceIndex": 17,
@@ -766,12 +647,9 @@ export default {
         "progression"
       ],
       "optionReasons": {
-        "progress-mcq-08": "本句指「從一個階段逐步進入下一階段的發展過程」。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-09": "「某項活動已開始但尚未完成；正在進行中」是「in progress — 正在進行中」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。"
+        "progress-mcq-08": "本句的「progression」指「從一個階段逐步進入下一階段的發展過程」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-08"
     },
@@ -783,11 +661,8 @@ export default {
       "masked": "Doctors monitored the ____ of the disease.",
       "options": [
         "progress-mcq-08",
-        "progress-mcq-07",
-        "progress-mcq-09",
-        "progress-mcq-06",
         "progress-mcq-05",
-        "progress-mcq-04"
+        "progress-mcq-09"
       ],
       "explanation": "本句的「progression」指「從一個階段逐步進入下一階段的發展過程」。",
       "sentenceIndex": 18,
@@ -796,12 +671,9 @@ export default {
         "progression"
       ],
       "optionReasons": {
-        "progress-mcq-08": "本句指「從一個階段逐步進入下一階段的發展過程」。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-09": "「某項活動已開始但尚未完成；正在進行中」是「in progress — 正在進行中」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。"
+        "progress-mcq-08": "本句的「progression」指「從一個階段逐步進入下一階段的發展過程」。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-08"
     },
@@ -813,11 +685,7 @@ export default {
       "masked": "She is making good ____ in English.",
       "options": [
         "progress-mcq-02",
-        "progress-mcq-01",
-        "progress-mcq-03",
-        "progress-mcq-04",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-07"
       ],
       "explanation": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
       "sentenceIndex": 19,
@@ -826,12 +694,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-02": "本句指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-02": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-02"
     },
@@ -843,11 +707,7 @@ export default {
       "masked": "We made little ____ today.",
       "options": [
         "progress-mcq-02",
-        "progress-mcq-01",
-        "progress-mcq-03",
-        "progress-mcq-04",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-07"
       ],
       "explanation": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
       "sentenceIndex": 20,
@@ -856,12 +716,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-02": "本句指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-02": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-02"
     },
@@ -873,11 +729,8 @@ export default {
       "masked": "The meeting is currently in ____.",
       "options": [
         "progress-mcq-09",
-        "progress-mcq-08",
-        "progress-mcq-07",
-        "progress-mcq-06",
-        "progress-mcq-05",
-        "progress-mcq-04"
+        "progress-mcq-04",
+        "progress-mcq-05"
       ],
       "explanation": "本句的「progress」指「某項活動已開始但尚未完成；正在進行中」。",
       "sentenceIndex": 21,
@@ -886,12 +739,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-09": "本句指「某項活動已開始但尚未完成；正在進行中」。",
-        "progress-mcq-08": "「從一個階段逐步進入下一階段的發展過程」是「progression」的用法，與本句語境不同。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。"
+        "progress-mcq-09": "本句的「progress」指「某項活動已開始但尚未完成；正在進行中」。",
+        "progress-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-09"
     },
@@ -903,11 +753,8 @@ export default {
       "masked": "Construction work is still in ____.",
       "options": [
         "progress-mcq-09",
-        "progress-mcq-08",
         "progress-mcq-07",
-        "progress-mcq-06",
-        "progress-mcq-05",
-        "progress-mcq-04"
+        "progress-mcq-05"
       ],
       "explanation": "本句的「progress」指「某項活動已開始但尚未完成；正在進行中」。",
       "sentenceIndex": 22,
@@ -916,12 +763,9 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-09": "本句指「某項活動已開始但尚未完成；正在進行中」。",
-        "progress-mcq-08": "「從一個階段逐步進入下一階段的發展過程」是「progression」的用法，與本句語境不同。",
-        "progress-mcq-07": "「逐漸地；一步一步地」是「progressively」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。"
+        "progress-mcq-09": "本句的「progress」指「某項活動已開始但尚未完成；正在進行中」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "progress-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-09"
     },
@@ -933,11 +777,7 @@ export default {
       "masked": "The team has made ____ toward its goal.",
       "options": [
         "progress-mcq-02",
-        "progress-mcq-01",
-        "progress-mcq-03",
-        "progress-mcq-04",
-        "progress-mcq-05",
-        "progress-mcq-06"
+        "progress-mcq-07"
       ],
       "explanation": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
       "sentenceIndex": 23,
@@ -946,12 +786,8 @@ export default {
         "progress"
       ],
       "optionReasons": {
-        "progress-mcq-02": "本句指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
-        "progress-mcq-01": "「朝更先進、更完善或更理想的狀態逐步發展；進步」是「progress — improvement/development」的用法，與本句語境不同。",
-        "progress-mcq-03": "「逐步向前發展、進行或進入下一階段」是「progress — verb」的用法，與本句語境不同。",
-        "progress-mcq-04": "「某種病情或情況逐步發展到更後期；不一定表示改善」是「progress — disease/situation」的用法，與本句語境不同。",
-        "progress-mcq-05": "「在空間中向前推進；較低頻」是「progress — physical movement」的用法，與本句語境不同。",
-        "progress-mcq-06": "「漸進的；逐步發展的；某些語境下可指改革取向的」是「progressive」的用法，與本句語境不同。"
+        "progress-mcq-02": "本句的「progress」指「某項工作、學習或過程朝完成／目標推進的程度；進展」。",
+        "progress-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "progress-mcq-02"
     }
@@ -963,5 +799,7 @@ export default {
     "sha256": "a1906c28ab07e720b016bc9b8fe2d1db3fd9f1c24b220ab0581adac404f85a08",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -78,7 +78,7 @@ export default {
     },
     {
       "id": "free-mcq-04",
-      "title": "不再被囚禁、扣留、困住或限制身體活動的；屬於",
+      "title": "不再被囚禁、扣留、困住或限制身體活動的",
       "form": "free — not imprisoned/confined",
       "en": "free — not imprisoned/confined",
       "zh": "不再被囚禁、扣留、困住或限制身體活動的；屬於",
@@ -264,7 +264,7 @@ export default {
     },
     {
       "id": "free-mcq-12",
-      "title": "表示不受限制、阻礙或壓力地",
+      "title": "不受限制、阻礙或壓力地",
       "form": "freely = without restriction（自由地）",
       "en": "freely = without restriction（自由地）",
       "zh": "表示不受限制、阻礙或壓力地",
@@ -286,7 +286,7 @@ export default {
     },
     {
       "id": "free-mcq-13",
-      "title": "表示不需要支付任何費用",
+      "title": "不需要支付任何費用",
       "form": "Fixed expression: free of charge — 免費",
       "en": "Fixed expression: free of charge — 免費",
       "zh": "表示不需要支付任何費用",
@@ -361,10 +361,7 @@ export default {
       "options": [
         "free-mcq-01",
         "free-mcq-02",
-        "free-mcq-03",
-        "free-mcq-04",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-15"
       ],
       "explanation": "本句的「free」指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
       "sentenceIndex": 0,
@@ -373,12 +370,9 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-01": "本句指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-01": "本句的「free」指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-01"
     },
@@ -390,11 +384,9 @@ export default {
       "masked": "Is this table ____?",
       "options": [
         "free-mcq-01",
-        "free-mcq-02",
-        "free-mcq-03",
-        "free-mcq-04",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-14",
+        "free-mcq-13",
+        "free-mcq-11"
       ],
       "explanation": "本句的「free」指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
       "sentenceIndex": 1,
@@ -403,12 +395,10 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-01": "本句指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-01": "本句的「free」指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
+        "free-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-01"
     },
@@ -421,10 +411,7 @@ export default {
       "options": [
         "free-mcq-01",
         "free-mcq-02",
-        "free-mcq-03",
-        "free-mcq-04",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-04"
       ],
       "explanation": "本句的「free」指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
       "sentenceIndex": 2,
@@ -433,12 +420,9 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-01": "本句指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-01": "本句的「free」指「沒有被人佔用、使用、預約或安排，因此可以使用或安排」。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-01"
     },
@@ -450,11 +434,8 @@ export default {
       "masked": "The museum offers ____ entry on Sundays.",
       "options": [
         "free-mcq-02",
-        "free-mcq-01",
-        "free-mcq-03",
-        "free-mcq-04",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-09",
+        "free-mcq-12"
       ],
       "explanation": "本句的「free」指「不需要支付金錢便可以取得、使用或參與的」。",
       "sentenceIndex": 3,
@@ -463,12 +444,9 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-02": "本句指「不需要支付金錢便可以取得、使用或參與的」。",
-        "free-mcq-01": "「沒有被人佔用、使用、預約或安排，因此可以使用或安排」是「free — available/not occupied」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-02": "本句的「free」指「不需要支付金錢便可以取得、使用或參與的」。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-02"
     },
@@ -480,11 +458,7 @@ export default {
       "masked": "The hotel provides ____ Wi-Fi.",
       "options": [
         "free-mcq-02",
-        "free-mcq-01",
-        "free-mcq-03",
-        "free-mcq-04",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-05"
       ],
       "explanation": "本句的「free」指「不需要支付金錢便可以取得、使用或參與的」。",
       "sentenceIndex": 4,
@@ -493,12 +467,8 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-02": "本句指「不需要支付金錢便可以取得、使用或參與的」。",
-        "free-mcq-01": "「沒有被人佔用、使用、預約或安排，因此可以使用或安排」是「free — available/not occupied」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-02": "本句的「free」指「不需要支付金錢便可以取得、使用或參與的」。",
+        "free-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-02"
     },
@@ -511,10 +481,7 @@ export default {
       "options": [
         "free-mcq-03",
         "free-mcq-02",
-        "free-mcq-04",
-        "free-mcq-01",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-01"
       ],
       "explanation": "本句的「free」指「不受他人強迫、控制或限制，可以自行選擇和行動的」。",
       "sentenceIndex": 5,
@@ -523,12 +490,9 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-03": "本句指「不受他人強迫、控制或限制，可以自行選擇和行動的」。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-01": "「沒有被人佔用、使用、預約或安排，因此可以使用或安排」是「free — available/not occupied」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-03": "本句的「free」指「不受他人強迫、控制或限制，可以自行選擇和行動的」。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-03"
     },
@@ -540,11 +504,9 @@ export default {
       "masked": "She felt ____ to make her own decisions.",
       "options": [
         "free-mcq-03",
-        "free-mcq-02",
-        "free-mcq-04",
-        "free-mcq-01",
-        "free-mcq-05",
-        "free-mcq-06"
+        "free-mcq-06",
+        "free-mcq-13",
+        "free-mcq-11"
       ],
       "explanation": "本句的「free」指「不受他人強迫、控制或限制，可以自行選擇和行動的」。",
       "sentenceIndex": 6,
@@ -553,12 +515,10 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-03": "本句指「不受他人強迫、控制或限制，可以自行選擇和行動的」。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-01": "「沒有被人佔用、使用、預約或安排，因此可以使用或安排」是「free — available/not occupied」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-03": "本句的「free」指「不受他人強迫、控制或限制，可以自行選擇和行動的」。",
+        "free-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-03"
     },
@@ -570,11 +530,9 @@ export default {
       "masked": "The prisoner was finally ____.",
       "options": [
         "free-mcq-04",
-        "free-mcq-03",
-        "free-mcq-05",
-        "free-mcq-02",
-        "free-mcq-06",
-        "free-mcq-01"
+        "free-mcq-13",
+        "free-mcq-01",
+        "free-mcq-11"
       ],
       "explanation": "本句的「free」指「不再被囚禁、扣留、困住或限制身體活動的；屬於」。",
       "sentenceIndex": 7,
@@ -583,12 +541,10 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-04": "本句指「不再被囚禁、扣留、困住或限制身體活動的；屬於」。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-01": "「沒有被人佔用、使用、預約或安排，因此可以使用或安排」是「free — available/not occupied」的用法，與本句語境不同。"
+        "free-mcq-04": "本句的「free」指「不再被囚禁、扣留、困住或限制身體活動的；屬於」。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-04"
     },
@@ -600,11 +556,9 @@ export default {
       "masked": "The bird was set ____.",
       "options": [
         "free-mcq-04",
-        "free-mcq-03",
-        "free-mcq-05",
-        "free-mcq-02",
         "free-mcq-06",
-        "free-mcq-01"
+        "free-mcq-11",
+        "free-mcq-13"
       ],
       "explanation": "本句的「free」指「不再被囚禁、扣留、困住或限制身體活動的；屬於」。",
       "sentenceIndex": 8,
@@ -613,12 +567,10 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-04": "本句指「不再被囚禁、扣留、困住或限制身體活動的；屬於」。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-01": "「沒有被人佔用、使用、預約或安排，因此可以使用或安排」是「free — available/not occupied」的用法，與本句語境不同。"
+        "free-mcq-04": "本句的「free」指「不再被囚禁、扣留、困住或限制身體活動的；屬於」。",
+        "free-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-04"
     },
@@ -630,11 +582,8 @@ export default {
       "masked": "The product is ____ artificial colouring.",
       "options": [
         "free-mcq-05",
-        "free-mcq-04",
-        "free-mcq-06",
-        "free-mcq-03",
-        "free-mcq-07",
-        "free-mcq-02"
+        "free-mcq-11",
+        "free-mcq-13"
       ],
       "explanation": "本句的「free from」指「沒有某種成分、問題、負擔、疾病或限制」。",
       "sentenceIndex": 9,
@@ -643,12 +592,9 @@ export default {
         "free from"
       ],
       "optionReasons": {
-        "free-mcq-05": "本句指「沒有某種成分、問題、負擔、疾病或限制」。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。"
+        "free-mcq-05": "本句的「free from」指「沒有某種成分、問題、負擔、疾病或限制」。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-05"
     },
@@ -660,11 +606,8 @@ export default {
       "masked": "She is finally ____ debt.",
       "options": [
         "free-mcq-05",
-        "free-mcq-04",
-        "free-mcq-06",
-        "free-mcq-03",
-        "free-mcq-07",
-        "free-mcq-02"
+        "free-mcq-11",
+        "free-mcq-13"
       ],
       "explanation": "本句的「free of」指「沒有某種成分、問題、負擔、疾病或限制」。",
       "sentenceIndex": 10,
@@ -673,12 +616,9 @@ export default {
         "free of"
       ],
       "optionReasons": {
-        "free-mcq-05": "本句指「沒有某種成分、問題、負擔、疾病或限制」。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-02": "「不需要支付金錢便可以取得、使用或參與的」是「free — no cost」的用法，與本句語境不同。"
+        "free-mcq-05": "本句的「free of」指「沒有某種成分、問題、負擔、疾病或限制」。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-05"
     },
@@ -690,11 +630,9 @@ export default {
       "masked": "This drink is sugar-____.",
       "options": [
         "free-mcq-06",
-        "free-mcq-05",
-        "free-mcq-07",
-        "free-mcq-04",
-        "free-mcq-08",
-        "free-mcq-03"
+        "free-mcq-10",
+        "free-mcq-13",
+        "free-mcq-11"
       ],
       "explanation": "本句的「free」指「不含、沒有或避免某種指定物質／情況的」。",
       "sentenceIndex": 11,
@@ -703,12 +641,10 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-06": "本句指「不含、沒有或避免某種指定物質／情況的」。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。"
+        "free-mcq-06": "本句的「free」指「不含、沒有或避免某種指定物質／情況的」。",
+        "free-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-06"
     },
@@ -720,11 +656,8 @@ export default {
       "masked": "The building is smoke-____.",
       "options": [
         "free-mcq-06",
-        "free-mcq-05",
-        "free-mcq-07",
-        "free-mcq-04",
-        "free-mcq-08",
-        "free-mcq-03"
+        "free-mcq-15",
+        "free-mcq-02"
       ],
       "explanation": "本句的「free」指「不含、沒有或避免某種指定物質／情況的」。",
       "sentenceIndex": 12,
@@ -733,12 +666,9 @@ export default {
         "free"
       ],
       "optionReasons": {
-        "free-mcq-06": "本句指「不含、沒有或避免某種指定物質／情況的」。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-03": "「不受他人強迫、控制或限制，可以自行選擇和行動的」是「free — not controlled/restricted」的用法，與本句語境不同。"
+        "free-mcq-06": "本句的「free」指「不含、沒有或避免某種指定物質／情況的」。",
+        "free-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-06"
     },
@@ -750,11 +680,8 @@ export default {
       "masked": "Once the meeting ends, you are ____.",
       "options": [
         "free-mcq-07",
-        "free-mcq-06",
-        "free-mcq-08",
-        "free-mcq-05",
         "free-mcq-09",
-        "free-mcq-04"
+        "free-mcq-02"
       ],
       "explanation": "本句的「free to leave」指「不再受到某項責任、工作或義務約束」。",
       "sentenceIndex": 13,
@@ -763,12 +690,9 @@ export default {
         "free to leave"
       ],
       "optionReasons": {
-        "free-mcq-07": "本句指「不再受到某項責任、工作或義務約束」。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。"
+        "free-mcq-07": "本句的「free to leave」指「不再受到某項責任、工作或義務約束」。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-07"
     },
@@ -781,10 +705,7 @@ export default {
       "options": [
         "free-mcq-07",
         "free-mcq-06",
-        "free-mcq-08",
-        "free-mcq-05",
-        "free-mcq-09",
-        "free-mcq-04"
+        "free-mcq-02"
       ],
       "explanation": "本句的「free from」指「不再受到某項責任、工作或義務約束」。",
       "sentenceIndex": 14,
@@ -793,12 +714,9 @@ export default {
         "free from"
       ],
       "optionReasons": {
-        "free-mcq-07": "本句指「不再受到某項責任、工作或義務約束」。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-04": "「不再被囚禁、扣留、困住或限制身體活動的；屬於」是「free — not imprisoned/confined」的用法，與本句語境不同。"
+        "free-mcq-07": "本句的「free from」指「不再受到某項責任、工作或義務約束」。",
+        "free-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-07"
     },
@@ -810,11 +728,8 @@ export default {
       "masked": "Make sure the wheels can move ____.",
       "options": [
         "free-mcq-08",
-        "free-mcq-07",
-        "free-mcq-09",
-        "free-mcq-06",
-        "free-mcq-10",
-        "free-mcq-05"
+        "free-mcq-01",
+        "free-mcq-13"
       ],
       "explanation": "本句的「freely」指「不受阻礙或限制，可以自由進入、取得、使用或移動」。",
       "sentenceIndex": 15,
@@ -823,12 +738,9 @@ export default {
         "freely"
       ],
       "optionReasons": {
-        "free-mcq-08": "本句指「不受阻礙或限制，可以自由進入、取得、使用或移動」。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。"
+        "free-mcq-08": "本句的「freely」指「不受阻礙或限制，可以自由進入、取得、使用或移動」。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-08"
     },
@@ -840,11 +752,8 @@ export default {
       "masked": "Air must be able to flow ____ through the room.",
       "options": [
         "free-mcq-08",
-        "free-mcq-07",
-        "free-mcq-09",
         "free-mcq-06",
-        "free-mcq-10",
-        "free-mcq-05"
+        "free-mcq-13"
       ],
       "explanation": "本句的「freely」指「不受阻礙或限制，可以自由進入、取得、使用或移動」。",
       "sentenceIndex": 16,
@@ -853,12 +762,9 @@ export default {
         "freely"
       ],
       "optionReasons": {
-        "free-mcq-08": "本句指「不受阻礙或限制，可以自由進入、取得、使用或移動」。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-05": "「沒有某種成分、問題、負擔、疾病或限制」是「free of/from something」的用法，與本句語境不同。"
+        "free-mcq-08": "本句的「freely」指「不受阻礙或限制，可以自由進入、取得、使用或移動」。",
+        "free-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-08"
     },
@@ -870,11 +776,9 @@ export default {
       "masked": "Citizens have ____ to the public library.",
       "options": [
         "free-mcq-10",
-        "free-mcq-09",
+        "free-mcq-01",
         "free-mcq-11",
-        "free-mcq-08",
-        "free-mcq-12",
-        "free-mcq-07"
+        "free-mcq-13"
       ],
       "explanation": "本句的「free access」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
       "sentenceIndex": 17,
@@ -883,12 +787,10 @@ export default {
         "free access"
       ],
       "optionReasons": {
-        "free-mcq-10": "本句指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。"
+        "free-mcq-10": "本句的「free access」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-10"
     },
@@ -900,11 +802,9 @@ export default {
       "masked": "The information is ____ online.",
       "options": [
         "free-mcq-10",
-        "free-mcq-09",
         "free-mcq-11",
-        "free-mcq-08",
-        "free-mcq-12",
-        "free-mcq-07"
+        "free-mcq-06",
+        "free-mcq-13"
       ],
       "explanation": "本句的「freely available」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
       "sentenceIndex": 18,
@@ -913,12 +813,10 @@ export default {
         "freely available"
       ],
       "optionReasons": {
-        "free-mcq-10": "本句指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。"
+        "free-mcq-10": "本句的「freely available」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-10"
     },
@@ -930,11 +828,8 @@ export default {
       "masked": "Students may move ____ between the rooms.",
       "options": [
         "free-mcq-12",
-        "free-mcq-11",
-        "free-mcq-13",
-        "free-mcq-10",
-        "free-mcq-14",
-        "free-mcq-09"
+        "free-mcq-01",
+        "free-mcq-02"
       ],
       "explanation": "本句的「freely」指「表示不受限制、阻礙或壓力地」。",
       "sentenceIndex": 19,
@@ -943,12 +838,9 @@ export default {
         "freely"
       ],
       "optionReasons": {
-        "free-mcq-12": "本句指「表示不受限制、阻礙或壓力地」。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-14": "「令某人或某物脫離拘禁、限制或困住狀態」是「Fixed expression: set someone/something free — 釋放」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。"
+        "free-mcq-12": "本句的「freely」指「表示不受限制、阻礙或壓力地」。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-12"
     },
@@ -960,11 +852,8 @@ export default {
       "masked": "She spoke ____ about her experiences.",
       "options": [
         "free-mcq-12",
-        "free-mcq-11",
-        "free-mcq-13",
-        "free-mcq-10",
-        "free-mcq-14",
-        "free-mcq-09"
+        "free-mcq-02",
+        "free-mcq-01"
       ],
       "explanation": "本句的「freely」指「表示不受限制、阻礙或壓力地」。",
       "sentenceIndex": 20,
@@ -973,12 +862,9 @@ export default {
         "freely"
       ],
       "optionReasons": {
-        "free-mcq-12": "本句指「表示不受限制、阻礙或壓力地」。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-14": "「令某人或某物脫離拘禁、限制或困住狀態」是「Fixed expression: set someone/something free — 釋放」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。"
+        "free-mcq-12": "本句的「freely」指「表示不受限制、阻礙或壓力地」。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-12"
     },
@@ -990,11 +876,8 @@ export default {
       "masked": "He ____ shared his knowledge with younger colleagues.",
       "options": [
         "free-mcq-09",
-        "free-mcq-08",
-        "free-mcq-10",
-        "free-mcq-07",
-        "free-mcq-11",
-        "free-mcq-06"
+        "free-mcq-15",
+        "free-mcq-02"
       ],
       "explanation": "本句的「freely」指「自願、沒有保留或毫不吝嗇地」。",
       "sentenceIndex": 21,
@@ -1003,12 +886,9 @@ export default {
         "freely"
       ],
       "optionReasons": {
-        "free-mcq-09": "本句指「自願、沒有保留或毫不吝嗇地」。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-09": "本句的「freely」指「自願、沒有保留或毫不吝嗇地」。",
+        "free-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-09"
     },
@@ -1020,11 +900,9 @@ export default {
       "masked": "She gives her time ____ to help others.",
       "options": [
         "free-mcq-09",
-        "free-mcq-08",
-        "free-mcq-10",
-        "free-mcq-07",
         "free-mcq-11",
-        "free-mcq-06"
+        "free-mcq-14",
+        "free-mcq-13"
       ],
       "explanation": "本句的「freely」指「自願、沒有保留或毫不吝嗇地」。",
       "sentenceIndex": 22,
@@ -1033,12 +911,10 @@ export default {
         "freely"
       ],
       "optionReasons": {
-        "free-mcq-09": "本句指「自願、沒有保留或毫不吝嗇地」。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-06": "「不含、沒有或避免某種指定物質／情況的」是「X-free」的用法，與本句語境不同。"
+        "free-mcq-09": "本句的「freely」指「自願、沒有保留或毫不吝嗇地」。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-09"
     },
@@ -1050,11 +926,9 @@ export default {
       "masked": "The job gives her more ____.",
       "options": [
         "free-mcq-10",
-        "free-mcq-09",
         "free-mcq-11",
-        "free-mcq-08",
-        "free-mcq-12",
-        "free-mcq-07"
+        "free-mcq-06",
+        "free-mcq-13"
       ],
       "explanation": "本句的「freedom」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
       "sentenceIndex": 23,
@@ -1063,12 +937,10 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "free-mcq-10": "本句指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。"
+        "free-mcq-10": "本句的「freedom」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-10"
     },
@@ -1080,11 +952,9 @@ export default {
       "masked": "Children need some ____ to make their own choices.",
       "options": [
         "free-mcq-10",
-        "free-mcq-09",
+        "free-mcq-01",
         "free-mcq-11",
-        "free-mcq-08",
-        "free-mcq-12",
-        "free-mcq-07"
+        "free-mcq-13"
       ],
       "explanation": "本句的「freedom」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
       "sentenceIndex": 24,
@@ -1093,12 +963,10 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "free-mcq-10": "本句指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-07": "「不再受到某項責任、工作或義務約束」是「free — released from obligation」的用法，與本句語境不同。"
+        "free-mcq-10": "本句的「freedom」指「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-10"
     },
@@ -1110,11 +978,9 @@ export default {
       "masked": "The company handed out ____ at the event.",
       "options": [
         "free-mcq-11",
-        "free-mcq-10",
-        "free-mcq-12",
-        "free-mcq-09",
-        "free-mcq-13",
-        "free-mcq-08"
+        "free-mcq-14",
+        "free-mcq-01",
+        "free-mcq-13"
       ],
       "explanation": "本句的「freebies」指「免費提供的商品、贈品或樣本；口語」。",
       "sentenceIndex": 25,
@@ -1123,12 +989,10 @@ export default {
         "freebies"
       ],
       "optionReasons": {
-        "free-mcq-11": "本句指「免費提供的商品、贈品或樣本；口語」。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。"
+        "free-mcq-11": "本句的「freebies」指「免費提供的商品、贈品或樣本；口語」。",
+        "free-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-11"
     },
@@ -1140,11 +1004,9 @@ export default {
       "masked": "Everyone loves a ____.",
       "options": [
         "free-mcq-11",
-        "free-mcq-10",
-        "free-mcq-12",
+        "free-mcq-07",
         "free-mcq-09",
-        "free-mcq-13",
-        "free-mcq-08"
+        "free-mcq-13"
       ],
       "explanation": "本句的「freebie」指「免費提供的商品、贈品或樣本；口語」。",
       "sentenceIndex": 26,
@@ -1153,12 +1015,10 @@ export default {
         "freebie"
       ],
       "optionReasons": {
-        "free-mcq-11": "本句指「免費提供的商品、贈品或樣本；口語」。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-09": "「自願、沒有保留或毫不吝嗇地」是「freely — willingly」的用法，與本句語境不同。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-08": "「不受阻礙或限制，可以自由進入、取得、使用或移動」是「free access / move freely」的用法，與本句語境不同。"
+        "free-mcq-11": "本句的「freebie」指「免費提供的商品、贈品或樣本；口語」。",
+        "free-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-11"
     },
@@ -1170,11 +1030,9 @@ export default {
       "masked": "Children can enter ____.",
       "options": [
         "free-mcq-13",
-        "free-mcq-12",
-        "free-mcq-14",
-        "free-mcq-11",
-        "free-mcq-15",
-        "free-mcq-10"
+        "free-mcq-09",
+        "free-mcq-04",
+        "free-mcq-11"
       ],
       "explanation": "本句的「free of charge」指「表示不需要支付任何費用」。",
       "sentenceIndex": 27,
@@ -1183,12 +1041,10 @@ export default {
         "free of charge"
       ],
       "optionReasons": {
-        "free-mcq-13": "本句指「表示不需要支付任何費用」。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-14": "「令某人或某物脫離拘禁、限制或困住狀態」是「Fixed expression: set someone/something free — 釋放」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-15": "「不必覺得受到限制或不好意思，可以放心做某件事」是「Fixed expression: feel free to + verb — 儘管；可以隨意」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。"
+        "free-mcq-13": "本句的「free of charge」指「表示不需要支付任何費用」。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-13"
     },
@@ -1201,10 +1057,8 @@ export default {
       "options": [
         "free-mcq-13",
         "free-mcq-12",
-        "free-mcq-14",
-        "free-mcq-11",
-        "free-mcq-15",
-        "free-mcq-10"
+        "free-mcq-01",
+        "free-mcq-11"
       ],
       "explanation": "本句的「free of charge」指「表示不需要支付任何費用」。",
       "sentenceIndex": 28,
@@ -1213,12 +1067,10 @@ export default {
         "free of charge"
       ],
       "optionReasons": {
-        "free-mcq-13": "本句指「表示不需要支付任何費用」。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-14": "「令某人或某物脫離拘禁、限制或困住狀態」是「Fixed expression: set someone/something free — 釋放」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-15": "「不必覺得受到限制或不好意思，可以放心做某件事」是「Fixed expression: feel free to + verb — 儘管；可以隨意」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。"
+        "free-mcq-13": "本句的「free of charge」指「表示不需要支付任何費用」。",
+        "free-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-13"
     },
@@ -1230,11 +1082,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "free-mcq-14",
-        "free-mcq-13",
-        "free-mcq-15",
-        "free-mcq-12",
-        "free-mcq-11",
-        "free-mcq-10"
+        "free-mcq-09",
+        "free-mcq-02"
       ],
       "explanation": "本句的「set the animal free」指「令某人或某物脫離拘禁、限制或困住狀態」。",
       "sentenceIndex": 29,
@@ -1243,12 +1092,9 @@ export default {
         "set the animal free"
       ],
       "optionReasons": {
-        "free-mcq-14": "本句指「令某人或某物脫離拘禁、限制或困住狀態」。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-15": "「不必覺得受到限制或不好意思，可以放心做某件事」是「Fixed expression: feel free to + verb — 儘管；可以隨意」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。"
+        "free-mcq-14": "本句的「set the animal free」指「令某人或某物脫離拘禁、限制或困住狀態」。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-14"
     },
@@ -1260,11 +1106,9 @@ export default {
       "masked": "The prisoners were eventually ____.",
       "options": [
         "free-mcq-14",
-        "free-mcq-13",
-        "free-mcq-15",
-        "free-mcq-12",
+        "free-mcq-09",
         "free-mcq-11",
-        "free-mcq-10"
+        "free-mcq-13"
       ],
       "explanation": "本句的「set free」指「令某人或某物脫離拘禁、限制或困住狀態」。",
       "sentenceIndex": 30,
@@ -1273,12 +1117,10 @@ export default {
         "set free"
       ],
       "optionReasons": {
-        "free-mcq-14": "本句指「令某人或某物脫離拘禁、限制或困住狀態」。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-15": "「不必覺得受到限制或不好意思，可以放心做某件事」是「Fixed expression: feel free to + verb — 儘管；可以隨意」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。"
+        "free-mcq-14": "本句的「set free」指「令某人或某物脫離拘禁、限制或困住狀態」。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-14"
     },
@@ -1290,11 +1132,9 @@ export default {
       "masked": "____ ask questions.",
       "options": [
         "free-mcq-15",
-        "free-mcq-14",
-        "free-mcq-13",
-        "free-mcq-12",
         "free-mcq-11",
-        "free-mcq-10"
+        "free-mcq-01",
+        "free-mcq-13"
       ],
       "explanation": "本句的「Feel free to」指「不必覺得受到限制或不好意思，可以放心做某件事」。",
       "sentenceIndex": 31,
@@ -1303,12 +1143,10 @@ export default {
         "Feel free to"
       ],
       "optionReasons": {
-        "free-mcq-15": "本句指「不必覺得受到限制或不好意思，可以放心做某件事」。",
-        "free-mcq-14": "「令某人或某物脫離拘禁、限制或困住狀態」是「Fixed expression: set someone/something free — 釋放」的用法，與本句語境不同。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。"
+        "free-mcq-15": "本句的「Feel free to」指「不必覺得受到限制或不好意思，可以放心做某件事」。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-15"
     },
@@ -1320,11 +1158,9 @@ export default {
       "masked": "Please ____ contact me anytime.",
       "options": [
         "free-mcq-15",
-        "free-mcq-14",
         "free-mcq-13",
-        "free-mcq-12",
-        "free-mcq-11",
-        "free-mcq-10"
+        "free-mcq-09",
+        "free-mcq-11"
       ],
       "explanation": "本句的「feel free to」指「不必覺得受到限制或不好意思，可以放心做某件事」。",
       "sentenceIndex": 32,
@@ -1333,12 +1169,10 @@ export default {
         "feel free to"
       ],
       "optionReasons": {
-        "free-mcq-15": "本句指「不必覺得受到限制或不好意思，可以放心做某件事」。",
-        "free-mcq-14": "「令某人或某物脫離拘禁、限制或困住狀態」是「Fixed expression: set someone/something free — 釋放」的用法，與本句語境不同。",
-        "free-mcq-13": "「表示不需要支付任何費用」是「Fixed expression: free of charge — 免費」的用法，與本句語境不同。",
-        "free-mcq-12": "「表示不受限制、阻礙或壓力地」是「freely = without restriction（自由地）」的用法，與本句語境不同。",
-        "free-mcq-11": "「免費提供的商品、贈品或樣本；口語」是「freebie」的用法，與本句語境不同。",
-        "free-mcq-10": "「不受不必要限制或控制，可以自行行動和選擇的狀態或權利」是「freedom」的用法，與本句語境不同。"
+        "free-mcq-15": "本句的「feel free to」指「不必覺得受到限制或不好意思，可以放心做某件事」。",
+        "free-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "free-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "free-mcq-15"
     }
@@ -1350,5 +1184,7 @@ export default {
     "sha256": "184c6ec0b18c362e731cd2ea5299463049522e6ae597f63a09f3715d81d0f906",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

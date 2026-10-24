@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "rather-mcq-02",
-      "title": "表示某種特質或程度相當明顯；相當、頗、有點",
+      "title": "某種特質或程度相當明顯；相當、頗、有點",
       "form": "rather — degree",
       "en": "rather — degree",
       "zh": "表示某種特質或程度相當明顯；相當、頗、有點",
@@ -56,7 +56,7 @@ export default {
     },
     {
       "id": "rather-mcq-03",
-      "title": "表示程度比預期更高，常帶輕微驚訝；屬於 degree 義",
+      "title": "程度比預期更高，常帶輕微驚訝；屬於 degree 義",
       "form": "rather — unexpected degree",
       "en": "rather — unexpected degree",
       "zh": "表示程度比預期更高，常帶輕微驚訝；屬於 degree 義",
@@ -144,7 +144,7 @@ export default {
     },
     {
       "id": "rather-mcq-07",
-      "title": "表示希望另一個人現在或將來採取某種行動",
+      "title": "希望另一個人現在或將來採取某種行動",
       "form": "would rather someone did...",
       "en": "would rather someone did...",
       "zh": "表示希望另一個人現在或將來採取某種行動",
@@ -184,11 +184,9 @@ export default {
       "masked": "I would ____ do something properly than do it quickly and badly.",
       "options": [
         "rather-mcq-01",
+        "rather-mcq-06",
         "rather-mcq-02",
-        "rather-mcq-03",
-        "rather-mcq-04",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「比起另一個選擇，更願意／寧願做某件事」。",
       "sentenceIndex": 0,
@@ -197,12 +195,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-01": "本句指「比起另一個選擇，更願意／寧願做某件事」。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-01": "本句的「rather」指「比起另一個選擇，更願意／寧願做某件事」。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-01"
     },
@@ -215,10 +211,8 @@ export default {
       "options": [
         "rather-mcq-01",
         "rather-mcq-02",
-        "rather-mcq-03",
-        "rather-mcq-04",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-06",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「比起另一個選擇，更願意／寧願做某件事」。",
       "sentenceIndex": 1,
@@ -227,12 +221,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-01": "本句指「比起另一個選擇，更願意／寧願做某件事」。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-01": "本句的「rather」指「比起另一個選擇，更願意／寧願做某件事」。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-01"
     },
@@ -244,11 +236,9 @@ export default {
       "masked": "She would ____ walk than wait for the bus.",
       "options": [
         "rather-mcq-01",
-        "rather-mcq-02",
-        "rather-mcq-03",
         "rather-mcq-04",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-02",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「比起另一個選擇，更願意／寧願做某件事」。",
       "sentenceIndex": 2,
@@ -257,12 +247,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-01": "本句指「比起另一個選擇，更願意／寧願做某件事」。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-01": "本句的「rather」指「比起另一個選擇，更願意／寧願做某件事」。",
+        "rather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-01"
     },
@@ -274,11 +262,9 @@ export default {
       "masked": "The test was ____ difficult.",
       "options": [
         "rather-mcq-02",
-        "rather-mcq-01",
-        "rather-mcq-03",
         "rather-mcq-04",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-07",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「表示某種特質或程度相當明顯；相當、頗、有點」。",
       "sentenceIndex": 3,
@@ -287,12 +273,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-02": "本句指「表示某種特質或程度相當明顯；相當、頗、有點」。",
-        "rather-mcq-01": "「比起另一個選擇，更願意／寧願做某件事」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-02": "本句的「rather」指「表示某種特質或程度相當明顯；相當、頗、有點」。",
+        "rather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-02"
     },
@@ -304,11 +288,9 @@ export default {
       "masked": "He spoke ____ slowly.",
       "options": [
         "rather-mcq-02",
-        "rather-mcq-01",
-        "rather-mcq-03",
-        "rather-mcq-04",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-07",
+        "rather-mcq-06",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「表示某種特質或程度相當明顯；相當、頗、有點」。",
       "sentenceIndex": 4,
@@ -317,12 +299,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-02": "本句指「表示某種特質或程度相當明顯；相當、頗、有點」。",
-        "rather-mcq-01": "「比起另一個選擇，更願意／寧願做某件事」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-02": "本句的「rather」指「表示某種特質或程度相當明顯；相當、頗、有點」。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-02"
     },
@@ -334,11 +314,9 @@ export default {
       "masked": "The film was ____ good.",
       "options": [
         "rather-mcq-03",
-        "rather-mcq-02",
         "rather-mcq-04",
-        "rather-mcq-01",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-07",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」。",
       "sentenceIndex": 5,
@@ -347,12 +325,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-03": "本句指「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-01": "「比起另一個選擇，更願意／寧願做某件事」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-03": "本句的「rather」指「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」。",
+        "rather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-03"
     },
@@ -364,11 +340,9 @@ export default {
       "masked": "She seemed ____ pleased with the result.",
       "options": [
         "rather-mcq-03",
-        "rather-mcq-02",
-        "rather-mcq-04",
-        "rather-mcq-01",
-        "rather-mcq-05",
-        "rather-mcq-06"
+        "rather-mcq-07",
+        "rather-mcq-06",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather」指「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」。",
       "sentenceIndex": 6,
@@ -377,12 +351,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-03": "本句指「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-01": "「比起另一個選擇，更願意／寧願做某件事」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。"
+        "rather-mcq-03": "本句的「rather」指「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-03"
     },
@@ -396,9 +368,7 @@ export default {
         "rather-mcq-04",
         "rather-mcq-03",
         "rather-mcq-05",
-        "rather-mcq-02",
-        "rather-mcq-06",
-        "rather-mcq-01"
+        "rather-mcq-07"
       ],
       "explanation": "本句的「rather」指「修正或精確化剛才的說法；更確切地說」。",
       "sentenceIndex": 7,
@@ -407,12 +377,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-04": "本句指「修正或精確化剛才的說法；更確切地說」。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-01": "「比起另一個選擇，更願意／寧願做某件事」與本句語境不同。"
+        "rather-mcq-04": "本句的「rather」指「修正或精確化剛才的說法；更確切地說」。",
+        "rather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-04"
     },
@@ -426,8 +394,6 @@ export default {
         "rather-mcq-04",
         "rather-mcq-03",
         "rather-mcq-05",
-        "rather-mcq-02",
-        "rather-mcq-06",
         "rather-mcq-01"
       ],
       "explanation": "本句的「rather」指「修正或精確化剛才的說法；更確切地說」。",
@@ -437,12 +403,10 @@ export default {
         "rather"
       ],
       "optionReasons": {
-        "rather-mcq-04": "本句指「修正或精確化剛才的說法；更確切地說」。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-01": "「比起另一個選擇，更願意／寧願做某件事」與本句語境不同。"
+        "rather-mcq-04": "本句的「rather」指「修正或精確化剛才的說法；更確切地說」。",
+        "rather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-04"
     },
@@ -455,10 +419,8 @@ export default {
       "options": [
         "rather-mcq-05",
         "rather-mcq-04",
-        "rather-mcq-06",
         "rather-mcq-03",
-        "rather-mcq-07",
-        "rather-mcq-02"
+        "rather-mcq-07"
       ],
       "explanation": "本句的「rather than」指「引出被排除或取代的選項；而不是／而非」。",
       "sentenceIndex": 9,
@@ -467,12 +429,10 @@ export default {
         "rather than"
       ],
       "optionReasons": {
-        "rather-mcq-05": "本句指「引出被排除或取代的選項；而不是／而非」。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-07": "「表示希望另一個人現在或將來採取某種行動」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-05": "本句的「rather than」指「引出被排除或取代的選項；而不是／而非」。",
+        "rather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-05"
     },
@@ -484,11 +444,9 @@ export default {
       "masked": "The problem is emotional ____ physical.",
       "options": [
         "rather-mcq-05",
-        "rather-mcq-04",
-        "rather-mcq-06",
         "rather-mcq-03",
-        "rather-mcq-07",
-        "rather-mcq-02"
+        "rather-mcq-04",
+        "rather-mcq-01"
       ],
       "explanation": "本句的「rather than」指「引出被排除或取代的選項；而不是／而非」。",
       "sentenceIndex": 10,
@@ -497,12 +455,10 @@ export default {
         "rather than"
       ],
       "optionReasons": {
-        "rather-mcq-05": "本句指「引出被排除或取代的選項；而不是／而非」。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-07": "「表示希望另一個人現在或將來採取某種行動」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-05": "本句的「rather than」指「引出被排除或取代的選項；而不是／而非」。",
+        "rather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-05"
     },
@@ -514,11 +470,9 @@ export default {
       "masked": "The change did not simplify the process. ____, it made it more complicated.",
       "options": [
         "rather-mcq-06",
-        "rather-mcq-05",
-        "rather-mcq-07",
-        "rather-mcq-04",
-        "rather-mcq-03",
-        "rather-mcq-02"
+        "rather-mcq-01",
+        "rather-mcq-02",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「Rather」指「否定前一說法並提出更準確或相反的內容；反而／相反地」。",
       "sentenceIndex": 11,
@@ -527,12 +481,10 @@ export default {
         "Rather"
       ],
       "optionReasons": {
-        "rather-mcq-06": "本句指「否定前一說法並提出更準確或相反的內容；反而／相反地」。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-07": "「表示希望另一個人現在或將來採取某種行動」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-06": "本句的「Rather」指「否定前一說法並提出更準確或相反的內容；反而／相反地」。",
+        "rather-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-06"
     },
@@ -544,11 +496,9 @@ export default {
       "masked": "He was not angry. ____, he seemed disappointed.",
       "options": [
         "rather-mcq-06",
-        "rather-mcq-05",
         "rather-mcq-07",
-        "rather-mcq-04",
-        "rather-mcq-03",
-        "rather-mcq-02"
+        "rather-mcq-02",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「Rather」指「否定前一說法並提出更準確或相反的內容；反而／相反地」。",
       "sentenceIndex": 12,
@@ -557,12 +507,10 @@ export default {
         "Rather"
       ],
       "optionReasons": {
-        "rather-mcq-06": "本句指「否定前一說法並提出更準確或相反的內容；反而／相反地」。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-07": "「表示希望另一個人現在或將來採取某種行動」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-06": "本句的「Rather」指「否定前一說法並提出更準確或相反的內容；反而／相反地」。",
+        "rather-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-06"
     },
@@ -574,11 +522,9 @@ export default {
       "masked": "It was ____.",
       "options": [
         "rather-mcq-07",
+        "rather-mcq-02",
         "rather-mcq-06",
-        "rather-mcq-05",
-        "rather-mcq-04",
-        "rather-mcq-03",
-        "rather-mcq-02"
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather a strange experience」指「表示希望另一個人現在或將來採取某種行動」。",
       "sentenceIndex": 13,
@@ -587,12 +533,10 @@ export default {
         "rather a strange experience"
       ],
       "optionReasons": {
-        "rather-mcq-07": "本句指「表示希望另一個人現在或將來採取某種行動」。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-07": "本句的「rather a strange experience」指「表示希望另一個人現在或將來採取某種行動」。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-07"
     },
@@ -604,11 +548,9 @@ export default {
       "masked": "That was ____.",
       "options": [
         "rather-mcq-07",
+        "rather-mcq-02",
         "rather-mcq-06",
-        "rather-mcq-05",
-        "rather-mcq-04",
-        "rather-mcq-03",
-        "rather-mcq-02"
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather a difficult question」指「表示希望另一個人現在或將來採取某種行動」。",
       "sentenceIndex": 14,
@@ -617,12 +559,10 @@ export default {
         "rather a difficult question"
       ],
       "optionReasons": {
-        "rather-mcq-07": "本句指「表示希望另一個人現在或將來採取某種行動」。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-07": "本句的「rather a difficult question」指「表示希望另一個人現在或將來採取某種行動」。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-07"
     },
@@ -635,10 +575,8 @@ export default {
       "options": [
         "rather-mcq-07",
         "rather-mcq-06",
-        "rather-mcq-05",
-        "rather-mcq-04",
         "rather-mcq-03",
-        "rather-mcq-02"
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather you waited」指「表示希望另一個人現在或將來採取某種行動」。",
       "sentenceIndex": 15,
@@ -647,12 +585,10 @@ export default {
         "rather you waited"
       ],
       "optionReasons": {
-        "rather-mcq-07": "本句指「表示希望另一個人現在或將來採取某種行動」。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-07": "本句的「rather you waited」指「表示希望另一個人現在或將來採取某種行動」。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-07"
     },
@@ -665,10 +601,8 @@ export default {
       "options": [
         "rather-mcq-07",
         "rather-mcq-06",
-        "rather-mcq-05",
-        "rather-mcq-04",
-        "rather-mcq-03",
-        "rather-mcq-02"
+        "rather-mcq-02",
+        "rather-mcq-05"
       ],
       "explanation": "本句的「rather he didn’t mention」指「表示希望另一個人現在或將來採取某種行動」。",
       "sentenceIndex": 16,
@@ -677,12 +611,10 @@ export default {
         "rather he didn’t mention"
       ],
       "optionReasons": {
-        "rather-mcq-07": "本句指「表示希望另一個人現在或將來採取某種行動」。",
-        "rather-mcq-06": "「否定前一說法並提出更準確或相反的內容；反而／相反地」與本句語境不同。",
-        "rather-mcq-05": "「引出被排除或取代的選項；而不是／而非」與本句語境不同。",
-        "rather-mcq-04": "「修正或精確化剛才的說法；更確切地說」與本句語境不同。",
-        "rather-mcq-03": "「表示程度比預期更高，常帶輕微驚訝；屬於 degree 義」與本句語境不同。",
-        "rather-mcq-02": "「表示某種特質或程度相當明顯；相當、頗、有點」與本句語境不同。"
+        "rather-mcq-07": "本句的「rather he didn’t mention」指「表示希望另一個人現在或將來採取某種行動」。",
+        "rather-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "rather-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rather-mcq-07"
     }
@@ -694,5 +626,7 @@ export default {
     "sha256": "50bd3946bc5a687c7b04ab6f06f69f74704cfcaad4f81b72aca492ea5bc59baa",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

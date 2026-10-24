@@ -328,10 +328,8 @@ export default {
       "options": [
         "now-mcq-01",
         "now-mcq-02",
-        "now-mcq-03",
-        "now-mcq-04",
-        "now-mcq-05",
-        "now-mcq-06"
+        "now-mcq-11",
+        "now-pdf-001"
       ],
       "explanation": "本句的「now」指「在說話或寫作所指的目前這個時間／階段」。",
       "sentenceIndex": 0,
@@ -340,12 +338,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-01": "本句指「在說話或寫作所指的目前這個時間／階段」。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-01": "本句的「now」指「在說話或寫作所指的目前這個時間／階段」。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-01"
     },
@@ -357,11 +353,9 @@ export default {
       "masked": "I work from home ____.",
       "options": [
         "now-mcq-01",
-        "now-mcq-02",
-        "now-mcq-03",
-        "now-mcq-04",
         "now-mcq-05",
-        "now-mcq-06"
+        "now-mcq-11",
+        "now-pdf-001"
       ],
       "explanation": "本句的「now」指「在說話或寫作所指的目前這個時間／階段」。",
       "sentenceIndex": 1,
@@ -370,12 +364,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-01": "本句指「在說話或寫作所指的目前這個時間／階段」。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-01": "本句的「now」指「在說話或寫作所指的目前這個時間／階段」。",
+        "now-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-01"
     },
@@ -387,11 +379,9 @@ export default {
       "masked": "The café is much busier ____.",
       "options": [
         "now-mcq-01",
-        "now-mcq-02",
-        "now-mcq-03",
-        "now-mcq-04",
-        "now-mcq-05",
-        "now-mcq-06"
+        "now-mcq-09",
+        "now-mcq-11",
+        "now-pdf-001"
       ],
       "explanation": "本句的「now」指「在說話或寫作所指的目前這個時間／階段」。",
       "sentenceIndex": 2,
@@ -400,12 +390,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-01": "本句指「在說話或寫作所指的目前這個時間／階段」。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-01": "本句的「now」指「在說話或寫作所指的目前這個時間／階段」。",
+        "now-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-01"
     },
@@ -417,11 +405,9 @@ export default {
       "masked": "We need to leave ____.",
       "options": [
         "now-mcq-02",
-        "now-mcq-01",
-        "now-mcq-03",
-        "now-mcq-04",
-        "now-mcq-05",
-        "now-mcq-06"
+        "now-mcq-07",
+        "now-mcq-08",
+        "now-mcq-04"
       ],
       "explanation": "本句的「now」指「不作延遲，在這一刻立即採取行動」。",
       "sentenceIndex": 3,
@@ -430,12 +416,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-02": "本句指「不作延遲，在這一刻立即採取行動」。",
-        "now-mcq-01": "「在說話或寫作所指的目前這個時間／階段」是「now — present time」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-02": "本句的「now」指「不作延遲，在這一刻立即採取行動」。",
+        "now-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-02"
     },
@@ -447,11 +431,9 @@ export default {
       "masked": "Do it ____, not later.",
       "options": [
         "now-mcq-02",
-        "now-mcq-01",
-        "now-mcq-03",
-        "now-mcq-04",
-        "now-mcq-05",
-        "now-mcq-06"
+        "now-mcq-11",
+        "now-mcq-13",
+        "now-mcq-08"
       ],
       "explanation": "本句的「now」指「不作延遲，在這一刻立即採取行動」。",
       "sentenceIndex": 4,
@@ -460,12 +442,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-02": "本句指「不作延遲，在這一刻立即採取行動」。",
-        "now-mcq-01": "「在說話或寫作所指的目前這個時間／階段」是「now — present time」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-02": "本句的「now」指「不作延遲，在這一刻立即採取行動」。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-02"
     },
@@ -477,11 +457,9 @@ export default {
       "masked": "I didn’t understand it before, but ____ I do.",
       "options": [
         "now-mcq-03",
-        "now-mcq-02",
-        "now-mcq-04",
-        "now-mcq-01",
-        "now-mcq-05",
-        "now-mcq-06"
+        "now-mcq-09",
+        "now-pdf-001",
+        "now-mcq-04"
       ],
       "explanation": "本句的「now」指「經過先前狀態或情況改變後，到目前已經呈現的新狀況」。",
       "sentenceIndex": 5,
@@ -490,12 +468,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-03": "本句指「經過先前狀態或情況改變後，到目前已經呈現的新狀況」。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-01": "「在說話或寫作所指的目前這個時間／階段」是「now — present time」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-03": "本句的「now」指「經過先前狀態或情況改變後，到目前已經呈現的新狀況」。",
+        "now-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-03"
     },
@@ -509,9 +485,7 @@ export default {
         "now-mcq-03",
         "now-mcq-02",
         "now-mcq-04",
-        "now-mcq-01",
-        "now-mcq-05",
-        "now-mcq-06"
+        "now-pdf-001"
       ],
       "explanation": "本句的「now」指「經過先前狀態或情況改變後，到目前已經呈現的新狀況」。",
       "sentenceIndex": 6,
@@ -520,12 +494,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-03": "本句指「經過先前狀態或情況改變後，到目前已經呈現的新狀況」。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-01": "「在說話或寫作所指的目前這個時間／階段」是「now — present time」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-03": "本句的「now」指「經過先前狀態或情況改變後，到目前已經呈現的新狀況」。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-03"
     },
@@ -537,11 +509,9 @@ export default {
       "masked": "____, let’s look at the second example.",
       "options": [
         "now-mcq-04",
-        "now-mcq-03",
-        "now-mcq-05",
-        "now-mcq-02",
-        "now-mcq-06",
-        "now-mcq-01"
+        "now-mcq-11",
+        "now-mcq-13",
+        "now-pdf-001"
       ],
       "explanation": "本句的「Now」指「用來引出下一個話題、步驟、說明或重點」。",
       "sentenceIndex": 7,
@@ -550,12 +520,10 @@ export default {
         "Now"
       ],
       "optionReasons": {
-        "now-mcq-04": "本句指「用來引出下一個話題、步驟、說明或重點」。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-01": "「在說話或寫作所指的目前這個時間／階段」是「now — present time」的用法，與本句語境不同。"
+        "now-mcq-04": "本句的「Now」指「用來引出下一個話題、步驟、說明或重點」。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-04"
     },
@@ -567,11 +535,9 @@ export default {
       "masked": "____, there is one important point to remember.",
       "options": [
         "now-mcq-04",
-        "now-mcq-03",
-        "now-mcq-05",
         "now-mcq-02",
-        "now-mcq-06",
-        "now-mcq-01"
+        "now-pdf-001",
+        "now-mcq-03"
       ],
       "explanation": "本句的「Now」指「用來引出下一個話題、步驟、說明或重點」。",
       "sentenceIndex": 8,
@@ -580,12 +546,10 @@ export default {
         "Now"
       ],
       "optionReasons": {
-        "now-mcq-04": "本句指「用來引出下一個話題、步驟、說明或重點」。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-01": "「在說話或寫作所指的目前這個時間／階段」是「now — present time」的用法，與本句語境不同。"
+        "now-mcq-04": "本句的「Now」指「用來引出下一個話題、步驟、說明或重點」。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-04"
     },
@@ -597,11 +561,9 @@ export default {
       "masked": "____ I have the headphones, travelling is much easier.",
       "options": [
         "now-mcq-05",
-        "now-mcq-04",
-        "now-mcq-06",
-        "now-mcq-03",
-        "now-mcq-07",
-        "now-mcq-02"
+        "now-pdf-001",
+        "now-pdf-002",
+        "now-mcq-06"
       ],
       "explanation": "本句的「Now that」指「某個新情況現在已經成立，因此作出後面的結論／行動」。",
       "sentenceIndex": 9,
@@ -610,12 +572,10 @@ export default {
         "Now that"
       ],
       "optionReasons": {
-        "now-mcq-05": "本句指「某個新情況現在已經成立，因此作出後面的結論／行動」。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。"
+        "now-mcq-05": "本句的「Now that」指「某個新情況現在已經成立，因此作出後面的結論／行動」。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-05"
     },
@@ -627,11 +587,9 @@ export default {
       "masked": "____ the work is finished, we can relax.",
       "options": [
         "now-mcq-05",
-        "now-mcq-04",
         "now-mcq-06",
-        "now-mcq-03",
-        "now-mcq-07",
-        "now-mcq-02"
+        "now-pdf-002",
+        "now-pdf-001"
       ],
       "explanation": "本句的「Now that」指「某個新情況現在已經成立，因此作出後面的結論／行動」。",
       "sentenceIndex": 10,
@@ -640,12 +598,10 @@ export default {
         "Now that"
       ],
       "optionReasons": {
-        "now-mcq-05": "本句指「某個新情況現在已經成立，因此作出後面的結論／行動」。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-02": "「不作延遲，在這一刻立即採取行動」是「now — immediately」的用法，與本句語境不同。"
+        "now-mcq-05": "本句的「Now that」指「某個新情況現在已經成立，因此作出後面的結論／行動」。",
+        "now-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-05"
     },
@@ -657,11 +613,9 @@ export default {
       "masked": "This solution is good enough ____.",
       "options": [
         "now-mcq-06",
-        "now-mcq-05",
-        "now-mcq-07",
-        "now-mcq-04",
-        "now-mcq-08",
-        "now-mcq-03"
+        "now-mcq-02",
+        "now-pdf-001",
+        "now-mcq-11"
       ],
       "explanation": "本句的「for now」指「目前暫時維持某狀態，但將來可能改變」。",
       "sentenceIndex": 11,
@@ -670,12 +624,10 @@ export default {
         "for now"
       ],
       "optionReasons": {
-        "now-mcq-06": "本句指「目前暫時維持某狀態，但將來可能改變」。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。"
+        "now-mcq-06": "本句的「for now」指「目前暫時維持某狀態，但將來可能改變」。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-06"
     },
@@ -687,11 +639,9 @@ export default {
       "masked": "I’ll keep the old laptop ____.",
       "options": [
         "now-mcq-06",
+        "now-mcq-11",
         "now-mcq-05",
-        "now-mcq-07",
-        "now-mcq-04",
-        "now-mcq-08",
-        "now-mcq-03"
+        "now-pdf-001"
       ],
       "explanation": "本句的「for now」指「目前暫時維持某狀態，但將來可能改變」。",
       "sentenceIndex": 12,
@@ -700,12 +650,10 @@ export default {
         "for now"
       ],
       "optionReasons": {
-        "now-mcq-06": "本句指「目前暫時維持某狀態，但將來可能改變」。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-03": "「經過先前狀態或情況改變後，到目前已經呈現的新狀況」是「now — changed situation」的用法，與本句語境不同。"
+        "now-mcq-06": "本句的「for now」指「目前暫時維持某狀態，但將來可能改變」。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-06"
     },
@@ -717,10 +665,8 @@ export default {
       "masked": "She should be home ____.",
       "options": [
         "now-mcq-07",
-        "now-mcq-06",
-        "now-mcq-08",
-        "now-mcq-05",
-        "now-mcq-09",
+        "now-mcq-02",
+        "now-pdf-001",
         "now-mcq-04"
       ],
       "explanation": "本句的「by now」指「截至目前這個時間點，某事預期已經發生」。",
@@ -730,12 +676,10 @@ export default {
         "by now"
       ],
       "optionReasons": {
-        "now-mcq-07": "本句指「截至目前這個時間點，某事預期已經發生」。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。"
+        "now-mcq-07": "本句的「by now」指「截至目前這個時間點，某事預期已經發生」。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-07"
     },
@@ -747,10 +691,8 @@ export default {
       "masked": "You probably know the answer ____.",
       "options": [
         "now-mcq-07",
-        "now-mcq-06",
-        "now-mcq-08",
-        "now-mcq-05",
-        "now-mcq-09",
+        "now-pdf-001",
+        "now-mcq-02",
         "now-mcq-04"
       ],
       "explanation": "本句的「by now」指「截至目前這個時間點，某事預期已經發生」。",
@@ -760,12 +702,10 @@ export default {
         "by now"
       ],
       "optionReasons": {
-        "now-mcq-07": "本句指「截至目前這個時間點，某事預期已經發生」。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-04": "「用來引出下一個話題、步驟、說明或重點」是「now — discourse marker」的用法，與本句語境不同。"
+        "now-mcq-07": "本句的「by now」指「截至目前這個時間點，某事預期已經發生」。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-07"
     },
@@ -777,11 +717,9 @@ export default {
       "masked": "I’ll be more careful ____.",
       "options": [
         "now-mcq-08",
-        "now-mcq-07",
-        "now-mcq-09",
-        "now-mcq-06",
-        "now-mcq-10",
-        "now-mcq-05"
+        "now-mcq-01",
+        "now-mcq-02",
+        "now-pdf-001"
       ],
       "explanation": "本句的「from now on」指「以現在為起點，之後持續如此」。",
       "sentenceIndex": 15,
@@ -790,12 +728,10 @@ export default {
         "from now on"
       ],
       "optionReasons": {
-        "now-mcq-08": "本句指「以現在為起點，之後持續如此」。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。"
+        "now-mcq-08": "本句的「from now on」指「以現在為起點，之後持續如此」。",
+        "now-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-08"
     },
@@ -807,11 +743,9 @@ export default {
       "masked": "From ____ on, all reports must be submitted online.",
       "options": [
         "now-mcq-08",
-        "now-mcq-07",
-        "now-mcq-09",
-        "now-mcq-06",
-        "now-mcq-10",
-        "now-mcq-05"
+        "now-pdf-001",
+        "now-mcq-11",
+        "now-mcq-02"
       ],
       "explanation": "本句的「now」指「以現在為起點，之後持續如此」。",
       "sentenceIndex": 16,
@@ -820,12 +754,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-mcq-08": "本句指「以現在為起點，之後持續如此」。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-05": "「某個新情況現在已經成立，因此作出後面的結論／行動」是「now that」的用法，與本句語境不同。"
+        "now-mcq-08": "本句的「now」指「以現在為起點，之後持續如此」。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-08"
     },
@@ -837,11 +769,9 @@ export default {
       "masked": "I’m busy ____.",
       "options": [
         "now-mcq-09",
-        "now-mcq-08",
-        "now-mcq-10",
+        "now-mcq-04",
         "now-mcq-07",
-        "now-mcq-11",
-        "now-mcq-06"
+        "now-pdf-001"
       ],
       "explanation": "本句的「right now」指「正在此刻；或需要立即、不延遲」。",
       "sentenceIndex": 17,
@@ -850,12 +780,10 @@ export default {
         "right now"
       ],
       "optionReasons": {
-        "now-mcq-09": "本句指「正在此刻；或需要立即、不延遲」。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-09": "本句的「right now」指「正在此刻；或需要立即、不延遲」。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-09"
     },
@@ -867,11 +795,9 @@ export default {
       "masked": "I need an answer ____.",
       "options": [
         "now-mcq-09",
-        "now-mcq-08",
-        "now-mcq-10",
         "now-mcq-07",
-        "now-mcq-11",
-        "now-mcq-06"
+        "now-mcq-04",
+        "now-pdf-001"
       ],
       "explanation": "本句的「right now」指「正在此刻；或需要立即、不延遲」。",
       "sentenceIndex": 18,
@@ -880,12 +806,10 @@ export default {
         "right now"
       ],
       "optionReasons": {
-        "now-mcq-09": "本句指「正在此刻；或需要立即、不延遲」。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-06": "「目前暫時維持某狀態，但將來可能改變」是「for now」的用法，與本句語境不同。"
+        "now-mcq-09": "本句的「right now」指「正在此刻；或需要立即、不延遲」。",
+        "now-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-09"
     },
@@ -897,11 +821,9 @@ export default {
       "masked": "I saw her ____.",
       "options": [
         "now-pdf-001",
+        "now-mcq-01",
         "now-mcq-09",
-        "now-mcq-11",
-        "now-mcq-08",
-        "now-mcq-12",
-        "now-mcq-07"
+        "now-mcq-11"
       ],
       "explanation": "本句的「just now」指「剛才」。",
       "sentenceIndex": 19,
@@ -910,12 +832,10 @@ export default {
         "just now"
       ],
       "optionReasons": {
-        "now-pdf-001": "本句指「剛才」。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。"
+        "now-pdf-001": "本句的「just now」指「剛才」。",
+        "now-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-pdf-001"
     },
@@ -927,11 +847,9 @@ export default {
       "masked": "I can’t talk ____.",
       "options": [
         "now-pdf-001",
-        "now-mcq-09",
-        "now-mcq-11",
-        "now-mcq-08",
-        "now-mcq-12",
-        "now-mcq-07"
+        "now-mcq-07",
+        "now-mcq-02",
+        "now-mcq-08"
       ],
       "explanation": "本句的「just now」指「剛才」。",
       "sentenceIndex": 20,
@@ -940,12 +858,10 @@ export default {
         "just now"
       ],
       "optionReasons": {
-        "now-pdf-001": "本句指「剛才」。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。",
-        "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
-        "now-mcq-07": "「截至目前這個時間點，某事預期已經發生」是「by now」的用法，與本句語境不同。"
+        "now-pdf-001": "本句的「just now」指「剛才」。",
+        "now-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-pdf-001"
     },
@@ -957,11 +873,9 @@ export default {
       "masked": "I still visit that café ____.",
       "options": [
         "now-mcq-11",
-        "now-mcq-10",
-        "now-mcq-12",
-        "now-mcq-09",
-        "now-mcq-13",
-        "now-mcq-08"
+        "now-mcq-04",
+        "now-mcq-02",
+        "now-mcq-13"
       ],
       "explanation": "本句的「now and then」指「並非經常，只是偶爾發生」。",
       "sentenceIndex": 21,
@@ -970,12 +884,10 @@ export default {
         "now and then"
       ],
       "optionReasons": {
-        "now-mcq-11": "本句指「並非經常，只是偶爾發生」。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-13": "「現今這個時代或現代社會中」是「nowadays」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
+        "now-mcq-11": "本句的「now and then」指「並非經常，只是偶爾發生」。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-11"
     },
@@ -987,11 +899,9 @@ export default {
       "masked": "Everyone needs a break ____.",
       "options": [
         "now-mcq-11",
-        "now-mcq-10",
-        "now-mcq-12",
-        "now-mcq-09",
+        "now-mcq-04",
         "now-mcq-13",
-        "now-mcq-08"
+        "now-mcq-06"
       ],
       "explanation": "本句的「now and then」指「並非經常，只是偶爾發生」。",
       "sentenceIndex": 22,
@@ -1000,12 +910,10 @@ export default {
         "now and then"
       ],
       "optionReasons": {
-        "now-mcq-11": "本句指「並非經常，只是偶爾發生」。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-13": "「現今這個時代或現代社會中」是「nowadays」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
+        "now-mcq-11": "本句的「now and then」指「並非經常，只是偶爾發生」。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-11"
     },
@@ -1017,11 +925,9 @@ export default {
       "masked": "Try to live in the ____.",
       "options": [
         "now-pdf-002",
-        "now-mcq-11",
-        "now-mcq-13",
-        "now-mcq-10",
-        "now-mcq-09",
-        "now-mcq-08"
+        "now-pdf-001",
+        "now-mcq-08",
+        "now-mcq-11"
       ],
       "explanation": "本句的「now」指「當前這一刻，被視為一個概念」。",
       "sentenceIndex": 23,
@@ -1030,12 +936,10 @@ export default {
         "now"
       ],
       "optionReasons": {
-        "now-pdf-002": "本句指「當前這一刻，被視為一個概念」。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-13": "「現今這個時代或現代社會中」是「nowadays」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
+        "now-pdf-002": "本句的「now」指「當前這一刻，被視為一個概念」。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-pdf-002"
     },
@@ -1047,11 +951,9 @@ export default {
       "masked": "She tries to focus on the ____.",
       "options": [
         "now-pdf-002",
-        "now-mcq-11",
-        "now-mcq-13",
-        "now-mcq-10",
-        "now-mcq-09",
-        "now-mcq-08"
+        "now-mcq-05",
+        "now-pdf-001",
+        "now-mcq-11"
       ],
       "explanation": "本句的「here and now」指「當前這一刻，被視為一個概念」。",
       "sentenceIndex": 24,
@@ -1060,12 +962,10 @@ export default {
         "here and now"
       ],
       "optionReasons": {
-        "now-pdf-002": "本句指「當前這一刻，被視為一個概念」。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-13": "「現今這個時代或現代社會中」是「nowadays」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
+        "now-pdf-002": "本句的「here and now」指「當前這一刻，被視為一個概念」。",
+        "now-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "now-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-pdf-002"
     },
@@ -1077,11 +977,9 @@ export default {
       "masked": "People use wireless headphones everywhere ____.",
       "options": [
         "now-mcq-13",
-        "now-mcq-12",
-        "now-mcq-11",
-        "now-mcq-10",
+        "now-pdf-002",
         "now-mcq-09",
-        "now-mcq-08"
+        "now-mcq-04"
       ],
       "explanation": "本句的「nowadays」指「現今這個時代或現代社會中」。",
       "sentenceIndex": 25,
@@ -1090,12 +988,10 @@ export default {
         "nowadays"
       ],
       "optionReasons": {
-        "now-mcq-13": "本句指「現今這個時代或現代社會中」。",
-        "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
+        "now-mcq-13": "本句的「nowadays」指「現今這個時代或現代社會中」。",
+        "now-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-13"
     },
@@ -1107,11 +1003,9 @@ export default {
       "masked": "It is much easier to work remotely ____.",
       "options": [
         "now-mcq-13",
-        "now-mcq-12",
+        "now-mcq-02",
         "now-mcq-11",
-        "now-mcq-10",
-        "now-mcq-09",
-        "now-mcq-08"
+        "now-mcq-04"
       ],
       "explanation": "本句的「nowadays」指「現今這個時代或現代社會中」。",
       "sentenceIndex": 26,
@@ -1120,12 +1014,10 @@ export default {
         "nowadays"
       ],
       "optionReasons": {
-        "now-mcq-13": "本句指「現今這個時代或現代社會中」。",
-        "now-mcq-12": "「現實中正在發生的此時此刻／當下」是「the here and now」的用法，與本句語境不同。",
-        "now-mcq-11": "「並非經常，只是偶爾發生」是「now and then」的用法，與本句語境不同。",
-        "now-mcq-10": "「剛才不久；某些語境亦可指此刻」是「just now」的用法，與本句語境不同。",
-        "now-mcq-09": "「正在此刻；或需要立即、不延遲」是「right now」的用法，與本句語境不同。",
-        "now-mcq-08": "「以現在為起點，之後持續如此」是「from now on」的用法，與本句語境不同。"
+        "now-mcq-13": "本句的「nowadays」指「現今這個時代或現代社會中」。",
+        "now-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "now-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "now-mcq-13"
     }
@@ -1137,5 +1029,7 @@ export default {
     "sha256": "b124342f5ab0c508e4087962ee5867a3531a9275d150e6f7eeff8937e5cd4fa1",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

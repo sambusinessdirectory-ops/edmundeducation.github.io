@@ -1605,11 +1605,9 @@ export default {
       "masked": "The employees ____.",
       "options": [
         "negotiate-mcq-02",
-        "negotiate-mcq-01",
-        "negotiate-mcq-03",
-        "negotiate-mcq-04",
-        "negotiate-mcq-05",
-        "negotiate-mcq-06"
+        "negotiate-mcq-35",
+        "negotiate-mcq-22",
+        "negotiate-mcq-32"
       ],
       "explanation": "本句的「negotiated with management」指「與某人／團體進行談判」。",
       "sentenceIndex": 0,
@@ -1618,12 +1616,10 @@ export default {
         "negotiated with management"
       ],
       "optionReasons": {
-        "negotiate-mcq-02": "本句指「與某人／團體進行談判」。",
-        "negotiate-mcq-01": "「與別人討論不同需要／意見，以尋求共同接受的安排；協商」與本句語境不同。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。"
+        "negotiate-mcq-02": "本句的「negotiated with management」指「與某人／團體進行談判」。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-02"
     },
@@ -1635,11 +1631,9 @@ export default {
       "masked": "She was asked to ____.",
       "options": [
         "negotiate-mcq-02",
-        "negotiate-mcq-01",
-        "negotiate-mcq-03",
-        "negotiate-mcq-04",
-        "negotiate-mcq-05",
-        "negotiate-mcq-06"
+        "negotiate-mcq-73",
+        "negotiate-mcq-98",
+        "negotiate-mcq-84"
       ],
       "explanation": "本句的「negotiate with the supplier」指「與某人／團體進行談判」。",
       "sentenceIndex": 1,
@@ -1648,12 +1642,10 @@ export default {
         "negotiate with the supplier"
       ],
       "optionReasons": {
-        "negotiate-mcq-02": "本句指「與某人／團體進行談判」。",
-        "negotiate-mcq-01": "「與別人討論不同需要／意見，以尋求共同接受的安排；協商」與本句語境不同。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。"
+        "negotiate-mcq-02": "本句的「negotiate with the supplier」指「與某人／團體進行談判」。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-02"
     },
@@ -1665,11 +1657,9 @@ export default {
       "masked": "The two sides ____.",
       "options": [
         "negotiate-mcq-03",
-        "negotiate-mcq-02",
-        "negotiate-mcq-04",
-        "negotiate-mcq-01",
-        "negotiate-mcq-05",
-        "negotiate-mcq-06"
+        "negotiate-mcq-28",
+        "negotiate-mcq-36",
+        "negotiate-mcq-44"
       ],
       "explanation": "本句的「negotiated over the price」指「就某個有分歧的議題協商」。",
       "sentenceIndex": 2,
@@ -1678,12 +1668,10 @@ export default {
         "negotiated over the price"
       ],
       "optionReasons": {
-        "negotiate-mcq-03": "本句指「就某個有分歧的議題協商」。",
-        "negotiate-mcq-02": "「與某人／團體進行談判」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-01": "「與別人討論不同需要／意見，以尋求共同接受的安排；協商」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。"
+        "negotiate-mcq-03": "本句的「negotiated over the price」指「就某個有分歧的議題協商」。",
+        "negotiate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-03"
     },
@@ -1695,11 +1683,9 @@ export default {
       "masked": "They are still ____.",
       "options": [
         "negotiate-mcq-03",
-        "negotiate-mcq-02",
-        "negotiate-mcq-04",
-        "negotiate-mcq-01",
-        "negotiate-mcq-05",
-        "negotiate-mcq-06"
+        "negotiate-mcq-50",
+        "negotiate-mcq-32",
+        "negotiate-mcq-31"
       ],
       "explanation": "本句的「negotiating over working hours」指「就某個有分歧的議題協商」。",
       "sentenceIndex": 3,
@@ -1708,12 +1694,10 @@ export default {
         "negotiating over working hours"
       ],
       "optionReasons": {
-        "negotiate-mcq-03": "本句指「就某個有分歧的議題協商」。",
-        "negotiate-mcq-02": "「與某人／團體進行談判」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-01": "「與別人討論不同需要／意見，以尋求共同接受的安排；協商」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。"
+        "negotiate-mcq-03": "本句的「negotiating over working hours」指「就某個有分歧的議題協商」。",
+        "negotiate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-03"
     },
@@ -1725,11 +1709,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "negotiate-mcq-04",
-        "negotiate-mcq-03",
-        "negotiate-mcq-05",
-        "negotiate-mcq-02",
-        "negotiate-mcq-06",
-        "negotiate-mcq-01"
+        "negotiate-mcq-37",
+        "negotiate-mcq-90",
+        "negotiate-mcq-27"
       ],
       "explanation": "本句的「negotiated for a higher salary」指「透過談判爭取某項利益／結果」。",
       "sentenceIndex": 4,
@@ -1738,12 +1720,10 @@ export default {
         "negotiated for a higher salary"
       ],
       "optionReasons": {
-        "negotiate-mcq-04": "本句指「透過談判爭取某項利益／結果」。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-02": "「與某人／團體進行談判」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-01": "「與別人討論不同需要／意見，以尋求共同接受的安排；協商」與本句語境不同。"
+        "negotiate-mcq-04": "本句的「negotiated for a higher salary」指「透過談判爭取某項利益／結果」。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-04"
     },
@@ -1755,11 +1735,9 @@ export default {
       "masked": "The union ____.",
       "options": [
         "negotiate-mcq-04",
-        "negotiate-mcq-03",
-        "negotiate-mcq-05",
-        "negotiate-mcq-02",
-        "negotiate-mcq-06",
-        "negotiate-mcq-01"
+        "negotiate-mcq-12",
+        "negotiate-mcq-37",
+        "negotiate-mcq-27"
       ],
       "explanation": "本句的「negotiated for better conditions」指「透過談判爭取某項利益／結果」。",
       "sentenceIndex": 5,
@@ -1768,12 +1746,10 @@ export default {
         "negotiated for better conditions"
       ],
       "optionReasons": {
-        "negotiate-mcq-04": "本句指「透過談判爭取某項利益／結果」。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-02": "「與某人／團體進行談判」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-01": "「與別人討論不同需要／意見，以尋求共同接受的安排；協商」與本句語境不同。"
+        "negotiate-mcq-04": "本句的「negotiated for better conditions」指「透過談判爭取某項利益／結果」。",
+        "negotiate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-04"
     },
@@ -1785,11 +1761,9 @@ export default {
       "masked": "We still need to ____.",
       "options": [
         "negotiate-mcq-05",
-        "negotiate-mcq-04",
-        "negotiate-mcq-06",
-        "negotiate-mcq-03",
-        "negotiate-mcq-07",
-        "negotiate-mcq-02"
+        "negotiate-mcq-36",
+        "negotiate-mcq-97",
+        "negotiate-mcq-38"
       ],
       "explanation": "本句的「negotiate the terms」指「協商協議／交易的條款」。",
       "sentenceIndex": 6,
@@ -1798,12 +1772,10 @@ export default {
         "negotiate the terms"
       ],
       "optionReasons": {
-        "negotiate-mcq-05": "本句指「協商協議／交易的條款」。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-02": "「與某人／團體進行談判」與本句語境不同。"
+        "negotiate-mcq-05": "本句的「negotiate the terms」指「協商協議／交易的條款」。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-05"
     },
@@ -1816,10 +1788,8 @@ export default {
       "options": [
         "negotiate-mcq-05",
         "negotiate-mcq-04",
-        "negotiate-mcq-06",
-        "negotiate-mcq-03",
-        "negotiate-mcq-07",
-        "negotiate-mcq-02"
+        "negotiate-mcq-98",
+        "negotiate-mcq-36"
       ],
       "explanation": "本句的「negotiating contract terms」指「協商協議／交易的條款」。",
       "sentenceIndex": 7,
@@ -1828,12 +1798,10 @@ export default {
         "negotiating contract terms"
       ],
       "optionReasons": {
-        "negotiate-mcq-05": "本句指「協商協議／交易的條款」。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-02": "「與某人／團體進行談判」與本句語境不同。"
+        "negotiate-mcq-05": "本句的「negotiating contract terms」指「協商協議／交易的條款」。",
+        "negotiate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-05"
     },
@@ -1845,11 +1813,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "negotiate-mcq-06",
-        "negotiate-mcq-05",
-        "negotiate-mcq-07",
-        "negotiate-mcq-04",
-        "negotiate-mcq-08",
-        "negotiate-mcq-03"
+        "negotiate-mcq-26",
+        "negotiate-mcq-73",
+        "negotiate-mcq-40"
       ],
       "explanation": "本句的「negotiated a better deal」指「透過談判安排／談成一宗交易」。",
       "sentenceIndex": 8,
@@ -1858,12 +1824,10 @@ export default {
         "negotiated a better deal"
       ],
       "optionReasons": {
-        "negotiate-mcq-06": "本句指「透過談判安排／談成一宗交易」。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-08": "「討論並談妥合約條款」與本句語境不同。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。"
+        "negotiate-mcq-06": "本句的「negotiated a better deal」指「透過談判安排／談成一宗交易」。",
+        "negotiate-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-06"
     },
@@ -1875,11 +1839,9 @@ export default {
       "masked": "The companies are trying to ____.",
       "options": [
         "negotiate-mcq-06",
-        "negotiate-mcq-05",
-        "negotiate-mcq-07",
-        "negotiate-mcq-04",
-        "negotiate-mcq-08",
-        "negotiate-mcq-03"
+        "negotiate-mcq-12",
+        "negotiate-mcq-22",
+        "negotiate-mcq-82"
       ],
       "explanation": "本句的「negotiate a deal」指「透過談判安排／談成一宗交易」。",
       "sentenceIndex": 9,
@@ -1888,12 +1850,10 @@ export default {
         "negotiate a deal"
       ],
       "optionReasons": {
-        "negotiate-mcq-06": "本句指「透過談判安排／談成一宗交易」。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。",
-        "negotiate-mcq-08": "「討論並談妥合約條款」與本句語境不同。",
-        "negotiate-mcq-03": "「就某個有分歧的議題協商」與本句語境不同。"
+        "negotiate-mcq-06": "本句的「negotiate a deal」指「透過談判安排／談成一宗交易」。",
+        "negotiate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-06"
     },
@@ -1905,11 +1865,9 @@ export default {
       "masked": "The parties ____.",
       "options": [
         "negotiate-mcq-07",
-        "negotiate-mcq-06",
+        "negotiate-mcq-44",
         "negotiate-mcq-08",
-        "negotiate-mcq-05",
-        "negotiate-mcq-09",
-        "negotiate-mcq-04"
+        "negotiate-mcq-49"
       ],
       "explanation": "本句的「negotiated an agreement」指「透過協商達成協議」。",
       "sentenceIndex": 10,
@@ -1918,12 +1876,10 @@ export default {
         "negotiated an agreement"
       ],
       "optionReasons": {
-        "negotiate-mcq-07": "本句指「透過協商達成協議」。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-08": "「討論並談妥合約條款」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。",
-        "negotiate-mcq-04": "「透過談判爭取某項利益／結果」與本句語境不同。"
+        "negotiate-mcq-07": "本句的「negotiated an agreement」指「透過協商達成協議」。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-07"
     },
@@ -1935,11 +1891,9 @@ export default {
       "masked": "Lawyers helped ____.",
       "options": [
         "negotiate-mcq-08",
-        "negotiate-mcq-07",
-        "negotiate-mcq-09",
-        "negotiate-mcq-06",
-        "negotiate-mcq-10",
-        "negotiate-mcq-05"
+        "negotiate-mcq-03",
+        "negotiate-mcq-14",
+        "negotiate-mcq-32"
       ],
       "explanation": "本句的「negotiate the contract」指「討論並談妥合約條款」。",
       "sentenceIndex": 11,
@@ -1948,12 +1902,10 @@ export default {
         "negotiate the contract"
       ],
       "optionReasons": {
-        "negotiate-mcq-08": "本句指「討論並談妥合約條款」。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。"
+        "negotiate-mcq-08": "本句的「negotiate the contract」指「討論並談妥合約條款」。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-08"
     },
@@ -1965,11 +1917,9 @@ export default {
       "masked": "She successfully ____.",
       "options": [
         "negotiate-mcq-08",
-        "negotiate-mcq-07",
-        "negotiate-mcq-09",
-        "negotiate-mcq-06",
-        "negotiate-mcq-10",
-        "negotiate-mcq-05"
+        "negotiate-mcq-39",
+        "negotiate-mcq-03",
+        "negotiate-mcq-41"
       ],
       "explanation": "本句的「negotiated a new contract」指「討論並談妥合約條款」。",
       "sentenceIndex": 12,
@@ -1978,12 +1928,10 @@ export default {
         "negotiated a new contract"
       ],
       "optionReasons": {
-        "negotiate-mcq-08": "本句指「討論並談妥合約條款」。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-05": "「協商協議／交易的條款」與本句語境不同。"
+        "negotiate-mcq-08": "本句的「negotiated a new contract」指「討論並談妥合約條款」。",
+        "negotiate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-08"
     },
@@ -1995,11 +1943,9 @@ export default {
       "masked": "The parties ____.",
       "options": [
         "negotiate-mcq-09",
-        "negotiate-mcq-08",
-        "negotiate-mcq-10",
-        "negotiate-mcq-07",
-        "negotiate-mcq-11",
-        "negotiate-mcq-06"
+        "negotiate-mcq-36",
+        "negotiate-mcq-24",
+        "negotiate-mcq-44"
       ],
       "explanation": "本句的「negotiated a settlement」指「透過談判達成和解」。",
       "sentenceIndex": 13,
@@ -2008,12 +1954,10 @@ export default {
         "negotiated a settlement"
       ],
       "optionReasons": {
-        "negotiate-mcq-09": "本句指「透過談判達成和解」。",
-        "negotiate-mcq-08": "「討論並談妥合約條款」與本句語境不同。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-07": "「透過協商達成協議」與本句語境不同。",
-        "negotiate-mcq-11": "「討論價格並尋求雙方接受的金額；議價」與本句語境不同。",
-        "negotiate-mcq-06": "「透過談判安排／談成一宗交易」與本句語境不同。"
+        "negotiate-mcq-09": "本句的「negotiated a settlement」指「透過談判達成和解」。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-09"
     },
@@ -2025,11 +1969,9 @@ export default {
       "masked": "You may be able to ____.",
       "options": [
         "negotiate-mcq-11",
-        "negotiate-mcq-10",
-        "negotiate-mcq-12",
-        "negotiate-mcq-09",
-        "negotiate-mcq-13",
-        "negotiate-mcq-08"
+        "negotiate-mcq-66",
+        "negotiate-mcq-97",
+        "negotiate-mcq-73"
       ],
       "explanation": "本句的「negotiate the price」指「討論價格並尋求雙方接受的金額；議價」。",
       "sentenceIndex": 14,
@@ -2038,12 +1980,10 @@ export default {
         "negotiate the price"
       ],
       "optionReasons": {
-        "negotiate-mcq-11": "本句指「討論價格並尋求雙方接受的金額；議價」。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-12": "「與僱主協商薪酬」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。",
-        "negotiate-mcq-13": "「協商費率／利率／租金等」與本句語境不同。",
-        "negotiate-mcq-08": "「討論並談妥合約條款」與本句語境不同。"
+        "negotiate-mcq-11": "本句的「negotiate the price」指「討論價格並尋求雙方接受的金額；議價」。",
+        "negotiate-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-11"
     },
@@ -2055,11 +1995,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "negotiate-mcq-11",
-        "negotiate-mcq-10",
-        "negotiate-mcq-12",
-        "negotiate-mcq-09",
-        "negotiate-mcq-13",
-        "negotiate-mcq-08"
+        "negotiate-mcq-35",
+        "negotiate-mcq-97",
+        "negotiate-mcq-63"
       ],
       "explanation": "本句的「negotiated a lower price」指「討論價格並尋求雙方接受的金額；議價」。",
       "sentenceIndex": 15,
@@ -2068,12 +2006,10 @@ export default {
         "negotiated a lower price"
       ],
       "optionReasons": {
-        "negotiate-mcq-11": "本句指「討論價格並尋求雙方接受的金額；議價」。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-12": "「與僱主協商薪酬」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。",
-        "negotiate-mcq-13": "「協商費率／利率／租金等」與本句語境不同。",
-        "negotiate-mcq-08": "「討論並談妥合約條款」與本句語境不同。"
+        "negotiate-mcq-11": "本句的「negotiated a lower price」指「討論價格並尋求雙方接受的金額；議價」。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-11"
     },
@@ -2085,11 +2021,9 @@ export default {
       "masked": "She learned how to ____.",
       "options": [
         "negotiate-mcq-12",
-        "negotiate-mcq-11",
-        "negotiate-mcq-13",
-        "negotiate-mcq-10",
-        "negotiate-mcq-14",
-        "negotiate-mcq-09"
+        "negotiate-mcq-35",
+        "negotiate-mcq-50",
+        "negotiate-mcq-36"
       ],
       "explanation": "本句的「negotiate her salary」指「與僱主協商薪酬」。",
       "sentenceIndex": 16,
@@ -2098,12 +2032,10 @@ export default {
         "negotiate her salary"
       ],
       "optionReasons": {
-        "negotiate-mcq-12": "本句指「與僱主協商薪酬」。",
-        "negotiate-mcq-11": "「討論價格並尋求雙方接受的金額；議價」與本句語境不同。",
-        "negotiate-mcq-13": "「協商費率／利率／租金等」與本句語境不同。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-14": "「透過議價取得折扣」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。"
+        "negotiate-mcq-12": "本句的「negotiate her salary」指「與僱主協商薪酬」。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-12"
     },
@@ -2115,11 +2047,9 @@ export default {
       "masked": "Candidates may be able to ____.",
       "options": [
         "negotiate-mcq-12",
-        "negotiate-mcq-11",
-        "negotiate-mcq-13",
-        "negotiate-mcq-10",
-        "negotiate-mcq-14",
-        "negotiate-mcq-09"
+        "negotiate-mcq-31",
+        "negotiate-mcq-08",
+        "negotiate-mcq-35"
       ],
       "explanation": "本句的「negotiate a higher starting salary」指「與僱主協商薪酬」。",
       "sentenceIndex": 17,
@@ -2128,12 +2058,10 @@ export default {
         "negotiate a higher starting salary"
       ],
       "optionReasons": {
-        "negotiate-mcq-12": "本句指「與僱主協商薪酬」。",
-        "negotiate-mcq-11": "「討論價格並尋求雙方接受的金額；議價」與本句語境不同。",
-        "negotiate-mcq-13": "「協商費率／利率／租金等」與本句語境不同。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。",
-        "negotiate-mcq-14": "「透過議價取得折扣」與本句語境不同。",
-        "negotiate-mcq-09": "「透過談判達成和解」與本句語境不同。"
+        "negotiate-mcq-12": "本句的「negotiate a higher starting salary」指「與僱主協商薪酬」。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-12"
     },
@@ -2145,11 +2073,9 @@ export default {
       "masked": "We ____ with the hotel.",
       "options": [
         "negotiate-mcq-13",
-        "negotiate-mcq-12",
-        "negotiate-mcq-14",
-        "negotiate-mcq-11",
-        "negotiate-mcq-15",
-        "negotiate-mcq-10"
+        "negotiate-mcq-44",
+        "negotiate-mcq-36",
+        "negotiate-mcq-46"
       ],
       "explanation": "本句的「negotiated a lower rate」指「協商費率／利率／租金等」。",
       "sentenceIndex": 18,
@@ -2158,12 +2084,10 @@ export default {
         "negotiated a lower rate"
       ],
       "optionReasons": {
-        "negotiate-mcq-13": "本句指「協商費率／利率／租金等」。",
-        "negotiate-mcq-12": "「與僱主協商薪酬」與本句語境不同。",
-        "negotiate-mcq-14": "「透過議價取得折扣」與本句語境不同。",
-        "negotiate-mcq-11": "「討論價格並尋求雙方接受的金額；議價」與本句語境不同。",
-        "negotiate-mcq-15": "「協商付款日期、方式等條件」與本句語境不同。",
-        "negotiate-mcq-10": "「透過正式談判制定／達成條約」與本句語境不同。"
+        "negotiate-mcq-13": "本句的「negotiated a lower rate」指「協商費率／利率／租金等」。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-13"
     },
@@ -2175,11 +2099,9 @@ export default {
       "masked": "The buyer ____.",
       "options": [
         "negotiate-mcq-14",
-        "negotiate-mcq-13",
-        "negotiate-mcq-15",
-        "negotiate-mcq-12",
-        "negotiate-mcq-16",
-        "negotiate-mcq-11"
+        "negotiate-mcq-68",
+        "negotiate-mcq-90",
+        "negotiate-mcq-08"
       ],
       "explanation": "本句的「negotiated a 10% discount」指「透過議價取得折扣」。",
       "sentenceIndex": 19,
@@ -2188,12 +2110,10 @@ export default {
         "negotiated a 10% discount"
       ],
       "optionReasons": {
-        "negotiate-mcq-14": "本句指「透過議價取得折扣」。",
-        "negotiate-mcq-13": "「協商費率／利率／租金等」與本句語境不同。",
-        "negotiate-mcq-15": "「協商付款日期、方式等條件」與本句語境不同。",
-        "negotiate-mcq-12": "「與僱主協商薪酬」與本句語境不同。",
-        "negotiate-mcq-16": "「與貸方洽談並安排貸款條件」與本句語境不同。",
-        "negotiate-mcq-11": "「討論價格並尋求雙方接受的金額；議價」與本句語境不同。"
+        "negotiate-mcq-14": "本句的「negotiated a 10% discount」指「透過議價取得折扣」。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-14"
     },
@@ -2205,11 +2125,9 @@ export default {
       "masked": "The company ____ with the bank.",
       "options": [
         "negotiate-mcq-16",
-        "negotiate-mcq-15",
-        "negotiate-mcq-17",
-        "negotiate-mcq-14",
-        "negotiate-mcq-18",
-        "negotiate-mcq-13"
+        "negotiate-mcq-22",
+        "negotiate-mcq-13",
+        "negotiate-mcq-38"
       ],
       "explanation": "本句的「negotiated a new loan」指「與貸方洽談並安排貸款條件」。",
       "sentenceIndex": 20,
@@ -2218,12 +2136,10 @@ export default {
         "negotiated a new loan"
       ],
       "optionReasons": {
-        "negotiate-mcq-16": "本句指「與貸方洽談並安排貸款條件」。",
-        "negotiate-mcq-15": "「協商付款日期、方式等條件」與本句語境不同。",
-        "negotiate-mcq-17": "「洽談並安排買賣交易」與本句語境不同。",
-        "negotiate-mcq-14": "「透過議價取得折扣」與本句語境不同。",
-        "negotiate-mcq-18": "「協商租約條款」與本句語境不同。",
-        "negotiate-mcq-13": "「協商費率／利率／租金等」與本句語境不同。"
+        "negotiate-mcq-16": "本句的「negotiated a new loan」指「與貸方洽談並安排貸款條件」。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-16"
     },
@@ -2235,11 +2151,9 @@ export default {
       "masked": "The agent helped ____.",
       "options": [
         "negotiate-mcq-17",
-        "negotiate-mcq-16",
-        "negotiate-mcq-18",
-        "negotiate-mcq-15",
-        "negotiate-mcq-19",
-        "negotiate-mcq-14"
+        "negotiate-mcq-63",
+        "negotiate-mcq-98",
+        "negotiate-mcq-86"
       ],
       "explanation": "本句的「negotiate the sale」指「洽談並安排買賣交易」。",
       "sentenceIndex": 21,
@@ -2248,12 +2162,10 @@ export default {
         "negotiate the sale"
       ],
       "optionReasons": {
-        "negotiate-mcq-17": "本句指「洽談並安排買賣交易」。",
-        "negotiate-mcq-16": "「與貸方洽談並安排貸款條件」與本句語境不同。",
-        "negotiate-mcq-18": "「協商租約條款」與本句語境不同。",
-        "negotiate-mcq-15": "「協商付款日期、方式等條件」與本句語境不同。",
-        "negotiate-mcq-19": "「代表另一人／團體參與談判」與本句語境不同。",
-        "negotiate-mcq-14": "「透過議價取得折扣」與本句語境不同。"
+        "negotiate-mcq-17": "本句的「negotiate the sale」指「洽談並安排買賣交易」。",
+        "negotiate-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-17"
     },
@@ -2265,11 +2177,9 @@ export default {
       "masked": "They are ____.",
       "options": [
         "negotiate-mcq-18",
-        "negotiate-mcq-17",
-        "negotiate-mcq-19",
-        "negotiate-mcq-16",
-        "negotiate-mcq-20",
-        "negotiate-mcq-15"
+        "negotiate-mcq-89",
+        "negotiate-mcq-39",
+        "negotiate-mcq-73"
       ],
       "explanation": "本句的「negotiating a new lease」指「協商租約條款」。",
       "sentenceIndex": 22,
@@ -2278,12 +2188,10 @@ export default {
         "negotiating a new lease"
       ],
       "optionReasons": {
-        "negotiate-mcq-18": "本句指「協商租約條款」。",
-        "negotiate-mcq-17": "「洽談並安排買賣交易」與本句語境不同。",
-        "negotiate-mcq-19": "「代表另一人／團體參與談判」與本句語境不同。",
-        "negotiate-mcq-16": "「與貸方洽談並安排貸款條件」與本句語境不同。",
-        "negotiate-mcq-20": "「不經中間人而直接談判」與本句語境不同。",
-        "negotiate-mcq-15": "「協商付款日期、方式等條件」與本句語境不同。"
+        "negotiate-mcq-18": "本句的「negotiating a new lease」指「協商租約條款」。",
+        "negotiate-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-18"
     },
@@ -2295,11 +2203,9 @@ export default {
       "masked": "The agent ____.",
       "options": [
         "negotiate-mcq-19",
-        "negotiate-mcq-18",
-        "negotiate-mcq-20",
-        "negotiate-mcq-17",
-        "negotiate-mcq-21",
-        "negotiate-mcq-16"
+        "negotiate-mcq-44",
+        "negotiate-mcq-05",
+        "negotiate-mcq-11"
       ],
       "explanation": "本句的「negotiated on her behalf」指「代表另一人／團體參與談判」。",
       "sentenceIndex": 23,
@@ -2308,12 +2214,10 @@ export default {
         "negotiated on her behalf"
       ],
       "optionReasons": {
-        "negotiate-mcq-19": "本句指「代表另一人／團體參與談判」。",
-        "negotiate-mcq-18": "「協商租約條款」與本句語境不同。",
-        "negotiate-mcq-20": "「不經中間人而直接談判」與本句語境不同。",
-        "negotiate-mcq-17": "「洽談並安排買賣交易」與本句語境不同。",
-        "negotiate-mcq-21": "「真誠、有意尋求協議地談判」與本句語境不同。",
-        "negotiate-mcq-16": "「與貸方洽談並安排貸款條件」與本句語境不同。"
+        "negotiate-mcq-19": "本句的「negotiated on her behalf」指「代表另一人／團體參與談判」。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-19"
     },
@@ -2325,11 +2229,9 @@ export default {
       "masked": "Both parties agreed to ____.",
       "options": [
         "negotiate-mcq-21",
-        "negotiate-mcq-20",
-        "negotiate-mcq-22",
-        "negotiate-mcq-19",
-        "negotiate-mcq-23",
-        "negotiate-mcq-18"
+        "negotiate-mcq-63",
+        "negotiate-mcq-38",
+        "negotiate-mcq-37"
       ],
       "explanation": "本句的「negotiate in good faith」指「真誠、有意尋求協議地談判」。",
       "sentenceIndex": 24,
@@ -2338,12 +2240,10 @@ export default {
         "negotiate in good faith"
       ],
       "optionReasons": {
-        "negotiate-mcq-21": "本句指「真誠、有意尋求協議地談判」。",
-        "negotiate-mcq-20": "「不經中間人而直接談判」與本句語境不同。",
-        "negotiate-mcq-22": "「協調彼此衝突的要求」與本句語境不同。",
-        "negotiate-mcq-19": "「代表另一人／團體參與談判」與本句語境不同。",
-        "negotiate-mcq-23": "「透過互動協調／摸索人際關係的運作方式」與本句語境不同。",
-        "negotiate-mcq-18": "「協商租約條款」與本句語境不同。"
+        "negotiate-mcq-21": "本句的「negotiate in good faith」指「真誠、有意尋求協議地談判」。",
+        "negotiate-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-21"
     },
@@ -2355,11 +2255,9 @@ export default {
       "masked": "She ____ better terms.",
       "options": [
         "negotiate-mcq-21",
-        "negotiate-mcq-20",
-        "negotiate-mcq-22",
-        "negotiate-mcq-19",
-        "negotiate-mcq-23",
-        "negotiate-mcq-18"
+        "negotiate-mcq-27",
+        "negotiate-mcq-34",
+        "negotiate-mcq-98"
       ],
       "explanation": "本句的「successfully negotiated」指「真誠、有意尋求協議地談判」。",
       "sentenceIndex": 25,
@@ -2368,12 +2266,10 @@ export default {
         "successfully negotiated"
       ],
       "optionReasons": {
-        "negotiate-mcq-21": "本句指「真誠、有意尋求協議地談判」。",
-        "negotiate-mcq-20": "「不經中間人而直接談判」與本句語境不同。",
-        "negotiate-mcq-22": "「協調彼此衝突的要求」與本句語境不同。",
-        "negotiate-mcq-19": "「代表另一人／團體參與談判」與本句語境不同。",
-        "negotiate-mcq-23": "「透過互動協調／摸索人際關係的運作方式」與本句語境不同。",
-        "negotiate-mcq-18": "「協商租約條款」與本句語境不同。"
+        "negotiate-mcq-21": "本句的「successfully negotiated」指「真誠、有意尋求協議地談判」。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-21"
     },
@@ -2385,11 +2281,9 @@ export default {
       "masked": "Teachers constantly ____.",
       "options": [
         "negotiate-mcq-22",
-        "negotiate-mcq-21",
-        "negotiate-mcq-23",
-        "negotiate-mcq-20",
-        "negotiate-mcq-24",
-        "negotiate-mcq-19"
+        "negotiate-mcq-41",
+        "negotiate-mcq-73",
+        "negotiate-mcq-92"
       ],
       "explanation": "本句的「negotiate competing demands」指「協調彼此衝突的要求」。",
       "sentenceIndex": 26,
@@ -2398,12 +2292,10 @@ export default {
         "negotiate competing demands"
       ],
       "optionReasons": {
-        "negotiate-mcq-22": "本句指「協調彼此衝突的要求」。",
-        "negotiate-mcq-21": "「真誠、有意尋求協議地談判」與本句語境不同。",
-        "negotiate-mcq-23": "「透過互動協調／摸索人際關係的運作方式」與本句語境不同。",
-        "negotiate-mcq-20": "「不經中間人而直接談判」與本句語境不同。",
-        "negotiate-mcq-24": "「協商彼此角色與分工」與本句語境不同。",
-        "negotiate-mcq-19": "「代表另一人／團體參與談判」與本句語境不同。"
+        "negotiate-mcq-22": "本句的「negotiate competing demands」指「協調彼此衝突的要求」。",
+        "negotiate-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-22"
     },
@@ -2415,11 +2307,9 @@ export default {
       "masked": "Adolescents learn to ____.",
       "options": [
         "negotiate-mcq-23",
-        "negotiate-mcq-22",
-        "negotiate-mcq-24",
-        "negotiate-mcq-21",
-        "negotiate-mcq-25",
-        "negotiate-mcq-20"
+        "negotiate-mcq-16",
+        "negotiate-mcq-43",
+        "negotiate-mcq-02"
       ],
       "explanation": "本句的「negotiate changing relationships」指「透過互動協調／摸索人際關係的運作方式」。",
       "sentenceIndex": 27,
@@ -2428,12 +2318,10 @@ export default {
         "negotiate changing relationships"
       ],
       "optionReasons": {
-        "negotiate-mcq-23": "本句指「透過互動協調／摸索人際關係的運作方式」。",
-        "negotiate-mcq-22": "「協調彼此衝突的要求」與本句語境不同。",
-        "negotiate-mcq-24": "「協商彼此角色與分工」與本句語境不同。",
-        "negotiate-mcq-21": "「真誠、有意尋求協議地談判」與本句語境不同。",
-        "negotiate-mcq-25": "「協商責任如何分配」與本句語境不同。",
-        "negotiate-mcq-20": "「不經中間人而直接談判」與本句語境不同。"
+        "negotiate-mcq-23": "本句的「negotiate changing relationships」指「透過互動協調／摸索人際關係的運作方式」。",
+        "negotiate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-23"
     },
@@ -2445,11 +2333,9 @@ export default {
       "masked": "Team members must ____.",
       "options": [
         "negotiate-mcq-24",
-        "negotiate-mcq-23",
-        "negotiate-mcq-25",
-        "negotiate-mcq-22",
-        "negotiate-mcq-26",
-        "negotiate-mcq-21"
+        "negotiate-mcq-06",
+        "negotiate-mcq-39",
+        "negotiate-mcq-08"
       ],
       "explanation": "本句的「negotiate their roles」指「協商彼此角色與分工」。",
       "sentenceIndex": 28,
@@ -2458,12 +2344,10 @@ export default {
         "negotiate their roles"
       ],
       "optionReasons": {
-        "negotiate-mcq-24": "本句指「協商彼此角色與分工」。",
-        "negotiate-mcq-23": "「透過互動協調／摸索人際關係的運作方式」與本句語境不同。",
-        "negotiate-mcq-25": "「協商責任如何分配」與本句語境不同。",
-        "negotiate-mcq-22": "「協調彼此衝突的要求」與本句語境不同。",
-        "negotiate-mcq-26": "「協商彼此可接受的界線」與本句語境不同。",
-        "negotiate-mcq-21": "「真誠、有意尋求協議地談判」與本句語境不同。"
+        "negotiate-mcq-24": "本句的「negotiate their roles」指「協商彼此角色與分工」。",
+        "negotiate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-24"
     },
@@ -2475,11 +2359,9 @@ export default {
       "masked": "The couple had to ____.",
       "options": [
         "negotiate-mcq-25",
-        "negotiate-mcq-24",
-        "negotiate-mcq-26",
-        "negotiate-mcq-23",
-        "negotiate-mcq-27",
-        "negotiate-mcq-22"
+        "negotiate-mcq-31",
+        "negotiate-mcq-29",
+        "negotiate-mcq-73"
       ],
       "explanation": "本句的「negotiate household responsibilities」指「協商責任如何分配」。",
       "sentenceIndex": 29,
@@ -2488,12 +2370,10 @@ export default {
         "negotiate household responsibilities"
       ],
       "optionReasons": {
-        "negotiate-mcq-25": "本句指「協商責任如何分配」。",
-        "negotiate-mcq-24": "「協商彼此角色與分工」與本句語境不同。",
-        "negotiate-mcq-26": "「協商彼此可接受的界線」與本句語境不同。",
-        "negotiate-mcq-23": "「透過互動協調／摸索人際關係的運作方式」與本句語境不同。",
-        "negotiate-mcq-27": "「社會互動中建構／調整身分認同」與本句語境不同。",
-        "negotiate-mcq-22": "「協調彼此衝突的要求」與本句語境不同。"
+        "negotiate-mcq-25": "本句的「negotiate household responsibilities」指「協商責任如何分配」。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-25"
     },
@@ -2505,11 +2385,9 @@ export default {
       "masked": "Colleagues sometimes need to ____.",
       "options": [
         "negotiate-mcq-26",
-        "negotiate-mcq-25",
-        "negotiate-mcq-27",
-        "negotiate-mcq-24",
-        "negotiate-mcq-28",
-        "negotiate-mcq-23"
+        "negotiate-mcq-97",
+        "negotiate-mcq-38",
+        "negotiate-mcq-41"
       ],
       "explanation": "本句的「negotiate professional boundaries」指「協商彼此可接受的界線」。",
       "sentenceIndex": 30,
@@ -2518,12 +2396,10 @@ export default {
         "negotiate professional boundaries"
       ],
       "optionReasons": {
-        "negotiate-mcq-26": "本句指「協商彼此可接受的界線」。",
-        "negotiate-mcq-25": "「協商責任如何分配」與本句語境不同。",
-        "negotiate-mcq-27": "「社會互動中建構／調整身分認同」與本句語境不同。",
-        "negotiate-mcq-24": "「協商彼此角色與分工」與本句語境不同。",
-        "negotiate-mcq-28": "「透過溝通處理彼此差異」與本句語境不同。",
-        "negotiate-mcq-23": "「透過互動協調／摸索人際關係的運作方式」與本句語境不同。"
+        "negotiate-mcq-26": "本句的「negotiate professional boundaries」指「協商彼此可接受的界線」。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-26"
     },
@@ -2535,11 +2411,9 @@ export default {
       "masked": "Young people often ____.",
       "options": [
         "negotiate-mcq-27",
-        "negotiate-mcq-26",
-        "negotiate-mcq-28",
-        "negotiate-mcq-25",
-        "negotiate-mcq-29",
-        "negotiate-mcq-24"
+        "negotiate-mcq-07",
+        "negotiate-mcq-50",
+        "negotiate-mcq-16"
       ],
       "explanation": "本句的「negotiate multiple identities」指「社會互動中建構／調整身分認同」。",
       "sentenceIndex": 31,
@@ -2548,12 +2422,10 @@ export default {
         "negotiate multiple identities"
       ],
       "optionReasons": {
-        "negotiate-mcq-27": "本句指「社會互動中建構／調整身分認同」。",
-        "negotiate-mcq-26": "「協商彼此可接受的界線」與本句語境不同。",
-        "negotiate-mcq-28": "「透過溝通處理彼此差異」與本句語境不同。",
-        "negotiate-mcq-25": "「協商責任如何分配」與本句語境不同。",
-        "negotiate-mcq-29": "「語言學：透過互動、澄清等共同確認意思」與本句語境不同。",
-        "negotiate-mcq-24": "「協商彼此角色與分工」與本句語境不同。"
+        "negotiate-mcq-27": "本句的「negotiate multiple identities」指「社會互動中建構／調整身分認同」。",
+        "negotiate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-27"
     },
@@ -2565,11 +2437,9 @@ export default {
       "masked": "Students need to learn how to ____ respectfully.",
       "options": [
         "negotiate-mcq-28",
-        "negotiate-mcq-27",
-        "negotiate-mcq-29",
-        "negotiate-mcq-26",
-        "negotiate-mcq-30",
-        "negotiate-mcq-25"
+        "negotiate-mcq-92",
+        "negotiate-mcq-36",
+        "negotiate-mcq-98"
       ],
       "explanation": "本句的「negotiate differences」指「透過溝通處理彼此差異」。",
       "sentenceIndex": 32,
@@ -2578,12 +2448,10 @@ export default {
         "negotiate differences"
       ],
       "optionReasons": {
-        "negotiate-mcq-28": "本句指「透過溝通處理彼此差異」。",
-        "negotiate-mcq-27": "「社會互動中建構／調整身分認同」與本句語境不同。",
-        "negotiate-mcq-29": "「語言學：透過互動、澄清等共同確認意思」與本句語境不同。",
-        "negotiate-mcq-26": "「協商彼此可接受的界線」與本句語境不同。",
-        "negotiate-mcq-30": "「語言互動中的意義協商過程」與本句語境不同。",
-        "negotiate-mcq-25": "「協商責任如何分配」與本句語境不同。"
+        "negotiate-mcq-28": "本句的「negotiate differences」指「透過溝通處理彼此差異」。",
+        "negotiate-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-28"
     },
@@ -2595,11 +2463,9 @@ export default {
       "masked": "Learners often ____ when communication breaks down.",
       "options": [
         "negotiate-mcq-29",
-        "negotiate-mcq-28",
-        "negotiate-mcq-30",
-        "negotiate-mcq-27",
-        "negotiate-mcq-31",
-        "negotiate-mcq-26"
+        "negotiate-mcq-25",
+        "negotiate-mcq-83",
+        "negotiate-mcq-50"
       ],
       "explanation": "本句的「negotiate meaning」指「語言學：透過互動、澄清等共同確認意思」。",
       "sentenceIndex": 33,
@@ -2608,12 +2474,10 @@ export default {
         "negotiate meaning"
       ],
       "optionReasons": {
-        "negotiate-mcq-29": "本句指「語言學：透過互動、澄清等共同確認意思」。",
-        "negotiate-mcq-28": "「透過溝通處理彼此差異」與本句語境不同。",
-        "negotiate-mcq-30": "「語言互動中的意義協商過程」與本句語境不同。",
-        "negotiate-mcq-27": "「社會互動中建構／調整身分認同」與本句語境不同。",
-        "negotiate-mcq-31": "「成功穿過、繞過或越過難行路段／障礙」與本句語境不同。",
-        "negotiate-mcq-26": "「協商彼此可接受的界線」與本句語境不同。"
+        "negotiate-mcq-29": "本句的「negotiate meaning」指「語言學：透過互動、澄清等共同確認意思」。",
+        "negotiate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-29"
     },
@@ -2625,11 +2489,9 @@ export default {
       "masked": "The driver carefully ____.",
       "options": [
         "negotiate-mcq-31",
-        "negotiate-mcq-30",
-        "negotiate-mcq-32",
-        "negotiate-mcq-29",
-        "negotiate-mcq-33",
-        "negotiate-mcq-28"
+        "negotiate-mcq-19",
+        "negotiate-mcq-18",
+        "negotiate-mcq-98"
       ],
       "explanation": "本句的「negotiated the narrow road」指「成功穿過、繞過或越過難行路段／障礙」。",
       "sentenceIndex": 34,
@@ -2638,12 +2500,10 @@ export default {
         "negotiated the narrow road"
       ],
       "optionReasons": {
-        "negotiate-mcq-31": "本句指「成功穿過、繞過或越過難行路段／障礙」。",
-        "negotiate-mcq-30": "「語言互動中的意義協商過程」與本句語境不同。",
-        "negotiate-mcq-32": "「順利轉過彎位」與本句語境不同。",
-        "negotiate-mcq-29": "「語言學：透過互動、澄清等共同確認意思」與本句語境不同。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。",
-        "negotiate-mcq-28": "「透過溝通處理彼此差異」與本句語境不同。"
+        "negotiate-mcq-31": "本句的「negotiated the narrow road」指「成功穿過、繞過或越過難行路段／障礙」。",
+        "negotiate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-31"
     },
@@ -2655,11 +2515,9 @@ export default {
       "masked": "She ____ slowly.",
       "options": [
         "negotiate-mcq-31",
-        "negotiate-mcq-30",
-        "negotiate-mcq-32",
-        "negotiate-mcq-29",
-        "negotiate-mcq-33",
-        "negotiate-mcq-28"
+        "negotiate-mcq-05",
+        "negotiate-mcq-46",
+        "negotiate-mcq-11"
       ],
       "explanation": "本句的「negotiated the stairs」指「成功穿過、繞過或越過難行路段／障礙」。",
       "sentenceIndex": 35,
@@ -2668,12 +2526,10 @@ export default {
         "negotiated the stairs"
       ],
       "optionReasons": {
-        "negotiate-mcq-31": "本句指「成功穿過、繞過或越過難行路段／障礙」。",
-        "negotiate-mcq-30": "「語言互動中的意義協商過程」與本句語境不同。",
-        "negotiate-mcq-32": "「順利轉過彎位」與本句語境不同。",
-        "negotiate-mcq-29": "「語言學：透過互動、澄清等共同確認意思」與本句語境不同。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。",
-        "negotiate-mcq-28": "「透過溝通處理彼此差異」與本句語境不同。"
+        "negotiate-mcq-31": "本句的「negotiated the stairs」指「成功穿過、繞過或越過難行路段／障礙」。",
+        "negotiate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-31"
     },
@@ -2685,11 +2541,9 @@ export default {
       "masked": "The cyclist ____ safely.",
       "options": [
         "negotiate-mcq-32",
-        "negotiate-mcq-31",
-        "negotiate-mcq-33",
-        "negotiate-mcq-30",
-        "negotiate-mcq-34",
-        "negotiate-mcq-29"
+        "negotiate-mcq-50",
+        "negotiate-mcq-22",
+        "negotiate-mcq-44"
       ],
       "explanation": "本句的「negotiated the bend」指「順利轉過彎位」。",
       "sentenceIndex": 36,
@@ -2698,12 +2552,10 @@ export default {
         "negotiated the bend"
       ],
       "optionReasons": {
-        "negotiate-mcq-32": "本句指「順利轉過彎位」。",
-        "negotiate-mcq-31": "「成功穿過、繞過或越過難行路段／障礙」與本句語境不同。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。",
-        "negotiate-mcq-30": "「語言互動中的意義協商過程」與本句語境不同。",
-        "negotiate-mcq-34": "「越過／繞過障礙物」與本句語境不同。",
-        "negotiate-mcq-29": "「語言學：透過互動、澄清等共同確認意思」與本句語境不同。"
+        "negotiate-mcq-32": "本句的「negotiated the bend」指「順利轉過彎位」。",
+        "negotiate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-32"
     },
@@ -2715,11 +2567,9 @@ export default {
       "masked": "The truck struggled to ____.",
       "options": [
         "negotiate-mcq-33",
-        "negotiate-mcq-32",
-        "negotiate-mcq-34",
-        "negotiate-mcq-31",
-        "negotiate-mcq-35",
-        "negotiate-mcq-30"
+        "negotiate-mcq-27",
+        "negotiate-mcq-68",
+        "negotiate-mcq-43"
       ],
       "explanation": "本句的「negotiate the tight corner」指「成功通過狹窄／困難的彎角」。",
       "sentenceIndex": 37,
@@ -2728,12 +2578,10 @@ export default {
         "negotiate the tight corner"
       ],
       "optionReasons": {
-        "negotiate-mcq-33": "本句指「成功通過狹窄／困難的彎角」。",
-        "negotiate-mcq-32": "「順利轉過彎位」與本句語境不同。",
-        "negotiate-mcq-34": "「越過／繞過障礙物」與本句語境不同。",
-        "negotiate-mcq-31": "「成功穿過、繞過或越過難行路段／障礙」與本句語境不同。",
-        "negotiate-mcq-35": "「設法上下／通過樓梯」與本句語境不同。",
-        "negotiate-mcq-30": "「語言互動中的意義協商過程」與本句語境不同。"
+        "negotiate-mcq-33": "本句的「negotiate the tight corner」指「成功通過狹窄／困難的彎角」。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-33"
     },
@@ -2745,11 +2593,9 @@ export default {
       "masked": "The horse easily ____.",
       "options": [
         "negotiate-mcq-34",
-        "negotiate-mcq-33",
-        "negotiate-mcq-35",
-        "negotiate-mcq-32",
-        "negotiate-mcq-36",
-        "negotiate-mcq-31"
+        "negotiate-mcq-73",
+        "negotiate-mcq-44",
+        "negotiate-mcq-62"
       ],
       "explanation": "本句的「negotiated the obstacle」指「越過／繞過障礙物」。",
       "sentenceIndex": 38,
@@ -2758,12 +2604,10 @@ export default {
         "negotiated the obstacle"
       ],
       "optionReasons": {
-        "negotiate-mcq-34": "本句指「越過／繞過障礙物」。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。",
-        "negotiate-mcq-35": "「設法上下／通過樓梯」與本句語境不同。",
-        "negotiate-mcq-32": "「順利轉過彎位」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。",
-        "negotiate-mcq-31": "「成功穿過、繞過或越過難行路段／障礙」與本句語境不同。"
+        "negotiate-mcq-34": "本句的「negotiated the obstacle」指「越過／繞過障礙物」。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-62": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-34"
     },
@@ -2775,11 +2619,9 @@ export default {
       "masked": "The wheelchair user had difficulty ____.",
       "options": [
         "negotiate-mcq-34",
-        "negotiate-mcq-33",
-        "negotiate-mcq-35",
-        "negotiate-mcq-32",
-        "negotiate-mcq-36",
-        "negotiate-mcq-31"
+        "negotiate-mcq-03",
+        "negotiate-mcq-62",
+        "negotiate-mcq-22"
       ],
       "explanation": "本句的「negotiating the step」指「越過／繞過障礙物」。",
       "sentenceIndex": 39,
@@ -2788,12 +2630,10 @@ export default {
         "negotiating the step"
       ],
       "optionReasons": {
-        "negotiate-mcq-34": "本句指「越過／繞過障礙物」。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。",
-        "negotiate-mcq-35": "「設法上下／通過樓梯」與本句語境不同。",
-        "negotiate-mcq-32": "「順利轉過彎位」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。",
-        "negotiate-mcq-31": "「成功穿過、繞過或越過難行路段／障礙」與本句語境不同。"
+        "negotiate-mcq-34": "本句的「negotiating the step」指「越過／繞過障礙物」。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-34"
     },
@@ -2805,11 +2645,9 @@ export default {
       "masked": "He finds it difficult to ____.",
       "options": [
         "negotiate-mcq-35",
-        "negotiate-mcq-34",
-        "negotiate-mcq-36",
-        "negotiate-mcq-33",
-        "negotiate-mcq-37",
-        "negotiate-mcq-32"
+        "negotiate-mcq-11",
+        "negotiate-mcq-79",
+        "negotiate-mcq-97"
       ],
       "explanation": "本句的「negotiate stairs」指「設法上下／通過樓梯」。",
       "sentenceIndex": 40,
@@ -2818,12 +2656,10 @@ export default {
         "negotiate stairs"
       ],
       "optionReasons": {
-        "negotiate-mcq-35": "本句指「設法上下／通過樓梯」。",
-        "negotiate-mcq-34": "「越過／繞過障礙物」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。",
-        "negotiate-mcq-32": "「順利轉過彎位」與本句語境不同。"
+        "negotiate-mcq-35": "本句的「negotiate stairs」指「設法上下／通過樓梯」。",
+        "negotiate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-35"
     },
@@ -2835,11 +2671,9 @@ export default {
       "masked": "The vehicle can ____.",
       "options": [
         "negotiate-mcq-36",
-        "negotiate-mcq-35",
-        "negotiate-mcq-37",
-        "negotiate-mcq-34",
-        "negotiate-mcq-38",
-        "negotiate-mcq-33"
+        "negotiate-mcq-43",
+        "negotiate-mcq-04",
+        "negotiate-mcq-17"
       ],
       "explanation": "本句的「negotiate rough terrain」指「穿越難行地形」。",
       "sentenceIndex": 41,
@@ -2848,12 +2682,10 @@ export default {
         "negotiate rough terrain"
       ],
       "optionReasons": {
-        "negotiate-mcq-36": "本句指「穿越難行地形」。",
-        "negotiate-mcq-35": "「設法上下／通過樓梯」與本句語境不同。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。",
-        "negotiate-mcq-34": "「越過／繞過障礙物」與本句語境不同。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。",
-        "negotiate-mcq-33": "「成功通過狹窄／困難的彎角」與本句語境不同。"
+        "negotiate-mcq-36": "本句的「negotiate rough terrain」指「穿越難行地形」。",
+        "negotiate-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-36"
     },
@@ -2865,11 +2697,9 @@ export default {
       "masked": "Cyclists must carefully ____.",
       "options": [
         "negotiate-mcq-37",
-        "negotiate-mcq-36",
-        "negotiate-mcq-38",
-        "negotiate-mcq-35",
-        "negotiate-mcq-39",
-        "negotiate-mcq-34"
+        "negotiate-mcq-68",
+        "negotiate-mcq-83",
+        "negotiate-mcq-87"
       ],
       "explanation": "本句的「negotiate city traffic」指「小心穿行於繁忙交通之中」。",
       "sentenceIndex": 42,
@@ -2878,12 +2708,10 @@ export default {
         "negotiate city traffic"
       ],
       "optionReasons": {
-        "negotiate-mcq-37": "本句指「小心穿行於繁忙交通之中」。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。",
-        "negotiate-mcq-35": "「設法上下／通過樓梯」與本句語境不同。",
-        "negotiate-mcq-39": "「小心設法穿過／應付某種困難」與本句語境不同。",
-        "negotiate-mcq-34": "「越過／繞過障礙物」與本句語境不同。"
+        "negotiate-mcq-37": "本句的「negotiate city traffic」指「小心穿行於繁忙交通之中」。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-37"
     },
@@ -2895,11 +2723,9 @@ export default {
       "masked": "The vehicle could barely ____.",
       "options": [
         "negotiate-mcq-38",
-        "negotiate-mcq-37",
-        "negotiate-mcq-39",
-        "negotiate-mcq-36",
-        "negotiate-mcq-40",
-        "negotiate-mcq-35"
+        "negotiate-mcq-60",
+        "negotiate-mcq-05",
+        "negotiate-mcq-11"
       ],
       "explanation": "本句的「negotiate the narrow passage」指「設法通過狹窄通道」。",
       "sentenceIndex": 43,
@@ -2908,12 +2734,10 @@ export default {
         "negotiate the narrow passage"
       ],
       "optionReasons": {
-        "negotiate-mcq-38": "本句指「設法通過狹窄通道」。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。",
-        "negotiate-mcq-39": "「小心設法穿過／應付某種困難」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。",
-        "negotiate-mcq-35": "「設法上下／通過樓梯」與本句語境不同。"
+        "negotiate-mcq-38": "本句的「negotiate the narrow passage」指「設法通過狹窄通道」。",
+        "negotiate-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-38"
     },
@@ -2925,11 +2749,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "negotiate-mcq-39",
-        "negotiate-mcq-38",
-        "negotiate-mcq-40",
-        "negotiate-mcq-37",
-        "negotiate-mcq-41",
-        "negotiate-mcq-36"
+        "negotiate-mcq-66",
+        "negotiate-mcq-92",
+        "negotiate-mcq-27"
       ],
       "explanation": "本句的「negotiated her way through the crowd」指「小心設法穿過／應付某種困難」。",
       "sentenceIndex": 44,
@@ -2938,12 +2760,10 @@ export default {
         "negotiated her way through the crowd"
       ],
       "optionReasons": {
-        "negotiate-mcq-39": "本句指「小心設法穿過／應付某種困難」。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。"
+        "negotiate-mcq-39": "本句的「negotiated her way through the crowd」指「小心設法穿過／應付某種困難」。",
+        "negotiate-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-39"
     },
@@ -2955,11 +2775,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "negotiate-mcq-39",
-        "negotiate-mcq-38",
-        "negotiate-mcq-40",
-        "negotiate-mcq-37",
-        "negotiate-mcq-41",
-        "negotiate-mcq-36"
+        "negotiate-mcq-82",
+        "negotiate-mcq-16",
+        "negotiate-mcq-24"
       ],
       "explanation": "本句的「negotiated his way through the maze of corridors」指「小心設法穿過／應付某種困難」。",
       "sentenceIndex": 45,
@@ -2968,12 +2786,10 @@ export default {
         "negotiated his way through the maze of corridors"
       ],
       "optionReasons": {
-        "negotiate-mcq-39": "本句指「小心設法穿過／應付某種困難」。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。"
+        "negotiate-mcq-39": "本句的「negotiated his way through the maze of corridors」指「小心設法穿過／應付某種困難」。",
+        "negotiate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-39"
     },
@@ -2985,11 +2801,9 @@ export default {
       "masked": "The driver ____.",
       "options": [
         "negotiate-mcq-39",
-        "negotiate-mcq-38",
-        "negotiate-mcq-40",
-        "negotiate-mcq-37",
-        "negotiate-mcq-41",
-        "negotiate-mcq-36"
+        "negotiate-mcq-66",
+        "negotiate-mcq-62",
+        "negotiate-mcq-17"
       ],
       "explanation": "本句的「negotiated his way around the fallen branches」指「小心設法穿過／應付某種困難」。",
       "sentenceIndex": 46,
@@ -2998,12 +2812,10 @@ export default {
         "negotiated his way around the fallen branches"
       ],
       "optionReasons": {
-        "negotiate-mcq-39": "本句指「小心設法穿過／應付某種困難」。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-36": "「穿越難行地形」與本句語境不同。"
+        "negotiate-mcq-39": "本句的「negotiated his way around the fallen branches」指「小心設法穿過／應付某種困難」。",
+        "negotiate-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-39"
     },
@@ -3015,11 +2827,9 @@ export default {
       "masked": "New managers must learn to ____.",
       "options": [
         "negotiate-mcq-40",
-        "negotiate-mcq-39",
-        "negotiate-mcq-41",
-        "negotiate-mcq-38",
-        "negotiate-mcq-42",
-        "negotiate-mcq-37"
+        "negotiate-mcq-85",
+        "negotiate-mcq-27",
+        "negotiate-mcq-35"
       ],
       "explanation": "本句的「negotiate difficult situations」指「應付並順利處理複雜局面」。",
       "sentenceIndex": 47,
@@ -3028,12 +2838,10 @@ export default {
         "negotiate difficult situations"
       ],
       "optionReasons": {
-        "negotiate-mcq-40": "本句指「應付並順利處理複雜局面」。",
-        "negotiate-mcq-39": "「小心設法穿過／應付某種困難」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。",
-        "negotiate-mcq-37": "「小心穿行於繁忙交通之中」與本句語境不同。"
+        "negotiate-mcq-40": "本句的「negotiate difficult situations」指「應付並順利處理複雜局面」。",
+        "negotiate-mcq-85": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-40"
     },
@@ -3045,11 +2853,9 @@ export default {
       "masked": "Students need support to ____ to secondary school.",
       "options": [
         "negotiate-mcq-41",
-        "negotiate-mcq-40",
-        "negotiate-mcq-42",
-        "negotiate-mcq-39",
-        "negotiate-mcq-43",
-        "negotiate-mcq-38"
+        "negotiate-mcq-22",
+        "negotiate-mcq-37",
+        "negotiate-mcq-92"
       ],
       "explanation": "本句的「negotiate the transition」指「順利應對一段轉變」。",
       "sentenceIndex": 48,
@@ -3058,12 +2864,10 @@ export default {
         "negotiate the transition"
       ],
       "optionReasons": {
-        "negotiate-mcq-41": "本句指「順利應對一段轉變」。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。",
-        "negotiate-mcq-39": "「小心設法穿過／應付某種困難」與本句語境不同。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。",
-        "negotiate-mcq-38": "「設法通過狹窄通道」與本句語境不同。"
+        "negotiate-mcq-41": "本句的「negotiate the transition」指「順利應對一段轉變」。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-41"
     },
@@ -3075,11 +2879,9 @@ export default {
       "masked": "Organizations must learn to ____.",
       "options": [
         "negotiate-mcq-42",
-        "negotiate-mcq-41",
-        "negotiate-mcq-43",
-        "negotiate-mcq-40",
-        "negotiate-mcq-44",
-        "negotiate-mcq-39"
+        "negotiate-mcq-74",
+        "negotiate-mcq-37",
+        "negotiate-mcq-68"
       ],
       "explanation": "本句的「negotiate change」指「應對／協調變化過程」。",
       "sentenceIndex": 49,
@@ -3088,12 +2890,10 @@ export default {
         "negotiate change"
       ],
       "optionReasons": {
-        "negotiate-mcq-42": "本句指「應對／協調變化過程」。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-39": "「小心設法穿過／應付某種困難」與本句語境不同。"
+        "negotiate-mcq-42": "本句的「negotiate change」指「應對／協調變化過程」。",
+        "negotiate-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-42"
     },
@@ -3105,11 +2905,9 @@ export default {
       "masked": "Applicants often struggle to ____.",
       "options": [
         "negotiate-mcq-43",
-        "negotiate-mcq-42",
-        "negotiate-mcq-44",
-        "negotiate-mcq-41",
-        "negotiate-mcq-45",
-        "negotiate-mcq-40"
+        "negotiate-mcq-03",
+        "negotiate-mcq-14",
+        "negotiate-mcq-68"
       ],
       "explanation": "本句的「negotiate the system」指「設法理解並應付複雜制度／程序」。",
       "sentenceIndex": 50,
@@ -3118,12 +2916,10 @@ export default {
         "negotiate the system"
       ],
       "optionReasons": {
-        "negotiate-mcq-43": "本句指「設法理解並應付複雜制度／程序」。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-45": "「為達成協議而進行討論的過程；協商／談判」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。"
+        "negotiate-mcq-43": "本句的「negotiate the system」指「設法理解並應付複雜制度／程序」。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-43"
     },
@@ -3135,11 +2931,9 @@ export default {
       "masked": "The guide helps patients ____.",
       "options": [
         "negotiate-mcq-43",
-        "negotiate-mcq-42",
-        "negotiate-mcq-44",
-        "negotiate-mcq-41",
-        "negotiate-mcq-45",
-        "negotiate-mcq-40"
+        "negotiate-mcq-53",
+        "negotiate-mcq-33",
+        "negotiate-mcq-03"
       ],
       "explanation": "本句的「negotiate the healthcare system」指「設法理解並應付複雜制度／程序」。",
       "sentenceIndex": 51,
@@ -3148,12 +2942,10 @@ export default {
         "negotiate the healthcare system"
       ],
       "optionReasons": {
-        "negotiate-mcq-43": "本句指「設法理解並應付複雜制度／程序」。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。",
-        "negotiate-mcq-45": "「為達成協議而進行討論的過程；協商／談判」與本句語境不同。",
-        "negotiate-mcq-40": "「應付並順利處理複雜局面」與本句語境不同。"
+        "negotiate-mcq-43": "本句的「negotiate the healthcare system」指「設法理解並應付複雜制度／程序」。",
+        "negotiate-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-43"
     },
@@ -3165,11 +2957,9 @@ export default {
       "masked": "Small businesses often struggle to ____.",
       "options": [
         "negotiate-mcq-44",
-        "negotiate-mcq-43",
-        "negotiate-mcq-45",
-        "negotiate-mcq-42",
-        "negotiate-mcq-46",
-        "negotiate-mcq-41"
+        "negotiate-mcq-04",
+        "negotiate-mcq-63",
+        "negotiate-mcq-13"
       ],
       "explanation": "本句的「negotiate bureaucracy」指「應付繁複行政程序」。",
       "sentenceIndex": 52,
@@ -3178,12 +2968,10 @@ export default {
         "negotiate bureaucracy"
       ],
       "optionReasons": {
-        "negotiate-mcq-44": "本句指「應付繁複行政程序」。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。",
-        "negotiate-mcq-45": "「為達成協議而進行討論的過程；協商／談判」與本句語境不同。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。",
-        "negotiate-mcq-46": "「一系列正式談判會談」與本句語境不同。",
-        "negotiate-mcq-41": "「順利應對一段轉變」與本句語境不同。"
+        "negotiate-mcq-44": "本句的「negotiate bureaucracy」指「應付繁複行政程序」。",
+        "negotiate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-44"
     },
@@ -3195,11 +2983,9 @@ export default {
       "masked": "Good ____ requires listening.",
       "options": [
         "negotiate-mcq-45",
-        "negotiate-mcq-44",
-        "negotiate-mcq-46",
-        "negotiate-mcq-43",
-        "negotiate-mcq-47",
-        "negotiate-mcq-42"
+        "negotiate-mcq-74",
+        "negotiate-mcq-98",
+        "negotiate-mcq-27"
       ],
       "explanation": "本句的「negotiation」指「為達成協議而進行討論的過程；協商／談判」。",
       "sentenceIndex": 53,
@@ -3208,12 +2994,10 @@ export default {
         "negotiation"
       ],
       "optionReasons": {
-        "negotiate-mcq-45": "本句指「為達成協議而進行討論的過程；協商／談判」。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-46": "「一系列正式談判會談」與本句語境不同。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。",
-        "negotiate-mcq-47": "「正在協商／談判中」與本句語境不同。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。"
+        "negotiate-mcq-45": "本句的「negotiation」指「為達成協議而進行討論的過程；協商／談判」。",
+        "negotiate-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-45"
     },
@@ -3225,11 +3009,9 @@ export default {
       "masked": "The contract was agreed after lengthy ____.",
       "options": [
         "negotiate-mcq-45",
-        "negotiate-mcq-44",
-        "negotiate-mcq-46",
-        "negotiate-mcq-43",
-        "negotiate-mcq-47",
-        "negotiate-mcq-42"
+        "negotiate-mcq-73",
+        "negotiate-mcq-98",
+        "negotiate-mcq-27"
       ],
       "explanation": "本句的「negotiation」指「為達成協議而進行討論的過程；協商／談判」。",
       "sentenceIndex": 54,
@@ -3238,12 +3020,10 @@ export default {
         "negotiation"
       ],
       "optionReasons": {
-        "negotiate-mcq-45": "本句指「為達成協議而進行討論的過程；協商／談判」。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-46": "「一系列正式談判會談」與本句語境不同。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。",
-        "negotiate-mcq-47": "「正在協商／談判中」與本句語境不同。",
-        "negotiate-mcq-42": "「應對／協調變化過程」與本句語境不同。"
+        "negotiate-mcq-45": "本句的「negotiation」指「為達成協議而進行討論的過程；協商／談判」。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-45"
     },
@@ -3255,11 +3035,9 @@ export default {
       "masked": "____ continued late into the night.",
       "options": [
         "negotiate-mcq-46",
-        "negotiate-mcq-45",
-        "negotiate-mcq-47",
+        "negotiate-mcq-03",
         "negotiate-mcq-44",
-        "negotiate-mcq-48",
-        "negotiate-mcq-43"
+        "negotiate-mcq-98"
       ],
       "explanation": "本句的「Negotiations」指「一系列正式談判會談」。",
       "sentenceIndex": 55,
@@ -3268,12 +3046,10 @@ export default {
         "Negotiations"
       ],
       "optionReasons": {
-        "negotiate-mcq-46": "本句指「一系列正式談判會談」。",
-        "negotiate-mcq-45": "「為達成協議而進行討論的過程；協商／談判」與本句語境不同。",
-        "negotiate-mcq-47": "「正在協商／談判中」與本句語境不同。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-48": "「開始正式談判」與本句語境不同。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。"
+        "negotiate-mcq-46": "本句的「Negotiations」指「一系列正式談判會談」。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-46"
     },
@@ -3285,11 +3061,9 @@ export default {
       "masked": "The two sides resumed ____.",
       "options": [
         "negotiate-mcq-46",
-        "negotiate-mcq-45",
-        "negotiate-mcq-47",
-        "negotiate-mcq-44",
-        "negotiate-mcq-48",
-        "negotiate-mcq-43"
+        "negotiate-mcq-32",
+        "negotiate-mcq-25",
+        "negotiate-mcq-27"
       ],
       "explanation": "本句的「negotiations」指「一系列正式談判會談」。",
       "sentenceIndex": 56,
@@ -3298,12 +3072,10 @@ export default {
         "negotiations"
       ],
       "optionReasons": {
-        "negotiate-mcq-46": "本句指「一系列正式談判會談」。",
-        "negotiate-mcq-45": "「為達成協議而進行討論的過程；協商／談判」與本句語境不同。",
-        "negotiate-mcq-47": "「正在協商／談判中」與本句語境不同。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。",
-        "negotiate-mcq-48": "「開始正式談判」與本句語境不同。",
-        "negotiate-mcq-43": "「設法理解並應付複雜制度／程序」與本句語境不同。"
+        "negotiate-mcq-46": "本句的「negotiations」指「一系列正式談判會談」。",
+        "negotiate-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-46"
     },
@@ -3315,11 +3087,9 @@ export default {
       "masked": "The final price is still ____.",
       "options": [
         "negotiate-mcq-47",
-        "negotiate-mcq-46",
-        "negotiate-mcq-48",
-        "negotiate-mcq-45",
-        "negotiate-mcq-49",
-        "negotiate-mcq-44"
+        "negotiate-mcq-34",
+        "negotiate-mcq-27",
+        "negotiate-mcq-36"
       ],
       "explanation": "本句的「under negotiation」指「正在協商／談判中」。",
       "sentenceIndex": 57,
@@ -3328,12 +3098,10 @@ export default {
         "under negotiation"
       ],
       "optionReasons": {
-        "negotiate-mcq-47": "本句指「正在協商／談判中」。",
-        "negotiate-mcq-46": "「一系列正式談判會談」與本句語境不同。",
-        "negotiate-mcq-48": "「開始正式談判」與本句語境不同。",
-        "negotiate-mcq-45": "「為達成協議而進行討論的過程；協商／談判」與本句語境不同。",
-        "negotiate-mcq-49": "「進入／展開談判」與本句語境不同。",
-        "negotiate-mcq-44": "「應付繁複行政程序」與本句語境不同。"
+        "negotiate-mcq-47": "本句的「under negotiation」指「正在協商／談判中」。",
+        "negotiate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-47"
     },
@@ -3345,11 +3113,9 @@ export default {
       "masked": "The parties agreed to ____.",
       "options": [
         "negotiate-mcq-49",
-        "negotiate-mcq-48",
-        "negotiate-mcq-50",
-        "negotiate-mcq-47",
-        "negotiate-mcq-51",
-        "negotiate-mcq-46"
+        "negotiate-mcq-87",
+        "negotiate-mcq-37",
+        "negotiate-mcq-22"
       ],
       "explanation": "本句的「open negotiations」指「進入／展開談判」。",
       "sentenceIndex": 58,
@@ -3358,12 +3124,10 @@ export default {
         "open negotiations"
       ],
       "optionReasons": {
-        "negotiate-mcq-49": "本句指「進入／展開談判」。",
-        "negotiate-mcq-48": "「開始正式談判」與本句語境不同。",
-        "negotiate-mcq-50": "「進行正式談判」與本句語境不同。",
-        "negotiate-mcq-47": "「正在協商／談判中」與本句語境不同。",
-        "negotiate-mcq-51": "「舉行談判會談」與本句語境不同。",
-        "negotiate-mcq-46": "「一系列正式談判會談」與本句語境不同。"
+        "negotiate-mcq-49": "本句的「open negotiations」指「進入／展開談判」。",
+        "negotiate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-49"
     },
@@ -3375,11 +3139,9 @@ export default {
       "masked": "Representatives were authorized to ____.",
       "options": [
         "negotiate-mcq-50",
-        "negotiate-mcq-49",
-        "negotiate-mcq-51",
-        "negotiate-mcq-48",
-        "negotiate-mcq-52",
-        "negotiate-mcq-47"
+        "negotiate-mcq-07",
+        "negotiate-mcq-43",
+        "negotiate-mcq-22"
       ],
       "explanation": "本句的「conduct negotiations」指「進行正式談判」。",
       "sentenceIndex": 59,
@@ -3388,12 +3150,10 @@ export default {
         "conduct negotiations"
       ],
       "optionReasons": {
-        "negotiate-mcq-50": "本句指「進行正式談判」。",
-        "negotiate-mcq-49": "「進入／展開談判」與本句語境不同。",
-        "negotiate-mcq-51": "「舉行談判會談」與本句語境不同。",
-        "negotiate-mcq-48": "「開始正式談判」與本句語境不同。",
-        "negotiate-mcq-52": "「恢復已中斷的談判」與本句語境不同。",
-        "negotiate-mcq-47": "「正在協商／談判中」與本句語境不同。"
+        "negotiate-mcq-50": "本句的「conduct negotiations」指「進行正式談判」。",
+        "negotiate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-50"
     },
@@ -3405,11 +3165,9 @@ export default {
       "masked": "The parties threatened to ____.",
       "options": [
         "negotiate-mcq-53",
-        "negotiate-mcq-52",
-        "negotiate-mcq-54",
-        "negotiate-mcq-51",
-        "negotiate-mcq-55",
-        "negotiate-mcq-50"
+        "negotiate-mcq-36",
+        "negotiate-mcq-32",
+        "negotiate-mcq-38"
       ],
       "explanation": "本句的「break off negotiations」指「在未達成協議前中止談判」。",
       "sentenceIndex": 60,
@@ -3418,12 +3176,10 @@ export default {
         "break off negotiations"
       ],
       "optionReasons": {
-        "negotiate-mcq-53": "本句指「在未達成協議前中止談判」。",
-        "negotiate-mcq-52": "「恢復已中斷的談判」與本句語境不同。",
-        "negotiate-mcq-54": "「暫停談判」與本句語境不同。",
-        "negotiate-mcq-51": "「舉行談判會談」與本句語境不同。",
-        "negotiate-mcq-55": "「結束談判過程」與本句語境不同。",
-        "negotiate-mcq-50": "「進行正式談判」與本句語境不同。"
+        "negotiate-mcq-53": "本句的「break off negotiations」指「在未達成協議前中止談判」。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-53"
     },
@@ -3435,11 +3191,9 @@ export default {
       "masked": "The company entered talks from a strong ____.",
       "options": [
         "negotiate-mcq-60",
-        "negotiate-mcq-59",
-        "negotiate-mcq-61",
-        "negotiate-mcq-58",
-        "negotiate-mcq-62",
-        "negotiate-mcq-57"
+        "negotiate-mcq-14",
+        "negotiate-mcq-43",
+        "negotiate-mcq-90"
       ],
       "explanation": "本句的「negotiating position」指「一方進入談判時的利益、要求與條件立場」。",
       "sentenceIndex": 61,
@@ -3448,12 +3202,10 @@ export default {
         "negotiating position"
       ],
       "optionReasons": {
-        "negotiate-mcq-60": "本句指「一方進入談判時的利益、要求與條件立場」。",
-        "negotiate-mcq-59": "「談判中採用的具體技巧／戰術」與本句語境不同。",
-        "negotiate-mcq-61": "「影響談判結果的能力／優勢」與本句語境不同。",
-        "negotiate-mcq-58": "「談判的整體策略」與本句語境不同。",
-        "negotiate-mcq-62": "「比喻：正式談判場合／談判桌」與本句語境不同。",
-        "negotiate-mcq-57": "「為有效協商所需的溝通、聆聽、說服等能力」與本句語境不同。"
+        "negotiate-mcq-60": "本句的「negotiating position」指「一方進入談判時的利益、要求與條件立場」。",
+        "negotiate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-60"
     },
@@ -3465,11 +3217,9 @@ export default {
       "masked": "Both sides returned to the ____.",
       "options": [
         "negotiate-mcq-62",
-        "negotiate-mcq-61",
-        "negotiate-mcq-63",
-        "negotiate-mcq-60",
-        "negotiate-mcq-64",
-        "negotiate-mcq-59"
+        "negotiate-mcq-39",
+        "negotiate-mcq-18",
+        "negotiate-mcq-74"
       ],
       "explanation": "本句的「negotiating table」指「比喻：正式談判場合／談判桌」。",
       "sentenceIndex": 62,
@@ -3478,12 +3228,10 @@ export default {
         "negotiating table"
       ],
       "optionReasons": {
-        "negotiate-mcq-62": "本句指「比喻：正式談判場合／談判桌」。",
-        "negotiate-mcq-61": "「影響談判結果的能力／優勢」與本句語境不同。",
-        "negotiate-mcq-63": "「條件仍可以修改／商量的空間」與本句語境不同。",
-        "negotiate-mcq-60": "「一方進入談判時的利益、要求與條件立場」與本句語境不同。",
-        "negotiate-mcq-64": "「可以經協商修改」與本句語境不同。",
-        "negotiate-mcq-59": "「談判中採用的具體技巧／戰術」與本句語境不同。"
+        "negotiate-mcq-62": "本句的「negotiating table」指「比喻：正式談判場合／談判桌」。",
+        "negotiate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-74": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-62"
     },
@@ -3495,11 +3243,9 @@ export default {
       "masked": "There may be some ____ on price.",
       "options": [
         "negotiate-mcq-63",
-        "negotiate-mcq-62",
-        "negotiate-mcq-64",
-        "negotiate-mcq-61",
-        "negotiate-mcq-65",
-        "negotiate-mcq-60"
+        "negotiate-mcq-29",
+        "negotiate-mcq-97",
+        "negotiate-mcq-98"
       ],
       "explanation": "本句的「room for negotiation」指「條件仍可以修改／商量的空間」。",
       "sentenceIndex": 63,
@@ -3508,12 +3254,10 @@ export default {
         "room for negotiation"
       ],
       "optionReasons": {
-        "negotiate-mcq-63": "本句指「條件仍可以修改／商量的空間」。",
-        "negotiate-mcq-62": "「比喻：正式談判場合／談判桌」與本句語境不同。",
-        "negotiate-mcq-64": "「可以經協商修改」與本句語境不同。",
-        "negotiate-mcq-61": "「影響談判結果的能力／優勢」與本句語境不同。",
-        "negotiate-mcq-65": "「經談判後達成的協議」與本句語境不同。",
-        "negotiate-mcq-60": "「一方進入談判時的利益、要求與條件立場」與本句語境不同。"
+        "negotiate-mcq-63": "本句的「room for negotiation」指「條件仍可以修改／商量的空間」。",
+        "negotiate-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-63"
     },
@@ -3525,11 +3269,9 @@ export default {
       "masked": "Both parties preferred a ____.",
       "options": [
         "negotiate-mcq-66",
-        "negotiate-mcq-65",
-        "negotiate-mcq-67",
-        "negotiate-mcq-64",
         "negotiate-mcq-68",
-        "negotiate-mcq-63"
+        "negotiate-mcq-35",
+        "negotiate-mcq-37"
       ],
       "explanation": "本句的「negotiated settlement」指「經協商達成的和解」。",
       "sentenceIndex": 64,
@@ -3538,12 +3280,10 @@ export default {
         "negotiated settlement"
       ],
       "optionReasons": {
-        "negotiate-mcq-66": "本句指「經協商達成的和解」。",
-        "negotiate-mcq-65": "「經談判後達成的協議」與本句語境不同。",
-        "negotiate-mcq-67": "「經雙方商議後確定的價格／費率」與本句語境不同。",
-        "negotiate-mcq-64": "「可以經協商修改」與本句語境不同。",
-        "negotiate-mcq-68": "「代表自己或他人參與談判的人」與本句語境不同。",
-        "negotiate-mcq-63": "「條件仍可以修改／商量的空間」與本句語境不同。"
+        "negotiate-mcq-66": "本句的「negotiated settlement」指「經協商達成的和解」。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-66"
     },
@@ -3555,11 +3295,9 @@ export default {
       "masked": "She is an experienced ____.",
       "options": [
         "negotiate-mcq-68",
-        "negotiate-mcq-67",
-        "negotiate-mcq-69",
-        "negotiate-mcq-66",
-        "negotiate-mcq-70",
-        "negotiate-mcq-65"
+        "negotiate-mcq-05",
+        "negotiate-mcq-11",
+        "negotiate-mcq-63"
       ],
       "explanation": "本句的「negotiator」指「代表自己或他人參與談判的人」。",
       "sentenceIndex": 65,
@@ -3568,12 +3306,10 @@ export default {
         "negotiator"
       ],
       "optionReasons": {
-        "negotiate-mcq-68": "本句指「代表自己或他人參與談判的人」。",
-        "negotiate-mcq-67": "「經雙方商議後確定的價格／費率」與本句語境不同。",
-        "negotiate-mcq-69": "「負責領導談判的一方主要代表」與本句語境不同。",
-        "negotiate-mcq-66": "「經協商達成的和解」與本句語境不同。",
-        "negotiate-mcq-70": "「條件可透過商議改變的；可協商」與本句語境不同。",
-        "negotiate-mcq-65": "「經談判後達成的協議」與本句語境不同。"
+        "negotiate-mcq-68": "本句的「negotiator」指「代表自己或他人參與談判的人」。",
+        "negotiate-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-68"
     },
@@ -3585,11 +3321,9 @@ export default {
       "masked": "The salary is ____.",
       "options": [
         "negotiate-mcq-73",
-        "negotiate-mcq-72",
-        "negotiate-mcq-74",
-        "negotiate-mcq-71",
-        "negotiate-mcq-75",
-        "negotiate-mcq-70"
+        "negotiate-mcq-46",
+        "negotiate-mcq-66",
+        "negotiate-mcq-29"
       ],
       "explanation": "本句的「negotiable」指「依法可以轉讓給另一持有人的；可流通的」。",
       "sentenceIndex": 66,
@@ -3598,12 +3332,10 @@ export default {
         "negotiable"
       ],
       "optionReasons": {
-        "negotiate-mcq-73": "本句指「依法可以轉讓給另一持有人的；可流通的」。",
-        "negotiate-mcq-72": "「條款可經雙方協商」與本句語境不同。",
-        "negotiate-mcq-74": "「可依法轉讓並賦予持有人付款權利的流通票據」與本句語境不同。",
-        "negotiate-mcq-71": "「價格可以議價」與本句語境不同。",
-        "negotiate-mcq-75": "「法律／金融：依法轉讓流通票據」與本句語境不同。",
-        "negotiate-mcq-70": "「條件可透過商議改變的；可協商」與本句語境不同。"
+        "negotiate-mcq-73": "本句的「negotiable」指「依法可以轉讓給另一持有人的；可流通的」。",
+        "negotiate-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-73"
     },
@@ -3615,11 +3347,9 @@ export default {
       "masked": "The start date may be ____.",
       "options": [
         "negotiate-mcq-73",
-        "negotiate-mcq-72",
-        "negotiate-mcq-74",
-        "negotiate-mcq-71",
-        "negotiate-mcq-75",
-        "negotiate-mcq-70"
+        "negotiate-mcq-83",
+        "negotiate-mcq-97",
+        "negotiate-mcq-42"
       ],
       "explanation": "本句的「negotiable」指「依法可以轉讓給另一持有人的；可流通的」。",
       "sentenceIndex": 67,
@@ -3628,12 +3358,10 @@ export default {
         "negotiable"
       ],
       "optionReasons": {
-        "negotiate-mcq-73": "本句指「依法可以轉讓給另一持有人的；可流通的」。",
-        "negotiate-mcq-72": "「條款可經雙方協商」與本句語境不同。",
-        "negotiate-mcq-74": "「可依法轉讓並賦予持有人付款權利的流通票據」與本句語境不同。",
-        "negotiate-mcq-71": "「價格可以議價」與本句語境不同。",
-        "negotiate-mcq-75": "「法律／金融：依法轉讓流通票據」與本句語境不同。",
-        "negotiate-mcq-70": "「條件可透過商議改變的；可協商」與本句語境不同。"
+        "negotiate-mcq-73": "本句的「negotiable」指「依法可以轉讓給另一持有人的；可流通的」。",
+        "negotiate-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-73"
     },
@@ -3645,11 +3373,9 @@ export default {
       "masked": "A cheque may function as a ____.",
       "options": [
         "negotiate-mcq-74",
-        "negotiate-mcq-73",
-        "negotiate-mcq-75",
-        "negotiate-mcq-72",
-        "negotiate-mcq-76",
-        "negotiate-mcq-71"
+        "negotiate-mcq-25",
+        "negotiate-mcq-22",
+        "negotiate-mcq-09"
       ],
       "explanation": "本句的「negotiable instrument」指「可依法轉讓並賦予持有人付款權利的流通票據」。",
       "sentenceIndex": 68,
@@ -3658,12 +3384,10 @@ export default {
         "negotiable instrument"
       ],
       "optionReasons": {
-        "negotiate-mcq-74": "本句指「可依法轉讓並賦予持有人付款權利的流通票據」。",
-        "negotiate-mcq-73": "「依法可以轉讓給另一持有人的；可流通的」與本句語境不同。",
-        "negotiate-mcq-75": "「法律／金融：依法轉讓流通票據」與本句語境不同。",
-        "negotiate-mcq-72": "「條款可經雙方協商」與本句語境不同。",
-        "negotiate-mcq-76": "「某項條件可以協商的程度」與本句語境不同。",
-        "negotiate-mcq-71": "「價格可以議價」與本句語境不同。"
+        "negotiate-mcq-74": "本句的「negotiable instrument」指「可依法轉讓並賦予持有人付款權利的流通票據」。",
+        "negotiate-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-74"
     },
@@ -3675,11 +3399,9 @@ export default {
       "masked": "The deadline is ____.",
       "options": [
         "negotiate-mcq-79",
-        "negotiate-mcq-78",
-        "negotiate-mcq-80",
-        "negotiate-mcq-77",
-        "negotiate-mcq-81",
-        "negotiate-mcq-76"
+        "negotiate-mcq-31",
+        "negotiate-mcq-73",
+        "negotiate-mcq-40"
       ],
       "explanation": "本句的「non-negotiable」指「必須符合、沒有商量餘地的硬性要求」。",
       "sentenceIndex": 69,
@@ -3688,12 +3410,10 @@ export default {
         "non-negotiable"
       ],
       "optionReasons": {
-        "negotiate-mcq-79": "本句指「必須符合、沒有商量餘地的硬性要求」。",
-        "negotiate-mcq-78": "「不接受討論、更改或妥協的」與本句語境不同。",
-        "negotiate-mcq-80": "「不願放棄或妥協的原則」與本句語境不同。",
-        "negotiate-mcq-77": "「票據可以依法流通／轉讓的性質」與本句語境不同。",
-        "negotiate-mcq-81": "「固定價格；不議價」與本句語境不同。",
-        "negotiate-mcq-76": "「某項條件可以協商的程度」與本句語境不同。"
+        "negotiate-mcq-79": "本句的「non-negotiable」指「必須符合、沒有商量餘地的硬性要求」。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-79"
     },
@@ -3705,11 +3425,9 @@ export default {
       "masked": "Safety is ____.",
       "options": [
         "negotiate-mcq-79",
-        "negotiate-mcq-78",
-        "negotiate-mcq-80",
-        "negotiate-mcq-77",
-        "negotiate-mcq-81",
-        "negotiate-mcq-76"
+        "negotiate-mcq-39",
+        "negotiate-mcq-49",
+        "negotiate-mcq-41"
       ],
       "explanation": "本句的「non-negotiable」指「必須符合、沒有商量餘地的硬性要求」。",
       "sentenceIndex": 70,
@@ -3718,12 +3436,10 @@ export default {
         "non-negotiable"
       ],
       "optionReasons": {
-        "negotiate-mcq-79": "本句指「必須符合、沒有商量餘地的硬性要求」。",
-        "negotiate-mcq-78": "「不接受討論、更改或妥協的」與本句語境不同。",
-        "negotiate-mcq-80": "「不願放棄或妥協的原則」與本句語境不同。",
-        "negotiate-mcq-77": "「票據可以依法流通／轉讓的性質」與本句語境不同。",
-        "negotiate-mcq-81": "「固定價格；不議價」與本句語境不同。",
-        "negotiate-mcq-76": "「某項條件可以協商的程度」與本句語境不同。"
+        "negotiate-mcq-79": "本句的「non-negotiable」指「必須符合、沒有商量餘地的硬性要求」。",
+        "negotiate-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-79"
     },
@@ -3735,11 +3451,9 @@ export default {
       "masked": "Respect is one of my ____.",
       "options": [
         "negotiate-mcq-82",
-        "negotiate-mcq-81",
-        "negotiate-mcq-83",
-        "negotiate-mcq-80",
-        "negotiate-mcq-84",
-        "negotiate-mcq-79"
+        "negotiate-mcq-33",
+        "negotiate-mcq-49",
+        "negotiate-mcq-44"
       ],
       "explanation": "本句的「non-negotiables」指「個人／組織絕不願妥協的事項／底線」。",
       "sentenceIndex": 71,
@@ -3748,12 +3462,10 @@ export default {
         "non-negotiables"
       ],
       "optionReasons": {
-        "negotiate-mcq-82": "本句指「個人／組織絕不願妥協的事項／底線」。",
-        "negotiate-mcq-81": "「固定價格；不議價」與本句語境不同。",
-        "negotiate-mcq-83": "「就已有協議／合約重新談條件」與本句語境不同。",
-        "negotiate-mcq-80": "「不願放棄或妥協的原則」與本句語境不同。",
-        "negotiate-mcq-84": "「重新協商現有條款的過程」與本句語境不同。",
-        "negotiate-mcq-79": "「必須符合、沒有商量餘地的硬性要求」與本句語境不同。"
+        "negotiate-mcq-82": "本句的「non-negotiables」指「個人／組織絕不願妥協的事項／底線」。",
+        "negotiate-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-82"
     },
@@ -3765,11 +3477,9 @@ export default {
       "masked": "They want to ____.",
       "options": [
         "negotiate-mcq-83",
-        "negotiate-mcq-82",
-        "negotiate-mcq-84",
-        "negotiate-mcq-81",
-        "negotiate-mcq-85",
-        "negotiate-mcq-80"
+        "negotiate-mcq-44",
+        "negotiate-mcq-73",
+        "negotiate-mcq-41"
       ],
       "explanation": "本句的「renegotiate the contract」指「就已有協議／合約重新談條件」。",
       "sentenceIndex": 72,
@@ -3778,12 +3488,10 @@ export default {
         "renegotiate the contract"
       ],
       "optionReasons": {
-        "negotiate-mcq-83": "本句指「就已有協議／合約重新談條件」。",
-        "negotiate-mcq-82": "「個人／組織絕不願妥協的事項／底線」與本句語境不同。",
-        "negotiate-mcq-84": "「重新協商現有條款的過程」與本句語境不同。",
-        "negotiate-mcq-81": "「固定價格；不議價」與本句語境不同。",
-        "negotiate-mcq-85": "「已預先透過談判議定的」與本句語境不同。",
-        "negotiate-mcq-80": "「不願放棄或妥協的原則」與本句語境不同。"
+        "negotiate-mcq-83": "本句的「renegotiate the contract」指「就已有協議／合約重新談條件」。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-83"
     },
@@ -3795,11 +3503,9 @@ export default {
       "masked": "The borrower tried to ____.",
       "options": [
         "negotiate-mcq-83",
-        "negotiate-mcq-82",
-        "negotiate-mcq-84",
-        "negotiate-mcq-81",
-        "negotiate-mcq-85",
-        "negotiate-mcq-80"
+        "negotiate-mcq-38",
+        "negotiate-mcq-34",
+        "negotiate-mcq-73"
       ],
       "explanation": "本句的「renegotiate the loan」指「就已有協議／合約重新談條件」。",
       "sentenceIndex": 73,
@@ -3808,12 +3514,10 @@ export default {
         "renegotiate the loan"
       ],
       "optionReasons": {
-        "negotiate-mcq-83": "本句指「就已有協議／合約重新談條件」。",
-        "negotiate-mcq-82": "「個人／組織絕不願妥協的事項／底線」與本句語境不同。",
-        "negotiate-mcq-84": "「重新協商現有條款的過程」與本句語境不同。",
-        "negotiate-mcq-81": "「固定價格；不議價」與本句語境不同。",
-        "negotiate-mcq-85": "「已預先透過談判議定的」與本句語境不同。",
-        "negotiate-mcq-80": "「不願放棄或妥協的原則」與本句語境不同。"
+        "negotiate-mcq-83": "本句的「renegotiate the loan」指「就已有協議／合約重新談條件」。",
+        "negotiate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-83"
     },
@@ -3825,11 +3529,9 @@ export default {
       "masked": "The agreement is due for ____ next year.",
       "options": [
         "negotiate-mcq-84",
-        "negotiate-mcq-83",
-        "negotiate-mcq-85",
-        "negotiate-mcq-82",
-        "negotiate-mcq-86",
-        "negotiate-mcq-81"
+        "negotiate-mcq-97",
+        "negotiate-mcq-98",
+        "negotiate-mcq-36"
       ],
       "explanation": "本句的「renegotiation」指「重新協商現有條款的過程」。",
       "sentenceIndex": 74,
@@ -3838,12 +3540,10 @@ export default {
         "renegotiation"
       ],
       "optionReasons": {
-        "negotiate-mcq-84": "本句指「重新協商現有條款的過程」。",
-        "negotiate-mcq-83": "「就已有協議／合約重新談條件」與本句語境不同。",
-        "negotiate-mcq-85": "「已預先透過談判議定的」與本句語境不同。",
-        "negotiate-mcq-82": "「個人／組織絕不願妥協的事項／底線」與本句語境不同。",
-        "negotiate-mcq-86": "「透過討論協商出折衷方案」與本句語境不同。",
-        "negotiate-mcq-81": "「固定價格；不議價」與本句語境不同。"
+        "negotiate-mcq-84": "本句的「renegotiation」指「重新協商現有條款的過程」。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-98": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-84"
     },
@@ -3855,11 +3555,9 @@ export default {
       "masked": "The service is offered at a ____.",
       "options": [
         "negotiate-mcq-85",
-        "negotiate-mcq-84",
-        "negotiate-mcq-86",
-        "negotiate-mcq-83",
-        "negotiate-mcq-87",
-        "negotiate-mcq-82"
+        "negotiate-mcq-24",
+        "negotiate-mcq-73",
+        "negotiate-mcq-63"
       ],
       "explanation": "本句的「pre-negotiated rate」指「已預先透過談判議定的」。",
       "sentenceIndex": 75,
@@ -3868,12 +3566,10 @@ export default {
         "pre-negotiated rate"
       ],
       "optionReasons": {
-        "negotiate-mcq-85": "本句指「已預先透過談判議定的」。",
-        "negotiate-mcq-84": "「重新協商現有條款的過程」與本句語境不同。",
-        "negotiate-mcq-86": "「透過討論協商出折衷方案」與本句語境不同。",
-        "negotiate-mcq-83": "「就已有協議／合約重新談條件」與本句語境不同。",
-        "negotiate-mcq-87": "「協商出雙方可接受的解決方法」與本句語境不同。",
-        "negotiate-mcq-82": "「個人／組織絕不願妥協的事項／底線」與本句語境不同。"
+        "negotiate-mcq-85": "本句的「pre-negotiated rate」指「已預先透過談判議定的」。",
+        "negotiate-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-85"
     },
@@ -3885,11 +3581,9 @@ export default {
       "masked": "She prepared carefully for the ____.",
       "options": [
         "negotiate-mcq-92",
-        "negotiate-mcq-91",
-        "negotiate-mcq-93",
-        "negotiate-mcq-90",
-        "negotiate-mcq-94",
-        "negotiate-mcq-89"
+        "negotiate-mcq-03",
+        "negotiate-mcq-14",
+        "negotiate-mcq-31"
       ],
       "explanation": "本句的「salary negotiation」指「有關薪酬條件的談判」。",
       "sentenceIndex": 76,
@@ -3898,12 +3592,10 @@ export default {
         "salary negotiation"
       ],
       "optionReasons": {
-        "negotiate-mcq-92": "本句指「有關薪酬條件的談判」。",
-        "negotiate-mcq-91": "「協商工作時數／時間安排」與本句語境不同。",
-        "negotiate-mcq-93": "「就合約條款進行的談判」與本句語境不同。",
-        "negotiate-mcq-90": "「協商截止日期」與本句語境不同。",
-        "negotiate-mcq-94": "「有關價格的協商／議價」與本句語境不同。",
-        "negotiate-mcq-89": "「透過談判取得進入／使用權」與本句語境不同。"
+        "negotiate-mcq-92": "本句的「salary negotiation」指「有關薪酬條件的談判」。",
+        "negotiate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-92"
     },
@@ -3915,11 +3607,9 @@ export default {
       "masked": "Strong demand allowed the company to ____.",
       "options": [
         "negotiate-mcq-97",
-        "negotiate-mcq-96",
-        "negotiate-mcq-98",
-        "negotiate-mcq-95",
-        "negotiate-mcq-99",
-        "negotiate-mcq-94"
+        "negotiate-mcq-31",
+        "negotiate-mcq-24",
+        "negotiate-mcq-79"
       ],
       "explanation": "本句的「negotiate from a position of strength」指「以較有利／強勢地位參與談判」。",
       "sentenceIndex": 77,
@@ -3928,12 +3618,10 @@ export default {
         "negotiate from a position of strength"
       ],
       "optionReasons": {
-        "negotiate-mcq-97": "本句指「以較有利／強勢地位參與談判」。",
-        "negotiate-mcq-96": "「有利於爭取較佳條件的談判籌碼」與本句語境不同。",
-        "negotiate-mcq-98": "「比喻：設法應對不確定局面」與本句語境不同。",
-        "negotiate-mcq-95": "「僱員／工會與僱主之間的集體談判」與本句語境不同。",
-        "negotiate-mcq-99": "「社會互動中協調／重塑權力關係」與本句語境不同。",
-        "negotiate-mcq-94": "「有關價格的協商／議價」與本句語境不同。"
+        "negotiate-mcq-97": "本句的「negotiate from a position of strength」指「以較有利／強勢地位參與談判」。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-97"
     },
@@ -3945,11 +3633,9 @@ export default {
       "masked": "The students ____.",
       "options": [
         "negotiate-mcq-86",
-        "negotiate-mcq-85",
-        "negotiate-mcq-87",
-        "negotiate-mcq-84",
-        "negotiate-mcq-88",
-        "negotiate-mcq-83"
+        "negotiate-mcq-37",
+        "negotiate-mcq-44",
+        "negotiate-mcq-19"
       ],
       "explanation": "本句的「negotiated a compromise」指「透過討論協商出折衷方案」。",
       "sentenceIndex": 78,
@@ -3958,12 +3644,10 @@ export default {
         "negotiated a compromise"
       ],
       "optionReasons": {
-        "negotiate-mcq-86": "本句指「透過討論協商出折衷方案」。",
-        "negotiate-mcq-85": "「已預先透過談判議定的」與本句語境不同。",
-        "negotiate-mcq-87": "「協商出雙方可接受的解決方法」與本句語境不同。",
-        "negotiate-mcq-84": "「重新協商現有條款的過程」與本句語境不同。",
-        "negotiate-mcq-88": "「透過協商形成一個結果」與本句語境不同。",
-        "negotiate-mcq-83": "「就已有協議／合約重新談條件」與本句語境不同。"
+        "negotiate-mcq-86": "本句的「negotiated a compromise」指「透過討論協商出折衷方案」。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-86"
     },
@@ -3975,11 +3659,9 @@ export default {
       "masked": "They eventually ____.",
       "options": [
         "negotiate-mcq-87",
-        "negotiate-mcq-86",
-        "negotiate-mcq-88",
-        "negotiate-mcq-85",
-        "negotiate-mcq-89",
-        "negotiate-mcq-84"
+        "negotiate-mcq-27",
+        "negotiate-mcq-97",
+        "negotiate-mcq-33"
       ],
       "explanation": "本句的「negotiated a solution」指「協商出雙方可接受的解決方法」。",
       "sentenceIndex": 79,
@@ -3988,12 +3670,10 @@ export default {
         "negotiated a solution"
       ],
       "optionReasons": {
-        "negotiate-mcq-87": "本句指「協商出雙方可接受的解決方法」。",
-        "negotiate-mcq-86": "「透過討論協商出折衷方案」與本句語境不同。",
-        "negotiate-mcq-88": "「透過協商形成一個結果」與本句語境不同。",
-        "negotiate-mcq-85": "「已預先透過談判議定的」與本句語境不同。",
-        "negotiate-mcq-89": "「透過談判取得進入／使用權」與本句語境不同。",
-        "negotiate-mcq-84": "「重新協商現有條款的過程」與本句語境不同。"
+        "negotiate-mcq-87": "本句的「negotiated a solution」指「協商出雙方可接受的解決方法」。",
+        "negotiate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-87"
     },
@@ -4005,11 +3685,9 @@ export default {
       "masked": "The organization ____ to the site.",
       "options": [
         "negotiate-mcq-89",
-        "negotiate-mcq-88",
-        "negotiate-mcq-90",
-        "negotiate-mcq-87",
-        "negotiate-mcq-91",
-        "negotiate-mcq-86"
+        "negotiate-mcq-40",
+        "negotiate-mcq-13",
+        "negotiate-mcq-37"
       ],
       "explanation": "本句的「negotiated access」指「透過談判取得進入／使用權」。",
       "sentenceIndex": 80,
@@ -4018,12 +3696,10 @@ export default {
         "negotiated access"
       ],
       "optionReasons": {
-        "negotiate-mcq-89": "本句指「透過談判取得進入／使用權」。",
-        "negotiate-mcq-88": "「透過協商形成一個結果」與本句語境不同。",
-        "negotiate-mcq-90": "「協商截止日期」與本句語境不同。",
-        "negotiate-mcq-87": "「協商出雙方可接受的解決方法」與本句語境不同。",
-        "negotiate-mcq-91": "「協商工作時數／時間安排」與本句語境不同。",
-        "negotiate-mcq-86": "「透過討論協商出折衷方案」與本句語境不同。"
+        "negotiate-mcq-89": "本句的「negotiated access」指「透過談判取得進入／使用權」。",
+        "negotiate-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-89"
     },
@@ -4035,11 +3711,9 @@ export default {
       "masked": "You may be able to ____.",
       "options": [
         "negotiate-mcq-90",
-        "negotiate-mcq-89",
-        "negotiate-mcq-91",
-        "negotiate-mcq-88",
-        "negotiate-mcq-92",
-        "negotiate-mcq-87"
+        "negotiate-mcq-35",
+        "negotiate-mcq-68",
+        "negotiate-mcq-31"
       ],
       "explanation": "本句的「negotiate a later deadline」指「協商截止日期」。",
       "sentenceIndex": 81,
@@ -4048,12 +3722,10 @@ export default {
         "negotiate a later deadline"
       ],
       "optionReasons": {
-        "negotiate-mcq-90": "本句指「協商截止日期」。",
-        "negotiate-mcq-89": "「透過談判取得進入／使用權」與本句語境不同。",
-        "negotiate-mcq-91": "「協商工作時數／時間安排」與本句語境不同。",
-        "negotiate-mcq-88": "「透過協商形成一個結果」與本句語境不同。",
-        "negotiate-mcq-92": "「有關薪酬條件的談判」與本句語境不同。",
-        "negotiate-mcq-87": "「協商出雙方可接受的解決方法」與本句語境不同。"
+        "negotiate-mcq-90": "本句的「negotiate a later deadline」指「協商截止日期」。",
+        "negotiate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-90"
     },
@@ -4065,11 +3737,9 @@ export default {
       "masked": "Young people learn to ____.",
       "options": [
         "negotiate-mcq-98",
-        "negotiate-mcq-97",
-        "negotiate-mcq-99",
-        "negotiate-mcq-96",
-        "negotiate-mcq-100",
-        "negotiate-mcq-95"
+        "negotiate-mcq-32",
+        "negotiate-mcq-16",
+        "negotiate-mcq-34"
       ],
       "explanation": "本句的「negotiate uncertainty」指「比喻：設法應對不確定局面」。",
       "sentenceIndex": 83,
@@ -4078,12 +3748,10 @@ export default {
         "negotiate uncertainty"
       ],
       "optionReasons": {
-        "negotiate-mcq-98": "本句指「比喻：設法應對不確定局面」。",
-        "negotiate-mcq-97": "「以較有利／強勢地位參與談判」與本句語境不同。",
-        "negotiate-mcq-99": "「社會互動中協調／重塑權力關係」與本句語境不同。",
-        "negotiate-mcq-96": "「有利於爭取較佳條件的談判籌碼」與本句語境不同。",
-        "negotiate-mcq-100": "「經互動共同形成的意義」與本句語境不同。",
-        "negotiate-mcq-95": "「僱員／工會與僱主之間的集體談判」與本句語境不同。"
+        "negotiate-mcq-98": "本句的「negotiate uncertainty」指「比喻：設法應對不確定局面」。",
+        "negotiate-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "negotiate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "negotiate-mcq-98"
     }
@@ -4095,5 +3763,7 @@ export default {
     "sha256": "f60c11de8cb41c9e8f0ec3b349177b7cfa804ffdfee19524c26bb85e8f7a3edc",
     "pages": 58
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

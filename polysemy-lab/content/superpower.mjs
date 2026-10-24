@@ -113,9 +113,7 @@ export default {
       "masked": "The character’s ____ is the ability to become invisible.",
       "options": [
         "superpower-mcq-01",
-        "superpower-mcq-02",
-        "superpower-mcq-03",
-        "superpower-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpower」指「超越普通人能力的特殊力量或能力；超能力」。",
       "sentenceIndex": 0,
@@ -124,10 +122,8 @@ export default {
         "superpower"
       ],
       "optionReasons": {
-        "superpower-mcq-01": "本句指「超越普通人能力的特殊力量或能力；超能力」。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。"
+        "superpower-mcq-01": "本句的「superpower」指「超越普通人能力的特殊力量或能力；超能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-01"
     },
@@ -139,9 +135,7 @@ export default {
       "masked": "If you could choose one ____, what would it be?",
       "options": [
         "superpower-mcq-01",
-        "superpower-mcq-02",
-        "superpower-mcq-03",
-        "superpower-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpower」指「超越普通人能力的特殊力量或能力；超能力」。",
       "sentenceIndex": 1,
@@ -150,10 +144,8 @@ export default {
         "superpower"
       ],
       "optionReasons": {
-        "superpower-mcq-01": "本句指「超越普通人能力的特殊力量或能力；超能力」。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。"
+        "superpower-mcq-01": "本句的「superpower」指「超越普通人能力的特殊力量或能力；超能力」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-01"
     },
@@ -165,9 +157,7 @@ export default {
       "masked": "Patience feels almost like a ____.",
       "options": [
         "superpower-mcq-02",
-        "superpower-mcq-01",
-        "superpower-mcq-03",
-        "superpower-mcq-04"
+        "contrast-duration"
       ],
       "explanation": "本句的「superpower」指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
       "sentenceIndex": 2,
@@ -176,10 +166,8 @@ export default {
         "superpower"
       ],
       "optionReasons": {
-        "superpower-mcq-02": "本句指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。"
+        "superpower-mcq-02": "本句的「superpower」指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-02"
     },
@@ -191,9 +179,7 @@ export default {
       "masked": "Her ability to stay calm under pressure is her ____.",
       "options": [
         "superpower-mcq-02",
-        "superpower-mcq-01",
-        "superpower-mcq-03",
-        "superpower-mcq-04"
+        "contrast-duration"
       ],
       "explanation": "本句的「superpower」指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
       "sentenceIndex": 3,
@@ -202,10 +188,8 @@ export default {
         "superpower"
       ],
       "optionReasons": {
-        "superpower-mcq-02": "本句指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。"
+        "superpower-mcq-02": "本句的「superpower」指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-02"
     },
@@ -217,9 +201,7 @@ export default {
       "masked": "Listening carefully can be a real ____.",
       "options": [
         "superpower-mcq-02",
-        "superpower-mcq-01",
-        "superpower-mcq-03",
-        "superpower-mcq-04"
+        "contrast-duration"
       ],
       "explanation": "本句的「superpower」指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
       "sentenceIndex": 4,
@@ -228,10 +210,8 @@ export default {
         "superpower"
       ],
       "optionReasons": {
-        "superpower-mcq-02": "本句指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。"
+        "superpower-mcq-02": "本句的「superpower」指「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-02"
     },
@@ -243,9 +223,7 @@ export default {
       "masked": "The history course examined relations between major ____.",
       "options": [
         "superpower-mcq-03",
-        "superpower-mcq-02",
-        "superpower-mcq-04",
-        "superpower-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpowers」指「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」。",
       "sentenceIndex": 5,
@@ -254,10 +232,8 @@ export default {
         "superpowers"
       ],
       "optionReasons": {
-        "superpower-mcq-03": "本句指「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。"
+        "superpower-mcq-03": "本句的「superpowers」指「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-03"
     },
@@ -269,9 +245,7 @@ export default {
       "masked": "The term ____ is often used in discussions of international relations.",
       "options": [
         "superpower-mcq-03",
-        "superpower-mcq-02",
-        "superpower-mcq-04",
-        "superpower-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpower」指「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」。",
       "sentenceIndex": 6,
@@ -280,10 +254,8 @@ export default {
         "superpower"
       ],
       "optionReasons": {
-        "superpower-mcq-03": "本句指「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-04": "「擁有超能力的；亦可非正式地指功能或力量異常強大的」與本句語境不同。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。"
+        "superpower-mcq-03": "本句的「superpower」指「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-03"
     },
@@ -295,9 +267,7 @@ export default {
       "masked": "The film follows a group of ____ teenagers.",
       "options": [
         "superpower-mcq-04",
-        "superpower-mcq-03",
-        "superpower-mcq-02",
-        "superpower-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpowered」指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
       "sentenceIndex": 7,
@@ -306,10 +276,8 @@ export default {
         "superpowered"
       ],
       "optionReasons": {
-        "superpower-mcq-04": "本句指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。"
+        "superpower-mcq-04": "本句的「superpowered」指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-04"
     },
@@ -321,9 +289,7 @@ export default {
       "masked": "The game features several ____ characters.",
       "options": [
         "superpower-mcq-04",
-        "superpower-mcq-03",
-        "superpower-mcq-02",
-        "superpower-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpowered」指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
       "sentenceIndex": 8,
@@ -332,10 +298,8 @@ export default {
         "superpowered"
       ],
       "optionReasons": {
-        "superpower-mcq-04": "本句指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。"
+        "superpower-mcq-04": "本句的「superpowered」指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-04"
     },
@@ -347,9 +311,7 @@ export default {
       "masked": "The software feels like a ____ version of the basic tool.",
       "options": [
         "superpower-mcq-04",
-        "superpower-mcq-03",
-        "superpower-mcq-02",
-        "superpower-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「superpowered」指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
       "sentenceIndex": 9,
@@ -358,10 +320,8 @@ export default {
         "superpowered"
       ],
       "optionReasons": {
-        "superpower-mcq-04": "本句指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
-        "superpower-mcq-03": "「在世界政治、軍事及國際影響力方面擁有極大力量的國家；超級大國 ([劍橋詞典][1])」與本句語境不同。",
-        "superpower-mcq-02": "「特別強大、罕見或有價值，能給某人明顯優勢的能力或特質」與本句語境不同。",
-        "superpower-mcq-01": "「超越普通人能力的特殊力量或能力；超能力」與本句語境不同。"
+        "superpower-mcq-04": "本句的「superpowered」指「擁有超能力的；亦可非正式地指功能或力量異常強大的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "superpower-mcq-04"
     }
@@ -373,5 +333,16 @@ export default {
     "sha256": "7798c58adf8a0e0c53cdc66ef47d323069ffbbe9f384c7de04ea91c9291ff249",
     "pages": 8
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -275,11 +275,8 @@ export default {
       "masked": "They bought a ____.",
       "options": [
         "second-hand-mcq-01",
-        "second-hand-mcq-02",
-        "second-hand-mcq-03",
-        "second-hand-mcq-04",
-        "second-hand-mcq-05",
-        "second-hand-mcq-06"
+        "second-hand-mcq-12",
+        "second-hand-mcq-03"
       ],
       "explanation": "本句的「second-hand car」指「曾被其他人擁有／使用過，之後再次出售或轉交的」。",
       "sentenceIndex": 0,
@@ -288,12 +285,9 @@ export default {
         "second-hand car"
       ],
       "optionReasons": {
-        "second-hand-mcq-01": "本句指「曾被其他人擁有／使用過，之後再次出售或轉交的」。",
-        "second-hand-mcq-02": "「已有前任車主、並非全新出售的汽車」與本句語境不同。",
-        "second-hand-mcq-03": "「某二手商品在中古／二手市場中的售價」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-01": "本句的「second-hand car」指「曾被其他人擁有／使用過，之後再次出售或轉交的」。",
+        "second-hand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-01"
     },
@@ -305,11 +299,8 @@ export default {
       "masked": "She prefers ____ furniture.",
       "options": [
         "second-hand-mcq-01",
-        "second-hand-mcq-02",
-        "second-hand-mcq-03",
-        "second-hand-mcq-04",
-        "second-hand-mcq-05",
-        "second-hand-mcq-06"
+        "second-hand-mcq-12",
+        "second-hand-mcq-03"
       ],
       "explanation": "本句的「second-hand」指「曾被其他人擁有／使用過，之後再次出售或轉交的」。",
       "sentenceIndex": 1,
@@ -318,12 +309,9 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-01": "本句指「曾被其他人擁有／使用過，之後再次出售或轉交的」。",
-        "second-hand-mcq-02": "「已有前任車主、並非全新出售的汽車」與本句語境不同。",
-        "second-hand-mcq-03": "「某二手商品在中古／二手市場中的售價」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-01": "本句的「second-hand」指「曾被其他人擁有／使用過，之後再次出售或轉交的」。",
+        "second-hand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-01"
     },
@@ -335,11 +323,9 @@ export default {
       "masked": "____ electric cars are becoming more common.",
       "options": [
         "second-hand-mcq-02",
-        "second-hand-mcq-01",
-        "second-hand-mcq-03",
-        "second-hand-mcq-04",
-        "second-hand-mcq-05",
-        "second-hand-mcq-06"
+        "second-hand-mcq-13",
+        "second-hand-mcq-11",
+        "second-hand-mcq-04"
       ],
       "explanation": "本句的「Second-hand」指「已有前任車主、並非全新出售的汽車」。",
       "sentenceIndex": 2,
@@ -348,12 +334,10 @@ export default {
         "Second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-02": "本句指「已有前任車主、並非全新出售的汽車」。",
-        "second-hand-mcq-01": "「曾被其他人擁有／使用過，之後再次出售或轉交的」與本句語境不同。",
-        "second-hand-mcq-03": "「某二手商品在中古／二手市場中的售價」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-02": "本句的「Second-hand」指「已有前任車主、並非全新出售的汽車」。",
+        "second-hand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-02"
     },
@@ -365,11 +349,9 @@ export default {
       "masked": "Battery condition affects the price of a ____ car.",
       "options": [
         "second-hand-mcq-02",
-        "second-hand-mcq-01",
+        "second-hand-mcq-08",
         "second-hand-mcq-03",
-        "second-hand-mcq-04",
-        "second-hand-mcq-05",
-        "second-hand-mcq-06"
+        "second-hand-mcq-07"
       ],
       "explanation": "本句的「second-hand」指「已有前任車主、並非全新出售的汽車」。",
       "sentenceIndex": 3,
@@ -378,12 +360,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-02": "本句指「已有前任車主、並非全新出售的汽車」。",
-        "second-hand-mcq-01": "「曾被其他人擁有／使用過，之後再次出售或轉交的」與本句語境不同。",
-        "second-hand-mcq-03": "「某二手商品在中古／二手市場中的售價」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-02": "本句的「second-hand」指「已有前任車主、並非全新出售的汽車」。",
+        "second-hand-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-02"
     },
@@ -395,11 +375,9 @@ export default {
       "masked": "____ prices vary according to age and condition.",
       "options": [
         "second-hand-mcq-03",
-        "second-hand-mcq-02",
-        "second-hand-mcq-04",
-        "second-hand-mcq-01",
-        "second-hand-mcq-05",
-        "second-hand-mcq-06"
+        "second-hand-mcq-09",
+        "second-hand-mcq-07",
+        "second-hand-mcq-02"
       ],
       "explanation": "本句的「Second-hand」指「某二手商品在中古／二手市場中的售價」。",
       "sentenceIndex": 4,
@@ -408,12 +386,10 @@ export default {
         "Second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-03": "本句指「某二手商品在中古／二手市場中的售價」。",
-        "second-hand-mcq-02": "「已有前任車主、並非全新出售的汽車」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。",
-        "second-hand-mcq-01": "「曾被其他人擁有／使用過，之後再次出售或轉交的」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-03": "本句的「Second-hand」指「某二手商品在中古／二手市場中的售價」。",
+        "second-hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-03"
     },
@@ -425,11 +401,9 @@ export default {
       "masked": "Buyers worry about future ____ prices.",
       "options": [
         "second-hand-mcq-03",
-        "second-hand-mcq-02",
-        "second-hand-mcq-04",
-        "second-hand-mcq-01",
-        "second-hand-mcq-05",
-        "second-hand-mcq-06"
+        "second-hand-mcq-13",
+        "second-hand-mcq-12",
+        "second-hand-mcq-09"
       ],
       "explanation": "本句的「second-hand」指「某二手商品在中古／二手市場中的售價」。",
       "sentenceIndex": 5,
@@ -438,12 +412,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-03": "本句指「某二手商品在中古／二手市場中的售價」。",
-        "second-hand-mcq-02": "「已有前任車主、並非全新出售的汽車」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。",
-        "second-hand-mcq-01": "「曾被其他人擁有／使用過，之後再次出售或轉交的」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-03": "本句的「second-hand」指「某二手商品在中古／二手市場中的售價」。",
+        "second-hand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-03"
     },
@@ -455,11 +427,9 @@ export default {
       "masked": "The ____ for electric vehicles is still developing.",
       "options": [
         "second-hand-mcq-04",
-        "second-hand-mcq-03",
-        "second-hand-mcq-05",
-        "second-hand-mcq-02",
-        "second-hand-mcq-06",
-        "second-hand-mcq-01"
+        "second-hand-mcq-07",
+        "second-hand-mcq-09",
+        "second-hand-mcq-02"
       ],
       "explanation": "本句的「second-hand market」指「買賣已被使用／擁有過商品的市場」。",
       "sentenceIndex": 6,
@@ -468,12 +438,10 @@ export default {
         "second-hand market"
       ],
       "optionReasons": {
-        "second-hand-mcq-04": "本句指「買賣已被使用／擁有過商品的市場」。",
-        "second-hand-mcq-03": "「某二手商品在中古／二手市場中的售價」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-02": "「已有前任車主、並非全新出售的汽車」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。",
-        "second-hand-mcq-01": "「曾被其他人擁有／使用過，之後再次出售或轉交的」與本句語境不同。"
+        "second-hand-mcq-04": "本句的「second-hand market」指「買賣已被使用／擁有過商品的市場」。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-04"
     },
@@ -485,11 +453,9 @@ export default {
       "masked": "A healthy ____ market can support resale values.",
       "options": [
         "second-hand-mcq-04",
-        "second-hand-mcq-03",
-        "second-hand-mcq-05",
-        "second-hand-mcq-02",
-        "second-hand-mcq-06",
-        "second-hand-mcq-01"
+        "second-hand-mcq-10",
+        "second-hand-mcq-07",
+        "second-hand-mcq-02"
       ],
       "explanation": "本句的「second-hand」指「買賣已被使用／擁有過商品的市場」。",
       "sentenceIndex": 7,
@@ -498,12 +464,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-04": "本句指「買賣已被使用／擁有過商品的市場」。",
-        "second-hand-mcq-03": "「某二手商品在中古／二手市場中的售價」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-02": "「已有前任車主、並非全新出售的汽車」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。",
-        "second-hand-mcq-01": "「曾被其他人擁有／使用過，之後再次出售或轉交的」與本句語境不同。"
+        "second-hand-mcq-04": "本句的「second-hand」指「買賣已被使用／擁有過商品的市場」。",
+        "second-hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-04"
     },
@@ -515,11 +479,9 @@ export default {
       "masked": "The article relies on ____ accounts.",
       "options": [
         "second-hand-mcq-07",
-        "second-hand-mcq-06",
-        "second-hand-mcq-08",
-        "second-hand-mcq-05",
-        "second-hand-mcq-09",
-        "second-hand-mcq-04"
+        "second-hand-mcq-04",
+        "second-hand-mcq-10",
+        "second-hand-mcq-02"
       ],
       "explanation": "本句的「second-hand」指「由非直接目擊者轉述所得的記述」。",
       "sentenceIndex": 20,
@@ -528,12 +490,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-07": "本句指「由非直接目擊者轉述所得的記述」。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。"
+        "second-hand-mcq-07": "本句的「second-hand」指「由非直接目擊者轉述所得的記述」。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-07"
     },
@@ -545,11 +505,9 @@ export default {
       "masked": "A ____ account may be less reliable than direct testimony.",
       "options": [
         "second-hand-mcq-07",
-        "second-hand-mcq-06",
-        "second-hand-mcq-08",
-        "second-hand-mcq-05",
-        "second-hand-mcq-09",
-        "second-hand-mcq-04"
+        "second-hand-mcq-04",
+        "second-hand-mcq-10",
+        "second-hand-mcq-02"
       ],
       "explanation": "本句的「second-hand」指「由非直接目擊者轉述所得的記述」。",
       "sentenceIndex": 21,
@@ -558,12 +516,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-07": "本句指「由非直接目擊者轉述所得的記述」。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-04": "「買賣已被使用／擁有過商品的市場」與本句語境不同。"
+        "second-hand-mcq-07": "本句的「second-hand」指「由非直接目擊者轉述所得的記述」。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-07"
     },
@@ -575,11 +531,8 @@ export default {
       "masked": "She had ____ of the problem.",
       "options": [
         "second-hand-mcq-12",
-        "second-hand-mcq-11",
-        "second-hand-mcq-13",
-        "second-hand-mcq-10",
-        "second-hand-mcq-14",
-        "second-hand-mcq-09"
+        "second-hand-mcq-03",
+        "second-hand-mcq-01"
       ],
       "explanation": "本句的「first-hand experience」指「由本人直接經歷、觀察或取得的」。",
       "sentenceIndex": 22,
@@ -588,12 +541,9 @@ export default {
         "first-hand experience"
       ],
       "optionReasons": {
-        "second-hand-mcq-12": "本句指「由本人直接經歷、觀察或取得的」。",
-        "second-hand-mcq-11": "「因反覆接觸他人的創傷經歷而受到的間接心理影響」與本句語境不同。",
-        "second-hand-mcq-13": "「經過多於一層中間人再轉述而來的」與本句語境不同。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-14": "「鐘錶上顯示秒數的秒針」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。"
+        "second-hand-mcq-12": "本句的「first-hand experience」指「由本人直接經歷、觀察或取得的」。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-12"
     },
@@ -605,11 +555,9 @@ export default {
       "masked": "Most of his knowledge came from ____ experience.",
       "options": [
         "second-hand-mcq-08",
-        "second-hand-mcq-07",
-        "second-hand-mcq-09",
-        "second-hand-mcq-06",
-        "second-hand-mcq-10",
-        "second-hand-mcq-05"
+        "second-hand-mcq-02",
+        "second-hand-mcq-03",
+        "second-hand-mcq-07"
       ],
       "explanation": "本句的「second-hand」指「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」。",
       "sentenceIndex": 23,
@@ -618,12 +566,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-08": "本句指「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」。",
-        "second-hand-mcq-07": "「由非直接目擊者轉述所得的記述」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。"
+        "second-hand-mcq-08": "本句的「second-hand」指「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-08"
     },
@@ -635,11 +581,9 @@ export default {
       "masked": "Reading about a crisis gives only ____ experience.",
       "options": [
         "second-hand-mcq-08",
-        "second-hand-mcq-07",
-        "second-hand-mcq-09",
-        "second-hand-mcq-06",
-        "second-hand-mcq-10",
-        "second-hand-mcq-05"
+        "second-hand-mcq-02",
+        "second-hand-mcq-03",
+        "second-hand-mcq-07"
       ],
       "explanation": "本句的「second-hand」指「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」。",
       "sentenceIndex": 24,
@@ -648,12 +592,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-08": "本句指「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」。",
-        "second-hand-mcq-07": "「由非直接目擊者轉述所得的記述」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-05": "「以二手／非全新品方式購買或取得」與本句語境不同。"
+        "second-hand-mcq-08": "本句的「second-hand」指「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-08"
     },
@@ -665,11 +607,9 @@ export default {
       "masked": "Children should be protected from ____.",
       "options": [
         "second-hand-mcq-09",
-        "second-hand-mcq-08",
-        "second-hand-mcq-10",
-        "second-hand-mcq-07",
-        "second-hand-mcq-11",
-        "second-hand-mcq-06"
+        "second-hand-mcq-13",
+        "second-hand-mcq-04",
+        "second-hand-mcq-12"
       ],
       "explanation": "本句的「second-hand smoke」指「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」。",
       "sentenceIndex": 29,
@@ -678,12 +618,10 @@ export default {
         "second-hand smoke"
       ],
       "optionReasons": {
-        "second-hand-mcq-09": "本句指「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-07": "「由非直接目擊者轉述所得的記述」與本句語境不同。",
-        "second-hand-mcq-11": "「因反覆接觸他人的創傷經歷而受到的間接心理影響」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-09": "本句的「second-hand smoke」指「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」。",
+        "second-hand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-09"
     },
@@ -695,11 +633,9 @@ export default {
       "masked": "____ smoke can affect people nearby.",
       "options": [
         "second-hand-mcq-09",
-        "second-hand-mcq-08",
-        "second-hand-mcq-10",
-        "second-hand-mcq-07",
-        "second-hand-mcq-11",
-        "second-hand-mcq-06"
+        "second-hand-mcq-04",
+        "second-hand-mcq-13",
+        "second-hand-mcq-12"
       ],
       "explanation": "本句的「Second-hand」指「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」。",
       "sentenceIndex": 30,
@@ -708,12 +644,10 @@ export default {
         "Second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-09": "本句指「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-07": "「由非直接目擊者轉述所得的記述」與本句語境不同。",
-        "second-hand-mcq-11": "「因反覆接觸他人的創傷經歷而受到的間接心理影響」與本句語境不同。",
-        "second-hand-mcq-06": "「不是由自己直接取得，而是由別人轉述而來的資訊」與本句語境不同。"
+        "second-hand-mcq-09": "本句的「Second-hand」指「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-09"
     },
@@ -725,11 +659,9 @@ export default {
       "masked": "I felt intense ____ watching the video.",
       "options": [
         "second-hand-mcq-10",
-        "second-hand-mcq-09",
-        "second-hand-mcq-11",
-        "second-hand-mcq-08",
-        "second-hand-mcq-12",
-        "second-hand-mcq-07"
+        "second-hand-mcq-07",
+        "second-hand-mcq-04",
+        "second-hand-mcq-02"
       ],
       "explanation": "本句的「second-hand embarrassment」指「因看到別人尷尬的行為而自己也替對方感到尷尬」。",
       "sentenceIndex": 33,
@@ -738,12 +670,10 @@ export default {
         "second-hand embarrassment"
       ],
       "optionReasons": {
-        "second-hand-mcq-10": "本句指「因看到別人尷尬的行為而自己也替對方感到尷尬」。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-11": "「因反覆接觸他人的創傷經歷而受到的間接心理影響」與本句語境不同。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。",
-        "second-hand-mcq-12": "「由本人直接經歷、觀察或取得的」與本句語境不同。",
-        "second-hand-mcq-07": "「由非直接目擊者轉述所得的記述」與本句語境不同。"
+        "second-hand-mcq-10": "本句的「second-hand embarrassment」指「因看到別人尷尬的行為而自己也替對方感到尷尬」。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-10"
     },
@@ -755,11 +685,9 @@ export default {
       "masked": "The awkward speech gave everyone ____ embarrassment.",
       "options": [
         "second-hand-mcq-10",
-        "second-hand-mcq-09",
-        "second-hand-mcq-11",
-        "second-hand-mcq-08",
-        "second-hand-mcq-12",
-        "second-hand-mcq-07"
+        "second-hand-mcq-07",
+        "second-hand-mcq-02",
+        "second-hand-mcq-04"
       ],
       "explanation": "本句的「second-hand」指「因看到別人尷尬的行為而自己也替對方感到尷尬」。",
       "sentenceIndex": 34,
@@ -768,12 +696,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-10": "本句指「因看到別人尷尬的行為而自己也替對方感到尷尬」。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-11": "「因反覆接觸他人的創傷經歷而受到的間接心理影響」與本句語境不同。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。",
-        "second-hand-mcq-12": "「由本人直接經歷、觀察或取得的」與本句語境不同。",
-        "second-hand-mcq-07": "「由非直接目擊者轉述所得的記述」與本句語境不同。"
+        "second-hand-mcq-10": "本句的「second-hand」指「因看到別人尷尬的行為而自己也替對方感到尷尬」。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-10"
     },
@@ -785,11 +711,9 @@ export default {
       "masked": "Repeated exposure to disturbing stories can cause ____ trauma.",
       "options": [
         "second-hand-mcq-11",
-        "second-hand-mcq-10",
-        "second-hand-mcq-12",
-        "second-hand-mcq-09",
-        "second-hand-mcq-13",
-        "second-hand-mcq-08"
+        "second-hand-mcq-03",
+        "second-hand-mcq-02",
+        "second-hand-mcq-07"
       ],
       "explanation": "本句的「second-hand」指「因反覆接觸他人的創傷經歷而受到的間接心理影響」。",
       "sentenceIndex": 37,
@@ -798,12 +722,10 @@ export default {
         "second-hand"
       ],
       "optionReasons": {
-        "second-hand-mcq-11": "本句指「因反覆接觸他人的創傷經歷而受到的間接心理影響」。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-12": "「由本人直接經歷、觀察或取得的」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。",
-        "second-hand-mcq-13": "「經過多於一層中間人再轉述而來的」與本句語境不同。",
-        "second-hand-mcq-08": "「沒有親身經歷，而是透過別人／媒體間接獲得的經驗認知」與本句語境不同。"
+        "second-hand-mcq-11": "本句的「second-hand」指「因反覆接觸他人的創傷經歷而受到的間接心理影響」。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-11"
     },
@@ -815,11 +737,9 @@ export default {
       "masked": "The ____ hand moved around the clock.",
       "options": [
         "second-hand-mcq-13",
-        "second-hand-mcq-12",
-        "second-hand-mcq-14",
-        "second-hand-mcq-11",
+        "second-hand-mcq-02",
         "second-hand-mcq-10",
-        "second-hand-mcq-09"
+        "second-hand-mcq-03"
       ],
       "explanation": "本句的「second」指「經過多於一層中間人再轉述而來的」。",
       "sentenceIndex": 47,
@@ -828,12 +748,10 @@ export default {
         "second"
       ],
       "optionReasons": {
-        "second-hand-mcq-13": "本句指「經過多於一層中間人再轉述而來的」。",
-        "second-hand-mcq-12": "「由本人直接經歷、觀察或取得的」與本句語境不同。",
-        "second-hand-mcq-14": "「鐘錶上顯示秒數的秒針」與本句語境不同。",
-        "second-hand-mcq-11": "「因反覆接觸他人的創傷經歷而受到的間接心理影響」與本句語境不同。",
-        "second-hand-mcq-10": "「因看到別人尷尬的行為而自己也替對方感到尷尬」與本句語境不同。",
-        "second-hand-mcq-09": "「非吸煙者吸入由其他人吸煙所產生／呼出的煙霧」與本句語境不同。"
+        "second-hand-mcq-13": "本句的「second」指「經過多於一層中間人再轉述而來的」。",
+        "second-hand-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "second-hand-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "second-hand-mcq-13"
     }
@@ -845,5 +763,7 @@ export default {
     "sha256": "00a26aca961b2d0615c3e4fc24ce6d7c92898cfce19965717e3eb93473555817",
     "pages": 34
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

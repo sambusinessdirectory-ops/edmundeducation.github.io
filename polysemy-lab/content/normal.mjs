@@ -823,11 +823,9 @@ export default {
       "masked": "It’s ____ to feel nervous before an interview.",
       "options": [
         "normal-mcq-01",
-        "normal-mcq-02",
-        "normal-mcq-03",
-        "normal-mcq-04",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-22",
+        "normal-mcq-25",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normal」指「符合一般情況、平常模式或合理預期的」。",
       "sentenceIndex": 0,
@@ -836,12 +834,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-01": "本句指「符合一般情況、平常模式或合理預期的」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-01": "本句的「normal」指「符合一般情況、平常模式或合理預期的」。",
+        "normal-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-01"
     },
@@ -853,11 +849,9 @@ export default {
       "masked": "Everything returned to ____ after the storm.",
       "options": [
         "normal-mcq-01",
-        "normal-mcq-02",
-        "normal-mcq-03",
-        "normal-mcq-04",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-25",
+        "normal-pdf-002",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normal」指「符合一般情況、平常模式或合理預期的」。",
       "sentenceIndex": 1,
@@ -866,12 +860,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-01": "本句指「符合一般情況、平常模式或合理預期的」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-01": "本句的「normal」指「符合一般情況、平常模式或合理預期的」。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-01"
     },
@@ -883,11 +875,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "normal-mcq-02",
-        "normal-mcq-01",
-        "normal-mcq-03",
-        "normal-mcq-04",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-15",
+        "normal-mcq-27",
+        "normal-mcq-20"
       ],
       "explanation": "本句的「normal working day」指「沒有特別異常、特殊或極端之處的」。",
       "sentenceIndex": 2,
@@ -896,12 +886,10 @@ export default {
         "normal working day"
       ],
       "optionReasons": {
-        "normal-mcq-02": "本句指「沒有特別異常、特殊或極端之處的」。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-02": "本句的「normal working day」指「沒有特別異常、特殊或極端之處的」。",
+        "normal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-02"
     },
@@ -913,11 +901,9 @@ export default {
       "masked": "She wants to live a ____ life.",
       "options": [
         "normal-mcq-02",
-        "normal-mcq-01",
-        "normal-mcq-03",
-        "normal-mcq-04",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-pdf-002",
+        "normal-mcq-26",
+        "normal-mcq-05"
       ],
       "explanation": "本句的「normal」指「沒有特別異常、特殊或極端之處的」。",
       "sentenceIndex": 3,
@@ -926,12 +912,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-02": "本句指「沒有特別異常、特殊或極端之處的」。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-02": "本句的「normal」指「沒有特別異常、特殊或極端之處的」。",
+        "normal-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-02"
     },
@@ -943,11 +927,9 @@ export default {
       "masked": "Under ____, the journey takes an hour.",
       "options": [
         "normal-mcq-03",
-        "normal-mcq-02",
-        "normal-mcq-04",
-        "normal-mcq-01",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-09",
+        "normal-mcq-26",
+        "normal-mcq-05"
       ],
       "explanation": "本句的「normal circumstances」指「沒有特殊干擾／異常情況下的通常狀態」。",
       "sentenceIndex": 4,
@@ -956,12 +938,10 @@ export default {
         "normal circumstances"
       ],
       "optionReasons": {
-        "normal-mcq-03": "本句指「沒有特殊干擾／異常情況下的通常狀態」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-03": "本句的「normal circumstances」指「沒有特殊干擾／異常情況下的通常狀態」。",
+        "normal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-03"
     },
@@ -973,11 +953,9 @@ export default {
       "masked": "The machine works well under ____ conditions.",
       "options": [
         "normal-mcq-03",
-        "normal-mcq-02",
-        "normal-mcq-04",
-        "normal-mcq-01",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-27",
+        "normal-mcq-23",
+        "normal-mcq-20"
       ],
       "explanation": "本句的「normal」指「沒有特殊干擾／異常情況下的通常狀態」。",
       "sentenceIndex": 5,
@@ -986,12 +964,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-03": "本句指「沒有特殊干擾／異常情況下的通常狀態」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-03": "本句的「normal」指「沒有特殊干擾／異常情況下的通常狀態」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-03"
     },
@@ -1003,11 +979,9 @@ export default {
       "masked": "I see her once a week, ____.",
       "options": [
         "normal-mcq-06",
-        "normal-mcq-05",
-        "normal-mcq-07",
+        "normal-pdf-002",
         "normal-mcq-04",
-        "normal-mcq-08",
-        "normal-mcq-03"
+        "normal-mcq-26"
       ],
       "explanation": "本句的「normally on Sunday afternoon」指「按一般習慣或最常見模式而言；通常」。",
       "sentenceIndex": 6,
@@ -1016,12 +990,10 @@ export default {
         "normally on Sunday afternoon"
       ],
       "optionReasons": {
-        "normal-mcq-06": "本句指「按一般習慣或最常見模式而言；通常」。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。"
+        "normal-mcq-06": "本句的「normally on Sunday afternoon」指「按一般習慣或最常見模式而言；通常」。",
+        "normal-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-06"
     },
@@ -1033,11 +1005,9 @@ export default {
       "masked": "I ____ leave work at six.",
       "options": [
         "normal-mcq-06",
-        "normal-mcq-05",
-        "normal-mcq-07",
-        "normal-mcq-04",
-        "normal-mcq-08",
-        "normal-mcq-03"
+        "normal-pdf-003",
+        "normal-pdf-005",
+        "normal-mcq-22"
       ],
       "explanation": "本句的「normally」指「按一般習慣或最常見模式而言；通常」。",
       "sentenceIndex": 7,
@@ -1046,12 +1016,10 @@ export default {
         "normally"
       ],
       "optionReasons": {
-        "normal-mcq-06": "本句指「按一般習慣或最常見模式而言；通常」。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。"
+        "normal-mcq-06": "本句的「normally」指「按一般習慣或最常見模式而言；通常」。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-06"
     },
@@ -1064,10 +1032,8 @@ export default {
       "options": [
         "normal-mcq-06",
         "normal-mcq-05",
-        "normal-mcq-07",
-        "normal-mcq-04",
-        "normal-mcq-08",
-        "normal-mcq-03"
+        "normal-pdf-005",
+        "normal-mcq-24"
       ],
       "explanation": "本句的「normally」指「按一般習慣或最常見模式而言；通常」。",
       "sentenceIndex": 8,
@@ -1076,12 +1042,10 @@ export default {
         "normally"
       ],
       "optionReasons": {
-        "normal-mcq-06": "本句指「按一般習慣或最常見模式而言；通常」。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。"
+        "normal-mcq-06": "本句的「normally」指「按一般習慣或最常見模式而言；通常」。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-06"
     },
@@ -1093,11 +1057,9 @@ export default {
       "masked": "The door would ____ be locked at night.",
       "options": [
         "normal-mcq-07",
-        "normal-mcq-06",
-        "normal-mcq-08",
-        "normal-mcq-05",
+        "normal-mcq-27",
         "normal-mcq-09",
-        "normal-mcq-04"
+        "normal-mcq-20"
       ],
       "explanation": "本句的「normally」指「若沒有特殊情況或例外，正常情況下會如此」。",
       "sentenceIndex": 9,
@@ -1106,12 +1068,10 @@ export default {
         "normally"
       ],
       "optionReasons": {
-        "normal-mcq-07": "本句指「若沒有特殊情況或例外，正常情況下會如此」。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。"
+        "normal-mcq-07": "本句的「normally」指「若沒有特殊情況或例外，正常情況下會如此」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-07"
     },
@@ -1123,11 +1083,9 @@ export default {
       "masked": "This process ____ takes two days.",
       "options": [
         "normal-mcq-07",
-        "normal-mcq-06",
-        "normal-mcq-08",
-        "normal-mcq-05",
-        "normal-mcq-09",
-        "normal-mcq-04"
+        "normal-mcq-17",
+        "normal-mcq-04",
+        "normal-mcq-22"
       ],
       "explanation": "本句的「normally」指「若沒有特殊情況或例外，正常情況下會如此」。",
       "sentenceIndex": 10,
@@ -1136,12 +1094,10 @@ export default {
         "normally"
       ],
       "optionReasons": {
-        "normal-mcq-07": "本句指「若沒有特殊情況或例外，正常情況下會如此」。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。"
+        "normal-mcq-07": "本句的「normally」指「若沒有特殊情況或例外，正常情況下會如此」。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-07"
     },
@@ -1153,11 +1109,9 @@ export default {
       "masked": "Things are finally ____.",
       "options": [
         "normal-pdf-001",
-        "normal-mcq-02",
-        "normal-mcq-04",
-        "normal-mcq-01",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-15",
+        "normal-mcq-17",
+        "normal-pdf-005"
       ],
       "explanation": "本句的「back to normal」指「由異常／特殊狀態回到平常或預期狀態」。",
       "sentenceIndex": 11,
@@ -1166,12 +1120,10 @@ export default {
         "back to normal"
       ],
       "optionReasons": {
-        "normal-pdf-001": "本句指「由異常／特殊狀態回到平常或預期狀態」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-pdf-001": "本句的「back to normal」指「由異常／特殊狀態回到平常或預期狀態」。",
+        "normal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-001"
     },
@@ -1183,10 +1135,8 @@ export default {
       "masked": "Her temperature returned to ____.",
       "options": [
         "normal-pdf-001",
-        "normal-mcq-02",
-        "normal-mcq-04",
-        "normal-mcq-01",
-        "normal-mcq-05",
+        "normal-mcq-28",
+        "normal-pdf-005",
         "normal-mcq-06"
       ],
       "explanation": "本句的「normal」指「由異常／特殊狀態回到平常或預期狀態」。",
@@ -1196,12 +1146,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-pdf-001": "本句指「由異常／特殊狀態回到平常或預期狀態」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-pdf-001": "本句的「normal」指「由異常／特殊狀態回到平常或預期狀態」。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-001"
     },
@@ -1213,11 +1161,9 @@ export default {
       "masked": "Demand is now close to ____.",
       "options": [
         "normal-mcq-03",
-        "normal-mcq-02",
-        "normal-mcq-04",
-        "normal-mcq-01",
-        "normal-mcq-05",
-        "normal-mcq-06"
+        "normal-mcq-28",
+        "normal-pdf-005",
+        "normal-mcq-20"
       ],
       "explanation": "本句的「normal」指「沒有特殊干擾／異常情況下的通常狀態」。",
       "sentenceIndex": 13,
@@ -1226,12 +1172,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-03": "本句指「沒有特殊干擾／異常情況下的通常狀態」。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-03": "本句的「normal」指「沒有特殊干擾／異常情況下的通常狀態」。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-03"
     },
@@ -1243,11 +1187,9 @@ export default {
       "masked": "Her blood pressure is ____.",
       "options": [
         "normal-mcq-04",
-        "normal-mcq-03",
-        "normal-mcq-05",
-        "normal-mcq-02",
         "normal-mcq-06",
-        "normal-mcq-01"
+        "normal-mcq-14",
+        "normal-mcq-15"
       ],
       "explanation": "本句的「normal」指「身體功能、測量值或系統運作處於預期／參考範圍」。",
       "sentenceIndex": 14,
@@ -1256,12 +1198,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-04": "本句指「身體功能、測量值或系統運作處於預期／參考範圍」。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。"
+        "normal-mcq-04": "本句的「normal」指「身體功能、測量值或系統運作處於預期／參考範圍」。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-04"
     },
@@ -1273,11 +1213,9 @@ export default {
       "masked": "The test results were ____.",
       "options": [
         "normal-mcq-04",
+        "normal-mcq-15",
         "normal-mcq-03",
-        "normal-mcq-05",
-        "normal-mcq-02",
-        "normal-mcq-06",
-        "normal-mcq-01"
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normal」指「身體功能、測量值或系統運作處於預期／參考範圍」。",
       "sentenceIndex": 15,
@@ -1286,12 +1224,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-04": "本句指「身體功能、測量值或系統運作處於預期／參考範圍」。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-01": "「符合一般情況、平常模式或合理預期的」是「normal — usual/expected」的用法，與本句語境不同。"
+        "normal-mcq-04": "本句的「normal」指「身體功能、測量值或系統運作處於預期／參考範圍」。",
+        "normal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-04"
     },
@@ -1303,11 +1239,9 @@ export default {
       "masked": "The result is within the ____.",
       "options": [
         "normal-mcq-05",
-        "normal-mcq-04",
-        "normal-mcq-06",
-        "normal-mcq-03",
-        "normal-mcq-07",
-        "normal-mcq-02"
+        "normal-mcq-25",
+        "normal-mcq-16",
+        "normal-mcq-14"
       ],
       "explanation": "本句的「normal range」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
       "sentenceIndex": 16,
@@ -1316,12 +1250,10 @@ export default {
         "normal range"
       ],
       "optionReasons": {
-        "normal-mcq-05": "本句指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-05": "本句的「normal range」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-05"
     },
@@ -1333,11 +1265,9 @@ export default {
       "masked": "Her temperature is above the ____ range.",
       "options": [
         "normal-mcq-05",
-        "normal-mcq-04",
-        "normal-mcq-06",
-        "normal-mcq-03",
         "normal-mcq-07",
-        "normal-mcq-02"
+        "normal-mcq-25",
+        "normal-mcq-29"
       ],
       "explanation": "本句的「normal」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
       "sentenceIndex": 17,
@@ -1346,12 +1276,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-05": "本句指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-05": "本句的「normal」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-05"
     },
@@ -1363,11 +1291,9 @@ export default {
       "masked": "He just wants to have a ____.",
       "options": [
         "normal-mcq-07",
-        "normal-mcq-06",
-        "normal-mcq-08",
-        "normal-mcq-05",
-        "normal-mcq-09",
-        "normal-mcq-04"
+        "normal-mcq-20",
+        "normal-mcq-15",
+        "normal-pdf-005"
       ],
       "explanation": "本句的「normal life」指「若沒有特殊情況或例外，正常情況下會如此」。",
       "sentenceIndex": 18,
@@ -1376,12 +1302,10 @@ export default {
         "normal life"
       ],
       "optionReasons": {
-        "normal-mcq-07": "本句指「若沒有特殊情況或例外，正常情況下會如此」。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。"
+        "normal-mcq-07": "本句的「normal life」指「若沒有特殊情況或例外，正常情況下會如此」。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-07"
     },
@@ -1393,10 +1317,8 @@ export default {
       "masked": "Her reaction was completely ____.",
       "options": [
         "normal-mcq-07",
-        "normal-mcq-06",
-        "normal-mcq-08",
-        "normal-mcq-05",
-        "normal-mcq-09",
+        "normal-mcq-27",
+        "normal-mcq-28",
         "normal-mcq-04"
       ],
       "explanation": "本句的「normal」指「若沒有特殊情況或例外，正常情況下會如此」。",
@@ -1406,12 +1328,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-07": "本句指「若沒有特殊情況或例外，正常情況下會如此」。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。"
+        "normal-mcq-07": "本句的「normal」指「若沒有特殊情況或例外，正常情況下會如此」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-07"
     },
@@ -1423,11 +1343,9 @@ export default {
       "masked": "Working from home has become the ____.",
       "options": [
         "normal-mcq-08",
-        "normal-mcq-07",
-        "normal-mcq-09",
-        "normal-mcq-06",
-        "normal-mcq-10",
-        "normal-mcq-05"
+        "normal-mcq-05",
+        "normal-mcq-25",
+        "normal-mcq-23"
       ],
       "explanation": "本句的「norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
       "sentenceIndex": 20,
@@ -1436,12 +1354,10 @@ export default {
         "norm"
       ],
       "optionReasons": {
-        "normal-mcq-08": "本句指「某群體／情況中最普遍、最常見的模式；常態」。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。"
+        "normal-mcq-08": "本句的「norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-08"
     },
@@ -1453,11 +1369,9 @@ export default {
       "masked": "Long hours are the ____ in that industry.",
       "options": [
         "normal-mcq-08",
-        "normal-mcq-07",
-        "normal-mcq-09",
-        "normal-mcq-06",
-        "normal-mcq-10",
-        "normal-mcq-05"
+        "normal-pdf-005",
+        "normal-mcq-05",
+        "normal-mcq-29"
       ],
       "explanation": "本句的「norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
       "sentenceIndex": 21,
@@ -1466,12 +1380,10 @@ export default {
         "norm"
       ],
       "optionReasons": {
-        "normal-mcq-08": "本句指「某群體／情況中最普遍、最常見的模式；常態」。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。"
+        "normal-mcq-08": "本句的「norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-08"
     },
@@ -1483,11 +1395,9 @@ export default {
       "masked": "Online meetings are now ____.",
       "options": [
         "normal-mcq-08",
-        "normal-mcq-07",
-        "normal-mcq-09",
-        "normal-mcq-06",
-        "normal-mcq-10",
-        "normal-mcq-05"
+        "normal-mcq-18",
+        "normal-pdf-003",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「the norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
       "sentenceIndex": 22,
@@ -1496,12 +1406,10 @@ export default {
         "the norm"
       ],
       "optionReasons": {
-        "normal-mcq-08": "本句指「某群體／情況中最普遍、最常見的模式；常態」。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。"
+        "normal-mcq-08": "本句的「the norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
+        "normal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-08"
     },
@@ -1513,11 +1421,9 @@ export default {
       "masked": "That kind of flexibility is not the ____.",
       "options": [
         "normal-mcq-08",
-        "normal-mcq-07",
-        "normal-mcq-09",
-        "normal-mcq-06",
-        "normal-mcq-10",
-        "normal-mcq-05"
+        "normal-mcq-22",
+        "normal-pdf-005",
+        "normal-mcq-20"
       ],
       "explanation": "本句的「norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
       "sentenceIndex": 23,
@@ -1526,12 +1432,10 @@ export default {
         "norm"
       ],
       "optionReasons": {
-        "normal-mcq-08": "本句指「某群體／情況中最普遍、最常見的模式；常態」。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-05": "「某項測量被視為典型／健康／預期的參考範圍或數值」是「normal range/value」的用法，與本句語境不同。"
+        "normal-mcq-08": "本句的「norm」指「某群體／情況中最普遍、最常見的模式；常態」。",
+        "normal-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-08"
     },
@@ -1543,11 +1447,9 @@ export default {
       "masked": "Social ____ change over time.",
       "options": [
         "normal-mcq-09",
-        "normal-mcq-08",
-        "normal-mcq-10",
-        "normal-mcq-07",
-        "normal-mcq-11",
-        "normal-mcq-06"
+        "normal-mcq-02",
+        "normal-pdf-005",
+        "normal-mcq-21"
       ],
       "explanation": "本句的「norms」指「群體對適當／可接受行為形成的共同規範」。",
       "sentenceIndex": 24,
@@ -1556,12 +1458,10 @@ export default {
         "norms"
       ],
       "optionReasons": {
-        "normal-mcq-09": "本句指「群體對適當／可接受行為形成的共同規範」。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-09": "本句的「norms」指「群體對適當／可接受行為形成的共同規範」。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-09"
     },
@@ -1573,11 +1473,9 @@ export default {
       "masked": "Different cultures have different ____.",
       "options": [
         "normal-mcq-09",
-        "normal-mcq-08",
-        "normal-mcq-10",
-        "normal-mcq-07",
-        "normal-mcq-11",
-        "normal-mcq-06"
+        "normal-mcq-21",
+        "normal-mcq-20",
+        "normal-pdf-005"
       ],
       "explanation": "本句的「norms」指「群體對適當／可接受行為形成的共同規範」。",
       "sentenceIndex": 25,
@@ -1586,12 +1484,10 @@ export default {
         "norms"
       ],
       "optionReasons": {
-        "normal-mcq-09": "本句指「群體對適當／可接受行為形成的共同規範」。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。"
+        "normal-mcq-09": "本句的「norms」指「群體對適當／可接受行為形成的共同規範」。",
+        "normal-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-09"
     },
@@ -1603,11 +1499,9 @@ export default {
       "masked": "Dress codes reflect cultural ____.",
       "options": [
         "normal-mcq-28",
-        "normal-mcq-27",
-        "normal-mcq-29",
-        "normal-mcq-26",
-        "normal-mcq-25",
-        "normal-mcq-24"
+        "normal-mcq-04",
+        "normal-mcq-06",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「norms」指「某個社群普遍認為應該／不應該怎樣做的行為標準」。",
       "sentenceIndex": 26,
@@ -1616,12 +1510,10 @@ export default {
         "norms"
       ],
       "optionReasons": {
-        "normal-mcq-28": "本句指「某個社群普遍認為應該／不應該怎樣做的行為標準」。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-mcq-28": "本句的「norms」指「某個社群普遍認為應該／不應該怎樣做的行為標準」。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-28"
     },
@@ -1633,11 +1525,9 @@ export default {
       "masked": "Some social ____ are changing quickly.",
       "options": [
         "normal-mcq-28",
-        "normal-mcq-27",
-        "normal-mcq-29",
         "normal-mcq-26",
-        "normal-mcq-25",
-        "normal-mcq-24"
+        "normal-pdf-001",
+        "normal-mcq-12"
       ],
       "explanation": "本句的「norms」指「某個社群普遍認為應該／不應該怎樣做的行為標準」。",
       "sentenceIndex": 27,
@@ -1646,12 +1536,10 @@ export default {
         "norms"
       ],
       "optionReasons": {
-        "normal-mcq-28": "本句指「某個社群普遍認為應該／不應該怎樣做的行為標準」。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-mcq-28": "本句的「norms」指「某個社群普遍認為應該／不應該怎樣做的行為標準」。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-28"
     },
@@ -1663,11 +1551,9 @@ export default {
       "masked": "The results were compared with the ____.",
       "options": [
         "normal-mcq-10",
-        "normal-mcq-09",
-        "normal-mcq-11",
-        "normal-mcq-08",
-        "normal-mcq-12",
-        "normal-mcq-07"
+        "normal-mcq-27",
+        "normal-mcq-04",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「norm」指「用來比較或評估個人／結果的典型標準／常模」。",
       "sentenceIndex": 28,
@@ -1676,12 +1562,10 @@ export default {
         "norm"
       ],
       "optionReasons": {
-        "normal-mcq-10": "本句指「用來比較或評估個人／結果的典型標準／常模」。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。"
+        "normal-mcq-10": "本句的「norm」指「用來比較或評估個人／結果的典型標準／常模」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-10"
     },
@@ -1693,11 +1577,9 @@ export default {
       "masked": "The score was above the ____ for that age group.",
       "options": [
         "normal-mcq-10",
-        "normal-mcq-09",
-        "normal-mcq-11",
-        "normal-mcq-08",
-        "normal-mcq-12",
-        "normal-mcq-07"
+        "normal-mcq-04",
+        "normal-pdf-005",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「norm」指「用來比較或評估個人／結果的典型標準／常模」。",
       "sentenceIndex": 29,
@@ -1706,12 +1588,10 @@ export default {
         "norm"
       ],
       "optionReasons": {
-        "normal-mcq-10": "本句指「用來比較或評估個人／結果的典型標準／常模」。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。"
+        "normal-mcq-10": "本句的「norm」指「用來比較或評估個人／結果的典型標準／常模」。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-10"
     },
@@ -1723,11 +1603,9 @@ export default {
       "masked": "The test was developed using age-based ____.",
       "options": [
         "normal-pdf-002",
-        "normal-mcq-09",
-        "normal-mcq-11",
-        "normal-mcq-08",
-        "normal-mcq-12",
-        "normal-mcq-07"
+        "normal-mcq-20",
+        "normal-mcq-17",
+        "normal-mcq-03"
       ],
       "explanation": "本句的「norms」指「根據某參照群體建立的比較標準」。",
       "sentenceIndex": 30,
@@ -1736,12 +1614,10 @@ export default {
         "norms"
       ],
       "optionReasons": {
-        "normal-pdf-002": "本句指「根據某參照群體建立的比較標準」。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。"
+        "normal-pdf-002": "本句的「norms」指「根據某參照群體建立的比較標準」。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-002"
     },
@@ -1753,11 +1629,9 @@ export default {
       "masked": "Scores are interpreted against population ____.",
       "options": [
         "normal-pdf-002",
-        "normal-mcq-09",
-        "normal-mcq-11",
-        "normal-mcq-08",
-        "normal-mcq-12",
-        "normal-mcq-07"
+        "normal-mcq-26",
+        "normal-pdf-004",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「norms」指「根據某參照群體建立的比較標準」。",
       "sentenceIndex": 31,
@@ -1766,12 +1640,10 @@ export default {
         "norms"
       ],
       "optionReasons": {
-        "normal-pdf-002": "本句指「根據某參照群體建立的比較標準」。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。"
+        "normal-pdf-002": "本句的「norms」指「根據某參照群體建立的比較標準」。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-002"
     },
@@ -1783,11 +1655,9 @@ export default {
       "masked": "People wanted a return to ____.",
       "options": [
         "normal-mcq-11",
-        "normal-mcq-10",
-        "normal-mcq-12",
-        "normal-mcq-09",
-        "normal-mcq-13",
-        "normal-mcq-08"
+        "normal-mcq-22",
+        "normal-mcq-27",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normality」指「一切處於平常、穩定或預期狀態的情況」。",
       "sentenceIndex": 32,
@@ -1796,12 +1666,10 @@ export default {
         "normality"
       ],
       "optionReasons": {
-        "normal-mcq-11": "本句指「一切處於平常、穩定或預期狀態的情況」。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。"
+        "normal-mcq-11": "本句的「normality」指「一切處於平常、穩定或預期狀態的情況」。",
+        "normal-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-11"
     },
@@ -1813,11 +1681,9 @@ export default {
       "masked": "A sense of ____ gradually returned.",
       "options": [
         "normal-mcq-11",
-        "normal-mcq-10",
-        "normal-mcq-12",
-        "normal-mcq-09",
-        "normal-mcq-13",
-        "normal-mcq-08"
+        "normal-mcq-28",
+        "normal-pdf-005",
+        "normal-mcq-14"
       ],
       "explanation": "本句的「normality」指「一切處於平常、穩定或預期狀態的情況」。",
       "sentenceIndex": 33,
@@ -1826,12 +1692,10 @@ export default {
         "normality"
       ],
       "optionReasons": {
-        "normal-mcq-11": "本句指「一切處於平常、穩定或預期狀態的情況」。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-08": "「某群體／情況中最普遍、最常見的模式；常態」是「norm — usual pattern」的用法，與本句語境不同。"
+        "normal-mcq-11": "本句的「normality」指「一切處於平常、穩定或預期狀態的情況」。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-11"
     },
@@ -1843,11 +1707,9 @@ export default {
       "masked": "People were eager for a return to ____.",
       "options": [
         "normal-mcq-12",
-        "normal-mcq-11",
-        "normal-mcq-13",
-        "normal-mcq-10",
-        "normal-mcq-14",
-        "normal-mcq-09"
+        "normal-mcq-25",
+        "normal-mcq-17",
+        "normal-mcq-29"
       ],
       "explanation": "本句的「normalcy」指「normality；正常／常態，尤常見於美式英語」。",
       "sentenceIndex": 34,
@@ -1856,12 +1718,10 @@ export default {
         "normalcy"
       ],
       "optionReasons": {
-        "normal-mcq-12": "本句指「normality；正常／常態，尤常見於美式英語」。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。"
+        "normal-mcq-12": "本句的「normalcy」指「normality；正常／常態，尤常見於美式英語」。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-12"
     },
@@ -1873,11 +1733,9 @@ export default {
       "masked": "Daily routines gave them a sense of ____.",
       "options": [
         "normal-mcq-12",
-        "normal-mcq-11",
-        "normal-mcq-13",
-        "normal-mcq-10",
-        "normal-mcq-14",
-        "normal-mcq-09"
+        "normal-mcq-28",
+        "normal-mcq-20",
+        "normal-mcq-25"
       ],
       "explanation": "本句的「normalcy」指「normality；正常／常態，尤常見於美式英語」。",
       "sentenceIndex": 35,
@@ -1886,12 +1744,10 @@ export default {
         "normalcy"
       ],
       "optionReasons": {
-        "normal-mcq-12": "本句指「normality；正常／常態，尤常見於美式英語」。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-09": "「群體對適當／可接受行為形成的共同規範」是「norm — social rule」的用法，與本句語境不同。"
+        "normal-mcq-12": "本句的「normalcy」指「normality；正常／常態，尤常見於美式英語」。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-12"
     },
@@ -1903,11 +1759,9 @@ export default {
       "masked": "It took time for life to ____.",
       "options": [
         "normal-mcq-13",
-        "normal-mcq-12",
-        "normal-mcq-14",
-        "normal-mcq-11",
-        "normal-mcq-15",
-        "normal-mcq-10"
+        "normal-mcq-27",
+        "normal-mcq-17",
+        "normal-mcq-25"
       ],
       "explanation": "本句的「normalize」指「令某狀態回到正常／標準範圍」。",
       "sentenceIndex": 36,
@@ -1916,12 +1770,10 @@ export default {
         "normalize"
       ],
       "optionReasons": {
-        "normal-mcq-13": "本句指「令某狀態回到正常／標準範圍」。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。"
+        "normal-mcq-13": "本句的「normalize」指「令某狀態回到正常／標準範圍」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-13"
     },
@@ -1933,11 +1785,9 @@ export default {
       "masked": "The treatment helped ____ her blood pressure.",
       "options": [
         "normal-mcq-13",
-        "normal-mcq-12",
-        "normal-mcq-14",
-        "normal-mcq-11",
-        "normal-mcq-15",
-        "normal-mcq-10"
+        "normal-mcq-27",
+        "normal-mcq-25",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normalize」指「令某狀態回到正常／標準範圍」。",
       "sentenceIndex": 37,
@@ -1946,12 +1796,10 @@ export default {
         "normalize"
       ],
       "optionReasons": {
-        "normal-mcq-13": "本句指「令某狀態回到正常／標準範圍」。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-10": "「用來比較或評估個人／結果的典型標準／常模」是「norm — reference standard」的用法，與本句語境不同。"
+        "normal-mcq-13": "本句的「normalize」指「令某狀態回到正常／標準範圍」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-13"
     },
@@ -1963,11 +1811,9 @@ export default {
       "masked": "The campaign aims to ____.",
       "options": [
         "normal-mcq-14",
-        "normal-mcq-13",
-        "normal-mcq-15",
-        "normal-mcq-12",
-        "normal-mcq-16",
-        "normal-mcq-11"
+        "normal-mcq-25",
+        "normal-mcq-20",
+        "normal-mcq-15"
       ],
       "explanation": "本句的「normalize conversations about stress」指「令原本較不尋常／不被接受的事變得普通或被接受」。",
       "sentenceIndex": 38,
@@ -1976,12 +1822,10 @@ export default {
         "normalize conversations about stress"
       ],
       "optionReasons": {
-        "normal-mcq-14": "本句指「令原本較不尋常／不被接受的事變得普通或被接受」。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。"
+        "normal-mcq-14": "本句的「normalize conversations about stress」指「令原本較不尋常／不被接受的事變得普通或被接受」。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-14"
     },
@@ -1993,11 +1837,9 @@ export default {
       "masked": "Repeated exposure can ____ certain behaviours.",
       "options": [
         "normal-mcq-14",
-        "normal-mcq-13",
-        "normal-mcq-15",
-        "normal-mcq-12",
-        "normal-mcq-16",
-        "normal-mcq-11"
+        "normal-mcq-18",
+        "normal-mcq-26",
+        "normal-mcq-01"
       ],
       "explanation": "本句的「normalize」指「令原本較不尋常／不被接受的事變得普通或被接受」。",
       "sentenceIndex": 39,
@@ -2006,12 +1848,10 @@ export default {
         "normalize"
       ],
       "optionReasons": {
-        "normal-mcq-14": "本句指「令原本較不尋常／不被接受的事變得普通或被接受」。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-11": "「一切處於平常、穩定或預期狀態的情況」是「normality」的用法，與本句語境不同。"
+        "normal-mcq-14": "本句的「normalize」指「令原本較不尋常／不被接受的事變得普通或被接受」。",
+        "normal-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-14"
     },
@@ -2023,11 +1863,9 @@ export default {
       "masked": "The data were ____ before analysis.",
       "options": [
         "normal-mcq-15",
-        "normal-mcq-14",
-        "normal-mcq-16",
-        "normal-mcq-13",
-        "normal-mcq-17",
-        "normal-mcq-12"
+        "normal-mcq-12",
+        "normal-mcq-04",
+        "normal-mcq-02"
       ],
       "explanation": "本句的「normalized」指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
       "sentenceIndex": 40,
@@ -2036,12 +1874,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-15": "本句指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。"
+        "normal-mcq-15": "本句的「normalized」指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-15"
     },
@@ -2053,11 +1889,9 @@ export default {
       "masked": "The values are ____ to a common scale.",
       "options": [
         "normal-mcq-15",
-        "normal-mcq-14",
-        "normal-mcq-16",
-        "normal-mcq-13",
         "normal-mcq-17",
-        "normal-mcq-12"
+        "normal-mcq-08",
+        "normal-mcq-03"
       ],
       "explanation": "本句的「normalized」指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
       "sentenceIndex": 41,
@@ -2066,12 +1900,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-15": "本句指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。"
+        "normal-mcq-15": "本句的「normalized」指「按指定規則調整數據／結構，使其符合共同尺度或形式」。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-15"
     },
@@ -2083,11 +1915,9 @@ export default {
       "masked": "The measurements were ____ for body size.",
       "options": [
         "normal-pdf-003",
-        "normal-mcq-14",
-        "normal-mcq-16",
-        "normal-mcq-13",
-        "normal-mcq-17",
-        "normal-mcq-12"
+        "normal-mcq-19",
+        "normal-mcq-25",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normalized」指「消除某些尺度／條件差異，使結果可公平比較」。",
       "sentenceIndex": 42,
@@ -2096,12 +1926,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-pdf-003": "本句指「消除某些尺度／條件差異，使結果可公平比較」。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。"
+        "normal-pdf-003": "本句的「normalized」指「消除某些尺度／條件差異，使結果可公平比較」。",
+        "normal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-003"
     },
@@ -2113,11 +1941,9 @@ export default {
       "masked": "Researchers ____ the results across groups.",
       "options": [
         "normal-pdf-003",
-        "normal-mcq-14",
-        "normal-mcq-16",
-        "normal-mcq-13",
-        "normal-mcq-17",
-        "normal-mcq-12"
+        "normal-mcq-04",
+        "normal-mcq-25",
+        "normal-mcq-23"
       ],
       "explanation": "本句的「normalized」指「消除某些尺度／條件差異，使結果可公平比較」。",
       "sentenceIndex": 43,
@@ -2126,12 +1952,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-pdf-003": "本句指「消除某些尺度／條件差異，使結果可公平比較」。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-12": "「normality；正常／常態，尤常見於美式英語」是「normalcy」的用法，與本句語境不同。"
+        "normal-pdf-003": "本句的「normalized」指「消除某些尺度／條件差異，使結果可公平比較」。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-003"
     },
@@ -2143,11 +1967,9 @@ export default {
       "masked": "The ____ of daily life took several months.",
       "options": [
         "normal-mcq-16",
-        "normal-mcq-15",
-        "normal-mcq-17",
-        "normal-mcq-14",
-        "normal-mcq-18",
-        "normal-mcq-13"
+        "normal-mcq-26",
+        "normal-mcq-05",
+        "normal-pdf-002"
       ],
       "explanation": "本句的「normalization」指「由異常／特殊狀態恢復到正常狀態的過程」。",
       "sentenceIndex": 44,
@@ -2156,12 +1978,10 @@ export default {
         "normalization"
       ],
       "optionReasons": {
-        "normal-mcq-16": "本句指「由異常／特殊狀態恢復到正常狀態的過程」。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。"
+        "normal-mcq-16": "本句的「normalization」指「由異常／特殊狀態恢復到正常狀態的過程」。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-16"
     },
@@ -2173,11 +1993,9 @@ export default {
       "masked": "Relations gradually moved toward ____.",
       "options": [
         "normal-mcq-16",
-        "normal-mcq-15",
-        "normal-mcq-17",
-        "normal-mcq-14",
-        "normal-mcq-18",
-        "normal-mcq-13"
+        "normal-mcq-04",
+        "normal-mcq-28",
+        "normal-pdf-005"
       ],
       "explanation": "本句的「normalization」指「由異常／特殊狀態恢復到正常狀態的過程」。",
       "sentenceIndex": 45,
@@ -2186,12 +2004,10 @@ export default {
         "normalization"
       ],
       "optionReasons": {
-        "normal-mcq-16": "本句指「由異常／特殊狀態恢復到正常狀態的過程」。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-13": "「令某狀態回到正常／標準範圍」是「normalize — restore」的用法，與本句語境不同。"
+        "normal-mcq-16": "本句的「normalization」指「由異常／特殊狀態恢復到正常狀態的過程」。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-16"
     },
@@ -2203,11 +2019,9 @@ export default {
       "masked": "The ____ of remote work changed office culture.",
       "options": [
         "normal-mcq-17",
-        "normal-mcq-16",
-        "normal-mcq-18",
-        "normal-mcq-15",
-        "normal-mcq-19",
-        "normal-mcq-14"
+        "normal-mcq-07",
+        "normal-mcq-29",
+        "normal-pdf-005"
       ],
       "explanation": "本句的「normalization」指「某行為／觀念逐漸被視為普通／可接受的過程」。",
       "sentenceIndex": 46,
@@ -2216,12 +2030,10 @@ export default {
         "normalization"
       ],
       "optionReasons": {
-        "normal-mcq-17": "本句指「某行為／觀念逐漸被視為普通／可接受的過程」。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。"
+        "normal-mcq-17": "本句的「normalization」指「某行為／觀念逐漸被視為普通／可接受的過程」。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-17"
     },
@@ -2233,11 +2045,9 @@ export default {
       "masked": "They discussed the ____ of unhealthy behaviour.",
       "options": [
         "normal-mcq-17",
-        "normal-mcq-16",
-        "normal-mcq-18",
-        "normal-mcq-15",
-        "normal-mcq-19",
-        "normal-mcq-14"
+        "normal-mcq-04",
+        "normal-mcq-23",
+        "normal-mcq-07"
       ],
       "explanation": "本句的「normalization」指「某行為／觀念逐漸被視為普通／可接受的過程」。",
       "sentenceIndex": 47,
@@ -2246,12 +2056,10 @@ export default {
         "normalization"
       ],
       "optionReasons": {
-        "normal-mcq-17": "本句指「某行為／觀念逐漸被視為普通／可接受的過程」。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-14": "「令原本較不尋常／不被接受的事變得普通或被接受」是「normalize — social」的用法，與本句語境不同。"
+        "normal-mcq-17": "本句的「normalization」指「某行為／觀念逐漸被視為普通／可接受的過程」。",
+        "normal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-17"
     },
@@ -2263,11 +2071,9 @@ export default {
       "masked": "Data ____ improves comparability.",
       "options": [
         "normal-mcq-18",
-        "normal-mcq-17",
-        "normal-mcq-19",
-        "normal-mcq-16",
-        "normal-mcq-20",
-        "normal-mcq-15"
+        "normal-mcq-14",
+        "normal-pdf-004",
+        "normal-mcq-06"
       ],
       "explanation": "本句的「normalization」指「把資料、數值或結構調整到特定標準形式的技術過程」。",
       "sentenceIndex": 48,
@@ -2276,12 +2082,10 @@ export default {
         "normalization"
       ],
       "optionReasons": {
-        "normal-mcq-18": "本句指「把資料、數值或結構調整到特定標準形式的技術過程」。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。"
+        "normal-mcq-18": "本句的「normalization」指「把資料、數值或結構調整到特定標準形式的技術過程」。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-18"
     },
@@ -2293,11 +2097,9 @@ export default {
       "masked": "Database ____ reduces unnecessary duplication.",
       "options": [
         "normal-mcq-18",
-        "normal-mcq-17",
-        "normal-mcq-19",
-        "normal-mcq-16",
-        "normal-mcq-20",
-        "normal-mcq-15"
+        "normal-mcq-06",
+        "normal-mcq-14",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normalization」指「把資料、數值或結構調整到特定標準形式的技術過程」。",
       "sentenceIndex": 49,
@@ -2306,12 +2108,10 @@ export default {
         "normalization"
       ],
       "optionReasons": {
-        "normal-mcq-18": "本句指「把資料、數值或結構調整到特定標準形式的技術過程」。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。"
+        "normal-mcq-18": "本句的「normalization」指「把資料、數值或結構調整到特定標準形式的技術過程」。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-18"
     },
@@ -2323,11 +2123,9 @@ export default {
       "masked": "Her temperature has ____.",
       "options": [
         "normal-pdf-004",
-        "normal-mcq-17",
-        "normal-mcq-19",
-        "normal-mcq-16",
-        "normal-mcq-20",
-        "normal-mcq-15"
+        "normal-mcq-27",
+        "normal-mcq-23",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normalized」指「已回到正常／預期狀態」。",
       "sentenceIndex": 50,
@@ -2336,12 +2134,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-pdf-004": "本句指「已回到正常／預期狀態」。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。"
+        "normal-pdf-004": "本句的「normalized」指「已回到正常／預期狀態」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-004"
     },
@@ -2353,11 +2149,9 @@ export default {
       "masked": "Conditions gradually ____.",
       "options": [
         "normal-pdf-004",
-        "normal-mcq-17",
-        "normal-mcq-19",
-        "normal-mcq-16",
-        "normal-mcq-20",
-        "normal-mcq-15"
+        "normal-mcq-25",
+        "normal-pdf-002",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normalized」指「已回到正常／預期狀態」。",
       "sentenceIndex": 51,
@@ -2366,12 +2160,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-pdf-004": "本句指「已回到正常／預期狀態」。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-15": "「按指定規則調整數據／結構，使其符合共同尺度或形式」是「normalize — technical」的用法，與本句語境不同。"
+        "normal-pdf-004": "本句的「normalized」指「已回到正常／預期狀態」。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-004"
     },
@@ -2383,11 +2175,9 @@ export default {
       "masked": "The chart uses ____.",
       "options": [
         "normal-mcq-29",
-        "normal-mcq-28",
-        "normal-mcq-27",
-        "normal-mcq-26",
-        "normal-mcq-25",
-        "normal-mcq-24"
+        "normal-mcq-01",
+        "normal-mcq-07",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normalized data」指「已根據指定規則調整到共同標準／尺度」。",
       "sentenceIndex": 52,
@@ -2396,12 +2186,10 @@ export default {
         "normalized data"
       ],
       "optionReasons": {
-        "normal-mcq-29": "本句指「已根據指定規則調整到共同標準／尺度」。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-mcq-29": "本句的「normalized data」指「已根據指定規則調整到共同標準／尺度」。",
+        "normal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-29"
     },
@@ -2413,11 +2201,9 @@ export default {
       "masked": "The ____ scores are easier to compare.",
       "options": [
         "normal-mcq-29",
-        "normal-mcq-28",
-        "normal-mcq-27",
-        "normal-mcq-26",
-        "normal-mcq-25",
-        "normal-mcq-24"
+        "normal-mcq-07",
+        "normal-mcq-08",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normalized」指「已根據指定規則調整到共同標準／尺度」。",
       "sentenceIndex": 53,
@@ -2426,12 +2212,10 @@ export default {
         "normalized"
       ],
       "optionReasons": {
-        "normal-mcq-29": "本句指「已根據指定規則調整到共同標準／尺度」。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-mcq-29": "本句的「normalized」指「已根據指定規則調整到共同標準／尺度」。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-29"
     },
@@ -2443,11 +2227,9 @@ export default {
       "masked": "The test showed an ____.",
       "options": [
         "normal-mcq-19",
-        "normal-mcq-18",
-        "normal-mcq-20",
-        "normal-mcq-17",
-        "normal-mcq-21",
-        "normal-mcq-16"
+        "normal-mcq-25",
+        "normal-mcq-09",
+        "normal-mcq-26"
       ],
       "explanation": "本句的「abnormal result」指「偏離通常、健康、預期或標準狀態的」。",
       "sentenceIndex": 54,
@@ -2456,12 +2238,10 @@ export default {
         "abnormal result"
       ],
       "optionReasons": {
-        "normal-mcq-19": "本句指「偏離通常、健康、預期或標準狀態的」。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-19": "本句的「abnormal result」指「偏離通常、健康、預期或標準狀態的」。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-19"
     },
@@ -2473,11 +2253,9 @@ export default {
       "masked": "The machine is making an ____ noise.",
       "options": [
         "normal-mcq-19",
-        "normal-mcq-18",
-        "normal-mcq-20",
-        "normal-mcq-17",
-        "normal-mcq-21",
-        "normal-mcq-16"
+        "normal-mcq-27",
+        "normal-pdf-003",
+        "normal-mcq-25"
       ],
       "explanation": "本句的「abnormal」指「偏離通常、健康、預期或標準狀態的」。",
       "sentenceIndex": 55,
@@ -2486,12 +2264,10 @@ export default {
         "abnormal"
       ],
       "optionReasons": {
-        "normal-mcq-19": "本句指「偏離通常、健康、預期或標準狀態的」。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-19": "本句的「abnormal」指「偏離通常、健康、預期或標準狀態的」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-19"
     },
@@ -2503,11 +2279,9 @@ export default {
       "masked": "The scan revealed ____.",
       "options": [
         "normal-mcq-19",
-        "normal-mcq-18",
-        "normal-mcq-20",
-        "normal-mcq-17",
-        "normal-mcq-21",
-        "normal-mcq-16"
+        "normal-pdf-003",
+        "normal-mcq-09",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「abnormal tissue」指「偏離通常、健康、預期或標準狀態的」。",
       "sentenceIndex": 56,
@@ -2516,12 +2290,10 @@ export default {
         "abnormal tissue"
       ],
       "optionReasons": {
-        "normal-mcq-19": "本句指「偏離通常、健康、預期或標準狀態的」。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-19": "本句的「abnormal tissue」指「偏離通常、健康、預期或標準狀態的」。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-19"
     },
@@ -2533,11 +2305,9 @@ export default {
       "masked": "Doctors noticed an ____ heart rhythm.",
       "options": [
         "normal-mcq-19",
-        "normal-mcq-18",
-        "normal-mcq-20",
-        "normal-mcq-17",
-        "normal-mcq-21",
-        "normal-mcq-16"
+        "normal-mcq-27",
+        "normal-pdf-003",
+        "normal-mcq-09"
       ],
       "explanation": "本句的「abnormal」指「偏離通常、健康、預期或標準狀態的」。",
       "sentenceIndex": 57,
@@ -2546,12 +2316,10 @@ export default {
         "abnormal"
       ],
       "optionReasons": {
-        "normal-mcq-19": "本句指「偏離通常、健康、預期或標準狀態的」。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-16": "「由異常／特殊狀態恢復到正常狀態的過程」是「normalization — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-19": "本句的「abnormal」指「偏離通常、健康、預期或標準狀態的」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-19"
     },
@@ -2563,11 +2331,9 @@ export default {
       "masked": "The temperature was ____.",
       "options": [
         "normal-mcq-20",
-        "normal-mcq-19",
-        "normal-mcq-21",
-        "normal-mcq-18",
-        "normal-mcq-22",
-        "normal-mcq-17"
+        "normal-mcq-02",
+        "normal-mcq-23",
+        "normal-mcq-25"
       ],
       "explanation": "本句的「abnormally high」指「超出一般／預期程度地」。",
       "sentenceIndex": 58,
@@ -2576,12 +2342,10 @@ export default {
         "abnormally high"
       ],
       "optionReasons": {
-        "normal-mcq-20": "本句指「超出一般／預期程度地」。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。"
+        "normal-mcq-20": "本句的「abnormally high」指「超出一般／預期程度地」。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-20"
     },
@@ -2593,11 +2357,9 @@ export default {
       "masked": "She was breathing ____ fast.",
       "options": [
         "normal-mcq-20",
-        "normal-mcq-19",
-        "normal-mcq-21",
-        "normal-mcq-18",
-        "normal-mcq-22",
-        "normal-mcq-17"
+        "normal-mcq-26",
+        "normal-mcq-07",
+        "normal-mcq-28"
       ],
       "explanation": "本句的「abnormally」指「超出一般／預期程度地」。",
       "sentenceIndex": 59,
@@ -2606,12 +2368,10 @@ export default {
         "abnormally"
       ],
       "optionReasons": {
-        "normal-mcq-20": "本句指「超出一般／預期程度地」。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-17": "「某行為／觀念逐漸被視為普通／可接受的過程」是「normalization — social」的用法，與本句語境不同。"
+        "normal-mcq-20": "本句的「abnormally」指「超出一般／預期程度地」。",
+        "normal-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-20"
     },
@@ -2623,11 +2383,9 @@ export default {
       "masked": "The scan showed no ____.",
       "options": [
         "normal-mcq-21",
-        "normal-mcq-20",
-        "normal-mcq-22",
-        "normal-mcq-19",
+        "normal-mcq-17",
         "normal-mcq-23",
-        "normal-mcq-18"
+        "normal-pdf-005"
       ],
       "explanation": "本句的「abnormalities」指「偏離正常結構、功能、狀態或模式的部分／現象」。",
       "sentenceIndex": 60,
@@ -2636,12 +2394,10 @@ export default {
         "abnormalities"
       ],
       "optionReasons": {
-        "normal-mcq-21": "本句指「偏離正常結構、功能、狀態或模式的部分／現象」。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。"
+        "normal-mcq-21": "本句的「abnormalities」指「偏離正常結構、功能、狀態或模式的部分／現象」。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-21"
     },
@@ -2653,11 +2409,9 @@ export default {
       "masked": "The doctor detected a minor ____.",
       "options": [
         "normal-mcq-21",
-        "normal-mcq-20",
-        "normal-mcq-22",
-        "normal-mcq-19",
+        "normal-mcq-27",
         "normal-mcq-23",
-        "normal-mcq-18"
+        "normal-mcq-05"
       ],
       "explanation": "本句的「abnormality」指「偏離正常結構、功能、狀態或模式的部分／現象」。",
       "sentenceIndex": 61,
@@ -2666,12 +2420,10 @@ export default {
         "abnormality"
       ],
       "optionReasons": {
-        "normal-mcq-21": "本句指「偏離正常結構、功能、狀態或模式的部分／現象」。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-18": "「把資料、數值或結構調整到特定標準形式的技術過程」是「normalization — technical」的用法，與本句語境不同。"
+        "normal-mcq-21": "本句的「abnormality」指「偏離正常結構、功能、狀態或模式的部分／現象」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-21"
     },
@@ -2683,11 +2435,9 @@ export default {
       "masked": "That is a ____.",
       "options": [
         "normal-mcq-22",
-        "normal-mcq-21",
-        "normal-mcq-23",
-        "normal-mcq-20",
-        "normal-mcq-24",
-        "normal-mcq-19"
+        "normal-mcq-07",
+        "normal-mcq-11",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normative judgment」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
       "sentenceIndex": 62,
@@ -2696,12 +2446,10 @@ export default {
         "normative judgment"
       ],
       "optionReasons": {
-        "normal-mcq-22": "本句指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。"
+        "normal-mcq-22": "本句的「normative judgment」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-22"
     },
@@ -2713,11 +2461,9 @@ export default {
       "masked": "The discussion includes ____ questions about fairness.",
       "options": [
         "normal-mcq-22",
-        "normal-mcq-21",
-        "normal-mcq-23",
-        "normal-mcq-20",
-        "normal-mcq-24",
-        "normal-mcq-19"
+        "normal-mcq-06",
+        "normal-pdf-001",
+        "normal-mcq-17"
       ],
       "explanation": "本句的「normative」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
       "sentenceIndex": 63,
@@ -2726,12 +2472,10 @@ export default {
         "normative"
       ],
       "optionReasons": {
-        "normal-mcq-22": "本句指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。"
+        "normal-mcq-22": "本句的「normative」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-22"
     },
@@ -2743,11 +2487,9 @@ export default {
       "masked": "A ____ claim says what is happening; a normative claim says what should happen.",
       "options": [
         "normal-mcq-22",
-        "normal-mcq-21",
-        "normal-mcq-23",
-        "normal-mcq-20",
-        "normal-mcq-24",
-        "normal-mcq-19"
+        "normal-pdf-003",
+        "normal-mcq-03",
+        "normal-mcq-12"
       ],
       "explanation": "本句的「descriptive」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
       "sentenceIndex": 64,
@@ -2756,12 +2498,10 @@ export default {
         "descriptive"
       ],
       "optionReasons": {
-        "normal-mcq-22": "本句指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。"
+        "normal-mcq-22": "本句的「descriptive」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-22"
     },
@@ -2773,11 +2513,9 @@ export default {
       "masked": "The argument moves from descriptive evidence to a ____ conclusion.",
       "options": [
         "normal-mcq-22",
-        "normal-mcq-21",
-        "normal-mcq-23",
-        "normal-mcq-20",
-        "normal-mcq-24",
-        "normal-mcq-19"
+        "normal-mcq-07",
+        "normal-mcq-06",
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normative」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
       "sentenceIndex": 65,
@@ -2786,12 +2524,10 @@ export default {
         "normative"
       ],
       "optionReasons": {
-        "normal-mcq-22": "本句指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-19": "「偏離通常、健康、預期或標準狀態的」是「abnormal」的用法，與本句語境不同。"
+        "normal-mcq-22": "本句的「normative」指「涉及規則、價值、標準或「應該怎樣」的判斷」。",
+        "normal-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-22"
     },
@@ -2803,11 +2539,9 @@ export default {
       "masked": "The policy is difficult to defend ____.",
       "options": [
         "normal-mcq-23",
-        "normal-mcq-22",
-        "normal-mcq-24",
-        "normal-mcq-21",
-        "normal-mcq-25",
-        "normal-mcq-20"
+        "normal-mcq-14",
+        "normal-pdf-001",
+        "normal-mcq-08"
       ],
       "explanation": "本句的「normatively」指「從價值／規範／應然標準來判斷」。",
       "sentenceIndex": 66,
@@ -2816,12 +2550,10 @@ export default {
         "normatively"
       ],
       "optionReasons": {
-        "normal-mcq-23": "本句指「從價值／規範／應然標準來判斷」。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。"
+        "normal-mcq-23": "本句的「normatively」指「從價值／規範／應然標準來判斷」。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-23"
     },
@@ -2833,11 +2565,9 @@ export default {
       "masked": "The question can be examined empirically and ____.",
       "options": [
         "normal-mcq-23",
-        "normal-mcq-22",
-        "normal-mcq-24",
-        "normal-mcq-21",
+        "normal-mcq-08",
         "normal-mcq-25",
-        "normal-mcq-20"
+        "normal-mcq-27"
       ],
       "explanation": "本句的「normatively」指「從價值／規範／應然標準來判斷」。",
       "sentenceIndex": 67,
@@ -2846,12 +2576,10 @@ export default {
         "normatively"
       ],
       "optionReasons": {
-        "normal-mcq-23": "本句指「從價值／規範／應然標準來判斷」。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-20": "「超出一般／預期程度地」是「abnormally」的用法，與本句語境不同。"
+        "normal-mcq-23": "本句的「normatively」指「從價值／規範／應然標準來判斷」。",
+        "normal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-23"
     },
@@ -2863,11 +2591,9 @@ export default {
       "masked": "The test is ____ for children aged six to ten.",
       "options": [
         "normal-mcq-24",
-        "normal-mcq-23",
-        "normal-mcq-25",
-        "normal-mcq-22",
-        "normal-mcq-26",
-        "normal-mcq-21"
+        "normal-mcq-03",
+        "normal-mcq-17",
+        "normal-mcq-12"
       ],
       "explanation": "本句的「normed」指「已根據某參照群體／標準建立比較基準」。",
       "sentenceIndex": 68,
@@ -2876,12 +2602,10 @@ export default {
         "normed"
       ],
       "optionReasons": {
-        "normal-mcq-24": "本句指「已根據某參照群體／標準建立比較基準」。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。"
+        "normal-mcq-24": "本句的「normed」指「已根據某參照群體／標準建立比較基準」。",
+        "normal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-24"
     },
@@ -2893,11 +2617,9 @@ export default {
       "masked": "The scores were ____ against a national sample.",
       "options": [
         "normal-mcq-24",
-        "normal-mcq-23",
-        "normal-mcq-25",
-        "normal-mcq-22",
-        "normal-mcq-26",
-        "normal-mcq-21"
+        "normal-mcq-17",
+        "normal-mcq-11",
+        "normal-pdf-005"
       ],
       "explanation": "本句的「normed」指「已根據某參照群體／標準建立比較基準」。",
       "sentenceIndex": 69,
@@ -2906,12 +2628,10 @@ export default {
         "normed"
       ],
       "optionReasons": {
-        "normal-mcq-24": "本句指「已根據某參照群體／標準建立比較基準」。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-21": "「偏離正常結構、功能、狀態或模式的部分／現象」是「abnormality」的用法，與本句語境不同。"
+        "normal-mcq-24": "本句的「normed」指「已根據某參照群體／標準建立比較基準」。",
+        "normal-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-24"
     },
@@ -2923,11 +2643,9 @@ export default {
       "masked": "The data approximately follow a ____.",
       "options": [
         "normal-mcq-25",
-        "normal-mcq-24",
-        "normal-mcq-26",
-        "normal-mcq-23",
-        "normal-mcq-27",
-        "normal-mcq-22"
+        "normal-mcq-12",
+        "normal-mcq-14",
+        "normal-mcq-05"
       ],
       "explanation": "本句的「normal distribution」指「統計學中特定的鐘形機率分布」。",
       "sentenceIndex": 70,
@@ -2936,12 +2654,10 @@ export default {
         "normal distribution"
       ],
       "optionReasons": {
-        "normal-mcq-25": "本句指「統計學中特定的鐘形機率分布」。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。"
+        "normal-mcq-25": "本句的「normal distribution」指「統計學中特定的鐘形機率分布」。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-25"
     },
@@ -2953,11 +2669,9 @@ export default {
       "masked": "A ____ distribution has a familiar bell-shaped curve.",
       "options": [
         "normal-mcq-25",
-        "normal-mcq-24",
-        "normal-mcq-26",
-        "normal-mcq-23",
         "normal-mcq-27",
-        "normal-mcq-22"
+        "normal-mcq-20",
+        "normal-mcq-12"
       ],
       "explanation": "本句的「normal」指「統計學中特定的鐘形機率分布」。",
       "sentenceIndex": 71,
@@ -2966,12 +2680,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-25": "本句指「統計學中特定的鐘形機率分布」。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-22": "「涉及規則、價值、標準或「應該怎樣」的判斷」是「normative」的用法，與本句語境不同。"
+        "normal-mcq-25": "本句的「normal」指「統計學中特定的鐘形機率分布」。",
+        "normal-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-25"
     },
@@ -2983,11 +2695,9 @@ export default {
       "masked": "The result is close to the ____.",
       "options": [
         "normal-mcq-05",
-        "normal-mcq-04",
-        "normal-mcq-06",
-        "normal-mcq-03",
-        "normal-mcq-07",
-        "normal-mcq-02"
+        "normal-pdf-003",
+        "normal-mcq-28",
+        "normal-mcq-06"
       ],
       "explanation": "本句的「normal value」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
       "sentenceIndex": 72,
@@ -2996,12 +2706,10 @@ export default {
         "normal value"
       ],
       "optionReasons": {
-        "normal-mcq-05": "本句指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-05": "本句的「normal value」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-05"
     },
@@ -3013,11 +2721,9 @@ export default {
       "masked": "____ ranges can differ between laboratories.",
       "options": [
         "normal-mcq-05",
-        "normal-mcq-04",
-        "normal-mcq-06",
-        "normal-mcq-03",
-        "normal-mcq-07",
-        "normal-mcq-02"
+        "normal-mcq-12",
+        "normal-mcq-29",
+        "normal-mcq-25"
       ],
       "explanation": "本句的「Normal」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
       "sentenceIndex": 73,
@@ -3026,12 +2732,10 @@ export default {
         "Normal"
       ],
       "optionReasons": {
-        "normal-mcq-05": "本句指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
-        "normal-mcq-04": "「身體功能、測量值或系統運作處於預期／參考範圍」是「normal — medical/function」的用法，與本句語境不同。",
-        "normal-mcq-06": "「按一般習慣或最常見模式而言；通常」是「normally — usually」的用法，與本句語境不同。",
-        "normal-mcq-03": "「沒有特殊干擾／異常情況下的通常狀態」是「normal conditions」的用法，與本句語境不同。",
-        "normal-mcq-07": "「若沒有特殊情況或例外，正常情況下會如此」是「normally — ordinary conditions」的用法，與本句語境不同。",
-        "normal-mcq-02": "「沒有特別異常、特殊或極端之處的」是「normal — ordinary」的用法，與本句語境不同。"
+        "normal-mcq-05": "本句的「Normal」指「某項測量被視為典型／健康／預期的參考範圍或數值」。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-05"
     },
@@ -3043,11 +2747,9 @@ export default {
       "masked": "The line is ____ the surface.",
       "options": [
         "normal-mcq-26",
-        "normal-mcq-25",
-        "normal-mcq-27",
-        "normal-mcq-24",
-        "normal-mcq-28",
-        "normal-mcq-23"
+        "normal-mcq-02",
+        "normal-pdf-002",
+        "normal-mcq-05"
       ],
       "explanation": "本句的「normal to」指「與指定線、平面或表面成直角／法向的」。",
       "sentenceIndex": 74,
@@ -3056,12 +2758,10 @@ export default {
         "normal to"
       ],
       "optionReasons": {
-        "normal-mcq-26": "本句指「與指定線、平面或表面成直角／法向的」。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。"
+        "normal-mcq-26": "本句的「normal to」指「與指定線、平面或表面成直角／法向的」。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "normal-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-26"
     },
@@ -3073,11 +2773,9 @@ export default {
       "masked": "The ____ vector points away from the surface.",
       "options": [
         "normal-mcq-26",
-        "normal-mcq-25",
-        "normal-mcq-27",
-        "normal-mcq-24",
-        "normal-mcq-28",
-        "normal-mcq-23"
+        "normal-mcq-02",
+        "normal-mcq-08",
+        "normal-mcq-22"
       ],
       "explanation": "本句的「normal」指「與指定線、平面或表面成直角／法向的」。",
       "sentenceIndex": 75,
@@ -3086,12 +2784,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-26": "本句指「與指定線、平面或表面成直角／法向的」。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-27": "「由接觸表面施加、方向垂直於表面的力」是「normal force」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-23": "「從價值／規範／應然標準來判斷」是「normatively」的用法，與本句語境不同。"
+        "normal-mcq-26": "本句的「normal」指「與指定線、平面或表面成直角／法向的」。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-26"
     },
@@ -3103,11 +2799,9 @@ export default {
       "masked": "The table exerts a ____ on the book.",
       "options": [
         "normal-mcq-27",
-        "normal-mcq-26",
-        "normal-mcq-28",
-        "normal-mcq-25",
-        "normal-mcq-29",
-        "normal-mcq-24"
+        "normal-mcq-02",
+        "normal-mcq-05",
+        "normal-mcq-25"
       ],
       "explanation": "本句的「normal force」指「由接觸表面施加、方向垂直於表面的力」。",
       "sentenceIndex": 76,
@@ -3116,12 +2810,10 @@ export default {
         "normal force"
       ],
       "optionReasons": {
-        "normal-mcq-27": "本句指「由接觸表面施加、方向垂直於表面的力」。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-mcq-27": "本句的「normal force」指「由接觸表面施加、方向垂直於表面的力」。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-27"
     },
@@ -3133,11 +2825,9 @@ export default {
       "masked": "The ____ force acts perpendicular to the surface.",
       "options": [
         "normal-mcq-27",
-        "normal-mcq-26",
-        "normal-mcq-28",
-        "normal-mcq-25",
-        "normal-mcq-29",
-        "normal-mcq-24"
+        "normal-pdf-003",
+        "normal-mcq-05",
+        "normal-mcq-21"
       ],
       "explanation": "本句的「normal」指「由接觸表面施加、方向垂直於表面的力」。",
       "sentenceIndex": 77,
@@ -3146,12 +2836,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-mcq-27": "本句指「由接觸表面施加、方向垂直於表面的力」。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-mcq-27": "本句的「normal」指「由接觸表面施加、方向垂直於表面的力」。",
+        "normal-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-mcq-27"
     },
@@ -3163,11 +2851,9 @@ export default {
       "masked": "Draw a ____ to the curve at this point.",
       "options": [
         "normal-pdf-005",
-        "normal-mcq-26",
-        "normal-mcq-28",
-        "normal-mcq-25",
-        "normal-mcq-29",
-        "normal-mcq-24"
+        "normal-mcq-19",
+        "normal-mcq-09",
+        "normal-mcq-12"
       ],
       "explanation": "本句的「normal」指「數學中與曲線／表面垂直的線或方向」。",
       "sentenceIndex": 78,
@@ -3176,12 +2862,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-pdf-005": "本句指「數學中與曲線／表面垂直的線或方向」。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-pdf-005": "本句的「normal」指「數學中與曲線／表面垂直的線或方向」。",
+        "normal-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-005"
     },
@@ -3193,10 +2877,8 @@ export default {
       "masked": "The ____ is perpendicular to the tangent.",
       "options": [
         "normal-pdf-005",
-        "normal-mcq-26",
-        "normal-mcq-28",
-        "normal-mcq-25",
-        "normal-mcq-29",
+        "normal-mcq-02",
+        "normal-mcq-01",
         "normal-mcq-24"
       ],
       "explanation": "本句的「normal」指「數學中與曲線／表面垂直的線或方向」。",
@@ -3206,12 +2888,10 @@ export default {
         "normal"
       ],
       "optionReasons": {
-        "normal-pdf-005": "本句指「數學中與曲線／表面垂直的線或方向」。",
-        "normal-mcq-26": "「與指定線、平面或表面成直角／法向的」是「normal — mathematical」的用法，與本句語境不同。",
-        "normal-mcq-28": "「某個社群普遍認為應該／不應該怎樣做的行為標準」是「14. social/cultural norms（社會／文化規範） — 社會慣例；行為標準」的用法，與本句語境不同。",
-        "normal-mcq-25": "「統計學中特定的鐘形機率分布」是「normal distribution」的用法，與本句語境不同。",
-        "normal-mcq-29": "「已根據指定規則調整到共同標準／尺度」是「27. normalized = converted to a standard form（標準化的） — 已正規化」的用法，與本句語境不同。",
-        "normal-mcq-24": "「已根據某參照群體／標準建立比較基準」是「normed」的用法，與本句語境不同。"
+        "normal-pdf-005": "本句的「normal」指「數學中與曲線／表面垂直的線或方向」。",
+        "normal-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "normal-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "normal-pdf-005"
     }
@@ -3223,5 +2903,7 @@ export default {
     "sha256": "419aa968ba9a633cf5c85cd50969aafeec1373a7f6c679f426b10b025082fb1c",
     "pages": 37
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1008,11 +1008,9 @@ export default {
       "masked": "A younger child accidentally ____.",
       "options": [
         "break-mcq-01",
-        "break-mcq-02",
-        "break-mcq-03",
-        "break-mcq-04",
-        "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-22",
+        "break-mcq-26",
+        "break-mcq-13"
       ],
       "explanation": "本句的「broke a cardboard bridge」指「弄破；弄壞；弄斷」。",
       "sentenceIndex": 0,
@@ -1021,12 +1019,10 @@ export default {
         "broke a cardboard bridge"
       ],
       "optionReasons": {
-        "break-mcq-01": "本句指「弄破；弄壞；弄斷」。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-01": "本句的「broke a cardboard bridge」指「弄破；弄壞；弄斷」。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-01"
     },
@@ -1038,11 +1034,9 @@ export default {
       "masked": "Be careful not to ____.",
       "options": [
         "break-mcq-01",
-        "break-mcq-02",
-        "break-mcq-03",
-        "break-mcq-04",
+        "break-mcq-35",
         "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-34"
       ],
       "explanation": "本句的「break the glass」指「弄破；弄壞；弄斷」。",
       "sentenceIndex": 1,
@@ -1051,12 +1045,10 @@ export default {
         "break the glass"
       ],
       "optionReasons": {
-        "break-mcq-01": "本句指「弄破；弄壞；弄斷」。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-01": "本句的「break the glass」指「弄破；弄壞；弄斷」。",
+        "break-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-01"
     },
@@ -1068,11 +1060,9 @@ export default {
       "masked": "He ____ by standing on it.",
       "options": [
         "break-mcq-01",
-        "break-mcq-02",
-        "break-mcq-03",
-        "break-mcq-04",
-        "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-40",
+        "break-mcq-23",
+        "break-mcq-07"
       ],
       "explanation": "本句的「broke the chair」指「弄破；弄壞；弄斷」。",
       "sentenceIndex": 2,
@@ -1081,12 +1071,10 @@ export default {
         "broke the chair"
       ],
       "optionReasons": {
-        "break-mcq-01": "本句指「弄破；弄壞；弄斷」。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-01": "本句的「broke the chair」指「弄破；弄壞；弄斷」。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-01"
     },
@@ -1098,11 +1086,9 @@ export default {
       "masked": "The branch ____ under his weight.",
       "options": [
         "break-mcq-02",
-        "break-mcq-01",
         "break-mcq-03",
-        "break-mcq-04",
-        "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-07",
+        "break-mcq-34"
       ],
       "explanation": "本句的「broke」指「破裂；壞掉」。",
       "sentenceIndex": 3,
@@ -1111,12 +1097,10 @@ export default {
         "broke"
       ],
       "optionReasons": {
-        "break-mcq-02": "本句指「破裂；壞掉」。",
-        "break-mcq-01": "「弄破；弄壞；弄斷」是「break something」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-02": "本句的「broke」指「破裂；壞掉」。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-02"
     },
@@ -1128,11 +1112,9 @@ export default {
       "masked": "My phone screen ____ when I dropped it.",
       "options": [
         "break-mcq-02",
-        "break-mcq-01",
-        "break-mcq-03",
-        "break-mcq-04",
-        "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-12",
+        "break-pdf-001",
+        "break-mcq-18"
       ],
       "explanation": "本句的「broke」指「破裂；壞掉」。",
       "sentenceIndex": 4,
@@ -1141,12 +1123,10 @@ export default {
         "broke"
       ],
       "optionReasons": {
-        "break-mcq-02": "本句指「破裂；壞掉」。",
-        "break-mcq-01": "「弄破；弄壞；弄斷」是「break something」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-02": "本句的「broke」指「破裂；壞掉」。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "break-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-02"
     },
@@ -1158,11 +1138,9 @@ export default {
       "masked": "She ____ in the accident.",
       "options": [
         "break-mcq-03",
-        "break-mcq-02",
-        "break-mcq-04",
-        "break-mcq-01",
-        "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-37",
+        "break-mcq-41",
+        "break-mcq-22"
       ],
       "explanation": "本句的「broke her arm」指「骨折」。",
       "sentenceIndex": 5,
@@ -1171,12 +1149,10 @@ export default {
         "broke her arm"
       ],
       "optionReasons": {
-        "break-mcq-03": "本句指「骨折」。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-01": "「弄破；弄壞；弄斷」是「break something」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-03": "本句的「broke her arm」指「骨折」。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-03"
     },
@@ -1188,11 +1164,9 @@ export default {
       "masked": "He fell off his bike but luckily didn't ____.",
       "options": [
         "break-mcq-03",
-        "break-mcq-02",
-        "break-mcq-04",
-        "break-mcq-01",
-        "break-mcq-05",
-        "break-mcq-06"
+        "break-mcq-19",
+        "break-mcq-37",
+        "break-mcq-31"
       ],
       "explanation": "本句的「break any bones」指「骨折」。",
       "sentenceIndex": 6,
@@ -1201,12 +1175,10 @@ export default {
         "break any bones"
       ],
       "optionReasons": {
-        "break-mcq-03": "本句指「骨折」。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-01": "「弄破；弄壞；弄斷」是「break something」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-03": "本句的「break any bones」指「骨折」。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-03"
     },
@@ -1218,11 +1190,9 @@ export default {
       "masked": "I think I've ____.",
       "options": [
         "break-mcq-41",
-        "break-mcq-40",
-        "break-mcq-42",
-        "break-mcq-39",
-        "break-mcq-38",
-        "break-mcq-37"
+        "break-mcq-31",
+        "break-mcq-36",
+        "break-mcq-11"
       ],
       "explanation": "本句的「broken the printer」指「使設備損壞至無法正常運作」。",
       "sentenceIndex": 7,
@@ -1231,12 +1201,10 @@ export default {
         "broken the printer"
       ],
       "optionReasons": {
-        "break-mcq-41": "本句指「使設備損壞至無法正常運作」。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-42": "「把一個整體分成若干較小部分」是「26. break something up — 打碎；分割」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。"
+        "break-mcq-41": "本句的「broken the printer」指「使設備損壞至無法正常運作」。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-41"
     },
@@ -1248,11 +1216,9 @@ export default {
       "masked": "Don't press that button—you might ____.",
       "options": [
         "break-mcq-41",
-        "break-mcq-40",
-        "break-mcq-42",
-        "break-mcq-39",
-        "break-mcq-38",
-        "break-mcq-37"
+        "break-mcq-17",
+        "break-mcq-34",
+        "break-mcq-21"
       ],
       "explanation": "本句的「break the machine」指「使設備損壞至無法正常運作」。",
       "sentenceIndex": 8,
@@ -1261,12 +1227,10 @@ export default {
         "break the machine"
       ],
       "optionReasons": {
-        "break-mcq-41": "本句指「使設備損壞至無法正常運作」。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-42": "「把一個整體分成若干較小部分」是「26. break something up — 打碎；分割」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。"
+        "break-mcq-41": "本句的「break the machine」指「使設備損壞至無法正常運作」。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-41"
     },
@@ -1278,11 +1242,9 @@ export default {
       "masked": "The toy is ____.",
       "options": [
         "break-mcq-04",
-        "break-mcq-03",
-        "break-mcq-05",
-        "break-mcq-02",
-        "break-mcq-06",
-        "break-mcq-01"
+        "break-mcq-28",
+        "break-mcq-23",
+        "break-mcq-31"
       ],
       "explanation": "本句的「broken」指「破損的；壞掉的」。",
       "sentenceIndex": 9,
@@ -1291,12 +1253,10 @@ export default {
         "broken"
       ],
       "optionReasons": {
-        "break-mcq-04": "本句指「破損的；壞掉的」。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-01": "「弄破；弄壞；弄斷」是「break something」的用法，與本句語境不同。"
+        "break-mcq-04": "本句的「broken」指「破損的；壞掉的」。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-04"
     },
@@ -1308,11 +1268,9 @@ export default {
       "masked": "He replaced the ____.",
       "options": [
         "break-mcq-04",
-        "break-mcq-03",
-        "break-mcq-05",
-        "break-mcq-02",
-        "break-mcq-06",
-        "break-mcq-01"
+        "break-mcq-18",
+        "break-mcq-33",
+        "break-mcq-15"
       ],
       "explanation": "本句的「broken window」指「破損的；壞掉的」。",
       "sentenceIndex": 10,
@@ -1321,12 +1279,10 @@ export default {
         "broken window"
       ],
       "optionReasons": {
-        "break-mcq-04": "本句指「破損的；壞掉的」。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-01": "「弄破；弄壞；弄斷」是「break something」的用法，與本句語境不同。"
+        "break-mcq-04": "本句的「broken window」指「破損的；壞掉的」。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-04"
     },
@@ -1338,11 +1294,9 @@ export default {
       "masked": "Students who ____ may be punished.",
       "options": [
         "break-mcq-05",
-        "break-mcq-04",
-        "break-mcq-06",
+        "break-mcq-25",
         "break-mcq-03",
-        "break-mcq-07",
-        "break-mcq-02"
+        "break-mcq-21"
       ],
       "explanation": "本句的「break the rules」指「違反規則／法律」。",
       "sentenceIndex": 11,
@@ -1351,12 +1305,10 @@ export default {
         "break the rules"
       ],
       "optionReasons": {
-        "break-mcq-05": "本句指「違反規則／法律」。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。"
+        "break-mcq-05": "本句的「break the rules」指「違反規則／法律」。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-05"
     },
@@ -1368,11 +1320,9 @@ export default {
       "masked": "He was arrested for ____.",
       "options": [
         "break-mcq-05",
-        "break-mcq-04",
-        "break-mcq-06",
-        "break-mcq-03",
-        "break-mcq-07",
-        "break-mcq-02"
+        "break-mcq-20",
+        "break-mcq-22",
+        "break-mcq-17"
       ],
       "explanation": "本句的「breaking the law」指「違反規則／法律」。",
       "sentenceIndex": 12,
@@ -1381,12 +1331,10 @@ export default {
         "breaking the law"
       ],
       "optionReasons": {
-        "break-mcq-05": "本句指「違反規則／法律」。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-02": "「破裂；壞掉」是「something breaks」的用法，與本句語境不同。"
+        "break-mcq-05": "本句的「breaking the law」指「違反規則／法律」。",
+        "break-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-05"
     },
@@ -1398,11 +1346,9 @@ export default {
       "masked": "She never ____.",
       "options": [
         "break-mcq-06",
-        "break-mcq-05",
-        "break-mcq-07",
-        "break-mcq-04",
-        "break-mcq-08",
-        "break-mcq-03"
+        "break-mcq-39",
+        "break-mcq-25",
+        "break-mcq-22"
       ],
       "explanation": "本句的「breaks a promise」指「違背承諾」。",
       "sentenceIndex": 13,
@@ -1411,12 +1357,10 @@ export default {
         "breaks a promise"
       ],
       "optionReasons": {
-        "break-mcq-06": "本句指「違背承諾」。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。"
+        "break-mcq-06": "本句的「breaks a promise」指「違背承諾」。",
+        "break-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-06"
     },
@@ -1428,11 +1372,9 @@ export default {
       "masked": "He felt guilty because he had ____.",
       "options": [
         "break-mcq-06",
-        "break-mcq-05",
-        "break-mcq-07",
-        "break-mcq-04",
-        "break-mcq-08",
-        "break-mcq-03"
+        "break-mcq-30",
+        "break-mcq-19",
+        "break-mcq-12"
       ],
       "explanation": "本句的「broken his promise」指「違背承諾」。",
       "sentenceIndex": 14,
@@ -1441,12 +1383,10 @@ export default {
         "broken his promise"
       ],
       "optionReasons": {
-        "break-mcq-06": "本句指「違背承諾」。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-03": "「骨折」是「break a bone」的用法，與本句語境不同。"
+        "break-mcq-06": "本句的「broken his promise」指「違背承諾」。",
+        "break-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-06"
     },
@@ -1458,11 +1398,9 @@ export default {
       "masked": "The company was accused of ____.",
       "options": [
         "break-mcq-07",
-        "break-mcq-06",
-        "break-mcq-08",
-        "break-mcq-05",
-        "break-mcq-09",
-        "break-mcq-04"
+        "break-mcq-02",
+        "break-mcq-10",
+        "break-mcq-19"
       ],
       "explanation": "本句的「breaking the agreement」指「違反合約」。",
       "sentenceIndex": 15,
@@ -1471,12 +1409,10 @@ export default {
         "breaking the agreement"
       ],
       "optionReasons": {
-        "break-mcq-07": "本句指「違反合約」。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。"
+        "break-mcq-07": "本句的「breaking the agreement」指「違反合約」。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-07"
     },
@@ -1488,11 +1424,9 @@ export default {
       "masked": "Either side can be penalized for ____.",
       "options": [
         "break-mcq-07",
-        "break-mcq-06",
-        "break-mcq-08",
-        "break-mcq-05",
-        "break-mcq-09",
-        "break-mcq-04"
+        "break-mcq-25",
+        "break-mcq-13",
+        "break-mcq-33"
       ],
       "explanation": "本句的「breaking the contract」指「違反合約」。",
       "sentenceIndex": 16,
@@ -1501,12 +1435,10 @@ export default {
         "breaking the contract"
       ],
       "optionReasons": {
-        "break-mcq-07": "本句指「違反合約」。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-04": "「破損的；壞掉的」是「broken」的用法，與本句語境不同。"
+        "break-mcq-07": "本句的「breaking the contract」指「違反合約」。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-07"
     },
@@ -1518,11 +1450,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "break-mcq-08",
-        "break-mcq-07",
-        "break-mcq-09",
+        "break-mcq-40",
         "break-mcq-06",
-        "break-mcq-10",
-        "break-mcq-05"
+        "break-mcq-42"
       ],
       "explanation": "本句的「broke the world record」指「打破紀錄」。",
       "sentenceIndex": 17,
@@ -1531,12 +1461,10 @@ export default {
         "broke the world record"
       ],
       "optionReasons": {
-        "break-mcq-08": "本句指「打破紀錄」。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。"
+        "break-mcq-08": "本句的「broke the world record」指「打破紀錄」。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-08"
     },
@@ -1548,11 +1476,9 @@ export default {
       "masked": "The film ____.",
       "options": [
         "break-mcq-08",
-        "break-mcq-07",
-        "break-mcq-09",
-        "break-mcq-06",
-        "break-mcq-10",
-        "break-mcq-05"
+        "break-mcq-41",
+        "break-mcq-17",
+        "break-mcq-10"
       ],
       "explanation": "本句的「broke several box-office records」指「打破紀錄」。",
       "sentenceIndex": 18,
@@ -1561,12 +1487,10 @@ export default {
         "broke several box-office records"
       ],
       "optionReasons": {
-        "break-mcq-08": "本句指「打破紀錄」。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-05": "「違反規則／法律」是「break a rule/law」的用法，與本句語境不同。"
+        "break-mcq-08": "本句的「broke several box-office records」指「打破紀錄」。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-08"
     },
@@ -1578,11 +1502,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "break-mcq-09",
-        "break-mcq-08",
-        "break-mcq-10",
-        "break-mcq-07",
-        "break-mcq-11",
-        "break-mcq-06"
+        "break-mcq-06",
+        "break-mcq-27",
+        "break-mcq-31"
       ],
       "explanation": "本句的「broke the silence」指「打破沉默」。",
       "sentenceIndex": 19,
@@ -1591,12 +1513,10 @@ export default {
         "broke the silence"
       ],
       "optionReasons": {
-        "break-mcq-09": "本句指「打破沉默」。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-09": "本句的「broke the silence」指「打破沉默」。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-09"
     },
@@ -1608,11 +1528,9 @@ export default {
       "masked": "A sudden laugh ____ in the room.",
       "options": [
         "break-mcq-09",
-        "break-mcq-08",
-        "break-mcq-10",
-        "break-mcq-07",
-        "break-mcq-11",
-        "break-mcq-06"
+        "break-mcq-18",
+        "break-mcq-35",
+        "break-mcq-31"
       ],
       "explanation": "本句的「broke the silence」指「打破沉默」。",
       "sentenceIndex": 20,
@@ -1621,12 +1539,10 @@ export default {
         "broke the silence"
       ],
       "optionReasons": {
-        "break-mcq-09": "本句指「打破沉默」。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-06": "「違背承諾」是「break a promise」的用法，與本句語境不同。"
+        "break-mcq-09": "本句的「broke the silence」指「打破沉默」。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-09"
     },
@@ -1638,11 +1554,9 @@ export default {
       "masked": "Who is going to ____ to her?",
       "options": [
         "break-mcq-10",
-        "break-mcq-09",
-        "break-mcq-11",
-        "break-mcq-08",
-        "break-mcq-12",
-        "break-mcq-07"
+        "break-mcq-04",
+        "break-mcq-36",
+        "break-mcq-25"
       ],
       "explanation": "本句的「break the news」指「告知重大消息」。",
       "sentenceIndex": 21,
@@ -1651,12 +1565,10 @@ export default {
         "break the news"
       ],
       "optionReasons": {
-        "break-mcq-10": "本句指「告知重大消息」。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。"
+        "break-mcq-10": "本句的「break the news」指「告知重大消息」。",
+        "break-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-10"
     },
@@ -1668,11 +1580,9 @@ export default {
       "masked": "He gently ____ that the trip had been cancelled.",
       "options": [
         "break-mcq-10",
-        "break-mcq-09",
-        "break-mcq-11",
-        "break-mcq-08",
-        "break-mcq-12",
-        "break-mcq-07"
+        "break-mcq-36",
+        "break-mcq-40",
+        "break-mcq-37"
       ],
       "explanation": "本句的「broke the news」指「告知重大消息」。",
       "sentenceIndex": 22,
@@ -1681,12 +1591,10 @@ export default {
         "broke the news"
       ],
       "optionReasons": {
-        "break-mcq-10": "本句指「告知重大消息」。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-07": "「違反合約」是「break a contract」的用法，與本句語境不同。"
+        "break-mcq-10": "本句的「broke the news」指「告知重大消息」。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-10"
     },
@@ -1698,11 +1606,9 @@ export default {
       "masked": "The decision ____.",
       "options": [
         "break-mcq-11",
-        "break-mcq-10",
-        "break-mcq-12",
-        "break-mcq-09",
-        "break-mcq-13",
-        "break-mcq-08"
+        "break-mcq-28",
+        "break-mcq-23",
+        "break-mcq-06"
       ],
       "explanation": "本句的「broke her heart」指「令某人心碎」。",
       "sentenceIndex": 23,
@@ -1711,12 +1617,10 @@ export default {
         "broke her heart"
       ],
       "optionReasons": {
-        "break-mcq-11": "本句指「令某人心碎」。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。"
+        "break-mcq-11": "本句的「broke her heart」指「令某人心碎」。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-11"
     },
@@ -1728,11 +1632,9 @@ export default {
       "masked": "It ____ to leave his family behind.",
       "options": [
         "break-mcq-11",
-        "break-mcq-10",
-        "break-mcq-12",
-        "break-mcq-09",
-        "break-mcq-13",
-        "break-mcq-08"
+        "break-mcq-19",
+        "break-mcq-36",
+        "break-mcq-25"
       ],
       "explanation": "本句的「broke his heart」指「令某人心碎」。",
       "sentenceIndex": 24,
@@ -1741,12 +1643,10 @@ export default {
         "broke his heart"
       ],
       "optionReasons": {
-        "break-mcq-11": "本句指「令某人心碎」。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-08": "「打破紀錄」是「break a record」的用法，與本句語境不同。"
+        "break-mcq-11": "本句的「broke his heart」指「令某人心碎」。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-11"
     },
@@ -1758,11 +1658,9 @@ export default {
       "masked": "Years of hardship did not ____.",
       "options": [
         "break-mcq-12",
-        "break-mcq-11",
-        "break-mcq-13",
-        "break-mcq-10",
-        "break-mcq-14",
-        "break-mcq-09"
+        "break-pdf-001",
+        "break-mcq-24",
+        "break-mcq-20"
       ],
       "explanation": "本句的「break her spirit」指「擊垮意志」。",
       "sentenceIndex": 25,
@@ -1771,12 +1669,10 @@ export default {
         "break her spirit"
       ],
       "optionReasons": {
-        "break-mcq-12": "本句指「擊垮意志」。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。"
+        "break-mcq-12": "本句的「break her spirit」指「擊垮意志」。",
+        "break-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-12"
     },
@@ -1788,11 +1684,9 @@ export default {
       "masked": "The constant criticism almost ____.",
       "options": [
         "break-mcq-12",
-        "break-mcq-11",
-        "break-mcq-13",
-        "break-mcq-10",
-        "break-mcq-14",
-        "break-mcq-09"
+        "break-mcq-04",
+        "break-mcq-31",
+        "break-mcq-21"
       ],
       "explanation": "本句的「broke his spirit」指「擊垮意志」。",
       "sentenceIndex": 26,
@@ -1801,12 +1695,10 @@ export default {
         "broke his spirit"
       ],
       "optionReasons": {
-        "break-mcq-12": "本句指「擊垮意志」。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-09": "「打破沉默」是「break the silence」的用法，與本句語境不同。"
+        "break-mcq-12": "本句的「broke his spirit」指「擊垮意志」。",
+        "break-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-12"
     },
@@ -1818,11 +1710,9 @@ export default {
       "masked": "It's difficult to ____.",
       "options": [
         "break-mcq-13",
-        "break-mcq-12",
-        "break-mcq-14",
-        "break-mcq-11",
+        "break-mcq-34",
         "break-mcq-15",
-        "break-mcq-10"
+        "break-mcq-03"
       ],
       "explanation": "本句的「break a bad habit」指「戒掉習慣」。",
       "sentenceIndex": 27,
@@ -1831,12 +1721,10 @@ export default {
         "break a bad habit"
       ],
       "optionReasons": {
-        "break-mcq-13": "本句指「戒掉習慣」。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。"
+        "break-mcq-13": "本句的「break a bad habit」指「戒掉習慣」。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-13"
     },
@@ -1848,11 +1736,9 @@ export default {
       "masked": "He is trying to ____.",
       "options": [
         "break-mcq-13",
-        "break-mcq-12",
-        "break-mcq-14",
-        "break-mcq-11",
-        "break-mcq-15",
-        "break-mcq-10"
+        "break-mcq-33",
+        "break-mcq-41",
+        "break-mcq-14"
       ],
       "explanation": "本句的「break the habit of checking his phone constantly」指「戒掉習慣」。",
       "sentenceIndex": 28,
@@ -1861,12 +1747,10 @@ export default {
         "break the habit of checking his phone constantly"
       ],
       "optionReasons": {
-        "break-mcq-13": "本句指「戒掉習慣」。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-10": "「告知重大消息」是「break the news」的用法，與本句語境不同。"
+        "break-mcq-13": "本句的「break the habit of checking his phone constantly」指「戒掉習慣」。",
+        "break-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-13"
     },
@@ -1878,11 +1762,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "break-mcq-14",
-        "break-mcq-13",
-        "break-mcq-15",
-        "break-mcq-12",
-        "break-mcq-16",
-        "break-mcq-11"
+        "break-mcq-07",
+        "break-mcq-17",
+        "break-mcq-35"
       ],
       "explanation": "本句的「break the cycle of poverty」指「打破循環」。",
       "sentenceIndex": 29,
@@ -1891,12 +1773,10 @@ export default {
         "break the cycle of poverty"
       ],
       "optionReasons": {
-        "break-mcq-14": "本句指「打破循環」。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。"
+        "break-mcq-14": "本句的「break the cycle of poverty」指「打破循環」。",
+        "break-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-14"
     },
@@ -1908,11 +1788,9 @@ export default {
       "masked": "She changed her routine to ____.",
       "options": [
         "break-mcq-14",
-        "break-mcq-13",
-        "break-mcq-15",
-        "break-mcq-12",
-        "break-mcq-16",
-        "break-mcq-11"
+        "break-mcq-37",
+        "break-mcq-42",
+        "break-mcq-28"
       ],
       "explanation": "本句的「break the pattern」指「打破循環」。",
       "sentenceIndex": 30,
@@ -1921,12 +1799,10 @@ export default {
         "break the pattern"
       ],
       "optionReasons": {
-        "break-mcq-14": "本句指「打破循環」。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-11": "「令某人心碎」是「break someone's heart」的用法，與本句語境不同。"
+        "break-mcq-14": "本句的「break the pattern」指「打破循環」。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-14"
     },
@@ -1938,11 +1814,9 @@ export default {
       "masked": "They ____ after the argument.",
       "options": [
         "break-mcq-15",
-        "break-mcq-14",
-        "break-mcq-16",
-        "break-mcq-13",
+        "break-mcq-20",
         "break-mcq-17",
-        "break-mcq-12"
+        "break-pdf-002"
       ],
       "explanation": "本句的「broke contact」指「中斷聯絡」。",
       "sentenceIndex": 31,
@@ -1951,12 +1825,10 @@ export default {
         "broke contact"
       ],
       "optionReasons": {
-        "break-mcq-15": "本句指「中斷聯絡」。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。"
+        "break-mcq-15": "本句的「broke contact」指「中斷聯絡」。",
+        "break-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "break-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-15"
     },
@@ -1968,11 +1840,9 @@ export default {
       "masked": "The storm ____ with the island.",
       "options": [
         "break-mcq-15",
-        "break-mcq-14",
-        "break-mcq-16",
-        "break-mcq-13",
-        "break-mcq-17",
-        "break-mcq-12"
+        "break-mcq-33",
+        "break-mcq-22",
+        "break-mcq-40"
       ],
       "explanation": "本句的「broke communication」指「中斷聯絡」。",
       "sentenceIndex": 32,
@@ -1981,12 +1851,10 @@ export default {
         "broke communication"
       ],
       "optionReasons": {
-        "break-mcq-15": "本句指「中斷聯絡」。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-12": "「擊垮意志」是「break someone's spirit」的用法，與本句語境不同。"
+        "break-mcq-15": "本句的「broke communication」指「中斷聯絡」。",
+        "break-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-15"
     },
@@ -1998,11 +1866,9 @@ export default {
       "masked": "The noise ____.",
       "options": [
         "break-mcq-16",
-        "break-mcq-15",
-        "break-mcq-17",
-        "break-mcq-14",
-        "break-mcq-18",
-        "break-mcq-13"
+        "break-mcq-27",
+        "break-mcq-02",
+        "break-mcq-11"
       ],
       "explanation": "本句的「broke my concentration」指「打斷專注」。",
       "sentenceIndex": 33,
@@ -2011,12 +1877,10 @@ export default {
         "broke my concentration"
       ],
       "optionReasons": {
-        "break-mcq-16": "本句指「打斷專注」。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。"
+        "break-mcq-16": "本句的「broke my concentration」指「打斷專注」。",
+        "break-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-16"
     },
@@ -2028,11 +1892,9 @@ export default {
       "masked": "Try not to ____ while she's working.",
       "options": [
         "break-mcq-16",
-        "break-mcq-15",
-        "break-mcq-17",
-        "break-mcq-14",
-        "break-mcq-18",
-        "break-mcq-13"
+        "break-mcq-13",
+        "break-mcq-11",
+        "break-mcq-19"
       ],
       "explanation": "本句的「break her concentration」指「打斷專注」。",
       "sentenceIndex": 34,
@@ -2041,12 +1903,10 @@ export default {
         "break her concentration"
       ],
       "optionReasons": {
-        "break-mcq-16": "本句指「打斷專注」。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-13": "「戒掉習慣」是「break a habit」的用法，與本句語境不同。"
+        "break-mcq-16": "本句的「break her concentration」指「打斷專注」。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-16"
     },
@@ -2058,10 +1918,8 @@ export default {
       "masked": "The branches ____.",
       "options": [
         "break-mcq-17",
-        "break-mcq-16",
-        "break-mcq-18",
-        "break-mcq-15",
-        "break-mcq-19",
+        "break-mcq-22",
+        "break-mcq-05",
         "break-mcq-14"
       ],
       "explanation": "本句的「broke his fall」指「減輕跌落衝擊」。",
@@ -2071,12 +1929,10 @@ export default {
         "broke his fall"
       ],
       "optionReasons": {
-        "break-mcq-17": "本句指「減輕跌落衝擊」。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。"
+        "break-mcq-17": "本句的「broke his fall」指「減輕跌落衝擊」。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-17"
     },
@@ -2088,11 +1944,9 @@ export default {
       "masked": "She put out her hands to ____.",
       "options": [
         "break-mcq-17",
-        "break-mcq-16",
-        "break-mcq-18",
-        "break-mcq-15",
-        "break-mcq-19",
-        "break-mcq-14"
+        "break-mcq-05",
+        "break-mcq-02",
+        "break-mcq-27"
       ],
       "explanation": "本句的「break her fall」指「減輕跌落衝擊」。",
       "sentenceIndex": 36,
@@ -2101,12 +1955,10 @@ export default {
         "break her fall"
       ],
       "optionReasons": {
-        "break-mcq-17": "本句指「減輕跌落衝擊」。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。"
+        "break-mcq-17": "本句的「break her fall」指「減輕跌落衝擊」。",
+        "break-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-17"
     },
@@ -2118,11 +1970,9 @@ export default {
       "masked": "The soft ground helped ____.",
       "options": [
         "break-mcq-17",
-        "break-mcq-16",
-        "break-mcq-18",
-        "break-mcq-15",
-        "break-mcq-19",
-        "break-mcq-14"
+        "break-mcq-29",
+        "break-mcq-37",
+        "break-mcq-13"
       ],
       "explanation": "本句的「break her fall」指「減輕跌落衝擊」。",
       "sentenceIndex": 37,
@@ -2131,12 +1981,10 @@ export default {
         "break her fall"
       ],
       "optionReasons": {
-        "break-mcq-17": "本句指「減輕跌落衝擊」。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。"
+        "break-mcq-17": "本句的「break her fall」指「減輕跌落衝擊」。",
+        "break-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-17"
     },
@@ -2148,11 +1996,9 @@ export default {
       "masked": "He landed on some bushes, which ____.",
       "options": [
         "break-mcq-17",
-        "break-mcq-16",
+        "break-mcq-24",
         "break-mcq-18",
-        "break-mcq-15",
-        "break-mcq-19",
-        "break-mcq-14"
+        "break-mcq-01"
       ],
       "explanation": "本句的「broke his fall」指「減輕跌落衝擊」。",
       "sentenceIndex": 38,
@@ -2161,12 +2007,10 @@ export default {
         "broke his fall"
       ],
       "optionReasons": {
-        "break-mcq-17": "本句指「減輕跌落衝擊」。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-14": "「打破循環」是「break a cycle」的用法，與本句語境不同。"
+        "break-mcq-17": "本句的「broke his fall」指「減輕跌落衝擊」。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-17"
     },
@@ -2178,11 +2022,9 @@ export default {
       "masked": "Our car ____ on the way home.",
       "options": [
         "break-mcq-18",
-        "break-mcq-17",
-        "break-mcq-19",
-        "break-mcq-16",
-        "break-mcq-20",
-        "break-mcq-15"
+        "break-mcq-02",
+        "break-mcq-40",
+        "break-mcq-32"
       ],
       "explanation": "本句的「broke down」指「故障」。",
       "sentenceIndex": 39,
@@ -2191,12 +2033,10 @@ export default {
         "broke down"
       ],
       "optionReasons": {
-        "break-mcq-18": "本句指「故障」。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。"
+        "break-mcq-18": "本句的「broke down」指「故障」。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-18"
     },
@@ -2208,11 +2048,9 @@ export default {
       "masked": "The lift ____ again.",
       "options": [
         "break-mcq-18",
-        "break-mcq-17",
-        "break-mcq-19",
+        "break-mcq-14",
         "break-mcq-16",
-        "break-mcq-20",
-        "break-mcq-15"
+        "break-mcq-41"
       ],
       "explanation": "本句的「broke down」指「故障」。",
       "sentenceIndex": 40,
@@ -2221,12 +2059,10 @@ export default {
         "broke down"
       ],
       "optionReasons": {
-        "break-mcq-18": "本句指「故障」。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-15": "「中斷聯絡」是「break contact」的用法，與本句語境不同。"
+        "break-mcq-18": "本句的「broke down」指「故障」。",
+        "break-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-18"
     },
@@ -2238,11 +2074,9 @@ export default {
       "masked": "She ____ when she heard the news.",
       "options": [
         "break-mcq-19",
-        "break-mcq-18",
-        "break-mcq-20",
-        "break-mcq-17",
-        "break-mcq-21",
-        "break-mcq-16"
+        "break-mcq-25",
+        "break-mcq-37",
+        "break-mcq-28"
       ],
       "explanation": "本句的「broke down」指「情緒崩潰」。",
       "sentenceIndex": 41,
@@ -2251,12 +2085,10 @@ export default {
         "broke down"
       ],
       "optionReasons": {
-        "break-mcq-19": "本句指「情緒崩潰」。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。"
+        "break-mcq-19": "本句的「broke down」指「情緒崩潰」。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-19"
     },
@@ -2268,11 +2100,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "break-mcq-19",
-        "break-mcq-18",
-        "break-mcq-20",
-        "break-mcq-17",
-        "break-mcq-21",
-        "break-mcq-16"
+        "break-mcq-05",
+        "break-mcq-13",
+        "break-mcq-39"
       ],
       "explanation": "本句的「broke down in tears」指「情緒崩潰」。",
       "sentenceIndex": 42,
@@ -2281,12 +2111,10 @@ export default {
         "broke down in tears"
       ],
       "optionReasons": {
-        "break-mcq-19": "本句指「情緒崩潰」。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-16": "「打斷專注」是「break concentration」的用法，與本句語境不同。"
+        "break-mcq-19": "本句的「broke down in tears」指「情緒崩潰」。",
+        "break-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-19"
     },
@@ -2298,11 +2126,9 @@ export default {
       "masked": "Negotiations ____.",
       "options": [
         "break-mcq-20",
-        "break-mcq-19",
-        "break-mcq-21",
-        "break-mcq-18",
-        "break-mcq-22",
-        "break-mcq-17"
+        "break-mcq-24",
+        "break-mcq-07",
+        "break-mcq-15"
       ],
       "explanation": "本句的「broke down」指「破裂；失效」。",
       "sentenceIndex": 43,
@@ -2311,12 +2137,10 @@ export default {
         "broke down"
       ],
       "optionReasons": {
-        "break-mcq-20": "本句指「破裂；失效」。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。"
+        "break-mcq-20": "本句的「broke down」指「破裂；失效」。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-20"
     },
@@ -2328,11 +2152,9 @@ export default {
       "masked": "Communication between the two teams ____.",
       "options": [
         "break-mcq-20",
-        "break-mcq-19",
-        "break-mcq-21",
-        "break-mcq-18",
-        "break-mcq-22",
-        "break-mcq-17"
+        "break-mcq-24",
+        "break-mcq-25",
+        "break-mcq-06"
       ],
       "explanation": "本句的「broke down」指「破裂；失效」。",
       "sentenceIndex": 44,
@@ -2341,12 +2163,10 @@ export default {
         "broke down"
       ],
       "optionReasons": {
-        "break-mcq-20": "本句指「破裂；失效」。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-17": "「減輕跌落衝擊」是「break a fall」的用法，與本句語境不同。"
+        "break-mcq-20": "本句的「broke down」指「破裂；失效」。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-20"
     },
@@ -2358,11 +2178,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "break-mcq-21",
-        "break-mcq-20",
-        "break-mcq-22",
-        "break-mcq-19",
-        "break-mcq-23",
-        "break-mcq-18"
+        "break-mcq-27",
+        "break-mcq-31",
+        "break-mcq-03"
       ],
       "explanation": "本句的「broke the problem down into smaller steps」指「分解；拆分」。",
       "sentenceIndex": 45,
@@ -2371,12 +2189,10 @@ export default {
         "broke the problem down into smaller steps"
       ],
       "optionReasons": {
-        "break-mcq-21": "本句指「分解；拆分」。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。"
+        "break-mcq-21": "本句的「broke the problem down into smaller steps」指「分解；拆分」。",
+        "break-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-21"
     },
@@ -2388,11 +2204,9 @@ export default {
       "masked": "The body ____ during digestion.",
       "options": [
         "break-mcq-21",
-        "break-mcq-20",
-        "break-mcq-22",
-        "break-mcq-19",
-        "break-mcq-23",
-        "break-mcq-18"
+        "break-mcq-32",
+        "break-mcq-31",
+        "break-mcq-26"
       ],
       "explanation": "本句的「breaks food down」指「分解；拆分」。",
       "sentenceIndex": 46,
@@ -2401,12 +2215,10 @@ export default {
         "breaks food down"
       ],
       "optionReasons": {
-        "break-mcq-21": "本句指「分解；拆分」。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-18": "「故障」是「break down (machine)」的用法，與本句語境不同。"
+        "break-mcq-21": "本句的「breaks food down」指「分解；拆分」。",
+        "break-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-21"
     },
@@ -2418,11 +2230,9 @@ export default {
       "masked": "They ____ last year.",
       "options": [
         "break-mcq-22",
-        "break-mcq-21",
-        "break-mcq-23",
-        "break-mcq-20",
-        "break-mcq-24",
-        "break-mcq-19"
+        "break-mcq-36",
+        "break-mcq-02",
+        "break-mcq-31"
       ],
       "explanation": "本句的「broke up」指「分手」。",
       "sentenceIndex": 47,
@@ -2431,12 +2241,10 @@ export default {
         "broke up"
       ],
       "optionReasons": {
-        "break-mcq-22": "本句指「分手」。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。"
+        "break-mcq-22": "本句的「broke up」指「分手」。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-22"
     },
@@ -2448,11 +2256,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "break-mcq-22",
-        "break-mcq-21",
-        "break-mcq-23",
-        "break-mcq-20",
-        "break-mcq-24",
-        "break-mcq-19"
+        "break-mcq-16",
+        "break-mcq-33",
+        "break-mcq-03"
       ],
       "explanation": "本句的「break up with him」指「分手」。",
       "sentenceIndex": 48,
@@ -2461,12 +2267,10 @@ export default {
         "break up with him"
       ],
       "optionReasons": {
-        "break-mcq-22": "本句指「分手」。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-19": "「情緒崩潰」是「break down (person)」的用法，與本句語境不同。"
+        "break-mcq-22": "本句的「break up with him」指「分手」。",
+        "break-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-22"
     },
@@ -2478,11 +2282,9 @@ export default {
       "masked": "The police ____.",
       "options": [
         "break-mcq-23",
-        "break-mcq-22",
-        "break-mcq-24",
-        "break-mcq-21",
-        "break-mcq-25",
-        "break-mcq-20"
+        "break-mcq-28",
+        "break-mcq-34",
+        "break-mcq-30"
       ],
       "explanation": "本句的「broke up the crowd」指「散開；解散」。",
       "sentenceIndex": 49,
@@ -2491,12 +2293,10 @@ export default {
         "broke up the crowd"
       ],
       "optionReasons": {
-        "break-mcq-23": "本句指「散開；解散」。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。"
+        "break-mcq-23": "本句的「broke up the crowd」指「散開；解散」。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-23"
     },
@@ -2508,11 +2308,9 @@ export default {
       "masked": "The meeting ____ at six.",
       "options": [
         "break-mcq-23",
-        "break-mcq-22",
-        "break-mcq-24",
-        "break-mcq-21",
-        "break-mcq-25",
-        "break-mcq-20"
+        "break-mcq-02",
+        "break-mcq-09",
+        "break-mcq-11"
       ],
       "explanation": "本句的「broke up」指「散開；解散」。",
       "sentenceIndex": 50,
@@ -2521,12 +2319,10 @@ export default {
         "broke up"
       ],
       "optionReasons": {
-        "break-mcq-23": "本句指「散開；解散」。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-20": "「破裂；失效」是「break down (talks/system)」的用法，與本句語境不同。"
+        "break-mcq-23": "本句的「broke up」指「散開；解散」。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-23"
     },
@@ -2538,11 +2334,9 @@ export default {
       "masked": "____ the chocolate into small pieces.",
       "options": [
         "break-mcq-42",
-        "break-mcq-41",
-        "break-mcq-40",
-        "break-mcq-39",
-        "break-mcq-38",
-        "break-mcq-37"
+        "break-mcq-11",
+        "break-mcq-29",
+        "break-mcq-39"
       ],
       "explanation": "本句的「Break up」指「把一個整體分成若干較小部分」。",
       "sentenceIndex": 51,
@@ -2551,12 +2345,10 @@ export default {
         "Break up"
       ],
       "optionReasons": {
-        "break-mcq-42": "本句指「把一個整體分成若干較小部分」。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。"
+        "break-mcq-42": "本句的「Break up」指「把一個整體分成若干較小部分」。",
+        "break-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-42"
     },
@@ -2568,11 +2360,9 @@ export default {
       "masked": "The land was ____.",
       "options": [
         "break-mcq-42",
-        "break-mcq-41",
-        "break-mcq-40",
-        "break-mcq-39",
-        "break-mcq-38",
-        "break-mcq-37"
+        "break-mcq-31",
+        "break-mcq-09",
+        "break-mcq-28"
       ],
       "explanation": "本句的「broken up into smaller plots」指「把一個整體分成若干較小部分」。",
       "sentenceIndex": 52,
@@ -2581,12 +2371,10 @@ export default {
         "broken up into smaller plots"
       ],
       "optionReasons": {
-        "break-mcq-42": "本句指「把一個整體分成若干較小部分」。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。"
+        "break-mcq-42": "本句的「broken up into smaller plots」指「把一個整體分成若干較小部分」。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-42"
     },
@@ -2598,11 +2386,9 @@ export default {
       "masked": "A fire ____ during the night.",
       "options": [
         "break-mcq-24",
-        "break-mcq-23",
-        "break-mcq-25",
-        "break-mcq-22",
-        "break-mcq-26",
-        "break-mcq-21"
+        "break-mcq-32",
+        "break-mcq-04",
+        "break-pdf-002"
       ],
       "explanation": "本句的「broke out」指「爆發」。",
       "sentenceIndex": 53,
@@ -2611,12 +2397,10 @@ export default {
         "broke out"
       ],
       "optionReasons": {
-        "break-mcq-24": "本句指「爆發」。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。"
+        "break-mcq-24": "本句的「broke out」指「爆發」。",
+        "break-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "break-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-24"
     },
@@ -2628,11 +2412,9 @@ export default {
       "masked": "Fighting ____ near the border.",
       "options": [
         "break-mcq-24",
-        "break-mcq-23",
-        "break-mcq-25",
-        "break-mcq-22",
-        "break-mcq-26",
-        "break-mcq-21"
+        "break-mcq-41",
+        "break-mcq-38",
+        "break-mcq-31"
       ],
       "explanation": "本句的「broke out」指「爆發」。",
       "sentenceIndex": 54,
@@ -2641,12 +2423,10 @@ export default {
         "broke out"
       ],
       "optionReasons": {
-        "break-mcq-24": "本句指「爆發」。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-21": "「分解；拆分」是「break something down」的用法，與本句語境不同。"
+        "break-mcq-24": "本句的「broke out」指「爆發」。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-24"
     },
@@ -2658,11 +2438,9 @@ export default {
       "masked": "Two prisoners ____.",
       "options": [
         "break-mcq-25",
-        "break-mcq-24",
         "break-mcq-26",
-        "break-mcq-23",
-        "break-mcq-27",
-        "break-mcq-22"
+        "break-mcq-08",
+        "break-mcq-21"
       ],
       "explanation": "本句的「broke out of jail」指「逃出」。",
       "sentenceIndex": 55,
@@ -2671,12 +2449,10 @@ export default {
         "broke out of jail"
       ],
       "optionReasons": {
-        "break-mcq-25": "本句指「逃出」。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。"
+        "break-mcq-25": "本句的「broke out of jail」指「逃出」。",
+        "break-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-25"
     },
@@ -2688,11 +2464,9 @@ export default {
       "masked": "The animal ____.",
       "options": [
         "break-mcq-25",
-        "break-mcq-24",
+        "break-mcq-36",
         "break-mcq-26",
-        "break-mcq-23",
-        "break-mcq-27",
-        "break-mcq-22"
+        "break-mcq-03"
       ],
       "explanation": "本句的「broke out of its cage」指「逃出」。",
       "sentenceIndex": 56,
@@ -2701,12 +2475,10 @@ export default {
         "broke out of its cage"
       ],
       "optionReasons": {
-        "break-mcq-25": "本句指「逃出」。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-22": "「分手」是「break up (relationship)」的用法，與本句語境不同。"
+        "break-mcq-25": "本句的「broke out of its cage」指「逃出」。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-25"
     },
@@ -2718,11 +2490,9 @@ export default {
       "masked": "Someone tried to ____ last night.",
       "options": [
         "break-mcq-26",
-        "break-mcq-25",
-        "break-mcq-27",
-        "break-mcq-24",
-        "break-mcq-28",
-        "break-mcq-23"
+        "break-mcq-30",
+        "break-mcq-08",
+        "break-mcq-12"
       ],
       "explanation": "本句的「break in」指「闖入」。",
       "sentenceIndex": 57,
@@ -2731,12 +2501,10 @@ export default {
         "break in"
       ],
       "optionReasons": {
-        "break-mcq-26": "本句指「闖入」。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。"
+        "break-mcq-26": "本句的「break in」指「闖入」。",
+        "break-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-26"
     },
@@ -2748,11 +2516,9 @@ export default {
       "masked": "Thieves ____ through a window.",
       "options": [
         "break-mcq-26",
-        "break-mcq-25",
-        "break-mcq-27",
-        "break-mcq-24",
-        "break-mcq-28",
-        "break-mcq-23"
+        "break-mcq-18",
+        "break-mcq-17",
+        "break-mcq-41"
       ],
       "explanation": "本句的「broke in」指「闖入」。",
       "sentenceIndex": 58,
@@ -2761,12 +2527,10 @@ export default {
         "broke in"
       ],
       "optionReasons": {
-        "break-mcq-26": "本句指「闖入」。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。"
+        "break-mcq-26": "本句的「broke in」指「闖入」。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-26"
     },
@@ -2778,11 +2542,9 @@ export default {
       "masked": "Someone ____.",
       "options": [
         "break-mcq-26",
-        "break-mcq-25",
-        "break-mcq-27",
-        "break-mcq-24",
+        "break-mcq-03",
         "break-mcq-28",
-        "break-mcq-23"
+        "break-mcq-38"
       ],
       "explanation": "本句的「broke into the office」指「闖入」。",
       "sentenceIndex": 59,
@@ -2791,12 +2553,10 @@ export default {
         "broke into the office"
       ],
       "optionReasons": {
-        "break-mcq-26": "本句指「闖入」。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。"
+        "break-mcq-26": "本句的「broke into the office」指「闖入」。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-26"
     },
@@ -2808,11 +2568,9 @@ export default {
       "masked": "Burglars ____ while the owners were away.",
       "options": [
         "break-mcq-26",
-        "break-mcq-25",
-        "break-mcq-27",
-        "break-mcq-24",
-        "break-mcq-28",
-        "break-mcq-23"
+        "break-mcq-39",
+        "break-mcq-42",
+        "break-mcq-20"
       ],
       "explanation": "本句的「broke into the house」指「闖入」。",
       "sentenceIndex": 60,
@@ -2821,12 +2579,10 @@ export default {
         "broke into the house"
       ],
       "optionReasons": {
-        "break-mcq-26": "本句指「闖入」。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-23": "「散開；解散」是「break up (group)」的用法，與本句語境不同。"
+        "break-mcq-26": "本句的「broke into the house」指「闖入」。",
+        "break-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-26"
     },
@@ -2838,11 +2594,9 @@ export default {
       "masked": "Everyone ____.",
       "options": [
         "break-mcq-27",
-        "break-mcq-26",
-        "break-mcq-28",
-        "break-mcq-25",
-        "break-mcq-29",
-        "break-mcq-24"
+        "break-mcq-31",
+        "break-mcq-05",
+        "break-mcq-01"
       ],
       "explanation": "本句的「broke into laughter」指「突然大笑」。",
       "sentenceIndex": 61,
@@ -2851,12 +2605,10 @@ export default {
         "broke into laughter"
       ],
       "optionReasons": {
-        "break-mcq-27": "本句指「突然大笑」。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。"
+        "break-mcq-27": "本句的「broke into laughter」指「突然大笑」。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-27"
     },
@@ -2868,11 +2620,9 @@ export default {
       "masked": "She ____ after reading the letter.",
       "options": [
         "break-mcq-27",
-        "break-mcq-26",
-        "break-mcq-28",
+        "break-mcq-07",
         "break-mcq-25",
-        "break-mcq-29",
-        "break-mcq-24"
+        "break-mcq-11"
       ],
       "explanation": "本句的「broke into tears」指「突然大笑」。",
       "sentenceIndex": 62,
@@ -2881,12 +2631,10 @@ export default {
         "broke into tears"
       ],
       "optionReasons": {
-        "break-mcq-27": "本句指「突然大笑」。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-24": "「爆發」是「break out」的用法，與本句語境不同。"
+        "break-mcq-27": "本句的「broke into tears」指「突然大笑」。",
+        "break-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-27"
     },
@@ -2898,11 +2646,9 @@ export default {
       "masked": "He ____ in the middle of his sentence.",
       "options": [
         "break-mcq-28",
-        "break-mcq-27",
-        "break-mcq-29",
-        "break-mcq-26",
-        "break-mcq-30",
-        "break-mcq-25"
+        "break-mcq-35",
+        "break-mcq-03",
+        "break-mcq-23"
       ],
       "explanation": "本句的「broke off」指「中斷；突然停止」。",
       "sentenceIndex": 63,
@@ -2911,12 +2657,10 @@ export default {
         "broke off"
       ],
       "optionReasons": {
-        "break-mcq-28": "本句指「中斷；突然停止」。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。"
+        "break-mcq-28": "本句的「broke off」指「中斷；突然停止」。",
+        "break-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-28"
     },
@@ -2928,11 +2672,9 @@ export default {
       "masked": "The two countries ____.",
       "options": [
         "break-mcq-28",
-        "break-mcq-27",
-        "break-mcq-29",
-        "break-mcq-26",
-        "break-mcq-30",
-        "break-mcq-25"
+        "break-mcq-32",
+        "break-mcq-21",
+        "break-mcq-41"
       ],
       "explanation": "本句的「broke off negotiations」指「中斷；突然停止」。",
       "sentenceIndex": 64,
@@ -2941,12 +2683,10 @@ export default {
         "broke off negotiations"
       ],
       "optionReasons": {
-        "break-mcq-28": "本句指「中斷；突然停止」。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-25": "「逃出」是「break out of」的用法，與本句語境不同。"
+        "break-mcq-28": "本句的「broke off negotiations」指「中斷；突然停止」。",
+        "break-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-28"
     },
@@ -2958,11 +2698,9 @@ export default {
       "masked": "The sun ____.",
       "options": [
         "break-mcq-29",
-        "break-mcq-28",
-        "break-mcq-30",
-        "break-mcq-27",
         "break-mcq-31",
-        "break-mcq-26"
+        "break-mcq-16",
+        "break-mcq-19"
       ],
       "explanation": "本句的「broke through the clouds」指「突破」。",
       "sentenceIndex": 65,
@@ -2971,12 +2709,10 @@ export default {
         "broke through the clouds"
       ],
       "optionReasons": {
-        "break-mcq-29": "本句指「突破」。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。"
+        "break-mcq-29": "本句的「broke through the clouds」指「突破」。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-29"
     },
@@ -2988,11 +2724,9 @@ export default {
       "masked": "The rescue team finally ____.",
       "options": [
         "break-mcq-29",
-        "break-mcq-28",
-        "break-mcq-30",
-        "break-mcq-27",
-        "break-mcq-31",
-        "break-mcq-26"
+        "break-mcq-23",
+        "break-mcq-40",
+        "break-pdf-002"
       ],
       "explanation": "本句的「broke through the barrier」指「突破」。",
       "sentenceIndex": 66,
@@ -3001,12 +2735,10 @@ export default {
         "broke through the barrier"
       ],
       "optionReasons": {
-        "break-mcq-29": "本句指「突破」。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-26": "「闖入」是「break in」的用法，與本句語境不同。"
+        "break-mcq-29": "本句的「broke through the barrier」指「突破」。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "break-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-29"
     },
@@ -3018,11 +2750,9 @@ export default {
       "masked": "Scientists made an important ____.",
       "options": [
         "break-mcq-30",
-        "break-mcq-29",
-        "break-mcq-31",
-        "break-mcq-28",
-        "break-mcq-32",
-        "break-mcq-27"
+        "break-mcq-07",
+        "break-mcq-37",
+        "break-mcq-12"
       ],
       "explanation": "本句的「breakthrough」指「突破；重大進展」。",
       "sentenceIndex": 67,
@@ -3031,12 +2761,10 @@ export default {
         "breakthrough"
       ],
       "optionReasons": {
-        "break-mcq-30": "本句指「突破；重大進展」。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。"
+        "break-mcq-30": "本句的「breakthrough」指「突破；重大進展」。",
+        "break-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-30"
     },
@@ -3048,11 +2776,9 @@ export default {
       "masked": "The treatment could represent a major medical ____.",
       "options": [
         "break-mcq-30",
-        "break-mcq-29",
-        "break-mcq-31",
-        "break-mcq-28",
-        "break-mcq-32",
-        "break-mcq-27"
+        "break-mcq-38",
+        "break-mcq-06",
+        "break-mcq-18"
       ],
       "explanation": "本句的「breakthrough」指「突破；重大進展」。",
       "sentenceIndex": 68,
@@ -3061,12 +2787,10 @@ export default {
         "breakthrough"
       ],
       "optionReasons": {
-        "break-mcq-30": "本句指「突破；重大進展」。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-27": "「突然大笑」是「break into laughter」的用法，與本句語境不同。"
+        "break-mcq-30": "本句的「breakthrough」指「突破；重大進展」。",
+        "break-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-30"
     },
@@ -3078,11 +2802,9 @@ export default {
       "masked": "The dog ____ from the rope.",
       "options": [
         "break-mcq-31",
-        "break-mcq-30",
         "break-mcq-32",
-        "break-mcq-29",
-        "break-mcq-33",
-        "break-mcq-28"
+        "break-mcq-13",
+        "break-mcq-19"
       ],
       "explanation": "本句的「broke free」指「掙脫；擺脫」。",
       "sentenceIndex": 69,
@@ -3091,12 +2813,10 @@ export default {
         "broke free"
       ],
       "optionReasons": {
-        "break-mcq-31": "本句指「掙脫；擺脫」。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。"
+        "break-mcq-31": "本句的「broke free」指「掙脫；擺脫」。",
+        "break-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-31"
     },
@@ -3108,11 +2828,9 @@ export default {
       "masked": "She wanted to ____.",
       "options": [
         "break-mcq-31",
-        "break-mcq-30",
-        "break-mcq-32",
+        "break-mcq-23",
         "break-mcq-29",
-        "break-mcq-33",
-        "break-mcq-28"
+        "break-mcq-06"
       ],
       "explanation": "本句的「break free from old expectations」指「掙脫；擺脫」。",
       "sentenceIndex": 70,
@@ -3121,12 +2839,10 @@ export default {
         "break free from old expectations"
       ],
       "optionReasons": {
-        "break-mcq-31": "本句指「掙脫；擺脫」。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-28": "「中斷；突然停止」是「break off」的用法，與本句語境不同。"
+        "break-mcq-31": "本句的「break free from old expectations」指「掙脫；擺脫」。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-31"
     },
@@ -3138,11 +2854,9 @@ export default {
       "masked": "The designer ____ and used a completely new style.",
       "options": [
         "break-mcq-32",
-        "break-mcq-31",
-        "break-mcq-33",
-        "break-mcq-30",
-        "break-mcq-34",
-        "break-mcq-29"
+        "break-mcq-28",
+        "break-mcq-41",
+        "break-mcq-22"
       ],
       "explanation": "本句的「broke with tradition」指「打破傳統」。",
       "sentenceIndex": 71,
@@ -3151,12 +2865,10 @@ export default {
         "broke with tradition"
       ],
       "optionReasons": {
-        "break-mcq-32": "本句指「打破傳統」。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。"
+        "break-mcq-32": "本句的「broke with tradition」指「打破傳統」。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-32"
     },
@@ -3168,11 +2880,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "break-mcq-32",
-        "break-mcq-31",
-        "break-mcq-33",
-        "break-mcq-30",
-        "break-mcq-34",
-        "break-mcq-29"
+        "break-pdf-001",
+        "break-mcq-42",
+        "break-mcq-12"
       ],
       "explanation": "本句的「broke with past practice」指「打破傳統」。",
       "sentenceIndex": 72,
@@ -3181,12 +2891,10 @@ export default {
         "broke with past practice"
       ],
       "optionReasons": {
-        "break-mcq-32": "本句指「打破傳統」。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-29": "「突破」是「break through」的用法，與本句語境不同。"
+        "break-mcq-32": "本句的「broke with past practice」指「打破傳統」。",
+        "break-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-32"
     },
@@ -3199,10 +2907,8 @@ export default {
       "options": [
         "break-mcq-33",
         "break-mcq-32",
-        "break-mcq-34",
-        "break-mcq-31",
-        "break-mcq-35",
-        "break-mcq-30"
+        "break-mcq-42",
+        "break-mcq-36"
       ],
       "explanation": "本句的「take a break」指「休息一下」。",
       "sentenceIndex": 73,
@@ -3211,12 +2917,10 @@ export default {
         "take a break"
       ],
       "optionReasons": {
-        "break-mcq-33": "本句指「休息一下」。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。"
+        "break-mcq-33": "本句的「take a break」指「休息一下」。",
+        "break-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-33"
     },
@@ -3228,11 +2932,9 @@ export default {
       "masked": "I need a short ____ after working for three hours.",
       "options": [
         "break-mcq-33",
-        "break-mcq-32",
-        "break-mcq-34",
-        "break-mcq-31",
-        "break-mcq-35",
-        "break-mcq-30"
+        "break-mcq-40",
+        "break-mcq-24",
+        "break-mcq-42"
       ],
       "explanation": "本句的「break」指「休息一下」。",
       "sentenceIndex": 74,
@@ -3241,12 +2943,10 @@ export default {
         "break"
       ],
       "optionReasons": {
-        "break-mcq-33": "本句指「休息一下」。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-30": "「突破；重大進展」是「breakthrough」的用法，與本句語境不同。"
+        "break-mcq-33": "本句的「break」指「休息一下」。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-33"
     },
@@ -3258,11 +2958,9 @@ export default {
       "masked": "We usually have a ____ at eleven.",
       "options": [
         "break-mcq-34",
-        "break-mcq-33",
-        "break-mcq-35",
-        "break-mcq-32",
-        "break-mcq-36",
-        "break-mcq-31"
+        "break-mcq-18",
+        "break-mcq-02",
+        "break-mcq-08"
       ],
       "explanation": "本句的「coffee break」指「午膳休息」。",
       "sentenceIndex": 75,
@@ -3271,12 +2969,10 @@ export default {
         "coffee break"
       ],
       "optionReasons": {
-        "break-mcq-34": "本句指「午膳休息」。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。"
+        "break-mcq-34": "本句的「coffee break」指「午膳休息」。",
+        "break-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-34"
     },
@@ -3288,11 +2984,9 @@ export default {
       "masked": "I'll call you during my ____.",
       "options": [
         "break-mcq-34",
-        "break-mcq-33",
-        "break-mcq-35",
-        "break-mcq-32",
-        "break-mcq-36",
-        "break-mcq-31"
+        "break-mcq-02",
+        "break-mcq-12",
+        "break-mcq-25"
       ],
       "explanation": "本句的「lunch break」指「午膳休息」。",
       "sentenceIndex": 76,
@@ -3301,12 +2995,10 @@ export default {
         "lunch break"
       ],
       "optionReasons": {
-        "break-mcq-34": "本句指「午膳休息」。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-31": "「掙脫；擺脫」是「break free」的用法，與本句語境不同。"
+        "break-mcq-34": "本句的「lunch break」指「午膳休息」。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-34"
     },
@@ -3318,11 +3010,9 @@ export default {
       "masked": "The children are home for the summer ____.",
       "options": [
         "break-mcq-35",
+        "break-mcq-30",
         "break-mcq-34",
-        "break-mcq-36",
-        "break-mcq-33",
-        "break-mcq-37",
-        "break-mcq-32"
+        "break-mcq-38"
       ],
       "explanation": "本句的「break」指「學校假期」。",
       "sentenceIndex": 77,
@@ -3331,12 +3021,10 @@ export default {
         "break"
       ],
       "optionReasons": {
-        "break-mcq-35": "本句指「學校假期」。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。"
+        "break-mcq-35": "本句的「break」指「學校假期」。",
+        "break-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-35"
     },
@@ -3348,11 +3036,9 @@ export default {
       "masked": "We travelled during the Christmas ____.",
       "options": [
         "break-mcq-35",
-        "break-mcq-34",
-        "break-mcq-36",
-        "break-mcq-33",
-        "break-mcq-37",
-        "break-mcq-32"
+        "break-mcq-25",
+        "break-mcq-17",
+        "break-mcq-15"
       ],
       "explanation": "本句的「break」指「學校假期」。",
       "sentenceIndex": 78,
@@ -3361,12 +3047,10 @@ export default {
         "break"
       ],
       "optionReasons": {
-        "break-mcq-35": "本句指「學校假期」。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-32": "「打破傳統」是「break with tradition」的用法，與本句語境不同。"
+        "break-mcq-35": "本句的「break」指「學校假期」。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-35"
     },
@@ -3378,11 +3062,9 @@ export default {
       "masked": "There was a short ____.",
       "options": [
         "break-mcq-36",
-        "break-mcq-35",
-        "break-mcq-37",
-        "break-mcq-34",
-        "break-mcq-38",
-        "break-mcq-33"
+        "break-mcq-02",
+        "break-mcq-25",
+        "break-mcq-24"
       ],
       "explanation": "本句的「break in the rain」指「中斷；間隙」。",
       "sentenceIndex": 79,
@@ -3391,12 +3073,10 @@ export default {
         "break in the rain"
       ],
       "optionReasons": {
-        "break-mcq-36": "本句指「中斷；間隙」。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。"
+        "break-mcq-36": "本句的「break in the rain」指「中斷；間隙」。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-36"
     },
@@ -3408,11 +3088,9 @@ export default {
       "masked": "We finally had a ____.",
       "options": [
         "break-mcq-36",
-        "break-mcq-35",
-        "break-mcq-37",
-        "break-mcq-34",
-        "break-mcq-38",
-        "break-mcq-33"
+        "break-mcq-22",
+        "break-mcq-02",
+        "break-mcq-41"
       ],
       "explanation": "本句的「break in the traffic」指「中斷；間隙」。",
       "sentenceIndex": 80,
@@ -3421,12 +3099,10 @@ export default {
         "break in the traffic"
       ],
       "optionReasons": {
-        "break-mcq-36": "本句指「中斷；間隙」。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。"
+        "break-mcq-36": "本句的「break in the traffic」指「中斷；間隙」。",
+        "break-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-36"
     },
@@ -3438,11 +3114,9 @@ export default {
       "masked": "There was a ____ between the departments.",
       "options": [
         "break-pdf-001",
-        "break-mcq-35",
+        "break-mcq-08",
         "break-mcq-37",
-        "break-mcq-34",
-        "break-mcq-38",
-        "break-mcq-33"
+        "break-mcq-10"
       ],
       "explanation": "本句的「break in communication」指「某種連續的活動、聯絡或狀態出現中斷」。",
       "sentenceIndex": 81,
@@ -3451,12 +3125,10 @@ export default {
         "break in communication"
       ],
       "optionReasons": {
-        "break-pdf-001": "本句指「某種連續的活動、聯絡或狀態出現中斷」。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。"
+        "break-pdf-001": "本句的「break in communication」指「某種連續的活動、聯絡或狀態出現中斷」。",
+        "break-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-pdf-001"
     },
@@ -3468,11 +3140,9 @@ export default {
       "masked": "A technical problem caused a ____.",
       "options": [
         "break-pdf-001",
-        "break-mcq-35",
-        "break-mcq-37",
-        "break-mcq-34",
-        "break-mcq-38",
-        "break-mcq-33"
+        "break-mcq-12",
+        "break-mcq-23",
+        "break-mcq-19"
       ],
       "explanation": "本句的「break in contact」指「某種連續的活動、聯絡或狀態出現中斷」。",
       "sentenceIndex": 82,
@@ -3481,12 +3151,10 @@ export default {
         "break in contact"
       ],
       "optionReasons": {
-        "break-pdf-001": "本句指「某種連續的活動、聯絡或狀態出現中斷」。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-33": "「休息一下」是「take a break」的用法，與本句語境不同。"
+        "break-pdf-001": "本句的「break in contact」指「某種連續的活動、聯絡或狀態出現中斷」。",
+        "break-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-pdf-001"
     },
@@ -3498,11 +3166,9 @@ export default {
       "masked": "The company hopes to ____ this year.",
       "options": [
         "break-mcq-37",
-        "break-mcq-36",
-        "break-mcq-38",
-        "break-mcq-35",
-        "break-mcq-39",
-        "break-mcq-34"
+        "break-mcq-21",
+        "break-pdf-001",
+        "break-mcq-01"
       ],
       "explanation": "本句的「break even」指「收支平衡」。",
       "sentenceIndex": 83,
@@ -3511,12 +3177,10 @@ export default {
         "break even"
       ],
       "optionReasons": {
-        "break-mcq-37": "本句指「收支平衡」。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。"
+        "break-mcq-37": "本句的「break even」指「收支平衡」。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "break-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-37"
     },
@@ -3528,11 +3192,9 @@ export default {
       "masked": "We sold enough tickets to ____.",
       "options": [
         "break-mcq-37",
-        "break-mcq-36",
-        "break-mcq-38",
-        "break-mcq-35",
-        "break-mcq-39",
-        "break-mcq-34"
+        "break-mcq-03",
+        "break-mcq-26",
+        "break-mcq-36"
       ],
       "explanation": "本句的「break even」指「收支平衡」。",
       "sentenceIndex": 84,
@@ -3541,12 +3203,10 @@ export default {
         "break even"
       ],
       "optionReasons": {
-        "break-mcq-37": "本句指「收支平衡」。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-34": "「午膳休息」是「lunch break」的用法，與本句語境不同。"
+        "break-mcq-37": "本句的「break even」指「收支平衡」。",
+        "break-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-37"
     },
@@ -3558,11 +3218,9 @@ export default {
       "masked": "Come on, ____. He's new here.",
       "options": [
         "break-mcq-38",
-        "break-mcq-37",
-        "break-mcq-39",
-        "break-mcq-36",
-        "break-mcq-40",
-        "break-mcq-35"
+        "break-mcq-10",
+        "break-mcq-06",
+        "break-mcq-21"
       ],
       "explanation": "本句的「give him a break」指「放某人一馬」。",
       "sentenceIndex": 85,
@@ -3571,12 +3229,10 @@ export default {
         "give him a break"
       ],
       "optionReasons": {
-        "break-mcq-38": "本句指「放某人一馬」。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。"
+        "break-mcq-38": "本句的「give him a break」指「放某人一馬」。",
+        "break-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-38"
     },
@@ -3588,11 +3244,9 @@ export default {
       "masked": "Could you ____? I've been working all day.",
       "options": [
         "break-mcq-38",
-        "break-mcq-37",
-        "break-mcq-39",
-        "break-mcq-36",
-        "break-mcq-40",
-        "break-mcq-35"
+        "break-pdf-001",
+        "break-mcq-06",
+        "break-mcq-40"
       ],
       "explanation": "本句的「give me a break」指「放某人一馬」。",
       "sentenceIndex": 86,
@@ -3601,12 +3255,10 @@ export default {
         "give me a break"
       ],
       "optionReasons": {
-        "break-mcq-38": "本句指「放某人一馬」。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-35": "「學校假期」是「school break」的用法，與本句語境不同。"
+        "break-mcq-38": "本句的「give me a break」指「放某人一馬」。",
+        "break-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-38"
     },
@@ -3618,11 +3270,9 @@ export default {
       "masked": "She finally ____ in the film industry.",
       "options": [
         "break-pdf-002",
-        "break-mcq-38",
-        "break-mcq-40",
-        "break-mcq-37",
-        "break-mcq-41",
-        "break-mcq-36"
+        "break-mcq-19",
+        "break-mcq-35",
+        "break-mcq-29"
       ],
       "explanation": "本句的「got her big break」指「能帶來成功或改善處境的重要機會或好運」。",
       "sentenceIndex": 87,
@@ -3631,12 +3281,10 @@ export default {
         "got her big break"
       ],
       "optionReasons": {
-        "break-pdf-002": "本句指「能帶來成功或改善處境的重要機會或好運」。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。"
+        "break-pdf-002": "本句的「got her big break」指「能帶來成功或改善處境的重要機會或好運」。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-pdf-002"
     },
@@ -3648,11 +3296,9 @@ export default {
       "masked": "He just needs one ____ to show what he can do.",
       "options": [
         "break-pdf-002",
-        "break-mcq-38",
-        "break-mcq-40",
-        "break-mcq-37",
-        "break-mcq-41",
-        "break-mcq-36"
+        "break-mcq-13",
+        "break-mcq-28",
+        "break-mcq-01"
       ],
       "explanation": "本句的「break」指「能帶來成功或改善處境的重要機會或好運」。",
       "sentenceIndex": 88,
@@ -3661,12 +3307,10 @@ export default {
         "break"
       ],
       "optionReasons": {
-        "break-pdf-002": "本句指「能帶來成功或改善處境的重要機會或好運」。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。"
+        "break-pdf-002": "本句的「break」指「能帶來成功或改善處境的重要機會或好運」。",
+        "break-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-pdf-002"
     },
@@ -3678,11 +3322,9 @@ export default {
       "masked": "The role became her ____.",
       "options": [
         "break-mcq-39",
-        "break-mcq-38",
-        "break-mcq-40",
-        "break-mcq-37",
-        "break-mcq-41",
-        "break-mcq-36"
+        "break-mcq-19",
+        "break-mcq-34",
+        "break-mcq-08"
       ],
       "explanation": "本句的「big break」指「重大機會」。",
       "sentenceIndex": 89,
@@ -3691,12 +3333,10 @@ export default {
         "big break"
       ],
       "optionReasons": {
-        "break-mcq-39": "本句指「重大機會」。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。"
+        "break-mcq-39": "本句的「big break」指「重大機會」。",
+        "break-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-39"
     },
@@ -3708,11 +3348,9 @@ export default {
       "masked": "He got his ____ when a producer heard him sing.",
       "options": [
         "break-mcq-39",
-        "break-mcq-38",
-        "break-mcq-40",
-        "break-mcq-37",
-        "break-mcq-41",
-        "break-mcq-36"
+        "break-mcq-36",
+        "break-mcq-25",
+        "break-mcq-24"
       ],
       "explanation": "本句的「big break」指「重大機會」。",
       "sentenceIndex": 90,
@@ -3721,12 +3359,10 @@ export default {
         "big break"
       ],
       "optionReasons": {
-        "break-mcq-39": "本句指「重大機會」。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-40": "「沒錢的」是「broke (adj.)」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-36": "「中斷；間隙」是「a break in X」的用法，與本句語境不同。"
+        "break-mcq-39": "本句的「big break」指「重大機會」。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-39"
     },
@@ -3738,11 +3374,9 @@ export default {
       "masked": "I can't go out tonight—I'm ____.",
       "options": [
         "break-mcq-40",
-        "break-mcq-39",
-        "break-mcq-41",
-        "break-mcq-38",
-        "break-mcq-42",
-        "break-mcq-37"
+        "break-mcq-24",
+        "break-mcq-36",
+        "break-mcq-08"
       ],
       "explanation": "本句的「broke」指「沒錢的」。",
       "sentenceIndex": 91,
@@ -3751,12 +3385,10 @@ export default {
         "broke"
       ],
       "optionReasons": {
-        "break-mcq-40": "本句指「沒錢的」。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-42": "「把一個整體分成若干較小部分」是「26. break something up — 打碎；分割」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。"
+        "break-mcq-40": "本句的「broke」指「沒錢的」。",
+        "break-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-40"
     },
@@ -3768,11 +3400,9 @@ export default {
       "masked": "He was completely ____ after paying the bills.",
       "options": [
         "break-mcq-40",
-        "break-mcq-39",
+        "break-mcq-06",
         "break-mcq-41",
-        "break-mcq-38",
-        "break-mcq-42",
-        "break-mcq-37"
+        "break-mcq-31"
       ],
       "explanation": "本句的「broke」指「沒錢的」。",
       "sentenceIndex": 92,
@@ -3781,12 +3411,10 @@ export default {
         "broke"
       ],
       "optionReasons": {
-        "break-mcq-40": "本句指「沒錢的」。",
-        "break-mcq-39": "「重大機會」是「big break」的用法，與本句語境不同。",
-        "break-mcq-41": "「使設備損壞至無法正常運作」是「4. break a machine/device（弄壞；使故障） — 弄壞；使不能正常運作」的用法，與本句語境不同。",
-        "break-mcq-38": "「放某人一馬」是「give someone a break」的用法，與本句語境不同。",
-        "break-mcq-42": "「把一個整體分成若干較小部分」是「26. break something up — 打碎；分割」的用法，與本句語境不同。",
-        "break-mcq-37": "「收支平衡」是「break even」的用法，與本句語境不同。"
+        "break-mcq-40": "本句的「broke」指「沒錢的」。",
+        "break-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "break-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "break-mcq-40"
     }
@@ -3798,5 +3426,7 @@ export default {
     "sha256": "bdf0ea471237e88842ec664575848566229a03fcdd2c5184ec013edd3751cbff",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -197,11 +197,9 @@ export default {
       "masked": "I bought a ____ charger for travelling.",
       "options": [
         "portable-mcq-01",
-        "portable-mcq-02",
         "portable-mcq-03",
         "portable-mcq-04",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portable」指「可以方便攜帶或搬到另一個地方使用的」。",
       "sentenceIndex": 0,
@@ -210,12 +208,10 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-01": "本句指「可以方便攜帶或搬到另一個地方使用的」。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-01": "本句的「portable」指「可以方便攜帶或搬到另一個地方使用的」。",
+        "portable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-01"
     },
@@ -227,11 +223,9 @@ export default {
       "masked": "The speaker is small and completely ____.",
       "options": [
         "portable-mcq-01",
-        "portable-mcq-02",
         "portable-mcq-03",
         "portable-mcq-04",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portable」指「可以方便攜帶或搬到另一個地方使用的」。",
       "sentenceIndex": 1,
@@ -240,12 +234,10 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-01": "本句指「可以方便攜帶或搬到另一個地方使用的」。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-01": "本句的「portable」指「可以方便攜帶或搬到另一個地方使用的」。",
+        "portable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-01"
     },
@@ -257,11 +249,8 @@ export default {
       "masked": "The jacket feels like a ____ memory.",
       "options": [
         "portable-mcq-01",
-        "portable-mcq-02",
-        "portable-mcq-03",
-        "portable-mcq-04",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-08",
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portable」指「可以方便攜帶或搬到另一個地方使用的」。",
       "sentenceIndex": 2,
@@ -270,12 +259,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-01": "本句指「可以方便攜帶或搬到另一個地方使用的」。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-01": "本句的「portable」指「可以方便攜帶或搬到另一個地方使用的」。",
+        "portable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-01"
     },
@@ -287,11 +273,8 @@ export default {
       "masked": "They installed a ____ air-conditioning unit.",
       "options": [
         "portable-mcq-02",
-        "portable-mcq-01",
-        "portable-mcq-03",
-        "portable-mcq-04",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-08",
+        "portable-pdf-001"
       ],
       "explanation": "本句的「portable」指「並非永久固定，可以搬動、重新設置的」。",
       "sentenceIndex": 3,
@@ -300,12 +283,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-02": "本句指「並非永久固定，可以搬動、重新設置的」。",
-        "portable-mcq-01": "「可以方便攜帶或搬到另一個地方使用的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-02": "本句的「portable」指「並非永久固定，可以搬動、重新設置的」。",
+        "portable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "portable-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-02"
     },
@@ -317,11 +297,8 @@ export default {
       "masked": "The workers used ____ lighting.",
       "options": [
         "portable-mcq-02",
-        "portable-mcq-01",
-        "portable-mcq-03",
-        "portable-mcq-04",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-08",
+        "portable-pdf-001"
       ],
       "explanation": "本句的「portable」指「並非永久固定，可以搬動、重新設置的」。",
       "sentenceIndex": 4,
@@ -330,12 +307,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-02": "本句指「並非永久固定，可以搬動、重新設置的」。",
-        "portable-mcq-01": "「可以方便攜帶或搬到另一個地方使用的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-02": "本句的「portable」指「並非永久固定，可以搬動、重新設置的」。",
+        "portable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "portable-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-02"
     },
@@ -347,11 +321,9 @@ export default {
       "masked": "The program was designed to be ____ across different operating systems.",
       "options": [
         "portable-mcq-03",
-        "portable-mcq-02",
-        "portable-mcq-04",
         "portable-mcq-01",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-02",
+        "portable-mcq-04"
       ],
       "explanation": "本句的「portable」指「能移到不同電腦平台／系統而仍能使用的；可移植的」。",
       "sentenceIndex": 5,
@@ -360,12 +332,10 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-03": "本句指「能移到不同電腦平台／系統而仍能使用的；可移植的」。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-01": "「可以方便攜帶或搬到另一個地方使用的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-03": "本句的「portable」指「能移到不同電腦平台／系統而仍能使用的；可移植的」。",
+        "portable-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-03"
     },
@@ -377,11 +347,9 @@ export default {
       "masked": "The code is highly ____.",
       "options": [
         "portable-mcq-03",
-        "portable-mcq-02",
-        "portable-mcq-04",
         "portable-mcq-01",
-        "portable-mcq-05",
-        "portable-mcq-06"
+        "portable-mcq-02",
+        "portable-mcq-04"
       ],
       "explanation": "本句的「portable」指「能移到不同電腦平台／系統而仍能使用的；可移植的」。",
       "sentenceIndex": 6,
@@ -390,12 +358,10 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-03": "本句指「能移到不同電腦平台／系統而仍能使用的；可移植的」。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-01": "「可以方便攜帶或搬到另一個地方使用的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。"
+        "portable-mcq-03": "本句的「portable」指「能移到不同電腦平台／系統而仍能使用的；可移植的」。",
+        "portable-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-03"
     },
@@ -407,11 +373,8 @@ export default {
       "masked": "The pension benefits are ____.",
       "options": [
         "portable-mcq-04",
-        "portable-mcq-03",
-        "portable-mcq-05",
-        "portable-mcq-02",
         "portable-mcq-06",
-        "portable-mcq-01"
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portable」指「在轉換工作、制度或機構後仍可保留／轉移的」。",
       "sentenceIndex": 7,
@@ -420,12 +383,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-04": "本句指「在轉換工作、制度或機構後仍可保留／轉移的」。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-01": "「可以方便攜帶或搬到另一個地方使用的」與本句語境不同。"
+        "portable-mcq-04": "本句的「portable」指「在轉換工作、制度或機構後仍可保留／轉移的」。",
+        "portable-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-04"
     },
@@ -437,11 +397,9 @@ export default {
       "masked": "Workers wanted health benefits that were ____ between jobs.",
       "options": [
         "portable-mcq-04",
-        "portable-mcq-03",
-        "portable-mcq-05",
+        "portable-mcq-01",
         "portable-mcq-02",
-        "portable-mcq-06",
-        "portable-mcq-01"
+        "portable-mcq-03"
       ],
       "explanation": "本句的「portable」指「在轉換工作、制度或機構後仍可保留／轉移的」。",
       "sentenceIndex": 8,
@@ -450,12 +408,10 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-04": "本句指「在轉換工作、制度或機構後仍可保留／轉移的」。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-01": "「可以方便攜帶或搬到另一個地方使用的」與本句語境不同。"
+        "portable-mcq-04": "本句的「portable」指「在轉換工作、制度或機構後仍可保留／轉移的」。",
+        "portable-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-04"
     },
@@ -467,10 +423,7 @@ export default {
       "masked": "These skills are highly ____ between industries.",
       "options": [
         "portable-pdf-001",
-        "portable-mcq-04",
-        "portable-mcq-06",
-        "portable-mcq-03",
-        "portable-mcq-07",
+        "portable-mcq-08",
         "portable-mcq-02"
       ],
       "explanation": "本句的「portable」指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
@@ -480,12 +433,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-pdf-001": "本句指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-07": "「便攜性；可移植性；可轉移性」與本句語境不同。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。"
+        "portable-pdf-001": "本句的「portable」指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
+        "portable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-pdf-001"
     },
@@ -497,11 +447,8 @@ export default {
       "masked": "The method is simple and ____ across different settings.",
       "options": [
         "portable-pdf-001",
-        "portable-mcq-04",
-        "portable-mcq-06",
-        "portable-mcq-03",
-        "portable-mcq-07",
-        "portable-mcq-02"
+        "portable-mcq-02",
+        "portable-mcq-07"
       ],
       "explanation": "本句的「portable」指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
       "sentenceIndex": 10,
@@ -510,12 +457,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-pdf-001": "本句指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。",
-        "portable-mcq-07": "「便攜性；可移植性；可轉移性」與本句語境不同。",
-        "portable-mcq-02": "「並非永久固定，可以搬動、重新設置的」與本句語境不同。"
+        "portable-pdf-001": "本句的「portable」指「不局限於原本的環境，可以帶到另一個情境繼續使用」。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-pdf-001"
     },
@@ -527,11 +471,8 @@ export default {
       "masked": "He carried a small ____ with him.",
       "options": [
         "portable-mcq-06",
-        "portable-mcq-05",
-        "portable-mcq-07",
         "portable-mcq-04",
-        "portable-mcq-08",
-        "portable-mcq-03"
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portable」指「便攜式設備；較低頻」。",
       "sentenceIndex": 11,
@@ -540,12 +481,9 @@ export default {
         "portable"
       ],
       "optionReasons": {
-        "portable-mcq-06": "本句指「便攜式設備；較低頻」。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-07": "「便攜性；可移植性；可轉移性」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-08": "「以可移植／可轉移的方式；較低頻」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。"
+        "portable-mcq-06": "本句的「portable」指「便攜式設備；較低頻」。",
+        "portable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-06"
     },
@@ -557,11 +495,8 @@ export default {
       "masked": "The laptop’s main advantage is its ____.",
       "options": [
         "portable-mcq-07",
-        "portable-mcq-06",
-        "portable-mcq-08",
-        "portable-mcq-05",
-        "portable-mcq-04",
-        "portable-mcq-03"
+        "portable-pdf-001",
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portability」指「便攜性；可移植性；可轉移性」。",
       "sentenceIndex": 12,
@@ -570,12 +505,9 @@ export default {
         "portability"
       ],
       "optionReasons": {
-        "portable-mcq-07": "本句指「便攜性；可移植性；可轉移性」。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-08": "「以可移植／可轉移的方式；較低頻」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。"
+        "portable-mcq-07": "本句的「portability」指「便攜性；可移植性；可轉移性」。",
+        "portable-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-07"
     },
@@ -587,11 +519,8 @@ export default {
       "masked": "The developers improved the software’s ____.",
       "options": [
         "portable-mcq-07",
-        "portable-mcq-06",
-        "portable-mcq-08",
-        "portable-mcq-05",
-        "portable-mcq-04",
-        "portable-mcq-03"
+        "portable-mcq-02",
+        "portable-pdf-001"
       ],
       "explanation": "本句的「portability」指「便攜性；可移植性；可轉移性」。",
       "sentenceIndex": 13,
@@ -600,12 +529,9 @@ export default {
         "portability"
       ],
       "optionReasons": {
-        "portable-mcq-07": "本句指「便攜性；可移植性；可轉移性」。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-08": "「以可移植／可轉移的方式；較低頻」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。"
+        "portable-mcq-07": "本句的「portability」指「便攜性；可移植性；可轉移性」。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "portable-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-07"
     },
@@ -617,11 +543,8 @@ export default {
       "masked": "The application was designed to run ____ across systems.",
       "options": [
         "portable-mcq-08",
-        "portable-mcq-07",
-        "portable-mcq-06",
-        "portable-mcq-05",
-        "portable-mcq-04",
-        "portable-mcq-03"
+        "portable-mcq-01",
+        "portable-mcq-02"
       ],
       "explanation": "本句的「portably」指「以可移植／可轉移的方式；較低頻」。",
       "sentenceIndex": 15,
@@ -630,12 +553,9 @@ export default {
         "portably"
       ],
       "optionReasons": {
-        "portable-mcq-08": "本句指「以可移植／可轉移的方式；較低頻」。",
-        "portable-mcq-07": "「便攜性；可移植性；可轉移性」與本句語境不同。",
-        "portable-mcq-06": "「便攜式設備；較低頻」與本句語境不同。",
-        "portable-mcq-05": "「可以從一個環境或領域移用到另一個的」與本句語境不同。",
-        "portable-mcq-04": "「在轉換工作、制度或機構後仍可保留／轉移的」與本句語境不同。",
-        "portable-mcq-03": "「能移到不同電腦平台／系統而仍能使用的；可移植的」與本句語境不同。"
+        "portable-mcq-08": "本句的「portably」指「以可移植／可轉移的方式；較低頻」。",
+        "portable-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "portable-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "portable-mcq-08"
     }
@@ -647,5 +567,7 @@ export default {
     "sha256": "f25867c7cba2ee63a20565f9215335381ba785909688923650d2fee249429d22",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

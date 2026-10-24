@@ -252,16 +252,6 @@ export default {
           "The match was a one-sided contest.",
           "比賽是一場一面倒的較量。",
           "一面倒的比賽"
-        ],
-        [
-          "It was an evenly matched contest.",
-          "那是一場勢均力敵的較量。",
-          "一面倒的比賽"
-        ],
-        [
-          "Neither team dominated the contest.",
-          "沒有一隊能主導這場比賽。",
-          "一面倒的比賽"
         ]
       ],
       "options": [],
@@ -853,16 +843,6 @@ export default {
           "The ownership claim was contested in court.",
           "該項所有權主張在法院受到挑戰。",
           "爭議所有權"
-        ],
-        [
-          "The defendant contested the court's jurisdiction.",
-          "被告質疑法院的管轄權。",
-          "爭議所有權"
-        ],
-        [
-          "The agency's authority was contested.",
-          "該機構的權限受到質疑。",
-          "爭議所有權"
         ]
       ],
       "options": [],
@@ -1341,6 +1321,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "contest-reviewed-e3987ec10f",
+      "title": "勢均力敵的較量",
+      "form": "contest · source section 15",
+      "en": "勢均力敵的較量",
+      "zh": "勢均力敵的較量",
+      "note": "對照原始教材第 15 節及例句核實。",
+      "examples": [
+        [
+          "It was an evenly matched contest.",
+          "那是一場勢均力敵的較量。",
+          "勢均力敵的較量"
+        ],
+        [
+          "Neither team dominated the contest.",
+          "沒有一隊能主導這場比賽。",
+          "勢均力敵的較量"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "contest-reviewed-516b6f0068",
+      "title": "質疑管轄權／權限",
+      "form": "contest · source section 46",
+      "en": "質疑管轄權／權限",
+      "zh": "質疑管轄權／權限",
+      "note": "對照原始教材第 46 節及例句核實。",
+      "examples": [
+        [
+          "The defendant contested the court's jurisdiction.",
+          "被告質疑法院的管轄權。",
+          "質疑管轄權／權限"
+        ],
+        [
+          "The agency's authority was contested.",
+          "該機構的權限受到質疑。",
+          "質疑管轄權／權限"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1352,11 +1376,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "contest-mcq-02",
-        "contest-mcq-01",
-        "contest-mcq-03",
-        "contest-mcq-04",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-mcq-20",
+        "contest-mcq-25",
+        "contest-mcq-36"
       ],
       "explanation": "本句的「enter the contest」指「參加比賽」。",
       "sentenceIndex": 3,
@@ -1365,12 +1387,10 @@ export default {
         "enter the contest"
       ],
       "optionReasons": {
-        "contest-mcq-02": "本句指「參加比賽」。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-02": "本句的「enter the contest」指「參加比賽」。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-02"
     },
@@ -1382,11 +1402,9 @@ export default {
       "masked": "Anyone over eighteen can enter the ____.",
       "options": [
         "contest-mcq-02",
-        "contest-mcq-01",
-        "contest-mcq-03",
-        "contest-mcq-04",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-mcq-24",
+        "contest-mcq-41",
+        "contest-mcq-31"
       ],
       "explanation": "本句的「contest」指「參加比賽」。",
       "sentenceIndex": 4,
@@ -1395,12 +1413,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-02": "本句指「參加比賽」。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-02": "本句的「contest」指「參加比賽」。",
+        "contest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-02"
     },
@@ -1412,11 +1428,9 @@ export default {
       "masked": "Their team ____.",
       "options": [
         "contest-mcq-03",
-        "contest-mcq-02",
-        "contest-mcq-04",
-        "contest-mcq-01",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-mcq-47",
+        "contest-mcq-36",
+        "contest-mcq-31"
       ],
       "explanation": "本句的「won the contest」指「贏得比賽」。",
       "sentenceIndex": 5,
@@ -1425,12 +1439,10 @@ export default {
         "won the contest"
       ],
       "optionReasons": {
-        "contest-mcq-03": "本句指「贏得比賽」。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-03": "本句的「won the contest」指「贏得比賽」。",
+        "contest-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-03"
     },
@@ -1442,11 +1454,9 @@ export default {
       "masked": "She was disappointed to ____.",
       "options": [
         "contest-mcq-03",
-        "contest-mcq-02",
-        "contest-mcq-04",
-        "contest-mcq-01",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-mcq-34",
+        "contest-mcq-45",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「lose the contest」指「贏得比賽」。",
       "sentenceIndex": 6,
@@ -1455,12 +1465,10 @@ export default {
         "lose the contest"
       ],
       "optionReasons": {
-        "contest-mcq-03": "本句指「贏得比賽」。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-03": "本句的「lose the contest」指「贏得比賽」。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-03"
     },
@@ -1472,11 +1480,9 @@ export default {
       "masked": "Losing one ____ does not mean you lack ability.",
       "options": [
         "contest-mcq-03",
-        "contest-mcq-02",
-        "contest-mcq-04",
-        "contest-mcq-01",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-18",
+        "contest-mcq-35"
       ],
       "explanation": "本句的「contest」指「贏得比賽」。",
       "sentenceIndex": 7,
@@ -1485,12 +1491,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-03": "本句指「贏得比賽」。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-03": "本句的「contest」指「贏得比賽」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-03"
     },
@@ -1502,11 +1506,9 @@ export default {
       "masked": "The library runs an annual ____.",
       "options": [
         "contest-mcq-04",
-        "contest-mcq-03",
-        "contest-mcq-05",
-        "contest-mcq-02",
-        "contest-mcq-06",
-        "contest-mcq-01"
+        "contest-mcq-12",
+        "contest-mcq-43",
+        "contest-mcq-30"
       ],
       "explanation": "本句的「writing contest」指「寫作比賽」。",
       "sentenceIndex": 8,
@@ -1515,12 +1517,10 @@ export default {
         "writing contest"
       ],
       "optionReasons": {
-        "contest-mcq-04": "本句指「寫作比賽」。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。"
+        "contest-mcq-04": "本句的「writing contest」指「寫作比賽」。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-04"
     },
@@ -1532,11 +1532,9 @@ export default {
       "masked": "Her short story won the writing ____.",
       "options": [
         "contest-mcq-04",
-        "contest-mcq-03",
-        "contest-mcq-05",
-        "contest-mcq-02",
-        "contest-mcq-06",
-        "contest-mcq-01"
+        "contest-mcq-24",
+        "contest-mcq-17",
+        "contest-mcq-41"
       ],
       "explanation": "本句的「contest」指「寫作比賽」。",
       "sentenceIndex": 9,
@@ -1545,12 +1543,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-04": "本句指「寫作比賽」。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-01": "「比賽；競賽」與本句語境不同。"
+        "contest-mcq-04": "本句的「contest」指「寫作比賽」。",
+        "contest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-04"
     },
@@ -1562,11 +1558,9 @@ export default {
       "masked": "He entered a ____.",
       "options": [
         "contest-mcq-05",
-        "contest-mcq-04",
-        "contest-mcq-06",
-        "contest-mcq-03",
-        "contest-mcq-07",
-        "contest-mcq-02"
+        "contest-mcq-45",
+        "contest-mcq-27",
+        "contest-mcq-31"
       ],
       "explanation": "本句的「singing contest」指「歌唱比賽」。",
       "sentenceIndex": 10,
@@ -1575,12 +1569,10 @@ export default {
         "singing contest"
       ],
       "optionReasons": {
-        "contest-mcq-05": "本句指「歌唱比賽」。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。"
+        "contest-mcq-05": "本句的「singing contest」指「歌唱比賽」。",
+        "contest-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-05"
     },
@@ -1592,11 +1584,9 @@ export default {
       "masked": "The singing ____ attracted hundreds of applicants.",
       "options": [
         "contest-mcq-05",
-        "contest-mcq-04",
-        "contest-mcq-06",
-        "contest-mcq-03",
-        "contest-mcq-07",
-        "contest-mcq-02"
+        "contest-mcq-15",
+        "contest-mcq-12",
+        "contest-mcq-28"
       ],
       "explanation": "本句的「contest」指「歌唱比賽」。",
       "sentenceIndex": 11,
@@ -1605,12 +1595,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-05": "本句指「歌唱比賽」。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。"
+        "contest-mcq-05": "本句的「contest」指「歌唱比賽」。",
+        "contest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-05"
     },
@@ -1622,11 +1610,9 @@ export default {
       "masked": "The school held a ____.",
       "options": [
         "contest-mcq-06",
-        "contest-mcq-05",
-        "contest-mcq-07",
-        "contest-mcq-04",
-        "contest-mcq-08",
-        "contest-mcq-03"
+        "contest-mcq-15",
+        "contest-mcq-36",
+        "contest-mcq-21"
       ],
       "explanation": "本句的「talent contest」指「才藝比賽」。",
       "sentenceIndex": 12,
@@ -1635,12 +1621,10 @@ export default {
         "talent contest"
       ],
       "optionReasons": {
-        "contest-mcq-06": "本句指「才藝比賽」。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。"
+        "contest-mcq-06": "本句的「talent contest」指「才藝比賽」。",
+        "contest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-06"
     },
@@ -1652,11 +1636,9 @@ export default {
       "masked": "____ performed music, dance and comedy.",
       "options": [
         "contest-mcq-06",
-        "contest-mcq-05",
-        "contest-mcq-07",
-        "contest-mcq-04",
-        "contest-mcq-08",
-        "contest-mcq-03"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-35",
+        "contest-mcq-21"
       ],
       "explanation": "本句的「Contestants」指「才藝比賽」。",
       "sentenceIndex": 13,
@@ -1665,12 +1647,10 @@ export default {
         "Contestants"
       ],
       "optionReasons": {
-        "contest-mcq-06": "本句指「才藝比賽」。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。"
+        "contest-mcq-06": "本句的「Contestants」指「才藝比賽」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-06"
     },
@@ -1682,11 +1662,9 @@ export default {
       "masked": "She once entered a ____.",
       "options": [
         "contest-mcq-07",
-        "contest-mcq-06",
-        "contest-mcq-08",
-        "contest-mcq-05",
-        "contest-mcq-09",
-        "contest-mcq-04"
+        "contest-mcq-36",
+        "contest-mcq-16",
+        "contest-mcq-12"
       ],
       "explanation": "本句的「beauty contest」指「選美比賽」。",
       "sentenceIndex": 14,
@@ -1695,12 +1673,10 @@ export default {
         "beauty contest"
       ],
       "optionReasons": {
-        "contest-mcq-07": "本句指「選美比賽」。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。"
+        "contest-mcq-07": "本句的「beauty contest」指「選美比賽」。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-07"
     },
@@ -1712,11 +1688,9 @@ export default {
       "masked": "The phrase “beauty ____” can also be used figuratively for a competition based heavily on presentation.",
       "options": [
         "contest-mcq-07",
-        "contest-mcq-06",
-        "contest-mcq-08",
-        "contest-mcq-05",
-        "contest-mcq-09",
-        "contest-mcq-04"
+        "contest-mcq-44",
+        "contest-mcq-33",
+        "contest-mcq-20"
       ],
       "explanation": "本句的「contest」指「選美比賽」。",
       "sentenceIndex": 15,
@@ -1725,12 +1699,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-07": "本句指「選美比賽」。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。"
+        "contest-mcq-07": "本句的「contest」指「選美比賽」。",
+        "contest-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-07"
     },
@@ -1742,11 +1714,9 @@ export default {
       "masked": "It was a closely fought ____.",
       "options": [
         "contest-mcq-07",
-        "contest-mcq-06",
-        "contest-mcq-08",
-        "contest-mcq-05",
-        "contest-mcq-09",
-        "contest-mcq-04"
+        "contest-mcq-20",
+        "contest-mcq-14",
+        "contest-mcq-31"
       ],
       "explanation": "本句的「sporting contest」指「選美比賽」。",
       "sentenceIndex": 16,
@@ -1755,12 +1725,10 @@ export default {
         "sporting contest"
       ],
       "optionReasons": {
-        "contest-mcq-07": "本句指「選美比賽」。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。"
+        "contest-mcq-07": "本句的「sporting contest」指「選美比賽」。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-07"
     },
@@ -1772,11 +1740,9 @@ export default {
       "masked": "Both sides played well throughout the ____.",
       "options": [
         "contest-mcq-07",
-        "contest-mcq-06",
-        "contest-mcq-08",
-        "contest-mcq-05",
-        "contest-mcq-09",
-        "contest-mcq-04"
+        "contest-mcq-37",
+        "contest-mcq-34",
+        "contest-mcq-21"
       ],
       "explanation": "本句的「contest」指「選美比賽」。",
       "sentenceIndex": 17,
@@ -1785,12 +1751,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-07": "本句指「選美比賽」。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。"
+        "contest-mcq-07": "本句的「contest」指「選美比賽」。",
+        "contest-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-07"
     },
@@ -1802,11 +1766,9 @@ export default {
       "masked": "Students took part in a science quiz ____.",
       "options": [
         "contest-mcq-01",
-        "contest-mcq-02",
-        "contest-mcq-03",
-        "contest-mcq-04",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-mcq-19",
+        "contest-mcq-34",
+        "contest-mcq-55"
       ],
       "explanation": "本句的「contest」指「比賽；競賽」。",
       "sentenceIndex": 18,
@@ -1815,12 +1777,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-01": "本句指「比賽；競賽」。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-01": "本句的「contest」指「比賽；競賽」。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-01"
     },
@@ -1832,11 +1792,9 @@ export default {
       "masked": "The ____ tested general knowledge.",
       "options": [
         "contest-mcq-01",
-        "contest-mcq-02",
-        "contest-mcq-03",
-        "contest-mcq-04",
-        "contest-mcq-05",
-        "contest-mcq-06"
+        "contest-mcq-19",
+        "contest-mcq-55",
+        "contest-mcq-30"
       ],
       "explanation": "本句的「contest」指「比賽；競賽」。",
       "sentenceIndex": 19,
@@ -1845,12 +1803,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-01": "本句指「比賽；競賽」。",
-        "contest-mcq-02": "「參加比賽」與本句語境不同。",
-        "contest-mcq-03": "「贏得比賽」與本句語境不同。",
-        "contest-mcq-04": "「寫作比賽」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-01": "本句的「contest」指「比賽；競賽」。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-01"
     },
@@ -1862,11 +1818,9 @@ export default {
       "masked": "The match became an intense ____.",
       "options": [
         "contest-mcq-08",
-        "contest-mcq-07",
-        "contest-mcq-09",
-        "contest-mcq-06",
-        "contest-mcq-10",
-        "contest-mcq-05"
+        "contest-mcq-41",
+        "contest-pdf-003",
+        "contest-mcq-36"
       ],
       "explanation": "本句的「contest」指「較量；競爭」。",
       "sentenceIndex": 20,
@@ -1875,12 +1829,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-08": "本句指「較量；競爭」。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。"
+        "contest-mcq-08": "本句的「contest」指「較量；競爭」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-08"
     },
@@ -1892,11 +1844,9 @@ export default {
       "masked": "The two teams were evenly matched throughout the ____.",
       "options": [
         "contest-mcq-08",
-        "contest-mcq-07",
-        "contest-mcq-09",
-        "contest-mcq-06",
-        "contest-mcq-10",
-        "contest-mcq-05"
+        "contest-mcq-34",
+        "contest-mcq-22",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「contest」指「較量；競爭」。",
       "sentenceIndex": 21,
@@ -1905,12 +1855,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-08": "本句指「較量；競爭」。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-05": "「歌唱比賽」與本句語境不同。"
+        "contest-mcq-08": "本句的「contest」指「較量；競爭」。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-08"
     },
@@ -1922,11 +1870,9 @@ export default {
       "masked": "It was a ____ until the final minute.",
       "options": [
         "contest-mcq-09",
-        "contest-mcq-08",
-        "contest-mcq-10",
-        "contest-mcq-07",
-        "contest-mcq-11",
-        "contest-mcq-06"
+        "contest-mcq-44",
+        "contest-mcq-18",
+        "contest-mcq-34"
       ],
       "explanation": "本句的「close contest」指「勢均力敵的比賽」。",
       "sentenceIndex": 22,
@@ -1935,12 +1881,10 @@ export default {
         "close contest"
       ],
       "optionReasons": {
-        "contest-mcq-09": "本句指「勢均力敵的比賽」。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-09": "本句的「close contest」指「勢均力敵的比賽」。",
+        "contest-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-09"
     },
@@ -1952,11 +1896,9 @@ export default {
       "masked": "The result reflected how close the ____ had been.",
       "options": [
         "contest-mcq-09",
-        "contest-mcq-08",
-        "contest-mcq-10",
-        "contest-mcq-07",
-        "contest-mcq-11",
-        "contest-mcq-06"
+        "contest-mcq-21",
+        "contest-mcq-30",
+        "contest-mcq-32"
       ],
       "explanation": "本句的「contest」指「勢均力敵的比賽」。",
       "sentenceIndex": 23,
@@ -1965,12 +1907,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-09": "本句指「勢均力敵的比賽」。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-06": "「才藝比賽」與本句語境不同。"
+        "contest-mcq-09": "本句的「contest」指「勢均力敵的比賽」。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-09"
     },
@@ -1982,11 +1922,9 @@ export default {
       "masked": "The two companies are in a ____ for market share.",
       "options": [
         "contest-mcq-10",
-        "contest-mcq-09",
-        "contest-mcq-11",
-        "contest-mcq-08",
-        "contest-mcq-12",
-        "contest-mcq-07"
+        "contest-mcq-31",
+        "contest-mcq-30",
+        "contest-mcq-53"
       ],
       "explanation": "本句的「fierce contest」指「激烈競爭」。",
       "sentenceIndex": 24,
@@ -1995,12 +1933,10 @@ export default {
         "fierce contest"
       ],
       "optionReasons": {
-        "contest-mcq-10": "本句指「激烈競爭」。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。"
+        "contest-mcq-10": "本句的「fierce contest」指「激烈競爭」。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-10"
     },
@@ -2012,11 +1948,9 @@ export default {
       "masked": "The championship became a fierce ____ between the two teams.",
       "options": [
         "contest-mcq-10",
-        "contest-mcq-09",
-        "contest-mcq-11",
-        "contest-mcq-08",
+        "contest-mcq-34",
         "contest-mcq-12",
-        "contest-mcq-07"
+        "contest-mcq-53"
       ],
       "explanation": "本句的「contest」指「激烈競爭」。",
       "sentenceIndex": 25,
@@ -2025,12 +1959,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-10": "本句指「激烈競爭」。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-07": "「選美比賽」與本句語境不同。"
+        "contest-mcq-10": "本句的「contest」指「激烈競爭」。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-10"
     },
@@ -2042,11 +1974,9 @@ export default {
       "masked": "The match was a ____.",
       "options": [
         "contest-mcq-11",
-        "contest-mcq-10",
-        "contest-mcq-12",
-        "contest-mcq-09",
-        "contest-mcq-13",
-        "contest-mcq-08"
+        "contest-mcq-19",
+        "contest-mcq-32",
+        "contest-mcq-45"
       ],
       "explanation": "本句的「one-sided contest」指「一面倒的比賽」。",
       "sentenceIndex": 26,
@@ -2055,74 +1985,68 @@ export default {
         "one-sided contest"
       ],
       "optionReasons": {
-        "contest-mcq-11": "本句指「一面倒的比賽」。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。"
+        "contest-mcq-11": "本句的「one-sided contest」指「一面倒的比賽」。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-11"
     },
     {
       "id": "contest-15-0",
-      "sense": "contest-mcq-11",
+      "sense": "contest-reviewed-e3987ec10f",
       "en": "It was an evenly matched contest.",
       "zh": "那是一場勢均力敵的較量。",
       "masked": "It was an ____.",
       "options": [
-        "contest-mcq-11",
-        "contest-mcq-10",
-        "contest-mcq-12",
-        "contest-mcq-09",
-        "contest-mcq-13",
-        "contest-mcq-08"
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-05",
+        "contest-mcq-22",
+        "contest-mcq-34"
       ],
-      "explanation": "本句的「evenly matched contest」指「一面倒的比賽」。",
+      "explanation": "對照完整句子：「那是一場勢均力敵的較量。」。這裡的「evenly matched contest」表示「勢均力敵的較量」。",
       "sentenceIndex": 27,
       "sourcePractice": 1,
       "targets": [
         "evenly matched contest"
       ],
       "optionReasons": {
-        "contest-mcq-11": "本句指「一面倒的比賽」。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。"
+        "contest-reviewed-e3987ec10f": "對照完整句子：「那是一場勢均力敵的較量。」。這裡的「evenly matched contest」表示「勢均力敵的較量」。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "contest-mcq-11"
+      "correctOption": "contest-reviewed-e3987ec10f",
+      "previousCorrectOption": "contest-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "contest-15-1",
-      "sense": "contest-mcq-11",
+      "sense": "contest-reviewed-e3987ec10f",
       "en": "Neither team dominated the contest.",
       "zh": "沒有一隊能主導這場比賽。",
       "masked": "Neither team dominated the ____.",
       "options": [
-        "contest-mcq-11",
-        "contest-mcq-10",
-        "contest-mcq-12",
-        "contest-mcq-09",
-        "contest-mcq-13",
-        "contest-mcq-08"
+        "contest-reviewed-e3987ec10f",
+        "contest-pdf-005",
+        "contest-mcq-51",
+        "contest-mcq-30"
       ],
-      "explanation": "本句的「contest」指「一面倒的比賽」。",
+      "explanation": "對照完整句子：「沒有一隊能主導這場比賽。」。這裡的「contest」表示「勢均力敵的較量」。",
       "sentenceIndex": 28,
       "sourcePractice": 2,
       "targets": [
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-11": "本句指「一面倒的比賽」。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-08": "「較量；競爭」與本句語境不同。"
+        "contest-reviewed-e3987ec10f": "對照完整句子：「沒有一隊能主導這場比賽。」。這裡的「contest」表示「勢均力敵的較量」。",
+        "contest-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "contest-mcq-11"
+      "correctOption": "contest-reviewed-e3987ec10f",
+      "previousCorrectOption": "contest-mcq-11",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "contest-16-0",
@@ -2132,11 +2056,9 @@ export default {
       "masked": "The final became a ____.",
       "options": [
         "contest-mcq-12",
-        "contest-mcq-11",
-        "contest-mcq-13",
-        "contest-mcq-10",
-        "contest-mcq-14",
-        "contest-mcq-09"
+        "contest-mcq-22",
+        "contest-mcq-55",
+        "contest-mcq-26"
       ],
       "explanation": "本句的「contest between two experienced teams」指「A、B 之間的較量」。",
       "sentenceIndex": 29,
@@ -2145,12 +2067,10 @@ export default {
         "contest between two experienced teams"
       ],
       "optionReasons": {
-        "contest-mcq-12": "本句指「A、B 之間的較量」。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。"
+        "contest-mcq-12": "本句的「contest between two experienced teams」指「A、B 之間的較量」。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-12"
     },
@@ -2162,11 +2082,9 @@ export default {
       "masked": "The debate became a ____ between two competing visions.",
       "options": [
         "contest-mcq-12",
-        "contest-mcq-11",
-        "contest-mcq-13",
-        "contest-mcq-10",
-        "contest-mcq-14",
-        "contest-mcq-09"
+        "contest-mcq-49",
+        "contest-pdf-006",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「contest」指「A、B 之間的較量」。",
       "sentenceIndex": 30,
@@ -2175,12 +2093,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-12": "本句指「A、B 之間的較量」。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-09": "「勢均力敵的比賽」與本句語境不同。"
+        "contest-mcq-12": "本句的「contest」指「A、B 之間的較量」。",
+        "contest-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-12"
     },
@@ -2192,11 +2108,9 @@ export default {
       "masked": "There is a fierce ____.",
       "options": [
         "contest-mcq-13",
-        "contest-mcq-12",
-        "contest-mcq-14",
-        "contest-mcq-11",
-        "contest-mcq-15",
-        "contest-mcq-10"
+        "contest-mcq-07",
+        "contest-mcq-21",
+        "contest-mcq-16"
       ],
       "explanation": "本句的「contest for leadership」指「爭奪 X」。",
       "sentenceIndex": 31,
@@ -2205,12 +2119,10 @@ export default {
         "contest for leadership"
       ],
       "optionReasons": {
-        "contest-mcq-13": "本句指「爭奪 X」。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。"
+        "contest-mcq-13": "本句的「contest for leadership」指「爭奪 X」。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-13"
     },
@@ -2222,11 +2134,9 @@ export default {
       "masked": "Several firms are involved in the ____ for market share.",
       "options": [
         "contest-mcq-13",
-        "contest-mcq-12",
-        "contest-mcq-14",
-        "contest-mcq-11",
-        "contest-mcq-15",
-        "contest-mcq-10"
+        "contest-mcq-16",
+        "contest-mcq-03",
+        "contest-pdf-003"
       ],
       "explanation": "本句的「contest」指「爭奪 X」。",
       "sentenceIndex": 32,
@@ -2235,12 +2145,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-13": "本句指「爭奪 X」。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-10": "「激烈競爭」與本句語境不同。"
+        "contest-mcq-13": "本句的「contest」指「爭奪 X」。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-13"
     },
@@ -2252,11 +2160,9 @@ export default {
       "masked": "The disagreement became a ____.",
       "options": [
         "contest-mcq-14",
-        "contest-mcq-13",
-        "contest-mcq-15",
-        "contest-mcq-12",
-        "contest-mcq-16",
-        "contest-mcq-11"
+        "contest-mcq-31",
+        "contest-mcq-21",
+        "contest-mcq-05"
       ],
       "explanation": "本句的「contest for control」指「控制權爭奪」。",
       "sentenceIndex": 33,
@@ -2265,12 +2171,10 @@ export default {
         "contest for control"
       ],
       "optionReasons": {
-        "contest-mcq-14": "本句指「控制權爭奪」。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。"
+        "contest-mcq-14": "本句的「contest for control」指「控制權爭奪」。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-14"
     },
@@ -2282,11 +2186,9 @@ export default {
       "masked": "The merger triggered a ____ for control of the combined company.",
       "options": [
         "contest-mcq-14",
-        "contest-mcq-13",
-        "contest-mcq-15",
-        "contest-mcq-12",
-        "contest-mcq-16",
-        "contest-mcq-11"
+        "contest-mcq-22",
+        "contest-mcq-20",
+        "contest-mcq-30"
       ],
       "explanation": "本句的「contest」指「控制權爭奪」。",
       "sentenceIndex": 34,
@@ -2295,12 +2197,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-14": "本句指「控制權爭奪」。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-11": "「一面倒的比賽」與本句語境不同。"
+        "contest-mcq-14": "本句的「contest」指「控制權爭奪」。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-14"
     },
@@ -2312,11 +2212,9 @@ export default {
       "masked": "The dispute became a ____.",
       "options": [
         "contest-mcq-15",
-        "contest-mcq-14",
-        "contest-mcq-16",
-        "contest-mcq-13",
-        "contest-mcq-17",
-        "contest-mcq-12"
+        "contest-mcq-36",
+        "contest-mcq-03",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「contest for power」指「權力爭奪」。",
       "sentenceIndex": 35,
@@ -2325,12 +2223,10 @@ export default {
         "contest for power"
       ],
       "optionReasons": {
-        "contest-mcq-15": "本句指「權力爭奪」。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。"
+        "contest-mcq-15": "本句的「contest for power」指「權力爭奪」。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-15"
     },
@@ -2342,11 +2238,9 @@ export default {
       "masked": "Internal politics turned the discussion into a ____ for influence and power.",
       "options": [
         "contest-mcq-15",
-        "contest-mcq-14",
-        "contest-mcq-16",
-        "contest-mcq-13",
-        "contest-mcq-17",
-        "contest-mcq-12"
+        "contest-mcq-26",
+        "contest-mcq-06",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「contest」指「權力爭奪」。",
       "sentenceIndex": 36,
@@ -2355,12 +2249,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-15": "本句指「權力爭奪」。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-12": "「A、B 之間的較量」與本句語境不同。"
+        "contest-mcq-15": "本句的「contest」指「權力爭奪」。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-15"
     },
@@ -2372,11 +2264,9 @@ export default {
       "masked": "Several candidates entered the ____.",
       "options": [
         "contest-mcq-16",
-        "contest-mcq-15",
-        "contest-mcq-17",
-        "contest-mcq-14",
-        "contest-mcq-18",
-        "contest-mcq-13"
+        "contest-mcq-44",
+        "contest-mcq-07",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「leadership contest」指「領導權競逐」。",
       "sentenceIndex": 37,
@@ -2385,12 +2275,10 @@ export default {
         "leadership contest"
       ],
       "optionReasons": {
-        "contest-mcq-16": "本句指「領導權競逐」。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。"
+        "contest-mcq-16": "本句的「leadership contest」指「領導權競逐」。",
+        "contest-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-16"
     },
@@ -2402,11 +2290,9 @@ export default {
       "masked": "The leadership ____ exposed divisions within the organisation.",
       "options": [
         "contest-mcq-16",
-        "contest-mcq-15",
-        "contest-mcq-17",
-        "contest-mcq-14",
-        "contest-mcq-18",
-        "contest-mcq-13"
+        "contest-mcq-31",
+        "contest-mcq-03",
+        "contest-mcq-18"
       ],
       "explanation": "本句的「contest」指「領導權競逐」。",
       "sentenceIndex": 38,
@@ -2415,12 +2301,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-16": "本句指「領導權競逐」。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-13": "「爭奪 X」與本句語境不同。"
+        "contest-mcq-16": "本句的「contest」指「領導權競逐」。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-16"
     },
@@ -2432,11 +2316,9 @@ export default {
       "masked": "The meeting may turn into a ____.",
       "options": [
         "contest-mcq-17",
-        "contest-mcq-16",
-        "contest-mcq-18",
-        "contest-mcq-15",
-        "contest-mcq-19",
-        "contest-mcq-14"
+        "contest-mcq-47",
+        "contest-mcq-50",
+        "contest-mcq-16"
       ],
       "explanation": "本句的「contest of egos」指「自尊／自我的較量」。",
       "sentenceIndex": 39,
@@ -2445,12 +2327,10 @@ export default {
         "contest of egos"
       ],
       "optionReasons": {
-        "contest-mcq-17": "本句指「自尊／自我的較量」。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。"
+        "contest-mcq-17": "本句的「contest of egos」指「自尊／自我的較量」。",
+        "contest-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-17"
     },
@@ -2462,11 +2342,9 @@ export default {
       "masked": "What should have been a practical discussion became a ____ of egos.",
       "options": [
         "contest-mcq-17",
-        "contest-mcq-16",
-        "contest-mcq-18",
-        "contest-mcq-15",
-        "contest-mcq-19",
-        "contest-mcq-14"
+        "contest-mcq-23",
+        "contest-mcq-34",
+        "contest-mcq-15"
       ],
       "explanation": "本句的「contest」指「自尊／自我的較量」。",
       "sentenceIndex": 40,
@@ -2475,12 +2353,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-17": "本句指「自尊／自我的較量」。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-14": "「控制權爭奪」與本句語境不同。"
+        "contest-mcq-17": "本句的「contest」指「自尊／自我的較量」。",
+        "contest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-17"
     },
@@ -2492,11 +2368,9 @@ export default {
       "masked": "The negotiation became a ____.",
       "options": [
         "contest-mcq-18",
-        "contest-mcq-17",
-        "contest-mcq-19",
-        "contest-mcq-16",
-        "contest-mcq-20",
-        "contest-mcq-15"
+        "contest-mcq-37",
+        "contest-mcq-34",
+        "contest-mcq-26"
       ],
       "explanation": "本句的「contest of wills」指「意志較量」。",
       "sentenceIndex": 41,
@@ -2505,12 +2379,10 @@ export default {
         "contest of wills"
       ],
       "optionReasons": {
-        "contest-mcq-18": "本句指「意志較量」。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。"
+        "contest-mcq-18": "本句的「contest of wills」指「意志較量」。",
+        "contest-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-18"
     },
@@ -2522,11 +2394,9 @@ export default {
       "masked": "Neither side wanted to back down in the ____ of wills.",
       "options": [
         "contest-mcq-18",
-        "contest-mcq-17",
-        "contest-mcq-19",
-        "contest-mcq-16",
-        "contest-mcq-20",
-        "contest-mcq-15"
+        "contest-mcq-36",
+        "contest-mcq-07",
+        "contest-mcq-24"
       ],
       "explanation": "本句的「contest」指「意志較量」。",
       "sentenceIndex": 42,
@@ -2535,12 +2405,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-18": "本句指「意志較量」。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-15": "「權力爭奪」與本句語境不同。"
+        "contest-mcq-18": "本句的「contest」指「意志較量」。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-18"
     },
@@ -2552,11 +2420,9 @@ export default {
       "masked": "The battle became a ____.",
       "options": [
         "contest-mcq-19",
-        "contest-mcq-18",
-        "contest-mcq-20",
-        "contest-mcq-17",
-        "contest-mcq-21",
-        "contest-mcq-16"
+        "contest-mcq-13",
+        "contest-mcq-34",
+        "contest-pdf-005"
       ],
       "explanation": "本句的「contest of strength」指「力量較量」。",
       "sentenceIndex": 43,
@@ -2565,12 +2431,10 @@ export default {
         "contest of strength"
       ],
       "optionReasons": {
-        "contest-mcq-19": "本句指「力量較量」。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。"
+        "contest-mcq-19": "本句的「contest of strength」指「力量較量」。",
+        "contest-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-19"
     },
@@ -2582,11 +2446,9 @@ export default {
       "masked": "Negotiation should not become a ____ of strength.",
       "options": [
         "contest-mcq-19",
-        "contest-mcq-18",
-        "contest-mcq-20",
-        "contest-mcq-17",
-        "contest-mcq-21",
-        "contest-mcq-16"
+        "contest-mcq-25",
+        "contest-mcq-30",
+        "contest-mcq-46"
       ],
       "explanation": "本句的「contest」指「力量較量」。",
       "sentenceIndex": 44,
@@ -2595,12 +2457,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-19": "本句指「力量較量」。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-16": "「領導權競逐」與本句語境不同。"
+        "contest-mcq-19": "本句的「contest」指「力量較量」。",
+        "contest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-19"
     },
@@ -2612,11 +2472,9 @@ export default {
       "masked": "Chess is a ____.",
       "options": [
         "contest-mcq-20",
-        "contest-mcq-19",
-        "contest-mcq-21",
-        "contest-mcq-18",
-        "contest-mcq-22",
-        "contest-mcq-17"
+        "contest-mcq-36",
+        "contest-mcq-44",
+        "contest-mcq-49"
       ],
       "explanation": "本句的「contest of skill and strategy」指「技巧較量」。",
       "sentenceIndex": 45,
@@ -2625,12 +2483,10 @@ export default {
         "contest of skill and strategy"
       ],
       "optionReasons": {
-        "contest-mcq-20": "本句指「技巧較量」。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。"
+        "contest-mcq-20": "本句的「contest of skill and strategy」指「技巧較量」。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-20"
     },
@@ -2642,11 +2498,9 @@ export default {
       "masked": "The final was a genuine ____ of skill.",
       "options": [
         "contest-mcq-20",
-        "contest-mcq-19",
-        "contest-mcq-21",
-        "contest-mcq-18",
-        "contest-mcq-22",
-        "contest-mcq-17"
+        "contest-mcq-09",
+        "contest-mcq-43",
+        "contest-mcq-26"
       ],
       "explanation": "本句的「contest」指「技巧較量」。",
       "sentenceIndex": 46,
@@ -2655,12 +2509,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-20": "本句指「技巧較量」。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-17": "「自尊／自我的較量」與本句語境不同。"
+        "contest-mcq-20": "本句的「contest」指「技巧較量」。",
+        "contest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-20"
     },
@@ -2672,11 +2524,9 @@ export default {
       "masked": "Healthy debate can be a ____.",
       "options": [
         "contest-mcq-21",
-        "contest-mcq-20",
-        "contest-mcq-22",
-        "contest-mcq-19",
-        "contest-mcq-23",
-        "contest-mcq-18"
+        "contest-mcq-30",
+        "contest-mcq-09",
+        "contest-mcq-42"
       ],
       "explanation": "本句的「contest of ideas」指「思想／觀點較量」。",
       "sentenceIndex": 47,
@@ -2685,12 +2535,10 @@ export default {
         "contest of ideas"
       ],
       "optionReasons": {
-        "contest-mcq-21": "本句指「思想／觀點較量」。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。"
+        "contest-mcq-21": "本句的「contest of ideas」指「思想／觀點較量」。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-21"
     },
@@ -2702,11 +2550,9 @@ export default {
       "masked": "The discussion should remain a ____ of ideas, not personalities.",
       "options": [
         "contest-mcq-21",
-        "contest-mcq-20",
-        "contest-mcq-22",
-        "contest-mcq-19",
-        "contest-mcq-23",
-        "contest-mcq-18"
+        "contest-mcq-07",
+        "contest-mcq-46",
+        "contest-mcq-32"
       ],
       "explanation": "本句的「contest」指「思想／觀點較量」。",
       "sentenceIndex": 48,
@@ -2715,12 +2561,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-21": "本句指「思想／觀點較量」。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。"
+        "contest-mcq-21": "本句的「contest」指「思想／觀點較量」。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-21"
     },
@@ -2732,11 +2576,9 @@ export default {
       "masked": "The debate became a ____.",
       "options": [
         "contest-mcq-21",
-        "contest-mcq-20",
-        "contest-mcq-22",
-        "contest-mcq-19",
-        "contest-mcq-23",
-        "contest-mcq-18"
+        "contest-mcq-37",
+        "contest-mcq-07",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「contest of personalities」指「思想／觀點較量」。",
       "sentenceIndex": 49,
@@ -2745,12 +2587,10 @@ export default {
         "contest of personalities"
       ],
       "optionReasons": {
-        "contest-mcq-21": "本句指「思想／觀點較量」。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。"
+        "contest-mcq-21": "本句的「contest of personalities」指「思想／觀點較量」。",
+        "contest-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-21"
     },
@@ -2762,11 +2602,9 @@ export default {
       "masked": "The issue itself was forgotten as the discussion became a ____ of personalities.",
       "options": [
         "contest-mcq-21",
-        "contest-mcq-20",
-        "contest-mcq-22",
-        "contest-mcq-19",
-        "contest-mcq-23",
-        "contest-mcq-18"
+        "contest-mcq-16",
+        "contest-mcq-40",
+        "contest-mcq-34"
       ],
       "explanation": "本句的「contest」指「思想／觀點較量」。",
       "sentenceIndex": 50,
@@ -2775,12 +2613,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-21": "本句指「思想／觀點較量」。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-18": "「意志較量」與本句語境不同。"
+        "contest-mcq-21": "本句的「contest」指「思想／觀點較量」。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-21"
     },
@@ -2792,11 +2628,9 @@ export default {
       "masked": "When it comes to battery life, it's ____.",
       "options": [
         "contest-mcq-22",
-        "contest-mcq-21",
-        "contest-mcq-23",
-        "contest-mcq-20",
-        "contest-mcq-24",
-        "contest-mcq-19"
+        "contest-mcq-12",
+        "contest-mcq-30",
+        "contest-mcq-34"
       ],
       "explanation": "本句的「no contest」指「毫無懸念；根本無得比」。",
       "sentenceIndex": 51,
@@ -2805,12 +2639,10 @@ export default {
         "no contest"
       ],
       "optionReasons": {
-        "contest-mcq-22": "本句指「毫無懸念；根本無得比」。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。"
+        "contest-mcq-22": "本句的「no contest」指「毫無懸念；根本無得比」。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-22"
     },
@@ -2822,11 +2654,9 @@ export default {
       "masked": "Between the two designs, it's no ____—the second is much clearer.",
       "options": [
         "contest-mcq-22",
-        "contest-mcq-21",
-        "contest-mcq-23",
-        "contest-mcq-20",
-        "contest-mcq-24",
-        "contest-mcq-19"
+        "contest-mcq-41",
+        "contest-mcq-49",
+        "contest-mcq-14"
       ],
       "explanation": "本句的「contest」指「毫無懸念；根本無得比」。",
       "sentenceIndex": 52,
@@ -2835,12 +2665,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-22": "本句指「毫無懸念；根本無得比」。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-19": "「力量較量」與本句語境不同。"
+        "contest-mcq-22": "本句的「contest」指「毫無懸念；根本無得比」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-22"
     },
@@ -2852,11 +2680,9 @@ export default {
       "masked": "The weaker team scored twice and ____.",
       "options": [
         "contest-mcq-23",
-        "contest-mcq-22",
-        "contest-mcq-24",
-        "contest-mcq-21",
-        "contest-mcq-25",
-        "contest-mcq-20"
+        "contest-mcq-28",
+        "contest-mcq-42",
+        "contest-mcq-19"
       ],
       "explanation": "本句的「made a contest of it」指「令比賽有懸念」。",
       "sentenceIndex": 53,
@@ -2865,12 +2691,10 @@ export default {
         "made a contest of it"
       ],
       "optionReasons": {
-        "contest-mcq-23": "本句指「令比賽有懸念」。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。"
+        "contest-mcq-23": "本句的「made a contest of it」指「令比賽有懸念」。",
+        "contest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-23"
     },
@@ -2882,11 +2706,9 @@ export default {
       "masked": "They lost, but at least they made a ____ of it.",
       "options": [
         "contest-mcq-23",
-        "contest-mcq-22",
-        "contest-mcq-24",
-        "contest-mcq-21",
-        "contest-mcq-25",
-        "contest-mcq-20"
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-13",
+        "contest-mcq-36"
       ],
       "explanation": "本句的「contest」指「令比賽有懸念」。",
       "sentenceIndex": 54,
@@ -2895,12 +2717,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-23": "本句指「令比賽有懸念」。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-20": "「技巧較量」與本句語境不同。"
+        "contest-mcq-23": "本句的「contest」指「令比賽有懸念」。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-23"
     },
@@ -2912,11 +2732,9 @@ export default {
       "masked": "Several athletes ____.",
       "options": [
         "contest-mcq-24",
-        "contest-mcq-23",
-        "contest-mcq-25",
-        "contest-mcq-22",
-        "contest-mcq-26",
-        "contest-mcq-21"
+        "contest-mcq-41",
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-17"
       ],
       "explanation": "本句的「contested the final」指「競逐；爭奪」。",
       "sentenceIndex": 55,
@@ -2925,12 +2743,10 @@ export default {
         "contested the final"
       ],
       "optionReasons": {
-        "contest-mcq-24": "本句指「競逐；爭奪」。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。"
+        "contest-mcq-24": "本句的「contested the final」指「競逐；爭奪」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-24"
     },
@@ -2942,11 +2758,9 @@ export default {
       "masked": "Three teams are ____ the championship.",
       "options": [
         "contest-mcq-24",
-        "contest-mcq-23",
-        "contest-mcq-25",
-        "contest-mcq-22",
-        "contest-mcq-26",
-        "contest-mcq-21"
+        "contest-mcq-06",
+        "contest-mcq-18",
+        "contest-mcq-34"
       ],
       "explanation": "本句的「contesting」指「競逐；爭奪」。",
       "sentenceIndex": 56,
@@ -2955,12 +2769,10 @@ export default {
         "contesting"
       ],
       "optionReasons": {
-        "contest-mcq-24": "本句指「競逐；爭奪」。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-21": "「思想／觀點較量」與本句語境不同。"
+        "contest-mcq-24": "本句的「contesting」指「競逐；爭奪」。",
+        "contest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-24"
     },
@@ -2972,11 +2784,9 @@ export default {
       "masked": "The two players will ____ tomorrow.",
       "options": [
         "contest-mcq-25",
-        "contest-mcq-24",
-        "contest-mcq-26",
-        "contest-mcq-23",
-        "contest-mcq-27",
-        "contest-mcq-22"
+        "contest-mcq-41",
+        "contest-mcq-17",
+        "contest-mcq-07"
       ],
       "explanation": "本句的「contest the title」指「爭奪冠軍」。",
       "sentenceIndex": 57,
@@ -2985,12 +2795,10 @@ export default {
         "contest the title"
       ],
       "optionReasons": {
-        "contest-mcq-25": "本句指「爭奪冠軍」。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。"
+        "contest-mcq-25": "本句的「contest the title」指「爭奪冠軍」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-25"
     },
@@ -3002,11 +2810,9 @@ export default {
       "masked": "Four teams remain in contention to ____ the championship.",
       "options": [
         "contest-mcq-25",
-        "contest-mcq-24",
-        "contest-mcq-26",
-        "contest-mcq-23",
-        "contest-mcq-27",
-        "contest-mcq-22"
+        "contest-mcq-20",
+        "contest-mcq-11",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「contest」指「爭奪冠軍」。",
       "sentenceIndex": 58,
@@ -3015,12 +2821,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-25": "本句指「爭奪冠軍」。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-22": "「毫無懸念；根本無得比」與本句語境不同。"
+        "contest-mcq-25": "本句的「contest」指「爭奪冠軍」。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-25"
     },
@@ -3032,11 +2836,9 @@ export default {
       "masked": "Six runners ____.",
       "options": [
         "contest-mcq-26",
-        "contest-mcq-25",
-        "contest-mcq-27",
-        "contest-mcq-24",
-        "contest-mcq-28",
-        "contest-mcq-23"
+        "contest-mcq-19",
+        "contest-mcq-33",
+        "contest-mcq-32"
       ],
       "explanation": "本句的「contested the final」指「參與決賽競逐」。",
       "sentenceIndex": 59,
@@ -3045,12 +2847,10 @@ export default {
         "contested the final"
       ],
       "optionReasons": {
-        "contest-mcq-26": "本句指「參與決賽競逐」。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。"
+        "contest-mcq-26": "本句的「contested the final」指「參與決賽競逐」。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-26"
     },
@@ -3062,11 +2862,9 @@ export default {
       "masked": "The teams ____ a close match.",
       "options": [
         "contest-mcq-26",
-        "contest-mcq-25",
-        "contest-mcq-27",
-        "contest-mcq-24",
-        "contest-mcq-28",
-        "contest-mcq-23"
+        "contest-mcq-15",
+        "contest-mcq-36",
+        "contest-pdf-003"
       ],
       "explanation": "本句的「contested」指「參與決賽競逐」。",
       "sentenceIndex": 60,
@@ -3075,12 +2873,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-26": "本句指「參與決賽競逐」。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。",
-        "contest-mcq-23": "「令比賽有懸念」與本句語境不同。"
+        "contest-mcq-26": "本句的「contested」指「參與決賽競逐」。",
+        "contest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-26"
     },
@@ -3092,11 +2888,9 @@ export default {
       "masked": "Several candidates ____.",
       "options": [
         "contest-mcq-27",
-        "contest-mcq-26",
-        "contest-mcq-28",
+        "contest-mcq-41",
         "contest-mcq-25",
-        "contest-mcq-29",
-        "contest-mcq-24"
+        "contest-pdf-004"
       ],
       "explanation": "本句的「contested the election」指「參選」。",
       "sentenceIndex": 61,
@@ -3105,12 +2899,10 @@ export default {
         "contested the election"
       ],
       "optionReasons": {
-        "contest-mcq-27": "本句指「參選」。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。"
+        "contest-mcq-27": "本句的「contested the election」指「參選」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-27"
     },
@@ -3122,11 +2914,9 @@ export default {
       "masked": "The party decided not to ____ the election.",
       "options": [
         "contest-mcq-27",
-        "contest-mcq-26",
         "contest-mcq-28",
         "contest-mcq-25",
-        "contest-mcq-29",
-        "contest-mcq-24"
+        "contest-mcq-35"
       ],
       "explanation": "本句的「contest」指「參選」。",
       "sentenceIndex": 62,
@@ -3135,12 +2925,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-27": "本句指「參選」。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-24": "「競逐；爭奪」與本句語境不同。"
+        "contest-mcq-27": "本句的「contest」指「參選」。",
+        "contest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-27"
     },
@@ -3152,11 +2940,9 @@ export default {
       "masked": "Three candidates are ____.",
       "options": [
         "contest-mcq-28",
-        "contest-mcq-27",
-        "contest-mcq-29",
-        "contest-mcq-26",
-        "contest-mcq-30",
-        "contest-mcq-25"
+        "contest-mcq-07",
+        "contest-mcq-17",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「contesting the seat」指「競逐議席」。",
       "sentenceIndex": 63,
@@ -3165,12 +2951,10 @@ export default {
         "contesting the seat"
       ],
       "optionReasons": {
-        "contest-mcq-28": "本句指「競逐議席」。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。"
+        "contest-mcq-28": "本句的「contesting the seat」指「競逐議席」。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-28"
     },
@@ -3182,11 +2966,9 @@ export default {
       "masked": "She decided to ____ a different seat.",
       "options": [
         "contest-mcq-28",
-        "contest-mcq-27",
-        "contest-mcq-29",
-        "contest-mcq-26",
-        "contest-mcq-30",
-        "contest-mcq-25"
+        "contest-mcq-25",
+        "contest-mcq-18",
+        "contest-reviewed-516b6f0068"
       ],
       "explanation": "本句的「contest」指「競逐議席」。",
       "sentenceIndex": 64,
@@ -3195,12 +2977,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-28": "本句指「競逐議席」。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。"
+        "contest-mcq-28": "本句的「contest」指「競逐議席」。",
+        "contest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-28"
     },
@@ -3212,11 +2992,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "contest-mcq-28",
-        "contest-mcq-27",
-        "contest-mcq-29",
-        "contest-mcq-26",
-        "contest-mcq-30",
-        "contest-mcq-25"
+        "contest-mcq-31",
+        "contest-mcq-17",
+        "contest-mcq-15"
       ],
       "explanation": "本句的「closely contested election」指「競逐議席」。",
       "sentenceIndex": 65,
@@ -3225,12 +3003,10 @@ export default {
         "closely contested election"
       ],
       "optionReasons": {
-        "contest-mcq-28": "本句指「競逐議席」。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。"
+        "contest-mcq-28": "本句的「closely contested election」指「競逐議席」。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-28"
     },
@@ -3242,11 +3018,9 @@ export default {
       "masked": "Several districts were closely ____.",
       "options": [
         "contest-mcq-28",
-        "contest-mcq-27",
-        "contest-mcq-29",
-        "contest-mcq-26",
-        "contest-mcq-30",
-        "contest-mcq-25"
+        "contest-mcq-17",
+        "contest-mcq-11",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「contested」指「競逐議席」。",
       "sentenceIndex": 66,
@@ -3255,12 +3029,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-28": "本句指「競逐議席」。",
-        "contest-mcq-27": "「參選」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-26": "「參與決賽競逐」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-25": "「爭奪冠軍」與本句語境不同。"
+        "contest-mcq-28": "本句的「contested」指「競逐議席」。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-28"
     },
@@ -3272,11 +3044,9 @@ export default {
       "masked": "Employees may ____ through the appeals process.",
       "options": [
         "contest-mcq-30",
-        "contest-mcq-29",
-        "contest-mcq-31",
-        "contest-mcq-28",
-        "contest-mcq-32",
-        "contest-mcq-27"
+        "contest-mcq-01",
+        "contest-mcq-25",
+        "contest-mcq-18"
       ],
       "explanation": "本句的「contest the decision」指「對決定提出異議」。",
       "sentenceIndex": 69,
@@ -3285,12 +3055,10 @@ export default {
         "contest the decision"
       ],
       "optionReasons": {
-        "contest-mcq-30": "本句指「對決定提出異議」。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-27": "「參選」與本句語境不同。"
+        "contest-mcq-30": "本句的「contest the decision」指「對決定提出異議」。",
+        "contest-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-30"
     },
@@ -3302,11 +3070,9 @@ export default {
       "masked": "She decided to ____ the disciplinary decision.",
       "options": [
         "contest-mcq-30",
-        "contest-mcq-29",
-        "contest-mcq-31",
-        "contest-mcq-28",
-        "contest-mcq-32",
-        "contest-mcq-27"
+        "contest-mcq-02",
+        "contest-mcq-17",
+        "contest-mcq-13"
       ],
       "explanation": "本句的「contest」指「對決定提出異議」。",
       "sentenceIndex": 70,
@@ -3315,12 +3081,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-30": "本句指「對決定提出異議」。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-27": "「參選」與本句語境不同。"
+        "contest-mcq-30": "本句的「contest」指「對決定提出異議」。",
+        "contest-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-30"
     },
@@ -3332,11 +3096,9 @@ export default {
       "masked": "The insurer ____.",
       "options": [
         "contest-mcq-31",
-        "contest-mcq-30",
-        "contest-mcq-32",
-        "contest-mcq-29",
-        "contest-mcq-33",
-        "contest-mcq-28"
+        "contest-mcq-10",
+        "contest-mcq-22",
+        "contest-mcq-44"
       ],
       "explanation": "本句的「contested the claim」指「質疑主張／索償」。",
       "sentenceIndex": 71,
@@ -3345,12 +3107,10 @@ export default {
         "contested the claim"
       ],
       "optionReasons": {
-        "contest-mcq-31": "本句指「質疑主張／索償」。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。"
+        "contest-mcq-31": "本句的「contested the claim」指「質疑主張／索償」。",
+        "contest-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-31"
     },
@@ -3362,11 +3122,9 @@ export default {
       "masked": "His account of events was ____ by several witnesses.",
       "options": [
         "contest-mcq-31",
-        "contest-mcq-30",
-        "contest-mcq-32",
-        "contest-mcq-29",
-        "contest-mcq-33",
-        "contest-mcq-28"
+        "contest-mcq-41",
+        "contest-mcq-12",
+        "contest-mcq-05"
       ],
       "explanation": "本句的「contested」指「質疑主張／索償」。",
       "sentenceIndex": 72,
@@ -3375,12 +3133,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-31": "本句指「質疑主張／索償」。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-28": "「競逐議席」與本句語境不同。"
+        "contest-mcq-31": "本句的「contested」指「質疑主張／索償」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-31"
     },
@@ -3392,11 +3148,9 @@ export default {
       "masked": "She strongly ____.",
       "options": [
         "contest-mcq-32",
-        "contest-mcq-31",
-        "contest-mcq-33",
-        "contest-mcq-30",
-        "contest-mcq-34",
-        "contest-mcq-29"
+        "contest-mcq-16",
+        "contest-mcq-40",
+        "contest-mcq-12"
       ],
       "explanation": "本句的「contested the allegation」指「反駁指控」。",
       "sentenceIndex": 73,
@@ -3405,12 +3159,10 @@ export default {
         "contested the allegation"
       ],
       "optionReasons": {
-        "contest-mcq-32": "本句指「反駁指控」。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。"
+        "contest-mcq-32": "本句的「contested the allegation」指「反駁指控」。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-32"
     },
@@ -3422,11 +3174,9 @@ export default {
       "masked": "The allegations remain ____.",
       "options": [
         "contest-mcq-32",
-        "contest-mcq-31",
-        "contest-mcq-33",
-        "contest-mcq-30",
-        "contest-mcq-34",
-        "contest-mcq-29"
+        "contest-mcq-40",
+        "contest-mcq-53",
+        "contest-mcq-41"
       ],
       "explanation": "本句的「contested」指「反駁指控」。",
       "sentenceIndex": 74,
@@ -3435,12 +3185,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-32": "本句指「反駁指控」。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-29": "「質疑；提出異議」與本句語境不同。"
+        "contest-mcq-32": "本句的「contested」指「反駁指控」。",
+        "contest-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-32"
     },
@@ -3452,11 +3200,9 @@ export default {
       "masked": "The driver decided to ____.",
       "options": [
         "contest-mcq-33",
-        "contest-mcq-32",
-        "contest-mcq-34",
-        "contest-mcq-31",
-        "contest-mcq-35",
-        "contest-mcq-30"
+        "contest-mcq-21",
+        "contest-pdf-002",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「contest the fine」指「抗辯控罪／質疑收費」。",
       "sentenceIndex": 75,
@@ -3465,12 +3211,10 @@ export default {
         "contest the fine"
       ],
       "optionReasons": {
-        "contest-mcq-33": "本句指「抗辯控罪／質疑收費」。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。"
+        "contest-mcq-33": "本句的「contest the fine」指「抗辯控罪／質疑收費」。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-33"
     },
@@ -3482,11 +3226,9 @@ export default {
       "masked": "The company ____ the penalty.",
       "options": [
         "contest-mcq-33",
-        "contest-mcq-32",
-        "contest-mcq-34",
-        "contest-mcq-31",
-        "contest-mcq-35",
-        "contest-mcq-30"
+        "contest-mcq-43",
+        "contest-mcq-30",
+        "contest-mcq-23"
       ],
       "explanation": "本句的「contested」指「抗辯控罪／質疑收費」。",
       "sentenceIndex": 76,
@@ -3495,12 +3237,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-33": "本句指「抗辯控罪／質疑收費」。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-30": "「對決定提出異議」與本句語境不同。"
+        "contest-mcq-33": "本句的「contested」指「抗辯控罪／質疑收費」。",
+        "contest-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-33"
     },
@@ -3512,11 +3252,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "contest-mcq-34",
-        "contest-mcq-33",
-        "contest-mcq-35",
-        "contest-mcq-32",
-        "contest-mcq-36",
-        "contest-mcq-31"
+        "contest-mcq-07",
+        "contest-mcq-37",
+        "contest-mcq-26"
       ],
       "explanation": "本句的「contested the result」指「質疑結果」。",
       "sentenceIndex": 77,
@@ -3525,12 +3263,10 @@ export default {
         "contested the result"
       ],
       "optionReasons": {
-        "contest-mcq-34": "本句指「質疑結果」。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。"
+        "contest-mcq-34": "本句的「contested the result」指「質疑結果」。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-34"
     },
@@ -3542,11 +3278,9 @@ export default {
       "masked": "The result was formally ____.",
       "options": [
         "contest-mcq-34",
-        "contest-mcq-33",
-        "contest-mcq-35",
-        "contest-mcq-32",
-        "contest-mcq-36",
-        "contest-mcq-31"
+        "contest-mcq-13",
+        "contest-mcq-30",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「contested」指「質疑結果」。",
       "sentenceIndex": 78,
@@ -3555,12 +3289,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-34": "本句指「質疑結果」。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-31": "「質疑主張／索償」與本句語境不同。"
+        "contest-mcq-34": "本句的「contested」指「質疑結果」。",
+        "contest-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-34"
     },
@@ -3572,11 +3304,9 @@ export default {
       "masked": "A family member decided to ____.",
       "options": [
         "contest-mcq-35",
-        "contest-mcq-34",
-        "contest-mcq-36",
         "contest-mcq-33",
-        "contest-mcq-37",
-        "contest-mcq-32"
+        "contest-mcq-32",
+        "contest-mcq-07"
       ],
       "explanation": "本句的「contest the will」指「對遺囑提出爭議」。",
       "sentenceIndex": 79,
@@ -3585,12 +3315,10 @@ export default {
         "contest the will"
       ],
       "optionReasons": {
-        "contest-mcq-35": "本句指「對遺囑提出爭議」。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。"
+        "contest-mcq-35": "本句的「contest the will」指「對遺囑提出爭議」。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-35"
     },
@@ -3602,11 +3330,9 @@ export default {
       "masked": "A will may be ____ on certain legal grounds.",
       "options": [
         "contest-mcq-35",
-        "contest-mcq-34",
-        "contest-mcq-36",
-        "contest-mcq-33",
-        "contest-mcq-37",
-        "contest-mcq-32"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-21",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「contested」指「對遺囑提出爭議」。",
       "sentenceIndex": 80,
@@ -3615,12 +3341,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-35": "本句指「對遺囑提出爭議」。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。"
+        "contest-mcq-35": "本句的「contested」指「對遺囑提出爭議」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-35"
     },
@@ -3632,11 +3356,9 @@ export default {
       "masked": "The estate became involved in a ____ dispute.",
       "options": [
         "contest-mcq-35",
-        "contest-mcq-34",
-        "contest-mcq-36",
-        "contest-mcq-33",
-        "contest-mcq-37",
-        "contest-mcq-32"
+        "contest-mcq-53",
+        "contest-mcq-05",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「contested will」指「對遺囑提出爭議」。",
       "sentenceIndex": 81,
@@ -3645,12 +3367,10 @@ export default {
         "contested will"
       ],
       "optionReasons": {
-        "contest-mcq-35": "本句指「對遺囑提出爭議」。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。"
+        "contest-mcq-35": "本句的「contested will」指「對遺囑提出爭議」。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-35"
     },
@@ -3662,11 +3382,9 @@ export default {
       "masked": "____ wills can lead to lengthy proceedings.",
       "options": [
         "contest-mcq-35",
-        "contest-mcq-34",
-        "contest-mcq-36",
-        "contest-mcq-33",
-        "contest-mcq-37",
-        "contest-mcq-32"
+        "contest-mcq-05",
+        "contest-mcq-17",
+        "contest-reviewed-516b6f0068"
       ],
       "explanation": "本句的「Contested」指「對遺囑提出爭議」。",
       "sentenceIndex": 82,
@@ -3675,12 +3393,10 @@ export default {
         "Contested"
       ],
       "optionReasons": {
-        "contest-mcq-35": "本句指「對遺囑提出爭議」。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-32": "「反駁指控」與本句語境不同。"
+        "contest-mcq-35": "本句的「Contested」指「對遺囑提出爭議」。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-35"
     },
@@ -3692,11 +3408,9 @@ export default {
       "masked": "The company ____ for the damage.",
       "options": [
         "contest-mcq-36",
-        "contest-mcq-35",
-        "contest-mcq-37",
-        "contest-mcq-34",
-        "contest-mcq-38",
-        "contest-mcq-33"
+        "contest-mcq-50",
+        "contest-mcq-27",
+        "contest-mcq-32"
       ],
       "explanation": "本句的「contested liability」指「對責任提出異議」。",
       "sentenceIndex": 83,
@@ -3705,12 +3419,10 @@ export default {
         "contested liability"
       ],
       "optionReasons": {
-        "contest-mcq-36": "本句指「對責任提出異議」。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。"
+        "contest-mcq-36": "本句的「contested liability」指「對責任提出異議」。",
+        "contest-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-36"
     },
@@ -3722,11 +3434,9 @@ export default {
       "masked": "Liability remains ____.",
       "options": [
         "contest-mcq-36",
-        "contest-mcq-35",
-        "contest-mcq-37",
-        "contest-mcq-34",
-        "contest-mcq-38",
-        "contest-mcq-33"
+        "contest-mcq-24",
+        "contest-mcq-21",
+        "contest-mcq-41"
       ],
       "explanation": "本句的「contested」指「對責任提出異議」。",
       "sentenceIndex": 84,
@@ -3735,12 +3445,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-36": "本句指「對責任提出異議」。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-33": "「抗辯控罪／質疑收費」與本句語境不同。"
+        "contest-mcq-36": "本句的「contested」指「對責任提出異議」。",
+        "contest-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-36"
     },
@@ -3752,11 +3460,9 @@ export default {
       "masked": "Two parties ____.",
       "options": [
         "contest-mcq-37",
-        "contest-mcq-36",
-        "contest-mcq-38",
-        "contest-mcq-35",
-        "contest-mcq-39",
-        "contest-mcq-34"
+        "contest-mcq-18",
+        "contest-mcq-32",
+        "contest-mcq-02"
       ],
       "explanation": "本句的「contested ownership of the land」指「爭議所有權」。",
       "sentenceIndex": 85,
@@ -3765,12 +3471,10 @@ export default {
         "contested ownership of the land"
       ],
       "optionReasons": {
-        "contest-mcq-37": "本句指「爭議所有權」。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。"
+        "contest-mcq-37": "本句的「contested ownership of the land」指「爭議所有權」。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-37"
     },
@@ -3782,11 +3486,9 @@ export default {
       "masked": "The ownership claim was ____ in court.",
       "options": [
         "contest-mcq-37",
-        "contest-mcq-36",
-        "contest-mcq-38",
-        "contest-mcq-35",
-        "contest-mcq-39",
-        "contest-mcq-34"
+        "contest-mcq-21",
+        "contest-mcq-06",
+        "contest-mcq-53"
       ],
       "explanation": "本句的「contested」指「爭議所有權」。",
       "sentenceIndex": 86,
@@ -3795,74 +3497,68 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-37": "本句指「爭議所有權」。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。"
+        "contest-mcq-37": "本句的「contested」指「爭議所有權」。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-37"
     },
     {
       "id": "contest-46-0",
-      "sense": "contest-mcq-37",
+      "sense": "contest-reviewed-516b6f0068",
       "en": "The defendant contested the court's jurisdiction.",
       "zh": "被告質疑法院的管轄權。",
       "masked": "The defendant ____.",
       "options": [
-        "contest-mcq-37",
-        "contest-mcq-36",
-        "contest-mcq-38",
-        "contest-mcq-35",
-        "contest-mcq-39",
-        "contest-mcq-34"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-19",
+        "contest-mcq-22",
+        "contest-mcq-40"
       ],
-      "explanation": "本句的「contested the court's jurisdiction」指「爭議所有權」。",
+      "explanation": "對照完整句子：「被告質疑法院的管轄權。」。這裡的「contested the court's jurisdiction」表示「質疑管轄權／權限」。",
       "sentenceIndex": 87,
       "sourcePractice": 1,
       "targets": [
         "contested the court's jurisdiction"
       ],
       "optionReasons": {
-        "contest-mcq-37": "本句指「爭議所有權」。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。"
+        "contest-reviewed-516b6f0068": "對照完整句子：「被告質疑法院的管轄權。」。這裡的「contested the court's jurisdiction」表示「質疑管轄權／權限」。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "contest-mcq-37"
+      "correctOption": "contest-reviewed-516b6f0068",
+      "previousCorrectOption": "contest-mcq-37",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "contest-46-1",
-      "sense": "contest-mcq-37",
+      "sense": "contest-reviewed-516b6f0068",
       "en": "The agency's authority was contested.",
       "zh": "該機構的權限受到質疑。",
       "masked": "The agency's authority was ____.",
       "options": [
-        "contest-mcq-37",
-        "contest-mcq-36",
-        "contest-mcq-38",
-        "contest-mcq-35",
-        "contest-mcq-39",
-        "contest-mcq-34"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-50",
+        "contest-mcq-46",
+        "contest-mcq-32"
       ],
-      "explanation": "本句的「contested」指「爭議所有權」。",
+      "explanation": "對照完整句子：「該機構的權限受到質疑。」。這裡的「contested」表示「質疑管轄權／權限」。",
       "sentenceIndex": 88,
       "sourcePractice": 2,
       "targets": [
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-37": "本句指「爭議所有權」。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-34": "「質疑結果」與本句語境不同。"
+        "contest-reviewed-516b6f0068": "對照完整句子：「該機構的權限受到質疑。」。這裡的「contested」表示「質疑管轄權／權限」。",
+        "contest-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "contest-mcq-37"
+      "correctOption": "contest-reviewed-516b6f0068",
+      "previousCorrectOption": "contest-mcq-37",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "contest-47-0",
@@ -3872,11 +3568,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "contest-pdf-001",
-        "contest-mcq-37",
-        "contest-mcq-39",
-        "contest-mcq-36",
-        "contest-mcq-40",
-        "contest-mcq-35"
+        "contest-mcq-53",
+        "contest-mcq-33",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「contested leadership position」指「有兩方或以上互相競爭，希望取得某物的」。",
       "sentenceIndex": 89,
@@ -3885,12 +3579,10 @@ export default {
         "contested leadership position"
       ],
       "optionReasons": {
-        "contest-pdf-001": "本句指「有兩方或以上互相競爭，希望取得某物的」。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。"
+        "contest-pdf-001": "本句的「contested leadership position」指「有兩方或以上互相競爭，希望取得某物的」。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-001"
     },
@@ -3902,11 +3594,9 @@ export default {
       "masked": "Every available seat was ____.",
       "options": [
         "contest-pdf-001",
-        "contest-mcq-37",
-        "contest-mcq-39",
-        "contest-mcq-36",
-        "contest-mcq-40",
-        "contest-mcq-35"
+        "contest-mcq-20",
+        "contest-mcq-41",
+        "contest-mcq-30"
       ],
       "explanation": "本句的「contested」指「有兩方或以上互相競爭，希望取得某物的」。",
       "sentenceIndex": 90,
@@ -3915,12 +3605,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-pdf-001": "本句指「有兩方或以上互相競爭，希望取得某物的」。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-36": "「對責任提出異議」與本句語境不同。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
-        "contest-mcq-35": "「對遺囑提出爭議」與本句語境不同。"
+        "contest-pdf-001": "本句的「contested」指「有兩方或以上互相競爭，希望取得某物的」。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-001"
     },
@@ -3932,11 +3620,9 @@ export default {
       "masked": "The championship was ____.",
       "options": [
         "contest-mcq-40",
-        "contest-mcq-39",
-        "contest-mcq-41",
-        "contest-mcq-38",
-        "contest-mcq-42",
-        "contest-mcq-37"
+        "contest-mcq-12",
+        "contest-mcq-33",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「fiercely contested」指「激烈爭奪／爭議」。",
       "sentenceIndex": 91,
@@ -3945,12 +3631,10 @@ export default {
         "fiercely contested"
       ],
       "optionReasons": {
-        "contest-mcq-40": "本句指「激烈爭奪／爭議」。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。"
+        "contest-mcq-40": "本句的「fiercely contested」指「激烈爭奪／爭議」。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-40"
     },
@@ -3962,11 +3646,9 @@ export default {
       "masked": "The interpretation remains fiercely ____.",
       "options": [
         "contest-mcq-40",
-        "contest-mcq-39",
-        "contest-mcq-41",
-        "contest-mcq-38",
-        "contest-mcq-42",
-        "contest-mcq-37"
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-34",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「contested」指「激烈爭奪／爭議」。",
       "sentenceIndex": 92,
@@ -3975,12 +3657,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-40": "本句指「激烈爭奪／爭議」。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-37": "「爭議所有權」與本句語境不同。"
+        "contest-mcq-40": "本句的「contested」指「激烈爭奪／爭議」。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-40"
     },
@@ -3992,11 +3672,9 @@ export default {
       "masked": "The final was ____.",
       "options": [
         "contest-mcq-41",
-        "contest-mcq-40",
-        "contest-mcq-42",
-        "contest-mcq-39",
-        "contest-mcq-43",
-        "contest-mcq-38"
+        "contest-mcq-04",
+        "contest-pdf-004",
+        "contest-mcq-14"
       ],
       "explanation": "本句的「closely contested」指「勢均力敵」。",
       "sentenceIndex": 93,
@@ -4005,12 +3683,10 @@ export default {
         "closely contested"
       ],
       "optionReasons": {
-        "contest-mcq-41": "本句指「勢均力敵」。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。"
+        "contest-mcq-41": "本句的「closely contested」指「勢均力敵」。",
+        "contest-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-41"
     },
@@ -4022,11 +3698,9 @@ export default {
       "masked": "It was a closely ____ race.",
       "options": [
         "contest-mcq-41",
-        "contest-mcq-40",
-        "contest-mcq-42",
-        "contest-mcq-39",
-        "contest-mcq-43",
-        "contest-mcq-38"
+        "contest-pdf-004",
+        "contest-mcq-07",
+        "contest-mcq-24"
       ],
       "explanation": "本句的「contested」指「勢均力敵」。",
       "sentenceIndex": 94,
@@ -4035,12 +3709,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-41": "本句指「勢均力敵」。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-38": "「有人競逐的」與本句語境不同。"
+        "contest-mcq-41": "本句的「contested」指「勢均力敵」。",
+        "contest-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-41"
     },
@@ -4052,11 +3724,9 @@ export default {
       "masked": "This remains a ____.",
       "options": [
         "contest-mcq-42",
-        "contest-mcq-41",
-        "contest-mcq-43",
-        "contest-mcq-40",
-        "contest-mcq-44",
-        "contest-mcq-39"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-09",
+        "contest-mcq-21"
       ],
       "explanation": "本句的「contested issue」指「有爭議的問題」。",
       "sentenceIndex": 95,
@@ -4065,12 +3735,10 @@ export default {
         "contested issue"
       ],
       "optionReasons": {
-        "contest-mcq-42": "本句指「有爭議的問題」。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。"
+        "contest-mcq-42": "本句的「contested issue」指「有爭議的問題」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-42"
     },
@@ -4082,11 +3750,9 @@ export default {
       "masked": "The meaning of the term is ____.",
       "options": [
         "contest-mcq-42",
-        "contest-mcq-41",
-        "contest-mcq-43",
-        "contest-mcq-40",
-        "contest-mcq-44",
-        "contest-mcq-39"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-23",
+        "contest-mcq-20"
       ],
       "explanation": "本句的「contested」指「有爭議的問題」。",
       "sentenceIndex": 96,
@@ -4095,12 +3761,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-42": "本句指「有爭議的問題」。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-39": "「激烈競爭／爭議」與本句語境不同。"
+        "contest-mcq-42": "本句的「contested」指「有爭議的問題」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-42"
     },
@@ -4112,11 +3776,9 @@ export default {
       "masked": "The report contains several ____.",
       "options": [
         "contest-mcq-43",
-        "contest-mcq-42",
-        "contest-mcq-44",
+        "contest-mcq-26",
         "contest-mcq-41",
-        "contest-mcq-45",
-        "contest-mcq-40"
+        "contest-mcq-05"
       ],
       "explanation": "本句的「contested claims」指「有爭議的主張」。",
       "sentenceIndex": 97,
@@ -4125,12 +3787,10 @@ export default {
         "contested claims"
       ],
       "optionReasons": {
-        "contest-mcq-43": "本句指「有爭議的主張」。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。"
+        "contest-mcq-43": "本句的「contested claims」指「有爭議的主張」。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-43"
     },
@@ -4142,11 +3802,9 @@ export default {
       "masked": "The claim has been ____ by researchers.",
       "options": [
         "contest-mcq-43",
-        "contest-mcq-42",
-        "contest-mcq-44",
         "contest-mcq-41",
-        "contest-mcq-45",
-        "contest-mcq-40"
+        "contest-mcq-26",
+        "contest-reviewed-516b6f0068"
       ],
       "explanation": "本句的「contested」指「有爭議的主張」。",
       "sentenceIndex": 98,
@@ -4155,12 +3813,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-43": "本句指「有爭議的主張」。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-40": "「激烈爭奪／爭議」與本句語境不同。"
+        "contest-mcq-43": "本句的「contested」指「有爭議的主張」。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-43"
     },
@@ -4172,10 +3828,8 @@ export default {
       "masked": "The map marks the area as ____.",
       "options": [
         "contest-mcq-44",
-        "contest-mcq-43",
-        "contest-mcq-45",
-        "contest-mcq-42",
-        "contest-mcq-46",
+        "contest-mcq-04",
+        "contest-mcq-20",
         "contest-mcq-41"
       ],
       "explanation": "本句的「contested territory」指「爭議／爭奪地區」。",
@@ -4185,12 +3839,10 @@ export default {
         "contested territory"
       ],
       "optionReasons": {
-        "contest-mcq-44": "本句指「爭議／爭奪地區」。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。"
+        "contest-mcq-44": "本句的「contested territory」指「爭議／爭奪地區」。",
+        "contest-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-44"
     },
@@ -4202,11 +3854,9 @@ export default {
       "masked": "Control of the territory remained ____.",
       "options": [
         "contest-mcq-44",
-        "contest-mcq-43",
-        "contest-mcq-45",
-        "contest-mcq-42",
-        "contest-mcq-46",
-        "contest-mcq-41"
+        "contest-mcq-21",
+        "contest-mcq-26",
+        "contest-mcq-09"
       ],
       "explanation": "本句的「contested」指「爭議／爭奪地區」。",
       "sentenceIndex": 100,
@@ -4215,12 +3865,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-44": "本句指「爭議／爭奪地區」。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。"
+        "contest-mcq-44": "本句的「contested」指「爭議／爭奪地區」。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-44"
     },
@@ -4232,10 +3880,8 @@ export default {
       "masked": "Fairness” can be a ____.",
       "options": [
         "contest-mcq-44",
-        "contest-mcq-43",
-        "contest-mcq-45",
-        "contest-mcq-42",
-        "contest-mcq-46",
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-21",
         "contest-mcq-41"
       ],
       "explanation": "本句的「contested concept」指「爭議／爭奪地區」。",
@@ -4245,12 +3891,10 @@ export default {
         "contested concept"
       ],
       "optionReasons": {
-        "contest-mcq-44": "本句指「爭議／爭奪地區」。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。"
+        "contest-mcq-44": "本句的「contested concept」指「爭議／爭奪地區」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-44"
     },
@@ -4262,11 +3906,9 @@ export default {
       "masked": "The historical interpretation remains ____.",
       "options": [
         "contest-mcq-44",
-        "contest-mcq-43",
-        "contest-mcq-45",
-        "contest-mcq-42",
-        "contest-mcq-46",
-        "contest-mcq-41"
+        "contest-mcq-17",
+        "contest-mcq-32",
+        "contest-mcq-53"
       ],
       "explanation": "本句的「contested」指「爭議／爭奪地區」。",
       "sentenceIndex": 102,
@@ -4275,12 +3917,10 @@ export default {
         "contested"
       ],
       "optionReasons": {
-        "contest-mcq-44": "本句指「爭議／爭奪地區」。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-41": "「勢均力敵」與本句語境不同。"
+        "contest-mcq-44": "本句的「contested」指「爭議／爭奪地區」。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-44"
     },
@@ -4292,11 +3932,9 @@ export default {
       "masked": "The claim went ____.",
       "options": [
         "contest-pdf-002",
-        "contest-mcq-44",
-        "contest-mcq-46",
-        "contest-mcq-43",
-        "contest-mcq-47",
-        "contest-mcq-42"
+        "contest-mcq-22",
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「uncontested」指「沒有人提出反對、異議或競爭」。",
       "sentenceIndex": 103,
@@ -4305,12 +3943,10 @@ export default {
         "uncontested"
       ],
       "optionReasons": {
-        "contest-pdf-002": "本句指「沒有人提出反對、異議或競爭」。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。"
+        "contest-pdf-002": "本句的「uncontested」指「沒有人提出反對、異議或競爭」。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-002"
     },
@@ -4322,11 +3958,9 @@ export default {
       "masked": "The position was ____.",
       "options": [
         "contest-mcq-45",
-        "contest-mcq-44",
-        "contest-mcq-46",
-        "contest-mcq-43",
-        "contest-mcq-47",
-        "contest-mcq-42"
+        "contest-mcq-34",
+        "contest-mcq-18",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「uncontested」指「無人競逐／沒有爭議的」。",
       "sentenceIndex": 104,
@@ -4335,12 +3969,10 @@ export default {
         "uncontested"
       ],
       "optionReasons": {
-        "contest-mcq-45": "本句指「無人競逐／沒有爭議的」。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-42": "「有爭議的問題」與本句語境不同。"
+        "contest-mcq-45": "本句的「uncontested」指「無人競逐／沒有爭議的」。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-45"
     },
@@ -4352,11 +3984,9 @@ export default {
       "masked": "The facts were largely ____.",
       "options": [
         "contest-mcq-46",
-        "contest-mcq-45",
-        "contest-mcq-47",
-        "contest-mcq-44",
-        "contest-mcq-48",
-        "contest-mcq-43"
+        "contest-mcq-09",
+        "contest-mcq-33",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「uncontested」指「無爭議主張」。",
       "sentenceIndex": 105,
@@ -4365,12 +3995,10 @@ export default {
         "uncontested"
       ],
       "optionReasons": {
-        "contest-mcq-46": "本句指「無爭議主張」。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。",
-        "contest-mcq-43": "「有爭議的主張」與本句語境不同。"
+        "contest-mcq-46": "本句的「uncontested」指「無爭議主張」。",
+        "contest-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-46"
     },
@@ -4382,11 +4010,9 @@ export default {
       "masked": "They applied for an ____.",
       "options": [
         "contest-mcq-47",
-        "contest-mcq-46",
-        "contest-mcq-48",
-        "contest-mcq-45",
-        "contest-mcq-49",
-        "contest-mcq-44"
+        "contest-mcq-07",
+        "contest-mcq-16",
+        "contest-mcq-19"
       ],
       "explanation": "本句的「uncontested divorce」指「無爭議離婚」。",
       "sentenceIndex": 106,
@@ -4395,12 +4021,10 @@ export default {
         "uncontested divorce"
       ],
       "optionReasons": {
-        "contest-mcq-47": "本句指「無爭議離婚」。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-44": "「爭議／爭奪地區」與本句語境不同。"
+        "contest-mcq-47": "本句的「uncontested divorce」指「無爭議離婚」。",
+        "contest-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-47"
     },
@@ -4412,11 +4036,9 @@ export default {
       "masked": "That assumption is ____.",
       "options": [
         "contest-pdf-003",
-        "contest-mcq-47",
-        "contest-mcq-49",
-        "contest-mcq-46",
-        "contest-mcq-50",
-        "contest-mcq-45"
+        "contest-mcq-28",
+        "contest-mcq-42",
+        "contest-mcq-20"
       ],
       "explanation": "本句的「contestable」指「並非確定無疑，而是有合理空間被反對或質疑的」。",
       "sentenceIndex": 107,
@@ -4425,12 +4047,10 @@ export default {
         "contestable"
       ],
       "optionReasons": {
-        "contest-pdf-003": "本句指「並非確定無疑，而是有合理空間被反對或質疑的」。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。"
+        "contest-pdf-003": "本句的「contestable」指「並非確定無疑，而是有合理空間被反對或質疑的」。",
+        "contest-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-003"
     },
@@ -4442,11 +4062,9 @@ export default {
       "masked": "The conclusion is highly ____.",
       "options": [
         "contest-pdf-003",
-        "contest-mcq-47",
-        "contest-mcq-49",
-        "contest-mcq-46",
-        "contest-mcq-50",
-        "contest-mcq-45"
+        "contest-mcq-06",
+        "contest-mcq-43",
+        "contest-mcq-36"
       ],
       "explanation": "本句的「contestable」指「並非確定無疑，而是有合理空間被反對或質疑的」。",
       "sentenceIndex": 108,
@@ -4455,12 +4073,10 @@ export default {
         "contestable"
       ],
       "optionReasons": {
-        "contest-pdf-003": "本句指「並非確定無疑，而是有合理空間被反對或質疑的」。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。"
+        "contest-pdf-003": "本句的「contestable」指「並非確定無疑，而是有合理空間被反對或質疑的」。",
+        "contest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-003"
     },
@@ -4472,11 +4088,9 @@ export default {
       "masked": "The interpretation is ____.",
       "options": [
         "contest-mcq-48",
-        "contest-mcq-47",
-        "contest-mcq-49",
-        "contest-mcq-46",
-        "contest-mcq-50",
-        "contest-mcq-45"
+        "contest-mcq-20",
+        "contest-mcq-34",
+        "contest-mcq-27"
       ],
       "explanation": "本句的「contestable」指「可爭議／可競爭的」。",
       "sentenceIndex": 109,
@@ -4485,12 +4099,10 @@ export default {
         "contestable"
       ],
       "optionReasons": {
-        "contest-mcq-48": "本句指「可爭議／可競爭的」。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。"
+        "contest-mcq-48": "本句的「contestable」指「可爭議／可競爭的」。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-48"
     },
@@ -4502,11 +4114,9 @@ export default {
       "masked": "Some parts of the argument remain ____.",
       "options": [
         "contest-mcq-48",
-        "contest-mcq-47",
-        "contest-mcq-49",
-        "contest-mcq-46",
-        "contest-mcq-50",
-        "contest-mcq-45"
+        "contest-mcq-34",
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-53"
       ],
       "explanation": "本句的「contestable」指「可爭議／可競爭的」。",
       "sentenceIndex": 110,
@@ -4515,12 +4125,10 @@ export default {
         "contestable"
       ],
       "optionReasons": {
-        "contest-mcq-48": "本句指「可爭議／可競爭的」。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-45": "「無人競逐／沒有爭議的」與本句語境不同。"
+        "contest-mcq-48": "本句的「contestable」指「可爭議／可競爭的」。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-48"
     },
@@ -4532,11 +4140,9 @@ export default {
       "masked": "Economists analyse whether the industry is a ____.",
       "options": [
         "contest-mcq-49",
-        "contest-mcq-48",
-        "contest-mcq-50",
-        "contest-mcq-47",
-        "contest-mcq-51",
-        "contest-mcq-46"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-32",
+        "contest-mcq-22"
       ],
       "explanation": "本句的「contestable market」指「可競爭市場」。",
       "sentenceIndex": 111,
@@ -4545,12 +4151,10 @@ export default {
         "contestable market"
       ],
       "optionReasons": {
-        "contest-mcq-49": "本句指「可競爭市場」。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。"
+        "contest-mcq-49": "本句的「contestable market」指「可競爭市場」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-49"
     },
@@ -4562,11 +4166,9 @@ export default {
       "masked": "A market may be highly ____ if entry and exit are relatively easy.",
       "options": [
         "contest-mcq-49",
-        "contest-mcq-48",
-        "contest-mcq-50",
-        "contest-mcq-47",
-        "contest-mcq-51",
-        "contest-mcq-46"
+        "contest-mcq-53",
+        "contest-mcq-31",
+        "contest-mcq-19"
       ],
       "explanation": "本句的「contestable」指「可競爭市場」。",
       "sentenceIndex": 112,
@@ -4575,12 +4177,10 @@ export default {
         "contestable"
       ],
       "optionReasons": {
-        "contest-mcq-49": "本句指「可競爭市場」。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-46": "「無爭議主張」與本句語境不同。"
+        "contest-mcq-49": "本句的「contestable」指「可競爭市場」。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-49"
     },
@@ -4592,11 +4192,9 @@ export default {
       "masked": "Low barriers to entry increase ____.",
       "options": [
         "contest-mcq-50",
-        "contest-mcq-49",
-        "contest-mcq-51",
-        "contest-mcq-48",
-        "contest-mcq-52",
-        "contest-mcq-47"
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-31",
+        "contest-mcq-32"
       ],
       "explanation": "本句的「market contestability」指「市場可競爭性」。",
       "sentenceIndex": 113,
@@ -4605,12 +4203,10 @@ export default {
         "market contestability"
       ],
       "optionReasons": {
-        "contest-mcq-50": "本句指「市場可競爭性」。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。"
+        "contest-mcq-50": "本句的「market contestability」指「市場可競爭性」。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-50"
     },
@@ -4622,11 +4218,9 @@ export default {
       "masked": "____ is different from simply counting the number of firms.",
       "options": [
         "contest-mcq-50",
-        "contest-mcq-49",
-        "contest-mcq-51",
-        "contest-mcq-48",
-        "contest-mcq-52",
-        "contest-mcq-47"
+        "contest-mcq-12",
+        "contest-mcq-22",
+        "contest-mcq-53"
       ],
       "explanation": "本句的「Contestability」指「市場可競爭性」。",
       "sentenceIndex": 114,
@@ -4635,12 +4229,10 @@ export default {
         "Contestability"
       ],
       "optionReasons": {
-        "contest-mcq-50": "本句指「市場可競爭性」。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-47": "「無爭議離婚」與本句語境不同。"
+        "contest-mcq-50": "本句的「Contestability」指「市場可競爭性」。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-50"
     },
@@ -4652,11 +4244,9 @@ export default {
       "masked": "The evidence provides ____.",
       "options": [
         "contest-pdf-004",
-        "contest-mcq-50",
-        "contest-mcq-52",
-        "contest-mcq-49",
-        "contest-mcq-53",
-        "contest-mcq-48"
+        "contest-mcq-27",
+        "contest-mcq-01",
+        "contest-mcq-20"
       ],
       "explanation": "本句的「incontestable proof」指「證據或事實十分明確，幾乎沒有合理爭議空間的」。",
       "sentenceIndex": 115,
@@ -4665,12 +4255,10 @@ export default {
         "incontestable proof"
       ],
       "optionReasons": {
-        "contest-pdf-004": "本句指「證據或事實十分明確，幾乎沒有合理爭議空間的」。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。"
+        "contest-pdf-004": "本句的「incontestable proof」指「證據或事實十分明確，幾乎沒有合理爭議空間的」。",
+        "contest-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-004"
     },
@@ -4682,11 +4270,9 @@ export default {
       "masked": "It is an ____ that the deadline was missed.",
       "options": [
         "contest-mcq-51",
-        "contest-mcq-50",
-        "contest-mcq-52",
-        "contest-mcq-49",
-        "contest-mcq-53",
-        "contest-mcq-48"
+        "contest-mcq-17",
+        "contest-mcq-03",
+        "contest-mcq-28"
       ],
       "explanation": "本句的「incontestable fact」指「無可爭辯的」。",
       "sentenceIndex": 116,
@@ -4695,12 +4281,10 @@ export default {
         "incontestable fact"
       ],
       "optionReasons": {
-        "contest-mcq-51": "本句指「無可爭辯的」。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-48": "「可爭議／可競爭的」與本句語境不同。"
+        "contest-mcq-51": "本句的「incontestable fact」指「無可爭辯的」。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-51"
     },
@@ -4712,11 +4296,9 @@ export default {
       "masked": "Twenty ____ entered the competition.",
       "options": [
         "contest-pdf-005",
-        "contest-mcq-51",
-        "contest-mcq-53",
-        "contest-mcq-50",
-        "contest-mcq-54",
-        "contest-mcq-49"
+        "contest-mcq-40",
+        "contest-mcq-17",
+        "contest-reviewed-516b6f0068"
       ],
       "explanation": "本句的「contestants」指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
       "sentenceIndex": 117,
@@ -4725,12 +4307,10 @@ export default {
         "contestants"
       ],
       "optionReasons": {
-        "contest-pdf-005": "本句指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。"
+        "contest-pdf-005": "本句的「contestants」指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
+        "contest-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-005"
     },
@@ -4742,11 +4322,9 @@ export default {
       "masked": "Each ____ had five minutes to perform.",
       "options": [
         "contest-pdf-005",
-        "contest-mcq-51",
-        "contest-mcq-53",
-        "contest-mcq-50",
-        "contest-mcq-54",
-        "contest-mcq-49"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-41",
+        "contest-mcq-47"
       ],
       "explanation": "本句的「contestant」指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
       "sentenceIndex": 118,
@@ -4755,12 +4333,10 @@ export default {
         "contestant"
       ],
       "optionReasons": {
-        "contest-pdf-005": "本句指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-49": "「可競爭市場」與本句語境不同。"
+        "contest-pdf-005": "本句的「contestant」指「參加比賽、競賽或遊戲節目並希望勝出的人」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-005"
     },
@@ -4772,11 +4348,9 @@ export default {
       "masked": "The ____ answered all ten questions correctly.",
       "options": [
         "contest-mcq-53",
-        "contest-mcq-52",
-        "contest-mcq-54",
-        "contest-mcq-51",
-        "contest-mcq-55",
-        "contest-mcq-50"
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-15",
+        "contest-pdf-002"
       ],
       "explanation": "本句的「contestant」指「遊戲節目參賽者」。",
       "sentenceIndex": 119,
@@ -4785,12 +4359,10 @@ export default {
         "contestant"
       ],
       "optionReasons": {
-        "contest-mcq-53": "本句指「遊戲節目參賽者」。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-mcq-53": "本句的「contestant」指「遊戲節目參賽者」。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-53"
     },
@@ -4802,11 +4374,9 @@ export default {
       "masked": "____ compete for a cash prize.",
       "options": [
         "contest-mcq-53",
-        "contest-mcq-52",
-        "contest-mcq-54",
-        "contest-mcq-51",
-        "contest-mcq-55",
-        "contest-mcq-50"
+        "contest-mcq-21",
+        "contest-mcq-22",
+        "contest-mcq-33"
       ],
       "explanation": "本句的「Contestants」指「遊戲節目參賽者」。",
       "sentenceIndex": 120,
@@ -4815,12 +4385,10 @@ export default {
         "Contestants"
       ],
       "optionReasons": {
-        "contest-mcq-53": "本句指「遊戲節目參賽者」。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-mcq-53": "本句的「Contestants」指「遊戲節目參賽者」。",
+        "contest-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-53"
     },
@@ -4832,11 +4400,9 @@ export default {
       "masked": "The ____ appeared on stage.",
       "options": [
         "contest-mcq-53",
-        "contest-mcq-52",
-        "contest-mcq-54",
-        "contest-mcq-51",
-        "contest-mcq-55",
-        "contest-mcq-50"
+        "contest-reviewed-516b6f0068",
+        "contest-mcq-32",
+        "contest-mcq-18"
       ],
       "explanation": "本句的「contestants」指「遊戲節目參賽者」。",
       "sentenceIndex": 121,
@@ -4845,12 +4411,10 @@ export default {
         "contestants"
       ],
       "optionReasons": {
-        "contest-mcq-53": "本句指「遊戲節目參賽者」。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-mcq-53": "本句的「contestants」指「遊戲節目參賽者」。",
+        "contest-reviewed-516b6f0068": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-53"
     },
@@ -4862,11 +4426,9 @@ export default {
       "masked": "Each ____ represented a different region.",
       "options": [
         "contest-mcq-53",
-        "contest-mcq-52",
-        "contest-mcq-54",
-        "contest-mcq-51",
-        "contest-mcq-55",
-        "contest-mcq-50"
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-30",
+        "contest-mcq-13"
       ],
       "explanation": "本句的「contestant」指「遊戲節目參賽者」。",
       "sentenceIndex": 122,
@@ -4875,12 +4437,10 @@ export default {
         "contestant"
       ],
       "optionReasons": {
-        "contest-mcq-53": "本句指「遊戲節目參賽者」。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-mcq-53": "本句的「contestant」指「遊戲節目參賽者」。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-53"
     },
@@ -4892,11 +4452,9 @@ export default {
       "masked": "The policy became a site of political and social ____.",
       "options": [
         "contest-pdf-006",
-        "contest-mcq-53",
-        "contest-mcq-55",
-        "contest-mcq-52",
-        "contest-mcq-51",
-        "contest-mcq-50"
+        "contest-mcq-22",
+        "contest-mcq-12",
+        "contest-mcq-02"
       ],
       "explanation": "本句的「contestation」指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
       "sentenceIndex": 123,
@@ -4905,12 +4463,10 @@ export default {
         "contestation"
       ],
       "optionReasons": {
-        "contest-pdf-006": "本句指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-pdf-006": "本句的「contestation」指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-006"
     },
@@ -4922,11 +4478,9 @@ export default {
       "masked": "The meaning of the concept is open to ____.",
       "options": [
         "contest-pdf-006",
-        "contest-mcq-53",
-        "contest-mcq-55",
-        "contest-mcq-52",
-        "contest-mcq-51",
-        "contest-mcq-50"
+        "contest-mcq-05",
+        "contest-mcq-22",
+        "contest-mcq-17"
       ],
       "explanation": "本句的「contestation」指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
       "sentenceIndex": 124,
@@ -4935,12 +4489,10 @@ export default {
         "contestation"
       ],
       "optionReasons": {
-        "contest-pdf-006": "本句指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-55": "「不爭辯抗辯」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-pdf-006": "本句的「contestation」指「對權利、解釋、權力或主張持續進行爭議或挑戰的過程」。",
+        "contest-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-pdf-006"
     },
@@ -4952,11 +4504,9 @@ export default {
       "masked": "The defendant entered a ____.",
       "options": [
         "contest-mcq-55",
-        "contest-mcq-54",
-        "contest-mcq-53",
-        "contest-mcq-52",
-        "contest-mcq-51",
-        "contest-mcq-50"
+        "contest-mcq-06",
+        "contest-reviewed-e3987ec10f",
+        "contest-mcq-34"
       ],
       "explanation": "本句的「no-contest plea」指「不爭辯抗辯」。",
       "sentenceIndex": 125,
@@ -4965,12 +4515,10 @@ export default {
         "no-contest plea"
       ],
       "optionReasons": {
-        "contest-mcq-55": "本句指「不爭辯抗辯」。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-mcq-55": "本句的「no-contest plea」指「不爭辯抗辯」。",
+        "contest-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "contest-reviewed-e3987ec10f": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-55"
     },
@@ -4982,11 +4530,9 @@ export default {
       "masked": "No ____” has a specific legal meaning in some jurisdictions.",
       "options": [
         "contest-mcq-55",
-        "contest-mcq-54",
-        "contest-mcq-53",
-        "contest-mcq-52",
-        "contest-mcq-51",
-        "contest-mcq-50"
+        "contest-mcq-03",
+        "contest-pdf-003",
+        "contest-mcq-16"
       ],
       "explanation": "本句的「contest」指「不爭辯抗辯」。",
       "sentenceIndex": 126,
@@ -4995,12 +4541,10 @@ export default {
         "contest"
       ],
       "optionReasons": {
-        "contest-mcq-55": "本句指「不爭辯抗辯」。",
-        "contest-mcq-54": "「爭議；挑戰；角力」與本句語境不同。",
-        "contest-mcq-53": "「遊戲節目參賽者」與本句語境不同。",
-        "contest-mcq-52": "「參賽者」與本句語境不同。",
-        "contest-mcq-51": "「無可爭辯的」與本句語境不同。",
-        "contest-mcq-50": "「市場可競爭性」與本句語境不同。"
+        "contest-mcq-55": "本句的「contest」指「不爭辯抗辯」。",
+        "contest-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "contest-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "contest-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contest-mcq-55"
     }
@@ -5012,5 +4556,7 @@ export default {
     "sha256": "7f09f94394a707e37057fdcd2de44d87e06d11864ecf7b69970622612aea7b09",
     "pages": 47
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -218,11 +218,8 @@ export default {
       "masked": "The mirror ____ the light from the window.",
       "options": [
         "reflect-mcq-01",
-        "reflect-mcq-02",
-        "reflect-mcq-03",
-        "reflect-mcq-04",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-08",
+        "reflect-mcq-02"
       ],
       "explanation": "本句的「reflected」指「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」。",
       "sentenceIndex": 0,
@@ -231,12 +228,9 @@ export default {
         "reflected"
       ],
       "optionReasons": {
-        "reflect-mcq-01": "本句指「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-01": "本句的「reflected」指「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-01"
     },
@@ -249,10 +243,7 @@ export default {
       "options": [
         "reflect-mcq-01",
         "reflect-mcq-02",
-        "reflect-mcq-03",
-        "reflect-mcq-04",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-08"
       ],
       "explanation": "本句的「reflected」指「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」。",
       "sentenceIndex": 1,
@@ -261,12 +252,9 @@ export default {
         "reflected"
       ],
       "optionReasons": {
-        "reflect-mcq-01": "本句指「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-01": "本句的「reflected」指「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-01"
     },
@@ -278,11 +266,8 @@ export default {
       "masked": "The results ____ the students’ hard work.",
       "options": [
         "reflect-mcq-02",
-        "reflect-mcq-01",
-        "reflect-mcq-03",
-        "reflect-mcq-04",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-06",
+        "reflect-mcq-09"
       ],
       "explanation": "本句的「reflect」指「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」。",
       "sentenceIndex": 2,
@@ -291,12 +276,9 @@ export default {
         "reflect"
       ],
       "optionReasons": {
-        "reflect-mcq-02": "本句指「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-02": "本句的「reflect」指「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」。",
+        "reflect-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-02"
     },
@@ -308,11 +290,8 @@ export default {
       "masked": "Her choice of words ____ her personality.",
       "options": [
         "reflect-mcq-02",
-        "reflect-mcq-01",
-        "reflect-mcq-03",
-        "reflect-mcq-04",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-06",
+        "reflect-mcq-05"
       ],
       "explanation": "本句的「reflects」指「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」。",
       "sentenceIndex": 3,
@@ -321,12 +300,9 @@ export default {
         "reflects"
       ],
       "optionReasons": {
-        "reflect-mcq-02": "本句指「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-02": "本句的「reflects」指「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」。",
+        "reflect-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-02"
     },
@@ -338,11 +314,8 @@ export default {
       "masked": "Every conversation leaves me with something to ____.",
       "options": [
         "reflect-mcq-03",
-        "reflect-mcq-02",
-        "reflect-mcq-04",
-        "reflect-mcq-01",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-07",
+        "reflect-mcq-01"
       ],
       "explanation": "本句的「reflect on」指「對某件事情進行深入、審慎而有意識的思考或反省」。",
       "sentenceIndex": 4,
@@ -351,12 +324,9 @@ export default {
         "reflect on"
       ],
       "optionReasons": {
-        "reflect-mcq-03": "本句指「對某件事情進行深入、審慎而有意識的思考或反省」。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-03": "本句的「reflect on」指「對某件事情進行深入、審慎而有意識的思考或反省」。",
+        "reflect-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-03"
     },
@@ -368,11 +338,8 @@ export default {
       "masked": "She took some time to ____ what had happened.",
       "options": [
         "reflect-mcq-03",
-        "reflect-mcq-02",
-        "reflect-mcq-04",
-        "reflect-mcq-01",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-07",
+        "reflect-mcq-01"
       ],
       "explanation": "本句的「reflect on」指「對某件事情進行深入、審慎而有意識的思考或反省」。",
       "sentenceIndex": 5,
@@ -381,12 +348,9 @@ export default {
         "reflect on"
       ],
       "optionReasons": {
-        "reflect-mcq-03": "本句指「對某件事情進行深入、審慎而有意識的思考或反省」。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-03": "本句的「reflect on」指「對某件事情進行深入、審慎而有意識的思考或反省」。",
+        "reflect-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-03"
     },
@@ -398,11 +362,8 @@ export default {
       "masked": "We should ____ what we learned from the experience.",
       "options": [
         "reflect-mcq-03",
-        "reflect-mcq-02",
-        "reflect-mcq-04",
-        "reflect-mcq-01",
-        "reflect-mcq-05",
-        "reflect-mcq-06"
+        "reflect-mcq-07",
+        "reflect-mcq-01"
       ],
       "explanation": "本句的「reflect on」指「對某件事情進行深入、審慎而有意識的思考或反省」。",
       "sentenceIndex": 6,
@@ -411,12 +372,9 @@ export default {
         "reflect on"
       ],
       "optionReasons": {
-        "reflect-mcq-03": "本句指「對某件事情進行深入、審慎而有意識的思考或反省」。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。"
+        "reflect-mcq-03": "本句的「reflect on」指「對某件事情進行深入、審慎而有意識的思考或反省」。",
+        "reflect-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-03"
     },
@@ -428,11 +386,8 @@ export default {
       "masked": "His behaviour ____ the whole team.",
       "options": [
         "reflect-mcq-04",
-        "reflect-mcq-03",
-        "reflect-mcq-05",
-        "reflect-mcq-02",
-        "reflect-mcq-06",
-        "reflect-mcq-01"
+        "reflect-mcq-08",
+        "reflect-mcq-09"
       ],
       "explanation": "本句的「reflects badly on」指「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」。",
       "sentenceIndex": 7,
@@ -441,12 +396,9 @@ export default {
         "reflects badly on"
       ],
       "optionReasons": {
-        "reflect-mcq-04": "本句指「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。"
+        "reflect-mcq-04": "本句的「reflects badly on」指「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-04"
     },
@@ -458,11 +410,8 @@ export default {
       "masked": "The successful event ____ the organizers.",
       "options": [
         "reflect-mcq-04",
-        "reflect-mcq-03",
-        "reflect-mcq-05",
-        "reflect-mcq-02",
-        "reflect-mcq-06",
-        "reflect-mcq-01"
+        "reflect-mcq-08",
+        "reflect-mcq-09"
       ],
       "explanation": "本句的「reflected well on」指「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」。",
       "sentenceIndex": 8,
@@ -471,12 +420,9 @@ export default {
         "reflected well on"
       ],
       "optionReasons": {
-        "reflect-mcq-04": "本句指「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-01": "「表面把光、熱、聲音或影像返回，而不是完全吸收；反射／倒映」與本句語境不同。"
+        "reflect-mcq-04": "本句的「reflected well on」指「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-04"
     },
@@ -488,11 +434,8 @@ export default {
       "masked": "She looked at her ____ in the mirror.",
       "options": [
         "reflect-mcq-05",
-        "reflect-mcq-04",
-        "reflect-mcq-06",
-        "reflect-mcq-03",
-        "reflect-mcq-07",
-        "reflect-mcq-02"
+        "reflect-mcq-02",
+        "reflect-mcq-08"
       ],
       "explanation": "本句的「reflection」指「光線被反射後形成的倒影或映像」。",
       "sentenceIndex": 11,
@@ -501,12 +444,9 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflect-mcq-05": "本句指「光線被反射後形成的倒影或映像」。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。"
+        "reflect-mcq-05": "本句的「reflection」指「光線被反射後形成的倒影或映像」。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-05"
     },
@@ -518,11 +458,8 @@ export default {
       "masked": "The lights created beautiful ____ on the water.",
       "options": [
         "reflect-mcq-05",
-        "reflect-mcq-04",
-        "reflect-mcq-06",
-        "reflect-mcq-03",
-        "reflect-mcq-07",
-        "reflect-mcq-02"
+        "reflect-mcq-02",
+        "reflect-mcq-08"
       ],
       "explanation": "本句的「reflections」指「光線被反射後形成的倒影或映像」。",
       "sentenceIndex": 12,
@@ -531,12 +468,9 @@ export default {
         "reflections"
       ],
       "optionReasons": {
-        "reflect-mcq-05": "本句指「光線被反射後形成的倒影或映像」。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-02": "「顯示、呈現或體現某個人的特質、某件事的狀況或某種現象」與本句語境不同。"
+        "reflect-mcq-05": "本句的「reflections」指「光線被反射後形成的倒影或映像」。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-05"
     },
@@ -548,11 +482,8 @@ export default {
       "masked": "After some ____, he changed his mind.",
       "options": [
         "reflect-mcq-06",
-        "reflect-mcq-05",
         "reflect-mcq-07",
-        "reflect-mcq-04",
-        "reflect-mcq-08",
-        "reflect-mcq-03"
+        "reflect-mcq-01"
       ],
       "explanation": "本句的「reflection」指「對經歷、問題或想法所作的深入思考或反省」。",
       "sentenceIndex": 13,
@@ -561,12 +492,9 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflect-mcq-06": "本句指「對經歷、問題或想法所作的深入思考或反省」。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-08": "「經常深入思考自己的經歷、想法或行為的」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。"
+        "reflect-mcq-06": "本句的「reflection」指「對經歷、問題或想法所作的深入思考或反省」。",
+        "reflect-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-06"
     },
@@ -578,11 +506,8 @@ export default {
       "masked": "The essay is a personal ____ on childhood.",
       "options": [
         "reflect-mcq-06",
-        "reflect-mcq-05",
-        "reflect-mcq-07",
-        "reflect-mcq-04",
-        "reflect-mcq-08",
-        "reflect-mcq-03"
+        "reflect-mcq-02",
+        "reflect-mcq-09"
       ],
       "explanation": "本句的「reflection」指「對經歷、問題或想法所作的深入思考或反省」。",
       "sentenceIndex": 14,
@@ -591,12 +516,9 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflect-mcq-06": "本句指「對經歷、問題或想法所作的深入思考或反省」。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。",
-        "reflect-mcq-08": "「經常深入思考自己的經歷、想法或行為的」與本句語境不同。",
-        "reflect-mcq-03": "「對某件事情進行深入、審慎而有意識的思考或反省」與本句語境不同。"
+        "reflect-mcq-06": "本句的「reflection」指「對經歷、問題或想法所作的深入思考或反省」。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-06"
     },
@@ -608,11 +530,8 @@ export default {
       "masked": "The building is a ____ of the city’s changing identity.",
       "options": [
         "reflect-mcq-07",
-        "reflect-mcq-06",
-        "reflect-mcq-08",
         "reflect-mcq-05",
-        "reflect-mcq-09",
-        "reflect-mcq-04"
+        "reflect-mcq-08"
       ],
       "explanation": "本句的「reflection」指「能顯示或體現某種狀況、特質或現象的事物」。",
       "sentenceIndex": 15,
@@ -621,12 +540,9 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflect-mcq-07": "本句指「能顯示或體現某種狀況、特質或現象的事物」。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-08": "「經常深入思考自己的經歷、想法或行為的」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-09": "「能把光線反射回去的；反光的」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。"
+        "reflect-mcq-07": "本句的「reflection」指「能顯示或體現某種狀況、特質或現象的事物」。",
+        "reflect-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-07"
     },
@@ -638,11 +554,8 @@ export default {
       "masked": "The figures are a clear ____ of current demand.",
       "options": [
         "reflect-mcq-07",
-        "reflect-mcq-06",
-        "reflect-mcq-08",
-        "reflect-mcq-05",
-        "reflect-mcq-09",
-        "reflect-mcq-04"
+        "reflect-mcq-01",
+        "reflect-mcq-08"
       ],
       "explanation": "本句的「reflection」指「能顯示或體現某種狀況、特質或現象的事物」。",
       "sentenceIndex": 16,
@@ -651,12 +564,9 @@ export default {
         "reflection"
       ],
       "optionReasons": {
-        "reflect-mcq-07": "本句指「能顯示或體現某種狀況、特質或現象的事物」。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-08": "「經常深入思考自己的經歷、想法或行為的」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-09": "「能把光線反射回去的；反光的」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。"
+        "reflect-mcq-07": "本句的「reflection」指「能顯示或體現某種狀況、特質或現象的事物」。",
+        "reflect-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-07"
     },
@@ -668,11 +578,8 @@ export default {
       "masked": "He became quiet and ____ after the conversation.",
       "options": [
         "reflect-mcq-08",
-        "reflect-mcq-07",
-        "reflect-mcq-09",
-        "reflect-mcq-06",
-        "reflect-mcq-05",
-        "reflect-mcq-04"
+        "reflect-mcq-02",
+        "reflect-mcq-01"
       ],
       "explanation": "本句的「reflective」指「經常深入思考自己的經歷、想法或行為的」。",
       "sentenceIndex": 17,
@@ -681,12 +588,9 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflect-mcq-08": "本句指「經常深入思考自己的經歷、想法或行為的」。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-09": "「能把光線反射回去的；反光的」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。"
+        "reflect-mcq-08": "本句的「reflective」指「經常深入思考自己的經歷、想法或行為的」。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-08"
     },
@@ -699,10 +603,7 @@ export default {
       "options": [
         "reflect-mcq-08",
         "reflect-mcq-07",
-        "reflect-mcq-09",
-        "reflect-mcq-06",
-        "reflect-mcq-05",
-        "reflect-mcq-04"
+        "reflect-mcq-09"
       ],
       "explanation": "本句的「reflective」指「經常深入思考自己的經歷、想法或行為的」。",
       "sentenceIndex": 18,
@@ -711,12 +612,9 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflect-mcq-08": "本句指「經常深入思考自己的經歷、想法或行為的」。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-09": "「能把光線反射回去的；反光的」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。"
+        "reflect-mcq-08": "本句的「reflective」指「經常深入思考自己的經歷、想法或行為的」。",
+        "reflect-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-08"
     },
@@ -728,11 +626,8 @@ export default {
       "masked": "Cyclists should wear ____ clothing at night.",
       "options": [
         "reflect-mcq-09",
-        "reflect-mcq-08",
-        "reflect-mcq-07",
-        "reflect-mcq-06",
-        "reflect-mcq-05",
-        "reflect-mcq-04"
+        "reflect-mcq-02",
+        "reflect-mcq-08"
       ],
       "explanation": "本句的「reflective」指「能把光線反射回去的；反光的」。",
       "sentenceIndex": 19,
@@ -741,12 +636,9 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflect-mcq-09": "本句指「能把光線反射回去的；反光的」。",
-        "reflect-mcq-08": "「經常深入思考自己的經歷、想法或行為的」與本句語境不同。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。"
+        "reflect-mcq-09": "本句的「reflective」指「能把光線反射回去的；反光的」。",
+        "reflect-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-09"
     },
@@ -759,10 +651,7 @@ export default {
       "options": [
         "reflect-mcq-09",
         "reflect-mcq-08",
-        "reflect-mcq-07",
-        "reflect-mcq-06",
-        "reflect-mcq-05",
-        "reflect-mcq-04"
+        "reflect-mcq-07"
       ],
       "explanation": "本句的「reflective」指「能把光線反射回去的；反光的」。",
       "sentenceIndex": 20,
@@ -771,12 +660,9 @@ export default {
         "reflective"
       ],
       "optionReasons": {
-        "reflect-mcq-09": "本句指「能把光線反射回去的；反光的」。",
-        "reflect-mcq-08": "「經常深入思考自己的經歷、想法或行為的」與本句語境不同。",
-        "reflect-mcq-07": "「能顯示或體現某種狀況、特質或現象的事物」與本句語境不同。",
-        "reflect-mcq-06": "「對經歷、問題或想法所作的深入思考或反省」與本句語境不同。",
-        "reflect-mcq-05": "「光線被反射後形成的倒影或映像」與本句語境不同。",
-        "reflect-mcq-04": "「某件事情令別人對某人或某機構形成較好或較差的印象；屬於「顯示／反映」義」與本句語境不同。"
+        "reflect-mcq-09": "本句的「reflective」指「能把光線反射回去的；反光的」。",
+        "reflect-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reflect-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reflect-mcq-09"
     }
@@ -788,5 +674,7 @@ export default {
     "sha256": "bff5215563343d7066b323f96b544a327ba101c3629da1d59f45f76f0ff7b4dd",
     "pages": 11
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

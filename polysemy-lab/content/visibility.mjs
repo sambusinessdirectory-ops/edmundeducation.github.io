@@ -293,11 +293,9 @@ export default {
       "masked": "Heavy rain reduced ____.",
       "options": [
         "visibility-mcq-01",
-        "visibility-mcq-02",
-        "visibility-mcq-03",
-        "visibility-mcq-04",
-        "visibility-mcq-05",
-        "visibility-mcq-06"
+        "visibility-mcq-09",
+        "visibility-mcq-13",
+        "visibility-mcq-07"
       ],
       "explanation": "本句的「visibility」指「在某種環境下能看清楚物件／距離的程度」。",
       "sentenceIndex": 0,
@@ -306,12 +304,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-01": "本句指「在某種環境下能看清楚物件／距離的程度」。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-01": "本句的「visibility」指「在某種環境下能看清楚物件／距離的程度」。",
+        "visibility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-01"
     },
@@ -323,11 +319,9 @@ export default {
       "masked": "____ was poor on the road.",
       "options": [
         "visibility-mcq-01",
-        "visibility-mcq-02",
-        "visibility-mcq-03",
-        "visibility-mcq-04",
-        "visibility-mcq-05",
-        "visibility-mcq-06"
+        "visibility-mcq-09",
+        "visibility-mcq-07",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「Visibility」指「在某種環境下能看清楚物件／距離的程度」。",
       "sentenceIndex": 1,
@@ -336,12 +330,10 @@ export default {
         "Visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-01": "本句指「在某種環境下能看清楚物件／距離的程度」。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-01": "本句的「Visibility」指「在某種環境下能看清楚物件／距離的程度」。",
+        "visibility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-01"
     },
@@ -353,11 +345,9 @@ export default {
       "masked": "Bright clothing improves ____ at night.",
       "options": [
         "visibility-mcq-02",
-        "visibility-mcq-01",
-        "visibility-mcq-03",
-        "visibility-mcq-04",
-        "visibility-mcq-05",
-        "visibility-mcq-06"
+        "visibility-mcq-08",
+        "visibility-mcq-06",
+        "visibility-mcq-12"
       ],
       "explanation": "本句的「visibility」指「某物有多容易被肉眼發現或看見」。",
       "sentenceIndex": 2,
@@ -366,12 +356,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-02": "本句指「某物有多容易被肉眼發現或看見」。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-02": "本句的「visibility」指「某物有多容易被肉眼發現或看見」。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-02"
     },
@@ -383,11 +371,9 @@ export default {
       "masked": "The sign was moved to improve its ____.",
       "options": [
         "visibility-mcq-02",
-        "visibility-mcq-01",
-        "visibility-mcq-03",
-        "visibility-mcq-04",
-        "visibility-mcq-05",
-        "visibility-mcq-06"
+        "visibility-mcq-12",
+        "visibility-mcq-06",
+        "visibility-mcq-08"
       ],
       "explanation": "本句的「visibility」指「某物有多容易被肉眼發現或看見」。",
       "sentenceIndex": 3,
@@ -396,12 +382,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-02": "本句指「某物有多容易被肉眼發現或看見」。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-02": "本句的「visibility」指「某物有多容易被肉眼發現或看見」。",
+        "visibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-02"
     },
@@ -413,11 +397,7 @@ export default {
       "masked": "Online popularity brings greater ____.",
       "options": [
         "visibility-mcq-03",
-        "visibility-mcq-02",
-        "visibility-mcq-04",
-        "visibility-mcq-01",
-        "visibility-mcq-05",
-        "visibility-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「visibility」指「某人／某事在公眾面前被看見、注意和認識的程度」。",
       "sentenceIndex": 4,
@@ -426,12 +406,8 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-03": "本句指「某人／某事在公眾面前被看見、注意和認識的程度」。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-03": "本句的「visibility」指「某人／某事在公眾面前被看見、注意和認識的程度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-03"
     },
@@ -443,11 +419,7 @@ export default {
       "masked": "The interview gave her much greater public ____.",
       "options": [
         "visibility-mcq-03",
-        "visibility-mcq-02",
-        "visibility-mcq-04",
-        "visibility-mcq-01",
-        "visibility-mcq-05",
-        "visibility-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「visibility」指「某人／某事在公眾面前被看見、注意和認識的程度」。",
       "sentenceIndex": 5,
@@ -456,12 +428,8 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-03": "本句指「某人／某事在公眾面前被看見、注意和認識的程度」。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-03": "本句的「visibility」指「某人／某事在公眾面前被看見、注意和認識的程度」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-03"
     },
@@ -473,11 +441,9 @@ export default {
       "masked": "The campaign increased the issue’s ____.",
       "options": [
         "visibility-pdf-001",
-        "visibility-mcq-03",
-        "visibility-mcq-05",
         "visibility-mcq-02",
-        "visibility-mcq-06",
-        "visibility-mcq-01"
+        "visibility-mcq-08",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「visibility」指「某個人、議題或群體在媒體／社會中被注意的程度」。",
       "sentenceIndex": 6,
@@ -486,12 +452,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-pdf-001": "本句指「某個人、議題或群體在媒體／社會中被注意的程度」。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。"
+        "visibility-pdf-001": "本句的「visibility」指「某個人、議題或群體在媒體／社會中被注意的程度」。",
+        "visibility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-pdf-001"
     },
@@ -503,11 +467,9 @@ export default {
       "masked": "Social media gave the artist greater ____.",
       "options": [
         "visibility-pdf-001",
-        "visibility-mcq-03",
         "visibility-mcq-05",
-        "visibility-mcq-02",
-        "visibility-mcq-06",
-        "visibility-mcq-01"
+        "visibility-mcq-08",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「visibility」指「某個人、議題或群體在媒體／社會中被注意的程度」。",
       "sentenceIndex": 7,
@@ -516,12 +478,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-pdf-001": "本句指「某個人、議題或群體在媒體／社會中被注意的程度」。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。"
+        "visibility-pdf-001": "本句的「visibility」指「某個人、議題或群體在媒體／社會中被注意的程度」。",
+        "visibility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-pdf-001"
     },
@@ -533,11 +493,8 @@ export default {
       "masked": "The company wants to improve its online ____.",
       "options": [
         "visibility-mcq-04",
-        "visibility-mcq-03",
-        "visibility-mcq-05",
-        "visibility-mcq-02",
-        "visibility-mcq-06",
-        "visibility-mcq-01"
+        "visibility-mcq-08",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「visibility」指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
       "sentenceIndex": 8,
@@ -546,12 +503,9 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-04": "本句指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。"
+        "visibility-mcq-04": "本句的「visibility」指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-04"
     },
@@ -563,11 +517,8 @@ export default {
       "masked": "A central location gives the shop better ____.",
       "options": [
         "visibility-mcq-04",
-        "visibility-mcq-03",
-        "visibility-mcq-05",
-        "visibility-mcq-02",
-        "visibility-mcq-06",
-        "visibility-mcq-01"
+        "visibility-mcq-08",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「visibility」指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
       "sentenceIndex": 9,
@@ -576,12 +527,9 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-04": "本句指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-01": "「在某種環境下能看清楚物件／距離的程度」與本句語境不同。"
+        "visibility-mcq-04": "本句的「visibility」指「品牌、店舖或產品被潛在顧客看到／注意的程度」。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-04"
     },
@@ -593,11 +541,9 @@ export default {
       "masked": "Better keywords can improve search ____.",
       "options": [
         "visibility-mcq-05",
-        "visibility-mcq-04",
-        "visibility-mcq-06",
-        "visibility-mcq-03",
-        "visibility-mcq-07",
-        "visibility-mcq-02"
+        "visibility-pdf-001",
+        "visibility-mcq-13",
+        "visibility-mcq-08"
       ],
       "explanation": "本句的「visibility」指「網上內容在搜尋結果或平台中有多容易被找到／看到」。",
       "sentenceIndex": 10,
@@ -606,12 +552,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-05": "本句指「網上內容在搜尋結果或平台中有多容易被找到／看到」。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。"
+        "visibility-mcq-05": "本句的「visibility」指「網上內容在搜尋結果或平台中有多容易被找到／看到」。",
+        "visibility-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-05"
     },
@@ -623,11 +567,9 @@ export default {
       "masked": "The update reduced the page’s ____ in search results.",
       "options": [
         "visibility-mcq-05",
-        "visibility-mcq-04",
-        "visibility-mcq-06",
-        "visibility-mcq-03",
-        "visibility-mcq-07",
-        "visibility-mcq-02"
+        "visibility-mcq-12",
+        "visibility-mcq-13",
+        "visibility-mcq-01"
       ],
       "explanation": "本句的「visibility」指「網上內容在搜尋結果或平台中有多容易被找到／看到」。",
       "sentenceIndex": 11,
@@ -636,12 +578,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-05": "本句指「網上內容在搜尋結果或平台中有多容易被找到／看到」。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。",
-        "visibility-mcq-02": "「某物有多容易被肉眼發現或看見」與本句語境不同。"
+        "visibility-mcq-05": "本句的「visibility」指「網上內容在搜尋結果或平台中有多容易被找到／看到」。",
+        "visibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-05"
     },
@@ -653,11 +593,9 @@ export default {
       "masked": "Managers need better ____ into project costs.",
       "options": [
         "visibility-mcq-06",
-        "visibility-mcq-05",
-        "visibility-mcq-07",
-        "visibility-mcq-04",
-        "visibility-mcq-08",
-        "visibility-mcq-03"
+        "visibility-mcq-10",
+        "visibility-mcq-11",
+        "visibility-mcq-09"
       ],
       "explanation": "本句的「visibility」指「對系統、流程、數據等內部情況的掌握／可視程度」。",
       "sentenceIndex": 12,
@@ -666,12 +604,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-06": "本句指「對系統、流程、數據等內部情況的掌握／可視程度」。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。"
+        "visibility-mcq-06": "本句的「visibility」指「對系統、流程、數據等內部情況的掌握／可視程度」。",
+        "visibility-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-06"
     },
@@ -683,11 +619,9 @@ export default {
       "masked": "The system gives users real-time ____ into delivery progress.",
       "options": [
         "visibility-mcq-06",
-        "visibility-mcq-05",
         "visibility-mcq-07",
-        "visibility-mcq-04",
-        "visibility-mcq-08",
-        "visibility-mcq-03"
+        "visibility-mcq-09",
+        "visibility-mcq-10"
       ],
       "explanation": "本句的「visibility」指「對系統、流程、數據等內部情況的掌握／可視程度」。",
       "sentenceIndex": 13,
@@ -696,12 +630,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-06": "本句指「對系統、流程、數據等內部情況的掌握／可視程度」。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。",
-        "visibility-mcq-03": "「某人／某事在公眾面前被看見、注意和認識的程度」與本句語境不同。"
+        "visibility-mcq-06": "本句的「visibility」指「對系統、流程、數據等內部情況的掌握／可視程度」。",
+        "visibility-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-06"
     },
@@ -713,11 +645,9 @@ export default {
       "masked": "The mountains were clearly ____.",
       "options": [
         "visibility-mcq-07",
-        "visibility-mcq-06",
         "visibility-mcq-08",
-        "visibility-mcq-05",
-        "visibility-mcq-09",
-        "visibility-mcq-04"
+        "visibility-pdf-001",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「visible」指「可以用眼睛看見的」。",
       "sentenceIndex": 14,
@@ -726,12 +656,10 @@ export default {
         "visible"
       ],
       "optionReasons": {
-        "visibility-mcq-07": "本句指「可以用眼睛看見的」。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-04": "「品牌、店舖或產品被潛在顧客看到／注意的程度」與本句語境不同。"
+        "visibility-mcq-07": "本句的「visible」指「可以用眼睛看見的」。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-07"
     },
@@ -743,11 +671,9 @@ export default {
       "masked": "She showed ____ signs of stress.",
       "options": [
         "visibility-mcq-08",
-        "visibility-mcq-07",
-        "visibility-mcq-09",
-        "visibility-mcq-06",
-        "visibility-mcq-10",
-        "visibility-mcq-05"
+        "visibility-mcq-02",
+        "visibility-mcq-13",
+        "visibility-pdf-001"
       ],
       "explanation": "本句的「visible」指「效果、變化或情緒明顯可察覺的」。",
       "sentenceIndex": 15,
@@ -756,12 +682,10 @@ export default {
         "visible"
       ],
       "optionReasons": {
-        "visibility-mcq-08": "本句指「效果、變化或情緒明顯可察覺的」。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。",
-        "visibility-mcq-10": "「以他人可以明顯看出／察覺的方式」與本句語境不同。",
-        "visibility-mcq-05": "「網上內容在搜尋結果或平台中有多容易被找到／看到」與本句語境不同。"
+        "visibility-mcq-08": "本句的「visible」指「效果、變化或情緒明顯可察覺的」。",
+        "visibility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "visibility-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-08"
     },
@@ -773,11 +697,9 @@ export default {
       "masked": "She became a highly ____ figure online.",
       "options": [
         "visibility-mcq-09",
-        "visibility-mcq-08",
         "visibility-mcq-10",
-        "visibility-mcq-07",
-        "visibility-mcq-11",
-        "visibility-mcq-06"
+        "visibility-mcq-13",
+        "visibility-mcq-11"
       ],
       "explanation": "本句的「visible」指「在媒體／社會中容易被注意到的」。",
       "sentenceIndex": 16,
@@ -786,12 +708,10 @@ export default {
         "visible"
       ],
       "optionReasons": {
-        "visibility-mcq-09": "本句指「在媒體／社會中容易被注意到的」。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。",
-        "visibility-mcq-10": "「以他人可以明顯看出／察覺的方式」與本句語境不同。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。",
-        "visibility-mcq-11": "「肉眼不能看見的」與本句語境不同。",
-        "visibility-mcq-06": "「對系統、流程、數據等內部情況的掌握／可視程度」與本句語境不同。"
+        "visibility-mcq-09": "本句的「visible」指「在媒體／社會中容易被注意到的」。",
+        "visibility-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-09"
     },
@@ -803,11 +723,9 @@ export default {
       "masked": "She was ____ nervous.",
       "options": [
         "visibility-mcq-10",
-        "visibility-mcq-09",
-        "visibility-mcq-11",
-        "visibility-mcq-08",
         "visibility-mcq-12",
-        "visibility-mcq-07"
+        "visibility-mcq-06",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「visibly」指「以他人可以明顯看出／察覺的方式」。",
       "sentenceIndex": 17,
@@ -816,12 +734,10 @@ export default {
         "visibly"
       ],
       "optionReasons": {
-        "visibility-mcq-10": "本句指「以他人可以明顯看出／察覺的方式」。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-11": "「肉眼不能看見的」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。",
-        "visibility-mcq-12": "「雖然存在，但沒有得到注意、承認或重視的」與本句語境不同。",
-        "visibility-mcq-07": "「可以用眼睛看見的」與本句語境不同。"
+        "visibility-mcq-10": "本句的「visibly」指「以他人可以明顯看出／察覺的方式」。",
+        "visibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-10"
     },
@@ -833,11 +749,9 @@ export default {
       "masked": "The gas is ____.",
       "options": [
         "visibility-mcq-11",
-        "visibility-mcq-10",
-        "visibility-mcq-12",
-        "visibility-mcq-09",
-        "visibility-mcq-13",
-        "visibility-mcq-08"
+        "visibility-mcq-06",
+        "visibility-mcq-08",
+        "visibility-mcq-09"
       ],
       "explanation": "本句的「invisible」指「肉眼不能看見的」。",
       "sentenceIndex": 18,
@@ -846,12 +760,10 @@ export default {
         "invisible"
       ],
       "optionReasons": {
-        "visibility-mcq-11": "本句指「肉眼不能看見的」。",
-        "visibility-mcq-10": "「以他人可以明顯看出／察覺的方式」與本句語境不同。",
-        "visibility-mcq-12": "「雖然存在，但沒有得到注意、承認或重視的」與本句語境不同。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-13": "「高能見度；或高公眾曝光度」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。"
+        "visibility-mcq-11": "本句的「invisible」指「肉眼不能看見的」。",
+        "visibility-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-11"
     },
@@ -863,11 +775,9 @@ export default {
       "masked": "She felt ____ in the group.",
       "options": [
         "visibility-mcq-12",
-        "visibility-mcq-11",
-        "visibility-mcq-13",
-        "visibility-mcq-10",
-        "visibility-mcq-09",
-        "visibility-mcq-08"
+        "visibility-mcq-01",
+        "visibility-mcq-02",
+        "visibility-mcq-13"
       ],
       "explanation": "本句的「invisible」指「雖然存在，但沒有得到注意、承認或重視的」。",
       "sentenceIndex": 19,
@@ -876,12 +786,10 @@ export default {
         "invisible"
       ],
       "optionReasons": {
-        "visibility-mcq-12": "本句指「雖然存在，但沒有得到注意、承認或重視的」。",
-        "visibility-mcq-11": "「肉眼不能看見的」與本句語境不同。",
-        "visibility-mcq-13": "「高能見度；或高公眾曝光度」與本句語境不同。",
-        "visibility-mcq-10": "「以他人可以明顯看出／察覺的方式」與本句語境不同。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。"
+        "visibility-mcq-12": "本句的「invisible」指「雖然存在，但沒有得到注意、承認或重視的」。",
+        "visibility-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-12"
     },
@@ -893,11 +801,9 @@ export default {
       "masked": "Cyclists should wear ____ at night.",
       "options": [
         "visibility-mcq-13",
-        "visibility-mcq-12",
-        "visibility-mcq-11",
         "visibility-mcq-10",
-        "visibility-mcq-09",
-        "visibility-mcq-08"
+        "visibility-mcq-12",
+        "visibility-mcq-05"
       ],
       "explanation": "本句的「high-visibility clothing」指「高能見度；或高公眾曝光度」。",
       "sentenceIndex": 21,
@@ -906,12 +812,10 @@ export default {
         "high-visibility clothing"
       ],
       "optionReasons": {
-        "visibility-mcq-13": "本句指「高能見度；或高公眾曝光度」。",
-        "visibility-mcq-12": "「雖然存在，但沒有得到注意、承認或重視的」與本句語境不同。",
-        "visibility-mcq-11": "「肉眼不能看見的」與本句語境不同。",
-        "visibility-mcq-10": "「以他人可以明顯看出／察覺的方式」與本句語境不同。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。"
+        "visibility-mcq-13": "本句的「high-visibility clothing」指「高能見度；或高公眾曝光度」。",
+        "visibility-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-13"
     },
@@ -923,11 +827,9 @@ export default {
       "masked": "The workers wore high-____ jackets.",
       "options": [
         "visibility-mcq-13",
-        "visibility-mcq-12",
-        "visibility-mcq-11",
-        "visibility-mcq-10",
-        "visibility-mcq-09",
-        "visibility-mcq-08"
+        "visibility-mcq-05",
+        "visibility-mcq-08",
+        "visibility-mcq-12"
       ],
       "explanation": "本句的「visibility」指「高能見度；或高公眾曝光度」。",
       "sentenceIndex": 22,
@@ -936,12 +838,10 @@ export default {
         "visibility"
       ],
       "optionReasons": {
-        "visibility-mcq-13": "本句指「高能見度；或高公眾曝光度」。",
-        "visibility-mcq-12": "「雖然存在，但沒有得到注意、承認或重視的」與本句語境不同。",
-        "visibility-mcq-11": "「肉眼不能看見的」與本句語境不同。",
-        "visibility-mcq-10": "「以他人可以明顯看出／察覺的方式」與本句語境不同。",
-        "visibility-mcq-09": "「在媒體／社會中容易被注意到的」與本句語境不同。",
-        "visibility-mcq-08": "「效果、變化或情緒明顯可察覺的」與本句語境不同。"
+        "visibility-mcq-13": "本句的「visibility」指「高能見度；或高公眾曝光度」。",
+        "visibility-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "visibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "visibility-mcq-13"
     }
@@ -953,5 +853,12 @@ export default {
     "sha256": "b6917401adf33523db668a86b3e68049d21f2061191ed5e97eda5fd403caf1eb",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -305,11 +305,9 @@ export default {
       "masked": "We used to ____ around the housing estate.",
       "options": [
         "ride-mcq-10",
-        "ride-mcq-09",
-        "ride-mcq-11",
-        "ride-mcq-08",
-        "ride-mcq-12",
-        "ride-mcq-07"
+        "ride-mcq-07",
+        "ride-mcq-13",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「ride our bicycles」指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
       "sentenceIndex": 0,
@@ -318,12 +316,10 @@ export default {
         "ride our bicycles"
       ],
       "optionReasons": {
-        "ride-mcq-10": "本句指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。"
+        "ride-mcq-10": "本句的「ride our bicycles」指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-10"
     },
@@ -335,11 +331,9 @@ export default {
       "masked": "She learned to ____ when she was young.",
       "options": [
         "ride-mcq-10",
-        "ride-mcq-09",
-        "ride-mcq-11",
-        "ride-mcq-08",
-        "ride-mcq-12",
-        "ride-mcq-07"
+        "ride-mcq-13",
+        "ride-mcq-07",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「ride a horse」指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
       "sentenceIndex": 1,
@@ -348,12 +342,10 @@ export default {
         "ride a horse"
       ],
       "optionReasons": {
-        "ride-mcq-10": "本句指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。"
+        "ride-mcq-10": "本句的「ride a horse」指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-10"
     },
@@ -365,11 +357,9 @@ export default {
       "masked": "He ____ to work.",
       "options": [
         "ride-mcq-10",
-        "ride-mcq-09",
-        "ride-mcq-11",
-        "ride-mcq-08",
-        "ride-mcq-12",
-        "ride-mcq-07"
+        "ride-mcq-07",
+        "ride-mcq-13",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「rides a motorcycle」指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
       "sentenceIndex": 2,
@@ -378,12 +368,10 @@ export default {
         "rides a motorcycle"
       ],
       "optionReasons": {
-        "ride-mcq-10": "本句指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。"
+        "ride-mcq-10": "本句的「rides a motorcycle」指「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-10"
     },
@@ -395,11 +383,9 @@ export default {
       "masked": "We ____ into the city.",
       "options": [
         "ride-mcq-02",
-        "ride-mcq-01",
-        "ride-mcq-03",
-        "ride-mcq-04",
-        "ride-mcq-05",
-        "ride-mcq-06"
+        "ride-mcq-07",
+        "ride-mcq-12",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「rode the bus」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
       "sentenceIndex": 3,
@@ -408,12 +394,10 @@ export default {
         "rode the bus"
       ],
       "optionReasons": {
-        "ride-mcq-02": "本句指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-02": "本句的「rode the bus」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-02"
     },
@@ -425,11 +409,9 @@ export default {
       "masked": "She ____ to work every morning.",
       "options": [
         "ride-mcq-02",
-        "ride-mcq-01",
-        "ride-mcq-03",
-        "ride-mcq-04",
-        "ride-mcq-05",
-        "ride-mcq-06"
+        "ride-mcq-07",
+        "ride-mcq-12",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「rides the train」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
       "sentenceIndex": 4,
@@ -438,12 +420,10 @@ export default {
         "rides the train"
       ],
       "optionReasons": {
-        "ride-mcq-02": "本句指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-02": "本句的「rides the train」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-02"
     },
@@ -455,11 +435,9 @@ export default {
       "masked": "The bus ____ takes about forty minutes.",
       "options": [
         "ride-mcq-02",
-        "ride-mcq-01",
-        "ride-mcq-03",
-        "ride-mcq-04",
-        "ride-mcq-05",
-        "ride-mcq-06"
+        "ride-mcq-12",
+        "ride-mcq-07",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「ride」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
       "sentenceIndex": 5,
@@ -468,12 +446,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-02": "本句指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-02": "本句的「ride」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-02"
     },
@@ -485,11 +461,9 @@ export default {
       "masked": "We went for a long bike ____ after lunch.",
       "options": [
         "ride-mcq-02",
-        "ride-mcq-01",
-        "ride-mcq-03",
-        "ride-mcq-04",
-        "ride-mcq-05",
-        "ride-mcq-06"
+        "ride-mcq-07",
+        "ride-mcq-12",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「ride」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
       "sentenceIndex": 6,
@@ -498,12 +472,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-02": "本句指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-02": "本句的「ride」指「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-02"
     },
@@ -515,11 +487,9 @@ export default {
       "masked": "Can you give me a ____ to the station?",
       "options": [
         "ride-mcq-03",
-        "ride-mcq-02",
-        "ride-mcq-04",
-        "ride-mcq-01",
-        "ride-mcq-05",
-        "ride-mcq-06"
+        "ride-mcq-12",
+        "ride-mcq-09",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「ride」指「用自己的車載某人一程／乘坐別人的車前往某地」。",
       "sentenceIndex": 7,
@@ -528,12 +498,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-03": "本句指「用自己的車載某人一程／乘坐別人的車前往某地」。",
-        "ride-mcq-02": "「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」是「ride — noun, journey」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-03": "本句的「ride」指「用自己的車載某人一程／乘坐別人的車前往某地」。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-03"
     },
@@ -545,11 +513,9 @@ export default {
       "masked": "I got a ____ home from a colleague.",
       "options": [
         "ride-mcq-03",
-        "ride-mcq-02",
-        "ride-mcq-04",
-        "ride-mcq-01",
-        "ride-mcq-05",
-        "ride-mcq-06"
+        "ride-mcq-12",
+        "ride-mcq-13",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「ride」指「用自己的車載某人一程／乘坐別人的車前往某地」。",
       "sentenceIndex": 8,
@@ -558,12 +524,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-03": "本句指「用自己的車載某人一程／乘坐別人的車前往某地」。",
-        "ride-mcq-02": "「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」是「ride — noun, journey」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-03": "本句的「ride」指「用自己的車載某人一程／乘坐別人的車前往某地」。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-03"
     },
@@ -575,11 +539,9 @@ export default {
       "masked": "That roller coaster is the most popular ____ in the park.",
       "options": [
         "ride-mcq-04",
-        "ride-mcq-03",
+        "ride-mcq-13",
         "ride-mcq-05",
-        "ride-mcq-02",
-        "ride-mcq-06",
-        "ride-mcq-01"
+        "ride-mcq-07"
       ],
       "explanation": "本句的「ride」指「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」。",
       "sentenceIndex": 9,
@@ -588,12 +550,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-04": "本句指「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-02": "「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」是「ride — noun, journey」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。"
+        "ride-mcq-04": "本句的「ride」指「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-04"
     },
@@ -605,11 +565,9 @@ export default {
       "masked": "The children wanted to go on every ____.",
       "options": [
         "ride-mcq-04",
-        "ride-mcq-03",
-        "ride-mcq-05",
-        "ride-mcq-02",
-        "ride-mcq-06",
-        "ride-mcq-01"
+        "ride-mcq-13",
+        "ride-mcq-07",
+        "ride-mcq-05"
       ],
       "explanation": "本句的「ride」指「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」。",
       "sentenceIndex": 10,
@@ -618,12 +576,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-04": "本句指「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-02": "「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」是「ride — noun, journey」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-01": "「坐在單車、電單車、馬匹或交通工具上／內，讓它載着自己移動；視情況譯作騎／乘坐」是「ride — travel on/in animal or vehicle」的用法，與本句語境不同。"
+        "ride-mcq-04": "本句的「ride」指「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-04"
     },
@@ -635,11 +591,9 @@ export default {
       "masked": "The new suspension gives the car a smoother ____.",
       "options": [
         "ride-mcq-05",
-        "ride-mcq-04",
-        "ride-mcq-06",
-        "ride-mcq-03",
         "ride-mcq-07",
-        "ride-mcq-02"
+        "ride-mcq-12",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「ride」指「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」。",
       "sentenceIndex": 11,
@@ -648,12 +602,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-05": "本句指「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-02": "「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」是「ride — noun, journey」的用法，與本句語境不同。"
+        "ride-mcq-05": "本句的「ride」指「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-05"
     },
@@ -665,11 +617,9 @@ export default {
       "masked": "The journey was long, but the ____ was comfortable.",
       "options": [
         "ride-mcq-05",
-        "ride-mcq-04",
-        "ride-mcq-06",
-        "ride-mcq-03",
         "ride-mcq-07",
-        "ride-mcq-02"
+        "ride-mcq-12",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「ride」指「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」。",
       "sentenceIndex": 12,
@@ -678,12 +628,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-05": "本句指「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-02": "「乘坐交通工具、騎單車或騎乘動物所進行的一段旅程」是「ride — noun, journey」的用法，與本句語境不同。"
+        "ride-mcq-05": "本句的「ride」指「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-05"
     },
@@ -695,11 +643,9 @@ export default {
       "masked": "The surfer ____ all the way to the shore.",
       "options": [
         "ride-mcq-06",
+        "ride-mcq-13",
         "ride-mcq-05",
-        "ride-mcq-07",
-        "ride-mcq-04",
-        "ride-mcq-08",
-        "ride-mcq-03"
+        "ride-mcq-07"
       ],
       "explanation": "本句的「rode the wave」指「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」。",
       "sentenceIndex": 13,
@@ -708,12 +654,10 @@ export default {
         "rode the wave"
       ],
       "optionReasons": {
-        "ride-mcq-06": "本句指「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。"
+        "ride-mcq-06": "本句的「rode the wave」指「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-06"
     },
@@ -725,11 +669,9 @@ export default {
       "masked": "The bird ____ the warm air currents above the valley.",
       "options": [
         "ride-mcq-06",
+        "ride-mcq-13",
         "ride-mcq-05",
-        "ride-mcq-07",
-        "ride-mcq-04",
-        "ride-mcq-08",
-        "ride-mcq-03"
+        "ride-mcq-07"
       ],
       "explanation": "本句的「rode」指「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」。",
       "sentenceIndex": 14,
@@ -738,12 +680,10 @@ export default {
         "rode"
       ],
       "optionReasons": {
-        "ride-mcq-06": "本句指「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-03": "「用自己的車載某人一程／乘坐別人的車前往某地」是「give/get a ride」的用法，與本句語境不同。"
+        "ride-mcq-06": "本句的「rode」指「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-06"
     },
@@ -755,11 +695,9 @@ export default {
       "masked": "My coach kept ____ me about my mistakes.",
       "options": [
         "ride-mcq-07",
-        "ride-mcq-06",
-        "ride-mcq-08",
-        "ride-mcq-05",
-        "ride-mcq-09",
-        "ride-mcq-04"
+        "ride-mcq-10",
+        "ride-mcq-11",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「riding」指「不斷批評、催促、騷擾或向某人施加壓力」。",
       "sentenceIndex": 15,
@@ -768,12 +706,10 @@ export default {
         "riding"
       ],
       "optionReasons": {
-        "ride-mcq-07": "本句指「不斷批評、催促、騷擾或向某人施加壓力」。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。"
+        "ride-mcq-07": "本句的「riding」指「不斷批評、催促、騷擾或向某人施加壓力」。",
+        "ride-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-07"
     },
@@ -785,11 +721,9 @@ export default {
       "masked": "Stop ____ him—he already knows what went wrong.",
       "options": [
         "ride-mcq-07",
-        "ride-mcq-06",
-        "ride-mcq-08",
-        "ride-mcq-05",
-        "ride-mcq-09",
-        "ride-mcq-04"
+        "ride-mcq-02",
+        "ride-mcq-13",
+        "ride-mcq-06"
       ],
       "explanation": "本句的「riding」指「不斷批評、催促、騷擾或向某人施加壓力」。",
       "sentenceIndex": 16,
@@ -798,12 +732,10 @@ export default {
         "riding"
       ],
       "optionReasons": {
-        "ride-mcq-07": "本句指「不斷批評、催促、騷擾或向某人施加壓力」。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-04": "「在主題樂園、嘉年華等地方載着乘客移動並提供娛樂刺激的遊樂設施」是「ride — amusement attraction」的用法，與本句語境不同。"
+        "ride-mcq-07": "本句的「riding」指「不斷批評、催促、騷擾或向某人施加壓力」。",
+        "ride-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-07"
     },
@@ -815,11 +747,9 @@ export default {
       "masked": "The bicycle ____ was wearing a helmet.",
       "options": [
         "ride-mcq-08",
+        "ride-mcq-13",
         "ride-mcq-07",
-        "ride-mcq-09",
-        "ride-mcq-06",
-        "ride-mcq-10",
-        "ride-mcq-05"
+        "ride-mcq-12"
       ],
       "explanation": "本句的「rider」指「騎乘單車、電單車、馬匹等的人」。",
       "sentenceIndex": 17,
@@ -828,12 +758,10 @@ export default {
         "rider"
       ],
       "optionReasons": {
-        "ride-mcq-08": "本句指「騎乘單車、電單車、馬匹等的人」。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。"
+        "ride-mcq-08": "本句的「rider」指「騎乘單車、電單車、馬匹等的人」。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-08"
     },
@@ -845,11 +773,9 @@ export default {
       "masked": "She is an experienced horse ____.",
       "options": [
         "ride-mcq-08",
-        "ride-mcq-07",
-        "ride-mcq-09",
-        "ride-mcq-06",
-        "ride-mcq-10",
-        "ride-mcq-05"
+        "ride-mcq-12",
+        "ride-mcq-13",
+        "ride-mcq-07"
       ],
       "explanation": "本句的「rider」指「騎乘單車、電單車、馬匹等的人」。",
       "sentenceIndex": 18,
@@ -858,12 +784,10 @@ export default {
         "rider"
       ],
       "optionReasons": {
-        "ride-mcq-08": "本句指「騎乘單車、電單車、馬匹等的人」。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-05": "「乘坐某輛車時所感受到的平穩度、舒適度或整體行車體驗」是「ride — travelling quality」的用法，與本句語境不同。"
+        "ride-mcq-08": "本句的「rider」指「騎乘單車、電單車、馬匹等的人」。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-08"
     },
@@ -875,11 +799,9 @@ export default {
       "masked": "Rail ____ increased last year.",
       "options": [
         "ride-mcq-09",
-        "ride-mcq-08",
-        "ride-mcq-10",
         "ride-mcq-07",
-        "ride-mcq-11",
-        "ride-mcq-06"
+        "ride-mcq-12",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「ridership」指「某段時間內使用公共交通服務的乘客數量／搭乘人次」。",
       "sentenceIndex": 19,
@@ -888,12 +810,10 @@ export default {
         "ridership"
       ],
       "optionReasons": {
-        "ride-mcq-09": "本句指「某段時間內使用公共交通服務的乘客數量／搭乘人次」。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-09": "本句的「ridership」指「某段時間內使用公共交通服務的乘客數量／搭乘人次」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-09"
     },
@@ -905,11 +825,9 @@ export default {
       "masked": "The new route attracted higher ____.",
       "options": [
         "ride-mcq-09",
-        "ride-mcq-08",
-        "ride-mcq-10",
         "ride-mcq-07",
-        "ride-mcq-11",
-        "ride-mcq-06"
+        "ride-mcq-12",
+        "ride-mcq-08"
       ],
       "explanation": "本句的「ridership」指「某段時間內使用公共交通服務的乘客數量／搭乘人次」。",
       "sentenceIndex": 20,
@@ -918,12 +836,10 @@ export default {
         "ridership"
       ],
       "optionReasons": {
-        "ride-mcq-09": "本句指「某段時間內使用公共交通服務的乘客數量／搭乘人次」。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-07": "「不斷批評、催促、騷擾或向某人施加壓力」是「ride someone — informal」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-06": "「借助正在移動的波浪、氣流等力量並隨其前進；與廣義「乘着移動」概念相關」是「ride a wave/current」的用法，與本句語境不同。"
+        "ride-mcq-09": "本句的「ridership」指「某段時間內使用公共交通服務的乘客數量／搭乘人次」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-09"
     },
@@ -935,11 +851,9 @@ export default {
       "masked": "We went for a ____ along the coast.",
       "options": [
         "ride-mcq-11",
-        "ride-mcq-10",
-        "ride-mcq-12",
-        "ride-mcq-09",
+        "ride-mcq-07",
         "ride-mcq-13",
-        "ride-mcq-08"
+        "ride-mcq-12"
       ],
       "explanation": "本句的「ride」指「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」。",
       "sentenceIndex": 21,
@@ -948,12 +862,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-11": "本句指「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-13": "「某個結果、成功或未來很大程度取決於另一件事情」是「Fixed construction: a lot rides on something — 很大程度取決於……」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。"
+        "ride-mcq-11": "本句的「ride」指「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-11"
     },
@@ -965,11 +877,9 @@ export default {
       "masked": "Do you want to go for a bike ____?",
       "options": [
         "ride-mcq-11",
-        "ride-mcq-10",
+        "ride-mcq-07",
         "ride-mcq-12",
-        "ride-mcq-09",
-        "ride-mcq-13",
-        "ride-mcq-08"
+        "ride-mcq-13"
       ],
       "explanation": "本句的「ride」指「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」。",
       "sentenceIndex": 22,
@@ -978,12 +888,10 @@ export default {
         "ride"
       ],
       "optionReasons": {
-        "ride-mcq-11": "本句指「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-13": "「某個結果、成功或未來很大程度取決於另一件事情」是「Fixed construction: a lot rides on something — 很大程度取決於……」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。"
+        "ride-mcq-11": "本句的「ride」指「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-11"
     },
@@ -995,11 +903,9 @@ export default {
       "masked": "Nobody should expect a ____.",
       "options": [
         "ride-mcq-12",
-        "ride-mcq-11",
-        "ride-mcq-13",
-        "ride-mcq-10",
-        "ride-mcq-09",
-        "ride-mcq-08"
+        "ride-mcq-02",
+        "ride-mcq-07",
+        "ride-mcq-13"
       ],
       "explanation": "本句的「free ride」指「不需要付出相應成本、努力或責任便得到利益」。",
       "sentenceIndex": 23,
@@ -1008,12 +914,10 @@ export default {
         "free ride"
       ],
       "optionReasons": {
-        "ride-mcq-12": "本句指「不需要付出相應成本、努力或責任便得到利益」。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-13": "「某個結果、成功或未來很大程度取決於另一件事情」是「Fixed construction: a lot rides on something — 很大程度取決於……」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。"
+        "ride-mcq-12": "本句的「free ride」指「不需要付出相應成本、努力或責任便得到利益」。",
+        "ride-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-12"
     },
@@ -1025,9 +929,7 @@ export default {
       "masked": "He has worked hard and never asked for a ____.",
       "options": [
         "ride-mcq-12",
-        "ride-mcq-11",
-        "ride-mcq-13",
-        "ride-mcq-10",
+        "ride-mcq-03",
         "ride-mcq-09",
         "ride-mcq-08"
       ],
@@ -1038,12 +940,10 @@ export default {
         "free ride"
       ],
       "optionReasons": {
-        "ride-mcq-12": "本句指「不需要付出相應成本、努力或責任便得到利益」。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-13": "「某個結果、成功或未來很大程度取決於另一件事情」是「Fixed construction: a lot rides on something — 很大程度取決於……」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。"
+        "ride-mcq-12": "本句的「free ride」指「不需要付出相應成本、努力或責任便得到利益」。",
+        "ride-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-12"
     },
@@ -1055,11 +955,9 @@ export default {
       "masked": "A lot ____ the final interview.",
       "options": [
         "ride-mcq-13",
-        "ride-mcq-12",
-        "ride-mcq-11",
-        "ride-mcq-10",
-        "ride-mcq-09",
-        "ride-mcq-08"
+        "ride-mcq-08",
+        "ride-mcq-06",
+        "ride-mcq-07"
       ],
       "explanation": "本句的「rides on」指「某個結果、成功或未來很大程度取決於另一件事情」。",
       "sentenceIndex": 25,
@@ -1068,12 +966,10 @@ export default {
         "rides on"
       ],
       "optionReasons": {
-        "ride-mcq-13": "本句指「某個結果、成功或未來很大程度取決於另一件事情」。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。"
+        "ride-mcq-13": "本句的「rides on」指「某個結果、成功或未來很大程度取決於另一件事情」。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-13"
     },
@@ -1085,10 +981,8 @@ export default {
       "masked": "The future of the project ____ this decision.",
       "options": [
         "ride-mcq-13",
-        "ride-mcq-12",
-        "ride-mcq-11",
-        "ride-mcq-10",
-        "ride-mcq-09",
+        "ride-mcq-04",
+        "ride-mcq-07",
         "ride-mcq-08"
       ],
       "explanation": "本句的「rides on」指「某個結果、成功或未來很大程度取決於另一件事情」。",
@@ -1098,12 +992,10 @@ export default {
         "rides on"
       ],
       "optionReasons": {
-        "ride-mcq-13": "本句指「某個結果、成功或未來很大程度取決於另一件事情」。",
-        "ride-mcq-12": "「不需要付出相應成本、努力或責任便得到利益」是「Fixed expression: free ride — 不勞而獲的好處」的用法，與本句語境不同。",
-        "ride-mcq-11": "「以乘車、騎單車、騎馬等作休閒活動，通常旅程本身就是目的」是「Fixed expression: go for a ride — 去兜風／乘車遊玩」的用法，與本句語境不同。",
-        "ride-mcq-10": "「坐在某種需要乘坐、平衡或操控的交通工具／動物上前進」是「1. ride + bicycle/motorcycle/horse（單車／電單車／馬匹） — 騎；乘騎」的用法，與本句語境不同。",
-        "ride-mcq-09": "「某段時間內使用公共交通服務的乘客數量／搭乘人次」是「ridership」的用法，與本句語境不同。",
-        "ride-mcq-08": "「騎乘單車、電單車、馬匹等的人」是「rider」的用法，與本句語境不同。"
+        "ride-mcq-13": "本句的「rides on」指「某個結果、成功或未來很大程度取決於另一件事情」。",
+        "ride-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ride-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ride-mcq-13"
     }
@@ -1115,5 +1007,7 @@ export default {
     "sha256": "14da81c1092c0a754c6e8e3211b53ba98e2adad7b6c2cc220d7fe39a88ecdf6d",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

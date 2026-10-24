@@ -372,11 +372,9 @@ export default {
       "masked": "She grows several kinds of ____.",
       "options": [
         "pepper-mcq-01",
-        "pepper-mcq-02",
-        "pepper-mcq-03",
-        "pepper-mcq-04",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-mcq-10",
+        "pepper-mcq-12",
+        "pepper-mcq-15"
       ],
       "explanation": "本句的「peppers」指「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」。",
       "sentenceIndex": 0,
@@ -385,12 +383,10 @@ export default {
         "peppers"
       ],
       "optionReasons": {
-        "pepper-mcq-01": "本句指「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-01": "本句的「peppers」指「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-01"
     },
@@ -402,11 +398,9 @@ export default {
       "masked": "Cut the ____ into thin strips.",
       "options": [
         "pepper-mcq-01",
-        "pepper-mcq-02",
-        "pepper-mcq-03",
-        "pepper-mcq-04",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-mcq-11",
+        "pepper-pdf-001",
+        "pepper-mcq-15"
       ],
       "explanation": "本句的「pepper」指「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」。",
       "sentenceIndex": 1,
@@ -415,12 +409,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-01": "本句指「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-01": "本句的「pepper」指「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-01"
     },
@@ -432,11 +424,9 @@ export default {
       "masked": "She grows ____.",
       "options": [
         "pepper-mcq-02",
-        "pepper-mcq-01",
-        "pepper-mcq-03",
-        "pepper-mcq-04",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-mcq-11",
+        "pepper-mcq-10",
+        "pepper-mcq-15"
       ],
       "explanation": "本句的「chilli peppers」指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
       "sentenceIndex": 2,
@@ -445,12 +435,10 @@ export default {
         "chilli peppers"
       ],
       "optionReasons": {
-        "pepper-mcq-02": "本句指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-02": "本句的「chilli peppers」指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-02"
     },
@@ -462,11 +450,9 @@ export default {
       "masked": "These chilli ____ are extremely hot.",
       "options": [
         "pepper-mcq-02",
-        "pepper-mcq-01",
-        "pepper-mcq-03",
-        "pepper-mcq-04",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-mcq-10",
+        "pepper-mcq-12",
+        "pepper-mcq-08"
       ],
       "explanation": "本句的「peppers」指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
       "sentenceIndex": 3,
@@ -475,12 +461,10 @@ export default {
         "peppers"
       ],
       "optionReasons": {
-        "pepper-mcq-02": "本句指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-02": "本句的「peppers」指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-02"
     },
@@ -492,11 +476,9 @@ export default {
       "masked": "Add one chopped chilli ____ to the sauce.",
       "options": [
         "pepper-mcq-02",
-        "pepper-mcq-01",
-        "pepper-mcq-03",
-        "pepper-mcq-04",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-mcq-12",
+        "pepper-mcq-10",
+        "pepper-mcq-08"
       ],
       "explanation": "本句的「pepper」指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
       "sentenceIndex": 4,
@@ -505,12 +487,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-02": "本句指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-02": "本句的「pepper」指「具有明顯辣味、用作食材或調味料的辣椒果實」。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-02"
     },
@@ -522,11 +502,9 @@ export default {
       "masked": "She added red and yellow ____ to the salad.",
       "options": [
         "pepper-mcq-03",
-        "pepper-mcq-02",
-        "pepper-mcq-04",
-        "pepper-mcq-01",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-mcq-12",
+        "pepper-mcq-10",
+        "pepper-mcq-14"
       ],
       "explanation": "本句的「bell peppers」指「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」。",
       "sentenceIndex": 5,
@@ -535,12 +513,10 @@ export default {
         "bell peppers"
       ],
       "optionReasons": {
-        "pepper-mcq-03": "本句指「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-03": "本句的「bell peppers」指「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-03"
     },
@@ -552,11 +528,9 @@ export default {
       "masked": "Bell ____ are usually mild rather than hot.",
       "options": [
         "pepper-mcq-03",
-        "pepper-mcq-02",
-        "pepper-mcq-04",
-        "pepper-mcq-01",
-        "pepper-mcq-05",
-        "pepper-mcq-06"
+        "pepper-pdf-001",
+        "pepper-mcq-12",
+        "pepper-mcq-15"
       ],
       "explanation": "本句的「peppers」指「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」。",
       "sentenceIndex": 6,
@@ -565,12 +539,10 @@ export default {
         "peppers"
       ],
       "optionReasons": {
-        "pepper-mcq-03": "本句指「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-03": "本句的「peppers」指「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-03"
     },
@@ -582,11 +554,9 @@ export default {
       "masked": "Add salt and ____ to taste.",
       "options": [
         "pepper-mcq-04",
-        "pepper-mcq-03",
-        "pepper-mcq-05",
-        "pepper-mcq-02",
-        "pepper-mcq-06",
-        "pepper-mcq-01"
+        "pepper-mcq-10",
+        "pepper-mcq-12",
+        "pepper-mcq-03"
       ],
       "explanation": "本句的「pepper」指「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」。",
       "sentenceIndex": 7,
@@ -595,12 +565,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-04": "本句指「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。"
+        "pepper-mcq-04": "本句的「pepper」指「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-04"
     },
@@ -612,11 +580,9 @@ export default {
       "masked": "She sprinkled black ____ over the soup.",
       "options": [
         "pepper-mcq-04",
-        "pepper-mcq-03",
-        "pepper-mcq-05",
-        "pepper-mcq-02",
-        "pepper-mcq-06",
-        "pepper-mcq-01"
+        "pepper-mcq-10",
+        "pepper-mcq-11",
+        "pepper-mcq-03"
       ],
       "explanation": "本句的「pepper」指「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」。",
       "sentenceIndex": 8,
@@ -625,12 +591,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-04": "本句指「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-01": "「辣椒屬植物所結、可甜可辣並常作蔬菜／調味使用的果實」與本句語境不同。"
+        "pepper-mcq-04": "本句的「pepper」指「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-04"
     },
@@ -642,11 +606,9 @@ export default {
       "masked": "Freshly ground ____ has a strong aroma.",
       "options": [
         "pepper-mcq-05",
-        "pepper-mcq-04",
-        "pepper-mcq-06",
-        "pepper-mcq-03",
-        "pepper-mcq-07",
-        "pepper-mcq-02"
+        "pepper-mcq-10",
+        "pepper-mcq-12",
+        "pepper-mcq-14"
       ],
       "explanation": "本句的「black pepper」指「由胡椒果實加工成的常見黑色辛香料」。",
       "sentenceIndex": 9,
@@ -655,12 +617,10 @@ export default {
         "black pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-05": "本句指「由胡椒果實加工成的常見黑色辛香料」。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。"
+        "pepper-mcq-05": "本句的「black pepper」指「由胡椒果實加工成的常見黑色辛香料」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-05"
     },
@@ -672,11 +632,9 @@ export default {
       "masked": "Season the vegetables with black ____.",
       "options": [
         "pepper-mcq-05",
-        "pepper-mcq-04",
-        "pepper-mcq-06",
-        "pepper-mcq-03",
-        "pepper-mcq-07",
-        "pepper-mcq-02"
+        "pepper-mcq-11",
+        "pepper-pdf-001",
+        "pepper-mcq-14"
       ],
       "explanation": "本句的「pepper」指「由胡椒果實加工成的常見黑色辛香料」。",
       "sentenceIndex": 10,
@@ -685,12 +643,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-05": "本句指「由胡椒果實加工成的常見黑色辛香料」。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-02": "「具有明顯辣味、用作食材或調味料的辣椒果實」與本句語境不同。"
+        "pepper-mcq-05": "本句的「pepper」指「由胡椒果實加工成的常見黑色辛香料」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-05"
     },
@@ -702,10 +658,8 @@ export default {
       "masked": "White ____ is often used in soups.",
       "options": [
         "pepper-mcq-06",
-        "pepper-mcq-05",
-        "pepper-mcq-07",
-        "pepper-mcq-04",
-        "pepper-mcq-08",
+        "pepper-mcq-10",
+        "pepper-mcq-11",
         "pepper-mcq-03"
       ],
       "explanation": "本句的「pepper」指「去除果皮後加工而成、顏色較淡的胡椒香料」。",
@@ -715,12 +669,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-06": "本句指「去除果皮後加工而成、顏色較淡的胡椒香料」。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。"
+        "pepper-mcq-06": "本句的「pepper」指「去除果皮後加工而成、顏色較淡的胡椒香料」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-06"
     },
@@ -732,10 +684,8 @@ export default {
       "masked": "The recipe calls for a little white ____.",
       "options": [
         "pepper-mcq-06",
-        "pepper-mcq-05",
-        "pepper-mcq-07",
-        "pepper-mcq-04",
-        "pepper-mcq-08",
+        "pepper-mcq-11",
+        "pepper-pdf-001",
         "pepper-mcq-03"
       ],
       "explanation": "本句的「pepper」指「去除果皮後加工而成、顏色較淡的胡椒香料」。",
@@ -745,12 +695,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-06": "本句指「去除果皮後加工而成、顏色較淡的胡椒香料」。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-03": "「肉厚、鐘形而通常沒有明顯辣味的甜椒／彩椒」與本句語境不同。"
+        "pepper-mcq-06": "本句的「pepper」指「去除果皮後加工而成、顏色較淡的胡椒香料」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-06"
     },
@@ -762,11 +710,9 @@ export default {
       "masked": "Crush a few ____ before adding them.",
       "options": [
         "pepper-mcq-07",
-        "pepper-mcq-06",
-        "pepper-mcq-08",
-        "pepper-mcq-05",
-        "pepper-mcq-09",
-        "pepper-mcq-04"
+        "pepper-mcq-11",
+        "pepper-pdf-001",
+        "pepper-mcq-13"
       ],
       "explanation": "本句的「peppercorns」指「經乾燥／加工後用作香料的一粒胡椒果實」。",
       "sentenceIndex": 13,
@@ -775,12 +721,10 @@ export default {
         "peppercorns"
       ],
       "optionReasons": {
-        "pepper-mcq-07": "本句指「經乾燥／加工後用作香料的一粒胡椒果實」。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。"
+        "pepper-mcq-07": "本句的「peppercorns」指「經乾燥／加工後用作香料的一粒胡椒果實」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-07"
     },
@@ -792,11 +736,9 @@ export default {
       "masked": "The grinder is filled with black ____.",
       "options": [
         "pepper-mcq-07",
-        "pepper-mcq-06",
-        "pepper-mcq-08",
-        "pepper-mcq-05",
-        "pepper-mcq-09",
-        "pepper-mcq-04"
+        "pepper-mcq-11",
+        "pepper-mcq-10",
+        "pepper-mcq-13"
       ],
       "explanation": "本句的「peppercorns」指「經乾燥／加工後用作香料的一粒胡椒果實」。",
       "sentenceIndex": 14,
@@ -805,12 +747,10 @@ export default {
         "peppercorns"
       ],
       "optionReasons": {
-        "pepper-mcq-07": "本句指「經乾燥／加工後用作香料的一粒胡椒果實」。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-04": "「由胡椒植物果實乾燥、加工或研磨而成的辛香調味料」與本句語境不同。"
+        "pepper-mcq-07": "本句的「peppercorns」指「經乾燥／加工後用作香料的一粒胡椒果實」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-07"
     },
@@ -822,11 +762,9 @@ export default {
       "masked": "The sauce has a ____ flavour.",
       "options": [
         "pepper-mcq-08",
-        "pepper-mcq-07",
-        "pepper-mcq-09",
-        "pepper-mcq-06",
-        "pepper-mcq-10",
-        "pepper-mcq-05"
+        "pepper-pdf-001",
+        "pepper-mcq-11",
+        "pepper-mcq-02"
       ],
       "explanation": "本句的「peppery」指「味道或香氣像胡椒般辛香、刺激的」。",
       "sentenceIndex": 15,
@@ -835,12 +773,10 @@ export default {
         "peppery"
       ],
       "optionReasons": {
-        "pepper-mcq-08": "本句指「味道或香氣像胡椒般辛香、刺激的」。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。"
+        "pepper-mcq-08": "本句的「peppery」指「味道或香氣像胡椒般辛香、刺激的」。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-08"
     },
@@ -852,11 +788,9 @@ export default {
       "masked": "The leaves have a slightly ____ taste.",
       "options": [
         "pepper-mcq-08",
-        "pepper-mcq-07",
-        "pepper-mcq-09",
-        "pepper-mcq-06",
         "pepper-mcq-10",
-        "pepper-mcq-05"
+        "pepper-mcq-12",
+        "pepper-mcq-01"
       ],
       "explanation": "本句的「peppery」指「味道或香氣像胡椒般辛香、刺激的」。",
       "sentenceIndex": 16,
@@ -865,12 +799,10 @@ export default {
         "peppery"
       ],
       "optionReasons": {
-        "pepper-mcq-08": "本句指「味道或香氣像胡椒般辛香、刺激的」。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-05": "「由胡椒果實加工成的常見黑色辛香料」與本句語境不同。"
+        "pepper-mcq-08": "本句的「peppery」指「味道或香氣像胡椒般辛香、刺激的」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-08"
     },
@@ -882,11 +814,9 @@ export default {
       "masked": "She ____ the soup before serving it.",
       "options": [
         "pepper-mcq-09",
-        "pepper-mcq-08",
-        "pepper-mcq-10",
-        "pepper-mcq-07",
         "pepper-mcq-11",
-        "pepper-mcq-06"
+        "pepper-pdf-001",
+        "pepper-mcq-14"
       ],
       "explanation": "本句的「peppered」指「把胡椒撒在食物上作調味」。",
       "sentenceIndex": 17,
@@ -895,12 +825,10 @@ export default {
         "peppered"
       ],
       "optionReasons": {
-        "pepper-mcq-09": "本句指「把胡椒撒在食物上作調味」。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-09": "本句的「peppered」指「把胡椒撒在食物上作調味」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-09"
     },
@@ -912,11 +840,9 @@ export default {
       "masked": "____ the vegetables lightly.",
       "options": [
         "pepper-mcq-09",
-        "pepper-mcq-08",
-        "pepper-mcq-10",
-        "pepper-mcq-07",
+        "pepper-pdf-001",
         "pepper-mcq-11",
-        "pepper-mcq-06"
+        "pepper-mcq-14"
       ],
       "explanation": "本句的「Pepper」指「把胡椒撒在食物上作調味」。",
       "sentenceIndex": 18,
@@ -925,12 +851,10 @@ export default {
         "Pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-09": "本句指「把胡椒撒在食物上作調味」。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-06": "「去除果皮後加工而成、顏色較淡的胡椒香料」與本句語境不同。"
+        "pepper-mcq-09": "本句的「Pepper」指「把胡椒撒在食物上作調味」。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-09"
     },
@@ -942,11 +866,9 @@ export default {
       "masked": "The hillside was ____.",
       "options": [
         "pepper-mcq-10",
-        "pepper-mcq-09",
-        "pepper-mcq-11",
-        "pepper-mcq-08",
-        "pepper-mcq-12",
-        "pepper-mcq-07"
+        "pepper-mcq-05",
+        "pepper-mcq-14",
+        "pepper-mcq-03"
       ],
       "explanation": "本句的「peppered with flowers」指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
       "sentenceIndex": 19,
@@ -955,12 +877,10 @@ export default {
         "peppered with flowers"
       ],
       "optionReasons": {
-        "pepper-mcq-10": "本句指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。"
+        "pepper-mcq-10": "本句的「peppered with flowers」指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
+        "pepper-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-10"
     },
@@ -972,11 +892,9 @@ export default {
       "masked": "The report was ____ with spelling mistakes.",
       "options": [
         "pepper-mcq-10",
-        "pepper-mcq-09",
-        "pepper-mcq-11",
-        "pepper-mcq-08",
-        "pepper-mcq-12",
-        "pepper-mcq-07"
+        "pepper-mcq-15",
+        "pepper-mcq-02",
+        "pepper-mcq-11"
       ],
       "explanation": "本句的「peppered」指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
       "sentenceIndex": 20,
@@ -985,12 +903,10 @@ export default {
         "peppered"
       ],
       "optionReasons": {
-        "pepper-mcq-10": "本句指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。"
+        "pepper-mcq-10": "本句的「peppered」指「把許多小型、分散的 X 散布／穿插在某處或內容中」。",
+        "pepper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-10"
     },
@@ -1003,10 +919,8 @@ export default {
       "options": [
         "pepper-pdf-001",
         "pepper-mcq-09",
-        "pepper-mcq-11",
-        "pepper-mcq-08",
         "pepper-mcq-12",
-        "pepper-mcq-07"
+        "pepper-mcq-14"
       ],
       "explanation": "本句的「peppered his explanation with examples」指「在說話或文字中頻繁穿插某種內容」。",
       "sentenceIndex": 21,
@@ -1015,12 +929,10 @@ export default {
         "peppered his explanation with examples"
       ],
       "optionReasons": {
-        "pepper-pdf-001": "本句指「在說話或文字中頻繁穿插某種內容」。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。"
+        "pepper-pdf-001": "本句的「peppered his explanation with examples」指「在說話或文字中頻繁穿插某種內容」。",
+        "pepper-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-pdf-001"
     },
@@ -1032,11 +944,9 @@ export default {
       "masked": "Her speech was ____ with jokes.",
       "options": [
         "pepper-pdf-001",
-        "pepper-mcq-09",
-        "pepper-mcq-11",
-        "pepper-mcq-08",
+        "pepper-mcq-01",
         "pepper-mcq-12",
-        "pepper-mcq-07"
+        "pepper-mcq-06"
       ],
       "explanation": "本句的「peppered」指「在說話或文字中頻繁穿插某種內容」。",
       "sentenceIndex": 22,
@@ -1045,12 +955,10 @@ export default {
         "peppered"
       ],
       "optionReasons": {
-        "pepper-pdf-001": "本句指「在說話或文字中頻繁穿插某種內容」。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-07": "「經乾燥／加工後用作香料的一粒胡椒果實」與本句語境不同。"
+        "pepper-pdf-001": "本句的「peppered」指「在說話或文字中頻繁穿插某種內容」。",
+        "pepper-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-pdf-001"
     },
@@ -1062,11 +970,9 @@ export default {
       "masked": "The students ____.",
       "options": [
         "pepper-mcq-11",
-        "pepper-mcq-10",
-        "pepper-mcq-12",
-        "pepper-mcq-09",
-        "pepper-mcq-13",
-        "pepper-mcq-08"
+        "pepper-mcq-02",
+        "pepper-mcq-06",
+        "pepper-pdf-001"
       ],
       "explanation": "本句的「peppered the teacher with questions」指「在短時間內連續、大量向某人提出問題」。",
       "sentenceIndex": 23,
@@ -1075,12 +981,10 @@ export default {
         "peppered the teacher with questions"
       ],
       "optionReasons": {
-        "pepper-mcq-11": "本句指「在短時間內連續、大量向某人提出問題」。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。"
+        "pepper-mcq-11": "本句的「peppered the teacher with questions」指「在短時間內連續、大量向某人提出問題」。",
+        "pepper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-11"
     },
@@ -1092,11 +996,9 @@ export default {
       "masked": "Reporters ____ her with questions after the event.",
       "options": [
         "pepper-mcq-11",
-        "pepper-mcq-10",
-        "pepper-mcq-12",
-        "pepper-mcq-09",
-        "pepper-mcq-13",
-        "pepper-mcq-08"
+        "pepper-mcq-14",
+        "pepper-mcq-06",
+        "pepper-mcq-03"
       ],
       "explanation": "本句的「peppered」指「在短時間內連續、大量向某人提出問題」。",
       "sentenceIndex": 24,
@@ -1105,12 +1007,10 @@ export default {
         "peppered"
       ],
       "optionReasons": {
-        "pepper-mcq-11": "本句指「在短時間內連續、大量向某人提出問題」。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-08": "「味道或香氣像胡椒般辛香、刺激的」與本句語境不同。"
+        "pepper-mcq-11": "本句的「peppered」指「在短時間內連續、大量向某人提出問題」。",
+        "pepper-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-11"
     },
@@ -1122,11 +1022,9 @@ export default {
       "masked": "The wall was ____.",
       "options": [
         "pepper-mcq-12",
-        "pepper-mcq-11",
-        "pepper-mcq-13",
-        "pepper-mcq-10",
-        "pepper-mcq-14",
-        "pepper-mcq-09"
+        "pepper-mcq-15",
+        "pepper-mcq-02",
+        "pepper-pdf-001"
       ],
       "explanation": "本句的「peppered with small holes」指「以大量投射物反覆擊中目標，使其到處留下痕跡」。",
       "sentenceIndex": 25,
@@ -1135,12 +1033,10 @@ export default {
         "peppered with small holes"
       ],
       "optionReasons": {
-        "pepper-mcq-12": "本句指「以大量投射物反覆擊中目標，使其到處留下痕跡」。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-14": "「一種具有清涼香氣的薄荷植物及相關味道」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。"
+        "pepper-mcq-12": "本句的「peppered with small holes」指「以大量投射物反覆擊中目標，使其到處留下痕跡」。",
+        "pepper-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-12"
     },
@@ -1152,11 +1048,9 @@ export default {
       "masked": "The vehicle was ____ with bullets.",
       "options": [
         "pepper-mcq-12",
-        "pepper-mcq-11",
-        "pepper-mcq-13",
-        "pepper-mcq-10",
-        "pepper-mcq-14",
-        "pepper-mcq-09"
+        "pepper-mcq-04",
+        "pepper-mcq-03",
+        "pepper-mcq-13"
       ],
       "explanation": "本句的「peppered」指「以大量投射物反覆擊中目標，使其到處留下痕跡」。",
       "sentenceIndex": 26,
@@ -1165,12 +1059,10 @@ export default {
         "peppered"
       ],
       "optionReasons": {
-        "pepper-mcq-12": "本句指「以大量投射物反覆擊中目標，使其到處留下痕跡」。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。",
-        "pepper-mcq-14": "「一種具有清涼香氣的薄荷植物及相關味道」與本句語境不同。",
-        "pepper-mcq-09": "「把胡椒撒在食物上作調味」與本句語境不同。"
+        "pepper-mcq-12": "本句的「peppered」指「以大量投射物反覆擊中目標，使其到處留下痕跡」。",
+        "pepper-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-12"
     },
@@ -1182,11 +1074,9 @@ export default {
       "masked": "The report mentioned the use of ____.",
       "options": [
         "pepper-mcq-13",
-        "pepper-mcq-12",
-        "pepper-mcq-14",
         "pepper-mcq-11",
-        "pepper-mcq-15",
-        "pepper-mcq-10"
+        "pepper-pdf-001",
+        "pepper-mcq-07"
       ],
       "explanation": "本句的「pepper spray」指「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」。",
       "sentenceIndex": 27,
@@ -1195,12 +1085,10 @@ export default {
         "pepper spray"
       ],
       "optionReasons": {
-        "pepper-mcq-13": "本句指「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-14": "「一種具有清涼香氣的薄荷植物及相關味道」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-15": "「把胡椒粒磨碎成粉末的廚房工具」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。"
+        "pepper-mcq-13": "本句的「pepper spray」指「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-13"
     },
@@ -1212,11 +1100,9 @@ export default {
       "masked": "____ spray can cause intense irritation to the eyes.",
       "options": [
         "pepper-mcq-13",
-        "pepper-mcq-12",
-        "pepper-mcq-14",
         "pepper-mcq-11",
-        "pepper-mcq-15",
-        "pepper-mcq-10"
+        "pepper-pdf-001",
+        "pepper-mcq-07"
       ],
       "explanation": "本句的「Pepper」指「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」。",
       "sentenceIndex": 28,
@@ -1225,12 +1111,10 @@ export default {
         "Pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-13": "本句指「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-14": "「一種具有清涼香氣的薄荷植物及相關味道」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-15": "「把胡椒粒磨碎成粉末的廚房工具」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。"
+        "pepper-mcq-13": "本句的「Pepper」指「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-13"
     },
@@ -1242,11 +1126,9 @@ export default {
       "masked": "She grows ____ in a small pot.",
       "options": [
         "pepper-mcq-14",
-        "pepper-mcq-13",
-        "pepper-mcq-15",
+        "pepper-mcq-10",
         "pepper-mcq-12",
-        "pepper-mcq-11",
-        "pepper-mcq-10"
+        "pepper-mcq-09"
       ],
       "explanation": "本句的「peppermint」指「一種具有清涼香氣的薄荷植物及相關味道」。",
       "sentenceIndex": 29,
@@ -1255,12 +1137,10 @@ export default {
         "peppermint"
       ],
       "optionReasons": {
-        "pepper-mcq-14": "本句指「一種具有清涼香氣的薄荷植物及相關味道」。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-15": "「把胡椒粒磨碎成粉末的廚房工具」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。"
+        "pepper-mcq-14": "本句的「peppermint」指「一種具有清涼香氣的薄荷植物及相關味道」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-14"
     },
@@ -1272,11 +1152,9 @@ export default {
       "masked": "I like ____ tea.",
       "options": [
         "pepper-mcq-14",
-        "pepper-mcq-13",
-        "pepper-mcq-15",
-        "pepper-mcq-12",
+        "pepper-mcq-10",
         "pepper-mcq-11",
-        "pepper-mcq-10"
+        "pepper-mcq-03"
       ],
       "explanation": "本句的「peppermint」指「一種具有清涼香氣的薄荷植物及相關味道」。",
       "sentenceIndex": 30,
@@ -1285,12 +1163,10 @@ export default {
         "peppermint"
       ],
       "optionReasons": {
-        "pepper-mcq-14": "本句指「一種具有清涼香氣的薄荷植物及相關味道」。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-15": "「把胡椒粒磨碎成粉末的廚房工具」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。"
+        "pepper-mcq-14": "本句的「peppermint」指「一種具有清涼香氣的薄荷植物及相關味道」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-14"
     },
@@ -1302,11 +1178,9 @@ export default {
       "masked": "Pass me the ____, please.",
       "options": [
         "pepper-mcq-15",
-        "pepper-mcq-14",
-        "pepper-mcq-13",
         "pepper-mcq-12",
-        "pepper-mcq-11",
-        "pepper-mcq-10"
+        "pepper-mcq-10",
+        "pepper-mcq-01"
       ],
       "explanation": "本句的「pepper mill」指「把胡椒粒磨碎成粉末的廚房工具」。",
       "sentenceIndex": 31,
@@ -1315,12 +1189,10 @@ export default {
         "pepper mill"
       ],
       "optionReasons": {
-        "pepper-mcq-15": "本句指「把胡椒粒磨碎成粉末的廚房工具」。",
-        "pepper-mcq-14": "「一種具有清涼香氣的薄荷植物及相關味道」與本句語境不同。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。"
+        "pepper-mcq-15": "本句的「pepper mill」指「把胡椒粒磨碎成粉末的廚房工具」。",
+        "pepper-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-15"
     },
@@ -1332,11 +1204,9 @@ export default {
       "masked": "Fresh ____ tastes better when ground with a pepper grinder.",
       "options": [
         "pepper-mcq-15",
-        "pepper-mcq-14",
-        "pepper-mcq-13",
-        "pepper-mcq-12",
+        "pepper-mcq-10",
         "pepper-mcq-11",
-        "pepper-mcq-10"
+        "pepper-mcq-01"
       ],
       "explanation": "本句的「pepper」指「把胡椒粒磨碎成粉末的廚房工具」。",
       "sentenceIndex": 32,
@@ -1345,12 +1215,10 @@ export default {
         "pepper"
       ],
       "optionReasons": {
-        "pepper-mcq-15": "本句指「把胡椒粒磨碎成粉末的廚房工具」。",
-        "pepper-mcq-14": "「一種具有清涼香氣的薄荷植物及相關味道」與本句語境不同。",
-        "pepper-mcq-13": "「含刺激性辣椒成分、用來造成眼睛／呼吸道強烈刺激的噴霧」與本句語境不同。",
-        "pepper-mcq-12": "「以大量投射物反覆擊中目標，使其到處留下痕跡」與本句語境不同。",
-        "pepper-mcq-11": "「在短時間內連續、大量向某人提出問題」與本句語境不同。",
-        "pepper-mcq-10": "「把許多小型、分散的 X 散布／穿插在某處或內容中」與本句語境不同。"
+        "pepper-mcq-15": "本句的「pepper」指「把胡椒粒磨碎成粉末的廚房工具」。",
+        "pepper-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pepper-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pepper-mcq-15"
     }
@@ -1362,5 +1230,7 @@ export default {
     "sha256": "9670a405cda9f4552aa34729baff719d18e60d91bb635daffe1c7152b5ff04ad",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

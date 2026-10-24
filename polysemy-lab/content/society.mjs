@@ -166,7 +166,7 @@ export default {
     },
     {
       "id": "society-mcq-09",
-      "title": "表示整個社會",
+      "title": "整個社會",
       "form": "Useful construction: society as a whole — 整個社會",
       "en": "Useful construction: society as a whole — 整個社會",
       "zh": "表示整個社會",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "society-mcq-10",
-      "title": "表示上流社會",
+      "title": "上流社會",
       "form": "Useful expression: high society — 上流社會",
       "en": "Useful expression: high society — 上流社會",
       "zh": "表示上流社會",
@@ -247,11 +247,7 @@ export default {
       "masked": "Human beings gradually built complex ____.",
       "options": [
         "society-mcq-01",
-        "society-mcq-02",
-        "society-mcq-03",
-        "society-mcq-04",
-        "society-mcq-05",
-        "society-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「societies」指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
       "sentenceIndex": 0,
@@ -260,12 +256,8 @@ export default {
         "societies"
       ],
       "optionReasons": {
-        "society-mcq-01": "本句指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-01": "本句的「societies」指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-01"
     },
@@ -277,11 +269,7 @@ export default {
       "masked": "Education plays an important role in ____.",
       "options": [
         "society-mcq-01",
-        "society-mcq-02",
-        "society-mcq-03",
-        "society-mcq-04",
-        "society-mcq-05",
-        "society-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「society」指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
       "sentenceIndex": 1,
@@ -290,12 +278,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-01": "本句指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-01": "本句的「society」指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-01"
     },
@@ -307,11 +291,7 @@ export default {
       "masked": "Technology has changed modern ____.",
       "options": [
         "society-mcq-01",
-        "society-mcq-02",
-        "society-mcq-03",
-        "society-mcq-04",
-        "society-mcq-05",
-        "society-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「society」指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
       "sentenceIndex": 2,
@@ -320,12 +300,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-01": "本句指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-01": "本句的「society」指「人們共同生活並透過制度、文化、規範及關係形成的整體社會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-01"
     },
@@ -337,11 +313,7 @@ export default {
       "masked": "Ancient ____ developed different systems of government.",
       "options": [
         "society-mcq-02",
-        "society-mcq-01",
-        "society-mcq-03",
-        "society-mcq-04",
-        "society-mcq-05",
-        "society-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「societies」指「某一個具有共同制度、文化和生活方式的特定人類社會」。",
       "sentenceIndex": 3,
@@ -350,12 +322,8 @@ export default {
         "societies"
       ],
       "optionReasons": {
-        "society-mcq-02": "本句指「某一個具有共同制度、文化和生活方式的特定人類社會」。",
-        "society-mcq-01": "「人們共同生活並透過制度、文化、規範及關係形成的整體社會」是「society — organized human community/system」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-02": "本句的「societies」指「某一個具有共同制度、文化和生活方式的特定人類社會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-02"
     },
@@ -367,11 +335,7 @@ export default {
       "masked": "Every ____ has its own customs.",
       "options": [
         "society-mcq-02",
-        "society-mcq-01",
-        "society-mcq-03",
-        "society-mcq-04",
-        "society-mcq-05",
-        "society-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「society」指「某一個具有共同制度、文化和生活方式的特定人類社會」。",
       "sentenceIndex": 4,
@@ -380,12 +344,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-02": "本句指「某一個具有共同制度、文化和生活方式的特定人類社會」。",
-        "society-mcq-01": "「人們共同生活並透過制度、文化、規範及關係形成的整體社會」是「society — organized human community/system」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-02": "本句的「society」指「某一個具有共同制度、文化和生活方式的特定人類社會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-02"
     },
@@ -397,10 +357,6 @@ export default {
       "masked": "She joined the university history ____.",
       "options": [
         "society-mcq-03",
-        "society-mcq-02",
-        "society-mcq-04",
-        "society-mcq-01",
-        "society-mcq-05",
         "society-mcq-06"
       ],
       "explanation": "本句的「society」指「為共同興趣、專業、研究或目標成立的學會、協會或社團」。",
@@ -410,12 +366,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-03": "本句指「為共同興趣、專業、研究或目標成立的學會、協會或社團」。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-01": "「人們共同生活並透過制度、文化、規範及關係形成的整體社會」是「society — organized human community/system」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-03": "本句的「society」指「為共同興趣、專業、研究或目標成立的學會、協會或社團」。",
+        "society-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-03"
     },
@@ -427,11 +379,7 @@ export default {
       "masked": "The medical ____ holds an annual conference.",
       "options": [
         "society-mcq-03",
-        "society-mcq-02",
-        "society-mcq-04",
-        "society-mcq-01",
-        "society-mcq-05",
-        "society-mcq-06"
+        "society-pdf-001"
       ],
       "explanation": "本句的「society」指「為共同興趣、專業、研究或目標成立的學會、協會或社團」。",
       "sentenceIndex": 6,
@@ -440,12 +388,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-03": "本句指「為共同興趣、專業、研究或目標成立的學會、協會或社團」。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-01": "「人們共同生活並透過制度、文化、規範及關係形成的整體社會」是「society — organized human community/system」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。"
+        "society-mcq-03": "本句的「society」指「為共同興趣、專業、研究或目標成立的學會、協會或社團」。",
+        "society-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-03"
     },
@@ -457,11 +401,7 @@ export default {
       "masked": "She became well known in London ____.",
       "options": [
         "society-mcq-04",
-        "society-mcq-03",
-        "society-mcq-05",
-        "society-mcq-02",
-        "society-mcq-06",
-        "society-mcq-01"
+        "society-mcq-03"
       ],
       "explanation": "本句的「society」指「富裕或有社會地位人士組成的上流社會／名流圈」。",
       "sentenceIndex": 7,
@@ -470,12 +410,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-04": "本句指「富裕或有社會地位人士組成的上流社會／名流圈」。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-01": "「人們共同生活並透過制度、文化、規範及關係形成的整體社會」是「society — organized human community/system」的用法，與本句語境不同。"
+        "society-mcq-04": "本句的「society」指「富裕或有社會地位人士組成的上流社會／名流圈」。",
+        "society-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-04"
     },
@@ -487,11 +423,7 @@ export default {
       "masked": "The event attracted members of high ____.",
       "options": [
         "society-mcq-04",
-        "society-mcq-03",
-        "society-mcq-05",
-        "society-mcq-02",
-        "society-mcq-06",
-        "society-mcq-01"
+        "society-mcq-03"
       ],
       "explanation": "本句的「society」指「富裕或有社會地位人士組成的上流社會／名流圈」。",
       "sentenceIndex": 8,
@@ -500,12 +432,8 @@ export default {
         "society"
       ],
       "optionReasons": {
-        "society-mcq-04": "本句指「富裕或有社會地位人士組成的上流社會／名流圈」。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-02": "「某一個具有共同制度、文化和生活方式的特定人類社會」是「a society — particular society」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-01": "「人們共同生活並透過制度、文化、規範及關係形成的整體社會」是「society — organized human community/system」的用法，與本句語境不同。"
+        "society-mcq-04": "本句的「society」指「富裕或有社會地位人士組成的上流社會／名流圈」。",
+        "society-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-04"
     },
@@ -517,11 +445,7 @@ export default {
       "masked": "The report examines major ____ changes.",
       "options": [
         "society-mcq-06",
-        "society-mcq-05",
-        "society-mcq-07",
-        "society-mcq-04",
-        "society-mcq-08",
-        "society-mcq-03"
+        "society-pdf-002"
       ],
       "explanation": "本句的「societal」指「與整個社會的結構、制度或問題有關的」。",
       "sentenceIndex": 9,
@@ -530,12 +454,8 @@ export default {
         "societal"
       ],
       "optionReasons": {
-        "society-mcq-06": "本句指「與整個社會的結構、制度或問題有關的」。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-07": "「社會的；亦可表示社交的」是「social」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。"
+        "society-mcq-06": "本句的「societal」指「與整個社會的結構、制度或問題有關的」。",
+        "society-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-06"
     },
@@ -547,11 +467,7 @@ export default {
       "masked": "Housing inequality is a ____ issue.",
       "options": [
         "society-mcq-06",
-        "society-mcq-05",
-        "society-mcq-07",
-        "society-mcq-04",
-        "society-mcq-08",
-        "society-mcq-03"
+        "society-pdf-002"
       ],
       "explanation": "本句的「societal」指「與整個社會的結構、制度或問題有關的」。",
       "sentenceIndex": 10,
@@ -560,12 +476,8 @@ export default {
         "societal"
       ],
       "optionReasons": {
-        "society-mcq-06": "本句指「與整個社會的結構、制度或問題有關的」。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-07": "「社會的；亦可表示社交的」是「social」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-03": "「為共同興趣、專業、研究或目標成立的學會、協會或社團」是「society — association」的用法，與本句語境不同。"
+        "society-mcq-06": "本句的「societal」指「與整個社會的結構、制度或問題有關的」。",
+        "society-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-06"
     },
@@ -577,11 +489,7 @@ export default {
       "masked": "The book examines major ____ changes.",
       "options": [
         "society-pdf-001",
-        "society-mcq-06",
-        "society-mcq-08",
-        "society-mcq-05",
-        "society-mcq-09",
-        "society-mcq-04"
+        "society-mcq-03"
       ],
       "explanation": "本句的「social」指「與社會、人群及人與人之間的關係有關的」。",
       "sentenceIndex": 11,
@@ -590,12 +498,8 @@ export default {
         "social"
       ],
       "optionReasons": {
-        "society-pdf-001": "本句指「與社會、人群及人與人之間的關係有關的」。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。"
+        "society-pdf-001": "本句的「social」指「與社會、人群及人與人之間的關係有關的」。",
+        "society-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-pdf-001"
     },
@@ -607,11 +511,7 @@ export default {
       "masked": "She has a very active ____ life.",
       "options": [
         "society-pdf-002",
-        "society-mcq-06",
-        "society-mcq-08",
-        "society-mcq-05",
-        "society-mcq-09",
-        "society-mcq-04"
+        "society-mcq-09"
       ],
       "explanation": "本句的「social」指「與和別人見面、交流、共同活動有關的」。",
       "sentenceIndex": 12,
@@ -620,12 +520,8 @@ export default {
         "social"
       ],
       "optionReasons": {
-        "society-pdf-002": "本句指「與和別人見面、交流、共同活動有關的」。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。"
+        "society-pdf-002": "本句的「social」指「與和別人見面、交流、共同活動有關的」。",
+        "society-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-pdf-002"
     },
@@ -637,11 +533,7 @@ export default {
       "masked": "The event was mainly ____.",
       "options": [
         "society-pdf-002",
-        "society-mcq-06",
-        "society-mcq-08",
-        "society-mcq-05",
-        "society-mcq-09",
-        "society-mcq-04"
+        "society-mcq-09"
       ],
       "explanation": "本句的「social」指「與和別人見面、交流、共同活動有關的」。",
       "sentenceIndex": 13,
@@ -650,12 +542,8 @@ export default {
         "social"
       ],
       "optionReasons": {
-        "society-pdf-002": "本句指「與和別人見面、交流、共同活動有關的」。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。",
-        "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
-        "society-mcq-04": "「富裕或有社會地位人士組成的上流社會／名流圈」是「society — elite social circle」的用法，與本句語境不同。"
+        "society-pdf-002": "本句的「social」指「與和別人見面、交流、共同活動有關的」。",
+        "society-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-pdf-002"
     },
@@ -667,11 +555,7 @@ export default {
       "masked": "The behaviour is ____ acceptable.",
       "options": [
         "society-mcq-08",
-        "society-mcq-07",
-        "society-mcq-09",
-        "society-mcq-06",
-        "society-mcq-10",
-        "society-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「socially」指「在社會層面上；在社交方面」。",
       "sentenceIndex": 14,
@@ -680,12 +564,8 @@ export default {
         "socially"
       ],
       "optionReasons": {
-        "society-mcq-08": "本句指「在社會層面上；在社交方面」。",
-        "society-mcq-07": "「社會的；亦可表示社交的」是「social」的用法，與本句語境不同。",
-        "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-10": "「表示上流社會」是「Useful expression: high society — 上流社會」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。"
+        "society-mcq-08": "本句的「socially」指「在社會層面上；在社交方面」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-08"
     },
@@ -697,11 +577,7 @@ export default {
       "masked": "He is very active ____.",
       "options": [
         "society-mcq-08",
-        "society-mcq-07",
-        "society-mcq-09",
-        "society-mcq-06",
-        "society-mcq-10",
-        "society-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「socially」指「在社會層面上；在社交方面」。",
       "sentenceIndex": 15,
@@ -710,12 +586,8 @@ export default {
         "socially"
       ],
       "optionReasons": {
-        "society-mcq-08": "本句指「在社會層面上；在社交方面」。",
-        "society-mcq-07": "「社會的；亦可表示社交的」是「social」的用法，與本句語境不同。",
-        "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-10": "「表示上流社會」是「Useful expression: high society — 上流社會」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。"
+        "society-mcq-08": "本句的「socially」指「在社會層面上；在社交方面」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-08"
     },
@@ -727,11 +599,7 @@ export default {
       "masked": "The change could benefit ____.",
       "options": [
         "society-mcq-09",
-        "society-mcq-08",
-        "society-mcq-10",
-        "society-mcq-07",
-        "society-mcq-06",
-        "society-mcq-05"
+        "society-pdf-002"
       ],
       "explanation": "本句的「society as a whole」指「表示整個社會」。",
       "sentenceIndex": 16,
@@ -740,12 +608,8 @@ export default {
         "society as a whole"
       ],
       "optionReasons": {
-        "society-mcq-09": "本句指「表示整個社會」。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-10": "「表示上流社會」是「Useful expression: high society — 上流社會」的用法，與本句語境不同。",
-        "society-mcq-07": "「社會的；亦可表示社交的」是「social」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。"
+        "society-mcq-09": "本句的「society as a whole」指「表示整個社會」。",
+        "society-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-09"
     },
@@ -757,11 +621,7 @@ export default {
       "masked": "The family moved in ____.",
       "options": [
         "society-mcq-10",
-        "society-mcq-09",
-        "society-mcq-08",
-        "society-mcq-07",
-        "society-mcq-06",
-        "society-mcq-05"
+        "contrast-purchase"
       ],
       "explanation": "本句的「high society」指「表示上流社會」。",
       "sentenceIndex": 17,
@@ -770,12 +630,8 @@ export default {
         "high society"
       ],
       "optionReasons": {
-        "society-mcq-10": "本句指「表示上流社會」。",
-        "society-mcq-09": "「表示整個社會」是「Useful construction: society as a whole — 整個社會」的用法，與本句語境不同。",
-        "society-mcq-08": "「在社會層面上；在社交方面」是「socially」的用法，與本句語境不同。",
-        "society-mcq-07": "「社會的；亦可表示社交的」是「social」的用法，與本句語境不同。",
-        "society-mcq-06": "「與整個社會的結構、制度或問題有關的」是「societal」的用法，與本句語境不同。",
-        "society-mcq-05": "「與他人相處、交往或陪伴；較文學／低頻」是「society — companionship」的用法，與本句語境不同。"
+        "society-mcq-10": "本句的「high society」指「表示上流社會」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "society-mcq-10"
     }
@@ -787,5 +643,12 @@ export default {
     "sha256": "054c8825cbfc60a7c574cbd45b49788047e82924a8bb9d595ba97f83d385382a",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

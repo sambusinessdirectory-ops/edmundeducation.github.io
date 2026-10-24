@@ -124,11 +124,7 @@ export default {
       "masked": "The advertisement communicated its message ____.",
       "options": [
         "effective-mcq-05",
-        "effective-mcq-04",
-        "effective-mcq-06",
-        "effective-mcq-03",
-        "effective-mcq-07",
-        "effective-mcq-02"
+        "effective-mcq-06"
       ],
       "explanation": "本句的「effectively」指「以能成功達到預期目的的方式」。",
       "sentenceIndex": 0,
@@ -137,12 +133,8 @@ export default {
         "effectively"
       ],
       "optionReasons": {
-        "effective-mcq-05": "本句指「以能成功達到預期目的的方式」。",
-        "effective-mcq-04": "「把相關因素計算後真正產生的實際數值」是「effective rate/cost/amount」的用法，與本句語境不同。",
-        "effective-mcq-06": "「雖未必正式如此，但實際情況等同於……」是「effectively — practically」的用法，與本句語境不同。",
-        "effective-mcq-03": "「已正式開始生效、具有法律或制度效力的」是「effective law/rule/date」的用法，與本句語境不同。",
-        "effective-mcq-07": "「某方法或措施達成預期目的的程度／成效」是「effectiveness」的用法，與本句語境不同。",
-        "effective-mcq-02": "「做事能達成所需目標並取得實際成果的」是「effective person/leader」的用法，與本句語境不同。"
+        "effective-mcq-05": "本句的「effectively」指「以能成功達到預期目的的方式」。",
+        "effective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effective-mcq-05"
     },
@@ -154,11 +146,7 @@ export default {
       "masked": "She deals with customer complaints very ____.",
       "options": [
         "effective-mcq-05",
-        "effective-mcq-04",
-        "effective-mcq-06",
-        "effective-mcq-03",
-        "effective-mcq-07",
-        "effective-mcq-02"
+        "effective-mcq-06"
       ],
       "explanation": "本句的「effectively」指「以能成功達到預期目的的方式」。",
       "sentenceIndex": 1,
@@ -167,12 +155,8 @@ export default {
         "effectively"
       ],
       "optionReasons": {
-        "effective-mcq-05": "本句指「以能成功達到預期目的的方式」。",
-        "effective-mcq-04": "「把相關因素計算後真正產生的實際數值」是「effective rate/cost/amount」的用法，與本句語境不同。",
-        "effective-mcq-06": "「雖未必正式如此，但實際情況等同於……」是「effectively — practically」的用法，與本句語境不同。",
-        "effective-mcq-03": "「已正式開始生效、具有法律或制度效力的」是「effective law/rule/date」的用法，與本句語境不同。",
-        "effective-mcq-07": "「某方法或措施達成預期目的的程度／成效」是「effectiveness」的用法，與本句語境不同。",
-        "effective-mcq-02": "「做事能達成所需目標並取得實際成果的」是「effective person/leader」的用法，與本句語境不同。"
+        "effective-mcq-05": "本句的「effectively」指「以能成功達到預期目的的方式」。",
+        "effective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effective-mcq-05"
     },
@@ -184,11 +168,7 @@ export default {
       "masked": "The company has ____ stopped operating.",
       "options": [
         "effective-mcq-06",
-        "effective-mcq-05",
-        "effective-mcq-07",
-        "effective-mcq-04",
-        "effective-mcq-03",
-        "effective-mcq-02"
+        "effective-mcq-05"
       ],
       "explanation": "本句的「effectively」指「雖未必正式如此，但實際情況等同於……」。",
       "sentenceIndex": 0,
@@ -197,12 +177,8 @@ export default {
         "effectively"
       ],
       "optionReasons": {
-        "effective-mcq-06": "本句指「雖未必正式如此，但實際情況等同於……」。",
-        "effective-mcq-05": "「以能成功達到預期目的的方式」是「effectively — successfully」的用法，與本句語境不同。",
-        "effective-mcq-07": "「某方法或措施達成預期目的的程度／成效」是「effectiveness」的用法，與本句語境不同。",
-        "effective-mcq-04": "「把相關因素計算後真正產生的實際數值」是「effective rate/cost/amount」的用法，與本句語境不同。",
-        "effective-mcq-03": "「已正式開始生效、具有法律或制度效力的」是「effective law/rule/date」的用法，與本句語境不同。",
-        "effective-mcq-02": "「做事能達成所需目標並取得實際成果的」是「effective person/leader」的用法，與本句語境不同。"
+        "effective-mcq-06": "本句的「effectively」指「雖未必正式如此，但實際情況等同於……」。",
+        "effective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effective-mcq-06"
     },
@@ -214,11 +190,7 @@ export default {
       "masked": "Without internet access, the system is ____ useless.",
       "options": [
         "effective-mcq-06",
-        "effective-mcq-05",
-        "effective-mcq-07",
-        "effective-mcq-04",
-        "effective-mcq-03",
-        "effective-mcq-02"
+        "effective-mcq-05"
       ],
       "explanation": "本句的「effectively」指「雖未必正式如此，但實際情況等同於……」。",
       "sentenceIndex": 1,
@@ -227,12 +199,8 @@ export default {
         "effectively"
       ],
       "optionReasons": {
-        "effective-mcq-06": "本句指「雖未必正式如此，但實際情況等同於……」。",
-        "effective-mcq-05": "「以能成功達到預期目的的方式」是「effectively — successfully」的用法，與本句語境不同。",
-        "effective-mcq-07": "「某方法或措施達成預期目的的程度／成效」是「effectiveness」的用法，與本句語境不同。",
-        "effective-mcq-04": "「把相關因素計算後真正產生的實際數值」是「effective rate/cost/amount」的用法，與本句語境不同。",
-        "effective-mcq-03": "「已正式開始生效、具有法律或制度效力的」是「effective law/rule/date」的用法，與本句語境不同。",
-        "effective-mcq-02": "「做事能達成所需目標並取得實際成果的」是「effective person/leader」的用法，與本句語境不同。"
+        "effective-mcq-06": "本句的「effectively」指「雖未必正式如此，但實際情況等同於……」。",
+        "effective-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effective-mcq-06"
     },
@@ -244,11 +212,7 @@ export default {
       "masked": "We need to measure the ____ of the advertising campaign.",
       "options": [
         "effective-mcq-07",
-        "effective-mcq-06",
-        "effective-mcq-05",
-        "effective-mcq-04",
-        "effective-mcq-03",
-        "effective-mcq-02"
+        "effective-mcq-06"
       ],
       "explanation": "本句的「effectiveness」指「某方法或措施達成預期目的的程度／成效」。",
       "sentenceIndex": 0,
@@ -257,12 +221,8 @@ export default {
         "effectiveness"
       ],
       "optionReasons": {
-        "effective-mcq-07": "本句指「某方法或措施達成預期目的的程度／成效」。",
-        "effective-mcq-06": "「雖未必正式如此，但實際情況等同於……」是「effectively — practically」的用法，與本句語境不同。",
-        "effective-mcq-05": "「以能成功達到預期目的的方式」是「effectively — successfully」的用法，與本句語境不同。",
-        "effective-mcq-04": "「把相關因素計算後真正產生的實際數值」是「effective rate/cost/amount」的用法，與本句語境不同。",
-        "effective-mcq-03": "「已正式開始生效、具有法律或制度效力的」是「effective law/rule/date」的用法，與本句語境不同。",
-        "effective-mcq-02": "「做事能達成所需目標並取得實際成果的」是「effective person/leader」的用法，與本句語境不同。"
+        "effective-mcq-07": "本句的「effectiveness」指「某方法或措施達成預期目的的程度／成效」。",
+        "effective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effective-mcq-07"
     },
@@ -274,11 +234,7 @@ export default {
       "masked": "The study examined the ____ of the new treatment.",
       "options": [
         "effective-mcq-07",
-        "effective-mcq-06",
-        "effective-mcq-05",
-        "effective-mcq-04",
-        "effective-mcq-03",
-        "effective-mcq-02"
+        "effective-mcq-06"
       ],
       "explanation": "本句的「effectiveness」指「某方法或措施達成預期目的的程度／成效」。",
       "sentenceIndex": 1,
@@ -287,12 +243,8 @@ export default {
         "effectiveness"
       ],
       "optionReasons": {
-        "effective-mcq-07": "本句指「某方法或措施達成預期目的的程度／成效」。",
-        "effective-mcq-06": "「雖未必正式如此，但實際情況等同於……」是「effectively — practically」的用法，與本句語境不同。",
-        "effective-mcq-05": "「以能成功達到預期目的的方式」是「effectively — successfully」的用法，與本句語境不同。",
-        "effective-mcq-04": "「把相關因素計算後真正產生的實際數值」是「effective rate/cost/amount」的用法，與本句語境不同。",
-        "effective-mcq-03": "「已正式開始生效、具有法律或制度效力的」是「effective law/rule/date」的用法，與本句語境不同。",
-        "effective-mcq-02": "「做事能達成所需目標並取得實際成果的」是「effective person/leader」的用法，與本句語境不同。"
+        "effective-mcq-07": "本句的「effectiveness」指「某方法或措施達成預期目的的程度／成效」。",
+        "effective-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "effective-mcq-07"
     }
@@ -305,5 +257,7 @@ export default {
     "pages": 7,
     "sha256": "4d5e0d082f852ddc22375af725c701edf98e4b9a0d2dd81bf35bcd802aa535b0"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

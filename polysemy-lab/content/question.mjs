@@ -350,11 +350,9 @@ export default {
       "masked": "More importantly, he asks sharp ____.",
       "options": [
         "question-mcq-01",
-        "question-mcq-02",
-        "question-mcq-03",
-        "question-mcq-04",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-12",
+        "question-mcq-09",
+        "question-mcq-02"
       ],
       "explanation": "本句的「questions」指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
       "sentenceIndex": 0,
@@ -363,12 +361,10 @@ export default {
         "questions"
       ],
       "optionReasons": {
-        "question-mcq-01": "本句指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-01": "本句的「questions」指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
+        "question-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-01"
     },
@@ -380,11 +376,9 @@ export default {
       "masked": "Can I ask you a ____?",
       "options": [
         "question-mcq-01",
-        "question-mcq-02",
-        "question-mcq-03",
-        "question-mcq-04",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-06",
+        "question-mcq-09",
+        "question-mcq-02"
       ],
       "explanation": "本句的「question」指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
       "sentenceIndex": 1,
@@ -393,12 +387,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-01": "本句指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-01": "本句的「question」指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
+        "question-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-01"
     },
@@ -410,11 +402,9 @@ export default {
       "masked": "She asked several ____ about the project.",
       "options": [
         "question-mcq-01",
-        "question-mcq-02",
-        "question-mcq-03",
         "question-mcq-04",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-09",
+        "question-mcq-02"
       ],
       "explanation": "本句的「questions」指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
       "sentenceIndex": 2,
@@ -423,12 +413,10 @@ export default {
         "questions"
       ],
       "optionReasons": {
-        "question-mcq-01": "本句指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-01": "本句的「questions」指「為了取得回答、資訊、解釋或意見而提出的詢問」。",
+        "question-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-01"
     },
@@ -440,11 +428,9 @@ export default {
       "masked": "I couldn’t answer the final ____ on the exam.",
       "options": [
         "question-mcq-02",
-        "question-mcq-01",
-        "question-mcq-03",
         "question-mcq-04",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-14",
+        "question-mcq-15"
       ],
       "explanation": "本句的「question」指「考試、測驗或練習中要求作答的一個題目」。",
       "sentenceIndex": 3,
@@ -453,12 +439,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-02": "本句指「考試、測驗或練習中要求作答的一個題目」。",
-        "question-mcq-01": "「為了取得回答、資訊、解釋或意見而提出的詢問」是「question = something asked for an answer（詢問）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-02": "本句的「question」指「考試、測驗或練習中要求作答的一個題目」。",
+        "question-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-02"
     },
@@ -470,11 +454,9 @@ export default {
       "masked": "Read each ____ carefully before choosing an answer.",
       "options": [
         "question-mcq-02",
-        "question-mcq-01",
-        "question-mcq-03",
         "question-mcq-04",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-14",
+        "question-mcq-08"
       ],
       "explanation": "本句的「question」指「考試、測驗或練習中要求作答的一個題目」。",
       "sentenceIndex": 4,
@@ -483,12 +465,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-02": "本句指「考試、測驗或練習中要求作答的一個題目」。",
-        "question-mcq-01": "「為了取得回答、資訊、解釋或意見而提出的詢問」是「question = something asked for an answer（詢問）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-02": "本句的「question」指「考試、測驗或練習中要求作答的一個題目」。",
+        "question-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-02"
     },
@@ -500,11 +480,9 @@ export default {
       "masked": "The ____ of funding has not yet been resolved.",
       "options": [
         "question-mcq-03",
-        "question-mcq-02",
-        "question-mcq-04",
-        "question-mcq-01",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-09",
+        "question-mcq-12",
+        "question-mcq-15"
       ],
       "explanation": "本句的「question」指「需要討論、研究、判斷或作出決定的一個事項或議題」。",
       "sentenceIndex": 5,
@@ -513,12 +491,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-03": "本句指「需要討論、研究、判斷或作出決定的一個事項或議題」。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-01": "「為了取得回答、資訊、解釋或意見而提出的詢問」是「question = something asked for an answer（詢問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-03": "本句的「question」指「需要討論、研究、判斷或作出決定的一個事項或議題」。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-03"
     },
@@ -530,11 +506,9 @@ export default {
       "masked": "We need to consider the ____ of whether the plan is practical.",
       "options": [
         "question-mcq-03",
-        "question-mcq-02",
-        "question-mcq-04",
-        "question-mcq-01",
-        "question-mcq-05",
-        "question-mcq-06"
+        "question-mcq-10",
+        "question-mcq-08",
+        "question-mcq-15"
       ],
       "explanation": "本句的「question」指「需要討論、研究、判斷或作出決定的一個事項或議題」。",
       "sentenceIndex": 6,
@@ -543,12 +517,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-03": "本句指「需要討論、研究、判斷或作出決定的一個事項或議題」。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-01": "「為了取得回答、資訊、解釋或意見而提出的詢問」是「question = something asked for an answer（詢問）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-03": "本句的「question」指「需要討論、研究、判斷或作出決定的一個事項或議題」。",
+        "question-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-03"
     },
@@ -560,10 +532,8 @@ export default {
       "masked": "There is some ____ about whether the figures are accurate.",
       "options": [
         "question-mcq-04",
-        "question-mcq-03",
-        "question-mcq-05",
         "question-mcq-02",
-        "question-mcq-06",
+        "question-mcq-09",
         "question-mcq-01"
       ],
       "explanation": "本句的「question」指「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」。",
@@ -573,12 +543,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-04": "本句指「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-01": "「為了取得回答、資訊、解釋或意見而提出的詢問」是「question = something asked for an answer（詢問）」的用法，與本句語境不同。"
+        "question-mcq-04": "本句的「question」指「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-04"
     },
@@ -590,11 +558,9 @@ export default {
       "masked": "His honesty was never in ____.",
       "options": [
         "question-mcq-04",
-        "question-mcq-03",
-        "question-mcq-05",
         "question-mcq-02",
-        "question-mcq-06",
-        "question-mcq-01"
+        "question-mcq-01",
+        "question-mcq-09"
       ],
       "explanation": "本句的「question」指「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」。",
       "sentenceIndex": 8,
@@ -603,12 +569,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-04": "本句指「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-01": "「為了取得回答、資訊、解釋或意見而提出的詢問」是「question = something asked for an answer（詢問）」的用法，與本句語境不同。"
+        "question-mcq-04": "本句的「question」指「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-04"
     },
@@ -620,10 +584,7 @@ export default {
       "masked": "Police ____ several witnesses.",
       "options": [
         "question-mcq-05",
-        "question-mcq-04",
-        "question-mcq-06",
-        "question-mcq-03",
-        "question-mcq-07",
+        "question-mcq-13",
         "question-mcq-02"
       ],
       "explanation": "本句的「questioned」指「向某人提出一連串問題以取得資料、事實或解釋」。",
@@ -633,12 +594,9 @@ export default {
         "questioned"
       ],
       "optionReasons": {
-        "question-mcq-05": "本句指「向某人提出一連串問題以取得資料、事實或解釋」。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。"
+        "question-mcq-05": "本句的「questioned」指「向某人提出一連串問題以取得資料、事實或解釋」。",
+        "question-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-05"
     },
@@ -650,10 +608,7 @@ export default {
       "masked": "The interviewer ____ her about her previous experience.",
       "options": [
         "question-mcq-05",
-        "question-mcq-04",
-        "question-mcq-06",
-        "question-mcq-03",
-        "question-mcq-07",
+        "question-mcq-13",
         "question-mcq-02"
       ],
       "explanation": "本句的「questioned」指「向某人提出一連串問題以取得資料、事實或解釋」。",
@@ -663,12 +618,9 @@ export default {
         "questioned"
       ],
       "optionReasons": {
-        "question-mcq-05": "本句指「向某人提出一連串問題以取得資料、事實或解釋」。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-02": "「考試、測驗或練習中要求作答的一個題目」是「question = test/exam/task item（考試／練習）」的用法，與本句語境不同。"
+        "question-mcq-05": "本句的「questioned」指「向某人提出一連串問題以取得資料、事實或解釋」。",
+        "question-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-05"
     },
@@ -680,11 +632,9 @@ export default {
       "masked": "Several experts ____ the accuracy of the report.",
       "options": [
         "question-mcq-06",
-        "question-mcq-05",
-        "question-mcq-07",
-        "question-mcq-04",
-        "question-mcq-08",
-        "question-mcq-03"
+        "question-mcq-02",
+        "question-mcq-15",
+        "question-mcq-09"
       ],
       "explanation": "本句的「questioned」指「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」。",
       "sentenceIndex": 11,
@@ -693,12 +643,10 @@ export default {
         "questioned"
       ],
       "optionReasons": {
-        "question-mcq-06": "本句指「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。"
+        "question-mcq-06": "本句的「questioned」指「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-06"
     },
@@ -710,11 +658,9 @@ export default {
       "masked": "She began to ____ whether she had made the right decision.",
       "options": [
         "question-mcq-06",
-        "question-mcq-05",
-        "question-mcq-07",
-        "question-mcq-04",
-        "question-mcq-08",
-        "question-mcq-03"
+        "question-mcq-02",
+        "question-mcq-01",
+        "question-mcq-09"
       ],
       "explanation": "本句的「question」指「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」。",
       "sentenceIndex": 12,
@@ -723,12 +669,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-06": "本句指「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-03": "「需要討論、研究、判斷或作出決定的一個事項或議題」是「question = issue/matter to be considered（議題／事情）」的用法，與本句語境不同。"
+        "question-mcq-06": "本句的「question」指「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-06"
     },
@@ -740,11 +684,9 @@ export default {
       "masked": "The new evidence ____.",
       "options": [
         "question-mcq-07",
-        "question-mcq-06",
         "question-mcq-08",
-        "question-mcq-05",
-        "question-mcq-09",
-        "question-mcq-04"
+        "question-mcq-02",
+        "question-mcq-15"
       ],
       "explanation": "本句的「calls his explanation into question」指「令某項說法、判斷或可信性變得值得懷疑」。",
       "sentenceIndex": 13,
@@ -753,12 +695,10 @@ export default {
         "calls his explanation into question"
       ],
       "optionReasons": {
-        "question-mcq-07": "本句指「令某項說法、判斷或可信性變得值得懷疑」。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。"
+        "question-mcq-07": "本句的「calls his explanation into question」指「令某項說法、判斷或可信性變得值得懷疑」。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-07"
     },
@@ -770,11 +710,9 @@ export default {
       "masked": "The errors called the reliability of the data into ____.",
       "options": [
         "question-mcq-07",
-        "question-mcq-06",
-        "question-mcq-08",
         "question-mcq-05",
-        "question-mcq-09",
-        "question-mcq-04"
+        "question-mcq-02",
+        "question-mcq-09"
       ],
       "explanation": "本句的「question」指「令某項說法、判斷或可信性變得值得懷疑」。",
       "sentenceIndex": 14,
@@ -783,12 +721,10 @@ export default {
         "question"
       ],
       "optionReasons": {
-        "question-mcq-07": "本句指「令某項說法、判斷或可信性變得值得懷疑」。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-04": "「對某件事情是否真實、正確、可靠或成立所存在的懷疑或不確定」是「question = doubt/uncertainty（懷疑／疑問）」的用法，與本句語境不同。"
+        "question-mcq-07": "本句的「question」指「令某項說法、判斷或可信性變得值得懷疑」。",
+        "question-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-07"
     },
@@ -800,11 +736,9 @@ export default {
       "masked": "The document ____ was written several years ago.",
       "options": [
         "question-mcq-08",
-        "question-mcq-07",
-        "question-mcq-09",
-        "question-mcq-06",
-        "question-mcq-10",
-        "question-mcq-05"
+        "question-mcq-15",
+        "question-mcq-13",
+        "question-mcq-03"
       ],
       "explanation": "本句的「in question」指「正在被談論、考慮、調查或提及的那個人／事物」。",
       "sentenceIndex": 15,
@@ -813,12 +747,10 @@ export default {
         "in question"
       ],
       "optionReasons": {
-        "question-mcq-08": "本句指「正在被談論、考慮、調查或提及的那個人／事物」。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。"
+        "question-mcq-08": "本句的「in question」指「正在被談論、考慮、調查或提及的那個人／事物」。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-08"
     },
@@ -830,11 +762,9 @@ export default {
       "masked": "The person ____ has already left the company.",
       "options": [
         "question-mcq-08",
-        "question-mcq-07",
-        "question-mcq-09",
-        "question-mcq-06",
-        "question-mcq-10",
-        "question-mcq-05"
+        "question-mcq-15",
+        "question-mcq-13",
+        "question-mcq-03"
       ],
       "explanation": "本句的「in question」指「正在被談論、考慮、調查或提及的那個人／事物」。",
       "sentenceIndex": 16,
@@ -843,12 +773,10 @@ export default {
         "in question"
       ],
       "optionReasons": {
-        "question-mcq-08": "本句指「正在被談論、考慮、調查或提及的那個人／事物」。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-05": "「向某人提出一連串問題以取得資料、事實或解釋」是「question + person（動詞）」的用法，與本句語境不同。"
+        "question-mcq-08": "本句的「in question」指「正在被談論、考慮、調查或提及的那個人／事物」。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-08"
     },
@@ -860,11 +788,9 @@ export default {
       "masked": "Buying a new car is ____ at the moment.",
       "options": [
         "question-mcq-09",
-        "question-mcq-08",
-        "question-mcq-10",
-        "question-mcq-07",
-        "question-mcq-11",
-        "question-mcq-06"
+        "question-mcq-04",
+        "question-mcq-01",
+        "question-mcq-02"
       ],
       "explanation": "本句的「out of the question」指「完全不可能、不允許或不能考慮」。",
       "sentenceIndex": 17,
@@ -873,12 +799,10 @@ export default {
         "out of the question"
       ],
       "optionReasons": {
-        "question-mcq-09": "本句指「完全不可能、不允許或不能考慮」。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-09": "本句的「out of the question」指「完全不可能、不允許或不能考慮」。",
+        "question-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-09"
     },
@@ -890,11 +814,9 @@ export default {
       "masked": "Leaving the children alone is ____.",
       "options": [
         "question-mcq-09",
-        "question-mcq-08",
-        "question-mcq-10",
         "question-mcq-07",
-        "question-mcq-11",
-        "question-mcq-06"
+        "question-mcq-05",
+        "question-mcq-02"
       ],
       "explanation": "本句的「out of the question」指「完全不可能、不允許或不能考慮」。",
       "sentenceIndex": 18,
@@ -903,12 +825,10 @@ export default {
         "out of the question"
       ],
       "optionReasons": {
-        "question-mcq-09": "本句指「完全不可能、不允許或不能考慮」。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-06": "「對某項說法、決定、做法或事實是否正確、合理或可靠表示懷疑」是「question + claim/decision/authority（動詞）」的用法，與本句語境不同。"
+        "question-mcq-09": "本句的「out of the question」指「完全不可能、不允許或不能考慮」。",
+        "question-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-09"
     },
@@ -920,11 +840,9 @@ export default {
       "masked": "There is ____ that she worked hard.",
       "options": [
         "question-mcq-10",
-        "question-mcq-09",
-        "question-mcq-11",
         "question-mcq-08",
-        "question-mcq-12",
-        "question-mcq-07"
+        "question-mcq-02",
+        "question-mcq-15"
       ],
       "explanation": "本句的「no question」指「沒有任何合理懷疑；毫無疑問」。",
       "sentenceIndex": 19,
@@ -933,12 +851,10 @@ export default {
         "no question"
       ],
       "optionReasons": {
-        "question-mcq-10": "本句指「沒有任何合理懷疑；毫無疑問」。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。"
+        "question-mcq-10": "本句的「no question」指「沒有任何合理懷疑；毫無疑問」。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-10"
     },
@@ -950,11 +866,9 @@ export default {
       "masked": "He is, ____, one of the most experienced people on the team.",
       "options": [
         "question-mcq-10",
-        "question-mcq-09",
-        "question-mcq-11",
+        "question-mcq-03",
         "question-mcq-08",
-        "question-mcq-12",
-        "question-mcq-07"
+        "question-mcq-15"
       ],
       "explanation": "本句的「without question」指「沒有任何合理懷疑；毫無疑問」。",
       "sentenceIndex": 20,
@@ -963,12 +877,10 @@ export default {
         "without question"
       ],
       "optionReasons": {
-        "question-mcq-10": "本句指「沒有任何合理懷疑；毫無疑問」。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-07": "「令某項說法、判斷或可信性變得值得懷疑」是「Fixed expression: call something into question — 對……提出質疑」的用法，與本句語境不同。"
+        "question-mcq-10": "本句的「without question」指「沒有任何合理懷疑；毫無疑問」。",
+        "question-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-10"
     },
@@ -980,11 +892,9 @@ export default {
       "masked": "He finally ____ during their trip.",
       "options": [
         "question-mcq-11",
-        "question-mcq-10",
-        "question-mcq-12",
-        "question-mcq-09",
-        "question-mcq-13",
-        "question-mcq-08"
+        "question-mcq-07",
+        "question-mcq-15",
+        "question-mcq-14"
       ],
       "explanation": "本句的「popped the question」指「向某人提出結婚要求；非正式」。",
       "sentenceIndex": 21,
@@ -993,12 +903,10 @@ export default {
         "popped the question"
       ],
       "optionReasons": {
-        "question-mcq-11": "本句指「向某人提出結婚要求；非正式」。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。"
+        "question-mcq-11": "本句的「popped the question」指「向某人提出結婚要求；非正式」。",
+        "question-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-11"
     },
@@ -1010,11 +918,9 @@ export default {
       "masked": "She knew he was planning to ____.",
       "options": [
         "question-mcq-11",
-        "question-mcq-10",
-        "question-mcq-12",
+        "question-mcq-15",
         "question-mcq-09",
-        "question-mcq-13",
-        "question-mcq-08"
+        "question-mcq-07"
       ],
       "explanation": "本句的「pop the question」指「向某人提出結婚要求；非正式」。",
       "sentenceIndex": 22,
@@ -1023,12 +929,10 @@ export default {
         "pop the question"
       ],
       "optionReasons": {
-        "question-mcq-11": "本句指「向某人提出結婚要求；非正式」。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-08": "「正在被談論、考慮、調查或提及的那個人／事物」是「Fixed expression: in question — 正在討論的／相關的」的用法，與本句語境不同。"
+        "question-mcq-11": "本句的「pop the question」指「向某人提出結婚要求；非正式」。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-11"
     },
@@ -1040,11 +944,9 @@ export default {
       "masked": "The report is based on ____.",
       "options": [
         "question-mcq-12",
-        "question-mcq-11",
-        "question-mcq-13",
-        "question-mcq-10",
-        "question-mcq-14",
-        "question-mcq-09"
+        "question-mcq-09",
+        "question-mcq-01",
+        "question-mcq-02"
       ],
       "explanation": "本句的「questionable evidence」指「真實性、正確性、品質、道德或合理性值得懷疑的」。",
       "sentenceIndex": 23,
@@ -1053,12 +955,10 @@ export default {
         "questionable evidence"
       ],
       "optionReasons": {
-        "question-mcq-12": "本句指「真實性、正確性、品質、道德或合理性值得懷疑的」。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-14": "「以沒有合理疑問或爭議的程度；毫無疑問地」是「Related form: unquestionably」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。"
+        "question-mcq-12": "本句的「questionable evidence」指「真實性、正確性、品質、道德或合理性值得懷疑的」。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-12"
     },
@@ -1070,11 +970,9 @@ export default {
       "masked": "That was a ____.",
       "options": [
         "question-mcq-12",
-        "question-mcq-11",
-        "question-mcq-13",
-        "question-mcq-10",
-        "question-mcq-14",
-        "question-mcq-09"
+        "question-mcq-02",
+        "question-mcq-09",
+        "question-mcq-15"
       ],
       "explanation": "本句的「questionable decision」指「真實性、正確性、品質、道德或合理性值得懷疑的」。",
       "sentenceIndex": 24,
@@ -1083,12 +981,10 @@ export default {
         "questionable decision"
       ],
       "optionReasons": {
-        "question-mcq-12": "本句指「真實性、正確性、品質、道德或合理性值得懷疑的」。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。",
-        "question-mcq-14": "「以沒有合理疑問或爭議的程度；毫無疑問地」是「Related form: unquestionably」的用法，與本句語境不同。",
-        "question-mcq-09": "「完全不可能、不允許或不能考慮」是「Fixed expression: out of the question — 不可能；絕對不行」的用法，與本句語境不同。"
+        "question-mcq-12": "本句的「questionable decision」指「真實性、正確性、品質、道德或合理性值得懷疑的」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-12"
     },
@@ -1100,11 +996,9 @@ export default {
       "masked": "Her talent is ____.",
       "options": [
         "question-mcq-13",
-        "question-mcq-12",
-        "question-mcq-14",
-        "question-mcq-11",
-        "question-mcq-15",
-        "question-mcq-10"
+        "question-mcq-02",
+        "question-mcq-08",
+        "question-mcq-01"
       ],
       "explanation": "本句的「unquestionable」指「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」。",
       "sentenceIndex": 25,
@@ -1113,12 +1007,10 @@ export default {
         "unquestionable"
       ],
       "optionReasons": {
-        "question-mcq-13": "本句指「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-14": "「以沒有合理疑問或爭議的程度；毫無疑問地」是「Related form: unquestionably」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-15": "「為收集資料而設計、由一系列問題組成的書面或電子問卷」是「Related form: questionnaire」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。"
+        "question-mcq-13": "本句的「unquestionable」指「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-13"
     },
@@ -1130,11 +1022,9 @@ export default {
       "masked": "The evidence shows his ____ influence on the field.",
       "options": [
         "question-mcq-13",
-        "question-mcq-12",
-        "question-mcq-14",
-        "question-mcq-11",
+        "question-mcq-08",
         "question-mcq-15",
-        "question-mcq-10"
+        "question-mcq-02"
       ],
       "explanation": "本句的「unquestionable」指「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」。",
       "sentenceIndex": 26,
@@ -1143,12 +1033,10 @@ export default {
         "unquestionable"
       ],
       "optionReasons": {
-        "question-mcq-13": "本句指「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-14": "「以沒有合理疑問或爭議的程度；毫無疑問地」是「Related form: unquestionably」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-15": "「為收集資料而設計、由一系列問題組成的書面或電子問卷」是「Related form: questionnaire」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。"
+        "question-mcq-13": "本句的「unquestionable」指「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-13"
     },
@@ -1160,11 +1048,9 @@ export default {
       "masked": "She is ____ talented.",
       "options": [
         "question-mcq-14",
-        "question-mcq-13",
-        "question-mcq-15",
-        "question-mcq-12",
         "question-mcq-11",
-        "question-mcq-10"
+        "question-mcq-07",
+        "question-mcq-15"
       ],
       "explanation": "本句的「unquestionably」指「以沒有合理疑問或爭議的程度；毫無疑問地」。",
       "sentenceIndex": 27,
@@ -1173,12 +1059,10 @@ export default {
         "unquestionably"
       ],
       "optionReasons": {
-        "question-mcq-14": "本句指「以沒有合理疑問或爭議的程度；毫無疑問地」。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-15": "「為收集資料而設計、由一系列問題組成的書面或電子問卷」是「Related form: questionnaire」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。"
+        "question-mcq-14": "本句的「unquestionably」指「以沒有合理疑問或爭議的程度；毫無疑問地」。",
+        "question-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-14"
     },
@@ -1190,11 +1074,9 @@ export default {
       "masked": "The project was ____ successful.",
       "options": [
         "question-mcq-14",
-        "question-mcq-13",
-        "question-mcq-15",
-        "question-mcq-12",
-        "question-mcq-11",
-        "question-mcq-10"
+        "question-mcq-02",
+        "question-mcq-08",
+        "question-mcq-15"
       ],
       "explanation": "本句的「unquestionably」指「以沒有合理疑問或爭議的程度；毫無疑問地」。",
       "sentenceIndex": 28,
@@ -1203,12 +1085,10 @@ export default {
         "unquestionably"
       ],
       "optionReasons": {
-        "question-mcq-14": "本句指「以沒有合理疑問或爭議的程度；毫無疑問地」。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-15": "「為收集資料而設計、由一系列問題組成的書面或電子問卷」是「Related form: questionnaire」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。"
+        "question-mcq-14": "本句的「unquestionably」指「以沒有合理疑問或爭議的程度；毫無疑問地」。",
+        "question-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-14"
     },
@@ -1220,11 +1100,9 @@ export default {
       "masked": "Participants completed a short ____.",
       "options": [
         "question-mcq-15",
-        "question-mcq-14",
-        "question-mcq-13",
+        "question-mcq-09",
         "question-mcq-12",
-        "question-mcq-11",
-        "question-mcq-10"
+        "question-mcq-11"
       ],
       "explanation": "本句的「questionnaire」指「為收集資料而設計、由一系列問題組成的書面或電子問卷」。",
       "sentenceIndex": 29,
@@ -1233,12 +1111,10 @@ export default {
         "questionnaire"
       ],
       "optionReasons": {
-        "question-mcq-15": "本句指「為收集資料而設計、由一系列問題組成的書面或電子問卷」。",
-        "question-mcq-14": "「以沒有合理疑問或爭議的程度；毫無疑問地」是「Related form: unquestionably」的用法，與本句語境不同。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。"
+        "question-mcq-15": "本句的「questionnaire」指「為收集資料而設計、由一系列問題組成的書面或電子問卷」。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-15"
     },
@@ -1250,11 +1126,9 @@ export default {
       "masked": "The ____ asks about travel habits.",
       "options": [
         "question-mcq-15",
-        "question-mcq-14",
-        "question-mcq-13",
-        "question-mcq-12",
         "question-mcq-11",
-        "question-mcq-10"
+        "question-mcq-07",
+        "question-mcq-09"
       ],
       "explanation": "本句的「questionnaire」指「為收集資料而設計、由一系列問題組成的書面或電子問卷」。",
       "sentenceIndex": 30,
@@ -1263,12 +1137,10 @@ export default {
         "questionnaire"
       ],
       "optionReasons": {
-        "question-mcq-15": "本句指「為收集資料而設計、由一系列問題組成的書面或電子問卷」。",
-        "question-mcq-14": "「以沒有合理疑問或爭議的程度；毫無疑問地」是「Related form: unquestionably」的用法，與本句語境不同。",
-        "question-mcq-13": "「十分明確、確定或可靠，幾乎沒有合理懷疑空間的」是「Related form: unquestionable」的用法，與本句語境不同。",
-        "question-mcq-12": "「真實性、正確性、品質、道德或合理性值得懷疑的」是「Related form: questionable」的用法，與本句語境不同。",
-        "question-mcq-11": "「向某人提出結婚要求；非正式」是「Fixed expression: pop the question — 求婚」的用法，與本句語境不同。",
-        "question-mcq-10": "「沒有任何合理懷疑；毫無疑問」是「Fixed expression: no question / without question — 毫無疑問」的用法，與本句語境不同。"
+        "question-mcq-15": "本句的「questionnaire」指「為收集資料而設計、由一系列問題組成的書面或電子問卷」。",
+        "question-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "question-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "question-mcq-15"
     }
@@ -1280,5 +1152,7 @@ export default {
     "sha256": "5c2dca047b2ddcba76ba2c6f38ffbac0a557b76affe3655046af5a90ed4dd000",
     "pages": 13
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

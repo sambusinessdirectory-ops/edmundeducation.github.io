@@ -900,11 +900,9 @@ export default {
       "masked": "Sometimes ____ is like trying to keep up with a tiny scientist.",
       "options": [
         "talk-mcq-01",
-        "talk-mcq-02",
-        "talk-mcq-03",
-        "talk-mcq-04",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-16",
+        "talk-mcq-28",
+        "talk-mcq-27"
       ],
       "explanation": "本句的「talking to him」指「跟某人交談」。",
       "sentenceIndex": 0,
@@ -913,12 +911,10 @@ export default {
         "talking to him"
       ],
       "optionReasons": {
-        "talk-mcq-01": "本句指「跟某人交談」。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-01": "本句的「talking to him」指「跟某人交談」。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-01"
     },
@@ -930,11 +926,9 @@ export default {
       "masked": "I really enjoy ____ because she always listens carefully.",
       "options": [
         "talk-mcq-01",
-        "talk-mcq-02",
-        "talk-mcq-03",
-        "talk-mcq-04",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-28",
+        "talk-mcq-37",
+        "talk-mcq-33"
       ],
       "explanation": "本句的「talking to my grandmother」指「跟某人交談」。",
       "sentenceIndex": 1,
@@ -943,12 +937,10 @@ export default {
         "talking to my grandmother"
       ],
       "optionReasons": {
-        "talk-mcq-01": "本句指「跟某人交談」。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-01": "本句的「talking to my grandmother」指「跟某人交談」。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-01"
     },
@@ -960,11 +952,9 @@ export default {
       "masked": "She spent half an hour ____ outside the building.",
       "options": [
         "talk-mcq-01",
-        "talk-mcq-02",
-        "talk-mcq-03",
-        "talk-mcq-04",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-25",
+        "talk-mcq-13",
+        "talk-mcq-18"
       ],
       "explanation": "本句的「talking with her neighbour」指「跟某人交談」。",
       "sentenceIndex": 2,
@@ -973,12 +963,10 @@ export default {
         "talking with her neighbour"
       ],
       "optionReasons": {
-        "talk-mcq-01": "本句指「跟某人交談」。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-01": "本句的「talking with her neighbour」指「跟某人交談」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-01"
     },
@@ -990,11 +978,9 @@ export default {
       "masked": "We spent most of dinner ____.",
       "options": [
         "talk-mcq-02",
-        "talk-mcq-01",
-        "talk-mcq-03",
-        "talk-mcq-04",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-18",
+        "talk-mcq-29",
+        "talk-mcq-33"
       ],
       "explanation": "本句的「talking about our holiday plans」指「談論某事」。",
       "sentenceIndex": 3,
@@ -1003,12 +989,10 @@ export default {
         "talking about our holiday plans"
       ],
       "optionReasons": {
-        "talk-mcq-02": "本句指「談論某事」。",
-        "talk-mcq-01": "「跟某人交談」是「talk to/with someone」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-02": "本句的「talking about our holiday plans」指「談論某事」。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-02"
     },
@@ -1020,11 +1004,9 @@ export default {
       "masked": "He loves ____.",
       "options": [
         "talk-mcq-02",
-        "talk-mcq-01",
-        "talk-mcq-03",
-        "talk-mcq-04",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-11",
+        "talk-mcq-16",
+        "talk-mcq-25"
       ],
       "explanation": "本句的「talking about science and space」指「談論某事」。",
       "sentenceIndex": 4,
@@ -1033,12 +1015,10 @@ export default {
         "talking about science and space"
       ],
       "optionReasons": {
-        "talk-mcq-02": "本句指「談論某事」。",
-        "talk-mcq-01": "「跟某人交談」是「talk to/with someone」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-02": "本句的「talking about science and space」指「談論某事」。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-02"
     },
@@ -1050,11 +1030,9 @@ export default {
       "masked": "They often ____.",
       "options": [
         "talk-mcq-03",
-        "talk-mcq-02",
-        "talk-mcq-04",
-        "talk-mcq-01",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-18",
+        "talk-mcq-14",
+        "talk-mcq-11"
       ],
       "explanation": "本句的「talk of the years they spent abroad」指「談及；提起」。",
       "sentenceIndex": 5,
@@ -1063,12 +1041,10 @@ export default {
         "talk of the years they spent abroad"
       ],
       "optionReasons": {
-        "talk-mcq-03": "本句指「談及；提起」。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-01": "「跟某人交談」是「talk to/with someone」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-03": "本句的「talk of the years they spent abroad」指「談及；提起」。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-03"
     },
@@ -1080,11 +1056,9 @@ export default {
       "masked": "Everyone was ____.",
       "options": [
         "talk-mcq-03",
-        "talk-mcq-02",
-        "talk-mcq-04",
-        "talk-mcq-01",
-        "talk-mcq-05",
-        "talk-mcq-06"
+        "talk-mcq-12",
+        "talk-mcq-16",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「talking of her remarkable performance」指「談及；提起」。",
       "sentenceIndex": 6,
@@ -1093,12 +1067,10 @@ export default {
         "talking of her remarkable performance"
       ],
       "optionReasons": {
-        "talk-mcq-03": "本句指「談及；提起」。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-01": "「跟某人交談」是「talk to/with someone」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-mcq-03": "本句的「talking of her remarkable performance」指「談及；提起」。",
+        "talk-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-03"
     },
@@ -1110,11 +1082,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "talk-mcq-04",
-        "talk-mcq-03",
-        "talk-mcq-05",
-        "talk-mcq-02",
-        "talk-mcq-06",
-        "talk-mcq-01"
+        "talk-mcq-23",
+        "talk-mcq-37",
+        "talk-mcq-29"
       ],
       "explanation": "本句的「talk to your teacher about the problem」指「跟某人談 X」。",
       "sentenceIndex": 7,
@@ -1123,12 +1093,10 @@ export default {
         "talk to your teacher about the problem"
       ],
       "optionReasons": {
-        "talk-mcq-04": "本句指「跟某人談 X」。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。",
-        "talk-mcq-01": "「跟某人交談」是「talk to/with someone」的用法，與本句語境不同。"
+        "talk-mcq-04": "本句的「talk to your teacher about the problem」指「跟某人談 X」。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-04"
     },
@@ -1140,11 +1108,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "talk-mcq-04",
-        "talk-mcq-03",
-        "talk-mcq-05",
-        "talk-mcq-02",
-        "talk-mcq-06",
-        "talk-mcq-01"
+        "talk-mcq-28",
+        "talk-pdf-001",
+        "talk-mcq-22"
       ],
       "explanation": "本句的「talk to my manager about my schedule」指「跟某人談 X」。",
       "sentenceIndex": 8,
@@ -1153,12 +1119,10 @@ export default {
         "talk to my manager about my schedule"
       ],
       "optionReasons": {
-        "talk-mcq-04": "本句指「跟某人談 X」。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-02": "「談論某事」是「talk about something」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。",
-        "talk-mcq-01": "「跟某人交談」是「talk to/with someone」的用法，與本句語境不同。"
+        "talk-mcq-04": "本句的「talk to my manager about my schedule」指「跟某人談 X」。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-04"
     },
@@ -1170,11 +1134,9 @@ export default {
       "masked": "We need to ____ about what happened yesterday.",
       "options": [
         "talk-mcq-36",
-        "talk-mcq-35",
-        "talk-mcq-37",
-        "talk-mcq-34",
-        "talk-mcq-38",
-        "talk-mcq-33"
+        "talk-mcq-10",
+        "talk-mcq-14",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「talk」指「就重要問題進行較認真的討論或商談」。",
       "sentenceIndex": 9,
@@ -1183,12 +1145,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-36": "本句指「就重要問題進行較認真的討論或商談」。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。"
+        "talk-mcq-36": "本句的「talk」指「就重要問題進行較認真的討論或商談」。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-36"
     },
@@ -1200,11 +1160,9 @@ export default {
       "masked": "The two sides agreed to ____ before making a final decision.",
       "options": [
         "talk-mcq-36",
-        "talk-mcq-35",
-        "talk-mcq-37",
-        "talk-mcq-34",
-        "talk-mcq-38",
-        "talk-mcq-33"
+        "talk-mcq-18",
+        "talk-mcq-33",
+        "talk-mcq-12"
       ],
       "explanation": "本句的「talk」指「就重要問題進行較認真的討論或商談」。",
       "sentenceIndex": 10,
@@ -1213,12 +1171,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-36": "本句指「就重要問題進行較認真的討論或商談」。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。"
+        "talk-mcq-36": "本句的「talk」指「就重要問題進行較認真的討論或商談」。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-36"
     },
@@ -1230,11 +1186,9 @@ export default {
       "masked": "Let's have lunch and ____.",
       "options": [
         "talk-mcq-06",
-        "talk-mcq-05",
-        "talk-mcq-07",
-        "talk-mcq-04",
-        "talk-mcq-08",
-        "talk-mcq-03"
+        "talk-mcq-25",
+        "talk-mcq-13",
+        "talk-mcq-15"
       ],
       "explanation": "本句的「talk business」指「談生意／政治」。",
       "sentenceIndex": 11,
@@ -1243,12 +1197,10 @@ export default {
         "talk business"
       ],
       "optionReasons": {
-        "talk-mcq-06": "本句指「談生意／政治」。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。"
+        "talk-mcq-06": "本句的「talk business」指「談生意／政治」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-06"
     },
@@ -1260,11 +1212,9 @@ export default {
       "masked": "My parents try not to ____ at family dinners.",
       "options": [
         "talk-mcq-06",
-        "talk-mcq-05",
-        "talk-mcq-07",
-        "talk-mcq-04",
-        "talk-mcq-08",
-        "talk-mcq-03"
+        "talk-mcq-25",
+        "talk-mcq-13",
+        "talk-mcq-41"
       ],
       "explanation": "本句的「talk politics」指「談生意／政治」。",
       "sentenceIndex": 12,
@@ -1273,12 +1223,10 @@ export default {
         "talk politics"
       ],
       "optionReasons": {
-        "talk-mcq-06": "本句指「談生意／政治」。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-03": "「談及；提起」是「talk of something」的用法，與本句語境不同。"
+        "talk-mcq-06": "本句的「talk politics」指「談生意／政治」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-06"
     },
@@ -1290,11 +1238,9 @@ export default {
       "masked": "The baby is beginning to ____.",
       "options": [
         "talk-pdf-001",
-        "talk-mcq-06",
-        "talk-mcq-08",
-        "talk-mcq-05",
-        "talk-mcq-09",
-        "talk-mcq-04"
+        "talk-mcq-04",
+        "talk-mcq-25",
+        "talk-mcq-14"
       ],
       "explanation": "本句的「talk」指「用口語說話；發出有意義的語言」。",
       "sentenceIndex": 13,
@@ -1303,12 +1249,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-pdf-001": "本句指「用口語說話；發出有意義的語言」。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。"
+        "talk-pdf-001": "本句的「talk」指「用口語說話；發出有意義的語言」。",
+        "talk-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-pdf-001"
     },
@@ -1320,11 +1264,9 @@ export default {
       "masked": "He was so nervous that he could hardly ____.",
       "options": [
         "talk-pdf-001",
-        "talk-mcq-06",
-        "talk-mcq-08",
-        "talk-mcq-05",
-        "talk-mcq-09",
-        "talk-mcq-04"
+        "talk-mcq-14",
+        "talk-mcq-02",
+        "talk-mcq-25"
       ],
       "explanation": "本句的「talk」指「用口語說話；發出有意義的語言」。",
       "sentenceIndex": 14,
@@ -1333,12 +1275,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-pdf-001": "本句指「用口語說話；發出有意義的語言」。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-05": "「我們需要談談」是「we need to talk」的用法，與本句語境不同。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
-        "talk-mcq-04": "「跟某人談 X」是「talk to someone about X」的用法，與本句語境不同。"
+        "talk-pdf-001": "本句的「talk」指「用口語說話；發出有意義的語言」。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-pdf-001"
     },
@@ -1351,10 +1291,8 @@ export default {
       "options": [
         "talk-mcq-37",
         "talk-mcq-36",
-        "talk-mcq-38",
-        "talk-mcq-35",
-        "talk-mcq-39",
-        "talk-mcq-34"
+        "talk-mcq-18",
+        "talk-pdf-002"
       ],
       "explanation": "本句的「talk」指「具備使用口語表達自己的能力」。",
       "sentenceIndex": 15,
@@ -1363,12 +1301,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-37": "本句指「具備使用口語表達自己的能力」。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。"
+        "talk-mcq-37": "本句的「talk」指「具備使用口語表達自己的能力」。",
+        "talk-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-37"
     },
@@ -1381,10 +1317,8 @@ export default {
       "options": [
         "talk-mcq-37",
         "talk-mcq-36",
-        "talk-mcq-38",
-        "talk-mcq-35",
-        "talk-mcq-39",
-        "talk-mcq-34"
+        "talk-mcq-31",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「talk」指「具備使用口語表達自己的能力」。",
       "sentenceIndex": 16,
@@ -1393,12 +1327,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-37": "本句指「具備使用口語表達自己的能力」。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。"
+        "talk-mcq-37": "本句的「talk」指「具備使用口語表達自己的能力」。",
+        "talk-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-37"
     },
@@ -1410,11 +1342,9 @@ export default {
       "masked": "He ____ when he is nervous.",
       "options": [
         "talk-mcq-38",
-        "talk-mcq-37",
-        "talk-mcq-39",
-        "talk-mcq-36",
-        "talk-mcq-40",
-        "talk-mcq-35"
+        "talk-mcq-06",
+        "talk-mcq-14",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「talks very quietly」指「以某種速度、音量、語氣等方式說話」。",
       "sentenceIndex": 17,
@@ -1423,12 +1353,10 @@ export default {
         "talks very quietly"
       ],
       "optionReasons": {
-        "talk-mcq-38": "本句指「以某種速度、音量、語氣等方式說話」。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-40": "「雙方或多方為達成協議而進行的正式會談或談判」是「21. talks (plural noun) — 會談；談判」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。"
+        "talk-mcq-38": "本句的「talks very quietly」指「以某種速度、音量、語氣等方式說話」。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-38"
     },
@@ -1440,11 +1368,9 @@ export default {
       "masked": "Don't ____; I can't follow you.",
       "options": [
         "talk-mcq-38",
-        "talk-mcq-37",
-        "talk-mcq-39",
-        "talk-mcq-36",
-        "talk-mcq-40",
-        "talk-mcq-35"
+        "talk-mcq-12",
+        "talk-mcq-21",
+        "talk-mcq-25"
       ],
       "explanation": "本句的「talk so fast」指「以某種速度、音量、語氣等方式說話」。",
       "sentenceIndex": 18,
@@ -1453,12 +1379,10 @@ export default {
         "talk so fast"
       ],
       "optionReasons": {
-        "talk-mcq-38": "本句指「以某種速度、音量、語氣等方式說話」。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-40": "「雙方或多方為達成協議而進行的正式會談或談判」是「21. talks (plural noun) — 會談；談判」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。"
+        "talk-mcq-38": "本句的「talk so fast」指「以某種速度、音量、語氣等方式說話」。",
+        "talk-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-38"
     },
@@ -1470,11 +1394,9 @@ export default {
       "masked": "He is always ____, but he never actually does anything.",
       "options": [
         "talk-pdf-002",
-        "talk-mcq-08",
-        "talk-mcq-10",
-        "talk-mcq-07",
-        "talk-mcq-11",
-        "talk-mcq-06"
+        "talk-mcq-25",
+        "talk-mcq-39",
+        "talk-mcq-37"
       ],
       "explanation": "本句的「talking」指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
       "sentenceIndex": 19,
@@ -1483,12 +1405,10 @@ export default {
         "talking"
       ],
       "optionReasons": {
-        "talk-pdf-002": "本句指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
-        "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-pdf-002": "本句的「talking」指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-pdf-002"
     },
@@ -1500,11 +1420,9 @@ export default {
       "masked": "We need action, not just ____.",
       "options": [
         "talk-pdf-002",
-        "talk-mcq-08",
-        "talk-mcq-10",
-        "talk-mcq-07",
-        "talk-mcq-11",
-        "talk-mcq-06"
+        "talk-mcq-14",
+        "talk-mcq-39",
+        "talk-mcq-13"
       ],
       "explanation": "本句的「talk」指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
       "sentenceIndex": 20,
@@ -1513,12 +1431,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-pdf-002": "本句指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
-        "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-06": "「談生意／政治」是「talk business/politics」的用法，與本句語境不同。"
+        "talk-pdf-002": "本句的「talk」指「言談、說法；有時帶有「只有說、沒有行動」的意思」。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-pdf-002"
     },
@@ -1530,11 +1446,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "talk-mcq-10",
-        "talk-mcq-09",
-        "talk-mcq-11",
-        "talk-mcq-08",
-        "talk-mcq-12",
-        "talk-mcq-07"
+        "talk-mcq-31",
+        "talk-mcq-33",
+        "talk-mcq-13"
       ],
       "explanation": "本句的「talked me into applying for the job」指「說服某人做 X」。",
       "sentenceIndex": 21,
@@ -1543,12 +1457,10 @@ export default {
         "talked me into applying for the job"
       ],
       "optionReasons": {
-        "talk-mcq-10": "本句指「說服某人做 X」。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。"
+        "talk-mcq-10": "本句的「talked me into applying for the job」指「說服某人做 X」。",
+        "talk-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-10"
     },
@@ -1560,11 +1472,9 @@ export default {
       "masked": "He somehow ____.",
       "options": [
         "talk-mcq-10",
-        "talk-mcq-09",
-        "talk-mcq-11",
-        "talk-mcq-08",
-        "talk-mcq-12",
-        "talk-mcq-07"
+        "talk-mcq-25",
+        "talk-mcq-06",
+        "talk-mcq-26"
       ],
       "explanation": "本句的「talked his parents into buying him a bicycle」指「說服某人做 X」。",
       "sentenceIndex": 22,
@@ -1573,12 +1483,10 @@ export default {
         "talked his parents into buying him a bicycle"
       ],
       "optionReasons": {
-        "talk-mcq-10": "本句指「說服某人做 X」。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-07": "「學會說話」是「learn to talk」的用法，與本句語境不同。"
+        "talk-mcq-10": "本句的「talked his parents into buying him a bicycle」指「說服某人做 X」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-10"
     },
@@ -1590,11 +1498,9 @@ export default {
       "masked": "I tried to ____.",
       "options": [
         "talk-mcq-11",
-        "talk-mcq-10",
-        "talk-mcq-12",
-        "talk-mcq-09",
-        "talk-mcq-13",
-        "talk-mcq-08"
+        "talk-mcq-41",
+        "talk-pdf-003",
+        "talk-mcq-25"
       ],
       "explanation": "本句的「talk him out of quitting his job」指「勸某人不要做 X」。",
       "sentenceIndex": 23,
@@ -1603,12 +1509,10 @@ export default {
         "talk him out of quitting his job"
       ],
       "optionReasons": {
-        "talk-mcq-11": "本句指「勸某人不要做 X」。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。"
+        "talk-mcq-11": "本句的「talk him out of quitting his job」指「勸某人不要做 X」。",
+        "talk-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "talk-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-11"
     },
@@ -1620,11 +1524,9 @@ export default {
       "masked": "Her friends ____.",
       "options": [
         "talk-mcq-11",
-        "talk-mcq-10",
-        "talk-mcq-12",
-        "talk-mcq-09",
-        "talk-mcq-13",
-        "talk-mcq-08"
+        "talk-mcq-21",
+        "talk-mcq-14",
+        "talk-mcq-22"
       ],
       "explanation": "本句的「talked her out of making a rushed decision」指「勸某人不要做 X」。",
       "sentenceIndex": 24,
@@ -1633,12 +1535,10 @@ export default {
         "talked her out of making a rushed decision"
       ],
       "optionReasons": {
-        "talk-mcq-11": "本句指「勸某人不要做 X」。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-08": "「說得快／小聲」是「talk fast/quietly」的用法，與本句語境不同。"
+        "talk-mcq-11": "本句的「talked her out of making a rushed decision」指「勸某人不要做 X」。",
+        "talk-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-11"
     },
@@ -1650,11 +1550,9 @@ export default {
       "masked": "The technician ____.",
       "options": [
         "talk-mcq-12",
-        "talk-mcq-11",
-        "talk-mcq-13",
-        "talk-mcq-10",
-        "talk-mcq-14",
-        "talk-mcq-09"
+        "talk-mcq-30",
+        "talk-mcq-31",
+        "talk-mcq-29"
       ],
       "explanation": "本句的「talked me through the installation process」指「逐步向某人解釋 X」。",
       "sentenceIndex": 25,
@@ -1663,12 +1561,10 @@ export default {
         "talked me through the installation process"
       ],
       "optionReasons": {
-        "talk-mcq-12": "本句指「逐步向某人解釋 X」。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。"
+        "talk-mcq-12": "本句的「talked me through the installation process」指「逐步向某人解釋 X」。",
+        "talk-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-12"
     },
@@ -1680,11 +1576,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "talk-mcq-12",
-        "talk-mcq-11",
-        "talk-mcq-13",
-        "talk-mcq-10",
-        "talk-mcq-14",
-        "talk-mcq-09"
+        "talk-mcq-32",
+        "talk-mcq-18",
+        "talk-mcq-33"
       ],
       "explanation": "本句的「talked him through what to do in an emergency」指「逐步向某人解釋 X」。",
       "sentenceIndex": 26,
@@ -1693,12 +1587,10 @@ export default {
         "talked him through what to do in an emergency"
       ],
       "optionReasons": {
-        "talk-mcq-12": "本句指「逐步向某人解釋 X」。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-09": "「只會說、不行動」是「all talk, no action」的用法，與本句語境不同。"
+        "talk-mcq-12": "本句的「talked him through what to do in an emergency」指「逐步向某人解釋 X」。",
+        "talk-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-12"
     },
@@ -1711,10 +1603,8 @@ export default {
       "options": [
         "talk-mcq-13",
         "talk-mcq-12",
-        "talk-mcq-14",
-        "talk-mcq-11",
-        "talk-mcq-15",
-        "talk-mcq-10"
+        "talk-mcq-21",
+        "talk-mcq-25"
       ],
       "explanation": "本句的「talk it over」指「商量；仔細討論」。",
       "sentenceIndex": 27,
@@ -1723,12 +1613,10 @@ export default {
         "talk it over"
       ],
       "optionReasons": {
-        "talk-mcq-13": "本句指「商量；仔細討論」。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。"
+        "talk-mcq-13": "本句的「talk it over」指「商量；仔細討論」。",
+        "talk-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-13"
     },
@@ -1740,11 +1628,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "talk-mcq-13",
-        "talk-mcq-12",
-        "talk-mcq-14",
-        "talk-mcq-11",
-        "talk-mcq-15",
-        "talk-mcq-10"
+        "talk-mcq-33",
+        "talk-mcq-32",
+        "talk-mcq-06"
       ],
       "explanation": "本句的「talked the problem over with her parents」指「商量；仔細討論」。",
       "sentenceIndex": 28,
@@ -1753,12 +1639,10 @@ export default {
         "talked the problem over with her parents"
       ],
       "optionReasons": {
-        "talk-mcq-13": "本句指「商量；仔細討論」。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。",
-        "talk-mcq-10": "「說服某人做 X」是「talk someone into X」的用法，與本句語境不同。"
+        "talk-mcq-13": "本句的「talked the problem over with her parents」指「商量；仔細討論」。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-13"
     },
@@ -1770,11 +1654,9 @@ export default {
       "masked": "Don't ____ to your mother.",
       "options": [
         "talk-mcq-14",
-        "talk-mcq-13",
-        "talk-mcq-15",
-        "talk-mcq-12",
-        "talk-mcq-16",
-        "talk-mcq-11"
+        "talk-mcq-18",
+        "talk-mcq-04",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「talk back」指「頂嘴」。",
       "sentenceIndex": 29,
@@ -1783,12 +1665,10 @@ export default {
         "talk back"
       ],
       "optionReasons": {
-        "talk-mcq-14": "本句指「頂嘴」。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。"
+        "talk-mcq-14": "本句的「talk back」指「頂嘴」。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-14"
     },
@@ -1800,11 +1680,9 @@ export default {
       "masked": "The teacher was annoyed because the student kept ____.",
       "options": [
         "talk-mcq-14",
-        "talk-mcq-13",
         "talk-mcq-15",
-        "talk-mcq-12",
-        "talk-mcq-16",
-        "talk-mcq-11"
+        "talk-mcq-37",
+        "talk-mcq-30"
       ],
       "explanation": "本句的「talking back」指「頂嘴」。",
       "sentenceIndex": 30,
@@ -1813,12 +1691,10 @@ export default {
         "talking back"
       ],
       "optionReasons": {
-        "talk-mcq-14": "本句指「頂嘴」。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。",
-        "talk-mcq-11": "「勸某人不要做 X」是「talk someone out of X」的用法，與本句語境不同。"
+        "talk-mcq-14": "本句的「talking back」指「頂嘴」。",
+        "talk-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-14"
     },
@@ -1830,11 +1706,9 @@ export default {
       "masked": "I dislike people who ____.",
       "options": [
         "talk-mcq-15",
-        "talk-mcq-14",
-        "talk-mcq-16",
-        "talk-mcq-13",
-        "talk-mcq-17",
-        "talk-mcq-12"
+        "talk-mcq-31",
+        "talk-mcq-28",
+        "talk-mcq-23"
       ],
       "explanation": "本句的「talk down to younger colleagues」指「居高臨下地說話」。",
       "sentenceIndex": 31,
@@ -1843,12 +1717,10 @@ export default {
         "talk down to younger colleagues"
       ],
       "optionReasons": {
-        "talk-mcq-15": "本句指「居高臨下地說話」。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。"
+        "talk-mcq-15": "本句的「talk down to younger colleagues」指「居高臨下地說話」。",
+        "talk-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-15"
     },
@@ -1860,11 +1732,9 @@ export default {
       "masked": "Please don't ____ as if I were a child.",
       "options": [
         "talk-mcq-15",
-        "talk-mcq-14",
-        "talk-mcq-16",
-        "talk-mcq-13",
-        "talk-mcq-17",
-        "talk-mcq-12"
+        "talk-mcq-37",
+        "talk-mcq-04",
+        "talk-mcq-16"
       ],
       "explanation": "本句的「talk down to me」指「居高臨下地說話」。",
       "sentenceIndex": 32,
@@ -1873,12 +1743,10 @@ export default {
         "talk down to me"
       ],
       "optionReasons": {
-        "talk-mcq-15": "本句指「居高臨下地說話」。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-12": "「逐步向某人解釋 X」是「talk someone through X」的用法，與本句語境不同。"
+        "talk-mcq-15": "本句的「talk down to me」指「居高臨下地說話」。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-15"
     },
@@ -1890,11 +1758,9 @@ export default {
       "masked": "The company has been ____.",
       "options": [
         "talk-mcq-16",
-        "talk-mcq-15",
-        "talk-mcq-17",
-        "talk-mcq-14",
-        "talk-mcq-18",
-        "talk-mcq-13"
+        "talk-mcq-38",
+        "talk-mcq-40",
+        "talk-mcq-22"
       ],
       "explanation": "本句的「talking up its new product」指「大力宣傳／稱讚」。",
       "sentenceIndex": 33,
@@ -1903,12 +1769,10 @@ export default {
         "talking up its new product"
       ],
       "optionReasons": {
-        "talk-mcq-16": "本句指「大力宣傳／稱讚」。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。"
+        "talk-mcq-16": "本句的「talking up its new product」指「大力宣傳／稱讚」。",
+        "talk-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-16"
     },
@@ -1920,11 +1784,9 @@ export default {
       "masked": "Everyone ____ before the interview.",
       "options": [
         "talk-mcq-16",
-        "talk-mcq-15",
-        "talk-mcq-17",
-        "talk-mcq-14",
-        "talk-mcq-18",
-        "talk-mcq-13"
+        "talk-mcq-29",
+        "talk-mcq-06",
+        "talk-mcq-26"
       ],
       "explanation": "本句的「talked her up」指「大力宣傳／稱讚」。",
       "sentenceIndex": 34,
@@ -1933,12 +1795,10 @@ export default {
         "talked her up"
       ],
       "optionReasons": {
-        "talk-mcq-16": "本句指「大力宣傳／稱讚」。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-14": "「頂嘴」是「talk back」的用法，與本句語境不同。",
-        "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。",
-        "talk-mcq-13": "「商量；仔細討論」是「talk something over」的用法，與本句語境不同。"
+        "talk-mcq-16": "本句的「talked her up」指「大力宣傳／稱讚」。",
+        "talk-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-16"
     },
@@ -1950,11 +1810,9 @@ export default {
       "masked": "The police hoped the suspect would eventually ____.",
       "options": [
         "talk-mcq-39",
-        "talk-mcq-38",
-        "talk-mcq-40",
-        "talk-mcq-37",
-        "talk-mcq-41",
-        "talk-mcq-36"
+        "talk-mcq-21",
+        "talk-mcq-27",
+        "talk-mcq-13"
       ],
       "explanation": "本句的「talk」指「向他人透露原本不願提供的資料，尤其在盤問或壓力下」。",
       "sentenceIndex": 35,
@@ -1963,12 +1821,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-39": "本句指「向他人透露原本不願提供的資料，尤其在盤問或壓力下」。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-40": "「雙方或多方為達成協議而進行的正式會談或談判」是「21. talks (plural noun) — 會談；談判」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-41": "「人們廣泛流傳但未必已證實的說法或議論」是「25. talk = rumours / speculation — 傳聞；議論」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。"
+        "talk-mcq-39": "本句的「talk」指「向他人透露原本不願提供的資料，尤其在盤問或壓力下」。",
+        "talk-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-39"
     },
@@ -1980,11 +1836,9 @@ export default {
       "masked": "He refused to ____, even after hours of questioning.",
       "options": [
         "talk-mcq-39",
-        "talk-mcq-38",
-        "talk-mcq-40",
-        "talk-mcq-37",
-        "talk-mcq-41",
-        "talk-mcq-36"
+        "talk-mcq-25",
+        "talk-mcq-27",
+        "talk-mcq-06"
       ],
       "explanation": "本句的「talk」指「向他人透露原本不願提供的資料，尤其在盤問或壓力下」。",
       "sentenceIndex": 36,
@@ -1993,12 +1847,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-39": "本句指「向他人透露原本不願提供的資料，尤其在盤問或壓力下」。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-40": "「雙方或多方為達成協議而進行的正式會談或談判」是「21. talks (plural noun) — 會談；談判」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-41": "「人們廣泛流傳但未必已證實的說法或議論」是「25. talk = rumours / speculation — 傳聞；議論」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。"
+        "talk-mcq-39": "本句的「talk」指「向他人透露原本不願提供的資料，尤其在盤問或壓力下」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-39"
     },
@@ -2010,11 +1862,9 @@ export default {
       "masked": "If they see us together, people will ____.",
       "options": [
         "talk-mcq-18",
-        "talk-mcq-17",
-        "talk-mcq-19",
+        "talk-mcq-22",
         "talk-mcq-16",
-        "talk-mcq-20",
-        "talk-mcq-15"
+        "talk-mcq-01"
       ],
       "explanation": "本句的「talk」指「人們會說閒話」。",
       "sentenceIndex": 37,
@@ -2023,12 +1873,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-18": "本句指「人們會說閒話」。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-19": "「政府正在談判」是「the governments are talking」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。"
+        "talk-mcq-18": "本句的「talk」指「人們會說閒話」。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-18"
     },
@@ -2040,11 +1888,9 @@ export default {
       "masked": "The sudden resignation really got the whole office ____.",
       "options": [
         "talk-mcq-18",
-        "talk-mcq-17",
-        "talk-mcq-19",
-        "talk-mcq-16",
-        "talk-mcq-20",
-        "talk-mcq-15"
+        "talk-mcq-36",
+        "talk-mcq-06",
+        "talk-mcq-16"
       ],
       "explanation": "本句的「talking」指「人們會說閒話」。",
       "sentenceIndex": 38,
@@ -2053,12 +1899,10 @@ export default {
         "talking"
       ],
       "optionReasons": {
-        "talk-mcq-18": "本句指「人們會說閒話」。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-19": "「政府正在談判」是「the governments are talking」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-15": "「居高臨下地說話」是「talk down to someone」的用法，與本句語境不同。"
+        "talk-mcq-18": "本句的「talking」指「人們會說閒話」。",
+        "talk-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-18"
     },
@@ -2070,11 +1914,9 @@ export default {
       "masked": "The two governments have agreed to ____.",
       "options": [
         "talk-pdf-003",
-        "talk-mcq-18",
-        "talk-mcq-20",
-        "talk-mcq-17",
-        "talk-mcq-21",
-        "talk-mcq-16"
+        "talk-mcq-13",
+        "talk-mcq-10",
+        "talk-mcq-25"
       ],
       "explanation": "本句的「talk」指「為解決分歧或達成協議而進行談判」。",
       "sentenceIndex": 39,
@@ -2083,12 +1925,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-pdf-003": "本句指「為解決分歧或達成協議而進行談判」。",
-        "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。"
+        "talk-pdf-003": "本句的「talk」指「為解決分歧或達成協議而進行談判」。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-pdf-003"
     },
@@ -2100,11 +1940,9 @@ export default {
       "masked": "Management and the union are finally ____.",
       "options": [
         "talk-pdf-003",
-        "talk-mcq-18",
-        "talk-mcq-20",
-        "talk-mcq-17",
-        "talk-mcq-21",
-        "talk-mcq-16"
+        "talk-mcq-28",
+        "talk-mcq-10",
+        "talk-mcq-30"
       ],
       "explanation": "本句的「talking again」指「為解決分歧或達成協議而進行談判」。",
       "sentenceIndex": 40,
@@ -2113,12 +1951,10 @@ export default {
         "talking again"
       ],
       "optionReasons": {
-        "talk-pdf-003": "本句指「為解決分歧或達成協議而進行談判」。",
-        "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-17": "「疑犯開口供出資料」是「the suspect talked」的用法，與本句語境不同。",
-        "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
-        "talk-mcq-16": "「大力宣傳／稱讚」是「talk up X」的用法，與本句語境不同。"
+        "talk-pdf-003": "本句的「talking again」指「為解決分歧或達成協議而進行談判」。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-pdf-003"
     },
@@ -2130,11 +1966,9 @@ export default {
       "masked": "Peace ____ resumed on Monday.",
       "options": [
         "talk-mcq-40",
-        "talk-mcq-39",
-        "talk-mcq-41",
-        "talk-mcq-38",
-        "talk-mcq-37",
-        "talk-mcq-36"
+        "talk-mcq-27",
+        "talk-mcq-18",
+        "talk-mcq-11"
       ],
       "explanation": "本句的「talks」指「雙方或多方為達成協議而進行的正式會談或談判」。",
       "sentenceIndex": 41,
@@ -2143,12 +1977,10 @@ export default {
         "talks"
       ],
       "optionReasons": {
-        "talk-mcq-40": "本句指「雙方或多方為達成協議而進行的正式會談或談判」。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-41": "「人們廣泛流傳但未必已證實的說法或議論」是「25. talk = rumours / speculation — 傳聞；議論」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。"
+        "talk-mcq-40": "本句的「talks」指「雙方或多方為達成協議而進行的正式會談或談判」。",
+        "talk-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-40"
     },
@@ -2160,11 +1992,9 @@ export default {
       "masked": "The two companies are holding ____ about a possible merger.",
       "options": [
         "talk-mcq-40",
-        "talk-mcq-39",
-        "talk-mcq-41",
-        "talk-mcq-38",
-        "talk-mcq-37",
-        "talk-mcq-36"
+        "talk-mcq-33",
+        "talk-mcq-30",
+        "talk-mcq-27"
       ],
       "explanation": "本句的「talks」指「雙方或多方為達成協議而進行的正式會談或談判」。",
       "sentenceIndex": 42,
@@ -2173,12 +2003,10 @@ export default {
         "talks"
       ],
       "optionReasons": {
-        "talk-mcq-40": "本句指「雙方或多方為達成協議而進行的正式會談或談判」。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-41": "「人們廣泛流傳但未必已證實的說法或議論」是「25. talk = rumours / speculation — 傳聞；議論」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。"
+        "talk-mcq-40": "本句的「talks」指「雙方或多方為達成協議而進行的正式會談或談判」。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-40"
     },
@@ -2190,11 +2018,9 @@ export default {
       "masked": "We had a long ____ about his future.",
       "options": [
         "talk-mcq-21",
-        "talk-mcq-20",
-        "talk-mcq-22",
-        "talk-mcq-19",
-        "talk-mcq-23",
-        "talk-mcq-18"
+        "talk-pdf-001",
+        "talk-mcq-14",
+        "talk-mcq-30"
       ],
       "explanation": "本句的「talk」指「談一談」。",
       "sentenceIndex": 43,
@@ -2203,12 +2029,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-21": "本句指「談一談」。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-22": "「作演講／講座」是「give a talk」的用法，與本句語境不同。",
-        "talk-mcq-19": "「政府正在談判」是「the governments are talking」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。",
-        "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。"
+        "talk-mcq-21": "本句的「talk」指「談一談」。",
+        "talk-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-21"
     },
@@ -2220,11 +2044,9 @@ export default {
       "masked": "I think you and I need to have a ____.",
       "options": [
         "talk-mcq-21",
-        "talk-mcq-20",
-        "talk-mcq-22",
-        "talk-mcq-19",
-        "talk-mcq-23",
-        "talk-mcq-18"
+        "talk-mcq-14",
+        "talk-mcq-33",
+        "talk-mcq-39"
       ],
       "explanation": "本句的「talk」指「談一談」。",
       "sentenceIndex": 44,
@@ -2233,12 +2055,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-21": "本句指「談一談」。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-22": "「作演講／講座」是「give a talk」的用法，與本句語境不同。",
-        "talk-mcq-19": "「政府正在談判」是「the governments are talking」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。",
-        "talk-mcq-18": "「人們會說閒話」是「people will talk」的用法，與本句語境不同。"
+        "talk-mcq-21": "本句的「talk」指「談一談」。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-21"
     },
@@ -2250,11 +2070,9 @@ export default {
       "masked": "She gave a ____ on climate change.",
       "options": [
         "talk-mcq-22",
-        "talk-mcq-21",
-        "talk-mcq-23",
-        "talk-mcq-20",
-        "talk-mcq-24",
-        "talk-mcq-19"
+        "talk-mcq-38",
+        "talk-mcq-16",
+        "talk-mcq-03"
       ],
       "explanation": "本句的「talk」指「作演講／講座」。",
       "sentenceIndex": 45,
@@ -2263,12 +2081,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-22": "本句指「作演講／講座」。",
-        "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-19": "「政府正在談判」是「the governments are talking」的用法，與本句語境不同。"
+        "talk-mcq-22": "本句的「talk」指「作演講／講座」。",
+        "talk-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-22"
     },
@@ -2280,11 +2096,9 @@ export default {
       "masked": "I attended an interesting ____ about artificial intelligence.",
       "options": [
         "talk-mcq-22",
-        "talk-mcq-21",
         "talk-mcq-23",
-        "talk-mcq-20",
-        "talk-mcq-24",
-        "talk-mcq-19"
+        "talk-mcq-03",
+        "talk-mcq-11"
       ],
       "explanation": "本句的「talk」指「作演講／講座」。",
       "sentenceIndex": 46,
@@ -2293,12 +2107,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-22": "本句指「作演講／講座」。",
-        "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-19": "「政府正在談判」是「the governments are talking」的用法，與本句語境不同。"
+        "talk-mcq-22": "本句的「talk」指「作演講／講座」。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-22"
     },
@@ -2310,11 +2122,9 @@ export default {
       "masked": "There has been a lot of ____ about changing the law.",
       "options": [
         "talk-mcq-23",
-        "talk-mcq-22",
-        "talk-mcq-24",
-        "talk-mcq-21",
-        "talk-mcq-25",
-        "talk-mcq-20"
+        "talk-mcq-04",
+        "talk-mcq-14",
+        "talk-mcq-37"
       ],
       "explanation": "本句的「talk」指「大量有關 X 的討論」。",
       "sentenceIndex": 47,
@@ -2323,12 +2133,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-23": "本句指「大量有關 X 的討論」。",
-        "talk-mcq-22": "「作演講／講座」是「give a talk」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。"
+        "talk-mcq-23": "本句的「talk」指「大量有關 X 的討論」。",
+        "talk-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-23"
     },
@@ -2340,11 +2148,9 @@ export default {
       "masked": "All this ____ of moving abroad is making me nervous.",
       "options": [
         "talk-mcq-23",
-        "talk-mcq-22",
-        "talk-mcq-24",
-        "talk-mcq-21",
-        "talk-mcq-25",
-        "talk-mcq-20"
+        "talk-mcq-29",
+        "talk-mcq-39",
+        "talk-mcq-15"
       ],
       "explanation": "本句的「talk」指「大量有關 X 的討論」。",
       "sentenceIndex": 48,
@@ -2353,12 +2159,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-23": "本句指「大量有關 X 的討論」。",
-        "talk-mcq-22": "「作演講／講座」是「give a talk」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-21": "「談一談」是「have a talk」的用法，與本句語境不同。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。",
-        "talk-mcq-20": "「和平談判」是「peace talks」的用法，與本句語境不同。"
+        "talk-mcq-23": "本句的「talk」指「大量有關 X 的討論」。",
+        "talk-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-23"
     },
@@ -2370,11 +2174,9 @@ export default {
       "masked": "There is ____ of another round of job cuts.",
       "options": [
         "talk-mcq-41",
-        "talk-mcq-40",
-        "talk-mcq-39",
-        "talk-mcq-38",
-        "talk-mcq-37",
-        "talk-mcq-36"
+        "talk-mcq-26",
+        "talk-mcq-25",
+        "talk-mcq-14"
       ],
       "explanation": "本句的「talk」指「人們廣泛流傳但未必已證實的說法或議論」。",
       "sentenceIndex": 49,
@@ -2383,12 +2185,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-41": "本句指「人們廣泛流傳但未必已證實的說法或議論」。",
-        "talk-mcq-40": "「雙方或多方為達成協議而進行的正式會談或談判」是「21. talks (plural noun) — 會談；談判」的用法，與本句語境不同。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。"
+        "talk-mcq-41": "本句的「talk」指「人們廣泛流傳但未必已證實的說法或議論」。",
+        "talk-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-41"
     },
@@ -2400,11 +2200,9 @@ export default {
       "masked": "The announcement ended months of ____ about a possible takeover.",
       "options": [
         "talk-mcq-41",
-        "talk-mcq-40",
-        "talk-mcq-39",
-        "talk-mcq-38",
         "talk-mcq-37",
-        "talk-mcq-36"
+        "talk-mcq-26",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「talk」指「人們廣泛流傳但未必已證實的說法或議論」。",
       "sentenceIndex": 50,
@@ -2413,12 +2211,10 @@ export default {
         "talk"
       ],
       "optionReasons": {
-        "talk-mcq-41": "本句指「人們廣泛流傳但未必已證實的說法或議論」。",
-        "talk-mcq-40": "「雙方或多方為達成協議而進行的正式會談或談判」是「21. talks (plural noun) — 會談；談判」的用法，與本句語境不同。",
-        "talk-mcq-39": "「向他人透露原本不願提供的資料，尤其在盤問或壓力下」是「18. talk = reveal information / confess, especially under pressure — 開口供出資料」的用法，與本句語境不同。",
-        "talk-mcq-38": "「以某種速度、音量、語氣等方式說話」是「9. talk = speak in a particular way — 以某種方式說話」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。"
+        "talk-mcq-41": "本句的「talk」指「人們廣泛流傳但未必已證實的說法或議論」。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-41"
     },
@@ -2430,11 +2226,9 @@ export default {
       "masked": "I'm terrible at making ____ with strangers.",
       "options": [
         "talk-mcq-25",
-        "talk-mcq-24",
-        "talk-mcq-26",
-        "talk-mcq-23",
-        "talk-mcq-27",
-        "talk-mcq-22"
+        "talk-mcq-10",
+        "talk-mcq-02",
+        "talk-mcq-33"
       ],
       "explanation": "本句的「small talk」指「閒聊；寒暄」。",
       "sentenceIndex": 51,
@@ -2443,12 +2237,10 @@ export default {
         "small talk"
       ],
       "optionReasons": {
-        "talk-mcq-25": "本句指「閒聊；寒暄」。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-22": "「作演講／講座」是「give a talk」的用法，與本句語境不同。"
+        "talk-mcq-25": "本句的「small talk」指「閒聊；寒暄」。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-25"
     },
@@ -2460,11 +2252,9 @@ export default {
       "masked": "They made ____ while waiting for the meeting to begin.",
       "options": [
         "talk-mcq-25",
-        "talk-mcq-24",
-        "talk-mcq-26",
+        "talk-mcq-15",
         "talk-mcq-23",
-        "talk-mcq-27",
-        "talk-mcq-22"
+        "talk-mcq-31"
       ],
       "explanation": "本句的「small talk」指「閒聊；寒暄」。",
       "sentenceIndex": 52,
@@ -2473,12 +2263,10 @@ export default {
         "small talk"
       ],
       "optionReasons": {
-        "talk-mcq-25": "本句指「閒聊；寒暄」。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-22": "「作演講／講座」是「give a talk」的用法，與本句語境不同。"
+        "talk-mcq-25": "本句的「small talk」指「閒聊；寒暄」。",
+        "talk-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-25"
     },
@@ -2490,11 +2278,9 @@ export default {
       "masked": "The coach gave the players a ____ before the match.",
       "options": [
         "talk-mcq-26",
-        "talk-mcq-25",
-        "talk-mcq-27",
-        "talk-mcq-24",
-        "talk-mcq-28",
-        "talk-mcq-23"
+        "talk-mcq-41",
+        "talk-mcq-23",
+        "talk-mcq-39"
       ],
       "explanation": "本句的「pep talk」指「鼓勵性的談話」。",
       "sentenceIndex": 53,
@@ -2503,12 +2289,10 @@ export default {
         "pep talk"
       ],
       "optionReasons": {
-        "talk-mcq-26": "本句指「鼓勵性的談話」。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。"
+        "talk-mcq-26": "本句的「pep talk」指「鼓勵性的談話」。",
+        "talk-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-26"
     },
@@ -2520,11 +2304,9 @@ export default {
       "masked": "I needed a quick ____ before my presentation.",
       "options": [
         "talk-mcq-26",
-        "talk-mcq-25",
-        "talk-mcq-27",
-        "talk-mcq-24",
-        "talk-mcq-28",
-        "talk-mcq-23"
+        "talk-mcq-10",
+        "talk-mcq-13",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「pep talk」指「鼓勵性的談話」。",
       "sentenceIndex": 54,
@@ -2533,12 +2315,10 @@ export default {
         "pep talk"
       ],
       "optionReasons": {
-        "talk-mcq-26": "本句指「鼓勵性的談話」。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-23": "「大量有關 X 的討論」是「a lot of talk about X」的用法，與本句語境不同。"
+        "talk-mcq-26": "本句的「pep talk」指「鼓勵性的談話」。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-26"
     },
@@ -2550,11 +2330,9 @@ export default {
       "masked": "Ignore the ____ and check the actual specifications.",
       "options": [
         "talk-mcq-27",
-        "talk-mcq-26",
-        "talk-mcq-28",
-        "talk-mcq-25",
-        "talk-mcq-29",
-        "talk-mcq-24"
+        "talk-mcq-37",
+        "talk-mcq-21",
+        "talk-mcq-16"
       ],
       "explanation": "本句的「sales talk」指「推銷說辭」。",
       "sentenceIndex": 55,
@@ -2563,12 +2341,10 @@ export default {
         "sales talk"
       ],
       "optionReasons": {
-        "talk-mcq-27": "本句指「推銷說辭」。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。"
+        "talk-mcq-27": "本句的「sales talk」指「推銷說辭」。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-27"
     },
@@ -2580,11 +2356,9 @@ export default {
       "masked": "His presentation sounded more like ____ than objective advice.",
       "options": [
         "talk-mcq-27",
-        "talk-mcq-26",
-        "talk-mcq-28",
-        "talk-mcq-25",
-        "talk-mcq-29",
-        "talk-mcq-24"
+        "talk-mcq-34",
+        "talk-mcq-37",
+        "talk-mcq-14"
       ],
       "explanation": "本句的「sales talk」指「推銷說辭」。",
       "sentenceIndex": 56,
@@ -2593,12 +2367,10 @@ export default {
         "sales talk"
       ],
       "optionReasons": {
-        "talk-mcq-27": "本句指「推銷說辭」。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-24": "「裁員傳聞」是「talk of job cuts」的用法，與本句語境不同。"
+        "talk-mcq-27": "本句的「sales talk」指「推銷說辭」。",
+        "talk-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-27"
     },
@@ -2610,11 +2382,9 @@ export default {
       "masked": "What we need now is some ____ about the problem.",
       "options": [
         "talk-mcq-28",
-        "talk-mcq-27",
-        "talk-mcq-29",
-        "talk-mcq-26",
-        "talk-mcq-30",
-        "talk-mcq-25"
+        "talk-mcq-15",
+        "talk-mcq-32",
+        "talk-mcq-29"
       ],
       "explanation": "本句的「straight talk」指「坦率直言」。",
       "sentenceIndex": 57,
@@ -2623,12 +2393,10 @@ export default {
         "straight talk"
       ],
       "optionReasons": {
-        "talk-mcq-28": "本句指「坦率直言」。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。"
+        "talk-mcq-28": "本句的「straight talk」指「坦率直言」。",
+        "talk-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-28"
     },
@@ -2640,11 +2408,9 @@ export default {
       "masked": "She is known for her ____ and practical advice.",
       "options": [
         "talk-mcq-28",
-        "talk-mcq-27",
-        "talk-mcq-29",
-        "talk-mcq-26",
         "talk-mcq-30",
-        "talk-mcq-25"
+        "talk-mcq-14",
+        "talk-mcq-41"
       ],
       "explanation": "本句的「straight talk」指「坦率直言」。",
       "sentenceIndex": 58,
@@ -2653,12 +2419,10 @@ export default {
         "straight talk"
       ],
       "optionReasons": {
-        "talk-mcq-28": "本句指「坦率直言」。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-25": "「閒聊；寒暄」是「small talk」的用法，與本句語境不同。"
+        "talk-mcq-28": "本句的「straight talk」指「坦率直言」。",
+        "talk-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-28"
     },
@@ -2670,11 +2434,9 @@ export default {
       "masked": "His answer was full of political ____.",
       "options": [
         "talk-mcq-29",
-        "talk-mcq-28",
-        "talk-mcq-30",
-        "talk-mcq-27",
-        "talk-mcq-31",
-        "talk-mcq-26"
+        "talk-mcq-23",
+        "talk-mcq-11",
+        "talk-mcq-28"
       ],
       "explanation": "本句的「double-talk」指「含糊混淆的說辭」。",
       "sentenceIndex": 59,
@@ -2683,12 +2445,10 @@ export default {
         "double-talk"
       ],
       "optionReasons": {
-        "talk-mcq-29": "本句指「含糊混淆的說辭」。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。"
+        "talk-mcq-29": "本句的「double-talk」指「含糊混淆的說辭」。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-29"
     },
@@ -2700,11 +2460,9 @@ export default {
       "masked": "Customers are tired of corporate ____.",
       "options": [
         "talk-mcq-29",
-        "talk-mcq-28",
-        "talk-mcq-30",
-        "talk-mcq-27",
-        "talk-mcq-31",
-        "talk-mcq-26"
+        "talk-mcq-33",
+        "talk-mcq-21",
+        "talk-mcq-11"
       ],
       "explanation": "本句的「double-talk」指「含糊混淆的說辭」。",
       "sentenceIndex": 60,
@@ -2713,12 +2471,10 @@ export default {
         "double-talk"
       ],
       "optionReasons": {
-        "talk-mcq-29": "本句指「含糊混淆的說辭」。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-26": "「鼓勵性的談話」是「pep talk」的用法，與本句語境不同。"
+        "talk-mcq-29": "本句的「double-talk」指「含糊混淆的說辭」。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-29"
     },
@@ -2730,10 +2486,8 @@ export default {
       "masked": "The new design became a major ____ at the conference.",
       "options": [
         "talk-mcq-30",
-        "talk-mcq-29",
-        "talk-mcq-31",
-        "talk-mcq-28",
-        "talk-mcq-32",
+        "talk-mcq-40",
+        "talk-mcq-22",
         "talk-mcq-27"
       ],
       "explanation": "本句的「talking point」指「討論焦點；話題」。",
@@ -2743,12 +2497,10 @@ export default {
         "talking point"
       ],
       "optionReasons": {
-        "talk-mcq-30": "本句指「討論焦點；話題」。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。"
+        "talk-mcq-30": "本句的「talking point」指「討論焦點；話題」。",
+        "talk-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-30"
     },
@@ -2760,11 +2512,9 @@ export default {
       "masked": "His unusual jacket was quite a ____.",
       "options": [
         "talk-mcq-30",
-        "talk-mcq-29",
-        "talk-mcq-31",
-        "talk-mcq-28",
-        "talk-mcq-32",
-        "talk-mcq-27"
+        "talk-mcq-11",
+        "talk-mcq-06",
+        "talk-mcq-37"
       ],
       "explanation": "本句的「talking point」指「討論焦點；話題」。",
       "sentenceIndex": 62,
@@ -2773,12 +2523,10 @@ export default {
         "talking point"
       ],
       "optionReasons": {
-        "talk-mcq-30": "本句指「討論焦點；話題」。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-27": "「推銷說辭」是「sales talk」的用法，與本句語境不同。"
+        "talk-mcq-30": "本句的「talking point」指「討論焦點；話題」。",
+        "talk-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-30"
     },
@@ -2790,11 +2538,9 @@ export default {
       "masked": "She appeared on a popular television ____.",
       "options": [
         "talk-mcq-31",
-        "talk-mcq-30",
-        "talk-mcq-32",
-        "talk-mcq-29",
-        "talk-mcq-33",
-        "talk-mcq-28"
+        "talk-mcq-23",
+        "talk-mcq-22",
+        "talk-mcq-39"
       ],
       "explanation": "本句的「talk show」指「清談／訪談節目」。",
       "sentenceIndex": 63,
@@ -2803,12 +2549,10 @@ export default {
         "talk show"
       ],
       "optionReasons": {
-        "talk-mcq-31": "本句指「清談／訪談節目」。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。"
+        "talk-mcq-31": "本句的「talk show」指「清談／訪談節目」。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-31"
     },
@@ -2820,11 +2564,9 @@ export default {
       "masked": "The actor discussed his new film on a late-night ____.",
       "options": [
         "talk-mcq-31",
-        "talk-mcq-30",
-        "talk-mcq-32",
-        "talk-mcq-29",
         "talk-mcq-33",
-        "talk-mcq-28"
+        "talk-mcq-37",
+        "talk-mcq-38"
       ],
       "explanation": "本句的「talk show」指「清談／訪談節目」。",
       "sentenceIndex": 64,
@@ -2833,12 +2575,10 @@ export default {
         "talk show"
       ],
       "optionReasons": {
-        "talk-mcq-31": "本句指「清談／訪談節目」。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-28": "「坦率直言」是「straight talk」的用法，與本句語境不同。"
+        "talk-mcq-31": "本句的「talk show」指「清談／訪談節目」。",
+        "talk-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-31"
     },
@@ -2850,11 +2590,9 @@ export default {
       "masked": "He listens to ____ during his drive to work.",
       "options": [
         "talk-mcq-32",
-        "talk-mcq-31",
-        "talk-mcq-33",
-        "talk-mcq-30",
-        "talk-mcq-34",
-        "talk-mcq-29"
+        "talk-mcq-22",
+        "talk-mcq-41",
+        "talk-mcq-39"
       ],
       "explanation": "本句的「talk radio」指「談話型電台節目」。",
       "sentenceIndex": 65,
@@ -2863,12 +2601,10 @@ export default {
         "talk radio"
       ],
       "optionReasons": {
-        "talk-mcq-32": "本句指「談話型電台節目」。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。"
+        "talk-mcq-32": "本句的「talk radio」指「談話型電台節目」。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-32"
     },
@@ -2880,11 +2616,9 @@ export default {
       "masked": "The issue was widely discussed on ____.",
       "options": [
         "talk-mcq-32",
-        "talk-mcq-31",
-        "talk-mcq-33",
-        "talk-mcq-30",
-        "talk-mcq-34",
-        "talk-mcq-29"
+        "talk-mcq-25",
+        "talk-mcq-14",
+        "talk-mcq-16"
       ],
       "explanation": "本句的「talk radio」指「談話型電台節目」。",
       "sentenceIndex": 66,
@@ -2893,12 +2627,10 @@ export default {
         "talk radio"
       ],
       "optionReasons": {
-        "talk-mcq-32": "本句指「談話型電台節目」。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-29": "「含糊混淆的說辭」是「double-talk」的用法，與本句語境不同。"
+        "talk-mcq-32": "本句的「talk radio」指「談話型電台節目」。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-32"
     },
@@ -2910,11 +2642,9 @@ export default {
       "masked": "His father gave him a serious ____.",
       "options": [
         "talk-mcq-33",
-        "talk-mcq-32",
-        "talk-mcq-34",
-        "talk-mcq-31",
-        "talk-mcq-35",
-        "talk-mcq-30"
+        "talk-mcq-40",
+        "talk-mcq-22",
+        "talk-mcq-13"
       ],
       "explanation": "本句的「talking-to」指「訓話；責備」。",
       "sentenceIndex": 67,
@@ -2923,12 +2653,10 @@ export default {
         "talking-to"
       ],
       "optionReasons": {
-        "talk-mcq-33": "本句指「訓話；責備」。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。"
+        "talk-mcq-33": "本句的「talking-to」指「訓話；責備」。",
+        "talk-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-33"
     },
@@ -2940,11 +2668,9 @@ export default {
       "masked": "She got a ____ from her manager for arriving late again.",
       "options": [
         "talk-mcq-33",
-        "talk-mcq-32",
-        "talk-mcq-34",
-        "talk-mcq-31",
-        "talk-mcq-35",
-        "talk-mcq-30"
+        "talk-pdf-003",
+        "talk-mcq-14",
+        "talk-mcq-10"
       ],
       "explanation": "本句的「talking-to」指「訓話；責備」。",
       "sentenceIndex": 68,
@@ -2953,12 +2679,10 @@ export default {
         "talking-to"
       ],
       "optionReasons": {
-        "talk-mcq-33": "本句指「訓話；責備」。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-30": "「討論焦點；話題」是「talking point」的用法，與本句語境不同。"
+        "talk-mcq-33": "本句的「talking-to」指「訓話；責備」。",
+        "talk-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-33"
     },
@@ -2970,11 +2694,9 @@ export default {
       "masked": "Leo is especially ____ when he gets excited.",
       "options": [
         "talk-mcq-34",
-        "talk-mcq-33",
-        "talk-mcq-35",
-        "talk-mcq-32",
-        "talk-mcq-36",
-        "talk-mcq-31"
+        "talk-mcq-14",
+        "talk-mcq-10",
+        "talk-mcq-23"
       ],
       "explanation": "本句的「talkative」指「健談的；多話的」。",
       "sentenceIndex": 69,
@@ -2983,12 +2705,10 @@ export default {
         "talkative"
       ],
       "optionReasons": {
-        "talk-mcq-34": "本句指「健談的；多話的」。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。"
+        "talk-mcq-34": "本句的「talkative」指「健談的；多話的」。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-34"
     },
@@ -3000,11 +2720,9 @@ export default {
       "masked": "She is quiet at first but becomes very ____ once she feels comfortable.",
       "options": [
         "talk-mcq-34",
-        "talk-mcq-33",
-        "talk-mcq-35",
-        "talk-mcq-32",
-        "talk-mcq-36",
-        "talk-mcq-31"
+        "talk-mcq-10",
+        "talk-mcq-28",
+        "talk-mcq-37"
       ],
       "explanation": "本句的「talkative」指「健談的；多話的」。",
       "sentenceIndex": 70,
@@ -3013,12 +2731,10 @@ export default {
         "talkative"
       ],
       "optionReasons": {
-        "talk-mcq-34": "本句指「健談的；多話的」。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-35": "「健談的人／某種說話者」是「talker」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-31": "「清談／訪談節目」是「talk show」的用法，與本句語境不同。"
+        "talk-mcq-34": "本句的「talkative」指「健談的；多話的」。",
+        "talk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-34"
     },
@@ -3030,11 +2746,9 @@ export default {
       "masked": "He's a great ____, but not such a good listener.",
       "options": [
         "talk-mcq-35",
-        "talk-mcq-34",
-        "talk-mcq-36",
-        "talk-mcq-33",
-        "talk-mcq-37",
-        "talk-mcq-32"
+        "talk-mcq-28",
+        "talk-mcq-25",
+        "talk-mcq-23"
       ],
       "explanation": "本句的「talker」指「健談的人／某種說話者」。",
       "sentenceIndex": 71,
@@ -3043,12 +2757,10 @@ export default {
         "talker"
       ],
       "optionReasons": {
-        "talk-mcq-35": "本句指「健談的人／某種說話者」。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。"
+        "talk-mcq-35": "本句的「talker」指「健談的人／某種說話者」。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-35"
     },
@@ -3060,11 +2772,9 @@ export default {
       "masked": "She is a fast ____, so I sometimes struggle to follow her.",
       "options": [
         "talk-mcq-35",
-        "talk-mcq-34",
-        "talk-mcq-36",
-        "talk-mcq-33",
-        "talk-mcq-37",
-        "talk-mcq-32"
+        "talk-mcq-39",
+        "talk-mcq-28",
+        "talk-mcq-14"
       ],
       "explanation": "本句的「talker」指「健談的人／某種說話者」。",
       "sentenceIndex": 72,
@@ -3073,12 +2783,10 @@ export default {
         "talker"
       ],
       "optionReasons": {
-        "talk-mcq-35": "本句指「健談的人／某種說話者」。",
-        "talk-mcq-34": "「健談的；多話的」是「talkative」的用法，與本句語境不同。",
-        "talk-mcq-36": "「就重要問題進行較認真的討論或商談」是「5. talk = discuss something seriously — 商談；商討」的用法，與本句語境不同。",
-        "talk-mcq-33": "「訓話；責備」是「a talking-to」的用法，與本句語境不同。",
-        "talk-mcq-37": "「具備使用口語表達自己的能力」是「8. talk = be able to use spoken language — 會說話」的用法，與本句語境不同。",
-        "talk-mcq-32": "「談話型電台節目」是「talk radio」的用法，與本句語境不同。"
+        "talk-mcq-35": "本句的「talker」指「健談的人／某種說話者」。",
+        "talk-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "talk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talk-mcq-35"
     }
@@ -3090,5 +2798,7 @@ export default {
     "sha256": "5181d381a7301e9e9df8f0da7d6be428c9a534b826a939c92c5058e8a6df5e23",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

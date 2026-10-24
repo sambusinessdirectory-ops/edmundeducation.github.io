@@ -636,11 +636,9 @@ export default {
       "masked": "She works in the ____.",
       "options": [
         "field-mcq-01",
-        "field-mcq-02",
-        "field-mcq-03",
-        "field-mcq-04",
-        "field-mcq-05",
-        "field-mcq-06"
+        "field-mcq-14",
+        "field-mcq-16",
+        "field-mcq-23"
       ],
       "explanation": "本句的「field of education」指「某一特定的知識、研究、工作或專業領域」。",
       "sentenceIndex": 2,
@@ -649,12 +647,10 @@ export default {
         "field of education"
       ],
       "optionReasons": {
-        "field-mcq-01": "本句指「某一特定的知識、研究、工作或專業領域」。",
-        "field-mcq-02": "「正式學習或研究的學科／研究領域」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-01": "本句的「field of education」指「某一特定的知識、研究、工作或專業領域」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-01"
     },
@@ -666,11 +662,9 @@ export default {
       "masked": "Artificial intelligence is a rapidly developing ____.",
       "options": [
         "field-mcq-01",
-        "field-mcq-02",
-        "field-mcq-03",
-        "field-mcq-04",
-        "field-mcq-05",
-        "field-mcq-06"
+        "field-mcq-14",
+        "field-mcq-21",
+        "field-mcq-24"
       ],
       "explanation": "本句的「field」指「某一特定的知識、研究、工作或專業領域」。",
       "sentenceIndex": 3,
@@ -679,12 +673,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-01": "本句指「某一特定的知識、研究、工作或專業領域」。",
-        "field-mcq-02": "「正式學習或研究的學科／研究領域」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-01": "本句的「field」指「某一特定的知識、研究、工作或專業領域」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-01"
     },
@@ -696,11 +688,9 @@ export default {
       "masked": "Physics is her main ____.",
       "options": [
         "field-mcq-02",
-        "field-mcq-01",
-        "field-mcq-03",
-        "field-mcq-04",
+        "field-mcq-19",
         "field-mcq-05",
-        "field-mcq-06"
+        "field-mcq-18"
       ],
       "explanation": "本句的「field of study」指「正式學習或研究的學科／研究領域」。",
       "sentenceIndex": 4,
@@ -709,12 +699,10 @@ export default {
         "field of study"
       ],
       "optionReasons": {
-        "field-mcq-02": "本句指「正式學習或研究的學科／研究領域」。",
-        "field-mcq-01": "「某一特定的知識、研究、工作或專業領域」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-02": "本句的「field of study」指「正式學習或研究的學科／研究領域」。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-02"
     },
@@ -726,11 +714,9 @@ export default {
       "masked": "He changed his ____ at university.",
       "options": [
         "field-mcq-02",
-        "field-mcq-01",
         "field-mcq-03",
-        "field-mcq-04",
-        "field-mcq-05",
-        "field-mcq-06"
+        "field-mcq-23",
+        "field-mcq-20"
       ],
       "explanation": "本句的「field of study」指「正式學習或研究的學科／研究領域」。",
       "sentenceIndex": 5,
@@ -739,12 +725,10 @@ export default {
         "field of study"
       ],
       "optionReasons": {
-        "field-mcq-02": "本句指「正式學習或研究的學科／研究領域」。",
-        "field-mcq-01": "「某一特定的知識、研究、工作或專業領域」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-02": "本句的「field of study」指「正式學習或研究的學科／研究領域」。",
+        "field-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-02"
     },
@@ -756,11 +740,9 @@ export default {
       "masked": "What ____ are you in?",
       "options": [
         "field-mcq-03",
-        "field-mcq-02",
-        "field-mcq-04",
-        "field-mcq-01",
-        "field-mcq-05",
-        "field-mcq-06"
+        "field-mcq-12",
+        "field-mcq-18",
+        "field-mcq-24"
       ],
       "explanation": "本句的「field of work」指「某人從事的工作或專業範疇」。",
       "sentenceIndex": 6,
@@ -769,12 +751,10 @@ export default {
         "field of work"
       ],
       "optionReasons": {
-        "field-mcq-03": "本句指「某人從事的工作或專業範疇」。",
-        "field-mcq-02": "「正式學習或研究的學科／研究領域」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-01": "「某一特定的知識、研究、工作或專業領域」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-03": "本句的「field of work」指「某人從事的工作或專業範疇」。",
+        "field-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-03"
     },
@@ -786,11 +766,9 @@ export default {
       "masked": "She entered a new ____ after graduation.",
       "options": [
         "field-mcq-03",
-        "field-mcq-02",
-        "field-mcq-04",
-        "field-mcq-01",
-        "field-mcq-05",
-        "field-mcq-06"
+        "field-mcq-16",
+        "field-mcq-12",
+        "field-mcq-24"
       ],
       "explanation": "本句的「field of work」指「某人從事的工作或專業範疇」。",
       "sentenceIndex": 7,
@@ -799,12 +777,10 @@ export default {
         "field of work"
       ],
       "optionReasons": {
-        "field-mcq-03": "本句指「某人從事的工作或專業範疇」。",
-        "field-mcq-02": "「正式學習或研究的學科／研究領域」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-01": "「某一特定的知識、研究、工作或專業領域」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-03": "本句的「field of work」指「某人從事的工作或專業範疇」。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-03"
     },
@@ -816,11 +792,9 @@ export default {
       "masked": "Cows were grazing in the ____.",
       "options": [
         "field-mcq-05",
-        "field-mcq-04",
-        "field-mcq-06",
-        "field-mcq-03",
-        "field-mcq-07",
-        "field-mcq-02"
+        "field-mcq-24",
+        "field-mcq-25",
+        "field-mcq-09"
       ],
       "explanation": "本句的「field」指「一大片開闊土地，常用於農耕或放牧；田地／田野」。",
       "sentenceIndex": 8,
@@ -829,12 +803,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-05": "本句指「一大片開闊土地，常用於農耕或放牧；田地／田野」。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-02": "「正式學習或研究的學科／研究領域」與本句語境不同。"
+        "field-mcq-05": "本句的「field」指「一大片開闊土地，常用於農耕或放牧；田地／田野」。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-05"
     },
@@ -846,11 +818,9 @@ export default {
       "masked": "The farmer planted wheat in the ____.",
       "options": [
         "field-mcq-05",
-        "field-mcq-04",
-        "field-mcq-06",
-        "field-mcq-03",
-        "field-mcq-07",
-        "field-mcq-02"
+        "field-mcq-18",
+        "field-mcq-16",
+        "field-mcq-23"
       ],
       "explanation": "本句的「field」指「一大片開闊土地，常用於農耕或放牧；田地／田野」。",
       "sentenceIndex": 9,
@@ -859,12 +829,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-05": "本句指「一大片開闊土地，常用於農耕或放牧；田地／田野」。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-02": "「正式學習或研究的學科／研究領域」與本句語境不同。"
+        "field-mcq-05": "本句的「field」指「一大片開闊土地，常用於農耕或放牧；田地／田野」。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-05"
     },
@@ -876,11 +844,9 @@ export default {
       "masked": "We drove past a ____.",
       "options": [
         "field-mcq-06",
-        "field-mcq-05",
-        "field-mcq-07",
-        "field-mcq-04",
-        "field-mcq-08",
-        "field-mcq-03"
+        "field-mcq-27",
+        "field-mcq-24",
+        "field-mcq-20"
       ],
       "explanation": "本句的「field of corn」指「種植某種作物的一片農田」。",
       "sentenceIndex": 10,
@@ -889,12 +855,10 @@ export default {
         "field of corn"
       ],
       "optionReasons": {
-        "field-mcq-06": "本句指「種植某種作物的一片農田」。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。"
+        "field-mcq-06": "本句的「field of corn」指「種植某種作物的一片農田」。",
+        "field-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-06"
     },
@@ -906,11 +870,9 @@ export default {
       "masked": "The village is surrounded by rice ____.",
       "options": [
         "field-mcq-06",
-        "field-mcq-05",
-        "field-mcq-07",
-        "field-mcq-04",
-        "field-mcq-08",
-        "field-mcq-03"
+        "field-mcq-14",
+        "field-mcq-10",
+        "field-mcq-02"
       ],
       "explanation": "本句的「fields」指「種植某種作物的一片農田」。",
       "sentenceIndex": 11,
@@ -919,12 +881,10 @@ export default {
         "fields"
       ],
       "optionReasons": {
-        "field-mcq-06": "本句指「種植某種作物的一片農田」。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-03": "「某人從事的工作或專業範疇」與本句語境不同。"
+        "field-mcq-06": "本句的「fields」指「種植某種作物的一片農田」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-06"
     },
@@ -936,11 +896,9 @@ export default {
       "masked": "The players ran onto the ____.",
       "options": [
         "field-mcq-07",
+        "field-mcq-25",
         "field-mcq-06",
-        "field-mcq-08",
-        "field-mcq-05",
-        "field-mcq-09",
-        "field-mcq-04"
+        "field-mcq-13"
       ],
       "explanation": "本句的「field」指「進行戶外運動或比賽的球場／運動場」。",
       "sentenceIndex": 12,
@@ -949,12 +907,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-07": "本句指「進行戶外運動或比賽的球場／運動場」。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。"
+        "field-mcq-07": "本句的「field」指「進行戶外運動或比賽的球場／運動場」。",
+        "field-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-07"
     },
@@ -966,11 +922,9 @@ export default {
       "masked": "The school has a large sports ____.",
       "options": [
         "field-mcq-07",
-        "field-mcq-06",
-        "field-mcq-08",
         "field-mcq-05",
-        "field-mcq-09",
-        "field-mcq-04"
+        "field-mcq-19",
+        "field-mcq-26"
       ],
       "explanation": "本句的「field」指「進行戶外運動或比賽的球場／運動場」。",
       "sentenceIndex": 13,
@@ -979,12 +933,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-07": "本句指「進行戶外運動或比賽的球場／運動場」。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。"
+        "field-mcq-07": "本句的「field」指「進行戶外運動或比賽的球場／運動場」。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-07"
     },
@@ -996,11 +948,9 @@ export default {
       "masked": "The team practised on the ____.",
       "options": [
         "field-mcq-07",
-        "field-mcq-06",
-        "field-mcq-08",
-        "field-mcq-05",
-        "field-mcq-09",
-        "field-mcq-04"
+        "field-mcq-22",
+        "field-mcq-01",
+        "field-mcq-19"
       ],
       "explanation": "本句的「football field」指「進行戶外運動或比賽的球場／運動場」。",
       "sentenceIndex": 14,
@@ -1009,12 +959,10 @@ export default {
         "football field"
       ],
       "optionReasons": {
-        "field-mcq-07": "本句指「進行戶外運動或比賽的球場／運動場」。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。"
+        "field-mcq-07": "本句的「football field」指「進行戶外運動或比賽的球場／運動場」。",
+        "field-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-07"
     },
@@ -1026,11 +974,9 @@ export default {
       "masked": "Students gathered beside the ____.",
       "options": [
         "field-mcq-07",
-        "field-mcq-06",
-        "field-mcq-08",
-        "field-mcq-05",
-        "field-mcq-09",
-        "field-mcq-04"
+        "field-mcq-26",
+        "field-mcq-22",
+        "field-mcq-05"
       ],
       "explanation": "本句的「soccer field」指「進行戶外運動或比賽的球場／運動場」。",
       "sentenceIndex": 15,
@@ -1039,12 +985,10 @@ export default {
         "soccer field"
       ],
       "optionReasons": {
-        "field-mcq-07": "本句指「進行戶外運動或比賽的球場／運動場」。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-04": "「與科學研究、學習或應用相關的專業／學術領域」與本句語境不同。"
+        "field-mcq-07": "本句的「soccer field」指「進行戶外運動或比賽的球場／運動場」。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-07"
     },
@@ -1056,11 +1000,9 @@ export default {
       "masked": "She finished ahead of the rest of the ____.",
       "options": [
         "field-mcq-08",
-        "field-mcq-07",
-        "field-mcq-09",
+        "field-mcq-14",
         "field-mcq-06",
-        "field-mcq-10",
-        "field-mcq-05"
+        "field-mcq-21"
       ],
       "explanation": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
       "sentenceIndex": 16,
@@ -1069,12 +1011,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-08": "本句指「一項比賽中的所有參賽者／競爭者」。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。"
+        "field-mcq-08": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-08"
     },
@@ -1086,11 +1026,9 @@ export default {
       "masked": "The tournament attracted a strong ____.",
       "options": [
         "field-mcq-08",
-        "field-mcq-07",
-        "field-mcq-09",
-        "field-mcq-06",
-        "field-mcq-10",
-        "field-mcq-05"
+        "field-mcq-11",
+        "field-mcq-16",
+        "field-mcq-21"
       ],
       "explanation": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
       "sentenceIndex": 17,
@@ -1099,12 +1037,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-08": "本句指「一項比賽中的所有參賽者／競爭者」。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。"
+        "field-mcq-08": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
+        "field-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-08"
     },
@@ -1116,11 +1052,9 @@ export default {
       "masked": "The race has a very strong ____ this year.",
       "options": [
         "field-mcq-08",
-        "field-mcq-07",
-        "field-mcq-09",
-        "field-mcq-06",
-        "field-mcq-10",
-        "field-mcq-05"
+        "field-mcq-03",
+        "field-mcq-18",
+        "field-mcq-13"
       ],
       "explanation": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
       "sentenceIndex": 18,
@@ -1129,12 +1063,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-08": "本句指「一項比賽中的所有參賽者／競爭者」。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。"
+        "field-mcq-08": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
+        "field-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-08"
     },
@@ -1146,11 +1078,9 @@ export default {
       "masked": "She won despite a competitive ____.",
       "options": [
         "field-mcq-08",
-        "field-mcq-07",
-        "field-mcq-09",
-        "field-mcq-06",
-        "field-mcq-10",
-        "field-mcq-05"
+        "field-mcq-20",
+        "field-mcq-16",
+        "field-mcq-14"
       ],
       "explanation": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
       "sentenceIndex": 19,
@@ -1159,12 +1089,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-08": "本句指「一項比賽中的所有參賽者／競爭者」。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-05": "「一大片開闊土地，常用於農耕或放牧；田地／田野」與本句語境不同。"
+        "field-mcq-08": "本句的「field」指「一項比賽中的所有參賽者／競爭者」。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-08"
     },
@@ -1176,11 +1104,9 @@ export default {
       "masked": "Soldiers were sent into the ____.",
       "options": [
         "field-mcq-09",
-        "field-mcq-08",
-        "field-mcq-10",
-        "field-mcq-07",
-        "field-mcq-11",
-        "field-mcq-06"
+        "field-mcq-18",
+        "field-mcq-24",
+        "field-mcq-16"
       ],
       "explanation": "本句的「field」指「軍事行動、前線或作戰發生的區域」。",
       "sentenceIndex": 20,
@@ -1189,12 +1115,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-09": "本句指「軍事行動、前線或作戰發生的區域」。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-09": "本句的「field」指「軍事行動、前線或作戰發生的區域」。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-09"
     },
@@ -1206,11 +1130,9 @@ export default {
       "masked": "The commander received reports from the ____.",
       "options": [
         "field-mcq-09",
-        "field-mcq-08",
-        "field-mcq-10",
-        "field-mcq-07",
-        "field-mcq-11",
-        "field-mcq-06"
+        "field-mcq-05",
+        "field-mcq-16",
+        "field-mcq-23"
       ],
       "explanation": "本句的「field」指「軍事行動、前線或作戰發生的區域」。",
       "sentenceIndex": 21,
@@ -1219,12 +1141,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-09": "本句指「軍事行動、前線或作戰發生的區域」。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-06": "「種植某種作物的一片農田」與本句語境不同。"
+        "field-mcq-09": "本句的「field」指「軍事行動、前線或作戰發生的區域」。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-09"
     },
@@ -1236,11 +1156,9 @@ export default {
       "masked": "The old ____ is now a historical site.",
       "options": [
         "field-mcq-10",
-        "field-mcq-09",
-        "field-mcq-11",
-        "field-mcq-08",
-        "field-mcq-12",
-        "field-mcq-07"
+        "field-mcq-21",
+        "field-mcq-02",
+        "field-mcq-24"
       ],
       "explanation": "本句的「battlefield」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
       "sentenceIndex": 22,
@@ -1249,12 +1167,10 @@ export default {
         "battlefield"
       ],
       "optionReasons": {
-        "field-mcq-10": "本句指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。"
+        "field-mcq-10": "本句的「battlefield」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-10"
     },
@@ -1266,11 +1182,9 @@ export default {
       "masked": "Medics treated soldiers on the ____.",
       "options": [
         "field-mcq-10",
-        "field-mcq-09",
-        "field-mcq-11",
         "field-mcq-08",
-        "field-mcq-12",
-        "field-mcq-07"
+        "field-mcq-18",
+        "field-mcq-20"
       ],
       "explanation": "本句的「battlefield」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
       "sentenceIndex": 23,
@@ -1279,12 +1193,10 @@ export default {
         "battlefield"
       ],
       "optionReasons": {
-        "field-mcq-10": "本句指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。"
+        "field-mcq-10": "本句的「battlefield」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-10"
     },
@@ -1296,11 +1208,9 @@ export default {
       "masked": "Researchers collected data in the ____.",
       "options": [
         "field-mcq-10",
-        "field-mcq-09",
-        "field-mcq-11",
         "field-mcq-08",
-        "field-mcq-12",
-        "field-mcq-07"
+        "field-mcq-02",
+        "field-mcq-21"
       ],
       "explanation": "本句的「field」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
       "sentenceIndex": 24,
@@ -1309,12 +1219,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-10": "本句指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。"
+        "field-mcq-10": "本句的「field」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-10"
     },
@@ -1326,11 +1234,9 @@ export default {
       "masked": "Engineers tested the equipment in the ____.",
       "options": [
         "field-mcq-10",
-        "field-mcq-09",
-        "field-mcq-11",
-        "field-mcq-08",
-        "field-mcq-12",
-        "field-mcq-07"
+        "field-mcq-20",
+        "field-mcq-02",
+        "field-mcq-23"
       ],
       "explanation": "本句的「field」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
       "sentenceIndex": 25,
@@ -1339,12 +1245,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-10": "本句指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-07": "「進行戶外運動或比賽的球場／運動場」與本句語境不同。"
+        "field-mcq-10": "本句的「field」指「在辦公室、教室或實驗室外進行實際工作的現場／實地」。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-10"
     },
@@ -1356,11 +1260,9 @@ export default {
       "masked": "The course includes several weeks of ____.",
       "options": [
         "field-mcq-11",
-        "field-mcq-10",
-        "field-mcq-12",
-        "field-mcq-09",
-        "field-mcq-13",
-        "field-mcq-08"
+        "field-mcq-08",
+        "field-mcq-02",
+        "field-mcq-14"
       ],
       "explanation": "本句的「field work」指「在真實環境中進行的實地工作／田野調查」。",
       "sentenceIndex": 26,
@@ -1369,12 +1271,10 @@ export default {
         "field work"
       ],
       "optionReasons": {
-        "field-mcq-11": "本句指「在真實環境中進行的實地工作／田野調查」。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。"
+        "field-mcq-11": "本句的「field work」指「在真實環境中進行的實地工作／田野調查」。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-11"
     },
@@ -1386,11 +1286,9 @@ export default {
       "masked": "The researchers spent months doing ____.",
       "options": [
         "field-mcq-11",
-        "field-mcq-10",
-        "field-mcq-12",
-        "field-mcq-09",
-        "field-mcq-13",
-        "field-mcq-08"
+        "field-mcq-20",
+        "field-mcq-23",
+        "field-mcq-18"
       ],
       "explanation": "本句的「field work」指「在真實環境中進行的實地工作／田野調查」。",
       "sentenceIndex": 27,
@@ -1399,12 +1297,10 @@ export default {
         "field work"
       ],
       "optionReasons": {
-        "field-mcq-11": "本句指「在真實環境中進行的實地工作／田野調查」。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。"
+        "field-mcq-11": "本句的「field work」指「在真實環境中進行的實地工作／田野調查」。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-11"
     },
@@ -1416,11 +1312,9 @@ export default {
       "masked": "The team conducted a ____ in rural areas.",
       "options": [
         "field-mcq-12",
-        "field-mcq-11",
         "field-mcq-13",
-        "field-mcq-10",
-        "field-mcq-14",
-        "field-mcq-09"
+        "field-mcq-08",
+        "field-mcq-21"
       ],
       "explanation": "本句的「field study」指「在自然或真實環境中進行的實地研究」。",
       "sentenceIndex": 28,
@@ -1429,12 +1323,10 @@ export default {
         "field study"
       ],
       "optionReasons": {
-        "field-mcq-12": "本句指「在自然或真實環境中進行的實地研究」。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。"
+        "field-mcq-12": "本句的「field study」指「在自然或真實環境中進行的實地研究」。",
+        "field-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-12"
     },
@@ -1446,11 +1338,9 @@ export default {
       "masked": "The results came from a year-long ____.",
       "options": [
         "field-mcq-12",
-        "field-mcq-11",
-        "field-mcq-13",
-        "field-mcq-10",
-        "field-mcq-14",
-        "field-mcq-09"
+        "field-mcq-03",
+        "field-mcq-06",
+        "field-mcq-08"
       ],
       "explanation": "本句的「field study」指「在自然或真實環境中進行的實地研究」。",
       "sentenceIndex": 29,
@@ -1459,12 +1349,10 @@ export default {
         "field study"
       ],
       "optionReasons": {
-        "field-mcq-12": "本句指「在自然或真實環境中進行的實地研究」。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。"
+        "field-mcq-12": "本句的「field study」指「在自然或真實環境中進行的實地研究」。",
+        "field-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-12"
     },
@@ -1476,11 +1364,9 @@ export default {
       "masked": "The object moved into my ____.",
       "options": [
         "field-mcq-13",
-        "field-mcq-12",
-        "field-mcq-14",
-        "field-mcq-11",
-        "field-mcq-15",
-        "field-mcq-10"
+        "field-mcq-10",
+        "field-mcq-18",
+        "field-mcq-09"
       ],
       "explanation": "本句的「field of vision」指「眼睛能看到的範圍；視野」。",
       "sentenceIndex": 30,
@@ -1489,12 +1375,10 @@ export default {
         "field of vision"
       ],
       "optionReasons": {
-        "field-mcq-13": "本句指「眼睛能看到的範圍；視野」。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。"
+        "field-mcq-13": "本句的「field of vision」指「眼睛能看到的範圍；視野」。",
+        "field-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-13"
     },
@@ -1506,11 +1390,9 @@ export default {
       "masked": "The mirror increases the driver’s ____.",
       "options": [
         "field-mcq-13",
-        "field-mcq-12",
-        "field-mcq-14",
-        "field-mcq-11",
-        "field-mcq-15",
-        "field-mcq-10"
+        "field-mcq-09",
+        "field-mcq-18",
+        "field-mcq-23"
       ],
       "explanation": "本句的「field of vision」指「眼睛能看到的範圍；視野」。",
       "sentenceIndex": 31,
@@ -1519,12 +1401,10 @@ export default {
         "field of vision"
       ],
       "optionReasons": {
-        "field-mcq-13": "本句指「眼睛能看到的範圍；視野」。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。"
+        "field-mcq-13": "本句的「field of vision」指「眼睛能看到的範圍；視野」。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-13"
     },
@@ -1536,11 +1416,9 @@ export default {
       "masked": "The camera has a wide ____.",
       "options": [
         "field-mcq-14",
-        "field-mcq-13",
-        "field-mcq-15",
-        "field-mcq-12",
-        "field-mcq-16",
-        "field-mcq-11"
+        "field-mcq-22",
+        "field-mcq-05",
+        "field-mcq-01"
       ],
       "explanation": "本句的「field of view」指「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」。",
       "sentenceIndex": 32,
@@ -1549,12 +1427,10 @@ export default {
         "field of view"
       ],
       "optionReasons": {
-        "field-mcq-14": "本句指「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-16": "「電場／重力場／磁場」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。"
+        "field-mcq-14": "本句的「field of view」指「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」。",
+        "field-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-14"
     },
@@ -1566,11 +1442,9 @@ export default {
       "masked": "The object moved out of the microscope’s ____.",
       "options": [
         "field-mcq-14",
-        "field-mcq-13",
-        "field-mcq-15",
-        "field-mcq-12",
-        "field-mcq-16",
-        "field-mcq-11"
+        "field-mcq-11",
+        "field-mcq-21",
+        "field-mcq-09"
       ],
       "explanation": "本句的「field of view」指「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」。",
       "sentenceIndex": 33,
@@ -1579,12 +1453,10 @@ export default {
         "field of view"
       ],
       "optionReasons": {
-        "field-mcq-14": "本句指「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-16": "「電場／重力場／磁場」與本句語境不同。",
-        "field-mcq-11": "「在真實環境中進行的實地工作／田野調查」與本句語境不同。"
+        "field-mcq-14": "本句的「field of view」指「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」。",
+        "field-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-14"
     },
@@ -1596,11 +1468,9 @@ export default {
       "masked": "The Moon has a weaker gravitational ____ than Earth.",
       "options": [
         "field-mcq-16",
-        "field-mcq-15",
-        "field-mcq-17",
-        "field-mcq-14",
-        "field-mcq-18",
-        "field-mcq-13"
+        "field-mcq-12",
+        "field-mcq-23",
+        "field-mcq-06"
       ],
       "explanation": "本句的「field」指「電場／重力場／磁場」。",
       "sentenceIndex": 36,
@@ -1609,12 +1479,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-16": "本句指「電場／重力場／磁場」。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。"
+        "field-mcq-16": "本句的「field」指「電場／重力場／磁場」。",
+        "field-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-16"
     },
@@ -1626,11 +1494,9 @@ export default {
       "masked": "Objects accelerate in a gravitational ____.",
       "options": [
         "field-mcq-16",
-        "field-mcq-15",
-        "field-mcq-17",
-        "field-mcq-14",
-        "field-mcq-18",
-        "field-mcq-13"
+        "field-mcq-19",
+        "field-mcq-24",
+        "field-mcq-21"
       ],
       "explanation": "本句的「field」指「電場／重力場／磁場」。",
       "sentenceIndex": 37,
@@ -1639,12 +1505,10 @@ export default {
         "field"
       ],
       "optionReasons": {
-        "field-mcq-16": "本句指「電場／重力場／磁場」。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。"
+        "field-mcq-16": "本句的「field」指「電場／重力場／磁場」。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-16"
     },
@@ -1656,11 +1520,9 @@ export default {
       "masked": "The charge produces an ____.",
       "options": [
         "field-mcq-16",
-        "field-mcq-15",
-        "field-mcq-17",
-        "field-mcq-14",
-        "field-mcq-18",
-        "field-mcq-13"
+        "field-mcq-08",
+        "field-mcq-12",
+        "field-mcq-05"
       ],
       "explanation": "本句的「electric field」指「電場／重力場／磁場」。",
       "sentenceIndex": 38,
@@ -1669,12 +1531,10 @@ export default {
         "electric field"
       ],
       "optionReasons": {
-        "field-mcq-16": "本句指「電場／重力場／磁場」。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。"
+        "field-mcq-16": "本句的「electric field」指「電場／重力場／磁場」。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-16"
     },
@@ -1686,11 +1546,9 @@ export default {
       "masked": "The strength of the ____ can be measured.",
       "options": [
         "field-mcq-16",
-        "field-mcq-15",
-        "field-mcq-17",
-        "field-mcq-14",
-        "field-mcq-18",
-        "field-mcq-13"
+        "field-mcq-19",
+        "field-mcq-23",
+        "field-mcq-06"
       ],
       "explanation": "本句的「electric field」指「電場／重力場／磁場」。",
       "sentenceIndex": 39,
@@ -1699,12 +1557,10 @@ export default {
         "electric field"
       ],
       "optionReasons": {
-        "field-mcq-16": "本句指「電場／重力場／磁場」。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。"
+        "field-mcq-16": "本句的「electric field」指「電場／重力場／磁場」。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-16"
     },
@@ -1716,11 +1572,9 @@ export default {
       "masked": "Earth has a ____.",
       "options": [
         "field-mcq-16",
-        "field-mcq-15",
-        "field-mcq-17",
-        "field-mcq-14",
-        "field-mcq-18",
-        "field-mcq-13"
+        "field-mcq-21",
+        "field-mcq-01",
+        "field-mcq-23"
       ],
       "explanation": "本句的「magnetic field」指「電場／重力場／磁場」。",
       "sentenceIndex": 40,
@@ -1729,12 +1583,10 @@ export default {
         "magnetic field"
       ],
       "optionReasons": {
-        "field-mcq-16": "本句指「電場／重力場／磁場」。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。"
+        "field-mcq-16": "本句的「magnetic field」指「電場／重力場／磁場」。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-16"
     },
@@ -1746,11 +1598,9 @@ export default {
       "masked": "The magnet creates a strong ____.",
       "options": [
         "field-mcq-16",
-        "field-mcq-15",
-        "field-mcq-17",
-        "field-mcq-14",
-        "field-mcq-18",
-        "field-mcq-13"
+        "field-mcq-23",
+        "field-mcq-21",
+        "field-mcq-12"
       ],
       "explanation": "本句的「magnetic field」指「電場／重力場／磁場」。",
       "sentenceIndex": 41,
@@ -1759,12 +1609,10 @@ export default {
         "magnetic field"
       ],
       "optionReasons": {
-        "field-mcq-16": "本句指「電場／重力場／磁場」。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-14": "「眼睛、相機、顯微鏡等所能涵蓋的可見範圍；視場」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。"
+        "field-mcq-16": "本句的「magnetic field」指「電場／重力場／磁場」。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-16"
     },
@@ -1776,11 +1624,9 @@ export default {
       "masked": "All ____ are marked with an asterisk.",
       "options": [
         "field-mcq-18",
-        "field-mcq-17",
-        "field-mcq-19",
-        "field-mcq-16",
-        "field-mcq-20",
-        "field-mcq-15"
+        "field-mcq-25",
+        "field-mcq-23",
+        "field-mcq-09"
       ],
       "explanation": "本句的「required fields」指「必須填寫才能完成表格的必填欄位」。",
       "sentenceIndex": 44,
@@ -1789,12 +1635,10 @@ export default {
         "required fields"
       ],
       "optionReasons": {
-        "field-mcq-18": "本句指「必須填寫才能完成表格的必填欄位」。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。",
-        "field-mcq-16": "「電場／重力場／磁場」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。"
+        "field-mcq-18": "本句的「required fields」指「必須填寫才能完成表格的必填欄位」。",
+        "field-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-18"
     },
@@ -1806,11 +1650,9 @@ export default {
       "masked": "You cannot submit the form until every ____ is complete.",
       "options": [
         "field-mcq-18",
-        "field-mcq-17",
-        "field-mcq-19",
-        "field-mcq-16",
-        "field-mcq-20",
-        "field-mcq-15"
+        "field-mcq-09",
+        "field-mcq-23",
+        "field-mcq-13"
       ],
       "explanation": "本句的「required field」指「必須填寫才能完成表格的必填欄位」。",
       "sentenceIndex": 45,
@@ -1819,12 +1661,10 @@ export default {
         "required field"
       ],
       "optionReasons": {
-        "field-mcq-18": "本句指「必須填寫才能完成表格的必填欄位」。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。",
-        "field-mcq-16": "「電場／重力場／磁場」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-15": "「某種力或物理作用在空間中產生影響的區域；場」與本句語境不同。"
+        "field-mcq-18": "本句的「required field」指「必須填寫才能完成表格的必填欄位」。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-18"
     },
@@ -1836,11 +1676,9 @@ export default {
       "masked": "A wide aperture creates a shallow ____.",
       "options": [
         "field-mcq-19",
-        "field-mcq-18",
-        "field-mcq-20",
-        "field-mcq-17",
-        "field-mcq-21",
-        "field-mcq-16"
+        "field-mcq-26",
+        "field-mcq-07",
+        "field-mcq-23"
       ],
       "explanation": "本句的「depth of field」指「攝影中看起來清晰的距離範圍；景深」。",
       "sentenceIndex": 46,
@@ -1849,12 +1687,10 @@ export default {
         "depth of field"
       ],
       "optionReasons": {
-        "field-mcq-19": "本句指「攝影中看起來清晰的距離範圍；景深」。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-16": "「電場／重力場／磁場」與本句語境不同。"
+        "field-mcq-19": "本句的「depth of field」指「攝影中看起來清晰的距離範圍；景深」。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-19"
     },
@@ -1866,10 +1702,8 @@ export default {
       "masked": "The photographer adjusted the ____.",
       "options": [
         "field-mcq-19",
-        "field-mcq-18",
         "field-mcq-20",
-        "field-mcq-17",
-        "field-mcq-21",
+        "field-mcq-26",
         "field-mcq-16"
       ],
       "explanation": "本句的「depth of field」指「攝影中看起來清晰的距離範圍；景深」。",
@@ -1879,12 +1713,10 @@ export default {
         "depth of field"
       ],
       "optionReasons": {
-        "field-mcq-19": "本句指「攝影中看起來清晰的距離範圍；景深」。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-16": "「電場／重力場／磁場」與本句語境不同。"
+        "field-mcq-19": "本句的「depth of field」指「攝影中看起來清晰的距離範圍；景深」。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-19"
     },
@@ -1896,11 +1728,9 @@ export default {
       "masked": "He ____ cleanly.",
       "options": [
         "field-mcq-20",
-        "field-mcq-19",
-        "field-mcq-21",
-        "field-mcq-18",
-        "field-mcq-22",
-        "field-mcq-17"
+        "field-mcq-08",
+        "field-mcq-10",
+        "field-mcq-18"
       ],
       "explanation": "本句的「fielded the ball」指「在運動中接住、攔截或處理球」。",
       "sentenceIndex": 48,
@@ -1909,12 +1739,10 @@ export default {
         "fielded the ball"
       ],
       "optionReasons": {
-        "field-mcq-20": "本句指「在運動中接住、攔截或處理球」。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。"
+        "field-mcq-20": "本句的「fielded the ball」指「在運動中接住、攔截或處理球」。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-20"
     },
@@ -1926,11 +1754,9 @@ export default {
       "masked": "She ____ and threw to first base.",
       "options": [
         "field-mcq-20",
-        "field-mcq-19",
-        "field-mcq-21",
-        "field-mcq-18",
-        "field-mcq-22",
-        "field-mcq-17"
+        "field-mcq-16",
+        "field-mcq-23",
+        "field-mcq-26"
       ],
       "explanation": "本句的「fielded the ground ball」指「在運動中接住、攔截或處理球」。",
       "sentenceIndex": 49,
@@ -1939,12 +1765,10 @@ export default {
         "fielded the ground ball"
       ],
       "optionReasons": {
-        "field-mcq-20": "本句指「在運動中接住、攔截或處理球」。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-17": "「表格或資料庫中用來輸入或儲存某一類資料的欄位」與本句語境不同。"
+        "field-mcq-20": "本句的「fielded the ground ball」指「在運動中接住、攔截或處理球」。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-20"
     },
@@ -1956,11 +1780,9 @@ export default {
       "masked": "She ____ from the audience.",
       "options": [
         "field-mcq-21",
-        "field-mcq-20",
-        "field-mcq-22",
-        "field-mcq-19",
-        "field-mcq-23",
-        "field-mcq-18"
+        "field-mcq-06",
+        "field-mcq-08",
+        "field-mcq-26"
       ],
       "explanation": "本句的「fielded questions」指「接受並回答／處理一連串問題」。",
       "sentenceIndex": 50,
@@ -1969,12 +1791,10 @@ export default {
         "fielded questions"
       ],
       "optionReasons": {
-        "field-mcq-21": "本句指「接受並回答／處理一連串問題」。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。"
+        "field-mcq-21": "本句的「fielded questions」指「接受並回答／處理一連串問題」。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-21"
     },
@@ -1986,11 +1806,9 @@ export default {
       "masked": "The manager spent an hour ____.",
       "options": [
         "field-mcq-21",
-        "field-mcq-20",
-        "field-mcq-22",
-        "field-mcq-19",
-        "field-mcq-23",
-        "field-mcq-18"
+        "field-mcq-06",
+        "field-mcq-24",
+        "field-mcq-07"
       ],
       "explanation": "本句的「fielding difficult questions」指「接受並回答／處理一連串問題」。",
       "sentenceIndex": 51,
@@ -1999,12 +1817,10 @@ export default {
         "fielding difficult questions"
       ],
       "optionReasons": {
-        "field-mcq-21": "本句指「接受並回答／處理一連串問題」。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-18": "「必須填寫才能完成表格的必填欄位」與本句語境不同。"
+        "field-mcq-21": "本句的「fielding difficult questions」指「接受並回答／處理一連串問題」。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-21"
     },
@@ -2016,11 +1832,9 @@ export default {
       "masked": "Staff spent the morning ____ from customers.",
       "options": [
         "field-mcq-22",
-        "field-mcq-21",
-        "field-mcq-23",
-        "field-mcq-20",
-        "field-mcq-24",
-        "field-mcq-19"
+        "field-mcq-01",
+        "field-mcq-09",
+        "field-mcq-14"
       ],
       "explanation": "本句的「fielding calls」指「接聽並處理來電、要求或投訴」。",
       "sentenceIndex": 52,
@@ -2029,12 +1843,10 @@ export default {
         "fielding calls"
       ],
       "optionReasons": {
-        "field-mcq-22": "本句指「接聽並處理來電、要求或投訴」。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。"
+        "field-mcq-22": "本句的「fielding calls」指「接聽並處理來電、要求或投訴」。",
+        "field-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-22"
     },
@@ -2046,11 +1858,9 @@ export default {
       "masked": "The support team ____.",
       "options": [
         "field-mcq-22",
-        "field-mcq-21",
-        "field-mcq-23",
-        "field-mcq-20",
-        "field-mcq-24",
-        "field-mcq-19"
+        "field-mcq-26",
+        "field-mcq-06",
+        "field-mcq-09"
       ],
       "explanation": "本句的「fielded hundreds of requests」指「接聽並處理來電、要求或投訴」。",
       "sentenceIndex": 53,
@@ -2059,12 +1869,10 @@ export default {
         "fielded hundreds of requests"
       ],
       "optionReasons": {
-        "field-mcq-22": "本句指「接聽並處理來電、要求或投訴」。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-19": "「攝影中看起來清晰的距離範圍；景深」與本句語境不同。"
+        "field-mcq-22": "本句的「fielded hundreds of requests」指「接聽並處理來電、要求或投訴」。",
+        "field-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-22"
     },
@@ -2076,11 +1884,9 @@ export default {
       "masked": "The school will ____ in the competition.",
       "options": [
         "field-mcq-23",
-        "field-mcq-22",
-        "field-mcq-24",
         "field-mcq-21",
-        "field-mcq-25",
-        "field-mcq-20"
+        "field-mcq-19",
+        "field-mcq-25"
       ],
       "explanation": "本句的「field a team」指「派出一支隊伍參賽」。",
       "sentenceIndex": 54,
@@ -2089,12 +1895,10 @@ export default {
         "field a team"
       ],
       "optionReasons": {
-        "field-mcq-23": "本句指「派出一支隊伍參賽」。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。"
+        "field-mcq-23": "本句的「field a team」指「派出一支隊伍參賽」。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-23"
     },
@@ -2106,11 +1910,9 @@ export default {
       "masked": "They could not ____.",
       "options": [
         "field-mcq-23",
-        "field-mcq-22",
-        "field-mcq-24",
-        "field-mcq-21",
-        "field-mcq-25",
-        "field-mcq-20"
+        "field-mcq-14",
+        "field-mcq-02",
+        "field-mcq-03"
       ],
       "explanation": "本句的「field a full team」指「派出一支隊伍參賽」。",
       "sentenceIndex": 55,
@@ -2119,12 +1921,10 @@ export default {
         "field a full team"
       ],
       "optionReasons": {
-        "field-mcq-23": "本句指「派出一支隊伍參賽」。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-20": "「在運動中接住、攔截或處理球」與本句語境不同。"
+        "field-mcq-23": "本句的「field a full team」指「派出一支隊伍參賽」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-23"
     },
@@ -2136,11 +1936,9 @@ export default {
       "masked": "The organization decided to ____.",
       "options": [
         "field-mcq-24",
-        "field-mcq-23",
-        "field-mcq-25",
+        "field-mcq-19",
         "field-mcq-22",
-        "field-mcq-26",
-        "field-mcq-21"
+        "field-mcq-10"
       ],
       "explanation": "本句的「field a candidate」指「推出／派出候選人參與選舉或甄選」。",
       "sentenceIndex": 56,
@@ -2149,12 +1947,10 @@ export default {
         "field a candidate"
       ],
       "optionReasons": {
-        "field-mcq-24": "本句指「推出／派出候選人參與選舉或甄選」。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-26": "「開始在某個專業領域學習或工作」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。"
+        "field-mcq-24": "本句的「field a candidate」指「推出／派出候選人參與選舉或甄選」。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-24"
     },
@@ -2166,10 +1962,8 @@ export default {
       "masked": "Several groups ____.",
       "options": [
         "field-mcq-24",
-        "field-mcq-23",
-        "field-mcq-25",
-        "field-mcq-22",
-        "field-mcq-26",
+        "field-mcq-12",
+        "field-mcq-09",
         "field-mcq-21"
       ],
       "explanation": "本句的「fielded candidates」指「推出／派出候選人參與選舉或甄選」。",
@@ -2179,12 +1973,10 @@ export default {
         "fielded candidates"
       ],
       "optionReasons": {
-        "field-mcq-24": "本句指「推出／派出候選人參與選舉或甄選」。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。",
-        "field-mcq-26": "「開始在某個專業領域學習或工作」與本句語境不同。",
-        "field-mcq-21": "「接受並回答／處理一連串問題」與本句語境不同。"
+        "field-mcq-24": "本句的「fielded candidates」指「推出／派出候選人參與選舉或甄選」。",
+        "field-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-24"
     },
@@ -2196,11 +1988,9 @@ export default {
       "masked": "She conducted ____ overseas.",
       "options": [
         "field-mcq-11",
-        "field-mcq-10",
-        "field-mcq-12",
-        "field-mcq-09",
-        "field-mcq-13",
-        "field-mcq-08"
+        "field-mcq-19",
+        "field-mcq-21",
+        "field-mcq-23"
       ],
       "explanation": "本句的「fieldwork」指「在真實環境中進行的實地工作／田野調查」。",
       "sentenceIndex": 58,
@@ -2209,12 +1999,10 @@ export default {
         "fieldwork"
       ],
       "optionReasons": {
-        "field-mcq-11": "本句指「在真實環境中進行的實地工作／田野調查」。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。"
+        "field-mcq-11": "本句的「fieldwork」指「在真實環境中進行的實地工作／田野調查」。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-11"
     },
@@ -2226,11 +2014,9 @@ export default {
       "masked": "The course requires extensive ____.",
       "options": [
         "field-mcq-11",
-        "field-mcq-10",
-        "field-mcq-12",
-        "field-mcq-09",
-        "field-mcq-13",
-        "field-mcq-08"
+        "field-mcq-20",
+        "field-mcq-19",
+        "field-mcq-02"
       ],
       "explanation": "本句的「fieldwork」指「在真實環境中進行的實地工作／田野調查」。",
       "sentenceIndex": 59,
@@ -2239,12 +2025,10 @@ export default {
         "fieldwork"
       ],
       "optionReasons": {
-        "field-mcq-11": "本句指「在真實環境中進行的實地工作／田野調查」。",
-        "field-mcq-10": "「在辦公室、教室或實驗室外進行實際工作的現場／實地」與本句語境不同。",
-        "field-mcq-12": "「在自然或真實環境中進行的實地研究」與本句語境不同。",
-        "field-mcq-09": "「軍事行動、前線或作戰發生的區域」與本句語境不同。",
-        "field-mcq-13": "「眼睛能看到的範圍；視野」與本句語境不同。",
-        "field-mcq-08": "「一項比賽中的所有參賽者／競爭者」與本句語境不同。"
+        "field-mcq-11": "本句的「fieldwork」指「在真實環境中進行的實地工作／田野調查」。",
+        "field-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-11"
     },
@@ -2256,11 +2040,9 @@ export default {
       "masked": "She is an expert ____.",
       "options": [
         "field-mcq-25",
-        "field-mcq-24",
-        "field-mcq-26",
-        "field-mcq-23",
-        "field-mcq-27",
-        "field-mcq-22"
+        "field-mcq-08",
+        "field-mcq-16",
+        "field-mcq-24"
       ],
       "explanation": "本句的「in the field of physics education」指「在某個專業、研究或知識領域中」。",
       "sentenceIndex": 62,
@@ -2269,12 +2051,10 @@ export default {
         "in the field of physics education"
       ],
       "optionReasons": {
-        "field-mcq-25": "本句指「在某個專業、研究或知識領域中」。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-26": "「開始在某個專業領域學習或工作」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-27": "「超出某人的專業或研究範圍」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。"
+        "field-mcq-25": "本句的「in the field of physics education」指「在某個專業、研究或知識領域中」。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-25"
     },
@@ -2286,10 +2066,8 @@ export default {
       "masked": "There have been major advances ____.",
       "options": [
         "field-mcq-25",
-        "field-mcq-24",
-        "field-mcq-26",
-        "field-mcq-23",
-        "field-mcq-27",
+        "field-mcq-13",
+        "field-mcq-07",
         "field-mcq-22"
       ],
       "explanation": "本句的「in the field of medicine」指「在某個專業、研究或知識領域中」。",
@@ -2299,12 +2077,10 @@ export default {
         "in the field of medicine"
       ],
       "optionReasons": {
-        "field-mcq-25": "本句指「在某個專業、研究或知識領域中」。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-26": "「開始在某個專業領域學習或工作」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-27": "「超出某人的專業或研究範圍」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。"
+        "field-mcq-25": "本句的「in the field of medicine」指「在某個專業、研究或知識領域中」。",
+        "field-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-25"
     },
@@ -2316,11 +2092,9 @@ export default {
       "masked": "She wants to ____.",
       "options": [
         "field-mcq-26",
-        "field-mcq-25",
-        "field-mcq-27",
-        "field-mcq-24",
-        "field-mcq-23",
-        "field-mcq-22"
+        "field-mcq-14",
+        "field-mcq-06",
+        "field-mcq-23"
       ],
       "explanation": "本句的「go into the field of engineering」指「開始在某個專業領域學習或工作」。",
       "sentenceIndex": 64,
@@ -2329,12 +2103,10 @@ export default {
         "go into the field of engineering"
       ],
       "optionReasons": {
-        "field-mcq-26": "本句指「開始在某個專業領域學習或工作」。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-27": "「超出某人的專業或研究範圍」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。"
+        "field-mcq-26": "本句的「go into the field of engineering」指「開始在某個專業領域學習或工作」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-26"
     },
@@ -2346,11 +2118,9 @@ export default {
       "masked": "More students are choosing to ____.",
       "options": [
         "field-mcq-26",
-        "field-mcq-25",
-        "field-mcq-27",
-        "field-mcq-24",
-        "field-mcq-23",
-        "field-mcq-22"
+        "field-mcq-14",
+        "field-mcq-06",
+        "field-mcq-08"
       ],
       "explanation": "本句的「enter science-related fields」指「開始在某個專業領域學習或工作」。",
       "sentenceIndex": 65,
@@ -2359,12 +2129,10 @@ export default {
         "enter science-related fields"
       ],
       "optionReasons": {
-        "field-mcq-26": "本句指「開始在某個專業領域學習或工作」。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-27": "「超出某人的專業或研究範圍」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。"
+        "field-mcq-26": "本句的「enter science-related fields」指「開始在某個專業領域學習或工作」。",
+        "field-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-26"
     },
@@ -2376,11 +2144,9 @@ export default {
       "masked": "That question is slightly ____.",
       "options": [
         "field-mcq-27",
-        "field-mcq-26",
-        "field-mcq-25",
-        "field-mcq-24",
-        "field-mcq-23",
-        "field-mcq-22"
+        "field-mcq-22",
+        "field-mcq-05",
+        "field-mcq-07"
       ],
       "explanation": "本句的「outside my field」指「超出某人的專業或研究範圍」。",
       "sentenceIndex": 68,
@@ -2389,12 +2155,10 @@ export default {
         "outside my field"
       ],
       "optionReasons": {
-        "field-mcq-27": "本句指「超出某人的專業或研究範圍」。",
-        "field-mcq-26": "「開始在某個專業領域學習或工作」與本句語境不同。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。"
+        "field-mcq-27": "本句的「outside my field」指「超出某人的專業或研究範圍」。",
+        "field-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-27"
     },
@@ -2406,11 +2170,9 @@ export default {
       "masked": "She sometimes reads research ____.",
       "options": [
         "field-mcq-27",
-        "field-mcq-26",
-        "field-mcq-25",
-        "field-mcq-24",
-        "field-mcq-23",
-        "field-mcq-22"
+        "field-mcq-06",
+        "field-mcq-18",
+        "field-mcq-09"
       ],
       "explanation": "本句的「outside her field」指「超出某人的專業或研究範圍」。",
       "sentenceIndex": 69,
@@ -2419,12 +2181,10 @@ export default {
         "outside her field"
       ],
       "optionReasons": {
-        "field-mcq-27": "本句指「超出某人的專業或研究範圍」。",
-        "field-mcq-26": "「開始在某個專業領域學習或工作」與本句語境不同。",
-        "field-mcq-25": "「在某個專業、研究或知識領域中」與本句語境不同。",
-        "field-mcq-24": "「推出／派出候選人參與選舉或甄選」與本句語境不同。",
-        "field-mcq-23": "「派出一支隊伍參賽」與本句語境不同。",
-        "field-mcq-22": "「接聽並處理來電、要求或投訴」與本句語境不同。"
+        "field-mcq-27": "本句的「outside her field」指「超出某人的專業或研究範圍」。",
+        "field-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "field-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "field-mcq-27"
     }
@@ -2436,5 +2196,7 @@ export default {
     "sha256": "4be782bce4336edcb9ddbfda8442aa98c93a7925ddeb276d27bda8fa913f2a86",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

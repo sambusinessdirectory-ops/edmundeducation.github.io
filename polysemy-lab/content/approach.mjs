@@ -467,7 +467,7 @@ export default {
     },
     {
       "id": "approach-mcq-22",
-      "title": "表示進場；著陸進場",
+      "title": "進場；著陸進場",
       "form": "13. approach — aircraft movement toward landing",
       "en": "13. approach — aircraft movement toward landing",
       "zh": "表示進場；著陸進場",
@@ -497,11 +497,9 @@ export default {
       "masked": "When the first explanation failed, she changed her ____.",
       "options": [
         "approach-mcq-21",
-        "approach-mcq-20",
+        "approach-mcq-03",
         "approach-mcq-22",
-        "approach-mcq-19",
-        "approach-mcq-18",
-        "approach-mcq-17"
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approach」指「改變她的教學方式／處理方法」。",
       "sentenceIndex": 0,
@@ -510,12 +508,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-21": "本句指「改變她的教學方式／處理方法」。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-22": "「表示進場；著陸進場」是「13. approach — aircraft movement toward landing」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。"
+        "approach-mcq-21": "本句的「approach」指「改變她的教學方式／處理方法」。",
+        "approach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-21"
     },
@@ -527,11 +523,9 @@ export default {
       "masked": "Different students may need different teaching ____.",
       "options": [
         "approach-mcq-21",
-        "approach-mcq-20",
         "approach-mcq-22",
-        "approach-mcq-19",
-        "approach-mcq-18",
-        "approach-mcq-17"
+        "approach-mcq-10",
+        "approach-mcq-05"
       ],
       "explanation": "本句的「approaches」指「改變她的教學方式／處理方法」。",
       "sentenceIndex": 1,
@@ -540,12 +534,10 @@ export default {
         "approaches"
       ],
       "optionReasons": {
-        "approach-mcq-21": "本句指「改變她的教學方式／處理方法」。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-22": "「表示進場；著陸進場」是「13. approach — aircraft movement toward landing」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。"
+        "approach-mcq-21": "本句的「approaches」指「改變她的教學方式／處理方法」。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-21"
     },
@@ -557,11 +549,9 @@ export default {
       "masked": "We need a different ____ to the problem.",
       "options": [
         "approach-mcq-02",
-        "approach-mcq-01",
-        "approach-mcq-03",
-        "approach-mcq-04",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-14",
+        "approach-mcq-10",
+        "approach-mcq-17"
       ],
       "explanation": "本句的「approach」指「對某個主題、問題或活動所採取的處理方式」。",
       "sentenceIndex": 2,
@@ -570,12 +560,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-02": "本句指「對某個主題、問題或活動所採取的處理方式」。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-02": "本句的「approach」指「對某個主題、問題或活動所採取的處理方式」。",
+        "approach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-02"
     },
@@ -587,11 +575,9 @@ export default {
       "masked": "Her teaching ____ is simple and practical.",
       "options": [
         "approach-mcq-02",
-        "approach-mcq-01",
-        "approach-mcq-03",
         "approach-mcq-04",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-17",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approach」指「對某個主題、問題或活動所採取的處理方式」。",
       "sentenceIndex": 3,
@@ -600,12 +586,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-02": "本句指「對某個主題、問題或活動所採取的處理方式」。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-02": "本句的「approach」指「對某個主題、問題或活動所採取的處理方式」。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-02"
     },
@@ -617,11 +601,9 @@ export default {
       "masked": "I like her ____.",
       "options": [
         "approach-mcq-02",
-        "approach-mcq-01",
         "approach-mcq-03",
-        "approach-mcq-04",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-12",
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approach to teaching」指「對某個主題、問題或活動所採取的處理方式」。",
       "sentenceIndex": 4,
@@ -630,12 +612,10 @@ export default {
         "approach to teaching"
       ],
       "optionReasons": {
-        "approach-mcq-02": "本句指「對某個主題、問題或活動所採取的處理方式」。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-02": "本句的「approach to teaching」指「對某個主題、問題或活動所採取的處理方式」。",
+        "approach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-02"
     },
@@ -647,11 +627,9 @@ export default {
       "masked": "The company changed its ____.",
       "options": [
         "approach-mcq-02",
-        "approach-mcq-01",
-        "approach-mcq-03",
-        "approach-mcq-04",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-14",
+        "approach-mcq-12",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approach to customer service」指「對某個主題、問題或活動所採取的處理方式」。",
       "sentenceIndex": 5,
@@ -660,12 +638,10 @@ export default {
         "approach to customer service"
       ],
       "optionReasons": {
-        "approach-mcq-02": "本句指「對某個主題、問題或活動所採取的處理方式」。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-02": "本句的「approach to customer service」指「對某個主題、問題或活動所採取的處理方式」。",
+        "approach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-02"
     },
@@ -677,11 +653,9 @@ export default {
       "masked": "We ____ slowly.",
       "options": [
         "approach-mcq-03",
-        "approach-mcq-02",
-        "approach-mcq-04",
-        "approach-mcq-01",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-20",
+        "approach-mcq-10",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approached the building」指「在空間上逐漸接近某人、某物或某地」。",
       "sentenceIndex": 6,
@@ -690,12 +664,10 @@ export default {
         "approached the building"
       ],
       "optionReasons": {
-        "approach-mcq-03": "本句指「在空間上逐漸接近某人、某物或某地」。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-03": "本句的「approached the building」指「在空間上逐漸接近某人、某物或某地」。",
+        "approach-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-03"
     },
@@ -707,11 +679,9 @@ export default {
       "masked": "A stranger ____ in the station.",
       "options": [
         "approach-mcq-03",
-        "approach-mcq-02",
-        "approach-mcq-04",
-        "approach-mcq-01",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-20",
+        "approach-mcq-17",
+        "approach-mcq-18"
       ],
       "explanation": "本句的「approached me」指「在空間上逐漸接近某人、某物或某地」。",
       "sentenceIndex": 7,
@@ -720,12 +690,10 @@ export default {
         "approached me"
       ],
       "optionReasons": {
-        "approach-mcq-03": "本句指「在空間上逐漸接近某人、某物或某地」。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-03": "本句的「approached me」指「在空間上逐漸接近某人、某物或某地」。",
+        "approach-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-03"
     },
@@ -737,11 +705,9 @@ export default {
       "masked": "She ____ after class.",
       "options": [
         "approach-mcq-03",
-        "approach-mcq-02",
-        "approach-mcq-04",
-        "approach-mcq-01",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-17",
+        "approach-mcq-10",
+        "approach-mcq-21"
       ],
       "explanation": "本句的「approached the teacher」指「在空間上逐漸接近某人、某物或某地」。",
       "sentenceIndex": 8,
@@ -750,12 +716,10 @@ export default {
         "approached the teacher"
       ],
       "optionReasons": {
-        "approach-mcq-03": "本句指「在空間上逐漸接近某人、某物或某地」。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-03": "本句的「approached the teacher」指「在空間上逐漸接近某人、某物或某地」。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-03"
     },
@@ -767,11 +731,9 @@ export default {
       "masked": "The car ____.",
       "options": [
         "approach-mcq-03",
-        "approach-mcq-02",
-        "approach-mcq-04",
-        "approach-mcq-01",
-        "approach-mcq-05",
-        "approach-mcq-06"
+        "approach-mcq-18",
+        "approach-mcq-08",
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approached the bridge」指「在空間上逐漸接近某人、某物或某地」。",
       "sentenceIndex": 9,
@@ -780,12 +742,10 @@ export default {
         "approached the bridge"
       ],
       "optionReasons": {
-        "approach-mcq-03": "本句指「在空間上逐漸接近某人、某物或某地」。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-03": "本句的「approached the bridge」指「在空間上逐漸接近某人、某物或某地」。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-03"
     },
@@ -797,11 +757,9 @@ export default {
       "masked": "Winter is ____.",
       "options": [
         "approach-mcq-04",
-        "approach-mcq-03",
-        "approach-mcq-05",
-        "approach-mcq-02",
-        "approach-mcq-06",
-        "approach-mcq-01"
+        "approach-mcq-08",
+        "approach-mcq-17",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approaching」指「某個時間、事件或期限逐漸來臨」。",
       "sentenceIndex": 10,
@@ -810,12 +768,10 @@ export default {
         "approaching"
       ],
       "optionReasons": {
-        "approach-mcq-04": "本句指「某個時間、事件或期限逐漸來臨」。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。"
+        "approach-mcq-04": "本句的「approaching」指「某個時間、事件或期限逐漸來臨」。",
+        "approach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-04"
     },
@@ -827,11 +783,9 @@ export default {
       "masked": "As the exam ____, students became more nervous.",
       "options": [
         "approach-mcq-04",
-        "approach-mcq-03",
-        "approach-mcq-05",
-        "approach-mcq-02",
-        "approach-mcq-06",
-        "approach-mcq-01"
+        "approach-mcq-16",
+        "approach-mcq-19",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approached」指「某個時間、事件或期限逐漸來臨」。",
       "sentenceIndex": 11,
@@ -840,12 +794,10 @@ export default {
         "approached"
       ],
       "optionReasons": {
-        "approach-mcq-04": "本句指「某個時間、事件或期限逐漸來臨」。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-01": "「面對、思考或處理某問題時採用的整體做法／方法／思路」是「approach — method」的用法，與本句語境不同。"
+        "approach-mcq-04": "本句的「approached」指「某個時間、事件或期限逐漸來臨」。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-04"
     },
@@ -857,11 +809,9 @@ export default {
       "masked": "We prepared for the ____.",
       "options": [
         "approach-mcq-05",
-        "approach-mcq-04",
-        "approach-mcq-06",
-        "approach-mcq-03",
-        "approach-mcq-07",
-        "approach-mcq-02"
+        "approach-mcq-13",
+        "approach-mcq-16",
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approach of winter」指「某事件或時期的逐漸來臨」。",
       "sentenceIndex": 12,
@@ -870,12 +820,10 @@ export default {
         "approach of winter"
       ],
       "optionReasons": {
-        "approach-mcq-05": "本句指「某事件或時期的逐漸來臨」。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。"
+        "approach-mcq-05": "本句的「approach of winter」指「某事件或時期的逐漸來臨」。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-05"
     },
@@ -887,11 +835,9 @@ export default {
       "masked": "The ____ increased pressure.",
       "options": [
         "approach-mcq-05",
-        "approach-mcq-04",
-        "approach-mcq-06",
-        "approach-mcq-03",
-        "approach-mcq-07",
-        "approach-mcq-02"
+        "approach-mcq-16",
+        "approach-mcq-02",
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approach of the deadline」指「某事件或時期的逐漸來臨」。",
       "sentenceIndex": 13,
@@ -900,12 +846,10 @@ export default {
         "approach of the deadline"
       ],
       "optionReasons": {
-        "approach-mcq-05": "本句指「某事件或時期的逐漸來臨」。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-02": "「對某個主題、問題或活動所採取的處理方式」是「approach to something」的用法，與本句語境不同。"
+        "approach-mcq-05": "本句的「approach of the deadline」指「某事件或時期的逐漸來臨」。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-05"
     },
@@ -917,11 +861,9 @@ export default {
       "masked": "She ____ about the problem.",
       "options": [
         "approach-mcq-06",
+        "approach-mcq-17",
         "approach-mcq-05",
-        "approach-mcq-07",
-        "approach-mcq-04",
-        "approach-mcq-08",
-        "approach-mcq-03"
+        "approach-mcq-21"
       ],
       "explanation": "本句的「approached the manager」指「走近某人；或主動找某人談話、接洽」。",
       "sentenceIndex": 14,
@@ -930,12 +872,10 @@ export default {
         "approached the manager"
       ],
       "optionReasons": {
-        "approach-mcq-06": "本句指「走近某人；或主動找某人談話、接洽」。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。"
+        "approach-mcq-06": "本句的「approached the manager」指「走近某人；或主動找某人談話、接洽」。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-06"
     },
@@ -947,11 +887,9 @@ export default {
       "masked": "The organization ____ for advice.",
       "options": [
         "approach-mcq-06",
-        "approach-mcq-05",
-        "approach-mcq-07",
-        "approach-mcq-04",
-        "approach-mcq-08",
-        "approach-mcq-03"
+        "approach-mcq-10",
+        "approach-mcq-17",
+        "approach-mcq-05"
       ],
       "explanation": "本句的「approached several experts」指「走近某人；或主動找某人談話、接洽」。",
       "sentenceIndex": 15,
@@ -960,12 +898,10 @@ export default {
         "approached several experts"
       ],
       "optionReasons": {
-        "approach-mcq-06": "本句指「走近某人；或主動找某人談話、接洽」。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-03": "「在空間上逐漸接近某人、某物或某地」是「approach — move nearer」的用法，與本句語境不同。"
+        "approach-mcq-06": "本句的「approached several experts」指「走近某人；或主動找某人談話、接洽」。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-06"
     },
@@ -977,11 +913,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "approach-mcq-07",
-        "approach-mcq-06",
-        "approach-mcq-08",
-        "approach-mcq-05",
-        "approach-mcq-09",
-        "approach-mcq-04"
+        "approach-mcq-16",
+        "approach-mcq-21",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approached her about the project」指「就某件事主動聯絡、接洽某人」。",
       "sentenceIndex": 16,
@@ -990,12 +924,10 @@ export default {
         "approached her about the project"
       ],
       "optionReasons": {
-        "approach-mcq-07": "本句指「就某件事主動聯絡、接洽某人」。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。"
+        "approach-mcq-07": "本句的「approached her about the project」指「就某件事主動聯絡、接洽某人」。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-07"
     },
@@ -1007,11 +939,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "approach-mcq-07",
-        "approach-mcq-06",
         "approach-mcq-08",
-        "approach-mcq-05",
-        "approach-mcq-09",
-        "approach-mcq-04"
+        "approach-mcq-22",
+        "approach-mcq-16"
       ],
       "explanation": "本句的「approached about a new role」指「就某件事主動聯絡、接洽某人」。",
       "sentenceIndex": 17,
@@ -1020,12 +950,10 @@ export default {
         "approached about a new role"
       ],
       "optionReasons": {
-        "approach-mcq-07": "本句指「就某件事主動聯絡、接洽某人」。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。",
-        "approach-mcq-04": "「某個時間、事件或期限逐漸來臨」是「approach — time」的用法，與本句語境不同。"
+        "approach-mcq-07": "本句的「approached about a new role」指「就某件事主動聯絡、接洽某人」。",
+        "approach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-07"
     },
@@ -1037,11 +965,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "approach-mcq-08",
-        "approach-mcq-07",
-        "approach-mcq-09",
-        "approach-mcq-06",
-        "approach-mcq-10",
-        "approach-mcq-05"
+        "approach-mcq-05",
+        "approach-mcq-12",
+        "approach-mcq-16"
       ],
       "explanation": "本句的「approached the problem logically」指「以某種方式著手思考或處理問題／任務」。",
       "sentenceIndex": 18,
@@ -1050,12 +976,10 @@ export default {
         "approached the problem logically"
       ],
       "optionReasons": {
-        "approach-mcq-08": "本句指「以某種方式著手思考或處理問題／任務」。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。"
+        "approach-mcq-08": "本句的「approached the problem logically」指「以某種方式著手思考或處理問題／任務」。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-08"
     },
@@ -1067,11 +991,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "approach-mcq-08",
-        "approach-mcq-07",
-        "approach-mcq-09",
-        "approach-mcq-06",
-        "approach-mcq-10",
-        "approach-mcq-05"
+        "approach-mcq-04",
+        "approach-mcq-12",
+        "approach-mcq-18"
       ],
       "explanation": "本句的「approach the task carefully」指「以某種方式著手思考或處理問題／任務」。",
       "sentenceIndex": 19,
@@ -1080,12 +1002,10 @@ export default {
         "approach the task carefully"
       ],
       "optionReasons": {
-        "approach-mcq-08": "本句指「以某種方式著手思考或處理問題／任務」。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。",
-        "approach-mcq-05": "「某事件或時期的逐漸來臨」是「the approach of something」的用法，與本句語境不同。"
+        "approach-mcq-08": "本句的「approach the task carefully」指「以某種方式著手思考或處理問題／任務」。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-08"
     },
@@ -1097,11 +1017,9 @@ export default {
       "masked": "Temperatures ____.",
       "options": [
         "approach-mcq-09",
+        "approach-mcq-18",
         "approach-mcq-08",
-        "approach-mcq-10",
-        "approach-mcq-07",
-        "approach-mcq-11",
-        "approach-mcq-06"
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approached 40°C」指「數值、程度等逐漸接近某個標準」。",
       "sentenceIndex": 20,
@@ -1110,12 +1028,10 @@ export default {
         "approached 40°C"
       ],
       "optionReasons": {
-        "approach-mcq-09": "本句指「數值、程度等逐漸接近某個標準」。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-09": "本句的「approached 40°C」指「數值、程度等逐漸接近某個標準」。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-09"
     },
@@ -1127,11 +1043,9 @@ export default {
       "masked": "Sales are ____.",
       "options": [
         "approach-mcq-09",
-        "approach-mcq-08",
-        "approach-mcq-10",
-        "approach-mcq-07",
-        "approach-mcq-11",
-        "approach-mcq-06"
+        "approach-mcq-13",
+        "approach-mcq-22",
+        "approach-mcq-02"
       ],
       "explanation": "本句的「approaching one million units」指「數值、程度等逐漸接近某個標準」。",
       "sentenceIndex": 21,
@@ -1140,12 +1054,10 @@ export default {
         "approaching one million units"
       ],
       "optionReasons": {
-        "approach-mcq-09": "本句指「數值、程度等逐漸接近某個標準」。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-06": "「走近某人；或主動找某人談話、接洽」是「approach someone」的用法，與本句語境不同。"
+        "approach-mcq-09": "本句的「approaching one million units」指「數值、程度等逐漸接近某個標準」。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-09"
     },
@@ -1157,11 +1069,9 @@ export default {
       "masked": "The northern ____ was blocked.",
       "options": [
         "approach-mcq-10",
-        "approach-mcq-09",
-        "approach-mcq-11",
-        "approach-mcq-08",
-        "approach-mcq-12",
-        "approach-mcq-07"
+        "approach-mcq-06",
+        "approach-mcq-17",
+        "approach-mcq-04"
       ],
       "explanation": "本句的「approach to the city」指「通往某地的道路、進路或引道」。",
       "sentenceIndex": 22,
@@ -1170,12 +1080,10 @@ export default {
         "approach to the city"
       ],
       "optionReasons": {
-        "approach-mcq-10": "本句指「通往某地的道路、進路或引道」。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。"
+        "approach-mcq-10": "本句的「approach to the city」指「通往某地的道路、進路或引道」。",
+        "approach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-10"
     },
@@ -1187,11 +1095,9 @@ export default {
       "masked": "The bridge has a steep ____.",
       "options": [
         "approach-mcq-10",
-        "approach-mcq-09",
-        "approach-mcq-11",
-        "approach-mcq-08",
-        "approach-mcq-12",
-        "approach-mcq-07"
+        "approach-mcq-02",
+        "approach-mcq-06",
+        "approach-mcq-18"
       ],
       "explanation": "本句的「approach」指「通往某地的道路、進路或引道」。",
       "sentenceIndex": 23,
@@ -1200,12 +1106,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-10": "本句指「通往某地的道路、進路或引道」。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-08": "「以某種方式著手思考或處理問題／任務」是「approach a problem/task」的用法，與本句語境不同。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。",
-        "approach-mcq-07": "「就某件事主動聯絡、接洽某人」是「approach someone about something」的用法，與本句語境不同。"
+        "approach-mcq-10": "本句的「approach」指「通往某地的道路、進路或引道」。",
+        "approach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-10"
     },
@@ -1217,11 +1121,9 @@ export default {
       "masked": "The plane began its final ____.",
       "options": [
         "approach-mcq-22",
-        "approach-mcq-21",
-        "approach-mcq-20",
-        "approach-mcq-19",
+        "approach-mcq-03",
         "approach-mcq-18",
-        "approach-mcq-17"
+        "approach-mcq-20"
       ],
       "explanation": "本句的「approach」指「表示進場；著陸進場」。",
       "sentenceIndex": 24,
@@ -1230,12 +1132,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-22": "本句指「表示進場；著陸進場」。",
-        "approach-mcq-21": "「改變她的教學方式／處理方法」是「Passage meaning」的用法，與本句語境不同。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。"
+        "approach-mcq-22": "本句的「approach」指「表示進場；著陸進場」。",
+        "approach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-22"
     },
@@ -1247,11 +1147,9 @@ export default {
       "masked": "The aircraft was on ____.",
       "options": [
         "approach-mcq-22",
-        "approach-mcq-21",
-        "approach-mcq-20",
-        "approach-mcq-19",
-        "approach-mcq-18",
-        "approach-mcq-17"
+        "approach-mcq-04",
+        "approach-mcq-02",
+        "approach-mcq-15"
       ],
       "explanation": "本句的「approach to the airport」指「表示進場；著陸進場」。",
       "sentenceIndex": 25,
@@ -1260,12 +1158,10 @@ export default {
         "approach to the airport"
       ],
       "optionReasons": {
-        "approach-mcq-22": "本句指「表示進場；著陸進場」。",
-        "approach-mcq-21": "「改變她的教學方式／處理方法」是「Passage meaning」的用法，與本句語境不同。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。"
+        "approach-mcq-22": "本句的「approach to the airport」指「表示進場；著陸進場」。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-22"
     },
@@ -1277,11 +1173,9 @@ export default {
       "masked": "The company made an ____ to a potential partner.",
       "options": [
         "approach-mcq-12",
-        "approach-mcq-11",
-        "approach-mcq-13",
-        "approach-mcq-10",
-        "approach-mcq-14",
-        "approach-mcq-09"
+        "approach-mcq-21",
+        "approach-mcq-17",
+        "approach-mcq-22"
       ],
       "explanation": "本句的「approach」指「為合作、談判、關係等而作出的接觸／接洽」。",
       "sentenceIndex": 26,
@@ -1290,12 +1184,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-12": "本句指「為合作、談判、關係等而作出的接觸／接洽」。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。"
+        "approach-mcq-12": "本句的「approach」指「為合作、談判、關係等而作出的接觸／接洽」。",
+        "approach-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-12"
     },
@@ -1307,11 +1199,9 @@ export default {
       "masked": "She rejected his romantic ____.",
       "options": [
         "approach-mcq-12",
-        "approach-mcq-11",
-        "approach-mcq-13",
-        "approach-mcq-10",
-        "approach-mcq-14",
-        "approach-mcq-09"
+        "approach-mcq-04",
+        "approach-mcq-19",
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approach」指「為合作、談判、關係等而作出的接觸／接洽」。",
       "sentenceIndex": 27,
@@ -1320,12 +1210,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-12": "本句指「為合作、談判、關係等而作出的接觸／接洽」。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-09": "「數值、程度等逐漸接近某個標準」是「approach a number/level」的用法，與本句語境不同。"
+        "approach-mcq-12": "本句的「approach」指「為合作、談判、關係等而作出的接觸／接洽」。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-12"
     },
@@ -1337,11 +1225,9 @@ export default {
       "masked": "The company made an ____ to several investors.",
       "options": [
         "approach-mcq-13",
-        "approach-mcq-12",
         "approach-mcq-14",
-        "approach-mcq-11",
-        "approach-mcq-15",
-        "approach-mcq-10"
+        "approach-mcq-08",
+        "approach-mcq-04"
       ],
       "explanation": "本句的「approach」指「主動向某人提出提議、要求或建立聯絡」。",
       "sentenceIndex": 28,
@@ -1350,12 +1236,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-13": "本句指「主動向某人提出提議、要求或建立聯絡」。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。"
+        "approach-mcq-13": "本句的「approach」指「主動向某人提出提議、要求或建立聯絡」。",
+        "approach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-13"
     },
@@ -1367,11 +1251,9 @@ export default {
       "masked": "We received an ____ from another organization.",
       "options": [
         "approach-mcq-13",
-        "approach-mcq-12",
-        "approach-mcq-14",
-        "approach-mcq-11",
-        "approach-mcq-15",
-        "approach-mcq-10"
+        "approach-mcq-10",
+        "approach-mcq-09",
+        "approach-mcq-17"
       ],
       "explanation": "本句的「approach」指「主動向某人提出提議、要求或建立聯絡」。",
       "sentenceIndex": 29,
@@ -1380,12 +1262,10 @@ export default {
         "approach"
       ],
       "optionReasons": {
-        "approach-mcq-13": "本句指「主動向某人提出提議、要求或建立聯絡」。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-10": "「通往某地的道路、進路或引道」是「approach — route/access」的用法，與本句語境不同。"
+        "approach-mcq-13": "本句的「approach」指「主動向某人提出提議、要求或建立聯絡」。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-13"
     },
@@ -1397,11 +1277,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "approach-mcq-14",
-        "approach-mcq-13",
-        "approach-mcq-15",
-        "approach-mcq-12",
-        "approach-mcq-16",
-        "approach-mcq-11"
+        "approach-mcq-05",
+        "approach-mcq-20",
+        "approach-mcq-18"
       ],
       "explanation": "本句的「approachable」指「容易交談、讓人不害怕接近的；平易近人的」。",
       "sentenceIndex": 30,
@@ -1410,12 +1288,10 @@ export default {
         "approachable"
       ],
       "optionReasons": {
-        "approach-mcq-14": "本句指「容易交談、讓人不害怕接近的；平易近人的」。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。"
+        "approach-mcq-14": "本句的「approachable」指「容易交談、讓人不害怕接近的；平易近人的」。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-14"
     },
@@ -1427,11 +1303,9 @@ export default {
       "masked": "A good teacher should be knowledgeable but also ____.",
       "options": [
         "approach-mcq-14",
-        "approach-mcq-13",
-        "approach-mcq-15",
-        "approach-mcq-12",
-        "approach-mcq-16",
-        "approach-mcq-11"
+        "approach-mcq-22",
+        "approach-mcq-05",
+        "approach-mcq-13"
       ],
       "explanation": "本句的「approachable」指「容易交談、讓人不害怕接近的；平易近人的」。",
       "sentenceIndex": 31,
@@ -1440,12 +1314,10 @@ export default {
         "approachable"
       ],
       "optionReasons": {
-        "approach-mcq-14": "本句指「容易交談、讓人不害怕接近的；平易近人的」。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-11": "「飛機接近跑道準備降落的進場階段」是「approach — aviation」的用法，與本句語境不同。"
+        "approach-mcq-14": "本句的「approachable」指「容易交談、讓人不害怕接近的；平易近人的」。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-14"
     },
@@ -1457,11 +1329,9 @@ export default {
       "masked": "The book makes physics more ____.",
       "options": [
         "approach-mcq-15",
-        "approach-mcq-14",
-        "approach-mcq-16",
+        "approach-mcq-22",
         "approach-mcq-13",
-        "approach-mcq-17",
-        "approach-mcq-12"
+        "approach-mcq-10"
       ],
       "explanation": "本句的「approachable」指「不令人畏懼、較容易理解或接觸的」。",
       "sentenceIndex": 32,
@@ -1470,12 +1340,10 @@ export default {
         "approachable"
       ],
       "optionReasons": {
-        "approach-mcq-15": "本句指「不令人畏懼、較容易理解或接觸的」。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。"
+        "approach-mcq-15": "本句的「approachable」指「不令人畏懼、較容易理解或接觸的」。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-15"
     },
@@ -1487,11 +1355,9 @@ export default {
       "masked": "Her explanations made the topic feel more ____.",
       "options": [
         "approach-mcq-15",
-        "approach-mcq-14",
-        "approach-mcq-16",
         "approach-mcq-13",
-        "approach-mcq-17",
-        "approach-mcq-12"
+        "approach-mcq-04",
+        "approach-mcq-18"
       ],
       "explanation": "本句的「approachable」指「不令人畏懼、較容易理解或接觸的」。",
       "sentenceIndex": 33,
@@ -1500,12 +1366,10 @@ export default {
         "approachable"
       ],
       "optionReasons": {
-        "approach-mcq-15": "本句指「不令人畏懼、較容易理解或接觸的」。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-12": "「為合作、談判、關係等而作出的接觸／接洽」是「approach — proposal/contact」的用法，與本句語境不同。"
+        "approach-mcq-15": "本句的「approachable」指「不令人畏懼、較容易理解或接觸的」。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-15"
     },
@@ -1517,11 +1381,9 @@ export default {
       "masked": "Her ____ made students comfortable asking questions.",
       "options": [
         "approach-mcq-16",
-        "approach-mcq-15",
-        "approach-mcq-17",
-        "approach-mcq-14",
-        "approach-mcq-18",
-        "approach-mcq-13"
+        "approach-mcq-12",
+        "approach-mcq-22",
+        "approach-mcq-19"
       ],
       "explanation": "本句的「approachability」指「容易親近、交流的特質；親和力」。",
       "sentenceIndex": 34,
@@ -1530,12 +1392,10 @@ export default {
         "approachability"
       ],
       "optionReasons": {
-        "approach-mcq-16": "本句指「容易親近、交流的特質；親和力」。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。"
+        "approach-mcq-16": "本句的「approachability」指「容易親近、交流的特質；親和力」。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-16"
     },
@@ -1547,11 +1407,9 @@ export default {
       "masked": "A leader’s ____ can improve communication.",
       "options": [
         "approach-mcq-16",
-        "approach-mcq-15",
-        "approach-mcq-17",
-        "approach-mcq-14",
-        "approach-mcq-18",
-        "approach-mcq-13"
+        "approach-mcq-04",
+        "approach-mcq-13",
+        "approach-mcq-02"
       ],
       "explanation": "本句的「approachability」指「容易親近、交流的特質；親和力」。",
       "sentenceIndex": 35,
@@ -1560,12 +1418,10 @@ export default {
         "approachability"
       ],
       "optionReasons": {
-        "approach-mcq-16": "本句指「容易親近、交流的特質；親和力」。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-13": "「主動向某人提出提議、要求或建立聯絡」是「make an approach」的用法，與本句語境不同。"
+        "approach-mcq-16": "本句的「approachability」指「容易親近、交流的特質；親和力」。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-16"
     },
@@ -1577,11 +1433,9 @@ export default {
       "masked": "She took a ____ to teaching.",
       "options": [
         "approach-mcq-17",
+        "approach-mcq-02",
         "approach-mcq-16",
-        "approach-mcq-18",
-        "approach-mcq-15",
-        "approach-mcq-19",
-        "approach-mcq-14"
+        "approach-mcq-09"
       ],
       "explanation": "本句的「practical approach」指「著重實際效果與可行性的做法」。",
       "sentenceIndex": 36,
@@ -1590,12 +1444,10 @@ export default {
         "practical approach"
       ],
       "optionReasons": {
-        "approach-mcq-17": "本句指「著重實際效果與可行性的做法」。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。"
+        "approach-mcq-17": "本句的「practical approach」指「著重實際效果與可行性的做法」。",
+        "approach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-17"
     },
@@ -1608,10 +1460,8 @@ export default {
       "options": [
         "approach-mcq-17",
         "approach-mcq-16",
-        "approach-mcq-18",
-        "approach-mcq-15",
-        "approach-mcq-19",
-        "approach-mcq-14"
+        "approach-mcq-12",
+        "approach-mcq-03"
       ],
       "explanation": "本句的「practical approach」指「著重實際效果與可行性的做法」。",
       "sentenceIndex": 37,
@@ -1620,12 +1470,10 @@ export default {
         "practical approach"
       ],
       "optionReasons": {
-        "approach-mcq-17": "本句指「著重實際效果與可行性的做法」。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-14": "「容易交談、讓人不害怕接近的；平易近人的」是「approachable — person」的用法，與本句語境不同。"
+        "approach-mcq-17": "本句的「practical approach」指「著重實際效果與可行性的做法」。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-17"
     },
@@ -1637,11 +1485,9 @@ export default {
       "masked": "Good teachers need a ____.",
       "options": [
         "approach-mcq-18",
-        "approach-mcq-17",
-        "approach-mcq-19",
         "approach-mcq-16",
-        "approach-mcq-20",
-        "approach-mcq-15"
+        "approach-mcq-09",
+        "approach-mcq-08"
       ],
       "explanation": "本句的「flexible approach」指「能根據情況調整的靈活方式」。",
       "sentenceIndex": 38,
@@ -1650,12 +1496,10 @@ export default {
         "flexible approach"
       ],
       "optionReasons": {
-        "approach-mcq-18": "本句指「能根據情況調整的靈活方式」。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。"
+        "approach-mcq-18": "本句的「flexible approach」指「能根據情況調整的靈活方式」。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-18"
     },
@@ -1667,11 +1511,9 @@ export default {
       "masked": "The team adopted a ____ to the project.",
       "options": [
         "approach-mcq-18",
-        "approach-mcq-17",
-        "approach-mcq-19",
-        "approach-mcq-16",
-        "approach-mcq-20",
-        "approach-mcq-15"
+        "approach-mcq-15",
+        "approach-mcq-10",
+        "approach-mcq-07"
       ],
       "explanation": "本句的「flexible approach」指「能根據情況調整的靈活方式」。",
       "sentenceIndex": 39,
@@ -1680,12 +1522,10 @@ export default {
         "flexible approach"
       ],
       "optionReasons": {
-        "approach-mcq-18": "本句指「能根據情況調整的靈活方式」。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-15": "「不令人畏懼、較容易理解或接觸的」是「approachable — topic/material」的用法，與本句語境不同。"
+        "approach-mcq-18": "本句的「flexible approach」指「能根據情況調整的靈活方式」。",
+        "approach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-18"
     },
@@ -1697,11 +1537,9 @@ export default {
       "masked": "She used a ____ to solving problems.",
       "options": [
         "approach-mcq-19",
-        "approach-mcq-18",
-        "approach-mcq-20",
-        "approach-mcq-17",
-        "approach-mcq-21",
-        "approach-mcq-16"
+        "approach-mcq-04",
+        "approach-mcq-22",
+        "approach-mcq-12"
       ],
       "explanation": "本句的「systematic approach」指「按清楚步驟、有組織地處理事情的方法」。",
       "sentenceIndex": 40,
@@ -1710,12 +1548,10 @@ export default {
         "systematic approach"
       ],
       "optionReasons": {
-        "approach-mcq-19": "本句指「按清楚步驟、有組織地處理事情的方法」。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-21": "「改變她的教學方式／處理方法」是「Passage meaning」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。"
+        "approach-mcq-19": "本句的「systematic approach」指「按清楚步驟、有組織地處理事情的方法」。",
+        "approach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-19"
     },
@@ -1728,9 +1564,7 @@ export default {
       "options": [
         "approach-mcq-19",
         "approach-mcq-18",
-        "approach-mcq-20",
-        "approach-mcq-17",
-        "approach-mcq-21",
+        "approach-mcq-09",
         "approach-mcq-16"
       ],
       "explanation": "本句的「systematic approach」指「按清楚步驟、有組織地處理事情的方法」。",
@@ -1740,12 +1574,10 @@ export default {
         "systematic approach"
       ],
       "optionReasons": {
-        "approach-mcq-19": "本句指「按清楚步驟、有組織地處理事情的方法」。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-20": "「和原本不同的另一種處理方式／思路」是「different/new approach」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。",
-        "approach-mcq-21": "「改變她的教學方式／處理方法」是「Passage meaning」的用法，與本句語境不同。",
-        "approach-mcq-16": "「容易親近、交流的特質；親和力」是「approachability」的用法，與本句語境不同。"
+        "approach-mcq-19": "本句的「systematic approach」指「按清楚步驟、有組織地處理事情的方法」。",
+        "approach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-19"
     },
@@ -1757,11 +1589,9 @@ export default {
       "masked": "Let’s try a ____.",
       "options": [
         "approach-mcq-20",
-        "approach-mcq-19",
-        "approach-mcq-21",
-        "approach-mcq-18",
-        "approach-mcq-22",
-        "approach-mcq-17"
+        "approach-mcq-13",
+        "approach-mcq-12",
+        "approach-mcq-05"
       ],
       "explanation": "本句的「different approach」指「和原本不同的另一種處理方式／思路」。",
       "sentenceIndex": 42,
@@ -1770,12 +1600,10 @@ export default {
         "different approach"
       ],
       "optionReasons": {
-        "approach-mcq-20": "本句指「和原本不同的另一種處理方式／思路」。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-21": "「改變她的教學方式／處理方法」是「Passage meaning」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-22": "「表示進場；著陸進場」是「13. approach — aircraft movement toward landing」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。"
+        "approach-mcq-20": "本句的「different approach」指「和原本不同的另一種處理方式／思路」。",
+        "approach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-20"
     },
@@ -1787,9 +1615,7 @@ export default {
       "masked": "The problem requires a ____.",
       "options": [
         "approach-mcq-20",
-        "approach-mcq-19",
-        "approach-mcq-21",
-        "approach-mcq-18",
+        "approach-mcq-03",
         "approach-mcq-22",
         "approach-mcq-17"
       ],
@@ -1800,12 +1626,10 @@ export default {
         "new approach"
       ],
       "optionReasons": {
-        "approach-mcq-20": "本句指「和原本不同的另一種處理方式／思路」。",
-        "approach-mcq-19": "「按清楚步驟、有組織地處理事情的方法」是「systematic approach」的用法，與本句語境不同。",
-        "approach-mcq-21": "「改變她的教學方式／處理方法」是「Passage meaning」的用法，與本句語境不同。",
-        "approach-mcq-18": "「能根據情況調整的靈活方式」是「flexible approach」的用法，與本句語境不同。",
-        "approach-mcq-22": "「表示進場；著陸進場」是「13. approach — aircraft movement toward landing」的用法，與本句語境不同。",
-        "approach-mcq-17": "「著重實際效果與可行性的做法」是「practical approach」的用法，與本句語境不同。"
+        "approach-mcq-20": "本句的「new approach」指「和原本不同的另一種處理方式／思路」。",
+        "approach-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "approach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "approach-mcq-20"
     }
@@ -1817,5 +1641,7 @@ export default {
     "sha256": "be51d4cacf7c9d4006db93c3a755d9e58dc32f876a80cf4a2e91199c86dce934",
     "pages": 14
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -390,7 +390,7 @@ export default {
     },
     {
       "id": "otherwise-pdf-002",
-      "title": "表示在另一種假設情況下，本來可能／會發生的過去結果",
+      "title": "在另一種假設情況下，本來可能／會發生的過去結果",
       "form": "3. otherwise have + past participle — 否則本來會……",
       "en": "3. otherwise have + past participle — 否則本來會……",
       "zh": "表示在另一種假設情況下，本來可能／會發生的過去結果",
@@ -420,11 +420,9 @@ export default {
       "masked": "It captured small moments that might ____ have slipped through the cracks.",
       "options": [
         "otherwise-pdf-001",
-        "otherwise-mcq-02",
-        "otherwise-mcq-03",
-        "otherwise-mcq-04",
-        "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-10",
+        "otherwise-mcq-14",
+        "otherwise-mcq-07"
       ],
       "explanation": "本句的「otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
       "sentenceIndex": 0,
@@ -433,12 +431,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-pdf-001": "本句指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-pdf-001": "本句的「otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-pdf-001"
     },
@@ -450,11 +446,9 @@ export default {
       "masked": "Leave now; ____, you'll miss the train.",
       "options": [
         "otherwise-pdf-001",
-        "otherwise-mcq-02",
-        "otherwise-mcq-03",
-        "otherwise-mcq-04",
-        "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-16",
+        "otherwise-mcq-09",
+        "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
       "sentenceIndex": 1,
@@ -463,12 +457,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-pdf-001": "本句指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-pdf-001": "本句的「otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
+        "otherwise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-pdf-001"
     },
@@ -481,10 +473,8 @@ export default {
       "options": [
         "otherwise-pdf-001",
         "otherwise-mcq-02",
-        "otherwise-mcq-03",
-        "otherwise-mcq-04",
-        "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-06",
+        "otherwise-mcq-10"
       ],
       "explanation": "本句的「Otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
       "sentenceIndex": 2,
@@ -493,12 +483,10 @@ export default {
         "Otherwise"
       ],
       "optionReasons": {
-        "otherwise-pdf-001": "本句指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-pdf-001": "本句的「Otherwise」指「如果前面的事情沒有發生或沒有照做，就會出現另一個結果」。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-pdf-001"
     },
@@ -510,11 +498,9 @@ export default {
       "masked": "We left early because we would ____ have been late.",
       "options": [
         "otherwise-mcq-02",
-        "otherwise-mcq-01",
-        "otherwise-mcq-03",
-        "otherwise-mcq-04",
-        "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-15",
+        "otherwise-mcq-16",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise」指「否則會／可能會」。",
       "sentenceIndex": 3,
@@ -523,12 +509,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-02": "本句指「否則會／可能會」。",
-        "otherwise-mcq-01": "「否則；不然」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-mcq-02": "本句的「otherwise」指「否則會／可能會」。",
+        "otherwise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-02"
     },
@@ -540,11 +524,9 @@ export default {
       "masked": "She saved the document, which might ____ have been lost.",
       "options": [
         "otherwise-mcq-02",
-        "otherwise-mcq-01",
-        "otherwise-mcq-03",
-        "otherwise-mcq-04",
-        "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-12",
+        "otherwise-mcq-10",
+        "otherwise-mcq-04"
       ],
       "explanation": "本句的「otherwise」指「否則會／可能會」。",
       "sentenceIndex": 4,
@@ -553,12 +535,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-02": "本句指「否則會／可能會」。",
-        "otherwise-mcq-01": "「否則；不然」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-mcq-02": "本句的「otherwise」指「否則會／可能會」。",
+        "otherwise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-02"
     },
@@ -570,11 +550,9 @@ export default {
       "masked": "The photos preserved memories that might ____.",
       "options": [
         "otherwise-pdf-002",
-        "otherwise-mcq-02",
-        "otherwise-mcq-04",
-        "otherwise-mcq-01",
         "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-10",
+        "otherwise-mcq-07"
       ],
       "explanation": "本句的「otherwise have faded」指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
       "sentenceIndex": 5,
@@ -583,12 +561,10 @@ export default {
         "otherwise have faded"
       ],
       "optionReasons": {
-        "otherwise-pdf-002": "本句指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-01": "「否則；不然」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-pdf-002": "本句的「otherwise have faded」指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
+        "otherwise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-pdf-002"
     },
@@ -600,11 +576,9 @@ export default {
       "masked": "The warning prevented an accident that could ____.",
       "options": [
         "otherwise-pdf-002",
-        "otherwise-mcq-02",
-        "otherwise-mcq-04",
-        "otherwise-mcq-01",
-        "otherwise-mcq-05",
-        "otherwise-mcq-06"
+        "otherwise-mcq-07",
+        "otherwise-mcq-17",
+        "otherwise-mcq-04"
       ],
       "explanation": "本句的「otherwise have happened」指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
       "sentenceIndex": 6,
@@ -613,12 +587,10 @@ export default {
         "otherwise have happened"
       ],
       "optionReasons": {
-        "otherwise-pdf-002": "本句指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-01": "「否則；不然」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-pdf-002": "本句的「otherwise have happened」指「表示在另一種假設情況下，本來可能／會發生的過去結果」。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-pdf-002"
     },
@@ -630,11 +602,9 @@ export default {
       "masked": "The room was small but ____ comfortable.",
       "options": [
         "otherwise-mcq-04",
-        "otherwise-mcq-03",
-        "otherwise-mcq-05",
-        "otherwise-mcq-02",
-        "otherwise-mcq-06",
-        "otherwise-mcq-01"
+        "otherwise-mcq-10",
+        "otherwise-mcq-07",
+        "otherwise-pdf-002"
       ],
       "explanation": "本句的「otherwise」指「其他方面」。",
       "sentenceIndex": 7,
@@ -643,12 +613,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-04": "本句指「其他方面」。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。",
-        "otherwise-mcq-01": "「否則；不然」與本句語境不同。"
+        "otherwise-mcq-04": "本句的「otherwise」指「其他方面」。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-04"
     },
@@ -660,11 +628,9 @@ export default {
       "masked": "He was tired but ____ fine.",
       "options": [
         "otherwise-mcq-04",
-        "otherwise-mcq-03",
-        "otherwise-mcq-05",
-        "otherwise-mcq-02",
-        "otherwise-mcq-06",
-        "otherwise-mcq-01"
+        "otherwise-mcq-15",
+        "otherwise-mcq-10",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise」指「其他方面」。",
       "sentenceIndex": 8,
@@ -673,12 +639,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-04": "本句指「其他方面」。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。",
-        "otherwise-mcq-01": "「否則；不然」與本句語境不同。"
+        "otherwise-mcq-04": "本句的「otherwise」指「其他方面」。",
+        "otherwise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-04"
     },
@@ -690,10 +654,8 @@ export default {
       "masked": "It was a minor mistake in an ____.",
       "options": [
         "otherwise-mcq-05",
-        "otherwise-mcq-04",
-        "otherwise-mcq-06",
-        "otherwise-mcq-03",
         "otherwise-mcq-07",
+        "otherwise-mcq-12",
         "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise excellent report」指「其他方面都很出色的」。",
@@ -703,12 +665,10 @@ export default {
         "otherwise excellent report"
       ],
       "optionReasons": {
-        "otherwise-mcq-05": "本句指「其他方面都很出色的」。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。"
+        "otherwise-mcq-05": "本句的「otherwise excellent report」指「其他方面都很出色的」。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-05"
     },
@@ -720,10 +680,8 @@ export default {
       "masked": "The scratch spoiled an ____.",
       "options": [
         "otherwise-mcq-05",
-        "otherwise-mcq-04",
-        "otherwise-mcq-06",
-        "otherwise-mcq-03",
-        "otherwise-mcq-07",
+        "otherwise-mcq-11",
+        "otherwise-mcq-09",
         "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise perfect surface」指「其他方面都很出色的」。",
@@ -733,12 +691,10 @@ export default {
         "otherwise perfect surface"
       ],
       "optionReasons": {
-        "otherwise-mcq-05": "本句指「其他方面都很出色的」。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。",
-        "otherwise-mcq-02": "「否則會／可能會」與本句語境不同。"
+        "otherwise-mcq-05": "本句的「otherwise perfect surface」指「其他方面都很出色的」。",
+        "otherwise-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-05"
     },
@@ -750,11 +706,9 @@ export default {
       "masked": "I wouldn't have done it ____.",
       "options": [
         "otherwise-mcq-06",
-        "otherwise-mcq-05",
-        "otherwise-mcq-07",
-        "otherwise-mcq-04",
-        "otherwise-mcq-08",
-        "otherwise-mcq-03"
+        "otherwise-mcq-02",
+        "otherwise-mcq-17",
+        "otherwise-pdf-001"
       ],
       "explanation": "本句的「otherwise」指「以其他方式」。",
       "sentenceIndex": 11,
@@ -763,12 +717,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-06": "本句指「以其他方式」。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。"
+        "otherwise-mcq-06": "本句的「otherwise」指「以其他方式」。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-06"
     },
@@ -780,11 +732,9 @@ export default {
       "masked": "The instructions say one thing, but he chose to act ____.",
       "options": [
         "otherwise-mcq-06",
-        "otherwise-mcq-05",
-        "otherwise-mcq-07",
-        "otherwise-mcq-04",
-        "otherwise-mcq-08",
-        "otherwise-mcq-03"
+        "otherwise-pdf-002",
+        "otherwise-mcq-17",
+        "otherwise-mcq-09"
       ],
       "explanation": "本句的「otherwise」指「以其他方式」。",
       "sentenceIndex": 12,
@@ -793,12 +743,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-06": "本句指「以其他方式」。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-03": "「否則本來會……」與本句語境不同。"
+        "otherwise-mcq-06": "本句的「otherwise」指「以其他方式」。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-06"
     },
@@ -810,11 +758,9 @@ export default {
       "masked": "Sodium chloride, ____ salt, is widely used in cooking.",
       "options": [
         "otherwise-mcq-07",
-        "otherwise-mcq-06",
-        "otherwise-mcq-08",
-        "otherwise-mcq-05",
-        "otherwise-mcq-09",
-        "otherwise-mcq-04"
+        "otherwise-mcq-10",
+        "otherwise-pdf-001",
+        "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise known as」指「又稱；亦稱」。",
       "sentenceIndex": 13,
@@ -823,12 +769,10 @@ export default {
         "otherwise known as"
       ],
       "optionReasons": {
-        "otherwise-mcq-07": "本句指「又稱；亦稱」。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。"
+        "otherwise-mcq-07": "本句的「otherwise known as」指「又稱；亦稱」。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-07"
     },
@@ -840,11 +784,9 @@ export default {
       "masked": "The city was once called Edo, ____ old Tokyo in some historical discussions.",
       "options": [
         "otherwise-mcq-07",
-        "otherwise-mcq-06",
-        "otherwise-mcq-08",
-        "otherwise-mcq-05",
-        "otherwise-mcq-09",
-        "otherwise-mcq-04"
+        "otherwise-mcq-02",
+        "otherwise-mcq-10",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise known as」指「又稱；亦稱」。",
       "sentenceIndex": 14,
@@ -853,12 +795,10 @@ export default {
         "otherwise known as"
       ],
       "optionReasons": {
-        "otherwise-mcq-07": "本句指「又稱；亦稱」。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-05": "「其他方面都很出色的」與本句語境不同。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。",
-        "otherwise-mcq-04": "「其他方面」與本句語境不同。"
+        "otherwise-mcq-07": "本句的「otherwise known as」指「又稱；亦稱」。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-07"
     },
@@ -870,11 +810,9 @@ export default {
       "masked": "Everyone thought the plan would fail, but she believed ____.",
       "options": [
         "otherwise-mcq-09",
-        "otherwise-mcq-08",
-        "otherwise-mcq-10",
-        "otherwise-mcq-07",
-        "otherwise-mcq-11",
-        "otherwise-mcq-06"
+        "otherwise-mcq-06",
+        "otherwise-pdf-002",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise」指「聲稱並非如此」。",
       "sentenceIndex": 15,
@@ -883,12 +821,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-09": "本句指「聲稱並非如此」。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-mcq-09": "本句的「otherwise」指「聲稱並非如此」。",
+        "otherwise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-09"
     },
@@ -900,11 +836,9 @@ export default {
       "masked": "The evidence suggests he knew about it, despite his claims ____.",
       "options": [
         "otherwise-mcq-09",
-        "otherwise-mcq-08",
-        "otherwise-mcq-10",
-        "otherwise-mcq-07",
-        "otherwise-mcq-11",
-        "otherwise-mcq-06"
+        "otherwise-mcq-02",
+        "otherwise-mcq-06",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise」指「聲稱並非如此」。",
       "sentenceIndex": 16,
@@ -913,12 +847,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-09": "本句指「聲稱並非如此」。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-06": "「以其他方式」與本句語境不同。"
+        "otherwise-mcq-09": "本句的「otherwise」指「聲稱並非如此」。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-09"
     },
@@ -930,10 +862,8 @@ export default {
       "masked": "I thought the task would be easy, but experience proved ____.",
       "options": [
         "otherwise-mcq-10",
-        "otherwise-mcq-09",
-        "otherwise-mcq-11",
-        "otherwise-mcq-08",
-        "otherwise-mcq-12",
+        "otherwise-mcq-06",
+        "otherwise-pdf-002",
         "otherwise-mcq-07"
       ],
       "explanation": "本句的「otherwise」指「證明並非如此」。",
@@ -943,12 +873,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-10": "本句指「證明並非如此」。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。"
+        "otherwise-mcq-10": "本句的「otherwise」指「證明並非如此」。",
+        "otherwise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-10"
     },
@@ -960,11 +888,9 @@ export default {
       "masked": "Unless the evidence shows ____, we will keep the original conclusion.",
       "options": [
         "otherwise-mcq-10",
-        "otherwise-mcq-09",
-        "otherwise-mcq-11",
-        "otherwise-mcq-08",
-        "otherwise-mcq-12",
-        "otherwise-mcq-07"
+        "otherwise-mcq-14",
+        "otherwise-mcq-17",
+        "otherwise-pdf-002"
       ],
       "explanation": "本句的「otherwise」指「證明並非如此」。",
       "sentenceIndex": 18,
@@ -973,12 +899,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-10": "本句指「證明並非如此」。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-07": "「又稱；亦稱」與本句語境不同。"
+        "otherwise-mcq-10": "本句的「otherwise」指「證明並非如此」。",
+        "otherwise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-10"
     },
@@ -990,11 +914,9 @@ export default {
       "masked": "All prices include tax unless ____.",
       "options": [
         "otherwise-mcq-11",
-        "otherwise-mcq-10",
-        "otherwise-mcq-12",
-        "otherwise-mcq-09",
-        "otherwise-mcq-13",
-        "otherwise-mcq-08"
+        "otherwise-mcq-07",
+        "otherwise-mcq-06",
+        "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise stated」指「除非另有說明」。",
       "sentenceIndex": 19,
@@ -1003,12 +925,10 @@ export default {
         "otherwise stated"
       ],
       "optionReasons": {
-        "otherwise-mcq-11": "本句指「除非另有說明」。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。"
+        "otherwise-mcq-11": "本句的「otherwise stated」指「除非另有說明」。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-11"
     },
@@ -1020,11 +940,9 @@ export default {
       "masked": "Unless ____, the rules apply to everyone.",
       "options": [
         "otherwise-mcq-11",
-        "otherwise-mcq-10",
-        "otherwise-mcq-12",
-        "otherwise-mcq-09",
-        "otherwise-mcq-13",
-        "otherwise-mcq-08"
+        "otherwise-mcq-16",
+        "otherwise-mcq-07",
+        "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise stated」指「除非另有說明」。",
       "sentenceIndex": 20,
@@ -1033,12 +951,10 @@ export default {
         "otherwise stated"
       ],
       "optionReasons": {
-        "otherwise-mcq-11": "本句指「除非另有說明」。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-08": "「不這樣認為」與本句語境不同。"
+        "otherwise-mcq-11": "本句的「otherwise stated」指「除非另有說明」。",
+        "otherwise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-11"
     },
@@ -1050,11 +966,9 @@ export default {
       "masked": "Use black ink unless ____.",
       "options": [
         "otherwise-mcq-12",
-        "otherwise-mcq-11",
-        "otherwise-mcq-13",
-        "otherwise-mcq-10",
-        "otherwise-mcq-14",
-        "otherwise-mcq-09"
+        "otherwise-mcq-16",
+        "otherwise-mcq-07",
+        "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise specified」指「除非另有指定」。",
       "sentenceIndex": 21,
@@ -1063,12 +977,10 @@ export default {
         "otherwise specified"
       ],
       "optionReasons": {
-        "otherwise-mcq-12": "本句指「除非另有指定」。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。"
+        "otherwise-mcq-12": "本句的「otherwise specified」指「除非另有指定」。",
+        "otherwise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-12"
     },
@@ -1080,11 +992,9 @@ export default {
       "masked": "Meetings will be held online unless ____.",
       "options": [
         "otherwise-mcq-12",
-        "otherwise-mcq-11",
-        "otherwise-mcq-13",
-        "otherwise-mcq-10",
         "otherwise-mcq-14",
-        "otherwise-mcq-09"
+        "otherwise-mcq-07",
+        "otherwise-pdf-002"
       ],
       "explanation": "本句的「otherwise specified」指「除非另有指定」。",
       "sentenceIndex": 22,
@@ -1093,12 +1003,10 @@ export default {
         "otherwise specified"
       ],
       "optionReasons": {
-        "otherwise-mcq-12": "本句指「除非另有指定」。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-09": "「聲稱並非如此」與本句語境不同。"
+        "otherwise-mcq-12": "本句的「otherwise specified」指「除非另有指定」。",
+        "otherwise-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-12"
     },
@@ -1110,11 +1018,9 @@ export default {
       "masked": "Payment is due within 30 days unless ____.",
       "options": [
         "otherwise-mcq-13",
-        "otherwise-mcq-12",
-        "otherwise-mcq-14",
-        "otherwise-mcq-11",
-        "otherwise-mcq-15",
-        "otherwise-mcq-10"
+        "otherwise-mcq-05",
+        "otherwise-mcq-07",
+        "otherwise-mcq-02"
       ],
       "explanation": "本句的「otherwise agreed」指「除非另有協議」。",
       "sentenceIndex": 23,
@@ -1123,12 +1029,10 @@ export default {
         "otherwise agreed"
       ],
       "optionReasons": {
-        "otherwise-mcq-13": "本句指「除非另有協議」。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。"
+        "otherwise-mcq-13": "本句的「otherwise agreed」指「除非另有協議」。",
+        "otherwise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-13"
     },
@@ -1140,11 +1044,9 @@ export default {
       "masked": "The meeting will begin at nine unless ____.",
       "options": [
         "otherwise-mcq-13",
-        "otherwise-mcq-12",
-        "otherwise-mcq-14",
-        "otherwise-mcq-11",
-        "otherwise-mcq-15",
-        "otherwise-mcq-10"
+        "otherwise-mcq-02",
+        "otherwise-mcq-05",
+        "otherwise-mcq-07"
       ],
       "explanation": "本句的「otherwise agreed」指「除非另有協議」。",
       "sentenceIndex": 24,
@@ -1153,12 +1055,10 @@ export default {
         "otherwise agreed"
       ],
       "optionReasons": {
-        "otherwise-mcq-13": "本句指「除非另有協議」。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-10": "「證明並非如此」與本句語境不同。"
+        "otherwise-mcq-13": "本句的「otherwise agreed」指「除非另有協議」。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-13"
     },
@@ -1170,11 +1070,9 @@ export default {
       "masked": "Everyone is welcome, experienced or ____.",
       "options": [
         "otherwise-mcq-14",
-        "otherwise-mcq-13",
+        "otherwise-mcq-10",
         "otherwise-mcq-15",
-        "otherwise-mcq-12",
-        "otherwise-mcq-16",
-        "otherwise-mcq-11"
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise」指「無論是否／或其他情況」。",
       "sentenceIndex": 25,
@@ -1183,12 +1081,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-14": "本句指「無論是否／或其他情況」。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。"
+        "otherwise-mcq-14": "本句的「otherwise」指「無論是否／或其他情況」。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-14"
     },
@@ -1200,10 +1096,8 @@ export default {
       "masked": "The rule applies to all employees, permanent or ____.",
       "options": [
         "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-15",
-        "otherwise-mcq-12",
-        "otherwise-mcq-16",
+        "otherwise-pdf-002",
+        "otherwise-mcq-07",
         "otherwise-mcq-11"
       ],
       "explanation": "本句的「otherwise」指「無論是否／或其他情況」。",
@@ -1213,12 +1107,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-14": "本句指「無論是否／或其他情況」。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。"
+        "otherwise-mcq-14": "本句的「otherwise」指「無論是否／或其他情況」。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-14"
     },
@@ -1231,10 +1123,8 @@ export default {
       "options": [
         "otherwise-mcq-14",
         "otherwise-mcq-13",
-        "otherwise-mcq-15",
-        "otherwise-mcq-12",
-        "otherwise-mcq-16",
-        "otherwise-mcq-11"
+        "otherwise-mcq-09",
+        "otherwise-pdf-001"
       ],
       "explanation": "本句的「otherwise」指「無論是否／或其他情況」。",
       "sentenceIndex": 27,
@@ -1243,12 +1133,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-14": "本句指「無論是否／或其他情況」。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。"
+        "otherwise-mcq-14": "本句的「otherwise」指「無論是否／或其他情況」。",
+        "otherwise-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-14"
     },
@@ -1260,11 +1148,9 @@ export default {
       "masked": "Everyone affected, directly or ____, should be informed.",
       "options": [
         "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-15",
-        "otherwise-mcq-12",
-        "otherwise-mcq-16",
-        "otherwise-mcq-11"
+        "otherwise-mcq-17",
+        "otherwise-mcq-10",
+        "otherwise-pdf-001"
       ],
       "explanation": "本句的「otherwise」指「無論是否／或其他情況」。",
       "sentenceIndex": 28,
@@ -1273,12 +1159,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-14": "本句指「無論是否／或其他情況」。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。"
+        "otherwise-mcq-14": "本句的「otherwise」指「無論是否／或其他情況」。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-14"
     },
@@ -1290,11 +1174,9 @@ export default {
       "masked": "The exhibition includes paintings, photographs, and ____ unusual forms of art.",
       "options": [
         "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-15",
-        "otherwise-mcq-12",
-        "otherwise-mcq-16",
-        "otherwise-mcq-11"
+        "otherwise-mcq-10",
+        "otherwise-pdf-002",
+        "otherwise-mcq-13"
       ],
       "explanation": "本句的「otherwise」指「無論是否／或其他情況」。",
       "sentenceIndex": 29,
@@ -1303,12 +1185,10 @@ export default {
         "otherwise"
       ],
       "optionReasons": {
-        "otherwise-mcq-14": "本句指「無論是否／或其他情況」。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-11": "「除非另有說明」與本句語境不同。"
+        "otherwise-mcq-14": "本句的「otherwise」指「無論是否／或其他情況」。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-14"
     },
@@ -1320,11 +1200,9 @@ export default {
       "masked": "I'm ____ this evening.",
       "options": [
         "otherwise-mcq-15",
-        "otherwise-mcq-14",
-        "otherwise-mcq-16",
-        "otherwise-mcq-13",
-        "otherwise-mcq-17",
-        "otherwise-mcq-12"
+        "otherwise-mcq-06",
+        "otherwise-mcq-10",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise engaged」指「另有事情」。",
       "sentenceIndex": 30,
@@ -1333,12 +1211,10 @@ export default {
         "otherwise engaged"
       ],
       "optionReasons": {
-        "otherwise-mcq-15": "本句指「另有事情」。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-17": "「除……之外；以不同方式」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。"
+        "otherwise-mcq-15": "本句的「otherwise engaged」指「另有事情」。",
+        "otherwise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-15"
     },
@@ -1350,11 +1226,9 @@ export default {
       "masked": "The manager was ____ and could not attend.",
       "options": [
         "otherwise-mcq-15",
-        "otherwise-mcq-14",
         "otherwise-mcq-16",
-        "otherwise-mcq-13",
-        "otherwise-mcq-17",
-        "otherwise-mcq-12"
+        "otherwise-mcq-09",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise occupied」指「另有事情」。",
       "sentenceIndex": 31,
@@ -1363,12 +1237,10 @@ export default {
         "otherwise occupied"
       ],
       "optionReasons": {
-        "otherwise-mcq-15": "本句指「另有事情」。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-17": "「除……之外；以不同方式」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。"
+        "otherwise-mcq-15": "本句的「otherwise occupied」指「另有事情」。",
+        "otherwise-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-15"
     },
@@ -1380,11 +1252,9 @@ export default {
       "masked": "The error affected an ____.",
       "options": [
         "otherwise-mcq-16",
-        "otherwise-mcq-15",
-        "otherwise-mcq-17",
-        "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-12"
+        "otherwise-mcq-07",
+        "otherwise-mcq-02",
+        "otherwise-mcq-17"
       ],
       "explanation": "本句的「otherwise suitable candidate」指「其他方面均合資格」。",
       "sentenceIndex": 32,
@@ -1393,12 +1263,10 @@ export default {
         "otherwise suitable candidate"
       ],
       "optionReasons": {
-        "otherwise-mcq-16": "本句指「其他方面均合資格」。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-17": "「除……之外；以不同方式」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。"
+        "otherwise-mcq-16": "本句的「otherwise suitable candidate」指「其他方面均合資格」。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-16"
     },
@@ -1410,11 +1278,9 @@ export default {
       "masked": "The rule excludes people who are ____.",
       "options": [
         "otherwise-mcq-16",
-        "otherwise-mcq-15",
         "otherwise-mcq-17",
-        "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-12"
+        "otherwise-mcq-10",
+        "otherwise-pdf-001"
       ],
       "explanation": "本句的「otherwise qualified」指「其他方面均合資格」。",
       "sentenceIndex": 33,
@@ -1423,12 +1289,10 @@ export default {
         "otherwise qualified"
       ],
       "optionReasons": {
-        "otherwise-mcq-16": "本句指「其他方面均合資格」。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-17": "「除……之外；以不同方式」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。"
+        "otherwise-mcq-16": "本句的「otherwise qualified」指「其他方面均合資格」。",
+        "otherwise-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-16"
     },
@@ -1440,11 +1304,9 @@ export default {
       "masked": "The information must not be used ____ for research purposes.",
       "options": [
         "otherwise-mcq-17",
-        "otherwise-mcq-16",
-        "otherwise-mcq-15",
-        "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-12"
+        "otherwise-pdf-002",
+        "otherwise-mcq-04",
+        "otherwise-mcq-07"
       ],
       "explanation": "本句的「otherwise than」指「除……之外；以不同方式」。",
       "sentenceIndex": 34,
@@ -1453,12 +1315,10 @@ export default {
         "otherwise than"
       ],
       "optionReasons": {
-        "otherwise-mcq-17": "本句指「除……之外；以不同方式」。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。"
+        "otherwise-mcq-17": "本句的「otherwise than」指「除……之外；以不同方式」。",
+        "otherwise-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-17"
     },
@@ -1470,11 +1330,9 @@ export default {
       "masked": "The funds cannot be spent ____ as agreed.",
       "options": [
         "otherwise-mcq-17",
-        "otherwise-mcq-16",
-        "otherwise-mcq-15",
-        "otherwise-mcq-14",
-        "otherwise-mcq-13",
-        "otherwise-mcq-12"
+        "otherwise-mcq-10",
+        "otherwise-mcq-02",
+        "otherwise-mcq-16"
       ],
       "explanation": "本句的「otherwise than」指「除……之外；以不同方式」。",
       "sentenceIndex": 35,
@@ -1483,12 +1341,10 @@ export default {
         "otherwise than"
       ],
       "optionReasons": {
-        "otherwise-mcq-17": "本句指「除……之外；以不同方式」。",
-        "otherwise-mcq-16": "「其他方面均合資格」與本句語境不同。",
-        "otherwise-mcq-15": "「另有事情」與本句語境不同。",
-        "otherwise-mcq-14": "「無論是否／或其他情況」與本句語境不同。",
-        "otherwise-mcq-13": "「除非另有協議」與本句語境不同。",
-        "otherwise-mcq-12": "「除非另有指定」與本句語境不同。"
+        "otherwise-mcq-17": "本句的「otherwise than」指「除……之外；以不同方式」。",
+        "otherwise-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "otherwise-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "otherwise-mcq-17"
     }
@@ -1500,5 +1356,7 @@ export default {
     "sha256": "b69f703ef40d964c4b1298691f1383f165deb4d7c68b8fd8898cacd6554704e9",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

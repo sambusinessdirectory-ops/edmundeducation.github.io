@@ -288,11 +288,9 @@ export default {
       "masked": "The habit may ____ the wrong values.",
       "options": [
         "promote-mcq-01",
-        "promote-mcq-02",
-        "promote-mcq-03",
-        "promote-mcq-04",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-07",
+        "promote-mcq-11",
+        "promote-mcq-13"
       ],
       "explanation": "本句的「promote」指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
       "sentenceIndex": 0,
@@ -301,12 +299,10 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-01": "本句指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-01": "本句的「promote」指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
+        "promote-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-01"
     },
@@ -318,11 +314,9 @@ export default {
       "masked": "Schools should ____ respect for others.",
       "options": [
         "promote-mcq-01",
-        "promote-mcq-02",
-        "promote-mcq-03",
-        "promote-mcq-04",
         "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-11",
+        "promote-mcq-13"
       ],
       "explanation": "本句的「promote」指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
       "sentenceIndex": 1,
@@ -331,12 +325,10 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-01": "本句指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-01": "本句的「promote」指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
+        "promote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-01"
     },
@@ -348,11 +340,9 @@ export default {
       "masked": "The programme aims to ____ healthy eating.",
       "options": [
         "promote-mcq-01",
-        "promote-mcq-02",
-        "promote-mcq-03",
-        "promote-mcq-04",
         "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-11",
+        "promote-mcq-13"
       ],
       "explanation": "本句的「promote」指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
       "sentenceIndex": 2,
@@ -361,12 +351,10 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-01": "本句指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-01": "本句的「promote」指「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」。",
+        "promote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-01"
     },
@@ -378,11 +366,8 @@ export default {
       "masked": "Regular exercise can ____ good health.",
       "options": [
         "promote-mcq-02",
-        "promote-mcq-01",
-        "promote-mcq-03",
-        "promote-mcq-04",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-07",
+        "promote-mcq-11"
       ],
       "explanation": "本句的「promote」指「促進某種成長、健康、學習、癒合、發展等」。",
       "sentenceIndex": 3,
@@ -391,12 +376,9 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-02": "本句指「促進某種成長、健康、學習、癒合、發展等」。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-02": "本句的「promote」指「促進某種成長、健康、學習、癒合、發展等」。",
+        "promote-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-02"
     },
@@ -408,11 +390,8 @@ export default {
       "masked": "The treatment may ____ healing.",
       "options": [
         "promote-mcq-02",
-        "promote-mcq-01",
-        "promote-mcq-03",
-        "promote-mcq-04",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-11",
+        "promote-mcq-04"
       ],
       "explanation": "本句的「promote」指「促進某種成長、健康、學習、癒合、發展等」。",
       "sentenceIndex": 4,
@@ -421,12 +400,9 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-02": "本句指「促進某種成長、健康、學習、癒合、發展等」。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-02": "本句的「promote」指「促進某種成長、健康、學習、癒合、發展等」。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-02"
     },
@@ -438,11 +414,8 @@ export default {
       "masked": "The policy was designed to ____ competition.",
       "options": [
         "promote-mcq-02",
-        "promote-mcq-01",
-        "promote-mcq-03",
         "promote-mcq-04",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-11"
       ],
       "explanation": "本句的「promote」指「促進某種成長、健康、學習、癒合、發展等」。",
       "sentenceIndex": 5,
@@ -451,12 +424,9 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-02": "本句指「促進某種成長、健康、學習、癒合、發展等」。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-02": "本句的「promote」指「促進某種成長、健康、學習、癒合、發展等」。",
+        "promote-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-02"
     },
@@ -468,11 +438,8 @@ export default {
       "masked": "The company is ____ its new product online.",
       "options": [
         "promote-mcq-03",
-        "promote-mcq-02",
-        "promote-mcq-04",
-        "promote-mcq-01",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-07",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promoting」指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
       "sentenceIndex": 6,
@@ -481,12 +448,9 @@ export default {
         "promoting"
       ],
       "optionReasons": {
-        "promote-mcq-03": "本句指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-03": "本句的「promoting」指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
+        "promote-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-03"
     },
@@ -498,11 +462,8 @@ export default {
       "masked": "They used social media to ____ the concert.",
       "options": [
         "promote-mcq-03",
-        "promote-mcq-02",
-        "promote-mcq-04",
-        "promote-mcq-01",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-07",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promote」指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
       "sentenceIndex": 7,
@@ -511,12 +472,9 @@ export default {
         "promote"
       ],
       "optionReasons": {
-        "promote-mcq-03": "本句指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-03": "本句的「promote」指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
+        "promote-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-03"
     },
@@ -528,11 +486,8 @@ export default {
       "masked": "The campaign ____ Hong Kong as a travel destination.",
       "options": [
         "promote-mcq-03",
-        "promote-mcq-02",
-        "promote-mcq-04",
-        "promote-mcq-01",
-        "promote-mcq-05",
-        "promote-mcq-06"
+        "promote-mcq-07",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promotes」指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
       "sentenceIndex": 8,
@@ -541,12 +496,9 @@ export default {
         "promotes"
       ],
       "optionReasons": {
-        "promote-mcq-03": "本句指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。"
+        "promote-mcq-03": "本句的「promotes」指「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」。",
+        "promote-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-03"
     },
@@ -558,11 +510,8 @@ export default {
       "masked": "She was ____ to manager.",
       "options": [
         "promote-mcq-04",
-        "promote-mcq-03",
-        "promote-mcq-05",
-        "promote-mcq-02",
-        "promote-mcq-06",
-        "promote-mcq-01"
+        "promote-mcq-10",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promoted」指「把某人提升到較高職位、職級或軍階；晉升」。",
       "sentenceIndex": 9,
@@ -571,12 +520,9 @@ export default {
         "promoted"
       ],
       "optionReasons": {
-        "promote-mcq-04": "本句指「把某人提升到較高職位、職級或軍階；晉升」。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。"
+        "promote-mcq-04": "本句的「promoted」指「把某人提升到較高職位、職級或軍階；晉升」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-04"
     },
@@ -588,11 +534,8 @@ export default {
       "masked": "The company ____ him after two successful years.",
       "options": [
         "promote-mcq-04",
-        "promote-mcq-03",
-        "promote-mcq-05",
-        "promote-mcq-02",
-        "promote-mcq-06",
-        "promote-mcq-01"
+        "promote-mcq-11",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promoted」指「把某人提升到較高職位、職級或軍階；晉升」。",
       "sentenceIndex": 10,
@@ -601,12 +544,9 @@ export default {
         "promoted"
       ],
       "optionReasons": {
-        "promote-mcq-04": "本句指「把某人提升到較高職位、職級或軍階；晉升」。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。"
+        "promote-mcq-04": "本句的「promoted」指「把某人提升到較高職位、職級或軍階；晉升」。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-04"
     },
@@ -618,11 +558,8 @@ export default {
       "masked": "She received a ____ last month.",
       "options": [
         "promote-mcq-04",
-        "promote-mcq-03",
-        "promote-mcq-05",
-        "promote-mcq-02",
-        "promote-mcq-06",
-        "promote-mcq-01"
+        "promote-mcq-10",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promotion」指「把某人提升到較高職位、職級或軍階；晉升」。",
       "sentenceIndex": 11,
@@ -631,12 +568,9 @@ export default {
         "promotion"
       ],
       "optionReasons": {
-        "promote-mcq-04": "本句指「把某人提升到較高職位、職級或軍階；晉升」。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。"
+        "promote-mcq-04": "本句的「promotion」指「把某人提升到較高職位、職級或軍階；晉升」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-04"
     },
@@ -648,11 +582,8 @@ export default {
       "masked": "He is hoping for a ____.",
       "options": [
         "promote-mcq-04",
-        "promote-mcq-03",
-        "promote-mcq-05",
-        "promote-mcq-02",
-        "promote-mcq-06",
-        "promote-mcq-01"
+        "promote-mcq-10",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promotion」指「把某人提升到較高職位、職級或軍階；晉升」。",
       "sentenceIndex": 12,
@@ -661,12 +592,9 @@ export default {
         "promotion"
       ],
       "optionReasons": {
-        "promote-mcq-04": "本句指「把某人提升到較高職位、職級或軍階；晉升」。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-01": "「鼓勵、提倡或幫助某種觀念、行為、目標等發展並變得更普遍」與本句語境不同。"
+        "promote-mcq-04": "本句的「promotion」指「把某人提升到較高職位、職級或軍階；晉升」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-04"
     },
@@ -678,11 +606,9 @@ export default {
       "masked": "Students who meet the requirements are ____ to the next grade.",
       "options": [
         "promote-mcq-05",
-        "promote-mcq-04",
-        "promote-mcq-06",
-        "promote-mcq-03",
-        "promote-mcq-07",
-        "promote-mcq-02"
+        "promote-mcq-11",
+        "promote-mcq-01",
+        "promote-mcq-13"
       ],
       "explanation": "本句的「promoted」指「令學生、球隊等升到較高級別／組別」。",
       "sentenceIndex": 13,
@@ -691,12 +617,10 @@ export default {
         "promoted"
       ],
       "optionReasons": {
-        "promote-mcq-05": "本句指「令學生、球隊等升到較高級別／組別」。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-07": "「西洋棋中兵到達底線後升變為較高級棋子」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。"
+        "promote-mcq-05": "本句的「promoted」指「令學生、球隊等升到較高級別／組別」。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-05"
     },
@@ -708,11 +632,8 @@ export default {
       "masked": "The club was ____ to the top division.",
       "options": [
         "promote-mcq-05",
-        "promote-mcq-04",
-        "promote-mcq-06",
-        "promote-mcq-03",
-        "promote-mcq-07",
-        "promote-mcq-02"
+        "promote-mcq-10",
+        "promote-mcq-13"
       ],
       "explanation": "本句的「promoted」指「令學生、球隊等升到較高級別／組別」。",
       "sentenceIndex": 14,
@@ -721,12 +642,9 @@ export default {
         "promoted"
       ],
       "optionReasons": {
-        "promote-mcq-05": "本句指「令學生、球隊等升到較高級別／組別」。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-07": "「西洋棋中兵到達底線後升變為較高級棋子」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。"
+        "promote-mcq-05": "本句的「promoted」指「令學生、球隊等升到較高級別／組別」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-05"
     },
@@ -738,11 +656,8 @@ export default {
       "masked": "The team secured ____ after winning the final match.",
       "options": [
         "promote-mcq-05",
-        "promote-mcq-04",
-        "promote-mcq-06",
-        "promote-mcq-03",
-        "promote-mcq-07",
-        "promote-mcq-02"
+        "promote-mcq-10",
+        "promote-mcq-13"
       ],
       "explanation": "本句的「promotion」指「令學生、球隊等升到較高級別／組別」。",
       "sentenceIndex": 15,
@@ -751,12 +666,9 @@ export default {
         "promotion"
       ],
       "optionReasons": {
-        "promote-mcq-05": "本句指「令學生、球隊等升到較高級別／組別」。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。",
-        "promote-mcq-07": "「西洋棋中兵到達底線後升變為較高級棋子」與本句語境不同。",
-        "promote-mcq-02": "「促進某種成長、健康、學習、癒合、發展等」與本句語境不同。"
+        "promote-mcq-05": "本句的「promotion」指「令學生、球隊等升到較高級別／組別」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-05"
     },
@@ -768,11 +680,8 @@ export default {
       "masked": "The issue was ____ to a higher priority.",
       "options": [
         "promote-mcq-06",
-        "promote-mcq-05",
-        "promote-mcq-07",
-        "promote-mcq-04",
-        "promote-mcq-08",
-        "promote-mcq-03"
+        "promote-mcq-10",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promoted」指「把系統、帳戶、伺服器等提升到較高角色／狀態」。",
       "sentenceIndex": 16,
@@ -781,12 +690,9 @@ export default {
         "promoted"
       ],
       "optionReasons": {
-        "promote-mcq-06": "本句指「把系統、帳戶、伺服器等提升到較高角色／狀態」。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-07": "「西洋棋中兵到達底線後升變為較高級棋子」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。",
-        "promote-mcq-03": "「透過宣傳提高產品、活動、品牌等的知名度、銷量或吸引力」與本句語境不同。"
+        "promote-mcq-06": "本句的「promoted」指「把系統、帳戶、伺服器等提升到較高角色／狀態」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-06"
     },
@@ -798,11 +704,8 @@ export default {
       "masked": "She ____ the pawn to a queen.",
       "options": [
         "promote-mcq-07",
-        "promote-mcq-06",
-        "promote-mcq-08",
-        "promote-mcq-05",
-        "promote-mcq-09",
-        "promote-mcq-04"
+        "promote-mcq-10",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promoted」指「西洋棋中兵到達底線後升變為較高級棋子」。",
       "sentenceIndex": 17,
@@ -811,12 +714,9 @@ export default {
         "promoted"
       ],
       "optionReasons": {
-        "promote-mcq-07": "本句指「西洋棋中兵到達底線後升變為較高級棋子」。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。"
+        "promote-mcq-07": "本句的「promoted」指「西洋棋中兵到達底線後升變為較高級棋子」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-07"
     },
@@ -828,11 +728,8 @@ export default {
       "masked": "Pawn ____ changed the game.",
       "options": [
         "promote-mcq-07",
-        "promote-mcq-06",
-        "promote-mcq-08",
-        "promote-mcq-05",
-        "promote-mcq-09",
-        "promote-mcq-04"
+        "promote-mcq-10",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promotion」指「西洋棋中兵到達底線後升變為較高級棋子」。",
       "sentenceIndex": 18,
@@ -841,12 +738,9 @@ export default {
         "promotion"
       ],
       "optionReasons": {
-        "promote-mcq-07": "本句指「西洋棋中兵到達底線後升變為較高級棋子」。",
-        "promote-mcq-06": "「把系統、帳戶、伺服器等提升到較高角色／狀態」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。",
-        "promote-mcq-05": "「令學生、球隊等升到較高級別／組別」與本句語境不同。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-04": "「把某人提升到較高職位、職級或軍階；晉升」與本句語境不同。"
+        "promote-mcq-07": "本句的「promotion」指「西洋棋中兵到達底線後升變為較高級棋子」。",
+        "promote-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-07"
     },
@@ -858,11 +752,9 @@ export default {
       "masked": "The compound ____ cell growth.",
       "options": [
         "promote-mcq-13",
-        "promote-mcq-12",
         "promote-mcq-11",
-        "promote-mcq-10",
-        "promote-mcq-09",
-        "promote-mcq-08"
+        "promote-mcq-05",
+        "promote-mcq-01"
       ],
       "explanation": "本句的「promotes」指「提升催化劑效能的助催化劑／促進劑」。",
       "sentenceIndex": 19,
@@ -871,12 +763,10 @@ export default {
         "promotes"
       ],
       "optionReasons": {
-        "promote-mcq-13": "本句指「提升催化劑效能的助催化劑／促進劑」。",
-        "promote-mcq-12": "「啟動基因轉錄的 DNA 區域；啟動子」與本句語境不同。",
-        "promote-mcq-11": "「推動某理念的人；或活動／演出的主辦推廣者」與本句語境不同。",
-        "promote-mcq-10": "「以宣傳、推廣或促銷為目的的」與本句語境不同。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。"
+        "promote-mcq-13": "本句的「promotes」指「提升催化劑效能的助催化劑／促進劑」。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-13"
     },
@@ -888,11 +778,9 @@ export default {
       "masked": "The catalyst ____ the reaction.",
       "options": [
         "promote-mcq-13",
-        "promote-mcq-12",
         "promote-mcq-11",
-        "promote-mcq-10",
-        "promote-mcq-09",
-        "promote-mcq-08"
+        "promote-mcq-05",
+        "promote-mcq-01"
       ],
       "explanation": "本句的「promotes」指「提升催化劑效能的助催化劑／促進劑」。",
       "sentenceIndex": 20,
@@ -901,12 +789,10 @@ export default {
         "promotes"
       ],
       "optionReasons": {
-        "promote-mcq-13": "本句指「提升催化劑效能的助催化劑／促進劑」。",
-        "promote-mcq-12": "「啟動基因轉錄的 DNA 區域；啟動子」與本句語境不同。",
-        "promote-mcq-11": "「推動某理念的人；或活動／演出的主辦推廣者」與本句語境不同。",
-        "promote-mcq-10": "「以宣傳、推廣或促銷為目的的」與本句語境不同。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。"
+        "promote-mcq-13": "本句的「promotes」指「提升催化劑效能的助催化劑／促進劑」。",
+        "promote-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-13"
     },
@@ -918,11 +804,8 @@ export default {
       "masked": "The company produced a ____ video.",
       "options": [
         "promote-mcq-10",
-        "promote-mcq-09",
-        "promote-mcq-11",
-        "promote-mcq-08",
-        "promote-mcq-12",
-        "promote-mcq-07"
+        "promote-mcq-04",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promotional」指「以宣傳、推廣或促銷為目的的」。",
       "sentenceIndex": 22,
@@ -931,12 +814,9 @@ export default {
         "promotional"
       ],
       "optionReasons": {
-        "promote-mcq-10": "本句指「以宣傳、推廣或促銷為目的的」。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-11": "「推動某理念的人；或活動／演出的主辦推廣者」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。",
-        "promote-mcq-12": "「啟動基因轉錄的 DNA 區域；啟動子」與本句語境不同。",
-        "promote-mcq-07": "「西洋棋中兵到達底線後升變為較高級棋子」與本句語境不同。"
+        "promote-mcq-10": "本句的「promotional」指「以宣傳、推廣或促銷為目的的」。",
+        "promote-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-10"
     },
@@ -948,11 +828,8 @@ export default {
       "masked": "Customers received ____ offers by email.",
       "options": [
         "promote-mcq-10",
-        "promote-mcq-09",
-        "promote-mcq-11",
-        "promote-mcq-08",
-        "promote-mcq-12",
-        "promote-mcq-07"
+        "promote-mcq-04",
+        "promote-mcq-02"
       ],
       "explanation": "本句的「promotional」指「以宣傳、推廣或促銷為目的的」。",
       "sentenceIndex": 23,
@@ -961,12 +838,9 @@ export default {
         "promotional"
       ],
       "optionReasons": {
-        "promote-mcq-10": "本句指「以宣傳、推廣或促銷為目的的」。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-11": "「推動某理念的人；或活動／演出的主辦推廣者」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。",
-        "promote-mcq-12": "「啟動基因轉錄的 DNA 區域；啟動子」與本句語境不同。",
-        "promote-mcq-07": "「西洋棋中兵到達底線後升變為較高級棋子」與本句語境不同。"
+        "promote-mcq-10": "本句的「promotional」指「以宣傳、推廣或促銷為目的的」。",
+        "promote-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-10"
     },
@@ -978,11 +852,9 @@ export default {
       "masked": "The concert ____ announced a second show.",
       "options": [
         "promote-mcq-11",
-        "promote-mcq-10",
-        "promote-mcq-12",
-        "promote-mcq-09",
+        "promote-mcq-05",
         "promote-mcq-13",
-        "promote-mcq-08"
+        "promote-mcq-01"
       ],
       "explanation": "本句的「promoter」指「推動某理念的人；或活動／演出的主辦推廣者」。",
       "sentenceIndex": 24,
@@ -991,12 +863,10 @@ export default {
         "promoter"
       ],
       "optionReasons": {
-        "promote-mcq-11": "本句指「推動某理念的人；或活動／演出的主辦推廣者」。",
-        "promote-mcq-10": "「以宣傳、推廣或促銷為目的的」與本句語境不同。",
-        "promote-mcq-12": "「啟動基因轉錄的 DNA 區域；啟動子」與本句語境不同。",
-        "promote-mcq-09": "「宣傳／推廣活動；亦可指促銷優惠」與本句語境不同。",
-        "promote-mcq-13": "「提升催化劑效能的助催化劑／促進劑」與本句語境不同。",
-        "promote-mcq-08": "「升職／晉升」與本句語境不同。"
+        "promote-mcq-11": "本句的「promoter」指「推動某理念的人；或活動／演出的主辦推廣者」。",
+        "promote-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "promote-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "promote-mcq-11"
     }
@@ -1008,5 +878,7 @@ export default {
     "sha256": "6d256ee5009cee7f0991956ae771ca6f68532fe7ecfa021fea5b4fbd5c53794a",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

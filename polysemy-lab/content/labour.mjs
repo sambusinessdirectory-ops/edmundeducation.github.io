@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "labour-mcq-01",
-      "title": "表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」",
+      "title": "苦工；辛苦工作；費力的工作",
       "form": "Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.",
       "en": "Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.",
       "zh": "表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "labour-mcq-02",
-      "title": "表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」",
+      "title": "勞動；體力勞動；苦工",
       "form": "labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工",
       "en": "labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工",
       "zh": "表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "labour-mcq-03",
-      "title": "表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」",
+      "title": "體力勞動；勞力工作",
       "form": "manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作",
       "en": "manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作",
       "zh": "表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "labour-mcq-04",
-      "title": "表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」",
+      "title": "工作；勞力；努力",
       "form": "labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力",
       "en": "labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力",
       "zh": "表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "labour-mcq-06",
-      "title": "表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」",
+      "title": "勞工；勞動人口",
       "form": "labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口",
       "en": "labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口",
       "zh": "表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "labour-mcq-07",
-      "title": "表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」",
+      "title": "技術勞工／非技術勞工",
       "form": "skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工",
       "en": "skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工",
       "zh": "表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "labour-mcq-08",
-      "title": "表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」",
+      "title": "勞動；勞動力",
       "form": "labour — human work in economics = human effort used in producing goods and services 勞動；勞動力",
       "en": "labour — human work in economics = human effort used in producing goods and services 勞動；勞動力",
       "zh": "表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "labour-mcq-09",
-      "title": "表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」",
+      "title": "人工成本；勞工成本",
       "form": "labour costs = money paid for workers’ time and work 人工成本；勞工成本",
       "en": "labour costs = money paid for workers’ time and work 人工成本；勞工成本",
       "zh": "表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "labour-mcq-10",
-      "title": "表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」",
+      "title": "勞動市場；就業市場",
       "form": "labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場",
       "en": "labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場",
       "zh": "表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "labour-mcq-11",
-      "title": "表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」",
+      "title": "分娩；產程；陣痛期",
       "form": "labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期",
       "en": "labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期",
       "zh": "表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "labour-mcq-12",
-      "title": "表示開始分娩；進入產程；例句：「她半夜開始分娩。」",
+      "title": "開始分娩；進入產程",
       "form": "go into labour = begin the process of childbirth 開始分娩；進入產程",
       "en": "go into labour = begin the process of childbirth 開始分娩；進入產程",
       "zh": "表示開始分娩；進入產程；例句：「她半夜開始分娩。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "labour-mcq-13",
-      "title": "表示產痛；陣痛；例句：「她開始出現陣痛。」",
+      "title": "產痛；陣痛",
       "form": "labour pains = painful contractions during childbirth 產痛；陣痛",
       "en": "labour pains = painful contractions during childbirth 產痛；陣痛",
       "zh": "表示產痛；陣痛；例句：「她開始出現陣痛。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "labour-mcq-14",
-      "title": "表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」",
+      "title": "辛苦工作；勞動；費力做",
       "form": "labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做",
       "en": "labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做",
       "zh": "表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "labour-mcq-15",
-      "title": "表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」",
+      "title": "費力處理；苦心做",
       "form": "labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做",
       "en": "labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做",
       "zh": "表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "labour-mcq-16",
-      "title": "表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」",
+      "title": "艱難地移動；費力運作",
       "form": "labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作",
       "en": "labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作",
       "zh": "表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "labour-mcq-17",
-      "title": "表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」",
+      "title": "反覆強調；把一點講得太多",
       "form": "labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多",
       "en": "labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多",
       "zh": "表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "labour-mcq-18",
-      "title": "表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」",
+      "title": "抱有錯誤觀念；誤以為",
       "form": "labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為",
       "en": "labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為",
       "zh": "表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "labour-mcq-19",
-      "title": "表示工黨；例句：「她加入了工黨。」",
+      "title": "工黨",
       "form": "Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨",
       "en": "Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨",
       "zh": "表示工黨；例句：「她加入了工黨。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "labour-mcq-20",
-      "title": "表示勞工；苦力；工人；例句：「他是一名建築工人。」",
+      "title": "勞工；苦力；工人",
       "form": "labourer = person whose job involves physical work 勞工；苦力；工人",
       "en": "labourer = person whose job involves physical work 勞工；苦力；工人",
       "zh": "表示勞工；苦力；工人；例句：「他是一名建築工人。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "labour-mcq-22",
-      "title": "表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」",
+      "title": "省力的；節省人力的",
       "form": "labour-saving = reducing the amount of human work needed 省力的；節省人力的",
       "en": "labour-saving = reducing the amount of human work needed 省力的；節省人力的",
       "zh": "表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "labour-mcq-23",
-      "title": "表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」",
+      "title": "勞動人口；勞動力",
       "form": "labour force = all people who are working or available to work in an economy 勞動人口；勞動力",
       "en": "labour force = all people who are working or available to work in an economy 勞動人口；勞動力",
       "zh": "表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "labour-mcq-24",
-      "title": "表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」",
+      "title": "苦工；繁重勞動",
       "form": "hard labour",
       "en": "hard labour",
       "zh": "表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "labour-mcq-25",
-      "title": "表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」",
+      "title": "勞動成果；辛勞所得",
       "form": "the fruits of your labour = results or rewards produced by your work 勞動成果；辛勞所得",
       "en": "the fruits of your labour = results or rewards produced by your work 勞動成果；辛勞所得",
       "zh": "表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」",
@@ -565,11 +565,9 @@ export default {
       "masked": "Reading the book never felt like ____.",
       "options": [
         "labour-mcq-01",
-        "labour-mcq-02",
-        "labour-mcq-03",
-        "labour-mcq-04",
-        "labour-mcq-05",
-        "labour-mcq-06"
+        "labour-mcq-11",
+        "labour-mcq-10",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「hard labour」指「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」。",
       "sentenceIndex": 0,
@@ -578,12 +576,10 @@ export default {
         "hard labour"
       ],
       "optionReasons": {
-        "labour-mcq-01": "本句指「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-01": "本句的「hard labour」指「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-01"
     },
@@ -595,11 +591,9 @@ export default {
       "masked": "The assignment felt more like ____ than learning.",
       "options": [
         "labour-mcq-01",
-        "labour-mcq-02",
-        "labour-mcq-03",
-        "labour-mcq-04",
-        "labour-mcq-05",
-        "labour-mcq-06"
+        "labour-mcq-12",
+        "labour-mcq-10",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour」指「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」。",
       "sentenceIndex": 1,
@@ -608,12 +602,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-01": "本句指「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-01": "本句的「labour」指「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-01"
     },
@@ -625,11 +617,9 @@ export default {
       "masked": "The job involves heavy manual ____.",
       "options": [
         "labour-mcq-02",
-        "labour-mcq-01",
-        "labour-mcq-03",
-        "labour-mcq-04",
-        "labour-mcq-05",
-        "labour-mcq-06"
+        "labour-mcq-18",
+        "labour-mcq-12",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour」指「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」。",
       "sentenceIndex": 2,
@@ -638,12 +628,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-02": "本句指「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」。",
-        "labour-mcq-01": "「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」是「Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-02": "本句的「labour」指「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-02"
     },
@@ -655,11 +643,9 @@ export default {
       "masked": "Building the wall required hours of ____.",
       "options": [
         "labour-mcq-02",
-        "labour-mcq-01",
-        "labour-mcq-03",
-        "labour-mcq-04",
-        "labour-mcq-05",
-        "labour-mcq-06"
+        "labour-mcq-13",
+        "labour-mcq-17",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour」指「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」。",
       "sentenceIndex": 3,
@@ -668,12 +654,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-02": "本句指「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」。",
-        "labour-mcq-01": "「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」是「Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-02": "本句的「labour」指「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-02"
     },
@@ -685,11 +669,9 @@ export default {
       "masked": "He spent years doing ____.",
       "options": [
         "labour-mcq-03",
-        "labour-mcq-02",
-        "labour-mcq-04",
-        "labour-mcq-01",
-        "labour-mcq-05",
-        "labour-mcq-06"
+        "labour-mcq-11",
+        "labour-mcq-18",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「manual labour」指「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」。",
       "sentenceIndex": 4,
@@ -698,12 +680,10 @@ export default {
         "manual labour"
       ],
       "optionReasons": {
-        "labour-mcq-03": "本句指「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-01": "「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」是「Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-03": "本句的「manual labour」指「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-03"
     },
@@ -715,11 +695,9 @@ export default {
       "masked": "The work involves both planning and ____.",
       "options": [
         "labour-mcq-03",
-        "labour-mcq-02",
-        "labour-mcq-04",
-        "labour-mcq-01",
-        "labour-mcq-05",
-        "labour-mcq-06"
+        "labour-mcq-11",
+        "labour-mcq-18",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「manual labour」指「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」。",
       "sentenceIndex": 5,
@@ -728,12 +706,10 @@ export default {
         "manual labour"
       ],
       "optionReasons": {
-        "labour-mcq-03": "本句指「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-01": "「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」是「Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-03": "本句的「manual labour」指「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-03"
     },
@@ -745,11 +721,9 @@ export default {
       "masked": "The project required months of ____.",
       "options": [
         "labour-mcq-04",
-        "labour-mcq-03",
-        "labour-mcq-05",
-        "labour-mcq-02",
-        "labour-mcq-06",
-        "labour-mcq-01"
+        "labour-mcq-13",
+        "labour-mcq-18",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour」指「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」。",
       "sentenceIndex": 6,
@@ -758,12 +732,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-04": "本句指「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-01": "「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」是「Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.」的用法，與本句語境不同。"
+        "labour-mcq-04": "本句的「labour」指「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-04"
     },
@@ -775,11 +747,9 @@ export default {
       "masked": "Their ____ finally produced results.",
       "options": [
         "labour-mcq-04",
-        "labour-mcq-03",
-        "labour-mcq-05",
-        "labour-mcq-02",
-        "labour-mcq-06",
-        "labour-mcq-01"
+        "labour-mcq-12",
+        "labour-mcq-17",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour」指「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」。",
       "sentenceIndex": 7,
@@ -788,12 +758,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-04": "本句指「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-01": "「表示苦工；辛苦工作；費力的工作；例句：「讀這本書從來不會讓人覺得像在做苦工。」」是「Passage anchor > “...I was looking for something that could pull me in without feeling like hard labour.」的用法，與本句語境不同。"
+        "labour-mcq-04": "本句的「labour」指「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-04"
     },
@@ -805,11 +773,9 @@ export default {
       "masked": "Restoring the house was a ____.",
       "options": [
         "labour-mcq-05",
-        "labour-mcq-04",
-        "labour-mcq-06",
-        "labour-mcq-03",
-        "labour-mcq-07",
-        "labour-mcq-02"
+        "labour-mcq-11",
+        "labour-mcq-18",
+        "labour-mcq-21"
       ],
       "explanation": "本句的「labour of love」指「出於熱愛而做的工作；心血之作」。",
       "sentenceIndex": 8,
@@ -818,12 +784,10 @@ export default {
         "labour of love"
       ],
       "optionReasons": {
-        "labour-mcq-05": "本句指「出於熱愛而做的工作；心血之作」。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。"
+        "labour-mcq-05": "本句的「labour of love」指「出於熱愛而做的工作；心血之作」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-05"
     },
@@ -835,11 +799,9 @@ export default {
       "masked": "The book was clearly a ____.",
       "options": [
         "labour-mcq-05",
-        "labour-mcq-04",
-        "labour-mcq-06",
-        "labour-mcq-03",
-        "labour-mcq-07",
-        "labour-mcq-02"
+        "labour-mcq-12",
+        "labour-mcq-23",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour of love」指「出於熱愛而做的工作；心血之作」。",
       "sentenceIndex": 9,
@@ -848,12 +810,10 @@ export default {
         "labour of love"
       ],
       "optionReasons": {
-        "labour-mcq-05": "本句指「出於熱愛而做的工作；心血之作」。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-02": "「表示勞動；體力勞動；苦工；例句：「這份工作涉及繁重的體力勞動。」」是「labour — hard physical work = difficult physical work requiring effort 勞動；體力勞動；苦工」的用法，與本句語境不同。"
+        "labour-mcq-05": "本句的「labour of love」指「出於熱愛而做的工作；心血之作」。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-05"
     },
@@ -865,11 +825,9 @@ export default {
       "masked": "The industry relies heavily on skilled ____.",
       "options": [
         "labour-mcq-06",
-        "labour-mcq-05",
-        "labour-mcq-07",
-        "labour-mcq-04",
-        "labour-mcq-08",
-        "labour-mcq-03"
+        "labour-mcq-13",
+        "labour-mcq-18",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour」指「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」。",
       "sentenceIndex": 10,
@@ -878,12 +836,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-06": "本句指「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。"
+        "labour-mcq-06": "本句的「labour」指「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-06"
     },
@@ -895,11 +851,9 @@ export default {
       "masked": "There is a shortage of ____.",
       "options": [
         "labour-mcq-06",
-        "labour-mcq-05",
-        "labour-mcq-07",
-        "labour-mcq-04",
-        "labour-mcq-08",
-        "labour-mcq-03"
+        "labour-mcq-11",
+        "labour-mcq-22",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour」指「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」。",
       "sentenceIndex": 11,
@@ -908,12 +862,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-06": "本句指「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-03": "「表示體力勞動；勞力工作；例句：「他多年來一直從事體力勞動。」」是「manual labour = physical work done mainly with the body rather than intellectual or office work 體力勞動；勞力工作」的用法，與本句語境不同。"
+        "labour-mcq-06": "本句的「labour」指「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-06"
     },
@@ -925,11 +877,9 @@ export default {
       "masked": "The sector needs more ____.",
       "options": [
         "labour-mcq-07",
-        "labour-mcq-06",
-        "labour-mcq-08",
-        "labour-mcq-05",
-        "labour-mcq-09",
-        "labour-mcq-04"
+        "labour-mcq-15",
+        "labour-mcq-18",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「skilled labour」指「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」。",
       "sentenceIndex": 12,
@@ -938,12 +888,10 @@ export default {
         "skilled labour"
       ],
       "optionReasons": {
-        "labour-mcq-07": "本句指「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。"
+        "labour-mcq-07": "本句的「skilled labour」指「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」。",
+        "labour-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-07"
     },
@@ -955,11 +903,9 @@ export default {
       "masked": "Much of the work was done by ____.",
       "options": [
         "labour-mcq-07",
-        "labour-mcq-06",
-        "labour-mcq-08",
-        "labour-mcq-05",
-        "labour-mcq-09",
-        "labour-mcq-04"
+        "labour-mcq-16",
+        "labour-mcq-13",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「unskilled labour」指「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」。",
       "sentenceIndex": 13,
@@ -968,12 +914,10 @@ export default {
         "unskilled labour"
       ],
       "optionReasons": {
-        "labour-mcq-07": "本句指「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-04": "「表示工作；勞力；努力；例句：「這個專案需要數月的辛勤工作。」」是「labour — work and effort = work, especially when it requires sustained effort 工作；勞力；努力」的用法，與本句語境不同。"
+        "labour-mcq-07": "本句的「unskilled labour」指「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」。",
+        "labour-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-07"
     },
@@ -985,11 +929,9 @@ export default {
       "masked": "Economics often treats ____ as a factor of production.",
       "options": [
         "labour-mcq-08",
-        "labour-mcq-07",
-        "labour-mcq-09",
-        "labour-mcq-06",
-        "labour-mcq-10",
-        "labour-mcq-05"
+        "labour-mcq-12",
+        "labour-mcq-19",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour」指「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」。",
       "sentenceIndex": 14,
@@ -998,12 +940,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-08": "本句指「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。"
+        "labour-mcq-08": "本句的「labour」指「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-08"
     },
@@ -1015,10 +955,8 @@ export default {
       "masked": "The cost of ____ increased.",
       "options": [
         "labour-mcq-08",
-        "labour-mcq-07",
-        "labour-mcq-09",
-        "labour-mcq-06",
-        "labour-mcq-10",
+        "labour-mcq-18",
+        "labour-mcq-11",
         "labour-mcq-05"
       ],
       "explanation": "本句的「labour」指「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」。",
@@ -1028,12 +966,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-08": "本句指「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-05": "「出於熱愛而做的工作；心血之作」是「a labour of love = work done because you enjoy or care deeply about it, not mainly for money 出於熱愛而做的工作；心血之作」的用法，與本句語境不同。"
+        "labour-mcq-08": "本句的「labour」指「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-08"
     },
@@ -1045,11 +981,9 @@ export default {
       "masked": "Rising ____ affected profits.",
       "options": [
         "labour-mcq-09",
-        "labour-mcq-08",
-        "labour-mcq-10",
-        "labour-mcq-07",
+        "labour-mcq-17",
         "labour-mcq-11",
-        "labour-mcq-06"
+        "labour-mcq-16"
       ],
       "explanation": "本句的「labour costs」指「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」。",
       "sentenceIndex": 16,
@@ -1058,12 +992,10 @@ export default {
         "labour costs"
       ],
       "optionReasons": {
-        "labour-mcq-09": "本句指「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-09": "本句的「labour costs」指「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-09"
     },
@@ -1075,11 +1007,9 @@ export default {
       "masked": "The company reduced ____.",
       "options": [
         "labour-mcq-09",
-        "labour-mcq-08",
-        "labour-mcq-10",
-        "labour-mcq-07",
-        "labour-mcq-11",
-        "labour-mcq-06"
+        "labour-mcq-18",
+        "labour-mcq-16",
+        "labour-mcq-13"
       ],
       "explanation": "本句的「labour costs」指「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」。",
       "sentenceIndex": 17,
@@ -1088,12 +1018,10 @@ export default {
         "labour costs"
       ],
       "optionReasons": {
-        "labour-mcq-09": "本句指「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-06": "「表示勞工；勞動人口；例句：「這個行業非常依賴技術勞工。」」是「labour — workers as a group = workers considered collectively, especially those who do paid or manual work 勞工；勞動人口」的用法，與本句語境不同。"
+        "labour-mcq-09": "本句的「labour costs」指「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-09"
     },
@@ -1105,11 +1033,9 @@ export default {
       "masked": "The ____ remains competitive.",
       "options": [
         "labour-mcq-10",
-        "labour-mcq-09",
-        "labour-mcq-11",
-        "labour-mcq-08",
         "labour-mcq-12",
-        "labour-mcq-07"
+        "labour-mcq-22",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour market」指「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」。",
       "sentenceIndex": 18,
@@ -1118,12 +1044,10 @@ export default {
         "labour market"
       ],
       "optionReasons": {
-        "labour-mcq-10": "本句指「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。"
+        "labour-mcq-10": "本句的「labour market」指「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-10"
     },
@@ -1135,11 +1059,9 @@ export default {
       "masked": "Graduates entered a difficult ____.",
       "options": [
         "labour-mcq-10",
-        "labour-mcq-09",
-        "labour-mcq-11",
-        "labour-mcq-08",
-        "labour-mcq-12",
-        "labour-mcq-07"
+        "labour-mcq-05",
+        "labour-mcq-18",
+        "labour-mcq-15"
       ],
       "explanation": "本句的「labour market」指「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」。",
       "sentenceIndex": 19,
@@ -1148,12 +1070,10 @@ export default {
         "labour market"
       ],
       "optionReasons": {
-        "labour-mcq-10": "本句指「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-07": "「表示技術勞工／非技術勞工；例句：「這個行業需要更多技術勞工。」」是「skilled / unskilled labour = workers with / without specialized training 技術勞工／非技術勞工」的用法，與本句語境不同。"
+        "labour-mcq-10": "本句的「labour market」指「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-10"
     },
@@ -1165,11 +1085,9 @@ export default {
       "masked": "She went into ____ early in the morning.",
       "options": [
         "labour-mcq-11",
-        "labour-mcq-10",
-        "labour-mcq-12",
-        "labour-mcq-09",
-        "labour-mcq-13",
-        "labour-mcq-08"
+        "labour-mcq-15",
+        "labour-mcq-04",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour」指「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」。",
       "sentenceIndex": 20,
@@ -1178,12 +1096,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-11": "本句指「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。"
+        "labour-mcq-11": "本句的「labour」指「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」。",
+        "labour-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-11"
     },
@@ -1195,11 +1111,9 @@ export default {
       "masked": "The ____ lasted several hours.",
       "options": [
         "labour-mcq-11",
-        "labour-mcq-10",
-        "labour-mcq-12",
-        "labour-mcq-09",
-        "labour-mcq-13",
-        "labour-mcq-08"
+        "labour-mcq-03",
+        "labour-mcq-15",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour」指「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」。",
       "sentenceIndex": 21,
@@ -1208,12 +1122,10 @@ export default {
         "labour"
       ],
       "optionReasons": {
-        "labour-mcq-11": "本句指「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-08": "「表示勞動；勞動力；例句：「經濟學常把勞動視為生產要素之一。」」是「labour — human work in economics = human effort used in producing goods and services 勞動；勞動力」的用法，與本句語境不同。"
+        "labour-mcq-11": "本句的「labour」指「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」。",
+        "labour-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-11"
     },
@@ -1225,11 +1137,9 @@ export default {
       "masked": "She ____ at midnight.",
       "options": [
         "labour-mcq-12",
-        "labour-mcq-11",
-        "labour-mcq-13",
-        "labour-mcq-10",
         "labour-mcq-14",
-        "labour-mcq-09"
+        "labour-mcq-21",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「went into labour」指「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」。",
       "sentenceIndex": 22,
@@ -1238,12 +1148,10 @@ export default {
         "went into labour"
       ],
       "optionReasons": {
-        "labour-mcq-12": "本句指「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。"
+        "labour-mcq-12": "本句的「went into labour」指「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」。",
+        "labour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-12"
     },
@@ -1255,11 +1163,9 @@ export default {
       "masked": "They went to the hospital when she ____.",
       "options": [
         "labour-mcq-12",
-        "labour-mcq-11",
-        "labour-mcq-13",
-        "labour-mcq-10",
-        "labour-mcq-14",
-        "labour-mcq-09"
+        "labour-mcq-07",
+        "labour-mcq-17",
+        "labour-mcq-05"
       ],
       "explanation": "本句的「went into labour」指「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」。",
       "sentenceIndex": 23,
@@ -1268,12 +1174,10 @@ export default {
         "went into labour"
       ],
       "optionReasons": {
-        "labour-mcq-12": "本句指「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-09": "「表示人工成本；勞工成本；例句：「上升的人工成本影響了利潤。」」是「labour costs = money paid for workers’ time and work 人工成本；勞工成本」的用法，與本句語境不同。"
+        "labour-mcq-12": "本句的「went into labour」指「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」。",
+        "labour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-12"
     },
@@ -1285,11 +1189,9 @@ export default {
       "masked": "She began experiencing ____.",
       "options": [
         "labour-mcq-13",
-        "labour-mcq-12",
-        "labour-mcq-14",
-        "labour-mcq-11",
+        "labour-mcq-04",
         "labour-mcq-15",
-        "labour-mcq-10"
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labour pains」指「表示產痛；陣痛；例句：「她開始出現陣痛。」」。",
       "sentenceIndex": 24,
@@ -1298,12 +1200,10 @@ export default {
         "labour pains"
       ],
       "optionReasons": {
-        "labour-mcq-13": "本句指「表示產痛；陣痛；例句：「她開始出現陣痛。」」。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。"
+        "labour-mcq-13": "本句的「labour pains」指「表示產痛；陣痛；例句：「她開始出現陣痛。」」。",
+        "labour-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-13"
     },
@@ -1315,11 +1215,9 @@ export default {
       "masked": "The ____ became stronger.",
       "options": [
         "labour-mcq-13",
-        "labour-mcq-12",
+        "labour-mcq-21",
         "labour-mcq-14",
-        "labour-mcq-11",
-        "labour-mcq-15",
-        "labour-mcq-10"
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour pains」指「表示產痛；陣痛；例句：「她開始出現陣痛。」」。",
       "sentenceIndex": 25,
@@ -1328,12 +1226,10 @@ export default {
         "labour pains"
       ],
       "optionReasons": {
-        "labour-mcq-13": "本句指「表示產痛；陣痛；例句：「她開始出現陣痛。」」。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-10": "「表示勞動市場；就業市場；例句：「勞動市場仍然競爭激烈。」」是「labour market = system or market involving employers, workers, jobs, wages, and employment 勞動市場；就業市場」的用法，與本句語境不同。"
+        "labour-mcq-13": "本句的「labour pains」指「表示產痛；陣痛；例句：「她開始出現陣痛。」」。",
+        "labour-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-13"
     },
@@ -1345,11 +1241,9 @@ export default {
       "masked": "They ____ all day in the heat.",
       "options": [
         "labour-mcq-14",
+        "labour-mcq-17",
         "labour-mcq-13",
-        "labour-mcq-15",
-        "labour-mcq-12",
-        "labour-mcq-16",
-        "labour-mcq-11"
+        "labour-mcq-18"
       ],
       "explanation": "本句的「laboured」指「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」。",
       "sentenceIndex": 26,
@@ -1358,12 +1252,10 @@ export default {
         "laboured"
       ],
       "optionReasons": {
-        "labour-mcq-14": "本句指「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。"
+        "labour-mcq-14": "本句的「laboured」指「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-14"
     },
@@ -1375,11 +1267,9 @@ export default {
       "masked": "She ____ over the report for hours.",
       "options": [
         "labour-mcq-14",
-        "labour-mcq-13",
-        "labour-mcq-15",
-        "labour-mcq-12",
-        "labour-mcq-16",
-        "labour-mcq-11"
+        "labour-mcq-11",
+        "labour-mcq-17",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「laboured」指「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」。",
       "sentenceIndex": 27,
@@ -1388,12 +1278,10 @@ export default {
         "laboured"
       ],
       "optionReasons": {
-        "labour-mcq-14": "本句指「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-11": "「表示分娩；產程；陣痛期；例句：「她清晨開始進入產程。」」是「labour — childbirth process = process in which a pregnant person’s body prepares for and gives birth to a baby 分娩；產程；陣痛期」的用法，與本句語境不同。"
+        "labour-mcq-14": "本句的「laboured」指「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-14"
     },
@@ -1405,9 +1293,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "labour-mcq-15",
-        "labour-mcq-14",
-        "labour-mcq-16",
-        "labour-mcq-13",
+        "labour-mcq-06",
         "labour-mcq-17",
         "labour-mcq-12"
       ],
@@ -1418,12 +1304,10 @@ export default {
         "laboured over every sentence"
       ],
       "optionReasons": {
-        "labour-mcq-15": "本句指「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。"
+        "labour-mcq-15": "本句的「laboured over every sentence」指「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」。",
+        "labour-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-15"
     },
@@ -1435,11 +1319,9 @@ export default {
       "masked": "She ____ for weeks.",
       "options": [
         "labour-mcq-15",
-        "labour-mcq-14",
-        "labour-mcq-16",
         "labour-mcq-13",
-        "labour-mcq-17",
-        "labour-mcq-12"
+        "labour-mcq-07",
+        "labour-mcq-25"
       ],
       "explanation": "本句的「laboured over the design」指「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」。",
       "sentenceIndex": 29,
@@ -1448,12 +1330,10 @@ export default {
         "laboured over the design"
       ],
       "optionReasons": {
-        "labour-mcq-15": "本句指「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-12": "「表示開始分娩；進入產程；例句：「她半夜開始分娩。」」是「go into labour = begin the process of childbirth 開始分娩；進入產程」的用法，與本句語境不同。"
+        "labour-mcq-15": "本句的「laboured over the design」指「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-15"
     },
@@ -1465,11 +1345,9 @@ export default {
       "masked": "The old engine ____ up the hill.",
       "options": [
         "labour-mcq-16",
-        "labour-mcq-15",
         "labour-mcq-17",
-        "labour-mcq-14",
-        "labour-mcq-18",
-        "labour-mcq-13"
+        "labour-mcq-19",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「laboured」指「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」。",
       "sentenceIndex": 30,
@@ -1478,12 +1356,10 @@ export default {
         "laboured"
       ],
       "optionReasons": {
-        "labour-mcq-16": "本句指「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。"
+        "labour-mcq-16": "本句的「laboured」指「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-16"
     },
@@ -1495,11 +1371,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "labour-mcq-16",
-        "labour-mcq-15",
+        "labour-mcq-19",
         "labour-mcq-17",
-        "labour-mcq-14",
-        "labour-mcq-18",
-        "labour-mcq-13"
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labouring to breathe」指「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」。",
       "sentenceIndex": 31,
@@ -1508,12 +1382,10 @@ export default {
         "labouring to breathe"
       ],
       "optionReasons": {
-        "labour-mcq-16": "本句指「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-13": "「表示產痛；陣痛；例句：「她開始出現陣痛。」」是「labour pains = painful contractions during childbirth 產痛；陣痛」的用法，與本句語境不同。"
+        "labour-mcq-16": "本句的「labouring to breathe」指「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」。",
+        "labour-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-16"
     },
@@ -1525,11 +1397,9 @@ export default {
       "masked": "I don’t want to ____.",
       "options": [
         "labour-mcq-17",
-        "labour-mcq-16",
-        "labour-mcq-18",
-        "labour-mcq-15",
-        "labour-mcq-19",
-        "labour-mcq-14"
+        "labour-mcq-10",
+        "labour-mcq-07",
+        "labour-mcq-22"
       ],
       "explanation": "本句的「labour the point」指「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」。",
       "sentenceIndex": 32,
@@ -1538,12 +1408,10 @@ export default {
         "labour the point"
       ],
       "optionReasons": {
-        "labour-mcq-17": "本句指「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。"
+        "labour-mcq-17": "本句的「labour the point」指「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」。",
+        "labour-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-17"
     },
@@ -1555,11 +1423,9 @@ export default {
       "masked": "She had already understood, so there was no need to ____.",
       "options": [
         "labour-mcq-17",
-        "labour-mcq-16",
-        "labour-mcq-18",
-        "labour-mcq-15",
-        "labour-mcq-19",
-        "labour-mcq-14"
+        "labour-mcq-05",
+        "labour-mcq-06",
+        "labour-mcq-21"
       ],
       "explanation": "本句的「labour the point」指「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」。",
       "sentenceIndex": 33,
@@ -1568,12 +1434,10 @@ export default {
         "labour the point"
       ],
       "optionReasons": {
-        "labour-mcq-17": "本句指「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-14": "「表示辛苦工作；勞動；費力做；例句：「他們整天在炎熱中辛苦工作。」」是「labour — work hard = work with great effort, often for a long time 辛苦工作；勞動；費力做」的用法，與本句語境不同。"
+        "labour-mcq-17": "本句的「labour the point」指「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-17"
     },
@@ -1585,11 +1449,9 @@ export default {
       "masked": "He was ____ that the meeting had been cancelled.",
       "options": [
         "labour-mcq-18",
-        "labour-mcq-17",
-        "labour-mcq-19",
-        "labour-mcq-16",
-        "labour-mcq-20",
-        "labour-mcq-15"
+        "labour-mcq-01",
+        "labour-mcq-25",
+        "labour-mcq-12"
       ],
       "explanation": "本句的「labouring under the misconception」指「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」。",
       "sentenceIndex": 34,
@@ -1598,12 +1460,10 @@ export default {
         "labouring under the misconception"
       ],
       "optionReasons": {
-        "labour-mcq-18": "本句指「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。"
+        "labour-mcq-18": "本句的「labouring under the misconception」指「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」。",
+        "labour-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-18"
     },
@@ -1615,11 +1475,9 @@ export default {
       "masked": "They were ____.",
       "options": [
         "labour-mcq-18",
-        "labour-mcq-17",
-        "labour-mcq-19",
-        "labour-mcq-16",
-        "labour-mcq-20",
-        "labour-mcq-15"
+        "labour-mcq-08",
+        "labour-mcq-05",
+        "labour-mcq-12"
       ],
       "explanation": "本句的「labouring under an illusion」指「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」。",
       "sentenceIndex": 35,
@@ -1628,12 +1486,10 @@ export default {
         "labouring under an illusion"
       ],
       "optionReasons": {
-        "labour-mcq-18": "本句指「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-15": "「表示費力處理；苦心做；例句：「他對每一句話都反覆斟酌、費盡心力。」」是「labour over something = spend a lot of time and effort doing something carefully or painfully 費力處理；苦心做」的用法，與本句語境不同。"
+        "labour-mcq-18": "本句的「labouring under an illusion」指「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」。",
+        "labour-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-18"
     },
@@ -1645,11 +1501,9 @@ export default {
       "masked": "She joined the ____.",
       "options": [
         "labour-mcq-19",
-        "labour-mcq-18",
-        "labour-mcq-20",
-        "labour-mcq-17",
-        "labour-mcq-21",
-        "labour-mcq-16"
+        "labour-mcq-23",
+        "labour-mcq-13",
+        "labour-mcq-15"
       ],
       "explanation": "本句的「Labour Party」指「表示工黨；例句：「她加入了工黨。」」。",
       "sentenceIndex": 36,
@@ -1658,12 +1512,10 @@ export default {
         "Labour Party"
       ],
       "optionReasons": {
-        "labour-mcq-19": "本句指「表示工黨；例句：「她加入了工黨。」」。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。"
+        "labour-mcq-19": "本句的「Labour Party」指「表示工黨；例句：「她加入了工黨。」」。",
+        "labour-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-19"
     },
@@ -1675,11 +1527,9 @@ export default {
       "masked": "____ announced a new policy.",
       "options": [
         "labour-mcq-19",
-        "labour-mcq-18",
-        "labour-mcq-20",
+        "labour-mcq-13",
         "labour-mcq-17",
-        "labour-mcq-21",
-        "labour-mcq-16"
+        "labour-mcq-21"
       ],
       "explanation": "本句的「Labour」指「表示工黨；例句：「她加入了工黨。」」。",
       "sentenceIndex": 37,
@@ -1688,12 +1538,10 @@ export default {
         "Labour"
       ],
       "optionReasons": {
-        "labour-mcq-19": "本句指「表示工黨；例句：「她加入了工黨。」」。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-16": "「表示艱難地移動；費力運作；例句：「舊引擎吃力地爬上山坡。」」是「labour — move or function with difficulty = move, breathe, or operate with visible effort 艱難地移動；費力運作」的用法，與本句語境不同。"
+        "labour-mcq-19": "本句的「Labour」指「表示工黨；例句：「她加入了工黨。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-19"
     },
@@ -1705,11 +1553,9 @@ export default {
       "masked": "He worked as a construction ____.",
       "options": [
         "labour-mcq-20",
-        "labour-mcq-19",
-        "labour-mcq-21",
-        "labour-mcq-18",
-        "labour-mcq-22",
-        "labour-mcq-17"
+        "labour-mcq-13",
+        "labour-mcq-17",
+        "labour-mcq-18"
       ],
       "explanation": "本句的「labourer」指「表示勞工；苦力；工人；例句：「他是一名建築工人。」」。",
       "sentenceIndex": 38,
@@ -1718,12 +1564,10 @@ export default {
         "labourer"
       ],
       "optionReasons": {
-        "labour-mcq-20": "本句指「表示勞工；苦力；工人；例句：「他是一名建築工人。」」。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。"
+        "labour-mcq-20": "本句的「labourer」指「表示勞工；苦力；工人；例句：「他是一名建築工人。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-20"
     },
@@ -1735,10 +1579,8 @@ export default {
       "masked": "The site employed dozens of ____.",
       "options": [
         "labour-mcq-20",
-        "labour-mcq-19",
-        "labour-mcq-21",
+        "labour-mcq-11",
         "labour-mcq-18",
-        "labour-mcq-22",
         "labour-mcq-17"
       ],
       "explanation": "本句的「labourers」指「表示勞工；苦力；工人；例句：「他是一名建築工人。」」。",
@@ -1748,12 +1590,10 @@ export default {
         "labourers"
       ],
       "optionReasons": {
-        "labour-mcq-20": "本句指「表示勞工；苦力；工人；例句：「他是一名建築工人。」」。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-17": "「表示反覆強調；把一點講得太多；例句：「我不想反覆強調這一點。」」是「labour the point = explain or emphasize something too much, especially after it is already understood 反覆強調；把一點講得太多」的用法，與本句語境不同。"
+        "labour-mcq-20": "本句的「labourers」指「表示勞工；苦力；工人；例句：「他是一名建築工人。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-20"
     },
@@ -1765,11 +1605,9 @@ export default {
       "masked": "Farming can be very ____.",
       "options": [
         "labour-mcq-21",
-        "labour-mcq-20",
-        "labour-mcq-22",
-        "labour-mcq-19",
-        "labour-mcq-23",
-        "labour-mcq-18"
+        "labour-mcq-18",
+        "labour-mcq-13",
+        "labour-mcq-05"
       ],
       "explanation": "本句的「labour-intensive」指「勞力密集的；需要大量人力的」。",
       "sentenceIndex": 40,
@@ -1778,12 +1616,10 @@ export default {
         "labour-intensive"
       ],
       "optionReasons": {
-        "labour-mcq-21": "本句指「勞力密集的；需要大量人力的」。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。"
+        "labour-mcq-21": "本句的「labour-intensive」指「勞力密集的；需要大量人力的」。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-21"
     },
@@ -1795,11 +1631,9 @@ export default {
       "masked": "The process is too ____.",
       "options": [
         "labour-mcq-21",
-        "labour-mcq-20",
-        "labour-mcq-22",
-        "labour-mcq-19",
-        "labour-mcq-23",
-        "labour-mcq-18"
+        "labour-mcq-12",
+        "labour-mcq-17",
+        "labour-mcq-19"
       ],
       "explanation": "本句的「labour-intensive」指「勞力密集的；需要大量人力的」。",
       "sentenceIndex": 41,
@@ -1808,12 +1642,10 @@ export default {
         "labour-intensive"
       ],
       "optionReasons": {
-        "labour-mcq-21": "本句指「勞力密集的；需要大量人力的」。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-18": "「表示抱有錯誤觀念；誤以為；例句：「他一直誤以為會議已取消。」」是「labour under a misconception / illusion = continue believing something that is false 抱有錯誤觀念；誤以為」的用法，與本句語境不同。"
+        "labour-mcq-21": "本句的「labour-intensive」指「勞力密集的；需要大量人力的」。",
+        "labour-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-21"
     },
@@ -1825,11 +1657,9 @@ export default {
       "masked": "The machine is a useful ____.",
       "options": [
         "labour-mcq-22",
-        "labour-mcq-21",
-        "labour-mcq-23",
-        "labour-mcq-20",
-        "labour-mcq-24",
-        "labour-mcq-19"
+        "labour-mcq-13",
+        "labour-mcq-17",
+        "labour-mcq-25"
       ],
       "explanation": "本句的「labour-saving device」指「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」。",
       "sentenceIndex": 42,
@@ -1838,12 +1668,10 @@ export default {
         "labour-saving device"
       ],
       "optionReasons": {
-        "labour-mcq-22": "本句指「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-24": "「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」是「hard labour」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。"
+        "labour-mcq-22": "本句的「labour-saving device」指「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-22"
     },
@@ -1855,11 +1683,9 @@ export default {
       "masked": "Automation introduced several ____.",
       "options": [
         "labour-mcq-22",
-        "labour-mcq-21",
-        "labour-mcq-23",
-        "labour-mcq-20",
+        "labour-mcq-05",
         "labour-mcq-24",
-        "labour-mcq-19"
+        "labour-mcq-13"
       ],
       "explanation": "本句的「labour-saving methods」指「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」。",
       "sentenceIndex": 43,
@@ -1868,12 +1694,10 @@ export default {
         "labour-saving methods"
       ],
       "optionReasons": {
-        "labour-mcq-22": "本句指「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。",
-        "labour-mcq-24": "「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」是「hard labour」的用法，與本句語境不同。",
-        "labour-mcq-19": "「表示工黨；例句：「她加入了工黨。」」是「Labour Capitalized: = name used by political parties associated historically with labour movements, especially the Labour Party in the UK and similar parties elsewhere 工黨」的用法，與本句語境不同。"
+        "labour-mcq-22": "本句的「labour-saving methods」指「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-22"
     },
@@ -1885,11 +1709,9 @@ export default {
       "masked": "The country has an aging ____.",
       "options": [
         "labour-mcq-23",
-        "labour-mcq-22",
-        "labour-mcq-24",
-        "labour-mcq-21",
-        "labour-mcq-25",
-        "labour-mcq-20"
+        "labour-mcq-17",
+        "labour-mcq-05",
+        "labour-mcq-13"
       ],
       "explanation": "本句的「labour force」指「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」。",
       "sentenceIndex": 44,
@@ -1898,12 +1720,10 @@ export default {
         "labour force"
       ],
       "optionReasons": {
-        "labour-mcq-23": "本句指「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-24": "「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」是「hard labour」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-25": "「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」是「the fruits of your labour = results or rewards produced by your work 勞動成果；辛勞所得」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。"
+        "labour-mcq-23": "本句的「labour force」指「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-23"
     },
@@ -1915,11 +1735,9 @@ export default {
       "masked": "More women entered the ____.",
       "options": [
         "labour-mcq-23",
-        "labour-mcq-22",
-        "labour-mcq-24",
-        "labour-mcq-21",
-        "labour-mcq-25",
-        "labour-mcq-20"
+        "labour-mcq-11",
+        "labour-mcq-05",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「labour force」指「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」。",
       "sentenceIndex": 45,
@@ -1928,12 +1746,10 @@ export default {
         "labour force"
       ],
       "optionReasons": {
-        "labour-mcq-23": "本句指「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-24": "「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」是「hard labour」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-25": "「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」是「the fruits of your labour = results or rewards produced by your work 勞動成果；辛勞所得」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。"
+        "labour-mcq-23": "本句的「labour force」指「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-23"
     },
@@ -1945,11 +1761,9 @@ export default {
       "masked": "Moving the stones was ____.",
       "options": [
         "labour-mcq-24",
-        "labour-mcq-23",
-        "labour-mcq-25",
-        "labour-mcq-22",
-        "labour-mcq-21",
-        "labour-mcq-20"
+        "labour-mcq-11",
+        "labour-mcq-18",
+        "labour-mcq-22"
       ],
       "explanation": "本句的「hard labour」指「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」。",
       "sentenceIndex": 46,
@@ -1958,12 +1772,10 @@ export default {
         "hard labour"
       ],
       "optionReasons": {
-        "labour-mcq-24": "本句指「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-25": "「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」是「the fruits of your labour = results or rewards produced by your work 勞動成果；辛勞所得」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。"
+        "labour-mcq-24": "本句的「hard labour」指「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-24"
     },
@@ -1975,11 +1787,9 @@ export default {
       "masked": "Historically, some prisoners were sentenced to ____.",
       "options": [
         "labour-mcq-24",
-        "labour-mcq-23",
-        "labour-mcq-25",
-        "labour-mcq-22",
-        "labour-mcq-21",
-        "labour-mcq-20"
+        "labour-mcq-18",
+        "labour-mcq-13",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「hard labour」指「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」。",
       "sentenceIndex": 47,
@@ -1988,12 +1798,10 @@ export default {
         "hard labour"
       ],
       "optionReasons": {
-        "labour-mcq-24": "本句指「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-25": "「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」是「the fruits of your labour = results or rewards produced by your work 勞動成果；辛勞所得」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。"
+        "labour-mcq-24": "本句的「hard labour」指「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-24"
     },
@@ -2005,11 +1813,9 @@ export default {
       "masked": "At last, they enjoyed the ____.",
       "options": [
         "labour-mcq-25",
-        "labour-mcq-24",
-        "labour-mcq-23",
-        "labour-mcq-22",
-        "labour-mcq-21",
-        "labour-mcq-20"
+        "labour-mcq-05",
+        "labour-mcq-13",
+        "labour-mcq-17"
       ],
       "explanation": "本句的「fruits of their labour」指「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」。",
       "sentenceIndex": 48,
@@ -2018,12 +1824,10 @@ export default {
         "fruits of their labour"
       ],
       "optionReasons": {
-        "labour-mcq-25": "本句指「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」。",
-        "labour-mcq-24": "「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」是「hard labour」的用法，與本句語境不同。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。"
+        "labour-mcq-25": "本句的「fruits of their labour」指「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-25"
     },
@@ -2035,11 +1839,9 @@ export default {
       "masked": "The finished house was the ____.",
       "options": [
         "labour-mcq-25",
-        "labour-mcq-24",
-        "labour-mcq-23",
-        "labour-mcq-22",
-        "labour-mcq-21",
-        "labour-mcq-20"
+        "labour-mcq-18",
+        "labour-mcq-11",
+        "labour-mcq-05"
       ],
       "explanation": "本句的「fruit of years of labour」指「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」。",
       "sentenceIndex": 49,
@@ -2048,12 +1850,10 @@ export default {
         "fruit of years of labour"
       ],
       "optionReasons": {
-        "labour-mcq-25": "本句指「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」。",
-        "labour-mcq-24": "「表示苦工；繁重勞動；例句：「搬那些石頭是很辛苦的苦工。」」是「hard labour」的用法，與本句語境不同。",
-        "labour-mcq-23": "「表示勞動人口；勞動力；例句：「該國的勞動人口正在老化。」」是「labour force = all people who are working or available to work in an economy 勞動人口；勞動力」的用法，與本句語境不同。",
-        "labour-mcq-22": "「表示省力的；節省人力的；例句：「這部機器是一項實用的省力設備。」」是「labour-saving = reducing the amount of human work needed 省力的；節省人力的」的用法，與本句語境不同。",
-        "labour-mcq-21": "「勞力密集的；需要大量人力的」是「labour-intensive = requiring a large amount of human work 勞力密集的；需要大量人力的」的用法，與本句語境不同。",
-        "labour-mcq-20": "「表示勞工；苦力；工人；例句：「他是一名建築工人。」」是「labourer = person whose job involves physical work 勞工；苦力；工人」的用法，與本句語境不同。"
+        "labour-mcq-25": "本句的「fruit of years of labour」指「表示勞動成果；辛勞所得；例句：「他們終於享受到辛勞的成果。」」。",
+        "labour-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "labour-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "labour-mcq-25"
     }
@@ -2065,5 +1865,7 @@ export default {
     "sha256": "f662d166713a20b693abddfcbdb5cd2db02f89f7d4f6bb46b2d7aa72b7fe836a",
     "pages": 15
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

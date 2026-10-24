@@ -744,10 +744,8 @@ export default {
       "options": [
         "catch-01",
         "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-11",
+        "catch-02"
       ],
       "explanation": "留意搭配：catch + attention/interest/eye （注意力／興趣／目光）。這裡著重「吸引注意；引起興趣」。",
       "sentenceIndex": 0,
@@ -756,12 +754,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-01": "本句搭配 catch + attention/interest/eye （注意力／興趣／目光），應理解為「吸引注意；引起興趣」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。"
+        "catch-01": "留意搭配：catch + attention/interest/eye （注意力／興趣／目光）。這裡著重「吸引注意；引起興趣」。",
+        "catch-05": "請比較這個意思與句子中標示的用法。",
+        "catch-11": "請比較這個意思與句子中標示的用法。",
+        "catch-02": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -772,11 +768,9 @@ export default {
       "masked": "鮮紅色的包裝立即____。",
       "options": [
         "catch-01",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-15",
+        "catch-20",
+        "catch-13"
       ],
       "explanation": "留意搭配：catch + attention/interest/eye （注意力／興趣／目光）。這裡著重「吸引注意；引起興趣」。",
       "sentenceIndex": 1,
@@ -785,12 +779,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-01": "本句搭配 catch + attention/interest/eye （注意力／興趣／目光），應理解為「吸引注意；引起興趣」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。"
+        "catch-01": "留意搭配：catch + attention/interest/eye （注意力／興趣／目光）。這裡著重「吸引注意；引起興趣」。",
+        "catch-15": "請比較這個意思與句子中標示的用法。",
+        "catch-20": "請比較這個意思與句子中標示的用法。",
+        "catch-13": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -801,11 +793,9 @@ export default {
       "masked": "報告中的一句話____。",
       "options": [
         "catch-01",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-02",
+        "catch-04",
+        "catch-20"
       ],
       "explanation": "留意搭配：catch + attention/interest/eye （注意力／興趣／目光）。這裡著重「吸引注意；引起興趣」。",
       "sentenceIndex": 2,
@@ -814,12 +804,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-01": "本句搭配 catch + attention/interest/eye （注意力／興趣／目光），應理解為「吸引注意；引起興趣」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + attention/interest/eye （注意力／興趣／目光） 的用法不同。"
+        "catch-01": "留意搭配：catch + attention/interest/eye （注意力／興趣／目光）。這裡著重「吸引注意；引起興趣」。",
+        "catch-02": "請比較這個意思與句子中標示的用法。",
+        "catch-04": "請比較這個意思與句子中標示的用法。",
+        "catch-20": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -830,11 +818,9 @@ export default {
       "masked": "她把鎖匙拋給我，我把它們____。",
       "options": [
         "catch-02",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-11",
+        "catch-20",
+        "catch-05"
       ],
       "explanation": "留意搭配：catch + moving/falling object （移動／掉落中的物件）。這裡著重「接住；抓住」。",
       "sentenceIndex": 3,
@@ -843,12 +829,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-02": "本句搭配 catch + moving/falling object （移動／掉落中的物件），應理解為「接住；抓住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。"
+        "catch-02": "留意搭配：catch + moving/falling object （移動／掉落中的物件）。這裡著重「接住；抓住」。",
+        "catch-11": "請比較這個意思與句子中標示的用法。",
+        "catch-20": "請比較這個意思與句子中標示的用法。",
+        "catch-05": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -859,11 +843,9 @@ export default {
       "masked": "杯子掉到地上之前，他及時把它____。",
       "options": [
         "catch-02",
-        "catch-05",
+        "catch-15",
         "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-10"
       ],
       "explanation": "留意搭配：catch + moving/falling object （移動／掉落中的物件）。這裡著重「接住；抓住」。",
       "sentenceIndex": 4,
@@ -872,12 +854,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-02": "本句搭配 catch + moving/falling object （移動／掉落中的物件），應理解為「接住；抓住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + moving/falling object （移動／掉落中的物件） 的用法不同。"
+        "catch-02": "留意搭配：catch + moving/falling object （移動／掉落中的物件）。這裡著重「接住；抓住」。",
+        "catch-15": "請比較這個意思與句子中標示的用法。",
+        "catch-06": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -888,11 +868,9 @@ export default {
       "masked": "警方當晚較遲時____那名小偷。",
       "options": [
         "catch-03",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-11",
+        "catch-19",
+        "catch-07"
       ],
       "explanation": "留意搭配：catch + person/animal （正在逃跑或難以捉到的人／動物）。這裡著重「捉住；捕獲」。",
       "sentenceIndex": 5,
@@ -901,12 +879,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-03": "本句搭配 catch + person/animal （正在逃跑或難以捉到的人／動物），應理解為「捉住；捕獲」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。"
+        "catch-03": "留意搭配：catch + person/animal （正在逃跑或難以捉到的人／動物）。這裡著重「捉住；捕獲」。",
+        "catch-11": "請比較這個意思與句子中標示的用法。",
+        "catch-19": "請比較這個意思與句子中標示的用法。",
+        "catch-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -917,11 +893,9 @@ export default {
       "masked": "那隻貓終於____老鼠。",
       "options": [
         "catch-03",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-01",
+        "catch-21",
+        "catch-23"
       ],
       "explanation": "留意搭配：catch + person/animal （正在逃跑或難以捉到的人／動物）。這裡著重「捉住；捕獲」。",
       "sentenceIndex": 6,
@@ -930,12 +904,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-03": "本句搭配 catch + person/animal （正在逃跑或難以捉到的人／動物），應理解為「捉住；捕獲」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + person/animal （正在逃跑或難以捉到的人／動物） 的用法不同。"
+        "catch-03": "留意搭配：catch + person/animal （正在逃跑或難以捉到的人／動物）。這裡著重「捉住；捕獲」。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-23": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -946,11 +918,9 @@ export default {
       "masked": "我們那天早上____三條魚。",
       "options": [
         "catch-04",
+        "catch-07",
         "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-11"
       ],
       "explanation": "留意搭配：catch + fish/animal （以捕魚／狩獵方式取得的動物）。這裡著重「捕捉；捕獲」。",
       "sentenceIndex": 7,
@@ -959,12 +929,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-04": "本句搭配 catch + fish/animal （以捕魚／狩獵方式取得的動物），應理解為「捕捉；捕獲」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。"
+        "catch-04": "留意搭配：catch + fish/animal （以捕魚／狩獵方式取得的動物）。這裡著重「捕捉；捕獲」。",
+        "catch-07": "請比較這個意思與句子中標示的用法。",
+        "catch-05": "請比較這個意思與句子中標示的用法。",
+        "catch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -975,11 +943,9 @@ export default {
       "masked": "漁民希望明天可以____更多魚。",
       "options": [
         "catch-04",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-20",
+        "catch-02",
+        "catch-01"
       ],
       "explanation": "留意搭配：catch + fish/animal （以捕魚／狩獵方式取得的動物）。這裡著重「捕捉；捕獲」。",
       "sentenceIndex": 8,
@@ -988,12 +954,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-04": "本句搭配 catch + fish/animal （以捕魚／狩獵方式取得的動物），應理解為「捕捉；捕獲」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + fish/animal （以捕魚／狩獵方式取得的動物） 的用法不同。"
+        "catch-04": "留意搭配：catch + fish/animal （以捕魚／狩獵方式取得的動物）。這裡著重「捕捉；捕獲」。",
+        "catch-20": "請比較這個意思與句子中標示的用法。",
+        "catch-02": "請比較這個意思與句子中標示的用法。",
+        "catch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1004,11 +968,9 @@ export default {
       "masked": "我需要____ 7:30 的火車。",
       "options": [
         "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-08",
+        "catch-12",
+        "catch-23"
       ],
       "explanation": "留意搭配：catch + transport （巴士／火車／飛機等）。這裡著重「趕上並乘搭」。",
       "sentenceIndex": 9,
@@ -1017,12 +979,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-05": "本句搭配 catch + transport （巴士／火車／飛機等），應理解為「趕上並乘搭」。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。"
+        "catch-05": "留意搭配：catch + transport （巴士／火車／飛機等）。這裡著重「趕上並乘搭」。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-12": "請比較這個意思與句子中標示的用法。",
+        "catch-23": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1033,11 +993,9 @@ export default {
       "masked": "如果我們現在出發，仍然可以____。",
       "options": [
         "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-01",
+        "catch-03",
+        "catch-21"
       ],
       "explanation": "留意搭配：catch + transport （巴士／火車／飛機等）。這裡著重「趕上並乘搭」。",
       "sentenceIndex": 10,
@@ -1046,12 +1004,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-05": "本句搭配 catch + transport （巴士／火車／飛機等），應理解為「趕上並乘搭」。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch + transport （巴士／火車／飛機等） 的用法不同。"
+        "catch-05": "留意搭配：catch + transport （巴士／火車／飛機等）。這裡著重「趕上並乘搭」。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-03": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1062,11 +1018,9 @@ export default {
       "masked": "我想我____。",
       "options": [
         "catch-06",
-        "catch-05",
-        "catch-10",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-04",
+        "catch-17",
+        "catch-21"
       ],
       "explanation": "留意搭配：catch + illness/infection （疾病／感染）。這裡著重「染上；感染」。",
       "sentenceIndex": 11,
@@ -1075,12 +1029,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-06": "本句搭配 catch + illness/infection （疾病／感染），應理解為「染上；感染」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch + illness/infection （疾病／感染） 的用法不同。"
+        "catch-06": "留意搭配：catch + illness/infection （疾病／感染）。這裡著重「染上；感染」。",
+        "catch-04": "請比較這個意思與句子中標示的用法。",
+        "catch-17": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1091,11 +1043,9 @@ export default {
       "masked": "他從同事那裡____。",
       "options": [
         "catch-06",
-        "catch-05",
-        "catch-10",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-01",
+        "catch-22",
+        "catch-03"
       ],
       "explanation": "留意搭配：catch + illness/infection （疾病／感染）。這裡著重「染上；感染」。",
       "sentenceIndex": 12,
@@ -1104,12 +1054,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-06": "本句搭配 catch + illness/infection （疾病／感染），應理解為「染上；感染」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + illness/infection （疾病／感染） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch + illness/infection （疾病／感染） 的用法不同。"
+        "catch-06": "留意搭配：catch + illness/infection （疾病／感染）。這裡著重「染上；感染」。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-22": "請比較這個意思與句子中標示的用法。",
+        "catch-03": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1120,11 +1068,9 @@ export default {
       "masked": "老師____他作弊。",
       "options": [
         "catch-07",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-08",
+        "catch-12",
+        "catch-23"
       ],
       "explanation": "留意搭配：catch + person + doing something （某人正在做某事）。這裡著重「當場發現；撞見」。",
       "sentenceIndex": 13,
@@ -1133,12 +1079,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-07": "本句搭配 catch + person + doing something （某人正在做某事），應理解為「當場發現；撞見」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。"
+        "catch-07": "留意搭配：catch + person + doing something （某人正在做某事）。這裡著重「當場發現；撞見」。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-12": "請比較這個意思與句子中標示的用法。",
+        "catch-23": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1149,11 +1093,9 @@ export default {
       "masked": "我____弟弟正在吃我的朱古力。",
       "options": [
         "catch-07",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-14",
+        "catch-08",
+        "catch-16"
       ],
       "explanation": "留意搭配：catch + person + doing something （某人正在做某事）。這裡著重「當場發現；撞見」。",
       "sentenceIndex": 14,
@@ -1162,12 +1104,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-07": "本句搭配 catch + person + doing something （某人正在做某事），應理解為「當場發現；撞見」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + person + doing something （某人正在做某事） 的用法不同。"
+        "catch-07": "留意搭配：catch + person + doing something （某人正在做某事）。這裡著重「當場發現；撞見」。",
+        "catch-14": "請比較這個意思與句子中標示的用法。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1178,10 +1118,8 @@ export default {
       "masked": "他走進升降機時，我____。",
       "options": [
         "catch-08",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
+        "catch-07",
+        "catch-13",
         "catch-19"
       ],
       "explanation": "留意搭配：catch + brief sight/sound/words/detail （短暫看到／聽到的資訊）。這裡著重「捕捉到；聽到；看到」。",
@@ -1191,12 +1129,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-08": "本句搭配 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊），應理解為「捕捉到；聽到；看到」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。"
+        "catch-08": "留意搭配：catch + brief sight/sound/words/detail （短暫看到／聽到的資訊）。這裡著重「捕捉到；聽到；看到」。",
+        "catch-07": "請比較這個意思與句子中標示的用法。",
+        "catch-13": "請比較這個意思與句子中標示的用法。",
+        "catch-19": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1207,11 +1143,9 @@ export default {
       "masked": "我剛才____。",
       "options": [
         "catch-08",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-13",
+        "catch-19",
+        "catch-10"
       ],
       "explanation": "留意搭配：catch + brief sight/sound/words/detail （短暫看到／聽到的資訊）。這裡著重「捕捉到；聽到；看到」。",
       "sentenceIndex": 16,
@@ -1220,12 +1154,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-08": "本句搭配 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊），應理解為「捕捉到；聽到；看到」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + brief sight/sound/words/detail （短暫看到／聽到的資訊） 的用法不同。"
+        "catch-08": "留意搭配：catch + brief sight/sound/words/detail （短暫看到／聽到的資訊）。這裡著重「捕捉到；聽到；看到」。",
+        "catch-13": "請比較這個意思與句子中標示的用法。",
+        "catch-19": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1236,11 +1168,9 @@ export default {
       "masked": "不好意思，我剛才____。",
       "options": [
         "catch-09",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-21",
+        "catch-17",
+        "catch-07"
       ],
       "explanation": "留意搭配：catch + meaning/joke/reference （意思／笑話／暗示）。這裡著重「聽懂；領會」。",
       "sentenceIndex": 17,
@@ -1249,12 +1179,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-09": "本句搭配 catch + meaning/joke/reference （意思／笑話／暗示），應理解為「聽懂；領會」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。"
+        "catch-09": "留意搭配：catch + meaning/joke/reference （意思／笑話／暗示）。這裡著重「聽懂；領會」。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-17": "請比較這個意思與句子中標示的用法。",
+        "catch-07": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1265,11 +1193,9 @@ export default {
       "masked": "你有沒有____？",
       "options": [
         "catch-09",
-        "catch-05",
-        "catch-06",
         "catch-10",
         "catch-18",
-        "catch-19"
+        "catch-11"
       ],
       "explanation": "留意搭配：catch + meaning/joke/reference （意思／笑話／暗示）。這裡著重「聽懂；領會」。",
       "sentenceIndex": 18,
@@ -1278,12 +1204,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-09": "本句搭配 catch + meaning/joke/reference （意思／笑話／暗示），應理解為「聽懂；領會」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + meaning/joke/reference （意思／笑話／暗示） 的用法不同。"
+        "catch-09": "留意搭配：catch + meaning/joke/reference （意思／笑話／暗示）。這裡著重「聽懂；領會」。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-18": "請比較這個意思與句子中標示的用法。",
+        "catch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1294,11 +1218,9 @@ export default {
       "masked": "窗簾____。",
       "options": [
         "catch-10",
-        "catch-05",
         "catch-06",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-13",
+        "catch-04"
       ],
       "explanation": "留意搭配：catch + fire （物件開始燃燒）。這裡著重「著火；起火」。",
       "sentenceIndex": 19,
@@ -1307,12 +1229,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-10": "本句搭配 catch + fire （物件開始燃燒），應理解為「著火；起火」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch + fire （物件開始燃燒） 的用法不同。"
+        "catch-10": "留意搭配：catch + fire （物件開始燃燒）。這裡著重「著火；起火」。",
+        "catch-06": "請比較這個意思與句子中標示的用法。",
+        "catch-13": "請比較這個意思與句子中標示的用法。",
+        "catch-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1323,11 +1243,9 @@ export default {
       "masked": "乾草很容易____。",
       "options": [
         "catch-10",
-        "catch-05",
-        "catch-06",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-16",
+        "catch-08",
+        "catch-14"
       ],
       "explanation": "留意搭配：catch + fire （物件開始燃燒）。這裡著重「著火；起火」。",
       "sentenceIndex": 20,
@@ -1336,12 +1254,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-10": "本句搭配 catch + fire （物件開始燃燒），應理解為「著火；起火」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + fire （物件開始燃燒） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch + fire （物件開始燃燒） 的用法不同。"
+        "catch-10": "留意搭配：catch + fire （物件開始燃燒）。這裡著重「著火；起火」。",
+        "catch-16": "請比較這個意思與句子中標示的用法。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-14": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1352,11 +1268,9 @@ export default {
       "masked": "她的戒指____。",
       "options": [
         "catch-11",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-01",
+        "catch-21",
+        "catch-02"
       ],
       "explanation": "留意搭配：catch + light/sunlight （光線）。這裡著重「受到光線照射而反光／顯眼」。",
       "sentenceIndex": 21,
@@ -1365,12 +1279,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-11": "本句搭配 catch + light/sunlight （光線），應理解為「受到光線照射而反光／顯眼」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + light/sunlight （光線） 的用法不同。"
+        "catch-11": "留意搭配：catch + light/sunlight （光線）。這裡著重「受到光線照射而反光／顯眼」。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-02": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1381,11 +1293,9 @@ export default {
       "masked": "那座玻璃大樓____。",
       "options": [
         "catch-11",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-07",
+        "catch-04",
+        "catch-17"
       ],
       "explanation": "留意搭配：catch + light/sunlight （光線）。這裡著重「受到光線照射而反光／顯眼」。",
       "sentenceIndex": 22,
@@ -1394,12 +1304,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-11": "本句搭配 catch + light/sunlight （光線），應理解為「受到光線照射而反光／顯眼」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + light/sunlight （光線） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + light/sunlight （光線） 的用法不同。"
+        "catch-11": "留意搭配：catch + light/sunlight （光線）。這裡著重「受到光線照射而反光／顯眼」。",
+        "catch-07": "請比較這個意思與句子中標示的用法。",
+        "catch-04": "請比較這個意思與句子中標示的用法。",
+        "catch-17": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1410,11 +1318,9 @@ export default {
       "masked": "她的衣袖____。",
       "options": [
         "catch-12",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-08",
+        "catch-01",
+        "catch-11"
       ],
       "explanation": "留意搭配：catch + body part/clothing/object （身體／衣物／物件） on/in something。這裡著重「被勾住；卡住」。",
       "sentenceIndex": 23,
@@ -1423,12 +1329,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-12": "本句搭配 catch + body part/clothing/object （身體／衣物／物件） on/in something，應理解為「被勾住；卡住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。"
+        "catch-12": "留意搭配：catch + body part/clothing/object （身體／衣物／物件） on/in something。這裡著重「被勾住；卡住」。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1439,11 +1343,9 @@ export default {
       "masked": "我的袋子____。",
       "options": [
         "catch-12",
-        "catch-05",
+        "catch-08",
         "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-16"
       ],
       "explanation": "留意搭配：catch + body part/clothing/object （身體／衣物／物件） on/in something。這裡著重「被勾住；卡住」。",
       "sentenceIndex": 24,
@@ -1452,12 +1354,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-12": "本句搭配 catch + body part/clothing/object （身體／衣物／物件） on/in something，應理解為「被勾住；卡住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + body part/clothing/object （身體／衣物／物件） on/in something 的用法不同。"
+        "catch-12": "留意搭配：catch + body part/clothing/object （身體／衣物／物件） on/in something。這裡著重「被勾住；卡住」。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-06": "請比較這個意思與句子中標示的用法。",
+        "catch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1468,11 +1368,9 @@ export default {
       "masked": "她滑了一下，但我及時____。",
       "options": [
         "catch-13",
-        "catch-05",
-        "catch-06",
+        "catch-21",
         "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-04"
       ],
       "explanation": "留意搭配：catch + person before they fall （阻止某人跌倒）。這裡著重「扶住；接住」。",
       "sentenceIndex": 25,
@@ -1481,12 +1379,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-13": "本句搭配 catch + person before they fall （阻止某人跌倒），應理解為「扶住；接住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。"
+        "catch-13": "留意搭配：catch + person before they fall （阻止某人跌倒）。這裡著重「扶住；接住」。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1497,11 +1393,9 @@ export default {
       "masked": "小孩跌下樓梯前，他及時把她____。",
       "options": [
         "catch-13",
-        "catch-05",
-        "catch-06",
-        "catch-10",
+        "catch-20",
         "catch-18",
-        "catch-19"
+        "catch-08"
       ],
       "explanation": "留意搭配：catch + person before they fall （阻止某人跌倒）。這裡著重「扶住；接住」。",
       "sentenceIndex": 26,
@@ -1510,12 +1404,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-13": "本句搭配 catch + person before they fall （阻止某人跌倒），應理解為「扶住；接住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch + person before they fall （阻止某人跌倒） 的用法不同。"
+        "catch-13": "留意搭配：catch + person before they fall （阻止某人跌倒）。這裡著重「扶住；接住」。",
+        "catch-20": "請比較這個意思與句子中標示的用法。",
+        "catch-18": "請比較這個意思與句子中標示的用法。",
+        "catch-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1526,11 +1418,9 @@ export default {
       "masked": "那扇門一直____。",
       "options": [
         "catch-14",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-15",
+        "catch-21",
+        "catch-01"
       ],
       "explanation": "留意搭配：catch = become trapped by a mechanism/obstacle （機件／物件卡住）。這裡著重「卡住；咬住」。",
       "sentenceIndex": 27,
@@ -1539,12 +1429,10 @@ export default {
         "catching"
       ],
       "optionReasons": {
-        "catch-14": "本句搭配 catch = become trapped by a mechanism/obstacle （機件／物件卡住），應理解為「卡住；咬住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。"
+        "catch-14": "留意搭配：catch = become trapped by a mechanism/obstacle （機件／物件卡住）。這裡著重「卡住；咬住」。",
+        "catch-15": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1556,10 +1444,8 @@ export default {
       "options": [
         "catch-14",
         "catch-05",
-        "catch-06",
         "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-21"
       ],
       "explanation": "留意搭配：catch = become trapped by a mechanism/obstacle （機件／物件卡住）。這裡著重「卡住；咬住」。",
       "sentenceIndex": 28,
@@ -1568,12 +1454,10 @@ export default {
         "caught"
       ],
       "optionReasons": {
-        "catch-14": "本句搭配 catch = become trapped by a mechanism/obstacle （機件／物件卡住），應理解為「卡住；咬住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = become trapped by a mechanism/obstacle （機件／物件卡住） 的用法不同。"
+        "catch-14": "留意搭配：catch = become trapped by a mechanism/obstacle （機件／物件卡住）。這裡著重「卡住；咬住」。",
+        "catch-05": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1584,11 +1468,9 @@ export default {
       "masked": "你昨晚有沒有____？",
       "options": [
         "catch-15",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-14",
+        "catch-01",
+        "catch-21"
       ],
       "explanation": "留意搭配：catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動）。這裡著重「看到；趕上觀看」。",
       "sentenceIndex": 29,
@@ -1597,12 +1479,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-15": "本句搭配 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動），應理解為「看到；趕上觀看」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。"
+        "catch-15": "留意搭配：catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動）。這裡著重「看到；趕上觀看」。",
+        "catch-14": "請比較這個意思與句子中標示的用法。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1613,11 +1493,9 @@ export default {
       "masked": "展覽結束前，我想____。",
       "options": [
         "catch-15",
-        "catch-05",
-        "catch-06",
-        "catch-10",
         "catch-18",
-        "catch-19"
+        "catch-22",
+        "catch-16"
       ],
       "explanation": "留意搭配：catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動）。這裡著重「看到；趕上觀看」。",
       "sentenceIndex": 30,
@@ -1626,12 +1504,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-15": "本句搭配 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動），應理解為「看到；趕上觀看」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動） 的用法不同。"
+        "catch-15": "留意搭配：catch = manage to see/hear a programme/event （趕上觀看／收聽某節目或活動）。這裡著重「看到；趕上觀看」。",
+        "catch-18": "請比較這個意思與句子中標示的用法。",
+        "catch-22": "請比較這個意思與句子中標示的用法。",
+        "catch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1642,11 +1518,9 @@ export default {
       "masked": "漁民帶著大量____回來。",
       "options": [
         "catch-16",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-15",
+        "catch-21",
+        "catch-01"
       ],
       "explanation": "留意搭配：catch = amount of fish/animals caught （一次捕獲的魚／獵物）。這裡著重「捕獲量；漁獲」。",
       "sentenceIndex": 31,
@@ -1655,12 +1529,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-16": "本句搭配 catch = amount of fish/animals caught （一次捕獲的魚／獵物），應理解為「捕獲量；漁獲」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。"
+        "catch-16": "留意搭配：catch = amount of fish/animals caught （一次捕獲的魚／獵物）。這裡著重「捕獲量；漁獲」。",
+        "catch-15": "請比較這個意思與句子中標示的用法。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1671,11 +1543,9 @@ export default {
       "masked": "今天的____比昨天少。",
       "options": [
         "catch-16",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-01",
+        "catch-14",
+        "catch-23"
       ],
       "explanation": "留意搭配：catch = amount of fish/animals caught （一次捕獲的魚／獵物）。這裡著重「捕獲量；漁獲」。",
       "sentenceIndex": 32,
@@ -1684,12 +1554,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-16": "本句搭配 catch = amount of fish/animals caught （一次捕獲的魚／獵物），應理解為「捕獲量；漁獲」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = amount of fish/animals caught （一次捕獲的魚／獵物） 的用法不同。"
+        "catch-16": "留意搭配：catch = amount of fish/animals caught （一次捕獲的魚／獵物）。這裡著重「捕獲量；漁獲」。",
+        "catch-01": "請比較這個意思與句子中標示的用法。",
+        "catch-14": "請比較這個意思與句子中標示的用法。",
+        "catch-23": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1700,11 +1568,9 @@ export default {
       "masked": "那次____非常漂亮。",
       "options": [
         "catch-17",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-19",
+        "catch-23",
+        "catch-18"
       ],
       "explanation": "留意搭配：catch = successful act of catching something （成功接住物件的一次動作）。這裡著重「接球；接住」。",
       "sentenceIndex": 33,
@@ -1713,12 +1579,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-17": "本句搭配 catch = successful act of catching something （成功接住物件的一次動作），應理解為「接球；接住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。"
+        "catch-17": "留意搭配：catch = successful act of catching something （成功接住物件的一次動作）。這裡著重「接球；接住」。",
+        "catch-19": "請比較這個意思與句子中標示的用法。",
+        "catch-23": "請比較這個意思與句子中標示的用法。",
+        "catch-18": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1729,11 +1593,9 @@ export default {
       "masked": "他在邊界附近完成了一次很困難的____。",
       "options": [
         "catch-17",
-        "catch-05",
-        "catch-06",
+        "catch-21",
         "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-18"
       ],
       "explanation": "留意搭配：catch = successful act of catching something （成功接住物件的一次動作）。這裡著重「接球；接住」。",
       "sentenceIndex": 34,
@@ -1742,12 +1604,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-17": "本句搭配 catch = successful act of catching something （成功接住物件的一次動作），應理解為「接球；接住」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = successful act of catching something （成功接住物件的一次動作） 的用法不同。"
+        "catch-17": "留意搭配：catch = successful act of catching something （成功接住物件的一次動作）。這裡著重「接球；接住」。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-18": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1758,11 +1618,9 @@ export default {
       "masked": "這個單位很便宜。____",
       "options": [
         "catch-18",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-19",
-        "catch-20"
+        "catch-17",
+        "catch-23",
+        "catch-10"
       ],
       "explanation": "留意搭配：catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）。這裡著重「陷阱；隱藏條件」。",
       "sentenceIndex": 35,
@@ -1771,12 +1629,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-18": "本句搭配 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件），應理解為「陷阱；隱藏條件」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。"
+        "catch-18": "留意搭配：catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）。這裡著重「陷阱；隱藏條件」。",
+        "catch-17": "請比較這個意思與句子中標示的用法。",
+        "catch-23": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1787,11 +1643,9 @@ export default {
       "masked": "有一個____：你必須簽三年合約。",
       "options": [
         "catch-18",
-        "catch-05",
         "catch-06",
-        "catch-10",
-        "catch-19",
-        "catch-20"
+        "catch-12",
+        "catch-04"
       ],
       "explanation": "留意搭配：catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）。這裡著重「陷阱；隱藏條件」。",
       "sentenceIndex": 36,
@@ -1800,12 +1654,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-18": "本句搭配 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件），應理解為「陷阱；隱藏條件」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件） 的用法不同。"
+        "catch-18": "留意搭配：catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）。這裡著重「陷阱；隱藏條件」。",
+        "catch-06": "請比較這個意思與句子中標示的用法。",
+        "catch-12": "請比較這個意思與句子中標示的用法。",
+        "catch-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1816,11 +1668,9 @@ export default {
       "masked": "大家都覺得他是一個____。",
       "options": [
         "catch-19",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-20"
+        "catch-21",
+        "catch-04",
+        "catch-12"
       ],
       "explanation": "留意搭配：catch = desirable person, especially as a partner （條件很好、值得交往的對象）。這裡著重「理想對象」。",
       "sentenceIndex": 37,
@@ -1829,12 +1679,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-19": "本句搭配 catch = desirable person, especially as a partner （條件很好、值得交往的對象），應理解為「理想對象」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。"
+        "catch-19": "留意搭配：catch = desirable person, especially as a partner （條件很好、值得交往的對象）。這裡著重「理想對象」。",
+        "catch-21": "請比較這個意思與句子中標示的用法。",
+        "catch-04": "請比較這個意思與句子中標示的用法。",
+        "catch-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1845,11 +1693,9 @@ export default {
       "masked": "她聰明、善良又成功，確實是一位____。",
       "options": [
         "catch-19",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-20"
+        "catch-17",
+        "catch-16",
+        "catch-08"
       ],
       "explanation": "留意搭配：catch = desirable person, especially as a partner （條件很好、值得交往的對象）。這裡著重「理想對象」。",
       "sentenceIndex": 38,
@@ -1858,12 +1704,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-19": "本句搭配 catch = desirable person, especially as a partner （條件很好、值得交往的對象），應理解為「理想對象」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catch = desirable person, especially as a partner （條件很好、值得交往的對象） 的用法不同。"
+        "catch-19": "留意搭配：catch = desirable person, especially as a partner （條件很好、值得交往的對象）。這裡著重「理想對象」。",
+        "catch-17": "請比較這個意思與句子中標示的用法。",
+        "catch-16": "請比較這個意思與句子中標示的用法。",
+        "catch-08": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1874,11 +1718,9 @@ export default {
       "masked": "盒子的____壞了。",
       "options": [
         "catch-20",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-08",
+        "catch-02",
+        "catch-11"
       ],
       "explanation": "留意搭配：catch = fastening device （用來固定門／蓋子等的小型扣件）。這裡著重「扣；鎖扣」。",
       "sentenceIndex": 39,
@@ -1887,12 +1729,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-20": "本句搭配 catch = fastening device （用來固定門／蓋子等的小型扣件），應理解為「扣；鎖扣」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。"
+        "catch-20": "留意搭配：catch = fastening device （用來固定門／蓋子等的小型扣件）。這裡著重「扣；鎖扣」。",
+        "catch-08": "請比較這個意思與句子中標示的用法。",
+        "catch-02": "請比較這個意思與句子中標示的用法。",
+        "catch-11": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1903,11 +1743,9 @@ export default {
       "masked": "按下____便可以打開蓋子。",
       "options": [
         "catch-20",
-        "catch-05",
-        "catch-06",
         "catch-10",
         "catch-18",
-        "catch-19"
+        "catch-16"
       ],
       "explanation": "留意搭配：catch = fastening device （用來固定門／蓋子等的小型扣件）。這裡著重「扣；鎖扣」。",
       "sentenceIndex": 40,
@@ -1916,12 +1754,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-20": "本句搭配 catch = fastening device （用來固定門／蓋子等的小型扣件），應理解為「扣；鎖扣」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = fastening device （用來固定門／蓋子等的小型扣件） 的用法不同。"
+        "catch-20": "留意搭配：catch = fastening device （用來固定門／蓋子等的小型扣件）。這裡著重「扣；鎖扣」。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-18": "請比較這個意思與句子中標示的用法。",
+        "catch-16": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1932,11 +1768,9 @@ export default {
       "masked": "她的聲音有一點____。",
       "options": [
         "catch-21",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-02",
+        "catch-11",
+        "catch-20"
       ],
       "explanation": "留意搭配：catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓）。這裡著重「哽咽；呼吸一窒」。",
       "sentenceIndex": 41,
@@ -1945,12 +1779,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-21": "本句搭配 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓），應理解為「哽咽；呼吸一窒」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。"
+        "catch-21": "留意搭配：catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓）。這裡著重「哽咽；呼吸一窒」。",
+        "catch-02": "請比較這個意思與句子中標示的用法。",
+        "catch-11": "請比較這個意思與句子中標示的用法。",
+        "catch-20": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1961,11 +1793,9 @@ export default {
       "masked": "他說話時____。",
       "options": [
         "catch-21",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-11",
+        "catch-09",
+        "catch-12"
       ],
       "explanation": "留意搭配：catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓）。這裡著重「哽咽；呼吸一窒」。",
       "sentenceIndex": 42,
@@ -1974,12 +1804,10 @@ export default {
         "catch"
       ],
       "optionReasons": {
-        "catch-21": "本句搭配 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓），應理解為「哽咽；呼吸一窒」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓） 的用法不同。"
+        "catch-21": "留意搭配：catch = sudden pause/change in voice or breath （聲音／呼吸突然停頓）。這裡著重「哽咽；呼吸一窒」。",
+        "catch-11": "請比較這個意思與句子中標示的用法。",
+        "catch-09": "請比較這個意思與句子中標示的用法。",
+        "catch-12": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1990,11 +1818,9 @@ export default {
       "masked": "那則廣告使用了一首____歌曲。",
       "options": [
         "catch-22",
+        "catch-04",
         "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-09"
       ],
       "explanation": "留意搭配：catchy = song/slogan/name （歌曲／口號／名稱） easy to remember。這裡著重「容易記住、令人很快記入腦中的」。",
       "sentenceIndex": 43,
@@ -2003,12 +1829,10 @@ export default {
         "catchy"
       ],
       "optionReasons": {
-        "catch-22": "本句搭配 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember，應理解為「容易記住、令人很快記入腦中的」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。"
+        "catch-22": "留意搭配：catchy = song/slogan/name （歌曲／口號／名稱） easy to remember。這裡著重「容易記住、令人很快記入腦中的」。",
+        "catch-04": "請比較這個意思與句子中標示的用法。",
+        "catch-05": "請比較這個意思與句子中標示的用法。",
+        "catch-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -2019,11 +1843,9 @@ export default {
       "masked": "他們需要一個____宣傳口號。",
       "options": [
         "catch-22",
-        "catch-05",
-        "catch-06",
-        "catch-10",
-        "catch-18",
-        "catch-19"
+        "catch-07",
+        "catch-15",
+        "catch-20"
       ],
       "explanation": "留意搭配：catchy = song/slogan/name （歌曲／口號／名稱） easy to remember。這裡著重「容易記住、令人很快記入腦中的」。",
       "sentenceIndex": 44,
@@ -2032,12 +1854,10 @@ export default {
         "catchy"
       ],
       "optionReasons": {
-        "catch-22": "本句搭配 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember，應理解為「容易記住、令人很快記入腦中的」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-06": "「染上；感染」適用於 catch + illness/infection （疾病／感染）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catchy = song/slogan/name （歌曲／口號／名稱） easy to remember 的用法不同。"
+        "catch-22": "留意搭配：catchy = song/slogan/name （歌曲／口號／名稱） easy to remember。這裡著重「容易記住、令人很快記入腦中的」。",
+        "catch-07": "請比較這個意思與句子中標示的用法。",
+        "catch-15": "請比較這個意思與句子中標示的用法。",
+        "catch-20": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -2048,11 +1868,9 @@ export default {
       "masked": "她的笑聲____。",
       "options": [
         "catch-23",
-        "catch-05",
+        "catch-12",
         "catch-10",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-18"
       ],
       "explanation": "留意搭配：catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others。這裡著重「容易傳染／感染他人的」。",
       "sentenceIndex": 45,
@@ -2061,12 +1879,10 @@ export default {
         "catching"
       ],
       "optionReasons": {
-        "catch-23": "本句搭配 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others，應理解為「容易傳染／感染他人的」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。"
+        "catch-23": "留意搭配：catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others。這裡著重「容易傳染／感染他人的」。",
+        "catch-12": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-18": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -2077,11 +1893,9 @@ export default {
       "masked": "這種疾病____。",
       "options": [
         "catch-23",
-        "catch-05",
+        "catch-13",
         "catch-10",
-        "catch-18",
-        "catch-19",
-        "catch-20"
+        "catch-09"
       ],
       "explanation": "留意搭配：catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others。這裡著重「容易傳染／感染他人的」。",
       "sentenceIndex": 46,
@@ -2090,12 +1904,10 @@ export default {
         "catching"
       ],
       "optionReasons": {
-        "catch-23": "本句搭配 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others，應理解為「容易傳染／感染他人的」。",
-        "catch-05": "「趕上並乘搭」適用於 catch + transport （巴士／火車／飛機等）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-10": "「著火；起火」適用於 catch + fire （物件開始燃燒）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-18": "「陷阱；隱藏條件」適用於 catch = hidden disadvantage/condition （表面看來很好但暗藏的不利條件）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-19": "「理想對象」適用於 catch = desirable person, especially as a partner （條件很好、值得交往的對象）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。",
-        "catch-20": "「扣；鎖扣」適用於 catch = fastening device （用來固定門／蓋子等的小型扣件）；與本句 catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others 的用法不同。"
+        "catch-23": "留意搭配：catching = illness/feeling/behaviour （疾病／情緒／行為） easily spreading to others。這裡著重「容易傳染／感染他人的」。",
+        "catch-13": "請比較這個意思與句子中標示的用法。",
+        "catch-10": "請比較這個意思與句子中標示的用法。",
+        "catch-09": "請比較這個意思與句子中標示的用法。"
       }
     }
   ],
@@ -2103,5 +1915,7 @@ export default {
     "file": "Polysemy exercise_catch_(6).pdf",
     "sha256": "2f2b2580d717f43c208f6df930de19cce86c28aa9f26863b869b05c35f43c2ee",
     "path": "manuals/catch.pdf"
-  }
+  },
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

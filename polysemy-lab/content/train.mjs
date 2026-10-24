@@ -585,11 +585,9 @@ export default {
       "masked": "一列____、一間繁忙的咖啡店，以及一個嘈吵的辦公室",
       "options": [
         "train-01",
-        "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-16",
+        "train-15",
+        "train-04"
       ],
       "explanation": "留意搭配：train = railway vehicle/service （鐵路交通工具／列車）。這裡著重「火車；列車」。",
       "sentenceIndex": 0,
@@ -598,12 +596,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-01": "本句搭配 train = railway vehicle/service （鐵路交通工具／列車），應理解為「火車；列車」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。"
+        "train-01": "留意搭配：train = railway vehicle/service （鐵路交通工具／列車）。這裡著重「火車；列車」。",
+        "train-16": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -614,11 +610,9 @@ export default {
       "masked": "這班____七時三十分開出。",
       "options": [
         "train-01",
-        "train-02",
+        "train-14",
         "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-02"
       ],
       "explanation": "留意搭配：train = railway vehicle/service （鐵路交通工具／列車）。這裡著重「火車；列車」。",
       "sentenceIndex": 1,
@@ -627,12 +621,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-01": "本句搭配 train = railway vehicle/service （鐵路交通工具／列車），應理解為「火車；列車」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。"
+        "train-01": "留意搭配：train = railway vehicle/service （鐵路交通工具／列車）。這裡著重「火車；列車」。",
+        "train-14": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -643,11 +635,9 @@ export default {
       "masked": "我通常乘____上班。",
       "options": [
         "train-01",
-        "train-02",
-        "train-04",
-        "train-09",
+        "train-16",
         "train-10",
-        "train-15"
+        "train-02"
       ],
       "explanation": "留意搭配：train = railway vehicle/service （鐵路交通工具／列車）。這裡著重「火車；列車」。",
       "sentenceIndex": 2,
@@ -656,12 +646,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-01": "本句搭配 train = railway vehicle/service （鐵路交通工具／列車），應理解為「火車；列車」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = railway vehicle/service （鐵路交通工具／列車） 的用法不同。"
+        "train-01": "留意搭配：train = railway vehicle/service （鐵路交通工具／列車）。這裡著重「火車；列車」。",
+        "train-16": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -672,11 +660,9 @@ export default {
       "masked": "我完全打斷了自己的____。",
       "options": [
         "train-02",
-        "train-04",
+        "train-07",
         "train-09",
-        "train-10",
-        "train-15",
-        "train-01"
+        "train-04"
       ],
       "explanation": "留意搭配：train of + thoughts/events/actions （思想／事件／行動）。這裡著重「一連串互相關聯、接連發生的事物」。",
       "sentenceIndex": 3,
@@ -685,12 +671,10 @@ export default {
         "train of thought"
       ],
       "optionReasons": {
-        "train-02": "本句搭配 train of + thoughts/events/actions （思想／事件／行動），應理解為「一連串互相關聯、接連發生的事物」。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。"
+        "train-02": "留意搭配：train of + thoughts/events/actions （思想／事件／行動）。這裡著重「一連串互相關聯、接連發生的事物」。",
+        "train-07": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -701,11 +685,9 @@ export default {
       "masked": "那項宣布引發了____，最終改變了公司。",
       "options": [
         "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-15",
-        "train-01"
+        "train-13",
+        "train-01",
+        "train-04"
       ],
       "explanation": "留意搭配：train of + thoughts/events/actions （思想／事件／行動）。這裡著重「一連串互相關聯、接連發生的事物」。",
       "sentenceIndex": 4,
@@ -714,12 +696,10 @@ export default {
         "train of events"
       ],
       "optionReasons": {
-        "train-02": "本句搭配 train of + thoughts/events/actions （思想／事件／行動），應理解為「一連串互相關聯、接連發生的事物」。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train of + thoughts/events/actions （思想／事件／行動） 的用法不同。"
+        "train-02": "留意搭配：train of + thoughts/events/actions （思想／事件／行動）。這裡著重「一連串互相關聯、接連發生的事物」。",
+        "train-13": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -730,11 +710,9 @@ export default {
       "masked": "一條長長的____穿過沙漠。",
       "options": [
         "train-03",
-        "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-08",
+        "train-15",
+        "train-04"
       ],
       "explanation": "留意搭配：train = line/procession of people, animals, or vehicles （隊伍／行列）。這裡著重「接連排列前進的一隊」。",
       "sentenceIndex": 5,
@@ -743,12 +721,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-03": "本句搭配 train = line/procession of people, animals, or vehicles （隊伍／行列），應理解為「接連排列前進的一隊」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。"
+        "train-03": "留意搭配：train = line/procession of people, animals, or vehicles （隊伍／行列）。這裡著重「接連排列前進的一隊」。",
+        "train-08": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -759,10 +735,8 @@ export default {
       "masked": "一列____跟在車隊後面。",
       "options": [
         "train-03",
-        "train-02",
-        "train-04",
+        "train-13",
         "train-09",
-        "train-10",
         "train-15"
       ],
       "explanation": "留意搭配：train = line/procession of people, animals, or vehicles （隊伍／行列）。這裡著重「接連排列前進的一隊」。",
@@ -772,12 +746,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-03": "本句搭配 train = line/procession of people, animals, or vehicles （隊伍／行列），應理解為「接連排列前進的一隊」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = line/procession of people, animals, or vehicles （隊伍／行列） 的用法不同。"
+        "train-03": "留意搭配：train = line/procession of people, animals, or vehicles （隊伍／行列）。這裡著重「接連排列前進的一隊」。",
+        "train-13": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -788,11 +760,9 @@ export default {
       "masked": "新娘的婚紗有一條很長的____。",
       "options": [
         "train-04",
-        "train-02",
-        "train-09",
-        "train-10",
-        "train-15",
-        "train-01"
+        "train-14",
+        "train-01",
+        "train-15"
       ],
       "explanation": "留意搭配：train = trailing part of a formal dress （禮服後方拖地部分）。這裡著重「裙拖；拖尾」。",
       "sentenceIndex": 7,
@@ -801,12 +771,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-04": "本句搭配 train = trailing part of a formal dress （禮服後方拖地部分），應理解為「裙拖；拖尾」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。"
+        "train-04": "留意搭配：train = trailing part of a formal dress （禮服後方拖地部分）。這裡著重「裙拖；拖尾」。",
+        "train-14": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -817,11 +785,9 @@ export default {
       "masked": "一名助手替她提著禮服後方的____。",
       "options": [
         "train-04",
+        "train-14",
         "train-02",
-        "train-09",
-        "train-10",
-        "train-15",
-        "train-01"
+        "train-10"
       ],
       "explanation": "留意搭配：train = trailing part of a formal dress （禮服後方拖地部分）。這裡著重「裙拖；拖尾」。",
       "sentenceIndex": 8,
@@ -830,12 +796,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-04": "本句搭配 train = trailing part of a formal dress （禮服後方拖地部分），應理解為「裙拖；拖尾」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train = trailing part of a formal dress （禮服後方拖地部分） 的用法不同。"
+        "train-04": "留意搭配：train = trailing part of a formal dress （禮服後方拖地部分）。這裡著重「裙拖；拖尾」。",
+        "train-14": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -846,10 +810,8 @@ export default {
       "masked": "公司會在新員工正式工作前____。",
       "options": [
         "train-05",
-        "train-02",
+        "train-03",
         "train-04",
-        "train-09",
-        "train-10",
         "train-15"
       ],
       "explanation": "留意搭配：train + person （技能／工作）。這裡著重「訓練某人，使其掌握所需技能」。",
@@ -859,12 +821,10 @@ export default {
         "trains"
       ],
       "optionReasons": {
-        "train-05": "本句搭配 train + person （技能／工作），應理解為「訓練某人，使其掌握所需技能」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + person （技能／工作） 的用法不同。"
+        "train-05": "留意搭配：train + person （技能／工作）。這裡著重「訓練某人，使其掌握所需技能」。",
+        "train-03": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -875,11 +835,9 @@ export default {
       "masked": "她接受過____。",
       "options": [
         "train-05",
-        "train-02",
-        "train-04",
-        "train-09",
+        "train-01",
         "train-10",
-        "train-15"
+        "train-09"
       ],
       "explanation": "留意搭配：train + person （技能／工作）。這裡著重「訓練某人，使其掌握所需技能」。",
       "sentenceIndex": 10,
@@ -888,12 +846,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-05": "本句搭配 train + person （技能／工作），應理解為「訓練某人，使其掌握所需技能」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + person （技能／工作） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + person （技能／工作） 的用法不同。"
+        "train-05": "留意搭配：train + person （技能／工作）。這裡著重「訓練某人，使其掌握所需技能」。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -904,11 +860,9 @@ export default {
       "masked": "她正在____。",
       "options": [
         "train-06",
-        "train-02",
         "train-04",
-        "train-09",
         "train-10",
-        "train-15"
+        "train-01"
       ],
       "explanation": "留意搭配：train for + activity/event/job （活動／比賽／職業）。這裡著重「接受訓練或反覆練習，為某目標作準備」。",
       "sentenceIndex": 11,
@@ -917,12 +871,10 @@ export default {
         "training for"
       ],
       "optionReasons": {
-        "train-06": "本句搭配 train for + activity/event/job （活動／比賽／職業），應理解為「接受訓練或反覆練習，為某目標作準備」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。"
+        "train-06": "留意搭配：train for + activity/event/job （活動／比賽／職業）。這裡著重「接受訓練或反覆練習，為某目標作準備」。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -933,10 +885,8 @@ export default {
       "masked": "他接受了幾年的____。",
       "options": [
         "train-06",
-        "train-02",
-        "train-04",
-        "train-09",
         "train-10",
+        "train-01",
         "train-15"
       ],
       "explanation": "留意搭配：train for + activity/event/job （活動／比賽／職業）。這裡著重「接受訓練或反覆練習，為某目標作準備」。",
@@ -946,12 +896,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-06": "本句搭配 train for + activity/event/job （活動／比賽／職業），應理解為「接受訓練或反覆練習，為某目標作準備」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train for + activity/event/job （活動／比賽／職業） 的用法不同。"
+        "train-06": "留意搭配：train for + activity/event/job （活動／比賽／職業）。這裡著重「接受訓練或反覆練習，為某目標作準備」。",
+        "train-10": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -962,11 +910,9 @@ export default {
       "masked": "你可以透過持續練習____。",
       "options": [
         "train-07",
-        "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-15",
+        "train-01",
+        "train-10"
       ],
       "explanation": "留意搭配：train + body/skill （身體／能力）。這裡著重「透過反覆練習使能力變強或更熟練」。",
       "sentenceIndex": 13,
@@ -975,12 +921,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-07": "本句搭配 train + body/skill （身體／能力），應理解為「透過反覆練習使能力變強或更熟練」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + body/skill （身體／能力） 的用法不同。"
+        "train-07": "留意搭配：train + body/skill （身體／能力）。這裡著重「透過反覆練習使能力變強或更熟練」。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -992,9 +936,7 @@ export default {
       "options": [
         "train-07",
         "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
+        "train-01",
         "train-15"
       ],
       "explanation": "留意搭配：train + body/skill （身體／能力）。這裡著重「透過反覆練習使能力變強或更熟練」。",
@@ -1004,12 +946,10 @@ export default {
         "train"
       ],
       "optionReasons": {
-        "train-07": "本句搭配 train + body/skill （身體／能力），應理解為「透過反覆練習使能力變強或更熟練」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + body/skill （身體／能力） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + body/skill （身體／能力） 的用法不同。"
+        "train-07": "留意搭配：train + body/skill （身體／能力）。這裡著重「透過反覆練習使能力變強或更熟練」。",
+        "train-02": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1020,11 +960,9 @@ export default {
       "masked": "這隻狗經過____。",
       "options": [
         "train-08",
+        "train-01",
         "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-09"
       ],
       "explanation": "留意搭配：train + person/animal + to do something （人／動物 + 行為）。這裡著重「訓練其形成特定行為或習慣」。",
       "sentenceIndex": 15,
@@ -1033,12 +971,10 @@ export default {
         "trained to"
       ],
       "optionReasons": {
-        "train-08": "本句搭配 train + person/animal + to do something （人／動物 + 行為），應理解為「訓練其形成特定行為或習慣」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。"
+        "train-08": "留意搭配：train + person/animal + to do something （人／動物 + 行為）。這裡著重「訓練其形成特定行為或習慣」。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1049,11 +985,9 @@ export default {
       "masked": "員工接受____。",
       "options": [
         "train-08",
-        "train-02",
         "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-15",
+        "train-09"
       ],
       "explanation": "留意搭配：train + person/animal + to do something （人／動物 + 行為）。這裡著重「訓練其形成特定行為或習慣」。",
       "sentenceIndex": 16,
@@ -1062,12 +996,10 @@ export default {
         "trained to"
       ],
       "optionReasons": {
-        "train-08": "本句搭配 train + person/animal + to do something （人／動物 + 行為），應理解為「訓練其形成特定行為或習慣」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + person/animal + to do something （人／動物 + 行為） 的用法不同。"
+        "train-08": "留意搭配：train + person/animal + to do something （人／動物 + 行為）。這裡著重「訓練其形成特定行為或習慣」。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1078,10 +1010,8 @@ export default {
       "masked": "攝影師把鏡頭____。",
       "options": [
         "train-09",
+        "train-08",
         "train-02",
-        "train-04",
-        "train-10",
-        "train-15",
         "train-01"
       ],
       "explanation": "留意搭配：train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）。這裡著重「把 …… 對準某個目標」。",
@@ -1091,12 +1021,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-09": "本句搭配 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標），應理解為「把 …… 對準某個目標」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。"
+        "train-09": "留意搭配：train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）。這裡著重「把 …… 對準某個目標」。",
+        "train-08": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1107,11 +1035,9 @@ export default {
       "masked": "望遠鏡被____。",
       "options": [
         "train-09",
-        "train-02",
-        "train-04",
-        "train-10",
         "train-15",
-        "train-01"
+        "train-04",
+        "train-13"
       ],
       "explanation": "留意搭配：train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）。這裡著重「把 …… 對準某個目標」。",
       "sentenceIndex": 18,
@@ -1120,12 +1046,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-09": "本句搭配 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標），應理解為「把 …… 對準某個目標」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標） 的用法不同。"
+        "train-09": "留意搭配：train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）。這裡著重「把 …… 對準某個目標」。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-13": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1136,11 +1060,9 @@ export default {
       "masked": "他們把玫瑰____。",
       "options": [
         "train-10",
-        "train-02",
-        "train-04",
-        "train-09",
+        "train-12",
         "train-15",
-        "train-01"
+        "train-04"
       ],
       "explanation": "留意搭配：train + plant （植物）。這裡著重「引導植物沿特定方向或支架生長」。",
       "sentenceIndex": 19,
@@ -1149,12 +1071,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-10": "本句搭配 train + plant （植物），應理解為「引導植物沿特定方向或支架生長」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + plant （植物） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + plant （植物） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + plant （植物） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + plant （植物） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train + plant （植物） 的用法不同。"
+        "train-10": "留意搭配：train + plant （植物）。這裡著重「引導植物沿特定方向或支架生長」。",
+        "train-12": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1165,10 +1085,8 @@ export default {
       "masked": "這種藤蔓可以被____。",
       "options": [
         "train-10",
-        "train-02",
-        "train-04",
+        "train-16",
         "train-09",
-        "train-15",
         "train-01"
       ],
       "explanation": "留意搭配：train + plant （植物）。這裡著重「引導植物沿特定方向或支架生長」。",
@@ -1178,12 +1096,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-10": "本句搭配 train + plant （植物），應理解為「引導植物沿特定方向或支架生長」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 train + plant （植物） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 train + plant （植物） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 train + plant （植物） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 train + plant （植物） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 train + plant （植物） 的用法不同。"
+        "train-10": "留意搭配：train + plant （植物）。這裡著重「引導植物沿特定方向或支架生長」。",
+        "train-16": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1194,10 +1110,8 @@ export default {
       "masked": "所有員工都會接受____。",
       "options": [
         "train-11",
-        "train-02",
-        "train-04",
+        "train-03",
         "train-09",
-        "train-10",
         "train-15"
       ],
       "explanation": "留意搭配：training = process of learning/practising skills （技能培訓／訓練過程）。這裡著重「訓練；培訓」。",
@@ -1207,12 +1121,10 @@ export default {
         "training"
       ],
       "optionReasons": {
-        "train-11": "本句搭配 training = process of learning/practising skills （技能培訓／訓練過程），應理解為「訓練；培訓」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。"
+        "train-11": "留意搭配：training = process of learning/practising skills （技能培訓／訓練過程）。這裡著重「訓練；培訓」。",
+        "train-03": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1223,10 +1135,8 @@ export default {
       "masked": "這份工作需要接受數星期的____。",
       "options": [
         "train-11",
+        "train-01",
         "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
         "train-15"
       ],
       "explanation": "留意搭配：training = process of learning/practising skills （技能培訓／訓練過程）。這裡著重「訓練；培訓」。",
@@ -1236,12 +1146,10 @@ export default {
         "training"
       ],
       "optionReasons": {
-        "train-11": "本句搭配 training = process of learning/practising skills （技能培訓／訓練過程），應理解為「訓練；培訓」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 training = process of learning/practising skills （技能培訓／訓練過程） 的用法不同。"
+        "train-11": "留意搭配：training = process of learning/practising skills （技能培訓／訓練過程）。這裡著重「訓練；培訓」。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1252,11 +1160,9 @@ export default {
       "masked": "運動員每天早上六時開始____。",
       "options": [
         "train-12",
-        "train-02",
         "train-04",
         "train-09",
-        "train-10",
-        "train-15"
+        "train-01"
       ],
       "explanation": "留意搭配：training = physical preparation （體能訓練）。這裡著重「體能訓練；操練」。",
       "sentenceIndex": 23,
@@ -1265,12 +1171,10 @@ export default {
         "training"
       ],
       "optionReasons": {
-        "train-12": "本句搭配 training = physical preparation （體能訓練），應理解為「體能訓練；操練」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 training = physical preparation （體能訓練） 的用法不同。"
+        "train-12": "留意搭配：training = physical preparation （體能訓練）。這裡著重「體能訓練；操練」。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1281,11 +1185,9 @@ export default {
       "masked": "傷癒後，他重新開始____。",
       "options": [
         "train-12",
-        "train-02",
+        "train-03",
         "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-10"
       ],
       "explanation": "留意搭配：training = physical preparation （體能訓練）。這裡著重「體能訓練；操練」。",
       "sentenceIndex": 24,
@@ -1294,12 +1196,10 @@ export default {
         "training"
       ],
       "optionReasons": {
-        "train-12": "本句搭配 training = physical preparation （體能訓練），應理解為「體能訓練；操練」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 training = physical preparation （體能訓練） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 training = physical preparation （體能訓練） 的用法不同。"
+        "train-12": "留意搭配：training = physical preparation （體能訓練）。這裡著重「體能訓練；操練」。",
+        "train-03": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1310,11 +1210,9 @@ export default {
       "masked": "只有____才應使用這部機器。",
       "options": [
         "train-13",
-        "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-03",
+        "train-15",
+        "train-10"
       ],
       "explanation": "留意搭配：trained = person with learned professional skill （受過專業訓練的人）。這裡著重「經過訓練的；具專業技能的」。",
       "sentenceIndex": 25,
@@ -1323,12 +1221,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-13": "本句搭配 trained = person with learned professional skill （受過專業訓練的人），應理解為「經過訓練的；具專業技能的」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。"
+        "train-13": "留意搭配：trained = person with learned professional skill （受過專業訓練的人）。這裡著重「經過訓練的；具專業技能的」。",
+        "train-03": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1339,11 +1235,9 @@ export default {
       "masked": "她是一名____。",
       "options": [
         "train-13",
-        "train-02",
-        "train-04",
-        "train-09",
         "train-10",
-        "train-15"
+        "train-02",
+        "train-01"
       ],
       "explanation": "留意搭配：trained = person with learned professional skill （受過專業訓練的人）。這裡著重「經過訓練的；具專業技能的」。",
       "sentenceIndex": 26,
@@ -1352,12 +1246,10 @@ export default {
         "trained"
       ],
       "optionReasons": {
-        "train-13": "本句搭配 trained = person with learned professional skill （受過專業訓練的人），應理解為「經過訓練的；具專業技能的」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 trained = person with learned professional skill （受過專業訓練的人） 的用法不同。"
+        "train-13": "留意搭配：trained = person with learned professional skill （受過專業訓練的人）。這裡著重「經過訓練的；具專業技能的」。",
+        "train-10": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1368,10 +1260,8 @@ export default {
       "masked": "公司聘請了一名新的銷售____。",
       "options": [
         "train-14",
-        "train-02",
-        "train-04",
         "train-09",
-        "train-10",
+        "train-01",
         "train-15"
       ],
       "explanation": "留意搭配：trainer = person who teaches/coaches （教練／培訓人員）。這裡著重「訓練者；教練；培訓師」。",
@@ -1381,12 +1271,10 @@ export default {
         "trainer"
       ],
       "optionReasons": {
-        "train-14": "本句搭配 trainer = person who teaches/coaches （教練／培訓人員），應理解為「訓練者；教練；培訓師」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。"
+        "train-14": "留意搭配：trainer = person who teaches/coaches （教練／培訓人員）。這裡著重「訓練者；教練；培訓師」。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1397,11 +1285,9 @@ export default {
       "masked": "我的健身____設計了一套新的運動計劃。",
       "options": [
         "train-14",
-        "train-02",
-        "train-04",
         "train-09",
-        "train-10",
-        "train-15"
+        "train-15",
+        "train-01"
       ],
       "explanation": "留意搭配：trainer = person who teaches/coaches （教練／培訓人員）。這裡著重「訓練者；教練；培訓師」。",
       "sentenceIndex": 28,
@@ -1410,12 +1296,10 @@ export default {
         "trainer"
       ],
       "optionReasons": {
-        "train-14": "本句搭配 trainer = person who teaches/coaches （教練／培訓人員），應理解為「訓練者；教練；培訓師」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 trainer = person who teaches/coaches （教練／培訓人員） 的用法不同。"
+        "train-14": "留意搭配：trainer = person who teaches/coaches （教練／培訓人員）。這裡著重「訓練者；教練；培訓師」。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1426,11 +1310,9 @@ export default {
       "masked": "我買了一雙新的____。",
       "options": [
         "train-15",
-        "train-02",
-        "train-04",
-        "train-09",
-        "train-10",
-        "train-01"
+        "train-08",
+        "train-01",
+        "train-04"
       ],
       "explanation": "留意搭配：trainer = sports shoe （英式英語）。這裡著重「運動鞋」。",
       "sentenceIndex": 29,
@@ -1439,12 +1321,10 @@ export default {
         "trainers"
       ],
       "optionReasons": {
-        "train-15": "本句搭配 trainer = sports shoe （英式英語），應理解為「運動鞋」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 trainer = sports shoe （英式英語） 的用法不同。"
+        "train-15": "留意搭配：trainer = sports shoe （英式英語）。這裡著重「運動鞋」。",
+        "train-08": "請比較這個意思與句子中標示的用法。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1455,11 +1335,9 @@ export default {
       "masked": "這次步行你需要穿一雙舒適的____。",
       "options": [
         "train-15",
-        "train-02",
-        "train-04",
+        "train-08",
         "train-09",
-        "train-10",
-        "train-01"
+        "train-03"
       ],
       "explanation": "留意搭配：trainer = sports shoe （英式英語）。這裡著重「運動鞋」。",
       "sentenceIndex": 30,
@@ -1468,12 +1346,10 @@ export default {
         "trainers"
       ],
       "optionReasons": {
-        "train-15": "本句搭配 trainer = sports shoe （英式英語），應理解為「運動鞋」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trainer = sports shoe （英式英語） 的用法不同。",
-        "train-01": "「火車；列車」適用於 train = railway vehicle/service （鐵路交通工具／列車）；與本句 trainer = sports shoe （英式英語） 的用法不同。"
+        "train-15": "留意搭配：trainer = sports shoe （英式英語）。這裡著重「運動鞋」。",
+        "train-08": "請比較這個意思與句子中標示的用法。",
+        "train-09": "請比較這個意思與句子中標示的用法。",
+        "train-03": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1484,11 +1360,9 @@ export default {
       "masked": "公司招聘了十名新的____。",
       "options": [
         "train-16",
-        "train-02",
+        "train-01",
         "train-04",
-        "train-09",
-        "train-10",
-        "train-15"
+        "train-02"
       ],
       "explanation": "留意搭配：trainee = person learning a job/skill （正在受訓的人）。這裡著重「實習／受訓人員」。",
       "sentenceIndex": 31,
@@ -1497,12 +1371,10 @@ export default {
         "trainees"
       ],
       "optionReasons": {
-        "train-16": "本句搭配 trainee = person learning a job/skill （正在受訓的人），應理解為「實習／受訓人員」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。"
+        "train-16": "留意搭配：trainee = person learning a job/skill （正在受訓的人）。這裡著重「實習／受訓人員」。",
+        "train-01": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。",
+        "train-02": "請比較這個意思與句子中標示的用法。"
       }
     },
     {
@@ -1513,11 +1385,9 @@ export default {
       "masked": "每名____都會與一位有經驗的主管合作。",
       "options": [
         "train-16",
-        "train-02",
-        "train-04",
-        "train-09",
+        "train-15",
         "train-10",
-        "train-15"
+        "train-04"
       ],
       "explanation": "留意搭配：trainee = person learning a job/skill （正在受訓的人）。這裡著重「實習／受訓人員」。",
       "sentenceIndex": 32,
@@ -1526,12 +1396,10 @@ export default {
         "trainee"
       ],
       "optionReasons": {
-        "train-16": "本句搭配 trainee = person learning a job/skill （正在受訓的人），應理解為「實習／受訓人員」。",
-        "train-02": "「一連串互相關聯、接連發生的事物」適用於 train of + thoughts/events/actions （思想／事件／行動）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-04": "「裙拖；拖尾」適用於 train = trailing part of a formal dress （禮服後方拖地部分）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-09": "「把 …… 對準某個目標」適用於 train + camera/weapon/device + on target （鏡頭／武器／裝置 + 目標）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-10": "「引導植物沿特定方向或支架生長」適用於 train + plant （植物）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。",
-        "train-15": "「運動鞋」適用於 trainer = sports shoe （英式英語）；與本句 trainee = person learning a job/skill （正在受訓的人） 的用法不同。"
+        "train-16": "留意搭配：trainee = person learning a job/skill （正在受訓的人）。這裡著重「實習／受訓人員」。",
+        "train-15": "請比較這個意思與句子中標示的用法。",
+        "train-10": "請比較這個意思與句子中標示的用法。",
+        "train-04": "請比較這個意思與句子中標示的用法。"
       }
     }
   ],
@@ -1539,5 +1407,7 @@ export default {
     "file": "Polysemy exercise_Train_(3).pdf",
     "sha256": "dad5cdaabd37c4f5f20c63e098590c65fca28af0b5c3c62719dd29060aebb956",
     "path": "manuals/train.pdf"
-  }
+  },
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

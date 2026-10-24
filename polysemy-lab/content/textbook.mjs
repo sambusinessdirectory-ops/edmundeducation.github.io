@@ -108,9 +108,7 @@ export default {
       "masked": "Old tram routes can tell you more about a city than a history ____.",
       "options": [
         "textbook-mcq-01",
-        "textbook-mcq-02",
-        "textbook-mcq-03",
-        "textbook-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「textbook」指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
       "sentenceIndex": 0,
@@ -119,10 +117,8 @@ export default {
         "textbook"
       ],
       "optionReasons": {
-        "textbook-mcq-01": "本句指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。"
+        "textbook-mcq-01": "本句的「textbook」指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-01"
     },
@@ -134,9 +130,7 @@ export default {
       "masked": "Students must bring their science ____ to class.",
       "options": [
         "textbook-mcq-01",
-        "textbook-mcq-02",
-        "textbook-mcq-03",
-        "textbook-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「textbooks」指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
       "sentenceIndex": 1,
@@ -145,10 +139,8 @@ export default {
         "textbooks"
       ],
       "optionReasons": {
-        "textbook-mcq-01": "本句指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。"
+        "textbook-mcq-01": "本句的「textbooks」指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-01"
     },
@@ -160,9 +152,7 @@ export default {
       "masked": "The course uses a new economics ____.",
       "options": [
         "textbook-mcq-01",
-        "textbook-mcq-02",
-        "textbook-mcq-03",
-        "textbook-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「textbook」指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
       "sentenceIndex": 2,
@@ -171,10 +161,8 @@ export default {
         "textbook"
       ],
       "optionReasons": {
-        "textbook-mcq-01": "本句指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。"
+        "textbook-mcq-01": "本句的「textbook」指「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-01"
     },
@@ -186,8 +174,6 @@ export default {
       "masked": "This is a ____ of poor planning.",
       "options": [
         "textbook-mcq-02",
-        "textbook-mcq-01",
-        "textbook-mcq-03",
         "textbook-mcq-04"
       ],
       "explanation": "本句的「textbook example」指「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」。",
@@ -197,10 +183,8 @@ export default {
         "textbook example"
       ],
       "optionReasons": {
-        "textbook-mcq-02": "本句指「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」。",
-        "textbook-mcq-01": "「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」是「textbook — educational book」的用法，與本句語境不同。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。"
+        "textbook-mcq-02": "本句的「textbook example」指「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」。",
+        "textbook-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-02"
     },
@@ -212,8 +196,6 @@ export default {
       "masked": "The patient showed ____ of the condition.",
       "options": [
         "textbook-mcq-02",
-        "textbook-mcq-01",
-        "textbook-mcq-03",
         "textbook-mcq-04"
       ],
       "explanation": "本句的「textbook symptoms」指「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」。",
@@ -223,10 +205,8 @@ export default {
         "textbook symptoms"
       ],
       "optionReasons": {
-        "textbook-mcq-02": "本句指「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」。",
-        "textbook-mcq-01": "「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」是「textbook — educational book」的用法，與本句語境不同。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。"
+        "textbook-mcq-02": "本句的「textbook symptoms」指「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」。",
+        "textbook-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-02"
     },
@@ -238,9 +218,7 @@ export default {
       "masked": "The goalkeeper made a ____.",
       "options": [
         "textbook-mcq-03",
-        "textbook-mcq-02",
-        "textbook-mcq-04",
-        "textbook-mcq-01"
+        "textbook-mcq-04"
       ],
       "explanation": "本句的「textbook save」指「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」。",
       "sentenceIndex": 5,
@@ -249,10 +227,8 @@ export default {
         "textbook save"
       ],
       "optionReasons": {
-        "textbook-mcq-03": "本句指「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。",
-        "textbook-mcq-01": "「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」是「textbook — educational book」的用法，與本句語境不同。"
+        "textbook-mcq-03": "本句的「textbook save」指「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」。",
+        "textbook-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-03"
     },
@@ -264,9 +240,7 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "textbook-mcq-03",
-        "textbook-mcq-02",
-        "textbook-mcq-04",
-        "textbook-mcq-01"
+        "textbook-mcq-04"
       ],
       "explanation": "本句的「textbook landing」指「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」。",
       "sentenceIndex": 6,
@@ -275,10 +249,8 @@ export default {
         "textbook landing"
       ],
       "optionReasons": {
-        "textbook-mcq-03": "本句指「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-04": "「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」是「textbook-like」的用法，與本句語境不同。",
-        "textbook-mcq-01": "「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」是「textbook — educational book」的用法，與本句語境不同。"
+        "textbook-mcq-03": "本句的「textbook landing」指「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」。",
+        "textbook-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-03"
     },
@@ -290,9 +262,7 @@ export default {
       "masked": "The explanation was clear but slightly ____.",
       "options": [
         "textbook-mcq-04",
-        "textbook-mcq-03",
-        "textbook-mcq-02",
-        "textbook-mcq-01"
+        "textbook-mcq-02"
       ],
       "explanation": "本句的「textbook-like」指「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」。",
       "sentenceIndex": 7,
@@ -301,10 +271,8 @@ export default {
         "textbook-like"
       ],
       "optionReasons": {
-        "textbook-mcq-04": "本句指「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-01": "「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」是「textbook — educational book」的用法，與本句語境不同。"
+        "textbook-mcq-04": "本句的「textbook-like」指「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」。",
+        "textbook-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-04"
     },
@@ -316,9 +284,7 @@ export default {
       "masked": "Her answer sounded too ____ for a casual conversation.",
       "options": [
         "textbook-mcq-04",
-        "textbook-mcq-03",
-        "textbook-mcq-02",
-        "textbook-mcq-01"
+        "textbook-mcq-03"
       ],
       "explanation": "本句的「textbook-like」指「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」。",
       "sentenceIndex": 8,
@@ -327,10 +293,8 @@ export default {
         "textbook-like"
       ],
       "optionReasons": {
-        "textbook-mcq-04": "本句指「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」。",
-        "textbook-mcq-03": "「做法完全符合正規教學或專業標準，可視為示範範例；屬於「典型／標準」義的同一核心概念」是「textbook + performance/action」的用法，與本句語境不同。",
-        "textbook-mcq-02": "「非常典型、標準或符合既定模式，幾乎可以直接作為教學示範例子的」是「textbook + example/case/etc.」的用法，與本句語境不同。",
-        "textbook-mcq-01": "「專門按照某個學科的教學內容編寫、供學生系統學習該科目的教材書」是「textbook — educational book」的用法，與本句語境不同。"
+        "textbook-mcq-04": "本句的「textbook-like」指「在風格、內容或結構上像教科書，通常較正式、系統化或略顯生硬的」。",
+        "textbook-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "textbook-mcq-04"
     }
@@ -342,5 +306,12 @@ export default {
     "sha256": "632a3027a76365966fb9056298d02f3524bfb194badd0a1e39082102bf8f0e19",
     "pages": 7
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

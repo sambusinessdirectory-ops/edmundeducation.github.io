@@ -627,11 +627,9 @@ export default {
       "masked": "He suddenly ____ and fell to the floor.",
       "options": [
         "collapse-mcq-01",
-        "collapse-mcq-02",
-        "collapse-mcq-03",
-        "collapse-mcq-04",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-09",
+        "collapse-mcq-16",
+        "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsed」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
       "sentenceIndex": 0,
@@ -640,12 +638,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-01": "本句指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-01": "本句的「collapsed」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
+        "collapse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-01"
     },
@@ -657,11 +653,9 @@ export default {
       "masked": "She ____ after working all night.",
       "options": [
         "collapse-mcq-01",
-        "collapse-mcq-02",
-        "collapse-mcq-03",
-        "collapse-mcq-04",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-23",
+        "collapse-mcq-16",
+        "collapse-mcq-19"
       ],
       "explanation": "本句的「collapsed from exhaustion」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
       "sentenceIndex": 1,
@@ -670,12 +664,10 @@ export default {
         "collapsed from exhaustion"
       ],
       "optionReasons": {
-        "collapse-mcq-01": "本句指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-01": "本句的「collapsed from exhaustion」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
+        "collapse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-01"
     },
@@ -687,11 +679,9 @@ export default {
       "masked": "The runner ____ near the finish line.",
       "options": [
         "collapse-mcq-01",
-        "collapse-mcq-02",
-        "collapse-mcq-03",
-        "collapse-mcq-04",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-19",
+        "collapse-mcq-13",
+        "collapse-mcq-16"
       ],
       "explanation": "本句的「collapsed」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
       "sentenceIndex": 2,
@@ -700,12 +690,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-01": "本句指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-01": "本句的「collapsed」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-01"
     },
@@ -717,11 +705,9 @@ export default {
       "masked": "He ____ shortly after arriving home.",
       "options": [
         "collapse-mcq-01",
-        "collapse-mcq-02",
-        "collapse-mcq-03",
-        "collapse-mcq-04",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-19",
+        "collapse-mcq-16",
+        "collapse-mcq-09"
       ],
       "explanation": "本句的「collapsed」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
       "sentenceIndex": 3,
@@ -730,12 +716,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-01": "本句指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-01": "本句的「collapsed」指「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-01"
     },
@@ -747,11 +731,9 @@ export default {
       "masked": "She nearly ____.",
       "options": [
         "collapse-mcq-02",
-        "collapse-mcq-01",
-        "collapse-mcq-03",
-        "collapse-mcq-04",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-13",
+        "collapse-mcq-17",
+        "collapse-mcq-10"
       ],
       "explanation": "本句的「collapsed from exhaustion」指「因極度疲勞、炎熱等而身體支撐不住並倒下」。",
       "sentenceIndex": 4,
@@ -760,12 +742,10 @@ export default {
         "collapsed from exhaustion"
       ],
       "optionReasons": {
-        "collapse-mcq-02": "本句指「因極度疲勞、炎熱等而身體支撐不住並倒下」。",
-        "collapse-mcq-01": "「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-02": "本句的「collapsed from exhaustion」指「因極度疲勞、炎熱等而身體支撐不住並倒下」。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-02"
     },
@@ -777,11 +757,9 @@ export default {
       "masked": "One participant ____.",
       "options": [
         "collapse-mcq-02",
-        "collapse-mcq-01",
-        "collapse-mcq-03",
-        "collapse-mcq-04",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-20",
+        "collapse-mcq-19",
+        "collapse-mcq-13"
       ],
       "explanation": "本句的「collapsed from the heat」指「因極度疲勞、炎熱等而身體支撐不住並倒下」。",
       "sentenceIndex": 5,
@@ -790,12 +768,10 @@ export default {
         "collapsed from the heat"
       ],
       "optionReasons": {
-        "collapse-mcq-02": "本句指「因極度疲勞、炎熱等而身體支撐不住並倒下」。",
-        "collapse-mcq-01": "「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-02": "本句的「collapsed from the heat」指「因極度疲勞、炎熱等而身體支撐不住並倒下」。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-02"
     },
@@ -807,11 +783,9 @@ export default {
       "masked": "He ____ after the long journey.",
       "options": [
         "collapse-mcq-03",
-        "collapse-mcq-02",
-        "collapse-mcq-04",
-        "collapse-mcq-01",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-11",
+        "collapse-mcq-22",
+        "collapse-mcq-25"
       ],
       "explanation": "本句的「collapsed into a chair」指「因疲累等而一下子癱坐／倒在椅子或床上」。",
       "sentenceIndex": 6,
@@ -820,12 +794,10 @@ export default {
         "collapsed into a chair"
       ],
       "optionReasons": {
-        "collapse-mcq-03": "本句指「因疲累等而一下子癱坐／倒在椅子或床上」。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-01": "「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-03": "本句的「collapsed into a chair」指「因疲累等而一下子癱坐／倒在椅子或床上」。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-03"
     },
@@ -837,11 +809,9 @@ export default {
       "masked": "She got home and ____.",
       "options": [
         "collapse-mcq-03",
-        "collapse-mcq-02",
-        "collapse-mcq-04",
-        "collapse-mcq-01",
-        "collapse-mcq-05",
-        "collapse-mcq-06"
+        "collapse-mcq-13",
+        "collapse-mcq-15",
+        "collapse-mcq-25"
       ],
       "explanation": "本句的「collapsed onto the bed」指「因疲累等而一下子癱坐／倒在椅子或床上」。",
       "sentenceIndex": 7,
@@ -850,12 +820,10 @@ export default {
         "collapsed onto the bed"
       ],
       "optionReasons": {
-        "collapse-mcq-03": "本句指「因疲累等而一下子癱坐／倒在椅子或床上」。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-01": "「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-03": "本句的「collapsed onto the bed」指「因疲累等而一下子癱坐／倒在椅子或床上」。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-03"
     },
@@ -867,11 +835,9 @@ export default {
       "masked": "The roof ____ during the storm.",
       "options": [
         "collapse-mcq-04",
-        "collapse-mcq-03",
-        "collapse-mcq-05",
-        "collapse-mcq-02",
-        "collapse-mcq-06",
-        "collapse-mcq-01"
+        "collapse-mcq-15",
+        "collapse-mcq-20",
+        "collapse-mcq-23"
       ],
       "explanation": "本句的「collapsed」指「建築、屋頂、橋等失去支撐而倒塌／坍塌」。",
       "sentenceIndex": 8,
@@ -880,12 +846,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-04": "本句指「建築、屋頂、橋等失去支撐而倒塌／坍塌」。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-01": "「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」與本句語境不同。"
+        "collapse-mcq-04": "本句的「collapsed」指「建築、屋頂、橋等失去支撐而倒塌／坍塌」。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-04"
     },
@@ -897,11 +861,9 @@ export default {
       "masked": "Part of the bridge ____.",
       "options": [
         "collapse-mcq-04",
-        "collapse-mcq-03",
-        "collapse-mcq-05",
-        "collapse-mcq-02",
-        "collapse-mcq-06",
-        "collapse-mcq-01"
+        "collapse-mcq-19",
+        "collapse-mcq-16",
+        "collapse-mcq-10"
       ],
       "explanation": "本句的「collapsed」指「建築、屋頂、橋等失去支撐而倒塌／坍塌」。",
       "sentenceIndex": 9,
@@ -910,12 +872,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-04": "本句指「建築、屋頂、橋等失去支撐而倒塌／坍塌」。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-01": "「因疾病、虛弱、受傷、疲勞等突然倒下／癱倒」與本句語境不同。"
+        "collapse-mcq-04": "本句的「collapsed」指「建築、屋頂、橋等失去支撐而倒塌／坍塌」。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-04"
     },
@@ -927,11 +887,9 @@ export default {
       "masked": "The shelf ____ of the books.",
       "options": [
         "collapse-mcq-05",
-        "collapse-mcq-04",
-        "collapse-mcq-06",
-        "collapse-mcq-03",
+        "collapse-mcq-16",
         "collapse-mcq-07",
-        "collapse-mcq-02"
+        "collapse-mcq-12"
       ],
       "explanation": "本句的「collapsed under the weight」指「因無法承受重量或壓力而塌下」。",
       "sentenceIndex": 10,
@@ -940,12 +898,10 @@ export default {
         "collapsed under the weight"
       ],
       "optionReasons": {
-        "collapse-mcq-05": "本句指「因無法承受重量或壓力而塌下」。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。"
+        "collapse-mcq-05": "本句的「collapsed under the weight」指「因無法承受重量或壓力而塌下」。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-05"
     },
@@ -957,11 +913,9 @@ export default {
       "masked": "The structure ____.",
       "options": [
         "collapse-mcq-05",
-        "collapse-mcq-04",
-        "collapse-mcq-06",
-        "collapse-mcq-03",
-        "collapse-mcq-07",
-        "collapse-mcq-02"
+        "collapse-mcq-18",
+        "collapse-mcq-15",
+        "collapse-mcq-20"
       ],
       "explanation": "本句的「collapsed under pressure」指「因無法承受重量或壓力而塌下」。",
       "sentenceIndex": 11,
@@ -970,12 +924,10 @@ export default {
         "collapsed under pressure"
       ],
       "optionReasons": {
-        "collapse-mcq-05": "本句指「因無法承受重量或壓力而塌下」。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-02": "「因極度疲勞、炎熱等而身體支撐不住並倒下」與本句語境不同。"
+        "collapse-mcq-05": "本句的「collapsed under pressure」指「因無法承受重量或壓力而塌下」。",
+        "collapse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-05"
     },
@@ -987,11 +939,9 @@ export default {
       "masked": "Investigators examined the cause of the building’s ____.",
       "options": [
         "collapse-mcq-06",
-        "collapse-mcq-05",
-        "collapse-mcq-07",
-        "collapse-mcq-04",
-        "collapse-mcq-08",
-        "collapse-mcq-03"
+        "collapse-mcq-26",
+        "collapse-mcq-18",
+        "collapse-mcq-12"
       ],
       "explanation": "本句的「collapse」指「建築或結構突然倒塌／坍塌」。",
       "sentenceIndex": 12,
@@ -1000,12 +950,10 @@ export default {
         "collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-06": "本句指「建築或結構突然倒塌／坍塌」。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。"
+        "collapse-mcq-06": "本句的「collapse」指「建築或結構突然倒塌／坍塌」。",
+        "collapse-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-06"
     },
@@ -1017,11 +965,9 @@ export default {
       "masked": "The bridge ____ blocked the road.",
       "options": [
         "collapse-mcq-06",
-        "collapse-mcq-05",
-        "collapse-mcq-07",
-        "collapse-mcq-04",
-        "collapse-mcq-08",
-        "collapse-mcq-03"
+        "collapse-mcq-14",
+        "collapse-mcq-20",
+        "collapse-mcq-17"
       ],
       "explanation": "本句的「collapse」指「建築或結構突然倒塌／坍塌」。",
       "sentenceIndex": 13,
@@ -1030,12 +976,10 @@ export default {
         "collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-06": "本句指「建築或結構突然倒塌／坍塌」。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-03": "「因疲累等而一下子癱坐／倒在椅子或床上」與本句語境不同。"
+        "collapse-mcq-06": "本句的「collapse」指「建築或結構突然倒塌／坍塌」。",
+        "collapse-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-06"
     },
@@ -1047,11 +991,9 @@ export default {
       "masked": "The entire system ____.",
       "options": [
         "collapse-mcq-07",
-        "collapse-mcq-06",
-        "collapse-mcq-08",
-        "collapse-mcq-05",
-        "collapse-mcq-09",
-        "collapse-mcq-04"
+        "collapse-mcq-17",
+        "collapse-mcq-24",
+        "collapse-mcq-05"
       ],
       "explanation": "本句的「collapsed」指「系統、組織等完全失效、崩潰或瓦解」。",
       "sentenceIndex": 14,
@@ -1060,12 +1002,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-07": "本句指「系統、組織等完全失效、崩潰或瓦解」。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-07": "本句的「collapsed」指「系統、組織等完全失效、崩潰或瓦解」。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-07"
     },
@@ -1077,11 +1017,9 @@ export default {
       "masked": "The organization ____ after losing its funding.",
       "options": [
         "collapse-mcq-07",
-        "collapse-mcq-06",
-        "collapse-mcq-08",
-        "collapse-mcq-05",
-        "collapse-mcq-09",
-        "collapse-mcq-04"
+        "collapse-mcq-17",
+        "collapse-mcq-19",
+        "collapse-mcq-22"
       ],
       "explanation": "本句的「collapsed」指「系統、組織等完全失效、崩潰或瓦解」。",
       "sentenceIndex": 15,
@@ -1090,12 +1028,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-07": "本句指「系統、組織等完全失效、崩潰或瓦解」。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-07": "本句的「collapsed」指「系統、組織等完全失效、崩潰或瓦解」。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-07"
     },
@@ -1107,11 +1043,9 @@ export default {
       "masked": "The war caused the ____.",
       "options": [
         "collapse-mcq-07",
-        "collapse-mcq-06",
-        "collapse-mcq-08",
-        "collapse-mcq-05",
-        "collapse-mcq-09",
-        "collapse-mcq-04"
+        "collapse-mcq-16",
+        "collapse-mcq-19",
+        "collapse-mcq-05"
       ],
       "explanation": "本句的「collapse of public services」指「系統、組織等完全失效、崩潰或瓦解」。",
       "sentenceIndex": 16,
@@ -1120,12 +1054,10 @@ export default {
         "collapse of public services"
       ],
       "optionReasons": {
-        "collapse-mcq-07": "本句指「系統、組織等完全失效、崩潰或瓦解」。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-07": "本句的「collapse of public services」指「系統、組織等完全失效、崩潰或瓦解」。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-07"
     },
@@ -1138,10 +1070,8 @@ export default {
       "options": [
         "collapse-mcq-07",
         "collapse-mcq-06",
-        "collapse-mcq-08",
-        "collapse-mcq-05",
-        "collapse-mcq-09",
-        "collapse-mcq-04"
+        "collapse-mcq-19",
+        "collapse-mcq-17"
       ],
       "explanation": "本句的「collapse」指「系統、組織等完全失效、崩潰或瓦解」。",
       "sentenceIndex": 17,
@@ -1150,12 +1080,10 @@ export default {
         "collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-07": "本句指「系統、組織等完全失效、崩潰或瓦解」。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-04": "「建築、屋頂、橋等失去支撐而倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-07": "本句的「collapse」指「系統、組織等完全失效、崩潰或瓦解」。",
+        "collapse-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-07"
     },
@@ -1167,11 +1095,9 @@ export default {
       "masked": "Several businesses ____ during the downturn.",
       "options": [
         "collapse-mcq-08",
-        "collapse-mcq-07",
-        "collapse-mcq-09",
-        "collapse-mcq-06",
-        "collapse-mcq-10",
-        "collapse-mcq-05"
+        "collapse-mcq-20",
+        "collapse-mcq-11",
+        "collapse-mcq-22"
       ],
       "explanation": "本句的「collapsed」指「公司因財務等問題而倒閉／垮台」。",
       "sentenceIndex": 18,
@@ -1180,12 +1106,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-08": "本句指「公司因財務等問題而倒閉／垮台」。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。"
+        "collapse-mcq-08": "本句的「collapsed」指「公司因財務等問題而倒閉／垮台」。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-08"
     },
@@ -1197,11 +1121,9 @@ export default {
       "masked": "The firm ____ under heavy debt.",
       "options": [
         "collapse-mcq-08",
-        "collapse-mcq-07",
-        "collapse-mcq-09",
-        "collapse-mcq-06",
-        "collapse-mcq-10",
-        "collapse-mcq-05"
+        "collapse-mcq-16",
+        "collapse-mcq-11",
+        "collapse-mcq-15"
       ],
       "explanation": "本句的「collapsed」指「公司因財務等問題而倒閉／垮台」。",
       "sentenceIndex": 19,
@@ -1210,12 +1132,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-08": "本句指「公司因財務等問題而倒閉／垮台」。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-05": "「因無法承受重量或壓力而塌下」與本句語境不同。"
+        "collapse-mcq-08": "本句的「collapsed」指「公司因財務等問題而倒閉／垮台」。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-08"
     },
@@ -1227,11 +1147,9 @@ export default {
       "masked": "The country faced ____.",
       "options": [
         "collapse-mcq-09",
-        "collapse-mcq-08",
-        "collapse-mcq-10",
-        "collapse-mcq-07",
-        "collapse-mcq-11",
-        "collapse-mcq-06"
+        "collapse-mcq-16",
+        "collapse-mcq-23",
+        "collapse-mcq-01"
       ],
       "explanation": "本句的「economic collapse」指「經濟體系嚴重失效；經濟崩潰」。",
       "sentenceIndex": 20,
@@ -1240,12 +1158,10 @@ export default {
         "economic collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-09": "本句指「經濟體系嚴重失效；經濟崩潰」。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-09": "本句的「economic collapse」指「經濟體系嚴重失效；經濟崩潰」。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-09"
     },
@@ -1257,11 +1173,9 @@ export default {
       "masked": "Years of instability led to the ____.",
       "options": [
         "collapse-mcq-09",
-        "collapse-mcq-08",
-        "collapse-mcq-10",
-        "collapse-mcq-07",
-        "collapse-mcq-11",
-        "collapse-mcq-06"
+        "collapse-mcq-23",
+        "collapse-mcq-16",
+        "collapse-mcq-01"
       ],
       "explanation": "本句的「collapse of the economy」指「經濟體系嚴重失效；經濟崩潰」。",
       "sentenceIndex": 21,
@@ -1270,12 +1184,10 @@ export default {
         "collapse of the economy"
       ],
       "optionReasons": {
-        "collapse-mcq-09": "本句指「經濟體系嚴重失效；經濟崩潰」。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-06": "「建築或結構突然倒塌／坍塌」與本句語境不同。"
+        "collapse-mcq-09": "本句的「collapse of the economy」指「經濟體系嚴重失效；經濟崩潰」。",
+        "collapse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-09"
     },
@@ -1287,11 +1199,9 @@ export default {
       "masked": "Investors feared a ____.",
       "options": [
         "collapse-mcq-10",
-        "collapse-mcq-09",
-        "collapse-mcq-11",
-        "collapse-mcq-08",
-        "collapse-mcq-12",
-        "collapse-mcq-07"
+        "collapse-mcq-21",
+        "collapse-mcq-19",
+        "collapse-mcq-04"
       ],
       "explanation": "本句的「market collapse」指「市場或價格突然大幅下跌；崩盤／暴跌」。",
       "sentenceIndex": 24,
@@ -1300,12 +1210,10 @@ export default {
         "market collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-10": "本句指「市場或價格突然大幅下跌；崩盤／暴跌」。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。"
+        "collapse-mcq-10": "本句的「market collapse」指「市場或價格突然大幅下跌；崩盤／暴跌」。",
+        "collapse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-10"
     },
@@ -1317,11 +1225,9 @@ export default {
       "masked": "A sudden ____ hurt producers.",
       "options": [
         "collapse-mcq-10",
-        "collapse-mcq-09",
-        "collapse-mcq-11",
-        "collapse-mcq-08",
-        "collapse-mcq-12",
-        "collapse-mcq-07"
+        "collapse-mcq-13",
+        "collapse-mcq-25",
+        "collapse-mcq-24"
       ],
       "explanation": "本句的「price collapse」指「市場或價格突然大幅下跌；崩盤／暴跌」。",
       "sentenceIndex": 25,
@@ -1330,12 +1236,10 @@ export default {
         "price collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-10": "本句指「市場或價格突然大幅下跌；崩盤／暴跌」。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-07": "「系統、組織等完全失效、崩潰或瓦解」與本句語境不同。"
+        "collapse-mcq-10": "本句的「price collapse」指「市場或價格突然大幅下跌；崩盤／暴跌」。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-10"
     },
@@ -1347,11 +1251,9 @@ export default {
       "masked": "The negotiations ____ after several days.",
       "options": [
         "collapse-mcq-11",
-        "collapse-mcq-10",
-        "collapse-mcq-12",
-        "collapse-mcq-09",
-        "collapse-mcq-13",
-        "collapse-mcq-08"
+        "collapse-mcq-21",
+        "collapse-mcq-03",
+        "collapse-mcq-06"
       ],
       "explanation": "本句的「collapsed」指「談判完全失敗並停止；談判破裂」。",
       "sentenceIndex": 26,
@@ -1360,12 +1262,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-11": "本句指「談判完全失敗並停止；談判破裂」。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。"
+        "collapse-mcq-11": "本句的「collapsed」指「談判完全失敗並停止；談判破裂」。",
+        "collapse-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-11"
     },
@@ -1377,11 +1277,9 @@ export default {
       "masked": "Peace talks ____ without an agreement.",
       "options": [
         "collapse-mcq-11",
-        "collapse-mcq-10",
-        "collapse-mcq-12",
-        "collapse-mcq-09",
-        "collapse-mcq-13",
-        "collapse-mcq-08"
+        "collapse-mcq-19",
+        "collapse-mcq-16",
+        "collapse-mcq-05"
       ],
       "explanation": "本句的「collapsed」指「談判完全失敗並停止；談判破裂」。",
       "sentenceIndex": 27,
@@ -1390,12 +1288,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-11": "本句指「談判完全失敗並停止；談判破裂」。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-08": "「公司因財務等問題而倒閉／垮台」與本句語境不同。"
+        "collapse-mcq-11": "本句的「collapsed」指「談判完全失敗並停止；談判破裂」。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-11"
     },
@@ -1407,11 +1303,9 @@ export default {
       "masked": "The deal ____ at the last minute.",
       "options": [
         "collapse-mcq-12",
-        "collapse-mcq-11",
-        "collapse-mcq-13",
-        "collapse-mcq-10",
+        "collapse-mcq-22",
         "collapse-mcq-14",
-        "collapse-mcq-09"
+        "collapse-mcq-17"
       ],
       "explanation": "本句的「collapsed」指「交易、協議等失敗告吹」。",
       "sentenceIndex": 28,
@@ -1420,12 +1314,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-12": "本句指「交易、協議等失敗告吹」。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。"
+        "collapse-mcq-12": "本句的「collapsed」指「交易、協議等失敗告吹」。",
+        "collapse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-12"
     },
@@ -1437,11 +1329,9 @@ export default {
       "masked": "Their agreement ____ over money.",
       "options": [
         "collapse-mcq-12",
-        "collapse-mcq-11",
-        "collapse-mcq-13",
-        "collapse-mcq-10",
-        "collapse-mcq-14",
-        "collapse-mcq-09"
+        "collapse-mcq-05",
+        "collapse-mcq-15",
+        "collapse-mcq-17"
       ],
       "explanation": "本句的「collapsed」指「交易、協議等失敗告吹」。",
       "sentenceIndex": 29,
@@ -1450,12 +1340,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-12": "本句指「交易、協議等失敗告吹」。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-09": "「經濟體系嚴重失效；經濟崩潰」與本句語境不同。"
+        "collapse-mcq-12": "本句的「collapsed」指「交易、協議等失敗告吹」。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-12"
     },
@@ -1467,11 +1355,9 @@ export default {
       "masked": "The government ____ after losing support.",
       "options": [
         "collapse-mcq-13",
-        "collapse-mcq-12",
-        "collapse-mcq-14",
-        "collapse-mcq-11",
-        "collapse-mcq-15",
-        "collapse-mcq-10"
+        "collapse-mcq-19",
+        "collapse-mcq-17",
+        "collapse-mcq-24"
       ],
       "explanation": "本句的「collapsed」指「政府／政權失去運作能力而垮台／瓦解」。",
       "sentenceIndex": 30,
@@ -1480,12 +1366,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-13": "本句指「政府／政權失去運作能力而垮台／瓦解」。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。"
+        "collapse-mcq-13": "本句的「collapsed」指「政府／政權失去運作能力而垮台／瓦解」。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-13"
     },
@@ -1497,11 +1381,9 @@ export default {
       "masked": "The old regime eventually ____.",
       "options": [
         "collapse-mcq-13",
-        "collapse-mcq-12",
-        "collapse-mcq-14",
-        "collapse-mcq-11",
-        "collapse-mcq-15",
-        "collapse-mcq-10"
+        "collapse-mcq-25",
+        "collapse-mcq-24",
+        "collapse-mcq-15"
       ],
       "explanation": "本句的「collapsed」指「政府／政權失去運作能力而垮台／瓦解」。",
       "sentenceIndex": 31,
@@ -1510,12 +1392,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-13": "本句指「政府／政權失去運作能力而垮台／瓦解」。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-10": "「市場或價格突然大幅下跌；崩盤／暴跌」與本句語境不同。"
+        "collapse-mcq-13": "本句的「collapsed」指「政府／政權失去運作能力而垮台／瓦解」。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-13"
     },
@@ -1527,11 +1407,9 @@ export default {
       "masked": "After months of pressure, he finally ____.",
       "options": [
         "collapse-mcq-14",
-        "collapse-mcq-13",
-        "collapse-mcq-15",
-        "collapse-mcq-12",
-        "collapse-mcq-16",
-        "collapse-mcq-11"
+        "collapse-mcq-11",
+        "collapse-mcq-17",
+        "collapse-mcq-23"
       ],
       "explanation": "本句的「collapsed emotionally」指「因壓力或情緒無法承受而崩潰」。",
       "sentenceIndex": 32,
@@ -1540,12 +1418,10 @@ export default {
         "collapsed emotionally"
       ],
       "optionReasons": {
-        "collapse-mcq-14": "本句指「因壓力或情緒無法承受而崩潰」。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。"
+        "collapse-mcq-14": "本句的「collapsed emotionally」指「因壓力或情緒無法承受而崩潰」。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-14"
     },
@@ -1557,10 +1433,8 @@ export default {
       "masked": "She almost ____.",
       "options": [
         "collapse-mcq-14",
-        "collapse-mcq-13",
-        "collapse-mcq-15",
-        "collapse-mcq-12",
-        "collapse-mcq-16",
+        "collapse-mcq-19",
+        "collapse-mcq-04",
         "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsed under the stress」指「因壓力或情緒無法承受而崩潰」。",
@@ -1570,12 +1444,10 @@ export default {
         "collapsed under the stress"
       ],
       "optionReasons": {
-        "collapse-mcq-14": "本句指「因壓力或情緒無法承受而崩潰」。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-11": "「談判完全失敗並停止；談判破裂」與本句語境不同。"
+        "collapse-mcq-14": "本句的「collapsed under the stress」指「因壓力或情緒無法承受而崩潰」。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-14"
     },
@@ -1587,11 +1459,9 @@ export default {
       "masked": "She ____ after hearing the news.",
       "options": [
         "collapse-mcq-15",
-        "collapse-mcq-14",
-        "collapse-mcq-16",
-        "collapse-mcq-13",
-        "collapse-mcq-17",
-        "collapse-mcq-12"
+        "collapse-mcq-12",
+        "collapse-mcq-24",
+        "collapse-mcq-13"
       ],
       "explanation": "本句的「collapsed in tears」指「突然情緒崩潰並大哭」。",
       "sentenceIndex": 34,
@@ -1600,12 +1470,10 @@ export default {
         "collapsed in tears"
       ],
       "optionReasons": {
-        "collapse-mcq-15": "本句指「突然情緒崩潰並大哭」。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。"
+        "collapse-mcq-15": "本句的「collapsed in tears」指「突然情緒崩潰並大哭」。",
+        "collapse-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-15"
     },
@@ -1617,11 +1485,9 @@ export default {
       "masked": "He ____ when the pressure became too much.",
       "options": [
         "collapse-mcq-15",
-        "collapse-mcq-14",
-        "collapse-mcq-16",
-        "collapse-mcq-13",
         "collapse-mcq-17",
-        "collapse-mcq-12"
+        "collapse-mcq-22",
+        "collapse-mcq-24"
       ],
       "explanation": "本句的「collapsed in tears」指「突然情緒崩潰並大哭」。",
       "sentenceIndex": 35,
@@ -1630,12 +1496,10 @@ export default {
         "collapsed in tears"
       ],
       "optionReasons": {
-        "collapse-mcq-15": "本句指「突然情緒崩潰並大哭」。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-12": "「交易、協議等失敗告吹」與本句語境不同。"
+        "collapse-mcq-15": "本句的「collapsed in tears」指「突然情緒崩潰並大哭」。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-15"
     },
@@ -1647,11 +1511,9 @@ export default {
       "masked": "The table ____ for easy storage.",
       "options": [
         "collapse-mcq-16",
-        "collapse-mcq-15",
-        "collapse-mcq-17",
-        "collapse-mcq-14",
-        "collapse-mcq-18",
-        "collapse-mcq-13"
+        "collapse-mcq-01",
+        "collapse-mcq-11",
+        "collapse-mcq-24"
       ],
       "explanation": "本句的「collapses」指「把結構折疊／收合成較小形態」。",
       "sentenceIndex": 36,
@@ -1660,12 +1522,10 @@ export default {
         "collapses"
       ],
       "optionReasons": {
-        "collapse-mcq-16": "本句指「把結構折疊／收合成較小形態」。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。"
+        "collapse-mcq-16": "本句的「collapses」指「把結構折疊／收合成較小形態」。",
+        "collapse-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-16"
     },
@@ -1677,11 +1537,9 @@ export default {
       "masked": "The frame can be ____ when not in use.",
       "options": [
         "collapse-mcq-16",
-        "collapse-mcq-15",
-        "collapse-mcq-17",
-        "collapse-mcq-14",
-        "collapse-mcq-18",
-        "collapse-mcq-13"
+        "collapse-mcq-24",
+        "collapse-mcq-05",
+        "collapse-mcq-10"
       ],
       "explanation": "本句的「collapsed」指「把結構折疊／收合成較小形態」。",
       "sentenceIndex": 37,
@@ -1690,12 +1548,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-16": "本句指「把結構折疊／收合成較小形態」。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-13": "「政府／政權失去運作能力而垮台／瓦解」與本句語境不同。"
+        "collapse-mcq-16": "本句的「collapsed」指「把結構折疊／收合成較小形態」。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-16"
     },
@@ -1707,11 +1563,9 @@ export default {
       "masked": "We bought a ____.",
       "options": [
         "collapse-mcq-17",
-        "collapse-mcq-16",
-        "collapse-mcq-18",
-        "collapse-mcq-15",
-        "collapse-mcq-19",
-        "collapse-mcq-14"
+        "collapse-mcq-13",
+        "collapse-mcq-02",
+        "collapse-mcq-10"
       ],
       "explanation": "本句的「collapsible chair」指「可以折疊、收合以方便存放的」。",
       "sentenceIndex": 38,
@@ -1720,12 +1574,10 @@ export default {
         "collapsible chair"
       ],
       "optionReasons": {
-        "collapse-mcq-17": "本句指「可以折疊、收合以方便存放的」。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。"
+        "collapse-mcq-17": "本句的「collapsible chair」指「可以折疊、收合以方便存放的」。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-17"
     },
@@ -1737,11 +1589,9 @@ export default {
       "masked": "The bottle is ____ for easy storage.",
       "options": [
         "collapse-mcq-17",
-        "collapse-mcq-16",
-        "collapse-mcq-18",
-        "collapse-mcq-15",
-        "collapse-mcq-19",
-        "collapse-mcq-14"
+        "collapse-mcq-03",
+        "collapse-mcq-10",
+        "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsible」指「可以折疊、收合以方便存放的」。",
       "sentenceIndex": 39,
@@ -1750,12 +1600,10 @@ export default {
         "collapsible"
       ],
       "optionReasons": {
-        "collapse-mcq-17": "本句指「可以折疊、收合以方便存放的」。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-14": "「因壓力或情緒無法承受而崩潰」與本句語境不同。"
+        "collapse-mcq-17": "本句的「collapsible」指「可以折疊、收合以方便存放的」。",
+        "collapse-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-17"
     },
@@ -1767,11 +1615,9 @@ export default {
       "masked": "Click the arrow to ____.",
       "options": [
         "collapse-mcq-18",
-        "collapse-mcq-17",
-        "collapse-mcq-19",
-        "collapse-mcq-16",
-        "collapse-mcq-20",
-        "collapse-mcq-15"
+        "collapse-mcq-05",
+        "collapse-mcq-09",
+        "collapse-mcq-06"
       ],
       "explanation": "本句的「collapse the menu」指「把已展開的選單、區段等收合並隱藏細節」。",
       "sentenceIndex": 40,
@@ -1780,12 +1626,10 @@ export default {
         "collapse the menu"
       ],
       "optionReasons": {
-        "collapse-mcq-18": "本句指「把已展開的選單、區段等收合並隱藏細節」。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。"
+        "collapse-mcq-18": "本句的「collapse the menu」指「把已展開的選單、區段等收合並隱藏細節」。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-18"
     },
@@ -1797,11 +1641,9 @@ export default {
       "masked": "You can ____ to save space.",
       "options": [
         "collapse-mcq-18",
-        "collapse-mcq-17",
-        "collapse-mcq-19",
-        "collapse-mcq-16",
-        "collapse-mcq-20",
-        "collapse-mcq-15"
+        "collapse-mcq-10",
+        "collapse-mcq-05",
+        "collapse-mcq-22"
       ],
       "explanation": "本句的「collapse this section」指「把已展開的選單、區段等收合並隱藏細節」。",
       "sentenceIndex": 41,
@@ -1810,12 +1652,10 @@ export default {
         "collapse this section"
       ],
       "optionReasons": {
-        "collapse-mcq-18": "本句指「把已展開的選單、區段等收合並隱藏細節」。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-15": "「突然情緒崩潰並大哭」與本句語境不同。"
+        "collapse-mcq-18": "本句的「collapse this section」指「把已展開的選單、區段等收合並隱藏細節」。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-18"
     },
@@ -1827,11 +1667,9 @@ export default {
       "masked": "The details are inside the ____.",
       "options": [
         "collapse-mcq-19",
-        "collapse-mcq-18",
+        "collapse-mcq-26",
         "collapse-mcq-20",
-        "collapse-mcq-17",
-        "collapse-mcq-21",
-        "collapse-mcq-16"
+        "collapse-mcq-01"
       ],
       "explanation": "本句的「collapsed section」指「詳細內容已被收起的選單／區段」。",
       "sentenceIndex": 42,
@@ -1840,12 +1678,10 @@ export default {
         "collapsed section"
       ],
       "optionReasons": {
-        "collapse-mcq-19": "本句指「詳細內容已被收起的選單／區段」。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。"
+        "collapse-mcq-19": "本句的「collapsed section」指「詳細內容已被收起的選單／區段」。",
+        "collapse-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-19"
     },
@@ -1857,11 +1693,9 @@ export default {
       "masked": "Tap the heading to reopen the ____.",
       "options": [
         "collapse-mcq-19",
-        "collapse-mcq-18",
-        "collapse-mcq-20",
-        "collapse-mcq-17",
-        "collapse-mcq-21",
-        "collapse-mcq-16"
+        "collapse-mcq-11",
+        "collapse-mcq-02",
+        "collapse-mcq-13"
       ],
       "explanation": "本句的「collapsed menu」指「詳細內容已被收起的選單／區段」。",
       "sentenceIndex": 43,
@@ -1870,12 +1704,10 @@ export default {
         "collapsed menu"
       ],
       "optionReasons": {
-        "collapse-mcq-19": "本句指「詳細內容已被收起的選單／區段」。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-16": "「把結構折疊／收合成較小形態」與本句語境不同。"
+        "collapse-mcq-19": "本句的「collapsed menu」指「詳細內容已被收起的選單／區段」。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-19"
     },
@@ -1887,11 +1719,9 @@ export default {
       "masked": "The researchers ____ into three groups.",
       "options": [
         "collapse-mcq-20",
-        "collapse-mcq-19",
-        "collapse-mcq-21",
-        "collapse-mcq-18",
-        "collapse-mcq-22",
-        "collapse-mcq-17"
+        "collapse-mcq-04",
+        "collapse-mcq-14",
+        "collapse-mcq-19"
       ],
       "explanation": "本句的「collapsed the categories」指「把多個類別合併／歸併成較少類別」。",
       "sentenceIndex": 44,
@@ -1900,12 +1730,10 @@ export default {
         "collapsed the categories"
       ],
       "optionReasons": {
-        "collapse-mcq-20": "本句指「把多個類別合併／歸併成較少類別」。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。"
+        "collapse-mcq-20": "本句的「collapsed the categories」指「把多個類別合併／歸併成較少類別」。",
+        "collapse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-20"
     },
@@ -1917,11 +1745,9 @@ export default {
       "masked": "Several response options were ____.",
       "options": [
         "collapse-mcq-20",
-        "collapse-mcq-19",
-        "collapse-mcq-21",
-        "collapse-mcq-18",
-        "collapse-mcq-22",
-        "collapse-mcq-17"
+        "collapse-mcq-08",
+        "collapse-mcq-24",
+        "collapse-mcq-19"
       ],
       "explanation": "本句的「collapsed into one category」指「把多個類別合併／歸併成較少類別」。",
       "sentenceIndex": 45,
@@ -1930,12 +1756,10 @@ export default {
         "collapsed into one category"
       ],
       "optionReasons": {
-        "collapse-mcq-20": "本句指「把多個類別合併／歸併成較少類別」。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-17": "「可以折疊、收合以方便存放的」與本句語境不同。"
+        "collapse-mcq-20": "本句的「collapsed into one category」指「把多個類別合併／歸併成較少類別」。",
+        "collapse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-20"
     },
@@ -1947,11 +1771,9 @@ export default {
       "masked": "The cavity ____ under external pressure.",
       "options": [
         "collapse-mcq-21",
+        "collapse-mcq-10",
         "collapse-mcq-20",
-        "collapse-mcq-22",
-        "collapse-mcq-19",
-        "collapse-mcq-23",
-        "collapse-mcq-18"
+        "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsed」指「因壓力、重力等向內塌縮／收縮」。",
       "sentenceIndex": 46,
@@ -1960,12 +1782,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-21": "本句指「因壓力、重力等向內塌縮／收縮」。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。"
+        "collapse-mcq-21": "本句的「collapsed」指「因壓力、重力等向內塌縮／收縮」。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-21"
     },
@@ -1977,11 +1797,9 @@ export default {
       "masked": "The star eventually ____.",
       "options": [
         "collapse-mcq-21",
+        "collapse-mcq-15",
         "collapse-mcq-20",
-        "collapse-mcq-22",
-        "collapse-mcq-19",
-        "collapse-mcq-23",
-        "collapse-mcq-18"
+        "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsed under its own gravity」指「因壓力、重力等向內塌縮／收縮」。",
       "sentenceIndex": 47,
@@ -1990,12 +1808,10 @@ export default {
         "collapsed under its own gravity"
       ],
       "optionReasons": {
-        "collapse-mcq-21": "本句指「因壓力、重力等向內塌縮／收縮」。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-18": "「把已展開的選單、區段等收合並隱藏細節」與本句語境不同。"
+        "collapse-mcq-21": "本句的「collapsed under its own gravity」指「因壓力、重力等向內塌縮／收縮」。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-21"
     },
@@ -2007,11 +1823,9 @@ export default {
       "masked": "A massive star may undergo ____.",
       "options": [
         "collapse-mcq-22",
-        "collapse-mcq-21",
-        "collapse-mcq-23",
-        "collapse-mcq-20",
-        "collapse-mcq-24",
-        "collapse-mcq-19"
+        "collapse-mcq-10",
+        "collapse-mcq-07",
+        "collapse-mcq-16"
       ],
       "explanation": "本句的「gravitational collapse」指「天體在自身重力作用下發生的重力塌縮」。",
       "sentenceIndex": 48,
@@ -2020,12 +1834,10 @@ export default {
         "gravitational collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-22": "本句指「天體在自身重力作用下發生的重力塌縮」。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。"
+        "collapse-mcq-22": "本句的「gravitational collapse」指「天體在自身重力作用下發生的重力塌縮」。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-22"
     },
@@ -2037,11 +1849,9 @@ export default {
       "masked": "The process begins with ____.",
       "options": [
         "collapse-mcq-22",
-        "collapse-mcq-21",
-        "collapse-mcq-23",
-        "collapse-mcq-20",
-        "collapse-mcq-24",
-        "collapse-mcq-19"
+        "collapse-mcq-07",
+        "collapse-mcq-10",
+        "collapse-mcq-25"
       ],
       "explanation": "本句的「gravitational collapse」指「天體在自身重力作用下發生的重力塌縮」。",
       "sentenceIndex": 49,
@@ -2050,12 +1860,10 @@ export default {
         "gravitational collapse"
       ],
       "optionReasons": {
-        "collapse-mcq-22": "本句指「天體在自身重力作用下發生的重力塌縮」。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-19": "「詳細內容已被收起的選單／區段」與本句語境不同。"
+        "collapse-mcq-22": "本句的「gravitational collapse」指「天體在自身重力作用下發生的重力塌縮」。",
+        "collapse-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-22"
     },
@@ -2067,11 +1875,9 @@ export default {
       "masked": "Under these conditions, the expression ____ a much simpler form.",
       "options": [
         "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-24",
-        "collapse-mcq-21",
-        "collapse-mcq-25",
-        "collapse-mcq-20"
+        "collapse-mcq-15",
+        "collapse-mcq-17",
+        "collapse-mcq-08"
       ],
       "explanation": "本句的「collapses to」指「技術語境：縮減／歸結為較簡單狀態或結果」。",
       "sentenceIndex": 50,
@@ -2080,12 +1886,10 @@ export default {
         "collapses to"
       ],
       "optionReasons": {
-        "collapse-mcq-23": "本句指「技術語境：縮減／歸結為較簡單狀態或結果」。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。"
+        "collapse-mcq-23": "本句的「collapses to」指「技術語境：縮減／歸結為較簡單狀態或結果」。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-23"
     },
@@ -2097,11 +1901,9 @@ export default {
       "masked": "Several possibilities ____ a single outcome.",
       "options": [
         "collapse-mcq-23",
-        "collapse-mcq-22",
         "collapse-mcq-24",
-        "collapse-mcq-21",
-        "collapse-mcq-25",
-        "collapse-mcq-20"
+        "collapse-mcq-02",
+        "collapse-mcq-25"
       ],
       "explanation": "本句的「collapse into」指「技術語境：縮減／歸結為較簡單狀態或結果」。",
       "sentenceIndex": 51,
@@ -2110,12 +1912,10 @@ export default {
         "collapse into"
       ],
       "optionReasons": {
-        "collapse-mcq-23": "本句指「技術語境：縮減／歸結為較簡單狀態或結果」。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-20": "「把多個類別合併／歸併成較少類別」與本句語境不同。"
+        "collapse-mcq-23": "本句的「collapse into」指「技術語境：縮減／歸結為較簡單狀態或結果」。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-23"
     },
@@ -2127,11 +1927,9 @@ export default {
       "masked": "Rescue workers searched the ____.",
       "options": [
         "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-25",
-        "collapse-mcq-22",
-        "collapse-mcq-26",
-        "collapse-mcq-21"
+        "collapse-mcq-20",
+        "collapse-mcq-13",
+        "collapse-mcq-10"
       ],
       "explanation": "本句的「collapsed building」指「已經倒塌／坍塌的」。",
       "sentenceIndex": 52,
@@ -2140,12 +1938,10 @@ export default {
         "collapsed building"
       ],
       "optionReasons": {
-        "collapse-mcq-24": "本句指「已經倒塌／坍塌的」。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-26": "「因心理、工作等壓力太大而撐不住／崩潰」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-24": "本句的「collapsed building」指「已經倒塌／坍塌的」。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-24"
     },
@@ -2157,11 +1953,9 @@ export default {
       "masked": "The road was blocked by a ____.",
       "options": [
         "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-25",
-        "collapse-mcq-22",
-        "collapse-mcq-26",
-        "collapse-mcq-21"
+        "collapse-mcq-13",
+        "collapse-mcq-14",
+        "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsed wall」指「已經倒塌／坍塌的」。",
       "sentenceIndex": 53,
@@ -2170,12 +1964,10 @@ export default {
         "collapsed wall"
       ],
       "optionReasons": {
-        "collapse-mcq-24": "本句指「已經倒塌／坍塌的」。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-26": "「因心理、工作等壓力太大而撐不住／崩潰」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-24": "本句的「collapsed wall」指「已經倒塌／坍塌的」。",
+        "collapse-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-24"
     },
@@ -2187,11 +1979,9 @@ export default {
       "masked": "Store the chair in its ____.",
       "options": [
         "collapse-mcq-25",
-        "collapse-mcq-24",
-        "collapse-mcq-26",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-04",
+        "collapse-mcq-05",
+        "collapse-mcq-15"
       ],
       "explanation": "本句的「collapsed form」指「已折疊／收合的」。",
       "sentenceIndex": 54,
@@ -2200,12 +1990,10 @@ export default {
         "collapsed form"
       ],
       "optionReasons": {
-        "collapse-mcq-25": "本句指「已折疊／收合的」。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-26": "「因心理、工作等壓力太大而撐不住／崩潰」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-25": "本句的「collapsed form」指「已折疊／收合的」。",
+        "collapse-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-25"
     },
@@ -2217,11 +2005,9 @@ export default {
       "masked": "The menu is currently ____.",
       "options": [
         "collapse-mcq-25",
-        "collapse-mcq-24",
-        "collapse-mcq-26",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-11",
+        "collapse-mcq-08",
+        "collapse-mcq-03"
       ],
       "explanation": "本句的「collapsed」指「已折疊／收合的」。",
       "sentenceIndex": 55,
@@ -2230,12 +2016,10 @@ export default {
         "collapsed"
       ],
       "optionReasons": {
-        "collapse-mcq-25": "本句指「已折疊／收合的」。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-26": "「因心理、工作等壓力太大而撐不住／崩潰」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-25": "本句的「collapsed」指「已折疊／收合的」。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-25"
     },
@@ -2247,11 +2031,9 @@ export default {
       "masked": "They escaped from the ____.",
       "options": [
         "collapse-mcq-26",
-        "collapse-mcq-25",
-        "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-11",
+        "collapse-mcq-16",
+        "collapse-mcq-24"
       ],
       "explanation": "本句的「collapsing building」指「因心理、工作等壓力太大而撐不住／崩潰」。",
       "sentenceIndex": 56,
@@ -2260,12 +2042,10 @@ export default {
         "collapsing building"
       ],
       "optionReasons": {
-        "collapse-mcq-26": "本句指「因心理、工作等壓力太大而撐不住／崩潰」。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-26": "本句的「collapsing building」指「因心理、工作等壓力太大而撐不住／崩潰」。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-26"
     },
@@ -2277,11 +2057,9 @@ export default {
       "masked": "The government struggled to stabilize the ____.",
       "options": [
         "collapse-mcq-26",
-        "collapse-mcq-25",
-        "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-11",
+        "collapse-mcq-19",
+        "collapse-mcq-17"
       ],
       "explanation": "本句的「collapsing economy」指「因心理、工作等壓力太大而撐不住／崩潰」。",
       "sentenceIndex": 57,
@@ -2290,12 +2068,10 @@ export default {
         "collapsing economy"
       ],
       "optionReasons": {
-        "collapse-mcq-26": "本句指「因心理、工作等壓力太大而撐不住／崩潰」。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-26": "本句的「collapsing economy」指「因心理、工作等壓力太大而撐不住／崩潰」。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-26"
     },
@@ -2307,11 +2083,9 @@ export default {
       "masked": "The roof ____ of the snow.",
       "options": [
         "collapse-mcq-26",
-        "collapse-mcq-25",
         "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-20",
+        "collapse-mcq-19"
       ],
       "explanation": "本句的「collapsed under the pressure」指「因心理、工作等壓力太大而撐不住／崩潰」。",
       "sentenceIndex": 58,
@@ -2320,12 +2094,10 @@ export default {
         "collapsed under the pressure"
       ],
       "optionReasons": {
-        "collapse-mcq-26": "本句指「因心理、工作等壓力太大而撐不住／崩潰」。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-26": "本句的「collapsed under the pressure」指「因心理、工作等壓力太大而撐不住／崩潰」。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-26"
     },
@@ -2337,11 +2109,9 @@ export default {
       "masked": "He eventually ____ of the job.",
       "options": [
         "collapse-mcq-26",
-        "collapse-mcq-25",
-        "collapse-mcq-24",
+        "collapse-mcq-17",
         "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-20"
       ],
       "explanation": "本句的「collapsed under the pressure」指「因心理、工作等壓力太大而撐不住／崩潰」。",
       "sentenceIndex": 59,
@@ -2350,12 +2120,10 @@ export default {
         "collapsed under the pressure"
       ],
       "optionReasons": {
-        "collapse-mcq-26": "本句指「因心理、工作等壓力太大而撐不住／崩潰」。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-26": "本句的「collapsed under the pressure」指「因心理、工作等壓力太大而撐不住／崩潰」。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-26"
     },
@@ -2369,9 +2137,7 @@ export default {
         "collapse-mcq-26",
         "collapse-mcq-25",
         "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-11"
       ],
       "explanation": "本句的「collapsed under its own weight」指「因心理、工作等壓力太大而撐不住／崩潰」。",
       "sentenceIndex": 60,
@@ -2380,12 +2146,10 @@ export default {
         "collapsed under its own weight"
       ],
       "optionReasons": {
-        "collapse-mcq-26": "本句指「因心理、工作等壓力太大而撐不住／崩潰」。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-26": "本句的「collapsed under its own weight」指「因心理、工作等壓力太大而撐不住／崩潰」。",
+        "collapse-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-26"
     },
@@ -2397,11 +2161,9 @@ export default {
       "masked": "Part of the roof ____.",
       "options": [
         "collapse-mcq-26",
-        "collapse-mcq-25",
+        "collapse-mcq-17",
         "collapse-mcq-24",
-        "collapse-mcq-23",
-        "collapse-mcq-22",
-        "collapse-mcq-21"
+        "collapse-mcq-20"
       ],
       "explanation": "本句的「collapsed under its own weight」指「因心理、工作等壓力太大而撐不住／崩潰」。",
       "sentenceIndex": 61,
@@ -2410,12 +2172,10 @@ export default {
         "collapsed under its own weight"
       ],
       "optionReasons": {
-        "collapse-mcq-26": "本句指「因心理、工作等壓力太大而撐不住／崩潰」。",
-        "collapse-mcq-25": "「已折疊／收合的」與本句語境不同。",
-        "collapse-mcq-24": "「已經倒塌／坍塌的」與本句語境不同。",
-        "collapse-mcq-23": "「技術語境：縮減／歸結為較簡單狀態或結果」與本句語境不同。",
-        "collapse-mcq-22": "「天體在自身重力作用下發生的重力塌縮」與本句語境不同。",
-        "collapse-mcq-21": "「因壓力、重力等向內塌縮／收縮」與本句語境不同。"
+        "collapse-mcq-26": "本句的「collapsed under its own weight」指「因心理、工作等壓力太大而撐不住／崩潰」。",
+        "collapse-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "collapse-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "collapse-mcq-26"
     }
@@ -2427,5 +2187,7 @@ export default {
     "sha256": "1aac855de3eebcf48d7b2fd43c3267619551ec1914a3c7f03f6263ed4b4d7f12",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

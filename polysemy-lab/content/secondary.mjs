@@ -361,11 +361,9 @@ export default {
       "masked": "My favourite teacher was my ____ history teacher.",
       "options": [
         "secondary-mcq-01",
-        "secondary-mcq-02",
         "secondary-mcq-03",
-        "secondary-mcq-04",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-mcq-06",
+        "secondary-mcq-08"
       ],
       "explanation": "本句的「secondary school」指「中學」。",
       "sentenceIndex": 0,
@@ -374,12 +372,10 @@ export default {
         "secondary school"
       ],
       "optionReasons": {
-        "secondary-mcq-01": "本句指「中學」。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-01": "本句的「secondary school」指「中學」。",
+        "secondary-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-01"
     },
@@ -391,11 +387,9 @@ export default {
       "masked": "She teaches English at a ____.",
       "options": [
         "secondary-mcq-01",
-        "secondary-mcq-02",
-        "secondary-mcq-03",
-        "secondary-mcq-04",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-pdf-001",
+        "secondary-mcq-08",
+        "secondary-mcq-05"
       ],
       "explanation": "本句的「secondary school」指「中學」。",
       "sentenceIndex": 1,
@@ -404,12 +398,10 @@ export default {
         "secondary school"
       ],
       "optionReasons": {
-        "secondary-mcq-01": "本句指「中學」。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-01": "本句的「secondary school」指「中學」。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-01"
     },
@@ -421,11 +413,9 @@ export default {
       "masked": "I met him when I was in ____.",
       "options": [
         "secondary-mcq-01",
-        "secondary-mcq-02",
-        "secondary-mcq-03",
-        "secondary-mcq-04",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-mcq-07",
+        "secondary-mcq-06",
+        "secondary-mcq-02"
       ],
       "explanation": "本句的「secondary school」指「中學」。",
       "sentenceIndex": 2,
@@ -434,12 +424,10 @@ export default {
         "secondary school"
       ],
       "optionReasons": {
-        "secondary-mcq-01": "本句指「中學」。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-01": "本句的「secondary school」指「中學」。",
+        "secondary-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-01"
     },
@@ -451,11 +439,9 @@ export default {
       "masked": "He completed his ____ in Hong Kong.",
       "options": [
         "secondary-mcq-02",
-        "secondary-mcq-01",
-        "secondary-mcq-03",
-        "secondary-mcq-04",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-mcq-15",
+        "secondary-mcq-11",
+        "secondary-mcq-10"
       ],
       "explanation": "本句的「secondary education」指「中等教育」。",
       "sentenceIndex": 3,
@@ -464,12 +450,10 @@ export default {
         "secondary education"
       ],
       "optionReasons": {
-        "secondary-mcq-02": "本句指「中等教育」。",
-        "secondary-mcq-01": "「中學」是「secondary school」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-02": "本句的「secondary education」指「中等教育」。",
+        "secondary-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-02"
     },
@@ -482,10 +466,8 @@ export default {
       "options": [
         "secondary-mcq-02",
         "secondary-mcq-01",
-        "secondary-mcq-03",
-        "secondary-mcq-04",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-mcq-13",
+        "secondary-mcq-03"
       ],
       "explanation": "本句的「secondary education」指「中等教育」。",
       "sentenceIndex": 4,
@@ -494,12 +476,10 @@ export default {
         "secondary education"
       ],
       "optionReasons": {
-        "secondary-mcq-02": "本句指「中等教育」。",
-        "secondary-mcq-01": "「中學」是「secondary school」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-02": "本句的「secondary education」指「中等教育」。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-02"
     },
@@ -511,11 +491,9 @@ export default {
       "masked": "Cost is a ____.",
       "options": [
         "secondary-mcq-03",
-        "secondary-mcq-02",
-        "secondary-mcq-04",
-        "secondary-mcq-01",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-mcq-08",
+        "secondary-pdf-001",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary concern」指「次要考慮」。",
       "sentenceIndex": 5,
@@ -524,12 +502,10 @@ export default {
         "secondary concern"
       ],
       "optionReasons": {
-        "secondary-mcq-03": "本句指「次要考慮」。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-01": "「中學」是「secondary school」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-03": "本句的「secondary concern」指「次要考慮」。",
+        "secondary-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-03"
     },
@@ -541,11 +517,9 @@ export default {
       "masked": "Safety is the main issue; appearance is ____.",
       "options": [
         "secondary-mcq-03",
-        "secondary-mcq-02",
-        "secondary-mcq-04",
-        "secondary-mcq-01",
-        "secondary-mcq-05",
-        "secondary-mcq-06"
+        "secondary-mcq-09",
+        "secondary-mcq-11",
+        "secondary-mcq-10"
       ],
       "explanation": "本句的「secondary」指「次要考慮」。",
       "sentenceIndex": 6,
@@ -554,12 +528,10 @@ export default {
         "secondary"
       ],
       "optionReasons": {
-        "secondary-mcq-03": "本句指「次要考慮」。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-01": "「中學」是「secondary school」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-03": "本句的「secondary」指「次要考慮」。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-03"
     },
@@ -571,10 +543,8 @@ export default {
       "masked": "He played a ____ in the project.",
       "options": [
         "secondary-mcq-04",
-        "secondary-mcq-03",
-        "secondary-mcq-05",
-        "secondary-mcq-02",
-        "secondary-mcq-06",
+        "secondary-mcq-10",
+        "secondary-mcq-08",
         "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary role」指「次要角色」。",
@@ -584,12 +554,10 @@ export default {
         "secondary role"
       ],
       "optionReasons": {
-        "secondary-mcq-04": "本句指「次要角色」。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-01": "「中學」是「secondary school」的用法，與本句語境不同。"
+        "secondary-mcq-04": "本句的「secondary role」指「次要角色」。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-04"
     },
@@ -601,10 +569,8 @@ export default {
       "masked": "Price was of ____.",
       "options": [
         "secondary-mcq-04",
-        "secondary-mcq-03",
-        "secondary-mcq-05",
-        "secondary-mcq-02",
-        "secondary-mcq-06",
+        "secondary-mcq-09",
+        "secondary-pdf-001",
         "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary importance」指「次要角色」。",
@@ -614,12 +580,10 @@ export default {
         "secondary importance"
       ],
       "optionReasons": {
-        "secondary-mcq-04": "本句指「次要角色」。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-01": "「中學」是「secondary school」的用法，與本句語境不同。"
+        "secondary-mcq-04": "本句的「secondary importance」指「次要角色」。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-04"
     },
@@ -631,11 +595,9 @@ export default {
       "masked": "The policy had several ____.",
       "options": [
         "secondary-mcq-06",
-        "secondary-mcq-05",
-        "secondary-mcq-07",
-        "secondary-mcq-04",
-        "secondary-mcq-08",
-        "secondary-mcq-03"
+        "secondary-mcq-10",
+        "secondary-mcq-09",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary effects」指「次生／間接影響」。",
       "sentenceIndex": 9,
@@ -644,12 +606,10 @@ export default {
         "secondary effects"
       ],
       "optionReasons": {
-        "secondary-mcq-06": "本句指「次生／間接影響」。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。"
+        "secondary-mcq-06": "本句的「secondary effects」指「次生／間接影響」。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-06"
     },
@@ -661,11 +621,9 @@ export default {
       "masked": "Rising prices created ____ for small businesses.",
       "options": [
         "secondary-mcq-06",
-        "secondary-mcq-05",
-        "secondary-mcq-07",
-        "secondary-mcq-04",
-        "secondary-mcq-08",
-        "secondary-mcq-03"
+        "secondary-pdf-001",
+        "secondary-mcq-09",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary consequences」指「次生／間接影響」。",
       "sentenceIndex": 10,
@@ -674,12 +632,10 @@ export default {
         "secondary consequences"
       ],
       "optionReasons": {
-        "secondary-mcq-06": "本句指「次生／間接影響」。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。"
+        "secondary-mcq-06": "本句的「secondary consequences」指「次生／間接影響」。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-06"
     },
@@ -691,11 +647,9 @@ export default {
       "masked": "Stress was a ____ of the problem.",
       "options": [
         "secondary-mcq-07",
-        "secondary-mcq-06",
-        "secondary-mcq-08",
-        "secondary-mcq-05",
         "secondary-mcq-09",
-        "secondary-mcq-04"
+        "secondary-mcq-01",
+        "secondary-mcq-10"
       ],
       "explanation": "本句的「secondary cause」指「次要原因」。",
       "sentenceIndex": 11,
@@ -704,12 +658,10 @@ export default {
         "secondary cause"
       ],
       "optionReasons": {
-        "secondary-mcq-07": "本句指「次要原因」。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。"
+        "secondary-mcq-07": "本句的「secondary cause」指「次要原因」。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-07"
     },
@@ -721,11 +673,9 @@ export default {
       "masked": "Poor communication was only a ____.",
       "options": [
         "secondary-mcq-07",
-        "secondary-mcq-06",
-        "secondary-mcq-08",
-        "secondary-mcq-05",
-        "secondary-mcq-09",
-        "secondary-mcq-04"
+        "secondary-mcq-10",
+        "secondary-mcq-02",
+        "secondary-pdf-001"
       ],
       "explanation": "本句的「secondary factor」指「次要原因」。",
       "sentenceIndex": 12,
@@ -734,12 +684,10 @@ export default {
         "secondary factor"
       ],
       "optionReasons": {
-        "secondary-mcq-07": "本句指「次要原因」。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。"
+        "secondary-mcq-07": "本句的「secondary factor」指「次要原因」。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-07"
     },
@@ -751,11 +699,9 @@ export default {
       "masked": "The article is a ____.",
       "options": [
         "secondary-mcq-08",
-        "secondary-mcq-07",
-        "secondary-mcq-09",
-        "secondary-mcq-06",
-        "secondary-mcq-10",
-        "secondary-mcq-05"
+        "secondary-mcq-02",
+        "secondary-mcq-14",
+        "secondary-mcq-11"
       ],
       "explanation": "本句的「secondary source」指「第二手資料」。",
       "sentenceIndex": 13,
@@ -764,12 +710,10 @@ export default {
         "secondary source"
       ],
       "optionReasons": {
-        "secondary-mcq-08": "本句指「第二手資料」。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。"
+        "secondary-mcq-08": "本句的「secondary source」指「第二手資料」。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-08"
     },
@@ -781,11 +725,9 @@ export default {
       "masked": "Students should compare primary and ____.",
       "options": [
         "secondary-mcq-08",
-        "secondary-mcq-07",
-        "secondary-mcq-09",
         "secondary-mcq-06",
-        "secondary-mcq-10",
-        "secondary-mcq-05"
+        "secondary-mcq-03",
+        "secondary-mcq-14"
       ],
       "explanation": "本句的「secondary sources」指「第二手資料」。",
       "sentenceIndex": 14,
@@ -794,12 +736,10 @@ export default {
         "secondary sources"
       ],
       "optionReasons": {
-        "secondary-mcq-08": "本句指「第二手資料」。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-05": "「次要目標」是「secondary objective」的用法，與本句語境不同。"
+        "secondary-mcq-08": "本句的「secondary sources」指「第二手資料」。",
+        "secondary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-08"
     },
@@ -811,11 +751,9 @@ export default {
       "masked": "We began with ____ before conducting interviews.",
       "options": [
         "secondary-mcq-09",
-        "secondary-mcq-08",
-        "secondary-mcq-10",
-        "secondary-mcq-07",
-        "secondary-mcq-11",
-        "secondary-mcq-06"
+        "secondary-mcq-04",
+        "secondary-mcq-06",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary research」指「第二手研究」。",
       "sentenceIndex": 15,
@@ -824,12 +762,10 @@ export default {
         "secondary research"
       ],
       "optionReasons": {
-        "secondary-mcq-09": "本句指「第二手研究」。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-09": "本句的「secondary research」指「第二手研究」。",
+        "secondary-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-09"
     },
@@ -841,10 +777,8 @@ export default {
       "masked": "____ can save both time and money.",
       "options": [
         "secondary-mcq-09",
-        "secondary-mcq-08",
-        "secondary-mcq-10",
-        "secondary-mcq-07",
-        "secondary-mcq-11",
+        "secondary-mcq-05",
+        "secondary-pdf-001",
         "secondary-mcq-06"
       ],
       "explanation": "本句的「Secondary research」指「第二手研究」。",
@@ -854,12 +788,10 @@ export default {
         "Secondary research"
       ],
       "optionReasons": {
-        "secondary-mcq-09": "本句指「第二手研究」。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。"
+        "secondary-mcq-09": "本句的「Secondary research」指「第二手研究」。",
+        "secondary-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-09"
     },
@@ -871,11 +803,9 @@ export default {
       "masked": "The shares are traded on the ____.",
       "options": [
         "secondary-mcq-10",
-        "secondary-mcq-09",
-        "secondary-mcq-11",
-        "secondary-mcq-08",
-        "secondary-mcq-12",
-        "secondary-mcq-07"
+        "secondary-mcq-15",
+        "secondary-mcq-06",
+        "secondary-mcq-11"
       ],
       "explanation": "本句的「secondary market」指「二級市場」。",
       "sentenceIndex": 17,
@@ -884,12 +814,10 @@ export default {
         "secondary market"
       ],
       "optionReasons": {
-        "secondary-mcq-10": "本句指「二級市場」。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。"
+        "secondary-mcq-10": "本句的「secondary market」指「二級市場」。",
+        "secondary-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-10"
     },
@@ -901,11 +829,9 @@ export default {
       "masked": "Investors can buy bonds in the ____.",
       "options": [
         "secondary-mcq-10",
-        "secondary-mcq-09",
-        "secondary-mcq-11",
-        "secondary-mcq-08",
-        "secondary-mcq-12",
-        "secondary-mcq-07"
+        "secondary-mcq-05",
+        "secondary-mcq-01",
+        "secondary-mcq-11"
       ],
       "explanation": "本句的「secondary market」指「二級市場」。",
       "sentenceIndex": 18,
@@ -914,12 +840,10 @@ export default {
         "secondary market"
       ],
       "optionReasons": {
-        "secondary-mcq-10": "本句指「二級市場」。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。"
+        "secondary-mcq-10": "本句的「secondary market」指「二級市場」。",
+        "secondary-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-10"
     },
@@ -931,10 +855,8 @@ export default {
       "masked": "The wound developed a ____.",
       "options": [
         "secondary-mcq-11",
-        "secondary-mcq-10",
-        "secondary-mcq-12",
-        "secondary-mcq-09",
-        "secondary-mcq-13",
+        "secondary-mcq-02",
+        "secondary-mcq-04",
         "secondary-mcq-08"
       ],
       "explanation": "本句的「secondary infection」指「繼發感染」。",
@@ -944,12 +866,10 @@ export default {
         "secondary infection"
       ],
       "optionReasons": {
-        "secondary-mcq-11": "本句指「繼發感染」。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。"
+        "secondary-mcq-11": "本句的「secondary infection」指「繼發感染」。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-11"
     },
@@ -961,11 +881,9 @@ export default {
       "masked": "Doctors were concerned about a ____.",
       "options": [
         "secondary-mcq-11",
-        "secondary-mcq-10",
-        "secondary-mcq-12",
-        "secondary-mcq-09",
-        "secondary-mcq-13",
-        "secondary-mcq-08"
+        "secondary-mcq-05",
+        "secondary-mcq-02",
+        "secondary-mcq-13"
       ],
       "explanation": "本句的「secondary infection」指「繼發感染」。",
       "sentenceIndex": 20,
@@ -974,12 +892,10 @@ export default {
         "secondary infection"
       ],
       "optionReasons": {
-        "secondary-mcq-11": "本句指「繼發感染」。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-08": "「第二手資料」是「secondary source」的用法，與本句語境不同。"
+        "secondary-mcq-11": "本句的「secondary infection」指「繼發感染」。",
+        "secondary-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-11"
     },
@@ -991,11 +907,9 @@ export default {
       "masked": "The condition may be ____ another illness.",
       "options": [
         "secondary-pdf-001",
-        "secondary-mcq-11",
         "secondary-mcq-13",
-        "secondary-mcq-10",
-        "secondary-mcq-14",
-        "secondary-mcq-09"
+        "secondary-mcq-05",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary to」指「由 X 引起、作為 X 的後續或繼發結果」。",
       "sentenceIndex": 21,
@@ -1004,12 +918,10 @@ export default {
         "secondary to"
       ],
       "optionReasons": {
-        "secondary-pdf-001": "本句指「由 X 引起、作為 X 的後續或繼發結果」。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。"
+        "secondary-pdf-001": "本句的「secondary to」指「由 X 引起、作為 X 的後續或繼發結果」。",
+        "secondary-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-pdf-001"
     },
@@ -1021,11 +933,9 @@ export default {
       "masked": "The symptoms were found to be ____ an underlying problem.",
       "options": [
         "secondary-pdf-001",
-        "secondary-mcq-11",
-        "secondary-mcq-13",
-        "secondary-mcq-10",
-        "secondary-mcq-14",
-        "secondary-mcq-09"
+        "secondary-mcq-03",
+        "secondary-mcq-09",
+        "secondary-mcq-14"
       ],
       "explanation": "本句的「secondary to」指「由 X 引起、作為 X 的後續或繼發結果」。",
       "sentenceIndex": 22,
@@ -1034,12 +944,10 @@ export default {
         "secondary to"
       ],
       "optionReasons": {
-        "secondary-pdf-001": "本句指「由 X 引起、作為 X 的後續或繼發結果」。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。",
-        "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
-        "secondary-mcq-09": "「第二手研究」是「secondary research」的用法，與本句語境不同。"
+        "secondary-pdf-001": "本句的「secondary to」指「由 X 引起、作為 X 的後續或繼發結果」。",
+        "secondary-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-pdf-001"
     },
@@ -1051,11 +959,9 @@ export default {
       "masked": "Green is a ____.",
       "options": [
         "secondary-mcq-13",
-        "secondary-mcq-12",
-        "secondary-mcq-14",
-        "secondary-mcq-11",
-        "secondary-mcq-15",
-        "secondary-mcq-10"
+        "secondary-pdf-001",
+        "secondary-mcq-01",
+        "secondary-mcq-02"
       ],
       "explanation": "本句的「secondary colour」指「間色／二次色」。",
       "sentenceIndex": 23,
@@ -1064,12 +970,10 @@ export default {
         "secondary colour"
       ],
       "optionReasons": {
-        "secondary-mcq-13": "本句指「間色／二次色」。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-15": "「次要角色」是「secondary character」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。"
+        "secondary-mcq-13": "本句的「secondary colour」指「間色／二次色」。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-13"
     },
@@ -1081,11 +985,9 @@ export default {
       "masked": "____ are made by mixing primary colours.",
       "options": [
         "secondary-mcq-13",
-        "secondary-mcq-12",
-        "secondary-mcq-14",
         "secondary-mcq-11",
-        "secondary-mcq-15",
-        "secondary-mcq-10"
+        "secondary-mcq-01",
+        "secondary-mcq-02"
       ],
       "explanation": "本句的「Secondary colours」指「間色／二次色」。",
       "sentenceIndex": 24,
@@ -1094,12 +996,10 @@ export default {
         "Secondary colours"
       ],
       "optionReasons": {
-        "secondary-mcq-13": "本句指「間色／二次色」。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-15": "「次要角色」是「secondary character」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。"
+        "secondary-mcq-13": "本句的「Secondary colours」指「間色／二次色」。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-13"
     },
@@ -1111,11 +1011,9 @@ export default {
       "masked": "Hard drives are used for ____.",
       "options": [
         "secondary-mcq-14",
-        "secondary-mcq-13",
-        "secondary-mcq-15",
-        "secondary-mcq-12",
         "secondary-mcq-11",
-        "secondary-mcq-10"
+        "secondary-mcq-09",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary storage」指「次級儲存」。",
       "sentenceIndex": 25,
@@ -1124,12 +1022,10 @@ export default {
         "secondary storage"
       ],
       "optionReasons": {
-        "secondary-mcq-14": "本句指「次級儲存」。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-15": "「次要角色」是「secondary character」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。"
+        "secondary-mcq-14": "本句的「secondary storage」指「次級儲存」。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-14"
     },
@@ -1141,11 +1037,9 @@ export default {
       "masked": "____ keeps data even when the power is off.",
       "options": [
         "secondary-mcq-14",
-        "secondary-mcq-13",
-        "secondary-mcq-15",
-        "secondary-mcq-12",
         "secondary-mcq-11",
-        "secondary-mcq-10"
+        "secondary-mcq-08",
+        "secondary-mcq-02"
       ],
       "explanation": "本句的「Secondary storage」指「次級儲存」。",
       "sentenceIndex": 26,
@@ -1154,12 +1048,10 @@ export default {
         "Secondary storage"
       ],
       "optionReasons": {
-        "secondary-mcq-14": "本句指「次級儲存」。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-15": "「次要角色」是「secondary character」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。"
+        "secondary-mcq-14": "本句的「Secondary storage」指「次級儲存」。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-14"
     },
@@ -1171,11 +1063,9 @@ export default {
       "masked": "He plays a ____ in the film.",
       "options": [
         "secondary-mcq-15",
-        "secondary-mcq-14",
-        "secondary-mcq-13",
-        "secondary-mcq-12",
-        "secondary-mcq-11",
-        "secondary-mcq-10"
+        "secondary-mcq-10",
+        "secondary-mcq-09",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary character」指「次要角色」。",
       "sentenceIndex": 27,
@@ -1184,12 +1074,10 @@ export default {
         "secondary character"
       ],
       "optionReasons": {
-        "secondary-mcq-15": "本句指「次要角色」。",
-        "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。"
+        "secondary-mcq-15": "本句的「secondary character」指「次要角色」。",
+        "secondary-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-15"
     },
@@ -1201,11 +1089,9 @@ export default {
       "masked": "The novel gives several ____ important moments.",
       "options": [
         "secondary-mcq-15",
-        "secondary-mcq-14",
-        "secondary-mcq-13",
-        "secondary-mcq-12",
         "secondary-mcq-11",
-        "secondary-mcq-10"
+        "secondary-mcq-01",
+        "secondary-mcq-09"
       ],
       "explanation": "本句的「secondary characters」指「次要角色」。",
       "sentenceIndex": 28,
@@ -1214,12 +1100,10 @@ export default {
         "secondary characters"
       ],
       "optionReasons": {
-        "secondary-mcq-15": "本句指「次要角色」。",
-        "secondary-mcq-14": "「次級儲存」是「secondary storage」的用法，與本句語境不同。",
-        "secondary-mcq-13": "「間色／二次色」是「secondary colour」的用法，與本句語境不同。",
-        "secondary-mcq-12": "「由 X 繼發／造成」是「secondary to X」的用法，與本句語境不同。",
-        "secondary-mcq-11": "「繼發感染」是「secondary infection」的用法，與本句語境不同。",
-        "secondary-mcq-10": "「二級市場」是「secondary market」的用法，與本句語境不同。"
+        "secondary-mcq-15": "本句的「secondary characters」指「次要角色」。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-15"
     },
@@ -1231,11 +1115,9 @@ export default {
       "masked": "Our main goal is safety; speed is a ____.",
       "options": [
         "secondary-mcq-05",
-        "secondary-mcq-04",
-        "secondary-mcq-06",
-        "secondary-mcq-03",
-        "secondary-mcq-07",
-        "secondary-mcq-02"
+        "secondary-mcq-01",
+        "secondary-mcq-09",
+        "secondary-pdf-001"
       ],
       "explanation": "本句的「secondary objective」指「次要目標」。",
       "sentenceIndex": 29,
@@ -1244,12 +1126,10 @@ export default {
         "secondary objective"
       ],
       "optionReasons": {
-        "secondary-mcq-05": "本句指「次要目標」。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。"
+        "secondary-mcq-05": "本句的「secondary objective」指「次要目標」。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-05"
     },
@@ -1261,11 +1141,9 @@ export default {
       "masked": "Reducing costs was a ____.",
       "options": [
         "secondary-mcq-05",
-        "secondary-mcq-04",
-        "secondary-mcq-06",
-        "secondary-mcq-03",
-        "secondary-mcq-07",
-        "secondary-mcq-02"
+        "secondary-mcq-11",
+        "secondary-mcq-09",
+        "secondary-mcq-01"
       ],
       "explanation": "本句的「secondary objective」指「次要目標」。",
       "sentenceIndex": 30,
@@ -1274,12 +1152,10 @@ export default {
         "secondary objective"
       ],
       "optionReasons": {
-        "secondary-mcq-05": "本句指「次要目標」。",
-        "secondary-mcq-04": "「次要角色」是「secondary role」的用法，與本句語境不同。",
-        "secondary-mcq-06": "「次生／間接影響」是「secondary effect」的用法，與本句語境不同。",
-        "secondary-mcq-03": "「次要考慮」是「secondary concern」的用法，與本句語境不同。",
-        "secondary-mcq-07": "「次要原因」是「secondary cause」的用法，與本句語境不同。",
-        "secondary-mcq-02": "「中等教育」是「secondary education」的用法，與本句語境不同。"
+        "secondary-mcq-05": "本句的「secondary objective」指「次要目標」。",
+        "secondary-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "secondary-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "secondary-mcq-05"
     }
@@ -1291,5 +1167,7 @@ export default {
     "sha256": "8b6f4a549dc8d86e88493e89a866cb7d0bd225d13789cfed8a933a56a656a02b",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

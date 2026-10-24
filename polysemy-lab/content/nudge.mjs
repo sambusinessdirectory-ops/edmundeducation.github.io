@@ -365,11 +365,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "nudge-mcq-01",
-        "nudge-mcq-02",
-        "nudge-mcq-03",
         "nudge-mcq-04",
-        "nudge-mcq-05",
-        "nudge-mcq-06"
+        "nudge-mcq-16",
+        "nudge-mcq-14"
       ],
       "explanation": "本句的「nudged me with her elbow」指「用很小的力氣輕推、輕碰某人或某物」。",
       "sentenceIndex": 2,
@@ -378,12 +376,10 @@ export default {
         "nudged me with her elbow"
       ],
       "optionReasons": {
-        "nudge-mcq-01": "本句指「用很小的力氣輕推、輕碰某人或某物」。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-01": "本句的「nudged me with her elbow」指「用很小的力氣輕推、輕碰某人或某物」。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-01"
     },
@@ -395,11 +391,9 @@ export default {
       "masked": "He ____ with his foot.",
       "options": [
         "nudge-mcq-01",
-        "nudge-mcq-02",
-        "nudge-mcq-03",
         "nudge-mcq-04",
-        "nudge-mcq-05",
-        "nudge-mcq-06"
+        "nudge-mcq-14",
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudged the door open」指「用很小的力氣輕推、輕碰某人或某物」。",
       "sentenceIndex": 3,
@@ -408,12 +402,10 @@ export default {
         "nudged the door open"
       ],
       "optionReasons": {
-        "nudge-mcq-01": "本句指「用很小的力氣輕推、輕碰某人或某物」。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-01": "本句的「nudged the door open」指「用很小的力氣輕推、輕碰某人或某物」。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-01"
     },
@@ -425,11 +417,9 @@ export default {
       "masked": "Tom ____ and pointed at the clock.",
       "options": [
         "nudge-mcq-02",
-        "nudge-mcq-01",
-        "nudge-mcq-03",
+        "nudge-mcq-14",
         "nudge-mcq-04",
-        "nudge-mcq-05",
-        "nudge-mcq-06"
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudged me」指「輕推某人一下，常用來引起注意或示意」。",
       "sentenceIndex": 4,
@@ -438,12 +428,10 @@ export default {
         "nudged me"
       ],
       "optionReasons": {
-        "nudge-mcq-02": "本句指「輕推某人一下，常用來引起注意或示意」。",
-        "nudge-mcq-01": "「用很小的力氣輕推、輕碰某人或某物」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-02": "本句的「nudged me」指「輕推某人一下，常用來引起注意或示意」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-02"
     },
@@ -455,11 +443,9 @@ export default {
       "masked": "She ____ when the teacher entered.",
       "options": [
         "nudge-mcq-02",
-        "nudge-mcq-01",
-        "nudge-mcq-03",
         "nudge-mcq-04",
-        "nudge-mcq-05",
-        "nudge-mcq-06"
+        "nudge-mcq-14",
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudged her friend」指「輕推某人一下，常用來引起注意或示意」。",
       "sentenceIndex": 5,
@@ -468,12 +454,10 @@ export default {
         "nudged her friend"
       ],
       "optionReasons": {
-        "nudge-mcq-02": "本句指「輕推某人一下，常用來引起注意或示意」。",
-        "nudge-mcq-01": "「用很小的力氣輕推、輕碰某人或某物」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-02": "本句的「nudged her friend」指「輕推某人一下，常用來引起注意或示意」。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-02"
     },
@@ -485,11 +469,9 @@ export default {
       "masked": "He ____ closer to the table.",
       "options": [
         "nudge-mcq-03",
-        "nudge-mcq-02",
-        "nudge-mcq-04",
-        "nudge-mcq-01",
-        "nudge-mcq-05",
-        "nudge-mcq-06"
+        "nudge-mcq-14",
+        "nudge-mcq-09",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged the chair」指「用輕微力量把某物稍微移動」。",
       "sentenceIndex": 6,
@@ -498,12 +480,10 @@ export default {
         "nudged the chair"
       ],
       "optionReasons": {
-        "nudge-mcq-03": "本句指「用輕微力量把某物稍微移動」。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-01": "「用很小的力氣輕推、輕碰某人或某物」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-03": "本句的「nudged the chair」指「用輕微力量把某物稍微移動」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-03"
     },
@@ -515,11 +495,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "nudge-mcq-03",
-        "nudge-mcq-02",
-        "nudge-mcq-04",
-        "nudge-mcq-01",
-        "nudge-mcq-05",
-        "nudge-mcq-06"
+        "nudge-mcq-14",
+        "nudge-mcq-09",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged the cup aside」指「用輕微力量把某物稍微移動」。",
       "sentenceIndex": 7,
@@ -528,12 +506,10 @@ export default {
         "nudged the cup aside"
       ],
       "optionReasons": {
-        "nudge-mcq-03": "本句指「用輕微力量把某物稍微移動」。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-01": "「用很小的力氣輕推、輕碰某人或某物」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-03": "本句的「nudged the cup aside」指「用輕微力量把某物稍微移動」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-03"
     },
@@ -545,11 +521,9 @@ export default {
       "masked": "Can you ____ a little?",
       "options": [
         "nudge-mcq-04",
-        "nudge-mcq-03",
-        "nudge-mcq-05",
-        "nudge-mcq-02",
-        "nudge-mcq-06",
-        "nudge-mcq-01"
+        "nudge-mcq-14",
+        "nudge-mcq-01",
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudge the volume up」指「把某物或數值稍微調高、調低或移動」。",
       "sentenceIndex": 8,
@@ -558,12 +532,10 @@ export default {
         "nudge the volume up"
       ],
       "optionReasons": {
-        "nudge-mcq-04": "本句指「把某物或數值稍微調高、調低或移動」。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。",
-        "nudge-mcq-01": "「用很小的力氣輕推、輕碰某人或某物」與本句語境不同。"
+        "nudge-mcq-04": "本句的「nudge the volume up」指「把某物或數值稍微調高、調低或移動」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-04"
     },
@@ -575,11 +547,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "nudge-mcq-04",
-        "nudge-mcq-03",
-        "nudge-mcq-05",
-        "nudge-mcq-02",
-        "nudge-mcq-06",
-        "nudge-mcq-01"
+        "nudge-mcq-13",
+        "nudge-mcq-09"
       ],
       "explanation": "本句的「nudged the chair forward」指「把某物或數值稍微調高、調低或移動」。",
       "sentenceIndex": 9,
@@ -588,12 +557,9 @@ export default {
         "nudged the chair forward"
       ],
       "optionReasons": {
-        "nudge-mcq-04": "本句指「把某物或數值稍微調高、調低或移動」。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。",
-        "nudge-mcq-01": "「用很小的力氣輕推、輕碰某人或某物」與本句語境不同。"
+        "nudge-mcq-04": "本句的「nudged the chair forward」指「把某物或數值稍微調高、調低或移動」。",
+        "nudge-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-04"
     },
@@ -605,11 +571,9 @@ export default {
       "masked": "Her teacher ____.",
       "options": [
         "nudge-mcq-05",
-        "nudge-mcq-04",
-        "nudge-mcq-06",
-        "nudge-mcq-03",
-        "nudge-mcq-07",
-        "nudge-mcq-02"
+        "nudge-mcq-08",
+        "nudge-mcq-14",
+        "nudge-mcq-04"
       ],
       "explanation": "本句的「nudged her to speak more confidently」指「用溫和、非強迫的方式促使某人採取行動」。",
       "sentenceIndex": 10,
@@ -618,12 +582,10 @@ export default {
         "nudged her to speak more confidently"
       ],
       "optionReasons": {
-        "nudge-mcq-05": "本句指「用溫和、非強迫的方式促使某人採取行動」。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。"
+        "nudge-mcq-05": "本句的「nudged her to speak more confidently」指「用溫和、非強迫的方式促使某人採取行動」。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-05"
     },
@@ -635,11 +597,9 @@ export default {
       "masked": "A reminder ____.",
       "options": [
         "nudge-mcq-05",
-        "nudge-mcq-04",
-        "nudge-mcq-06",
-        "nudge-mcq-03",
-        "nudge-mcq-07",
-        "nudge-mcq-02"
+        "nudge-mcq-08",
+        "nudge-mcq-14",
+        "nudge-mcq-03"
       ],
       "explanation": "本句的「nudged me to finish the form」指「用溫和、非強迫的方式促使某人採取行動」。",
       "sentenceIndex": 11,
@@ -648,12 +608,10 @@ export default {
         "nudged me to finish the form"
       ],
       "optionReasons": {
-        "nudge-mcq-05": "本句指「用溫和、非強迫的方式促使某人採取行動」。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-02": "「輕推某人一下，常用來引起注意或示意」與本句語境不同。"
+        "nudge-mcq-05": "本句的「nudged me to finish the form」指「用溫和、非強迫的方式促使某人採取行動」。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-05"
     },
@@ -665,11 +623,9 @@ export default {
       "masked": "His mentor ____.",
       "options": [
         "nudge-mcq-06",
-        "nudge-mcq-05",
-        "nudge-mcq-07",
-        "nudge-mcq-04",
+        "nudge-mcq-14",
         "nudge-mcq-08",
-        "nudge-mcq-03"
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudged him toward a career in teaching」指「逐漸引導某人朝某個選擇、方向或結果前進」。",
       "sentenceIndex": 12,
@@ -678,12 +634,10 @@ export default {
         "nudged him toward a career in teaching"
       ],
       "optionReasons": {
-        "nudge-mcq-06": "本句指「逐漸引導某人朝某個選擇、方向或結果前進」。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。"
+        "nudge-mcq-06": "本句的「nudged him toward a career in teaching」指「逐漸引導某人朝某個選擇、方向或結果前進」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-06"
     },
@@ -695,11 +649,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "nudge-mcq-06",
-        "nudge-mcq-05",
-        "nudge-mcq-07",
-        "nudge-mcq-04",
-        "nudge-mcq-08",
-        "nudge-mcq-03"
+        "nudge-mcq-14",
+        "nudge-mcq-16",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged her toward a different way of thinking」指「逐漸引導某人朝某個選擇、方向或結果前進」。",
       "sentenceIndex": 13,
@@ -708,12 +660,10 @@ export default {
         "nudged her toward a different way of thinking"
       ],
       "optionReasons": {
-        "nudge-mcq-06": "本句指「逐漸引導某人朝某個選擇、方向或結果前進」。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-04": "「把某物或數值稍微調高、調低或移動」與本句語境不同。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。",
-        "nudge-mcq-03": "「用輕微力量把某物稍微移動」與本句語境不同。"
+        "nudge-mcq-06": "本句的「nudged her toward a different way of thinking」指「逐漸引導某人朝某個選擇、方向或結果前進」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-06"
     },
@@ -725,11 +675,9 @@ export default {
       "masked": "She gave me a ____ with her elbow.",
       "options": [
         "nudge-mcq-08",
-        "nudge-mcq-07",
-        "nudge-mcq-09",
         "nudge-mcq-06",
-        "nudge-mcq-10",
-        "nudge-mcq-05"
+        "nudge-mcq-14",
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudge」指「一次很輕的推或碰」。",
       "sentenceIndex": 16,
@@ -738,12 +686,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-08": "本句指「一次很輕的推或碰」。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-09": "「一點提醒、鼓勵或推動，促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。"
+        "nudge-mcq-08": "本句的「nudge」指「一次很輕的推或碰」。",
+        "nudge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-08"
     },
@@ -755,11 +701,9 @@ export default {
       "masked": "One small ____ moved the box forward.",
       "options": [
         "nudge-mcq-08",
-        "nudge-mcq-07",
-        "nudge-mcq-09",
         "nudge-mcq-06",
-        "nudge-mcq-10",
-        "nudge-mcq-05"
+        "nudge-mcq-14",
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudge」指「一次很輕的推或碰」。",
       "sentenceIndex": 17,
@@ -768,12 +712,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-08": "本句指「一次很輕的推或碰」。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-09": "「一點提醒、鼓勵或推動，促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。",
-        "nudge-mcq-05": "「用溫和、非強迫的方式促使某人採取行動」與本句語境不同。"
+        "nudge-mcq-08": "本句的「nudge」指「一次很輕的推或碰」。",
+        "nudge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-08"
     },
@@ -785,11 +727,9 @@ export default {
       "masked": "I needed a little ____ to get started.",
       "options": [
         "nudge-mcq-09",
-        "nudge-mcq-08",
-        "nudge-mcq-10",
-        "nudge-mcq-07",
-        "nudge-mcq-11",
-        "nudge-mcq-06"
+        "nudge-mcq-14",
+        "nudge-mcq-04",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudge」指「一點提醒、鼓勵或推動，促使某人採取行動」。",
       "sentenceIndex": 18,
@@ -798,12 +738,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-09": "本句指「一點提醒、鼓勵或推動，促使某人採取行動」。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-09": "本句的「nudge」指「一點提醒、鼓勵或推動，促使某人採取行動」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-09"
     },
@@ -815,11 +753,9 @@ export default {
       "masked": "Her message gave me the ____ I needed.",
       "options": [
         "nudge-mcq-09",
-        "nudge-mcq-08",
-        "nudge-mcq-10",
-        "nudge-mcq-07",
-        "nudge-mcq-11",
-        "nudge-mcq-06"
+        "nudge-mcq-14",
+        "nudge-mcq-04",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudge」指「一點提醒、鼓勵或推動，促使某人採取行動」。",
       "sentenceIndex": 19,
@@ -828,12 +764,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-09": "本句指「一點提醒、鼓勵或推動，促使某人採取行動」。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。",
-        "nudge-mcq-06": "「逐漸引導某人朝某個選擇、方向或結果前進」與本句語境不同。"
+        "nudge-mcq-09": "本句的「nudge」指「一點提醒、鼓勵或推動，促使某人採取行動」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-09"
     },
@@ -845,11 +779,8 @@ export default {
       "masked": "He gave me a ____ to get my attention.",
       "options": [
         "nudge-mcq-10",
-        "nudge-mcq-09",
-        "nudge-mcq-11",
-        "nudge-mcq-08",
-        "nudge-mcq-12",
-        "nudge-mcq-07"
+        "nudge-mcq-04",
+        "nudge-mcq-14"
       ],
       "explanation": "本句的「nudge」指「輕推某人一下；比喻給某人一點提醒或鼓勵」。",
       "sentenceIndex": 20,
@@ -858,12 +789,9 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-10": "本句指「輕推某人一下；比喻給某人一點提醒或鼓勵」。",
-        "nudge-mcq-09": "「一點提醒、鼓勵或推動，促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。"
+        "nudge-mcq-10": "本句的「nudge」指「輕推某人一下；比喻給某人一點提醒或鼓勵」。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-10"
     },
@@ -875,11 +803,8 @@ export default {
       "masked": "My friend gave me the ____ I needed to apply.",
       "options": [
         "nudge-mcq-10",
-        "nudge-mcq-09",
-        "nudge-mcq-11",
-        "nudge-mcq-08",
-        "nudge-mcq-12",
-        "nudge-mcq-07"
+        "nudge-mcq-04",
+        "nudge-mcq-14"
       ],
       "explanation": "本句的「nudge」指「輕推某人一下；比喻給某人一點提醒或鼓勵」。",
       "sentenceIndex": 21,
@@ -888,12 +813,9 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-10": "本句指「輕推某人一下；比喻給某人一點提醒或鼓勵」。",
-        "nudge-mcq-09": "「一點提醒、鼓勵或推動，促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-07": "「不強迫，而是透過小幅改變或提示影響行為」與本句語境不同。"
+        "nudge-mcq-10": "本句的「nudge」指「輕推某人一下；比喻給某人一點提醒或鼓勵」。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-10"
     },
@@ -905,11 +827,9 @@ export default {
       "masked": "The teacher did not give me the answer, just a ____.",
       "options": [
         "nudge-mcq-11",
-        "nudge-mcq-10",
-        "nudge-mcq-12",
-        "nudge-mcq-09",
-        "nudge-mcq-13",
-        "nudge-mcq-08"
+        "nudge-mcq-08",
+        "nudge-mcq-16",
+        "nudge-mcq-14"
       ],
       "explanation": "本句的「nudge in the right direction」指「給某人一點幫助或引導，使其朝較好的方向前進」。",
       "sentenceIndex": 22,
@@ -918,12 +838,10 @@ export default {
         "nudge in the right direction"
       ],
       "optionReasons": {
-        "nudge-mcq-11": "本句指「給某人一點幫助或引導，使其朝較好的方向前進」。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-09": "「一點提醒、鼓勵或推動，促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。"
+        "nudge-mcq-11": "本句的「nudge in the right direction」指「給某人一點幫助或引導，使其朝較好的方向前進」。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-11"
     },
@@ -935,11 +853,9 @@ export default {
       "masked": "Her encouragement was the ____ that I needed.",
       "options": [
         "nudge-mcq-11",
-        "nudge-mcq-10",
-        "nudge-mcq-12",
-        "nudge-mcq-09",
-        "nudge-mcq-13",
-        "nudge-mcq-08"
+        "nudge-mcq-08",
+        "nudge-mcq-14",
+        "nudge-mcq-16"
       ],
       "explanation": "本句的「nudge in the right direction」指「給某人一點幫助或引導，使其朝較好的方向前進」。",
       "sentenceIndex": 23,
@@ -948,12 +864,10 @@ export default {
         "nudge in the right direction"
       ],
       "optionReasons": {
-        "nudge-mcq-11": "本句指「給某人一點幫助或引導，使其朝較好的方向前進」。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-09": "「一點提醒、鼓勵或推動，促使某人採取行動」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-08": "「一次很輕的推或碰」與本句語境不同。"
+        "nudge-mcq-11": "本句的「nudge in the right direction」指「給某人一點幫助或引導，使其朝較好的方向前進」。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-11"
     },
@@ -965,11 +879,8 @@ export default {
       "masked": "____ is often discussed in behavioral economics.",
       "options": [
         "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-14",
-        "nudge-mcq-11",
-        "nudge-mcq-15",
-        "nudge-mcq-10"
+        "nudge-mcq-05",
+        "nudge-mcq-04"
       ],
       "explanation": "本句的「Nudge theory」指「利用小幅選擇設計來影響決策的輕推／助推理論」。",
       "sentenceIndex": 26,
@@ -978,12 +889,9 @@ export default {
         "Nudge theory"
       ],
       "optionReasons": {
-        "nudge-mcq-13": "本句指「利用小幅選擇設計來影響決策的輕推／助推理論」。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。"
+        "nudge-mcq-13": "本句的「Nudge theory」指「利用小幅選擇設計來影響決策的輕推／助推理論」。",
+        "nudge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-13"
     },
@@ -995,11 +903,8 @@ export default {
       "masked": "The campaign applies principles from ____.",
       "options": [
         "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-14",
-        "nudge-mcq-11",
-        "nudge-mcq-15",
-        "nudge-mcq-10"
+        "nudge-mcq-04",
+        "nudge-mcq-05"
       ],
       "explanation": "本句的「nudge theory」指「利用小幅選擇設計來影響決策的輕推／助推理論」。",
       "sentenceIndex": 27,
@@ -1008,12 +913,9 @@ export default {
         "nudge theory"
       ],
       "optionReasons": {
-        "nudge-mcq-13": "本句指「利用小幅選擇設計來影響決策的輕推／助推理論」。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-10": "「輕推某人一下；比喻給某人一點提醒或鼓勵」與本句語境不同。"
+        "nudge-mcq-13": "本句的「nudge theory」指「利用小幅選擇設計來影響決策的輕推／助推理論」。",
+        "nudge-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-13"
     },
@@ -1025,11 +927,9 @@ export default {
       "masked": "Higher demand ____.",
       "options": [
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-15",
-        "nudge-mcq-12",
-        "nudge-mcq-16",
-        "nudge-mcq-11"
+        "nudge-mcq-03",
+        "nudge-mcq-05",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged prices upward」指「使價格、比率等小幅上升或下降」。",
       "sentenceIndex": 28,
@@ -1038,12 +938,10 @@ export default {
         "nudged prices upward"
       ],
       "optionReasons": {
-        "nudge-mcq-14": "本句指「使價格、比率等小幅上升或下降」。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-16": "「溫和而不具強迫性的提醒、鼓勵或推動」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-14": "本句的「nudged prices upward」指「使價格、比率等小幅上升或下降」。",
+        "nudge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-14"
     },
@@ -1055,11 +953,9 @@ export default {
       "masked": "The announcement ____.",
       "options": [
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-15",
-        "nudge-mcq-12",
+        "nudge-mcq-11",
         "nudge-mcq-16",
-        "nudge-mcq-11"
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged the share price higher」指「使價格、比率等小幅上升或下降」。",
       "sentenceIndex": 29,
@@ -1068,12 +964,10 @@ export default {
         "nudged the share price higher"
       ],
       "optionReasons": {
-        "nudge-mcq-14": "本句指「使價格、比率等小幅上升或下降」。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-16": "「溫和而不具強迫性的提醒、鼓勵或推動」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-14": "本句的「nudged the share price higher」指「使價格、比率等小幅上升或下降」。",
+        "nudge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-14"
     },
@@ -1085,11 +979,9 @@ export default {
       "masked": "The app sends a ____ if you forget to log your progress.",
       "options": [
         "nudge-mcq-15",
-        "nudge-mcq-14",
-        "nudge-mcq-16",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-08",
+        "nudge-mcq-03",
+        "nudge-mcq-14"
       ],
       "explanation": "本句的「nudge」指「用來提醒並促使某人採取行動的小提示」。",
       "sentenceIndex": 30,
@@ -1098,12 +990,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-15": "本句指「用來提醒並促使某人採取行動的小提示」。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-16": "「溫和而不具強迫性的提醒、鼓勵或推動」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-15": "本句的「nudge」指「用來提醒並促使某人採取行動的小提示」。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-15"
     },
@@ -1115,11 +1005,9 @@ export default {
       "masked": "I sent him a gentle ____ about the deadline.",
       "options": [
         "nudge-mcq-15",
+        "nudge-mcq-08",
         "nudge-mcq-14",
-        "nudge-mcq-16",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-03"
       ],
       "explanation": "本句的「nudge」指「用來提醒並促使某人採取行動的小提示」。",
       "sentenceIndex": 31,
@@ -1128,12 +1016,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-15": "本句指「用來提醒並促使某人採取行動的小提示」。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-16": "「溫和而不具強迫性的提醒、鼓勵或推動」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-15": "本句的「nudge」指「用來提醒並促使某人採取行動的小提示」。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-15"
     },
@@ -1145,11 +1031,9 @@ export default {
       "masked": "She ____ toward the door.",
       "options": [
         "nudge-mcq-16",
-        "nudge-mcq-15",
+        "nudge-mcq-06",
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged me」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
       "sentenceIndex": 34,
@@ -1158,12 +1042,10 @@ export default {
         "nudged me"
       ],
       "optionReasons": {
-        "nudge-mcq-16": "本句指「溫和而不具強迫性的提醒、鼓勵或推動」。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-16": "本句的「nudged me」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
+        "nudge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-16"
     },
@@ -1175,11 +1057,9 @@ export default {
       "masked": "The experience ____.",
       "options": [
         "nudge-mcq-16",
-        "nudge-mcq-15",
+        "nudge-mcq-11",
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudged me toward a different career path」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
       "sentenceIndex": 35,
@@ -1188,12 +1068,10 @@ export default {
         "nudged me toward a different career path"
       ],
       "optionReasons": {
-        "nudge-mcq-16": "本句指「溫和而不具強迫性的提醒、鼓勵或推動」。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-16": "本句的「nudged me toward a different career path」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
+        "nudge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-16"
     },
@@ -1205,11 +1083,9 @@ export default {
       "masked": "Sometimes a ____ is enough.",
       "options": [
         "nudge-mcq-16",
-        "nudge-mcq-15",
+        "nudge-mcq-06",
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「gentle nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
       "sentenceIndex": 36,
@@ -1218,12 +1094,10 @@ export default {
         "gentle nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-16": "本句指「溫和而不具強迫性的提醒、鼓勵或推動」。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-16": "本句的「gentle nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
+        "nudge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-16"
     },
@@ -1235,11 +1109,9 @@ export default {
       "masked": "She gave the team a ____ to finish on time.",
       "options": [
         "nudge-mcq-16",
-        "nudge-mcq-15",
+        "nudge-mcq-06",
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「gentle nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
       "sentenceIndex": 37,
@@ -1248,12 +1120,10 @@ export default {
         "gentle nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-16": "本句指「溫和而不具強迫性的提醒、鼓勵或推動」。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-16": "本句的「gentle nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
+        "nudge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-16"
     },
@@ -1265,11 +1135,9 @@ export default {
       "masked": "I knew what to do; I just needed a ____.",
       "options": [
         "nudge-mcq-16",
-        "nudge-mcq-15",
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-11",
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
       "sentenceIndex": 38,
@@ -1278,12 +1146,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-16": "本句指「溫和而不具強迫性的提醒、鼓勵或推動」。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-16": "本句的「nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-16"
     },
@@ -1295,11 +1161,9 @@ export default {
       "masked": "Some students need a small ____ before they speak up.",
       "options": [
         "nudge-mcq-16",
-        "nudge-mcq-15",
+        "nudge-mcq-06",
         "nudge-mcq-14",
-        "nudge-mcq-13",
-        "nudge-mcq-12",
-        "nudge-mcq-11"
+        "nudge-mcq-08"
       ],
       "explanation": "本句的「nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
       "sentenceIndex": 39,
@@ -1308,12 +1172,10 @@ export default {
         "nudge"
       ],
       "optionReasons": {
-        "nudge-mcq-16": "本句指「溫和而不具強迫性的提醒、鼓勵或推動」。",
-        "nudge-mcq-15": "「用來提醒並促使某人採取行動的小提示」與本句語境不同。",
-        "nudge-mcq-14": "「使價格、比率等小幅上升或下降」與本句語境不同。",
-        "nudge-mcq-13": "「利用小幅選擇設計來影響決策的輕推／助推理論」與本句語境不同。",
-        "nudge-mcq-12": "「透過選擇環境的小改變，在不強迫的情況下影響行為」與本句語境不同。",
-        "nudge-mcq-11": "「給某人一點幫助或引導，使其朝較好的方向前進」與本句語境不同。"
+        "nudge-mcq-16": "本句的「nudge」指「溫和而不具強迫性的提醒、鼓勵或推動」。",
+        "nudge-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "nudge-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "nudge-mcq-16"
     }
@@ -1325,5 +1187,7 @@ export default {
     "sha256": "6ff196e416f1e4e715f186c09e9fab5d7571c8a7717028a2bf04f56b1ab2fe37",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

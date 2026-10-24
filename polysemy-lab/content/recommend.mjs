@@ -185,11 +185,7 @@ export default {
       "masked": "Several friends kept ____ the book to me.",
       "options": [
         "recommend-pdf-001",
-        "recommend-mcq-02",
-        "recommend-mcq-03",
-        "recommend-mcq-04",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-mcq-03"
       ],
       "explanation": "本句的「recommending」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
       "sentenceIndex": 0,
@@ -198,12 +194,8 @@ export default {
         "recommending"
       ],
       "optionReasons": {
-        "recommend-pdf-001": "本句指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-pdf-001": "本句的「recommending」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
+        "recommend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-pdf-001"
     },
@@ -215,11 +207,7 @@ export default {
       "masked": "Can you ____ a good restaurant?",
       "options": [
         "recommend-pdf-001",
-        "recommend-mcq-02",
-        "recommend-mcq-03",
-        "recommend-mcq-04",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-mcq-03"
       ],
       "explanation": "本句的「recommend」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
       "sentenceIndex": 1,
@@ -228,12 +216,8 @@ export default {
         "recommend"
       ],
       "optionReasons": {
-        "recommend-pdf-001": "本句指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-pdf-001": "本句的「recommend」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
+        "recommend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-pdf-001"
     },
@@ -245,11 +229,7 @@ export default {
       "masked": "I would highly ____ this course.",
       "options": [
         "recommend-pdf-001",
-        "recommend-mcq-02",
-        "recommend-mcq-03",
-        "recommend-mcq-04",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-mcq-03"
       ],
       "explanation": "本句的「recommend」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
       "sentenceIndex": 2,
@@ -258,12 +238,8 @@ export default {
         "recommend"
       ],
       "optionReasons": {
-        "recommend-pdf-001": "本句指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-pdf-001": "本句的「recommend」指「根據自己的判斷，告訴別人某人／某事物值得選擇、使用或嘗試」。",
+        "recommend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-pdf-001"
     },
@@ -275,11 +251,7 @@ export default {
       "masked": "The doctor ____ more rest.",
       "options": [
         "recommend-mcq-02",
-        "recommend-mcq-01",
-        "recommend-mcq-03",
-        "recommend-mcq-04",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-mcq-07"
       ],
       "explanation": "本句的「recommended」指「根據判斷或經驗，建議採取某種做法」。",
       "sentenceIndex": 3,
@@ -288,12 +260,8 @@ export default {
         "recommended"
       ],
       "optionReasons": {
-        "recommend-mcq-02": "本句指「根據判斷或經驗，建議採取某種做法」。",
-        "recommend-mcq-01": "「認為某人／某物很好或合適，因此推薦給別人」是「recommend — thing/person」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-mcq-02": "本句的「recommended」指「根據判斷或經驗，建議採取某種做法」。",
+        "recommend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-02"
     },
@@ -305,11 +273,7 @@ export default {
       "masked": "I ____ taking the earlier train.",
       "options": [
         "recommend-mcq-02",
-        "recommend-mcq-01",
-        "recommend-mcq-03",
-        "recommend-mcq-04",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-mcq-07"
       ],
       "explanation": "本句的「recommend」指「根據判斷或經驗，建議採取某種做法」。",
       "sentenceIndex": 4,
@@ -318,12 +282,8 @@ export default {
         "recommend"
       ],
       "optionReasons": {
-        "recommend-mcq-02": "本句指「根據判斷或經驗，建議採取某種做法」。",
-        "recommend-mcq-01": "「認為某人／某物很好或合適，因此推薦給別人」是「recommend — thing/person」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-mcq-02": "本句的「recommend」指「根據判斷或經驗，建議採取某種做法」。",
+        "recommend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-02"
     },
@@ -335,11 +295,7 @@ export default {
       "masked": "The committee ____ several changes.",
       "options": [
         "recommend-mcq-03",
-        "recommend-mcq-02",
-        "recommend-mcq-04",
-        "recommend-mcq-01",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-pdf-001"
       ],
       "explanation": "本句的「recommended」指「以較正式或專業方式提出建議；通常可併入 advice 義」。",
       "sentenceIndex": 5,
@@ -348,12 +304,8 @@ export default {
         "recommended"
       ],
       "optionReasons": {
-        "recommend-mcq-03": "本句指「以較正式或專業方式提出建議；通常可併入 advice 義」。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-01": "「認為某人／某物很好或合適，因此推薦給別人」是「recommend — thing/person」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-mcq-03": "本句的「recommended」指「以較正式或專業方式提出建議；通常可併入 advice 義」。",
+        "recommend-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-03"
     },
@@ -365,11 +317,7 @@ export default {
       "masked": "The report ____ further research.",
       "options": [
         "recommend-mcq-03",
-        "recommend-mcq-02",
-        "recommend-mcq-04",
-        "recommend-mcq-01",
-        "recommend-mcq-05",
-        "recommend-mcq-06"
+        "recommend-mcq-05"
       ],
       "explanation": "本句的「recommends」指「以較正式或專業方式提出建議；通常可併入 advice 義」。",
       "sentenceIndex": 6,
@@ -378,12 +326,8 @@ export default {
         "recommends"
       ],
       "optionReasons": {
-        "recommend-mcq-03": "本句指「以較正式或專業方式提出建議；通常可併入 advice 義」。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-01": "「認為某人／某物很好或合適，因此推薦給別人」是「recommend — thing/person」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。"
+        "recommend-mcq-03": "本句的「recommends」指「以較正式或專業方式提出建議；通常可併入 advice 義」。",
+        "recommend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-03"
     },
@@ -395,11 +339,7 @@ export default {
       "masked": "She was ____ for promotion.",
       "options": [
         "recommend-mcq-04",
-        "recommend-mcq-03",
-        "recommend-mcq-05",
-        "recommend-mcq-02",
-        "recommend-mcq-06",
-        "recommend-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「recommended」指「認為某人適合某職位、機會或榮譽，因此加以推薦」。",
       "sentenceIndex": 7,
@@ -408,12 +348,8 @@ export default {
         "recommended"
       ],
       "optionReasons": {
-        "recommend-mcq-04": "本句指「認為某人適合某職位、機會或榮譽，因此加以推薦」。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。",
-        "recommend-mcq-01": "「認為某人／某物很好或合適，因此推薦給別人」是「recommend — thing/person」的用法，與本句語境不同。"
+        "recommend-mcq-04": "本句的「recommended」指「認為某人適合某職位、機會或榮譽，因此加以推薦」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-04"
     },
@@ -425,11 +361,7 @@ export default {
       "masked": "His manager ____ him for the position.",
       "options": [
         "recommend-mcq-04",
-        "recommend-mcq-03",
-        "recommend-mcq-05",
-        "recommend-mcq-02",
-        "recommend-mcq-06",
-        "recommend-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「recommended」指「認為某人適合某職位、機會或榮譽，因此加以推薦」。",
       "sentenceIndex": 8,
@@ -438,12 +370,8 @@ export default {
         "recommended"
       ],
       "optionReasons": {
-        "recommend-mcq-04": "本句指「認為某人適合某職位、機會或榮譽，因此加以推薦」。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。",
-        "recommend-mcq-01": "「認為某人／某物很好或合適，因此推薦給別人」是「recommend — thing/person」的用法，與本句語境不同。"
+        "recommend-mcq-04": "本句的「recommended」指「認為某人適合某職位、機會或榮譽，因此加以推薦」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-04"
     },
@@ -455,11 +383,7 @@ export default {
       "masked": "His experience ____ him for the role.",
       "options": [
         "recommend-mcq-05",
-        "recommend-mcq-04",
-        "recommend-mcq-06",
-        "recommend-mcq-03",
-        "recommend-mcq-07",
-        "recommend-mcq-02"
+        "recommend-mcq-06"
       ],
       "explanation": "本句的「recommends」指「某種特點令某人／某物顯得值得考慮或選擇」。",
       "sentenceIndex": 9,
@@ -468,12 +392,8 @@ export default {
         "recommends"
       ],
       "optionReasons": {
-        "recommend-mcq-05": "本句指「某種特點令某人／某物顯得值得考慮或選擇」。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-07": "「值得推薦的；較低頻」是「recommendable」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。"
+        "recommend-mcq-05": "本句的「recommends」指「某種特點令某人／某物顯得值得考慮或選擇」。",
+        "recommend-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-05"
     },
@@ -485,11 +405,7 @@ export default {
       "masked": "Its simplicity ____ it to beginners.",
       "options": [
         "recommend-mcq-05",
-        "recommend-mcq-04",
-        "recommend-mcq-06",
-        "recommend-mcq-03",
-        "recommend-mcq-07",
-        "recommend-mcq-02"
+        "recommend-mcq-03"
       ],
       "explanation": "本句的「recommends」指「某種特點令某人／某物顯得值得考慮或選擇」。",
       "sentenceIndex": 10,
@@ -498,12 +414,8 @@ export default {
         "recommends"
       ],
       "optionReasons": {
-        "recommend-mcq-05": "本句指「某種特點令某人／某物顯得值得考慮或選擇」。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-07": "「值得推薦的；較低頻」是「recommendable」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。"
+        "recommend-mcq-05": "本句的「recommends」指「某種特點令某人／某物顯得值得考慮或選擇」。",
+        "recommend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-05"
     },
@@ -515,11 +427,7 @@ export default {
       "masked": "The report makes several useful ____.",
       "options": [
         "recommend-mcq-06",
-        "recommend-mcq-05",
-        "recommend-mcq-07",
-        "recommend-mcq-04",
-        "recommend-mcq-03",
-        "recommend-mcq-02"
+        "recommend-mcq-05"
       ],
       "explanation": "本句的「recommendations」指「建議；推薦；正式推薦意見」。",
       "sentenceIndex": 11,
@@ -528,12 +436,8 @@ export default {
         "recommendations"
       ],
       "optionReasons": {
-        "recommend-mcq-06": "本句指「建議；推薦；正式推薦意見」。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-07": "「值得推薦的；較低頻」是「recommendable」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。"
+        "recommend-mcq-06": "本句的「recommendations」指「建議；推薦；正式推薦意見」。",
+        "recommend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-06"
     },
@@ -545,11 +449,7 @@ export default {
       "masked": "I bought the book on a friend’s ____.",
       "options": [
         "recommend-mcq-06",
-        "recommend-mcq-05",
-        "recommend-mcq-07",
-        "recommend-mcq-04",
-        "recommend-mcq-03",
-        "recommend-mcq-02"
+        "recommend-mcq-05"
       ],
       "explanation": "本句的「recommendation」指「建議；推薦；正式推薦意見」。",
       "sentenceIndex": 12,
@@ -558,12 +458,8 @@ export default {
         "recommendation"
       ],
       "optionReasons": {
-        "recommend-mcq-06": "本句指「建議；推薦；正式推薦意見」。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-07": "「值得推薦的；較低頻」是「recommendable」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。"
+        "recommend-mcq-06": "本句的「recommendation」指「建議；推薦；正式推薦意見」。",
+        "recommend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-06"
     },
@@ -575,11 +471,7 @@ export default {
       "masked": "She asked her professor for a ____.",
       "options": [
         "recommend-mcq-06",
-        "recommend-mcq-05",
-        "recommend-mcq-07",
-        "recommend-mcq-04",
-        "recommend-mcq-03",
-        "recommend-mcq-02"
+        "recommend-mcq-05"
       ],
       "explanation": "本句的「recommendation」指「建議；推薦；正式推薦意見」。",
       "sentenceIndex": 13,
@@ -588,12 +480,8 @@ export default {
         "recommendation"
       ],
       "optionReasons": {
-        "recommend-mcq-06": "本句指「建議；推薦；正式推薦意見」。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-07": "「值得推薦的；較低頻」是「recommendable」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。"
+        "recommend-mcq-06": "本句的「recommendation」指「建議；推薦；正式推薦意見」。",
+        "recommend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-06"
     },
@@ -605,10 +493,6 @@ export default {
       "masked": "It is a highly ____ introduction to the subject.",
       "options": [
         "recommend-mcq-07",
-        "recommend-mcq-06",
-        "recommend-mcq-05",
-        "recommend-mcq-04",
-        "recommend-mcq-03",
         "recommend-mcq-02"
       ],
       "explanation": "本句的「recommendable」指「值得推薦的；較低頻」。",
@@ -618,12 +502,8 @@ export default {
         "recommendable"
       ],
       "optionReasons": {
-        "recommend-mcq-07": "本句指「值得推薦的；較低頻」。",
-        "recommend-mcq-06": "「建議；推薦；正式推薦意見」是「recommendation」的用法，與本句語境不同。",
-        "recommend-mcq-05": "「某種特點令某人／某物顯得值得考慮或選擇」是「recommend — formal quality sense」的用法，與本句語境不同。",
-        "recommend-mcq-04": "「認為某人適合某職位、機會或榮譽，因此加以推薦」是「recommend someone for something」的用法，與本句語境不同。",
-        "recommend-mcq-03": "「以較正式或專業方式提出建議；通常可併入 advice 義」是「recommend — formal proposal」的用法，與本句語境不同。",
-        "recommend-mcq-02": "「根據判斷或經驗，建議採取某種做法」是「recommend — action」的用法，與本句語境不同。"
+        "recommend-mcq-07": "本句的「recommendable」指「值得推薦的；較低頻」。",
+        "recommend-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "recommend-mcq-07"
     }
@@ -635,5 +515,12 @@ export default {
     "sha256": "2f013ba47830d103be176d173f64456b6678629b78102185fa9fcb2ccf1f5f3d",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

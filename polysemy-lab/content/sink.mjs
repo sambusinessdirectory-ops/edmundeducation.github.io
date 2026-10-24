@@ -66,16 +66,6 @@ export default {
           "The business gradually sank into debt.",
           "那門生意逐漸陷入債務困境。",
           "逐漸陷入某種較低落、困難或負面的狀態"
-        ],
-        [
-          "The rainwater slowly sank into the dry soil.",
-          "雨水慢慢滲入乾燥的泥土。",
-          "逐漸陷入某種較低落、困難或負面的狀態"
-        ],
-        [
-          "Her feet sank into the soft sand.",
-          "她的雙腳陷入柔軟的沙中。",
-          "逐漸陷入某種較低落、困難或負面的狀態"
         ]
       ],
       "options": [],
@@ -217,6 +207,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "sink-reviewed-fa6e38095d",
+      "title": "向下進入柔軟、鬆散或可吸收的物質中",
+      "form": "sink · source section 7",
+      "en": "向下進入柔軟、鬆散或可吸收的物質中",
+      "zh": "向下進入柔軟、鬆散或可吸收的物質中",
+      "note": "對照原始教材第 7 節及例句核實。",
+      "examples": [
+        [
+          "The rainwater slowly sank into the dry soil.",
+          "雨水慢慢滲入乾燥的泥土。",
+          "向下進入柔軟、鬆散或可吸收的物質中"
+        ],
+        [
+          "Her feet sank into the soft sand.",
+          "她的雙腳陷入柔軟的沙中。",
+          "向下進入柔軟、鬆散或可吸收的物質中"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -228,10 +240,8 @@ export default {
       "masked": "The stone ____ to the bottom of the lake.",
       "options": [
         "sink-mcq-01",
-        "sink-mcq-02",
+        "sink-mcq-07",
         "sink-mcq-03",
-        "sink-mcq-04",
-        "sink-mcq-05",
         "sink-mcq-06"
       ],
       "explanation": "本句的「sank」指「向下移動，尤其沉到水面或其他表面以下」。",
@@ -241,12 +251,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-01": "本句指「向下移動，尤其沉到水面或其他表面以下」。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-mcq-01": "本句的「sank」指「向下移動，尤其沉到水面或其他表面以下」。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-01"
     },
@@ -259,9 +267,7 @@ export default {
       "options": [
         "sink-mcq-01",
         "sink-mcq-02",
-        "sink-mcq-03",
-        "sink-mcq-04",
-        "sink-mcq-05",
+        "sink-mcq-07",
         "sink-mcq-06"
       ],
       "explanation": "本句的「sink」指「向下移動，尤其沉到水面或其他表面以下」。",
@@ -271,12 +277,10 @@ export default {
         "sink"
       ],
       "optionReasons": {
-        "sink-mcq-01": "本句指「向下移動，尤其沉到水面或其他表面以下」。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-mcq-01": "本句的「sink」指「向下移動，尤其沉到水面或其他表面以下」。",
+        "sink-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-01"
     },
@@ -289,10 +293,8 @@ export default {
       "options": [
         "sink-mcq-02",
         "sink-mcq-01",
-        "sink-mcq-03",
         "sink-mcq-04",
-        "sink-mcq-05",
-        "sink-mcq-06"
+        "sink-mcq-07"
       ],
       "explanation": "本句的「sank」指「位置、數值、情緒、信心或狀態逐漸下降」。",
       "sentenceIndex": 2,
@@ -301,12 +303,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-02": "本句指「位置、數值、情緒、信心或狀態逐漸下降」。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-mcq-02": "本句的「sank」指「位置、數值、情緒、信心或狀態逐漸下降」。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-02"
     },
@@ -318,11 +318,9 @@ export default {
       "masked": "The temperature ____ rapidly after sunset.",
       "options": [
         "sink-mcq-02",
+        "sink-mcq-06",
         "sink-mcq-01",
-        "sink-mcq-03",
-        "sink-mcq-04",
-        "sink-mcq-05",
-        "sink-mcq-06"
+        "sink-mcq-07"
       ],
       "explanation": "本句的「sank」指「位置、數值、情緒、信心或狀態逐漸下降」。",
       "sentenceIndex": 3,
@@ -331,12 +329,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-02": "本句指「位置、數值、情緒、信心或狀態逐漸下降」。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-mcq-02": "本句的「sank」指「位置、數值、情緒、信心或狀態逐漸下降」。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-02"
     },
@@ -348,11 +344,9 @@ export default {
       "masked": "He ____ into the chair after the long day.",
       "options": [
         "sink-mcq-07",
-        "sink-mcq-06",
-        "sink-mcq-08",
-        "sink-mcq-05",
-        "sink-mcq-04",
-        "sink-mcq-03"
+        "sink-mcq-02",
+        "sink-mcq-01",
+        "sink-mcq-04"
       ],
       "explanation": "本句的「sank」指「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」。",
       "sentenceIndex": 4,
@@ -361,12 +355,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-07": "本句指「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-08": "「數值、信心、情緒、希望等降到較低程度」是「5. sink = decrease in value, confidence, hope, etc.（下降） — 下跌；低落」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。"
+        "sink-mcq-07": "本句的「sank」指「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」。",
+        "sink-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-07"
     },
@@ -378,11 +370,9 @@ export default {
       "masked": "She ____ back onto the sofa.",
       "options": [
         "sink-mcq-07",
-        "sink-mcq-06",
-        "sink-mcq-08",
         "sink-mcq-05",
-        "sink-mcq-04",
-        "sink-mcq-03"
+        "sink-mcq-01",
+        "sink-mcq-04"
       ],
       "explanation": "本句的「sank」指「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」。",
       "sentenceIndex": 5,
@@ -391,12 +381,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-07": "本句指「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-08": "「數值、信心、情緒、希望等降到較低程度」是「5. sink = decrease in value, confidence, hope, etc.（下降） — 下跌；低落」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。"
+        "sink-mcq-07": "本句的「sank」指「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-07"
     },
@@ -408,10 +396,8 @@ export default {
       "masked": "He ____ into depression after the loss.",
       "options": [
         "sink-mcq-03",
-        "sink-mcq-02",
-        "sink-mcq-04",
         "sink-mcq-01",
-        "sink-mcq-05",
+        "sink-mcq-04",
         "sink-mcq-06"
       ],
       "explanation": "本句的「sank」指「逐漸陷入某種較低落、困難或負面的狀態」。",
@@ -421,12 +407,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-03": "本句指「逐漸陷入某種較低落、困難或負面的狀態」。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-mcq-03": "本句的「sank」指「逐漸陷入某種較低落、困難或負面的狀態」。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-03"
     },
@@ -438,11 +422,9 @@ export default {
       "masked": "The business gradually ____ into debt.",
       "options": [
         "sink-mcq-03",
-        "sink-mcq-02",
         "sink-mcq-04",
-        "sink-mcq-01",
-        "sink-mcq-05",
-        "sink-mcq-06"
+        "sink-mcq-06",
+        "sink-mcq-01"
       ],
       "explanation": "本句的「sank」指「逐漸陷入某種較低落、困難或負面的狀態」。",
       "sentenceIndex": 7,
@@ -451,12 +433,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-03": "本句指「逐漸陷入某種較低落、困難或負面的狀態」。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-mcq-03": "本句的「sank」指「逐漸陷入某種較低落、困難或負面的狀態」。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-03"
     },
@@ -468,11 +448,9 @@ export default {
       "masked": "Share prices ____ after the announcement.",
       "options": [
         "sink-mcq-08",
-        "sink-mcq-07",
-        "sink-mcq-06",
-        "sink-mcq-05",
-        "sink-mcq-04",
-        "sink-mcq-03"
+        "sink-reviewed-fa6e38095d",
+        "sink-pdf-001",
+        "sink-mcq-05"
       ],
       "explanation": "本句的「sank」指「數值、信心、情緒、希望等降到較低程度」。",
       "sentenceIndex": 8,
@@ -481,12 +459,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-08": "本句指「數值、信心、情緒、希望等降到較低程度」。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。"
+        "sink-mcq-08": "本句的「sank」指「數值、信心、情緒、希望等降到較低程度」。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。",
+        "sink-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-08"
     },
@@ -498,11 +474,9 @@ export default {
       "masked": "His confidence ____ after the failure.",
       "options": [
         "sink-mcq-08",
-        "sink-mcq-07",
-        "sink-mcq-06",
+        "sink-mcq-01",
         "sink-mcq-05",
-        "sink-mcq-04",
-        "sink-mcq-03"
+        "sink-mcq-04"
       ],
       "explanation": "本句的「sank」指「數值、信心、情緒、希望等降到較低程度」。",
       "sentenceIndex": 9,
@@ -511,12 +485,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-08": "本句指「數值、信心、情緒、希望等降到較低程度」。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。"
+        "sink-mcq-08": "本句的「sank」指「數值、信心、情緒、希望等降到較低程度」。",
+        "sink-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-08"
     },
@@ -528,11 +500,9 @@ export default {
       "masked": "Little by little, the lesson ____.",
       "options": [
         "sink-mcq-05",
-        "sink-mcq-04",
         "sink-mcq-06",
-        "sink-mcq-03",
-        "sink-mcq-07",
-        "sink-mcq-02"
+        "sink-mcq-04",
+        "sink-mcq-07"
       ],
       "explanation": "本句的「sank in」指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
       "sentenceIndex": 10,
@@ -541,12 +511,10 @@ export default {
         "sank in"
       ],
       "optionReasons": {
-        "sink-mcq-05": "本句指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。"
+        "sink-mcq-05": "本句的「sank in」指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-05"
     },
@@ -558,11 +526,9 @@ export default {
       "masked": "It took a few minutes for the news to ____.",
       "options": [
         "sink-mcq-05",
-        "sink-mcq-04",
+        "sink-reviewed-fa6e38095d",
         "sink-mcq-06",
-        "sink-mcq-03",
-        "sink-mcq-07",
-        "sink-mcq-02"
+        "sink-mcq-07"
       ],
       "explanation": "本句的「sink in」指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
       "sentenceIndex": 11,
@@ -571,12 +537,10 @@ export default {
         "sink in"
       ],
       "optionReasons": {
-        "sink-mcq-05": "本句指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。"
+        "sink-mcq-05": "本句的「sink in」指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-05"
     },
@@ -588,11 +552,9 @@ export default {
       "masked": "His advice did not ____ immediately.",
       "options": [
         "sink-mcq-05",
-        "sink-mcq-04",
         "sink-mcq-06",
-        "sink-mcq-03",
         "sink-mcq-07",
-        "sink-mcq-02"
+        "sink-mcq-08"
       ],
       "explanation": "本句的「sink in」指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
       "sentenceIndex": 12,
@@ -601,74 +563,68 @@ export default {
         "sink in"
       ],
       "optionReasons": {
-        "sink-mcq-05": "本句指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。"
+        "sink-mcq-05": "本句的「sink in」指「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-05"
     },
     {
       "id": "sink-07-0",
-      "sense": "sink-mcq-03",
+      "sense": "sink-reviewed-fa6e38095d",
       "en": "The rainwater slowly sank into the dry soil.",
       "zh": "雨水慢慢滲入乾燥的泥土。",
       "masked": "The rainwater slowly ____ the dry soil.",
       "options": [
-        "sink-mcq-03",
+        "sink-reviewed-fa6e38095d",
         "sink-mcq-02",
-        "sink-mcq-04",
-        "sink-mcq-01",
-        "sink-mcq-05",
-        "sink-mcq-06"
+        "sink-mcq-06",
+        "sink-mcq-04"
       ],
-      "explanation": "本句的「sank into」指「逐漸陷入某種較低落、困難或負面的狀態」。",
+      "explanation": "對照完整句子：「雨水慢慢滲入乾燥的泥土。」。這裡的「sank into」表示「向下進入柔軟、鬆散或可吸收的物質中」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "sank into"
       ],
       "optionReasons": {
-        "sink-mcq-03": "本句指「逐漸陷入某種較低落、困難或負面的狀態」。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-reviewed-fa6e38095d": "對照完整句子：「雨水慢慢滲入乾燥的泥土。」。這裡的「sank into」表示「向下進入柔軟、鬆散或可吸收的物質中」。",
+        "sink-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "sink-mcq-03"
+      "correctOption": "sink-reviewed-fa6e38095d",
+      "previousCorrectOption": "sink-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "sink-07-1",
-      "sense": "sink-mcq-03",
+      "sense": "sink-reviewed-fa6e38095d",
       "en": "Her feet sank into the soft sand.",
       "zh": "她的雙腳陷入柔軟的沙中。",
       "masked": "Her feet ____ the soft sand.",
       "options": [
-        "sink-mcq-03",
-        "sink-mcq-02",
+        "sink-reviewed-fa6e38095d",
         "sink-mcq-04",
-        "sink-mcq-01",
         "sink-mcq-05",
-        "sink-mcq-06"
+        "sink-mcq-08"
       ],
-      "explanation": "本句的「sank into」指「逐漸陷入某種較低落、困難或負面的狀態」。",
+      "explanation": "對照完整句子：「她的雙腳陷入柔軟的沙中。」。這裡的「sank into」表示「向下進入柔軟、鬆散或可吸收的物質中」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "sank into"
       ],
       "optionReasons": {
-        "sink-mcq-03": "本句指「逐漸陷入某種較低落、困難或負面的狀態」。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。"
+        "sink-reviewed-fa6e38095d": "對照完整句子：「她的雙腳陷入柔軟的沙中。」。這裡的「sank into」表示「向下進入柔軟、鬆散或可吸收的物質中」。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "sink-mcq-03"
+      "correctOption": "sink-reviewed-fa6e38095d",
+      "previousCorrectOption": "sink-mcq-03",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "sink-08-0",
@@ -678,11 +634,9 @@ export default {
       "masked": "The attack ____ two ships.",
       "options": [
         "sink-pdf-001",
-        "sink-mcq-03",
+        "sink-mcq-08",
         "sink-mcq-05",
-        "sink-mcq-02",
-        "sink-mcq-06",
-        "sink-mcq-01"
+        "sink-mcq-06"
       ],
       "explanation": "本句的「sank」指「使船隻或其他浮在水面的物體沉入水中」。",
       "sentenceIndex": 15,
@@ -691,12 +645,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-pdf-001": "本句指「使船隻或其他浮在水面的物體沉入水中」。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。"
+        "sink-pdf-001": "本句的「sank」指「使船隻或其他浮在水面的物體沉入水中」。",
+        "sink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-pdf-001"
     },
@@ -708,11 +660,9 @@ export default {
       "masked": "The damaged vessel was eventually ____.",
       "options": [
         "sink-pdf-001",
-        "sink-mcq-03",
         "sink-mcq-05",
-        "sink-mcq-02",
-        "sink-mcq-06",
-        "sink-mcq-01"
+        "sink-mcq-08",
+        "sink-reviewed-fa6e38095d"
       ],
       "explanation": "本句的「sunk」指「使船隻或其他浮在水面的物體沉入水中」。",
       "sentenceIndex": 16,
@@ -721,12 +671,10 @@ export default {
         "sunk"
       ],
       "optionReasons": {
-        "sink-pdf-001": "本句指「使船隻或其他浮在水面的物體沉入水中」。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。"
+        "sink-pdf-001": "本句的「sunk」指「使船隻或其他浮在水面的物體沉入水中」。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-pdf-001"
     },
@@ -738,11 +686,9 @@ export default {
       "masked": "The scandal ____ his career.",
       "options": [
         "sink-mcq-04",
-        "sink-mcq-03",
         "sink-mcq-05",
-        "sink-mcq-02",
-        "sink-mcq-06",
-        "sink-mcq-01"
+        "sink-reviewed-fa6e38095d",
+        "sink-mcq-08"
       ],
       "explanation": "本句的「sank」指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
       "sentenceIndex": 17,
@@ -751,12 +697,10 @@ export default {
         "sank"
       ],
       "optionReasons": {
-        "sink-mcq-04": "本句指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。"
+        "sink-mcq-04": "本句的「sank」指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
+        "sink-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-04"
     },
@@ -768,11 +712,9 @@ export default {
       "masked": "One bad decision could ____ the project.",
       "options": [
         "sink-mcq-04",
-        "sink-mcq-03",
-        "sink-mcq-05",
         "sink-mcq-02",
-        "sink-mcq-06",
-        "sink-mcq-01"
+        "sink-reviewed-fa6e38095d",
+        "sink-mcq-06"
       ],
       "explanation": "本句的「sink」指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
       "sentenceIndex": 18,
@@ -781,12 +723,10 @@ export default {
         "sink"
       ],
       "optionReasons": {
-        "sink-mcq-04": "本句指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-02": "「位置、數值、情緒、信心或狀態逐漸下降」是「sink — decrease/decline」的用法，與本句語境不同。",
-        "sink-mcq-06": "「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」是「sink — noun」的用法，與本句語境不同。",
-        "sink-mcq-01": "「向下移動，尤其沉到水面或其他表面以下」是「sink — move downward/below a surface」的用法，與本句語境不同。"
+        "sink-mcq-04": "本句的「sink」指「使船隻沉沒，或比喻令計劃、事業等失敗」。",
+        "sink-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-04"
     },
@@ -798,11 +738,9 @@ export default {
       "masked": "The dishes are in the kitchen ____.",
       "options": [
         "sink-mcq-06",
-        "sink-mcq-05",
-        "sink-mcq-07",
-        "sink-mcq-04",
-        "sink-mcq-08",
-        "sink-mcq-03"
+        "sink-mcq-03",
+        "sink-reviewed-fa6e38095d",
+        "sink-mcq-04"
       ],
       "explanation": "本句的「sink」指「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」。",
       "sentenceIndex": 19,
@@ -811,12 +749,10 @@ export default {
         "sink"
       ],
       "optionReasons": {
-        "sink-mcq-06": "本句指「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-08": "「數值、信心、情緒、希望等降到較低程度」是「5. sink = decrease in value, confidence, hope, etc.（下降） — 下跌；低落」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。"
+        "sink-mcq-06": "本句的「sink」指「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」。",
+        "sink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-06"
     },
@@ -828,11 +764,9 @@ export default {
       "masked": "She washed her hands in the ____.",
       "options": [
         "sink-mcq-06",
-        "sink-mcq-05",
-        "sink-mcq-07",
-        "sink-mcq-04",
-        "sink-mcq-08",
-        "sink-mcq-03"
+        "sink-mcq-03",
+        "sink-reviewed-fa6e38095d",
+        "sink-mcq-07"
       ],
       "explanation": "本句的「sink」指「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」。",
       "sentenceIndex": 20,
@@ -841,12 +775,10 @@ export default {
         "sink"
       ],
       "optionReasons": {
-        "sink-mcq-06": "本句指「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」。",
-        "sink-mcq-05": "「某個事實、消息、教訓或道理逐漸被真正理解、領悟或內化」是「sink in」的用法，與本句語境不同。",
-        "sink-mcq-07": "「身體因疲倦、放鬆、震驚等而慢慢落入坐姿或躺姿」是「3. sink = fall into a sitting/lying position（身體） — 癱坐；沉坐」的用法，與本句語境不同。",
-        "sink-mcq-04": "「使船隻沉沒，或比喻令計劃、事業等失敗」是「sink something」的用法，與本句語境不同。",
-        "sink-mcq-08": "「數值、信心、情緒、希望等降到較低程度」是「5. sink = decrease in value, confidence, hope, etc.（下降） — 下跌；低落」的用法，與本句語境不同。",
-        "sink-mcq-03": "「逐漸陷入某種較低落、困難或負面的狀態」是「sink into a state」的用法，與本句語境不同。"
+        "sink-mcq-06": "本句的「sink」指「廚房、浴室等用來洗手或清洗物品並設有排水口的水槽／洗手盆」。",
+        "sink-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sink-reviewed-fa6e38095d": "請比較這個意思與句子中標示的用法。",
+        "sink-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sink-mcq-06"
     }
@@ -858,5 +790,7 @@ export default {
     "sha256": "4b7ac961a10366548e7bec37c2e2c6a05cd9c9dd65f973e9dd001190dfd5b5e6",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

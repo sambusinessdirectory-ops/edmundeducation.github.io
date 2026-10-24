@@ -415,11 +415,9 @@ export default {
       "masked": "Everyone was tired, tense, and a little ____.",
       "options": [
         "irritable-mcq-01",
-        "irritable-mcq-02",
-        "irritable-mcq-03",
-        "irritable-mcq-04",
-        "irritable-mcq-05",
-        "irritable-mcq-06"
+        "irritable-mcq-15",
+        "irritable-mcq-10",
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritable」指「易怒的；容易煩躁的」。",
       "sentenceIndex": 0,
@@ -428,12 +426,10 @@ export default {
         "irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-01": "本句指「易怒的；容易煩躁的」。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-01": "本句的「irritable」指「易怒的；容易煩躁的」。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-01"
     },
@@ -445,11 +441,9 @@ export default {
       "masked": "I get ____ when I haven't slept enough.",
       "options": [
         "irritable-mcq-01",
-        "irritable-mcq-02",
-        "irritable-mcq-03",
-        "irritable-mcq-04",
-        "irritable-mcq-05",
-        "irritable-mcq-06"
+        "irritable-mcq-15",
+        "irritable-mcq-13",
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritable」指「易怒的；容易煩躁的」。",
       "sentenceIndex": 1,
@@ -458,12 +452,10 @@ export default {
         "irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-01": "本句指「易怒的；容易煩躁的」。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-01": "本句的「irritable」指「易怒的；容易煩躁的」。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-01"
     },
@@ -475,11 +467,9 @@ export default {
       "masked": "He was unusually ____ that morning.",
       "options": [
         "irritable-mcq-01",
-        "irritable-mcq-02",
-        "irritable-mcq-03",
-        "irritable-mcq-04",
-        "irritable-mcq-05",
-        "irritable-mcq-06"
+        "irritable-mcq-11",
+        "irritable-mcq-08",
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritable」指「易怒的；容易煩躁的」。",
       "sentenceIndex": 2,
@@ -488,12 +478,10 @@ export default {
         "irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-01": "本句指「易怒的；容易煩躁的」。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-01": "本句的「irritable」指「易怒的；容易煩躁的」。",
+        "irritable-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-01"
     },
@@ -505,11 +493,9 @@ export default {
       "masked": "She ____ after working for ten hours.",
       "options": [
         "irritable-mcq-03",
-        "irritable-mcq-02",
-        "irritable-mcq-04",
-        "irritable-mcq-01",
-        "irritable-mcq-05",
-        "irritable-mcq-06"
+        "irritable-mcq-18",
+        "irritable-mcq-09",
+        "irritable-mcq-10"
       ],
       "explanation": "本句的「became irritable」指「變得煩躁」。",
       "sentenceIndex": 3,
@@ -518,12 +504,10 @@ export default {
         "became irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-03": "本句指「變得煩躁」。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-01": "「易怒的；容易煩躁的」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-03": "本句的「became irritable」指「變得煩躁」。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-03"
     },
@@ -535,11 +519,9 @@ export default {
       "masked": "I often ____ when I'm hungry.",
       "options": [
         "irritable-mcq-03",
-        "irritable-mcq-02",
-        "irritable-mcq-04",
-        "irritable-mcq-01",
         "irritable-mcq-05",
-        "irritable-mcq-06"
+        "irritable-mcq-15",
+        "irritable-mcq-13"
       ],
       "explanation": "本句的「feel irritable」指「變得煩躁」。",
       "sentenceIndex": 4,
@@ -548,12 +530,10 @@ export default {
         "feel irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-03": "本句指「變得煩躁」。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-01": "「易怒的；容易煩躁的」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-03": "本句的「feel irritable」指「變得煩躁」。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-03"
     },
@@ -565,11 +545,8 @@ export default {
       "masked": "He was in an ____ all afternoon.",
       "options": [
         "irritable-mcq-04",
-        "irritable-mcq-03",
-        "irritable-mcq-05",
-        "irritable-mcq-02",
         "irritable-mcq-06",
-        "irritable-mcq-01"
+        "irritable-mcq-12"
       ],
       "explanation": "本句的「irritable mood」指「煩躁情緒」。",
       "sentenceIndex": 5,
@@ -578,12 +555,9 @@ export default {
         "irritable mood"
       ],
       "optionReasons": {
-        "irritable-mcq-04": "本句指「煩躁情緒」。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-01": "「易怒的；容易煩躁的」與本句語境不同。"
+        "irritable-mcq-04": "本句的「irritable mood」指「煩躁情緒」。",
+        "irritable-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-04"
     },
@@ -595,11 +569,9 @@ export default {
       "masked": "Lack of sleep can put you in an ____.",
       "options": [
         "irritable-mcq-04",
-        "irritable-mcq-03",
-        "irritable-mcq-05",
-        "irritable-mcq-02",
-        "irritable-mcq-06",
-        "irritable-mcq-01"
+        "irritable-mcq-09",
+        "irritable-mcq-13",
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritable mood」指「煩躁情緒」。",
       "sentenceIndex": 6,
@@ -608,12 +580,10 @@ export default {
         "irritable mood"
       ],
       "optionReasons": {
-        "irritable-mcq-04": "本句指「煩躁情緒」。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-01": "「易怒的；容易煩躁的」與本句語境不同。"
+        "irritable-mcq-04": "本句的「irritable mood」指「煩躁情緒」。",
+        "irritable-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-04"
     },
@@ -625,11 +595,9 @@ export default {
       "masked": "He's not usually an ____.",
       "options": [
         "irritable-mcq-05",
-        "irritable-mcq-04",
-        "irritable-mcq-06",
-        "irritable-mcq-03",
-        "irritable-mcq-07",
-        "irritable-mcq-02"
+        "irritable-mcq-09",
+        "irritable-mcq-12",
+        "irritable-mcq-03"
       ],
       "explanation": "本句的「irritable person」指「易怒的人」。",
       "sentenceIndex": 7,
@@ -638,12 +606,10 @@ export default {
         "irritable person"
       ],
       "optionReasons": {
-        "irritable-mcq-05": "本句指「易怒的人」。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。"
+        "irritable-mcq-05": "本句的「irritable person」指「易怒的人」。",
+        "irritable-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-05"
     },
@@ -655,11 +621,9 @@ export default {
       "masked": "Stress can make even a calm person ____.",
       "options": [
         "irritable-mcq-05",
+        "irritable-mcq-13",
         "irritable-mcq-04",
-        "irritable-mcq-06",
-        "irritable-mcq-03",
-        "irritable-mcq-07",
-        "irritable-mcq-02"
+        "irritable-mcq-11"
       ],
       "explanation": "本句的「irritable」指「易怒的人」。",
       "sentenceIndex": 8,
@@ -668,12 +632,10 @@ export default {
         "irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-05": "本句指「易怒的人」。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-02": "「感到煩躁」與本句語境不同。"
+        "irritable-mcq-05": "本句的「irritable」指「易怒的人」。",
+        "irritable-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-05"
     },
@@ -685,11 +647,8 @@ export default {
       "masked": "He has ____.",
       "options": [
         "irritable-mcq-06",
-        "irritable-mcq-05",
-        "irritable-mcq-07",
-        "irritable-mcq-04",
-        "irritable-mcq-08",
-        "irritable-mcq-03"
+        "irritable-mcq-03",
+        "irritable-mcq-10"
       ],
       "explanation": "本句的「irritable skin」指「易受刺激的皮膚」。",
       "sentenceIndex": 11,
@@ -698,12 +657,9 @@ export default {
         "irritable skin"
       ],
       "optionReasons": {
-        "irritable-mcq-06": "本句指「易受刺激的皮膚」。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。"
+        "irritable-mcq-06": "本句的「irritable skin」指「易受刺激的皮膚」。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-06"
     },
@@ -715,10 +671,7 @@ export default {
       "masked": "Her eyes become ____ in dry air.",
       "options": [
         "irritable-mcq-06",
-        "irritable-mcq-05",
-        "irritable-mcq-07",
-        "irritable-mcq-04",
-        "irritable-mcq-08",
+        "irritable-mcq-12",
         "irritable-mcq-03"
       ],
       "explanation": "本句的「irritable」指「易受刺激的皮膚」。",
@@ -728,12 +681,9 @@ export default {
         "irritable"
       ],
       "optionReasons": {
-        "irritable-mcq-06": "本句指「易受刺激的皮膚」。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。"
+        "irritable-mcq-06": "本句的「irritable」指「易受刺激的皮膚」。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-06"
     },
@@ -745,11 +695,8 @@ export default {
       "masked": "This cream is designed for ____.",
       "options": [
         "irritable-mcq-06",
-        "irritable-mcq-05",
-        "irritable-mcq-07",
-        "irritable-mcq-04",
-        "irritable-mcq-08",
-        "irritable-mcq-03"
+        "irritable-mcq-10",
+        "irritable-mcq-04"
       ],
       "explanation": "本句的「irritable skin」指「易受刺激的皮膚」。",
       "sentenceIndex": 13,
@@ -758,12 +705,9 @@ export default {
         "irritable skin"
       ],
       "optionReasons": {
-        "irritable-mcq-06": "本句指「易受刺激的皮膚」。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。"
+        "irritable-mcq-06": "本句的「irritable skin」指「易受刺激的皮膚」。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-06"
     },
@@ -775,11 +719,8 @@ export default {
       "masked": "Strong perfume may affect ____.",
       "options": [
         "irritable-mcq-06",
-        "irritable-mcq-05",
-        "irritable-mcq-07",
         "irritable-mcq-04",
-        "irritable-mcq-08",
-        "irritable-mcq-03"
+        "irritable-mcq-12"
       ],
       "explanation": "本句的「irritable skin」指「易受刺激的皮膚」。",
       "sentenceIndex": 14,
@@ -788,12 +729,9 @@ export default {
         "irritable skin"
       ],
       "optionReasons": {
-        "irritable-mcq-06": "本句指「易受刺激的皮膚」。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-03": "「變得煩躁」與本句語境不同。"
+        "irritable-mcq-06": "本句的「irritable skin」指「易受刺激的皮膚」。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-06"
     },
@@ -805,11 +743,8 @@ export default {
       "masked": "Smoke can make ____ worse.",
       "options": [
         "irritable-mcq-07",
-        "irritable-mcq-06",
         "irritable-mcq-08",
-        "irritable-mcq-05",
-        "irritable-mcq-09",
-        "irritable-mcq-04"
+        "irritable-mcq-03"
       ],
       "explanation": "本句的「irritable eyes」指「易受刺激的眼睛」。",
       "sentenceIndex": 15,
@@ -818,12 +753,9 @@ export default {
         "irritable eyes"
       ],
       "optionReasons": {
-        "irritable-mcq-07": "本句指「易受刺激的眼睛」。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。"
+        "irritable-mcq-07": "本句的「irritable eyes」指「易受刺激的眼睛」。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-07"
     },
@@ -835,11 +767,8 @@ export default {
       "masked": "Dry air can cause ____.",
       "options": [
         "irritable-mcq-07",
-        "irritable-mcq-06",
-        "irritable-mcq-08",
-        "irritable-mcq-05",
-        "irritable-mcq-09",
-        "irritable-mcq-04"
+        "irritable-mcq-10",
+        "irritable-mcq-03"
       ],
       "explanation": "本句的「irritable eyes」指「易受刺激的眼睛」。",
       "sentenceIndex": 16,
@@ -848,12 +777,9 @@ export default {
         "irritable eyes"
       ],
       "optionReasons": {
-        "irritable-mcq-07": "本句指「易受刺激的眼睛」。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-04": "「煩躁情緒」與本句語境不同。"
+        "irritable-mcq-07": "本句的「irritable eyes」指「易受刺激的眼睛」。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-07"
     },
@@ -865,11 +791,9 @@ export default {
       "masked": "His constant complaining ____.",
       "options": [
         "irritable-mcq-08",
-        "irritable-mcq-07",
-        "irritable-mcq-09",
-        "irritable-mcq-06",
-        "irritable-mcq-10",
-        "irritable-mcq-05"
+        "irritable-mcq-11",
+        "irritable-mcq-16",
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritated me」指「惹惱某人」。",
       "sentenceIndex": 17,
@@ -878,12 +802,10 @@ export default {
         "irritated me"
       ],
       "optionReasons": {
-        "irritable-mcq-08": "本句指「惹惱某人」。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。"
+        "irritable-mcq-08": "本句的「irritated me」指「惹惱某人」。",
+        "irritable-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-08"
     },
@@ -895,10 +817,8 @@ export default {
       "masked": "The noise was starting to ____.",
       "options": [
         "irritable-mcq-08",
-        "irritable-mcq-07",
-        "irritable-mcq-09",
-        "irritable-mcq-06",
-        "irritable-mcq-10",
+        "irritable-mcq-03",
+        "irritable-mcq-11",
         "irritable-mcq-05"
       ],
       "explanation": "本句的「irritate everyone」指「惹惱某人」。",
@@ -908,12 +828,10 @@ export default {
         "irritate everyone"
       ],
       "optionReasons": {
-        "irritable-mcq-08": "本句指「惹惱某人」。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-05": "「易怒的人」與本句語境不同。"
+        "irritable-mcq-08": "本句的「irritate everyone」指「惹惱某人」。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-08"
     },
@@ -925,11 +843,9 @@ export default {
       "masked": "This soap may ____.",
       "options": [
         "irritable-mcq-09",
-        "irritable-mcq-08",
+        "irritable-mcq-03",
         "irritable-mcq-10",
-        "irritable-mcq-07",
-        "irritable-mcq-11",
-        "irritable-mcq-06"
+        "irritable-mcq-05"
       ],
       "explanation": "本句的「irritate sensitive skin」指「刺激皮膚／眼睛」。",
       "sentenceIndex": 19,
@@ -938,12 +854,10 @@ export default {
         "irritate sensitive skin"
       ],
       "optionReasons": {
-        "irritable-mcq-09": "本句指「刺激皮膚／眼睛」。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-09": "本句的「irritate sensitive skin」指「刺激皮膚／眼睛」。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-09"
     },
@@ -955,11 +869,9 @@ export default {
       "masked": "The smoke ____.",
       "options": [
         "irritable-mcq-09",
-        "irritable-mcq-08",
-        "irritable-mcq-10",
-        "irritable-mcq-07",
-        "irritable-mcq-11",
-        "irritable-mcq-06"
+        "irritable-mcq-04",
+        "irritable-mcq-12",
+        "irritable-mcq-05"
       ],
       "explanation": "本句的「irritated my eyes」指「刺激皮膚／眼睛」。",
       "sentenceIndex": 20,
@@ -968,12 +880,10 @@ export default {
         "irritated my eyes"
       ],
       "optionReasons": {
-        "irritable-mcq-09": "本句指「刺激皮膚／眼睛」。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-06": "「易受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-09": "本句的「irritated my eyes」指「刺激皮膚／眼睛」。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-09"
     },
@@ -985,11 +895,8 @@ export default {
       "masked": "She looked ____ by the delay.",
       "options": [
         "irritable-mcq-10",
-        "irritable-mcq-09",
-        "irritable-mcq-11",
-        "irritable-mcq-08",
-        "irritable-mcq-12",
-        "irritable-mcq-07"
+        "irritable-mcq-17",
+        "irritable-mcq-04"
       ],
       "explanation": "本句的「irritated」指「惱火的」。",
       "sentenceIndex": 21,
@@ -998,12 +905,9 @@ export default {
         "irritated"
       ],
       "optionReasons": {
-        "irritable-mcq-10": "本句指「惱火的」。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。"
+        "irritable-mcq-10": "本句的「irritated」指「惱火的」。",
+        "irritable-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-10"
     },
@@ -1015,11 +919,8 @@ export default {
       "masked": "I was ____ by his tone.",
       "options": [
         "irritable-mcq-10",
-        "irritable-mcq-09",
-        "irritable-mcq-11",
-        "irritable-mcq-08",
-        "irritable-mcq-12",
-        "irritable-mcq-07"
+        "irritable-mcq-16",
+        "irritable-mcq-06"
       ],
       "explanation": "本句的「irritated」指「惱火的」。",
       "sentenceIndex": 22,
@@ -1028,12 +929,9 @@ export default {
         "irritated"
       ],
       "optionReasons": {
-        "irritable-mcq-10": "本句指「惱火的」。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-07": "「易受刺激的眼睛」與本句語境不同。"
+        "irritable-mcq-10": "本句的「irritated」指「惱火的」。",
+        "irritable-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-10"
     },
@@ -1045,11 +943,9 @@ export default {
       "masked": "The product caused ____.",
       "options": [
         "irritable-mcq-11",
-        "irritable-mcq-10",
         "irritable-mcq-12",
-        "irritable-mcq-09",
-        "irritable-mcq-13",
-        "irritable-mcq-08"
+        "irritable-mcq-05",
+        "irritable-mcq-03"
       ],
       "explanation": "本句的「irritated skin」指「受刺激的皮膚」。",
       "sentenceIndex": 23,
@@ -1058,12 +954,10 @@ export default {
         "irritated skin"
       ],
       "optionReasons": {
-        "irritable-mcq-11": "本句指「受刺激的皮膚」。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。"
+        "irritable-mcq-11": "本句的「irritated skin」指「受刺激的皮膚」。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-11"
     },
@@ -1075,11 +969,9 @@ export default {
       "masked": "She rubbed her ____.",
       "options": [
         "irritable-mcq-11",
-        "irritable-mcq-10",
+        "irritable-mcq-05",
         "irritable-mcq-12",
-        "irritable-mcq-09",
-        "irritable-mcq-13",
-        "irritable-mcq-08"
+        "irritable-mcq-04"
       ],
       "explanation": "本句的「irritated eyes」指「受刺激的皮膚」。",
       "sentenceIndex": 24,
@@ -1088,12 +980,10 @@ export default {
         "irritated eyes"
       ],
       "optionReasons": {
-        "irritable-mcq-11": "本句指「受刺激的皮膚」。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-08": "「惹惱某人」與本句語境不同。"
+        "irritable-mcq-11": "本句的「irritated eyes」指「受刺激的皮膚」。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-11"
     },
@@ -1105,11 +995,9 @@ export default {
       "masked": "That sound is incredibly ____.",
       "options": [
         "irritable-mcq-12",
-        "irritable-mcq-11",
-        "irritable-mcq-13",
-        "irritable-mcq-10",
-        "irritable-mcq-14",
-        "irritable-mcq-09"
+        "irritable-mcq-18",
+        "irritable-mcq-09",
+        "irritable-mcq-03"
       ],
       "explanation": "本句的「irritating」指「惱人的」。",
       "sentenceIndex": 25,
@@ -1118,12 +1006,10 @@ export default {
         "irritating"
       ],
       "optionReasons": {
-        "irritable-mcq-12": "本句指「惱人的」。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。"
+        "irritable-mcq-12": "本句的「irritating」指「惱人的」。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-12"
     },
@@ -1135,11 +1021,9 @@ export default {
       "masked": "His habit of interrupting people is ____.",
       "options": [
         "irritable-mcq-12",
-        "irritable-mcq-11",
-        "irritable-mcq-13",
-        "irritable-mcq-10",
-        "irritable-mcq-14",
-        "irritable-mcq-09"
+        "irritable-mcq-04",
+        "irritable-mcq-18",
+        "irritable-mcq-15"
       ],
       "explanation": "本句的「irritating」指「惱人的」。",
       "sentenceIndex": 26,
@@ -1148,12 +1032,10 @@ export default {
         "irritating"
       ],
       "optionReasons": {
-        "irritable-mcq-12": "本句指「惱人的」。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-09": "「刺激皮膚／眼睛」與本句語境不同。"
+        "irritable-mcq-12": "本句的「irritating」指「惱人的」。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-12"
     },
@@ -1165,11 +1047,9 @@ export default {
       "masked": "The machine makes an ____.",
       "options": [
         "irritable-mcq-13",
-        "irritable-mcq-12",
-        "irritable-mcq-14",
         "irritable-mcq-11",
-        "irritable-mcq-15",
-        "irritable-mcq-10"
+        "irritable-mcq-18",
+        "irritable-mcq-04"
       ],
       "explanation": "本句的「irritating noise」指「惱人的聲音」。",
       "sentenceIndex": 27,
@@ -1178,12 +1058,10 @@ export default {
         "irritating noise"
       ],
       "optionReasons": {
-        "irritable-mcq-13": "本句指「惱人的聲音」。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。"
+        "irritable-mcq-13": "本句的「irritating noise」指「惱人的聲音」。",
+        "irritable-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-13"
     },
@@ -1195,11 +1073,9 @@ export default {
       "masked": "That's one of his most ____.",
       "options": [
         "irritable-mcq-13",
-        "irritable-mcq-12",
-        "irritable-mcq-14",
-        "irritable-mcq-11",
+        "irritable-mcq-03",
         "irritable-mcq-15",
-        "irritable-mcq-10"
+        "irritable-mcq-05"
       ],
       "explanation": "本句的「irritating habits」指「惱人的聲音」。",
       "sentenceIndex": 28,
@@ -1208,12 +1084,10 @@ export default {
         "irritating habits"
       ],
       "optionReasons": {
-        "irritable-mcq-13": "本句指「惱人的聲音」。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-10": "「惱火的」與本句語境不同。"
+        "irritable-mcq-13": "本句的「irritating habits」指「惱人的聲音」。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-13"
     },
@@ -1225,11 +1099,8 @@ export default {
       "masked": "He sighed in ____.",
       "options": [
         "irritable-mcq-14",
-        "irritable-mcq-13",
-        "irritable-mcq-15",
-        "irritable-mcq-12",
-        "irritable-mcq-16",
-        "irritable-mcq-11"
+        "irritable-mcq-18",
+        "irritable-mcq-15"
       ],
       "explanation": "本句的「irritation」指「惱怒；不耐煩」。",
       "sentenceIndex": 29,
@@ -1238,12 +1109,9 @@ export default {
         "irritation"
       ],
       "optionReasons": {
-        "irritable-mcq-14": "本句指「惱怒；不耐煩」。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-14": "本句的「irritation」指「惱怒；不耐煩」。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-14"
     },
@@ -1255,11 +1123,7 @@ export default {
       "masked": "I could hear the ____ in her voice.",
       "options": [
         "irritable-mcq-14",
-        "irritable-mcq-13",
-        "irritable-mcq-15",
-        "irritable-mcq-12",
-        "irritable-mcq-16",
-        "irritable-mcq-11"
+        "irritable-mcq-17"
       ],
       "explanation": "本句的「irritation」指「惱怒；不耐煩」。",
       "sentenceIndex": 30,
@@ -1268,12 +1132,8 @@ export default {
         "irritation"
       ],
       "optionReasons": {
-        "irritable-mcq-14": "本句指「惱怒；不耐煩」。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-11": "「受刺激的皮膚」與本句語境不同。"
+        "irritable-mcq-14": "本句的「irritation」指「惱怒；不耐煩」。",
+        "irritable-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-14"
     },
@@ -1285,11 +1145,9 @@ export default {
       "masked": "Stop using the cream if it causes ____.",
       "options": [
         "irritable-mcq-15",
-        "irritable-mcq-14",
-        "irritable-mcq-16",
-        "irritable-mcq-13",
-        "irritable-mcq-17",
-        "irritable-mcq-12"
+        "irritable-mcq-08",
+        "irritable-mcq-04",
+        "irritable-mcq-05"
       ],
       "explanation": "本句的「skin irritation」指「皮膚刺激」。",
       "sentenceIndex": 31,
@@ -1298,12 +1156,10 @@ export default {
         "skin irritation"
       ],
       "optionReasons": {
-        "irritable-mcq-15": "本句指「皮膚刺激」。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-17": "「易受刺激性」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。"
+        "irritable-mcq-15": "本句的「skin irritation」指「皮膚刺激」。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-15"
     },
@@ -1315,11 +1171,9 @@ export default {
       "masked": "Dust can cause ____.",
       "options": [
         "irritable-mcq-15",
-        "irritable-mcq-14",
-        "irritable-mcq-16",
-        "irritable-mcq-13",
-        "irritable-mcq-17",
-        "irritable-mcq-12"
+        "irritable-mcq-10",
+        "irritable-mcq-03",
+        "irritable-mcq-05"
       ],
       "explanation": "本句的「eye irritation」指「皮膚刺激」。",
       "sentenceIndex": 32,
@@ -1328,12 +1182,10 @@ export default {
         "eye irritation"
       ],
       "optionReasons": {
-        "irritable-mcq-15": "本句指「皮膚刺激」。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。",
-        "irritable-mcq-17": "「易受刺激性」與本句語境不同。",
-        "irritable-mcq-12": "「惱人的」與本句語境不同。"
+        "irritable-mcq-15": "本句的「eye irritation」指「皮膚刺激」。",
+        "irritable-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-15"
     },
@@ -1345,11 +1197,9 @@ export default {
       "masked": "Lack of sleep can increase ____.",
       "options": [
         "irritable-mcq-16",
-        "irritable-mcq-15",
-        "irritable-mcq-17",
-        "irritable-mcq-14",
-        "irritable-mcq-18",
-        "irritable-mcq-13"
+        "irritable-mcq-09",
+        "irritable-mcq-08",
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritability」指「易怒；煩躁」。",
       "sentenceIndex": 33,
@@ -1358,12 +1208,10 @@ export default {
         "irritability"
       ],
       "optionReasons": {
-        "irritable-mcq-16": "本句指「易怒；煩躁」。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-17": "「易受刺激性」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-18": "「腸易激綜合症」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。"
+        "irritable-mcq-16": "本句的「irritability」指「易怒；煩躁」。",
+        "irritable-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-16"
     },
@@ -1375,11 +1223,9 @@ export default {
       "masked": "Stress was affecting his mood and ____.",
       "options": [
         "irritable-mcq-16",
+        "irritable-mcq-08",
         "irritable-mcq-15",
-        "irritable-mcq-17",
-        "irritable-mcq-14",
-        "irritable-mcq-18",
-        "irritable-mcq-13"
+        "irritable-mcq-18"
       ],
       "explanation": "本句的「irritability」指「易怒；煩躁」。",
       "sentenceIndex": 34,
@@ -1388,12 +1234,10 @@ export default {
         "irritability"
       ],
       "optionReasons": {
-        "irritable-mcq-16": "本句指「易怒；煩躁」。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-17": "「易受刺激性」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-18": "「腸易激綜合症」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。"
+        "irritable-mcq-16": "本句的「irritability」指「易怒；煩躁」。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-16"
     },
@@ -1405,11 +1249,8 @@ export default {
       "masked": "Doctors monitored the tissue's ____.",
       "options": [
         "irritable-mcq-17",
-        "irritable-mcq-16",
-        "irritable-mcq-18",
-        "irritable-mcq-15",
-        "irritable-mcq-14",
-        "irritable-mcq-13"
+        "irritable-mcq-04",
+        "irritable-mcq-08"
       ],
       "explanation": "本句的「irritability」指「易受刺激性」。",
       "sentenceIndex": 35,
@@ -1418,12 +1259,9 @@ export default {
         "irritability"
       ],
       "optionReasons": {
-        "irritable-mcq-17": "本句指「易受刺激性」。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-18": "「腸易激綜合症」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。"
+        "irritable-mcq-17": "本句的「irritability」指「易受刺激性」。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-17"
     },
@@ -1435,11 +1273,8 @@ export default {
       "masked": "Increased nerve ____ can cause discomfort.",
       "options": [
         "irritable-mcq-17",
-        "irritable-mcq-16",
-        "irritable-mcq-18",
-        "irritable-mcq-15",
-        "irritable-mcq-14",
-        "irritable-mcq-13"
+        "irritable-mcq-08",
+        "irritable-mcq-04"
       ],
       "explanation": "本句的「irritability」指「易受刺激性」。",
       "sentenceIndex": 36,
@@ -1448,12 +1283,9 @@ export default {
         "irritability"
       ],
       "optionReasons": {
-        "irritable-mcq-17": "本句指「易受刺激性」。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-18": "「腸易激綜合症」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。"
+        "irritable-mcq-17": "本句的「irritability」指「易受刺激性」。",
+        "irritable-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-17"
     },
@@ -1465,11 +1297,9 @@ export default {
       "masked": "____ is commonly abbreviated as IBS.",
       "options": [
         "irritable-mcq-18",
-        "irritable-mcq-17",
-        "irritable-mcq-16",
-        "irritable-mcq-15",
-        "irritable-mcq-14",
-        "irritable-mcq-13"
+        "irritable-mcq-13",
+        "irritable-mcq-03",
+        "irritable-mcq-11"
       ],
       "explanation": "本句的「Irritable bowel syndrome」指「腸易激綜合症」。",
       "sentenceIndex": 37,
@@ -1478,12 +1308,10 @@ export default {
         "Irritable bowel syndrome"
       ],
       "optionReasons": {
-        "irritable-mcq-18": "本句指「腸易激綜合症」。",
-        "irritable-mcq-17": "「易受刺激性」與本句語境不同。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。"
+        "irritable-mcq-18": "本句的「Irritable bowel syndrome」指「腸易激綜合症」。",
+        "irritable-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-18"
     },
@@ -1495,11 +1323,9 @@ export default {
       "masked": "The phrase ____ refers to a bowel that reacts abnormally or sensitively, not one that is “angry.",
       "options": [
         "irritable-mcq-18",
-        "irritable-mcq-17",
-        "irritable-mcq-16",
-        "irritable-mcq-15",
-        "irritable-mcq-14",
-        "irritable-mcq-13"
+        "irritable-mcq-13",
+        "irritable-mcq-03",
+        "irritable-mcq-15"
       ],
       "explanation": "本句的「irritable bowel」指「腸易激綜合症」。",
       "sentenceIndex": 38,
@@ -1508,12 +1334,10 @@ export default {
         "irritable bowel"
       ],
       "optionReasons": {
-        "irritable-mcq-18": "本句指「腸易激綜合症」。",
-        "irritable-mcq-17": "「易受刺激性」與本句語境不同。",
-        "irritable-mcq-16": "「易怒；煩躁」與本句語境不同。",
-        "irritable-mcq-15": "「皮膚刺激」與本句語境不同。",
-        "irritable-mcq-14": "「惱怒；不耐煩」與本句語境不同。",
-        "irritable-mcq-13": "「惱人的聲音」與本句語境不同。"
+        "irritable-mcq-18": "本句的「irritable bowel」指「腸易激綜合症」。",
+        "irritable-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "irritable-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "irritable-mcq-18"
     }
@@ -1525,5 +1349,7 @@ export default {
     "sha256": "a15c7ee42fe21ab677a46e4d11201a7668aaab5a56c008fd3ec8aab48c7f113b",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

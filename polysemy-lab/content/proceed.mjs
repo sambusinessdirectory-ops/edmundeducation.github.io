@@ -644,11 +644,9 @@ export default {
       "masked": "Employees may ____.",
       "options": [
         "proceed-mcq-01",
-        "proceed-mcq-02",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-pdf-001",
+        "proceed-mcq-21",
+        "proceed-mcq-04"
       ],
       "explanation": "本句的「proceed in completely different directions」指「繼續進行；推進」。",
       "sentenceIndex": 0,
@@ -657,12 +655,10 @@ export default {
         "proceed in completely different directions"
       ],
       "optionReasons": {
-        "proceed-mcq-01": "本句指「繼續進行；推進」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-01": "本句的「proceed in completely different directions」指「繼續進行；推進」。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-01"
     },
@@ -674,11 +670,9 @@ export default {
       "masked": "Once the roles are clear, the team can ____.",
       "options": [
         "proceed-mcq-01",
-        "proceed-mcq-02",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-24",
+        "proceed-mcq-17",
+        "proceed-mcq-20"
       ],
       "explanation": "本句的「proceed more efficiently」指「繼續進行；推進」。",
       "sentenceIndex": 1,
@@ -687,12 +681,10 @@ export default {
         "proceed more efficiently"
       ],
       "optionReasons": {
-        "proceed-mcq-01": "本句指「繼續進行；推進」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-01": "本句的「proceed more efficiently」指「繼續進行；推進」。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-01"
     },
@@ -704,11 +696,9 @@ export default {
       "masked": "We should not ____ until everyone understands the objective.",
       "options": [
         "proceed-mcq-01",
-        "proceed-mcq-02",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-22",
+        "proceed-mcq-09",
+        "proceed-mcq-17"
       ],
       "explanation": "本句的「proceed」指「繼續進行；推進」。",
       "sentenceIndex": 2,
@@ -717,12 +707,10 @@ export default {
         "proceed"
       ],
       "optionReasons": {
-        "proceed-mcq-01": "本句指「繼續進行；推進」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-01": "本句的「proceed」指「繼續進行；推進」。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-01"
     },
@@ -734,11 +722,9 @@ export default {
       "masked": "The two departments ____.",
       "options": [
         "proceed-mcq-02",
-        "proceed-mcq-01",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-22",
+        "proceed-mcq-19",
+        "proceed-mcq-12"
       ],
       "explanation": "本句的「proceeded in different directions」指「朝某方向進行」。",
       "sentenceIndex": 3,
@@ -747,12 +733,10 @@ export default {
         "proceeded in different directions"
       ],
       "optionReasons": {
-        "proceed-mcq-02": "本句指「朝某方向進行」。",
-        "proceed-mcq-01": "「繼續進行；推進」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-02": "本句的「proceeded in different directions」指「朝某方向進行」。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-02"
     },
@@ -764,11 +748,9 @@ export default {
       "masked": "Without clear instructions, the discussion may ____.",
       "options": [
         "proceed-mcq-02",
-        "proceed-mcq-01",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-17",
+        "proceed-mcq-08",
+        "proceed-pdf-001"
       ],
       "explanation": "本句的「proceed in the wrong direction」指「朝某方向進行」。",
       "sentenceIndex": 4,
@@ -777,12 +759,10 @@ export default {
         "proceed in the wrong direction"
       ],
       "optionReasons": {
-        "proceed-mcq-02": "本句指「朝某方向進行」。",
-        "proceed-mcq-01": "「繼續進行；推進」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-02": "本句的「proceed in the wrong direction」指「朝某方向進行」。",
+        "proceed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-02"
     },
@@ -794,11 +774,9 @@ export default {
       "masked": "The team decided to ____.",
       "options": [
         "proceed-mcq-03",
-        "proceed-mcq-02",
-        "proceed-mcq-04",
-        "proceed-mcq-01",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-22",
+        "proceed-mcq-15",
+        "proceed-mcq-12"
       ],
       "explanation": "本句的「proceed with the original plan」指「繼續／著手進行 X」。",
       "sentenceIndex": 5,
@@ -807,12 +785,10 @@ export default {
         "proceed with the original plan"
       ],
       "optionReasons": {
-        "proceed-mcq-03": "本句指「繼續／著手進行 X」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-01": "「繼續進行；推進」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-03": "本句的「proceed with the original plan」指「繼續／著手進行 X」。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-03"
     },
@@ -824,11 +800,9 @@ export default {
       "masked": "We cannot ____ until the budget is approved.",
       "options": [
         "proceed-mcq-03",
-        "proceed-mcq-02",
-        "proceed-mcq-04",
-        "proceed-mcq-01",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-18",
+        "proceed-mcq-22",
+        "proceed-mcq-20"
       ],
       "explanation": "本句的「proceed with the project」指「繼續／著手進行 X」。",
       "sentenceIndex": 6,
@@ -837,12 +811,10 @@ export default {
         "proceed with the project"
       ],
       "optionReasons": {
-        "proceed-mcq-03": "本句指「繼續／著手進行 X」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-01": "「繼續進行；推進」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-03": "本句的「proceed with the project」指「繼續／著手進行 X」。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-03"
     },
@@ -854,11 +826,9 @@ export default {
       "masked": "After reviewing the data, the team ____.",
       "options": [
         "proceed-mcq-04",
-        "proceed-mcq-03",
-        "proceed-mcq-05",
-        "proceed-mcq-02",
-        "proceed-mcq-06",
-        "proceed-mcq-01"
+        "proceed-mcq-21",
+        "proceed-mcq-09",
+        "proceed-mcq-19"
       ],
       "explanation": "本句的「proceeded to prepare the report」指「接着做 X」。",
       "sentenceIndex": 7,
@@ -867,12 +837,10 @@ export default {
         "proceeded to prepare the report"
       ],
       "optionReasons": {
-        "proceed-mcq-04": "本句指「接着做 X」。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-01": "「繼續進行；推進」與本句語境不同。"
+        "proceed-mcq-04": "本句的「proceeded to prepare the report」指「接着做 X」。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-04"
     },
@@ -884,11 +852,9 @@ export default {
       "masked": "She explained the problem and then ____.",
       "options": [
         "proceed-mcq-04",
-        "proceed-mcq-03",
-        "proceed-mcq-05",
-        "proceed-mcq-02",
-        "proceed-mcq-06",
-        "proceed-mcq-01"
+        "proceed-mcq-21",
+        "proceed-pdf-002",
+        "proceed-mcq-12"
       ],
       "explanation": "本句的「proceeded to suggest a solution」指「接着做 X」。",
       "sentenceIndex": 8,
@@ -897,12 +863,10 @@ export default {
         "proceeded to suggest a solution"
       ],
       "optionReasons": {
-        "proceed-mcq-04": "本句指「接着做 X」。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-01": "「繼續進行；推進」與本句語境不同。"
+        "proceed-mcq-04": "本句的「proceeded to suggest a solution」指「接着做 X」。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-04"
     },
@@ -914,11 +878,9 @@ export default {
       "masked": "The meeting will ____.",
       "options": [
         "proceed-mcq-05",
-        "proceed-mcq-04",
-        "proceed-mcq-06",
-        "proceed-mcq-03",
-        "proceed-mcq-07",
-        "proceed-mcq-02"
+        "proceed-mcq-24",
+        "proceed-mcq-12",
+        "proceed-mcq-20"
       ],
       "explanation": "本句的「proceed as planned」指「按計劃進行」。",
       "sentenceIndex": 9,
@@ -927,12 +889,10 @@ export default {
         "proceed as planned"
       ],
       "optionReasons": {
-        "proceed-mcq-05": "本句指「按計劃進行」。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。"
+        "proceed-mcq-05": "本句的「proceed as planned」指「按計劃進行」。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-05"
     },
@@ -944,11 +904,9 @@ export default {
       "masked": "Despite the delay, the project ____.",
       "options": [
         "proceed-mcq-05",
-        "proceed-mcq-04",
-        "proceed-mcq-06",
-        "proceed-mcq-03",
-        "proceed-mcq-07",
-        "proceed-mcq-02"
+        "proceed-mcq-18",
+        "proceed-mcq-09",
+        "proceed-mcq-20"
       ],
       "explanation": "本句的「proceeded as planned」指「按計劃進行」。",
       "sentenceIndex": 10,
@@ -957,12 +915,10 @@ export default {
         "proceeded as planned"
       ],
       "optionReasons": {
-        "proceed-mcq-05": "本句指「按計劃進行」。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。"
+        "proceed-mcq-05": "本句的「proceeded as planned」指「按計劃進行」。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-05"
     },
@@ -974,11 +930,9 @@ export default {
       "masked": "Work will ____ tomorrow.",
       "options": [
         "proceed-mcq-06",
-        "proceed-mcq-05",
-        "proceed-mcq-07",
-        "proceed-mcq-04",
-        "proceed-mcq-08",
-        "proceed-mcq-03"
+        "proceed-mcq-24",
+        "proceed-mcq-19",
+        "proceed-mcq-09"
       ],
       "explanation": "本句的「proceed as usual」指「如常進行」。",
       "sentenceIndex": 11,
@@ -987,12 +941,10 @@ export default {
         "proceed as usual"
       ],
       "optionReasons": {
-        "proceed-mcq-06": "本句指「如常進行」。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。"
+        "proceed-mcq-06": "本句的「proceed as usual」指「如常進行」。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-06"
     },
@@ -1004,11 +956,9 @@ export default {
       "masked": "The event ____ despite the minor problem.",
       "options": [
         "proceed-mcq-06",
-        "proceed-mcq-05",
-        "proceed-mcq-07",
-        "proceed-mcq-04",
         "proceed-mcq-08",
-        "proceed-mcq-03"
+        "proceed-mcq-12",
+        "proceed-mcq-18"
       ],
       "explanation": "本句的「proceeded as usual」指「如常進行」。",
       "sentenceIndex": 12,
@@ -1017,12 +967,10 @@ export default {
         "proceeded as usual"
       ],
       "optionReasons": {
-        "proceed-mcq-06": "本句指「如常進行」。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。"
+        "proceed-mcq-06": "本句的「proceeded as usual」指「如常進行」。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-06"
     },
@@ -1034,11 +982,9 @@ export default {
       "masked": "The team decided to ____.",
       "options": [
         "proceed-mcq-07",
-        "proceed-mcq-06",
-        "proceed-mcq-08",
-        "proceed-mcq-05",
+        "proceed-mcq-04",
         "proceed-mcq-09",
-        "proceed-mcq-04"
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「proceed cautiously」指「謹慎進行」。",
       "sentenceIndex": 13,
@@ -1047,12 +993,10 @@ export default {
         "proceed cautiously"
       ],
       "optionReasons": {
-        "proceed-mcq-07": "本句指「謹慎進行」。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。"
+        "proceed-mcq-07": "本句的「proceed cautiously」指「謹慎進行」。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-07"
     },
@@ -1064,10 +1008,8 @@ export default {
       "masked": "We should ____ until more information is available.",
       "options": [
         "proceed-mcq-07",
-        "proceed-mcq-06",
         "proceed-mcq-08",
-        "proceed-mcq-05",
-        "proceed-mcq-09",
+        "proceed-mcq-19",
         "proceed-mcq-04"
       ],
       "explanation": "本句的「proceed carefully」指「謹慎進行」。",
@@ -1077,12 +1019,10 @@ export default {
         "proceed carefully"
       ],
       "optionReasons": {
-        "proceed-mcq-07": "本句指「謹慎進行」。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。"
+        "proceed-mcq-07": "本句的「proceed carefully」指「謹慎進行」。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-07"
     },
@@ -1094,11 +1034,9 @@ export default {
       "masked": "Once approval is received, we can ____.",
       "options": [
         "proceed-mcq-08",
-        "proceed-mcq-07",
-        "proceed-mcq-09",
-        "proceed-mcq-06",
-        "proceed-mcq-10",
-        "proceed-mcq-05"
+        "proceed-mcq-21",
+        "proceed-pdf-003",
+        "proceed-mcq-11"
       ],
       "explanation": "本句的「proceed without delay」指「立即繼續」。",
       "sentenceIndex": 15,
@@ -1107,12 +1045,10 @@ export default {
         "proceed without delay"
       ],
       "optionReasons": {
-        "proceed-mcq-08": "本句指「立即繼續」。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。"
+        "proceed-mcq-08": "本句的「proceed without delay」指「立即繼續」。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-08"
     },
@@ -1124,11 +1060,9 @@ export default {
       "masked": "The repair work should ____.",
       "options": [
         "proceed-mcq-08",
-        "proceed-mcq-07",
-        "proceed-mcq-09",
-        "proceed-mcq-06",
+        "proceed-mcq-11",
         "proceed-mcq-10",
-        "proceed-mcq-05"
+        "proceed-mcq-16"
       ],
       "explanation": "本句的「proceed without further delay」指「立即繼續」。",
       "sentenceIndex": 16,
@@ -1137,12 +1071,10 @@ export default {
         "proceed without further delay"
       ],
       "optionReasons": {
-        "proceed-mcq-08": "本句指「立即繼續」。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。"
+        "proceed-mcq-08": "本句的「proceed without further delay」指「立即繼續」。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-08"
     },
@@ -1154,11 +1086,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "proceed-mcq-09",
-        "proceed-mcq-08",
-        "proceed-mcq-10",
-        "proceed-mcq-07",
-        "proceed-mcq-11",
-        "proceed-mcq-06"
+        "proceed-mcq-20",
+        "proceed-mcq-18",
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「proceed to the next room」指「前往某地」。",
       "sentenceIndex": 17,
@@ -1167,12 +1097,10 @@ export default {
         "proceed to the next room"
       ],
       "optionReasons": {
-        "proceed-mcq-09": "本句指「前往某地」。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-09": "本句的「proceed to the next room」指「前往某地」。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-09"
     },
@@ -1184,11 +1112,9 @@ export default {
       "masked": "Passengers should ____.",
       "options": [
         "proceed-mcq-09",
-        "proceed-mcq-08",
-        "proceed-mcq-10",
-        "proceed-mcq-07",
-        "proceed-mcq-11",
-        "proceed-mcq-06"
+        "proceed-mcq-01",
+        "proceed-mcq-14",
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「proceed to Gate 12」指「前往某地」。",
       "sentenceIndex": 18,
@@ -1197,12 +1123,10 @@ export default {
         "proceed to Gate 12"
       ],
       "optionReasons": {
-        "proceed-mcq-09": "本句指「前往某地」。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-09": "本句的「proceed to Gate 12」指「前往某地」。",
+        "proceed-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-09"
     },
@@ -1214,11 +1138,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "proceed-mcq-10",
-        "proceed-mcq-09",
-        "proceed-mcq-11",
-        "proceed-mcq-08",
-        "proceed-mcq-12",
-        "proceed-mcq-07"
+        "proceed-mcq-15",
+        "proceed-mcq-23",
+        "proceed-mcq-14"
       ],
       "explanation": "本句的「proceed along the corridor」指「沿着／穿過前進」。",
       "sentenceIndex": 19,
@@ -1227,12 +1149,10 @@ export default {
         "proceed along the corridor"
       ],
       "optionReasons": {
-        "proceed-mcq-10": "本句指「沿着／穿過前進」。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。"
+        "proceed-mcq-10": "本句的「proceed along the corridor」指「沿着／穿過前進」。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-10"
     },
@@ -1244,11 +1164,9 @@ export default {
       "masked": "The group ____.",
       "options": [
         "proceed-mcq-10",
-        "proceed-mcq-09",
-        "proceed-mcq-11",
-        "proceed-mcq-08",
-        "proceed-mcq-12",
-        "proceed-mcq-07"
+        "proceed-mcq-17",
+        "proceed-mcq-21",
+        "proceed-mcq-14"
       ],
       "explanation": "本句的「proceeded through the entrance」指「沿着／穿過前進」。",
       "sentenceIndex": 20,
@@ -1257,12 +1175,10 @@ export default {
         "proceeded through the entrance"
       ],
       "optionReasons": {
-        "proceed-mcq-10": "本句指「沿着／穿過前進」。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。"
+        "proceed-mcq-10": "本句的「proceeded through the entrance」指「沿着／穿過前進」。",
+        "proceed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-10"
     },
@@ -1274,9 +1190,7 @@ export default {
       "masked": "Please ____.",
       "options": [
         "proceed-pdf-001",
-        "proceed-mcq-09",
-        "proceed-mcq-11",
-        "proceed-mcq-08",
+        "proceed-mcq-20",
         "proceed-mcq-12",
         "proceed-mcq-07"
       ],
@@ -1287,12 +1201,10 @@ export default {
         "proceed to the nearest exit"
       ],
       "optionReasons": {
-        "proceed-pdf-001": "本句指「正式指示某人前往某地」。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。"
+        "proceed-pdf-001": "本句的「proceed to the nearest exit」指「正式指示某人前往某地」。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-pdf-001"
     },
@@ -1304,11 +1216,9 @@ export default {
       "masked": "Passengers may now ____.",
       "options": [
         "proceed-pdf-001",
-        "proceed-mcq-09",
-        "proceed-mcq-11",
-        "proceed-mcq-08",
-        "proceed-mcq-12",
-        "proceed-mcq-07"
+        "proceed-mcq-03",
+        "proceed-mcq-24",
+        "proceed-mcq-18"
       ],
       "explanation": "本句的「proceed to the platform」指「正式指示某人前往某地」。",
       "sentenceIndex": 22,
@@ -1317,12 +1227,10 @@ export default {
         "proceed to the platform"
       ],
       "optionReasons": {
-        "proceed-pdf-001": "本句指「正式指示某人前往某地」。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-07": "「謹慎進行」與本句語境不同。"
+        "proceed-pdf-001": "本句的「proceed to the platform」指「正式指示某人前往某地」。",
+        "proceed-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-pdf-001"
     },
@@ -1334,11 +1242,9 @@ export default {
       "masked": "The meeting ____.",
       "options": [
         "proceed-mcq-01",
-        "proceed-mcq-02",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-09",
+        "proceed-mcq-12",
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「proceeded smoothly」指「繼續進行；推進」。",
       "sentenceIndex": 23,
@@ -1347,12 +1253,10 @@ export default {
         "proceeded smoothly"
       ],
       "optionReasons": {
-        "proceed-mcq-01": "本句指「繼續進行；推進」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-01": "本句的「proceeded smoothly」指「繼續進行；推進」。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-01"
     },
@@ -1364,11 +1268,9 @@ export default {
       "masked": "The ceremony ____.",
       "options": [
         "proceed-mcq-01",
-        "proceed-mcq-02",
-        "proceed-mcq-03",
-        "proceed-mcq-04",
-        "proceed-mcq-05",
-        "proceed-mcq-06"
+        "proceed-mcq-18",
+        "proceed-mcq-20",
+        "proceed-pdf-001"
       ],
       "explanation": "本句的「proceeded without interruption」指「繼續進行；推進」。",
       "sentenceIndex": 24,
@@ -1377,12 +1279,10 @@ export default {
         "proceeded without interruption"
       ],
       "optionReasons": {
-        "proceed-mcq-01": "本句指「繼續進行；推進」。",
-        "proceed-mcq-02": "「朝某方向進行」與本句語境不同。",
-        "proceed-mcq-03": "「繼續／著手進行 X」與本句語境不同。",
-        "proceed-mcq-04": "「接着做 X」與本句語境不同。",
-        "proceed-mcq-05": "「按計劃進行」與本句語境不同。",
-        "proceed-mcq-06": "「如常進行」與本句語境不同。"
+        "proceed-mcq-01": "本句的「proceeded without interruption」指「繼續進行；推進」。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-01"
     },
@@ -1394,11 +1294,9 @@ export default {
       "masked": "Clear communication helped the project ____.",
       "options": [
         "proceed-mcq-11",
-        "proceed-mcq-10",
-        "proceed-mcq-12",
-        "proceed-mcq-09",
-        "proceed-mcq-13",
-        "proceed-mcq-08"
+        "proceed-pdf-001",
+        "proceed-mcq-18",
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「proceed smoothly」指「順利進行」。",
       "sentenceIndex": 25,
@@ -1407,12 +1305,10 @@ export default {
         "proceed smoothly"
       ],
       "optionReasons": {
-        "proceed-mcq-11": "本句指「順利進行」。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。"
+        "proceed-mcq-11": "本句的「proceed smoothly」指「順利進行」。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-11"
     },
@@ -1424,11 +1320,9 @@ export default {
       "masked": "The interview ____.",
       "options": [
         "proceed-mcq-11",
-        "proceed-mcq-10",
-        "proceed-mcq-12",
-        "proceed-mcq-09",
-        "proceed-mcq-13",
-        "proceed-mcq-08"
+        "proceed-mcq-18",
+        "proceed-mcq-23",
+        "proceed-pdf-001"
       ],
       "explanation": "本句的「proceeded smoothly」指「順利進行」。",
       "sentenceIndex": 26,
@@ -1437,12 +1331,10 @@ export default {
         "proceeded smoothly"
       ],
       "optionReasons": {
-        "proceed-mcq-11": "本句指「順利進行」。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。"
+        "proceed-mcq-11": "本句的「proceeded smoothly」指「順利進行」。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-11"
     },
@@ -1454,11 +1346,9 @@ export default {
       "masked": "Operations can now ____.",
       "options": [
         "proceed-pdf-002",
-        "proceed-mcq-10",
         "proceed-mcq-12",
         "proceed-mcq-09",
-        "proceed-mcq-13",
-        "proceed-mcq-08"
+        "proceed-mcq-20"
       ],
       "explanation": "本句的「proceed normally」指「按正常程序持續進行」。",
       "sentenceIndex": 27,
@@ -1467,12 +1357,10 @@ export default {
         "proceed normally"
       ],
       "optionReasons": {
-        "proceed-pdf-002": "本句指「按正常程序持續進行」。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。"
+        "proceed-pdf-002": "本句的「proceed normally」指「按正常程序持續進行」。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-pdf-002"
     },
@@ -1484,11 +1372,9 @@ export default {
       "masked": "The experiment ____ after the equipment was repaired.",
       "options": [
         "proceed-pdf-002",
-        "proceed-mcq-10",
-        "proceed-mcq-12",
-        "proceed-mcq-09",
-        "proceed-mcq-13",
-        "proceed-mcq-08"
+        "proceed-mcq-20",
+        "proceed-mcq-23",
+        "proceed-mcq-12"
       ],
       "explanation": "本句的「proceeded normally」指「按正常程序持續進行」。",
       "sentenceIndex": 28,
@@ -1497,12 +1383,10 @@ export default {
         "proceeded normally"
       ],
       "optionReasons": {
-        "proceed-pdf-002": "本句指「按正常程序持續進行」。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-08": "「立即繼續」與本句語境不同。"
+        "proceed-pdf-002": "本句的「proceeded normally」指「按正常程序持續進行」。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-pdf-002"
     },
@@ -1514,11 +1398,9 @@ export default {
       "masked": "The misunderstanding ____.",
       "options": [
         "proceed-mcq-12",
+        "proceed-mcq-19",
         "proceed-mcq-11",
-        "proceed-mcq-13",
-        "proceed-mcq-10",
-        "proceed-mcq-14",
-        "proceed-mcq-09"
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「proceeded from unclear instructions」指「源自 X」。",
       "sentenceIndex": 29,
@@ -1527,12 +1409,10 @@ export default {
         "proceeded from unclear instructions"
       ],
       "optionReasons": {
-        "proceed-mcq-12": "本句指「源自 X」。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。"
+        "proceed-mcq-12": "本句的「proceeded from unclear instructions」指「源自 X」。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-12"
     },
@@ -1544,11 +1424,9 @@ export default {
       "masked": "His conclusion ____.",
       "options": [
         "proceed-mcq-12",
-        "proceed-mcq-11",
-        "proceed-mcq-13",
-        "proceed-mcq-10",
-        "proceed-mcq-14",
-        "proceed-mcq-09"
+        "proceed-mcq-15",
+        "proceed-mcq-05",
+        "proceed-mcq-14"
       ],
       "explanation": "本句的「proceeded from a false assumption」指「源自 X」。",
       "sentenceIndex": 30,
@@ -1557,12 +1435,10 @@ export default {
         "proceeded from a false assumption"
       ],
       "optionReasons": {
-        "proceed-mcq-12": "本句指「源自 X」。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-09": "「前往某地」與本句語境不同。"
+        "proceed-mcq-12": "本句的「proceeded from a false assumption」指「源自 X」。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-12"
     },
@@ -1574,11 +1450,9 @@ export default {
       "masked": "The argument ____.",
       "options": [
         "proceed-pdf-003",
-        "proceed-mcq-12",
+        "proceed-mcq-08",
         "proceed-mcq-14",
-        "proceed-mcq-11",
-        "proceed-mcq-15",
-        "proceed-mcq-10"
+        "proceed-mcq-21"
       ],
       "explanation": "本句的「proceeds from general principles to specific examples」指「從 A 按次序發展或推進到 B」。",
       "sentenceIndex": 31,
@@ -1587,12 +1461,10 @@ export default {
         "proceeds from general principles to specific examples"
       ],
       "optionReasons": {
-        "proceed-pdf-003": "本句指「從 A 按次序發展或推進到 B」。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。"
+        "proceed-pdf-003": "本句的「proceeds from general principles to specific examples」指「從 A 按次序發展或推進到 B」。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-pdf-003"
     },
@@ -1604,11 +1476,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "proceed-pdf-003",
-        "proceed-mcq-12",
-        "proceed-mcq-14",
-        "proceed-mcq-11",
-        "proceed-mcq-15",
-        "proceed-mcq-10"
+        "proceed-mcq-09",
+        "proceed-mcq-21",
+        "proceed-mcq-04"
       ],
       "explanation": "本句的「proceeds from basic concepts to advanced applications」指「從 A 按次序發展或推進到 B」。",
       "sentenceIndex": 32,
@@ -1617,12 +1487,10 @@ export default {
         "proceeds from basic concepts to advanced applications"
       ],
       "optionReasons": {
-        "proceed-pdf-003": "本句指「從 A 按次序發展或推進到 B」。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-10": "「沿着／穿過前進」與本句語境不同。"
+        "proceed-pdf-003": "本句的「proceeds from basic concepts to advanced applications」指「從 A 按次序發展或推進到 B」。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-pdf-003"
     },
@@ -1634,11 +1502,9 @@ export default {
       "masked": "The company decided to ____.",
       "options": [
         "proceed-mcq-14",
-        "proceed-mcq-13",
+        "proceed-mcq-21",
         "proceed-mcq-15",
-        "proceed-mcq-12",
-        "proceed-mcq-16",
-        "proceed-mcq-11"
+        "proceed-mcq-08"
       ],
       "explanation": "本句的「proceed against the contractor legally」指「對某人採取正式行動」。",
       "sentenceIndex": 33,
@@ -1647,12 +1513,10 @@ export default {
         "proceed against the contractor legally"
       ],
       "optionReasons": {
-        "proceed-mcq-14": "本句指「對某人採取正式行動」。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。"
+        "proceed-mcq-14": "本句的「proceed against the contractor legally」指「對某人採取正式行動」。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-14"
     },
@@ -1664,11 +1528,9 @@ export default {
       "masked": "Authorities may ____.",
       "options": [
         "proceed-mcq-14",
-        "proceed-mcq-13",
-        "proceed-mcq-15",
+        "proceed-mcq-20",
         "proceed-mcq-12",
-        "proceed-mcq-16",
-        "proceed-mcq-11"
+        "proceed-mcq-24"
       ],
       "explanation": "本句的「proceed against individuals who break the regulations」指「對某人採取正式行動」。",
       "sentenceIndex": 34,
@@ -1677,12 +1539,10 @@ export default {
         "proceed against individuals who break the regulations"
       ],
       "optionReasons": {
-        "proceed-mcq-14": "本句指「對某人採取正式行動」。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-11": "「順利進行」與本句語境不同。"
+        "proceed-mcq-14": "本句的「proceed against individuals who break the regulations」指「對某人採取正式行動」。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-14"
     },
@@ -1694,11 +1554,9 @@ export default {
       "masked": "The company began ____ against the supplier.",
       "options": [
         "proceed-mcq-15",
-        "proceed-mcq-14",
-        "proceed-mcq-16",
-        "proceed-mcq-13",
-        "proceed-mcq-17",
-        "proceed-mcq-12"
+        "proceed-mcq-03",
+        "proceed-mcq-10",
+        "proceed-mcq-21"
       ],
       "explanation": "本句的「legal proceedings」指「法律程序；訴訟」。",
       "sentenceIndex": 35,
@@ -1707,12 +1565,10 @@ export default {
         "legal proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-15": "本句指「法律程序；訴訟」。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。"
+        "proceed-mcq-15": "本句的「legal proceedings」指「法律程序；訴訟」。",
+        "proceed-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-15"
     },
@@ -1724,11 +1580,9 @@ export default {
       "masked": "The dispute eventually led to ____.",
       "options": [
         "proceed-mcq-15",
-        "proceed-mcq-14",
-        "proceed-mcq-16",
-        "proceed-mcq-13",
-        "proceed-mcq-17",
-        "proceed-mcq-12"
+        "proceed-mcq-11",
+        "proceed-mcq-24",
+        "proceed-mcq-04"
       ],
       "explanation": "本句的「legal proceedings」指「法律程序；訴訟」。",
       "sentenceIndex": 36,
@@ -1737,12 +1591,10 @@ export default {
         "legal proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-15": "本句指「法律程序；訴訟」。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-12": "「源自 X」與本句語境不同。"
+        "proceed-mcq-15": "本句的「legal proceedings」指「法律程序；訴訟」。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-15"
     },
@@ -1754,11 +1606,9 @@ export default {
       "masked": "____ were started against the suspect.",
       "options": [
         "proceed-mcq-16",
-        "proceed-mcq-15",
-        "proceed-mcq-17",
-        "proceed-mcq-14",
-        "proceed-mcq-18",
-        "proceed-mcq-13"
+        "proceed-mcq-06",
+        "proceed-mcq-24",
+        "proceed-pdf-001"
       ],
       "explanation": "本句的「Criminal proceedings」指「刑事訴訟程序」。",
       "sentenceIndex": 37,
@@ -1767,12 +1617,10 @@ export default {
         "Criminal proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-16": "本句指「刑事訴訟程序」。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。"
+        "proceed-mcq-16": "本句的「Criminal proceedings」指「刑事訴訟程序」。",
+        "proceed-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-16"
     },
@@ -1784,11 +1632,9 @@ export default {
       "masked": "The evidence may be used in ____.",
       "options": [
         "proceed-mcq-16",
-        "proceed-mcq-15",
-        "proceed-mcq-17",
-        "proceed-mcq-14",
-        "proceed-mcq-18",
-        "proceed-mcq-13"
+        "proceed-mcq-08",
+        "proceed-mcq-11",
+        "proceed-pdf-001"
       ],
       "explanation": "本句的「criminal proceedings」指「刑事訴訟程序」。",
       "sentenceIndex": 38,
@@ -1797,12 +1643,10 @@ export default {
         "criminal proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-16": "本句指「刑事訴訟程序」。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-13": "「由 A 推進至 B」與本句語境不同。"
+        "proceed-mcq-16": "本句的「criminal proceedings」指「刑事訴訟程序」。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-16"
     },
@@ -1814,11 +1658,9 @@ export default {
       "masked": "The company may face ____.",
       "options": [
         "proceed-mcq-17",
-        "proceed-mcq-16",
-        "proceed-mcq-18",
-        "proceed-mcq-15",
-        "proceed-mcq-19",
-        "proceed-mcq-14"
+        "proceed-mcq-06",
+        "proceed-mcq-04",
+        "proceed-mcq-23"
       ],
       "explanation": "本句的「civil proceedings」指「民事訴訟程序」。",
       "sentenceIndex": 39,
@@ -1827,12 +1669,10 @@ export default {
         "civil proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-17": "本句指「民事訴訟程序」。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。"
+        "proceed-mcq-17": "本句的「civil proceedings」指「民事訴訟程序」。",
+        "proceed-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-17"
     },
@@ -1844,11 +1684,9 @@ export default {
       "masked": "They started ____ to recover the money.",
       "options": [
         "proceed-mcq-17",
-        "proceed-mcq-16",
-        "proceed-mcq-18",
-        "proceed-mcq-15",
-        "proceed-mcq-19",
-        "proceed-mcq-14"
+        "proceed-pdf-001",
+        "proceed-mcq-23",
+        "proceed-mcq-05"
       ],
       "explanation": "本句的「civil proceedings」指「民事訴訟程序」。",
       "sentenceIndex": 40,
@@ -1857,12 +1695,10 @@ export default {
         "civil proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-17": "本句指「民事訴訟程序」。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-14": "「對某人採取正式行動」與本句語境不同。"
+        "proceed-mcq-17": "本句的「civil proceedings」指「民事訴訟程序」。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-17"
     },
@@ -1874,11 +1710,9 @@ export default {
       "masked": "The employee faced ____.",
       "options": [
         "proceed-mcq-18",
-        "proceed-mcq-17",
-        "proceed-mcq-19",
-        "proceed-mcq-16",
         "proceed-mcq-20",
-        "proceed-mcq-15"
+        "proceed-mcq-14",
+        "proceed-mcq-22"
       ],
       "explanation": "本句的「disciplinary proceedings」指「紀律程序」。",
       "sentenceIndex": 41,
@@ -1887,12 +1721,10 @@ export default {
         "disciplinary proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-18": "本句指「紀律程序」。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。"
+        "proceed-mcq-18": "本句的「disciplinary proceedings」指「紀律程序」。",
+        "proceed-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-18"
     },
@@ -1904,11 +1736,9 @@ export default {
       "masked": "Serious misconduct may result in formal ____.",
       "options": [
         "proceed-mcq-18",
-        "proceed-mcq-17",
-        "proceed-mcq-19",
-        "proceed-mcq-16",
-        "proceed-mcq-20",
-        "proceed-mcq-15"
+        "proceed-mcq-21",
+        "proceed-mcq-12",
+        "proceed-mcq-14"
       ],
       "explanation": "本句的「disciplinary proceedings」指「紀律程序」。",
       "sentenceIndex": 42,
@@ -1917,12 +1747,10 @@ export default {
         "disciplinary proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-18": "本句指「紀律程序」。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-15": "「法律程序；訴訟」與本句語境不同。"
+        "proceed-mcq-18": "本句的「disciplinary proceedings」指「紀律程序」。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-18"
     },
@@ -1934,11 +1762,9 @@ export default {
       "masked": "The chair opened the ____.",
       "options": [
         "proceed-mcq-19",
-        "proceed-mcq-18",
-        "proceed-mcq-20",
-        "proceed-mcq-17",
-        "proceed-mcq-21",
-        "proceed-mcq-16"
+        "proceed-mcq-23",
+        "proceed-mcq-08",
+        "proceed-mcq-05"
       ],
       "explanation": "本句的「proceedings」指「議事過程；正式程序」。",
       "sentenceIndex": 43,
@@ -1947,12 +1773,10 @@ export default {
         "proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-19": "本句指「議事過程；正式程序」。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。"
+        "proceed-mcq-19": "本句的「proceedings」指「議事過程；正式程序」。",
+        "proceed-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-19"
     },
@@ -1964,11 +1788,9 @@ export default {
       "masked": "She watched the ____ from the back of the room.",
       "options": [
         "proceed-mcq-19",
-        "proceed-mcq-18",
-        "proceed-mcq-20",
-        "proceed-mcq-17",
-        "proceed-mcq-21",
-        "proceed-mcq-16"
+        "proceed-mcq-06",
+        "proceed-mcq-04",
+        "proceed-mcq-08"
       ],
       "explanation": "本句的「proceedings」指「議事過程；正式程序」。",
       "sentenceIndex": 44,
@@ -1977,12 +1799,10 @@ export default {
         "proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-19": "本句指「議事過程；正式程序」。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。"
+        "proceed-mcq-19": "本句的「proceedings」指「議事過程；正式程序」。",
+        "proceed-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-19"
     },
@@ -1994,11 +1814,9 @@ export default {
       "masked": "A written record of the ____ was kept.",
       "options": [
         "proceed-mcq-19",
-        "proceed-mcq-18",
-        "proceed-mcq-20",
-        "proceed-mcq-17",
-        "proceed-mcq-21",
-        "proceed-mcq-16"
+        "proceed-mcq-04",
+        "proceed-mcq-02",
+        "proceed-mcq-24"
       ],
       "explanation": "本句的「proceedings」指「議事過程；正式程序」。",
       "sentenceIndex": 45,
@@ -2007,12 +1825,10 @@ export default {
         "proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-19": "本句指「議事過程；正式程序」。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。"
+        "proceed-mcq-19": "本句的「proceedings」指「議事過程；正式程序」。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-19"
     },
@@ -2024,11 +1840,9 @@ export default {
       "masked": "Several interruptions delayed the ____.",
       "options": [
         "proceed-mcq-19",
-        "proceed-mcq-18",
-        "proceed-mcq-20",
-        "proceed-mcq-17",
-        "proceed-mcq-21",
-        "proceed-mcq-16"
+        "proceed-mcq-01",
+        "proceed-mcq-09",
+        "proceed-mcq-24"
       ],
       "explanation": "本句的「proceedings」指「議事過程；正式程序」。",
       "sentenceIndex": 46,
@@ -2037,12 +1851,10 @@ export default {
         "proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-19": "本句指「議事過程；正式程序」。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-16": "「刑事訴訟程序」與本句語境不同。"
+        "proceed-mcq-19": "本句的「proceedings」指「議事過程；正式程序」。",
+        "proceed-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-19"
     },
@@ -2054,11 +1866,9 @@ export default {
       "masked": "The paper was published in the ____.",
       "options": [
         "proceed-mcq-20",
-        "proceed-mcq-19",
+        "proceed-mcq-05",
         "proceed-mcq-21",
-        "proceed-mcq-18",
-        "proceed-mcq-22",
-        "proceed-mcq-17"
+        "proceed-mcq-16"
       ],
       "explanation": "本句的「conference proceedings」指「會議論文集」。",
       "sentenceIndex": 47,
@@ -2067,12 +1877,10 @@ export default {
         "conference proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-20": "本句指「會議論文集」。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。"
+        "proceed-mcq-20": "本句的「conference proceedings」指「會議論文集」。",
+        "proceed-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-20"
     },
@@ -2084,11 +1892,9 @@ export default {
       "masked": "The ____ contain papers from researchers around the world.",
       "options": [
         "proceed-mcq-20",
-        "proceed-mcq-19",
-        "proceed-mcq-21",
-        "proceed-mcq-18",
-        "proceed-mcq-22",
-        "proceed-mcq-17"
+        "proceed-mcq-06",
+        "proceed-mcq-17",
+        "proceed-mcq-08"
       ],
       "explanation": "本句的「proceedings」指「會議論文集」。",
       "sentenceIndex": 48,
@@ -2097,12 +1903,10 @@ export default {
         "proceedings"
       ],
       "optionReasons": {
-        "proceed-mcq-20": "本句指「會議論文集」。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-17": "「民事訴訟程序」與本句語境不同。"
+        "proceed-mcq-20": "本句的「proceedings」指「會議論文集」。",
+        "proceed-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-20"
     },
@@ -2114,11 +1918,9 @@ export default {
       "masked": "The ____ will be donated.",
       "options": [
         "proceed-mcq-21",
-        "proceed-mcq-20",
-        "proceed-mcq-22",
-        "proceed-mcq-19",
-        "proceed-mcq-23",
-        "proceed-mcq-18"
+        "proceed-mcq-14",
+        "proceed-pdf-003",
+        "proceed-mcq-11"
       ],
       "explanation": "本句的「proceeds from the sale」指「所得款項；收益」。",
       "sentenceIndex": 49,
@@ -2127,12 +1929,10 @@ export default {
         "proceeds from the sale"
       ],
       "optionReasons": {
-        "proceed-mcq-21": "本句指「所得款項；收益」。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。"
+        "proceed-mcq-21": "本句的「proceeds from the sale」指「所得款項；收益」。",
+        "proceed-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-21"
     },
@@ -2144,11 +1944,9 @@ export default {
       "masked": "The company used the ____ to repay debt.",
       "options": [
         "proceed-mcq-21",
-        "proceed-mcq-20",
-        "proceed-mcq-22",
-        "proceed-mcq-19",
-        "proceed-mcq-23",
-        "proceed-mcq-18"
+        "proceed-mcq-07",
+        "proceed-pdf-003",
+        "proceed-mcq-15"
       ],
       "explanation": "本句的「proceeds」指「所得款項；收益」。",
       "sentenceIndex": 50,
@@ -2157,12 +1955,10 @@ export default {
         "proceeds"
       ],
       "optionReasons": {
-        "proceed-mcq-21": "本句指「所得款項；收益」。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-18": "「紀律程序」與本句語境不同。"
+        "proceed-mcq-21": "本句的「proceeds」指「所得款項；收益」。",
+        "proceed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-21"
     },
@@ -2174,11 +1970,9 @@ export default {
       "masked": "The ____ were divided equally.",
       "options": [
         "proceed-mcq-22",
-        "proceed-mcq-21",
-        "proceed-mcq-23",
-        "proceed-mcq-20",
-        "proceed-mcq-24",
-        "proceed-mcq-19"
+        "proceed-mcq-04",
+        "proceed-mcq-15",
+        "proceed-mcq-06"
       ],
       "explanation": "本句的「proceeds from the property sale」指「出售所得款項」。",
       "sentenceIndex": 51,
@@ -2187,12 +1981,10 @@ export default {
         "proceeds from the property sale"
       ],
       "optionReasons": {
-        "proceed-mcq-22": "本句指「出售所得款項」。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-24": "「總所得款項」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。"
+        "proceed-mcq-22": "本句的「proceeds from the property sale」指「出售所得款項」。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-22"
     },
@@ -2204,11 +1996,9 @@ export default {
       "masked": "She invested the ____.",
       "options": [
         "proceed-mcq-22",
-        "proceed-mcq-21",
-        "proceed-mcq-23",
-        "proceed-mcq-20",
-        "proceed-mcq-24",
-        "proceed-mcq-19"
+        "proceed-mcq-11",
+        "proceed-mcq-19",
+        "proceed-mcq-12"
       ],
       "explanation": "本句的「proceeds from the sale of her business」指「出售所得款項」。",
       "sentenceIndex": 52,
@@ -2217,12 +2007,10 @@ export default {
         "proceeds from the sale of her business"
       ],
       "optionReasons": {
-        "proceed-mcq-22": "本句指「出售所得款項」。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-24": "「總所得款項」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。"
+        "proceed-mcq-22": "本句的「proceeds from the sale of her business」指「出售所得款項」。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-22"
     },
@@ -2234,11 +2022,9 @@ export default {
       "masked": "____.",
       "options": [
         "proceed-mcq-22",
-        "proceed-mcq-21",
-        "proceed-mcq-23",
-        "proceed-mcq-20",
-        "proceed-mcq-24",
-        "proceed-mcq-19"
+        "proceed-pdf-001",
+        "proceed-mcq-17",
+        "proceed-mcq-04"
       ],
       "explanation": "本句的「All proceeds will go to charity」指「出售所得款項」。",
       "sentenceIndex": 53,
@@ -2247,12 +2033,10 @@ export default {
         "All proceeds will go to charity"
       ],
       "optionReasons": {
-        "proceed-mcq-22": "本句指「出售所得款項」。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-24": "「總所得款項」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。"
+        "proceed-mcq-22": "本句的「All proceeds will go to charity」指「出售所得款項」。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-22"
     },
@@ -2264,11 +2048,9 @@ export default {
       "masked": "The concert was organised so that ____.",
       "options": [
         "proceed-mcq-22",
-        "proceed-mcq-21",
-        "proceed-mcq-23",
-        "proceed-mcq-20",
-        "proceed-mcq-24",
-        "proceed-mcq-19"
+        "proceed-mcq-07",
+        "proceed-pdf-003",
+        "proceed-mcq-10"
       ],
       "explanation": "本句的「all proceeds went to a local charity」指「出售所得款項」。",
       "sentenceIndex": 54,
@@ -2277,12 +2059,10 @@ export default {
         "all proceeds went to a local charity"
       ],
       "optionReasons": {
-        "proceed-mcq-22": "本句指「出售所得款項」。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。",
-        "proceed-mcq-24": "「總所得款項」與本句語境不同。",
-        "proceed-mcq-19": "「議事過程；正式程序」與本句語境不同。"
+        "proceed-mcq-22": "本句的「all proceeds went to a local charity」指「出售所得款項」。",
+        "proceed-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-22"
     },
@@ -2294,11 +2074,9 @@ export default {
       "masked": "The ____ were lower after expenses were deducted.",
       "options": [
         "proceed-mcq-23",
-        "proceed-mcq-22",
-        "proceed-mcq-24",
-        "proceed-mcq-21",
-        "proceed-mcq-25",
-        "proceed-mcq-20"
+        "proceed-mcq-19",
+        "proceed-pdf-003",
+        "proceed-mcq-11"
       ],
       "explanation": "本句的「net proceeds」指「淨所得款項」。",
       "sentenceIndex": 55,
@@ -2307,12 +2085,10 @@ export default {
         "net proceeds"
       ],
       "optionReasons": {
-        "proceed-mcq-23": "本句指「淨所得款項」。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-24": "「總所得款項」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-25": "「所有收益撥捐慈善」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。"
+        "proceed-mcq-23": "本句的「net proceeds」指「淨所得款項」。",
+        "proceed-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-23"
     },
@@ -2324,11 +2100,9 @@ export default {
       "masked": "The company received £2 million in ____.",
       "options": [
         "proceed-mcq-23",
-        "proceed-mcq-22",
-        "proceed-mcq-24",
-        "proceed-mcq-21",
-        "proceed-mcq-25",
-        "proceed-mcq-20"
+        "proceed-pdf-001",
+        "proceed-mcq-15",
+        "proceed-mcq-06"
       ],
       "explanation": "本句的「net proceeds」指「淨所得款項」。",
       "sentenceIndex": 56,
@@ -2337,12 +2111,10 @@ export default {
         "net proceeds"
       ],
       "optionReasons": {
-        "proceed-mcq-23": "本句指「淨所得款項」。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-24": "「總所得款項」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-25": "「所有收益撥捐慈善」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。"
+        "proceed-mcq-23": "本句的「net proceeds」指「淨所得款項」。",
+        "proceed-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-23"
     },
@@ -2354,11 +2126,9 @@ export default {
       "masked": "Gross ____ from the event reached $100,000.",
       "options": [
         "proceed-mcq-24",
-        "proceed-mcq-23",
-        "proceed-mcq-25",
-        "proceed-mcq-22",
-        "proceed-mcq-21",
-        "proceed-mcq-20"
+        "proceed-mcq-18",
+        "proceed-mcq-02",
+        "proceed-pdf-003"
       ],
       "explanation": "本句的「proceeds」指「總所得款項」。",
       "sentenceIndex": 57,
@@ -2367,12 +2137,10 @@ export default {
         "proceeds"
       ],
       "optionReasons": {
-        "proceed-mcq-24": "本句指「總所得款項」。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-25": "「所有收益撥捐慈善」與本句語境不同。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。"
+        "proceed-mcq-24": "本句的「proceeds」指「總所得款項」。",
+        "proceed-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "proceed-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-24"
     },
@@ -2384,11 +2152,9 @@ export default {
       "masked": "Fees are deducted from the ____.",
       "options": [
         "proceed-mcq-24",
-        "proceed-mcq-23",
-        "proceed-mcq-25",
-        "proceed-mcq-22",
-        "proceed-mcq-21",
-        "proceed-mcq-20"
+        "proceed-mcq-10",
+        "proceed-mcq-02",
+        "proceed-mcq-15"
       ],
       "explanation": "本句的「gross proceeds」指「總所得款項」。",
       "sentenceIndex": 58,
@@ -2397,12 +2163,10 @@ export default {
         "gross proceeds"
       ],
       "optionReasons": {
-        "proceed-mcq-24": "本句指「總所得款項」。",
-        "proceed-mcq-23": "「淨所得款項」與本句語境不同。",
-        "proceed-mcq-25": "「所有收益撥捐慈善」與本句語境不同。",
-        "proceed-mcq-22": "「出售所得款項」與本句語境不同。",
-        "proceed-mcq-21": "「所得款項；收益」與本句語境不同。",
-        "proceed-mcq-20": "「會議論文集」與本句語境不同。"
+        "proceed-mcq-24": "本句的「gross proceeds」指「總所得款項」。",
+        "proceed-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "proceed-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "proceed-mcq-24"
     }
@@ -2414,5 +2178,7 @@ export default {
     "sha256": "73e33c50735fc829ea14aff900e3a4e81385521b1e746b0ef707bb68e4639262",
     "pages": 25
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -581,11 +581,9 @@ export default {
       "masked": "An old person I know well is my grandmother on my mother's ____.",
       "options": [
         "side-mcq-01",
-        "side-mcq-02",
-        "side-mcq-03",
-        "side-mcq-04",
-        "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-17",
+        "side-mcq-21",
+        "side-mcq-15"
       ],
       "explanation": "本句的「side」指「透過母親／父親所連結的家族其中一支」。",
       "sentenceIndex": 0,
@@ -594,12 +592,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-01": "本句指「透過母親／父親所連結的家族其中一支」。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-01": "本句的「side」指「透過母親／父親所連結的家族其中一支」。",
+        "side-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-01"
     },
@@ -611,11 +607,9 @@ export default {
       "masked": "Most of my cousins on my father's ____ live abroad.",
       "options": [
         "side-mcq-01",
-        "side-mcq-02",
-        "side-mcq-03",
-        "side-mcq-04",
-        "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-24",
+        "side-mcq-14",
+        "side-mcq-03"
       ],
       "explanation": "本句的「side」指「透過母親／父親所連結的家族其中一支」。",
       "sentenceIndex": 1,
@@ -624,12 +618,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-01": "本句指「透過母親／父親所連結的家族其中一支」。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-01": "本句的「side」指「透過母親／父親所連結的家族其中一支」。",
+        "side-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-01"
     },
@@ -641,11 +633,9 @@ export default {
       "masked": "She inherited that tradition from her mother's ____.",
       "options": [
         "side-mcq-01",
-        "side-mcq-02",
-        "side-mcq-03",
-        "side-mcq-04",
-        "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-13",
+        "side-mcq-09",
+        "side-mcq-05"
       ],
       "explanation": "本句的「side of the family」指「透過母親／父親所連結的家族其中一支」。",
       "sentenceIndex": 2,
@@ -654,12 +644,10 @@ export default {
         "side of the family"
       ],
       "optionReasons": {
-        "side-mcq-01": "本句指「透過母親／父親所連結的家族其中一支」。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-01": "本句的「side of the family」指「透過母親／父親所連結的家族其中一支」。",
+        "side-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-01"
     },
@@ -671,11 +659,9 @@ export default {
       "masked": "There is a door on the ____ of the building.",
       "options": [
         "side-mcq-02",
-        "side-mcq-01",
-        "side-mcq-03",
-        "side-mcq-04",
+        "side-mcq-11",
         "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-07"
       ],
       "explanation": "本句的「side」指「物體的一個側面、表面或外側部分」。",
       "sentenceIndex": 3,
@@ -684,12 +670,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-02": "本句指「物體的一個側面、表面或外側部分」。",
-        "side-mcq-01": "「透過母親／父親所連結的家族其中一支」是「mother's/father's side」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-02": "本句的「side」指「物體的一個側面、表面或外側部分」。",
+        "side-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-02"
     },
@@ -701,11 +685,9 @@ export default {
       "masked": "Write your name on the other ____ of the paper.",
       "options": [
         "side-mcq-02",
-        "side-mcq-01",
-        "side-mcq-03",
-        "side-mcq-04",
+        "side-mcq-07",
         "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-16"
       ],
       "explanation": "本句的「side」指「物體的一個側面、表面或外側部分」。",
       "sentenceIndex": 4,
@@ -714,12 +696,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-02": "本句指「物體的一個側面、表面或外側部分」。",
-        "side-mcq-01": "「透過母親／父親所連結的家族其中一支」是「mother's/father's side」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-02": "本句的「side」指「物體的一個側面、表面或外側部分」。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-02"
     },
@@ -731,11 +711,9 @@ export default {
       "masked": "She sat on the left ____ of the room.",
       "options": [
         "side-mcq-03",
-        "side-mcq-02",
-        "side-mcq-04",
-        "side-mcq-01",
-        "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-14",
+        "side-mcq-07",
+        "side-mcq-10"
       ],
       "explanation": "本句的「side」指「某個人、物件或空間的左邊／右邊部分」。",
       "sentenceIndex": 5,
@@ -744,12 +722,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-03": "本句指「某個人、物件或空間的左邊／右邊部分」。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-01": "「透過母親／父親所連結的家族其中一支」是「mother's/father's side」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-03": "本句的「side」指「某個人、物件或空間的左邊／右邊部分」。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-03"
     },
@@ -761,11 +737,9 @@ export default {
       "masked": "The pain is mostly on one ____ of my neck.",
       "options": [
         "side-mcq-03",
-        "side-mcq-02",
-        "side-mcq-04",
-        "side-mcq-01",
-        "side-mcq-05",
-        "side-mcq-06"
+        "side-mcq-10",
+        "side-mcq-13",
+        "side-mcq-14"
       ],
       "explanation": "本句的「side」指「某個人、物件或空間的左邊／右邊部分」。",
       "sentenceIndex": 6,
@@ -774,12 +748,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-03": "本句指「某個人、物件或空間的左邊／右邊部分」。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-01": "「透過母親／父親所連結的家族其中一支」是「mother's/father's side」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-03": "本句的「side」指「某個人、物件或空間的左邊／右邊部分」。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-03"
     },
@@ -791,11 +763,9 @@ export default {
       "masked": "He lay on his ____.",
       "options": [
         "side-mcq-04",
-        "side-mcq-03",
-        "side-mcq-05",
-        "side-mcq-02",
-        "side-mcq-06",
-        "side-mcq-01"
+        "side-mcq-26",
+        "side-mcq-19",
+        "side-mcq-18"
       ],
       "explanation": "本句的「side」指「人體的側面部分，尤其軀幹一側」。",
       "sentenceIndex": 7,
@@ -804,12 +774,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-04": "本句指「人體的側面部分，尤其軀幹一側」。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-01": "「透過母親／父親所連結的家族其中一支」是「mother's/father's side」的用法，與本句語境不同。"
+        "side-mcq-04": "本句的「side」指「人體的側面部分，尤其軀幹一側」。",
+        "side-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-04"
     },
@@ -821,11 +789,9 @@ export default {
       "masked": "She felt a sharp pain in her ____.",
       "options": [
         "side-mcq-04",
-        "side-mcq-03",
-        "side-mcq-05",
-        "side-mcq-02",
-        "side-mcq-06",
-        "side-mcq-01"
+        "side-mcq-13",
+        "side-mcq-01",
+        "side-mcq-10"
       ],
       "explanation": "本句的「side」指「人體的側面部分，尤其軀幹一側」。",
       "sentenceIndex": 8,
@@ -834,12 +800,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-04": "本句指「人體的側面部分，尤其軀幹一側」。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-01": "「透過母親／父親所連結的家族其中一支」是「mother's/father's side」的用法，與本句語境不同。"
+        "side-mcq-04": "本句的「side」指「人體的側面部分，尤其軀幹一側」。",
+        "side-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-04"
     },
@@ -851,11 +815,9 @@ export default {
       "masked": "We stood at the ____ of the road.",
       "options": [
         "side-mcq-05",
-        "side-mcq-04",
-        "side-mcq-06",
-        "side-mcq-03",
         "side-mcq-07",
-        "side-mcq-02"
+        "side-mcq-24",
+        "side-mcq-26"
       ],
       "explanation": "本句的「side」指「接近某個地方或物件邊緣的位置；旁邊」。",
       "sentenceIndex": 9,
@@ -864,12 +826,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-05": "本句指「接近某個地方或物件邊緣的位置；旁邊」。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。"
+        "side-mcq-05": "本句的「side」指「接近某個地方或物件邊緣的位置；旁邊」。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-05"
     },
@@ -881,11 +841,9 @@ export default {
       "masked": "She left her bag at the ____ of the chair.",
       "options": [
         "side-mcq-05",
-        "side-mcq-04",
         "side-mcq-06",
-        "side-mcq-03",
-        "side-mcq-07",
-        "side-mcq-02"
+        "side-mcq-17",
+        "side-mcq-13"
       ],
       "explanation": "本句的「side」指「接近某個地方或物件邊緣的位置；旁邊」。",
       "sentenceIndex": 10,
@@ -894,12 +852,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-05": "本句指「接近某個地方或物件邊緣的位置；旁邊」。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-02": "「物體的一個側面、表面或外側部分」是「side — surface」的用法，與本句語境不同。"
+        "side-mcq-05": "本句的「side」指「接近某個地方或物件邊緣的位置；旁邊」。",
+        "side-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-05"
     },
@@ -911,11 +867,9 @@ export default {
       "masked": "Both ____ agreed to continue the discussion.",
       "options": [
         "side-mcq-06",
-        "side-mcq-05",
-        "side-mcq-07",
-        "side-mcq-04",
-        "side-mcq-08",
-        "side-mcq-03"
+        "side-mcq-13",
+        "side-mcq-22",
+        "side-mcq-01"
       ],
       "explanation": "本句的「sides」指「在爭議、談判、衝突或競爭中的其中一方」。",
       "sentenceIndex": 11,
@@ -924,12 +878,10 @@ export default {
         "sides"
       ],
       "optionReasons": {
-        "side-mcq-06": "本句指「在爭議、談判、衝突或競爭中的其中一方」。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。"
+        "side-mcq-06": "本句的「sides」指「在爭議、談判、衝突或競爭中的其中一方」。",
+        "side-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-06"
     },
@@ -941,11 +893,9 @@ export default {
       "masked": "Neither ____ was willing to compromise.",
       "options": [
         "side-mcq-06",
-        "side-mcq-05",
-        "side-mcq-07",
-        "side-mcq-04",
-        "side-mcq-08",
-        "side-mcq-03"
+        "side-mcq-09",
+        "side-mcq-15",
+        "side-mcq-01"
       ],
       "explanation": "本句的「side」指「在爭議、談判、衝突或競爭中的其中一方」。",
       "sentenceIndex": 12,
@@ -954,12 +904,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-06": "本句指「在爭議、談判、衝突或競爭中的其中一方」。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-03": "「某個人、物件或空間的左邊／右邊部分」是「left/right side」的用法，與本句語境不同。"
+        "side-mcq-06": "本句的「side」指「在爭議、談判、衝突或競爭中的其中一方」。",
+        "side-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-06"
     },
@@ -971,11 +919,9 @@ export default {
       "masked": "I don't want to ____ in their argument.",
       "options": [
         "side-mcq-11",
-        "side-mcq-10",
-        "side-mcq-12",
-        "side-mcq-09",
-        "side-mcq-13",
-        "side-mcq-08"
+        "side-mcq-02",
+        "side-mcq-19",
+        "side-mcq-10"
       ],
       "explanation": "本句的「take sides」指「在爭議中支持某人／某一方」。",
       "sentenceIndex": 13,
@@ -984,12 +930,10 @@ export default {
         "take sides"
       ],
       "optionReasons": {
-        "side-mcq-11": "本句指「在爭議中支持某人／某一方」。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。"
+        "side-mcq-11": "本句的「take sides」指「在爭議中支持某人／某一方」。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-11"
     },
@@ -1001,11 +945,9 @@ export default {
       "masked": "She always ____.",
       "options": [
         "side-mcq-11",
-        "side-mcq-10",
-        "side-mcq-12",
-        "side-mcq-09",
-        "side-mcq-13",
-        "side-mcq-08"
+        "side-mcq-07",
+        "side-mcq-14",
+        "side-mcq-05"
       ],
       "explanation": "本句的「takes her brother's side」指「在爭議中支持某人／某一方」。",
       "sentenceIndex": 14,
@@ -1014,12 +956,10 @@ export default {
         "takes her brother's side"
       ],
       "optionReasons": {
-        "side-mcq-11": "本句指「在爭議中支持某人／某一方」。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。"
+        "side-mcq-11": "本句的「takes her brother's side」指「在爭議中支持某人／某一方」。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-11"
     },
@@ -1031,11 +971,9 @@ export default {
       "masked": "Our ____ played very well in the second half.",
       "options": [
         "side-mcq-07",
-        "side-mcq-06",
+        "side-mcq-19",
         "side-mcq-08",
-        "side-mcq-05",
-        "side-mcq-09",
-        "side-mcq-04"
+        "side-mcq-01"
       ],
       "explanation": "本句的「side」指「在比賽或競賽中參與的一隊／一方」。",
       "sentenceIndex": 15,
@@ -1044,12 +982,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-07": "本句指「在比賽或競賽中參與的一隊／一方」。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。"
+        "side-mcq-07": "本句的「side」指「在比賽或競賽中參與的一隊／一方」。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-07"
     },
@@ -1061,11 +997,9 @@ export default {
       "masked": "The home ____ scored first.",
       "options": [
         "side-mcq-07",
-        "side-mcq-06",
-        "side-mcq-08",
-        "side-mcq-05",
-        "side-mcq-09",
-        "side-mcq-04"
+        "side-mcq-25",
+        "side-mcq-20",
+        "side-mcq-02"
       ],
       "explanation": "本句的「side」指「在比賽或競賽中參與的一隊／一方」。",
       "sentenceIndex": 16,
@@ -1074,12 +1008,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-07": "本句指「在比賽或競賽中參與的一隊／一方」。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-04": "「人體的側面部分，尤其軀幹一側」是「side — body」的用法，與本句語境不同。"
+        "side-mcq-07": "本句的「side」指「在比賽或競賽中參與的一隊／一方」。",
+        "side-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-07"
     },
@@ -1091,11 +1023,9 @@ export default {
       "masked": "You should listen to both ____.",
       "options": [
         "side-mcq-08",
-        "side-mcq-07",
-        "side-mcq-09",
-        "side-mcq-06",
-        "side-mcq-10",
-        "side-mcq-05"
+        "side-mcq-03",
+        "side-mcq-15",
+        "side-mcq-18"
       ],
       "explanation": "本句的「sides of the argument」指「某場爭議中的觀點、立場或一方的說法」。",
       "sentenceIndex": 17,
@@ -1104,12 +1034,10 @@ export default {
         "sides of the argument"
       ],
       "optionReasons": {
-        "side-mcq-08": "本句指「某場爭議中的觀點、立場或一方的說法」。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。"
+        "side-mcq-08": "本句的「sides of the argument」指「某場爭議中的觀點、立場或一方的說法」。",
+        "side-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-08"
     },
@@ -1121,11 +1049,9 @@ export default {
       "masked": "I understand your ____ of the story.",
       "options": [
         "side-mcq-08",
-        "side-mcq-07",
-        "side-mcq-09",
-        "side-mcq-06",
-        "side-mcq-10",
-        "side-mcq-05"
+        "side-mcq-20",
+        "side-mcq-04",
+        "side-mcq-10"
       ],
       "explanation": "本句的「side」指「某場爭議中的觀點、立場或一方的說法」。",
       "sentenceIndex": 18,
@@ -1134,12 +1060,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-08": "本句指「某場爭議中的觀點、立場或一方的說法」。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。",
-        "side-mcq-05": "「接近某個地方或物件邊緣的位置；旁邊」是「side — edge/nearby area」的用法，與本句語境不同。"
+        "side-mcq-08": "本句的「side」指「某場爭議中的觀點、立場或一方的說法」。",
+        "side-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-08"
     },
@@ -1151,11 +1075,9 @@ export default {
       "masked": "She has a very serious ____.",
       "options": [
         "side-mcq-09",
-        "side-mcq-08",
-        "side-mcq-10",
-        "side-mcq-07",
-        "side-mcq-11",
-        "side-mcq-06"
+        "side-mcq-01",
+        "side-mcq-18",
+        "side-mcq-10"
       ],
       "explanation": "本句的「side」指「某人性格或某件事情的一個面向」。",
       "sentenceIndex": 19,
@@ -1164,12 +1086,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-09": "本句指「某人性格或某件事情的一個面向」。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-09": "本句的「side」指「某人性格或某件事情的一個面向」。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-09"
     },
@@ -1181,11 +1101,9 @@ export default {
       "masked": "The job has a creative ____ as well.",
       "options": [
         "side-mcq-09",
-        "side-mcq-08",
+        "side-mcq-15",
         "side-mcq-10",
-        "side-mcq-07",
-        "side-mcq-11",
-        "side-mcq-06"
+        "side-mcq-02"
       ],
       "explanation": "本句的「side」指「某人性格或某件事情的一個面向」。",
       "sentenceIndex": 20,
@@ -1194,12 +1112,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-09": "本句指「某人性格或某件事情的一個面向」。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。",
-        "side-mcq-06": "「在爭議、談判、衝突或競爭中的其中一方」是「side — opposing group」的用法，與本句語境不同。"
+        "side-mcq-09": "本句的「side」指「某人性格或某件事情的一個面向」。",
+        "side-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-09"
     },
@@ -1211,11 +1127,9 @@ export default {
       "masked": "Travelling together showed me another ____ of her.",
       "options": [
         "side-mcq-10",
-        "side-mcq-09",
-        "side-mcq-11",
-        "side-mcq-08",
-        "side-mcq-12",
-        "side-mcq-07"
+        "side-mcq-18",
+        "side-mcq-17",
+        "side-mcq-03"
       ],
       "explanation": "本句的「side」指「平時未必明顯的另一個面貌或特質」。",
       "sentenceIndex": 21,
@@ -1224,12 +1138,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-10": "本句指「平時未必明顯的另一個面貌或特質」。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。"
+        "side-mcq-10": "本句的「side」指「平時未必明顯的另一個面貌或特質」。",
+        "side-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-10"
     },
@@ -1241,11 +1153,9 @@ export default {
       "masked": "The documentary shows a darker ____ of the industry.",
       "options": [
         "side-mcq-10",
-        "side-mcq-09",
-        "side-mcq-11",
-        "side-mcq-08",
-        "side-mcq-12",
-        "side-mcq-07"
+        "side-mcq-20",
+        "side-mcq-22",
+        "side-mcq-24"
       ],
       "explanation": "本句的「side」指「平時未必明顯的另一個面貌或特質」。",
       "sentenceIndex": 22,
@@ -1254,12 +1164,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-10": "本句指「平時未必明顯的另一個面貌或特質」。",
-        "side-mcq-09": "「某人性格或某件事情的一個面向」是「side — aspect」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。",
-        "side-mcq-08": "「某場爭議中的觀點、立場或一方的說法」是「side of an argument/story」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-07": "「在比賽或競賽中參與的一隊／一方」是「side — sports team」的用法，與本句語境不同。"
+        "side-mcq-10": "本句的「side」指「平時未必明顯的另一個面貌或特質」。",
+        "side-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-10"
     },
@@ -1271,11 +1179,9 @@ export default {
       "masked": "On the positive ____, the apartment is very quiet.",
       "options": [
         "side-mcq-13",
-        "side-mcq-12",
         "side-mcq-14",
-        "side-mcq-11",
-        "side-mcq-15",
-        "side-mcq-10"
+        "side-mcq-08",
+        "side-mcq-02"
       ],
       "explanation": "本句的「side」指「從有利／不利的角度來看」。",
       "sentenceIndex": 23,
@@ -1284,12 +1190,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-13": "本句指「從有利／不利的角度來看」。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。"
+        "side-mcq-13": "本句的「side」指「從有利／不利的角度來看」。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-13"
     },
@@ -1301,11 +1205,9 @@ export default {
       "masked": "On the negative ____, it is quite far from the station.",
       "options": [
         "side-mcq-13",
-        "side-mcq-12",
-        "side-mcq-14",
+        "side-mcq-22",
         "side-mcq-11",
-        "side-mcq-15",
-        "side-mcq-10"
+        "side-mcq-07"
       ],
       "explanation": "本句的「side」指「從有利／不利的角度來看」。",
       "sentenceIndex": 24,
@@ -1314,12 +1216,10 @@ export default {
         "side"
       ],
       "optionReasons": {
-        "side-mcq-13": "本句指「從有利／不利的角度來看」。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-10": "「平時未必明顯的另一個面貌或特質」是「another side」的用法，與本句語境不同。"
+        "side-mcq-13": "本句的「side」指「從有利／不利的角度來看」。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-13"
     },
@@ -1331,11 +1231,9 @@ export default {
       "masked": "She teaches during the day and sells handmade jewellery ____.",
       "options": [
         "side-mcq-14",
-        "side-mcq-13",
-        "side-mcq-15",
-        "side-mcq-12",
-        "side-mcq-16",
-        "side-mcq-11"
+        "side-mcq-01",
+        "side-mcq-05",
+        "side-mcq-09"
       ],
       "explanation": "本句的「on the side」指「在主要工作以外另外進行的副業／活動」。",
       "sentenceIndex": 25,
@@ -1344,12 +1242,10 @@ export default {
         "on the side"
       ],
       "optionReasons": {
-        "side-mcq-14": "本句指「在主要工作以外另外進行的副業／活動」。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。"
+        "side-mcq-14": "本句的「on the side」指「在主要工作以外另外進行的副業／活動」。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-14"
     },
@@ -1361,11 +1257,9 @@ export default {
       "masked": "He does some freelance design work ____.",
       "options": [
         "side-mcq-14",
-        "side-mcq-13",
-        "side-mcq-15",
-        "side-mcq-12",
-        "side-mcq-16",
-        "side-mcq-11"
+        "side-mcq-17",
+        "side-mcq-24",
+        "side-mcq-19"
       ],
       "explanation": "本句的「on the side」指「在主要工作以外另外進行的副業／活動」。",
       "sentenceIndex": 26,
@@ -1374,12 +1268,10 @@ export default {
         "on the side"
       ],
       "optionReasons": {
-        "side-mcq-14": "本句指「在主要工作以外另外進行的副業／活動」。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-11": "「在爭議中支持某人／某一方」是「take someone's side」的用法，與本句語境不同。"
+        "side-mcq-14": "本句的「on the side」指「在主要工作以外另外進行的副業／活動」。",
+        "side-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-14"
     },
@@ -1391,11 +1283,9 @@ export default {
       "masked": "Can I have the sauce ____?",
       "options": [
         "side-mcq-15",
-        "side-mcq-14",
-        "side-mcq-16",
-        "side-mcq-13",
-        "side-mcq-17",
-        "side-mcq-12"
+        "side-mcq-09",
+        "side-mcq-06",
+        "side-mcq-01"
       ],
       "explanation": "本句的「on the side」指「食物或醬汁分開盛放，而非混在主菜中」。",
       "sentenceIndex": 27,
@@ -1404,12 +1294,10 @@ export default {
         "on the side"
       ],
       "optionReasons": {
-        "side-mcq-15": "本句指「食物或醬汁分開盛放，而非混在主菜中」。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。"
+        "side-mcq-15": "本句的「on the side」指「食物或醬汁分開盛放，而非混在主菜中」。",
+        "side-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-15"
     },
@@ -1421,11 +1309,9 @@ export default {
       "masked": "The salad was served ____.",
       "options": [
         "side-mcq-15",
-        "side-mcq-14",
-        "side-mcq-16",
+        "side-mcq-10",
         "side-mcq-13",
-        "side-mcq-17",
-        "side-mcq-12"
+        "side-mcq-05"
       ],
       "explanation": "本句的「on the side」指「食物或醬汁分開盛放，而非混在主菜中」。",
       "sentenceIndex": 28,
@@ -1434,12 +1320,10 @@ export default {
         "on the side"
       ],
       "optionReasons": {
-        "side-mcq-15": "本句指「食物或醬汁分開盛放，而非混在主菜中」。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-12": "「以動詞表示支持某人／某一陣營」是「side with someone」的用法，與本句語境不同。"
+        "side-mcq-15": "本句的「on the side」指「食物或醬汁分開盛放，而非混在主菜中」。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-15"
     },
@@ -1451,11 +1335,9 @@ export default {
       "masked": "Her family stayed ____ throughout the difficult period.",
       "options": [
         "side-mcq-16",
-        "side-mcq-15",
-        "side-mcq-17",
-        "side-mcq-14",
-        "side-mcq-18",
-        "side-mcq-13"
+        "side-mcq-10",
+        "side-mcq-19",
+        "side-mcq-06"
       ],
       "explanation": "本句的「by her side」指「在某人身旁；常延伸為陪伴及支持某人」。",
       "sentenceIndex": 29,
@@ -1464,12 +1346,10 @@ export default {
         "by her side"
       ],
       "optionReasons": {
-        "side-mcq-16": "本句指「在某人身旁；常延伸為陪伴及支持某人」。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。"
+        "side-mcq-16": "本句的「by her side」指「在某人身旁；常延伸為陪伴及支持某人」。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-16"
     },
@@ -1481,11 +1361,9 @@ export default {
       "masked": "He sat quietly ____.",
       "options": [
         "side-mcq-16",
-        "side-mcq-15",
-        "side-mcq-17",
-        "side-mcq-14",
-        "side-mcq-18",
-        "side-mcq-13"
+        "side-mcq-21",
+        "side-mcq-10",
+        "side-mcq-14"
       ],
       "explanation": "本句的「at his grandmother's side」指「在某人身旁；常延伸為陪伴及支持某人」。",
       "sentenceIndex": 30,
@@ -1494,12 +1372,10 @@ export default {
         "at his grandmother's side"
       ],
       "optionReasons": {
-        "side-mcq-16": "本句指「在某人身旁；常延伸為陪伴及支持某人」。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-13": "「從有利／不利的角度來看」是「on the positive/negative side」的用法，與本句語境不同。"
+        "side-mcq-16": "本句的「at his grandmother's side」指「在某人身旁；常延伸為陪伴及支持某人」。",
+        "side-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-16"
     },
@@ -1511,11 +1387,9 @@ export default {
       "masked": "They sat ____ on the bench.",
       "options": [
         "side-mcq-17",
-        "side-mcq-16",
-        "side-mcq-18",
-        "side-mcq-15",
-        "side-mcq-19",
-        "side-mcq-14"
+        "side-mcq-07",
+        "side-mcq-22",
+        "side-mcq-02"
       ],
       "explanation": "本句的「side by side」指「彼此緊鄰並排；也可表示並肩合作」。",
       "sentenceIndex": 31,
@@ -1524,12 +1398,10 @@ export default {
         "side by side"
       ],
       "optionReasons": {
-        "side-mcq-17": "本句指「彼此緊鄰並排；也可表示並肩合作」。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。"
+        "side-mcq-17": "本句的「side by side」指「彼此緊鄰並排；也可表示並肩合作」。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-17"
     },
@@ -1541,11 +1413,9 @@ export default {
       "masked": "The two photographs were displayed ____.",
       "options": [
         "side-mcq-17",
-        "side-mcq-16",
-        "side-mcq-18",
-        "side-mcq-15",
-        "side-mcq-19",
-        "side-mcq-14"
+        "side-mcq-04",
+        "side-mcq-08",
+        "side-mcq-21"
       ],
       "explanation": "本句的「side by side」指「彼此緊鄰並排；也可表示並肩合作」。",
       "sentenceIndex": 32,
@@ -1554,12 +1424,10 @@ export default {
         "side by side"
       ],
       "optionReasons": {
-        "side-mcq-17": "本句指「彼此緊鄰並排；也可表示並肩合作」。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-14": "「在主要工作以外另外進行的副業／活動」是「on the side — extra work」的用法，與本句語境不同。"
+        "side-mcq-17": "本句的「side by side」指「彼此緊鄰並排；也可表示並肩合作」。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-17"
     },
@@ -1571,11 +1439,9 @@ export default {
       "masked": "The medicine may cause mild ____.",
       "options": [
         "side-mcq-18",
-        "side-mcq-17",
         "side-mcq-19",
-        "side-mcq-16",
-        "side-mcq-20",
-        "side-mcq-15"
+        "side-mcq-24",
+        "side-mcq-25"
       ],
       "explanation": "本句的「side effects」指「主要效果之外產生的次要／附帶結果」。",
       "sentenceIndex": 33,
@@ -1584,12 +1450,10 @@ export default {
         "side effects"
       ],
       "optionReasons": {
-        "side-mcq-18": "本句指「主要效果之外產生的次要／附帶結果」。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。"
+        "side-mcq-18": "本句的「side effects」指「主要效果之外產生的次要／附帶結果」。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-18"
     },
@@ -1601,11 +1465,9 @@ export default {
       "masked": "One ____ of working from home is feeling isolated.",
       "options": [
         "side-mcq-18",
-        "side-mcq-17",
         "side-mcq-19",
-        "side-mcq-16",
-        "side-mcq-20",
-        "side-mcq-15"
+        "side-mcq-07",
+        "side-mcq-25"
       ],
       "explanation": "本句的「side effect」指「主要效果之外產生的次要／附帶結果」。",
       "sentenceIndex": 34,
@@ -1614,12 +1476,10 @@ export default {
         "side effect"
       ],
       "optionReasons": {
-        "side-mcq-18": "本句指「主要效果之外產生的次要／附帶結果」。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-15": "「食物或醬汁分開盛放，而非混在主菜中」是「on the side — food」的用法，與本句語境不同。"
+        "side-mcq-18": "本句的「side effect」指「主要效果之外產生的次要／附帶結果」。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-18"
     },
@@ -1631,11 +1491,9 @@ export default {
       "masked": "The main ____ is the high price.",
       "options": [
         "side-mcq-20",
-        "side-mcq-19",
-        "side-mcq-21",
-        "side-mcq-18",
-        "side-mcq-22",
-        "side-mcq-17"
+        "side-mcq-01",
+        "side-mcq-06",
+        "side-mcq-16"
       ],
       "explanation": "本句的「downside」指「某件事情不利、負面的一面」。",
       "sentenceIndex": 35,
@@ -1644,12 +1502,10 @@ export default {
         "downside"
       ],
       "optionReasons": {
-        "side-mcq-20": "本句指「某件事情不利、負面的一面」。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。"
+        "side-mcq-20": "本句的「downside」指「某件事情不利、負面的一面」。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-20"
     },
@@ -1661,11 +1517,9 @@ export default {
       "masked": "Every option has a ____.",
       "options": [
         "side-mcq-20",
-        "side-mcq-19",
-        "side-mcq-21",
-        "side-mcq-18",
         "side-mcq-22",
-        "side-mcq-17"
+        "side-mcq-04",
+        "side-mcq-07"
       ],
       "explanation": "本句的「downside」指「某件事情不利、負面的一面」。",
       "sentenceIndex": 36,
@@ -1674,12 +1528,10 @@ export default {
         "downside"
       ],
       "optionReasons": {
-        "side-mcq-20": "本句指「某件事情不利、負面的一面」。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。"
+        "side-mcq-20": "本句的「downside」指「某件事情不利、負面的一面」。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-20"
     },
@@ -1691,11 +1543,9 @@ export default {
       "masked": "The ____ is that you can work from anywhere.",
       "options": [
         "side-mcq-19",
+        "side-mcq-11",
         "side-mcq-18",
-        "side-mcq-20",
-        "side-mcq-17",
-        "side-mcq-21",
-        "side-mcq-16"
+        "side-mcq-04"
       ],
       "explanation": "本句的「upside」指「某件事情有利、正面的一面」。",
       "sentenceIndex": 37,
@@ -1704,12 +1554,10 @@ export default {
         "upside"
       ],
       "optionReasons": {
-        "side-mcq-19": "本句指「某件事情有利、正面的一面」。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。"
+        "side-mcq-19": "本句的「upside」指「某件事情有利、正面的一面」。",
+        "side-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-19"
     },
@@ -1721,11 +1569,9 @@ export default {
       "masked": "There is a significant ____ to learning the skill early.",
       "options": [
         "side-mcq-19",
-        "side-mcq-18",
-        "side-mcq-20",
+        "side-mcq-08",
         "side-mcq-17",
-        "side-mcq-21",
-        "side-mcq-16"
+        "side-mcq-14"
       ],
       "explanation": "本句的「upside」指「某件事情有利、正面的一面」。",
       "sentenceIndex": 38,
@@ -1734,12 +1580,10 @@ export default {
         "upside"
       ],
       "optionReasons": {
-        "side-mcq-19": "本句指「某件事情有利、正面的一面」。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-17": "「彼此緊鄰並排；也可表示並肩合作」是「side by side」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-16": "「在某人身旁；常延伸為陪伴及支持某人」是「by someone's side」的用法，與本句語境不同。"
+        "side-mcq-19": "本句的「upside」指「某件事情有利、正面的一面」。",
+        "side-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-19"
     },
@@ -1751,11 +1595,9 @@ export default {
       "masked": "The coach stood near the ____.",
       "options": [
         "side-mcq-21",
-        "side-mcq-20",
-        "side-mcq-22",
-        "side-mcq-19",
-        "side-mcq-23",
-        "side-mcq-18"
+        "side-mcq-09",
+        "side-mcq-10",
+        "side-mcq-01"
       ],
       "explanation": "本句的「sideline」指「運動場地兩側界定比賽範圍的邊線」。",
       "sentenceIndex": 39,
@@ -1764,12 +1606,10 @@ export default {
         "sideline"
       ],
       "optionReasons": {
-        "side-mcq-21": "本句指「運動場地兩側界定比賽範圍的邊線」。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。"
+        "side-mcq-21": "本句的「sideline」指「運動場地兩側界定比賽範圍的邊線」。",
+        "side-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-21"
     },
@@ -1781,11 +1621,9 @@ export default {
       "masked": "The player stepped over the ____.",
       "options": [
         "side-mcq-21",
-        "side-mcq-20",
-        "side-mcq-22",
-        "side-mcq-19",
-        "side-mcq-23",
-        "side-mcq-18"
+        "side-mcq-15",
+        "side-mcq-25",
+        "side-mcq-20"
       ],
       "explanation": "本句的「sideline」指「運動場地兩側界定比賽範圍的邊線」。",
       "sentenceIndex": 40,
@@ -1794,12 +1632,10 @@ export default {
         "sideline"
       ],
       "optionReasons": {
-        "side-mcq-21": "本句指「運動場地兩側界定比賽範圍的邊線」。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-18": "「主要效果之外產生的次要／附帶結果」是「side effect」的用法，與本句語境不同。"
+        "side-mcq-21": "本句的「sideline」指「運動場地兩側界定比賽範圍的邊線」。",
+        "side-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-21"
     },
@@ -1811,11 +1647,9 @@ export default {
       "masked": "Photography started as a ____ but later became her full-time job.",
       "options": [
         "side-mcq-22",
-        "side-mcq-21",
-        "side-mcq-23",
-        "side-mcq-20",
-        "side-mcq-24",
-        "side-mcq-19"
+        "side-mcq-25",
+        "side-mcq-01",
+        "side-mcq-07"
       ],
       "explanation": "本句的「sideline」指「主業以外的副業或次要活動」。",
       "sentenceIndex": 41,
@@ -1824,12 +1658,10 @@ export default {
         "sideline"
       ],
       "optionReasons": {
-        "side-mcq-22": "本句指「主業以外的副業或次要活動」。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。"
+        "side-mcq-22": "本句的「sideline」指「主業以外的副業或次要活動」。",
+        "side-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-22"
     },
@@ -1841,11 +1673,9 @@ export default {
       "masked": "He runs a small online business as a ____.",
       "options": [
         "side-mcq-22",
-        "side-mcq-21",
-        "side-mcq-23",
-        "side-mcq-20",
-        "side-mcq-24",
-        "side-mcq-19"
+        "side-mcq-04",
+        "side-mcq-16",
+        "side-mcq-20"
       ],
       "explanation": "本句的「sideline」指「主業以外的副業或次要活動」。",
       "sentenceIndex": 42,
@@ -1854,12 +1684,10 @@ export default {
         "sideline"
       ],
       "optionReasons": {
-        "side-mcq-22": "本句指「主業以外的副業或次要活動」。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-19": "「某件事情有利、正面的一面」是「upside」的用法，與本句語境不同。"
+        "side-mcq-22": "本句的「sideline」指「主業以外的副業或次要活動」。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-22"
     },
@@ -1871,11 +1699,9 @@ export default {
       "masked": "The injury ____ him for several weeks.",
       "options": [
         "side-mcq-23",
-        "side-mcq-22",
-        "side-mcq-24",
-        "side-mcq-21",
-        "side-mcq-25",
-        "side-mcq-20"
+        "side-mcq-19",
+        "side-mcq-04",
+        "side-mcq-01"
       ],
       "explanation": "本句的「sidelined」指「使某人暫時或長期不能參與主要活動」。",
       "sentenceIndex": 43,
@@ -1884,12 +1710,10 @@ export default {
         "sidelined"
       ],
       "optionReasons": {
-        "side-mcq-23": "本句指「使某人暫時或長期不能參與主要活動」。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-25": "「在爭議、衝突或選擇中支持某人／某一方」是「23. side with + person/group — 支持；站在……一方」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。"
+        "side-mcq-23": "本句的「sidelined」指「使某人暫時或長期不能參與主要活動」。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-23"
     },
@@ -1901,11 +1725,9 @@ export default {
       "masked": "She was ____ from the project after the disagreement.",
       "options": [
         "side-mcq-23",
-        "side-mcq-22",
-        "side-mcq-24",
-        "side-mcq-21",
-        "side-mcq-25",
-        "side-mcq-20"
+        "side-mcq-02",
+        "side-mcq-20",
+        "side-mcq-06"
       ],
       "explanation": "本句的「sidelined」指「使某人暫時或長期不能參與主要活動」。",
       "sentenceIndex": 44,
@@ -1914,12 +1736,10 @@ export default {
         "sidelined"
       ],
       "optionReasons": {
-        "side-mcq-23": "本句指「使某人暫時或長期不能參與主要活動」。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。",
-        "side-mcq-25": "「在爭議、衝突或選擇中支持某人／某一方」是「23. side with + person/group — 支持；站在……一方」的用法，與本句語境不同。",
-        "side-mcq-20": "「某件事情不利、負面的一面」是「downside」的用法，與本句語境不同。"
+        "side-mcq-23": "本句的「sidelined」指「使某人暫時或長期不能參與主要活動」。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-23"
     },
@@ -1931,11 +1751,9 @@ export default {
       "masked": "She ____ her brother during the disagreement.",
       "options": [
         "side-mcq-25",
-        "side-mcq-24",
-        "side-mcq-26",
-        "side-mcq-23",
+        "side-mcq-02",
         "side-mcq-22",
-        "side-mcq-21"
+        "side-mcq-19"
       ],
       "explanation": "本句的「sided with」指「在爭議、衝突或選擇中支持某人／某一方」。",
       "sentenceIndex": 45,
@@ -1944,12 +1762,10 @@ export default {
         "sided with"
       ],
       "optionReasons": {
-        "side-mcq-25": "本句指「在爭議、衝突或選擇中支持某人／某一方」。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-26": "「在爭議中選擇支持另一方，因此反對某人或某事」是「24. side against + person/group — 站在……的對立面」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。"
+        "side-mcq-25": "本句的「sided with」指「在爭議、衝突或選擇中支持某人／某一方」。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-25"
     },
@@ -1961,11 +1777,9 @@ export default {
       "masked": "Most members ____ the manager.",
       "options": [
         "side-mcq-25",
-        "side-mcq-24",
-        "side-mcq-26",
-        "side-mcq-23",
+        "side-mcq-21",
         "side-mcq-22",
-        "side-mcq-21"
+        "side-mcq-02"
       ],
       "explanation": "本句的「sided with」指「在爭議、衝突或選擇中支持某人／某一方」。",
       "sentenceIndex": 46,
@@ -1974,12 +1788,10 @@ export default {
         "sided with"
       ],
       "optionReasons": {
-        "side-mcq-25": "本句指「在爭議、衝突或選擇中支持某人／某一方」。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-26": "「在爭議中選擇支持另一方，因此反對某人或某事」是「24. side against + person/group — 站在……的對立面」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。"
+        "side-mcq-25": "本句的「sided with」指「在爭議、衝突或選擇中支持某人／某一方」。",
+        "side-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-25"
     },
@@ -1991,11 +1803,9 @@ export default {
       "masked": "He was surprised when his closest colleague ____ him.",
       "options": [
         "side-mcq-26",
-        "side-mcq-25",
-        "side-mcq-24",
-        "side-mcq-23",
-        "side-mcq-22",
-        "side-mcq-21"
+        "side-mcq-18",
+        "side-mcq-03",
+        "side-mcq-07"
       ],
       "explanation": "本句的「sided against」指「在爭議中選擇支持另一方，因此反對某人或某事」。",
       "sentenceIndex": 47,
@@ -2004,12 +1814,10 @@ export default {
         "sided against"
       ],
       "optionReasons": {
-        "side-mcq-26": "本句指「在爭議中選擇支持另一方，因此反對某人或某事」。",
-        "side-mcq-25": "「在爭議、衝突或選擇中支持某人／某一方」是「23. side with + person/group — 支持；站在……一方」的用法，與本句語境不同。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。"
+        "side-mcq-26": "本句的「sided against」指「在爭議中選擇支持另一方，因此反對某人或某事」。",
+        "side-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-26"
     },
@@ -2021,11 +1829,9 @@ export default {
       "masked": "Several members ____ the proposal.",
       "options": [
         "side-mcq-26",
-        "side-mcq-25",
-        "side-mcq-24",
-        "side-mcq-23",
-        "side-mcq-22",
-        "side-mcq-21"
+        "side-mcq-15",
+        "side-mcq-04",
+        "side-mcq-22"
       ],
       "explanation": "本句的「sided against」指「在爭議中選擇支持另一方，因此反對某人或某事」。",
       "sentenceIndex": 48,
@@ -2034,12 +1840,10 @@ export default {
         "sided against"
       ],
       "optionReasons": {
-        "side-mcq-26": "本句指「在爭議中選擇支持另一方，因此反對某人或某事」。",
-        "side-mcq-25": "「在爭議、衝突或選擇中支持某人／某一方」是「23. side with + person/group — 支持；站在……一方」的用法，與本句語境不同。",
-        "side-mcq-24": "「朝側面方向，而非向前或向後」是「sideways」的用法，與本句語境不同。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。"
+        "side-mcq-26": "本句的「sided against」指「在爭議中選擇支持另一方，因此反對某人或某事」。",
+        "side-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-26"
     },
@@ -2051,11 +1855,9 @@ export default {
       "masked": "She moved ____ to let him pass.",
       "options": [
         "side-mcq-24",
-        "side-mcq-23",
-        "side-mcq-25",
+        "side-mcq-19",
         "side-mcq-22",
-        "side-mcq-26",
-        "side-mcq-21"
+        "side-mcq-17"
       ],
       "explanation": "本句的「sideways」指「朝側面方向，而非向前或向後」。",
       "sentenceIndex": 49,
@@ -2064,12 +1866,10 @@ export default {
         "sideways"
       ],
       "optionReasons": {
-        "side-mcq-24": "本句指「朝側面方向，而非向前或向後」。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-25": "「在爭議、衝突或選擇中支持某人／某一方」是「23. side with + person/group — 支持；站在……一方」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-26": "「在爭議中選擇支持另一方，因此反對某人或某事」是「24. side against + person/group — 站在……的對立面」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。"
+        "side-mcq-24": "本句的「sideways」指「朝側面方向，而非向前或向後」。",
+        "side-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-24"
     },
@@ -2081,11 +1881,9 @@ export default {
       "masked": "The car slid ____ on the wet road.",
       "options": [
         "side-mcq-24",
-        "side-mcq-23",
-        "side-mcq-25",
+        "side-mcq-11",
         "side-mcq-22",
-        "side-mcq-26",
-        "side-mcq-21"
+        "side-mcq-10"
       ],
       "explanation": "本句的「sideways」指「朝側面方向，而非向前或向後」。",
       "sentenceIndex": 50,
@@ -2094,12 +1892,10 @@ export default {
         "sideways"
       ],
       "optionReasons": {
-        "side-mcq-24": "本句指「朝側面方向，而非向前或向後」。",
-        "side-mcq-23": "「使某人暫時或長期不能參與主要活動」是「sideline — verb」的用法，與本句語境不同。",
-        "side-mcq-25": "「在爭議、衝突或選擇中支持某人／某一方」是「23. side with + person/group — 支持；站在……一方」的用法，與本句語境不同。",
-        "side-mcq-22": "「主業以外的副業或次要活動」是「sideline — secondary activity」的用法，與本句語境不同。",
-        "side-mcq-26": "「在爭議中選擇支持另一方，因此反對某人或某事」是「24. side against + person/group — 站在……的對立面」的用法，與本句語境不同。",
-        "side-mcq-21": "「運動場地兩側界定比賽範圍的邊線」是「sideline — sports」的用法，與本句語境不同。"
+        "side-mcq-24": "本句的「sideways」指「朝側面方向，而非向前或向後」。",
+        "side-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "side-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "side-mcq-24"
     }
@@ -2111,5 +1907,7 @@ export default {
     "sha256": "580cf0b5d7696ce69b214c830dfff33360b2d9105427f6aa66180871673f4520",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

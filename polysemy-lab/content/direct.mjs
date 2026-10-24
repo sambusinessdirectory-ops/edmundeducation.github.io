@@ -1691,11 +1691,9 @@ export default {
       "masked": "Some employees are ____ and fast-paced.",
       "options": [
         "direct-mcq-01",
-        "direct-mcq-02",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-38",
+        "direct-mcq-71",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「direct」指「直接的；直率的 straightforward」。",
       "sentenceIndex": 0,
@@ -1704,12 +1702,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-01": "本句指「直接的；直率的 straightforward」。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-01": "本句的「direct」指「直接的；直率的 straightforward」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-01"
     },
@@ -1721,11 +1717,9 @@ export default {
       "masked": "She is very ____ when giving feedback.",
       "options": [
         "direct-mcq-01",
-        "direct-mcq-02",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-35",
+        "direct-mcq-71",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直接的；直率的 straightforward」。",
       "sentenceIndex": 1,
@@ -1734,12 +1728,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-01": "本句指「直接的；直率的 straightforward」。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-01": "本句的「direct」指「直接的；直率的 straightforward」。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-01"
     },
@@ -1751,11 +1743,9 @@ export default {
       "masked": "He tends to be ____ rather than diplomatic.",
       "options": [
         "direct-mcq-01",
-        "direct-mcq-02",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-41",
+        "direct-mcq-44",
+        "direct-mcq-35"
       ],
       "explanation": "本句的「direct」指「直接的；直率的 straightforward」。",
       "sentenceIndex": 2,
@@ -1764,12 +1754,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-01": "本句指「直接的；直率的 straightforward」。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-01": "本句的「direct」指「直接的；直率的 straightforward」。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-01"
     },
@@ -1781,11 +1769,9 @@ export default {
       "masked": "She's a very ____ person.",
       "options": [
         "direct-mcq-02",
-        "direct-mcq-01",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-44",
+        "direct-mcq-16",
+        "direct-mcq-39"
       ],
       "explanation": "本句的「direct」指「說話直接的人 style」。",
       "sentenceIndex": 3,
@@ -1794,12 +1780,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-02": "本句指「說話直接的人 style」。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-02": "本句的「direct」指「說話直接的人 style」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-02"
     },
@@ -1811,11 +1795,9 @@ export default {
       "masked": "____ people may be misunderstood as unfriendly in some cultures.",
       "options": [
         "direct-mcq-02",
-        "direct-mcq-01",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-38",
+        "direct-mcq-46",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「Direct」指「說話直接的人 style」。",
       "sentenceIndex": 4,
@@ -1824,12 +1806,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-02": "本句指「說話直接的人 style」。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-02": "本句的「Direct」指「說話直接的人 style」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-02"
     },
@@ -1841,11 +1821,9 @@ export default {
       "masked": "His ____ manner can be useful in emergencies.",
       "options": [
         "direct-mcq-03",
-        "direct-mcq-02",
-        "direct-mcq-04",
-        "direct-mcq-01",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-35",
+        "direct-mcq-72",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「direct」指「直接的方式 style」。",
       "sentenceIndex": 5,
@@ -1854,12 +1832,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-03": "本句指「直接的方式 style」。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-03": "本句的「direct」指「直接的方式 style」。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-03"
     },
@@ -1871,11 +1847,9 @@ export default {
       "masked": "Some colleagues found her ____ manner uncomfortable.",
       "options": [
         "direct-mcq-03",
-        "direct-mcq-02",
-        "direct-mcq-04",
-        "direct-mcq-01",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-35",
+        "direct-mcq-42",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「直接的方式 style」。",
       "sentenceIndex": 6,
@@ -1884,12 +1858,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-03": "本句指「直接的方式 style」。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-03": "本句的「direct」指「直接的方式 style」。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-03"
     },
@@ -1901,11 +1873,9 @@ export default {
       "masked": "I asked for a ____ answer.",
       "options": [
         "direct-mcq-04",
-        "direct-mcq-03",
-        "direct-mcq-05",
-        "direct-mcq-02",
-        "direct-mcq-06",
-        "direct-mcq-01"
+        "direct-mcq-72",
+        "direct-mcq-42",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「direct」指「直接回答 no evasion」。",
       "sentenceIndex": 7,
@@ -1914,12 +1884,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-04": "本句指「直接回答 no evasion」。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。"
+        "direct-mcq-04": "本句的「direct」指「直接回答 no evasion」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-04"
     },
@@ -1931,11 +1899,9 @@ export default {
       "masked": "He avoided giving a ____ answer.",
       "options": [
         "direct-mcq-04",
-        "direct-mcq-03",
-        "direct-mcq-05",
-        "direct-mcq-02",
-        "direct-mcq-06",
-        "direct-mcq-01"
+        "direct-mcq-70",
+        "direct-mcq-41",
+        "direct-mcq-39"
       ],
       "explanation": "本句的「direct」指「直接回答 no evasion」。",
       "sentenceIndex": 8,
@@ -1944,12 +1910,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-04": "本句指「直接回答 no evasion」。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。"
+        "direct-mcq-04": "本句的「direct」指「直接回答 no evasion」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-04"
     },
@@ -1961,11 +1925,9 @@ export default {
       "masked": "She asked him a ____ question about the delay.",
       "options": [
         "direct-mcq-05",
-        "direct-mcq-04",
-        "direct-mcq-06",
-        "direct-mcq-03",
-        "direct-mcq-07",
-        "direct-mcq-02"
+        "direct-mcq-51",
+        "direct-mcq-46",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「直接問題 explicit question」。",
       "sentenceIndex": 9,
@@ -1974,12 +1936,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-05": "本句指「直接問題 explicit question」。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。"
+        "direct-mcq-05": "本句的「direct」指「直接問題 explicit question」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-05"
     },
@@ -1991,11 +1951,9 @@ export default {
       "masked": "____ questions sometimes produce clearer answers.",
       "options": [
         "direct-mcq-05",
-        "direct-mcq-04",
-        "direct-mcq-06",
-        "direct-mcq-03",
-        "direct-mcq-07",
-        "direct-mcq-02"
+        "direct-mcq-46",
+        "direct-mcq-41",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「Direct」指「直接問題 explicit question」。",
       "sentenceIndex": 10,
@@ -2004,12 +1962,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-05": "本句指「直接問題 explicit question」。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-02": "「說話直接的人 style」與本句語境不同。"
+        "direct-mcq-05": "本句的「Direct」指「直接問題 explicit question」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-05"
     },
@@ -2021,11 +1977,9 @@ export default {
       "masked": "He made some ____ criticism of management.",
       "options": [
         "direct-mcq-06",
-        "direct-mcq-05",
-        "direct-mcq-07",
-        "direct-mcq-04",
-        "direct-mcq-08",
-        "direct-mcq-03"
+        "direct-mcq-44",
+        "direct-mcq-71",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接批評 explicit criticism」。",
       "sentenceIndex": 11,
@@ -2034,12 +1988,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-06": "本句指「直接批評 explicit criticism」。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。"
+        "direct-mcq-06": "本句的「direct」指「直接批評 explicit criticism」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-06"
     },
@@ -2051,11 +2003,9 @@ export default {
       "masked": "____ criticism can feel harsh if it is not expressed carefully.",
       "options": [
         "direct-mcq-06",
-        "direct-mcq-05",
-        "direct-mcq-07",
-        "direct-mcq-04",
-        "direct-mcq-08",
-        "direct-mcq-03"
+        "direct-mcq-16",
+        "direct-mcq-41",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「Direct」指「直接批評 explicit criticism」。",
       "sentenceIndex": 12,
@@ -2064,12 +2014,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-06": "本句指「直接批評 explicit criticism」。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。"
+        "direct-mcq-06": "本句的「Direct」指「直接批評 explicit criticism」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-06"
     },
@@ -2081,11 +2029,9 @@ export default {
       "masked": "____ communication can prevent misunderstandings.",
       "options": [
         "direct-mcq-07",
-        "direct-mcq-06",
-        "direct-mcq-08",
-        "direct-mcq-05",
-        "direct-mcq-09",
-        "direct-mcq-04"
+        "direct-mcq-17",
+        "direct-mcq-38",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「Direct」指「直接溝通 explicit exchange」。",
       "sentenceIndex": 13,
@@ -2094,12 +2040,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-07": "本句指「直接溝通 explicit exchange」。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。"
+        "direct-mcq-07": "本句的「Direct」指「直接溝通 explicit exchange」。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-07"
     },
@@ -2111,11 +2055,9 @@ export default {
       "masked": "The team encouraged ____ communication between departments.",
       "options": [
         "direct-mcq-07",
-        "direct-mcq-06",
-        "direct-mcq-08",
-        "direct-mcq-05",
-        "direct-mcq-09",
-        "direct-mcq-04"
+        "direct-mcq-44",
+        "direct-mcq-39",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直接溝通 explicit exchange」。",
       "sentenceIndex": 14,
@@ -2124,12 +2066,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-07": "本句指「直接溝通 explicit exchange」。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。"
+        "direct-mcq-07": "本句的「direct」指「直接溝通 explicit exchange」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-07"
     },
@@ -2141,11 +2081,9 @@ export default {
       "masked": "I'll be ____ with you.",
       "options": [
         "direct-mcq-08",
-        "direct-mcq-07",
-        "direct-mcq-09",
-        "direct-mcq-06",
-        "direct-mcq-10",
-        "direct-mcq-05"
+        "direct-mcq-72",
+        "direct-mcq-41",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「對某人直言 speak plainly」。",
       "sentenceIndex": 15,
@@ -2154,12 +2092,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-08": "本句指「對某人直言 speak plainly」。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。"
+        "direct-mcq-08": "本句的「direct」指「對某人直言 speak plainly」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-08"
     },
@@ -2171,11 +2107,9 @@ export default {
       "masked": "Managers sometimes need to be ____ with underperforming staff.",
       "options": [
         "direct-mcq-08",
-        "direct-mcq-07",
-        "direct-mcq-09",
-        "direct-mcq-06",
-        "direct-mcq-10",
-        "direct-mcq-05"
+        "direct-mcq-16",
+        "direct-mcq-41",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「對某人直言 speak plainly」。",
       "sentenceIndex": 16,
@@ -2184,12 +2118,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-08": "本句指「對某人直言 speak plainly」。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。"
+        "direct-mcq-08": "本句的「direct」指「對某人直言 speak plainly」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-08"
     },
@@ -2201,11 +2133,9 @@ export default {
       "masked": "Customers have ____ access to support staff.",
       "options": [
         "direct-mcq-02",
-        "direct-mcq-01",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-17",
+        "direct-mcq-72",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「direct」指「說話直接的人 style」。",
       "sentenceIndex": 17,
@@ -2214,12 +2144,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-02": "本句指「說話直接的人 style」。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-02": "本句的「direct」指「說話直接的人 style」。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-02"
     },
@@ -2231,11 +2159,9 @@ export default {
       "masked": "We maintain ____ contact with suppliers.",
       "options": [
         "direct-mcq-02",
-        "direct-mcq-01",
-        "direct-mcq-03",
-        "direct-mcq-04",
-        "direct-mcq-05",
-        "direct-mcq-06"
+        "direct-mcq-71",
+        "direct-mcq-17",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direct」指「說話直接的人 style」。",
       "sentenceIndex": 18,
@@ -2244,12 +2170,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-02": "本句指「說話直接的人 style」。",
-        "direct-mcq-01": "「直接的；直率的 straightforward」與本句語境不同。",
-        "direct-mcq-03": "「直接的方式 style」與本句語境不同。",
-        "direct-mcq-04": "「直接回答 no evasion」與本句語境不同。",
-        "direct-mcq-05": "「直接問題 explicit question」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-02": "本句的「direct」指「說話直接的人 style」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-02"
     },
@@ -2261,11 +2185,9 @@ export default {
       "masked": "The manager has ____ contact with customers.",
       "options": [
         "direct-mcq-09",
-        "direct-mcq-08",
-        "direct-mcq-10",
-        "direct-mcq-07",
-        "direct-mcq-11",
-        "direct-mcq-06"
+        "direct-mcq-51",
+        "direct-mcq-39",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direct」指「直接接觸／聯絡 no intermediary」。",
       "sentenceIndex": 19,
@@ -2274,12 +2196,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-09": "本句指「直接接觸／聯絡 no intermediary」。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-09": "本句的「direct」指「直接接觸／聯絡 no intermediary」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-09"
     },
@@ -2291,11 +2211,9 @@ export default {
       "masked": "Avoid ____ contact with the chemical.",
       "options": [
         "direct-mcq-09",
-        "direct-mcq-08",
-        "direct-mcq-10",
-        "direct-mcq-07",
-        "direct-mcq-11",
-        "direct-mcq-06"
+        "direct-mcq-51",
+        "direct-mcq-38",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直接接觸／聯絡 no intermediary」。",
       "sentenceIndex": 20,
@@ -2304,12 +2222,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-09": "本句指「直接接觸／聯絡 no intermediary」。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-06": "「直接批評 explicit criticism」與本句語境不同。"
+        "direct-mcq-09": "本句的「direct」指「直接接觸／聯絡 no intermediary」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-09"
     },
@@ -2321,11 +2237,9 @@ export default {
       "masked": "Employees have ____ access to the database.",
       "options": [
         "direct-mcq-10",
-        "direct-mcq-09",
-        "direct-mcq-11",
-        "direct-mcq-08",
-        "direct-mcq-12",
-        "direct-mcq-07"
+        "direct-mcq-41",
+        "direct-mcq-43",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「direct」指「直接存取／接觸 no intermediary」。",
       "sentenceIndex": 21,
@@ -2334,12 +2248,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-10": "本句指「直接存取／接觸 no intermediary」。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。"
+        "direct-mcq-10": "本句的「direct」指「直接存取／接觸 no intermediary」。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-10"
     },
@@ -2351,11 +2263,9 @@ export default {
       "masked": "Senior staff have ____ access to the CEO.",
       "options": [
         "direct-mcq-10",
-        "direct-mcq-09",
-        "direct-mcq-11",
-        "direct-mcq-08",
-        "direct-mcq-12",
-        "direct-mcq-07"
+        "direct-mcq-38",
+        "direct-mcq-46",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direct」指「直接存取／接觸 no intermediary」。",
       "sentenceIndex": 22,
@@ -2364,12 +2274,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-10": "本句指「直接存取／接觸 no intermediary」。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-07": "「直接溝通 explicit exchange」與本句語境不同。"
+        "direct-mcq-10": "本句的「direct」指「直接存取／接觸 no intermediary」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-10"
     },
@@ -2381,11 +2289,9 @@ export default {
       "masked": "There is a ____ connection between the two systems.",
       "options": [
         "direct-mcq-11",
-        "direct-mcq-10",
-        "direct-mcq-12",
-        "direct-mcq-09",
-        "direct-mcq-13",
-        "direct-mcq-08"
+        "direct-mcq-16",
+        "direct-mcq-42",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直接連接／關聯 connection」。",
       "sentenceIndex": 23,
@@ -2394,12 +2300,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-11": "本句指「直接連接／關聯 connection」。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。"
+        "direct-mcq-11": "本句的「direct」指「直接連接／關聯 connection」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-11"
     },
@@ -2411,11 +2315,9 @@ export default {
       "masked": "Researchers found a ____ connection between workload and stress.",
       "options": [
         "direct-mcq-11",
-        "direct-mcq-10",
-        "direct-mcq-12",
-        "direct-mcq-09",
-        "direct-mcq-13",
-        "direct-mcq-08"
+        "direct-mcq-71",
+        "direct-mcq-38",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接連接／關聯 connection」。",
       "sentenceIndex": 24,
@@ -2424,12 +2326,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-11": "本句指「直接連接／關聯 connection」。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-08": "「對某人直言 speak plainly」與本句語境不同。"
+        "direct-mcq-11": "本句的「direct」指「直接連接／關聯 connection」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-11"
     },
@@ -2441,11 +2341,9 @@ export default {
       "masked": "There is no proven ____ link between the two events.",
       "options": [
         "direct-mcq-12",
-        "direct-mcq-11",
-        "direct-mcq-13",
-        "direct-mcq-10",
-        "direct-mcq-14",
-        "direct-mcq-09"
+        "direct-mcq-70",
+        "direct-mcq-42",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接關係 link」。",
       "sentenceIndex": 25,
@@ -2454,12 +2352,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-12": "本句指「直接關係 link」。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。"
+        "direct-mcq-12": "本句的「direct」指「直接關係 link」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-12"
     },
@@ -2471,11 +2367,9 @@ export default {
       "masked": "The page provides a ____ link to the form.",
       "options": [
         "direct-mcq-12",
-        "direct-mcq-11",
-        "direct-mcq-13",
-        "direct-mcq-10",
-        "direct-mcq-14",
-        "direct-mcq-09"
+        "direct-mcq-39",
+        "direct-mcq-71",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接關係 link」。",
       "sentenceIndex": 26,
@@ -2484,12 +2378,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-12": "本句指「直接關係 link」。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-09": "「直接接觸／聯絡 no intermediary」與本句語境不同。"
+        "direct-mcq-12": "本句的「direct」指「直接關係 link」。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-12"
     },
@@ -2501,11 +2393,9 @@ export default {
       "masked": "Poor communication was the ____ cause of the error.",
       "options": [
         "direct-mcq-13",
-        "direct-mcq-12",
-        "direct-mcq-14",
-        "direct-mcq-11",
-        "direct-mcq-15",
-        "direct-mcq-10"
+        "direct-mcq-42",
+        "direct-mcq-46",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接原因 causation」。",
       "sentenceIndex": 29,
@@ -2514,12 +2404,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-13": "本句指「直接原因 causation」。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。"
+        "direct-mcq-13": "本句的「direct」指「直接原因 causation」。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-13"
     },
@@ -2531,11 +2419,9 @@ export default {
       "masked": "The investigation found no single ____ cause.",
       "options": [
         "direct-mcq-13",
-        "direct-mcq-12",
-        "direct-mcq-14",
-        "direct-mcq-11",
-        "direct-mcq-15",
-        "direct-mcq-10"
+        "direct-mcq-71",
+        "direct-mcq-38",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直接原因 causation」。",
       "sentenceIndex": 30,
@@ -2544,12 +2430,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-13": "本句指「直接原因 causation」。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-10": "「直接存取／接觸 no intermediary」與本句語境不同。"
+        "direct-mcq-13": "本句的「direct」指「直接原因 causation」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-13"
     },
@@ -2561,11 +2445,9 @@ export default {
       "masked": "The delay was a ____ result of poor planning.",
       "options": [
         "direct-mcq-14",
-        "direct-mcq-13",
-        "direct-mcq-15",
-        "direct-mcq-12",
-        "direct-mcq-16",
-        "direct-mcq-11"
+        "direct-mcq-39",
+        "direct-mcq-17",
+        "direct-mcq-45"
       ],
       "explanation": "本句的「direct」指「直接結果 consequence」。",
       "sentenceIndex": 31,
@@ -2574,12 +2456,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-14": "本句指「直接結果 consequence」。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。"
+        "direct-mcq-14": "本句的「direct」指「直接結果 consequence」。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-14"
     },
@@ -2591,11 +2471,9 @@ export default {
       "masked": "The improvement was a ____ result of clearer roles.",
       "options": [
         "direct-mcq-14",
-        "direct-mcq-13",
-        "direct-mcq-15",
-        "direct-mcq-12",
-        "direct-mcq-16",
-        "direct-mcq-11"
+        "direct-mcq-51",
+        "direct-mcq-39",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「直接結果 consequence」。",
       "sentenceIndex": 32,
@@ -2604,12 +2482,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-14": "本句指「直接結果 consequence」。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-11": "「直接連接／關聯 connection」與本句語境不同。"
+        "direct-mcq-14": "本句的「direct」指「直接結果 consequence」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-14"
     },
@@ -2621,11 +2497,9 @@ export default {
       "masked": "Lower morale was a ____ consequence of the conflict.",
       "options": [
         "direct-mcq-15",
-        "direct-mcq-14",
         "direct-mcq-16",
-        "direct-mcq-13",
-        "direct-mcq-17",
-        "direct-mcq-12"
+        "direct-mcq-72",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接後果 effect」。",
       "sentenceIndex": 33,
@@ -2634,12 +2508,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-15": "本句指「直接後果 effect」。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。"
+        "direct-mcq-15": "本句的「direct」指「直接後果 effect」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-15"
     },
@@ -2651,11 +2523,9 @@ export default {
       "masked": "One ____ consequence was slower decision-making.",
       "options": [
         "direct-mcq-15",
-        "direct-mcq-14",
-        "direct-mcq-16",
-        "direct-mcq-13",
-        "direct-mcq-17",
-        "direct-mcq-12"
+        "direct-mcq-43",
+        "direct-mcq-35",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「直接後果 effect」。",
       "sentenceIndex": 34,
@@ -2664,12 +2534,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-15": "本句指「直接後果 effect」。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-12": "「直接關係 link」與本句語境不同。"
+        "direct-mcq-15": "本句的「direct」指「直接後果 effect」。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-15"
     },
@@ -2681,11 +2549,9 @@ export default {
       "masked": "She has ____ experience of managing large teams.",
       "options": [
         "direct-mcq-16",
-        "direct-mcq-15",
-        "direct-mcq-17",
-        "direct-mcq-14",
-        "direct-mcq-18",
-        "direct-mcq-13"
+        "direct-mcq-09",
+        "direct-mcq-39",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「親身經驗 firsthand」。",
       "sentenceIndex": 37,
@@ -2694,12 +2560,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-16": "本句指「親身經驗 firsthand」。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。"
+        "direct-mcq-16": "本句的「direct」指「親身經驗 firsthand」。",
+        "direct-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-16"
     },
@@ -2711,11 +2575,9 @@ export default {
       "masked": "____ experience is different from second-hand knowledge.",
       "options": [
         "direct-mcq-16",
-        "direct-mcq-15",
-        "direct-mcq-17",
-        "direct-mcq-14",
-        "direct-mcq-18",
-        "direct-mcq-13"
+        "direct-mcq-11",
+        "direct-mcq-42",
+        "direct-mcq-31"
       ],
       "explanation": "本句的「Direct」指「親身經驗 firsthand」。",
       "sentenceIndex": 38,
@@ -2724,12 +2586,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-16": "本句指「親身經驗 firsthand」。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-13": "「直接原因 causation」與本句語境不同。"
+        "direct-mcq-16": "本句的「Direct」指「親身經驗 firsthand」。",
+        "direct-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-16"
     },
@@ -2741,11 +2601,9 @@ export default {
       "masked": "He had ____ knowledge of the incident.",
       "options": [
         "direct-mcq-17",
-        "direct-mcq-16",
-        "direct-mcq-18",
-        "direct-mcq-15",
-        "direct-mcq-19",
-        "direct-mcq-14"
+        "direct-mcq-71",
+        "direct-mcq-27",
+        "direct-mcq-68"
       ],
       "explanation": "本句的「direct」指「第一手了解 firsthand」。",
       "sentenceIndex": 39,
@@ -2754,12 +2612,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-17": "本句指「第一手了解 firsthand」。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。"
+        "direct-mcq-17": "本句的「direct」指「第一手了解 firsthand」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-17"
     },
@@ -2771,11 +2627,9 @@ export default {
       "masked": "I have no ____ knowledge of what happened.",
       "options": [
         "direct-mcq-17",
-        "direct-mcq-16",
-        "direct-mcq-18",
-        "direct-mcq-15",
-        "direct-mcq-19",
-        "direct-mcq-14"
+        "direct-mcq-10",
+        "direct-mcq-35",
+        "direct-mcq-45"
       ],
       "explanation": "本句的「direct」指「第一手了解 firsthand」。",
       "sentenceIndex": 40,
@@ -2784,12 +2638,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-17": "本句指「第一手了解 firsthand」。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-14": "「直接結果 consequence」與本句語境不同。"
+        "direct-mcq-17": "本句的「direct」指「第一手了解 firsthand」。",
+        "direct-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-17"
     },
@@ -2801,11 +2653,9 @@ export default {
       "masked": "There was no ____ evidence linking him to the mistake.",
       "options": [
         "direct-mcq-18",
-        "direct-mcq-17",
-        "direct-mcq-19",
-        "direct-mcq-16",
-        "direct-mcq-20",
-        "direct-mcq-15"
+        "direct-mcq-51",
+        "direct-mcq-45",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直接證據 evidential relation」。",
       "sentenceIndex": 41,
@@ -2814,12 +2664,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-18": "本句指「直接證據 evidential relation」。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。"
+        "direct-mcq-18": "本句的「direct」指「直接證據 evidential relation」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-18"
     },
@@ -2831,11 +2679,9 @@ export default {
       "masked": "____ evidence can establish a fact without requiring the same inferential step as circumstantial evidence.",
       "options": [
         "direct-mcq-18",
-        "direct-mcq-17",
-        "direct-mcq-19",
-        "direct-mcq-16",
-        "direct-mcq-20",
-        "direct-mcq-15"
+        "direct-mcq-39",
+        "direct-mcq-70",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「Direct」指「直接證據 evidential relation」。",
       "sentenceIndex": 42,
@@ -2844,12 +2690,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-18": "本句指「直接證據 evidential relation」。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。"
+        "direct-mcq-18": "本句的「Direct」指「直接證據 evidential relation」。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-18"
     },
@@ -2861,11 +2705,9 @@ export default {
       "masked": "She had ____ involvement in the project.",
       "options": [
         "direct-mcq-19",
-        "direct-mcq-18",
-        "direct-mcq-20",
-        "direct-mcq-17",
-        "direct-mcq-21",
-        "direct-mcq-16"
+        "direct-mcq-46",
+        "direct-mcq-42",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直接參與 involvement」。",
       "sentenceIndex": 43,
@@ -2874,12 +2716,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-19": "本句指「直接參與 involvement」。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。"
+        "direct-mcq-19": "本句的「direct」指「直接參與 involvement」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-19"
     },
@@ -2891,11 +2731,9 @@ export default {
       "masked": "The ____ denied direct involvement in the decision.",
       "options": [
         "direct-mcq-19",
-        "direct-mcq-18",
-        "direct-mcq-20",
-        "direct-mcq-17",
-        "direct-mcq-21",
-        "direct-mcq-16"
+        "direct-mcq-72",
+        "direct-mcq-35",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「director」指「直接參與 involvement」。",
       "sentenceIndex": 44,
@@ -2904,12 +2742,10 @@ export default {
         "director"
       ],
       "optionReasons": {
-        "direct-mcq-19": "本句指「直接參與 involvement」。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。"
+        "direct-mcq-19": "本句的「director」指「直接參與 involvement」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-19"
     },
@@ -2921,11 +2757,9 @@ export default {
       "masked": "The manager has ____ responsibility for the team.",
       "options": [
         "direct-mcq-20",
-        "direct-mcq-19",
-        "direct-mcq-21",
-        "direct-mcq-18",
-        "direct-mcq-22",
-        "direct-mcq-17"
+        "direct-mcq-51",
+        "direct-mcq-39",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直接責任 responsibility」。",
       "sentenceIndex": 45,
@@ -2934,12 +2768,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-20": "本句指「直接責任 responsibility」。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。"
+        "direct-mcq-20": "本句的「direct」指「直接責任 responsibility」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-20"
     },
@@ -2951,11 +2783,9 @@ export default {
       "masked": "He was not ____ responsible for the error.",
       "options": [
         "direct-mcq-20",
-        "direct-mcq-19",
-        "direct-mcq-21",
-        "direct-mcq-18",
-        "direct-mcq-22",
-        "direct-mcq-17"
+        "direct-mcq-43",
+        "direct-mcq-39",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「directly」指「直接責任 responsibility」。",
       "sentenceIndex": 46,
@@ -2964,12 +2794,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-20": "本句指「直接責任 responsibility」。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。"
+        "direct-mcq-20": "本句的「directly」指「直接責任 responsibility」。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-20"
     },
@@ -2981,11 +2809,9 @@ export default {
       "masked": "Head office maintains ____ control over spending.",
       "options": [
         "direct-mcq-21",
-        "direct-mcq-20",
-        "direct-mcq-22",
-        "direct-mcq-19",
-        "direct-mcq-23",
-        "direct-mcq-18"
+        "direct-mcq-46",
+        "direct-mcq-71",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「直接控制 control」。",
       "sentenceIndex": 47,
@@ -2994,12 +2820,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-21": "本句指「直接控制 control」。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。"
+        "direct-mcq-21": "本句的「direct」指「直接控制 control」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-21"
     },
@@ -3011,11 +2835,9 @@ export default {
       "masked": "Local managers have ____ control of day-to-day operations.",
       "options": [
         "direct-mcq-21",
-        "direct-mcq-20",
-        "direct-mcq-22",
-        "direct-mcq-19",
-        "direct-mcq-23",
-        "direct-mcq-18"
+        "direct-mcq-70",
+        "direct-mcq-51",
+        "direct-mcq-46"
       ],
       "explanation": "本句的「direct」指「直接控制 control」。",
       "sentenceIndex": 48,
@@ -3024,12 +2846,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-21": "本句指「直接控制 control」。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-18": "「直接證據 evidential relation」與本句語境不同。"
+        "direct-mcq-21": "本句的「direct」指「直接控制 control」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-21"
     },
@@ -3041,11 +2861,9 @@ export default {
       "masked": "New staff work under ____ supervision.",
       "options": [
         "direct-mcq-22",
-        "direct-mcq-21",
-        "direct-mcq-23",
-        "direct-mcq-20",
-        "direct-mcq-24",
-        "direct-mcq-19"
+        "direct-mcq-46",
+        "direct-mcq-72",
+        "direct-mcq-38"
       ],
       "explanation": "本句的「direct」指「直接監督 oversight」。",
       "sentenceIndex": 49,
@@ -3054,12 +2872,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-22": "本句指「直接監督 oversight」。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。"
+        "direct-mcq-22": "本句的「direct」指「直接監督 oversight」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-22"
     },
@@ -3071,11 +2887,9 @@ export default {
       "masked": "The task requires ____ supervision by a qualified engineer.",
       "options": [
         "direct-mcq-22",
-        "direct-mcq-21",
-        "direct-mcq-23",
-        "direct-mcq-20",
-        "direct-mcq-24",
-        "direct-mcq-19"
+        "direct-mcq-72",
+        "direct-mcq-70",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直接監督 oversight」。",
       "sentenceIndex": 50,
@@ -3084,12 +2898,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-22": "本句指「直接監督 oversight」。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。"
+        "direct-mcq-22": "本句的「direct」指「直接監督 oversight」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-22"
     },
@@ -3101,11 +2913,9 @@ export default {
       "masked": "She has six ____ reports.",
       "options": [
         "direct-mcq-23",
-        "direct-mcq-22",
-        "direct-mcq-24",
-        "direct-mcq-21",
-        "direct-mcq-25",
-        "direct-mcq-20"
+        "direct-mcq-38",
+        "direct-mcq-46",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「direct」指「直接下屬 organisational hierarchy」。",
       "sentenceIndex": 51,
@@ -3114,12 +2924,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-23": "本句指「直接下屬 organisational hierarchy」。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。"
+        "direct-mcq-23": "本句的「direct」指「直接下屬 organisational hierarchy」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-23"
     },
@@ -3131,11 +2939,9 @@ export default {
       "masked": "Managers should meet regularly with their ____ reports.",
       "options": [
         "direct-mcq-23",
-        "direct-mcq-22",
-        "direct-mcq-24",
-        "direct-mcq-21",
-        "direct-mcq-25",
-        "direct-mcq-20"
+        "direct-mcq-38",
+        "direct-mcq-17",
+        "direct-mcq-51"
       ],
       "explanation": "本句的「direct」指「直接下屬 organisational hierarchy」。",
       "sentenceIndex": 52,
@@ -3144,12 +2950,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-23": "本句指「直接下屬 organisational hierarchy」。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。"
+        "direct-mcq-23": "本句的「direct」指「直接下屬 organisational hierarchy」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-23"
     },
@@ -3161,11 +2965,9 @@ export default {
       "masked": "Speak to your ____ manager first.",
       "options": [
         "direct-mcq-24",
-        "direct-mcq-23",
-        "direct-mcq-25",
-        "direct-mcq-22",
-        "direct-mcq-26",
-        "direct-mcq-21"
+        "direct-mcq-40",
+        "direct-mcq-70",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直屬經理 hierarchy」。",
       "sentenceIndex": 55,
@@ -3174,12 +2976,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-24": "本句指「直屬經理 hierarchy」。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。"
+        "direct-mcq-24": "本句的「direct」指「直屬經理 hierarchy」。",
+        "direct-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-24"
     },
@@ -3191,11 +2991,9 @@ export default {
       "masked": "Your ____ supervisor will review the work.",
       "options": [
         "direct-mcq-24",
-        "direct-mcq-23",
-        "direct-mcq-25",
-        "direct-mcq-22",
-        "direct-mcq-26",
-        "direct-mcq-21"
+        "direct-mcq-17",
+        "direct-mcq-51",
+        "direct-mcq-39"
       ],
       "explanation": "本句的「direct」指「直屬經理 hierarchy」。",
       "sentenceIndex": 56,
@@ -3204,12 +3002,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-24": "本句指「直屬經理 hierarchy」。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-21": "「直接控制 control」與本句語境不同。"
+        "direct-mcq-24": "本句的「direct」指「直屬經理 hierarchy」。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-24"
     },
@@ -3221,11 +3017,9 @@ export default {
       "masked": "This is the most ____ route to the station.",
       "options": [
         "direct-mcq-25",
-        "direct-mcq-24",
-        "direct-mcq-26",
-        "direct-mcq-23",
-        "direct-mcq-27",
-        "direct-mcq-22"
+        "direct-mcq-45",
+        "direct-mcq-41",
+        "direct-mcq-38"
       ],
       "explanation": "本句的「direct」指「直接路線 no detour」。",
       "sentenceIndex": 57,
@@ -3234,12 +3028,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-25": "本句指「直接路線 no detour」。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。"
+        "direct-mcq-25": "本句的「direct」指「直接路線 no detour」。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-25"
     },
@@ -3251,11 +3043,9 @@ export default {
       "masked": "We took a ____ route through the city.",
       "options": [
         "direct-mcq-25",
-        "direct-mcq-24",
-        "direct-mcq-26",
-        "direct-mcq-23",
-        "direct-mcq-27",
-        "direct-mcq-22"
+        "direct-mcq-51",
+        "direct-mcq-38",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「direct」指「直接路線 no detour」。",
       "sentenceIndex": 58,
@@ -3264,12 +3054,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-25": "本句指「直接路線 no detour」。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-22": "「直接監督 oversight」與本句語境不同。"
+        "direct-mcq-25": "本句的「direct」指「直接路線 no detour」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-25"
     },
@@ -3281,11 +3069,9 @@ export default {
       "masked": "Is there a ____ flight to Vancouver?",
       "options": [
         "direct-mcq-26",
-        "direct-mcq-25",
-        "direct-mcq-27",
-        "direct-mcq-24",
-        "direct-mcq-28",
-        "direct-mcq-23"
+        "direct-mcq-46",
+        "direct-mcq-41",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直航航班 through flight」。",
       "sentenceIndex": 59,
@@ -3294,12 +3080,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-26": "本句指「直航航班 through flight」。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。"
+        "direct-mcq-26": "本句的「direct」指「直航航班 through flight」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-26"
     },
@@ -3311,11 +3095,9 @@ export default {
       "masked": "A ____ flight may still make an intermediate stop in some airline usage, whereas a nonstop flight has no intermediate stop.",
       "options": [
         "direct-mcq-26",
-        "direct-mcq-25",
-        "direct-mcq-27",
-        "direct-mcq-24",
-        "direct-mcq-28",
-        "direct-mcq-23"
+        "direct-mcq-71",
+        "direct-mcq-51",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direct」指「直航航班 through flight」。",
       "sentenceIndex": 60,
@@ -3324,12 +3106,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-26": "本句指「直航航班 through flight」。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-23": "「直接下屬 organisational hierarchy」與本句語境不同。"
+        "direct-mcq-26": "本句的「direct」指「直航航班 through flight」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-26"
     },
@@ -3341,11 +3121,9 @@ export default {
       "masked": "Is there a ____ train to the airport?",
       "options": [
         "direct-mcq-27",
-        "direct-mcq-26",
-        "direct-mcq-28",
-        "direct-mcq-25",
-        "direct-mcq-29",
-        "direct-mcq-24"
+        "direct-mcq-45",
+        "direct-mcq-44",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direct」指「直達列車／巴士 no transfer」。",
       "sentenceIndex": 61,
@@ -3354,12 +3132,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-27": "本句指「直達列車／巴士 no transfer」。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。"
+        "direct-mcq-27": "本句的「direct」指「直達列車／巴士 no transfer」。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-27"
     },
@@ -3371,11 +3147,9 @@ export default {
       "masked": "Take the ____ bus rather than changing downtown.",
       "options": [
         "direct-mcq-27",
-        "direct-mcq-26",
-        "direct-mcq-28",
-        "direct-mcq-25",
-        "direct-mcq-29",
-        "direct-mcq-24"
+        "direct-mcq-72",
+        "direct-mcq-39",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「direct」指「直達列車／巴士 no transfer」。",
       "sentenceIndex": 62,
@@ -3384,12 +3158,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-27": "本句指「直達列車／巴士 no transfer」。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-24": "「直屬經理 hierarchy」與本句語境不同。"
+        "direct-mcq-27": "本句的「direct」指「直達列車／巴士 no transfer」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-27"
     },
@@ -3401,11 +3173,9 @@ export default {
       "masked": "We flew ____ to Tokyo.",
       "options": [
         "direct-mcq-28",
-        "direct-mcq-27",
-        "direct-mcq-29",
-        "direct-mcq-26",
-        "direct-mcq-30",
-        "direct-mcq-25"
+        "direct-mcq-40",
+        "direct-mcq-16",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「直接前往／直飛 adverbial」。",
       "sentenceIndex": 65,
@@ -3414,12 +3184,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-28": "本句指「直接前往／直飛 adverbial」。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。"
+        "direct-mcq-28": "本句的「direct」指「直接前往／直飛 adverbial」。",
+        "direct-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-28"
     },
@@ -3431,11 +3199,9 @@ export default {
       "masked": "This train goes ____ to Central.",
       "options": [
         "direct-mcq-28",
-        "direct-mcq-27",
-        "direct-mcq-29",
-        "direct-mcq-26",
-        "direct-mcq-30",
-        "direct-mcq-25"
+        "direct-mcq-44",
+        "direct-mcq-71",
+        "direct-mcq-38"
       ],
       "explanation": "本句的「direct」指「直接前往／直飛 adverbial」。",
       "sentenceIndex": 66,
@@ -3444,12 +3210,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-28": "本句指「直接前往／直飛 adverbial」。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-25": "「直接路線 no detour」與本句語境不同。"
+        "direct-mcq-28": "本句的「direct」指「直接前往／直飛 adverbial」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-28"
     },
@@ -3461,11 +3225,9 @@ export default {
       "masked": "Keep the medicine out of ____ sunlight.",
       "options": [
         "direct-mcq-29",
-        "direct-mcq-28",
-        "direct-mcq-30",
-        "direct-mcq-27",
-        "direct-mcq-31",
-        "direct-mcq-26"
+        "direct-mcq-42",
+        "direct-mcq-43",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「direct」指「直射陽光 physical」。",
       "sentenceIndex": 69,
@@ -3474,12 +3236,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-29": "本句指「直射陽光 physical」。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。"
+        "direct-mcq-29": "本句的「direct」指「直射陽光 physical」。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-29"
     },
@@ -3491,11 +3251,9 @@ export default {
       "masked": "The plant grows poorly in ____ sunlight.",
       "options": [
         "direct-mcq-29",
-        "direct-mcq-28",
-        "direct-mcq-30",
-        "direct-mcq-27",
-        "direct-mcq-31",
-        "direct-mcq-26"
+        "direct-mcq-16",
+        "direct-mcq-51",
+        "direct-mcq-39"
       ],
       "explanation": "本句的「direct」指「直射陽光 physical」。",
       "sentenceIndex": 70,
@@ -3504,12 +3262,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-29": "本句指「直射陽光 physical」。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-26": "「直航航班 through flight」與本句語境不同。"
+        "direct-mcq-29": "本句的「direct」指「直射陽光 physical」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-29"
     },
@@ -3521,11 +3277,9 @@ export default {
       "masked": "The ball scored a ____ hit on the target.",
       "options": [
         "direct-mcq-30",
-        "direct-mcq-29",
-        "direct-mcq-31",
-        "direct-mcq-28",
-        "direct-mcq-32",
-        "direct-mcq-27"
+        "direct-mcq-45",
+        "direct-mcq-44",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「direct」指「直接命中 physical」。",
       "sentenceIndex": 73,
@@ -3534,12 +3288,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-30": "本句指「直接命中 physical」。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。"
+        "direct-mcq-30": "本句的「direct」指「直接命中 physical」。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-30"
     },
@@ -3551,11 +3303,9 @@ export default {
       "masked": "The building suffered a ____ hit.",
       "options": [
         "direct-mcq-30",
-        "direct-mcq-29",
-        "direct-mcq-31",
-        "direct-mcq-28",
-        "direct-mcq-32",
-        "direct-mcq-27"
+        "direct-mcq-41",
+        "direct-mcq-70",
+        "direct-mcq-38"
       ],
       "explanation": "本句的「direct」指「直接命中 physical」。",
       "sentenceIndex": 74,
@@ -3564,12 +3314,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-30": "本句指「直接命中 physical」。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。",
-        "direct-mcq-27": "「直達列車／巴士 no transfer」與本句語境不同。"
+        "direct-mcq-30": "本句的「direct」指「直接命中 physical」。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-30"
     },
@@ -3581,11 +3329,9 @@ export default {
       "masked": "She is a ____ descendant of the founder.",
       "options": [
         "direct-mcq-31",
-        "direct-mcq-30",
-        "direct-mcq-32",
-        "direct-mcq-29",
-        "direct-mcq-33",
-        "direct-mcq-28"
+        "direct-mcq-51",
+        "direct-mcq-35",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直系後代 genealogy」。",
       "sentenceIndex": 75,
@@ -3594,12 +3340,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-31": "本句指「直系後代 genealogy」。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-33": "「直接對應詞 equivalence」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。"
+        "direct-mcq-31": "本句的「direct」指「直系後代 genealogy」。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-31"
     },
@@ -3611,11 +3355,9 @@ export default {
       "masked": "____ descendants include children, grandchildren and later descendants in the same line.",
       "options": [
         "direct-mcq-31",
-        "direct-mcq-30",
-        "direct-mcq-32",
-        "direct-mcq-29",
-        "direct-mcq-33",
-        "direct-mcq-28"
+        "direct-mcq-45",
+        "direct-mcq-70",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「Direct」指「直系後代 genealogy」。",
       "sentenceIndex": 76,
@@ -3624,12 +3366,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-31": "本句指「直系後代 genealogy」。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。",
-        "direct-mcq-33": "「直接對應詞 equivalence」與本句語境不同。",
-        "direct-mcq-28": "「直接前往／直飛 adverbial」與本句語境不同。"
+        "direct-mcq-31": "本句的「Direct」指「直系後代 genealogy」。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-31"
     },
@@ -3641,11 +3381,9 @@ export default {
       "masked": "The records identify one of his ____ ancestors.",
       "options": [
         "direct-mcq-32",
-        "direct-mcq-31",
-        "direct-mcq-33",
-        "direct-mcq-30",
-        "direct-mcq-34",
-        "direct-mcq-29"
+        "direct-mcq-43",
+        "direct-mcq-41",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direct」指「直系祖先 genealogy」。",
       "sentenceIndex": 77,
@@ -3654,12 +3392,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-32": "本句指「直系祖先 genealogy」。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-33": "「直接對應詞 equivalence」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-34": "「指引某人去 X guidance」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。"
+        "direct-mcq-32": "本句的「direct」指「直系祖先 genealogy」。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-32"
     },
@@ -3671,11 +3407,9 @@ export default {
       "masked": "A ____ ancestor lies in a person's direct line of descent.",
       "options": [
         "direct-mcq-32",
-        "direct-mcq-31",
-        "direct-mcq-33",
-        "direct-mcq-30",
-        "direct-mcq-34",
-        "direct-mcq-29"
+        "direct-mcq-35",
+        "direct-mcq-46",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「直系祖先 genealogy」。",
       "sentenceIndex": 78,
@@ -3684,12 +3418,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-32": "本句指「直系祖先 genealogy」。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-33": "「直接對應詞 equivalence」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。",
-        "direct-mcq-34": "「指引某人去 X guidance」與本句語境不同。",
-        "direct-mcq-29": "「直射陽光 physical」與本句語境不同。"
+        "direct-mcq-32": "本句的「direct」指「直系祖先 genealogy」。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-32"
     },
@@ -3701,11 +3433,9 @@ export default {
       "masked": "The expression has no ____ equivalent in English.",
       "options": [
         "direct-mcq-33",
-        "direct-mcq-32",
-        "direct-mcq-34",
-        "direct-mcq-31",
         "direct-mcq-35",
-        "direct-mcq-30"
+        "direct-mcq-70",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「直接對應詞 equivalence」。",
       "sentenceIndex": 83,
@@ -3714,12 +3444,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-33": "本句指「直接對應詞 equivalence」。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。",
-        "direct-mcq-34": "「指引某人去 X guidance」與本句語境不同。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-35": "「指揮交通 guidance」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。"
+        "direct-mcq-33": "本句的「direct」指「直接對應詞 equivalence」。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-33"
     },
@@ -3731,11 +3459,9 @@ export default {
       "masked": "Some cultural concepts have no ____ equivalent in another language.",
       "options": [
         "direct-mcq-33",
-        "direct-mcq-32",
-        "direct-mcq-34",
-        "direct-mcq-31",
-        "direct-mcq-35",
-        "direct-mcq-30"
+        "direct-mcq-38",
+        "direct-mcq-71",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direct」指「直接對應詞 equivalence」。",
       "sentenceIndex": 84,
@@ -3744,12 +3470,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-33": "本句指「直接對應詞 equivalence」。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。",
-        "direct-mcq-34": "「指引某人去 X guidance」與本句語境不同。",
-        "direct-mcq-31": "「直系後代 genealogy」與本句語境不同。",
-        "direct-mcq-35": "「指揮交通 guidance」與本句語境不同。",
-        "direct-mcq-30": "「直接命中 physical」與本句語境不同。"
+        "direct-mcq-33": "本句的「direct」指「直接對應詞 equivalence」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-33"
     },
@@ -3761,11 +3485,9 @@ export default {
       "masked": "Police were ____ traffic.",
       "options": [
         "direct-mcq-35",
-        "direct-mcq-34",
-        "direct-mcq-36",
-        "direct-mcq-33",
-        "direct-mcq-37",
-        "direct-mcq-32"
+        "direct-mcq-55",
+        "direct-mcq-71",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「directing」指「指揮交通 guidance」。",
       "sentenceIndex": 91,
@@ -3774,12 +3496,10 @@ export default {
         "directing"
       ],
       "optionReasons": {
-        "direct-mcq-35": "本句指「指揮交通 guidance」。",
-        "direct-mcq-34": "「指引某人去 X guidance」與本句語境不同。",
-        "direct-mcq-36": "「指示某人做 X instruction」與本句語境不同。",
-        "direct-mcq-33": "「直接對應詞 equivalence」與本句語境不同。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。"
+        "direct-mcq-35": "本句的「directing」指「指揮交通 guidance」。",
+        "direct-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-35"
     },
@@ -3791,11 +3511,9 @@ export default {
       "masked": "Staff ____ traffic away from the blocked road.",
       "options": [
         "direct-mcq-35",
-        "direct-mcq-34",
-        "direct-mcq-36",
-        "direct-mcq-33",
-        "direct-mcq-37",
-        "direct-mcq-32"
+        "direct-mcq-60",
+        "direct-mcq-51",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「directed」指「指揮交通 guidance」。",
       "sentenceIndex": 92,
@@ -3804,12 +3522,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-35": "本句指「指揮交通 guidance」。",
-        "direct-mcq-34": "「指引某人去 X guidance」與本句語境不同。",
-        "direct-mcq-36": "「指示某人做 X instruction」與本句語境不同。",
-        "direct-mcq-33": "「直接對應詞 equivalence」與本句語境不同。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。",
-        "direct-mcq-32": "「直系祖先 genealogy」與本句語境不同。"
+        "direct-mcq-35": "本句的「directed」指「指揮交通 guidance」。",
+        "direct-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-35"
     },
@@ -3821,11 +3537,9 @@ export default {
       "masked": "She ____ the entire operation.",
       "options": [
         "direct-mcq-38",
-        "direct-mcq-37",
-        "direct-mcq-39",
-        "direct-mcq-36",
-        "direct-mcq-40",
-        "direct-mcq-35"
+        "direct-mcq-27",
+        "direct-mcq-46",
+        "direct-mcq-28"
       ],
       "explanation": "本句的「directed」指「指揮行動 manage/control」。",
       "sentenceIndex": 101,
@@ -3834,12 +3548,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-38": "本句指「指揮行動 manage/control」。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。",
-        "direct-mcq-36": "「指示某人做 X instruction」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-35": "「指揮交通 guidance」與本句語境不同。"
+        "direct-mcq-38": "本句的「directed」指「指揮行動 manage/control」。",
+        "direct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-38"
     },
@@ -3851,11 +3563,9 @@ export default {
       "masked": "A senior manager ____ the project.",
       "options": [
         "direct-mcq-38",
-        "direct-mcq-37",
-        "direct-mcq-39",
-        "direct-mcq-36",
-        "direct-mcq-40",
-        "direct-mcq-35"
+        "direct-mcq-30",
+        "direct-mcq-46",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「directs」指「指揮行動 manage/control」。",
       "sentenceIndex": 102,
@@ -3864,12 +3574,10 @@ export default {
         "directs"
       ],
       "optionReasons": {
-        "direct-mcq-38": "本句指「指揮行動 manage/control」。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。",
-        "direct-mcq-36": "「指示某人做 X instruction」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-35": "「指揮交通 guidance」與本句語境不同。"
+        "direct-mcq-38": "本句的「directs」指「指揮行動 manage/control」。",
+        "direct-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-38"
     },
@@ -3881,11 +3589,9 @@ export default {
       "masked": "He was appointed to ____ the team.",
       "options": [
         "direct-mcq-39",
-        "direct-mcq-38",
-        "direct-mcq-40",
-        "direct-mcq-37",
-        "direct-mcq-41",
-        "direct-mcq-36"
+        "direct-mcq-15",
+        "direct-mcq-51",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「領導／指揮團隊 management」。",
       "sentenceIndex": 103,
@@ -3894,12 +3600,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-39": "本句指「領導／指揮團隊 management」。",
-        "direct-mcq-38": "「指揮行動 manage/control」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-36": "「指示某人做 X instruction」與本句語境不同。"
+        "direct-mcq-39": "本句的「direct」指「領導／指揮團隊 management」。",
+        "direct-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-39"
     },
@@ -3911,11 +3615,9 @@ export default {
       "masked": "Strong leaders ____ without controlling every detail.",
       "options": [
         "direct-mcq-39",
-        "direct-mcq-38",
-        "direct-mcq-40",
-        "direct-mcq-37",
-        "direct-mcq-41",
-        "direct-mcq-36"
+        "direct-mcq-18",
+        "direct-mcq-71",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「領導／指揮團隊 management」。",
       "sentenceIndex": 104,
@@ -3924,12 +3626,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-39": "本句指「領導／指揮團隊 management」。",
-        "direct-mcq-38": "「指揮行動 manage/control」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-36": "「指示某人做 X instruction」與本句語境不同。"
+        "direct-mcq-39": "本句的「direct」指「領導／指揮團隊 management」。",
+        "direct-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-39"
     },
@@ -3941,11 +3641,9 @@ export default {
       "masked": "The project improved under her ____.",
       "options": [
         "direct-mcq-40",
-        "direct-mcq-39",
-        "direct-mcq-41",
-        "direct-mcq-38",
-        "direct-mcq-42",
-        "direct-mcq-37"
+        "direct-mcq-30",
+        "direct-mcq-70",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direction」指「指導；方向 leadership」。",
       "sentenceIndex": 107,
@@ -3954,12 +3652,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direct-mcq-40": "本句指「指導；方向 leadership」。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-38": "「指揮行動 manage/control」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。"
+        "direct-mcq-40": "本句的「direction」指「指導；方向 leadership」。",
+        "direct-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-40"
     },
@@ -3971,11 +3667,9 @@ export default {
       "masked": "The team needs clearer ____.",
       "options": [
         "direct-mcq-40",
-        "direct-mcq-39",
-        "direct-mcq-41",
-        "direct-mcq-38",
-        "direct-mcq-42",
-        "direct-mcq-37"
+        "direct-mcq-64",
+        "direct-mcq-72",
+        "direct-mcq-24"
       ],
       "explanation": "本句的「direction」指「指導；方向 leadership」。",
       "sentenceIndex": 108,
@@ -3984,12 +3678,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direct-mcq-40": "本句指「指導；方向 leadership」。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-38": "「指揮行動 manage/control」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-37": "「指令；正式指示 authoritative instruction」與本句語境不同。"
+        "direct-mcq-40": "本句的「direction」指「指導；方向 leadership」。",
+        "direct-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-40"
     },
@@ -4001,11 +3693,9 @@ export default {
       "masked": "The report ____ attention to communication problems.",
       "options": [
         "direct-mcq-41",
-        "direct-mcq-40",
-        "direct-mcq-42",
-        "direct-mcq-39",
-        "direct-mcq-43",
-        "direct-mcq-38"
+        "direct-mcq-58",
+        "direct-mcq-38",
+        "direct-mcq-45"
       ],
       "explanation": "本句的「directs」指「把注意力引向 focus」。",
       "sentenceIndex": 111,
@@ -4014,12 +3704,10 @@ export default {
         "directs"
       ],
       "optionReasons": {
-        "direct-mcq-41": "本句指「把注意力引向 focus」。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-38": "「指揮行動 manage/control」與本句語境不同。"
+        "direct-mcq-41": "本句的「directs」指「把注意力引向 focus」。",
+        "direct-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-41"
     },
@@ -4031,11 +3719,9 @@ export default {
       "masked": "I'd like to ____ your attention to this figure.",
       "options": [
         "direct-mcq-41",
-        "direct-mcq-40",
-        "direct-mcq-42",
-        "direct-mcq-39",
-        "direct-mcq-43",
-        "direct-mcq-38"
+        "direct-mcq-61",
+        "direct-mcq-70",
+        "direct-mcq-24"
       ],
       "explanation": "本句的「direct」指「把注意力引向 focus」。",
       "sentenceIndex": 112,
@@ -4044,12 +3730,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-41": "本句指「把注意力引向 focus」。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-38": "「指揮行動 manage/control」與本句語境不同。"
+        "direct-mcq-41": "本句的「direct」指「把注意力引向 focus」。",
+        "direct-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-41"
     },
@@ -4061,11 +3745,9 @@ export default {
       "masked": "The company ____ more resources towards training.",
       "options": [
         "direct-mcq-42",
-        "direct-mcq-41",
-        "direct-mcq-43",
-        "direct-mcq-40",
-        "direct-mcq-44",
-        "direct-mcq-39"
+        "direct-mcq-61",
+        "direct-mcq-35",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「directed」指「把資源投向 allocation」。",
       "sentenceIndex": 115,
@@ -4074,12 +3756,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-42": "本句指「把資源投向 allocation」。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。"
+        "direct-mcq-42": "本句的「directed」指「把資源投向 allocation」。",
+        "direct-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-42"
     },
@@ -4091,10 +3771,8 @@ export default {
       "masked": "Funds were ____ towards high-priority projects.",
       "options": [
         "direct-mcq-42",
-        "direct-mcq-41",
-        "direct-mcq-43",
-        "direct-mcq-40",
-        "direct-mcq-44",
+        "direct-mcq-14",
+        "direct-mcq-31",
         "direct-mcq-39"
       ],
       "explanation": "本句的「directed」指「把資源投向 allocation」。",
@@ -4104,12 +3782,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-42": "本句指「把資源投向 allocation」。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-39": "「領導／指揮團隊 management」與本句語境不同。"
+        "direct-mcq-42": "本句的「directed」指「把資源投向 allocation」。",
+        "direct-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-42"
     },
@@ -4121,11 +3797,9 @@ export default {
       "masked": "Most of the criticism was ____ at management.",
       "options": [
         "direct-mcq-43",
-        "direct-mcq-42",
-        "direct-mcq-44",
-        "direct-mcq-41",
-        "direct-mcq-45",
-        "direct-mcq-40"
+        "direct-mcq-32",
+        "direct-mcq-25",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「directed」指「把批評指向 target」。",
       "sentenceIndex": 121,
@@ -4134,12 +3808,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-43": "本句指「把批評指向 target」。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-45": "「執導電影 arts」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。"
+        "direct-mcq-43": "本句的「directed」指「把批評指向 target」。",
+        "direct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-43"
     },
@@ -4151,11 +3823,9 @@ export default {
       "masked": "He ____ his criticism at the system rather than individuals.",
       "options": [
         "direct-mcq-43",
-        "direct-mcq-42",
-        "direct-mcq-44",
-        "direct-mcq-41",
-        "direct-mcq-45",
-        "direct-mcq-40"
+        "direct-mcq-57",
+        "direct-mcq-24",
+        "direct-mcq-46"
       ],
       "explanation": "本句的「directed」指「把批評指向 target」。",
       "sentenceIndex": 122,
@@ -4164,12 +3834,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-43": "本句指「把批評指向 target」。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。",
-        "direct-mcq-45": "「執導電影 arts」與本句語境不同。",
-        "direct-mcq-40": "「指導；方向 leadership」與本句語境不同。"
+        "direct-mcq-43": "本句的「directed」指「把批評指向 target」。",
+        "direct-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-43"
     },
@@ -4181,11 +3849,9 @@ export default {
       "masked": "She ____ her anger at the wrong person.",
       "options": [
         "direct-mcq-44",
-        "direct-mcq-43",
-        "direct-mcq-45",
-        "direct-mcq-42",
-        "direct-mcq-46",
-        "direct-mcq-41"
+        "direct-mcq-25",
+        "direct-mcq-72",
+        "direct-mcq-24"
       ],
       "explanation": "本句的「directed」指「把怒氣發向 target」。",
       "sentenceIndex": 123,
@@ -4194,12 +3860,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-44": "本句指「把怒氣發向 target」。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-45": "「執導電影 arts」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-46": "「導演 arts」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。"
+        "direct-mcq-44": "本句的「directed」指「把怒氣發向 target」。",
+        "direct-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-44"
     },
@@ -4211,11 +3875,9 @@ export default {
       "masked": "Frustration was ____ towards management.",
       "options": [
         "direct-mcq-44",
-        "direct-mcq-43",
-        "direct-mcq-45",
-        "direct-mcq-42",
-        "direct-mcq-46",
-        "direct-mcq-41"
+        "direct-mcq-52",
+        "direct-mcq-35",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「directed」指「把怒氣發向 target」。",
       "sentenceIndex": 124,
@@ -4224,12 +3886,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-44": "本句指「把怒氣發向 target」。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-45": "「執導電影 arts」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。",
-        "direct-mcq-46": "「導演 arts」與本句語境不同。",
-        "direct-mcq-41": "「把注意力引向 focus」與本句語境不同。"
+        "direct-mcq-44": "本句的「directed」指「把怒氣發向 target」。",
+        "direct-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-44"
     },
@@ -4241,11 +3901,9 @@ export default {
       "masked": "She ____ the film.",
       "options": [
         "direct-mcq-45",
-        "direct-mcq-44",
-        "direct-mcq-46",
+        "direct-mcq-33",
         "direct-mcq-43",
-        "direct-mcq-47",
-        "direct-mcq-42"
+        "direct-mcq-24"
       ],
       "explanation": "本句的「directed」指「執導電影 arts」。",
       "sentenceIndex": 127,
@@ -4254,12 +3912,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-45": "本句指「執導電影 arts」。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-46": "「導演 arts」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-47": "「董事／總監 management」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。"
+        "direct-mcq-45": "本句的「directed」指「執導電影 arts」。",
+        "direct-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-45"
     },
@@ -4271,11 +3927,9 @@ export default {
       "masked": "The film was ____ by a young filmmaker.",
       "options": [
         "direct-mcq-45",
-        "direct-mcq-44",
-        "direct-mcq-46",
-        "direct-mcq-43",
-        "direct-mcq-47",
-        "direct-mcq-42"
+        "direct-mcq-70",
+        "direct-mcq-10",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「directed」指「執導電影 arts」。",
       "sentenceIndex": 128,
@@ -4284,12 +3938,10 @@ export default {
         "directed"
       ],
       "optionReasons": {
-        "direct-mcq-45": "本句指「執導電影 arts」。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-46": "「導演 arts」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。",
-        "direct-mcq-47": "「董事／總監 management」與本句語境不同。",
-        "direct-mcq-42": "「把資源投向 allocation」與本句語境不同。"
+        "direct-mcq-45": "本句的「directed」指「執導電影 arts」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-45"
     },
@@ -4301,11 +3953,9 @@ export default {
       "masked": "The ____ worked closely with the actors.",
       "options": [
         "direct-mcq-46",
-        "direct-mcq-45",
-        "direct-mcq-47",
-        "direct-mcq-44",
-        "direct-mcq-48",
-        "direct-mcq-43"
+        "direct-mcq-68",
+        "direct-mcq-38",
+        "direct-mcq-31"
       ],
       "explanation": "本句的「director」指「導演 arts」。",
       "sentenceIndex": 131,
@@ -4314,12 +3964,10 @@ export default {
         "director"
       ],
       "optionReasons": {
-        "direct-mcq-46": "本句指「導演 arts」。",
-        "direct-mcq-45": "「執導電影 arts」與本句語境不同。",
-        "direct-mcq-47": "「董事／總監 management」與本句語境不同。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-48": "「董事職位 office」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。"
+        "direct-mcq-46": "本句的「director」指「導演 arts」。",
+        "direct-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-46"
     },
@@ -4331,11 +3979,9 @@ export default {
       "masked": "She wants to become a film ____.",
       "options": [
         "direct-mcq-46",
-        "direct-mcq-45",
-        "direct-mcq-47",
-        "direct-mcq-44",
-        "direct-mcq-48",
-        "direct-mcq-43"
+        "direct-mcq-32",
+        "direct-mcq-66",
+        "direct-mcq-27"
       ],
       "explanation": "本句的「director」指「導演 arts」。",
       "sentenceIndex": 132,
@@ -4344,12 +3990,10 @@ export default {
         "director"
       ],
       "optionReasons": {
-        "direct-mcq-46": "本句指「導演 arts」。",
-        "direct-mcq-45": "「執導電影 arts」與本句語境不同。",
-        "direct-mcq-47": "「董事／總監 management」與本句語境不同。",
-        "direct-mcq-44": "「把怒氣發向 target」與本句語境不同。",
-        "direct-mcq-48": "「董事職位 office」與本句語境不同。",
-        "direct-mcq-43": "「把批評指向 target」與本句語境不同。"
+        "direct-mcq-46": "本句的「director」指「導演 arts」。",
+        "direct-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-46"
     },
@@ -4361,11 +4005,9 @@ export default {
       "masked": "Senior leaders set the organisation's strategic ____.",
       "options": [
         "direct-mcq-51",
-        "direct-mcq-50",
-        "direct-mcq-52",
-        "direct-mcq-49",
-        "direct-mcq-53",
-        "direct-mcq-48"
+        "direct-mcq-71",
+        "direct-mcq-11",
+        "direct-mcq-45"
       ],
       "explanation": "本句的「direction」指「策略方向 organisational course」。",
       "sentenceIndex": 157,
@@ -4374,12 +4016,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direct-mcq-51": "本句指「策略方向 organisational course」。",
-        "direct-mcq-50": "「指示；路線說明 instructions」與本句語境不同。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。",
-        "direct-mcq-49": "「方向 orientation」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-48": "「董事職位 office」與本句語境不同。"
+        "direct-mcq-51": "本句的「direction」指「策略方向 organisational course」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-51"
     },
@@ -4391,11 +4031,9 @@ export default {
       "masked": "The acquisition changed the company's strategic ____.",
       "options": [
         "direct-mcq-51",
-        "direct-mcq-50",
-        "direct-mcq-52",
-        "direct-mcq-49",
-        "direct-mcq-53",
-        "direct-mcq-48"
+        "direct-mcq-27",
+        "direct-mcq-67",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direction」指「策略方向 organisational course」。",
       "sentenceIndex": 158,
@@ -4404,12 +4042,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direct-mcq-51": "本句指「策略方向 organisational course」。",
-        "direct-mcq-50": "「指示；路線說明 instructions」與本句語境不同。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。",
-        "direct-mcq-49": "「方向 orientation」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-48": "「董事職位 office」與本句語境不同。"
+        "direct-mcq-51": "本句的「direction」指「策略方向 organisational course」。",
+        "direct-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-51"
     },
@@ -4421,11 +4057,9 @@ export default {
       "masked": "I'm tired,” she said, is an example of ____ speech.",
       "options": [
         "direct-mcq-52",
-        "direct-mcq-51",
-        "direct-mcq-53",
-        "direct-mcq-50",
-        "direct-mcq-54",
-        "direct-mcq-49"
+        "direct-mcq-44",
+        "direct-mcq-72",
+        "direct-mcq-35"
       ],
       "explanation": "本句的「direct」指「直接引語 grammar」。",
       "sentenceIndex": 161,
@@ -4434,12 +4068,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-52": "本句指「直接引語 grammar」。",
-        "direct-mcq-51": "「策略方向 organisational course」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-50": "「指示；路線說明 instructions」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-49": "「方向 orientation」與本句語境不同。"
+        "direct-mcq-52": "本句的「direct」指「直接引語 grammar」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-52"
     },
@@ -4451,11 +4083,9 @@ export default {
       "masked": "____ speech reproduces a speaker's actual words.",
       "options": [
         "direct-mcq-52",
-        "direct-mcq-51",
-        "direct-mcq-53",
-        "direct-mcq-50",
-        "direct-mcq-54",
-        "direct-mcq-49"
+        "direct-mcq-70",
+        "direct-mcq-44",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「Direct」指「直接引語 grammar」。",
       "sentenceIndex": 162,
@@ -4464,12 +4094,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-52": "本句指「直接引語 grammar」。",
-        "direct-mcq-51": "「策略方向 organisational course」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-50": "「指示；路線說明 instructions」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-49": "「方向 orientation」與本句語境不同。"
+        "direct-mcq-52": "本句的「Direct」指「直接引語 grammar」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-52"
     },
@@ -4481,11 +4109,9 @@ export default {
       "masked": "The essay includes a ____ quotation from the article.",
       "options": [
         "direct-mcq-53",
-        "direct-mcq-52",
-        "direct-mcq-54",
-        "direct-mcq-51",
-        "direct-mcq-55",
-        "direct-mcq-50"
+        "direct-mcq-42",
+        "direct-mcq-16",
+        "direct-mcq-46"
       ],
       "explanation": "本句的「direct」指「直接引文 quotation」。",
       "sentenceIndex": 163,
@@ -4494,12 +4120,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-53": "本句指「直接引文 quotation」。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-51": "「策略方向 organisational course」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-50": "「指示；路線說明 instructions」與本句語境不同。"
+        "direct-mcq-53": "本句的「direct」指「直接引文 quotation」。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-53"
     },
@@ -4511,11 +4135,9 @@ export default {
       "masked": "____ quotes should reproduce the source accurately.",
       "options": [
         "direct-mcq-53",
-        "direct-mcq-52",
-        "direct-mcq-54",
-        "direct-mcq-51",
-        "direct-mcq-55",
-        "direct-mcq-50"
+        "direct-mcq-46",
+        "direct-mcq-38",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「Direct」指「直接引文 quotation」。",
       "sentenceIndex": 164,
@@ -4524,12 +4146,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-53": "本句指「直接引文 quotation」。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-51": "「策略方向 organisational course」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-50": "「指示；路線說明 instructions」與本句語境不同。"
+        "direct-mcq-53": "本句的「Direct」指「直接引文 quotation」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-53"
     },
@@ -4541,11 +4161,9 @@ export default {
       "masked": "In “She opened the door,” the door is the ____ object.",
       "options": [
         "direct-mcq-54",
-        "direct-mcq-53",
-        "direct-mcq-55",
-        "direct-mcq-52",
-        "direct-mcq-56",
-        "direct-mcq-51"
+        "direct-mcq-42",
+        "direct-mcq-38",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「direct」指「直接賓語 grammar」。",
       "sentenceIndex": 165,
@@ -4554,12 +4172,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-54": "本句指「直接賓語 grammar」。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-51": "「策略方向 organisational course」與本句語境不同。"
+        "direct-mcq-54": "本句的「direct」指「直接賓語 grammar」。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-54"
     },
@@ -4571,11 +4187,9 @@ export default {
       "masked": "Some verbs take both a ____ and an indirect object.",
       "options": [
         "direct-mcq-54",
-        "direct-mcq-53",
-        "direct-mcq-55",
-        "direct-mcq-52",
-        "direct-mcq-56",
-        "direct-mcq-51"
+        "direct-mcq-16",
+        "direct-mcq-41",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「direct」指「直接賓語 grammar」。",
       "sentenceIndex": 166,
@@ -4584,12 +4198,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-54": "本句指「直接賓語 grammar」。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-51": "「策略方向 organisational course」與本句語境不同。"
+        "direct-mcq-54": "本句的「direct」指「直接賓語 grammar」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-54"
     },
@@ -4601,11 +4213,9 @@ export default {
       "masked": "Batteries supply ____ current.",
       "options": [
         "direct-mcq-55",
-        "direct-mcq-54",
-        "direct-mcq-56",
-        "direct-mcq-53",
-        "direct-mcq-57",
-        "direct-mcq-52"
+        "direct-mcq-43",
+        "direct-mcq-41",
+        "direct-mcq-35"
       ],
       "explanation": "本句的「direct」指「直流電 electricity」。",
       "sentenceIndex": 167,
@@ -4614,12 +4224,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-55": "本句指「直流電 electricity」。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。"
+        "direct-mcq-55": "本句的「direct」指「直流電 electricity」。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-55"
     },
@@ -4631,11 +4239,9 @@ export default {
       "masked": "DC flows in one overall ____ rather than alternating direction periodically.",
       "options": [
         "direct-mcq-55",
-        "direct-mcq-54",
-        "direct-mcq-56",
-        "direct-mcq-53",
-        "direct-mcq-57",
-        "direct-mcq-52"
+        "direct-mcq-46",
+        "direct-mcq-43",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direction」指「直流電 electricity」。",
       "sentenceIndex": 168,
@@ -4644,12 +4250,10 @@ export default {
         "direction"
       ],
       "optionReasons": {
-        "direct-mcq-55": "本句指「直流電 electricity」。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-52": "「直接引語 grammar」與本句語境不同。"
+        "direct-mcq-55": "本句的「direction」指「直流電 electricity」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-55"
     },
@@ -4661,11 +4265,9 @@ export default {
       "masked": "I pay the bill by ____ debit.",
       "options": [
         "direct-mcq-56",
-        "direct-mcq-55",
-        "direct-mcq-57",
-        "direct-mcq-54",
-        "direct-mcq-58",
-        "direct-mcq-53"
+        "direct-mcq-70",
+        "direct-mcq-42",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「直接扣賬／自動扣款 banking」。",
       "sentenceIndex": 169,
@@ -4674,12 +4276,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-56": "本句指「直接扣賬／自動扣款 banking」。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。"
+        "direct-mcq-56": "本句的「direct」指「直接扣賬／自動扣款 banking」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-56"
     },
@@ -4691,11 +4291,9 @@ export default {
       "masked": "The company collects monthly fees by ____ debit.",
       "options": [
         "direct-mcq-56",
-        "direct-mcq-55",
-        "direct-mcq-57",
-        "direct-mcq-54",
-        "direct-mcq-58",
-        "direct-mcq-53"
+        "direct-mcq-46",
+        "direct-mcq-71",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direct」指「直接扣賬／自動扣款 banking」。",
       "sentenceIndex": 170,
@@ -4704,12 +4302,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-56": "本句指「直接扣賬／自動扣款 banking」。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-53": "「直接引文 quotation」與本句語境不同。"
+        "direct-mcq-56": "本句的「direct」指「直接扣賬／自動扣款 banking」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-56"
     },
@@ -4721,11 +4317,9 @@ export default {
       "masked": "My salary is paid by ____ deposit.",
       "options": [
         "direct-mcq-57",
-        "direct-mcq-56",
-        "direct-mcq-58",
-        "direct-mcq-55",
-        "direct-mcq-59",
-        "direct-mcq-54"
+        "direct-mcq-70",
+        "direct-mcq-44",
+        "direct-mcq-45"
       ],
       "explanation": "本句的「direct」指「直接存款／自動入賬 banking」。",
       "sentenceIndex": 171,
@@ -4734,12 +4328,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-57": "本句指「直接存款／自動入賬 banking」。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。"
+        "direct-mcq-57": "本句的「direct」指「直接存款／自動入賬 banking」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-57"
     },
@@ -4751,11 +4343,9 @@ export default {
       "masked": "Employees can choose ____ deposit.",
       "options": [
         "direct-mcq-57",
-        "direct-mcq-56",
-        "direct-mcq-58",
-        "direct-mcq-55",
-        "direct-mcq-59",
-        "direct-mcq-54"
+        "direct-mcq-17",
+        "direct-mcq-43",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direct」指「直接存款／自動入賬 banking」。",
       "sentenceIndex": 172,
@@ -4764,12 +4354,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-57": "本句指「直接存款／自動入賬 banking」。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-54": "「直接賓語 grammar」與本句語境不同。"
+        "direct-mcq-57": "本句的「direct」指「直接存款／自動入賬 banking」。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-57"
     },
@@ -4781,11 +4369,9 @@ export default {
       "masked": "Income tax is generally classified as a ____ tax.",
       "options": [
         "direct-mcq-58",
-        "direct-mcq-57",
-        "direct-mcq-59",
-        "direct-mcq-56",
-        "direct-mcq-60",
-        "direct-mcq-55"
+        "direct-mcq-17",
+        "direct-mcq-51",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「直接稅 taxation」。",
       "sentenceIndex": 175,
@@ -4794,12 +4380,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-58": "本句指「直接稅 taxation」。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。"
+        "direct-mcq-58": "本句的「direct」指「直接稅 taxation」。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-58"
     },
@@ -4811,11 +4395,9 @@ export default {
       "masked": "____ taxes are imposed directly on people or organisations.",
       "options": [
         "direct-mcq-58",
-        "direct-mcq-57",
-        "direct-mcq-59",
-        "direct-mcq-56",
-        "direct-mcq-60",
-        "direct-mcq-55"
+        "direct-mcq-71",
+        "direct-mcq-16",
+        "direct-mcq-51"
       ],
       "explanation": "本句的「Direct」指「直接稅 taxation」。",
       "sentenceIndex": 176,
@@ -4824,12 +4406,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-58": "本句指「直接稅 taxation」。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-55": "「直流電 electricity」與本句語境不同。"
+        "direct-mcq-58": "本句的「Direct」指「直接稅 taxation」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-58"
     },
@@ -4841,11 +4421,9 @@ export default {
       "masked": "Materials are a major ____ cost of production.",
       "options": [
         "direct-mcq-59",
-        "direct-mcq-58",
-        "direct-mcq-60",
-        "direct-mcq-57",
-        "direct-mcq-61",
-        "direct-mcq-56"
+        "direct-mcq-38",
+        "direct-mcq-16",
+        "direct-mcq-51"
       ],
       "explanation": "本句的「direct」指「直接成本 accounting」。",
       "sentenceIndex": 177,
@@ -4854,12 +4432,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-59": "本句指「直接成本 accounting」。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。"
+        "direct-mcq-59": "本句的「direct」指「直接成本 accounting」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-59"
     },
@@ -4871,11 +4447,9 @@ export default {
       "masked": "____ costs can be traced to a specific product or project.",
       "options": [
         "direct-mcq-59",
-        "direct-mcq-58",
-        "direct-mcq-60",
-        "direct-mcq-57",
-        "direct-mcq-61",
-        "direct-mcq-56"
+        "direct-mcq-72",
+        "direct-mcq-45",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「Direct」指「直接成本 accounting」。",
       "sentenceIndex": 178,
@@ -4884,12 +4458,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-59": "本句指「直接成本 accounting」。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-56": "「直接扣賬／自動扣款 banking」與本句語境不同。"
+        "direct-mcq-59": "本句的「Direct」指「直接成本 accounting」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-59"
     },
@@ -4901,11 +4473,9 @@ export default {
       "masked": "____ labour costs increased.",
       "options": [
         "direct-mcq-60",
-        "direct-mcq-59",
-        "direct-mcq-61",
-        "direct-mcq-58",
-        "direct-mcq-62",
-        "direct-mcq-57"
+        "direct-mcq-46",
+        "direct-mcq-16",
+        "direct-mcq-51"
       ],
       "explanation": "本句的「Direct」指「直接人工 accounting」。",
       "sentenceIndex": 179,
@@ -4914,12 +4484,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-60": "本句指「直接人工 accounting」。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。"
+        "direct-mcq-60": "本句的「Direct」指「直接人工 accounting」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-60"
     },
@@ -4931,11 +4499,9 @@ export default {
       "masked": "____ labour is labour directly involved in producing the product.",
       "options": [
         "direct-mcq-60",
-        "direct-mcq-59",
-        "direct-mcq-61",
-        "direct-mcq-58",
-        "direct-mcq-62",
-        "direct-mcq-57"
+        "direct-mcq-42",
+        "direct-mcq-71",
+        "direct-mcq-44"
       ],
       "explanation": "本句的「Direct」指「直接人工 accounting」。",
       "sentenceIndex": 180,
@@ -4944,12 +4510,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-60": "本句指「直接人工 accounting」。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-57": "「直接存款／自動入賬 banking」與本句語境不同。"
+        "direct-mcq-60": "本句的「Direct」指「直接人工 accounting」。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-60"
     },
@@ -4961,11 +4525,9 @@ export default {
       "masked": "Steel is a ____ material in this product.",
       "options": [
         "direct-mcq-61",
-        "direct-mcq-60",
-        "direct-mcq-62",
-        "direct-mcq-59",
-        "direct-mcq-63",
-        "direct-mcq-58"
+        "direct-mcq-72",
+        "direct-mcq-17",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接材料 accounting」。",
       "sentenceIndex": 181,
@@ -4974,12 +4536,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-61": "本句指「直接材料 accounting」。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。"
+        "direct-mcq-61": "本句的「direct」指「直接材料 accounting」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-61"
     },
@@ -4991,11 +4551,9 @@ export default {
       "masked": "____ materials can be traced to the finished item.",
       "options": [
         "direct-mcq-61",
-        "direct-mcq-60",
-        "direct-mcq-62",
-        "direct-mcq-59",
-        "direct-mcq-63",
-        "direct-mcq-58"
+        "direct-mcq-72",
+        "direct-mcq-46",
+        "direct-mcq-35"
       ],
       "explanation": "本句的「Direct」指「直接材料 accounting」。",
       "sentenceIndex": 182,
@@ -5004,12 +4562,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-61": "本句指「直接材料 accounting」。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-58": "「直接稅 taxation」與本句語境不同。"
+        "direct-mcq-61": "本句的「Direct」指「直接材料 accounting」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-61"
     },
@@ -5021,11 +4577,9 @@ export default {
       "masked": "The company made a ____ investment in the overseas business.",
       "options": [
         "direct-mcq-62",
-        "direct-mcq-61",
-        "direct-mcq-63",
-        "direct-mcq-60",
-        "direct-mcq-64",
-        "direct-mcq-59"
+        "direct-mcq-35",
+        "direct-mcq-44",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「direct」指「直接投資 finance」。",
       "sentenceIndex": 183,
@@ -5034,12 +4588,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-62": "本句指「直接投資 finance」。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。"
+        "direct-mcq-62": "本句的「direct」指「直接投資 finance」。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-62"
     },
@@ -5051,11 +4603,9 @@ export default {
       "masked": "____ investment can involve acquiring a lasting interest or significant influence in an enterprise.",
       "options": [
         "direct-mcq-62",
-        "direct-mcq-61",
-        "direct-mcq-63",
-        "direct-mcq-60",
-        "direct-mcq-64",
-        "direct-mcq-59"
+        "direct-mcq-40",
+        "direct-mcq-70",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「Direct」指「直接投資 finance」。",
       "sentenceIndex": 184,
@@ -5064,12 +4614,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-62": "本句指「直接投資 finance」。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。",
-        "direct-mcq-59": "「直接成本 accounting」與本句語境不同。"
+        "direct-mcq-62": "本句的「Direct」指「直接投資 finance」。",
+        "direct-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-62"
     },
@@ -5081,11 +4629,9 @@ export default {
       "masked": "The country attracted more foreign ____ investment.",
       "options": [
         "direct-mcq-63",
-        "direct-mcq-62",
-        "direct-mcq-64",
-        "direct-mcq-61",
-        "direct-mcq-65",
-        "direct-mcq-60"
+        "direct-mcq-72",
+        "direct-mcq-16",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「外商直接投資 finance」。",
       "sentenceIndex": 185,
@@ -5094,12 +4640,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-63": "本句指「外商直接投資 finance」。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。",
-        "direct-mcq-60": "「直接人工 accounting」與本句語境不同。"
+        "direct-mcq-63": "本句的「direct」指「外商直接投資 finance」。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-63"
     },
@@ -5111,11 +4655,9 @@ export default {
       "masked": "Email is often used for ____ marketing.",
       "options": [
         "direct-mcq-64",
-        "direct-mcq-63",
-        "direct-mcq-65",
-        "direct-mcq-62",
-        "direct-mcq-66",
-        "direct-mcq-61"
+        "direct-mcq-16",
+        "direct-mcq-44",
+        "direct-mcq-38"
       ],
       "explanation": "本句的「direct」指「直接營銷 marketing」。",
       "sentenceIndex": 186,
@@ -5124,12 +4666,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-64": "本句指「直接營銷 marketing」。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。"
+        "direct-mcq-64": "本句的「direct」指「直接營銷 marketing」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-64"
     },
@@ -5141,11 +4681,9 @@ export default {
       "masked": "____ marketing communicates with customers without relying only on broad mass advertising.",
       "options": [
         "direct-mcq-64",
-        "direct-mcq-63",
-        "direct-mcq-65",
-        "direct-mcq-62",
-        "direct-mcq-66",
-        "direct-mcq-61"
+        "direct-mcq-38",
+        "direct-mcq-72",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「Direct」指「直接營銷 marketing」。",
       "sentenceIndex": 187,
@@ -5154,12 +4692,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-64": "本句指「直接營銷 marketing」。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-61": "「直接材料 accounting」與本句語境不同。"
+        "direct-mcq-64": "本句的「Direct」指「直接營銷 marketing」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-64"
     },
@@ -5171,11 +4707,9 @@ export default {
       "masked": "The company uses ____ sales rather than distributors.",
       "options": [
         "direct-mcq-65",
-        "direct-mcq-64",
-        "direct-mcq-66",
-        "direct-mcq-63",
-        "direct-mcq-67",
-        "direct-mcq-62"
+        "direct-mcq-40",
+        "direct-mcq-71",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「direct」指「直接銷售 sales」。",
       "sentenceIndex": 188,
@@ -5184,12 +4718,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-65": "本句指「直接銷售 sales」。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。"
+        "direct-mcq-65": "本句的「direct」指「直接銷售 sales」。",
+        "direct-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-65"
     },
@@ -5201,11 +4733,9 @@ export default {
       "masked": "Online stores allow more ____ sales to consumers.",
       "options": [
         "direct-mcq-65",
-        "direct-mcq-64",
-        "direct-mcq-66",
-        "direct-mcq-63",
-        "direct-mcq-67",
-        "direct-mcq-62"
+        "direct-mcq-38",
+        "direct-mcq-46",
+        "direct-mcq-71"
       ],
       "explanation": "本句的「direct」指「直接銷售 sales」。",
       "sentenceIndex": 189,
@@ -5214,12 +4744,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-65": "本句指「直接銷售 sales」。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-62": "「直接投資 finance」與本句語境不同。"
+        "direct-mcq-65": "本句的「direct」指「直接銷售 sales」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-65"
     },
@@ -5231,11 +4759,9 @@ export default {
       "masked": "The brand adopted a ____ model.",
       "options": [
         "direct-mcq-66",
-        "direct-mcq-65",
-        "direct-mcq-67",
-        "direct-mcq-64",
-        "direct-mcq-68",
-        "direct-mcq-63"
+        "direct-mcq-46",
+        "direct-mcq-16",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct-to-consumer」指「直接面向消費者 business」。",
       "sentenceIndex": 190,
@@ -5244,12 +4770,10 @@ export default {
         "direct-to-consumer"
       ],
       "optionReasons": {
-        "direct-mcq-66": "本句指「直接面向消費者 business」。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-63": "「外商直接投資 finance」與本句語境不同。"
+        "direct-mcq-66": "本句的「direct-to-consumer」指「直接面向消費者 business」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-66"
     },
@@ -5261,11 +4785,9 @@ export default {
       "masked": "In ____ democracy, citizens vote directly on certain decisions.",
       "options": [
         "direct-mcq-67",
-        "direct-mcq-66",
-        "direct-mcq-68",
-        "direct-mcq-65",
-        "direct-mcq-69",
-        "direct-mcq-64"
+        "direct-mcq-39",
+        "direct-mcq-45",
+        "direct-mcq-43"
       ],
       "explanation": "本句的「direct」指「直接民主 governance」。",
       "sentenceIndex": 193,
@@ -5274,12 +4796,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-67": "本句指「直接民主 governance」。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。"
+        "direct-mcq-67": "本句的「direct」指「直接民主 governance」。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-67"
     },
@@ -5291,11 +4811,9 @@ export default {
       "masked": "____ democracy differs from representative democracy.",
       "options": [
         "direct-mcq-67",
-        "direct-mcq-66",
-        "direct-mcq-68",
-        "direct-mcq-65",
-        "direct-mcq-69",
-        "direct-mcq-64"
+        "direct-mcq-70",
+        "direct-mcq-41",
+        "direct-mcq-39"
       ],
       "explanation": "本句的「Direct」指「直接民主 governance」。",
       "sentenceIndex": 194,
@@ -5304,12 +4822,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-67": "本句指「直接民主 governance」。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-64": "「直接營銷 marketing」與本句語境不同。"
+        "direct-mcq-67": "本句的「Direct」指「直接民主 governance」。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-67"
     },
@@ -5321,11 +4837,9 @@ export default {
       "masked": "The office is filled by ____ election.",
       "options": [
         "direct-mcq-68",
-        "direct-mcq-67",
-        "direct-mcq-69",
-        "direct-mcq-66",
-        "direct-mcq-70",
-        "direct-mcq-65"
+        "direct-mcq-45",
+        "direct-mcq-35",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「direct」指「直接選舉 governance」。",
       "sentenceIndex": 195,
@@ -5334,12 +4848,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-68": "本句指「直接選舉 governance」。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。"
+        "direct-mcq-68": "本句的「direct」指「直接選舉 governance」。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-68"
     },
@@ -5351,11 +4863,9 @@ export default {
       "masked": "Voters choose the officeholder ____.",
       "options": [
         "direct-mcq-68",
-        "direct-mcq-67",
-        "direct-mcq-69",
-        "direct-mcq-66",
-        "direct-mcq-70",
-        "direct-mcq-65"
+        "direct-mcq-71",
+        "direct-mcq-38",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「directly」指「直接選舉 governance」。",
       "sentenceIndex": 196,
@@ -5364,12 +4874,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-68": "本句指「直接選舉 governance」。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-65": "「直接銷售 sales」與本句語境不同。"
+        "direct-mcq-68": "本句的「directly」指「直接選舉 governance」。",
+        "direct-mcq-71": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-68"
     },
@@ -5381,11 +4889,9 @@ export default {
       "masked": "The group chose ____ action rather than relying only on formal lobbying.",
       "options": [
         "direct-mcq-69",
-        "direct-mcq-68",
-        "direct-mcq-70",
-        "direct-mcq-67",
-        "direct-mcq-71",
-        "direct-mcq-66"
+        "direct-mcq-44",
+        "direct-mcq-46",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「direct」指「直接行動 collective action」。",
       "sentenceIndex": 197,
@@ -5394,12 +4900,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-69": "本句指「直接行動 collective action」。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。"
+        "direct-mcq-69": "本句的「direct」指「直接行動 collective action」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-69"
     },
@@ -5411,11 +4915,9 @@ export default {
       "masked": "In labour contexts, strikes can be described as forms of ____ action.",
       "options": [
         "direct-mcq-69",
-        "direct-mcq-68",
-        "direct-mcq-70",
-        "direct-mcq-67",
-        "direct-mcq-71",
-        "direct-mcq-66"
+        "direct-mcq-42",
+        "direct-mcq-43",
+        "direct-mcq-35"
       ],
       "explanation": "本句的「direct」指「直接行動 collective action」。",
       "sentenceIndex": 198,
@@ -5424,12 +4926,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-69": "本句指「直接行動 collective action」。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。",
-        "direct-mcq-66": "「直接面向消費者 business」與本句語境不同。"
+        "direct-mcq-69": "本句的「direct」指「直接行動 collective action」。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-69"
     },
@@ -5442,10 +4942,8 @@ export default {
       "options": [
         "direct-mcq-70",
         "direct-mcq-69",
-        "direct-mcq-71",
-        "direct-mcq-68",
-        "direct-mcq-72",
-        "direct-mcq-67"
+        "direct-mcq-51",
+        "direct-mcq-24"
       ],
       "explanation": "本句的「direct」指「正比例 mathematics」。",
       "sentenceIndex": 199,
@@ -5454,12 +4952,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-70": "本句指「正比例 mathematics」。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。"
+        "direct-mcq-70": "本句的「direct」指「正比例 mathematics」。",
+        "direct-mcq-69": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-70"
     },
@@ -5471,11 +4967,9 @@ export default {
       "masked": "If one quantity doubles and the other doubles, they may be ____ proportional.",
       "options": [
         "direct-mcq-70",
-        "direct-mcq-69",
-        "direct-mcq-71",
-        "direct-mcq-68",
-        "direct-mcq-72",
-        "direct-mcq-67"
+        "direct-mcq-54",
+        "direct-mcq-29",
+        "direct-mcq-72"
       ],
       "explanation": "本句的「directly」指「正比例 mathematics」。",
       "sentenceIndex": 200,
@@ -5484,12 +4978,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-70": "本句指「正比例 mathematics」。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。",
-        "direct-mcq-67": "「直接民主 governance」與本句語境不同。"
+        "direct-mcq-70": "本句的「directly」指「正比例 mathematics」。",
+        "direct-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-70"
     },
@@ -5501,11 +4993,9 @@ export default {
       "masked": "Output is not always ____ proportional to effort.",
       "options": [
         "direct-mcq-71",
-        "direct-mcq-70",
-        "direct-mcq-72",
-        "direct-mcq-69",
-        "direct-mcq-73",
-        "direct-mcq-68"
+        "direct-mcq-56",
+        "direct-mcq-51",
+        "direct-mcq-31"
       ],
       "explanation": "本句的「directly」指「成正比 mathematics」。",
       "sentenceIndex": 201,
@@ -5514,12 +5004,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-71": "本句指「成正比 mathematics」。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。"
+        "direct-mcq-71": "本句的「directly」指「成正比 mathematics」。",
+        "direct-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-71"
     },
@@ -5531,11 +5019,9 @@ export default {
       "masked": "The variables are ____ proportional.",
       "options": [
         "direct-mcq-71",
-        "direct-mcq-70",
+        "direct-mcq-64",
         "direct-mcq-72",
-        "direct-mcq-69",
-        "direct-mcq-73",
-        "direct-mcq-68"
+        "direct-mcq-27"
       ],
       "explanation": "本句的「directly」指「成正比 mathematics」。",
       "sentenceIndex": 202,
@@ -5544,12 +5030,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-71": "本句指「成正比 mathematics」。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-68": "「直接選舉 governance」與本句語境不同。"
+        "direct-mcq-71": "本句的「directly」指「成正比 mathematics」。",
+        "direct-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-71"
     },
@@ -5561,11 +5045,9 @@ export default {
       "masked": "The witness testified during ____ examination.",
       "options": [
         "direct-mcq-72",
-        "direct-mcq-71",
-        "direct-mcq-73",
-        "direct-mcq-70",
-        "direct-mcq-74",
-        "direct-mcq-69"
+        "direct-mcq-40",
+        "direct-mcq-06",
+        "direct-mcq-24"
       ],
       "explanation": "本句的「direct」指「主問 law」。",
       "sentenceIndex": 205,
@@ -5574,12 +5056,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-72": "本句指「主問 law」。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-74": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。"
+        "direct-mcq-72": "本句的「direct」指「主問 law」。",
+        "direct-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-72"
     },
@@ -5591,11 +5071,9 @@ export default {
       "masked": "____ examination is normally conducted by the side that called the witness.",
       "options": [
         "direct-mcq-72",
-        "direct-mcq-71",
-        "direct-mcq-73",
-        "direct-mcq-70",
-        "direct-mcq-74",
-        "direct-mcq-69"
+        "direct-mcq-55",
+        "direct-mcq-43",
+        "direct-mcq-16"
       ],
       "explanation": "本句的「Direct」指「主問 law」。",
       "sentenceIndex": 206,
@@ -5604,12 +5082,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-72": "本句指「主問 law」。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-70": "「正比例 mathematics」與本句語境不同。",
-        "direct-mcq-74": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-69": "「直接行動 collective action」與本句語境不同。"
+        "direct-mcq-72": "本句的「Direct」指「主問 law」。",
+        "direct-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-72"
     },
@@ -5621,11 +5097,9 @@ export default {
       "masked": "Eyewitness testimony can sometimes constitute ____ evidence.",
       "options": [
         "direct-mcq-18",
-        "direct-mcq-17",
-        "direct-mcq-19",
         "direct-mcq-16",
-        "direct-mcq-20",
-        "direct-mcq-15"
+        "direct-mcq-51",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「direct」指「直接證據 evidential relation」。",
       "sentenceIndex": 207,
@@ -5634,12 +5108,10 @@ export default {
         "direct"
       ],
       "optionReasons": {
-        "direct-mcq-18": "本句指「直接證據 evidential relation」。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。"
+        "direct-mcq-18": "本句的「direct」指「直接證據 evidential relation」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-18"
     },
@@ -5651,11 +5123,9 @@ export default {
       "masked": "____ and circumstantial evidence are distinct evidential categories.",
       "options": [
         "direct-mcq-18",
-        "direct-mcq-17",
-        "direct-mcq-19",
-        "direct-mcq-16",
-        "direct-mcq-20",
-        "direct-mcq-15"
+        "direct-mcq-45",
+        "direct-mcq-39",
+        "direct-mcq-51"
       ],
       "explanation": "本句的「Direct」指「直接證據 evidential relation」。",
       "sentenceIndex": 208,
@@ -5664,12 +5134,10 @@ export default {
         "Direct"
       ],
       "optionReasons": {
-        "direct-mcq-18": "本句指「直接證據 evidential relation」。",
-        "direct-mcq-17": "「第一手了解 firsthand」與本句語境不同。",
-        "direct-mcq-19": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-16": "「親身經驗 firsthand」與本句語境不同。",
-        "direct-mcq-20": "「直接責任 responsibility」與本句語境不同。",
-        "direct-mcq-15": "「直接後果 effect」與本句語境不同。"
+        "direct-mcq-18": "本句的「Direct」指「直接證據 evidential relation」。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-18"
     },
@@ -5681,11 +5149,9 @@ export default {
       "masked": "She was ____ involved in the negotiations.",
       "options": [
         "direct-mcq-74",
-        "direct-mcq-73",
-        "direct-mcq-75",
-        "direct-mcq-72",
-        "direct-mcq-76",
-        "direct-mcq-71"
+        "direct-mcq-38",
+        "direct-mcq-44",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「directly」指「直接參與 involvement」。",
       "sentenceIndex": 211,
@@ -5694,12 +5160,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-74": "本句指「直接參與 involvement」。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-75": "「直接負責 responsibility」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。",
-        "direct-mcq-76": "「直接相關 relation」與本句語境不同。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。"
+        "direct-mcq-74": "本句的「directly」指「直接參與 involvement」。",
+        "direct-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-74"
     },
@@ -5711,11 +5175,9 @@ export default {
       "masked": "Not everyone was ____ involved in the decision.",
       "options": [
         "direct-mcq-74",
-        "direct-mcq-73",
-        "direct-mcq-75",
-        "direct-mcq-72",
-        "direct-mcq-76",
-        "direct-mcq-71"
+        "direct-mcq-17",
+        "direct-mcq-45",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「directly」指「直接參與 involvement」。",
       "sentenceIndex": 212,
@@ -5724,12 +5186,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-74": "本句指「直接參與 involvement」。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-75": "「直接負責 responsibility」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。",
-        "direct-mcq-76": "「直接相關 relation」與本句語境不同。",
-        "direct-mcq-71": "「成正比 mathematics」與本句語境不同。"
+        "direct-mcq-74": "本句的「directly」指「直接參與 involvement」。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-74"
     },
@@ -5741,11 +5201,9 @@ export default {
       "masked": "The manager is ____ responsible for the department.",
       "options": [
         "direct-mcq-75",
-        "direct-mcq-74",
-        "direct-mcq-76",
-        "direct-mcq-73",
-        "direct-mcq-77",
-        "direct-mcq-72"
+        "direct-mcq-44",
+        "direct-mcq-42",
+        "direct-mcq-41"
       ],
       "explanation": "本句的「directly」指「直接負責 responsibility」。",
       "sentenceIndex": 213,
@@ -5754,12 +5212,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-75": "本句指「直接負責 responsibility」。",
-        "direct-mcq-74": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-76": "「直接相關 relation」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-77": "「正對面／完全相反 position/opposition」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。"
+        "direct-mcq-75": "本句的「directly」指「直接負責 responsibility」。",
+        "direct-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-75"
     },
@@ -5771,11 +5227,9 @@ export default {
       "masked": "Who is ____ responsible for approving this?",
       "options": [
         "direct-mcq-75",
-        "direct-mcq-74",
-        "direct-mcq-76",
-        "direct-mcq-73",
-        "direct-mcq-77",
-        "direct-mcq-72"
+        "direct-mcq-46",
+        "direct-mcq-35",
+        "direct-mcq-17"
       ],
       "explanation": "本句的「directly」指「直接負責 responsibility」。",
       "sentenceIndex": 214,
@@ -5784,12 +5238,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-75": "本句指「直接負責 responsibility」。",
-        "direct-mcq-74": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-76": "「直接相關 relation」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。",
-        "direct-mcq-77": "「正對面／完全相反 position/opposition」與本句語境不同。",
-        "direct-mcq-72": "「主問 law」與本句語境不同。"
+        "direct-mcq-75": "本句的「directly」指「直接負責 responsibility」。",
+        "direct-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-75"
     },
@@ -5801,11 +5253,9 @@ export default {
       "masked": "The two issues are ____ related.",
       "options": [
         "direct-mcq-76",
-        "direct-mcq-75",
-        "direct-mcq-77",
-        "direct-mcq-74",
-        "direct-mcq-78",
-        "direct-mcq-73"
+        "direct-mcq-16",
+        "direct-mcq-35",
+        "direct-mcq-70"
       ],
       "explanation": "本句的「directly」指「直接相關 relation」。",
       "sentenceIndex": 215,
@@ -5814,12 +5264,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-76": "本句指「直接相關 relation」。",
-        "direct-mcq-75": "「直接負責 responsibility」與本句語境不同。",
-        "direct-mcq-77": "「正對面／完全相反 position/opposition」與本句語境不同。",
-        "direct-mcq-74": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-78": "「重新導向；轉送 change destination」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。"
+        "direct-mcq-76": "本句的「directly」指「直接相關 relation」。",
+        "direct-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-70": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-76"
     },
@@ -5831,11 +5279,9 @@ export default {
       "masked": "Performance is ____ related to several factors.",
       "options": [
         "direct-mcq-76",
-        "direct-mcq-75",
-        "direct-mcq-77",
-        "direct-mcq-74",
-        "direct-mcq-78",
-        "direct-mcq-73"
+        "direct-mcq-41",
+        "direct-mcq-43",
+        "direct-mcq-42"
       ],
       "explanation": "本句的「directly」指「直接相關 relation」。",
       "sentenceIndex": 216,
@@ -5844,12 +5290,10 @@ export default {
         "directly"
       ],
       "optionReasons": {
-        "direct-mcq-76": "本句指「直接相關 relation」。",
-        "direct-mcq-75": "「直接負責 responsibility」與本句語境不同。",
-        "direct-mcq-77": "「正對面／完全相反 position/opposition」與本句語境不同。",
-        "direct-mcq-74": "「直接參與 involvement」與本句語境不同。",
-        "direct-mcq-78": "「重新導向；轉送 change destination」與本句語境不同。",
-        "direct-mcq-73": "「直接地 adverb」與本句語境不同。"
+        "direct-mcq-76": "本句的「directly」指「直接相關 relation」。",
+        "direct-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "direct-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "direct-mcq-76"
     }
@@ -5861,5 +5305,7 @@ export default {
     "sha256": "cb2349c2f7abd9fa067dcde25dc397f4d66f5b0d22e4b1aad633056d9c50a315",
     "pages": 94
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

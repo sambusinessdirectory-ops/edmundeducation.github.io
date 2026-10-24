@@ -287,16 +287,27 @@ export default {
       "en": "pace — Latin scholarly use",
       "zh": "「恕我不同意／儘管某人的看法」；罕見專門用法",
       "note": "來源詞義：「恕我不同意／儘管某人的看法」；罕見專門用法",
+      "examples": [],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "pace-reviewed-a723b68240",
+      "title": "用步數量距離",
+      "form": "pace · source section 12",
+      "en": "用步數量距離",
+      "zh": "用步數量距離",
+      "note": "對照原始教材第 12 節及例句核實。",
       "examples": [
         [
           "He paced out the length of the room.",
           "他用步數量出房間的長度。",
-          "「恕我不同意／儘管某人的看法」；罕見專門用法"
+          "用步數量距離"
         ],
         [
           "She paced off twenty metres.",
           "她用步伐估量出大約二十米。",
-          "「恕我不同意／儘管某人的看法」；罕見專門用法"
+          "用步數量距離"
         ]
       ],
       "options": [],
@@ -312,11 +323,9 @@ export default {
       "masked": "Sometimes I need a break from the ____ of daily life.",
       "options": [
         "pace-mcq-01",
-        "pace-mcq-02",
-        "pace-mcq-03",
-        "pace-mcq-04",
         "pace-mcq-05",
-        "pace-mcq-06"
+        "pace-mcq-06",
+        "pace-mcq-04"
       ],
       "explanation": "本句的「pace」指「人、活動、生活、工作或過程向前推進的速度／步調」。",
       "sentenceIndex": 0,
@@ -325,12 +334,10 @@ export default {
         "pace"
       ],
       "optionReasons": {
-        "pace-mcq-01": "本句指「人、活動、生活、工作或過程向前推進的速度／步調」。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-01": "本句的「pace」指「人、活動、生活、工作或過程向前推進的速度／步調」。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-01"
     },
@@ -342,11 +349,9 @@ export default {
       "masked": "The project is moving at a very fast ____.",
       "options": [
         "pace-mcq-01",
-        "pace-mcq-02",
-        "pace-mcq-03",
-        "pace-mcq-04",
-        "pace-mcq-05",
-        "pace-mcq-06"
+        "pace-mcq-06",
+        "pace-reviewed-a723b68240",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「pace」指「人、活動、生活、工作或過程向前推進的速度／步調」。",
       "sentenceIndex": 1,
@@ -355,12 +360,10 @@ export default {
         "pace"
       ],
       "optionReasons": {
-        "pace-mcq-01": "本句指「人、活動、生活、工作或過程向前推進的速度／步調」。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-01": "本句的「pace」指「人、活動、生活、工作或過程向前推進的速度／步調」。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-reviewed-a723b68240": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-01"
     },
@@ -372,8 +375,6 @@ export default {
       "masked": "I prefer to work at my own ____.",
       "options": [
         "pace-mcq-01",
-        "pace-mcq-02",
-        "pace-mcq-03",
         "pace-mcq-04",
         "pace-mcq-05",
         "pace-mcq-06"
@@ -385,12 +386,10 @@ export default {
         "pace"
       ],
       "optionReasons": {
-        "pace-mcq-01": "本句指「人、活動、生活、工作或過程向前推進的速度／步調」。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-01": "本句的「pace」指「人、活動、生活、工作或過程向前推進的速度／步調」。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-01"
     },
@@ -402,11 +401,9 @@ export default {
       "masked": "She walked at a brisk ____.",
       "options": [
         "pace-mcq-02",
-        "pace-mcq-01",
-        "pace-mcq-03",
-        "pace-mcq-04",
-        "pace-mcq-05",
-        "pace-mcq-06"
+        "pace-mcq-06",
+        "pace-reviewed-a723b68240",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「pace」指「行走或跑步的速度」。",
       "sentenceIndex": 3,
@@ -415,12 +412,10 @@ export default {
         "pace"
       ],
       "optionReasons": {
-        "pace-mcq-02": "本句指「行走或跑步的速度」。",
-        "pace-mcq-01": "「人、活動、生活、工作或過程向前推進的速度／步調」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-02": "本句的「pace」指「行走或跑步的速度」。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-reviewed-a723b68240": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-02"
     },
@@ -432,11 +427,9 @@ export default {
       "masked": "He increased his ____ near the finish.",
       "options": [
         "pace-mcq-02",
-        "pace-mcq-01",
-        "pace-mcq-03",
-        "pace-mcq-04",
-        "pace-mcq-05",
-        "pace-mcq-06"
+        "pace-mcq-06",
+        "pace-reviewed-a723b68240",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「pace」指「行走或跑步的速度」。",
       "sentenceIndex": 4,
@@ -445,12 +438,10 @@ export default {
         "pace"
       ],
       "optionReasons": {
-        "pace-mcq-02": "本句指「行走或跑步的速度」。",
-        "pace-mcq-01": "「人、活動、生活、工作或過程向前推進的速度／步調」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-02": "本句的「pace」指「行走或跑步的速度」。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-reviewed-a723b68240": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-02"
     },
@@ -462,11 +453,9 @@ export default {
       "masked": "He took a few ____ toward the door.",
       "options": [
         "pace-mcq-04",
-        "pace-mcq-03",
+        "pace-mcq-09",
         "pace-mcq-05",
-        "pace-mcq-02",
-        "pace-mcq-06",
-        "pace-mcq-01"
+        "pace-mcq-06"
       ],
       "explanation": "本句的「paces」指「行走時的一步／一步的距離」。",
       "sentenceIndex": 7,
@@ -475,12 +464,10 @@ export default {
         "paces"
       ],
       "optionReasons": {
-        "pace-mcq-04": "本句指「行走時的一步／一步的距離」。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-01": "「人、活動、生活、工作或過程向前推進的速度／步調」與本句語境不同。"
+        "pace-mcq-04": "本句的「paces」指「行走時的一步／一步的距離」。",
+        "pace-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-04"
     },
@@ -492,11 +479,9 @@ export default {
       "masked": "She stood ten ____ away.",
       "options": [
         "pace-mcq-04",
-        "pace-mcq-03",
+        "pace-mcq-14",
         "pace-mcq-05",
-        "pace-mcq-02",
-        "pace-mcq-06",
-        "pace-mcq-01"
+        "pace-mcq-06"
       ],
       "explanation": "本句的「paces」指「行走時的一步／一步的距離」。",
       "sentenceIndex": 8,
@@ -505,12 +490,10 @@ export default {
         "paces"
       ],
       "optionReasons": {
-        "pace-mcq-04": "本句指「行走時的一步／一步的距離」。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-01": "「人、活動、生活、工作或過程向前推進的速度／步調」與本句語境不同。"
+        "pace-mcq-04": "本句的「paces」指「行走時的一步／一步的距離」。",
+        "pace-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-04"
     },
@@ -522,11 +505,9 @@ export default {
       "masked": "The tree was about twenty ____ from the house.",
       "options": [
         "pace-mcq-04",
-        "pace-mcq-03",
-        "pace-mcq-05",
-        "pace-mcq-02",
+        "pace-mcq-08",
         "pace-mcq-06",
-        "pace-mcq-01"
+        "pace-mcq-13"
       ],
       "explanation": "本句的「paces」指「行走時的一步／一步的距離」。",
       "sentenceIndex": 9,
@@ -535,12 +516,10 @@ export default {
         "paces"
       ],
       "optionReasons": {
-        "pace-mcq-04": "本句指「行走時的一步／一步的距離」。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-01": "「人、活動、生活、工作或過程向前推進的速度／步調」與本句語境不同。"
+        "pace-mcq-04": "本句的「paces」指「行走時的一步／一步的距離」。",
+        "pace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-04"
     },
@@ -552,11 +531,9 @@ export default {
       "masked": "The horse moved into a ____.",
       "options": [
         "pace-mcq-05",
+        "pace-mcq-09",
         "pace-mcq-04",
-        "pace-mcq-06",
-        "pace-mcq-03",
-        "pace-mcq-07",
-        "pace-mcq-02"
+        "pace-mcq-06"
       ],
       "explanation": "本句的「pace」指「馬的一種特定側對步步法；專門」。",
       "sentenceIndex": 12,
@@ -565,12 +542,10 @@ export default {
         "pace"
       ],
       "optionReasons": {
-        "pace-mcq-05": "本句指「馬的一種特定側對步步法；專門」。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-02": "「行走或跑步的速度」與本句語境不同。"
+        "pace-mcq-05": "本句的「pace」指「馬的一種特定側對步步法；專門」。",
+        "pace-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-05"
     },
@@ -582,11 +557,9 @@ export default {
       "masked": "He ____ the room while waiting for the call.",
       "options": [
         "pace-mcq-06",
-        "pace-mcq-05",
-        "pace-mcq-07",
-        "pace-mcq-04",
         "pace-mcq-08",
-        "pace-mcq-03"
+        "pace-mcq-04",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「paced」指「在某處來回踱步」。",
       "sentenceIndex": 13,
@@ -595,12 +568,10 @@ export default {
         "paced"
       ],
       "optionReasons": {
-        "pace-mcq-06": "本句指「在某處來回踱步」。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。"
+        "pace-mcq-06": "本句的「paced」指「在某處來回踱步」。",
+        "pace-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-06"
     },
@@ -612,11 +583,9 @@ export default {
       "masked": "She was ____ up and down outside.",
       "options": [
         "pace-mcq-06",
-        "pace-mcq-05",
-        "pace-mcq-07",
+        "pace-mcq-14",
         "pace-mcq-04",
-        "pace-mcq-08",
-        "pace-mcq-03"
+        "pace-mcq-05"
       ],
       "explanation": "本句的「pacing」指「在某處來回踱步」。",
       "sentenceIndex": 14,
@@ -625,12 +594,10 @@ export default {
         "pacing"
       ],
       "optionReasons": {
-        "pace-mcq-06": "本句指「在某處來回踱步」。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-03": "「故事、電影、課堂等推進的節奏」與本句語境不同。"
+        "pace-mcq-06": "本句的「pacing」指「在某處來回踱步」。",
+        "pace-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-06"
     },
@@ -642,11 +609,9 @@ export default {
       "masked": "She ____ the race perfectly.",
       "options": [
         "pace-mcq-07",
-        "pace-mcq-06",
-        "pace-mcq-08",
+        "pace-reviewed-a723b68240",
         "pace-mcq-05",
-        "pace-mcq-09",
-        "pace-mcq-04"
+        "pace-mcq-06"
       ],
       "explanation": "本句的「paced」指「控制活動、比賽或表演進行的速度」。",
       "sentenceIndex": 15,
@@ -655,12 +620,10 @@ export default {
         "paced"
       ],
       "optionReasons": {
-        "pace-mcq-07": "本句指「控制活動、比賽或表演進行的速度」。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-09": "「跟上某人的速度或某事的發展進度」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。"
+        "pace-mcq-07": "本句的「paced」指「控制活動、比賽或表演進行的速度」。",
+        "pace-reviewed-a723b68240": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-07"
     },
@@ -672,11 +635,9 @@ export default {
       "masked": "The teacher ____ the lesson carefully.",
       "options": [
         "pace-mcq-07",
-        "pace-mcq-06",
-        "pace-mcq-08",
         "pace-mcq-05",
-        "pace-mcq-09",
-        "pace-mcq-04"
+        "pace-mcq-06",
+        "pace-reviewed-a723b68240"
       ],
       "explanation": "本句的「paced」指「控制活動、比賽或表演進行的速度」。",
       "sentenceIndex": 16,
@@ -685,12 +646,10 @@ export default {
         "paced"
       ],
       "optionReasons": {
-        "pace-mcq-07": "本句指「控制活動、比賽或表演進行的速度」。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。",
-        "pace-mcq-09": "「跟上某人的速度或某事的發展進度」與本句語境不同。",
-        "pace-mcq-04": "「行走時的一步／一步的距離」與本句語境不同。"
+        "pace-mcq-07": "本句的「paced」指「控制活動、比賽或表演進行的速度」。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-reviewed-a723b68240": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-07"
     },
@@ -702,11 +661,9 @@ export default {
       "masked": "You need to ____ during a long exam.",
       "options": [
         "pace-mcq-08",
-        "pace-mcq-07",
-        "pace-mcq-09",
         "pace-mcq-06",
-        "pace-mcq-10",
-        "pace-mcq-05"
+        "pace-mcq-05",
+        "pace-mcq-04"
       ],
       "explanation": "本句的「pace yourself」指「控制自己的速度、體力或工作量，避免過早疲累」。",
       "sentenceIndex": 17,
@@ -715,12 +672,10 @@ export default {
         "pace yourself"
       ],
       "optionReasons": {
-        "pace-mcq-08": "本句指「控制自己的速度、體力或工作量，避免過早疲累」。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-09": "「跟上某人的速度或某事的發展進度」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。"
+        "pace-mcq-08": "本句的「pace yourself」指「控制自己的速度、體力或工作量，避免過早疲累」。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-08"
     },
@@ -732,11 +687,9 @@ export default {
       "masked": "Don’t work too hard at the beginning—____.",
       "options": [
         "pace-mcq-08",
-        "pace-mcq-07",
-        "pace-mcq-09",
         "pace-mcq-06",
-        "pace-mcq-10",
-        "pace-mcq-05"
+        "pace-mcq-05",
+        "pace-mcq-04"
       ],
       "explanation": "本句的「pace yourself」指「控制自己的速度、體力或工作量，避免過早疲累」。",
       "sentenceIndex": 18,
@@ -745,74 +698,68 @@ export default {
         "pace yourself"
       ],
       "optionReasons": {
-        "pace-mcq-08": "本句指「控制自己的速度、體力或工作量，避免過早疲累」。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-09": "「跟上某人的速度或某事的發展進度」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。",
-        "pace-mcq-05": "「馬的一種特定側對步步法；專門」與本句語境不同。"
+        "pace-mcq-08": "本句的「pace yourself」指「控制自己的速度、體力或工作量，避免過早疲累」。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-08"
     },
     {
       "id": "pace-12-0",
-      "sense": "pace-mcq-15",
+      "sense": "pace-reviewed-a723b68240",
       "en": "He paced out the length of the room.",
       "zh": "他用步數量出房間的長度。",
       "masked": "He ____ the length of the room.",
       "options": [
-        "pace-mcq-15",
+        "pace-reviewed-a723b68240",
         "pace-mcq-14",
         "pace-mcq-13",
-        "pace-mcq-12",
-        "pace-mcq-11",
-        "pace-mcq-10"
+        "pace-mcq-06"
       ],
-      "explanation": "本句的「paced out」指「「恕我不同意／儘管某人的看法」；罕見專門用法」。",
+      "explanation": "對照完整句子：「他用步數量出房間的長度。」。這裡的「paced out」表示「用步數量距離」。",
       "sentenceIndex": 20,
       "sourcePractice": 21,
       "targets": [
         "paced out"
       ],
       "optionReasons": {
-        "pace-mcq-15": "本句指「「恕我不同意／儘管某人的看法」；罕見專門用法」。",
-        "pace-mcq-14": "「快速的；節奏明快的」與本句語境不同。",
-        "pace-mcq-13": "「配速員；亦可指特定步態的馬」與本句語境不同。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。"
+        "pace-reviewed-a723b68240": "對照完整句子：「他用步數量出房間的長度。」。這裡的「paced out」表示「用步數量距離」。",
+        "pace-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pace-mcq-15"
+      "correctOption": "pace-reviewed-a723b68240",
+      "previousCorrectOption": "pace-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pace-12-1",
-      "sense": "pace-mcq-15",
+      "sense": "pace-reviewed-a723b68240",
       "en": "She paced off twenty metres.",
       "zh": "她用步伐估量出大約二十米。",
       "masked": "She ____ twenty metres.",
       "options": [
-        "pace-mcq-15",
-        "pace-mcq-14",
-        "pace-mcq-13",
-        "pace-mcq-12",
-        "pace-mcq-11",
-        "pace-mcq-10"
+        "pace-reviewed-a723b68240",
+        "pace-mcq-09",
+        "pace-mcq-06",
+        "pace-mcq-13"
       ],
-      "explanation": "本句的「paced off」指「「恕我不同意／儘管某人的看法」；罕見專門用法」。",
+      "explanation": "對照完整句子：「她用步伐估量出大約二十米。」。這裡的「paced off」表示「用步數量距離」。",
       "sentenceIndex": 21,
       "sourcePractice": 22,
       "targets": [
         "paced off"
       ],
       "optionReasons": {
-        "pace-mcq-15": "本句指「「恕我不同意／儘管某人的看法」；罕見專門用法」。",
-        "pace-mcq-14": "「快速的；節奏明快的」與本句語境不同。",
-        "pace-mcq-13": "「配速員；亦可指特定步態的馬」與本句語境不同。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。"
+        "pace-reviewed-a723b68240": "對照完整句子：「她用步伐估量出大約二十米。」。這裡的「paced off」表示「用步數量距離」。",
+        "pace-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "pace-mcq-15"
+      "correctOption": "pace-reviewed-a723b68240",
+      "previousCorrectOption": "pace-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "pace-12-2",
@@ -822,11 +769,9 @@ export default {
       "masked": "Businesses must keep ____ technological change.",
       "options": [
         "pace-mcq-09",
-        "pace-mcq-08",
-        "pace-mcq-10",
-        "pace-mcq-07",
-        "pace-mcq-11",
-        "pace-mcq-06"
+        "pace-mcq-04",
+        "pace-mcq-06",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「pace with」指「跟上某人的速度或某事的發展進度」。",
       "sentenceIndex": 22,
@@ -835,12 +780,10 @@ export default {
         "pace with"
       ],
       "optionReasons": {
-        "pace-mcq-09": "本句指「跟上某人的速度或某事的發展進度」。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-09": "本句的「pace with」指「跟上某人的速度或某事的發展進度」。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-09"
     },
@@ -852,11 +795,9 @@ export default {
       "masked": "I struggled to keep ____ the group.",
       "options": [
         "pace-mcq-09",
-        "pace-mcq-08",
-        "pace-mcq-10",
-        "pace-mcq-07",
-        "pace-mcq-11",
-        "pace-mcq-06"
+        "pace-mcq-04",
+        "pace-mcq-06",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「pace with」指「跟上某人的速度或某事的發展進度」。",
       "sentenceIndex": 23,
@@ -865,12 +806,10 @@ export default {
         "pace with"
       ],
       "optionReasons": {
-        "pace-mcq-09": "本句指「跟上某人的速度或某事的發展進度」。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-06": "「在某處來回踱步」與本句語境不同。"
+        "pace-mcq-09": "本句的「pace with」指「跟上某人的速度或某事的發展進度」。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-09"
     },
@@ -882,11 +821,9 @@ export default {
       "masked": "The fastest runner ____.",
       "options": [
         "pace-mcq-10",
-        "pace-mcq-09",
-        "pace-mcq-11",
-        "pace-mcq-08",
-        "pace-mcq-12",
-        "pace-mcq-07"
+        "pace-mcq-04",
+        "pace-mcq-06",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「set the pace」指「定下其他人跟隨的速度或標準」。",
       "sentenceIndex": 24,
@@ -895,12 +832,10 @@ export default {
         "set the pace"
       ],
       "optionReasons": {
-        "pace-mcq-10": "本句指「定下其他人跟隨的速度或標準」。",
-        "pace-mcq-09": "「跟上某人的速度或某事的發展進度」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。"
+        "pace-mcq-10": "本句的「set the pace」指「定下其他人跟隨的速度或標準」。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-10"
     },
@@ -912,11 +847,9 @@ export default {
       "masked": "The company has ____ for innovation.",
       "options": [
         "pace-mcq-10",
-        "pace-mcq-09",
-        "pace-mcq-11",
-        "pace-mcq-08",
-        "pace-mcq-12",
-        "pace-mcq-07"
+        "pace-mcq-04",
+        "pace-mcq-06",
+        "pace-mcq-05"
       ],
       "explanation": "本句的「set the pace」指「定下其他人跟隨的速度或標準」。",
       "sentenceIndex": 25,
@@ -925,12 +858,10 @@ export default {
         "set the pace"
       ],
       "optionReasons": {
-        "pace-mcq-10": "本句指「定下其他人跟隨的速度或標準」。",
-        "pace-mcq-09": "「跟上某人的速度或某事的發展進度」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-08": "「控制自己的速度、體力或工作量，避免過早疲累」與本句語境不同。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-07": "「控制活動、比賽或表演進行的速度」與本句語境不同。"
+        "pace-mcq-10": "本句的「set the pace」指「定下其他人跟隨的速度或標準」。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-10"
     },
@@ -942,11 +873,9 @@ export default {
       "masked": "The runner used a ____ to maintain his target speed.",
       "options": [
         "pace-mcq-13",
-        "pace-mcq-12",
         "pace-mcq-14",
-        "pace-mcq-11",
-        "pace-mcq-15",
-        "pace-mcq-10"
+        "pace-reviewed-a723b68240",
+        "pace-mcq-06"
       ],
       "explanation": "本句的「pacer」指「配速員；亦可指特定步態的馬」。",
       "sentenceIndex": 30,
@@ -955,12 +884,10 @@ export default {
         "pacer"
       ],
       "optionReasons": {
-        "pace-mcq-13": "本句指「配速員；亦可指特定步態的馬」。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-14": "「快速的；節奏明快的」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-15": "「「恕我不同意／儘管某人的看法」；罕見專門用法」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。"
+        "pace-mcq-13": "本句的「pacer」指「配速員；亦可指特定步態的馬」。",
+        "pace-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pace-reviewed-a723b68240": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-13"
     },
@@ -972,11 +899,9 @@ export default {
       "masked": "It is a ____ thriller.",
       "options": [
         "pace-mcq-14",
-        "pace-mcq-13",
-        "pace-mcq-15",
-        "pace-mcq-12",
-        "pace-mcq-11",
-        "pace-mcq-10"
+        "pace-mcq-05",
+        "pace-mcq-06",
+        "pace-mcq-04"
       ],
       "explanation": "本句的「pacy」指「快速的；節奏明快的」。",
       "sentenceIndex": 31,
@@ -985,12 +910,10 @@ export default {
         "pacy"
       ],
       "optionReasons": {
-        "pace-mcq-14": "本句指「快速的；節奏明快的」。",
-        "pace-mcq-13": "「配速員；亦可指特定步態的馬」與本句語境不同。",
-        "pace-mcq-15": "「「恕我不同意／儘管某人的看法」；罕見專門用法」與本句語境不同。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。"
+        "pace-mcq-14": "本句的「pacy」指「快速的；節奏明快的」。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-14"
     },
@@ -1002,11 +925,9 @@ export default {
       "masked": "He is a ____ winger.",
       "options": [
         "pace-mcq-14",
-        "pace-mcq-13",
-        "pace-mcq-15",
-        "pace-mcq-12",
-        "pace-mcq-11",
-        "pace-mcq-10"
+        "pace-mcq-05",
+        "pace-mcq-04",
+        "pace-mcq-06"
       ],
       "explanation": "本句的「pacey」指「快速的；節奏明快的」。",
       "sentenceIndex": 32,
@@ -1015,12 +936,10 @@ export default {
         "pacey"
       ],
       "optionReasons": {
-        "pace-mcq-14": "本句指「快速的；節奏明快的」。",
-        "pace-mcq-13": "「配速員；亦可指特定步態的馬」與本句語境不同。",
-        "pace-mcq-15": "「「恕我不同意／儘管某人的看法」；罕見專門用法」與本句語境不同。",
-        "pace-mcq-12": "「透過一系列任務全面測試能力或性能」與本句語境不同。",
-        "pace-mcq-11": "「改變平常節奏；換換活動／環境」與本句語境不同。",
-        "pace-mcq-10": "「定下其他人跟隨的速度或標準」與本句語境不同。"
+        "pace-mcq-14": "本句的「pacey」指「快速的；節奏明快的」。",
+        "pace-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pace-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pace-mcq-14"
     }
@@ -1032,5 +951,7 @@ export default {
     "sha256": "47a486be30a9d8f52a95f8537810f1d18ceaabdbf20898ecec702581c1ac74a2",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

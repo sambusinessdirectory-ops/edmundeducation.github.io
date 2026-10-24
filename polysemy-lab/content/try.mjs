@@ -220,7 +220,7 @@ export default {
     },
     {
       "id": "try-mcq-11",
-      "title": "表示看穿對方的企圖；「想得美／這招沒用」",
+      "title": "看穿對方的企圖；「想得美／這招沒用」",
       "form": "nice try — sarcastic",
       "en": "nice try — sarcastic",
       "zh": "表示看穿對方的企圖；「想得美／這招沒用」",
@@ -360,11 +360,9 @@ export default {
       "masked": "I use the headphones when I am ____.",
       "options": [
         "try-mcq-01",
-        "try-mcq-02",
+        "try-mcq-17",
         "try-mcq-03",
-        "try-mcq-04",
-        "try-mcq-05",
-        "try-mcq-06"
+        "try-mcq-05"
       ],
       "explanation": "本句的「trying to focus」指「作出努力，希望成功完成某個行動或達到某個目標」。",
       "sentenceIndex": 0,
@@ -373,12 +371,10 @@ export default {
         "trying to focus"
       ],
       "optionReasons": {
-        "try-mcq-01": "本句指「作出努力，希望成功完成某個行動或達到某個目標」。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-01": "本句的「trying to focus」指「作出努力，希望成功完成某個行動或達到某個目標」。",
+        "try-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-01"
     },
@@ -390,11 +386,9 @@ export default {
       "masked": "I’m ____ the report before lunch.",
       "options": [
         "try-mcq-01",
-        "try-mcq-02",
+        "try-mcq-17",
         "try-mcq-03",
-        "try-mcq-04",
-        "try-mcq-05",
-        "try-mcq-06"
+        "try-mcq-05"
       ],
       "explanation": "本句的「trying to finish」指「作出努力，希望成功完成某個行動或達到某個目標」。",
       "sentenceIndex": 1,
@@ -403,12 +397,10 @@ export default {
         "trying to finish"
       ],
       "optionReasons": {
-        "try-mcq-01": "本句指「作出努力，希望成功完成某個行動或達到某個目標」。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-01": "本句的「trying to finish」指「作出努力，希望成功完成某個行動或達到某個目標」。",
+        "try-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-01"
     },
@@ -420,11 +412,9 @@ export default {
       "masked": "She ____ the door, but it was locked.",
       "options": [
         "try-mcq-01",
-        "try-mcq-02",
-        "try-mcq-03",
         "try-mcq-04",
-        "try-mcq-05",
-        "try-mcq-06"
+        "try-mcq-06",
+        "try-mcq-05"
       ],
       "explanation": "本句的「tried to open」指「作出努力，希望成功完成某個行動或達到某個目標」。",
       "sentenceIndex": 2,
@@ -433,12 +423,10 @@ export default {
         "tried to open"
       ],
       "optionReasons": {
-        "try-mcq-01": "本句指「作出努力，希望成功完成某個行動或達到某個目標」。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-01": "本句的「tried to open」指「作出努力，希望成功完成某個行動或達到某個目標」。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-01"
     },
@@ -450,10 +438,8 @@ export default {
       "masked": "If you can’t focus, ____ to some quiet music.",
       "options": [
         "try-mcq-02",
+        "try-mcq-12",
         "try-mcq-01",
-        "try-mcq-03",
-        "try-mcq-04",
-        "try-mcq-05",
         "try-mcq-06"
       ],
       "explanation": "本句的「try listening」指「把某種做法當成一個可能的解決方法，實際試試看效果」。",
@@ -463,12 +449,10 @@ export default {
         "try listening"
       ],
       "optionReasons": {
-        "try-mcq-02": "本句指「把某種做法當成一個可能的解決方法，實際試試看效果」。",
-        "try-mcq-01": "「作出努力，希望成功完成某個行動或達到某個目標」是「try to + verb」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-02": "本句的「try listening」指「把某種做法當成一個可能的解決方法，實際試試看效果」。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-02"
     },
@@ -480,11 +464,9 @@ export default {
       "masked": "____ the computer.",
       "options": [
         "try-mcq-02",
-        "try-mcq-01",
-        "try-mcq-03",
-        "try-mcq-04",
-        "try-mcq-05",
-        "try-mcq-06"
+        "try-mcq-12",
+        "try-mcq-06",
+        "try-mcq-05"
       ],
       "explanation": "本句的「Try restarting」指「把某種做法當成一個可能的解決方法，實際試試看效果」。",
       "sentenceIndex": 4,
@@ -493,12 +475,10 @@ export default {
         "Try restarting"
       ],
       "optionReasons": {
-        "try-mcq-02": "本句指「把某種做法當成一個可能的解決方法，實際試試看效果」。",
-        "try-mcq-01": "「作出努力，希望成功完成某個行動或達到某個目標」是「try to + verb」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-02": "本句的「Try restarting」指「把某種做法當成一個可能的解決方法，實際試試看效果」。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-02"
     },
@@ -510,11 +490,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "try-mcq-03",
-        "try-mcq-02",
-        "try-mcq-04",
         "try-mcq-01",
-        "try-mcq-05",
-        "try-mcq-06"
+        "try-mcq-15",
+        "try-mcq-05"
       ],
       "explanation": "本句的「try this dessert」指「親自使用、品嚐或體驗某物，以了解效果或感受」。",
       "sentenceIndex": 5,
@@ -523,12 +501,10 @@ export default {
         "try this dessert"
       ],
       "optionReasons": {
-        "try-mcq-03": "本句指「親自使用、品嚐或體驗某物，以了解效果或感受」。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-01": "「作出努力，希望成功完成某個行動或達到某個目標」是「try to + verb」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-03": "本句的「try this dessert」指「親自使用、品嚐或體驗某物，以了解效果或感受」。",
+        "try-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-03"
     },
@@ -540,11 +516,9 @@ export default {
       "masked": "I’d like to ____ before buying them.",
       "options": [
         "try-mcq-03",
-        "try-mcq-02",
-        "try-mcq-04",
-        "try-mcq-01",
-        "try-mcq-05",
-        "try-mcq-06"
+        "try-mcq-07",
+        "try-mcq-06",
+        "try-mcq-04"
       ],
       "explanation": "本句的「try the new headphones」指「親自使用、品嚐或體驗某物，以了解效果或感受」。",
       "sentenceIndex": 6,
@@ -553,12 +527,10 @@ export default {
         "try the new headphones"
       ],
       "optionReasons": {
-        "try-mcq-03": "本句指「親自使用、品嚐或體驗某物，以了解效果或感受」。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-01": "「作出努力，希望成功完成某個行動或達到某個目標」是「try to + verb」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-03": "本句的「try the new headphones」指「親自使用、品嚐或體驗某物，以了解效果或感受」。",
+        "try-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-03"
     },
@@ -570,11 +542,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "try-mcq-04",
-        "try-mcq-03",
-        "try-mcq-05",
-        "try-mcq-02",
-        "try-mcq-06",
-        "try-mcq-01"
+        "try-mcq-07",
+        "try-mcq-09",
+        "try-mcq-12"
       ],
       "explanation": "本句的「tried several different methods」指「實際採用某種方法，看看是否有效」。",
       "sentenceIndex": 7,
@@ -583,12 +553,10 @@ export default {
         "tried several different methods"
       ],
       "optionReasons": {
-        "try-mcq-04": "本句指「實際採用某種方法，看看是否有效」。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-01": "「作出努力，希望成功完成某個行動或達到某個目標」是「try to + verb」的用法，與本句語境不同。"
+        "try-mcq-04": "本句的「tried several different methods」指「實際採用某種方法，看看是否有效」。",
+        "try-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-04"
     },
@@ -600,11 +568,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "try-mcq-04",
-        "try-mcq-03",
+        "try-mcq-01",
         "try-mcq-05",
-        "try-mcq-02",
-        "try-mcq-06",
-        "try-mcq-01"
+        "try-mcq-12"
       ],
       "explanation": "本句的「try a different approach」指「實際採用某種方法，看看是否有效」。",
       "sentenceIndex": 8,
@@ -613,12 +579,10 @@ export default {
         "try a different approach"
       ],
       "optionReasons": {
-        "try-mcq-04": "本句指「實際採用某種方法，看看是否有效」。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-01": "「作出努力，希望成功完成某個行動或達到某個目標」是「try to + verb」的用法，與本句語境不同。"
+        "try-mcq-04": "本句的「try a different approach」指「實際採用某種方法，看看是否有效」。",
+        "try-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-04"
     },
@@ -630,10 +594,8 @@ export default {
       "masked": "____ and see if it works.",
       "options": [
         "try-mcq-17",
-        "try-mcq-16",
-        "try-mcq-15",
-        "try-mcq-14",
-        "try-mcq-13",
+        "try-mcq-01",
+        "try-mcq-03",
         "try-mcq-12"
       ],
       "explanation": "本句的「Try the button」指「實際測試某件物品或方法，看看它能否正常運作／是否合適」。",
@@ -643,12 +605,10 @@ export default {
         "Try the button"
       ],
       "optionReasons": {
-        "try-mcq-17": "本句指「實際測試某件物品或方法，看看它能否正常運作／是否合適」。",
-        "try-mcq-16": "「與測試、試用或正式審訊有關的名詞」是「trial — family extension」的用法，與本句語境不同。",
-        "try-mcq-15": "「欖球中把球合法壓入對方得分區所得的達陣」是「try — rugby」的用法，與本句語境不同。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。"
+        "try-mcq-17": "本句的「Try the button」指「實際測試某件物品或方法，看看它能否正常運作／是否合適」。",
+        "try-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-17"
     },
@@ -660,11 +620,9 @@ export default {
       "masked": "She ____, but it didn’t fit.",
       "options": [
         "try-mcq-17",
-        "try-mcq-16",
-        "try-mcq-15",
-        "try-mcq-14",
-        "try-mcq-13",
-        "try-mcq-12"
+        "try-mcq-09",
+        "try-mcq-12",
+        "try-mcq-05"
       ],
       "explanation": "本句的「tried the key」指「實際測試某件物品或方法，看看它能否正常運作／是否合適」。",
       "sentenceIndex": 10,
@@ -673,12 +631,10 @@ export default {
         "tried the key"
       ],
       "optionReasons": {
-        "try-mcq-17": "本句指「實際測試某件物品或方法，看看它能否正常運作／是否合適」。",
-        "try-mcq-16": "「與測試、試用或正式審訊有關的名詞」是「trial — family extension」的用法，與本句語境不同。",
-        "try-mcq-15": "「欖球中把球合法壓入對方得分區所得的達陣」是「try — rugby」的用法，與本句語境不同。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。"
+        "try-mcq-17": "本句的「tried the key」指「實際測試某件物品或方法，看看它能否正常運作／是否合適」。",
+        "try-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-17"
     },
@@ -690,11 +646,9 @@ export default {
       "masked": "I called his office, but no one answered, so I ____.",
       "options": [
         "try-mcq-05",
+        "try-mcq-15",
         "try-mcq-04",
-        "try-mcq-06",
-        "try-mcq-03",
-        "try-mcq-07",
-        "try-mcq-02"
+        "try-mcq-12"
       ],
       "explanation": "本句的「tried his mobile」指「嘗試透過某個人、地方或聯絡方式取得聯繫」。",
       "sentenceIndex": 11,
@@ -703,12 +657,10 @@ export default {
         "tried his mobile"
       ],
       "optionReasons": {
-        "try-mcq-05": "本句指「嘗試透過某個人、地方或聯絡方式取得聯繫」。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。"
+        "try-mcq-05": "本句的「tried his mobile」指「嘗試透過某個人、地方或聯絡方式取得聯繫」。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-05"
     },
@@ -720,11 +672,9 @@ export default {
       "masked": "If this number doesn’t work, ____.",
       "options": [
         "try-mcq-05",
-        "try-mcq-04",
-        "try-mcq-06",
+        "try-mcq-12",
         "try-mcq-03",
-        "try-mcq-07",
-        "try-mcq-02"
+        "try-mcq-15"
       ],
       "explanation": "本句的「try reception」指「嘗試透過某個人、地方或聯絡方式取得聯繫」。",
       "sentenceIndex": 12,
@@ -733,12 +683,10 @@ export default {
         "try reception"
       ],
       "optionReasons": {
-        "try-mcq-05": "本句指「嘗試透過某個人、地方或聯絡方式取得聯繫」。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-02": "「把某種做法當成一個可能的解決方法，實際試試看效果」是「try + -ing」的用法，與本句語境不同。"
+        "try-mcq-05": "本句的「try reception」指「嘗試透過某個人、地方或聯絡方式取得聯繫」。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-05"
     },
@@ -750,11 +698,9 @@ export default {
       "masked": "The case will be ____ next year.",
       "options": [
         "try-mcq-06",
-        "try-mcq-05",
-        "try-mcq-07",
-        "try-mcq-04",
+        "try-mcq-12",
         "try-mcq-08",
-        "try-mcq-03"
+        "try-mcq-05"
       ],
       "explanation": "本句的「tried」指「法院正式審理案件或審判被告」。",
       "sentenceIndex": 13,
@@ -763,12 +709,10 @@ export default {
         "tried"
       ],
       "optionReasons": {
-        "try-mcq-06": "本句指「法院正式審理案件或審判被告」。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-08": "「親自試用／體驗某事物，看看效果如何」是「give something a try」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。"
+        "try-mcq-06": "本句的「tried」指「法院正式審理案件或審判被告」。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-06"
     },
@@ -780,10 +724,8 @@ export default {
       "masked": "He was ____ for fraud.",
       "options": [
         "try-mcq-06",
-        "try-mcq-05",
-        "try-mcq-07",
-        "try-mcq-04",
-        "try-mcq-08",
+        "try-mcq-14",
+        "try-mcq-13",
         "try-mcq-03"
       ],
       "explanation": "本句的「tried」指「法院正式審理案件或審判被告」。",
@@ -793,12 +735,10 @@ export default {
         "tried"
       ],
       "optionReasons": {
-        "try-mcq-06": "本句指「法院正式審理案件或審判被告」。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。",
-        "try-mcq-08": "「親自試用／體驗某事物，看看效果如何」是「give something a try」的用法，與本句語境不同。",
-        "try-mcq-03": "「親自使用、品嚐或體驗某物，以了解效果或感受」是「try + noun」的用法，與本句語境不同。"
+        "try-mcq-06": "本句的「tried」指「法院正式審理案件或審判被告」。",
+        "try-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-06"
     },
@@ -810,11 +750,9 @@ export default {
       "masked": "I don’t know whether it will work, but it’s worth a ____.",
       "options": [
         "try-mcq-07",
-        "try-mcq-06",
-        "try-mcq-08",
-        "try-mcq-05",
-        "try-mcq-09",
-        "try-mcq-04"
+        "try-mcq-04",
+        "try-mcq-03",
+        "try-mcq-15"
       ],
       "explanation": "本句的「try」指「為了成功做某件事而作出的一次嘗試」。",
       "sentenceIndex": 15,
@@ -823,12 +761,10 @@ export default {
         "try"
       ],
       "optionReasons": {
-        "try-mcq-07": "本句指「為了成功做某件事而作出的一次嘗試」。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-08": "「親自試用／體驗某事物，看看效果如何」是「give something a try」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-09": "「投入自己能力範圍內最大的努力」是「try your best」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。"
+        "try-mcq-07": "本句的「try」指「為了成功做某件事而作出的一次嘗試」。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-07"
     },
@@ -840,11 +776,9 @@ export default {
       "masked": "Give it another ____.",
       "options": [
         "try-mcq-07",
-        "try-mcq-06",
-        "try-mcq-08",
-        "try-mcq-05",
-        "try-mcq-09",
-        "try-mcq-04"
+        "try-mcq-15",
+        "try-mcq-12",
+        "try-mcq-13"
       ],
       "explanation": "本句的「try」指「為了成功做某件事而作出的一次嘗試」。",
       "sentenceIndex": 16,
@@ -853,12 +787,10 @@ export default {
         "try"
       ],
       "optionReasons": {
-        "try-mcq-07": "本句指「為了成功做某件事而作出的一次嘗試」。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-08": "「親自試用／體驗某事物，看看效果如何」是「give something a try」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。",
-        "try-mcq-09": "「投入自己能力範圍內最大的努力」是「try your best」的用法，與本句語境不同。",
-        "try-mcq-04": "「實際採用某種方法，看看是否有效」是「try a method/approach」的用法，與本句語境不同。"
+        "try-mcq-07": "本句的「try」指「為了成功做某件事而作出的一次嘗試」。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-07"
     },
@@ -870,10 +802,8 @@ export default {
       "masked": "Why don’t you ____?",
       "options": [
         "try-mcq-08",
-        "try-mcq-07",
-        "try-mcq-09",
         "try-mcq-06",
-        "try-mcq-10",
+        "try-mcq-01",
         "try-mcq-05"
       ],
       "explanation": "本句的「give noise-cancelling headphones a try」指「親自試用／體驗某事物，看看效果如何」。",
@@ -883,12 +813,10 @@ export default {
         "give noise-cancelling headphones a try"
       ],
       "optionReasons": {
-        "try-mcq-08": "本句指「親自試用／體驗某事物，看看效果如何」。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-09": "「投入自己能力範圍內最大的努力」是「try your best」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。"
+        "try-mcq-08": "本句的「give noise-cancelling headphones a try」指「親自試用／體驗某事物，看看效果如何」。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-08"
     },
@@ -900,10 +828,8 @@ export default {
       "masked": "I wasn’t sure about the app, but I decided to ____.",
       "options": [
         "try-mcq-08",
-        "try-mcq-07",
-        "try-mcq-09",
-        "try-mcq-06",
-        "try-mcq-10",
+        "try-mcq-15",
+        "try-mcq-01",
         "try-mcq-05"
       ],
       "explanation": "本句的「give it a try」指「親自試用／體驗某事物，看看效果如何」。",
@@ -913,12 +839,10 @@ export default {
         "give it a try"
       ],
       "optionReasons": {
-        "try-mcq-08": "本句指「親自試用／體驗某事物，看看效果如何」。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-09": "「投入自己能力範圍內最大的努力」是「try your best」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。",
-        "try-mcq-05": "「嘗試透過某個人、地方或聯絡方式取得聯繫」是「try — contact」的用法，與本句語境不同。"
+        "try-mcq-08": "本句的「give it a try」指「親自試用／體驗某事物，看看效果如何」。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-08"
     },
@@ -930,11 +854,9 @@ export default {
       "masked": "Just ____.",
       "options": [
         "try-mcq-09",
-        "try-mcq-08",
-        "try-mcq-10",
-        "try-mcq-07",
-        "try-mcq-11",
-        "try-mcq-06"
+        "try-mcq-17",
+        "try-mcq-05",
+        "try-mcq-15"
       ],
       "explanation": "本句的「try your best」指「投入自己能力範圍內最大的努力」。",
       "sentenceIndex": 19,
@@ -943,12 +865,10 @@ export default {
         "try your best"
       ],
       "optionReasons": {
-        "try-mcq-09": "本句指「投入自己能力範圍內最大的努力」。",
-        "try-mcq-08": "「親自試用／體驗某事物，看看效果如何」是「give something a try」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-09": "本句的「try your best」指「投入自己能力範圍內最大的努力」。",
+        "try-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-09"
     },
@@ -960,10 +880,8 @@ export default {
       "masked": "She ____ to finish on time.",
       "options": [
         "try-mcq-09",
-        "try-mcq-08",
-        "try-mcq-10",
-        "try-mcq-07",
-        "try-mcq-11",
+        "try-mcq-04",
+        "try-mcq-05",
         "try-mcq-06"
       ],
       "explanation": "本句的「tried her hardest」指「投入自己能力範圍內最大的努力」。",
@@ -973,12 +891,10 @@ export default {
         "tried her hardest"
       ],
       "optionReasons": {
-        "try-mcq-09": "本句指「投入自己能力範圍內最大的努力」。",
-        "try-mcq-08": "「親自試用／體驗某事物，看看效果如何」是「give something a try」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。",
-        "try-mcq-07": "「為了成功做某件事而作出的一次嘗試」是「a try」的用法，與本句語境不同。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。",
-        "try-mcq-06": "「法院正式審理案件或審判被告」是「try — legal」的用法，與本句語境不同。"
+        "try-mcq-09": "本句的「tried her hardest」指「投入自己能力範圍內最大的努力」。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-09"
     },
@@ -990,11 +906,9 @@ export default {
       "masked": "It has been a very ____ week.",
       "options": [
         "try-mcq-12",
-        "try-mcq-11",
-        "try-mcq-13",
-        "try-mcq-10",
-        "try-mcq-14",
-        "try-mcq-09"
+        "try-mcq-05",
+        "try-mcq-06",
+        "try-mcq-04"
       ],
       "explanation": "本句的「trying」指「因困難、煩人或壓力大而非常考驗耐性或承受力的」。",
       "sentenceIndex": 21,
@@ -1003,12 +917,10 @@ export default {
         "trying"
       ],
       "optionReasons": {
-        "try-mcq-12": "本句指「因困難、煩人或壓力大而非常考驗耐性或承受力的」。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-09": "「投入自己能力範圍內最大的努力」是「try your best」的用法，與本句語境不同。"
+        "try-mcq-12": "本句的「trying」指「因困難、煩人或壓力大而非常考驗耐性或承受力的」。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-12"
     },
@@ -1020,11 +932,9 @@ export default {
       "masked": "The constant delays were extremely ____.",
       "options": [
         "try-mcq-12",
-        "try-mcq-11",
-        "try-mcq-13",
-        "try-mcq-10",
-        "try-mcq-14",
-        "try-mcq-09"
+        "try-mcq-02",
+        "try-mcq-06",
+        "try-mcq-14"
       ],
       "explanation": "本句的「trying」指「因困難、煩人或壓力大而非常考驗耐性或承受力的」。",
       "sentenceIndex": 22,
@@ -1033,12 +943,10 @@ export default {
         "trying"
       ],
       "optionReasons": {
-        "try-mcq-12": "本句指「因困難、煩人或壓力大而非常考驗耐性或承受力的」。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-09": "「投入自己能力範圍內最大的努力」是「try your best」的用法，與本句語境不同。"
+        "try-mcq-12": "本句的「trying」指「因困難、煩人或壓力大而非常考驗耐性或承受力的」。",
+        "try-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-12"
     },
@@ -1050,11 +958,9 @@ export default {
       "masked": "It is a ____ method.",
       "options": [
         "try-mcq-13",
-        "try-mcq-12",
-        "try-mcq-14",
-        "try-mcq-11",
-        "try-mcq-15",
-        "try-mcq-10"
+        "try-mcq-09",
+        "try-mcq-06",
+        "try-mcq-07"
       ],
       "explanation": "本句的「tried and tested」指「經過實際使用和驗證後已證明可靠有效的」。",
       "sentenceIndex": 23,
@@ -1063,12 +969,10 @@ export default {
         "tried and tested"
       ],
       "optionReasons": {
-        "try-mcq-13": "本句指「經過實際使用和驗證後已證明可靠有效的」。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。",
-        "try-mcq-15": "「欖球中把球合法壓入對方得分區所得的達陣」是「try — rugby」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。"
+        "try-mcq-13": "本句的「tried and tested」指「經過實際使用和驗證後已證明可靠有效的」。",
+        "try-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-13"
     },
@@ -1080,11 +984,9 @@ export default {
       "masked": "She returned to her ____ strategy.",
       "options": [
         "try-mcq-13",
-        "try-mcq-12",
-        "try-mcq-14",
-        "try-mcq-11",
-        "try-mcq-15",
-        "try-mcq-10"
+        "try-mcq-07",
+        "try-mcq-09",
+        "try-mcq-15"
       ],
       "explanation": "本句的「tried-and-true」指「經過實際使用和驗證後已證明可靠有效的」。",
       "sentenceIndex": 24,
@@ -1093,12 +995,10 @@ export default {
         "tried-and-true"
       ],
       "optionReasons": {
-        "try-mcq-13": "本句指「經過實際使用和驗證後已證明可靠有效的」。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。",
-        "try-mcq-15": "「欖球中把球合法壓入對方得分區所得的達陣」是「try — rugby」的用法，與本句語境不同。",
-        "try-mcq-10": "「對某次雖未成功但值得肯定的努力表示鼓勵」是「nice try — sincere」的用法，與本句語境不同。"
+        "try-mcq-13": "本句的「tried-and-true」指「經過實際使用和驗證後已證明可靠有效的」。",
+        "try-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-13"
     },
@@ -1110,11 +1010,9 @@ export default {
       "masked": "If the download fails, click ____.",
       "options": [
         "try-mcq-14",
-        "try-mcq-13",
-        "try-mcq-15",
-        "try-mcq-12",
-        "try-mcq-16",
-        "try-mcq-11"
+        "try-mcq-04",
+        "try-mcq-06",
+        "try-mcq-03"
       ],
       "explanation": "本句的「Retry」指「第一次未成功後再次嘗試」。",
       "sentenceIndex": 25,
@@ -1123,12 +1021,10 @@ export default {
         "Retry"
       ],
       "optionReasons": {
-        "try-mcq-14": "本句指「第一次未成功後再次嘗試」。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-15": "「欖球中把球合法壓入對方得分區所得的達陣」是「try — rugby」的用法，與本句語境不同。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。",
-        "try-mcq-16": "「與測試、試用或正式審訊有關的名詞」是「trial — family extension」的用法，與本句語境不同。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。"
+        "try-mcq-14": "本句的「Retry」指「第一次未成功後再次嘗試」。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-14"
     },
@@ -1140,11 +1036,9 @@ export default {
       "masked": "The system automatically ____ the connection.",
       "options": [
         "try-mcq-14",
-        "try-mcq-13",
+        "try-mcq-04",
         "try-mcq-15",
-        "try-mcq-12",
-        "try-mcq-16",
-        "try-mcq-11"
+        "try-mcq-03"
       ],
       "explanation": "本句的「retried」指「第一次未成功後再次嘗試」。",
       "sentenceIndex": 26,
@@ -1153,12 +1047,10 @@ export default {
         "retried"
       ],
       "optionReasons": {
-        "try-mcq-14": "本句指「第一次未成功後再次嘗試」。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-15": "「欖球中把球合法壓入對方得分區所得的達陣」是「try — rugby」的用法，與本句語境不同。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。",
-        "try-mcq-16": "「與測試、試用或正式審訊有關的名詞」是「trial — family extension」的用法，與本句語境不同。",
-        "try-mcq-11": "「表示看穿對方的企圖；「想得美／這招沒用」」是「nice try — sarcastic」的用法，與本句語境不同。"
+        "try-mcq-14": "本句的「retried」指「第一次未成功後再次嘗試」。",
+        "try-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-14"
     },
@@ -1170,11 +1062,9 @@ export default {
       "masked": "He scored two ____ in the match.",
       "options": [
         "try-mcq-15",
-        "try-mcq-14",
-        "try-mcq-16",
         "try-mcq-13",
-        "try-mcq-17",
-        "try-mcq-12"
+        "try-mcq-07",
+        "try-mcq-08"
       ],
       "explanation": "本句的「tries」指「欖球中把球合法壓入對方得分區所得的達陣」。",
       "sentenceIndex": 27,
@@ -1183,12 +1073,10 @@ export default {
         "tries"
       ],
       "optionReasons": {
-        "try-mcq-15": "本句指「欖球中把球合法壓入對方得分區所得的達陣」。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-16": "「與測試、試用或正式審訊有關的名詞」是「trial — family extension」的用法，與本句語境不同。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-17": "「實際測試某件物品或方法，看看它能否正常運作／是否合適」是「5. try = test whether something works/suits（測試／試用） — 試；試驗」的用法，與本句語境不同。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。"
+        "try-mcq-15": "本句的「tries」指「欖球中把球合法壓入對方得分區所得的達陣」。",
+        "try-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-15"
     },
@@ -1200,11 +1088,9 @@ export default {
       "masked": "The team scored a late ____.",
       "options": [
         "try-mcq-15",
-        "try-mcq-14",
-        "try-mcq-16",
         "try-mcq-13",
-        "try-mcq-17",
-        "try-mcq-12"
+        "try-mcq-05",
+        "try-mcq-03"
       ],
       "explanation": "本句的「try」指「欖球中把球合法壓入對方得分區所得的達陣」。",
       "sentenceIndex": 28,
@@ -1213,12 +1099,10 @@ export default {
         "try"
       ],
       "optionReasons": {
-        "try-mcq-15": "本句指「欖球中把球合法壓入對方得分區所得的達陣」。",
-        "try-mcq-14": "「第一次未成功後再次嘗試」是「retry」的用法，與本句語境不同。",
-        "try-mcq-16": "「與測試、試用或正式審訊有關的名詞」是「trial — family extension」的用法，與本句語境不同。",
-        "try-mcq-13": "「經過實際使用和驗證後已證明可靠有效的」是「tried and tested/true」的用法，與本句語境不同。",
-        "try-mcq-17": "「實際測試某件物品或方法，看看它能否正常運作／是否合適」是「5. try = test whether something works/suits（測試／試用） — 試；試驗」的用法，與本句語境不同。",
-        "try-mcq-12": "「因困難、煩人或壓力大而非常考驗耐性或承受力的」是「trying — adjective」的用法，與本句語境不同。"
+        "try-mcq-15": "本句的「try」指「欖球中把球合法壓入對方得分區所得的達陣」。",
+        "try-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "try-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "try-mcq-15"
     }
@@ -1230,5 +1114,7 @@ export default {
     "sha256": "0ca316943507bd27694f22a86225e2a61f62ca7b00b8ba79d405e30cc724c847",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -756,11 +756,9 @@ export default {
       "masked": "I gave a formal presentation at a company event ____.",
       "options": [
         "last-mcq-01",
-        "last-mcq-02",
-        "last-mcq-03",
-        "last-mcq-04",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-20",
+        "last-mcq-07",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last year」指「緊接現在之前的上一個時間段；上個／去年等」。",
       "sentenceIndex": 0,
@@ -769,12 +767,10 @@ export default {
         "last year"
       ],
       "optionReasons": {
-        "last-mcq-01": "本句指「緊接現在之前的上一個時間段；上個／去年等」。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-01": "本句的「last year」指「緊接現在之前的上一個時間段；上個／去年等」。",
+        "last-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-01"
     },
@@ -786,11 +782,9 @@ export default {
       "masked": "We met ____.",
       "options": [
         "last-mcq-01",
-        "last-mcq-02",
+        "last-pdf-001",
         "last-mcq-03",
-        "last-mcq-04",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-32"
       ],
       "explanation": "本句的「last week」指「緊接現在之前的上一個時間段；上個／去年等」。",
       "sentenceIndex": 1,
@@ -799,12 +793,10 @@ export default {
         "last week"
       ],
       "optionReasons": {
-        "last-mcq-01": "本句指「緊接現在之前的上一個時間段；上個／去年等」。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-01": "本句的「last week」指「緊接現在之前的上一個時間段；上個／去年等」。",
+        "last-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-01"
     },
@@ -816,11 +808,9 @@ export default {
       "masked": "She started her new job ____.",
       "options": [
         "last-mcq-01",
-        "last-mcq-02",
         "last-mcq-03",
-        "last-mcq-04",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-32",
+        "last-mcq-20"
       ],
       "explanation": "本句的「last month」指「緊接現在之前的上一個時間段；上個／去年等」。",
       "sentenceIndex": 2,
@@ -829,12 +819,10 @@ export default {
         "last month"
       ],
       "optionReasons": {
-        "last-mcq-01": "本句指「緊接現在之前的上一個時間段；上個／去年等」。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-01": "本句的「last month」指「緊接現在之前的上一個時間段；上個／去年等」。",
+        "last-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-01"
     },
@@ -846,11 +834,9 @@ export default {
       "masked": "The ____ I gave a presentation, I was extremely nervous.",
       "options": [
         "last-mcq-02",
-        "last-mcq-01",
-        "last-mcq-03",
-        "last-mcq-04",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-19",
+        "last-mcq-32",
+        "last-mcq-30"
       ],
       "explanation": "本句的「last time」指「在目前之前最近發生的那一次；上一次」。",
       "sentenceIndex": 3,
@@ -859,12 +845,10 @@ export default {
         "last time"
       ],
       "optionReasons": {
-        "last-mcq-02": "本句指「在目前之前最近發生的那一次；上一次」。",
-        "last-mcq-01": "「緊接現在之前的上一個時間段；上個／去年等」是「last + time period」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-02": "本句的「last time」指「在目前之前最近發生的那一次；上一次」。",
+        "last-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-02"
     },
@@ -876,11 +860,9 @@ export default {
       "masked": "When was the ____ you spoke in public?",
       "options": [
         "last-mcq-02",
-        "last-mcq-01",
-        "last-mcq-03",
-        "last-mcq-04",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-16",
+        "last-mcq-28",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last time」指「在目前之前最近發生的那一次；上一次」。",
       "sentenceIndex": 4,
@@ -889,12 +871,10 @@ export default {
         "last time"
       ],
       "optionReasons": {
-        "last-mcq-02": "本句指「在目前之前最近發生的那一次；上一次」。",
-        "last-mcq-01": "「緊接現在之前的上一個時間段；上個／去年等」是「last + time period」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-02": "本句的「last time」指「在目前之前最近發生的那一次；上一次」。",
+        "last-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-02"
     },
@@ -906,11 +886,9 @@ export default {
       "masked": "She was the ____ to leave the room.",
       "options": [
         "last-mcq-03",
-        "last-mcq-02",
-        "last-mcq-04",
+        "last-mcq-21",
         "last-mcq-01",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-32"
       ],
       "explanation": "本句的「last person」指「在次序、系列或過程中排在所有其他項目之後的；最後的」。",
       "sentenceIndex": 5,
@@ -919,12 +897,10 @@ export default {
         "last person"
       ],
       "optionReasons": {
-        "last-mcq-03": "本句指「在次序、系列或過程中排在所有其他項目之後的；最後的」。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-01": "「緊接現在之前的上一個時間段；上個／去年等」是「last + time period」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-03": "本句的「last person」指「在次序、系列或過程中排在所有其他項目之後的；最後的」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-03"
     },
@@ -936,11 +912,9 @@ export default {
       "masked": "The ____ contains the conclusion.",
       "options": [
         "last-mcq-03",
-        "last-mcq-02",
-        "last-mcq-04",
-        "last-mcq-01",
-        "last-mcq-05",
-        "last-mcq-06"
+        "last-mcq-16",
+        "last-mcq-13",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last slide」指「在次序、系列或過程中排在所有其他項目之後的；最後的」。",
       "sentenceIndex": 6,
@@ -949,12 +923,10 @@ export default {
         "last slide"
       ],
       "optionReasons": {
-        "last-mcq-03": "本句指「在次序、系列或過程中排在所有其他項目之後的；最後的」。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-01": "「緊接現在之前的上一個時間段；上個／去年等」是「last + time period」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-03": "本句的「last slide」指「在次序、系列或過程中排在所有其他項目之後的；最後的」。",
+        "last-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-03"
     },
@@ -966,11 +938,9 @@ export default {
       "masked": "I used the ____.",
       "options": [
         "last-mcq-04",
-        "last-mcq-03",
-        "last-mcq-05",
-        "last-mcq-02",
+        "last-mcq-09",
         "last-mcq-06",
-        "last-mcq-01"
+        "last-mcq-32"
       ],
       "explanation": "本句的「last sheet of paper」指「其他同類項目已用完／離開後最後剩下的一個」。",
       "sentenceIndex": 7,
@@ -979,12 +949,10 @@ export default {
         "last sheet of paper"
       ],
       "optionReasons": {
-        "last-mcq-04": "本句指「其他同類項目已用完／離開後最後剩下的一個」。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-01": "「緊接現在之前的上一個時間段；上個／去年等」是「last + time period」的用法，與本句語境不同。"
+        "last-mcq-04": "本句的「last sheet of paper」指「其他同類項目已用完／離開後最後剩下的一個」。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-04"
     },
@@ -996,11 +964,9 @@ export default {
       "masked": "She took the ____ in the room.",
       "options": [
         "last-mcq-04",
-        "last-mcq-03",
-        "last-mcq-05",
-        "last-mcq-02",
+        "last-mcq-09",
         "last-mcq-06",
-        "last-mcq-01"
+        "last-mcq-32"
       ],
       "explanation": "本句的「last seat」指「其他同類項目已用完／離開後最後剩下的一個」。",
       "sentenceIndex": 8,
@@ -1009,12 +975,10 @@ export default {
         "last seat"
       ],
       "optionReasons": {
-        "last-mcq-04": "本句指「其他同類項目已用完／離開後最後剩下的一個」。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-01": "「緊接現在之前的上一個時間段；上個／去年等」是「last + time period」的用法，與本句語境不同。"
+        "last-mcq-04": "本句的「last seat」指「其他同類項目已用完／離開後最後剩下的一個」。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-04"
     },
@@ -1026,11 +990,9 @@ export default {
       "masked": "Their team finished in ____.",
       "options": [
         "last-mcq-05",
-        "last-mcq-04",
-        "last-mcq-06",
-        "last-mcq-03",
-        "last-mcq-07",
-        "last-mcq-02"
+        "last-mcq-22",
+        "last-mcq-13",
+        "last-mcq-26"
       ],
       "explanation": "本句的「last place」指「在排名或比賽中位於所有其他參與者之後；最後一名」。",
       "sentenceIndex": 9,
@@ -1039,12 +1001,10 @@ export default {
         "last place"
       ],
       "optionReasons": {
-        "last-mcq-05": "本句指「在排名或比賽中位於所有其他參與者之後；最後一名」。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。"
+        "last-mcq-05": "本句的「last place」指「在排名或比賽中位於所有其他參與者之後；最後一名」。",
+        "last-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-05"
     },
@@ -1056,11 +1016,9 @@ export default {
       "masked": "He came ____ in the race.",
       "options": [
         "last-mcq-05",
-        "last-mcq-04",
-        "last-mcq-06",
-        "last-mcq-03",
-        "last-mcq-07",
-        "last-mcq-02"
+        "last-mcq-21",
+        "last-mcq-01",
+        "last-mcq-26"
       ],
       "explanation": "本句的「last」指「在排名或比賽中位於所有其他參與者之後；最後一名」。",
       "sentenceIndex": 10,
@@ -1069,12 +1027,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-05": "本句指「在排名或比賽中位於所有其他參與者之後；最後一名」。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-02": "「在目前之前最近發生的那一次；上一次」是「the last time」的用法，與本句語境不同。"
+        "last-mcq-05": "本句的「last」指「在排名或比賽中位於所有其他參與者之後；最後一名」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-05"
     },
@@ -1086,11 +1042,9 @@ export default {
       "masked": "He is the ____ I would ask for advice.",
       "options": [
         "last-mcq-06",
-        "last-mcq-05",
-        "last-mcq-07",
-        "last-mcq-04",
-        "last-mcq-08",
-        "last-mcq-03"
+        "last-pdf-001",
+        "last-mcq-09",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last person」指「在所有選擇中最不可能、最不適合或最不希望的那一個」。",
       "sentenceIndex": 11,
@@ -1099,12 +1053,10 @@ export default {
         "last person"
       ],
       "optionReasons": {
-        "last-mcq-06": "本句指「在所有選擇中最不可能、最不適合或最不希望的那一個」。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。"
+        "last-mcq-06": "本句的「last person」指「在所有選擇中最不可能、最不適合或最不希望的那一個」。",
+        "last-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-06"
     },
@@ -1116,11 +1068,9 @@ export default {
       "masked": "She is the ____ who would deliberately hurt someone.",
       "options": [
         "last-mcq-06",
-        "last-mcq-05",
-        "last-mcq-07",
-        "last-mcq-04",
-        "last-mcq-08",
-        "last-mcq-03"
+        "last-mcq-15",
+        "last-mcq-26",
+        "last-mcq-29"
       ],
       "explanation": "本句的「last person」指「在所有選擇中最不可能、最不適合或最不希望的那一個」。",
       "sentenceIndex": 12,
@@ -1129,12 +1079,10 @@ export default {
         "last person"
       ],
       "optionReasons": {
-        "last-mcq-06": "本句指「在所有選擇中最不可能、最不適合或最不希望的那一個」。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-03": "「在次序、系列或過程中排在所有其他項目之後的；最後的」是「last — final in sequence」的用法，與本句語境不同。"
+        "last-mcq-06": "本句的「last person」指「在所有選擇中最不可能、最不適合或最不希望的那一個」。",
+        "last-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-06"
     },
@@ -1146,11 +1094,9 @@ export default {
       "masked": "This is your ____ to register.",
       "options": [
         "last-mcq-07",
-        "last-mcq-06",
-        "last-mcq-08",
-        "last-mcq-05",
         "last-mcq-09",
-        "last-mcq-04"
+        "last-mcq-21",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last chance」指「如果這次錯過，之後便不再有同樣機會」。",
       "sentenceIndex": 13,
@@ -1159,12 +1105,10 @@ export default {
         "last chance"
       ],
       "optionReasons": {
-        "last-mcq-07": "本句指「如果這次錯過，之後便不再有同樣機會」。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。"
+        "last-mcq-07": "本句的「last chance」指「如果這次錯過，之後便不再有同樣機會」。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-07"
     },
@@ -1176,11 +1120,9 @@ export default {
       "masked": "The presentation was my ____ to convince the managers.",
       "options": [
         "last-mcq-07",
-        "last-mcq-06",
-        "last-mcq-08",
-        "last-mcq-05",
-        "last-mcq-09",
-        "last-mcq-04"
+        "last-mcq-21",
+        "last-mcq-01",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last opportunity」指「如果這次錯過，之後便不再有同樣機會」。",
       "sentenceIndex": 14,
@@ -1189,12 +1131,10 @@ export default {
         "last opportunity"
       ],
       "optionReasons": {
-        "last-mcq-07": "本句指「如果這次錯過，之後便不再有同樣機會」。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-04": "「其他同類項目已用完／離開後最後剩下的一個」是「the last remaining one」的用法，與本句語境不同。"
+        "last-mcq-07": "本句的「last opportunity」指「如果這次錯過，之後便不再有同樣機會」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-07"
     },
@@ -1206,11 +1146,9 @@ export default {
       "masked": "I made one small change at the ____.",
       "options": [
         "last-mcq-08",
-        "last-mcq-07",
-        "last-mcq-09",
+        "last-mcq-20",
         "last-mcq-06",
-        "last-mcq-10",
-        "last-mcq-05"
+        "last-mcq-32"
       ],
       "explanation": "本句的「last minute」指「某事即將開始、截止或不能再更改之前的最後短時間」。",
       "sentenceIndex": 15,
@@ -1219,12 +1157,10 @@ export default {
         "last minute"
       ],
       "optionReasons": {
-        "last-mcq-08": "本句指「某事即將開始、截止或不能再更改之前的最後短時間」。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。"
+        "last-mcq-08": "本句的「last minute」指「某事即將開始、截止或不能再更改之前的最後短時間」。",
+        "last-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-08"
     },
@@ -1236,11 +1172,9 @@ export default {
       "masked": "Don’t leave your preparation until the ____.",
       "options": [
         "last-mcq-08",
-        "last-mcq-07",
-        "last-mcq-09",
-        "last-mcq-06",
-        "last-mcq-10",
-        "last-mcq-05"
+        "last-mcq-21",
+        "last-mcq-26",
+        "last-mcq-28"
       ],
       "explanation": "本句的「last minute」指「某事即將開始、截止或不能再更改之前的最後短時間」。",
       "sentenceIndex": 16,
@@ -1249,12 +1183,10 @@ export default {
         "last minute"
       ],
       "optionReasons": {
-        "last-mcq-08": "本句指「某事即將開始、截止或不能再更改之前的最後短時間」。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-05": "「在排名或比賽中位於所有其他參與者之後；最後一名」是「last place / come last」的用法，與本句語境不同。"
+        "last-mcq-08": "本句的「last minute」指「某事即將開始、截止或不能再更改之前的最後短時間」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-08"
     },
@@ -1266,11 +1198,9 @@ export default {
       "masked": "There was a ____ to the schedule.",
       "options": [
         "last-mcq-09",
-        "last-mcq-08",
-        "last-mcq-10",
-        "last-mcq-07",
-        "last-mcq-11",
-        "last-mcq-06"
+        "last-mcq-20",
+        "last-mcq-33",
+        "last-mcq-28"
       ],
       "explanation": "本句的「last-minute change」指「在事情即將發生前很短時間才決定或安排的」。",
       "sentenceIndex": 17,
@@ -1279,12 +1209,10 @@ export default {
         "last-minute change"
       ],
       "optionReasons": {
-        "last-mcq-09": "本句指「在事情即將發生前很短時間才決定或安排的」。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-09": "本句的「last-minute change」指「在事情即將發生前很短時間才決定或安排的」。",
+        "last-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-09"
     },
@@ -1296,11 +1224,9 @@ export default {
       "masked": "She received a ____.",
       "options": [
         "last-mcq-09",
-        "last-mcq-08",
-        "last-mcq-10",
-        "last-mcq-07",
-        "last-mcq-11",
-        "last-mcq-06"
+        "last-mcq-32",
+        "last-mcq-06",
+        "last-mcq-21"
       ],
       "explanation": "本句的「last-minute invitation」指「在事情即將發生前很短時間才決定或安排的」。",
       "sentenceIndex": 18,
@@ -1309,12 +1235,10 @@ export default {
         "last-minute invitation"
       ],
       "optionReasons": {
-        "last-mcq-09": "本句指「在事情即將發生前很短時間才決定或安排的」。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-06": "「在所有選擇中最不可能、最不適合或最不希望的那一個」是「the last person/thing I would…」的用法，與本句語境不同。"
+        "last-mcq-09": "本句的「last-minute invitation」指「在事情即將發生前很短時間才決定或安排的」。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-09"
     },
@@ -1326,11 +1250,9 @@ export default {
       "masked": "I have been very busy for the ____.",
       "options": [
         "last-mcq-10",
-        "last-mcq-09",
-        "last-mcq-11",
-        "last-mcq-08",
-        "last-mcq-12",
-        "last-mcq-07"
+        "last-pdf-001",
+        "last-mcq-05",
+        "last-mcq-26"
       ],
       "explanation": "本句的「last three weeks」指「從現在往前計算的一段最近時間；過去……」。",
       "sentenceIndex": 19,
@@ -1339,12 +1261,10 @@ export default {
         "last three weeks"
       ],
       "optionReasons": {
-        "last-mcq-10": "本句指「從現在往前計算的一段最近時間；過去……」。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。"
+        "last-mcq-10": "本句的「last three weeks」指「從現在往前計算的一段最近時間；過去……」。",
+        "last-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-10"
     },
@@ -1356,11 +1276,9 @@ export default {
       "masked": "Sales have increased over the ____.",
       "options": [
         "last-mcq-10",
-        "last-mcq-09",
-        "last-mcq-11",
-        "last-mcq-08",
-        "last-mcq-12",
-        "last-mcq-07"
+        "last-pdf-001",
+        "last-mcq-30",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last five years」指「從現在往前計算的一段最近時間；過去……」。",
       "sentenceIndex": 20,
@@ -1369,12 +1287,10 @@ export default {
         "last five years"
       ],
       "optionReasons": {
-        "last-mcq-10": "本句指「從現在往前計算的一段最近時間；過去……」。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-07": "「如果這次錯過，之後便不再有同樣機會」是「last chance」的用法，與本句語境不同。"
+        "last-mcq-10": "本句的「last five years」指「從現在往前計算的一段最近時間；過去……」。",
+        "last-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-10"
     },
@@ -1386,11 +1302,9 @@ export default {
       "masked": "I didn’t enjoy his ____.",
       "options": [
         "last-mcq-11",
-        "last-mcq-10",
-        "last-mcq-12",
-        "last-mcq-09",
-        "last-mcq-13",
-        "last-mcq-08"
+        "last-mcq-21",
+        "last-mcq-30",
+        "last-mcq-06"
       ],
       "explanation": "本句的「last film」指「在目前之前最近出現、完成、收到或發生的同類項目」。",
       "sentenceIndex": 21,
@@ -1399,12 +1313,10 @@ export default {
         "last film"
       ],
       "optionReasons": {
-        "last-mcq-11": "本句指「在目前之前最近出現、完成、收到或發生的同類項目」。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。"
+        "last-mcq-11": "本句的「last film」指「在目前之前最近出現、完成、收到或發生的同類項目」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-11"
     },
@@ -1416,11 +1328,9 @@ export default {
       "masked": "Her ____ contained the final details.",
       "options": [
         "last-mcq-11",
-        "last-mcq-10",
-        "last-mcq-12",
-        "last-mcq-09",
-        "last-mcq-13",
-        "last-mcq-08"
+        "last-mcq-17",
+        "last-mcq-30",
+        "last-mcq-07"
       ],
       "explanation": "本句的「last email」指「在目前之前最近出現、完成、收到或發生的同類項目」。",
       "sentenceIndex": 22,
@@ -1429,12 +1339,10 @@ export default {
         "last email"
       ],
       "optionReasons": {
-        "last-mcq-11": "本句指「在目前之前最近出現、完成、收到或發生的同類項目」。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-08": "「某事即將開始、截止或不能再更改之前的最後短時間」是「last minute」的用法，與本句語境不同。"
+        "last-mcq-11": "本句的「last email」指「在目前之前最近出現、完成、收到或發生的同類項目」。",
+        "last-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-11"
     },
@@ -1446,11 +1354,9 @@ export default {
       "masked": "This was the director’s ____.",
       "options": [
         "last-mcq-12",
-        "last-mcq-11",
-        "last-mcq-13",
-        "last-mcq-10",
-        "last-mcq-14",
-        "last-mcq-09"
+        "last-mcq-20",
+        "last-mcq-09",
+        "last-mcq-28"
       ],
       "explanation": "本句的「last film」指「某人／某事之後再沒有同類活動、作品或階段的最終一次」。",
       "sentenceIndex": 23,
@@ -1459,12 +1365,10 @@ export default {
         "last film"
       ],
       "optionReasons": {
-        "last-mcq-12": "本句指「某人／某事之後再沒有同類活動、作品或階段的最終一次」。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。"
+        "last-mcq-12": "本句的「last film」指「某人／某事之後再沒有同類活動、作品或階段的最終一次」。",
+        "last-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-12"
     },
@@ -1476,11 +1380,9 @@ export default {
       "masked": "Her ____ took place in London.",
       "options": [
         "last-mcq-12",
-        "last-mcq-11",
-        "last-mcq-13",
-        "last-mcq-10",
-        "last-mcq-14",
-        "last-mcq-09"
+        "last-mcq-16",
+        "last-mcq-28",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last public appearance」指「某人／某事之後再沒有同類活動、作品或階段的最終一次」。",
       "sentenceIndex": 24,
@@ -1489,12 +1391,10 @@ export default {
         "last public appearance"
       ],
       "optionReasons": {
-        "last-mcq-12": "本句指「某人／某事之後再沒有同類活動、作品或階段的最終一次」。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-09": "「在事情即將發生前很短時間才決定或安排的」是「last-minute」的用法，與本句語境不同。"
+        "last-mcq-12": "本句的「last public appearance」指「某人／某事之後再沒有同類活動、作品或階段的最終一次」。",
+        "last-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-12"
     },
@@ -1506,11 +1406,9 @@ export default {
       "masked": "The ____ introduced the current policy.",
       "options": [
         "last-mcq-13",
-        "last-mcq-12",
-        "last-mcq-14",
-        "last-mcq-11",
         "last-mcq-15",
-        "last-mcq-10"
+        "last-mcq-26",
+        "last-mcq-30"
       ],
       "explanation": "本句的「last manager」指「在現任之前最近擔任同一角色的人；上一任／前任」。",
       "sentenceIndex": 25,
@@ -1519,12 +1417,10 @@ export default {
         "last manager"
       ],
       "optionReasons": {
-        "last-mcq-13": "本句指「在現任之前最近擔任同一角色的人；上一任／前任」。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。"
+        "last-mcq-13": "本句的「last manager」指「在現任之前最近擔任同一角色的人；上一任／前任」。",
+        "last-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-13"
     },
@@ -1536,11 +1432,9 @@ export default {
       "masked": "The ____ renovated the building.",
       "options": [
         "last-mcq-13",
-        "last-mcq-12",
-        "last-mcq-14",
-        "last-mcq-11",
-        "last-mcq-15",
-        "last-mcq-10"
+        "last-mcq-16",
+        "last-mcq-26",
+        "last-mcq-07"
       ],
       "explanation": "本句的「last owner」指「在現任之前最近擔任同一角色的人；上一任／前任」。",
       "sentenceIndex": 26,
@@ -1549,12 +1443,10 @@ export default {
         "last owner"
       ],
       "optionReasons": {
-        "last-mcq-13": "本句指「在現任之前最近擔任同一角色的人；上一任／前任」。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-10": "「從現在往前計算的一段最近時間；過去……」是「the last + time period」的用法，與本句語境不同。"
+        "last-mcq-13": "本句的「last owner」指「在現任之前最近擔任同一角色的人；上一任／前任」。",
+        "last-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-13"
     },
@@ -1566,11 +1458,9 @@ export default {
       "masked": "The presentation ____ twenty minutes.",
       "options": [
         "last-mcq-14",
-        "last-mcq-13",
-        "last-mcq-15",
-        "last-mcq-12",
-        "last-mcq-16",
-        "last-mcq-11"
+        "last-mcq-33",
+        "last-mcq-02",
+        "last-mcq-28"
       ],
       "explanation": "本句的「lasted」指「某件事情、狀態或活動持續存在／進行一段時間」。",
       "sentenceIndex": 27,
@@ -1579,12 +1469,10 @@ export default {
         "lasted"
       ],
       "optionReasons": {
-        "last-mcq-14": "本句指「某件事情、狀態或活動持續存在／進行一段時間」。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。"
+        "last-mcq-14": "本句的「lasted」指「某件事情、狀態或活動持續存在／進行一段時間」。",
+        "last-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-14"
     },
@@ -1596,11 +1484,9 @@ export default {
       "masked": "The meeting ____ much longer than expected.",
       "options": [
         "last-mcq-14",
-        "last-mcq-13",
-        "last-mcq-15",
-        "last-mcq-12",
-        "last-mcq-16",
-        "last-mcq-11"
+        "last-mcq-02",
+        "last-mcq-06",
+        "last-mcq-33"
       ],
       "explanation": "本句的「lasted」指「某件事情、狀態或活動持續存在／進行一段時間」。",
       "sentenceIndex": 28,
@@ -1609,12 +1495,10 @@ export default {
         "lasted"
       ],
       "optionReasons": {
-        "last-mcq-14": "本句指「某件事情、狀態或活動持續存在／進行一段時間」。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-11": "「在目前之前最近出現、完成、收到或發生的同類項目」是「last — most recent item」的用法，與本句語境不同。"
+        "last-mcq-14": "本句的「lasted」指「某件事情、狀態或活動持續存在／進行一段時間」。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-14"
     },
@@ -1626,11 +1510,9 @@ export default {
       "masked": "The training session will ____.",
       "options": [
         "last-mcq-15",
-        "last-mcq-14",
-        "last-mcq-16",
-        "last-mcq-13",
-        "last-mcq-17",
-        "last-mcq-12"
+        "last-mcq-30",
+        "last-mcq-07",
+        "last-mcq-13"
       ],
       "explanation": "本句的「last for two hours」指「持續指定長度的一段時間」。",
       "sentenceIndex": 29,
@@ -1639,12 +1521,10 @@ export default {
         "last for two hours"
       ],
       "optionReasons": {
-        "last-mcq-15": "本句指「持續指定長度的一段時間」。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。"
+        "last-mcq-15": "本句的「last for two hours」指「持續指定長度的一段時間」。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-15"
     },
@@ -1656,11 +1536,9 @@ export default {
       "masked": "The effects can ____.",
       "options": [
         "last-mcq-15",
-        "last-mcq-14",
-        "last-mcq-16",
+        "last-mcq-05",
         "last-mcq-13",
-        "last-mcq-17",
-        "last-mcq-12"
+        "last-mcq-32"
       ],
       "explanation": "本句的「last for several days」指「持續指定長度的一段時間」。",
       "sentenceIndex": 30,
@@ -1669,12 +1547,10 @@ export default {
         "last for several days"
       ],
       "optionReasons": {
-        "last-mcq-15": "本句指「持續指定長度的一段時間」。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-12": "「某人／某事之後再沒有同類活動、作品或階段的最終一次」是「last — final ever」的用法，與本句語境不同。"
+        "last-mcq-15": "本句的「last for several days」指「持續指定長度的一段時間」。",
+        "last-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-15"
     },
@@ -1686,11 +1562,9 @@ export default {
       "masked": "The event ____.",
       "options": [
         "last-mcq-16",
-        "last-mcq-15",
-        "last-mcq-17",
-        "last-mcq-14",
-        "last-mcq-18",
-        "last-mcq-13"
+        "last-mcq-07",
+        "last-mcq-13",
+        "last-mcq-26"
       ],
       "explanation": "本句的「lasted until midnight」指「一直維持或進行到某個指定時間點」。",
       "sentenceIndex": 31,
@@ -1699,12 +1573,10 @@ export default {
         "lasted until midnight"
       ],
       "optionReasons": {
-        "last-mcq-16": "本句指「一直維持或進行到某個指定時間點」。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。"
+        "last-mcq-16": "本句的「lasted until midnight」指「一直維持或進行到某個指定時間點」。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-16"
     },
@@ -1716,11 +1588,9 @@ export default {
       "masked": "The offer will ____.",
       "options": [
         "last-mcq-16",
-        "last-mcq-15",
-        "last-mcq-17",
-        "last-mcq-14",
-        "last-mcq-18",
-        "last-mcq-13"
+        "last-mcq-28",
+        "last-mcq-02",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last until Friday」指「一直維持或進行到某個指定時間點」。",
       "sentenceIndex": 32,
@@ -1729,12 +1599,10 @@ export default {
         "last until Friday"
       ],
       "optionReasons": {
-        "last-mcq-16": "本句指「一直維持或進行到某個指定時間點」。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-13": "「在現任之前最近擔任同一角色的人；上一任／前任」是「last manager/owner/etc.」的用法，與本句語境不同。"
+        "last-mcq-16": "本句的「last until Friday」指「一直維持或進行到某個指定時間點」。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-16"
     },
@@ -1746,11 +1614,9 @@ export default {
       "masked": "The battery should ____.",
       "options": [
         "last-mcq-17",
-        "last-mcq-16",
-        "last-mcq-18",
-        "last-mcq-15",
-        "last-mcq-19",
-        "last-mcq-14"
+        "last-mcq-26",
+        "last-mcq-13",
+        "last-mcq-30"
       ],
       "explanation": "本句的「last through the whole presentation」指「在整段指定時間／活動內一直維持足夠或可用狀態」。",
       "sentenceIndex": 33,
@@ -1759,12 +1625,10 @@ export default {
         "last through the whole presentation"
       ],
       "optionReasons": {
-        "last-mcq-17": "本句指「在整段指定時間／活動內一直維持足夠或可用狀態」。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。"
+        "last-mcq-17": "本句的「last through the whole presentation」指「在整段指定時間／活動內一直維持足夠或可用狀態」。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-17"
     },
@@ -1776,11 +1640,9 @@ export default {
       "masked": "The food needs to ____.",
       "options": [
         "last-mcq-17",
-        "last-mcq-16",
-        "last-mcq-18",
-        "last-mcq-15",
-        "last-mcq-19",
-        "last-mcq-14"
+        "last-mcq-26",
+        "last-mcq-13",
+        "last-mcq-07"
       ],
       "explanation": "本句的「last through the weekend」指「在整段指定時間／活動內一直維持足夠或可用狀態」。",
       "sentenceIndex": 34,
@@ -1789,12 +1651,10 @@ export default {
         "last through the weekend"
       ],
       "optionReasons": {
-        "last-mcq-17": "本句指「在整段指定時間／活動內一直維持足夠或可用狀態」。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-14": "「某件事情、狀態或活動持續存在／進行一段時間」是「last — continue」的用法，與本句語境不同。"
+        "last-mcq-17": "本句的「last through the weekend」指「在整段指定時間／活動內一直維持足夠或可用狀態」。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-17"
     },
@@ -1806,11 +1666,9 @@ export default {
       "masked": "These headphones should ____ for years.",
       "options": [
         "last-mcq-18",
-        "last-mcq-17",
-        "last-mcq-19",
-        "last-mcq-16",
-        "last-mcq-20",
-        "last-mcq-15"
+        "last-mcq-06",
+        "last-mcq-27",
+        "last-mcq-12"
       ],
       "explanation": "本句的「last」指「某物長時間保持可用、不損壞或有效；耐用」。",
       "sentenceIndex": 35,
@@ -1819,12 +1677,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-18": "本句指「某物長時間保持可用、不損壞或有效；耐用」。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。"
+        "last-mcq-18": "本句的「last」指「某物長時間保持可用、不損壞或有效；耐用」。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-18"
     },
@@ -1836,11 +1692,9 @@ export default {
       "masked": "A good suit can ____ a long time.",
       "options": [
         "last-mcq-18",
-        "last-mcq-17",
-        "last-mcq-19",
-        "last-mcq-16",
-        "last-mcq-20",
-        "last-mcq-15"
+        "last-mcq-29",
+        "last-mcq-06",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last」指「某物長時間保持可用、不損壞或有效；耐用」。",
       "sentenceIndex": 36,
@@ -1849,12 +1703,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-18": "本句指「某物長時間保持可用、不損壞或有效；耐用」。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-15": "「持續指定長度的一段時間」是「last for + period」的用法，與本句語境不同。"
+        "last-mcq-18": "本句的「last」指「某物長時間保持可用、不損壞或有效；耐用」。",
+        "last-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-18"
     },
@@ -1866,11 +1718,9 @@ export default {
       "masked": "We have enough water to ____ three days.",
       "options": [
         "last-mcq-19",
-        "last-mcq-18",
-        "last-mcq-20",
-        "last-mcq-17",
-        "last-mcq-21",
-        "last-mcq-16"
+        "last-mcq-07",
+        "last-mcq-02",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last」指「某項資源／能源足夠維持到指定時間；夠用」。",
       "sentenceIndex": 37,
@@ -1879,12 +1729,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-19": "本句指「某項資源／能源足夠維持到指定時間；夠用」。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。"
+        "last-mcq-19": "本句的「last」指「某項資源／能源足夠維持到指定時間；夠用」。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-19"
     },
@@ -1896,11 +1744,9 @@ export default {
       "masked": "Will the battery ____ the whole day?",
       "options": [
         "last-mcq-19",
-        "last-mcq-18",
-        "last-mcq-20",
-        "last-mcq-17",
-        "last-mcq-21",
-        "last-mcq-16"
+        "last-mcq-07",
+        "last-mcq-30",
+        "last-mcq-13"
       ],
       "explanation": "本句的「last」指「某項資源／能源足夠維持到指定時間；夠用」。",
       "sentenceIndex": 38,
@@ -1909,12 +1755,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-19": "本句指「某項資源／能源足夠維持到指定時間；夠用」。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-16": "「一直維持或進行到某個指定時間點」是「last until + time」的用法，與本句語境不同。"
+        "last-mcq-19": "本句的「last」指「某項資源／能源足夠維持到指定時間；夠用」。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-19"
     },
@@ -1926,11 +1770,9 @@ export default {
       "masked": "I was exhausted and didn’t think I could ____ another hour.",
       "options": [
         "last-mcq-20",
-        "last-mcq-19",
-        "last-mcq-21",
-        "last-mcq-18",
-        "last-mcq-22",
-        "last-mcq-17"
+        "last-mcq-32",
+        "last-mcq-03",
+        "last-mcq-01"
       ],
       "explanation": "本句的「last」指「在困難、疲勞或高壓情況下仍能繼續承受／堅持」。",
       "sentenceIndex": 39,
@@ -1939,12 +1781,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-20": "本句指「在困難、疲勞或高壓情況下仍能繼續承受／堅持」。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。"
+        "last-mcq-20": "本句的「last」指「在困難、疲勞或高壓情況下仍能繼續承受／堅持」。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-20"
     },
@@ -1956,11 +1796,9 @@ export default {
       "masked": "She only ____ six months in the demanding job.",
       "options": [
         "last-mcq-20",
-        "last-mcq-19",
-        "last-mcq-21",
-        "last-mcq-18",
-        "last-mcq-22",
-        "last-mcq-17"
+        "last-mcq-29",
+        "last-mcq-32",
+        "last-mcq-01"
       ],
       "explanation": "本句的「lasted」指「在困難、疲勞或高壓情況下仍能繼續承受／堅持」。",
       "sentenceIndex": 40,
@@ -1969,12 +1807,10 @@ export default {
         "lasted"
       ],
       "optionReasons": {
-        "last-mcq-20": "本句指「在困難、疲勞或高壓情況下仍能繼續承受／堅持」。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-17": "「在整段指定時間／活動內一直維持足夠或可用狀態」是「last through + period」的用法，與本句語境不同。"
+        "last-mcq-20": "本句的「lasted」指「在困難、疲勞或高壓情況下仍能繼續承受／堅持」。",
+        "last-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-20"
     },
@@ -1986,11 +1822,9 @@ export default {
       "masked": "Their friendship has ____ for decades.",
       "options": [
         "last-mcq-21",
-        "last-mcq-20",
-        "last-mcq-22",
-        "last-mcq-19",
-        "last-mcq-23",
-        "last-mcq-18"
+        "last-mcq-07",
+        "last-mcq-02",
+        "last-mcq-33"
       ],
       "explanation": "本句的「lasted」指「某種關係、協議或狀態繼續存在」。",
       "sentenceIndex": 41,
@@ -1999,12 +1833,10 @@ export default {
         "lasted"
       ],
       "optionReasons": {
-        "last-mcq-21": "本句指「某種關係、協議或狀態繼續存在」。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。"
+        "last-mcq-21": "本句的「lasted」指「某種關係、協議或狀態繼續存在」。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-21"
     },
@@ -2016,11 +1848,9 @@ export default {
       "masked": "The agreement did not ____ long.",
       "options": [
         "last-mcq-21",
-        "last-mcq-20",
-        "last-mcq-22",
-        "last-mcq-19",
-        "last-mcq-23",
-        "last-mcq-18"
+        "last-mcq-09",
+        "last-mcq-12",
+        "last-mcq-13"
       ],
       "explanation": "本句的「last」指「某種關係、協議或狀態繼續存在」。",
       "sentenceIndex": 42,
@@ -2029,12 +1859,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-21": "本句指「某種關係、協議或狀態繼續存在」。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。"
+        "last-mcq-21": "本句的「last」指「某種關係、協議或狀態繼續存在」。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-21"
     },
@@ -2046,11 +1874,9 @@ export default {
       "masked": "The experience ____ for years.",
       "options": [
         "last-pdf-001",
-        "last-mcq-20",
-        "last-mcq-22",
-        "last-mcq-19",
-        "last-mcq-23",
-        "last-mcq-18"
+        "last-mcq-06",
+        "last-mcq-32",
+        "last-mcq-01"
       ],
       "explanation": "本句的「lasted in my memory」指「某種效果、感受或印象在事情結束後仍然存在」。",
       "sentenceIndex": 43,
@@ -2059,12 +1885,10 @@ export default {
         "lasted in my memory"
       ],
       "optionReasons": {
-        "last-pdf-001": "本句指「某種效果、感受或印象在事情結束後仍然存在」。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。"
+        "last-pdf-001": "本句的「lasted in my memory」指「某種效果、感受或印象在事情結束後仍然存在」。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-pdf-001"
     },
@@ -2076,11 +1900,9 @@ export default {
       "masked": "The feeling of confidence ____ long after the presentation.",
       "options": [
         "last-pdf-001",
-        "last-mcq-20",
-        "last-mcq-22",
-        "last-mcq-19",
-        "last-mcq-23",
-        "last-mcq-18"
+        "last-mcq-02",
+        "last-mcq-32",
+        "last-mcq-06"
       ],
       "explanation": "本句的「lasted」指「某種效果、感受或印象在事情結束後仍然存在」。",
       "sentenceIndex": 44,
@@ -2089,12 +1911,10 @@ export default {
         "lasted"
       ],
       "optionReasons": {
-        "last-pdf-001": "本句指「某種效果、感受或印象在事情結束後仍然存在」。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-18": "「某物長時間保持可用、不損壞或有效；耐用」是「product lasts」的用法，與本句語境不同。"
+        "last-pdf-001": "本句的「lasted」指「某種效果、感受或印象在事情結束後仍然存在」。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-pdf-001"
     },
@@ -2106,11 +1926,9 @@ export default {
       "masked": "We need to ____ until Friday.",
       "options": [
         "last-mcq-22",
-        "last-mcq-21",
-        "last-mcq-23",
-        "last-mcq-20",
-        "last-mcq-24",
-        "last-mcq-19"
+        "last-mcq-29",
+        "last-mcq-32",
+        "last-mcq-06"
       ],
       "explanation": "本句的「make the food last」指「採取方法令某物、資源或效果維持更長時間」。",
       "sentenceIndex": 45,
@@ -2119,12 +1937,10 @@ export default {
         "make the food last"
       ],
       "optionReasons": {
-        "last-mcq-22": "本句指「採取方法令某物、資源或效果維持更長時間」。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。"
+        "last-mcq-22": "本句的「make the food last」指「採取方法令某物、資源或效果維持更長時間」。",
+        "last-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-22"
     },
@@ -2136,11 +1952,9 @@ export default {
       "masked": "Lowering the screen brightness can ____.",
       "options": [
         "last-mcq-22",
-        "last-mcq-21",
-        "last-mcq-23",
-        "last-mcq-20",
-        "last-mcq-24",
-        "last-mcq-19"
+        "last-mcq-12",
+        "last-mcq-27",
+        "last-mcq-28"
       ],
       "explanation": "本句的「make the battery last longer」指「採取方法令某物、資源或效果維持更長時間」。",
       "sentenceIndex": 46,
@@ -2149,12 +1963,10 @@ export default {
         "make the battery last longer"
       ],
       "optionReasons": {
-        "last-mcq-22": "本句指「採取方法令某物、資源或效果維持更長時間」。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-19": "「某項資源／能源足夠維持到指定時間；夠用」是「resource lasts」的用法，與本句語境不同。"
+        "last-mcq-22": "本句的「make the battery last longer」指「採取方法令某物、資源或效果維持更長時間」。",
+        "last-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-22"
     },
@@ -2166,11 +1978,9 @@ export default {
       "masked": "The experience had a ____ on my confidence.",
       "options": [
         "last-mcq-23",
-        "last-mcq-22",
-        "last-mcq-24",
-        "last-mcq-21",
-        "last-mcq-25",
-        "last-mcq-20"
+        "last-mcq-28",
+        "last-mcq-26",
+        "last-mcq-33"
       ],
       "explanation": "本句的「lasting effect」指「能長時間維持、不容易消失或結束的；持久的」。",
       "sentenceIndex": 47,
@@ -2179,12 +1989,10 @@ export default {
         "lasting effect"
       ],
       "optionReasons": {
-        "last-mcq-23": "本句指「能長時間維持、不容易消失或結束的；持久的」。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。"
+        "last-mcq-23": "本句的「lasting effect」指「能長時間維持、不容易消失或結束的；持久的」。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-23"
     },
@@ -2196,11 +2004,9 @@ export default {
       "masked": "They built a ____.",
       "options": [
         "last-mcq-23",
-        "last-mcq-22",
-        "last-mcq-24",
-        "last-mcq-21",
-        "last-mcq-25",
-        "last-mcq-20"
+        "last-mcq-07",
+        "last-mcq-32",
+        "last-mcq-26"
       ],
       "explanation": "本句的「lasting friendship」指「能長時間維持、不容易消失或結束的；持久的」。",
       "sentenceIndex": 48,
@@ -2209,12 +2015,10 @@ export default {
         "lasting friendship"
       ],
       "optionReasons": {
-        "last-mcq-23": "本句指「能長時間維持、不容易消失或結束的；持久的」。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-20": "「在困難、疲勞或高壓情況下仍能繼續承受／堅持」是「person lasts」的用法，與本句語境不同。"
+        "last-mcq-23": "本句的「lasting friendship」指「能長時間維持、不容易消失或結束的；持久的」。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-23"
     },
@@ -2226,11 +2030,9 @@ export default {
       "masked": "Her presentation made a ____ on the audience.",
       "options": [
         "last-mcq-24",
-        "last-mcq-23",
-        "last-mcq-25",
-        "last-mcq-22",
-        "last-mcq-26",
-        "last-mcq-21"
+        "last-mcq-32",
+        "last-mcq-02",
+        "last-mcq-28"
       ],
       "explanation": "本句的「lasting impression」指「在很長時間後仍然存在的深刻印象」。",
       "sentenceIndex": 49,
@@ -2239,12 +2041,10 @@ export default {
         "lasting impression"
       ],
       "optionReasons": {
-        "last-mcq-24": "本句指「在很長時間後仍然存在的深刻印象」。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。"
+        "last-mcq-24": "本句的「lasting impression」指「在很長時間後仍然存在的深刻印象」。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-24"
     },
@@ -2256,11 +2056,9 @@ export default {
       "masked": "His kindness left a ____ on me.",
       "options": [
         "last-mcq-24",
-        "last-mcq-23",
-        "last-mcq-25",
-        "last-mcq-22",
-        "last-mcq-26",
-        "last-mcq-21"
+        "last-mcq-02",
+        "last-mcq-06",
+        "last-mcq-32"
       ],
       "explanation": "本句的「lasting impression」指「在很長時間後仍然存在的深刻印象」。",
       "sentenceIndex": 50,
@@ -2269,12 +2067,10 @@ export default {
         "lasting impression"
       ],
       "optionReasons": {
-        "last-mcq-24": "本句指「在很長時間後仍然存在的深刻印象」。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-21": "「某種關係、協議或狀態繼續存在」是「relationship/arrangement lasts」的用法，與本句語境不同。"
+        "last-mcq-24": "本句的「lasting impression」指「在很長時間後仍然存在的深刻印象」。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-24"
     },
@@ -2286,11 +2082,9 @@ export default {
       "masked": "The experience had a ____ on her career.",
       "options": [
         "last-mcq-25",
-        "last-mcq-24",
-        "last-mcq-26",
-        "last-mcq-23",
-        "last-mcq-27",
-        "last-mcq-22"
+        "last-mcq-06",
+        "last-mcq-02",
+        "last-mcq-32"
       ],
       "explanation": "本句的「lasting impact」指「原來事件結束後仍持續存在的長期影響」。",
       "sentenceIndex": 51,
@@ -2299,12 +2093,10 @@ export default {
         "lasting impact"
       ],
       "optionReasons": {
-        "last-mcq-25": "本句指「原來事件結束後仍持續存在的長期影響」。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。"
+        "last-mcq-25": "本句的「lasting impact」指「原來事件結束後仍持續存在的長期影響」。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-25"
     },
@@ -2316,11 +2108,9 @@ export default {
       "masked": "Good training can have a ____ on performance.",
       "options": [
         "last-mcq-25",
-        "last-mcq-24",
-        "last-mcq-26",
-        "last-mcq-23",
-        "last-mcq-27",
-        "last-mcq-22"
+        "last-mcq-28",
+        "last-mcq-32",
+        "last-mcq-01"
       ],
       "explanation": "本句的「lasting effect」指「原來事件結束後仍持續存在的長期影響」。",
       "sentenceIndex": 52,
@@ -2329,12 +2119,10 @@ export default {
         "lasting effect"
       ],
       "optionReasons": {
-        "last-mcq-25": "本句指「原來事件結束後仍持續存在的長期影響」。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-22": "「採取方法令某物、資源或效果維持更長時間」是「make something last」的用法，與本句語境不同。"
+        "last-mcq-25": "本句的「lasting effect」指「原來事件結束後仍持續存在的長期影響」。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-25"
     },
@@ -2346,11 +2134,9 @@ export default {
       "masked": "At ____, it was my turn to speak.",
       "options": [
         "last-mcq-26",
-        "last-mcq-25",
-        "last-mcq-27",
-        "last-mcq-24",
+        "last-mcq-23",
         "last-mcq-28",
-        "last-mcq-23"
+        "last-mcq-13"
       ],
       "explanation": "本句的「last」指「經過等待、延誤或困難後某件事終於發生」。",
       "sentenceIndex": 53,
@@ -2359,12 +2145,10 @@ export default {
         "last"
       ],
       "optionReasons": {
-        "last-mcq-26": "本句指「經過等待、延誤或困難後某件事終於發生」。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。"
+        "last-mcq-26": "本句的「last」指「經過等待、延誤或困難後某件事終於發生」。",
+        "last-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-26"
     },
@@ -2376,11 +2160,9 @@ export default {
       "masked": "After months of preparation, the day arrived ____.",
       "options": [
         "last-mcq-26",
-        "last-mcq-25",
-        "last-mcq-27",
-        "last-mcq-24",
-        "last-mcq-28",
-        "last-mcq-23"
+        "last-mcq-21",
+        "last-mcq-13",
+        "last-mcq-28"
       ],
       "explanation": "本句的「at last」指「經過等待、延誤或困難後某件事終於發生」。",
       "sentenceIndex": 54,
@@ -2389,12 +2171,10 @@ export default {
         "at last"
       ],
       "optionReasons": {
-        "last-mcq-26": "本句指「經過等待、延誤或困難後某件事終於發生」。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-23": "「能長時間維持、不容易消失或結束的；持久的」是「lasting」的用法，與本句語境不同。"
+        "last-mcq-26": "本句的「at last」指「經過等待、延誤或困難後某件事終於發生」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-26"
     },
@@ -2406,11 +2186,9 @@ export default {
       "masked": "And ____, I’d like to thank my team.",
       "options": [
         "last-mcq-27",
-        "last-mcq-26",
-        "last-mcq-28",
-        "last-mcq-25",
-        "last-mcq-29",
-        "last-mcq-24"
+        "last-mcq-15",
+        "last-mcq-06",
+        "last-mcq-26"
       ],
       "explanation": "本句的「last but not least」指「雖然最後提到，但重要性不比之前項目低」。",
       "sentenceIndex": 55,
@@ -2419,12 +2197,10 @@ export default {
         "last but not least"
       ],
       "optionReasons": {
-        "last-mcq-27": "本句指「雖然最後提到，但重要性不比之前項目低」。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。"
+        "last-mcq-27": "本句的「last but not least」指「雖然最後提到，但重要性不比之前項目低」。",
+        "last-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-27"
     },
@@ -2436,11 +2212,9 @@ export default {
       "masked": "____, preparation helped me stay calm.",
       "options": [
         "last-mcq-27",
-        "last-mcq-26",
-        "last-mcq-28",
-        "last-mcq-25",
-        "last-mcq-29",
-        "last-mcq-24"
+        "last-mcq-18",
+        "last-mcq-07",
+        "last-mcq-26"
       ],
       "explanation": "本句的「Last but not least」指「雖然最後提到，但重要性不比之前項目低」。",
       "sentenceIndex": 56,
@@ -2449,12 +2223,10 @@ export default {
         "Last but not least"
       ],
       "optionReasons": {
-        "last-mcq-27": "本句指「雖然最後提到，但重要性不比之前項目低」。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-24": "「在很長時間後仍然存在的深刻印象」是「lasting impression」的用法，與本句語境不同。"
+        "last-mcq-27": "本句的「Last but not least」指「雖然最後提到，但重要性不比之前項目低」。",
+        "last-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-27"
     },
@@ -2466,11 +2238,9 @@ export default {
       "masked": "The ____ I wanted was to forget my script.",
       "options": [
         "last-mcq-28",
-        "last-mcq-27",
-        "last-mcq-29",
-        "last-mcq-26",
+        "last-mcq-14",
         "last-mcq-30",
-        "last-mcq-25"
+        "last-mcq-02"
       ],
       "explanation": "本句的「last thing」指「在所有可能情況中最不希望／最不需要出現的事情」。",
       "sentenceIndex": 57,
@@ -2479,12 +2249,10 @@ export default {
         "last thing"
       ],
       "optionReasons": {
-        "last-mcq-28": "本句指「在所有可能情況中最不希望／最不需要出現的事情」。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。"
+        "last-mcq-28": "本句的「last thing」指「在所有可能情況中最不希望／最不需要出現的事情」。",
+        "last-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-28"
     },
@@ -2496,11 +2264,9 @@ export default {
       "masked": "The ____ we need is another delay.",
       "options": [
         "last-mcq-28",
-        "last-mcq-27",
-        "last-mcq-29",
-        "last-mcq-26",
-        "last-mcq-30",
-        "last-mcq-25"
+        "last-mcq-25",
+        "last-mcq-09",
+        "last-mcq-32"
       ],
       "explanation": "本句的「last thing」指「在所有可能情況中最不希望／最不需要出現的事情」。",
       "sentenceIndex": 58,
@@ -2509,12 +2275,10 @@ export default {
         "last thing"
       ],
       "optionReasons": {
-        "last-mcq-28": "本句指「在所有可能情況中最不希望／最不需要出現的事情」。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-25": "「原來事件結束後仍持續存在的長期影響」是「lasting effect/impact」的用法，與本句語境不同。"
+        "last-mcq-28": "本句的「last thing」指「在所有可能情況中最不希望／最不需要出現的事情」。",
+        "last-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-28"
     },
@@ -2526,10 +2290,8 @@ export default {
       "masked": "I checked my slides ____ before going on stage.",
       "options": [
         "last-mcq-29",
-        "last-mcq-28",
-        "last-mcq-30",
-        "last-mcq-27",
-        "last-mcq-31",
+        "last-mcq-22",
+        "last-mcq-06",
         "last-mcq-26"
       ],
       "explanation": "本句的「one last time」指「在結束前再進行最後一次同類行動／事情」。",
@@ -2539,12 +2301,10 @@ export default {
         "one last time"
       ],
       "optionReasons": {
-        "last-mcq-29": "本句指「在結束前再進行最後一次同類行動／事情」。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。"
+        "last-mcq-29": "本句的「one last time」指「在結束前再進行最後一次同類行動／事情」。",
+        "last-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-29"
     },
@@ -2556,10 +2316,8 @@ export default {
       "masked": "Let me ask ____.",
       "options": [
         "last-mcq-29",
+        "last-mcq-18",
         "last-mcq-28",
-        "last-mcq-30",
-        "last-mcq-27",
-        "last-mcq-31",
         "last-mcq-26"
       ],
       "explanation": "本句的「one last question」指「在結束前再進行最後一次同類行動／事情」。",
@@ -2569,12 +2327,10 @@ export default {
         "one last question"
       ],
       "optionReasons": {
-        "last-mcq-29": "本句指「在結束前再進行最後一次同類行動／事情」。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-26": "「經過等待、延誤或困難後某件事終於發生」是「at last」的用法，與本句語境不同。"
+        "last-mcq-29": "本句的「one last question」指「在結束前再進行最後一次同類行動／事情」。",
+        "last-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-29"
     },
@@ -2586,11 +2342,9 @@ export default {
       "masked": "Cancelling the event should be a ____.",
       "options": [
         "last-mcq-30",
-        "last-mcq-29",
-        "last-mcq-31",
-        "last-mcq-28",
-        "last-mcq-32",
-        "last-mcq-27"
+        "last-mcq-01",
+        "last-mcq-20",
+        "last-mcq-07"
       ],
       "explanation": "本句的「last resort」指「其他合理方法都失敗或不可行後才使用的最後辦法」。",
       "sentenceIndex": 61,
@@ -2599,12 +2353,10 @@ export default {
         "last resort"
       ],
       "optionReasons": {
-        "last-mcq-30": "本句指「其他合理方法都失敗或不可行後才使用的最後辦法」。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-32": "「某個領域最新、最先進或極具代表性的事物」是「the last word in something」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。"
+        "last-mcq-30": "本句的「last resort」指「其他合理方法都失敗或不可行後才使用的最後辦法」。",
+        "last-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-30"
     },
@@ -2616,11 +2368,9 @@ export default {
       "masked": "We would use legal action only as a ____.",
       "options": [
         "last-mcq-30",
-        "last-mcq-29",
-        "last-mcq-31",
-        "last-mcq-28",
-        "last-mcq-32",
-        "last-mcq-27"
+        "last-mcq-19",
+        "last-mcq-02",
+        "last-mcq-07"
       ],
       "explanation": "本句的「last resort」指「其他合理方法都失敗或不可行後才使用的最後辦法」。",
       "sentenceIndex": 62,
@@ -2629,12 +2379,10 @@ export default {
         "last resort"
       ],
       "optionReasons": {
-        "last-mcq-30": "本句指「其他合理方法都失敗或不可行後才使用的最後辦法」。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。",
-        "last-mcq-32": "「某個領域最新、最先進或極具代表性的事物」是「the last word in something」的用法，與本句語境不同。",
-        "last-mcq-27": "「雖然最後提到，但重要性不比之前項目低」是「last but not least」的用法，與本句語境不同。"
+        "last-mcq-30": "本句的「last resort」指「其他合理方法都失敗或不可行後才使用的最後辦法」。",
+        "last-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-30"
     },
@@ -2646,11 +2394,9 @@ export default {
       "masked": "The system is the ____ security technology.",
       "options": [
         "last-mcq-32",
-        "last-mcq-31",
-        "last-mcq-33",
-        "last-mcq-30",
-        "last-mcq-29",
-        "last-mcq-28"
+        "last-mcq-22",
+        "last-mcq-07",
+        "last-mcq-26"
       ],
       "explanation": "本句的「last word in」指「某個領域最新、最先進或極具代表性的事物」。",
       "sentenceIndex": 63,
@@ -2659,12 +2405,10 @@ export default {
         "last word in"
       ],
       "optionReasons": {
-        "last-mcq-32": "本句指「某個領域最新、最先進或極具代表性的事物」。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-33": "「用來引出一系列觀點、步驟或項目中的最後一項」是「lastly」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。"
+        "last-mcq-32": "本句的「last word in」指「某個領域最新、最先進或極具代表性的事物」。",
+        "last-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-32"
     },
@@ -2676,11 +2420,9 @@ export default {
       "masked": "At the time, the hotel was the ____ luxury.",
       "options": [
         "last-mcq-32",
-        "last-mcq-31",
-        "last-mcq-33",
-        "last-mcq-30",
-        "last-mcq-29",
-        "last-mcq-28"
+        "last-mcq-21",
+        "last-mcq-26",
+        "last-mcq-07"
       ],
       "explanation": "本句的「last word in」指「某個領域最新、最先進或極具代表性的事物」。",
       "sentenceIndex": 64,
@@ -2689,12 +2431,10 @@ export default {
         "last word in"
       ],
       "optionReasons": {
-        "last-mcq-32": "本句指「某個領域最新、最先進或極具代表性的事物」。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-33": "「用來引出一系列觀點、步驟或項目中的最後一項」是「lastly」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。"
+        "last-mcq-32": "本句的「last word in」指「某個領域最新、最先進或極具代表性的事物」。",
+        "last-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-32"
     },
@@ -2706,11 +2446,9 @@ export default {
       "masked": "____, remember to speak slowly and clearly.",
       "options": [
         "last-mcq-33",
+        "last-mcq-18",
         "last-mcq-32",
-        "last-mcq-31",
-        "last-mcq-30",
-        "last-mcq-29",
-        "last-mcq-28"
+        "last-mcq-26"
       ],
       "explanation": "本句的「Lastly」指「用來引出一系列觀點、步驟或項目中的最後一項」。",
       "sentenceIndex": 65,
@@ -2719,12 +2457,10 @@ export default {
         "Lastly"
       ],
       "optionReasons": {
-        "last-mcq-33": "本句指「用來引出一系列觀點、步驟或項目中的最後一項」。",
-        "last-mcq-32": "「某個領域最新、最先進或極具代表性的事物」是「the last word in something」的用法，與本句語境不同。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。"
+        "last-mcq-33": "本句的「Lastly」指「用來引出一系列觀點、步驟或項目中的最後一項」。",
+        "last-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-33"
     },
@@ -2736,11 +2472,9 @@ export default {
       "masked": "____, I want to thank everyone who helped.",
       "options": [
         "last-mcq-33",
-        "last-mcq-32",
-        "last-mcq-31",
-        "last-mcq-30",
-        "last-mcq-29",
-        "last-mcq-28"
+        "last-mcq-22",
+        "last-mcq-26",
+        "last-mcq-32"
       ],
       "explanation": "本句的「Lastly」指「用來引出一系列觀點、步驟或項目中的最後一項」。",
       "sentenceIndex": 66,
@@ -2749,12 +2483,10 @@ export default {
         "Lastly"
       ],
       "optionReasons": {
-        "last-mcq-33": "本句指「用來引出一系列觀點、步驟或項目中的最後一項」。",
-        "last-mcq-32": "「某個領域最新、最先進或極具代表性的事物」是「the last word in something」的用法，與本句語境不同。",
-        "last-mcq-31": "「作最後發言，或對某件事情擁有最終決定權」是「have the last word」的用法，與本句語境不同。",
-        "last-mcq-30": "「其他合理方法都失敗或不可行後才使用的最後辦法」是「last resort」的用法，與本句語境不同。",
-        "last-mcq-29": "「在結束前再進行最後一次同類行動／事情」是「one last + noun」的用法，與本句語境不同。",
-        "last-mcq-28": "「在所有可能情況中最不希望／最不需要出現的事情」是「the last thing someone wants/needs」的用法，與本句語境不同。"
+        "last-mcq-33": "本句的「Lastly」指「用來引出一系列觀點、步驟或項目中的最後一項」。",
+        "last-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "last-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "last-mcq-33"
     }
@@ -2766,5 +2498,7 @@ export default {
     "sha256": "2278aa332216a6050160351d9fe8a6f6785009f99611f40460223edadfb3d54c",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

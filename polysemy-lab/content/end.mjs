@@ -849,11 +849,9 @@ export default {
       "masked": "Her influence did not ____ when the classes ended.",
       "options": [
         "end-mcq-01",
-        "end-mcq-02",
-        "end-mcq-03",
-        "end-mcq-04",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-26",
+        "end-mcq-24",
+        "end-mcq-20"
       ],
       "explanation": "本句的「end」指「某件事停止繼續並到達結束點」。",
       "sentenceIndex": 0,
@@ -862,12 +860,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-01": "本句指「某件事停止繼續並到達結束點」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-01": "本句的「end」指「某件事停止繼續並到達結束點」。",
+        "end-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-01"
     },
@@ -879,11 +875,9 @@ export default {
       "masked": "The meeting ____ at five.",
       "options": [
         "end-mcq-01",
-        "end-mcq-02",
-        "end-mcq-03",
-        "end-mcq-04",
         "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-27",
+        "end-mcq-21"
       ],
       "explanation": "本句的「ended」指「某件事停止繼續並到達結束點」。",
       "sentenceIndex": 1,
@@ -892,12 +886,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-01": "本句指「某件事停止繼續並到達結束點」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-01": "本句的「ended」指「某件事停止繼續並到達結束點」。",
+        "end-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-01"
     },
@@ -909,11 +901,9 @@ export default {
       "masked": "The conversation ____ suddenly.",
       "options": [
         "end-mcq-01",
-        "end-mcq-02",
-        "end-mcq-03",
-        "end-mcq-04",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-26",
+        "end-mcq-20",
+        "end-mcq-28"
       ],
       "explanation": "本句的「ended」指「某件事停止繼續並到達結束點」。",
       "sentenceIndex": 2,
@@ -922,12 +912,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-01": "本句指「某件事停止繼續並到達結束點」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-01": "本句的「ended」指「某件事停止繼續並到達結束點」。",
+        "end-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-01"
     },
@@ -939,11 +927,9 @@ export default {
       "masked": "They decided to ____.",
       "options": [
         "end-mcq-02",
-        "end-mcq-01",
+        "end-mcq-09",
         "end-mcq-03",
-        "end-mcq-04",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-08"
       ],
       "explanation": "本句的「end the discussion」指「主動令某個正在進行的事情停止」。",
       "sentenceIndex": 3,
@@ -952,12 +938,10 @@ export default {
         "end the discussion"
       ],
       "optionReasons": {
-        "end-mcq-02": "本句指「主動令某個正在進行的事情停止」。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-02": "本句的「end the discussion」指「主動令某個正在進行的事情停止」。",
+        "end-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-02"
     },
@@ -969,11 +953,9 @@ export default {
       "masked": "The agreement ____ the dispute.",
       "options": [
         "end-mcq-02",
-        "end-mcq-01",
-        "end-mcq-03",
-        "end-mcq-04",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-18",
+        "end-mcq-17",
+        "end-mcq-28"
       ],
       "explanation": "本句的「ended」指「主動令某個正在進行的事情停止」。",
       "sentenceIndex": 4,
@@ -982,12 +964,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-02": "本句指「主動令某個正在進行的事情停止」。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-02": "本句的「ended」指「主動令某個正在進行的事情停止」。",
+        "end-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-02"
     },
@@ -999,11 +979,9 @@ export default {
       "masked": "The school year ____.",
       "options": [
         "end-mcq-03",
-        "end-mcq-02",
-        "end-mcq-04",
-        "end-mcq-01",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-27",
+        "end-mcq-29",
+        "end-mcq-24"
       ],
       "explanation": "本句的「came to an end」指「某事到達終點、告一段落」。",
       "sentenceIndex": 5,
@@ -1012,12 +990,10 @@ export default {
         "came to an end"
       ],
       "optionReasons": {
-        "end-mcq-03": "本句指「某事到達終點、告一段落」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-03": "本句的「came to an end」指「某事到達終點、告一段落」。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-03"
     },
@@ -1029,11 +1005,9 @@ export default {
       "masked": "Their conversation slowly came to an ____.",
       "options": [
         "end-mcq-03",
-        "end-mcq-02",
-        "end-mcq-04",
-        "end-mcq-01",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-pdf-001",
+        "end-mcq-28",
+        "end-mcq-20"
       ],
       "explanation": "本句的「end」指「某事到達終點、告一段落」。",
       "sentenceIndex": 6,
@@ -1042,12 +1016,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-03": "本句指「某事到達終點、告一段落」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-03": "本句的「end」指「某事到達終點、告一段落」。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-03"
     },
@@ -1059,11 +1031,9 @@ export default {
       "masked": "The bell ____.",
       "options": [
         "end-mcq-03",
-        "end-mcq-02",
-        "end-mcq-04",
-        "end-mcq-01",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-21",
+        "end-mcq-28",
+        "end-pdf-004"
       ],
       "explanation": "本句的「brought the lesson to an end」指「某事到達終點、告一段落」。",
       "sentenceIndex": 7,
@@ -1072,12 +1042,10 @@ export default {
         "brought the lesson to an end"
       ],
       "optionReasons": {
-        "end-mcq-03": "本句指「某事到達終點、告一段落」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-03": "本句的「brought the lesson to an end」指「某事到達終點、告一段落」。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-03"
     },
@@ -1089,11 +1057,9 @@ export default {
       "masked": "The decision brought the argument to an ____.",
       "options": [
         "end-mcq-03",
-        "end-mcq-02",
-        "end-mcq-04",
-        "end-mcq-01",
-        "end-mcq-05",
-        "end-mcq-06"
+        "end-mcq-24",
+        "end-mcq-20",
+        "end-pdf-002"
       ],
       "explanation": "本句的「end」指「某事到達終點、告一段落」。",
       "sentenceIndex": 8,
@@ -1102,12 +1068,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-03": "本句指「某事到達終點、告一段落」。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-03": "本句的「end」指「某事到達終點、告一段落」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-03"
     },
@@ -1119,11 +1083,9 @@ export default {
       "masked": "We need to ____ the confusion.",
       "options": [
         "end-mcq-04",
-        "end-mcq-03",
-        "end-mcq-05",
-        "end-mcq-02",
-        "end-mcq-06",
-        "end-mcq-01"
+        "end-mcq-16",
+        "end-pdf-001",
+        "end-mcq-28"
       ],
       "explanation": "本句的「put an end to」指「主動終止問題、行為或狀況」。",
       "sentenceIndex": 9,
@@ -1132,12 +1094,10 @@ export default {
         "put an end to"
       ],
       "optionReasons": {
-        "end-mcq-04": "本句指「主動終止問題、行為或狀況」。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。"
+        "end-mcq-04": "本句的「put an end to」指「主動終止問題、行為或狀況」。",
+        "end-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-04"
     },
@@ -1149,11 +1109,9 @@ export default {
       "masked": "The new rule put an ____ to the argument.",
       "options": [
         "end-mcq-04",
-        "end-mcq-03",
-        "end-mcq-05",
-        "end-mcq-02",
-        "end-mcq-06",
-        "end-mcq-01"
+        "end-mcq-09",
+        "end-mcq-28",
+        "end-mcq-31"
       ],
       "explanation": "本句的「end」指「主動終止問題、行為或狀況」。",
       "sentenceIndex": 10,
@@ -1162,12 +1120,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-04": "本句指「主動終止問題、行為或狀況」。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-01": "「某件事停止繼續並到達結束點」是「end — verb」的用法，與本句語境不同。"
+        "end-mcq-04": "本句的「end」指「主動終止問題、行為或狀況」。",
+        "end-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-04"
     },
@@ -1179,11 +1135,9 @@ export default {
       "masked": "I liked the ____.",
       "options": [
         "end-mcq-05",
-        "end-mcq-04",
-        "end-mcq-06",
-        "end-mcq-03",
-        "end-mcq-07",
-        "end-mcq-02"
+        "end-mcq-30",
+        "end-mcq-12",
+        "end-mcq-21"
       ],
       "explanation": "本句的「end of the story」指「某段時間、活動、作品等最後的一部分」。",
       "sentenceIndex": 11,
@@ -1192,12 +1146,10 @@ export default {
         "end of the story"
       ],
       "optionReasons": {
-        "end-mcq-05": "本句指「某段時間、活動、作品等最後的一部分」。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。"
+        "end-mcq-05": "本句的「end of the story」指「某段時間、活動、作品等最後的一部分」。",
+        "end-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-05"
     },
@@ -1209,11 +1161,9 @@ export default {
       "masked": "We reached the ____ of the lesson.",
       "options": [
         "end-mcq-05",
-        "end-mcq-04",
-        "end-mcq-06",
-        "end-mcq-03",
-        "end-mcq-07",
-        "end-mcq-02"
+        "end-mcq-28",
+        "end-mcq-01",
+        "end-mcq-24"
       ],
       "explanation": "本句的「end」指「某段時間、活動、作品等最後的一部分」。",
       "sentenceIndex": 12,
@@ -1222,12 +1172,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-05": "本句指「某段時間、活動、作品等最後的一部分」。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-02": "「主動令某個正在進行的事情停止」是「end something」的用法，與本句語境不同。"
+        "end-mcq-05": "本句的「end」指「某段時間、活動、作品等最後的一部分」。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-05"
     },
@@ -1239,11 +1187,9 @@ export default {
       "masked": "There is a question ____.",
       "options": [
         "end-mcq-06",
-        "end-mcq-05",
-        "end-mcq-07",
-        "end-mcq-04",
-        "end-mcq-08",
-        "end-mcq-03"
+        "end-mcq-24",
+        "end-mcq-22",
+        "end-mcq-04"
       ],
       "explanation": "本句的「at the end of the chapter」指「位於某段時間、地方或作品的最後部分」。",
       "sentenceIndex": 13,
@@ -1252,12 +1198,10 @@ export default {
         "at the end of the chapter"
       ],
       "optionReasons": {
-        "end-mcq-06": "本句指「位於某段時間、地方或作品的最後部分」。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。"
+        "end-mcq-06": "本句的「at the end of the chapter」指「位於某段時間、地方或作品的最後部分」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-06"
     },
@@ -1269,11 +1213,9 @@ export default {
       "masked": "We spoke at the ____ of class.",
       "options": [
         "end-mcq-06",
-        "end-mcq-05",
-        "end-mcq-07",
-        "end-mcq-04",
-        "end-mcq-08",
-        "end-mcq-03"
+        "end-mcq-18",
+        "end-mcq-24",
+        "end-mcq-28"
       ],
       "explanation": "本句的「end」指「位於某段時間、地方或作品的最後部分」。",
       "sentenceIndex": 14,
@@ -1282,12 +1224,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-06": "本句指「位於某段時間、地方或作品的最後部分」。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-03": "「某事到達終點、告一段落」是「come to an end」的用法，與本句語境不同。"
+        "end-mcq-06": "本句的「end」指「位於某段時間、地方或作品的最後部分」。",
+        "end-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-06"
     },
@@ -1299,11 +1239,9 @@ export default {
       "masked": "By the ____, I was exhausted.",
       "options": [
         "end-mcq-07",
-        "end-mcq-06",
-        "end-mcq-08",
-        "end-mcq-05",
-        "end-mcq-09",
-        "end-mcq-04"
+        "end-pdf-004",
+        "end-pdf-002",
+        "end-mcq-25"
       ],
       "explanation": "本句的「end of the week」指「最遲到某段時間／活動結束時為止」。",
       "sentenceIndex": 15,
@@ -1312,12 +1250,10 @@ export default {
         "end of the week"
       ],
       "optionReasons": {
-        "end-mcq-07": "本句指「最遲到某段時間／活動結束時為止」。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。"
+        "end-mcq-07": "本句的「end of the week」指「最遲到某段時間／活動結束時為止」。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-07"
     },
@@ -1329,11 +1265,9 @@ export default {
       "masked": "She had improved a lot by the ____ of the course.",
       "options": [
         "end-mcq-07",
-        "end-mcq-06",
-        "end-mcq-08",
-        "end-mcq-05",
-        "end-mcq-09",
-        "end-mcq-04"
+        "end-mcq-12",
+        "end-mcq-20",
+        "end-pdf-001"
       ],
       "explanation": "本句的「end」指「最遲到某段時間／活動結束時為止」。",
       "sentenceIndex": 16,
@@ -1342,12 +1276,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-07": "本句指「最遲到某段時間／活動結束時為止」。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-04": "「主動終止問題、行為或狀況」是「put an end to」的用法，與本句語境不同。"
+        "end-mcq-07": "本句的「end」指「最遲到某段時間／活動結束時為止」。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-07"
     },
@@ -1359,11 +1291,9 @@ export default {
       "masked": "____, she decided to stay.",
       "options": [
         "end-mcq-08",
-        "end-mcq-07",
-        "end-mcq-09",
-        "end-mcq-06",
-        "end-mcq-10",
-        "end-mcq-05"
+        "end-pdf-002",
+        "end-mcq-12",
+        "end-mcq-27"
       ],
       "explanation": "本句的「In the end」指「經過發展、考慮或困難後的最終結果」。",
       "sentenceIndex": 17,
@@ -1372,12 +1302,10 @@ export default {
         "In the end"
       ],
       "optionReasons": {
-        "end-mcq-08": "本句指「經過發展、考慮或困難後的最終結果」。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。"
+        "end-mcq-08": "本句的「In the end」指「經過發展、考慮或困難後的最終結果」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-08"
     },
@@ -1389,11 +1317,9 @@ export default {
       "masked": "Everything worked out in the ____.",
       "options": [
         "end-mcq-08",
-        "end-mcq-07",
-        "end-mcq-09",
-        "end-mcq-06",
-        "end-mcq-10",
-        "end-mcq-05"
+        "end-mcq-24",
+        "end-mcq-20",
+        "end-pdf-002"
       ],
       "explanation": "本句的「end」指「經過發展、考慮或困難後的最終結果」。",
       "sentenceIndex": 18,
@@ -1402,12 +1328,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-08": "本句指「經過發展、考慮或困難後的最終結果」。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-05": "「某段時間、活動、作品等最後的一部分」是「end — final part」的用法，與本句語境不同。"
+        "end-mcq-08": "本句的「end」指「經過發展、考慮或困難後的最終結果」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-08"
     },
@@ -1419,11 +1343,9 @@ export default {
       "masked": "She sat at the ____.",
       "options": [
         "end-mcq-09",
-        "end-mcq-08",
-        "end-mcq-10",
-        "end-mcq-07",
-        "end-mcq-11",
-        "end-mcq-06"
+        "end-mcq-12",
+        "end-mcq-03",
+        "end-mcq-28"
       ],
       "explanation": "本句的「end of the table」指「長形物件、道路或空間最遠的一端／盡頭」。",
       "sentenceIndex": 19,
@@ -1432,12 +1354,10 @@ export default {
         "end of the table"
       ],
       "optionReasons": {
-        "end-mcq-09": "本句指「長形物件、道路或空間最遠的一端／盡頭」。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-09": "本句的「end of the table」指「長形物件、道路或空間最遠的一端／盡頭」。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-09"
     },
@@ -1449,11 +1369,9 @@ export default {
       "masked": "The shop is at the ____ of the street.",
       "options": [
         "end-mcq-09",
-        "end-mcq-08",
-        "end-mcq-10",
-        "end-mcq-07",
-        "end-mcq-11",
-        "end-mcq-06"
+        "end-mcq-04",
+        "end-mcq-28",
+        "end-mcq-12"
       ],
       "explanation": "本句的「end」指「長形物件、道路或空間最遠的一端／盡頭」。",
       "sentenceIndex": 20,
@@ -1462,12 +1380,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-09": "本句指「長形物件、道路或空間最遠的一端／盡頭」。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-06": "「位於某段時間、地方或作品的最後部分」是「at the end of」的用法，與本句語境不同。"
+        "end-mcq-09": "本句的「end」指「長形物件、道路或空間最遠的一端／盡頭」。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-09"
     },
@@ -1479,11 +1395,9 @@ export default {
       "masked": "The school is at the ____.",
       "options": [
         "end-mcq-26",
-        "end-mcq-25",
-        "end-mcq-27",
-        "end-mcq-24",
-        "end-mcq-28",
-        "end-mcq-23"
+        "end-mcq-03",
+        "end-mcq-02",
+        "end-mcq-24"
       ],
       "explanation": "本句的「end of the road」指「一條道路／線性空間最後的位置」。",
       "sentenceIndex": 21,
@@ -1492,12 +1406,10 @@ export default {
         "end of the road"
       ],
       "optionReasons": {
-        "end-mcq-26": "本句指「一條道路／線性空間最後的位置」。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。"
+        "end-mcq-26": "本句的「end of the road」指「一條道路／線性空間最後的位置」。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-26"
     },
@@ -1509,11 +1421,9 @@ export default {
       "masked": "We walked to the ____ of the street.",
       "options": [
         "end-mcq-26",
-        "end-mcq-25",
-        "end-mcq-27",
-        "end-mcq-24",
-        "end-mcq-28",
-        "end-mcq-23"
+        "end-mcq-04",
+        "end-pdf-001",
+        "end-mcq-03"
       ],
       "explanation": "本句的「end」指「一條道路／線性空間最後的位置」。",
       "sentenceIndex": 22,
@@ -1522,12 +1432,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-26": "本句指「一條道路／線性空間最後的位置」。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。"
+        "end-mcq-26": "本句的「end」指「一條道路／線性空間最後的位置」。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-26"
     },
@@ -1539,11 +1447,9 @@ export default {
       "masked": "Hold the other ____.",
       "options": [
         "end-pdf-001",
-        "end-mcq-09",
-        "end-mcq-11",
-        "end-mcq-08",
-        "end-mcq-12",
-        "end-mcq-07"
+        "end-mcq-20",
+        "end-mcq-02",
+        "end-mcq-22"
       ],
       "explanation": "本句的「end of the rope」指「長形物件兩端之一」。",
       "sentenceIndex": 23,
@@ -1552,12 +1458,10 @@ export default {
         "end of the rope"
       ],
       "optionReasons": {
-        "end-pdf-001": "本句指「長形物件兩端之一」。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
+        "end-pdf-001": "本句的「end of the rope」指「長形物件兩端之一」。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-001"
     },
@@ -1569,11 +1473,9 @@ export default {
       "masked": "There is a mark at one ____ of the stick.",
       "options": [
         "end-pdf-001",
-        "end-mcq-09",
-        "end-mcq-11",
-        "end-mcq-08",
-        "end-mcq-12",
-        "end-mcq-07"
+        "end-mcq-26",
+        "end-mcq-02",
+        "end-mcq-13"
       ],
       "explanation": "本句的「end」指「長形物件兩端之一」。",
       "sentenceIndex": 24,
@@ -1582,12 +1484,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-pdf-001": "本句指「長形物件兩端之一」。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
+        "end-pdf-001": "本句的「end」指「長形物件兩端之一」。",
+        "end-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-001"
     },
@@ -1599,11 +1499,9 @@ export default {
       "masked": "The ____ was positive.",
       "options": [
         "end-mcq-10",
-        "end-mcq-09",
-        "end-mcq-11",
-        "end-mcq-08",
-        "end-mcq-12",
-        "end-mcq-07"
+        "end-pdf-002",
+        "end-pdf-003",
+        "end-mcq-20"
       ],
       "explanation": "本句的「end result」指「整個過程完成後最終得到的結果」。",
       "sentenceIndex": 25,
@@ -1612,12 +1510,10 @@ export default {
         "end result"
       ],
       "optionReasons": {
-        "end-mcq-10": "本句指「整個過程完成後最終得到的結果」。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
+        "end-mcq-10": "本句的「end result」指「整個過程完成後最終得到的結果」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-10"
     },
@@ -1629,11 +1525,9 @@ export default {
       "masked": "We need to think about the ____ result.",
       "options": [
         "end-mcq-10",
-        "end-mcq-09",
-        "end-mcq-11",
-        "end-mcq-08",
-        "end-mcq-12",
-        "end-mcq-07"
+        "end-mcq-21",
+        "end-mcq-27",
+        "end-mcq-24"
       ],
       "explanation": "本句的「end」指「整個過程完成後最終得到的結果」。",
       "sentenceIndex": 26,
@@ -1642,12 +1536,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-10": "本句指「整個過程完成後最終得到的結果」。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
+        "end-mcq-10": "本句的「end」指「整個過程完成後最終得到的結果」。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-10"
     },
@@ -1659,11 +1551,9 @@ export default {
       "masked": "The ____ was better than expected.",
       "options": [
         "end-mcq-10",
-        "end-mcq-09",
-        "end-mcq-11",
-        "end-mcq-08",
-        "end-mcq-12",
-        "end-mcq-07"
+        "end-pdf-002",
+        "end-mcq-20",
+        "end-mcq-24"
       ],
       "explanation": "本句的「end result」指「整個過程完成後最終得到的結果」。",
       "sentenceIndex": 27,
@@ -1672,12 +1562,10 @@ export default {
         "end result"
       ],
       "optionReasons": {
-        "end-mcq-10": "本句指「整個過程完成後最終得到的結果」。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
+        "end-mcq-10": "本句的「end result」指「整個過程完成後最終得到的結果」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-10"
     },
@@ -1689,11 +1577,9 @@ export default {
       "masked": "Different methods can lead to the same ____ result.",
       "options": [
         "end-mcq-10",
-        "end-mcq-09",
-        "end-mcq-11",
-        "end-mcq-08",
-        "end-mcq-12",
-        "end-mcq-07"
+        "end-mcq-27",
+        "end-mcq-21",
+        "end-mcq-24"
       ],
       "explanation": "本句的「end」指「整個過程完成後最終得到的結果」。",
       "sentenceIndex": 28,
@@ -1702,12 +1588,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-10": "本句指「整個過程完成後最終得到的結果」。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-07": "「最遲到某段時間／活動結束時為止」是「by the end of」的用法，與本句語境不同。"
+        "end-mcq-10": "本句的「end」指「整個過程完成後最終得到的結果」。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-10"
     },
@@ -1719,11 +1603,9 @@ export default {
       "masked": "Education should be a means to an ____, not an end in itself.",
       "options": [
         "end-mcq-11",
-        "end-mcq-10",
-        "end-mcq-12",
-        "end-mcq-09",
-        "end-mcq-13",
-        "end-mcq-08"
+        "end-mcq-28",
+        "end-mcq-30",
+        "end-mcq-21"
       ],
       "explanation": "本句的「end」指「最終希望達成的目的／目標」。",
       "sentenceIndex": 29,
@@ -1732,12 +1614,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-11": "本句指「最終希望達成的目的／目標」。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。"
+        "end-mcq-11": "本句的「end」指「最終希望達成的目的／目標」。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-11"
     },
@@ -1749,11 +1629,9 @@ export default {
       "masked": "They used different methods to achieve the same ____.",
       "options": [
         "end-mcq-11",
-        "end-mcq-10",
-        "end-mcq-12",
-        "end-mcq-09",
-        "end-mcq-13",
-        "end-mcq-08"
+        "end-mcq-19",
+        "end-mcq-24",
+        "end-pdf-001"
       ],
       "explanation": "本句的「end」指「最終希望達成的目的／目標」。",
       "sentenceIndex": 30,
@@ -1762,12 +1640,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-11": "本句指「最終希望達成的目的／目標」。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-08": "「經過發展、考慮或困難後的最終結果」是「in the end」的用法，與本句語境不同。"
+        "end-mcq-11": "本句的「end」指「最終希望達成的目的／目標」。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-11"
     },
@@ -1779,11 +1655,9 @@ export default {
       "masked": "Money is sometimes seen as a ____.",
       "options": [
         "end-mcq-12",
-        "end-mcq-11",
-        "end-mcq-13",
-        "end-mcq-10",
-        "end-mcq-14",
-        "end-mcq-09"
+        "end-mcq-25",
+        "end-mcq-30",
+        "end-pdf-001"
       ],
       "explanation": "本句的「means to an end」指「本身不是目的，而是達成另一目標的方法」。",
       "sentenceIndex": 31,
@@ -1792,12 +1666,10 @@ export default {
         "means to an end"
       ],
       "optionReasons": {
-        "end-mcq-12": "本句指「本身不是目的，而是達成另一目標的方法」。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。"
+        "end-mcq-12": "本句的「means to an end」指「本身不是目的，而是達成另一目標的方法」。",
+        "end-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-12"
     },
@@ -1809,11 +1681,9 @@ export default {
       "masked": "The job was simply a means to an ____.",
       "options": [
         "end-mcq-12",
-        "end-mcq-11",
-        "end-mcq-13",
-        "end-mcq-10",
-        "end-mcq-14",
-        "end-mcq-09"
+        "end-mcq-08",
+        "end-pdf-001",
+        "end-mcq-02"
       ],
       "explanation": "本句的「end」指「本身不是目的，而是達成另一目標的方法」。",
       "sentenceIndex": 32,
@@ -1822,12 +1692,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-12": "本句指「本身不是目的，而是達成另一目標的方法」。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-09": "「長形物件、道路或空間最遠的一端／盡頭」是「end — physical point」的用法，與本句語境不同。"
+        "end-mcq-12": "本句的「end」指「本身不是目的，而是達成另一目標的方法」。",
+        "end-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-12"
     },
@@ -1839,11 +1707,9 @@ export default {
       "masked": "Learning can be ____.",
       "options": [
         "end-mcq-13",
-        "end-mcq-12",
-        "end-mcq-14",
-        "end-mcq-11",
-        "end-mcq-15",
-        "end-mcq-10"
+        "end-mcq-01",
+        "end-mcq-28",
+        "end-pdf-003"
       ],
       "explanation": "本句的「an end in itself」指「本身就是最終追求／具有獨立價值的事物」。",
       "sentenceIndex": 33,
@@ -1852,12 +1718,10 @@ export default {
         "an end in itself"
       ],
       "optionReasons": {
-        "end-mcq-13": "本句指「本身就是最終追求／具有獨立價值的事物」。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。"
+        "end-mcq-13": "本句的「an end in itself」指「本身就是最終追求／具有獨立價值的事物」。",
+        "end-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-13"
     },
@@ -1869,11 +1733,9 @@ export default {
       "masked": "Success should not always be treated as an ____ in itself.",
       "options": [
         "end-mcq-13",
-        "end-mcq-12",
-        "end-mcq-14",
-        "end-mcq-11",
-        "end-mcq-15",
-        "end-mcq-10"
+        "end-mcq-21",
+        "end-mcq-20",
+        "end-mcq-27"
       ],
       "explanation": "本句的「end」指「本身就是最終追求／具有獨立價值的事物」。",
       "sentenceIndex": 34,
@@ -1882,12 +1744,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-13": "本句指「本身就是最終追求／具有獨立價值的事物」。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-11": "「最終希望達成的目的／目標」是「end — purpose」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-10": "「整個過程完成後最終得到的結果」是「end result」的用法，與本句語境不同。"
+        "end-mcq-13": "本句的「end」指「本身就是最終追求／具有獨立價值的事物」。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-13"
     },
@@ -1899,11 +1759,9 @@ export default {
       "masked": "Everything is fine ____.",
       "options": [
         "end-mcq-27",
-        "end-mcq-26",
-        "end-mcq-28",
-        "end-mcq-25",
-        "end-mcq-29",
-        "end-mcq-24"
+        "end-mcq-19",
+        "end-mcq-17",
+        "end-mcq-07"
       ],
       "explanation": "本句的「at my end」指「某人／某機構所負責或所在的一方」。",
       "sentenceIndex": 35,
@@ -1912,12 +1770,10 @@ export default {
         "at my end"
       ],
       "optionReasons": {
-        "end-mcq-27": "本句指「某人／某機構所負責或所在的一方」。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。"
+        "end-mcq-27": "本句的「at my end」指「某人／某機構所負責或所在的一方」。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-27"
     },
@@ -1929,11 +1785,9 @@ export default {
       "masked": "There seems to be a problem at their ____.",
       "options": [
         "end-mcq-27",
-        "end-mcq-26",
-        "end-mcq-28",
-        "end-mcq-25",
-        "end-mcq-29",
-        "end-mcq-24"
+        "end-pdf-001",
+        "end-mcq-03",
+        "end-mcq-02"
       ],
       "explanation": "本句的「end」指「某人／某機構所負責或所在的一方」。",
       "sentenceIndex": 36,
@@ -1942,12 +1796,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-27": "本句指「某人／某機構所負責或所在的一方」。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。"
+        "end-mcq-27": "本句的「end」指「某人／某機構所負責或所在的一方」。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-27"
     },
@@ -1959,11 +1811,9 @@ export default {
       "masked": "Can you check it ____?",
       "options": [
         "end-mcq-28",
-        "end-mcq-27",
-        "end-mcq-29",
-        "end-mcq-26",
-        "end-mcq-30",
-        "end-mcq-25"
+        "end-mcq-24",
+        "end-mcq-01",
+        "end-mcq-26"
       ],
       "explanation": "本句的「at your end」指「某個流程、系統、溝通或責任鏈中的某一方」。",
       "sentenceIndex": 37,
@@ -1972,12 +1822,10 @@ export default {
         "at your end"
       ],
       "optionReasons": {
-        "end-mcq-28": "本句指「某個流程、系統、溝通或責任鏈中的某一方」。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-30": "「某件重要事情徹底停止存在／繼續」是「29. the end = death/destruction（末日／終結） — 結束；毀滅」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。"
+        "end-mcq-28": "本句的「at your end」指「某個流程、系統、溝通或責任鏈中的某一方」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-28"
     },
@@ -1989,11 +1837,9 @@ export default {
       "masked": "There’s no issue at our ____.",
       "options": [
         "end-mcq-28",
-        "end-mcq-27",
-        "end-mcq-29",
-        "end-mcq-26",
-        "end-mcq-30",
-        "end-mcq-25"
+        "end-mcq-24",
+        "end-mcq-20",
+        "end-mcq-09"
       ],
       "explanation": "本句的「end」指「某個流程、系統、溝通或責任鏈中的某一方」。",
       "sentenceIndex": 38,
@@ -2002,12 +1848,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-28": "本句指「某個流程、系統、溝通或責任鏈中的某一方」。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-30": "「某件重要事情徹底停止存在／繼續」是「29. the end = death/destruction（末日／終結） — 結束；毀滅」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。"
+        "end-mcq-28": "本句的「end」指「某個流程、系統、溝通或責任鏈中的某一方」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-28"
     },
@@ -2019,11 +1863,9 @@ export default {
       "masked": "We ____ for two hours.",
       "options": [
         "end-mcq-15",
-        "end-mcq-14",
-        "end-mcq-16",
-        "end-mcq-13",
-        "end-mcq-17",
-        "end-mcq-12"
+        "end-mcq-24",
+        "end-mcq-02",
+        "end-pdf-002"
       ],
       "explanation": "本句的「ended up talking」指「經一連串事件後最終處於某地、狀態或做了某事」。",
       "sentenceIndex": 39,
@@ -2032,12 +1874,10 @@ export default {
         "ended up talking"
       ],
       "optionReasons": {
-        "end-mcq-15": "本句指「經一連串事件後最終處於某地、狀態或做了某事」。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。"
+        "end-mcq-15": "本句的「ended up talking」指「經一連串事件後最終處於某地、狀態或做了某事」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-15"
     },
@@ -2049,11 +1889,9 @@ export default {
       "masked": "She ____ up becoming a teacher.",
       "options": [
         "end-mcq-15",
-        "end-mcq-14",
-        "end-mcq-16",
-        "end-mcq-13",
-        "end-mcq-17",
-        "end-mcq-12"
+        "end-mcq-24",
+        "end-mcq-02",
+        "end-mcq-19"
       ],
       "explanation": "本句的「ended」指「經一連串事件後最終處於某地、狀態或做了某事」。",
       "sentenceIndex": 40,
@@ -2062,12 +1900,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-15": "本句指「經一連串事件後最終處於某地、狀態或做了某事」。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。"
+        "end-mcq-15": "本句的「ended」指「經一連串事件後最終處於某地、狀態或做了某事」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-15"
     },
@@ -2079,11 +1915,9 @@ export default {
       "masked": "I ____ the second option.",
       "options": [
         "end-mcq-29",
-        "end-mcq-28",
         "end-mcq-30",
-        "end-mcq-27",
-        "end-mcq-31",
-        "end-mcq-26"
+        "end-mcq-25",
+        "end-mcq-24"
       ],
       "explanation": "本句的「ended up choosing」指「最後結果是進行了某項行動，可能與原計劃不同」。",
       "sentenceIndex": 41,
@@ -2092,12 +1926,10 @@ export default {
         "ended up choosing"
       ],
       "optionReasons": {
-        "end-mcq-29": "本句指「最後結果是進行了某項行動，可能與原計劃不同」。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-30": "「某件重要事情徹底停止存在／繼續」是「29. the end = death/destruction（末日／終結） — 結束；毀滅」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-31": "「某段時間／人生階段的最後部分」是「30. end = final stage of life/career/period（末期） — 晚期；末段」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。"
+        "end-mcq-29": "本句的「ended up choosing」指「最後結果是進行了某項行動，可能與原計劃不同」。",
+        "end-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-29"
     },
@@ -2109,11 +1941,9 @@ export default {
       "masked": "He ____ up staying late.",
       "options": [
         "end-mcq-29",
-        "end-mcq-28",
-        "end-mcq-30",
-        "end-mcq-27",
-        "end-mcq-31",
-        "end-mcq-26"
+        "end-pdf-003",
+        "end-mcq-21",
+        "end-mcq-30"
       ],
       "explanation": "本句的「ended」指「最後結果是進行了某項行動，可能與原計劃不同」。",
       "sentenceIndex": 42,
@@ -2122,12 +1952,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-29": "本句指「最後結果是進行了某項行動，可能與原計劃不同」。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-30": "「某件重要事情徹底停止存在／繼續」是「29. the end = death/destruction（末日／終結） — 結束；毀滅」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-31": "「某段時間／人生階段的最後部分」是「30. end = final stage of life/career/period（末期） — 晚期；末段」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。"
+        "end-mcq-29": "本句的「ended」指「最後結果是進行了某項行動，可能與原計劃不同」。",
+        "end-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-29"
     },
@@ -2139,11 +1967,9 @@ export default {
       "masked": "The situation ____ than before.",
       "options": [
         "end-mcq-15",
-        "end-mcq-14",
-        "end-mcq-16",
-        "end-mcq-13",
-        "end-mcq-17",
-        "end-mcq-12"
+        "end-pdf-002",
+        "end-mcq-28",
+        "end-mcq-02"
       ],
       "explanation": "本句的「ended up worse」指「經一連串事件後最終處於某地、狀態或做了某事」。",
       "sentenceIndex": 43,
@@ -2152,12 +1978,10 @@ export default {
         "ended up worse"
       ],
       "optionReasons": {
-        "end-mcq-15": "本句指「經一連串事件後最終處於某地、狀態或做了某事」。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。"
+        "end-mcq-15": "本句的「ended up worse」指「經一連串事件後最終處於某地、狀態或做了某事」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-15"
     },
@@ -2169,11 +1993,9 @@ export default {
       "masked": "He ____ up a teacher.",
       "options": [
         "end-mcq-15",
-        "end-mcq-14",
-        "end-mcq-16",
-        "end-mcq-13",
-        "end-mcq-17",
-        "end-mcq-12"
+        "end-pdf-002",
+        "end-mcq-02",
+        "end-mcq-24"
       ],
       "explanation": "本句的「ended」指「經一連串事件後最終處於某地、狀態或做了某事」。",
       "sentenceIndex": 44,
@@ -2182,12 +2004,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-15": "本句指「經一連串事件後最終處於某地、狀態或做了某事」。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。"
+        "end-mcq-15": "本句的「ended」指「經一連串事件後最終處於某地、狀態或做了某事」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-15"
     },
@@ -2199,11 +2019,9 @@ export default {
       "masked": "We took the wrong road and ____.",
       "options": [
         "end-mcq-15",
-        "end-mcq-14",
-        "end-mcq-16",
-        "end-mcq-13",
-        "end-mcq-17",
-        "end-mcq-12"
+        "end-mcq-19",
+        "end-mcq-28",
+        "end-mcq-02"
       ],
       "explanation": "本句的「ended up in another town」指「經一連串事件後最終處於某地、狀態或做了某事」。",
       "sentenceIndex": 45,
@@ -2212,12 +2030,10 @@ export default {
         "ended up in another town"
       ],
       "optionReasons": {
-        "end-mcq-15": "本句指「經一連串事件後最終處於某地、狀態或做了某事」。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。"
+        "end-mcq-15": "本句的「ended up in another town」指「經一連串事件後最終處於某地、狀態或做了某事」。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-15"
     },
@@ -2229,10 +2045,8 @@ export default {
       "masked": "How did we ____ up here?",
       "options": [
         "end-mcq-15",
-        "end-mcq-14",
-        "end-mcq-16",
-        "end-mcq-13",
-        "end-mcq-17",
+        "end-mcq-24",
+        "end-mcq-02",
         "end-mcq-12"
       ],
       "explanation": "本句的「end」指「經一連串事件後最終處於某地、狀態或做了某事」。",
@@ -2242,12 +2056,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-15": "本句指「經一連串事件後最終處於某地、狀態或做了某事」。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-12": "「本身不是目的，而是達成另一目標的方法」是「means to an end」的用法，與本句語境不同。"
+        "end-mcq-15": "本句的「end」指「經一連串事件後最終處於某地、狀態或做了某事」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-15"
     },
@@ -2259,11 +2071,9 @@ export default {
       "masked": "The presentation ____.",
       "options": [
         "end-mcq-16",
-        "end-mcq-15",
-        "end-mcq-17",
-        "end-mcq-14",
-        "end-mcq-18",
-        "end-mcq-13"
+        "end-mcq-22",
+        "end-mcq-04",
+        "end-mcq-28"
       ],
       "explanation": "本句的「ended with a question」指「最後一個項目／事件是某事」。",
       "sentenceIndex": 47,
@@ -2272,12 +2082,10 @@ export default {
         "ended with a question"
       ],
       "optionReasons": {
-        "end-mcq-16": "本句指「最後一個項目／事件是某事」。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。"
+        "end-mcq-16": "本句的「ended with a question」指「最後一個項目／事件是某事」。",
+        "end-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-16"
     },
@@ -2289,11 +2097,9 @@ export default {
       "masked": "The story ____ with the family reunited.",
       "options": [
         "end-mcq-16",
-        "end-mcq-15",
-        "end-mcq-17",
-        "end-mcq-14",
-        "end-mcq-18",
-        "end-mcq-13"
+        "end-pdf-003",
+        "end-pdf-002",
+        "end-mcq-20"
       ],
       "explanation": "本句的「ends」指「最後一個項目／事件是某事」。",
       "sentenceIndex": 48,
@@ -2302,12 +2108,10 @@ export default {
         "ends"
       ],
       "optionReasons": {
-        "end-mcq-16": "本句指「最後一個項目／事件是某事」。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-13": "「本身就是最終追求／具有獨立價值的事物」是「end in itself」的用法，與本句語境不同。"
+        "end-mcq-16": "本句的「ends」指「最後一個項目／事件是某事」。",
+        "end-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-16"
     },
@@ -2319,11 +2123,9 @@ export default {
       "masked": "The argument ____.",
       "options": [
         "end-mcq-17",
-        "end-mcq-16",
-        "end-mcq-18",
-        "end-mcq-15",
-        "end-mcq-19",
-        "end-mcq-14"
+        "end-mcq-24",
+        "end-mcq-02",
+        "end-mcq-20"
       ],
       "explanation": "本句的「ended in silence」指「整個過程最終導致某種結果」。",
       "sentenceIndex": 49,
@@ -2332,12 +2134,10 @@ export default {
         "ended in silence"
       ],
       "optionReasons": {
-        "end-mcq-17": "本句指「整個過程最終導致某種結果」。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
+        "end-mcq-17": "本句的「ended in silence」指「整個過程最終導致某種結果」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-17"
     },
@@ -2349,11 +2149,9 @@ export default {
       "masked": "The match ____ in a draw.",
       "options": [
         "end-mcq-17",
-        "end-mcq-16",
-        "end-mcq-18",
-        "end-mcq-15",
-        "end-mcq-19",
-        "end-mcq-14"
+        "end-mcq-24",
+        "end-mcq-20",
+        "end-mcq-02"
       ],
       "explanation": "本句的「ended」指「整個過程最終導致某種結果」。",
       "sentenceIndex": 50,
@@ -2362,12 +2160,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-17": "本句指「整個過程最終導致某種結果」。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
+        "end-mcq-17": "本句的「ended」指「整個過程最終導致某種結果」。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-17"
     },
@@ -2379,11 +2175,9 @@ export default {
       "masked": "The plan ____.",
       "options": [
         "end-mcq-17",
-        "end-mcq-16",
-        "end-mcq-18",
-        "end-mcq-15",
-        "end-mcq-19",
-        "end-mcq-14"
+        "end-pdf-002",
+        "end-mcq-20",
+        "end-pdf-004"
       ],
       "explanation": "本句的「ended in failure」指「整個過程最終導致某種結果」。",
       "sentenceIndex": 51,
@@ -2392,12 +2186,10 @@ export default {
         "ended in failure"
       ],
       "optionReasons": {
-        "end-mcq-17": "本句指「整個過程最終導致某種結果」。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
+        "end-mcq-17": "本句的「ended in failure」指「整個過程最終導致某種結果」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-17"
     },
@@ -2409,11 +2201,9 @@ export default {
       "masked": "Their efforts ____ in success.",
       "options": [
         "end-mcq-17",
-        "end-mcq-16",
-        "end-mcq-18",
-        "end-mcq-15",
-        "end-mcq-19",
-        "end-mcq-14"
+        "end-pdf-003",
+        "end-pdf-002",
+        "end-mcq-24"
       ],
       "explanation": "本句的「ended」指「整個過程最終導致某種結果」。",
       "sentenceIndex": 52,
@@ -2422,12 +2212,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-mcq-17": "本句指「整個過程最終導致某種結果」。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
+        "end-mcq-17": "本句的「ended」指「整個過程最終導致某種結果」。",
+        "end-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-17"
     },
@@ -2439,11 +2227,9 @@ export default {
       "masked": "The accident ____.",
       "options": [
         "end-pdf-002",
-        "end-mcq-16",
-        "end-mcq-18",
-        "end-mcq-15",
-        "end-mcq-19",
-        "end-mcq-14"
+        "end-mcq-04",
+        "end-mcq-17",
+        "end-pdf-003"
       ],
       "explanation": "本句的「ended his career」指「令其生命／事業無法繼續」。",
       "sentenceIndex": 53,
@@ -2452,12 +2238,10 @@ export default {
         "ended his career"
       ],
       "optionReasons": {
-        "end-pdf-002": "本句指「令其生命／事業無法繼續」。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
+        "end-pdf-002": "本句的「ended his career」指「令其生命／事業無法繼續」。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-002"
     },
@@ -2470,10 +2254,8 @@ export default {
       "options": [
         "end-pdf-002",
         "end-mcq-16",
-        "end-mcq-18",
-        "end-mcq-15",
-        "end-mcq-19",
-        "end-mcq-14"
+        "end-mcq-07",
+        "end-mcq-28"
       ],
       "explanation": "本句的「ended」指「令其生命／事業無法繼續」。",
       "sentenceIndex": 54,
@@ -2482,12 +2264,10 @@ export default {
         "ended"
       ],
       "optionReasons": {
-        "end-pdf-002": "本句指「令其生命／事業無法繼續」。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-14": "「某個流程、系統、溝通或責任中的某一方」是「at someone’s end」的用法，與本句語境不同。"
+        "end-pdf-002": "本句的「ended」指「令其生命／事業無法繼續」。",
+        "end-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-002"
     },
@@ -2499,11 +2279,9 @@ export default {
       "masked": "They thought it was ____.",
       "options": [
         "end-mcq-30",
-        "end-mcq-29",
-        "end-mcq-31",
-        "end-mcq-28",
         "end-mcq-27",
-        "end-mcq-26"
+        "end-mcq-20",
+        "end-mcq-13"
       ],
       "explanation": "本句的「the end」指「某件重要事情徹底停止存在／繼續」。",
       "sentenceIndex": 55,
@@ -2512,12 +2290,10 @@ export default {
         "the end"
       ],
       "optionReasons": {
-        "end-mcq-30": "本句指「某件重要事情徹底停止存在／繼續」。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-31": "「某段時間／人生階段的最後部分」是「30. end = final stage of life/career/period（末期） — 晚期；末段」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。"
+        "end-mcq-30": "本句的「the end」指「某件重要事情徹底停止存在／繼續」。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-30"
     },
@@ -2529,11 +2305,9 @@ export default {
       "masked": "That mistake was not the ____ of his career.",
       "options": [
         "end-mcq-30",
-        "end-mcq-29",
-        "end-mcq-31",
-        "end-mcq-28",
-        "end-mcq-27",
-        "end-mcq-26"
+        "end-mcq-20",
+        "end-mcq-08",
+        "end-mcq-12"
       ],
       "explanation": "本句的「end」指「某件重要事情徹底停止存在／繼續」。",
       "sentenceIndex": 56,
@@ -2542,12 +2316,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-30": "本句指「某件重要事情徹底停止存在／繼續」。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-31": "「某段時間／人生階段的最後部分」是「30. end = final stage of life/career/period（末期） — 晚期；末段」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。"
+        "end-mcq-30": "本句的「end」指「某件重要事情徹底停止存在／繼續」。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-30"
     },
@@ -2559,11 +2331,9 @@ export default {
       "masked": "Near the ____, he became a teacher.",
       "options": [
         "end-mcq-31",
-        "end-mcq-30",
-        "end-mcq-29",
-        "end-mcq-28",
+        "end-mcq-19",
         "end-mcq-27",
-        "end-mcq-26"
+        "end-pdf-001"
       ],
       "explanation": "本句的「end of his career」指「某段時間／人生階段的最後部分」。",
       "sentenceIndex": 57,
@@ -2572,12 +2342,10 @@ export default {
         "end of his career"
       ],
       "optionReasons": {
-        "end-mcq-31": "本句指「某段時間／人生階段的最後部分」。",
-        "end-mcq-30": "「某件重要事情徹底停止存在／繼續」是「29. the end = death/destruction（末日／終結） — 結束；毀滅」的用法，與本句語境不同。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。"
+        "end-mcq-31": "本句的「end of his career」指「某段時間／人生階段的最後部分」。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-31"
     },
@@ -2589,11 +2357,9 @@ export default {
       "masked": "Toward the ____ of the year, things became busier.",
       "options": [
         "end-mcq-31",
-        "end-mcq-30",
-        "end-mcq-29",
-        "end-mcq-28",
-        "end-mcq-27",
-        "end-mcq-26"
+        "end-mcq-25",
+        "end-pdf-004",
+        "end-mcq-19"
       ],
       "explanation": "本句的「end」指「某段時間／人生階段的最後部分」。",
       "sentenceIndex": 58,
@@ -2602,12 +2368,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-31": "本句指「某段時間／人生階段的最後部分」。",
-        "end-mcq-30": "「某件重要事情徹底停止存在／繼續」是「29. the end = death/destruction（末日／終結） — 結束；毀滅」的用法，與本句語境不同。",
-        "end-mcq-29": "「最後結果是進行了某項行動，可能與原計劃不同」是「21. end up doing something（最後做了某事） — 結果；到頭來」的用法，與本句語境不同。",
-        "end-mcq-28": "「某個流程、系統、溝通或責任鏈中的某一方」是「19. your end / our end（你那邊／我們這邊） — 一方；這邊」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。"
+        "end-mcq-31": "本句的「end」指「某段時間／人生階段的最後部分」。",
+        "end-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-31"
     },
@@ -2619,11 +2383,9 @@ export default {
       "masked": "The teams changed ____.",
       "options": [
         "end-pdf-003",
-        "end-mcq-17",
-        "end-mcq-19",
-        "end-mcq-16",
-        "end-mcq-20",
-        "end-mcq-15"
+        "end-mcq-29",
+        "end-mcq-01",
+        "end-mcq-28"
       ],
       "explanation": "本句的「ends」指「球場、場地等其中一端」。",
       "sentenceIndex": 59,
@@ -2632,12 +2394,10 @@ export default {
         "ends"
       ],
       "optionReasons": {
-        "end-pdf-003": "本句指「球場、場地等其中一端」。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
+        "end-pdf-003": "本句的「ends」指「球場、場地等其中一端」。",
+        "end-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-003"
     },
@@ -2649,11 +2409,9 @@ export default {
       "masked": "They scored at the other ____.",
       "options": [
         "end-pdf-003",
-        "end-mcq-17",
-        "end-mcq-19",
-        "end-mcq-16",
-        "end-mcq-20",
-        "end-mcq-15"
+        "end-mcq-08",
+        "end-mcq-21",
+        "end-mcq-02"
       ],
       "explanation": "本句的「end」指「球場、場地等其中一端」。",
       "sentenceIndex": 60,
@@ -2662,12 +2420,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-pdf-003": "本句指「球場、場地等其中一端」。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
+        "end-pdf-003": "本句的「end」指「球場、場地等其中一端」。",
+        "end-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-003"
     },
@@ -2679,11 +2435,9 @@ export default {
       "masked": "There was silence at the other ____.",
       "options": [
         "end-pdf-004",
-        "end-mcq-17",
-        "end-mcq-19",
-        "end-mcq-16",
-        "end-mcq-20",
-        "end-mcq-15"
+        "end-mcq-01",
+        "end-mcq-25",
+        "end-mcq-20"
       ],
       "explanation": "本句的「end of the line」指「通訊連線另一方的人／位置」。",
       "sentenceIndex": 61,
@@ -2692,12 +2446,10 @@ export default {
         "end of the line"
       ],
       "optionReasons": {
-        "end-pdf-004": "本句指「通訊連線另一方的人／位置」。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
+        "end-pdf-004": "本句的「end of the line」指「通訊連線另一方的人／位置」。",
+        "end-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-004"
     },
@@ -2709,11 +2461,9 @@ export default {
       "masked": "Someone laughed at the other ____.",
       "options": [
         "end-pdf-004",
-        "end-mcq-17",
         "end-mcq-19",
-        "end-mcq-16",
-        "end-mcq-20",
-        "end-mcq-15"
+        "end-mcq-03",
+        "end-mcq-13"
       ],
       "explanation": "本句的「end」指「通訊連線另一方的人／位置」。",
       "sentenceIndex": 62,
@@ -2722,12 +2472,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-pdf-004": "本句指「通訊連線另一方的人／位置」。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
+        "end-pdf-004": "本句的「end」指「通訊連線另一方的人／位置」。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-pdf-004"
     },
@@ -2739,11 +2487,9 @@ export default {
       "masked": "This station is the ____.",
       "options": [
         "end-mcq-18",
-        "end-mcq-17",
-        "end-mcq-19",
-        "end-mcq-16",
+        "end-pdf-004",
         "end-mcq-20",
-        "end-mcq-15"
+        "end-mcq-24"
       ],
       "explanation": "本句的「end of the line」指「字面終點；比喻指某件事已不能再繼續」。",
       "sentenceIndex": 63,
@@ -2752,12 +2498,10 @@ export default {
         "end of the line"
       ],
       "optionReasons": {
-        "end-mcq-18": "本句指「字面終點；比喻指某件事已不能再繼續」。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
+        "end-mcq-18": "本句的「end of the line」指「字面終點；比喻指某件事已不能再繼續」。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-18"
     },
@@ -2769,11 +2513,9 @@ export default {
       "masked": "For that project, it was the ____ of the line.",
       "options": [
         "end-mcq-18",
-        "end-mcq-17",
-        "end-mcq-19",
-        "end-mcq-16",
-        "end-mcq-20",
-        "end-mcq-15"
+        "end-mcq-27",
+        "end-mcq-07",
+        "end-mcq-12"
       ],
       "explanation": "本句的「end」指「字面終點；比喻指某件事已不能再繼續」。",
       "sentenceIndex": 64,
@@ -2782,12 +2524,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-18": "本句指「字面終點；比喻指某件事已不能再繼續」。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-15": "「經一連串事件後最終處於某地、狀態或做了某事」是「end up」的用法，與本句語境不同。"
+        "end-mcq-18": "本句的「end」指「字面終點；比喻指某件事已不能再繼續」。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-18"
     },
@@ -2799,11 +2539,9 @@ export default {
       "masked": "The road is a ____.",
       "options": [
         "end-mcq-19",
-        "end-mcq-18",
-        "end-mcq-20",
-        "end-mcq-17",
-        "end-mcq-21",
-        "end-mcq-16"
+        "end-mcq-16",
+        "end-mcq-13",
+        "end-mcq-04"
       ],
       "explanation": "本句的「dead end」指「沒有出口，或情況沒有可繼續發展的方向」。",
       "sentenceIndex": 65,
@@ -2812,12 +2550,10 @@ export default {
         "dead end"
       ],
       "optionReasons": {
-        "end-mcq-19": "本句指「沒有出口，或情況沒有可繼續發展的方向」。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。"
+        "end-mcq-19": "本句的「dead end」指「沒有出口，或情況沒有可繼續發展的方向」。",
+        "end-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-19"
     },
@@ -2829,11 +2565,9 @@ export default {
       "masked": "The investigation reached a dead ____.",
       "options": [
         "end-mcq-19",
-        "end-mcq-18",
-        "end-mcq-20",
-        "end-mcq-17",
-        "end-mcq-21",
-        "end-mcq-16"
+        "end-mcq-11",
+        "end-pdf-001",
+        "end-mcq-05"
       ],
       "explanation": "本句的「end」指「沒有出口，或情況沒有可繼續發展的方向」。",
       "sentenceIndex": 66,
@@ -2842,12 +2576,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-19": "本句指「沒有出口，或情況沒有可繼續發展的方向」。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-16": "「最後一個項目／事件是某事」是「end with」的用法，與本句語境不同。"
+        "end-mcq-19": "本句的「end」指「沒有出口，或情況沒有可繼續發展的方向」。",
+        "end-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-19"
     },
@@ -2859,11 +2591,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "end-mcq-20",
-        "end-mcq-19",
-        "end-mcq-21",
-        "end-mcq-18",
+        "end-mcq-06",
         "end-mcq-22",
-        "end-mcq-17"
+        "end-mcq-28"
       ],
       "explanation": "本句的「tie up a few loose ends」指「尚未處理／解決的細節、事情」。",
       "sentenceIndex": 67,
@@ -2872,12 +2602,10 @@ export default {
         "tie up a few loose ends"
       ],
       "optionReasons": {
-        "end-mcq-20": "本句指「尚未處理／解決的細節、事情」。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。"
+        "end-mcq-20": "本句的「tie up a few loose ends」指「尚未處理／解決的細節、事情」。",
+        "end-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-20"
     },
@@ -2889,11 +2617,9 @@ export default {
       "masked": "The story leaves several loose ____.",
       "options": [
         "end-mcq-20",
-        "end-mcq-19",
-        "end-mcq-21",
-        "end-mcq-18",
-        "end-mcq-22",
-        "end-mcq-17"
+        "end-mcq-23",
+        "end-mcq-12",
+        "end-mcq-24"
       ],
       "explanation": "本句的「ends」指「尚未處理／解決的細節、事情」。",
       "sentenceIndex": 68,
@@ -2902,12 +2628,10 @@ export default {
         "ends"
       ],
       "optionReasons": {
-        "end-mcq-20": "本句指「尚未處理／解決的細節、事情」。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-17": "「整個過程最終導致某種結果」是「end in」的用法，與本句語境不同。"
+        "end-mcq-20": "本句的「ends」指「尚未處理／解決的細節、事情」。",
+        "end-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-20"
     },
@@ -2919,11 +2643,9 @@ export default {
       "masked": "I was ____ all afternoon.",
       "options": [
         "end-mcq-21",
-        "end-mcq-20",
-        "end-mcq-22",
-        "end-mcq-19",
-        "end-mcq-23",
-        "end-mcq-18"
+        "end-mcq-27",
+        "end-mcq-25",
+        "end-mcq-08"
       ],
       "explanation": "本句的「at a loose end」指「沒有明確事情可做；閒著」。",
       "sentenceIndex": 69,
@@ -2932,12 +2654,10 @@ export default {
         "at a loose end"
       ],
       "optionReasons": {
-        "end-mcq-21": "本句指「沒有明確事情可做；閒著」。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。"
+        "end-mcq-21": "本句的「at a loose end」指「沒有明確事情可做；閒著」。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-21"
     },
@@ -2949,11 +2669,9 @@ export default {
       "masked": "Call me if you’re at a loose ____.",
       "options": [
         "end-mcq-21",
+        "end-mcq-11",
         "end-mcq-20",
-        "end-mcq-22",
-        "end-mcq-19",
-        "end-mcq-23",
-        "end-mcq-18"
+        "end-mcq-27"
       ],
       "explanation": "本句的「end」指「沒有明確事情可做；閒著」。",
       "sentenceIndex": 70,
@@ -2962,12 +2680,10 @@ export default {
         "end"
       ],
       "optionReasons": {
-        "end-mcq-21": "本句指「沒有明確事情可做；閒著」。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-18": "「字面終點；比喻指某件事已不能再繼續」是「end of the line」的用法，與本句語境不同。"
+        "end-mcq-21": "本句的「end」指「沒有明確事情可做；閒著」。",
+        "end-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-21"
     },
@@ -2979,11 +2695,9 @@ export default {
       "masked": "The meeting felt ____.",
       "options": [
         "end-mcq-22",
-        "end-mcq-21",
-        "end-mcq-23",
-        "end-mcq-20",
-        "end-mcq-24",
-        "end-mcq-19"
+        "end-mcq-16",
+        "end-mcq-28",
+        "end-mcq-20"
       ],
       "explanation": "本句的「endless」指「持續／數量多得像沒有終點」。",
       "sentenceIndex": 71,
@@ -2992,12 +2706,10 @@ export default {
         "endless"
       ],
       "optionReasons": {
-        "end-mcq-22": "本句指「持續／數量多得像沒有終點」。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。"
+        "end-mcq-22": "本句的「endless」指「持續／數量多得像沒有終點」。",
+        "end-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-22"
     },
@@ -3009,11 +2721,9 @@ export default {
       "masked": "She showed ____ patience.",
       "options": [
         "end-mcq-22",
-        "end-mcq-21",
-        "end-mcq-23",
-        "end-mcq-20",
-        "end-mcq-24",
-        "end-mcq-19"
+        "end-mcq-07",
+        "end-pdf-001",
+        "end-mcq-20"
       ],
       "explanation": "本句的「endless」指「持續／數量多得像沒有終點」。",
       "sentenceIndex": 72,
@@ -3022,12 +2732,10 @@ export default {
         "endless"
       ],
       "optionReasons": {
-        "end-mcq-22": "本句指「持續／數量多得像沒有終點」。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。"
+        "end-mcq-22": "本句的「endless」指「持續／數量多得像沒有終點」。",
+        "end-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-22"
     },
@@ -3039,11 +2747,9 @@ export default {
       "masked": "The technology offers ____.",
       "options": [
         "end-mcq-22",
-        "end-mcq-21",
-        "end-mcq-23",
-        "end-mcq-20",
-        "end-mcq-24",
-        "end-mcq-19"
+        "end-mcq-02",
+        "end-mcq-06",
+        "end-mcq-20"
       ],
       "explanation": "本句的「endless possibilities」指「持續／數量多得像沒有終點」。",
       "sentenceIndex": 73,
@@ -3052,12 +2758,10 @@ export default {
         "endless possibilities"
       ],
       "optionReasons": {
-        "end-mcq-22": "本句指「持續／數量多得像沒有終點」。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。"
+        "end-mcq-22": "本句的「endless possibilities」指「持續／數量多得像沒有終點」。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-22"
     },
@@ -3069,11 +2773,9 @@ export default {
       "masked": "There seemed to be ____ options.",
       "options": [
         "end-mcq-22",
-        "end-mcq-21",
-        "end-mcq-23",
-        "end-mcq-20",
-        "end-mcq-24",
-        "end-mcq-19"
+        "end-mcq-29",
+        "end-mcq-07",
+        "end-mcq-20"
       ],
       "explanation": "本句的「endless」指「持續／數量多得像沒有終點」。",
       "sentenceIndex": 74,
@@ -3082,12 +2784,10 @@ export default {
         "endless"
       ],
       "optionReasons": {
-        "end-mcq-22": "本句指「持續／數量多得像沒有終點」。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。"
+        "end-mcq-22": "本句的「endless」指「持續／數量多得像沒有終點」。",
+        "end-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-22"
     },
@@ -3099,11 +2799,9 @@ export default {
       "masked": "They argued ____.",
       "options": [
         "end-mcq-22",
-        "end-mcq-21",
-        "end-mcq-23",
-        "end-mcq-20",
-        "end-mcq-24",
-        "end-mcq-19"
+        "end-pdf-004",
+        "end-mcq-02",
+        "end-mcq-05"
       ],
       "explanation": "本句的「endlessly」指「持續／數量多得像沒有終點」。",
       "sentenceIndex": 75,
@@ -3112,12 +2810,10 @@ export default {
         "endlessly"
       ],
       "optionReasons": {
-        "end-mcq-22": "本句指「持續／數量多得像沒有終點」。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。"
+        "end-mcq-22": "本句的「endlessly」指「持續／數量多得像沒有終點」。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-22"
     },
@@ -3129,11 +2825,9 @@ export default {
       "masked": "The topic was discussed ____.",
       "options": [
         "end-mcq-22",
-        "end-mcq-21",
-        "end-mcq-23",
-        "end-mcq-20",
-        "end-mcq-24",
-        "end-mcq-19"
+        "end-mcq-27",
+        "end-mcq-31",
+        "end-pdf-001"
       ],
       "explanation": "本句的「endlessly」指「持續／數量多得像沒有終點」。",
       "sentenceIndex": 76,
@@ -3142,12 +2836,10 @@ export default {
         "endlessly"
       ],
       "optionReasons": {
-        "end-mcq-22": "本句指「持續／數量多得像沒有終點」。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-19": "「沒有出口，或情況沒有可繼續發展的方向」是「dead end」的用法，與本句語境不同。"
+        "end-mcq-22": "本句的「endlessly」指「持續／數量多得像沒有終點」。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-22"
     },
@@ -3159,11 +2851,9 @@ export default {
       "masked": "I liked the film’s ____.",
       "options": [
         "end-mcq-23",
-        "end-mcq-22",
-        "end-mcq-24",
-        "end-mcq-21",
-        "end-mcq-25",
-        "end-mcq-20"
+        "end-mcq-19",
+        "end-mcq-12",
+        "end-mcq-03"
       ],
       "explanation": "本句的「ending」指「故事、電影、事件等最後的結局部分」。",
       "sentenceIndex": 77,
@@ -3172,12 +2862,10 @@ export default {
         "ending"
       ],
       "optionReasons": {
-        "end-mcq-23": "本句指「故事、電影、事件等最後的結局部分」。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。"
+        "end-mcq-23": "本句的「ending」指「故事、電影、事件等最後的結局部分」。",
+        "end-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-23"
     },
@@ -3189,11 +2877,9 @@ export default {
       "masked": "The story has a surprising ____.",
       "options": [
         "end-mcq-23",
-        "end-mcq-22",
-        "end-mcq-24",
-        "end-mcq-21",
-        "end-mcq-25",
-        "end-mcq-20"
+        "end-mcq-20",
+        "end-pdf-002",
+        "end-mcq-24"
       ],
       "explanation": "本句的「ending」指「故事、電影、事件等最後的結局部分」。",
       "sentenceIndex": 78,
@@ -3202,12 +2888,10 @@ export default {
         "ending"
       ],
       "optionReasons": {
-        "end-mcq-23": "本句指「故事、電影、事件等最後的結局部分」。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-20": "「尚未處理／解決的細節、事情」是「loose end」的用法，與本句語境不同。"
+        "end-mcq-23": "本句的「ending」指「故事、電影、事件等最後的結局部分」。",
+        "end-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-23"
     },
@@ -3219,11 +2903,9 @@ export default {
       "masked": "Add the ____ to the verb.",
       "options": [
         "end-mcq-24",
-        "end-mcq-23",
-        "end-mcq-25",
-        "end-mcq-22",
+        "end-mcq-03",
         "end-mcq-26",
-        "end-mcq-21"
+        "end-mcq-04"
       ],
       "explanation": "本句的「-ed ending」指「加在詞末、具有文法或構詞功能的詞尾」。",
       "sentenceIndex": 79,
@@ -3232,12 +2914,10 @@ export default {
         "-ed ending"
       ],
       "optionReasons": {
-        "end-mcq-24": "本句指「加在詞末、具有文法或構詞功能的詞尾」。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。"
+        "end-mcq-24": "本句的「-ed ending」指「加在詞末、具有文法或構詞功能的詞尾」。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-24"
     },
@@ -3249,11 +2929,9 @@ export default {
       "masked": "Different ____ can change the grammatical form.",
       "options": [
         "end-mcq-24",
-        "end-mcq-23",
-        "end-mcq-25",
-        "end-mcq-22",
-        "end-mcq-26",
-        "end-mcq-21"
+        "end-pdf-001",
+        "end-mcq-03",
+        "end-mcq-07"
       ],
       "explanation": "本句的「endings」指「加在詞末、具有文法或構詞功能的詞尾」。",
       "sentenceIndex": 80,
@@ -3262,12 +2940,10 @@ export default {
         "endings"
       ],
       "optionReasons": {
-        "end-mcq-24": "本句指「加在詞末、具有文法或構詞功能的詞尾」。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-25": "「路程、流程或技術系統中的終點／端點」是「endpoint」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-21": "「沒有明確事情可做；閒著」是「at a loose end」的用法，與本句語境不同。"
+        "end-mcq-24": "本句的「endings」指「加在詞末、具有文法或構詞功能的詞尾」。",
+        "end-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-24"
     },
@@ -3279,11 +2955,9 @@ export default {
       "masked": "This is the ____ of the route.",
       "options": [
         "end-mcq-25",
-        "end-mcq-24",
-        "end-mcq-26",
-        "end-mcq-23",
-        "end-mcq-27",
-        "end-mcq-22"
+        "end-pdf-002",
+        "end-mcq-05",
+        "end-mcq-27"
       ],
       "explanation": "本句的「end point」指「路程、流程或技術系統中的終點／端點」。",
       "sentenceIndex": 81,
@@ -3292,12 +2966,10 @@ export default {
         "end point"
       ],
       "optionReasons": {
-        "end-mcq-25": "本句指「路程、流程或技術系統中的終點／端點」。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。"
+        "end-mcq-25": "本句的「end point」指「路程、流程或技術系統中的終點／端點」。",
+        "end-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-25"
     },
@@ -3309,11 +2981,9 @@ export default {
       "masked": "The system sends data to an ____.",
       "options": [
         "end-mcq-25",
-        "end-mcq-24",
-        "end-mcq-26",
-        "end-mcq-23",
-        "end-mcq-27",
-        "end-mcq-22"
+        "end-mcq-02",
+        "end-pdf-004",
+        "end-mcq-31"
       ],
       "explanation": "本句的「endpoint」指「路程、流程或技術系統中的終點／端點」。",
       "sentenceIndex": 82,
@@ -3322,12 +2992,10 @@ export default {
         "endpoint"
       ],
       "optionReasons": {
-        "end-mcq-25": "本句指「路程、流程或技術系統中的終點／端點」。",
-        "end-mcq-24": "「加在詞末、具有文法或構詞功能的詞尾」是「ending — grammar」的用法，與本句語境不同。",
-        "end-mcq-26": "「一條道路／線性空間最後的位置」是「11. end of the road/street（路的盡頭） — 盡頭；末端」的用法，與本句語境不同。",
-        "end-mcq-23": "「故事、電影、事件等最後的結局部分」是「ending — narrative」的用法，與本句語境不同。",
-        "end-mcq-27": "「某人／某機構所負責或所在的一方」是「18. end = side/part of an arrangement or communication（某一方） — 一端；一方」的用法，與本句語境不同。",
-        "end-mcq-22": "「持續／數量多得像沒有終點」是「endless」的用法，與本句語境不同。"
+        "end-mcq-25": "本句的「endpoint」指「路程、流程或技術系統中的終點／端點」。",
+        "end-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "end-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "end-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "end-mcq-25"
     }
@@ -3339,5 +3007,7 @@ export default {
     "sha256": "3adae6ff2b2e4ab76b953b15b34efafd86887ffa9ce843fcc985536441136b98",
     "pages": 32
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

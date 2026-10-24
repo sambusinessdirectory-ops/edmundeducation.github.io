@@ -578,11 +578,9 @@ export default {
       "masked": "I wrote a simple ____.",
       "options": [
         "script-mcq-01",
-        "script-mcq-02",
-        "script-mcq-03",
-        "script-mcq-04",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-09",
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
       "sentenceIndex": 0,
@@ -591,12 +589,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-01": "本句指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-01": "本句的「script」指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-01"
     },
@@ -608,11 +604,9 @@ export default {
       "masked": "She prepared a short ____ for the presentation.",
       "options": [
         "script-mcq-01",
-        "script-mcq-02",
-        "script-mcq-03",
-        "script-mcq-04",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-09",
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
       "sentenceIndex": 1,
@@ -621,12 +615,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-01": "本句指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-01": "本句的「script」指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-01"
     },
@@ -638,11 +630,9 @@ export default {
       "masked": "I practised the ____ aloud several times.",
       "options": [
         "script-mcq-01",
-        "script-mcq-02",
-        "script-mcq-03",
-        "script-mcq-04",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-09",
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
       "sentenceIndex": 2,
@@ -651,12 +641,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-01": "本句指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-01": "本句的「script」指「預先寫好、準備在簡報／演講時說出的文字內容；講稿」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-01"
     },
@@ -668,11 +656,8 @@ export default {
       "masked": "The presentation ____ was only two pages long.",
       "options": [
         "script-mcq-02",
-        "script-mcq-01",
-        "script-mcq-03",
-        "script-mcq-04",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-14",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「為簡報或演講預先準備的完整或近完整發言內容」。",
       "sentenceIndex": 3,
@@ -681,12 +666,9 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-02": "本句指「為簡報或演講預先準備的完整或近完整發言內容」。",
-        "script-mcq-01": "「預先寫好、準備在簡報／演講時說出的文字內容；講稿」是「script — presentation/speech」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-02": "本句的「script」指「為簡報或演講預先準備的完整或近完整發言內容」。",
+        "script-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-02"
     },
@@ -698,11 +680,8 @@ export default {
       "masked": "He revised his speech ____ before the event.",
       "options": [
         "script-mcq-02",
-        "script-mcq-01",
-        "script-mcq-03",
-        "script-mcq-04",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-15",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「為簡報或演講預先準備的完整或近完整發言內容」。",
       "sentenceIndex": 4,
@@ -711,12 +690,9 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-02": "本句指「為簡報或演講預先準備的完整或近完整發言內容」。",
-        "script-mcq-01": "「預先寫好、準備在簡報／演講時說出的文字內容；講稿」是「script — presentation/speech」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-02": "本句的「script」指「為簡報或演講預先準備的完整或近完整發言內容」。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-02"
     },
@@ -728,11 +704,9 @@ export default {
       "masked": "Customer-service staff were given a ____ to follow.",
       "options": [
         "script-mcq-03",
-        "script-mcq-02",
-        "script-mcq-04",
-        "script-mcq-01",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-16",
+        "script-mcq-07",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先規定或建議使用的具體措辭／標準說法」。",
       "sentenceIndex": 5,
@@ -741,12 +715,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-03": "本句指「預先規定或建議使用的具體措辭／標準說法」。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-01": "「預先寫好、準備在簡報／演講時說出的文字內容；講稿」是「script — presentation/speech」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-03": "本句的「script」指「預先規定或建議使用的具體措辭／標準說法」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-03"
     },
@@ -758,11 +730,9 @@ export default {
       "masked": "You don’t need to follow the ____ word for word.",
       "options": [
         "script-mcq-03",
-        "script-mcq-02",
-        "script-mcq-04",
-        "script-mcq-01",
-        "script-mcq-05",
-        "script-mcq-06"
+        "script-mcq-09",
+        "script-mcq-22",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先規定或建議使用的具體措辭／標準說法」。",
       "sentenceIndex": 6,
@@ -771,12 +741,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-03": "本句指「預先規定或建議使用的具體措辭／標準說法」。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-01": "「預先寫好、準備在簡報／演講時說出的文字內容；講稿」是「script — presentation/speech」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-03": "本句的「script」指「預先規定或建議使用的具體措辭／標準說法」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-03"
     },
@@ -788,11 +756,8 @@ export default {
       "masked": "The actor read the ____ before filming.",
       "options": [
         "script-mcq-04",
-        "script-mcq-03",
-        "script-mcq-05",
-        "script-mcq-02",
-        "script-mcq-06",
-        "script-mcq-01"
+        "script-mcq-17",
+        "script-mcq-09"
       ],
       "explanation": "本句的「script」指「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」。",
       "sentenceIndex": 7,
@@ -801,12 +766,9 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-04": "本句指「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-01": "「預先寫好、準備在簡報／演講時說出的文字內容；講稿」是「script — presentation/speech」的用法，與本句語境不同。"
+        "script-mcq-04": "本句的「script」指「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-04"
     },
@@ -818,11 +780,8 @@ export default {
       "masked": "The film has a very strong ____.",
       "options": [
         "script-mcq-04",
-        "script-mcq-03",
-        "script-mcq-05",
-        "script-mcq-02",
-        "script-mcq-06",
-        "script-mcq-01"
+        "script-mcq-17",
+        "script-mcq-09"
       ],
       "explanation": "本句的「script」指「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」。",
       "sentenceIndex": 8,
@@ -831,12 +790,9 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-04": "本句指「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-01": "「預先寫好、準備在簡報／演講時說出的文字內容；講稿」是「script — presentation/speech」的用法，與本句語境不同。"
+        "script-mcq-04": "本句的「script」指「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-04"
     },
@@ -848,11 +804,9 @@ export default {
       "masked": "She is writing a ____.",
       "options": [
         "script-mcq-22",
-        "script-mcq-21",
-        "script-mcq-23",
-        "script-mcq-20",
-        "script-mcq-19",
-        "script-mcq-18"
+        "script-mcq-03",
+        "script-mcq-10",
+        "script-mcq-17"
       ],
       "explanation": "本句的「film script」指「電影拍攝所依據的對白、場景及動作文字」。",
       "sentenceIndex": 9,
@@ -861,12 +815,10 @@ export default {
         "film script"
       ],
       "optionReasons": {
-        "script-mcq-22": "本句指「電影拍攝所依據的對白、場景及動作文字」。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」是「10. Latin/Arabic/Cyrillic script（拉丁／阿拉伯／西里爾文字） — 書寫系統」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-mcq-22": "本句的「film script」指「電影拍攝所依據的對白、場景及動作文字」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-22"
     },
@@ -878,11 +830,9 @@ export default {
       "masked": "The director made several changes to the ____.",
       "options": [
         "script-mcq-22",
-        "script-mcq-21",
-        "script-mcq-23",
-        "script-mcq-20",
-        "script-mcq-19",
-        "script-mcq-18"
+        "script-mcq-03",
+        "script-mcq-10",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「電影拍攝所依據的對白、場景及動作文字」。",
       "sentenceIndex": 10,
@@ -891,12 +841,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-22": "本句指「電影拍攝所依據的對白、場景及動作文字」。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」是「10. Latin/Arabic/Cyrillic script（拉丁／阿拉伯／西里爾文字） — 書寫系統」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-mcq-22": "本句的「script」指「電影拍攝所依據的對白、場景及動作文字」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-22"
     },
@@ -908,11 +856,9 @@ export default {
       "masked": "The presenter reviewed the radio ____.",
       "options": [
         "script-mcq-05",
-        "script-mcq-04",
-        "script-mcq-06",
-        "script-mcq-03",
-        "script-mcq-07",
-        "script-mcq-02"
+        "script-mcq-16",
+        "script-mcq-09",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
       "sentenceIndex": 11,
@@ -921,12 +867,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-05": "本句指「預先安排活動各環節、說話和行動次序的流程文字」。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。"
+        "script-mcq-05": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-05"
     },
@@ -938,11 +882,9 @@ export default {
       "masked": "The TV ____ included several interviews.",
       "options": [
         "script-mcq-05",
-        "script-mcq-04",
-        "script-mcq-06",
-        "script-mcq-03",
-        "script-mcq-07",
-        "script-mcq-02"
+        "script-mcq-16",
+        "script-mcq-09",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
       "sentenceIndex": 12,
@@ -951,12 +893,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-05": "本句指「預先安排活動各環節、說話和行動次序的流程文字」。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。"
+        "script-mcq-05": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-05"
     },
@@ -968,11 +908,9 @@ export default {
       "masked": "The event team prepared a ____ for the ceremony.",
       "options": [
         "script-mcq-05",
-        "script-mcq-04",
-        "script-mcq-06",
-        "script-mcq-03",
-        "script-mcq-07",
-        "script-mcq-02"
+        "script-mcq-16",
+        "script-mcq-09",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
       "sentenceIndex": 13,
@@ -981,12 +919,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-05": "本句指「預先安排活動各環節、說話和行動次序的流程文字」。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。"
+        "script-mcq-05": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-05"
     },
@@ -998,11 +934,9 @@ export default {
       "masked": "The host followed the event ____.",
       "options": [
         "script-mcq-05",
-        "script-mcq-04",
-        "script-mcq-06",
-        "script-mcq-03",
-        "script-mcq-07",
-        "script-mcq-02"
+        "script-mcq-16",
+        "script-mcq-09",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
       "sentenceIndex": 14,
@@ -1011,12 +945,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-05": "本句指「預先安排活動各環節、說話和行動次序的流程文字」。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-02": "「為簡報或演講預先準備的完整或近完整發言內容」是「presentation/speech script」的用法，與本句語境不同。"
+        "script-mcq-05": "本句的「script」指「預先安排活動各環節、說話和行動次序的流程文字」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-05"
     },
@@ -1028,10 +960,8 @@ export default {
       "masked": "The note was written in elegant ____.",
       "options": [
         "script-mcq-06",
-        "script-mcq-05",
-        "script-mcq-07",
-        "script-mcq-04",
-        "script-mcq-08",
+        "script-mcq-17",
+        "script-mcq-09",
         "script-mcq-03"
       ],
       "explanation": "本句的「script」指「某種手寫字體或個人的書寫風格」。",
@@ -1041,12 +971,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-06": "本句指「某種手寫字體或個人的書寫風格」。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。"
+        "script-mcq-06": "本句的「script」指「某種手寫字體或個人的書寫風格」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-06"
     },
@@ -1058,10 +986,8 @@ export default {
       "masked": "Her ____ was difficult to read.",
       "options": [
         "script-mcq-06",
-        "script-mcq-05",
-        "script-mcq-07",
-        "script-mcq-04",
-        "script-mcq-08",
+        "script-mcq-17",
+        "script-mcq-09",
         "script-mcq-03"
       ],
       "explanation": "本句的「script」指「某種手寫字體或個人的書寫風格」。",
@@ -1071,12 +997,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-06": "本句指「某種手寫字體或個人的書寫風格」。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-03": "「預先規定或建議使用的具體措辭／標準說法」是「script — fixed wording」的用法，與本句語境不同。"
+        "script-mcq-06": "本句的「script」指「某種手寫字體或個人的書寫風格」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-06"
     },
@@ -1088,11 +1012,9 @@ export default {
       "masked": "English uses the Latin ____.",
       "options": [
         "script-mcq-07",
-        "script-mcq-06",
-        "script-mcq-08",
-        "script-mcq-05",
-        "script-mcq-09",
-        "script-mcq-04"
+        "script-mcq-17",
+        "script-mcq-03",
+        "script-mcq-16"
       ],
       "explanation": "本句的「script」指「用來書寫一種或多種語言的一套符號系統」。",
       "sentenceIndex": 17,
@@ -1101,12 +1023,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-07": "本句指「用來書寫一種或多種語言的一套符號系統」。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。"
+        "script-mcq-07": "本句的「script」指「用來書寫一種或多種語言的一套符號系統」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-07"
     },
@@ -1118,11 +1038,9 @@ export default {
       "masked": "The language was originally written in another ____.",
       "options": [
         "script-mcq-07",
-        "script-mcq-06",
-        "script-mcq-08",
-        "script-mcq-05",
-        "script-mcq-09",
-        "script-mcq-04"
+        "script-mcq-03",
+        "script-mcq-17",
+        "script-mcq-15"
       ],
       "explanation": "本句的「script」指「用來書寫一種或多種語言的一套符號系統」。",
       "sentenceIndex": 18,
@@ -1131,12 +1049,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-07": "本句指「用來書寫一種或多種語言的一套符號系統」。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-04": "「為電影、電視、舞台表演等預先寫好的對白、場景和表演內容」是「script — film/TV/theatre」的用法，與本句語境不同。"
+        "script-mcq-07": "本句的「script」指「用來書寫一種或多種語言的一套符號系統」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-07"
     },
@@ -1148,11 +1064,9 @@ export default {
       "masked": "Vietnamese is now written mainly in the Latin ____.",
       "options": [
         "script-mcq-23",
-        "script-mcq-22",
-        "script-mcq-21",
-        "script-mcq-20",
-        "script-mcq-19",
-        "script-mcq-18"
+        "script-mcq-03",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「script」指「某一語言所使用的一套書寫符號系統」。",
       "sentenceIndex": 19,
@@ -1161,12 +1075,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-23": "本句指「某一語言所使用的一套書寫符號系統」。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-mcq-23": "本句的「script」指「某一語言所使用的一套書寫符號系統」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-23"
     },
@@ -1178,11 +1090,9 @@ export default {
       "masked": "Russian is written in the Cyrillic ____.",
       "options": [
         "script-mcq-23",
-        "script-mcq-22",
-        "script-mcq-21",
-        "script-mcq-20",
-        "script-mcq-19",
-        "script-mcq-18"
+        "script-mcq-03",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「script」指「某一語言所使用的一套書寫符號系統」。",
       "sentenceIndex": 20,
@@ -1191,12 +1101,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-23": "本句指「某一語言所使用的一套書寫符號系統」。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-mcq-23": "本句的「script」指「某一語言所使用的一套書寫符號系統」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-23"
     },
@@ -1208,11 +1116,9 @@ export default {
       "masked": "I wrote a ____ to rename the files automatically.",
       "options": [
         "script-mcq-08",
-        "script-mcq-07",
-        "script-mcq-09",
         "script-mcq-06",
-        "script-mcq-10",
-        "script-mcq-05"
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「一組預先寫好的電腦指令，用來自動執行／控制某項工作」。",
       "sentenceIndex": 21,
@@ -1221,12 +1127,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-08": "本句指「一組預先寫好的電腦指令，用來自動執行／控制某項工作」。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。"
+        "script-mcq-08": "本句的「script」指「一組預先寫好的電腦指令，用來自動執行／控制某項工作」。",
+        "script-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-08"
     },
@@ -1238,11 +1142,9 @@ export default {
       "masked": "The server runs the ____ every night.",
       "options": [
         "script-mcq-08",
-        "script-mcq-07",
-        "script-mcq-09",
         "script-mcq-06",
-        "script-mcq-10",
-        "script-mcq-05"
+        "script-mcq-15",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「一組預先寫好的電腦指令，用來自動執行／控制某項工作」。",
       "sentenceIndex": 22,
@@ -1251,12 +1153,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-08": "本句指「一組預先寫好的電腦指令，用來自動執行／控制某項工作」。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-05": "「預先安排活動各環節、說話和行動次序的流程文字」是「event script」的用法，與本句語境不同。"
+        "script-mcq-08": "本句的「script」指「一組預先寫好的電腦指令，用來自動執行／控制某項工作」。",
+        "script-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-08"
     },
@@ -1268,11 +1168,9 @@ export default {
       "masked": "Run the ____ after installing the software.",
       "options": [
         "script-mcq-09",
-        "script-mcq-08",
-        "script-mcq-10",
-        "script-mcq-07",
-        "script-mcq-11",
-        "script-mcq-06"
+        "script-mcq-03",
+        "script-mcq-06",
+        "script-mcq-17"
       ],
       "explanation": "本句的「script」指「讓電腦讀取並執行腳本中的指令」。",
       "sentenceIndex": 23,
@@ -1281,12 +1179,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-09": "本句指「讓電腦讀取並執行腳本中的指令」。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-09": "本句的「script」指「讓電腦讀取並執行腳本中的指令」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-09"
     },
@@ -1298,11 +1194,9 @@ export default {
       "masked": "The ____ failed because of a syntax error.",
       "options": [
         "script-mcq-09",
-        "script-mcq-08",
-        "script-mcq-10",
-        "script-mcq-07",
-        "script-mcq-11",
-        "script-mcq-06"
+        "script-mcq-18",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「script」指「讓電腦讀取並執行腳本中的指令」。",
       "sentenceIndex": 24,
@@ -1311,12 +1205,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-09": "本句指「讓電腦讀取並執行腳本中的指令」。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-06": "「某種手寫字體或個人的書寫風格」是「script — handwriting」的用法，與本句語境不同。"
+        "script-mcq-09": "本句的「script」指「讓電腦讀取並執行腳本中的指令」。",
+        "script-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-09"
     },
@@ -1328,11 +1220,9 @@ export default {
       "masked": "Python is often used as a ____.",
       "options": [
         "script-mcq-10",
-        "script-mcq-09",
-        "script-mcq-11",
-        "script-mcq-08",
-        "script-mcq-12",
-        "script-mcq-07"
+        "script-mcq-03",
+        "script-mcq-15",
+        "script-mcq-17"
       ],
       "explanation": "本句的「scripting language」指「常用於自動化、控制程式或快速編寫功能的程式語言」。",
       "sentenceIndex": 25,
@@ -1341,12 +1231,10 @@ export default {
         "scripting language"
       ],
       "optionReasons": {
-        "script-mcq-10": "本句指「常用於自動化、控制程式或快速編寫功能的程式語言」。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。"
+        "script-mcq-10": "本句的「scripting language」指「常用於自動化、控制程式或快速編寫功能的程式語言」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-10"
     },
@@ -1358,11 +1246,9 @@ export default {
       "masked": "The tool supports several ____.",
       "options": [
         "script-mcq-10",
-        "script-mcq-09",
-        "script-mcq-11",
-        "script-mcq-08",
-        "script-mcq-12",
-        "script-mcq-07"
+        "script-mcq-03",
+        "script-mcq-22",
+        "script-mcq-17"
       ],
       "explanation": "本句的「scripting languages」指「常用於自動化、控制程式或快速編寫功能的程式語言」。",
       "sentenceIndex": 26,
@@ -1371,12 +1257,10 @@ export default {
         "scripting languages"
       ],
       "optionReasons": {
-        "script-mcq-10": "本句指「常用於自動化、控制程式或快速編寫功能的程式語言」。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-07": "「用來書寫一種或多種語言的一套符號系統」是「script — writing system」的用法，與本句語境不同。"
+        "script-mcq-10": "本句的「scripting languages」指「常用於自動化、控制程式或快速編寫功能的程式語言」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-10"
     },
@@ -1388,11 +1272,9 @@ export default {
       "masked": "She ____ the opening carefully.",
       "options": [
         "script-mcq-11",
-        "script-mcq-10",
-        "script-mcq-12",
         "script-mcq-09",
-        "script-mcq-13",
-        "script-mcq-08"
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
       "sentenceIndex": 27,
@@ -1401,12 +1283,10 @@ export default {
         "scripted"
       ],
       "optionReasons": {
-        "script-mcq-11": "本句指「預先寫好某段對白、內容或流程」。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。"
+        "script-mcq-11": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-11"
     },
@@ -1418,11 +1298,9 @@ export default {
       "masked": "The scene was fully ____.",
       "options": [
         "script-mcq-11",
-        "script-mcq-10",
-        "script-mcq-12",
         "script-mcq-09",
-        "script-mcq-13",
-        "script-mcq-08"
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
       "sentenceIndex": 28,
@@ -1431,12 +1309,10 @@ export default {
         "scripted"
       ],
       "optionReasons": {
-        "script-mcq-11": "本句指「預先寫好某段對白、內容或流程」。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。"
+        "script-mcq-11": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-11"
     },
@@ -1448,11 +1324,9 @@ export default {
       "masked": "The writers ____ the final scene.",
       "options": [
         "script-mcq-11",
-        "script-mcq-10",
-        "script-mcq-12",
         "script-mcq-09",
-        "script-mcq-13",
-        "script-mcq-08"
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
       "sentenceIndex": 29,
@@ -1461,12 +1335,10 @@ export default {
         "scripted"
       ],
       "optionReasons": {
-        "script-mcq-11": "本句指「預先寫好某段對白、內容或流程」。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。"
+        "script-mcq-11": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-11"
     },
@@ -1478,11 +1350,9 @@ export default {
       "masked": "The team ____ the entire programme.",
       "options": [
         "script-mcq-11",
-        "script-mcq-10",
-        "script-mcq-12",
         "script-mcq-09",
-        "script-mcq-13",
-        "script-mcq-08"
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
       "sentenceIndex": 30,
@@ -1491,12 +1361,10 @@ export default {
         "scripted"
       ],
       "optionReasons": {
-        "script-mcq-11": "本句指「預先寫好某段對白、內容或流程」。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-08": "「一組預先寫好的電腦指令，用來自動執行／控制某項工作」是「computer script」的用法，與本句語境不同。"
+        "script-mcq-11": "本句的「scripted」指「預先寫好某段對白、內容或流程」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-11"
     },
@@ -1508,11 +1376,9 @@ export default {
       "masked": "The response sounded ____.",
       "options": [
         "script-mcq-12",
-        "script-mcq-11",
-        "script-mcq-13",
-        "script-mcq-10",
-        "script-mcq-14",
-        "script-mcq-09"
+        "script-mcq-09",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「scripted」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
       "sentenceIndex": 31,
@@ -1521,12 +1387,10 @@ export default {
         "scripted"
       ],
       "optionReasons": {
-        "script-mcq-12": "本句指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。"
+        "script-mcq-12": "本句的「scripted」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-12"
     },
@@ -1538,11 +1402,9 @@ export default {
       "masked": "Some parts of the interview were ____.",
       "options": [
         "script-mcq-12",
-        "script-mcq-11",
-        "script-mcq-13",
-        "script-mcq-10",
-        "script-mcq-14",
-        "script-mcq-09"
+        "script-mcq-09",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「scripted」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
       "sentenceIndex": 32,
@@ -1551,12 +1413,10 @@ export default {
         "scripted"
       ],
       "optionReasons": {
-        "script-mcq-12": "本句指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。"
+        "script-mcq-12": "本句的「scripted」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-12"
     },
@@ -1568,11 +1428,9 @@ export default {
       "masked": "The answer felt like a ____.",
       "options": [
         "script-mcq-12",
-        "script-mcq-11",
-        "script-mcq-13",
-        "script-mcq-10",
-        "script-mcq-14",
-        "script-mcq-09"
+        "script-mcq-17",
+        "script-mcq-09",
+        "script-mcq-16"
       ],
       "explanation": "本句的「scripted response」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
       "sentenceIndex": 33,
@@ -1581,12 +1439,10 @@ export default {
         "scripted response"
       ],
       "optionReasons": {
-        "script-mcq-12": "本句指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。"
+        "script-mcq-12": "本句的「scripted response」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-12"
     },
@@ -1598,11 +1454,9 @@ export default {
       "masked": "Staff were trained to give ____.",
       "options": [
         "script-mcq-12",
-        "script-mcq-11",
-        "script-mcq-13",
-        "script-mcq-10",
-        "script-mcq-14",
-        "script-mcq-09"
+        "script-mcq-09",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「scripted responses」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
       "sentenceIndex": 34,
@@ -1611,12 +1465,10 @@ export default {
         "scripted responses"
       ],
       "optionReasons": {
-        "script-mcq-12": "本句指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-09": "「讓電腦讀取並執行腳本中的指令」是「run a script」的用法，與本句語境不同。"
+        "script-mcq-12": "本句的「scripted responses」指「內容／措辭事先已經寫好或安排，而不是完全即興的」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-12"
     },
@@ -1628,11 +1480,9 @@ export default {
       "masked": "The final question was completely ____.",
       "options": [
         "script-mcq-13",
-        "script-mcq-12",
-        "script-mcq-14",
-        "script-mcq-11",
-        "script-mcq-15",
-        "script-mcq-10"
+        "script-mcq-09",
+        "script-mcq-17",
+        "script-mcq-16"
       ],
       "explanation": "本句的「unscripted」指「沒有預先寫好內容，而是在現場自然／即興產生的」。",
       "sentenceIndex": 35,
@@ -1641,12 +1491,10 @@ export default {
         "unscripted"
       ],
       "optionReasons": {
-        "script-mcq-13": "本句指「沒有預先寫好內容，而是在現場自然／即興產生的」。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。"
+        "script-mcq-13": "本句的「unscripted」指「沒有預先寫好內容，而是在現場自然／即興產生的」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-13"
     },
@@ -1658,11 +1506,9 @@ export default {
       "masked": "The speaker gave an ____ answer.",
       "options": [
         "script-mcq-13",
-        "script-mcq-12",
-        "script-mcq-14",
-        "script-mcq-11",
-        "script-mcq-15",
-        "script-mcq-10"
+        "script-mcq-09",
+        "script-mcq-16",
+        "script-mcq-17"
       ],
       "explanation": "本句的「unscripted」指「沒有預先寫好內容，而是在現場自然／即興產生的」。",
       "sentenceIndex": 36,
@@ -1671,12 +1517,10 @@ export default {
         "unscripted"
       ],
       "optionReasons": {
-        "script-mcq-13": "本句指「沒有預先寫好內容，而是在現場自然／即興產生的」。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-10": "「常用於自動化、控制程式或快速編寫功能的程式語言」是「scripting language」的用法，與本句語境不同。"
+        "script-mcq-13": "本句的「unscripted」指「沒有預先寫好內容，而是在現場自然／即興產生的」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-13"
     },
@@ -1688,11 +1532,8 @@ export default {
       "masked": "She works in television ____.",
       "options": [
         "script-mcq-14",
-        "script-mcq-13",
-        "script-mcq-15",
-        "script-mcq-12",
-        "script-mcq-16",
-        "script-mcq-11"
+        "script-mcq-02",
+        "script-mcq-17"
       ],
       "explanation": "本句的「scripting」指「編寫劇本、活動腳本或電腦腳本的活動」。",
       "sentenceIndex": 37,
@@ -1701,12 +1542,9 @@ export default {
         "scripting"
       ],
       "optionReasons": {
-        "script-mcq-14": "本句指「編寫劇本、活動腳本或電腦腳本的活動」。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。"
+        "script-mcq-14": "本句的「scripting」指「編寫劇本、活動腳本或電腦腳本的活動」。",
+        "script-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-14"
     },
@@ -1718,11 +1556,8 @@ export default {
       "masked": "Basic ____ can automate repetitive tasks.",
       "options": [
         "script-mcq-14",
-        "script-mcq-13",
-        "script-mcq-15",
-        "script-mcq-12",
-        "script-mcq-16",
-        "script-mcq-11"
+        "script-mcq-17",
+        "script-mcq-18"
       ],
       "explanation": "本句的「scripting」指「編寫劇本、活動腳本或電腦腳本的活動」。",
       "sentenceIndex": 38,
@@ -1731,12 +1566,9 @@ export default {
         "scripting"
       ],
       "optionReasons": {
-        "script-mcq-14": "本句指「編寫劇本、活動腳本或電腦腳本的活動」。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-11": "「預先寫好某段對白、內容或流程」是「script — verb」的用法，與本句語境不同。"
+        "script-mcq-14": "本句的「scripting」指「編寫劇本、活動腳本或電腦腳本的活動」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-14"
     },
@@ -1748,11 +1580,9 @@ export default {
       "masked": "The ____ revised the dialogue.",
       "options": [
         "script-mcq-15",
-        "script-mcq-14",
-        "script-mcq-16",
-        "script-mcq-13",
+        "script-mcq-03",
         "script-mcq-17",
-        "script-mcq-12"
+        "script-mcq-10"
       ],
       "explanation": "本句的「scriptwriter」指「負責撰寫電影、電視、電台或其他節目腳本的人」。",
       "sentenceIndex": 39,
@@ -1761,12 +1591,10 @@ export default {
         "scriptwriter"
       ],
       "optionReasons": {
-        "script-mcq-15": "本句指「負責撰寫電影、電視、電台或其他節目腳本的人」。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。"
+        "script-mcq-15": "本句的「scriptwriter」指「負責撰寫電影、電視、電台或其他節目腳本的人」。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-15"
     },
@@ -1778,11 +1606,9 @@ export default {
       "masked": "She works as a television ____.",
       "options": [
         "script-mcq-15",
-        "script-mcq-14",
-        "script-mcq-16",
-        "script-mcq-13",
+        "script-mcq-18",
         "script-mcq-17",
-        "script-mcq-12"
+        "script-mcq-10"
       ],
       "explanation": "本句的「scriptwriter」指「負責撰寫電影、電視、電台或其他節目腳本的人」。",
       "sentenceIndex": 40,
@@ -1791,12 +1617,10 @@ export default {
         "scriptwriter"
       ],
       "optionReasons": {
-        "script-mcq-15": "本句指「負責撰寫電影、電視、電台或其他節目腳本的人」。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-12": "「內容／措辭事先已經寫好或安排，而不是完全即興的」是「scripted」的用法，與本句語境不同。"
+        "script-mcq-15": "本句的「scriptwriter」指「負責撰寫電影、電視、電台或其他節目腳本的人」。",
+        "script-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-15"
     },
@@ -1808,11 +1632,8 @@ export default {
       "masked": "She wrote the ____ for the film.",
       "options": [
         "script-mcq-16",
-        "script-mcq-15",
-        "script-mcq-17",
-        "script-mcq-14",
-        "script-mcq-18",
-        "script-mcq-13"
+        "script-pdf-reviewed-01",
+        "script-mcq-09"
       ],
       "explanation": "本句的「screenplay」指「特別為電影編寫的劇本」。",
       "sentenceIndex": 41,
@@ -1821,12 +1642,9 @@ export default {
         "screenplay"
       ],
       "optionReasons": {
-        "script-mcq-16": "本句指「特別為電影編寫的劇本」。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。"
+        "script-mcq-16": "本句的「screenplay」指「特別為電影編寫的劇本」。",
+        "script-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-16"
     },
@@ -1838,11 +1656,9 @@ export default {
       "masked": "The ____ was adapted from a novel.",
       "options": [
         "script-mcq-16",
-        "script-mcq-15",
         "script-mcq-17",
-        "script-mcq-14",
-        "script-mcq-18",
-        "script-mcq-13"
+        "script-mcq-03",
+        "script-mcq-23"
       ],
       "explanation": "本句的「screenplay」指「特別為電影編寫的劇本」。",
       "sentenceIndex": 42,
@@ -1851,12 +1667,10 @@ export default {
         "screenplay"
       ],
       "optionReasons": {
-        "script-mcq-16": "本句指「特別為電影編寫的劇本」。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-13": "「沒有預先寫好內容，而是在現場自然／即興產生的」是「unscripted」的用法，與本句語境不同。"
+        "script-mcq-16": "本句的「screenplay」指「特別為電影編寫的劇本」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-16"
     },
@@ -1868,11 +1682,9 @@ export default {
       "masked": "People often follow social ____ without noticing.",
       "options": [
         "script-mcq-17",
-        "script-mcq-16",
-        "script-mcq-18",
+        "script-mcq-07",
         "script-mcq-15",
-        "script-mcq-19",
-        "script-mcq-14"
+        "script-mcq-03"
       ],
       "explanation": "本句的「scripts」指「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」。",
       "sentenceIndex": 43,
@@ -1881,12 +1693,10 @@ export default {
         "scripts"
       ],
       "optionReasons": {
-        "script-mcq-17": "本句指「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。"
+        "script-mcq-17": "本句的「scripts」指「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」。",
+        "script-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-17"
     },
@@ -1898,11 +1708,9 @@ export default {
       "masked": "He felt pressure to follow the traditional career ____.",
       "options": [
         "script-mcq-17",
-        "script-mcq-16",
-        "script-mcq-18",
         "script-mcq-15",
-        "script-mcq-19",
-        "script-mcq-14"
+        "script-mcq-23",
+        "script-mcq-03"
       ],
       "explanation": "本句的「script」指「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」。",
       "sentenceIndex": 44,
@@ -1911,12 +1719,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-17": "本句指「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-14": "「編寫劇本、活動腳本或電腦腳本的活動」是「scripting」的用法，與本句語境不同。"
+        "script-mcq-17": "本句的「script」指「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-17"
     },
@@ -1928,11 +1734,9 @@ export default {
       "masked": "The speaker ____ and told a personal story.",
       "options": [
         "script-mcq-18",
-        "script-mcq-17",
-        "script-mcq-19",
-        "script-mcq-16",
-        "script-mcq-20",
-        "script-mcq-15"
+        "script-mcq-15",
+        "script-mcq-10",
+        "script-mcq-17"
       ],
       "explanation": "本句的「went off script」指「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」。",
       "sentenceIndex": 45,
@@ -1941,12 +1745,10 @@ export default {
         "went off script"
       ],
       "optionReasons": {
-        "script-mcq-18": "本句指「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。"
+        "script-mcq-18": "本句的「went off script」指「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-18"
     },
@@ -1958,11 +1760,9 @@ export default {
       "masked": "I was nervous about going ____.",
       "options": [
         "script-mcq-18",
-        "script-mcq-17",
-        "script-mcq-19",
-        "script-mcq-16",
-        "script-mcq-20",
-        "script-mcq-15"
+        "script-mcq-15",
+        "script-mcq-10",
+        "script-mcq-17"
       ],
       "explanation": "本句的「off script」指「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」。",
       "sentenceIndex": 46,
@@ -1971,12 +1771,10 @@ export default {
         "off script"
       ],
       "optionReasons": {
-        "script-mcq-18": "本句指「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-15": "「負責撰寫電影、電視、電台或其他節目腳本的人」是「scriptwriter」的用法，與本句語境不同。"
+        "script-mcq-18": "本句的「off script」指「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-18"
     },
@@ -1988,11 +1786,9 @@ export default {
       "masked": "At first, I tried to ____.",
       "options": [
         "script-mcq-19",
-        "script-mcq-18",
-        "script-mcq-20",
-        "script-mcq-17",
-        "script-mcq-21",
-        "script-mcq-16"
+        "script-mcq-16",
+        "script-mcq-09",
+        "script-mcq-17"
       ],
       "explanation": "本句的「stick to the script」指「嚴格按照預先寫好的內容／安排進行」。",
       "sentenceIndex": 47,
@@ -2001,12 +1797,10 @@ export default {
         "stick to the script"
       ],
       "optionReasons": {
-        "script-mcq-19": "本句指「嚴格按照預先寫好的內容／安排進行」。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。"
+        "script-mcq-19": "本句的「stick to the script」指「嚴格按照預先寫好的內容／安排進行」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-19"
     },
@@ -2018,11 +1812,9 @@ export default {
       "masked": "The host was asked to ____.",
       "options": [
         "script-mcq-19",
-        "script-mcq-18",
-        "script-mcq-20",
-        "script-mcq-17",
-        "script-mcq-21",
-        "script-mcq-16"
+        "script-mcq-15",
+        "script-mcq-10",
+        "script-mcq-17"
       ],
       "explanation": "本句的「stick to the script」指「嚴格按照預先寫好的內容／安排進行」。",
       "sentenceIndex": 48,
@@ -2031,12 +1823,10 @@ export default {
         "stick to the script"
       ],
       "optionReasons": {
-        "script-mcq-19": "本句指「嚴格按照預先寫好的內容／安排進行」。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-16": "「特別為電影編寫的劇本」是「screenplay」的用法，與本句語境不同。"
+        "script-mcq-19": "本句的「stick to the script」指「嚴格按照預先寫好的內容／安排進行」。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-19"
     },
@@ -2048,10 +1838,8 @@ export default {
       "masked": "Try not to ____.",
       "options": [
         "script-mcq-20",
-        "script-mcq-19",
-        "script-mcq-21",
-        "script-mcq-18",
-        "script-mcq-22",
+        "script-mcq-09",
+        "script-mcq-16",
         "script-mcq-17"
       ],
       "explanation": "本句的「read directly from the script」指「看著預先寫好的文字讀出／講出」。",
@@ -2061,12 +1849,10 @@ export default {
         "read directly from the script"
       ],
       "optionReasons": {
-        "script-mcq-20": "本句指「看著預先寫好的文字讀出／講出」。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。"
+        "script-mcq-20": "本句的「read directly from the script」指「看著預先寫好的文字讀出／講出」。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-20"
     },
@@ -2078,10 +1864,7 @@ export default {
       "masked": "She sounded natural even though she was reading from a ____.",
       "options": [
         "script-mcq-20",
-        "script-mcq-19",
-        "script-mcq-21",
-        "script-mcq-18",
-        "script-mcq-22",
+        "script-mcq-14",
         "script-mcq-17"
       ],
       "explanation": "本句的「script」指「看著預先寫好的文字讀出／講出」。",
@@ -2091,12 +1874,9 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-20": "本句指「看著預先寫好的文字讀出／講出」。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-21": "「把講稿／劇本內容背熟，使自己不用看稿也能說出」是「memorize a script」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-17": "「社會／文化上預期某情境應如何發展或人應如何行為的既定模式」是「social script」的用法，與本句語境不同。"
+        "script-mcq-20": "本句的「script」指「看著預先寫好的文字讀出／講出」。",
+        "script-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-20"
     },
@@ -2108,11 +1888,9 @@ export default {
       "masked": "You don’t have to ____.",
       "options": [
         "script-mcq-21",
-        "script-mcq-20",
-        "script-mcq-22",
-        "script-mcq-19",
-        "script-mcq-23",
-        "script-mcq-18"
+        "script-mcq-17",
+        "script-mcq-15",
+        "script-mcq-08"
       ],
       "explanation": "本句的「memorize the whole script」指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
       "sentenceIndex": 51,
@@ -2121,12 +1899,10 @@ export default {
         "memorize the whole script"
       ],
       "optionReasons": {
-        "script-mcq-21": "本句指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」是「10. Latin/Arabic/Cyrillic script（拉丁／阿拉伯／西里爾文字） — 書寫系統」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-mcq-21": "本句的「memorize the whole script」指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-21"
     },
@@ -2138,11 +1914,9 @@ export default {
       "masked": "The actor memorized the ____ before rehearsal.",
       "options": [
         "script-mcq-21",
-        "script-mcq-20",
-        "script-mcq-22",
-        "script-mcq-19",
-        "script-mcq-23",
-        "script-mcq-18"
+        "script-mcq-17",
+        "script-mcq-09",
+        "script-mcq-03"
       ],
       "explanation": "本句的「script」指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
       "sentenceIndex": 52,
@@ -2151,12 +1925,10 @@ export default {
         "script"
       ],
       "optionReasons": {
-        "script-mcq-21": "本句指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」是「read from a script」的用法，與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」是「5. movie/film script（電影劇本） — 電影劇本」的用法，與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」是「stick to the script」的用法，與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」是「10. Latin/Arabic/Cyrillic script（拉丁／阿拉伯／西里爾文字） — 書寫系統」的用法，與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」是「go off script」的用法，與本句語境不同。"
+        "script-mcq-21": "本句的「script」指「把講稿／劇本內容背熟，使自己不用看稿也能說出」。",
+        "script-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-mcq-21"
     },
@@ -2168,11 +1940,8 @@ export default {
       "masked": "The support staff ____ when answering calls.",
       "options": [
         "script-pdf-reviewed-01",
-        "script-mcq-20",
-        "script-mcq-22",
-        "script-mcq-19",
-        "script-mcq-23",
-        "script-mcq-18"
+        "script-mcq-16",
+        "script-mcq-09"
       ],
       "explanation": "本句的「follow a script」指「按照預先規定的文字／步驟進行」。",
       "sentenceIndex": 53,
@@ -2181,12 +1950,9 @@ export default {
         "follow a script"
       ],
       "optionReasons": {
-        "script-pdf-reviewed-01": "本句指「按照預先規定的文字／步驟進行」。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」與本句語境不同。"
+        "script-pdf-reviewed-01": "本句的「follow a script」指「按照預先規定的文字／步驟進行」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-pdf-reviewed-01"
     },
@@ -2198,11 +1964,8 @@ export default {
       "masked": "I used the script as a guide rather than ____.",
       "options": [
         "script-pdf-reviewed-01",
-        "script-mcq-20",
-        "script-mcq-22",
-        "script-mcq-19",
-        "script-mcq-23",
-        "script-mcq-18"
+        "script-mcq-16",
+        "script-mcq-09"
       ],
       "explanation": "本句的「following it exactly」指「按照預先規定的文字／步驟進行」。",
       "sentenceIndex": 54,
@@ -2211,12 +1974,9 @@ export default {
         "following it exactly"
       ],
       "optionReasons": {
-        "script-pdf-reviewed-01": "本句指「按照預先規定的文字／步驟進行」。",
-        "script-mcq-20": "「看著預先寫好的文字讀出／講出」與本句語境不同。",
-        "script-mcq-22": "「電影拍攝所依據的對白、場景及動作文字」與本句語境不同。",
-        "script-mcq-19": "「嚴格按照預先寫好的內容／安排進行」與本句語境不同。",
-        "script-mcq-23": "「某一語言所使用的一套書寫符號系統」與本句語境不同。",
-        "script-mcq-18": "「不再按照預先準備好的文字／安排，而開始即興或偏離原計劃」與本句語境不同。"
+        "script-pdf-reviewed-01": "本句的「following it exactly」指「按照預先規定的文字／步驟進行」。",
+        "script-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "script-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "script-pdf-reviewed-01"
     }
@@ -2228,5 +1988,7 @@ export default {
     "sha256": "8153ef50a7d13ae1600c63e33941a8290d8e7d8a3408b088075aa5e9404df87f",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

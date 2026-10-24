@@ -173,10 +173,7 @@ export default {
       "options": [
         "bring-mcq-01",
         "bring-mcq-02",
-        "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-03"
       ],
       "explanation": "本句的「bring my homework」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
       "sentenceIndex": 0,
@@ -185,12 +182,9 @@ export default {
         "bring my homework"
       ],
       "optionReasons": {
-        "bring-mcq-01": "本句指「把某人或某物帶到某個目的地、接收者或相關位置」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-01": "本句的「bring my homework」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-01"
     },
@@ -202,11 +196,8 @@ export default {
       "masked": "Please ____ your passport to the appointment.",
       "options": [
         "bring-mcq-01",
-        "bring-mcq-02",
         "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-02"
       ],
       "explanation": "本句的「bring」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
       "sentenceIndex": 1,
@@ -215,12 +206,9 @@ export default {
         "bring"
       ],
       "optionReasons": {
-        "bring-mcq-01": "本句指「把某人或某物帶到某個目的地、接收者或相關位置」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-01": "本句的「bring」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-01"
     },
@@ -233,10 +221,7 @@ export default {
       "options": [
         "bring-mcq-01",
         "bring-mcq-02",
-        "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-03"
       ],
       "explanation": "本句的「bring」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
       "sentenceIndex": 2,
@@ -245,12 +230,9 @@ export default {
         "bring"
       ],
       "optionReasons": {
-        "bring-mcq-01": "本句指「把某人或某物帶到某個目的地、接收者或相關位置」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-01": "本句的「bring」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-01"
     },
@@ -263,10 +245,7 @@ export default {
       "options": [
         "bring-mcq-01",
         "bring-mcq-02",
-        "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-03"
       ],
       "explanation": "本句的「bring」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
       "sentenceIndex": 3,
@@ -275,12 +254,9 @@ export default {
         "bring"
       ],
       "optionReasons": {
-        "bring-mcq-01": "本句指「把某人或某物帶到某個目的地、接收者或相關位置」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-01": "本句的「bring」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-01"
     },
@@ -292,11 +268,8 @@ export default {
       "masked": "The teacher ____ the students into the hall.",
       "options": [
         "bring-mcq-01",
-        "bring-mcq-02",
         "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-02"
       ],
       "explanation": "本句的「brought」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
       "sentenceIndex": 4,
@@ -305,12 +278,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-01": "本句指「把某人或某物帶到某個目的地、接收者或相關位置」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-01": "本句的「brought」指「把某人或某物帶到某個目的地、接收者或相關位置」。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-01"
     },
@@ -322,11 +292,8 @@ export default {
       "masked": "The new system ____ major improvements.",
       "options": [
         "bring-mcq-02",
-        "bring-mcq-01",
-        "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-06",
+        "bring-mcq-05"
       ],
       "explanation": "本句的「brought」指「令某種結果、情況、感受或變化出現」。",
       "sentenceIndex": 5,
@@ -335,12 +302,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-02": "本句指「令某種結果、情況、感受或變化出現」。",
-        "bring-mcq-01": "「把某人或某物帶到某個目的地、接收者或相關位置」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-02": "本句的「brought」指「令某種結果、情況、感受或變化出現」。",
+        "bring-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-02"
     },
@@ -353,10 +317,7 @@ export default {
       "options": [
         "bring-mcq-02",
         "bring-mcq-01",
-        "bring-mcq-03",
-        "bring-mcq-04",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-03"
       ],
       "explanation": "本句的「brought」指「令某種結果、情況、感受或變化出現」。",
       "sentenceIndex": 6,
@@ -365,12 +326,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-02": "本句指「令某種結果、情況、感受或變化出現」。",
-        "bring-mcq-01": "「把某人或某物帶到某個目的地、接收者或相關位置」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-02": "本句的「brought」指「令某種結果、情況、感受或變化出現」。",
+        "bring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-02"
     },
@@ -382,11 +340,8 @@ export default {
       "masked": "The news ____ the meeting to an end.",
       "options": [
         "bring-mcq-03",
-        "bring-mcq-02",
-        "bring-mcq-04",
-        "bring-mcq-01",
         "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-02"
       ],
       "explanation": "本句的「brought」指「把某種資源、特質、影響或元素加入某個情況；與」。",
       "sentenceIndex": 7,
@@ -395,12 +350,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-03": "本句指「把某種資源、特質、影響或元素加入某個情況；與」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-01": "「把某人或某物帶到某個目的地、接收者或相關位置」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-03": "本句的「brought」指「把某種資源、特質、影響或元素加入某個情況；與」。",
+        "bring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-03"
     },
@@ -412,11 +364,8 @@ export default {
       "masked": "The accident ____ traffic to a standstill.",
       "options": [
         "bring-mcq-03",
-        "bring-mcq-02",
-        "bring-mcq-04",
-        "bring-mcq-01",
         "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-02"
       ],
       "explanation": "本句的「brought」指「把某種資源、特質、影響或元素加入某個情況；與」。",
       "sentenceIndex": 8,
@@ -425,12 +374,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-03": "本句指「把某種資源、特質、影響或元素加入某個情況；與」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-01": "「把某人或某物帶到某個目的地、接收者或相關位置」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-03": "本句的「brought」指「把某種資源、特質、影響或元素加入某個情況；與」。",
+        "bring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-03"
     },
@@ -442,11 +388,8 @@ export default {
       "masked": "She ____ a lot of experience to the team.",
       "options": [
         "bring-mcq-03",
-        "bring-mcq-02",
-        "bring-mcq-04",
-        "bring-mcq-01",
         "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-02"
       ],
       "explanation": "本句的「brings」指「把某種資源、特質、影響或元素加入某個情況；與」。",
       "sentenceIndex": 11,
@@ -455,12 +398,9 @@ export default {
         "brings"
       ],
       "optionReasons": {
-        "bring-mcq-03": "本句指「把某種資源、特質、影響或元素加入某個情況；與」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-01": "「把某人或某物帶到某個目的地、接收者或相關位置」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-03": "本句的「brings」指「把某種資源、特質、影響或元素加入某個情況；與」。",
+        "bring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-03"
     },
@@ -472,11 +412,8 @@ export default {
       "masked": "The new design ____ more light into the room.",
       "options": [
         "bring-mcq-03",
-        "bring-mcq-02",
-        "bring-mcq-04",
         "bring-mcq-01",
-        "bring-mcq-05",
-        "bring-mcq-06"
+        "bring-mcq-02"
       ],
       "explanation": "本句的「brings」指「把某種資源、特質、影響或元素加入某個情況；與」。",
       "sentenceIndex": 12,
@@ -485,12 +422,9 @@ export default {
         "brings"
       ],
       "optionReasons": {
-        "bring-mcq-03": "本句指「把某種資源、特質、影響或元素加入某個情況；與」。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-01": "「把某人或某物帶到某個目的地、接收者或相關位置」與本句語境不同。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。"
+        "bring-mcq-03": "本句的「brings」指「把某種資源、特質、影響或元素加入某個情況；與」。",
+        "bring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-03"
     },
@@ -502,10 +436,7 @@ export default {
       "masked": "The painting ____ a high price at auction.",
       "options": [
         "bring-mcq-05",
-        "bring-mcq-04",
-        "bring-mcq-06",
         "bring-mcq-03",
-        "bring-mcq-07",
         "bring-mcq-02"
       ],
       "explanation": "本句的「brought」指「某物出售時取得某個價格或金額」。",
@@ -515,12 +446,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-05": "本句指「某物出售時取得某個價格或金額」。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-07": "「bring 的過去式及過去分詞」與本句語境不同。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。"
+        "bring-mcq-05": "本句的「brought」指「某物出售時取得某個價格或金額」。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-05"
     },
@@ -532,10 +460,7 @@ export default {
       "masked": "Old coins can sometimes ____ surprisingly large sums.",
       "options": [
         "bring-mcq-05",
-        "bring-mcq-04",
-        "bring-mcq-06",
         "bring-mcq-03",
-        "bring-mcq-07",
         "bring-mcq-02"
       ],
       "explanation": "本句的「bring」指「某物出售時取得某個價格或金額」。",
@@ -545,12 +470,9 @@ export default {
         "bring"
       ],
       "optionReasons": {
-        "bring-mcq-05": "本句指「某物出售時取得某個價格或金額」。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-06": "「把某人或事項正式帶到法庭、委員會等權力機構面前處理」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-07": "「bring 的過去式及過去分詞」與本句語境不同。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。"
+        "bring-mcq-05": "本句的「bring」指「某物出售時取得某個價格或金額」。",
+        "bring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-05"
     },
@@ -562,11 +484,8 @@ export default {
       "masked": "The suspect was ____ before the court.",
       "options": [
         "bring-mcq-06",
-        "bring-mcq-05",
-        "bring-mcq-07",
-        "bring-mcq-04",
-        "bring-mcq-03",
-        "bring-mcq-02"
+        "bring-mcq-02",
+        "bring-mcq-05"
       ],
       "explanation": "本句的「brought」指「把某人或事項正式帶到法庭、委員會等權力機構面前處理」。",
       "sentenceIndex": 15,
@@ -575,12 +494,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-06": "本句指「把某人或事項正式帶到法庭、委員會等權力機構面前處理」。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-07": "「bring 的過去式及過去分詞」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。"
+        "bring-mcq-06": "本句的「brought」指「把某人或事項正式帶到法庭、委員會等權力機構面前處理」。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-06"
     },
@@ -593,9 +509,6 @@ export default {
       "options": [
         "bring-mcq-06",
         "bring-mcq-05",
-        "bring-mcq-07",
-        "bring-mcq-04",
-        "bring-mcq-03",
         "bring-mcq-02"
       ],
       "explanation": "本句的「brought」指「把某人或事項正式帶到法庭、委員會等權力機構面前處理」。",
@@ -605,12 +518,9 @@ export default {
         "brought"
       ],
       "optionReasons": {
-        "bring-mcq-06": "本句指「把某人或事項正式帶到法庭、委員會等權力機構面前處理」。",
-        "bring-mcq-05": "「某物出售時取得某個價格或金額」與本句語境不同。",
-        "bring-mcq-07": "「bring 的過去式及過去分詞」與本句語境不同。",
-        "bring-mcq-04": "「義相關」與本句語境不同。",
-        "bring-mcq-03": "「把某種資源、特質、影響或元素加入某個情況；與」與本句語境不同。",
-        "bring-mcq-02": "「令某種結果、情況、感受或變化出現」與本句語境不同。"
+        "bring-mcq-06": "本句的「brought」指「把某人或事項正式帶到法庭、委員會等權力機構面前處理」。",
+        "bring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bring-mcq-06"
     }
@@ -622,5 +532,7 @@ export default {
     "sha256": "b2ff933b1bee5678ee93e9d5bb1a517ef8fe86091816750ce22c46742f5aa5d9",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

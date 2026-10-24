@@ -395,16 +395,6 @@ export default {
       "note": "來源詞義：說笑話",
       "examples": [
         [
-          "The long questioning finally cracked him.",
-          "長時間盤問最終擊垮了他的心理防線。",
-          "說笑話"
-        ],
-        [
-          "Investigators hoped the pressure would crack the suspect.",
-          "調查人員希望壓力會令疑犯崩潰並透露真相。",
-          "說笑話"
-        ],
-        [
           "He cracked a joke to relax everyone.",
           "他說了個笑話讓大家放鬆。",
           "說笑話"
@@ -665,6 +655,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "crack-reviewed-a92591dff9",
+      "title": "擊垮；使招供",
+      "form": "crack · source section 20",
+      "en": "擊垮；使招供",
+      "zh": "擊垮；使招供",
+      "note": "對照原始教材第 20 節及例句核實。",
+      "examples": [
+        [
+          "The long questioning finally cracked him.",
+          "長時間盤問最終擊垮了他的心理防線。",
+          "擊垮；使招供"
+        ],
+        [
+          "Investigators hoped the pressure would crack the suspect.",
+          "調查人員希望壓力會令疑犯崩潰並透露真相。",
+          "擊垮；使招供"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -676,11 +688,9 @@ export default {
       "masked": "There is a ____ in the wall.",
       "options": [
         "crack-mcq-01",
-        "crack-mcq-02",
-        "crack-mcq-03",
-        "crack-mcq-04",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-11",
+        "crack-mcq-16",
+        "crack-mcq-17"
       ],
       "explanation": "本句的「crack」指「裂縫；裂痕」。",
       "sentenceIndex": 0,
@@ -689,12 +699,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-01": "本句指「裂縫；裂痕」。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-01": "本句的「crack」指「裂縫；裂痕」。",
+        "crack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-01"
     },
@@ -706,11 +714,9 @@ export default {
       "masked": "Water was leaking through a ____ in the pipe.",
       "options": [
         "crack-mcq-01",
-        "crack-mcq-02",
+        "crack-mcq-13",
         "crack-mcq-03",
-        "crack-mcq-04",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-21"
       ],
       "explanation": "本句的「crack」指「裂縫；裂痕」。",
       "sentenceIndex": 1,
@@ -719,12 +725,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-01": "本句指「裂縫；裂痕」。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-01": "本句的「crack」指「裂縫；裂痕」。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-01"
     },
@@ -736,11 +740,9 @@ export default {
       "masked": "A small ____ appeared in the glass.",
       "options": [
         "crack-mcq-01",
-        "crack-mcq-02",
-        "crack-mcq-03",
-        "crack-mcq-04",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-24",
+        "crack-mcq-21",
+        "crack-reviewed-a92591dff9"
       ],
       "explanation": "本句的「crack」指「裂縫；裂痕」。",
       "sentenceIndex": 2,
@@ -749,12 +751,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-01": "本句指「裂縫；裂痕」。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-01": "本句的「crack」指「裂縫；裂痕」。",
+        "crack-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-01"
     },
@@ -766,11 +766,9 @@ export default {
       "masked": "Light came through a ____ in the door.",
       "options": [
         "crack-mcq-02",
-        "crack-mcq-01",
-        "crack-mcq-03",
-        "crack-mcq-04",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-13",
+        "crack-mcq-19",
+        "crack-mcq-04"
       ],
       "explanation": "本句的「crack」指「細縫」。",
       "sentenceIndex": 3,
@@ -779,12 +777,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-02": "本句指「細縫」。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-02": "本句的「crack」指「細縫」。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-02"
     },
@@ -796,11 +792,9 @@ export default {
       "masked": "He looked through the ____ between the curtains.",
       "options": [
         "crack-mcq-02",
-        "crack-mcq-01",
-        "crack-mcq-03",
-        "crack-mcq-04",
         "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-07",
+        "crack-mcq-19"
       ],
       "explanation": "本句的「crack」指「細縫」。",
       "sentenceIndex": 4,
@@ -809,12 +803,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-02": "本句指「細縫」。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-02": "本句的「crack」指「細縫」。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-02"
     },
@@ -826,11 +818,9 @@ export default {
       "masked": "Some small moments might otherwise have ____.",
       "options": [
         "crack-mcq-03",
-        "crack-mcq-02",
-        "crack-mcq-04",
-        "crack-mcq-01",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-24",
+        "crack-mcq-23",
+        "crack-mcq-20"
       ],
       "explanation": "本句的「slipped through the cracks」指「被遺漏／忽視」。",
       "sentenceIndex": 5,
@@ -839,12 +829,10 @@ export default {
         "slipped through the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-03": "本句指「被遺漏／忽視」。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-03": "本句的「slipped through the cracks」指「被遺漏／忽視」。",
+        "crack-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-03"
     },
@@ -856,11 +844,9 @@ export default {
       "masked": "Some students ____ in large schools.",
       "options": [
         "crack-mcq-03",
-        "crack-mcq-02",
-        "crack-mcq-04",
-        "crack-mcq-01",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-11",
+        "crack-mcq-21",
+        "crack-mcq-15"
       ],
       "explanation": "本句的「slip through the cracks」指「被遺漏／忽視」。",
       "sentenceIndex": 6,
@@ -869,12 +855,10 @@ export default {
         "slip through the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-03": "本句指「被遺漏／忽視」。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-03": "本句的「slip through the cracks」指「被遺漏／忽視」。",
+        "crack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-03"
     },
@@ -886,11 +870,9 @@ export default {
       "masked": "Important details can easily ____.",
       "options": [
         "crack-mcq-03",
-        "crack-mcq-02",
-        "crack-mcq-04",
         "crack-mcq-01",
-        "crack-mcq-05",
-        "crack-mcq-06"
+        "crack-mcq-16",
+        "crack-mcq-25"
       ],
       "explanation": "本句的「slip through the cracks」指「被遺漏／忽視」。",
       "sentenceIndex": 7,
@@ -899,12 +881,10 @@ export default {
         "slip through the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-03": "本句指「被遺漏／忽視」。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-03": "本句的「slip through the cracks」指「被遺漏／忽視」。",
+        "crack-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-03"
     },
@@ -916,11 +896,9 @@ export default {
       "masked": "Some applications ____.",
       "options": [
         "crack-mcq-04",
-        "crack-mcq-03",
-        "crack-mcq-05",
-        "crack-mcq-02",
+        "crack-mcq-17",
         "crack-mcq-06",
-        "crack-mcq-01"
+        "crack-mcq-15"
       ],
       "explanation": "本句的「fell through the cracks」指「被漏掉」。",
       "sentenceIndex": 8,
@@ -929,12 +907,10 @@ export default {
         "fell through the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-04": "本句指「被漏掉」。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。"
+        "crack-mcq-04": "本句的「fell through the cracks」指「被漏掉」。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-04"
     },
@@ -946,11 +922,9 @@ export default {
       "masked": "We need a better system so that no case ____.",
       "options": [
         "crack-mcq-04",
-        "crack-mcq-03",
-        "crack-mcq-05",
-        "crack-mcq-02",
-        "crack-mcq-06",
-        "crack-mcq-01"
+        "crack-mcq-21",
+        "crack-reviewed-a92591dff9",
+        "crack-mcq-06"
       ],
       "explanation": "本句的「falls through the cracks」指「被漏掉」。",
       "sentenceIndex": 9,
@@ -959,12 +933,10 @@ export default {
         "falls through the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-04": "本句指「被漏掉」。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-02": "「細縫」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-01": "「裂縫；裂痕」與本句語境不同。"
+        "crack-mcq-04": "本句的「falls through the cracks」指「被漏掉」。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-04"
     },
@@ -976,11 +948,9 @@ export default {
       "masked": "The temporary solution only ____.",
       "options": [
         "crack-mcq-05",
-        "crack-mcq-04",
-        "crack-mcq-06",
-        "crack-mcq-03",
         "crack-mcq-07",
-        "crack-mcq-02"
+        "crack-mcq-04",
+        "crack-mcq-21"
       ],
       "explanation": "本句的「papered over the cracks」指「掩飾問題」。",
       "sentenceIndex": 10,
@@ -989,12 +959,10 @@ export default {
         "papered over the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-05": "本句指「掩飾問題」。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-02": "「細縫」與本句語境不同。"
+        "crack-mcq-05": "本句的「papered over the cracks」指「掩飾問題」。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-05"
     },
@@ -1006,10 +974,8 @@ export default {
       "masked": "They tried to ____ instead of fixing the real issue.",
       "options": [
         "crack-mcq-05",
-        "crack-mcq-04",
-        "crack-mcq-06",
-        "crack-mcq-03",
-        "crack-mcq-07",
+        "crack-mcq-23",
+        "crack-mcq-18",
         "crack-mcq-02"
       ],
       "explanation": "本句的「paper over the cracks」指「掩飾問題」。",
@@ -1019,12 +985,10 @@ export default {
         "paper over the cracks"
       ],
       "optionReasons": {
-        "crack-mcq-05": "本句指「掩飾問題」。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-02": "「細縫」與本句語境不同。"
+        "crack-mcq-05": "本句的「paper over the cracks」指「掩飾問題」。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-05"
     },
@@ -1036,11 +1000,9 @@ export default {
       "masked": "The glass ____ when it hit the floor.",
       "options": [
         "crack-mcq-06",
-        "crack-mcq-05",
-        "crack-mcq-07",
+        "crack-reviewed-a92591dff9",
         "crack-mcq-04",
-        "crack-mcq-08",
-        "crack-mcq-03"
+        "crack-mcq-13"
       ],
       "explanation": "本句的「cracked」指「裂開」。",
       "sentenceIndex": 12,
@@ -1049,12 +1011,10 @@ export default {
         "cracked"
       ],
       "optionReasons": {
-        "crack-mcq-06": "本句指「裂開」。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。"
+        "crack-mcq-06": "本句的「cracked」指「裂開」。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-06"
     },
@@ -1066,11 +1026,9 @@ export default {
       "masked": "The dry ground began to ____.",
       "options": [
         "crack-mcq-06",
-        "crack-mcq-05",
-        "crack-mcq-07",
-        "crack-mcq-04",
-        "crack-mcq-08",
-        "crack-mcq-03"
+        "crack-mcq-15",
+        "crack-mcq-26",
+        "crack-mcq-22"
       ],
       "explanation": "本句的「crack」指「裂開」。",
       "sentenceIndex": 13,
@@ -1079,12 +1037,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-06": "本句指「裂開」。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-03": "「被遺漏／忽視」與本句語境不同。"
+        "crack-mcq-06": "本句的「crack」指「裂開」。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-06"
     },
@@ -1096,11 +1052,9 @@ export default {
       "masked": "The impact ____.",
       "options": [
         "crack-mcq-07",
-        "crack-mcq-06",
-        "crack-mcq-08",
         "crack-mcq-05",
-        "crack-mcq-09",
-        "crack-mcq-04"
+        "crack-mcq-03",
+        "crack-mcq-02"
       ],
       "explanation": "本句的「cracked the screen」指「使裂開」。",
       "sentenceIndex": 14,
@@ -1109,12 +1063,10 @@ export default {
         "cracked the screen"
       ],
       "optionReasons": {
-        "crack-mcq-07": "本句指「使裂開」。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。"
+        "crack-mcq-07": "本句的「cracked the screen」指「使裂開」。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-07"
     },
@@ -1126,11 +1078,9 @@ export default {
       "masked": "Be careful not to ____.",
       "options": [
         "crack-mcq-07",
-        "crack-mcq-06",
-        "crack-mcq-08",
-        "crack-mcq-05",
-        "crack-mcq-09",
-        "crack-mcq-04"
+        "crack-mcq-26",
+        "crack-reviewed-a92591dff9",
+        "crack-mcq-08"
       ],
       "explanation": "本句的「crack the plate」指「使裂開」。",
       "sentenceIndex": 15,
@@ -1139,12 +1089,10 @@ export default {
         "crack the plate"
       ],
       "optionReasons": {
-        "crack-mcq-07": "本句指「使裂開」。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-04": "「被漏掉」與本句語境不同。"
+        "crack-mcq-07": "本句的「crack the plate」指「使裂開」。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-07"
     },
@@ -1156,11 +1104,9 @@ export default {
       "masked": "____ into a bowl.",
       "options": [
         "crack-mcq-08",
-        "crack-mcq-07",
-        "crack-mcq-09",
-        "crack-mcq-06",
-        "crack-mcq-10",
-        "crack-mcq-05"
+        "crack-mcq-13",
+        "crack-mcq-04",
+        "crack-mcq-02"
       ],
       "explanation": "本句的「Crack two eggs」指「打蛋」。",
       "sentenceIndex": 16,
@@ -1169,12 +1115,10 @@ export default {
         "Crack two eggs"
       ],
       "optionReasons": {
-        "crack-mcq-08": "本句指「打蛋」。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。"
+        "crack-mcq-08": "本句的「Crack two eggs」指「打蛋」。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-08"
     },
@@ -1186,11 +1130,9 @@ export default {
       "masked": "She ____ on the edge of the pan.",
       "options": [
         "crack-mcq-08",
-        "crack-mcq-07",
         "crack-mcq-09",
-        "crack-mcq-06",
-        "crack-mcq-10",
-        "crack-mcq-05"
+        "crack-mcq-26",
+        "crack-mcq-15"
       ],
       "explanation": "本句的「cracked the egg」指「打蛋」。",
       "sentenceIndex": 17,
@@ -1199,12 +1141,10 @@ export default {
         "cracked the egg"
       ],
       "optionReasons": {
-        "crack-mcq-08": "本句指「打蛋」。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-05": "「掩飾問題」與本句語境不同。"
+        "crack-mcq-08": "本句的「cracked the egg」指「打蛋」。",
+        "crack-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-08"
     },
@@ -1216,11 +1156,9 @@ export default {
       "masked": "He used a tool to ____.",
       "options": [
         "crack-mcq-09",
-        "crack-mcq-08",
-        "crack-mcq-10",
-        "crack-mcq-07",
-        "crack-mcq-11",
-        "crack-mcq-06"
+        "crack-mcq-23",
+        "crack-mcq-26",
+        "crack-mcq-25"
       ],
       "explanation": "本句的「crack the nuts」指「把窗開一條縫」。",
       "sentenceIndex": 18,
@@ -1229,12 +1167,10 @@ export default {
         "crack the nuts"
       ],
       "optionReasons": {
-        "crack-mcq-09": "本句指「把窗開一條縫」。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-09": "本句的「crack the nuts」指「把窗開一條縫」。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-09"
     },
@@ -1247,10 +1183,8 @@ export default {
       "options": [
         "crack-mcq-09",
         "crack-mcq-08",
-        "crack-mcq-10",
-        "crack-mcq-07",
-        "crack-mcq-11",
-        "crack-mcq-06"
+        "crack-mcq-05",
+        "crack-mcq-10"
       ],
       "explanation": "本句的「crack」指「把窗開一條縫」。",
       "sentenceIndex": 19,
@@ -1259,12 +1193,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-09": "本句指「把窗開一條縫」。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-09": "本句的「crack」指「把窗開一條縫」。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-09"
     },
@@ -1276,11 +1208,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "crack-mcq-09",
-        "crack-mcq-08",
-        "crack-mcq-10",
-        "crack-mcq-07",
-        "crack-mcq-11",
-        "crack-mcq-06"
+        "crack-mcq-14",
+        "crack-mcq-03",
+        "crack-mcq-17"
       ],
       "explanation": "本句的「crack the window」指「把窗開一條縫」。",
       "sentenceIndex": 20,
@@ -1289,12 +1219,10 @@ export default {
         "crack the window"
       ],
       "optionReasons": {
-        "crack-mcq-09": "本句指「把窗開一條縫」。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-09": "本句的「crack the window」指「把窗開一條縫」。",
+        "crack-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-09"
     },
@@ -1306,11 +1234,9 @@ export default {
       "masked": "She ____ and looked outside.",
       "options": [
         "crack-mcq-09",
-        "crack-mcq-08",
-        "crack-mcq-10",
-        "crack-mcq-07",
-        "crack-mcq-11",
-        "crack-mcq-06"
+        "crack-mcq-21",
+        "crack-mcq-03",
+        "crack-mcq-26"
       ],
       "explanation": "本句的「cracked the door open」指「把窗開一條縫」。",
       "sentenceIndex": 21,
@@ -1319,12 +1245,10 @@ export default {
         "cracked the door open"
       ],
       "optionReasons": {
-        "crack-mcq-09": "本句指「把窗開一條縫」。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-06": "「裂開」與本句語境不同。"
+        "crack-mcq-09": "本句的「cracked the door open」指「把窗開一條縫」。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-09"
     },
@@ -1336,11 +1260,9 @@ export default {
       "masked": "We heard a loud ____.",
       "options": [
         "crack-mcq-10",
-        "crack-mcq-09",
-        "crack-mcq-11",
-        "crack-mcq-08",
-        "crack-mcq-12",
-        "crack-mcq-07"
+        "crack-mcq-23",
+        "crack-mcq-25",
+        "crack-mcq-03"
       ],
       "explanation": "本句的「crack」指「爆裂聲」。",
       "sentenceIndex": 22,
@@ -1349,12 +1271,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-10": "本句指「爆裂聲」。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。"
+        "crack-mcq-10": "本句的「crack」指「爆裂聲」。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-10"
     },
@@ -1366,11 +1286,9 @@ export default {
       "masked": "There was a sharp ____ of thunder.",
       "options": [
         "crack-mcq-10",
-        "crack-mcq-09",
-        "crack-mcq-11",
         "crack-mcq-08",
-        "crack-mcq-12",
-        "crack-mcq-07"
+        "crack-mcq-02",
+        "crack-mcq-20"
       ],
       "explanation": "本句的「crack」指「爆裂聲」。",
       "sentenceIndex": 23,
@@ -1379,12 +1297,10 @@ export default {
         "crack"
       ],
       "optionReasons": {
-        "crack-mcq-10": "本句指「爆裂聲」。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。"
+        "crack-mcq-10": "本句的「crack」指「爆裂聲」。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-10"
     },
@@ -1396,11 +1312,9 @@ export default {
       "masked": "The branches ____ in the wind.",
       "options": [
         "crack-mcq-10",
-        "crack-mcq-09",
-        "crack-mcq-11",
-        "crack-mcq-08",
-        "crack-mcq-12",
-        "crack-mcq-07"
+        "crack-mcq-18",
+        "crack-reviewed-a92591dff9",
+        "crack-mcq-13"
       ],
       "explanation": "本句的「cracked」指「爆裂聲」。",
       "sentenceIndex": 24,
@@ -1409,12 +1323,10 @@ export default {
         "cracked"
       ],
       "optionReasons": {
-        "crack-mcq-10": "本句指「爆裂聲」。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。"
+        "crack-mcq-10": "本句的「cracked」指「爆裂聲」。",
+        "crack-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-10"
     },
@@ -1426,11 +1338,9 @@ export default {
       "masked": "Thunder ____ overhead.",
       "options": [
         "crack-mcq-10",
-        "crack-mcq-09",
-        "crack-mcq-11",
+        "crack-mcq-13",
         "crack-mcq-08",
-        "crack-mcq-12",
-        "crack-mcq-07"
+        "crack-mcq-23"
       ],
       "explanation": "本句的「cracked」指「爆裂聲」。",
       "sentenceIndex": 25,
@@ -1439,12 +1349,10 @@ export default {
         "cracked"
       ],
       "optionReasons": {
-        "crack-mcq-10": "本句指「爆裂聲」。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-07": "「使裂開」與本句語境不同。"
+        "crack-mcq-10": "本句的「cracked」指「爆裂聲」。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-10"
     },
@@ -1456,11 +1364,9 @@ export default {
       "masked": "He always ____ when he's nervous.",
       "options": [
         "crack-mcq-11",
-        "crack-mcq-10",
-        "crack-mcq-12",
-        "crack-mcq-09",
-        "crack-mcq-13",
-        "crack-mcq-08"
+        "crack-mcq-03",
+        "crack-mcq-14",
+        "crack-mcq-23"
       ],
       "explanation": "本句的「cracks his knuckles」指「扳響關節」。",
       "sentenceIndex": 26,
@@ -1469,12 +1375,10 @@ export default {
         "cracks his knuckles"
       ],
       "optionReasons": {
-        "crack-mcq-11": "本句指「扳響關節」。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。"
+        "crack-mcq-11": "本句的「cracks his knuckles」指「扳響關節」。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-11"
     },
@@ -1486,11 +1390,9 @@ export default {
       "masked": "She ____ before starting work.",
       "options": [
         "crack-mcq-11",
-        "crack-mcq-10",
-        "crack-mcq-12",
-        "crack-mcq-09",
-        "crack-mcq-13",
-        "crack-mcq-08"
+        "crack-mcq-17",
+        "crack-mcq-14",
+        "crack-mcq-01"
       ],
       "explanation": "本句的「cracked her knuckles」指「扳響關節」。",
       "sentenceIndex": 27,
@@ -1499,12 +1401,10 @@ export default {
         "cracked her knuckles"
       ],
       "optionReasons": {
-        "crack-mcq-11": "本句指「扳響關節」。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-09": "「把窗開一條縫」與本句語境不同。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。",
-        "crack-mcq-08": "「打蛋」與本句語境不同。"
+        "crack-mcq-11": "本句的「cracked her knuckles」指「扳響關節」。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-11"
     },
@@ -1516,11 +1416,9 @@ export default {
       "masked": "The rider ____.",
       "options": [
         "crack-mcq-13",
-        "crack-mcq-12",
-        "crack-mcq-14",
-        "crack-mcq-11",
-        "crack-mcq-15",
-        "crack-mcq-10"
+        "crack-mcq-23",
+        "crack-mcq-21",
+        "crack-mcq-25"
       ],
       "explanation": "本句的「cracked the whip」指「破解密碼」。",
       "sentenceIndex": 28,
@@ -1529,12 +1427,10 @@ export default {
         "cracked the whip"
       ],
       "optionReasons": {
-        "crack-mcq-13": "本句指「破解密碼」。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。"
+        "crack-mcq-13": "本句的「cracked the whip」指「破解密碼」。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-13"
     },
@@ -1546,11 +1442,9 @@ export default {
       "masked": "The trainer ____ in the air.",
       "options": [
         "crack-mcq-13",
-        "crack-mcq-12",
-        "crack-mcq-14",
-        "crack-mcq-11",
-        "crack-mcq-15",
-        "crack-mcq-10"
+        "crack-mcq-22",
+        "crack-mcq-20",
+        "crack-mcq-05"
       ],
       "explanation": "本句的「cracked his whip」指「破解密碼」。",
       "sentenceIndex": 29,
@@ -1559,12 +1453,10 @@ export default {
         "cracked his whip"
       ],
       "optionReasons": {
-        "crack-mcq-13": "本句指「破解密碼」。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。"
+        "crack-mcq-13": "本句的「cracked his whip」指「破解密碼」。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-13"
     },
@@ -1576,11 +1468,9 @@ export default {
       "masked": "They finally ____.",
       "options": [
         "crack-mcq-13",
-        "crack-mcq-12",
-        "crack-mcq-14",
-        "crack-mcq-11",
-        "crack-mcq-15",
-        "crack-mcq-10"
+        "crack-mcq-05",
+        "crack-mcq-07",
+        "crack-reviewed-a92591dff9"
       ],
       "explanation": "本句的「cracked the code」指「破解密碼」。",
       "sentenceIndex": 32,
@@ -1589,12 +1479,10 @@ export default {
         "cracked the code"
       ],
       "optionReasons": {
-        "crack-mcq-13": "本句指「破解密碼」。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。"
+        "crack-mcq-13": "本句的「cracked the code」指「破解密碼」。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-13"
     },
@@ -1606,11 +1494,9 @@ export default {
       "masked": "The team is trying to ____.",
       "options": [
         "crack-mcq-13",
-        "crack-mcq-12",
-        "crack-mcq-14",
-        "crack-mcq-11",
-        "crack-mcq-15",
-        "crack-mcq-10"
+        "crack-mcq-22",
+        "crack-mcq-17",
+        "crack-mcq-04"
       ],
       "explanation": "本句的「crack the encryption」指「破解密碼」。",
       "sentenceIndex": 33,
@@ -1619,12 +1505,10 @@ export default {
         "crack the encryption"
       ],
       "optionReasons": {
-        "crack-mcq-13": "本句指「破解密碼」。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-10": "「爆裂聲」與本句語境不同。"
+        "crack-mcq-13": "本句的「crack the encryption」指「破解密碼」。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-13"
     },
@@ -1636,11 +1520,9 @@ export default {
       "masked": "The detective finally ____.",
       "options": [
         "crack-mcq-14",
-        "crack-mcq-13",
-        "crack-mcq-15",
-        "crack-mcq-12",
-        "crack-mcq-16",
-        "crack-mcq-11"
+        "crack-mcq-06",
+        "crack-mcq-04",
+        "crack-mcq-25"
       ],
       "explanation": "本句的「cracked the case」指「破案」。",
       "sentenceIndex": 34,
@@ -1649,12 +1531,10 @@ export default {
         "cracked the case"
       ],
       "optionReasons": {
-        "crack-mcq-14": "本句指「破案」。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。"
+        "crack-mcq-14": "本句的「cracked the case」指「破案」。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-14"
     },
@@ -1666,11 +1546,9 @@ export default {
       "masked": "New evidence helped police ____.",
       "options": [
         "crack-mcq-14",
-        "crack-mcq-13",
-        "crack-mcq-15",
-        "crack-mcq-12",
-        "crack-mcq-16",
-        "crack-mcq-11"
+        "crack-mcq-06",
+        "crack-mcq-18",
+        "crack-mcq-02"
       ],
       "explanation": "本句的「crack the case」指「破案」。",
       "sentenceIndex": 35,
@@ -1679,12 +1557,10 @@ export default {
         "crack the case"
       ],
       "optionReasons": {
-        "crack-mcq-14": "本句指「破案」。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-11": "「扳響關節」與本句語境不同。"
+        "crack-mcq-14": "本句的「crack the case」指「破案」。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-14"
     },
@@ -1696,11 +1572,9 @@ export default {
       "masked": "Scientists are trying to ____.",
       "options": [
         "crack-mcq-15",
-        "crack-mcq-14",
-        "crack-mcq-16",
-        "crack-mcq-13",
-        "crack-mcq-17",
-        "crack-mcq-12"
+        "crack-mcq-10",
+        "crack-mcq-02",
+        "crack-mcq-03"
       ],
       "explanation": "本句的「crack the problem」指「破解難題」。",
       "sentenceIndex": 36,
@@ -1709,12 +1583,10 @@ export default {
         "crack the problem"
       ],
       "optionReasons": {
-        "crack-mcq-15": "本句指「破解難題」。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。"
+        "crack-mcq-15": "本句的「crack the problem」指「破解難題」。",
+        "crack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-15"
     },
@@ -1726,11 +1598,9 @@ export default {
       "masked": "We finally ____.",
       "options": [
         "crack-mcq-15",
-        "crack-mcq-14",
-        "crack-mcq-16",
-        "crack-mcq-13",
-        "crack-mcq-17",
-        "crack-mcq-12"
+        "crack-mcq-04",
+        "crack-mcq-20",
+        "crack-mcq-09"
       ],
       "explanation": "本句的「cracked the puzzle」指「破解難題」。",
       "sentenceIndex": 37,
@@ -1739,12 +1609,10 @@ export default {
         "cracked the puzzle"
       ],
       "optionReasons": {
-        "crack-mcq-15": "本句指「破解難題」。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-12": "「破音」與本句語境不同。"
+        "crack-mcq-15": "本句的「cracked the puzzle」指「破解難題」。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-15"
     },
@@ -1756,11 +1624,9 @@ export default {
       "masked": "He stayed calm and didn't ____.",
       "options": [
         "crack-mcq-16",
-        "crack-mcq-15",
-        "crack-mcq-17",
-        "crack-mcq-14",
-        "crack-mcq-18",
-        "crack-mcq-13"
+        "crack-mcq-13",
+        "crack-mcq-26",
+        "crack-mcq-05"
       ],
       "explanation": "本句的「crack under pressure」指「在壓力下崩潰」。",
       "sentenceIndex": 38,
@@ -1769,12 +1635,10 @@ export default {
         "crack under pressure"
       ],
       "optionReasons": {
-        "crack-mcq-16": "本句指「在壓力下崩潰」。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。"
+        "crack-mcq-16": "本句的「crack under pressure」指「在壓力下崩潰」。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-16"
     },
@@ -1787,10 +1651,8 @@ export default {
       "options": [
         "crack-mcq-16",
         "crack-mcq-15",
-        "crack-mcq-17",
-        "crack-mcq-14",
-        "crack-mcq-18",
-        "crack-mcq-13"
+        "crack-mcq-03",
+        "crack-mcq-07"
       ],
       "explanation": "本句的「crack under intense pressure」指「在壓力下崩潰」。",
       "sentenceIndex": 39,
@@ -1799,74 +1661,68 @@ export default {
         "crack under intense pressure"
       ],
       "optionReasons": {
-        "crack-mcq-16": "本句指「在壓力下崩潰」。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-13": "「破解密碼」與本句語境不同。"
+        "crack-mcq-16": "本句的「crack under intense pressure」指「在壓力下崩潰」。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-16"
     },
     {
       "id": "crack-20-0",
-      "sense": "crack-mcq-17",
+      "sense": "crack-reviewed-a92591dff9",
       "en": "The long questioning finally cracked him.",
       "zh": "長時間盤問最終擊垮了他的心理防線。",
       "masked": "The long questioning finally ____.",
       "options": [
-        "crack-mcq-17",
-        "crack-mcq-16",
-        "crack-mcq-18",
+        "crack-reviewed-a92591dff9",
+        "crack-mcq-01",
         "crack-mcq-15",
-        "crack-mcq-19",
-        "crack-mcq-14"
+        "crack-mcq-04"
       ],
-      "explanation": "本句的「cracked him」指「說笑話」。",
+      "explanation": "對照完整句子：「長時間盤問最終擊垮了他的心理防線。」。這裡的「cracked him」表示「擊垮；使招供」。",
       "sentenceIndex": 40,
       "sourcePractice": 1,
       "targets": [
         "cracked him"
       ],
       "optionReasons": {
-        "crack-mcq-17": "本句指「說笑話」。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。"
+        "crack-reviewed-a92591dff9": "對照完整句子：「長時間盤問最終擊垮了他的心理防線。」。這裡的「cracked him」表示「擊垮；使招供」。",
+        "crack-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "crack-mcq-17"
+      "correctOption": "crack-reviewed-a92591dff9",
+      "previousCorrectOption": "crack-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "crack-20-1",
-      "sense": "crack-mcq-17",
+      "sense": "crack-reviewed-a92591dff9",
       "en": "Investigators hoped the pressure would crack the suspect.",
       "zh": "調查人員希望壓力會令疑犯崩潰並透露真相。",
       "masked": "Investigators hoped the pressure would ____.",
       "options": [
-        "crack-mcq-17",
-        "crack-mcq-16",
-        "crack-mcq-18",
-        "crack-mcq-15",
-        "crack-mcq-19",
-        "crack-mcq-14"
+        "crack-reviewed-a92591dff9",
+        "crack-mcq-26",
+        "crack-mcq-08",
+        "crack-mcq-03"
       ],
-      "explanation": "本句的「crack the suspect」指「說笑話」。",
+      "explanation": "對照完整句子：「調查人員希望壓力會令疑犯崩潰並透露真相。」。這裡的「crack the suspect」表示「擊垮；使招供」。",
       "sentenceIndex": 41,
       "sourcePractice": 2,
       "targets": [
         "crack the suspect"
       ],
       "optionReasons": {
-        "crack-mcq-17": "本句指「說笑話」。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。"
+        "crack-reviewed-a92591dff9": "對照完整句子：「調查人員希望壓力會令疑犯崩潰並透露真相。」。這裡的「crack the suspect」表示「擊垮；使招供」。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "crack-mcq-17"
+      "correctOption": "crack-reviewed-a92591dff9",
+      "previousCorrectOption": "crack-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "crack-21-0",
@@ -1876,11 +1732,9 @@ export default {
       "masked": "He ____ to relax everyone.",
       "options": [
         "crack-mcq-17",
-        "crack-mcq-16",
-        "crack-mcq-18",
-        "crack-mcq-15",
-        "crack-mcq-19",
-        "crack-mcq-14"
+        "crack-mcq-05",
+        "crack-mcq-08",
+        "crack-mcq-26"
       ],
       "explanation": "本句的「cracked a joke」指「說笑話」。",
       "sentenceIndex": 42,
@@ -1889,12 +1743,10 @@ export default {
         "cracked a joke"
       ],
       "optionReasons": {
-        "crack-mcq-17": "本句指「說笑話」。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。"
+        "crack-mcq-17": "本句的「cracked a joke」指「說笑話」。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-17"
     },
@@ -1906,11 +1758,9 @@ export default {
       "masked": "She is always ____ in class.",
       "options": [
         "crack-mcq-17",
-        "crack-mcq-16",
-        "crack-mcq-18",
-        "crack-mcq-15",
-        "crack-mcq-19",
-        "crack-mcq-14"
+        "crack-reviewed-a92591dff9",
+        "crack-mcq-03",
+        "crack-mcq-02"
       ],
       "explanation": "本句的「cracking jokes」指「說笑話」。",
       "sentenceIndex": 43,
@@ -1919,12 +1769,10 @@ export default {
         "cracking jokes"
       ],
       "optionReasons": {
-        "crack-mcq-17": "本句指「說笑話」。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-14": "「破案」與本句語境不同。"
+        "crack-mcq-17": "本句的「cracking jokes」指「說笑話」。",
+        "crack-reviewed-a92591dff9": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-17"
     },
@@ -1936,11 +1784,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "crack-mcq-18",
-        "crack-mcq-17",
-        "crack-mcq-19",
-        "crack-mcq-16",
-        "crack-mcq-20",
-        "crack-mcq-15"
+        "crack-mcq-13",
+        "crack-mcq-26",
+        "crack-mcq-25"
       ],
       "explanation": "本句的「cracked a smile」指「露出笑容」。",
       "sentenceIndex": 44,
@@ -1949,12 +1795,10 @@ export default {
         "cracked a smile"
       ],
       "optionReasons": {
-        "crack-mcq-18": "本句指「露出笑容」。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。"
+        "crack-mcq-18": "本句的「cracked a smile」指「露出笑容」。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-18"
     },
@@ -1966,11 +1810,9 @@ export default {
       "masked": "She didn't ____ during the entire meeting.",
       "options": [
         "crack-mcq-18",
-        "crack-mcq-17",
-        "crack-mcq-19",
+        "crack-mcq-08",
         "crack-mcq-16",
-        "crack-mcq-20",
-        "crack-mcq-15"
+        "crack-mcq-09"
       ],
       "explanation": "本句的「crack a smile」指「露出笑容」。",
       "sentenceIndex": 45,
@@ -1979,12 +1821,10 @@ export default {
         "crack a smile"
       ],
       "optionReasons": {
-        "crack-mcq-18": "本句指「露出笑容」。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-15": "「破解難題」與本句語境不同。"
+        "crack-mcq-18": "本句的「crack a smile」指「露出笑容」。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-18"
     },
@@ -1996,11 +1836,9 @@ export default {
       "masked": "I'll ____.",
       "options": [
         "crack-mcq-19",
-        "crack-mcq-18",
-        "crack-mcq-20",
-        "crack-mcq-17",
-        "crack-mcq-21",
-        "crack-mcq-16"
+        "crack-mcq-02",
+        "crack-mcq-10",
+        "crack-mcq-22"
       ],
       "explanation": "本句的「have a crack at it」指「試一試」。",
       "sentenceIndex": 46,
@@ -2009,12 +1847,10 @@ export default {
         "have a crack at it"
       ],
       "optionReasons": {
-        "crack-mcq-19": "本句指「試一試」。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。"
+        "crack-mcq-19": "本句的「have a crack at it」指「試一試」。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-19"
     },
@@ -2026,11 +1862,9 @@ export default {
       "masked": "Why don't you ____?",
       "options": [
         "crack-mcq-19",
-        "crack-mcq-18",
-        "crack-mcq-20",
-        "crack-mcq-17",
-        "crack-mcq-21",
-        "crack-mcq-16"
+        "crack-mcq-22",
+        "crack-mcq-05",
+        "crack-mcq-24"
       ],
       "explanation": "本句的「have a crack at the question」指「試一試」。",
       "sentenceIndex": 47,
@@ -2039,12 +1873,10 @@ export default {
         "have a crack at the question"
       ],
       "optionReasons": {
-        "crack-mcq-19": "本句指「試一試」。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。"
+        "crack-mcq-19": "本句的「have a crack at the question」指「試一試」。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-19"
     },
@@ -2056,11 +1888,9 @@ export default {
       "masked": "Let me ____.",
       "options": [
         "crack-mcq-19",
-        "crack-mcq-18",
-        "crack-mcq-20",
-        "crack-mcq-17",
+        "crack-mcq-24",
         "crack-mcq-21",
-        "crack-mcq-16"
+        "crack-mcq-09"
       ],
       "explanation": "本句的「take a crack at it」指「試一試」。",
       "sentenceIndex": 48,
@@ -2069,12 +1899,10 @@ export default {
         "take a crack at it"
       ],
       "optionReasons": {
-        "crack-mcq-19": "本句指「試一試」。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。"
+        "crack-mcq-19": "本句的「take a crack at it」指「試一試」。",
+        "crack-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-19"
     },
@@ -2086,11 +1914,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "crack-mcq-19",
+        "crack-mcq-10",
         "crack-mcq-18",
-        "crack-mcq-20",
-        "crack-mcq-17",
-        "crack-mcq-21",
-        "crack-mcq-16"
+        "crack-mcq-05"
       ],
       "explanation": "本句的「took a crack at solving the puzzle」指「試一試」。",
       "sentenceIndex": 49,
@@ -2099,12 +1925,10 @@ export default {
         "took a crack at solving the puzzle"
       ],
       "optionReasons": {
-        "crack-mcq-19": "本句指「試一試」。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。"
+        "crack-mcq-19": "本句的「took a crack at solving the puzzle」指「試一試」。",
+        "crack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-19"
     },
@@ -2116,11 +1940,9 @@ export default {
       "masked": "Give me ____.",
       "options": [
         "crack-mcq-19",
-        "crack-mcq-18",
-        "crack-mcq-20",
-        "crack-mcq-17",
-        "crack-mcq-21",
-        "crack-mcq-16"
+        "crack-mcq-11",
+        "crack-mcq-06",
+        "crack-mcq-23"
       ],
       "explanation": "本句的「a crack at the problem」指「試一試」。",
       "sentenceIndex": 50,
@@ -2129,12 +1951,10 @@ export default {
         "a crack at the problem"
       ],
       "optionReasons": {
-        "crack-mcq-19": "本句指「試一試」。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。"
+        "crack-mcq-19": "本句的「a crack at the problem」指「試一試」。",
+        "crack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-19"
     },
@@ -2146,11 +1966,9 @@ export default {
       "masked": "Everyone deserves ____.",
       "options": [
         "crack-mcq-19",
-        "crack-mcq-18",
+        "crack-mcq-07",
         "crack-mcq-20",
-        "crack-mcq-17",
-        "crack-mcq-21",
-        "crack-mcq-16"
+        "crack-mcq-08"
       ],
       "explanation": "本句的「a crack at the job」指「試一試」。",
       "sentenceIndex": 51,
@@ -2159,12 +1977,10 @@ export default {
         "a crack at the job"
       ],
       "optionReasons": {
-        "crack-mcq-19": "本句指「試一試」。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-16": "「在壓力下崩潰」與本句語境不同。"
+        "crack-mcq-19": "本句的「a crack at the job」指「試一試」。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-19"
     },
@@ -2176,11 +1992,9 @@ export default {
       "masked": "We left at ____.",
       "options": [
         "crack-mcq-20",
-        "crack-mcq-19",
-        "crack-mcq-21",
-        "crack-mcq-18",
-        "crack-mcq-22",
-        "crack-mcq-17"
+        "crack-mcq-07",
+        "crack-mcq-16",
+        "crack-mcq-03"
       ],
       "explanation": "本句的「the crack of dawn」指「黎明」。",
       "sentenceIndex": 52,
@@ -2189,12 +2003,10 @@ export default {
         "the crack of dawn"
       ],
       "optionReasons": {
-        "crack-mcq-20": "本句指「黎明」。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。"
+        "crack-mcq-20": "本句的「the crack of dawn」指「黎明」。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-20"
     },
@@ -2206,11 +2018,9 @@ export default {
       "masked": "He gets up at ____ every day.",
       "options": [
         "crack-mcq-20",
-        "crack-mcq-19",
-        "crack-mcq-21",
-        "crack-mcq-18",
-        "crack-mcq-22",
-        "crack-mcq-17"
+        "crack-mcq-23",
+        "crack-mcq-02",
+        "crack-mcq-24"
       ],
       "explanation": "本句的「the crack of dawn」指「黎明」。",
       "sentenceIndex": 53,
@@ -2219,12 +2029,10 @@ export default {
         "the crack of dawn"
       ],
       "optionReasons": {
-        "crack-mcq-20": "本句指「黎明」。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-17": "「說笑話」與本句語境不同。"
+        "crack-mcq-20": "本句的「the crack of dawn」指「黎明」。",
+        "crack-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-20"
     },
@@ -2236,11 +2044,9 @@ export default {
       "masked": "The school is ____.",
       "options": [
         "crack-mcq-21",
-        "crack-mcq-20",
-        "crack-mcq-22",
-        "crack-mcq-19",
-        "crack-mcq-23",
-        "crack-mcq-18"
+        "crack-mcq-05",
+        "crack-mcq-14",
+        "crack-mcq-19"
       ],
       "explanation": "本句的「cracking down on cheating」指「嚴厲打擊」。",
       "sentenceIndex": 54,
@@ -2249,12 +2055,10 @@ export default {
         "cracking down on cheating"
       ],
       "optionReasons": {
-        "crack-mcq-21": "本句指「嚴厲打擊」。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。"
+        "crack-mcq-21": "本句的「cracking down on cheating」指「嚴厲打擊」。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-21"
     },
@@ -2266,11 +2070,9 @@ export default {
       "masked": "Authorities ____.",
       "options": [
         "crack-mcq-21",
-        "crack-mcq-20",
-        "crack-mcq-22",
         "crack-mcq-19",
-        "crack-mcq-23",
-        "crack-mcq-18"
+        "crack-mcq-06",
+        "crack-mcq-03"
       ],
       "explanation": "本句的「cracked down on illegal parking」指「嚴厲打擊」。",
       "sentenceIndex": 55,
@@ -2279,12 +2081,10 @@ export default {
         "cracked down on illegal parking"
       ],
       "optionReasons": {
-        "crack-mcq-21": "本句指「嚴厲打擊」。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-18": "「露出笑容」與本句語境不同。"
+        "crack-mcq-21": "本句的「cracked down on illegal parking」指「嚴厲打擊」。",
+        "crack-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-21"
     },
@@ -2296,11 +2096,9 @@ export default {
       "masked": "The city launched a ____.",
       "options": [
         "crack-mcq-22",
-        "crack-mcq-21",
-        "crack-mcq-23",
-        "crack-mcq-20",
-        "crack-mcq-24",
-        "crack-mcq-19"
+        "crack-mcq-11",
+        "crack-mcq-01",
+        "crack-mcq-04"
       ],
       "explanation": "本句的「crackdown on illegal parking」指「整治／打擊行動」。",
       "sentenceIndex": 56,
@@ -2309,12 +2107,10 @@ export default {
         "crackdown on illegal parking"
       ],
       "optionReasons": {
-        "crack-mcq-22": "本句指「整治／打擊行動」。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。"
+        "crack-mcq-22": "本句的「crackdown on illegal parking」指「整治／打擊行動」。",
+        "crack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-22"
     },
@@ -2326,11 +2122,9 @@ export default {
       "masked": "A new ____ began this week.",
       "options": [
         "crack-mcq-22",
-        "crack-mcq-21",
-        "crack-mcq-23",
-        "crack-mcq-20",
-        "crack-mcq-24",
-        "crack-mcq-19"
+        "crack-mcq-17",
+        "crack-mcq-07",
+        "crack-mcq-14"
       ],
       "explanation": "本句的「crackdown」指「整治／打擊行動」。",
       "sentenceIndex": 57,
@@ -2339,12 +2133,10 @@ export default {
         "crackdown"
       ],
       "optionReasons": {
-        "crack-mcq-22": "本句指「整治／打擊行動」。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-19": "「試一試」與本句語境不同。"
+        "crack-mcq-22": "本句的「crackdown」指「整治／打擊行動」。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-22"
     },
@@ -2356,11 +2148,9 @@ export default {
       "masked": "That joke ____.",
       "options": [
         "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-24",
-        "crack-mcq-21",
-        "crack-mcq-25",
-        "crack-mcq-20"
+        "crack-mcq-19",
+        "crack-mcq-05",
+        "crack-mcq-25"
       ],
       "explanation": "本句的「cracked me up」指「大笑／精神崩潰」。",
       "sentenceIndex": 58,
@@ -2369,12 +2159,10 @@ export default {
         "cracked me up"
       ],
       "optionReasons": {
-        "crack-mcq-23": "本句指「大笑／精神崩潰」。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。"
+        "crack-mcq-23": "本句的「cracked me up」指「大笑／精神崩潰」。",
+        "crack-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-23"
     },
@@ -2386,11 +2174,9 @@ export default {
       "masked": "Everyone ____ when he told the story.",
       "options": [
         "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-24",
-        "crack-mcq-21",
-        "crack-mcq-25",
-        "crack-mcq-20"
+        "crack-mcq-20",
+        "crack-mcq-13",
+        "crack-mcq-21"
       ],
       "explanation": "本句的「cracked up」指「大笑／精神崩潰」。",
       "sentenceIndex": 59,
@@ -2399,12 +2185,10 @@ export default {
         "cracked up"
       ],
       "optionReasons": {
-        "crack-mcq-23": "本句指「大笑／精神崩潰」。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。"
+        "crack-mcq-23": "本句的「cracked up」指「大笑／精神崩潰」。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-23"
     },
@@ -2416,11 +2200,9 @@ export default {
       "masked": "The stress nearly made him ____.",
       "options": [
         "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-24",
-        "crack-mcq-21",
         "crack-mcq-25",
-        "crack-mcq-20"
+        "crack-mcq-22",
+        "crack-mcq-09"
       ],
       "explanation": "本句的「crack up」指「大笑／精神崩潰」。",
       "sentenceIndex": 60,
@@ -2429,12 +2211,10 @@ export default {
         "crack up"
       ],
       "optionReasons": {
-        "crack-mcq-23": "本句指「大笑／精神崩潰」。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。"
+        "crack-mcq-23": "本句的「crack up」指「大笑／精神崩潰」。",
+        "crack-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-23"
     },
@@ -2446,11 +2226,9 @@ export default {
       "masked": "She felt as though she was ____.",
       "options": [
         "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-24",
-        "crack-mcq-21",
-        "crack-mcq-25",
-        "crack-mcq-20"
+        "crack-mcq-11",
+        "crack-mcq-15",
+        "crack-mcq-06"
       ],
       "explanation": "本句的「cracking up」指「大笑／精神崩潰」。",
       "sentenceIndex": 61,
@@ -2459,12 +2237,10 @@ export default {
         "cracking up"
       ],
       "optionReasons": {
-        "crack-mcq-23": "本句指「大笑／精神崩潰」。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-20": "「黎明」與本句語境不同。"
+        "crack-mcq-23": "本句的「cracking up」指「大笑／精神崩潰」。",
+        "crack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-23"
     },
@@ -2476,11 +2252,9 @@ export default {
       "masked": "She ate cheese and ____.",
       "options": [
         "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-25",
-        "crack-mcq-22",
         "crack-mcq-26",
-        "crack-mcq-21"
+        "crack-mcq-05",
+        "crack-mcq-22"
       ],
       "explanation": "本句的「crackers」指「脆餅；爆竹；破解者」。",
       "sentenceIndex": 62,
@@ -2489,12 +2263,10 @@ export default {
         "crackers"
       ],
       "optionReasons": {
-        "crack-mcq-24": "本句指「脆餅；爆竹；破解者」。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-24": "本句的「crackers」指「脆餅；爆竹；破解者」。",
+        "crack-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-24"
     },
@@ -2506,11 +2278,9 @@ export default {
       "masked": "These ____ are very salty.",
       "options": [
         "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-25",
-        "crack-mcq-22",
-        "crack-mcq-26",
-        "crack-mcq-21"
+        "crack-mcq-05",
+        "crack-mcq-04",
+        "crack-mcq-18"
       ],
       "explanation": "本句的「crackers」指「脆餅；爆竹；破解者」。",
       "sentenceIndex": 63,
@@ -2519,12 +2289,10 @@ export default {
         "crackers"
       ],
       "optionReasons": {
-        "crack-mcq-24": "本句指「脆餅；爆竹；破解者」。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-24": "本句的「crackers」指「脆餅；爆竹；破解者」。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-24"
     },
@@ -2536,11 +2304,9 @@ export default {
       "masked": "The children heard a ____ go off outside.",
       "options": [
         "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-25",
-        "crack-mcq-22",
-        "crack-mcq-26",
-        "crack-mcq-21"
+        "crack-mcq-21",
+        "crack-mcq-11",
+        "crack-mcq-02"
       ],
       "explanation": "本句的「cracker」指「脆餅；爆竹；破解者」。",
       "sentenceIndex": 64,
@@ -2549,12 +2315,10 @@ export default {
         "cracker"
       ],
       "optionReasons": {
-        "crack-mcq-24": "本句指「脆餅；爆竹；破解者」。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-24": "本句的「cracker」指「脆餅；爆竹；破解者」。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-24"
     },
@@ -2566,11 +2330,9 @@ export default {
       "masked": "Fire____ filled the street with noise.",
       "options": [
         "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-25",
-        "crack-mcq-22",
-        "crack-mcq-26",
-        "crack-mcq-21"
+        "crack-mcq-06",
+        "crack-mcq-04",
+        "crack-mcq-17"
       ],
       "explanation": "本句的「crackers」指「脆餅；爆竹；破解者」。",
       "sentenceIndex": 65,
@@ -2579,12 +2341,10 @@ export default {
         "crackers"
       ],
       "optionReasons": {
-        "crack-mcq-24": "本句指「脆餅；爆竹；破解者」。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-24": "本句的「crackers」指「脆餅；爆竹；破解者」。",
+        "crack-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-24"
     },
@@ -2596,11 +2356,9 @@ export default {
       "masked": "The system was targeted by a password ____.",
       "options": [
         "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-25",
+        "crack-mcq-07",
         "crack-mcq-22",
-        "crack-mcq-26",
-        "crack-mcq-21"
+        "crack-mcq-02"
       ],
       "explanation": "本句的「cracker」指「脆餅；爆竹；破解者」。",
       "sentenceIndex": 66,
@@ -2609,12 +2367,10 @@ export default {
         "cracker"
       ],
       "optionReasons": {
-        "crack-mcq-24": "本句指「脆餅；爆竹；破解者」。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-24": "本句的「cracker」指「脆餅；爆竹；破解者」。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-24"
     },
@@ -2626,10 +2382,8 @@ export default {
       "masked": "A ____ attempts to break security protections.",
       "options": [
         "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-25",
-        "crack-mcq-22",
-        "crack-mcq-26",
+        "crack-mcq-16",
+        "crack-mcq-05",
         "crack-mcq-21"
       ],
       "explanation": "本句的「cracker」指「脆餅；爆竹；破解者」。",
@@ -2639,12 +2393,10 @@ export default {
         "cracker"
       ],
       "optionReasons": {
-        "crack-mcq-24": "本句指「脆餅；爆竹；破解者」。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-24": "本句的「cracker」指「脆餅；爆竹；破解者」。",
+        "crack-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-24"
     },
@@ -2656,11 +2408,9 @@ export default {
       "masked": "That was a ____ performance.",
       "options": [
         "crack-mcq-25",
-        "crack-mcq-24",
-        "crack-mcq-26",
-        "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-21"
+        "crack-mcq-03",
+        "crack-mcq-07",
+        "crack-mcq-15"
       ],
       "explanation": "本句的「cracking」指「很棒的」。",
       "sentenceIndex": 68,
@@ -2669,12 +2419,10 @@ export default {
         "cracking"
       ],
       "optionReasons": {
-        "crack-mcq-25": "本句指「很棒的」。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-25": "本句的「cracking」指「很棒的」。",
+        "crack-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-25"
     },
@@ -2686,11 +2434,9 @@ export default {
       "masked": "We had a ____ time.",
       "options": [
         "crack-mcq-25",
-        "crack-mcq-24",
-        "crack-mcq-26",
-        "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-21"
+        "crack-mcq-04",
+        "crack-mcq-17",
+        "crack-mcq-09"
       ],
       "explanation": "本句的「cracking」指「很棒的」。",
       "sentenceIndex": 69,
@@ -2699,12 +2445,10 @@ export default {
         "cracking"
       ],
       "optionReasons": {
-        "crack-mcq-25": "本句指「很棒的」。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-26": "「精銳團隊」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-25": "本句的「cracking」指「很棒的」。",
+        "crack-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-25"
     },
@@ -2716,11 +2460,9 @@ export default {
       "masked": "They sent in a ____ of investigators.",
       "options": [
         "crack-mcq-26",
-        "crack-mcq-25",
-        "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-21"
+        "crack-mcq-17",
+        "crack-mcq-14",
+        "crack-mcq-20"
       ],
       "explanation": "本句的「crack team」指「精銳團隊」。",
       "sentenceIndex": 70,
@@ -2729,12 +2471,10 @@ export default {
         "crack team"
       ],
       "optionReasons": {
-        "crack-mcq-26": "本句指「精銳團隊」。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-26": "本句的「crack team」指「精銳團隊」。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-26"
     },
@@ -2746,11 +2486,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "crack-mcq-26",
-        "crack-mcq-25",
-        "crack-mcq-24",
-        "crack-mcq-23",
-        "crack-mcq-22",
-        "crack-mcq-21"
+        "crack-mcq-10",
+        "crack-mcq-20",
+        "crack-mcq-17"
       ],
       "explanation": "本句的「crack shot」指「精銳團隊」。",
       "sentenceIndex": 71,
@@ -2759,12 +2497,10 @@ export default {
         "crack shot"
       ],
       "optionReasons": {
-        "crack-mcq-26": "本句指「精銳團隊」。",
-        "crack-mcq-25": "「很棒的」與本句語境不同。",
-        "crack-mcq-24": "「脆餅；爆竹；破解者」與本句語境不同。",
-        "crack-mcq-23": "「大笑／精神崩潰」與本句語境不同。",
-        "crack-mcq-22": "「整治／打擊行動」與本句語境不同。",
-        "crack-mcq-21": "「嚴厲打擊」與本句語境不同。"
+        "crack-mcq-26": "本句的「crack shot」指「精銳團隊」。",
+        "crack-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "crack-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "crack-mcq-26"
     }
@@ -2776,5 +2512,7 @@ export default {
     "sha256": "da83cbf5f56af5e3fd2df5d67f340784a08fc6370c0a879652cc186a15ca4151",
     "pages": 26
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

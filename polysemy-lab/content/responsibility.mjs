@@ -356,16 +356,6 @@ export default {
           "Part-time work gave him a greater sense of responsibility.",
           "兼職工作令他的責任感更強。",
           "責任感"
-        ],
-        [
-          "With promotion comes greater responsibility.",
-          "升職意味着更大的權責。",
-          "責任感"
-        ],
-        [
-          "She was given more responsibility at work.",
-          "公司給了她更多管理責任／權責。",
-          "責任感"
         ]
       ],
       "options": [],
@@ -600,6 +590,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "responsibility-reviewed-b89318efc3",
+      "title": "因職位而獲得的管理、決定或監督義務",
+      "form": "responsibility · source section 18",
+      "en": "因職位而獲得的管理、決定或監督義務",
+      "zh": "因職位而獲得的管理、決定或監督義務",
+      "note": "對照原始教材第 18 節及例句核實。",
+      "examples": [
+        [
+          "With promotion comes greater responsibility.",
+          "升職意味着更大的權責。",
+          "因職位而獲得的管理、決定或監督義務"
+        ],
+        [
+          "She was given more responsibility at work.",
+          "公司給了她更多管理責任／權責。",
+          "因職位而獲得的管理、決定或監督義務"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -611,11 +623,7 @@ export default {
       "masked": "I could finally trust myself to handle ____ properly.",
       "options": [
         "responsibility-mcq-01",
-        "responsibility-mcq-02",
-        "responsibility-mcq-03",
-        "responsibility-mcq-04",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibilities」指「責任；職責」。",
       "sentenceIndex": 0,
@@ -624,12 +632,8 @@ export default {
         "responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-01": "本句指「責任；職責」。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-01": "本句的「responsibilities」指「責任；職責」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-01"
     },
@@ -641,11 +645,7 @@ export default {
       "masked": "University students have many ____.",
       "options": [
         "responsibility-mcq-01",
-        "responsibility-mcq-02",
-        "responsibility-mcq-03",
-        "responsibility-mcq-04",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibilities」指「責任；職責」。",
       "sentenceIndex": 1,
@@ -654,12 +654,8 @@ export default {
         "responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-01": "本句指「責任；職責」。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-01": "本句的「responsibilities」指「責任；職責」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-01"
     },
@@ -671,11 +667,7 @@ export default {
       "masked": "She manages her work and family ____ well.",
       "options": [
         "responsibility-mcq-01",
-        "responsibility-mcq-02",
-        "responsibility-mcq-03",
-        "responsibility-mcq-04",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibilities」指「責任；職責」。",
       "sentenceIndex": 2,
@@ -684,12 +676,8 @@ export default {
         "responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-01": "本句指「責任；職責」。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-01": "本句的「responsibilities」指「責任；職責」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-01"
     },
@@ -701,11 +689,7 @@ export default {
       "masked": "My main ____ include answering emails and preparing reports.",
       "options": [
         "responsibility-mcq-02",
-        "responsibility-mcq-01",
-        "responsibility-mcq-03",
-        "responsibility-mcq-04",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibilities」指「各項職責／責任」。",
       "sentenceIndex": 3,
@@ -714,12 +698,8 @@ export default {
         "responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-02": "本句指「各項職責／責任」。",
-        "responsibility-mcq-01": "「責任；職責」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-02": "本句的「responsibilities」指「各項職責／責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-02"
     },
@@ -731,11 +711,7 @@ export default {
       "masked": "Her ____ increased after the promotion.",
       "options": [
         "responsibility-mcq-02",
-        "responsibility-mcq-01",
-        "responsibility-mcq-03",
-        "responsibility-mcq-04",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibilities」指「各項職責／責任」。",
       "sentenceIndex": 4,
@@ -744,12 +720,8 @@ export default {
         "responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-02": "本句指「各項職責／責任」。",
-        "responsibility-mcq-01": "「責任；職責」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-02": "本句的「responsibilities」指「各項職責／責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-02"
     },
@@ -761,11 +733,7 @@ export default {
       "masked": "The interview included questions about my previous ____.",
       "options": [
         "responsibility-mcq-03",
-        "responsibility-mcq-02",
-        "responsibility-mcq-04",
-        "responsibility-mcq-01",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「job responsibilities」指「工作職責」。",
       "sentenceIndex": 5,
@@ -774,12 +742,8 @@ export default {
         "job responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-03": "本句指「工作職責」。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-01": "「責任；職責」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-03": "本句的「job responsibilities」指「工作職責」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-03"
     },
@@ -791,11 +755,7 @@ export default {
       "masked": "Her ____ include managing the team.",
       "options": [
         "responsibility-mcq-03",
-        "responsibility-mcq-02",
-        "responsibility-mcq-04",
-        "responsibility-mcq-01",
-        "responsibility-mcq-05",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「job responsibilities」指「工作職責」。",
       "sentenceIndex": 6,
@@ -804,12 +764,8 @@ export default {
         "job responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-03": "本句指「工作職責」。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-01": "「責任；職責」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-03": "本句的「job responsibilities」指「工作職責」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-03"
     },
@@ -821,11 +777,8 @@ export default {
       "masked": "He balances work with his ____.",
       "options": [
         "responsibility-mcq-04",
-        "responsibility-mcq-03",
-        "responsibility-mcq-05",
-        "responsibility-mcq-02",
-        "responsibility-mcq-01",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「family responsibilities」指「家庭責任」。",
       "sentenceIndex": 7,
@@ -834,12 +787,9 @@ export default {
         "family responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-04": "本句指「家庭責任」。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-01": "「責任；職責」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-04": "本句的「family responsibilities」指「家庭責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-04"
     },
@@ -851,11 +801,8 @@ export default {
       "masked": "She has significant ____.",
       "options": [
         "responsibility-mcq-04",
-        "responsibility-mcq-03",
-        "responsibility-mcq-05",
-        "responsibility-mcq-02",
-        "responsibility-mcq-01",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「parental responsibilities」指「家庭責任」。",
       "sentenceIndex": 8,
@@ -864,12 +811,9 @@ export default {
         "parental responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-04": "本句指「家庭責任」。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-05": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-01": "「責任；職責」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-04": "本句的「parental responsibilities」指「家庭責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-04"
     },
@@ -881,11 +825,7 @@ export default {
       "masked": "I have ____ the final report.",
       "options": [
         "responsibility-mcq-05",
-        "responsibility-mcq-04",
-        "responsibility-mcq-03",
-        "responsibility-mcq-07",
-        "responsibility-mcq-02",
-        "responsibility-mcq-08"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibility for」指「負責 X」。",
       "sentenceIndex": 9,
@@ -894,12 +834,8 @@ export default {
         "responsibility for"
       ],
       "optionReasons": {
-        "responsibility-mcq-05": "本句指「負責 X」。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。"
+        "responsibility-mcq-05": "本句的「responsibility for」指「負責 X」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-05"
     },
@@ -911,11 +847,7 @@ export default {
       "masked": "She has overall ____ the project.",
       "options": [
         "responsibility-mcq-05",
-        "responsibility-mcq-04",
-        "responsibility-mcq-03",
-        "responsibility-mcq-07",
-        "responsibility-mcq-02",
-        "responsibility-mcq-08"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibility for」指「負責 X」。",
       "sentenceIndex": 10,
@@ -924,12 +856,8 @@ export default {
         "responsibility for"
       ],
       "optionReasons": {
-        "responsibility-mcq-05": "本句指「負責 X」。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-02": "「各項職責／責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。"
+        "responsibility-mcq-05": "本句的「responsibility for」指「負責 X」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-05"
     },
@@ -941,11 +869,7 @@ export default {
       "masked": "I am ____.",
       "options": [
         "responsibility-mcq-06",
-        "responsibility-mcq-07",
-        "responsibility-mcq-04",
-        "responsibility-mcq-08",
-        "responsibility-mcq-03",
-        "responsibility-mcq-09"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsible for checking the deadlines」指「負責 X」。",
       "sentenceIndex": 11,
@@ -954,12 +878,8 @@ export default {
         "responsible for checking the deadlines"
       ],
       "optionReasons": {
-        "responsibility-mcq-06": "本句指「負責 X」。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。"
+        "responsibility-mcq-06": "本句的「responsible for checking the deadlines」指「負責 X」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-06"
     },
@@ -971,11 +891,7 @@ export default {
       "masked": "Kevin was ____.",
       "options": [
         "responsibility-mcq-06",
-        "responsibility-mcq-07",
-        "responsibility-mcq-04",
-        "responsibility-mcq-08",
-        "responsibility-mcq-03",
-        "responsibility-mcq-09"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsible for the final slides」指「負責 X」。",
       "sentenceIndex": 12,
@@ -984,12 +900,8 @@ export default {
         "responsible for the final slides"
       ],
       "optionReasons": {
-        "responsibility-mcq-06": "本句指「負責 X」。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-03": "「工作職責」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。"
+        "responsibility-mcq-06": "本句的「responsible for the final slides」指「負責 X」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-06"
     },
@@ -1001,11 +913,8 @@ export default {
       "masked": "Good leaders ____ for their decisions.",
       "options": [
         "responsibility-mcq-07",
-        "responsibility-mcq-06",
-        "responsibility-mcq-08",
-        "responsibility-mcq-09",
-        "responsibility-mcq-04",
-        "responsibility-mcq-10"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「take responsibility」指「承擔責任」。",
       "sentenceIndex": 13,
@@ -1014,12 +923,9 @@ export default {
         "take responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-07": "本句指「承擔責任」。",
-        "responsibility-mcq-06": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。"
+        "responsibility-mcq-07": "本句的「take responsibility」指「承擔責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-07"
     },
@@ -1031,11 +937,8 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "responsibility-mcq-07",
-        "responsibility-mcq-06",
-        "responsibility-mcq-08",
-        "responsibility-mcq-09",
-        "responsibility-mcq-04",
-        "responsibility-mcq-10"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「took responsibility for the mistake」指「承擔責任」。",
       "sentenceIndex": 14,
@@ -1044,12 +947,9 @@ export default {
         "took responsibility for the mistake"
       ],
       "optionReasons": {
-        "responsibility-mcq-07": "本句指「承擔責任」。",
-        "responsibility-mcq-06": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-04": "「家庭責任」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。"
+        "responsibility-mcq-07": "本句的「took responsibility for the mistake」指「承擔責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-07"
     },
@@ -1061,11 +961,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "responsibility-mcq-08",
-        "responsibility-mcq-07",
-        "responsibility-mcq-09",
-        "responsibility-mcq-06",
-        "responsibility-mcq-10",
-        "responsibility-mcq-11"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「accepted responsibility for the error」指「接受／承認責任」。",
       "sentenceIndex": 15,
@@ -1074,12 +971,9 @@ export default {
         "accepted responsibility for the error"
       ],
       "optionReasons": {
-        "responsibility-mcq-08": "本句指「接受／承認責任」。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-06": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。"
+        "responsibility-mcq-08": "本句的「accepted responsibility for the error」指「接受／承認責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-08"
     },
@@ -1091,11 +985,8 @@ export default {
       "masked": "Nobody wanted to ____.",
       "options": [
         "responsibility-mcq-08",
-        "responsibility-mcq-07",
-        "responsibility-mcq-09",
-        "responsibility-mcq-06",
-        "responsibility-mcq-10",
-        "responsibility-mcq-11"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「accept responsibility」指「接受／承認責任」。",
       "sentenceIndex": 16,
@@ -1104,12 +995,9 @@ export default {
         "accept responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-08": "本句指「接受／承認責任」。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-06": "「負責 X」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。"
+        "responsibility-mcq-08": "本句的「accept responsibility」指「接受／承認責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-08"
     },
@@ -1121,11 +1009,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "responsibility-mcq-09",
-        "responsibility-mcq-08",
-        "responsibility-mcq-10",
-        "responsibility-mcq-07",
-        "responsibility-mcq-11",
-        "responsibility-mcq-06"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「assumed responsibility for the department」指「接掌責任」。",
       "sentenceIndex": 17,
@@ -1134,12 +1019,9 @@ export default {
         "assumed responsibility for the department"
       ],
       "optionReasons": {
-        "responsibility-mcq-09": "本句指「接掌責任」。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-06": "「負責 X」與本句語境不同。"
+        "responsibility-mcq-09": "本句的「assumed responsibility for the department」指「接掌責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-09"
     },
@@ -1151,11 +1033,8 @@ export default {
       "masked": "He will ____ next month.",
       "options": [
         "responsibility-mcq-09",
-        "responsibility-mcq-08",
-        "responsibility-mcq-10",
-        "responsibility-mcq-07",
-        "responsibility-mcq-11",
-        "responsibility-mcq-06"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「assume responsibility」指「接掌責任」。",
       "sentenceIndex": 18,
@@ -1164,12 +1043,9 @@ export default {
         "assume responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-09": "本句指「接掌責任」。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-06": "「負責 X」與本句語境不同。"
+        "responsibility-mcq-09": "本句的「assume responsibility」指「接掌責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-09"
     },
@@ -1181,11 +1057,7 @@ export default {
       "masked": "Both sides ____.",
       "options": [
         "responsibility-mcq-10",
-        "responsibility-mcq-09",
-        "responsibility-mcq-11",
-        "responsibility-mcq-08",
-        "responsibility-mcq-12",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「bear some responsibility」指「負有責任」。",
       "sentenceIndex": 19,
@@ -1194,12 +1066,8 @@ export default {
         "bear some responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-10": "本句指「負有責任」。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-10": "本句的「bear some responsibility」指「負有責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-10"
     },
@@ -1211,11 +1079,7 @@ export default {
       "masked": "Managers ____.",
       "options": [
         "responsibility-mcq-10",
-        "responsibility-mcq-09",
-        "responsibility-mcq-11",
-        "responsibility-mcq-08",
-        "responsibility-mcq-12",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「bear responsibility for workplace safety」指「負有責任」。",
       "sentenceIndex": 20,
@@ -1224,12 +1088,8 @@ export default {
         "bear responsibility for workplace safety"
       ],
       "optionReasons": {
-        "responsibility-mcq-10": "本句指「負有責任」。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-10": "本句的「bear responsibility for workplace safety」指「負有責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-10"
     },
@@ -1241,11 +1101,7 @@ export default {
       "masked": "Who bears ____?",
       "options": [
         "responsibility-mcq-10",
-        "responsibility-mcq-09",
-        "responsibility-mcq-11",
-        "responsibility-mcq-08",
-        "responsibility-mcq-12",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibility for the accident」指「負有責任」。",
       "sentenceIndex": 21,
@@ -1254,12 +1110,8 @@ export default {
         "responsibility for the accident"
       ],
       "optionReasons": {
-        "responsibility-mcq-10": "本句指「負有責任」。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-10": "本句的「responsibility for the accident」指「負有責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-10"
     },
@@ -1271,11 +1123,7 @@ export default {
       "masked": "The investigation tried to determine ____ for the failure.",
       "options": [
         "responsibility-mcq-10",
-        "responsibility-mcq-09",
-        "responsibility-mcq-11",
-        "responsibility-mcq-08",
-        "responsibility-mcq-12",
-        "responsibility-mcq-07"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibility」指「負有責任」。",
       "sentenceIndex": 22,
@@ -1284,12 +1132,8 @@ export default {
         "responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-10": "本句指「負有責任」。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-08": "「接受／承認責任」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-07": "「承擔責任」與本句語境不同。"
+        "responsibility-mcq-10": "本句的「responsibility」指「負有責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-10"
     },
@@ -1301,11 +1145,8 @@ export default {
       "masked": "Heavy rain was ____.",
       "options": [
         "responsibility-mcq-12",
-        "responsibility-mcq-11",
-        "responsibility-mcq-13",
-        "responsibility-mcq-10",
-        "responsibility-mcq-14",
-        "responsibility-mcq-09"
+        "responsibility-mcq-04",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「responsible for the delay」指「導致 X」。",
       "sentenceIndex": 23,
@@ -1314,12 +1155,9 @@ export default {
         "responsible for the delay"
       ],
       "optionReasons": {
-        "responsibility-mcq-12": "本句指「導致 X」。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。"
+        "responsibility-mcq-12": "本句的「responsible for the delay」指「導致 X」。",
+        "responsibility-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-12"
     },
@@ -1331,11 +1169,8 @@ export default {
       "masked": "A technical fault was ____.",
       "options": [
         "responsibility-mcq-12",
-        "responsibility-mcq-11",
-        "responsibility-mcq-13",
-        "responsibility-mcq-10",
-        "responsibility-mcq-14",
-        "responsibility-mcq-09"
+        "responsibility-mcq-04",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「responsible for the failure」指「導致 X」。",
       "sentenceIndex": 24,
@@ -1344,12 +1179,9 @@ export default {
         "responsible for the failure"
       ],
       "optionReasons": {
-        "responsibility-mcq-12": "本句指「導致 X」。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-09": "「接掌責任」與本句語境不同。"
+        "responsibility-mcq-12": "本句的「responsible for the failure」指「導致 X」。",
+        "responsibility-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-12"
     },
@@ -1361,11 +1193,7 @@ export default {
       "masked": "Final ____.",
       "options": [
         "responsibility-mcq-13",
-        "responsibility-mcq-12",
-        "responsibility-mcq-14",
-        "responsibility-mcq-11",
-        "responsibility-mcq-15",
-        "responsibility-mcq-10"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibility lies with the manager」指「責任在 X」。",
       "sentenceIndex": 25,
@@ -1374,12 +1202,8 @@ export default {
         "responsibility lies with the manager"
       ],
       "optionReasons": {
-        "responsibility-mcq-13": "本句指「責任在 X」。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。"
+        "responsibility-mcq-13": "本句的「responsibility lies with the manager」指「責任在 X」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-13"
     },
@@ -1391,11 +1215,7 @@ export default {
       "masked": "The ____.",
       "options": [
         "responsibility-mcq-13",
-        "responsibility-mcq-12",
-        "responsibility-mcq-14",
-        "responsibility-mcq-11",
-        "responsibility-mcq-15",
-        "responsibility-mcq-10"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibility lies with each individual」指「責任在 X」。",
       "sentenceIndex": 26,
@@ -1404,12 +1224,8 @@ export default {
         "responsibility lies with each individual"
       ],
       "optionReasons": {
-        "responsibility-mcq-13": "本句指「責任在 X」。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-10": "「負有責任」與本句語境不同。"
+        "responsibility-mcq-13": "本句的「responsibility lies with each individual」指「責任在 X」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-13"
     },
@@ -1421,11 +1237,8 @@ export default {
       "masked": "He tried to ____.",
       "options": [
         "responsibility-mcq-14",
-        "responsibility-mcq-13",
-        "responsibility-mcq-15",
         "responsibility-mcq-12",
-        "responsibility-mcq-16",
-        "responsibility-mcq-11"
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「shift responsibility onto his teammates」指「推卸／轉移責任」。",
       "sentenceIndex": 27,
@@ -1434,12 +1247,9 @@ export default {
         "shift responsibility onto his teammates"
       ],
       "optionReasons": {
-        "responsibility-mcq-14": "本句指「推卸／轉移責任」。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。"
+        "responsibility-mcq-14": "本句的「shift responsibility onto his teammates」指「推卸／轉移責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-14"
     },
@@ -1451,11 +1261,8 @@ export default {
       "masked": "Companies should not ____ to customers.",
       "options": [
         "responsibility-mcq-14",
-        "responsibility-mcq-13",
-        "responsibility-mcq-15",
         "responsibility-mcq-12",
-        "responsibility-mcq-16",
-        "responsibility-mcq-11"
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「shift responsibility」指「推卸／轉移責任」。",
       "sentenceIndex": 28,
@@ -1464,12 +1271,9 @@ export default {
         "shift responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-14": "本句指「推卸／轉移責任」。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-11": "「過錯責任」與本句語境不同。"
+        "responsibility-mcq-14": "本句的「shift responsibility」指「推卸／轉移責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-14"
     },
@@ -1481,11 +1285,8 @@ export default {
       "masked": "He was trying to ____.",
       "options": [
         "responsibility-pdf-001",
-        "responsibility-mcq-14",
-        "responsibility-mcq-16",
-        "responsibility-mcq-13",
-        "responsibility-mcq-17",
-        "responsibility-mcq-12"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「avoid responsibility」指「不願承認或承擔自己應負的責任」。",
       "sentenceIndex": 29,
@@ -1494,12 +1295,9 @@ export default {
         "avoid responsibility"
       ],
       "optionReasons": {
-        "responsibility-pdf-001": "本句指「不願承認或承擔自己應負的責任」。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。"
+        "responsibility-pdf-001": "本句的「avoid responsibility」指「不願承認或承擔自己應負的責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-pdf-001"
     },
@@ -1511,11 +1309,8 @@ export default {
       "masked": "You cannot ____ for your actions.",
       "options": [
         "responsibility-pdf-001",
-        "responsibility-mcq-14",
-        "responsibility-mcq-16",
-        "responsibility-mcq-13",
-        "responsibility-mcq-17",
-        "responsibility-mcq-12"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「escape responsibility」指「不願承認或承擔自己應負的責任」。",
       "sentenceIndex": 30,
@@ -1524,12 +1319,9 @@ export default {
         "escape responsibility"
       ],
       "optionReasons": {
-        "responsibility-pdf-001": "本句指「不願承認或承擔自己應負的責任」。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。"
+        "responsibility-pdf-001": "本句的「escape responsibility」指「不願承認或承擔自己應負的責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-pdf-001"
     },
@@ -1541,10 +1333,6 @@ export default {
       "masked": "Time management requires ____.",
       "options": [
         "responsibility-mcq-15",
-        "responsibility-mcq-14",
-        "responsibility-mcq-16",
-        "responsibility-mcq-13",
-        "responsibility-mcq-17",
         "responsibility-mcq-12"
       ],
       "explanation": "本句的「personal responsibility」指「個人責任」。",
@@ -1554,12 +1342,8 @@ export default {
         "personal responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-15": "本句指「個人責任」。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。"
+        "responsibility-mcq-15": "本句的「personal responsibility」指「個人責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-15"
     },
@@ -1571,10 +1355,6 @@ export default {
       "masked": "We should take ____ for our choices.",
       "options": [
         "responsibility-mcq-15",
-        "responsibility-mcq-14",
-        "responsibility-mcq-16",
-        "responsibility-mcq-13",
-        "responsibility-mcq-17",
         "responsibility-mcq-12"
       ],
       "explanation": "本句的「personal responsibility」指「個人責任」。",
@@ -1584,12 +1364,8 @@ export default {
         "personal responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-15": "本句指「個人責任」。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-12": "「導致 X」與本句語境不同。"
+        "responsibility-mcq-15": "本句的「personal responsibility」指「個人責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-15"
     },
@@ -1601,11 +1377,7 @@ export default {
       "masked": "She has a strong ____.",
       "options": [
         "responsibility-mcq-16",
-        "responsibility-mcq-15",
-        "responsibility-mcq-17",
-        "responsibility-mcq-14",
-        "responsibility-mcq-18",
-        "responsibility-mcq-13"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「sense of responsibility」指「責任感」。",
       "sentenceIndex": 33,
@@ -1614,12 +1386,8 @@ export default {
         "sense of responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-16": "本句指「責任感」。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。"
+        "responsibility-mcq-16": "本句的「sense of responsibility」指「責任感」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-16"
     },
@@ -1631,11 +1399,7 @@ export default {
       "masked": "Part-time work gave him a greater ____.",
       "options": [
         "responsibility-mcq-16",
-        "responsibility-mcq-15",
-        "responsibility-mcq-17",
-        "responsibility-mcq-14",
-        "responsibility-mcq-18",
-        "responsibility-mcq-13"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「sense of responsibility」指「責任感」。",
       "sentenceIndex": 34,
@@ -1644,74 +1408,58 @@ export default {
         "sense of responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-16": "本句指「責任感」。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。"
+        "responsibility-mcq-16": "本句的「sense of responsibility」指「責任感」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-16"
     },
     {
       "id": "responsibility-18-0",
-      "sense": "responsibility-mcq-16",
+      "sense": "responsibility-reviewed-b89318efc3",
       "en": "With promotion comes greater responsibility.",
       "zh": "升職意味着更大的權責。",
       "masked": "With promotion comes greater ____.",
       "options": [
-        "responsibility-mcq-16",
-        "responsibility-mcq-15",
-        "responsibility-mcq-17",
-        "responsibility-mcq-14",
-        "responsibility-mcq-18",
-        "responsibility-mcq-13"
+        "responsibility-reviewed-b89318efc3",
+        "responsibility-mcq-12"
       ],
-      "explanation": "本句的「responsibility」指「責任感」。",
+      "explanation": "對照完整句子：「升職意味着更大的權責。」。這裡的「responsibility」表示「因職位而獲得的管理、決定或監督義務」。",
       "sentenceIndex": 35,
       "sourcePractice": 1,
       "targets": [
         "responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-16": "本句指「責任感」。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。"
+        "responsibility-reviewed-b89318efc3": "對照完整句子：「升職意味着更大的權責。」。這裡的「responsibility」表示「因職位而獲得的管理、決定或監督義務」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "responsibility-mcq-16"
+      "correctOption": "responsibility-reviewed-b89318efc3",
+      "previousCorrectOption": "responsibility-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "responsibility-18-1",
-      "sense": "responsibility-mcq-16",
+      "sense": "responsibility-reviewed-b89318efc3",
       "en": "She was given more responsibility at work.",
       "zh": "公司給了她更多管理責任／權責。",
       "masked": "She was given more ____ at work.",
       "options": [
-        "responsibility-mcq-16",
-        "responsibility-mcq-15",
-        "responsibility-mcq-17",
-        "responsibility-mcq-14",
-        "responsibility-mcq-18",
-        "responsibility-mcq-13"
+        "responsibility-reviewed-b89318efc3",
+        "responsibility-mcq-12"
       ],
-      "explanation": "本句的「responsibility」指「責任感」。",
+      "explanation": "對照完整句子：「公司給了她更多管理責任／權責。」。這裡的「responsibility」表示「因職位而獲得的管理、決定或監督義務」。",
       "sentenceIndex": 36,
       "sourcePractice": 2,
       "targets": [
         "responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-16": "本句指「責任感」。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-13": "「責任在 X」與本句語境不同。"
+        "responsibility-reviewed-b89318efc3": "對照完整句子：「公司給了她更多管理責任／權責。」。這裡的「responsibility」表示「因職位而獲得的管理、決定或監督義務」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "responsibility-mcq-16"
+      "correctOption": "responsibility-reviewed-b89318efc3",
+      "previousCorrectOption": "responsibility-mcq-16",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "responsibility-19-0",
@@ -1721,11 +1469,8 @@ export default {
       "masked": "She holds a ____.",
       "options": [
         "responsibility-mcq-17",
-        "responsibility-mcq-16",
-        "responsibility-mcq-18",
-        "responsibility-mcq-15",
-        "responsibility-mcq-19",
-        "responsibility-mcq-14"
+        "responsibility-mcq-12",
+        "responsibility-mcq-04"
       ],
       "explanation": "本句的「position of responsibility」指「權責重大的職位」。",
       "sentenceIndex": 37,
@@ -1734,12 +1479,9 @@ export default {
         "position of responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-17": "本句指「權責重大的職位」。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。"
+        "responsibility-mcq-17": "本句的「position of responsibility」指「權責重大的職位」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-17"
     },
@@ -1751,11 +1493,8 @@ export default {
       "masked": "He was promoted to a ____.",
       "options": [
         "responsibility-mcq-17",
-        "responsibility-mcq-16",
-        "responsibility-mcq-18",
-        "responsibility-mcq-15",
-        "responsibility-mcq-19",
-        "responsibility-mcq-14"
+        "responsibility-mcq-12",
+        "responsibility-mcq-21"
       ],
       "explanation": "本句的「position of greater responsibility」指「權責重大的職位」。",
       "sentenceIndex": 38,
@@ -1764,12 +1503,9 @@ export default {
         "position of greater responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-17": "本句指「權責重大的職位」。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-14": "「推卸／轉移責任」與本句語境不同。"
+        "responsibility-mcq-17": "本句的「position of greater responsibility」指「權責重大的職位」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-17"
     },
@@ -1781,11 +1517,7 @@ export default {
       "masked": "She is a very ____.",
       "options": [
         "responsibility-mcq-18",
-        "responsibility-mcq-17",
-        "responsibility-mcq-19",
-        "responsibility-mcq-16",
-        "responsibility-mcq-20",
-        "responsibility-mcq-15"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsible student」指「有責任感的人」。",
       "sentenceIndex": 39,
@@ -1794,12 +1526,8 @@ export default {
         "responsible student"
       ],
       "optionReasons": {
-        "responsibility-mcq-18": "本句指「有責任感的人」。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。"
+        "responsibility-mcq-18": "本句的「responsible student」指「有責任感的人」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-18"
     },
@@ -1811,11 +1539,7 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "responsibility-mcq-18",
-        "responsibility-mcq-17",
-        "responsibility-mcq-19",
-        "responsibility-mcq-16",
-        "responsibility-mcq-20",
-        "responsibility-mcq-15"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsible decision」指「有責任感的人」。",
       "sentenceIndex": 40,
@@ -1824,12 +1548,8 @@ export default {
         "responsible decision"
       ],
       "optionReasons": {
-        "responsibility-mcq-18": "本句指「有責任感的人」。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。"
+        "responsibility-mcq-18": "本句的「responsible decision」指「有責任感的人」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-18"
     },
@@ -1841,11 +1561,7 @@ export default {
       "masked": "Children should be accompanied by a ____.",
       "options": [
         "responsibility-mcq-18",
-        "responsibility-mcq-17",
-        "responsibility-mcq-19",
-        "responsibility-mcq-16",
-        "responsibility-mcq-20",
-        "responsibility-mcq-15"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsible adult」指「有責任感的人」。",
       "sentenceIndex": 41,
@@ -1854,12 +1570,8 @@ export default {
         "responsible adult"
       ],
       "optionReasons": {
-        "responsibility-mcq-18": "本句指「有責任感的人」。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。"
+        "responsibility-mcq-18": "本句的「responsible adult」指「有責任感的人」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-18"
     },
@@ -1871,11 +1583,7 @@ export default {
       "masked": "Leave the keys with a ____.",
       "options": [
         "responsibility-mcq-18",
-        "responsibility-mcq-17",
-        "responsibility-mcq-19",
-        "responsibility-mcq-16",
-        "responsibility-mcq-20",
-        "responsibility-mcq-15"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsible adult」指「有責任感的人」。",
       "sentenceIndex": 42,
@@ -1884,12 +1592,8 @@ export default {
         "responsible adult"
       ],
       "optionReasons": {
-        "responsibility-mcq-18": "本句指「有責任感的人」。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-15": "「個人責任」與本句語境不同。"
+        "responsibility-mcq-18": "本句的「responsible adult」指「有責任感的人」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-18"
     },
@@ -1901,11 +1605,8 @@ export default {
       "masked": "Planning ahead is ____.",
       "options": [
         "responsibility-mcq-19",
-        "responsibility-mcq-18",
-        "responsibility-mcq-20",
-        "responsibility-mcq-17",
-        "responsibility-mcq-21",
-        "responsibility-mcq-16"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「responsible behaviour」指「負責任的行為」。",
       "sentenceIndex": 43,
@@ -1914,12 +1615,9 @@ export default {
         "responsible behaviour"
       ],
       "optionReasons": {
-        "responsibility-mcq-19": "本句指「負責任的行為」。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。"
+        "responsibility-mcq-19": "本句的「responsible behaviour」指「負責任的行為」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-19"
     },
@@ -1931,11 +1629,8 @@ export default {
       "masked": "The school encourages ____.",
       "options": [
         "responsibility-mcq-19",
-        "responsibility-mcq-18",
-        "responsibility-mcq-20",
-        "responsibility-mcq-17",
-        "responsibility-mcq-21",
-        "responsibility-mcq-16"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「responsible behaviour」指「負責任的行為」。",
       "sentenceIndex": 44,
@@ -1944,12 +1639,9 @@ export default {
         "responsible behaviour"
       ],
       "optionReasons": {
-        "responsibility-mcq-19": "本句指「負責任的行為」。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-16": "「責任感」與本句語境不同。"
+        "responsibility-mcq-19": "本句的「responsible behaviour」指「負責任的行為」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-19"
     },
@@ -1961,11 +1653,7 @@ export default {
       "masked": "Businesses have a ____ to consider their impact.",
       "options": [
         "responsibility-mcq-20",
-        "responsibility-mcq-19",
-        "responsibility-mcq-21",
-        "responsibility-mcq-18",
-        "responsibility-mcq-22",
-        "responsibility-mcq-17"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「social responsibility」指「社會責任」。",
       "sentenceIndex": 45,
@@ -1974,12 +1662,8 @@ export default {
         "social responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-20": "本句指「社會責任」。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。"
+        "responsibility-mcq-20": "本句的「social responsibility」指「社會責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-20"
     },
@@ -1991,11 +1675,7 @@ export default {
       "masked": "Environmental protection is often discussed as a matter of ____.",
       "options": [
         "responsibility-mcq-20",
-        "responsibility-mcq-19",
-        "responsibility-mcq-21",
-        "responsibility-mcq-18",
-        "responsibility-mcq-22",
-        "responsibility-mcq-17"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「social responsibility」指「社會責任」。",
       "sentenceIndex": 46,
@@ -2004,12 +1684,8 @@ export default {
         "social responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-20": "本句指「社會責任」。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-17": "「權責重大的職位」與本句語境不同。"
+        "responsibility-mcq-20": "本句的「social responsibility」指「社會責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-20"
     },
@@ -2021,11 +1697,8 @@ export default {
       "masked": "The company published a ____ report.",
       "options": [
         "responsibility-mcq-21",
-        "responsibility-mcq-20",
-        "responsibility-mcq-22",
-        "responsibility-mcq-19",
-        "responsibility-mcq-23",
-        "responsibility-mcq-18"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「corporate social responsibility」指「企業社會責任」。",
       "sentenceIndex": 47,
@@ -2034,12 +1707,9 @@ export default {
         "corporate social responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-21": "本句指「企業社會責任」。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。"
+        "responsibility-mcq-21": "本句的「corporate social responsibility」指「企業社會責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-21"
     },
@@ -2051,11 +1721,8 @@ export default {
       "masked": "Environmental projects form part of its ____ programme.",
       "options": [
         "responsibility-mcq-21",
-        "responsibility-mcq-20",
-        "responsibility-mcq-22",
-        "responsibility-mcq-19",
-        "responsibility-mcq-23",
-        "responsibility-mcq-18"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「corporate social responsibility」指「企業社會責任」。",
       "sentenceIndex": 48,
@@ -2064,12 +1731,9 @@ export default {
         "corporate social responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-21": "本句指「企業社會責任」。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-18": "「有責任感的人」與本句語境不同。"
+        "responsibility-mcq-21": "本句的「corporate social responsibility」指「企業社會責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-21"
     },
@@ -2081,11 +1745,8 @@ export default {
       "masked": "The company may have ____ for the damage.",
       "options": [
         "responsibility-mcq-22",
-        "responsibility-mcq-21",
-        "responsibility-mcq-23",
-        "responsibility-mcq-20",
-        "responsibility-mcq-24",
-        "responsibility-mcq-19"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「legal responsibility」指「法律責任」。",
       "sentenceIndex": 49,
@@ -2094,12 +1755,9 @@ export default {
         "legal responsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-22": "本句指「法律責任」。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-24": "「不負責任的」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。"
+        "responsibility-mcq-22": "本句的「legal responsibility」指「法律責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-22"
     },
@@ -2111,11 +1769,8 @@ export default {
       "masked": "The contract defines each party's ____.",
       "options": [
         "responsibility-mcq-22",
-        "responsibility-mcq-21",
-        "responsibility-mcq-23",
-        "responsibility-mcq-20",
-        "responsibility-mcq-24",
-        "responsibility-mcq-19"
+        "responsibility-mcq-12",
+        "responsibility-mcq-17"
       ],
       "explanation": "本句的「legal responsibilities」指「法律責任」。",
       "sentenceIndex": 50,
@@ -2124,12 +1779,9 @@ export default {
         "legal responsibilities"
       ],
       "optionReasons": {
-        "responsibility-mcq-22": "本句指「法律責任」。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。",
-        "responsibility-mcq-24": "「不負責任的」與本句語境不同。",
-        "responsibility-mcq-19": "「負責任的行為」與本句語境不同。"
+        "responsibility-mcq-22": "本句的「legal responsibilities」指「法律責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "responsibility-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-22"
     },
@@ -2141,11 +1793,7 @@ export default {
       "masked": "Use your time ____.",
       "options": [
         "responsibility-mcq-23",
-        "responsibility-mcq-22",
-        "responsibility-mcq-24",
-        "responsibility-mcq-21",
-        "responsibility-mcq-25",
-        "responsibility-mcq-20"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibly」指「負責任地」。",
       "sentenceIndex": 51,
@@ -2154,12 +1802,8 @@ export default {
         "responsibly"
       ],
       "optionReasons": {
-        "responsibility-mcq-23": "本句指「負責任地」。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-24": "「不負責任的」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-25": "「不負責任」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。"
+        "responsibility-mcq-23": "本句的「responsibly」指「負責任地」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-23"
     },
@@ -2171,11 +1815,7 @@ export default {
       "masked": "The company promised to act ____.",
       "options": [
         "responsibility-mcq-23",
-        "responsibility-mcq-22",
-        "responsibility-mcq-24",
-        "responsibility-mcq-21",
-        "responsibility-mcq-25",
-        "responsibility-mcq-20"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「responsibly」指「負責任地」。",
       "sentenceIndex": 52,
@@ -2184,12 +1824,8 @@ export default {
         "responsibly"
       ],
       "optionReasons": {
-        "responsibility-mcq-23": "本句指「負責任地」。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-24": "「不負責任的」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-25": "「不負責任」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。"
+        "responsibility-mcq-23": "本句的「responsibly」指「負責任地」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-23"
     },
@@ -2201,11 +1837,7 @@ export default {
       "masked": "Leaving everything until the last minute was ____.",
       "options": [
         "responsibility-mcq-24",
-        "responsibility-mcq-23",
-        "responsibility-mcq-25",
-        "responsibility-mcq-22",
-        "responsibility-mcq-21",
-        "responsibility-mcq-20"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「irresponsible」指「不負責任的」。",
       "sentenceIndex": 53,
@@ -2214,12 +1846,8 @@ export default {
         "irresponsible"
       ],
       "optionReasons": {
-        "responsibility-mcq-24": "本句指「不負責任的」。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-25": "「不負責任」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。"
+        "responsibility-mcq-24": "本句的「irresponsible」指「不負責任的」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-24"
     },
@@ -2231,11 +1859,7 @@ export default {
       "masked": "It would be ____ to ignore the warning.",
       "options": [
         "responsibility-mcq-24",
-        "responsibility-mcq-23",
-        "responsibility-mcq-25",
-        "responsibility-mcq-22",
-        "responsibility-mcq-21",
-        "responsibility-mcq-20"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「irresponsible」指「不負責任的」。",
       "sentenceIndex": 54,
@@ -2244,12 +1868,8 @@ export default {
         "irresponsible"
       ],
       "optionReasons": {
-        "responsibility-mcq-24": "本句指「不負責任的」。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-25": "「不負責任」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。"
+        "responsibility-mcq-24": "本句的「irresponsible」指「不負責任的」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-24"
     },
@@ -2261,11 +1881,7 @@ export default {
       "masked": "His ____ caused problems for the team.",
       "options": [
         "responsibility-mcq-25",
-        "responsibility-mcq-24",
-        "responsibility-mcq-23",
-        "responsibility-mcq-22",
-        "responsibility-mcq-21",
-        "responsibility-mcq-20"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「irresponsibility」指「不負責任」。",
       "sentenceIndex": 55,
@@ -2274,12 +1890,8 @@ export default {
         "irresponsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-25": "本句指「不負責任」。",
-        "responsibility-mcq-24": "「不負責任的」與本句語境不同。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。"
+        "responsibility-mcq-25": "本句的「irresponsibility」指「不負責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-25"
     },
@@ -2291,11 +1903,7 @@ export default {
       "masked": "The delay was partly caused by poor planning and ____.",
       "options": [
         "responsibility-mcq-25",
-        "responsibility-mcq-24",
-        "responsibility-mcq-23",
-        "responsibility-mcq-22",
-        "responsibility-mcq-21",
-        "responsibility-mcq-20"
+        "responsibility-mcq-12"
       ],
       "explanation": "本句的「irresponsibility」指「不負責任」。",
       "sentenceIndex": 56,
@@ -2304,12 +1912,8 @@ export default {
         "irresponsibility"
       ],
       "optionReasons": {
-        "responsibility-mcq-25": "本句指「不負責任」。",
-        "responsibility-mcq-24": "「不負責任的」與本句語境不同。",
-        "responsibility-mcq-23": "「負責任地」與本句語境不同。",
-        "responsibility-mcq-22": "「法律責任」與本句語境不同。",
-        "responsibility-mcq-21": "「企業社會責任」與本句語境不同。",
-        "responsibility-mcq-20": "「社會責任」與本句語境不同。"
+        "responsibility-mcq-25": "本句的「irresponsibility」指「不負責任」。",
+        "responsibility-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "responsibility-mcq-25"
     }
@@ -2321,5 +1925,7 @@ export default {
     "sha256": "2acffe979d4944efd26f83baf2486cb3c27fa303d06c1d7d06a2d70bc82d3a60",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

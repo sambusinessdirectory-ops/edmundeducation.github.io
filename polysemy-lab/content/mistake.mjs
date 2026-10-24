@@ -100,7 +100,7 @@ export default {
     },
     {
       "id": "mistake-mcq-05",
-      "title": "表示做某件事情是不明智／不正確的",
+      "title": "做某件事情是不明智／不正確的",
       "form": "it was a mistake to do",
       "en": "it was a mistake to do",
       "zh": "表示做某件事情是不明智／不正確的",
@@ -396,16 +396,6 @@ export default {
           "A common mistake is to translate every word literally.",
           "一個常見錯誤是把每個字逐字翻譯。",
           "很多人容易犯／經常出現的錯誤"
-        ],
-        [
-          "Don’t repeat the same mistake.",
-          "不要重犯同樣的錯誤。",
-          "很多人容易犯／經常出現的錯誤"
-        ],
-        [
-          "He kept making the same mistake.",
-          "他一直犯同樣的錯。",
-          "很多人容易犯／經常出現的錯誤"
         ]
       ],
       "options": [],
@@ -674,6 +664,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "mistake-reviewed-89d477fc2b",
+      "title": "重蹈覆轍",
+      "form": "mistake · source section 23",
+      "en": "重蹈覆轍",
+      "zh": "重蹈覆轍",
+      "note": "對照原始教材第 23 節及例句核實。",
+      "examples": [
+        [
+          "Don’t repeat the same mistake.",
+          "不要重犯同樣的錯誤。",
+          "重蹈覆轍"
+        ],
+        [
+          "He kept making the same mistake.",
+          "他一直犯同樣的錯。",
+          "重蹈覆轍"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -685,11 +697,9 @@ export default {
       "masked": "She never judges me too quickly, even when I ____.",
       "options": [
         "mistake-mcq-01",
-        "mistake-mcq-02",
-        "mistake-mcq-03",
-        "mistake-mcq-04",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-10",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「make mistakes」指「某個行動、判斷、理解、資料或結果不正確」。",
       "sentenceIndex": 0,
@@ -698,12 +708,10 @@ export default {
         "make mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-01": "本句指「某個行動、判斷、理解、資料或結果不正確」。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-01": "本句的「make mistakes」指「某個行動、判斷、理解、資料或結果不正確」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-01"
     },
@@ -715,11 +723,9 @@ export default {
       "masked": "Everyone ____.",
       "options": [
         "mistake-mcq-01",
-        "mistake-mcq-02",
-        "mistake-mcq-03",
-        "mistake-mcq-04",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-mcq-10",
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「makes mistakes」指「某個行動、判斷、理解、資料或結果不正確」。",
       "sentenceIndex": 1,
@@ -728,12 +734,10 @@ export default {
         "makes mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-01": "本句指「某個行動、判斷、理解、資料或結果不正確」。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-01": "本句的「makes mistakes」指「某個行動、判斷、理解、資料或結果不正確」。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-01"
     },
@@ -745,11 +749,9 @@ export default {
       "masked": "I made a small ____ in the report.",
       "options": [
         "mistake-mcq-01",
-        "mistake-mcq-02",
-        "mistake-mcq-03",
-        "mistake-mcq-04",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-pdf-001",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistake」指「某個行動、判斷、理解、資料或結果不正確」。",
       "sentenceIndex": 2,
@@ -758,12 +760,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-01": "本句指「某個行動、判斷、理解、資料或結果不正確」。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-01": "本句的「mistake」指「某個行動、判斷、理解、資料或結果不正確」。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-01"
     },
@@ -775,11 +775,9 @@ export default {
       "masked": "I ____ and sent the email to the wrong person.",
       "options": [
         "mistake-mcq-02",
-        "mistake-mcq-01",
-        "mistake-mcq-03",
         "mistake-mcq-04",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-mcq-20",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「made a mistake」指「做出不正確的行動／判斷／選擇；犯錯」。",
       "sentenceIndex": 3,
@@ -788,12 +786,10 @@ export default {
         "made a mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-02": "本句指「做出不正確的行動／判斷／選擇；犯錯」。",
-        "mistake-mcq-01": "「某個行動、判斷、理解、資料或結果不正確」是「mistake — error」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-02": "本句的「made a mistake」指「做出不正確的行動／判斷／選擇；犯錯」。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-02"
     },
@@ -805,11 +801,9 @@ export default {
       "masked": "Don’t be afraid to ____.",
       "options": [
         "mistake-mcq-02",
-        "mistake-mcq-01",
-        "mistake-mcq-03",
-        "mistake-mcq-04",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「make mistakes」指「做出不正確的行動／判斷／選擇；犯錯」。",
       "sentenceIndex": 4,
@@ -818,12 +812,10 @@ export default {
         "make mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-02": "本句指「做出不正確的行動／判斷／選擇；犯錯」。",
-        "mistake-mcq-01": "「某個行動、判斷、理解、資料或結果不正確」是「mistake — error」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-02": "本句的「make mistakes」指「做出不正確的行動／判斷／選擇；犯錯」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-02"
     },
@@ -835,11 +827,9 @@ export default {
       "masked": "There is a ____ in the calculation.",
       "options": [
         "mistake-mcq-03",
-        "mistake-mcq-02",
-        "mistake-mcq-04",
-        "mistake-mcq-01",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-mcq-10",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistake」指「文字、答案、計算或資料中的不正確部分」。",
       "sentenceIndex": 5,
@@ -848,12 +838,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-03": "本句指「文字、答案、計算或資料中的不正確部分」。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-01": "「某個行動、判斷、理解、資料或結果不正確」是「mistake — error」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-03": "本句的「mistake」指「文字、答案、計算或資料中的不正確部分」。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-03"
     },
@@ -865,11 +853,9 @@ export default {
       "masked": "I found three spelling ____.",
       "options": [
         "mistake-mcq-03",
-        "mistake-mcq-02",
-        "mistake-mcq-04",
-        "mistake-mcq-01",
-        "mistake-mcq-05",
-        "mistake-mcq-06"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-pdf-001",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistakes」指「文字、答案、計算或資料中的不正確部分」。",
       "sentenceIndex": 6,
@@ -878,12 +864,10 @@ export default {
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-03": "本句指「文字、答案、計算或資料中的不正確部分」。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-01": "「某個行動、判斷、理解、資料或結果不正確」是「mistake — error」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-03": "本句的「mistakes」指「文字、答案、計算或資料中的不正確部分」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-03"
     },
@@ -895,11 +879,9 @@ export default {
       "masked": "Leaving the job was a ____.",
       "options": [
         "mistake-mcq-04",
-        "mistake-mcq-03",
-        "mistake-mcq-05",
-        "mistake-mcq-02",
-        "mistake-mcq-06",
-        "mistake-mcq-01"
+        "mistake-mcq-18",
+        "mistake-mcq-10",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistake」指「後來證明不明智或帶來不良結果的決定」。",
       "sentenceIndex": 7,
@@ -908,12 +890,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-04": "本句指「後來證明不明智或帶來不良結果的決定」。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-01": "「某個行動、判斷、理解、資料或結果不正確」是「mistake — error」的用法，與本句語境不同。"
+        "mistake-mcq-04": "本句的「mistake」指「後來證明不明智或帶來不良結果的決定」。",
+        "mistake-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-04"
     },
@@ -925,11 +905,9 @@ export default {
       "masked": "It was a ____ to ignore the warning.",
       "options": [
         "mistake-mcq-04",
-        "mistake-mcq-03",
-        "mistake-mcq-05",
-        "mistake-mcq-02",
-        "mistake-mcq-06",
-        "mistake-mcq-01"
+        "mistake-mcq-11",
+        "mistake-mcq-25",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistake」指「後來證明不明智或帶來不良結果的決定」。",
       "sentenceIndex": 8,
@@ -938,12 +916,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-04": "本句指「後來證明不明智或帶來不良結果的決定」。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-01": "「某個行動、判斷、理解、資料或結果不正確」是「mistake — error」的用法，與本句語境不同。"
+        "mistake-mcq-04": "本句的「mistake」指「後來證明不明智或帶來不良結果的決定」。",
+        "mistake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-04"
     },
@@ -955,11 +931,9 @@ export default {
       "masked": "It was a ____ the decision.",
       "options": [
         "mistake-mcq-05",
-        "mistake-mcq-04",
-        "mistake-mcq-06",
-        "mistake-mcq-03",
-        "mistake-mcq-07",
-        "mistake-mcq-02"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-pdf-001",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistake to rush」指「表示做某件事情是不明智／不正確的」。",
       "sentenceIndex": 9,
@@ -968,12 +942,10 @@ export default {
         "mistake to rush"
       ],
       "optionReasons": {
-        "mistake-mcq-05": "本句指「表示做某件事情是不明智／不正確的」。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。"
+        "mistake-mcq-05": "本句的「mistake to rush」指「表示做某件事情是不明智／不正確的」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-05"
     },
@@ -985,11 +957,9 @@ export default {
       "masked": "It would be a ____ to give up now.",
       "options": [
         "mistake-mcq-05",
-        "mistake-mcq-04",
-        "mistake-mcq-06",
-        "mistake-mcq-03",
-        "mistake-mcq-07",
-        "mistake-mcq-02"
+        "mistake-mcq-10",
+        "mistake-mcq-27",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistake」指「表示做某件事情是不明智／不正確的」。",
       "sentenceIndex": 10,
@@ -998,12 +968,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-05": "本句指「表示做某件事情是不明智／不正確的」。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-02": "「做出不正確的行動／判斷／選擇；犯錯」是「make a mistake」的用法，與本句語境不同。"
+        "mistake-mcq-05": "本句的「mistake」指「表示做某件事情是不明智／不正確的」。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-05"
     },
@@ -1015,11 +983,9 @@ export default {
       "masked": "I ____ his brother.",
       "options": [
         "mistake-pdf-001",
-        "mistake-mcq-05",
-        "mistake-mcq-07",
-        "mistake-mcq-04",
-        "mistake-mcq-08",
-        "mistake-mcq-03"
+        "mistake-mcq-03",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistook him for」指「錯把 A 當成 B；誤認身份／性質」。",
       "sentenceIndex": 11,
@@ -1028,12 +994,10 @@ export default {
         "mistook him for"
       ],
       "optionReasons": {
-        "mistake-pdf-001": "本句指「錯把 A 當成 B；誤認身份／性質」。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。"
+        "mistake-pdf-001": "本句的「mistook him for」指「錯把 A 當成 B；誤認身份／性質」。",
+        "mistake-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-pdf-001"
     },
@@ -1045,11 +1009,9 @@ export default {
       "masked": "She ____ an alarm.",
       "options": [
         "mistake-pdf-001",
-        "mistake-mcq-05",
         "mistake-mcq-07",
-        "mistake-mcq-04",
-        "mistake-mcq-08",
-        "mistake-mcq-03"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistook the sound for」指「錯把 A 當成 B；誤認身份／性質」。",
       "sentenceIndex": 12,
@@ -1058,12 +1020,10 @@ export default {
         "mistook the sound for"
       ],
       "optionReasons": {
-        "mistake-pdf-001": "本句指「錯把 A 當成 B；誤認身份／性質」。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。"
+        "mistake-pdf-001": "本句的「mistook the sound for」指「錯把 A 當成 B；誤認身份／性質」。",
+        "mistake-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-pdf-001"
     },
@@ -1075,11 +1035,9 @@ export default {
       "masked": "People often ____.",
       "options": [
         "mistake-mcq-06",
-        "mistake-mcq-05",
-        "mistake-mcq-07",
-        "mistake-mcq-04",
-        "mistake-mcq-08",
-        "mistake-mcq-03"
+        "mistake-mcq-27",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistake confidence for arrogance」指「因判斷錯誤，把 A 誤認為 B」。",
       "sentenceIndex": 13,
@@ -1088,12 +1046,10 @@ export default {
         "mistake confidence for arrogance"
       ],
       "optionReasons": {
-        "mistake-mcq-06": "本句指「因判斷錯誤，把 A 誤認為 B」。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。"
+        "mistake-mcq-06": "本句的「mistake confidence for arrogance」指「因判斷錯誤，把 A 誤認為 B」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-06"
     },
@@ -1105,11 +1061,9 @@ export default {
       "masked": "I ____ the building for a hotel.",
       "options": [
         "mistake-mcq-06",
-        "mistake-mcq-05",
-        "mistake-mcq-07",
-        "mistake-mcq-04",
-        "mistake-mcq-08",
-        "mistake-mcq-03"
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistook」指「因判斷錯誤，把 A 誤認為 B」。",
       "sentenceIndex": 14,
@@ -1118,12 +1072,10 @@ export default {
         "mistook"
       ],
       "optionReasons": {
-        "mistake-mcq-06": "本句指「因判斷錯誤，把 A 誤認為 B」。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-03": "「文字、答案、計算或資料中的不正確部分」是「mistake in text/calculation」的用法，與本句語境不同。"
+        "mistake-mcq-06": "本句的「mistook」指「因判斷錯誤，把 A 誤認為 B」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-06"
     },
@@ -1135,11 +1087,9 @@ export default {
       "masked": "I may be ____, but I think we’ve met before.",
       "options": [
         "mistake-mcq-07",
-        "mistake-mcq-06",
-        "mistake-mcq-08",
-        "mistake-mcq-05",
-        "mistake-mcq-09",
-        "mistake-mcq-04"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-pdf-001",
+        "mistake-mcq-23"
       ],
       "explanation": "本句的「mistaken」指「某人的記憶、理解、判斷或看法不正確」。",
       "sentenceIndex": 15,
@@ -1148,12 +1098,10 @@ export default {
         "mistaken"
       ],
       "optionReasons": {
-        "mistake-mcq-07": "本句指「某人的記憶、理解、判斷或看法不正確」。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。"
+        "mistake-mcq-07": "本句的「mistaken」指「某人的記憶、理解、判斷或看法不正確」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-07"
     },
@@ -1165,11 +1113,9 @@ export default {
       "masked": "You are ____ about the date.",
       "options": [
         "mistake-mcq-07",
-        "mistake-mcq-06",
-        "mistake-mcq-08",
-        "mistake-mcq-05",
-        "mistake-mcq-09",
-        "mistake-mcq-04"
+        "mistake-mcq-23",
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistaken」指「某人的記憶、理解、判斷或看法不正確」。",
       "sentenceIndex": 16,
@@ -1178,12 +1124,10 @@ export default {
         "mistaken"
       ],
       "optionReasons": {
-        "mistake-mcq-07": "本句指「某人的記憶、理解、判斷或看法不正確」。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-04": "「後來證明不明智或帶來不良結果的決定」是「mistake — poor decision」的用法，與本句語境不同。"
+        "mistake-mcq-07": "本句的「mistaken」指「某人的記憶、理解、判斷或看法不正確」。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-07"
     },
@@ -1195,11 +1139,9 @@ export default {
       "masked": "If I’m not ____, the meeting starts at three.",
       "options": [
         "mistake-mcq-08",
-        "mistake-mcq-07",
-        "mistake-mcq-09",
-        "mistake-mcq-06",
-        "mistake-mcq-10",
-        "mistake-mcq-05"
+        "mistake-mcq-27",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistaken」指「謹慎表示自己相信某資訊正確，但承認可能搞錯」。",
       "sentenceIndex": 17,
@@ -1208,12 +1150,10 @@ export default {
         "mistaken"
       ],
       "optionReasons": {
-        "mistake-mcq-08": "本句指「謹慎表示自己相信某資訊正確，但承認可能搞錯」。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。"
+        "mistake-mcq-08": "本句的「mistaken」指「謹慎表示自己相信某資訊正確，但承認可能搞錯」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-08"
     },
@@ -1225,11 +1165,9 @@ export default {
       "masked": "If I’m not ____, she used to live here.",
       "options": [
         "mistake-mcq-08",
-        "mistake-mcq-07",
-        "mistake-mcq-09",
-        "mistake-mcq-06",
-        "mistake-mcq-10",
-        "mistake-mcq-05"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-27",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistaken」指「謹慎表示自己相信某資訊正確，但承認可能搞錯」。",
       "sentenceIndex": 18,
@@ -1238,12 +1176,10 @@ export default {
         "mistaken"
       ],
       "optionReasons": {
-        "mistake-mcq-08": "本句指「謹慎表示自己相信某資訊正確，但承認可能搞錯」。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-05": "「表示做某件事情是不明智／不正確的」是「it was a mistake to do」的用法，與本句語境不同。"
+        "mistake-mcq-08": "本句的「mistaken」指「謹慎表示自己相信某資訊正確，但承認可能搞錯」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-08"
     },
@@ -1255,11 +1191,9 @@ export default {
       "masked": "He had the ____ that success would be easy.",
       "options": [
         "mistake-mcq-09",
-        "mistake-mcq-08",
-        "mistake-mcq-10",
-        "mistake-mcq-07",
-        "mistake-mcq-11",
-        "mistake-mcq-06"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistaken belief」指「建立在錯誤理解上的信念／印象」。",
       "sentenceIndex": 19,
@@ -1268,12 +1202,10 @@ export default {
         "mistaken belief"
       ],
       "optionReasons": {
-        "mistake-mcq-09": "本句指「建立在錯誤理解上的信念／印象」。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-09": "本句的「mistaken belief」指「建立在錯誤理解上的信念／印象」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-09"
     },
@@ -1285,11 +1217,9 @@ export default {
       "masked": "I was under the ____ that the shop was open.",
       "options": [
         "mistake-mcq-09",
-        "mistake-mcq-08",
-        "mistake-mcq-10",
-        "mistake-mcq-07",
-        "mistake-mcq-11",
-        "mistake-mcq-06"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-27",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistaken impression」指「建立在錯誤理解上的信念／印象」。",
       "sentenceIndex": 20,
@@ -1298,12 +1228,10 @@ export default {
         "mistaken impression"
       ],
       "optionReasons": {
-        "mistake-mcq-09": "本句指「建立在錯誤理解上的信念／印象」。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-06": "「因判斷錯誤，把 A 誤認為 B」是「mistake A for B」的用法，與本句語境不同。"
+        "mistake-mcq-09": "本句的「mistaken impression」指「建立在錯誤理解上的信念／印象」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-09"
     },
@@ -1315,11 +1243,9 @@ export default {
       "masked": "The arrest was a case of ____.",
       "options": [
         "mistake-mcq-10",
-        "mistake-mcq-09",
-        "mistake-mcq-11",
-        "mistake-mcq-08",
-        "mistake-mcq-12",
-        "mistake-mcq-07"
+        "mistake-pdf-002",
+        "mistake-mcq-27",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistaken identity」指「把某個人錯認成另一個人」。",
       "sentenceIndex": 21,
@@ -1328,12 +1254,10 @@ export default {
         "mistaken identity"
       ],
       "optionReasons": {
-        "mistake-mcq-10": "本句指「把某個人錯認成另一個人」。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。"
+        "mistake-mcq-10": "本句的「mistaken identity」指「把某個人錯認成另一個人」。",
+        "mistake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-10"
     },
@@ -1345,11 +1269,9 @@ export default {
       "masked": "It was simply a case of ____ identity.",
       "options": [
         "mistake-mcq-10",
-        "mistake-mcq-09",
-        "mistake-mcq-11",
-        "mistake-mcq-08",
-        "mistake-mcq-12",
-        "mistake-mcq-07"
+        "mistake-pdf-002",
+        "mistake-mcq-04",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistaken」指「把某個人錯認成另一個人」。",
       "sentenceIndex": 22,
@@ -1358,12 +1280,10 @@ export default {
         "mistaken"
       ],
       "optionReasons": {
-        "mistake-mcq-10": "本句指「把某個人錯認成另一個人」。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-07": "「某人的記憶、理解、判斷或看法不正確」是「be mistaken」的用法，與本句語境不同。"
+        "mistake-mcq-10": "本句的「mistaken」指「把某個人錯認成另一個人」。",
+        "mistake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-10"
     },
@@ -1375,11 +1295,9 @@ export default {
       "masked": "She was ____ her sister.",
       "options": [
         "mistake-mcq-11",
-        "mistake-mcq-10",
-        "mistake-mcq-12",
-        "mistake-mcq-09",
-        "mistake-mcq-13",
-        "mistake-mcq-08"
+        "mistake-mcq-20",
+        "mistake-mcq-04",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistaken for」指「被別人錯誤辨認／理解成 X」。",
       "sentenceIndex": 23,
@@ -1388,12 +1306,10 @@ export default {
         "mistaken for"
       ],
       "optionReasons": {
-        "mistake-mcq-11": "本句指「被別人錯誤辨認／理解成 X」。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。"
+        "mistake-mcq-11": "本句的「mistaken for」指「被別人錯誤辨認／理解成 X」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-11"
     },
@@ -1405,11 +1321,9 @@ export default {
       "masked": "The harmless object was ____ for a weapon.",
       "options": [
         "mistake-mcq-11",
-        "mistake-mcq-10",
-        "mistake-mcq-12",
-        "mistake-mcq-09",
-        "mistake-mcq-13",
-        "mistake-mcq-08"
+        "mistake-mcq-27",
+        "mistake-mcq-04",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistaken」指「被別人錯誤辨認／理解成 X」。",
       "sentenceIndex": 24,
@@ -1418,12 +1332,10 @@ export default {
         "mistaken"
       ],
       "optionReasons": {
-        "mistake-mcq-11": "本句指「被別人錯誤辨認／理解成 X」。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-08": "「謹慎表示自己相信某資訊正確，但承認可能搞錯」是「if I’m not mistaken」的用法，與本句語境不同。"
+        "mistake-mcq-11": "本句的「mistaken」指「被別人錯誤辨認／理解成 X」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-11"
     },
@@ -1435,11 +1347,9 @@ export default {
       "masked": "I ____ sent the file to the wrong address.",
       "options": [
         "mistake-mcq-12",
-        "mistake-mcq-11",
-        "mistake-mcq-13",
-        "mistake-mcq-10",
-        "mistake-mcq-14",
-        "mistake-mcq-09"
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistakenly」指「因誤解或錯誤判斷而做／相信某事」。",
       "sentenceIndex": 25,
@@ -1448,12 +1358,10 @@ export default {
         "mistakenly"
       ],
       "optionReasons": {
-        "mistake-mcq-12": "本句指「因誤解或錯誤判斷而做／相信某事」。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。"
+        "mistake-mcq-12": "本句的「mistakenly」指「因誤解或錯誤判斷而做／相信某事」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-12"
     },
@@ -1465,11 +1373,9 @@ export default {
       "masked": "She ____ believed the meeting had been cancelled.",
       "options": [
         "mistake-mcq-12",
-        "mistake-mcq-11",
-        "mistake-mcq-13",
-        "mistake-mcq-10",
-        "mistake-mcq-14",
-        "mistake-mcq-09"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-04",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistakenly」指「因誤解或錯誤判斷而做／相信某事」。",
       "sentenceIndex": 26,
@@ -1478,12 +1384,10 @@ export default {
         "mistakenly"
       ],
       "optionReasons": {
-        "mistake-mcq-12": "本句指「因誤解或錯誤判斷而做／相信某事」。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-09": "「建立在錯誤理解上的信念／印象」是「mistaken belief/impression」的用法，與本句語境不同。"
+        "mistake-mcq-12": "本句的「mistakenly」指「因誤解或錯誤判斷而做／相信某事」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-12"
     },
@@ -1495,10 +1399,8 @@ export default {
       "masked": "I deleted the file ____.",
       "options": [
         "mistake-mcq-13",
-        "mistake-mcq-12",
-        "mistake-mcq-14",
-        "mistake-mcq-11",
-        "mistake-mcq-15",
+        "mistake-mcq-04",
+        "mistake-reviewed-89d477fc2b",
         "mistake-mcq-10"
       ],
       "explanation": "本句的「by mistake」指「並非故意，而是因混淆、疏忽或錯誤而發生」。",
@@ -1508,12 +1410,10 @@ export default {
         "by mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-13": "本句指「並非故意，而是因混淆、疏忽或錯誤而發生」。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。"
+        "mistake-mcq-13": "本句的「by mistake」指「並非故意，而是因混淆、疏忽或錯誤而發生」。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-13"
     },
@@ -1525,11 +1425,9 @@ export default {
       "masked": "She took my bag by ____.",
       "options": [
         "mistake-mcq-13",
-        "mistake-mcq-12",
-        "mistake-mcq-14",
-        "mistake-mcq-11",
-        "mistake-mcq-15",
-        "mistake-mcq-10"
+        "mistake-mcq-04",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistake」指「並非故意，而是因混淆、疏忽或錯誤而發生」。",
       "sentenceIndex": 28,
@@ -1538,12 +1436,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-13": "本句指「並非故意，而是因混淆、疏忽或錯誤而發生」。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-10": "「把某個人錯認成另一個人」是「mistaken identity」的用法，與本句語境不同。"
+        "mistake-mcq-13": "本句的「mistake」指「並非故意，而是因混淆、疏忽或錯誤而發生」。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-13"
     },
@@ -1555,11 +1451,9 @@ export default {
       "masked": "It was an honest ____.",
       "options": [
         "mistake-mcq-23",
-        "mistake-mcq-22",
-        "mistake-mcq-24",
-        "mistake-mcq-21",
-        "mistake-mcq-25",
-        "mistake-mcq-20"
+        "mistake-mcq-04",
+        "mistake-pdf-003",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistake」指「一般暗示不是故意做錯，與蓄意行為相對」。",
       "sentenceIndex": 29,
@@ -1568,12 +1462,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-23": "本句指「一般暗示不是故意做錯，與蓄意行為相對」。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。"
+        "mistake-mcq-23": "本句的「mistake」指「一般暗示不是故意做錯，與蓄意行為相對」。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-23"
     },
@@ -1585,11 +1477,9 @@ export default {
       "masked": "Don’t punish him too harshly—it was a ____.",
       "options": [
         "mistake-mcq-23",
-        "mistake-mcq-22",
         "mistake-mcq-24",
-        "mistake-mcq-21",
-        "mistake-mcq-25",
-        "mistake-mcq-20"
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistake」指「一般暗示不是故意做錯，與蓄意行為相對」。",
       "sentenceIndex": 30,
@@ -1598,12 +1488,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-23": "本句指「一般暗示不是故意做錯，與蓄意行為相對」。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。"
+        "mistake-mcq-23": "本句的「mistake」指「一般暗示不是故意做錯，與蓄意行為相對」。",
+        "mistake-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-23"
     },
@@ -1615,11 +1503,9 @@ export default {
       "masked": "Anyone could have made that honest ____.",
       "options": [
         "mistake-mcq-14",
-        "mistake-mcq-13",
-        "mistake-mcq-15",
-        "mistake-mcq-12",
-        "mistake-mcq-16",
-        "mistake-mcq-11"
+        "mistake-mcq-25",
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistake」指「沒有惡意／欺騙意圖的真正無心之失」。",
       "sentenceIndex": 31,
@@ -1628,12 +1514,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-14": "本句指「沒有惡意／欺騙意圖的真正無心之失」。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-11": "「被別人錯誤辨認／理解成 X」是「be mistaken for X」的用法，與本句語境不同。"
+        "mistake-mcq-14": "本句的「mistake」指「沒有惡意／欺騙意圖的真正無心之失」。",
+        "mistake-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-14"
     },
@@ -1645,11 +1529,9 @@ export default {
       "masked": "It was only a ____.",
       "options": [
         "mistake-mcq-15",
-        "mistake-mcq-14",
-        "mistake-mcq-16",
-        "mistake-mcq-13",
-        "mistake-mcq-17",
-        "mistake-mcq-12"
+        "mistake-mcq-20",
+        "mistake-mcq-27",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「small mistake」指「影響及嚴重程度較低的錯誤」。",
       "sentenceIndex": 32,
@@ -1658,12 +1540,10 @@ export default {
         "small mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-15": "本句指「影響及嚴重程度較低的錯誤」。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。"
+        "mistake-mcq-15": "本句的「small mistake」指「影響及嚴重程度較低的錯誤」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-15"
     },
@@ -1675,11 +1555,9 @@ export default {
       "masked": "One simple ____ caused the delay.",
       "options": [
         "mistake-mcq-15",
-        "mistake-mcq-14",
-        "mistake-mcq-16",
-        "mistake-mcq-13",
-        "mistake-mcq-17",
-        "mistake-mcq-12"
+        "mistake-mcq-27",
+        "mistake-mcq-20",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistake」指「影響及嚴重程度較低的錯誤」。",
       "sentenceIndex": 33,
@@ -1688,12 +1566,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-15": "本句指「影響及嚴重程度較低的錯誤」。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-12": "「因誤解或錯誤判斷而做／相信某事」是「mistakenly」的用法，與本句語境不同。"
+        "mistake-mcq-15": "本句的「mistake」指「影響及嚴重程度較低的錯誤」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-15"
     },
@@ -1705,11 +1581,9 @@ export default {
       "masked": "Ignoring the warning was a ____.",
       "options": [
         "mistake-mcq-16",
-        "mistake-mcq-15",
-        "mistake-mcq-17",
-        "mistake-mcq-14",
-        "mistake-mcq-18",
-        "mistake-mcq-13"
+        "mistake-mcq-27",
+        "mistake-mcq-23",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「serious mistake」指「可能造成重大後果的嚴重錯誤」。",
       "sentenceIndex": 34,
@@ -1718,12 +1592,10 @@ export default {
         "serious mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-16": "本句指「可能造成重大後果的嚴重錯誤」。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。"
+        "mistake-mcq-16": "本句的「serious mistake」指「可能造成重大後果的嚴重錯誤」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-16"
     },
@@ -1735,11 +1607,9 @@ export default {
       "masked": "Hiring the wrong person was a big ____.",
       "options": [
         "mistake-mcq-16",
-        "mistake-mcq-15",
-        "mistake-mcq-17",
-        "mistake-mcq-14",
-        "mistake-mcq-18",
-        "mistake-mcq-13"
+        "mistake-mcq-27",
+        "mistake-mcq-25",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistake」指「可能造成重大後果的嚴重錯誤」。",
       "sentenceIndex": 35,
@@ -1748,12 +1618,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-16": "本句指「可能造成重大後果的嚴重錯誤」。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-13": "「並非故意，而是因混淆、疏忽或錯誤而發生」是「by mistake」的用法，與本句語境不同。"
+        "mistake-mcq-16": "本句的「mistake」指「可能造成重大後果的嚴重錯誤」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-16"
     },
@@ -1765,11 +1633,9 @@ export default {
       "masked": "The company made a ____.",
       "options": [
         "mistake-mcq-17",
-        "mistake-mcq-16",
-        "mistake-mcq-18",
-        "mistake-mcq-15",
-        "mistake-mcq-19",
-        "mistake-mcq-14"
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-23"
       ],
       "explanation": "本句的「costly mistake」指「造成大量金錢、時間、聲譽等損失的錯誤」。",
       "sentenceIndex": 36,
@@ -1778,12 +1644,10 @@ export default {
         "costly mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-17": "本句指「造成大量金錢、時間、聲譽等損失的錯誤」。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。"
+        "mistake-mcq-17": "本句的「costly mistake」指「造成大量金錢、時間、聲譽等損失的錯誤」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-17"
     },
@@ -1795,11 +1659,9 @@ export default {
       "masked": "One costly ____ damaged the project.",
       "options": [
         "mistake-mcq-17",
-        "mistake-mcq-16",
-        "mistake-mcq-18",
-        "mistake-mcq-15",
-        "mistake-mcq-19",
-        "mistake-mcq-14"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20",
+        "mistake-mcq-23"
       ],
       "explanation": "本句的「mistake」指「造成大量金錢、時間、聲譽等損失的錯誤」。",
       "sentenceIndex": 37,
@@ -1808,12 +1670,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-17": "本句指「造成大量金錢、時間、聲譽等損失的錯誤」。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-14": "「沒有惡意／欺騙意圖的真正無心之失」是「honest mistake」的用法，與本句語境不同。"
+        "mistake-mcq-17": "本句的「mistake」指「造成大量金錢、時間、聲譽等損失的錯誤」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-17"
     },
@@ -1825,11 +1685,9 @@ export default {
       "masked": "This is a ____ among learners.",
       "options": [
         "mistake-mcq-18",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-mcq-27",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「common mistake」指「很多人容易犯／經常出現的錯誤」。",
       "sentenceIndex": 38,
@@ -1838,12 +1696,10 @@ export default {
         "common mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-mcq-18": "本句的「common mistake」指「很多人容易犯／經常出現的錯誤」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-18"
     },
@@ -1855,11 +1711,9 @@ export default {
       "masked": "A common ____ is to translate every word literally.",
       "options": [
         "mistake-mcq-18",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-27",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistake」指「很多人容易犯／經常出現的錯誤」。",
       "sentenceIndex": 39,
@@ -1868,12 +1722,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-mcq-18": "本句的「mistake」指「很多人容易犯／經常出現的錯誤」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-18"
     },
@@ -1885,11 +1737,9 @@ export default {
       "masked": "You should ____.",
       "options": [
         "mistake-mcq-19",
-        "mistake-mcq-18",
-        "mistake-mcq-20",
-        "mistake-mcq-17",
-        "mistake-mcq-21",
-        "mistake-mcq-16"
+        "mistake-mcq-27",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「learn from your mistakes」指「利用過去錯誤改善之後的判斷／行為」。",
       "sentenceIndex": 40,
@@ -1898,12 +1748,10 @@ export default {
         "learn from your mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-19": "本句指「利用過去錯誤改善之後的判斷／行為」。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。"
+        "mistake-mcq-19": "本句的「learn from your mistakes」指「利用過去錯誤改善之後的判斷／行為」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-19"
     },
@@ -1915,11 +1763,9 @@ export default {
       "masked": "She made ____ but learned from them.",
       "options": [
         "mistake-mcq-19",
-        "mistake-mcq-18",
-        "mistake-mcq-20",
-        "mistake-mcq-17",
-        "mistake-mcq-21",
-        "mistake-mcq-16"
+        "mistake-mcq-27",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistakes」指「利用過去錯誤改善之後的判斷／行為」。",
       "sentenceIndex": 41,
@@ -1928,74 +1774,68 @@ export default {
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-19": "本句指「利用過去錯誤改善之後的判斷／行為」。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。"
+        "mistake-mcq-19": "本句的「mistakes」指「利用過去錯誤改善之後的判斷／行為」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-19"
     },
     {
       "id": "mistake-23-0",
-      "sense": "mistake-mcq-18",
+      "sense": "mistake-reviewed-89d477fc2b",
       "en": "Don’t repeat the same mistake.",
       "zh": "不要重犯同樣的錯誤。",
       "masked": "Don’t ____.",
       "options": [
-        "mistake-mcq-18",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-06",
+        "mistake-mcq-27",
+        "mistake-mcq-23"
       ],
-      "explanation": "本句的「repeat the same mistake」指「很多人容易犯／經常出現的錯誤」。",
+      "explanation": "對照完整句子：「不要重犯同樣的錯誤。」。這裡的「repeat the same mistake」表示「重蹈覆轍」。",
       "sentenceIndex": 42,
       "sourcePractice": 45,
       "targets": [
         "repeat the same mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-reviewed-89d477fc2b": "對照完整句子：「不要重犯同樣的錯誤。」。這裡的「repeat the same mistake」表示「重蹈覆轍」。",
+        "mistake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mistake-mcq-18"
+      "correctOption": "mistake-reviewed-89d477fc2b",
+      "previousCorrectOption": "mistake-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mistake-23-1",
-      "sense": "mistake-mcq-18",
+      "sense": "mistake-reviewed-89d477fc2b",
       "en": "He kept making the same mistake.",
       "zh": "他一直犯同樣的錯。",
       "masked": "He kept making the same ____.",
       "options": [
-        "mistake-mcq-18",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-06",
+        "mistake-mcq-04",
+        "mistake-mcq-23"
       ],
-      "explanation": "本句的「mistake」指「很多人容易犯／經常出現的錯誤」。",
+      "explanation": "對照完整句子：「他一直犯同樣的錯。」。這裡的「mistake」表示「重蹈覆轍」。",
       "sentenceIndex": 43,
       "sourcePractice": 46,
       "targets": [
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-18": "本句指「很多人容易犯／經常出現的錯誤」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-reviewed-89d477fc2b": "對照完整句子：「他一直犯同樣的錯。」。這裡的「mistake」表示「重蹈覆轍」。",
+        "mistake-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "mistake-mcq-18"
+      "correctOption": "mistake-reviewed-89d477fc2b",
+      "previousCorrectOption": "mistake-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "mistake-24-0",
@@ -2005,11 +1845,9 @@ export default {
       "masked": "I corrected the ____.",
       "options": [
         "mistake-mcq-24",
-        "mistake-mcq-23",
-        "mistake-mcq-25",
-        "mistake-mcq-22",
-        "mistake-mcq-26",
-        "mistake-mcq-21"
+        "mistake-mcq-20",
+        "mistake-mcq-27",
+        "mistake-mcq-23"
       ],
       "explanation": "本句的「mistake」指「把不正確的內容／結果修改回正確狀態」。",
       "sentenceIndex": 44,
@@ -2018,12 +1856,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-24": "本句指「把不正確的內容／結果修改回正確狀態」。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-26": "「誠實承認自己犯了錯，尤其之前沒有承認時」是「26. own up to a mistake（承認錯誤；較口語） — 坦白承認」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。"
+        "mistake-mcq-24": "本句的「mistake」指「把不正確的內容／結果修改回正確狀態」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-24"
     },
@@ -2035,11 +1871,9 @@ export default {
       "masked": "We still have time to fix the ____.",
       "options": [
         "mistake-mcq-24",
-        "mistake-mcq-23",
         "mistake-mcq-25",
-        "mistake-mcq-22",
-        "mistake-mcq-26",
-        "mistake-mcq-21"
+        "mistake-mcq-20",
+        "mistake-pdf-001"
       ],
       "explanation": "本句的「mistake」指「把不正確的內容／結果修改回正確狀態」。",
       "sentenceIndex": 45,
@@ -2048,12 +1882,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-24": "本句指「把不正確的內容／結果修改回正確狀態」。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-26": "「誠實承認自己犯了錯，尤其之前沒有承認時」是「26. own up to a mistake（承認錯誤；較口語） — 坦白承認」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。"
+        "mistake-mcq-24": "本句的「mistake」指「把不正確的內容／結果修改回正確狀態」。",
+        "mistake-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-24"
     },
@@ -2065,11 +1897,9 @@ export default {
       "masked": "She admitted her ____.",
       "options": [
         "mistake-mcq-25",
-        "mistake-mcq-24",
-        "mistake-mcq-26",
-        "mistake-mcq-23",
         "mistake-mcq-27",
-        "mistake-mcq-22"
+        "mistake-mcq-20",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistake」指「接受並公開承認自己做錯／判斷錯」。",
       "sentenceIndex": 46,
@@ -2078,12 +1908,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-25": "本句指「接受並公開承認自己做錯／判斷錯」。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-26": "「誠實承認自己犯了錯，尤其之前沒有承認時」是「26. own up to a mistake（承認錯誤；較口語） — 坦白承認」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-27": "「語法、拼字、用詞、發音等不符合目標語言形式」是「29. mistake = error in language（語言錯誤） — 語法／用詞錯誤」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。"
+        "mistake-mcq-25": "本句的「mistake」指「接受並公開承認自己做錯／判斷錯」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-25"
     },
@@ -2095,11 +1923,9 @@ export default {
       "masked": "It takes courage to admit a ____.",
       "options": [
         "mistake-mcq-25",
-        "mistake-mcq-24",
-        "mistake-mcq-26",
-        "mistake-mcq-23",
         "mistake-mcq-27",
-        "mistake-mcq-22"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistake」指「接受並公開承認自己做錯／判斷錯」。",
       "sentenceIndex": 47,
@@ -2108,12 +1934,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-25": "本句指「接受並公開承認自己做錯／判斷錯」。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-26": "「誠實承認自己犯了錯，尤其之前沒有承認時」是「26. own up to a mistake（承認錯誤；較口語） — 坦白承認」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-27": "「語法、拼字、用詞、發音等不符合目標語言形式」是「29. mistake = error in language（語言錯誤） — 語法／用詞錯誤」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。"
+        "mistake-mcq-25": "本句的「mistake」指「接受並公開承認自己做錯／判斷錯」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-25"
     },
@@ -2125,11 +1949,9 @@ export default {
       "masked": "He eventually ____.",
       "options": [
         "mistake-mcq-26",
-        "mistake-mcq-25",
         "mistake-mcq-27",
-        "mistake-mcq-24",
-        "mistake-mcq-23",
-        "mistake-mcq-22"
+        "mistake-mcq-20",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「owned up to the mistake」指「誠實承認自己犯了錯，尤其之前沒有承認時」。",
       "sentenceIndex": 48,
@@ -2138,12 +1960,10 @@ export default {
         "owned up to the mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-26": "本句指「誠實承認自己犯了錯，尤其之前沒有承認時」。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-27": "「語法、拼字、用詞、發音等不符合目標語言形式」是「29. mistake = error in language（語言錯誤） — 語法／用詞錯誤」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。"
+        "mistake-mcq-26": "本句的「owned up to the mistake」指「誠實承認自己犯了錯，尤其之前沒有承認時」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-26"
     },
@@ -2155,11 +1975,9 @@ export default {
       "masked": "It is better to own up to your ____.",
       "options": [
         "mistake-mcq-26",
-        "mistake-mcq-25",
+        "mistake-mcq-20",
         "mistake-mcq-27",
-        "mistake-mcq-24",
-        "mistake-mcq-23",
-        "mistake-mcq-22"
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistakes」指「誠實承認自己犯了錯，尤其之前沒有承認時」。",
       "sentenceIndex": 49,
@@ -2168,12 +1986,10 @@ export default {
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-26": "本句指「誠實承認自己犯了錯，尤其之前沒有承認時」。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-27": "「語法、拼字、用詞、發音等不符合目標語言形式」是「29. mistake = error in language（語言錯誤） — 語法／用詞錯誤」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。"
+        "mistake-mcq-26": "本句的「mistakes」指「誠實承認自己犯了錯，尤其之前沒有承認時」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-26"
     },
@@ -2185,11 +2001,9 @@ export default {
       "masked": "There is a ____ in the date.",
       "options": [
         "mistake-pdf-002",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
         "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-mcq-04",
+        "mistake-mcq-25"
       ],
       "explanation": "本句的「mistake」指「文件、文字或輸入內容中出現的不正確項目」。",
       "sentenceIndex": 50,
@@ -2198,12 +2012,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-pdf-002": "本句指「文件、文字或輸入內容中出現的不正確項目」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-pdf-002": "本句的「mistake」指「文件、文字或輸入內容中出現的不正確項目」。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-pdf-002"
     },
@@ -2215,11 +2027,9 @@ export default {
       "masked": "The document contains several typing ____.",
       "options": [
         "mistake-pdf-002",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-mcq-10",
+        "mistake-mcq-23",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistakes」指「文件、文字或輸入內容中出現的不正確項目」。",
       "sentenceIndex": 51,
@@ -2228,12 +2038,10 @@ export default {
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-pdf-002": "本句指「文件、文字或輸入內容中出現的不正確項目」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-pdf-002": "本句的「mistakes」指「文件、文字或輸入內容中出現的不正確項目」。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-pdf-002"
     },
@@ -2245,11 +2053,9 @@ export default {
       "masked": "There is a factual ____ in the article.",
       "options": [
         "mistake-pdf-003",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-mcq-10",
+        "mistake-mcq-21",
+        "mistake-mcq-04"
       ],
       "explanation": "本句的「mistake」指「陳述的資訊與實際事實不符」。",
       "sentenceIndex": 52,
@@ -2258,12 +2064,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-pdf-003": "本句指「陳述的資訊與實際事實不符」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-pdf-003": "本句的「mistake」指「陳述的資訊與實際事實不符」。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-pdf-003"
     },
@@ -2275,11 +2079,9 @@ export default {
       "masked": "The report contains several ____ about the dates.",
       "options": [
         "mistake-pdf-003",
-        "mistake-mcq-17",
-        "mistake-mcq-19",
-        "mistake-mcq-16",
-        "mistake-mcq-20",
-        "mistake-mcq-15"
+        "mistake-mcq-23",
+        "mistake-mcq-10",
+        "mistake-reviewed-89d477fc2b"
       ],
       "explanation": "本句的「mistakes」指「陳述的資訊與實際事實不符」。",
       "sentenceIndex": 53,
@@ -2288,12 +2090,10 @@ export default {
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-pdf-003": "本句指「陳述的資訊與實際事實不符」。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-16": "「可能造成重大後果的嚴重錯誤」是「serious/big mistake」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-15": "「影響及嚴重程度較低的錯誤」是「small/minor mistake」的用法，與本句語境不同。"
+        "mistake-pdf-003": "本句的「mistakes」指「陳述的資訊與實際事實不符」。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-pdf-003"
     },
@@ -2305,11 +2105,9 @@ export default {
       "masked": "I made a grammar ____.",
       "options": [
         "mistake-mcq-27",
-        "mistake-mcq-26",
-        "mistake-mcq-25",
-        "mistake-mcq-24",
+        "mistake-mcq-05",
         "mistake-mcq-23",
-        "mistake-mcq-22"
+        "mistake-pdf-001"
       ],
       "explanation": "本句的「mistake」指「語法、拼字、用詞、發音等不符合目標語言形式」。",
       "sentenceIndex": 54,
@@ -2318,12 +2116,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-27": "本句指「語法、拼字、用詞、發音等不符合目標語言形式」。",
-        "mistake-mcq-26": "「誠實承認自己犯了錯，尤其之前沒有承認時」是「26. own up to a mistake（承認錯誤；較口語） — 坦白承認」的用法，與本句語境不同。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。"
+        "mistake-mcq-27": "本句的「mistake」指「語法、拼字、用詞、發音等不符合目標語言形式」。",
+        "mistake-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-27"
     },
@@ -2335,11 +2131,9 @@ export default {
       "masked": "Don’t worry about small pronunciation ____.",
       "options": [
         "mistake-mcq-27",
-        "mistake-mcq-26",
-        "mistake-mcq-25",
-        "mistake-mcq-24",
+        "mistake-mcq-11",
         "mistake-mcq-23",
-        "mistake-mcq-22"
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistakes」指「語法、拼字、用詞、發音等不符合目標語言形式」。",
       "sentenceIndex": 55,
@@ -2348,12 +2142,10 @@ export default {
         "mistakes"
       ],
       "optionReasons": {
-        "mistake-mcq-27": "本句指「語法、拼字、用詞、發音等不符合目標語言形式」。",
-        "mistake-mcq-26": "「誠實承認自己犯了錯，尤其之前沒有承認時」是「26. own up to a mistake（承認錯誤；較口語） — 坦白承認」的用法，與本句語境不同。",
-        "mistake-mcq-25": "「接受並公開承認自己做錯／判斷錯」是「25. admit a mistake（承認錯誤） — 承認犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。"
+        "mistake-mcq-27": "本句的「mistakes」指「語法、拼字、用詞、發音等不符合目標語言形式」。",
+        "mistake-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-27"
     },
@@ -2365,11 +2157,9 @@ export default {
       "masked": "There’s ____.",
       "options": [
         "mistake-mcq-20",
-        "mistake-mcq-19",
-        "mistake-mcq-21",
-        "mistake-mcq-18",
-        "mistake-mcq-22",
-        "mistake-mcq-17"
+        "mistake-pdf-002",
+        "mistake-pdf-001",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「no mistaking her voice」指「X 的特徵非常明顯，不可能與其他事物混淆」。",
       "sentenceIndex": 56,
@@ -2378,12 +2168,10 @@ export default {
         "no mistaking her voice"
       ],
       "optionReasons": {
-        "mistake-mcq-20": "本句指「X 的特徵非常明顯，不可能與其他事物混淆」。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。"
+        "mistake-mcq-20": "本句的「no mistaking her voice」指「X 的特徵非常明顯，不可能與其他事物混淆」。",
+        "mistake-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "mistake-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-20"
     },
@@ -2395,11 +2183,9 @@ export default {
       "masked": "There was no ____ his disappointment.",
       "options": [
         "mistake-mcq-20",
-        "mistake-mcq-19",
+        "mistake-mcq-02",
         "mistake-mcq-21",
-        "mistake-mcq-18",
-        "mistake-mcq-22",
-        "mistake-mcq-17"
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistaking」指「X 的特徵非常明顯，不可能與其他事物混淆」。",
       "sentenceIndex": 57,
@@ -2408,12 +2194,10 @@ export default {
         "mistaking"
       ],
       "optionReasons": {
-        "mistake-mcq-20": "本句指「X 的特徵非常明顯，不可能與其他事物混淆」。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-17": "「造成大量金錢、時間、聲譽等損失的錯誤」是「costly mistake」的用法，與本句語境不同。"
+        "mistake-mcq-20": "本句的「mistaking」指「X 的特徵非常明顯，不可能與其他事物混淆」。",
+        "mistake-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-20"
     },
@@ -2425,11 +2209,9 @@ export default {
       "masked": "____, this will be difficult.",
       "options": [
         "mistake-mcq-21",
+        "mistake-reviewed-89d477fc2b",
         "mistake-mcq-20",
-        "mistake-mcq-22",
-        "mistake-mcq-19",
-        "mistake-mcq-23",
-        "mistake-mcq-18"
+        "mistake-mcq-14"
       ],
       "explanation": "本句的「Make no mistake」指「強調接下來的說法確定、不可誤解；別搞錯」。",
       "sentenceIndex": 58,
@@ -2438,12 +2220,10 @@ export default {
         "Make no mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-21": "本句指「強調接下來的說法確定、不可誤解；別搞錯」。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。"
+        "mistake-mcq-21": "本句的「Make no mistake」指「強調接下來的說法確定、不可誤解；別搞錯」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-21"
     },
@@ -2455,11 +2235,9 @@ export default {
       "masked": "Make no ____ about it: preparation matters.",
       "options": [
         "mistake-mcq-21",
-        "mistake-mcq-20",
-        "mistake-mcq-22",
-        "mistake-mcq-19",
-        "mistake-mcq-23",
-        "mistake-mcq-18"
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-14",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistake」指「強調接下來的說法確定、不可誤解；別搞錯」。",
       "sentenceIndex": 59,
@@ -2468,12 +2246,10 @@ export default {
         "mistake"
       ],
       "optionReasons": {
-        "mistake-mcq-21": "本句指「強調接下來的說法確定、不可誤解；別搞錯」。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-22": "「設計成不容易因人為錯誤而失敗的」是「mistake-proof」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-18": "「很多人容易犯／經常出現的錯誤」是「common mistake」的用法，與本句語境不同。"
+        "mistake-mcq-21": "本句的「mistake」指「強調接下來的說法確定、不可誤解；別搞錯」。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-21"
     },
@@ -2485,11 +2261,9 @@ export default {
       "masked": "The design is intended to be ____.",
       "options": [
         "mistake-mcq-22",
-        "mistake-mcq-21",
-        "mistake-mcq-23",
-        "mistake-mcq-20",
-        "mistake-mcq-24",
-        "mistake-mcq-19"
+        "mistake-mcq-27",
+        "mistake-mcq-04",
+        "mistake-mcq-20"
       ],
       "explanation": "本句的「mistake-proof」指「設計成不容易因人為錯誤而失敗的」。",
       "sentenceIndex": 60,
@@ -2498,12 +2272,10 @@ export default {
         "mistake-proof"
       ],
       "optionReasons": {
-        "mistake-mcq-22": "本句指「設計成不容易因人為錯誤而失敗的」。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。"
+        "mistake-mcq-22": "本句的「mistake-proof」指「設計成不容易因人為錯誤而失敗的」。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-22"
     },
@@ -2515,11 +2287,9 @@ export default {
       "masked": "They introduced ____ into the process.",
       "options": [
         "mistake-mcq-22",
-        "mistake-mcq-21",
-        "mistake-mcq-23",
-        "mistake-mcq-20",
-        "mistake-mcq-24",
-        "mistake-mcq-19"
+        "mistake-mcq-04",
+        "mistake-reviewed-89d477fc2b",
+        "mistake-mcq-27"
       ],
       "explanation": "本句的「mistake-proofing」指「設計成不容易因人為錯誤而失敗的」。",
       "sentenceIndex": 61,
@@ -2528,12 +2298,10 @@ export default {
         "mistake-proofing"
       ],
       "optionReasons": {
-        "mistake-mcq-22": "本句指「設計成不容易因人為錯誤而失敗的」。",
-        "mistake-mcq-21": "「強調接下來的說法確定、不可誤解；別搞錯」是「make no mistake」的用法，與本句語境不同。",
-        "mistake-mcq-23": "「一般暗示不是故意做錯，與蓄意行為相對」是「16. mistake vs deliberate action（錯誤而非故意） — 無意犯錯」的用法，與本句語境不同。",
-        "mistake-mcq-20": "「X 的特徵非常明顯，不可能與其他事物混淆」是「there’s no mistaking X」的用法，與本句語境不同。",
-        "mistake-mcq-24": "「把不正確的內容／結果修改回正確狀態」是「24. correct/fix a mistake（改正錯誤） — 糾正；修正」的用法，與本句語境不同。",
-        "mistake-mcq-19": "「利用過去錯誤改善之後的判斷／行為」是「learn from mistakes」的用法，與本句語境不同。"
+        "mistake-mcq-22": "本句的「mistake-proofing」指「設計成不容易因人為錯誤而失敗的」。",
+        "mistake-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "mistake-reviewed-89d477fc2b": "請比較這個意思與句子中標示的用法。",
+        "mistake-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "mistake-mcq-22"
     }
@@ -2545,5 +2313,7 @@ export default {
     "sha256": "6fce548cd830d266275c92f12990da4abd703a8c248ec19531346c4602d208fa",
     "pages": 28
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

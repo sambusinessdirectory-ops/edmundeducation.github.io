@@ -1986,11 +1986,9 @@ export default {
       "masked": "The meeting should ____ solutions.",
       "options": [
         "generate-mcq-01",
-        "generate-mcq-02",
-        "generate-mcq-03",
-        "generate-mcq-04",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-38",
+        "generate-mcq-13",
+        "generate-mcq-84"
       ],
       "explanation": "本句的「generate」指「產生；生成 produce」。",
       "sentenceIndex": 0,
@@ -1999,12 +1997,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-01": "本句指「產生；生成 produce」。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-01": "本句的「generate」指「產生；生成 produce」。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-01"
     },
@@ -2016,11 +2012,9 @@ export default {
       "masked": "The discussion ____ several useful ideas.",
       "options": [
         "generate-mcq-01",
-        "generate-mcq-02",
-        "generate-mcq-03",
-        "generate-mcq-04",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-77",
+        "generate-mcq-27",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「產生；生成 produce」。",
       "sentenceIndex": 1,
@@ -2029,12 +2023,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-01": "本句指「產生；生成 produce」。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-01": "本句的「generated」指「產生；生成 produce」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-01"
     },
@@ -2046,11 +2038,9 @@ export default {
       "masked": "Good teamwork can ____ better results.",
       "options": [
         "generate-mcq-01",
-        "generate-mcq-02",
-        "generate-mcq-03",
-        "generate-mcq-04",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-27",
+        "generate-mcq-77",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「產生；生成 produce」。",
       "sentenceIndex": 2,
@@ -2059,12 +2049,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-01": "本句指「產生；生成 produce」。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-01": "本句的「generate」指「產生；生成 produce」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-01"
     },
@@ -2076,11 +2064,9 @@ export default {
       "masked": "Brainstorming can ____ solutions to difficult problems.",
       "options": [
         "generate-mcq-02",
-        "generate-mcq-01",
-        "generate-mcq-03",
-        "generate-mcq-04",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-34",
+        "generate-mcq-78",
+        "generate-mcq-27"
       ],
       "explanation": "本句的「generate」指「產生解決方案 problem solving」。",
       "sentenceIndex": 3,
@@ -2089,12 +2075,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-02": "本句指「產生解決方案 problem solving」。",
-        "generate-mcq-01": "「產生；生成 produce」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-02": "本句的「generate」指「產生解決方案 problem solving」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-02"
     },
@@ -2106,11 +2090,9 @@ export default {
       "masked": "The purpose of the meeting is to ____ practical solutions.",
       "options": [
         "generate-mcq-02",
-        "generate-mcq-01",
-        "generate-mcq-03",
-        "generate-mcq-04",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-87",
+        "generate-mcq-19",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「產生解決方案 problem solving」。",
       "sentenceIndex": 4,
@@ -2119,12 +2101,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-02": "本句指「產生解決方案 problem solving」。",
-        "generate-mcq-01": "「產生；生成 produce」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-02": "本句的「generate」指「產生解決方案 problem solving」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-02"
     },
@@ -2136,11 +2116,9 @@ export default {
       "masked": "The workshop helped participants ____ new ideas.",
       "options": [
         "generate-mcq-03",
-        "generate-mcq-02",
-        "generate-mcq-04",
-        "generate-mcq-01",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-34",
+        "generate-mcq-75",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「產生／想出點子 ideation」。",
       "sentenceIndex": 5,
@@ -2149,12 +2127,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-03": "本句指「產生／想出點子 ideation」。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-01": "「產生；生成 produce」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-03": "本句的「generate」指「產生／想出點子 ideation」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-03"
     },
@@ -2166,11 +2142,9 @@ export default {
       "masked": "Small groups often ____ more ideas than expected.",
       "options": [
         "generate-mcq-03",
-        "generate-mcq-02",
-        "generate-mcq-04",
-        "generate-mcq-01",
-        "generate-mcq-05",
-        "generate-mcq-06"
+        "generate-mcq-10",
+        "generate-mcq-34",
+        "generate-pdf-plain-091"
       ],
       "explanation": "本句的「generate」指「產生／想出點子 ideation」。",
       "sentenceIndex": 6,
@@ -2179,12 +2153,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-03": "本句指「產生／想出點子 ideation」。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-01": "「產生；生成 produce」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-03": "本句的「generate」指「產生／想出點子 ideation」。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-03"
     },
@@ -2196,11 +2168,9 @@ export default {
       "masked": "Before making a decision, ____ several options.",
       "options": [
         "generate-mcq-04",
-        "generate-mcq-03",
-        "generate-mcq-05",
-        "generate-mcq-02",
-        "generate-mcq-06",
-        "generate-mcq-01"
+        "generate-mcq-84",
+        "generate-mcq-13",
+        "generate-mcq-10"
       ],
       "explanation": "本句的「generate」指「產生可選方案 possibilities」。",
       "sentenceIndex": 7,
@@ -2209,12 +2179,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-04": "本句指「產生可選方案 possibilities」。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-01": "「產生；生成 produce」與本句語境不同。"
+        "generate-mcq-04": "本句的「generate」指「產生可選方案 possibilities」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-04"
     },
@@ -2226,11 +2194,9 @@ export default {
       "masked": "The team ____ three possible approaches.",
       "options": [
         "generate-mcq-04",
-        "generate-mcq-03",
-        "generate-mcq-05",
-        "generate-mcq-02",
-        "generate-mcq-06",
-        "generate-mcq-01"
+        "generate-mcq-13",
+        "generate-mcq-84",
+        "generate-mcq-36"
       ],
       "explanation": "本句的「generated」指「產生可選方案 possibilities」。",
       "sentenceIndex": 8,
@@ -2239,12 +2205,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-04": "本句指「產生可選方案 possibilities」。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-01": "「產生；生成 produce」與本句語境不同。"
+        "generate-mcq-04": "本句的「generated」指「產生可選方案 possibilities」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-04"
     },
@@ -2256,11 +2220,9 @@ export default {
       "masked": "We need to ____ alternatives before rejecting the current plan.",
       "options": [
         "generate-mcq-05",
-        "generate-mcq-04",
-        "generate-mcq-06",
-        "generate-mcq-03",
-        "generate-mcq-07",
-        "generate-mcq-02"
+        "generate-mcq-27",
+        "generate-mcq-12",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「產生替代方案 possibilities」。",
       "sentenceIndex": 9,
@@ -2269,12 +2231,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-05": "本句指「產生替代方案 possibilities」。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。"
+        "generate-mcq-05": "本句的「generate」指「產生替代方案 possibilities」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-05"
     },
@@ -2286,11 +2246,9 @@ export default {
       "masked": "Creative thinking can ____ alternatives.",
       "options": [
         "generate-mcq-05",
-        "generate-mcq-04",
-        "generate-mcq-06",
-        "generate-mcq-03",
-        "generate-mcq-07",
-        "generate-mcq-02"
+        "generate-mcq-12",
+        "generate-mcq-13",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「產生替代方案 possibilities」。",
       "sentenceIndex": 10,
@@ -2299,12 +2257,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-05": "本句指「產生替代方案 possibilities」。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-02": "「產生解決方案 problem solving」與本句語境不同。"
+        "generate-mcq-05": "本句的「generate」指「產生替代方案 possibilities」。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-05"
     },
@@ -2316,11 +2272,9 @@ export default {
       "masked": "Exploratory research can ____ hypotheses.",
       "options": [
         "generate-mcq-06",
-        "generate-mcq-05",
-        "generate-mcq-07",
-        "generate-mcq-04",
-        "generate-mcq-08",
-        "generate-mcq-03"
+        "generate-mcq-10",
+        "generate-mcq-77",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「產生假設 research」。",
       "sentenceIndex": 13,
@@ -2329,12 +2283,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-06": "本句指「產生假設 research」。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。"
+        "generate-mcq-06": "本句的「generate」指「產生假設 research」。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-06"
     },
@@ -2346,11 +2298,9 @@ export default {
       "masked": "The observations ____ several possible explanations.",
       "options": [
         "generate-mcq-06",
-        "generate-mcq-05",
-        "generate-mcq-07",
-        "generate-mcq-04",
-        "generate-mcq-08",
-        "generate-mcq-03"
+        "generate-mcq-13",
+        "generate-pdf-plain-091",
+        "generate-mcq-38"
       ],
       "explanation": "本句的「generated」指「產生假設 research」。",
       "sentenceIndex": 14,
@@ -2359,12 +2309,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-06": "本句指「產生假設 research」。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-03": "「產生／想出點子 ideation」與本句語境不同。"
+        "generate-mcq-06": "本句的「generated」指「產生假設 research」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-06"
     },
@@ -2376,11 +2324,9 @@ export default {
       "masked": "The campaign ____ considerable interest.",
       "options": [
         "generate-mcq-07",
-        "generate-mcq-06",
-        "generate-mcq-08",
-        "generate-mcq-05",
-        "generate-mcq-09",
-        "generate-mcq-04"
+        "generate-mcq-84",
+        "generate-mcq-34",
+        "generate-mcq-28"
       ],
       "explanation": "本句的「generated」指「引起興趣 reaction」。",
       "sentenceIndex": 15,
@@ -2389,12 +2335,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-07": "本句指「引起興趣 reaction」。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。"
+        "generate-mcq-07": "本句的「generated」指「引起興趣 reaction」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-07"
     },
@@ -2406,11 +2350,9 @@ export default {
       "masked": "The new product ____ interest among younger customers.",
       "options": [
         "generate-mcq-07",
-        "generate-mcq-06",
-        "generate-mcq-08",
-        "generate-mcq-05",
-        "generate-mcq-09",
-        "generate-mcq-04"
+        "generate-mcq-38",
+        "generate-mcq-77",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generated」指「引起興趣 reaction」。",
       "sentenceIndex": 16,
@@ -2419,12 +2361,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-07": "本句指「引起興趣 reaction」。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-04": "「產生可選方案 possibilities」與本句語境不同。"
+        "generate-mcq-07": "本句的「generated」指「引起興趣 reaction」。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-07"
     },
@@ -2436,11 +2376,9 @@ export default {
       "masked": "The announcement ____ a great deal of attention.",
       "options": [
         "generate-mcq-08",
-        "generate-mcq-07",
-        "generate-mcq-09",
-        "generate-mcq-06",
-        "generate-mcq-10",
-        "generate-mcq-05"
+        "generate-mcq-84",
+        "generate-mcq-35",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generated」指「引起注意 reaction」。",
       "sentenceIndex": 17,
@@ -2449,12 +2387,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-08": "本句指「引起注意 reaction」。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。"
+        "generate-mcq-08": "本句的「generated」指「引起注意 reaction」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-08"
     },
@@ -2466,11 +2402,9 @@ export default {
       "masked": "The campaign was designed to ____ attention online.",
       "options": [
         "generate-mcq-08",
-        "generate-mcq-07",
-        "generate-mcq-09",
-        "generate-mcq-06",
-        "generate-mcq-10",
-        "generate-mcq-05"
+        "generate-mcq-36",
+        "generate-mcq-86",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「引起注意 reaction」。",
       "sentenceIndex": 18,
@@ -2479,12 +2413,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-08": "本句指「引起注意 reaction」。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-05": "「產生替代方案 possibilities」與本句語境不同。"
+        "generate-mcq-08": "本句的「generate」指「引起注意 reaction」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-08"
     },
@@ -2496,11 +2428,9 @@ export default {
       "masked": "The launch ____ excitement among customers.",
       "options": [
         "generate-mcq-09",
-        "generate-mcq-08",
+        "generate-mcq-86",
         "generate-mcq-10",
-        "generate-mcq-07",
-        "generate-mcq-11",
-        "generate-mcq-06"
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generated」指「引起興奮 reaction」。",
       "sentenceIndex": 19,
@@ -2509,12 +2439,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-09": "本句指「引起興奮 reaction」。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-09": "本句的「generated」指「引起興奮 reaction」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-09"
     },
@@ -2526,11 +2454,9 @@ export default {
       "masked": "New announcements often ____ excitement.",
       "options": [
         "generate-mcq-09",
-        "generate-mcq-08",
+        "generate-mcq-75",
         "generate-mcq-10",
-        "generate-mcq-07",
-        "generate-mcq-11",
-        "generate-mcq-06"
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「引起興奮 reaction」。",
       "sentenceIndex": 20,
@@ -2539,12 +2465,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-09": "本句指「引起興奮 reaction」。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-06": "「產生假設 research」與本句語境不同。"
+        "generate-mcq-09": "本句的「generate」指「引起興奮 reaction」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-09"
     },
@@ -2556,11 +2480,9 @@ export default {
       "masked": "The proposal failed to ____ much enthusiasm.",
       "options": [
         "generate-mcq-10",
-        "generate-mcq-09",
-        "generate-mcq-11",
-        "generate-mcq-08",
-        "generate-mcq-12",
-        "generate-mcq-07"
+        "generate-mcq-58",
+        "generate-pdf-plain-080",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「激發熱情 reaction」。",
       "sentenceIndex": 21,
@@ -2569,12 +2491,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-10": "本句指「激發熱情 reaction」。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。"
+        "generate-mcq-10": "本句的「generate」指「激發熱情 reaction」。",
+        "generate-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-080": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-10"
     },
@@ -2586,11 +2506,9 @@ export default {
       "masked": "Strong leadership can ____ enthusiasm for change.",
       "options": [
         "generate-mcq-10",
-        "generate-mcq-09",
-        "generate-mcq-11",
-        "generate-mcq-08",
-        "generate-mcq-12",
-        "generate-mcq-07"
+        "generate-mcq-06",
+        "generate-mcq-77",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「激發熱情 reaction」。",
       "sentenceIndex": 22,
@@ -2599,12 +2517,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-10": "本句指「激發熱情 reaction」。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。",
-        "generate-mcq-07": "「引起興趣 reaction」與本句語境不同。"
+        "generate-mcq-10": "本句的「generate」指「激發熱情 reaction」。",
+        "generate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-10"
     },
@@ -2616,11 +2532,9 @@ export default {
       "masked": "The delays ____ concern among clients.",
       "options": [
         "generate-mcq-11",
-        "generate-mcq-10",
-        "generate-mcq-12",
-        "generate-mcq-09",
-        "generate-mcq-13",
-        "generate-mcq-08"
+        "generate-pdf-plain-091",
+        "generate-mcq-19",
+        "generate-mcq-27"
       ],
       "explanation": "本句的「generated」指「引起憂慮 reaction」。",
       "sentenceIndex": 23,
@@ -2629,12 +2543,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-11": "本句指「引起憂慮 reaction」。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。"
+        "generate-mcq-11": "本句的「generated」指「引起憂慮 reaction」。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-11"
     },
@@ -2646,11 +2558,9 @@ export default {
       "masked": "The findings ____ serious concern.",
       "options": [
         "generate-mcq-11",
-        "generate-mcq-10",
-        "generate-mcq-12",
-        "generate-mcq-09",
-        "generate-mcq-13",
-        "generate-mcq-08"
+        "generate-mcq-87",
+        "generate-mcq-35",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generated」指「引起憂慮 reaction」。",
       "sentenceIndex": 24,
@@ -2659,12 +2569,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-11": "本句指「引起憂慮 reaction」。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。",
-        "generate-mcq-08": "「引起注意 reaction」與本句語境不同。"
+        "generate-mcq-11": "本句的「generated」指「引起憂慮 reaction」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-11"
     },
@@ -2676,11 +2584,9 @@ export default {
       "masked": "The decision ____ considerable controversy.",
       "options": [
         "generate-mcq-12",
-        "generate-mcq-11",
-        "generate-mcq-13",
-        "generate-mcq-10",
-        "generate-mcq-14",
-        "generate-mcq-09"
+        "generate-mcq-87",
+        "generate-mcq-50",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generated」指「引發爭議 reaction」。",
       "sentenceIndex": 25,
@@ -2689,12 +2595,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-12": "本句指「引發爭議 reaction」。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。"
+        "generate-mcq-12": "本句的「generated」指「引發爭議 reaction」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-12"
     },
@@ -2706,11 +2610,9 @@ export default {
       "masked": "The proposal ____ controversy within the organisation.",
       "options": [
         "generate-mcq-12",
-        "generate-mcq-11",
-        "generate-mcq-13",
-        "generate-mcq-10",
-        "generate-mcq-14",
-        "generate-mcq-09"
+        "generate-mcq-75",
+        "generate-mcq-18",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generated」指「引發爭議 reaction」。",
       "sentenceIndex": 26,
@@ -2719,12 +2621,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-12": "本句指「引發爭議 reaction」。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-09": "「引起興奮 reaction」與本句語境不同。"
+        "generate-mcq-12": "本句的「generated」指「引發爭議 reaction」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-12"
     },
@@ -2736,11 +2636,9 @@ export default {
       "masked": "The policy ____ widespread criticism.",
       "options": [
         "generate-mcq-13",
-        "generate-mcq-12",
-        "generate-mcq-14",
-        "generate-mcq-11",
-        "generate-mcq-15",
-        "generate-mcq-10"
+        "generate-mcq-54",
+        "generate-pdf-plain-091",
+        "generate-mcq-36"
       ],
       "explanation": "本句的「generated」指「招致批評 reaction」。",
       "sentenceIndex": 27,
@@ -2749,12 +2647,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-13": "本句指「招致批評 reaction」。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。"
+        "generate-mcq-13": "本句的「generated」指「招致批評 reaction」。",
+        "generate-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-13"
     },
@@ -2766,11 +2662,9 @@ export default {
       "masked": "The lack of transparency ____ criticism from employees.",
       "options": [
         "generate-mcq-13",
-        "generate-mcq-12",
-        "generate-mcq-14",
-        "generate-mcq-11",
-        "generate-mcq-15",
-        "generate-mcq-10"
+        "generate-mcq-86",
+        "generate-mcq-04",
+        "generate-mcq-35"
       ],
       "explanation": "本句的「generated」指「招致批評 reaction」。",
       "sentenceIndex": 28,
@@ -2779,12 +2673,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-13": "本句指「招致批評 reaction」。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-11": "「引起憂慮 reaction」與本句語境不同。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。",
-        "generate-mcq-10": "「激發熱情 reaction」與本句語境不同。"
+        "generate-mcq-13": "本句的「generated」指「招致批評 reaction」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-13"
     },
@@ -2796,11 +2688,9 @@ export default {
       "masked": "Unclear responsibilities can ____ conflict.",
       "options": [
         "generate-mcq-15",
-        "generate-mcq-14",
-        "generate-mcq-16",
-        "generate-mcq-13",
-        "generate-mcq-17",
-        "generate-mcq-12"
+        "generate-mcq-35",
+        "generate-mcq-86",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「造成衝突 negative result」。",
       "sentenceIndex": 31,
@@ -2809,12 +2699,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-15": "本句指「造成衝突 negative result」。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。"
+        "generate-mcq-15": "本句的「generate」指「造成衝突 negative result」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-15"
     },
@@ -2826,11 +2714,9 @@ export default {
       "masked": "Competition for resources ____ tension between departments.",
       "options": [
         "generate-mcq-15",
-        "generate-mcq-14",
-        "generate-mcq-16",
-        "generate-mcq-13",
-        "generate-mcq-17",
-        "generate-mcq-12"
+        "generate-mcq-75",
+        "generate-mcq-12",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generated」指「造成衝突 negative result」。",
       "sentenceIndex": 32,
@@ -2839,12 +2725,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-15": "本句指「造成衝突 negative result」。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-12": "「引發爭議 reaction」與本句語境不同。"
+        "generate-mcq-15": "本句的「generated」指「造成衝突 negative result」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-15"
     },
@@ -2856,11 +2740,9 @@ export default {
       "masked": "Tight deadlines ____ pressure.",
       "options": [
         "generate-mcq-16",
-        "generate-mcq-15",
-        "generate-mcq-17",
-        "generate-mcq-14",
-        "generate-mcq-18",
-        "generate-mcq-13"
+        "generate-mcq-77",
+        "generate-mcq-19",
+        "generate-mcq-10"
       ],
       "explanation": "本句的「generate」指「造成壓力 pressure」。",
       "sentenceIndex": 33,
@@ -2869,12 +2751,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-16": "本句指「造成壓力 pressure」。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。"
+        "generate-mcq-16": "本句的「generate」指「造成壓力 pressure」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-16"
     },
@@ -2886,11 +2766,9 @@ export default {
       "masked": "Public expectations ____ pressure on management.",
       "options": [
         "generate-mcq-16",
-        "generate-mcq-15",
-        "generate-mcq-17",
-        "generate-mcq-14",
-        "generate-mcq-18",
-        "generate-mcq-13"
+        "generate-mcq-34",
+        "generate-pdf-plain-091",
+        "generate-mcq-38"
       ],
       "explanation": "本句的「generated」指「造成壓力 pressure」。",
       "sentenceIndex": 34,
@@ -2899,12 +2777,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-16": "本句指「造成壓力 pressure」。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-13": "「招致批評 reaction」與本句語境不同。"
+        "generate-mcq-16": "本句的「generated」指「造成壓力 pressure」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-16"
     },
@@ -2916,11 +2792,9 @@ export default {
       "masked": "Early success ____ momentum for the project.",
       "options": [
         "generate-mcq-17",
-        "generate-mcq-16",
-        "generate-mcq-18",
-        "generate-mcq-15",
-        "generate-mcq-19",
-        "generate-mcq-14"
+        "generate-mcq-35",
+        "generate-mcq-75",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「形成勢頭 progress」。",
       "sentenceIndex": 35,
@@ -2929,12 +2803,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-17": "本句指「形成勢頭 progress」。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。"
+        "generate-mcq-17": "本句的「generated」指「形成勢頭 progress」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-17"
     },
@@ -2946,11 +2818,9 @@ export default {
       "masked": "The campaign needs a clear win to ____ momentum.",
       "options": [
         "generate-mcq-17",
-        "generate-mcq-16",
-        "generate-mcq-18",
-        "generate-mcq-15",
-        "generate-mcq-19",
-        "generate-mcq-14"
+        "generate-mcq-36",
+        "generate-mcq-86",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「形成勢頭 progress」。",
       "sentenceIndex": 36,
@@ -2959,12 +2829,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-17": "本句指「形成勢頭 progress」。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-14": "「引起討論 discourse」與本句語境不同。"
+        "generate-mcq-17": "本句的「generate」指「形成勢頭 progress」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-17"
     },
@@ -2976,11 +2844,9 @@ export default {
       "masked": "The new service ____ significant revenue.",
       "options": [
         "generate-mcq-18",
-        "generate-mcq-17",
-        "generate-mcq-19",
-        "generate-mcq-16",
-        "generate-mcq-20",
-        "generate-mcq-15"
+        "generate-mcq-12",
+        "generate-mcq-87",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generates」指「產生營收 business」。",
       "sentenceIndex": 37,
@@ -2989,12 +2855,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-18": "本句指「產生營收 business」。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。"
+        "generate-mcq-18": "本句的「generates」指「產生營收 business」。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-18"
     },
@@ -3006,11 +2870,9 @@ export default {
       "masked": "Advertising ____ most of the platform's revenue.",
       "options": [
         "generate-mcq-18",
-        "generate-mcq-17",
-        "generate-mcq-19",
-        "generate-mcq-16",
-        "generate-mcq-20",
-        "generate-mcq-15"
+        "generate-mcq-12",
+        "generate-mcq-13",
+        "generate-pdf-plain-091"
       ],
       "explanation": "本句的「generates」指「產生營收 business」。",
       "sentenceIndex": 38,
@@ -3019,12 +2881,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-18": "本句指「產生營收 business」。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-15": "「造成衝突 negative result」與本句語境不同。"
+        "generate-mcq-18": "本句的「generates」指「產生營收 business」。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-18"
     },
@@ -3036,11 +2896,9 @@ export default {
       "masked": "The company is exploring new revenue-____ opportunities.",
       "options": [
         "generate-mcq-19",
-        "generate-mcq-18",
-        "generate-mcq-20",
-        "generate-mcq-17",
-        "generate-mcq-21",
-        "generate-mcq-16"
+        "generate-mcq-47",
+        "generate-mcq-34",
+        "generate-mcq-84"
       ],
       "explanation": "本句的「generation」指「創收 business」。",
       "sentenceIndex": 39,
@@ -3049,12 +2907,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-19": "本句指「創收 business」。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。"
+        "generate-mcq-19": "本句的「generation」指「創收 business」。",
+        "generate-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-19"
     },
@@ -3066,11 +2922,9 @@ export default {
       "masked": "Revenue ____ is important for long-term sustainability.",
       "options": [
         "generate-mcq-19",
-        "generate-mcq-18",
-        "generate-mcq-20",
-        "generate-mcq-17",
-        "generate-mcq-21",
-        "generate-mcq-16"
+        "generate-mcq-01",
+        "generate-mcq-78",
+        "generate-mcq-38"
       ],
       "explanation": "本句的「generation」指「創收 business」。",
       "sentenceIndex": 40,
@@ -3079,12 +2933,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-19": "本句指「創收 business」。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-16": "「造成壓力 pressure」與本句語境不同。"
+        "generate-mcq-19": "本句的「generation」指「創收 business」。",
+        "generate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-19"
     },
@@ -3096,11 +2948,9 @@ export default {
       "masked": "The property ____ rental income.",
       "options": [
         "generate-mcq-20",
-        "generate-mcq-19",
-        "generate-mcq-21",
-        "generate-mcq-18",
-        "generate-mcq-22",
-        "generate-mcq-17"
+        "generate-mcq-84",
+        "generate-mcq-13",
+        "generate-mcq-27"
       ],
       "explanation": "本句的「generates」指「帶來收入 money」。",
       "sentenceIndex": 41,
@@ -3109,12 +2959,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-20": "本句指「帶來收入 money」。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。"
+        "generate-mcq-20": "本句的「generates」指「帶來收入 money」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-20"
     },
@@ -3126,11 +2974,9 @@ export default {
       "masked": "The investment is expected to ____ income.",
       "options": [
         "generate-mcq-20",
-        "generate-mcq-19",
-        "generate-mcq-21",
-        "generate-mcq-18",
-        "generate-mcq-22",
-        "generate-mcq-17"
+        "generate-mcq-10",
+        "generate-mcq-78",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「帶來收入 money」。",
       "sentenceIndex": 42,
@@ -3139,12 +2985,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-20": "本句指「帶來收入 money」。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-17": "「形成勢頭 progress」與本句語境不同。"
+        "generate-mcq-20": "本句的「generate」指「帶來收入 money」。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-20"
     },
@@ -3156,11 +3000,9 @@ export default {
       "masked": "The business has not yet ____ a profit.",
       "options": [
         "generate-mcq-21",
-        "generate-mcq-20",
-        "generate-mcq-22",
-        "generate-mcq-19",
-        "generate-mcq-23",
-        "generate-mcq-18"
+        "generate-mcq-77",
+        "generate-mcq-36",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「創造盈利 business」。",
       "sentenceIndex": 43,
@@ -3169,12 +3011,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-21": "本句指「創造盈利 business」。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。"
+        "generate-mcq-21": "本句的「generated」指「創造盈利 business」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-21"
     },
@@ -3186,11 +3026,9 @@ export default {
       "masked": "High sales do not always ____ high profits.",
       "options": [
         "generate-mcq-21",
-        "generate-mcq-20",
-        "generate-mcq-22",
-        "generate-mcq-19",
-        "generate-mcq-23",
-        "generate-mcq-18"
+        "generate-mcq-12",
+        "generate-mcq-86",
+        "generate-mcq-27"
       ],
       "explanation": "本句的「generate」指「創造盈利 business」。",
       "sentenceIndex": 44,
@@ -3199,12 +3037,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-21": "本句指「創造盈利 business」。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-18": "「產生營收 business」與本句語境不同。"
+        "generate-mcq-21": "本句的「generate」指「創造盈利 business」。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-21"
     },
@@ -3216,11 +3052,9 @@ export default {
       "masked": "The business ____ strong cash flow.",
       "options": [
         "generate-mcq-22",
-        "generate-mcq-21",
-        "generate-mcq-23",
-        "generate-mcq-20",
-        "generate-mcq-24",
-        "generate-mcq-19"
+        "generate-mcq-82",
+        "generate-mcq-36",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generates」指「產生現金流 finance」。",
       "sentenceIndex": 45,
@@ -3229,12 +3063,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-22": "本句指「產生現金流 finance」。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。"
+        "generate-mcq-22": "本句的「generates」指「產生現金流 finance」。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-22"
     },
@@ -3246,10 +3078,8 @@ export default {
       "masked": "The asset ____ cash every month.",
       "options": [
         "generate-mcq-22",
-        "generate-mcq-21",
-        "generate-mcq-23",
-        "generate-mcq-20",
-        "generate-mcq-24",
+        "generate-mcq-10",
+        "generate-mcq-86",
         "generate-mcq-19"
       ],
       "explanation": "本句的「generates」指「產生現金流 finance」。",
@@ -3259,12 +3089,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-22": "本句指「產生現金流 finance」。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-19": "「創收 business」與本句語境不同。"
+        "generate-mcq-22": "本句的「generates」指「產生現金流 finance」。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-22"
     },
@@ -3276,11 +3104,9 @@ export default {
       "masked": "The partnership should ____ value for both sides.",
       "options": [
         "generate-mcq-23",
-        "generate-mcq-22",
-        "generate-mcq-24",
-        "generate-mcq-21",
-        "generate-mcq-25",
-        "generate-mcq-20"
+        "generate-mcq-36",
+        "generate-mcq-77",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「創造價值 business」。",
       "sentenceIndex": 47,
@@ -3289,12 +3115,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-23": "本句指「創造價值 business」。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。"
+        "generate-mcq-23": "本句的「generate」指「創造價值 business」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-23"
     },
@@ -3306,11 +3130,9 @@ export default {
       "masked": "Efficient processes ____ value by reducing waste.",
       "options": [
         "generate-mcq-23",
-        "generate-mcq-22",
-        "generate-mcq-24",
-        "generate-mcq-21",
-        "generate-mcq-25",
-        "generate-mcq-20"
+        "generate-mcq-38",
+        "generate-mcq-82",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「創造價值 business」。",
       "sentenceIndex": 48,
@@ -3319,12 +3141,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-23": "本句指「創造價值 business」。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-20": "「帶來收入 money」與本句語境不同。"
+        "generate-mcq-23": "本句的「generate」指「創造價值 business」。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-23"
     },
@@ -3336,11 +3156,9 @@ export default {
       "masked": "The investment ____ strong returns.",
       "options": [
         "generate-mcq-24",
-        "generate-mcq-23",
-        "generate-mcq-25",
-        "generate-mcq-22",
-        "generate-mcq-26",
-        "generate-mcq-21"
+        "generate-mcq-19",
+        "generate-mcq-86",
+        "generate-mcq-38"
       ],
       "explanation": "本句的「generated」指「產生回報 investment」。",
       "sentenceIndex": 49,
@@ -3349,12 +3167,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-24": "本句指「產生回報 investment」。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。"
+        "generate-mcq-24": "本句的「generated」指「產生回報 investment」。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-24"
     },
@@ -3366,11 +3182,9 @@ export default {
       "masked": "Assets should ____ an appropriate return relative to risk.",
       "options": [
         "generate-mcq-24",
-        "generate-mcq-23",
-        "generate-mcq-25",
-        "generate-mcq-22",
-        "generate-mcq-26",
-        "generate-mcq-21"
+        "generate-mcq-19",
+        "generate-mcq-36",
+        "generate-mcq-82"
       ],
       "explanation": "本句的「generate」指「產生回報 investment」。",
       "sentenceIndex": 50,
@@ -3379,12 +3193,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-24": "本句指「產生回報 investment」。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-21": "「創造盈利 business」與本句語境不同。"
+        "generate-mcq-24": "本句的「generate」指「產生回報 investment」。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-24"
     },
@@ -3396,11 +3208,9 @@ export default {
       "masked": "The campaign ____ additional sales.",
       "options": [
         "generate-mcq-25",
-        "generate-mcq-24",
-        "generate-mcq-26",
-        "generate-mcq-23",
-        "generate-mcq-27",
-        "generate-mcq-22"
+        "generate-mcq-87",
+        "generate-mcq-13",
+        "generate-mcq-28"
       ],
       "explanation": "本句的「generated」指「帶來銷售 sales」。",
       "sentenceIndex": 51,
@@ -3409,12 +3219,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-25": "本句指「帶來銷售 sales」。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。"
+        "generate-mcq-25": "本句的「generated」指「帶來銷售 sales」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-25"
     },
@@ -3426,11 +3234,9 @@ export default {
       "masked": "Discounts may ____ short-term sales.",
       "options": [
         "generate-mcq-25",
-        "generate-mcq-24",
-        "generate-mcq-26",
-        "generate-mcq-23",
-        "generate-mcq-27",
-        "generate-mcq-22"
+        "generate-mcq-36",
+        "generate-pdf-plain-080",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「帶來銷售 sales」。",
       "sentenceIndex": 52,
@@ -3439,12 +3245,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-25": "本句指「帶來銷售 sales」。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-22": "「產生現金流 finance」與本句語境不同。"
+        "generate-mcq-25": "本句的「generate」指「帶來銷售 sales」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-080": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-25"
     },
@@ -3456,11 +3260,9 @@ export default {
       "masked": "Effective marketing can ____ demand.",
       "options": [
         "generate-mcq-26",
-        "generate-mcq-25",
-        "generate-mcq-27",
-        "generate-mcq-24",
-        "generate-mcq-28",
-        "generate-mcq-23"
+        "generate-mcq-35",
+        "generate-pdf-plain-091",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「創造／刺激需求 marketing」。",
       "sentenceIndex": 53,
@@ -3469,12 +3271,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-26": "本句指「創造／刺激需求 marketing」。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。"
+        "generate-mcq-26": "本句的「generate」指「創造／刺激需求 marketing」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-26"
     },
@@ -3486,11 +3286,9 @@ export default {
       "masked": "The launch ____ strong demand for the product.",
       "options": [
         "generate-mcq-26",
-        "generate-mcq-25",
-        "generate-mcq-27",
-        "generate-mcq-24",
-        "generate-mcq-28",
-        "generate-mcq-23"
+        "generate-mcq-77",
+        "generate-mcq-36",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「創造／刺激需求 marketing」。",
       "sentenceIndex": 54,
@@ -3499,12 +3297,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-26": "本句指「創造／刺激需求 marketing」。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-23": "「創造價值 business」與本句語境不同。"
+        "generate-mcq-26": "本句的「generated」指「創造／刺激需求 marketing」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-26"
     },
@@ -3516,11 +3312,9 @@ export default {
       "masked": "The campaign ____ hundreds of leads.",
       "options": [
         "generate-mcq-27",
-        "generate-mcq-26",
-        "generate-mcq-28",
-        "generate-mcq-25",
-        "generate-mcq-29",
-        "generate-mcq-24"
+        "generate-mcq-03",
+        "generate-mcq-13",
+        "generate-mcq-86"
       ],
       "explanation": "本句的「generated」指「開發潛在客戶 sales」。",
       "sentenceIndex": 55,
@@ -3529,12 +3323,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-27": "本句指「開發潛在客戶 sales」。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。"
+        "generate-mcq-27": "本句的「generated」指「開發潛在客戶 sales」。",
+        "generate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-27"
     },
@@ -3546,11 +3338,9 @@ export default {
       "masked": "Content marketing can help ____ leads.",
       "options": [
         "generate-mcq-27",
-        "generate-mcq-26",
-        "generate-mcq-28",
-        "generate-mcq-25",
-        "generate-mcq-29",
-        "generate-mcq-24"
+        "generate-mcq-51",
+        "generate-mcq-75",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「開發潛在客戶 sales」。",
       "sentenceIndex": 56,
@@ -3559,12 +3349,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-27": "本句指「開發潛在客戶 sales」。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-24": "「產生回報 investment」與本句語境不同。"
+        "generate-mcq-27": "本句的「generate」指「開發潛在客戶 sales」。",
+        "generate-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-27"
     },
@@ -3576,11 +3364,9 @@ export default {
       "masked": "The website is an important lead-____ tool.",
       "options": [
         "generate-mcq-28",
-        "generate-mcq-27",
-        "generate-mcq-29",
-        "generate-mcq-26",
-        "generate-mcq-30",
-        "generate-mcq-25"
+        "generate-mcq-06",
+        "generate-mcq-77",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generation」指「潛在客戶開發 marketing」。",
       "sentenceIndex": 57,
@@ -3589,12 +3375,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-28": "本句指「潛在客戶開發 marketing」。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。"
+        "generate-mcq-28": "本句的「generation」指「潛在客戶開發 marketing」。",
+        "generate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-28"
     },
@@ -3606,11 +3390,9 @@ export default {
       "masked": "Lead ____ is one function of digital marketing.",
       "options": [
         "generate-mcq-28",
-        "generate-mcq-27",
-        "generate-mcq-29",
-        "generate-mcq-26",
-        "generate-mcq-30",
-        "generate-mcq-25"
+        "generate-mcq-76",
+        "generate-mcq-53",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「潛在客戶開發 marketing」。",
       "sentenceIndex": 58,
@@ -3619,12 +3401,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-28": "本句指「潛在客戶開發 marketing」。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-25": "「帶來銷售 sales」與本句語境不同。"
+        "generate-mcq-28": "本句的「generation」指「潛在客戶開發 marketing」。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-28"
     },
@@ -3636,11 +3416,9 @@ export default {
       "masked": "Social media can ____ traffic to the website.",
       "options": [
         "generate-mcq-29",
-        "generate-mcq-28",
-        "generate-mcq-30",
-        "generate-mcq-27",
-        "generate-mcq-31",
-        "generate-mcq-26"
+        "generate-mcq-19",
+        "generate-mcq-77",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「帶來流量／人流 marketing」。",
       "sentenceIndex": 59,
@@ -3649,12 +3427,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-29": "本句指「帶來流量／人流 marketing」。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。"
+        "generate-mcq-29": "本句的「generate」指「帶來流量／人流 marketing」。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-29"
     },
@@ -3666,11 +3442,9 @@ export default {
       "masked": "The promotion ____ heavy foot traffic.",
       "options": [
         "generate-mcq-29",
-        "generate-mcq-28",
-        "generate-mcq-30",
+        "generate-mcq-77",
         "generate-mcq-27",
-        "generate-mcq-31",
-        "generate-mcq-26"
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「帶來流量／人流 marketing」。",
       "sentenceIndex": 60,
@@ -3679,12 +3453,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-29": "本句指「帶來流量／人流 marketing」。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-26": "「創造／刺激需求 marketing」與本句語境不同。"
+        "generate-mcq-29": "本句的「generated」指「帶來流量／人流 marketing」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-29"
     },
@@ -3696,11 +3468,9 @@ export default {
       "masked": "The event ____ considerable publicity.",
       "options": [
         "generate-mcq-30",
-        "generate-mcq-29",
-        "generate-mcq-31",
-        "generate-mcq-28",
-        "generate-mcq-32",
-        "generate-mcq-27"
+        "generate-mcq-13",
+        "generate-pdf-plain-080",
+        "generate-mcq-10"
       ],
       "explanation": "本句的「generated」指「帶來宣傳效果 media」。",
       "sentenceIndex": 61,
@@ -3709,12 +3479,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-30": "本句指「帶來宣傳效果 media」。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。"
+        "generate-mcq-30": "本句的「generated」指「帶來宣傳效果 media」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-080": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-30"
     },
@@ -3726,11 +3494,9 @@ export default {
       "masked": "Controversy sometimes ____ free publicity.",
       "options": [
         "generate-mcq-30",
-        "generate-mcq-29",
-        "generate-mcq-31",
-        "generate-mcq-28",
-        "generate-mcq-32",
-        "generate-mcq-27"
+        "generate-mcq-19",
+        "generate-mcq-78",
+        "generate-mcq-38"
       ],
       "explanation": "本句的「generates」指「帶來宣傳效果 media」。",
       "sentenceIndex": 62,
@@ -3739,12 +3505,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-30": "本句指「帶來宣傳效果 media」。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-27": "「開發潛在客戶 sales」與本句語境不同。"
+        "generate-mcq-30": "本句的「generates」指「帶來宣傳效果 media」。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-30"
     },
@@ -3756,11 +3520,9 @@ export default {
       "masked": "Referrals ____ a lot of business for the firm.",
       "options": [
         "generate-mcq-31",
-        "generate-mcq-30",
-        "generate-mcq-32",
-        "generate-mcq-29",
-        "generate-mcq-33",
-        "generate-mcq-28"
+        "generate-mcq-27",
+        "generate-mcq-82",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「帶來生意 commerce」。",
       "sentenceIndex": 63,
@@ -3769,12 +3531,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-31": "本句指「帶來生意 commerce」。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。"
+        "generate-mcq-31": "本句的「generate」指「帶來生意 commerce」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-31"
     },
@@ -3786,11 +3546,9 @@ export default {
       "masked": "The conference ____ new business opportunities.",
       "options": [
         "generate-mcq-31",
-        "generate-mcq-30",
-        "generate-mcq-32",
-        "generate-mcq-29",
-        "generate-mcq-33",
-        "generate-mcq-28"
+        "generate-mcq-86",
+        "generate-mcq-28",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「帶來生意 commerce」。",
       "sentenceIndex": 64,
@@ -3799,12 +3557,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-31": "本句指「帶來生意 commerce」。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-28": "「潛在客戶開發 marketing」與本句語境不同。"
+        "generate-mcq-31": "本句的「generated」指「帶來生意 commerce」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-31"
     },
@@ -3816,11 +3572,9 @@ export default {
       "masked": "The project is expected to ____ hundreds of jobs.",
       "options": [
         "generate-mcq-32",
-        "generate-mcq-31",
-        "generate-mcq-33",
-        "generate-mcq-30",
-        "generate-mcq-34",
-        "generate-mcq-29"
+        "generate-mcq-77",
+        "generate-mcq-28",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「創造職位 economy」。",
       "sentenceIndex": 65,
@@ -3829,12 +3583,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-32": "本句指「創造職位 economy」。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。"
+        "generate-mcq-32": "本句的「generate」指「創造職位 economy」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-32"
     },
@@ -3846,11 +3598,9 @@ export default {
       "masked": "New industries can ____ employment.",
       "options": [
         "generate-mcq-32",
-        "generate-mcq-31",
-        "generate-mcq-33",
-        "generate-mcq-30",
+        "generate-mcq-82",
         "generate-mcq-34",
-        "generate-mcq-29"
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generate」指「創造職位 economy」。",
       "sentenceIndex": 66,
@@ -3859,12 +3609,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-32": "本句指「創造職位 economy」。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-29": "「帶來流量／人流 marketing」與本句語境不同。"
+        "generate-mcq-32": "本句的「generate」指「創造職位 economy」。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-32"
     },
@@ -3876,11 +3624,9 @@ export default {
       "masked": "Tourism ____ employment in many sectors.",
       "options": [
         "generate-mcq-33",
-        "generate-mcq-32",
         "generate-mcq-34",
-        "generate-mcq-31",
-        "generate-mcq-35",
-        "generate-mcq-30"
+        "generate-mcq-12",
+        "generate-mcq-84"
       ],
       "explanation": "本句的「generates」指「創造就業 economy」。",
       "sentenceIndex": 67,
@@ -3889,12 +3635,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-33": "本句指「創造就業 economy」。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-35": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。"
+        "generate-mcq-33": "本句的「generates」指「創造就業 economy」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-33"
     },
@@ -3906,11 +3650,9 @@ export default {
       "masked": "Investment can ____ local employment.",
       "options": [
         "generate-mcq-33",
-        "generate-mcq-32",
-        "generate-mcq-34",
-        "generate-mcq-31",
-        "generate-mcq-35",
-        "generate-mcq-30"
+        "generate-mcq-78",
+        "generate-mcq-28",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「創造就業 economy」。",
       "sentenceIndex": 68,
@@ -3919,12 +3661,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-33": "本句指「創造就業 economy」。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-35": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-30": "「帶來宣傳效果 media」與本句語境不同。"
+        "generate-mcq-33": "本句的「generate」指「創造就業 economy」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-33"
     },
@@ -3936,11 +3676,9 @@ export default {
       "masked": "Innovation can ____ growth.",
       "options": [
         "generate-mcq-34",
-        "generate-mcq-33",
-        "generate-mcq-35",
-        "generate-mcq-32",
-        "generate-mcq-31",
-        "generate-mcq-37"
+        "generate-mcq-52",
+        "generate-mcq-19",
+        "generate-mcq-78"
       ],
       "explanation": "本句的「generate」指「帶動增長 economy」。",
       "sentenceIndex": 71,
@@ -3949,12 +3687,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-34": "本句指「帶動增長 economy」。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-35": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。"
+        "generate-mcq-34": "本句的「generate」指「帶動增長 economy」。",
+        "generate-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-34"
     },
@@ -3966,11 +3702,9 @@ export default {
       "masked": "The strategy failed to ____ sustainable growth.",
       "options": [
         "generate-mcq-34",
-        "generate-mcq-33",
-        "generate-mcq-35",
-        "generate-mcq-32",
-        "generate-mcq-31",
-        "generate-mcq-37"
+        "generate-mcq-49",
+        "generate-mcq-82",
+        "generate-mcq-10"
       ],
       "explanation": "本句的「generate」指「帶動增長 economy」。",
       "sentenceIndex": 72,
@@ -3979,12 +3713,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-34": "本句指「帶動增長 economy」。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-35": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-31": "「帶來生意 commerce」與本句語境不同。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。"
+        "generate-mcq-34": "本句的「generate」指「帶動增長 economy」。",
+        "generate-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-34"
     },
@@ -3996,11 +3728,9 @@ export default {
       "masked": "Solar panels ____ electricity from sunlight.",
       "options": [
         "generate-mcq-35",
-        "generate-mcq-34",
-        "generate-mcq-33",
-        "generate-mcq-37",
-        "generate-mcq-32",
-        "generate-mcq-38"
+        "generate-mcq-50",
+        "generate-mcq-87",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「發電 electricity」。",
       "sentenceIndex": 73,
@@ -4009,12 +3739,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-35": "本句指「發電 electricity」。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。"
+        "generate-mcq-35": "本句的「generate」指「發電 electricity」。",
+        "generate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-35"
     },
@@ -4026,11 +3754,9 @@ export default {
       "masked": "The plant ____ enough electricity for thousands of homes.",
       "options": [
         "generate-mcq-35",
-        "generate-mcq-34",
-        "generate-mcq-33",
-        "generate-mcq-37",
-        "generate-mcq-32",
-        "generate-mcq-38"
+        "generate-mcq-02",
+        "generate-mcq-77",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generates」指「發電 electricity」。",
       "sentenceIndex": 74,
@@ -4039,12 +3765,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-35": "本句指「發電 electricity」。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-32": "「創造職位 economy」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。"
+        "generate-mcq-35": "本句的「generates」指「發電 electricity」。",
+        "generate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-35"
     },
@@ -4056,11 +3780,9 @@ export default {
       "masked": "Wind plays a growing role in electricity ____.",
       "options": [
         "generate-mcq-36",
-        "generate-mcq-37",
-        "generate-mcq-34",
-        "generate-mcq-38",
-        "generate-mcq-33",
-        "generate-mcq-39"
+        "generate-mcq-31",
+        "generate-mcq-77",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「發電 electricity」。",
       "sentenceIndex": 75,
@@ -4069,12 +3791,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-36": "本句指「發電 electricity」。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。"
+        "generate-mcq-36": "本句的「generation」指「發電 electricity」。",
+        "generate-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-36"
     },
@@ -4086,11 +3806,9 @@ export default {
       "masked": "Electricity ____ produces different environmental impacts depending on the source.",
       "options": [
         "generate-mcq-36",
-        "generate-mcq-37",
+        "generate-mcq-50",
         "generate-mcq-34",
-        "generate-mcq-38",
-        "generate-mcq-33",
-        "generate-mcq-39"
+        "generate-mcq-75"
       ],
       "explanation": "本句的「generation」指「發電 electricity」。",
       "sentenceIndex": 76,
@@ -4099,12 +3817,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-36": "本句指「發電 electricity」。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。",
-        "generate-mcq-33": "「創造就業 economy」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。"
+        "generate-mcq-36": "本句的「generation」指「發電 electricity」。",
+        "generate-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-36"
     },
@@ -4116,11 +3832,9 @@ export default {
       "masked": "The turbines ____ power.",
       "options": [
         "generate-mcq-37",
-        "generate-mcq-36",
-        "generate-mcq-38",
-        "generate-mcq-39",
-        "generate-mcq-34",
-        "generate-mcq-40"
+        "generate-mcq-75",
+        "generate-mcq-28",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generate」指「產生電力／動力 energy」。",
       "sentenceIndex": 77,
@@ -4129,12 +3843,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-37": "本句指「產生電力／動力 energy」。",
-        "generate-mcq-36": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。"
+        "generate-mcq-37": "本句的「generate」指「產生電力／動力 energy」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-37"
     },
@@ -4146,11 +3858,9 @@ export default {
       "masked": "The engine ____ enough power to move the vehicle.",
       "options": [
         "generate-mcq-37",
-        "generate-mcq-36",
-        "generate-mcq-38",
-        "generate-mcq-39",
-        "generate-mcq-34",
-        "generate-mcq-40"
+        "generate-mcq-77",
+        "generate-mcq-27",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generates」指「產生電力／動力 energy」。",
       "sentenceIndex": 78,
@@ -4159,12 +3869,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-37": "本句指「產生電力／動力 energy」。",
-        "generate-mcq-36": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-34": "「帶動增長 economy」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。"
+        "generate-mcq-37": "本句的「generates」指「產生電力／動力 energy」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-37"
     },
@@ -4176,11 +3884,9 @@ export default {
       "masked": "The building has a backup ____.",
       "options": [
         "generate-mcq-38",
-        "generate-mcq-37",
-        "generate-mcq-39",
-        "generate-mcq-36",
-        "generate-mcq-40",
-        "generate-mcq-41"
+        "generate-mcq-63",
+        "generate-mcq-82",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generator」指「發電機 machine」。",
       "sentenceIndex": 81,
@@ -4189,12 +3895,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-38": "本句指「發電機 machine」。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-36": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。"
+        "generate-mcq-38": "本句的「generator」指「發電機 machine」。",
+        "generate-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-38"
     },
@@ -4206,11 +3910,9 @@ export default {
       "masked": "The ____ started automatically during the outage.",
       "options": [
         "generate-mcq-38",
-        "generate-mcq-37",
-        "generate-mcq-39",
-        "generate-mcq-36",
-        "generate-mcq-40",
-        "generate-mcq-41"
+        "generate-mcq-87",
+        "generate-mcq-23",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generator」指「發電機 machine」。",
       "sentenceIndex": 82,
@@ -4219,12 +3921,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-38": "本句指「發電機 machine」。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-36": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。"
+        "generate-mcq-38": "本句的「generator」指「發電機 machine」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-38"
     },
@@ -4236,11 +3936,9 @@ export default {
       "masked": "The motor ____ heat during operation.",
       "options": [
         "generate-mcq-40",
-        "generate-mcq-39",
-        "generate-mcq-41",
-        "generate-mcq-38",
-        "generate-mcq-42",
-        "generate-mcq-37"
+        "generate-mcq-27",
+        "generate-pdf-plain-091",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generates」指「產生熱力 physics」。",
       "sentenceIndex": 85,
@@ -4249,12 +3947,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-40": "本句指「產生熱力 physics」。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。"
+        "generate-mcq-40": "本句的「generates」指「產生熱力 physics」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-40"
     },
@@ -4266,11 +3962,9 @@ export default {
       "masked": "Friction ____ heat.",
       "options": [
         "generate-mcq-40",
-        "generate-mcq-39",
-        "generate-mcq-41",
-        "generate-mcq-38",
-        "generate-mcq-42",
-        "generate-mcq-37"
+        "generate-mcq-28",
+        "generate-mcq-34",
+        "generate-pdf-plain-091"
       ],
       "explanation": "本句的「generates」指「產生熱力 physics」。",
       "sentenceIndex": 86,
@@ -4279,12 +3973,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-40": "本句指「產生熱力 physics」。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。"
+        "generate-mcq-40": "本句的「generates」指「產生熱力 physics」。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-40"
     },
@@ -4296,11 +3988,9 @@ export default {
       "masked": "The device ____ light using LEDs.",
       "options": [
         "generate-mcq-41",
-        "generate-mcq-40",
-        "generate-mcq-42",
-        "generate-mcq-39",
-        "generate-mcq-43",
-        "generate-mcq-38"
+        "generate-mcq-84",
+        "generate-mcq-36",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generates」指「產生光 physics」。",
       "sentenceIndex": 87,
@@ -4309,12 +3999,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-41": "本句指「產生光 physics」。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。"
+        "generate-mcq-41": "本句的「generates」指「產生光 physics」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-41"
     },
@@ -4326,11 +4014,9 @@ export default {
       "masked": "Stars ____ enormous amounts of light.",
       "options": [
         "generate-mcq-41",
-        "generate-mcq-40",
-        "generate-mcq-42",
-        "generate-mcq-39",
-        "generate-mcq-43",
-        "generate-mcq-38"
+        "generate-mcq-36",
+        "generate-mcq-19",
+        "generate-mcq-87"
       ],
       "explanation": "本句的「generate」指「產生光 physics」。",
       "sentenceIndex": 88,
@@ -4339,12 +4025,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-41": "本句指「產生光 physics」。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。",
-        "generate-mcq-38": "「發電機 machine」與本句語境不同。"
+        "generate-mcq-41": "本句的「generate」指「產生光 physics」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-41"
     },
@@ -4356,11 +4040,9 @@ export default {
       "masked": "The speaker ____ sound by vibrating.",
       "options": [
         "generate-mcq-42",
-        "generate-mcq-41",
-        "generate-mcq-43",
-        "generate-mcq-40",
-        "generate-mcq-44",
-        "generate-mcq-39"
+        "generate-mcq-75",
+        "generate-mcq-10",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generates」指「產生聲音 physics」。",
       "sentenceIndex": 89,
@@ -4369,12 +4051,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-42": "本句指「產生聲音 physics」。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。"
+        "generate-mcq-42": "本句的「generates」指「產生聲音 physics」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-42"
     },
@@ -4386,11 +4066,9 @@ export default {
       "masked": "The machine ____ a high-pitched sound.",
       "options": [
         "generate-mcq-42",
-        "generate-mcq-41",
-        "generate-mcq-43",
-        "generate-mcq-40",
-        "generate-mcq-44",
-        "generate-mcq-39"
+        "generate-mcq-36",
+        "generate-mcq-19",
+        "generate-mcq-75"
       ],
       "explanation": "本句的「generates」指「產生聲音 physics」。",
       "sentenceIndex": 90,
@@ -4399,12 +4077,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-42": "本句指「產生聲音 physics」。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。"
+        "generate-mcq-42": "本句的「generates」指「產生聲音 physics」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-42"
     },
@@ -4416,11 +4092,9 @@ export default {
       "masked": "Muscles ____ force when they contract.",
       "options": [
         "generate-mcq-43",
-        "generate-mcq-42",
-        "generate-mcq-44",
-        "generate-mcq-41",
-        "generate-mcq-45",
-        "generate-mcq-40"
+        "generate-mcq-75",
+        "generate-mcq-38",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「產生力量 mechanics」。",
       "sentenceIndex": 91,
@@ -4429,12 +4103,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-43": "本句指「產生力量 mechanics」。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。"
+        "generate-mcq-43": "本句的「generate」指「產生力量 mechanics」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-43"
     },
@@ -4446,11 +4118,9 @@ export default {
       "masked": "The mechanism ____ considerable force.",
       "options": [
         "generate-mcq-43",
-        "generate-mcq-42",
-        "generate-mcq-44",
-        "generate-mcq-41",
-        "generate-mcq-45",
-        "generate-mcq-40"
+        "generate-mcq-34",
+        "generate-mcq-84",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generates」指「產生力量 mechanics」。",
       "sentenceIndex": 92,
@@ -4459,12 +4129,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-43": "本句指「產生力量 mechanics」。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。"
+        "generate-mcq-43": "本句的「generates」指「產生力量 mechanics」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-43"
     },
@@ -4476,11 +4144,9 @@ export default {
       "masked": "The pump ____ pressure in the system.",
       "options": [
         "generate-mcq-44",
-        "generate-mcq-43",
-        "generate-mcq-45",
-        "generate-mcq-42",
-        "generate-mcq-46",
-        "generate-mcq-41"
+        "generate-mcq-84",
+        "generate-mcq-10",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generates」指「產生壓力 physics」。",
       "sentenceIndex": 93,
@@ -4489,12 +4155,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-44": "本句指「產生壓力 physics」。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。"
+        "generate-mcq-44": "本句的「generates」指「產生壓力 physics」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-44"
     },
@@ -4506,11 +4170,9 @@ export default {
       "masked": "Combustion ____ high pressure.",
       "options": [
         "generate-mcq-44",
-        "generate-mcq-43",
-        "generate-mcq-45",
-        "generate-mcq-42",
-        "generate-mcq-46",
-        "generate-mcq-41"
+        "generate-pdf-plain-091",
+        "generate-mcq-10",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generates」指「產生壓力 physics」。",
       "sentenceIndex": 94,
@@ -4519,12 +4181,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-44": "本句指「產生壓力 physics」。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-42": "「產生聲音 physics」與本句語境不同。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。"
+        "generate-mcq-44": "本句的「generates」指「產生壓力 physics」。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-44"
     },
@@ -4536,11 +4196,9 @@ export default {
       "masked": "The sensor ____ an electrical signal.",
       "options": [
         "generate-mcq-46",
-        "generate-mcq-45",
-        "generate-mcq-47",
-        "generate-mcq-44",
-        "generate-mcq-48",
-        "generate-mcq-43"
+        "generate-mcq-28",
+        "generate-mcq-19",
+        "generate-mcq-77"
       ],
       "explanation": "本句的「generates」指「產生訊號 electronics」。",
       "sentenceIndex": 97,
@@ -4549,12 +4207,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-46": "本句指「產生訊號 electronics」。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。"
+        "generate-mcq-46": "本句的「generates」指「產生訊號 electronics」。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-46"
     },
@@ -4566,11 +4222,9 @@ export default {
       "masked": "The device ____ a signal at a fixed frequency.",
       "options": [
         "generate-mcq-46",
-        "generate-mcq-45",
-        "generate-mcq-47",
-        "generate-mcq-44",
-        "generate-mcq-48",
-        "generate-mcq-43"
+        "generate-mcq-38",
+        "generate-mcq-13",
+        "generate-mcq-77"
       ],
       "explanation": "本句的「generates」指「產生訊號 electronics」。",
       "sentenceIndex": 98,
@@ -4579,12 +4233,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-46": "本句指「產生訊號 electronics」。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-43": "「產生力量 mechanics」與本句語境不同。"
+        "generate-mcq-46": "本句的「generates」指「產生訊號 electronics」。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-46"
     },
@@ -4596,11 +4248,9 @@ export default {
       "masked": "The engineer connected a signal ____.",
       "options": [
         "generate-mcq-47",
-        "generate-mcq-46",
-        "generate-mcq-48",
-        "generate-mcq-45",
-        "generate-mcq-49",
-        "generate-mcq-44"
+        "generate-mcq-38",
+        "generate-mcq-84",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generator」指「訊號產生器 electronics」。",
       "sentenceIndex": 99,
@@ -4609,12 +4259,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-47": "本句指「訊號產生器 electronics」。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。"
+        "generate-mcq-47": "本句的「generator」指「訊號產生器 electronics」。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-47"
     },
@@ -4626,11 +4274,9 @@ export default {
       "masked": "Signal ____ are used to test electronic systems.",
       "options": [
         "generate-mcq-47",
-        "generate-mcq-46",
-        "generate-mcq-48",
-        "generate-mcq-45",
-        "generate-mcq-49",
-        "generate-mcq-44"
+        "generate-mcq-27",
+        "generate-mcq-34",
+        "generate-mcq-82"
       ],
       "explanation": "本句的「generators」指「訊號產生器 electronics」。",
       "sentenceIndex": 100,
@@ -4639,12 +4285,10 @@ export default {
         "generators"
       ],
       "optionReasons": {
-        "generate-mcq-47": "本句指「訊號產生器 electronics」。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-44": "「產生壓力 physics」與本句語境不同。"
+        "generate-mcq-47": "本句的「generators」指「訊號產生器 electronics」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-47"
     },
@@ -4656,11 +4300,9 @@ export default {
       "masked": "A function ____ can produce different waveforms.",
       "options": [
         "generate-mcq-48",
-        "generate-mcq-47",
-        "generate-mcq-49",
-        "generate-mcq-46",
-        "generate-mcq-50",
-        "generate-mcq-45"
+        "generate-mcq-86",
+        "generate-mcq-38",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generator」指「波形／函數產生器 electronics」。",
       "sentenceIndex": 101,
@@ -4669,12 +4311,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-48": "本句指「波形／函數產生器 electronics」。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。"
+        "generate-mcq-48": "本句的「generator」指「波形／函數產生器 electronics」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-48"
     },
@@ -4686,11 +4326,9 @@ export default {
       "masked": "The laboratory uses a function ____ for circuit testing.",
       "options": [
         "generate-mcq-48",
-        "generate-mcq-47",
-        "generate-mcq-49",
-        "generate-mcq-46",
-        "generate-mcq-50",
-        "generate-mcq-45"
+        "generate-mcq-78",
+        "generate-mcq-28",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generator」指「波形／函數產生器 electronics」。",
       "sentenceIndex": 102,
@@ -4699,12 +4337,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-48": "本句指「波形／函數產生器 electronics」。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-45": "「產生場 physics」與本句語境不同。"
+        "generate-mcq-48": "本句的「generator」指「波形／函數產生器 electronics」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-48"
     },
@@ -4716,11 +4352,9 @@ export default {
       "masked": "The experiment ____ a large amount of data.",
       "options": [
         "generate-mcq-49",
-        "generate-mcq-48",
-        "generate-mcq-50",
-        "generate-mcq-47",
-        "generate-mcq-51",
-        "generate-mcq-46"
+        "generate-mcq-10",
+        "generate-mcq-86",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generated」指「產生數據 information」。",
       "sentenceIndex": 103,
@@ -4729,12 +4363,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-49": "本句指「產生數據 information」。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。"
+        "generate-mcq-49": "本句的「generated」指「產生數據 information」。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-49"
     },
@@ -4746,11 +4378,9 @@ export default {
       "masked": "Sensors ____ data continuously.",
       "options": [
         "generate-mcq-49",
-        "generate-mcq-48",
-        "generate-mcq-50",
-        "generate-mcq-47",
-        "generate-mcq-51",
-        "generate-mcq-46"
+        "generate-mcq-27",
+        "generate-mcq-84",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generate」指「產生數據 information」。",
       "sentenceIndex": 104,
@@ -4759,12 +4389,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-49": "本句指「產生數據 information」。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-46": "「產生訊號 electronics」與本句語境不同。"
+        "generate-mcq-49": "本句的「generate」指「產生數據 information」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-49"
     },
@@ -4776,11 +4404,9 @@ export default {
       "masked": "The survey ____ useful information.",
       "options": [
         "generate-mcq-50",
-        "generate-mcq-49",
-        "generate-mcq-51",
-        "generate-mcq-48",
-        "generate-mcq-52",
-        "generate-mcq-47"
+        "generate-mcq-87",
+        "generate-mcq-28",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「產生資訊 information」。",
       "sentenceIndex": 105,
@@ -4789,12 +4415,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-50": "本句指「產生資訊 information」。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。"
+        "generate-mcq-50": "本句的「generated」指「產生資訊 information」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-50"
     },
@@ -4806,11 +4430,9 @@ export default {
       "masked": "The system ____ information for managers.",
       "options": [
         "generate-mcq-50",
-        "generate-mcq-49",
-        "generate-mcq-51",
-        "generate-mcq-48",
-        "generate-mcq-52",
-        "generate-mcq-47"
+        "generate-mcq-87",
+        "generate-mcq-38",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generates」指「產生資訊 information」。",
       "sentenceIndex": 106,
@@ -4819,12 +4441,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-50": "本句指「產生資訊 information」。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-47": "「訊號產生器 electronics」與本句語境不同。"
+        "generate-mcq-50": "本句的「generates」指「產生資訊 information」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-50"
     },
@@ -4836,11 +4456,9 @@ export default {
       "masked": "The system can ____ a monthly report.",
       "options": [
         "generate-mcq-51",
-        "generate-mcq-50",
-        "generate-mcq-52",
-        "generate-mcq-49",
-        "generate-mcq-53",
-        "generate-mcq-48"
+        "generate-mcq-86",
+        "generate-mcq-34",
+        "generate-mcq-27"
       ],
       "explanation": "本句的「generate」指「生成報告 computing」。",
       "sentenceIndex": 109,
@@ -4849,12 +4467,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-51": "本句指「生成報告 computing」。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。"
+        "generate-mcq-51": "本句的「generate」指「生成報告 computing」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-51"
     },
@@ -4866,11 +4482,9 @@ export default {
       "masked": "Click here to ____ the report.",
       "options": [
         "generate-mcq-51",
-        "generate-mcq-50",
-        "generate-mcq-52",
-        "generate-mcq-49",
-        "generate-mcq-53",
-        "generate-mcq-48"
+        "generate-mcq-82",
+        "generate-mcq-27",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generate」指「生成報告 computing」。",
       "sentenceIndex": 110,
@@ -4879,12 +4493,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-51": "本句指「生成報告 computing」。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-48": "「波形／函數產生器 electronics」與本句語境不同。"
+        "generate-mcq-51": "本句的「generate」指「生成報告 computing」。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-51"
     },
@@ -4896,11 +4508,9 @@ export default {
       "masked": "The program ____ output based on user input.",
       "options": [
         "generate-mcq-52",
-        "generate-mcq-51",
-        "generate-mcq-53",
-        "generate-mcq-50",
-        "generate-mcq-54",
-        "generate-mcq-49"
+        "generate-mcq-86",
+        "generate-mcq-10",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generates」指「產生輸出 computing」。",
       "sentenceIndex": 111,
@@ -4909,12 +4519,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-52": "本句指「產生輸出 computing」。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。"
+        "generate-mcq-52": "本句的「generates」指「產生輸出 computing」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-52"
     },
@@ -4926,11 +4534,9 @@ export default {
       "masked": "Different inputs ____ different outputs.",
       "options": [
         "generate-mcq-52",
-        "generate-mcq-51",
-        "generate-mcq-53",
-        "generate-mcq-50",
-        "generate-mcq-54",
-        "generate-mcq-49"
+        "generate-pdf-plain-091",
+        "generate-mcq-36",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「產生輸出 computing」。",
       "sentenceIndex": 112,
@@ -4939,12 +4545,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-52": "本句指「產生輸出 computing」。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。",
-        "generate-mcq-49": "「產生數據 information」與本句語境不同。"
+        "generate-mcq-52": "本句的「generate」指「產生輸出 computing」。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-52"
     },
@@ -4956,11 +4560,9 @@ export default {
       "masked": "The tool automatically ____ code.",
       "options": [
         "generate-mcq-53",
-        "generate-mcq-52",
-        "generate-mcq-54",
-        "generate-mcq-51",
-        "generate-mcq-55",
-        "generate-mcq-50"
+        "generate-mcq-12",
+        "generate-mcq-82",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generates」指「生成程式碼 programming」。",
       "sentenceIndex": 113,
@@ -4969,12 +4571,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-53": "本句指「生成程式碼 programming」。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。"
+        "generate-mcq-53": "本句的「generates」指「生成程式碼 programming」。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-53"
     },
@@ -4986,11 +4586,9 @@ export default {
       "masked": "The framework can ____ boilerplate code.",
       "options": [
         "generate-mcq-53",
-        "generate-mcq-52",
-        "generate-mcq-54",
-        "generate-mcq-51",
-        "generate-mcq-55",
-        "generate-mcq-50"
+        "generate-mcq-36",
+        "generate-mcq-87",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generate」指「生成程式碼 programming」。",
       "sentenceIndex": 114,
@@ -4999,12 +4597,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-53": "本句指「生成程式碼 programming」。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。",
-        "generate-mcq-50": "「產生資訊 information」與本句語境不同。"
+        "generate-mcq-53": "本句的「generate」指「生成程式碼 programming」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-53"
     },
@@ -5016,11 +4612,9 @@ export default {
       "masked": "The platform includes a code ____.",
       "options": [
         "generate-mcq-54",
-        "generate-mcq-53",
-        "generate-mcq-55",
-        "generate-mcq-52",
-        "generate-mcq-56",
-        "generate-mcq-51"
+        "generate-mcq-76",
+        "generate-mcq-12",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generator」指「程式碼生成器 programming」。",
       "sentenceIndex": 115,
@@ -5029,12 +4623,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-54": "本句指「程式碼生成器 programming」。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。"
+        "generate-mcq-54": "本句的「generator」指「程式碼生成器 programming」。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-54"
     },
@@ -5046,11 +4638,9 @@ export default {
       "masked": "A code ____ converts specifications into source code.",
       "options": [
         "generate-mcq-54",
-        "generate-mcq-53",
-        "generate-mcq-55",
-        "generate-mcq-52",
-        "generate-mcq-56",
-        "generate-mcq-51"
+        "generate-mcq-19",
+        "generate-mcq-76",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generator」指「程式碼生成器 programming」。",
       "sentenceIndex": 116,
@@ -5059,12 +4649,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-54": "本句指「程式碼生成器 programming」。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-51": "「生成報告 computing」與本句語境不同。"
+        "generate-mcq-54": "本句的「generator」指「程式碼生成器 programming」。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-54"
     },
@@ -5076,11 +4664,9 @@ export default {
       "masked": "The system can ____ a strong password.",
       "options": [
         "generate-mcq-55",
-        "generate-mcq-54",
-        "generate-mcq-56",
-        "generate-mcq-53",
-        "generate-mcq-57",
-        "generate-mcq-52"
+        "generate-mcq-77",
+        "generate-mcq-28",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generate」指「產生密碼 computing」。",
       "sentenceIndex": 117,
@@ -5089,12 +4675,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-55": "本句指「產生密碼 computing」。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-57": "「產生隨機數 computing」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。"
+        "generate-mcq-55": "本句的「generate」指「產生密碼 computing」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-55"
     },
@@ -5106,11 +4690,9 @@ export default {
       "masked": "Use a password manager to ____ random passwords.",
       "options": [
         "generate-mcq-55",
-        "generate-mcq-54",
-        "generate-mcq-56",
-        "generate-mcq-53",
-        "generate-mcq-57",
-        "generate-mcq-52"
+        "generate-mcq-82",
+        "generate-mcq-36",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「產生密碼 computing」。",
       "sentenceIndex": 118,
@@ -5119,12 +4701,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-55": "本句指「產生密碼 computing」。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-53": "「生成程式碼 programming」與本句語境不同。",
-        "generate-mcq-57": "「產生隨機數 computing」與本句語境不同。",
-        "generate-mcq-52": "「產生輸出 computing」與本句語境不同。"
+        "generate-mcq-55": "本句的「generate」指「產生密碼 computing」。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-55"
     },
@@ -5136,11 +4716,9 @@ export default {
       "masked": "The program ____ random numbers.",
       "options": [
         "generate-mcq-57",
-        "generate-mcq-56",
-        "generate-mcq-58",
-        "generate-mcq-55",
-        "generate-mcq-59",
-        "generate-mcq-54"
+        "generate-mcq-78",
+        "generate-mcq-12",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generates」指「產生隨機數 computing」。",
       "sentenceIndex": 121,
@@ -5149,12 +4727,10 @@ export default {
         "generates"
       ],
       "optionReasons": {
-        "generate-mcq-57": "本句指「產生隨機數 computing」。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。"
+        "generate-mcq-57": "本句的「generates」指「產生隨機數 computing」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-57"
     },
@@ -5166,11 +4742,9 @@ export default {
       "masked": "Random numbers are ____ for the simulation.",
       "options": [
         "generate-mcq-57",
-        "generate-mcq-56",
-        "generate-mcq-58",
-        "generate-mcq-55",
-        "generate-mcq-59",
-        "generate-mcq-54"
+        "generate-mcq-77",
+        "generate-mcq-34",
+        "generate-mcq-28"
       ],
       "explanation": "本句的「generated」指「產生隨機數 computing」。",
       "sentenceIndex": 122,
@@ -5179,12 +4753,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-57": "本句指「產生隨機數 computing」。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-54": "「程式碼生成器 programming」與本句語境不同。"
+        "generate-mcq-57": "本句的「generated」指「產生隨機數 computing」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-57"
     },
@@ -5196,11 +4768,9 @@ export default {
       "masked": "The game uses a random-number ____.",
       "options": [
         "generate-mcq-58",
-        "generate-mcq-57",
-        "generate-mcq-59",
-        "generate-mcq-56",
-        "generate-mcq-60",
-        "generate-mcq-55"
+        "generate-mcq-13",
+        "generate-mcq-35",
+        "generate-mcq-84"
       ],
       "explanation": "本句的「generator」指「隨機數產生器 computing」。",
       "sentenceIndex": 123,
@@ -5209,12 +4779,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-58": "本句指「隨機數產生器 computing」。",
-        "generate-mcq-57": "「產生隨機數 computing」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。"
+        "generate-mcq-58": "本句的「generator」指「隨機數產生器 computing」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-58"
     },
@@ -5226,11 +4794,9 @@ export default {
       "masked": "A good random-number ____ should avoid predictable patterns.",
       "options": [
         "generate-mcq-58",
-        "generate-mcq-57",
-        "generate-mcq-59",
-        "generate-mcq-56",
-        "generate-mcq-60",
-        "generate-mcq-55"
+        "generate-mcq-78",
+        "generate-mcq-35",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generator」指「隨機數產生器 computing」。",
       "sentenceIndex": 124,
@@ -5239,12 +4805,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-mcq-58": "本句指「隨機數產生器 computing」。",
-        "generate-mcq-57": "「產生隨機數 computing」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-55": "「產生密碼 computing」與本句語境不同。"
+        "generate-mcq-58": "本句的「generator」指「隨機數產生器 computing」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-58"
     },
@@ -5256,11 +4820,9 @@ export default {
       "masked": "The model can ____ text from a prompt.",
       "options": [
         "generate-mcq-59",
-        "generate-mcq-58",
-        "generate-mcq-60",
-        "generate-mcq-57",
-        "generate-mcq-61",
-        "generate-mcq-56"
+        "generate-pdf-plain-091",
+        "generate-mcq-13",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generate」指「生成文字 AI/computing」。",
       "sentenceIndex": 127,
@@ -5269,12 +4831,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-59": "本句指「生成文字 AI/computing」。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-57": "「產生隨機數 computing」與本句語境不同。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。"
+        "generate-mcq-59": "本句的「generate」指「生成文字 AI/computing」。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-59"
     },
@@ -5286,11 +4846,9 @@ export default {
       "masked": "Automatically ____ text still requires appropriate review in some contexts.",
       "options": [
         "generate-mcq-59",
-        "generate-mcq-58",
-        "generate-mcq-60",
-        "generate-mcq-57",
-        "generate-mcq-61",
-        "generate-mcq-56"
+        "generate-mcq-84",
+        "generate-mcq-19",
+        "generate-mcq-10"
       ],
       "explanation": "本句的「generated」指「生成文字 AI/computing」。",
       "sentenceIndex": 128,
@@ -5299,12 +4857,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-59": "本句指「生成文字 AI/computing」。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-57": "「產生隨機數 computing」與本句語境不同。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。",
-        "generate-mcq-56": "「生成金鑰 security」與本句語境不同。"
+        "generate-mcq-59": "本句的「generated」指「生成文字 AI/computing」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-59"
     },
@@ -5316,11 +4872,9 @@ export default {
       "masked": "The system helps users ____ content.",
       "options": [
         "generate-mcq-61",
-        "generate-mcq-60",
-        "generate-mcq-62",
-        "generate-mcq-59",
-        "generate-mcq-63",
-        "generate-mcq-58"
+        "generate-mcq-28",
+        "generate-pdf-plain-091",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generate」指「生成內容 content」。",
       "sentenceIndex": 131,
@@ -5329,12 +4883,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-61": "本句指「生成內容 content」。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。"
+        "generate-mcq-61": "本句的「generate」指「生成內容 content」。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-61"
     },
@@ -5346,11 +4898,9 @@ export default {
       "masked": "Brands ____ large amounts of content for social media.",
       "options": [
         "generate-mcq-61",
-        "generate-mcq-60",
-        "generate-mcq-62",
-        "generate-mcq-59",
-        "generate-mcq-63",
-        "generate-mcq-58"
+        "generate-mcq-34",
+        "generate-mcq-35",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generate」指「生成內容 content」。",
       "sentenceIndex": 132,
@@ -5359,12 +4909,10 @@ export default {
         "generate"
       ],
       "optionReasons": {
-        "generate-mcq-61": "本句指「生成內容 content」。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。"
+        "generate-mcq-61": "本句的「generate」指「生成內容 content」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-61"
     },
@@ -5376,11 +4924,9 @@ export default {
       "masked": "The film contains computer-____ images.",
       "options": [
         "generate-mcq-62",
-        "generate-mcq-61",
-        "generate-mcq-63",
-        "generate-mcq-60",
-        "generate-mcq-64",
-        "generate-mcq-59"
+        "generate-mcq-28",
+        "generate-mcq-82",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generated」指「電腦生成的 origin」。",
       "sentenceIndex": 133,
@@ -5389,12 +4935,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-62": "本句指「電腦生成的 origin」。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。"
+        "generate-mcq-62": "本句的「generated」指「電腦生成的 origin」。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-62"
     },
@@ -5406,11 +4950,9 @@ export default {
       "masked": "The voice was computer-____.",
       "options": [
         "generate-mcq-62",
-        "generate-mcq-61",
-        "generate-mcq-63",
-        "generate-mcq-60",
-        "generate-mcq-64",
-        "generate-mcq-59"
+        "generate-mcq-78",
+        "generate-mcq-10",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generated」指「電腦生成的 origin」。",
       "sentenceIndex": 134,
@@ -5419,12 +4961,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-62": "本句指「電腦生成的 origin」。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。"
+        "generate-mcq-62": "本句的「generated」指「電腦生成的 origin」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-62"
     },
@@ -5436,11 +4976,9 @@ export default {
       "masked": "The document contained AI-____ text.",
       "options": [
         "generate-mcq-63",
-        "generate-mcq-62",
-        "generate-mcq-64",
-        "generate-mcq-61",
-        "generate-mcq-65",
-        "generate-mcq-60"
+        "generate-mcq-35",
+        "generate-mcq-76",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generated」指「生成的 origin」。",
       "sentenceIndex": 135,
@@ -5449,12 +4987,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-63": "本句指「生成的 origin」。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。"
+        "generate-mcq-63": "本句的「generated」指「生成的 origin」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-63"
     },
@@ -5466,11 +5002,9 @@ export default {
       "masked": "The image was AI-____.",
       "options": [
         "generate-mcq-63",
-        "generate-mcq-62",
-        "generate-mcq-64",
-        "generate-mcq-61",
-        "generate-mcq-65",
-        "generate-mcq-60"
+        "generate-mcq-75",
+        "generate-mcq-38",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generated」指「生成的 origin」。",
       "sentenceIndex": 136,
@@ -5479,12 +5013,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-63": "本句指「生成的 origin」。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。"
+        "generate-mcq-63": "本句的「generated」指「生成的 origin」。",
+        "generate-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-63"
     },
@@ -5496,11 +5028,9 @@ export default {
       "masked": "The platform relies heavily on user-____ content.",
       "options": [
         "generate-mcq-64",
-        "generate-mcq-63",
-        "generate-mcq-65",
-        "generate-mcq-62",
-        "generate-mcq-66",
-        "generate-mcq-61"
+        "generate-mcq-76",
+        "generate-mcq-38",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generated」指「使用者生成內容 platform content」。",
       "sentenceIndex": 137,
@@ -5509,12 +5039,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-64": "本句指「使用者生成內容 platform content」。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。"
+        "generate-mcq-64": "本句的「generated」指「使用者生成內容 platform content」。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-64"
     },
@@ -5526,11 +5054,9 @@ export default {
       "masked": "Reviews are a common form of user-____ content.",
       "options": [
         "generate-mcq-64",
-        "generate-mcq-63",
-        "generate-mcq-65",
-        "generate-mcq-62",
-        "generate-mcq-66",
-        "generate-mcq-61"
+        "generate-mcq-13",
+        "generate-mcq-10",
+        "generate-mcq-78"
       ],
       "explanation": "本句的「generated」指「使用者生成內容 platform content」。",
       "sentenceIndex": 138,
@@ -5539,12 +5065,10 @@ export default {
         "generated"
       ],
       "optionReasons": {
-        "generate-mcq-64": "本句指「使用者生成內容 platform content」。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-61": "「生成內容 content」與本句語境不同。"
+        "generate-mcq-64": "本句的「generated」指「使用者生成內容 platform content」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-64"
     },
@@ -5556,11 +5080,9 @@ export default {
       "masked": "The system uses a ____ model.",
       "options": [
         "generate-mcq-65",
-        "generate-mcq-64",
-        "generate-mcq-66",
-        "generate-mcq-63",
-        "generate-mcq-67",
-        "generate-mcq-62"
+        "generate-mcq-13",
+        "generate-pdf-plain-091",
+        "generate-mcq-28"
       ],
       "explanation": "本句的「generative」指「生成式的 capable of」。",
       "sentenceIndex": 139,
@@ -5569,12 +5091,10 @@ export default {
         "generative"
       ],
       "optionReasons": {
-        "generate-mcq-65": "本句指「生成式的 capable of」。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。"
+        "generate-mcq-65": "本句的「generative」指「生成式的 capable of」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-65"
     },
@@ -5586,11 +5106,9 @@ export default {
       "masked": "____ systems produce new outputs from learned patterns or rules.",
       "options": [
         "generate-mcq-65",
-        "generate-mcq-64",
-        "generate-mcq-66",
-        "generate-mcq-63",
-        "generate-mcq-67",
-        "generate-mcq-62"
+        "generate-mcq-27",
+        "generate-mcq-12",
+        "generate-pdf-plain-091"
       ],
       "explanation": "本句的「Generative」指「生成式的 capable of」。",
       "sentenceIndex": 140,
@@ -5599,12 +5117,10 @@ export default {
         "Generative"
       ],
       "optionReasons": {
-        "generate-mcq-65": "本句指「生成式的 capable of」。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。"
+        "generate-mcq-65": "本句的「Generative」指「生成式的 capable of」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-65"
     },
@@ -5616,11 +5132,9 @@ export default {
       "masked": "____ AI can create text, images and other content.",
       "options": [
         "generate-mcq-66",
-        "generate-mcq-65",
-        "generate-mcq-67",
-        "generate-mcq-64",
-        "generate-mcq-68",
-        "generate-mcq-63"
+        "generate-mcq-10",
+        "generate-mcq-78",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「Generative」指「生成式人工智能 AI」。",
       "sentenceIndex": 141,
@@ -5629,12 +5143,10 @@ export default {
         "Generative"
       ],
       "optionReasons": {
-        "generate-mcq-66": "本句指「生成式人工智能 AI」。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。"
+        "generate-mcq-66": "本句的「Generative」指「生成式人工智能 AI」。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-66"
     },
@@ -5646,11 +5158,9 @@ export default {
       "masked": "Businesses are experimenting with ____ AI tools.",
       "options": [
         "generate-mcq-66",
-        "generate-mcq-65",
-        "generate-mcq-67",
-        "generate-mcq-64",
-        "generate-mcq-68",
-        "generate-mcq-63"
+        "generate-mcq-78",
+        "generate-mcq-12",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generative」指「生成式人工智能 AI」。",
       "sentenceIndex": 142,
@@ -5659,12 +5169,10 @@ export default {
         "generative"
       ],
       "optionReasons": {
-        "generate-mcq-66": "本句指「生成式人工智能 AI」。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。"
+        "generate-mcq-66": "本句的「generative」指「生成式人工智能 AI」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-66"
     },
@@ -5676,11 +5184,9 @@ export default {
       "masked": "The researchers trained a ____ model.",
       "options": [
         "generate-mcq-67",
-        "generate-mcq-66",
-        "generate-mcq-68",
-        "generate-mcq-65",
-        "generate-mcq-69",
-        "generate-mcq-64"
+        "generate-mcq-35",
+        "generate-mcq-78",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generative」指「生成模型 AI/statistics」。",
       "sentenceIndex": 143,
@@ -5689,12 +5195,10 @@ export default {
         "generative"
       ],
       "optionReasons": {
-        "generate-mcq-67": "本句指「生成模型 AI/statistics」。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。"
+        "generate-mcq-67": "本句的「generative」指「生成模型 AI/statistics」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-67"
     },
@@ -5706,11 +5210,9 @@ export default {
       "masked": "A ____ model can produce new samples.",
       "options": [
         "generate-mcq-67",
-        "generate-mcq-66",
-        "generate-mcq-68",
-        "generate-mcq-65",
-        "generate-mcq-69",
-        "generate-mcq-64"
+        "generate-mcq-35",
+        "generate-mcq-86",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generative」指「生成模型 AI/statistics」。",
       "sentenceIndex": 144,
@@ -5719,12 +5221,10 @@ export default {
         "generative"
       ],
       "optionReasons": {
-        "generate-mcq-67": "本句指「生成模型 AI/statistics」。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。",
-        "generate-mcq-64": "「使用者生成內容 platform content」與本句語境不同。"
+        "generate-mcq-67": "本句的「generative」指「生成模型 AI/statistics」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-67"
     },
@@ -5736,11 +5236,9 @@ export default {
       "masked": "She creates ____ art using computer algorithms.",
       "options": [
         "generate-mcq-68",
-        "generate-mcq-67",
-        "generate-mcq-69",
-        "generate-mcq-66",
-        "generate-mcq-70",
-        "generate-mcq-65"
+        "generate-mcq-84",
+        "generate-mcq-38",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generative」指「生成藝術 art」。",
       "sentenceIndex": 145,
@@ -5749,12 +5247,10 @@ export default {
         "generative"
       ],
       "optionReasons": {
-        "generate-mcq-68": "本句指「生成藝術 art」。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。"
+        "generate-mcq-68": "本句的「generative」指「生成藝術 art」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-68"
     },
@@ -5766,11 +5262,9 @@ export default {
       "masked": "____ art uses systems or rules to produce artworks.",
       "options": [
         "generate-mcq-68",
-        "generate-mcq-67",
-        "generate-mcq-69",
-        "generate-mcq-66",
-        "generate-mcq-70",
-        "generate-mcq-65"
+        "generate-mcq-78",
+        "generate-mcq-19",
+        "generate-mcq-35"
       ],
       "explanation": "本句的「Generative」指「生成藝術 art」。",
       "sentenceIndex": 146,
@@ -5779,12 +5273,10 @@ export default {
         "Generative"
       ],
       "optionReasons": {
-        "generate-mcq-68": "本句指「生成藝術 art」。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-65": "「生成式的 capable of」與本句語境不同。"
+        "generate-mcq-68": "本句的「Generative」指「生成藝術 art」。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-68"
     },
@@ -5796,11 +5288,9 @@ export default {
       "masked": "The course introduces ____ grammar.",
       "options": [
         "generate-mcq-69",
-        "generate-mcq-68",
-        "generate-mcq-70",
-        "generate-mcq-67",
-        "generate-mcq-71",
-        "generate-mcq-66"
+        "generate-mcq-27",
+        "generate-mcq-34",
+        "generate-mcq-78"
       ],
       "explanation": "本句的「generative」指「生成文法 linguistics」。",
       "sentenceIndex": 147,
@@ -5809,12 +5299,10 @@ export default {
         "generative"
       ],
       "optionReasons": {
-        "generate-mcq-69": "本句指「生成文法 linguistics」。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-71": "「產生構思 creativity」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。"
+        "generate-mcq-69": "本句的「generative」指「生成文法 linguistics」。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-69"
     },
@@ -5826,11 +5314,9 @@ export default {
       "masked": "____ grammar seeks to model the rule system underlying possible sentences.",
       "options": [
         "generate-mcq-69",
-        "generate-mcq-68",
-        "generate-mcq-70",
-        "generate-mcq-67",
-        "generate-mcq-71",
-        "generate-mcq-66"
+        "generate-pdf-plain-091",
+        "generate-mcq-35",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「Generative」指「生成文法 linguistics」。",
       "sentenceIndex": 148,
@@ -5839,12 +5325,10 @@ export default {
         "Generative"
       ],
       "optionReasons": {
-        "generate-mcq-69": "本句指「生成文法 linguistics」。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-67": "「生成模型 AI/statistics」與本句語境不同。",
-        "generate-mcq-71": "「產生構思 creativity」與本句語境不同。",
-        "generate-mcq-66": "「生成式人工智能 AI」與本句語境不同。"
+        "generate-mcq-69": "本句的「Generative」指「生成文法 linguistics」。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-69"
     },
@@ -5856,11 +5340,9 @@ export default {
       "masked": "Idea ____ is only the first stage.",
       "options": [
         "generate-pdf-plain-076",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-84",
+        "generate-mcq-12",
+        "generate-mcq-28"
       ],
       "explanation": "本句的「generation」指「產生或生成某種事物的過程」。",
       "sentenceIndex": 151,
@@ -5869,12 +5351,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-pdf-plain-076": "本句指「產生或生成某種事物的過程」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-pdf-plain-076": "本句的「generation」指「產生或生成某種事物的過程」。",
+        "generate-mcq-84": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-076"
     },
@@ -5886,11 +5366,9 @@ export default {
       "masked": "The system automates report ____.",
       "options": [
         "generate-pdf-plain-076",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-28",
+        "generate-mcq-82",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generation」指「產生或生成某種事物的過程」。",
       "sentenceIndex": 152,
@@ -5899,12 +5377,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-pdf-plain-076": "本句指「產生或生成某種事物的過程」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-pdf-plain-076": "本句的「generation」指「產生或生成某種事物的過程」。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-076"
     },
@@ -5916,11 +5392,9 @@ export default {
       "masked": "Brainstorming is commonly used for idea ____.",
       "options": [
         "generate-mcq-71",
-        "generate-mcq-70",
-        "generate-mcq-72",
-        "generate-mcq-69",
-        "generate-mcq-73",
-        "generate-mcq-68"
+        "generate-mcq-76",
+        "generate-mcq-36",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「產生構思 creativity」。",
       "sentenceIndex": 153,
@@ -5929,12 +5403,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-71": "本句指「產生構思 creativity」。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-72": "「數據產生 data」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。"
+        "generate-mcq-71": "本句的「generation」指「產生構思 creativity」。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-71"
     },
@@ -5946,11 +5418,9 @@ export default {
       "masked": "Idea ____ should be separated from evaluation at first.",
       "options": [
         "generate-mcq-71",
-        "generate-mcq-70",
-        "generate-mcq-72",
-        "generate-mcq-69",
-        "generate-mcq-73",
-        "generate-mcq-68"
+        "generate-mcq-35",
+        "generate-mcq-77",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「產生構思 creativity」。",
       "sentenceIndex": 154,
@@ -5959,12 +5429,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-71": "本句指「產生構思 creativity」。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-72": "「數據產生 data」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。",
-        "generate-mcq-68": "「生成藝術 art」與本句語境不同。"
+        "generate-mcq-71": "本句的「generation」指「產生構思 creativity」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-71"
     },
@@ -5976,11 +5444,9 @@ export default {
       "masked": "The software speeds up content ____.",
       "options": [
         "generate-mcq-61",
-        "generate-mcq-60",
-        "generate-mcq-62",
-        "generate-mcq-59",
-        "generate-mcq-63",
-        "generate-mcq-58"
+        "generate-mcq-34",
+        "generate-mcq-12",
+        "generate-mcq-78"
       ],
       "explanation": "本句的「generation」指「生成內容 content」。",
       "sentenceIndex": 155,
@@ -5989,12 +5455,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-61": "本句指「生成內容 content」。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。"
+        "generate-mcq-61": "本句的「generation」指「生成內容 content」。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-61"
     },
@@ -6006,11 +5470,9 @@ export default {
       "masked": "Automated content ____ has many applications.",
       "options": [
         "generate-mcq-61",
-        "generate-mcq-60",
-        "generate-mcq-62",
-        "generate-mcq-59",
-        "generate-mcq-63",
-        "generate-mcq-58"
+        "generate-mcq-36",
+        "generate-mcq-86",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「生成內容 content」。",
       "sentenceIndex": 156,
@@ -6019,12 +5481,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-61": "本句指「生成內容 content」。",
-        "generate-mcq-60": "「生成圖像 AI/computing」與本句語境不同。",
-        "generate-mcq-62": "「電腦生成的 origin」與本句語境不同。",
-        "generate-mcq-59": "「生成文字 AI/computing」與本句語境不同。",
-        "generate-mcq-63": "「生成的 origin」與本句語境不同。",
-        "generate-mcq-58": "「隨機數產生器 computing」與本句語境不同。"
+        "generate-mcq-61": "本句的「generation」指「生成內容 content」。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-61"
     },
@@ -6036,11 +5496,9 @@ export default {
       "masked": "Sensors enable continuous data ____.",
       "options": [
         "generate-mcq-72",
-        "generate-mcq-71",
-        "generate-mcq-73",
-        "generate-mcq-70",
-        "generate-mcq-74",
-        "generate-mcq-69"
+        "generate-pdf-plain-091",
+        "generate-mcq-36",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「數據產生 data」。",
       "sentenceIndex": 157,
@@ -6049,12 +5507,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-72": "本句指「數據產生 data」。",
-        "generate-mcq-71": "「產生構思 creativity」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。"
+        "generate-mcq-72": "本句的「generation」指「數據產生 data」。",
+        "generate-pdf-plain-091": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-72"
     },
@@ -6066,11 +5522,9 @@ export default {
       "masked": "Data ____ increased as more devices were connected.",
       "options": [
         "generate-mcq-72",
-        "generate-mcq-71",
-        "generate-mcq-73",
-        "generate-mcq-70",
-        "generate-mcq-74",
-        "generate-mcq-69"
+        "generate-mcq-77",
+        "generate-mcq-36",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generation」指「數據產生 data」。",
       "sentenceIndex": 158,
@@ -6079,12 +5533,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-72": "本句指「數據產生 data」。",
-        "generate-mcq-71": "「產生構思 creativity」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。",
-        "generate-mcq-70": "「產生；生成 process」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-69": "「生成文法 linguistics」與本句語境不同。"
+        "generate-mcq-72": "本句的「generation」指「數據產生 data」。",
+        "generate-mcq-77": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-72"
     },
@@ -6096,11 +5548,9 @@ export default {
       "masked": "Younger ____ often use technology differently.",
       "options": [
         "generate-pdf-plain-080",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-26",
+        "generate-mcq-12",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generations」指「出生於相近時期的一代人；世代」。",
       "sentenceIndex": 159,
@@ -6109,12 +5559,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-pdf-plain-080": "本句指「出生於相近時期的一代人；世代」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-pdf-plain-080": "本句的「generations」指「出生於相近時期的一代人；世代」。",
+        "generate-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-080"
     },
@@ -6126,11 +5574,9 @@ export default {
       "masked": "Each ____ faces different challenges.",
       "options": [
         "generate-pdf-plain-080",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-17",
+        "generate-mcq-19",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「出生於相近時期的一代人；世代」。",
       "sentenceIndex": 160,
@@ -6139,12 +5585,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-pdf-plain-080": "本句指「出生於相近時期的一代人；世代」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-pdf-plain-080": "本句的「generation」指「出生於相近時期的一代人；世代」。",
+        "generate-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-080"
     },
@@ -6156,11 +5600,9 @@ export default {
       "masked": "We should protect resources for future ____.",
       "options": [
         "generate-mcq-75",
-        "generate-mcq-74",
-        "generate-mcq-76",
-        "generate-mcq-73",
-        "generate-mcq-77",
-        "generate-mcq-72"
+        "generate-mcq-35",
+        "generate-mcq-46",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generations」指「未來世代／後代 society」。",
       "sentenceIndex": 163,
@@ -6169,12 +5611,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-75": "本句指「未來世代／後代 society」。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-76": "「代溝 age differences」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-72": "「數據產生 data」與本句語境不同。"
+        "generate-mcq-75": "本句的「generations」指「未來世代／後代 society」。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-75"
     },
@@ -6186,11 +5626,9 @@ export default {
       "masked": "Today's decisions will affect future ____.",
       "options": [
         "generate-mcq-75",
-        "generate-mcq-74",
-        "generate-mcq-76",
-        "generate-mcq-73",
-        "generate-mcq-77",
-        "generate-mcq-72"
+        "generate-mcq-66",
+        "generate-mcq-12",
+        "generate-mcq-27"
       ],
       "explanation": "本句的「generations」指「未來世代／後代 society」。",
       "sentenceIndex": 164,
@@ -6199,12 +5637,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-75": "本句指「未來世代／後代 society」。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-76": "「代溝 age differences」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-72": "「數據產生 data」與本句語境不同。"
+        "generate-mcq-75": "本句的「generations」指「未來世代／後代 society」。",
+        "generate-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-75"
     },
@@ -6216,11 +5652,9 @@ export default {
       "masked": "Different attitudes can create a ____ gap.",
       "options": [
         "generate-mcq-76",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-52",
+        "generate-mcq-28",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generation」指「代溝 age differences」。",
       "sentenceIndex": 167,
@@ -6229,12 +5663,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-mcq-76": "本句的「generation」指「代溝 age differences」。",
+        "generate-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-76"
     },
@@ -6246,11 +5678,9 @@ export default {
       "masked": "Technology sometimes widens the ____ gap.",
       "options": [
         "generate-mcq-76",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-30",
+        "generate-mcq-34",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generation」指「代溝 age differences」。",
       "sentenceIndex": 168,
@@ -6259,12 +5689,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-76": "本句指「代溝 age differences」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-mcq-76": "本句的「generation」指「代溝 age differences」。",
+        "generate-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-76"
     },
@@ -6276,11 +5704,9 @@ export default {
       "masked": "There are significant ____ differences in workplace expectations.",
       "options": [
         "generate-mcq-77",
-        "generate-mcq-76",
-        "generate-mcq-78",
-        "generate-mcq-75",
-        "generate-mcq-79",
-        "generate-mcq-74"
+        "generate-mcq-54",
+        "generate-mcq-13",
+        "generate-mcq-10"
       ],
       "explanation": "本句的「generational」指「世代的 generation-related」。",
       "sentenceIndex": 169,
@@ -6289,12 +5715,10 @@ export default {
         "generational"
       ],
       "optionReasons": {
-        "generate-mcq-77": "本句指「世代的 generation-related」。",
-        "generate-mcq-76": "「代溝 age differences」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-79": "「跨世代的 between」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。"
+        "generate-mcq-77": "本句的「generational」指「世代的 generation-related」。",
+        "generate-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-77"
     },
@@ -6306,11 +5730,9 @@ export default {
       "masked": "The change reflects a broader ____ shift.",
       "options": [
         "generate-mcq-77",
-        "generate-mcq-76",
-        "generate-mcq-78",
-        "generate-mcq-75",
-        "generate-mcq-79",
-        "generate-mcq-74"
+        "generate-pdf-plain-076",
+        "generate-mcq-36",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generational」指「世代的 generation-related」。",
       "sentenceIndex": 170,
@@ -6319,12 +5741,10 @@ export default {
         "generational"
       ],
       "optionReasons": {
-        "generate-mcq-77": "本句指「世代的 generation-related」。",
-        "generate-mcq-76": "「代溝 age differences」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-79": "「跨世代的 between」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。"
+        "generate-mcq-77": "本句的「generational」指「世代的 generation-related」。",
+        "generate-pdf-plain-076": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-77"
     },
@@ -6336,11 +5756,9 @@ export default {
       "masked": "The industry is experiencing ____ change.",
       "options": [
         "generate-mcq-78",
-        "generate-mcq-77",
-        "generate-mcq-79",
-        "generate-mcq-76",
-        "generate-mcq-80",
-        "generate-mcq-75"
+        "generate-mcq-38",
+        "generate-mcq-42",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generational」指「世代轉變 change」。",
       "sentenceIndex": 171,
@@ -6349,12 +5767,10 @@ export default {
         "generational"
       ],
       "optionReasons": {
-        "generate-mcq-78": "本句指「世代轉變 change」。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-79": "「跨世代的 between」與本句語境不同。",
-        "generate-mcq-76": "「代溝 age differences」與本句語境不同。",
-        "generate-mcq-80": "「代際衝突 generations」與本句語境不同。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。"
+        "generate-mcq-78": "本句的「generational」指「世代轉變 change」。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-78"
     },
@@ -6366,11 +5782,9 @@ export default {
       "masked": "____ shifts can change consumer behaviour.",
       "options": [
         "generate-mcq-78",
-        "generate-mcq-77",
-        "generate-mcq-79",
-        "generate-mcq-76",
-        "generate-mcq-80",
-        "generate-mcq-75"
+        "generate-mcq-07",
+        "generate-mcq-10",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「Generational」指「世代轉變 change」。",
       "sentenceIndex": 172,
@@ -6379,12 +5793,10 @@ export default {
         "Generational"
       ],
       "optionReasons": {
-        "generate-mcq-78": "本句指「世代轉變 change」。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-79": "「跨世代的 between」與本句語境不同。",
-        "generate-mcq-76": "「代溝 age differences」與本句語境不同。",
-        "generate-mcq-80": "「代際衝突 generations」與本句語境不同。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。"
+        "generate-mcq-78": "本句的「Generational」指「世代轉變 change」。",
+        "generate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-78"
     },
@@ -6396,11 +5808,9 @@ export default {
       "masked": "Three ____ of the family live together.",
       "options": [
         "generate-pdf-plain-091",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-72",
+        "generate-mcq-38",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generations」指「家族中的一代」。",
       "sentenceIndex": 175,
@@ -6409,12 +5819,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-pdf-plain-091": "本句指「家族中的一代」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-pdf-plain-091": "本句的「generations」指「家族中的一代」。",
+        "generate-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-091"
     },
@@ -6426,11 +5834,9 @@ export default {
       "masked": "The business has remained in the family for four ____.",
       "options": [
         "generate-pdf-plain-091",
-        "generate-mcq-75",
-        "generate-mcq-77",
-        "generate-mcq-74",
-        "generate-mcq-78",
-        "generate-mcq-73"
+        "generate-mcq-65",
+        "generate-mcq-35",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generations」指「家族中的一代」。",
       "sentenceIndex": 176,
@@ -6439,12 +5845,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-pdf-plain-091": "本句指「家族中的一代」。",
-        "generate-mcq-75": "「未來世代／後代 society」與本句語境不同。",
-        "generate-mcq-77": "「世代的 generation-related」與本句語境不同。",
-        "generate-mcq-74": "「年輕一代 society」與本句語境不同。",
-        "generate-mcq-78": "「世代轉變 change」與本句語境不同。",
-        "generate-mcq-73": "「一代人；世代 age cohort」與本句語境不同。"
+        "generate-pdf-plain-091": "本句的「generations」指「家族中的一代」。",
+        "generate-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-091"
     },
@@ -6456,11 +5860,9 @@ export default {
       "masked": "The family has lived here for ____.",
       "options": [
         "generate-mcq-82",
-        "generate-mcq-81",
-        "generate-mcq-83",
-        "generate-mcq-80",
-        "generate-mcq-84",
-        "generate-mcq-79"
+        "generate-mcq-19",
+        "generate-mcq-48",
+        "generate-mcq-28"
       ],
       "explanation": "本句的「generations」指「世世代代 lineage」。",
       "sentenceIndex": 177,
@@ -6469,12 +5871,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-82": "本句指「世世代代 lineage」。",
-        "generate-mcq-81": "「家族一代 lineage」與本句語境不同。",
-        "generate-mcq-83": "「第一代的 context-dependent」與本句語境不同。",
-        "generate-mcq-80": "「代際衝突 generations」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。",
-        "generate-mcq-79": "「跨世代的 between」與本句語境不同。"
+        "generate-mcq-82": "本句的「generations」指「世世代代 lineage」。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-82"
     },
@@ -6486,11 +5886,9 @@ export default {
       "masked": "The technique has been passed down for ____.",
       "options": [
         "generate-mcq-82",
-        "generate-mcq-81",
-        "generate-mcq-83",
-        "generate-mcq-80",
-        "generate-mcq-84",
-        "generate-mcq-79"
+        "generate-mcq-72",
+        "generate-mcq-10",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generations」指「世世代代 lineage」。",
       "sentenceIndex": 178,
@@ -6499,12 +5897,10 @@ export default {
         "generations"
       ],
       "optionReasons": {
-        "generate-mcq-82": "本句指「世世代代 lineage」。",
-        "generate-mcq-81": "「家族一代 lineage」與本句語境不同。",
-        "generate-mcq-83": "「第一代的 context-dependent」與本句語境不同。",
-        "generate-mcq-80": "「代際衝突 generations」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。",
-        "generate-mcq-79": "「跨世代的 between」與本句語境不同。"
+        "generate-mcq-82": "本句的「generations」指「世世代代 lineage」。",
+        "generate-mcq-72": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-82"
     },
@@ -6516,11 +5912,9 @@ export default {
       "masked": "The second-____ model was faster.",
       "options": [
         "generate-mcq-84",
-        "generate-mcq-83",
-        "generate-mcq-85",
-        "generate-mcq-82",
-        "generate-mcq-86",
-        "generate-mcq-81"
+        "generate-mcq-62",
+        "generate-mcq-10",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generation」指「第二代的 context-dependent」。",
       "sentenceIndex": 181,
@@ -6529,12 +5923,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-84": "本句指「第二代的 context-dependent」。",
-        "generate-mcq-83": "「第一代的 context-dependent」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-82": "「世世代代 lineage」與本句語境不同。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-81": "「家族一代 lineage」與本句語境不同。"
+        "generate-mcq-84": "本句的「generation」指「第二代的 context-dependent」。",
+        "generate-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-84"
     },
@@ -6546,11 +5938,9 @@ export default {
       "masked": "The term “second-____” can also describe family or migration background, but definitions vary.",
       "options": [
         "generate-mcq-84",
-        "generate-mcq-83",
-        "generate-mcq-85",
-        "generate-mcq-82",
-        "generate-mcq-86",
-        "generate-mcq-81"
+        "generate-mcq-61",
+        "generate-mcq-35",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generation」指「第二代的 context-dependent」。",
       "sentenceIndex": 182,
@@ -6559,12 +5949,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-84": "本句指「第二代的 context-dependent」。",
-        "generate-mcq-83": "「第一代的 context-dependent」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-82": "「世世代代 lineage」與本句語境不同。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-81": "「家族一代 lineage」與本句語境不同。"
+        "generate-mcq-84": "本句的「generation」指「第二代的 context-dependent」。",
+        "generate-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-84"
     },
@@ -6576,11 +5964,9 @@ export default {
       "masked": "This is the latest ____ of processors.",
       "options": [
         "generate-mcq-87",
-        "generate-mcq-86",
-        "generate-mcq-88",
-        "generate-mcq-85",
-        "generate-mcq-89",
-        "generate-mcq-84"
+        "generate-mcq-40",
+        "generate-mcq-35",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generation」指「世代時間 biology」。",
       "sentenceIndex": 183,
@@ -6589,12 +5975,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-87": "本句指「世代時間 biology」。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-89": "「生成集 mathematics」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。"
+        "generate-mcq-87": "本句的「generation」指「世代時間 biology」。",
+        "generate-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-87"
     },
@@ -6606,11 +5990,9 @@ export default {
       "masked": "Each ____ of the product became more efficient.",
       "options": [
         "generate-mcq-87",
-        "generate-mcq-86",
-        "generate-mcq-88",
-        "generate-mcq-85",
-        "generate-mcq-89",
-        "generate-mcq-84"
+        "generate-mcq-20",
+        "generate-mcq-36",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generation」指「世代時間 biology」。",
       "sentenceIndex": 184,
@@ -6619,12 +6001,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-87": "本句指「世代時間 biology」。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-89": "「生成集 mathematics」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。"
+        "generate-mcq-87": "本句的「generation」指「世代時間 biology」。",
+        "generate-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-87"
     },
@@ -6636,11 +6016,9 @@ export default {
       "masked": "The company is developing next-____ technology.",
       "options": [
         "generate-mcq-86",
-        "generate-mcq-85",
-        "generate-mcq-87",
-        "generate-mcq-84",
-        "generate-mcq-88",
-        "generate-mcq-83"
+        "generate-mcq-53",
+        "generate-mcq-35",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「下一代／新一代的 technology」。",
       "sentenceIndex": 185,
@@ -6649,12 +6027,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-86": "本句指「下一代／新一代的 technology」。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-87": "「世代時間 biology」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-83": "「第一代的 context-dependent」與本句語境不同。"
+        "generate-mcq-86": "本句的「generation」指「下一代／新一代的 technology」。",
+        "generate-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-86"
     },
@@ -6666,11 +6042,9 @@ export default {
       "masked": "The new system uses next-____ batteries.",
       "options": [
         "generate-mcq-86",
-        "generate-mcq-85",
-        "generate-mcq-87",
-        "generate-mcq-84",
-        "generate-mcq-88",
-        "generate-mcq-83"
+        "generate-mcq-67",
+        "generate-mcq-10",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generation」指「下一代／新一代的 technology」。",
       "sentenceIndex": 186,
@@ -6679,12 +6053,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-86": "本句指「下一代／新一代的 technology」。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-87": "「世代時間 biology」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-83": "「第一代的 context-dependent」與本句語境不同。"
+        "generate-mcq-86": "本句的「generation」指「下一代／新一代的 technology」。",
+        "generate-mcq-67": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-86"
     },
@@ -6696,11 +6068,9 @@ export default {
       "masked": "The trait appeared in the next ____.",
       "options": [
         "generate-mcq-87",
-        "generate-mcq-86",
-        "generate-mcq-88",
-        "generate-mcq-85",
-        "generate-mcq-89",
-        "generate-mcq-84"
+        "generate-mcq-61",
+        "generate-mcq-10",
+        "generate-mcq-34"
       ],
       "explanation": "本句的「generation」指「世代時間 biology」。",
       "sentenceIndex": 189,
@@ -6709,12 +6079,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-87": "本句指「世代時間 biology」。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-89": "「生成集 mathematics」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。"
+        "generate-mcq-87": "本句的「generation」指「世代時間 biology」。",
+        "generate-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-87"
     },
@@ -6726,11 +6094,9 @@ export default {
       "masked": "Genetic changes can be passed from one ____ to another.",
       "options": [
         "generate-mcq-87",
-        "generate-mcq-86",
-        "generate-mcq-88",
-        "generate-mcq-85",
-        "generate-mcq-89",
-        "generate-mcq-84"
+        "generate-mcq-01",
+        "generate-mcq-38",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generation」指「世代時間 biology」。",
       "sentenceIndex": 190,
@@ -6739,12 +6105,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-87": "本句指「世代時間 biology」。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-89": "「生成集 mathematics」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。"
+        "generate-mcq-87": "本句的「generation」指「世代時間 biology」。",
+        "generate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-87"
     },
@@ -6756,11 +6120,9 @@ export default {
       "masked": "Some bacteria have a very short ____ time.",
       "options": [
         "generate-mcq-87",
-        "generate-mcq-86",
-        "generate-mcq-88",
-        "generate-mcq-85",
-        "generate-mcq-89",
-        "generate-mcq-84"
+        "generate-mcq-13",
+        "generate-mcq-35",
+        "generate-mcq-49"
       ],
       "explanation": "本句的「generation」指「世代時間 biology」。",
       "sentenceIndex": 191,
@@ -6769,12 +6131,10 @@ export default {
         "generation"
       ],
       "optionReasons": {
-        "generate-mcq-87": "本句指「世代時間 biology」。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-89": "「生成集 mathematics」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。"
+        "generate-mcq-87": "本句的「generation」指「世代時間 biology」。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-87"
     },
@@ -6786,11 +6146,9 @@ export default {
       "masked": "____ time is the time required for a population to produce a new generation.",
       "options": [
         "generate-mcq-87",
-        "generate-mcq-86",
-        "generate-mcq-88",
-        "generate-mcq-85",
-        "generate-mcq-89",
-        "generate-mcq-84"
+        "generate-pdf-plain-076",
+        "generate-mcq-13",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「Generation」指「世代時間 biology」。",
       "sentenceIndex": 192,
@@ -6799,12 +6157,10 @@ export default {
         "Generation"
       ],
       "optionReasons": {
-        "generate-mcq-87": "本句指「世代時間 biology」。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-85": "「一代 version」與本句語境不同。",
-        "generate-mcq-89": "「生成集 mathematics」與本句語境不同。",
-        "generate-mcq-84": "「第二代的 context-dependent」與本句語境不同。"
+        "generate-mcq-87": "本句的「Generation」指「世代時間 biology」。",
+        "generate-pdf-plain-076": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-87"
     },
@@ -6816,11 +6172,9 @@ export default {
       "masked": "Find a ____ set for the space.",
       "options": [
         "generate-mcq-89",
-        "generate-mcq-88",
-        "generate-mcq-90",
-        "generate-mcq-87",
-        "generate-mcq-91",
-        "generate-mcq-86"
+        "generate-mcq-28",
+        "generate-mcq-76",
+        "generate-mcq-12"
       ],
       "explanation": "本句的「generating」指「生成集 mathematics」。",
       "sentenceIndex": 195,
@@ -6829,12 +6183,10 @@ export default {
         "generating"
       ],
       "optionReasons": {
-        "generate-mcq-89": "本句指「生成集 mathematics」。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-90": "「生成元 mathematics」與本句語境不同。",
-        "generate-mcq-87": "「世代時間 biology」與本句語境不同。",
-        "generate-mcq-91": "「再生；復興 restore/grow again」與本句語境不同。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。"
+        "generate-mcq-89": "本句的「generating」指「生成集 mathematics」。",
+        "generate-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-76": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-89"
     },
@@ -6846,11 +6198,9 @@ export default {
       "masked": "The ____ set need not be unique.",
       "options": [
         "generate-mcq-89",
-        "generate-mcq-88",
-        "generate-mcq-90",
-        "generate-mcq-87",
-        "generate-mcq-91",
-        "generate-mcq-86"
+        "generate-mcq-86",
+        "generate-mcq-10",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generating」指「生成集 mathematics」。",
       "sentenceIndex": 196,
@@ -6859,12 +6209,10 @@ export default {
         "generating"
       ],
       "optionReasons": {
-        "generate-mcq-89": "本句指「生成集 mathematics」。",
-        "generate-mcq-88": "「生成一個群 mathematics」與本句語境不同。",
-        "generate-mcq-90": "「生成元 mathematics」與本句語境不同。",
-        "generate-mcq-87": "「世代時間 biology」與本句語境不同。",
-        "generate-mcq-91": "「再生；復興 restore/grow again」與本句語境不同。",
-        "generate-mcq-86": "「下一代／新一代的 technology」與本句語境不同。"
+        "generate-mcq-89": "本句的「generating」指「生成集 mathematics」。",
+        "generate-mcq-86": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-mcq-89"
     },
@@ -6876,11 +6224,9 @@ export default {
       "masked": "The group has a single ____.",
       "options": [
         "generate-pdf-plain-103",
-        "generate-mcq-37",
-        "generate-mcq-39",
-        "generate-mcq-36",
-        "generate-mcq-40",
-        "generate-mcq-41"
+        "generate-mcq-82",
+        "generate-mcq-35",
+        "generate-mcq-13"
       ],
       "explanation": "本句的「generator」指「生成元」。",
       "sentenceIndex": 197,
@@ -6889,12 +6235,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-pdf-plain-103": "本句指「生成元」。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-36": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。"
+        "generate-pdf-plain-103": "本句的「generator」指「生成元」。",
+        "generate-mcq-82": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-103"
     },
@@ -6906,11 +6250,9 @@ export default {
       "masked": "Repeated application of the ____ produces the other elements.",
       "options": [
         "generate-pdf-plain-103",
-        "generate-mcq-37",
-        "generate-mcq-39",
-        "generate-mcq-36",
-        "generate-mcq-40",
-        "generate-mcq-41"
+        "generate-mcq-87",
+        "generate-mcq-35",
+        "generate-mcq-19"
       ],
       "explanation": "本句的「generator」指「生成元」。",
       "sentenceIndex": 198,
@@ -6919,12 +6261,10 @@ export default {
         "generator"
       ],
       "optionReasons": {
-        "generate-pdf-plain-103": "本句指「生成元」。",
-        "generate-mcq-37": "「產生電力／動力 energy」與本句語境不同。",
-        "generate-mcq-39": "「後備發電機 electricity」與本句語境不同。",
-        "generate-mcq-36": "「發電 electricity」與本句語境不同。",
-        "generate-mcq-40": "「產生熱力 physics」與本句語境不同。",
-        "generate-mcq-41": "「產生光 physics」與本句語境不同。"
+        "generate-pdf-plain-103": "本句的「generator」指「生成元」。",
+        "generate-mcq-87": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "generate-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generate-pdf-plain-103"
     }
@@ -6936,5 +6276,7 @@ export default {
     "sha256": "d0d25e912118f517f5a709f0588d774663af14a0f29a9ba3704343ab3aa6e4ea",
     "pages": 76
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

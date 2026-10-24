@@ -222,16 +222,6 @@ export default {
       "note": "來源詞義：給人／物加上號碼作排列或識別",
       "examples": [
         [
-          "What shoe number do you wear?",
-          "你穿甚麼鞋碼？",
-          "給人／物加上號碼作排列或識別"
-        ],
-        [
-          "This model comes in several numbered sizes.",
-          "這款型號有幾個不同的號碼尺寸。",
-          "給人／物加上號碼作排列或識別"
-        ],
-        [
           "Please number the pages.",
           "請給頁面編號。",
           "給人／物加上號碼作排列或識別"
@@ -275,16 +265,6 @@ export default {
       "zh": "排名第一；最重要／首要的",
       "note": "來源詞義：排名第一；最重要／首要的",
       "examples": [
-        [
-          "She numbers several famous writers among her friends.",
-          "她的朋友當中包括幾位著名作家。",
-          "排名第一；最重要／首要的"
-        ],
-        [
-          "The city numbers many historic buildings among its attractions.",
-          "這座城市的景點中包括不少歷史建築。",
-          "排名第一；最重要／首要的"
-        ],
         [
           "Quality is our number one priority.",
           "品質是我們的首要考慮。",
@@ -437,6 +417,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "number-reviewed-0d2c537756",
+      "title": "尺碼號數；型號",
+      "form": "number · source section 16",
+      "en": "尺碼號數；型號",
+      "zh": "尺碼號數；型號",
+      "note": "對照原始教材第 16 節及例句核實。",
+      "examples": [
+        [
+          "What shoe number do you wear?",
+          "你穿甚麼鞋碼？",
+          "尺碼號數；型號"
+        ],
+        [
+          "This model comes in several numbered sizes.",
+          "這款型號有幾個不同的號碼尺寸。",
+          "尺碼號數；型號"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "number-reviewed-e40fe2b1c7",
+      "title": "把 X 算作 Y 之中的一員",
+      "form": "number · source section 19",
+      "en": "把 X 算作 Y 之中的一員",
+      "zh": "把 X 算作 Y 之中的一員",
+      "note": "對照原始教材第 19 節及例句核實。",
+      "examples": [
+        [
+          "She numbers several famous writers among her friends.",
+          "她的朋友當中包括幾位著名作家。",
+          "把 X 算作 Y 之中的一員"
+        ],
+        [
+          "The city numbers many historic buildings among its attractions.",
+          "這座城市的景點中包括不少歷史建築。",
+          "把 X 算作 Y 之中的一員"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -448,11 +472,9 @@ export default {
       "masked": "Seven is my favourite ____.",
       "options": [
         "number-mcq-01",
-        "number-mcq-02",
-        "number-mcq-03",
-        "number-mcq-04",
-        "number-mcq-05",
-        "number-mcq-06"
+        "number-pdf-002",
+        "number-mcq-12",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「用來表示數量、次序或數學值的數字／數」。",
       "sentenceIndex": 0,
@@ -461,12 +483,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-01": "本句指「用來表示數量、次序或數學值的數字／數」。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-01": "本句的「number」指「用來表示數量、次序或數學值的數字／數」。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-01"
     },
@@ -478,11 +498,9 @@ export default {
       "masked": "Write the ____ at the top of the page.",
       "options": [
         "number-mcq-01",
-        "number-mcq-02",
-        "number-mcq-03",
-        "number-mcq-04",
-        "number-mcq-05",
-        "number-mcq-06"
+        "number-pdf-002",
+        "number-mcq-12",
+        "number-mcq-10"
       ],
       "explanation": "本句的「number」指「用來表示數量、次序或數學值的數字／數」。",
       "sentenceIndex": 1,
@@ -491,12 +509,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-01": "本句指「用來表示數量、次序或數學值的數字／數」。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-01": "本句的「number」指「用來表示數量、次序或數學值的數字／數」。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-01"
     },
@@ -508,11 +524,9 @@ export default {
       "masked": "The ____ of views increased rapidly.",
       "options": [
         "number-mcq-02",
-        "number-mcq-01",
-        "number-mcq-03",
-        "number-mcq-04",
-        "number-mcq-05",
-        "number-mcq-06"
+        "number-mcq-10",
+        "number-reviewed-e40fe2b1c7",
+        "number-mcq-08"
       ],
       "explanation": "本句的「number」指「某一群人／物的數量」。",
       "sentenceIndex": 2,
@@ -521,12 +535,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-02": "本句指「某一群人／物的數量」。",
-        "number-mcq-01": "「用來表示數量、次序或數學值的數字／數」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-02": "本句的「number」指「某一群人／物的數量」。",
+        "number-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-02"
     },
@@ -538,11 +550,9 @@ export default {
       "masked": "A large ____ of students watched the video.",
       "options": [
         "number-mcq-02",
-        "number-mcq-01",
-        "number-mcq-03",
+        "number-mcq-08",
         "number-mcq-04",
-        "number-mcq-05",
-        "number-mcq-06"
+        "number-mcq-12"
       ],
       "explanation": "本句的「number」指「某一群人／物的數量」。",
       "sentenceIndex": 3,
@@ -551,12 +561,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-02": "本句指「某一群人／物的數量」。",
-        "number-mcq-01": "「用來表示數量、次序或數學值的數字／數」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-02": "本句的「number」指「某一群人／物的數量」。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-02"
     },
@@ -568,11 +576,9 @@ export default {
       "masked": "I kept checking the latest ____.",
       "options": [
         "number-mcq-03",
-        "number-mcq-02",
-        "number-mcq-04",
-        "number-mcq-01",
-        "number-mcq-05",
-        "number-mcq-06"
+        "number-reviewed-e40fe2b1c7",
+        "number-mcq-10",
+        "number-pdf-002"
       ],
       "explanation": "本句的「numbers」指「用數字表示的統計、業績或衡量指標」。",
       "sentenceIndex": 4,
@@ -581,12 +587,10 @@ export default {
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-03": "本句指「用數字表示的統計、業績或衡量指標」。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-01": "「用來表示數量、次序或數學值的數字／數」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-03": "本句的「numbers」指「用數字表示的統計、業績或衡量指標」。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-03"
     },
@@ -598,11 +602,9 @@ export default {
       "masked": "The sales ____ looked strong.",
       "options": [
         "number-mcq-03",
-        "number-mcq-02",
-        "number-mcq-04",
-        "number-mcq-01",
-        "number-mcq-05",
-        "number-mcq-06"
+        "number-reviewed-e40fe2b1c7",
+        "number-mcq-10",
+        "number-mcq-12"
       ],
       "explanation": "本句的「numbers」指「用數字表示的統計、業績或衡量指標」。",
       "sentenceIndex": 5,
@@ -611,12 +613,10 @@ export default {
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-03": "本句指「用數字表示的統計、業績或衡量指標」。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-01": "「用來表示數量、次序或數學值的數字／數」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-03": "本句的「numbers」指「用數字表示的統計、業績或衡量指標」。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-03"
     },
@@ -628,11 +628,9 @@ export default {
       "masked": "What is your phone ____?",
       "options": [
         "number-mcq-04",
-        "number-mcq-03",
-        "number-mcq-05",
-        "number-mcq-02",
-        "number-mcq-06",
-        "number-mcq-01"
+        "number-mcq-12",
+        "number-mcq-09",
+        "number-mcq-08"
       ],
       "explanation": "本句的「number」指「用來聯絡某部電話／手機的一串號碼」。",
       "sentenceIndex": 6,
@@ -641,12 +639,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-04": "本句指「用來聯絡某部電話／手機的一串號碼」。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-01": "「用來表示數量、次序或數學值的數字／數」與本句語境不同。"
+        "number-mcq-04": "本句的「number」指「用來聯絡某部電話／手機的一串號碼」。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-04"
     },
@@ -658,11 +654,9 @@ export default {
       "masked": "I saved her ____ in my phone.",
       "options": [
         "number-mcq-04",
-        "number-mcq-03",
-        "number-mcq-05",
-        "number-mcq-02",
-        "number-mcq-06",
-        "number-mcq-01"
+        "number-mcq-12",
+        "number-mcq-07",
+        "number-mcq-09"
       ],
       "explanation": "本句的「number」指「用來聯絡某部電話／手機的一串號碼」。",
       "sentenceIndex": 7,
@@ -671,12 +665,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-04": "本句指「用來聯絡某部電話／手機的一串號碼」。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-01": "「用來表示數量、次序或數學值的數字／數」與本句語境不同。"
+        "number-mcq-04": "本句的「number」指「用來聯絡某部電話／手機的一串號碼」。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-04"
     },
@@ -688,11 +680,9 @@ export default {
       "masked": "Please enter your student ____.",
       "options": [
         "number-mcq-05",
-        "number-mcq-04",
-        "number-mcq-06",
-        "number-mcq-03",
-        "number-mcq-07",
-        "number-mcq-02"
+        "number-reviewed-e40fe2b1c7",
+        "number-mcq-13",
+        "number-mcq-08"
       ],
       "explanation": "本句的「number」指「用來識別人、物件、文件或帳戶的編號」。",
       "sentenceIndex": 8,
@@ -701,12 +691,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-05": "本句指「用來識別人、物件、文件或帳戶的編號」。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。"
+        "number-mcq-05": "本句的「number」指「用來識別人、物件、文件或帳戶的編號」。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-05"
     },
@@ -718,11 +706,9 @@ export default {
       "masked": "The parcel has a tracking ____.",
       "options": [
         "number-mcq-05",
-        "number-mcq-04",
-        "number-mcq-06",
-        "number-mcq-03",
-        "number-mcq-07",
-        "number-mcq-02"
+        "number-mcq-12",
+        "number-pdf-005",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「用來識別人、物件、文件或帳戶的編號」。",
       "sentenceIndex": 9,
@@ -731,12 +717,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-05": "本句指「用來識別人、物件、文件或帳戶的編號」。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。"
+        "number-mcq-05": "本句的「number」指「用來識別人、物件、文件或帳戶的編號」。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-05"
     },
@@ -748,11 +732,9 @@ export default {
       "masked": "She lives at ____ 18.",
       "options": [
         "number-pdf-001",
-        "number-mcq-04",
-        "number-mcq-06",
-        "number-mcq-03",
+        "number-mcq-12",
         "number-mcq-07",
-        "number-mcq-02"
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「用來表示次序、地址、路線或識別位置的號碼」。",
       "sentenceIndex": 10,
@@ -761,12 +743,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-pdf-001": "本句指「用來表示次序、地址、路線或識別位置的號碼」。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。"
+        "number-pdf-001": "本句的「number」指「用來表示次序、地址、路線或識別位置的號碼」。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-001"
     },
@@ -778,11 +758,9 @@ export default {
       "masked": "Bus ____ 12 stops here.",
       "options": [
         "number-pdf-001",
-        "number-mcq-04",
-        "number-mcq-06",
-        "number-mcq-03",
-        "number-mcq-07",
-        "number-mcq-02"
+        "number-mcq-09",
+        "number-pdf-002",
+        "number-mcq-07"
       ],
       "explanation": "本句的「number」指「用來表示次序、地址、路線或識別位置的號碼」。",
       "sentenceIndex": 11,
@@ -791,12 +769,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-pdf-001": "本句指「用來表示次序、地址、路線或識別位置的號碼」。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-02": "「某一群人／物的數量」與本句語境不同。"
+        "number-pdf-001": "本句的「number」指「用來表示次序、地址、路線或識別位置的號碼」。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-001"
     },
@@ -809,10 +785,8 @@ export default {
       "options": [
         "number-mcq-06",
         "number-mcq-05",
-        "number-mcq-07",
-        "number-mcq-04",
-        "number-mcq-08",
-        "number-mcq-03"
+        "number-mcq-12",
+        "number-pdf-002"
       ],
       "explanation": "本句的「number」指「一些／若干數量的」。",
       "sentenceIndex": 12,
@@ -821,12 +795,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-06": "本句指「一些／若干數量的」。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。"
+        "number-mcq-06": "本句的「number」指「一些／若干數量的」。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-06"
     },
@@ -838,11 +810,9 @@ export default {
       "masked": "Several ____ were missing from the sequence.",
       "options": [
         "number-mcq-06",
-        "number-mcq-05",
-        "number-mcq-07",
-        "number-mcq-04",
-        "number-mcq-08",
-        "number-mcq-03"
+        "number-pdf-001",
+        "number-reviewed-e40fe2b1c7",
+        "number-mcq-12"
       ],
       "explanation": "本句的「numbers」指「一些／若干數量的」。",
       "sentenceIndex": 13,
@@ -851,12 +821,10 @@ export default {
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-06": "本句指「一些／若干數量的」。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。"
+        "number-mcq-06": "本句的「numbers」指「一些／若干數量的」。",
+        "number-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-06"
     },
@@ -868,11 +836,9 @@ export default {
       "masked": "A small ____ of people stayed behind.",
       "options": [
         "number-mcq-06",
-        "number-mcq-05",
-        "number-mcq-07",
-        "number-mcq-04",
-        "number-mcq-08",
-        "number-mcq-03"
+        "number-pdf-004",
+        "number-mcq-12",
+        "number-mcq-08"
       ],
       "explanation": "本句的「number」指「一些／若干數量的」。",
       "sentenceIndex": 14,
@@ -881,12 +847,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-06": "本句指「一些／若干數量的」。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。"
+        "number-mcq-06": "本句的「number」指「一些／若干數量的」。",
+        "number-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-06"
     },
@@ -898,11 +862,9 @@ export default {
       "masked": "A ____ of students complained.",
       "options": [
         "number-mcq-06",
+        "number-pdf-002",
         "number-mcq-05",
-        "number-mcq-07",
-        "number-mcq-04",
-        "number-mcq-08",
-        "number-mcq-03"
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「一些／若干數量的」。",
       "sentenceIndex": 15,
@@ -911,12 +873,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-06": "本句指「一些／若干數量的」。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-03": "「用數字表示的統計、業績或衡量指標」與本句語境不同。"
+        "number-mcq-06": "本句的「number」指「一些／若干數量的」。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-06"
     },
@@ -928,10 +888,8 @@ export default {
       "masked": "The ____ is increasing.",
       "options": [
         "number-mcq-07",
-        "number-mcq-06",
         "number-mcq-08",
-        "number-mcq-05",
-        "number-mcq-09",
+        "number-reviewed-e40fe2b1c7",
         "number-mcq-04"
       ],
       "explanation": "本句的「number of students」指「某群體／事物的總數」。",
@@ -941,12 +899,10 @@ export default {
         "number of students"
       ],
       "optionReasons": {
-        "number-mcq-07": "本句指「某群體／事物的總數」。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。"
+        "number-mcq-07": "本句的「number of students」指「某群體／事物的總數」。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-07"
     },
@@ -958,11 +914,9 @@ export default {
       "masked": "The ____ of comments doubled.",
       "options": [
         "number-mcq-07",
-        "number-mcq-06",
-        "number-mcq-08",
-        "number-mcq-05",
-        "number-mcq-09",
-        "number-mcq-04"
+        "number-pdf-002",
+        "number-mcq-12",
+        "number-pdf-001"
       ],
       "explanation": "本句的「number」指「某群體／事物的總數」。",
       "sentenceIndex": 17,
@@ -971,12 +925,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-07": "本句指「某群體／事物的總數」。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-04": "「用來聯絡某部電話／手機的一串號碼」與本句語境不同。"
+        "number-mcq-07": "本句的「number」指「某群體／事物的總數」。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-07"
     },
@@ -988,11 +940,9 @@ export default {
       "masked": "The singer performed her final ____.",
       "options": [
         "number-mcq-08",
-        "number-mcq-07",
         "number-mcq-09",
-        "number-mcq-06",
-        "number-mcq-10",
-        "number-mcq-05"
+        "number-mcq-07",
+        "number-pdf-001"
       ],
       "explanation": "本句的「number」指「演出中的一首歌、一段舞蹈或一個表演項目」。",
       "sentenceIndex": 18,
@@ -1001,12 +951,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-08": "本句指「演出中的一首歌、一段舞蹈或一個表演項目」。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。"
+        "number-mcq-08": "本句的「number」指「演出中的一首歌、一段舞蹈或一個表演項目」。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-08"
     },
@@ -1018,11 +966,9 @@ export default {
       "masked": "The dance ____ was the highlight of the show.",
       "options": [
         "number-mcq-08",
-        "number-mcq-07",
-        "number-mcq-09",
         "number-mcq-06",
-        "number-mcq-10",
-        "number-mcq-05"
+        "number-mcq-05",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「演出中的一首歌、一段舞蹈或一個表演項目」。",
       "sentenceIndex": 19,
@@ -1031,12 +977,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-08": "本句指「演出中的一首歌、一段舞蹈或一個表演項目」。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-05": "「用來識別人、物件、文件或帳戶的編號」與本句語境不同。"
+        "number-mcq-08": "本句的「number」指「演出中的一首歌、一段舞蹈或一個表演項目」。",
+        "number-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-08"
     },
@@ -1048,11 +992,9 @@ export default {
       "masked": "I found an old ____ of the magazine.",
       "options": [
         "number-pdf-002",
-        "number-mcq-08",
-        "number-mcq-10",
-        "number-mcq-07",
-        "number-mcq-11",
-        "number-mcq-06"
+        "number-mcq-09",
+        "number-reviewed-0d2c537756",
+        "number-pdf-003"
       ],
       "explanation": "本句的「number」指「出版物的一期」。",
       "sentenceIndex": 20,
@@ -1061,12 +1003,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-pdf-002": "本句指「出版物的一期」。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-pdf-002": "本句的「number」指「出版物的一期」。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-0d2c537756": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-002"
     },
@@ -1078,11 +1018,9 @@ export default {
       "masked": "That article appeared in the June ____.",
       "options": [
         "number-pdf-002",
-        "number-mcq-08",
-        "number-mcq-10",
-        "number-mcq-07",
-        "number-mcq-11",
-        "number-mcq-06"
+        "number-mcq-05",
+        "number-mcq-06",
+        "number-mcq-09"
       ],
       "explanation": "本句的「number」指「出版物的一期」。",
       "sentenceIndex": 21,
@@ -1091,12 +1029,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-pdf-002": "本句指「出版物的一期」。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-pdf-002": "本句的「number」指「出版物的一期」。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-002"
     },
@@ -1109,10 +1045,8 @@ export default {
       "options": [
         "number-mcq-09",
         "number-mcq-08",
-        "number-mcq-10",
-        "number-mcq-07",
-        "number-mcq-11",
-        "number-mcq-06"
+        "number-mcq-05",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
       "sentenceIndex": 22,
@@ -1121,12 +1055,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-09": "本句指「名詞／動詞等在單數、複數方面的語法特徵」。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-09": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-09"
     },
@@ -1138,11 +1070,9 @@ export default {
       "masked": "The verb must agree with the subject in ____.",
       "options": [
         "number-mcq-09",
-        "number-mcq-08",
-        "number-mcq-10",
-        "number-mcq-07",
-        "number-mcq-11",
-        "number-mcq-06"
+        "number-pdf-002",
+        "number-mcq-04",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
       "sentenceIndex": 23,
@@ -1151,12 +1081,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-09": "本句指「名詞／動詞等在單數、複數方面的語法特徵」。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-mcq-09": "本句的「number」指「名詞／動詞等在單數、複數方面的語法特徵」。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-09"
     },
@@ -1169,10 +1097,8 @@ export default {
       "options": [
         "number-pdf-003",
         "number-mcq-08",
-        "number-mcq-10",
-        "number-mcq-07",
-        "number-mcq-11",
-        "number-mcq-06"
+        "number-mcq-04",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「numbers」指「數學中表示量、位置或關係的抽象數值」。",
       "sentenceIndex": 24,
@@ -1181,12 +1107,10 @@ export default {
         "numbers"
       ],
       "optionReasons": {
-        "number-pdf-003": "本句指「數學中表示量、位置或關係的抽象數值」。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-pdf-003": "本句的「numbers」指「數學中表示量、位置或關係的抽象數值」。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-003"
     },
@@ -1198,11 +1122,9 @@ export default {
       "masked": "This is an irrational ____.",
       "options": [
         "number-pdf-003",
-        "number-mcq-08",
-        "number-mcq-10",
-        "number-mcq-07",
-        "number-mcq-11",
-        "number-mcq-06"
+        "number-mcq-05",
+        "number-pdf-002",
+        "number-mcq-12"
       ],
       "explanation": "本句的「number」指「數學中表示量、位置或關係的抽象數值」。",
       "sentenceIndex": 25,
@@ -1211,12 +1133,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-pdf-003": "本句指「數學中表示量、位置或關係的抽象數值」。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-06": "「一些／若干數量的」與本句語境不同。"
+        "number-pdf-003": "本句的「number」指「數學中表示量、位置或關係的抽象數值」。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-003"
     },
@@ -1228,11 +1148,9 @@ export default {
       "masked": "She wears ____ 10.",
       "options": [
         "number-pdf-004",
-        "number-mcq-09",
-        "number-mcq-11",
+        "number-mcq-06",
         "number-mcq-08",
-        "number-mcq-12",
-        "number-mcq-07"
+        "number-mcq-09"
       ],
       "explanation": "本句的「number」指「用來識別球員／參賽者的號碼」。",
       "sentenceIndex": 26,
@@ -1241,12 +1159,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-pdf-004": "本句指「用來識別球員／參賽者的號碼」。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
+        "number-pdf-004": "本句的「number」指「用來識別球員／參賽者的號碼」。",
+        "number-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-004"
     },
@@ -1258,11 +1174,9 @@ export default {
       "masked": "____ 7 scored the winning goal.",
       "options": [
         "number-pdf-004",
+        "number-pdf-003",
         "number-mcq-09",
-        "number-mcq-11",
-        "number-mcq-08",
-        "number-mcq-12",
-        "number-mcq-07"
+        "number-mcq-08"
       ],
       "explanation": "本句的「Number」指「用來識別球員／參賽者的號碼」。",
       "sentenceIndex": 27,
@@ -1271,74 +1185,68 @@ export default {
         "Number"
       ],
       "optionReasons": {
-        "number-pdf-004": "本句指「用來識別球員／參賽者的號碼」。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
+        "number-pdf-004": "本句的「Number」指「用來識別球員／參賽者的號碼」。",
+        "number-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-004"
     },
     {
       "id": "number-16-0",
-      "sense": "number-mcq-10",
+      "sense": "number-reviewed-0d2c537756",
       "en": "What shoe number do you wear?",
       "zh": "你穿甚麼鞋碼？",
       "masked": "What shoe ____ do you wear?",
       "options": [
-        "number-mcq-10",
-        "number-mcq-09",
-        "number-mcq-11",
-        "number-mcq-08",
+        "number-reviewed-0d2c537756",
         "number-mcq-12",
-        "number-mcq-07"
+        "number-mcq-08",
+        "number-reviewed-e40fe2b1c7"
       ],
-      "explanation": "本句的「number」指「給人／物加上號碼作排列或識別」。",
+      "explanation": "對照完整句子：「你穿甚麼鞋碼？」。這裡的「number」表示「尺碼號數；型號」。",
       "sentenceIndex": 28,
       "sourcePractice": 29,
       "targets": [
         "number"
       ],
       "optionReasons": {
-        "number-mcq-10": "本句指「給人／物加上號碼作排列或識別」。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
+        "number-reviewed-0d2c537756": "對照完整句子：「你穿甚麼鞋碼？」。這裡的「number」表示「尺碼號數；型號」。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "number-mcq-10"
+      "correctOption": "number-reviewed-0d2c537756",
+      "previousCorrectOption": "number-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "number-16-1",
-      "sense": "number-mcq-10",
+      "sense": "number-reviewed-0d2c537756",
       "en": "This model comes in several numbered sizes.",
       "zh": "這款型號有幾個不同的號碼尺寸。",
       "masked": "This model comes in several ____ sizes.",
       "options": [
-        "number-mcq-10",
-        "number-mcq-09",
-        "number-mcq-11",
+        "number-reviewed-0d2c537756",
+        "number-reviewed-e40fe2b1c7",
         "number-mcq-08",
-        "number-mcq-12",
-        "number-mcq-07"
+        "number-mcq-12"
       ],
-      "explanation": "本句的「numbered」指「給人／物加上號碼作排列或識別」。",
+      "explanation": "對照完整句子：「這款型號有幾個不同的號碼尺寸。」。這裡的「numbered」表示「尺碼號數；型號」。",
       "sentenceIndex": 29,
       "sourcePractice": 30,
       "targets": [
         "numbered"
       ],
       "optionReasons": {
-        "number-mcq-10": "本句指「給人／物加上號碼作排列或識別」。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
+        "number-reviewed-0d2c537756": "對照完整句子：「這款型號有幾個不同的號碼尺寸。」。這裡的「numbered」表示「尺碼號數；型號」。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "number-mcq-10"
+      "correctOption": "number-reviewed-0d2c537756",
+      "previousCorrectOption": "number-mcq-10",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "number-17-0",
@@ -1348,11 +1256,9 @@ export default {
       "masked": "Please ____ the pages.",
       "options": [
         "number-mcq-10",
-        "number-mcq-09",
-        "number-mcq-11",
-        "number-mcq-08",
-        "number-mcq-12",
-        "number-mcq-07"
+        "number-mcq-03",
+        "number-pdf-002",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number」指「給人／物加上號碼作排列或識別」。",
       "sentenceIndex": 30,
@@ -1361,12 +1267,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-10": "本句指「給人／物加上號碼作排列或識別」。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
+        "number-mcq-10": "本句的「number」指「給人／物加上號碼作排列或識別」。",
+        "number-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-10"
     },
@@ -1378,11 +1282,9 @@ export default {
       "masked": "The seats are ____ from 1 to 50.",
       "options": [
         "number-mcq-10",
-        "number-mcq-09",
+        "number-pdf-002",
         "number-mcq-11",
-        "number-mcq-08",
-        "number-mcq-12",
-        "number-mcq-07"
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「numbered」指「給人／物加上號碼作排列或識別」。",
       "sentenceIndex": 31,
@@ -1391,12 +1293,10 @@ export default {
         "numbered"
       ],
       "optionReasons": {
-        "number-mcq-10": "本句指「給人／物加上號碼作排列或識別」。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-07": "「某群體／事物的總數」與本句語境不同。"
+        "number-mcq-10": "本句的「numbered」指「給人／物加上號碼作排列或識別」。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-10"
     },
@@ -1408,10 +1308,8 @@ export default {
       "masked": "The audience ____ more than 2,000.",
       "options": [
         "number-mcq-11",
-        "number-mcq-10",
         "number-mcq-12",
-        "number-mcq-09",
-        "number-mcq-13",
+        "number-reviewed-e40fe2b1c7",
         "number-mcq-08"
       ],
       "explanation": "本句的「numbered」指「總數達到某個數量」。",
@@ -1421,12 +1319,10 @@ export default {
         "numbered"
       ],
       "optionReasons": {
-        "number-mcq-11": "本句指「總數達到某個數量」。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。"
+        "number-mcq-11": "本句的「numbered」指「總數達到某個數量」。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-11"
     },
@@ -1438,11 +1334,9 @@ export default {
       "masked": "The collection ____ nearly 500 items.",
       "options": [
         "number-mcq-11",
-        "number-mcq-10",
-        "number-mcq-12",
-        "number-mcq-09",
-        "number-mcq-13",
-        "number-mcq-08"
+        "number-pdf-001",
+        "number-reviewed-e40fe2b1c7",
+        "number-pdf-002"
       ],
       "explanation": "本句的「numbers」指「總數達到某個數量」。",
       "sentenceIndex": 33,
@@ -1451,74 +1345,68 @@ export default {
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-11": "本句指「總數達到某個數量」。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-08": "「演出中的一首歌、一段舞蹈或一個表演項目」與本句語境不同。"
+        "number-mcq-11": "本句的「numbers」指「總數達到某個數量」。",
+        "number-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-11"
     },
     {
       "id": "number-19-0",
-      "sense": "number-mcq-12",
+      "sense": "number-reviewed-e40fe2b1c7",
       "en": "She numbers several famous writers among her friends.",
       "zh": "她的朋友當中包括幾位著名作家。",
       "masked": "She ____ several famous writers among her friends.",
       "options": [
-        "number-mcq-12",
-        "number-mcq-11",
-        "number-mcq-13",
-        "number-mcq-10",
-        "number-mcq-14",
-        "number-mcq-09"
+        "number-reviewed-e40fe2b1c7",
+        "number-mcq-06",
+        "number-mcq-08",
+        "number-mcq-05"
       ],
-      "explanation": "本句的「numbers」指「排名第一；最重要／首要的」。",
+      "explanation": "對照完整句子：「她的朋友當中包括幾位著名作家。」。這裡的「numbers」表示「把 X 算作 Y 之中的一員」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-12": "本句指「排名第一；最重要／首要的」。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-14": "「數量很多的」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-reviewed-e40fe2b1c7": "對照完整句子：「她的朋友當中包括幾位著名作家。」。這裡的「numbers」表示「把 X 算作 Y 之中的一員」。",
+        "number-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "number-mcq-12"
+      "correctOption": "number-reviewed-e40fe2b1c7",
+      "previousCorrectOption": "number-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "number-19-1",
-      "sense": "number-mcq-12",
+      "sense": "number-reviewed-e40fe2b1c7",
       "en": "The city numbers many historic buildings among its attractions.",
       "zh": "這座城市的景點中包括不少歷史建築。",
       "masked": "The city ____ many historic buildings among its attractions.",
       "options": [
-        "number-mcq-12",
-        "number-mcq-11",
-        "number-mcq-13",
-        "number-mcq-10",
-        "number-mcq-14",
-        "number-mcq-09"
+        "number-reviewed-e40fe2b1c7",
+        "number-pdf-005",
+        "number-mcq-09",
+        "number-pdf-001"
       ],
-      "explanation": "本句的「numbers」指「排名第一；最重要／首要的」。",
+      "explanation": "對照完整句子：「這座城市的景點中包括不少歷史建築。」。這裡的「numbers」表示「把 X 算作 Y 之中的一員」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "numbers"
       ],
       "optionReasons": {
-        "number-mcq-12": "本句指「排名第一；最重要／首要的」。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-14": "「數量很多的」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-reviewed-e40fe2b1c7": "對照完整句子：「這座城市的景點中包括不少歷史建築。」。這裡的「numbers」表示「把 X 算作 Y 之中的一員」。",
+        "number-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "number-mcq-12"
+      "correctOption": "number-reviewed-e40fe2b1c7",
+      "previousCorrectOption": "number-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "number-20-0",
@@ -1528,11 +1416,9 @@ export default {
       "masked": "The report contains ____ data.",
       "options": [
         "number-mcq-13",
+        "number-mcq-04",
         "number-mcq-12",
-        "number-mcq-14",
-        "number-mcq-11",
-        "number-mcq-10",
-        "number-mcq-09"
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「numerical」指「與數字、數值有關的」。",
       "sentenceIndex": 36,
@@ -1541,12 +1427,10 @@ export default {
         "numerical"
       ],
       "optionReasons": {
-        "number-mcq-13": "本句指「與數字、數值有關的」。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-14": "「數量很多的」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-mcq-13": "本句的「numerical」指「與數字、數值有關的」。",
+        "number-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-13"
     },
@@ -1558,11 +1442,9 @@ export default {
       "masked": "The files are arranged ____.",
       "options": [
         "number-pdf-005",
+        "number-pdf-004",
         "number-mcq-12",
-        "number-mcq-14",
-        "number-mcq-11",
-        "number-mcq-10",
-        "number-mcq-09"
+        "number-mcq-08"
       ],
       "explanation": "本句的「numerically」指「從數量／數值角度而言；按數字方式」。",
       "sentenceIndex": 37,
@@ -1571,12 +1453,10 @@ export default {
         "numerically"
       ],
       "optionReasons": {
-        "number-pdf-005": "本句指「從數量／數值角度而言；按數字方式」。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-14": "「數量很多的」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-pdf-005": "本句的「numerically」指「從數量／數值角度而言；按數字方式」。",
+        "number-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-pdf-005"
     },
@@ -1588,11 +1468,9 @@ export default {
       "masked": "The video received ____ comments.",
       "options": [
         "number-mcq-14",
-        "number-mcq-13",
-        "number-mcq-12",
-        "number-mcq-11",
         "number-mcq-10",
-        "number-mcq-09"
+        "number-pdf-002",
+        "number-mcq-12"
       ],
       "explanation": "本句的「numerous」指「數量很多的」。",
       "sentenceIndex": 38,
@@ -1601,12 +1479,10 @@ export default {
         "numerous"
       ],
       "optionReasons": {
-        "number-mcq-14": "本句指「數量很多的」。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-12": "「排名第一；最重要／首要的」與本句語境不同。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-mcq-14": "本句的「numerous」指「數量很多的」。",
+        "number-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-14"
     },
@@ -1618,11 +1494,9 @@ export default {
       "masked": "Quality is our ____ priority.",
       "options": [
         "number-mcq-12",
-        "number-mcq-11",
-        "number-mcq-13",
-        "number-mcq-10",
         "number-mcq-14",
-        "number-mcq-09"
+        "number-mcq-05",
+        "number-reviewed-e40fe2b1c7"
       ],
       "explanation": "本句的「number one」指「排名第一；最重要／首要的」。",
       "sentenceIndex": 39,
@@ -1631,12 +1505,10 @@ export default {
         "number one"
       ],
       "optionReasons": {
-        "number-mcq-12": "本句指「排名第一；最重要／首要的」。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-14": "「數量很多的」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-mcq-12": "本句的「number one」指「排名第一；最重要／首要的」。",
+        "number-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "number-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "number-reviewed-e40fe2b1c7": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-12"
     },
@@ -1648,11 +1520,9 @@ export default {
       "masked": "The song reached ____ one.",
       "options": [
         "number-mcq-12",
-        "number-mcq-11",
-        "number-mcq-13",
-        "number-mcq-10",
-        "number-mcq-14",
-        "number-mcq-09"
+        "number-mcq-02",
+        "number-pdf-004",
+        "number-pdf-002"
       ],
       "explanation": "本句的「number」指「排名第一；最重要／首要的」。",
       "sentenceIndex": 40,
@@ -1661,12 +1531,10 @@ export default {
         "number"
       ],
       "optionReasons": {
-        "number-mcq-12": "本句指「排名第一；最重要／首要的」。",
-        "number-mcq-11": "「總數達到某個數量」與本句語境不同。",
-        "number-mcq-13": "「與數字、數值有關的」與本句語境不同。",
-        "number-mcq-10": "「給人／物加上號碼作排列或識別」與本句語境不同。",
-        "number-mcq-14": "「數量很多的」與本句語境不同。",
-        "number-mcq-09": "「名詞／動詞等在單數、複數方面的語法特徵」與本句語境不同。"
+        "number-mcq-12": "本句的「number」指「排名第一；最重要／首要的」。",
+        "number-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "number-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "number-mcq-12"
     }
@@ -1678,5 +1546,7 @@ export default {
     "sha256": "4e1151ffd7788752a77264eb14e82902277a91f918601afd27c8318ed6459db1",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

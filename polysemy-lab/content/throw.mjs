@@ -137,16 +137,6 @@ export default {
           "The reporter threw several difficult questions at him.",
           "記者向他拋出了幾個難題。",
           "快速而直接地把目光、問題等投向某人"
-        ],
-        [
-          "He threw a punch.",
-          "他揮出一拳。",
-          "快速而直接地把目光、問題等投向某人"
-        ],
-        [
-          "She threw her arms around him.",
-          "她一下子張開雙臂抱住他。",
-          "快速而直接地把目光、問題等投向某人"
         ]
       ],
       "options": [],
@@ -355,6 +345,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "throw-reviewed-ccd35ecb11",
+      "title": "揮出；打出；做出",
+      "form": "throw · source section 7",
+      "en": "揮出；打出；做出",
+      "zh": "揮出；打出；做出",
+      "note": "對照原始教材第 7 節及例句核實。",
+      "examples": [
+        [
+          "He threw a punch.",
+          "他揮出一拳。",
+          "揮出；打出；做出"
+        ],
+        [
+          "She threw her arms around him.",
+          "她一下子張開雙臂抱住他。",
+          "揮出；打出；做出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -366,11 +378,9 @@ export default {
       "masked": "She ____ the ball to me.",
       "options": [
         "throw-mcq-01",
-        "throw-mcq-02",
-        "throw-mcq-03",
-        "throw-mcq-04",
-        "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-08",
+        "throw-mcq-03"
       ],
       "explanation": "本句的「threw」指「用手／手臂把物件擲向另一位置」。",
       "sentenceIndex": 0,
@@ -379,12 +389,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-01": "本句指「用手／手臂把物件擲向另一位置」。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-01": "本句的「threw」指「用手／手臂把物件擲向另一位置」。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-01"
     },
@@ -396,11 +404,9 @@ export default {
       "masked": "He ____ a stone into the water.",
       "options": [
         "throw-mcq-01",
-        "throw-mcq-02",
-        "throw-mcq-03",
-        "throw-mcq-04",
         "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-mcq-02",
+        "throw-mcq-15"
       ],
       "explanation": "本句的「threw」指「用手／手臂把物件擲向另一位置」。",
       "sentenceIndex": 1,
@@ -409,12 +415,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-01": "本句指「用手／手臂把物件擲向另一位置」。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-01": "本句的「threw」指「用手／手臂把物件擲向另一位置」。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-01"
     },
@@ -426,11 +430,9 @@ export default {
       "masked": "He ____ his coat over the chair.",
       "options": [
         "throw-mcq-02",
-        "throw-mcq-01",
-        "throw-mcq-03",
-        "throw-mcq-04",
-        "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-mcq-12",
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-05"
       ],
       "explanation": "本句的「threw」指「快速、隨意或帶力度地把某物放到某處」。",
       "sentenceIndex": 2,
@@ -439,12 +441,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-02": "本句指「快速、隨意或帶力度地把某物放到某處」。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-02": "本句的「threw」指「快速、隨意或帶力度地把某物放到某處」。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-02"
     },
@@ -456,11 +456,9 @@ export default {
       "masked": "She ____ the papers onto the desk.",
       "options": [
         "throw-mcq-02",
-        "throw-mcq-01",
-        "throw-mcq-03",
-        "throw-mcq-04",
         "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-mcq-07",
+        "throw-mcq-12"
       ],
       "explanation": "本句的「threw」指「快速、隨意或帶力度地把某物放到某處」。",
       "sentenceIndex": 3,
@@ -469,12 +467,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-02": "本句指「快速、隨意或帶力度地把某物放到某處」。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-02": "本句的「threw」指「快速、隨意或帶力度地把某物放到某處」。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-02"
     },
@@ -486,11 +482,9 @@ export default {
       "masked": "I can ____ over a T-shirt.",
       "options": [
         "throw-mcq-03",
-        "throw-mcq-02",
-        "throw-mcq-04",
-        "throw-mcq-01",
-        "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-mcq-10",
+        "throw-mcq-11",
+        "throw-reviewed-ccd35ecb11"
       ],
       "explanation": "本句的「throw it on」指「快速、隨意地把衣服穿上」。",
       "sentenceIndex": 4,
@@ -499,12 +493,10 @@ export default {
         "throw it on"
       ],
       "optionReasons": {
-        "throw-mcq-03": "本句指「快速、隨意地把衣服穿上」。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-03": "本句的「throw it on」指「快速、隨意地把衣服穿上」。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-03"
     },
@@ -516,11 +508,9 @@ export default {
       "masked": "She ____ a sweater and went outside.",
       "options": [
         "throw-mcq-03",
-        "throw-mcq-02",
-        "throw-mcq-04",
-        "throw-mcq-01",
-        "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-13",
+        "throw-mcq-07"
       ],
       "explanation": "本句的「threw on」指「快速、隨意地把衣服穿上」。",
       "sentenceIndex": 5,
@@ -529,12 +519,10 @@ export default {
         "threw on"
       ],
       "optionReasons": {
-        "throw-mcq-03": "本句指「快速、隨意地把衣服穿上」。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-03": "本句的「threw on」指「快速、隨意地把衣服穿上」。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-03"
     },
@@ -546,11 +534,9 @@ export default {
       "masked": "Just ____ a jacket.",
       "options": [
         "throw-mcq-03",
-        "throw-mcq-02",
-        "throw-mcq-04",
-        "throw-mcq-01",
+        "throw-mcq-07",
         "throw-mcq-05",
-        "throw-mcq-06"
+        "throw-mcq-12"
       ],
       "explanation": "本句的「throw on」指「快速、隨意地把衣服穿上」。",
       "sentenceIndex": 6,
@@ -559,12 +545,10 @@ export default {
         "throw on"
       ],
       "optionReasons": {
-        "throw-mcq-03": "本句指「快速、隨意地把衣服穿上」。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-03": "本句的「throw on」指「快速、隨意地把衣服穿上」。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-03"
     },
@@ -576,11 +560,9 @@ export default {
       "masked": "The impact ____ him to the ground.",
       "options": [
         "throw-mcq-04",
-        "throw-mcq-03",
-        "throw-mcq-05",
-        "throw-mcq-02",
-        "throw-mcq-06",
-        "throw-mcq-01"
+        "throw-mcq-12",
+        "throw-mcq-10",
+        "throw-mcq-03"
       ],
       "explanation": "本句的「threw」指「用力量令某人／某物突然移位、倒下或被甩出」。",
       "sentenceIndex": 7,
@@ -589,12 +571,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-04": "本句指「用力量令某人／某物突然移位、倒下或被甩出」。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。"
+        "throw-mcq-04": "本句的「threw」指「用力量令某人／某物突然移位、倒下或被甩出」。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-04"
     },
@@ -606,11 +586,9 @@ export default {
       "masked": "The horse ____ its rider.",
       "options": [
         "throw-mcq-04",
-        "throw-mcq-03",
-        "throw-mcq-05",
-        "throw-mcq-02",
-        "throw-mcq-06",
-        "throw-mcq-01"
+        "throw-mcq-08",
+        "throw-mcq-10",
+        "throw-mcq-13"
       ],
       "explanation": "本句的「threw」指「用力量令某人／某物突然移位、倒下或被甩出」。",
       "sentenceIndex": 8,
@@ -619,12 +597,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-04": "本句指「用力量令某人／某物突然移位、倒下或被甩出」。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-01": "「用手／手臂把物件擲向另一位置」與本句語境不同。"
+        "throw-mcq-04": "本句的「threw」指「用力量令某人／某物突然移位、倒下或被甩出」。",
+        "throw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-04"
     },
@@ -636,11 +612,9 @@ export default {
       "masked": "The news ____ everyone into confusion.",
       "options": [
         "throw-mcq-05",
-        "throw-mcq-04",
-        "throw-mcq-06",
-        "throw-mcq-03",
-        "throw-mcq-07",
-        "throw-mcq-02"
+        "throw-mcq-13",
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-14"
       ],
       "explanation": "本句的「threw」指「突然令某人／某事陷入混亂、恐慌等狀態」。",
       "sentenceIndex": 9,
@@ -649,12 +623,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-05": "本句指「突然令某人／某事陷入混亂、恐慌等狀態」。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。"
+        "throw-mcq-05": "本句的「threw」指「突然令某人／某事陷入混亂、恐慌等狀態」。",
+        "throw-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-05"
     },
@@ -666,11 +638,9 @@ export default {
       "masked": "The sudden change ____ the plan into doubt.",
       "options": [
         "throw-mcq-05",
-        "throw-mcq-04",
-        "throw-mcq-06",
-        "throw-mcq-03",
         "throw-mcq-07",
-        "throw-mcq-02"
+        "throw-mcq-11",
+        "throw-mcq-15"
       ],
       "explanation": "本句的「threw」指「突然令某人／某事陷入混亂、恐慌等狀態」。",
       "sentenceIndex": 10,
@@ -679,12 +649,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-05": "本句指「突然令某人／某事陷入混亂、恐慌等狀態」。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-02": "「快速、隨意或帶力度地把某物放到某處」與本句語境不同。"
+        "throw-mcq-05": "本句的「threw」指「突然令某人／某事陷入混亂、恐慌等狀態」。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-05"
     },
@@ -696,11 +664,9 @@ export default {
       "masked": "She ____ him a quick glance.",
       "options": [
         "throw-mcq-06",
-        "throw-mcq-05",
-        "throw-mcq-07",
-        "throw-mcq-04",
-        "throw-mcq-08",
-        "throw-mcq-03"
+        "throw-mcq-09",
+        "throw-mcq-14",
+        "throw-mcq-15"
       ],
       "explanation": "本句的「threw」指「快速而直接地把目光、問題等投向某人」。",
       "sentenceIndex": 11,
@@ -709,12 +675,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-06": "本句指「快速而直接地把目光、問題等投向某人」。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。"
+        "throw-mcq-06": "本句的「threw」指「快速而直接地把目光、問題等投向某人」。",
+        "throw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-06"
     },
@@ -726,11 +690,9 @@ export default {
       "masked": "The reporter ____ several difficult questions at him.",
       "options": [
         "throw-mcq-06",
-        "throw-mcq-05",
+        "throw-reviewed-ccd35ecb11",
         "throw-mcq-07",
-        "throw-mcq-04",
-        "throw-mcq-08",
-        "throw-mcq-03"
+        "throw-mcq-09"
       ],
       "explanation": "本句的「threw」指「快速而直接地把目光、問題等投向某人」。",
       "sentenceIndex": 12,
@@ -739,74 +701,68 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-06": "本句指「快速而直接地把目光、問題等投向某人」。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。"
+        "throw-mcq-06": "本句的「threw」指「快速而直接地把目光、問題等投向某人」。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-06"
     },
     {
       "id": "throw-07-0",
-      "sense": "throw-mcq-06",
+      "sense": "throw-reviewed-ccd35ecb11",
       "en": "He threw a punch.",
       "zh": "他揮出一拳。",
       "masked": "He ____ a punch.",
       "options": [
-        "throw-mcq-06",
-        "throw-mcq-05",
-        "throw-mcq-07",
-        "throw-mcq-04",
-        "throw-mcq-08",
-        "throw-mcq-03"
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-09",
+        "throw-mcq-10",
+        "throw-mcq-12"
       ],
-      "explanation": "本句的「threw」指「快速而直接地把目光、問題等投向某人」。",
+      "explanation": "對照完整句子：「他揮出一拳。」。這裡的「threw」表示「揮出；打出；做出」。",
       "sentenceIndex": 13,
       "sourcePractice": 14,
       "targets": [
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-06": "本句指「快速而直接地把目光、問題等投向某人」。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。"
+        "throw-reviewed-ccd35ecb11": "對照完整句子：「他揮出一拳。」。這裡的「threw」表示「揮出；打出；做出」。",
+        "throw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "throw-mcq-06"
+      "correctOption": "throw-reviewed-ccd35ecb11",
+      "previousCorrectOption": "throw-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "throw-07-1",
-      "sense": "throw-mcq-06",
+      "sense": "throw-reviewed-ccd35ecb11",
       "en": "She threw her arms around him.",
       "zh": "她一下子張開雙臂抱住他。",
       "masked": "She ____ her arms around him.",
       "options": [
-        "throw-mcq-06",
-        "throw-mcq-05",
-        "throw-mcq-07",
-        "throw-mcq-04",
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-03",
         "throw-mcq-08",
-        "throw-mcq-03"
+        "throw-mcq-09"
       ],
-      "explanation": "本句的「threw」指「快速而直接地把目光、問題等投向某人」。",
+      "explanation": "對照完整句子：「她一下子張開雙臂抱住他。」。這裡的「threw」表示「揮出；打出；做出」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-06": "本句指「快速而直接地把目光、問題等投向某人」。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-03": "「快速、隨意地把衣服穿上」與本句語境不同。"
+        "throw-reviewed-ccd35ecb11": "對照完整句子：「她一下子張開雙臂抱住他。」。這裡的「threw」表示「揮出；打出；做出」。",
+        "throw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "throw-mcq-06"
+      "correctOption": "throw-reviewed-ccd35ecb11",
+      "previousCorrectOption": "throw-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "throw-08-0",
@@ -816,11 +772,9 @@ export default {
       "masked": "They ____ a party for her birthday.",
       "options": [
         "throw-mcq-07",
-        "throw-mcq-06",
+        "throw-reviewed-ccd35ecb11",
         "throw-mcq-08",
-        "throw-mcq-05",
-        "throw-mcq-09",
-        "throw-mcq-04"
+        "throw-mcq-13"
       ],
       "explanation": "本句的「threw」指「舉辦派對／活動」。",
       "sentenceIndex": 15,
@@ -829,12 +783,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-07": "本句指「舉辦派對／活動」。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。"
+        "throw-mcq-07": "本句的「threw」指「舉辦派對／活動」。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-07"
     },
@@ -846,11 +798,9 @@ export default {
       "masked": "The company ____ a celebration after the launch.",
       "options": [
         "throw-mcq-07",
-        "throw-mcq-06",
-        "throw-mcq-08",
-        "throw-mcq-05",
+        "throw-mcq-14",
         "throw-mcq-09",
-        "throw-mcq-04"
+        "throw-reviewed-ccd35ecb11"
       ],
       "explanation": "本句的「threw」指「舉辦派對／活動」。",
       "sentenceIndex": 16,
@@ -859,12 +809,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-07": "本句指「舉辦派對／活動」。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-04": "「用力量令某人／某物突然移位、倒下或被甩出」與本句語境不同。"
+        "throw-mcq-07": "本句的「threw」指「舉辦派對／活動」。",
+        "throw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-07"
     },
@@ -876,11 +824,9 @@ export default {
       "masked": "He was accused of ____ the match.",
       "options": [
         "throw-mcq-08",
-        "throw-mcq-07",
-        "throw-mcq-09",
-        "throw-mcq-06",
-        "throw-mcq-10",
-        "throw-mcq-05"
+        "throw-mcq-12",
+        "throw-mcq-05",
+        "throw-reviewed-ccd35ecb11"
       ],
       "explanation": "本句的「throwing」指「故意輸掉比賽；放水」。",
       "sentenceIndex": 17,
@@ -889,12 +835,10 @@ export default {
         "throwing"
       ],
       "optionReasons": {
-        "throw-mcq-08": "本句指「故意輸掉比賽；放水」。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。"
+        "throw-mcq-08": "本句的「throwing」指「故意輸掉比賽；放水」。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-08"
     },
@@ -906,11 +850,9 @@ export default {
       "masked": "They suspected that the game had been ____.",
       "options": [
         "throw-mcq-08",
-        "throw-mcq-07",
-        "throw-mcq-09",
-        "throw-mcq-06",
         "throw-mcq-10",
-        "throw-mcq-05"
+        "throw-mcq-01",
+        "throw-reviewed-ccd35ecb11"
       ],
       "explanation": "本句的「thrown」指「故意輸掉比賽；放水」。",
       "sentenceIndex": 18,
@@ -919,12 +861,10 @@ export default {
         "thrown"
       ],
       "optionReasons": {
-        "throw-mcq-08": "本句指「故意輸掉比賽；放水」。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-05": "「突然令某人／某事陷入混亂、恐慌等狀態」與本句語境不同。"
+        "throw-mcq-08": "本句的「thrown」指「故意輸掉比賽；放水」。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-08"
     },
@@ -936,11 +876,9 @@ export default {
       "masked": "She learned how to ____ a pot.",
       "options": [
         "throw-mcq-09",
+        "throw-mcq-01",
         "throw-mcq-08",
-        "throw-mcq-10",
-        "throw-mcq-07",
-        "throw-mcq-11",
-        "throw-mcq-06"
+        "throw-mcq-07"
       ],
       "explanation": "本句的「throw」指「在陶輪上把黏土拉坯塑形」。",
       "sentenceIndex": 19,
@@ -949,12 +887,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-09": "本句指「在陶輪上把黏土拉坯塑形」。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-09": "本句的「throw」指「在陶輪上把黏土拉坯塑形」。",
+        "throw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-09"
     },
@@ -966,11 +902,9 @@ export default {
       "masked": "The bowls are individually ____ by hand.",
       "options": [
         "throw-mcq-09",
-        "throw-mcq-08",
-        "throw-mcq-10",
+        "throw-mcq-04",
         "throw-mcq-07",
-        "throw-mcq-11",
-        "throw-mcq-06"
+        "throw-mcq-13"
       ],
       "explanation": "本句的「thrown」指「在陶輪上把黏土拉坯塑形」。",
       "sentenceIndex": 20,
@@ -979,12 +913,10 @@ export default {
         "thrown"
       ],
       "optionReasons": {
-        "throw-mcq-09": "本句指「在陶輪上把黏土拉坯塑形」。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-06": "「快速而直接地把目光、問題等投向某人」與本句語境不同。"
+        "throw-mcq-09": "本句的「thrown」指「在陶輪上把黏土拉坯塑形」。",
+        "throw-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-09"
     },
@@ -996,11 +928,9 @@ export default {
       "masked": "He ____ the switch.",
       "options": [
         "throw-mcq-10",
-        "throw-mcq-09",
-        "throw-mcq-11",
-        "throw-mcq-08",
-        "throw-mcq-12",
-        "throw-mcq-07"
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-14",
+        "throw-mcq-12"
       ],
       "explanation": "本句的「threw」指「扳動／切換機械控制裝置」。",
       "sentenceIndex": 21,
@@ -1009,12 +939,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-10": "本句指「扳動／切換機械控制裝置」。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。"
+        "throw-mcq-10": "本句的「threw」指「扳動／切換機械控制裝置」。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-10"
     },
@@ -1026,11 +954,9 @@ export default {
       "masked": "She ____ the lever forward.",
       "options": [
         "throw-mcq-10",
-        "throw-mcq-09",
-        "throw-mcq-11",
-        "throw-mcq-08",
         "throw-mcq-12",
-        "throw-mcq-07"
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-02"
       ],
       "explanation": "本句的「threw」指「扳動／切換機械控制裝置」。",
       "sentenceIndex": 22,
@@ -1039,12 +965,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-10": "本句指「扳動／切換機械控制裝置」。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-07": "「舉辦派對／活動」與本句語境不同。"
+        "throw-mcq-10": "本句的「threw」指「扳動／切換機械控制裝置」。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-10"
     },
@@ -1057,10 +981,8 @@ export default {
       "options": [
         "throw-mcq-11",
         "throw-mcq-10",
-        "throw-mcq-12",
-        "throw-mcq-09",
-        "throw-mcq-13",
-        "throw-mcq-08"
+        "throw-mcq-03",
+        "throw-mcq-14"
       ],
       "explanation": "本句的「threw」指「投射光線或影子」。",
       "sentenceIndex": 23,
@@ -1069,12 +991,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-11": "本句指「投射光線或影子」。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。"
+        "throw-mcq-11": "本句的「threw」指「投射光線或影子」。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-11"
     },
@@ -1086,11 +1006,9 @@ export default {
       "masked": "The tree ____ a long shadow.",
       "options": [
         "throw-mcq-11",
-        "throw-mcq-10",
-        "throw-mcq-12",
-        "throw-mcq-09",
-        "throw-mcq-13",
-        "throw-mcq-08"
+        "throw-mcq-05",
+        "throw-mcq-03",
+        "throw-mcq-15"
       ],
       "explanation": "本句的「threw」指「投射光線或影子」。",
       "sentenceIndex": 24,
@@ -1099,12 +1017,10 @@ export default {
         "threw"
       ],
       "optionReasons": {
-        "throw-mcq-11": "本句指「投射光線或影子」。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-08": "「故意輸掉比賽；放水」與本句語境不同。"
+        "throw-mcq-11": "本句的「threw」指「投射光線或影子」。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-11"
     },
@@ -1116,11 +1032,9 @@ export default {
       "masked": "He won with his final ____.",
       "options": [
         "throw-mcq-12",
-        "throw-mcq-11",
-        "throw-mcq-13",
+        "throw-mcq-02",
         "throw-mcq-10",
-        "throw-mcq-14",
-        "throw-mcq-09"
+        "throw-mcq-05"
       ],
       "explanation": "本句的「throw」指「一次投擲；亦可指投擲距離」。",
       "sentenceIndex": 26,
@@ -1129,12 +1043,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-12": "本句指「一次投擲；亦可指投擲距離」。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-14": "「把對手摔倒的摔技」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。"
+        "throw-mcq-12": "本句的「throw」指「一次投擲；亦可指投擲距離」。",
+        "throw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-12"
     },
@@ -1146,11 +1058,9 @@ export default {
       "masked": "That was an excellent ____.",
       "options": [
         "throw-mcq-12",
-        "throw-mcq-11",
-        "throw-mcq-13",
-        "throw-mcq-10",
-        "throw-mcq-14",
-        "throw-mcq-09"
+        "throw-reviewed-ccd35ecb11",
+        "throw-mcq-02",
+        "throw-mcq-07"
       ],
       "explanation": "本句的「throw」指「一次投擲；亦可指投擲距離」。",
       "sentenceIndex": 27,
@@ -1159,12 +1069,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-12": "本句指「一次投擲；亦可指投擲距離」。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-14": "「把對手摔倒的摔技」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。"
+        "throw-mcq-12": "本句的「throw」指「一次投擲；亦可指投擲距離」。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-12"
     },
@@ -1176,11 +1084,9 @@ export default {
       "masked": "It was a record ____.",
       "options": [
         "throw-mcq-12",
-        "throw-mcq-11",
-        "throw-mcq-13",
-        "throw-mcq-10",
-        "throw-mcq-14",
-        "throw-mcq-09"
+        "throw-mcq-15",
+        "throw-mcq-05",
+        "throw-mcq-08"
       ],
       "explanation": "本句的「throw」指「一次投擲；亦可指投擲距離」。",
       "sentenceIndex": 28,
@@ -1189,12 +1095,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-12": "本句指「一次投擲；亦可指投擲距離」。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。",
-        "throw-mcq-14": "「把對手摔倒的摔技」與本句語境不同。",
-        "throw-mcq-09": "「在陶輪上把黏土拉坯塑形」與本句語境不同。"
+        "throw-mcq-12": "本句的「throw」指「一次投擲；亦可指投擲距離」。",
+        "throw-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-12"
     },
@@ -1206,11 +1110,9 @@ export default {
       "masked": "He won on the final ____ of the dice.",
       "options": [
         "throw-mcq-13",
-        "throw-mcq-12",
-        "throw-mcq-14",
-        "throw-mcq-11",
-        "throw-mcq-15",
-        "throw-mcq-10"
+        "throw-mcq-03",
+        "throw-mcq-05",
+        "throw-mcq-09"
       ],
       "explanation": "本句的「throw」指「一次擲骰」。",
       "sentenceIndex": 29,
@@ -1219,12 +1121,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-13": "本句指「一次擲骰」。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-14": "「把對手摔倒的摔技」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。",
-        "throw-mcq-15": "「放在床或梳化上的小型裝飾／保暖毯」與本句語境不同。",
-        "throw-mcq-10": "「扳動／切換機械控制裝置」與本句語境不同。"
+        "throw-mcq-13": "本句的「throw」指「一次擲骰」。",
+        "throw-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-13"
     },
@@ -1236,11 +1136,9 @@ export default {
       "masked": "The wrestler won with a powerful ____.",
       "options": [
         "throw-mcq-14",
-        "throw-mcq-13",
-        "throw-mcq-15",
-        "throw-mcq-12",
-        "throw-mcq-16",
-        "throw-mcq-11"
+        "throw-mcq-02",
+        "throw-mcq-11",
+        "throw-mcq-12"
       ],
       "explanation": "本句的「throw」指「把對手摔倒的摔技」。",
       "sentenceIndex": 30,
@@ -1249,12 +1147,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-14": "本句指「把對手摔倒的摔技」。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-15": "「放在床或梳化上的小型裝飾／保暖毯」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-16": "「機械部件的行程／擺幅；專門」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。"
+        "throw-mcq-14": "本句的「throw」指「把對手摔倒的摔技」。",
+        "throw-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-14"
     },
@@ -1266,11 +1162,9 @@ export default {
       "masked": "There was a soft ____ on the sofa.",
       "options": [
         "throw-mcq-15",
-        "throw-mcq-14",
-        "throw-mcq-16",
-        "throw-mcq-13",
-        "throw-mcq-12",
-        "throw-mcq-11"
+        "throw-mcq-01",
+        "throw-mcq-05",
+        "throw-reviewed-ccd35ecb11"
       ],
       "explanation": "本句的「throw」指「放在床或梳化上的小型裝飾／保暖毯」。",
       "sentenceIndex": 31,
@@ -1279,12 +1173,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-15": "本句指「放在床或梳化上的小型裝飾／保暖毯」。",
-        "throw-mcq-14": "「把對手摔倒的摔技」與本句語境不同。",
-        "throw-mcq-16": "「機械部件的行程／擺幅；專門」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。"
+        "throw-mcq-15": "本句的「throw」指「放在床或梳化上的小型裝飾／保暖毯」。",
+        "throw-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-reviewed-ccd35ecb11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-15"
     },
@@ -1296,11 +1188,9 @@ export default {
       "masked": "She bought a wool ____ for the bed.",
       "options": [
         "throw-mcq-15",
-        "throw-mcq-14",
-        "throw-mcq-16",
-        "throw-mcq-13",
-        "throw-mcq-12",
-        "throw-mcq-11"
+        "throw-mcq-05",
+        "throw-mcq-07",
+        "throw-mcq-01"
       ],
       "explanation": "本句的「throw」指「放在床或梳化上的小型裝飾／保暖毯」。",
       "sentenceIndex": 32,
@@ -1309,12 +1199,10 @@ export default {
         "throw"
       ],
       "optionReasons": {
-        "throw-mcq-15": "本句指「放在床或梳化上的小型裝飾／保暖毯」。",
-        "throw-mcq-14": "「把對手摔倒的摔技」與本句語境不同。",
-        "throw-mcq-16": "「機械部件的行程／擺幅；專門」與本句語境不同。",
-        "throw-mcq-13": "「一次擲骰」與本句語境不同。",
-        "throw-mcq-12": "「一次投擲；亦可指投擲距離」與本句語境不同。",
-        "throw-mcq-11": "「投射光線或影子」與本句語境不同。"
+        "throw-mcq-15": "本句的「throw」指「放在床或梳化上的小型裝飾／保暖毯」。",
+        "throw-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "throw-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "throw-mcq-15"
     }
@@ -1326,5 +1214,7 @@ export default {
     "sha256": "f45d439f2e9a1fb93b3a726a3f74e8d394ad8d57313e961b2f7a010d6fd47424",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

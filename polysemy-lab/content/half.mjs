@@ -596,11 +596,9 @@ export default {
       "masked": "He was ____ when he said he wanted to quit.",
       "options": [
         "half-mcq-06",
-        "half-mcq-05",
-        "half-mcq-07",
-        "half-mcq-04",
-        "half-mcq-08",
-        "half-mcq-03"
+        "half-mcq-21",
+        "half-mcq-26",
+        "half-mcq-18"
       ],
       "explanation": "本句的「half joking」指「半開玩笑／半認真」。",
       "sentenceIndex": 0,
@@ -609,12 +607,10 @@ export default {
         "half joking"
       ],
       "optionReasons": {
-        "half-mcq-06": "本句指「半開玩笑／半認真」。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。"
+        "half-mcq-06": "本句的「half joking」指「半開玩笑／半認真」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-06"
     },
@@ -626,11 +622,9 @@ export default {
       "masked": "She gave me a ____ warning.",
       "options": [
         "half-mcq-06",
-        "half-mcq-05",
-        "half-mcq-07",
-        "half-mcq-04",
-        "half-mcq-08",
-        "half-mcq-03"
+        "half-mcq-18",
+        "half-mcq-26",
+        "half-mcq-13"
       ],
       "explanation": "本句的「half-serious」指「半開玩笑／半認真」。",
       "sentenceIndex": 1,
@@ -639,12 +633,10 @@ export default {
         "half-serious"
       ],
       "optionReasons": {
-        "half-mcq-06": "本句指「半開玩笑／半認真」。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。"
+        "half-mcq-06": "本句的「half-serious」指「半開玩笑／半認真」。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-06"
     },
@@ -656,11 +648,9 @@ export default {
       "masked": "I ate ____ of the cake.",
       "options": [
         "half-mcq-01",
-        "half-mcq-02",
-        "half-mcq-03",
-        "half-mcq-04",
-        "half-mcq-05",
-        "half-mcq-06"
+        "half-mcq-22",
+        "half-mcq-21",
+        "half-mcq-11"
       ],
       "explanation": "本句的「half」指「整體的二分之一；一半」。",
       "sentenceIndex": 2,
@@ -669,12 +659,10 @@ export default {
         "half"
       ],
       "optionReasons": {
-        "half-mcq-01": "本句指「整體的二分之一；一半」。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-01": "本句的「half」指「整體的二分之一；一半」。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-01"
     },
@@ -686,11 +674,9 @@ export default {
       "masked": "____ of the students were absent.",
       "options": [
         "half-mcq-01",
-        "half-mcq-02",
-        "half-mcq-03",
-        "half-mcq-04",
-        "half-mcq-05",
-        "half-mcq-06"
+        "half-mcq-21",
+        "half-mcq-12",
+        "half-mcq-13"
       ],
       "explanation": "本句的「Half」指「整體的二分之一；一半」。",
       "sentenceIndex": 3,
@@ -699,12 +685,10 @@ export default {
         "Half"
       ],
       "optionReasons": {
-        "half-mcq-01": "本句指「整體的二分之一；一半」。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-01": "本句的「Half」指「整體的二分之一；一半」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-01"
     },
@@ -716,11 +700,9 @@ export default {
       "masked": "She spent ____ on rent.",
       "options": [
         "half-mcq-02",
-        "half-mcq-01",
-        "half-mcq-03",
-        "half-mcq-04",
-        "half-mcq-05",
-        "half-mcq-06"
+        "half-mcq-11",
+        "half-mcq-21",
+        "half-mcq-22"
       ],
       "explanation": "本句的「half of her salary」指「某物的一半」。",
       "sentenceIndex": 4,
@@ -729,12 +711,10 @@ export default {
         "half of her salary"
       ],
       "optionReasons": {
-        "half-mcq-02": "本句指「某物的一半」。",
-        "half-mcq-01": "「整體的二分之一；一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-02": "本句的「half of her salary」指「某物的一半」。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-02"
     },
@@ -746,11 +726,9 @@ export default {
       "masked": "We used ____.",
       "options": [
         "half-mcq-02",
-        "half-mcq-01",
-        "half-mcq-03",
-        "half-mcq-04",
-        "half-mcq-05",
-        "half-mcq-06"
+        "half-mcq-13",
+        "half-mcq-25",
+        "half-mcq-21"
       ],
       "explanation": "本句的「half of the paper」指「某物的一半」。",
       "sentenceIndex": 5,
@@ -759,12 +737,10 @@ export default {
         "half of the paper"
       ],
       "optionReasons": {
-        "half-mcq-02": "本句指「某物的一半」。",
-        "half-mcq-01": "「整體的二分之一；一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-02": "本句的「half of the paper」指「某物的一半」。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-02"
     },
@@ -776,11 +752,9 @@ export default {
       "masked": "____ passed the test.",
       "options": [
         "half-mcq-03",
-        "half-mcq-02",
-        "half-mcq-04",
-        "half-mcq-01",
-        "half-mcq-05",
-        "half-mcq-06"
+        "half-mcq-22",
+        "half-mcq-25",
+        "half-mcq-11"
       ],
       "explanation": "本句的「Half the class」指「一半的某物／某段時間」。",
       "sentenceIndex": 6,
@@ -789,12 +763,10 @@ export default {
         "Half the class"
       ],
       "optionReasons": {
-        "half-mcq-03": "本句指「一半的某物／某段時間」。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-01": "「整體的二分之一；一半」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-03": "本句的「Half the class」指「一半的某物／某段時間」。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-03"
     },
@@ -806,11 +778,9 @@ export default {
       "masked": "I waited ____.",
       "options": [
         "half-mcq-03",
-        "half-mcq-02",
-        "half-mcq-04",
-        "half-mcq-01",
-        "half-mcq-05",
-        "half-mcq-06"
+        "half-mcq-22",
+        "half-mcq-11",
+        "half-mcq-13"
       ],
       "explanation": "本句的「half an hour」指「一半的某物／某段時間」。",
       "sentenceIndex": 7,
@@ -819,12 +789,10 @@ export default {
         "half an hour"
       ],
       "optionReasons": {
-        "half-mcq-03": "本句指「一半的某物／某段時間」。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-01": "「整體的二分之一；一半」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-03": "本句的「half an hour」指「一半的某物／某段時間」。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-03"
     },
@@ -836,11 +804,9 @@ export default {
       "masked": "The journey took ____.",
       "options": [
         "half-mcq-04",
-        "half-mcq-03",
-        "half-mcq-05",
-        "half-mcq-02",
-        "half-mcq-06",
-        "half-mcq-01"
+        "half-mcq-21",
+        "half-mcq-18",
+        "half-mcq-13"
       ],
       "explanation": "本句的「half an hour」指「半小時／半天／半年」。",
       "sentenceIndex": 8,
@@ -849,12 +815,10 @@ export default {
         "half an hour"
       ],
       "optionReasons": {
-        "half-mcq-04": "本句指「半小時／半天／半年」。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-01": "「整體的二分之一；一半」與本句語境不同。"
+        "half-mcq-04": "本句的「half an hour」指「半小時／半天／半年」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-04"
     },
@@ -866,11 +830,9 @@ export default {
       "masked": "She stayed there for ____.",
       "options": [
         "half-mcq-04",
-        "half-mcq-03",
-        "half-mcq-05",
-        "half-mcq-02",
-        "half-mcq-06",
-        "half-mcq-01"
+        "half-mcq-26",
+        "half-mcq-21",
+        "half-mcq-11"
       ],
       "explanation": "本句的「half a year」指「半小時／半天／半年」。",
       "sentenceIndex": 9,
@@ -879,12 +841,10 @@ export default {
         "half a year"
       ],
       "optionReasons": {
-        "half-mcq-04": "本句指「半小時／半天／半年」。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-01": "「整體的二分之一；一半」與本句語境不同。"
+        "half-mcq-04": "本句的「half a year」指「半小時／半天／半年」。",
+        "half-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-04"
     },
@@ -896,11 +856,9 @@ export default {
       "masked": "I was only ____.",
       "options": [
         "half-mcq-05",
-        "half-mcq-04",
-        "half-mcq-06",
-        "half-mcq-03",
-        "half-mcq-07",
-        "half-mcq-02"
+        "half-mcq-13",
+        "half-mcq-18",
+        "half-mcq-12"
       ],
       "explanation": "本句的「half listening」指「只到某種程度、並非完全；半／部分地」。",
       "sentenceIndex": 10,
@@ -909,12 +867,10 @@ export default {
         "half listening"
       ],
       "optionReasons": {
-        "half-mcq-05": "本句指「只到某種程度、並非完全；半／部分地」。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。"
+        "half-mcq-05": "本句的「half listening」指「只到某種程度、並非完全；半／部分地」。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-05"
     },
@@ -926,11 +882,9 @@ export default {
       "masked": "The door was ____.",
       "options": [
         "half-mcq-05",
-        "half-mcq-04",
-        "half-mcq-06",
-        "half-mcq-03",
-        "half-mcq-07",
-        "half-mcq-02"
+        "half-mcq-12",
+        "half-mcq-13",
+        "half-mcq-18"
       ],
       "explanation": "本句的「half open」指「只到某種程度、並非完全；半／部分地」。",
       "sentenceIndex": 11,
@@ -939,12 +893,10 @@ export default {
         "half open"
       ],
       "optionReasons": {
-        "half-mcq-05": "本句指「只到某種程度、並非完全；半／部分地」。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-02": "「某物的一半」與本句語境不同。"
+        "half-mcq-05": "本句的「half open」指「只到某種程度、並非完全；半／部分地」。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-05"
     },
@@ -956,11 +908,9 @@ export default {
       "masked": "She was ____ when she said she might move abroad.",
       "options": [
         "half-mcq-06",
-        "half-mcq-05",
-        "half-mcq-07",
-        "half-mcq-04",
-        "half-mcq-08",
-        "half-mcq-03"
+        "half-mcq-18",
+        "half-mcq-22",
+        "half-mcq-23"
       ],
       "explanation": "本句的「half joking」指「半開玩笑／半認真」。",
       "sentenceIndex": 12,
@@ -969,12 +919,10 @@ export default {
         "half joking"
       ],
       "optionReasons": {
-        "half-mcq-06": "本句指「半開玩笑／半認真」。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。"
+        "half-mcq-06": "本句的「half joking」指「半開玩笑／半認真」。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-06"
     },
@@ -986,11 +934,9 @@ export default {
       "masked": "His comment was ____.",
       "options": [
         "half-mcq-06",
-        "half-mcq-05",
-        "half-mcq-07",
-        "half-mcq-04",
-        "half-mcq-08",
-        "half-mcq-03"
+        "half-mcq-25",
+        "half-mcq-22",
+        "half-mcq-13"
       ],
       "explanation": "本句的「half serious」指「半開玩笑／半認真」。",
       "sentenceIndex": 13,
@@ -999,12 +945,10 @@ export default {
         "half serious"
       ],
       "optionReasons": {
-        "half-mcq-06": "本句指「半開玩笑／半認真」。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-03": "「一半的某物／某段時間」與本句語境不同。"
+        "half-mcq-06": "本句的「half serious」指「半開玩笑／半認真」。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-06"
     },
@@ -1016,11 +960,9 @@ export default {
       "masked": "I was still ____ when the phone rang.",
       "options": [
         "half-mcq-07",
-        "half-mcq-06",
-        "half-mcq-08",
-        "half-mcq-05",
-        "half-mcq-09",
-        "half-mcq-04"
+        "half-mcq-22",
+        "half-mcq-23",
+        "half-mcq-11"
       ],
       "explanation": "本句的「half asleep」指「半睡半醒／半清醒」。",
       "sentenceIndex": 14,
@@ -1029,12 +971,10 @@ export default {
         "half asleep"
       ],
       "optionReasons": {
-        "half-mcq-07": "本句指「半睡半醒／半清醒」。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。"
+        "half-mcq-07": "本句的「half asleep」指「半睡半醒／半清醒」。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-07"
     },
@@ -1046,11 +986,9 @@ export default {
       "masked": "He lay there ____.",
       "options": [
         "half-mcq-07",
-        "half-mcq-06",
-        "half-mcq-08",
-        "half-mcq-05",
-        "half-mcq-09",
-        "half-mcq-04"
+        "half-mcq-13",
+        "half-mcq-25",
+        "half-mcq-22"
       ],
       "explanation": "本句的「half awake」指「半睡半醒／半清醒」。",
       "sentenceIndex": 15,
@@ -1059,12 +997,10 @@ export default {
         "half awake"
       ],
       "optionReasons": {
-        "half-mcq-07": "本句指「半睡半醒／半清醒」。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-04": "「半小時／半天／半年」與本句語境不同。"
+        "half-mcq-07": "本句的「half awake」指「半睡半醒／半清醒」。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-07"
     },
@@ -1076,11 +1012,9 @@ export default {
       "masked": "Cut the apple into two ____.",
       "options": [
         "half-mcq-08",
-        "half-mcq-07",
-        "half-mcq-09",
-        "half-mcq-06",
-        "half-mcq-10",
-        "half-mcq-05"
+        "half-mcq-25",
+        "half-mcq-21",
+        "half-mcq-12"
       ],
       "explanation": "本句的「halves」指「被分成兩部分後的其中一半」。",
       "sentenceIndex": 16,
@@ -1089,12 +1023,10 @@ export default {
         "halves"
       ],
       "optionReasons": {
-        "half-mcq-08": "本句指「被分成兩部分後的其中一半」。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。"
+        "half-mcq-08": "本句的「halves」指「被分成兩部分後的其中一半」。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-08"
     },
@@ -1106,11 +1038,9 @@ export default {
       "masked": "One ____ of the room was painted blue.",
       "options": [
         "half-mcq-08",
-        "half-mcq-07",
-        "half-mcq-09",
-        "half-mcq-06",
-        "half-mcq-10",
-        "half-mcq-05"
+        "half-mcq-22",
+        "half-mcq-21",
+        "half-mcq-25"
       ],
       "explanation": "本句的「half」指「被分成兩部分後的其中一半」。",
       "sentenceIndex": 17,
@@ -1119,12 +1049,10 @@ export default {
         "half"
       ],
       "optionReasons": {
-        "half-mcq-08": "本句指「被分成兩部分後的其中一半」。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-05": "「只到某種程度、並非完全；半／部分地」與本句語境不同。"
+        "half-mcq-08": "本句的「half」指「被分成兩部分後的其中一半」。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-08"
     },
@@ -1136,11 +1064,9 @@ export default {
       "masked": "They scored twice in the first ____.",
       "options": [
         "half-mcq-09",
-        "half-mcq-08",
-        "half-mcq-10",
-        "half-mcq-07",
         "half-mcq-11",
-        "half-mcq-06"
+        "half-mcq-26",
+        "half-mcq-22"
       ],
       "explanation": "本句的「half」指「球賽兩個主要時段中的一個；半場」。",
       "sentenceIndex": 18,
@@ -1149,12 +1075,10 @@ export default {
         "half"
       ],
       "optionReasons": {
-        "half-mcq-09": "本句指「球賽兩個主要時段中的一個；半場」。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-09": "本句的「half」指「球賽兩個主要時段中的一個；半場」。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-09"
     },
@@ -1166,11 +1090,9 @@ export default {
       "masked": "The second ____ was much more exciting.",
       "options": [
         "half-mcq-09",
-        "half-mcq-08",
-        "half-mcq-10",
-        "half-mcq-07",
-        "half-mcq-11",
-        "half-mcq-06"
+        "half-mcq-12",
+        "half-mcq-21",
+        "half-mcq-25"
       ],
       "explanation": "本句的「half」指「球賽兩個主要時段中的一個；半場」。",
       "sentenceIndex": 19,
@@ -1179,12 +1101,10 @@ export default {
         "half"
       ],
       "optionReasons": {
-        "half-mcq-09": "本句指「球賽兩個主要時段中的一個；半場」。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-06": "「半開玩笑／半認真」與本句語境不同。"
+        "half-mcq-09": "本句的「half」指「球賽兩個主要時段中的一個；半場」。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-09"
     },
@@ -1196,11 +1116,9 @@ export default {
       "masked": "The score was 1–1 at ____.",
       "options": [
         "half-mcq-10",
-        "half-mcq-09",
         "half-mcq-11",
-        "half-mcq-08",
-        "half-mcq-12",
-        "half-mcq-07"
+        "half-mcq-22",
+        "half-mcq-25"
       ],
       "explanation": "本句的「half-time」指「上下半場之間的中場休息」。",
       "sentenceIndex": 20,
@@ -1209,12 +1127,10 @@ export default {
         "half-time"
       ],
       "optionReasons": {
-        "half-mcq-10": "本句指「上下半場之間的中場休息」。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。"
+        "half-mcq-10": "本句的「half-time」指「上下半場之間的中場休息」。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-10"
     },
@@ -1226,11 +1142,9 @@ export default {
       "masked": "The coach changed tactics at ____.",
       "options": [
         "half-mcq-10",
-        "half-mcq-09",
-        "half-mcq-11",
-        "half-mcq-08",
-        "half-mcq-12",
-        "half-mcq-07"
+        "half-mcq-23",
+        "half-mcq-22",
+        "half-mcq-25"
       ],
       "explanation": "本句的「half-time」指「上下半場之間的中場休息」。",
       "sentenceIndex": 21,
@@ -1239,12 +1153,10 @@ export default {
         "half-time"
       ],
       "optionReasons": {
-        "half-mcq-10": "本句指「上下半場之間的中場休息」。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-07": "「半睡半醒／半清醒」與本句語境不同。"
+        "half-mcq-10": "本句的「half-time」指「上下半場之間的中場休息」。",
+        "half-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-10"
     },
@@ -1256,11 +1168,9 @@ export default {
       "masked": "He has a ____ in Canada.",
       "options": [
         "half-mcq-11",
-        "half-mcq-10",
-        "half-mcq-12",
-        "half-mcq-09",
+        "half-mcq-27",
         "half-mcq-13",
-        "half-mcq-08"
+        "half-mcq-22"
       ],
       "explanation": "本句的「half brother」指「只共有一名親生父母的兄弟姊妹」。",
       "sentenceIndex": 22,
@@ -1269,12 +1179,10 @@ export default {
         "half brother"
       ],
       "optionReasons": {
-        "half-mcq-11": "本句指「只共有一名親生父母的兄弟姊妹」。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-13": "「想法或計畫尚未成熟、考慮不周的」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。"
+        "half-mcq-11": "本句的「half brother」指「只共有一名親生父母的兄弟姊妹」。",
+        "half-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-11"
     },
@@ -1286,11 +1194,9 @@ export default {
       "masked": "She grew up with her ____.",
       "options": [
         "half-mcq-11",
-        "half-mcq-10",
-        "half-mcq-12",
-        "half-mcq-09",
-        "half-mcq-13",
-        "half-mcq-08"
+        "half-mcq-25",
+        "half-mcq-04",
+        "half-mcq-12"
       ],
       "explanation": "本句的「half sister」指「只共有一名親生父母的兄弟姊妹」。",
       "sentenceIndex": 23,
@@ -1299,12 +1205,10 @@ export default {
         "half sister"
       ],
       "optionReasons": {
-        "half-mcq-11": "本句指「只共有一名親生父母的兄弟姊妹」。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。",
-        "half-mcq-13": "「想法或計畫尚未成熟、考慮不周的」與本句語境不同。",
-        "half-mcq-08": "「被分成兩部分後的其中一半」與本句語境不同。"
+        "half-mcq-11": "本句的「half sister」指「只共有一名親生父母的兄弟姊妹」。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-11"
     },
@@ -1316,11 +1220,9 @@ export default {
       "masked": "He made a ____ to apologize.",
       "options": [
         "half-mcq-12",
-        "half-mcq-11",
-        "half-mcq-13",
-        "half-mcq-10",
-        "half-mcq-14",
-        "half-mcq-09"
+        "half-mcq-09",
+        "half-mcq-18",
+        "half-mcq-20"
       ],
       "explanation": "本句的「half-hearted attempt」指「缺乏熱情、投入或誠意的；敷衍的」。",
       "sentenceIndex": 24,
@@ -1329,12 +1231,10 @@ export default {
         "half-hearted attempt"
       ],
       "optionReasons": {
-        "half-mcq-12": "本句指「缺乏熱情、投入或誠意的；敷衍的」。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-13": "「想法或計畫尚未成熟、考慮不周的」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-14": "「幽默／親暱地指伴侶、另一半」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。"
+        "half-mcq-12": "本句的「half-hearted attempt」指「缺乏熱情、投入或誠意的；敷衍的」。",
+        "half-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-12"
     },
@@ -1346,11 +1246,9 @@ export default {
       "masked": "Her support sounded ____.",
       "options": [
         "half-mcq-12",
-        "half-mcq-11",
-        "half-mcq-13",
-        "half-mcq-10",
-        "half-mcq-14",
-        "half-mcq-09"
+        "half-mcq-25",
+        "half-mcq-04",
+        "half-mcq-13"
       ],
       "explanation": "本句的「half-hearted」指「缺乏熱情、投入或誠意的；敷衍的」。",
       "sentenceIndex": 25,
@@ -1359,12 +1257,10 @@ export default {
         "half-hearted"
       ],
       "optionReasons": {
-        "half-mcq-12": "本句指「缺乏熱情、投入或誠意的；敷衍的」。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-13": "「想法或計畫尚未成熟、考慮不周的」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。",
-        "half-mcq-14": "「幽默／親暱地指伴侶、另一半」與本句語境不同。",
-        "half-mcq-09": "「球賽兩個主要時段中的一個；半場」與本句語境不同。"
+        "half-mcq-12": "本句的「half-hearted」指「缺乏熱情、投入或誠意的；敷衍的」。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-12"
     },
@@ -1376,11 +1272,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "half-mcq-13",
-        "half-mcq-12",
-        "half-mcq-14",
-        "half-mcq-11",
-        "half-mcq-15",
-        "half-mcq-10"
+        "half-mcq-18",
+        "half-mcq-20",
+        "half-mcq-19"
       ],
       "explanation": "本句的「half-baked idea」指「想法或計畫尚未成熟、考慮不周的」。",
       "sentenceIndex": 26,
@@ -1389,12 +1283,10 @@ export default {
         "half-baked idea"
       ],
       "optionReasons": {
-        "half-mcq-13": "本句指「想法或計畫尚未成熟、考慮不周的」。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-14": "「幽默／親暱地指伴侶、另一半」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-15": "「剩下的一半；也可指伴侶」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。"
+        "half-mcq-13": "本句的「half-baked idea」指「想法或計畫尚未成熟、考慮不周的」。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-13"
     },
@@ -1406,11 +1298,9 @@ export default {
       "masked": "The proposal seemed ____.",
       "options": [
         "half-mcq-13",
-        "half-mcq-12",
-        "half-mcq-14",
-        "half-mcq-11",
-        "half-mcq-15",
-        "half-mcq-10"
+        "half-mcq-01",
+        "half-mcq-18",
+        "half-mcq-06"
       ],
       "explanation": "本句的「half-baked」指「想法或計畫尚未成熟、考慮不周的」。",
       "sentenceIndex": 27,
@@ -1419,12 +1309,10 @@ export default {
         "half-baked"
       ],
       "optionReasons": {
-        "half-mcq-13": "本句指「想法或計畫尚未成熟、考慮不周的」。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-14": "「幽默／親暱地指伴侶、另一半」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。",
-        "half-mcq-15": "「剩下的一半；也可指伴侶」與本句語境不同。",
-        "half-mcq-10": "「上下半場之間的中場休息」與本句語境不同。"
+        "half-mcq-13": "本句的「half-baked」指「想法或計畫尚未成熟、考慮不周的」。",
+        "half-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-13"
     },
@@ -1436,11 +1324,9 @@ export default {
       "masked": "I’m travelling with my ____.",
       "options": [
         "half-mcq-14",
-        "half-mcq-13",
-        "half-mcq-15",
         "half-mcq-12",
-        "half-mcq-16",
-        "half-mcq-11"
+        "half-mcq-18",
+        "half-mcq-21"
       ],
       "explanation": "本句的「better half」指「幽默／親暱地指伴侶、另一半」。",
       "sentenceIndex": 30,
@@ -1449,12 +1335,10 @@ export default {
         "better half"
       ],
       "optionReasons": {
-        "half-mcq-14": "本句指「幽默／親暱地指伴侶、另一半」。",
-        "half-mcq-13": "「想法或計畫尚未成熟、考慮不周的」與本句語境不同。",
-        "half-mcq-15": "「剩下的一半；也可指伴侶」與本句語境不同。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-16": "「到中途／中間位置」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。"
+        "half-mcq-14": "本句的「better half」指「幽默／親暱地指伴侶、另一半」。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-14"
     },
@@ -1466,11 +1350,9 @@ export default {
       "masked": "She introduced me to her ____.",
       "options": [
         "half-mcq-14",
-        "half-mcq-13",
-        "half-mcq-15",
-        "half-mcq-12",
-        "half-mcq-16",
-        "half-mcq-11"
+        "half-mcq-18",
+        "half-mcq-26",
+        "half-mcq-21"
       ],
       "explanation": "本句的「better half」指「幽默／親暱地指伴侶、另一半」。",
       "sentenceIndex": 31,
@@ -1479,12 +1361,10 @@ export default {
         "better half"
       ],
       "optionReasons": {
-        "half-mcq-14": "本句指「幽默／親暱地指伴侶、另一半」。",
-        "half-mcq-13": "「想法或計畫尚未成熟、考慮不周的」與本句語境不同。",
-        "half-mcq-15": "「剩下的一半；也可指伴侶」與本句語境不同。",
-        "half-mcq-12": "「缺乏熱情、投入或誠意的；敷衍的」與本句語境不同。",
-        "half-mcq-16": "「到中途／中間位置」與本句語境不同。",
-        "half-mcq-11": "「只共有一名親生父母的兄弟姊妹」與本句語境不同。"
+        "half-mcq-14": "本句的「better half」指「幽默／親暱地指伴侶、另一半」。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-14"
     },
@@ -1496,11 +1376,9 @@ export default {
       "masked": "He stayed in a ____ after leaving prison.",
       "options": [
         "half-mcq-18",
-        "half-mcq-17",
-        "half-mcq-19",
-        "half-mcq-16",
+        "half-mcq-11",
         "half-mcq-20",
-        "half-mcq-15"
+        "half-mcq-06"
       ],
       "explanation": "本句的「halfway house」指「中途之家；比喻兩種極端之間的折衷方案」。",
       "sentenceIndex": 32,
@@ -1509,12 +1387,10 @@ export default {
         "halfway house"
       ],
       "optionReasons": {
-        "half-mcq-18": "本句指「中途之家；比喻兩種極端之間的折衷方案」。",
-        "half-mcq-17": "「只完成或達到部分程度」與本句語境不同。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。",
-        "half-mcq-16": "「到中途／中間位置」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-15": "「剩下的一半；也可指伴侶」與本句語境不同。"
+        "half-mcq-18": "本句的「halfway house」指「中途之家；比喻兩種極端之間的折衷方案」。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-18"
     },
@@ -1526,11 +1402,9 @@ export default {
       "masked": "The plan is a ____ between the two proposals.",
       "options": [
         "half-mcq-18",
-        "half-mcq-17",
-        "half-mcq-19",
-        "half-mcq-16",
-        "half-mcq-20",
-        "half-mcq-15"
+        "half-mcq-21",
+        "half-mcq-12",
+        "half-mcq-01"
       ],
       "explanation": "本句的「halfway house」指「中途之家；比喻兩種極端之間的折衷方案」。",
       "sentenceIndex": 33,
@@ -1539,12 +1413,10 @@ export default {
         "halfway house"
       ],
       "optionReasons": {
-        "half-mcq-18": "本句指「中途之家；比喻兩種極端之間的折衷方案」。",
-        "half-mcq-17": "「只完成或達到部分程度」與本句語境不同。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。",
-        "half-mcq-16": "「到中途／中間位置」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-15": "「剩下的一半；也可指伴侶」與本句語境不同。"
+        "half-mcq-18": "本句的「halfway house」指「中途之家；比喻兩種極端之間的折衷方案」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-18"
     },
@@ -1556,11 +1428,9 @@ export default {
       "masked": "Tickets are ____ today.",
       "options": [
         "half-mcq-19",
-        "half-mcq-18",
-        "half-mcq-20",
-        "half-mcq-17",
-        "half-mcq-21",
-        "half-mcq-16"
+        "half-mcq-13",
+        "half-mcq-23",
+        "half-mcq-18"
       ],
       "explanation": "本句的「half-price」指「正常價格的一半；半價」。",
       "sentenceIndex": 34,
@@ -1569,12 +1439,10 @@ export default {
         "half-price"
       ],
       "optionReasons": {
-        "half-mcq-19": "本句指「正常價格的一半；半價」。",
-        "half-mcq-18": "「中途之家；比喻兩種極端之間的折衷方案」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-17": "「只完成或達到部分程度」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-16": "「到中途／中間位置」與本句語境不同。"
+        "half-mcq-19": "本句的「half-price」指「正常價格的一半；半價」。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-19"
     },
@@ -1586,11 +1454,9 @@ export default {
       "masked": "I bought the coat at ____.",
       "options": [
         "half-mcq-19",
-        "half-mcq-18",
-        "half-mcq-20",
-        "half-mcq-17",
-        "half-mcq-21",
-        "half-mcq-16"
+        "half-mcq-25",
+        "half-mcq-13",
+        "half-mcq-18"
       ],
       "explanation": "本句的「half price」指「正常價格的一半；半價」。",
       "sentenceIndex": 35,
@@ -1599,12 +1465,10 @@ export default {
         "half price"
       ],
       "optionReasons": {
-        "half-mcq-19": "本句指「正常價格的一半；半價」。",
-        "half-mcq-18": "「中途之家；比喻兩種極端之間的折衷方案」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-17": "「只完成或達到部分程度」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-16": "「到中途／中間位置」與本句語境不同。"
+        "half-mcq-19": "本句的「half price」指「正常價格的一半；半價」。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-19"
     },
@@ -1616,11 +1480,9 @@ export default {
       "masked": "We had a ____ at school.",
       "options": [
         "half-mcq-20",
-        "half-mcq-19",
-        "half-mcq-21",
         "half-mcq-18",
-        "half-mcq-22",
-        "half-mcq-17"
+        "half-mcq-12",
+        "half-mcq-11"
       ],
       "explanation": "本句的「half-day」指「半天；半日工作／上課」。",
       "sentenceIndex": 36,
@@ -1629,12 +1491,10 @@ export default {
         "half-day"
       ],
       "optionReasons": {
-        "half-mcq-20": "本句指「半天；半日工作／上課」。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-18": "「中途之家；比喻兩種極端之間的折衷方案」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-17": "「只完成或達到部分程度」與本句語境不同。"
+        "half-mcq-20": "本句的「half-day」指「半天；半日工作／上課」。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-20"
     },
@@ -1646,11 +1506,9 @@ export default {
       "masked": "She took a ____ off.",
       "options": [
         "half-mcq-20",
-        "half-mcq-19",
-        "half-mcq-21",
-        "half-mcq-18",
+        "half-mcq-11",
         "half-mcq-22",
-        "half-mcq-17"
+        "half-mcq-13"
       ],
       "explanation": "本句的「half-day」指「半天；半日工作／上課」。",
       "sentenceIndex": 37,
@@ -1659,12 +1517,10 @@ export default {
         "half-day"
       ],
       "optionReasons": {
-        "half-mcq-20": "本句指「半天；半日工作／上課」。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-18": "「中途之家；比喻兩種極端之間的折衷方案」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-17": "「只完成或達到部分程度」與本句語境不同。"
+        "half-mcq-20": "本句的「half-day」指「半天；半日工作／上課」。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-20"
     },
@@ -1677,10 +1533,8 @@ export default {
       "options": [
         "half-mcq-21",
         "half-mcq-20",
-        "half-mcq-22",
-        "half-mcq-19",
-        "half-mcq-23",
-        "half-mcq-18"
+        "half-mcq-12",
+        "half-mcq-09"
       ],
       "explanation": "本句的「not half bad」指「英式非正式：其實相當不錯」。",
       "sentenceIndex": 38,
@@ -1689,12 +1543,10 @@ export default {
         "not half bad"
       ],
       "optionReasons": {
-        "half-mcq-21": "本句指「英式非正式：其實相當不錯」。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-18": "「中途之家；比喻兩種極端之間的折衷方案」與本句語境不同。"
+        "half-mcq-21": "本句的「not half bad」指「英式非正式：其實相當不錯」。",
+        "half-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-21"
     },
@@ -1706,11 +1558,9 @@ export default {
       "masked": "He’s ____.",
       "options": [
         "half-mcq-21",
-        "half-mcq-20",
-        "half-mcq-22",
-        "half-mcq-19",
-        "half-mcq-23",
-        "half-mcq-18"
+        "half-mcq-06",
+        "half-mcq-07",
+        "half-mcq-12"
       ],
       "explanation": "本句的「not half clever」指「英式非正式：其實相當不錯」。",
       "sentenceIndex": 39,
@@ -1719,12 +1569,10 @@ export default {
         "not half clever"
       ],
       "optionReasons": {
-        "half-mcq-21": "本句指「英式非正式：其實相當不錯」。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-18": "「中途之家；比喻兩種極端之間的折衷方案」與本句語境不同。"
+        "half-mcq-21": "本句的「not half clever」指「英式非正式：其實相當不錯」。",
+        "half-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-21"
     },
@@ -1736,11 +1584,9 @@ export default {
       "masked": "The test was ____ I expected.",
       "options": [
         "half-mcq-22",
-        "half-mcq-21",
-        "half-mcq-23",
-        "half-mcq-20",
-        "half-mcq-24",
-        "half-mcq-19"
+        "half-mcq-09",
+        "half-mcq-05",
+        "half-mcq-20"
       ],
       "explanation": "本句的「not half as difficult as」指「遠沒有……那麼……」。",
       "sentenceIndex": 40,
@@ -1749,12 +1595,10 @@ export default {
         "not half as difficult as"
       ],
       "optionReasons": {
-        "half-mcq-22": "本句指「遠沒有……那麼……」。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。"
+        "half-mcq-22": "本句的「not half as difficult as」指「遠沒有……那麼……」。",
+        "half-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-22"
     },
@@ -1766,11 +1610,9 @@ export default {
       "masked": "This bag is ____ that one.",
       "options": [
         "half-mcq-22",
-        "half-mcq-21",
-        "half-mcq-23",
-        "half-mcq-20",
-        "half-mcq-24",
-        "half-mcq-19"
+        "half-mcq-03",
+        "half-mcq-07",
+        "half-mcq-13"
       ],
       "explanation": "本句的「not half as heavy as」指「遠沒有……那麼……」。",
       "sentenceIndex": 41,
@@ -1779,12 +1621,10 @@ export default {
         "not half as heavy as"
       ],
       "optionReasons": {
-        "half-mcq-22": "本句指「遠沒有……那麼……」。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-19": "「正常價格的一半；半價」與本句語境不同。"
+        "half-mcq-22": "本句的「not half as heavy as」指「遠沒有……那麼……」。",
+        "half-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-22"
     },
@@ -1796,10 +1636,8 @@ export default {
       "masked": "Knowing what the problem is is ____.",
       "options": [
         "half-mcq-23",
+        "half-mcq-07",
         "half-mcq-22",
-        "half-mcq-24",
-        "half-mcq-21",
-        "half-mcq-25",
         "half-mcq-20"
       ],
       "explanation": "本句的「half the battle」指「成功所需的一大部分；關鍵一步」。",
@@ -1809,12 +1647,10 @@ export default {
         "half the battle"
       ],
       "optionReasons": {
-        "half-mcq-23": "本句指「成功所需的一大部分；關鍵一步」。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。"
+        "half-mcq-23": "本句的「half the battle」指「成功所需的一大部分；關鍵一步」。",
+        "half-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-23"
     },
@@ -1826,11 +1662,9 @@ export default {
       "masked": "Getting started is ____.",
       "options": [
         "half-mcq-23",
-        "half-mcq-22",
-        "half-mcq-24",
-        "half-mcq-21",
-        "half-mcq-25",
-        "half-mcq-20"
+        "half-mcq-10",
+        "half-mcq-12",
+        "half-mcq-19"
       ],
       "explanation": "本句的「half the battle」指「成功所需的一大部分；關鍵一步」。",
       "sentenceIndex": 43,
@@ -1839,12 +1673,10 @@ export default {
         "half the battle"
       ],
       "optionReasons": {
-        "half-mcq-23": "本句指「成功所需的一大部分；關鍵一步」。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-20": "「半天；半日工作／上課」與本句語境不同。"
+        "half-mcq-23": "本句的「half the battle」指「成功所需的一大部分；關鍵一步」。",
+        "half-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-23"
     },
@@ -1856,10 +1688,8 @@ export default {
       "masked": "The drink is ____.",
       "options": [
         "half-mcq-24",
-        "half-mcq-23",
-        "half-mcq-25",
-        "half-mcq-22",
-        "half-mcq-26",
+        "half-mcq-11",
+        "half-mcq-12",
         "half-mcq-21"
       ],
       "explanation": "本句的「half coffee and half milk」指「兩部分比例各半；一半一半」。",
@@ -1869,12 +1699,10 @@ export default {
         "half coffee and half milk"
       ],
       "optionReasons": {
-        "half-mcq-24": "本句指「兩部分比例各半；一半一半」。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。"
+        "half-mcq-24": "本句的「half coffee and half milk」指「兩部分比例各半；一半一半」。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-24"
     },
@@ -1886,11 +1714,9 @@ export default {
       "masked": "We split the cost ____.",
       "options": [
         "half-mcq-24",
-        "half-mcq-23",
         "half-mcq-25",
         "half-mcq-22",
-        "half-mcq-26",
-        "half-mcq-21"
+        "half-mcq-11"
       ],
       "explanation": "本句的「half and half」指「兩部分比例各半；一半一半」。",
       "sentenceIndex": 45,
@@ -1899,12 +1725,10 @@ export default {
         "half and half"
       ],
       "optionReasons": {
-        "half-mcq-24": "本句指「兩部分比例各半；一半一半」。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-21": "「英式非正式：其實相當不錯」與本句語境不同。"
+        "half-mcq-24": "本句的「half and half」指「兩部分比例各半；一半一半」。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-24"
     },
@@ -1916,11 +1740,9 @@ export default {
       "masked": "This problem cannot be solved with ____.",
       "options": [
         "half-mcq-25",
-        "half-mcq-24",
-        "half-mcq-26",
-        "half-mcq-23",
-        "half-mcq-27",
-        "half-mcq-22"
+        "half-mcq-12",
+        "half-mcq-06",
+        "half-mcq-21"
       ],
       "explanation": "本句的「half measures」指「不完整、不徹底的措施」。",
       "sentenceIndex": 48,
@@ -1929,12 +1751,10 @@ export default {
         "half measures"
       ],
       "optionReasons": {
-        "half-mcq-25": "本句指「不完整、不徹底的措施」。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-27": "「把某物分成兩半或減少 50%」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-25": "本句的「half measures」指「不完整、不徹底的措施」。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-25"
     },
@@ -1946,11 +1766,9 @@ export default {
       "masked": "We need a real solution, not ____.",
       "options": [
         "half-mcq-25",
-        "half-mcq-24",
-        "half-mcq-26",
-        "half-mcq-23",
-        "half-mcq-27",
-        "half-mcq-22"
+        "half-mcq-07",
+        "half-mcq-18",
+        "half-mcq-04"
       ],
       "explanation": "本句的「half measures」指「不完整、不徹底的措施」。",
       "sentenceIndex": 49,
@@ -1959,12 +1777,10 @@ export default {
         "half measures"
       ],
       "optionReasons": {
-        "half-mcq-25": "本句指「不完整、不徹底的措施」。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-27": "「把某物分成兩半或減少 50%」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-25": "本句的「half measures」指「不完整、不徹底的措施」。",
+        "half-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-25"
     },
@@ -1976,11 +1792,9 @@ export default {
       "masked": "She never ____.",
       "options": [
         "half-mcq-26",
-        "half-mcq-25",
-        "half-mcq-27",
-        "half-mcq-24",
-        "half-mcq-23",
-        "half-mcq-22"
+        "half-mcq-09",
+        "half-mcq-22",
+        "half-mcq-21"
       ],
       "explanation": "本句的「does things by halves」指「做事不徹底，只投入部分努力」。",
       "sentenceIndex": 50,
@@ -1989,12 +1803,10 @@ export default {
         "does things by halves"
       ],
       "optionReasons": {
-        "half-mcq-26": "本句指「做事不徹底，只投入部分努力」。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-27": "「把某物分成兩半或減少 50%」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-26": "本句的「does things by halves」指「做事不徹底，只投入部分努力」。",
+        "half-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-26"
     },
@@ -2006,11 +1818,9 @@ export default {
       "masked": "If he starts a project, he doesn’t ____.",
       "options": [
         "half-mcq-26",
-        "half-mcq-25",
-        "half-mcq-27",
-        "half-mcq-24",
-        "half-mcq-23",
-        "half-mcq-22"
+        "half-mcq-04",
+        "half-mcq-19",
+        "half-mcq-13"
       ],
       "explanation": "本句的「do it by halves」指「做事不徹底，只投入部分努力」。",
       "sentenceIndex": 51,
@@ -2019,12 +1829,10 @@ export default {
         "do it by halves"
       ],
       "optionReasons": {
-        "half-mcq-26": "本句指「做事不徹底，只投入部分努力」。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-27": "「把某物分成兩半或減少 50%」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-26": "本句的「do it by halves」指「做事不徹底，只投入部分努力」。",
+        "half-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-26"
     },
@@ -2036,11 +1844,9 @@ export default {
       "masked": "____.",
       "options": [
         "half-mcq-27",
-        "half-mcq-26",
-        "half-mcq-25",
-        "half-mcq-24",
-        "half-mcq-23",
-        "half-mcq-22"
+        "half-mcq-21",
+        "half-mcq-22",
+        "half-mcq-11"
       ],
       "explanation": "本句的「Halve the apple」指「把某物分成兩半或減少 50%」。",
       "sentenceIndex": 52,
@@ -2049,12 +1855,10 @@ export default {
         "Halve the apple"
       ],
       "optionReasons": {
-        "half-mcq-27": "本句指「把某物分成兩半或減少 50%」。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-27": "本句的「Halve the apple」指「把某物分成兩半或減少 50%」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-27"
     },
@@ -2066,11 +1870,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "half-mcq-27",
-        "half-mcq-26",
+        "half-mcq-22",
         "half-mcq-25",
-        "half-mcq-24",
-        "half-mcq-23",
-        "half-mcq-22"
+        "half-mcq-11"
       ],
       "explanation": "本句的「halved its costs」指「把某物分成兩半或減少 50%」。",
       "sentenceIndex": 53,
@@ -2079,12 +1881,10 @@ export default {
         "halved its costs"
       ],
       "optionReasons": {
-        "half-mcq-27": "本句指「把某物分成兩半或減少 50%」。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-27": "本句的「halved its costs」指「把某物分成兩半或減少 50%」。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-27"
     },
@@ -2096,10 +1896,8 @@ export default {
       "masked": "The price was ____.",
       "options": [
         "half-mcq-27",
-        "half-mcq-26",
-        "half-mcq-25",
-        "half-mcq-24",
-        "half-mcq-23",
+        "half-mcq-21",
+        "half-mcq-11",
         "half-mcq-22"
       ],
       "explanation": "本句的「halved」指「把某物分成兩半或減少 50%」。",
@@ -2109,12 +1907,10 @@ export default {
         "halved"
       ],
       "optionReasons": {
-        "half-mcq-27": "本句指「把某物分成兩半或減少 50%」。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-27": "本句的「halved」指「把某物分成兩半或減少 50%」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-27"
     },
@@ -2126,11 +1922,9 @@ export default {
       "masked": "The fruit was ____ before serving.",
       "options": [
         "half-mcq-27",
-        "half-mcq-26",
+        "half-mcq-21",
         "half-mcq-25",
-        "half-mcq-24",
-        "half-mcq-23",
-        "half-mcq-22"
+        "half-mcq-12"
       ],
       "explanation": "本句的「halved」指「把某物分成兩半或減少 50%」。",
       "sentenceIndex": 55,
@@ -2139,12 +1933,10 @@ export default {
         "halved"
       ],
       "optionReasons": {
-        "half-mcq-27": "本句指「把某物分成兩半或減少 50%」。",
-        "half-mcq-26": "「做事不徹底，只投入部分努力」與本句語境不同。",
-        "half-mcq-25": "「不完整、不徹底的措施」與本句語境不同。",
-        "half-mcq-24": "「兩部分比例各半；一半一半」與本句語境不同。",
-        "half-mcq-23": "「成功所需的一大部分；關鍵一步」與本句語境不同。",
-        "half-mcq-22": "「遠沒有……那麼……」與本句語境不同。"
+        "half-mcq-27": "本句的「halved」指「把某物分成兩半或減少 50%」。",
+        "half-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "half-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "half-mcq-27"
     }
@@ -2156,5 +1948,7 @@ export default {
     "sha256": "908c57159f0e5429d1da57f3b74884b972018bd7dbe595a194d54a1e4ff456bb",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

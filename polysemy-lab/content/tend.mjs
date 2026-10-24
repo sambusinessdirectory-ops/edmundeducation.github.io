@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "tend-mcq-02",
-      "title": "表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」",
+      "title": "往往會；通常會；傾向於",
       "form": "tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於",
       "en": "tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於",
       "zh": "表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "tend-mcq-03",
-      "title": "表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」",
+      "title": "往往是……的；通常比較……",
       "form": "tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……",
       "en": "tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……",
       "zh": "表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "tend-mcq-04",
-      "title": "表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」",
+      "title": "常常會……；往往會……",
       "form": "tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……",
       "en": "tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……",
       "zh": "表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "tend-mcq-06",
-      "title": "表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」",
+      "title": "趨向；傾向於；朝……發展",
       "form": "tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展",
       "en": "tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展",
       "zh": "表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "tend-mcq-07",
-      "title": "表示趨於；偏向；例句：「討論逐漸偏向負面。」",
+      "title": "趨於；偏向",
       "form": "tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向",
       "en": "tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向",
       "zh": "表示趨於；偏向；例句：「討論逐漸偏向負面。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "tend-mcq-08",
-      "title": "表示照料；照顧；照管；例句：「護士照料受傷的乘客。」",
+      "title": "照料；照顧；照管",
       "form": "tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.",
       "en": "tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.",
       "zh": "表示照料；照顧；照管；例句：「護士照料受傷的乘客。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "tend-mcq-09",
-      "title": "表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」",
+      "title": "照料；照管；栽培",
       "form": "tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培",
       "en": "tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培",
       "zh": "表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "tend-mcq-11",
-      "title": "表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」",
+      "title": "照看火堆；添柴維持火勢",
       "form": "tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢",
       "en": "tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢",
       "zh": "表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "tend-mcq-12",
-      "title": "表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」",
+      "title": "處理傷口；照料傷勢",
       "form": "tend a wound = care for or treat an injury 處理傷口；照料傷勢",
       "en": "tend a wound = care for or treat an injury 處理傷口；照料傷勢",
       "zh": "表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "tend-mcq-13",
-      "title": "表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」",
+      "title": "傾向；趨勢；習性",
       "form": "tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性",
       "en": "tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性",
       "zh": "表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "tend-mcq-14",
-      "title": "表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」",
+      "title": "有……的傾向；往往會……",
       "form": "have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……",
       "en": "have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……",
       "zh": "表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "tend-mcq-15",
-      "title": "表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」",
+      "title": "朝……發展的傾向；……趨勢",
       "form": "tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢",
       "en": "tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢",
       "zh": "表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "tend-mcq-17",
-      "title": "表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」",
+      "title": "往往會出現／發生",
       "form": "tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生",
       "en": "tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生",
       "zh": "表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "tend-mcq-18",
-      "title": "表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」",
+      "title": "較傾向於；通常偏好",
       "form": "tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好",
       "en": "tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好",
       "zh": "表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "tend-mcq-19",
-      "title": "表示照顧；處理；例句：「一名護士前來照顧病人。」",
+      "title": "照顧；處理",
       "form": "tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理",
       "en": "tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理",
       "zh": "表示照顧；處理；例句：「一名護士前來照顧病人。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "tend-mcq-20",
-      "title": "表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」",
+      "title": "處理；料理；照料",
       "form": "tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料",
       "en": "tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料",
       "zh": "表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "tend-mcq-21",
-      "title": "表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」",
+      "title": "通常不會；往往不會",
       "form": "negative form tend not to do something = generally do not do something 通常不會；往往不會",
       "en": "negative form tend not to do something = generally do not do something 通常不會；往往不會",
       "zh": "表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」",
@@ -477,11 +477,9 @@ export default {
       "masked": "I ____ before presentations.",
       "options": [
         "tend-mcq-01",
-        "tend-mcq-02",
-        "tend-mcq-03",
-        "tend-mcq-04",
-        "tend-mcq-05",
-        "tend-mcq-06"
+        "tend-mcq-18",
+        "tend-mcq-11",
+        "tend-mcq-12"
       ],
       "explanation": "本句的「tend to get nervous」指「我以前在課堂上往往會低著頭」。",
       "sentenceIndex": 0,
@@ -490,12 +488,10 @@ export default {
         "tend to get nervous"
       ],
       "optionReasons": {
-        "tend-mcq-01": "本句指「我以前在課堂上往往會低著頭」。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-01": "本句的「tend to get nervous」指「我以前在課堂上往往會低著頭」。",
+        "tend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-01"
     },
@@ -507,11 +503,9 @@ export default {
       "masked": "She ____ when she meets new people.",
       "options": [
         "tend-mcq-01",
-        "tend-mcq-02",
-        "tend-mcq-03",
-        "tend-mcq-04",
-        "tend-mcq-05",
-        "tend-mcq-06"
+        "tend-mcq-08",
+        "tend-mcq-06",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tends to speak quietly」指「我以前在課堂上往往會低著頭」。",
       "sentenceIndex": 1,
@@ -520,12 +514,10 @@ export default {
         "tends to speak quietly"
       ],
       "optionReasons": {
-        "tend-mcq-01": "本句指「我以前在課堂上往往會低著頭」。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-01": "本句的「tends to speak quietly」指「我以前在課堂上往往會低著頭」。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-01"
     },
@@ -537,11 +529,9 @@ export default {
       "masked": "People ____ after a long flight.",
       "options": [
         "tend-mcq-02",
-        "tend-mcq-01",
-        "tend-mcq-03",
-        "tend-mcq-04",
-        "tend-mcq-05",
-        "tend-mcq-06"
+        "tend-mcq-09",
+        "tend-mcq-11",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「tend to feel tired」指「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」。",
       "sentenceIndex": 2,
@@ -550,12 +540,10 @@ export default {
         "tend to feel tired"
       ],
       "optionReasons": {
-        "tend-mcq-02": "本句指「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」。",
-        "tend-mcq-01": "「我以前在課堂上往往會低著頭」是「Passage anchor > “At that time, I was quite shy and tended to keep my head down in class.」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-02": "本句的「tend to feel tired」指「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」。",
+        "tend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-02"
     },
@@ -567,11 +555,9 @@ export default {
       "masked": "He ____ whenever possible.",
       "options": [
         "tend-mcq-02",
-        "tend-mcq-01",
-        "tend-mcq-03",
-        "tend-mcq-04",
-        "tend-mcq-05",
-        "tend-mcq-06"
+        "tend-mcq-19",
+        "tend-mcq-09",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tends to avoid conflict」指「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」。",
       "sentenceIndex": 3,
@@ -580,12 +566,10 @@ export default {
         "tends to avoid conflict"
       ],
       "optionReasons": {
-        "tend-mcq-02": "本句指「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」。",
-        "tend-mcq-01": "「我以前在課堂上往往會低著頭」是「Passage anchor > “At that time, I was quite shy and tended to keep my head down in class.」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-02": "本句的「tends to avoid conflict」指「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-02"
     },
@@ -597,11 +581,9 @@ export default {
       "masked": "Winters here ____.",
       "options": [
         "tend-mcq-03",
-        "tend-mcq-02",
-        "tend-mcq-04",
-        "tend-mcq-01",
-        "tend-mcq-05",
-        "tend-mcq-06"
+        "tend-mcq-20",
+        "tend-mcq-13",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to be mild」指「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」。",
       "sentenceIndex": 4,
@@ -610,12 +592,10 @@ export default {
         "tend to be mild"
       ],
       "optionReasons": {
-        "tend-mcq-03": "本句指「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-01": "「我以前在課堂上往往會低著頭」是「Passage anchor > “At that time, I was quite shy and tended to keep my head down in class.」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-03": "本句的「tend to be mild」指「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-03"
     },
@@ -627,11 +607,9 @@ export default {
       "masked": "Young children ____.",
       "options": [
         "tend-mcq-03",
-        "tend-mcq-02",
-        "tend-mcq-04",
-        "tend-mcq-01",
-        "tend-mcq-05",
-        "tend-mcq-06"
+        "tend-mcq-15",
+        "tend-mcq-20",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to be curious」指「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」。",
       "sentenceIndex": 5,
@@ -640,12 +618,10 @@ export default {
         "tend to be curious"
       ],
       "optionReasons": {
-        "tend-mcq-03": "本句指「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-01": "「我以前在課堂上往往會低著頭」是「Passage anchor > “At that time, I was quite shy and tended to keep my head down in class.」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-03": "本句的「tend to be curious」指「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」。",
+        "tend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-03"
     },
@@ -657,11 +633,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "tend-mcq-04",
-        "tend-mcq-03",
-        "tend-mcq-05",
-        "tend-mcq-02",
-        "tend-mcq-06",
-        "tend-mcq-01"
+        "tend-mcq-15",
+        "tend-mcq-08",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to forget names」指「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」。",
       "sentenceIndex": 6,
@@ -670,12 +644,10 @@ export default {
         "tend to forget names"
       ],
       "optionReasons": {
-        "tend-mcq-04": "本句指「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-01": "「我以前在課堂上往往會低著頭」是「Passage anchor > “At that time, I was quite shy and tended to keep my head down in class.」的用法，與本句語境不同。"
+        "tend-mcq-04": "本句的「tend to forget names」指「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」。",
+        "tend-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-04"
     },
@@ -687,11 +659,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "tend-mcq-04",
-        "tend-mcq-03",
-        "tend-mcq-05",
-        "tend-mcq-02",
-        "tend-mcq-06",
-        "tend-mcq-01"
+        "tend-mcq-13",
+        "tend-mcq-19",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tends to overthink things」指「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」。",
       "sentenceIndex": 7,
@@ -700,12 +670,10 @@ export default {
         "tends to overthink things"
       ],
       "optionReasons": {
-        "tend-mcq-04": "本句指「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-01": "「我以前在課堂上往往會低著頭」是「Passage anchor > “At that time, I was quite shy and tended to keep my head down in class.」的用法，與本句語境不同。"
+        "tend-mcq-04": "本句的「tends to overthink things」指「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」。",
+        "tend-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-04"
     },
@@ -717,11 +685,9 @@ export default {
       "masked": "Accidents ____ when people are tired.",
       "options": [
         "tend-mcq-05",
-        "tend-mcq-04",
-        "tend-mcq-06",
-        "tend-mcq-03",
         "tend-mcq-07",
-        "tend-mcq-02"
+        "tend-mcq-09",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to happen」指「某事往往會發生；通常會出現」。",
       "sentenceIndex": 8,
@@ -730,12 +696,10 @@ export default {
         "tend to happen"
       ],
       "optionReasons": {
-        "tend-mcq-05": "本句指「某事往往會發生；通常會出現」。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。"
+        "tend-mcq-05": "本句的「tend to happen」指「某事往往會發生；通常會出現」。",
+        "tend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-05"
     },
@@ -747,11 +711,9 @@ export default {
       "masked": "Prices ____ during periods of high demand.",
       "options": [
         "tend-mcq-05",
-        "tend-mcq-04",
-        "tend-mcq-06",
-        "tend-mcq-03",
-        "tend-mcq-07",
-        "tend-mcq-02"
+        "tend-mcq-11",
+        "tend-mcq-10",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「tend to rise」指「某事往往會發生；通常會出現」。",
       "sentenceIndex": 9,
@@ -760,12 +722,10 @@ export default {
         "tend to rise"
       ],
       "optionReasons": {
-        "tend-mcq-05": "本句指「某事往往會發生；通常會出現」。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-02": "「表示往往會；通常會；傾向於；例句：「人們坐完長途飛機後往往會感到疲倦。」」是「tend to do something — usually behave or happen in a particular way = regularly or characteristically do something, although not necessarily every time 往往會；通常會；傾向於」的用法，與本句語境不同。"
+        "tend-mcq-05": "本句的「tend to rise」指「某事往往會發生；通常會出現」。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-05"
     },
@@ -777,11 +737,9 @@ export default {
       "masked": "His opinions ____.",
       "options": [
         "tend-mcq-06",
-        "tend-mcq-05",
-        "tend-mcq-07",
-        "tend-mcq-04",
-        "tend-mcq-08",
-        "tend-mcq-03"
+        "tend-mcq-10",
+        "tend-mcq-21",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「tend toward the conservative side」指「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」。",
       "sentenceIndex": 10,
@@ -790,12 +748,10 @@ export default {
         "tend toward the conservative side"
       ],
       "optionReasons": {
-        "tend-mcq-06": "本句指「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。"
+        "tend-mcq-06": "本句的「tend toward the conservative side」指「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-06"
     },
@@ -807,11 +763,9 @@ export default {
       "masked": "As people age, sleep patterns may ____.",
       "options": [
         "tend-mcq-06",
-        "tend-mcq-05",
-        "tend-mcq-07",
-        "tend-mcq-04",
-        "tend-mcq-08",
-        "tend-mcq-03"
+        "tend-mcq-21",
+        "tend-mcq-20",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend toward greater irregularity」指「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」。",
       "sentenceIndex": 11,
@@ -820,12 +774,10 @@ export default {
         "tend toward greater irregularity"
       ],
       "optionReasons": {
-        "tend-mcq-06": "本句指「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-03": "「表示往往是……的；通常比較……；例句：「這裡的冬天通常比較溫和。」」是「tend to be + adjective = generally or characteristically have a certain quality 往往是……的；通常比較……」的用法，與本句語境不同。"
+        "tend-mcq-06": "本句的「tend toward greater irregularity」指「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」。",
+        "tend-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-06"
     },
@@ -837,11 +789,9 @@ export default {
       "masked": "The discussion ____.",
       "options": [
         "tend-mcq-07",
-        "tend-mcq-06",
-        "tend-mcq-08",
-        "tend-mcq-05",
-        "tend-mcq-09",
-        "tend-mcq-04"
+        "tend-mcq-03",
+        "tend-mcq-12",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tended toward negativity」指「表示趨於；偏向；例句：「討論逐漸偏向負面。」」。",
       "sentenceIndex": 12,
@@ -850,12 +800,10 @@ export default {
         "tended toward negativity"
       ],
       "optionReasons": {
-        "tend-mcq-07": "本句指「表示趨於；偏向；例句：「討論逐漸偏向負面。」」。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。"
+        "tend-mcq-07": "本句的「tended toward negativity」指「表示趨於；偏向；例句：「討論逐漸偏向負面。」」。",
+        "tend-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-07"
     },
@@ -867,11 +815,9 @@ export default {
       "masked": "His writing ____.",
       "options": [
         "tend-mcq-07",
-        "tend-mcq-06",
-        "tend-mcq-08",
-        "tend-mcq-05",
-        "tend-mcq-09",
-        "tend-mcq-04"
+        "tend-mcq-19",
+        "tend-mcq-11",
+        "tend-mcq-05"
       ],
       "explanation": "本句的「tends towards simplicity」指「表示趨於；偏向；例句：「討論逐漸偏向負面。」」。",
       "sentenceIndex": 13,
@@ -880,12 +826,10 @@ export default {
         "tends towards simplicity"
       ],
       "optionReasons": {
-        "tend-mcq-07": "本句指「表示趨於；偏向；例句：「討論逐漸偏向負面。」」。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-04": "「表示常常會……；往往會……；例句：「我常常會忘記別人的名字。」」是「tend to + verb = have a habitual or common tendency to perform an action 常常會……；往往會……」的用法，與本句語境不同。"
+        "tend-mcq-07": "本句的「tends towards simplicity」指「表示趨於；偏向；例句：「討論逐漸偏向負面。」」。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-07"
     },
@@ -897,11 +841,9 @@ export default {
       "masked": "Nurses ____.",
       "options": [
         "tend-mcq-08",
-        "tend-mcq-07",
-        "tend-mcq-09",
-        "tend-mcq-06",
-        "tend-mcq-10",
-        "tend-mcq-05"
+        "tend-mcq-16",
+        "tend-mcq-18",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tended the injured passengers」指「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」。",
       "sentenceIndex": 14,
@@ -910,12 +852,10 @@ export default {
         "tended the injured passengers"
       ],
       "optionReasons": {
-        "tend-mcq-08": "本句指「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。"
+        "tend-mcq-08": "本句的「tended the injured passengers」指「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」。",
+        "tend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-08"
     },
@@ -927,11 +867,9 @@ export default {
       "masked": "He stayed home to ____.",
       "options": [
         "tend-mcq-08",
-        "tend-mcq-07",
-        "tend-mcq-09",
+        "tend-mcq-21",
         "tend-mcq-06",
-        "tend-mcq-10",
-        "tend-mcq-05"
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend his sick mother」指「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」。",
       "sentenceIndex": 15,
@@ -940,12 +878,10 @@ export default {
         "tend his sick mother"
       ],
       "optionReasons": {
-        "tend-mcq-08": "本句指「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-05": "「某事往往會發生；通常會出現」是「something tends to happen = something commonly or generally happens under certain conditions 某事往往會發生；通常會出現 Here, the subject does not have to be a person.」的用法，與本句語境不同。"
+        "tend-mcq-08": "本句的「tend his sick mother」指「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」。",
+        "tend-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-08"
     },
@@ -957,11 +893,9 @@ export default {
       "masked": "She spends every morning ____.",
       "options": [
         "tend-mcq-09",
-        "tend-mcq-08",
-        "tend-mcq-10",
-        "tend-mcq-07",
-        "tend-mcq-11",
-        "tend-mcq-06"
+        "tend-mcq-17",
+        "tend-mcq-06",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「tending her garden」指「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」。",
       "sentenceIndex": 16,
@@ -970,12 +904,10 @@ export default {
         "tending her garden"
       ],
       "optionReasons": {
-        "tend-mcq-09": "本句指「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-09": "本句的「tending her garden」指「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」。",
+        "tend-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-09"
     },
@@ -987,11 +919,9 @@ export default {
       "masked": "Farmers were ____ in the fields.",
       "options": [
         "tend-mcq-09",
-        "tend-mcq-08",
-        "tend-mcq-10",
+        "tend-mcq-17",
         "tend-mcq-07",
-        "tend-mcq-11",
-        "tend-mcq-06"
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tending the crops」指「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」。",
       "sentenceIndex": 17,
@@ -1000,12 +930,10 @@ export default {
         "tending the crops"
       ],
       "optionReasons": {
-        "tend-mcq-09": "本句指「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-06": "「表示趨向；傾向於；朝……發展；例句：「他的看法較傾向保守。」」是「tend toward / towards something = show a tendency to develop, move, or change in a particular direction 趨向；傾向於；朝……發展」的用法，與本句語境不同。"
+        "tend-mcq-09": "本句的「tending the crops」指「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」。",
+        "tend-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-09"
     },
@@ -1017,11 +945,9 @@ export default {
       "masked": "He spent the afternoon ____.",
       "options": [
         "tend-mcq-10",
-        "tend-mcq-09",
-        "tend-mcq-11",
-        "tend-mcq-08",
-        "tend-mcq-12",
-        "tend-mcq-07"
+        "tend-mcq-02",
+        "tend-mcq-19",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tending the sheep」指「牲畜等時，表示照料；看管（牲畜等）」。",
       "sentenceIndex": 18,
@@ -1030,12 +956,10 @@ export default {
         "tending the sheep"
       ],
       "optionReasons": {
-        "tend-mcq-10": "本句指「牲畜等時，表示照料；看管（牲畜等）」。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。"
+        "tend-mcq-10": "本句的「tending the sheep」指「牲畜等時，表示照料；看管（牲畜等）」。",
+        "tend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-10"
     },
@@ -1047,11 +971,9 @@ export default {
       "masked": "Workers ____ every morning.",
       "options": [
         "tend-mcq-10",
-        "tend-mcq-09",
-        "tend-mcq-11",
-        "tend-mcq-08",
-        "tend-mcq-12",
-        "tend-mcq-07"
+        "tend-mcq-16",
+        "tend-mcq-18",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「tend the animals」指「牲畜等時，表示照料；看管（牲畜等）」。",
       "sentenceIndex": 19,
@@ -1060,12 +982,10 @@ export default {
         "tend the animals"
       ],
       "optionReasons": {
-        "tend-mcq-10": "本句指「牲畜等時，表示照料；看管（牲畜等）」。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-07": "「表示趨於；偏向；例句：「討論逐漸偏向負面。」」是「tend toward / towards + noun or state = gradually lean toward a particular quality, condition, or result 趨於；偏向」的用法，與本句語境不同。"
+        "tend-mcq-10": "本句的「tend the animals」指「牲畜等時，表示照料；看管（牲畜等）」。",
+        "tend-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-10"
     },
@@ -1077,10 +997,8 @@ export default {
       "masked": "Someone had to stay awake to ____.",
       "options": [
         "tend-mcq-11",
-        "tend-mcq-10",
-        "tend-mcq-12",
-        "tend-mcq-09",
-        "tend-mcq-13",
+        "tend-mcq-01",
+        "tend-mcq-06",
         "tend-mcq-08"
       ],
       "explanation": "本句的「tend the fire」指「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」。",
@@ -1090,12 +1008,10 @@ export default {
         "tend the fire"
       ],
       "optionReasons": {
-        "tend-mcq-11": "本句指「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。"
+        "tend-mcq-11": "本句的「tend the fire」指「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」。",
+        "tend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-11"
     },
@@ -1107,10 +1023,8 @@ export default {
       "masked": "He quietly ____ throughout the night.",
       "options": [
         "tend-mcq-11",
-        "tend-mcq-10",
-        "tend-mcq-12",
-        "tend-mcq-09",
-        "tend-mcq-13",
+        "tend-mcq-17",
+        "tend-mcq-06",
         "tend-mcq-08"
       ],
       "explanation": "本句的「tended the fire」指「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」。",
@@ -1120,12 +1034,10 @@ export default {
         "tended the fire"
       ],
       "optionReasons": {
-        "tend-mcq-11": "本句指「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-08": "「表示照料；照顧；照管；例句：「護士照料受傷的乘客。」」是「tend someone / something = look after, care for, or attend to someone or something 照料；照顧；照管 This is a genuinely different meaning from tend to = usually. It is less common in everyday conversational English, but still established.」的用法，與本句語境不同。"
+        "tend-mcq-11": "本句的「tended the fire」指「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」。",
+        "tend-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-11"
     },
@@ -1137,11 +1049,9 @@ export default {
       "masked": "The medic ____ immediately.",
       "options": [
         "tend-mcq-12",
-        "tend-mcq-11",
-        "tend-mcq-13",
-        "tend-mcq-10",
-        "tend-mcq-14",
-        "tend-mcq-09"
+        "tend-mcq-06",
+        "tend-mcq-04",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tended his wound」指「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」。",
       "sentenceIndex": 22,
@@ -1150,12 +1060,10 @@ export default {
         "tended his wound"
       ],
       "optionReasons": {
-        "tend-mcq-12": "本句指「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。"
+        "tend-mcq-12": "本句的「tended his wound」指「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-12"
     },
@@ -1167,11 +1075,9 @@ export default {
       "masked": "She helped ____.",
       "options": [
         "tend-mcq-12",
-        "tend-mcq-11",
-        "tend-mcq-13",
-        "tend-mcq-10",
-        "tend-mcq-14",
-        "tend-mcq-09"
+        "tend-mcq-01",
+        "tend-mcq-07",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend the injured man’s wounds」指「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」。",
       "sentenceIndex": 23,
@@ -1180,12 +1086,10 @@ export default {
         "tend the injured man’s wounds"
       ],
       "optionReasons": {
-        "tend-mcq-12": "本句指「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-09": "「表示照料；照管；栽培；例句：「她每天早上都會照料自己的花園。」」是「tend a garden / crops / plants = care for plants, crops, or land regularly 照料；照管；栽培」的用法，與本句語境不同。"
+        "tend-mcq-12": "本句的「tend the injured man’s wounds」指「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」。",
+        "tend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-12"
     },
@@ -1197,11 +1101,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "tend-mcq-13",
-        "tend-mcq-12",
-        "tend-mcq-14",
-        "tend-mcq-11",
-        "tend-mcq-15",
-        "tend-mcq-10"
+        "tend-mcq-20",
+        "tend-mcq-04",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tendency to interrupt people」指「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」。",
       "sentenceIndex": 24,
@@ -1210,12 +1112,10 @@ export default {
         "tendency to interrupt people"
       ],
       "optionReasons": {
-        "tend-mcq-13": "本句指「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。"
+        "tend-mcq-13": "本句的「tendency to interrupt people」指「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-13"
     },
@@ -1227,11 +1127,9 @@ export default {
       "masked": "There is a growing ____.",
       "options": [
         "tend-mcq-13",
-        "tend-mcq-12",
-        "tend-mcq-14",
-        "tend-mcq-11",
-        "tend-mcq-15",
-        "tend-mcq-10"
+        "tend-mcq-01",
+        "tend-mcq-19",
+        "tend-mcq-09"
       ],
       "explanation": "本句的「tendency toward online learning」指「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」。",
       "sentenceIndex": 25,
@@ -1240,12 +1138,10 @@ export default {
         "tendency toward online learning"
       ],
       "optionReasons": {
-        "tend-mcq-13": "本句指「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-10": "「牲畜等時，表示照料；看管（牲畜等）」是「tend animals / livestock = take care of animals 照料；看管（牲畜等）」的用法，與本句語境不同。"
+        "tend-mcq-13": "本句的「tendency toward online learning」指「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」。",
+        "tend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-13"
     },
@@ -1257,10 +1153,7 @@ export default {
       "masked": "She ____ about small things.",
       "options": [
         "tend-mcq-14",
-        "tend-mcq-13",
-        "tend-mcq-15",
-        "tend-mcq-12",
-        "tend-mcq-16",
+        "tend-mcq-08",
         "tend-mcq-11"
       ],
       "explanation": "本句的「has a tendency to worry」指「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」。",
@@ -1270,12 +1163,9 @@ export default {
         "has a tendency to worry"
       ],
       "optionReasons": {
-        "tend-mcq-14": "本句指「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。"
+        "tend-mcq-14": "本句的「has a tendency to worry」指「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-14"
     },
@@ -1287,11 +1177,9 @@ export default {
       "masked": "This material ____ in cold weather.",
       "options": [
         "tend-mcq-14",
-        "tend-mcq-13",
-        "tend-mcq-15",
-        "tend-mcq-12",
-        "tend-mcq-16",
-        "tend-mcq-11"
+        "tend-mcq-11",
+        "tend-mcq-10",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「has a tendency to crack」指「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」。",
       "sentenceIndex": 27,
@@ -1300,12 +1188,10 @@ export default {
         "has a tendency to crack"
       ],
       "optionReasons": {
-        "tend-mcq-14": "本句指「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-11": "「表示照看火堆；添柴維持火勢；例句：「必須有人保持清醒來照看火堆。」」是「tend a fire = look after a fire by adding fuel or keeping it burning properly 照看火堆；添柴維持火勢」的用法，與本句語境不同。"
+        "tend-mcq-14": "本句的「has a tendency to crack」指「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-14"
     },
@@ -1317,11 +1203,9 @@ export default {
       "masked": "There is a clear ____.",
       "options": [
         "tend-mcq-15",
-        "tend-mcq-14",
-        "tend-mcq-16",
-        "tend-mcq-13",
-        "tend-mcq-17",
-        "tend-mcq-12"
+        "tend-mcq-01",
+        "tend-mcq-08",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tendency toward greater flexibility」指「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」。",
       "sentenceIndex": 28,
@@ -1330,12 +1214,10 @@ export default {
         "tendency toward greater flexibility"
       ],
       "optionReasons": {
-        "tend-mcq-15": "本句指「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。"
+        "tend-mcq-15": "本句的「tendency toward greater flexibility」指「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」。",
+        "tend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-15"
     },
@@ -1347,11 +1229,9 @@ export default {
       "masked": "The industry shows a ____.",
       "options": [
         "tend-mcq-15",
-        "tend-mcq-14",
-        "tend-mcq-16",
-        "tend-mcq-13",
-        "tend-mcq-17",
-        "tend-mcq-12"
+        "tend-mcq-21",
+        "tend-mcq-10",
+        "tend-mcq-19"
       ],
       "explanation": "本句的「tendency towards consolidation」指「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」。",
       "sentenceIndex": 29,
@@ -1360,12 +1240,10 @@ export default {
         "tendency towards consolidation"
       ],
       "optionReasons": {
-        "tend-mcq-15": "本句指「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-12": "「表示處理傷口；照料傷勢；例句：「醫護人員立即處理他的傷口。」」是「tend a wound = care for or treat an injury 處理傷口；照料傷勢」的用法，與本句語境不同。"
+        "tend-mcq-15": "本句的「tendency towards consolidation」指「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」。",
+        "tend-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-15"
     },
@@ -1377,11 +1255,9 @@ export default {
       "masked": "Stress levels ____ during exam periods.",
       "options": [
         "tend-mcq-16",
-        "tend-mcq-15",
-        "tend-mcq-17",
-        "tend-mcq-14",
         "tend-mcq-18",
-        "tend-mcq-13"
+        "tend-mcq-20",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to increase」指「往往增加／減少；有上升／下降趨勢」。",
       "sentenceIndex": 30,
@@ -1390,12 +1266,10 @@ export default {
         "tend to increase"
       ],
       "optionReasons": {
-        "tend-mcq-16": "本句指「往往增加／減少；有上升／下降趨勢」。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。"
+        "tend-mcq-16": "本句的「tend to increase」指「往往增加／減少；有上升／下降趨勢」。",
+        "tend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-16"
     },
@@ -1407,11 +1281,9 @@ export default {
       "masked": "Reaction speed ____ with fatigue.",
       "options": [
         "tend-mcq-16",
-        "tend-mcq-15",
-        "tend-mcq-17",
-        "tend-mcq-14",
+        "tend-mcq-08",
         "tend-mcq-18",
-        "tend-mcq-13"
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tends to decrease」指「往往增加／減少；有上升／下降趨勢」。",
       "sentenceIndex": 31,
@@ -1420,12 +1292,10 @@ export default {
         "tends to decrease"
       ],
       "optionReasons": {
-        "tend-mcq-16": "本句指「往往增加／減少；有上升／下降趨勢」。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-13": "「表示傾向；趨勢；習性；例句：「他有打斷別人說話的習慣／傾向。」」是「tendency = a general inclination, habit, pattern, or likelihood to behave or develop in a certain way 傾向；趨勢；習性」的用法，與本句語境不同。"
+        "tend-mcq-16": "本句的「tends to decrease」指「往往增加／減少；有上升／下降趨勢」。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-16"
     },
@@ -1437,11 +1307,9 @@ export default {
       "masked": "These problems ____ in older buildings.",
       "options": [
         "tend-mcq-17",
-        "tend-mcq-16",
-        "tend-mcq-18",
-        "tend-mcq-15",
-        "tend-mcq-19",
-        "tend-mcq-14"
+        "tend-mcq-12",
+        "tend-mcq-07",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to occur」指「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」。",
       "sentenceIndex": 32,
@@ -1450,12 +1318,10 @@ export default {
         "tend to occur"
       ],
       "optionReasons": {
-        "tend-mcq-17": "本句指「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。"
+        "tend-mcq-17": "本句的「tend to occur」指「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」。",
+        "tend-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-17"
     },
@@ -1467,11 +1333,9 @@ export default {
       "masked": "Errors ____ when instructions are unclear.",
       "options": [
         "tend-mcq-17",
-        "tend-mcq-16",
         "tend-mcq-18",
-        "tend-mcq-15",
-        "tend-mcq-19",
-        "tend-mcq-14"
+        "tend-mcq-08",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to arise」指「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」。",
       "sentenceIndex": 33,
@@ -1480,12 +1344,10 @@ export default {
         "tend to arise"
       ],
       "optionReasons": {
-        "tend-mcq-17": "本句指「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-14": "「表示有……的傾向；往往會……；例句：「她往往會為小事擔心。」」是「have a tendency to do something = regularly be inclined to do something 有……的傾向；往往會……」的用法，與本句語境不同。"
+        "tend-mcq-17": "本句的「tend to arise」指「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」。",
+        "tend-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-17"
     },
@@ -1497,11 +1359,9 @@ export default {
       "masked": "Younger consumers ____ online services.",
       "options": [
         "tend-mcq-18",
-        "tend-mcq-17",
         "tend-mcq-19",
-        "tend-mcq-16",
-        "tend-mcq-20",
-        "tend-mcq-15"
+        "tend-mcq-10",
+        "tend-mcq-17"
       ],
       "explanation": "本句的「tend to favor」指「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」。",
       "sentenceIndex": 34,
@@ -1510,12 +1370,10 @@ export default {
         "tend to favor"
       ],
       "optionReasons": {
-        "tend-mcq-18": "本句指「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-20": "「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」是「tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。"
+        "tend-mcq-18": "本句的「tend to favor」指「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」。",
+        "tend-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-18"
     },
@@ -1527,11 +1385,9 @@ export default {
       "masked": "I ____ quieter places.",
       "options": [
         "tend-mcq-18",
-        "tend-mcq-17",
-        "tend-mcq-19",
-        "tend-mcq-16",
-        "tend-mcq-20",
-        "tend-mcq-15"
+        "tend-mcq-08",
+        "tend-mcq-11",
+        "tend-mcq-16"
       ],
       "explanation": "本句的「tend to prefer」指「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」。",
       "sentenceIndex": 35,
@@ -1540,12 +1396,10 @@ export default {
         "tend to prefer"
       ],
       "optionReasons": {
-        "tend-mcq-18": "本句指「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。",
-        "tend-mcq-20": "「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」是「tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料」的用法，與本句語境不同。",
-        "tend-mcq-15": "「表示朝……發展的傾向；……趨勢；例句：「有一個明顯朝向更高彈性的趨勢。」」是「tendency toward / towards something = movement or inclination in a particular direction 朝……發展的傾向；……趨勢」的用法，與本句語境不同。"
+        "tend-mcq-18": "本句的「tend to prefer」指「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」。",
+        "tend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-18"
     },
@@ -1557,11 +1411,9 @@ export default {
       "masked": "A nurse came to ____.",
       "options": [
         "tend-mcq-19",
-        "tend-mcq-18",
-        "tend-mcq-20",
-        "tend-mcq-17",
-        "tend-mcq-21",
-        "tend-mcq-16"
+        "tend-mcq-06",
+        "tend-mcq-05",
+        "tend-mcq-10"
       ],
       "explanation": "本句的「tend to the patient」指「表示照顧；處理；例句：「一名護士前來照顧病人。」」。",
       "sentenceIndex": 36,
@@ -1570,12 +1422,10 @@ export default {
         "tend to the patient"
       ],
       "optionReasons": {
-        "tend-mcq-19": "本句指「表示照顧；處理；例句：「一名護士前來照顧病人。」」。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-20": "「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」是「tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-21": "「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」是「negative form tend not to do something = generally do not do something 通常不會；往往不會」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。"
+        "tend-mcq-19": "本句的「tend to the patient」指「表示照顧；處理；例句：「一名護士前來照顧病人。」」。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-19"
     },
@@ -1587,11 +1437,9 @@ export default {
       "masked": "I need to ____ before I leave.",
       "options": [
         "tend-mcq-19",
-        "tend-mcq-18",
-        "tend-mcq-20",
-        "tend-mcq-17",
-        "tend-mcq-21",
-        "tend-mcq-16"
+        "tend-mcq-06",
+        "tend-mcq-04",
+        "tend-mcq-10"
       ],
       "explanation": "本句的「tend to a few things」指「表示照顧；處理；例句：「一名護士前來照顧病人。」」。",
       "sentenceIndex": 37,
@@ -1600,12 +1448,10 @@ export default {
         "tend to a few things"
       ],
       "optionReasons": {
-        "tend-mcq-19": "本句指「表示照顧；處理；例句：「一名護士前來照顧病人。」」。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-20": "「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」是「tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-21": "「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」是「negative form tend not to do something = generally do not do something 通常不會；往往不會」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。"
+        "tend-mcq-19": "本句的「tend to a few things」指「表示照顧；處理；例句：「一名護士前來照顧病人。」」。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-19"
     },
@@ -1617,11 +1463,9 @@ export default {
       "masked": "She left early to ____.",
       "options": [
         "tend-mcq-20",
-        "tend-mcq-19",
-        "tend-mcq-21",
-        "tend-mcq-18",
-        "tend-mcq-17",
-        "tend-mcq-16"
+        "tend-mcq-07",
+        "tend-mcq-04",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to some personal business」指「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」。",
       "sentenceIndex": 38,
@@ -1630,12 +1474,10 @@ export default {
         "tend to some personal business"
       ],
       "optionReasons": {
-        "tend-mcq-20": "本句指「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-21": "「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」是「negative form tend not to do something = generally do not do something 通常不會；往往不會」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。"
+        "tend-mcq-20": "本句的「tend to some personal business」指「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」。",
+        "tend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-20"
     },
@@ -1647,11 +1489,8 @@ export default {
       "masked": "He had several urgent matters to ____.",
       "options": [
         "tend-mcq-20",
-        "tend-mcq-19",
-        "tend-mcq-21",
-        "tend-mcq-18",
-        "tend-mcq-17",
-        "tend-mcq-16"
+        "tend-mcq-14",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend to」指「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」。",
       "sentenceIndex": 39,
@@ -1660,12 +1499,9 @@ export default {
         "tend to"
       ],
       "optionReasons": {
-        "tend-mcq-20": "本句指「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-21": "「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」是「negative form tend not to do something = generally do not do something 通常不會；往往不會」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。"
+        "tend-mcq-20": "本句的「tend to」指「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」。",
+        "tend-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-20"
     },
@@ -1678,10 +1514,8 @@ export default {
       "options": [
         "tend-mcq-21",
         "tend-mcq-20",
-        "tend-mcq-19",
-        "tend-mcq-18",
-        "tend-mcq-17",
-        "tend-mcq-16"
+        "tend-mcq-07",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend not to eat」指「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」。",
       "sentenceIndex": 40,
@@ -1690,12 +1524,10 @@ export default {
         "tend not to eat"
       ],
       "optionReasons": {
-        "tend-mcq-21": "本句指「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」。",
-        "tend-mcq-20": "「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」是「tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料」的用法，與本句語境不同。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。"
+        "tend-mcq-21": "本句的「tend not to eat」指「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-21"
     },
@@ -1708,10 +1540,8 @@ export default {
       "options": [
         "tend-mcq-21",
         "tend-mcq-20",
-        "tend-mcq-19",
-        "tend-mcq-18",
-        "tend-mcq-17",
-        "tend-mcq-16"
+        "tend-mcq-06",
+        "tend-mcq-11"
       ],
       "explanation": "本句的「tend not to grow well」指「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」。",
       "sentenceIndex": 41,
@@ -1720,12 +1550,10 @@ export default {
         "tend not to grow well"
       ],
       "optionReasons": {
-        "tend-mcq-21": "本句指「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」。",
-        "tend-mcq-20": "「表示處理；料理；照料；例句：「她提早離開去處理一些私人事務。」」是「tend to a matter / business / duties = give necessary attention to something that needs handling 處理；料理；照料」的用法，與本句語境不同。",
-        "tend-mcq-19": "「表示照顧；處理；例句：「一名護士前來照顧病人。」」是「tend to someone There is also an older/formal construction: tend to someone/something = attend to or take care of 照顧；處理」的用法，與本句語境不同。",
-        "tend-mcq-18": "「表示較傾向於；通常偏好；例句：「年輕消費者通常比較偏好線上服務。」」是「tend to favor / prefer = generally prefer one option or side 較傾向於；通常偏好」的用法，與本句語境不同。",
-        "tend-mcq-17": "「表示往往會出現／發生；例句：「這些問題往往出現在較老的建築物中。」」是「tend to occur / appear / arise = generally occur under particular circumstances 往往會出現／發生」的用法，與本句語境不同。",
-        "tend-mcq-16": "「往往增加／減少；有上升／下降趨勢」是「tend to increase / decrease = generally move upward or downward under certain conditions 往往增加／減少；有上升／下降趨勢」的用法，與本句語境不同。"
+        "tend-mcq-21": "本句的「tend not to grow well」指「表示通常不會；往往不會；例句：「我通常不會在深夜吃東西。」」。",
+        "tend-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tend-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tend-mcq-21"
     }
@@ -1737,5 +1565,7 @@ export default {
     "sha256": "6c24f97fb9186eeae52f09e709869cc79d414940fdd672fb975fc5ab46bc6f77",
     "pages": 19
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

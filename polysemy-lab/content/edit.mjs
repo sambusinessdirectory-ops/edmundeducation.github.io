@@ -668,11 +668,9 @@ export default {
       "masked": "I was ____.",
       "options": [
         "edit-mcq-01",
-        "edit-mcq-02",
-        "edit-mcq-03",
-        "edit-mcq-04",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-26",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editing the final slides」指「編輯；修改」。",
       "sentenceIndex": 0,
@@ -681,12 +679,10 @@ export default {
         "editing the final slides"
       ],
       "optionReasons": {
-        "edit-mcq-01": "本句指「編輯；修改」。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-01": "本句的「editing the final slides」指「編輯；修改」。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-01"
     },
@@ -698,11 +694,9 @@ export default {
       "masked": "She ____ before sending it.",
       "options": [
         "edit-mcq-01",
-        "edit-mcq-02",
-        "edit-mcq-03",
-        "edit-mcq-04",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-28",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edited the report」指「編輯；修改」。",
       "sentenceIndex": 1,
@@ -711,12 +705,10 @@ export default {
         "edited the report"
       ],
       "optionReasons": {
-        "edit-mcq-01": "本句指「編輯；修改」。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-01": "本句的「edited the report」指「編輯；修改」。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-01"
     },
@@ -728,11 +720,9 @@ export default {
       "masked": "I need to ____ tonight.",
       "options": [
         "edit-mcq-01",
-        "edit-mcq-02",
-        "edit-mcq-03",
-        "edit-mcq-04",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-09",
+        "edit-mcq-22",
+        "edit-mcq-25"
       ],
       "explanation": "本句的「edit my essay」指「編輯；修改」。",
       "sentenceIndex": 2,
@@ -741,12 +731,10 @@ export default {
         "edit my essay"
       ],
       "optionReasons": {
-        "edit-mcq-01": "本句指「編輯；修改」。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-01": "本句的「edit my essay」指「編輯；修改」。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-01"
     },
@@ -758,11 +746,9 @@ export default {
       "masked": "We spent an hour ____.",
       "options": [
         "edit-mcq-02",
-        "edit-mcq-01",
-        "edit-mcq-03",
-        "edit-mcq-04",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-15",
+        "edit-mcq-09",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editing the presentation」指「修改投影片」。",
       "sentenceIndex": 3,
@@ -771,12 +757,10 @@ export default {
         "editing the presentation"
       ],
       "optionReasons": {
-        "edit-mcq-02": "本句指「修改投影片」。",
-        "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-02": "本句的「editing the presentation」指「修改投影片」。",
+        "edit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-02"
     },
@@ -788,11 +772,9 @@ export default {
       "masked": "She ____ to make them clearer.",
       "options": [
         "edit-mcq-02",
-        "edit-mcq-01",
-        "edit-mcq-03",
-        "edit-mcq-04",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-09",
+        "edit-mcq-22",
+        "edit-mcq-20"
       ],
       "explanation": "本句的「edited several slides」指「修改投影片」。",
       "sentenceIndex": 4,
@@ -801,12 +783,10 @@ export default {
         "edited several slides"
       ],
       "optionReasons": {
-        "edit-mcq-02": "本句指「修改投影片」。",
-        "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-02": "本句的「edited several slides」指「修改投影片」。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-02"
     },
@@ -818,11 +798,9 @@ export default {
       "masked": "Good writers usually ____ several times.",
       "options": [
         "edit-pdf-001",
-        "edit-mcq-02",
-        "edit-mcq-04",
-        "edit-mcq-01",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-28",
+        "edit-mcq-19",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edit their work」指「修改文字的用詞、結構、內容和表達」。",
       "sentenceIndex": 5,
@@ -831,12 +809,10 @@ export default {
         "edit their work"
       ],
       "optionReasons": {
-        "edit-pdf-001": "本句指「修改文字的用詞、結構、內容和表達」。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-pdf-001": "本句的「edit their work」指「修改文字的用詞、結構、內容和表達」。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-pdf-001"
     },
@@ -848,11 +824,9 @@ export default {
       "masked": "The paragraph needs to be ____ for clarity.",
       "options": [
         "edit-pdf-001",
-        "edit-mcq-02",
-        "edit-mcq-04",
-        "edit-mcq-01",
-        "edit-mcq-05",
-        "edit-mcq-06"
+        "edit-mcq-14",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edited」指「修改文字的用詞、結構、內容和表達」。",
       "sentenceIndex": 6,
@@ -861,12 +835,10 @@ export default {
         "edited"
       ],
       "optionReasons": {
-        "edit-pdf-001": "本句指「修改文字的用詞、結構、內容和表達」。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-pdf-001": "本句的「edited」指「修改文字的用詞、結構、內容和表達」。",
+        "edit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-pdf-001"
     },
@@ -878,11 +850,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "edit-mcq-04",
-        "edit-mcq-03",
-        "edit-mcq-05",
-        "edit-mcq-02",
-        "edit-mcq-06",
-        "edit-mcq-01"
+        "edit-mcq-24",
+        "edit-mcq-28",
+        "edit-mcq-23"
       ],
       "explanation": "本句的「edit the text for grammar」指「為清晰度修改」。",
       "sentenceIndex": 7,
@@ -891,12 +861,10 @@ export default {
         "edit the text for grammar"
       ],
       "optionReasons": {
-        "edit-mcq-04": "本句指「為清晰度修改」。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
-        "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。"
+        "edit-mcq-04": "本句的「edit the text for grammar」指「為清晰度修改」。",
+        "edit-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-04"
     },
@@ -908,11 +876,9 @@ export default {
       "masked": "The article was ____.",
       "options": [
         "edit-mcq-04",
-        "edit-mcq-03",
-        "edit-mcq-05",
-        "edit-mcq-02",
-        "edit-mcq-06",
-        "edit-mcq-01"
+        "edit-mcq-19",
+        "edit-mcq-22",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edited for length」指「為清晰度修改」。",
       "sentenceIndex": 8,
@@ -921,12 +887,10 @@ export default {
         "edited for length"
       ],
       "optionReasons": {
-        "edit-mcq-04": "本句指「為清晰度修改」。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
-        "edit-mcq-01": "「編輯；修改」是「edit」的用法，與本句語境不同。"
+        "edit-mcq-04": "本句的「edited for length」指「為清晰度修改」。",
+        "edit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-04"
     },
@@ -938,11 +902,9 @@ export default {
       "masked": "She ____ for a magazine.",
       "options": [
         "edit-mcq-25",
-        "edit-mcq-24",
-        "edit-mcq-26",
-        "edit-mcq-23",
-        "edit-mcq-27",
-        "edit-mcq-22"
+        "edit-mcq-06",
+        "edit-mcq-22",
+        "edit-mcq-20"
       ],
       "explanation": "本句的「edits articles」指「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」。",
       "sentenceIndex": 9,
@@ -951,12 +913,10 @@ export default {
         "edits articles"
       ],
       "optionReasons": {
-        "edit-mcq-25": "本句指「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。"
+        "edit-mcq-25": "本句的「edits articles」指「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」。",
+        "edit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-25"
     },
@@ -968,10 +928,8 @@ export default {
       "masked": "The manuscript was carefully ____ before publication.",
       "options": [
         "edit-mcq-25",
-        "edit-mcq-24",
-        "edit-mcq-26",
-        "edit-mcq-23",
-        "edit-mcq-27",
+        "edit-mcq-14",
+        "edit-mcq-10",
         "edit-mcq-22"
       ],
       "explanation": "本句的「edited」指「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」。",
@@ -981,12 +939,10 @@ export default {
         "edited"
       ],
       "optionReasons": {
-        "edit-mcq-25": "本句指「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。"
+        "edit-mcq-25": "本句的「edited」指「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」。",
+        "edit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-25"
     },
@@ -998,11 +954,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "edit-pdf-002",
-        "edit-mcq-04",
-        "edit-mcq-06",
-        "edit-mcq-03",
-        "edit-mcq-07",
-        "edit-mcq-02"
+        "edit-mcq-14",
+        "edit-mcq-22",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edits a monthly magazine」指「負責選擇、整理、修訂及準備出版內容」。",
       "sentenceIndex": 11,
@@ -1011,12 +965,10 @@ export default {
         "edits a monthly magazine"
       ],
       "optionReasons": {
-        "edit-pdf-002": "本句指「負責選擇、整理、修訂及準備出版內容」。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。"
+        "edit-pdf-002": "本句的「edits a monthly magazine」指「負責選擇、整理、修訂及準備出版內容」。",
+        "edit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-pdf-002"
     },
@@ -1028,11 +980,9 @@ export default {
       "masked": "She was invited to ____.",
       "options": [
         "edit-pdf-002",
-        "edit-mcq-04",
-        "edit-mcq-06",
-        "edit-mcq-03",
-        "edit-mcq-07",
-        "edit-mcq-02"
+        "edit-mcq-21",
+        "edit-mcq-22",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edit the collection」指「負責選擇、整理、修訂及準備出版內容」。",
       "sentenceIndex": 12,
@@ -1041,12 +991,10 @@ export default {
         "edit the collection"
       ],
       "optionReasons": {
-        "edit-pdf-002": "本句指「負責選擇、整理、修訂及準備出版內容」。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-02": "「修改投影片」是「edit slides」的用法，與本句語境不同。"
+        "edit-pdf-002": "本句的「edit the collection」指「負責選擇、整理、修訂及準備出版內容」。",
+        "edit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-pdf-002"
     },
@@ -1058,11 +1006,9 @@ export default {
       "masked": "She spent the weekend ____.",
       "options": [
         "edit-mcq-26",
-        "edit-mcq-25",
-        "edit-mcq-27",
-        "edit-mcq-24",
-        "edit-mcq-28",
-        "edit-mcq-23"
+        "edit-pdf-001",
+        "edit-mcq-15",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editing the video」指「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」。",
       "sentenceIndex": 13,
@@ -1071,12 +1017,10 @@ export default {
         "editing the video"
       ],
       "optionReasons": {
-        "edit-mcq-26": "本句指「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-28": "「選取、剪接和安排影像及聲音素材的製作過程」是「17. video / film editing — 影片／電影剪輯」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。"
+        "edit-mcq-26": "本句的「editing the video」指「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」。",
+        "edit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-26"
     },
@@ -1088,11 +1032,9 @@ export default {
       "masked": "The film was ____ in London.",
       "options": [
         "edit-mcq-26",
-        "edit-mcq-25",
-        "edit-mcq-27",
-        "edit-mcq-24",
-        "edit-mcq-28",
-        "edit-mcq-23"
+        "edit-mcq-19",
+        "edit-mcq-04",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edited」指「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」。",
       "sentenceIndex": 14,
@@ -1101,12 +1043,10 @@ export default {
         "edited"
       ],
       "optionReasons": {
-        "edit-mcq-26": "本句指「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-28": "「選取、剪接和安排影像及聲音素材的製作過程」是「17. video / film editing — 影片／電影剪輯」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。"
+        "edit-mcq-26": "本句的「edited」指「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」。",
+        "edit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-26"
     },
@@ -1118,11 +1058,9 @@ export default {
       "masked": "I use my laptop to ____.",
       "options": [
         "edit-mcq-06",
-        "edit-mcq-05",
-        "edit-mcq-07",
         "edit-mcq-04",
-        "edit-mcq-08",
-        "edit-mcq-03"
+        "edit-mcq-23",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edit videos」指「剪輯影片」。",
       "sentenceIndex": 15,
@@ -1131,12 +1069,10 @@ export default {
         "edit videos"
       ],
       "optionReasons": {
-        "edit-mcq-06": "本句指「剪輯影片」。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。"
+        "edit-mcq-06": "本句的「edit videos」指「剪輯影片」。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-06"
     },
@@ -1148,11 +1084,9 @@ export default {
       "masked": "He ____ down to five minutes.",
       "options": [
         "edit-mcq-06",
-        "edit-mcq-05",
-        "edit-mcq-07",
-        "edit-mcq-04",
-        "edit-mcq-08",
-        "edit-mcq-03"
+        "edit-mcq-22",
+        "edit-mcq-12",
+        "edit-mcq-23"
       ],
       "explanation": "本句的「edited the video」指「剪輯影片」。",
       "sentenceIndex": 16,
@@ -1161,12 +1095,10 @@ export default {
         "edited the video"
       ],
       "optionReasons": {
-        "edit-mcq-06": "本句指「剪輯影片」。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-04": "「為清晰度修改」是「edit for clarity」的用法，與本句語境不同。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。",
-        "edit-mcq-03": "「修改作文」是「edit an essay」的用法，與本句語境不同。"
+        "edit-mcq-06": "本句的「edited the video」指「剪輯影片」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-06"
     },
@@ -1178,11 +1110,9 @@ export default {
       "masked": "She ____ before posting it.",
       "options": [
         "edit-mcq-08",
-        "edit-mcq-07",
-        "edit-mcq-09",
-        "edit-mcq-06",
         "edit-mcq-10",
-        "edit-mcq-05"
+        "edit-mcq-28",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edited the photo」指「編輯／修圖」。",
       "sentenceIndex": 17,
@@ -1191,12 +1121,10 @@ export default {
         "edited the photo"
       ],
       "optionReasons": {
-        "edit-mcq-08": "本句指「編輯／修圖」。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。"
+        "edit-mcq-08": "本句的「edited the photo」指「編輯／修圖」。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-08"
     },
@@ -1208,11 +1136,9 @@ export default {
       "masked": "You can ____ on your phone.",
       "options": [
         "edit-mcq-08",
-        "edit-mcq-07",
-        "edit-mcq-09",
-        "edit-mcq-06",
-        "edit-mcq-10",
-        "edit-mcq-05"
+        "edit-mcq-22",
+        "edit-mcq-28",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edit the image」指「編輯／修圖」。",
       "sentenceIndex": 18,
@@ -1221,12 +1147,10 @@ export default {
         "edit the image"
       ],
       "optionReasons": {
-        "edit-mcq-08": "本句指「編輯／修圖」。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-05": "「編輯出版物」是「edit a publication」的用法，與本句語境不同。"
+        "edit-mcq-08": "本句的「edit the image」指「編輯／修圖」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-08"
     },
@@ -1238,11 +1162,9 @@ export default {
       "masked": "The offensive comment was ____.",
       "options": [
         "edit-mcq-09",
-        "edit-mcq-08",
-        "edit-mcq-10",
-        "edit-mcq-07",
-        "edit-mcq-11",
-        "edit-mcq-06"
+        "edit-mcq-01",
+        "edit-mcq-22",
+        "edit-pdf-002"
       ],
       "explanation": "本句的「edited out」指「刪掉／剪掉」。",
       "sentenceIndex": 19,
@@ -1251,12 +1173,10 @@ export default {
         "edited out"
       ],
       "optionReasons": {
-        "edit-mcq-09": "本句指「刪掉／剪掉」。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-09": "本句的「edited out」指「刪掉／剪掉」。",
+        "edit-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-09"
     },
@@ -1268,11 +1188,9 @@ export default {
       "masked": "They ____ several unnecessary scenes.",
       "options": [
         "edit-mcq-09",
-        "edit-mcq-08",
-        "edit-mcq-10",
-        "edit-mcq-07",
-        "edit-mcq-11",
-        "edit-mcq-06"
+        "edit-mcq-22",
+        "edit-mcq-04",
+        "edit-mcq-17"
       ],
       "explanation": "本句的「edited out」指「刪掉／剪掉」。",
       "sentenceIndex": 20,
@@ -1281,12 +1199,10 @@ export default {
         "edited out"
       ],
       "optionReasons": {
-        "edit-mcq-09": "本句指「刪掉／剪掉」。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-06": "「剪輯影片」是「edit a video」的用法，與本句語境不同。"
+        "edit-mcq-09": "本句的「edited out」指「刪掉／剪掉」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-09"
     },
@@ -1298,11 +1214,9 @@ export default {
       "masked": "The report was ____.",
       "options": [
         "edit-mcq-10",
-        "edit-mcq-09",
         "edit-mcq-11",
-        "edit-mcq-08",
-        "edit-mcq-12",
-        "edit-mcq-07"
+        "edit-mcq-06",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edited down to ten pages」指「刪減」。",
       "sentenceIndex": 21,
@@ -1311,12 +1225,10 @@ export default {
         "edited down to ten pages"
       ],
       "optionReasons": {
-        "edit-mcq-10": "本句指「刪減」。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。"
+        "edit-mcq-10": "本句的「edited down to ten pages」指「刪減」。",
+        "edit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-10"
     },
@@ -1328,11 +1240,9 @@ export default {
       "masked": "We had to ____ for television.",
       "options": [
         "edit-mcq-10",
-        "edit-mcq-09",
-        "edit-mcq-11",
-        "edit-mcq-08",
-        "edit-mcq-12",
-        "edit-mcq-07"
+        "edit-mcq-15",
+        "edit-mcq-27",
+        "edit-mcq-28"
       ],
       "explanation": "本句的「edit the interview down」指「刪減」。",
       "sentenceIndex": 22,
@@ -1341,12 +1251,10 @@ export default {
         "edit the interview down"
       ],
       "optionReasons": {
-        "edit-mcq-10": "本句指「刪減」。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-07": "「剪輯電影」是「edit a film」的用法，與本句語境不同。"
+        "edit-mcq-10": "本句的「edit the interview down」指「刪減」。",
+        "edit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-10"
     },
@@ -1358,11 +1266,9 @@ export default {
       "masked": "The draft was rough, but the editor ____.",
       "options": [
         "edit-mcq-27",
-        "edit-mcq-26",
-        "edit-mcq-28",
-        "edit-mcq-25",
-        "edit-mcq-29",
-        "edit-mcq-24"
+        "edit-mcq-22",
+        "edit-mcq-18",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「edited it into shape」指「經過多次修改，使內容變得完整、清楚和可用」。",
       "sentenceIndex": 23,
@@ -1371,12 +1277,10 @@ export default {
         "edited it into shape"
       ],
       "optionReasons": {
-        "edit-mcq-27": "本句指「經過多次修改，使內容變得完整、清楚和可用」。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-28": "「選取、剪接和安排影像及聲音素材的製作過程」是「17. video / film editing — 影片／電影剪輯」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-29": "「用來建立或修改文字、圖片、程式碼等內容的電腦程式」是「20. editor（軟件：編輯器） — 編輯器」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。"
+        "edit-mcq-27": "本句的「edited it into shape」指「經過多次修改，使內容變得完整、清楚和可用」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-27"
     },
@@ -1388,11 +1292,9 @@ export default {
       "masked": "We spent the afternoon ____.",
       "options": [
         "edit-mcq-27",
-        "edit-mcq-26",
-        "edit-mcq-28",
-        "edit-mcq-25",
-        "edit-mcq-29",
-        "edit-mcq-24"
+        "edit-mcq-22",
+        "edit-mcq-06",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「editing the proposal into shape」指「經過多次修改，使內容變得完整、清楚和可用」。",
       "sentenceIndex": 24,
@@ -1401,12 +1303,10 @@ export default {
         "editing the proposal into shape"
       ],
       "optionReasons": {
-        "edit-mcq-27": "本句指「經過多次修改，使內容變得完整、清楚和可用」。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-28": "「選取、剪接和安排影像及聲音素材的製作過程」是「17. video / film editing — 影片／電影剪輯」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-29": "「用來建立或修改文字、圖片、程式碼等內容的電腦程式」是「20. editor（軟件：編輯器） — 編輯器」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。"
+        "edit-mcq-27": "本句的「editing the proposal into shape」指「經過多次修改，使內容變得完整、清楚和可用」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-27"
     },
@@ -1418,11 +1318,9 @@ export default {
       "masked": "I made a few ____ to the document.",
       "options": [
         "edit-mcq-11",
+        "edit-mcq-28",
         "edit-mcq-10",
-        "edit-mcq-12",
-        "edit-mcq-09",
-        "edit-mcq-13",
-        "edit-mcq-08"
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edits」指「修改；編輯版本」。",
       "sentenceIndex": 25,
@@ -1431,12 +1329,10 @@ export default {
         "edits"
       ],
       "optionReasons": {
-        "edit-mcq-11": "本句指「修改；編輯版本」。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。"
+        "edit-mcq-11": "本句的「edits」指「修改；編輯版本」。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-11"
     },
@@ -1448,11 +1344,9 @@ export default {
       "masked": "Your latest ____ is much clearer.",
       "options": [
         "edit-mcq-11",
-        "edit-mcq-10",
-        "edit-mcq-12",
         "edit-mcq-09",
-        "edit-mcq-13",
-        "edit-mcq-08"
+        "edit-mcq-22",
+        "edit-mcq-23"
       ],
       "explanation": "本句的「edit」指「修改；編輯版本」。",
       "sentenceIndex": 26,
@@ -1461,12 +1355,10 @@ export default {
         "edit"
       ],
       "optionReasons": {
-        "edit-mcq-11": "本句指「修改；編輯版本」。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-08": "「編輯／修圖」是「edit a photo」的用法，與本句語境不同。"
+        "edit-mcq-11": "本句的「edit」指「修改；編輯版本」。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-11"
     },
@@ -1478,11 +1370,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "edit-mcq-12",
-        "edit-mcq-11",
-        "edit-mcq-13",
-        "edit-mcq-10",
-        "edit-mcq-14",
-        "edit-mcq-09"
+        "edit-mcq-15",
+        "edit-mcq-09",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「make a few edits」指「作出修改」。",
       "sentenceIndex": 27,
@@ -1491,12 +1381,10 @@ export default {
         "make a few edits"
       ],
       "optionReasons": {
-        "edit-mcq-12": "本句指「作出修改」。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。"
+        "edit-mcq-12": "本句的「make a few edits」指「作出修改」。",
+        "edit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-12"
     },
@@ -1508,11 +1396,9 @@ export default {
       "masked": "The client requested several ____.",
       "options": [
         "edit-mcq-12",
-        "edit-mcq-11",
-        "edit-mcq-13",
-        "edit-mcq-10",
-        "edit-mcq-14",
-        "edit-mcq-09"
+        "edit-mcq-26",
+        "edit-mcq-17",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「edits」指「作出修改」。",
       "sentenceIndex": 28,
@@ -1521,12 +1407,10 @@ export default {
         "edits"
       ],
       "optionReasons": {
-        "edit-mcq-12": "本句指「作出修改」。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-09": "「刪掉／剪掉」是「edit out」的用法，與本句語境不同。"
+        "edit-mcq-12": "本句的「edits」指「作出修改」。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-12"
     },
@@ -1538,11 +1422,9 @@ export default {
       "masked": "This is the ____ of the video.",
       "options": [
         "edit-mcq-13",
-        "edit-mcq-12",
-        "edit-mcq-14",
-        "edit-mcq-11",
-        "edit-mcq-15",
-        "edit-mcq-10"
+        "edit-mcq-22",
+        "edit-mcq-10",
+        "edit-mcq-23"
       ],
       "explanation": "本句的「final edit」指「最後修改／最終剪輯」。",
       "sentenceIndex": 29,
@@ -1551,12 +1433,10 @@ export default {
         "final edit"
       ],
       "optionReasons": {
-        "edit-mcq-13": "本句指「最後修改／最終剪輯」。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。"
+        "edit-mcq-13": "本句的「final edit」指「最後修改／最終剪輯」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-13"
     },
@@ -1568,11 +1448,9 @@ export default {
       "masked": "I gave the essay one ____.",
       "options": [
         "edit-mcq-13",
-        "edit-mcq-12",
-        "edit-mcq-14",
-        "edit-mcq-11",
-        "edit-mcq-15",
-        "edit-mcq-10"
+        "edit-mcq-10",
+        "edit-mcq-22",
+        "edit-mcq-23"
       ],
       "explanation": "本句的「final edit」指「最後修改／最終剪輯」。",
       "sentenceIndex": 30,
@@ -1581,12 +1459,10 @@ export default {
         "final edit"
       ],
       "optionReasons": {
-        "edit-mcq-13": "本句指「最後修改／最終剪輯」。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。",
-        "edit-mcq-10": "「刪減」是「edit down」的用法，與本句語境不同。"
+        "edit-mcq-13": "本句的「final edit」指「最後修改／最終剪輯」。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-13"
     },
@@ -1598,11 +1474,9 @@ export default {
       "masked": "The report still needs some ____.",
       "options": [
         "edit-mcq-14",
-        "edit-mcq-13",
-        "edit-mcq-15",
-        "edit-mcq-12",
-        "edit-mcq-16",
-        "edit-mcq-11"
+        "edit-mcq-29",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editing」指「編輯；剪輯」。",
       "sentenceIndex": 31,
@@ -1611,12 +1485,10 @@ export default {
         "editing"
       ],
       "optionReasons": {
-        "edit-mcq-14": "本句指「編輯；剪輯」。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。"
+        "edit-mcq-14": "本句的「editing」指「編輯；剪輯」。",
+        "edit-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-14"
     },
@@ -1628,11 +1500,9 @@ export default {
       "masked": "Good ____ can make writing much clearer.",
       "options": [
         "edit-mcq-14",
-        "edit-mcq-13",
-        "edit-mcq-15",
-        "edit-mcq-12",
-        "edit-mcq-16",
-        "edit-mcq-11"
+        "edit-mcq-25",
+        "edit-mcq-02",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editing」指「編輯；剪輯」。",
       "sentenceIndex": 32,
@@ -1641,12 +1511,10 @@ export default {
         "editing"
       ],
       "optionReasons": {
-        "edit-mcq-14": "本句指「編輯；剪輯」。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-11": "「修改；編輯版本」是「edit (noun)」的用法，與本句語境不同。"
+        "edit-mcq-14": "本句的「editing」指「編輯；剪輯」。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-14"
     },
@@ -1658,11 +1526,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "edit-mcq-28",
-        "edit-mcq-27",
-        "edit-mcq-29",
-        "edit-mcq-26",
-        "edit-mcq-25",
-        "edit-mcq-24"
+        "edit-mcq-04",
+        "edit-mcq-21",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「video editing」指「選取、剪接和安排影像及聲音素材的製作過程」。",
       "sentenceIndex": 33,
@@ -1671,12 +1537,10 @@ export default {
         "video editing"
       ],
       "optionReasons": {
-        "edit-mcq-28": "本句指「選取、剪接和安排影像及聲音素材的製作過程」。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-29": "「用來建立或修改文字、圖片、程式碼等內容的電腦程式」是「20. editor（軟件：編輯器） — 編輯器」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。"
+        "edit-mcq-28": "本句的「video editing」指「選取、剪接和安排影像及聲音素材的製作過程」。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-28"
     },
@@ -1688,11 +1552,9 @@ export default {
       "masked": "Good ____ affects the pace of a movie.",
       "options": [
         "edit-mcq-28",
-        "edit-mcq-27",
-        "edit-mcq-29",
-        "edit-mcq-26",
-        "edit-mcq-25",
-        "edit-mcq-24"
+        "edit-mcq-12",
+        "edit-mcq-20",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「film editing」指「選取、剪接和安排影像及聲音素材的製作過程」。",
       "sentenceIndex": 34,
@@ -1701,12 +1563,10 @@ export default {
         "film editing"
       ],
       "optionReasons": {
-        "edit-mcq-28": "本句指「選取、剪接和安排影像及聲音素材的製作過程」。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-29": "「用來建立或修改文字、圖片、程式碼等內容的電腦程式」是「20. editor（軟件：編輯器） — 編輯器」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。"
+        "edit-mcq-28": "本句的「film editing」指「選取、剪接和安排影像及聲音素材的製作過程」。",
+        "edit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-28"
     },
@@ -1718,11 +1578,9 @@ export default {
       "masked": "The ____ suggested several changes.",
       "options": [
         "edit-mcq-15",
-        "edit-mcq-14",
-        "edit-mcq-16",
-        "edit-mcq-13",
-        "edit-mcq-17",
-        "edit-mcq-12"
+        "edit-pdf-001",
+        "edit-mcq-10",
+        "edit-mcq-28"
       ],
       "explanation": "本句的「editor」指「編輯；主編」。",
       "sentenceIndex": 35,
@@ -1731,12 +1589,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-15": "本句指「編輯；主編」。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。"
+        "edit-mcq-15": "本句的「editor」指「編輯；主編」。",
+        "edit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-15"
     },
@@ -1748,11 +1604,9 @@ export default {
       "masked": "She works as a magazine ____.",
       "options": [
         "edit-mcq-15",
-        "edit-mcq-14",
-        "edit-mcq-16",
-        "edit-mcq-13",
-        "edit-mcq-17",
-        "edit-mcq-12"
+        "edit-mcq-26",
+        "edit-pdf-001",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editor」指「編輯；主編」。",
       "sentenceIndex": 36,
@@ -1761,12 +1615,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-15": "本句指「編輯；主編」。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。"
+        "edit-mcq-15": "本句的「editor」指「編輯；主編」。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "edit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-15"
     },
@@ -1778,11 +1630,9 @@ export default {
       "masked": "She is the ____ of the newspaper.",
       "options": [
         "edit-mcq-15",
-        "edit-mcq-14",
-        "edit-mcq-16",
-        "edit-mcq-13",
-        "edit-mcq-17",
-        "edit-mcq-12"
+        "edit-mcq-25",
+        "edit-mcq-04",
+        "edit-mcq-26"
       ],
       "explanation": "本句的「editor」指「編輯；主編」。",
       "sentenceIndex": 37,
@@ -1791,12 +1641,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-15": "本句指「編輯；主編」。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。"
+        "edit-mcq-15": "本句的「editor」指「編輯；主編」。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-15"
     },
@@ -1808,11 +1656,9 @@ export default {
       "masked": "The ____ approved the front-page story.",
       "options": [
         "edit-mcq-15",
-        "edit-mcq-14",
-        "edit-mcq-16",
-        "edit-mcq-13",
-        "edit-mcq-17",
-        "edit-mcq-12"
+        "edit-mcq-26",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editor」指「編輯；主編」。",
       "sentenceIndex": 38,
@@ -1821,12 +1667,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-15": "本句指「編輯；主編」。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-13": "「最後修改／最終剪輯」是「final edit」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-12": "「作出修改」是「make edits」的用法，與本句語境不同。"
+        "edit-mcq-15": "本句的「editor」指「編輯；主編」。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-15"
     },
@@ -1838,11 +1682,9 @@ export default {
       "masked": "Open the file in a text ____.",
       "options": [
         "edit-mcq-29",
-        "edit-mcq-28",
-        "edit-mcq-27",
-        "edit-mcq-26",
-        "edit-mcq-25",
-        "edit-mcq-24"
+        "edit-mcq-20",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editor」指「用來建立或修改文字、圖片、程式碼等內容的電腦程式」。",
       "sentenceIndex": 39,
@@ -1851,12 +1693,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-29": "本句指「用來建立或修改文字、圖片、程式碼等內容的電腦程式」。",
-        "edit-mcq-28": "「選取、剪接和安排影像及聲音素材的製作過程」是「17. video / film editing — 影片／電影剪輯」的用法，與本句語境不同。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。"
+        "edit-mcq-29": "本句的「editor」指「用來建立或修改文字、圖片、程式碼等內容的電腦程式」。",
+        "edit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-29"
     },
@@ -1868,11 +1708,9 @@ export default {
       "masked": "The photo ____ has several useful tools.",
       "options": [
         "edit-mcq-29",
-        "edit-mcq-28",
-        "edit-mcq-27",
-        "edit-mcq-26",
-        "edit-mcq-25",
-        "edit-mcq-24"
+        "edit-mcq-09",
+        "edit-mcq-19",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editor」指「用來建立或修改文字、圖片、程式碼等內容的電腦程式」。",
       "sentenceIndex": 40,
@@ -1881,12 +1719,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-29": "本句指「用來建立或修改文字、圖片、程式碼等內容的電腦程式」。",
-        "edit-mcq-28": "「選取、剪接和安排影像及聲音素材的製作過程」是「17. video / film editing — 影片／電影剪輯」的用法，與本句語境不同。",
-        "edit-mcq-27": "「經過多次修改，使內容變得完整、清楚和可用」是「12. edit something into shape — 修改至合適狀態」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。"
+        "edit-mcq-29": "本句的「editor」指「用來建立或修改文字、圖片、程式碼等內容的電腦程式」。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-29"
     },
@@ -1898,11 +1734,9 @@ export default {
       "masked": "I wrote the code in a simple ____.",
       "options": [
         "edit-mcq-17",
-        "edit-mcq-16",
-        "edit-mcq-18",
-        "edit-mcq-15",
-        "edit-mcq-19",
-        "edit-mcq-14"
+        "edit-mcq-28",
+        "edit-mcq-02",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「text editor」指「文字編輯器」。",
       "sentenceIndex": 41,
@@ -1911,12 +1745,10 @@ export default {
         "text editor"
       ],
       "optionReasons": {
-        "edit-mcq-17": "本句指「文字編輯器」。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。"
+        "edit-mcq-17": "本句的「text editor」指「文字編輯器」。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-17"
     },
@@ -1928,11 +1760,9 @@ export default {
       "masked": "A ____ is different from a word processor.",
       "options": [
         "edit-mcq-17",
-        "edit-mcq-16",
-        "edit-mcq-18",
-        "edit-mcq-15",
-        "edit-mcq-19",
-        "edit-mcq-14"
+        "edit-mcq-10",
+        "edit-mcq-22",
+        "edit-mcq-28"
       ],
       "explanation": "本句的「text editor」指「文字編輯器」。",
       "sentenceIndex": 42,
@@ -1941,12 +1771,10 @@ export default {
         "text editor"
       ],
       "optionReasons": {
-        "edit-mcq-17": "本句指「文字編輯器」。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-14": "「編輯；剪輯」是「editing」的用法，與本句語境不同。"
+        "edit-mcq-17": "本句的「text editor」指「文字編輯器」。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-17"
     },
@@ -1958,11 +1786,9 @@ export default {
       "masked": "The app includes a built-in photo ____.",
       "options": [
         "edit-mcq-18",
-        "edit-mcq-17",
-        "edit-mcq-19",
-        "edit-mcq-16",
-        "edit-mcq-20",
-        "edit-mcq-15"
+        "edit-mcq-10",
+        "edit-mcq-12",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editor」指「影片剪輯程式」。",
       "sentenceIndex": 43,
@@ -1971,12 +1797,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-18": "本句指「影片剪輯程式」。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。"
+        "edit-mcq-18": "本句的「editor」指「影片剪輯程式」。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-18"
     },
@@ -1988,11 +1812,9 @@ export default {
       "masked": "He uses a professional video ____.",
       "options": [
         "edit-mcq-18",
-        "edit-mcq-17",
-        "edit-mcq-19",
-        "edit-mcq-16",
-        "edit-mcq-20",
-        "edit-mcq-15"
+        "edit-mcq-22",
+        "edit-mcq-04",
+        "edit-pdf-002"
       ],
       "explanation": "本句的「editor」指「影片剪輯程式」。",
       "sentenceIndex": 44,
@@ -2001,12 +1823,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-18": "本句指「影片剪輯程式」。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-15": "「編輯；主編」是「editor (person)」的用法，與本句語境不同。"
+        "edit-mcq-18": "本句的「editor」指「影片剪輯程式」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-18"
     },
@@ -2018,11 +1838,9 @@ export default {
       "masked": "Please send me an ____.",
       "options": [
         "edit-mcq-19",
-        "edit-mcq-18",
-        "edit-mcq-20",
-        "edit-mcq-17",
-        "edit-mcq-21",
-        "edit-mcq-16"
+        "edit-mcq-27",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editable file」指「可編輯的」。",
       "sentenceIndex": 45,
@@ -2031,12 +1849,10 @@ export default {
         "editable file"
       ],
       "optionReasons": {
-        "edit-mcq-19": "本句指「可編輯的」。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。"
+        "edit-mcq-19": "本句的「editable file」指「可編輯的」。",
+        "edit-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-19"
     },
@@ -2048,11 +1864,9 @@ export default {
       "masked": "The text remains fully ____.",
       "options": [
         "edit-mcq-19",
-        "edit-mcq-18",
-        "edit-mcq-20",
-        "edit-mcq-17",
-        "edit-mcq-21",
-        "edit-mcq-16"
+        "edit-mcq-25",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editable」指「可編輯的」。",
       "sentenceIndex": 46,
@@ -2061,12 +1875,10 @@ export default {
         "editable"
       ],
       "optionReasons": {
-        "edit-mcq-19": "本句指「可編輯的」。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-16": "「編輯器」是「editor (software)」的用法，與本句語境不同。"
+        "edit-mcq-19": "本句的「editable」指「可編輯的」。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-19"
     },
@@ -2078,11 +1890,9 @@ export default {
       "masked": "We watched the ____.",
       "options": [
         "edit-mcq-20",
-        "edit-mcq-19",
-        "edit-mcq-21",
-        "edit-mcq-18",
+        "edit-pdf-001",
         "edit-mcq-22",
-        "edit-mcq-17"
+        "edit-mcq-09"
       ],
       "explanation": "本句的「unedited footage」指「未經編輯的」。",
       "sentenceIndex": 47,
@@ -2091,12 +1901,10 @@ export default {
         "unedited footage"
       ],
       "optionReasons": {
-        "edit-mcq-20": "本句指「未經編輯的」。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。"
+        "edit-mcq-20": "本句的「unedited footage」指「未經編輯的」。",
+        "edit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-20"
     },
@@ -2108,11 +1916,9 @@ export default {
       "masked": "This is the ____ of the interview.",
       "options": [
         "edit-mcq-20",
-        "edit-mcq-19",
-        "edit-mcq-21",
-        "edit-mcq-18",
-        "edit-mcq-22",
-        "edit-mcq-17"
+        "edit-mcq-09",
+        "edit-pdf-002",
+        "edit-mcq-04"
       ],
       "explanation": "本句的「unedited version」指「未經編輯的」。",
       "sentenceIndex": 48,
@@ -2121,12 +1927,10 @@ export default {
         "unedited version"
       ],
       "optionReasons": {
-        "edit-mcq-20": "本句指「未經編輯的」。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-17": "「文字編輯器」是「text editor」的用法，與本句語境不同。"
+        "edit-mcq-20": "本句的「unedited version」指「未經編輯的」。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-20"
     },
@@ -2138,11 +1942,9 @@ export default {
       "masked": "That was an ____.",
       "options": [
         "edit-mcq-21",
-        "edit-mcq-20",
-        "edit-mcq-22",
-        "edit-mcq-19",
-        "edit-mcq-23",
-        "edit-mcq-18"
+        "edit-mcq-02",
+        "edit-mcq-25",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editorial decision」指「編採的；編輯的」。",
       "sentenceIndex": 49,
@@ -2151,12 +1953,10 @@ export default {
         "editorial decision"
       ],
       "optionReasons": {
-        "edit-mcq-21": "本句指「編採的；編輯的」。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。"
+        "edit-mcq-21": "本句的「editorial decision」指「編採的；編輯的」。",
+        "edit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-21"
     },
@@ -2168,11 +1968,9 @@ export default {
       "masked": "The newspaper has strict ____.",
       "options": [
         "edit-mcq-21",
-        "edit-mcq-20",
-        "edit-mcq-22",
-        "edit-mcq-19",
-        "edit-mcq-23",
-        "edit-mcq-18"
+        "edit-mcq-04",
+        "edit-mcq-25",
+        "edit-mcq-26"
       ],
       "explanation": "本句的「editorial standards」指「編採的；編輯的」。",
       "sentenceIndex": 50,
@@ -2181,12 +1979,10 @@ export default {
         "editorial standards"
       ],
       "optionReasons": {
-        "edit-mcq-21": "本句指「編採的；編輯的」。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-18": "「影片剪輯程式」是「video editor」的用法，與本句語境不同。"
+        "edit-mcq-21": "本句的「editorial standards」指「編採的；編輯的」。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-21"
     },
@@ -2198,11 +1994,9 @@ export default {
       "masked": "The newspaper published an ____ on the issue.",
       "options": [
         "edit-mcq-22",
-        "edit-mcq-21",
-        "edit-mcq-23",
-        "edit-mcq-20",
-        "edit-mcq-24",
-        "edit-mcq-19"
+        "edit-mcq-19",
+        "edit-mcq-09",
+        "edit-mcq-25"
       ],
       "explanation": "本句的「editorial」指「社論」。",
       "sentenceIndex": 51,
@@ -2211,12 +2005,10 @@ export default {
         "editorial"
       ],
       "optionReasons": {
-        "edit-mcq-22": "本句指「社論」。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。"
+        "edit-mcq-22": "本句的「editorial」指「社論」。",
+        "edit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-22"
     },
@@ -2228,11 +2020,9 @@ export default {
       "masked": "I read today's ____.",
       "options": [
         "edit-mcq-22",
-        "edit-mcq-21",
-        "edit-mcq-23",
-        "edit-mcq-20",
-        "edit-mcq-24",
-        "edit-mcq-19"
+        "edit-mcq-15",
+        "edit-mcq-25",
+        "edit-mcq-04"
       ],
       "explanation": "本句的「editorial」指「社論」。",
       "sentenceIndex": 52,
@@ -2241,12 +2031,10 @@ export default {
         "editorial"
       ],
       "optionReasons": {
-        "edit-mcq-22": "本句指「社論」。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-19": "「可編輯的」是「editable」的用法，與本句語境不同。"
+        "edit-mcq-22": "本句的「editorial」指「社論」。",
+        "edit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-22"
     },
@@ -2259,10 +2047,8 @@ export default {
       "options": [
         "edit-mcq-23",
         "edit-mcq-22",
-        "edit-mcq-24",
-        "edit-mcq-21",
-        "edit-mcq-25",
-        "edit-mcq-20"
+        "edit-mcq-10",
+        "edit-mcq-26"
       ],
       "explanation": "本句的「copy-edited」指「文字編校」。",
       "sentenceIndex": 53,
@@ -2271,12 +2057,10 @@ export default {
         "copy-edited"
       ],
       "optionReasons": {
-        "edit-mcq-23": "本句指「文字編校」。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。"
+        "edit-mcq-23": "本句的「copy-edited」指「文字編校」。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-23"
     },
@@ -2288,11 +2072,9 @@ export default {
       "masked": "A copy ____ checks grammar, consistency, and style.",
       "options": [
         "edit-mcq-23",
-        "edit-mcq-22",
-        "edit-mcq-24",
-        "edit-mcq-21",
-        "edit-mcq-25",
-        "edit-mcq-20"
+        "edit-mcq-04",
+        "edit-mcq-06",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「editor」指「文字編校」。",
       "sentenceIndex": 54,
@@ -2301,12 +2083,10 @@ export default {
         "editor"
       ],
       "optionReasons": {
-        "edit-mcq-23": "本句指「文字編校」。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-24": "「重新編輯／剪輯」是「re-edit」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-20": "「未經編輯的」是「unedited」的用法，與本句語境不同。"
+        "edit-mcq-23": "本句的「editor」指「文字編校」。",
+        "edit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-23"
     },
@@ -2318,11 +2098,9 @@ export default {
       "masked": "The director ____ for its new release.",
       "options": [
         "edit-mcq-24",
-        "edit-mcq-23",
-        "edit-mcq-25",
-        "edit-mcq-22",
-        "edit-mcq-26",
-        "edit-mcq-21"
+        "edit-mcq-02",
+        "edit-mcq-10",
+        "edit-mcq-22"
       ],
       "explanation": "本句的「re-edited the film」指「重新編輯／剪輯」。",
       "sentenceIndex": 55,
@@ -2331,12 +2109,10 @@ export default {
         "re-edited the film"
       ],
       "optionReasons": {
-        "edit-mcq-24": "本句指「重新編輯／剪輯」。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。"
+        "edit-mcq-24": "本句的「re-edited the film」指「重新編輯／剪輯」。",
+        "edit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-24"
     },
@@ -2348,11 +2124,9 @@ export default {
       "masked": "I had to ____ after receiving feedback.",
       "options": [
         "edit-mcq-24",
-        "edit-mcq-23",
-        "edit-mcq-25",
-        "edit-mcq-22",
-        "edit-mcq-26",
-        "edit-mcq-21"
+        "edit-mcq-02",
+        "edit-pdf-002",
+        "edit-mcq-10"
       ],
       "explanation": "本句的「re-edit the document」指「重新編輯／剪輯」。",
       "sentenceIndex": 56,
@@ -2361,12 +2135,10 @@ export default {
         "re-edit the document"
       ],
       "optionReasons": {
-        "edit-mcq-24": "本句指「重新編輯／剪輯」。",
-        "edit-mcq-23": "「文字編校」是「copy-edit」的用法，與本句語境不同。",
-        "edit-mcq-25": "「專業地檢查、修訂和整理別人的文字，以準備出版或公開使用」是「5. edit（校訂／整理別人的作品） — 編輯；校訂」的用法，與本句語境不同。",
-        "edit-mcq-22": "「社論」是「editorial (noun)」的用法，與本句語境不同。",
-        "edit-mcq-26": "「選擇、剪接和重新排列影像及聲音片段，製作成完整作品」是「7. edit（影片／電影：剪輯） — 剪輯」的用法，與本句語境不同。",
-        "edit-mcq-21": "「編採的；編輯的」是「editorial (adj.)」的用法，與本句語境不同。"
+        "edit-mcq-24": "本句的「re-edit the document」指「重新編輯／剪輯」。",
+        "edit-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "edit-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "edit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "edit-mcq-24"
     }
@@ -2378,5 +2150,7 @@ export default {
     "sha256": "0525741eb5502daedc33ad648d1fb49302a8d673a5448c044629357168ce487b",
     "pages": 22
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

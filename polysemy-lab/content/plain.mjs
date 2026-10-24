@@ -39,18 +39,7 @@ export default {
       "en": "plain clothes",
       "zh": "樸素衣服",
       "note": "來源詞義：樸素衣服",
-      "examples": [
-        [
-          "The officer was wearing plain clothes.",
-          "那名警員穿着便服。",
-          "樸素衣服"
-        ],
-        [
-          "A plain-clothes officer followed the suspect.",
-          "一名便衣警員跟蹤疑犯。",
-          "樸素衣服"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -449,6 +438,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "plain-reviewed-b5dd2cbdf6",
+      "title": "不穿制服、穿普通日常衣服的狀態，尤其指警員",
+      "form": "plain · source section 13",
+      "en": "不穿制服、穿普通日常衣服的狀態，尤其指警員",
+      "zh": "不穿制服、穿普通日常衣服的狀態，尤其指警員",
+      "note": "對照原始教材第 13 節及例句核實。",
+      "examples": [
+        [
+          "The officer was wearing plain clothes.",
+          "那名警員穿着便服。",
+          "不穿制服、穿普通日常衣服的狀態，尤其指警員"
+        ],
+        [
+          "A plain-clothes officer followed the suspect.",
+          "一名便衣警員跟蹤疑犯。",
+          "不穿制服、穿普通日常衣服的狀態，尤其指警員"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -460,11 +471,9 @@ export default {
       "masked": "He usually wore a ____.",
       "options": [
         "plain-mcq-01",
-        "plain-mcq-02",
-        "plain-mcq-03",
-        "plain-mcq-04",
-        "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-mcq-06",
+        "plain-mcq-15",
+        "plain-mcq-11"
       ],
       "explanation": "本句的「plain shirt」指「樸素／素色恤衫」。",
       "sentenceIndex": 0,
@@ -473,12 +482,10 @@ export default {
         "plain shirt"
       ],
       "optionReasons": {
-        "plain-mcq-01": "本句指「樸素／素色恤衫」。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-mcq-01": "本句的「plain shirt」指「樸素／素色恤衫」。",
+        "plain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-01"
     },
@@ -490,11 +497,9 @@ export default {
       "masked": "She chose a ____.",
       "options": [
         "plain-mcq-01",
-        "plain-mcq-02",
-        "plain-mcq-03",
-        "plain-mcq-04",
+        "plain-mcq-18",
         "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-mcq-13"
       ],
       "explanation": "本句的「plain black dress」指「樸素／素色恤衫」。",
       "sentenceIndex": 1,
@@ -503,12 +508,10 @@ export default {
         "plain black dress"
       ],
       "optionReasons": {
-        "plain-mcq-01": "本句指「樸素／素色恤衫」。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-mcq-01": "本句的「plain black dress」指「樸素／素色恤衫」。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-01"
     },
@@ -520,11 +523,9 @@ export default {
       "masked": "I prefer ____ without large logos.",
       "options": [
         "plain-mcq-01",
-        "plain-mcq-02",
-        "plain-mcq-03",
-        "plain-mcq-04",
-        "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-mcq-13",
+        "plain-mcq-10",
+        "plain-mcq-04"
       ],
       "explanation": "本句的「plain clothes」指「樸素／素色恤衫」。",
       "sentenceIndex": 2,
@@ -533,12 +534,10 @@ export default {
         "plain clothes"
       ],
       "optionReasons": {
-        "plain-mcq-01": "本句指「樸素／素色恤衫」。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-mcq-01": "本句的「plain clothes」指「樸素／素色恤衫」。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-01"
     },
@@ -550,11 +549,9 @@ export default {
       "masked": "The room has a ____.",
       "options": [
         "plain-mcq-03",
-        "plain-mcq-02",
-        "plain-mcq-04",
-        "plain-mcq-01",
-        "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-mcq-13",
+        "plain-mcq-16",
+        "plain-mcq-10"
       ],
       "explanation": "本句的「plain design」指「簡約設計」。",
       "sentenceIndex": 3,
@@ -563,12 +560,10 @@ export default {
         "plain design"
       ],
       "optionReasons": {
-        "plain-mcq-03": "本句指「簡約設計」。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-01": "「樸素／素色恤衫」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-mcq-03": "本句的「plain design」指「簡約設計」。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-03"
     },
@@ -580,11 +575,9 @@ export default {
       "masked": "He prefers ____ to decorative ones.",
       "options": [
         "plain-mcq-03",
-        "plain-mcq-02",
-        "plain-mcq-04",
-        "plain-mcq-01",
-        "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-mcq-18",
+        "plain-mcq-19",
+        "plain-mcq-16"
       ],
       "explanation": "本句的「plain styles」指「簡約設計」。",
       "sentenceIndex": 4,
@@ -593,12 +586,10 @@ export default {
         "plain styles"
       ],
       "optionReasons": {
-        "plain-mcq-03": "本句指「簡約設計」。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-01": "「樸素／素色恤衫」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-mcq-03": "本句的「plain styles」指「簡約設計」。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-03"
     },
@@ -610,11 +601,9 @@ export default {
       "masked": "I ate some ____.",
       "options": [
         "plain-mcq-04",
-        "plain-mcq-03",
-        "plain-mcq-05",
-        "plain-mcq-02",
+        "plain-mcq-11",
         "plain-mcq-06",
-        "plain-mcq-01"
+        "plain-mcq-17"
       ],
       "explanation": "本句的「plain rice」指「清淡簡單食物」。",
       "sentenceIndex": 5,
@@ -623,12 +612,10 @@ export default {
         "plain rice"
       ],
       "optionReasons": {
-        "plain-mcq-04": "本句指「清淡簡單食物」。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-01": "「樸素／素色恤衫」與本句語境不同。"
+        "plain-mcq-04": "本句的「plain rice」指「清淡簡單食物」。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-04"
     },
@@ -640,11 +627,9 @@ export default {
       "masked": "He prefers ____ when he feels unwell.",
       "options": [
         "plain-mcq-04",
-        "plain-mcq-03",
+        "plain-mcq-14",
         "plain-mcq-05",
-        "plain-mcq-02",
-        "plain-mcq-06",
-        "plain-mcq-01"
+        "plain-mcq-08"
       ],
       "explanation": "本句的「plain food」指「清淡簡單食物」。",
       "sentenceIndex": 6,
@@ -653,12 +638,10 @@ export default {
         "plain food"
       ],
       "optionReasons": {
-        "plain-mcq-04": "本句指「清淡簡單食物」。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-01": "「樸素／素色恤衫」與本句語境不同。"
+        "plain-mcq-04": "本句的「plain food」指「清淡簡單食物」。",
+        "plain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-04"
     },
@@ -670,11 +653,9 @@ export default {
       "masked": "She bought ____.",
       "options": [
         "plain-mcq-05",
-        "plain-mcq-04",
-        "plain-mcq-06",
-        "plain-mcq-03",
-        "plain-mcq-07",
-        "plain-mcq-02"
+        "plain-mcq-10",
+        "plain-reviewed-b5dd2cbdf6",
+        "plain-mcq-04"
       ],
       "explanation": "本句的「plain yoghurt」指「原味乳酪」。",
       "sentenceIndex": 7,
@@ -683,12 +664,10 @@ export default {
         "plain yoghurt"
       ],
       "optionReasons": {
-        "plain-mcq-05": "本句指「原味乳酪」。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。"
+        "plain-mcq-05": "本句的「plain yoghurt」指「原味乳酪」。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plain-reviewed-b5dd2cbdf6": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-05"
     },
@@ -700,11 +679,9 @@ export default {
       "masked": "I prefer ____ to chocolate ones.",
       "options": [
         "plain-mcq-05",
-        "plain-mcq-04",
-        "plain-mcq-06",
-        "plain-mcq-03",
-        "plain-mcq-07",
-        "plain-mcq-02"
+        "plain-mcq-19",
+        "plain-mcq-10",
+        "plain-mcq-14"
       ],
       "explanation": "本句的「plain biscuits」指「原味乳酪」。",
       "sentenceIndex": 8,
@@ -713,12 +690,10 @@ export default {
         "plain biscuits"
       ],
       "optionReasons": {
-        "plain-mcq-05": "本句指「原味乳酪」。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。",
-        "plain-mcq-02": "「樸素衣服」與本句語境不同。"
+        "plain-mcq-05": "本句的「plain biscuits」指「原味乳酪」。",
+        "plain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-05"
     },
@@ -730,11 +705,9 @@ export default {
       "masked": "The instructions are written in ____.",
       "options": [
         "plain-mcq-06",
-        "plain-mcq-05",
-        "plain-mcq-07",
-        "plain-mcq-04",
-        "plain-mcq-08",
-        "plain-mcq-03"
+        "plain-mcq-18",
+        "plain-mcq-20",
+        "plain-mcq-11"
       ],
       "explanation": "本句的「plain language」指「淺白語言」。",
       "sentenceIndex": 9,
@@ -743,12 +716,10 @@ export default {
         "plain language"
       ],
       "optionReasons": {
-        "plain-mcq-06": "本句指「淺白語言」。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。"
+        "plain-mcq-06": "本句的「plain language」指「淺白語言」。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-06"
     },
@@ -760,10 +731,8 @@ export default {
       "masked": "Explain the rule in ____.",
       "options": [
         "plain-mcq-06",
-        "plain-mcq-05",
-        "plain-mcq-07",
-        "plain-mcq-04",
-        "plain-mcq-08",
+        "plain-mcq-11",
+        "plain-mcq-18",
         "plain-mcq-03"
       ],
       "explanation": "本句的「plain language」指「淺白語言」。",
@@ -773,12 +742,10 @@ export default {
         "plain language"
       ],
       "optionReasons": {
-        "plain-mcq-06": "本句指「淺白語言」。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。"
+        "plain-mcq-06": "本句的「plain language」指「淺白語言」。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-06"
     },
@@ -790,11 +757,9 @@ export default {
       "masked": "Can you explain it in ____?",
       "options": [
         "plain-mcq-07",
-        "plain-mcq-06",
-        "plain-mcq-08",
-        "plain-mcq-05",
-        "plain-mcq-09",
-        "plain-mcq-04"
+        "plain-mcq-14",
+        "plain-mcq-18",
+        "plain-mcq-16"
       ],
       "explanation": "本句的「plain English」指「淺白英文」。",
       "sentenceIndex": 11,
@@ -803,12 +768,10 @@ export default {
         "plain English"
       ],
       "optionReasons": {
-        "plain-mcq-07": "本句指「淺白英文」。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。"
+        "plain-mcq-07": "本句的「plain English」指「淺白英文」。",
+        "plain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-07"
     },
@@ -820,11 +783,9 @@ export default {
       "masked": "The guide translates legal terms into ____.",
       "options": [
         "plain-mcq-07",
-        "plain-mcq-06",
-        "plain-mcq-08",
-        "plain-mcq-05",
-        "plain-mcq-09",
-        "plain-mcq-04"
+        "plain-mcq-11",
+        "plain-pdf-001",
+        "plain-mcq-20"
       ],
       "explanation": "本句的「plain English」指「淺白英文」。",
       "sentenceIndex": 12,
@@ -833,12 +794,10 @@ export default {
         "plain English"
       ],
       "optionReasons": {
-        "plain-mcq-07": "本句指「淺白英文」。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。"
+        "plain-mcq-07": "本句的「plain English」指「淺白英文」。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plain-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-07"
     },
@@ -850,11 +809,9 @@ export default {
       "masked": "The ____ is that we don't have enough time.",
       "options": [
         "plain-mcq-08",
-        "plain-mcq-07",
-        "plain-mcq-09",
-        "plain-mcq-06",
-        "plain-mcq-10",
-        "plain-mcq-05"
+        "plain-mcq-15",
+        "plain-mcq-16",
+        "plain-mcq-04"
       ],
       "explanation": "本句的「plain fact」指「明白無誤的事實」。",
       "sentenceIndex": 13,
@@ -863,12 +820,10 @@ export default {
         "plain fact"
       ],
       "optionReasons": {
-        "plain-mcq-08": "本句指「明白無誤的事實」。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-10": "「顯而易見」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。"
+        "plain-mcq-08": "本句的「plain fact」指「明白無誤的事實」。",
+        "plain-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-08"
     },
@@ -880,11 +835,9 @@ export default {
       "masked": "She told him the ____.",
       "options": [
         "plain-mcq-08",
-        "plain-mcq-07",
-        "plain-mcq-09",
-        "plain-mcq-06",
         "plain-mcq-10",
-        "plain-mcq-05"
+        "plain-mcq-13",
+        "plain-mcq-20"
       ],
       "explanation": "本句的「plain truth」指「明白無誤的事實」。",
       "sentenceIndex": 14,
@@ -893,12 +846,10 @@ export default {
         "plain truth"
       ],
       "optionReasons": {
-        "plain-mcq-08": "本句指「明白無誤的事實」。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。",
-        "plain-mcq-10": "「顯而易見」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。"
+        "plain-mcq-08": "本句的「plain truth」指「明白無誤的事實」。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-08"
     },
@@ -910,10 +861,8 @@ export default {
       "masked": "It was ____ that he was tired.",
       "options": [
         "plain-mcq-10",
-        "plain-mcq-09",
-        "plain-mcq-11",
-        "plain-mcq-08",
-        "plain-mcq-12",
+        "plain-mcq-19",
+        "plain-mcq-17",
         "plain-mcq-07"
       ],
       "explanation": "本句的「plain to see」指「顯而易見」。",
@@ -923,12 +872,10 @@ export default {
         "plain to see"
       ],
       "optionReasons": {
-        "plain-mcq-10": "本句指「顯而易見」。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。"
+        "plain-mcq-10": "本句的「plain to see」指「顯而易見」。",
+        "plain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-10"
     },
@@ -940,11 +887,9 @@ export default {
       "masked": "Her disappointment was ____.",
       "options": [
         "plain-mcq-10",
-        "plain-mcq-09",
-        "plain-mcq-11",
-        "plain-mcq-08",
-        "plain-mcq-12",
-        "plain-mcq-07"
+        "plain-mcq-05",
+        "plain-reviewed-b5dd2cbdf6",
+        "plain-mcq-13"
       ],
       "explanation": "本句的「plain to see」指「顯而易見」。",
       "sentenceIndex": 16,
@@ -953,12 +898,10 @@ export default {
         "plain to see"
       ],
       "optionReasons": {
-        "plain-mcq-10": "本句指「顯而易見」。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。"
+        "plain-mcq-10": "本句的「plain to see」指「顯而易見」。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plain-reviewed-b5dd2cbdf6": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-10"
     },
@@ -970,11 +913,9 @@ export default {
       "masked": "The mistake was ____.",
       "options": [
         "plain-pdf-001",
-        "plain-mcq-09",
         "plain-mcq-11",
-        "plain-mcq-08",
-        "plain-mcq-12",
-        "plain-mcq-07"
+        "plain-mcq-20",
+        "plain-mcq-03"
       ],
       "explanation": "本句的「plainly obvious」指「以非常清楚、明顯的方式」。",
       "sentenceIndex": 17,
@@ -983,12 +924,10 @@ export default {
         "plainly obvious"
       ],
       "optionReasons": {
-        "plain-pdf-001": "本句指「以非常清楚、明顯的方式」。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。"
+        "plain-pdf-001": "本句的「plainly obvious」指「以非常清楚、明顯的方式」。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-pdf-001"
     },
@@ -1000,11 +939,9 @@ export default {
       "masked": "The damage was ____.",
       "options": [
         "plain-pdf-001",
-        "plain-mcq-09",
-        "plain-mcq-11",
-        "plain-mcq-08",
-        "plain-mcq-12",
-        "plain-mcq-07"
+        "plain-mcq-14",
+        "plain-mcq-13",
+        "plain-mcq-16"
       ],
       "explanation": "本句的「plainly visible」指「以非常清楚、明顯的方式」。",
       "sentenceIndex": 18,
@@ -1013,12 +950,10 @@ export default {
         "plainly visible"
       ],
       "optionReasons": {
-        "plain-pdf-001": "本句指「以非常清楚、明顯的方式」。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-07": "「淺白英文」與本句語境不同。"
+        "plain-pdf-001": "本句的「plainly visible」指「以非常清楚、明顯的方式」。",
+        "plain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-pdf-001"
     },
@@ -1030,10 +965,8 @@ export default {
       "masked": "He was rather ____.",
       "options": [
         "plain-mcq-11",
+        "plain-mcq-07",
         "plain-mcq-10",
-        "plain-mcq-12",
-        "plain-mcq-09",
-        "plain-mcq-13",
         "plain-mcq-08"
       ],
       "explanation": "本句的「plain-looking」指「相貌普通的」。",
@@ -1043,12 +976,10 @@ export default {
         "plain-looking"
       ],
       "optionReasons": {
-        "plain-mcq-11": "本句指「相貌普通的」。",
-        "plain-mcq-10": "「顯而易見」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-13": "「純文字」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。"
+        "plain-mcq-11": "本句的「plain-looking」指「相貌普通的」。",
+        "plain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-11"
     },
@@ -1060,10 +991,8 @@ export default {
       "masked": "She described herself as ____ rather than beautiful.",
       "options": [
         "plain-mcq-11",
-        "plain-mcq-10",
-        "plain-mcq-12",
-        "plain-mcq-09",
-        "plain-mcq-13",
+        "plain-mcq-05",
+        "plain-mcq-01",
         "plain-mcq-08"
       ],
       "explanation": "本句的「plain」指「相貌普通的」。",
@@ -1073,74 +1002,68 @@ export default {
         "plain"
       ],
       "optionReasons": {
-        "plain-mcq-11": "本句指「相貌普通的」。",
-        "plain-mcq-10": "「顯而易見」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-09": "「赤裸裸的真相」與本句語境不同。",
-        "plain-mcq-13": "「純文字」與本句語境不同。",
-        "plain-mcq-08": "「明白無誤的事實」與本句語境不同。"
+        "plain-mcq-11": "本句的「plain」指「相貌普通的」。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-11"
     },
     {
       "id": "plain-13-0",
-      "sense": "plain-mcq-02",
+      "sense": "plain-reviewed-b5dd2cbdf6",
       "en": "The officer was wearing plain clothes.",
       "zh": "那名警員穿着便服。",
       "masked": "The officer was wearing ____.",
       "options": [
-        "plain-mcq-02",
-        "plain-mcq-01",
-        "plain-mcq-03",
-        "plain-mcq-04",
-        "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-reviewed-b5dd2cbdf6",
+        "plain-mcq-10",
+        "plain-mcq-16",
+        "plain-mcq-04"
       ],
-      "explanation": "本句的「plain clothes」指「樸素衣服」。",
+      "explanation": "對照完整句子：「那名警員穿着便服。」。這裡的「plain clothes」表示「不穿制服、穿普通日常衣服的狀態，尤其指警員」。",
       "sentenceIndex": 25,
       "sourcePractice": 1,
       "targets": [
         "plain clothes"
       ],
       "optionReasons": {
-        "plain-mcq-02": "本句指「樸素衣服」。",
-        "plain-mcq-01": "「樸素／素色恤衫」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-reviewed-b5dd2cbdf6": "對照完整句子：「那名警員穿着便服。」。這裡的「plain clothes」表示「不穿制服、穿普通日常衣服的狀態，尤其指警員」。",
+        "plain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "plain-mcq-02"
+      "correctOption": "plain-reviewed-b5dd2cbdf6",
+      "previousCorrectOption": "plain-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "plain-13-1",
-      "sense": "plain-mcq-02",
+      "sense": "plain-reviewed-b5dd2cbdf6",
       "en": "A plain-clothes officer followed the suspect.",
       "zh": "一名便衣警員跟蹤疑犯。",
       "masked": "A ____ followed the suspect.",
       "options": [
-        "plain-mcq-02",
-        "plain-mcq-01",
-        "plain-mcq-03",
-        "plain-mcq-04",
+        "plain-reviewed-b5dd2cbdf6",
         "plain-mcq-05",
-        "plain-mcq-06"
+        "plain-mcq-01",
+        "plain-mcq-07"
       ],
-      "explanation": "本句的「plain-clothes officer」指「樸素衣服」。",
+      "explanation": "對照完整句子：「一名便衣警員跟蹤疑犯。」。這裡的「plain-clothes officer」表示「不穿制服、穿普通日常衣服的狀態，尤其指警員」。",
       "sentenceIndex": 26,
       "sourcePractice": 2,
       "targets": [
         "plain-clothes officer"
       ],
       "optionReasons": {
-        "plain-mcq-02": "本句指「樸素衣服」。",
-        "plain-mcq-01": "「樸素／素色恤衫」與本句語境不同。",
-        "plain-mcq-03": "「簡約設計」與本句語境不同。",
-        "plain-mcq-04": "「清淡簡單食物」與本句語境不同。",
-        "plain-mcq-05": "「原味乳酪」與本句語境不同。",
-        "plain-mcq-06": "「淺白語言」與本句語境不同。"
+        "plain-reviewed-b5dd2cbdf6": "對照完整句子：「一名便衣警員跟蹤疑犯。」。這裡的「plain-clothes officer」表示「不穿制服、穿普通日常衣服的狀態，尤其指警員」。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "plain-mcq-02"
+      "correctOption": "plain-reviewed-b5dd2cbdf6",
+      "previousCorrectOption": "plain-mcq-02",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "plain-14-0",
@@ -1150,11 +1073,9 @@ export default {
       "masked": "Save the file as ____.",
       "options": [
         "plain-mcq-13",
-        "plain-mcq-12",
-        "plain-mcq-14",
-        "plain-mcq-11",
-        "plain-mcq-15",
-        "plain-mcq-10"
+        "plain-mcq-06",
+        "plain-mcq-20",
+        "plain-mcq-19"
       ],
       "explanation": "本句的「plain text」指「純文字」。",
       "sentenceIndex": 27,
@@ -1163,12 +1084,10 @@ export default {
         "plain text"
       ],
       "optionReasons": {
-        "plain-mcq-13": "本句指「純文字」。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-10": "「顯而易見」與本句語境不同。"
+        "plain-mcq-13": "本句的「plain text」指「純文字」。",
+        "plain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-13"
     },
@@ -1180,11 +1099,9 @@ export default {
       "masked": "The message was sent in ____ rather than HTML.",
       "options": [
         "plain-mcq-13",
-        "plain-mcq-12",
-        "plain-mcq-14",
-        "plain-mcq-11",
-        "plain-mcq-15",
-        "plain-mcq-10"
+        "plain-mcq-04",
+        "plain-reviewed-b5dd2cbdf6",
+        "plain-mcq-16"
       ],
       "explanation": "本句的「plain text」指「純文字」。",
       "sentenceIndex": 28,
@@ -1193,12 +1110,10 @@ export default {
         "plain text"
       ],
       "optionReasons": {
-        "plain-mcq-13": "本句指「純文字」。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-10": "「顯而易見」與本句語境不同。"
+        "plain-mcq-13": "本句的「plain text」指「純文字」。",
+        "plain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plain-reviewed-b5dd2cbdf6": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-13"
     },
@@ -1210,11 +1125,9 @@ export default {
       "masked": "Add 200 grams of ____.",
       "options": [
         "plain-mcq-14",
-        "plain-mcq-13",
-        "plain-mcq-15",
-        "plain-mcq-12",
-        "plain-mcq-16",
-        "plain-mcq-11"
+        "plain-mcq-19",
+        "plain-mcq-17",
+        "plain-mcq-18"
       ],
       "explanation": "本句的「plain flour」指「普通麵粉」。",
       "sentenceIndex": 29,
@@ -1223,12 +1136,10 @@ export default {
         "plain flour"
       ],
       "optionReasons": {
-        "plain-mcq-14": "本句指「普通麵粉」。",
-        "plain-mcq-13": "「純文字」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。"
+        "plain-mcq-14": "本句的「plain flour」指「普通麵粉」。",
+        "plain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-14"
     },
@@ -1240,11 +1151,9 @@ export default {
       "masked": "Use ____, not self-raising flour.",
       "options": [
         "plain-mcq-14",
+        "plain-mcq-01",
         "plain-mcq-13",
-        "plain-mcq-15",
-        "plain-mcq-12",
-        "plain-mcq-16",
-        "plain-mcq-11"
+        "plain-mcq-05"
       ],
       "explanation": "本句的「plain flour」指「普通麵粉」。",
       "sentenceIndex": 30,
@@ -1253,12 +1162,10 @@ export default {
         "plain flour"
       ],
       "optionReasons": {
-        "plain-mcq-14": "本句指「普通麵粉」。",
-        "plain-mcq-13": "「純文字」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-11": "「相貌普通的」與本句語境不同。"
+        "plain-mcq-14": "本句的「plain flour」指「普通麵粉」。",
+        "plain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-14"
     },
@@ -1270,11 +1177,9 @@ export default {
       "masked": "The recipe uses ____.",
       "options": [
         "plain-mcq-15",
-        "plain-mcq-14",
-        "plain-mcq-16",
-        "plain-mcq-13",
-        "plain-mcq-17",
-        "plain-mcq-12"
+        "plain-mcq-08",
+        "plain-mcq-11",
+        "plain-mcq-07"
       ],
       "explanation": "本句的「plain chocolate」指「黑朱古力」。",
       "sentenceIndex": 31,
@@ -1283,12 +1188,10 @@ export default {
         "plain chocolate"
       ],
       "optionReasons": {
-        "plain-mcq-15": "本句指「黑朱古力」。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-13": "「純文字」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。"
+        "plain-mcq-15": "本句的「plain chocolate」指「黑朱古力」。",
+        "plain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-15"
     },
@@ -1300,11 +1203,9 @@ export default {
       "masked": "She prefers ____ to milk chocolate.",
       "options": [
         "plain-mcq-15",
-        "plain-mcq-14",
-        "plain-mcq-16",
-        "plain-mcq-13",
-        "plain-mcq-17",
-        "plain-mcq-12"
+        "plain-pdf-001",
+        "plain-reviewed-b5dd2cbdf6",
+        "plain-mcq-13"
       ],
       "explanation": "本句的「plain chocolate」指「黑朱古力」。",
       "sentenceIndex": 32,
@@ -1313,12 +1214,10 @@ export default {
         "plain chocolate"
       ],
       "optionReasons": {
-        "plain-mcq-15": "本句指「黑朱古力」。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-13": "「純文字」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-12": "「便衣警員」與本句語境不同。"
+        "plain-mcq-15": "本句的「plain chocolate」指「黑朱古力」。",
+        "plain-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "plain-reviewed-b5dd2cbdf6": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-15"
     },
@@ -1330,11 +1229,9 @@ export default {
       "masked": "The village lies on a wide ____.",
       "options": [
         "plain-mcq-16",
-        "plain-mcq-15",
-        "plain-mcq-17",
-        "plain-mcq-14",
-        "plain-mcq-18",
-        "plain-mcq-13"
+        "plain-mcq-08",
+        "plain-mcq-04",
+        "plain-reviewed-b5dd2cbdf6"
       ],
       "explanation": "本句的「plain」指「平原」。",
       "sentenceIndex": 33,
@@ -1343,12 +1240,10 @@ export default {
         "plain"
       ],
       "optionReasons": {
-        "plain-mcq-16": "本句指「平原」。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-13": "「純文字」與本句語境不同。"
+        "plain-mcq-16": "本句的「plain」指「平原」。",
+        "plain-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "plain-reviewed-b5dd2cbdf6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-16"
     },
@@ -1360,11 +1255,9 @@ export default {
       "masked": "Herds of animals crossed the ____.",
       "options": [
         "plain-mcq-16",
-        "plain-mcq-15",
-        "plain-mcq-17",
         "plain-mcq-14",
-        "plain-mcq-18",
-        "plain-mcq-13"
+        "plain-mcq-13",
+        "plain-mcq-20"
       ],
       "explanation": "本句的「plain」指「平原」。",
       "sentenceIndex": 34,
@@ -1373,12 +1266,10 @@ export default {
         "plain"
       ],
       "optionReasons": {
-        "plain-mcq-16": "本句指「平原」。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-13": "「純文字」與本句語境不同。"
+        "plain-mcq-16": "本句的「plain」指「平原」。",
+        "plain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-16"
     },
@@ -1390,11 +1281,9 @@ export default {
       "masked": "The animals migrate across the ____.",
       "options": [
         "plain-mcq-17",
-        "plain-mcq-16",
+        "plain-mcq-13",
         "plain-mcq-18",
-        "plain-mcq-15",
-        "plain-mcq-19",
-        "plain-mcq-14"
+        "plain-mcq-01"
       ],
       "explanation": "本句的「plains」指「平原地區」。",
       "sentenceIndex": 35,
@@ -1403,12 +1292,10 @@ export default {
         "plains"
       ],
       "optionReasons": {
-        "plain-mcq-17": "本句指「平原地區」。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-19": "「坦白直說」與本句語境不同。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。"
+        "plain-mcq-17": "本句的「plains」指「平原地區」。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-17"
     },
@@ -1420,11 +1307,9 @@ export default {
       "masked": "Farming is common on the fertile ____.",
       "options": [
         "plain-mcq-17",
-        "plain-mcq-16",
-        "plain-mcq-18",
-        "plain-mcq-15",
-        "plain-mcq-19",
-        "plain-mcq-14"
+        "plain-mcq-01",
+        "plain-mcq-07",
+        "plain-mcq-03"
       ],
       "explanation": "本句的「plains」指「平原地區」。",
       "sentenceIndex": 36,
@@ -1433,12 +1318,10 @@ export default {
         "plains"
       ],
       "optionReasons": {
-        "plain-mcq-17": "本句指「平原地區」。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。",
-        "plain-mcq-19": "「坦白直說」與本句語境不同。",
-        "plain-mcq-14": "「普通麵粉」與本句語境不同。"
+        "plain-mcq-17": "本句的「plains」指「平原地區」。",
+        "plain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-17"
     },
@@ -1450,11 +1333,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "plain-mcq-18",
+        "plain-mcq-03",
         "plain-mcq-17",
-        "plain-mcq-19",
-        "plain-mcq-16",
-        "plain-mcq-20",
-        "plain-mcq-15"
+        "plain-mcq-11"
       ],
       "explanation": "本句的「plainly nervous」指「明顯地」。",
       "sentenceIndex": 37,
@@ -1463,12 +1344,10 @@ export default {
         "plainly nervous"
       ],
       "optionReasons": {
-        "plain-mcq-18": "本句指「明顯地」。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-19": "「坦白直說」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-20": "「樸素；簡單」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。"
+        "plain-mcq-18": "本句的「plainly nervous」指「明顯地」。",
+        "plain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-18"
     },
@@ -1480,11 +1359,9 @@ export default {
       "masked": "She was ____ by the result.",
       "options": [
         "plain-mcq-18",
-        "plain-mcq-17",
+        "plain-mcq-13",
         "plain-mcq-19",
-        "plain-mcq-16",
-        "plain-mcq-20",
-        "plain-mcq-15"
+        "plain-mcq-20"
       ],
       "explanation": "本句的「plainly disappointed」指「明顯地」。",
       "sentenceIndex": 38,
@@ -1493,12 +1370,10 @@ export default {
         "plainly disappointed"
       ],
       "optionReasons": {
-        "plain-mcq-18": "本句指「明顯地」。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-19": "「坦白直說」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-20": "「樸素；簡單」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。"
+        "plain-mcq-18": "本句的「plainly disappointed」指「明顯地」。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-18"
     },
@@ -1510,11 +1385,9 @@ export default {
       "masked": "She told him ____ that she disagreed.",
       "options": [
         "plain-mcq-19",
-        "plain-mcq-18",
         "plain-mcq-20",
-        "plain-mcq-17",
-        "plain-mcq-16",
-        "plain-mcq-15"
+        "plain-mcq-14",
+        "plain-mcq-03"
       ],
       "explanation": "本句的「plainly」指「坦白直說」。",
       "sentenceIndex": 39,
@@ -1523,12 +1396,10 @@ export default {
         "plainly"
       ],
       "optionReasons": {
-        "plain-mcq-19": "本句指「坦白直說」。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-20": "「樸素；簡單」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。"
+        "plain-mcq-19": "本句的「plainly」指「坦白直說」。",
+        "plain-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-19"
     },
@@ -1540,11 +1411,9 @@ export default {
       "masked": "To put it ____, the plan failed.",
       "options": [
         "plain-mcq-19",
+        "plain-mcq-03",
         "plain-mcq-18",
-        "plain-mcq-20",
-        "plain-mcq-17",
-        "plain-mcq-16",
-        "plain-mcq-15"
+        "plain-mcq-05"
       ],
       "explanation": "本句的「plainly」指「坦白直說」。",
       "sentenceIndex": 40,
@@ -1553,12 +1422,10 @@ export default {
         "plainly"
       ],
       "optionReasons": {
-        "plain-mcq-19": "本句指「坦白直說」。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-20": "「樸素；簡單」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。"
+        "plain-mcq-19": "本句的「plainly」指「坦白直說」。",
+        "plain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-19"
     },
@@ -1570,11 +1437,9 @@ export default {
       "masked": "I like the ____ of the design.",
       "options": [
         "plain-mcq-20",
-        "plain-mcq-19",
+        "plain-mcq-06",
         "plain-mcq-18",
-        "plain-mcq-17",
-        "plain-mcq-16",
-        "plain-mcq-15"
+        "plain-mcq-11"
       ],
       "explanation": "本句的「plainness」指「樸素；簡單」。",
       "sentenceIndex": 41,
@@ -1583,12 +1448,10 @@ export default {
         "plainness"
       ],
       "optionReasons": {
-        "plain-mcq-20": "本句指「樸素；簡單」。",
-        "plain-mcq-19": "「坦白直說」與本句語境不同。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。"
+        "plain-mcq-20": "本句的「plainness」指「樸素；簡單」。",
+        "plain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-20"
     },
@@ -1600,11 +1463,9 @@ export default {
       "masked": "The room's ____ made it feel calm.",
       "options": [
         "plain-mcq-20",
-        "plain-mcq-19",
-        "plain-mcq-18",
-        "plain-mcq-17",
-        "plain-mcq-16",
-        "plain-mcq-15"
+        "plain-mcq-05",
+        "plain-mcq-13",
+        "plain-mcq-08"
       ],
       "explanation": "本句的「plainness」指「樸素；簡單」。",
       "sentenceIndex": 42,
@@ -1613,12 +1474,10 @@ export default {
         "plainness"
       ],
       "optionReasons": {
-        "plain-mcq-20": "本句指「樸素；簡單」。",
-        "plain-mcq-19": "「坦白直說」與本句語境不同。",
-        "plain-mcq-18": "「明顯地」與本句語境不同。",
-        "plain-mcq-17": "「平原地區」與本句語境不同。",
-        "plain-mcq-16": "「平原」與本句語境不同。",
-        "plain-mcq-15": "「黑朱古力」與本句語境不同。"
+        "plain-mcq-20": "本句的「plainness」指「樸素；簡單」。",
+        "plain-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "plain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "plain-mcq-20"
     }
@@ -1630,5 +1489,7 @@ export default {
     "sha256": "11940901cb715d26a9e4f6a46240fece44575c180c3873058e186ad7c381628f",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

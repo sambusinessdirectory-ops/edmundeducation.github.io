@@ -471,11 +471,9 @@ export default {
       "masked": "It showed me that he is not only imaginative, but also ____ and big-hearted.",
       "options": [
         "generous-mcq-01",
-        "generous-mcq-02",
         "generous-mcq-03",
         "generous-mcq-04",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-12"
       ],
       "explanation": "本句的「generous」指「慷慨的；大方的；寬厚的」。",
       "sentenceIndex": 0,
@@ -484,12 +482,10 @@ export default {
         "generous"
       ],
       "optionReasons": {
-        "generous-mcq-01": "本句指「慷慨的；大方的；寬厚的」。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-01": "本句的「generous」指「慷慨的；大方的；寬厚的」。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-01"
     },
@@ -501,11 +497,9 @@ export default {
       "masked": "She is a very ____ person who is always willing to help others.",
       "options": [
         "generous-mcq-01",
-        "generous-mcq-02",
         "generous-mcq-03",
-        "generous-mcq-04",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-12",
+        "generous-mcq-04"
       ],
       "explanation": "本句的「generous」指「慷慨的；大方的；寬厚的」。",
       "sentenceIndex": 1,
@@ -514,12 +508,10 @@ export default {
         "generous"
       ],
       "optionReasons": {
-        "generous-mcq-01": "本句指「慷慨的；大方的；寬厚的」。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-01": "本句的「generous」指「慷慨的；大方的；寬厚的」。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-01"
     },
@@ -531,11 +523,9 @@ export default {
       "masked": "His ____ nature makes people feel comfortable around him.",
       "options": [
         "generous-mcq-01",
-        "generous-mcq-02",
         "generous-mcq-03",
         "generous-mcq-04",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-11"
       ],
       "explanation": "本句的「generous」指「慷慨的；大方的；寬厚的」。",
       "sentenceIndex": 2,
@@ -544,12 +534,10 @@ export default {
         "generous"
       ],
       "optionReasons": {
-        "generous-mcq-01": "本句指「慷慨的；大方的；寬厚的」。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-01": "本句的「generous」指「慷慨的；大方的；寬厚的」。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-01"
     },
@@ -561,11 +549,9 @@ export default {
       "masked": "She has always been very ____.",
       "options": [
         "generous-mcq-02",
-        "generous-mcq-01",
+        "generous-mcq-16",
         "generous-mcq-03",
-        "generous-mcq-04",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-10"
       ],
       "explanation": "本句的「generous with her money」指「在金錢上大方」。",
       "sentenceIndex": 3,
@@ -574,12 +560,10 @@ export default {
         "generous with her money"
       ],
       "optionReasons": {
-        "generous-mcq-02": "本句指「在金錢上大方」。",
-        "generous-mcq-01": "「慷慨的；大方的；寬厚的」是「generous person」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-02": "本句的「generous with her money」指「在金錢上大方」。",
+        "generous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-02"
     },
@@ -591,11 +575,9 @@ export default {
       "masked": "He is especially ____.",
       "options": [
         "generous-mcq-02",
-        "generous-mcq-01",
-        "generous-mcq-03",
-        "generous-mcq-04",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-16",
+        "generous-mcq-13",
+        "generous-mcq-03"
       ],
       "explanation": "本句的「generous with younger members of the family」指「在金錢上大方」。",
       "sentenceIndex": 4,
@@ -604,12 +586,10 @@ export default {
         "generous with younger members of the family"
       ],
       "optionReasons": {
-        "generous-mcq-02": "本句指「在金錢上大方」。",
-        "generous-mcq-01": "「慷慨的；大方的；寬厚的」是「generous person」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-02": "本句的「generous with younger members of the family」指「在金錢上大方」。",
+        "generous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-02"
     },
@@ -621,11 +601,9 @@ export default {
       "masked": "She is very ____.",
       "options": [
         "generous-mcq-03",
-        "generous-mcq-02",
-        "generous-mcq-04",
-        "generous-mcq-01",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-14",
+        "generous-mcq-16",
+        "generous-mcq-19"
       ],
       "explanation": "本句的「generous with her time」指「樂意付出時間」。",
       "sentenceIndex": 5,
@@ -634,12 +612,10 @@ export default {
         "generous with her time"
       ],
       "optionReasons": {
-        "generous-mcq-03": "本句指「樂意付出時間」。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-01": "「慷慨的；大方的；寬厚的」是「generous person」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-03": "本句的「generous with her time」指「樂意付出時間」。",
+        "generous-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-03"
     },
@@ -651,11 +627,9 @@ export default {
       "masked": "The teacher was ____ and stayed after class to help us.",
       "options": [
         "generous-mcq-03",
-        "generous-mcq-02",
+        "generous-mcq-06",
         "generous-mcq-04",
-        "generous-mcq-01",
-        "generous-mcq-05",
-        "generous-mcq-06"
+        "generous-mcq-12"
       ],
       "explanation": "本句的「generous with his time」指「樂意付出時間」。",
       "sentenceIndex": 6,
@@ -664,12 +638,10 @@ export default {
         "generous with his time"
       ],
       "optionReasons": {
-        "generous-mcq-03": "本句指「樂意付出時間」。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-01": "「慷慨的；大方的；寬厚的」是「generous person」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。"
+        "generous-mcq-03": "本句的「generous with his time」指「樂意付出時間」。",
+        "generous-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-03"
     },
@@ -681,11 +653,9 @@ export default {
       "masked": "Good managers should be ____ when employees do well.",
       "options": [
         "generous-mcq-04",
-        "generous-mcq-03",
-        "generous-mcq-05",
         "generous-mcq-02",
-        "generous-mcq-06",
-        "generous-mcq-01"
+        "generous-mcq-20",
+        "generous-mcq-14"
       ],
       "explanation": "本句的「generous with praise」指「不吝嗇讚美」。",
       "sentenceIndex": 7,
@@ -694,12 +664,10 @@ export default {
         "generous with praise"
       ],
       "optionReasons": {
-        "generous-mcq-04": "本句指「不吝嗇讚美」。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-01": "「慷慨的；大方的；寬厚的」是「generous person」的用法，與本句語境不同。"
+        "generous-mcq-04": "本句的「generous with praise」指「不吝嗇讚美」。",
+        "generous-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-04"
     },
@@ -711,10 +679,8 @@ export default {
       "masked": "She is always ____.",
       "options": [
         "generous-mcq-04",
-        "generous-mcq-03",
-        "generous-mcq-05",
-        "generous-mcq-02",
-        "generous-mcq-06",
+        "generous-mcq-11",
+        "generous-mcq-08",
         "generous-mcq-01"
       ],
       "explanation": "本句的「generous with compliments」指「不吝嗇讚美」。",
@@ -724,12 +690,10 @@ export default {
         "generous with compliments"
       ],
       "optionReasons": {
-        "generous-mcq-04": "本句指「不吝嗇讚美」。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-01": "「慷慨的；大方的；寬厚的」是「generous person」的用法，與本句語境不同。"
+        "generous-mcq-04": "本句的「generous with compliments」指「不吝嗇讚美」。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-04"
     },
@@ -741,11 +705,9 @@ export default {
       "masked": "His grandparents have always been ____.",
       "options": [
         "generous-mcq-05",
+        "generous-mcq-17",
         "generous-mcq-04",
-        "generous-mcq-06",
-        "generous-mcq-03",
-        "generous-mcq-07",
-        "generous-mcq-02"
+        "generous-mcq-10"
       ],
       "explanation": "本句的「generous to him」指「對某人大方」。",
       "sentenceIndex": 9,
@@ -754,12 +716,10 @@ export default {
         "generous to him"
       ],
       "optionReasons": {
-        "generous-mcq-05": "本句指「對某人大方」。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。"
+        "generous-mcq-05": "本句的「generous to him」指「對某人大方」。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-05"
     },
@@ -771,11 +731,9 @@ export default {
       "masked": "The community was extremely ____ after the accident.",
       "options": [
         "generous-mcq-05",
-        "generous-mcq-04",
-        "generous-mcq-06",
+        "generous-mcq-08",
         "generous-mcq-03",
-        "generous-mcq-07",
-        "generous-mcq-02"
+        "generous-mcq-04"
       ],
       "explanation": "本句的「generous to the family」指「對某人大方」。",
       "sentenceIndex": 10,
@@ -784,12 +742,10 @@ export default {
         "generous to the family"
       ],
       "optionReasons": {
-        "generous-mcq-05": "本句指「對某人大方」。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。",
-        "generous-mcq-02": "「在金錢上大方」是「generous with money」的用法，與本句語境不同。"
+        "generous-mcq-05": "本句的「generous to the family」指「對某人大方」。",
+        "generous-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-05"
     },
@@ -801,10 +757,8 @@ export default {
       "masked": "The charity received a ____ from a local business.",
       "options": [
         "generous-mcq-06",
-        "generous-mcq-05",
-        "generous-mcq-07",
-        "generous-mcq-04",
-        "generous-mcq-08",
+        "generous-mcq-12",
+        "generous-mcq-14",
         "generous-mcq-03"
       ],
       "explanation": "本句的「generous donation」指「慷慨／大筆捐款」。",
@@ -814,12 +768,10 @@ export default {
         "generous donation"
       ],
       "optionReasons": {
-        "generous-mcq-06": "本句指「慷慨／大筆捐款」。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。"
+        "generous-mcq-06": "本句的「generous donation」指「慷慨／大筆捐款」。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-06"
     },
@@ -831,10 +783,8 @@ export default {
       "masked": "Her ____ helped fund the new community centre.",
       "options": [
         "generous-mcq-06",
-        "generous-mcq-05",
-        "generous-mcq-07",
-        "generous-mcq-04",
-        "generous-mcq-08",
+        "generous-mcq-10",
+        "generous-mcq-11",
         "generous-mcq-03"
       ],
       "explanation": "本句的「generous donation」指「慷慨／大筆捐款」。",
@@ -844,12 +794,10 @@ export default {
         "generous donation"
       ],
       "optionReasons": {
-        "generous-mcq-06": "本句指「慷慨／大筆捐款」。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。",
-        "generous-mcq-03": "「樂意付出時間」是「generous with time」的用法，與本句語境不同。"
+        "generous-mcq-06": "本句的「generous donation」指「慷慨／大筆捐款」。",
+        "generous-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-06"
     },
@@ -861,11 +809,9 @@ export default {
       "masked": "Thank you for such a ____.",
       "options": [
         "generous-mcq-07",
-        "generous-mcq-06",
-        "generous-mcq-08",
-        "generous-mcq-05",
-        "generous-mcq-09",
-        "generous-mcq-04"
+        "generous-mcq-12",
+        "generous-mcq-04",
+        "generous-mcq-13"
       ],
       "explanation": "本句的「generous gift」指「大方的禮物」。",
       "sentenceIndex": 13,
@@ -874,12 +820,10 @@ export default {
         "generous gift"
       ],
       "optionReasons": {
-        "generous-mcq-07": "本句指「大方的禮物」。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。"
+        "generous-mcq-07": "本句的「generous gift」指「大方的禮物」。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-07"
     },
@@ -891,11 +835,9 @@ export default {
       "masked": "They gave the couple a very ____.",
       "options": [
         "generous-mcq-07",
-        "generous-mcq-06",
-        "generous-mcq-08",
-        "generous-mcq-05",
-        "generous-mcq-09",
-        "generous-mcq-04"
+        "generous-mcq-11",
+        "generous-mcq-10",
+        "generous-mcq-17"
       ],
       "explanation": "本句的「generous wedding gift」指「大方的禮物」。",
       "sentenceIndex": 14,
@@ -904,12 +846,10 @@ export default {
         "generous wedding gift"
       ],
       "optionReasons": {
-        "generous-mcq-07": "本句指「大方的禮物」。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-04": "「不吝嗇讚美」是「generous with praise」的用法，與本句語境不同。"
+        "generous-mcq-07": "本句的「generous wedding gift」指「大方的禮物」。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-07"
     },
@@ -921,11 +861,9 @@ export default {
       "masked": "The company made him a ____.",
       "options": [
         "generous-mcq-08",
-        "generous-mcq-07",
-        "generous-mcq-09",
-        "generous-mcq-06",
-        "generous-mcq-10",
-        "generous-mcq-05"
+        "generous-mcq-02",
+        "generous-mcq-11",
+        "generous-mcq-17"
       ],
       "explanation": "本句的「generous offer」指「優厚提議」。",
       "sentenceIndex": 15,
@@ -934,12 +872,10 @@ export default {
         "generous offer"
       ],
       "optionReasons": {
-        "generous-mcq-08": "本句指「優厚提議」。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。"
+        "generous-mcq-08": "本句的「generous offer」指「優厚提議」。",
+        "generous-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-08"
     },
@@ -951,11 +887,9 @@ export default {
       "masked": "That was a very ____, but she decided not to accept it.",
       "options": [
         "generous-mcq-08",
-        "generous-mcq-07",
-        "generous-mcq-09",
-        "generous-mcq-06",
-        "generous-mcq-10",
-        "generous-mcq-05"
+        "generous-mcq-17",
+        "generous-mcq-02",
+        "generous-mcq-12"
       ],
       "explanation": "本句的「generous offer」指「優厚提議」。",
       "sentenceIndex": 16,
@@ -964,12 +898,10 @@ export default {
         "generous offer"
       ],
       "optionReasons": {
-        "generous-mcq-08": "本句指「優厚提議」。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-06": "「慷慨／大筆捐款」是「generous donation」的用法，與本句語境不同。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。",
-        "generous-mcq-05": "「對某人大方」是「generous to someone」的用法，與本句語境不同。"
+        "generous-mcq-08": "本句的「generous offer」指「優厚提議」。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-08"
     },
@@ -981,11 +913,9 @@ export default {
       "masked": "The position comes with a ____.",
       "options": [
         "generous-mcq-10",
-        "generous-mcq-09",
-        "generous-mcq-11",
-        "generous-mcq-08",
-        "generous-mcq-12",
-        "generous-mcq-07"
+        "generous-mcq-02",
+        "generous-mcq-17",
+        "generous-mcq-11"
       ],
       "explanation": "本句的「generous salary」指「優厚福利」。",
       "sentenceIndex": 17,
@@ -994,12 +924,10 @@ export default {
         "generous salary"
       ],
       "optionReasons": {
-        "generous-mcq-10": "本句指「優厚福利」。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。"
+        "generous-mcq-10": "本句的「generous salary」指「優厚福利」。",
+        "generous-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-10"
     },
@@ -1011,11 +939,9 @@ export default {
       "masked": "Employees receive a ____.",
       "options": [
         "generous-mcq-10",
-        "generous-mcq-09",
-        "generous-mcq-11",
-        "generous-mcq-08",
-        "generous-mcq-12",
-        "generous-mcq-07"
+        "generous-mcq-17",
+        "generous-mcq-07",
+        "generous-mcq-12"
       ],
       "explanation": "本句的「generous benefits package」指「優厚福利」。",
       "sentenceIndex": 18,
@@ -1024,12 +950,10 @@ export default {
         "generous benefits package"
       ],
       "optionReasons": {
-        "generous-mcq-10": "本句指「優厚福利」。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-07": "「大方的禮物」是「generous gift」的用法，與本句語境不同。"
+        "generous-mcq-10": "本句的「generous benefits package」指「優厚福利」。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-10"
     },
@@ -1041,11 +965,9 @@ export default {
       "masked": "The restaurant serves ____.",
       "options": [
         "generous-mcq-11",
-        "generous-mcq-10",
-        "generous-mcq-12",
-        "generous-mcq-09",
-        "generous-mcq-13",
-        "generous-mcq-08"
+        "generous-mcq-03",
+        "generous-mcq-16",
+        "generous-mcq-02"
       ],
       "explanation": "本句的「generous portions」指「份量充足」。",
       "sentenceIndex": 19,
@@ -1054,12 +976,10 @@ export default {
         "generous portions"
       ],
       "optionReasons": {
-        "generous-mcq-11": "本句指「份量充足」。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。"
+        "generous-mcq-11": "本句的「generous portions」指「份量充足」。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-11"
     },
@@ -1071,11 +991,9 @@ export default {
       "masked": "She gave me a ____.",
       "options": [
         "generous-mcq-11",
-        "generous-mcq-10",
-        "generous-mcq-12",
-        "generous-mcq-09",
-        "generous-mcq-13",
-        "generous-mcq-08"
+        "generous-mcq-04",
+        "generous-mcq-21",
+        "generous-mcq-07"
       ],
       "explanation": "本句的「generous serving of rice」指「份量充足」。",
       "sentenceIndex": 20,
@@ -1084,12 +1002,10 @@ export default {
         "generous serving of rice"
       ],
       "optionReasons": {
-        "generous-mcq-11": "本句指「份量充足」。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-08": "「優厚提議」是「generous offer」的用法，與本句語境不同。"
+        "generous-mcq-11": "本句的「generous serving of rice」指「份量充足」。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-11"
     },
@@ -1101,11 +1017,9 @@ export default {
       "masked": "Add a ____.",
       "options": [
         "generous-mcq-12",
-        "generous-mcq-11",
-        "generous-mcq-13",
-        "generous-mcq-10",
-        "generous-mcq-14",
-        "generous-mcq-09"
+        "generous-mcq-01",
+        "generous-mcq-03",
+        "generous-mcq-13"
       ],
       "explanation": "本句的「generous amount of olive oil」指「相當多的量」。",
       "sentenceIndex": 21,
@@ -1114,12 +1028,10 @@ export default {
         "generous amount of olive oil"
       ],
       "optionReasons": {
-        "generous-mcq-12": "本句指「相當多的量」。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。"
+        "generous-mcq-12": "本句的「generous amount of olive oil」指「相當多的量」。",
+        "generous-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-12"
     },
@@ -1131,11 +1043,9 @@ export default {
       "masked": "The room receives a ____.",
       "options": [
         "generous-mcq-12",
-        "generous-mcq-11",
-        "generous-mcq-13",
-        "generous-mcq-10",
-        "generous-mcq-14",
-        "generous-mcq-09"
+        "generous-mcq-17",
+        "generous-mcq-05",
+        "generous-mcq-04"
       ],
       "explanation": "本句的「generous amount of natural light」指「相當多的量」。",
       "sentenceIndex": 22,
@@ -1144,12 +1054,10 @@ export default {
         "generous amount of natural light"
       ],
       "optionReasons": {
-        "generous-mcq-12": "本句指「相當多的量」。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-09": "「優厚薪酬」是「generous salary」的用法，與本句語境不同。"
+        "generous-mcq-12": "本句的「generous amount of natural light」指「相當多的量」。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-12"
     },
@@ -1161,11 +1069,9 @@ export default {
       "masked": "The apartment has ____.",
       "options": [
         "generous-mcq-13",
-        "generous-mcq-12",
-        "generous-mcq-14",
-        "generous-mcq-11",
-        "generous-mcq-15",
-        "generous-mcq-10"
+        "generous-mcq-19",
+        "generous-mcq-04",
+        "generous-mcq-17"
       ],
       "explanation": "本句的「generous living space」指「寬敞的空間」。",
       "sentenceIndex": 23,
@@ -1174,12 +1080,10 @@ export default {
         "generous living space"
       ],
       "optionReasons": {
-        "generous-mcq-13": "本句指「寬敞的空間」。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。"
+        "generous-mcq-13": "本句的「generous living space」指「寬敞的空間」。",
+        "generous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-13"
     },
@@ -1191,11 +1095,9 @@ export default {
       "masked": "The room is of ____.",
       "options": [
         "generous-mcq-13",
-        "generous-mcq-12",
-        "generous-mcq-14",
         "generous-mcq-11",
-        "generous-mcq-15",
-        "generous-mcq-10"
+        "generous-mcq-04",
+        "generous-mcq-17"
       ],
       "explanation": "本句的「generous proportions」指「寬敞的空間」。",
       "sentenceIndex": 24,
@@ -1204,12 +1106,10 @@ export default {
         "generous proportions"
       ],
       "optionReasons": {
-        "generous-mcq-13": "本句指「寬敞的空間」。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-10": "「優厚福利」是「generous benefits」的用法，與本句語境不同。"
+        "generous-mcq-13": "本句的「generous proportions」指「寬敞的空間」。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-13"
     },
@@ -1221,11 +1121,9 @@ export default {
       "masked": "Even by a ____, fewer than half the students attended.",
       "options": [
         "generous-mcq-14",
-        "generous-mcq-13",
-        "generous-mcq-15",
-        "generous-mcq-12",
-        "generous-mcq-16",
-        "generous-mcq-11"
+        "generous-mcq-17",
+        "generous-mcq-08",
+        "generous-mcq-07"
       ],
       "explanation": "本句的「generous estimate」指「寬鬆估計」。",
       "sentenceIndex": 25,
@@ -1234,12 +1132,10 @@ export default {
         "generous estimate"
       ],
       "optionReasons": {
-        "generous-mcq-14": "本句指「寬鬆估計」。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。"
+        "generous-mcq-14": "本句的「generous estimate」指「寬鬆估計」。",
+        "generous-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-14"
     },
@@ -1251,11 +1147,9 @@ export default {
       "masked": "Calling the project “almost complete” would be a ____.",
       "options": [
         "generous-mcq-14",
-        "generous-mcq-13",
-        "generous-mcq-15",
-        "generous-mcq-12",
-        "generous-mcq-16",
-        "generous-mcq-11"
+        "generous-mcq-06",
+        "generous-mcq-04",
+        "generous-mcq-03"
       ],
       "explanation": "本句的「generous estimate」指「寬鬆估計」。",
       "sentenceIndex": 26,
@@ -1264,12 +1158,10 @@ export default {
         "generous estimate"
       ],
       "optionReasons": {
-        "generous-mcq-14": "本句指「寬鬆估計」。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-11": "「份量充足」是「generous portion」的用法，與本句語境不同。"
+        "generous-mcq-14": "本句的「generous estimate」指「寬鬆估計」。",
+        "generous-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-14"
     },
@@ -1281,11 +1173,9 @@ export default {
       "masked": "A ____ of his comment would be that he was trying to help.",
       "options": [
         "generous-mcq-15",
-        "generous-mcq-14",
-        "generous-mcq-16",
-        "generous-mcq-13",
-        "generous-mcq-17",
-        "generous-mcq-12"
+        "generous-mcq-18",
+        "generous-mcq-05",
+        "generous-mcq-03"
       ],
       "explanation": "本句的「generous interpretation」指「寬厚／有利解讀」。",
       "sentenceIndex": 27,
@@ -1294,12 +1184,10 @@ export default {
         "generous interpretation"
       ],
       "optionReasons": {
-        "generous-mcq-15": "本句指「寬厚／有利解讀」。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。"
+        "generous-mcq-15": "本句的「generous interpretation」指「寬厚／有利解讀」。",
+        "generous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-15"
     },
@@ -1311,11 +1199,9 @@ export default {
       "masked": "Even under the most ____, the explanation is difficult to accept.",
       "options": [
         "generous-mcq-15",
-        "generous-mcq-14",
-        "generous-mcq-16",
-        "generous-mcq-13",
-        "generous-mcq-17",
-        "generous-mcq-12"
+        "generous-mcq-03",
+        "generous-mcq-06",
+        "generous-mcq-04"
       ],
       "explanation": "本句的「generous interpretation」指「寬厚／有利解讀」。",
       "sentenceIndex": 28,
@@ -1324,12 +1210,10 @@ export default {
         "generous interpretation"
       ],
       "optionReasons": {
-        "generous-mcq-15": "本句指「寬厚／有利解讀」。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-12": "「相當多的量」是「generous amount」的用法，與本句語境不同。"
+        "generous-mcq-15": "本句的「generous interpretation」指「寬厚／有利解讀」。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-15"
     },
@@ -1341,11 +1225,9 @@ export default {
       "masked": "She is admired for her ____.",
       "options": [
         "generous-mcq-16",
-        "generous-mcq-15",
-        "generous-mcq-17",
-        "generous-mcq-14",
-        "generous-mcq-18",
-        "generous-mcq-13"
+        "generous-mcq-19",
+        "generous-mcq-04",
+        "generous-mcq-03"
       ],
       "explanation": "本句的「generous spirit」指「慷慨寬厚的心」。",
       "sentenceIndex": 29,
@@ -1354,12 +1236,10 @@ export default {
         "generous spirit"
       ],
       "optionReasons": {
-        "generous-mcq-16": "本句指「慷慨寬厚的心」。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。"
+        "generous-mcq-16": "本句的「generous spirit」指「慷慨寬厚的心」。",
+        "generous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-16"
     },
@@ -1371,11 +1251,9 @@ export default {
       "masked": "His response showed what a ____ he had.",
       "options": [
         "generous-mcq-16",
-        "generous-mcq-15",
-        "generous-mcq-17",
-        "generous-mcq-14",
-        "generous-mcq-18",
-        "generous-mcq-13"
+        "generous-mcq-12",
+        "generous-mcq-04",
+        "generous-mcq-07"
       ],
       "explanation": "本句的「generous heart」指「慷慨寬厚的心」。",
       "sentenceIndex": 30,
@@ -1384,12 +1262,10 @@ export default {
         "generous heart"
       ],
       "optionReasons": {
-        "generous-mcq-16": "本句指「慷慨寬厚的心」。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-13": "「寬敞的空間」是「generous space」的用法，與本句語境不同。"
+        "generous-mcq-16": "本句的「generous heart」指「慷慨寬厚的心」。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-16"
     },
@@ -1401,11 +1277,9 @@ export default {
       "masked": "He's ____ and sometimes gives away more than he can afford.",
       "options": [
         "generous-mcq-17",
-        "generous-mcq-16",
-        "generous-mcq-18",
         "generous-mcq-15",
-        "generous-mcq-19",
-        "generous-mcq-14"
+        "generous-mcq-05",
+        "generous-mcq-11"
       ],
       "explanation": "本句的「generous to a fault」指「慷慨得過了頭」。",
       "sentenceIndex": 31,
@@ -1414,12 +1288,10 @@ export default {
         "generous to a fault"
       ],
       "optionReasons": {
-        "generous-mcq-17": "本句指「慷慨得過了頭」。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。"
+        "generous-mcq-17": "本句的「generous to a fault」指「慷慨得過了頭」。",
+        "generous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-17"
     },
@@ -1431,11 +1303,9 @@ export default {
       "masked": "She is ____ with her time.",
       "options": [
         "generous-mcq-17",
-        "generous-mcq-16",
-        "generous-mcq-18",
-        "generous-mcq-15",
-        "generous-mcq-19",
-        "generous-mcq-14"
+        "generous-mcq-04",
+        "generous-mcq-10",
+        "generous-mcq-07"
       ],
       "explanation": "本句的「generous to a fault」指「慷慨得過了頭」。",
       "sentenceIndex": 32,
@@ -1444,12 +1314,10 @@ export default {
         "generous to a fault"
       ],
       "optionReasons": {
-        "generous-mcq-17": "本句指「慷慨得過了頭」。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-14": "「寬鬆估計」是「generous estimate」的用法，與本句語境不同。"
+        "generous-mcq-17": "本句的「generous to a fault」指「慷慨得過了頭」。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-17"
     },
@@ -1461,11 +1329,9 @@ export default {
       "masked": "She ____ to pay for dinner.",
       "options": [
         "generous-mcq-18",
-        "generous-mcq-17",
-        "generous-mcq-19",
-        "generous-mcq-16",
-        "generous-mcq-20",
-        "generous-mcq-15"
+        "generous-mcq-03",
+        "generous-mcq-15",
+        "generous-mcq-04"
       ],
       "explanation": "本句的「generously offered」指「慷慨地」。",
       "sentenceIndex": 33,
@@ -1474,12 +1340,10 @@ export default {
         "generously offered"
       ],
       "optionReasons": {
-        "generous-mcq-18": "本句指「慷慨地」。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-20": "「慷慨；寬厚」是「generosity」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。"
+        "generous-mcq-18": "本句的「generously offered」指「慷慨地」。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-18"
     },
@@ -1491,11 +1355,9 @@ export default {
       "masked": "Local residents ____ food and clothing.",
       "options": [
         "generous-mcq-18",
-        "generous-mcq-17",
         "generous-mcq-19",
-        "generous-mcq-16",
-        "generous-mcq-20",
-        "generous-mcq-15"
+        "generous-mcq-13",
+        "generous-mcq-14"
       ],
       "explanation": "本句的「generously donated」指「慷慨地」。",
       "sentenceIndex": 34,
@@ -1504,12 +1366,10 @@ export default {
         "generously donated"
       ],
       "optionReasons": {
-        "generous-mcq-18": "本句指「慷慨地」。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。",
-        "generous-mcq-20": "「慷慨；寬厚」是「generosity」的用法，與本句語境不同。",
-        "generous-mcq-15": "「寬厚／有利解讀」是「generous interpretation」的用法，與本句語境不同。"
+        "generous-mcq-18": "本句的「generously donated」指「慷慨地」。",
+        "generous-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-18"
     },
@@ -1521,11 +1381,9 @@ export default {
       "masked": "Spread the butter ____ over the bread.",
       "options": [
         "generous-mcq-19",
-        "generous-mcq-18",
-        "generous-mcq-20",
-        "generous-mcq-17",
-        "generous-mcq-21",
-        "generous-mcq-16"
+        "generous-mcq-15",
+        "generous-mcq-08",
+        "generous-mcq-04"
       ],
       "explanation": "本句的「generously」指「大量地；充足地」。",
       "sentenceIndex": 35,
@@ -1534,12 +1392,10 @@ export default {
         "generously"
       ],
       "optionReasons": {
-        "generous-mcq-19": "本句指「大量地；充足地」。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-20": "「慷慨；寬厚」是「generosity」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-21": "「慷慨／寬厚之舉」是「act of generosity」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。"
+        "generous-mcq-19": "本句的「generously」指「大量地；充足地」。",
+        "generous-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-19"
     },
@@ -1552,10 +1408,8 @@ export default {
       "options": [
         "generous-mcq-19",
         "generous-mcq-18",
-        "generous-mcq-20",
-        "generous-mcq-17",
-        "generous-mcq-21",
-        "generous-mcq-16"
+        "generous-mcq-14",
+        "generous-mcq-10"
       ],
       "explanation": "本句的「generously」指「大量地；充足地」。",
       "sentenceIndex": 36,
@@ -1564,12 +1418,10 @@ export default {
         "generously"
       ],
       "optionReasons": {
-        "generous-mcq-19": "本句指「大量地；充足地」。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-20": "「慷慨；寬厚」是「generosity」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-21": "「慷慨／寬厚之舉」是「act of generosity」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。"
+        "generous-mcq-19": "本句的「generously」指「大量地；充足地」。",
+        "generous-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-19"
     },
@@ -1581,11 +1433,9 @@ export default {
       "masked": "Everyone was touched by her ____.",
       "options": [
         "generous-mcq-20",
-        "generous-mcq-19",
-        "generous-mcq-21",
-        "generous-mcq-18",
-        "generous-mcq-17",
-        "generous-mcq-16"
+        "generous-mcq-12",
+        "generous-mcq-03",
+        "generous-mcq-05"
       ],
       "explanation": "本句的「generosity」指「慷慨；寬厚」。",
       "sentenceIndex": 37,
@@ -1594,12 +1444,10 @@ export default {
         "generosity"
       ],
       "optionReasons": {
-        "generous-mcq-20": "本句指「慷慨；寬厚」。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-21": "「慷慨／寬厚之舉」是「act of generosity」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。"
+        "generous-mcq-20": "本句的「generosity」指「慷慨；寬厚」。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-20"
     },
@@ -1611,11 +1459,9 @@ export default {
       "masked": "His ____ extends beyond money; he also gives people his time.",
       "options": [
         "generous-mcq-20",
-        "generous-mcq-19",
-        "generous-mcq-21",
-        "generous-mcq-18",
-        "generous-mcq-17",
-        "generous-mcq-16"
+        "generous-mcq-12",
+        "generous-mcq-03",
+        "generous-mcq-07"
       ],
       "explanation": "本句的「generosity」指「慷慨；寬厚」。",
       "sentenceIndex": 38,
@@ -1624,12 +1470,10 @@ export default {
         "generosity"
       ],
       "optionReasons": {
-        "generous-mcq-20": "本句指「慷慨；寬厚」。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-21": "「慷慨／寬厚之舉」是「act of generosity」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。"
+        "generous-mcq-20": "本句的「generosity」指「慷慨；寬厚」。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-20"
     },
@@ -1641,11 +1485,9 @@ export default {
       "masked": "Paying for the family's meal was an unexpected ____.",
       "options": [
         "generous-mcq-21",
-        "generous-mcq-20",
-        "generous-mcq-19",
-        "generous-mcq-18",
-        "generous-mcq-17",
-        "generous-mcq-16"
+        "generous-mcq-07",
+        "generous-mcq-03",
+        "generous-mcq-04"
       ],
       "explanation": "本句的「act of generosity」指「慷慨／寬厚之舉」。",
       "sentenceIndex": 39,
@@ -1654,12 +1496,10 @@ export default {
         "act of generosity"
       ],
       "optionReasons": {
-        "generous-mcq-21": "本句指「慷慨／寬厚之舉」。",
-        "generous-mcq-20": "「慷慨；寬厚」是「generosity」的用法，與本句語境不同。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。"
+        "generous-mcq-21": "本句的「act of generosity」指「慷慨／寬厚之舉」。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-21"
     },
@@ -1671,11 +1511,9 @@ export default {
       "masked": "His response to the younger child was a small ____.",
       "options": [
         "generous-mcq-21",
-        "generous-mcq-20",
-        "generous-mcq-19",
-        "generous-mcq-18",
-        "generous-mcq-17",
-        "generous-mcq-16"
+        "generous-mcq-07",
+        "generous-mcq-12",
+        "generous-mcq-03"
       ],
       "explanation": "本句的「act of generosity」指「慷慨／寬厚之舉」。",
       "sentenceIndex": 40,
@@ -1684,12 +1522,10 @@ export default {
         "act of generosity"
       ],
       "optionReasons": {
-        "generous-mcq-21": "本句指「慷慨／寬厚之舉」。",
-        "generous-mcq-20": "「慷慨；寬厚」是「generosity」的用法，與本句語境不同。",
-        "generous-mcq-19": "「大量地；充足地」是「generously (quantity)」的用法，與本句語境不同。",
-        "generous-mcq-18": "「慷慨地」是「generously」的用法，與本句語境不同。",
-        "generous-mcq-17": "「慷慨得過了頭」是「generous to a fault」的用法，與本句語境不同。",
-        "generous-mcq-16": "「慷慨寬厚的心」是「generous spirit」的用法，與本句語境不同。"
+        "generous-mcq-21": "本句的「act of generosity」指「慷慨／寬厚之舉」。",
+        "generous-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "generous-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "generous-mcq-21"
     }
@@ -1701,5 +1537,7 @@ export default {
     "sha256": "7dd3ec81839799b0e978d82c4ee725ae16827bdfc58a3e4ecfea89772e6abe1a",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -323,11 +323,9 @@ export default {
       "masked": "The ring is made of ____.",
       "options": [
         "pure-mcq-01",
-        "pure-mcq-02",
-        "pure-mcq-03",
-        "pure-mcq-04",
-        "pure-mcq-05",
-        "pure-mcq-06"
+        "pure-mcq-09",
+        "pure-pdf-002",
+        "pure-mcq-07"
       ],
       "explanation": "本句的「pure gold」指「沒有混入其他物質或雜質的」。",
       "sentenceIndex": 0,
@@ -336,12 +334,10 @@ export default {
         "pure gold"
       ],
       "optionReasons": {
-        "pure-mcq-01": "本句指「沒有混入其他物質或雜質的」。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-01": "本句的「pure gold」指「沒有混入其他物質或雜質的」。",
+        "pure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-01"
     },
@@ -353,11 +349,9 @@ export default {
       "masked": "The bottle contains ____ water.",
       "options": [
         "pure-mcq-01",
-        "pure-mcq-02",
-        "pure-mcq-03",
-        "pure-mcq-04",
-        "pure-mcq-05",
-        "pure-mcq-06"
+        "pure-mcq-11",
+        "pure-mcq-07",
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure」指「沒有混入其他物質或雜質的」。",
       "sentenceIndex": 1,
@@ -366,12 +360,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-01": "本句指「沒有混入其他物質或雜質的」。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-01": "本句的「pure」指「沒有混入其他物質或雜質的」。",
+        "pure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-01"
     },
@@ -383,11 +375,9 @@ export default {
       "masked": "The mountain air felt fresh and ____.",
       "options": [
         "pure-mcq-02",
-        "pure-mcq-01",
-        "pure-mcq-03",
-        "pure-mcq-04",
-        "pure-mcq-05",
-        "pure-mcq-06"
+        "pure-mcq-08",
+        "pure-pdf-001",
+        "pure-mcq-10"
       ],
       "explanation": "本句的「pure」指「沒有污染物或有害物的」。",
       "sentenceIndex": 2,
@@ -396,12 +386,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-02": "本句指「沒有污染物或有害物的」。",
-        "pure-mcq-01": "「沒有混入其他物質或雜質的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-02": "本句的「pure」指「沒有污染物或有害物的」。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-02"
     },
@@ -413,11 +401,9 @@ export default {
       "masked": "They wanted access to ____ drinking water.",
       "options": [
         "pure-mcq-02",
-        "pure-mcq-01",
-        "pure-mcq-03",
-        "pure-mcq-04",
-        "pure-mcq-05",
-        "pure-mcq-06"
+        "pure-mcq-07",
+        "pure-mcq-09",
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure」指「沒有污染物或有害物的」。",
       "sentenceIndex": 3,
@@ -426,12 +412,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-02": "本句指「沒有污染物或有害物的」。",
-        "pure-mcq-01": "「沒有混入其他物質或雜質的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-02": "本句的「pure」指「沒有污染物或有害物的」。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-02"
     },
@@ -443,11 +427,9 @@ export default {
       "masked": "The thrill did not last in its ____ for very long.",
       "options": [
         "pure-mcq-03",
-        "pure-mcq-02",
-        "pure-mcq-04",
-        "pure-mcq-01",
-        "pure-mcq-05",
-        "pure-mcq-06"
+        "pure-pdf-002",
+        "pure-mcq-07",
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure form」指「沒有摻雜其他情緒、因素或複雜性的」。",
       "sentenceIndex": 4,
@@ -456,12 +438,10 @@ export default {
         "pure form"
       ],
       "optionReasons": {
-        "pure-mcq-03": "本句指「沒有摻雜其他情緒、因素或複雜性的」。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-01": "「沒有混入其他物質或雜質的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-03": "本句的「pure form」指「沒有摻雜其他情緒、因素或複雜性的」。",
+        "pure-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-03"
     },
@@ -473,11 +453,9 @@ export default {
       "masked": "Her reaction was ____ joy.",
       "options": [
         "pure-mcq-03",
-        "pure-mcq-02",
-        "pure-mcq-04",
-        "pure-mcq-01",
-        "pure-mcq-05",
-        "pure-mcq-06"
+        "pure-pdf-001",
+        "pure-mcq-11",
+        "pure-mcq-08"
       ],
       "explanation": "本句的「pure」指「沒有摻雜其他情緒、因素或複雜性的」。",
       "sentenceIndex": 5,
@@ -486,12 +464,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-03": "本句指「沒有摻雜其他情緒、因素或複雜性的」。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-01": "「沒有混入其他物質或雜質的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-03": "本句的「pure」指「沒有摻雜其他情緒、因素或複雜性的」。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-03"
     },
@@ -503,11 +479,9 @@ export default {
       "masked": "It was ____.",
       "options": [
         "pure-mcq-04",
-        "pure-mcq-03",
-        "pure-mcq-05",
-        "pure-mcq-02",
-        "pure-mcq-06",
-        "pure-mcq-01"
+        "pure-mcq-07",
+        "pure-pdf-002",
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure luck」指「完全就是某種性質，沒有其他成分／解釋的」。",
       "sentenceIndex": 6,
@@ -516,12 +490,10 @@ export default {
         "pure luck"
       ],
       "optionReasons": {
-        "pure-mcq-04": "本句指「完全就是某種性質，沒有其他成分／解釋的」。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-01": "「沒有混入其他物質或雜質的」與本句語境不同。"
+        "pure-mcq-04": "本句的「pure luck」指「完全就是某種性質，沒有其他成分／解釋的」。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-04"
     },
@@ -533,11 +505,9 @@ export default {
       "masked": "The decision was ____ nonsense.",
       "options": [
         "pure-mcq-04",
-        "pure-mcq-03",
-        "pure-mcq-05",
-        "pure-mcq-02",
-        "pure-mcq-06",
-        "pure-mcq-01"
+        "pure-pdf-002",
+        "pure-mcq-07",
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure」指「完全就是某種性質，沒有其他成分／解釋的」。",
       "sentenceIndex": 7,
@@ -546,12 +516,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-04": "本句指「完全就是某種性質，沒有其他成分／解釋的」。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-01": "「沒有混入其他物質或雜質的」與本句語境不同。"
+        "pure-mcq-04": "本句的「pure」指「完全就是某種性質，沒有其他成分／解釋的」。",
+        "pure-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-04"
     },
@@ -563,11 +531,9 @@ export default {
       "masked": "She was described as having a ____.",
       "options": [
         "pure-mcq-05",
-        "pure-mcq-04",
-        "pure-mcq-06",
-        "pure-mcq-03",
+        "pure-pdf-001",
         "pure-mcq-07",
-        "pure-mcq-02"
+        "pure-mcq-10"
       ],
       "explanation": "本句的「pure heart」指「在道德、思想或意圖上沒有污點的」。",
       "sentenceIndex": 8,
@@ -576,12 +542,10 @@ export default {
         "pure heart"
       ],
       "optionReasons": {
-        "pure-mcq-05": "本句指「在道德、思想或意圖上沒有污點的」。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。"
+        "pure-mcq-05": "本句的「pure heart」指「在道德、思想或意圖上沒有污點的」。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-05"
     },
@@ -593,11 +557,9 @@ export default {
       "masked": "The story presents him as morally ____.",
       "options": [
         "pure-mcq-05",
-        "pure-mcq-04",
-        "pure-mcq-06",
-        "pure-mcq-03",
         "pure-mcq-07",
-        "pure-mcq-02"
+        "pure-mcq-08",
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure」指「在道德、思想或意圖上沒有污點的」。",
       "sentenceIndex": 9,
@@ -606,12 +568,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-05": "本句指「在道德、思想或意圖上沒有污點的」。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-02": "「沒有污染物或有害物的」與本句語境不同。"
+        "pure-mcq-05": "本句的「pure」指「在道德、思想或意圖上沒有污點的」。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-05"
     },
@@ -623,11 +583,9 @@ export default {
       "masked": "The dog is a ____.",
       "options": [
         "pure-mcq-06",
-        "pure-mcq-05",
-        "pure-mcq-07",
-        "pure-mcq-04",
-        "pure-mcq-08",
-        "pure-mcq-03"
+        "pure-pdf-002",
+        "pure-pdf-001",
+        "pure-mcq-07"
       ],
       "explanation": "本句的「pure breed」指「來自單一血統、品種或類型，沒有混合的」。",
       "sentenceIndex": 12,
@@ -636,12 +594,10 @@ export default {
         "pure breed"
       ],
       "optionReasons": {
-        "pure-mcq-06": "本句指「來自單一血統、品種或類型，沒有混合的」。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。"
+        "pure-mcq-06": "本句的「pure breed」指「來自單一血統、品種或類型，沒有混合的」。",
+        "pure-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-06"
     },
@@ -653,11 +609,9 @@ export default {
       "masked": "The researchers worked with a ____ strain.",
       "options": [
         "pure-mcq-06",
-        "pure-mcq-05",
-        "pure-mcq-07",
-        "pure-mcq-04",
-        "pure-mcq-08",
-        "pure-mcq-03"
+        "pure-mcq-10",
+        "pure-mcq-11",
+        "pure-mcq-07"
       ],
       "explanation": "本句的「pure」指「來自單一血統、品種或類型，沒有混合的」。",
       "sentenceIndex": 13,
@@ -666,12 +620,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-06": "本句指「來自單一血統、品種或類型，沒有混合的」。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-03": "「沒有摻雜其他情緒、因素或複雜性的」與本句語境不同。"
+        "pure-mcq-06": "本句的「pure」指「來自單一血統、品種或類型，沒有混合的」。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-06"
     },
@@ -683,11 +635,9 @@ export default {
       "masked": "She studies ____.",
       "options": [
         "pure-mcq-07",
-        "pure-mcq-06",
-        "pure-mcq-08",
         "pure-mcq-05",
         "pure-mcq-09",
-        "pure-mcq-04"
+        "pure-mcq-08"
       ],
       "explanation": "本句的「pure mathematics」指「著重理論本身，而不是實際應用的」。",
       "sentenceIndex": 14,
@@ -696,12 +646,10 @@ export default {
         "pure mathematics"
       ],
       "optionReasons": {
-        "pure-mcq-07": "本句指「著重理論本身，而不是實際應用的」。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。"
+        "pure-mcq-07": "本句的「pure mathematics」指「著重理論本身，而不是實際應用的」。",
+        "pure-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-07"
     },
@@ -713,11 +661,9 @@ export default {
       "masked": "The course focuses on ____ science rather than applied science.",
       "options": [
         "pure-mcq-07",
-        "pure-mcq-06",
         "pure-mcq-08",
-        "pure-mcq-05",
-        "pure-mcq-09",
-        "pure-mcq-04"
+        "pure-mcq-03",
+        "pure-mcq-10"
       ],
       "explanation": "本句的「pure」指「著重理論本身，而不是實際應用的」。",
       "sentenceIndex": 15,
@@ -726,12 +672,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-07": "本句指「著重理論本身，而不是實際應用的」。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-04": "「完全就是某種性質，沒有其他成分／解釋的」與本句語境不同。"
+        "pure-mcq-07": "本句的「pure」指「著重理論本身，而不是實際應用的」。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-07"
     },
@@ -743,11 +687,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "pure-mcq-08",
-        "pure-mcq-07",
-        "pure-mcq-09",
-        "pure-mcq-06",
-        "pure-mcq-10",
-        "pure-mcq-05"
+        "pure-mcq-04",
+        "pure-pdf-001",
+        "pure-mcq-07"
       ],
       "explanation": "本句的「pure voice」指「清澈、純正、不混濁的」。",
       "sentenceIndex": 18,
@@ -756,12 +698,10 @@ export default {
         "pure voice"
       ],
       "optionReasons": {
-        "pure-mcq-08": "本句指「清澈、純正、不混濁的」。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。"
+        "pure-mcq-08": "本句的「pure voice」指「清澈、純正、不混濁的」。",
+        "pure-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-08"
     },
@@ -773,11 +713,9 @@ export default {
       "masked": "The painting uses ____ colours.",
       "options": [
         "pure-mcq-08",
+        "pure-mcq-05",
         "pure-mcq-07",
-        "pure-mcq-09",
-        "pure-mcq-06",
-        "pure-mcq-10",
-        "pure-mcq-05"
+        "pure-pdf-001"
       ],
       "explanation": "本句的「pure」指「清澈、純正、不混濁的」。",
       "sentenceIndex": 19,
@@ -786,12 +724,10 @@ export default {
         "pure"
       ],
       "optionReasons": {
-        "pure-mcq-08": "本句指「清澈、純正、不混濁的」。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-05": "「在道德、思想或意圖上沒有污點的」與本句語境不同。"
+        "pure-mcq-08": "本句的「pure」指「清澈、純正、不混濁的」。",
+        "pure-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-08"
     },
@@ -803,11 +739,9 @@ export default {
       "masked": "I clicked on it ____.",
       "options": [
         "pure-mcq-09",
-        "pure-mcq-08",
-        "pure-mcq-10",
+        "pure-mcq-05",
         "pure-mcq-07",
-        "pure-mcq-11",
-        "pure-mcq-06"
+        "pure-mcq-10"
       ],
       "explanation": "本句的「purely out of curiosity」指「完全只是／純粹因為某一原因」。",
       "sentenceIndex": 22,
@@ -816,12 +750,10 @@ export default {
         "purely out of curiosity"
       ],
       "optionReasons": {
-        "pure-mcq-09": "本句指「完全只是／純粹因為某一原因」。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-09": "本句的「purely out of curiosity」指「完全只是／純粹因為某一原因」。",
+        "pure-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-09"
     },
@@ -833,11 +765,9 @@ export default {
       "masked": "The decision was made ____ for financial reasons.",
       "options": [
         "pure-mcq-09",
-        "pure-mcq-08",
-        "pure-mcq-10",
+        "pure-mcq-02",
         "pure-mcq-07",
-        "pure-mcq-11",
-        "pure-mcq-06"
+        "pure-pdf-002"
       ],
       "explanation": "本句的「purely」指「完全只是／純粹因為某一原因」。",
       "sentenceIndex": 23,
@@ -846,12 +776,10 @@ export default {
         "purely"
       ],
       "optionReasons": {
-        "pure-mcq-09": "本句指「完全只是／純粹因為某一原因」。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-mcq-09": "本句的「purely」指「完全只是／純粹因為某一原因」。",
+        "pure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-09"
     },
@@ -863,11 +791,9 @@ export default {
       "masked": "The problem is being discussed ____.",
       "options": [
         "pure-pdf-001",
-        "pure-mcq-08",
-        "pure-mcq-10",
-        "pure-mcq-07",
+        "pure-mcq-03",
         "pure-mcq-11",
-        "pure-mcq-06"
+        "pure-mcq-08"
       ],
       "explanation": "本句的「purely theoretically」指「只從某一層面／角度而言」。",
       "sentenceIndex": 24,
@@ -876,12 +802,10 @@ export default {
         "purely theoretically"
       ],
       "optionReasons": {
-        "pure-pdf-001": "本句指「只從某一層面／角度而言」。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-pdf-001": "本句的「purely theoretically」指「只從某一層面／角度而言」。",
+        "pure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-pdf-001"
     },
@@ -893,11 +817,9 @@ export default {
       "masked": "The idea is interesting from a ____ academic perspective.",
       "options": [
         "pure-pdf-001",
-        "pure-mcq-08",
-        "pure-mcq-10",
+        "pure-mcq-05",
         "pure-mcq-07",
-        "pure-mcq-11",
-        "pure-mcq-06"
+        "pure-mcq-12"
       ],
       "explanation": "本句的「purely」指「只從某一層面／角度而言」。",
       "sentenceIndex": 25,
@@ -906,12 +828,10 @@ export default {
         "purely"
       ],
       "optionReasons": {
-        "pure-pdf-001": "本句指「只從某一層面／角度而言」。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-06": "「來自單一血統、品種或類型，沒有混合的」與本句語境不同。"
+        "pure-pdf-001": "本句的「purely」指「只從某一層面／角度而言」。",
+        "pure-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-pdf-001"
     },
@@ -923,11 +843,9 @@ export default {
       "masked": "The lab tested the ____ of the water.",
       "options": [
         "pure-mcq-10",
+        "pure-mcq-05",
         "pure-mcq-09",
-        "pure-mcq-11",
-        "pure-mcq-08",
-        "pure-mcq-12",
-        "pure-mcq-07"
+        "pure-mcq-08"
       ],
       "explanation": "本句的「purity」指「某物不含雜質的程度」。",
       "sentenceIndex": 26,
@@ -936,12 +854,10 @@ export default {
         "purity"
       ],
       "optionReasons": {
-        "pure-mcq-10": "本句指「某物不含雜質的程度」。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-12": "「去除雜質、污染物或不需要成分，使其更純淨」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-mcq-10": "本句的「purity」指「某物不含雜質的程度」。",
+        "pure-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-10"
     },
@@ -953,10 +869,8 @@ export default {
       "masked": "The gold has a high level of ____.",
       "options": [
         "pure-mcq-10",
-        "pure-mcq-09",
-        "pure-mcq-11",
+        "pure-mcq-06",
         "pure-mcq-08",
-        "pure-mcq-12",
         "pure-mcq-07"
       ],
       "explanation": "本句的「purity」指「某物不含雜質的程度」。",
@@ -966,12 +880,10 @@ export default {
         "purity"
       ],
       "optionReasons": {
-        "pure-mcq-10": "本句指「某物不含雜質的程度」。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-12": "「去除雜質、污染物或不需要成分，使其更純淨」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-mcq-10": "本句的「purity」指「某物不含雜質的程度」。",
+        "pure-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-10"
     },
@@ -983,11 +895,9 @@ export default {
       "masked": "The poem associates white with ____.",
       "options": [
         "pure-mcq-11",
+        "pure-mcq-07",
         "pure-mcq-10",
-        "pure-mcq-12",
-        "pure-mcq-09",
-        "pure-mcq-08",
-        "pure-mcq-07"
+        "pure-mcq-06"
       ],
       "explanation": "本句的「purity」指「道德／精神上的純潔狀態」。",
       "sentenceIndex": 28,
@@ -996,12 +906,10 @@ export default {
         "purity"
       ],
       "optionReasons": {
-        "pure-mcq-11": "本句指「道德／精神上的純潔狀態」。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-12": "「去除雜質、污染物或不需要成分，使其更純淨」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-mcq-11": "本句的「purity」指「道德／精神上的純潔狀態」。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-11"
     },
@@ -1013,11 +921,9 @@ export default {
       "masked": "____ is an important theme in the story.",
       "options": [
         "pure-mcq-11",
-        "pure-mcq-10",
-        "pure-mcq-12",
-        "pure-mcq-09",
-        "pure-mcq-08",
-        "pure-mcq-07"
+        "pure-mcq-03",
+        "pure-mcq-07",
+        "pure-mcq-10"
       ],
       "explanation": "本句的「Purity」指「道德／精神上的純潔狀態」。",
       "sentenceIndex": 29,
@@ -1026,12 +932,10 @@ export default {
         "Purity"
       ],
       "optionReasons": {
-        "pure-mcq-11": "本句指「道德／精神上的純潔狀態」。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-12": "「去除雜質、污染物或不需要成分，使其更純淨」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-mcq-11": "本句的「Purity」指「道德／精神上的純潔狀態」。",
+        "pure-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-11"
     },
@@ -1043,10 +947,8 @@ export default {
       "masked": "The system ____ the water.",
       "options": [
         "pure-mcq-12",
-        "pure-mcq-11",
-        "pure-mcq-10",
-        "pure-mcq-09",
-        "pure-mcq-08",
+        "pure-pdf-001",
+        "pure-mcq-06",
         "pure-mcq-07"
       ],
       "explanation": "本句的「purifies」指「去除雜質、污染物或不需要成分，使其更純淨」。",
@@ -1056,12 +958,10 @@ export default {
         "purifies"
       ],
       "optionReasons": {
-        "pure-mcq-12": "本句指「去除雜質、污染物或不需要成分，使其更純淨」。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-mcq-12": "本句的「purifies」指「去除雜質、污染物或不需要成分，使其更純淨」。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-12"
     },
@@ -1073,10 +973,8 @@ export default {
       "masked": "The metal must be ____ before use.",
       "options": [
         "pure-mcq-12",
-        "pure-mcq-11",
-        "pure-mcq-10",
-        "pure-mcq-09",
-        "pure-mcq-08",
+        "pure-pdf-001",
+        "pure-mcq-06",
         "pure-mcq-07"
       ],
       "explanation": "本句的「purified」指「去除雜質、污染物或不需要成分，使其更純淨」。",
@@ -1086,12 +984,10 @@ export default {
         "purified"
       ],
       "optionReasons": {
-        "pure-mcq-12": "本句指「去除雜質、污染物或不需要成分，使其更純淨」。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-mcq-12": "本句的「purified」指「去除雜質、污染物或不需要成分，使其更純淨」。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-mcq-12"
     },
@@ -1103,11 +999,9 @@ export default {
       "masked": "The ritual was believed to ____ the spirit.",
       "options": [
         "pure-pdf-002",
-        "pure-mcq-11",
-        "pure-mcq-10",
-        "pure-mcq-09",
-        "pure-mcq-08",
-        "pure-mcq-07"
+        "pure-mcq-04",
+        "pure-pdf-001",
+        "pure-mcq-10"
       ],
       "explanation": "本句的「purify」指「去除精神、道德或情感上的『污濁』」。",
       "sentenceIndex": 32,
@@ -1116,12 +1010,10 @@ export default {
         "purify"
       ],
       "optionReasons": {
-        "pure-pdf-002": "本句指「去除精神、道德或情感上的『污濁』」。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-pdf-002": "本句的「purify」指「去除精神、道德或情感上的『污濁』」。",
+        "pure-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-pdf-002"
     },
@@ -1133,11 +1025,9 @@ export default {
       "masked": "The experience seemed to ____ his intentions.",
       "options": [
         "pure-pdf-002",
-        "pure-mcq-11",
-        "pure-mcq-10",
-        "pure-mcq-09",
-        "pure-mcq-08",
-        "pure-mcq-07"
+        "pure-pdf-001",
+        "pure-mcq-04",
+        "pure-mcq-10"
       ],
       "explanation": "本句的「purify」指「去除精神、道德或情感上的『污濁』」。",
       "sentenceIndex": 33,
@@ -1146,12 +1036,10 @@ export default {
         "purify"
       ],
       "optionReasons": {
-        "pure-pdf-002": "本句指「去除精神、道德或情感上的『污濁』」。",
-        "pure-mcq-11": "「道德／精神上的純潔狀態」與本句語境不同。",
-        "pure-mcq-10": "「某物不含雜質的程度」與本句語境不同。",
-        "pure-mcq-09": "「完全只是／純粹因為某一原因」與本句語境不同。",
-        "pure-mcq-08": "「清澈、純正、不混濁的」與本句語境不同。",
-        "pure-mcq-07": "「著重理論本身，而不是實際應用的」與本句語境不同。"
+        "pure-pdf-002": "本句的「purify」指「去除精神、道德或情感上的『污濁』」。",
+        "pure-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pure-pdf-002"
     }
@@ -1163,5 +1051,7 @@ export default {
     "sha256": "ab781e41d10649e72edf542160f6a355edbec880610b7a4c8fd1bb70d1175e6e",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

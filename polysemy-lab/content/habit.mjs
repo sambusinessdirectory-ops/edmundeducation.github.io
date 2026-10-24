@@ -482,11 +482,9 @@ export default {
       "masked": "That ____ says a lot about her personality.",
       "options": [
         "habit-mcq-01",
-        "habit-mcq-02",
-        "habit-mcq-03",
-        "habit-mcq-04",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-15",
+        "habit-mcq-14",
+        "habit-mcq-10"
       ],
       "explanation": "本句的「habit」指「經常重複並逐漸固定下來的個人行為模式」。",
       "sentenceIndex": 0,
@@ -495,12 +493,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-01": "本句指「經常重複並逐漸固定下來的個人行為模式」。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-01": "本句的「habit」指「經常重複並逐漸固定下來的個人行為模式」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-01"
     },
@@ -512,11 +508,9 @@ export default {
       "masked": "Reading before bed is one of her daily ____.",
       "options": [
         "habit-mcq-01",
-        "habit-mcq-02",
-        "habit-mcq-03",
-        "habit-mcq-04",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-14",
+        "habit-mcq-10",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habits」指「經常重複並逐漸固定下來的個人行為模式」。",
       "sentenceIndex": 1,
@@ -525,12 +519,10 @@ export default {
         "habits"
       ],
       "optionReasons": {
-        "habit-mcq-01": "本句指「經常重複並逐漸固定下來的個人行為模式」。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-01": "本句的「habits」指「經常重複並逐漸固定下來的個人行為模式」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-01"
     },
@@ -542,11 +534,9 @@ export default {
       "masked": "He has a ____ of checking his phone as soon as he wakes up.",
       "options": [
         "habit-mcq-01",
-        "habit-mcq-02",
-        "habit-mcq-03",
-        "habit-mcq-04",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-15",
+        "habit-mcq-14",
+        "habit-mcq-10"
       ],
       "explanation": "本句的「habit」指「經常重複並逐漸固定下來的個人行為模式」。",
       "sentenceIndex": 2,
@@ -555,12 +545,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-01": "本句指「經常重複並逐漸固定下來的個人行為模式」。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-01": "本句的「habit」指「經常重複並逐漸固定下來的個人行為模式」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-01"
     },
@@ -572,11 +560,8 @@ export default {
       "masked": "She has a ____ tea for visitors.",
       "options": [
         "habit-mcq-02",
-        "habit-mcq-01",
-        "habit-mcq-03",
-        "habit-mcq-04",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit of making」指「經常反覆做某件事，以致形成固定習慣」。",
       "sentenceIndex": 3,
@@ -585,12 +570,9 @@ export default {
         "habit of making"
       ],
       "optionReasons": {
-        "habit-mcq-02": "本句指「經常反覆做某件事，以致形成固定習慣」。",
-        "habit-mcq-01": "「經常重複並逐漸固定下來的個人行為模式」是「habit — repeated behaviour」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-02": "本句的「habit of making」指「經常反覆做某件事，以致形成固定習慣」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-02"
     },
@@ -602,11 +584,8 @@ export default {
       "masked": "He has a ____ very quickly.",
       "options": [
         "habit-mcq-02",
-        "habit-mcq-01",
-        "habit-mcq-03",
-        "habit-mcq-04",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit of speaking」指「經常反覆做某件事，以致形成固定習慣」。",
       "sentenceIndex": 4,
@@ -615,12 +594,9 @@ export default {
         "habit of speaking"
       ],
       "optionReasons": {
-        "habit-mcq-02": "本句指「經常反覆做某件事，以致形成固定習慣」。",
-        "habit-mcq-01": "「經常重複並逐漸固定下來的個人行為模式」是「habit — repeated behaviour」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-02": "本句的「habit of speaking」指「經常反覆做某件事，以致形成固定習慣」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-02"
     },
@@ -632,11 +608,9 @@ export default {
       "masked": "Drinking enough water is a good ____.",
       "options": [
         "habit-mcq-03",
-        "habit-mcq-02",
-        "habit-mcq-04",
-        "habit-mcq-01",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-14",
+        "habit-mcq-10",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit」指「對健康、學習、工作或生活有正面幫助的固定行為」。",
       "sentenceIndex": 5,
@@ -645,12 +619,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-03": "本句指「對健康、學習、工作或生活有正面幫助的固定行為」。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-01": "「經常重複並逐漸固定下來的個人行為模式」是「habit — repeated behaviour」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-03": "本句的「habit」指「對健康、學習、工作或生活有正面幫助的固定行為」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-03"
     },
@@ -662,11 +634,9 @@ export default {
       "masked": "She developed the ____ of preparing everything the night before.",
       "options": [
         "habit-mcq-03",
-        "habit-mcq-02",
-        "habit-mcq-04",
-        "habit-mcq-01",
-        "habit-mcq-05",
-        "habit-mcq-06"
+        "habit-mcq-14",
+        "habit-mcq-20",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit」指「對健康、學習、工作或生活有正面幫助的固定行為」。",
       "sentenceIndex": 6,
@@ -675,12 +645,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-03": "本句指「對健康、學習、工作或生活有正面幫助的固定行為」。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-01": "「經常重複並逐漸固定下來的個人行為模式」是「habit — repeated behaviour」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-03": "本句的「habit」指「對健康、學習、工作或生活有正面幫助的固定行為」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-03"
     },
@@ -692,11 +660,8 @@ export default {
       "masked": "Biting your nails can become a bad ____.",
       "options": [
         "habit-mcq-04",
-        "habit-mcq-03",
-        "habit-mcq-05",
-        "habit-mcq-02",
-        "habit-mcq-06",
-        "habit-mcq-01"
+        "habit-mcq-10",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit」指「經常重複並對生活、健康或他人造成不良影響的行為」。",
       "sentenceIndex": 7,
@@ -705,12 +670,9 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-04": "本句指「經常重複並對生活、健康或他人造成不良影響的行為」。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-01": "「經常重複並逐漸固定下來的個人行為模式」是「habit — repeated behaviour」的用法，與本句語境不同。"
+        "habit-mcq-04": "本句的「habit」指「經常重複並對生活、健康或他人造成不良影響的行為」。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-04"
     },
@@ -722,11 +684,8 @@ export default {
       "masked": "He is trying to stop the ____ of staying up too late.",
       "options": [
         "habit-mcq-04",
-        "habit-mcq-03",
-        "habit-mcq-05",
-        "habit-mcq-02",
-        "habit-mcq-06",
-        "habit-mcq-01"
+        "habit-mcq-10",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit」指「經常重複並對生活、健康或他人造成不良影響的行為」。",
       "sentenceIndex": 8,
@@ -735,12 +694,9 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-04": "本句指「經常重複並對生活、健康或他人造成不良影響的行為」。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-01": "「經常重複並逐漸固定下來的個人行為模式」是「habit — repeated behaviour」的用法，與本句語境不同。"
+        "habit-mcq-04": "本句的「habit」指「經常重複並對生活、健康或他人造成不良影響的行為」。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-04"
     },
@@ -752,11 +708,9 @@ export default {
       "masked": "She gradually ____ of walking every morning.",
       "options": [
         "habit-mcq-05",
-        "habit-mcq-04",
-        "habit-mcq-06",
-        "habit-mcq-03",
-        "habit-mcq-07",
-        "habit-mcq-02"
+        "habit-mcq-15",
+        "habit-mcq-19",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「developed the habit」指「透過持續重複某行為，使它逐漸成為固定做法」。",
       "sentenceIndex": 9,
@@ -765,12 +719,10 @@ export default {
         "developed the habit"
       ],
       "optionReasons": {
-        "habit-mcq-05": "本句指「透過持續重複某行為，使它逐漸成為固定做法」。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。"
+        "habit-mcq-05": "本句的「developed the habit」指「透過持續重複某行為，使它逐漸成為固定做法」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-05"
     },
@@ -782,11 +734,9 @@ export default {
       "masked": "It takes time to ____.",
       "options": [
         "habit-mcq-05",
-        "habit-mcq-04",
-        "habit-mcq-06",
-        "habit-mcq-03",
-        "habit-mcq-07",
-        "habit-mcq-02"
+        "habit-mcq-14",
+        "habit-mcq-15",
+        "habit-mcq-19"
       ],
       "explanation": "本句的「form a new habit」指「透過持續重複某行為，使它逐漸成為固定做法」。",
       "sentenceIndex": 10,
@@ -795,12 +745,10 @@ export default {
         "form a new habit"
       ],
       "optionReasons": {
-        "habit-mcq-05": "本句指「透過持續重複某行為，使它逐漸成為固定做法」。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-02": "「經常反覆做某件事，以致形成固定習慣」是「habit of doing something」的用法，與本句語境不同。"
+        "habit-mcq-05": "本句的「form a new habit」指「透過持續重複某行為，使它逐漸成為固定做法」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-05"
     },
@@ -812,11 +760,9 @@ export default {
       "masked": "It can be difficult to ____.",
       "options": [
         "habit-mcq-06",
-        "habit-mcq-05",
-        "habit-mcq-07",
-        "habit-mcq-04",
-        "habit-mcq-08",
-        "habit-mcq-03"
+        "habit-mcq-10",
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「break an old habit」指「停止一個已經形成並經常重複的行為模式」。",
       "sentenceIndex": 11,
@@ -825,12 +771,10 @@ export default {
         "break an old habit"
       ],
       "optionReasons": {
-        "habit-mcq-06": "本句指「停止一個已經形成並經常重複的行為模式」。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。"
+        "habit-mcq-06": "本句的「break an old habit」指「停止一個已經形成並經常重複的行為模式」。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-06"
     },
@@ -842,11 +786,8 @@ export default {
       "masked": "She is trying to ____ of checking her phone during meals.",
       "options": [
         "habit-mcq-06",
-        "habit-mcq-05",
-        "habit-mcq-07",
-        "habit-mcq-04",
-        "habit-mcq-08",
-        "habit-mcq-03"
+        "habit-mcq-18",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「break the habit」指「停止一個已經形成並經常重複的行為模式」。",
       "sentenceIndex": 12,
@@ -855,12 +796,9 @@ export default {
         "break the habit"
       ],
       "optionReasons": {
-        "habit-mcq-06": "本句指「停止一個已經形成並經常重複的行為模式」。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-03": "「對健康、學習、工作或生活有正面幫助的固定行為」是「good habit」的用法，與本句語境不同。"
+        "habit-mcq-06": "本句的「break the habit」指「停止一個已經形成並經常重複的行為模式」。",
+        "habit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-06"
     },
@@ -872,11 +810,9 @@ export default {
       "masked": "Try to ____ reviewing your notes every day.",
       "options": [
         "habit-mcq-07",
-        "habit-mcq-06",
-        "habit-mcq-08",
-        "habit-mcq-05",
-        "habit-mcq-09",
-        "habit-mcq-04"
+        "habit-pdf-001",
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「get into the habit of」指「開始經常做某事，直到形成固定習慣」。",
       "sentenceIndex": 13,
@@ -885,12 +821,10 @@ export default {
         "get into the habit of"
       ],
       "optionReasons": {
-        "habit-mcq-07": "本句指「開始經常做某事，直到形成固定習慣」。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。"
+        "habit-mcq-07": "本句的「get into the habit of」指「開始經常做某事，直到形成固定習慣」。",
+        "habit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-07"
     },
@@ -902,11 +836,9 @@ export default {
       "masked": "She got into the ____ her grandmother every week.",
       "options": [
         "habit-mcq-07",
-        "habit-mcq-06",
-        "habit-mcq-08",
-        "habit-mcq-05",
-        "habit-mcq-09",
-        "habit-mcq-04"
+        "habit-pdf-001",
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit of calling」指「開始經常做某事，直到形成固定習慣」。",
       "sentenceIndex": 14,
@@ -915,12 +847,10 @@ export default {
         "habit of calling"
       ],
       "optionReasons": {
-        "habit-mcq-07": "本句指「開始經常做某事，直到形成固定習慣」。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-04": "「經常重複並對生活、健康或他人造成不良影響的行為」是「bad habit」的用法，與本句語境不同。"
+        "habit-mcq-07": "本句的「habit of calling」指「開始經常做某事，直到形成固定習慣」。",
+        "habit-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-07"
     },
@@ -932,11 +862,9 @@ export default {
       "masked": "I got out of the ____ during the holidays.",
       "options": [
         "habit-mcq-08",
-        "habit-mcq-07",
-        "habit-mcq-09",
-        "habit-mcq-06",
         "habit-mcq-10",
-        "habit-mcq-05"
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit of reading」指「不再維持原本已形成的固定習慣」。",
       "sentenceIndex": 15,
@@ -945,12 +873,10 @@ export default {
         "habit of reading"
       ],
       "optionReasons": {
-        "habit-mcq-08": "本句指「不再維持原本已形成的固定習慣」。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。"
+        "habit-mcq-08": "本句的「habit of reading」指「不再維持原本已形成的固定習慣」。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-08"
     },
@@ -962,11 +888,9 @@ export default {
       "masked": "He is trying to get out of the ____ late at night.",
       "options": [
         "habit-mcq-08",
-        "habit-mcq-07",
-        "habit-mcq-09",
-        "habit-mcq-06",
+        "habit-mcq-14",
         "habit-mcq-10",
-        "habit-mcq-05"
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit of eating」指「不再維持原本已形成的固定習慣」。",
       "sentenceIndex": 16,
@@ -975,12 +899,10 @@ export default {
         "habit of eating"
       ],
       "optionReasons": {
-        "habit-mcq-08": "本句指「不再維持原本已形成的固定習慣」。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-05": "「透過持續重複某行為，使它逐漸成為固定做法」是「form/develop a habit」的用法，與本句語境不同。"
+        "habit-mcq-08": "本句的「habit of eating」指「不再維持原本已形成的固定習慣」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-08"
     },
@@ -992,11 +914,9 @@ export default {
       "masked": "She checked the door twice, almost ____.",
       "options": [
         "habit-mcq-09",
-        "habit-mcq-08",
-        "habit-mcq-10",
-        "habit-mcq-07",
+        "habit-mcq-14",
         "habit-mcq-11",
-        "habit-mcq-06"
+        "habit-mcq-20"
       ],
       "explanation": "本句的「by habit」指「因某行為已經成為習慣而自然／自動地做出來」。",
       "sentenceIndex": 17,
@@ -1005,12 +925,10 @@ export default {
         "by habit"
       ],
       "optionReasons": {
-        "habit-mcq-09": "本句指「因某行為已經成為習慣而自然／自動地做出來」。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-09": "本句的「by habit」指「因某行為已經成為習慣而自然／自動地做出來」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-09"
     },
@@ -1022,11 +940,9 @@ export default {
       "masked": "He reached for his phone ____.",
       "options": [
         "habit-mcq-09",
-        "habit-mcq-08",
-        "habit-mcq-10",
-        "habit-mcq-07",
-        "habit-mcq-11",
-        "habit-mcq-06"
+        "habit-mcq-14",
+        "habit-mcq-20",
+        "habit-mcq-11"
       ],
       "explanation": "本句的「by habit」指「因某行為已經成為習慣而自然／自動地做出來」。",
       "sentenceIndex": 18,
@@ -1035,12 +951,10 @@ export default {
         "by habit"
       ],
       "optionReasons": {
-        "habit-mcq-09": "本句指「因某行為已經成為習慣而自然／自動地做出來」。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-06": "「停止一個已經形成並經常重複的行為模式」是「break a habit」的用法，與本句語境不同。"
+        "habit-mcq-09": "本句的「by habit」指「因某行為已經成為習慣而自然／自動地做出來」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-09"
     },
@@ -1052,11 +966,9 @@ export default {
       "masked": "I still wake up at six even on weekends—just ____.",
       "options": [
         "habit-mcq-10",
-        "habit-mcq-09",
-        "habit-mcq-11",
-        "habit-mcq-08",
-        "habit-mcq-12",
-        "habit-mcq-07"
+        "habit-mcq-06",
+        "habit-mcq-14",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「force of habit」指「因反覆做某事太多次，以致幾乎不用思考便自動做出」。",
       "sentenceIndex": 19,
@@ -1065,12 +977,10 @@ export default {
         "force of habit"
       ],
       "optionReasons": {
-        "habit-mcq-10": "本句指「因反覆做某事太多次，以致幾乎不用思考便自動做出」。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。"
+        "habit-mcq-10": "本句的「force of habit」指「因反覆做某事太多次，以致幾乎不用思考便自動做出」。",
+        "habit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-10"
     },
@@ -1082,11 +992,8 @@ export default {
       "masked": "She started preparing tea automatically, purely from ____.",
       "options": [
         "habit-mcq-10",
-        "habit-mcq-09",
-        "habit-mcq-11",
-        "habit-mcq-08",
-        "habit-mcq-12",
-        "habit-mcq-07"
+        "habit-mcq-04",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「force of habit」指「因反覆做某事太多次，以致幾乎不用思考便自動做出」。",
       "sentenceIndex": 20,
@@ -1095,12 +1002,9 @@ export default {
         "force of habit"
       ],
       "optionReasons": {
-        "habit-mcq-10": "本句指「因反覆做某事太多次，以致幾乎不用思考便自動做出」。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-07": "「開始經常做某事，直到形成固定習慣」是「get into the habit of」的用法，與本句語境不同。"
+        "habit-mcq-10": "本句的「force of habit」指「因反覆做某事太多次，以致幾乎不用思考便自動做出」。",
+        "habit-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-10"
     },
@@ -1112,11 +1016,8 @@ export default {
       "masked": "My grandfather is a ____ and eats breakfast at the same time every day.",
       "options": [
         "habit-mcq-11",
-        "habit-mcq-10",
-        "habit-mcq-12",
-        "habit-mcq-09",
-        "habit-mcq-13",
-        "habit-mcq-08"
+        "habit-mcq-18",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「creature of habit」指「喜歡依照固定規律生活、不喜歡經常改變做法的人」。",
       "sentenceIndex": 21,
@@ -1125,12 +1026,9 @@ export default {
         "creature of habit"
       ],
       "optionReasons": {
-        "habit-mcq-11": "本句指「喜歡依照固定規律生活、不喜歡經常改變做法的人」。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。"
+        "habit-mcq-11": "本句的「creature of habit」指「喜歡依照固定規律生活、不喜歡經常改變做法的人」。",
+        "habit-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-11"
     },
@@ -1142,11 +1040,8 @@ export default {
       "masked": "She is a ____ who dislikes sudden changes.",
       "options": [
         "habit-mcq-11",
-        "habit-mcq-10",
-        "habit-mcq-12",
-        "habit-mcq-09",
         "habit-mcq-13",
-        "habit-mcq-08"
+        "habit-mcq-15"
       ],
       "explanation": "本句的「creature of habit」指「喜歡依照固定規律生活、不喜歡經常改變做法的人」。",
       "sentenceIndex": 22,
@@ -1155,12 +1050,9 @@ export default {
         "creature of habit"
       ],
       "optionReasons": {
-        "habit-mcq-11": "本句指「喜歡依照固定規律生活、不喜歡經常改變做法的人」。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-08": "「不再維持原本已形成的固定習慣」是「get out of the habit of」的用法，與本句語境不同。"
+        "habit-mcq-11": "本句的「creature of habit」指「喜歡依照固定規律生活、不喜歡經常改變做法的人」。",
+        "habit-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-11"
     },
@@ -1173,10 +1065,7 @@ export default {
       "options": [
         "habit-mcq-12",
         "habit-mcq-11",
-        "habit-mcq-13",
-        "habit-mcq-10",
-        "habit-mcq-14",
-        "habit-mcq-09"
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit」指「某個群體長期反覆採取的慣常行為方式」。",
       "sentenceIndex": 23,
@@ -1185,12 +1074,9 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-12": "本句指「某個群體長期反覆採取的慣常行為方式」。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。"
+        "habit-mcq-12": "本句的「habit」指「某個群體長期反覆採取的慣常行為方式」。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-12"
     },
@@ -1203,10 +1089,7 @@ export default {
       "options": [
         "habit-mcq-12",
         "habit-mcq-11",
-        "habit-mcq-13",
-        "habit-mcq-10",
-        "habit-mcq-14",
-        "habit-mcq-09"
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habits」指「某個群體長期反覆採取的慣常行為方式」。",
       "sentenceIndex": 24,
@@ -1215,12 +1098,9 @@ export default {
         "habits"
       ],
       "optionReasons": {
-        "habit-mcq-12": "本句指「某個群體長期反覆採取的慣常行為方式」。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-09": "「因某行為已經成為習慣而自然／自動地做出來」是「by habit」的用法，與本句語境不同。"
+        "habit-mcq-12": "本句的「habits」指「某個群體長期反覆採取的慣常行為方式」。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-12"
     },
@@ -1232,11 +1112,8 @@ export default {
       "masked": "He has a ____ of avoiding difficult conversations.",
       "options": [
         "habit-mcq-13",
-        "habit-mcq-12",
-        "habit-mcq-14",
-        "habit-mcq-11",
         "habit-mcq-15",
-        "habit-mcq-10"
+        "habit-mcq-11"
       ],
       "explanation": "本句的「habit」指「已成為某人行為特徵的反覆傾向」。",
       "sentenceIndex": 25,
@@ -1245,12 +1122,9 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-13": "本句指「已成為某人行為特徵的反覆傾向」。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。"
+        "habit-mcq-13": "本句的「habit」指「已成為某人行為特徵的反覆傾向」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-13"
     },
@@ -1262,11 +1136,8 @@ export default {
       "masked": "She has an unfortunate ____ of interrupting people.",
       "options": [
         "habit-mcq-13",
-        "habit-mcq-12",
-        "habit-mcq-14",
-        "habit-mcq-11",
         "habit-mcq-15",
-        "habit-mcq-10"
+        "habit-mcq-11"
       ],
       "explanation": "本句的「habit」指「已成為某人行為特徵的反覆傾向」。",
       "sentenceIndex": 26,
@@ -1275,12 +1146,9 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-13": "本句指「已成為某人行為特徵的反覆傾向」。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-10": "「因反覆做某事太多次，以致幾乎不用思考便自動做出」是「force of habit」的用法，與本句語境不同。"
+        "habit-mcq-13": "本句的「habit」指「已成為某人行為特徵的反覆傾向」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-13"
     },
@@ -1292,11 +1160,9 @@ export default {
       "masked": "The nun wore a traditional religious ____.",
       "options": [
         "habit-mcq-14",
-        "habit-mcq-13",
-        "habit-mcq-15",
-        "habit-mcq-12",
-        "habit-mcq-16",
-        "habit-mcq-11"
+        "habit-mcq-06",
+        "habit-mcq-10",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habit」指「修士、修女等宗教人士所穿的傳統服裝」。",
       "sentenceIndex": 27,
@@ -1305,12 +1171,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-14": "本句指「修士、修女等宗教人士所穿的傳統服裝」。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。"
+        "habit-mcq-14": "本句的「habit」指「修士、修女等宗教人士所穿的傳統服裝」。",
+        "habit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-14"
     },
@@ -1322,11 +1186,9 @@ export default {
       "masked": "The monks were dressed in simple brown ____.",
       "options": [
         "habit-mcq-14",
-        "habit-mcq-13",
-        "habit-mcq-15",
-        "habit-mcq-12",
-        "habit-mcq-16",
-        "habit-mcq-11"
+        "habit-mcq-17",
+        "habit-mcq-03",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habits」指「修士、修女等宗教人士所穿的傳統服裝」。",
       "sentenceIndex": 28,
@@ -1335,12 +1197,10 @@ export default {
         "habits"
       ],
       "optionReasons": {
-        "habit-mcq-14": "本句指「修士、修女等宗教人士所穿的傳統服裝」。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-11": "「喜歡依照固定規律生活、不喜歡經常改變做法的人」是「creature of habit」的用法，與本句語境不同。"
+        "habit-mcq-14": "本句的「habits」指「修士、修女等宗教人士所穿的傳統服裝」。",
+        "habit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-14"
     },
@@ -1352,11 +1212,9 @@ export default {
       "masked": "The plant has a spreading growth ____.",
       "options": [
         "habit-mcq-15",
-        "habit-mcq-14",
-        "habit-mcq-16",
-        "habit-mcq-13",
+        "habit-mcq-05",
         "habit-mcq-17",
-        "habit-mcq-12"
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habit」指「植物、晶體等自然物體典型的生長方式或外形」。",
       "sentenceIndex": 29,
@@ -1365,12 +1223,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-15": "本句指「植物、晶體等自然物體典型的生長方式或外形」。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。"
+        "habit-mcq-15": "本句的「habit」指「植物、晶體等自然物體典型的生長方式或外形」。",
+        "habit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-15"
     },
@@ -1382,11 +1238,9 @@ export default {
       "masked": "The crystal ____ helps scientists identify the mineral.",
       "options": [
         "habit-mcq-15",
-        "habit-mcq-14",
-        "habit-mcq-16",
-        "habit-mcq-13",
         "habit-mcq-17",
-        "habit-mcq-12"
+        "habit-mcq-05",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habit」指「植物、晶體等自然物體典型的生長方式或外形」。",
       "sentenceIndex": 30,
@@ -1395,12 +1249,10 @@ export default {
         "habit"
       ],
       "optionReasons": {
-        "habit-mcq-15": "本句指「植物、晶體等自然物體典型的生長方式或外形」。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-12": "「某個群體長期反覆採取的慣常行為方式」是「habit — group/customary behaviour」的用法，與本句語境不同。"
+        "habit-mcq-15": "本句的「habit」指「植物、晶體等自然物體典型的生長方式或外形」。",
+        "habit-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-15"
     },
@@ -1412,11 +1264,7 @@ export default {
       "masked": "Her ____ kindness made visitors feel welcome.",
       "options": [
         "habit-mcq-16",
-        "habit-mcq-15",
-        "habit-mcq-17",
-        "habit-mcq-14",
-        "habit-mcq-18",
-        "habit-mcq-13"
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habitual」指「經常反覆發生，以致成為某人的固定行為／模式」。",
       "sentenceIndex": 31,
@@ -1425,12 +1273,8 @@ export default {
         "habitual"
       ],
       "optionReasons": {
-        "habit-mcq-16": "本句指「經常反覆發生，以致成為某人的固定行為／模式」。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。"
+        "habit-mcq-16": "本句的「habitual」指「經常反覆發生，以致成為某人的固定行為／模式」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-16"
     },
@@ -1442,11 +1286,7 @@ export default {
       "masked": "He arrived at his ____ time.",
       "options": [
         "habit-mcq-16",
-        "habit-mcq-15",
-        "habit-mcq-17",
-        "habit-mcq-14",
-        "habit-mcq-18",
-        "habit-mcq-13"
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habitual」指「經常反覆發生，以致成為某人的固定行為／模式」。",
       "sentenceIndex": 32,
@@ -1455,12 +1295,8 @@ export default {
         "habitual"
       ],
       "optionReasons": {
-        "habit-mcq-16": "本句指「經常反覆發生，以致成為某人的固定行為／模式」。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。"
+        "habit-mcq-16": "本句的「habitual」指「經常反覆發生，以致成為某人的固定行為／模式」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-16"
     },
@@ -1472,11 +1308,9 @@ export default {
       "masked": "He is a ____ latecomer.",
       "options": [
         "habit-pdf-001",
-        "habit-mcq-15",
-        "habit-mcq-17",
         "habit-mcq-14",
-        "habit-mcq-18",
-        "habit-mcq-13"
+        "habit-mcq-07",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「habitual」指「某種行為持續反覆發生，而不是偶爾一次」。",
       "sentenceIndex": 33,
@@ -1485,12 +1319,10 @@ export default {
         "habitual"
       ],
       "optionReasons": {
-        "habit-pdf-001": "本句指「某種行為持續反覆發生，而不是偶爾一次」。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。"
+        "habit-pdf-001": "本句的「habitual」指「某種行為持續反覆發生，而不是偶爾一次」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-pdf-001"
     },
@@ -1502,11 +1334,9 @@ export default {
       "masked": "____ lack of sleep can affect concentration.",
       "options": [
         "habit-pdf-001",
-        "habit-mcq-15",
-        "habit-mcq-17",
         "habit-mcq-14",
-        "habit-mcq-18",
-        "habit-mcq-13"
+        "habit-mcq-07",
+        "habit-mcq-15"
       ],
       "explanation": "本句的「Habitual」指「某種行為持續反覆發生，而不是偶爾一次」。",
       "sentenceIndex": 34,
@@ -1515,12 +1345,10 @@ export default {
         "Habitual"
       ],
       "optionReasons": {
-        "habit-pdf-001": "本句指「某種行為持續反覆發生，而不是偶爾一次」。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-13": "「已成為某人行為特徵的反覆傾向」是「habit — characteristic tendency」的用法，與本句語境不同。"
+        "habit-pdf-001": "本句的「Habitual」指「某種行為持續反覆發生，而不是偶爾一次」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-pdf-001"
     },
@@ -1532,11 +1360,9 @@ export default {
       "masked": "She ____ arrives early.",
       "options": [
         "habit-mcq-17",
-        "habit-mcq-16",
-        "habit-mcq-18",
         "habit-mcq-15",
-        "habit-mcq-19",
-        "habit-mcq-14"
+        "habit-mcq-14",
+        "habit-mcq-03"
       ],
       "explanation": "本句的「habitually」指「因為已成習慣而經常、反覆地」。",
       "sentenceIndex": 35,
@@ -1545,12 +1371,10 @@ export default {
         "habitually"
       ],
       "optionReasons": {
-        "habit-mcq-17": "本句指「因為已成習慣而經常、反覆地」。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-19": "「經反覆接觸後，已適應並習慣某種情況」是「habituated to」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。"
+        "habit-mcq-17": "本句的「habitually」指「因為已成習慣而經常、反覆地」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-17"
     },
@@ -1562,11 +1386,9 @@ export default {
       "masked": "He ____ checks every detail twice.",
       "options": [
         "habit-mcq-17",
-        "habit-mcq-16",
-        "habit-mcq-18",
+        "habit-mcq-14",
         "habit-mcq-15",
-        "habit-mcq-19",
-        "habit-mcq-14"
+        "habit-mcq-05"
       ],
       "explanation": "本句的「habitually」指「因為已成習慣而經常、反覆地」。",
       "sentenceIndex": 36,
@@ -1575,12 +1397,10 @@ export default {
         "habitually"
       ],
       "optionReasons": {
-        "habit-mcq-17": "本句指「因為已成習慣而經常、反覆地」。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。",
-        "habit-mcq-19": "「經反覆接觸後，已適應並習慣某種情況」是「habituated to」的用法，與本句語境不同。",
-        "habit-mcq-14": "「修士、修女等宗教人士所穿的傳統服裝」是「habit — religious clothing」的用法，與本句語境不同。"
+        "habit-mcq-17": "本句的「habitually」指「因為已成習慣而經常、反覆地」。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-17"
     },
@@ -1592,11 +1412,8 @@ export default {
       "masked": "The animals were gradually ____ human presence.",
       "options": [
         "habit-mcq-18",
-        "habit-mcq-17",
-        "habit-mcq-19",
-        "habit-mcq-16",
-        "habit-mcq-20",
-        "habit-mcq-15"
+        "habit-mcq-06",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habituated to」指「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」。",
       "sentenceIndex": 37,
@@ -1605,12 +1422,9 @@ export default {
         "habituated to"
       ],
       "optionReasons": {
-        "habit-mcq-18": "本句指「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-19": "「經反覆接觸後，已適應並習慣某種情況」是「habituated to」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-20": "「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」是「habituation」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。"
+        "habit-mcq-18": "本句的「habituated to」指「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」。",
+        "habit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-18"
     },
@@ -1622,11 +1436,8 @@ export default {
       "masked": "Repeated exposure can ____ people to the noise.",
       "options": [
         "habit-mcq-18",
-        "habit-mcq-17",
-        "habit-mcq-19",
-        "habit-mcq-16",
-        "habit-mcq-20",
-        "habit-mcq-15"
+        "habit-mcq-06",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habituate」指「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」。",
       "sentenceIndex": 38,
@@ -1635,12 +1446,9 @@ export default {
         "habituate"
       ],
       "optionReasons": {
-        "habit-mcq-18": "本句指「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-19": "「經反覆接觸後，已適應並習慣某種情況」是「habituated to」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-20": "「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」是「habituation」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。"
+        "habit-mcq-18": "本句的「habituate」指「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」。",
+        "habit-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-18"
     },
@@ -1652,11 +1460,9 @@ export default {
       "masked": "She had become ____ the busy environment.",
       "options": [
         "habit-mcq-19",
-        "habit-mcq-18",
-        "habit-mcq-20",
-        "habit-mcq-17",
-        "habit-mcq-16",
-        "habit-mcq-15"
+        "habit-mcq-05",
+        "habit-mcq-15",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habituated to」指「經反覆接觸後，已適應並習慣某種情況」。",
       "sentenceIndex": 39,
@@ -1665,12 +1471,10 @@ export default {
         "habituated to"
       ],
       "optionReasons": {
-        "habit-mcq-19": "本句指「經反覆接觸後，已適應並習慣某種情況」。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-20": "「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」是「habituation」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。"
+        "habit-mcq-19": "本句的「habituated to」指「經反覆接觸後，已適應並習慣某種情況」。",
+        "habit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-19"
     },
@@ -1682,11 +1486,9 @@ export default {
       "masked": "The birds became ____ the sound of traffic.",
       "options": [
         "habit-mcq-19",
-        "habit-mcq-18",
-        "habit-mcq-20",
-        "habit-mcq-17",
-        "habit-mcq-16",
-        "habit-mcq-15"
+        "habit-mcq-15",
+        "habit-mcq-05",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habituated to」指「經反覆接觸後，已適應並習慣某種情況」。",
       "sentenceIndex": 40,
@@ -1695,12 +1497,10 @@ export default {
         "habituated to"
       ],
       "optionReasons": {
-        "habit-mcq-19": "本句指「經反覆接觸後，已適應並習慣某種情況」。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-20": "「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」是「habituation」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。"
+        "habit-mcq-19": "本句的「habituated to」指「經反覆接觸後，已適應並習慣某種情況」。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-19"
     },
@@ -1712,11 +1512,9 @@ export default {
       "masked": "The reduced reaction is an example of ____.",
       "options": [
         "habit-mcq-20",
-        "habit-mcq-19",
-        "habit-mcq-18",
-        "habit-mcq-17",
-        "habit-mcq-16",
-        "habit-mcq-15"
+        "habit-mcq-11",
+        "habit-mcq-15",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habituation」指「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」。",
       "sentenceIndex": 41,
@@ -1725,12 +1523,10 @@ export default {
         "habituation"
       ],
       "optionReasons": {
-        "habit-mcq-20": "本句指「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」。",
-        "habit-mcq-19": "「經反覆接觸後，已適應並習慣某種情況」是「habituated to」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。"
+        "habit-mcq-20": "本句的「habituation」指「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」。",
+        "habit-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-20"
     },
@@ -1742,11 +1538,9 @@ export default {
       "masked": "Through ____, the animal stopped reacting to the harmless sound.",
       "options": [
         "habit-mcq-20",
-        "habit-mcq-19",
-        "habit-mcq-18",
-        "habit-mcq-17",
-        "habit-mcq-16",
-        "habit-mcq-15"
+        "habit-mcq-03",
+        "habit-mcq-15",
+        "habit-mcq-14"
       ],
       "explanation": "本句的「habituation」指「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」。",
       "sentenceIndex": 42,
@@ -1755,12 +1549,10 @@ export default {
         "habituation"
       ],
       "optionReasons": {
-        "habit-mcq-20": "本句指「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」。",
-        "habit-mcq-19": "「經反覆接觸後，已適應並習慣某種情況」是「habituated to」的用法，與本句語境不同。",
-        "habit-mcq-18": "「透過反覆接觸，使人或動物逐漸習慣某種刺激／環境」是「habituate」的用法，與本句語境不同。",
-        "habit-mcq-17": "「因為已成習慣而經常、反覆地」是「habitually」的用法，與本句語境不同。",
-        "habit-mcq-16": "「經常反覆發生，以致成為某人的固定行為／模式」是「habitual」的用法，與本句語境不同。",
-        "habit-mcq-15": "「植物、晶體等自然物體典型的生長方式或外形」是「habit — scientific growth form」的用法，與本句語境不同。"
+        "habit-mcq-20": "本句的「habituation」指「因同一刺激反覆出現，導致反應逐漸減弱的適應過程」。",
+        "habit-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "habit-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "habit-mcq-20"
     }
@@ -1772,5 +1564,7 @@ export default {
     "sha256": "a581be113c18f97ec9c3b619f9abd0dc0511f50285598b956074e14c55a8e315",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

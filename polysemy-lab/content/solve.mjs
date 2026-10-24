@@ -371,11 +371,9 @@ export default {
       "masked": "The headphones ____.",
       "options": [
         "solve-mcq-01",
-        "solve-mcq-02",
-        "solve-mcq-03",
-        "solve-mcq-04",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-10",
+        "solve-mcq-11",
+        "solve-mcq-05"
       ],
       "explanation": "本句的「solved a real problem」指「找到並實施有效方法，使困難得到處理或消除」。",
       "sentenceIndex": 0,
@@ -384,12 +382,10 @@ export default {
         "solved a real problem"
       ],
       "optionReasons": {
-        "solve-mcq-01": "本句指「找到並實施有效方法，使困難得到處理或消除」。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-01": "本句的「solved a real problem」指「找到並實施有效方法，使困難得到處理或消除」。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-01"
     },
@@ -401,11 +397,9 @@ export default {
       "masked": "Better insulation could ____.",
       "options": [
         "solve-mcq-01",
-        "solve-mcq-02",
-        "solve-mcq-03",
-        "solve-mcq-04",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-10",
+        "solve-mcq-11",
+        "solve-mcq-02"
       ],
       "explanation": "本句的「solve the noise problem」指「找到並實施有效方法，使困難得到處理或消除」。",
       "sentenceIndex": 1,
@@ -414,12 +408,10 @@ export default {
         "solve the noise problem"
       ],
       "optionReasons": {
-        "solve-mcq-01": "本句指「找到並實施有效方法，使困難得到處理或消除」。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-01": "本句的「solve the noise problem」指「找到並實施有效方法，使困難得到處理或消除」。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-01"
     },
@@ -431,11 +423,9 @@ export default {
       "masked": "We need to ____ before it gets worse.",
       "options": [
         "solve-mcq-01",
-        "solve-mcq-02",
-        "solve-mcq-03",
-        "solve-mcq-04",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-10",
+        "solve-mcq-11",
+        "solve-mcq-05"
       ],
       "explanation": "本句的「solve this problem」指「找到並實施有效方法，使困難得到處理或消除」。",
       "sentenceIndex": 2,
@@ -444,12 +434,10 @@ export default {
         "solve this problem"
       ],
       "optionReasons": {
-        "solve-mcq-01": "本句指「找到並實施有效方法，使困難得到處理或消除」。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-01": "本句的「solve this problem」指「找到並實施有效方法，使困難得到處理或消除」。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-01"
     },
@@ -461,11 +449,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "solve-mcq-02",
+        "solve-mcq-11",
         "solve-mcq-01",
-        "solve-mcq-03",
-        "solve-mcq-04",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-10"
       ],
       "explanation": "本句的「solve this puzzle」指「經過思考找出謎題或謎語的正確答案」。",
       "sentenceIndex": 3,
@@ -474,12 +460,10 @@ export default {
         "solve this puzzle"
       ],
       "optionReasons": {
-        "solve-mcq-02": "本句指「經過思考找出謎題或謎語的正確答案」。",
-        "solve-mcq-01": "「找到並實施有效方法，使困難得到處理或消除」是「solve + problem/difficulty（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-02": "本句的「solve this puzzle」指「經過思考找出謎題或謎語的正確答案」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-02"
     },
@@ -491,11 +475,9 @@ export default {
       "masked": "It took me twenty minutes to ____.",
       "options": [
         "solve-mcq-02",
-        "solve-mcq-01",
-        "solve-mcq-03",
-        "solve-mcq-04",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-11",
+        "solve-mcq-10",
+        "solve-mcq-01"
       ],
       "explanation": "本句的「solve the riddle」指「經過思考找出謎題或謎語的正確答案」。",
       "sentenceIndex": 4,
@@ -504,12 +486,10 @@ export default {
         "solve the riddle"
       ],
       "optionReasons": {
-        "solve-mcq-02": "本句指「經過思考找出謎題或謎語的正確答案」。",
-        "solve-mcq-01": "「找到並實施有效方法，使困難得到處理或消除」是「solve + problem/difficulty（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-02": "本句的「solve the riddle」指「經過思考找出謎題或謎語的正確答案」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-02"
     },
@@ -521,11 +501,8 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "solve-mcq-03",
-        "solve-mcq-02",
-        "solve-mcq-04",
-        "solve-mcq-01",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-12",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solve this equation」指「透過數學步驟找出符合方程式條件的未知數值」。",
       "sentenceIndex": 5,
@@ -534,12 +511,9 @@ export default {
         "solve this equation"
       ],
       "optionReasons": {
-        "solve-mcq-03": "本句指「透過數學步驟找出符合方程式條件的未知數值」。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-01": "「找到並實施有效方法，使困難得到處理或消除」是「solve + problem/difficulty（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-03": "本句的「solve this equation」指「透過數學步驟找出符合方程式條件的未知數值」。",
+        "solve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-03"
     },
@@ -551,11 +525,8 @@ export default {
       "masked": "The students learned how to ____.",
       "options": [
         "solve-mcq-03",
-        "solve-mcq-02",
-        "solve-mcq-04",
-        "solve-mcq-01",
-        "solve-mcq-05",
-        "solve-mcq-06"
+        "solve-mcq-08",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solve quadratic equations」指「透過數學步驟找出符合方程式條件的未知數值」。",
       "sentenceIndex": 6,
@@ -564,12 +535,9 @@ export default {
         "solve quadratic equations"
       ],
       "optionReasons": {
-        "solve-mcq-03": "本句指「透過數學步驟找出符合方程式條件的未知數值」。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-01": "「找到並實施有效方法，使困難得到處理或消除」是「solve + problem/difficulty（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-03": "本句的「solve quadratic equations」指「透過數學步驟找出符合方程式條件的未知數值」。",
+        "solve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-03"
     },
@@ -581,11 +549,8 @@ export default {
       "masked": "____.",
       "options": [
         "solve-mcq-04",
-        "solve-mcq-03",
-        "solve-mcq-05",
-        "solve-mcq-02",
-        "solve-mcq-06",
-        "solve-mcq-01"
+        "solve-mcq-13",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「Solve for x」指「計算並找出指定未知數的值」。",
       "sentenceIndex": 7,
@@ -594,12 +559,9 @@ export default {
         "Solve for x"
       ],
       "optionReasons": {
-        "solve-mcq-04": "本句指「計算並找出指定未知數的值」。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-01": "「找到並實施有效方法，使困難得到處理或消除」是「solve + problem/difficulty（問題／困難）」的用法，與本句語境不同。"
+        "solve-mcq-04": "本句的「Solve for x」指「計算並找出指定未知數的值」。",
+        "solve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-04"
     },
@@ -611,11 +573,8 @@ export default {
       "masked": "First, rearrange the equation and then ____.",
       "options": [
         "solve-mcq-04",
-        "solve-mcq-03",
-        "solve-mcq-05",
-        "solve-mcq-02",
-        "solve-mcq-06",
-        "solve-mcq-01"
+        "solve-mcq-11",
+        "solve-mcq-08"
       ],
       "explanation": "本句的「solve for y」指「計算並找出指定未知數的值」。",
       "sentenceIndex": 8,
@@ -624,12 +583,9 @@ export default {
         "solve for y"
       ],
       "optionReasons": {
-        "solve-mcq-04": "本句指「計算並找出指定未知數的值」。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-01": "「找到並實施有效方法，使困難得到處理或消除」是「solve + problem/difficulty（問題／困難）」的用法，與本句語境不同。"
+        "solve-mcq-04": "本句的「solve for y」指「計算並找出指定未知數的值」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-04"
     },
@@ -641,11 +597,8 @@ export default {
       "masked": "Scientists are trying to ____.",
       "options": [
         "solve-mcq-05",
-        "solve-mcq-04",
-        "solve-mcq-06",
-        "solve-mcq-03",
-        "solve-mcq-07",
-        "solve-mcq-02"
+        "solve-mcq-08",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solve the mystery」指「找出一件原本不明或神秘事情背後的真正解釋」。",
       "sentenceIndex": 9,
@@ -654,12 +607,9 @@ export default {
         "solve the mystery"
       ],
       "optionReasons": {
-        "solve-mcq-05": "本句指「找出一件原本不明或神秘事情背後的真正解釋」。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。"
+        "solve-mcq-05": "本句的「solve the mystery」指「找出一件原本不明或神秘事情背後的真正解釋」。",
+        "solve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-05"
     },
@@ -671,11 +621,8 @@ export default {
       "masked": "The final clue helped her ____.",
       "options": [
         "solve-mcq-05",
-        "solve-mcq-04",
-        "solve-mcq-06",
-        "solve-mcq-03",
-        "solve-mcq-07",
-        "solve-mcq-02"
+        "solve-mcq-08",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solve the mystery」指「找出一件原本不明或神秘事情背後的真正解釋」。",
       "sentenceIndex": 10,
@@ -684,12 +631,9 @@ export default {
         "solve the mystery"
       ],
       "optionReasons": {
-        "solve-mcq-05": "本句指「找出一件原本不明或神秘事情背後的真正解釋」。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-02": "「經過思考找出謎題或謎語的正確答案」是「solve + puzzle/riddle（謎題／謎語）」的用法，與本句語境不同。"
+        "solve-mcq-05": "本句的「solve the mystery」指「找出一件原本不明或神秘事情背後的真正解釋」。",
+        "solve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-05"
     },
@@ -701,11 +645,8 @@ export default {
       "masked": "Police finally ____.",
       "options": [
         "solve-mcq-06",
-        "solve-mcq-05",
-        "solve-mcq-07",
-        "solve-mcq-04",
-        "solve-mcq-08",
-        "solve-mcq-03"
+        "solve-mcq-11",
+        "solve-mcq-10"
       ],
       "explanation": "本句的「solved the case」指「找出犯案者及案件經過，使案件得到偵破」。",
       "sentenceIndex": 11,
@@ -714,12 +655,9 @@ export default {
         "solved the case"
       ],
       "optionReasons": {
-        "solve-mcq-06": "本句指「找出犯案者及案件經過，使案件得到偵破」。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。"
+        "solve-mcq-06": "本句的「solved the case」指「找出犯案者及案件經過，使案件得到偵破」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-06"
     },
@@ -731,11 +669,8 @@ export default {
       "masked": "New evidence helped detectives ____.",
       "options": [
         "solve-mcq-06",
-        "solve-mcq-05",
-        "solve-mcq-07",
-        "solve-mcq-04",
-        "solve-mcq-08",
-        "solve-mcq-03"
+        "solve-mcq-11",
+        "solve-mcq-10"
       ],
       "explanation": "本句的「solve the crime」指「找出犯案者及案件經過，使案件得到偵破」。",
       "sentenceIndex": 12,
@@ -744,12 +679,9 @@ export default {
         "solve the crime"
       ],
       "optionReasons": {
-        "solve-mcq-06": "本句指「找出犯案者及案件經過，使案件得到偵破」。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-03": "「透過數學步驟找出符合方程式條件的未知數值」是「solve + equation/mathematical problem（方程式／數學題）」的用法，與本句語境不同。"
+        "solve-mcq-06": "本句的「solve the crime」指「找出犯案者及案件經過，使案件得到偵破」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-06"
     },
@@ -761,11 +693,8 @@ export default {
       "masked": "Engineers are working to ____.",
       "options": [
         "solve-mcq-07",
-        "solve-mcq-06",
-        "solve-mcq-08",
-        "solve-mcq-05",
         "solve-mcq-09",
-        "solve-mcq-04"
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solve the battery problem」指「找出並實施方法，使技術故障或限制得到消除」。",
       "sentenceIndex": 13,
@@ -774,12 +703,9 @@ export default {
         "solve the battery problem"
       ],
       "optionReasons": {
-        "solve-mcq-07": "本句指「找出並實施方法，使技術故障或限制得到消除」。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。"
+        "solve-mcq-07": "本句的「solve the battery problem」指「找出並實施方法，使技術故障或限制得到消除」。",
+        "solve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-07"
     },
@@ -791,11 +717,8 @@ export default {
       "masked": "The update ____.",
       "options": [
         "solve-mcq-07",
-        "solve-mcq-06",
-        "solve-mcq-08",
-        "solve-mcq-05",
         "solve-mcq-09",
-        "solve-mcq-04"
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solved several technical issues」指「找出並實施方法，使技術故障或限制得到消除」。",
       "sentenceIndex": 14,
@@ -804,12 +727,9 @@ export default {
         "solved several technical issues"
       ],
       "optionReasons": {
-        "solve-mcq-07": "本句指「找出並實施方法，使技術故障或限制得到消除」。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-04": "「計算並找出指定未知數的值」是「solve for + variable（未知數）」的用法，與本句語境不同。"
+        "solve-mcq-07": "本句的「solved several technical issues」指「找出並實施方法，使技術故障或限制得到消除」。",
+        "solve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-07"
     },
@@ -821,10 +741,7 @@ export default {
       "masked": "Noise-cancelling headphones were a practical ____ to the problem.",
       "options": [
         "solve-mcq-08",
-        "solve-mcq-07",
-        "solve-mcq-09",
-        "solve-mcq-06",
-        "solve-mcq-10",
+        "solve-mcq-11",
         "solve-mcq-05"
       ],
       "explanation": "本句的「solution」指「能夠有效處理、減少或消除某個問題的方法／答案」。",
@@ -834,12 +751,9 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-08": "本句指「能夠有效處理、減少或消除某個問題的方法／答案」。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。"
+        "solve-mcq-08": "本句的「solution」指「能夠有效處理、減少或消除某個問題的方法／答案」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-08"
     },
@@ -851,11 +765,8 @@ export default {
       "masked": "We need to find a long-term ____.",
       "options": [
         "solve-mcq-08",
-        "solve-mcq-07",
-        "solve-mcq-09",
-        "solve-mcq-06",
-        "solve-mcq-10",
-        "solve-mcq-05"
+        "solve-mcq-04",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solution」指「能夠有效處理、減少或消除某個問題的方法／答案」。",
       "sentenceIndex": 16,
@@ -864,12 +775,9 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-08": "本句指「能夠有效處理、減少或消除某個問題的方法／答案」。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-05": "「找出一件原本不明或神秘事情背後的真正解釋」是「solve + mystery（謎團／疑問）」的用法，與本句語境不同。"
+        "solve-mcq-08": "本句的「solution」指「能夠有效處理、減少或消除某個問題的方法／答案」。",
+        "solve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-08"
     },
@@ -881,11 +789,8 @@ export default {
       "masked": "The teacher explained the ____ to the equation.",
       "options": [
         "solve-mcq-09",
-        "solve-mcq-08",
-        "solve-mcq-10",
-        "solve-mcq-07",
-        "solve-mcq-11",
-        "solve-mcq-06"
+        "solve-mcq-16",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solution」指「經過推理或計算後所得的正確答案」。",
       "sentenceIndex": 17,
@@ -894,12 +799,9 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-09": "本句指「經過推理或計算後所得的正確答案」。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-09": "本句的「solution」指「經過推理或計算後所得的正確答案」。",
+        "solve-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-09"
     },
@@ -911,11 +813,8 @@ export default {
       "masked": "There may be more than one possible ____.",
       "options": [
         "solve-mcq-09",
-        "solve-mcq-08",
-        "solve-mcq-10",
-        "solve-mcq-07",
-        "solve-mcq-11",
-        "solve-mcq-06"
+        "solve-mcq-16",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solution」指「經過推理或計算後所得的正確答案」。",
       "sentenceIndex": 18,
@@ -924,12 +823,9 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-09": "本句指「經過推理或計算後所得的正確答案」。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-06": "「找出犯案者及案件經過，使案件得到偵破」是「solve + crime/case（罪案／案件）」的用法，與本句語境不同。"
+        "solve-mcq-09": "本句的「solution」指「經過推理或計算後所得的正確答案」。",
+        "solve-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-09"
     },
@@ -941,11 +837,9 @@ export default {
       "masked": "The company provides cloud-based security ____.",
       "options": [
         "solve-mcq-10",
-        "solve-mcq-09",
-        "solve-mcq-11",
-        "solve-mcq-08",
-        "solve-mcq-12",
-        "solve-mcq-07"
+        "solve-mcq-01",
+        "solve-mcq-05",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solutions」指「為解決某種客戶需求或問題而設計的一套產品、服務或系統」。",
       "sentenceIndex": 19,
@@ -954,12 +848,10 @@ export default {
         "solutions"
       ],
       "optionReasons": {
-        "solve-mcq-10": "本句指「為解決某種客戶需求或問題而設計的一套產品、服務或系統」。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。"
+        "solve-mcq-10": "本句的「solutions」指「為解決某種客戶需求或問題而設計的一套產品、服務或系統」。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-10"
     },
@@ -971,11 +863,9 @@ export default {
       "masked": "We need a more flexible software ____.",
       "options": [
         "solve-mcq-10",
-        "solve-mcq-09",
-        "solve-mcq-11",
-        "solve-mcq-08",
-        "solve-mcq-12",
-        "solve-mcq-07"
+        "solve-mcq-01",
+        "solve-mcq-04",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solution」指「為解決某種客戶需求或問題而設計的一套產品、服務或系統」。",
       "sentenceIndex": 20,
@@ -984,12 +874,10 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-10": "本句指「為解決某種客戶需求或問題而設計的一套產品、服務或系統」。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-07": "「找出並實施方法，使技術故障或限制得到消除」是「solve + technical/scientific issue（技術／科學問題）」的用法，與本句語境不同。"
+        "solve-mcq-10": "本句的「solution」指「為解決某種客戶需求或問題而設計的一套產品、服務或系統」。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-10"
     },
@@ -1001,11 +889,9 @@ export default {
       "masked": "Salt dissolves in water to form a ____.",
       "options": [
         "solve-mcq-11",
-        "solve-mcq-10",
-        "solve-mcq-12",
-        "solve-mcq-09",
-        "solve-mcq-13",
-        "solve-mcq-08"
+        "solve-mcq-02",
+        "solve-mcq-01",
+        "solve-mcq-10"
       ],
       "explanation": "本句的「solution」指「一種物質均勻溶解於另一種物質後形成的混合物」。",
       "sentenceIndex": 21,
@@ -1014,12 +900,10 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-11": "本句指「一種物質均勻溶解於另一種物質後形成的混合物」。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。"
+        "solve-mcq-11": "本句的「solution」指「一種物質均勻溶解於另一種物質後形成的混合物」。",
+        "solve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-11"
     },
@@ -1031,11 +915,8 @@ export default {
       "masked": "The scientist added the chemical ____ slowly.",
       "options": [
         "solve-mcq-11",
-        "solve-mcq-10",
-        "solve-mcq-12",
-        "solve-mcq-09",
-        "solve-mcq-13",
-        "solve-mcq-08"
+        "solve-mcq-14",
+        "solve-mcq-01"
       ],
       "explanation": "本句的「solution」指「一種物質均勻溶解於另一種物質後形成的混合物」。",
       "sentenceIndex": 22,
@@ -1044,12 +925,9 @@ export default {
         "solution"
       ],
       "optionReasons": {
-        "solve-mcq-11": "本句指「一種物質均勻溶解於另一種物質後形成的混合物」。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-08": "「能夠有效處理、減少或消除某個問題的方法／答案」是「solution = answer to a problem（問題／困難）」的用法，與本句語境不同。"
+        "solve-mcq-11": "本句的「solution」指「一種物質均勻溶解於另一種物質後形成的混合物」。",
+        "solve-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-11"
     },
@@ -1061,11 +939,8 @@ export default {
       "masked": "The problem is difficult but ____.",
       "options": [
         "solve-mcq-12",
-        "solve-mcq-11",
-        "solve-mcq-13",
-        "solve-mcq-10",
-        "solve-mcq-14",
-        "solve-mcq-09"
+        "solve-mcq-03",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solvable」指「存在可行方法或答案，可以被成功解決／解答的」。",
       "sentenceIndex": 23,
@@ -1074,12 +949,9 @@ export default {
         "solvable"
       ],
       "optionReasons": {
-        "solve-mcq-12": "本句指「存在可行方法或答案，可以被成功解決／解答的」。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。"
+        "solve-mcq-12": "本句的「solvable」指「存在可行方法或答案，可以被成功解決／解答的」。",
+        "solve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-12"
     },
@@ -1091,11 +963,8 @@ export default {
       "masked": "Not every puzzle is easily ____.",
       "options": [
         "solve-mcq-12",
-        "solve-mcq-11",
-        "solve-mcq-13",
-        "solve-mcq-10",
-        "solve-mcq-14",
-        "solve-mcq-09"
+        "solve-mcq-03",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「solvable」指「存在可行方法或答案，可以被成功解決／解答的」。",
       "sentenceIndex": 24,
@@ -1104,12 +973,9 @@ export default {
         "solvable"
       ],
       "optionReasons": {
-        "solve-mcq-12": "本句指「存在可行方法或答案，可以被成功解決／解答的」。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-09": "「經過推理或計算後所得的正確答案」是「solution = correct answer（題目／謎題／數學）」的用法，與本句語境不同。"
+        "solve-mcq-12": "本句的「solvable」指「存在可行方法或答案，可以被成功解決／解答的」。",
+        "solve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-12"
     },
@@ -1121,11 +987,8 @@ export default {
       "masked": "At first, the problem seemed ____.",
       "options": [
         "solve-mcq-13",
-        "solve-mcq-12",
-        "solve-mcq-14",
-        "solve-mcq-11",
-        "solve-mcq-15",
-        "solve-mcq-10"
+        "solve-mcq-04",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「unsolvable」指「沒有可行解決方法／答案，或以現有條件無法成功解決的」。",
       "sentenceIndex": 25,
@@ -1134,12 +997,9 @@ export default {
         "unsolvable"
       ],
       "optionReasons": {
-        "solve-mcq-13": "本句指「沒有可行解決方法／答案，或以現有條件無法成功解決的」。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-15": "「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」是「problem-solving = process/skill of finding solutions」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。"
+        "solve-mcq-13": "本句的「unsolvable」指「沒有可行解決方法／答案，或以現有條件無法成功解決的」。",
+        "solve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-13"
     },
@@ -1151,11 +1011,8 @@ export default {
       "masked": "The mystery remained ____ for decades.",
       "options": [
         "solve-mcq-13",
-        "solve-mcq-12",
-        "solve-mcq-14",
-        "solve-mcq-11",
-        "solve-mcq-15",
-        "solve-mcq-10"
+        "solve-mcq-04",
+        "solve-mcq-11"
       ],
       "explanation": "本句的「unsolvable」指「沒有可行解決方法／答案，或以現有條件無法成功解決的」。",
       "sentenceIndex": 26,
@@ -1164,12 +1021,9 @@ export default {
         "unsolvable"
       ],
       "optionReasons": {
-        "solve-mcq-13": "本句指「沒有可行解決方法／答案，或以現有條件無法成功解決的」。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。",
-        "solve-mcq-15": "「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」是「problem-solving = process/skill of finding solutions」的用法，與本句語境不同。",
-        "solve-mcq-10": "「為解決某種客戶需求或問題而設計的一套產品、服務或系統」是「solution = product/service offered to meet a need（商業／科技）」的用法，與本句語境不同。"
+        "solve-mcq-13": "本句的「unsolvable」指「沒有可行解決方法／答案，或以現有條件無法成功解決的」。",
+        "solve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-13"
     },
@@ -1181,11 +1035,8 @@ export default {
       "masked": "She is an excellent problem ____.",
       "options": [
         "solve-mcq-14",
-        "solve-mcq-13",
-        "solve-mcq-15",
-        "solve-mcq-12",
-        "solve-mcq-16",
-        "solve-mcq-11"
+        "solve-mcq-11",
+        "solve-mcq-01"
       ],
       "explanation": "本句的「solver」指「能夠找出問題、謎題或方程式答案的人、程式或工具」。",
       "sentenceIndex": 27,
@@ -1194,12 +1045,9 @@ export default {
         "solver"
       ],
       "optionReasons": {
-        "solve-mcq-14": "本句指「能夠找出問題、謎題或方程式答案的人、程式或工具」。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-15": "「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」是「problem-solving = process/skill of finding solutions」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-16": "「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」是「solution-oriented = focused on finding ways to solve problems」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。"
+        "solve-mcq-14": "本句的「solver」指「能夠找出問題、謎題或方程式答案的人、程式或工具」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-14"
     },
@@ -1211,11 +1059,8 @@ export default {
       "masked": "The software includes an equation ____.",
       "options": [
         "solve-mcq-14",
-        "solve-mcq-13",
-        "solve-mcq-15",
-        "solve-mcq-12",
-        "solve-mcq-16",
-        "solve-mcq-11"
+        "solve-mcq-11",
+        "solve-mcq-01"
       ],
       "explanation": "本句的「solver」指「能夠找出問題、謎題或方程式答案的人、程式或工具」。",
       "sentenceIndex": 28,
@@ -1224,12 +1069,9 @@ export default {
         "solver"
       ],
       "optionReasons": {
-        "solve-mcq-14": "本句指「能夠找出問題、謎題或方程式答案的人、程式或工具」。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-15": "「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」是「problem-solving = process/skill of finding solutions」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-16": "「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」是「solution-oriented = focused on finding ways to solve problems」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。"
+        "solve-mcq-14": "本句的「solver」指「能夠找出問題、謎題或方程式答案的人、程式或工具」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-14"
     },
@@ -1241,11 +1083,8 @@ export default {
       "masked": "The job requires strong ____.",
       "options": [
         "solve-mcq-15",
-        "solve-mcq-14",
-        "solve-mcq-16",
-        "solve-mcq-13",
-        "solve-mcq-12",
-        "solve-mcq-11"
+        "solve-mcq-11",
+        "solve-mcq-09"
       ],
       "explanation": "本句的「problem-solving skills」指「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」。",
       "sentenceIndex": 29,
@@ -1254,12 +1093,9 @@ export default {
         "problem-solving skills"
       ],
       "optionReasons": {
-        "solve-mcq-15": "本句指「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-16": "「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」是「solution-oriented = focused on finding ways to solve problems」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。"
+        "solve-mcq-15": "本句的「problem-solving skills」指「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-15"
     },
@@ -1271,11 +1107,8 @@ export default {
       "masked": "The exercise develops logical ____.",
       "options": [
         "solve-mcq-15",
-        "solve-mcq-14",
-        "solve-mcq-16",
-        "solve-mcq-13",
-        "solve-mcq-12",
-        "solve-mcq-11"
+        "solve-mcq-11",
+        "solve-mcq-09"
       ],
       "explanation": "本句的「problem-solving」指「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」。",
       "sentenceIndex": 30,
@@ -1284,12 +1117,9 @@ export default {
         "problem-solving"
       ],
       "optionReasons": {
-        "solve-mcq-15": "本句指「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-16": "「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」是「solution-oriented = focused on finding ways to solve problems」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。"
+        "solve-mcq-15": "本句的「problem-solving」指「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-15"
     },
@@ -1301,10 +1131,7 @@ export default {
       "masked": "She takes a ____ approach.",
       "options": [
         "solve-mcq-16",
-        "solve-mcq-15",
-        "solve-mcq-14",
-        "solve-mcq-13",
-        "solve-mcq-12",
+        "solve-mcq-09",
         "solve-mcq-11"
       ],
       "explanation": "本句的「solution-oriented」指「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」。",
@@ -1314,12 +1141,9 @@ export default {
         "solution-oriented"
       ],
       "optionReasons": {
-        "solve-mcq-16": "本句指「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」。",
-        "solve-mcq-15": "「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」是「problem-solving = process/skill of finding solutions」的用法，與本句語境不同。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。"
+        "solve-mcq-16": "本句的「solution-oriented」指「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」。",
+        "solve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-16"
     },
@@ -1331,10 +1155,7 @@ export default {
       "masked": "Good managers should be practical and ____.",
       "options": [
         "solve-mcq-16",
-        "solve-mcq-15",
-        "solve-mcq-14",
-        "solve-mcq-13",
-        "solve-mcq-12",
+        "solve-mcq-09",
         "solve-mcq-11"
       ],
       "explanation": "本句的「solution-oriented」指「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」。",
@@ -1344,12 +1165,9 @@ export default {
         "solution-oriented"
       ],
       "optionReasons": {
-        "solve-mcq-16": "本句指「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」。",
-        "solve-mcq-15": "「分析問題、找出原因、比較可能方法並找到有效解決方案的過程／能力」是「problem-solving = process/skill of finding solutions」的用法，與本句語境不同。",
-        "solve-mcq-14": "「能夠找出問題、謎題或方程式答案的人、程式或工具」是「solver = person/system that solves something」的用法，與本句語境不同。",
-        "solve-mcq-13": "「沒有可行解決方法／答案，或以現有條件無法成功解決的」是「unsolvable = impossible or extremely difficult to solve」的用法，與本句語境不同。",
-        "solve-mcq-12": "「存在可行方法或答案，可以被成功解決／解答的」是「solvable = capable of being solved（問題／題目）」的用法，與本句語境不同。",
-        "solve-mcq-11": "「一種物質均勻溶解於另一種物質後形成的混合物」是「solution（化學）」的用法，與本句語境不同。"
+        "solve-mcq-16": "本句的「solution-oriented」指「遇到問題時主要著眼於找出可行解決方法，而不是只停留在問題本身」。",
+        "solve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solve-mcq-16"
     }
@@ -1361,5 +1179,7 @@ export default {
     "sha256": "e8aa69cf889f3c1235108c9ef5245ca11ab043e7bf2a8880894af57dbff924c8",
     "pages": 15
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

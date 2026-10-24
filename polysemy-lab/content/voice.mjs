@@ -132,7 +132,7 @@ export default {
     },
     {
       "id": "voice-mcq-06",
-      "title": "表示主語與動作關係的語法範疇，如主動／被動語態",
+      "title": "主語與動作關係的語法範疇，如主動／被動語態",
       "form": "voice — grammar",
       "en": "voice — grammar",
       "zh": "表示主語與動作關係的語法範疇，如主動／被動語態",
@@ -318,16 +318,6 @@ export default {
           "She recorded the voice-over at home.",
           "她在家錄製了旁白。",
           "說話者不直接出現在畫面中時播放的旁白錄音"
-        ],
-        [
-          "The phone uses voice recognition.",
-          "這部手機使用語音／聲紋識別技術。",
-          "說話者不直接出現在畫面中時播放的旁白錄音"
-        ],
-        [
-          "Voice recognition software can identify spoken commands.",
-          "語音識別軟件可以識別口頭指令。",
-          "說話者不直接出現在畫面中時播放的旁白錄音"
         ]
       ],
       "options": [],
@@ -398,6 +388,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "voice-reviewed-a11338015f",
+      "title": "語音／聲紋識別",
+      "form": "voice · source section 21",
+      "en": "語音／聲紋識別",
+      "zh": "語音／聲紋識別",
+      "note": "對照原始教材第 21 節及例句核實。",
+      "examples": [
+        [
+          "The phone uses voice recognition.",
+          "這部手機使用語音／聲紋識別技術。",
+          "語音／聲紋識別"
+        ],
+        [
+          "Voice recognition software can identify spoken commands.",
+          "語音識別軟件可以識別口頭指令。",
+          "語音／聲紋識別"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -409,10 +421,7 @@ export default {
       "masked": "Some people criticised my ____.",
       "options": [
         "voice-mcq-01",
-        "voice-mcq-02",
-        "voice-mcq-03",
-        "voice-mcq-04",
-        "voice-mcq-05",
+        "voice-mcq-13",
         "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「一個人說話時產生、具有個人特色的聲音」。",
@@ -422,12 +431,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-01": "本句指「一個人說話時產生、具有個人特色的聲音」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-01": "本句的「voice」指「一個人說話時產生、具有個人特色的聲音」。",
+        "voice-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-01"
     },
@@ -439,10 +445,7 @@ export default {
       "masked": "I recognised her ____ immediately.",
       "options": [
         "voice-mcq-01",
-        "voice-mcq-02",
         "voice-mcq-03",
-        "voice-mcq-04",
-        "voice-mcq-05",
         "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「一個人說話時產生、具有個人特色的聲音」。",
@@ -452,12 +455,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-01": "本句指「一個人說話時產生、具有個人特色的聲音」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-01": "本句的「voice」指「一個人說話時產生、具有個人特色的聲音」。",
+        "voice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-01"
     },
@@ -469,10 +469,7 @@ export default {
       "masked": "His ____ became quieter.",
       "options": [
         "voice-mcq-01",
-        "voice-mcq-02",
-        "voice-mcq-03",
-        "voice-mcq-04",
-        "voice-mcq-05",
+        "voice-pdf-002",
         "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「一個人說話時產生、具有個人特色的聲音」。",
@@ -482,12 +479,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-01": "本句指「一個人說話時產生、具有個人特色的聲音」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-01": "本句的「voice」指「一個人說話時產生、具有個人特色的聲音」。",
+        "voice-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-01"
     },
@@ -499,11 +493,9 @@ export default {
       "masked": "She has a beautiful ____.",
       "options": [
         "voice-mcq-02",
-        "voice-mcq-01",
         "voice-mcq-03",
-        "voice-mcq-04",
-        "voice-mcq-05",
-        "voice-mcq-06"
+        "voice-mcq-06",
+        "voice-mcq-14"
       ],
       "explanation": "本句的「voice」指「一個人唱歌時的嗓音及發聲能力」。",
       "sentenceIndex": 3,
@@ -512,12 +504,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-02": "本句指「一個人唱歌時的嗓音及發聲能力」。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-02": "本句的「voice」指「一個人唱歌時的嗓音及發聲能力」。",
+        "voice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-02"
     },
@@ -529,11 +519,9 @@ export default {
       "masked": "He trained his ____ for years.",
       "options": [
         "voice-mcq-02",
-        "voice-mcq-01",
-        "voice-mcq-03",
-        "voice-mcq-04",
-        "voice-mcq-05",
-        "voice-mcq-06"
+        "voice-mcq-09",
+        "voice-mcq-06",
+        "voice-mcq-14"
       ],
       "explanation": "本句的「voice」指「一個人唱歌時的嗓音及發聲能力」。",
       "sentenceIndex": 4,
@@ -542,12 +530,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-02": "本句指「一個人唱歌時的嗓音及發聲能力」。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-02": "本句的「voice」指「一個人唱歌時的嗓音及發聲能力」。",
+        "voice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-02"
     },
@@ -559,10 +545,8 @@ export default {
       "masked": "Students should have a ____ in school decisions.",
       "options": [
         "voice-mcq-03",
-        "voice-mcq-02",
-        "voice-mcq-04",
-        "voice-mcq-01",
-        "voice-mcq-05",
+        "voice-mcq-12",
+        "voice-mcq-14",
         "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
@@ -572,12 +556,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-03": "本句指「公開表達自己意見、需要或立場的機會／權利」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-03": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
+        "voice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-03"
     },
@@ -589,10 +571,8 @@ export default {
       "masked": "Social media gives young people a ____.",
       "options": [
         "voice-mcq-03",
-        "voice-mcq-02",
-        "voice-mcq-04",
-        "voice-mcq-01",
-        "voice-mcq-05",
+        "voice-mcq-14",
+        "voice-mcq-11",
         "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
@@ -602,12 +582,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-03": "本句指「公開表達自己意見、需要或立場的機會／權利」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-03": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-03"
     },
@@ -620,10 +598,8 @@ export default {
       "options": [
         "voice-mcq-03",
         "voice-mcq-02",
-        "voice-mcq-04",
-        "voice-mcq-01",
-        "voice-mcq-05",
-        "voice-mcq-06"
+        "voice-mcq-06",
+        "voice-mcq-14"
       ],
       "explanation": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
       "sentenceIndex": 7,
@@ -632,12 +608,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-03": "本句指「公開表達自己意見、需要或立場的機會／權利」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-03": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
+        "voice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-03"
     },
@@ -649,11 +623,8 @@ export default {
       "masked": "The organisation gives vulnerable people a ____.",
       "options": [
         "voice-mcq-03",
-        "voice-mcq-02",
-        "voice-mcq-04",
-        "voice-mcq-01",
-        "voice-mcq-05",
-        "voice-mcq-06"
+        "voice-mcq-06",
+        "voice-mcq-01"
       ],
       "explanation": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
       "sentenceIndex": 8,
@@ -662,12 +633,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-03": "本句指「公開表達自己意見、需要或立場的機會／權利」。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-03": "本句的「voice」指「公開表達自己意見、需要或立場的機會／權利」。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-03"
     },
@@ -679,11 +647,9 @@ export default {
       "masked": "Parents want a greater ____ in education policy.",
       "options": [
         "voice-mcq-04",
-        "voice-mcq-03",
-        "voice-mcq-05",
-        "voice-mcq-02",
-        "voice-mcq-06",
-        "voice-mcq-01"
+        "voice-mcq-09",
+        "voice-mcq-10",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「在共同決策中影響結果的發言權／話語權」。",
       "sentenceIndex": 9,
@@ -692,12 +658,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-04": "本句指「在共同決策中影響結果的發言權／話語權」。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。"
+        "voice-mcq-04": "本句的「voice」指「在共同決策中影響結果的發言權／話語權」。",
+        "voice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-04"
     },
@@ -709,11 +673,9 @@ export default {
       "masked": "Employees have little ____ in how the company is run.",
       "options": [
         "voice-mcq-04",
-        "voice-mcq-03",
-        "voice-mcq-05",
-        "voice-mcq-02",
-        "voice-mcq-06",
-        "voice-mcq-01"
+        "voice-pdf-001",
+        "voice-reviewed-a11338015f",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「在共同決策中影響結果的發言權／話語權」。",
       "sentenceIndex": 10,
@@ -722,12 +684,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-04": "本句指「在共同決策中影響結果的發言權／話語權」。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-01": "「一個人說話時產生、具有個人特色的聲音」與本句語境不同。"
+        "voice-mcq-04": "本句的「voice」指「在共同決策中影響結果的發言權／話語權」。",
+        "voice-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "voice-reviewed-a11338015f": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-04"
     },
@@ -739,11 +699,9 @@ export default {
       "masked": "The writer has a very distinctive ____.",
       "options": [
         "voice-mcq-05",
+        "voice-mcq-11",
         "voice-mcq-04",
-        "voice-mcq-06",
-        "voice-mcq-03",
-        "voice-mcq-07",
-        "voice-mcq-02"
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
       "sentenceIndex": 11,
@@ -752,12 +710,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-05": "本句指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。"
+        "voice-mcq-05": "本句的「voice」指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
+        "voice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-05"
     },
@@ -769,11 +725,9 @@ export default {
       "masked": "It took her years to find her own ____ as a writer.",
       "options": [
         "voice-mcq-05",
-        "voice-mcq-04",
-        "voice-mcq-06",
-        "voice-mcq-03",
-        "voice-mcq-07",
-        "voice-mcq-02"
+        "voice-mcq-02",
+        "voice-mcq-10",
+        "voice-mcq-14"
       ],
       "explanation": "本句的「voice」指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
       "sentenceIndex": 12,
@@ -782,12 +736,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-05": "本句指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。"
+        "voice-mcq-05": "本句的「voice」指「作者在語氣、觀點、選字和風格上形成的獨特表達方式」。",
+        "voice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-05"
     },
@@ -799,11 +751,9 @@ export default {
       "masked": "She gradually ____ as a journalist.",
       "options": [
         "voice-pdf-001",
-        "voice-mcq-04",
-        "voice-mcq-06",
-        "voice-mcq-03",
-        "voice-mcq-07",
-        "voice-mcq-02"
+        "voice-mcq-14",
+        "voice-mcq-02",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「found her voice」指「建立獨特表達風格，或建立表達自己想法的信心」。",
       "sentenceIndex": 13,
@@ -812,12 +762,10 @@ export default {
         "found her voice"
       ],
       "optionReasons": {
-        "voice-pdf-001": "本句指「建立獨特表達風格，或建立表達自己想法的信心」。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。"
+        "voice-pdf-001": "本句的「found her voice」指「建立獨特表達風格，或建立表達自己想法的信心」。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-pdf-001"
     },
@@ -829,11 +777,9 @@ export default {
       "masked": "The experience helped him find his ____.",
       "options": [
         "voice-pdf-001",
-        "voice-mcq-04",
-        "voice-mcq-06",
-        "voice-mcq-03",
-        "voice-mcq-07",
-        "voice-mcq-02"
+        "voice-mcq-02",
+        "voice-mcq-14",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「建立獨特表達風格，或建立表達自己想法的信心」。",
       "sentenceIndex": 14,
@@ -842,12 +788,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-pdf-001": "本句指「建立獨特表達風格，或建立表達自己想法的信心」。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-02": "「一個人唱歌時的嗓音及發聲能力」與本句語境不同。"
+        "voice-pdf-001": "本句的「voice」指「建立獨特表達風格，或建立表達自己想法的信心」。",
+        "voice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-pdf-001"
     },
@@ -859,11 +803,9 @@ export default {
       "masked": "The sentence is written in the passive ____.",
       "options": [
         "voice-mcq-06",
-        "voice-mcq-05",
-        "voice-mcq-07",
-        "voice-mcq-04",
-        "voice-mcq-08",
-        "voice-mcq-03"
+        "voice-pdf-002",
+        "voice-mcq-14",
+        "voice-mcq-02"
       ],
       "explanation": "本句的「voice」指「表示主語與動作關係的語法範疇，如主動／被動語態」。",
       "sentenceIndex": 15,
@@ -872,12 +814,10 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-06": "本句指「表示主語與動作關係的語法範疇，如主動／被動語態」。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。"
+        "voice-mcq-06": "本句的「voice」指「表示主語與動作關係的語法範疇，如主動／被動語態」。",
+        "voice-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-06"
     },
@@ -889,10 +829,7 @@ export default {
       "masked": "Change the verb from active ____ to passive voice.",
       "options": [
         "voice-mcq-06",
-        "voice-mcq-05",
-        "voice-mcq-07",
-        "voice-mcq-04",
-        "voice-mcq-08",
+        "voice-mcq-01",
         "voice-mcq-03"
       ],
       "explanation": "本句的「voice」指「表示主語與動作關係的語法範疇，如主動／被動語態」。",
@@ -902,12 +839,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-06": "本句指「表示主語與動作關係的語法範疇，如主動／被動語態」。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-03": "「公開表達自己意見、需要或立場的機會／權利」與本句語境不同。"
+        "voice-mcq-06": "本句的「voice」指「表示主語與動作關係的語法範疇，如主動／被動語態」。",
+        "voice-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-06"
     },
@@ -919,11 +853,7 @@ export default {
       "masked": "She became an important ____ in the debate.",
       "options": [
         "voice-mcq-07",
-        "voice-mcq-06",
-        "voice-mcq-08",
-        "voice-mcq-05",
-        "voice-mcq-09",
-        "voice-mcq-04"
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「代表某種群體、觀點或立場的發言人物／聲音」。",
       "sentenceIndex": 17,
@@ -932,12 +862,8 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-07": "本句指「代表某種群體、觀點或立場的發言人物／聲音」。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。"
+        "voice-mcq-07": "本句的「voice」指「代表某種群體、觀點或立場的發言人物／聲音」。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-07"
     },
@@ -949,11 +875,7 @@ export default {
       "masked": "The newspaper presents ____ from across the community.",
       "options": [
         "voice-mcq-07",
-        "voice-mcq-06",
-        "voice-mcq-08",
-        "voice-mcq-05",
-        "voice-mcq-09",
-        "voice-mcq-04"
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voices」指「代表某種群體、觀點或立場的發言人物／聲音」。",
       "sentenceIndex": 18,
@@ -962,12 +884,8 @@ export default {
         "voices"
       ],
       "optionReasons": {
-        "voice-mcq-07": "本句指「代表某種群體、觀點或立場的發言人物／聲音」。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-04": "「在共同決策中影響結果的發言權／話語權」與本句語境不同。"
+        "voice-mcq-07": "本句的「voices」指「代表某種群體、觀點或立場的發言人物／聲音」。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-07"
     },
@@ -979,11 +897,8 @@ export default {
       "masked": "A quiet ____ in my head told me to stop checking the numbers.",
       "options": [
         "voice-mcq-08",
-        "voice-mcq-07",
-        "voice-mcq-09",
-        "voice-mcq-06",
-        "voice-mcq-10",
-        "voice-mcq-05"
+        "voice-reviewed-a11338015f",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「內心像說話一樣出現的想法、直覺或自我對話」。",
       "sentenceIndex": 19,
@@ -992,12 +907,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-08": "本句指「內心像說話一樣出現的想法、直覺或自我對話」。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。"
+        "voice-mcq-08": "本句的「voice」指「內心像說話一樣出現的想法、直覺或自我對話」。",
+        "voice-reviewed-a11338015f": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-08"
     },
@@ -1009,11 +921,8 @@ export default {
       "masked": "She listened to her inner ____.",
       "options": [
         "voice-mcq-08",
-        "voice-mcq-07",
-        "voice-mcq-09",
-        "voice-mcq-06",
-        "voice-mcq-10",
-        "voice-mcq-05"
+        "voice-reviewed-a11338015f",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voice」指「內心像說話一樣出現的想法、直覺或自我對話」。",
       "sentenceIndex": 20,
@@ -1022,12 +931,9 @@ export default {
         "voice"
       ],
       "optionReasons": {
-        "voice-mcq-08": "本句指「內心像說話一樣出現的想法、直覺或自我對話」。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-05": "「作者在語氣、觀點、選字和風格上形成的獨特表達方式」與本句語境不同。"
+        "voice-mcq-08": "本句的「voice」指「內心像說話一樣出現的想法、直覺或自我對話」。",
+        "voice-reviewed-a11338015f": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-08"
     },
@@ -1039,11 +945,9 @@ export default {
       "masked": "Several students ____ their concerns.",
       "options": [
         "voice-mcq-09",
-        "voice-mcq-08",
-        "voice-mcq-10",
-        "voice-mcq-07",
-        "voice-mcq-11",
-        "voice-mcq-06"
+        "voice-mcq-02",
+        "voice-mcq-06",
+        "voice-mcq-10"
       ],
       "explanation": "本句的「voiced」指「把意見、擔憂、反對等明確表達出來」。",
       "sentenceIndex": 21,
@@ -1052,12 +956,10 @@ export default {
         "voiced"
       ],
       "optionReasons": {
-        "voice-mcq-09": "本句指「把意見、擔憂、反對等明確表達出來」。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-09": "本句的「voiced」指「把意見、擔憂、反對等明確表達出來」。",
+        "voice-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-09"
     },
@@ -1069,11 +971,9 @@ export default {
       "masked": "She ____ her disagreement calmly.",
       "options": [
         "voice-mcq-09",
-        "voice-mcq-08",
-        "voice-mcq-10",
-        "voice-mcq-07",
-        "voice-mcq-11",
-        "voice-mcq-06"
+        "voice-mcq-12",
+        "voice-mcq-06",
+        "voice-mcq-04"
       ],
       "explanation": "本句的「voiced」指「把意見、擔憂、反對等明確表達出來」。",
       "sentenceIndex": 22,
@@ -1082,12 +982,10 @@ export default {
         "voiced"
       ],
       "optionReasons": {
-        "voice-mcq-09": "本句指「把意見、擔憂、反對等明確表達出來」。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-mcq-09": "本句的「voiced」指「把意見、擔憂、反對等明確表達出來」。",
+        "voice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-09"
     },
@@ -1099,11 +997,9 @@ export default {
       "masked": "Many parents ____ for the proposal.",
       "options": [
         "voice-pdf-002",
-        "voice-mcq-08",
-        "voice-mcq-10",
-        "voice-mcq-07",
+        "voice-mcq-06",
         "voice-mcq-11",
-        "voice-mcq-06"
+        "voice-mcq-14"
       ],
       "explanation": "本句的「voiced support」指「公開／明確表達某種立場或情緒」。",
       "sentenceIndex": 23,
@@ -1112,12 +1008,10 @@ export default {
         "voiced support"
       ],
       "optionReasons": {
-        "voice-pdf-002": "本句指「公開／明確表達某種立場或情緒」。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-pdf-002": "本句的「voiced support」指「公開／明確表達某種立場或情緒」。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-pdf-002"
     },
@@ -1129,11 +1023,9 @@ export default {
       "masked": "Residents ____ strong opposition to the plan.",
       "options": [
         "voice-pdf-002",
-        "voice-mcq-08",
-        "voice-mcq-10",
-        "voice-mcq-07",
-        "voice-mcq-11",
-        "voice-mcq-06"
+        "voice-mcq-06",
+        "voice-mcq-14",
+        "voice-mcq-11"
       ],
       "explanation": "本句的「voiced」指「公開／明確表達某種立場或情緒」。",
       "sentenceIndex": 24,
@@ -1142,12 +1034,10 @@ export default {
         "voiced"
       ],
       "optionReasons": {
-        "voice-pdf-002": "本句指「公開／明確表達某種立場或情緒」。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-06": "「表示主語與動作關係的語法範疇，如主動／被動語態」與本句語境不同。"
+        "voice-pdf-002": "本句的「voiced」指「公開／明確表達某種立場或情緒」。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-pdf-002"
     },
@@ -1159,11 +1049,9 @@ export default {
       "masked": "She ____ the main character in the animation.",
       "options": [
         "voice-mcq-10",
-        "voice-mcq-09",
-        "voice-mcq-11",
-        "voice-mcq-08",
-        "voice-mcq-12",
-        "voice-mcq-07"
+        "voice-mcq-04",
+        "voice-mcq-05",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voiced」指「用自己的聲音替動畫／遊戲角色說台詞」。",
       "sentenceIndex": 25,
@@ -1172,12 +1060,10 @@ export default {
         "voiced"
       ],
       "optionReasons": {
-        "voice-mcq-10": "本句指「用自己的聲音替動畫／遊戲角色說台詞」。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。"
+        "voice-mcq-10": "本句的「voiced」指「用自己的聲音替動畫／遊戲角色說台詞」。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-10"
     },
@@ -1189,11 +1075,9 @@ export default {
       "masked": "The actor ____ several characters in the game.",
       "options": [
         "voice-mcq-10",
-        "voice-mcq-09",
-        "voice-mcq-11",
-        "voice-mcq-08",
-        "voice-mcq-12",
-        "voice-mcq-07"
+        "voice-mcq-05",
+        "voice-mcq-04",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voices」指「用自己的聲音替動畫／遊戲角色說台詞」。",
       "sentenceIndex": 26,
@@ -1202,12 +1086,10 @@ export default {
         "voices"
       ],
       "optionReasons": {
-        "voice-mcq-10": "本句指「用自己的聲音替動畫／遊戲角色說台詞」。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-07": "「代表某種群體、觀點或立場的發言人物／聲音」與本句語境不同。"
+        "voice-mcq-10": "本句的「voices」指「用自己的聲音替動畫／遊戲角色說台詞」。",
+        "voice-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-10"
     },
@@ -1219,11 +1101,9 @@ export default {
       "masked": "/z/ is a ____ sound.",
       "options": [
         "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-12",
-        "voice-mcq-09",
-        "voice-mcq-13",
-        "voice-mcq-08"
+        "voice-mcq-03",
+        "voice-mcq-06",
+        "voice-mcq-04"
       ],
       "explanation": "本句的「voiced」指「發音時聲帶振動的」。",
       "sentenceIndex": 28,
@@ -1232,12 +1112,10 @@ export default {
         "voiced"
       ],
       "optionReasons": {
-        "voice-mcq-11": "本句指「發音時聲帶振動的」。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。"
+        "voice-mcq-11": "本句的「voiced」指「發音時聲帶振動的」。",
+        "voice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-11"
     },
@@ -1249,11 +1127,9 @@ export default {
       "masked": "____ consonants involve vibration of the vocal cords.",
       "options": [
         "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-12",
-        "voice-mcq-09",
-        "voice-mcq-13",
-        "voice-mcq-08"
+        "voice-pdf-002",
+        "voice-mcq-04",
+        "voice-mcq-06"
       ],
       "explanation": "本句的「Voiced」指「發音時聲帶振動的」。",
       "sentenceIndex": 29,
@@ -1262,12 +1138,10 @@ export default {
         "Voiced"
       ],
       "optionReasons": {
-        "voice-mcq-11": "本句指「發音時聲帶振動的」。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-08": "「內心像說話一樣出現的想法、直覺或自我對話」與本句語境不同。"
+        "voice-mcq-11": "本句的「Voiced」指「發音時聲帶振動的」。",
+        "voice-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-11"
     },
@@ -1279,11 +1153,9 @@ export default {
       "masked": "The organisation speaks for the ____.",
       "options": [
         "voice-pdf-003",
-        "voice-mcq-11",
-        "voice-mcq-13",
-        "voice-mcq-10",
-        "voice-mcq-14",
-        "voice-mcq-09"
+        "voice-mcq-12",
+        "voice-mcq-06",
+        "voice-mcq-14"
       ],
       "explanation": "本句的「voiceless」指「難以讓自己意見被聽見、缺乏影響力的」。",
       "sentenceIndex": 30,
@@ -1292,12 +1164,10 @@ export default {
         "voiceless"
       ],
       "optionReasons": {
-        "voice-pdf-003": "本句指「難以讓自己意見被聽見、缺乏影響力的」。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-pdf-003": "本句的「voiceless」指「難以讓自己意見被聽見、缺乏影響力的」。",
+        "voice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-pdf-003"
     },
@@ -1309,11 +1179,9 @@ export default {
       "masked": "Many people felt ____ in the system.",
       "options": [
         "voice-pdf-003",
-        "voice-mcq-11",
-        "voice-mcq-13",
-        "voice-mcq-10",
+        "voice-mcq-12",
         "voice-mcq-14",
-        "voice-mcq-09"
+        "voice-mcq-06"
       ],
       "explanation": "本句的「voiceless」指「難以讓自己意見被聽見、缺乏影響力的」。",
       "sentenceIndex": 31,
@@ -1322,12 +1190,10 @@ export default {
         "voiceless"
       ],
       "optionReasons": {
-        "voice-pdf-003": "本句指「難以讓自己意見被聽見、缺乏影響力的」。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-pdf-003": "本句的「voiceless」指「難以讓自己意見被聽見、缺乏影響力的」。",
+        "voice-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-pdf-003"
     },
@@ -1339,11 +1205,9 @@ export default {
       "masked": "/s/ is a ____ consonant.",
       "options": [
         "voice-mcq-12",
-        "voice-mcq-11",
-        "voice-mcq-13",
-        "voice-mcq-10",
-        "voice-mcq-14",
-        "voice-mcq-09"
+        "voice-mcq-03",
+        "voice-mcq-06",
+        "voice-mcq-04"
       ],
       "explanation": "本句的「voiceless」指「發音時聲帶不振動的」。",
       "sentenceIndex": 32,
@@ -1352,12 +1216,10 @@ export default {
         "voiceless"
       ],
       "optionReasons": {
-        "voice-mcq-12": "本句指「發音時聲帶不振動的」。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-mcq-12": "本句的「voiceless」指「發音時聲帶不振動的」。",
+        "voice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-12"
     },
@@ -1369,11 +1231,9 @@ export default {
       "masked": "Your vocal cords do not vibrate for ____ sounds.",
       "options": [
         "voice-mcq-12",
-        "voice-mcq-11",
-        "voice-mcq-13",
-        "voice-mcq-10",
-        "voice-mcq-14",
-        "voice-mcq-09"
+        "voice-pdf-001",
+        "voice-mcq-06",
+        "voice-mcq-04"
       ],
       "explanation": "本句的「voiceless」指「發音時聲帶不振動的」。",
       "sentenceIndex": 33,
@@ -1382,12 +1242,10 @@ export default {
         "voiceless"
       ],
       "optionReasons": {
-        "voice-mcq-12": "本句指「發音時聲帶不振動的」。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-mcq-12": "本句的「voiceless」指「發音時聲帶不振動的」。",
+        "voice-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-12"
     },
@@ -1399,11 +1257,9 @@ export default {
       "masked": "She has been very ____ about online safety.",
       "options": [
         "voice-mcq-13",
-        "voice-mcq-12",
-        "voice-mcq-14",
-        "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-09"
+        "voice-reviewed-a11338015f",
+        "voice-mcq-06",
+        "voice-mcq-14"
       ],
       "explanation": "本句的「vocal」指「願意公開而強烈表達自己意見的」。",
       "sentenceIndex": 35,
@@ -1412,12 +1268,10 @@ export default {
         "vocal"
       ],
       "optionReasons": {
-        "voice-mcq-13": "本句指「願意公開而強烈表達自己意見的」。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-14": "「說話者不直接出現在畫面中時播放的旁白錄音」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-mcq-13": "本句的「vocal」指「願意公開而強烈表達自己意見的」。",
+        "voice-reviewed-a11338015f": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-13"
     },
@@ -1429,11 +1283,9 @@ export default {
       "masked": "The video uses a humorous ____.",
       "options": [
         "voice-mcq-14",
-        "voice-mcq-13",
-        "voice-mcq-12",
-        "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-09"
+        "voice-mcq-03",
+        "voice-mcq-06",
+        "voice-reviewed-a11338015f"
       ],
       "explanation": "本句的「voice-over」指「說話者不直接出現在畫面中時播放的旁白錄音」。",
       "sentenceIndex": 36,
@@ -1442,12 +1294,10 @@ export default {
         "voice-over"
       ],
       "optionReasons": {
-        "voice-mcq-14": "本句指「說話者不直接出現在畫面中時播放的旁白錄音」。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-mcq-14": "本句的「voice-over」指「說話者不直接出現在畫面中時播放的旁白錄音」。",
+        "voice-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-reviewed-a11338015f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-14"
     },
@@ -1459,11 +1309,9 @@ export default {
       "masked": "She recorded the ____ at home.",
       "options": [
         "voice-mcq-14",
-        "voice-mcq-13",
-        "voice-mcq-12",
-        "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-09"
+        "voice-pdf-002",
+        "voice-mcq-06",
+        "voice-reviewed-a11338015f"
       ],
       "explanation": "本句的「voice-over」指「說話者不直接出現在畫面中時播放的旁白錄音」。",
       "sentenceIndex": 37,
@@ -1472,74 +1320,66 @@ export default {
         "voice-over"
       ],
       "optionReasons": {
-        "voice-mcq-14": "本句指「說話者不直接出現在畫面中時播放的旁白錄音」。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-mcq-14": "本句的「voice-over」指「說話者不直接出現在畫面中時播放的旁白錄音」。",
+        "voice-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-reviewed-a11338015f": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "voice-mcq-14"
     },
     {
       "id": "voice-21-0",
-      "sense": "voice-mcq-14",
+      "sense": "voice-reviewed-a11338015f",
       "en": "The phone uses voice recognition.",
       "zh": "這部手機使用語音／聲紋識別技術。",
       "masked": "The phone uses ____.",
       "options": [
-        "voice-mcq-14",
-        "voice-mcq-13",
-        "voice-mcq-12",
-        "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-09"
+        "voice-reviewed-a11338015f",
+        "voice-mcq-08",
+        "voice-mcq-06"
       ],
-      "explanation": "本句的「voice recognition」指「說話者不直接出現在畫面中時播放的旁白錄音」。",
+      "explanation": "對照完整句子：「這部手機使用語音／聲紋識別技術。」。這裡的「voice recognition」表示「語音／聲紋識別」。",
       "sentenceIndex": 38,
       "sourcePractice": 42,
       "targets": [
         "voice recognition"
       ],
       "optionReasons": {
-        "voice-mcq-14": "本句指「說話者不直接出現在畫面中時播放的旁白錄音」。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-reviewed-a11338015f": "對照完整句子：「這部手機使用語音／聲紋識別技術。」。這裡的「voice recognition」表示「語音／聲紋識別」。",
+        "voice-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "voice-mcq-14"
+      "correctOption": "voice-reviewed-a11338015f",
+      "previousCorrectOption": "voice-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "voice-21-1",
-      "sense": "voice-mcq-14",
+      "sense": "voice-reviewed-a11338015f",
       "en": "Voice recognition software can identify spoken commands.",
       "zh": "語音識別軟件可以識別口頭指令。",
       "masked": "____ recognition software can identify spoken commands.",
       "options": [
-        "voice-mcq-14",
-        "voice-mcq-13",
-        "voice-mcq-12",
-        "voice-mcq-11",
-        "voice-mcq-10",
-        "voice-mcq-09"
+        "voice-reviewed-a11338015f",
+        "voice-mcq-09",
+        "voice-mcq-06",
+        "voice-mcq-14"
       ],
-      "explanation": "本句的「Voice」指「說話者不直接出現在畫面中時播放的旁白錄音」。",
+      "explanation": "對照完整句子：「語音識別軟件可以識別口頭指令。」。這裡的「Voice」表示「語音／聲紋識別」。",
       "sentenceIndex": 39,
       "sourcePractice": 43,
       "targets": [
         "Voice"
       ],
       "optionReasons": {
-        "voice-mcq-14": "本句指「說話者不直接出現在畫面中時播放的旁白錄音」。",
-        "voice-mcq-13": "「願意公開而強烈表達自己意見的」與本句語境不同。",
-        "voice-mcq-12": "「發音時聲帶不振動的」與本句語境不同。",
-        "voice-mcq-11": "「發音時聲帶振動的」與本句語境不同。",
-        "voice-mcq-10": "「用自己的聲音替動畫／遊戲角色說台詞」與本句語境不同。",
-        "voice-mcq-09": "「把意見、擔憂、反對等明確表達出來」與本句語境不同。"
+        "voice-reviewed-a11338015f": "對照完整句子：「語音識別軟件可以識別口頭指令。」。這裡的「Voice」表示「語音／聲紋識別」。",
+        "voice-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "voice-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "voice-mcq-14"
+      "correctOption": "voice-reviewed-a11338015f",
+      "previousCorrectOption": "voice-mcq-14",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1549,5 +1389,7 @@ export default {
     "sha256": "af52e8ea0c4bc3a59bbd8aa29ba06c81692f6297121a64ad6055e3d735e1e438",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

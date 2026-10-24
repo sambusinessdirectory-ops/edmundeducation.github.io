@@ -403,11 +403,9 @@ export default {
       "masked": "The towel ____ the water.",
       "options": [
         "absorb-mcq-01",
-        "absorb-mcq-02",
-        "absorb-mcq-03",
         "absorb-mcq-04",
-        "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-10",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorbed」指「把液體、氣體或物質吸入／納入自身內部」。",
       "sentenceIndex": 0,
@@ -416,12 +414,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-01": "本句指「把液體、氣體或物質吸入／納入自身內部」。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-01": "本句的「absorbed」指「把液體、氣體或物質吸入／納入自身內部」。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-01"
     },
@@ -433,11 +429,9 @@ export default {
       "masked": "Dry soil quickly ____ rainwater.",
       "options": [
         "absorb-mcq-01",
-        "absorb-mcq-02",
-        "absorb-mcq-03",
         "absorb-mcq-04",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorbs」指「把液體、氣體或物質吸入／納入自身內部」。",
       "sentenceIndex": 1,
@@ -446,12 +440,10 @@ export default {
         "absorbs"
       ],
       "optionReasons": {
-        "absorb-mcq-01": "本句指「把液體、氣體或物質吸入／納入自身內部」。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-01": "本句的「absorbs」指「把液體、氣體或物質吸入／納入自身內部」。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-01"
     },
@@ -463,11 +455,9 @@ export default {
       "masked": "The material can ____ large amounts of moisture.",
       "options": [
         "absorb-mcq-01",
-        "absorb-mcq-02",
-        "absorb-mcq-03",
-        "absorb-mcq-04",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-10",
+        "absorb-mcq-04"
       ],
       "explanation": "本句的「absorb」指「把液體、氣體或物質吸入／納入自身內部」。",
       "sentenceIndex": 2,
@@ -476,12 +466,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-01": "本句指「把液體、氣體或物質吸入／納入自身內部」。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-01": "本句的「absorb」指「把液體、氣體或物質吸入／納入自身內部」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-01"
     },
@@ -493,11 +481,9 @@ export default {
       "masked": "The intestine ____ nutrients from food.",
       "options": [
         "absorb-mcq-02",
-        "absorb-mcq-01",
-        "absorb-mcq-03",
-        "absorb-mcq-04",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-04",
+        "absorb-pdf-001"
       ],
       "explanation": "本句的「absorbs」指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
       "sentenceIndex": 3,
@@ -506,12 +492,10 @@ export default {
         "absorbs"
       ],
       "optionReasons": {
-        "absorb-mcq-02": "本句指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-02": "本句的「absorbs」指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-02"
     },
@@ -523,11 +507,9 @@ export default {
       "masked": "Plant roots ____ water and minerals from the soil.",
       "options": [
         "absorb-mcq-02",
-        "absorb-mcq-01",
-        "absorb-mcq-03",
-        "absorb-mcq-04",
-        "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-11",
+        "absorb-pdf-001",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorb」指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
       "sentenceIndex": 4,
@@ -536,12 +518,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-02": "本句指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-02": "本句的「absorb」指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-02"
     },
@@ -553,11 +533,9 @@ export default {
       "masked": "The drug is rapidly ____ into the bloodstream.",
       "options": [
         "absorb-mcq-02",
-        "absorb-mcq-01",
-        "absorb-mcq-03",
-        "absorb-mcq-04",
+        "absorb-mcq-11",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-pdf-001"
       ],
       "explanation": "本句的「absorbed」指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
       "sentenceIndex": 5,
@@ -566,12 +544,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-02": "本句指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-02": "本句的「absorbed」指「身體、腸道、細胞、植物等吸收營養、藥物、水分等」。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-02"
     },
@@ -583,11 +559,9 @@ export default {
       "masked": "Dark surfaces ____ more heat.",
       "options": [
         "absorb-mcq-03",
-        "absorb-mcq-02",
-        "absorb-mcq-04",
-        "absorb-mcq-01",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-04",
+        "absorb-mcq-01"
       ],
       "explanation": "本句的「absorb」指「吸收光、熱、聲音、輻射等能量」。",
       "sentenceIndex": 6,
@@ -596,12 +570,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-03": "本句指「吸收光、熱、聲音、輻射等能量」。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-03": "本句的「absorb」指「吸收光、熱、聲音、輻射等能量」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-03"
     },
@@ -613,11 +585,9 @@ export default {
       "masked": "The material ____ sound and reduces echoes.",
       "options": [
         "absorb-mcq-03",
-        "absorb-mcq-02",
-        "absorb-mcq-04",
-        "absorb-mcq-01",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-04",
+        "absorb-mcq-01"
       ],
       "explanation": "本句的「absorbs」指「吸收光、熱、聲音、輻射等能量」。",
       "sentenceIndex": 7,
@@ -626,12 +596,10 @@ export default {
         "absorbs"
       ],
       "optionReasons": {
-        "absorb-mcq-03": "本句指「吸收光、熱、聲音、輻射等能量」。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-03": "本句的「absorbs」指「吸收光、熱、聲音、輻射等能量」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-03"
     },
@@ -643,11 +611,9 @@ export default {
       "masked": "The gas ____ infrared radiation.",
       "options": [
         "absorb-mcq-03",
-        "absorb-mcq-02",
         "absorb-mcq-04",
-        "absorb-mcq-01",
         "absorb-mcq-05",
-        "absorb-mcq-06"
+        "absorb-mcq-08"
       ],
       "explanation": "本句的「absorbs」指「吸收光、熱、聲音、輻射等能量」。",
       "sentenceIndex": 8,
@@ -656,12 +622,10 @@ export default {
         "absorbs"
       ],
       "optionReasons": {
-        "absorb-mcq-03": "本句指「吸收光、熱、聲音、輻射等能量」。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-03": "本句的「absorbs」指「吸收光、熱、聲音、輻射等能量」。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-03"
     },
@@ -674,10 +638,8 @@ export default {
       "options": [
         "absorb-mcq-04",
         "absorb-mcq-03",
-        "absorb-mcq-05",
-        "absorb-mcq-02",
-        "absorb-mcq-06",
-        "absorb-mcq-01"
+        "absorb-mcq-08",
+        "absorb-mcq-09"
       ],
       "explanation": "本句的「absorb」指「承受並緩衝／消散衝擊力」。",
       "sentenceIndex": 9,
@@ -686,12 +648,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-04": "本句指「承受並緩衝／消散衝擊力」。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。"
+        "absorb-mcq-04": "本句的「absorb」指「承受並緩衝／消散衝擊力」。",
+        "absorb-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-04"
     },
@@ -703,11 +663,9 @@ export default {
       "masked": "The suspension system ____ shocks from the road.",
       "options": [
         "absorb-mcq-04",
-        "absorb-mcq-03",
-        "absorb-mcq-05",
-        "absorb-mcq-02",
-        "absorb-mcq-06",
-        "absorb-mcq-01"
+        "absorb-mcq-14",
+        "absorb-mcq-10",
+        "absorb-mcq-09"
       ],
       "explanation": "本句的「absorbs」指「承受並緩衝／消散衝擊力」。",
       "sentenceIndex": 10,
@@ -716,12 +674,10 @@ export default {
         "absorbs"
       ],
       "optionReasons": {
-        "absorb-mcq-04": "本句指「承受並緩衝／消散衝擊力」。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。"
+        "absorb-mcq-04": "本句的「absorbs」指「承受並緩衝／消散衝擊力」。",
+        "absorb-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-04"
     },
@@ -733,11 +689,9 @@ export default {
       "masked": "The boxer was able to ____ several heavy blows.",
       "options": [
         "absorb-mcq-04",
-        "absorb-mcq-03",
-        "absorb-mcq-05",
-        "absorb-mcq-02",
-        "absorb-mcq-06",
-        "absorb-mcq-01"
+        "absorb-mcq-09",
+        "absorb-mcq-08",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorb」指「承受並緩衝／消散衝擊力」。",
       "sentenceIndex": 11,
@@ -746,12 +700,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-04": "本句指「承受並緩衝／消散衝擊力」。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-01": "「把液體、氣體或物質吸入／納入自身內部」與本句語境不同。"
+        "absorb-mcq-04": "本句的「absorb」指「承受並緩衝／消散衝擊力」。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-04"
     },
@@ -763,11 +715,9 @@ export default {
       "masked": "It takes time to ____ all this information.",
       "options": [
         "absorb-mcq-05",
-        "absorb-mcq-04",
         "absorb-mcq-06",
-        "absorb-mcq-03",
-        "absorb-mcq-07",
-        "absorb-mcq-02"
+        "absorb-mcq-16",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorb」指「理解、消化並記住資訊／知識」。",
       "sentenceIndex": 12,
@@ -776,12 +726,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-05": "本句指「理解、消化並記住資訊／知識」。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。"
+        "absorb-mcq-05": "本句的「absorb」指「理解、消化並記住資訊／知識」。",
+        "absorb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-05"
     },
@@ -793,11 +741,9 @@ export default {
       "masked": "Students need a chance to ____ what they have learned.",
       "options": [
         "absorb-mcq-05",
-        "absorb-mcq-04",
+        "absorb-mcq-16",
         "absorb-mcq-06",
-        "absorb-mcq-03",
-        "absorb-mcq-07",
-        "absorb-mcq-02"
+        "absorb-mcq-09"
       ],
       "explanation": "本句的「absorb」指「理解、消化並記住資訊／知識」。",
       "sentenceIndex": 13,
@@ -806,12 +752,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-05": "本句指「理解、消化並記住資訊／知識」。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。"
+        "absorb-mcq-05": "本句的「absorb」指「理解、消化並記住資訊／知識」。",
+        "absorb-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-05"
     },
@@ -823,11 +767,9 @@ export default {
       "masked": "He listened carefully, trying to ____ every detail.",
       "options": [
         "absorb-mcq-05",
-        "absorb-mcq-04",
-        "absorb-mcq-06",
-        "absorb-mcq-03",
-        "absorb-mcq-07",
-        "absorb-mcq-02"
+        "absorb-mcq-14",
+        "absorb-mcq-11",
+        "absorb-mcq-09"
       ],
       "explanation": "本句的「absorb」指「理解、消化並記住資訊／知識」。",
       "sentenceIndex": 14,
@@ -836,12 +778,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-05": "本句指「理解、消化並記住資訊／知識」。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-02": "「身體、腸道、細胞、植物等吸收營養、藥物、水分等」與本句語境不同。"
+        "absorb-mcq-05": "本句的「absorb」指「理解、消化並記住資訊／知識」。",
+        "absorb-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-05"
     },
@@ -853,11 +793,9 @@ export default {
       "masked": "The puzzle ____ him for hours.",
       "options": [
         "absorb-mcq-06",
-        "absorb-mcq-05",
-        "absorb-mcq-07",
-        "absorb-mcq-04",
-        "absorb-mcq-08",
-        "absorb-mcq-03"
+        "absorb-mcq-12",
+        "absorb-mcq-14",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorbed」指「完全吸引／佔據某人的注意力」。",
       "sentenceIndex": 15,
@@ -866,12 +804,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-06": "本句指「完全吸引／佔據某人的注意力」。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。"
+        "absorb-mcq-06": "本句的「absorbed」指「完全吸引／佔據某人的注意力」。",
+        "absorb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-06"
     },
@@ -883,10 +819,8 @@ export default {
       "masked": "Her research completely ____ her.",
       "options": [
         "absorb-mcq-06",
-        "absorb-mcq-05",
-        "absorb-mcq-07",
-        "absorb-mcq-04",
-        "absorb-mcq-08",
+        "absorb-mcq-12",
+        "absorb-mcq-01",
         "absorb-mcq-03"
       ],
       "explanation": "本句的「absorbed」指「完全吸引／佔據某人的注意力」。",
@@ -896,12 +830,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-06": "本句指「完全吸引／佔據某人的注意力」。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-03": "「吸收光、熱、聲音、輻射等能量」與本句語境不同。"
+        "absorb-mcq-06": "本句的「absorbed」指「完全吸引／佔據某人的注意力」。",
+        "absorb-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-06"
     },
@@ -913,11 +845,9 @@ export default {
       "masked": "She was ____ a book.",
       "options": [
         "absorb-pdf-001",
-        "absorb-mcq-06",
-        "absorb-mcq-08",
-        "absorb-mcq-05",
+        "absorb-mcq-02",
         "absorb-mcq-09",
-        "absorb-mcq-04"
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorbed in」指「注意力完全投入某項活動或思想中」。",
       "sentenceIndex": 17,
@@ -926,12 +856,10 @@ export default {
         "absorbed in"
       ],
       "optionReasons": {
-        "absorb-pdf-001": "本句指「注意力完全投入某項活動或思想中」。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。"
+        "absorb-pdf-001": "本句的「absorbed in」指「注意力完全投入某項活動或思想中」。",
+        "absorb-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-pdf-001"
     },
@@ -943,11 +871,9 @@ export default {
       "masked": "He became so ____ his work that he forgot the time.",
       "options": [
         "absorb-pdf-001",
-        "absorb-mcq-06",
-        "absorb-mcq-08",
+        "absorb-mcq-16",
         "absorb-mcq-05",
-        "absorb-mcq-09",
-        "absorb-mcq-04"
+        "absorb-mcq-09"
       ],
       "explanation": "本句的「absorbed in」指「注意力完全投入某項活動或思想中」。",
       "sentenceIndex": 18,
@@ -956,12 +882,10 @@ export default {
         "absorbed in"
       ],
       "optionReasons": {
-        "absorb-pdf-001": "本句指「注意力完全投入某項活動或思想中」。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-04": "「承受並緩衝／消散衝擊力」與本句語境不同。"
+        "absorb-pdf-001": "本句的「absorbed in」指「注意力完全投入某項活動或思想中」。",
+        "absorb-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-pdf-001"
     },
@@ -973,11 +897,9 @@ export default {
       "masked": "The smaller department was ____ a larger division.",
       "options": [
         "absorb-mcq-08",
-        "absorb-mcq-07",
-        "absorb-mcq-09",
-        "absorb-mcq-06",
-        "absorb-mcq-10",
-        "absorb-mcq-05"
+        "absorb-mcq-05",
+        "absorb-mcq-16",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorbed into」指「把較小單位、人群、公司等納入較大的整體」。",
       "sentenceIndex": 21,
@@ -986,12 +908,10 @@ export default {
         "absorbed into"
       ],
       "optionReasons": {
-        "absorb-mcq-08": "本句指「把較小單位、人群、公司等納入較大的整體」。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。"
+        "absorb-mcq-08": "本句的「absorbed into」指「把較小單位、人群、公司等納入較大的整體」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-08"
     },
@@ -1003,11 +923,9 @@ export default {
       "masked": "The company was eventually ____ the parent group.",
       "options": [
         "absorb-mcq-08",
-        "absorb-mcq-07",
-        "absorb-mcq-09",
-        "absorb-mcq-06",
-        "absorb-mcq-10",
-        "absorb-mcq-05"
+        "absorb-mcq-16",
+        "absorb-mcq-05",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorbed into」指「把較小單位、人群、公司等納入較大的整體」。",
       "sentenceIndex": 22,
@@ -1016,12 +934,10 @@ export default {
         "absorbed into"
       ],
       "optionReasons": {
-        "absorb-mcq-08": "本句指「把較小單位、人群、公司等納入較大的整體」。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。"
+        "absorb-mcq-08": "本句的「absorbed into」指「把較小單位、人群、公司等納入較大的整體」。",
+        "absorb-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-08"
     },
@@ -1033,11 +949,9 @@ export default {
       "masked": "The expanding city gradually ____ several surrounding villages.",
       "options": [
         "absorb-mcq-08",
-        "absorb-mcq-07",
-        "absorb-mcq-09",
-        "absorb-mcq-06",
-        "absorb-mcq-10",
-        "absorb-mcq-05"
+        "absorb-mcq-04",
+        "absorb-mcq-05",
+        "absorb-mcq-14"
       ],
       "explanation": "本句的「absorbed」指「把較小單位、人群、公司等納入較大的整體」。",
       "sentenceIndex": 23,
@@ -1046,12 +960,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-08": "本句指「把較小單位、人群、公司等納入較大的整體」。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-05": "「理解、消化並記住資訊／知識」與本句語境不同。"
+        "absorb-mcq-08": "本句的「absorbed」指「把較小單位、人群、公司等納入較大的整體」。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-08"
     },
@@ -1063,11 +975,9 @@ export default {
       "masked": "The labour market cannot ____ so many new workers at once.",
       "options": [
         "absorb-mcq-09",
-        "absorb-mcq-08",
-        "absorb-mcq-10",
-        "absorb-mcq-07",
-        "absorb-mcq-11",
-        "absorb-mcq-06"
+        "absorb-pdf-001",
+        "absorb-mcq-05",
+        "absorb-mcq-04"
       ],
       "explanation": "本句的「absorb」指「吸納新增的人、供應、需求等而不造成重大問題」。",
       "sentenceIndex": 24,
@@ -1076,12 +986,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-09": "本句指「吸納新增的人、供應、需求等而不造成重大問題」。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-09": "本句的「absorb」指「吸納新增的人、供應、需求等而不造成重大問題」。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-09"
     },
@@ -1093,11 +1001,9 @@ export default {
       "masked": "The market was able to ____ the additional supply.",
       "options": [
         "absorb-mcq-09",
-        "absorb-mcq-08",
-        "absorb-mcq-10",
-        "absorb-mcq-07",
-        "absorb-mcq-11",
-        "absorb-mcq-06"
+        "absorb-mcq-04",
+        "absorb-pdf-001",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorb」指「吸納新增的人、供應、需求等而不造成重大問題」。",
       "sentenceIndex": 25,
@@ -1106,12 +1012,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-09": "本句指「吸納新增的人、供應、需求等而不造成重大問題」。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-09": "本句的「absorb」指「吸納新增的人、供應、需求等而不造成重大問題」。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-09"
     },
@@ -1123,11 +1027,9 @@ export default {
       "masked": "The school can ____ another hundred students.",
       "options": [
         "absorb-mcq-09",
-        "absorb-mcq-08",
-        "absorb-mcq-10",
-        "absorb-mcq-07",
-        "absorb-mcq-11",
-        "absorb-mcq-06"
+        "absorb-mcq-05",
+        "absorb-mcq-04",
+        "absorb-pdf-001"
       ],
       "explanation": "本句的「absorb」指「吸納新增的人、供應、需求等而不造成重大問題」。",
       "sentenceIndex": 26,
@@ -1136,12 +1038,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-09": "本句指「吸納新增的人、供應、需求等而不造成重大問題」。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-06": "「完全吸引／佔據某人的注意力」與本句語境不同。"
+        "absorb-mcq-09": "本句的「absorb」指「吸納新增的人、供應、需求等而不造成重大問題」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-09"
     },
@@ -1153,11 +1053,9 @@ export default {
       "masked": "The project ____ most of the department’s budget.",
       "options": [
         "absorb-mcq-10",
-        "absorb-mcq-09",
         "absorb-mcq-11",
-        "absorb-mcq-08",
-        "absorb-mcq-12",
-        "absorb-mcq-07"
+        "absorb-mcq-01",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorbed」指「大量耗用／佔用時間、金錢、容量等」。",
       "sentenceIndex": 27,
@@ -1166,12 +1064,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-10": "本句指「大量耗用／佔用時間、金錢、容量等」。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。"
+        "absorb-mcq-10": "本句的「absorbed」指「大量耗用／佔用時間、金錢、容量等」。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-10"
     },
@@ -1183,11 +1079,9 @@ export default {
       "masked": "Administrative work ____ a great deal of staff time.",
       "options": [
         "absorb-mcq-10",
-        "absorb-mcq-09",
-        "absorb-mcq-11",
-        "absorb-mcq-08",
-        "absorb-mcq-12",
-        "absorb-mcq-07"
+        "absorb-mcq-05",
+        "absorb-mcq-01",
+        "absorb-mcq-11"
       ],
       "explanation": "本句的「absorbs」指「大量耗用／佔用時間、金錢、容量等」。",
       "sentenceIndex": 28,
@@ -1196,12 +1090,10 @@ export default {
         "absorbs"
       ],
       "optionReasons": {
-        "absorb-mcq-10": "本句指「大量耗用／佔用時間、金錢、容量等」。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。",
-        "absorb-mcq-07": "「全神貫注於；沉浸於」與本句語境不同。"
+        "absorb-mcq-10": "本句的「absorbs」指「大量耗用／佔用時間、金錢、容量等」。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-10"
     },
@@ -1213,11 +1105,9 @@ export default {
       "masked": "Restaurants ____ the hidden overhead.",
       "options": [
         "absorb-mcq-11",
-        "absorb-mcq-10",
-        "absorb-mcq-12",
-        "absorb-mcq-09",
-        "absorb-mcq-13",
-        "absorb-mcq-08"
+        "absorb-mcq-15",
+        "absorb-mcq-05",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorb」指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
       "sentenceIndex": 29,
@@ -1226,12 +1116,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-11": "本句指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。"
+        "absorb-mcq-11": "本句的「absorb」指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
+        "absorb-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-11"
     },
@@ -1243,11 +1131,9 @@ export default {
       "masked": "The retailer decided to ____ the extra shipping cost.",
       "options": [
         "absorb-mcq-11",
-        "absorb-mcq-10",
-        "absorb-mcq-12",
-        "absorb-mcq-09",
-        "absorb-mcq-13",
-        "absorb-mcq-08"
+        "absorb-mcq-15",
+        "absorb-pdf-001",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorb」指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
       "sentenceIndex": 30,
@@ -1256,12 +1142,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-11": "本句指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。"
+        "absorb-mcq-11": "本句的「absorb」指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
+        "absorb-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-11"
     },
@@ -1273,11 +1157,9 @@ export default {
       "masked": "The company ____ the loss rather than passing it on to customers.",
       "options": [
         "absorb-mcq-11",
-        "absorb-mcq-10",
-        "absorb-mcq-12",
-        "absorb-mcq-09",
-        "absorb-mcq-13",
-        "absorb-mcq-08"
+        "absorb-pdf-001",
+        "absorb-mcq-16",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorbed」指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
       "sentenceIndex": 31,
@@ -1286,12 +1168,10 @@ export default {
         "absorbed"
       ],
       "optionReasons": {
-        "absorb-mcq-11": "本句指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-08": "「把較小單位、人群、公司等納入較大的整體」與本句語境不同。"
+        "absorb-mcq-11": "本句的「absorbed」指「自行承擔成本或損失，而不是把它轉嫁給其他人」。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-11"
     },
@@ -1303,11 +1183,9 @@ export default {
       "masked": "The business was strong enough to ____ the sudden increase in costs.",
       "options": [
         "absorb-mcq-12",
-        "absorb-mcq-11",
-        "absorb-mcq-13",
-        "absorb-mcq-10",
-        "absorb-mcq-14",
-        "absorb-mcq-09"
+        "absorb-mcq-01",
+        "absorb-mcq-06",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorb」指「承受並消化變化／衝擊，使其不致造成同等程度破壞」。",
       "sentenceIndex": 32,
@@ -1316,12 +1194,10 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-12": "本句指「承受並消化變化／衝擊，使其不致造成同等程度破壞」。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-14": "「能有效吸收液體的」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。"
+        "absorb-mcq-12": "本句的「absorb」指「承受並消化變化／衝擊，使其不致造成同等程度破壞」。",
+        "absorb-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-12"
     },
@@ -1333,11 +1209,8 @@ export default {
       "masked": "The network can ____ short-term fluctuations in demand.",
       "options": [
         "absorb-mcq-12",
-        "absorb-mcq-11",
-        "absorb-mcq-13",
-        "absorb-mcq-10",
-        "absorb-mcq-14",
-        "absorb-mcq-09"
+        "absorb-pdf-001",
+        "absorb-mcq-15"
       ],
       "explanation": "本句的「absorb」指「承受並消化變化／衝擊，使其不致造成同等程度破壞」。",
       "sentenceIndex": 33,
@@ -1346,12 +1219,9 @@ export default {
         "absorb"
       ],
       "optionReasons": {
-        "absorb-mcq-12": "本句指「承受並消化變化／衝擊，使其不致造成同等程度破壞」。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-10": "「大量耗用／佔用時間、金錢、容量等」與本句語境不同。",
-        "absorb-mcq-14": "「能有效吸收液體的」與本句語境不同。",
-        "absorb-mcq-09": "「吸納新增的人、供應、需求等而不造成重大問題」與本句語境不同。"
+        "absorb-mcq-12": "本句的「absorb」指「承受並消化變化／衝擊，使其不致造成同等程度破壞」。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-12"
     },
@@ -1363,11 +1233,9 @@ export default {
       "masked": "Use an ____ cloth.",
       "options": [
         "absorb-mcq-14",
-        "absorb-mcq-13",
-        "absorb-mcq-15",
-        "absorb-mcq-12",
-        "absorb-mcq-16",
-        "absorb-mcq-11"
+        "absorb-pdf-001",
+        "absorb-mcq-04",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorbent」指「能有效吸收液體的」。",
       "sentenceIndex": 34,
@@ -1376,12 +1244,10 @@ export default {
         "absorbent"
       ],
       "optionReasons": {
-        "absorb-mcq-14": "本句指「能有效吸收液體的」。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-15": "「吸收液體的能力／吸水性」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。",
-        "absorb-mcq-16": "「吸收／緩衝某種東西的裝置或物件；如 shock absorber」與本句語境不同。",
-        "absorb-mcq-11": "「自行承擔成本或損失，而不是把它轉嫁給其他人」與本句語境不同。"
+        "absorb-mcq-14": "本句的「absorbent」指「能有效吸收液體的」。",
+        "absorb-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-14"
     },
@@ -1393,11 +1259,9 @@ export default {
       "masked": "The fabric has excellent ____.",
       "options": [
         "absorb-mcq-15",
-        "absorb-mcq-14",
-        "absorb-mcq-16",
-        "absorb-mcq-13",
-        "absorb-mcq-17",
-        "absorb-mcq-12"
+        "absorb-mcq-11",
+        "absorb-mcq-05",
+        "absorb-mcq-10"
       ],
       "explanation": "本句的「absorbency」指「吸收液體的能力／吸水性」。",
       "sentenceIndex": 35,
@@ -1406,12 +1270,10 @@ export default {
         "absorbency"
       ],
       "optionReasons": {
-        "absorb-mcq-15": "本句指「吸收液體的能力／吸水性」。",
-        "absorb-mcq-14": "「能有效吸收液體的」與本句語境不同。",
-        "absorb-mcq-16": "「吸收／緩衝某種東西的裝置或物件；如 shock absorber」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-17": "「光譜學的吸光度」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。"
+        "absorb-mcq-15": "本句的「absorbency」指「吸收液體的能力／吸水性」。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-15"
     },
@@ -1423,11 +1285,9 @@ export default {
       "masked": "The car needs a new shock ____.",
       "options": [
         "absorb-mcq-16",
-        "absorb-mcq-15",
-        "absorb-mcq-17",
-        "absorb-mcq-14",
-        "absorb-mcq-13",
-        "absorb-mcq-12"
+        "absorb-mcq-10",
+        "absorb-mcq-11",
+        "absorb-mcq-05"
       ],
       "explanation": "本句的「absorber」指「吸收／緩衝某種東西的裝置或物件；如 shock absorber」。",
       "sentenceIndex": 36,
@@ -1436,12 +1296,10 @@ export default {
         "absorber"
       ],
       "optionReasons": {
-        "absorb-mcq-16": "本句指「吸收／緩衝某種東西的裝置或物件；如 shock absorber」。",
-        "absorb-mcq-15": "「吸收液體的能力／吸水性」與本句語境不同。",
-        "absorb-mcq-17": "「光譜學的吸光度」與本句語境不同。",
-        "absorb-mcq-14": "「能有效吸收液體的」與本句語境不同。",
-        "absorb-mcq-13": "「把製造間接成本等納入產品成本的完全／吸收成本法」與本句語境不同。",
-        "absorb-mcq-12": "「承受並消化變化／衝擊，使其不致造成同等程度破壞」與本句語境不同。"
+        "absorb-mcq-16": "本句的「absorber」指「吸收／緩衝某種東西的裝置或物件；如 shock absorber」。",
+        "absorb-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "absorb-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "absorb-mcq-16"
     }
@@ -1453,5 +1311,7 @@ export default {
     "sha256": "088efa354e59309f23067a2d45c53abb834ab7210cfb81d87137dc44f179f598",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "also-mcq-05",
-      "title": "表示另一項特質同時成立",
+      "title": "另一項特質同時成立",
       "form": "also — additional quality",
       "en": "also — additional quality",
       "zh": "表示另一項特質同時成立",
@@ -230,11 +230,8 @@ export default {
       "masked": "She ____ strawberries.",
       "options": [
         "also-mcq-01",
-        "also-mcq-02",
-        "also-mcq-03",
-        "also-mcq-04",
-        "also-mcq-05",
-        "also-mcq-06"
+        "also-mcq-09",
+        "also-mcq-08"
       ],
       "explanation": "本句的「also grows」指「在已提到的動作／事實之外，再加入另一項；也……」。",
       "sentenceIndex": 0,
@@ -243,12 +240,9 @@ export default {
         "also grows"
       ],
       "optionReasons": {
-        "also-mcq-01": "本句指「在已提到的動作／事實之外，再加入另一項；也……」。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-01": "本句的「also grows」指「在已提到的動作／事實之外，再加入另一項；也……」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-01"
     },
@@ -260,11 +254,8 @@ export default {
       "masked": "He ____ gardening.",
       "options": [
         "also-mcq-01",
-        "also-mcq-02",
-        "also-mcq-03",
-        "also-mcq-04",
-        "also-mcq-05",
-        "also-mcq-06"
+        "also-mcq-09",
+        "also-mcq-08"
       ],
       "explanation": "本句的「also enjoys」指「在已提到的動作／事實之外，再加入另一項；也……」。",
       "sentenceIndex": 1,
@@ -273,12 +264,9 @@ export default {
         "also enjoys"
       ],
       "optionReasons": {
-        "also-mcq-01": "本句指「在已提到的動作／事實之外，再加入另一項；也……」。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-01": "本句的「also enjoys」指「在已提到的動作／事實之外，再加入另一項；也……」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-01"
     },
@@ -290,11 +278,8 @@ export default {
       "masked": "The garden is ____.",
       "options": [
         "also-mcq-02",
-        "also-mcq-01",
-        "also-mcq-03",
-        "also-mcq-04",
-        "also-mcq-05",
-        "also-mcq-06"
+        "also-mcq-06",
+        "also-mcq-09"
       ],
       "explanation": "本句的「also beautiful」指「除已有身分／狀態外，另一身分／特質也成立」。",
       "sentenceIndex": 2,
@@ -303,12 +288,9 @@ export default {
         "also beautiful"
       ],
       "optionReasons": {
-        "also-mcq-02": "本句指「除已有身分／狀態外，另一身分／特質也成立」。",
-        "also-mcq-01": "「在已提到的動作／事實之外，再加入另一項；也……」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-02": "本句的「also beautiful」指「除已有身分／狀態外，另一身分／特質也成立」。",
+        "also-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-02"
     },
@@ -320,11 +302,8 @@ export default {
       "masked": "She is ____ a teacher.",
       "options": [
         "also-mcq-02",
-        "also-mcq-01",
-        "also-mcq-03",
-        "also-mcq-04",
-        "also-mcq-05",
-        "also-mcq-06"
+        "also-mcq-06",
+        "also-mcq-09"
       ],
       "explanation": "本句的「also」指「除已有身分／狀態外，另一身分／特質也成立」。",
       "sentenceIndex": 3,
@@ -333,12 +312,9 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-02": "本句指「除已有身分／狀態外，另一身分／特質也成立」。",
-        "also-mcq-01": "「在已提到的動作／事實之外，再加入另一項；也……」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-02": "本句的「also」指「除已有身分／狀態外，另一身分／特質也成立」。",
+        "also-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-02"
     },
@@ -350,11 +326,8 @@ export default {
       "masked": "She can ____ herbs indoors.",
       "options": [
         "also-mcq-03",
-        "also-mcq-02",
-        "also-mcq-04",
-        "also-mcq-01",
         "also-mcq-05",
-        "also-mcq-06"
+        "also-mcq-09"
       ],
       "explanation": "本句的「also grow」指「在原有資訊之外，表示某人／物也會、也能、也已做某事」。",
       "sentenceIndex": 4,
@@ -363,12 +336,9 @@ export default {
         "also grow"
       ],
       "optionReasons": {
-        "also-mcq-03": "本句指「在原有資訊之外，表示某人／物也會、也能、也已做某事」。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-01": "「在已提到的動作／事實之外，再加入另一項；也……」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-03": "本句的「also grow」指「在原有資訊之外，表示某人／物也會、也能、也已做某事」。",
+        "also-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-03"
     },
@@ -380,11 +350,8 @@ export default {
       "masked": "They have ____ a lemon tree.",
       "options": [
         "also-mcq-03",
-        "also-mcq-02",
-        "also-mcq-04",
-        "also-mcq-01",
         "also-mcq-05",
-        "also-mcq-06"
+        "also-mcq-09"
       ],
       "explanation": "本句的「also planted」指「在原有資訊之外，表示某人／物也會、也能、也已做某事」。",
       "sentenceIndex": 5,
@@ -393,12 +360,9 @@ export default {
         "also planted"
       ],
       "optionReasons": {
-        "also-mcq-03": "本句指「在原有資訊之外，表示某人／物也會、也能、也已做某事」。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-01": "「在已提到的動作／事實之外，再加入另一項；也……」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-03": "本句的「also planted」指「在原有資訊之外，表示某人／物也會、也能、也已做某事」。",
+        "also-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-03"
     },
@@ -410,11 +374,9 @@ export default {
       "masked": "She grows vegetables and ____ flowers.",
       "options": [
         "also-mcq-04",
-        "also-mcq-03",
-        "also-mcq-05",
-        "also-mcq-02",
+        "also-mcq-09",
         "also-mcq-06",
-        "also-mcq-01"
+        "also-mcq-08"
       ],
       "explanation": "本句的「also」指「把另一個人、物或類別加入已提項目」。",
       "sentenceIndex": 6,
@@ -423,12 +385,10 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-04": "本句指「把另一個人、物或類別加入已提項目」。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-01": "「在已提到的動作／事實之外，再加入另一項；也……」與本句語境不同。"
+        "also-mcq-04": "本句的「also」指「把另一個人、物或類別加入已提項目」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-04"
     },
@@ -440,11 +400,9 @@ export default {
       "masked": "The garden attracts butterflies and ____ bees.",
       "options": [
         "also-mcq-04",
-        "also-mcq-03",
-        "also-mcq-05",
-        "also-mcq-02",
-        "also-mcq-06",
-        "also-mcq-01"
+        "also-mcq-09",
+        "also-mcq-08",
+        "also-mcq-06"
       ],
       "explanation": "本句的「also」指「把另一個人、物或類別加入已提項目」。",
       "sentenceIndex": 7,
@@ -453,12 +411,10 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-04": "本句指「把另一個人、物或類別加入已提項目」。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-01": "「在已提到的動作／事實之外，再加入另一項；也……」與本句語境不同。"
+        "also-mcq-04": "本句的「also」指「把另一個人、物或類別加入已提項目」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-04"
     },
@@ -470,11 +426,8 @@ export default {
       "masked": "The garden is practical, but it is ____.",
       "options": [
         "also-mcq-05",
-        "also-mcq-04",
-        "also-mcq-06",
         "also-mcq-03",
-        "also-mcq-07",
-        "also-mcq-02"
+        "also-mcq-09"
       ],
       "explanation": "本句的「also beautiful」指「表示另一項特質同時成立」。",
       "sentenceIndex": 8,
@@ -483,12 +436,9 @@ export default {
         "also beautiful"
       ],
       "optionReasons": {
-        "also-mcq-05": "本句指「表示另一項特質同時成立」。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。"
+        "also-mcq-05": "本句的「also beautiful」指「表示另一項特質同時成立」。",
+        "also-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-05"
     },
@@ -500,11 +450,8 @@ export default {
       "masked": "Gardening is relaxing and ____ rewarding.",
       "options": [
         "also-mcq-05",
-        "also-mcq-04",
-        "also-mcq-06",
         "also-mcq-03",
-        "also-mcq-07",
-        "also-mcq-02"
+        "also-mcq-09"
       ],
       "explanation": "本句的「also」指「表示另一項特質同時成立」。",
       "sentenceIndex": 9,
@@ -513,12 +460,9 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-05": "本句指「表示另一項特質同時成立」。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-02": "「除已有身分／狀態外，另一身分／特質也成立」與本句語境不同。"
+        "also-mcq-05": "本句的「also」指「表示另一項特質同時成立」。",
+        "also-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-05"
     },
@@ -530,11 +474,8 @@ export default {
       "masked": "Gardening helps her relax. It ____ gives her a sense of achievement.",
       "options": [
         "also-mcq-06",
-        "also-mcq-05",
-        "also-mcq-07",
-        "also-mcq-04",
-        "also-mcq-08",
-        "also-mcq-03"
+        "also-mcq-02",
+        "also-mcq-09"
       ],
       "explanation": "本句的「also」指「在論述中再補充一項相關資訊、理由或優點」。",
       "sentenceIndex": 10,
@@ -543,12 +484,9 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-06": "本句指「在論述中再補充一項相關資訊、理由或優點」。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-08": "「A、B 兩項都成立，並對 B 作額外強調」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。"
+        "also-mcq-06": "本句的「also」指「在論述中再補充一項相關資訊、理由或優點」。",
+        "also-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-06"
     },
@@ -560,11 +498,8 @@ export default {
       "masked": "The plants are beautiful. They ____ provide food for insects.",
       "options": [
         "also-mcq-06",
-        "also-mcq-05",
-        "also-mcq-07",
-        "also-mcq-04",
-        "also-mcq-08",
-        "also-mcq-03"
+        "also-mcq-09",
+        "also-mcq-02"
       ],
       "explanation": "本句的「also」指「在論述中再補充一項相關資訊、理由或優點」。",
       "sentenceIndex": 11,
@@ -573,12 +508,9 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-06": "本句指「在論述中再補充一項相關資訊、理由或優點」。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。",
-        "also-mcq-08": "「A、B 兩項都成立，並對 B 作額外強調」與本句語境不同。",
-        "also-mcq-03": "「在原有資訊之外，表示某人／物也會、也能、也已做某事」與本句語境不同。"
+        "also-mcq-06": "本句的「also」指「在論述中再補充一項相關資訊、理由或優點」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-06"
     },
@@ -590,11 +522,9 @@ export default {
       "masked": "____, the garden does not need much space.",
       "options": [
         "also-mcq-07",
-        "also-mcq-06",
-        "also-mcq-08",
-        "also-mcq-05",
         "also-mcq-09",
-        "also-mcq-04"
+        "also-mcq-03",
+        "also-mcq-08"
       ],
       "explanation": "本句的「Also」指「引出另一個補充重點；另外／此外」。",
       "sentenceIndex": 12,
@@ -603,12 +533,10 @@ export default {
         "Also"
       ],
       "optionReasons": {
-        "also-mcq-07": "本句指「引出另一個補充重點；另外／此外」。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-08": "「A、B 兩項都成立，並對 B 作額外強調」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-09": "「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。"
+        "also-mcq-07": "本句的「Also」指「引出另一個補充重點；另外／此外」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-07"
     },
@@ -620,11 +548,9 @@ export default {
       "masked": "____, remember to water the smaller pots.",
       "options": [
         "also-mcq-07",
-        "also-mcq-06",
-        "also-mcq-08",
-        "also-mcq-05",
         "also-mcq-09",
-        "also-mcq-04"
+        "also-mcq-03",
+        "also-mcq-08"
       ],
       "explanation": "本句的「Also」指「引出另一個補充重點；另外／此外」。",
       "sentenceIndex": 13,
@@ -633,12 +559,10 @@ export default {
         "Also"
       ],
       "optionReasons": {
-        "also-mcq-07": "本句指「引出另一個補充重點；另外／此外」。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-08": "「A、B 兩項都成立，並對 B 作額外強調」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。",
-        "also-mcq-09": "「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」與本句語境不同。",
-        "also-mcq-04": "「把另一個人、物或類別加入已提項目」與本句語境不同。"
+        "also-mcq-07": "本句的「Also」指「引出另一個補充重點；另外／此外」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-07"
     },
@@ -650,11 +574,9 @@ export default {
       "masked": "Gardening is ____.",
       "options": [
         "also-mcq-08",
-        "also-mcq-07",
         "also-mcq-09",
-        "also-mcq-06",
-        "also-mcq-10",
-        "also-mcq-05"
+        "also-mcq-04",
+        "also-mcq-06"
       ],
       "explanation": "本句的「not only relaxing but also rewarding」指「A、B 兩項都成立，並對 B 作額外強調」。",
       "sentenceIndex": 14,
@@ -663,12 +585,10 @@ export default {
         "not only relaxing but also rewarding"
       ],
       "optionReasons": {
-        "also-mcq-08": "本句指「A、B 兩項都成立，並對 B 作額外強調」。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-09": "「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-10": "「肯定句常用 also 表示「也」；否定句的「也不」常用 either」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。"
+        "also-mcq-08": "本句的「not only relaxing but also rewarding」指「A、B 兩項都成立，並對 B 作額外強調」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-08"
     },
@@ -680,11 +600,9 @@ export default {
       "masked": "She grows not only vegetables but ____ flowers.",
       "options": [
         "also-mcq-08",
-        "also-mcq-07",
         "also-mcq-09",
-        "also-mcq-06",
-        "also-mcq-10",
-        "also-mcq-05"
+        "also-mcq-03",
+        "also-mcq-07"
       ],
       "explanation": "本句的「also」指「A、B 兩項都成立，並對 B 作額外強調」。",
       "sentenceIndex": 15,
@@ -693,12 +611,10 @@ export default {
         "also"
       ],
       "optionReasons": {
-        "also-mcq-08": "本句指「A、B 兩項都成立，並對 B 作額外強調」。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-09": "「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。",
-        "also-mcq-10": "「肯定句常用 also 表示「也」；否定句的「也不」常用 either」與本句語境不同。",
-        "also-mcq-05": "「表示另一項特質同時成立」與本句語境不同。"
+        "also-mcq-08": "本句的「also」指「A、B 兩項都成立，並對 B 作額外強調」。",
+        "also-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-08"
     },
@@ -711,10 +627,8 @@ export default {
       "options": [
         "also-mcq-09",
         "also-mcq-08",
-        "also-mcq-10",
         "also-mcq-07",
-        "also-mcq-11",
-        "also-mcq-06"
+        "also-mcq-03"
       ],
       "explanation": "本句的「as well」指「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」。",
       "sentenceIndex": 16,
@@ -723,12 +637,10 @@ export default {
         "as well"
       ],
       "optionReasons": {
-        "also-mcq-09": "本句指「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」。",
-        "also-mcq-08": "「A、B 兩項都成立，並對 B 作額外強調」與本句語境不同。",
-        "also-mcq-10": "「肯定句常用 also 表示「也」；否定句的「也不」常用 either」與本句語境不同。",
-        "also-mcq-07": "「引出另一個補充重點；另外／此外」與本句語境不同。",
-        "also-mcq-11": "「also 單純補充另一項；even 強調令人意外的「甚至」」與本句語境不同。",
-        "also-mcq-06": "「在論述中再補充一項相關資訊、理由或優點」與本句語境不同。"
+        "also-mcq-09": "本句的「as well」指「三者均可表示「也」；also 通常置於句中，too/as well 常置句尾」。",
+        "also-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "also-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "also-mcq-09"
     }
@@ -740,5 +652,7 @@ export default {
     "sha256": "313eb93cd2d4a5ce06540a42c0ca80f724392df6d4ba29c4f00314ae66d155ce",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

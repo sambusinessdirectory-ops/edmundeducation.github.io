@@ -346,16 +346,6 @@ export default {
           "The garden suffered during the dry spell.",
           "花園在那段乾旱期受了影響。",
           "少雨期"
-        ],
-        [
-          "The striker ended a long scoring dry spell.",
-          "那名前鋒終結了長時間的入球荒。",
-          "少雨期"
-        ],
-        [
-          "The writer went through a creative dry spell.",
-          "那名作家經歷了一段創作低潮期。",
-          "少雨期"
         ]
       ],
       "options": [],
@@ -613,6 +603,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "dry-reviewed-a39dd8eabd",
+      "title": "比喻某方面長時間沒有成果、成功或進展的時期",
+      "form": "dry · source section 18",
+      "en": "比喻某方面長時間沒有成果、成功或進展的時期",
+      "zh": "比喻某方面長時間沒有成果、成功或進展的時期",
+      "note": "對照原始教材第 18 節及例句核實。",
+      "examples": [
+        [
+          "The striker ended a long scoring dry spell.",
+          "那名前鋒終結了長時間的入球荒。",
+          "比喻某方面長時間沒有成果、成功或進展的時期"
+        ],
+        [
+          "The writer went through a creative dry spell.",
+          "那名作家經歷了一段創作低潮期。",
+          "比喻某方面長時間沒有成果、成功或進展的時期"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -624,11 +636,9 @@ export default {
       "masked": "He never treated history as a ____.",
       "options": [
         "dry-mcq-01",
-        "dry-mcq-02",
-        "dry-mcq-03",
-        "dry-mcq-04",
-        "dry-mcq-05",
-        "dry-mcq-06"
+        "dry-mcq-13",
+        "dry-pdf-002",
+        "dry-mcq-17"
       ],
       "explanation": "本句的「dry subject」指「枯燥的科目」。",
       "sentenceIndex": 0,
@@ -637,12 +647,10 @@ export default {
         "dry subject"
       ],
       "optionReasons": {
-        "dry-mcq-01": "本句指「枯燥的科目」。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-01": "本句的「dry subject」指「枯燥的科目」。",
+        "dry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dry-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-01"
     },
@@ -654,11 +662,9 @@ export default {
       "masked": "Economics can seem ____ if it is taught only through definitions.",
       "options": [
         "dry-mcq-01",
-        "dry-mcq-02",
-        "dry-mcq-03",
-        "dry-mcq-04",
-        "dry-mcq-05",
-        "dry-mcq-06"
+        "dry-mcq-17",
+        "dry-mcq-27",
+        "dry-mcq-05"
       ],
       "explanation": "本句的「dry」指「枯燥的科目」。",
       "sentenceIndex": 1,
@@ -667,12 +673,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-01": "本句指「枯燥的科目」。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-01": "本句的「dry」指「枯燥的科目」。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-01"
     },
@@ -684,11 +688,9 @@ export default {
       "masked": "The topic sounds ____, but the speaker made it interesting.",
       "options": [
         "dry-mcq-01",
-        "dry-mcq-02",
-        "dry-mcq-03",
-        "dry-mcq-04",
-        "dry-mcq-05",
-        "dry-mcq-06"
+        "dry-mcq-16",
+        "dry-mcq-11",
+        "dry-mcq-17"
       ],
       "explanation": "本句的「dry」指「枯燥的科目」。",
       "sentenceIndex": 2,
@@ -697,12 +699,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-01": "本句指「枯燥的科目」。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-01": "本句的「dry」指「枯燥的科目」。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-01"
     },
@@ -714,11 +714,9 @@ export default {
       "masked": "The textbook is informative but rather ____.",
       "options": [
         "dry-mcq-02",
-        "dry-mcq-01",
-        "dry-mcq-03",
-        "dry-mcq-04",
-        "dry-mcq-05",
-        "dry-mcq-06"
+        "dry-mcq-11",
+        "dry-mcq-07",
+        "dry-mcq-16"
       ],
       "explanation": "本句的「dry」指「枯燥講座／書」。",
       "sentenceIndex": 3,
@@ -727,12 +725,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-02": "本句指「枯燥講座／書」。",
-        "dry-mcq-01": "「枯燥的科目」是「dry subject」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-02": "本句的「dry」指「枯燥講座／書」。",
+        "dry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-02"
     },
@@ -744,11 +740,9 @@ export default {
       "masked": "His lecture was too ____ and technical.",
       "options": [
         "dry-mcq-02",
-        "dry-mcq-01",
-        "dry-mcq-03",
-        "dry-mcq-04",
-        "dry-mcq-05",
-        "dry-mcq-06"
+        "dry-mcq-21",
+        "dry-mcq-22",
+        "dry-mcq-27"
       ],
       "explanation": "本句的「dry」指「枯燥講座／書」。",
       "sentenceIndex": 4,
@@ -757,12 +751,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-02": "本句指「枯燥講座／書」。",
-        "dry-mcq-01": "「枯燥的科目」是「dry subject」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-02": "本句的「dry」指「枯燥講座／書」。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-02"
     },
@@ -774,11 +766,9 @@ export default {
       "masked": "The towel is completely ____.",
       "options": [
         "dry-pdf-001",
-        "dry-mcq-03",
-        "dry-mcq-05",
+        "dry-mcq-09",
         "dry-mcq-02",
-        "dry-mcq-06",
-        "dry-mcq-01"
+        "dry-mcq-10"
       ],
       "explanation": "本句的「dry」指「沒有水、濕氣或水分的」。",
       "sentenceIndex": 5,
@@ -787,12 +777,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-pdf-001": "本句指「沒有水、濕氣或水分的」。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-01": "「枯燥的科目」是「dry subject」的用法，與本句語境不同。"
+        "dry-pdf-001": "本句的「dry」指「沒有水、濕氣或水分的」。",
+        "dry-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-pdf-001"
     },
@@ -804,11 +792,9 @@ export default {
       "masked": "Keep the floor ____.",
       "options": [
         "dry-pdf-001",
-        "dry-mcq-03",
-        "dry-mcq-05",
-        "dry-mcq-02",
-        "dry-mcq-06",
-        "dry-mcq-01"
+        "dry-mcq-01",
+        "dry-mcq-17",
+        "dry-mcq-05"
       ],
       "explanation": "本句的「dry」指「沒有水、濕氣或水分的」。",
       "sentenceIndex": 6,
@@ -817,12 +803,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-pdf-001": "本句指「沒有水、濕氣或水分的」。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-01": "「枯燥的科目」是「dry subject」的用法，與本句語境不同。"
+        "dry-pdf-001": "本句的「dry」指「沒有水、濕氣或水分的」。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-pdf-001"
     },
@@ -834,11 +818,9 @@ export default {
       "masked": "Put on some ____.",
       "options": [
         "dry-mcq-05",
-        "dry-mcq-04",
-        "dry-mcq-06",
-        "dry-mcq-03",
-        "dry-mcq-07",
-        "dry-mcq-02"
+        "dry-mcq-25",
+        "dry-mcq-01",
+        "dry-mcq-24"
       ],
       "explanation": "本句的「dry clothes」指「乾衣服」。",
       "sentenceIndex": 7,
@@ -847,12 +829,10 @@ export default {
         "dry clothes"
       ],
       "optionReasons": {
-        "dry-mcq-05": "本句指「乾衣服」。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。"
+        "dry-mcq-05": "本句的「dry clothes」指「乾衣服」。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-05"
     },
@@ -864,11 +844,9 @@ export default {
       "masked": "Her hair was still ____ despite the rain.",
       "options": [
         "dry-mcq-05",
-        "dry-mcq-04",
-        "dry-mcq-06",
-        "dry-mcq-03",
-        "dry-mcq-07",
-        "dry-mcq-02"
+        "dry-mcq-25",
+        "dry-mcq-17",
+        "dry-mcq-16"
       ],
       "explanation": "本句的「dry」指「乾衣服」。",
       "sentenceIndex": 8,
@@ -877,12 +855,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-05": "本句指「乾衣服」。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-02": "「枯燥講座／書」是「dry lecture/book」的用法，與本句語境不同。"
+        "dry-mcq-05": "本句的「dry」指「乾衣服」。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-05"
     },
@@ -894,11 +870,9 @@ export default {
       "masked": "The region has a hot, ____.",
       "options": [
         "dry-mcq-06",
-        "dry-mcq-05",
-        "dry-mcq-07",
-        "dry-mcq-04",
-        "dry-mcq-08",
-        "dry-mcq-03"
+        "dry-mcq-10",
+        "dry-mcq-16",
+        "dry-mcq-21"
       ],
       "explanation": "本句的「dry climate」指「乾燥天氣」。",
       "sentenceIndex": 9,
@@ -907,12 +881,10 @@ export default {
         "dry climate"
       ],
       "optionReasons": {
-        "dry-mcq-06": "本句指「乾燥天氣」。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。"
+        "dry-mcq-06": "本句的「dry climate」指「乾燥天氣」。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-06"
     },
@@ -924,11 +896,9 @@ export default {
       "masked": "We had several weeks of ____.",
       "options": [
         "dry-mcq-06",
-        "dry-mcq-05",
-        "dry-mcq-07",
-        "dry-mcq-04",
-        "dry-mcq-08",
-        "dry-mcq-03"
+        "dry-mcq-14",
+        "dry-mcq-16",
+        "dry-mcq-25"
       ],
       "explanation": "本句的「dry weather」指「乾燥天氣」。",
       "sentenceIndex": 10,
@@ -937,12 +907,10 @@ export default {
         "dry weather"
       ],
       "optionReasons": {
-        "dry-mcq-06": "本句指「乾燥天氣」。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-03": "「枯燥事實」是「dry facts」的用法，與本句語境不同。"
+        "dry-mcq-06": "本句的「dry weather」指「乾燥天氣」。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-06"
     },
@@ -954,11 +922,9 @@ export default {
       "masked": "Roads are easier to use during the ____.",
       "options": [
         "dry-mcq-07",
-        "dry-mcq-06",
-        "dry-mcq-08",
-        "dry-mcq-05",
-        "dry-mcq-09",
-        "dry-mcq-04"
+        "dry-mcq-14",
+        "dry-mcq-27",
+        "dry-mcq-12"
       ],
       "explanation": "本句的「dry season」指「旱季」。",
       "sentenceIndex": 11,
@@ -967,12 +933,10 @@ export default {
         "dry season"
       ],
       "optionReasons": {
-        "dry-mcq-07": "本句指「旱季」。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。"
+        "dry-mcq-07": "本句的「dry season」指「旱季」。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-07"
     },
@@ -984,11 +948,9 @@ export default {
       "masked": "The river becomes much smaller in the ____.",
       "options": [
         "dry-mcq-07",
-        "dry-mcq-06",
-        "dry-mcq-08",
-        "dry-mcq-05",
-        "dry-mcq-09",
-        "dry-mcq-04"
+        "dry-pdf-001",
+        "dry-mcq-01",
+        "dry-mcq-12"
       ],
       "explanation": "本句的「dry season」指「旱季」。",
       "sentenceIndex": 12,
@@ -997,12 +959,10 @@ export default {
         "dry season"
       ],
       "optionReasons": {
-        "dry-mcq-07": "本句指「旱季」。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-04": "「乾的」是「dry (not wet)」的用法，與本句語境不同。"
+        "dry-mcq-07": "本句的「dry season」指「旱季」。",
+        "dry-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-07"
     },
@@ -1014,11 +974,9 @@ export default {
       "masked": "Cold weather can cause ____.",
       "options": [
         "dry-mcq-08",
-        "dry-mcq-07",
-        "dry-mcq-09",
-        "dry-mcq-06",
+        "dry-reviewed-a39dd8eabd",
         "dry-mcq-10",
-        "dry-mcq-05"
+        "dry-mcq-14"
       ],
       "explanation": "本句的「dry skin」指「乾燥皮膚」。",
       "sentenceIndex": 13,
@@ -1027,12 +985,10 @@ export default {
         "dry skin"
       ],
       "optionReasons": {
-        "dry-mcq-08": "本句指「乾燥皮膚」。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。"
+        "dry-mcq-08": "本句的「dry skin」指「乾燥皮膚」。",
+        "dry-reviewed-a39dd8eabd": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-08"
     },
@@ -1044,11 +1000,9 @@ export default {
       "masked": "Use lip balm if your lips are ____.",
       "options": [
         "dry-mcq-08",
-        "dry-mcq-07",
-        "dry-mcq-09",
-        "dry-mcq-06",
-        "dry-mcq-10",
-        "dry-mcq-05"
+        "dry-mcq-26",
+        "dry-mcq-14",
+        "dry-mcq-21"
       ],
       "explanation": "本句的「dry」指「乾燥皮膚」。",
       "sentenceIndex": 14,
@@ -1057,12 +1011,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-08": "本句指「乾燥皮膚」。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-05": "「乾衣服」是「dry clothes」的用法，與本句語境不同。"
+        "dry-mcq-08": "本句的「dry」指「乾燥皮膚」。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-08"
     },
@@ -1074,11 +1026,9 @@ export default {
       "masked": "My throat feels ____.",
       "options": [
         "dry-mcq-09",
-        "dry-mcq-08",
-        "dry-mcq-10",
-        "dry-mcq-07",
-        "dry-mcq-11",
-        "dry-mcq-06"
+        "dry-mcq-26",
+        "dry-mcq-23",
+        "dry-mcq-10"
       ],
       "explanation": "本句的「dry」指「口乾」。",
       "sentenceIndex": 15,
@@ -1087,12 +1037,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-09": "本句指「口乾」。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-09": "本句的「dry」指「口乾」。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-09"
     },
@@ -1104,11 +1052,9 @@ export default {
       "masked": "He woke up with a ____.",
       "options": [
         "dry-mcq-09",
-        "dry-mcq-08",
         "dry-mcq-10",
-        "dry-mcq-07",
-        "dry-mcq-11",
-        "dry-mcq-06"
+        "dry-mcq-26",
+        "dry-mcq-02"
       ],
       "explanation": "本句的「dry mouth」指「口乾」。",
       "sentenceIndex": 16,
@@ -1117,12 +1063,10 @@ export default {
         "dry mouth"
       ],
       "optionReasons": {
-        "dry-mcq-09": "本句指「口乾」。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-06": "「乾燥天氣」是「dry weather」的用法，與本句語境不同。"
+        "dry-mcq-09": "本句的「dry mouth」指「口乾」。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-09"
     },
@@ -1134,11 +1078,9 @@ export default {
       "masked": "After hours at sea, we finally reached ____.",
       "options": [
         "dry-mcq-10",
-        "dry-mcq-09",
-        "dry-mcq-11",
-        "dry-mcq-08",
-        "dry-mcq-12",
-        "dry-mcq-07"
+        "dry-mcq-25",
+        "dry-reviewed-a39dd8eabd",
+        "dry-mcq-06"
       ],
       "explanation": "本句的「dry land」指「陸地」。",
       "sentenceIndex": 17,
@@ -1147,12 +1089,10 @@ export default {
         "dry land"
       ],
       "optionReasons": {
-        "dry-mcq-10": "本句指「陸地」。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。"
+        "dry-mcq-10": "本句的「dry land」指「陸地」。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-reviewed-a39dd8eabd": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-10"
     },
@@ -1164,11 +1104,9 @@ export default {
       "masked": "The animals moved to ____.",
       "options": [
         "dry-mcq-10",
-        "dry-mcq-09",
-        "dry-mcq-11",
-        "dry-mcq-08",
-        "dry-mcq-12",
-        "dry-mcq-07"
+        "dry-mcq-02",
+        "dry-mcq-16",
+        "dry-mcq-09"
       ],
       "explanation": "本句的「dry ground」指「陸地」。",
       "sentenceIndex": 18,
@@ -1177,12 +1115,10 @@ export default {
         "dry ground"
       ],
       "optionReasons": {
-        "dry-mcq-10": "本句指「陸地」。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-07": "「旱季」是「dry season」的用法，與本句語境不同。"
+        "dry-mcq-10": "本句的「dry ground」指「陸地」。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-10"
     },
@@ -1194,11 +1130,9 @@ export default {
       "masked": "We packed ____ for the trip.",
       "options": [
         "dry-mcq-11",
-        "dry-mcq-10",
-        "dry-mcq-12",
-        "dry-mcq-09",
-        "dry-mcq-13",
-        "dry-mcq-08"
+        "dry-mcq-07",
+        "dry-mcq-25",
+        "dry-mcq-01"
       ],
       "explanation": "本句的「dry food」指「乾糧」。",
       "sentenceIndex": 19,
@@ -1207,12 +1141,10 @@ export default {
         "dry food"
       ],
       "optionReasons": {
-        "dry-mcq-11": "本句指「乾糧」。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。"
+        "dry-mcq-11": "本句的「dry food」指「乾糧」。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-11"
     },
@@ -1224,11 +1156,9 @@ export default {
       "masked": "The cat prefers ____.",
       "options": [
         "dry-mcq-11",
-        "dry-mcq-10",
-        "dry-mcq-12",
-        "dry-mcq-09",
-        "dry-mcq-13",
-        "dry-mcq-08"
+        "dry-mcq-17",
+        "dry-mcq-01",
+        "dry-mcq-27"
       ],
       "explanation": "本句的「dry food」指「乾糧」。",
       "sentenceIndex": 20,
@@ -1237,12 +1167,10 @@ export default {
         "dry food"
       ],
       "optionReasons": {
-        "dry-mcq-11": "本句指「乾糧」。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。",
-        "dry-mcq-08": "「乾燥皮膚」是「dry skin」的用法，與本句語境不同。"
+        "dry-mcq-11": "本句的「dry food」指「乾糧」。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-11"
     },
@@ -1254,11 +1182,9 @@ export default {
       "masked": "She added ____ to the cereal.",
       "options": [
         "dry-mcq-12",
-        "dry-mcq-11",
-        "dry-mcq-13",
-        "dry-mcq-10",
+        "dry-mcq-02",
         "dry-mcq-14",
-        "dry-mcq-09"
+        "dry-mcq-25"
       ],
       "explanation": "本句的「dried fruit」指「乾果」。",
       "sentenceIndex": 21,
@@ -1267,12 +1193,10 @@ export default {
         "dried fruit"
       ],
       "optionReasons": {
-        "dry-mcq-12": "本句指「乾果」。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。"
+        "dry-mcq-12": "本句的「dried fruit」指「乾果」。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-12"
     },
@@ -1284,11 +1208,9 @@ export default {
       "masked": "____ can be stored for a long time.",
       "options": [
         "dry-mcq-12",
-        "dry-mcq-11",
-        "dry-mcq-13",
-        "dry-mcq-10",
-        "dry-mcq-14",
-        "dry-mcq-09"
+        "dry-pdf-001",
+        "dry-mcq-07",
+        "dry-mcq-14"
       ],
       "explanation": "本句的「Dried fish」指「乾果」。",
       "sentenceIndex": 22,
@@ -1297,12 +1219,10 @@ export default {
         "Dried fish"
       ],
       "optionReasons": {
-        "dry-mcq-12": "本句指「乾果」。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。",
-        "dry-mcq-09": "「口乾」是「dry mouth」的用法，與本句語境不同。"
+        "dry-mcq-12": "本句的「Dried fish」指「乾果」。",
+        "dry-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-12"
     },
@@ -1314,11 +1234,9 @@ export default {
       "masked": "He prefers ____.",
       "options": [
         "dry-mcq-13",
-        "dry-mcq-12",
-        "dry-mcq-14",
-        "dry-mcq-11",
-        "dry-mcq-15",
-        "dry-mcq-10"
+        "dry-mcq-17",
+        "dry-mcq-27",
+        "dry-mcq-25"
       ],
       "explanation": "本句的「dry white wine」指「乾型／不甜的酒」。",
       "sentenceIndex": 23,
@@ -1327,12 +1245,10 @@ export default {
         "dry white wine"
       ],
       "optionReasons": {
-        "dry-mcq-13": "本句指「乾型／不甜的酒」。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。"
+        "dry-mcq-13": "本句的「dry white wine」指「乾型／不甜的酒」。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-13"
     },
@@ -1344,11 +1260,9 @@ export default {
       "masked": "This wine is quite ____.",
       "options": [
         "dry-mcq-13",
-        "dry-mcq-12",
-        "dry-mcq-14",
-        "dry-mcq-11",
-        "dry-mcq-15",
-        "dry-mcq-10"
+        "dry-mcq-26",
+        "dry-mcq-02",
+        "dry-mcq-17"
       ],
       "explanation": "本句的「dry」指「乾型／不甜的酒」。",
       "sentenceIndex": 24,
@@ -1357,12 +1271,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-mcq-13": "本句指「乾型／不甜的酒」。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-10": "「陸地」是「dry land」的用法，與本句語境不同。"
+        "dry-mcq-13": "本句的「dry」指「乾型／不甜的酒」。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-13"
     },
@@ -1374,11 +1286,9 @@ export default {
       "masked": "He has a very ____.",
       "options": [
         "dry-mcq-14",
-        "dry-mcq-13",
-        "dry-mcq-15",
-        "dry-mcq-12",
-        "dry-mcq-16",
-        "dry-mcq-11"
+        "dry-mcq-01",
+        "dry-mcq-19",
+        "dry-reviewed-a39dd8eabd"
       ],
       "explanation": "本句的「dry sense of humour」指「冷面幽默」。",
       "sentenceIndex": 25,
@@ -1387,12 +1297,10 @@ export default {
         "dry sense of humour"
       ],
       "optionReasons": {
-        "dry-mcq-14": "本句指「冷面幽默」。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。"
+        "dry-mcq-14": "本句的「dry sense of humour」指「冷面幽默」。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dry-reviewed-a39dd8eabd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-14"
     },
@@ -1404,11 +1312,9 @@ export default {
       "masked": "Her ____ made everyone laugh.",
       "options": [
         "dry-mcq-14",
-        "dry-mcq-13",
-        "dry-mcq-15",
-        "dry-mcq-12",
-        "dry-mcq-16",
-        "dry-mcq-11"
+        "dry-mcq-07",
+        "dry-mcq-11",
+        "dry-mcq-27"
       ],
       "explanation": "本句的「dry wit」指「冷面幽默」。",
       "sentenceIndex": 26,
@@ -1417,12 +1323,10 @@ export default {
         "dry wit"
       ],
       "optionReasons": {
-        "dry-mcq-14": "本句指「冷面幽默」。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-12": "「乾果」是「dried fruit」的用法，與本句語境不同。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。",
-        "dry-mcq-11": "「乾糧」是「dry food」的用法，與本句語境不同。"
+        "dry-mcq-14": "本句的「dry wit」指「冷面幽默」。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-14"
     },
@@ -1434,11 +1338,9 @@ export default {
       "masked": "Very clever,” she said ____.",
       "options": [
         "dry-mcq-16",
-        "dry-mcq-15",
-        "dry-mcq-17",
-        "dry-mcq-14",
-        "dry-mcq-18",
-        "dry-mcq-13"
+        "dry-mcq-19",
+        "dry-mcq-02",
+        "dry-mcq-26"
       ],
       "explanation": "本句的「dryly」指「不動聲色地」。",
       "sentenceIndex": 27,
@@ -1447,12 +1349,10 @@ export default {
         "dryly"
       ],
       "optionReasons": {
-        "dry-mcq-16": "本句指「不動聲色地」。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。"
+        "dry-mcq-16": "本句的「dryly」指「不動聲色地」。",
+        "dry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-16"
     },
@@ -1464,11 +1364,9 @@ export default {
       "masked": "He replied ____ that the plan had “worked perfectly.",
       "options": [
         "dry-mcq-16",
-        "dry-mcq-15",
-        "dry-mcq-17",
+        "dry-mcq-22",
         "dry-mcq-14",
-        "dry-mcq-18",
-        "dry-mcq-13"
+        "dry-mcq-21"
       ],
       "explanation": "本句的「dryly」指「不動聲色地」。",
       "sentenceIndex": 28,
@@ -1477,12 +1375,10 @@ export default {
         "dryly"
       ],
       "optionReasons": {
-        "dry-mcq-16": "本句指「不動聲色地」。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-13": "「乾型／不甜的酒」是「dry wine」的用法，與本句語境不同。"
+        "dry-mcq-16": "本句的「dryly」指「不動聲色地」。",
+        "dry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-16"
     },
@@ -1494,11 +1390,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "dry-mcq-26",
-        "dry-mcq-25",
-        "dry-mcq-27",
-        "dry-mcq-24",
-        "dry-mcq-23",
-        "dry-mcq-22"
+        "dry-mcq-01",
+        "dry-mcq-21",
+        "dry-mcq-07"
       ],
       "explanation": "本句的「dry reply」指「缺乏感情、熱情或明顯情緒的語氣／回答」。",
       "sentenceIndex": 29,
@@ -1507,12 +1401,10 @@ export default {
         "dry reply"
       ],
       "optionReasons": {
-        "dry-mcq-26": "本句指「缺乏感情、熱情或明顯情緒的語氣／回答」。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-27": "「只有資料和數字、缺乏生動背景或情感的內容」是「16. dry facts / statistics — 枯燥的事實／數據」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。"
+        "dry-mcq-26": "本句的「dry reply」指「缺乏感情、熱情或明顯情緒的語氣／回答」。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-26"
     },
@@ -1524,11 +1416,9 @@ export default {
       "masked": "His ____ suggested that he was not impressed.",
       "options": [
         "dry-mcq-26",
+        "dry-mcq-11",
         "dry-mcq-25",
-        "dry-mcq-27",
-        "dry-mcq-24",
-        "dry-mcq-23",
-        "dry-mcq-22"
+        "dry-mcq-21"
       ],
       "explanation": "本句的「dry tone」指「缺乏感情、熱情或明顯情緒的語氣／回答」。",
       "sentenceIndex": 30,
@@ -1537,12 +1427,10 @@ export default {
         "dry tone"
       ],
       "optionReasons": {
-        "dry-mcq-26": "本句指「缺乏感情、熱情或明顯情緒的語氣／回答」。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-27": "「只有資料和數字、缺乏生動背景或情感的內容」是「16. dry facts / statistics — 枯燥的事實／數據」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。"
+        "dry-mcq-26": "本句的「dry tone」指「缺乏感情、熱情或明顯情緒的語氣／回答」。",
+        "dry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-26"
     },
@@ -1554,11 +1442,9 @@ export default {
       "masked": "The teacher turned ____ into memorable stories.",
       "options": [
         "dry-mcq-27",
-        "dry-mcq-26",
-        "dry-mcq-25",
+        "dry-mcq-22",
         "dry-mcq-24",
-        "dry-mcq-23",
-        "dry-mcq-22"
+        "dry-mcq-07"
       ],
       "explanation": "本句的「dry facts」指「只有資料和數字、缺乏生動背景或情感的內容」。",
       "sentenceIndex": 31,
@@ -1567,12 +1453,10 @@ export default {
         "dry facts"
       ],
       "optionReasons": {
-        "dry-mcq-27": "本句指「只有資料和數字、缺乏生動背景或情感的內容」。",
-        "dry-mcq-26": "「缺乏感情、熱情或明顯情緒的語氣／回答」是「15. dry voice / reply — 冷淡、平板的聲音／回答」的用法，與本句語境不同。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。"
+        "dry-mcq-27": "本句的「dry facts」指「只有資料和數字、缺乏生動背景或情感的內容」。",
+        "dry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-27"
     },
@@ -1584,11 +1468,9 @@ export default {
       "masked": "A list of ____ can be hard to remember.",
       "options": [
         "dry-mcq-27",
-        "dry-mcq-26",
-        "dry-mcq-25",
-        "dry-mcq-24",
-        "dry-mcq-23",
-        "dry-mcq-22"
+        "dry-mcq-02",
+        "dry-mcq-22",
+        "dry-mcq-25"
       ],
       "explanation": "本句的「dry statistics」指「只有資料和數字、缺乏生動背景或情感的內容」。",
       "sentenceIndex": 32,
@@ -1597,12 +1479,10 @@ export default {
         "dry statistics"
       ],
       "optionReasons": {
-        "dry-mcq-27": "本句指「只有資料和數字、缺乏生動背景或情感的內容」。",
-        "dry-mcq-26": "「缺乏感情、熱情或明顯情緒的語氣／回答」是「15. dry voice / reply — 冷淡、平板的聲音／回答」的用法，與本句語境不同。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。"
+        "dry-mcq-27": "本句的「dry statistics」指「只有資料和數字、缺乏生動背景或情感的內容」。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-27"
     },
@@ -1614,11 +1494,9 @@ export default {
       "masked": "The region is experiencing a long ____.",
       "options": [
         "dry-mcq-17",
-        "dry-mcq-16",
-        "dry-mcq-18",
-        "dry-mcq-15",
-        "dry-mcq-19",
-        "dry-mcq-14"
+        "dry-pdf-002",
+        "dry-mcq-13",
+        "dry-mcq-10"
       ],
       "explanation": "本句的「dry spell」指「少雨期」。",
       "sentenceIndex": 33,
@@ -1627,12 +1505,10 @@ export default {
         "dry spell"
       ],
       "optionReasons": {
-        "dry-mcq-17": "本句指「少雨期」。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。"
+        "dry-mcq-17": "本句的「dry spell」指「少雨期」。",
+        "dry-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-17"
     },
@@ -1645,10 +1521,8 @@ export default {
       "options": [
         "dry-mcq-17",
         "dry-mcq-16",
-        "dry-mcq-18",
-        "dry-mcq-15",
-        "dry-mcq-19",
-        "dry-mcq-14"
+        "dry-pdf-002",
+        "dry-mcq-06"
       ],
       "explanation": "本句的「dry spell」指「少雨期」。",
       "sentenceIndex": 34,
@@ -1657,74 +1531,68 @@ export default {
         "dry spell"
       ],
       "optionReasons": {
-        "dry-mcq-17": "本句指「少雨期」。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。"
+        "dry-mcq-17": "本句的「dry spell」指「少雨期」。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dry-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-17"
     },
     {
       "id": "dry-18-0",
-      "sense": "dry-mcq-17",
+      "sense": "dry-reviewed-a39dd8eabd",
       "en": "The striker ended a long scoring dry spell.",
       "zh": "那名前鋒終結了長時間的入球荒。",
       "masked": "The striker ended a long scoring ____.",
       "options": [
-        "dry-mcq-17",
-        "dry-mcq-16",
-        "dry-mcq-18",
-        "dry-mcq-15",
-        "dry-mcq-19",
-        "dry-mcq-14"
+        "dry-reviewed-a39dd8eabd",
+        "dry-mcq-21",
+        "dry-mcq-01",
+        "dry-mcq-24"
       ],
-      "explanation": "本句的「dry spell」指「少雨期」。",
+      "explanation": "對照完整句子：「那名前鋒終結了長時間的入球荒。」。這裡的「dry spell」表示「比喻某方面長時間沒有成果、成功或進展的時期」。",
       "sentenceIndex": 35,
       "sourcePractice": 1,
       "targets": [
         "dry spell"
       ],
       "optionReasons": {
-        "dry-mcq-17": "本句指「少雨期」。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。"
+        "dry-reviewed-a39dd8eabd": "對照完整句子：「那名前鋒終結了長時間的入球荒。」。這裡的「dry spell」表示「比喻某方面長時間沒有成果、成功或進展的時期」。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "dry-mcq-17"
+      "correctOption": "dry-reviewed-a39dd8eabd",
+      "previousCorrectOption": "dry-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "dry-18-1",
-      "sense": "dry-mcq-17",
+      "sense": "dry-reviewed-a39dd8eabd",
       "en": "The writer went through a creative dry spell.",
       "zh": "那名作家經歷了一段創作低潮期。",
       "masked": "The writer went through a creative ____.",
       "options": [
-        "dry-mcq-17",
-        "dry-mcq-16",
-        "dry-mcq-18",
-        "dry-mcq-15",
-        "dry-mcq-19",
-        "dry-mcq-14"
+        "dry-reviewed-a39dd8eabd",
+        "dry-mcq-07",
+        "dry-mcq-24",
+        "dry-mcq-25"
       ],
-      "explanation": "本句的「dry spell」指「少雨期」。",
+      "explanation": "對照完整句子：「那名作家經歷了一段創作低潮期。」。這裡的「dry spell」表示「比喻某方面長時間沒有成果、成功或進展的時期」。",
       "sentenceIndex": 36,
       "sourcePractice": 2,
       "targets": [
         "dry spell"
       ],
       "optionReasons": {
-        "dry-mcq-17": "本句指「少雨期」。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-15": "「冷淡／平淡回答」是「dry reply」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-14": "「冷面幽默」是「dry humour」的用法，與本句語境不同。"
+        "dry-reviewed-a39dd8eabd": "對照完整句子：「那名作家經歷了一段創作低潮期。」。這裡的「dry spell」表示「比喻某方面長時間沒有成果、成功或進展的時期」。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "dry-mcq-17"
+      "correctOption": "dry-reviewed-a39dd8eabd",
+      "previousCorrectOption": "dry-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "dry-19-0",
@@ -1734,11 +1602,9 @@ export default {
       "masked": "____ before touching the equipment.",
       "options": [
         "dry-mcq-19",
-        "dry-mcq-18",
-        "dry-mcq-20",
-        "dry-mcq-17",
-        "dry-mcq-21",
-        "dry-mcq-16"
+        "dry-mcq-27",
+        "dry-mcq-14",
+        "dry-mcq-02"
       ],
       "explanation": "本句的「Dry your hands」指「弄乾」。",
       "sentenceIndex": 37,
@@ -1747,12 +1613,10 @@ export default {
         "Dry your hands"
       ],
       "optionReasons": {
-        "dry-mcq-19": "本句指「弄乾」。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。"
+        "dry-mcq-19": "本句的「Dry your hands」指「弄乾」。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-19"
     },
@@ -1764,11 +1628,9 @@ export default {
       "masked": "She ____ with a towel.",
       "options": [
         "dry-mcq-19",
-        "dry-mcq-18",
-        "dry-mcq-20",
         "dry-mcq-17",
-        "dry-mcq-21",
-        "dry-mcq-16"
+        "dry-mcq-10",
+        "dry-mcq-25"
       ],
       "explanation": "本句的「dried her hair」指「弄乾」。",
       "sentenceIndex": 38,
@@ -1777,12 +1639,10 @@ export default {
         "dried her hair"
       ],
       "optionReasons": {
-        "dry-mcq-19": "本句指「弄乾」。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-16": "「不動聲色地」是「dryly」的用法，與本句語境不同。"
+        "dry-mcq-19": "本句的「dried her hair」指「弄乾」。",
+        "dry-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-19"
     },
@@ -1794,11 +1654,9 @@ export default {
       "masked": "Leave the paint to ____.",
       "options": [
         "dry-pdf-002",
-        "dry-mcq-19",
-        "dry-mcq-21",
-        "dry-mcq-18",
-        "dry-mcq-22",
-        "dry-mcq-17"
+        "dry-mcq-23",
+        "dry-mcq-14",
+        "dry-mcq-16"
       ],
       "explanation": "本句的「dry」指「水分逐漸消失而變乾」。",
       "sentenceIndex": 39,
@@ -1807,12 +1665,10 @@ export default {
         "dry"
       ],
       "optionReasons": {
-        "dry-pdf-002": "本句指「水分逐漸消失而變乾」。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。"
+        "dry-pdf-002": "本句的「dry」指「水分逐漸消失而變乾」。",
+        "dry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-pdf-002"
     },
@@ -1824,11 +1680,9 @@ export default {
       "masked": "The clothes ____ quickly in the sun.",
       "options": [
         "dry-pdf-002",
-        "dry-mcq-19",
-        "dry-mcq-21",
-        "dry-mcq-18",
-        "dry-mcq-22",
-        "dry-mcq-17"
+        "dry-mcq-02",
+        "dry-mcq-27",
+        "dry-mcq-24"
       ],
       "explanation": "本句的「dried」指「水分逐漸消失而變乾」。",
       "sentenceIndex": 40,
@@ -1837,12 +1691,10 @@ export default {
         "dried"
       ],
       "optionReasons": {
-        "dry-pdf-002": "本句指「水分逐漸消失而變乾」。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。"
+        "dry-pdf-002": "本句的「dried」指「水分逐漸消失而變乾」。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-pdf-002"
     },
@@ -1854,11 +1706,9 @@ export default {
       "masked": "The soil ____ during the hot weather.",
       "options": [
         "dry-mcq-20",
-        "dry-mcq-19",
-        "dry-mcq-21",
-        "dry-mcq-18",
-        "dry-mcq-22",
-        "dry-mcq-17"
+        "dry-mcq-25",
+        "dry-mcq-02",
+        "dry-mcq-26"
       ],
       "explanation": "本句的「dried out」指「乾透」。",
       "sentenceIndex": 41,
@@ -1867,12 +1717,10 @@ export default {
         "dried out"
       ],
       "optionReasons": {
-        "dry-mcq-20": "本句指「乾透」。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。"
+        "dry-mcq-20": "本句的「dried out」指「乾透」。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-20"
     },
@@ -1884,11 +1732,9 @@ export default {
       "masked": "Don't let the cake ____.",
       "options": [
         "dry-mcq-20",
-        "dry-mcq-19",
-        "dry-mcq-21",
-        "dry-mcq-18",
-        "dry-mcq-22",
-        "dry-mcq-17"
+        "dry-mcq-02",
+        "dry-mcq-24",
+        "dry-mcq-14"
       ],
       "explanation": "本句的「dry out」指「乾透」。",
       "sentenceIndex": 42,
@@ -1897,12 +1743,10 @@ export default {
         "dry out"
       ],
       "optionReasons": {
-        "dry-mcq-20": "本句指「乾透」。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-17": "「少雨期」是「dry spell」的用法，與本句語境不同。"
+        "dry-mcq-20": "本句的「dry out」指「乾透」。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-20"
     },
@@ -1914,11 +1758,9 @@ export default {
       "masked": "He entered a clinic to ____.",
       "options": [
         "dry-mcq-21",
-        "dry-mcq-20",
-        "dry-mcq-22",
-        "dry-mcq-19",
+        "dry-mcq-07",
         "dry-mcq-23",
-        "dry-mcq-18"
+        "dry-mcq-24"
       ],
       "explanation": "本句的「dry out」指「戒酒」。",
       "sentenceIndex": 43,
@@ -1927,12 +1769,10 @@ export default {
         "dry out"
       ],
       "optionReasons": {
-        "dry-mcq-21": "本句指「戒酒」。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。"
+        "dry-mcq-21": "本句的「dry out」指「戒酒」。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-21"
     },
@@ -1944,11 +1784,9 @@ export default {
       "masked": "He needed time to ____ after years of heavy drinking.",
       "options": [
         "dry-mcq-21",
-        "dry-mcq-20",
-        "dry-mcq-22",
-        "dry-mcq-19",
-        "dry-mcq-23",
-        "dry-mcq-18"
+        "dry-mcq-12",
+        "dry-mcq-14",
+        "dry-mcq-25"
       ],
       "explanation": "本句的「dry out」指「戒酒」。",
       "sentenceIndex": 44,
@@ -1957,12 +1795,10 @@ export default {
         "dry out"
       ],
       "optionReasons": {
-        "dry-mcq-21": "本句指「戒酒」。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-18": "「低潮期／荒」是「dry spell (fig.)」的用法，與本句語境不同。"
+        "dry-mcq-21": "本句的「dry out」指「戒酒」。",
+        "dry-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-21"
     },
@@ -1974,11 +1810,9 @@ export default {
       "masked": "The river ____ during the drought.",
       "options": [
         "dry-mcq-22",
-        "dry-mcq-21",
-        "dry-mcq-23",
-        "dry-mcq-20",
-        "dry-mcq-24",
-        "dry-mcq-19"
+        "dry-mcq-07",
+        "dry-mcq-02",
+        "dry-reviewed-a39dd8eabd"
       ],
       "explanation": "本句的「dried up」指「乾涸」。",
       "sentenceIndex": 45,
@@ -1987,12 +1821,10 @@ export default {
         "dried up"
       ],
       "optionReasons": {
-        "dry-mcq-22": "本句指「乾涸」。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。"
+        "dry-mcq-22": "本句的「dried up」指「乾涸」。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-reviewed-a39dd8eabd": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-22"
     },
@@ -2004,11 +1836,9 @@ export default {
       "masked": "The well has ____.",
       "options": [
         "dry-mcq-22",
-        "dry-mcq-21",
-        "dry-mcq-23",
-        "dry-mcq-20",
-        "dry-mcq-24",
-        "dry-mcq-19"
+        "dry-mcq-25",
+        "dry-mcq-27",
+        "dry-mcq-24"
       ],
       "explanation": "本句的「dried up」指「乾涸」。",
       "sentenceIndex": 46,
@@ -2017,12 +1847,10 @@ export default {
         "dried up"
       ],
       "optionReasons": {
-        "dry-mcq-22": "本句指「乾涸」。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-19": "「弄乾」是「dry something」的用法，與本句語境不同。"
+        "dry-mcq-22": "本句的「dried up」指「乾涸」。",
+        "dry-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-22"
     },
@@ -2034,11 +1862,9 @@ export default {
       "masked": "Funding suddenly ____.",
       "options": [
         "dry-mcq-23",
-        "dry-mcq-22",
-        "dry-mcq-24",
-        "dry-mcq-21",
-        "dry-mcq-25",
-        "dry-mcq-20"
+        "dry-mcq-11",
+        "dry-mcq-27",
+        "dry-mcq-21"
       ],
       "explanation": "本句的「dried up」指「枯竭」。",
       "sentenceIndex": 47,
@@ -2047,12 +1873,10 @@ export default {
         "dried up"
       ],
       "optionReasons": {
-        "dry-mcq-23": "本句指「枯竭」。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。"
+        "dry-mcq-23": "本句的「dried up」指「枯竭」。",
+        "dry-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-23"
     },
@@ -2064,11 +1888,9 @@ export default {
       "masked": "Orders began to ____.",
       "options": [
         "dry-mcq-23",
-        "dry-mcq-22",
-        "dry-mcq-24",
-        "dry-mcq-21",
-        "dry-mcq-25",
-        "dry-mcq-20"
+        "dry-mcq-05",
+        "dry-reviewed-a39dd8eabd",
+        "dry-mcq-24"
       ],
       "explanation": "本句的「dry up」指「枯竭」。",
       "sentenceIndex": 48,
@@ -2077,12 +1899,10 @@ export default {
         "dry up"
       ],
       "optionReasons": {
-        "dry-mcq-23": "本句指「枯竭」。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-20": "「乾透」是「dry out」的用法，與本句語境不同。"
+        "dry-mcq-23": "本句的「dry up」指「枯竭」。",
+        "dry-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dry-reviewed-a39dd8eabd": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-23"
     },
@@ -2094,11 +1914,9 @@ export default {
       "masked": "I completely ____ during the interview.",
       "options": [
         "dry-mcq-24",
-        "dry-mcq-23",
-        "dry-mcq-25",
-        "dry-mcq-22",
-        "dry-mcq-26",
-        "dry-mcq-21"
+        "dry-mcq-06",
+        "dry-mcq-14",
+        "dry-mcq-27"
       ],
       "explanation": "本句的「dried up」指「語塞」。",
       "sentenceIndex": 49,
@@ -2107,12 +1925,10 @@ export default {
         "dried up"
       ],
       "optionReasons": {
-        "dry-mcq-24": "本句指「語塞」。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-26": "「缺乏感情、熱情或明顯情緒的語氣／回答」是「15. dry voice / reply — 冷淡、平板的聲音／回答」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。"
+        "dry-mcq-24": "本句的「dried up」指「語塞」。",
+        "dry-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-24"
     },
@@ -2124,11 +1940,9 @@ export default {
       "masked": "Halfway through the speech, he ____.",
       "options": [
         "dry-mcq-24",
-        "dry-mcq-23",
-        "dry-mcq-25",
-        "dry-mcq-22",
-        "dry-mcq-26",
-        "dry-mcq-21"
+        "dry-mcq-02",
+        "dry-pdf-001",
+        "dry-mcq-07"
       ],
       "explanation": "本句的「dried up」指「語塞」。",
       "sentenceIndex": 50,
@@ -2137,12 +1951,10 @@ export default {
         "dried up"
       ],
       "optionReasons": {
-        "dry-mcq-24": "本句指「語塞」。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-25": "「預演；試運行」是「dry run」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。",
-        "dry-mcq-26": "「缺乏感情、熱情或明顯情緒的語氣／回答」是「15. dry voice / reply — 冷淡、平板的聲音／回答」的用法，與本句語境不同。",
-        "dry-mcq-21": "「戒酒」是「dry out (person)」的用法，與本句語境不同。"
+        "dry-mcq-24": "本句的「dried up」指「語塞」。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-24"
     },
@@ -2154,11 +1966,9 @@ export default {
       "masked": "Let's do a ____ before the presentation.",
       "options": [
         "dry-mcq-25",
-        "dry-mcq-24",
-        "dry-mcq-26",
-        "dry-mcq-23",
-        "dry-mcq-27",
-        "dry-mcq-22"
+        "dry-mcq-19",
+        "dry-mcq-02",
+        "dry-mcq-26"
       ],
       "explanation": "本句的「dry run」指「預演；試運行」。",
       "sentenceIndex": 51,
@@ -2167,12 +1977,10 @@ export default {
         "dry run"
       ],
       "optionReasons": {
-        "dry-mcq-25": "本句指「預演；試運行」。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-26": "「缺乏感情、熱情或明顯情緒的語氣／回答」是「15. dry voice / reply — 冷淡、平板的聲音／回答」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-27": "「只有資料和數字、缺乏生動背景或情感的內容」是「16. dry facts / statistics — 枯燥的事實／數據」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。"
+        "dry-mcq-25": "本句的「dry run」指「預演；試運行」。",
+        "dry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-25"
     },
@@ -2184,11 +1992,9 @@ export default {
       "masked": "The team carried out a ____ of the new procedure.",
       "options": [
         "dry-mcq-25",
-        "dry-mcq-24",
-        "dry-mcq-26",
-        "dry-mcq-23",
-        "dry-mcq-27",
-        "dry-mcq-22"
+        "dry-mcq-19",
+        "dry-mcq-02",
+        "dry-mcq-26"
       ],
       "explanation": "本句的「dry run」指「預演；試運行」。",
       "sentenceIndex": 52,
@@ -2197,12 +2003,10 @@ export default {
         "dry run"
       ],
       "optionReasons": {
-        "dry-mcq-25": "本句指「預演；試運行」。",
-        "dry-mcq-24": "「語塞」是「dry up (speech)」的用法，與本句語境不同。",
-        "dry-mcq-26": "「缺乏感情、熱情或明顯情緒的語氣／回答」是「15. dry voice / reply — 冷淡、平板的聲音／回答」的用法，與本句語境不同。",
-        "dry-mcq-23": "「枯竭」是「dry up (fig.)」的用法，與本句語境不同。",
-        "dry-mcq-27": "「只有資料和數字、缺乏生動背景或情感的內容」是「16. dry facts / statistics — 枯燥的事實／數據」的用法，與本句語境不同。",
-        "dry-mcq-22": "「乾涸」是「dry up」的用法，與本句語境不同。"
+        "dry-mcq-25": "本句的「dry run」指「預演；試運行」。",
+        "dry-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dry-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dry-mcq-25"
     }
@@ -2214,5 +2018,7 @@ export default {
     "sha256": "69a288ae365915e66a13f702d57b2fbb1cbdf3b4c946570d4999afb0ea57ac76",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

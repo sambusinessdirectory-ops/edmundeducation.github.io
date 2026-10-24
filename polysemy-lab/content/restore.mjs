@@ -524,11 +524,7 @@ export default {
       "masked": "The apology helped ____.",
       "options": [
         "restore-mcq-01",
-        "restore-mcq-02",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「restore the relationship」指「恢復；復原」。",
       "sentenceIndex": 0,
@@ -537,12 +533,8 @@ export default {
         "restore the relationship"
       ],
       "optionReasons": {
-        "restore-mcq-01": "本句指「恢復；復原」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-01": "本句的「restore the relationship」指「恢復；復原」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-01"
     },
@@ -554,11 +546,7 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "restore-mcq-01",
-        "restore-mcq-02",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「restore normal service」指「恢復；復原」。",
       "sentenceIndex": 1,
@@ -567,12 +555,8 @@ export default {
         "restore normal service"
       ],
       "optionReasons": {
-        "restore-mcq-01": "本句指「恢復；復原」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-01": "本句的「restore normal service」指「恢復；復原」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-01"
     },
@@ -584,11 +568,7 @@ export default {
       "masked": "The treatment helped ____.",
       "options": [
         "restore-mcq-01",
-        "restore-mcq-02",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「restore his strength」指「恢復；復原」。",
       "sentenceIndex": 2,
@@ -597,12 +577,8 @@ export default {
         "restore his strength"
       ],
       "optionReasons": {
-        "restore-mcq-01": "本句指「恢復；復原」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-01": "本句的「restore his strength」指「恢復；復原」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-01"
     },
@@ -614,11 +590,7 @@ export default {
       "masked": "His apology ____.",
       "options": [
         "restore-mcq-02",
-        "restore-mcq-01",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restored trust」指「修復／恢復信任」。",
       "sentenceIndex": 3,
@@ -627,12 +599,8 @@ export default {
         "restored trust"
       ],
       "optionReasons": {
-        "restore-mcq-02": "本句指「修復／恢復信任」。",
-        "restore-mcq-01": "「恢復；復原」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-02": "本句的「restored trust」指「修復／恢復信任」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-02"
     },
@@ -644,11 +612,7 @@ export default {
       "masked": "Honest communication can help ____.",
       "options": [
         "restore-mcq-02",
-        "restore-mcq-01",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restore trust」指「修復／恢復信任」。",
       "sentenceIndex": 4,
@@ -657,12 +621,8 @@ export default {
         "restore trust"
       ],
       "optionReasons": {
-        "restore-mcq-02": "本句指「修復／恢復信任」。",
-        "restore-mcq-01": "「恢復；復原」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-02": "本句的「restore trust」指「修復／恢復信任」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-02"
     },
@@ -674,11 +634,8 @@ export default {
       "masked": "The successful result ____.",
       "options": [
         "restore-mcq-03",
-        "restore-mcq-02",
-        "restore-mcq-04",
-        "restore-mcq-01",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored her confidence」指「恢復信心」。",
       "sentenceIndex": 5,
@@ -687,12 +644,9 @@ export default {
         "restored her confidence"
       ],
       "optionReasons": {
-        "restore-mcq-03": "本句指「恢復信心」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-01": "「恢復；復原」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-03": "本句的「restored her confidence」指「恢復信心」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-03"
     },
@@ -704,11 +658,8 @@ export default {
       "masked": "The company is trying to ____.",
       "options": [
         "restore-mcq-03",
-        "restore-mcq-02",
-        "restore-mcq-04",
-        "restore-mcq-01",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restore public confidence」指「恢復信心」。",
       "sentenceIndex": 6,
@@ -717,12 +668,9 @@ export default {
         "restore public confidence"
       ],
       "optionReasons": {
-        "restore-mcq-03": "本句指「恢復信心」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-01": "「恢復；復原」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-03": "本句的「restore public confidence」指「恢復信心」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-03"
     },
@@ -734,11 +682,8 @@ export default {
       "masked": "The teacher quickly ____ in the classroom.",
       "options": [
         "restore-mcq-04",
-        "restore-mcq-03",
-        "restore-mcq-05",
-        "restore-mcq-02",
-        "restore-mcq-06",
-        "restore-mcq-01"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restored order」指「恢復秩序」。",
       "sentenceIndex": 7,
@@ -747,12 +692,9 @@ export default {
         "restored order"
       ],
       "optionReasons": {
-        "restore-mcq-04": "本句指「恢復秩序」。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-01": "「恢復；復原」與本句語境不同。"
+        "restore-mcq-04": "本句的「restored order」指「恢復秩序」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-04"
     },
@@ -764,11 +706,8 @@ export default {
       "masked": "Police were called to ____.",
       "options": [
         "restore-mcq-04",
-        "restore-mcq-03",
-        "restore-mcq-05",
-        "restore-mcq-02",
-        "restore-mcq-06",
-        "restore-mcq-01"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restore order」指「恢復秩序」。",
       "sentenceIndex": 8,
@@ -777,12 +716,9 @@ export default {
         "restore order"
       ],
       "optionReasons": {
-        "restore-mcq-04": "本句指「恢復秩序」。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-01": "「恢復；復原」與本句語境不同。"
+        "restore-mcq-04": "本句的「restore order」指「恢復秩序」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-04"
     },
@@ -794,11 +730,7 @@ export default {
       "masked": "The agreement helped ____.",
       "options": [
         "restore-mcq-05",
-        "restore-mcq-04",
-        "restore-mcq-06",
-        "restore-mcq-03",
-        "restore-mcq-07",
-        "restore-mcq-02"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restore peace」指「恢復和平」。",
       "sentenceIndex": 9,
@@ -807,12 +739,8 @@ export default {
         "restore peace"
       ],
       "optionReasons": {
-        "restore-mcq-05": "本句指「恢復和平」。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。"
+        "restore-mcq-05": "本句的「restore peace」指「恢復和平」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-05"
     },
@@ -824,11 +752,7 @@ export default {
       "masked": "We wanted to ____ within the group.",
       "options": [
         "restore-mcq-05",
-        "restore-mcq-04",
-        "restore-mcq-06",
-        "restore-mcq-03",
-        "restore-mcq-07",
-        "restore-mcq-02"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restore peace」指「恢復和平」。",
       "sentenceIndex": 10,
@@ -837,12 +761,8 @@ export default {
         "restore peace"
       ],
       "optionReasons": {
-        "restore-mcq-05": "本句指「恢復和平」。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。"
+        "restore-mcq-05": "本句的「restore peace」指「恢復和平」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-05"
     },
@@ -854,11 +774,8 @@ export default {
       "masked": "The changes helped ____ to the system.",
       "options": [
         "restore-mcq-06",
-        "restore-mcq-05",
-        "restore-mcq-07",
-        "restore-mcq-04",
-        "restore-mcq-08",
-        "restore-mcq-03"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restore balance」指「恢復平衡」。",
       "sentenceIndex": 11,
@@ -867,12 +784,9 @@ export default {
         "restore balance"
       ],
       "optionReasons": {
-        "restore-mcq-06": "本句指「恢復平衡」。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。"
+        "restore-mcq-06": "本句的「restore balance」指「恢復平衡」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-06"
     },
@@ -884,11 +798,8 @@ export default {
       "masked": "She took time off to ____ in her life.",
       "options": [
         "restore-mcq-06",
-        "restore-mcq-05",
-        "restore-mcq-07",
-        "restore-mcq-04",
-        "restore-mcq-08",
-        "restore-mcq-03"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restore balance」指「恢復平衡」。",
       "sentenceIndex": 12,
@@ -897,12 +808,9 @@ export default {
         "restore balance"
       ],
       "optionReasons": {
-        "restore-mcq-06": "本句指「恢復平衡」。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。"
+        "restore-mcq-06": "本句的「restore balance」指「恢復平衡」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-06"
     },
@@ -914,11 +822,8 @@ export default {
       "masked": "Engineers worked overnight to ____.",
       "options": [
         "restore-mcq-07",
-        "restore-mcq-06",
-        "restore-mcq-08",
-        "restore-mcq-05",
-        "restore-mcq-09",
-        "restore-mcq-04"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restore power」指「恢復供電」。",
       "sentenceIndex": 13,
@@ -927,12 +832,9 @@ export default {
         "restore power"
       ],
       "optionReasons": {
-        "restore-mcq-07": "本句指「恢復供電」。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。"
+        "restore-mcq-07": "本句的「restore power」指「恢復供電」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-07"
     },
@@ -944,11 +846,8 @@ export default {
       "masked": "Electricity was ____ after two hours.",
       "options": [
         "restore-mcq-07",
-        "restore-mcq-06",
-        "restore-mcq-08",
-        "restore-mcq-05",
-        "restore-mcq-09",
-        "restore-mcq-04"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored」指「恢復供電」。",
       "sentenceIndex": 14,
@@ -957,12 +856,9 @@ export default {
         "restored"
       ],
       "optionReasons": {
-        "restore-mcq-07": "本句指「恢復供電」。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。"
+        "restore-mcq-07": "本句的「restored」指「恢復供電」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-07"
     },
@@ -974,11 +870,8 @@ export default {
       "masked": "The company is working to ____.",
       "options": [
         "restore-mcq-08",
-        "restore-mcq-07",
-        "restore-mcq-09",
-        "restore-mcq-06",
-        "restore-mcq-10",
-        "restore-mcq-05"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restore service」指「恢復服務」。",
       "sentenceIndex": 15,
@@ -987,12 +880,9 @@ export default {
         "restore service"
       ],
       "optionReasons": {
-        "restore-mcq-08": "本句指「恢復服務」。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。"
+        "restore-mcq-08": "本句的「restore service」指「恢復服務」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-08"
     },
@@ -1004,11 +894,8 @@ export default {
       "masked": "Train services were ____ in the afternoon.",
       "options": [
         "restore-mcq-08",
-        "restore-mcq-07",
-        "restore-mcq-09",
-        "restore-mcq-06",
-        "restore-mcq-10",
-        "restore-mcq-05"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restored」指「恢復服務」。",
       "sentenceIndex": 16,
@@ -1017,12 +904,9 @@ export default {
         "restored"
       ],
       "optionReasons": {
-        "restore-mcq-08": "本句指「恢復服務」。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。"
+        "restore-mcq-08": "本句的「restored」指「恢復服務」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-08"
     },
@@ -1034,11 +918,8 @@ export default {
       "masked": "The administrator ____ to the folder.",
       "options": [
         "restore-mcq-09",
-        "restore-mcq-08",
-        "restore-mcq-10",
-        "restore-mcq-07",
-        "restore-mcq-11",
-        "restore-mcq-06"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored my access」指「恢復存取／通行」。",
       "sentenceIndex": 17,
@@ -1047,12 +928,9 @@ export default {
         "restored my access"
       ],
       "optionReasons": {
-        "restore-mcq-09": "本句指「恢復存取／通行」。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-09": "本句的「restored my access」指「恢復存取／通行」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-09"
     },
@@ -1064,11 +942,8 @@ export default {
       "masked": "The road was reopened to ____ to the village.",
       "options": [
         "restore-mcq-09",
-        "restore-mcq-08",
-        "restore-mcq-10",
-        "restore-mcq-07",
-        "restore-mcq-11",
-        "restore-mcq-06"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restore access」指「恢復存取／通行」。",
       "sentenceIndex": 18,
@@ -1077,12 +952,9 @@ export default {
         "restore access"
       ],
       "optionReasons": {
-        "restore-mcq-09": "本句指「恢復存取／通行」。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-09": "本句的「restore access」指「恢復存取／通行」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-09"
     },
@@ -1094,11 +966,8 @@ export default {
       "masked": "They ____.",
       "options": [
         "restore-mcq-10",
-        "restore-mcq-09",
-        "restore-mcq-11",
-        "restore-mcq-08",
-        "restore-mcq-12",
-        "restore-mcq-07"
+        "restore-mcq-14",
+        "restore-mcq-18"
       ],
       "explanation": "本句的「restored the old house」指「修復建築」。",
       "sentenceIndex": 19,
@@ -1107,12 +976,9 @@ export default {
         "restored the old house"
       ],
       "optionReasons": {
-        "restore-mcq-10": "本句指「修復建築」。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。"
+        "restore-mcq-10": "本句的「restored the old house」指「修復建築」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-10"
     },
@@ -1124,11 +990,8 @@ export default {
       "masked": "The church was carefully ____.",
       "options": [
         "restore-mcq-10",
-        "restore-mcq-09",
-        "restore-mcq-11",
-        "restore-mcq-08",
-        "restore-mcq-12",
-        "restore-mcq-07"
+        "restore-mcq-14",
+        "restore-mcq-18"
       ],
       "explanation": "本句的「restored」指「修復建築」。",
       "sentenceIndex": 20,
@@ -1137,12 +1000,9 @@ export default {
         "restored"
       ],
       "optionReasons": {
-        "restore-mcq-10": "本句指「修復建築」。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。",
-        "restore-mcq-07": "「恢復供電」與本句語境不同。"
+        "restore-mcq-10": "本句的「restored」指「修復建築」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-10"
     },
@@ -1154,11 +1014,7 @@ export default {
       "masked": "Experts ____.",
       "options": [
         "restore-mcq-11",
-        "restore-mcq-10",
-        "restore-mcq-12",
-        "restore-mcq-09",
-        "restore-mcq-13",
-        "restore-mcq-08"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restored the painting」指「修復畫作」。",
       "sentenceIndex": 21,
@@ -1167,12 +1023,8 @@ export default {
         "restored the painting"
       ],
       "optionReasons": {
-        "restore-mcq-11": "本句指「修復畫作」。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。"
+        "restore-mcq-11": "本句的「restored the painting」指「修復畫作」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-11"
     },
@@ -1184,11 +1036,7 @@ export default {
       "masked": "The damaged artwork was fully ____.",
       "options": [
         "restore-mcq-11",
-        "restore-mcq-10",
-        "restore-mcq-12",
-        "restore-mcq-09",
-        "restore-mcq-13",
-        "restore-mcq-08"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restored」指「修復畫作」。",
       "sentenceIndex": 22,
@@ -1197,12 +1045,8 @@ export default {
         "restored"
       ],
       "optionReasons": {
-        "restore-mcq-11": "本句指「修復畫作」。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-08": "「恢復服務」與本句語境不同。"
+        "restore-mcq-11": "本句的「restored」指「修復畫作」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-11"
     },
@@ -1214,11 +1058,8 @@ export default {
       "masked": "The furniture was ____.",
       "options": [
         "restore-mcq-12",
-        "restore-mcq-11",
-        "restore-mcq-13",
-        "restore-mcq-10",
         "restore-mcq-14",
-        "restore-mcq-09"
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored to its original condition」指「恢復原狀」。",
       "sentenceIndex": 23,
@@ -1227,12 +1068,9 @@ export default {
         "restored to its original condition"
       ],
       "optionReasons": {
-        "restore-mcq-12": "本句指「恢復原狀」。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。"
+        "restore-mcq-12": "本句的「restored to its original condition」指「恢復原狀」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-12"
     },
@@ -1244,11 +1082,8 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "restore-mcq-12",
-        "restore-mcq-11",
-        "restore-mcq-13",
         "restore-mcq-10",
-        "restore-mcq-14",
-        "restore-mcq-09"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restored to its former appearance」指「恢復原狀」。",
       "sentenceIndex": 24,
@@ -1257,12 +1092,9 @@ export default {
         "restored to its former appearance"
       ],
       "optionReasons": {
-        "restore-mcq-12": "本句指「恢復原狀」。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-10": "「修復建築」與本句語境不同。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。",
-        "restore-mcq-09": "「恢復存取／通行」與本句語境不同。"
+        "restore-mcq-12": "本句的「restored to its former appearance」指「恢復原狀」。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-12"
     },
@@ -1274,11 +1106,7 @@ export default {
       "masked": "I accidentally deleted the file, but I managed to ____.",
       "options": [
         "restore-mcq-01",
-        "restore-mcq-02",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「restore it」指「恢復；復原」。",
       "sentenceIndex": 25,
@@ -1287,12 +1115,8 @@ export default {
         "restore it"
       ],
       "optionReasons": {
-        "restore-mcq-01": "本句指「恢復；復原」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-01": "本句的「restore it」指「恢復；復原」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-01"
     },
@@ -1304,11 +1128,7 @@ export default {
       "masked": "You can ____.",
       "options": [
         "restore-mcq-01",
-        "restore-mcq-02",
-        "restore-mcq-03",
-        "restore-mcq-04",
-        "restore-mcq-05",
-        "restore-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「restore the data from a backup」指「恢復；復原」。",
       "sentenceIndex": 26,
@@ -1317,12 +1137,8 @@ export default {
         "restore the data from a backup"
       ],
       "optionReasons": {
-        "restore-mcq-01": "本句指「恢復；復原」。",
-        "restore-mcq-02": "「修復／恢復信任」與本句語境不同。",
-        "restore-mcq-03": "「恢復信心」與本句語境不同。",
-        "restore-mcq-04": "「恢復秩序」與本句語境不同。",
-        "restore-mcq-05": "「恢復和平」與本句語境不同。",
-        "restore-mcq-06": "「恢復平衡」與本句語境不同。"
+        "restore-mcq-01": "本句的「restore the data from a backup」指「恢復；復原」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-01"
     },
@@ -1334,11 +1150,7 @@ export default {
       "masked": "The system was ____.",
       "options": [
         "restore-mcq-14",
-        "restore-mcq-13",
-        "restore-mcq-15",
-        "restore-mcq-12",
-        "restore-mcq-16",
-        "restore-mcq-11"
+        "restore-mcq-20"
       ],
       "explanation": "本句的「restored from a backup」指「從備份還原」。",
       "sentenceIndex": 27,
@@ -1347,12 +1159,8 @@ export default {
         "restored from a backup"
       ],
       "optionReasons": {
-        "restore-mcq-14": "本句指「從備份還原」。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。"
+        "restore-mcq-14": "本句的「restored from a backup」指「從備份還原」。",
+        "restore-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-14"
     },
@@ -1364,11 +1172,7 @@ export default {
       "masked": "Always keep a backup in case you need to ____.",
       "options": [
         "restore-mcq-14",
-        "restore-mcq-13",
-        "restore-mcq-15",
-        "restore-mcq-12",
-        "restore-mcq-16",
-        "restore-mcq-11"
+        "restore-mcq-20"
       ],
       "explanation": "本句的「restore your files」指「從備份還原」。",
       "sentenceIndex": 28,
@@ -1377,12 +1181,8 @@ export default {
         "restore your files"
       ],
       "optionReasons": {
-        "restore-mcq-14": "本句指「從備份還原」。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-11": "「修復畫作」與本句語境不同。"
+        "restore-mcq-14": "本句的「restore your files」指「從備份還原」。",
+        "restore-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-14"
     },
@@ -1395,10 +1195,7 @@ export default {
       "options": [
         "restore-mcq-15",
         "restore-mcq-14",
-        "restore-mcq-16",
-        "restore-mcq-13",
-        "restore-mcq-17",
-        "restore-mcq-12"
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restore him to health」指「使某人恢復健康」。",
       "sentenceIndex": 31,
@@ -1407,12 +1204,9 @@ export default {
         "restore him to health"
       ],
       "optionReasons": {
-        "restore-mcq-15": "本句指「使某人恢復健康」。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。"
+        "restore-mcq-15": "本句的「restore him to health」指「使某人恢復健康」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-15"
     },
@@ -1425,10 +1219,7 @@ export default {
       "options": [
         "restore-mcq-15",
         "restore-mcq-14",
-        "restore-mcq-16",
-        "restore-mcq-13",
-        "restore-mcq-17",
-        "restore-mcq-12"
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restored her to full health」指「使某人恢復健康」。",
       "sentenceIndex": 32,
@@ -1437,12 +1228,9 @@ export default {
         "restored her to full health"
       ],
       "optionReasons": {
-        "restore-mcq-15": "本句指「使某人恢復健康」。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。",
-        "restore-mcq-12": "「恢復原狀」與本句語境不同。"
+        "restore-mcq-15": "本句的「restored her to full health」指「使某人恢復健康」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-15"
     },
@@ -1454,11 +1242,8 @@ export default {
       "masked": "A good night's sleep ____.",
       "options": [
         "restore-mcq-16",
-        "restore-mcq-15",
-        "restore-mcq-17",
         "restore-mcq-14",
-        "restore-mcq-18",
-        "restore-mcq-13"
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored my energy」指「恢復體力」。",
       "sentenceIndex": 33,
@@ -1467,12 +1252,9 @@ export default {
         "restored my energy"
       ],
       "optionReasons": {
-        "restore-mcq-16": "本句指「恢復體力」。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。"
+        "restore-mcq-16": "本句的「restored my energy」指「恢復體力」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-16"
     },
@@ -1484,11 +1266,8 @@ export default {
       "masked": "Food and rest helped ____.",
       "options": [
         "restore-mcq-16",
-        "restore-mcq-15",
-        "restore-mcq-17",
         "restore-mcq-14",
-        "restore-mcq-18",
-        "restore-mcq-13"
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restore his strength」指「恢復體力」。",
       "sentenceIndex": 34,
@@ -1497,12 +1276,9 @@ export default {
         "restore his strength"
       ],
       "optionReasons": {
-        "restore-mcq-16": "本句指「恢復體力」。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。",
-        "restore-mcq-13": "「還原檔案」與本句語境不同。"
+        "restore-mcq-16": "本句的「restore his strength」指「恢復體力」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-16"
     },
@@ -1514,11 +1290,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "restore-mcq-17",
-        "restore-mcq-16",
-        "restore-mcq-18",
-        "restore-mcq-15",
-        "restore-mcq-19",
-        "restore-mcq-14"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored to his former position」指「恢復某人職位」。",
       "sentenceIndex": 35,
@@ -1527,12 +1300,9 @@ export default {
         "restored to his former position"
       ],
       "optionReasons": {
-        "restore-mcq-17": "本句指「恢復某人職位」。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。"
+        "restore-mcq-17": "本句的「restored to his former position」指「恢復某人職位」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-17"
     },
@@ -1544,11 +1314,8 @@ export default {
       "masked": "The court ordered that she be ____.",
       "options": [
         "restore-mcq-17",
-        "restore-mcq-16",
-        "restore-mcq-18",
-        "restore-mcq-15",
-        "restore-mcq-19",
-        "restore-mcq-14"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored to her job」指「恢復某人職位」。",
       "sentenceIndex": 36,
@@ -1557,12 +1324,9 @@ export default {
         "restored to her job"
       ],
       "optionReasons": {
-        "restore-mcq-17": "本句指「恢復某人職位」。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-14": "「從備份還原」與本句語境不同。"
+        "restore-mcq-17": "本句的「restored to her job」指「恢復某人職位」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-17"
     },
@@ -1574,11 +1338,8 @@ export default {
       "masked": "The decision ____.",
       "options": [
         "restore-mcq-18",
-        "restore-mcq-17",
-        "restore-mcq-19",
-        "restore-mcq-16",
-        "restore-mcq-20",
-        "restore-mcq-15"
+        "restore-mcq-14",
+        "restore-mcq-10"
       ],
       "explanation": "本句的「restored his rights」指「恢復權利」。",
       "sentenceIndex": 37,
@@ -1587,12 +1348,9 @@ export default {
         "restored his rights"
       ],
       "optionReasons": {
-        "restore-mcq-18": "本句指「恢復權利」。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。"
+        "restore-mcq-18": "本句的「restored his rights」指「恢復權利」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-18"
     },
@@ -1604,11 +1362,8 @@ export default {
       "masked": "Her membership was ____.",
       "options": [
         "restore-mcq-18",
-        "restore-mcq-17",
-        "restore-mcq-19",
-        "restore-mcq-16",
-        "restore-mcq-20",
-        "restore-mcq-15"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restored」指「恢復權利」。",
       "sentenceIndex": 38,
@@ -1617,12 +1372,9 @@ export default {
         "restored"
       ],
       "optionReasons": {
-        "restore-mcq-18": "本句指「恢復權利」。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-16": "「恢復體力」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-15": "「使某人恢復健康」與本句語境不同。"
+        "restore-mcq-18": "本句的「restored」指「恢復權利」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-18"
     },
@@ -1634,11 +1386,7 @@ export default {
       "masked": "The ____ took time.",
       "options": [
         "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-21",
-        "restore-mcq-18",
-        "restore-mcq-22",
-        "restore-mcq-17"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restoration of trust」指「恢復；修復」。",
       "sentenceIndex": 39,
@@ -1647,12 +1395,8 @@ export default {
         "restoration of trust"
       ],
       "optionReasons": {
-        "restore-mcq-20": "本句指「恢復；修復」。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。",
-        "restore-mcq-22": "「有助恢復的」與本句語境不同。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。"
+        "restore-mcq-20": "本句的「restoration of trust」指「恢復；修復」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-20"
     },
@@ -1664,11 +1408,7 @@ export default {
       "masked": "The building is undergoing ____.",
       "options": [
         "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-21",
-        "restore-mcq-18",
-        "restore-mcq-22",
-        "restore-mcq-17"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restoration」指「恢復；修復」。",
       "sentenceIndex": 40,
@@ -1677,12 +1417,8 @@ export default {
         "restoration"
       ],
       "optionReasons": {
-        "restore-mcq-20": "本句指「恢復；修復」。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。",
-        "restore-mcq-22": "「有助恢復的」與本句語境不同。",
-        "restore-mcq-17": "「恢復某人職位」與本句語境不同。"
+        "restore-mcq-20": "本句的「restoration」指「恢復；修復」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-20"
     },
@@ -1694,11 +1430,8 @@ export default {
       "masked": "____ on the old building took two years.",
       "options": [
         "restore-mcq-21",
-        "restore-mcq-20",
-        "restore-mcq-22",
-        "restore-mcq-19",
-        "restore-mcq-23",
-        "restore-mcq-18"
+        "restore-mcq-14",
+        "restore-mcq-23"
       ],
       "explanation": "本句的「Restoration work」指「修復工程」。",
       "sentenceIndex": 43,
@@ -1707,12 +1440,9 @@ export default {
         "Restoration work"
       ],
       "optionReasons": {
-        "restore-mcq-21": "本句指「修復工程」。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-22": "「有助恢復的」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-23": "「恢復性的睡眠」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-21": "本句的「Restoration work」指「修復工程」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-21"
     },
@@ -1724,11 +1454,8 @@ export default {
       "masked": "The museum specializes in art ____.",
       "options": [
         "restore-mcq-21",
-        "restore-mcq-20",
-        "restore-mcq-22",
-        "restore-mcq-19",
-        "restore-mcq-23",
-        "restore-mcq-18"
+        "restore-mcq-14",
+        "restore-mcq-07"
       ],
       "explanation": "本句的「restoration work」指「修復工程」。",
       "sentenceIndex": 44,
@@ -1737,12 +1464,9 @@ export default {
         "restoration work"
       ],
       "optionReasons": {
-        "restore-mcq-21": "本句指「修復工程」。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-22": "「有助恢復的」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-23": "「恢復性的睡眠」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-21": "本句的「restoration work」指「修復工程」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-21"
     },
@@ -1754,11 +1478,7 @@ export default {
       "masked": "A quiet weekend can be very ____.",
       "options": [
         "restore-mcq-22",
-        "restore-mcq-21",
-        "restore-mcq-23",
-        "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-18"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restorative」指「有助恢復的」。",
       "sentenceIndex": 45,
@@ -1767,12 +1487,8 @@ export default {
         "restorative"
       ],
       "optionReasons": {
-        "restore-mcq-22": "本句指「有助恢復的」。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-23": "「恢復性的睡眠」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-22": "本句的「restorative」指「有助恢復的」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-22"
     },
@@ -1784,11 +1500,7 @@ export default {
       "masked": "Sleep has a ____ on the body.",
       "options": [
         "restore-mcq-22",
-        "restore-mcq-21",
-        "restore-mcq-23",
-        "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-18"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restorative effect」指「有助恢復的」。",
       "sentenceIndex": 46,
@@ -1797,12 +1509,8 @@ export default {
         "restorative effect"
       ],
       "optionReasons": {
-        "restore-mcq-22": "本句指「有助恢復的」。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-23": "「恢復性的睡眠」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-22": "本句的「restorative effect」指「有助恢復的」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-22"
     },
@@ -1814,11 +1522,8 @@ export default {
       "masked": "She finally got some ____.",
       "options": [
         "restore-mcq-23",
-        "restore-mcq-22",
-        "restore-mcq-21",
-        "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-18"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restorative sleep」指「恢復性的睡眠」。",
       "sentenceIndex": 47,
@@ -1827,12 +1532,9 @@ export default {
         "restorative sleep"
       ],
       "optionReasons": {
-        "restore-mcq-23": "本句指「恢復性的睡眠」。",
-        "restore-mcq-22": "「有助恢復的」與本句語境不同。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-23": "本句的「restorative sleep」指「恢復性的睡眠」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-23"
     },
@@ -1844,11 +1546,8 @@ export default {
       "masked": "The holiday provided much-needed ____.",
       "options": [
         "restore-mcq-23",
-        "restore-mcq-22",
-        "restore-mcq-21",
-        "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-18"
+        "restore-mcq-14",
+        "restore-mcq-21"
       ],
       "explanation": "本句的「restorative rest」指「恢復性的睡眠」。",
       "sentenceIndex": 48,
@@ -1857,12 +1556,9 @@ export default {
         "restorative rest"
       ],
       "optionReasons": {
-        "restore-mcq-23": "本句指「恢復性的睡眠」。",
-        "restore-mcq-22": "「有助恢復的」與本句語境不同。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-23": "本句的「restorative rest」指「恢復性的睡眠」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "restore-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-23"
     },
@@ -1874,11 +1570,7 @@ export default {
       "masked": "A hot meal felt like a ____ after the long journey.",
       "options": [
         "restore-mcq-22",
-        "restore-mcq-21",
-        "restore-mcq-23",
-        "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-18"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restorative」指「有助恢復的」。",
       "sentenceIndex": 49,
@@ -1887,12 +1579,8 @@ export default {
         "restorative"
       ],
       "optionReasons": {
-        "restore-mcq-22": "本句指「有助恢復的」。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-23": "「恢復性的睡眠」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-22": "本句的「restorative」指「有助恢復的」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-22"
     },
@@ -1904,11 +1592,7 @@ export default {
       "masked": "The drink was traditionally regarded as a ____.",
       "options": [
         "restore-mcq-22",
-        "restore-mcq-21",
-        "restore-mcq-23",
-        "restore-mcq-20",
-        "restore-mcq-19",
-        "restore-mcq-18"
+        "restore-mcq-14"
       ],
       "explanation": "本句的「restorative」指「有助恢復的」。",
       "sentenceIndex": 50,
@@ -1917,12 +1601,8 @@ export default {
         "restorative"
       ],
       "optionReasons": {
-        "restore-mcq-22": "本句指「有助恢復的」。",
-        "restore-mcq-21": "「修復工程」與本句語境不同。",
-        "restore-mcq-23": "「恢復性的睡眠」與本句語境不同。",
-        "restore-mcq-20": "「恢復；修復」與本句語境不同。",
-        "restore-mcq-19": "「把 X 歸還某人」與本句語境不同。",
-        "restore-mcq-18": "「恢復權利」與本句語境不同。"
+        "restore-mcq-22": "本句的「restorative」指「有助恢復的」。",
+        "restore-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "restore-mcq-22"
     }
@@ -1934,5 +1614,12 @@ export default {
     "sha256": "7380e5d511c79bf55b2d68a501d4eb827559d1781345acb0dbf0ab752e4d5f18",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

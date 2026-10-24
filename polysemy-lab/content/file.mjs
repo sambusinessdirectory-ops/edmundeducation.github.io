@@ -405,16 +405,6 @@ export default {
           "The records were filed away for future reference.",
           "紀錄被歸檔保存，以供日後查閱。",
           "收好歸檔"
-        ],
-        [
-          "She filed a complaint.",
-          "她正式提出投訴。",
-          "收好歸檔"
-        ],
-        [
-          "The lawyer filed the documents with the court.",
-          "律師向法院正式提交文件。",
-          "收好歸檔"
         ]
       ],
       "options": [],
@@ -579,16 +569,6 @@ export default {
         [
           "The court filing contains several new details.",
           "法院的提交文件包含幾項新資料。",
-          "歸檔／申報文件"
-        ],
-        [
-          "The office needs a better filing system.",
-          "辦公室需要更好的歸檔系統。",
-          "歸檔／申報文件"
-        ],
-        [
-          "Our digital filing system is easy to use.",
-          "我們的數碼檔案管理系統很容易使用。",
           "歸檔／申報文件"
         ]
       ],
@@ -851,6 +831,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "file-reviewed-df79794e21",
+      "title": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄",
+      "form": "file · source section 21",
+      "en": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄",
+      "zh": "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄",
+      "note": "對照原始教材第 21 節及例句核實。",
+      "examples": [
+        [
+          "She filed a complaint.",
+          "她正式提出投訴。",
+          "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄"
+        ],
+        [
+          "The lawyer filed the documents with the court.",
+          "律師向法院正式提交文件。",
+          "向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "file-reviewed-5b769b6dc8",
+      "title": "用來分類、保存和尋找文件的組織方法",
+      "form": "file · source section 31",
+      "en": "用來分類、保存和尋找文件的組織方法",
+      "zh": "用來分類、保存和尋找文件的組織方法",
+      "note": "對照原始教材第 31 節及例句核實。",
+      "examples": [
+        [
+          "The office needs a better filing system.",
+          "辦公室需要更好的歸檔系統。",
+          "用來分類、保存和尋找文件的組織方法"
+        ],
+        [
+          "Our digital filing system is easy to use.",
+          "我們的數碼檔案管理系統很容易使用。",
+          "用來分類、保存和尋找文件的組織方法"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -862,11 +886,9 @@ export default {
       "masked": "He realised that he had opened the wrong ____.",
       "options": [
         "file-mcq-36",
-        "file-mcq-35",
-        "file-mcq-37",
-        "file-mcq-34",
-        "file-mcq-38",
-        "file-mcq-33"
+        "file-mcq-21",
+        "file-mcq-30",
+        "file-mcq-10"
       ],
       "explanation": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
       "sentenceIndex": 0,
@@ -875,12 +897,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-36": "本句指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-36": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-36"
     },
@@ -892,11 +912,9 @@ export default {
       "masked": "I saved the ____ on my laptop.",
       "options": [
         "file-mcq-36",
-        "file-mcq-35",
-        "file-mcq-37",
-        "file-mcq-34",
-        "file-mcq-38",
-        "file-mcq-33"
+        "file-mcq-33",
+        "file-mcq-02",
+        "file-mcq-30"
       ],
       "explanation": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
       "sentenceIndex": 1,
@@ -905,12 +923,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-36": "本句指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-36": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-36"
     },
@@ -922,10 +938,8 @@ export default {
       "masked": "Please send me the correct ____.",
       "options": [
         "file-mcq-36",
-        "file-mcq-35",
-        "file-mcq-37",
-        "file-mcq-34",
-        "file-mcq-38",
+        "file-mcq-22",
+        "file-mcq-25",
         "file-mcq-33"
       ],
       "explanation": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
@@ -935,12 +949,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-36": "本句指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-36": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-36"
     },
@@ -952,11 +964,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "file-mcq-02",
-        "file-mcq-01",
-        "file-mcq-03",
-        "file-mcq-04",
-        "file-mcq-05",
-        "file-mcq-06"
+        "file-mcq-35",
+        "file-mcq-33",
+        "file-mcq-20"
       ],
       "explanation": "本句的「opened the wrong file」指「打開檔案」。",
       "sentenceIndex": 3,
@@ -965,12 +975,10 @@ export default {
         "opened the wrong file"
       ],
       "optionReasons": {
-        "file-mcq-02": "本句指「打開檔案」。",
-        "file-mcq-01": "「電子檔案」是「file (digital)」的用法，與本句語境不同。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。"
+        "file-mcq-02": "本句的「opened the wrong file」指「打開檔案」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-02"
     },
@@ -982,11 +990,9 @@ export default {
       "masked": "Double-click to ____.",
       "options": [
         "file-mcq-02",
-        "file-mcq-01",
-        "file-mcq-03",
-        "file-mcq-04",
-        "file-mcq-05",
-        "file-mcq-06"
+        "file-mcq-32",
+        "file-mcq-23",
+        "file-mcq-30"
       ],
       "explanation": "本句的「open the file」指「打開檔案」。",
       "sentenceIndex": 4,
@@ -995,12 +1001,10 @@ export default {
         "open the file"
       ],
       "optionReasons": {
-        "file-mcq-02": "本句指「打開檔案」。",
-        "file-mcq-01": "「電子檔案」是「file (digital)」的用法，與本句語境不同。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。"
+        "file-mcq-02": "本句的「open the file」指「打開檔案」。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-02"
     },
@@ -1012,11 +1016,9 @@ export default {
       "masked": "Don't forget to ____.",
       "options": [
         "file-mcq-03",
-        "file-mcq-02",
-        "file-mcq-04",
-        "file-mcq-01",
-        "file-mcq-05",
-        "file-mcq-06"
+        "file-mcq-38",
+        "file-mcq-21",
+        "file-mcq-35"
       ],
       "explanation": "本句的「save the file」指「儲存檔案」。",
       "sentenceIndex": 5,
@@ -1025,12 +1027,10 @@ export default {
         "save the file"
       ],
       "optionReasons": {
-        "file-mcq-03": "本句指「儲存檔案」。",
-        "file-mcq-02": "「打開檔案」是「open a file」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-01": "「電子檔案」是「file (digital)」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。"
+        "file-mcq-03": "本句的「save the file」指「儲存檔案」。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-03"
     },
@@ -1042,11 +1042,9 @@ export default {
       "masked": "I ____ under a new name.",
       "options": [
         "file-mcq-03",
-        "file-mcq-02",
-        "file-mcq-04",
-        "file-mcq-01",
-        "file-mcq-05",
-        "file-mcq-06"
+        "file-mcq-35",
+        "file-mcq-29",
+        "file-mcq-23"
       ],
       "explanation": "本句的「saved the file」指「儲存檔案」。",
       "sentenceIndex": 6,
@@ -1055,12 +1053,10 @@ export default {
         "saved the file"
       ],
       "optionReasons": {
-        "file-mcq-03": "本句指「儲存檔案」。",
-        "file-mcq-02": "「打開檔案」是「open a file」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-01": "「電子檔案」是「file (digital)」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。"
+        "file-mcq-03": "本句的「saved the file」指「儲存檔案」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-03"
     },
@@ -1072,11 +1068,9 @@ export default {
       "masked": "I ____ from the shared folder.",
       "options": [
         "file-mcq-04",
-        "file-mcq-03",
-        "file-mcq-05",
-        "file-mcq-02",
-        "file-mcq-06",
-        "file-mcq-01"
+        "file-mcq-23",
+        "file-mcq-34",
+        "file-mcq-25"
       ],
       "explanation": "本句的「downloaded the file」指「下載檔案」。",
       "sentenceIndex": 7,
@@ -1085,12 +1079,10 @@ export default {
         "downloaded the file"
       ],
       "optionReasons": {
-        "file-mcq-04": "本句指「下載檔案」。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-02": "「打開檔案」是「open a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-01": "「電子檔案」是「file (digital)」的用法，與本句語境不同。"
+        "file-mcq-04": "本句的「downloaded the file」指「下載檔案」。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-04"
     },
@@ -1102,11 +1094,9 @@ export default {
       "masked": "Click here to ____.",
       "options": [
         "file-mcq-04",
-        "file-mcq-03",
-        "file-mcq-05",
-        "file-mcq-02",
-        "file-mcq-06",
-        "file-mcq-01"
+        "file-mcq-37",
+        "file-mcq-25",
+        "file-mcq-21"
       ],
       "explanation": "本句的「download the file」指「下載檔案」。",
       "sentenceIndex": 8,
@@ -1115,12 +1105,10 @@ export default {
         "download the file"
       ],
       "optionReasons": {
-        "file-mcq-04": "本句指「下載檔案」。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-02": "「打開檔案」是「open a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-01": "「電子檔案」是「file (digital)」的用法，與本句語境不同。"
+        "file-mcq-04": "本句的「download the file」指「下載檔案」。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-04"
     },
@@ -1132,11 +1120,9 @@ export default {
       "masked": "She ____ yesterday.",
       "options": [
         "file-mcq-05",
-        "file-mcq-04",
-        "file-mcq-06",
-        "file-mcq-03",
-        "file-mcq-07",
-        "file-mcq-02"
+        "file-mcq-22",
+        "file-mcq-21",
+        "file-mcq-37"
       ],
       "explanation": "本句的「uploaded the file」指「上傳檔案」。",
       "sentenceIndex": 9,
@@ -1145,12 +1131,10 @@ export default {
         "uploaded the file"
       ],
       "optionReasons": {
-        "file-mcq-05": "本句指「上傳檔案」。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-02": "「打開檔案」是「open a file」的用法，與本句語境不同。"
+        "file-mcq-05": "本句的「uploaded the file」指「上傳檔案」。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-05"
     },
@@ -1162,11 +1146,9 @@ export default {
       "masked": "Make sure you ____.",
       "options": [
         "file-mcq-05",
-        "file-mcq-04",
-        "file-mcq-06",
-        "file-mcq-03",
-        "file-mcq-07",
-        "file-mcq-02"
+        "file-mcq-28",
+        "file-mcq-26",
+        "file-mcq-22"
       ],
       "explanation": "本句的「upload the correct file」指「上傳檔案」。",
       "sentenceIndex": 10,
@@ -1175,12 +1157,10 @@ export default {
         "upload the correct file"
       ],
       "optionReasons": {
-        "file-mcq-05": "本句指「上傳檔案」。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-02": "「打開檔案」是「open a file」的用法，與本句語境不同。"
+        "file-mcq-05": "本句的「upload the correct file」指「上傳檔案」。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-05"
     },
@@ -1192,11 +1172,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "file-mcq-06",
-        "file-mcq-05",
-        "file-mcq-07",
-        "file-mcq-04",
-        "file-mcq-08",
-        "file-mcq-03"
+        "file-mcq-38",
+        "file-mcq-29",
+        "file-mcq-32"
       ],
       "explanation": "本句的「deleted the file」指「刪除檔案」。",
       "sentenceIndex": 11,
@@ -1205,12 +1183,10 @@ export default {
         "deleted the file"
       ],
       "optionReasons": {
-        "file-mcq-06": "本句指「刪除檔案」。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。"
+        "file-mcq-06": "本句的「deleted the file」指「刪除檔案」。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-06"
     },
@@ -1222,11 +1198,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "file-mcq-06",
-        "file-mcq-05",
-        "file-mcq-07",
-        "file-mcq-04",
-        "file-mcq-08",
-        "file-mcq-03"
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-35",
+        "file-mcq-23"
       ],
       "explanation": "本句的「delete this file」指「刪除檔案」。",
       "sentenceIndex": 12,
@@ -1235,12 +1209,10 @@ export default {
         "delete this file"
       ],
       "optionReasons": {
-        "file-mcq-06": "本句指「刪除檔案」。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-03": "「儲存檔案」是「save a file」的用法，與本句語境不同。"
+        "file-mcq-06": "本句的「delete this file」指「刪除檔案」。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-06"
     },
@@ -1252,11 +1224,9 @@ export default {
       "masked": "I ____ to the email.",
       "options": [
         "file-mcq-07",
-        "file-mcq-06",
-        "file-mcq-08",
-        "file-mcq-05",
-        "file-mcq-09",
-        "file-mcq-04"
+        "file-mcq-37",
+        "file-mcq-30",
+        "file-mcq-22"
       ],
       "explanation": "本句的「attached the file」指「附加檔案」。",
       "sentenceIndex": 13,
@@ -1265,12 +1235,10 @@ export default {
         "attached the file"
       ],
       "optionReasons": {
-        "file-mcq-07": "本句指「附加檔案」。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。"
+        "file-mcq-07": "本句的「attached the file」指「附加檔案」。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-07"
     },
@@ -1282,11 +1250,9 @@ export default {
       "masked": "Please ____ before sending the message.",
       "options": [
         "file-mcq-07",
-        "file-mcq-06",
-        "file-mcq-08",
-        "file-mcq-05",
-        "file-mcq-09",
-        "file-mcq-04"
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-32",
+        "file-mcq-26"
       ],
       "explanation": "本句的「attach the file」指「附加檔案」。",
       "sentenceIndex": 14,
@@ -1295,12 +1261,10 @@ export default {
         "attach the file"
       ],
       "optionReasons": {
-        "file-mcq-07": "本句指「附加檔案」。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-04": "「下載檔案」是「download a file」的用法，與本句語境不同。"
+        "file-mcq-07": "本句的「attach the file」指「附加檔案」。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-07"
     },
@@ -1312,11 +1276,9 @@ export default {
       "masked": "Can you ____ with the group?",
       "options": [
         "file-mcq-08",
-        "file-mcq-07",
-        "file-mcq-09",
-        "file-mcq-06",
-        "file-mcq-10",
-        "file-mcq-05"
+        "file-mcq-25",
+        "file-mcq-28",
+        "file-mcq-33"
       ],
       "explanation": "本句的「share the file」指「分享檔案」。",
       "sentenceIndex": 15,
@@ -1325,12 +1287,10 @@ export default {
         "share the file"
       ],
       "optionReasons": {
-        "file-mcq-08": "本句指「分享檔案」。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。"
+        "file-mcq-08": "本句的「share the file」指「分享檔案」。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-08"
     },
@@ -1342,11 +1302,9 @@ export default {
       "masked": "The document was ____.",
       "options": [
         "file-mcq-08",
-        "file-mcq-07",
-        "file-mcq-09",
-        "file-mcq-06",
-        "file-mcq-10",
-        "file-mcq-05"
+        "file-mcq-25",
+        "file-mcq-21",
+        "file-mcq-28"
       ],
       "explanation": "本句的「shared as a file」指「分享檔案」。",
       "sentenceIndex": 16,
@@ -1355,12 +1313,10 @@ export default {
         "shared as a file"
       ],
       "optionReasons": {
-        "file-mcq-08": "本句指「分享檔案」。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-05": "「上傳檔案」是「upload a file」的用法，與本句語境不同。"
+        "file-mcq-08": "本句的「shared as a file」指「分享檔案」。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-08"
     },
@@ -1372,11 +1328,9 @@ export default {
       "masked": "Check the ____ carefully.",
       "options": [
         "file-mcq-09",
-        "file-mcq-08",
-        "file-mcq-10",
-        "file-mcq-07",
-        "file-mcq-11",
-        "file-mcq-06"
+        "file-mcq-31",
+        "file-mcq-32",
+        "file-mcq-37"
       ],
       "explanation": "本句的「file name」指「檔案名稱」。",
       "sentenceIndex": 17,
@@ -1385,12 +1339,10 @@ export default {
         "file name"
       ],
       "optionReasons": {
-        "file-mcq-09": "本句指「檔案名稱」。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。"
+        "file-mcq-09": "本句的「file name」指「檔案名稱」。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-09"
     },
@@ -1402,11 +1354,9 @@ export default {
       "masked": "I changed the ____.",
       "options": [
         "file-mcq-09",
-        "file-mcq-08",
-        "file-mcq-10",
-        "file-mcq-07",
-        "file-mcq-11",
-        "file-mcq-06"
+        "file-mcq-31",
+        "file-mcq-37",
+        "file-mcq-26"
       ],
       "explanation": "本句的「filename」指「檔案名稱」。",
       "sentenceIndex": 18,
@@ -1415,12 +1365,10 @@ export default {
         "filename"
       ],
       "optionReasons": {
-        "file-mcq-09": "本句指「檔案名稱」。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。",
-        "file-mcq-06": "「刪除檔案」是「delete a file」的用法，與本句語境不同。"
+        "file-mcq-09": "本句的「filename」指「檔案名稱」。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-09"
     },
@@ -1432,11 +1380,9 @@ export default {
       "masked": "Which ____ do you need?",
       "options": [
         "file-mcq-10",
-        "file-mcq-09",
-        "file-mcq-11",
-        "file-mcq-08",
-        "file-mcq-12",
-        "file-mcq-07"
+        "file-mcq-21",
+        "file-mcq-36",
+        "file-mcq-22"
       ],
       "explanation": "本句的「file format」指「檔案格式」。",
       "sentenceIndex": 19,
@@ -1445,12 +1391,10 @@ export default {
         "file format"
       ],
       "optionReasons": {
-        "file-mcq-10": "本句指「檔案格式」。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。"
+        "file-mcq-10": "本句的「file format」指「檔案格式」。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-10"
     },
@@ -1462,11 +1406,9 @@ export default {
       "masked": "Save the image in a different ____.",
       "options": [
         "file-mcq-10",
-        "file-mcq-09",
-        "file-mcq-11",
-        "file-mcq-08",
-        "file-mcq-12",
-        "file-mcq-07"
+        "file-mcq-30",
+        "file-mcq-23",
+        "file-mcq-36"
       ],
       "explanation": "本句的「file format」指「檔案格式」。",
       "sentenceIndex": 20,
@@ -1475,12 +1417,10 @@ export default {
         "file format"
       ],
       "optionReasons": {
-        "file-mcq-10": "本句指「檔案格式」。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。",
-        "file-mcq-07": "「附加檔案」是「attach a file」的用法，與本句語境不同。"
+        "file-mcq-10": "本句的「file format」指「檔案格式」。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-10"
     },
@@ -1492,11 +1432,9 @@ export default {
       "masked": "The ____ is .pdf.",
       "options": [
         "file-mcq-11",
-        "file-mcq-10",
-        "file-mcq-12",
-        "file-mcq-09",
-        "file-mcq-13",
-        "file-mcq-08"
+        "file-mcq-29",
+        "file-mcq-35",
+        "file-mcq-36"
       ],
       "explanation": "本句的「file extension」指「副檔名」。",
       "sentenceIndex": 21,
@@ -1505,12 +1443,10 @@ export default {
         "file extension"
       ],
       "optionReasons": {
-        "file-mcq-11": "本句指「副檔名」。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。"
+        "file-mcq-11": "本句的「file extension」指「副檔名」。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-11"
     },
@@ -1522,11 +1458,9 @@ export default {
       "masked": "Changing the ____ does not always convert the file properly.",
       "options": [
         "file-mcq-11",
-        "file-mcq-10",
-        "file-mcq-12",
-        "file-mcq-09",
-        "file-mcq-13",
-        "file-mcq-08"
+        "file-mcq-35",
+        "file-mcq-37",
+        "file-mcq-26"
       ],
       "explanation": "本句的「file extension」指「副檔名」。",
       "sentenceIndex": 22,
@@ -1535,12 +1469,10 @@ export default {
         "file extension"
       ],
       "optionReasons": {
-        "file-mcq-11": "本句指「副檔名」。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-08": "「分享檔案」是「share a file」的用法，與本句語境不同。"
+        "file-mcq-11": "本句的「file extension」指「副檔名」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-11"
     },
@@ -1552,11 +1484,9 @@ export default {
       "masked": "The operating system manages the ____.",
       "options": [
         "file-mcq-12",
-        "file-mcq-11",
-        "file-mcq-13",
-        "file-mcq-10",
-        "file-mcq-14",
-        "file-mcq-09"
+        "file-mcq-25",
+        "file-mcq-33",
+        "file-mcq-31"
       ],
       "explanation": "本句的「file system」指「檔案系統」。",
       "sentenceIndex": 23,
@@ -1565,12 +1495,10 @@ export default {
         "file system"
       ],
       "optionReasons": {
-        "file-mcq-12": "本句指「檔案系統」。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。"
+        "file-mcq-12": "本句的「file system」指「檔案系統」。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-12"
     },
@@ -1582,11 +1510,9 @@ export default {
       "masked": "The drive uses a different ____.",
       "options": [
         "file-mcq-12",
-        "file-mcq-11",
-        "file-mcq-13",
-        "file-mcq-10",
-        "file-mcq-14",
-        "file-mcq-09"
+        "file-mcq-29",
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-25"
       ],
       "explanation": "本句的「file system」指「檔案系統」。",
       "sentenceIndex": 24,
@@ -1595,12 +1521,10 @@ export default {
         "file system"
       ],
       "optionReasons": {
-        "file-mcq-12": "本句指「檔案系統」。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-10": "「檔案格式」是「file format」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。",
-        "file-mcq-09": "「檔案名稱」是「file name」的用法，與本句語境不同。"
+        "file-mcq-12": "本句的「file system」指「檔案系統」。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-12"
     },
@@ -1613,10 +1537,8 @@ export default {
       "options": [
         "file-mcq-36",
         "file-mcq-35",
-        "file-mcq-37",
-        "file-mcq-34",
-        "file-mcq-38",
-        "file-mcq-33"
+        "file-mcq-07",
+        "file-mcq-23"
       ],
       "explanation": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
       "sentenceIndex": 25,
@@ -1625,12 +1547,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-36": "本句指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-36": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-36"
     },
@@ -1642,11 +1562,9 @@ export default {
       "masked": "She took the ____ from the cabinet.",
       "options": [
         "file-mcq-36",
-        "file-mcq-35",
-        "file-mcq-37",
-        "file-mcq-34",
-        "file-mcq-38",
-        "file-mcq-33"
+        "file-mcq-07",
+        "file-mcq-25",
+        "file-mcq-29"
       ],
       "explanation": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
       "sentenceIndex": 26,
@@ -1655,12 +1573,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-36": "本句指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-36": "本句的「file」指「儲存在電子裝置或系統中的一個獨立數碼資料單位」。",
+        "file-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-36"
     },
@@ -1672,11 +1588,9 @@ export default {
       "masked": "The detective reviewed the ____.",
       "options": [
         "file-mcq-14",
-        "file-mcq-13",
-        "file-mcq-15",
-        "file-mcq-12",
-        "file-mcq-16",
-        "file-mcq-11"
+        "file-mcq-32",
+        "file-mcq-31",
+        "file-mcq-22"
       ],
       "explanation": "本句的「case file」指「案件卷宗」。",
       "sentenceIndex": 27,
@@ -1685,12 +1599,10 @@ export default {
         "case file"
       ],
       "optionReasons": {
-        "file-mcq-14": "本句指「案件卷宗」。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。"
+        "file-mcq-14": "本句的「case file」指「案件卷宗」。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-14"
     },
@@ -1702,11 +1614,9 @@ export default {
       "masked": "Important evidence was added to the ____.",
       "options": [
         "file-mcq-14",
-        "file-mcq-13",
-        "file-mcq-15",
-        "file-mcq-12",
-        "file-mcq-16",
-        "file-mcq-11"
+        "file-mcq-35",
+        "file-mcq-36",
+        "file-mcq-32"
       ],
       "explanation": "本句的「case file」指「案件卷宗」。",
       "sentenceIndex": 28,
@@ -1715,12 +1625,10 @@ export default {
         "case file"
       ],
       "optionReasons": {
-        "file-mcq-14": "本句指「案件卷宗」。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-11": "「副檔名」是「file extension」的用法，與本句語境不同。"
+        "file-mcq-14": "本句的「case file」指「案件卷宗」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-14"
     },
@@ -1732,11 +1640,9 @@ export default {
       "masked": "The warning was added to his ____.",
       "options": [
         "file-mcq-15",
-        "file-mcq-14",
-        "file-mcq-16",
-        "file-mcq-13",
-        "file-mcq-17",
-        "file-mcq-12"
+        "file-mcq-22",
+        "file-mcq-28",
+        "file-mcq-25"
       ],
       "explanation": "本句的「personnel file」指「人事檔案」。",
       "sentenceIndex": 29,
@@ -1745,12 +1651,10 @@ export default {
         "personnel file"
       ],
       "optionReasons": {
-        "file-mcq-15": "本句指「人事檔案」。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。"
+        "file-mcq-15": "本句的「personnel file」指「人事檔案」。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-15"
     },
@@ -1762,11 +1666,9 @@ export default {
       "masked": "Employee records are kept in confidential ____.",
       "options": [
         "file-mcq-15",
-        "file-mcq-14",
-        "file-mcq-16",
-        "file-mcq-13",
-        "file-mcq-17",
-        "file-mcq-12"
+        "file-mcq-37",
+        "file-mcq-35",
+        "file-mcq-31"
       ],
       "explanation": "本句的「personnel files」指「人事檔案」。",
       "sentenceIndex": 30,
@@ -1775,12 +1677,10 @@ export default {
         "personnel files"
       ],
       "optionReasons": {
-        "file-mcq-15": "本句指「人事檔案」。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-12": "「檔案系統」是「file system」的用法，與本句語境不同。"
+        "file-mcq-15": "本句的「personnel files」指「人事檔案」。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-15"
     },
@@ -1792,11 +1692,9 @@ export default {
       "masked": "The doctor checked her ____.",
       "options": [
         "file-mcq-16",
-        "file-mcq-15",
-        "file-mcq-17",
-        "file-mcq-14",
-        "file-mcq-18",
-        "file-mcq-13"
+        "file-mcq-22",
+        "file-mcq-25",
+        "file-mcq-33"
       ],
       "explanation": "本句的「medical file」指「醫療檔案」。",
       "sentenceIndex": 31,
@@ -1805,12 +1703,10 @@ export default {
         "medical file"
       ],
       "optionReasons": {
-        "file-mcq-16": "本句指「醫療檔案」。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。"
+        "file-mcq-16": "本句的「medical file」指「醫療檔案」。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-16"
     },
@@ -1822,11 +1718,9 @@ export default {
       "masked": "The information was added to his ____.",
       "options": [
         "file-mcq-16",
-        "file-mcq-15",
-        "file-mcq-17",
-        "file-mcq-14",
-        "file-mcq-18",
-        "file-mcq-13"
+        "file-mcq-28",
+        "file-mcq-32",
+        "file-mcq-25"
       ],
       "explanation": "本句的「medical file」指「醫療檔案」。",
       "sentenceIndex": 32,
@@ -1835,12 +1729,10 @@ export default {
         "medical file"
       ],
       "optionReasons": {
-        "file-mcq-16": "本句指「醫療檔案」。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-13": "「檔案；卷宗」是「file (records)」的用法，與本句語境不同。"
+        "file-mcq-16": "本句的「medical file」指「醫療檔案」。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-16"
     },
@@ -1852,11 +1744,9 @@ export default {
       "masked": "We have your address ____.",
       "options": [
         "file-mcq-17",
-        "file-mcq-16",
-        "file-mcq-18",
-        "file-mcq-15",
-        "file-mcq-19",
-        "file-mcq-14"
+        "file-mcq-23",
+        "file-mcq-32",
+        "file-mcq-34"
       ],
       "explanation": "本句的「on file」指「已存檔」。",
       "sentenceIndex": 33,
@@ -1865,12 +1755,10 @@ export default {
         "on file"
       ],
       "optionReasons": {
-        "file-mcq-17": "本句指「已存檔」。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。"
+        "file-mcq-17": "本句的「on file」指「已存檔」。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-17"
     },
@@ -1882,11 +1770,9 @@ export default {
       "masked": "The company keeps all contracts ____.",
       "options": [
         "file-mcq-17",
-        "file-mcq-16",
-        "file-mcq-18",
-        "file-mcq-15",
-        "file-mcq-19",
-        "file-mcq-14"
+        "file-mcq-35",
+        "file-mcq-31",
+        "file-mcq-25"
       ],
       "explanation": "本句的「on file」指「已存檔」。",
       "sentenceIndex": 34,
@@ -1895,12 +1781,10 @@ export default {
         "on file"
       ],
       "optionReasons": {
-        "file-mcq-17": "本句指「已存檔」。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。"
+        "file-mcq-17": "本句的「on file」指「已存檔」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-17"
     },
@@ -1912,11 +1796,9 @@ export default {
       "masked": "We'll ____.",
       "options": [
         "file-mcq-17",
-        "file-mcq-16",
-        "file-mcq-18",
-        "file-mcq-15",
-        "file-mcq-19",
-        "file-mcq-14"
+        "file-mcq-38",
+        "file-mcq-29",
+        "file-mcq-34"
       ],
       "explanation": "本句的「keep your application on file」指「已存檔」。",
       "sentenceIndex": 35,
@@ -1925,12 +1807,10 @@ export default {
         "keep your application on file"
       ],
       "optionReasons": {
-        "file-mcq-17": "本句指「已存檔」。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。"
+        "file-mcq-17": "本句的「keep your application on file」指「已存檔」。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-17"
     },
@@ -1942,11 +1822,9 @@ export default {
       "masked": "Keep a copy ____.",
       "options": [
         "file-mcq-17",
-        "file-mcq-16",
-        "file-mcq-18",
-        "file-mcq-15",
-        "file-mcq-19",
-        "file-mcq-14"
+        "file-mcq-31",
+        "file-mcq-25",
+        "file-mcq-33"
       ],
       "explanation": "本句的「on file」指「已存檔」。",
       "sentenceIndex": 36,
@@ -1955,12 +1833,10 @@ export default {
         "on file"
       ],
       "optionReasons": {
-        "file-mcq-17": "本句指「已存檔」。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。"
+        "file-mcq-17": "本句的「on file」指「已存檔」。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-17"
     },
@@ -1972,11 +1848,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "file-mcq-17",
-        "file-mcq-16",
-        "file-mcq-18",
-        "file-mcq-15",
-        "file-mcq-19",
-        "file-mcq-14"
+        "file-mcq-14",
+        "file-mcq-30",
+        "file-mcq-32"
       ],
       "explanation": "本句的「file these documents」指「已存檔」。",
       "sentenceIndex": 37,
@@ -1985,12 +1859,10 @@ export default {
         "file these documents"
       ],
       "optionReasons": {
-        "file-mcq-17": "本句指「已存檔」。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。"
+        "file-mcq-17": "本句的「file these documents」指「已存檔」。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-17"
     },
@@ -2002,11 +1874,9 @@ export default {
       "masked": "The reports were ____.",
       "options": [
         "file-mcq-17",
-        "file-mcq-16",
-        "file-mcq-18",
-        "file-mcq-15",
-        "file-mcq-19",
-        "file-mcq-14"
+        "file-mcq-38",
+        "file-mcq-28",
+        "file-mcq-33"
       ],
       "explanation": "本句的「filed alphabetically」指「已存檔」。",
       "sentenceIndex": 38,
@@ -2015,12 +1885,10 @@ export default {
         "filed alphabetically"
       ],
       "optionReasons": {
-        "file-mcq-17": "本句指「已存檔」。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-15": "「人事檔案」是「personnel file」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-14": "「案件卷宗」是「case file」的用法，與本句語境不同。"
+        "file-mcq-17": "本句的「filed alphabetically」指「已存檔」。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-17"
     },
@@ -2032,11 +1900,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "file-mcq-19",
-        "file-mcq-18",
-        "file-mcq-20",
-        "file-mcq-17",
-        "file-mcq-21",
-        "file-mcq-16"
+        "file-mcq-22",
+        "file-mcq-23",
+        "file-mcq-31"
       ],
       "explanation": "本句的「filed the letter away」指「收好歸檔」。",
       "sentenceIndex": 39,
@@ -2045,12 +1911,10 @@ export default {
         "filed the letter away"
       ],
       "optionReasons": {
-        "file-mcq-19": "本句指「收好歸檔」。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。"
+        "file-mcq-19": "本句的「filed the letter away」指「收好歸檔」。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-19"
     },
@@ -2062,11 +1926,9 @@ export default {
       "masked": "The records were ____ for future reference.",
       "options": [
         "file-mcq-19",
-        "file-mcq-18",
-        "file-mcq-20",
-        "file-mcq-17",
-        "file-mcq-21",
-        "file-mcq-16"
+        "file-mcq-35",
+        "file-mcq-38",
+        "file-mcq-14"
       ],
       "explanation": "本句的「filed away」指「收好歸檔」。",
       "sentenceIndex": 40,
@@ -2075,74 +1937,68 @@ export default {
         "filed away"
       ],
       "optionReasons": {
-        "file-mcq-19": "本句指「收好歸檔」。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。"
+        "file-mcq-19": "本句的「filed away」指「收好歸檔」。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-19"
     },
     {
       "id": "file-21-0",
-      "sense": "file-mcq-19",
+      "sense": "file-reviewed-df79794e21",
       "en": "She filed a complaint.",
       "zh": "她正式提出投訴。",
       "masked": "She ____.",
       "options": [
-        "file-mcq-19",
-        "file-mcq-18",
-        "file-mcq-20",
-        "file-mcq-17",
-        "file-mcq-21",
-        "file-mcq-16"
+        "file-reviewed-df79794e21",
+        "file-mcq-06",
+        "file-mcq-35",
+        "file-mcq-29"
       ],
-      "explanation": "本句的「filed a complaint」指「收好歸檔」。",
+      "explanation": "對照完整句子：「她正式提出投訴。」。這裡的「filed a complaint」表示「向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄」。",
       "sentenceIndex": 41,
       "sourcePractice": 1,
       "targets": [
         "filed a complaint"
       ],
       "optionReasons": {
-        "file-mcq-19": "本句指「收好歸檔」。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。"
+        "file-reviewed-df79794e21": "對照完整句子：「她正式提出投訴。」。這裡的「filed a complaint」表示「向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄」。",
+        "file-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "file-mcq-19"
+      "correctOption": "file-reviewed-df79794e21",
+      "previousCorrectOption": "file-mcq-19",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "file-21-1",
-      "sense": "file-mcq-19",
+      "sense": "file-reviewed-df79794e21",
       "en": "The lawyer filed the documents with the court.",
       "zh": "律師向法院正式提交文件。",
       "masked": "The lawyer ____ with the court.",
       "options": [
-        "file-mcq-19",
-        "file-mcq-18",
-        "file-mcq-20",
-        "file-mcq-17",
-        "file-mcq-21",
-        "file-mcq-16"
+        "file-reviewed-df79794e21",
+        "file-mcq-09",
+        "file-mcq-31",
+        "file-mcq-35"
       ],
-      "explanation": "本句的「filed the documents」指「收好歸檔」。",
+      "explanation": "對照完整句子：「律師向法院正式提交文件。」。這裡的「filed the documents」表示「向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄」。",
       "sentenceIndex": 42,
       "sourcePractice": 2,
       "targets": [
         "filed the documents"
       ],
       "optionReasons": {
-        "file-mcq-19": "本句指「收好歸檔」。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-16": "「醫療檔案」是「medical file」的用法，與本句語境不同。"
+        "file-reviewed-df79794e21": "對照完整句子：「律師向法院正式提交文件。」。這裡的「filed the documents」表示「向法院、政府、機構等正式提交文件或申請，使其成為正式紀錄」。",
+        "file-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "file-mcq-19"
+      "correctOption": "file-reviewed-df79794e21",
+      "previousCorrectOption": "file-mcq-19",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "file-22-0",
@@ -2152,11 +2008,9 @@ export default {
       "masked": "He ____ against the company.",
       "options": [
         "file-mcq-20",
-        "file-mcq-19",
-        "file-mcq-21",
-        "file-mcq-18",
-        "file-mcq-22",
-        "file-mcq-17"
+        "file-mcq-27",
+        "file-mcq-32",
+        "file-mcq-34"
       ],
       "explanation": "本句的「filed a complaint」指「正式提出投訴」。",
       "sentenceIndex": 43,
@@ -2165,12 +2019,10 @@ export default {
         "filed a complaint"
       ],
       "optionReasons": {
-        "file-mcq-20": "本句指「正式提出投訴」。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。"
+        "file-mcq-20": "本句的「filed a complaint」指「正式提出投訴」。",
+        "file-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-20"
     },
@@ -2182,11 +2034,9 @@ export default {
       "masked": "Customers can ____ online.",
       "options": [
         "file-mcq-20",
-        "file-mcq-19",
-        "file-mcq-21",
-        "file-mcq-18",
-        "file-mcq-22",
-        "file-mcq-17"
+        "file-mcq-10",
+        "file-mcq-33",
+        "file-mcq-31"
       ],
       "explanation": "本句的「file a complaint」指「正式提出投訴」。",
       "sentenceIndex": 44,
@@ -2195,12 +2045,10 @@ export default {
         "file a complaint"
       ],
       "optionReasons": {
-        "file-mcq-20": "本句指「正式提出投訴」。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。",
-        "file-mcq-17": "「已存檔」是「on file」的用法，與本句語境不同。"
+        "file-mcq-20": "本句的「file a complaint」指「正式提出投訴」。",
+        "file-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-20"
     },
@@ -2212,11 +2060,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "file-mcq-21",
-        "file-mcq-20",
-        "file-mcq-22",
+        "file-mcq-36",
         "file-mcq-19",
-        "file-mcq-23",
-        "file-mcq-18"
+        "file-mcq-29"
       ],
       "explanation": "本句的「filed an insurance claim」指「提出申索」。",
       "sentenceIndex": 45,
@@ -2225,12 +2071,10 @@ export default {
         "filed an insurance claim"
       ],
       "optionReasons": {
-        "file-mcq-21": "本句指「提出申索」。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。"
+        "file-mcq-21": "本句的「filed an insurance claim」指「提出申索」。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-21"
     },
@@ -2242,11 +2086,9 @@ export default {
       "masked": "You must ____ within thirty days.",
       "options": [
         "file-mcq-21",
-        "file-mcq-20",
-        "file-mcq-22",
-        "file-mcq-19",
-        "file-mcq-23",
-        "file-mcq-18"
+        "file-mcq-09",
+        "file-mcq-28",
+        "file-mcq-32"
       ],
       "explanation": "本句的「file the claim」指「提出申索」。",
       "sentenceIndex": 46,
@@ -2255,12 +2097,10 @@ export default {
         "file the claim"
       ],
       "optionReasons": {
-        "file-mcq-21": "本句指「提出申索」。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。",
-        "file-mcq-18": "「把文件歸檔」是「file documents」的用法，與本句語境不同。"
+        "file-mcq-21": "本句的「file the claim」指「提出申索」。",
+        "file-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-21"
     },
@@ -2272,11 +2112,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "file-mcq-22",
-        "file-mcq-21",
-        "file-mcq-23",
-        "file-mcq-20",
-        "file-mcq-24",
-        "file-mcq-19"
+        "file-mcq-11",
+        "file-mcq-28",
+        "file-mcq-36"
       ],
       "explanation": "本句的「filed a lawsuit」指「提起訴訟」。",
       "sentenceIndex": 47,
@@ -2285,12 +2123,10 @@ export default {
         "filed a lawsuit"
       ],
       "optionReasons": {
-        "file-mcq-22": "本句指「提起訴訟」。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。"
+        "file-mcq-22": "本句的「filed a lawsuit」指「提起訴訟」。",
+        "file-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-22"
     },
@@ -2302,11 +2138,9 @@ export default {
       "masked": "She ____ her former employer.",
       "options": [
         "file-mcq-22",
-        "file-mcq-21",
-        "file-mcq-23",
-        "file-mcq-20",
-        "file-mcq-24",
-        "file-mcq-19"
+        "file-mcq-14",
+        "file-mcq-16",
+        "file-mcq-35"
       ],
       "explanation": "本句的「filed a lawsuit against」指「提起訴訟」。",
       "sentenceIndex": 48,
@@ -2315,12 +2149,10 @@ export default {
         "filed a lawsuit against"
       ],
       "optionReasons": {
-        "file-mcq-22": "本句指「提起訴訟」。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-19": "「收好歸檔」是「file away」的用法，與本句語境不同。"
+        "file-mcq-22": "本句的「filed a lawsuit against」指「提起訴訟」。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-22"
     },
@@ -2332,11 +2164,9 @@ export default {
       "masked": "Prosecutors decided to ____.",
       "options": [
         "file-mcq-23",
-        "file-mcq-22",
-        "file-mcq-24",
-        "file-mcq-21",
-        "file-mcq-25",
-        "file-mcq-20"
+        "file-mcq-33",
+        "file-mcq-05",
+        "file-mcq-25"
       ],
       "explanation": "本句的「file charges」指「正式提出控罪」。",
       "sentenceIndex": 49,
@@ -2345,12 +2175,10 @@ export default {
         "file charges"
       ],
       "optionReasons": {
-        "file-mcq-23": "本句指「正式提出控罪」。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。"
+        "file-mcq-23": "本句的「file charges」指「正式提出控罪」。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-23"
     },
@@ -2362,11 +2190,9 @@ export default {
       "masked": "No charges were ____.",
       "options": [
         "file-mcq-23",
-        "file-mcq-22",
-        "file-mcq-24",
-        "file-mcq-21",
-        "file-mcq-25",
-        "file-mcq-20"
+        "file-mcq-14",
+        "file-mcq-12",
+        "file-mcq-30"
       ],
       "explanation": "本句的「filed」指「正式提出控罪」。",
       "sentenceIndex": 50,
@@ -2375,12 +2201,10 @@ export default {
         "filed"
       ],
       "optionReasons": {
-        "file-mcq-23": "本句指「正式提出控罪」。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-21": "「提出申索」是「file a claim」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-20": "「正式提出投訴」是「file a complaint」的用法，與本句語境不同。"
+        "file-mcq-23": "本句的「filed」指「正式提出控罪」。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-23"
     },
@@ -2392,11 +2216,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "file-mcq-37",
-        "file-mcq-36",
-        "file-mcq-38",
-        "file-mcq-35",
-        "file-mcq-34",
-        "file-mcq-33"
+        "file-mcq-32",
+        "file-mcq-10",
+        "file-mcq-35"
       ],
       "explanation": "本句的「file my taxes」指「向稅務機關正式提交所需的稅務資料」。",
       "sentenceIndex": 51,
@@ -2405,12 +2227,10 @@ export default {
         "file my taxes"
       ],
       "optionReasons": {
-        "file-mcq-37": "本句指「向稅務機關正式提交所需的稅務資料」。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-37": "本句的「file my taxes」指「向稅務機關正式提交所需的稅務資料」。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-37"
     },
@@ -2422,11 +2242,9 @@ export default {
       "masked": "She ____ online.",
       "options": [
         "file-mcq-37",
-        "file-mcq-36",
-        "file-mcq-38",
-        "file-mcq-35",
-        "file-mcq-34",
-        "file-mcq-33"
+        "file-mcq-19",
+        "file-mcq-06",
+        "file-mcq-35"
       ],
       "explanation": "本句的「filed her tax return」指「向稅務機關正式提交所需的稅務資料」。",
       "sentenceIndex": 52,
@@ -2435,12 +2253,10 @@ export default {
         "filed her tax return"
       ],
       "optionReasons": {
-        "file-mcq-37": "本句指「向稅務機關正式提交所需的稅務資料」。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-38": "「向有關機構正式申請某種法律或行政身份／程序」是「27. file for something — 正式申請／提出……」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-37": "本句的「filed her tax return」指「向稅務機關正式提交所需的稅務資料」。",
+        "file-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-37"
     },
@@ -2452,10 +2268,8 @@ export default {
       "masked": "The company ____.",
       "options": [
         "file-mcq-38",
-        "file-mcq-37",
-        "file-mcq-36",
-        "file-mcq-35",
-        "file-mcq-34",
+        "file-mcq-30",
+        "file-mcq-19",
         "file-mcq-33"
       ],
       "explanation": "本句的「filed for bankruptcy」指「向有關機構正式申請某種法律或行政身份／程序」。",
@@ -2465,12 +2279,10 @@ export default {
         "filed for bankruptcy"
       ],
       "optionReasons": {
-        "file-mcq-38": "本句指「向有關機構正式申請某種法律或行政身份／程序」。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-38": "本句的「filed for bankruptcy」指「向有關機構正式申請某種法律或行政身份／程序」。",
+        "file-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-38"
     },
@@ -2482,11 +2294,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "file-mcq-38",
-        "file-mcq-37",
-        "file-mcq-36",
-        "file-mcq-35",
-        "file-mcq-34",
-        "file-mcq-33"
+        "file-mcq-32",
+        "file-mcq-28",
+        "file-mcq-05"
       ],
       "explanation": "本句的「filed for divorce」指「向有關機構正式申請某種法律或行政身份／程序」。",
       "sentenceIndex": 54,
@@ -2495,12 +2305,10 @@ export default {
         "filed for divorce"
       ],
       "optionReasons": {
-        "file-mcq-38": "本句指「向有關機構正式申請某種法律或行政身份／程序」。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。"
+        "file-mcq-38": "本句的「filed for divorce」指「向有關機構正式申請某種法律或行政身份／程序」。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-38"
     },
@@ -2512,11 +2320,9 @@ export default {
       "masked": "The business ____ after years of losses.",
       "options": [
         "file-mcq-25",
-        "file-mcq-24",
-        "file-mcq-26",
-        "file-mcq-23",
-        "file-mcq-27",
-        "file-mcq-22"
+        "file-mcq-11",
+        "file-mcq-37",
+        "file-mcq-35"
       ],
       "explanation": "本句的「filed for bankruptcy」指「申請破產」。",
       "sentenceIndex": 55,
@@ -2525,12 +2331,10 @@ export default {
         "filed for bankruptcy"
       ],
       "optionReasons": {
-        "file-mcq-25": "本句指「申請破產」。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。"
+        "file-mcq-25": "本句的「filed for bankruptcy」指「申請破產」。",
+        "file-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-25"
     },
@@ -2542,11 +2346,9 @@ export default {
       "masked": "Several companies ____.",
       "options": [
         "file-mcq-25",
-        "file-mcq-24",
-        "file-mcq-26",
-        "file-mcq-23",
-        "file-mcq-27",
-        "file-mcq-22"
+        "file-mcq-11",
+        "file-mcq-31",
+        "file-mcq-14"
       ],
       "explanation": "本句的「filed for bankruptcy」指「申請破產」。",
       "sentenceIndex": 56,
@@ -2555,12 +2357,10 @@ export default {
         "filed for bankruptcy"
       ],
       "optionReasons": {
-        "file-mcq-25": "本句指「申請破產」。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-22": "「提起訴訟」是「file a lawsuit」的用法，與本句語境不同。"
+        "file-mcq-25": "本句的「filed for bankruptcy」指「申請破產」。",
+        "file-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-25"
     },
@@ -2572,11 +2372,9 @@ export default {
       "masked": "She ____ last year.",
       "options": [
         "file-mcq-26",
-        "file-mcq-25",
-        "file-mcq-27",
-        "file-mcq-24",
-        "file-mcq-28",
-        "file-mcq-23"
+        "file-mcq-19",
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-31"
       ],
       "explanation": "本句的「filed for divorce」指「提出離婚申請」。",
       "sentenceIndex": 57,
@@ -2585,12 +2383,10 @@ export default {
         "filed for divorce"
       ],
       "optionReasons": {
-        "file-mcq-26": "本句指「提出離婚申請」。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。"
+        "file-mcq-26": "本句的「filed for divorce」指「提出離婚申請」。",
+        "file-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-26"
     },
@@ -2602,11 +2398,9 @@ export default {
       "masked": "The couple decided to ____.",
       "options": [
         "file-mcq-26",
-        "file-mcq-25",
-        "file-mcq-27",
-        "file-mcq-24",
-        "file-mcq-28",
-        "file-mcq-23"
+        "file-mcq-06",
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-29"
       ],
       "explanation": "本句的「file for divorce」指「提出離婚申請」。",
       "sentenceIndex": 58,
@@ -2615,12 +2409,10 @@ export default {
         "file for divorce"
       ],
       "optionReasons": {
-        "file-mcq-26": "本句指「提出離婚申請」。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-23": "「正式提出控罪」是「file charges」的用法，與本句語境不同。"
+        "file-mcq-26": "本句的「file for divorce」指「提出離婚申請」。",
+        "file-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-26"
     },
@@ -2632,11 +2424,9 @@ export default {
       "masked": "The company's latest regulatory ____ was published yesterday.",
       "options": [
         "file-mcq-27",
-        "file-mcq-26",
+        "file-mcq-32",
         "file-mcq-28",
-        "file-mcq-25",
-        "file-mcq-29",
-        "file-mcq-24"
+        "file-mcq-23"
       ],
       "explanation": "本句的「filing」指「歸檔／申報文件」。",
       "sentenceIndex": 59,
@@ -2645,12 +2435,10 @@ export default {
         "filing"
       ],
       "optionReasons": {
-        "file-mcq-27": "本句指「歸檔／申報文件」。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。"
+        "file-mcq-27": "本句的「filing」指「歸檔／申報文件」。",
+        "file-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-27"
     },
@@ -2662,11 +2450,9 @@ export default {
       "masked": "The court ____ contains several new details.",
       "options": [
         "file-mcq-27",
-        "file-mcq-26",
         "file-mcq-28",
-        "file-mcq-25",
-        "file-mcq-29",
-        "file-mcq-24"
+        "file-mcq-35",
+        "file-mcq-20"
       ],
       "explanation": "本句的「filing」指「歸檔／申報文件」。",
       "sentenceIndex": 60,
@@ -2675,74 +2461,68 @@ export default {
         "filing"
       ],
       "optionReasons": {
-        "file-mcq-27": "本句指「歸檔／申報文件」。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。"
+        "file-mcq-27": "本句的「filing」指「歸檔／申報文件」。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-27"
     },
     {
       "id": "file-31-0",
-      "sense": "file-mcq-27",
+      "sense": "file-reviewed-5b769b6dc8",
       "en": "The office needs a better filing system.",
       "zh": "辦公室需要更好的歸檔系統。",
       "masked": "The office needs a better ____.",
       "options": [
-        "file-mcq-27",
-        "file-mcq-26",
-        "file-mcq-28",
-        "file-mcq-25",
-        "file-mcq-29",
-        "file-mcq-24"
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-12",
+        "file-mcq-23",
+        "file-mcq-22"
       ],
-      "explanation": "本句的「filing system」指「歸檔／申報文件」。",
+      "explanation": "對照完整句子：「辦公室需要更好的歸檔系統。」。這裡的「filing system」表示「用來分類、保存和尋找文件的組織方法」。",
       "sentenceIndex": 61,
       "sourcePractice": 1,
       "targets": [
         "filing system"
       ],
       "optionReasons": {
-        "file-mcq-27": "本句指「歸檔／申報文件」。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。"
+        "file-reviewed-5b769b6dc8": "對照完整句子：「辦公室需要更好的歸檔系統。」。這裡的「filing system」表示「用來分類、保存和尋找文件的組織方法」。",
+        "file-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "file-mcq-27"
+      "correctOption": "file-reviewed-5b769b6dc8",
+      "previousCorrectOption": "file-mcq-27",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "file-31-1",
-      "sense": "file-mcq-27",
+      "sense": "file-reviewed-5b769b6dc8",
       "en": "Our digital filing system is easy to use.",
       "zh": "我們的數碼檔案管理系統很容易使用。",
       "masked": "Our digital ____ is easy to use.",
       "options": [
-        "file-mcq-27",
-        "file-mcq-26",
-        "file-mcq-28",
-        "file-mcq-25",
-        "file-mcq-29",
-        "file-mcq-24"
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-09",
+        "file-mcq-31",
+        "file-mcq-26"
       ],
-      "explanation": "本句的「filing system」指「歸檔／申報文件」。",
+      "explanation": "對照完整句子：「我們的數碼檔案管理系統很容易使用。」。這裡的「filing system」表示「用來分類、保存和尋找文件的組織方法」。",
       "sentenceIndex": 62,
       "sourcePractice": 2,
       "targets": [
         "filing system"
       ],
       "optionReasons": {
-        "file-mcq-27": "本句指「歸檔／申報文件」。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-24": "「報稅」是「file taxes」的用法，與本句語境不同。"
+        "file-reviewed-5b769b6dc8": "對照完整句子：「我們的數碼檔案管理系統很容易使用。」。這裡的「filing system」表示「用來分類、保存和尋找文件的組織方法」。",
+        "file-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "file-mcq-27"
+      "correctOption": "file-reviewed-5b769b6dc8",
+      "previousCorrectOption": "file-mcq-27",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "file-32-0",
@@ -2752,11 +2532,9 @@ export default {
       "masked": "He smoothed the metal with a ____.",
       "options": [
         "file-mcq-28",
-        "file-mcq-27",
-        "file-mcq-29",
-        "file-mcq-26",
-        "file-mcq-30",
-        "file-mcq-25"
+        "file-mcq-38",
+        "file-mcq-16",
+        "file-mcq-34"
       ],
       "explanation": "本句的「file」指「銼刀」。",
       "sentenceIndex": 63,
@@ -2765,12 +2543,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-28": "本句指「銼刀」。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。"
+        "file-mcq-28": "本句的「file」指「銼刀」。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-28"
     },
@@ -2782,11 +2558,9 @@ export default {
       "masked": "Use a fine ____ on the rough edge.",
       "options": [
         "file-mcq-28",
-        "file-mcq-27",
-        "file-mcq-29",
-        "file-mcq-26",
-        "file-mcq-30",
-        "file-mcq-25"
+        "file-mcq-04",
+        "file-mcq-20",
+        "file-mcq-36"
       ],
       "explanation": "本句的「file」指「銼刀」。",
       "sentenceIndex": 64,
@@ -2795,12 +2569,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-28": "本句指「銼刀」。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-25": "「申請破產」是「file for bankruptcy」的用法，與本句語境不同。"
+        "file-mcq-28": "本句的「file」指「銼刀」。",
+        "file-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-28"
     },
@@ -2812,11 +2584,9 @@ export default {
       "masked": "She used a ____ to smooth her nails.",
       "options": [
         "file-mcq-29",
-        "file-mcq-28",
-        "file-mcq-30",
-        "file-mcq-27",
-        "file-mcq-31",
-        "file-mcq-26"
+        "file-mcq-17",
+        "file-mcq-14",
+        "file-reviewed-df79794e21"
       ],
       "explanation": "本句的「nail file」指「指甲銼」。",
       "sentenceIndex": 65,
@@ -2825,12 +2595,10 @@ export default {
         "nail file"
       ],
       "optionReasons": {
-        "file-mcq-29": "本句指「指甲銼」。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。"
+        "file-mcq-29": "本句的「nail file」指「指甲銼」。",
+        "file-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "file-reviewed-df79794e21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-29"
     },
@@ -2842,11 +2610,9 @@ export default {
       "masked": "I keep a ____ in my bag.",
       "options": [
         "file-mcq-29",
-        "file-mcq-28",
-        "file-mcq-30",
-        "file-mcq-27",
-        "file-mcq-31",
-        "file-mcq-26"
+        "file-mcq-16",
+        "file-mcq-38",
+        "file-mcq-35"
       ],
       "explanation": "本句的「nail file」指「指甲銼」。",
       "sentenceIndex": 66,
@@ -2855,12 +2621,10 @@ export default {
         "nail file"
       ],
       "optionReasons": {
-        "file-mcq-29": "本句指「指甲銼」。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-26": "「提出離婚申請」是「file for divorce」的用法，與本句語境不同。"
+        "file-mcq-29": "本句的「nail file」指「指甲銼」。",
+        "file-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-29"
     },
@@ -2872,11 +2636,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "file-mcq-30",
-        "file-mcq-29",
-        "file-mcq-31",
-        "file-mcq-28",
-        "file-mcq-32",
-        "file-mcq-27"
+        "file-mcq-14",
+        "file-mcq-23",
+        "file-mcq-19"
       ],
       "explanation": "本句的「filed the metal edge smooth」指「銼；磨平」。",
       "sentenceIndex": 67,
@@ -2885,12 +2647,10 @@ export default {
         "filed the metal edge smooth"
       ],
       "optionReasons": {
-        "file-mcq-30": "本句指「銼；磨平」。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。"
+        "file-mcq-30": "本句的「filed the metal edge smooth」指「銼；磨平」。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-30"
     },
@@ -2902,11 +2662,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "file-mcq-30",
-        "file-mcq-29",
-        "file-mcq-31",
-        "file-mcq-28",
-        "file-mcq-32",
-        "file-mcq-27"
+        "file-mcq-02",
+        "file-reviewed-5b769b6dc8",
+        "file-mcq-22"
       ],
       "explanation": "本句的「filed her nails」指「銼；磨平」。",
       "sentenceIndex": 68,
@@ -2915,12 +2673,10 @@ export default {
         "filed her nails"
       ],
       "optionReasons": {
-        "file-mcq-30": "本句指「銼；磨平」。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-27": "「歸檔／申報文件」是「filing」的用法，與本句語境不同。"
+        "file-mcq-30": "本句的「filed her nails」指「銼；磨平」。",
+        "file-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-30"
     },
@@ -2932,11 +2688,9 @@ export default {
       "masked": "Metal ____ covered the workbench.",
       "options": [
         "file-mcq-31",
-        "file-mcq-30",
-        "file-mcq-32",
-        "file-mcq-29",
-        "file-mcq-33",
-        "file-mcq-28"
+        "file-mcq-09",
+        "file-mcq-26",
+        "file-mcq-35"
       ],
       "explanation": "本句的「filings」指「銼屑」。",
       "sentenceIndex": 69,
@@ -2945,12 +2699,10 @@ export default {
         "filings"
       ],
       "optionReasons": {
-        "file-mcq-31": "本句指「銼屑」。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。"
+        "file-mcq-31": "本句的「filings」指「銼屑」。",
+        "file-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-31"
     },
@@ -2962,11 +2714,9 @@ export default {
       "masked": "Iron ____ are often used in science demonstrations.",
       "options": [
         "file-mcq-31",
-        "file-mcq-30",
-        "file-mcq-32",
-        "file-mcq-29",
-        "file-mcq-33",
-        "file-mcq-28"
+        "file-mcq-14",
+        "file-mcq-25",
+        "file-mcq-17"
       ],
       "explanation": "本句的「filings」指「銼屑」。",
       "sentenceIndex": 70,
@@ -2975,12 +2725,10 @@ export default {
         "filings"
       ],
       "optionReasons": {
-        "file-mcq-31": "本句指「銼屑」。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-28": "「銼刀」是「file (tool)」的用法，與本句語境不同。"
+        "file-mcq-31": "本句的「filings」指「銼屑」。",
+        "file-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-31"
     },
@@ -2992,11 +2740,9 @@ export default {
       "masked": "The students walked in ____.",
       "options": [
         "file-mcq-32",
-        "file-mcq-31",
-        "file-mcq-33",
-        "file-mcq-30",
-        "file-mcq-34",
-        "file-mcq-29"
+        "file-mcq-25",
+        "file-mcq-28",
+        "file-reviewed-5b769b6dc8"
       ],
       "explanation": "本句的「single file」指「縱列」。",
       "sentenceIndex": 71,
@@ -3005,12 +2751,10 @@ export default {
         "single file"
       ],
       "optionReasons": {
-        "file-mcq-32": "本句指「縱列」。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。"
+        "file-mcq-32": "本句的「single file」指「縱列」。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-reviewed-5b769b6dc8": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-32"
     },
@@ -3022,11 +2766,9 @@ export default {
       "masked": "They moved through the narrow path in ____.",
       "options": [
         "file-mcq-32",
-        "file-mcq-31",
-        "file-mcq-33",
-        "file-mcq-30",
-        "file-mcq-34",
-        "file-mcq-29"
+        "file-mcq-17",
+        "file-mcq-26",
+        "file-mcq-31"
       ],
       "explanation": "本句的「file」指「縱列」。",
       "sentenceIndex": 72,
@@ -3035,12 +2777,10 @@ export default {
         "file"
       ],
       "optionReasons": {
-        "file-mcq-32": "本句指「縱列」。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-29": "「指甲銼」是「nail file」的用法，與本句語境不同。"
+        "file-mcq-32": "本句的「file」指「縱列」。",
+        "file-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-32"
     },
@@ -3052,11 +2792,9 @@ export default {
       "masked": "Please walk in ____.",
       "options": [
         "file-mcq-33",
-        "file-mcq-32",
-        "file-mcq-34",
-        "file-mcq-31",
-        "file-mcq-35",
-        "file-mcq-30"
+        "file-mcq-10",
+        "file-mcq-25",
+        "file-mcq-31"
       ],
       "explanation": "本句的「single file」指「一路縱隊」。",
       "sentenceIndex": 73,
@@ -3065,12 +2803,10 @@ export default {
         "single file"
       ],
       "optionReasons": {
-        "file-mcq-33": "本句指「一路縱隊」。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。"
+        "file-mcq-33": "本句的「single file」指「一路縱隊」。",
+        "file-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-33"
     },
@@ -3082,11 +2818,9 @@ export default {
       "masked": "The children entered the room in ____.",
       "options": [
         "file-mcq-33",
-        "file-mcq-32",
-        "file-mcq-34",
+        "file-mcq-06",
         "file-mcq-31",
-        "file-mcq-35",
-        "file-mcq-30"
+        "file-mcq-26"
       ],
       "explanation": "本句的「single file」指「一路縱隊」。",
       "sentenceIndex": 74,
@@ -3095,12 +2829,10 @@ export default {
         "single file"
       ],
       "optionReasons": {
-        "file-mcq-33": "本句指「一路縱隊」。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-30": "「銼；磨平」是「file (verb/tool)」的用法，與本句語境不同。"
+        "file-mcq-33": "本句的「single file」指「一路縱隊」。",
+        "file-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-33"
     },
@@ -3112,11 +2844,9 @@ export default {
       "masked": "The students ____.",
       "options": [
         "file-mcq-34",
-        "file-mcq-33",
-        "file-mcq-35",
-        "file-mcq-32",
-        "file-mcq-36",
-        "file-mcq-31"
+        "file-mcq-38",
+        "file-mcq-31",
+        "file-mcq-19"
       ],
       "explanation": "本句的「filed into the hall」指「魚貫進入／離開」。",
       "sentenceIndex": 75,
@@ -3125,12 +2855,10 @@ export default {
         "filed into the hall"
       ],
       "optionReasons": {
-        "file-mcq-34": "本句指「魚貫進入／離開」。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。"
+        "file-mcq-34": "本句的「filed into the hall」指「魚貫進入／離開」。",
+        "file-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-34"
     },
@@ -3142,11 +2870,9 @@ export default {
       "masked": "People slowly ____.",
       "options": [
         "file-mcq-34",
-        "file-mcq-33",
-        "file-mcq-35",
-        "file-mcq-32",
-        "file-mcq-36",
-        "file-mcq-31"
+        "file-mcq-17",
+        "file-mcq-25",
+        "file-mcq-21"
       ],
       "explanation": "本句的「filed out of the building」指「魚貫進入／離開」。",
       "sentenceIndex": 76,
@@ -3155,12 +2881,10 @@ export default {
         "filed out of the building"
       ],
       "optionReasons": {
-        "file-mcq-34": "本句指「魚貫進入／離開」。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-35": "「魚貫經過」是「file past」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-31": "「銼屑」是「filings」的用法，與本句語境不同。"
+        "file-mcq-34": "本句的「filed out of the building」指「魚貫進入／離開」。",
+        "file-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-34"
     },
@@ -3172,11 +2896,9 @@ export default {
       "masked": "Visitors ____ the display.",
       "options": [
         "file-mcq-35",
-        "file-mcq-34",
-        "file-mcq-36",
-        "file-mcq-33",
+        "file-mcq-28",
         "file-mcq-37",
-        "file-mcq-32"
+        "file-mcq-22"
       ],
       "explanation": "本句的「filed past」指「魚貫經過」。",
       "sentenceIndex": 77,
@@ -3185,12 +2907,10 @@ export default {
         "filed past"
       ],
       "optionReasons": {
-        "file-mcq-35": "本句指「魚貫經過」。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。"
+        "file-mcq-35": "本句的「filed past」指「魚貫經過」。",
+        "file-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-35"
     },
@@ -3202,11 +2922,9 @@ export default {
       "masked": "The soldiers ____ the gate.",
       "options": [
         "file-mcq-35",
-        "file-mcq-34",
-        "file-mcq-36",
-        "file-mcq-33",
-        "file-mcq-37",
-        "file-mcq-32"
+        "file-mcq-29",
+        "file-mcq-15",
+        "file-mcq-26"
       ],
       "explanation": "本句的「filed past」指「魚貫經過」。",
       "sentenceIndex": 78,
@@ -3215,12 +2933,10 @@ export default {
         "filed past"
       ],
       "optionReasons": {
-        "file-mcq-35": "本句指「魚貫經過」。",
-        "file-mcq-34": "「魚貫進入／離開」是「file into/out of」的用法，與本句語境不同。",
-        "file-mcq-36": "「儲存在電子裝置或系統中的一個獨立數碼資料單位」是「1. file（電子檔案） — 檔案」的用法，與本句語境不同。",
-        "file-mcq-33": "「一路縱隊」是「single file」的用法，與本句語境不同。",
-        "file-mcq-37": "「向稅務機關正式提交所需的稅務資料」是「26. file taxes / file a tax return — 報稅；提交報稅表」的用法，與本句語境不同。",
-        "file-mcq-32": "「縱列」是「file (line)」的用法，與本句語境不同。"
+        "file-mcq-35": "本句的「filed past」指「魚貫經過」。",
+        "file-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "file-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "file-mcq-35"
     }
@@ -3232,5 +2948,7 @@ export default {
     "sha256": "efb82e400bf215fc364408e4e8ce5dceaf744509357d585960d2b15b6210fc0c",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

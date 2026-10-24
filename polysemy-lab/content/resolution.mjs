@@ -1393,11 +1393,9 @@ export default {
       "masked": "Workplaces should provide training in conflict ____.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-68",
+        "resolution-mcq-10",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 0,
@@ -1406,12 +1404,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1423,11 +1419,9 @@ export default {
       "masked": "Good conflict ____ requires listening as well as speaking.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-68",
+        "resolution-mcq-12",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 1,
@@ -1436,12 +1430,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1453,11 +1445,9 @@ export default {
       "masked": "Managers need strong conflict-____ skills.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-78",
+        "resolution-mcq-64",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 2,
@@ -1466,12 +1456,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1483,11 +1471,9 @@ export default {
       "masked": "Leaders need effective conflict-____ skills.",
       "options": [
         "resolution-mcq-03",
-        "resolution-mcq-02",
-        "resolution-mcq-04",
-        "resolution-mcq-01",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-55",
+        "resolution-mcq-68",
+        "resolution-mcq-16"
       ],
       "explanation": "本句的「resolution」指「衝突處理技巧 workplace skill」。",
       "sentenceIndex": 3,
@@ -1496,12 +1482,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-03": "本句指「衝突處理技巧 workplace skill」。",
-        "resolution-mcq-02": "「衝突解決／化解 passage sense」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-03": "本句的「resolution」指「衝突處理技巧 workplace skill」。",
+        "resolution-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-03"
     },
@@ -1513,11 +1497,9 @@ export default {
       "masked": "Training can improve employees' conflict-____ skills.",
       "options": [
         "resolution-mcq-03",
-        "resolution-mcq-02",
-        "resolution-mcq-04",
-        "resolution-mcq-01",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-56",
+        "resolution-mcq-47",
+        "resolution-mcq-16"
       ],
       "explanation": "本句的「resolution」指「衝突處理技巧 workplace skill」。",
       "sentenceIndex": 4,
@@ -1526,12 +1508,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-03": "本句指「衝突處理技巧 workplace skill」。",
-        "resolution-mcq-02": "「衝突解決／化解 passage sense」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-03": "本句的「resolution」指「衝突處理技巧 workplace skill」。",
+        "resolution-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-03"
     },
@@ -1543,11 +1523,9 @@ export default {
       "masked": "The company introduced conflict-____ training.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-65",
+        "resolution-mcq-68",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 5,
@@ -1556,12 +1534,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1573,11 +1549,9 @@ export default {
       "masked": "Conflict-____ training can help staff disagree more constructively.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-10",
+        "resolution-mcq-68",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 6,
@@ -1586,12 +1560,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1603,11 +1575,9 @@ export default {
       "masked": "The ____ of the conflict restored trust.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-68",
+        "resolution-mcq-10",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 7,
@@ -1616,12 +1586,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1633,11 +1601,9 @@ export default {
       "masked": "A lasting ____ requires both sides to address the underlying issue.",
       "options": [
         "resolution-mcq-02",
-        "resolution-mcq-01",
-        "resolution-mcq-03",
-        "resolution-mcq-04",
-        "resolution-mcq-05",
-        "resolution-mcq-06"
+        "resolution-mcq-64",
+        "resolution-mcq-68",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「衝突解決／化解 passage sense」。",
       "sentenceIndex": 8,
@@ -1646,12 +1612,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-02": "本句指「衝突解決／化解 passage sense」。",
-        "resolution-mcq-01": "「解決；化解 settling a problem」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。"
+        "resolution-mcq-02": "本句的「resolution」指「衝突解決／化解 passage sense」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-02"
     },
@@ -1663,11 +1627,9 @@ export default {
       "masked": "The contract contains a dispute-____ procedure.",
       "options": [
         "resolution-mcq-05",
-        "resolution-mcq-04",
-        "resolution-mcq-06",
-        "resolution-mcq-03",
-        "resolution-mcq-07",
-        "resolution-mcq-02"
+        "resolution-mcq-78",
+        "resolution-mcq-65",
+        "resolution-mcq-03"
       ],
       "explanation": "本句的「resolution」指「爭議解決 formal dispute」。",
       "sentenceIndex": 9,
@@ -1676,12 +1638,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-05": "本句指「爭議解決 formal dispute」。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-02": "「衝突解決／化解 passage sense」與本句語境不同。"
+        "resolution-mcq-05": "本句的「resolution」指「爭議解決 formal dispute」。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-05"
     },
@@ -1693,11 +1653,9 @@ export default {
       "masked": "Effective dispute ____ can avoid lengthy litigation.",
       "options": [
         "resolution-mcq-05",
-        "resolution-mcq-04",
-        "resolution-mcq-06",
-        "resolution-mcq-03",
-        "resolution-mcq-07",
-        "resolution-mcq-02"
+        "resolution-mcq-12",
+        "resolution-mcq-78",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「爭議解決 formal dispute」。",
       "sentenceIndex": 10,
@@ -1706,12 +1664,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-05": "本句指「爭議解決 formal dispute」。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-02": "「衝突解決／化解 passage sense」與本句語境不同。"
+        "resolution-mcq-05": "本句的「resolution」指「爭議解決 formal dispute」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-05"
     },
@@ -1723,11 +1679,9 @@ export default {
       "masked": "Both parties wanted a quick ____ of the dispute.",
       "options": [
         "resolution-mcq-05",
-        "resolution-mcq-04",
-        "resolution-mcq-06",
+        "resolution-mcq-64",
         "resolution-mcq-03",
-        "resolution-mcq-07",
-        "resolution-mcq-02"
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「爭議解決 formal dispute」。",
       "sentenceIndex": 11,
@@ -1736,12 +1690,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-05": "本句指「爭議解決 formal dispute」。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-02": "「衝突解決／化解 passage sense」與本句語境不同。"
+        "resolution-mcq-05": "本句的「resolution」指「爭議解決 formal dispute」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-05"
     },
@@ -1753,11 +1705,9 @@ export default {
       "masked": "The agreement provided a final ____ of the dispute.",
       "options": [
         "resolution-mcq-05",
-        "resolution-mcq-04",
-        "resolution-mcq-06",
-        "resolution-mcq-03",
-        "resolution-mcq-07",
-        "resolution-mcq-02"
+        "resolution-mcq-64",
+        "resolution-mcq-12",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「爭議解決 formal dispute」。",
       "sentenceIndex": 12,
@@ -1766,12 +1716,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-05": "本句指「爭議解決 formal dispute」。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-02": "「衝突解決／化解 passage sense」與本句語境不同。"
+        "resolution-mcq-05": "本句的「resolution」指「爭議解決 formal dispute」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-05"
     },
@@ -1783,11 +1731,9 @@ export default {
       "masked": "The parties agreed to use alternative dispute ____.",
       "options": [
         "resolution-mcq-06",
-        "resolution-mcq-05",
-        "resolution-mcq-07",
-        "resolution-mcq-04",
-        "resolution-mcq-08",
-        "resolution-mcq-03"
+        "resolution-mcq-10",
+        "resolution-mcq-64",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「替代爭議解決 mediation/arbitration etc.」。",
       "sentenceIndex": 13,
@@ -1796,12 +1742,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-06": "本句指「替代爭議解決 mediation/arbitration etc.」。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-04": "「化解衝突 settle」與本句語境不同。",
-        "resolution-mcq-08": "「問題解決 troubleshooting」與本句語境不同。",
-        "resolution-mcq-03": "「衝突處理技巧 workplace skill」與本句語境不同。"
+        "resolution-mcq-06": "本句的「resolution」指「替代爭議解決 mediation/arbitration etc.」。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-06"
     },
@@ -1813,11 +1757,9 @@ export default {
       "masked": "The support team is responsible for problem ____.",
       "options": [
         "resolution-mcq-08",
-        "resolution-mcq-07",
-        "resolution-mcq-09",
-        "resolution-mcq-06",
-        "resolution-mcq-10",
-        "resolution-mcq-05"
+        "resolution-mcq-03",
+        "resolution-mcq-65",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「問題解決 troubleshooting」。",
       "sentenceIndex": 14,
@@ -1826,12 +1768,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-08": "本句指「問題解決 troubleshooting」。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-09": "「解決問題 fix」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。",
-        "resolution-mcq-10": "「問題處理 closure」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。"
+        "resolution-mcq-08": "本句的「resolution」指「問題解決 troubleshooting」。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-08"
     },
@@ -1843,11 +1783,9 @@ export default {
       "masked": "Faster problem ____ improves customer satisfaction.",
       "options": [
         "resolution-mcq-08",
-        "resolution-mcq-07",
-        "resolution-mcq-09",
-        "resolution-mcq-06",
-        "resolution-mcq-10",
-        "resolution-mcq-05"
+        "resolution-mcq-65",
+        "resolution-mcq-03",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「問題解決 troubleshooting」。",
       "sentenceIndex": 15,
@@ -1856,12 +1794,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-08": "本句指「問題解決 troubleshooting」。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。",
-        "resolution-mcq-09": "「解決問題 fix」與本句語境不同。",
-        "resolution-mcq-06": "「替代爭議解決 mediation/arbitration etc.」與本句語境不同。",
-        "resolution-mcq-10": "「問題處理 closure」與本句語境不同。",
-        "resolution-mcq-05": "「爭議解決 formal dispute」與本句語境不同。"
+        "resolution-mcq-08": "本句的「resolution」指「問題解決 troubleshooting」。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-08"
     },
@@ -1873,11 +1809,9 @@ export default {
       "masked": "The system tracks issue ____.",
       "options": [
         "resolution-mcq-10",
-        "resolution-mcq-09",
-        "resolution-mcq-11",
-        "resolution-mcq-08",
-        "resolution-mcq-12",
-        "resolution-mcq-07"
+        "resolution-mcq-52",
+        "resolution-mcq-16",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「問題處理 closure」。",
       "sentenceIndex": 16,
@@ -1886,12 +1820,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-10": "本句指「問題處理 closure」。",
-        "resolution-mcq-09": "「解決問題 fix」與本句語境不同。",
-        "resolution-mcq-11": "「解決問題 closure」與本句語境不同。",
-        "resolution-mcq-08": "「問題解決 troubleshooting」與本句語境不同。",
-        "resolution-mcq-12": "「投訴處理 customer service」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。"
+        "resolution-mcq-10": "本句的「resolution」指「問題處理 closure」。",
+        "resolution-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-10"
     },
@@ -1903,11 +1835,9 @@ export default {
       "masked": "Clear ownership can speed up issue ____.",
       "options": [
         "resolution-mcq-10",
-        "resolution-mcq-09",
-        "resolution-mcq-11",
-        "resolution-mcq-08",
-        "resolution-mcq-12",
-        "resolution-mcq-07"
+        "resolution-mcq-68",
+        "resolution-mcq-32",
+        "resolution-mcq-53"
       ],
       "explanation": "本句的「resolution」指「問題處理 closure」。",
       "sentenceIndex": 17,
@@ -1916,12 +1846,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-10": "本句指「問題處理 closure」。",
-        "resolution-mcq-09": "「解決問題 fix」與本句語境不同。",
-        "resolution-mcq-11": "「解決問題 closure」與本句語境不同。",
-        "resolution-mcq-08": "「問題解決 troubleshooting」與本句語境不同。",
-        "resolution-mcq-12": "「投訴處理 customer service」與本句語境不同。",
-        "resolution-mcq-07": "「解決爭議 settlement」與本句語境不同。"
+        "resolution-mcq-10": "本句的「resolution」指「問題處理 closure」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-10"
     },
@@ -1933,11 +1861,9 @@ export default {
       "masked": "The company improved its complaint-____ process.",
       "options": [
         "resolution-mcq-12",
-        "resolution-mcq-11",
-        "resolution-mcq-13",
-        "resolution-mcq-10",
-        "resolution-mcq-14",
-        "resolution-mcq-09"
+        "resolution-mcq-44",
+        "resolution-mcq-64",
+        "resolution-mcq-58"
       ],
       "explanation": "本句的「resolution」指「投訴處理 customer service」。",
       "sentenceIndex": 18,
@@ -1946,12 +1872,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-12": "本句指「投訴處理 customer service」。",
-        "resolution-mcq-11": "「解決問題 closure」與本句語境不同。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。",
-        "resolution-mcq-10": "「問題處理 closure」與本句語境不同。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。",
-        "resolution-mcq-09": "「解決問題 fix」與本句語境不同。"
+        "resolution-mcq-12": "本句的「resolution」指「投訴處理 customer service」。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-12"
     },
@@ -1963,11 +1887,9 @@ export default {
       "masked": "Fast complaint ____ can rebuild customer trust.",
       "options": [
         "resolution-mcq-12",
-        "resolution-mcq-11",
-        "resolution-mcq-13",
-        "resolution-mcq-10",
-        "resolution-mcq-14",
-        "resolution-mcq-09"
+        "resolution-mcq-44",
+        "resolution-mcq-57",
+        "resolution-mcq-16"
       ],
       "explanation": "本句的「resolution」指「投訴處理 customer service」。",
       "sentenceIndex": 19,
@@ -1976,12 +1898,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-12": "本句指「投訴處理 customer service」。",
-        "resolution-mcq-11": "「解決問題 closure」與本句語境不同。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。",
-        "resolution-mcq-10": "「問題處理 closure」與本句語境不同。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。",
-        "resolution-mcq-09": "「解決問題 fix」與本句語境不同。"
+        "resolution-mcq-12": "本句的「resolution」指「投訴處理 customer service」。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-12"
     },
@@ -1993,11 +1913,9 @@ export default {
       "masked": "The two sides finally reached a ____.",
       "options": [
         "resolution-mcq-14",
-        "resolution-mcq-13",
-        "resolution-mcq-15",
         "resolution-mcq-12",
-        "resolution-mcq-16",
-        "resolution-mcq-11"
+        "resolution-mcq-65",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「達成解決方案 agreement」。",
       "sentenceIndex": 20,
@@ -2006,12 +1924,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-14": "本句指「達成解決方案 agreement」。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。",
-        "resolution-mcq-12": "「投訴處理 customer service」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-11": "「解決問題 closure」與本句語境不同。"
+        "resolution-mcq-14": "本句的「resolution」指「達成解決方案 agreement」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-14"
     },
@@ -2023,11 +1939,9 @@ export default {
       "masked": "We hope to reach a ____ before Friday.",
       "options": [
         "resolution-mcq-14",
-        "resolution-mcq-13",
-        "resolution-mcq-15",
         "resolution-mcq-12",
-        "resolution-mcq-16",
-        "resolution-mcq-11"
+        "resolution-mcq-78",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「達成解決方案 agreement」。",
       "sentenceIndex": 21,
@@ -2036,12 +1950,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-14": "本句指「達成解決方案 agreement」。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。",
-        "resolution-mcq-12": "「投訴處理 customer service」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-11": "「解決問題 closure」與本句語境不同。"
+        "resolution-mcq-14": "本句的「resolution」指「達成解決方案 agreement」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-14"
     },
@@ -2053,11 +1965,9 @@ export default {
       "masked": "The team is trying to find a ____.",
       "options": [
         "resolution-mcq-15",
-        "resolution-mcq-14",
-        "resolution-mcq-16",
-        "resolution-mcq-13",
-        "resolution-mcq-17",
-        "resolution-mcq-12"
+        "resolution-mcq-03",
+        "resolution-mcq-78",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「找到解決辦法 solution」。",
       "sentenceIndex": 22,
@@ -2066,12 +1976,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-15": "本句指「找到解決辦法 solution」。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-12": "「投訴處理 customer service」與本句語境不同。"
+        "resolution-mcq-15": "本句的「resolution」指「找到解決辦法 solution」。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-15"
     },
@@ -2083,11 +1991,9 @@ export default {
       "masked": "No easy ____ was found.",
       "options": [
         "resolution-mcq-15",
-        "resolution-mcq-14",
-        "resolution-mcq-16",
-        "resolution-mcq-13",
-        "resolution-mcq-17",
-        "resolution-mcq-12"
+        "resolution-mcq-78",
+        "resolution-mcq-10",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「找到解決辦法 solution」。",
       "sentenceIndex": 23,
@@ -2096,12 +2002,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-15": "本句指「找到解決辦法 solution」。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-12": "「投訴處理 customer service」與本句語境不同。"
+        "resolution-mcq-15": "本句的「resolution」指「找到解決辦法 solution」。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-15"
     },
@@ -2113,11 +2017,9 @@ export default {
       "masked": "Both departments are seeking a ____.",
       "options": [
         "resolution-mcq-16",
-        "resolution-mcq-15",
-        "resolution-mcq-17",
-        "resolution-mcq-14",
-        "resolution-mcq-18",
-        "resolution-mcq-13"
+        "resolution-mcq-64",
+        "resolution-mcq-12",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「尋求解決 effort」。",
       "sentenceIndex": 24,
@@ -2126,12 +2028,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-16": "本句指「尋求解決 effort」。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。"
+        "resolution-mcq-16": "本句的「resolution」指「尋求解決 effort」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-16"
     },
@@ -2143,11 +2043,9 @@ export default {
       "masked": "The parties agreed to seek a peaceful ____.",
       "options": [
         "resolution-mcq-16",
-        "resolution-mcq-15",
-        "resolution-mcq-17",
-        "resolution-mcq-14",
-        "resolution-mcq-18",
-        "resolution-mcq-13"
+        "resolution-mcq-12",
+        "resolution-mcq-64",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「尋求解決 effort」。",
       "sentenceIndex": 25,
@@ -2156,12 +2054,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-16": "本句指「尋求解決 effort」。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-13": "「解決投訴 service」與本句語境不同。"
+        "resolution-mcq-16": "本句的「resolution」指「尋求解決 effort」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-16"
     },
@@ -2173,11 +2069,9 @@ export default {
       "masked": "Dialogue offers the best chance of a peaceful ____.",
       "options": [
         "resolution-mcq-17",
-        "resolution-mcq-16",
-        "resolution-mcq-18",
-        "resolution-mcq-15",
-        "resolution-mcq-19",
-        "resolution-mcq-14"
+        "resolution-mcq-12",
+        "resolution-mcq-64",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「和平解決 nonviolent settlement」。",
       "sentenceIndex": 30,
@@ -2186,12 +2080,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-17": "本句指「和平解決 nonviolent settlement」。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。",
-        "resolution-mcq-19": "「最終解決 closure」與本句語境不同。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。"
+        "resolution-mcq-17": "本句的「resolution」指「和平解決 nonviolent settlement」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-17"
     },
@@ -2203,11 +2095,9 @@ export default {
       "masked": "They continued negotiations in search of a peaceful ____.",
       "options": [
         "resolution-mcq-17",
-        "resolution-mcq-16",
-        "resolution-mcq-18",
-        "resolution-mcq-15",
-        "resolution-mcq-19",
-        "resolution-mcq-14"
+        "resolution-mcq-64",
+        "resolution-mcq-68",
+        "resolution-mcq-03"
       ],
       "explanation": "本句的「resolution」指「和平解決 nonviolent settlement」。",
       "sentenceIndex": 31,
@@ -2216,12 +2106,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-17": "本句指「和平解決 nonviolent settlement」。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。",
-        "resolution-mcq-19": "「最終解決 closure」與本句語境不同。",
-        "resolution-mcq-14": "「達成解決方案 agreement」與本句語境不同。"
+        "resolution-mcq-17": "本句的「resolution」指「和平解決 nonviolent settlement」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-17"
     },
@@ -2233,11 +2121,9 @@ export default {
       "masked": "The parties reached an amicable ____.",
       "options": [
         "resolution-mcq-18",
-        "resolution-mcq-17",
-        "resolution-mcq-19",
-        "resolution-mcq-16",
-        "resolution-mcq-20",
-        "resolution-mcq-15"
+        "resolution-mcq-33",
+        "resolution-mcq-65",
+        "resolution-mcq-10"
       ],
       "explanation": "本句的「resolution」指「友好和解 friendly settlement」。",
       "sentenceIndex": 32,
@@ -2246,12 +2132,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-18": "本句指「友好和解 friendly settlement」。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-19": "「最終解決 closure」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-20": "「持久解決 durability」與本句語境不同。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。"
+        "resolution-mcq-18": "本句的「resolution」指「友好和解 friendly settlement」。",
+        "resolution-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-18"
     },
@@ -2263,11 +2147,9 @@ export default {
       "masked": "An amicable ____ preserved the business relationship.",
       "options": [
         "resolution-mcq-18",
-        "resolution-mcq-17",
-        "resolution-mcq-19",
-        "resolution-mcq-16",
-        "resolution-mcq-20",
-        "resolution-mcq-15"
+        "resolution-mcq-78",
+        "resolution-mcq-10",
+        "resolution-mcq-44"
       ],
       "explanation": "本句的「resolution」指「友好和解 friendly settlement」。",
       "sentenceIndex": 33,
@@ -2276,12 +2158,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-18": "本句指「友好和解 friendly settlement」。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-19": "「最終解決 closure」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。",
-        "resolution-mcq-20": "「持久解決 durability」與本句語境不同。",
-        "resolution-mcq-15": "「找到解決辦法 solution」與本句語境不同。"
+        "resolution-mcq-18": "本句的「resolution」指「友好和解 friendly settlement」。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-18"
     },
@@ -2293,11 +2173,9 @@ export default {
       "masked": "The issue still awaits final ____.",
       "options": [
         "resolution-mcq-19",
-        "resolution-mcq-18",
-        "resolution-mcq-20",
-        "resolution-mcq-17",
-        "resolution-mcq-21",
-        "resolution-mcq-16"
+        "resolution-mcq-64",
+        "resolution-mcq-68",
+        "resolution-mcq-10"
       ],
       "explanation": "本句的「resolution」指「最終解決 closure」。",
       "sentenceIndex": 34,
@@ -2306,12 +2184,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-19": "本句指「最終解決 closure」。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-20": "「持久解決 durability」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-21": "「化解誤會 clarification」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。"
+        "resolution-mcq-19": "本句的「resolution」指「最終解決 closure」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-19"
     },
@@ -2323,11 +2199,9 @@ export default {
       "masked": "The agreement brought the matter to a final ____.",
       "options": [
         "resolution-mcq-19",
-        "resolution-mcq-18",
-        "resolution-mcq-20",
-        "resolution-mcq-17",
-        "resolution-mcq-21",
-        "resolution-mcq-16"
+        "resolution-mcq-12",
+        "resolution-mcq-78",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「最終解決 closure」。",
       "sentenceIndex": 35,
@@ -2336,12 +2210,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-19": "本句指「最終解決 closure」。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-20": "「持久解決 durability」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。",
-        "resolution-mcq-21": "「化解誤會 clarification」與本句語境不同。",
-        "resolution-mcq-16": "「尋求解決 effort」與本句語境不同。"
+        "resolution-mcq-19": "本句的「resolution」指「最終解決 closure」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-19"
     },
@@ -2353,11 +2225,9 @@ export default {
       "masked": "Temporary compromise is not the same as a lasting ____.",
       "options": [
         "resolution-mcq-20",
-        "resolution-mcq-19",
-        "resolution-mcq-21",
-        "resolution-mcq-18",
-        "resolution-mcq-22",
-        "resolution-mcq-17"
+        "resolution-mcq-12",
+        "resolution-mcq-78",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「持久解決 durability」。",
       "sentenceIndex": 36,
@@ -2366,12 +2236,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-20": "本句指「持久解決 durability」。",
-        "resolution-mcq-19": "「最終解決 closure」與本句語境不同。",
-        "resolution-mcq-21": "「化解誤會 clarification」與本句語境不同。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-22": "「化解分歧 reconcile」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。"
+        "resolution-mcq-20": "本句的「resolution」指「持久解決 durability」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-20"
     },
@@ -2383,11 +2251,9 @@ export default {
       "masked": "A lasting ____ must address the root cause.",
       "options": [
         "resolution-mcq-20",
-        "resolution-mcq-19",
-        "resolution-mcq-21",
-        "resolution-mcq-18",
-        "resolution-mcq-22",
-        "resolution-mcq-17"
+        "resolution-mcq-68",
+        "resolution-mcq-64",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「resolution」指「持久解決 durability」。",
       "sentenceIndex": 37,
@@ -2396,12 +2262,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-20": "本句指「持久解決 durability」。",
-        "resolution-mcq-19": "「最終解決 closure」與本句語境不同。",
-        "resolution-mcq-21": "「化解誤會 clarification」與本句語境不同。",
-        "resolution-mcq-18": "「友好和解 friendly settlement」與本句語境不同。",
-        "resolution-mcq-22": "「化解分歧 reconcile」與本句語境不同。",
-        "resolution-mcq-17": "「和平解決 nonviolent settlement」與本句語境不同。"
+        "resolution-mcq-20": "本句的「resolution」指「持久解決 durability」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-20"
     },
@@ -2413,11 +2277,9 @@ export default {
       "masked": "She showed great ____ in difficult circumstances.",
       "options": [
         "resolution-mcq-32",
-        "resolution-mcq-31",
-        "resolution-mcq-33",
-        "resolution-mcq-30",
-        "resolution-mcq-34",
-        "resolution-mcq-29"
+        "resolution-mcq-10",
+        "resolution-mcq-58",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「決心；堅定 willpower」。",
       "sentenceIndex": 38,
@@ -2426,12 +2288,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-32": "本句指「決心；堅定 willpower」。",
-        "resolution-mcq-31": "「無法解決的 cannot reconcile」與本句語境不同。",
-        "resolution-mcq-33": "「下決心 commitment」與本句語境不同。",
-        "resolution-mcq-30": "「可解決的 can be solved」與本句語境不同。",
-        "resolution-mcq-34": "「新年決心 personal commitment」與本句語境不同。",
-        "resolution-mcq-29": "「未化解衝突 pending」與本句語境不同。"
+        "resolution-mcq-32": "本句的「resolution」指「決心；堅定 willpower」。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-32"
     },
@@ -2443,11 +2303,9 @@ export default {
       "masked": "His ____ weakened as the pressure increased.",
       "options": [
         "resolution-mcq-32",
-        "resolution-mcq-31",
-        "resolution-mcq-33",
-        "resolution-mcq-30",
-        "resolution-mcq-34",
-        "resolution-mcq-29"
+        "resolution-mcq-12",
+        "resolution-mcq-73",
+        "resolution-mcq-66"
       ],
       "explanation": "本句的「resolution」指「決心；堅定 willpower」。",
       "sentenceIndex": 39,
@@ -2456,12 +2314,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-32": "本句指「決心；堅定 willpower」。",
-        "resolution-mcq-31": "「無法解決的 cannot reconcile」與本句語境不同。",
-        "resolution-mcq-33": "「下決心 commitment」與本句語境不同。",
-        "resolution-mcq-30": "「可解決的 can be solved」與本句語境不同。",
-        "resolution-mcq-34": "「新年決心 personal commitment」與本句語境不同。",
-        "resolution-mcq-29": "「未化解衝突 pending」與本句語境不同。"
+        "resolution-mcq-32": "本句的「resolution」指「決心；堅定 willpower」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-32"
     },
@@ -2473,11 +2329,9 @@ export default {
       "masked": "She made a ____ to exercise more regularly.",
       "options": [
         "resolution-mcq-33",
-        "resolution-mcq-32",
-        "resolution-mcq-34",
-        "resolution-mcq-31",
-        "resolution-mcq-35",
-        "resolution-mcq-30"
+        "resolution-mcq-66",
+        "resolution-mcq-73",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「下決心 commitment」。",
       "sentenceIndex": 42,
@@ -2486,12 +2340,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-33": "本句指「下決心 commitment」。",
-        "resolution-mcq-32": "「決心；堅定 willpower」與本句語境不同。",
-        "resolution-mcq-34": "「新年決心 personal commitment」與本句語境不同。",
-        "resolution-mcq-31": "「無法解決的 cannot reconcile」與本句語境不同。",
-        "resolution-mcq-35": "「堅持決心 follow commitment」與本句語境不同。",
-        "resolution-mcq-30": "「可解決的 can be solved」與本句語境不同。"
+        "resolution-mcq-33": "本句的「resolution」指「下決心 commitment」。",
+        "resolution-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-33"
     },
@@ -2503,11 +2355,9 @@ export default {
       "masked": "He made a firm ____ to change his habits.",
       "options": [
         "resolution-mcq-33",
-        "resolution-mcq-32",
-        "resolution-mcq-34",
-        "resolution-mcq-31",
-        "resolution-mcq-35",
-        "resolution-mcq-30"
+        "resolution-mcq-12",
+        "resolution-mcq-52",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「下決心 commitment」。",
       "sentenceIndex": 43,
@@ -2516,12 +2366,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-33": "本句指「下決心 commitment」。",
-        "resolution-mcq-32": "「決心；堅定 willpower」與本句語境不同。",
-        "resolution-mcq-34": "「新年決心 personal commitment」與本句語境不同。",
-        "resolution-mcq-31": "「無法解決的 cannot reconcile」與本句語境不同。",
-        "resolution-mcq-35": "「堅持決心 follow commitment」與本句語境不同。",
-        "resolution-mcq-30": "「可解決的 can be solved」與本句語境不同。"
+        "resolution-mcq-33": "本句的「resolution」指「下決心 commitment」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-33"
     },
@@ -2533,11 +2381,9 @@ export default {
       "masked": "My New Year's ____ is to read more.",
       "options": [
         "resolution-mcq-34",
-        "resolution-mcq-33",
-        "resolution-mcq-35",
-        "resolution-mcq-32",
-        "resolution-mcq-36",
-        "resolution-mcq-31"
+        "resolution-mcq-51",
+        "resolution-mcq-78",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「新年決心 personal commitment」。",
       "sentenceIndex": 44,
@@ -2546,12 +2392,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-34": "本句指「新年決心 personal commitment」。",
-        "resolution-mcq-33": "「下決心 commitment」與本句語境不同。",
-        "resolution-mcq-35": "「堅持決心 follow commitment」與本句語境不同。",
-        "resolution-mcq-32": "「決心；堅定 willpower」與本句語境不同。",
-        "resolution-mcq-36": "「下定決心做 X firm decision」與本句語境不同。",
-        "resolution-mcq-31": "「無法解決的 cannot reconcile」與本句語境不同。"
+        "resolution-mcq-34": "本句的「resolution」指「新年決心 personal commitment」。",
+        "resolution-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-34"
     },
@@ -2563,11 +2407,9 @@ export default {
       "masked": "Many people make New Year's ____ and then struggle to keep them.",
       "options": [
         "resolution-mcq-34",
-        "resolution-mcq-33",
-        "resolution-mcq-35",
-        "resolution-mcq-32",
-        "resolution-mcq-36",
-        "resolution-mcq-31"
+        "resolution-mcq-57",
+        "resolution-mcq-65",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolutions」指「新年決心 personal commitment」。",
       "sentenceIndex": 45,
@@ -2576,12 +2418,10 @@ export default {
         "resolutions"
       ],
       "optionReasons": {
-        "resolution-mcq-34": "本句指「新年決心 personal commitment」。",
-        "resolution-mcq-33": "「下決心 commitment」與本句語境不同。",
-        "resolution-mcq-35": "「堅持決心 follow commitment」與本句語境不同。",
-        "resolution-mcq-32": "「決心；堅定 willpower」與本句語境不同。",
-        "resolution-mcq-36": "「下定決心做 X firm decision」與本句語境不同。",
-        "resolution-mcq-31": "「無法解決的 cannot reconcile」與本句語境不同。"
+        "resolution-mcq-34": "本句的「resolutions」指「新年決心 personal commitment」。",
+        "resolution-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-34"
     },
@@ -2593,11 +2433,9 @@ export default {
       "masked": "She managed to keep her ____.",
       "options": [
         "resolution-mcq-35",
-        "resolution-mcq-34",
-        "resolution-mcq-36",
-        "resolution-mcq-33",
-        "resolution-mcq-37",
-        "resolution-mcq-32"
+        "resolution-mcq-51",
+        "resolution-mcq-10",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「堅持決心 follow commitment」。",
       "sentenceIndex": 46,
@@ -2606,12 +2444,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-35": "本句指「堅持決心 follow commitment」。",
-        "resolution-mcq-34": "「新年決心 personal commitment」與本句語境不同。",
-        "resolution-mcq-36": "「下定決心做 X firm decision」與本句語境不同。",
-        "resolution-mcq-33": "「下決心 commitment」與本句語境不同。",
-        "resolution-mcq-37": "「堅決要 X determination」與本句語境不同。",
-        "resolution-mcq-32": "「決心；堅定 willpower」與本句語境不同。"
+        "resolution-mcq-35": "本句的「resolution」指「堅持決心 follow commitment」。",
+        "resolution-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-35"
     },
@@ -2623,11 +2459,9 @@ export default {
       "masked": "Clear goals make ____ easier to keep.",
       "options": [
         "resolution-mcq-35",
-        "resolution-mcq-34",
-        "resolution-mcq-36",
-        "resolution-mcq-33",
-        "resolution-mcq-37",
-        "resolution-mcq-32"
+        "resolution-mcq-18",
+        "resolution-mcq-03",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolutions」指「堅持決心 follow commitment」。",
       "sentenceIndex": 47,
@@ -2636,12 +2470,10 @@ export default {
         "resolutions"
       ],
       "optionReasons": {
-        "resolution-mcq-35": "本句指「堅持決心 follow commitment」。",
-        "resolution-mcq-34": "「新年決心 personal commitment」與本句語境不同。",
-        "resolution-mcq-36": "「下定決心做 X firm decision」與本句語境不同。",
-        "resolution-mcq-33": "「下決心 commitment」與本句語境不同。",
-        "resolution-mcq-37": "「堅決要 X determination」與本句語境不同。",
-        "resolution-mcq-32": "「決心；堅定 willpower」與本句語境不同。"
+        "resolution-mcq-35": "本句的「resolutions」指「堅持決心 follow commitment」。",
+        "resolution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-35"
     },
@@ -2653,11 +2485,9 @@ export default {
       "masked": "The board passed a ____ approving the change.",
       "options": [
         "resolution-mcq-41",
-        "resolution-mcq-40",
-        "resolution-mcq-42",
-        "resolution-mcq-39",
-        "resolution-mcq-43",
-        "resolution-mcq-38"
+        "resolution-mcq-51",
+        "resolution-mcq-78",
+        "resolution-mcq-10"
       ],
       "explanation": "本句的「resolution」指「決議 formal motion/decision」。",
       "sentenceIndex": 50,
@@ -2666,12 +2496,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-41": "本句指「決議 formal motion/decision」。",
-        "resolution-mcq-40": "「猶豫不決的 indecisive」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-39": "「堅決地 firm manner」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-38": "「堅決的 firm」與本句語境不同。"
+        "resolution-mcq-41": "本句的「resolution」指「決議 formal motion/decision」。",
+        "resolution-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-41"
     },
@@ -2683,11 +2511,9 @@ export default {
       "masked": "Members voted on the ____.",
       "options": [
         "resolution-mcq-41",
-        "resolution-mcq-40",
-        "resolution-mcq-42",
-        "resolution-mcq-39",
-        "resolution-mcq-43",
-        "resolution-mcq-38"
+        "resolution-mcq-66",
+        "resolution-mcq-64",
+        "resolution-mcq-55"
       ],
       "explanation": "本句的「resolution」指「決議 formal motion/decision」。",
       "sentenceIndex": 51,
@@ -2696,12 +2522,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-41": "本句指「決議 formal motion/decision」。",
-        "resolution-mcq-40": "「猶豫不決的 indecisive」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-39": "「堅決地 firm manner」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-38": "「堅決的 firm」與本句語境不同。"
+        "resolution-mcq-41": "本句的「resolution」指「決議 formal motion/decision」。",
+        "resolution-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-41"
     },
@@ -2713,11 +2537,9 @@ export default {
       "masked": "The board passed a ____ unanimously.",
       "options": [
         "resolution-mcq-42",
-        "resolution-mcq-41",
-        "resolution-mcq-43",
-        "resolution-mcq-40",
-        "resolution-mcq-44",
-        "resolution-mcq-39"
+        "resolution-mcq-10",
+        "resolution-mcq-58",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「通過決議 formal decision」。",
       "sentenceIndex": 52,
@@ -2726,12 +2548,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-42": "本句指「通過決議 formal decision」。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-40": "「猶豫不決的 indecisive」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-39": "「堅決地 firm manner」與本句語境不同。"
+        "resolution-mcq-42": "本句的「resolution」指「通過決議 formal decision」。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-42"
     },
@@ -2743,11 +2563,9 @@ export default {
       "masked": "A ____ was passed approving the transaction.",
       "options": [
         "resolution-mcq-42",
-        "resolution-mcq-41",
-        "resolution-mcq-43",
-        "resolution-mcq-40",
-        "resolution-mcq-44",
-        "resolution-mcq-39"
+        "resolution-mcq-54",
+        "resolution-mcq-03",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「通過決議 formal decision」。",
       "sentenceIndex": 53,
@@ -2756,12 +2574,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-42": "本句指「通過決議 formal decision」。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-40": "「猶豫不決的 indecisive」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-39": "「堅決地 firm manner」與本句語境不同。"
+        "resolution-mcq-42": "本句的「resolution」指「通過決議 formal decision」。",
+        "resolution-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-42"
     },
@@ -2773,11 +2589,9 @@ export default {
       "masked": "Members adopted the ____.",
       "options": [
         "resolution-mcq-43",
-        "resolution-mcq-42",
-        "resolution-mcq-44",
-        "resolution-mcq-41",
-        "resolution-mcq-45",
-        "resolution-mcq-40"
+        "resolution-mcq-65",
+        "resolution-mcq-56",
+        "resolution-mcq-66"
       ],
       "explanation": "本句的「resolution」指「採納決議 formal」。",
       "sentenceIndex": 54,
@@ -2786,12 +2600,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-43": "本句指「採納決議 formal」。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-40": "「猶豫不決的 indecisive」與本句語境不同。"
+        "resolution-mcq-43": "本句的「resolution」指「採納決議 formal」。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-43"
     },
@@ -2803,11 +2615,9 @@ export default {
       "masked": "The committee adopted a ____ supporting the proposal.",
       "options": [
         "resolution-mcq-43",
-        "resolution-mcq-42",
-        "resolution-mcq-44",
-        "resolution-mcq-41",
-        "resolution-mcq-45",
-        "resolution-mcq-40"
+        "resolution-mcq-51",
+        "resolution-mcq-03",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「採納決議 formal」。",
       "sentenceIndex": 55,
@@ -2816,12 +2626,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-43": "本句指「採納決議 formal」。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-40": "「猶豫不決的 indecisive」與本句語境不同。"
+        "resolution-mcq-43": "本句的「resolution」指「採納決議 formal」。",
+        "resolution-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-43"
     },
@@ -2833,11 +2641,9 @@ export default {
       "masked": "A member proposed a ____.",
       "options": [
         "resolution-mcq-44",
-        "resolution-mcq-43",
-        "resolution-mcq-45",
-        "resolution-mcq-42",
-        "resolution-mcq-46",
-        "resolution-mcq-41"
+        "resolution-mcq-55",
+        "resolution-mcq-03",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「提出決議案 meeting procedure」。",
       "sentenceIndex": 58,
@@ -2846,12 +2652,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-44": "本句指「提出決議案 meeting procedure」。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。"
+        "resolution-mcq-44": "本句的「resolution」指「提出決議案 meeting procedure」。",
+        "resolution-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-44"
     },
@@ -2863,11 +2667,9 @@ export default {
       "masked": "The proposed ____ will be discussed next week.",
       "options": [
         "resolution-mcq-44",
-        "resolution-mcq-43",
-        "resolution-mcq-45",
-        "resolution-mcq-42",
-        "resolution-mcq-46",
-        "resolution-mcq-41"
+        "resolution-mcq-56",
+        "resolution-mcq-10",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「提出決議案 meeting procedure」。",
       "sentenceIndex": 59,
@@ -2876,12 +2678,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-44": "本句指「提出決議案 meeting procedure」。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。"
+        "resolution-mcq-44": "本句的「resolution」指「提出決議案 meeting procedure」。",
+        "resolution-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-44"
     },
@@ -2893,11 +2693,9 @@ export default {
       "masked": "She moved the ____ at the meeting.",
       "options": [
         "resolution-mcq-44",
-        "resolution-mcq-43",
-        "resolution-mcq-45",
-        "resolution-mcq-42",
-        "resolution-mcq-46",
-        "resolution-mcq-41"
+        "resolution-mcq-56",
+        "resolution-mcq-10",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「提出決議案 meeting procedure」。",
       "sentenceIndex": 60,
@@ -2906,12 +2704,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-44": "本句指「提出決議案 meeting procedure」。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。"
+        "resolution-mcq-44": "本句的「resolution」指「提出決議案 meeting procedure」。",
+        "resolution-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-44"
     },
@@ -2923,11 +2719,9 @@ export default {
       "masked": "Another member seconded the ____.",
       "options": [
         "resolution-mcq-44",
-        "resolution-mcq-43",
-        "resolution-mcq-45",
-        "resolution-mcq-42",
-        "resolution-mcq-46",
-        "resolution-mcq-41"
+        "resolution-mcq-74",
+        "resolution-mcq-65",
+        "resolution-mcq-10"
       ],
       "explanation": "本句的「resolution」指「提出決議案 meeting procedure」。",
       "sentenceIndex": 61,
@@ -2936,12 +2730,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-44": "本句指「提出決議案 meeting procedure」。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-41": "「決議 formal motion/decision」與本句語境不同。"
+        "resolution-mcq-44": "本句的「resolution」指「提出決議案 meeting procedure」。",
+        "resolution-mcq-74": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-44"
     },
@@ -2953,11 +2745,9 @@ export default {
       "masked": "The change requires a board ____.",
       "options": [
         "resolution-mcq-45",
-        "resolution-mcq-44",
-        "resolution-mcq-46",
-        "resolution-mcq-43",
-        "resolution-mcq-47",
-        "resolution-mcq-42"
+        "resolution-mcq-55",
+        "resolution-mcq-65",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「董事會決議 corporate」。",
       "sentenceIndex": 62,
@@ -2966,12 +2756,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-45": "本句指「董事會決議 corporate」。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。"
+        "resolution-mcq-45": "本句的「resolution」指「董事會決議 corporate」。",
+        "resolution-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-45"
     },
@@ -2983,11 +2771,9 @@ export default {
       "masked": "The board ____ authorised the new contract.",
       "options": [
         "resolution-mcq-45",
-        "resolution-mcq-44",
-        "resolution-mcq-46",
-        "resolution-mcq-43",
-        "resolution-mcq-47",
-        "resolution-mcq-42"
+        "resolution-mcq-54",
+        "resolution-mcq-78",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「董事會決議 corporate」。",
       "sentenceIndex": 63,
@@ -2996,12 +2782,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-45": "本句指「董事會決議 corporate」。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-42": "「通過決議 formal decision」與本句語境不同。"
+        "resolution-mcq-45": "本句的「resolution」指「董事會決議 corporate」。",
+        "resolution-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-45"
     },
@@ -3013,11 +2797,9 @@ export default {
       "masked": "The bank requested a corporate ____ authorising the transaction.",
       "options": [
         "resolution-mcq-46",
-        "resolution-mcq-45",
-        "resolution-mcq-47",
-        "resolution-mcq-44",
-        "resolution-mcq-48",
-        "resolution-mcq-43"
+        "resolution-mcq-59",
+        "resolution-mcq-10",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「公司決議 corporate」。",
       "sentenceIndex": 64,
@@ -3026,12 +2808,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-46": "本句指「公司決議 corporate」。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。"
+        "resolution-mcq-46": "本句的「resolution」指「公司決議 corporate」。",
+        "resolution-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-46"
     },
@@ -3043,11 +2823,9 @@ export default {
       "masked": "Corporate ____ formally record certain company decisions.",
       "options": [
         "resolution-mcq-46",
-        "resolution-mcq-45",
-        "resolution-mcq-47",
-        "resolution-mcq-44",
-        "resolution-mcq-48",
-        "resolution-mcq-43"
+        "resolution-mcq-73",
+        "resolution-mcq-65",
+        "resolution-mcq-66"
       ],
       "explanation": "本句的「resolutions」指「公司決議 corporate」。",
       "sentenceIndex": 65,
@@ -3056,12 +2834,10 @@ export default {
         "resolutions"
       ],
       "optionReasons": {
-        "resolution-mcq-46": "本句指「公司決議 corporate」。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。",
-        "resolution-mcq-43": "「採納決議 formal」與本句語境不同。"
+        "resolution-mcq-46": "本句的「resolutions」指「公司決議 corporate」。",
+        "resolution-mcq-73": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-46"
     },
@@ -3073,11 +2849,9 @@ export default {
       "masked": "Shareholders voted on the shareholder ____.",
       "options": [
         "resolution-mcq-47",
-        "resolution-mcq-46",
-        "resolution-mcq-48",
-        "resolution-mcq-45",
-        "resolution-mcq-49",
-        "resolution-mcq-44"
+        "resolution-mcq-58",
+        "resolution-mcq-64",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「resolution」指「股東決議案 corporate」。",
       "sentenceIndex": 66,
@@ -3086,12 +2860,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-47": "本句指「股東決議案 corporate」。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。"
+        "resolution-mcq-47": "本句的「resolution」指「股東決議案 corporate」。",
+        "resolution-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-47"
     },
@@ -3103,11 +2875,9 @@ export default {
       "masked": "The ____ was approved at the annual meeting.",
       "options": [
         "resolution-mcq-47",
-        "resolution-mcq-46",
-        "resolution-mcq-48",
-        "resolution-mcq-45",
-        "resolution-mcq-49",
-        "resolution-mcq-44"
+        "resolution-mcq-10",
+        "resolution-mcq-18",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「股東決議案 corporate」。",
       "sentenceIndex": 67,
@@ -3116,12 +2886,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-47": "本句指「股東決議案 corporate」。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。",
-        "resolution-mcq-44": "「提出決議案 meeting procedure」與本句語境不同。"
+        "resolution-mcq-47": "本句的「resolution」指「股東決議案 corporate」。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-47"
     },
@@ -3133,11 +2901,9 @@ export default {
       "masked": "The team reduced its average time to ____.",
       "options": [
         "resolution-mcq-48",
-        "resolution-mcq-47",
-        "resolution-mcq-49",
-        "resolution-mcq-46",
-        "resolution-mcq-50",
-        "resolution-mcq-45"
+        "resolution-mcq-64",
+        "resolution-mcq-68",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「resolution」指「解決所需時間 service metric」。",
       "sentenceIndex": 70,
@@ -3146,12 +2912,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-48": "本句指「解決所需時間 service metric」。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。"
+        "resolution-mcq-48": "本句的「resolution」指「解決所需時間 service metric」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-48"
     },
@@ -3163,11 +2927,9 @@ export default {
       "masked": "Complex cases usually have a longer time to ____.",
       "options": [
         "resolution-mcq-48",
-        "resolution-mcq-47",
-        "resolution-mcq-49",
-        "resolution-mcq-46",
-        "resolution-mcq-50",
-        "resolution-mcq-45"
+        "resolution-mcq-12",
+        "resolution-mcq-64",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「解決所需時間 service metric」。",
       "sentenceIndex": 71,
@@ -3176,12 +2938,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-48": "本句指「解決所需時間 service metric」。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-45": "「董事會決議 corporate」與本句語境不同。"
+        "resolution-mcq-48": "本句的「resolution」指「解決所需時間 service metric」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-48"
     },
@@ -3193,11 +2953,9 @@ export default {
       "masked": "The service team tracks first-contact ____.",
       "options": [
         "resolution-mcq-49",
-        "resolution-mcq-48",
-        "resolution-mcq-50",
-        "resolution-mcq-47",
-        "resolution-mcq-51",
-        "resolution-mcq-46"
+        "resolution-mcq-68",
+        "resolution-mcq-10",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「首次聯絡解決 service metric」。",
       "sentenceIndex": 72,
@@ -3206,12 +2964,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-49": "本句指「首次聯絡解決 service metric」。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。"
+        "resolution-mcq-49": "本句的「resolution」指「首次聯絡解決 service metric」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-49"
     },
@@ -3223,11 +2979,9 @@ export default {
       "masked": "High first-contact ____ can improve customer satisfaction.",
       "options": [
         "resolution-mcq-49",
-        "resolution-mcq-48",
-        "resolution-mcq-50",
-        "resolution-mcq-47",
-        "resolution-mcq-51",
-        "resolution-mcq-46"
+        "resolution-mcq-78",
+        "resolution-mcq-65",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「首次聯絡解決 service metric」。",
       "sentenceIndex": 73,
@@ -3236,12 +2990,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-49": "本句指「首次聯絡解決 service metric」。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-47": "「股東決議案 corporate」與本句語境不同。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。",
-        "resolution-mcq-46": "「公司決議 corporate」與本句語境不同。"
+        "resolution-mcq-49": "本句的「resolution」指「首次聯絡解決 service metric」。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-49"
     },
@@ -3253,11 +3005,9 @@ export default {
       "masked": "Change the screen ____ in the settings.",
       "options": [
         "resolution-mcq-51",
-        "resolution-mcq-50",
-        "resolution-mcq-52",
-        "resolution-mcq-49",
-        "resolution-mcq-53",
-        "resolution-mcq-48"
+        "resolution-mcq-12",
+        "resolution-mcq-45",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「螢幕解析度 display」。",
       "sentenceIndex": 78,
@@ -3266,12 +3016,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-51": "本句指「螢幕解析度 display」。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。"
+        "resolution-mcq-51": "本句的「resolution」指「螢幕解析度 display」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-51"
     },
@@ -3283,11 +3031,9 @@ export default {
       "masked": "The screen ____ is 2560 × 1440.",
       "options": [
         "resolution-mcq-51",
-        "resolution-mcq-50",
-        "resolution-mcq-52",
-        "resolution-mcq-49",
-        "resolution-mcq-53",
-        "resolution-mcq-48"
+        "resolution-mcq-41",
+        "resolution-mcq-65",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「螢幕解析度 display」。",
       "sentenceIndex": 79,
@@ -3296,12 +3042,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-51": "本句指「螢幕解析度 display」。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。",
-        "resolution-mcq-48": "「解決所需時間 service metric」與本句語境不同。"
+        "resolution-mcq-51": "本句的「resolution」指「螢幕解析度 display」。",
+        "resolution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-51"
     },
@@ -3313,11 +3057,9 @@ export default {
       "masked": "The image ____ is too low for printing.",
       "options": [
         "resolution-mcq-52",
-        "resolution-mcq-51",
-        "resolution-mcq-53",
-        "resolution-mcq-50",
-        "resolution-mcq-54",
-        "resolution-mcq-49"
+        "resolution-mcq-03",
+        "resolution-mcq-42",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「圖像解析度 image」。",
       "sentenceIndex": 82,
@@ -3326,12 +3068,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-52": "本句指「圖像解析度 image」。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。",
-        "resolution-mcq-49": "「首次聯絡解決 service metric」與本句語境不同。"
+        "resolution-mcq-52": "本句的「resolution」指「圖像解析度 image」。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-52"
     },
@@ -3343,11 +3083,9 @@ export default {
       "masked": "Please send a high-____ image.",
       "options": [
         "resolution-mcq-54",
-        "resolution-mcq-53",
-        "resolution-mcq-55",
-        "resolution-mcq-52",
-        "resolution-mcq-56",
-        "resolution-mcq-51"
+        "resolution-mcq-65",
+        "resolution-mcq-10",
+        "resolution-mcq-46"
       ],
       "explanation": "本句的「resolution」指「高解析度的 technical」。",
       "sentenceIndex": 83,
@@ -3356,12 +3094,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-54": "本句指「高解析度的 technical」。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。"
+        "resolution-mcq-54": "本句的「resolution」指「高解析度的 technical」。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-54"
     },
@@ -3373,11 +3109,9 @@ export default {
       "masked": "The telescope produced high-____ images.",
       "options": [
         "resolution-mcq-54",
-        "resolution-mcq-53",
-        "resolution-mcq-55",
-        "resolution-mcq-52",
-        "resolution-mcq-56",
-        "resolution-mcq-51"
+        "resolution-mcq-33",
+        "resolution-mcq-03",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「高解析度的 technical」。",
       "sentenceIndex": 84,
@@ -3386,12 +3120,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-54": "本句指「高解析度的 technical」。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。"
+        "resolution-mcq-54": "本句的「resolution」指「高解析度的 technical」。",
+        "resolution-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-54"
     },
@@ -3403,11 +3135,9 @@ export default {
       "masked": "The preview uses a low-____ version.",
       "options": [
         "resolution-mcq-55",
-        "resolution-mcq-54",
-        "resolution-mcq-56",
-        "resolution-mcq-53",
-        "resolution-mcq-57",
-        "resolution-mcq-52"
+        "resolution-mcq-03",
+        "resolution-mcq-32",
+        "resolution-mcq-44"
       ],
       "explanation": "本句的「resolution」指「低解析度的 technical」。",
       "sentenceIndex": 85,
@@ -3416,12 +3146,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-55": "本句指「低解析度的 technical」。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。"
+        "resolution-mcq-55": "本句的「resolution」指「低解析度的 technical」。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-55"
     },
@@ -3433,11 +3161,9 @@ export default {
       "masked": "The printer supports a ____ of 1200 dpi.",
       "options": [
         "resolution-mcq-53",
-        "resolution-mcq-52",
-        "resolution-mcq-54",
-        "resolution-mcq-51",
-        "resolution-mcq-55",
-        "resolution-mcq-50"
+        "resolution-mcq-03",
+        "resolution-mcq-68",
+        "resolution-mcq-44"
       ],
       "explanation": "本句的「resolution」指「打印解析度 printing」。",
       "sentenceIndex": 88,
@@ -3446,12 +3172,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-53": "本句指「打印解析度 printing」。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。"
+        "resolution-mcq-53": "本句的「resolution」指「打印解析度 printing」。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-53"
     },
@@ -3463,11 +3187,9 @@ export default {
       "masked": "Higher printer ____ can improve fine-detail reproduction.",
       "options": [
         "resolution-mcq-53",
-        "resolution-mcq-52",
-        "resolution-mcq-54",
-        "resolution-mcq-51",
-        "resolution-mcq-55",
-        "resolution-mcq-50"
+        "resolution-mcq-34",
+        "resolution-mcq-12",
+        "resolution-mcq-42"
       ],
       "explanation": "本句的「resolution」指「打印解析度 printing」。",
       "sentenceIndex": 89,
@@ -3476,12 +3198,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-53": "本句指「打印解析度 printing」。",
-        "resolution-mcq-52": "「圖像解析度 image」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。",
-        "resolution-mcq-51": "「螢幕解析度 display」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-50": "「解析度／解像度 visual detail」與本句語境不同。"
+        "resolution-mcq-53": "本句的「resolution」指「打印解析度 printing」。",
+        "resolution-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-53"
     },
@@ -3493,11 +3213,9 @@ export default {
       "masked": "The satellite image has high spatial ____.",
       "options": [
         "resolution-mcq-56",
-        "resolution-mcq-55",
-        "resolution-mcq-57",
-        "resolution-mcq-54",
-        "resolution-mcq-58",
-        "resolution-mcq-53"
+        "resolution-mcq-41",
+        "resolution-mcq-12",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「空間解析度 science」。",
       "sentenceIndex": 90,
@@ -3506,12 +3224,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-56": "本句指「空間解析度 science」。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。",
-        "resolution-mcq-58": "「光譜解析度 science」與本句語境不同。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。"
+        "resolution-mcq-56": "本句的「resolution」指「空間解析度 science」。",
+        "resolution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-56"
     },
@@ -3523,11 +3239,9 @@ export default {
       "masked": "Higher spatial ____ allows smaller features to be distinguished.",
       "options": [
         "resolution-mcq-56",
-        "resolution-mcq-55",
-        "resolution-mcq-57",
-        "resolution-mcq-54",
-        "resolution-mcq-58",
-        "resolution-mcq-53"
+        "resolution-mcq-46",
+        "resolution-mcq-35",
+        "resolution-mcq-03"
       ],
       "explanation": "本句的「resolution」指「空間解析度 science」。",
       "sentenceIndex": 91,
@@ -3536,12 +3250,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-56": "本句指「空間解析度 science」。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。",
-        "resolution-mcq-58": "「光譜解析度 science」與本句語境不同。",
-        "resolution-mcq-53": "「打印解析度 printing」與本句語境不同。"
+        "resolution-mcq-56": "本句的「resolution」指「空間解析度 science」。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-56"
     },
@@ -3553,11 +3265,9 @@ export default {
       "masked": "The sensor has excellent temporal ____.",
       "options": [
         "resolution-mcq-57",
-        "resolution-mcq-56",
-        "resolution-mcq-58",
-        "resolution-mcq-55",
-        "resolution-mcq-59",
-        "resolution-mcq-54"
+        "resolution-mcq-12",
+        "resolution-mcq-43",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「時間解析度 science」。",
       "sentenceIndex": 92,
@@ -3566,12 +3276,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-57": "本句指「時間解析度 science」。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-58": "「光譜解析度 science」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-59": "「量測解析度 instruments」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。"
+        "resolution-mcq-57": "本句的「resolution」指「時間解析度 science」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-57"
     },
@@ -3583,11 +3291,9 @@ export default {
       "masked": "Higher temporal ____ captures changes at shorter time intervals.",
       "options": [
         "resolution-mcq-57",
-        "resolution-mcq-56",
-        "resolution-mcq-58",
-        "resolution-mcq-55",
-        "resolution-mcq-59",
-        "resolution-mcq-54"
+        "resolution-mcq-10",
+        "resolution-mcq-78",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「時間解析度 science」。",
       "sentenceIndex": 93,
@@ -3596,12 +3302,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-57": "本句指「時間解析度 science」。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-58": "「光譜解析度 science」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。",
-        "resolution-mcq-59": "「量測解析度 instruments」與本句語境不同。",
-        "resolution-mcq-54": "「高解析度的 technical」與本句語境不同。"
+        "resolution-mcq-57": "本句的「resolution」指「時間解析度 science」。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-57"
     },
@@ -3613,11 +3317,9 @@ export default {
       "masked": "The instrument offers high spectral ____.",
       "options": [
         "resolution-mcq-58",
-        "resolution-mcq-57",
-        "resolution-mcq-59",
-        "resolution-mcq-56",
-        "resolution-mcq-60",
-        "resolution-mcq-55"
+        "resolution-mcq-43",
+        "resolution-mcq-10",
+        "resolution-mcq-34"
       ],
       "explanation": "本句的「resolution」指「光譜解析度 science」。",
       "sentenceIndex": 94,
@@ -3626,12 +3328,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-58": "本句指「光譜解析度 science」。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-59": "「量測解析度 instruments」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-60": "「分辨能力／解析力 optics」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。"
+        "resolution-mcq-58": "本句的「resolution」指「光譜解析度 science」。",
+        "resolution-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-58"
     },
@@ -3643,11 +3343,9 @@ export default {
       "masked": "Spectral ____ determines how well nearby wavelengths can be distinguished.",
       "options": [
         "resolution-mcq-58",
-        "resolution-mcq-57",
-        "resolution-mcq-59",
-        "resolution-mcq-56",
-        "resolution-mcq-60",
-        "resolution-mcq-55"
+        "resolution-mcq-44",
+        "resolution-mcq-10",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「光譜解析度 science」。",
       "sentenceIndex": 95,
@@ -3656,12 +3354,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-58": "本句指「光譜解析度 science」。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-59": "「量測解析度 instruments」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。",
-        "resolution-mcq-60": "「分辨能力／解析力 optics」與本句語境不同。",
-        "resolution-mcq-55": "「低解析度的 technical」與本句語境不同。"
+        "resolution-mcq-58": "本句的「resolution」指「光譜解析度 science」。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-58"
     },
@@ -3673,11 +3369,9 @@ export default {
       "masked": "The instrument has a ____ of 0.1 mm.",
       "options": [
         "resolution-mcq-59",
-        "resolution-mcq-58",
-        "resolution-mcq-60",
-        "resolution-mcq-57",
-        "resolution-mcq-61",
-        "resolution-mcq-56"
+        "resolution-mcq-33",
+        "resolution-mcq-03",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「量測解析度 instruments」。",
       "sentenceIndex": 96,
@@ -3686,12 +3380,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-59": "本句指「量測解析度 instruments」。",
-        "resolution-mcq-58": "「光譜解析度 science」與本句語境不同。",
-        "resolution-mcq-60": "「分辨能力／解析力 optics」與本句語境不同。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-61": "「分辨兩個相近點 technical」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。"
+        "resolution-mcq-59": "本句的「resolution」指「量測解析度 instruments」。",
+        "resolution-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-59"
     },
@@ -3703,11 +3395,9 @@ export default {
       "masked": "____ indicates the smallest change the system can distinguish.",
       "options": [
         "resolution-mcq-59",
-        "resolution-mcq-58",
-        "resolution-mcq-60",
-        "resolution-mcq-57",
-        "resolution-mcq-61",
-        "resolution-mcq-56"
+        "resolution-mcq-33",
+        "resolution-mcq-78",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「Resolution」指「量測解析度 instruments」。",
       "sentenceIndex": 97,
@@ -3716,12 +3406,10 @@ export default {
         "Resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-59": "本句指「量測解析度 instruments」。",
-        "resolution-mcq-58": "「光譜解析度 science」與本句語境不同。",
-        "resolution-mcq-60": "「分辨能力／解析力 optics」與本句語境不同。",
-        "resolution-mcq-57": "「時間解析度 science」與本句語境不同。",
-        "resolution-mcq-61": "「分辨兩個相近點 technical」與本句語境不同。",
-        "resolution-mcq-56": "「空間解析度 science」與本句語境不同。"
+        "resolution-mcq-59": "本句的「Resolution」指「量測解析度 instruments」。",
+        "resolution-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-59"
     },
@@ -3733,11 +3421,9 @@ export default {
       "masked": "Some minor conditions undergo spontaneous ____.",
       "options": [
         "resolution-mcq-64",
-        "resolution-mcq-63",
-        "resolution-mcq-65",
-        "resolution-mcq-62",
-        "resolution-mcq-66",
-        "resolution-mcq-61"
+        "resolution-mcq-14",
+        "resolution-mcq-52",
+        "resolution-mcq-34"
       ],
       "explanation": "本句的「resolution」指「自行消退 medicine」。",
       "sentenceIndex": 99,
@@ -3746,12 +3432,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-64": "本句指「自行消退 medicine」。",
-        "resolution-mcq-63": "「症狀消退 medicine」與本句語境不同。",
-        "resolution-mcq-65": "「完全消退 medicine」與本句語境不同。",
-        "resolution-mcq-62": "「症狀消退／緩解 medicine」與本句語境不同。",
-        "resolution-mcq-66": "「部分緩解 medicine」與本句語境不同。",
-        "resolution-mcq-61": "「分辨兩個相近點 technical」與本句語境不同。"
+        "resolution-mcq-64": "本句的「resolution」指「自行消退 medicine」。",
+        "resolution-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-64"
     },
@@ -3763,11 +3447,9 @@ export default {
       "masked": "Spontaneous ____ means the problem improves without the specific intervention being discussed.",
       "options": [
         "resolution-mcq-64",
-        "resolution-mcq-63",
-        "resolution-mcq-65",
-        "resolution-mcq-62",
-        "resolution-mcq-66",
-        "resolution-mcq-61"
+        "resolution-mcq-15",
+        "resolution-mcq-46",
+        "resolution-mcq-53"
       ],
       "explanation": "本句的「resolution」指「自行消退 medicine」。",
       "sentenceIndex": 100,
@@ -3776,12 +3458,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-64": "本句指「自行消退 medicine」。",
-        "resolution-mcq-63": "「症狀消退 medicine」與本句語境不同。",
-        "resolution-mcq-65": "「完全消退 medicine」與本句語境不同。",
-        "resolution-mcq-62": "「症狀消退／緩解 medicine」與本句語境不同。",
-        "resolution-mcq-66": "「部分緩解 medicine」與本句語境不同。",
-        "resolution-mcq-61": "「分辨兩個相近點 technical」與本句語境不同。"
+        "resolution-mcq-64": "本句的「resolution」指「自行消退 medicine」。",
+        "resolution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-64"
     },
@@ -3793,11 +3473,9 @@ export default {
       "masked": "The patient experienced complete ____ of symptoms.",
       "options": [
         "resolution-mcq-65",
-        "resolution-mcq-64",
         "resolution-mcq-66",
-        "resolution-mcq-63",
-        "resolution-mcq-67",
-        "resolution-mcq-62"
+        "resolution-mcq-78",
+        "resolution-mcq-46"
       ],
       "explanation": "本句的「resolution」指「完全消退 medicine」。",
       "sentenceIndex": 101,
@@ -3806,12 +3484,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-65": "本句指「完全消退 medicine」。",
-        "resolution-mcq-64": "「自行消退 medicine」與本句語境不同。",
-        "resolution-mcq-66": "「部分緩解 medicine」與本句語境不同。",
-        "resolution-mcq-63": "「症狀消退 medicine」與本句語境不同。",
-        "resolution-mcq-67": "「故事收束／結局 literature」與本句語境不同。",
-        "resolution-mcq-62": "「症狀消退／緩解 medicine」與本句語境不同。"
+        "resolution-mcq-65": "本句的「resolution」指「完全消退 medicine」。",
+        "resolution-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-65"
     },
@@ -3823,11 +3499,9 @@ export default {
       "masked": "Imaging showed complete ____ of the abnormality.",
       "options": [
         "resolution-mcq-65",
-        "resolution-mcq-64",
-        "resolution-mcq-66",
-        "resolution-mcq-63",
-        "resolution-mcq-67",
-        "resolution-mcq-62"
+        "resolution-mcq-52",
+        "resolution-mcq-15",
+        "resolution-mcq-34"
       ],
       "explanation": "本句的「resolution」指「完全消退 medicine」。",
       "sentenceIndex": 102,
@@ -3836,12 +3510,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-65": "本句指「完全消退 medicine」。",
-        "resolution-mcq-64": "「自行消退 medicine」與本句語境不同。",
-        "resolution-mcq-66": "「部分緩解 medicine」與本句語境不同。",
-        "resolution-mcq-63": "「症狀消退 medicine」與本句語境不同。",
-        "resolution-mcq-67": "「故事收束／結局 literature」與本句語境不同。",
-        "resolution-mcq-62": "「症狀消退／緩解 medicine」與本句語境不同。"
+        "resolution-mcq-65": "本句的「resolution」指「完全消退 medicine」。",
+        "resolution-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-65"
     },
@@ -3853,11 +3525,9 @@ export default {
       "masked": "Treatment produced only partial ____.",
       "options": [
         "resolution-mcq-66",
-        "resolution-mcq-65",
-        "resolution-mcq-67",
-        "resolution-mcq-64",
-        "resolution-mcq-68",
-        "resolution-mcq-63"
+        "resolution-mcq-46",
+        "resolution-mcq-35",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「部分緩解 medicine」。",
       "sentenceIndex": 103,
@@ -3866,12 +3536,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-66": "本句指「部分緩解 medicine」。",
-        "resolution-mcq-65": "「完全消退 medicine」與本句語境不同。",
-        "resolution-mcq-67": "「故事收束／結局 literature」與本句語境不同。",
-        "resolution-mcq-64": "「自行消退 medicine」與本句語境不同。",
-        "resolution-mcq-68": "「情節收束 story」與本句語境不同。",
-        "resolution-mcq-63": "「症狀消退 medicine」與本句語境不同。"
+        "resolution-mcq-66": "本句的「resolution」指「部分緩解 medicine」。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-66"
     },
@@ -3884,10 +3552,8 @@ export default {
       "options": [
         "resolution-mcq-66",
         "resolution-mcq-65",
-        "resolution-mcq-67",
-        "resolution-mcq-64",
-        "resolution-mcq-68",
-        "resolution-mcq-63"
+        "resolution-mcq-12",
+        "resolution-mcq-46"
       ],
       "explanation": "本句的「resolution」指「部分緩解 medicine」。",
       "sentenceIndex": 104,
@@ -3896,12 +3562,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-66": "本句指「部分緩解 medicine」。",
-        "resolution-mcq-65": "「完全消退 medicine」與本句語境不同。",
-        "resolution-mcq-67": "「故事收束／結局 literature」與本句語境不同。",
-        "resolution-mcq-64": "「自行消退 medicine」與本句語境不同。",
-        "resolution-mcq-68": "「情節收束 story」與本句語境不同。",
-        "resolution-mcq-63": "「症狀消退 medicine」與本句語境不同。"
+        "resolution-mcq-66": "本句的「resolution」指「部分緩解 medicine」。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-66"
     },
@@ -3913,11 +3577,9 @@ export default {
       "masked": "The plot ____ felt rushed.",
       "options": [
         "resolution-mcq-68",
-        "resolution-mcq-67",
-        "resolution-mcq-69",
-        "resolution-mcq-66",
-        "resolution-mcq-70",
-        "resolution-mcq-65"
+        "resolution-mcq-12",
+        "resolution-mcq-51",
+        "resolution-mcq-02"
       ],
       "explanation": "本句的「resolution」指「情節收束 story」。",
       "sentenceIndex": 107,
@@ -3926,12 +3588,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-68": "本句指「情節收束 story」。",
-        "resolution-mcq-67": "「故事收束／結局 literature」與本句語境不同。",
-        "resolution-mcq-69": "「和聲解決 music」與本句語境不同。",
-        "resolution-mcq-66": "「部分緩解 medicine」與本句語境不同。",
-        "resolution-mcq-70": "「和弦解決 music」與本句語境不同。",
-        "resolution-mcq-65": "「完全消退 medicine」與本句語境不同。"
+        "resolution-mcq-68": "本句的「resolution」指「情節收束 story」。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-68"
     },
@@ -3943,11 +3603,9 @@ export default {
       "masked": "A strong ____ should connect naturally to earlier events.",
       "options": [
         "resolution-mcq-68",
-        "resolution-mcq-67",
-        "resolution-mcq-69",
-        "resolution-mcq-66",
-        "resolution-mcq-70",
-        "resolution-mcq-65"
+        "resolution-mcq-75",
+        "resolution-mcq-46",
+        "resolution-mcq-16"
       ],
       "explanation": "本句的「resolution」指「情節收束 story」。",
       "sentenceIndex": 108,
@@ -3956,12 +3614,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-68": "本句指「情節收束 story」。",
-        "resolution-mcq-67": "「故事收束／結局 literature」與本句語境不同。",
-        "resolution-mcq-69": "「和聲解決 music」與本句語境不同。",
-        "resolution-mcq-66": "「部分緩解 medicine」與本句語境不同。",
-        "resolution-mcq-70": "「和弦解決 music」與本句語境不同。",
-        "resolution-mcq-65": "「完全消退 medicine」與本句語境不同。"
+        "resolution-mcq-68": "本句的「resolution」指「情節收束 story」。",
+        "resolution-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-68"
     },
@@ -3973,11 +3629,9 @@ export default {
       "masked": "DNS ____ translates domain names into IP addresses.",
       "options": [
         "resolution-mcq-74",
-        "resolution-mcq-73",
-        "resolution-mcq-75",
-        "resolution-mcq-72",
-        "resolution-mcq-76",
-        "resolution-mcq-71"
+        "resolution-mcq-44",
+        "resolution-mcq-68",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「解析 networking」。",
       "sentenceIndex": 117,
@@ -3986,12 +3640,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-74": "本句指「解析 networking」。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-72": "「力的分解 physics」與本句語境不同。",
-        "resolution-mcq-76": "「合併衝突解決 version control」與本句語境不同。",
-        "resolution-mcq-71": "「分解成分量 physics/math」與本句語境不同。"
+        "resolution-mcq-74": "本句的「resolution」指「解析 networking」。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-74"
     },
@@ -4003,11 +3655,9 @@ export default {
       "masked": "Slow DNS ____ can delay page loading.",
       "options": [
         "resolution-mcq-74",
-        "resolution-mcq-73",
-        "resolution-mcq-75",
-        "resolution-mcq-72",
-        "resolution-mcq-76",
-        "resolution-mcq-71"
+        "resolution-mcq-32",
+        "resolution-mcq-46",
+        "resolution-mcq-12"
       ],
       "explanation": "本句的「resolution」指「解析 networking」。",
       "sentenceIndex": 118,
@@ -4016,12 +3666,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-74": "本句指「解析 networking」。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-72": "「力的分解 physics」與本句語境不同。",
-        "resolution-mcq-76": "「合併衝突解決 version control」與本句語境不同。",
-        "resolution-mcq-71": "「分解成分量 physics/math」與本句語境不同。"
+        "resolution-mcq-74": "本句的「resolution」指「解析 networking」。",
+        "resolution-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-74"
     },
@@ -4033,11 +3681,9 @@ export default {
       "masked": "The error was caused by a name-____ problem.",
       "options": [
         "resolution-mcq-73",
-        "resolution-mcq-72",
-        "resolution-mcq-74",
-        "resolution-mcq-71",
-        "resolution-mcq-75",
-        "resolution-mcq-70"
+        "resolution-mcq-68",
+        "resolution-mcq-42",
+        "resolution-mcq-32"
       ],
       "explanation": "本句的「resolution」指「名稱解析 computing」。",
       "sentenceIndex": 119,
@@ -4046,12 +3692,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-73": "本句指「名稱解析 computing」。",
-        "resolution-mcq-72": "「力的分解 physics」與本句語境不同。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-71": "「分解成分量 physics/math」與本句語境不同。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-70": "「和弦解決 music」與本句語境不同。"
+        "resolution-mcq-73": "本句的「resolution」指「名稱解析 computing」。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-73"
     },
@@ -4063,11 +3707,9 @@ export default {
       "masked": "Different systems use different name-____ mechanisms.",
       "options": [
         "resolution-mcq-73",
-        "resolution-mcq-72",
-        "resolution-mcq-74",
-        "resolution-mcq-71",
-        "resolution-mcq-75",
-        "resolution-mcq-70"
+        "resolution-mcq-47",
+        "resolution-mcq-34",
+        "resolution-mcq-65"
       ],
       "explanation": "本句的「resolution」指「名稱解析 computing」。",
       "sentenceIndex": 120,
@@ -4076,12 +3718,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-73": "本句指「名稱解析 computing」。",
-        "resolution-mcq-72": "「力的分解 physics」與本句語境不同。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-71": "「分解成分量 physics/math」與本句語境不同。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-70": "「和弦解決 music」與本句語境不同。"
+        "resolution-mcq-73": "本句的「resolution」指「名稱解析 computing」。",
+        "resolution-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-73"
     },
@@ -4093,11 +3733,9 @@ export default {
       "masked": "The package manager handles dependency ____ automatically.",
       "options": [
         "resolution-mcq-75",
-        "resolution-mcq-74",
-        "resolution-mcq-76",
-        "resolution-mcq-73",
-        "resolution-mcq-77",
-        "resolution-mcq-72"
+        "resolution-mcq-41",
+        "resolution-mcq-12",
+        "resolution-mcq-64"
       ],
       "explanation": "本句的「resolution」指「依賴關係解析 software」。",
       "sentenceIndex": 121,
@@ -4106,12 +3744,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-75": "本句指「依賴關係解析 software」。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-76": "「合併衝突解決 version control」與本句語境不同。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。",
-        "resolution-mcq-77": "「化學拆分 chemistry」與本句語境不同。",
-        "resolution-mcq-72": "「力的分解 physics」與本句語境不同。"
+        "resolution-mcq-75": "本句的「resolution」指「依賴關係解析 software」。",
+        "resolution-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-75"
     },
@@ -4123,11 +3759,9 @@ export default {
       "masked": "Dependency ____ failed because two packages required incompatible versions.",
       "options": [
         "resolution-mcq-75",
-        "resolution-mcq-74",
-        "resolution-mcq-76",
-        "resolution-mcq-73",
-        "resolution-mcq-77",
-        "resolution-mcq-72"
+        "resolution-mcq-34",
+        "resolution-mcq-68",
+        "resolution-mcq-46"
       ],
       "explanation": "本句的「resolution」指「依賴關係解析 software」。",
       "sentenceIndex": 122,
@@ -4136,12 +3770,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-75": "本句指「依賴關係解析 software」。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-76": "「合併衝突解決 version control」與本句語境不同。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。",
-        "resolution-mcq-77": "「化學拆分 chemistry」與本句語境不同。",
-        "resolution-mcq-72": "「力的分解 physics」與本句語境不同。"
+        "resolution-mcq-75": "本句的「resolution」指「依賴關係解析 software」。",
+        "resolution-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-75"
     },
@@ -4153,11 +3785,9 @@ export default {
       "masked": "The developer completed the merge-conflict ____ manually.",
       "options": [
         "resolution-mcq-76",
-        "resolution-mcq-75",
-        "resolution-mcq-77",
-        "resolution-mcq-74",
-        "resolution-mcq-78",
-        "resolution-mcq-73"
+        "resolution-mcq-64",
+        "resolution-mcq-68",
+        "resolution-mcq-78"
       ],
       "explanation": "本句的「resolution」指「合併衝突解決 version control」。",
       "sentenceIndex": 123,
@@ -4166,12 +3796,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-76": "本句指「合併衝突解決 version control」。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-77": "「化學拆分 chemistry」與本句語境不同。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-78": "「銀行危機處置 finance/regulation」與本句語境不同。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。"
+        "resolution-mcq-76": "本句的「resolution」指「合併衝突解決 version control」。",
+        "resolution-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-78": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-76"
     },
@@ -4183,11 +3811,9 @@ export default {
       "masked": "Authorities may use a formal bank-____ framework when a bank fails.",
       "options": [
         "resolution-mcq-78",
-        "resolution-mcq-77",
-        "resolution-mcq-76",
-        "resolution-mcq-75",
-        "resolution-mcq-74",
-        "resolution-mcq-73"
+        "resolution-mcq-48",
+        "resolution-mcq-58",
+        "resolution-mcq-68"
       ],
       "explanation": "本句的「resolution」指「銀行危機處置 finance/regulation」。",
       "sentenceIndex": 126,
@@ -4196,12 +3822,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-78": "本句指「銀行危機處置 finance/regulation」。",
-        "resolution-mcq-77": "「化學拆分 chemistry」與本句語境不同。",
-        "resolution-mcq-76": "「合併衝突解決 version control」與本句語境不同。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。"
+        "resolution-mcq-78": "本句的「resolution」指「銀行危機處置 finance/regulation」。",
+        "resolution-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-68": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-78"
     },
@@ -4213,11 +3837,9 @@ export default {
       "masked": "Bank ____ is distinct from ordinary problem-solving language.",
       "options": [
         "resolution-mcq-78",
-        "resolution-mcq-77",
-        "resolution-mcq-76",
-        "resolution-mcq-75",
-        "resolution-mcq-74",
-        "resolution-mcq-73"
+        "resolution-mcq-02",
+        "resolution-mcq-44",
+        "resolution-mcq-58"
       ],
       "explanation": "本句的「resolution」指「銀行危機處置 finance/regulation」。",
       "sentenceIndex": 127,
@@ -4226,12 +3848,10 @@ export default {
         "resolution"
       ],
       "optionReasons": {
-        "resolution-mcq-78": "本句指「銀行危機處置 finance/regulation」。",
-        "resolution-mcq-77": "「化學拆分 chemistry」與本句語境不同。",
-        "resolution-mcq-76": "「合併衝突解決 version control」與本句語境不同。",
-        "resolution-mcq-75": "「依賴關係解析 software」與本句語境不同。",
-        "resolution-mcq-74": "「解析 networking」與本句語境不同。",
-        "resolution-mcq-73": "「名稱解析 computing」與本句語境不同。"
+        "resolution-mcq-78": "本句的「resolution」指「銀行危機處置 finance/regulation」。",
+        "resolution-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "resolution-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "resolution-mcq-78"
     }
@@ -4243,5 +3863,7 @@ export default {
     "sha256": "0e69766fecd0910983906e8224c83907bb8eb4efefd33a80cdff198c029b97ab",
     "pages": 75
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

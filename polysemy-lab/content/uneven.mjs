@@ -503,11 +503,9 @@ export default {
       "masked": "Group work often involves ____.",
       "options": [
         "uneven-mcq-01",
-        "uneven-mcq-02",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-17",
+        "uneven-mcq-18",
+        "uneven-mcq-13"
       ],
       "explanation": "本句的「uneven effort」指「不平均的；不均衡的」。",
       "sentenceIndex": 0,
@@ -516,12 +514,10 @@ export default {
         "uneven effort"
       ],
       "optionReasons": {
-        "uneven-mcq-01": "本句指「不平均的；不均衡的」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-01": "本句的「uneven effort」指「不平均的；不均衡的」。",
+        "uneven-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-01"
     },
@@ -533,11 +529,9 @@ export default {
       "masked": "The workload was ____.",
       "options": [
         "uneven-mcq-01",
-        "uneven-mcq-02",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-14",
+        "uneven-mcq-18",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「unevenly distributed」指「不平均的；不均衡的」。",
       "sentenceIndex": 1,
@@ -546,12 +540,10 @@ export default {
         "unevenly distributed"
       ],
       "optionReasons": {
-        "uneven-mcq-01": "本句指「不平均的；不均衡的」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-01": "本句的「unevenly distributed」指「不平均的；不均衡的」。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-01"
     },
@@ -563,11 +555,9 @@ export default {
       "masked": "There was an ____.",
       "options": [
         "uneven-mcq-01",
-        "uneven-mcq-02",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-14",
+        "uneven-mcq-18",
+        "uneven-mcq-13"
       ],
       "explanation": "本句的「uneven division of responsibilities」指「不平均的；不均衡的」。",
       "sentenceIndex": 2,
@@ -576,12 +566,10 @@ export default {
         "uneven division of responsibilities"
       ],
       "optionReasons": {
-        "uneven-mcq-01": "本句指「不平均的；不均衡的」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-01": "本句的「uneven division of responsibilities」指「不平均的；不均衡的」。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-01"
     },
@@ -593,11 +581,9 @@ export default {
       "masked": "____ can quickly create resentment.",
       "options": [
         "uneven-mcq-02",
-        "uneven-mcq-01",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-13",
+        "uneven-mcq-07",
+        "uneven-mcq-14"
       ],
       "explanation": "本句的「Uneven effort」指「付出不均」。",
       "sentenceIndex": 3,
@@ -606,12 +592,10 @@ export default {
         "Uneven effort"
       ],
       "optionReasons": {
-        "uneven-mcq-02": "本句指「付出不均」。",
-        "uneven-mcq-01": "「不平均的；不均衡的」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-02": "本句的「Uneven effort」指「付出不均」。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-02"
     },
@@ -623,11 +607,9 @@ export default {
       "masked": "The project suffered because of ____.",
       "options": [
         "uneven-mcq-02",
-        "uneven-mcq-01",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-16",
+        "uneven-mcq-18",
+        "uneven-mcq-14"
       ],
       "explanation": "本句的「uneven effort among team members」指「付出不均」。",
       "sentenceIndex": 4,
@@ -636,12 +618,10 @@ export default {
         "uneven effort among team members"
       ],
       "optionReasons": {
-        "uneven-mcq-02": "本句指「付出不均」。",
-        "uneven-mcq-01": "「不平均的；不均衡的」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-02": "本句的「uneven effort among team members」指「付出不均」。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-02"
     },
@@ -653,11 +633,9 @@ export default {
       "masked": "There was an ____.",
       "options": [
         "uneven-mcq-03",
-        "uneven-mcq-02",
-        "uneven-mcq-04",
-        "uneven-mcq-01",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-18",
+        "uneven-mcq-07",
+        "uneven-mcq-16"
       ],
       "explanation": "本句的「uneven distribution of work」指「分布／分配不均」。",
       "sentenceIndex": 5,
@@ -666,12 +644,10 @@ export default {
         "uneven distribution of work"
       ],
       "optionReasons": {
-        "uneven-mcq-03": "本句指「分布／分配不均」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-01": "「不平均的；不均衡的」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-03": "本句的「uneven distribution of work」指「分布／分配不均」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-03"
     },
@@ -683,11 +659,9 @@ export default {
       "masked": "Wealth is ____ across the region.",
       "options": [
         "uneven-mcq-03",
-        "uneven-mcq-02",
-        "uneven-mcq-04",
-        "uneven-mcq-01",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-07",
+        "uneven-mcq-16",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「unevenly distributed」指「分布／分配不均」。",
       "sentenceIndex": 6,
@@ -696,12 +670,10 @@ export default {
         "unevenly distributed"
       ],
       "optionReasons": {
-        "uneven-mcq-03": "本句指「分布／分配不均」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-01": "「不平均的；不均衡的」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-03": "本句的「unevenly distributed」指「分布／分配不均」。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-03"
     },
@@ -713,11 +685,9 @@ export default {
       "masked": "An ____ can damage team morale.",
       "options": [
         "uneven-mcq-04",
-        "uneven-mcq-03",
-        "uneven-mcq-05",
-        "uneven-mcq-02",
-        "uneven-mcq-06",
-        "uneven-mcq-01"
+        "uneven-mcq-15",
+        "uneven-mcq-13",
+        "uneven-mcq-06"
       ],
       "explanation": "本句的「uneven workload」指「工作量不均」。",
       "sentenceIndex": 7,
@@ -726,12 +696,10 @@ export default {
         "uneven workload"
       ],
       "optionReasons": {
-        "uneven-mcq-04": "本句指「工作量不均」。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。",
-        "uneven-mcq-01": "「不平均的；不均衡的」與本句語境不同。"
+        "uneven-mcq-04": "本句的「uneven workload」指「工作量不均」。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-04"
     },
@@ -743,11 +711,9 @@ export default {
       "masked": "Managers should avoid giving employees ____.",
       "options": [
         "uneven-mcq-04",
-        "uneven-mcq-03",
-        "uneven-mcq-05",
-        "uneven-mcq-02",
-        "uneven-mcq-06",
-        "uneven-mcq-01"
+        "uneven-mcq-17",
+        "uneven-mcq-13",
+        "uneven-mcq-07"
       ],
       "explanation": "本句的「uneven workloads」指「工作量不均」。",
       "sentenceIndex": 8,
@@ -756,12 +722,10 @@ export default {
         "uneven workloads"
       ],
       "optionReasons": {
-        "uneven-mcq-04": "本句指「工作量不均」。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。",
-        "uneven-mcq-01": "「不平均的；不均衡的」與本句語境不同。"
+        "uneven-mcq-04": "本句的「uneven workloads」指「工作量不均」。",
+        "uneven-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-04"
     },
@@ -773,11 +737,9 @@ export default {
       "masked": "Be careful—the floor is ____.",
       "options": [
         "uneven-mcq-01",
-        "uneven-mcq-02",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-15",
+        "uneven-mcq-16",
+        "uneven-mcq-18"
       ],
       "explanation": "本句的「uneven」指「不平均的；不均衡的」。",
       "sentenceIndex": 9,
@@ -786,12 +748,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-01": "本句指「不平均的；不均衡的」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-01": "本句的「uneven」指「不平均的；不均衡的」。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-01"
     },
@@ -803,11 +763,9 @@ export default {
       "masked": "The table stood on an ____.",
       "options": [
         "uneven-mcq-01",
-        "uneven-mcq-02",
-        "uneven-mcq-03",
-        "uneven-mcq-04",
-        "uneven-mcq-05",
-        "uneven-mcq-06"
+        "uneven-mcq-19",
+        "uneven-mcq-14",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「uneven surface」指「不平均的；不均衡的」。",
       "sentenceIndex": 10,
@@ -816,12 +774,10 @@ export default {
         "uneven surface"
       ],
       "optionReasons": {
-        "uneven-mcq-01": "本句指「不平均的；不均衡的」。",
-        "uneven-mcq-02": "「付出不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-01": "本句的「uneven surface」指「不平均的；不均衡的」。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-01"
     },
@@ -833,11 +789,9 @@ export default {
       "masked": "Walking on ____ can be tiring.",
       "options": [
         "uneven-mcq-06",
-        "uneven-mcq-05",
-        "uneven-mcq-07",
         "uneven-mcq-04",
-        "uneven-mcq-08",
-        "uneven-mcq-03"
+        "uneven-mcq-13",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「uneven ground」指「凹凸不平地面」。",
       "sentenceIndex": 11,
@@ -846,12 +800,10 @@ export default {
         "uneven ground"
       ],
       "optionReasons": {
-        "uneven-mcq-06": "本句指「凹凸不平地面」。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。"
+        "uneven-mcq-06": "本句的「uneven ground」指「凹凸不平地面」。",
+        "uneven-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-06"
     },
@@ -863,11 +815,9 @@ export default {
       "masked": "Wear suitable shoes on ____.",
       "options": [
         "uneven-mcq-06",
-        "uneven-mcq-05",
-        "uneven-mcq-07",
-        "uneven-mcq-04",
-        "uneven-mcq-08",
-        "uneven-mcq-03"
+        "uneven-mcq-18",
+        "uneven-mcq-13",
+        "uneven-mcq-02"
       ],
       "explanation": "本句的「uneven ground」指「凹凸不平地面」。",
       "sentenceIndex": 12,
@@ -876,12 +826,10 @@ export default {
         "uneven ground"
       ],
       "optionReasons": {
-        "uneven-mcq-06": "本句指「凹凸不平地面」。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-03": "「分布／分配不均」與本句語境不同。"
+        "uneven-mcq-06": "本句的「uneven ground」指「凹凸不平地面」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-06"
     },
@@ -893,11 +841,9 @@ export default {
       "masked": "The car moved slowly along the ____.",
       "options": [
         "uneven-mcq-07",
-        "uneven-mcq-06",
-        "uneven-mcq-08",
-        "uneven-mcq-05",
-        "uneven-mcq-09",
-        "uneven-mcq-04"
+        "uneven-mcq-19",
+        "uneven-mcq-02",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「uneven road」指「凹凸不平道路」。",
       "sentenceIndex": 13,
@@ -906,12 +852,10 @@ export default {
         "uneven road"
       ],
       "optionReasons": {
-        "uneven-mcq-07": "本句指「凹凸不平道路」。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。"
+        "uneven-mcq-07": "本句的「uneven road」指「凹凸不平道路」。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-07"
     },
@@ -923,11 +867,9 @@ export default {
       "masked": "The path becomes ____ near the hill.",
       "options": [
         "uneven-mcq-07",
-        "uneven-mcq-06",
+        "uneven-mcq-18",
         "uneven-mcq-08",
-        "uneven-mcq-05",
-        "uneven-mcq-09",
-        "uneven-mcq-04"
+        "uneven-mcq-13"
       ],
       "explanation": "本句的「uneven」指「凹凸不平道路」。",
       "sentenceIndex": 14,
@@ -936,12 +878,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-07": "本句指「凹凸不平道路」。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-04": "「工作量不均」與本句語境不同。"
+        "uneven-mcq-07": "本句的「uneven」指「凹凸不平道路」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-07"
     },
@@ -953,11 +893,9 @@ export default {
       "masked": "The paint looks ____.",
       "options": [
         "uneven-mcq-08",
-        "uneven-mcq-07",
-        "uneven-mcq-09",
-        "uneven-mcq-06",
-        "uneven-mcq-10",
-        "uneven-mcq-05"
+        "uneven-mcq-18",
+        "uneven-mcq-16",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「uneven」指「顏色不均」。",
       "sentenceIndex": 15,
@@ -966,12 +904,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-08": "本句指「顏色不均」。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。"
+        "uneven-mcq-08": "本句的「uneven」指「顏色不均」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-08"
     },
@@ -983,11 +919,9 @@ export default {
       "masked": "The colour was ____ across the wall.",
       "options": [
         "uneven-mcq-08",
-        "uneven-mcq-07",
-        "uneven-mcq-09",
-        "uneven-mcq-06",
-        "uneven-mcq-10",
-        "uneven-mcq-05"
+        "uneven-mcq-18",
+        "uneven-mcq-15",
+        "uneven-mcq-07"
       ],
       "explanation": "本句的「uneven」指「顏色不均」。",
       "sentenceIndex": 16,
@@ -996,12 +930,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-08": "本句指「顏色不均」。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-05": "「不平坦表面」與本句語境不同。"
+        "uneven-mcq-08": "本句的「uneven」指「顏色不均」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-08"
     },
@@ -1013,11 +945,9 @@ export default {
       "masked": "The product is designed for ____.",
       "options": [
         "uneven-mcq-09",
-        "uneven-mcq-08",
-        "uneven-mcq-10",
+        "uneven-mcq-13",
         "uneven-mcq-07",
-        "uneven-mcq-11",
-        "uneven-mcq-06"
+        "uneven-mcq-18"
       ],
       "explanation": "本句的「uneven skin tone」指「膚色不均」。",
       "sentenceIndex": 17,
@@ -1026,12 +956,10 @@ export default {
         "uneven skin tone"
       ],
       "optionReasons": {
-        "uneven-mcq-09": "本句指「膚色不均」。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-09": "本句的「uneven skin tone」指「膚色不均」。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-09"
     },
@@ -1043,10 +971,8 @@ export default {
       "masked": "Sun exposure can contribute to ____.",
       "options": [
         "uneven-mcq-09",
-        "uneven-mcq-08",
-        "uneven-mcq-10",
-        "uneven-mcq-07",
-        "uneven-mcq-11",
+        "uneven-mcq-13",
+        "uneven-mcq-17",
         "uneven-mcq-06"
       ],
       "explanation": "本句的「uneven skin tone」指「膚色不均」。",
@@ -1056,12 +982,10 @@ export default {
         "uneven skin tone"
       ],
       "optionReasons": {
-        "uneven-mcq-09": "本句指「膚色不均」。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-06": "「凹凸不平地面」與本句語境不同。"
+        "uneven-mcq-09": "本句的「uneven skin tone」指「膚色不均」。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-09"
     },
@@ -1073,10 +997,8 @@ export default {
       "masked": "The material has an ____.",
       "options": [
         "uneven-mcq-10",
-        "uneven-mcq-09",
-        "uneven-mcq-11",
-        "uneven-mcq-08",
-        "uneven-mcq-12",
+        "uneven-mcq-17",
+        "uneven-mcq-16",
         "uneven-mcq-07"
       ],
       "explanation": "本句的「uneven texture」指「質地不均」。",
@@ -1086,12 +1008,10 @@ export default {
         "uneven texture"
       ],
       "optionReasons": {
-        "uneven-mcq-10": "本句指「質地不均」。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。"
+        "uneven-mcq-10": "本句的「uneven texture」指「質地不均」。",
+        "uneven-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-10"
     },
@@ -1103,11 +1023,9 @@ export default {
       "masked": "The wall had a rough, ____.",
       "options": [
         "uneven-mcq-10",
-        "uneven-mcq-09",
-        "uneven-mcq-11",
-        "uneven-mcq-08",
-        "uneven-mcq-12",
-        "uneven-mcq-07"
+        "uneven-mcq-19",
+        "uneven-mcq-06",
+        "uneven-mcq-16"
       ],
       "explanation": "本句的「uneven texture」指「質地不均」。",
       "sentenceIndex": 20,
@@ -1116,12 +1034,10 @@ export default {
         "uneven texture"
       ],
       "optionReasons": {
-        "uneven-mcq-10": "本句指「質地不均」。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-07": "「凹凸不平道路」與本句語境不同。"
+        "uneven-mcq-10": "本句的「uneven texture」指「質地不均」。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-10"
     },
@@ -1133,11 +1049,9 @@ export default {
       "masked": "The plants showed ____.",
       "options": [
         "uneven-mcq-11",
-        "uneven-mcq-10",
-        "uneven-mcq-12",
-        "uneven-mcq-09",
-        "uneven-mcq-13",
-        "uneven-mcq-08"
+        "uneven-mcq-07",
+        "uneven-mcq-15",
+        "uneven-mcq-18"
       ],
       "explanation": "本句的「uneven growth」指「生長不均」。",
       "sentenceIndex": 21,
@@ -1146,12 +1060,10 @@ export default {
         "uneven growth"
       ],
       "optionReasons": {
-        "uneven-mcq-11": "本句指「生長不均」。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。"
+        "uneven-mcq-11": "本句的「uneven growth」指「生長不均」。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-11"
     },
@@ -1163,11 +1075,9 @@ export default {
       "masked": "Poor lighting caused ____.",
       "options": [
         "uneven-mcq-11",
-        "uneven-mcq-10",
-        "uneven-mcq-12",
-        "uneven-mcq-09",
-        "uneven-mcq-13",
-        "uneven-mcq-08"
+        "uneven-mcq-14",
+        "uneven-mcq-06",
+        "uneven-mcq-19"
       ],
       "explanation": "本句的「uneven growth」指「生長不均」。",
       "sentenceIndex": 22,
@@ -1176,12 +1086,10 @@ export default {
         "uneven growth"
       ],
       "optionReasons": {
-        "uneven-mcq-11": "本句指「生長不均」。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-08": "「顏色不均」與本句語境不同。"
+        "uneven-mcq-11": "本句的「uneven growth」指「生長不均」。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-11"
     },
@@ -1193,11 +1101,9 @@ export default {
       "masked": "The country has experienced ____.",
       "options": [
         "uneven-mcq-12",
-        "uneven-mcq-11",
-        "uneven-mcq-13",
-        "uneven-mcq-10",
-        "uneven-mcq-14",
-        "uneven-mcq-09"
+        "uneven-mcq-15",
+        "uneven-mcq-20",
+        "uneven-mcq-06"
       ],
       "explanation": "本句的「uneven economic development」指「發展不均」。",
       "sentenceIndex": 23,
@@ -1206,12 +1112,10 @@ export default {
         "uneven economic development"
       ],
       "optionReasons": {
-        "uneven-mcq-12": "本句指「發展不均」。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。"
+        "uneven-mcq-12": "本句的「uneven economic development」指「發展不均」。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-12"
     },
@@ -1223,11 +1127,9 @@ export default {
       "masked": "There is ____ between urban and rural areas.",
       "options": [
         "uneven-mcq-12",
-        "uneven-mcq-11",
-        "uneven-mcq-13",
-        "uneven-mcq-10",
-        "uneven-mcq-14",
-        "uneven-mcq-09"
+        "uneven-mcq-15",
+        "uneven-mcq-16",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「uneven development」指「發展不均」。",
       "sentenceIndex": 24,
@@ -1236,12 +1138,10 @@ export default {
         "uneven development"
       ],
       "optionReasons": {
-        "uneven-mcq-12": "本句指「發展不均」。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-09": "「膚色不均」與本句語境不同。"
+        "uneven-mcq-12": "本句的「uneven development」指「發展不均」。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-12"
     },
@@ -1253,11 +1153,9 @@ export default {
       "masked": "The team made ____.",
       "options": [
         "uneven-mcq-13",
-        "uneven-mcq-12",
-        "uneven-mcq-14",
-        "uneven-mcq-11",
-        "uneven-mcq-15",
-        "uneven-mcq-10"
+        "uneven-mcq-21",
+        "uneven-mcq-19",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「uneven progress」指「進度不穩」。",
       "sentenceIndex": 25,
@@ -1266,12 +1164,10 @@ export default {
         "uneven progress"
       ],
       "optionReasons": {
-        "uneven-mcq-13": "本句指「進度不穩」。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。"
+        "uneven-mcq-13": "本句的「uneven progress」指「進度不穩」。",
+        "uneven-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-13"
     },
@@ -1283,11 +1179,9 @@ export default {
       "masked": "Recovery has been ____.",
       "options": [
         "uneven-mcq-13",
-        "uneven-mcq-12",
-        "uneven-mcq-14",
-        "uneven-mcq-11",
-        "uneven-mcq-15",
-        "uneven-mcq-10"
+        "uneven-mcq-07",
+        "uneven-mcq-02",
+        "uneven-mcq-19"
       ],
       "explanation": "本句的「uneven」指「進度不穩」。",
       "sentenceIndex": 26,
@@ -1296,12 +1190,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-13": "本句指「進度不穩」。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-10": "「質地不均」與本句語境不同。"
+        "uneven-mcq-13": "本句的「uneven」指「進度不穩」。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-13"
     },
@@ -1313,11 +1205,9 @@ export default {
       "masked": "The team's performance was ____.",
       "options": [
         "uneven-mcq-14",
-        "uneven-mcq-13",
-        "uneven-mcq-15",
-        "uneven-mcq-12",
+        "uneven-mcq-20",
         "uneven-mcq-16",
-        "uneven-mcq-11"
+        "uneven-mcq-04"
       ],
       "explanation": "本句的「uneven」指「表現參差」。",
       "sentenceIndex": 27,
@@ -1326,12 +1216,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-14": "本句指「表現參差」。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。"
+        "uneven-mcq-14": "本句的「uneven」指「表現參差」。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-14"
     },
@@ -1343,11 +1231,9 @@ export default {
       "masked": "His ____ made the manager uncertain.",
       "options": [
         "uneven-mcq-14",
-        "uneven-mcq-13",
-        "uneven-mcq-15",
-        "uneven-mcq-12",
-        "uneven-mcq-16",
-        "uneven-mcq-11"
+        "uneven-mcq-06",
+        "uneven-mcq-10",
+        "uneven-mcq-13"
       ],
       "explanation": "本句的「uneven performance」指「表現參差」。",
       "sentenceIndex": 28,
@@ -1356,12 +1242,10 @@ export default {
         "uneven performance"
       ],
       "optionReasons": {
-        "uneven-mcq-14": "本句指「表現參差」。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-11": "「生長不均」與本句語境不同。"
+        "uneven-mcq-14": "本句的「uneven performance」指「表現參差」。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-14"
     },
@@ -1373,11 +1257,9 @@ export default {
       "masked": "The report was criticized for its ____.",
       "options": [
         "uneven-mcq-15",
-        "uneven-mcq-14",
-        "uneven-mcq-16",
-        "uneven-mcq-13",
-        "uneven-mcq-17",
-        "uneven-mcq-12"
+        "uneven-mcq-06",
+        "uneven-mcq-19",
+        "uneven-mcq-02"
       ],
       "explanation": "本句的「uneven quality」指「質素參差」。",
       "sentenceIndex": 29,
@@ -1386,12 +1268,10 @@ export default {
         "uneven quality"
       ],
       "optionReasons": {
-        "uneven-mcq-15": "本句指「質素參差」。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。"
+        "uneven-mcq-15": "本句的「uneven quality」指「質素參差」。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-15"
     },
@@ -1403,11 +1283,9 @@ export default {
       "masked": "The series is entertaining but ____.",
       "options": [
         "uneven-mcq-15",
-        "uneven-mcq-14",
-        "uneven-mcq-16",
-        "uneven-mcq-13",
-        "uneven-mcq-17",
-        "uneven-mcq-12"
+        "uneven-mcq-20",
+        "uneven-mcq-09",
+        "uneven-mcq-16"
       ],
       "explanation": "本句的「uneven」指「質素參差」。",
       "sentenceIndex": 30,
@@ -1416,12 +1294,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "uneven-mcq-15": "本句指「質素參差」。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-12": "「發展不均」與本句語境不同。"
+        "uneven-mcq-15": "本句的「uneven」指「質素參差」。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-15"
     },
@@ -1433,11 +1309,9 @@ export default {
       "masked": "The project moved forward at an ____.",
       "options": [
         "uneven-mcq-16",
-        "uneven-mcq-15",
+        "uneven-mcq-01",
         "uneven-mcq-17",
-        "uneven-mcq-14",
-        "uneven-mcq-18",
-        "uneven-mcq-13"
+        "uneven-mcq-19"
       ],
       "explanation": "本句的「uneven pace」指「節奏／速度不一」。",
       "sentenceIndex": 31,
@@ -1446,12 +1320,10 @@ export default {
         "uneven pace"
       ],
       "optionReasons": {
-        "uneven-mcq-16": "本句指「節奏／速度不一」。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。"
+        "uneven-mcq-16": "本句的「uneven pace」指「節奏／速度不一」。",
+        "uneven-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-16"
     },
@@ -1463,11 +1335,9 @@ export default {
       "masked": "The film has an ____.",
       "options": [
         "uneven-mcq-16",
-        "uneven-mcq-15",
-        "uneven-mcq-17",
-        "uneven-mcq-14",
-        "uneven-mcq-18",
-        "uneven-mcq-13"
+        "uneven-mcq-09",
+        "uneven-mcq-07",
+        "uneven-mcq-15"
       ],
       "explanation": "本句的「uneven pace」指「節奏／速度不一」。",
       "sentenceIndex": 32,
@@ -1476,12 +1346,10 @@ export default {
         "uneven pace"
       ],
       "optionReasons": {
-        "uneven-mcq-16": "本句指「節奏／速度不一」。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-13": "「進度不穩」與本句語境不同。"
+        "uneven-mcq-16": "本句的「uneven pace」指「節奏／速度不一」。",
+        "uneven-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-16"
     },
@@ -1493,11 +1361,9 @@ export default {
       "masked": "The new method produced ____.",
       "options": [
         "uneven-mcq-17",
-        "uneven-mcq-16",
-        "uneven-mcq-18",
-        "uneven-mcq-15",
-        "uneven-mcq-19",
-        "uneven-mcq-14"
+        "uneven-mcq-03",
+        "uneven-mcq-06",
+        "uneven-mcq-13"
       ],
       "explanation": "本句的「uneven results」指「結果參差」。",
       "sentenceIndex": 33,
@@ -1506,12 +1372,10 @@ export default {
         "uneven results"
       ],
       "optionReasons": {
-        "uneven-mcq-17": "本句指「結果參差」。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。"
+        "uneven-mcq-17": "本句的「uneven results」指「結果參差」。",
+        "uneven-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-17"
     },
@@ -1523,11 +1387,9 @@ export default {
       "masked": "The policy has had ____ across different departments.",
       "options": [
         "uneven-mcq-17",
-        "uneven-mcq-16",
         "uneven-mcq-18",
-        "uneven-mcq-15",
-        "uneven-mcq-19",
-        "uneven-mcq-14"
+        "uneven-mcq-06",
+        "uneven-mcq-08"
       ],
       "explanation": "本句的「uneven results」指「結果參差」。",
       "sentenceIndex": 34,
@@ -1536,12 +1398,10 @@ export default {
         "uneven results"
       ],
       "optionReasons": {
-        "uneven-mcq-17": "本句指「結果參差」。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-14": "「表現參差」與本句語境不同。"
+        "uneven-mcq-17": "本句的「uneven results」指「結果參差」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-17"
     },
@@ -1553,10 +1413,8 @@ export default {
       "masked": "It was an ____ from the beginning.",
       "options": [
         "uneven-mcq-18",
-        "uneven-mcq-17",
-        "uneven-mcq-19",
-        "uneven-mcq-16",
-        "uneven-mcq-20",
+        "uneven-mcq-03",
+        "uneven-mcq-06",
         "uneven-mcq-15"
       ],
       "explanation": "本句的「uneven contest」指「實力懸殊的比賽」。",
@@ -1566,12 +1424,10 @@ export default {
         "uneven contest"
       ],
       "optionReasons": {
-        "uneven-mcq-18": "本句指「實力懸殊的比賽」。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。"
+        "uneven-mcq-18": "本句的「uneven contest」指「實力懸殊的比賽」。",
+        "uneven-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-18"
     },
@@ -1583,11 +1439,9 @@ export default {
       "masked": "The two teams were ____.",
       "options": [
         "uneven-mcq-18",
-        "uneven-mcq-17",
-        "uneven-mcq-19",
-        "uneven-mcq-16",
-        "uneven-mcq-20",
-        "uneven-mcq-15"
+        "uneven-mcq-11",
+        "uneven-mcq-13",
+        "uneven-mcq-07"
       ],
       "explanation": "本句的「unevenly matched」指「實力懸殊的比賽」。",
       "sentenceIndex": 36,
@@ -1596,12 +1450,10 @@ export default {
         "unevenly matched"
       ],
       "optionReasons": {
-        "uneven-mcq-18": "本句指「實力懸殊的比賽」。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-15": "「質素參差」與本句語境不同。"
+        "uneven-mcq-18": "本句的「unevenly matched」指「實力懸殊的比賽」。",
+        "uneven-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-18"
     },
@@ -1613,11 +1465,9 @@ export default {
       "masked": "The two sides were badly ____.",
       "options": [
         "uneven-mcq-19",
-        "uneven-mcq-18",
-        "uneven-mcq-20",
-        "uneven-mcq-17",
-        "uneven-mcq-21",
-        "uneven-mcq-16"
+        "uneven-mcq-16",
+        "uneven-mcq-03",
+        "uneven-mcq-15"
       ],
       "explanation": "本句的「unevenly matched」指「實力不對等」。",
       "sentenceIndex": 37,
@@ -1626,12 +1476,10 @@ export default {
         "unevenly matched"
       ],
       "optionReasons": {
-        "uneven-mcq-19": "本句指「實力不對等」。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-21": "「不平均地；不均勻地」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。"
+        "uneven-mcq-19": "本句的「unevenly matched」指「實力不對等」。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-19"
     },
@@ -1643,11 +1491,9 @@ export default {
       "masked": "The debate felt ____ because one speaker had far more experience.",
       "options": [
         "uneven-mcq-19",
-        "uneven-mcq-18",
+        "uneven-mcq-13",
         "uneven-mcq-20",
-        "uneven-mcq-17",
-        "uneven-mcq-21",
-        "uneven-mcq-16"
+        "uneven-mcq-15"
       ],
       "explanation": "本句的「unevenly matched」指「實力不對等」。",
       "sentenceIndex": 38,
@@ -1656,12 +1502,10 @@ export default {
         "unevenly matched"
       ],
       "optionReasons": {
-        "uneven-mcq-19": "本句指「實力不對等」。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。",
-        "uneven-mcq-21": "「不平均地；不均勻地」與本句語境不同。",
-        "uneven-mcq-16": "「節奏／速度不一」與本句語境不同。"
+        "uneven-mcq-19": "本句的「unevenly matched」指「實力不對等」。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-19"
     },
@@ -1673,11 +1517,9 @@ export default {
       "masked": "She competes on the ____.",
       "options": [
         "uneven-mcq-20",
-        "uneven-mcq-19",
-        "uneven-mcq-21",
-        "uneven-mcq-18",
-        "uneven-mcq-22",
-        "uneven-mcq-17"
+        "uneven-mcq-02",
+        "uneven-mcq-16",
+        "uneven-mcq-14"
       ],
       "explanation": "本句的「uneven bars」指「高低槓」。",
       "sentenceIndex": 39,
@@ -1686,12 +1528,10 @@ export default {
         "uneven bars"
       ],
       "optionReasons": {
-        "uneven-mcq-20": "本句指「高低槓」。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-21": "「不平均地；不均勻地」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-22": "「不平；不均」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。"
+        "uneven-mcq-20": "本句的「uneven bars」指「高低槓」。",
+        "uneven-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-20"
     },
@@ -1703,11 +1543,9 @@ export default {
       "masked": "The ____ are used in women's artistic gymnastics.",
       "options": [
         "uneven-mcq-20",
-        "uneven-mcq-19",
-        "uneven-mcq-21",
+        "uneven-mcq-16",
         "uneven-mcq-18",
-        "uneven-mcq-22",
-        "uneven-mcq-17"
+        "uneven-mcq-10"
       ],
       "explanation": "本句的「uneven bars」指「高低槓」。",
       "sentenceIndex": 40,
@@ -1716,12 +1554,10 @@ export default {
         "uneven bars"
       ],
       "optionReasons": {
-        "uneven-mcq-20": "本句指「高低槓」。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-21": "「不平均地；不均勻地」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-22": "「不平；不均」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。"
+        "uneven-mcq-20": "本句的「uneven bars」指「高低槓」。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-20"
     },
@@ -1733,11 +1569,9 @@ export default {
       "masked": "The work was ____.",
       "options": [
         "uneven-mcq-21",
-        "uneven-mcq-20",
-        "uneven-mcq-22",
-        "uneven-mcq-19",
-        "uneven-mcq-18",
-        "uneven-mcq-17"
+        "uneven-mcq-16",
+        "uneven-mcq-15",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「unevenly divided」指「不平均地；不均勻地」。",
       "sentenceIndex": 41,
@@ -1746,12 +1580,10 @@ export default {
         "unevenly divided"
       ],
       "optionReasons": {
-        "uneven-mcq-21": "本句指「不平均地；不均勻地」。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-22": "「不平；不均」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。"
+        "uneven-mcq-21": "本句的「unevenly divided」指「不平均地；不均勻地」。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-21"
     },
@@ -1763,11 +1595,9 @@ export default {
       "masked": "The paint was applied ____.",
       "options": [
         "uneven-mcq-21",
-        "uneven-mcq-20",
-        "uneven-mcq-22",
-        "uneven-mcq-19",
         "uneven-mcq-18",
-        "uneven-mcq-17"
+        "uneven-mcq-15",
+        "uneven-mcq-16"
       ],
       "explanation": "本句的「unevenly」指「不平均地；不均勻地」。",
       "sentenceIndex": 42,
@@ -1776,12 +1606,10 @@ export default {
         "unevenly"
       ],
       "optionReasons": {
-        "uneven-mcq-21": "本句指「不平均地；不均勻地」。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-22": "「不平；不均」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。"
+        "uneven-mcq-21": "本句的「unevenly」指「不平均地；不均勻地」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-21"
     },
@@ -1793,11 +1621,9 @@ export default {
       "masked": "The ____ made walking difficult.",
       "options": [
         "uneven-mcq-22",
-        "uneven-mcq-21",
-        "uneven-mcq-20",
-        "uneven-mcq-19",
-        "uneven-mcq-18",
-        "uneven-mcq-17"
+        "uneven-mcq-13",
+        "uneven-mcq-14",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「unevenness of the floor」指「不平；不均」。",
       "sentenceIndex": 45,
@@ -1806,12 +1632,10 @@ export default {
         "unevenness of the floor"
       ],
       "optionReasons": {
-        "uneven-mcq-22": "本句指「不平；不均」。",
-        "uneven-mcq-21": "「不平均地；不均勻地」與本句語境不同。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。"
+        "uneven-mcq-22": "本句的「unevenness of the floor」指「不平；不均」。",
+        "uneven-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-22"
     },
@@ -1823,11 +1647,9 @@ export default {
       "masked": "The report highlighted the ____.",
       "options": [
         "uneven-mcq-22",
-        "uneven-mcq-21",
-        "uneven-mcq-20",
-        "uneven-mcq-19",
         "uneven-mcq-18",
-        "uneven-mcq-17"
+        "uneven-mcq-16",
+        "uneven-mcq-20"
       ],
       "explanation": "本句的「unevenness of regional development」指「不平；不均」。",
       "sentenceIndex": 46,
@@ -1836,12 +1658,10 @@ export default {
         "unevenness of regional development"
       ],
       "optionReasons": {
-        "uneven-mcq-22": "本句指「不平；不均」。",
-        "uneven-mcq-21": "「不平均地；不均勻地」與本句語境不同。",
-        "uneven-mcq-20": "「高低槓」與本句語境不同。",
-        "uneven-mcq-19": "「實力不對等」與本句語境不同。",
-        "uneven-mcq-18": "「實力懸殊的比賽」與本句語境不同。",
-        "uneven-mcq-17": "「結果參差」與本句語境不同。"
+        "uneven-mcq-22": "本句的「unevenness of regional development」指「不平；不均」。",
+        "uneven-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "uneven-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "uneven-mcq-22"
     }
@@ -1853,5 +1673,7 @@ export default {
     "sha256": "093ee14ef111d7d340011842010b20462bcac58a7cc64294b194d305e45e7756",
     "pages": 19
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

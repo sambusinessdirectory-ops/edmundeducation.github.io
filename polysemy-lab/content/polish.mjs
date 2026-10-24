@@ -240,11 +240,8 @@ export default {
       "masked": "Instead, it felt calm, ____, and relatable.",
       "options": [
         "polish-mcq-01",
-        "polish-mcq-02",
-        "polish-mcq-03",
-        "polish-mcq-04",
-        "polish-mcq-05",
-        "polish-mcq-06"
+        "polish-mcq-06",
+        "polish-mcq-09"
       ],
       "explanation": "本句的「polished」指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
       "sentenceIndex": 0,
@@ -253,12 +250,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-01": "本句指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-01": "本句的「polished」指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
+        "polish-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-01"
     },
@@ -270,11 +264,8 @@ export default {
       "masked": "The final advertisement looked very ____.",
       "options": [
         "polish-mcq-01",
-        "polish-mcq-02",
-        "polish-mcq-03",
-        "polish-mcq-04",
-        "polish-mcq-05",
-        "polish-mcq-06"
+        "polish-mcq-10",
+        "polish-mcq-04"
       ],
       "explanation": "本句的「polished」指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
       "sentenceIndex": 1,
@@ -283,12 +274,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-01": "本句指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-01": "本句的「polished」指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-01"
     },
@@ -300,10 +288,7 @@ export default {
       "masked": "Her presentation was clear, confident, and ____.",
       "options": [
         "polish-mcq-01",
-        "polish-mcq-02",
-        "polish-mcq-03",
-        "polish-mcq-04",
-        "polish-mcq-05",
+        "polish-mcq-09",
         "polish-mcq-06"
       ],
       "explanation": "本句的「polished」指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
@@ -313,12 +298,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-01": "本句指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-01": "本句的「polished」指「經過充分準備和完善，呈現出成熟、專業、流暢的品質」。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-01"
     },
@@ -330,10 +312,7 @@ export default {
       "masked": "I need another day to ____ the report.",
       "options": [
         "polish-mcq-02",
-        "polish-mcq-01",
-        "polish-mcq-03",
-        "polish-mcq-04",
-        "polish-mcq-05",
+        "polish-mcq-10",
         "polish-mcq-06"
       ],
       "explanation": "本句的「polish」指「在已有基礎上進一步修改或練習，使品質更成熟完善」。",
@@ -343,12 +322,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-02": "本句指「在已有基礎上進一步修改或練習，使品質更成熟完善」。",
-        "polish-mcq-01": "「經過充分準備和完善，呈現出成熟、專業、流暢的品質」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-02": "本句的「polish」指「在已有基礎上進一步修改或練習，使品質更成熟完善」。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-02"
     },
@@ -360,11 +336,8 @@ export default {
       "masked": "She practised repeatedly to ____ her presentation skills.",
       "options": [
         "polish-mcq-02",
-        "polish-mcq-01",
-        "polish-mcq-03",
-        "polish-mcq-04",
-        "polish-mcq-05",
-        "polish-mcq-06"
+        "polish-mcq-09",
+        "polish-mcq-04"
       ],
       "explanation": "本句的「polish」指「在已有基礎上進一步修改或練習，使品質更成熟完善」。",
       "sentenceIndex": 4,
@@ -373,12 +346,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-02": "本句指「在已有基礎上進一步修改或練習，使品質更成熟完善」。",
-        "polish-mcq-01": "「經過充分準備和完善，呈現出成熟、專業、流暢的品質」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-02": "本句的「polish」指「在已有基礎上進一步修改或練習，使品質更成熟完善」。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-02"
     },
@@ -390,11 +360,8 @@ export default {
       "masked": "She is a very ____ speaker.",
       "options": [
         "polish-mcq-03",
-        "polish-mcq-02",
-        "polish-mcq-04",
-        "polish-mcq-01",
-        "polish-mcq-05",
-        "polish-mcq-06"
+        "polish-mcq-06",
+        "polish-mcq-09"
       ],
       "explanation": "本句的「polished」指「舉止或談吐成熟得體、流暢而有修養的」。",
       "sentenceIndex": 5,
@@ -403,12 +370,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-03": "本句指「舉止或談吐成熟得體、流暢而有修養的」。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-01": "「經過充分準備和完善，呈現出成熟、專業、流暢的品質」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-03": "本句的「polished」指「舉止或談吐成熟得體、流暢而有修養的」。",
+        "polish-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-03"
     },
@@ -420,11 +384,8 @@ export default {
       "masked": "His ____ manner made a strong first impression.",
       "options": [
         "polish-mcq-03",
-        "polish-mcq-02",
-        "polish-mcq-04",
-        "polish-mcq-01",
         "polish-mcq-05",
-        "polish-mcq-06"
+        "polish-mcq-10"
       ],
       "explanation": "本句的「polished」指「舉止或談吐成熟得體、流暢而有修養的」。",
       "sentenceIndex": 6,
@@ -433,12 +394,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-03": "本句指「舉止或談吐成熟得體、流暢而有修養的」。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-01": "「經過充分準備和完善，呈現出成熟、專業、流暢的品質」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。"
+        "polish-mcq-03": "本句的「polished」指「舉止或談吐成熟得體、流暢而有修養的」。",
+        "polish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-03"
     },
@@ -450,11 +408,8 @@ export default {
       "masked": "He ____ his shoes before the interview.",
       "options": [
         "polish-mcq-04",
-        "polish-mcq-03",
-        "polish-mcq-05",
-        "polish-mcq-02",
-        "polish-mcq-06",
-        "polish-mcq-01"
+        "polish-mcq-09",
+        "polish-mcq-08"
       ],
       "explanation": "本句的「polished」指「擦磨物件表面，使其變得光滑、乾淨和有光澤」。",
       "sentenceIndex": 7,
@@ -463,12 +418,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-04": "本句指「擦磨物件表面，使其變得光滑、乾淨和有光澤」。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-01": "「經過充分準備和完善，呈現出成熟、專業、流暢的品質」與本句語境不同。"
+        "polish-mcq-04": "本句的「polished」指「擦磨物件表面，使其變得光滑、乾淨和有光澤」。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-04"
     },
@@ -481,10 +433,7 @@ export default {
       "options": [
         "polish-mcq-04",
         "polish-mcq-03",
-        "polish-mcq-05",
-        "polish-mcq-02",
-        "polish-mcq-06",
-        "polish-mcq-01"
+        "polish-mcq-09"
       ],
       "explanation": "本句的「polished」指「擦磨物件表面，使其變得光滑、乾淨和有光澤」。",
       "sentenceIndex": 8,
@@ -493,12 +442,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-04": "本句指「擦磨物件表面，使其變得光滑、乾淨和有光澤」。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-01": "「經過充分準備和完善，呈現出成熟、專業、流暢的品質」與本句語境不同。"
+        "polish-mcq-04": "本句的「polished」指「擦磨物件表面，使其變得光滑、乾淨和有光澤」。",
+        "polish-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-04"
     },
@@ -510,11 +456,8 @@ export default {
       "masked": "The floor was made of highly ____ stone.",
       "options": [
         "polish-mcq-05",
-        "polish-mcq-04",
-        "polish-mcq-06",
-        "polish-mcq-03",
-        "polish-mcq-07",
-        "polish-mcq-02"
+        "polish-mcq-02",
+        "polish-mcq-09"
       ],
       "explanation": "本句的「polished」指「經擦磨處理後變得平滑、有光澤的」。",
       "sentenceIndex": 9,
@@ -523,12 +466,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-05": "本句指「經擦磨處理後變得平滑、有光澤的」。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。"
+        "polish-mcq-05": "本句的「polished」指「經擦磨處理後變得平滑、有光澤的」。",
+        "polish-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-05"
     },
@@ -540,10 +480,7 @@ export default {
       "masked": "The table had a beautifully ____ surface.",
       "options": [
         "polish-mcq-05",
-        "polish-mcq-04",
-        "polish-mcq-06",
-        "polish-mcq-03",
-        "polish-mcq-07",
+        "polish-mcq-10",
         "polish-mcq-02"
       ],
       "explanation": "本句的「polished」指「經擦磨處理後變得平滑、有光澤的」。",
@@ -553,12 +490,9 @@ export default {
         "polished"
       ],
       "optionReasons": {
-        "polish-mcq-05": "本句指「經擦磨處理後變得平滑、有光澤的」。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-02": "「在已有基礎上進一步修改或練習，使品質更成熟完善」與本句語境不同。"
+        "polish-mcq-05": "本句的「polished」指「經擦磨處理後變得平滑、有光澤的」。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-05"
     },
@@ -570,11 +504,8 @@ export default {
       "masked": "I need some shoe ____ for these leather shoes.",
       "options": [
         "polish-mcq-06",
-        "polish-mcq-05",
-        "polish-mcq-07",
-        "polish-mcq-04",
-        "polish-mcq-08",
-        "polish-mcq-03"
+        "polish-mcq-01",
+        "polish-mcq-10"
       ],
       "explanation": "本句的「polish」指「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」。",
       "sentenceIndex": 11,
@@ -583,12 +514,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-06": "本句指「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。"
+        "polish-mcq-06": "本句的「polish」指「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」。",
+        "polish-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-06"
     },
@@ -600,11 +528,8 @@ export default {
       "masked": "She applied furniture ____ to the table.",
       "options": [
         "polish-mcq-06",
-        "polish-mcq-05",
-        "polish-mcq-07",
-        "polish-mcq-04",
-        "polish-mcq-08",
-        "polish-mcq-03"
+        "polish-mcq-10",
+        "polish-mcq-08"
       ],
       "explanation": "本句的「polish」指「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」。",
       "sentenceIndex": 12,
@@ -613,12 +538,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-06": "本句指「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-03": "「舉止或談吐成熟得體、流暢而有修養的」與本句語境不同。"
+        "polish-mcq-06": "本句的「polish」指「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-06"
     },
@@ -630,11 +552,8 @@ export default {
       "masked": "The wooden surface had a beautiful ____.",
       "options": [
         "polish-mcq-07",
-        "polish-mcq-06",
-        "polish-mcq-08",
-        "polish-mcq-05",
-        "polish-mcq-09",
-        "polish-mcq-04"
+        "polish-mcq-10",
+        "polish-mcq-03"
       ],
       "explanation": "本句的「polish」指「物件經擦磨後形成的光滑亮面效果」。",
       "sentenceIndex": 13,
@@ -643,12 +562,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-07": "本句指「物件經擦磨後形成的光滑亮面效果」。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-09": "「與波蘭、波蘭人民或文化有關的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。"
+        "polish-mcq-07": "本句的「polish」指「物件經擦磨後形成的光滑亮面效果」。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-07"
     },
@@ -660,11 +576,8 @@ export default {
       "masked": "Repeated rubbing gave the metal a high ____.",
       "options": [
         "polish-mcq-07",
-        "polish-mcq-06",
-        "polish-mcq-08",
-        "polish-mcq-05",
         "polish-mcq-09",
-        "polish-mcq-04"
+        "polish-mcq-03"
       ],
       "explanation": "本句的「polish」指「物件經擦磨後形成的光滑亮面效果」。",
       "sentenceIndex": 14,
@@ -673,12 +586,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-07": "本句指「物件經擦磨後形成的光滑亮面效果」。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。",
-        "polish-mcq-09": "「與波蘭、波蘭人民或文化有關的」與本句語境不同。",
-        "polish-mcq-04": "「擦磨物件表面，使其變得光滑、乾淨和有光澤」與本句語境不同。"
+        "polish-mcq-07": "本句的「polish」指「物件經擦磨後形成的光滑亮面效果」。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-07"
     },
@@ -690,11 +600,8 @@ export default {
       "masked": "The design is good, but it still needs more ____.",
       "options": [
         "polish-mcq-08",
-        "polish-mcq-07",
         "polish-mcq-09",
-        "polish-mcq-06",
-        "polish-mcq-10",
-        "polish-mcq-05"
+        "polish-mcq-04"
       ],
       "explanation": "本句的「polish」指「作品經最後細節改善後呈現的成熟、精緻程度」。",
       "sentenceIndex": 15,
@@ -703,12 +610,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-08": "本句指「作品經最後細節改善後呈現的成熟、精緻程度」。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-09": "「與波蘭、波蘭人民或文化有關的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-10": "「波蘭語」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。"
+        "polish-mcq-08": "本句的「polish」指「作品經最後細節改善後呈現的成熟、精緻程度」。",
+        "polish-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-08"
     },
@@ -720,11 +624,8 @@ export default {
       "masked": "A little extra ____ would make the presentation stronger.",
       "options": [
         "polish-mcq-08",
-        "polish-mcq-07",
-        "polish-mcq-09",
         "polish-mcq-06",
-        "polish-mcq-10",
-        "polish-mcq-05"
+        "polish-mcq-10"
       ],
       "explanation": "本句的「polish」指「作品經最後細節改善後呈現的成熟、精緻程度」。",
       "sentenceIndex": 16,
@@ -733,12 +634,9 @@ export default {
         "polish"
       ],
       "optionReasons": {
-        "polish-mcq-08": "本句指「作品經最後細節改善後呈現的成熟、精緻程度」。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-09": "「與波蘭、波蘭人民或文化有關的」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-10": "「波蘭語」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。"
+        "polish-mcq-08": "本句的「polish」指「作品經最後細節改善後呈現的成熟、精緻程度」。",
+        "polish-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-08"
     },
@@ -750,11 +648,8 @@ export default {
       "masked": "She works for a ____ company.",
       "options": [
         "polish-mcq-09",
-        "polish-mcq-08",
-        "polish-mcq-10",
-        "polish-mcq-07",
-        "polish-mcq-06",
-        "polish-mcq-05"
+        "polish-mcq-05",
+        "polish-mcq-08"
       ],
       "explanation": "本句的「Polish」指「與波蘭、波蘭人民或文化有關的」。",
       "sentenceIndex": 17,
@@ -763,12 +658,9 @@ export default {
         "Polish"
       ],
       "optionReasons": {
-        "polish-mcq-09": "本句指「與波蘭、波蘭人民或文化有關的」。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-10": "「波蘭語」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。"
+        "polish-mcq-09": "本句的「Polish」指「與波蘭、波蘭人民或文化有關的」。",
+        "polish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-09"
     },
@@ -780,11 +672,8 @@ export default {
       "masked": "We tried some traditional ____ food.",
       "options": [
         "polish-mcq-09",
-        "polish-mcq-08",
-        "polish-mcq-10",
-        "polish-mcq-07",
-        "polish-mcq-06",
-        "polish-mcq-05"
+        "polish-mcq-02",
+        "polish-mcq-06"
       ],
       "explanation": "本句的「Polish」指「與波蘭、波蘭人民或文化有關的」。",
       "sentenceIndex": 18,
@@ -793,12 +682,9 @@ export default {
         "Polish"
       ],
       "optionReasons": {
-        "polish-mcq-09": "本句指「與波蘭、波蘭人民或文化有關的」。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-10": "「波蘭語」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。"
+        "polish-mcq-09": "本句的「Polish」指「與波蘭、波蘭人民或文化有關的」。",
+        "polish-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-09"
     },
@@ -810,11 +696,8 @@ export default {
       "masked": "He speaks fluent ____.",
       "options": [
         "polish-mcq-10",
-        "polish-mcq-09",
-        "polish-mcq-08",
-        "polish-mcq-07",
-        "polish-mcq-06",
-        "polish-mcq-05"
+        "polish-mcq-05",
+        "polish-mcq-01"
       ],
       "explanation": "本句的「Polish」指「波蘭語」。",
       "sentenceIndex": 19,
@@ -823,12 +706,9 @@ export default {
         "Polish"
       ],
       "optionReasons": {
-        "polish-mcq-10": "本句指「波蘭語」。",
-        "polish-mcq-09": "「與波蘭、波蘭人民或文化有關的」與本句語境不同。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。"
+        "polish-mcq-10": "本句的「Polish」指「波蘭語」。",
+        "polish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-10"
     },
@@ -840,11 +720,8 @@ export default {
       "masked": "This document has been translated into ____.",
       "options": [
         "polish-mcq-10",
-        "polish-mcq-09",
-        "polish-mcq-08",
-        "polish-mcq-07",
-        "polish-mcq-06",
-        "polish-mcq-05"
+        "polish-mcq-05",
+        "polish-mcq-01"
       ],
       "explanation": "本句的「Polish」指「波蘭語」。",
       "sentenceIndex": 20,
@@ -853,12 +730,9 @@ export default {
         "Polish"
       ],
       "optionReasons": {
-        "polish-mcq-10": "本句指「波蘭語」。",
-        "polish-mcq-09": "「與波蘭、波蘭人民或文化有關的」與本句語境不同。",
-        "polish-mcq-08": "「作品經最後細節改善後呈現的成熟、精緻程度」與本句語境不同。",
-        "polish-mcq-07": "「物件經擦磨後形成的光滑亮面效果」與本句語境不同。",
-        "polish-mcq-06": "「用來清潔、保護並令表面產生光澤的擦亮劑／拋光劑」與本句語境不同。",
-        "polish-mcq-05": "「經擦磨處理後變得平滑、有光澤的」與本句語境不同。"
+        "polish-mcq-10": "本句的「Polish」指「波蘭語」。",
+        "polish-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "polish-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "polish-mcq-10"
     }
@@ -870,5 +744,7 @@ export default {
     "sha256": "b46815ef2ace3ef99653d186ce4cd917d5ec0e2294f5cb0ccf9a878e495ad0e6",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

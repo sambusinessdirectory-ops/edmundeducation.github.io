@@ -328,11 +328,8 @@ export default {
       "masked": "Being with him feels like opening a window and letting fresh air into a ____.",
       "options": [
         "stuffy-mcq-01",
-        "stuffy-mcq-02",
-        "stuffy-mcq-03",
         "stuffy-mcq-04",
-        "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-07"
       ],
       "explanation": "本句的「stuffy room」指「悶焗的房間」。",
       "sentenceIndex": 0,
@@ -341,12 +338,9 @@ export default {
         "stuffy room"
       ],
       "optionReasons": {
-        "stuffy-mcq-01": "本句指「悶焗的房間」。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-01": "本句的「stuffy room」指「悶焗的房間」。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-01"
     },
@@ -358,11 +352,8 @@ export default {
       "masked": "The classroom was hot and ____.",
       "options": [
         "stuffy-mcq-01",
-        "stuffy-mcq-02",
-        "stuffy-mcq-03",
-        "stuffy-mcq-04",
-        "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-13",
+        "stuffy-mcq-05"
       ],
       "explanation": "本句的「stuffy」指「悶焗的房間」。",
       "sentenceIndex": 1,
@@ -371,12 +362,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-01": "本句指「悶焗的房間」。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-01": "本句的「stuffy」指「悶焗的房間」。",
+        "stuffy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-01"
     },
@@ -388,11 +376,8 @@ export default {
       "masked": "Let's open the windows; it's getting ____ in here.",
       "options": [
         "stuffy-mcq-01",
-        "stuffy-mcq-02",
-        "stuffy-mcq-03",
-        "stuffy-mcq-04",
-        "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-06",
+        "stuffy-mcq-04"
       ],
       "explanation": "本句的「stuffy」指「悶焗的房間」。",
       "sentenceIndex": 2,
@@ -401,12 +386,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-01": "本句指「悶焗的房間」。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-01": "本句的「stuffy」指「悶焗的房間」。",
+        "stuffy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-01"
     },
@@ -418,11 +400,8 @@ export default {
       "masked": "The room was full of ____.",
       "options": [
         "stuffy-mcq-02",
-        "stuffy-mcq-01",
-        "stuffy-mcq-03",
-        "stuffy-mcq-04",
         "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-14"
       ],
       "explanation": "本句的「stuffy air」指「悶焗空氣」。",
       "sentenceIndex": 3,
@@ -431,12 +410,9 @@ export default {
         "stuffy air"
       ],
       "optionReasons": {
-        "stuffy-mcq-02": "本句指「悶焗空氣」。",
-        "stuffy-mcq-01": "「悶焗的房間」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-02": "本句的「stuffy air」指「悶焗空氣」。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-02"
     },
@@ -448,11 +424,8 @@ export default {
       "masked": "I couldn't concentrate because the air felt ____.",
       "options": [
         "stuffy-mcq-02",
-        "stuffy-mcq-01",
-        "stuffy-mcq-03",
-        "stuffy-mcq-04",
-        "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-08",
+        "stuffy-mcq-12"
       ],
       "explanation": "本句的「stuffy」指「悶焗空氣」。",
       "sentenceIndex": 4,
@@ -461,12 +434,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-02": "本句指「悶焗空氣」。",
-        "stuffy-mcq-01": "「悶焗的房間」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-02": "本句的「stuffy」指「悶焗空氣」。",
+        "stuffy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-02"
     },
@@ -478,11 +448,9 @@ export default {
       "masked": "This room feels ____.",
       "options": [
         "stuffy-mcq-03",
-        "stuffy-mcq-02",
-        "stuffy-mcq-04",
-        "stuffy-mcq-01",
         "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-09",
+        "stuffy-mcq-08"
       ],
       "explanation": "本句的「stuffy」指「感到焗促」。",
       "sentenceIndex": 5,
@@ -491,12 +459,10 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-03": "本句指「感到焗促」。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-01": "「悶焗的房間」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-03": "本句的「stuffy」指「感到焗促」。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-03"
     },
@@ -508,11 +474,9 @@ export default {
       "masked": "It gets ____ when too many people are inside.",
       "options": [
         "stuffy-mcq-03",
-        "stuffy-mcq-02",
-        "stuffy-mcq-04",
-        "stuffy-mcq-01",
-        "stuffy-mcq-05",
-        "stuffy-mcq-06"
+        "stuffy-mcq-09",
+        "stuffy-mcq-08",
+        "stuffy-mcq-05"
       ],
       "explanation": "本句的「stuffy」指「感到焗促」。",
       "sentenceIndex": 6,
@@ -521,12 +485,10 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-03": "本句指「感到焗促」。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-01": "「悶焗的房間」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-03": "本句的「stuffy」指「感到焗促」。",
+        "stuffy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-03"
     },
@@ -538,11 +500,8 @@ export default {
       "masked": "I have a ____.",
       "options": [
         "stuffy-mcq-04",
-        "stuffy-mcq-03",
-        "stuffy-mcq-05",
-        "stuffy-mcq-02",
-        "stuffy-mcq-06",
-        "stuffy-mcq-01"
+        "stuffy-mcq-08",
+        "stuffy-mcq-02"
       ],
       "explanation": "本句的「stuffy nose」指「鼻塞」。",
       "sentenceIndex": 7,
@@ -551,12 +510,9 @@ export default {
         "stuffy nose"
       ],
       "optionReasons": {
-        "stuffy-mcq-04": "本句指「鼻塞」。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-01": "「悶焗的房間」與本句語境不同。"
+        "stuffy-mcq-04": "本句的「stuffy nose」指「鼻塞」。",
+        "stuffy-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-04"
     },
@@ -568,11 +524,8 @@ export default {
       "masked": "A cold can make your nose feel ____.",
       "options": [
         "stuffy-mcq-04",
-        "stuffy-mcq-03",
-        "stuffy-mcq-05",
-        "stuffy-mcq-02",
-        "stuffy-mcq-06",
-        "stuffy-mcq-01"
+        "stuffy-mcq-13",
+        "stuffy-mcq-02"
       ],
       "explanation": "本句的「stuffy」指「鼻塞」。",
       "sentenceIndex": 8,
@@ -581,12 +534,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-04": "本句指「鼻塞」。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-01": "「悶焗的房間」與本句語境不同。"
+        "stuffy-mcq-04": "本句的「stuffy」指「鼻塞」。",
+        "stuffy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-04"
     },
@@ -598,11 +548,8 @@ export default {
       "masked": "My nose feels ____ this morning.",
       "options": [
         "stuffy-mcq-05",
-        "stuffy-mcq-04",
-        "stuffy-mcq-06",
-        "stuffy-mcq-03",
-        "stuffy-mcq-07",
-        "stuffy-mcq-02"
+        "stuffy-mcq-11",
+        "stuffy-mcq-07"
       ],
       "explanation": "本句的「stuffy」指「聽起來鼻塞」。",
       "sentenceIndex": 9,
@@ -611,12 +558,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-05": "本句指「聽起來鼻塞」。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。"
+        "stuffy-mcq-05": "本句的「stuffy」指「聽起來鼻塞」。",
+        "stuffy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-05"
     },
@@ -628,11 +572,8 @@ export default {
       "masked": "She sounded ____ because of her cold.",
       "options": [
         "stuffy-mcq-05",
-        "stuffy-mcq-04",
         "stuffy-mcq-06",
-        "stuffy-mcq-03",
-        "stuffy-mcq-07",
-        "stuffy-mcq-02"
+        "stuffy-mcq-03"
       ],
       "explanation": "本句的「stuffy」指「聽起來鼻塞」。",
       "sentenceIndex": 10,
@@ -641,12 +582,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-05": "本句指「聽起來鼻塞」。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-02": "「悶焗空氣」與本句語境不同。"
+        "stuffy-mcq-05": "本句的「stuffy」指「聽起來鼻塞」。",
+        "stuffy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-05"
     },
@@ -658,11 +596,8 @@ export default {
       "masked": "He can be a bit ____ at formal events.",
       "options": [
         "stuffy-mcq-06",
-        "stuffy-mcq-05",
-        "stuffy-mcq-07",
-        "stuffy-mcq-04",
-        "stuffy-mcq-08",
-        "stuffy-mcq-03"
+        "stuffy-mcq-11",
+        "stuffy-mcq-04"
       ],
       "explanation": "本句的「stuffy」指「古板拘謹的人」。",
       "sentenceIndex": 11,
@@ -671,12 +606,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-06": "本句指「古板拘謹的人」。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。"
+        "stuffy-mcq-06": "本句的「stuffy」指「古板拘謹的人」。",
+        "stuffy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-06"
     },
@@ -688,11 +620,8 @@ export default {
       "masked": "She is friendly, not ____ at all.",
       "options": [
         "stuffy-mcq-06",
-        "stuffy-mcq-05",
-        "stuffy-mcq-07",
-        "stuffy-mcq-04",
-        "stuffy-mcq-08",
-        "stuffy-mcq-03"
+        "stuffy-mcq-11",
+        "stuffy-mcq-04"
       ],
       "explanation": "本句的「stuffy」指「古板拘謹的人」。",
       "sentenceIndex": 12,
@@ -701,12 +630,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-06": "本句指「古板拘謹的人」。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-03": "「感到焗促」與本句語境不同。"
+        "stuffy-mcq-06": "本句的「stuffy」指「古板拘謹的人」。",
+        "stuffy-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-06"
     },
@@ -718,11 +644,8 @@ export default {
       "masked": "The organization needs to lose its ____.",
       "options": [
         "stuffy-mcq-07",
-        "stuffy-mcq-06",
-        "stuffy-mcq-08",
-        "stuffy-mcq-05",
-        "stuffy-mcq-09",
-        "stuffy-mcq-04"
+        "stuffy-mcq-02",
+        "stuffy-mcq-12"
       ],
       "explanation": "本句的「stuffy attitude」指「古板拘謹的態度」。",
       "sentenceIndex": 13,
@@ -731,12 +654,9 @@ export default {
         "stuffy attitude"
       ],
       "optionReasons": {
-        "stuffy-mcq-07": "本句指「古板拘謹的態度」。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。"
+        "stuffy-mcq-07": "本句的「stuffy attitude」指「古板拘謹的態度」。",
+        "stuffy-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-07"
     },
@@ -748,11 +668,8 @@ export default {
       "masked": "His ____ made the meeting feel uncomfortable.",
       "options": [
         "stuffy-mcq-07",
-        "stuffy-mcq-06",
-        "stuffy-mcq-08",
-        "stuffy-mcq-05",
-        "stuffy-mcq-09",
-        "stuffy-mcq-04"
+        "stuffy-mcq-01",
+        "stuffy-mcq-12"
       ],
       "explanation": "本句的「stuffy attitude」指「古板拘謹的態度」。",
       "sentenceIndex": 14,
@@ -761,12 +678,9 @@ export default {
         "stuffy attitude"
       ],
       "optionReasons": {
-        "stuffy-mcq-07": "本句指「古板拘謹的態度」。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-04": "「鼻塞」與本句語境不同。"
+        "stuffy-mcq-07": "本句的「stuffy attitude」指「古板拘謹的態度」。",
+        "stuffy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-07"
     },
@@ -778,11 +692,8 @@ export default {
       "masked": "The club is known for its ____.",
       "options": [
         "stuffy-mcq-08",
-        "stuffy-mcq-07",
-        "stuffy-mcq-09",
-        "stuffy-mcq-06",
-        "stuffy-mcq-10",
-        "stuffy-mcq-05"
+        "stuffy-mcq-05",
+        "stuffy-mcq-02"
       ],
       "explanation": "本句的「stuffy rules」指「古板規則」。",
       "sentenceIndex": 15,
@@ -791,12 +702,9 @@ export default {
         "stuffy rules"
       ],
       "optionReasons": {
-        "stuffy-mcq-08": "本句指「古板規則」。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。"
+        "stuffy-mcq-08": "本句的「stuffy rules」指「古板規則」。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-08"
     },
@@ -808,11 +716,9 @@ export default {
       "masked": "They wanted to modernize the school's ____.",
       "options": [
         "stuffy-mcq-08",
-        "stuffy-mcq-07",
         "stuffy-mcq-09",
-        "stuffy-mcq-06",
-        "stuffy-mcq-10",
-        "stuffy-mcq-05"
+        "stuffy-mcq-05",
+        "stuffy-mcq-03"
       ],
       "explanation": "本句的「stuffy traditions」指「古板規則」。",
       "sentenceIndex": 16,
@@ -821,12 +727,10 @@ export default {
         "stuffy traditions"
       ],
       "optionReasons": {
-        "stuffy-mcq-08": "本句指「古板規則」。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-05": "「聽起來鼻塞」與本句語境不同。"
+        "stuffy-mcq-08": "本句的「stuffy traditions」指「古板規則」。",
+        "stuffy-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-08"
     },
@@ -838,11 +742,9 @@ export default {
       "masked": "The reception had a rather ____.",
       "options": [
         "stuffy-mcq-09",
-        "stuffy-mcq-08",
-        "stuffy-mcq-10",
-        "stuffy-mcq-07",
-        "stuffy-mcq-11",
-        "stuffy-mcq-06"
+        "stuffy-mcq-04",
+        "stuffy-mcq-03",
+        "stuffy-mcq-08"
       ],
       "explanation": "本句的「stuffy atmosphere」指「拘謹沉悶的氣氛」。",
       "sentenceIndex": 17,
@@ -851,12 +753,10 @@ export default {
         "stuffy atmosphere"
       ],
       "optionReasons": {
-        "stuffy-mcq-09": "本句指「拘謹沉悶的氣氛」。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-09": "本句的「stuffy atmosphere」指「拘謹沉悶的氣氛」。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-09"
     },
@@ -868,11 +768,9 @@ export default {
       "masked": "His jokes helped relax the ____.",
       "options": [
         "stuffy-mcq-09",
-        "stuffy-mcq-08",
-        "stuffy-mcq-10",
-        "stuffy-mcq-07",
-        "stuffy-mcq-11",
-        "stuffy-mcq-06"
+        "stuffy-mcq-03",
+        "stuffy-mcq-05",
+        "stuffy-mcq-08"
       ],
       "explanation": "本句的「stuffy atmosphere」指「拘謹沉悶的氣氛」。",
       "sentenceIndex": 18,
@@ -881,12 +779,10 @@ export default {
         "stuffy atmosphere"
       ],
       "optionReasons": {
-        "stuffy-mcq-09": "本句指「拘謹沉悶的氣氛」。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-06": "「古板拘謹的人」與本句語境不同。"
+        "stuffy-mcq-09": "本句的「stuffy atmosphere」指「拘謹沉悶的氣氛」。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-09"
     },
@@ -898,11 +794,8 @@ export default {
       "masked": "The report is accurate but a little ____.",
       "options": [
         "stuffy-mcq-10",
-        "stuffy-mcq-09",
-        "stuffy-mcq-11",
-        "stuffy-mcq-08",
         "stuffy-mcq-12",
-        "stuffy-mcq-07"
+        "stuffy-mcq-03"
       ],
       "explanation": "本句的「stuffy」指「古板沉悶的文風／風格」。",
       "sentenceIndex": 19,
@@ -911,12 +804,9 @@ export default {
         "stuffy"
       ],
       "optionReasons": {
-        "stuffy-mcq-10": "本句指「古板沉悶的文風／風格」。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。"
+        "stuffy-mcq-10": "本句的「stuffy」指「古板沉悶的文風／風格」。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-10"
     },
@@ -928,11 +818,8 @@ export default {
       "masked": "The old textbook uses very ____.",
       "options": [
         "stuffy-mcq-10",
-        "stuffy-mcq-09",
-        "stuffy-mcq-11",
-        "stuffy-mcq-08",
-        "stuffy-mcq-12",
-        "stuffy-mcq-07"
+        "stuffy-mcq-05",
+        "stuffy-mcq-03"
       ],
       "explanation": "本句的「stuffy language」指「古板沉悶的文風／風格」。",
       "sentenceIndex": 20,
@@ -941,12 +828,9 @@ export default {
         "stuffy language"
       ],
       "optionReasons": {
-        "stuffy-mcq-10": "本句指「古板沉悶的文風／風格」。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-07": "「古板拘謹的態度」與本句語境不同。"
+        "stuffy-mcq-10": "本句的「stuffy language」指「古板沉悶的文風／風格」。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-10"
     },
@@ -958,11 +842,8 @@ export default {
       "masked": "The ____ of the room made everyone sleepy.",
       "options": [
         "stuffy-mcq-11",
-        "stuffy-mcq-10",
-        "stuffy-mcq-12",
-        "stuffy-mcq-09",
-        "stuffy-mcq-13",
-        "stuffy-mcq-08"
+        "stuffy-mcq-06",
+        "stuffy-mcq-04"
       ],
       "explanation": "本句的「stuffiness」指「悶焗」。",
       "sentenceIndex": 21,
@@ -971,12 +852,9 @@ export default {
         "stuffiness"
       ],
       "optionReasons": {
-        "stuffy-mcq-11": "本句指「悶焗」。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-13": "「拘謹；古板」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。"
+        "stuffy-mcq-11": "本句的「stuffiness」指「悶焗」。",
+        "stuffy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-11"
     },
@@ -988,11 +866,8 @@ export default {
       "masked": "Opening the windows reduced the ____.",
       "options": [
         "stuffy-mcq-11",
-        "stuffy-mcq-10",
-        "stuffy-mcq-12",
-        "stuffy-mcq-09",
         "stuffy-mcq-13",
-        "stuffy-mcq-08"
+        "stuffy-mcq-12"
       ],
       "explanation": "本句的「stuffiness」指「悶焗」。",
       "sentenceIndex": 22,
@@ -1001,12 +876,9 @@ export default {
         "stuffiness"
       ],
       "optionReasons": {
-        "stuffy-mcq-11": "本句指「悶焗」。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。",
-        "stuffy-mcq-13": "「拘謹；古板」與本句語境不同。",
-        "stuffy-mcq-08": "「古板規則」與本句語境不同。"
+        "stuffy-mcq-11": "本句的「stuffiness」指「悶焗」。",
+        "stuffy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-11"
     },
@@ -1018,11 +890,8 @@ export default {
       "masked": "The medicine helped relieve nasal ____.",
       "options": [
         "stuffy-mcq-12",
-        "stuffy-mcq-11",
-        "stuffy-mcq-13",
-        "stuffy-mcq-10",
-        "stuffy-mcq-14",
-        "stuffy-mcq-09"
+        "stuffy-mcq-07",
+        "stuffy-mcq-01"
       ],
       "explanation": "本句的「stuffiness」指「鼻塞」。",
       "sentenceIndex": 23,
@@ -1031,12 +900,9 @@ export default {
         "stuffiness"
       ],
       "optionReasons": {
-        "stuffy-mcq-12": "本句指「鼻塞」。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-13": "「拘謹；古板」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-14": "「拘謹地；古板地」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。"
+        "stuffy-mcq-12": "本句的「stuffiness」指「鼻塞」。",
+        "stuffy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-12"
     },
@@ -1048,11 +914,8 @@ export default {
       "masked": "She complained of ____ and a sore throat.",
       "options": [
         "stuffy-mcq-12",
-        "stuffy-mcq-11",
-        "stuffy-mcq-13",
-        "stuffy-mcq-10",
-        "stuffy-mcq-14",
-        "stuffy-mcq-09"
+        "stuffy-mcq-06",
+        "stuffy-mcq-02"
       ],
       "explanation": "本句的「stuffiness」指「鼻塞」。",
       "sentenceIndex": 24,
@@ -1061,12 +924,9 @@ export default {
         "stuffiness"
       ],
       "optionReasons": {
-        "stuffy-mcq-12": "本句指「鼻塞」。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-13": "「拘謹；古板」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-14": "「拘謹地；古板地」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。"
+        "stuffy-mcq-12": "本句的「stuffiness」指「鼻塞」。",
+        "stuffy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-12"
     },
@@ -1079,10 +939,7 @@ export default {
       "options": [
         "stuffy-mcq-13",
         "stuffy-mcq-12",
-        "stuffy-mcq-14",
-        "stuffy-mcq-11",
-        "stuffy-mcq-10",
-        "stuffy-mcq-09"
+        "stuffy-mcq-11"
       ],
       "explanation": "本句的「stuffiness」指「拘謹；古板」。",
       "sentenceIndex": 25,
@@ -1091,12 +948,9 @@ export default {
         "stuffiness"
       ],
       "optionReasons": {
-        "stuffy-mcq-13": "本句指「拘謹；古板」。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-14": "「拘謹地；古板地」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。"
+        "stuffy-mcq-13": "本句的「stuffiness」指「拘謹；古板」。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-13"
     },
@@ -1108,11 +962,8 @@ export default {
       "masked": "The event had none of the usual ____.",
       "options": [
         "stuffy-mcq-13",
-        "stuffy-mcq-12",
-        "stuffy-mcq-14",
-        "stuffy-mcq-11",
-        "stuffy-mcq-10",
-        "stuffy-mcq-09"
+        "stuffy-mcq-03",
+        "stuffy-mcq-12"
       ],
       "explanation": "本句的「stuffiness」指「拘謹；古板」。",
       "sentenceIndex": 26,
@@ -1121,12 +972,9 @@ export default {
         "stuffiness"
       ],
       "optionReasons": {
-        "stuffy-mcq-13": "本句指「拘謹；古板」。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-14": "「拘謹地；古板地」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。"
+        "stuffy-mcq-13": "本句的「stuffiness」指「拘謹；古板」。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-13"
     },
@@ -1138,11 +986,8 @@ export default {
       "masked": "He spoke rather ____.",
       "options": [
         "stuffy-mcq-14",
-        "stuffy-mcq-13",
-        "stuffy-mcq-12",
-        "stuffy-mcq-11",
-        "stuffy-mcq-10",
-        "stuffy-mcq-09"
+        "stuffy-mcq-04",
+        "stuffy-mcq-03"
       ],
       "explanation": "本句的「stuffily」指「拘謹地；古板地」。",
       "sentenceIndex": 27,
@@ -1151,12 +996,9 @@ export default {
         "stuffily"
       ],
       "optionReasons": {
-        "stuffy-mcq-14": "本句指「拘謹地；古板地」。",
-        "stuffy-mcq-13": "「拘謹；古板」與本句語境不同。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。"
+        "stuffy-mcq-14": "本句的「stuffily」指「拘謹地；古板地」。",
+        "stuffy-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-14"
     },
@@ -1168,11 +1010,8 @@ export default {
       "masked": "The room was ____ in a formal old-fashioned style.",
       "options": [
         "stuffy-mcq-14",
-        "stuffy-mcq-13",
-        "stuffy-mcq-12",
-        "stuffy-mcq-11",
-        "stuffy-mcq-10",
-        "stuffy-mcq-09"
+        "stuffy-mcq-05",
+        "stuffy-mcq-03"
       ],
       "explanation": "本句的「stuffily decorated」指「拘謹地；古板地」。",
       "sentenceIndex": 28,
@@ -1181,12 +1020,9 @@ export default {
         "stuffily decorated"
       ],
       "optionReasons": {
-        "stuffy-mcq-14": "本句指「拘謹地；古板地」。",
-        "stuffy-mcq-13": "「拘謹；古板」與本句語境不同。",
-        "stuffy-mcq-12": "「鼻塞」與本句語境不同。",
-        "stuffy-mcq-11": "「悶焗」與本句語境不同。",
-        "stuffy-mcq-10": "「古板沉悶的文風／風格」與本句語境不同。",
-        "stuffy-mcq-09": "「拘謹沉悶的氣氛」與本句語境不同。"
+        "stuffy-mcq-14": "本句的「stuffily decorated」指「拘謹地；古板地」。",
+        "stuffy-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stuffy-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stuffy-mcq-14"
     }
@@ -1198,5 +1034,7 @@ export default {
     "sha256": "6f6ddd1a1410cc5abe27455398daa8d070b57c8e3abb0f19baaa13e5fec90408",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

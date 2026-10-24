@@ -173,11 +173,7 @@ export default {
       "masked": "____, that advertisement was persuasive.",
       "options": [
         "overall-mcq-01",
-        "overall-mcq-02",
-        "overall-mcq-03",
-        "overall-mcq-04",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「Overall」指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
       "sentenceIndex": 0,
@@ -186,12 +182,8 @@ export default {
         "Overall"
       ],
       "optionReasons": {
-        "overall-mcq-01": "本句指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-01": "本句的「Overall」指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-01"
     },
@@ -203,11 +195,7 @@ export default {
       "masked": "____, I was satisfied with the headphones.",
       "options": [
         "overall-mcq-01",
-        "overall-mcq-02",
-        "overall-mcq-03",
-        "overall-mcq-04",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「Overall」指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
       "sentenceIndex": 1,
@@ -216,12 +204,8 @@ export default {
         "Overall"
       ],
       "optionReasons": {
-        "overall-mcq-01": "本句指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-01": "本句的「Overall」指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-01"
     },
@@ -233,11 +217,7 @@ export default {
       "masked": "The trip had a few problems, but ____ it was enjoyable.",
       "options": [
         "overall-mcq-01",
-        "overall-mcq-02",
-        "overall-mcq-03",
-        "overall-mcq-04",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall」指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
       "sentenceIndex": 2,
@@ -246,12 +226,8 @@ export default {
         "overall"
       ],
       "optionReasons": {
-        "overall-mcq-01": "本句指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-01": "本句的「overall」指「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-01"
     },
@@ -263,11 +239,7 @@ export default {
       "masked": "The ____ of the product is excellent.",
       "options": [
         "overall-mcq-02",
-        "overall-mcq-01",
-        "overall-mcq-03",
-        "overall-mcq-04",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall quality」指「涵蓋所有主要部分，並把它們視作一個整體的」。",
       "sentenceIndex": 0,
@@ -276,12 +248,8 @@ export default {
         "overall quality"
       ],
       "optionReasons": {
-        "overall-mcq-02": "本句指「涵蓋所有主要部分，並把它們視作一個整體的」。",
-        "overall-mcq-01": "「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」是「overall — adverb」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-02": "本句的「overall quality」指「涵蓋所有主要部分，並把它們視作一個整體的」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-02"
     },
@@ -293,11 +261,7 @@ export default {
       "masked": "Customer feedback had a positive effect on the ____.",
       "options": [
         "overall-mcq-02",
-        "overall-mcq-01",
-        "overall-mcq-03",
-        "overall-mcq-04",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall result」指「涵蓋所有主要部分，並把它們視作一個整體的」。",
       "sentenceIndex": 1,
@@ -306,12 +270,8 @@ export default {
         "overall result"
       ],
       "optionReasons": {
-        "overall-mcq-02": "本句指「涵蓋所有主要部分，並把它們視作一個整體的」。",
-        "overall-mcq-01": "「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」是「overall — adverb」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-02": "本句的「overall result」指「涵蓋所有主要部分，並把它們視作一個整體的」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-02"
     },
@@ -323,11 +283,7 @@ export default {
       "masked": "The ____ was higher than expected.",
       "options": [
         "overall-mcq-03",
-        "overall-mcq-02",
-        "overall-mcq-04",
-        "overall-mcq-01",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall cost」指「把不同部分、數字或組別合併後所得的總體情況」。",
       "sentenceIndex": 0,
@@ -336,12 +292,8 @@ export default {
         "overall cost"
       ],
       "optionReasons": {
-        "overall-mcq-03": "本句指「把不同部分、數字或組別合併後所得的總體情況」。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-01": "「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」是「overall — adverb」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-03": "本句的「overall cost」指「把不同部分、數字或組別合併後所得的總體情況」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-03"
     },
@@ -353,11 +305,7 @@ export default {
       "masked": "There was an ____ in sales.",
       "options": [
         "overall-mcq-03",
-        "overall-mcq-02",
-        "overall-mcq-04",
-        "overall-mcq-01",
-        "overall-mcq-05",
-        "overall-mcq-06"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall increase」指「把不同部分、數字或組別合併後所得的總體情況」。",
       "sentenceIndex": 1,
@@ -366,12 +314,8 @@ export default {
         "overall increase"
       ],
       "optionReasons": {
-        "overall-mcq-03": "本句指「把不同部分、數字或組別合併後所得的總體情況」。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-01": "「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」是「overall — adverb」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。"
+        "overall-mcq-03": "本句的「overall increase」指「把不同部分、數字或組別合併後所得的總體情況」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-03"
     },
@@ -383,11 +327,7 @@ export default {
       "masked": "My ____ of the hotel was positive.",
       "options": [
         "overall-mcq-04",
-        "overall-mcq-03",
-        "overall-mcq-05",
-        "overall-mcq-02",
-        "overall-mcq-06",
-        "overall-mcq-01"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall impression」指「綜合所有細節後形成的整體觀感、全貌或總體看法」。",
       "sentenceIndex": 0,
@@ -396,12 +336,8 @@ export default {
         "overall impression"
       ],
       "optionReasons": {
-        "overall-mcq-04": "本句指「綜合所有細節後形成的整體觀感、全貌或總體看法」。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。",
-        "overall-mcq-01": "「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」是「overall — adverb」的用法，與本句語境不同。"
+        "overall-mcq-04": "本句的「overall impression」指「綜合所有細節後形成的整體觀感、全貌或總體看法」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-04"
     },
@@ -413,11 +349,7 @@ export default {
       "masked": "We need to look at the ____, not just one bad result.",
       "options": [
         "overall-mcq-04",
-        "overall-mcq-03",
-        "overall-mcq-05",
-        "overall-mcq-02",
-        "overall-mcq-06",
-        "overall-mcq-01"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall picture」指「綜合所有細節後形成的整體觀感、全貌或總體看法」。",
       "sentenceIndex": 1,
@@ -426,12 +358,8 @@ export default {
         "overall picture"
       ],
       "optionReasons": {
-        "overall-mcq-04": "本句指「綜合所有細節後形成的整體觀感、全貌或總體看法」。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。",
-        "overall-mcq-01": "「綜合所有相關方面、優缺點和細節後，從整體角度作出總結或判斷」是「overall — adverb」的用法，與本句語境不同。"
+        "overall-mcq-04": "本句的「overall picture」指「綜合所有細節後形成的整體觀感、全貌或總體看法」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-04"
     },
@@ -443,11 +371,7 @@ export default {
       "masked": "She was the ____ of the competition.",
       "options": [
         "overall-mcq-05",
-        "overall-mcq-04",
-        "overall-mcq-06",
-        "overall-mcq-03",
-        "overall-mcq-07",
-        "overall-mcq-02"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall winner」指「綜合所有項目、回合或成績後所得的總排名／總冠軍」。",
       "sentenceIndex": 0,
@@ -456,12 +380,8 @@ export default {
         "overall winner"
       ],
       "optionReasons": {
-        "overall-mcq-05": "本句指「綜合所有項目、回合或成績後所得的總排名／總冠軍」。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-07": "「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」是「overalls」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。"
+        "overall-mcq-05": "本句的「overall winner」指「綜合所有項目、回合或成績後所得的總排名／總冠軍」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-05"
     },
@@ -473,11 +393,7 @@ export default {
       "masked": "The team finished first ____.",
       "options": [
         "overall-mcq-05",
-        "overall-mcq-04",
-        "overall-mcq-06",
-        "overall-mcq-03",
-        "overall-mcq-07",
-        "overall-mcq-02"
+        "overall-mcq-07"
       ],
       "explanation": "本句的「overall」指「綜合所有項目、回合或成績後所得的總排名／總冠軍」。",
       "sentenceIndex": 1,
@@ -486,12 +402,8 @@ export default {
         "overall"
       ],
       "optionReasons": {
-        "overall-mcq-05": "本句指「綜合所有項目、回合或成績後所得的總排名／總冠軍」。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-07": "「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」是「overalls」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。"
+        "overall-mcq-05": "本句的「overall」指「綜合所有項目、回合或成績後所得的總排名／總冠軍」。",
+        "overall-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-05"
     },
@@ -503,11 +415,7 @@ export default {
       "masked": "The company retained ____ of the project.",
       "options": [
         "overall-mcq-06",
-        "overall-mcq-05",
-        "overall-mcq-07",
-        "overall-mcq-04",
-        "overall-mcq-03",
-        "overall-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「overall control」指「涵蓋整個範圍而非單一部分的控制權／責任」。",
       "sentenceIndex": 0,
@@ -516,12 +424,8 @@ export default {
         "overall control"
       ],
       "optionReasons": {
-        "overall-mcq-06": "本句指「涵蓋整個範圍而非單一部分的控制權／責任」。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-07": "「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」是「overalls」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。"
+        "overall-mcq-06": "本句的「overall control」指「涵蓋整個範圍而非單一部分的控制權／責任」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-06"
     },
@@ -533,11 +437,7 @@ export default {
       "masked": "One department has ____ for safety.",
       "options": [
         "overall-mcq-06",
-        "overall-mcq-05",
-        "overall-mcq-07",
-        "overall-mcq-04",
-        "overall-mcq-03",
-        "overall-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「overall responsibility」指「涵蓋整個範圍而非單一部分的控制權／責任」。",
       "sentenceIndex": 1,
@@ -546,12 +446,8 @@ export default {
         "overall responsibility"
       ],
       "optionReasons": {
-        "overall-mcq-06": "本句指「涵蓋整個範圍而非單一部分的控制權／責任」。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-07": "「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」是「overalls」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。"
+        "overall-mcq-06": "本句的「overall responsibility」指「涵蓋整個範圍而非單一部分的控制權／責任」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-06"
     },
@@ -563,11 +459,7 @@ export default {
       "masked": "The mechanic was wearing blue ____.",
       "options": [
         "overall-mcq-07",
-        "overall-mcq-06",
-        "overall-mcq-05",
-        "overall-mcq-04",
-        "overall-mcq-03",
-        "overall-mcq-02"
+        "overall-mcq-05"
       ],
       "explanation": "本句的「overalls」指「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」。",
       "sentenceIndex": 0,
@@ -576,12 +468,8 @@ export default {
         "overalls"
       ],
       "optionReasons": {
-        "overall-mcq-07": "本句指「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。"
+        "overall-mcq-07": "本句的「overalls」指「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」。",
+        "overall-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-07"
     },
@@ -593,11 +481,7 @@ export default {
       "masked": "Workers must wear protective ____ in the factory.",
       "options": [
         "overall-mcq-07",
-        "overall-mcq-06",
-        "overall-mcq-05",
-        "overall-mcq-04",
-        "overall-mcq-03",
-        "overall-mcq-02"
+        "overall-mcq-05"
       ],
       "explanation": "本句的「overalls」指「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」。",
       "sentenceIndex": 1,
@@ -606,12 +490,8 @@ export default {
         "overalls"
       ],
       "optionReasons": {
-        "overall-mcq-07": "本句指「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」。",
-        "overall-mcq-06": "「涵蓋整個範圍而非單一部分的控制權／責任」是「overall control/responsibility」的用法，與本句語境不同。",
-        "overall-mcq-05": "「綜合所有項目、回合或成績後所得的總排名／總冠軍」是「overall winner/ranking」的用法，與本句語境不同。",
-        "overall-mcq-04": "「綜合所有細節後形成的整體觀感、全貌或總體看法」是「overall impression/picture」的用法，與本句語境不同。",
-        "overall-mcq-03": "「把不同部分、數字或組別合併後所得的總體情況」是「overall — total situation」的用法，與本句語境不同。",
-        "overall-mcq-02": "「涵蓋所有主要部分，並把它們視作一個整體的」是「overall + noun」的用法，與本句語境不同。"
+        "overall-mcq-07": "本句的「overalls」指「工作時穿著以保護身體或衣服的工作服；美式亦常指吊帶工裝褲」。",
+        "overall-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overall-mcq-07"
     }
@@ -624,5 +504,12 @@ export default {
     "pages": 10,
     "sha256": "fe3585831252e61c03d1514cb418eb897ef40eb06c735e91996cbed6d0ebab95"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -516,16 +516,6 @@ export default {
           "The newspaper's deadline is 8 p.m.",
           "報社的截稿時間是晚上八時。",
           "截稿期限"
-        ],
-        [
-          "The task must finish before its processing deadline.",
-          "這項工作必須在處理時限前完成。",
-          "截稿期限"
-        ],
-        [
-          "Missing a real-time deadline can cause system failure.",
-          "錯過實時系統的時限可能導致系統故障。",
-          "截稿期限"
         ]
       ],
       "options": [],
@@ -541,6 +531,28 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "deadline-reviewed-2ae5a36ac6",
+      "title": "在電腦或實時系統中，某項運算必須完成的最遲時間",
+      "form": "deadline · source section 24",
+      "en": "在電腦或實時系統中，某項運算必須完成的最遲時間",
+      "zh": "在電腦或實時系統中，某項運算必須完成的最遲時間",
+      "note": "對照原始教材第 24 節及例句核實。",
+      "examples": [
+        [
+          "The task must finish before its processing deadline.",
+          "這項工作必須在處理時限前完成。",
+          "在電腦或實時系統中，某項運算必須完成的最遲時間"
+        ],
+        [
+          "Missing a real-time deadline can cause system failure.",
+          "錯過實時系統的時限可能導致系統故障。",
+          "在電腦或實時系統中，某項運算必須完成的最遲時間"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -552,11 +564,8 @@ export default {
       "masked": "The ____ was breathing down our necks.",
       "options": [
         "deadline-mcq-01",
-        "deadline-mcq-02",
-        "deadline-mcq-03",
-        "deadline-mcq-04",
-        "deadline-mcq-05",
-        "deadline-mcq-06"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6"
       ],
       "explanation": "本句的「deadline」指「截止日期／最後期限」。",
       "sentenceIndex": 0,
@@ -565,12 +574,9 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-01": "本句指「截止日期／最後期限」。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-01": "本句的「deadline」指「截止日期／最後期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-01"
     },
@@ -582,11 +588,8 @@ export default {
       "masked": "The ____ for the assignment is Friday.",
       "options": [
         "deadline-mcq-01",
-        "deadline-mcq-02",
-        "deadline-mcq-03",
-        "deadline-mcq-04",
-        "deadline-mcq-05",
-        "deadline-mcq-06"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6"
       ],
       "explanation": "本句的「deadline」指「截止日期／最後期限」。",
       "sentenceIndex": 1,
@@ -595,12 +598,9 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-01": "本句指「截止日期／最後期限」。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-01": "本句的「deadline」指「截止日期／最後期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-01"
     },
@@ -612,10 +612,6 @@ export default {
       "masked": "We need to finish before the ____.",
       "options": [
         "deadline-mcq-01",
-        "deadline-mcq-02",
-        "deadline-mcq-03",
-        "deadline-mcq-04",
-        "deadline-mcq-05",
         "deadline-mcq-06"
       ],
       "explanation": "本句的「deadline」指「截止日期／最後期限」。",
@@ -625,12 +621,8 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-01": "本句指「截止日期／最後期限」。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-01": "本句的「deadline」指「截止日期／最後期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-01"
     },
@@ -642,10 +634,6 @@ export default {
       "masked": "The ____ is May 1.",
       "options": [
         "deadline-mcq-02",
-        "deadline-mcq-01",
-        "deadline-mcq-03",
-        "deadline-mcq-04",
-        "deadline-mcq-05",
         "deadline-mcq-06"
       ],
       "explanation": "本句的「deadline for applications」指「X 的截止期限」。",
@@ -655,12 +643,8 @@ export default {
         "deadline for applications"
       ],
       "optionReasons": {
-        "deadline-mcq-02": "本句指「X 的截止期限」。",
-        "deadline-mcq-01": "「截止日期／最後期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-02": "本句的「deadline for applications」指「X 的截止期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-02"
     },
@@ -672,11 +656,8 @@ export default {
       "masked": "What's the ____?",
       "options": [
         "deadline-mcq-02",
-        "deadline-mcq-01",
-        "deadline-mcq-03",
-        "deadline-mcq-04",
-        "deadline-mcq-05",
-        "deadline-mcq-06"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21"
       ],
       "explanation": "本句的「deadline for this project」指「X 的截止期限」。",
       "sentenceIndex": 4,
@@ -685,12 +666,9 @@ export default {
         "deadline for this project"
       ],
       "optionReasons": {
-        "deadline-mcq-02": "本句指「X 的截止期限」。",
-        "deadline-mcq-01": "「截止日期／最後期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-02": "本句的「deadline for this project」指「X 的截止期限」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-02"
     },
@@ -702,11 +680,8 @@ export default {
       "masked": "The ____ is tomorrow.",
       "options": [
         "deadline-mcq-03",
-        "deadline-mcq-02",
-        "deadline-mcq-04",
-        "deadline-mcq-01",
-        "deadline-mcq-05",
-        "deadline-mcq-06"
+        "deadline-mcq-21",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「deadline to submit the form」指「做 X 的最後期限」。",
       "sentenceIndex": 5,
@@ -715,12 +690,9 @@ export default {
         "deadline to submit the form"
       ],
       "optionReasons": {
-        "deadline-mcq-03": "本句指「做 X 的最後期限」。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-01": "「截止日期／最後期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-03": "本句的「deadline to submit the form」指「做 X 的最後期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-03"
     },
@@ -732,11 +704,8 @@ export default {
       "masked": "We were given a ____.",
       "options": [
         "deadline-mcq-03",
-        "deadline-mcq-02",
-        "deadline-mcq-04",
-        "deadline-mcq-01",
-        "deadline-mcq-05",
-        "deadline-mcq-06"
+        "deadline-mcq-21",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「deadline to complete the work」指「做 X 的最後期限」。",
       "sentenceIndex": 6,
@@ -745,12 +714,9 @@ export default {
         "deadline to complete the work"
       ],
       "optionReasons": {
-        "deadline-mcq-03": "本句指「做 X 的最後期限」。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-01": "「截止日期／最後期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-03": "本句的「deadline to complete the work」指「做 X 的最後期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-03"
     },
@@ -762,11 +728,7 @@ export default {
       "masked": "We worked late to ____.",
       "options": [
         "deadline-mcq-04",
-        "deadline-mcq-03",
-        "deadline-mcq-05",
-        "deadline-mcq-02",
-        "deadline-mcq-06",
-        "deadline-mcq-01"
+        "deadline-mcq-06"
       ],
       "explanation": "本句的「meet the deadline」指「趕上期限」。",
       "sentenceIndex": 7,
@@ -775,12 +737,8 @@ export default {
         "meet the deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-04": "本句指「趕上期限」。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-01": "「截止日期／最後期限」與本句語境不同。"
+        "deadline-mcq-04": "本句的「meet the deadline」指「趕上期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-04"
     },
@@ -792,11 +750,7 @@ export default {
       "masked": "She always ____.",
       "options": [
         "deadline-mcq-04",
-        "deadline-mcq-03",
-        "deadline-mcq-05",
-        "deadline-mcq-02",
-        "deadline-mcq-06",
-        "deadline-mcq-01"
+        "deadline-mcq-06"
       ],
       "explanation": "本句的「meets her deadlines」指「趕上期限」。",
       "sentenceIndex": 8,
@@ -805,12 +759,8 @@ export default {
         "meets her deadlines"
       ],
       "optionReasons": {
-        "deadline-mcq-04": "本句指「趕上期限」。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-01": "「截止日期／最後期限」與本句語境不同。"
+        "deadline-mcq-04": "本句的「meets her deadlines」指「趕上期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-04"
     },
@@ -822,11 +772,8 @@ export default {
       "masked": "We can't afford to ____.",
       "options": [
         "deadline-mcq-05",
-        "deadline-mcq-04",
         "deadline-mcq-06",
-        "deadline-mcq-03",
-        "deadline-mcq-07",
-        "deadline-mcq-02"
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「miss the deadline」指「錯過期限」。",
       "sentenceIndex": 9,
@@ -835,12 +782,9 @@ export default {
         "miss the deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-05": "本句指「錯過期限」。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。"
+        "deadline-mcq-05": "本句的「miss the deadline」指「錯過期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-05"
     },
@@ -852,11 +796,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "deadline-mcq-05",
-        "deadline-mcq-04",
         "deadline-mcq-06",
-        "deadline-mcq-03",
-        "deadline-mcq-07",
-        "deadline-mcq-02"
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「missed the application deadline」指「錯過期限」。",
       "sentenceIndex": 10,
@@ -865,12 +806,9 @@ export default {
         "missed the application deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-05": "本句指「錯過期限」。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-02": "「X 的截止期限」與本句語境不同。"
+        "deadline-mcq-05": "本句的「missed the application deadline」指「錯過期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-05"
     },
@@ -882,11 +820,9 @@ export default {
       "masked": "The teacher ____ for Friday.",
       "options": [
         "deadline-mcq-07",
-        "deadline-mcq-06",
-        "deadline-mcq-08",
-        "deadline-mcq-05",
-        "deadline-mcq-09",
-        "deadline-mcq-04"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「set a deadline」指「設定期限」。",
       "sentenceIndex": 11,
@@ -895,12 +831,10 @@ export default {
         "set a deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-07": "本句指「設定期限」。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。"
+        "deadline-mcq-07": "本句的「set a deadline」指「設定期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-07"
     },
@@ -913,10 +847,7 @@ export default {
       "options": [
         "deadline-mcq-07",
         "deadline-mcq-06",
-        "deadline-mcq-08",
-        "deadline-mcq-05",
-        "deadline-mcq-09",
-        "deadline-mcq-04"
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「set a clear deadline」指「設定期限」。",
       "sentenceIndex": 12,
@@ -925,12 +856,9 @@ export default {
         "set a clear deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-07": "本句指「設定期限」。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。"
+        "deadline-mcq-07": "本句的「set a clear deadline」指「設定期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-07"
     },
@@ -942,11 +870,8 @@ export default {
       "masked": "The manager ____ of two weeks.",
       "options": [
         "deadline-mcq-08",
-        "deadline-mcq-07",
-        "deadline-mcq-09",
-        "deadline-mcq-06",
-        "deadline-mcq-10",
-        "deadline-mcq-05"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6"
       ],
       "explanation": "本句的「gave us a deadline」指「給某人期限」。",
       "sentenceIndex": 13,
@@ -955,12 +880,9 @@ export default {
         "gave us a deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-08": "本句指「給某人期限」。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。"
+        "deadline-mcq-08": "本句的「gave us a deadline」指「給某人期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-08"
     },
@@ -972,11 +894,8 @@ export default {
       "masked": "They were ____ to respond.",
       "options": [
         "deadline-mcq-08",
-        "deadline-mcq-07",
-        "deadline-mcq-09",
-        "deadline-mcq-06",
-        "deadline-mcq-10",
-        "deadline-mcq-05"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6"
       ],
       "explanation": "本句的「given a deadline」指「給某人期限」。",
       "sentenceIndex": 14,
@@ -985,12 +904,9 @@ export default {
         "given a deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-08": "本句指「給某人期限」。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。"
+        "deadline-mcq-08": "本句的「given a deadline」指「給某人期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-08"
     },
@@ -1002,11 +918,8 @@ export default {
       "masked": "The university ____ by one week.",
       "options": [
         "deadline-mcq-09",
-        "deadline-mcq-08",
-        "deadline-mcq-10",
-        "deadline-mcq-07",
-        "deadline-mcq-11",
-        "deadline-mcq-06"
+        "deadline-mcq-06",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「extended the deadline」指「延長期限」。",
       "sentenceIndex": 15,
@@ -1015,12 +928,9 @@ export default {
         "extended the deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-09": "本句指「延長期限」。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-09": "本句的「extended the deadline」指「延長期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-09"
     },
@@ -1032,11 +942,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "deadline-mcq-09",
-        "deadline-mcq-08",
-        "deadline-mcq-10",
-        "deadline-mcq-07",
-        "deadline-mcq-11",
-        "deadline-mcq-06"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「extend the deadline」指「延長期限」。",
       "sentenceIndex": 16,
@@ -1045,12 +953,10 @@ export default {
         "extend the deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-09": "本句指「延長期限」。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-06": "「提前完成」與本句語境不同。"
+        "deadline-mcq-09": "本句的「extend the deadline」指「延長期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-09"
     },
@@ -1062,11 +968,9 @@ export default {
       "masked": "We asked for a ____.",
       "options": [
         "deadline-mcq-10",
-        "deadline-mcq-09",
-        "deadline-mcq-11",
-        "deadline-mcq-08",
-        "deadline-mcq-12",
-        "deadline-mcq-07"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21",
+        "deadline-mcq-11"
       ],
       "explanation": "本句的「deadline extension」指「截止延期」。",
       "sentenceIndex": 17,
@@ -1075,12 +979,10 @@ export default {
         "deadline extension"
       ],
       "optionReasons": {
-        "deadline-mcq-10": "本句指「截止延期」。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。"
+        "deadline-mcq-10": "本句的「deadline extension」指「截止延期」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-10"
     },
@@ -1092,11 +994,9 @@ export default {
       "masked": "No further ____ will be granted.",
       "options": [
         "deadline-mcq-10",
-        "deadline-mcq-09",
-        "deadline-mcq-11",
-        "deadline-mcq-08",
-        "deadline-mcq-12",
-        "deadline-mcq-07"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-22"
       ],
       "explanation": "本句的「deadline extensions」指「截止延期」。",
       "sentenceIndex": 18,
@@ -1105,12 +1005,10 @@ export default {
         "deadline extensions"
       ],
       "optionReasons": {
-        "deadline-mcq-10": "本句指「截止延期」。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。"
+        "deadline-mcq-10": "本句的「deadline extensions」指「截止延期」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-10"
     },
@@ -1122,11 +1020,9 @@ export default {
       "masked": "We were working to a ____.",
       "options": [
         "deadline-mcq-11",
-        "deadline-mcq-10",
-        "deadline-mcq-12",
-        "deadline-mcq-09",
-        "deadline-mcq-13",
-        "deadline-mcq-08"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「tight deadline」指「緊迫期限」。",
       "sentenceIndex": 19,
@@ -1135,12 +1031,10 @@ export default {
         "tight deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-11": "本句指「緊迫期限」。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。"
+        "deadline-mcq-11": "本句的「tight deadline」指「緊迫期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-11"
     },
@@ -1152,11 +1046,9 @@ export default {
       "masked": "The team completed the project despite the ____.",
       "options": [
         "deadline-mcq-11",
-        "deadline-mcq-10",
-        "deadline-mcq-12",
-        "deadline-mcq-09",
-        "deadline-mcq-13",
-        "deadline-mcq-08"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「tight deadline」指「緊迫期限」。",
       "sentenceIndex": 20,
@@ -1165,12 +1057,10 @@ export default {
         "tight deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-11": "本句指「緊迫期限」。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。"
+        "deadline-mcq-11": "本句的「tight deadline」指「緊迫期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-11"
     },
@@ -1182,11 +1072,8 @@ export default {
       "masked": "The application has a ____.",
       "options": [
         "deadline-mcq-12",
-        "deadline-mcq-11",
-        "deadline-mcq-13",
-        "deadline-mcq-10",
-        "deadline-mcq-14",
-        "deadline-mcq-09"
+        "deadline-mcq-06",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「strict deadline」指「嚴格期限」。",
       "sentenceIndex": 21,
@@ -1195,12 +1082,9 @@ export default {
         "strict deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-12": "本句指「嚴格期限」。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。"
+        "deadline-mcq-12": "本句的「strict deadline」指「嚴格期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-12"
     },
@@ -1212,11 +1096,8 @@ export default {
       "masked": "This is a ____, so late submissions will not be accepted.",
       "options": [
         "deadline-mcq-12",
-        "deadline-mcq-11",
-        "deadline-mcq-13",
-        "deadline-mcq-10",
-        "deadline-mcq-14",
-        "deadline-mcq-09"
+        "deadline-mcq-06",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「strict deadline」指「嚴格期限」。",
       "sentenceIndex": 22,
@@ -1225,12 +1106,9 @@ export default {
         "strict deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-12": "本句指「嚴格期限」。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-09": "「延長期限」與本句語境不同。"
+        "deadline-mcq-12": "本句的「strict deadline」指「嚴格期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-12"
     },
@@ -1242,11 +1120,8 @@ export default {
       "masked": "Monday is the ____.",
       "options": [
         "deadline-mcq-13",
-        "deadline-mcq-12",
-        "deadline-mcq-14",
-        "deadline-mcq-11",
-        "deadline-mcq-15",
-        "deadline-mcq-10"
+        "deadline-mcq-06",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「final deadline」指「最終期限」。",
       "sentenceIndex": 23,
@@ -1255,12 +1130,9 @@ export default {
         "final deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-13": "本句指「最終期限」。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。"
+        "deadline-mcq-13": "本句的「final deadline」指「最終期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-13"
     },
@@ -1272,11 +1144,8 @@ export default {
       "masked": "The ____ cannot be extended.",
       "options": [
         "deadline-mcq-13",
-        "deadline-mcq-12",
-        "deadline-mcq-14",
-        "deadline-mcq-11",
-        "deadline-mcq-15",
-        "deadline-mcq-10"
+        "deadline-mcq-06",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「final deadline」指「最終期限」。",
       "sentenceIndex": 24,
@@ -1285,12 +1154,9 @@ export default {
         "final deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-13": "本句指「最終期限」。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-10": "「截止延期」與本句語境不同。"
+        "deadline-mcq-13": "本句的「final deadline」指「最終期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-13"
     },
@@ -1302,11 +1168,8 @@ export default {
       "masked": "The ____ is next Friday.",
       "options": [
         "deadline-mcq-14",
-        "deadline-mcq-13",
-        "deadline-mcq-15",
-        "deadline-mcq-12",
-        "deadline-mcq-16",
-        "deadline-mcq-11"
+        "deadline-mcq-06",
+        "deadline-mcq-09"
       ],
       "explanation": "本句的「application deadline」指「申請截止日期」。",
       "sentenceIndex": 25,
@@ -1315,12 +1178,9 @@ export default {
         "application deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-14": "本句指「申請截止日期」。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。"
+        "deadline-mcq-14": "本句的「application deadline」指「申請截止日期」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-14"
     },
@@ -1332,11 +1192,8 @@ export default {
       "masked": "I submitted everything before the ____.",
       "options": [
         "deadline-mcq-14",
-        "deadline-mcq-13",
-        "deadline-mcq-15",
-        "deadline-mcq-12",
-        "deadline-mcq-16",
-        "deadline-mcq-11"
+        "deadline-mcq-06",
+        "deadline-mcq-19"
       ],
       "explanation": "本句的「application deadline」指「申請截止日期」。",
       "sentenceIndex": 26,
@@ -1345,12 +1202,9 @@ export default {
         "application deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-14": "本句指「申請截止日期」。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-11": "「緊迫期限」與本句語境不同。"
+        "deadline-mcq-14": "本句的「application deadline」指「申請截止日期」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-14"
     },
@@ -1362,10 +1216,8 @@ export default {
       "masked": "The ____ is midnight.",
       "options": [
         "deadline-mcq-15",
-        "deadline-mcq-14",
-        "deadline-mcq-16",
-        "deadline-mcq-13",
-        "deadline-mcq-17",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21",
         "deadline-mcq-12"
       ],
       "explanation": "本句的「submission deadline」指「提交截止日期」。",
@@ -1375,12 +1227,10 @@ export default {
         "submission deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-15": "本句指「提交截止日期」。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。"
+        "deadline-mcq-15": "本句的「submission deadline」指「提交截止日期」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-15"
     },
@@ -1392,11 +1242,9 @@ export default {
       "masked": "Students were reminded of the ____.",
       "options": [
         "deadline-mcq-15",
-        "deadline-mcq-14",
-        "deadline-mcq-16",
-        "deadline-mcq-13",
-        "deadline-mcq-17",
-        "deadline-mcq-12"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21",
+        "deadline-mcq-09"
       ],
       "explanation": "本句的「submission deadline」指「提交截止日期」。",
       "sentenceIndex": 28,
@@ -1405,12 +1253,10 @@ export default {
         "submission deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-15": "本句指「提交截止日期」。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-12": "「嚴格期限」與本句語境不同。"
+        "deadline-mcq-15": "本句的「submission deadline」指「提交截止日期」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-15"
     },
@@ -1422,11 +1268,8 @@ export default {
       "masked": "The ____ is the end of the month.",
       "options": [
         "deadline-mcq-16",
-        "deadline-mcq-15",
-        "deadline-mcq-17",
-        "deadline-mcq-14",
-        "deadline-mcq-18",
-        "deadline-mcq-13"
+        "deadline-mcq-06",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「payment deadline」指「付款期限」。",
       "sentenceIndex": 29,
@@ -1435,12 +1278,9 @@ export default {
         "payment deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-16": "本句指「付款期限」。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。"
+        "deadline-mcq-16": "本句的「payment deadline」指「付款期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-16"
     },
@@ -1452,11 +1292,8 @@ export default {
       "masked": "A late fee applies if you miss the ____.",
       "options": [
         "deadline-mcq-16",
-        "deadline-mcq-15",
-        "deadline-mcq-17",
-        "deadline-mcq-14",
-        "deadline-mcq-18",
-        "deadline-mcq-13"
+        "deadline-mcq-06",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「payment deadline」指「付款期限」。",
       "sentenceIndex": 30,
@@ -1465,12 +1302,9 @@ export default {
         "payment deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-16": "本句指「付款期限」。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-13": "「最終期限」與本句語境不同。"
+        "deadline-mcq-16": "本句的「payment deadline」指「付款期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-16"
     },
@@ -1482,11 +1316,9 @@ export default {
       "masked": "Journalists often ____.",
       "options": [
         "deadline-mcq-17",
-        "deadline-mcq-16",
-        "deadline-mcq-18",
-        "deadline-mcq-15",
-        "deadline-mcq-19",
-        "deadline-mcq-14"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「work to tight deadlines」指「按期限工作」。",
       "sentenceIndex": 31,
@@ -1495,12 +1327,10 @@ export default {
         "work to tight deadlines"
       ],
       "optionReasons": {
-        "deadline-mcq-17": "本句指「按期限工作」。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。"
+        "deadline-mcq-17": "本句的「work to tight deadlines」指「按期限工作」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-17"
     },
@@ -1512,11 +1342,8 @@ export default {
       "masked": "I'm used to ____.",
       "options": [
         "deadline-mcq-17",
-        "deadline-mcq-16",
-        "deadline-mcq-18",
-        "deadline-mcq-15",
-        "deadline-mcq-19",
-        "deadline-mcq-14"
+        "deadline-mcq-06",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「working to deadlines」指「按期限工作」。",
       "sentenceIndex": 32,
@@ -1525,12 +1352,9 @@ export default {
         "working to deadlines"
       ],
       "optionReasons": {
-        "deadline-mcq-17": "本句指「按期限工作」。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。"
+        "deadline-mcq-17": "本句的「working to deadlines」指「按期限工作」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-17"
     },
@@ -1542,11 +1366,8 @@ export default {
       "masked": "People often feel stressed when ____.",
       "options": [
         "deadline-mcq-17",
-        "deadline-mcq-16",
-        "deadline-mcq-18",
-        "deadline-mcq-15",
-        "deadline-mcq-19",
-        "deadline-mcq-14"
+        "deadline-mcq-06",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「working under a deadline」指「按期限工作」。",
       "sentenceIndex": 33,
@@ -1555,12 +1376,9 @@ export default {
         "working under a deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-17": "本句指「按期限工作」。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。"
+        "deadline-mcq-17": "本句的「working under a deadline」指「按期限工作」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-17"
     },
@@ -1572,11 +1390,8 @@ export default {
       "masked": "The team was ____.",
       "options": [
         "deadline-mcq-17",
-        "deadline-mcq-16",
-        "deadline-mcq-18",
-        "deadline-mcq-15",
-        "deadline-mcq-19",
-        "deadline-mcq-14"
+        "deadline-mcq-06",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「working under a very tight deadline」指「按期限工作」。",
       "sentenceIndex": 34,
@@ -1585,12 +1400,9 @@ export default {
         "working under a very tight deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-17": "本句指「按期限工作」。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-14": "「申請截止日期」與本句語境不同。"
+        "deadline-mcq-17": "本句的「working under a very tight deadline」指「按期限工作」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-17"
     },
@@ -1602,11 +1414,8 @@ export default {
       "masked": "____ can lead to mistakes.",
       "options": [
         "deadline-mcq-18",
-        "deadline-mcq-17",
-        "deadline-mcq-19",
-        "deadline-mcq-16",
-        "deadline-mcq-20",
-        "deadline-mcq-15"
+        "deadline-mcq-21",
+        "deadline-reviewed-2ae5a36ac6"
       ],
       "explanation": "本句的「Deadline pressure」指「截止期限壓力」。",
       "sentenceIndex": 35,
@@ -1615,12 +1424,9 @@ export default {
         "Deadline pressure"
       ],
       "optionReasons": {
-        "deadline-mcq-18": "本句指「截止期限壓力」。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。"
+        "deadline-mcq-18": "本句的「Deadline pressure」指「截止期限壓力」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-18"
     },
@@ -1632,11 +1438,8 @@ export default {
       "masked": "Everyone was tired because of the ____.",
       "options": [
         "deadline-mcq-18",
-        "deadline-mcq-17",
-        "deadline-mcq-19",
-        "deadline-mcq-16",
-        "deadline-mcq-20",
-        "deadline-mcq-15"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21"
       ],
       "explanation": "本句的「deadline pressure」指「截止期限壓力」。",
       "sentenceIndex": 36,
@@ -1645,12 +1448,9 @@ export default {
         "deadline pressure"
       ],
       "optionReasons": {
-        "deadline-mcq-18": "本句指「截止期限壓力」。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-15": "「提交截止日期」與本句語境不同。"
+        "deadline-mcq-18": "本句的「deadline pressure」指「截止期限壓力」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-18"
     },
@@ -1662,11 +1462,8 @@ export default {
       "masked": "The ____ quickly.",
       "options": [
         "deadline-mcq-19",
-        "deadline-mcq-18",
-        "deadline-mcq-20",
-        "deadline-mcq-17",
-        "deadline-mcq-21",
-        "deadline-mcq-16"
+        "deadline-mcq-06",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「deadline is approaching」指「臨近的期限」。",
       "sentenceIndex": 37,
@@ -1675,12 +1472,9 @@ export default {
         "deadline is approaching"
       ],
       "optionReasons": {
-        "deadline-mcq-19": "本句指「臨近的期限」。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。"
+        "deadline-mcq-19": "本句的「deadline is approaching」指「臨近的期限」。",
+        "deadline-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-19"
     },
@@ -1692,11 +1486,9 @@ export default {
       "masked": "Everyone became busier as the ____.",
       "options": [
         "deadline-mcq-19",
-        "deadline-mcq-18",
-        "deadline-mcq-20",
-        "deadline-mcq-17",
         "deadline-mcq-21",
-        "deadline-mcq-16"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「deadline approached」指「臨近的期限」。",
       "sentenceIndex": 38,
@@ -1705,12 +1497,10 @@ export default {
         "deadline approached"
       ],
       "optionReasons": {
-        "deadline-mcq-19": "本句指「臨近的期限」。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-16": "「付款期限」與本句語境不同。"
+        "deadline-mcq-19": "本句的「deadline approached」指「臨近的期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-19"
     },
@@ -1722,11 +1512,9 @@ export default {
       "masked": "The ____ made everyone nervous.",
       "options": [
         "deadline-mcq-20",
-        "deadline-mcq-19",
         "deadline-mcq-21",
-        "deadline-mcq-18",
-        "deadline-mcq-22",
-        "deadline-mcq-17"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-15"
       ],
       "explanation": "本句的「looming deadline」指「迫近的期限」。",
       "sentenceIndex": 39,
@@ -1735,12 +1523,10 @@ export default {
         "looming deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-20": "本句指「迫近的期限」。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。"
+        "deadline-mcq-20": "本句的「looming deadline」指「迫近的期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-20"
     },
@@ -1752,11 +1538,9 @@ export default {
       "masked": "She worked late because of a ____.",
       "options": [
         "deadline-mcq-20",
-        "deadline-mcq-19",
+        "deadline-reviewed-2ae5a36ac6",
         "deadline-mcq-21",
-        "deadline-mcq-18",
-        "deadline-mcq-22",
-        "deadline-mcq-17"
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「looming deadline」指「迫近的期限」。",
       "sentenceIndex": 40,
@@ -1765,12 +1549,10 @@ export default {
         "looming deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-20": "本句指「迫近的期限」。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-17": "「按期限工作」與本句語境不同。"
+        "deadline-mcq-20": "本句的「looming deadline」指「迫近的期限」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-20"
     },
@@ -1782,11 +1564,9 @@ export default {
       "masked": "It's hard to think clearly when a ____.",
       "options": [
         "deadline-mcq-21",
-        "deadline-mcq-20",
-        "deadline-mcq-22",
-        "deadline-mcq-19",
-        "deadline-mcq-23",
-        "deadline-mcq-18"
+        "deadline-mcq-05",
+        "deadline-mcq-15",
+        "deadline-reviewed-2ae5a36ac6"
       ],
       "explanation": "本句的「deadline is breathing down your neck」指「逼在眼前」。",
       "sentenceIndex": 41,
@@ -1795,12 +1575,10 @@ export default {
         "deadline is breathing down your neck"
       ],
       "optionReasons": {
-        "deadline-mcq-21": "本句指「逼在眼前」。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。",
-        "deadline-mcq-23": "「截稿期限」與本句語境不同。",
-        "deadline-mcq-18": "「截止期限壓力」與本句語境不同。"
+        "deadline-mcq-21": "本句的「deadline is breathing down your neck」指「逼在眼前」。",
+        "deadline-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-21"
     },
@@ -1813,10 +1591,8 @@ export default {
       "options": [
         "deadline-mcq-22",
         "deadline-mcq-21",
-        "deadline-mcq-23",
-        "deadline-mcq-20",
-        "deadline-mcq-24",
-        "deadline-mcq-19"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-14"
       ],
       "explanation": "本句的「rolling deadline」指「滾動式期限」。",
       "sentenceIndex": 42,
@@ -1825,12 +1601,10 @@ export default {
         "rolling deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-22": "本句指「滾動式期限」。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-23": "「截稿期限」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-24": "「實時運算時限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。"
+        "deadline-mcq-22": "本句的「rolling deadline」指「滾動式期限」。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-22"
     },
@@ -1842,11 +1616,9 @@ export default {
       "masked": "Applications are reviewed under a ____.",
       "options": [
         "deadline-mcq-22",
+        "deadline-reviewed-2ae5a36ac6",
         "deadline-mcq-21",
-        "deadline-mcq-23",
-        "deadline-mcq-20",
-        "deadline-mcq-24",
-        "deadline-mcq-19"
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「rolling deadline system」指「滾動式期限」。",
       "sentenceIndex": 43,
@@ -1855,12 +1627,10 @@ export default {
         "rolling deadline system"
       ],
       "optionReasons": {
-        "deadline-mcq-22": "本句指「滾動式期限」。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-23": "「截稿期限」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-24": "「實時運算時限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。"
+        "deadline-mcq-22": "本句的「rolling deadline system」指「滾動式期限」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-22"
     },
@@ -1872,11 +1642,8 @@ export default {
       "masked": "The journalist was rushing to meet the ____.",
       "options": [
         "deadline-mcq-23",
-        "deadline-mcq-22",
-        "deadline-mcq-24",
-        "deadline-mcq-21",
-        "deadline-mcq-20",
-        "deadline-mcq-19"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21"
       ],
       "explanation": "本句的「deadline」指「截稿期限」。",
       "sentenceIndex": 44,
@@ -1885,12 +1652,9 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-23": "本句指「截稿期限」。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-24": "「實時運算時限」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。"
+        "deadline-mcq-23": "本句的「deadline」指「截稿期限」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-23"
     },
@@ -1902,11 +1666,8 @@ export default {
       "masked": "The newspaper's ____ is 8 p.m.",
       "options": [
         "deadline-mcq-23",
-        "deadline-mcq-22",
-        "deadline-mcq-24",
-        "deadline-mcq-21",
-        "deadline-mcq-20",
-        "deadline-mcq-19"
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-21"
       ],
       "explanation": "本句的「deadline」指「截稿期限」。",
       "sentenceIndex": 45,
@@ -1915,74 +1676,67 @@ export default {
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-23": "本句指「截稿期限」。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-24": "「實時運算時限」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。"
+        "deadline-mcq-23": "本句的「deadline」指「截稿期限」。",
+        "deadline-reviewed-2ae5a36ac6": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-23"
     },
     {
       "id": "deadline-24-0",
-      "sense": "deadline-mcq-23",
+      "sense": "deadline-reviewed-2ae5a36ac6",
       "en": "The task must finish before its processing deadline.",
       "zh": "這項工作必須在處理時限前完成。",
       "masked": "The task must finish before its processing ____.",
       "options": [
-        "deadline-mcq-23",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-15",
         "deadline-mcq-22",
-        "deadline-mcq-24",
-        "deadline-mcq-21",
-        "deadline-mcq-20",
-        "deadline-mcq-19"
+        "deadline-mcq-21"
       ],
-      "explanation": "本句的「deadline」指「截稿期限」。",
+      "explanation": "對照完整句子：「這項工作必須在處理時限前完成。」。這裡的「deadline」表示「在電腦或實時系統中，某項運算必須完成的最遲時間」。",
       "sentenceIndex": 46,
       "sourcePractice": 1,
       "targets": [
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-23": "本句指「截稿期限」。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-24": "「實時運算時限」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。"
+        "deadline-reviewed-2ae5a36ac6": "對照完整句子：「這項工作必須在處理時限前完成。」。這裡的「deadline」表示「在電腦或實時系統中，某項運算必須完成的最遲時間」。",
+        "deadline-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "deadline-mcq-23"
+      "correctOption": "deadline-reviewed-2ae5a36ac6",
+      "previousCorrectOption": "deadline-mcq-23",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "deadline-24-1",
-      "sense": "deadline-mcq-23",
+      "sense": "deadline-reviewed-2ae5a36ac6",
       "en": "Missing a real-time deadline can cause system failure.",
       "zh": "錯過實時系統的時限可能導致系統故障。",
       "masked": "Missing a real-time ____ can cause system failure.",
       "options": [
-        "deadline-mcq-23",
-        "deadline-mcq-22",
-        "deadline-mcq-24",
+        "deadline-reviewed-2ae5a36ac6",
+        "deadline-mcq-05",
         "deadline-mcq-21",
-        "deadline-mcq-20",
-        "deadline-mcq-19"
+        "deadline-mcq-10"
       ],
-      "explanation": "本句的「deadline」指「截稿期限」。",
+      "explanation": "對照完整句子：「錯過實時系統的時限可能導致系統故障。」。這裡的「deadline」表示「在電腦或實時系統中，某項運算必須完成的最遲時間」。",
       "sentenceIndex": 47,
       "sourcePractice": 2,
       "targets": [
         "deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-23": "本句指「截稿期限」。",
-        "deadline-mcq-22": "「滾動式期限」與本句語境不同。",
-        "deadline-mcq-24": "「實時運算時限」與本句語境不同。",
-        "deadline-mcq-21": "「逼在眼前」與本句語境不同。",
-        "deadline-mcq-20": "「迫近的期限」與本句語境不同。",
-        "deadline-mcq-19": "「臨近的期限」與本句語境不同。"
+        "deadline-reviewed-2ae5a36ac6": "對照完整句子：「錯過實時系統的時限可能導致系統故障。」。這裡的「deadline」表示「在電腦或實時系統中，某項運算必須完成的最遲時間」。",
+        "deadline-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "deadline-mcq-23"
+      "correctOption": "deadline-reviewed-2ae5a36ac6",
+      "previousCorrectOption": "deadline-mcq-23",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "deadline-25-0",
@@ -1992,11 +1746,8 @@ export default {
       "masked": "We ____.",
       "options": [
         "deadline-mcq-06",
-        "deadline-mcq-05",
-        "deadline-mcq-07",
-        "deadline-mcq-04",
-        "deadline-mcq-08",
-        "deadline-mcq-03"
+        "deadline-mcq-14",
+        "deadline-mcq-16"
       ],
       "explanation": "本句的「beat the deadline by one day」指「提前完成」。",
       "sentenceIndex": 48,
@@ -2005,12 +1756,9 @@ export default {
         "beat the deadline by one day"
       ],
       "optionReasons": {
-        "deadline-mcq-06": "本句指「提前完成」。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。"
+        "deadline-mcq-06": "本句的「beat the deadline by one day」指「提前完成」。",
+        "deadline-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-06"
     },
@@ -2022,11 +1770,8 @@ export default {
       "masked": "The team worked efficiently and ____.",
       "options": [
         "deadline-mcq-06",
-        "deadline-mcq-05",
-        "deadline-mcq-07",
-        "deadline-mcq-04",
-        "deadline-mcq-08",
-        "deadline-mcq-03"
+        "deadline-mcq-13",
+        "deadline-mcq-10"
       ],
       "explanation": "本句的「beat the deadline」指「提前完成」。",
       "sentenceIndex": 49,
@@ -2035,12 +1780,9 @@ export default {
         "beat the deadline"
       ],
       "optionReasons": {
-        "deadline-mcq-06": "本句指「提前完成」。",
-        "deadline-mcq-05": "「錯過期限」與本句語境不同。",
-        "deadline-mcq-07": "「設定期限」與本句語境不同。",
-        "deadline-mcq-04": "「趕上期限」與本句語境不同。",
-        "deadline-mcq-08": "「給某人期限」與本句語境不同。",
-        "deadline-mcq-03": "「做 X 的最後期限」與本句語境不同。"
+        "deadline-mcq-06": "本句的「beat the deadline」指「提前完成」。",
+        "deadline-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "deadline-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "deadline-mcq-06"
     }
@@ -2052,5 +1794,7 @@ export default {
     "sha256": "0120f22bd43be5263c7226065359e8e46cf5c92554f364466de4862c0aa52177",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

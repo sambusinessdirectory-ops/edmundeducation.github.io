@@ -395,11 +395,8 @@ export default {
       "masked": "She has two ____.",
       "options": [
         "sister-pdf-001",
-        "sister-mcq-02",
-        "sister-mcq-03",
-        "sister-mcq-04",
-        "sister-mcq-05",
-        "sister-mcq-06"
+        "sister-mcq-11",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sisters」指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
       "sentenceIndex": 0,
@@ -408,12 +405,9 @@ export default {
         "sisters"
       ],
       "optionReasons": {
-        "sister-pdf-001": "本句指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-pdf-001": "本句的「sisters」指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-pdf-001"
     },
@@ -425,11 +419,8 @@ export default {
       "masked": "My older ____ lives abroad.",
       "options": [
         "sister-pdf-001",
-        "sister-mcq-02",
-        "sister-mcq-03",
-        "sister-mcq-04",
-        "sister-mcq-05",
-        "sister-mcq-06"
+        "sister-mcq-11",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister」指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
       "sentenceIndex": 1,
@@ -438,12 +429,9 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-pdf-001": "本句指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-pdf-001": "本句的「sister」指「女性手足；實際翻譯要按年齡關係譯作姐姐／妹妹」。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-pdf-001"
     },
@@ -455,11 +443,8 @@ export default {
       "masked": "She is my ____.",
       "options": [
         "sister-mcq-02",
-        "sister-mcq-01",
-        "sister-mcq-03",
-        "sister-mcq-04",
-        "sister-mcq-05",
-        "sister-mcq-06"
+        "sister-pdf-003",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「older sister」指「年紀較大的女性手足；姐姐」。",
       "sentenceIndex": 2,
@@ -468,12 +453,9 @@ export default {
         "older sister"
       ],
       "optionReasons": {
-        "sister-mcq-02": "本句指「年紀較大的女性手足；姐姐」。",
-        "sister-mcq-01": "「與某人共有至少一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-mcq-02": "本句的「older sister」指「年紀較大的女性手足；姐姐」。",
+        "sister-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-02"
     },
@@ -485,11 +467,8 @@ export default {
       "masked": "His elder ____ works in a hospital.",
       "options": [
         "sister-mcq-02",
-        "sister-mcq-01",
-        "sister-mcq-03",
-        "sister-mcq-04",
-        "sister-mcq-05",
-        "sister-mcq-06"
+        "sister-pdf-003",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister」指「年紀較大的女性手足；姐姐」。",
       "sentenceIndex": 3,
@@ -498,12 +477,9 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-02": "本句指「年紀較大的女性手足；姐姐」。",
-        "sister-mcq-01": "「與某人共有至少一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-mcq-02": "本句的「sister」指「年紀較大的女性手足；姐姐」。",
+        "sister-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-02"
     },
@@ -515,11 +491,7 @@ export default {
       "masked": "My ____ is still at university.",
       "options": [
         "sister-mcq-03",
-        "sister-mcq-02",
-        "sister-mcq-04",
-        "sister-mcq-01",
-        "sister-mcq-05",
-        "sister-mcq-06"
+        "sister-mcq-10"
       ],
       "explanation": "本句的「younger sister」指「年紀較小的女性手足；妹妹」。",
       "sentenceIndex": 4,
@@ -528,12 +500,8 @@ export default {
         "younger sister"
       ],
       "optionReasons": {
-        "sister-mcq-03": "本句指「年紀較小的女性手足；妹妹」。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-01": "「與某人共有至少一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-mcq-03": "本句的「younger sister」指「年紀較小的女性手足；妹妹」。",
+        "sister-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-03"
     },
@@ -545,11 +513,8 @@ export default {
       "masked": "She often helps her younger ____ with homework.",
       "options": [
         "sister-mcq-03",
-        "sister-mcq-02",
-        "sister-mcq-04",
-        "sister-mcq-01",
-        "sister-mcq-05",
-        "sister-mcq-06"
+        "sister-mcq-09",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister」指「年紀較小的女性手足；妹妹」。",
       "sentenceIndex": 5,
@@ -558,12 +523,9 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-03": "本句指「年紀較小的女性手足；妹妹」。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-01": "「與某人共有至少一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-mcq-03": "本句的「sister」指「年紀較小的女性手足；妹妹」。",
+        "sister-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-03"
     },
@@ -575,11 +537,8 @@ export default {
       "masked": "She has a ____ from her father’s second marriage.",
       "options": [
         "sister-mcq-04",
-        "sister-mcq-03",
-        "sister-mcq-05",
-        "sister-mcq-02",
-        "sister-mcq-06",
-        "sister-mcq-01"
+        "sister-mcq-13",
+        "sister-mcq-11"
       ],
       "explanation": "本句的「half-sister」指「與某人只共有一名親生父母的女性手足」。",
       "sentenceIndex": 6,
@@ -588,12 +547,9 @@ export default {
         "half-sister"
       ],
       "optionReasons": {
-        "sister-mcq-04": "本句指「與某人只共有一名親生父母的女性手足」。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-01": "「與某人共有至少一名親生父母的女性手足」與本句語境不同。"
+        "sister-mcq-04": "本句的「half-sister」指「與某人只共有一名親生父母的女性手足」。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-04"
     },
@@ -605,11 +561,8 @@ export default {
       "masked": "They share the same mother, so they are half-____.",
       "options": [
         "sister-mcq-04",
-        "sister-mcq-03",
-        "sister-mcq-05",
-        "sister-mcq-02",
-        "sister-mcq-06",
-        "sister-mcq-01"
+        "sister-mcq-13",
+        "sister-mcq-11"
       ],
       "explanation": "本句的「sisters」指「與某人只共有一名親生父母的女性手足」。",
       "sentenceIndex": 7,
@@ -618,12 +571,9 @@ export default {
         "sisters"
       ],
       "optionReasons": {
-        "sister-mcq-04": "本句指「與某人只共有一名親生父母的女性手足」。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-01": "「與某人共有至少一名親生父母的女性手足」與本句語境不同。"
+        "sister-mcq-04": "本句的「sisters」指「與某人只共有一名親生父母的女性手足」。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-04"
     },
@@ -635,11 +585,8 @@ export default {
       "masked": "His ____ moved in last year.",
       "options": [
         "sister-mcq-05",
-        "sister-mcq-04",
-        "sister-mcq-06",
-        "sister-mcq-03",
-        "sister-mcq-07",
-        "sister-mcq-02"
+        "sister-mcq-13",
+        "sister-mcq-11"
       ],
       "explanation": "本句的「stepsister」指「因父母再婚形成、沒有共同親生父母的女性繼親手足」。",
       "sentenceIndex": 8,
@@ -648,12 +595,9 @@ export default {
         "stepsister"
       ],
       "optionReasons": {
-        "sister-mcq-05": "本句指「因父母再婚形成、沒有共同親生父母的女性繼親手足」。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-02": "「年紀較大的女性手足；姐姐」與本句語境不同。"
+        "sister-mcq-05": "本句的「stepsister」指「因父母再婚形成、沒有共同親生父母的女性繼親手足」。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-05"
     },
@@ -665,11 +609,8 @@ export default {
       "masked": "The ____ run a small school.",
       "options": [
         "sister-mcq-06",
-        "sister-mcq-05",
-        "sister-mcq-07",
-        "sister-mcq-04",
-        "sister-mcq-08",
-        "sister-mcq-03"
+        "sister-mcq-11",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sisters」指「某些基督宗教修會中的女性成員／修女稱謂」。",
       "sentenceIndex": 9,
@@ -678,12 +619,9 @@ export default {
         "sisters"
       ],
       "optionReasons": {
-        "sister-mcq-06": "本句指「某些基督宗教修會中的女性成員／修女稱謂」。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。"
+        "sister-mcq-06": "本句的「sisters」指「某些基督宗教修會中的女性成員／修女稱謂」。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-06"
     },
@@ -695,11 +633,8 @@ export default {
       "masked": "She became a ____ at a young age.",
       "options": [
         "sister-mcq-06",
-        "sister-mcq-05",
-        "sister-mcq-07",
-        "sister-mcq-04",
-        "sister-mcq-08",
-        "sister-mcq-03"
+        "sister-pdf-003",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「Sister」指「某些基督宗教修會中的女性成員／修女稱謂」。",
       "sentenceIndex": 10,
@@ -708,12 +643,9 @@ export default {
         "Sister"
       ],
       "optionReasons": {
-        "sister-mcq-06": "本句指「某些基督宗教修會中的女性成員／修女稱謂」。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-03": "「年紀較小的女性手足；妹妹」與本句語境不同。"
+        "sister-mcq-06": "本句的「Sister」指「某些基督宗教修會中的女性成員／修女稱謂」。",
+        "sister-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-06"
     },
@@ -725,11 +657,8 @@ export default {
       "masked": "She thanked her union ____ for their support.",
       "options": [
         "sister-mcq-07",
-        "sister-mcq-06",
-        "sister-mcq-08",
-        "sister-mcq-05",
         "sister-mcq-09",
-        "sister-mcq-04"
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sisters」指「因共同身份、團體或目標而彼此視作姊妹的女性成員」。",
       "sentenceIndex": 11,
@@ -738,12 +667,9 @@ export default {
         "sisters"
       ],
       "optionReasons": {
-        "sister-mcq-07": "本句指「因共同身份、團體或目標而彼此視作姊妹的女性成員」。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。"
+        "sister-mcq-07": "本句的「sisters」指「因共同身份、團體或目標而彼此視作姊妹的女性成員」。",
+        "sister-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-07"
     },
@@ -755,11 +681,7 @@ export default {
       "masked": "The group encourages solidarity among ____.",
       "options": [
         "sister-mcq-07",
-        "sister-mcq-06",
-        "sister-mcq-08",
-        "sister-mcq-05",
-        "sister-mcq-09",
-        "sister-mcq-04"
+        "sister-mcq-10"
       ],
       "explanation": "本句的「sisters」指「因共同身份、團體或目標而彼此視作姊妹的女性成員」。",
       "sentenceIndex": 12,
@@ -768,12 +690,8 @@ export default {
         "sisters"
       ],
       "optionReasons": {
-        "sister-mcq-07": "本句指「因共同身份、團體或目標而彼此視作姊妹的女性成員」。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-04": "「與某人只共有一名親生父母的女性手足」與本句語境不同。"
+        "sister-mcq-07": "本句的「sisters」指「因共同身份、團體或目標而彼此視作姊妹的女性成員」。",
+        "sister-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-07"
     },
@@ -785,11 +703,8 @@ export default {
       "masked": "The hotel is owned by a ____.",
       "options": [
         "sister-mcq-08",
-        "sister-mcq-07",
-        "sister-mcq-09",
-        "sister-mcq-06",
-        "sister-mcq-10",
-        "sister-mcq-05"
+        "sister-mcq-12",
+        "sister-mcq-03"
       ],
       "explanation": "本句的「sister company」指「與另一家公司同屬一個母公司／集團的關聯公司」。",
       "sentenceIndex": 13,
@@ -798,12 +713,9 @@ export default {
         "sister company"
       ],
       "optionReasons": {
-        "sister-mcq-08": "本句指「與另一家公司同屬一個母公司／集團的關聯公司」。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。"
+        "sister-mcq-08": "本句的「sister company」指「與另一家公司同屬一個母公司／集團的關聯公司」。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-08"
     },
@@ -815,11 +727,8 @@ export default {
       "masked": "The two firms are ____ companies under the same group.",
       "options": [
         "sister-mcq-08",
-        "sister-mcq-07",
-        "sister-mcq-09",
-        "sister-mcq-06",
-        "sister-mcq-10",
-        "sister-mcq-05"
+        "sister-mcq-03",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister」指「與另一家公司同屬一個母公司／集團的關聯公司」。",
       "sentenceIndex": 14,
@@ -828,12 +737,9 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-08": "本句指「與另一家公司同屬一個母公司／集團的關聯公司」。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。"
+        "sister-mcq-08": "本句的「sister」指「與另一家公司同屬一個母公司／集團的關聯公司」。",
+        "sister-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-08"
     },
@@ -845,11 +751,7 @@ export default {
       "masked": "The museum works with a ____ overseas.",
       "options": [
         "sister-pdf-002",
-        "sister-mcq-07",
-        "sister-mcq-09",
-        "sister-mcq-06",
-        "sister-mcq-10",
-        "sister-mcq-05"
+        "sister-mcq-02"
       ],
       "explanation": "本句的「sister institution」指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
       "sentenceIndex": 15,
@@ -858,12 +760,8 @@ export default {
         "sister institution"
       ],
       "optionReasons": {
-        "sister-pdf-002": "本句指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。"
+        "sister-pdf-002": "本句的「sister institution」指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
+        "sister-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-pdf-002"
     },
@@ -875,11 +773,7 @@ export default {
       "masked": "The charities are ____ organizations.",
       "options": [
         "sister-pdf-002",
-        "sister-mcq-07",
-        "sister-mcq-09",
-        "sister-mcq-06",
-        "sister-mcq-10",
-        "sister-mcq-05"
+        "sister-mcq-02"
       ],
       "explanation": "本句的「sister」指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
       "sentenceIndex": 16,
@@ -888,12 +782,8 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-pdf-002": "本句指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-05": "「因父母再婚形成、沒有共同親生父母的女性繼親手足」與本句語境不同。"
+        "sister-pdf-002": "本句的「sister」指「與另一機構在結構、合作或母體關係上密切相關的組織」。",
+        "sister-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-pdf-002"
     },
@@ -905,11 +795,8 @@ export default {
       "masked": "The two cities became ____ in 1995.",
       "options": [
         "sister-mcq-09",
-        "sister-mcq-08",
-        "sister-mcq-10",
-        "sister-mcq-07",
-        "sister-mcq-11",
-        "sister-mcq-06"
+        "sister-mcq-15",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister cities」指「與另一城市建立正式友好、文化交流關係的城市」。",
       "sentenceIndex": 17,
@@ -918,12 +805,9 @@ export default {
         "sister cities"
       ],
       "optionReasons": {
-        "sister-mcq-09": "本句指「與另一城市建立正式友好、文化交流關係的城市」。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-mcq-09": "本句的「sister cities」指「與另一城市建立正式友好、文化交流關係的城市」。",
+        "sister-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-09"
     },
@@ -935,11 +819,8 @@ export default {
       "masked": "The exchange programme was organized through the ____ relationship.",
       "options": [
         "sister-mcq-09",
-        "sister-mcq-08",
-        "sister-mcq-10",
         "sister-mcq-07",
-        "sister-mcq-11",
-        "sister-mcq-06"
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister-city」指「與另一城市建立正式友好、文化交流關係的城市」。",
       "sentenceIndex": 18,
@@ -948,12 +829,9 @@ export default {
         "sister-city"
       ],
       "optionReasons": {
-        "sister-mcq-09": "本句指「與另一城市建立正式友好、文化交流關係的城市」。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-06": "「某些基督宗教修會中的女性成員／修女稱謂」與本句語境不同。"
+        "sister-mcq-09": "本句的「sister-city」指「與另一城市建立正式友好、文化交流關係的城市」。",
+        "sister-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-09"
     },
@@ -965,11 +843,7 @@ export default {
       "masked": "Our school has a ____ in Japan.",
       "options": [
         "sister-mcq-10",
-        "sister-mcq-09",
-        "sister-mcq-11",
-        "sister-mcq-08",
-        "sister-mcq-12",
-        "sister-mcq-07"
+        "sister-mcq-04"
       ],
       "explanation": "本句的「sister school」指「與另一學校建立正式合作／交流關係的學校」。",
       "sentenceIndex": 19,
@@ -978,12 +852,8 @@ export default {
         "sister school"
       ],
       "optionReasons": {
-        "sister-mcq-10": "本句指「與另一學校建立正式合作／交流關係的學校」。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。"
+        "sister-mcq-10": "本句的「sister school」指「與另一學校建立正式合作／交流關係的學校」。",
+        "sister-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-10"
     },
@@ -995,11 +865,7 @@ export default {
       "masked": "Students visited their ____ school during the exchange.",
       "options": [
         "sister-mcq-10",
-        "sister-mcq-09",
-        "sister-mcq-11",
-        "sister-mcq-08",
-        "sister-mcq-12",
-        "sister-mcq-07"
+        "sister-mcq-03"
       ],
       "explanation": "本句的「sister」指「與另一學校建立正式合作／交流關係的學校」。",
       "sentenceIndex": 20,
@@ -1008,12 +874,8 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-10": "本句指「與另一學校建立正式合作／交流關係的學校」。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-07": "「因共同身份、團體或目標而彼此視作姊妹的女性成員」與本句語境不同。"
+        "sister-mcq-10": "本句的「sister」指「與另一學校建立正式合作／交流關係的學校」。",
+        "sister-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-10"
     },
@@ -1025,11 +887,8 @@ export default {
       "masked": "The vessel has two ____.",
       "options": [
         "sister-mcq-11",
-        "sister-mcq-10",
-        "sister-mcq-12",
-        "sister-mcq-09",
-        "sister-mcq-13",
-        "sister-mcq-08"
+        "sister-mcq-04",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister ships」指「與另一艘船屬同型、同級或同系列的船」。",
       "sentenceIndex": 21,
@@ -1038,12 +897,9 @@ export default {
         "sister ships"
       ],
       "optionReasons": {
-        "sister-mcq-11": "本句指「與另一艘船屬同型、同級或同系列的船」。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。"
+        "sister-mcq-11": "本句的「sister ships」指「與另一艘船屬同型、同級或同系列的船」。",
+        "sister-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-11"
     },
@@ -1055,11 +911,8 @@ export default {
       "masked": "Its ____ ship was launched a year later.",
       "options": [
         "sister-mcq-11",
-        "sister-mcq-10",
-        "sister-mcq-12",
-        "sister-mcq-09",
-        "sister-mcq-13",
-        "sister-mcq-08"
+        "sister-mcq-03",
+        "sister-mcq-13"
       ],
       "explanation": "本句的「sister」指「與另一艘船屬同型、同級或同系列的船」。",
       "sentenceIndex": 22,
@@ -1068,12 +921,9 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-mcq-11": "本句指「與另一艘船屬同型、同級或同系列的船」。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。"
+        "sister-mcq-11": "本句的「sister」指「與另一艘船屬同型、同級或同系列的船」。",
+        "sister-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-11"
     },
@@ -1085,11 +935,8 @@ export default {
       "masked": "The magazine shares content with its ____.",
       "options": [
         "sister-pdf-003",
-        "sister-mcq-10",
-        "sister-mcq-12",
-        "sister-mcq-09",
-        "sister-mcq-13",
-        "sister-mcq-08"
+        "sister-mcq-04",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister publication」指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
       "sentenceIndex": 23,
@@ -1098,12 +945,9 @@ export default {
         "sister publication"
       ],
       "optionReasons": {
-        "sister-pdf-003": "本句指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。"
+        "sister-pdf-003": "本句的「sister publication」指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
+        "sister-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-pdf-003"
     },
@@ -1115,11 +959,8 @@ export default {
       "masked": "The programme also airs on a ____ channel.",
       "options": [
         "sister-pdf-003",
-        "sister-mcq-10",
-        "sister-mcq-12",
-        "sister-mcq-09",
-        "sister-mcq-13",
-        "sister-mcq-08"
+        "sister-mcq-02",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sister」指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
       "sentenceIndex": 24,
@@ -1128,12 +969,9 @@ export default {
         "sister"
       ],
       "optionReasons": {
-        "sister-pdf-003": "本句指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-08": "「與另一家公司同屬一個母公司／集團的關聯公司」與本句語境不同。"
+        "sister-pdf-003": "本句的「sister」指「與另一單位同屬一個集團、品牌或密切關聯體系」。",
+        "sister-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-pdf-003"
     },
@@ -1145,11 +983,8 @@ export default {
       "masked": "She gave me some ____.",
       "options": [
         "sister-mcq-12",
-        "sister-mcq-11",
-        "sister-mcq-13",
-        "sister-mcq-10",
-        "sister-mcq-14",
-        "sister-mcq-09"
+        "sister-mcq-09",
+        "sister-mcq-15"
       ],
       "explanation": "本句的「sisterly advice」指「像姐妹之間一樣帶有關愛、支持或親密感的」。",
       "sentenceIndex": 25,
@@ -1158,12 +993,9 @@ export default {
         "sisterly advice"
       ],
       "optionReasons": {
-        "sister-mcq-12": "本句指「像姐妹之間一樣帶有關愛、支持或親密感的」。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-14": "「女性因共同身份／經驗而形成的團結與支持」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。"
+        "sister-mcq-12": "本句的「sisterly advice」指「像姐妹之間一樣帶有關愛、支持或親密感的」。",
+        "sister-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-12"
     },
@@ -1176,10 +1008,7 @@ export default {
       "options": [
         "sister-mcq-12",
         "sister-mcq-11",
-        "sister-mcq-13",
-        "sister-mcq-10",
-        "sister-mcq-14",
-        "sister-mcq-09"
+        "sister-mcq-06"
       ],
       "explanation": "本句的「sisterly」指「像姐妹之間一樣帶有關愛、支持或親密感的」。",
       "sentenceIndex": 26,
@@ -1188,12 +1017,9 @@ export default {
         "sisterly"
       ],
       "optionReasons": {
-        "sister-mcq-12": "本句指「像姐妹之間一樣帶有關愛、支持或親密感的」。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。",
-        "sister-mcq-14": "「女性因共同身份／經驗而形成的團結與支持」與本句語境不同。",
-        "sister-mcq-09": "「與另一城市建立正式友好、文化交流關係的城市」與本句語境不同。"
+        "sister-mcq-12": "本句的「sisterly」指「像姐妹之間一樣帶有關愛、支持或親密感的」。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-12"
     },
@@ -1205,11 +1031,8 @@ export default {
       "masked": "They valued their ____.",
       "options": [
         "sister-mcq-13",
-        "sister-mcq-12",
-        "sister-mcq-14",
-        "sister-mcq-11",
         "sister-mcq-15",
-        "sister-mcq-10"
+        "sister-mcq-11"
       ],
       "explanation": "本句的「sisterhood」指「姐妹之間的關係與感情」。",
       "sentenceIndex": 27,
@@ -1218,12 +1041,9 @@ export default {
         "sisterhood"
       ],
       "optionReasons": {
-        "sister-mcq-13": "本句指「姐妹之間的關係與感情」。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-14": "「女性因共同身份／經驗而形成的團結與支持」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-15": "「由女性宗教成員組成的修女團體／女修會」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。"
+        "sister-mcq-13": "本句的「sisterhood」指「姐妹之間的關係與感情」。",
+        "sister-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-13"
     },
@@ -1235,11 +1055,8 @@ export default {
       "masked": "Years apart did not weaken their ____.",
       "options": [
         "sister-mcq-13",
-        "sister-mcq-12",
-        "sister-mcq-14",
         "sister-mcq-11",
-        "sister-mcq-15",
-        "sister-mcq-10"
+        "sister-mcq-14"
       ],
       "explanation": "本句的「sisterhood」指「姐妹之間的關係與感情」。",
       "sentenceIndex": 28,
@@ -1248,12 +1065,9 @@ export default {
         "sisterhood"
       ],
       "optionReasons": {
-        "sister-mcq-13": "本句指「姐妹之間的關係與感情」。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-14": "「女性因共同身份／經驗而形成的團結與支持」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-15": "「由女性宗教成員組成的修女團體／女修會」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。"
+        "sister-mcq-13": "本句的「sisterhood」指「姐妹之間的關係與感情」。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-13"
     },
@@ -1266,10 +1080,7 @@ export default {
       "options": [
         "sister-mcq-14",
         "sister-mcq-13",
-        "sister-mcq-15",
-        "sister-mcq-12",
-        "sister-mcq-11",
-        "sister-mcq-10"
+        "sister-mcq-11"
       ],
       "explanation": "本句的「sisterhood」指「女性因共同身份／經驗而形成的團結與支持」。",
       "sentenceIndex": 29,
@@ -1278,12 +1089,9 @@ export default {
         "sisterhood"
       ],
       "optionReasons": {
-        "sister-mcq-14": "本句指「女性因共同身份／經驗而形成的團結與支持」。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-15": "「由女性宗教成員組成的修女團體／女修會」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。"
+        "sister-mcq-14": "本句的「sisterhood」指「女性因共同身份／經驗而形成的團結與支持」。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-14"
     },
@@ -1296,10 +1104,7 @@ export default {
       "options": [
         "sister-mcq-14",
         "sister-mcq-13",
-        "sister-mcq-15",
-        "sister-mcq-12",
-        "sister-mcq-11",
-        "sister-mcq-10"
+        "sister-mcq-11"
       ],
       "explanation": "本句的「sisterhood」指「女性因共同身份／經驗而形成的團結與支持」。",
       "sentenceIndex": 30,
@@ -1308,12 +1113,9 @@ export default {
         "sisterhood"
       ],
       "optionReasons": {
-        "sister-mcq-14": "本句指「女性因共同身份／經驗而形成的團結與支持」。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-15": "「由女性宗教成員組成的修女團體／女修會」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。"
+        "sister-mcq-14": "本句的「sisterhood」指「女性因共同身份／經驗而形成的團結與支持」。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-14"
     },
@@ -1325,11 +1127,8 @@ export default {
       "masked": "She joined a small ____ devoted to education.",
       "options": [
         "sister-mcq-15",
-        "sister-mcq-14",
         "sister-mcq-13",
-        "sister-mcq-12",
-        "sister-mcq-11",
-        "sister-mcq-10"
+        "sister-mcq-11"
       ],
       "explanation": "本句的「sisterhood」指「由女性宗教成員組成的修女團體／女修會」。",
       "sentenceIndex": 31,
@@ -1338,12 +1137,9 @@ export default {
         "sisterhood"
       ],
       "optionReasons": {
-        "sister-mcq-15": "本句指「由女性宗教成員組成的修女團體／女修會」。",
-        "sister-mcq-14": "「女性因共同身份／經驗而形成的團結與支持」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。"
+        "sister-mcq-15": "本句的「sisterhood」指「由女性宗教成員組成的修女團體／女修會」。",
+        "sister-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-15"
     },
@@ -1355,11 +1151,8 @@ export default {
       "masked": "The ____ runs several charities.",
       "options": [
         "sister-mcq-15",
-        "sister-mcq-14",
-        "sister-mcq-13",
-        "sister-mcq-12",
-        "sister-mcq-11",
-        "sister-mcq-10"
+        "sister-mcq-09",
+        "sister-mcq-12"
       ],
       "explanation": "本句的「sisterhood」指「由女性宗教成員組成的修女團體／女修會」。",
       "sentenceIndex": 32,
@@ -1368,12 +1161,9 @@ export default {
         "sisterhood"
       ],
       "optionReasons": {
-        "sister-mcq-15": "本句指「由女性宗教成員組成的修女團體／女修會」。",
-        "sister-mcq-14": "「女性因共同身份／經驗而形成的團結與支持」與本句語境不同。",
-        "sister-mcq-13": "「姐妹之間的關係與感情」與本句語境不同。",
-        "sister-mcq-12": "「像姐妹之間一樣帶有關愛、支持或親密感的」與本句語境不同。",
-        "sister-mcq-11": "「與另一艘船屬同型、同級或同系列的船」與本句語境不同。",
-        "sister-mcq-10": "「與另一學校建立正式合作／交流關係的學校」與本句語境不同。"
+        "sister-mcq-15": "本句的「sisterhood」指「由女性宗教成員組成的修女團體／女修會」。",
+        "sister-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "sister-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "sister-mcq-15"
     }
@@ -1385,5 +1175,7 @@ export default {
     "sha256": "5757d7c798637cb026c0c212e8615965656d0c6a81ee7bfe6be64b891cc57cdb",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

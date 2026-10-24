@@ -655,18 +655,7 @@ export default {
       "en": "aim a weapon",
       "zh": "瞄準武器",
       "note": "來源詞義：瞄準武器",
-      "examples": [
-        [
-          "He aimed the camera carefully.",
-          "他小心地把相機對準目標。",
-          "瞄準武器"
-        ],
-        [
-          "The officer aimed the weapon at the target.",
-          "警員把武器瞄準目標。",
-          "瞄準武器"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -1114,6 +1103,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "aim-reviewed-0123b8bfbd",
+      "title": "把武器、相機、光線等對準某一特定方向或目標",
+      "form": "aim · source section 37",
+      "en": "把武器、相機、光線等對準某一特定方向或目標",
+      "zh": "把武器、相機、光線等對準某一特定方向或目標",
+      "note": "對照原始教材第 37 節及例句核實。",
+      "examples": [
+        [
+          "He aimed the camera carefully.",
+          "他小心地把相機對準目標。",
+          "把武器、相機、光線等對準某一特定方向或目標"
+        ],
+        [
+          "The officer aimed the weapon at the target.",
+          "警員把武器瞄準目標。",
+          "把武器、相機、光線等對準某一特定方向或目標"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1125,11 +1136,9 @@ export default {
       "masked": "These differing ____ can delay the entire project.",
       "options": [
         "aim-mcq-01",
-        "aim-mcq-02",
-        "aim-mcq-03",
-        "aim-mcq-04",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-19",
+        "aim-mcq-38",
+        "aim-mcq-30"
       ],
       "explanation": "本句的「aims」指「目標；目的」。",
       "sentenceIndex": 0,
@@ -1138,12 +1147,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-01": "本句指「目標；目的」。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-01": "本句的「aims」指「目標；目的」。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-01"
     },
@@ -1155,11 +1162,9 @@ export default {
       "masked": "The team's main ____ is to improve communication.",
       "options": [
         "aim-mcq-01",
-        "aim-mcq-02",
-        "aim-mcq-03",
-        "aim-mcq-04",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-36",
+        "aim-mcq-19",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「aim」指「目標；目的」。",
       "sentenceIndex": 1,
@@ -1168,12 +1173,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-01": "本句指「目標；目的」。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-01": "本句的「aim」指「目標；目的」。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-01"
     },
@@ -1185,11 +1188,9 @@ export default {
       "masked": "Both departments have legitimate ____.",
       "options": [
         "aim-mcq-01",
-        "aim-mcq-02",
-        "aim-mcq-03",
-        "aim-mcq-04",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-22",
+        "aim-mcq-40",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aims」指「目標；目的」。",
       "sentenceIndex": 2,
@@ -1198,12 +1199,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-01": "本句指「目標；目的」。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-01": "本句的「aims」指「目標；目的」。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-01"
     },
@@ -1215,11 +1214,9 @@ export default {
       "masked": "The ____ of the project is to reduce delays.",
       "options": [
         "aim-mcq-02",
-        "aim-mcq-01",
-        "aim-mcq-03",
-        "aim-mcq-04",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-32",
+        "aim-mcq-40",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「main aim」指「主要目標」。",
       "sentenceIndex": 3,
@@ -1228,12 +1225,10 @@ export default {
         "main aim"
       ],
       "optionReasons": {
-        "aim-mcq-02": "本句指「主要目標」。",
-        "aim-mcq-01": "「目標；目的」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-02": "本句的「main aim」指「主要目標」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-02"
     },
@@ -1245,11 +1240,9 @@ export default {
       "masked": "Our main ____ is to improve customer satisfaction.",
       "options": [
         "aim-mcq-02",
-        "aim-mcq-01",
-        "aim-mcq-03",
-        "aim-mcq-04",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-23",
+        "aim-mcq-32",
+        "aim-mcq-28"
       ],
       "explanation": "本句的「aim」指「主要目標」。",
       "sentenceIndex": 4,
@@ -1258,12 +1251,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-02": "本句指「主要目標」。",
-        "aim-mcq-01": "「目標；目的」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-02": "本句的「aim」指「主要目標」。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-02"
     },
@@ -1275,11 +1266,9 @@ export default {
       "masked": "The ____ is to improve safety.",
       "options": [
         "aim-mcq-03",
-        "aim-mcq-02",
-        "aim-mcq-04",
-        "aim-mcq-01",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-32",
+        "aim-mcq-15",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「primary aim」指「首要目標」。",
       "sentenceIndex": 5,
@@ -1288,12 +1277,10 @@ export default {
         "primary aim"
       ],
       "optionReasons": {
-        "aim-mcq-03": "本句指「首要目標」。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-01": "「目標；目的」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-03": "本句的「primary aim」指「首要目標」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-03"
     },
@@ -1305,11 +1292,9 @@ export default {
       "masked": "The programme's primary ____ is to support new employees.",
       "options": [
         "aim-mcq-03",
-        "aim-mcq-02",
-        "aim-mcq-04",
-        "aim-mcq-01",
-        "aim-mcq-05",
-        "aim-mcq-06"
+        "aim-mcq-16",
+        "aim-mcq-41",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aim」指「首要目標」。",
       "sentenceIndex": 6,
@@ -1318,12 +1303,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-03": "本句指「首要目標」。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-01": "「目標；目的」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。"
+        "aim-mcq-03": "本句的「aim」指「首要目標」。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-03"
     },
@@ -1335,11 +1318,9 @@ export default {
       "masked": "The ____ is to make teamwork more effective.",
       "options": [
         "aim-mcq-04",
-        "aim-mcq-03",
-        "aim-mcq-05",
-        "aim-mcq-02",
-        "aim-mcq-06",
-        "aim-mcq-01"
+        "aim-mcq-36",
+        "aim-mcq-16",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「overall aim」指「整體目標」。",
       "sentenceIndex": 7,
@@ -1348,12 +1329,10 @@ export default {
         "overall aim"
       ],
       "optionReasons": {
-        "aim-mcq-04": "本句指「整體目標」。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-01": "「目標；目的」與本句語境不同。"
+        "aim-mcq-04": "本句的「overall aim」指「整體目標」。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-04"
     },
@@ -1365,11 +1344,9 @@ export default {
       "masked": "Individual tasks should support the project's overall ____.",
       "options": [
         "aim-mcq-04",
-        "aim-mcq-03",
-        "aim-mcq-05",
-        "aim-mcq-02",
-        "aim-mcq-06",
-        "aim-mcq-01"
+        "aim-mcq-31",
+        "aim-mcq-21",
+        "aim-mcq-16"
       ],
       "explanation": "本句的「aim」指「整體目標」。",
       "sentenceIndex": 8,
@@ -1378,12 +1355,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-04": "本句指「整體目標」。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-01": "「目標；目的」與本句語境不同。"
+        "aim-mcq-04": "本句的「aim」指「整體目標」。",
+        "aim-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-04"
     },
@@ -1395,11 +1370,9 @@ export default {
       "masked": "The ____ is long-term improvement.",
       "options": [
         "aim-mcq-05",
-        "aim-mcq-04",
-        "aim-mcq-06",
-        "aim-mcq-03",
-        "aim-mcq-07",
-        "aim-mcq-02"
+        "aim-mcq-36",
+        "aim-mcq-16",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「ultimate aim」指「最終目標」。",
       "sentenceIndex": 9,
@@ -1408,12 +1381,10 @@ export default {
         "ultimate aim"
       ],
       "optionReasons": {
-        "aim-mcq-05": "本句指「最終目標」。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。"
+        "aim-mcq-05": "本句的「ultimate aim」指「最終目標」。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-05"
     },
@@ -1425,11 +1396,9 @@ export default {
       "masked": "Profit is not the organisation's only ultimate ____.",
       "options": [
         "aim-mcq-05",
-        "aim-mcq-04",
-        "aim-mcq-06",
-        "aim-mcq-03",
-        "aim-mcq-07",
-        "aim-mcq-02"
+        "aim-mcq-22",
+        "aim-mcq-29",
+        "aim-mcq-23"
       ],
       "explanation": "本句的「aim」指「最終目標」。",
       "sentenceIndex": 10,
@@ -1438,12 +1407,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-05": "本句指「最終目標」。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-02": "「主要目標」與本句語境不同。"
+        "aim-mcq-05": "本句的「aim」指「最終目標」。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-05"
     },
@@ -1455,11 +1422,9 @@ export default {
       "masked": "Our ____ is to expand internationally.",
       "options": [
         "aim-mcq-06",
-        "aim-mcq-05",
-        "aim-mcq-07",
-        "aim-mcq-04",
-        "aim-mcq-08",
-        "aim-mcq-03"
+        "aim-mcq-22",
+        "aim-mcq-19",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「long-term aim」指「長期目標」。",
       "sentenceIndex": 11,
@@ -1468,12 +1433,10 @@ export default {
         "long-term aim"
       ],
       "optionReasons": {
-        "aim-mcq-06": "本句指「長期目標」。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-08": "「共同目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。"
+        "aim-mcq-06": "本句的「long-term aim」指「長期目標」。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-06"
     },
@@ -1485,11 +1448,9 @@ export default {
       "masked": "Training supports the company's long-term ____.",
       "options": [
         "aim-mcq-06",
-        "aim-mcq-05",
-        "aim-mcq-07",
-        "aim-mcq-04",
-        "aim-mcq-08",
-        "aim-mcq-03"
+        "aim-mcq-40",
+        "aim-mcq-30",
+        "aim-mcq-20"
       ],
       "explanation": "本句的「aims」指「長期目標」。",
       "sentenceIndex": 12,
@@ -1498,12 +1459,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-06": "本句指「長期目標」。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-08": "「共同目標」與本句語境不同。",
-        "aim-mcq-03": "「首要目標」與本句語境不同。"
+        "aim-mcq-06": "本句的「aims」指「長期目標」。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-06"
     },
@@ -1515,11 +1474,9 @@ export default {
       "masked": "The ____ is to clear the backlog.",
       "options": [
         "aim-mcq-07",
-        "aim-mcq-06",
-        "aim-mcq-08",
-        "aim-mcq-05",
-        "aim-mcq-04",
-        "aim-mcq-10"
+        "aim-mcq-42",
+        "aim-mcq-21",
+        "aim-mcq-19"
       ],
       "explanation": "本句的「short-term aim」指「短期目標」。",
       "sentenceIndex": 13,
@@ -1528,12 +1485,10 @@ export default {
         "short-term aim"
       ],
       "optionReasons": {
-        "aim-mcq-07": "本句指「短期目標」。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-08": "「共同目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。"
+        "aim-mcq-07": "本句的「short-term aim」指「短期目標」。",
+        "aim-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-07"
     },
@@ -1545,11 +1500,9 @@ export default {
       "masked": "Short-term ____ should support long-term strategy.",
       "options": [
         "aim-mcq-07",
-        "aim-mcq-06",
-        "aim-mcq-08",
-        "aim-mcq-05",
-        "aim-mcq-04",
-        "aim-mcq-10"
+        "aim-mcq-40",
+        "aim-mcq-32",
+        "aim-mcq-19"
       ],
       "explanation": "本句的「aims」指「短期目標」。",
       "sentenceIndex": 14,
@@ -1558,12 +1511,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-07": "本句指「短期目標」。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-08": "「共同目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-04": "「整體目標」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。"
+        "aim-mcq-07": "本句的「aims」指「短期目標」。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-07"
     },
@@ -1575,11 +1526,9 @@ export default {
       "masked": "Successful teams work towards a ____.",
       "options": [
         "aim-mcq-08",
-        "aim-mcq-07",
-        "aim-mcq-06",
-        "aim-mcq-10",
-        "aim-mcq-05",
-        "aim-mcq-11"
+        "aim-mcq-24",
+        "aim-mcq-30",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「common aim」指「共同目標」。",
       "sentenceIndex": 15,
@@ -1588,12 +1537,10 @@ export default {
         "common aim"
       ],
       "optionReasons": {
-        "aim-mcq-08": "本句指「共同目標」。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。"
+        "aim-mcq-08": "本句的「common aim」指「共同目標」。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-08"
     },
@@ -1605,11 +1552,9 @@ export default {
       "masked": "Different departments need a common ____.",
       "options": [
         "aim-mcq-08",
-        "aim-mcq-07",
-        "aim-mcq-06",
-        "aim-mcq-10",
-        "aim-mcq-05",
-        "aim-mcq-11"
+        "aim-mcq-20",
+        "aim-mcq-30",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「aim」指「共同目標」。",
       "sentenceIndex": 16,
@@ -1618,12 +1563,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-08": "本句指「共同目標」。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-05": "「最終目標」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。"
+        "aim-mcq-08": "本句的「aim」指「共同目標」。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-08"
     },
@@ -1635,11 +1578,9 @@ export default {
       "masked": "A ____ can unite people with different priorities.",
       "options": [
         "aim-mcq-09",
-        "aim-mcq-10",
-        "aim-mcq-07",
-        "aim-mcq-11",
-        "aim-mcq-06",
-        "aim-mcq-12"
+        "aim-mcq-22",
+        "aim-mcq-40",
+        "aim-mcq-29"
       ],
       "explanation": "本句的「shared aim」指「共同目標」。",
       "sentenceIndex": 17,
@@ -1648,12 +1589,10 @@ export default {
         "shared aim"
       ],
       "optionReasons": {
-        "aim-mcq-09": "本句指「共同目標」。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。"
+        "aim-mcq-09": "本句的「shared aim」指「共同目標」。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-09"
     },
@@ -1665,11 +1604,9 @@ export default {
       "masked": "The teams agreed on a shared ____.",
       "options": [
         "aim-mcq-09",
-        "aim-mcq-10",
-        "aim-mcq-07",
-        "aim-mcq-11",
-        "aim-mcq-06",
-        "aim-mcq-12"
+        "aim-mcq-41",
+        "aim-mcq-19",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aim」指「共同目標」。",
       "sentenceIndex": 18,
@@ -1678,12 +1615,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-09": "本句指「共同目標」。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-06": "「長期目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。"
+        "aim-mcq-09": "本句的「aim」指「共同目標」。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-09"
     },
@@ -1695,11 +1630,9 @@ export default {
       "masked": "The policy's ____ is to reduce waste.",
       "options": [
         "aim-mcq-10",
-        "aim-mcq-09",
-        "aim-mcq-11",
-        "aim-mcq-12",
-        "aim-mcq-07",
-        "aim-mcq-13"
+        "aim-mcq-38",
+        "aim-mcq-36",
+        "aim-mcq-23"
       ],
       "explanation": "本句的「stated aim」指「明示目標」。",
       "sentenceIndex": 19,
@@ -1708,12 +1641,10 @@ export default {
         "stated aim"
       ],
       "optionReasons": {
-        "aim-mcq-10": "本句指「明示目標」。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-10": "本句的「stated aim」指「明示目標」。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-10"
     },
@@ -1725,11 +1656,9 @@ export default {
       "masked": "The stated ____ of the programme is employee development.",
       "options": [
         "aim-mcq-10",
-        "aim-mcq-09",
-        "aim-mcq-11",
-        "aim-mcq-12",
-        "aim-mcq-07",
-        "aim-mcq-13"
+        "aim-mcq-24",
+        "aim-mcq-30",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aim」指「明示目標」。",
       "sentenceIndex": 20,
@@ -1738,12 +1667,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-10": "本句指「明示目標」。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-07": "「短期目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-10": "本句的「aim」指「明示目標」。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-10"
     },
@@ -1755,11 +1682,9 @@ export default {
       "masked": "Teams work better when they have a ____.",
       "options": [
         "aim-mcq-11",
-        "aim-mcq-10",
-        "aim-mcq-12",
-        "aim-mcq-09",
-        "aim-mcq-13",
-        "aim-mcq-14"
+        "aim-mcq-20",
+        "aim-mcq-41",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「clear aim」指「達成目標」。",
       "sentenceIndex": 21,
@@ -1768,12 +1693,10 @@ export default {
         "clear aim"
       ],
       "optionReasons": {
-        "aim-mcq-11": "本句指「達成目標」。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。"
+        "aim-mcq-11": "本句的「clear aim」指「達成目標」。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-11"
     },
@@ -1785,11 +1708,9 @@ export default {
       "masked": "Without a clear ____, people may work in different directions.",
       "options": [
         "aim-mcq-11",
-        "aim-mcq-10",
-        "aim-mcq-12",
-        "aim-mcq-09",
-        "aim-mcq-13",
-        "aim-mcq-14"
+        "aim-mcq-28",
+        "aim-mcq-19",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aim」指「達成目標」。",
       "sentenceIndex": 22,
@@ -1798,12 +1719,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-11": "本句指「達成目標」。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。"
+        "aim-mcq-11": "本句的「aim」指「達成目標」。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-11"
     },
@@ -1815,11 +1734,9 @@ export default {
       "masked": "The team eventually ____.",
       "options": [
         "aim-mcq-11",
-        "aim-mcq-10",
-        "aim-mcq-12",
-        "aim-mcq-09",
-        "aim-mcq-13",
-        "aim-mcq-14"
+        "aim-mcq-16",
+        "aim-mcq-29",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「achieved its aim」指「達成目標」。",
       "sentenceIndex": 23,
@@ -1828,12 +1745,10 @@ export default {
         "achieved its aim"
       ],
       "optionReasons": {
-        "aim-mcq-11": "本句指「達成目標」。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。"
+        "aim-mcq-11": "本句的「achieved its aim」指「達成目標」。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-11"
     },
@@ -1845,11 +1760,9 @@ export default {
       "masked": "Clear roles help organisations achieve their ____.",
       "options": [
         "aim-mcq-11",
-        "aim-mcq-10",
-        "aim-mcq-12",
-        "aim-mcq-09",
-        "aim-mcq-13",
-        "aim-mcq-14"
+        "aim-mcq-27",
+        "aim-mcq-20",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aims」指「達成目標」。",
       "sentenceIndex": 24,
@@ -1858,12 +1771,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-11": "本句指「達成目標」。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。"
+        "aim-mcq-11": "本句的「aims」指「達成目標」。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-11"
     },
@@ -1875,11 +1786,9 @@ export default {
       "masked": "The project fulfilled its main ____.",
       "options": [
         "aim-mcq-12",
-        "aim-mcq-11",
-        "aim-mcq-13",
-        "aim-mcq-10",
-        "aim-mcq-14",
-        "aim-mcq-09"
+        "aim-mcq-31",
+        "aim-mcq-40",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aim」指「實現目標」。",
       "sentenceIndex": 25,
@@ -1888,12 +1797,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-12": "本句指「實現目標」。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。"
+        "aim-mcq-12": "本句的「aim」指「實現目標」。",
+        "aim-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-12"
     },
@@ -1905,11 +1812,9 @@ export default {
       "masked": "The programme failed to fulfil its stated ____.",
       "options": [
         "aim-mcq-12",
-        "aim-mcq-11",
-        "aim-mcq-13",
-        "aim-mcq-10",
-        "aim-mcq-14",
-        "aim-mcq-09"
+        "aim-mcq-40",
+        "aim-mcq-16",
+        "aim-mcq-27"
       ],
       "explanation": "本句的「aims」指「實現目標」。",
       "sentenceIndex": 26,
@@ -1918,12 +1823,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-12": "本句指「實現目標」。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-09": "「共同目標」與本句語境不同。"
+        "aim-mcq-12": "本句的「aims」指「實現目標」。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-12"
     },
@@ -1935,11 +1838,9 @@ export default {
       "masked": "The departments were ____.",
       "options": [
         "aim-mcq-13",
-        "aim-mcq-12",
-        "aim-mcq-14",
-        "aim-mcq-11",
-        "aim-mcq-15",
-        "aim-mcq-10"
+        "aim-mcq-38",
+        "aim-mcq-42",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「pursuing different aims」指「追求目標」。",
       "sentenceIndex": 27,
@@ -1948,12 +1849,10 @@ export default {
         "pursuing different aims"
       ],
       "optionReasons": {
-        "aim-mcq-13": "本句指「追求目標」。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。"
+        "aim-mcq-13": "本句的「pursuing different aims」指「追求目標」。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-13"
     },
@@ -1965,11 +1864,9 @@ export default {
       "masked": "Organisations may pursue several ____ at once.",
       "options": [
         "aim-mcq-13",
-        "aim-mcq-12",
-        "aim-mcq-14",
-        "aim-mcq-11",
-        "aim-mcq-15",
-        "aim-mcq-10"
+        "aim-mcq-36",
+        "aim-mcq-22",
+        "aim-mcq-19"
       ],
       "explanation": "本句的「aims」指「追求目標」。",
       "sentenceIndex": 28,
@@ -1978,12 +1875,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-13": "本句指「追求目標」。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-10": "「明示目標」與本句語境不同。"
+        "aim-mcq-13": "本句的「aims」指「追求目標」。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-13"
     },
@@ -1995,11 +1890,9 @@ export default {
       "masked": "Everyone should work towards the same ____.",
       "options": [
         "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-15",
-        "aim-mcq-12",
-        "aim-mcq-16",
-        "aim-mcq-11"
+        "aim-mcq-27",
+        "aim-mcq-23",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aim」指「朝目標努力」。",
       "sentenceIndex": 29,
@@ -2008,12 +1901,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-14": "本句指「朝目標努力」。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。"
+        "aim-mcq-14": "本句的「aim」指「朝目標努力」。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-14"
     },
@@ -2025,11 +1916,9 @@ export default {
       "masked": "The two teams are working towards a common ____.",
       "options": [
         "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-15",
-        "aim-mcq-12",
-        "aim-mcq-16",
-        "aim-mcq-11"
+        "aim-mcq-41",
+        "aim-mcq-23",
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aim」指「朝目標努力」。",
       "sentenceIndex": 30,
@@ -2038,12 +1927,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-14": "本句指「朝目標努力」。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。"
+        "aim-mcq-14": "本句的「aim」指「朝目標努力」。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-14"
     },
@@ -2055,11 +1942,9 @@ export default {
       "masked": "The programme met most of its ____.",
       "options": [
         "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-15",
-        "aim-mcq-12",
-        "aim-mcq-16",
-        "aim-mcq-11"
+        "aim-mcq-27",
+        "aim-mcq-19",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aims」指「朝目標努力」。",
       "sentenceIndex": 31,
@@ -2068,12 +1953,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-14": "本句指「朝目標努力」。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。"
+        "aim-mcq-14": "本句的「aims」指「朝目標努力」。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-14"
     },
@@ -2085,11 +1968,9 @@ export default {
       "masked": "Managers reviewed whether the stated ____ had been met.",
       "options": [
         "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-15",
-        "aim-mcq-12",
-        "aim-mcq-16",
-        "aim-mcq-11"
+        "aim-mcq-19",
+        "aim-mcq-28",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aims」指「朝目標努力」。",
       "sentenceIndex": 32,
@@ -2098,12 +1979,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-14": "本句指「朝目標努力」。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-11": "「達成目標」與本句語境不同。"
+        "aim-mcq-14": "本句的「aims」指「朝目標努力」。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-14"
     },
@@ -2115,11 +1994,9 @@ export default {
       "masked": "The company introduced progress checks ____.",
       "options": [
         "aim-mcq-15",
-        "aim-mcq-14",
-        "aim-mcq-16",
-        "aim-mcq-13",
-        "aim-mcq-17",
-        "aim-mcq-12"
+        "aim-mcq-05",
+        "aim-mcq-38",
+        "aim-mcq-30"
       ],
       "explanation": "本句的「with the aim of improving accountability」指「旨在」。",
       "sentenceIndex": 33,
@@ -2128,12 +2005,10 @@ export default {
         "with the aim of improving accountability"
       ],
       "optionReasons": {
-        "aim-mcq-15": "本句指「旨在」。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。"
+        "aim-mcq-15": "本句的「with the aim of improving accountability」指「旨在」。",
+        "aim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-15"
     },
@@ -2145,11 +2020,9 @@ export default {
       "masked": "The meeting was organised with the ____ of resolving the conflict.",
       "options": [
         "aim-mcq-15",
-        "aim-mcq-14",
-        "aim-mcq-16",
-        "aim-mcq-13",
-        "aim-mcq-17",
-        "aim-mcq-12"
+        "aim-mcq-06",
+        "aim-mcq-24",
+        "aim-mcq-36"
       ],
       "explanation": "本句的「aim」指「旨在」。",
       "sentenceIndex": 34,
@@ -2158,12 +2031,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-15": "本句指「旨在」。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。"
+        "aim-mcq-15": "本句的「aim」指「旨在」。",
+        "aim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-15"
     },
@@ -2175,11 +2046,9 @@ export default {
       "masked": "The initiative ____.",
       "options": [
         "aim-mcq-15",
-        "aim-mcq-14",
-        "aim-mcq-16",
-        "aim-mcq-13",
-        "aim-mcq-17",
-        "aim-mcq-12"
+        "aim-mcq-06",
+        "aim-mcq-21",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「has the aim of reducing delays」指「旨在」。",
       "sentenceIndex": 35,
@@ -2188,12 +2057,10 @@ export default {
         "has the aim of reducing delays"
       ],
       "optionReasons": {
-        "aim-mcq-15": "本句指「旨在」。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。"
+        "aim-mcq-15": "本句的「has the aim of reducing delays」指「旨在」。",
+        "aim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-15"
     },
@@ -2205,11 +2072,9 @@ export default {
       "masked": "The course has the ____ of improving workplace communication.",
       "options": [
         "aim-mcq-15",
-        "aim-mcq-14",
-        "aim-mcq-16",
-        "aim-mcq-13",
-        "aim-mcq-17",
-        "aim-mcq-12"
+        "aim-mcq-38",
+        "aim-mcq-06",
+        "aim-mcq-28"
       ],
       "explanation": "本句的「aim」指「旨在」。",
       "sentenceIndex": 36,
@@ -2218,12 +2083,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-15": "本句指「旨在」。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-12": "「實現目標」與本句語境不同。"
+        "aim-mcq-15": "本句的「aim」指「旨在」。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-15"
     },
@@ -2235,11 +2098,9 @@ export default {
       "masked": "The team ____.",
       "options": [
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-17",
-        "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-19"
+        "aim-mcq-42",
+        "aim-mcq-24",
+        "aim-mcq-11"
       ],
       "explanation": "本句的「aims to finish the project by Friday」指「力求／旨在做 X」。",
       "sentenceIndex": 37,
@@ -2248,12 +2109,10 @@ export default {
         "aims to finish the project by Friday"
       ],
       "optionReasons": {
-        "aim-mcq-16": "本句指「力求／旨在做 X」。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-16": "本句的「aims to finish the project by Friday」指「力求／旨在做 X」。",
+        "aim-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-16"
     },
@@ -2265,11 +2124,9 @@ export default {
       "masked": "The policy ____ to improve communication.",
       "options": [
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-17",
-        "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-19"
+        "aim-pdf-001",
+        "aim-mcq-42",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aims」指「力求／旨在做 X」。",
       "sentenceIndex": 38,
@@ -2278,12 +2135,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-16": "本句指「力求／旨在做 X」。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-16": "本句的「aims」指「力求／旨在做 X」。",
+        "aim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-16"
     },
@@ -2295,11 +2150,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-17",
-        "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-19"
+        "aim-mcq-21",
+        "aim-mcq-35",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aim to achieve a balance between speed and caution」指「力求／旨在做 X」。",
       "sentenceIndex": 39,
@@ -2308,12 +2161,10 @@ export default {
         "aim to achieve a balance between speed and caution"
       ],
       "optionReasons": {
-        "aim-mcq-16": "本句指「力求／旨在做 X」。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-16": "本句的「aim to achieve a balance between speed and caution」指「力求／旨在做 X」。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-16"
     },
@@ -2325,11 +2176,9 @@ export default {
       "masked": "The company ____ to achieve sustainable growth.",
       "options": [
         "aim-mcq-16",
-        "aim-mcq-15",
         "aim-mcq-17",
-        "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-19"
+        "aim-mcq-21",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aims」指「力求／旨在做 X」。",
       "sentenceIndex": 40,
@@ -2338,12 +2187,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-16": "本句指「力求／旨在做 X」。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-16": "本句的「aims」指「力求／旨在做 X」。",
+        "aim-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-16"
     },
@@ -2355,11 +2202,9 @@ export default {
       "masked": "The programme ____.",
       "options": [
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-17",
-        "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-19"
+        "aim-mcq-29",
+        "aim-mcq-04",
+        "aim-mcq-23"
       ],
       "explanation": "本句的「aims to provide better support」指「力求／旨在做 X」。",
       "sentenceIndex": 41,
@@ -2368,12 +2213,10 @@ export default {
         "aims to provide better support"
       ],
       "optionReasons": {
-        "aim-mcq-16": "本句指「力求／旨在做 X」。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-16": "本句的「aims to provide better support」指「力求／旨在做 X」。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-16"
     },
@@ -2385,11 +2228,9 @@ export default {
       "masked": "The changes ____ to reduce confusion.",
       "options": [
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-17",
-        "aim-mcq-14",
-        "aim-mcq-13",
-        "aim-mcq-19"
+        "aim-mcq-05",
+        "aim-mcq-21",
+        "aim-mcq-30"
       ],
       "explanation": "本句的「aim」指「力求／旨在做 X」。",
       "sentenceIndex": 42,
@@ -2398,12 +2239,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-16": "本句指「力求／旨在做 X」。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-17": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-16": "本句的「aim」指「力求／旨在做 X」。",
+        "aim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-16"
     },
@@ -2415,11 +2254,9 @@ export default {
       "masked": "The team is ____.",
       "options": [
         "aim-mcq-17",
-        "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-19",
-        "aim-mcq-14",
-        "aim-mcq-13"
+        "aim-mcq-32",
+        "aim-mcq-42",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aiming for faster delivery」指「以 X 為目標」。",
       "sentenceIndex": 43,
@@ -2428,12 +2265,10 @@ export default {
         "aiming for faster delivery"
       ],
       "optionReasons": {
-        "aim-mcq-17": "本句指「以 X 為目標」。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-17": "本句的「aiming for faster delivery」指「以 X 為目標」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-17"
     },
@@ -2445,11 +2280,9 @@ export default {
       "masked": "We should ____.",
       "options": [
         "aim-mcq-17",
-        "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-19",
-        "aim-mcq-14",
-        "aim-mcq-13"
+        "aim-mcq-20",
+        "aim-mcq-27",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aim for a fairer distribution of work」指「以 X 為目標」。",
       "sentenceIndex": 44,
@@ -2458,12 +2291,10 @@ export default {
         "aim for a fairer distribution of work"
       ],
       "optionReasons": {
-        "aim-mcq-17": "本句指「以 X 為目標」。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-17": "本句的「aim for a fairer distribution of work」指「以 X 為目標」。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-17"
     },
@@ -2475,11 +2306,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "aim-mcq-17",
-        "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-19",
-        "aim-mcq-14",
-        "aim-mcq-13"
+        "aim-mcq-24",
+        "aim-mcq-41",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aiming for 10% growth」指「以 X 為目標」。",
       "sentenceIndex": 45,
@@ -2488,12 +2317,10 @@ export default {
         "aiming for 10% growth"
       ],
       "optionReasons": {
-        "aim-mcq-17": "本句指「以 X 為目標」。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-17": "本句的「aiming for 10% growth」指「以 X 為目標」。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-17"
     },
@@ -2506,10 +2333,8 @@ export default {
       "options": [
         "aim-mcq-17",
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-19",
-        "aim-mcq-14",
-        "aim-mcq-13"
+        "aim-mcq-40",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aim」指「以 X 為目標」。",
       "sentenceIndex": 46,
@@ -2518,12 +2343,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-17": "本句指「以 X 為目標」。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-17": "本句的「aim」指「以 X 為目標」。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-17"
     },
@@ -2535,11 +2358,9 @@ export default {
       "masked": "If you compete, ____.",
       "options": [
         "aim-mcq-17",
-        "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-19",
-        "aim-mcq-14",
-        "aim-mcq-13"
+        "aim-mcq-24",
+        "aim-mcq-22",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「aim for the top」指「以 X 為目標」。",
       "sentenceIndex": 47,
@@ -2548,12 +2369,10 @@ export default {
         "aim for the top"
       ],
       "optionReasons": {
-        "aim-mcq-17": "本句指「以 X 為目標」。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-17": "本句的「aim for the top」指「以 X 為目標」。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-17"
     },
@@ -2566,10 +2385,8 @@ export default {
       "options": [
         "aim-mcq-17",
         "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-19",
-        "aim-mcq-14",
-        "aim-mcq-13"
+        "aim-mcq-30",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aiming」指「以 X 為目標」。",
       "sentenceIndex": 48,
@@ -2578,12 +2395,10 @@ export default {
         "aiming"
       ],
       "optionReasons": {
-        "aim-mcq-17": "本句指「以 X 為目標」。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。",
-        "aim-mcq-13": "「追求目標」與本句語境不同。"
+        "aim-mcq-17": "本句的「aiming」指「以 X 為目標」。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-17"
     },
@@ -2595,11 +2410,9 @@ export default {
       "masked": "The reform ____.",
       "options": [
         "aim-mcq-18",
-        "aim-mcq-19",
-        "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-21",
-        "aim-mcq-14"
+        "aim-mcq-32",
+        "aim-mcq-24",
+        "aim-mcq-30"
       ],
       "explanation": "本句的「aims at greater efficiency」指「以 X 為目標」。",
       "sentenceIndex": 49,
@@ -2608,12 +2421,10 @@ export default {
         "aims at greater efficiency"
       ],
       "optionReasons": {
-        "aim-mcq-18": "本句指「以 X 為目標」。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。"
+        "aim-mcq-18": "本句的「aims at greater efficiency」指「以 X 為目標」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-18"
     },
@@ -2625,11 +2436,9 @@ export default {
       "masked": "The programme ____ at long-term improvement.",
       "options": [
         "aim-mcq-18",
-        "aim-mcq-19",
-        "aim-mcq-16",
-        "aim-mcq-15",
-        "aim-mcq-21",
-        "aim-mcq-14"
+        "aim-mcq-32",
+        "aim-mcq-20",
+        "aim-mcq-31"
       ],
       "explanation": "本句的「aims」指「以 X 為目標」。",
       "sentenceIndex": 50,
@@ -2638,12 +2447,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-18": "本句指「以 X 為目標」。",
-        "aim-mcq-19": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-14": "「朝目標努力」與本句語境不同。"
+        "aim-mcq-18": "本句的「aims」指「以 X 為目標」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-18"
     },
@@ -2655,11 +2462,9 @@ export default {
       "masked": "The policy ____.",
       "options": [
         "aim-mcq-19",
-        "aim-mcq-18",
-        "aim-mcq-21",
-        "aim-mcq-16",
-        "aim-mcq-22",
-        "aim-mcq-15"
+        "aim-mcq-09",
+        "aim-mcq-30",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「aims at reducing unnecessary delays」指「旨在做 X」。",
       "sentenceIndex": 51,
@@ -2668,12 +2473,10 @@ export default {
         "aims at reducing unnecessary delays"
       ],
       "optionReasons": {
-        "aim-mcq-19": "本句指「旨在做 X」。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。"
+        "aim-mcq-19": "本句的「aims at reducing unnecessary delays」指「旨在做 X」。",
+        "aim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-19"
     },
@@ -2685,11 +2488,9 @@ export default {
       "masked": "The training ____ at improving teamwork.",
       "options": [
         "aim-mcq-19",
-        "aim-mcq-18",
-        "aim-mcq-21",
-        "aim-mcq-16",
-        "aim-mcq-22",
-        "aim-mcq-15"
+        "aim-mcq-03",
+        "aim-mcq-36",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「aims」指「旨在做 X」。",
       "sentenceIndex": 52,
@@ -2698,12 +2499,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-19": "本句指「旨在做 X」。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-15": "「旨在」與本句語境不同。"
+        "aim-mcq-19": "本句的「aims」指「旨在做 X」。",
+        "aim-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-19"
     },
@@ -2715,11 +2514,9 @@ export default {
       "masked": "The new system is ____.",
       "options": [
         "aim-mcq-20",
-        "aim-mcq-21",
-        "aim-mcq-18",
-        "aim-mcq-22",
-        "aim-mcq-23",
-        "aim-mcq-16"
+        "aim-mcq-39",
+        "aim-mcq-32",
+        "aim-mcq-27"
       ],
       "explanation": "本句的「aimed at reducing duplication」指「旨在做 X」。",
       "sentenceIndex": 53,
@@ -2728,12 +2525,10 @@ export default {
         "aimed at reducing duplication"
       ],
       "optionReasons": {
-        "aim-mcq-20": "本句指「旨在做 X」。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。"
+        "aim-mcq-20": "本句的「aimed at reducing duplication」指「旨在做 X」。",
+        "aim-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-20"
     },
@@ -2745,11 +2540,9 @@ export default {
       "masked": "The training is ____ at improving communication.",
       "options": [
         "aim-mcq-20",
-        "aim-mcq-21",
-        "aim-mcq-18",
-        "aim-mcq-22",
-        "aim-mcq-23",
-        "aim-mcq-16"
+        "aim-mcq-32",
+        "aim-mcq-27",
+        "aim-mcq-23"
       ],
       "explanation": "本句的「aimed」指「旨在做 X」。",
       "sentenceIndex": 54,
@@ -2758,12 +2551,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-20": "本句指「旨在做 X」。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。"
+        "aim-mcq-20": "本句的「aimed」指「旨在做 X」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-20"
     },
@@ -2775,11 +2566,9 @@ export default {
       "masked": "The measures are ____.",
       "options": [
         "aim-mcq-20",
-        "aim-mcq-21",
-        "aim-mcq-18",
-        "aim-mcq-22",
         "aim-mcq-23",
-        "aim-mcq-16"
+        "aim-mcq-04",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aimed at the underlying causes of conflict」指「旨在做 X」。",
       "sentenceIndex": 55,
@@ -2788,12 +2577,10 @@ export default {
         "aimed at the underlying causes of conflict"
       ],
       "optionReasons": {
-        "aim-mcq-20": "本句指「旨在做 X」。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。"
+        "aim-mcq-20": "本句的「aimed at the underlying causes of conflict」指「旨在做 X」。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-20"
     },
@@ -2805,11 +2592,9 @@ export default {
       "masked": "The policy is ____ at workplace inequality.",
       "options": [
         "aim-mcq-20",
-        "aim-mcq-21",
-        "aim-mcq-18",
-        "aim-mcq-22",
-        "aim-mcq-23",
-        "aim-mcq-16"
+        "aim-mcq-41",
+        "aim-mcq-33",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「aimed」指「旨在做 X」。",
       "sentenceIndex": 56,
@@ -2818,12 +2603,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-20": "本句指「旨在做 X」。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-16": "「力求／旨在做 X」與本句語境不同。"
+        "aim-mcq-20": "本句的「aimed」指「旨在做 X」。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-20"
     },
@@ -2835,11 +2618,9 @@ export default {
       "masked": "The programme is ____.",
       "options": [
         "aim-mcq-21",
-        "aim-mcq-20",
-        "aim-mcq-22",
-        "aim-mcq-23",
-        "aim-mcq-18",
-        "aim-mcq-24"
+        "aim-mcq-41",
+        "aim-mcq-01",
+        "aim-mcq-19"
       ],
       "explanation": "本句的「aimed at new employees」指「為某人而設／針對某人」。",
       "sentenceIndex": 57,
@@ -2848,12 +2629,10 @@ export default {
         "aimed at new employees"
       ],
       "optionReasons": {
-        "aim-mcq-21": "本句指「為某人而設／針對某人」。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。"
+        "aim-mcq-21": "本句的「aimed at new employees」指「為某人而設／針對某人」。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-21"
     },
@@ -2865,11 +2644,9 @@ export default {
       "masked": "The advertisement is ____ at younger consumers.",
       "options": [
         "aim-mcq-21",
-        "aim-mcq-20",
-        "aim-mcq-22",
-        "aim-mcq-23",
-        "aim-mcq-18",
-        "aim-mcq-24"
+        "aim-mcq-07",
+        "aim-mcq-40",
+        "aim-mcq-36"
       ],
       "explanation": "本句的「aimed」指「為某人而設／針對某人」。",
       "sentenceIndex": 58,
@@ -2878,12 +2655,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-21": "本句指「為某人而設／針對某人」。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-18": "「以 X 為目標」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。"
+        "aim-mcq-21": "本句的「aimed」指「為某人而設／針對某人」。",
+        "aim-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-21"
     },
@@ -2895,11 +2670,9 @@ export default {
       "masked": "The product is ____.",
       "options": [
         "aim-mcq-22",
-        "aim-mcq-21",
-        "aim-mcq-23",
-        "aim-mcq-20",
-        "aim-mcq-24",
-        "aim-mcq-25"
+        "aim-mcq-41",
+        "aim-mcq-01",
+        "aim-mcq-23"
       ],
       "explanation": "本句的「aimed at the premium market」指「把產品定位給 X」。",
       "sentenceIndex": 59,
@@ -2908,12 +2681,10 @@ export default {
         "aimed at the premium market"
       ],
       "optionReasons": {
-        "aim-mcq-22": "本句指「把產品定位給 X」。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。"
+        "aim-mcq-22": "本句的「aimed at the premium market」指「把產品定位給 X」。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-22"
     },
@@ -2925,11 +2696,9 @@ export default {
       "masked": "The company ____ the service at small businesses.",
       "options": [
         "aim-mcq-22",
-        "aim-mcq-21",
-        "aim-mcq-23",
-        "aim-mcq-20",
+        "aim-mcq-32",
         "aim-mcq-24",
-        "aim-mcq-25"
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aimed」指「把產品定位給 X」。",
       "sentenceIndex": 60,
@@ -2938,12 +2707,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-22": "本句指「把產品定位給 X」。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。"
+        "aim-mcq-22": "本句的「aimed」指「把產品定位給 X」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-22"
     },
@@ -2955,11 +2722,9 @@ export default {
       "masked": "The campaign is ____.",
       "options": [
         "aim-mcq-23",
-        "aim-mcq-22",
-        "aim-mcq-24",
-        "aim-mcq-21",
-        "aim-mcq-25",
-        "aim-mcq-20"
+        "aim-mcq-14",
+        "aim-mcq-40",
+        "aim-mcq-41"
       ],
       "explanation": "本句的「aimed at young professionals」指「把說話針對 X」。",
       "sentenceIndex": 61,
@@ -2968,12 +2733,10 @@ export default {
         "aimed at young professionals"
       ],
       "optionReasons": {
-        "aim-mcq-23": "本句指「把說話針對 X」。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-23": "本句的「aimed at young professionals」指「把說話針對 X」。",
+        "aim-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-23"
     },
@@ -2985,11 +2748,9 @@ export default {
       "masked": "Advertising should be ____ at the right audience.",
       "options": [
         "aim-mcq-23",
-        "aim-mcq-22",
-        "aim-mcq-24",
-        "aim-mcq-21",
-        "aim-mcq-25",
-        "aim-mcq-20"
+        "aim-mcq-36",
+        "aim-mcq-19",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aimed」指「把說話針對 X」。",
       "sentenceIndex": 62,
@@ -2998,12 +2759,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-23": "本句指「把說話針對 X」。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-23": "本句的「aimed」指「把說話針對 X」。",
+        "aim-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-23"
     },
@@ -3015,11 +2774,9 @@ export default {
       "masked": "The book is ____.",
       "options": [
         "aim-mcq-23",
-        "aim-mcq-22",
-        "aim-mcq-24",
-        "aim-mcq-21",
-        "aim-mcq-25",
-        "aim-mcq-20"
+        "aim-mcq-30",
+        "aim-mcq-05",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aimed at beginners」指「把說話針對 X」。",
       "sentenceIndex": 63,
@@ -3028,12 +2785,10 @@ export default {
         "aimed at beginners"
       ],
       "optionReasons": {
-        "aim-mcq-23": "本句指「把說話針對 X」。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-23": "本句的「aimed at beginners」指「把說話針對 X」。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-23"
     },
@@ -3045,11 +2800,9 @@ export default {
       "masked": "The course is ____ at working adults.",
       "options": [
         "aim-mcq-23",
-        "aim-mcq-22",
-        "aim-mcq-24",
-        "aim-mcq-21",
-        "aim-mcq-25",
-        "aim-mcq-20"
+        "aim-mcq-34",
+        "aim-mcq-29",
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aimed」指「把說話針對 X」。",
       "sentenceIndex": 64,
@@ -3058,12 +2811,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-23": "本句指「把說話針對 X」。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-23": "本句的「aimed」指「把說話針對 X」。",
+        "aim-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-23"
     },
@@ -3075,11 +2826,9 @@ export default {
       "masked": "The comment seemed to be ____.",
       "options": [
         "aim-mcq-23",
-        "aim-mcq-22",
-        "aim-mcq-24",
-        "aim-mcq-21",
-        "aim-mcq-25",
-        "aim-mcq-20"
+        "aim-mcq-15",
+        "aim-mcq-07",
+        "aim-mcq-28"
       ],
       "explanation": "本句的「aimed at the manager」指「把說話針對 X」。",
       "sentenceIndex": 65,
@@ -3088,12 +2837,10 @@ export default {
         "aimed at the manager"
       ],
       "optionReasons": {
-        "aim-mcq-23": "本句指「把說話針對 X」。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-23": "本句的「aimed at the manager」指「把說話針對 X」。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-23"
     },
@@ -3105,11 +2852,9 @@ export default {
       "masked": "She ____ a sarcastic remark at him.",
       "options": [
         "aim-mcq-23",
-        "aim-mcq-22",
-        "aim-mcq-24",
-        "aim-mcq-21",
-        "aim-mcq-25",
-        "aim-mcq-20"
+        "aim-pdf-001",
+        "aim-mcq-30",
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aimed」指「把說話針對 X」。",
       "sentenceIndex": 66,
@@ -3118,12 +2863,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-23": "本句指「把說話針對 X」。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-20": "「旨在做 X」與本句語境不同。"
+        "aim-mcq-23": "本句的「aimed」指「把說話針對 X」。",
+        "aim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-23"
     },
@@ -3135,11 +2878,9 @@ export default {
       "masked": "Much of the criticism was ____.",
       "options": [
         "aim-mcq-24",
-        "aim-mcq-23",
-        "aim-mcq-25",
+        "aim-mcq-35",
         "aim-mcq-22",
-        "aim-mcq-26",
-        "aim-mcq-21"
+        "aim-mcq-20"
       ],
       "explanation": "本句的「aimed at senior management」指「把批評指向 X」。",
       "sentenceIndex": 67,
@@ -3148,12 +2889,10 @@ export default {
         "aimed at senior management"
       ],
       "optionReasons": {
-        "aim-mcq-24": "本句指「把批評指向 X」。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。"
+        "aim-mcq-24": "本句的「aimed at senior management」指「把批評指向 X」。",
+        "aim-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-24"
     },
@@ -3165,11 +2904,9 @@ export default {
       "masked": "He ____ his criticism at the process rather than individuals.",
       "options": [
         "aim-mcq-24",
-        "aim-mcq-23",
-        "aim-mcq-25",
-        "aim-mcq-22",
-        "aim-mcq-26",
-        "aim-mcq-21"
+        "aim-mcq-09",
+        "aim-mcq-27",
+        "aim-mcq-20"
       ],
       "explanation": "本句的「aimed」指「把批評指向 X」。",
       "sentenceIndex": 68,
@@ -3178,12 +2915,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-24": "本句指「把批評指向 X」。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。"
+        "aim-mcq-24": "本句的「aimed」指「把批評指向 X」。",
+        "aim-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-24"
     },
@@ -3195,10 +2930,8 @@ export default {
       "masked": "The accusation was ____.",
       "options": [
         "aim-mcq-24",
-        "aim-mcq-23",
-        "aim-mcq-25",
-        "aim-mcq-22",
-        "aim-mcq-26",
+        "aim-mcq-10",
+        "aim-mcq-29",
         "aim-mcq-21"
       ],
       "explanation": "本句的「aimed at the wrong person」指「把批評指向 X」。",
@@ -3208,12 +2941,10 @@ export default {
         "aimed at the wrong person"
       ],
       "optionReasons": {
-        "aim-mcq-24": "本句指「把批評指向 X」。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。"
+        "aim-mcq-24": "本句的「aimed at the wrong person」指「把批評指向 X」。",
+        "aim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-24"
     },
@@ -3225,11 +2956,9 @@ export default {
       "masked": "Most of the verbal attacks were ____ at management.",
       "options": [
         "aim-mcq-24",
-        "aim-mcq-23",
-        "aim-mcq-25",
         "aim-mcq-22",
-        "aim-mcq-26",
-        "aim-mcq-21"
+        "aim-mcq-15",
+        "aim-mcq-30"
       ],
       "explanation": "本句的「aimed」指「把批評指向 X」。",
       "sentenceIndex": 70,
@@ -3238,74 +2967,68 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-24": "本句指「把批評指向 X」。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-21": "「為某人而設／針對某人」與本句語境不同。"
+        "aim-mcq-24": "本句的「aimed」指「把批評指向 X」。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-24"
     },
     {
       "id": "aim-37-0",
-      "sense": "aim-mcq-25",
+      "sense": "aim-reviewed-0123b8bfbd",
       "en": "He aimed the camera carefully.",
       "zh": "他小心地把相機對準目標。",
       "masked": "He ____.",
       "options": [
-        "aim-mcq-25",
-        "aim-mcq-24",
-        "aim-mcq-26",
-        "aim-mcq-23",
-        "aim-mcq-27",
-        "aim-mcq-22"
+        "aim-reviewed-0123b8bfbd",
+        "aim-mcq-20",
+        "aim-mcq-21",
+        "aim-mcq-32"
       ],
-      "explanation": "本句的「aimed the camera carefully」指「瞄準武器」。",
+      "explanation": "對照完整句子：「他小心地把相機對準目標。」。這裡的「aimed the camera carefully」表示「把武器、相機、光線等對準某一特定方向或目標」。",
       "sentenceIndex": 71,
       "sourcePractice": 1,
       "targets": [
         "aimed the camera carefully"
       ],
       "optionReasons": {
-        "aim-mcq-25": "本句指「瞄準武器」。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。"
+        "aim-reviewed-0123b8bfbd": "對照完整句子：「他小心地把相機對準目標。」。這裡的「aimed the camera carefully」表示「把武器、相機、光線等對準某一特定方向或目標」。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "aim-mcq-25"
+      "correctOption": "aim-reviewed-0123b8bfbd",
+      "previousCorrectOption": "aim-mcq-25",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "aim-37-1",
-      "sense": "aim-mcq-25",
+      "sense": "aim-reviewed-0123b8bfbd",
       "en": "The officer aimed the weapon at the target.",
       "zh": "警員把武器瞄準目標。",
       "masked": "The officer ____ the weapon at the target.",
       "options": [
-        "aim-mcq-25",
-        "aim-mcq-24",
-        "aim-mcq-26",
-        "aim-mcq-23",
-        "aim-mcq-27",
-        "aim-mcq-22"
+        "aim-reviewed-0123b8bfbd",
+        "aim-mcq-15",
+        "aim-mcq-32",
+        "aim-mcq-23"
       ],
-      "explanation": "本句的「aimed」指「瞄準武器」。",
+      "explanation": "對照完整句子：「警員把武器瞄準目標。」。這裡的「aimed」表示「把武器、相機、光線等對準某一特定方向或目標」。",
       "sentenceIndex": 72,
       "sourcePractice": 2,
       "targets": [
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-25": "本句指「瞄準武器」。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-22": "「把產品定位給 X」與本句語境不同。"
+        "aim-reviewed-0123b8bfbd": "對照完整句子：「警員把武器瞄準目標。」。這裡的「aimed」表示「把武器、相機、光線等對準某一特定方向或目標」。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "aim-mcq-25"
+      "correctOption": "aim-reviewed-0123b8bfbd",
+      "previousCorrectOption": "aim-mcq-25",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "aim-38-0",
@@ -3315,11 +3038,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "aim-mcq-26",
-        "aim-mcq-25",
-        "aim-mcq-27",
-        "aim-mcq-24",
-        "aim-mcq-28",
-        "aim-mcq-23"
+        "aim-mcq-32",
+        "aim-mcq-20",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aimed at the centre of the target」指「瞄準目標」。",
       "sentenceIndex": 73,
@@ -3328,12 +3049,10 @@ export default {
         "aimed at the centre of the target"
       ],
       "optionReasons": {
-        "aim-mcq-26": "本句指「瞄準目標」。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。"
+        "aim-mcq-26": "本句的「aimed at the centre of the target」指「瞄準目標」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-26"
     },
@@ -3345,11 +3064,9 @@ export default {
       "masked": "____ carefully before releasing the arrow.",
       "options": [
         "aim-mcq-26",
-        "aim-mcq-25",
-        "aim-mcq-27",
-        "aim-mcq-24",
-        "aim-mcq-28",
-        "aim-mcq-23"
+        "aim-mcq-15",
+        "aim-mcq-32",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「Aim」指「瞄準目標」。",
       "sentenceIndex": 74,
@@ -3358,12 +3075,10 @@ export default {
         "Aim"
       ],
       "optionReasons": {
-        "aim-mcq-26": "本句指「瞄準目標」。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。"
+        "aim-mcq-26": "本句的「Aim」指「瞄準目標」。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-26"
     },
@@ -3375,11 +3090,9 @@ export default {
       "masked": "The rifle was ____.",
       "options": [
         "aim-mcq-26",
-        "aim-mcq-25",
-        "aim-mcq-27",
-        "aim-mcq-24",
-        "aim-mcq-28",
-        "aim-mcq-23"
+        "aim-mcq-15",
+        "aim-mcq-32",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aimed at the target」指「瞄準目標」。",
       "sentenceIndex": 75,
@@ -3388,12 +3101,10 @@ export default {
         "aimed at the target"
       ],
       "optionReasons": {
-        "aim-mcq-26": "本句指「瞄準目標」。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。"
+        "aim-mcq-26": "本句的「aimed at the target」指「瞄準目標」。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-26"
     },
@@ -3405,11 +3116,9 @@ export default {
       "masked": "He raised the rifle and ____.",
       "options": [
         "aim-mcq-26",
-        "aim-mcq-25",
-        "aim-mcq-27",
-        "aim-mcq-24",
-        "aim-mcq-28",
-        "aim-mcq-23"
+        "aim-mcq-19",
+        "aim-mcq-23",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「aimed」指「瞄準目標」。",
       "sentenceIndex": 76,
@@ -3418,12 +3127,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-26": "本句指「瞄準目標」。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-23": "「把說話針對 X」與本句語境不同。"
+        "aim-mcq-26": "本句的「aimed」指「瞄準目標」。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-26"
     },
@@ -3435,11 +3142,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "aim-mcq-27",
-        "aim-mcq-26",
-        "aim-mcq-28",
-        "aim-mcq-25",
-        "aim-mcq-29",
-        "aim-mcq-24"
+        "aim-mcq-23",
+        "aim-mcq-07",
+        "aim-mcq-19"
       ],
       "explanation": "本句的「aimed the camera at the stage」指「把相機對準」。",
       "sentenceIndex": 77,
@@ -3448,12 +3153,10 @@ export default {
         "aimed the camera at the stage"
       ],
       "optionReasons": {
-        "aim-mcq-27": "本句指「把相機對準」。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。"
+        "aim-mcq-27": "本句的「aimed the camera at the stage」指「把相機對準」。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-27"
     },
@@ -3465,11 +3168,9 @@ export default {
       "masked": "____ the camera slightly higher.",
       "options": [
         "aim-mcq-27",
-        "aim-mcq-26",
-        "aim-mcq-28",
-        "aim-mcq-25",
-        "aim-mcq-29",
-        "aim-mcq-24"
+        "aim-mcq-23",
+        "aim-mcq-06",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「Aim」指「把相機對準」。",
       "sentenceIndex": 78,
@@ -3478,12 +3179,10 @@ export default {
         "Aim"
       ],
       "optionReasons": {
-        "aim-mcq-27": "本句指「把相機對準」。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。"
+        "aim-mcq-27": "本句的「Aim」指「把相機對準」。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-27"
     },
@@ -3495,11 +3194,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "aim-mcq-27",
-        "aim-mcq-26",
-        "aim-mcq-28",
-        "aim-mcq-25",
-        "aim-mcq-29",
-        "aim-mcq-24"
+        "aim-mcq-34",
+        "aim-mcq-20",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「aimed the torch at the ceiling」指「把相機對準」。",
       "sentenceIndex": 79,
@@ -3508,12 +3205,10 @@ export default {
         "aimed the torch at the ceiling"
       ],
       "optionReasons": {
-        "aim-mcq-27": "本句指「把相機對準」。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。"
+        "aim-mcq-27": "本句的「aimed the torch at the ceiling」指「把相機對準」。",
+        "aim-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-27"
     },
@@ -3525,11 +3220,9 @@ export default {
       "masked": "____ the laser away from people's eyes.",
       "options": [
         "aim-mcq-27",
-        "aim-mcq-26",
-        "aim-mcq-28",
-        "aim-mcq-25",
-        "aim-mcq-29",
-        "aim-mcq-24"
+        "aim-mcq-13",
+        "aim-mcq-22",
+        "aim-mcq-15"
       ],
       "explanation": "本句的「Aim」指「把相機對準」。",
       "sentenceIndex": 80,
@@ -3538,12 +3231,10 @@ export default {
         "Aim"
       ],
       "optionReasons": {
-        "aim-mcq-27": "本句指「把相機對準」。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-24": "「把批評指向 X」與本句語境不同。"
+        "aim-mcq-27": "本句的「Aim」指「把相機對準」。",
+        "aim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-27"
     },
@@ -3555,11 +3246,9 @@ export default {
       "masked": "She ____ and fired.",
       "options": [
         "aim-mcq-28",
-        "aim-mcq-27",
-        "aim-mcq-29",
-        "aim-mcq-26",
-        "aim-mcq-30",
-        "aim-mcq-25"
+        "aim-mcq-21",
+        "aim-mcq-15",
+        "aim-mcq-05"
       ],
       "explanation": "本句的「took aim」指「瞄準」。",
       "sentenceIndex": 81,
@@ -3568,12 +3257,10 @@ export default {
         "took aim"
       ],
       "optionReasons": {
-        "aim-mcq-28": "本句指「瞄準」。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。"
+        "aim-mcq-28": "本句的「took aim」指「瞄準」。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-28"
     },
@@ -3585,11 +3272,9 @@ export default {
       "masked": "The archer took careful ____.",
       "options": [
         "aim-mcq-28",
-        "aim-mcq-27",
-        "aim-mcq-29",
-        "aim-mcq-26",
-        "aim-mcq-30",
-        "aim-mcq-25"
+        "aim-mcq-11",
+        "aim-mcq-38",
+        "aim-mcq-16"
       ],
       "explanation": "本句的「aim」指「瞄準」。",
       "sentenceIndex": 82,
@@ -3598,12 +3283,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-28": "本句指「瞄準」。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-25": "「瞄準武器」與本句語境不同。"
+        "aim-mcq-28": "本句的「aim」指「瞄準」。",
+        "aim-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-28"
     },
@@ -3615,11 +3298,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "aim-mcq-29",
-        "aim-mcq-28",
-        "aim-mcq-30",
-        "aim-mcq-27",
-        "aim-mcq-31",
-        "aim-mcq-26"
+        "aim-mcq-01",
+        "aim-mcq-32",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「took aim at the target」指「瞄準／抨擊 X」。",
       "sentenceIndex": 83,
@@ -3628,12 +3309,10 @@ export default {
         "took aim at the target"
       ],
       "optionReasons": {
-        "aim-mcq-29": "本句指「瞄準／抨擊 X」。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。"
+        "aim-mcq-29": "本句的「took aim at the target」指「瞄準／抨擊 X」。",
+        "aim-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-29"
     },
@@ -3645,11 +3324,9 @@ export default {
       "masked": "The player took ____ at the goal.",
       "options": [
         "aim-mcq-29",
-        "aim-mcq-28",
-        "aim-mcq-30",
-        "aim-mcq-27",
-        "aim-mcq-31",
-        "aim-mcq-26"
+        "aim-mcq-02",
+        "aim-mcq-19",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「aim」指「瞄準／抨擊 X」。",
       "sentenceIndex": 84,
@@ -3658,12 +3335,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-29": "本句指「瞄準／抨擊 X」。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。"
+        "aim-mcq-29": "本句的「aim」指「瞄準／抨擊 X」。",
+        "aim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-29"
     },
@@ -3675,11 +3350,9 @@ export default {
       "masked": "He took ____ before shooting.",
       "options": [
         "aim-mcq-29",
-        "aim-mcq-28",
-        "aim-mcq-30",
-        "aim-mcq-27",
-        "aim-mcq-31",
-        "aim-mcq-26"
+        "aim-pdf-001",
+        "aim-mcq-20",
+        "aim-mcq-32"
       ],
       "explanation": "本句的「careful aim」指「瞄準／抨擊 X」。",
       "sentenceIndex": 85,
@@ -3688,12 +3361,10 @@ export default {
         "careful aim"
       ],
       "optionReasons": {
-        "aim-mcq-29": "本句指「瞄準／抨擊 X」。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。"
+        "aim-mcq-29": "本句的「careful aim」指「瞄準／抨擊 X」。",
+        "aim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-29"
     },
@@ -3705,11 +3376,9 @@ export default {
       "masked": "Accurate shooting requires careful ____.",
       "options": [
         "aim-mcq-29",
-        "aim-mcq-28",
-        "aim-mcq-30",
-        "aim-mcq-27",
-        "aim-mcq-31",
-        "aim-mcq-26"
+        "aim-mcq-18",
+        "aim-mcq-20",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「aim」指「瞄準／抨擊 X」。",
       "sentenceIndex": 86,
@@ -3718,12 +3387,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-29": "本句指「瞄準／抨擊 X」。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-26": "「瞄準目標」與本句語境不同。"
+        "aim-mcq-29": "本句的「aim」指「瞄準／抨擊 X」。",
+        "aim-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-29"
     },
@@ -3735,11 +3402,9 @@ export default {
       "masked": "She has ____.",
       "options": [
         "aim-mcq-30",
-        "aim-mcq-29",
-        "aim-mcq-31",
-        "aim-mcq-28",
-        "aim-mcq-32",
-        "aim-mcq-27"
+        "aim-mcq-40",
+        "aim-mcq-20",
+        "aim-mcq-11"
       ],
       "explanation": "本句的「good aim」指「瞄得準」。",
       "sentenceIndex": 87,
@@ -3748,12 +3413,10 @@ export default {
         "good aim"
       ],
       "optionReasons": {
-        "aim-mcq-30": "本句指「瞄得準」。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。"
+        "aim-mcq-30": "本句的「good aim」指「瞄得準」。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-30"
     },
@@ -3765,11 +3428,9 @@ export default {
       "masked": "His good ____ helped him hit the target.",
       "options": [
         "aim-mcq-30",
-        "aim-mcq-29",
-        "aim-mcq-31",
-        "aim-mcq-28",
-        "aim-mcq-32",
-        "aim-mcq-27"
+        "aim-mcq-22",
+        "aim-mcq-38",
+        "aim-mcq-11"
       ],
       "explanation": "本句的「aim」指「瞄得準」。",
       "sentenceIndex": 88,
@@ -3778,12 +3439,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-30": "本句指「瞄得準」。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-27": "「把相機對準」與本句語境不同。"
+        "aim-mcq-30": "本句的「aim」指「瞄得準」。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-30"
     },
@@ -3795,11 +3454,9 @@ export default {
       "masked": "His ____.",
       "options": [
         "aim-mcq-31",
-        "aim-mcq-30",
-        "aim-mcq-32",
-        "aim-mcq-29",
-        "aim-mcq-33",
-        "aim-mcq-28"
+        "aim-mcq-14",
+        "aim-mcq-23",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aim was poor」指「瞄得不準」。",
       "sentenceIndex": 89,
@@ -3808,12 +3465,10 @@ export default {
         "aim was poor"
       ],
       "optionReasons": {
-        "aim-mcq-31": "本句指「瞄得不準」。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。"
+        "aim-mcq-31": "本句的「aim was poor」指「瞄得不準」。",
+        "aim-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-31"
     },
@@ -3825,11 +3480,9 @@ export default {
       "masked": "Poor ____ caused the ball to miss the target.",
       "options": [
         "aim-mcq-31",
-        "aim-mcq-30",
-        "aim-mcq-32",
-        "aim-mcq-29",
-        "aim-mcq-33",
-        "aim-mcq-28"
+        "aim-mcq-10",
+        "aim-mcq-21",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aim」指「瞄得不準」。",
       "sentenceIndex": 90,
@@ -3838,12 +3491,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-31": "本句指「瞄得不準」。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。"
+        "aim-mcq-31": "本句的「aim」指「瞄得不準」。",
+        "aim-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-31"
     },
@@ -3855,11 +3506,9 @@ export default {
       "masked": "Keep a ____.",
       "options": [
         "aim-mcq-31",
-        "aim-mcq-30",
-        "aim-mcq-32",
-        "aim-mcq-29",
-        "aim-mcq-33",
-        "aim-mcq-28"
+        "aim-mcq-17",
+        "aim-mcq-20",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「steady aim」指「瞄得不準」。",
       "sentenceIndex": 91,
@@ -3868,12 +3517,10 @@ export default {
         "steady aim"
       ],
       "optionReasons": {
-        "aim-mcq-31": "本句指「瞄得不準」。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。"
+        "aim-mcq-31": "本句的「steady aim」指「瞄得不準」。",
+        "aim-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-31"
     },
@@ -3885,11 +3532,9 @@ export default {
       "masked": "A steady ____ is important in archery.",
       "options": [
         "aim-mcq-31",
-        "aim-mcq-30",
-        "aim-mcq-32",
-        "aim-mcq-29",
-        "aim-mcq-33",
-        "aim-mcq-28"
+        "aim-mcq-39",
+        "aim-mcq-40",
+        "aim-mcq-20"
       ],
       "explanation": "本句的「aim」指「瞄得不準」。",
       "sentenceIndex": 92,
@@ -3898,12 +3543,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-31": "本句指「瞄得不準」。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-28": "「瞄準」與本句語境不同。"
+        "aim-mcq-31": "本句的「aim」指「瞄得不準」。",
+        "aim-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-31"
     },
@@ -3915,11 +3558,9 @@ export default {
       "masked": "The organisation is ____.",
       "options": [
         "aim-mcq-32",
-        "aim-mcq-31",
-        "aim-mcq-33",
-        "aim-mcq-30",
-        "aim-mcq-34",
-        "aim-mcq-29"
+        "aim-pdf-001",
+        "aim-mcq-23",
+        "aim-mcq-27"
       ],
       "explanation": "本句的「aiming towards greater transparency」指「朝 X 努力」。",
       "sentenceIndex": 97,
@@ -3928,12 +3569,10 @@ export default {
         "aiming towards greater transparency"
       ],
       "optionReasons": {
-        "aim-mcq-32": "本句指「朝 X 努力」。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。"
+        "aim-mcq-32": "本句的「aiming towards greater transparency」指「朝 X 努力」。",
+        "aim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-32"
     },
@@ -3945,11 +3584,9 @@ export default {
       "masked": "The programme ____ toward long-term independence.",
       "options": [
         "aim-mcq-32",
-        "aim-mcq-31",
-        "aim-mcq-33",
-        "aim-mcq-30",
-        "aim-mcq-34",
-        "aim-mcq-29"
+        "aim-pdf-001",
+        "aim-mcq-41",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aims」指「朝 X 努力」。",
       "sentenceIndex": 98,
@@ -3958,12 +3595,10 @@ export default {
         "aims"
       ],
       "optionReasons": {
-        "aim-mcq-32": "本句指「朝 X 努力」。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-29": "「瞄準／抨擊 X」與本句語境不同。"
+        "aim-mcq-32": "本句的「aims」指「朝 X 努力」。",
+        "aim-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-32"
     },
@@ -3975,11 +3610,9 @@ export default {
       "masked": "Students should ____.",
       "options": [
         "aim-mcq-33",
-        "aim-mcq-32",
-        "aim-mcq-34",
-        "aim-mcq-31",
-        "aim-mcq-35",
-        "aim-mcq-30"
+        "aim-mcq-19",
+        "aim-mcq-41",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aim high」指「把目標定高」。",
       "sentenceIndex": 99,
@@ -3988,12 +3621,10 @@ export default {
         "aim high"
       ],
       "optionReasons": {
-        "aim-mcq-33": "本句指「把目標定高」。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。"
+        "aim-mcq-33": "本句的「aim high」指「把目標定高」。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-33"
     },
@@ -4005,11 +3636,9 @@ export default {
       "masked": "If you want to improve, ____ high but remain realistic.",
       "options": [
         "aim-mcq-33",
-        "aim-mcq-32",
-        "aim-mcq-34",
-        "aim-mcq-31",
-        "aim-mcq-35",
-        "aim-mcq-30"
+        "aim-mcq-23",
+        "aim-mcq-29",
+        "aim-mcq-16"
       ],
       "explanation": "本句的「aim」指「把目標定高」。",
       "sentenceIndex": 100,
@@ -4018,12 +3647,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-33": "本句指「把目標定高」。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-30": "「瞄得準」與本句語境不同。"
+        "aim-mcq-33": "本句的「aim」指「把目標定高」。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-33"
     },
@@ -4035,11 +3662,9 @@ export default {
       "masked": "The team met its target and decided to ____.",
       "options": [
         "aim-mcq-34",
-        "aim-mcq-33",
-        "aim-mcq-35",
-        "aim-mcq-32",
-        "aim-mcq-36",
-        "aim-mcq-31"
+        "aim-mcq-24",
+        "aim-mcq-21",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「aim higher」指「追求更高目標」。",
       "sentenceIndex": 101,
@@ -4048,12 +3673,10 @@ export default {
         "aim higher"
       ],
       "optionReasons": {
-        "aim-mcq-34": "本句指「追求更高目標」。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。"
+        "aim-mcq-34": "本句的「aim higher」指「追求更高目標」。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-34"
     },
@@ -4065,11 +3688,9 @@ export default {
       "masked": "Don't settle too early—____ higher.",
       "options": [
         "aim-mcq-34",
-        "aim-mcq-33",
-        "aim-mcq-35",
-        "aim-mcq-32",
-        "aim-mcq-36",
-        "aim-mcq-31"
+        "aim-mcq-28",
+        "aim-mcq-15",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aim」指「追求更高目標」。",
       "sentenceIndex": 102,
@@ -4078,12 +3699,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-34": "本句指「追求更高目標」。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-31": "「瞄得不準」與本句語境不同。"
+        "aim-mcq-34": "本句的「aim」指「追求更高目標」。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-34"
     },
@@ -4095,10 +3714,8 @@ export default {
       "masked": "If you ____, you may never discover what you can achieve.",
       "options": [
         "aim-mcq-35",
-        "aim-mcq-34",
-        "aim-mcq-36",
-        "aim-mcq-33",
-        "aim-mcq-37",
+        "aim-mcq-19",
+        "aim-mcq-24",
         "aim-mcq-32"
       ],
       "explanation": "本句的「aim too low」指「把目標定低／瞄低」。",
@@ -4108,12 +3725,10 @@ export default {
         "aim too low"
       ],
       "optionReasons": {
-        "aim-mcq-35": "本句指「把目標定低／瞄低」。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。"
+        "aim-mcq-35": "本句的「aim too low」指「把目標定低／瞄低」。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-35"
     },
@@ -4125,11 +3740,9 @@ export default {
       "masked": "____ slightly lower.",
       "options": [
         "aim-mcq-35",
-        "aim-mcq-34",
-        "aim-mcq-36",
-        "aim-mcq-33",
-        "aim-mcq-37",
-        "aim-mcq-32"
+        "aim-mcq-23",
+        "aim-mcq-38",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「Aim」指「把目標定低／瞄低」。",
       "sentenceIndex": 104,
@@ -4138,12 +3751,10 @@ export default {
         "Aim"
       ],
       "optionReasons": {
-        "aim-mcq-35": "本句指「把目標定低／瞄低」。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-32": "「朝 X 努力」與本句語境不同。"
+        "aim-mcq-35": "本句的「Aim」指「把目標定低／瞄低」。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-35"
     },
@@ -4155,11 +3766,9 @@ export default {
       "masked": "A ____ hit the target.",
       "options": [
         "aim-mcq-36",
-        "aim-mcq-35",
-        "aim-mcq-37",
-        "aim-mcq-34",
-        "aim-mcq-38",
-        "aim-mcq-33"
+        "aim-mcq-08",
+        "aim-mcq-24",
+        "aim-mcq-38"
       ],
       "explanation": "本句的「well-aimed shot」指「瞄得準／切中要害」。",
       "sentenceIndex": 105,
@@ -4168,12 +3777,10 @@ export default {
         "well-aimed shot"
       ],
       "optionReasons": {
-        "aim-mcq-36": "本句指「瞄得準／切中要害」。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。"
+        "aim-mcq-36": "本句的「well-aimed shot」指「瞄得準／切中要害」。",
+        "aim-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-36"
     },
@@ -4185,11 +3792,9 @@ export default {
       "masked": "Her well-____ criticism focused on the process rather than the person.",
       "options": [
         "aim-mcq-36",
-        "aim-mcq-35",
-        "aim-mcq-37",
-        "aim-mcq-34",
-        "aim-mcq-38",
-        "aim-mcq-33"
+        "aim-mcq-06",
+        "aim-mcq-23",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aimed」指「瞄得準／切中要害」。",
       "sentenceIndex": 106,
@@ -4198,12 +3803,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-36": "本句指「瞄得準／切中要害」。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。"
+        "aim-mcq-36": "本句的「aimed」指「瞄得準／切中要害」。",
+        "aim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-36"
     },
@@ -4215,11 +3818,9 @@ export default {
       "masked": "His ____ exposed the weakness in the argument.",
       "options": [
         "aim-mcq-36",
-        "aim-mcq-35",
-        "aim-mcq-37",
-        "aim-mcq-34",
-        "aim-mcq-38",
-        "aim-mcq-33"
+        "aim-mcq-32",
+        "aim-mcq-20",
+        "aim-mcq-01"
       ],
       "explanation": "本句的「well-aimed remark」指「瞄得準／切中要害」。",
       "sentenceIndex": 107,
@@ -4228,12 +3829,10 @@ export default {
         "well-aimed remark"
       ],
       "optionReasons": {
-        "aim-mcq-36": "本句指「瞄得準／切中要害」。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。"
+        "aim-mcq-36": "本句的「well-aimed remark」指「瞄得準／切中要害」。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-36"
     },
@@ -4245,11 +3844,9 @@ export default {
       "masked": "The report contains some well-____ criticism.",
       "options": [
         "aim-mcq-36",
-        "aim-mcq-35",
-        "aim-mcq-37",
-        "aim-mcq-34",
-        "aim-mcq-38",
-        "aim-mcq-33"
+        "aim-mcq-18",
+        "aim-mcq-23",
+        "aim-mcq-40"
       ],
       "explanation": "本句的「aimed」指「瞄得準／切中要害」。",
       "sentenceIndex": 108,
@@ -4258,12 +3855,10 @@ export default {
         "aimed"
       ],
       "optionReasons": {
-        "aim-mcq-36": "本句指「瞄得準／切中要害」。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-33": "「把目標定高」與本句語境不同。"
+        "aim-mcq-36": "本句的「aimed」指「瞄得準／切中要害」。",
+        "aim-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-36"
     },
@@ -4275,11 +3870,9 @@ export default {
       "masked": "The meeting became ____.",
       "options": [
         "aim-pdf-001",
-        "aim-mcq-36",
-        "aim-mcq-38",
-        "aim-mcq-35",
-        "aim-mcq-39",
-        "aim-mcq-34"
+        "aim-mcq-19",
+        "aim-mcq-23",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aimless」指「沒有清晰目的、方向或計劃的」。",
       "sentenceIndex": 109,
@@ -4288,12 +3881,10 @@ export default {
         "aimless"
       ],
       "optionReasons": {
-        "aim-pdf-001": "本句指「沒有清晰目的、方向或計劃的」。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。"
+        "aim-pdf-001": "本句的「aimless」指「沒有清晰目的、方向或計劃的」。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-pdf-001"
     },
@@ -4305,11 +3896,9 @@ export default {
       "masked": "Without a clear objective, discussion can become ____.",
       "options": [
         "aim-pdf-001",
-        "aim-mcq-36",
-        "aim-mcq-38",
-        "aim-mcq-35",
-        "aim-mcq-39",
-        "aim-mcq-34"
+        "aim-mcq-16",
+        "aim-mcq-41",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aimless」指「沒有清晰目的、方向或計劃的」。",
       "sentenceIndex": 110,
@@ -4318,12 +3907,10 @@ export default {
         "aimless"
       ],
       "optionReasons": {
-        "aim-pdf-001": "本句指「沒有清晰目的、方向或計劃的」。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-34": "「追求更高目標」與本句語境不同。"
+        "aim-pdf-001": "本句的「aimless」指「沒有清晰目的、方向或計劃的」。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-pdf-001"
     },
@@ -4335,11 +3922,9 @@ export default {
       "masked": "The meeting turned into an ____.",
       "options": [
         "aim-mcq-38",
-        "aim-mcq-37",
-        "aim-mcq-39",
-        "aim-mcq-36",
-        "aim-mcq-40",
-        "aim-mcq-35"
+        "aim-mcq-26",
+        "aim-mcq-32",
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aimless discussion」指「沒有方向的討論」。",
       "sentenceIndex": 111,
@@ -4348,12 +3933,10 @@ export default {
         "aimless discussion"
       ],
       "optionReasons": {
-        "aim-mcq-38": "本句指「沒有方向的討論」。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。"
+        "aim-mcq-38": "本句的「aimless discussion」指「沒有方向的討論」。",
+        "aim-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-38"
     },
@@ -4365,11 +3948,9 @@ export default {
       "masked": "Clear questions prevent ____ conversation.",
       "options": [
         "aim-mcq-38",
-        "aim-mcq-37",
-        "aim-mcq-39",
-        "aim-mcq-36",
-        "aim-mcq-40",
-        "aim-mcq-35"
+        "aim-mcq-13",
+        "aim-mcq-16",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aimless」指「沒有方向的討論」。",
       "sentenceIndex": 112,
@@ -4378,12 +3959,10 @@ export default {
         "aimless"
       ],
       "optionReasons": {
-        "aim-mcq-38": "本句指「沒有方向的討論」。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-35": "「把目標定低／瞄低」與本句語境不同。"
+        "aim-mcq-38": "本句的「aimless」指「沒有方向的討論」。",
+        "aim-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-38"
     },
@@ -4395,11 +3974,9 @@ export default {
       "masked": "He spent the afternoon in ____ around the city.",
       "options": [
         "aim-mcq-39",
-        "aim-mcq-38",
-        "aim-mcq-40",
-        "aim-mcq-37",
-        "aim-mcq-41",
-        "aim-mcq-36"
+        "aim-mcq-31",
+        "aim-mcq-20",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aimless wandering」指「漫無目的地」。",
       "sentenceIndex": 113,
@@ -4408,12 +3985,10 @@ export default {
         "aimless wandering"
       ],
       "optionReasons": {
-        "aim-mcq-39": "本句指「漫無目的地」。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。"
+        "aim-mcq-39": "本句的「aimless wandering」指「漫無目的地」。",
+        "aim-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-39"
     },
@@ -4426,10 +4001,8 @@ export default {
       "options": [
         "aim-mcq-39",
         "aim-mcq-38",
-        "aim-mcq-40",
-        "aim-mcq-37",
-        "aim-mcq-41",
-        "aim-mcq-36"
+        "aim-mcq-32",
+        "aim-mcq-41"
       ],
       "explanation": "本句的「aimless」指「漫無目的地」。",
       "sentenceIndex": 114,
@@ -4438,12 +4011,10 @@ export default {
         "aimless"
       ],
       "optionReasons": {
-        "aim-mcq-39": "本句指「漫無目的地」。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。"
+        "aim-mcq-39": "本句的「aimless」指「漫無目的地」。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-39"
     },
@@ -4455,11 +4026,9 @@ export default {
       "masked": "He walked ____ around the station.",
       "options": [
         "aim-mcq-39",
-        "aim-mcq-38",
-        "aim-mcq-40",
-        "aim-mcq-37",
-        "aim-mcq-41",
-        "aim-mcq-36"
+        "aim-mcq-21",
+        "aim-mcq-16",
+        "aim-mcq-24"
       ],
       "explanation": "本句的「aimlessly」指「漫無目的地」。",
       "sentenceIndex": 115,
@@ -4468,12 +4037,10 @@ export default {
         "aimlessly"
       ],
       "optionReasons": {
-        "aim-mcq-39": "本句指「漫無目的地」。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。"
+        "aim-mcq-39": "本句的「aimlessly」指「漫無目的地」。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-39"
     },
@@ -4485,11 +4052,9 @@ export default {
       "masked": "The discussion drifted ____ from one topic to another.",
       "options": [
         "aim-mcq-39",
-        "aim-mcq-38",
-        "aim-mcq-40",
-        "aim-mcq-37",
-        "aim-mcq-41",
-        "aim-mcq-36"
+        "aim-mcq-31",
+        "aim-mcq-22",
+        "aim-mcq-19"
       ],
       "explanation": "本句的「aimlessly」指「漫無目的地」。",
       "sentenceIndex": 116,
@@ -4498,12 +4063,10 @@ export default {
         "aimlessly"
       ],
       "optionReasons": {
-        "aim-mcq-39": "本句指「漫無目的地」。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-36": "「瞄得準／切中要害」與本句語境不同。"
+        "aim-mcq-39": "本句的「aimlessly」指「漫無目的地」。",
+        "aim-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-39"
     },
@@ -4515,11 +4078,9 @@ export default {
       "masked": "The project's early ____ caused confusion.",
       "options": [
         "aim-mcq-40",
-        "aim-mcq-39",
-        "aim-mcq-41",
-        "aim-mcq-38",
-        "aim-mcq-42",
-        "aim-mcq-37"
+        "aim-mcq-28",
+        "aim-mcq-23",
+        "aim-mcq-33"
       ],
       "explanation": "本句的「aimlessness」指「缺乏方向」。",
       "sentenceIndex": 117,
@@ -4528,12 +4089,10 @@ export default {
         "aimlessness"
       ],
       "optionReasons": {
-        "aim-mcq-40": "本句指「缺乏方向」。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-42": "「瞄準線」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。"
+        "aim-mcq-40": "本句的「aimlessness」指「缺乏方向」。",
+        "aim-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-40"
     },
@@ -4545,11 +4104,9 @@ export default {
       "masked": "Clear leadership reduced the sense of ____.",
       "options": [
         "aim-mcq-40",
-        "aim-mcq-39",
-        "aim-mcq-41",
-        "aim-mcq-38",
-        "aim-mcq-42",
-        "aim-mcq-37"
+        "aim-mcq-31",
+        "aim-mcq-04",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「aimlessness」指「缺乏方向」。",
       "sentenceIndex": 118,
@@ -4558,12 +4115,10 @@ export default {
         "aimlessness"
       ],
       "optionReasons": {
-        "aim-mcq-40": "本句指「缺乏方向」。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-42": "「瞄準線」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。"
+        "aim-mcq-40": "本句的「aimlessness」指「缺乏方向」。",
+        "aim-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-40"
     },
@@ -4575,11 +4130,9 @@ export default {
       "masked": "The centre of the target is the ____.",
       "options": [
         "aim-mcq-41",
-        "aim-mcq-40",
-        "aim-mcq-42",
-        "aim-mcq-39",
+        "aim-mcq-04",
         "aim-mcq-38",
-        "aim-mcq-37"
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aiming point」指「瞄準點」。",
       "sentenceIndex": 119,
@@ -4588,12 +4141,10 @@ export default {
         "aiming point"
       ],
       "optionReasons": {
-        "aim-mcq-41": "本句指「瞄準點」。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-42": "「瞄準線」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。"
+        "aim-mcq-41": "本句的「aiming point」指「瞄準點」。",
+        "aim-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-41"
     },
@@ -4605,11 +4156,9 @@ export default {
       "masked": "The pilot adjusted the ____ point.",
       "options": [
         "aim-mcq-41",
-        "aim-mcq-40",
-        "aim-mcq-42",
-        "aim-mcq-39",
-        "aim-mcq-38",
-        "aim-mcq-37"
+        "aim-mcq-02",
+        "aim-mcq-16",
+        "aim-mcq-21"
       ],
       "explanation": "本句的「aiming」指「瞄準點」。",
       "sentenceIndex": 120,
@@ -4618,12 +4167,10 @@ export default {
         "aiming"
       ],
       "optionReasons": {
-        "aim-mcq-41": "本句指「瞄準點」。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-42": "「瞄準線」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。"
+        "aim-mcq-41": "本句的「aiming」指「瞄準點」。",
+        "aim-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-41"
     },
@@ -4635,11 +4182,9 @@ export default {
       "masked": "The sight helps establish the ____.",
       "options": [
         "aim-mcq-42",
-        "aim-mcq-41",
-        "aim-mcq-40",
-        "aim-mcq-39",
-        "aim-mcq-38",
-        "aim-mcq-37"
+        "aim-mcq-06",
+        "aim-mcq-20",
+        "aim-mcq-22"
       ],
       "explanation": "本句的「line of aim」指「瞄準線」。",
       "sentenceIndex": 121,
@@ -4648,12 +4193,10 @@ export default {
         "line of aim"
       ],
       "optionReasons": {
-        "aim-mcq-42": "本句指「瞄準線」。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。"
+        "aim-mcq-42": "本句的「line of aim」指「瞄準線」。",
+        "aim-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-42"
     },
@@ -4665,11 +4208,9 @@ export default {
       "masked": "The target must remain in the line of ____.",
       "options": [
         "aim-mcq-42",
-        "aim-mcq-41",
-        "aim-mcq-40",
-        "aim-mcq-39",
-        "aim-mcq-38",
-        "aim-mcq-37"
+        "aim-mcq-12",
+        "aim-mcq-22",
+        "aim-mcq-15"
       ],
       "explanation": "本句的「aim」指「瞄準線」。",
       "sentenceIndex": 122,
@@ -4678,12 +4219,10 @@ export default {
         "aim"
       ],
       "optionReasons": {
-        "aim-mcq-42": "本句指「瞄準線」。",
-        "aim-mcq-41": "「瞄準點」與本句語境不同。",
-        "aim-mcq-40": "「缺乏方向」與本句語境不同。",
-        "aim-mcq-39": "「漫無目的地」與本句語境不同。",
-        "aim-mcq-38": "「沒有方向的討論」與本句語境不同。",
-        "aim-mcq-37": "「漫無目的的」與本句語境不同。"
+        "aim-mcq-42": "本句的「aim」指「瞄準線」。",
+        "aim-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "aim-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "aim-mcq-42"
     }
@@ -4695,5 +4234,7 @@ export default {
     "sha256": "71d9fb5242b2165813d8687c6757151673667b5e0a79ce0d837a7e2aa82034b9",
     "pages": 44
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

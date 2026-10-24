@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "hear-mcq-02",
-      "title": "表示聽見；聽到；例句：「我可以聽到樓上的音樂。」",
+      "title": "聽見；聽到",
       "form": "hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到",
       "en": "hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到",
       "zh": "表示聽見；聽到；例句：「我可以聽到樓上的音樂。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "hear-mcq-03",
-      "title": "表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」",
+      "title": "聽見某人／某物的聲音",
       "form": "hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音",
       "en": "hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音",
       "zh": "表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "hear-mcq-04",
-      "title": "表示聽見某人做某事；例句：「我聽見他把門關上。」",
+      "title": "聽見某人做某事",
       "form": "hear someone do something = hear the whole action or event 聽見某人做某事",
       "en": "hear someone do something = hear the whole action or event 聽見某人做某事",
       "zh": "表示聽見某人做某事；例句：「我聽見他把門關上。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "hear-mcq-05",
-      "title": "表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」",
+      "title": "聽見某人正在做某事",
       "form": "hear someone doing something = hear an action while it is in progress 聽見某人正在做某事",
       "en": "hear someone doing something = hear an action while it is in progress 聽見某人正在做某事",
       "zh": "表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "hear-mcq-06",
-      "title": "表示聽得到；能聽見；例句：「你聽得到我嗎？」",
+      "title": "聽得到；能聽見",
       "form": "can hear = be able to perceive a sound 聽得到；能聽見",
       "en": "can hear = be able to perceive a sound 聽得到；能聽見",
       "zh": "表示聽得到；能聽見；例句：「你聽得到我嗎？」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "hear-mcq-07",
-      "title": "表示聽清楚；聽得清；例句：「我聽不清楚你說話。」",
+      "title": "聽清楚；聽得清",
       "form": "hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清",
       "en": "hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清",
       "zh": "表示聽清楚；聽得清；例句：「我聽不清楚你說話。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "hear-mcq-08",
-      "title": "表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」",
+      "title": "聽到；聽見某人所說的話",
       "form": "hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話",
       "en": "hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話",
       "zh": "表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "hear-mcq-09",
-      "title": "表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」",
+      "title": "把某人的話聽完",
       "form": "hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完",
       "en": "hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完",
       "zh": "表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "hear-mcq-10",
-      "title": "表示聽說；得知；例句：「你有聽說那場事故嗎？」",
+      "title": "聽說；得知",
       "form": "hear about something = learn information or news concerning something 聽說；得知",
       "en": "hear about something = learn information or news concerning something 聽說；得知",
       "zh": "表示聽說；得知；例句：「你有聽說那場事故嗎？」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "hear-mcq-11",
-      "title": "表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」",
+      "title": "聽說過；知道有……",
       "form": "hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……",
       "en": "hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……",
       "zh": "表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "hear-mcq-12",
-      "title": "表示聽說；得知；例句：「我聽說你找到新工作了。」",
+      "title": "聽說；得知",
       "form": "hear that... = learn or be told that something is true 聽說；得知",
       "en": "hear that... = learn or be told that something is true 聽說；得知",
       "zh": "表示聽說；得知；例句：「我聽說你找到新工作了。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "hear-mcq-14",
-      "title": "表示收到回覆；得到答覆；例句：「我還在等公司回覆。」",
+      "title": "收到回覆；得到答覆",
       "form": "hear back from someone = receive a reply or response from someone 收到回覆；得到答覆",
       "en": "hear back from someone = receive a reply or response from someone 收到回覆；得到答覆",
       "zh": "表示收到回覆；得到答覆；例句：「我還在等公司回覆。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "hear-mcq-15",
-      "title": "表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」",
+      "title": "從某人那裡得知",
       "form": "hear something from someone = receive information from a particular source 從某人那裡得知",
       "en": "hear something from someone = receive information from a particular source 從某人那裡得知",
       "zh": "表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "hear-mcq-16",
-      "title": "表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」",
+      "title": "得到消息；聽到消息",
       "form": "hear word / hear news = receive news or information 得到消息；聽到消息",
       "en": "hear word / hear news = receive news or information 得到消息；聽到消息",
       "zh": "表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "hear-mcq-17",
-      "title": "表示審理案件；例句：「法院下個月將審理此案。」",
+      "title": "審理案件",
       "form": "hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件",
       "en": "hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件",
       "zh": "表示審理案件；例句：「法院下個月將審理此案。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "hear-mcq-18",
-      "title": "表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」",
+      "title": "聽取證據／證詞",
       "form": "hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞",
       "en": "hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞",
       "zh": "表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "hear-mcq-23",
-      "title": "表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」",
+      "title": "說得好！贊成！",
       "form": "hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！",
       "en": "hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！",
       "zh": "表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "hear-mcq-24",
-      "title": "表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」",
+      "title": "你沒聽錯；我就是這個意思",
       "form": "you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思",
       "en": "you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思",
       "zh": "表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "hear-mcq-25",
-      "title": "表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」",
+      "title": "你聽說了嗎？",
       "form": "have you heard? = used to introduce news or gossip 你聽說了嗎？",
       "en": "have you heard? = used to introduce news or gossip 你聽說了嗎？",
       "zh": "表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "hear-mcq-28",
-      "title": "表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」",
+      "title": "垂聽；聽取",
       "form": "hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取",
       "en": "hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取",
       "zh": "表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」",
@@ -623,7 +623,7 @@ export default {
     },
     {
       "id": "hear-mcq-29",
-      "title": "表示聽力；例句：「他的聽力隨著年齡增長而下降。」",
+      "title": "聽力",
       "form": "hearing — ability to hear = the physical sense by which sounds are perceived 聽力",
       "en": "hearing — ability to hear = the physical sense by which sounds are perceived 聽力",
       "zh": "表示聽力；例句：「他的聽力隨著年齡增長而下降。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "hear-mcq-30",
-      "title": "表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」",
+      "title": "聽證會；審理程序",
       "form": "hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序",
       "en": "hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序",
       "zh": "表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "hear-mcq-31",
-      "title": "表示助聽器；例句：「他戴著助聽器。」",
+      "title": "助聽器",
       "form": "hearing aid = a device that helps a person hear better 助聽器",
       "en": "hearing aid = a device that helps a person hear better 助聽器",
       "zh": "表示助聽器；例句：「他戴著助聽器。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "hear-mcq-32",
-      "title": "表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」",
+      "title": "沒被聽見的",
       "form": "unheard",
       "en": "unheard",
       "zh": "表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "hear-mcq-33",
-      "title": "表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」",
+      "title": "聞所未聞的；罕見的",
       "form": "unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的",
       "en": "unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的",
       "zh": "表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」",
@@ -733,7 +733,7 @@ export default {
     },
     {
       "id": "hear-mcq-34",
-      "title": "表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」",
+      "title": "無意中聽到；偷聽到",
       "form": "hear vs overhear hear = perceive sound generally overhear = hear something accidentally that was not intended for you",
       "en": "hear vs overhear hear = perceive sound generally overhear = hear something accidentally that was not intended for you",
       "zh": "表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」",
@@ -763,11 +763,9 @@ export default {
       "masked": "Whenever I feel nervous, I can still ____.",
       "options": [
         "hear-mcq-01",
-        "hear-mcq-02",
-        "hear-mcq-03",
-        "hear-mcq-04",
-        "hear-mcq-05",
-        "hear-mcq-06"
+        "hear-mcq-26",
+        "hear-mcq-14",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「hear my teacher’s advice in my head」指「彷彿聽見；在腦海中想起（聲音）」。",
       "sentenceIndex": 0,
@@ -776,12 +774,10 @@ export default {
         "hear my teacher’s advice in my head"
       ],
       "optionReasons": {
-        "hear-mcq-01": "本句指「彷彿聽見；在腦海中想起（聲音）」。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-01": "本句的「hear my teacher’s advice in my head」指「彷彿聽見；在腦海中想起（聲音）」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-01"
     },
@@ -793,11 +789,9 @@ export default {
       "masked": "Years later, she could still ____.",
       "options": [
         "hear-mcq-01",
-        "hear-mcq-02",
-        "hear-mcq-03",
-        "hear-mcq-04",
-        "hear-mcq-05",
-        "hear-mcq-06"
+        "hear-mcq-26",
+        "hear-mcq-23",
+        "hear-mcq-13"
       ],
       "explanation": "本句的「hear her father’s voice in her mind」指「彷彿聽見；在腦海中想起（聲音）」。",
       "sentenceIndex": 1,
@@ -806,12 +800,10 @@ export default {
         "hear her father’s voice in her mind"
       ],
       "optionReasons": {
-        "hear-mcq-01": "本句指「彷彿聽見；在腦海中想起（聲音）」。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-01": "本句的「hear her father’s voice in her mind」指「彷彿聽見；在腦海中想起（聲音）」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-01"
     },
@@ -823,11 +815,9 @@ export default {
       "masked": "I can ____ upstairs.",
       "options": [
         "hear-mcq-02",
-        "hear-mcq-01",
-        "hear-mcq-03",
-        "hear-mcq-04",
-        "hear-mcq-05",
-        "hear-mcq-06"
+        "hear-mcq-14",
+        "hear-mcq-17",
+        "hear-mcq-22"
       ],
       "explanation": "本句的「hear music」指「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」。",
       "sentenceIndex": 2,
@@ -836,12 +826,10 @@ export default {
         "hear music"
       ],
       "optionReasons": {
-        "hear-mcq-02": "本句指「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」。",
-        "hear-mcq-01": "「彷彿聽見；在腦海中想起（聲音）」是「Passage anchor > “Even now, I can still hear her voice in the back of my mind whenever I feel self-doubt creeping in.」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-02": "本句的「hear music」指「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-02"
     },
@@ -853,11 +841,9 @@ export default {
       "masked": "Did you ____?",
       "options": [
         "hear-mcq-02",
-        "hear-mcq-01",
-        "hear-mcq-03",
-        "hear-mcq-04",
-        "hear-mcq-05",
-        "hear-mcq-06"
+        "hear-mcq-26",
+        "hear-mcq-21",
+        "hear-mcq-15"
       ],
       "explanation": "本句的「hear that noise」指「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」。",
       "sentenceIndex": 3,
@@ -866,12 +852,10 @@ export default {
         "hear that noise"
       ],
       "optionReasons": {
-        "hear-mcq-02": "本句指「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」。",
-        "hear-mcq-01": "「彷彿聽見；在腦海中想起（聲音）」是「Passage anchor > “Even now, I can still hear her voice in the back of my mind whenever I feel self-doubt creeping in.」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-02": "本句的「hear that noise」指「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-02"
     },
@@ -883,11 +867,9 @@ export default {
       "masked": "I could ____ outside.",
       "options": [
         "hear-mcq-03",
-        "hear-mcq-02",
-        "hear-mcq-04",
-        "hear-mcq-01",
-        "hear-mcq-05",
-        "hear-mcq-06"
+        "hear-mcq-26",
+        "hear-mcq-22",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「hear the children laughing」指「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」。",
       "sentenceIndex": 4,
@@ -896,12 +878,10 @@ export default {
         "hear the children laughing"
       ],
       "optionReasons": {
-        "hear-mcq-03": "本句指「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-01": "「彷彿聽見；在腦海中想起（聲音）」是「Passage anchor > “Even now, I can still hear her voice in the back of my mind whenever I feel self-doubt creeping in.」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-03": "本句的「hear the children laughing」指「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-03"
     },
@@ -913,11 +893,9 @@ export default {
       "masked": "She ____ behind her.",
       "options": [
         "hear-mcq-03",
-        "hear-mcq-02",
-        "hear-mcq-04",
-        "hear-mcq-01",
-        "hear-mcq-05",
-        "hear-mcq-06"
+        "hear-mcq-14",
+        "hear-mcq-22",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「heard footsteps」指「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」。",
       "sentenceIndex": 5,
@@ -926,12 +904,10 @@ export default {
         "heard footsteps"
       ],
       "optionReasons": {
-        "hear-mcq-03": "本句指「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-01": "「彷彿聽見；在腦海中想起（聲音）」是「Passage anchor > “Even now, I can still hear her voice in the back of my mind whenever I feel self-doubt creeping in.」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-03": "本句的「heard footsteps」指「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-03"
     },
@@ -943,11 +919,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "hear-mcq-04",
-        "hear-mcq-03",
-        "hear-mcq-05",
-        "hear-mcq-02",
-        "hear-mcq-06",
-        "hear-mcq-01"
+        "hear-mcq-22",
+        "hear-mcq-17",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「heard him close the door」指「表示聽見某人做某事；例句：「我聽見他把門關上。」」。",
       "sentenceIndex": 6,
@@ -956,12 +930,10 @@ export default {
         "heard him close the door"
       ],
       "optionReasons": {
-        "hear-mcq-04": "本句指「表示聽見某人做某事；例句：「我聽見他把門關上。」」。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-01": "「彷彿聽見；在腦海中想起（聲音）」是「Passage anchor > “Even now, I can still hear her voice in the back of my mind whenever I feel self-doubt creeping in.」的用法，與本句語境不同。"
+        "hear-mcq-04": "本句的「heard him close the door」指「表示聽見某人做某事；例句：「我聽見他把門關上。」」。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-04"
     },
@@ -973,11 +945,9 @@ export default {
       "masked": "We ____ outside.",
       "options": [
         "hear-mcq-04",
-        "hear-mcq-03",
-        "hear-mcq-05",
-        "hear-mcq-02",
-        "hear-mcq-06",
-        "hear-mcq-01"
+        "hear-mcq-17",
+        "hear-mcq-14",
+        "hear-mcq-21"
       ],
       "explanation": "本句的「heard someone shout」指「表示聽見某人做某事；例句：「我聽見他把門關上。」」。",
       "sentenceIndex": 7,
@@ -986,12 +956,10 @@ export default {
         "heard someone shout"
       ],
       "optionReasons": {
-        "hear-mcq-04": "本句指「表示聽見某人做某事；例句：「我聽見他把門關上。」」。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-01": "「彷彿聽見；在腦海中想起（聲音）」是「Passage anchor > “Even now, I can still hear her voice in the back of my mind whenever I feel self-doubt creeping in.」的用法，與本句語境不同。"
+        "hear-mcq-04": "本句的「heard someone shout」指「表示聽見某人做某事；例句：「我聽見他把門關上。」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-04"
     },
@@ -1003,11 +971,9 @@ export default {
       "masked": "I ____ in the kitchen.",
       "options": [
         "hear-mcq-05",
-        "hear-mcq-04",
-        "hear-mcq-06",
-        "hear-mcq-03",
-        "hear-mcq-07",
-        "hear-mcq-02"
+        "hear-mcq-21",
+        "hear-mcq-17",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「heard her singing」指「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」。",
       "sentenceIndex": 8,
@@ -1016,12 +982,10 @@ export default {
         "heard her singing"
       ],
       "optionReasons": {
-        "hear-mcq-05": "本句指「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。"
+        "hear-mcq-05": "本句的「heard her singing」指「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-05"
     },
@@ -1033,11 +997,9 @@ export default {
       "masked": "He could ____ in the next room.",
       "options": [
         "hear-mcq-05",
-        "hear-mcq-04",
-        "hear-mcq-06",
-        "hear-mcq-03",
-        "hear-mcq-07",
-        "hear-mcq-02"
+        "hear-mcq-17",
+        "hear-mcq-21",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「hear people talking」指「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」。",
       "sentenceIndex": 9,
@@ -1046,12 +1008,10 @@ export default {
         "hear people talking"
       ],
       "optionReasons": {
-        "hear-mcq-05": "本句指「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-02": "「表示聽見；聽到；例句：「我可以聽到樓上的音樂。」」是「hear — perceive sound with your ears = become aware of a sound through your ears 聽見；聽到」的用法，與本句語境不同。"
+        "hear-mcq-05": "本句的「hear people talking」指「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-05"
     },
@@ -1063,11 +1023,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "hear-mcq-06",
-        "hear-mcq-05",
-        "hear-mcq-07",
-        "hear-mcq-04",
-        "hear-mcq-08",
-        "hear-mcq-03"
+        "hear-mcq-23",
+        "hear-mcq-15",
+        "hear-mcq-22"
       ],
       "explanation": "本句的「hear me」指「表示聽得到；能聽見；例句：「你聽得到我嗎？」」。",
       "sentenceIndex": 10,
@@ -1076,12 +1034,10 @@ export default {
         "hear me"
       ],
       "optionReasons": {
-        "hear-mcq-06": "本句指「表示聽得到；能聽見；例句：「你聽得到我嗎？」」。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。"
+        "hear-mcq-06": "本句的「hear me」指「表示聽得到；能聽見；例句：「你聽得到我嗎？」」。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-06"
     },
@@ -1093,11 +1049,9 @@ export default {
       "masked": "I can barely ____ from here.",
       "options": [
         "hear-mcq-06",
-        "hear-mcq-05",
-        "hear-mcq-07",
-        "hear-mcq-04",
-        "hear-mcq-08",
-        "hear-mcq-03"
+        "hear-mcq-26",
+        "hear-mcq-22",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「hear the television」指「表示聽得到；能聽見；例句：「你聽得到我嗎？」」。",
       "sentenceIndex": 11,
@@ -1106,12 +1060,10 @@ export default {
         "hear the television"
       ],
       "optionReasons": {
-        "hear-mcq-06": "本句指「表示聽得到；能聽見；例句：「你聽得到我嗎？」」。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-03": "「表示聽見某人／某物的聲音；例句：「我可以聽見孩子們在外面笑。」」是「hear someone / something = perceive the sound made by a person or thing 聽見某人／某物的聲音」的用法，與本句語境不同。"
+        "hear-mcq-06": "本句的「hear the television」指「表示聽得到；能聽見；例句：「你聽得到我嗎？」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-06"
     },
@@ -1123,11 +1075,9 @@ export default {
       "masked": "I can’t ____.",
       "options": [
         "hear-mcq-07",
-        "hear-mcq-06",
-        "hear-mcq-08",
-        "hear-mcq-05",
-        "hear-mcq-09",
-        "hear-mcq-04"
+        "hear-mcq-13",
+        "hear-mcq-26",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「hear you clearly」指「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」。",
       "sentenceIndex": 12,
@@ -1136,12 +1086,10 @@ export default {
         "hear you clearly"
       ],
       "optionReasons": {
-        "hear-mcq-07": "本句指「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。"
+        "hear-mcq-07": "本句的「hear you clearly」指「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-07"
     },
@@ -1153,11 +1101,9 @@ export default {
       "masked": "She doesn’t ____ without her hearing aids.",
       "options": [
         "hear-mcq-07",
-        "hear-mcq-06",
-        "hear-mcq-08",
-        "hear-mcq-05",
-        "hear-mcq-09",
-        "hear-mcq-04"
+        "hear-mcq-14",
+        "hear-mcq-15",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「hear very well」指「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」。",
       "sentenceIndex": 13,
@@ -1166,12 +1112,10 @@ export default {
         "hear very well"
       ],
       "optionReasons": {
-        "hear-mcq-07": "本句指「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-04": "「表示聽見某人做某事；例句：「我聽見他把門關上。」」是「hear someone do something = hear the whole action or event 聽見某人做某事」的用法，與本句語境不同。"
+        "hear-mcq-07": "本句的「hear very well」指「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-07"
     },
@@ -1183,11 +1127,9 @@ export default {
       "masked": "I didn’t ____.",
       "options": [
         "hear-mcq-08",
-        "hear-mcq-07",
-        "hear-mcq-09",
-        "hear-mcq-06",
-        "hear-mcq-10",
-        "hear-mcq-05"
+        "hear-mcq-21",
+        "hear-mcq-17",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「hear what she said」指「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」。",
       "sentenceIndex": 14,
@@ -1196,12 +1138,10 @@ export default {
         "hear what she said"
       ],
       "optionReasons": {
-        "hear-mcq-08": "本句指「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。"
+        "hear-mcq-08": "本句的「hear what she said」指「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-08"
     },
@@ -1213,11 +1153,9 @@ export default {
       "masked": "Did you ____?",
       "options": [
         "hear-mcq-08",
-        "hear-mcq-07",
-        "hear-mcq-09",
-        "hear-mcq-06",
-        "hear-mcq-10",
-        "hear-mcq-05"
+        "hear-mcq-22",
+        "hear-mcq-14",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「hear the announcement」指「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」。",
       "sentenceIndex": 15,
@@ -1226,12 +1164,10 @@ export default {
         "hear the announcement"
       ],
       "optionReasons": {
-        "hear-mcq-08": "本句指「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-05": "「表示聽見某人正在做某事；例句：「我聽見她正在廚房唱歌。」」是「hear someone doing something = hear an action while it is in progress 聽見某人正在做某事」的用法，與本句語境不同。"
+        "hear-mcq-08": "本句的「hear the announcement」指「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-08"
     },
@@ -1243,11 +1179,9 @@ export default {
       "masked": "Please ____ before you decide.",
       "options": [
         "hear-mcq-09",
-        "hear-mcq-08",
-        "hear-mcq-10",
-        "hear-mcq-07",
-        "hear-mcq-11",
-        "hear-mcq-06"
+        "hear-mcq-23",
+        "hear-mcq-17",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「hear me out」指「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」。",
       "sentenceIndex": 16,
@@ -1256,12 +1190,10 @@ export default {
         "hear me out"
       ],
       "optionReasons": {
-        "hear-mcq-09": "本句指「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-09": "本句的「hear me out」指「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-09"
     },
@@ -1273,11 +1205,9 @@ export default {
       "masked": "She agreed to ____.",
       "options": [
         "hear-mcq-09",
-        "hear-mcq-08",
-        "hear-mcq-10",
-        "hear-mcq-07",
-        "hear-mcq-11",
-        "hear-mcq-06"
+        "hear-mcq-26",
+        "hear-mcq-33",
+        "hear-mcq-21"
       ],
       "explanation": "本句的「hear him out」指「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」。",
       "sentenceIndex": 17,
@@ -1286,12 +1216,10 @@ export default {
         "hear him out"
       ],
       "optionReasons": {
-        "hear-mcq-09": "本句指「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-06": "「表示聽得到；能聽見；例句：「你聽得到我嗎？」」是「can hear = be able to perceive a sound 聽得到；能聽見」的用法，與本句語境不同。"
+        "hear-mcq-09": "本句的「hear him out」指「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-09"
     },
@@ -1303,11 +1231,9 @@ export default {
       "masked": "Did you ____?",
       "options": [
         "hear-mcq-10",
-        "hear-mcq-09",
-        "hear-mcq-11",
-        "hear-mcq-08",
-        "hear-mcq-12",
-        "hear-mcq-07"
+        "hear-mcq-13",
+        "hear-mcq-33",
+        "hear-mcq-22"
       ],
       "explanation": "本句的「hear about the accident」指「表示聽說；得知；例句：「你有聽說那場事故嗎？」」。",
       "sentenceIndex": 18,
@@ -1316,12 +1242,10 @@ export default {
         "hear about the accident"
       ],
       "optionReasons": {
-        "hear-mcq-10": "本句指「表示聽說；得知；例句：「你有聽說那場事故嗎？」」。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。"
+        "hear-mcq-10": "本句的「hear about the accident」指「表示聽說；得知；例句：「你有聽說那場事故嗎？」」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-10"
     },
@@ -1333,11 +1257,9 @@ export default {
       "masked": "I was sorry to ____.",
       "options": [
         "hear-mcq-10",
-        "hear-mcq-09",
-        "hear-mcq-11",
-        "hear-mcq-08",
-        "hear-mcq-12",
-        "hear-mcq-07"
+        "hear-mcq-17",
+        "hear-mcq-21",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「hear about your problem」指「表示聽說；得知；例句：「你有聽說那場事故嗎？」」。",
       "sentenceIndex": 19,
@@ -1346,12 +1268,10 @@ export default {
         "hear about your problem"
       ],
       "optionReasons": {
-        "hear-mcq-10": "本句指「表示聽說；得知；例句：「你有聽說那場事故嗎？」」。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-07": "「表示聽清楚；聽得清；例句：「我聽不清楚你說話。」」是「hear clearly / well = perceive speech or sound successfully 聽清楚；聽得清」的用法，與本句語境不同。"
+        "hear-mcq-10": "本句的「hear about your problem」指「表示聽說；得知；例句：「你有聽說那場事故嗎？」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-10"
     },
@@ -1363,11 +1283,9 @@ export default {
       "masked": "Have you ever ____?",
       "options": [
         "hear-mcq-11",
-        "hear-mcq-10",
-        "hear-mcq-12",
-        "hear-mcq-09",
-        "hear-mcq-13",
-        "hear-mcq-08"
+        "hear-mcq-14",
+        "hear-mcq-17",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「heard of this author」指「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」。",
       "sentenceIndex": 20,
@@ -1376,12 +1294,10 @@ export default {
         "heard of this author"
       ],
       "optionReasons": {
-        "hear-mcq-11": "本句指「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。"
+        "hear-mcq-11": "本句的「heard of this author」指「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-11"
     },
@@ -1393,11 +1309,9 @@ export default {
       "masked": "I’ve never ____.",
       "options": [
         "hear-mcq-11",
-        "hear-mcq-10",
-        "hear-mcq-12",
-        "hear-mcq-09",
-        "hear-mcq-13",
-        "hear-mcq-08"
+        "hear-mcq-33",
+        "hear-mcq-14",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「heard of that company」指「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」。",
       "sentenceIndex": 21,
@@ -1406,12 +1320,10 @@ export default {
         "heard of that company"
       ],
       "optionReasons": {
-        "hear-mcq-11": "本句指「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-08": "「表示聽到；聽見某人所說的話；例句：「我沒聽到她說什麼。」」是「hear what someone says = receive or understand someone’s spoken words 聽到；聽見某人所說的話」的用法，與本句語境不同。"
+        "hear-mcq-11": "本句的「heard of that company」指「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-11"
     },
@@ -1423,11 +1335,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "hear-mcq-12",
-        "hear-mcq-11",
-        "hear-mcq-13",
-        "hear-mcq-10",
+        "hear-mcq-17",
         "hear-mcq-14",
-        "hear-mcq-09"
+        "hear-mcq-21"
       ],
       "explanation": "本句的「heard that you got a new job」指「表示聽說；得知；例句：「我聽說你找到新工作了。」」。",
       "sentenceIndex": 22,
@@ -1436,12 +1346,10 @@ export default {
         "heard that you got a new job"
       ],
       "optionReasons": {
-        "hear-mcq-12": "本句指「表示聽說；得知；例句：「我聽說你找到新工作了。」」。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。"
+        "hear-mcq-12": "本句的「heard that you got a new job」指「表示聽說；得知；例句：「我聽說你找到新工作了。」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-12"
     },
@@ -1453,11 +1361,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "hear-mcq-12",
-        "hear-mcq-11",
-        "hear-mcq-13",
-        "hear-mcq-10",
-        "hear-mcq-14",
-        "hear-mcq-09"
+        "hear-mcq-22",
+        "hear-mcq-33",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「heard that the event had been cancelled」指「表示聽說；得知；例句：「我聽說你找到新工作了。」」。",
       "sentenceIndex": 23,
@@ -1466,12 +1372,10 @@ export default {
         "heard that the event had been cancelled"
       ],
       "optionReasons": {
-        "hear-mcq-12": "本句指「表示聽說；得知；例句：「我聽說你找到新工作了。」」。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-09": "「表示把某人的話聽完；例句：「在你作決定之前，請先把我的話聽完。」」是「hear someone out = listen to everything someone wants to say before judging or responding 把某人的話聽完」的用法，與本句語境不同。"
+        "hear-mcq-12": "本句的「heard that the event had been cancelled」指「表示聽說；得知；例句：「我聽說你找到新工作了。」」。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-12"
     },
@@ -1483,11 +1387,9 @@ export default {
       "masked": "I haven’t ____ for weeks.",
       "options": [
         "hear-mcq-13",
-        "hear-mcq-12",
-        "hear-mcq-14",
-        "hear-mcq-11",
-        "hear-mcq-15",
-        "hear-mcq-10"
+        "hear-mcq-07",
+        "hear-mcq-17",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「heard from her」指「收到某人的消息；接到某人的聯絡」。",
       "sentenceIndex": 24,
@@ -1496,12 +1398,10 @@ export default {
         "heard from her"
       ],
       "optionReasons": {
-        "hear-mcq-13": "本句指「收到某人的消息；接到某人的聯絡」。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。"
+        "hear-mcq-13": "本句的「heard from her」指「收到某人的消息；接到某人的聯絡」。",
+        "hear-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-13"
     },
@@ -1513,11 +1413,9 @@ export default {
       "masked": "Let me know when you ____.",
       "options": [
         "hear-mcq-13",
-        "hear-mcq-12",
-        "hear-mcq-14",
-        "hear-mcq-11",
-        "hear-mcq-15",
-        "hear-mcq-10"
+        "hear-mcq-32",
+        "hear-mcq-23",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「hear from the university」指「收到某人的消息；接到某人的聯絡」。",
       "sentenceIndex": 25,
@@ -1526,12 +1424,10 @@ export default {
         "hear from the university"
       ],
       "optionReasons": {
-        "hear-mcq-13": "本句指「收到某人的消息；接到某人的聯絡」。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-10": "「表示聽說；得知；例句：「你有聽說那場事故嗎？」」是「hear about something = learn information or news concerning something 聽說；得知」的用法，與本句語境不同。"
+        "hear-mcq-13": "本句的「hear from the university」指「收到某人的消息；接到某人的聯絡」。",
+        "hear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-13"
     },
@@ -1543,11 +1439,9 @@ export default {
       "masked": "I’m still waiting to ____.",
       "options": [
         "hear-mcq-14",
-        "hear-mcq-13",
-        "hear-mcq-15",
-        "hear-mcq-12",
-        "hear-mcq-16",
-        "hear-mcq-11"
+        "hear-mcq-18",
+        "hear-mcq-05",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「hear back from the company」指「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」。",
       "sentenceIndex": 26,
@@ -1556,12 +1450,10 @@ export default {
         "hear back from the company"
       ],
       "optionReasons": {
-        "hear-mcq-14": "本句指「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。"
+        "hear-mcq-14": "本句的「hear back from the company」指「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」。",
+        "hear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-14"
     },
@@ -1573,11 +1465,9 @@ export default {
       "masked": "Have you ____ the school yet?",
       "options": [
         "hear-mcq-14",
-        "hear-mcq-13",
-        "hear-mcq-15",
-        "hear-mcq-12",
-        "hear-mcq-16",
-        "hear-mcq-11"
+        "hear-mcq-26",
+        "hear-mcq-34",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「heard back from」指「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」。",
       "sentenceIndex": 27,
@@ -1586,12 +1476,10 @@ export default {
         "heard back from"
       ],
       "optionReasons": {
-        "hear-mcq-14": "本句指「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-11": "「表示聽說過；知道有……；例句：「你有沒有聽說過這位作者？」」是「hear of someone / something = know that someone or something exists because you have received information about them 聽說過；知道有……」的用法，與本句語境不同。"
+        "hear-mcq-14": "本句的「heard back from」指「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-14"
     },
@@ -1603,11 +1491,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "hear-mcq-15",
-        "hear-mcq-14",
-        "hear-mcq-16",
-        "hear-mcq-13",
-        "hear-mcq-17",
-        "hear-mcq-12"
+        "hear-mcq-33",
+        "hear-mcq-25",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「heard the news from Sarah」指「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」。",
       "sentenceIndex": 28,
@@ -1616,12 +1502,10 @@ export default {
         "heard the news from Sarah"
       ],
       "optionReasons": {
-        "hear-mcq-15": "本句指「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。"
+        "hear-mcq-15": "本句的「heard the news from Sarah」指「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-15"
     },
@@ -1633,11 +1517,9 @@ export default {
       "masked": "We first ____.",
       "options": [
         "hear-mcq-15",
-        "hear-mcq-14",
-        "hear-mcq-16",
-        "hear-mcq-13",
-        "hear-mcq-17",
-        "hear-mcq-12"
+        "hear-mcq-22",
+        "hear-mcq-28",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「heard about the change from our manager」指「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」。",
       "sentenceIndex": 29,
@@ -1646,12 +1528,10 @@ export default {
         "heard about the change from our manager"
       ],
       "optionReasons": {
-        "hear-mcq-15": "本句指「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-12": "「表示聽說；得知；例句：「我聽說你找到新工作了。」」是「hear that... = learn or be told that something is true 聽說；得知」的用法，與本句語境不同。"
+        "hear-mcq-15": "本句的「heard about the change from our manager」指「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-15"
     },
@@ -1663,11 +1543,9 @@ export default {
       "masked": "We haven’t ____ yet.",
       "options": [
         "hear-mcq-16",
+        "hear-mcq-21",
         "hear-mcq-15",
-        "hear-mcq-17",
-        "hear-mcq-14",
-        "hear-mcq-18",
-        "hear-mcq-13"
+        "hear-mcq-17"
       ],
       "explanation": "本句的「heard any news」指「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」。",
       "sentenceIndex": 30,
@@ -1676,12 +1554,10 @@ export default {
         "heard any news"
       ],
       "optionReasons": {
-        "hear-mcq-16": "本句指「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。"
+        "hear-mcq-16": "本句的「heard any news」指「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-16"
     },
@@ -1693,11 +1569,9 @@ export default {
       "masked": "As soon as I ____, I’ll call you.",
       "options": [
         "hear-mcq-16",
+        "hear-mcq-21",
         "hear-mcq-15",
-        "hear-mcq-17",
-        "hear-mcq-14",
-        "hear-mcq-18",
-        "hear-mcq-13"
+        "hear-mcq-33"
       ],
       "explanation": "本句的「hear anything」指「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」。",
       "sentenceIndex": 31,
@@ -1706,12 +1580,10 @@ export default {
         "hear anything"
       ],
       "optionReasons": {
-        "hear-mcq-16": "本句指「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-13": "「收到某人的消息；接到某人的聯絡」是「hear from someone = receive a message, call, email, letter, etc. from someone 收到某人的消息；接到某人的聯絡」的用法，與本句語境不同。"
+        "hear-mcq-16": "本句的「hear anything」指「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-16"
     },
@@ -1723,11 +1595,9 @@ export default {
       "masked": "The court will ____ next month.",
       "options": [
         "hear-mcq-17",
-        "hear-mcq-16",
-        "hear-mcq-18",
-        "hear-mcq-15",
-        "hear-mcq-19",
-        "hear-mcq-14"
+        "hear-mcq-20",
+        "hear-mcq-22",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「hear the case」指「表示審理案件；例句：「法院下個月將審理此案。」」。",
       "sentenceIndex": 32,
@@ -1736,12 +1606,10 @@ export default {
         "hear the case"
       ],
       "optionReasons": {
-        "hear-mcq-17": "本句指「表示審理案件；例句：「法院下個月將審理此案。」」。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。"
+        "hear-mcq-17": "本句的「hear the case」指「表示審理案件；例句：「法院下個月將審理此案。」」。",
+        "hear-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-17"
     },
@@ -1753,11 +1621,9 @@ export default {
       "masked": "A different judge was appointed to ____.",
       "options": [
         "hear-mcq-17",
-        "hear-mcq-16",
+        "hear-mcq-08",
         "hear-mcq-18",
-        "hear-mcq-15",
-        "hear-mcq-19",
-        "hear-mcq-14"
+        "hear-mcq-33"
       ],
       "explanation": "本句的「hear the case」指「表示審理案件；例句：「法院下個月將審理此案。」」。",
       "sentenceIndex": 33,
@@ -1766,12 +1632,10 @@ export default {
         "hear the case"
       ],
       "optionReasons": {
-        "hear-mcq-17": "本句指「表示審理案件；例句：「法院下個月將審理此案。」」。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-14": "「表示收到回覆；得到答覆；例句：「我還在等公司回覆。」」是「hear back from someone = receive a reply or response from someone 收到回覆；得到答覆」的用法，與本句語境不同。"
+        "hear-mcq-17": "本句的「hear the case」指「表示審理案件；例句：「法院下個月將審理此案。」」。",
+        "hear-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-17"
     },
@@ -1783,11 +1647,9 @@ export default {
       "masked": "The court ____ from several witnesses.",
       "options": [
         "hear-mcq-18",
-        "hear-mcq-17",
-        "hear-mcq-19",
-        "hear-mcq-16",
-        "hear-mcq-20",
-        "hear-mcq-15"
+        "hear-mcq-14",
+        "hear-mcq-33",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「heard evidence」指「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」。",
       "sentenceIndex": 34,
@@ -1796,12 +1658,10 @@ export default {
         "heard evidence"
       ],
       "optionReasons": {
-        "hear-mcq-18": "本句指「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。"
+        "hear-mcq-18": "本句的「heard evidence」指「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-18"
     },
@@ -1813,11 +1673,9 @@ export default {
       "masked": "The committee ____ from experts.",
       "options": [
         "hear-mcq-18",
-        "hear-mcq-17",
-        "hear-mcq-19",
-        "hear-mcq-16",
-        "hear-mcq-20",
-        "hear-mcq-15"
+        "hear-mcq-26",
+        "hear-mcq-23",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「heard testimony」指「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」。",
       "sentenceIndex": 35,
@@ -1826,12 +1684,10 @@ export default {
         "heard testimony"
       ],
       "optionReasons": {
-        "hear-mcq-18": "本句指「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-15": "「表示從某人那裡得知；例句：「我是從 Sarah 那裡得知這個消息的。」」是「hear something from someone = receive information from a particular source 從某人那裡得知」的用法，與本句語境不同。"
+        "hear-mcq-18": "本句的「heard testimony」指「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-18"
     },
@@ -1843,11 +1699,9 @@ export default {
       "masked": "The panel agreed to ____.",
       "options": [
         "hear-mcq-19",
-        "hear-mcq-18",
-        "hear-mcq-20",
-        "hear-mcq-17",
-        "hear-mcq-21",
-        "hear-mcq-16"
+        "hear-mcq-14",
+        "hear-mcq-26",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「hear both sides」指「聽取某人的陳述；聽某人申辯」。",
       "sentenceIndex": 36,
@@ -1856,12 +1710,10 @@ export default {
         "hear both sides"
       ],
       "optionReasons": {
-        "hear-mcq-19": "本句指「聽取某人的陳述；聽某人申辯」。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。"
+        "hear-mcq-19": "本句的「hear both sides」指「聽取某人的陳述；聽某人申辯」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-19"
     },
@@ -1873,11 +1725,9 @@ export default {
       "masked": "At least ____ before making a decision.",
       "options": [
         "hear-mcq-19",
-        "hear-mcq-18",
-        "hear-mcq-20",
-        "hear-mcq-17",
-        "hear-mcq-21",
-        "hear-mcq-16"
+        "hear-mcq-14",
+        "hear-mcq-26",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「hear what she has to say」指「聽取某人的陳述；聽某人申辯」。",
       "sentenceIndex": 37,
@@ -1886,12 +1736,10 @@ export default {
         "hear what she has to say"
       ],
       "optionReasons": {
-        "hear-mcq-19": "本句指「聽取某人的陳述；聽某人申辯」。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-16": "「表示得到消息；聽到消息；例句：「我們還沒有得到任何消息。」」是「hear word / hear news = receive news or information 得到消息；聽到消息」的用法，與本句語境不同。"
+        "hear-mcq-19": "本句的「hear what she has to say」指「聽取某人的陳述；聽某人申辯」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-19"
     },
@@ -1903,11 +1751,9 @@ export default {
       "masked": "I can still ____.",
       "options": [
         "hear-mcq-20",
-        "hear-mcq-19",
         "hear-mcq-21",
-        "hear-mcq-18",
-        "hear-mcq-22",
-        "hear-mcq-17"
+        "hear-mcq-17",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「hear my grandmother’s voice in my head」指「在腦海中彷彿聽見某人的聲音」。",
       "sentenceIndex": 38,
@@ -1916,12 +1762,10 @@ export default {
         "hear my grandmother’s voice in my head"
       ],
       "optionReasons": {
-        "hear-mcq-20": "本句指「在腦海中彷彿聽見某人的聲音」。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。"
+        "hear-mcq-20": "本句的「hear my grandmother’s voice in my head」指「在腦海中彷彿聽見某人的聲音」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-20"
     },
@@ -1933,10 +1777,8 @@ export default {
       "masked": "Whenever I hesitate, I ____.",
       "options": [
         "hear-mcq-20",
-        "hear-mcq-19",
-        "hear-mcq-21",
-        "hear-mcq-18",
         "hear-mcq-22",
+        "hear-mcq-14",
         "hear-mcq-17"
       ],
       "explanation": "本句的「hear my coach telling me not to give up」指「在腦海中彷彿聽見某人的聲音」。",
@@ -1946,12 +1788,10 @@ export default {
         "hear my coach telling me not to give up"
       ],
       "optionReasons": {
-        "hear-mcq-20": "本句指「在腦海中彷彿聽見某人的聲音」。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-17": "「表示審理案件；例句：「法院下個月將審理此案。」」是「hear a case = formally listen to evidence and arguments in a court or tribunal in order to decide a case 審理案件」的用法，與本句語境不同。"
+        "hear-mcq-20": "本句的「hear my coach telling me not to give up」指「在腦海中彷彿聽見某人的聲音」。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-20"
     },
@@ -1963,11 +1803,9 @@ export default {
       "masked": "____, but we still need to make a decision.",
       "options": [
         "hear-mcq-21",
-        "hear-mcq-20",
-        "hear-mcq-22",
-        "hear-mcq-19",
-        "hear-mcq-23",
-        "hear-mcq-18"
+        "hear-mcq-02",
+        "hear-mcq-14",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「I hear you」指「我懂你的意思；我理解你的感受」。",
       "sentenceIndex": 40,
@@ -1976,12 +1814,10 @@ export default {
         "I hear you"
       ],
       "optionReasons": {
-        "hear-mcq-21": "本句指「我懂你的意思；我理解你的感受」。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。"
+        "hear-mcq-21": "本句的「I hear you」指「我懂你的意思；我理解你的感受」。",
+        "hear-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-21"
     },
@@ -1993,11 +1829,9 @@ export default {
       "masked": "____ That sounds really frustrating.",
       "options": [
         "hear-mcq-21",
-        "hear-mcq-20",
-        "hear-mcq-22",
-        "hear-mcq-19",
-        "hear-mcq-23",
-        "hear-mcq-18"
+        "hear-mcq-31",
+        "hear-mcq-15",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「I hear you.」指「我懂你的意思；我理解你的感受」。",
       "sentenceIndex": 41,
@@ -2006,12 +1840,10 @@ export default {
         "I hear you."
       ],
       "optionReasons": {
-        "hear-mcq-21": "本句指「我懂你的意思；我理解你的感受」。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-18": "「表示聽取證據／證詞；例句：「法院聽取了數名證人的證據。」」是「hear evidence / testimony = formally receive and consider evidence or testimony 聽取證據／證詞」的用法，與本句語境不同。"
+        "hear-mcq-21": "本句的「I hear you.」指「我懂你的意思；我理解你的感受」。",
+        "hear-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-21"
     },
@@ -2023,11 +1855,9 @@ export default {
       "masked": "Can you hear me?” “____",
       "options": [
         "hear-mcq-22",
-        "hear-mcq-21",
-        "hear-mcq-23",
-        "hear-mcq-20",
-        "hear-mcq-24",
-        "hear-mcq-19"
+        "hear-mcq-01",
+        "hear-mcq-18",
+        "hear-mcq-13"
       ],
       "explanation": "本句的「Loud and clear.」指「完全明白；非常清楚你的意思」。",
       "sentenceIndex": 42,
@@ -2036,12 +1866,10 @@ export default {
         "Loud and clear."
       ],
       "optionReasons": {
-        "hear-mcq-22": "本句指「完全明白；非常清楚你的意思」。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。"
+        "hear-mcq-22": "本句的「Loud and clear.」指「完全明白；非常清楚你的意思」。",
+        "hear-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-22"
     },
@@ -2053,11 +1881,9 @@ export default {
       "masked": "Your message has been ____.",
       "options": [
         "hear-mcq-22",
-        "hear-mcq-21",
-        "hear-mcq-23",
-        "hear-mcq-20",
-        "hear-mcq-24",
-        "hear-mcq-19"
+        "hear-mcq-17",
+        "hear-mcq-10",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「heard loud and clear」指「完全明白；非常清楚你的意思」。",
       "sentenceIndex": 43,
@@ -2066,12 +1892,10 @@ export default {
         "heard loud and clear"
       ],
       "optionReasons": {
-        "hear-mcq-22": "本句指「完全明白；非常清楚你的意思」。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-19": "「聽取某人的陳述；聽某人申辯」是「hear someone In formal contexts: = listen to and consider a person’s case, argument, or request 聽取某人的陳述；聽某人申辯」的用法，與本句語境不同。"
+        "hear-mcq-22": "本句的「heard loud and clear」指「完全明白；非常清楚你的意思」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-22"
     },
@@ -2083,11 +1907,9 @@ export default {
       "masked": "We need more support for teachers.” “____",
       "options": [
         "hear-mcq-23",
-        "hear-mcq-22",
-        "hear-mcq-24",
-        "hear-mcq-21",
-        "hear-mcq-25",
-        "hear-mcq-20"
+        "hear-mcq-09",
+        "hear-mcq-17",
+        "hear-mcq-14"
       ],
       "explanation": "本句的「Hear, hear!」指「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」。",
       "sentenceIndex": 44,
@@ -2096,12 +1918,10 @@ export default {
         "Hear, hear!"
       ],
       "optionReasons": {
-        "hear-mcq-23": "本句指「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。"
+        "hear-mcq-23": "本句的「Hear, hear!」指「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」。",
+        "hear-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-23"
     },
@@ -2113,11 +1933,9 @@ export default {
       "masked": "Several people shouted, “____",
       "options": [
         "hear-mcq-23",
-        "hear-mcq-22",
-        "hear-mcq-24",
-        "hear-mcq-21",
-        "hear-mcq-25",
-        "hear-mcq-20"
+        "hear-mcq-33",
+        "hear-mcq-28",
+        "hear-mcq-22"
       ],
       "explanation": "本句的「Hear, hear!」指「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」。",
       "sentenceIndex": 45,
@@ -2126,12 +1944,10 @@ export default {
         "Hear, hear!"
       ],
       "optionReasons": {
-        "hear-mcq-23": "本句指「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-20": "「在腦海中彷彿聽見某人的聲音」是「hear a voice in your head / mind = mentally recall or imagine a person’s voice 在腦海中彷彿聽見某人的聲音 This is the passage sense.」的用法，與本句語境不同。"
+        "hear-mcq-23": "本句的「Hear, hear!」指「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-23"
     },
@@ -2143,11 +1959,9 @@ export default {
       "masked": "____—I’m leaving tomorrow.",
       "options": [
         "hear-mcq-24",
-        "hear-mcq-23",
-        "hear-mcq-25",
-        "hear-mcq-22",
-        "hear-mcq-26",
-        "hear-mcq-21"
+        "hear-mcq-17",
+        "hear-mcq-14",
+        "hear-mcq-15"
       ],
       "explanation": "本句的「You heard me」指「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」。",
       "sentenceIndex": 46,
@@ -2156,12 +1970,10 @@ export default {
         "You heard me"
       ],
       "optionReasons": {
-        "hear-mcq-24": "本句指「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。"
+        "hear-mcq-24": "本句的「You heard me」指「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-24"
     },
@@ -2173,11 +1985,9 @@ export default {
       "masked": "Did you say ten?” “____",
       "options": [
         "hear-mcq-24",
-        "hear-mcq-23",
-        "hear-mcq-25",
-        "hear-mcq-22",
-        "hear-mcq-26",
-        "hear-mcq-21"
+        "hear-mcq-33",
+        "hear-mcq-13",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「You heard me.」指「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」。",
       "sentenceIndex": 47,
@@ -2186,12 +1996,10 @@ export default {
         "You heard me."
       ],
       "optionReasons": {
-        "hear-mcq-24": "本句指「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-21": "「我懂你的意思；我理解你的感受」是「I hear you = I understand what you are saying or how you feel 我懂你的意思；我理解你的感受」的用法，與本句語境不同。"
+        "hear-mcq-24": "本句的「You heard me.」指「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-24"
     },
@@ -2203,11 +2011,9 @@ export default {
       "masked": "____ Maya is moving abroad.",
       "options": [
         "hear-mcq-25",
-        "hear-mcq-24",
-        "hear-mcq-26",
-        "hear-mcq-23",
-        "hear-mcq-27",
-        "hear-mcq-22"
+        "hear-mcq-14",
+        "hear-mcq-33",
+        "hear-mcq-15"
       ],
       "explanation": "本句的「Have you heard?」指「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」。",
       "sentenceIndex": 48,
@@ -2216,12 +2022,10 @@ export default {
         "Have you heard?"
       ],
       "optionReasons": {
-        "hear-mcq-25": "本句指「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。"
+        "hear-mcq-25": "本句的「Have you heard?」指「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-25"
     },
@@ -2233,11 +2037,9 @@ export default {
       "masked": "____",
       "options": [
         "hear-mcq-25",
-        "hear-mcq-24",
-        "hear-mcq-26",
-        "hear-mcq-23",
-        "hear-mcq-27",
-        "hear-mcq-22"
+        "hear-mcq-13",
+        "hear-mcq-33",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「Have you heard the news?」指「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」。",
       "sentenceIndex": 49,
@@ -2246,12 +2048,10 @@ export default {
         "Have you heard the news?"
       ],
       "optionReasons": {
-        "hear-mcq-25": "本句指「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-22": "「完全明白；非常清楚你的意思」是「hear someone loud and clear」的用法，與本句語境不同。"
+        "hear-mcq-25": "本句的「Have you heard the news?」指「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-25"
     },
@@ -2263,11 +2063,9 @@ export default {
       "masked": "If I forget her birthday, I’ll ____.",
       "options": [
         "hear-mcq-26",
-        "hear-mcq-25",
-        "hear-mcq-27",
-        "hear-mcq-24",
-        "hear-mcq-28",
-        "hear-mcq-23"
+        "hear-mcq-19",
+        "hear-mcq-21",
+        "hear-mcq-30"
       ],
       "explanation": "本句的「never hear the end of it」指「被一直念個不停；這件事會被說很久」。",
       "sentenceIndex": 50,
@@ -2276,12 +2074,10 @@ export default {
         "never hear the end of it"
       ],
       "optionReasons": {
-        "hear-mcq-26": "本句指「被一直念個不停；這件事會被說很久」。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。"
+        "hear-mcq-26": "本句的「never hear the end of it」指「被一直念個不停；這件事會被說很久」。",
+        "hear-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-26"
     },
@@ -2293,11 +2089,9 @@ export default {
       "masked": "He lost the bet and ____.",
       "options": [
         "hear-mcq-26",
-        "hear-mcq-25",
-        "hear-mcq-27",
-        "hear-mcq-24",
-        "hear-mcq-28",
-        "hear-mcq-23"
+        "hear-mcq-13",
+        "hear-mcq-32",
+        "hear-mcq-22"
       ],
       "explanation": "本句的「didn’t hear the end of it for weeks」指「被一直念個不停；這件事會被說很久」。",
       "sentenceIndex": 51,
@@ -2306,12 +2100,10 @@ export default {
         "didn’t hear the end of it for weeks"
       ],
       "optionReasons": {
-        "hear-mcq-26": "本句指「被一直念個不停；這件事會被說很久」。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-23": "「表示說得好！贊成！；例句：「我們需要給老師更多支持。」 「說得好！」」是「hear, hear! = an expression showing strong agreement with what someone has just said 說得好！贊成！」的用法，與本句語境不同。"
+        "hear-mcq-26": "本句的「didn’t hear the end of it for weeks」指「被一直念個不停；這件事會被說很久」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-26"
     },
@@ -2323,11 +2115,9 @@ export default {
       "masked": "Turn the music down—I can’t ____.",
       "options": [
         "hear-mcq-27",
-        "hear-mcq-26",
-        "hear-mcq-28",
-        "hear-mcq-25",
-        "hear-mcq-29",
-        "hear-mcq-24"
+        "hear-mcq-14",
+        "hear-mcq-23",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「hear myself think」指「安靜到能思考；聽得見自己的思緒」。",
       "sentenceIndex": 52,
@@ -2336,12 +2126,10 @@ export default {
         "hear myself think"
       ],
       "optionReasons": {
-        "hear-mcq-27": "本句指「安靜到能思考；聽得見自己的思緒」。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。"
+        "hear-mcq-27": "本句的「hear myself think」指「安靜到能思考；聽得見自己的思緒」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-27"
     },
@@ -2353,11 +2141,9 @@ export default {
       "masked": "It was so noisy that I could barely ____.",
       "options": [
         "hear-mcq-27",
-        "hear-mcq-26",
-        "hear-mcq-28",
-        "hear-mcq-25",
-        "hear-mcq-29",
-        "hear-mcq-24"
+        "hear-mcq-13",
+        "hear-mcq-23",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「hear myself think」指「安靜到能思考；聽得見自己的思緒」。",
       "sentenceIndex": 53,
@@ -2366,12 +2152,10 @@ export default {
         "hear myself think"
       ],
       "optionReasons": {
-        "hear-mcq-27": "本句指「安靜到能思考；聽得見自己的思緒」。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-24": "「表示你沒聽錯；我就是這個意思；例句：「你沒聽錯，我明天就要走。」」是「you heard me = what I said is exactly what I mean, often emphatic 你沒聽錯；我就是這個意思」的用法，與本句語境不同。"
+        "hear-mcq-27": "本句的「hear myself think」指「安靜到能思考；聽得見自己的思緒」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-27"
     },
@@ -2383,11 +2167,9 @@ export default {
       "masked": "They prayed that their request would be ____.",
       "options": [
         "hear-mcq-28",
-        "hear-mcq-27",
-        "hear-mcq-29",
-        "hear-mcq-26",
-        "hear-mcq-30",
-        "hear-mcq-25"
+        "hear-mcq-33",
+        "hear-mcq-23",
+        "hear-mcq-17"
       ],
       "explanation": "本句的「heard」指「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」。",
       "sentenceIndex": 54,
@@ -2396,12 +2178,10 @@ export default {
         "heard"
       ],
       "optionReasons": {
-        "hear-mcq-28": "本句指「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。"
+        "hear-mcq-28": "本句的「heard」指「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-28"
     },
@@ -2413,11 +2193,9 @@ export default {
       "masked": "The ruler refused to ____.",
       "options": [
         "hear-mcq-28",
-        "hear-mcq-27",
-        "hear-mcq-29",
-        "hear-mcq-26",
-        "hear-mcq-30",
-        "hear-mcq-25"
+        "hear-mcq-17",
+        "hear-mcq-14",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「hear their plea」指「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」。",
       "sentenceIndex": 55,
@@ -2426,12 +2204,10 @@ export default {
         "hear their plea"
       ],
       "optionReasons": {
-        "hear-mcq-28": "本句指「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-25": "「表示你聽說了嗎？；例句：「你聽說了嗎？ Maya 要搬到國外了。」」是「have you heard? = used to introduce news or gossip 你聽說了嗎？」的用法，與本句語境不同。"
+        "hear-mcq-28": "本句的「hear their plea」指「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-28"
     },
@@ -2443,10 +2219,8 @@ export default {
       "masked": "His ____ has become weaker with age.",
       "options": [
         "hear-mcq-29",
-        "hear-mcq-28",
-        "hear-mcq-30",
-        "hear-mcq-27",
-        "hear-mcq-31",
+        "hear-mcq-14",
+        "hear-mcq-17",
         "hear-mcq-26"
       ],
       "explanation": "本句的「hearing」指「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」。",
@@ -2456,12 +2230,10 @@ export default {
         "hearing"
       ],
       "optionReasons": {
-        "hear-mcq-29": "本句指「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。"
+        "hear-mcq-29": "本句的「hearing」指「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-29"
     },
@@ -2473,11 +2245,9 @@ export default {
       "masked": "The test checks your ____.",
       "options": [
         "hear-mcq-29",
-        "hear-mcq-28",
-        "hear-mcq-30",
-        "hear-mcq-27",
-        "hear-mcq-31",
-        "hear-mcq-26"
+        "hear-mcq-13",
+        "hear-mcq-33",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「hearing」指「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」。",
       "sentenceIndex": 57,
@@ -2486,12 +2256,10 @@ export default {
         "hearing"
       ],
       "optionReasons": {
-        "hear-mcq-29": "本句指「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-26": "「被一直念個不停；這件事會被說很久」是「not hear the end of it = continue to be reminded, criticized, or teased about something for a long time 被一直念個不停；這件事會被說很久」的用法，與本句語境不同。"
+        "hear-mcq-29": "本句的「hearing」指「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-29"
     },
@@ -2503,11 +2271,9 @@ export default {
       "masked": "The court scheduled a ____ for Monday.",
       "options": [
         "hear-mcq-30",
-        "hear-mcq-29",
-        "hear-mcq-31",
-        "hear-mcq-28",
-        "hear-mcq-32",
-        "hear-mcq-27"
+        "hear-mcq-22",
+        "hear-mcq-26",
+        "hear-mcq-13"
       ],
       "explanation": "本句的「hearing」指「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」。",
       "sentenceIndex": 58,
@@ -2516,12 +2282,10 @@ export default {
         "hearing"
       ],
       "optionReasons": {
-        "hear-mcq-30": "本句指「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。"
+        "hear-mcq-30": "本句的「hearing」指「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-30"
     },
@@ -2533,11 +2297,9 @@ export default {
       "masked": "Residents spoke at the public ____.",
       "options": [
         "hear-mcq-30",
-        "hear-mcq-29",
-        "hear-mcq-31",
-        "hear-mcq-28",
-        "hear-mcq-32",
-        "hear-mcq-27"
+        "hear-mcq-26",
+        "hear-mcq-23",
+        "hear-mcq-22"
       ],
       "explanation": "本句的「hearing」指「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」。",
       "sentenceIndex": 59,
@@ -2546,12 +2308,10 @@ export default {
         "hearing"
       ],
       "optionReasons": {
-        "hear-mcq-30": "本句指「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-27": "「安靜到能思考；聽得見自己的思緒」是「hear yourself think = be able to think because the environment is quiet enough 安靜到能思考；聽得見自己的思緒 Usually negative: I can’t hear myself think.」的用法，與本句語境不同。"
+        "hear-mcq-30": "本句的「hearing」指「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-30"
     },
@@ -2563,11 +2323,9 @@ export default {
       "masked": "He wears a ____.",
       "options": [
         "hear-mcq-31",
-        "hear-mcq-30",
-        "hear-mcq-32",
-        "hear-mcq-29",
-        "hear-mcq-33",
-        "hear-mcq-28"
+        "hear-mcq-26",
+        "hear-mcq-14",
+        "hear-mcq-33"
       ],
       "explanation": "本句的「hearing aid」指「表示助聽器；例句：「他戴著助聽器。」」。",
       "sentenceIndex": 60,
@@ -2576,12 +2334,10 @@ export default {
         "hearing aid"
       ],
       "optionReasons": {
-        "hear-mcq-31": "本句指「表示助聽器；例句：「他戴著助聽器。」」。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-33": "「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」是「unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。"
+        "hear-mcq-31": "本句的「hearing aid」指「表示助聽器；例句：「他戴著助聽器。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-31"
     },
@@ -2593,11 +2349,9 @@ export default {
       "masked": "Modern ____ can be very small.",
       "options": [
         "hear-mcq-31",
-        "hear-mcq-30",
-        "hear-mcq-32",
-        "hear-mcq-29",
-        "hear-mcq-33",
-        "hear-mcq-28"
+        "hear-mcq-17",
+        "hear-mcq-23",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「hearing aids」指「表示助聽器；例句：「他戴著助聽器。」」。",
       "sentenceIndex": 61,
@@ -2606,12 +2360,10 @@ export default {
         "hearing aids"
       ],
       "optionReasons": {
-        "hear-mcq-31": "本句指「表示助聽器；例句：「他戴著助聽器。」」。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。",
-        "hear-mcq-33": "「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」是「unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的」的用法，與本句語境不同。",
-        "hear-mcq-28": "「表示垂聽；聽取；例句：「他們祈禱自己的請求能被垂聽。」」是「hear a prayer / plea = listen to and respond favorably to a prayer or plea 垂聽；聽取」的用法，與本句語境不同。"
+        "hear-mcq-31": "本句的「hearing aids」指「表示助聽器；例句：「他戴著助聽器。」」。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-31"
     },
@@ -2623,11 +2375,9 @@ export default {
       "masked": "Her request went ____.",
       "options": [
         "hear-mcq-32",
-        "hear-mcq-31",
-        "hear-mcq-33",
-        "hear-mcq-30",
-        "hear-mcq-34",
-        "hear-mcq-29"
+        "hear-mcq-21",
+        "hear-mcq-26",
+        "hear-mcq-15"
       ],
       "explanation": "本句的「unheard」指「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」。",
       "sentenceIndex": 62,
@@ -2636,12 +2386,10 @@ export default {
         "unheard"
       ],
       "optionReasons": {
-        "hear-mcq-32": "本句指「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-33": "「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」是「unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-34": "「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」是「hear vs overhear hear = perceive sound generally overhear = hear something accidentally that was not intended for you」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。"
+        "hear-mcq-32": "本句的「unheard」指「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-32"
     },
@@ -2653,11 +2401,9 @@ export default {
       "masked": "Such prices were once ____.",
       "options": [
         "hear-mcq-32",
-        "hear-mcq-31",
-        "hear-mcq-33",
-        "hear-mcq-30",
-        "hear-mcq-34",
-        "hear-mcq-29"
+        "hear-mcq-21",
+        "hear-mcq-17",
+        "hear-mcq-13"
       ],
       "explanation": "本句的「unheard of」指「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」。",
       "sentenceIndex": 63,
@@ -2666,12 +2412,10 @@ export default {
         "unheard of"
       ],
       "optionReasons": {
-        "hear-mcq-32": "本句指「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-33": "「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」是「unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-34": "「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」是「hear vs overhear hear = perceive sound generally overhear = hear something accidentally that was not intended for you」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。"
+        "hear-mcq-32": "本句的「unheard of」指「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」。",
+        "hear-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-32"
     },
@@ -2683,11 +2427,9 @@ export default {
       "masked": "That level of growth was almost ____.",
       "options": [
         "hear-mcq-33",
-        "hear-mcq-32",
-        "hear-mcq-34",
-        "hear-mcq-31",
-        "hear-mcq-30",
-        "hear-mcq-29"
+        "hear-mcq-11",
+        "hear-mcq-17",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「unheard-of」指「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」。",
       "sentenceIndex": 64,
@@ -2696,12 +2438,10 @@ export default {
         "unheard-of"
       ],
       "optionReasons": {
-        "hear-mcq-33": "本句指「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-34": "「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」是「hear vs overhear hear = perceive sound generally overhear = hear something accidentally that was not intended for you」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。"
+        "hear-mcq-33": "本句的「unheard-of」指「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」。",
+        "hear-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-33"
     },
@@ -2713,11 +2453,9 @@ export default {
       "masked": "Working remotely every day was once ____ in the company.",
       "options": [
         "hear-mcq-33",
-        "hear-mcq-32",
-        "hear-mcq-34",
-        "hear-mcq-31",
-        "hear-mcq-30",
-        "hear-mcq-29"
+        "hear-mcq-26",
+        "hear-mcq-14",
+        "hear-mcq-09"
       ],
       "explanation": "本句的「unheard-of」指「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」。",
       "sentenceIndex": 65,
@@ -2726,12 +2464,10 @@ export default {
         "unheard-of"
       ],
       "optionReasons": {
-        "hear-mcq-33": "本句指「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-34": "「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」是「hear vs overhear hear = perceive sound generally overhear = hear something accidentally that was not intended for you」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。"
+        "hear-mcq-33": "本句的「unheard-of」指「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-33"
     },
@@ -2743,11 +2479,9 @@ export default {
       "masked": "I ____ outside.",
       "options": [
         "hear-mcq-34",
-        "hear-mcq-33",
-        "hear-mcq-32",
-        "hear-mcq-31",
-        "hear-mcq-30",
-        "hear-mcq-29"
+        "hear-mcq-13",
+        "hear-mcq-23",
+        "hear-mcq-26"
       ],
       "explanation": "本句的「heard them talking」指「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」。",
       "sentenceIndex": 66,
@@ -2756,12 +2490,10 @@ export default {
         "heard them talking"
       ],
       "optionReasons": {
-        "hear-mcq-34": "本句指「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」。",
-        "hear-mcq-33": "「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」是「unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的」的用法，與本句語境不同。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。"
+        "hear-mcq-34": "本句的「heard them talking」指「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-34"
     },
@@ -2773,11 +2505,9 @@ export default {
       "masked": "I ____ on the train.",
       "options": [
         "hear-mcq-34",
-        "hear-mcq-33",
-        "hear-mcq-32",
-        "hear-mcq-31",
-        "hear-mcq-30",
-        "hear-mcq-29"
+        "hear-mcq-13",
+        "hear-mcq-26",
+        "hear-mcq-23"
       ],
       "explanation": "本句的「overheard their conversation」指「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」。",
       "sentenceIndex": 67,
@@ -2786,12 +2516,10 @@ export default {
         "overheard their conversation"
       ],
       "optionReasons": {
-        "hear-mcq-34": "本句指「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」。",
-        "hear-mcq-33": "「表示聞所未聞的；罕見的；例句：「那種成長幅度幾乎是前所未聞的。」」是「unheard-of = extremely unusual or previously unknown 聞所未聞的；罕見的」的用法，與本句語境不同。",
-        "hear-mcq-32": "「表示沒被聽見的；例句：「她的請求沒有人理會／沒有被聽見。」」是「unheard」的用法，與本句語境不同。",
-        "hear-mcq-31": "「表示助聽器；例句：「他戴著助聽器。」」是「hearing aid = a device that helps a person hear better 助聽器」的用法，與本句語境不同。",
-        "hear-mcq-30": "「表示聽證會；審理程序；例句：「法院安排星期一進行聽證／審理。」」是「hearing — formal meeting or legal proceeding = an official occasion at which evidence, arguments, or views are heard 聽證會；審理程序」的用法，與本句語境不同。",
-        "hear-mcq-29": "「表示聽力；例句：「他的聽力隨著年齡增長而下降。」」是「hearing — ability to hear = the physical sense by which sounds are perceived 聽力」的用法，與本句語境不同。"
+        "hear-mcq-34": "本句的「overheard their conversation」指「表示無意中聽到；偷聽到；例句：「我聽到他們在外面說話。」」。",
+        "hear-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "hear-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "hear-mcq-34"
     }
@@ -2803,5 +2531,7 @@ export default {
     "sha256": "6d88b520160f07a850ca903286cef46bd6f41ee415379e5175723848bdbc2f57",
     "pages": 20
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

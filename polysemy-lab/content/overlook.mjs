@@ -389,11 +389,9 @@ export default {
       "masked": "We ____ in the schedule.",
       "options": [
         "overlook-mcq-02",
-        "overlook-mcq-01",
-        "overlook-mcq-03",
-        "overlook-mcq-04",
-        "overlook-mcq-05",
-        "overlook-mcq-06"
+        "overlook-mcq-17",
+        "overlook-mcq-18",
+        "overlook-mcq-13"
       ],
       "explanation": "本句的「overlooked one important detail」指「忽略細節」。",
       "sentenceIndex": 3,
@@ -402,12 +400,10 @@ export default {
         "overlooked one important detail"
       ],
       "optionReasons": {
-        "overlook-mcq-02": "本句指「忽略細節」。",
-        "overlook-mcq-01": "「忽略；漏掉」與本句語境不同。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。"
+        "overlook-mcq-02": "本句的「overlooked one important detail」指「忽略細節」。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-02"
     },
@@ -419,11 +415,9 @@ export default {
       "masked": "Careful checking helps prevent people from ____.",
       "options": [
         "overlook-mcq-02",
-        "overlook-mcq-01",
-        "overlook-mcq-03",
-        "overlook-mcq-04",
-        "overlook-mcq-05",
-        "overlook-mcq-06"
+        "overlook-mcq-12",
+        "overlook-mcq-17",
+        "overlook-mcq-03"
       ],
       "explanation": "本句的「overlooking details」指「忽略細節」。",
       "sentenceIndex": 4,
@@ -432,12 +426,10 @@ export default {
         "overlooking details"
       ],
       "optionReasons": {
-        "overlook-mcq-02": "本句指「忽略細節」。",
-        "overlook-mcq-01": "「忽略；漏掉」與本句語境不同。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。"
+        "overlook-mcq-02": "本句的「overlooking details」指「忽略細節」。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-02"
     },
@@ -449,11 +441,9 @@ export default {
       "masked": "The editor ____.",
       "options": [
         "overlook-mcq-03",
-        "overlook-mcq-02",
-        "overlook-mcq-04",
-        "overlook-mcq-01",
-        "overlook-mcq-05",
-        "overlook-mcq-06"
+        "overlook-mcq-06",
+        "overlook-mcq-19",
+        "overlook-mcq-15"
       ],
       "explanation": "本句的「overlooked several spelling mistakes」指「沒發現錯誤」。",
       "sentenceIndex": 5,
@@ -462,12 +452,10 @@ export default {
         "overlooked several spelling mistakes"
       ],
       "optionReasons": {
-        "overlook-mcq-03": "本句指「沒發現錯誤」。",
-        "overlook-mcq-02": "「忽略細節」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-01": "「忽略；漏掉」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。"
+        "overlook-mcq-03": "本句的「overlooked several spelling mistakes」指「沒發現錯誤」。",
+        "overlook-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-03"
     },
@@ -479,11 +467,9 @@ export default {
       "masked": "Even experienced workers can ____ when they are tired.",
       "options": [
         "overlook-mcq-03",
-        "overlook-mcq-02",
-        "overlook-mcq-04",
-        "overlook-mcq-01",
-        "overlook-mcq-05",
-        "overlook-mcq-06"
+        "overlook-mcq-11",
+        "overlook-mcq-17",
+        "overlook-mcq-19"
       ],
       "explanation": "本句的「overlook errors」指「沒發現錯誤」。",
       "sentenceIndex": 6,
@@ -492,12 +478,10 @@ export default {
         "overlook errors"
       ],
       "optionReasons": {
-        "overlook-mcq-03": "本句指「沒發現錯誤」。",
-        "overlook-mcq-02": "「忽略細節」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-01": "「忽略；漏掉」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。"
+        "overlook-mcq-03": "本句的「overlook errors」指「沒發現錯誤」。",
+        "overlook-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-03"
     },
@@ -509,11 +493,9 @@ export default {
       "masked": "The report ____.",
       "options": [
         "overlook-mcq-04",
-        "overlook-mcq-03",
-        "overlook-mcq-05",
-        "overlook-mcq-02",
-        "overlook-mcq-06",
-        "overlook-mcq-01"
+        "overlook-mcq-12",
+        "overlook-mcq-17",
+        "overlook-mcq-05"
       ],
       "explanation": "本句的「overlooks an important fact」指「忽略事實」。",
       "sentenceIndex": 7,
@@ -522,12 +504,10 @@ export default {
         "overlooks an important fact"
       ],
       "optionReasons": {
-        "overlook-mcq-04": "本句指「忽略事實」。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-02": "「忽略細節」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。",
-        "overlook-mcq-01": "「忽略；漏掉」與本句語境不同。"
+        "overlook-mcq-04": "本句的「overlooks an important fact」指「忽略事實」。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-04"
     },
@@ -539,11 +519,9 @@ export default {
       "masked": "We should not ____.",
       "options": [
         "overlook-mcq-04",
-        "overlook-mcq-03",
-        "overlook-mcq-05",
-        "overlook-mcq-02",
-        "overlook-mcq-06",
-        "overlook-mcq-01"
+        "overlook-mcq-19",
+        "overlook-mcq-15",
+        "overlook-mcq-12"
       ],
       "explanation": "本句的「overlook the fact that different departments have different priorities」指「忽略事實」。",
       "sentenceIndex": 8,
@@ -552,12 +530,10 @@ export default {
         "overlook the fact that different departments have different priorities"
       ],
       "optionReasons": {
-        "overlook-mcq-04": "本句指「忽略事實」。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-02": "「忽略細節」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。",
-        "overlook-mcq-01": "「忽略；漏掉」與本句語境不同。"
+        "overlook-mcq-04": "本句的「overlook the fact that different departments have different priorities」指「忽略事實」。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-04"
     },
@@ -569,11 +545,9 @@ export default {
       "masked": "Investigators initially ____.",
       "options": [
         "overlook-mcq-05",
-        "overlook-mcq-04",
-        "overlook-mcq-06",
-        "overlook-mcq-03",
-        "overlook-mcq-07",
-        "overlook-mcq-02"
+        "overlook-mcq-13",
+        "overlook-mcq-17",
+        "overlook-mcq-18"
       ],
       "explanation": "本句的「overlooked the possibility of human error」指「沒考慮可能性」。",
       "sentenceIndex": 9,
@@ -582,12 +556,10 @@ export default {
         "overlooked the possibility of human error"
       ],
       "optionReasons": {
-        "overlook-mcq-05": "本句指「沒考慮可能性」。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。",
-        "overlook-mcq-02": "「忽略細節」與本句語境不同。"
+        "overlook-mcq-05": "本句的「overlooked the possibility of human error」指「沒考慮可能性」。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-05"
     },
@@ -599,11 +571,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "overlook-mcq-05",
-        "overlook-mcq-04",
-        "overlook-mcq-06",
-        "overlook-mcq-03",
-        "overlook-mcq-07",
-        "overlook-mcq-02"
+        "overlook-mcq-11",
+        "overlook-mcq-18",
+        "overlook-mcq-13"
       ],
       "explanation": "本句的「overlook the possibility that both sides misunderstood the instructions」指「沒考慮可能性」。",
       "sentenceIndex": 10,
@@ -612,12 +582,10 @@ export default {
         "overlook the possibility that both sides misunderstood the instructions"
       ],
       "optionReasons": {
-        "overlook-mcq-05": "本句指「沒考慮可能性」。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。",
-        "overlook-mcq-02": "「忽略細節」與本句語境不同。"
+        "overlook-mcq-05": "本句的「overlook the possibility that both sides misunderstood the instructions」指「沒考慮可能性」。",
+        "overlook-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-05"
     },
@@ -629,11 +597,9 @@ export default {
       "masked": "Managers cannot afford to ____.",
       "options": [
         "overlook-mcq-06",
-        "overlook-mcq-05",
-        "overlook-mcq-07",
-        "overlook-mcq-04",
-        "overlook-mcq-08",
-        "overlook-mcq-03"
+        "overlook-mcq-13",
+        "overlook-mcq-03",
+        "overlook-mcq-18"
       ],
       "explanation": "本句的「overlook communication problems」指「忽略問題」。",
       "sentenceIndex": 11,
@@ -642,12 +608,10 @@ export default {
         "overlook communication problems"
       ],
       "optionReasons": {
-        "overlook-mcq-06": "本句指「忽略問題」。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。"
+        "overlook-mcq-06": "本句的「overlook communication problems」指「忽略問題」。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-06"
     },
@@ -659,11 +623,9 @@ export default {
       "masked": "The organisation had ____.",
       "options": [
         "overlook-mcq-06",
+        "overlook-mcq-03",
         "overlook-mcq-05",
-        "overlook-mcq-07",
-        "overlook-mcq-04",
-        "overlook-mcq-08",
-        "overlook-mcq-03"
+        "overlook-mcq-12"
       ],
       "explanation": "本句的「overlooked the issue for years」指「忽略問題」。",
       "sentenceIndex": 12,
@@ -672,12 +634,10 @@ export default {
         "overlooked the issue for years"
       ],
       "optionReasons": {
-        "overlook-mcq-06": "本句指「忽略問題」。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-03": "「沒發現錯誤」與本句語境不同。"
+        "overlook-mcq-06": "本句的「overlooked the issue for years」指「忽略問題」。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-06"
     },
@@ -689,11 +649,9 @@ export default {
       "masked": "Managers should not ____.",
       "options": [
         "overlook-mcq-07",
-        "overlook-mcq-06",
-        "overlook-mcq-08",
-        "overlook-mcq-05",
-        "overlook-mcq-09",
-        "overlook-mcq-04"
+        "overlook-mcq-19",
+        "overlook-mcq-03",
+        "overlook-mcq-12"
       ],
       "explanation": "本句的「overlook the contributions of quieter employees」指「忽略某人的貢獻」。",
       "sentenceIndex": 13,
@@ -702,12 +660,10 @@ export default {
         "overlook the contributions of quieter employees"
       ],
       "optionReasons": {
-        "overlook-mcq-07": "本句指「忽略某人的貢獻」。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。"
+        "overlook-mcq-07": "本句的「overlook the contributions of quieter employees」指「忽略某人的貢獻」。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-07"
     },
@@ -719,11 +675,9 @@ export default {
       "masked": "Her work was repeatedly ____.",
       "options": [
         "overlook-mcq-07",
-        "overlook-mcq-06",
-        "overlook-mcq-08",
-        "overlook-mcq-05",
-        "overlook-mcq-09",
-        "overlook-mcq-04"
+        "overlook-mcq-17",
+        "overlook-mcq-12",
+        "overlook-mcq-19"
       ],
       "explanation": "本句的「overlooked」指「忽略某人的貢獻」。",
       "sentenceIndex": 14,
@@ -732,12 +686,10 @@ export default {
         "overlooked"
       ],
       "optionReasons": {
-        "overlook-mcq-07": "本句指「忽略某人的貢獻」。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-05": "「沒考慮可能性」與本句語境不同。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。",
-        "overlook-mcq-04": "「忽略事實」與本句語境不同。"
+        "overlook-mcq-07": "本句的「overlooked」指「忽略某人的貢獻」。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-07"
     },
@@ -749,11 +701,9 @@ export default {
       "masked": "Emotional intelligence is an ____ part of teamwork.",
       "options": [
         "overlook-mcq-09",
-        "overlook-mcq-08",
-        "overlook-mcq-10",
-        "overlook-mcq-07",
-        "overlook-mcq-11",
-        "overlook-mcq-06"
+        "overlook-mcq-18",
+        "overlook-mcq-13",
+        "overlook-mcq-17"
       ],
       "explanation": "本句的「often overlooked」指「經常被忽略」。",
       "sentenceIndex": 17,
@@ -762,12 +712,10 @@ export default {
         "often overlooked"
       ],
       "optionReasons": {
-        "overlook-mcq-09": "本句指「經常被忽略」。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。"
+        "overlook-mcq-09": "本句的「often overlooked」指「經常被忽略」。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-09"
     },
@@ -779,11 +727,9 @@ export default {
       "masked": "One frequently ____ is workload distribution.",
       "options": [
         "overlook-mcq-09",
-        "overlook-mcq-08",
-        "overlook-mcq-10",
-        "overlook-mcq-07",
-        "overlook-mcq-11",
-        "overlook-mcq-06"
+        "overlook-mcq-05",
+        "overlook-mcq-15",
+        "overlook-mcq-12"
       ],
       "explanation": "本句的「overlooked factor」指「經常被忽略」。",
       "sentenceIndex": 18,
@@ -792,12 +738,10 @@ export default {
         "overlooked factor"
       ],
       "optionReasons": {
-        "overlook-mcq-09": "本句指「經常被忽略」。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-06": "「忽略問題」與本句語境不同。"
+        "overlook-mcq-09": "本句的「overlooked factor」指「經常被忽略」。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-09"
     },
@@ -809,11 +753,9 @@ export default {
       "masked": "Small communication problems are ____.",
       "options": [
         "overlook-mcq-10",
-        "overlook-mcq-09",
-        "overlook-mcq-11",
-        "overlook-mcq-08",
-        "overlook-mcq-12",
-        "overlook-mcq-07"
+        "overlook-mcq-18",
+        "overlook-mcq-13",
+        "overlook-mcq-03"
       ],
       "explanation": "本句的「easily overlooked」指「容易被忽略」。",
       "sentenceIndex": 19,
@@ -822,12 +764,10 @@ export default {
         "easily overlooked"
       ],
       "optionReasons": {
-        "overlook-mcq-10": "本句指「容易被忽略」。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。"
+        "overlook-mcq-10": "本句的「easily overlooked」指「容易被忽略」。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-10"
     },
@@ -839,11 +779,9 @@ export default {
       "masked": "The warning sign is ____.",
       "options": [
         "overlook-mcq-10",
-        "overlook-mcq-09",
-        "overlook-mcq-11",
-        "overlook-mcq-08",
-        "overlook-mcq-12",
-        "overlook-mcq-07"
+        "overlook-mcq-03",
+        "overlook-mcq-18",
+        "overlook-mcq-05"
       ],
       "explanation": "本句的「easy to overlook」指「容易被忽略」。",
       "sentenceIndex": 20,
@@ -852,12 +790,10 @@ export default {
         "easy to overlook"
       ],
       "optionReasons": {
-        "overlook-mcq-10": "本句指「容易被忽略」。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。",
-        "overlook-mcq-07": "「忽略某人的貢獻」與本句語境不同。"
+        "overlook-mcq-10": "本句的「easy to overlook」指「容易被忽略」。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-10"
     },
@@ -869,11 +805,9 @@ export default {
       "masked": "Workload fairness is an ____ in some teams.",
       "options": [
         "overlook-mcq-11",
-        "overlook-mcq-10",
-        "overlook-mcq-12",
-        "overlook-mcq-09",
-        "overlook-mcq-13",
-        "overlook-mcq-08"
+        "overlook-mcq-19",
+        "overlook-mcq-05",
+        "overlook-mcq-15"
       ],
       "explanation": "本句的「overlooked issue」指「被忽略的問題」。",
       "sentenceIndex": 21,
@@ -882,12 +816,10 @@ export default {
         "overlooked issue"
       ],
       "optionReasons": {
-        "overlook-mcq-11": "本句指「被忽略的問題」。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。",
-        "overlook-mcq-13": "「不追究小錯」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。"
+        "overlook-mcq-11": "本句的「overlooked issue」指「被忽略的問題」。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-11"
     },
@@ -899,11 +831,9 @@ export default {
       "masked": "Communication style is an ____ in workplace conflict.",
       "options": [
         "overlook-mcq-11",
-        "overlook-mcq-10",
-        "overlook-mcq-12",
-        "overlook-mcq-09",
-        "overlook-mcq-13",
-        "overlook-mcq-08"
+        "overlook-mcq-19",
+        "overlook-mcq-03",
+        "overlook-mcq-15"
       ],
       "explanation": "本句的「overlooked factor」指「被忽略的問題」。",
       "sentenceIndex": 22,
@@ -912,12 +842,10 @@ export default {
         "overlooked factor"
       ],
       "optionReasons": {
-        "overlook-mcq-11": "本句指「被忽略的問題」。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。",
-        "overlook-mcq-13": "「不追究小錯」與本句語境不同。",
-        "overlook-mcq-08": "「晉升時被忽略」與本句語境不同。"
+        "overlook-mcq-11": "本句的「overlooked factor」指「被忽略的問題」。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-11"
     },
@@ -929,11 +857,9 @@ export default {
       "masked": "I'll ____.",
       "options": [
         "overlook-mcq-12",
-        "overlook-mcq-11",
-        "overlook-mcq-13",
-        "overlook-mcq-10",
-        "overlook-mcq-14",
-        "overlook-mcq-09"
+        "overlook-mcq-19",
+        "overlook-mcq-02",
+        "overlook-mcq-15"
       ],
       "explanation": "本句的「overlook the mistake this time」指「不追究；寬容」。",
       "sentenceIndex": 23,
@@ -942,12 +868,10 @@ export default {
         "overlook the mistake this time"
       ],
       "optionReasons": {
-        "overlook-mcq-12": "本句指「不追究；寬容」。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-13": "「不追究小錯」與本句語境不同。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。"
+        "overlook-mcq-12": "本句的「overlook the mistake this time」指「不追究；寬容」。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-12"
     },
@@ -959,11 +883,9 @@ export default {
       "masked": "The manager was willing to ____.",
       "options": [
         "overlook-mcq-12",
-        "overlook-mcq-11",
-        "overlook-mcq-13",
-        "overlook-mcq-10",
-        "overlook-mcq-14",
-        "overlook-mcq-09"
+        "overlook-mcq-09",
+        "overlook-mcq-05",
+        "overlook-mcq-18"
       ],
       "explanation": "本句的「overlook his lateness on this occasion」指「不追究；寬容」。",
       "sentenceIndex": 24,
@@ -972,12 +894,10 @@ export default {
         "overlook his lateness on this occasion"
       ],
       "optionReasons": {
-        "overlook-mcq-12": "本句指「不追究；寬容」。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-13": "「不追究小錯」與本句語境不同。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。",
-        "overlook-mcq-09": "「經常被忽略」與本句語境不同。"
+        "overlook-mcq-12": "本句的「overlook his lateness on this occasion」指「不追究；寬容」。",
+        "overlook-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-12"
     },
@@ -989,11 +909,9 @@ export default {
       "masked": "The teacher decided to ____.",
       "options": [
         "overlook-mcq-13",
-        "overlook-mcq-12",
-        "overlook-mcq-14",
-        "overlook-mcq-11",
-        "overlook-mcq-15",
-        "overlook-mcq-10"
+        "overlook-mcq-07",
+        "overlook-mcq-05",
+        "overlook-mcq-18"
       ],
       "explanation": "本句的「overlook the minor offence」指「不追究小錯」。",
       "sentenceIndex": 25,
@@ -1002,12 +920,10 @@ export default {
         "overlook the minor offence"
       ],
       "optionReasons": {
-        "overlook-mcq-13": "本句指「不追究小錯」。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。"
+        "overlook-mcq-13": "本句的「overlook the minor offence」指「不追究小錯」。",
+        "overlook-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-13"
     },
@@ -1019,11 +935,9 @@ export default {
       "masked": "We can ____, but repeated errors are different.",
       "options": [
         "overlook-mcq-13",
-        "overlook-mcq-12",
-        "overlook-mcq-14",
-        "overlook-mcq-11",
-        "overlook-mcq-15",
-        "overlook-mcq-10"
+        "overlook-mcq-05",
+        "overlook-mcq-04",
+        "overlook-mcq-15"
       ],
       "explanation": "本句的「overlook a small mistake」指「不追究小錯」。",
       "sentenceIndex": 26,
@@ -1032,12 +946,10 @@ export default {
         "overlook a small mistake"
       ],
       "optionReasons": {
-        "overlook-mcq-13": "本句指「不追究小錯」。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。",
-        "overlook-mcq-11": "「被忽略的問題」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-10": "「容易被忽略」與本句語境不同。"
+        "overlook-mcq-13": "本句的「overlook a small mistake」指「不追究小錯」。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-13"
     },
@@ -1049,11 +961,9 @@ export default {
       "masked": "The hotel ____.",
       "options": [
         "overlook-mcq-15",
-        "overlook-mcq-14",
-        "overlook-mcq-16",
-        "overlook-mcq-13",
-        "overlook-mcq-17",
-        "overlook-mcq-12"
+        "overlook-mcq-12",
+        "overlook-mcq-04",
+        "overlook-mcq-05"
       ],
       "explanation": "本句的「overlooks the sea」指「俯瞰；面向」。",
       "sentenceIndex": 29,
@@ -1062,12 +972,10 @@ export default {
         "overlooks the sea"
       ],
       "optionReasons": {
-        "overlook-mcq-15": "本句指「俯瞰；面向」。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-13": "「不追究小錯」與本句語境不同。",
-        "overlook-mcq-17": "「面向花園的房間」與本句語境不同。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。"
+        "overlook-mcq-15": "本句的「overlooks the sea」指「俯瞰；面向」。",
+        "overlook-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-15"
     },
@@ -1079,11 +987,9 @@ export default {
       "masked": "Our office ____.",
       "options": [
         "overlook-mcq-15",
-        "overlook-mcq-14",
-        "overlook-mcq-16",
+        "overlook-mcq-04",
         "overlook-mcq-13",
-        "overlook-mcq-17",
-        "overlook-mcq-12"
+        "overlook-mcq-19"
       ],
       "explanation": "本句的「overlooks the city centre」指「俯瞰；面向」。",
       "sentenceIndex": 30,
@@ -1092,12 +998,10 @@ export default {
         "overlooks the city centre"
       ],
       "optionReasons": {
-        "overlook-mcq-15": "本句指「俯瞰；面向」。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-13": "「不追究小錯」與本句語境不同。",
-        "overlook-mcq-17": "「面向花園的房間」與本句語境不同。",
-        "overlook-mcq-12": "「不追究；寬容」與本句語境不同。"
+        "overlook-mcq-15": "本句的「overlooks the city centre」指「俯瞰；面向」。",
+        "overlook-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-15"
     },
@@ -1109,11 +1013,9 @@ export default {
       "masked": "We booked a room ____.",
       "options": [
         "overlook-mcq-17",
-        "overlook-mcq-16",
         "overlook-mcq-18",
-        "overlook-mcq-15",
-        "overlook-mcq-19",
-        "overlook-mcq-14"
+        "overlook-mcq-05",
+        "overlook-mcq-04"
       ],
       "explanation": "本句的「overlooking the harbour」指「面向花園的房間」。",
       "sentenceIndex": 31,
@@ -1122,12 +1024,10 @@ export default {
         "overlooking the harbour"
       ],
       "optionReasons": {
-        "overlook-mcq-17": "本句指「面向花園的房間」。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-18": "「觀景台；觀景點」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-19": "「風景觀景點」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。"
+        "overlook-mcq-17": "本句的「overlooking the harbour」指「面向花園的房間」。",
+        "overlook-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-17"
     },
@@ -1139,11 +1039,9 @@ export default {
       "masked": "Her office has a window ____.",
       "options": [
         "overlook-mcq-17",
-        "overlook-mcq-16",
-        "overlook-mcq-18",
-        "overlook-mcq-15",
-        "overlook-mcq-19",
-        "overlook-mcq-14"
+        "overlook-mcq-03",
+        "overlook-mcq-02",
+        "overlook-mcq-19"
       ],
       "explanation": "本句的「overlooking the garden」指「面向花園的房間」。",
       "sentenceIndex": 32,
@@ -1152,12 +1050,10 @@ export default {
         "overlooking the garden"
       ],
       "optionReasons": {
-        "overlook-mcq-17": "本句指「面向花園的房間」。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-18": "「觀景台；觀景點」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-19": "「風景觀景點」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。"
+        "overlook-mcq-17": "本句的「overlooking the garden」指「面向花園的房間」。",
+        "overlook-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-17"
     },
@@ -1169,11 +1065,9 @@ export default {
       "masked": "We stopped at a scenic ____ to take photographs.",
       "options": [
         "overlook-mcq-18",
-        "overlook-mcq-17",
-        "overlook-mcq-19",
-        "overlook-mcq-16",
-        "overlook-mcq-15",
-        "overlook-mcq-14"
+        "overlook-mcq-09",
+        "overlook-mcq-05",
+        "overlook-mcq-17"
       ],
       "explanation": "本句的「overlook」指「觀景台；觀景點」。",
       "sentenceIndex": 35,
@@ -1182,12 +1076,10 @@ export default {
         "overlook"
       ],
       "optionReasons": {
-        "overlook-mcq-18": "本句指「觀景台；觀景點」。",
-        "overlook-mcq-17": "「面向花園的房間」與本句語境不同。",
-        "overlook-mcq-19": "「風景觀景點」與本句語境不同。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。"
+        "overlook-mcq-18": "本句的「overlook」指「觀景台；觀景點」。",
+        "overlook-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-18"
     },
@@ -1199,11 +1091,9 @@ export default {
       "masked": "The trail leads to an ____ above the valley.",
       "options": [
         "overlook-mcq-18",
-        "overlook-mcq-17",
-        "overlook-mcq-19",
-        "overlook-mcq-16",
         "overlook-mcq-15",
-        "overlook-mcq-14"
+        "overlook-mcq-02",
+        "overlook-mcq-13"
       ],
       "explanation": "本句的「overlook」指「觀景台；觀景點」。",
       "sentenceIndex": 36,
@@ -1212,12 +1102,10 @@ export default {
         "overlook"
       ],
       "optionReasons": {
-        "overlook-mcq-18": "本句指「觀景台；觀景點」。",
-        "overlook-mcq-17": "「面向花園的房間」與本句語境不同。",
-        "overlook-mcq-19": "「風景觀景點」與本句語境不同。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。"
+        "overlook-mcq-18": "本句的「overlook」指「觀景台；觀景點」。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-18"
     },
@@ -1229,11 +1117,9 @@ export default {
       "masked": "There is a ____ beside the road.",
       "options": [
         "overlook-mcq-19",
-        "overlook-mcq-18",
-        "overlook-mcq-17",
-        "overlook-mcq-16",
-        "overlook-mcq-15",
-        "overlook-mcq-14"
+        "overlook-mcq-07",
+        "overlook-mcq-05",
+        "overlook-mcq-15"
       ],
       "explanation": "本句的「scenic overlook」指「風景觀景點」。",
       "sentenceIndex": 37,
@@ -1242,12 +1128,10 @@ export default {
         "scenic overlook"
       ],
       "optionReasons": {
-        "overlook-mcq-19": "本句指「風景觀景點」。",
-        "overlook-mcq-18": "「觀景台；觀景點」與本句語境不同。",
-        "overlook-mcq-17": "「面向花園的房間」與本句語境不同。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。"
+        "overlook-mcq-19": "本句的「scenic overlook」指「風景觀景點」。",
+        "overlook-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-19"
     },
@@ -1259,11 +1143,9 @@ export default {
       "masked": "The scenic ____ offers a wide view of the mountains.",
       "options": [
         "overlook-mcq-19",
-        "overlook-mcq-18",
+        "overlook-mcq-11",
         "overlook-mcq-17",
-        "overlook-mcq-16",
-        "overlook-mcq-15",
-        "overlook-mcq-14"
+        "overlook-mcq-13"
       ],
       "explanation": "本句的「overlook」指「風景觀景點」。",
       "sentenceIndex": 38,
@@ -1272,12 +1154,10 @@ export default {
         "overlook"
       ],
       "optionReasons": {
-        "overlook-mcq-19": "本句指「風景觀景點」。",
-        "overlook-mcq-18": "「觀景台；觀景點」與本句語境不同。",
-        "overlook-mcq-17": "「面向花園的房間」與本句語境不同。",
-        "overlook-mcq-16": "「俯瞰大海」與本句語境不同。",
-        "overlook-mcq-15": "「俯瞰；面向」與本句語境不同。",
-        "overlook-mcq-14": "「不追究不當行為」與本句語境不同。"
+        "overlook-mcq-19": "本句的「overlook」指「風景觀景點」。",
+        "overlook-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "overlook-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "overlook-mcq-19"
     }
@@ -1289,5 +1169,7 @@ export default {
     "sha256": "2e3c4b9ff91597ced2dd49d2768b50020881b51b09831d8a900409a980e16f9f",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

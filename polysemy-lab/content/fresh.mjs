@@ -100,7 +100,7 @@ export default {
     },
     {
       "id": "fresh-mcq-05",
-      "title": "表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」",
+      "title": "新鮮花朵",
       "form": "fresh flowers",
       "en": "fresh flowers",
       "zh": "表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」",
@@ -166,7 +166,7 @@ export default {
     },
     {
       "id": "fresh-mcq-08",
-      "title": "表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」",
+      "title": "清新的氣味",
       "form": "fresh smell / scent",
       "en": "fresh smell / scent",
       "zh": "表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」",
@@ -342,7 +342,7 @@ export default {
     },
     {
       "id": "fresh-mcq-16",
-      "title": "表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」",
+      "title": "新傷；剛受的傷",
       "form": "fresh wound / injury",
       "en": "fresh wound / injury",
       "zh": "表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」",
@@ -386,7 +386,7 @@ export default {
     },
     {
       "id": "fresh-mcq-18",
-      "title": "表示剛從……回來／剛完成……；例句：「她剛大學畢業。」",
+      "title": "剛從……回來／剛完成……",
       "form": "fresh from something",
       "en": "fresh from something",
       "zh": "表示剛從……回來／剛完成……；例句：「她剛大學畢業。」",
@@ -747,10 +747,8 @@ export default {
       "options": [
         "fresh-mcq-01",
         "fresh-mcq-02",
-        "fresh-mcq-03",
-        "fresh-mcq-04",
-        "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-12",
+        "fresh-mcq-19"
       ],
       "explanation": "本句的「fresh air」指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
       "sentenceIndex": 0,
@@ -759,12 +757,10 @@ export default {
         "fresh air"
       ],
       "optionReasons": {
-        "fresh-mcq-01": "本句指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-01": "本句的「fresh air」指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
+        "fresh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-01"
     },
@@ -777,10 +773,8 @@ export default {
       "options": [
         "fresh-mcq-01",
         "fresh-mcq-02",
-        "fresh-mcq-03",
-        "fresh-mcq-04",
-        "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-22",
+        "fresh-mcq-16"
       ],
       "explanation": "本句的「fresh air」指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
       "sentenceIndex": 1,
@@ -789,12 +783,10 @@ export default {
         "fresh air"
       ],
       "optionReasons": {
-        "fresh-mcq-01": "本句指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-01": "本句的「fresh air」指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
+        "fresh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-01"
     },
@@ -806,11 +798,9 @@ export default {
       "masked": "Open the window and let some ____ in.",
       "options": [
         "fresh-mcq-01",
-        "fresh-mcq-02",
-        "fresh-mcq-03",
-        "fresh-mcq-04",
-        "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-11",
+        "fresh-mcq-06",
+        "fresh-mcq-13"
       ],
       "explanation": "本句的「fresh air」指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
       "sentenceIndex": 2,
@@ -819,12 +809,10 @@ export default {
         "fresh air"
       ],
       "optionReasons": {
-        "fresh-mcq-01": "本句指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-01": "本句的「fresh air」指「清潔、流通、令人感覺舒服而不悶焗的空氣」。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-01"
     },
@@ -836,11 +824,9 @@ export default {
       "masked": "The restaurant uses only ____.",
       "options": [
         "fresh-mcq-02",
-        "fresh-mcq-01",
-        "fresh-mcq-03",
-        "fresh-mcq-04",
-        "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-33",
+        "fresh-mcq-15",
+        "fresh-mcq-21"
       ],
       "explanation": "本句的「fresh ingredients」指「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」。",
       "sentenceIndex": 3,
@@ -849,12 +835,10 @@ export default {
         "fresh ingredients"
       ],
       "optionReasons": {
-        "fresh-mcq-02": "本句指「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」。",
-        "fresh-mcq-01": "「清潔、流通、令人感覺舒服而不悶焗的空氣」是「fresh air」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-02": "本句的「fresh ingredients」指「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」。",
+        "fresh-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-02"
     },
@@ -866,11 +850,9 @@ export default {
       "masked": "We bought some ____ at the market.",
       "options": [
         "fresh-mcq-02",
-        "fresh-mcq-01",
-        "fresh-mcq-03",
-        "fresh-mcq-04",
         "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-08",
+        "fresh-mcq-31"
       ],
       "explanation": "本句的「fresh fish」指「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」。",
       "sentenceIndex": 4,
@@ -879,12 +861,10 @@ export default {
         "fresh fish"
       ],
       "optionReasons": {
-        "fresh-mcq-02": "本句指「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」。",
-        "fresh-mcq-01": "「清潔、流通、令人感覺舒服而不悶焗的空氣」是「fresh air」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-02": "本句的「fresh fish」指「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」。",
+        "fresh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-02"
     },
@@ -896,11 +876,9 @@ export default {
       "masked": "I try to eat ____ every day.",
       "options": [
         "fresh-mcq-03",
-        "fresh-mcq-02",
-        "fresh-mcq-04",
-        "fresh-mcq-01",
-        "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-30",
+        "fresh-mcq-08",
+        "fresh-mcq-31"
       ],
       "explanation": "本句的「fresh fruit」指「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」。",
       "sentenceIndex": 5,
@@ -909,12 +887,10 @@ export default {
         "fresh fruit"
       ],
       "optionReasons": {
-        "fresh-mcq-03": "本句指「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-01": "「清潔、流通、令人感覺舒服而不悶焗的空氣」是「fresh air」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-03": "本句的「fresh fruit」指「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」。",
+        "fresh-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-03"
     },
@@ -926,11 +902,9 @@ export default {
       "masked": "The shop sells ____ from local farms.",
       "options": [
         "fresh-mcq-03",
-        "fresh-mcq-02",
-        "fresh-mcq-04",
-        "fresh-mcq-01",
-        "fresh-mcq-05",
-        "fresh-mcq-06"
+        "fresh-mcq-31",
+        "fresh-mcq-11",
+        "fresh-mcq-25"
       ],
       "explanation": "本句的「fresh vegetables」指「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」。",
       "sentenceIndex": 6,
@@ -939,12 +913,10 @@ export default {
         "fresh vegetables"
       ],
       "optionReasons": {
-        "fresh-mcq-03": "本句指「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-01": "「清潔、流通、令人感覺舒服而不悶焗的空氣」是「fresh air」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-03": "本句的「fresh vegetables」指「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-03"
     },
@@ -956,11 +928,9 @@ export default {
       "masked": "The bakery sells ____ every morning.",
       "options": [
         "fresh-mcq-04",
-        "fresh-mcq-03",
-        "fresh-mcq-05",
-        "fresh-mcq-02",
+        "fresh-mcq-25",
         "fresh-mcq-06",
-        "fresh-mcq-01"
+        "fresh-mcq-15"
       ],
       "explanation": "本句的「fresh bread」指「剛製作或剛準備好，還沒有放置太久的」。",
       "sentenceIndex": 7,
@@ -969,12 +939,10 @@ export default {
         "fresh bread"
       ],
       "optionReasons": {
-        "fresh-mcq-04": "本句指「剛製作或剛準備好，還沒有放置太久的」。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-01": "「清潔、流通、令人感覺舒服而不悶焗的空氣」是「fresh air」的用法，與本句語境不同。"
+        "fresh-mcq-04": "本句的「fresh bread」指「剛製作或剛準備好，還沒有放置太久的」。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-04"
     },
@@ -986,11 +954,9 @@ export default {
       "masked": "We ate the soup while it was still ____.",
       "options": [
         "fresh-mcq-04",
-        "fresh-mcq-03",
-        "fresh-mcq-05",
-        "fresh-mcq-02",
-        "fresh-mcq-06",
-        "fresh-mcq-01"
+        "fresh-mcq-28",
+        "fresh-mcq-08",
+        "fresh-mcq-24"
       ],
       "explanation": "本句的「fresh」指「剛製作或剛準備好，還沒有放置太久的」。",
       "sentenceIndex": 8,
@@ -999,12 +965,10 @@ export default {
         "fresh"
       ],
       "optionReasons": {
-        "fresh-mcq-04": "本句指「剛製作或剛準備好，還沒有放置太久的」。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-01": "「清潔、流通、令人感覺舒服而不悶焗的空氣」是「fresh air」的用法，與本句語境不同。"
+        "fresh-mcq-04": "本句的「fresh」指「剛製作或剛準備好，還沒有放置太久的」。",
+        "fresh-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-04"
     },
@@ -1017,10 +981,8 @@ export default {
       "options": [
         "fresh-mcq-05",
         "fresh-mcq-04",
-        "fresh-mcq-06",
-        "fresh-mcq-03",
-        "fresh-mcq-07",
-        "fresh-mcq-02"
+        "fresh-mcq-24",
+        "fresh-mcq-25"
       ],
       "explanation": "本句的「fresh flowers」指「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」。",
       "sentenceIndex": 9,
@@ -1029,12 +991,10 @@ export default {
         "fresh flowers"
       ],
       "optionReasons": {
-        "fresh-mcq-05": "本句指「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。"
+        "fresh-mcq-05": "本句的「fresh flowers」指「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-05"
     },
@@ -1046,10 +1006,8 @@ export default {
       "masked": "The room was decorated with ____.",
       "options": [
         "fresh-mcq-05",
-        "fresh-mcq-04",
-        "fresh-mcq-06",
-        "fresh-mcq-03",
-        "fresh-mcq-07",
+        "fresh-mcq-18",
+        "fresh-mcq-14",
         "fresh-mcq-02"
       ],
       "explanation": "本句的「fresh roses」指「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」。",
@@ -1059,12 +1017,10 @@ export default {
         "fresh roses"
       ],
       "optionReasons": {
-        "fresh-mcq-05": "本句指「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-02": "「剛製作、採摘、捕獲或未放置太久，因此仍保持良好狀態的食物」是「fresh food」的用法，與本句語境不同。"
+        "fresh-mcq-05": "本句的「fresh roses」指「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-05"
     },
@@ -1076,11 +1032,9 @@ export default {
       "masked": "The island has very little ____.",
       "options": [
         "fresh-mcq-06",
-        "fresh-mcq-05",
-        "fresh-mcq-07",
-        "fresh-mcq-04",
-        "fresh-mcq-08",
-        "fresh-mcq-03"
+        "fresh-mcq-31",
+        "fresh-mcq-32",
+        "fresh-mcq-08"
       ],
       "explanation": "本句的「fresh water」指「鹽分很低、不是海水的水，即淡水」。",
       "sentenceIndex": 11,
@@ -1089,12 +1043,10 @@ export default {
         "fresh water"
       ],
       "optionReasons": {
-        "fresh-mcq-06": "本句指「鹽分很低、不是海水的水，即淡水」。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。"
+        "fresh-mcq-06": "本句的「fresh water」指「鹽分很低、不是海水的水，即淡水」。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-06"
     },
@@ -1106,11 +1058,9 @@ export default {
       "masked": "Fish that live in ____ cannot always survive in the sea.",
       "options": [
         "fresh-mcq-06",
-        "fresh-mcq-05",
-        "fresh-mcq-07",
-        "fresh-mcq-04",
-        "fresh-mcq-08",
-        "fresh-mcq-03"
+        "fresh-mcq-20",
+        "fresh-mcq-23",
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh water」指「鹽分很低、不是海水的水，即淡水」。",
       "sentenceIndex": 12,
@@ -1119,12 +1069,10 @@ export default {
         "fresh water"
       ],
       "optionReasons": {
-        "fresh-mcq-06": "本句指「鹽分很低、不是海水的水，即淡水」。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-03": "「剛採收、未經長時間保存，仍保持良好質素的水果／蔬菜」是「fresh fruit / vegetables」的用法，與本句語境不同。"
+        "fresh-mcq-06": "本句的「fresh water」指「鹽分很低、不是海水的水，即淡水」。",
+        "fresh-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-06"
     },
@@ -1136,11 +1084,9 @@ export default {
       "masked": "We buy ____ every few days.",
       "options": [
         "fresh-mcq-07",
-        "fresh-mcq-06",
-        "fresh-mcq-08",
-        "fresh-mcq-05",
-        "fresh-mcq-09",
-        "fresh-mcq-04"
+        "fresh-mcq-01",
+        "fresh-mcq-23",
+        "fresh-mcq-31"
       ],
       "explanation": "本句的「fresh milk」指「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」。",
       "sentenceIndex": 13,
@@ -1149,12 +1095,10 @@ export default {
         "fresh milk"
       ],
       "optionReasons": {
-        "fresh-mcq-07": "本句指「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。"
+        "fresh-mcq-07": "本句的「fresh milk」指「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」。",
+        "fresh-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-07"
     },
@@ -1166,10 +1110,8 @@ export default {
       "masked": "The dessert is made with ____.",
       "options": [
         "fresh-mcq-07",
+        "fresh-mcq-32",
         "fresh-mcq-06",
-        "fresh-mcq-08",
-        "fresh-mcq-05",
-        "fresh-mcq-09",
         "fresh-mcq-04"
       ],
       "explanation": "本句的「fresh cream」指「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」。",
@@ -1179,12 +1121,10 @@ export default {
         "fresh cream"
       ],
       "optionReasons": {
-        "fresh-mcq-07": "本句指「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-04": "「剛製作或剛準備好，還沒有放置太久的」是「fresh bread / food just made」的用法，與本句語境不同。"
+        "fresh-mcq-07": "本句的「fresh cream」指「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-07"
     },
@@ -1196,11 +1136,9 @@ export default {
       "masked": "The room had a ____ after cleaning.",
       "options": [
         "fresh-mcq-08",
-        "fresh-mcq-07",
-        "fresh-mcq-09",
-        "fresh-mcq-06",
-        "fresh-mcq-10",
-        "fresh-mcq-05"
+        "fresh-mcq-04",
+        "fresh-mcq-31",
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh smell」指「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」。",
       "sentenceIndex": 15,
@@ -1209,12 +1147,10 @@ export default {
         "fresh smell"
       ],
       "optionReasons": {
-        "fresh-mcq-08": "本句指「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。"
+        "fresh-mcq-08": "本句的「fresh smell」指「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-08"
     },
@@ -1226,11 +1162,9 @@ export default {
       "masked": "I love the ____ of rain.",
       "options": [
         "fresh-mcq-08",
-        "fresh-mcq-07",
-        "fresh-mcq-09",
-        "fresh-mcq-06",
-        "fresh-mcq-10",
-        "fresh-mcq-05"
+        "fresh-mcq-21",
+        "fresh-mcq-03",
+        "fresh-mcq-14"
       ],
       "explanation": "本句的「fresh scent」指「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」。",
       "sentenceIndex": 16,
@@ -1239,12 +1173,10 @@ export default {
         "fresh scent"
       ],
       "optionReasons": {
-        "fresh-mcq-08": "本句指「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-05": "「表示新鮮花朵；例句：「她在桌上放了新鮮花朵。」」是「fresh flowers」的用法，與本句語境不同。"
+        "fresh-mcq-08": "本句的「fresh scent」指「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」。",
+        "fresh-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-08"
     },
@@ -1256,11 +1188,9 @@ export default {
       "masked": "I changed into ____.",
       "options": [
         "fresh-mcq-09",
-        "fresh-mcq-08",
-        "fresh-mcq-10",
-        "fresh-mcq-07",
+        "fresh-mcq-22",
         "fresh-mcq-11",
-        "fresh-mcq-06"
+        "fresh-mcq-12"
       ],
       "explanation": "本句的「fresh clothes」指「剛清洗或更換、乾淨而令人感覺舒服的」。",
       "sentenceIndex": 17,
@@ -1269,12 +1199,10 @@ export default {
         "fresh clothes"
       ],
       "optionReasons": {
-        "fresh-mcq-09": "本句指「剛清洗或更換、乾淨而令人感覺舒服的」。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-09": "本句的「fresh clothes」指「剛清洗或更換、乾淨而令人感覺舒服的」。",
+        "fresh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-09"
     },
@@ -1286,11 +1214,9 @@ export default {
       "masked": "Nothing feels better than ____.",
       "options": [
         "fresh-mcq-09",
-        "fresh-mcq-08",
-        "fresh-mcq-10",
-        "fresh-mcq-07",
-        "fresh-mcq-11",
-        "fresh-mcq-06"
+        "fresh-mcq-12",
+        "fresh-mcq-32",
+        "fresh-mcq-11"
       ],
       "explanation": "本句的「fresh sheets」指「剛清洗或更換、乾淨而令人感覺舒服的」。",
       "sentenceIndex": 18,
@@ -1299,12 +1225,10 @@ export default {
         "fresh sheets"
       ],
       "optionReasons": {
-        "fresh-mcq-09": "本句指「剛清洗或更換、乾淨而令人感覺舒服的」。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-06": "「鹽分很低、不是海水的水，即淡水」是「fresh water」的用法，與本句語境不同。"
+        "fresh-mcq-09": "本句的「fresh sheets」指「剛清洗或更換、乾淨而令人感覺舒服的」。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-09"
     },
@@ -1316,11 +1240,9 @@ export default {
       "masked": "We need some ____.",
       "options": [
         "fresh-mcq-10",
-        "fresh-mcq-09",
-        "fresh-mcq-11",
-        "fresh-mcq-08",
-        "fresh-mcq-12",
-        "fresh-mcq-07"
+        "fresh-mcq-22",
+        "fresh-mcq-01",
+        "fresh-mcq-14"
       ],
       "explanation": "本句的「fresh ideas」指「新的、不同以往、帶來新意的想法」。",
       "sentenceIndex": 19,
@@ -1329,12 +1251,10 @@ export default {
         "fresh ideas"
       ],
       "optionReasons": {
-        "fresh-mcq-10": "本句指「新的、不同以往、帶來新意的想法」。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。"
+        "fresh-mcq-10": "本句的「fresh ideas」指「新的、不同以往、帶來新意的想法」。",
+        "fresh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-10"
     },
@@ -1346,11 +1266,9 @@ export default {
       "masked": "She brought a ____ to the discussion.",
       "options": [
         "fresh-mcq-10",
-        "fresh-mcq-09",
-        "fresh-mcq-11",
-        "fresh-mcq-08",
-        "fresh-mcq-12",
-        "fresh-mcq-07"
+        "fresh-mcq-03",
+        "fresh-mcq-14",
+        "fresh-mcq-01"
       ],
       "explanation": "本句的「fresh idea」指「新的、不同以往、帶來新意的想法」。",
       "sentenceIndex": 20,
@@ -1359,12 +1277,10 @@ export default {
         "fresh idea"
       ],
       "optionReasons": {
-        "fresh-mcq-10": "本句指「新的、不同以往、帶來新意的想法」。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-07": "「未經長時間儲存、冷藏或加工而仍保持新鮮狀態的」是「fresh milk / cream」的用法，與本句語境不同。"
+        "fresh-mcq-10": "本句的「fresh idea」指「新的、不同以往、帶來新意的想法」。",
+        "fresh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-10"
     },
@@ -1376,11 +1292,9 @@ export default {
       "masked": "Travel can give you a ____ on life.",
       "options": [
         "fresh-mcq-11",
-        "fresh-mcq-10",
-        "fresh-mcq-12",
-        "fresh-mcq-09",
-        "fresh-mcq-13",
-        "fresh-mcq-08"
+        "fresh-mcq-22",
+        "fresh-mcq-25",
+        "fresh-mcq-17"
       ],
       "explanation": "本句的「fresh perspective」指「不受原有習慣限制、以新的角度看待事情」。",
       "sentenceIndex": 21,
@@ -1389,12 +1303,10 @@ export default {
         "fresh perspective"
       ],
       "optionReasons": {
-        "fresh-mcq-11": "本句指「不受原有習慣限制、以新的角度看待事情」。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。"
+        "fresh-mcq-11": "本句的「fresh perspective」指「不受原有習慣限制、以新的角度看待事情」。",
+        "fresh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-11"
     },
@@ -1406,11 +1318,9 @@ export default {
       "masked": "We need someone with a ____.",
       "options": [
         "fresh-mcq-11",
-        "fresh-mcq-10",
-        "fresh-mcq-12",
-        "fresh-mcq-09",
-        "fresh-mcq-13",
-        "fresh-mcq-08"
+        "fresh-mcq-06",
+        "fresh-mcq-04",
+        "fresh-mcq-25"
       ],
       "explanation": "本句的「fresh perspective」指「不受原有習慣限制、以新的角度看待事情」。",
       "sentenceIndex": 22,
@@ -1419,12 +1329,10 @@ export default {
         "fresh perspective"
       ],
       "optionReasons": {
-        "fresh-mcq-11": "本句指「不受原有習慣限制、以新的角度看待事情」。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-08": "「表示清新的氣味；例句：「清潔後，房間有一股清新的氣味。」」是「fresh smell / scent」的用法，與本句語境不同。"
+        "fresh-mcq-11": "本句的「fresh perspective」指「不受原有習慣限制、以新的角度看待事情」。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-11"
     },
@@ -1436,11 +1344,9 @@ export default {
       "masked": "The problem needs a ____.",
       "options": [
         "fresh-mcq-12",
-        "fresh-mcq-11",
-        "fresh-mcq-13",
-        "fresh-mcq-10",
-        "fresh-mcq-14",
-        "fresh-mcq-09"
+        "fresh-mcq-25",
+        "fresh-mcq-19",
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh approach」指「與以往不同、帶有新意的方法或策略」。",
       "sentenceIndex": 23,
@@ -1449,12 +1355,10 @@ export default {
         "fresh approach"
       ],
       "optionReasons": {
-        "fresh-mcq-12": "本句指「與以往不同、帶有新意的方法或策略」。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。"
+        "fresh-mcq-12": "本句的「fresh approach」指「與以往不同、帶有新意的方法或策略」。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-12"
     },
@@ -1466,11 +1370,9 @@ export default {
       "masked": "She took a ____ to teaching.",
       "options": [
         "fresh-mcq-12",
-        "fresh-mcq-11",
-        "fresh-mcq-13",
-        "fresh-mcq-10",
-        "fresh-mcq-14",
-        "fresh-mcq-09"
+        "fresh-mcq-21",
+        "fresh-mcq-09",
+        "fresh-mcq-24"
       ],
       "explanation": "本句的「fresh approach」指「與以往不同、帶有新意的方法或策略」。",
       "sentenceIndex": 24,
@@ -1479,12 +1381,10 @@ export default {
         "fresh approach"
       ],
       "optionReasons": {
-        "fresh-mcq-12": "本句指「與以往不同、帶有新意的方法或策略」。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-09": "「剛清洗或更換、乾淨而令人感覺舒服的」是「fresh clothes / sheets」的用法，與本句語境不同。"
+        "fresh-mcq-12": "本句的「fresh approach」指「與以往不同、帶有新意的方法或策略」。",
+        "fresh-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-12"
     },
@@ -1496,11 +1396,9 @@ export default {
       "masked": "Moving to a new city gave him a ____.",
       "options": [
         "fresh-mcq-13",
-        "fresh-mcq-12",
-        "fresh-mcq-14",
-        "fresh-mcq-11",
-        "fresh-mcq-15",
-        "fresh-mcq-10"
+        "fresh-mcq-21",
+        "fresh-mcq-01",
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh start」指「放下之前的問題或失敗，重新開始」。",
       "sentenceIndex": 25,
@@ -1509,12 +1407,10 @@ export default {
         "fresh start"
       ],
       "optionReasons": {
-        "fresh-mcq-13": "本句指「放下之前的問題或失敗，重新開始」。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。"
+        "fresh-mcq-13": "本句的「fresh start」指「放下之前的問題或失敗，重新開始」。",
+        "fresh-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-13"
     },
@@ -1526,11 +1422,9 @@ export default {
       "masked": "Let's forget the argument and make a ____.",
       "options": [
         "fresh-mcq-13",
-        "fresh-mcq-12",
-        "fresh-mcq-14",
-        "fresh-mcq-11",
-        "fresh-mcq-15",
-        "fresh-mcq-10"
+        "fresh-mcq-09",
+        "fresh-mcq-32",
+        "fresh-mcq-19"
       ],
       "explanation": "本句的「fresh start」指「放下之前的問題或失敗，重新開始」。",
       "sentenceIndex": 26,
@@ -1539,12 +1433,10 @@ export default {
         "fresh start"
       ],
       "optionReasons": {
-        "fresh-mcq-13": "本句指「放下之前的問題或失敗，重新開始」。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-10": "「新的、不同以往、帶來新意的想法」是「fresh idea」的用法，與本句語境不同。"
+        "fresh-mcq-13": "本句的「fresh start」指「放下之前的問題或失敗，重新開始」。",
+        "fresh-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-13"
     },
@@ -1556,11 +1448,9 @@ export default {
       "masked": "Police are examining ____.",
       "options": [
         "fresh-mcq-14",
-        "fresh-mcq-13",
-        "fresh-mcq-15",
-        "fresh-mcq-12",
-        "fresh-mcq-16",
-        "fresh-mcq-11"
+        "fresh-mcq-33",
+        "fresh-mcq-25",
+        "fresh-mcq-31"
       ],
       "explanation": "本句的「fresh evidence」指「最近出現、剛獲得或之前未知的資料／證據」。",
       "sentenceIndex": 27,
@@ -1569,12 +1459,10 @@ export default {
         "fresh evidence"
       ],
       "optionReasons": {
-        "fresh-mcq-14": "本句指「最近出現、剛獲得或之前未知的資料／證據」。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。"
+        "fresh-mcq-14": "本句的「fresh evidence」指「最近出現、剛獲得或之前未知的資料／證據」。",
+        "fresh-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-14"
     },
@@ -1586,10 +1474,8 @@ export default {
       "masked": "The report contains ____ about the case.",
       "options": [
         "fresh-mcq-14",
-        "fresh-mcq-13",
-        "fresh-mcq-15",
-        "fresh-mcq-12",
-        "fresh-mcq-16",
+        "fresh-mcq-29",
+        "fresh-mcq-06",
         "fresh-mcq-11"
       ],
       "explanation": "本句的「fresh information」指「最近出現、剛獲得或之前未知的資料／證據」。",
@@ -1599,12 +1485,10 @@ export default {
         "fresh information"
       ],
       "optionReasons": {
-        "fresh-mcq-14": "本句指「最近出現、剛獲得或之前未知的資料／證據」。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-11": "「不受原有習慣限制、以新的角度看待事情」是「fresh perspective」的用法，與本句語境不同。"
+        "fresh-mcq-14": "本句的「fresh information」指「最近出現、剛獲得或之前未知的資料／證據」。",
+        "fresh-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-14"
     },
@@ -1616,11 +1500,9 @@ export default {
       "masked": "Do you have any ____?",
       "options": [
         "fresh-mcq-15",
-        "fresh-mcq-14",
-        "fresh-mcq-16",
-        "fresh-mcq-13",
-        "fresh-mcq-17",
-        "fresh-mcq-12"
+        "fresh-mcq-31",
+        "fresh-mcq-09",
+        "fresh-mcq-23"
       ],
       "explanation": "本句的「fresh news」指「最近才出現或收到的新消息」。",
       "sentenceIndex": 29,
@@ -1629,12 +1511,10 @@ export default {
         "fresh news"
       ],
       "optionReasons": {
-        "fresh-mcq-15": "本句指「最近才出現或收到的新消息」。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。"
+        "fresh-mcq-15": "本句的「fresh news」指「最近才出現或收到的新消息」。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-15"
     },
@@ -1646,11 +1526,9 @@ export default {
       "masked": "We are waiting for ____ from the team.",
       "options": [
         "fresh-mcq-15",
-        "fresh-mcq-14",
-        "fresh-mcq-16",
-        "fresh-mcq-13",
-        "fresh-mcq-17",
-        "fresh-mcq-12"
+        "fresh-mcq-18",
+        "fresh-mcq-02",
+        "fresh-mcq-25"
       ],
       "explanation": "本句的「fresh information」指「最近才出現或收到的新消息」。",
       "sentenceIndex": 30,
@@ -1659,12 +1537,10 @@ export default {
         "fresh information"
       ],
       "optionReasons": {
-        "fresh-mcq-15": "本句指「最近才出現或收到的新消息」。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-12": "「與以往不同、帶有新意的方法或策略」是「fresh approach」的用法，與本句語境不同。"
+        "fresh-mcq-15": "本句的「fresh information」指「最近才出現或收到的新消息」。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-15"
     },
@@ -1676,11 +1552,9 @@ export default {
       "masked": "The cut was still ____.",
       "options": [
         "fresh-mcq-16",
-        "fresh-mcq-15",
-        "fresh-mcq-17",
-        "fresh-mcq-14",
-        "fresh-mcq-18",
-        "fresh-mcq-13"
+        "fresh-mcq-31",
+        "fresh-mcq-06",
+        "fresh-mcq-25"
       ],
       "explanation": "本句的「fresh」指「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」。",
       "sentenceIndex": 31,
@@ -1689,12 +1563,10 @@ export default {
         "fresh"
       ],
       "optionReasons": {
-        "fresh-mcq-16": "本句指「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。"
+        "fresh-mcq-16": "本句的「fresh」指「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-16"
     },
@@ -1706,11 +1578,9 @@ export default {
       "masked": "He had a ____ on his knee.",
       "options": [
         "fresh-mcq-16",
-        "fresh-mcq-15",
+        "fresh-mcq-25",
         "fresh-mcq-17",
-        "fresh-mcq-14",
-        "fresh-mcq-18",
-        "fresh-mcq-13"
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh injury」指「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」。",
       "sentenceIndex": 32,
@@ -1719,12 +1589,10 @@ export default {
         "fresh injury"
       ],
       "optionReasons": {
-        "fresh-mcq-16": "本句指「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-13": "「放下之前的問題或失敗，重新開始」是「fresh start」的用法，與本句語境不同。"
+        "fresh-mcq-16": "本句的「fresh injury」指「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-16"
     },
@@ -1736,11 +1604,9 @@ export default {
       "masked": "The experience is still ____.",
       "options": [
         "fresh-mcq-17",
-        "fresh-mcq-16",
-        "fresh-mcq-18",
-        "fresh-mcq-15",
         "fresh-mcq-19",
-        "fresh-mcq-14"
+        "fresh-mcq-28",
+        "fresh-mcq-06"
       ],
       "explanation": "本句的「fresh in my mind」指「某段記憶仍然清晰，像最近才發生一樣」。",
       "sentenceIndex": 33,
@@ -1749,12 +1615,10 @@ export default {
         "fresh in my mind"
       ],
       "optionReasons": {
-        "fresh-mcq-17": "本句指「某段記憶仍然清晰，像最近才發生一樣」。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。"
+        "fresh-mcq-17": "本句的「fresh in my mind」指「某段記憶仍然清晰，像最近才發生一樣」。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-17"
     },
@@ -1766,11 +1630,9 @@ export default {
       "masked": "The disappointment was still ____.",
       "options": [
         "fresh-mcq-17",
-        "fresh-mcq-16",
-        "fresh-mcq-18",
-        "fresh-mcq-15",
-        "fresh-mcq-19",
-        "fresh-mcq-14"
+        "fresh-mcq-13",
+        "fresh-mcq-32",
+        "fresh-mcq-19"
       ],
       "explanation": "本句的「fresh」指「某段記憶仍然清晰，像最近才發生一樣」。",
       "sentenceIndex": 34,
@@ -1779,12 +1641,10 @@ export default {
         "fresh"
       ],
       "optionReasons": {
-        "fresh-mcq-17": "本句指「某段記憶仍然清晰，像最近才發生一樣」。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-14": "「最近出現、剛獲得或之前未知的資料／證據」是「fresh evidence / information」的用法，與本句語境不同。"
+        "fresh-mcq-17": "本句的「fresh」指「某段記憶仍然清晰，像最近才發生一樣」。",
+        "fresh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-17"
     },
@@ -1796,11 +1656,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "fresh-mcq-18",
-        "fresh-mcq-17",
-        "fresh-mcq-19",
-        "fresh-mcq-16",
-        "fresh-mcq-20",
-        "fresh-mcq-15"
+        "fresh-mcq-30",
+        "fresh-mcq-06",
+        "fresh-mcq-11"
       ],
       "explanation": "本句的「fresh from university」指「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」。",
       "sentenceIndex": 35,
@@ -1809,12 +1667,10 @@ export default {
         "fresh from university"
       ],
       "optionReasons": {
-        "fresh-mcq-18": "本句指「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。"
+        "fresh-mcq-18": "本句的「fresh from university」指「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」。",
+        "fresh-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-18"
     },
@@ -1826,11 +1682,9 @@ export default {
       "masked": "He arrived ____.",
       "options": [
         "fresh-mcq-18",
-        "fresh-mcq-17",
-        "fresh-mcq-19",
-        "fresh-mcq-16",
-        "fresh-mcq-20",
-        "fresh-mcq-15"
+        "fresh-mcq-28",
+        "fresh-mcq-15",
+        "fresh-mcq-12"
       ],
       "explanation": "本句的「fresh from a long trip」指「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」。",
       "sentenceIndex": 36,
@@ -1839,12 +1693,10 @@ export default {
         "fresh from a long trip"
       ],
       "optionReasons": {
-        "fresh-mcq-18": "本句指「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-15": "「最近才出現或收到的新消息」是「fresh news」的用法，與本句語境不同。"
+        "fresh-mcq-18": "本句的「fresh from a long trip」指「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」。",
+        "fresh-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-18"
     },
@@ -1856,11 +1708,9 @@ export default {
       "masked": "We're ____.",
       "options": [
         "fresh-mcq-19",
-        "fresh-mcq-18",
-        "fresh-mcq-20",
+        "fresh-mcq-27",
         "fresh-mcq-17",
-        "fresh-mcq-21",
-        "fresh-mcq-16"
+        "fresh-mcq-08"
       ],
       "explanation": "本句的「fresh out of milk」指「某物剛好已經全部用完或賣完」。",
       "sentenceIndex": 37,
@@ -1869,12 +1719,10 @@ export default {
         "fresh out of milk"
       ],
       "optionReasons": {
-        "fresh-mcq-19": "本句指「某物剛好已經全部用完或賣完」。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。"
+        "fresh-mcq-19": "本句的「fresh out of milk」指「某物剛好已經全部用完或賣完」。",
+        "fresh-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-19"
     },
@@ -1886,11 +1734,9 @@ export default {
       "masked": "Sorry, we're ____.",
       "options": [
         "fresh-mcq-19",
-        "fresh-mcq-18",
-        "fresh-mcq-20",
-        "fresh-mcq-17",
-        "fresh-mcq-21",
-        "fresh-mcq-16"
+        "fresh-mcq-11",
+        "fresh-mcq-25",
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh out of bread」指「某物剛好已經全部用完或賣完」。",
       "sentenceIndex": 38,
@@ -1899,12 +1745,10 @@ export default {
         "fresh out of bread"
       ],
       "optionReasons": {
-        "fresh-mcq-19": "本句指「某物剛好已經全部用完或賣完」。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-16": "「表示新傷；剛受的傷；例句：「那道傷口仍然是新傷。」」是「fresh wound / injury」的用法，與本句語境不同。"
+        "fresh-mcq-19": "本句的「fresh out of bread」指「某物剛好已經全部用完或賣完」。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-19"
     },
@@ -1916,11 +1760,9 @@ export default {
       "masked": "A group of ____ arrived on campus.",
       "options": [
         "fresh-mcq-20",
-        "fresh-mcq-19",
-        "fresh-mcq-21",
-        "fresh-mcq-18",
-        "fresh-mcq-22",
-        "fresh-mcq-17"
+        "fresh-mcq-33",
+        "fresh-mcq-25",
+        "fresh-mcq-24"
       ],
       "explanation": "本句的「fresh-faced students」指「看起來年輕、健康、精神好而沒有疲態的」。",
       "sentenceIndex": 39,
@@ -1929,12 +1771,10 @@ export default {
         "fresh-faced students"
       ],
       "optionReasons": {
-        "fresh-mcq-20": "本句指「看起來年輕、健康、精神好而沒有疲態的」。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。"
+        "fresh-mcq-20": "本句的「fresh-faced students」指「看起來年輕、健康、精神好而沒有疲態的」。",
+        "fresh-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-20"
     },
@@ -1946,11 +1786,9 @@ export default {
       "masked": "He looked ____.",
       "options": [
         "fresh-mcq-20",
-        "fresh-mcq-19",
-        "fresh-mcq-21",
-        "fresh-mcq-18",
-        "fresh-mcq-22",
-        "fresh-mcq-17"
+        "fresh-mcq-12",
+        "fresh-mcq-15",
+        "fresh-mcq-22"
       ],
       "explanation": "本句的「fresh-faced and energetic」指「看起來年輕、健康、精神好而沒有疲態的」。",
       "sentenceIndex": 40,
@@ -1959,12 +1797,10 @@ export default {
         "fresh-faced and energetic"
       ],
       "optionReasons": {
-        "fresh-mcq-20": "本句指「看起來年輕、健康、精神好而沒有疲態的」。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-17": "「某段記憶仍然清晰，像最近才發生一樣」是「fresh memory」的用法，與本句語境不同。"
+        "fresh-mcq-20": "本句的「fresh-faced and energetic」指「看起來年輕、健康、精神好而沒有疲態的」。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-20"
     },
@@ -1976,11 +1812,9 @@ export default {
       "masked": "I feel ____ after a good night's sleep.",
       "options": [
         "fresh-mcq-21",
-        "fresh-mcq-20",
-        "fresh-mcq-22",
-        "fresh-mcq-19",
-        "fresh-mcq-23",
-        "fresh-mcq-18"
+        "fresh-mcq-17",
+        "fresh-mcq-13",
+        "fresh-mcq-32"
       ],
       "explanation": "本句的「fresh」指「經休息後感到精神充沛、不疲累的」。",
       "sentenceIndex": 41,
@@ -1989,12 +1823,10 @@ export default {
         "fresh"
       ],
       "optionReasons": {
-        "fresh-mcq-21": "本句指「經休息後感到精神充沛、不疲累的」。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。"
+        "fresh-mcq-21": "本句的「fresh」指「經休息後感到精神充沛、不疲累的」。",
+        "fresh-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-21"
     },
@@ -2006,11 +1838,9 @@ export default {
       "masked": "She arrived feeling ____.",
       "options": [
         "fresh-mcq-21",
-        "fresh-mcq-20",
-        "fresh-mcq-22",
-        "fresh-mcq-19",
-        "fresh-mcq-23",
-        "fresh-mcq-18"
+        "fresh-mcq-13",
+        "fresh-mcq-32",
+        "fresh-mcq-02"
       ],
       "explanation": "本句的「fresh and ready to work」指「經休息後感到精神充沛、不疲累的」。",
       "sentenceIndex": 42,
@@ -2019,12 +1849,10 @@ export default {
         "fresh and ready to work"
       ],
       "optionReasons": {
-        "fresh-mcq-21": "本句指「經休息後感到精神充沛、不疲累的」。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-18": "「表示剛從……回來／剛完成……；例句：「她剛大學畢業。」」是「fresh from something」的用法，與本句語境不同。"
+        "fresh-mcq-21": "本句的「fresh and ready to work」指「經休息後感到精神充沛、不疲累的」。",
+        "fresh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-21"
     },
@@ -2036,11 +1864,9 @@ export default {
       "masked": "The coach brought on ____ in the second half.",
       "options": [
         "fresh-mcq-22",
-        "fresh-mcq-21",
-        "fresh-mcq-23",
-        "fresh-mcq-20",
-        "fresh-mcq-24",
-        "fresh-mcq-19"
+        "fresh-mcq-27",
+        "fresh-mcq-04",
+        "fresh-mcq-33"
       ],
       "explanation": "本句的「fresh legs」指「因尚未長時間活動而仍有充足體力的」。",
       "sentenceIndex": 43,
@@ -2049,12 +1875,10 @@ export default {
         "fresh legs"
       ],
       "optionReasons": {
-        "fresh-mcq-22": "本句指「因尚未長時間活動而仍有充足體力的」。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。"
+        "fresh-mcq-22": "本句的「fresh legs」指「因尚未長時間活動而仍有充足體力的」。",
+        "fresh-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-22"
     },
@@ -2066,11 +1890,9 @@ export default {
       "masked": "A ____ can change the pace of the game.",
       "options": [
         "fresh-mcq-22",
-        "fresh-mcq-21",
-        "fresh-mcq-23",
-        "fresh-mcq-20",
-        "fresh-mcq-24",
-        "fresh-mcq-19"
+        "fresh-mcq-08",
+        "fresh-mcq-27",
+        "fresh-mcq-18"
       ],
       "explanation": "本句的「fresh player」指「因尚未長時間活動而仍有充足體力的」。",
       "sentenceIndex": 44,
@@ -2079,12 +1901,10 @@ export default {
         "fresh player"
       ],
       "optionReasons": {
-        "fresh-mcq-22": "本句指「因尚未長時間活動而仍有充足體力的」。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-19": "「某物剛好已經全部用完或賣完」是「fresh out of something」的用法，與本句語境不同。"
+        "fresh-mcq-22": "本句的「fresh player」指「因尚未長時間活動而仍有充足體力的」。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-22"
     },
@@ -2096,11 +1916,9 @@ export default {
       "masked": "There was ____ on the ground.",
       "options": [
         "fresh-mcq-23",
-        "fresh-mcq-22",
-        "fresh-mcq-24",
-        "fresh-mcq-21",
-        "fresh-mcq-25",
-        "fresh-mcq-20"
+        "fresh-mcq-12",
+        "fresh-mcq-01",
+        "fresh-mcq-06"
       ],
       "explanation": "本句的「fresh snow」指「剛形成、剛產生或剛完成不久的」。",
       "sentenceIndex": 45,
@@ -2109,12 +1927,10 @@ export default {
         "fresh snow"
       ],
       "optionReasons": {
-        "fresh-mcq-23": "本句指「剛形成、剛產生或剛完成不久的」。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。"
+        "fresh-mcq-23": "本句的「fresh snow」指「剛形成、剛產生或剛完成不久的」。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-23"
     },
@@ -2127,10 +1943,8 @@ export default {
       "options": [
         "fresh-mcq-23",
         "fresh-mcq-22",
-        "fresh-mcq-24",
-        "fresh-mcq-21",
         "fresh-mcq-25",
-        "fresh-mcq-20"
+        "fresh-mcq-05"
       ],
       "explanation": "本句的「fresh」指「剛形成、剛產生或剛完成不久的」。",
       "sentenceIndex": 46,
@@ -2139,12 +1953,10 @@ export default {
         "fresh"
       ],
       "optionReasons": {
-        "fresh-mcq-23": "本句指「剛形成、剛產生或剛完成不久的」。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-20": "「看起來年輕、健康、精神好而沒有疲態的」是「fresh-faced」的用法，與本句語境不同。"
+        "fresh-mcq-23": "本句的「fresh」指「剛形成、剛產生或剛完成不久的」。",
+        "fresh-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-23"
     },
@@ -2156,11 +1968,9 @@ export default {
       "masked": "We saw ____ in the mud.",
       "options": [
         "fresh-mcq-24",
-        "fresh-mcq-23",
-        "fresh-mcq-25",
-        "fresh-mcq-22",
-        "fresh-mcq-26",
-        "fresh-mcq-21"
+        "fresh-mcq-29",
+        "fresh-mcq-33",
+        "fresh-mcq-23"
       ],
       "explanation": "本句的「fresh footprints」指「最近才留下、尚未受破壞或消失的足跡」。",
       "sentenceIndex": 47,
@@ -2169,12 +1979,10 @@ export default {
         "fresh footprints"
       ],
       "optionReasons": {
-        "fresh-mcq-24": "本句指「最近才留下、尚未受破壞或消失的足跡」。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。"
+        "fresh-mcq-24": "本句的「fresh footprints」指「最近才留下、尚未受破壞或消失的足跡」。",
+        "fresh-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-24"
     },
@@ -2186,11 +1994,9 @@ export default {
       "masked": "The animal left ____ in the snow.",
       "options": [
         "fresh-mcq-24",
+        "fresh-mcq-29",
         "fresh-mcq-23",
-        "fresh-mcq-25",
-        "fresh-mcq-22",
-        "fresh-mcq-26",
-        "fresh-mcq-21"
+        "fresh-mcq-12"
       ],
       "explanation": "本句的「fresh tracks」指「最近才留下、尚未受破壞或消失的足跡」。",
       "sentenceIndex": 48,
@@ -2199,12 +2005,10 @@ export default {
         "fresh tracks"
       ],
       "optionReasons": {
-        "fresh-mcq-24": "本句指「最近才留下、尚未受破壞或消失的足跡」。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-21": "「經休息後感到精神充沛、不疲累的」是「fresh（精神充沛的）」的用法，與本句語境不同。"
+        "fresh-mcq-24": "本句的「fresh tracks」指「最近才留下、尚未受破壞或消失的足跡」。",
+        "fresh-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-24"
     },
@@ -2216,11 +2020,9 @@ export default {
       "masked": "A ____ came through the window.",
       "options": [
         "fresh-mcq-25",
-        "fresh-mcq-24",
-        "fresh-mcq-26",
-        "fresh-mcq-23",
-        "fresh-mcq-27",
-        "fresh-mcq-22"
+        "fresh-mcq-15",
+        "fresh-mcq-20",
+        "fresh-mcq-03"
       ],
       "explanation": "本句的「fresh breeze」指「令人感到清爽、通常稍涼而流動的風」。",
       "sentenceIndex": 49,
@@ -2229,12 +2031,10 @@ export default {
         "fresh breeze"
       ],
       "optionReasons": {
-        "fresh-mcq-25": "本句指「令人感到清爽、通常稍涼而流動的風」。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。"
+        "fresh-mcq-25": "本句的「fresh breeze」指「令人感到清爽、通常稍涼而流動的風」。",
+        "fresh-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-25"
     },
@@ -2246,11 +2046,9 @@ export default {
       "masked": "We enjoyed the ____.",
       "options": [
         "fresh-mcq-25",
-        "fresh-mcq-24",
-        "fresh-mcq-26",
-        "fresh-mcq-23",
-        "fresh-mcq-27",
-        "fresh-mcq-22"
+        "fresh-mcq-11",
+        "fresh-mcq-05",
+        "fresh-mcq-18"
       ],
       "explanation": "本句的「fresh sea breeze」指「令人感到清爽、通常稍涼而流動的風」。",
       "sentenceIndex": 50,
@@ -2259,12 +2057,10 @@ export default {
         "fresh sea breeze"
       ],
       "optionReasons": {
-        "fresh-mcq-25": "本句指「令人感到清爽、通常稍涼而流動的風」。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-22": "「因尚未長時間活動而仍有充足體力的」是「fresh legs / fresh player」的用法，與本句語境不同。"
+        "fresh-mcq-25": "本句的「fresh sea breeze」指「令人感到清爽、通常稍涼而流動的風」。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-25"
     },
@@ -2276,11 +2072,9 @@ export default {
       "masked": "A short walk can ____.",
       "options": [
         "fresh-mcq-26",
-        "fresh-mcq-25",
-        "fresh-mcq-27",
-        "fresh-mcq-24",
-        "fresh-mcq-28",
-        "fresh-mcq-23"
+        "fresh-mcq-03",
+        "fresh-mcq-18",
+        "fresh-mcq-14"
       ],
       "explanation": "本句的「refresh your mind」指「使人重新感到精神、清醒或有活力」。",
       "sentenceIndex": 51,
@@ -2289,12 +2083,10 @@ export default {
         "refresh your mind"
       ],
       "optionReasons": {
-        "fresh-mcq-26": "本句指「使人重新感到精神、清醒或有活力」。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。"
+        "fresh-mcq-26": "本句的「refresh your mind」指「使人重新感到精神、清醒或有活力」。",
+        "fresh-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-26"
     },
@@ -2306,10 +2098,8 @@ export default {
       "masked": "The cool air ____ us.",
       "options": [
         "fresh-mcq-26",
-        "fresh-mcq-25",
-        "fresh-mcq-27",
+        "fresh-mcq-06",
         "fresh-mcq-24",
-        "fresh-mcq-28",
         "fresh-mcq-23"
       ],
       "explanation": "本句的「refreshed」指「使人重新感到精神、清醒或有活力」。",
@@ -2319,12 +2109,10 @@ export default {
         "refreshed"
       ],
       "optionReasons": {
-        "fresh-mcq-26": "本句指「使人重新感到精神、清醒或有活力」。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-23": "「剛形成、剛產生或剛完成不久的」是「fresh snow / paint / footprints」的用法，與本句語境不同。"
+        "fresh-mcq-26": "本句的「refreshed」指「使人重新感到精神、清醒或有活力」。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-26"
     },
@@ -2336,11 +2124,9 @@ export default {
       "masked": "Try ____.",
       "options": [
         "fresh-mcq-27",
-        "fresh-mcq-26",
-        "fresh-mcq-28",
-        "fresh-mcq-25",
-        "fresh-mcq-29",
-        "fresh-mcq-24"
+        "fresh-mcq-23",
+        "fresh-mcq-31",
+        "fresh-mcq-06"
       ],
       "explanation": "本句的「refreshing the page」指「令畫面、頁面或資料重新載入並顯示最新狀態」。",
       "sentenceIndex": 53,
@@ -2349,12 +2135,10 @@ export default {
         "refreshing the page"
       ],
       "optionReasons": {
-        "fresh-mcq-27": "本句指「令畫面、頁面或資料重新載入並顯示最新狀態」。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。"
+        "fresh-mcq-27": "本句的「refreshing the page」指「令畫面、頁面或資料重新載入並顯示最新狀態」。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-27"
     },
@@ -2366,11 +2150,9 @@ export default {
       "masked": "The data ____ every few minutes.",
       "options": [
         "fresh-mcq-27",
-        "fresh-mcq-26",
-        "fresh-mcq-28",
-        "fresh-mcq-25",
-        "fresh-mcq-29",
-        "fresh-mcq-24"
+        "fresh-mcq-31",
+        "fresh-mcq-32",
+        "fresh-mcq-23"
       ],
       "explanation": "本句的「refreshes」指「令畫面、頁面或資料重新載入並顯示最新狀態」。",
       "sentenceIndex": 54,
@@ -2379,12 +2161,10 @@ export default {
         "refreshes"
       ],
       "optionReasons": {
-        "fresh-mcq-27": "本句指「令畫面、頁面或資料重新載入並顯示最新狀態」。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-24": "「最近才留下、尚未受破壞或消失的足跡」是「fresh tracks / footprints」的用法，與本句語境不同。"
+        "fresh-mcq-27": "本句的「refreshes」指「令畫面、頁面或資料重新載入並顯示最新狀態」。",
+        "fresh-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-27"
     },
@@ -2396,11 +2176,9 @@ export default {
       "masked": "I felt ____ after the shower.",
       "options": [
         "fresh-mcq-28",
-        "fresh-mcq-27",
-        "fresh-mcq-29",
-        "fresh-mcq-26",
-        "fresh-mcq-30",
-        "fresh-mcq-25"
+        "fresh-mcq-24",
+        "fresh-mcq-23",
+        "fresh-mcq-06"
       ],
       "explanation": "本句的「refreshed」指「經休息或某種活動後重新感到精神充沛的」。",
       "sentenceIndex": 55,
@@ -2409,12 +2187,10 @@ export default {
         "refreshed"
       ],
       "optionReasons": {
-        "fresh-mcq-28": "本句指「經休息或某種活動後重新感到精神充沛的」。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。"
+        "fresh-mcq-28": "本句的「refreshed」指「經休息或某種活動後重新感到精神充沛的」。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-28"
     },
@@ -2426,11 +2202,9 @@ export default {
       "masked": "She woke up feeling ____.",
       "options": [
         "fresh-mcq-28",
-        "fresh-mcq-27",
-        "fresh-mcq-29",
-        "fresh-mcq-26",
-        "fresh-mcq-30",
-        "fresh-mcq-25"
+        "fresh-mcq-24",
+        "fresh-mcq-06",
+        "fresh-mcq-23"
       ],
       "explanation": "本句的「refreshed」指「經休息或某種活動後重新感到精神充沛的」。",
       "sentenceIndex": 56,
@@ -2439,12 +2213,10 @@ export default {
         "refreshed"
       ],
       "optionReasons": {
-        "fresh-mcq-28": "本句指「經休息或某種活動後重新感到精神充沛的」。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-25": "「令人感到清爽、通常稍涼而流動的風」是「fresh breeze」的用法，與本句語境不同。"
+        "fresh-mcq-28": "本句的「refreshed」指「經休息或某種活動後重新感到精神充沛的」。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-28"
     },
@@ -2456,11 +2228,9 @@ export default {
       "masked": "The cool drink was very ____.",
       "options": [
         "fresh-mcq-29",
-        "fresh-mcq-28",
-        "fresh-mcq-30",
-        "fresh-mcq-27",
-        "fresh-mcq-31",
-        "fresh-mcq-26"
+        "fresh-mcq-17",
+        "fresh-mcq-23",
+        "fresh-mcq-06"
       ],
       "explanation": "本句的「refreshing」指「令人重新感到精神、舒服或充滿活力的」。",
       "sentenceIndex": 57,
@@ -2469,12 +2239,10 @@ export default {
         "refreshing"
       ],
       "optionReasons": {
-        "fresh-mcq-29": "本句指「令人重新感到精神、舒服或充滿活力的」。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。"
+        "fresh-mcq-29": "本句的「refreshing」指「令人重新感到精神、舒服或充滿活力的」。",
+        "fresh-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-29"
     },
@@ -2486,11 +2254,9 @@ export default {
       "masked": "The sea air felt ____.",
       "options": [
         "fresh-mcq-29",
-        "fresh-mcq-28",
-        "fresh-mcq-30",
-        "fresh-mcq-27",
-        "fresh-mcq-31",
-        "fresh-mcq-26"
+        "fresh-mcq-18",
+        "fresh-mcq-04",
+        "fresh-mcq-24"
       ],
       "explanation": "本句的「refreshing」指「令人重新感到精神、舒服或充滿活力的」。",
       "sentenceIndex": 58,
@@ -2499,12 +2265,10 @@ export default {
         "refreshing"
       ],
       "optionReasons": {
-        "fresh-mcq-29": "本句指「令人重新感到精神、舒服或充滿活力的」。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-26": "「使人重新感到精神、清醒或有活力」是「refresh」的用法，與本句語境不同。"
+        "fresh-mcq-29": "本句的「refreshing」指「令人重新感到精神、舒服或充滿活力的」。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-29"
     },
@@ -2516,11 +2280,9 @@ export default {
       "masked": "Her honesty was ____.",
       "options": [
         "fresh-mcq-30",
-        "fresh-mcq-29",
-        "fresh-mcq-31",
-        "fresh-mcq-28",
-        "fresh-mcq-32",
-        "fresh-mcq-27"
+        "fresh-mcq-14",
+        "fresh-mcq-18",
+        "fresh-mcq-04"
       ],
       "explanation": "本句的「refreshing」指「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」。",
       "sentenceIndex": 59,
@@ -2529,12 +2291,10 @@ export default {
         "refreshing"
       ],
       "optionReasons": {
-        "fresh-mcq-30": "本句指「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-32": "「在會議、活動等場合提供的飲品和小食」是「refreshments」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。"
+        "fresh-mcq-30": "本句的「refreshing」指「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-30"
     },
@@ -2546,11 +2306,9 @@ export default {
       "masked": "It was ____ to hear such a different opinion.",
       "options": [
         "fresh-mcq-30",
-        "fresh-mcq-29",
-        "fresh-mcq-31",
-        "fresh-mcq-28",
-        "fresh-mcq-32",
-        "fresh-mcq-27"
+        "fresh-mcq-19",
+        "fresh-mcq-20",
+        "fresh-mcq-24"
       ],
       "explanation": "本句的「refreshing」指「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」。",
       "sentenceIndex": 60,
@@ -2559,12 +2317,10 @@ export default {
         "refreshing"
       ],
       "optionReasons": {
-        "fresh-mcq-30": "本句指「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。",
-        "fresh-mcq-32": "「在會議、活動等場合提供的飲品和小食」是「refreshments」的用法，與本句語境不同。",
-        "fresh-mcq-27": "「令畫面、頁面或資料重新載入並顯示最新狀態」是「refresh（更新電腦／頁面）」的用法，與本句語境不同。"
+        "fresh-mcq-30": "本句的「refreshing」指「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-30"
     },
@@ -2576,11 +2332,9 @@ export default {
       "masked": "We stopped for rest and ____.",
       "options": [
         "fresh-mcq-31",
-        "fresh-mcq-30",
-        "fresh-mcq-32",
-        "fresh-mcq-29",
-        "fresh-mcq-33",
-        "fresh-mcq-28"
+        "fresh-mcq-13",
+        "fresh-mcq-04",
+        "fresh-mcq-17"
       ],
       "explanation": "本句的「refreshment」指「使人恢復精神、體力或舒適感的作用」。",
       "sentenceIndex": 61,
@@ -2589,12 +2343,10 @@ export default {
         "refreshment"
       ],
       "optionReasons": {
-        "fresh-mcq-31": "本句指「使人恢復精神、體力或舒適感的作用」。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-32": "「在會議、活動等場合提供的飲品和小食」是「refreshments」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-33": "「新鮮、清新或具有新意的品質」是「freshness」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。"
+        "fresh-mcq-31": "本句的「refreshment」指「使人恢復精神、體力或舒適感的作用」。",
+        "fresh-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-31"
     },
@@ -2606,11 +2358,9 @@ export default {
       "masked": "The cool water provided welcome ____.",
       "options": [
         "fresh-mcq-31",
-        "fresh-mcq-30",
-        "fresh-mcq-32",
-        "fresh-mcq-29",
-        "fresh-mcq-33",
-        "fresh-mcq-28"
+        "fresh-mcq-08",
+        "fresh-mcq-14",
+        "fresh-mcq-07"
       ],
       "explanation": "本句的「refreshment」指「使人恢復精神、體力或舒適感的作用」。",
       "sentenceIndex": 62,
@@ -2619,12 +2369,10 @@ export default {
         "refreshment"
       ],
       "optionReasons": {
-        "fresh-mcq-31": "本句指「使人恢復精神、體力或舒適感的作用」。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-32": "「在會議、活動等場合提供的飲品和小食」是「refreshments」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-33": "「新鮮、清新或具有新意的品質」是「freshness」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。"
+        "fresh-mcq-31": "本句的「refreshment」指「使人恢復精神、體力或舒適感的作用」。",
+        "fresh-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-31"
     },
@@ -2636,11 +2384,9 @@ export default {
       "masked": "____ will be served after the meeting.",
       "options": [
         "fresh-mcq-32",
-        "fresh-mcq-31",
-        "fresh-mcq-33",
-        "fresh-mcq-30",
-        "fresh-mcq-29",
-        "fresh-mcq-28"
+        "fresh-mcq-20",
+        "fresh-mcq-09",
+        "fresh-mcq-27"
       ],
       "explanation": "本句的「Refreshments」指「在會議、活動等場合提供的飲品和小食」。",
       "sentenceIndex": 63,
@@ -2649,12 +2395,10 @@ export default {
         "Refreshments"
       ],
       "optionReasons": {
-        "fresh-mcq-32": "本句指「在會議、活動等場合提供的飲品和小食」。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-33": "「新鮮、清新或具有新意的品質」是「freshness」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。"
+        "fresh-mcq-32": "本句的「Refreshments」指「在會議、活動等場合提供的飲品和小食」。",
+        "fresh-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-32"
     },
@@ -2666,11 +2410,9 @@ export default {
       "masked": "Light ____ are available in the lobby.",
       "options": [
         "fresh-mcq-32",
-        "fresh-mcq-31",
-        "fresh-mcq-33",
-        "fresh-mcq-30",
-        "fresh-mcq-29",
-        "fresh-mcq-28"
+        "fresh-mcq-09",
+        "fresh-mcq-11",
+        "fresh-mcq-12"
       ],
       "explanation": "本句的「refreshments」指「在會議、活動等場合提供的飲品和小食」。",
       "sentenceIndex": 64,
@@ -2679,12 +2421,10 @@ export default {
         "refreshments"
       ],
       "optionReasons": {
-        "fresh-mcq-32": "本句指「在會議、活動等場合提供的飲品和小食」。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-33": "「新鮮、清新或具有新意的品質」是「freshness」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。"
+        "fresh-mcq-32": "本句的「refreshments」指「在會議、活動等場合提供的飲品和小食」。",
+        "fresh-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-32"
     },
@@ -2696,11 +2436,9 @@ export default {
       "masked": "The ____ of the fruit is important.",
       "options": [
         "fresh-mcq-33",
-        "fresh-mcq-32",
-        "fresh-mcq-31",
-        "fresh-mcq-30",
-        "fresh-mcq-29",
-        "fresh-mcq-28"
+        "fresh-mcq-04",
+        "fresh-mcq-19",
+        "fresh-mcq-06"
       ],
       "explanation": "本句的「freshness」指「新鮮、清新或具有新意的品質」。",
       "sentenceIndex": 65,
@@ -2709,12 +2447,10 @@ export default {
         "freshness"
       ],
       "optionReasons": {
-        "fresh-mcq-33": "本句指「新鮮、清新或具有新意的品質」。",
-        "fresh-mcq-32": "「在會議、活動等場合提供的飲品和小食」是「refreshments」的用法，與本句語境不同。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。"
+        "fresh-mcq-33": "本句的「freshness」指「新鮮、清新或具有新意的品質」。",
+        "fresh-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-33"
     },
@@ -2726,11 +2462,9 @@ export default {
       "masked": "Her ideas brought a sense of ____ to the project.",
       "options": [
         "fresh-mcq-33",
-        "fresh-mcq-32",
-        "fresh-mcq-31",
-        "fresh-mcq-30",
-        "fresh-mcq-29",
-        "fresh-mcq-28"
+        "fresh-mcq-02",
+        "fresh-mcq-21",
+        "fresh-mcq-19"
       ],
       "explanation": "本句的「freshness」指「新鮮、清新或具有新意的品質」。",
       "sentenceIndex": 66,
@@ -2739,12 +2473,10 @@ export default {
         "freshness"
       ],
       "optionReasons": {
-        "fresh-mcq-33": "本句指「新鮮、清新或具有新意的品質」。",
-        "fresh-mcq-32": "「在會議、活動等場合提供的飲品和小食」是「refreshments」的用法，與本句語境不同。",
-        "fresh-mcq-31": "「使人恢復精神、體力或舒適感的作用」是「refreshment」的用法，與本句語境不同。",
-        "fresh-mcq-30": "「因與常見事物不同、自然或真誠而令人感到新鮮舒服的」是「refreshing（新鮮、不一樣而令人欣賞的）」的用法，與本句語境不同。",
-        "fresh-mcq-29": "「令人重新感到精神、舒服或充滿活力的」是「refreshing（令人精神一振的）」的用法，與本句語境不同。",
-        "fresh-mcq-28": "「經休息或某種活動後重新感到精神充沛的」是「refreshed」的用法，與本句語境不同。"
+        "fresh-mcq-33": "本句的「freshness」指「新鮮、清新或具有新意的品質」。",
+        "fresh-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fresh-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fresh-mcq-33"
     }
@@ -2756,5 +2488,7 @@ export default {
     "sha256": "a17f65ddeea7f4bc4f3b5a6438efa174021b258c1d961501ebba4b5c0544bb61",
     "pages": 24
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

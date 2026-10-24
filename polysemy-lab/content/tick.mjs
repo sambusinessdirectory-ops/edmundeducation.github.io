@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "tick-mcq-03",
-      "title": "表示正確、完成或已選擇的 ✓ 勾號",
+      "title": "正確、完成或已選擇的 ✓ 勾號",
       "form": "tick — check mark",
       "en": "tick — check mark",
       "zh": "表示正確、完成或已選擇的 ✓ 勾號",
@@ -307,11 +307,9 @@ export default {
       "masked": "I could hear the ____ of the clock.",
       "options": [
         "tick-mcq-01",
-        "tick-mcq-02",
-        "tick-mcq-03",
-        "tick-mcq-04",
-        "tick-mcq-05",
-        "tick-mcq-06"
+        "tick-mcq-06",
+        "tick-mcq-09",
+        "tick-mcq-03"
       ],
       "explanation": "本句的「tick」指「時鐘／機械發出的短促規律滴答聲」。",
       "sentenceIndex": 0,
@@ -320,12 +318,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-01": "本句指「時鐘／機械發出的短促規律滴答聲」。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-01": "本句的「tick」指「時鐘／機械發出的短促規律滴答聲」。",
+        "tick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-01"
     },
@@ -337,11 +333,9 @@ export default {
       "masked": "The steady ____ filled the quiet room.",
       "options": [
         "tick-mcq-01",
-        "tick-mcq-02",
+        "tick-mcq-06",
         "tick-mcq-03",
-        "tick-mcq-04",
-        "tick-mcq-05",
-        "tick-mcq-06"
+        "tick-mcq-05"
       ],
       "explanation": "本句的「tick」指「時鐘／機械發出的短促規律滴答聲」。",
       "sentenceIndex": 1,
@@ -350,12 +344,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-01": "本句指「時鐘／機械發出的短促規律滴答聲」。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-01": "本句的「tick」指「時鐘／機械發出的短促規律滴答聲」。",
+        "tick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-01"
     },
@@ -367,11 +359,9 @@ export default {
       "masked": "The clock was ____ loudly.",
       "options": [
         "tick-mcq-02",
-        "tick-mcq-01",
-        "tick-mcq-03",
-        "tick-mcq-04",
-        "tick-mcq-05",
-        "tick-mcq-06"
+        "tick-mcq-07",
+        "tick-mcq-06",
+        "tick-mcq-05"
       ],
       "explanation": "本句的「ticking」指「發出規律的滴答聲」。",
       "sentenceIndex": 2,
@@ -380,12 +370,10 @@ export default {
         "ticking"
       ],
       "optionReasons": {
-        "tick-mcq-02": "本句指「發出規律的滴答聲」。",
-        "tick-mcq-01": "「時鐘／機械發出的短促規律滴答聲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-02": "本句的「ticking」指「發出規律的滴答聲」。",
+        "tick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-02"
     },
@@ -397,11 +385,9 @@ export default {
       "masked": "I could hear the timer ____.",
       "options": [
         "tick-mcq-02",
-        "tick-mcq-01",
-        "tick-mcq-03",
-        "tick-mcq-04",
-        "tick-mcq-05",
-        "tick-mcq-06"
+        "tick-mcq-08",
+        "tick-mcq-07",
+        "tick-mcq-03"
       ],
       "explanation": "本句的「tick」指「發出規律的滴答聲」。",
       "sentenceIndex": 3,
@@ -410,12 +396,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-02": "本句指「發出規律的滴答聲」。",
-        "tick-mcq-01": "「時鐘／機械發出的短促規律滴答聲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-02": "本句的「tick」指「發出規律的滴答聲」。",
+        "tick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-02"
     },
@@ -427,11 +411,9 @@ export default {
       "masked": "Put a ____ beside the correct answer.",
       "options": [
         "tick-mcq-03",
-        "tick-mcq-02",
-        "tick-mcq-04",
-        "tick-mcq-01",
         "tick-mcq-05",
-        "tick-mcq-06"
+        "tick-mcq-06",
+        "tick-mcq-09"
       ],
       "explanation": "本句的「tick」指「表示正確、完成或已選擇的 ✓ 勾號」。",
       "sentenceIndex": 4,
@@ -440,12 +422,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-03": "本句指「表示正確、完成或已選擇的 ✓ 勾號」。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-01": "「時鐘／機械發出的短促規律滴答聲」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-03": "本句的「tick」指「表示正確、完成或已選擇的 ✓ 勾號」。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-03"
     },
@@ -457,11 +437,9 @@ export default {
       "masked": "Every item had a ____ next to it.",
       "options": [
         "tick-mcq-03",
-        "tick-mcq-02",
-        "tick-mcq-04",
-        "tick-mcq-01",
-        "tick-mcq-05",
-        "tick-mcq-06"
+        "tick-mcq-10",
+        "tick-mcq-08",
+        "tick-mcq-01"
       ],
       "explanation": "本句的「tick」指「表示正確、完成或已選擇的 ✓ 勾號」。",
       "sentenceIndex": 5,
@@ -470,12 +448,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-03": "本句指「表示正確、完成或已選擇的 ✓ 勾號」。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-01": "「時鐘／機械發出的短促規律滴答聲」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-03": "本句的「tick」指「表示正確、完成或已選擇的 ✓ 勾號」。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-03"
     },
@@ -487,10 +463,8 @@ export default {
       "masked": "____ the box if you agree.",
       "options": [
         "tick-mcq-04",
-        "tick-mcq-03",
-        "tick-mcq-05",
-        "tick-mcq-02",
-        "tick-mcq-06",
+        "tick-mcq-08",
+        "tick-mcq-10",
         "tick-mcq-01"
       ],
       "explanation": "本句的「Tick」指「在項目或方格上打勾」。",
@@ -500,12 +474,10 @@ export default {
         "Tick"
       ],
       "optionReasons": {
-        "tick-mcq-04": "本句指「在項目或方格上打勾」。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-01": "「時鐘／機械發出的短促規律滴答聲」與本句語境不同。"
+        "tick-mcq-04": "本句的「Tick」指「在項目或方格上打勾」。",
+        "tick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-04"
     },
@@ -517,11 +489,9 @@ export default {
       "masked": "I ____ all the items I had completed.",
       "options": [
         "tick-mcq-04",
-        "tick-mcq-03",
+        "tick-mcq-10",
         "tick-mcq-05",
-        "tick-mcq-02",
-        "tick-mcq-06",
-        "tick-mcq-01"
+        "tick-mcq-06"
       ],
       "explanation": "本句的「ticked」指「在項目或方格上打勾」。",
       "sentenceIndex": 7,
@@ -530,12 +500,10 @@ export default {
         "ticked"
       ],
       "optionReasons": {
-        "tick-mcq-04": "本句指「在項目或方格上打勾」。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-01": "「時鐘／機械發出的短促規律滴答聲」與本句語境不同。"
+        "tick-mcq-04": "本句的「ticked」指「在項目或方格上打勾」。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-04"
     },
@@ -547,10 +515,8 @@ export default {
       "masked": "The jacket ____ for me.",
       "options": [
         "tick-mcq-05",
-        "tick-mcq-04",
-        "tick-mcq-06",
-        "tick-mcq-03",
-        "tick-mcq-07",
+        "tick-mcq-11",
+        "tick-mcq-15",
         "tick-mcq-02"
       ],
       "explanation": "本句的「ticks all the boxes」指「符合所有重要要求、條件或偏好」。",
@@ -560,12 +526,10 @@ export default {
         "ticks all the boxes"
       ],
       "optionReasons": {
-        "tick-mcq-05": "本句指「符合所有重要要求、條件或偏好」。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。"
+        "tick-mcq-05": "本句的「ticks all the boxes」指「符合所有重要要求、條件或偏好」。",
+        "tick-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-05"
     },
@@ -577,11 +541,9 @@ export default {
       "masked": "The apartment is affordable, convenient, and spacious, so it ____.",
       "options": [
         "tick-mcq-05",
+        "tick-mcq-02",
         "tick-mcq-04",
-        "tick-mcq-06",
-        "tick-mcq-03",
-        "tick-mcq-07",
-        "tick-mcq-02"
+        "tick-mcq-11"
       ],
       "explanation": "本句的「ticks all the boxes」指「符合所有重要要求、條件或偏好」。",
       "sentenceIndex": 9,
@@ -590,12 +552,10 @@ export default {
         "ticks all the boxes"
       ],
       "optionReasons": {
-        "tick-mcq-05": "本句指「符合所有重要要求、條件或偏好」。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。"
+        "tick-mcq-05": "本句的「ticks all the boxes」指「符合所有重要要求、條件或偏好」。",
+        "tick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-05"
     },
@@ -607,9 +567,7 @@ export default {
       "masked": "She wanted a job with flexible hours and good pay, and this one ____.",
       "options": [
         "tick-mcq-05",
-        "tick-mcq-04",
-        "tick-mcq-06",
-        "tick-mcq-03",
+        "tick-mcq-08",
         "tick-mcq-07",
         "tick-mcq-02"
       ],
@@ -620,12 +578,10 @@ export default {
         "ticks all the boxes"
       ],
       "optionReasons": {
-        "tick-mcq-05": "本句指「符合所有重要要求、條件或偏好」。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-02": "「發出規律的滴答聲」與本句語境不同。"
+        "tick-mcq-05": "本句的「ticks all the boxes」指「符合所有重要要求、條件或偏好」。",
+        "tick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-05"
     },
@@ -637,11 +593,9 @@ export default {
       "masked": "The dog had a ____ on its leg.",
       "options": [
         "tick-mcq-06",
-        "tick-mcq-05",
-        "tick-mcq-07",
+        "tick-mcq-02",
         "tick-mcq-04",
-        "tick-mcq-08",
-        "tick-mcq-03"
+        "tick-mcq-07"
       ],
       "explanation": "本句的「tick」指「吸附在人／動物皮膚上吸血的蜱蟲」。",
       "sentenceIndex": 11,
@@ -650,12 +604,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-06": "本句指「吸附在人／動物皮膚上吸血的蜱蟲」。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。"
+        "tick-mcq-06": "本句的「tick」指「吸附在人／動物皮膚上吸血的蜱蟲」。",
+        "tick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-06"
     },
@@ -667,11 +619,9 @@ export default {
       "masked": "Wear long trousers in areas where ____ are common.",
       "options": [
         "tick-mcq-06",
-        "tick-mcq-05",
-        "tick-mcq-07",
-        "tick-mcq-04",
-        "tick-mcq-08",
-        "tick-mcq-03"
+        "tick-mcq-01",
+        "tick-mcq-03",
+        "tick-mcq-04"
       ],
       "explanation": "本句的「ticks」指「吸附在人／動物皮膚上吸血的蜱蟲」。",
       "sentenceIndex": 12,
@@ -680,12 +630,10 @@ export default {
         "ticks"
       ],
       "optionReasons": {
-        "tick-mcq-06": "本句指「吸附在人／動物皮膚上吸血的蜱蟲」。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-03": "「表示正確、完成或已選擇的 ✓ 勾號」與本句語境不同。"
+        "tick-mcq-06": "本句的「ticks」指「吸附在人／動物皮膚上吸血的蜱蟲」。",
+        "tick-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-06"
     },
@@ -697,11 +645,9 @@ export default {
       "masked": "Wait a ____.",
       "options": [
         "tick-mcq-07",
-        "tick-mcq-06",
+        "tick-mcq-03",
         "tick-mcq-08",
-        "tick-mcq-05",
-        "tick-mcq-09",
-        "tick-mcq-04"
+        "tick-mcq-05"
       ],
       "explanation": "本句的「tick」指「非常短的一會兒；英式口語」。",
       "sentenceIndex": 13,
@@ -710,12 +656,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-07": "本句指「非常短的一會兒；英式口語」。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。"
+        "tick-mcq-07": "本句的「tick」指「非常短的一會兒；英式口語」。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-07"
     },
@@ -727,11 +671,9 @@ export default {
       "masked": "I’ll be with you in a ____.",
       "options": [
         "tick-mcq-07",
-        "tick-mcq-06",
-        "tick-mcq-08",
-        "tick-mcq-05",
-        "tick-mcq-09",
-        "tick-mcq-04"
+        "tick-mcq-03",
+        "tick-mcq-04",
+        "tick-mcq-05"
       ],
       "explanation": "本句的「tick」指「非常短的一會兒；英式口語」。",
       "sentenceIndex": 14,
@@ -740,12 +682,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-07": "本句指「非常短的一會兒；英式口語」。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-04": "「在項目或方格上打勾」與本句語境不同。"
+        "tick-mcq-07": "本句的「tick」指「非常短的一會兒；英式口語」。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-07"
     },
@@ -757,11 +697,9 @@ export default {
       "masked": "The pointer moved up one ____.",
       "options": [
         "tick-mcq-08",
-        "tick-mcq-07",
-        "tick-mcq-09",
-        "tick-mcq-06",
+        "tick-mcq-04",
         "tick-mcq-10",
-        "tick-mcq-05"
+        "tick-mcq-03"
       ],
       "explanation": "本句的「tick」指「刻度或數值的一個最小變動單位」。",
       "sentenceIndex": 15,
@@ -770,12 +708,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-08": "本句指「刻度或數值的一個最小變動單位」。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-10": "「一個時脈、計時或模擬週期」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。"
+        "tick-mcq-08": "本句的「tick」指「刻度或數值的一個最小變動單位」。",
+        "tick-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-08"
     },
@@ -788,8 +724,6 @@ export default {
       "options": [
         "tick-mcq-08",
         "tick-mcq-07",
-        "tick-mcq-09",
-        "tick-mcq-06",
         "tick-mcq-10",
         "tick-mcq-05"
       ],
@@ -800,12 +734,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-08": "本句指「刻度或數值的一個最小變動單位」。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。",
-        "tick-mcq-10": "「一個時脈、計時或模擬週期」與本句語境不同。",
-        "tick-mcq-05": "「符合所有重要要求、條件或偏好」與本句語境不同。"
+        "tick-mcq-08": "本句的「tick」指「刻度或數值的一個最小變動單位」。",
+        "tick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-08"
     },
@@ -817,11 +749,9 @@ export default {
       "masked": "The market moved up several ____.",
       "options": [
         "tick-mcq-09",
-        "tick-mcq-08",
-        "tick-mcq-10",
+        "tick-mcq-03",
         "tick-mcq-07",
-        "tick-mcq-11",
-        "tick-mcq-06"
+        "tick-mcq-02"
       ],
       "explanation": "本句的「ticks」指「金融商品價格的最小跳動幅度」。",
       "sentenceIndex": 17,
@@ -830,12 +760,10 @@ export default {
         "ticks"
       ],
       "optionReasons": {
-        "tick-mcq-09": "本句指「金融商品價格的最小跳動幅度」。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-10": "「一個時脈、計時或模擬週期」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。",
-        "tick-mcq-11": "「賒帳；英式非正式」與本句語境不同。",
-        "tick-mcq-06": "「吸附在人／動物皮膚上吸血的蜱蟲」與本句語境不同。"
+        "tick-mcq-09": "本句的「ticks」指「金融商品價格的最小跳動幅度」。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-09"
     },
@@ -847,11 +775,9 @@ export default {
       "masked": "The game updates once per clock ____.",
       "options": [
         "tick-mcq-10",
-        "tick-mcq-09",
-        "tick-mcq-11",
-        "tick-mcq-08",
-        "tick-mcq-12",
-        "tick-mcq-07"
+        "tick-mcq-03",
+        "tick-mcq-05",
+        "tick-mcq-15"
       ],
       "explanation": "本句的「tick」指「一個時脈、計時或模擬週期」。",
       "sentenceIndex": 18,
@@ -860,12 +786,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-10": "本句指「一個時脈、計時或模擬週期」。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-11": "「賒帳；英式非正式」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-12": "「令某人／某系統真正運作的內在機制或動機」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。"
+        "tick-mcq-10": "本句的「tick」指「一個時脈、計時或模擬週期」。",
+        "tick-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-10"
     },
@@ -877,11 +801,9 @@ export default {
       "masked": "The simulation advances one ____ at a time.",
       "options": [
         "tick-mcq-10",
+        "tick-mcq-02",
         "tick-mcq-09",
-        "tick-mcq-11",
-        "tick-mcq-08",
-        "tick-mcq-12",
-        "tick-mcq-07"
+        "tick-mcq-04"
       ],
       "explanation": "本句的「tick」指「一個時脈、計時或模擬週期」。",
       "sentenceIndex": 19,
@@ -890,12 +812,10 @@ export default {
         "tick"
       ],
       "optionReasons": {
-        "tick-mcq-10": "本句指「一個時脈、計時或模擬週期」。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-11": "「賒帳；英式非正式」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。",
-        "tick-mcq-12": "「令某人／某系統真正運作的內在機制或動機」與本句語境不同。",
-        "tick-mcq-07": "「非常短的一會兒；英式口語」與本句語境不同。"
+        "tick-mcq-10": "本句的「tick」指「一個時脈、計時或模擬週期」。",
+        "tick-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-10"
     },
@@ -907,11 +827,9 @@ export default {
       "masked": "He bought the goods ____.",
       "options": [
         "tick-mcq-11",
-        "tick-mcq-10",
-        "tick-mcq-12",
-        "tick-mcq-09",
-        "tick-mcq-13",
-        "tick-mcq-08"
+        "tick-mcq-15",
+        "tick-mcq-08",
+        "tick-mcq-10"
       ],
       "explanation": "本句的「on tick」指「賒帳；英式非正式」。",
       "sentenceIndex": 20,
@@ -920,12 +838,10 @@ export default {
         "on tick"
       ],
       "optionReasons": {
-        "tick-mcq-11": "本句指「賒帳；英式非正式」。",
-        "tick-mcq-10": "「一個時脈、計時或模擬週期」與本句語境不同。",
-        "tick-mcq-12": "「令某人／某系統真正運作的內在機制或動機」與本句語境不同。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-13": "「股票／新聞等持續更新的行情顯示」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。"
+        "tick-mcq-11": "本句的「on tick」指「賒帳；英式非正式」。",
+        "tick-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-11"
     },
@@ -937,11 +853,9 @@ export default {
       "masked": "The shop no longer sells anything ____.",
       "options": [
         "tick-mcq-11",
-        "tick-mcq-10",
-        "tick-mcq-12",
+        "tick-mcq-01",
         "tick-mcq-09",
-        "tick-mcq-13",
-        "tick-mcq-08"
+        "tick-mcq-10"
       ],
       "explanation": "本句的「on tick」指「賒帳；英式非正式」。",
       "sentenceIndex": 21,
@@ -950,12 +864,10 @@ export default {
         "on tick"
       ],
       "optionReasons": {
-        "tick-mcq-11": "本句指「賒帳；英式非正式」。",
-        "tick-mcq-10": "「一個時脈、計時或模擬週期」與本句語境不同。",
-        "tick-mcq-12": "「令某人／某系統真正運作的內在機制或動機」與本句語境不同。",
-        "tick-mcq-09": "「金融商品價格的最小跳動幅度」與本句語境不同。",
-        "tick-mcq-13": "「股票／新聞等持續更新的行情顯示」與本句語境不同。",
-        "tick-mcq-08": "「刻度或數值的一個最小變動單位」與本句語境不同。"
+        "tick-mcq-11": "本句的「on tick」指「賒帳；英式非正式」。",
+        "tick-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-11"
     },
@@ -967,11 +879,9 @@ export default {
       "masked": "The review should not become a ____.",
       "options": [
         "tick-mcq-15",
-        "tick-mcq-14",
-        "tick-mcq-13",
-        "tick-mcq-12",
-        "tick-mcq-11",
-        "tick-mcq-10"
+        "tick-mcq-10",
+        "tick-mcq-05",
+        "tick-mcq-06"
       ],
       "explanation": "本句的「tick-box exercise」指「打勾框；亦可指純粹形式化的程序」。",
       "sentenceIndex": 26,
@@ -980,12 +890,10 @@ export default {
         "tick-box exercise"
       ],
       "optionReasons": {
-        "tick-mcq-15": "本句指「打勾框；亦可指純粹形式化的程序」。",
-        "tick-mcq-14": "「心臟；非正式」與本句語境不同。",
-        "tick-mcq-13": "「股票／新聞等持續更新的行情顯示」與本句語境不同。",
-        "tick-mcq-12": "「令某人／某系統真正運作的內在機制或動機」與本句語境不同。",
-        "tick-mcq-11": "「賒帳；英式非正式」與本句語境不同。",
-        "tick-mcq-10": "「一個時脈、計時或模擬週期」與本句語境不同。"
+        "tick-mcq-15": "本句的「tick-box exercise」指「打勾框；亦可指純粹形式化的程序」。",
+        "tick-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "tick-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "tick-mcq-15"
     }
@@ -997,5 +905,7 @@ export default {
     "sha256": "d194f65f9c24655649c2b89724db6891153e62c5c29210dc463d8a5c8168d581",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

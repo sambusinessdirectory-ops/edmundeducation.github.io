@@ -567,11 +567,9 @@ export default {
       "masked": "The manager ____ the staff after the meeting.",
       "options": [
         "dismiss-mcq-01",
-        "dismiss-mcq-02",
-        "dismiss-mcq-03",
-        "dismiss-mcq-04",
-        "dismiss-mcq-05",
-        "dismiss-mcq-06"
+        "dismiss-mcq-16",
+        "dismiss-mcq-31",
+        "dismiss-mcq-13"
       ],
       "explanation": "本句的「dismissed」指「正式告知某人其活動／職責結束，可以離開」。",
       "sentenceIndex": 0,
@@ -580,12 +578,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-01": "本句指「正式告知某人其活動／職責結束，可以離開」。",
-        "dismiss-mcq-02": "「宣布下課並讓學生離開」與本句語境不同。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。",
-        "dismiss-mcq-04": "「由僱主終止某人的聘用；解僱」與本句語境不同。",
-        "dismiss-mcq-05": "「免去某人的職位／職務」與本句語境不同。",
-        "dismiss-mcq-06": "「僱主終止僱傭關係；解僱」與本句語境不同。"
+        "dismiss-mcq-01": "本句的「dismissed」指「正式告知某人其活動／職責結束，可以離開」。",
+        "dismiss-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-01"
     },
@@ -597,11 +593,9 @@ export default {
       "masked": "The teacher ____ the class early.",
       "options": [
         "dismiss-mcq-01",
-        "dismiss-mcq-02",
-        "dismiss-mcq-03",
-        "dismiss-mcq-04",
-        "dismiss-mcq-05",
-        "dismiss-mcq-06"
+        "dismiss-mcq-30",
+        "dismiss-mcq-19",
+        "dismiss-mcq-13"
       ],
       "explanation": "本句的「dismissed」指「正式告知某人其活動／職責結束，可以離開」。",
       "sentenceIndex": 1,
@@ -610,12 +604,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-01": "本句指「正式告知某人其活動／職責結束，可以離開」。",
-        "dismiss-mcq-02": "「宣布下課並讓學生離開」與本句語境不同。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。",
-        "dismiss-mcq-04": "「由僱主終止某人的聘用；解僱」與本句語境不同。",
-        "dismiss-mcq-05": "「免去某人的職位／職務」與本句語境不同。",
-        "dismiss-mcq-06": "「僱主終止僱傭關係；解僱」與本句語境不同。"
+        "dismiss-mcq-01": "本句的「dismissed」指「正式告知某人其活動／職責結束，可以離開」。",
+        "dismiss-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-01"
     },
@@ -627,11 +619,9 @@ export default {
       "masked": "The teacher ____ at noon.",
       "options": [
         "dismiss-mcq-02",
-        "dismiss-mcq-01",
-        "dismiss-mcq-03",
-        "dismiss-mcq-04",
-        "dismiss-mcq-05",
-        "dismiss-mcq-06"
+        "dismiss-mcq-32",
+        "dismiss-mcq-26",
+        "dismiss-mcq-30"
       ],
       "explanation": "本句的「dismissed the class」指「宣布下課並讓學生離開」。",
       "sentenceIndex": 2,
@@ -640,12 +630,10 @@ export default {
         "dismissed the class"
       ],
       "optionReasons": {
-        "dismiss-mcq-02": "本句指「宣布下課並讓學生離開」。",
-        "dismiss-mcq-01": "「正式告知某人其活動／職責結束，可以離開」與本句語境不同。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。",
-        "dismiss-mcq-04": "「由僱主終止某人的聘用；解僱」與本句語境不同。",
-        "dismiss-mcq-05": "「免去某人的職位／職務」與本句語境不同。",
-        "dismiss-mcq-06": "「僱主終止僱傭關係；解僱」與本句語境不同。"
+        "dismiss-mcq-02": "本句的「dismissed the class」指「宣布下課並讓學生離開」。",
+        "dismiss-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-02"
     },
@@ -657,11 +645,9 @@ export default {
       "masked": "The company ____ him for serious misconduct.",
       "options": [
         "dismiss-mcq-04",
-        "dismiss-mcq-03",
-        "dismiss-mcq-05",
-        "dismiss-mcq-02",
-        "dismiss-mcq-06",
-        "dismiss-mcq-01"
+        "dismiss-mcq-11",
+        "dismiss-mcq-19",
+        "dismiss-mcq-25"
       ],
       "explanation": "本句的「dismissed」指「由僱主終止某人的聘用；解僱」。",
       "sentenceIndex": 4,
@@ -670,12 +656,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-04": "本句指「由僱主終止某人的聘用；解僱」。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。",
-        "dismiss-mcq-05": "「免去某人的職位／職務」與本句語境不同。",
-        "dismiss-mcq-02": "「宣布下課並讓學生離開」與本句語境不同。",
-        "dismiss-mcq-06": "「僱主終止僱傭關係；解僱」與本句語境不同。",
-        "dismiss-mcq-01": "「正式告知某人其活動／職責結束，可以離開」與本句語境不同。"
+        "dismiss-mcq-04": "本句的「dismissed」指「由僱主終止某人的聘用；解僱」。",
+        "dismiss-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-04"
     },
@@ -687,11 +671,9 @@ export default {
       "masked": "She was ____.",
       "options": [
         "dismiss-mcq-04",
-        "dismiss-mcq-03",
-        "dismiss-mcq-05",
-        "dismiss-mcq-02",
-        "dismiss-mcq-06",
-        "dismiss-mcq-01"
+        "dismiss-mcq-18",
+        "dismiss-mcq-12",
+        "dismiss-mcq-26"
       ],
       "explanation": "本句的「dismissed from her job」指「由僱主終止某人的聘用；解僱」。",
       "sentenceIndex": 5,
@@ -700,12 +682,10 @@ export default {
         "dismissed from her job"
       ],
       "optionReasons": {
-        "dismiss-mcq-04": "本句指「由僱主終止某人的聘用；解僱」。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。",
-        "dismiss-mcq-05": "「免去某人的職位／職務」與本句語境不同。",
-        "dismiss-mcq-02": "「宣布下課並讓學生離開」與本句語境不同。",
-        "dismiss-mcq-06": "「僱主終止僱傭關係；解僱」與本句語境不同。",
-        "dismiss-mcq-01": "「正式告知某人其活動／職責結束，可以離開」與本句語境不同。"
+        "dismiss-mcq-04": "本句的「dismissed from her job」指「由僱主終止某人的聘用；解僱」。",
+        "dismiss-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-04"
     },
@@ -717,11 +697,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "dismiss-mcq-05",
-        "dismiss-mcq-04",
-        "dismiss-mcq-06",
-        "dismiss-mcq-03",
-        "dismiss-mcq-07",
-        "dismiss-mcq-02"
+        "dismiss-mcq-18",
+        "dismiss-mcq-25",
+        "dismiss-mcq-14"
       ],
       "explanation": "本句的「dismissed from his post」指「免去某人的職位／職務」。",
       "sentenceIndex": 6,
@@ -730,12 +708,10 @@ export default {
         "dismissed from his post"
       ],
       "optionReasons": {
-        "dismiss-mcq-05": "本句指「免去某人的職位／職務」。",
-        "dismiss-mcq-04": "「由僱主終止某人的聘用；解僱」與本句語境不同。",
-        "dismiss-mcq-06": "「僱主終止僱傭關係；解僱」與本句語境不同。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。",
-        "dismiss-mcq-07": "「依適用法律被視為不公平的解僱」與本句語境不同。",
-        "dismiss-mcq-02": "「宣布下課並讓學生離開」與本句語境不同。"
+        "dismiss-mcq-05": "本句的「dismissed from his post」指「免去某人的職位／職務」。",
+        "dismiss-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-05"
     },
@@ -747,11 +723,9 @@ export default {
       "masked": "The employee challenged his ____.",
       "options": [
         "dismiss-mcq-06",
-        "dismiss-mcq-05",
-        "dismiss-mcq-07",
-        "dismiss-mcq-04",
-        "dismiss-mcq-08",
-        "dismiss-mcq-03"
+        "dismiss-mcq-14",
+        "dismiss-mcq-02",
+        "dismiss-mcq-26"
       ],
       "explanation": "本句的「dismissal」指「僱主終止僱傭關係；解僱」。",
       "sentenceIndex": 7,
@@ -760,12 +734,10 @@ export default {
         "dismissal"
       ],
       "optionReasons": {
-        "dismiss-mcq-06": "本句指「僱主終止僱傭關係；解僱」。",
-        "dismiss-mcq-05": "「免去某人的職位／職務」與本句語境不同。",
-        "dismiss-mcq-07": "「依適用法律被視為不公平的解僱」與本句語境不同。",
-        "dismiss-mcq-04": "「由僱主終止某人的聘用；解僱」與本句語境不同。",
-        "dismiss-mcq-08": "「違反合同／法律義務的解僱；具體定義依司法制度」與本句語境不同。",
-        "dismiss-mcq-03": "「解散隊列」與本句語境不同。"
+        "dismiss-mcq-06": "本句的「dismissal」指「僱主終止僱傭關係；解僱」。",
+        "dismiss-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-06"
     },
@@ -777,11 +749,9 @@ export default {
       "masked": "Management initially ____ the safety concerns.",
       "options": [
         "dismiss-mcq-11",
-        "dismiss-mcq-10",
-        "dismiss-mcq-12",
-        "dismiss-mcq-09",
-        "dismiss-mcq-13",
-        "dismiss-mcq-08"
+        "dismiss-mcq-26",
+        "dismiss-mcq-05",
+        "dismiss-mcq-31"
       ],
       "explanation": "本句的「dismissed」指「把某項疑慮視為不重要／無根據而不予認真考慮」。",
       "sentenceIndex": 10,
@@ -790,12 +760,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-11": "本句指「把某項疑慮視為不重要／無根據而不予認真考慮」。",
-        "dismiss-mcq-10": "「因僱主重大違約等使僱員視僱傭關係已被終止；具體法律標準依地區」與本句語境不同。",
-        "dismiss-mcq-12": "「拒絕採納或繼續考慮某個想法／建議」與本句語境不同。",
-        "dismiss-mcq-09": "「通常指無一般通知期的即時解僱」與本句語境不同。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。",
-        "dismiss-mcq-08": "「違反合同／法律義務的解僱；具體定義依司法制度」與本句語境不同。"
+        "dismiss-mcq-11": "本句的「dismissed」指「把某項疑慮視為不重要／無根據而不予認真考慮」。",
+        "dismiss-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-11"
     },
@@ -807,11 +775,9 @@ export default {
       "masked": "She ____ the proposal immediately.",
       "options": [
         "dismiss-mcq-12",
-        "dismiss-mcq-11",
-        "dismiss-mcq-13",
-        "dismiss-mcq-10",
-        "dismiss-mcq-14",
-        "dismiss-mcq-09"
+        "dismiss-mcq-31",
+        "dismiss-mcq-25",
+        "dismiss-mcq-01"
       ],
       "explanation": "本句的「dismissed」指「拒絕採納或繼續考慮某個想法／建議」。",
       "sentenceIndex": 11,
@@ -820,12 +786,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-12": "本句指「拒絕採納或繼續考慮某個想法／建議」。",
-        "dismiss-mcq-11": "「把某項疑慮視為不重要／無根據而不予認真考慮」與本句語境不同。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。",
-        "dismiss-mcq-10": "「因僱主重大違約等使僱員視僱傭關係已被終止；具體法律標準依地區」與本句語境不同。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。",
-        "dismiss-mcq-09": "「通常指無一般通知期的即時解僱」與本句語境不同。"
+        "dismiss-mcq-12": "本句的「dismissed」指「拒絕採納或繼續考慮某個想法／建議」。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-12"
     },
@@ -837,11 +801,9 @@ export default {
       "masked": "He ____ the allegation as false.",
       "options": [
         "dismiss-mcq-13",
-        "dismiss-mcq-12",
-        "dismiss-mcq-14",
-        "dismiss-mcq-11",
         "dismiss-mcq-15",
-        "dismiss-mcq-10"
+        "dismiss-mcq-32",
+        "dismiss-mcq-18"
       ],
       "explanation": "本句的「dismissed」指「把某主張／指控判定為不可信或不值得接受」。",
       "sentenceIndex": 12,
@@ -850,12 +812,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-13": "本句指「把某主張／指控判定為不可信或不值得接受」。",
-        "dismiss-mcq-12": "「拒絕採納或繼續考慮某個想法／建議」與本句語境不同。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。",
-        "dismiss-mcq-11": "「把某項疑慮視為不重要／無根據而不予認真考慮」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-10": "「因僱主重大違約等使僱員視僱傭關係已被終止；具體法律標準依地區」與本句語境不同。"
+        "dismiss-mcq-13": "本句的「dismissed」指「把某主張／指控判定為不可信或不值得接受」。",
+        "dismiss-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-13"
     },
@@ -867,11 +827,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "dismiss-mcq-14",
-        "dismiss-mcq-13",
-        "dismiss-mcq-15",
-        "dismiss-mcq-12",
-        "dismiss-mcq-16",
-        "dismiss-mcq-11"
+        "dismiss-mcq-31",
+        "dismiss-mcq-06",
+        "dismiss-mcq-25"
       ],
       "explanation": "本句的「dismissed the idea as unrealistic」指「把 X 斥為／視作 Y，因此不再認真看待」。",
       "sentenceIndex": 13,
@@ -880,12 +838,10 @@ export default {
         "dismissed the idea as unrealistic"
       ],
       "optionReasons": {
-        "dismiss-mcq-14": "本句指「把 X 斥為／視作 Y，因此不再認真看待」。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-12": "「拒絕採納或繼續考慮某個想法／建議」與本句語境不同。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-11": "「把某項疑慮視為不重要／無根據而不予認真考慮」與本句語境不同。"
+        "dismiss-mcq-14": "本句的「dismissed the idea as unrealistic」指「把 X 斥為／視作 Y，因此不再認真看待」。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-14"
     },
@@ -897,11 +853,9 @@ export default {
       "masked": "The report was ____ as speculation.",
       "options": [
         "dismiss-mcq-14",
-        "dismiss-mcq-13",
-        "dismiss-mcq-15",
-        "dismiss-mcq-12",
-        "dismiss-mcq-16",
-        "dismiss-mcq-11"
+        "dismiss-mcq-23",
+        "dismiss-mcq-06",
+        "dismiss-mcq-19"
       ],
       "explanation": "本句的「dismissed」指「把 X 斥為／視作 Y，因此不再認真看待」。",
       "sentenceIndex": 14,
@@ -910,12 +864,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-14": "本句指「把 X 斥為／視作 Y，因此不再認真看待」。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-12": "「拒絕採納或繼續考慮某個想法／建議」與本句語境不同。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-11": "「把某項疑慮視為不重要／無根據而不予認真考慮」與本句語境不同。"
+        "dismiss-mcq-14": "本句的「dismissed」指「把 X 斥為／視作 Y，因此不再認真看待」。",
+        "dismiss-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-14"
     },
@@ -927,11 +879,9 @@ export default {
       "masked": "They ____ him as inexperienced.",
       "options": [
         "dismiss-mcq-14",
-        "dismiss-mcq-13",
-        "dismiss-mcq-15",
-        "dismiss-mcq-12",
-        "dismiss-mcq-16",
-        "dismiss-mcq-11"
+        "dismiss-mcq-17",
+        "dismiss-mcq-25",
+        "dismiss-mcq-15"
       ],
       "explanation": "本句的「dismissed」指「把 X 斥為／視作 Y，因此不再認真看待」。",
       "sentenceIndex": 15,
@@ -940,12 +890,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-14": "本句指「把 X 斥為／視作 Y，因此不再認真看待」。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-12": "「拒絕採納或繼續考慮某個想法／建議」與本句語境不同。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-11": "「把某項疑慮視為不重要／無根據而不予認真考慮」與本句語境不同。"
+        "dismiss-mcq-14": "本句的「dismissed」指「把 X 斥為／視作 Y，因此不再認真看待」。",
+        "dismiss-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-14"
     },
@@ -958,10 +906,8 @@ export default {
       "options": [
         "dismiss-mcq-15",
         "dismiss-mcq-14",
-        "dismiss-mcq-16",
-        "dismiss-mcq-13",
-        "dismiss-mcq-17",
-        "dismiss-mcq-12"
+        "dismiss-mcq-19",
+        "dismiss-mcq-05"
       ],
       "explanation": "本句的「dismissed out of hand」指「未作充分考慮便立即否決」。",
       "sentenceIndex": 16,
@@ -970,12 +916,10 @@ export default {
         "dismissed out of hand"
       ],
       "optionReasons": {
-        "dismiss-mcq-15": "本句指「未作充分考慮便立即否決」。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。",
-        "dismiss-mcq-17": "「法院／裁決機構終止或駁回案件／申索」與本句語境不同。",
-        "dismiss-mcq-12": "「拒絕採納或繼續考慮某個想法／建議」與本句語境不同。"
+        "dismiss-mcq-15": "本句的「dismissed out of hand」指「未作充分考慮便立即否決」。",
+        "dismiss-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-15"
     },
@@ -987,11 +931,9 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "dismiss-mcq-16",
-        "dismiss-mcq-15",
-        "dismiss-mcq-17",
-        "dismiss-mcq-14",
-        "dismiss-mcq-18",
-        "dismiss-mcq-13"
+        "dismiss-mcq-25",
+        "dismiss-mcq-33",
+        "dismiss-mcq-18"
       ],
       "explanation": "本句的「dismiss the incident from her mind」指「把某想法／可能性從腦海中摒除、不再想」。",
       "sentenceIndex": 17,
@@ -1000,12 +942,10 @@ export default {
         "dismiss the incident from her mind"
       ],
       "optionReasons": {
-        "dismiss-mcq-16": "本句指「把某想法／可能性從腦海中摒除、不再想」。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-17": "「法院／裁決機構終止或駁回案件／申索」與本句語境不同。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。",
-        "dismiss-mcq-18": "「駁回上訴」與本句語境不同。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。"
+        "dismiss-mcq-16": "本句的「dismiss the incident from her mind」指「把某想法／可能性從腦海中摒除、不再想」。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-16"
     },
@@ -1017,11 +957,9 @@ export default {
       "masked": "He could not ____ the possibility from his mind.",
       "options": [
         "dismiss-mcq-16",
-        "dismiss-mcq-15",
-        "dismiss-mcq-17",
-        "dismiss-mcq-14",
-        "dismiss-mcq-18",
-        "dismiss-mcq-13"
+        "dismiss-mcq-33",
+        "dismiss-mcq-25",
+        "dismiss-mcq-30"
       ],
       "explanation": "本句的「dismiss」指「把某想法／可能性從腦海中摒除、不再想」。",
       "sentenceIndex": 18,
@@ -1030,12 +968,10 @@ export default {
         "dismiss"
       ],
       "optionReasons": {
-        "dismiss-mcq-16": "本句指「把某想法／可能性從腦海中摒除、不再想」。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-17": "「法院／裁決機構終止或駁回案件／申索」與本句語境不同。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。",
-        "dismiss-mcq-18": "「駁回上訴」與本句語境不同。",
-        "dismiss-mcq-13": "「把某主張／指控判定為不可信或不值得接受」與本句語境不同。"
+        "dismiss-mcq-16": "本句的「dismiss」指「把某想法／可能性從腦海中摒除、不再想」。",
+        "dismiss-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-16"
     },
@@ -1047,11 +983,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "dismiss-mcq-17",
-        "dismiss-mcq-16",
-        "dismiss-mcq-18",
-        "dismiss-mcq-15",
-        "dismiss-mcq-19",
-        "dismiss-mcq-14"
+        "dismiss-mcq-11",
+        "dismiss-mcq-23",
+        "dismiss-mcq-25"
       ],
       "explanation": "本句的「dismissed the claim」指「法院／裁決機構終止或駁回案件／申索」。",
       "sentenceIndex": 19,
@@ -1060,12 +994,10 @@ export default {
         "dismissed the claim"
       ],
       "optionReasons": {
-        "dismiss-mcq-17": "本句指「法院／裁決機構終止或駁回案件／申索」。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-18": "「駁回上訴」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-19": "「撤銷／駁回控罪；程序依法律制度」與本句語境不同。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。"
+        "dismiss-mcq-17": "本句的「dismissed the claim」指「法院／裁決機構終止或駁回案件／申索」。",
+        "dismiss-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-17"
     },
@@ -1077,11 +1009,9 @@ export default {
       "masked": "The judge ____ the case.",
       "options": [
         "dismiss-mcq-17",
-        "dismiss-mcq-16",
-        "dismiss-mcq-18",
-        "dismiss-mcq-15",
-        "dismiss-mcq-19",
-        "dismiss-mcq-14"
+        "dismiss-mcq-26",
+        "dismiss-mcq-11",
+        "dismiss-mcq-02"
       ],
       "explanation": "本句的「dismissed」指「法院／裁決機構終止或駁回案件／申索」。",
       "sentenceIndex": 20,
@@ -1090,12 +1020,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-17": "本句指「法院／裁決機構終止或駁回案件／申索」。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-18": "「駁回上訴」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。",
-        "dismiss-mcq-19": "「撤銷／駁回控罪；程序依法律制度」與本句語境不同。",
-        "dismiss-mcq-14": "「把 X 斥為／視作 Y，因此不再認真看待」與本句語境不同。"
+        "dismiss-mcq-17": "本句的「dismissed」指「法院／裁決機構終止或駁回案件／申索」。",
+        "dismiss-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-17"
     },
@@ -1107,11 +1035,9 @@ export default {
       "masked": "The judge ____ one of the charges.",
       "options": [
         "dismiss-mcq-19",
-        "dismiss-mcq-18",
-        "dismiss-mcq-20",
-        "dismiss-mcq-17",
-        "dismiss-mcq-21",
-        "dismiss-mcq-16"
+        "dismiss-mcq-02",
+        "dismiss-mcq-11",
+        "dismiss-mcq-05"
       ],
       "explanation": "本句的「dismissed」指「撤銷／駁回控罪；程序依法律制度」。",
       "sentenceIndex": 21,
@@ -1120,12 +1046,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-19": "本句指「撤銷／駁回控罪；程序依法律制度」。",
-        "dismiss-mcq-18": "「駁回上訴」與本句語境不同。",
-        "dismiss-mcq-20": "「要求法院駁回案件／申索的正式動議／申請」與本句語境不同。",
-        "dismiss-mcq-17": "「法院／裁決機構終止或駁回案件／申索」與本句語境不同。",
-        "dismiss-mcq-21": "「通常具有阻止同一申索重新提出的駁回；美國法律等」與本句語境不同。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。"
+        "dismiss-mcq-19": "本句的「dismissed」指「撤銷／駁回控罪；程序依法律制度」。",
+        "dismiss-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-19"
     },
@@ -1137,11 +1061,9 @@ export default {
       "masked": "The court ____.",
       "options": [
         "dismiss-mcq-18",
-        "dismiss-mcq-17",
-        "dismiss-mcq-19",
-        "dismiss-mcq-16",
-        "dismiss-mcq-20",
-        "dismiss-mcq-15"
+        "dismiss-mcq-27",
+        "dismiss-mcq-13",
+        "dismiss-mcq-02"
       ],
       "explanation": "本句的「dismissed the appeal」指「駁回上訴」。",
       "sentenceIndex": 22,
@@ -1150,12 +1072,10 @@ export default {
         "dismissed the appeal"
       ],
       "optionReasons": {
-        "dismiss-mcq-18": "本句指「駁回上訴」。",
-        "dismiss-mcq-17": "「法院／裁決機構終止或駁回案件／申索」與本句語境不同。",
-        "dismiss-mcq-19": "「撤銷／駁回控罪；程序依法律制度」與本句語境不同。",
-        "dismiss-mcq-16": "「把某想法／可能性從腦海中摒除、不再想」與本句語境不同。",
-        "dismiss-mcq-20": "「要求法院駁回案件／申索的正式動議／申請」與本句語境不同。",
-        "dismiss-mcq-15": "「未作充分考慮便立即否決」與本句語境不同。"
+        "dismiss-mcq-18": "本句的「dismissed the appeal」指「駁回上訴」。",
+        "dismiss-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-18"
     },
@@ -1167,11 +1087,9 @@ export default {
       "masked": "The judge ____ for the day.",
       "options": [
         "dismiss-mcq-23",
-        "dismiss-mcq-22",
-        "dismiss-mcq-24",
-        "dismiss-mcq-21",
-        "dismiss-mcq-25",
-        "dismiss-mcq-20"
+        "dismiss-mcq-30",
+        "dismiss-mcq-15",
+        "dismiss-mcq-33"
       ],
       "explanation": "本句的「dismissed the jury」指「解除陪審員當前／進一步職務並讓其離開」。",
       "sentenceIndex": 23,
@@ -1180,12 +1098,10 @@ export default {
         "dismissed the jury"
       ],
       "optionReasons": {
-        "dismiss-mcq-23": "本句指「解除陪審員當前／進一步職務並讓其離開」。",
-        "dismiss-mcq-22": "「通常不排除將來重新提出申索的駁回」與本句語境不同。",
-        "dismiss-mcq-24": "「讓證人完成作證後退下」與本句語境不同。",
-        "dismiss-mcq-21": "「通常具有阻止同一申索重新提出的駁回；美國法律等」與本句語境不同。",
-        "dismiss-mcq-25": "「令板球擊球手出局」與本句語境不同。",
-        "dismiss-mcq-20": "「要求法院駁回案件／申索的正式動議／申請」與本句語境不同。"
+        "dismiss-mcq-23": "本句的「dismissed the jury」指「解除陪審員當前／進一步職務並讓其離開」。",
+        "dismiss-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-23"
     },
@@ -1197,11 +1113,9 @@ export default {
       "masked": "The bowler ____ the opening batter.",
       "options": [
         "dismiss-mcq-25",
-        "dismiss-mcq-24",
-        "dismiss-mcq-26",
-        "dismiss-mcq-23",
-        "dismiss-mcq-27",
-        "dismiss-mcq-22"
+        "dismiss-mcq-12",
+        "dismiss-mcq-17",
+        "dismiss-mcq-30"
       ],
       "explanation": "本句的「dismissed」指「令板球擊球手出局」。",
       "sentenceIndex": 24,
@@ -1210,12 +1124,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-25": "本句指「令板球擊球手出局」。",
-        "dismiss-mcq-24": "「讓證人完成作證後退下」與本句語境不同。",
-        "dismiss-mcq-26": "「擊球手取得 42 分後出局」與本句語境不同。",
-        "dismiss-mcq-23": "「解除陪審員當前／進一步職務並讓其離開」與本句語境不同。",
-        "dismiss-mcq-27": "「在軟件介面中關閉／移除暫時顯示的通知、視窗等」與本句語境不同。",
-        "dismiss-mcq-22": "「通常不排除將來重新提出申索的駁回」與本句語境不同。"
+        "dismiss-mcq-25": "本句的「dismissed」指「令板球擊球手出局」。",
+        "dismiss-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-25"
     },
@@ -1227,11 +1139,9 @@ export default {
       "masked": "He was ____ for 42.",
       "options": [
         "dismiss-mcq-26",
-        "dismiss-mcq-25",
-        "dismiss-mcq-27",
-        "dismiss-mcq-24",
-        "dismiss-mcq-28",
-        "dismiss-mcq-23"
+        "dismiss-mcq-04",
+        "dismiss-mcq-12",
+        "dismiss-mcq-18"
       ],
       "explanation": "本句的「dismissed」指「擊球手取得 42 分後出局」。",
       "sentenceIndex": 25,
@@ -1240,12 +1150,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-26": "本句指「擊球手取得 42 分後出局」。",
-        "dismiss-mcq-25": "「令板球擊球手出局」與本句語境不同。",
-        "dismiss-mcq-27": "「在軟件介面中關閉／移除暫時顯示的通知、視窗等」與本句語境不同。",
-        "dismiss-mcq-24": "「讓證人完成作證後退下」與本句語境不同。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。",
-        "dismiss-mcq-23": "「解除陪審員當前／進一步職務並讓其離開」與本句語境不同。"
+        "dismiss-mcq-26": "本句的「dismissed」指「擊球手取得 42 分後出局」。",
+        "dismiss-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-26"
     },
@@ -1257,11 +1165,9 @@ export default {
       "masked": "Her response was ____.",
       "options": [
         "dismiss-mcq-29",
-        "dismiss-mcq-28",
-        "dismiss-mcq-30",
-        "dismiss-mcq-27",
         "dismiss-mcq-31",
-        "dismiss-mcq-26"
+        "dismiss-mcq-15",
+        "dismiss-mcq-27"
       ],
       "explanation": "本句的「dismissive」指「表現出認為某人／某事不值得認真理會的態度」。",
       "sentenceIndex": 26,
@@ -1270,12 +1176,10 @@ export default {
         "dismissive"
       ],
       "optionReasons": {
-        "dismiss-mcq-29": "本句指「表現出認為某人／某事不值得認真理會的態度」。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。",
-        "dismiss-mcq-30": "「對 X 表現得不屑／不重視」與本句語境不同。",
-        "dismiss-mcq-27": "「在軟件介面中關閉／移除暫時顯示的通知、視窗等」與本句語境不同。",
-        "dismiss-mcq-31": "「以不屑、不當回事的方式」與本句語境不同。",
-        "dismiss-mcq-26": "「擊球手取得 42 分後出局」與本句語境不同。"
+        "dismiss-mcq-29": "本句的「dismissive」指「表現出認為某人／某事不值得認真理會的態度」。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-29"
     },
@@ -1287,11 +1191,9 @@ export default {
       "masked": "He was ____ of their concerns.",
       "options": [
         "dismiss-mcq-29",
-        "dismiss-mcq-28",
-        "dismiss-mcq-30",
-        "dismiss-mcq-27",
+        "dismiss-mcq-02",
         "dismiss-mcq-31",
-        "dismiss-mcq-26"
+        "dismiss-mcq-06"
       ],
       "explanation": "本句的「dismissive」指「表現出認為某人／某事不值得認真理會的態度」。",
       "sentenceIndex": 27,
@@ -1300,12 +1202,10 @@ export default {
         "dismissive"
       ],
       "optionReasons": {
-        "dismiss-mcq-29": "本句指「表現出認為某人／某事不值得認真理會的態度」。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。",
-        "dismiss-mcq-30": "「對 X 表現得不屑／不重視」與本句語境不同。",
-        "dismiss-mcq-27": "「在軟件介面中關閉／移除暫時顯示的通知、視窗等」與本句語境不同。",
-        "dismiss-mcq-31": "「以不屑、不當回事的方式」與本句語境不同。",
-        "dismiss-mcq-26": "「擊球手取得 42 分後出局」與本句語境不同。"
+        "dismiss-mcq-29": "本句的「dismissive」指「表現出認為某人／某事不值得認真理會的態度」。",
+        "dismiss-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-29"
     },
@@ -1317,11 +1217,9 @@ export default {
       "masked": "Managers should not be ____ of staff complaints.",
       "options": [
         "dismiss-mcq-30",
-        "dismiss-mcq-29",
-        "dismiss-mcq-31",
-        "dismiss-mcq-28",
-        "dismiss-mcq-32",
-        "dismiss-mcq-27"
+        "dismiss-mcq-16",
+        "dismiss-mcq-17",
+        "dismiss-mcq-13"
       ],
       "explanation": "本句的「dismissive」指「對 X 表現得不屑／不重視」。",
       "sentenceIndex": 28,
@@ -1330,12 +1228,10 @@ export default {
         "dismissive"
       ],
       "optionReasons": {
-        "dismiss-mcq-30": "本句指「對 X 表現得不屑／不重視」。",
-        "dismiss-mcq-29": "「表現出認為某人／某事不值得認真理會的態度」與本句語境不同。",
-        "dismiss-mcq-31": "「以不屑、不當回事的方式」與本句語境不同。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。",
-        "dismiss-mcq-32": "「輕視別人／問題、不願認真看待的態度」與本句語境不同。",
-        "dismiss-mcq-27": "「在軟件介面中關閉／移除暫時顯示的通知、視窗等」與本句語境不同。"
+        "dismiss-mcq-30": "本句的「dismissive」指「對 X 表現得不屑／不重視」。",
+        "dismiss-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-30"
     },
@@ -1347,11 +1243,9 @@ export default {
       "masked": "‘That's ridiculous,’ she said ____.",
       "options": [
         "dismiss-mcq-31",
-        "dismiss-mcq-30",
         "dismiss-mcq-32",
-        "dismiss-mcq-29",
-        "dismiss-mcq-33",
-        "dismiss-mcq-28"
+        "dismiss-mcq-26",
+        "dismiss-mcq-15"
       ],
       "explanation": "本句的「dismissively」指「以不屑、不當回事的方式」。",
       "sentenceIndex": 29,
@@ -1360,12 +1254,10 @@ export default {
         "dismissively"
       ],
       "optionReasons": {
-        "dismiss-mcq-31": "本句指「以不屑、不當回事的方式」。",
-        "dismiss-mcq-30": "「對 X 表現得不屑／不重視」與本句語境不同。",
-        "dismiss-mcq-32": "「輕視別人／問題、不願認真看待的態度」與本句語境不同。",
-        "dismiss-mcq-29": "「表現出認為某人／某事不值得認真理會的態度」與本句語境不同。",
-        "dismiss-mcq-33": "「不應被輕視；值得認真對待」與本句語境不同。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。"
+        "dismiss-mcq-31": "本句的「dismissively」指「以不屑、不當回事的方式」。",
+        "dismiss-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-31"
     },
@@ -1377,11 +1269,9 @@ export default {
       "masked": "His ____ made the discussion difficult.",
       "options": [
         "dismiss-mcq-32",
-        "dismiss-mcq-31",
-        "dismiss-mcq-33",
-        "dismiss-mcq-30",
-        "dismiss-mcq-34",
-        "dismiss-mcq-29"
+        "dismiss-mcq-18",
+        "dismiss-mcq-02",
+        "dismiss-mcq-25"
       ],
       "explanation": "本句的「dismissiveness」指「輕視別人／問題、不願認真看待的態度」。",
       "sentenceIndex": 30,
@@ -1390,12 +1280,10 @@ export default {
         "dismissiveness"
       ],
       "optionReasons": {
-        "dismiss-mcq-32": "本句指「輕視別人／問題、不願認真看待的態度」。",
-        "dismiss-mcq-31": "「以不屑、不當回事的方式」與本句語境不同。",
-        "dismiss-mcq-33": "「不應被輕視；值得認真對待」與本句語境不同。",
-        "dismiss-mcq-30": "「對 X 表現得不屑／不重視」與本句語境不同。",
-        "dismiss-mcq-34": "「不能合理地完全排除／否定」與本句語境不同。",
-        "dismiss-mcq-29": "「表現出認為某人／某事不值得認真理會的態度」與本句語境不同。"
+        "dismiss-mcq-32": "本句的「dismissiveness」指「輕視別人／問題、不願認真看待的態度」。",
+        "dismiss-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-32"
     },
@@ -1407,11 +1295,9 @@ export default {
       "masked": "Tap outside the window to ____ the dialog.",
       "options": [
         "dismiss-mcq-27",
-        "dismiss-mcq-26",
-        "dismiss-mcq-28",
-        "dismiss-mcq-25",
-        "dismiss-mcq-29",
-        "dismiss-mcq-24"
+        "dismiss-mcq-12",
+        "dismiss-mcq-31",
+        "dismiss-mcq-04"
       ],
       "explanation": "本句的「dismiss」指「在軟件介面中關閉／移除暫時顯示的通知、視窗等」。",
       "sentenceIndex": 31,
@@ -1420,12 +1306,10 @@ export default {
         "dismiss"
       ],
       "optionReasons": {
-        "dismiss-mcq-27": "本句指「在軟件介面中關閉／移除暫時顯示的通知、視窗等」。",
-        "dismiss-mcq-26": "「擊球手取得 42 分後出局」與本句語境不同。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。",
-        "dismiss-mcq-25": "「令板球擊球手出局」與本句語境不同。",
-        "dismiss-mcq-29": "「表現出認為某人／某事不值得認真理會的態度」與本句語境不同。",
-        "dismiss-mcq-24": "「讓證人完成作證後退下」與本句語境不同。"
+        "dismiss-mcq-27": "本句的「dismiss」指「在軟件介面中關閉／移除暫時顯示的通知、視窗等」。",
+        "dismiss-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-27"
     },
@@ -1437,11 +1321,9 @@ export default {
       "masked": "Users can ____ the notification.",
       "options": [
         "dismiss-mcq-27",
-        "dismiss-mcq-26",
-        "dismiss-mcq-28",
-        "dismiss-mcq-25",
+        "dismiss-mcq-15",
         "dismiss-mcq-29",
-        "dismiss-mcq-24"
+        "dismiss-mcq-31"
       ],
       "explanation": "本句的「dismiss」指「在軟件介面中關閉／移除暫時顯示的通知、視窗等」。",
       "sentenceIndex": 32,
@@ -1450,12 +1332,10 @@ export default {
         "dismiss"
       ],
       "optionReasons": {
-        "dismiss-mcq-27": "本句指「在軟件介面中關閉／移除暫時顯示的通知、視窗等」。",
-        "dismiss-mcq-26": "「擊球手取得 42 分後出局」與本句語境不同。",
-        "dismiss-mcq-28": "「使用者可自行關閉／消除的介面元素」與本句語境不同。",
-        "dismiss-mcq-25": "「令板球擊球手出局」與本句語境不同。",
-        "dismiss-mcq-29": "「表現出認為某人／某事不值得認真理會的態度」與本句語境不同。",
-        "dismiss-mcq-24": "「讓證人完成作證後退下」與本句語境不同。"
+        "dismiss-mcq-27": "本句的「dismiss」指「在軟件介面中關閉／移除暫時顯示的通知、視窗等」。",
+        "dismiss-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-27"
     },
@@ -1467,11 +1347,9 @@ export default {
       "masked": "The risk is small but not to be ____.",
       "options": [
         "dismiss-mcq-33",
-        "dismiss-mcq-32",
-        "dismiss-mcq-34",
-        "dismiss-mcq-31",
-        "dismiss-mcq-30",
-        "dismiss-mcq-29"
+        "dismiss-mcq-06",
+        "dismiss-mcq-25",
+        "dismiss-mcq-05"
       ],
       "explanation": "本句的「dismissed」指「不應被輕視；值得認真對待」。",
       "sentenceIndex": 34,
@@ -1480,12 +1358,10 @@ export default {
         "dismissed"
       ],
       "optionReasons": {
-        "dismiss-mcq-33": "本句指「不應被輕視；值得認真對待」。",
-        "dismiss-mcq-32": "「輕視別人／問題、不願認真看待的態度」與本句語境不同。",
-        "dismiss-mcq-34": "「不能合理地完全排除／否定」與本句語境不同。",
-        "dismiss-mcq-31": "「以不屑、不當回事的方式」與本句語境不同。",
-        "dismiss-mcq-30": "「對 X 表現得不屑／不重視」與本句語境不同。",
-        "dismiss-mcq-29": "「表現出認為某人／某事不值得認真理會的態度」與本句語境不同。"
+        "dismiss-mcq-33": "本句的「dismissed」指「不應被輕視；值得認真對待」。",
+        "dismiss-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dismiss-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dismiss-mcq-33"
     }
@@ -1497,5 +1373,7 @@ export default {
     "sha256": "2fb82e59b2bee77b5352a719f19b02f8901cc63e6a2ccbcc0f609a8712632270",
     "pages": 38
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

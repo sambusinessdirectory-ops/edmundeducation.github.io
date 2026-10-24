@@ -360,11 +360,8 @@ export default {
       "masked": "Firefighters ____ the child from the building.",
       "options": [
         "rescue-mcq-01",
-        "rescue-mcq-02",
         "rescue-mcq-03",
-        "rescue-mcq-04",
-        "rescue-mcq-05",
-        "rescue-mcq-06"
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「rescued」指「把某人從危險、受困或可能受傷的情況中安全救出」。",
       "sentenceIndex": 0,
@@ -373,12 +370,9 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-01": "本句指「把某人從危險、受困或可能受傷的情況中安全救出」。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-01": "本句的「rescued」指「把某人從危險、受困或可能受傷的情況中安全救出」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-01"
     },
@@ -390,11 +384,8 @@ export default {
       "masked": "The hikers were ____ after getting lost.",
       "options": [
         "rescue-mcq-01",
-        "rescue-mcq-02",
-        "rescue-mcq-03",
         "rescue-mcq-04",
-        "rescue-mcq-05",
-        "rescue-mcq-06"
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「rescued」指「把某人從危險、受困或可能受傷的情況中安全救出」。",
       "sentenceIndex": 1,
@@ -403,12 +394,9 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-01": "本句指「把某人從危險、受困或可能受傷的情況中安全救出」。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-01": "本句的「rescued」指「把某人從危險、受困或可能受傷的情況中安全救出」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-01"
     },
@@ -420,11 +408,8 @@ export default {
       "masked": "They ____ an injured dog.",
       "options": [
         "rescue-mcq-02",
-        "rescue-mcq-01",
         "rescue-mcq-03",
-        "rescue-mcq-04",
-        "rescue-mcq-05",
-        "rescue-mcq-06"
+        "rescue-mcq-12"
       ],
       "explanation": "本句的「rescued」指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
       "sentenceIndex": 2,
@@ -433,12 +418,9 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-02": "本句指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
-        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-02": "本句的「rescued」指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-02"
     },
@@ -450,11 +432,8 @@ export default {
       "masked": "The charity ____ abandoned animals.",
       "options": [
         "rescue-mcq-02",
-        "rescue-mcq-01",
-        "rescue-mcq-03",
         "rescue-mcq-04",
-        "rescue-mcq-05",
-        "rescue-mcq-06"
+        "rescue-mcq-12"
       ],
       "explanation": "本句的「rescues」指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
       "sentenceIndex": 3,
@@ -463,12 +442,9 @@ export default {
         "rescues"
       ],
       "optionReasons": {
-        "rescue-mcq-02": "本句指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
-        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-02": "本句的「rescues」指「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-02"
     },
@@ -480,11 +456,8 @@ export default {
       "masked": "The new funding helped ____ the project.",
       "options": [
         "rescue-mcq-03",
-        "rescue-mcq-02",
-        "rescue-mcq-04",
-        "rescue-mcq-01",
-        "rescue-mcq-05",
-        "rescue-mcq-06"
+        "rescue-mcq-09",
+        "rescue-mcq-11"
       ],
       "explanation": "本句的「rescue」指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
       "sentenceIndex": 4,
@@ -493,12 +466,9 @@ export default {
         "rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-03": "本句指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-03": "本句的「rescue」指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
+        "rescue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-03"
     },
@@ -510,11 +480,8 @@ export default {
       "masked": "They managed to ____ the business from collapse.",
       "options": [
         "rescue-mcq-03",
-        "rescue-mcq-02",
-        "rescue-mcq-04",
-        "rescue-mcq-01",
-        "rescue-mcq-05",
-        "rescue-mcq-06"
+        "rescue-mcq-09",
+        "rescue-mcq-12"
       ],
       "explanation": "本句的「rescue」指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
       "sentenceIndex": 5,
@@ -523,12 +490,9 @@ export default {
         "rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-03": "本句指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-03": "本句的「rescue」指「使某事物免於失敗、毀壞、消失或嚴重損失」。",
+        "rescue-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-03"
     },
@@ -540,11 +504,7 @@ export default {
       "masked": "Technicians managed to ____ most of the data.",
       "options": [
         "rescue-mcq-04",
-        "rescue-mcq-03",
-        "rescue-mcq-05",
-        "rescue-mcq-02",
-        "rescue-mcq-06",
-        "rescue-mcq-01"
+        "rescue-mcq-06"
       ],
       "explanation": "本句的「rescue」指「在資料／物品即將損壞或失去時把它保存／取回」。",
       "sentenceIndex": 6,
@@ -553,12 +513,8 @@ export default {
         "rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-04": "本句指「在資料／物品即將損壞或失去時把它保存／取回」。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。"
+        "rescue-mcq-04": "本句的「rescue」指「在資料／物品即將損壞或失去時把它保存／取回」。",
+        "rescue-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-04"
     },
@@ -570,11 +526,7 @@ export default {
       "masked": "They ____ several photographs from the damaged house.",
       "options": [
         "rescue-mcq-04",
-        "rescue-mcq-03",
-        "rescue-mcq-05",
-        "rescue-mcq-02",
-        "rescue-mcq-06",
-        "rescue-mcq-01"
+        "rescue-mcq-06"
       ],
       "explanation": "本句的「rescued」指「在資料／物品即將損壞或失去時把它保存／取回」。",
       "sentenceIndex": 7,
@@ -583,12 +535,8 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-04": "本句指「在資料／物品即將損壞或失去時把它保存／取回」。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-01": "「把某人從危險、受困或可能受傷的情況中安全救出」是「rescue — person」的用法，與本句語境不同。"
+        "rescue-mcq-04": "本句的「rescued」指「在資料／物品即將損壞或失去時把它保存／取回」。",
+        "rescue-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-04"
     },
@@ -600,11 +548,8 @@ export default {
       "masked": "The ____ took several hours.",
       "options": [
         "rescue-mcq-05",
-        "rescue-mcq-04",
-        "rescue-mcq-06",
-        "rescue-mcq-03",
-        "rescue-mcq-07",
-        "rescue-mcq-02"
+        "rescue-mcq-13",
+        "rescue-mcq-04"
       ],
       "explanation": "本句的「rescue」指「把人／動物從危險中救出的行動／過程」。",
       "sentenceIndex": 8,
@@ -613,12 +558,9 @@ export default {
         "rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-05": "本句指「把人／動物從危險中救出的行動／過程」。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。"
+        "rescue-mcq-05": "本句的「rescue」指「把人／動物從危險中救出的行動／過程」。",
+        "rescue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-05"
     },
@@ -630,11 +572,8 @@ export default {
       "masked": "A difficult ____ was carried out at sea.",
       "options": [
         "rescue-mcq-05",
-        "rescue-mcq-04",
-        "rescue-mcq-06",
         "rescue-mcq-03",
-        "rescue-mcq-07",
-        "rescue-mcq-02"
+        "rescue-mcq-12"
       ],
       "explanation": "本句的「rescue」指「把人／動物從危險中救出的行動／過程」。",
       "sentenceIndex": 9,
@@ -643,12 +582,9 @@ export default {
         "rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-05": "本句指「把人／動物從危險中救出的行動／過程」。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-02": "「把受傷、受困、被虐或被遺棄動物帶到安全地方並提供幫助」是「rescue — animal」的用法，與本句語境不同。"
+        "rescue-mcq-05": "本句的「rescue」指「把人／動物從危險中救出的行動／過程」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-05"
     },
@@ -660,10 +596,6 @@ export default {
       "masked": "A major ____ began immediately.",
       "options": [
         "rescue-mcq-06",
-        "rescue-mcq-05",
-        "rescue-mcq-07",
-        "rescue-mcq-04",
-        "rescue-mcq-08",
         "rescue-mcq-03"
       ],
       "explanation": "本句的「rescue operation」指「有組織地尋找並救出處於危險中的人／動物的行動」。",
@@ -673,12 +605,8 @@ export default {
         "rescue operation"
       ],
       "optionReasons": {
-        "rescue-mcq-06": "本句指「有組織地尋找並救出處於危險中的人／動物的行動」。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。"
+        "rescue-mcq-06": "本句的「rescue operation」指「有組織地尋找並救出處於危險中的人／動物的行動」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-06"
     },
@@ -690,10 +618,6 @@ export default {
       "masked": "The helicopter joined the ____.",
       "options": [
         "rescue-mcq-06",
-        "rescue-mcq-05",
-        "rescue-mcq-07",
-        "rescue-mcq-04",
-        "rescue-mcq-08",
         "rescue-mcq-03"
       ],
       "explanation": "本句的「rescue mission」指「有組織地尋找並救出處於危險中的人／動物的行動」。",
@@ -703,12 +627,8 @@ export default {
         "rescue mission"
       ],
       "optionReasons": {
-        "rescue-mcq-06": "本句指「有組織地尋找並救出處於危險中的人／動物的行動」。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-03": "「使某事物免於失敗、毀壞、消失或嚴重損失」是「rescue — organization/project」的用法，與本句語境不同。"
+        "rescue-mcq-06": "本句的「rescue mission」指「有組織地尋找並救出處於危險中的人／動物的行動」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-06"
     },
@@ -720,11 +640,8 @@ export default {
       "masked": "The ____ reached the hikers before dark.",
       "options": [
         "rescue-mcq-07",
-        "rescue-mcq-06",
-        "rescue-mcq-08",
-        "rescue-mcq-05",
-        "rescue-mcq-09",
-        "rescue-mcq-04"
+        "rescue-mcq-03",
+        "rescue-mcq-05"
       ],
       "explanation": "本句的「rescue team」指「專門搜尋、營救和協助受困人士的隊伍」。",
       "sentenceIndex": 12,
@@ -733,12 +650,9 @@ export default {
         "rescue team"
       ],
       "optionReasons": {
-        "rescue-mcq-07": "本句指「專門搜尋、營救和協助受困人士的隊伍」。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。"
+        "rescue-mcq-07": "本句的「rescue team」指「專門搜尋、營救和協助受困人士的隊伍」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-07"
     },
@@ -750,11 +664,8 @@ export default {
       "masked": "A mountain ____ was called.",
       "options": [
         "rescue-mcq-07",
-        "rescue-mcq-06",
-        "rescue-mcq-08",
-        "rescue-mcq-05",
-        "rescue-mcq-09",
-        "rescue-mcq-04"
+        "rescue-mcq-03",
+        "rescue-mcq-05"
       ],
       "explanation": "本句的「rescue team」指「專門搜尋、營救和協助受困人士的隊伍」。",
       "sentenceIndex": 13,
@@ -763,12 +674,9 @@ export default {
         "rescue team"
       ],
       "optionReasons": {
-        "rescue-mcq-07": "本句指「專門搜尋、營救和協助受困人士的隊伍」。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-04": "「在資料／物品即將損壞或失去時把它保存／取回」是「rescue — data/property」的用法，與本句語境不同。"
+        "rescue-mcq-07": "本句的「rescue team」指「專門搜尋、營救和協助受困人士的隊伍」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-07"
     },
@@ -780,11 +688,9 @@ export default {
       "masked": "The living room … turns into … a ____.",
       "options": [
         "rescue-mcq-08",
-        "rescue-mcq-07",
-        "rescue-mcq-09",
-        "rescue-mcq-06",
-        "rescue-mcq-10",
-        "rescue-mcq-05"
+        "rescue-mcq-12",
+        "rescue-mcq-03",
+        "rescue-mcq-15"
       ],
       "explanation": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
       "sentenceIndex": 14,
@@ -793,12 +699,10 @@ export default {
         "rescue centre"
       ],
       "optionReasons": {
-        "rescue-mcq-08": "本句指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。"
+        "rescue-mcq-08": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-08"
     },
@@ -810,11 +714,9 @@ export default {
       "masked": "The injured animals were taken to a ____.",
       "options": [
         "rescue-mcq-08",
-        "rescue-mcq-07",
-        "rescue-mcq-09",
-        "rescue-mcq-06",
-        "rescue-mcq-10",
-        "rescue-mcq-05"
+        "rescue-mcq-04",
+        "rescue-mcq-12",
+        "rescue-mcq-15"
       ],
       "explanation": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
       "sentenceIndex": 15,
@@ -823,12 +725,10 @@ export default {
         "rescue centre"
       ],
       "optionReasons": {
-        "rescue-mcq-08": "本句指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。"
+        "rescue-mcq-08": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-08"
     },
@@ -840,11 +740,9 @@ export default {
       "masked": "The children pretended their classroom was a ____.",
       "options": [
         "rescue-mcq-08",
-        "rescue-mcq-07",
-        "rescue-mcq-09",
-        "rescue-mcq-06",
-        "rescue-mcq-10",
-        "rescue-mcq-05"
+        "rescue-mcq-03",
+        "rescue-mcq-12",
+        "rescue-mcq-15"
       ],
       "explanation": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
       "sentenceIndex": 16,
@@ -853,12 +751,10 @@ export default {
         "rescue centre"
       ],
       "optionReasons": {
-        "rescue-mcq-08": "本句指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-05": "「把人／動物從危險中救出的行動／過程」是「rescue — noun」的用法，與本句語境不同。"
+        "rescue-mcq-08": "本句的「rescue centre」指「專門救援、接收、照顧或協助需要救助的人／動物的地方」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-08"
     },
@@ -870,11 +766,8 @@ export default {
       "masked": "She volunteers with an ____ organization.",
       "options": [
         "rescue-mcq-09",
-        "rescue-mcq-08",
-        "rescue-mcq-10",
-        "rescue-mcq-07",
-        "rescue-mcq-11",
-        "rescue-mcq-06"
+        "rescue-mcq-04",
+        "rescue-mcq-12"
       ],
       "explanation": "本句的「animal rescue」指「救助、治療及安置受困／被遺棄動物的工作」。",
       "sentenceIndex": 17,
@@ -883,12 +776,9 @@ export default {
         "animal rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-09": "本句指「救助、治療及安置受困／被遺棄動物的工作」。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-09": "本句的「animal rescue」指「救助、治療及安置受困／被遺棄動物的工作」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-09"
     },
@@ -900,11 +790,8 @@ export default {
       "masked": "The shelter is involved in ____.",
       "options": [
         "rescue-mcq-09",
-        "rescue-mcq-08",
-        "rescue-mcq-10",
-        "rescue-mcq-07",
-        "rescue-mcq-11",
-        "rescue-mcq-06"
+        "rescue-mcq-04",
+        "rescue-mcq-12"
       ],
       "explanation": "本句的「animal rescue」指「救助、治療及安置受困／被遺棄動物的工作」。",
       "sentenceIndex": 18,
@@ -913,12 +800,9 @@ export default {
         "animal rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-09": "本句指「救助、治療及安置受困／被遺棄動物的工作」。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-06": "「有組織地尋找並救出處於危險中的人／動物的行動」是「rescue operation/mission」的用法，與本句語境不同。"
+        "rescue-mcq-09": "本句的「animal rescue」指「救助、治療及安置受困／被遺棄動物的工作」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-09"
     },
@@ -930,11 +814,9 @@ export default {
       "masked": "A ____ team was sent to the area.",
       "options": [
         "rescue-mcq-10",
-        "rescue-mcq-09",
-        "rescue-mcq-11",
-        "rescue-mcq-08",
         "rescue-mcq-12",
-        "rescue-mcq-07"
+        "rescue-mcq-03",
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「search-and-rescue」指「尋找失蹤／受困者並將其安全救出的專業行動」。",
       "sentenceIndex": 19,
@@ -943,12 +825,10 @@ export default {
         "search-and-rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-10": "本句指「尋找失蹤／受困者並將其安全救出的專業行動」。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。"
+        "rescue-mcq-10": "本句的「search-and-rescue」指「尋找失蹤／受困者並將其安全救出的專業行動」。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-10"
     },
@@ -960,11 +840,9 @@ export default {
       "masked": "The coastguard began a ____ operation.",
       "options": [
         "rescue-mcq-10",
-        "rescue-mcq-09",
-        "rescue-mcq-11",
-        "rescue-mcq-08",
         "rescue-mcq-12",
-        "rescue-mcq-07"
+        "rescue-mcq-03",
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「search and rescue」指「尋找失蹤／受困者並將其安全救出的專業行動」。",
       "sentenceIndex": 20,
@@ -973,12 +851,10 @@ export default {
         "search and rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-10": "本句指「尋找失蹤／受困者並將其安全救出的專業行動」。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-07": "「專門搜尋、營救和協助受困人士的隊伍」是「rescue team」的用法，與本句語境不同。"
+        "rescue-mcq-10": "本句的「search and rescue」指「尋找失蹤／受困者並將其安全救出的專業行動」。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-10"
     },
@@ -990,11 +866,8 @@ export default {
       "masked": "Her brother ____.",
       "options": [
         "rescue-mcq-11",
-        "rescue-mcq-10",
-        "rescue-mcq-12",
-        "rescue-mcq-09",
-        "rescue-mcq-13",
-        "rescue-mcq-08"
+        "rescue-mcq-03",
+        "rescue-mcq-09"
       ],
       "explanation": "本句的「came to her rescue」指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
       "sentenceIndex": 21,
@@ -1003,12 +876,9 @@ export default {
         "came to her rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-11": "本句指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。"
+        "rescue-mcq-11": "本句的「came to her rescue」指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-11"
     },
@@ -1020,11 +890,8 @@ export default {
       "masked": "My friend ____ when my car broke down.",
       "options": [
         "rescue-mcq-11",
-        "rescue-mcq-10",
-        "rescue-mcq-12",
-        "rescue-mcq-09",
-        "rescue-mcq-13",
-        "rescue-mcq-08"
+        "rescue-mcq-03",
+        "rescue-mcq-09"
       ],
       "explanation": "本句的「came to the rescue」指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
       "sentenceIndex": 22,
@@ -1033,12 +900,9 @@ export default {
         "came to the rescue"
       ],
       "optionReasons": {
-        "rescue-mcq-11": "本句指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-08": "「專門救援、接收、照顧或協助需要救助的人／動物的地方」是「rescue centre」的用法，與本句語境不同。"
+        "rescue-mcq-11": "本句的「came to the rescue」指「在某人遇到危險、困難或尷尬時及時提供幫助」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-11"
     },
@@ -1050,11 +914,9 @@ export default {
       "masked": "She ____ me from an awkward conversation.",
       "options": [
         "rescue-mcq-12",
-        "rescue-mcq-11",
-        "rescue-mcq-13",
-        "rescue-mcq-10",
-        "rescue-mcq-14",
-        "rescue-mcq-09"
+        "rescue-mcq-03",
+        "rescue-mcq-08",
+        "rescue-mcq-10"
       ],
       "explanation": "本句的「rescued」指「幫某人擺脫尷尬或不利處境」。",
       "sentenceIndex": 23,
@@ -1063,12 +925,10 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-12": "本句指「幫某人擺脫尷尬或不利處境」。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。"
+        "rescue-mcq-12": "本句的「rescued」指「幫某人擺脫尷尬或不利處境」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-12"
     },
@@ -1080,11 +940,9 @@ export default {
       "masked": "His quick answer ____ the team from embarrassment.",
       "options": [
         "rescue-mcq-12",
-        "rescue-mcq-11",
-        "rescue-mcq-13",
-        "rescue-mcq-10",
-        "rescue-mcq-14",
-        "rescue-mcq-09"
+        "rescue-mcq-15",
+        "rescue-mcq-03",
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「rescued」指「幫某人擺脫尷尬或不利處境」。",
       "sentenceIndex": 24,
@@ -1093,12 +951,10 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-12": "本句指「幫某人擺脫尷尬或不利處境」。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-09": "「救助、治療及安置受困／被遺棄動物的工作」是「animal rescue」的用法，與本句語境不同。"
+        "rescue-mcq-12": "本句的「rescued」指「幫某人擺脫尷尬或不利處境」。",
+        "rescue-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-12"
     },
@@ -1110,11 +966,8 @@ export default {
       "masked": "The government announced a financial ____.",
       "options": [
         "rescue-mcq-13",
-        "rescue-mcq-12",
-        "rescue-mcq-14",
-        "rescue-mcq-11",
-        "rescue-mcq-15",
-        "rescue-mcq-10"
+        "rescue-mcq-05",
+        "rescue-mcq-04"
       ],
       "explanation": "本句的「rescue package」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 25,
@@ -1123,12 +976,9 @@ export default {
         "rescue package"
       ],
       "optionReasons": {
-        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-13": "本句的「rescue package」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-13"
     },
@@ -1140,11 +990,8 @@ export default {
       "masked": "The company survived after agreeing to a ____.",
       "options": [
         "rescue-mcq-13",
-        "rescue-mcq-12",
-        "rescue-mcq-14",
-        "rescue-mcq-11",
-        "rescue-mcq-15",
-        "rescue-mcq-10"
+        "rescue-mcq-05",
+        "rescue-mcq-04"
       ],
       "explanation": "本句的「rescue deal」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 26,
@@ -1153,12 +1000,9 @@ export default {
         "rescue deal"
       ],
       "optionReasons": {
-        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-13": "本句的「rescue deal」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-13"
     },
@@ -1170,11 +1014,8 @@ export default {
       "masked": "The organization received emergency ____.",
       "options": [
         "rescue-mcq-13",
-        "rescue-mcq-12",
-        "rescue-mcq-14",
-        "rescue-mcq-11",
-        "rescue-mcq-15",
-        "rescue-mcq-10"
+        "rescue-mcq-05",
+        "rescue-mcq-04"
       ],
       "explanation": "本句的「rescue funding」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 27,
@@ -1183,12 +1024,9 @@ export default {
         "rescue funding"
       ],
       "optionReasons": {
-        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-13": "本句的「rescue funding」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-13"
     },
@@ -1200,11 +1038,8 @@ export default {
       "masked": "A ____ kept the business operating.",
       "options": [
         "rescue-mcq-13",
-        "rescue-mcq-12",
-        "rescue-mcq-14",
-        "rescue-mcq-11",
-        "rescue-mcq-15",
-        "rescue-mcq-10"
+        "rescue-mcq-05",
+        "rescue-mcq-04"
       ],
       "explanation": "本句的「rescue loan」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
       "sentenceIndex": 28,
@@ -1213,12 +1048,9 @@ export default {
         "rescue loan"
       ],
       "optionReasons": {
-        "rescue-mcq-13": "本句指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-13": "本句的「rescue loan」指「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」。",
+        "rescue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-13"
     },
@@ -1230,11 +1062,7 @@ export default {
       "masked": "The ____ reached the climbers safely.",
       "options": [
         "rescue-mcq-14",
-        "rescue-mcq-13",
-        "rescue-mcq-15",
-        "rescue-mcq-12",
-        "rescue-mcq-11",
-        "rescue-mcq-10"
+        "rescue-mcq-03"
       ],
       "explanation": "本句的「rescuers」指「負責把人／動物從危險中救出的救援人員」。",
       "sentenceIndex": 29,
@@ -1243,12 +1071,8 @@ export default {
         "rescuers"
       ],
       "optionReasons": {
-        "rescue-mcq-14": "本句指「負責把人／動物從危險中救出的救援人員」。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-14": "本句的「rescuers」指「負責把人／動物從危險中救出的救援人員」。",
+        "rescue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-14"
     },
@@ -1260,11 +1084,7 @@ export default {
       "masked": "One of the ____ was injured.",
       "options": [
         "rescue-mcq-14",
-        "rescue-mcq-13",
-        "rescue-mcq-15",
-        "rescue-mcq-12",
-        "rescue-mcq-11",
-        "rescue-mcq-10"
+        "rescue-mcq-04"
       ],
       "explanation": "本句的「rescuers」指「負責把人／動物從危險中救出的救援人員」。",
       "sentenceIndex": 30,
@@ -1273,12 +1093,8 @@ export default {
         "rescuers"
       ],
       "optionReasons": {
-        "rescue-mcq-14": "本句指「負責把人／動物從危險中救出的救援人員」。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-15": "「已從危險、受困或不安全情況中被救出的」是「rescued」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-14": "本句的「rescuers」指「負責把人／動物從危險中救出的救援人員」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-14"
     },
@@ -1290,11 +1106,9 @@ export default {
       "masked": "The ____ animals were taken to a shelter.",
       "options": [
         "rescue-mcq-15",
-        "rescue-mcq-14",
-        "rescue-mcq-13",
+        "rescue-mcq-04",
         "rescue-mcq-12",
-        "rescue-mcq-11",
-        "rescue-mcq-10"
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「rescued」指「已從危險、受困或不安全情況中被救出的」。",
       "sentenceIndex": 31,
@@ -1303,12 +1117,10 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-15": "本句指「已從危險、受困或不安全情況中被救出的」。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-15": "本句的「rescued」指「已從危險、受困或不安全情況中被救出的」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-15"
     },
@@ -1320,11 +1132,9 @@ export default {
       "masked": "The ____ hikers were tired but safe.",
       "options": [
         "rescue-mcq-15",
-        "rescue-mcq-14",
-        "rescue-mcq-13",
+        "rescue-mcq-04",
         "rescue-mcq-12",
-        "rescue-mcq-11",
-        "rescue-mcq-10"
+        "rescue-mcq-08"
       ],
       "explanation": "本句的「rescued」指「已從危險、受困或不安全情況中被救出的」。",
       "sentenceIndex": 32,
@@ -1333,12 +1143,10 @@ export default {
         "rescued"
       ],
       "optionReasons": {
-        "rescue-mcq-15": "本句指「已從危險、受困或不安全情況中被救出的」。",
-        "rescue-mcq-14": "「負責把人／動物從危險中救出的救援人員」是「rescuer」的用法，與本句語境不同。",
-        "rescue-mcq-13": "「為防止公司／機構陷入嚴重財務失敗而提供的援助安排」是「rescue package/deal」的用法，與本句語境不同。",
-        "rescue-mcq-12": "「幫某人擺脫尷尬或不利處境」是「rescue someone from embarrassment」的用法，與本句語境不同。",
-        "rescue-mcq-11": "「在某人遇到危險、困難或尷尬時及時提供幫助」是「come to the rescue」的用法，與本句語境不同。",
-        "rescue-mcq-10": "「尋找失蹤／受困者並將其安全救出的專業行動」是「search and rescue」的用法，與本句語境不同。"
+        "rescue-mcq-15": "本句的「rescued」指「已從危險、受困或不安全情況中被救出的」。",
+        "rescue-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "rescue-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "rescue-mcq-15"
     }
@@ -1350,5 +1158,7 @@ export default {
     "sha256": "3d4d10fb23938a79beac722988b796e84e57e932a9b6a5779ed0706b77dd3e47",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

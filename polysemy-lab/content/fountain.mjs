@@ -267,11 +267,9 @@ export default {
       "masked": "There is a large ____ in the square.",
       "options": [
         "fountain-mcq-01",
-        "fountain-mcq-02",
-        "fountain-mcq-03",
-        "fountain-mcq-04",
-        "fountain-mcq-05",
-        "fountain-mcq-06"
+        "fountain-mcq-06",
+        "fountain-mcq-11",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「fountain」指「人工讓水向上或向外噴出的裝置；噴泉」。",
       "sentenceIndex": 2,
@@ -280,12 +278,10 @@ export default {
         "fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-01": "本句指「人工讓水向上或向外噴出的裝置；噴泉」。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-01": "本句的「fountain」指「人工讓水向上或向外噴出的裝置；噴泉」。",
+        "fountain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-01"
     },
@@ -297,11 +293,9 @@ export default {
       "masked": "Children were playing near the ____.",
       "options": [
         "fountain-mcq-01",
-        "fountain-mcq-02",
-        "fountain-mcq-03",
-        "fountain-mcq-04",
-        "fountain-mcq-05",
-        "fountain-mcq-06"
+        "fountain-mcq-06",
+        "fountain-mcq-09",
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountain」指「人工讓水向上或向外噴出的裝置；噴泉」。",
       "sentenceIndex": 3,
@@ -310,12 +304,10 @@ export default {
         "fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-01": "本句指「人工讓水向上或向外噴出的裝置；噴泉」。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-01": "本句的「fountain」指「人工讓水向上或向外噴出的裝置；噴泉」。",
+        "fountain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-01"
     },
@@ -327,11 +319,9 @@ export default {
       "masked": "The garden has a stone ____.",
       "options": [
         "fountain-mcq-02",
-        "fountain-mcq-01",
-        "fountain-mcq-03",
-        "fountain-mcq-04",
-        "fountain-mcq-05",
-        "fountain-mcq-06"
+        "fountain-mcq-07",
+        "fountain-mcq-09",
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「water fountain」指「用作裝飾或水景的噴泉」。",
       "sentenceIndex": 4,
@@ -340,12 +330,10 @@ export default {
         "water fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-02": "本句指「用作裝飾或水景的噴泉」。",
-        "fountain-mcq-01": "「人工讓水向上或向外噴出的裝置；噴泉」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-02": "本句的「water fountain」指「用作裝飾或水景的噴泉」。",
+        "fountain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-02"
     },
@@ -357,11 +345,8 @@ export default {
       "masked": "The ____ is lit at night.",
       "options": [
         "fountain-mcq-02",
-        "fountain-mcq-01",
-        "fountain-mcq-03",
-        "fountain-mcq-04",
-        "fountain-mcq-05",
-        "fountain-mcq-06"
+        "fountain-mcq-10",
+        "fountain-mcq-08"
       ],
       "explanation": "本句的「water fountain」指「用作裝飾或水景的噴泉」。",
       "sentenceIndex": 5,
@@ -370,12 +355,9 @@ export default {
         "water fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-02": "本句指「用作裝飾或水景的噴泉」。",
-        "fountain-mcq-01": "「人工讓水向上或向外噴出的裝置；噴泉」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-02": "本句的「water fountain」指「用作裝飾或水景的噴泉」。",
+        "fountain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-02"
     },
@@ -387,11 +369,9 @@ export default {
       "masked": "There is a ____ outside the gym.",
       "options": [
         "fountain-mcq-03",
-        "fountain-mcq-02",
-        "fountain-mcq-04",
-        "fountain-mcq-01",
-        "fountain-mcq-05",
-        "fountain-mcq-06"
+        "fountain-mcq-07",
+        "fountain-mcq-11",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「drinking fountain」指「提供飲用水的設備；飲水機／飲水噴泉」。",
       "sentenceIndex": 6,
@@ -400,12 +380,10 @@ export default {
         "drinking fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-03": "本句指「提供飲用水的設備；飲水機／飲水噴泉」。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-01": "「人工讓水向上或向外噴出的裝置；噴泉」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-03": "本句的「drinking fountain」指「提供飲用水的設備；飲水機／飲水噴泉」。",
+        "fountain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-03"
     },
@@ -417,11 +395,9 @@ export default {
       "masked": "Students filled their bottles at the ____.",
       "options": [
         "fountain-mcq-03",
-        "fountain-mcq-02",
-        "fountain-mcq-04",
-        "fountain-mcq-01",
-        "fountain-mcq-05",
-        "fountain-mcq-06"
+        "fountain-mcq-07",
+        "fountain-mcq-11",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「drinking fountain」指「提供飲用水的設備；飲水機／飲水噴泉」。",
       "sentenceIndex": 7,
@@ -430,12 +406,10 @@ export default {
         "drinking fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-03": "本句指「提供飲用水的設備；飲水機／飲水噴泉」。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-01": "「人工讓水向上或向外噴出的裝置；噴泉」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-03": "本句的「drinking fountain」指「提供飲用水的設備；飲水機／飲水噴泉」。",
+        "fountain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-03"
     },
@@ -447,11 +421,9 @@ export default {
       "masked": "The old text describes a sacred ____.",
       "options": [
         "fountain-mcq-04",
-        "fountain-mcq-03",
-        "fountain-mcq-05",
-        "fountain-mcq-02",
         "fountain-mcq-06",
-        "fountain-mcq-01"
+        "fountain-mcq-09",
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountain」指「水自然湧出的泉／泉源，現代多偏文學或歷史語境」。",
       "sentenceIndex": 8,
@@ -460,12 +432,10 @@ export default {
         "fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-04": "本句指「水自然湧出的泉／泉源，現代多偏文學或歷史語境」。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-01": "「人工讓水向上或向外噴出的裝置；噴泉」與本句語境不同。"
+        "fountain-mcq-04": "本句的「fountain」指「水自然湧出的泉／泉源，現代多偏文學或歷史語境」。",
+        "fountain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-04"
     },
@@ -477,11 +447,9 @@ export default {
       "masked": "Water flowed from a natural ____ in the rock.",
       "options": [
         "fountain-mcq-04",
-        "fountain-mcq-03",
-        "fountain-mcq-05",
-        "fountain-mcq-02",
+        "fountain-mcq-11",
         "fountain-mcq-06",
-        "fountain-mcq-01"
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「fountain」指「水自然湧出的泉／泉源，現代多偏文學或歷史語境」。",
       "sentenceIndex": 9,
@@ -490,12 +458,10 @@ export default {
         "fountain"
       ],
       "optionReasons": {
-        "fountain-mcq-04": "本句指「水自然湧出的泉／泉源，現代多偏文學或歷史語境」。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-01": "「人工讓水向上或向外噴出的裝置；噴泉」與本句語境不同。"
+        "fountain-mcq-04": "本句的「fountain」指「水自然湧出的泉／泉源，現代多偏文學或歷史語境」。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-04"
     },
@@ -507,11 +473,8 @@ export default {
       "masked": "She was a ____.",
       "options": [
         "fountain-mcq-05",
-        "fountain-mcq-04",
-        "fountain-mcq-06",
-        "fountain-mcq-03",
-        "fountain-mcq-07",
-        "fountain-mcq-02"
+        "fountain-mcq-02",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「fountain of knowledge」指「大量、持續提供某事物的來源；泉源」。",
       "sentenceIndex": 10,
@@ -520,12 +483,9 @@ export default {
         "fountain of knowledge"
       ],
       "optionReasons": {
-        "fountain-mcq-05": "本句指「大量、持續提供某事物的來源；泉源」。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。"
+        "fountain-mcq-05": "本句的「fountain of knowledge」指「大量、持續提供某事物的來源；泉源」。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-05"
     },
@@ -537,11 +497,8 @@ export default {
       "masked": "The child was a ____.",
       "options": [
         "fountain-mcq-05",
-        "fountain-mcq-04",
-        "fountain-mcq-06",
-        "fountain-mcq-03",
-        "fountain-mcq-07",
-        "fountain-mcq-02"
+        "fountain-mcq-02",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「fountain of questions」指「大量、持續提供某事物的來源；泉源」。",
       "sentenceIndex": 11,
@@ -550,12 +507,9 @@ export default {
         "fountain of questions"
       ],
       "optionReasons": {
-        "fountain-mcq-05": "本句指「大量、持續提供某事物的來源；泉源」。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-02": "「用作裝飾或水景的噴泉」與本句語境不同。"
+        "fountain-mcq-05": "本句的「fountain of questions」指「大量、持續提供某事物的來源；泉源」。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-05"
     },
@@ -567,11 +521,9 @@ export default {
       "masked": "The professor was a ____.",
       "options": [
         "fountain-mcq-06",
-        "fountain-mcq-05",
-        "fountain-mcq-07",
-        "fountain-mcq-04",
-        "fountain-mcq-08",
-        "fountain-mcq-03"
+        "fountain-mcq-01",
+        "fountain-mcq-11",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「fountain of knowledge」指「能源源不絕提供知識／智慧的人或來源」。",
       "sentenceIndex": 12,
@@ -580,12 +532,10 @@ export default {
         "fountain of knowledge"
       ],
       "optionReasons": {
-        "fountain-mcq-06": "本句指「能源源不絕提供知識／智慧的人或來源」。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。"
+        "fountain-mcq-06": "本句的「fountain of knowledge」指「能源源不絕提供知識／智慧的人或來源」。",
+        "fountain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-06"
     },
@@ -597,11 +547,9 @@ export default {
       "masked": "Older colleagues can be a ____.",
       "options": [
         "fountain-mcq-06",
-        "fountain-mcq-05",
-        "fountain-mcq-07",
-        "fountain-mcq-04",
-        "fountain-mcq-08",
-        "fountain-mcq-03"
+        "fountain-mcq-02",
+        "fountain-mcq-11",
+        "fountain-mcq-09"
       ],
       "explanation": "本句的「fountain of practical wisdom」指「能源源不絕提供知識／智慧的人或來源」。",
       "sentenceIndex": 13,
@@ -610,12 +558,10 @@ export default {
         "fountain of practical wisdom"
       ],
       "optionReasons": {
-        "fountain-mcq-06": "本句指「能源源不絕提供知識／智慧的人或來源」。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-03": "「提供飲用水的設備；飲水機／飲水噴泉」與本句語境不同。"
+        "fountain-mcq-06": "本句的「fountain of practical wisdom」指「能源源不絕提供知識／智慧的人或來源」。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-06"
     },
@@ -627,11 +573,9 @@ export default {
       "masked": "The speaker produced a ____.",
       "options": [
         "fountain-mcq-07",
-        "fountain-mcq-06",
-        "fountain-mcq-08",
-        "fountain-mcq-05",
         "fountain-mcq-09",
-        "fountain-mcq-04"
+        "fountain-mcq-01",
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountain of ideas」指「想法／資訊非常豐富、源源不絕的來源」。",
       "sentenceIndex": 14,
@@ -640,12 +584,10 @@ export default {
         "fountain of ideas"
       ],
       "optionReasons": {
-        "fountain-mcq-07": "本句指「想法／資訊非常豐富、源源不絕的來源」。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。"
+        "fountain-mcq-07": "本句的「fountain of ideas」指「想法／資訊非常豐富、源源不絕的來源」。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-07"
     },
@@ -657,11 +599,9 @@ export default {
       "masked": "The child became a ____ after lunch.",
       "options": [
         "fountain-mcq-07",
-        "fountain-mcq-06",
-        "fountain-mcq-08",
-        "fountain-mcq-05",
+        "fountain-mcq-01",
         "fountain-mcq-09",
-        "fountain-mcq-04"
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountain of energy」指「想法／資訊非常豐富、源源不絕的來源」。",
       "sentenceIndex": 15,
@@ -670,12 +610,10 @@ export default {
         "fountain of energy"
       ],
       "optionReasons": {
-        "fountain-mcq-07": "本句指「想法／資訊非常豐富、源源不絕的來源」。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。"
+        "fountain-mcq-07": "本句的「fountain of energy」指「想法／資訊非常豐富、源源不絕的來源」。",
+        "fountain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-07"
     },
@@ -688,10 +626,7 @@ export default {
       "options": [
         "fountain-mcq-08",
         "fountain-mcq-07",
-        "fountain-mcq-09",
-        "fountain-mcq-06",
-        "fountain-mcq-10",
-        "fountain-mcq-05"
+        "fountain-mcq-02"
       ],
       "explanation": "本句的「fountain pen」指「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」。",
       "sentenceIndex": 16,
@@ -700,12 +635,9 @@ export default {
         "fountain pen"
       ],
       "optionReasons": {
-        "fountain-mcq-08": "本句指「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-10": "「某事物最初或主要的來源；源頭」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。"
+        "fountain-mcq-08": "本句的「fountain pen」指「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」。",
+        "fountain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-08"
     },
@@ -718,10 +650,7 @@ export default {
       "options": [
         "fountain-mcq-08",
         "fountain-mcq-07",
-        "fountain-mcq-09",
-        "fountain-mcq-06",
-        "fountain-mcq-10",
-        "fountain-mcq-05"
+        "fountain-mcq-02"
       ],
       "explanation": "本句的「fountain pen」指「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」。",
       "sentenceIndex": 17,
@@ -730,12 +659,9 @@ export default {
         "fountain pen"
       ],
       "optionReasons": {
-        "fountain-mcq-08": "本句指「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-10": "「某事物最初或主要的來源；源頭」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。"
+        "fountain-mcq-08": "本句的「fountain pen」指「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」。",
+        "fountain-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-08"
     },
@@ -747,11 +673,9 @@ export default {
       "masked": "This bottle contains blue ____.",
       "options": [
         "fountain-mcq-09",
-        "fountain-mcq-08",
         "fountain-mcq-10",
-        "fountain-mcq-07",
         "fountain-mcq-11",
-        "fountain-mcq-06"
+        "fountain-mcq-02"
       ],
       "explanation": "本句的「fountain-pen ink」指「專供鋼筆使用的液體墨水」。",
       "sentenceIndex": 18,
@@ -760,12 +684,10 @@ export default {
         "fountain-pen ink"
       ],
       "optionReasons": {
-        "fountain-mcq-09": "本句指「專供鋼筆使用的液體墨水」。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-10": "「某事物最初或主要的來源；源頭」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-11": "「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-09": "本句的「fountain-pen ink」指「專供鋼筆使用的液體墨水」。",
+        "fountain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-09"
     },
@@ -777,11 +699,9 @@ export default {
       "masked": "Not every ink is suitable for a ____.",
       "options": [
         "fountain-mcq-09",
-        "fountain-mcq-08",
         "fountain-mcq-10",
-        "fountain-mcq-07",
         "fountain-mcq-11",
-        "fountain-mcq-06"
+        "fountain-mcq-02"
       ],
       "explanation": "本句的「fountain pen」指「專供鋼筆使用的液體墨水」。",
       "sentenceIndex": 19,
@@ -790,12 +710,10 @@ export default {
         "fountain pen"
       ],
       "optionReasons": {
-        "fountain-mcq-09": "本句指「專供鋼筆使用的液體墨水」。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-10": "「某事物最初或主要的來源；源頭」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-11": "「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-09": "本句的「fountain pen」指「專供鋼筆使用的液體墨水」。",
+        "fountain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-09"
     },
@@ -809,9 +727,7 @@ export default {
         "fountain-mcq-10",
         "fountain-mcq-09",
         "fountain-mcq-11",
-        "fountain-mcq-08",
-        "fountain-mcq-07",
-        "fountain-mcq-06"
+        "fountain-mcq-03"
       ],
       "explanation": "本句的「fountainhead of new ideas」指「某事物最初或主要的來源；源頭」。",
       "sentenceIndex": 22,
@@ -820,12 +736,10 @@ export default {
         "fountainhead of new ideas"
       ],
       "optionReasons": {
-        "fountain-mcq-10": "本句指「某事物最初或主要的來源；源頭」。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-11": "「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-10": "本句的「fountainhead of new ideas」指「某事物最初或主要的來源；源頭」。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-10"
     },
@@ -837,11 +751,9 @@ export default {
       "masked": "He was regarded as the ____ of the movement.",
       "options": [
         "fountain-mcq-10",
+        "fountain-mcq-01",
         "fountain-mcq-09",
-        "fountain-mcq-11",
-        "fountain-mcq-08",
-        "fountain-mcq-07",
-        "fountain-mcq-06"
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountainhead」指「某事物最初或主要的來源；源頭」。",
       "sentenceIndex": 23,
@@ -850,12 +762,10 @@ export default {
         "fountainhead"
       ],
       "optionReasons": {
-        "fountain-mcq-10": "本句指「某事物最初或主要的來源；源頭」。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-11": "「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-10": "本句的「fountainhead」指「某事物最初或主要的來源；源頭」。",
+        "fountain-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-10"
     },
@@ -869,9 +779,7 @@ export default {
         "fountain-mcq-11",
         "fountain-mcq-10",
         "fountain-mcq-09",
-        "fountain-mcq-08",
-        "fountain-mcq-07",
-        "fountain-mcq-06"
+        "fountain-mcq-02"
       ],
       "explanation": "本句的「Fountain of Youth」指「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」。",
       "sentenceIndex": 24,
@@ -880,12 +788,10 @@ export default {
         "Fountain of Youth"
       ],
       "optionReasons": {
-        "fountain-mcq-11": "本句指「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」。",
-        "fountain-mcq-10": "「某事物最初或主要的來源；源頭」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-11": "本句的「Fountain of Youth」指「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」。",
+        "fountain-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-11"
     },
@@ -897,11 +803,9 @@ export default {
       "masked": "Exercise is sometimes jokingly called a ____.",
       "options": [
         "fountain-mcq-11",
-        "fountain-mcq-10",
+        "fountain-mcq-06",
         "fountain-mcq-09",
-        "fountain-mcq-08",
-        "fountain-mcq-07",
-        "fountain-mcq-06"
+        "fountain-mcq-02"
       ],
       "explanation": "本句的「fountain of youth」指「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」。",
       "sentenceIndex": 25,
@@ -910,12 +814,10 @@ export default {
         "fountain of youth"
       ],
       "optionReasons": {
-        "fountain-mcq-11": "本句指「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」。",
-        "fountain-mcq-10": "「某事物最初或主要的來源；源頭」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-07": "「想法／資訊非常豐富、源源不絕的來源」與本句語境不同。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。"
+        "fountain-mcq-11": "本句的「fountain of youth」指「傳說能令人恢復青春的青春之泉；也可比喻保持年輕的方法」。",
+        "fountain-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-11"
     },
@@ -927,11 +829,9 @@ export default {
       "masked": "She was a ____ about the city.",
       "options": [
         "fountain-mcq-07",
-        "fountain-mcq-06",
-        "fountain-mcq-08",
-        "fountain-mcq-05",
+        "fountain-mcq-02",
         "fountain-mcq-09",
-        "fountain-mcq-04"
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountain of information」指「想法／資訊非常豐富、源源不絕的來源」。",
       "sentenceIndex": 26,
@@ -940,12 +840,10 @@ export default {
         "fountain of information"
       ],
       "optionReasons": {
-        "fountain-mcq-07": "本句指「想法／資訊非常豐富、源源不絕的來源」。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。"
+        "fountain-mcq-07": "本句的「fountain of information」指「想法／資訊非常豐富、源源不絕的來源」。",
+        "fountain-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-07"
     },
@@ -957,11 +855,9 @@ export default {
       "masked": "The guide became a ____.",
       "options": [
         "fountain-mcq-07",
-        "fountain-mcq-06",
-        "fountain-mcq-08",
-        "fountain-mcq-05",
+        "fountain-mcq-03",
         "fountain-mcq-09",
-        "fountain-mcq-04"
+        "fountain-mcq-11"
       ],
       "explanation": "本句的「fountain of useful information」指「想法／資訊非常豐富、源源不絕的來源」。",
       "sentenceIndex": 27,
@@ -970,12 +866,10 @@ export default {
         "fountain of useful information"
       ],
       "optionReasons": {
-        "fountain-mcq-07": "本句指「想法／資訊非常豐富、源源不絕的來源」。",
-        "fountain-mcq-06": "「能源源不絕提供知識／智慧的人或來源」與本句語境不同。",
-        "fountain-mcq-08": "「內有墨水儲存系統並持續供墨的鋼筆／自來水筆」與本句語境不同。",
-        "fountain-mcq-05": "「大量、持續提供某事物的來源；泉源」與本句語境不同。",
-        "fountain-mcq-09": "「專供鋼筆使用的液體墨水」與本句語境不同。",
-        "fountain-mcq-04": "「水自然湧出的泉／泉源，現代多偏文學或歷史語境」與本句語境不同。"
+        "fountain-mcq-07": "本句的「fountain of useful information」指「想法／資訊非常豐富、源源不絕的來源」。",
+        "fountain-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fountain-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fountain-mcq-07"
     }
@@ -987,5 +881,7 @@ export default {
     "sha256": "a4cc4be98e12dca6458feeef8316ddd970803bb14ee084bd54c3af55318b6406",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -357,11 +357,8 @@ export default {
       "masked": "The plant has small white ____.",
       "options": [
         "flower-mcq-01",
-        "flower-mcq-02",
-        "flower-mcq-03",
-        "flower-mcq-04",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-09",
+        "flower-mcq-12"
       ],
       "explanation": "本句的「flowers」指「植物用來繁殖、通常具有花瓣的花朵部分」。",
       "sentenceIndex": 0,
@@ -370,12 +367,9 @@ export default {
         "flowers"
       ],
       "optionReasons": {
-        "flower-mcq-01": "本句指「植物用來繁殖、通常具有花瓣的花朵部分」。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-01": "本句的「flowers」指「植物用來繁殖、通常具有花瓣的花朵部分」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-01"
     },
@@ -387,11 +381,8 @@ export default {
       "masked": "She picked a ____ from the garden.",
       "options": [
         "flower-mcq-01",
-        "flower-mcq-02",
-        "flower-mcq-03",
-        "flower-mcq-04",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-09",
+        "flower-mcq-12"
       ],
       "explanation": "本句的「flower」指「植物用來繁殖、通常具有花瓣的花朵部分」。",
       "sentenceIndex": 1,
@@ -400,12 +391,9 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-01": "本句指「植物用來繁殖、通常具有花瓣的花朵部分」。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-01": "本句的「flower」指「植物用來繁殖、通常具有花瓣的花朵部分」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-01"
     },
@@ -417,11 +405,8 @@ export default {
       "masked": "I remember seeing little pots of herbs and ____ near her windows.",
       "options": [
         "flower-mcq-02",
-        "flower-mcq-01",
-        "flower-mcq-03",
-        "flower-mcq-04",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-09",
+        "flower-mcq-08"
       ],
       "explanation": "本句的「flowers」指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
       "sentenceIndex": 2,
@@ -430,12 +415,9 @@ export default {
         "flowers"
       ],
       "optionReasons": {
-        "flower-mcq-02": "本句指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-02": "本句的「flowers」指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-02"
     },
@@ -447,11 +429,8 @@ export default {
       "masked": "She grows vegetables as well as ____.",
       "options": [
         "flower-mcq-02",
-        "flower-mcq-01",
-        "flower-mcq-03",
-        "flower-mcq-04",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-09",
+        "flower-mcq-08"
       ],
       "explanation": "本句的「flowers」指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
       "sentenceIndex": 3,
@@ -460,12 +439,9 @@ export default {
         "flowers"
       ],
       "optionReasons": {
-        "flower-mcq-02": "本句指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-02": "本句的「flowers」指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-02"
     },
@@ -477,11 +453,8 @@ export default {
       "masked": "These ____ need plenty of sunlight.",
       "options": [
         "flower-mcq-02",
-        "flower-mcq-01",
-        "flower-mcq-03",
-        "flower-mcq-04",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-08",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「flowers」指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
       "sentenceIndex": 4,
@@ -490,12 +463,9 @@ export default {
         "flowers"
       ],
       "optionReasons": {
-        "flower-mcq-02": "本句指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-02": "本句的「flowers」指「主要因花朵而被種植或觀賞的開花植物／花卉」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-02"
     },
@@ -507,11 +477,9 @@ export default {
       "masked": "The roses ____ in early summer.",
       "options": [
         "flower-mcq-03",
-        "flower-mcq-02",
-        "flower-mcq-04",
-        "flower-mcq-01",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-08",
+        "flower-mcq-11",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「flower」指「植物長出並開放花朵」。",
       "sentenceIndex": 5,
@@ -520,12 +488,10 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-03": "本句指「植物長出並開放花朵」。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-03": "本句的「flower」指「植物長出並開放花朵」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-03"
     },
@@ -537,11 +503,9 @@ export default {
       "masked": "This plant may not ____ until next year.",
       "options": [
         "flower-mcq-03",
-        "flower-mcq-02",
-        "flower-mcq-04",
-        "flower-mcq-01",
-        "flower-mcq-05",
-        "flower-mcq-06"
+        "flower-mcq-09",
+        "flower-mcq-08",
+        "flower-mcq-11"
       ],
       "explanation": "本句的「flower」指「植物長出並開放花朵」。",
       "sentenceIndex": 6,
@@ -550,12 +514,10 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-03": "本句指「植物長出並開放花朵」。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-03": "本句的「flower」指「植物長出並開放花朵」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-03"
     },
@@ -567,11 +529,9 @@ export default {
       "masked": "The jasmine is ____ now.",
       "options": [
         "flower-mcq-04",
-        "flower-mcq-03",
-        "flower-mcq-05",
-        "flower-mcq-02",
-        "flower-mcq-06",
-        "flower-mcq-01"
+        "flower-mcq-08",
+        "flower-mcq-09",
+        "flower-mcq-10"
       ],
       "explanation": "本句的「in flower」指「植物目前正在開花、處於花期」。",
       "sentenceIndex": 7,
@@ -580,12 +540,10 @@ export default {
         "in flower"
       ],
       "optionReasons": {
-        "flower-mcq-04": "本句指「植物目前正在開花、處於花期」。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。"
+        "flower-mcq-04": "本句的「in flower」指「植物目前正在開花、處於花期」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-04"
     },
@@ -597,11 +555,9 @@ export default {
       "masked": "The garden looks beautiful when the roses are in ____.",
       "options": [
         "flower-mcq-04",
-        "flower-mcq-03",
-        "flower-mcq-05",
-        "flower-mcq-02",
-        "flower-mcq-06",
-        "flower-mcq-01"
+        "flower-mcq-08",
+        "flower-mcq-09",
+        "flower-mcq-11"
       ],
       "explanation": "本句的「flower」指「植物目前正在開花、處於花期」。",
       "sentenceIndex": 8,
@@ -610,12 +566,10 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-04": "本句指「植物目前正在開花、處於花期」。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-01": "「植物用來繁殖、通常具有花瓣的花朵部分」與本句語境不同。"
+        "flower-mcq-04": "本句的「flower」指「植物目前正在開花、處於花期」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-04"
     },
@@ -627,11 +581,8 @@ export default {
       "masked": "Her interest in gardening ____ into a lifelong passion.",
       "options": [
         "flower-mcq-05",
-        "flower-mcq-04",
-        "flower-mcq-06",
-        "flower-mcq-03",
-        "flower-mcq-07",
-        "flower-mcq-02"
+        "flower-mcq-10",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「flowered」指「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」。",
       "sentenceIndex": 9,
@@ -640,12 +591,9 @@ export default {
         "flowered"
       ],
       "optionReasons": {
-        "flower-mcq-05": "本句指「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。"
+        "flower-mcq-05": "本句的「flowered」指「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」。",
+        "flower-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-05"
     },
@@ -657,11 +605,9 @@ export default {
       "masked": "His talent began to ____ when he reached university.",
       "options": [
         "flower-mcq-05",
-        "flower-mcq-04",
-        "flower-mcq-06",
-        "flower-mcq-03",
-        "flower-mcq-07",
-        "flower-mcq-02"
+        "flower-pdf-001",
+        "flower-mcq-11",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「flower」指「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」。",
       "sentenceIndex": 10,
@@ -670,12 +616,10 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-05": "本句指「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-02": "「主要因花朵而被種植或觀賞的開花植物／花卉」與本句語境不同。"
+        "flower-mcq-05": "本句的「flower」指「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-05"
     },
@@ -687,11 +631,9 @@ export default {
       "masked": "She keeps several ____ on the balcony.",
       "options": [
         "flower-mcq-06",
-        "flower-mcq-05",
-        "flower-mcq-07",
-        "flower-mcq-04",
         "flower-mcq-08",
-        "flower-mcq-03"
+        "flower-mcq-09",
+        "flower-mcq-11"
       ],
       "explanation": "本句的「flowering plants」指「正在產生花朵或屬於會開花植物的」。",
       "sentenceIndex": 11,
@@ -700,12 +642,10 @@ export default {
         "flowering plants"
       ],
       "optionReasons": {
-        "flower-mcq-06": "本句指「正在產生花朵或屬於會開花植物的」。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。"
+        "flower-mcq-06": "本句的「flowering plants」指「正在產生花朵或屬於會開花植物的」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-06"
     },
@@ -717,11 +657,9 @@ export default {
       "masked": "The ____ trees attract many bees.",
       "options": [
         "flower-mcq-06",
-        "flower-mcq-05",
-        "flower-mcq-07",
-        "flower-mcq-04",
+        "flower-mcq-09",
         "flower-mcq-08",
-        "flower-mcq-03"
+        "flower-mcq-11"
       ],
       "explanation": "本句的「flowering」指「正在產生花朵或屬於會開花植物的」。",
       "sentenceIndex": 12,
@@ -730,12 +668,10 @@ export default {
         "flowering"
       ],
       "optionReasons": {
-        "flower-mcq-06": "本句指「正在產生花朵或屬於會開花植物的」。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-03": "「植物長出並開放花朵」與本句語境不同。"
+        "flower-mcq-06": "本句的「flowering」指「正在產生花朵或屬於會開花植物的」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-06"
     },
@@ -747,11 +683,9 @@ export default {
       "masked": "Most garden plants are ____.",
       "options": [
         "flower-mcq-07",
-        "flower-mcq-06",
         "flower-mcq-08",
-        "flower-mcq-05",
-        "flower-mcq-09",
-        "flower-mcq-04"
+        "flower-mcq-11",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「flowering plants」指「會產生花朵並形成種子的植物類群」。",
       "sentenceIndex": 13,
@@ -760,12 +694,10 @@ export default {
         "flowering plants"
       ],
       "optionReasons": {
-        "flower-mcq-07": "本句指「會產生花朵並形成種子的植物類群」。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。"
+        "flower-mcq-07": "本句的「flowering plants」指「會產生花朵並形成種子的植物類群」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-07"
     },
@@ -777,11 +709,8 @@ export default {
       "masked": "____ plants reproduce by producing flowers and seeds.",
       "options": [
         "flower-mcq-07",
-        "flower-mcq-06",
-        "flower-mcq-08",
-        "flower-mcq-05",
-        "flower-mcq-09",
-        "flower-mcq-04"
+        "flower-mcq-12",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「Flowering」指「會產生花朵並形成種子的植物類群」。",
       "sentenceIndex": 14,
@@ -790,12 +719,9 @@ export default {
         "Flowering"
       ],
       "optionReasons": {
-        "flower-mcq-07": "本句指「會產生花朵並形成種子的植物類群」。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-04": "「植物目前正在開花、處於花期」與本句語境不同。"
+        "flower-mcq-07": "本句的「Flowering」指「會產生花朵並形成種子的植物類群」。",
+        "flower-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-07"
     },
@@ -807,11 +733,9 @@ export default {
       "masked": "The period saw a ____.",
       "options": [
         "flower-mcq-08",
-        "flower-mcq-07",
-        "flower-mcq-09",
         "flower-mcq-06",
-        "flower-mcq-10",
-        "flower-mcq-05"
+        "flower-mcq-09",
+        "flower-mcq-14"
       ],
       "explanation": "本句的「flowering of art and literature」指「文化、藝術、思想等快速發展並達到繁盛的狀態」。",
       "sentenceIndex": 15,
@@ -820,12 +744,10 @@ export default {
         "flowering of art and literature"
       ],
       "optionReasons": {
-        "flower-mcq-08": "本句指「文化、藝術、思想等快速發展並達到繁盛的狀態」。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。"
+        "flower-mcq-08": "本句的「flowering of art and literature」指「文化、藝術、思想等快速發展並達到繁盛的狀態」。",
+        "flower-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-08"
     },
@@ -837,11 +759,9 @@ export default {
       "masked": "The city experienced a ____ of new ideas.",
       "options": [
         "flower-mcq-08",
-        "flower-mcq-07",
-        "flower-mcq-09",
-        "flower-mcq-06",
-        "flower-mcq-10",
-        "flower-mcq-05"
+        "flower-mcq-13",
+        "flower-pdf-001",
+        "flower-mcq-09"
       ],
       "explanation": "本句的「flowering」指「文化、藝術、思想等快速發展並達到繁盛的狀態」。",
       "sentenceIndex": 16,
@@ -850,12 +770,10 @@ export default {
         "flowering"
       ],
       "optionReasons": {
-        "flower-mcq-08": "本句指「文化、藝術、思想等快速發展並達到繁盛的狀態」。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-05": "「某種能力、興趣、文化或關係逐漸發展成熟並變得繁盛」與本句語境不同。"
+        "flower-mcq-08": "本句的「flowering」指「文化、藝術、思想等快速發展並達到繁盛的狀態」。",
+        "flower-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-08"
     },
@@ -867,11 +785,9 @@ export default {
       "masked": "The school attracted the ____.",
       "options": [
         "flower-mcq-09",
-        "flower-mcq-08",
-        "flower-mcq-10",
-        "flower-mcq-07",
-        "flower-mcq-11",
-        "flower-mcq-06"
+        "flower-mcq-13",
+        "flower-pdf-001",
+        "flower-mcq-08"
       ],
       "explanation": "本句的「flower of the region’s young talent」指「某群體中最優秀、最出色的一批人／事物」。",
       "sentenceIndex": 17,
@@ -880,12 +796,10 @@ export default {
         "flower of the region’s young talent"
       ],
       "optionReasons": {
-        "flower-mcq-09": "本句指「某群體中最優秀、最出色的一批人／事物」。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-09": "本句的「flower of the region’s young talent」指「某群體中最優秀、最出色的一批人／事物」。",
+        "flower-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-09"
     },
@@ -897,11 +811,9 @@ export default {
       "masked": "The poem describes them as the ____ of their generation.",
       "options": [
         "flower-mcq-09",
-        "flower-mcq-08",
-        "flower-mcq-10",
-        "flower-mcq-07",
         "flower-mcq-11",
-        "flower-mcq-06"
+        "flower-mcq-04",
+        "flower-pdf-001"
       ],
       "explanation": "本句的「flower」指「某群體中最優秀、最出色的一批人／事物」。",
       "sentenceIndex": 18,
@@ -910,12 +822,10 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-09": "本句指「某群體中最優秀、最出色的一批人／事物」。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-06": "「正在產生花朵或屬於會開花植物的」與本句語境不同。"
+        "flower-mcq-09": "本句的「flower」指「某群體中最優秀、最出色的一批人／事物」。",
+        "flower-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-09"
     },
@@ -927,11 +837,9 @@ export default {
       "masked": "The room had a fresh ____.",
       "options": [
         "flower-mcq-10",
-        "flower-mcq-09",
-        "flower-mcq-11",
         "flower-mcq-08",
-        "flower-mcq-12",
-        "flower-mcq-07"
+        "flower-mcq-09",
+        "flower-mcq-04"
       ],
       "explanation": "本句的「floral scent」指「與花朵、花香或花卉圖案有關的」。",
       "sentenceIndex": 19,
@@ -940,12 +848,10 @@ export default {
         "floral scent"
       ],
       "optionReasons": {
-        "flower-mcq-10": "本句指「與花朵、花香或花卉圖案有關的」。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。"
+        "flower-mcq-10": "本句的「floral scent」指「與花朵、花香或花卉圖案有關的」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-10"
     },
@@ -958,10 +864,8 @@ export default {
       "options": [
         "flower-pdf-001",
         "flower-mcq-09",
-        "flower-mcq-11",
         "flower-mcq-08",
-        "flower-mcq-12",
-        "flower-mcq-07"
+        "flower-mcq-04"
       ],
       "explanation": "本句的「floral aroma」指「香氣或味道帶有類似花朵的特徵」。",
       "sentenceIndex": 20,
@@ -970,12 +874,10 @@ export default {
         "floral aroma"
       ],
       "optionReasons": {
-        "flower-pdf-001": "本句指「香氣或味道帶有類似花朵的特徵」。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-07": "「會產生花朵並形成種子的植物類群」與本句語境不同。"
+        "flower-pdf-001": "本句的「floral aroma」指「香氣或味道帶有類似花朵的特徵」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-pdf-001"
     },
@@ -987,11 +889,9 @@ export default {
       "masked": "She bought the roses from a local ____.",
       "options": [
         "flower-mcq-11",
-        "flower-mcq-10",
-        "flower-mcq-12",
+        "flower-mcq-05",
         "flower-mcq-09",
-        "flower-mcq-13",
-        "flower-mcq-08"
+        "flower-pdf-001"
       ],
       "explanation": "本句的「florist」指「售賣／整理花卉的花藝師；亦可指花店」。",
       "sentenceIndex": 21,
@@ -1000,12 +900,10 @@ export default {
         "florist"
       ],
       "optionReasons": {
-        "flower-mcq-11": "本句指「售賣／整理花卉的花藝師；亦可指花店」。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。"
+        "flower-mcq-11": "本句的「florist」指「售賣／整理花卉的花藝師；亦可指花店」。",
+        "flower-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-11"
     },
@@ -1017,11 +915,9 @@ export default {
       "masked": "The florist prepared the wedding ____.",
       "options": [
         "flower-mcq-11",
-        "flower-mcq-10",
-        "flower-mcq-12",
+        "flower-mcq-05",
         "flower-mcq-09",
-        "flower-mcq-13",
-        "flower-mcq-08"
+        "flower-pdf-001"
       ],
       "explanation": "本句的「flowers」指「售賣／整理花卉的花藝師；亦可指花店」。",
       "sentenceIndex": 22,
@@ -1030,12 +926,10 @@ export default {
         "flowers"
       ],
       "optionReasons": {
-        "flower-mcq-11": "本句指「售賣／整理花卉的花藝師；亦可指花店」。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-08": "「文化、藝術、思想等快速發展並達到繁盛的狀態」與本句語境不同。"
+        "flower-mcq-11": "本句的「flowers」指「售賣／整理花卉的花藝師；亦可指花店」。",
+        "flower-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-11"
     },
@@ -1047,11 +941,9 @@ export default {
       "masked": "She studied ____ after leaving school.",
       "options": [
         "flower-mcq-12",
-        "flower-mcq-11",
-        "flower-mcq-13",
-        "flower-mcq-10",
-        "flower-mcq-14",
-        "flower-mcq-09"
+        "flower-pdf-001",
+        "flower-mcq-09",
+        "flower-mcq-05"
       ],
       "explanation": "本句的「floristry」指「設計、整理、展示和出售花卉的專業／藝術」。",
       "sentenceIndex": 23,
@@ -1060,12 +952,10 @@ export default {
         "floristry"
       ],
       "optionReasons": {
-        "flower-mcq-12": "本句指「設計、整理、展示和出售花卉的專業／藝術」。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。",
-        "flower-mcq-14": "「專門整理來種植花卉的一塊土地／花壇」與本句語境不同。",
-        "flower-mcq-09": "「某群體中最優秀、最出色的一批人／事物」與本句語境不同。"
+        "flower-mcq-12": "本句的「floristry」指「設計、整理、展示和出售花卉的專業／藝術」。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-12"
     },
@@ -1077,11 +967,9 @@ export default {
       "masked": "The old ____ cracked in the cold weather.",
       "options": [
         "flower-mcq-13",
-        "flower-mcq-12",
-        "flower-mcq-14",
-        "flower-mcq-11",
-        "flower-mcq-15",
-        "flower-mcq-10"
+        "flower-mcq-09",
+        "flower-mcq-08",
+        "flower-pdf-001"
       ],
       "explanation": "本句的「flowerpot」指「用來種植花卉／植物的花盆」。",
       "sentenceIndex": 24,
@@ -1090,12 +978,10 @@ export default {
         "flowerpot"
       ],
       "optionReasons": {
-        "flower-mcq-13": "本句指「用來種植花卉／植物的花盆」。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-14": "「專門整理來種植花卉的一塊土地／花壇」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-15": "「把花朵和植物材料按美感排列而成的插花／花藝作品」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。"
+        "flower-mcq-13": "本句的「flowerpot」指「用來種植花卉／植物的花盆」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-13"
     },
@@ -1107,11 +993,9 @@ export default {
       "masked": "She placed the ____ along the balcony.",
       "options": [
         "flower-mcq-13",
-        "flower-mcq-12",
-        "flower-mcq-14",
-        "flower-mcq-11",
-        "flower-mcq-15",
-        "flower-mcq-10"
+        "flower-mcq-09",
+        "flower-mcq-08",
+        "flower-pdf-001"
       ],
       "explanation": "本句的「flowerpots」指「用來種植花卉／植物的花盆」。",
       "sentenceIndex": 25,
@@ -1120,12 +1004,10 @@ export default {
         "flowerpots"
       ],
       "optionReasons": {
-        "flower-mcq-13": "本句指「用來種植花卉／植物的花盆」。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-14": "「專門整理來種植花卉的一塊土地／花壇」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-15": "「把花朵和植物材料按美感排列而成的插花／花藝作品」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。"
+        "flower-mcq-13": "本句的「flowerpots」指「用來種植花卉／植物的花盆」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-13"
     },
@@ -1137,11 +1019,9 @@ export default {
       "masked": "She planted roses in the ____.",
       "options": [
         "flower-mcq-14",
-        "flower-mcq-13",
-        "flower-mcq-15",
-        "flower-mcq-12",
-        "flower-mcq-11",
-        "flower-mcq-10"
+        "flower-mcq-05",
+        "flower-mcq-09",
+        "flower-pdf-001"
       ],
       "explanation": "本句的「flowerbed」指「專門整理來種植花卉的一塊土地／花壇」。",
       "sentenceIndex": 26,
@@ -1150,12 +1030,10 @@ export default {
         "flowerbed"
       ],
       "optionReasons": {
-        "flower-mcq-14": "本句指「專門整理來種植花卉的一塊土地／花壇」。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-15": "「把花朵和植物材料按美感排列而成的插花／花藝作品」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。"
+        "flower-mcq-14": "本句的「flowerbed」指「專門整理來種植花卉的一塊土地／花壇」。",
+        "flower-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-14"
     },
@@ -1167,11 +1045,9 @@ export default {
       "masked": "The ____ are full of colour in spring.",
       "options": [
         "flower-mcq-14",
-        "flower-mcq-13",
-        "flower-mcq-15",
-        "flower-mcq-12",
-        "flower-mcq-11",
-        "flower-mcq-10"
+        "flower-mcq-08",
+        "flower-mcq-09",
+        "flower-pdf-001"
       ],
       "explanation": "本句的「flowerbeds」指「專門整理來種植花卉的一塊土地／花壇」。",
       "sentenceIndex": 27,
@@ -1180,12 +1056,10 @@ export default {
         "flowerbeds"
       ],
       "optionReasons": {
-        "flower-mcq-14": "本句指「專門整理來種植花卉的一塊土地／花壇」。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-15": "「把花朵和植物材料按美感排列而成的插花／花藝作品」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。"
+        "flower-mcq-14": "本句的「flowerbeds」指「專門整理來種植花卉的一塊土地／花壇」。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-14"
     },
@@ -1197,11 +1071,9 @@ export default {
       "masked": "The table was decorated with a beautiful ____.",
       "options": [
         "flower-mcq-15",
-        "flower-mcq-14",
-        "flower-mcq-13",
-        "flower-mcq-12",
-        "flower-mcq-11",
-        "flower-mcq-10"
+        "flower-mcq-09",
+        "flower-mcq-08",
+        "flower-mcq-14"
       ],
       "explanation": "本句的「flower arrangement」指「把花朵和植物材料按美感排列而成的插花／花藝作品」。",
       "sentenceIndex": 28,
@@ -1210,12 +1082,10 @@ export default {
         "flower arrangement"
       ],
       "optionReasons": {
-        "flower-mcq-15": "本句指「把花朵和植物材料按美感排列而成的插花／花藝作品」。",
-        "flower-mcq-14": "「專門整理來種植花卉的一塊土地／花壇」與本句語境不同。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。"
+        "flower-mcq-15": "本句的「flower arrangement」指「把花朵和植物材料按美感排列而成的插花／花藝作品」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-15"
     },
@@ -1227,11 +1097,9 @@ export default {
       "masked": "She learned how to make ____ arrangements.",
       "options": [
         "flower-mcq-15",
-        "flower-mcq-14",
-        "flower-mcq-13",
-        "flower-mcq-12",
-        "flower-mcq-11",
-        "flower-mcq-10"
+        "flower-mcq-09",
+        "flower-mcq-08",
+        "flower-mcq-14"
       ],
       "explanation": "本句的「flower」指「把花朵和植物材料按美感排列而成的插花／花藝作品」。",
       "sentenceIndex": 29,
@@ -1240,12 +1108,10 @@ export default {
         "flower"
       ],
       "optionReasons": {
-        "flower-mcq-15": "本句指「把花朵和植物材料按美感排列而成的插花／花藝作品」。",
-        "flower-mcq-14": "「專門整理來種植花卉的一塊土地／花壇」與本句語境不同。",
-        "flower-mcq-13": "「用來種植花卉／植物的花盆」與本句語境不同。",
-        "flower-mcq-12": "「設計、整理、展示和出售花卉的專業／藝術」與本句語境不同。",
-        "flower-mcq-11": "「售賣／整理花卉的花藝師；亦可指花店」與本句語境不同。",
-        "flower-mcq-10": "「與花朵、花香或花卉圖案有關的」與本句語境不同。"
+        "flower-mcq-15": "本句的「flower」指「把花朵和植物材料按美感排列而成的插花／花藝作品」。",
+        "flower-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flower-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flower-mcq-15"
     }
@@ -1257,5 +1123,7 @@ export default {
     "sha256": "a545ab5550d586b78a20a1d21553eb5927e4f4565e0cb3f8100cc79c83d75734",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

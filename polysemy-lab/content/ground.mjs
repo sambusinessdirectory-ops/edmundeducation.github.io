@@ -110,16 +110,6 @@ export default {
           "Check the ground connection first.",
           "先檢查接地連接。",
           "電路中與大地或參考電位連接的接地點／系統"
-        ],
-        [
-          "I bought freshly ground coffee.",
-          "我買了新鮮磨好的咖啡。",
-          "電路中與大地或參考電位連接的接地點／系統"
-        ],
-        [
-          "The spices were finely ground.",
-          "香料被磨得很細。",
-          "電路中與大地或參考電位連接的接地點／系統"
         ]
       ],
       "options": [],
@@ -340,6 +330,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "ground-reviewed-3618b8ab8b",
+      "title": "磨碎",
+      "form": "ground · source section 8",
+      "en": "磨碎",
+      "zh": "磨碎",
+      "note": "對照原始教材第 8 節及例句核實。",
+      "examples": [
+        [
+          "I bought freshly ground coffee.",
+          "我買了新鮮磨好的咖啡。",
+          "磨碎"
+        ],
+        [
+          "The spices were finely ground.",
+          "香料被磨得很細。",
+          "磨碎"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -351,11 +363,9 @@ export default {
       "masked": "The bag fell to the ____.",
       "options": [
         "ground-mcq-01",
-        "ground-mcq-02",
-        "ground-mcq-03",
-        "ground-mcq-04",
         "ground-mcq-05",
-        "ground-mcq-06"
+        "ground-mcq-08",
+        "ground-mcq-10"
       ],
       "explanation": "本句的「ground」指「人或物站立、移動的地面／土地表面」。",
       "sentenceIndex": 0,
@@ -364,12 +374,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-01": "本句指「人或物站立、移動的地面／土地表面」。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-01": "本句的「ground」指「人或物站立、移動的地面／土地表面」。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-01"
     },
@@ -381,11 +389,9 @@ export default {
       "masked": "The children sat on the ____.",
       "options": [
         "ground-mcq-01",
-        "ground-mcq-02",
-        "ground-mcq-03",
-        "ground-mcq-04",
-        "ground-mcq-05",
-        "ground-mcq-06"
+        "ground-mcq-08",
+        "ground-mcq-10",
+        "ground-mcq-05"
       ],
       "explanation": "本句的「ground」指「人或物站立、移動的地面／土地表面」。",
       "sentenceIndex": 1,
@@ -394,12 +400,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-01": "本句指「人或物站立、移動的地面／土地表面」。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-01": "本句的「ground」指「人或物站立、移動的地面／土地表面」。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-01"
     },
@@ -411,11 +415,9 @@ export default {
       "masked": "The school has large sports ____.",
       "options": [
         "ground-mcq-02",
-        "ground-mcq-01",
-        "ground-mcq-03",
-        "ground-mcq-04",
-        "ground-mcq-05",
-        "ground-mcq-06"
+        "ground-mcq-10",
+        "ground-mcq-13",
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「grounds」指「建築物周圍或供特定用途使用的一片土地／場地」。",
       "sentenceIndex": 2,
@@ -424,12 +426,10 @@ export default {
         "grounds"
       ],
       "optionReasons": {
-        "ground-mcq-02": "本句指「建築物周圍或供特定用途使用的一片土地／場地」。",
-        "ground-mcq-01": "「人或物站立、移動的地面／土地表面」是「ground — earth surface」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-02": "本句的「grounds」指「建築物周圍或供特定用途使用的一片土地／場地」。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-02"
     },
@@ -441,11 +441,9 @@ export default {
       "masked": "The festival was held on the castle ____.",
       "options": [
         "ground-mcq-02",
-        "ground-mcq-01",
-        "ground-mcq-03",
-        "ground-mcq-04",
-        "ground-mcq-05",
-        "ground-mcq-06"
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-10",
+        "ground-mcq-13"
       ],
       "explanation": "本句的「grounds」指「建築物周圍或供特定用途使用的一片土地／場地」。",
       "sentenceIndex": 3,
@@ -454,12 +452,10 @@ export default {
         "grounds"
       ],
       "optionReasons": {
-        "ground-mcq-02": "本句指「建築物周圍或供特定用途使用的一片土地／場地」。",
-        "ground-mcq-01": "「人或物站立、移動的地面／土地表面」是「ground — earth surface」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-02": "本句的「grounds」指「建築物周圍或供特定用途使用的一片土地／場地」。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-02"
     },
@@ -471,11 +467,9 @@ export default {
       "masked": "There are strong ____ for concern.",
       "options": [
         "ground-mcq-03",
-        "ground-mcq-02",
-        "ground-mcq-04",
-        "ground-mcq-01",
-        "ground-mcq-05",
-        "ground-mcq-06"
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-09",
+        "ground-mcq-05"
       ],
       "explanation": "本句的「grounds」指「支持決定、信念、懷疑或行動的理由／依據」。",
       "sentenceIndex": 4,
@@ -484,12 +478,10 @@ export default {
         "grounds"
       ],
       "optionReasons": {
-        "ground-mcq-03": "本句指「支持決定、信念、懷疑或行動的理由／依據」。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-01": "「人或物站立、移動的地面／土地表面」是「ground — earth surface」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-03": "本句的「grounds」指「支持決定、信念、懷疑或行動的理由／依據」。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-03"
     },
@@ -501,11 +493,9 @@ export default {
       "masked": "The decision was made on legal ____.",
       "options": [
         "ground-mcq-03",
-        "ground-mcq-02",
-        "ground-mcq-04",
-        "ground-mcq-01",
-        "ground-mcq-05",
-        "ground-mcq-06"
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-09",
+        "ground-mcq-05"
       ],
       "explanation": "本句的「grounds」指「支持決定、信念、懷疑或行動的理由／依據」。",
       "sentenceIndex": 5,
@@ -514,12 +504,10 @@ export default {
         "grounds"
       ],
       "optionReasons": {
-        "ground-mcq-03": "本句指「支持決定、信念、懷疑或行動的理由／依據」。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-01": "「人或物站立、移動的地面／土地表面」是「ground — earth surface」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-03": "本句的「grounds」指「支持決定、信念、懷疑或行動的理由／依據」。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-03"
     },
@@ -531,11 +519,9 @@ export default {
       "masked": "The course covers a lot of ____.",
       "options": [
         "ground-mcq-04",
-        "ground-mcq-03",
-        "ground-mcq-05",
-        "ground-mcq-02",
-        "ground-mcq-06",
-        "ground-mcq-01"
+        "ground-mcq-08",
+        "ground-mcq-07",
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「ground」指「討論、研究、競爭或活動涉及的範圍／領域」。",
       "sentenceIndex": 6,
@@ -544,12 +530,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-04": "本句指「討論、研究、競爭或活動涉及的範圍／領域」。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-01": "「人或物站立、移動的地面／土地表面」是「ground — earth surface」的用法，與本句語境不同。"
+        "ground-mcq-04": "本句的「ground」指「討論、研究、競爭或活動涉及的範圍／領域」。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-04"
     },
@@ -561,11 +545,9 @@ export default {
       "masked": "We have already covered this ____.",
       "options": [
         "ground-mcq-04",
-        "ground-mcq-03",
-        "ground-mcq-05",
-        "ground-mcq-02",
-        "ground-mcq-06",
-        "ground-mcq-01"
+        "ground-mcq-10",
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-08"
       ],
       "explanation": "本句的「ground」指「討論、研究、競爭或活動涉及的範圍／領域」。",
       "sentenceIndex": 7,
@@ -574,12 +556,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-04": "本句指「討論、研究、競爭或活動涉及的範圍／領域」。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-01": "「人或物站立、移動的地面／土地表面」是「ground — earth surface」的用法，與本句語境不同。"
+        "ground-mcq-04": "本句的「ground」指「討論、研究、競爭或活動涉及的範圍／領域」。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-04"
     },
@@ -591,11 +571,9 @@ export default {
       "masked": "The two sides found some common ____.",
       "options": [
         "ground-mcq-11",
-        "ground-mcq-10",
-        "ground-mcq-12",
-        "ground-mcq-09",
         "ground-mcq-13",
-        "ground-mcq-08"
+        "ground-mcq-08",
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「ground」指「在爭論、競爭或關係中所佔的位置、立場或優勢」。",
       "sentenceIndex": 8,
@@ -604,12 +582,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-11": "本句指「在爭論、競爭或關係中所佔的位置、立場或優勢」。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。"
+        "ground-mcq-11": "本句的「ground」指「在爭論、競爭或關係中所佔的位置、立場或優勢」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-11"
     },
@@ -621,11 +597,9 @@ export default {
       "masked": "The company is losing ____ to its competitors.",
       "options": [
         "ground-mcq-11",
-        "ground-mcq-10",
-        "ground-mcq-12",
-        "ground-mcq-09",
         "ground-mcq-13",
-        "ground-mcq-08"
+        "ground-mcq-08",
+        "ground-mcq-10"
       ],
       "explanation": "本句的「ground」指「在爭論、競爭或關係中所佔的位置、立場或優勢」。",
       "sentenceIndex": 9,
@@ -634,12 +608,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-11": "本句指「在爭論、競爭或關係中所佔的位置、立場或優勢」。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。"
+        "ground-mcq-11": "本句的「ground」指「在爭論、競爭或關係中所佔的位置、立場或優勢」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-11"
     },
@@ -651,11 +623,9 @@ export default {
       "masked": "The research laid the ____ for further study.",
       "options": [
         "ground-mcq-12",
-        "ground-mcq-11",
         "ground-mcq-13",
-        "ground-mcq-10",
-        "ground-mcq-14",
-        "ground-mcq-09"
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-08"
       ],
       "explanation": "本句的「ground」指「某件事物建立、發展或成立所依靠的基礎」。",
       "sentenceIndex": 10,
@@ -664,12 +634,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-12": "本句指「某件事物建立、發展或成立所依靠的基礎」。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-14": "「不同人士之間共同接受的觀點、利益或立場」是「Useful expression: common ground — 共同點；共識」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。"
+        "ground-mcq-12": "本句的「ground」指「某件事物建立、發展或成立所依靠的基礎」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-12"
     },
@@ -681,11 +649,9 @@ export default {
       "masked": "Trust provides solid ____ for cooperation.",
       "options": [
         "ground-mcq-12",
-        "ground-mcq-11",
-        "ground-mcq-13",
-        "ground-mcq-10",
-        "ground-mcq-14",
-        "ground-mcq-09"
+        "ground-mcq-05",
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-04"
       ],
       "explanation": "本句的「ground」指「某件事物建立、發展或成立所依靠的基礎」。",
       "sentenceIndex": 11,
@@ -694,12 +660,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-12": "本句指「某件事物建立、發展或成立所依靠的基礎」。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-14": "「不同人士之間共同接受的觀點、利益或立場」是「Useful expression: common ground — 共同點；共識」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。"
+        "ground-mcq-12": "本句的「ground」指「某件事物建立、發展或成立所依靠的基礎」。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-12"
     },
@@ -711,11 +675,9 @@ export default {
       "masked": "The wire must be connected to ____.",
       "options": [
         "ground-mcq-05",
-        "ground-mcq-04",
-        "ground-mcq-06",
-        "ground-mcq-03",
-        "ground-mcq-07",
-        "ground-mcq-02"
+        "ground-mcq-16",
+        "ground-mcq-10",
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「ground」指「電路中與大地或參考電位連接的接地點／系統」。",
       "sentenceIndex": 12,
@@ -724,12 +686,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-05": "本句指「電路中與大地或參考電位連接的接地點／系統」。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。"
+        "ground-mcq-05": "本句的「ground」指「電路中與大地或參考電位連接的接地點／系統」。",
+        "ground-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-05"
     },
@@ -741,11 +701,9 @@ export default {
       "masked": "Check the ____ connection first.",
       "options": [
         "ground-mcq-05",
-        "ground-mcq-04",
-        "ground-mcq-06",
-        "ground-mcq-03",
-        "ground-mcq-07",
-        "ground-mcq-02"
+        "ground-mcq-12",
+        "ground-mcq-13",
+        "ground-mcq-03"
       ],
       "explanation": "本句的「ground」指「電路中與大地或參考電位連接的接地點／系統」。",
       "sentenceIndex": 13,
@@ -754,74 +712,68 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-05": "本句指「電路中與大地或參考電位連接的接地點／系統」。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。"
+        "ground-mcq-05": "本句的「ground」指「電路中與大地或參考電位連接的接地點／系統」。",
+        "ground-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-05"
     },
     {
       "id": "ground-08-0",
-      "sense": "ground-mcq-05",
+      "sense": "ground-reviewed-3618b8ab8b",
       "en": "I bought freshly ground coffee.",
       "zh": "我買了新鮮磨好的咖啡。",
       "masked": "I bought freshly ____ coffee.",
       "options": [
-        "ground-mcq-05",
+        "ground-reviewed-3618b8ab8b",
         "ground-mcq-04",
-        "ground-mcq-06",
-        "ground-mcq-03",
-        "ground-mcq-07",
-        "ground-mcq-02"
+        "ground-mcq-10",
+        "ground-mcq-01"
       ],
-      "explanation": "本句的「ground」指「電路中與大地或參考電位連接的接地點／系統」。",
+      "explanation": "對照完整句子：「我買了新鮮磨好的咖啡。」。這裡的「ground」表示「磨碎」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-05": "本句指「電路中與大地或參考電位連接的接地點／系統」。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。"
+        "ground-reviewed-3618b8ab8b": "對照完整句子：「我買了新鮮磨好的咖啡。」。這裡的「ground」表示「磨碎」。",
+        "ground-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "ground-mcq-05"
+      "correctOption": "ground-reviewed-3618b8ab8b",
+      "previousCorrectOption": "ground-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "ground-08-1",
-      "sense": "ground-mcq-05",
+      "sense": "ground-reviewed-3618b8ab8b",
       "en": "The spices were finely ground.",
       "zh": "香料被磨得很細。",
       "masked": "The spices were finely ____.",
       "options": [
-        "ground-mcq-05",
-        "ground-mcq-04",
-        "ground-mcq-06",
-        "ground-mcq-03",
-        "ground-mcq-07",
-        "ground-mcq-02"
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-08",
+        "ground-mcq-01",
+        "ground-mcq-05"
       ],
-      "explanation": "本句的「ground」指「電路中與大地或參考電位連接的接地點／系統」。",
+      "explanation": "對照完整句子：「香料被磨得很細。」。這裡的「ground」表示「磨碎」。",
       "sentenceIndex": 15,
       "sourcePractice": 16,
       "targets": [
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-05": "本句指「電路中與大地或參考電位連接的接地點／系統」。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-03": "「支持決定、信念、懷疑或行動的理由／依據」是「grounds — reason/basis」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-02": "「建築物周圍或供特定用途使用的一片土地／場地」是「grounds — land/premises」的用法，與本句語境不同。"
+        "ground-reviewed-3618b8ab8b": "對照完整句子：「香料被磨得很細。」。這裡的「ground」表示「磨碎」。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "ground-mcq-05"
+      "correctOption": "ground-reviewed-3618b8ab8b",
+      "previousCorrectOption": "ground-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "ground-09-0",
@@ -831,11 +783,9 @@ export default {
       "masked": "The storm ____ all flights.",
       "options": [
         "ground-mcq-13",
-        "ground-mcq-12",
-        "ground-mcq-14",
-        "ground-mcq-11",
-        "ground-mcq-15",
-        "ground-mcq-10"
+        "ground-mcq-05",
+        "ground-mcq-09",
+        "ground-mcq-14"
       ],
       "explanation": "本句的「grounded」指「禁止其外出、飛行或繼續活動」。",
       "sentenceIndex": 16,
@@ -844,12 +794,10 @@ export default {
         "grounded"
       ],
       "optionReasons": {
-        "ground-mcq-13": "本句指「禁止其外出、飛行或繼續活動」。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-14": "「不同人士之間共同接受的觀點、利益或立場」是「Useful expression: common ground — 共同點；共識」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-15": "「面對壓力仍堅持自己的立場」是「Useful expression: stand your ground — 堅守立場」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。"
+        "ground-mcq-13": "本句的「grounded」指「禁止其外出、飛行或繼續活動」。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-13"
     },
@@ -861,10 +809,8 @@ export default {
       "masked": "His parents ____ him for a week.",
       "options": [
         "ground-mcq-13",
-        "ground-mcq-12",
-        "ground-mcq-14",
-        "ground-mcq-11",
-        "ground-mcq-15",
+        "ground-mcq-07",
+        "ground-mcq-08",
         "ground-mcq-10"
       ],
       "explanation": "本句的「grounded」指「禁止其外出、飛行或繼續活動」。",
@@ -874,12 +820,10 @@ export default {
         "grounded"
       ],
       "optionReasons": {
-        "ground-mcq-13": "本句指「禁止其外出、飛行或繼續活動」。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-14": "「不同人士之間共同接受的觀點、利益或立場」是「Useful expression: common ground — 共同點；共識」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-15": "「面對壓力仍堅持自己的立場」是「Useful expression: stand your ground — 堅守立場」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。"
+        "ground-mcq-13": "本句的「grounded」指「禁止其外出、飛行或繼續活動」。",
+        "ground-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-13"
     },
@@ -891,11 +835,9 @@ export default {
       "masked": "The argument is ____ evidence.",
       "options": [
         "ground-mcq-07",
-        "ground-mcq-06",
-        "ground-mcq-08",
         "ground-mcq-05",
-        "ground-mcq-09",
-        "ground-mcq-04"
+        "ground-mcq-10",
+        "ground-mcq-16"
       ],
       "explanation": "本句的「grounded in」指「建立在某種事實、證據、原則或經驗之上」。",
       "sentenceIndex": 18,
@@ -904,12 +846,10 @@ export default {
         "grounded in"
       ],
       "optionReasons": {
-        "ground-mcq-07": "本句指「建立在某種事實、證據、原則或經驗之上」。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。"
+        "ground-mcq-07": "本句的「grounded in」指「建立在某種事實、證據、原則或經驗之上」。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-07"
     },
@@ -921,11 +861,9 @@ export default {
       "masked": "Her teaching is ____ practical experience.",
       "options": [
         "ground-mcq-07",
-        "ground-mcq-06",
-        "ground-mcq-08",
-        "ground-mcq-05",
-        "ground-mcq-09",
-        "ground-mcq-04"
+        "ground-mcq-13",
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-05"
       ],
       "explanation": "本句的「grounded in」指「建立在某種事實、證據、原則或經驗之上」。",
       "sentenceIndex": 19,
@@ -934,12 +872,10 @@ export default {
         "grounded in"
       ],
       "optionReasons": {
-        "ground-mcq-07": "本句指「建立在某種事實、證據、原則或經驗之上」。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-04": "「討論、研究、競爭或活動涉及的範圍／領域」是「ground — subject/territory」的用法，與本句語境不同。"
+        "ground-mcq-07": "本句的「grounded in」指「建立在某種事實、證據、原則或經驗之上」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-07"
     },
@@ -951,11 +887,9 @@ export default {
       "masked": "It is what keeps people ____ when life becomes messy.",
       "options": [
         "ground-mcq-08",
-        "ground-mcq-07",
-        "ground-mcq-09",
-        "ground-mcq-06",
         "ground-mcq-10",
-        "ground-mcq-05"
+        "ground-mcq-11",
+        "ground-mcq-01"
       ],
       "explanation": "本句的「grounded」指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
       "sentenceIndex": 20,
@@ -964,12 +898,10 @@ export default {
         "grounded"
       ],
       "optionReasons": {
-        "ground-mcq-08": "本句指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。"
+        "ground-mcq-08": "本句的「grounded」指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-08"
     },
@@ -981,11 +913,9 @@ export default {
       "masked": "Despite his success, he remained ____.",
       "options": [
         "ground-mcq-08",
-        "ground-mcq-07",
-        "ground-mcq-09",
-        "ground-mcq-06",
+        "ground-mcq-13",
         "ground-mcq-10",
-        "ground-mcq-05"
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「grounded」指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
       "sentenceIndex": 21,
@@ -994,12 +924,10 @@ export default {
         "grounded"
       ],
       "optionReasons": {
-        "ground-mcq-08": "本句指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。"
+        "ground-mcq-08": "本句的「grounded」指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-08"
     },
@@ -1011,11 +939,9 @@ export default {
       "masked": "Her family helps keep her ____.",
       "options": [
         "ground-mcq-08",
-        "ground-mcq-07",
-        "ground-mcq-09",
-        "ground-mcq-06",
-        "ground-mcq-10",
-        "ground-mcq-05"
+        "ground-mcq-13",
+        "ground-mcq-14",
+        "ground-mcq-01"
       ],
       "explanation": "本句的「grounded」指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
       "sentenceIndex": 22,
@@ -1024,12 +950,10 @@ export default {
         "grounded"
       ],
       "optionReasons": {
-        "ground-mcq-08": "本句指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-05": "「電路中與大地或參考電位連接的接地點／系統」是「ground — electrical」的用法，與本句語境不同。"
+        "ground-mcq-08": "本句的「grounded」指「情緒穩定、務實、理性、不自大且腳踏實地的」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-08"
     },
@@ -1041,11 +965,9 @@ export default {
       "masked": "The course gives students a strong ____ in basic science.",
       "options": [
         "ground-mcq-09",
-        "ground-mcq-08",
-        "ground-mcq-10",
-        "ground-mcq-07",
-        "ground-mcq-11",
-        "ground-mcq-06"
+        "ground-mcq-03",
+        "ground-mcq-13",
+        "ground-mcq-05"
       ],
       "explanation": "本句的「grounding」指「為某領域建立紮實基礎的教育／訓練」。",
       "sentenceIndex": 23,
@@ -1054,12 +976,10 @@ export default {
         "grounding"
       ],
       "optionReasons": {
-        "ground-mcq-09": "本句指「為某領域建立紮實基礎的教育／訓練」。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。",
-        "ground-mcq-10": "「為日後發展而先做的基礎準備工作」是「groundwork」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-06": "「使航班停飛，或禁止某人外出／活動」是「ground — verb, restrict movement」的用法，與本句語境不同。"
+        "ground-mcq-09": "本句的「grounding」指「為某領域建立紮實基礎的教育／訓練」。",
+        "ground-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-09"
     },
@@ -1071,11 +991,9 @@ export default {
       "masked": "The research laid the ____ for future discoveries.",
       "options": [
         "ground-mcq-10",
-        "ground-mcq-09",
-        "ground-mcq-11",
         "ground-mcq-08",
-        "ground-mcq-12",
-        "ground-mcq-07"
+        "ground-mcq-07",
+        "ground-mcq-01"
       ],
       "explanation": "本句的「groundwork」指「為日後發展而先做的基礎準備工作」。",
       "sentenceIndex": 24,
@@ -1084,12 +1002,10 @@ export default {
         "groundwork"
       ],
       "optionReasons": {
-        "ground-mcq-10": "本句指「為日後發展而先做的基礎準備工作」。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。"
+        "ground-mcq-10": "本句的「groundwork」指「為日後發展而先做的基礎準備工作」。",
+        "ground-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-10"
     },
@@ -1101,11 +1017,9 @@ export default {
       "masked": "They spent months doing the ____.",
       "options": [
         "ground-mcq-10",
-        "ground-mcq-09",
-        "ground-mcq-11",
-        "ground-mcq-08",
-        "ground-mcq-12",
-        "ground-mcq-07"
+        "ground-mcq-04",
+        "ground-mcq-14",
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「groundwork」指「為日後發展而先做的基礎準備工作」。",
       "sentenceIndex": 25,
@@ -1114,12 +1028,10 @@ export default {
         "groundwork"
       ],
       "optionReasons": {
-        "ground-mcq-10": "本句指「為日後發展而先做的基礎準備工作」。",
-        "ground-mcq-09": "「為某領域建立紮實基礎的教育／訓練」是「grounding」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。",
-        "ground-mcq-08": "「情緒穩定、務實、理性、不自大且腳踏實地的」是「grounded — personality」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-07": "「建立在某種事實、證據、原則或經驗之上」是「be grounded in」的用法，與本句語境不同。"
+        "ground-mcq-10": "本句的「groundwork」指「為日後發展而先做的基礎準備工作」。",
+        "ground-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-10"
     },
@@ -1131,11 +1043,9 @@ export default {
       "masked": "They disagreed on many things but found some ____.",
       "options": [
         "ground-mcq-14",
-        "ground-mcq-13",
-        "ground-mcq-15",
-        "ground-mcq-12",
-        "ground-mcq-16",
-        "ground-mcq-11"
+        "ground-mcq-10",
+        "ground-reviewed-3618b8ab8b",
+        "ground-mcq-13"
       ],
       "explanation": "本句的「common ground」指「不同人士之間共同接受的觀點、利益或立場」。",
       "sentenceIndex": 26,
@@ -1144,12 +1054,10 @@ export default {
         "common ground"
       ],
       "optionReasons": {
-        "ground-mcq-14": "本句指「不同人士之間共同接受的觀點、利益或立場」。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-15": "「面對壓力仍堅持自己的立場」是「Useful expression: stand your ground — 堅守立場」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-16": "「做前所未有的事情，開創新的研究、思想或活動領域」是「Useful expression: break new ground — 開創新領域」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。"
+        "ground-mcq-14": "本句的「common ground」指「不同人士之間共同接受的觀點、利益或立場」。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-14"
     },
@@ -1161,11 +1069,9 @@ export default {
       "masked": "She stood her ____ and refused to change her decision.",
       "options": [
         "ground-mcq-15",
-        "ground-mcq-14",
-        "ground-mcq-16",
         "ground-mcq-13",
-        "ground-mcq-12",
-        "ground-mcq-11"
+        "ground-mcq-10",
+        "ground-mcq-05"
       ],
       "explanation": "本句的「ground」指「面對壓力仍堅持自己的立場」。",
       "sentenceIndex": 27,
@@ -1174,12 +1080,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-15": "本句指「面對壓力仍堅持自己的立場」。",
-        "ground-mcq-14": "「不同人士之間共同接受的觀點、利益或立場」是「Useful expression: common ground — 共同點；共識」的用法，與本句語境不同。",
-        "ground-mcq-16": "「做前所未有的事情，開創新的研究、思想或活動領域」是「Useful expression: break new ground — 開創新領域」的用法，與本句語境不同。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。"
+        "ground-mcq-15": "本句的「ground」指「面對壓力仍堅持自己的立場」。",
+        "ground-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-15"
     },
@@ -1191,11 +1095,9 @@ export default {
       "masked": "The research breaks new ____.",
       "options": [
         "ground-mcq-16",
-        "ground-mcq-15",
-        "ground-mcq-14",
-        "ground-mcq-13",
-        "ground-mcq-12",
-        "ground-mcq-11"
+        "ground-mcq-02",
+        "ground-mcq-07",
+        "ground-reviewed-3618b8ab8b"
       ],
       "explanation": "本句的「ground」指「做前所未有的事情，開創新的研究、思想或活動領域」。",
       "sentenceIndex": 28,
@@ -1204,12 +1106,10 @@ export default {
         "ground"
       ],
       "optionReasons": {
-        "ground-mcq-16": "本句指「做前所未有的事情，開創新的研究、思想或活動領域」。",
-        "ground-mcq-15": "「面對壓力仍堅持自己的立場」是「Useful expression: stand your ground — 堅守立場」的用法，與本句語境不同。",
-        "ground-mcq-14": "「不同人士之間共同接受的觀點、利益或立場」是「Useful expression: common ground — 共同點；共識」的用法，與本句語境不同。",
-        "ground-mcq-13": "「禁止其外出、飛行或繼續活動」是「9. ground = prevent someone from flying/going out（動詞） — 禁飛；禁足」的用法，與本句語境不同。",
-        "ground-mcq-12": "「某件事物建立、發展或成立所依靠的基礎」是「6. ground = base/foundation（基礎） — 基礎；根基」的用法，與本句語境不同。",
-        "ground-mcq-11": "「在爭論、競爭或關係中所佔的位置、立場或優勢」是「5. ground = position/base in an argument or competition（立場／優勢） — 立場；地位；陣地」的用法，與本句語境不同。"
+        "ground-mcq-16": "本句的「ground」指「做前所未有的事情，開創新的研究、思想或活動領域」。",
+        "ground-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "ground-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "ground-reviewed-3618b8ab8b": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "ground-mcq-16"
     }
@@ -1221,5 +1121,7 @@ export default {
     "sha256": "2b52f881103fa9a345e9bb1886c29647b6f6b0329c91785bf964d03d531db552",
     "pages": 12
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -499,7 +499,7 @@ export default {
     },
     {
       "id": "solid-mcq-23",
-      "title": "表示扎實的；堅固的；有份量的",
+      "title": "扎實的；堅固的；有份量的",
       "form": "Passage meaning",
       "en": "Passage meaning",
       "zh": "表示扎實的；堅固的；有份量的",
@@ -521,7 +521,7 @@ export default {
     },
     {
       "id": "solid-mcq-24",
-      "title": "表示固體",
+      "title": "固體",
       "form": "17. solid — matter in solid state",
       "en": "17. solid — matter in solid state",
       "zh": "表示固體",
@@ -543,7 +543,7 @@ export default {
     },
     {
       "id": "solid-mcq-25",
-      "title": "表示很棒的；很不錯的",
+      "title": "很棒的；很不錯的",
       "form": "22. solid — excellent / impressive",
       "en": "22. solid — excellent / impressive",
       "zh": "表示很棒的；很不錯的",
@@ -573,11 +573,9 @@ export default {
       "masked": "The pen felt ____ and well made.",
       "options": [
         "solid-mcq-23",
-        "solid-mcq-22",
-        "solid-mcq-24",
+        "solid-mcq-13",
         "solid-mcq-21",
-        "solid-mcq-25",
-        "solid-mcq-20"
+        "solid-mcq-08"
       ],
       "explanation": "本句的「solid」指「表示扎實的；堅固的；有份量的」。",
       "sentenceIndex": 0,
@@ -586,12 +584,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-23": "本句指「表示扎實的；堅固的；有份量的」。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-24": "「表示固體」是「17. solid — matter in solid state」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-25": "「表示很棒的；很不錯的」是「22. solid — excellent / impressive」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。"
+        "solid-mcq-23": "本句的「solid」指「表示扎實的；堅固的；有份量的」。",
+        "solid-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-23"
     },
@@ -603,11 +599,9 @@ export default {
       "masked": "The handle has a ____ feel.",
       "options": [
         "solid-mcq-23",
-        "solid-mcq-22",
-        "solid-mcq-24",
-        "solid-mcq-21",
-        "solid-mcq-25",
-        "solid-mcq-20"
+        "solid-mcq-14",
+        "solid-mcq-07",
+        "solid-mcq-25"
       ],
       "explanation": "本句的「solid」指「表示扎實的；堅固的；有份量的」。",
       "sentenceIndex": 1,
@@ -616,12 +610,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-23": "本句指「表示扎實的；堅固的；有份量的」。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-24": "「表示固體」是「17. solid — matter in solid state」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-25": "「表示很棒的；很不錯的」是「22. solid — excellent / impressive」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。"
+        "solid-mcq-23": "本句的「solid」指「表示扎實的；堅固的；有份量的」。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-23"
     },
@@ -633,11 +625,9 @@ export default {
       "masked": "Ice is water in ____ form.",
       "options": [
         "solid-mcq-02",
-        "solid-mcq-01",
-        "solid-mcq-03",
-        "solid-mcq-04",
-        "solid-mcq-05",
-        "solid-mcq-06"
+        "solid-mcq-11",
+        "solid-mcq-07",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid」指「處於固態的物質；固體」。",
       "sentenceIndex": 2,
@@ -646,12 +636,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-02": "本句指「處於固態的物質；固體」。",
-        "solid-mcq-01": "「有固定形狀和體積、不是液體或氣體的；固態的」是「solid — state of matter」的用法，與本句語境不同。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。"
+        "solid-mcq-02": "本句的「solid」指「處於固態的物質；固體」。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-02"
     },
@@ -663,11 +651,9 @@ export default {
       "masked": "The material becomes ____ when it cools.",
       "options": [
         "solid-mcq-02",
-        "solid-mcq-01",
-        "solid-mcq-03",
+        "solid-mcq-21",
         "solid-mcq-04",
-        "solid-mcq-05",
-        "solid-mcq-06"
+        "solid-mcq-03"
       ],
       "explanation": "本句的「solid」指「處於固態的物質；固體」。",
       "sentenceIndex": 3,
@@ -676,12 +662,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-02": "本句指「處於固態的物質；固體」。",
-        "solid-mcq-01": "「有固定形狀和體積、不是液體或氣體的；固態的」是「solid — state of matter」的用法，與本句語境不同。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。"
+        "solid-mcq-02": "本句的「solid」指「處於固態的物質；固體」。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-02"
     },
@@ -693,11 +677,9 @@ export default {
       "masked": "The table is made of ____.",
       "options": [
         "solid-mcq-03",
-        "solid-mcq-02",
-        "solid-mcq-04",
-        "solid-mcq-01",
-        "solid-mcq-05",
-        "solid-mcq-06"
+        "solid-mcq-22",
+        "solid-mcq-25",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solid wood」指「內部全由材料構成的；實心的」。",
       "sentenceIndex": 4,
@@ -706,12 +688,10 @@ export default {
         "solid wood"
       ],
       "optionReasons": {
-        "solid-mcq-03": "本句指「內部全由材料構成的；實心的」。",
-        "solid-mcq-02": "「處於固態的物質；固體」是「solid — noun substance」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-01": "「有固定形狀和體積、不是液體或氣體的；固態的」是「solid — state of matter」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。"
+        "solid-mcq-03": "本句的「solid wood」指「內部全由材料構成的；實心的」。",
+        "solid-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-03"
     },
@@ -723,11 +703,9 @@ export default {
       "masked": "The ball is ____, not hollow.",
       "options": [
         "solid-mcq-03",
-        "solid-mcq-02",
-        "solid-mcq-04",
-        "solid-mcq-01",
-        "solid-mcq-05",
-        "solid-mcq-06"
+        "solid-mcq-24",
+        "solid-mcq-06",
+        "solid-mcq-10"
       ],
       "explanation": "本句的「solid」指「內部全由材料構成的；實心的」。",
       "sentenceIndex": 5,
@@ -736,12 +714,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-03": "本句指「內部全由材料構成的；實心的」。",
-        "solid-mcq-02": "「處於固態的物質；固體」是「solid — noun substance」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-01": "「有固定形狀和體積、不是液體或氣體的；固態的」是「solid — state of matter」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。"
+        "solid-mcq-03": "本句的「solid」指「內部全由材料構成的；實心的」。",
+        "solid-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-03"
     },
@@ -753,11 +729,9 @@ export default {
       "masked": "The ground was ____ beneath our feet.",
       "options": [
         "solid-mcq-04",
-        "solid-mcq-03",
-        "solid-mcq-05",
-        "solid-mcq-02",
-        "solid-mcq-06",
-        "solid-mcq-01"
+        "solid-mcq-17",
+        "solid-mcq-21",
+        "solid-mcq-25"
       ],
       "explanation": "本句的「solid」指「能保持形狀、不易被壓變形的；堅實的」。",
       "sentenceIndex": 6,
@@ -766,12 +740,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-04": "本句指「能保持形狀、不易被壓變形的；堅實的」。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-02": "「處於固態的物質；固體」是「solid — noun substance」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-01": "「有固定形狀和體積、不是液體或氣體的；固態的」是「solid — state of matter」的用法，與本句語境不同。"
+        "solid-mcq-04": "本句的「solid」指「能保持形狀、不易被壓變形的；堅實的」。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-04"
     },
@@ -783,11 +755,9 @@ export default {
       "masked": "The wall felt completely ____.",
       "options": [
         "solid-mcq-04",
-        "solid-mcq-03",
-        "solid-mcq-05",
-        "solid-mcq-02",
-        "solid-mcq-06",
-        "solid-mcq-01"
+        "solid-mcq-22",
+        "solid-mcq-25",
+        "solid-mcq-10"
       ],
       "explanation": "本句的「solid」指「能保持形狀、不易被壓變形的；堅實的」。",
       "sentenceIndex": 7,
@@ -796,12 +766,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-04": "本句指「能保持形狀、不易被壓變形的；堅實的」。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-02": "「處於固態的物質；固體」是「solid — noun substance」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-01": "「有固定形狀和體積、不是液體或氣體的；固態的」是「solid — state of matter」的用法，與本句語境不同。"
+        "solid-mcq-04": "本句的「solid」指「能保持形狀、不易被壓變形的；堅實的」。",
+        "solid-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-04"
     },
@@ -813,11 +781,9 @@ export default {
       "masked": "The chair feels ____.",
       "options": [
         "solid-mcq-05",
-        "solid-mcq-04",
         "solid-mcq-06",
-        "solid-mcq-03",
-        "solid-mcq-07",
-        "solid-mcq-02"
+        "solid-mcq-16",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid」指「做工結實、不脆弱或鬆散；扎實的／堅固的」。",
       "sentenceIndex": 8,
@@ -826,12 +792,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-05": "本句指「做工結實、不脆弱或鬆散；扎實的／堅固的」。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-02": "「處於固態的物質；固體」是「solid — noun substance」的用法，與本句語境不同。"
+        "solid-mcq-05": "本句的「solid」指「做工結實、不脆弱或鬆散；扎實的／堅固的」。",
+        "solid-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-05"
     },
@@ -843,11 +807,9 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "solid-mcq-05",
-        "solid-mcq-04",
-        "solid-mcq-06",
-        "solid-mcq-03",
-        "solid-mcq-07",
-        "solid-mcq-02"
+        "solid-mcq-12",
+        "solid-mcq-16",
+        "solid-mcq-17"
       ],
       "explanation": "本句的「solid piece of furniture」指「做工結實、不脆弱或鬆散；扎實的／堅固的」。",
       "sentenceIndex": 9,
@@ -856,12 +818,10 @@ export default {
         "solid piece of furniture"
       ],
       "optionReasons": {
-        "solid-mcq-05": "本句指「做工結實、不脆弱或鬆散；扎實的／堅固的」。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-02": "「處於固態的物質；固體」是「solid — noun substance」的用法，與本句語境不同。"
+        "solid-mcq-05": "本句的「solid piece of furniture」指「做工結實、不脆弱或鬆散；扎實的／堅固的」。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-05"
     },
@@ -873,11 +833,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "solid-mcq-06",
-        "solid-mcq-05",
-        "solid-mcq-07",
-        "solid-mcq-04",
-        "solid-mcq-08",
-        "solid-mcq-03"
+        "solid-mcq-14",
+        "solid-mcq-11",
+        "solid-mcq-17"
       ],
       "explanation": "本句的「solid reputation」指「穩妥、可靠、不容易出問題的」。",
       "sentenceIndex": 10,
@@ -886,12 +844,10 @@ export default {
         "solid reputation"
       ],
       "optionReasons": {
-        "solid-mcq-06": "本句指「穩妥、可靠、不容易出問題的」。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。"
+        "solid-mcq-06": "本句的「solid reputation」指「穩妥、可靠、不容易出問題的」。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-06"
     },
@@ -903,11 +859,9 @@ export default {
       "masked": "The company has a ____.",
       "options": [
         "solid-mcq-06",
-        "solid-mcq-05",
-        "solid-mcq-07",
-        "solid-mcq-04",
-        "solid-mcq-08",
-        "solid-mcq-03"
+        "solid-mcq-02",
+        "solid-mcq-12",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solid track record」指「穩妥、可靠、不容易出問題的」。",
       "sentenceIndex": 11,
@@ -916,12 +870,10 @@ export default {
         "solid track record"
       ],
       "optionReasons": {
-        "solid-mcq-06": "本句指「穩妥、可靠、不容易出問題的」。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-03": "「內部全由材料構成的；實心的」是「solid — not hollow」的用法，與本句語境不同。"
+        "solid-mcq-06": "本句的「solid track record」指「穩妥、可靠、不容易出問題的」。",
+        "solid-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-06"
     },
@@ -933,11 +885,9 @@ export default {
       "masked": "We need ____ before making a claim.",
       "options": [
         "solid-mcq-07",
-        "solid-mcq-06",
-        "solid-mcq-08",
-        "solid-mcq-05",
-        "solid-mcq-09",
-        "solid-mcq-04"
+        "solid-mcq-11",
+        "solid-mcq-12",
+        "solid-mcq-14"
       ],
       "explanation": "本句的「solid evidence」指「強而可信、足以支持結論的證據」。",
       "sentenceIndex": 12,
@@ -946,12 +896,10 @@ export default {
         "solid evidence"
       ],
       "optionReasons": {
-        "solid-mcq-07": "本句指「強而可信、足以支持結論的證據」。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。"
+        "solid-mcq-07": "本句的「solid evidence」指「強而可信、足以支持結論的證據」。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-07"
     },
@@ -963,11 +911,9 @@ export default {
       "masked": "The case was supported by ____.",
       "options": [
         "solid-mcq-07",
-        "solid-mcq-06",
+        "solid-mcq-12",
         "solid-mcq-08",
-        "solid-mcq-05",
-        "solid-mcq-09",
-        "solid-mcq-04"
+        "solid-mcq-15"
       ],
       "explanation": "本句的「solid evidence」指「強而可信、足以支持結論的證據」。",
       "sentenceIndex": 13,
@@ -976,12 +922,10 @@ export default {
         "solid evidence"
       ],
       "optionReasons": {
-        "solid-mcq-07": "本句指「強而可信、足以支持結論的證據」。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-04": "「能保持形狀、不易被壓變形的；堅實的」是「solid — firm/hard」的用法，與本句語境不同。"
+        "solid-mcq-07": "本句的「solid evidence」指「強而可信、足以支持結論的證據」。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-07"
     },
@@ -993,11 +937,9 @@ export default {
       "masked": "She gave a ____.",
       "options": [
         "solid-mcq-08",
-        "solid-mcq-07",
-        "solid-mcq-09",
-        "solid-mcq-06",
-        "solid-mcq-10",
-        "solid-mcq-05"
+        "solid-mcq-11",
+        "solid-mcq-24",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solid performance」指「表現穩健、可靠且有一定品質」。",
       "sentenceIndex": 14,
@@ -1006,12 +948,10 @@ export default {
         "solid performance"
       ],
       "optionReasons": {
-        "solid-mcq-08": "本句指「表現穩健、可靠且有一定品質」。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。"
+        "solid-mcq-08": "本句的「solid performance」指「表現穩健、可靠且有一定品質」。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-08"
     },
@@ -1023,11 +963,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "solid-mcq-08",
-        "solid-mcq-07",
-        "solid-mcq-09",
-        "solid-mcq-06",
-        "solid-mcq-10",
-        "solid-mcq-05"
+        "solid-mcq-14",
+        "solid-mcq-17",
+        "solid-mcq-03"
       ],
       "explanation": "本句的「solid player」指「表現穩健、可靠且有一定品質」。",
       "sentenceIndex": 15,
@@ -1036,12 +974,10 @@ export default {
         "solid player"
       ],
       "optionReasons": {
-        "solid-mcq-08": "本句指「表現穩健、可靠且有一定品質」。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。"
+        "solid-mcq-08": "本句的「solid player」指「表現穩健、可靠且有一定品質」。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-08"
     },
@@ -1053,11 +989,9 @@ export default {
       "masked": "This is ____.",
       "options": [
         "solid-mcq-08",
-        "solid-mcq-07",
-        "solid-mcq-09",
-        "solid-mcq-06",
-        "solid-mcq-10",
-        "solid-mcq-05"
+        "solid-mcq-21",
+        "solid-mcq-15",
+        "solid-mcq-23"
       ],
       "explanation": "本句的「solid work」指「表現穩健、可靠且有一定品質」。",
       "sentenceIndex": 16,
@@ -1066,12 +1000,10 @@ export default {
         "solid work"
       ],
       "optionReasons": {
-        "solid-mcq-08": "本句指「表現穩健、可靠且有一定品質」。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。"
+        "solid-mcq-08": "本句的「solid work」指「表現穩健、可靠且有一定品質」。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-08"
     },
@@ -1083,11 +1015,9 @@ export default {
       "masked": "The team produced another ____.",
       "options": [
         "solid-mcq-08",
-        "solid-mcq-07",
         "solid-mcq-09",
-        "solid-mcq-06",
-        "solid-mcq-10",
-        "solid-mcq-05"
+        "solid-mcq-14",
+        "solid-mcq-25"
       ],
       "explanation": "本句的「solid result」指「表現穩健、可靠且有一定品質」。",
       "sentenceIndex": 17,
@@ -1096,12 +1026,10 @@ export default {
         "solid result"
       ],
       "optionReasons": {
-        "solid-mcq-08": "本句指「表現穩健、可靠且有一定品質」。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-05": "「做工結實、不脆弱或鬆散；扎實的／堅固的」是「solid — strongly built」的用法，與本句語境不同。"
+        "solid-mcq-08": "本句的「solid result」指「表現穩健、可靠且有一定品質」。",
+        "solid-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-08"
     },
@@ -1113,11 +1041,9 @@ export default {
       "masked": "She has a ____ in mathematics.",
       "options": [
         "solid-mcq-09",
-        "solid-mcq-08",
-        "solid-mcq-10",
         "solid-mcq-07",
-        "solid-mcq-11",
-        "solid-mcq-06"
+        "solid-mcq-21",
+        "solid-mcq-08"
       ],
       "explanation": "本句的「solid foundation」指「牢固而扎實的基礎／理解」。",
       "sentenceIndex": 18,
@@ -1126,12 +1052,10 @@ export default {
         "solid foundation"
       ],
       "optionReasons": {
-        "solid-mcq-09": "本句指「牢固而扎實的基礎／理解」。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。"
+        "solid-mcq-09": "本句的「solid foundation」指「牢固而扎實的基礎／理解」。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-09"
     },
@@ -1143,10 +1067,8 @@ export default {
       "masked": "Students need a ____ of the basics.",
       "options": [
         "solid-mcq-09",
-        "solid-mcq-08",
-        "solid-mcq-10",
-        "solid-mcq-07",
-        "solid-mcq-11",
+        "solid-mcq-16",
+        "solid-mcq-14",
         "solid-mcq-06"
       ],
       "explanation": "本句的「solid understanding」指「牢固而扎實的基礎／理解」。",
@@ -1156,12 +1078,10 @@ export default {
         "solid understanding"
       ],
       "optionReasons": {
-        "solid-mcq-09": "本句指「牢固而扎實的基礎／理解」。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-06": "「穩妥、可靠、不容易出問題的」是「solid — reliable」的用法，與本句語境不同。"
+        "solid-mcq-09": "本句的「solid understanding」指「牢固而扎實的基礎／理解」。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-09"
     },
@@ -1173,11 +1093,9 @@ export default {
       "masked": "He worked for a ____.",
       "options": [
         "solid-mcq-10",
-        "solid-mcq-09",
-        "solid-mcq-11",
-        "solid-mcq-08",
-        "solid-mcq-12",
-        "solid-mcq-07"
+        "solid-mcq-02",
+        "solid-mcq-20",
+        "solid-mcq-16"
       ],
       "explanation": "本句的「solid eight hours」指「數量、程度或時間相當可觀／足足的」。",
       "sentenceIndex": 20,
@@ -1186,12 +1104,10 @@ export default {
         "solid eight hours"
       ],
       "optionReasons": {
-        "solid-mcq-10": "本句指「數量、程度或時間相當可觀／足足的」。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。"
+        "solid-mcq-10": "本句的「solid eight hours」指「數量、程度或時間相當可觀／足足的」。",
+        "solid-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-10"
     },
@@ -1203,11 +1119,9 @@ export default {
       "masked": "The company made a ____.",
       "options": [
         "solid-mcq-10",
-        "solid-mcq-09",
-        "solid-mcq-11",
-        "solid-mcq-08",
         "solid-mcq-12",
-        "solid-mcq-07"
+        "solid-mcq-20",
+        "solid-mcq-13"
       ],
       "explanation": "本句的「solid profit」指「數量、程度或時間相當可觀／足足的」。",
       "sentenceIndex": 21,
@@ -1216,12 +1130,10 @@ export default {
         "solid profit"
       ],
       "optionReasons": {
-        "solid-mcq-10": "本句指「數量、程度或時間相當可觀／足足的」。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-07": "「強而可信、足以支持結論的證據」是「solid evidence」的用法，與本句語境不同。"
+        "solid-mcq-10": "本句的「solid profit」指「數量、程度或時間相當可觀／足足的」。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-10"
     },
@@ -1233,11 +1145,9 @@ export default {
       "masked": "She slept for a ____.",
       "options": [
         "solid-mcq-11",
-        "solid-mcq-10",
-        "solid-mcq-12",
-        "solid-mcq-09",
-        "solid-mcq-13",
-        "solid-mcq-08"
+        "solid-mcq-07",
+        "solid-mcq-24",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid nine hours」指「完整而不中斷的一段時間；整整的」。",
       "sentenceIndex": 22,
@@ -1246,12 +1156,10 @@ export default {
         "solid nine hours"
       ],
       "optionReasons": {
-        "solid-mcq-11": "本句指「完整而不中斷的一段時間；整整的」。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。"
+        "solid-mcq-11": "本句的「solid nine hours」指「完整而不中斷的一段時間；整整的」。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-11"
     },
@@ -1263,11 +1171,9 @@ export default {
       "masked": "It rained for three ____.",
       "options": [
         "solid-mcq-11",
-        "solid-mcq-10",
-        "solid-mcq-12",
         "solid-mcq-09",
-        "solid-mcq-13",
-        "solid-mcq-08"
+        "solid-mcq-07",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid days」指「完整而不中斷的一段時間；整整的」。",
       "sentenceIndex": 23,
@@ -1276,12 +1182,10 @@ export default {
         "solid days"
       ],
       "optionReasons": {
-        "solid-mcq-11": "本句指「完整而不中斷的一段時間；整整的」。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。"
+        "solid-mcq-11": "本句的「solid days」指「完整而不中斷的一段時間；整整的」。",
+        "solid-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-11"
     },
@@ -1293,11 +1197,9 @@ export default {
       "masked": "The proposal received ____.",
       "options": [
         "solid-mcq-11",
-        "solid-mcq-10",
-        "solid-mcq-12",
-        "solid-mcq-09",
         "solid-mcq-13",
-        "solid-mcq-08"
+        "solid-mcq-09",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid support」指「完整而不中斷的一段時間；整整的」。",
       "sentenceIndex": 24,
@@ -1306,12 +1208,10 @@ export default {
         "solid support"
       ],
       "optionReasons": {
-        "solid-mcq-11": "本句指「完整而不中斷的一段時間；整整的」。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。"
+        "solid-mcq-11": "本句的「solid support」指「完整而不中斷的一段時間；整整的」。",
+        "solid-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-11"
     },
@@ -1323,11 +1223,9 @@ export default {
       "masked": "She has ____ from her colleagues.",
       "options": [
         "solid-mcq-11",
-        "solid-mcq-10",
-        "solid-mcq-12",
-        "solid-mcq-09",
         "solid-mcq-13",
-        "solid-mcq-08"
+        "solid-mcq-04",
+        "solid-mcq-17"
       ],
       "explanation": "本句的「solid backing」指「完整而不中斷的一段時間；整整的」。",
       "sentenceIndex": 25,
@@ -1336,12 +1234,10 @@ export default {
         "solid backing"
       ],
       "optionReasons": {
-        "solid-mcq-11": "本句指「完整而不中斷的一段時間；整整的」。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-08": "「表現穩健、可靠且有一定品質」是「solid performance/work」的用法，與本句語境不同。"
+        "solid-mcq-11": "本句的「solid backing」指「完整而不中斷的一段時間；整整的」。",
+        "solid-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-11"
     },
@@ -1353,11 +1249,9 @@ export default {
       "masked": "I prefer ____ to patterns.",
       "options": [
         "solid-mcq-12",
-        "solid-mcq-11",
-        "solid-mcq-13",
-        "solid-mcq-10",
-        "solid-mcq-14",
-        "solid-mcq-09"
+        "solid-mcq-07",
+        "solid-mcq-04",
+        "solid-mcq-06"
       ],
       "explanation": "本句的「solid colors」指「沒有圖案、只有單一顏色的；純色」。",
       "sentenceIndex": 26,
@@ -1366,12 +1260,10 @@ export default {
         "solid colors"
       ],
       "optionReasons": {
-        "solid-mcq-12": "本句指「沒有圖案、只有單一顏色的；純色」。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。"
+        "solid-mcq-12": "本句的「solid colors」指「沒有圖案、只有單一顏色的；純色」。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-12"
     },
@@ -1383,11 +1275,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "solid-mcq-12",
-        "solid-mcq-11",
-        "solid-mcq-13",
-        "solid-mcq-10",
-        "solid-mcq-14",
-        "solid-mcq-09"
+        "solid-mcq-07",
+        "solid-mcq-05",
+        "solid-mcq-02"
       ],
       "explanation": "本句的「solid blue shirt」指「沒有圖案、只有單一顏色的；純色」。",
       "sentenceIndex": 27,
@@ -1396,12 +1286,10 @@ export default {
         "solid blue shirt"
       ],
       "optionReasons": {
-        "solid-mcq-12": "本句指「沒有圖案、只有單一顏色的；純色」。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-09": "「牢固而扎實的基礎／理解」是「solid foundation/understanding」的用法，與本句語境不同。"
+        "solid-mcq-12": "本句的「solid blue shirt」指「沒有圖案、只有單一顏色的；純色」。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-12"
     },
@@ -1413,11 +1301,9 @@ export default {
       "masked": "A cube is a geometric ____.",
       "options": [
         "solid-mcq-13",
-        "solid-mcq-12",
-        "solid-mcq-14",
-        "solid-mcq-11",
-        "solid-mcq-15",
-        "solid-mcq-10"
+        "solid-mcq-08",
+        "solid-mcq-09",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solid」指「三維幾何圖形；立體圖形」。",
       "sentenceIndex": 28,
@@ -1426,12 +1312,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-13": "本句指「三維幾何圖形；立體圖形」。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。"
+        "solid-mcq-13": "本句的「solid」指「三維幾何圖形；立體圖形」。",
+        "solid-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-13"
     },
@@ -1443,11 +1327,9 @@ export default {
       "masked": "The students studied different ____.",
       "options": [
         "solid-mcq-13",
-        "solid-mcq-12",
-        "solid-mcq-14",
-        "solid-mcq-11",
-        "solid-mcq-15",
-        "solid-mcq-10"
+        "solid-mcq-20",
+        "solid-mcq-09",
+        "solid-mcq-16"
       ],
       "explanation": "本句的「solids」指「三維幾何圖形；立體圖形」。",
       "sentenceIndex": 29,
@@ -1456,12 +1338,10 @@ export default {
         "solids"
       ],
       "optionReasons": {
-        "solid-mcq-13": "本句指「三維幾何圖形；立體圖形」。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-10": "「數量、程度或時間相當可觀／足足的」是「solid — substantial amount」的用法，與本句語境不同。"
+        "solid-mcq-13": "本句的「solids」指「三維幾何圖形；立體圖形」。",
+        "solid-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-13"
     },
@@ -1473,11 +1353,9 @@ export default {
       "masked": "We studied ____.",
       "options": [
         "solid-mcq-14",
-        "solid-mcq-13",
-        "solid-mcq-15",
-        "solid-mcq-12",
-        "solid-mcq-16",
-        "solid-mcq-11"
+        "solid-mcq-20",
+        "solid-mcq-10",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solid geometry」指「研究三維圖形的立體幾何」。",
       "sentenceIndex": 30,
@@ -1486,12 +1364,10 @@ export default {
         "solid geometry"
       ],
       "optionReasons": {
-        "solid-mcq-14": "本句指「研究三維圖形的立體幾何」。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。"
+        "solid-mcq-14": "本句的「solid geometry」指「研究三維圖形的立體幾何」。",
+        "solid-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-14"
     },
@@ -1503,11 +1379,9 @@ export default {
       "masked": "Volume is important in ____.",
       "options": [
         "solid-mcq-14",
-        "solid-mcq-13",
-        "solid-mcq-15",
-        "solid-mcq-12",
-        "solid-mcq-16",
-        "solid-mcq-11"
+        "solid-mcq-03",
+        "solid-mcq-07",
+        "solid-mcq-16"
       ],
       "explanation": "本句的「solid geometry」指「研究三維圖形的立體幾何」。",
       "sentenceIndex": 31,
@@ -1516,12 +1390,10 @@ export default {
         "solid geometry"
       ],
       "optionReasons": {
-        "solid-mcq-14": "本句指「研究三維圖形的立體幾何」。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-11": "「完整而不中斷的一段時間；整整的」是「solid — continuous duration」的用法，與本句語境不同。"
+        "solid-mcq-14": "本句的「solid geometry」指「研究三維圖形的立體幾何」。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-14"
     },
@@ -1533,11 +1405,9 @@ export default {
       "masked": "Ice is a ____.",
       "options": [
         "solid-mcq-24",
-        "solid-mcq-23",
-        "solid-mcq-25",
-        "solid-mcq-22",
-        "solid-mcq-21",
-        "solid-mcq-20"
+        "solid-mcq-06",
+        "solid-mcq-12",
+        "solid-mcq-17"
       ],
       "explanation": "本句的「solid」指「表示固體」。",
       "sentenceIndex": 32,
@@ -1546,12 +1416,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-24": "本句指「表示固體」。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-25": "「表示很棒的；很不錯的」是「22. solid — excellent / impressive」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。"
+        "solid-mcq-24": "本句的「solid」指「表示固體」。",
+        "solid-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-24"
     },
@@ -1563,11 +1431,9 @@ export default {
       "masked": "The substance changes from a liquid into a ____.",
       "options": [
         "solid-mcq-24",
-        "solid-mcq-23",
         "solid-mcq-25",
-        "solid-mcq-22",
-        "solid-mcq-21",
-        "solid-mcq-20"
+        "solid-mcq-12",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solid」指「表示固體」。",
       "sentenceIndex": 33,
@@ -1576,12 +1442,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-24": "本句指「表示固體」。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-25": "「表示很棒的；很不錯的」是「22. solid — excellent / impressive」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。"
+        "solid-mcq-24": "本句的「solid」指「表示固體」。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-24"
     },
@@ -1593,11 +1457,9 @@ export default {
       "masked": "The baby is starting to eat ____.",
       "options": [
         "solid-mcq-15",
-        "solid-mcq-14",
-        "solid-mcq-16",
-        "solid-mcq-13",
-        "solid-mcq-17",
-        "solid-mcq-12"
+        "solid-mcq-11",
+        "solid-mcq-25",
+        "solid-mcq-08"
       ],
       "explanation": "本句的「solid food」指「非液體形式的食物；固體食物」。",
       "sentenceIndex": 34,
@@ -1606,12 +1468,10 @@ export default {
         "solid food"
       ],
       "optionReasons": {
-        "solid-mcq-15": "本句指「非液體形式的食物；固體食物」。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。"
+        "solid-mcq-15": "本句的「solid food」指「非液體形式的食物；固體食物」。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-15"
     },
@@ -1623,9 +1483,7 @@ export default {
       "masked": "He could not eat ____ after the operation.",
       "options": [
         "solid-mcq-15",
-        "solid-mcq-14",
-        "solid-mcq-16",
-        "solid-mcq-13",
+        "solid-mcq-10",
         "solid-mcq-17",
         "solid-mcq-12"
       ],
@@ -1636,12 +1494,10 @@ export default {
         "solid foods"
       ],
       "optionReasons": {
-        "solid-mcq-15": "本句指「非液體形式的食物；固體食物」。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-12": "「沒有圖案、只有單一顏色的；純色」是「solid color」的用法，與本句語境不同。"
+        "solid-mcq-15": "本句的「solid foods」指「非液體形式的食物；固體食物」。",
+        "solid-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-15"
     },
@@ -1653,11 +1509,9 @@ export default {
       "masked": "The company remains in a ____.",
       "options": [
         "solid-mcq-16",
-        "solid-mcq-15",
-        "solid-mcq-17",
-        "solid-mcq-14",
-        "solid-mcq-18",
-        "solid-mcq-13"
+        "solid-mcq-10",
+        "solid-mcq-25",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid financial position」指「穩健、安全的財務狀況」。",
       "sentenceIndex": 36,
@@ -1666,12 +1520,10 @@ export default {
         "solid financial position"
       ],
       "optionReasons": {
-        "solid-mcq-16": "本句指「穩健、安全的財務狀況」。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。"
+        "solid-mcq-16": "本句的「solid financial position」指「穩健、安全的財務狀況」。",
+        "solid-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-16"
     },
@@ -1683,11 +1535,9 @@ export default {
       "masked": "They have a ____.",
       "options": [
         "solid-mcq-16",
-        "solid-mcq-15",
-        "solid-mcq-17",
-        "solid-mcq-14",
-        "solid-mcq-18",
-        "solid-mcq-13"
+        "solid-mcq-07",
+        "solid-mcq-23",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solid balance sheet」指「穩健、安全的財務狀況」。",
       "sentenceIndex": 37,
@@ -1696,12 +1546,10 @@ export default {
         "solid balance sheet"
       ],
       "optionReasons": {
-        "solid-mcq-16": "本句指「穩健、安全的財務狀況」。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。",
-        "solid-mcq-13": "「三維幾何圖形；立體圖形」是「solid — geometry」的用法，與本句語境不同。"
+        "solid-mcq-16": "本句的「solid balance sheet」指「穩健、安全的財務狀況」。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-16"
     },
@@ -1713,11 +1561,9 @@ export default {
       "masked": "That is a ____.",
       "options": [
         "solid-mcq-17",
-        "solid-mcq-16",
         "solid-mcq-18",
-        "solid-mcq-15",
-        "solid-mcq-19",
-        "solid-mcq-14"
+        "solid-mcq-12",
+        "solid-mcq-02"
       ],
       "explanation": "本句的「solid argument」指「有根據、合理而有說服力的論點／理由」。",
       "sentenceIndex": 38,
@@ -1726,12 +1572,10 @@ export default {
         "solid argument"
       ],
       "optionReasons": {
-        "solid-mcq-17": "本句指「有根據、合理而有說服力的論點／理由」。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。"
+        "solid-mcq-17": "本句的「solid argument」指「有根據、合理而有說服力的論點／理由」。",
+        "solid-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-17"
     },
@@ -1743,11 +1587,9 @@ export default {
       "masked": "We need a ____ for changing the plan.",
       "options": [
         "solid-mcq-17",
-        "solid-mcq-16",
         "solid-mcq-18",
-        "solid-mcq-15",
-        "solid-mcq-19",
-        "solid-mcq-14"
+        "solid-mcq-12",
+        "solid-mcq-15"
       ],
       "explanation": "本句的「solid reason」指「有根據、合理而有說服力的論點／理由」。",
       "sentenceIndex": 39,
@@ -1756,12 +1598,10 @@ export default {
         "solid reason"
       ],
       "optionReasons": {
-        "solid-mcq-17": "本句指「有根據、合理而有說服力的論點／理由」。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-14": "「研究三維圖形的立體幾何」是「solid geometry」的用法，與本句語境不同。"
+        "solid-mcq-17": "本句的「solid reason」指「有根據、合理而有說服力的論點／理由」。",
+        "solid-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-17"
     },
@@ -1773,11 +1613,9 @@ export default {
       "masked": "He is a ____.",
       "options": [
         "solid-mcq-18",
-        "solid-mcq-17",
-        "solid-mcq-19",
-        "solid-mcq-16",
-        "solid-mcq-20",
-        "solid-mcq-15"
+        "solid-mcq-07",
+        "solid-mcq-03",
+        "solid-mcq-11"
       ],
       "explanation": "本句的「solid, dependable colleague」指「堅固、穩定、可靠的程度」。",
       "sentenceIndex": 40,
@@ -1786,12 +1624,10 @@ export default {
         "solid, dependable colleague"
       ],
       "optionReasons": {
-        "solid-mcq-18": "本句指「堅固、穩定、可靠的程度」。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。"
+        "solid-mcq-18": "本句的「solid, dependable colleague」指「堅固、穩定、可靠的程度」。",
+        "solid-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-18"
     },
@@ -1803,11 +1639,9 @@ export default {
       "masked": "She has always been a ____.",
       "options": [
         "solid-mcq-18",
-        "solid-mcq-17",
-        "solid-mcq-19",
-        "solid-mcq-16",
-        "solid-mcq-20",
-        "solid-mcq-15"
+        "solid-mcq-13",
+        "solid-mcq-21",
+        "solid-mcq-17"
       ],
       "explanation": "本句的「solid member of the team」指「堅固、穩定、可靠的程度」。",
       "sentenceIndex": 41,
@@ -1816,12 +1650,10 @@ export default {
         "solid member of the team"
       ],
       "optionReasons": {
-        "solid-mcq-18": "本句指「堅固、穩定、可靠的程度」。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。"
+        "solid-mcq-18": "本句的「solid member of the team」指「堅固、穩定、可靠的程度」。",
+        "solid-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-18"
     },
@@ -1833,11 +1665,9 @@ export default {
       "masked": "That was a ____ performance.",
       "options": [
         "solid-mcq-25",
+        "solid-mcq-04",
         "solid-mcq-24",
-        "solid-mcq-23",
-        "solid-mcq-22",
-        "solid-mcq-21",
-        "solid-mcq-20"
+        "solid-mcq-16"
       ],
       "explanation": "本句的「solid」指「表示很棒的；很不錯的」。",
       "sentenceIndex": 42,
@@ -1846,12 +1676,10 @@ export default {
         "solid"
       ],
       "optionReasons": {
-        "solid-mcq-25": "本句指「表示很棒的；很不錯的」。",
-        "solid-mcq-24": "「表示固體」是「17. solid — matter in solid state」的用法，與本句語境不同。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。"
+        "solid-mcq-25": "本句的「solid」指「表示很棒的；很不錯的」。",
+        "solid-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-25"
     },
@@ -1863,11 +1691,9 @@ export default {
       "masked": "You did a ____.",
       "options": [
         "solid-mcq-25",
-        "solid-mcq-24",
-        "solid-mcq-23",
-        "solid-mcq-22",
-        "solid-mcq-21",
-        "solid-mcq-20"
+        "solid-mcq-13",
+        "solid-mcq-16",
+        "solid-mcq-11"
       ],
       "explanation": "本句的「solid job」指「表示很棒的；很不錯的」。",
       "sentenceIndex": 43,
@@ -1876,12 +1702,10 @@ export default {
         "solid job"
       ],
       "optionReasons": {
-        "solid-mcq-25": "本句指「表示很棒的；很不錯的」。",
-        "solid-mcq-24": "「表示固體」是「17. solid — matter in solid state」的用法，與本句語境不同。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。"
+        "solid-mcq-25": "本句的「solid job」指「表示很棒的；很不錯的」。",
+        "solid-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-25"
     },
@@ -1894,10 +1718,8 @@ export default {
       "options": [
         "solid-mcq-18",
         "solid-mcq-17",
-        "solid-mcq-19",
-        "solid-mcq-16",
-        "solid-mcq-20",
-        "solid-mcq-15"
+        "solid-mcq-14",
+        "solid-mcq-21"
       ],
       "explanation": "本句的「solidity」指「堅固、穩定、可靠的程度」。",
       "sentenceIndex": 44,
@@ -1906,12 +1728,10 @@ export default {
         "solidity"
       ],
       "optionReasons": {
-        "solid-mcq-18": "本句指「堅固、穩定、可靠的程度」。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。"
+        "solid-mcq-18": "本句的「solidity」指「堅固、穩定、可靠的程度」。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-18"
     },
@@ -1923,11 +1743,9 @@ export default {
       "masked": "Investors questioned the financial ____ of the company.",
       "options": [
         "solid-mcq-18",
-        "solid-mcq-17",
-        "solid-mcq-19",
-        "solid-mcq-16",
-        "solid-mcq-20",
-        "solid-mcq-15"
+        "solid-mcq-11",
+        "solid-mcq-25",
+        "solid-mcq-12"
       ],
       "explanation": "本句的「solidity」指「堅固、穩定、可靠的程度」。",
       "sentenceIndex": 45,
@@ -1936,12 +1754,10 @@ export default {
         "solidity"
       ],
       "optionReasons": {
-        "solid-mcq-18": "本句指「堅固、穩定、可靠的程度」。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-16": "「穩健、安全的財務狀況」是「solid financial position」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-15": "「非液體形式的食物；固體食物」是「solid food」的用法，與本句語境不同。"
+        "solid-mcq-18": "本句的「solidity」指「堅固、穩定、可靠的程度」。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-18"
     },
@@ -1953,10 +1769,8 @@ export default {
       "masked": "Cooling causes ____.",
       "options": [
         "solid-mcq-20",
-        "solid-mcq-19",
-        "solid-mcq-21",
-        "solid-mcq-18",
-        "solid-mcq-22",
+        "solid-mcq-25",
+        "solid-mcq-03",
         "solid-mcq-17"
       ],
       "explanation": "本句的「solidification」指「使關係、地位、支持等變得更穩固；鞏固」。",
@@ -1966,12 +1780,10 @@ export default {
         "solidification"
       ],
       "optionReasons": {
-        "solid-mcq-20": "本句指「使關係、地位、支持等變得更穩固；鞏固」。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。"
+        "solid-mcq-20": "本句的「solidification」指「使關係、地位、支持等變得更穩固；鞏固」。",
+        "solid-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-20"
     },
@@ -1983,11 +1795,9 @@ export default {
       "masked": "The deal marked the ____ of the partnership.",
       "options": [
         "solid-mcq-20",
-        "solid-mcq-19",
-        "solid-mcq-21",
-        "solid-mcq-18",
-        "solid-mcq-22",
-        "solid-mcq-17"
+        "solid-mcq-14",
+        "solid-mcq-12",
+        "solid-mcq-11"
       ],
       "explanation": "本句的「solidification」指「使關係、地位、支持等變得更穩固；鞏固」。",
       "sentenceIndex": 47,
@@ -1996,12 +1806,10 @@ export default {
         "solidification"
       ],
       "optionReasons": {
-        "solid-mcq-20": "本句指「使關係、地位、支持等變得更穩固；鞏固」。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-17": "「有根據、合理而有說服力的論點／理由」是「solid argument/reason」的用法，與本句語境不同。"
+        "solid-mcq-20": "本句的「solidification」指「使關係、地位、支持等變得更穩固；鞏固」。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-20"
     },
@@ -2013,11 +1821,9 @@ export default {
       "masked": "Can you ____ and cover my shift?",
       "options": [
         "solid-mcq-21",
-        "solid-mcq-20",
-        "solid-mcq-22",
-        "solid-mcq-19",
         "solid-mcq-23",
-        "solid-mcq-18"
+        "solid-mcq-03",
+        "solid-mcq-16"
       ],
       "explanation": "本句的「do me a solid」指「美式非正式：幫某人一個忙」。",
       "sentenceIndex": 48,
@@ -2026,12 +1832,10 @@ export default {
         "do me a solid"
       ],
       "optionReasons": {
-        "solid-mcq-21": "本句指「美式非正式：幫某人一個忙」。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。"
+        "solid-mcq-21": "本句的「do me a solid」指「美式非正式：幫某人一個忙」。",
+        "solid-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-21"
     },
@@ -2043,11 +1847,9 @@ export default {
       "masked": "He ____ by giving me a ride.",
       "options": [
         "solid-mcq-21",
-        "solid-mcq-20",
-        "solid-mcq-22",
-        "solid-mcq-19",
-        "solid-mcq-23",
-        "solid-mcq-18"
+        "solid-mcq-17",
+        "solid-mcq-14",
+        "solid-mcq-06"
       ],
       "explanation": "本句的「did me a solid」指「美式非正式：幫某人一個忙」。",
       "sentenceIndex": 49,
@@ -2056,12 +1858,10 @@ export default {
         "did me a solid"
       ],
       "optionReasons": {
-        "solid-mcq-21": "本句指「美式非正式：幫某人一個忙」。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-22": "「極其牢固、可靠或有說服力的」是「rock-solid」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-18": "「堅固、穩定、可靠的程度」是「solidity」的用法，與本句語境不同。"
+        "solid-mcq-21": "本句的「did me a solid」指「美式非正式：幫某人一個忙」。",
+        "solid-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-21"
     },
@@ -2073,11 +1873,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "solid-mcq-22",
-        "solid-mcq-21",
-        "solid-mcq-23",
-        "solid-mcq-20",
-        "solid-mcq-24",
-        "solid-mcq-19"
+        "solid-mcq-03",
+        "solid-mcq-14",
+        "solid-mcq-10"
       ],
       "explanation": "本句的「rock-solid evidence」指「極其牢固、可靠或有說服力的」。",
       "sentenceIndex": 50,
@@ -2086,12 +1884,10 @@ export default {
         "rock-solid evidence"
       ],
       "optionReasons": {
-        "solid-mcq-22": "本句指「極其牢固、可靠或有說服力的」。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-24": "「表示固體」是「17. solid — matter in solid state」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。"
+        "solid-mcq-22": "本句的「rock-solid evidence」指「極其牢固、可靠或有說服力的」。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-22"
     },
@@ -2103,11 +1899,9 @@ export default {
       "masked": "Their relationship is ____.",
       "options": [
         "solid-mcq-22",
-        "solid-mcq-21",
-        "solid-mcq-23",
-        "solid-mcq-20",
-        "solid-mcq-24",
-        "solid-mcq-19"
+        "solid-mcq-04",
+        "solid-mcq-16",
+        "solid-mcq-03"
       ],
       "explanation": "本句的「rock-solid」指「極其牢固、可靠或有說服力的」。",
       "sentenceIndex": 51,
@@ -2116,12 +1910,10 @@ export default {
         "rock-solid"
       ],
       "optionReasons": {
-        "solid-mcq-22": "本句指「極其牢固、可靠或有說服力的」。",
-        "solid-mcq-21": "「美式非正式：幫某人一個忙」是「do someone a solid」的用法，與本句語境不同。",
-        "solid-mcq-23": "「表示扎實的；堅固的；有份量的」是「Passage meaning」的用法，與本句語境不同。",
-        "solid-mcq-20": "「使關係、地位、支持等變得更穩固；鞏固」是「solidify — figurative」的用法，與本句語境不同。",
-        "solid-mcq-24": "「表示固體」是「17. solid — matter in solid state」的用法，與本句語境不同。",
-        "solid-mcq-19": "「由液體等變成固體；凝固／固化」是「solidify — physical」的用法，與本句語境不同。"
+        "solid-mcq-22": "本句的「rock-solid」指「極其牢固、可靠或有說服力的」。",
+        "solid-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "solid-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "solid-mcq-22"
     }
@@ -2133,5 +1925,7 @@ export default {
     "sha256": "53d75c2753fae3d4c141a9d9682b7dd8c8b12dc2910de11498eeda336e54cd24",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

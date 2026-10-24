@@ -437,11 +437,9 @@ export default {
       "masked": "What is the ____ of this box?",
       "options": [
         "volume-mcq-02",
-        "volume-mcq-01",
-        "volume-mcq-03",
-        "volume-mcq-04",
-        "volume-mcq-05",
-        "volume-mcq-06"
+        "volume-mcq-11",
+        "volume-mcq-14",
+        "volume-pdf-001"
       ],
       "explanation": "本句的「volume」指「體積／容量」。",
       "sentenceIndex": 0,
@@ -450,12 +448,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-02": "本句指「體積／容量」。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
+        "volume-mcq-02": "本句的「volume」指「體積／容量」。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-02"
     },
@@ -467,11 +463,9 @@ export default {
       "masked": "The tank has a ____ of 500 litres.",
       "options": [
         "volume-mcq-02",
-        "volume-mcq-01",
-        "volume-mcq-03",
-        "volume-mcq-04",
-        "volume-mcq-05",
-        "volume-mcq-06"
+        "volume-mcq-13",
+        "volume-mcq-12",
+        "volume-mcq-10"
       ],
       "explanation": "本句的「volume」指「體積／容量」。",
       "sentenceIndex": 1,
@@ -480,12 +474,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-02": "本句指「體積／容量」。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
+        "volume-mcq-02": "本句的「volume」指「體積／容量」。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-02"
     },
@@ -497,11 +489,9 @@ export default {
       "masked": "Measure the ____ in the container.",
       "options": [
         "volume-pdf-001",
-        "volume-mcq-02",
-        "volume-mcq-04",
-        "volume-mcq-01",
-        "volume-mcq-05",
-        "volume-mcq-06"
+        "volume-mcq-13",
+        "volume-mcq-08",
+        "volume-mcq-12"
       ],
       "explanation": "本句的「volume of water」指「液體、氣體等所佔的空間大小」。",
       "sentenceIndex": 2,
@@ -510,12 +500,10 @@ export default {
         "volume of water"
       ],
       "optionReasons": {
-        "volume-pdf-001": "本句指「液體、氣體等所佔的空間大小」。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
+        "volume-pdf-001": "本句的「volume of water」指「液體、氣體等所佔的空間大小」。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-pdf-001"
     },
@@ -527,11 +515,9 @@ export default {
       "masked": "The gas expands to twice its original ____.",
       "options": [
         "volume-pdf-001",
-        "volume-mcq-02",
-        "volume-mcq-04",
-        "volume-mcq-01",
-        "volume-mcq-05",
-        "volume-mcq-06"
+        "volume-mcq-09",
+        "volume-mcq-13",
+        "volume-mcq-12"
       ],
       "explanation": "本句的「volume」指「液體、氣體等所佔的空間大小」。",
       "sentenceIndex": 3,
@@ -540,12 +526,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-pdf-001": "本句指「液體、氣體等所佔的空間大小」。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
+        "volume-pdf-001": "本句的「volume」指「液體、氣體等所佔的空間大小」。",
+        "volume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-pdf-001"
     },
@@ -557,11 +541,9 @@ export default {
       "masked": "The company handles a large ____ every day.",
       "options": [
         "volume-mcq-04",
-        "volume-mcq-03",
-        "volume-mcq-05",
-        "volume-mcq-02",
-        "volume-mcq-06",
-        "volume-mcq-01"
+        "volume-mcq-14",
+        "volume-mcq-18",
+        "volume-mcq-12"
       ],
       "explanation": "本句的「volume of orders」指「銷售量」。",
       "sentenceIndex": 4,
@@ -570,12 +552,10 @@ export default {
         "volume of orders"
       ],
       "optionReasons": {
-        "volume-mcq-04": "本句指「銷售量」。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。"
+        "volume-mcq-04": "本句的「volume of orders」指「銷售量」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-04"
     },
@@ -587,11 +567,9 @@ export default {
       "masked": "The ____ increased last month.",
       "options": [
         "volume-mcq-04",
-        "volume-mcq-03",
-        "volume-mcq-05",
-        "volume-mcq-02",
-        "volume-mcq-06",
-        "volume-mcq-01"
+        "volume-mcq-12",
+        "volume-pdf-001",
+        "volume-mcq-14"
       ],
       "explanation": "本句的「volume of complaints」指「銷售量」。",
       "sentenceIndex": 5,
@@ -600,12 +578,10 @@ export default {
         "volume of complaints"
       ],
       "optionReasons": {
-        "volume-mcq-04": "本句指「銷售量」。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。"
+        "volume-mcq-04": "本句的「volume of complaints」指「銷售量」。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-04"
     },
@@ -617,11 +593,9 @@ export default {
       "masked": "Sales ____ increased by 20 percent.",
       "options": [
         "volume-mcq-04",
-        "volume-mcq-03",
-        "volume-mcq-05",
-        "volume-mcq-02",
-        "volume-mcq-06",
-        "volume-mcq-01"
+        "volume-mcq-11",
+        "volume-mcq-14",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「volume」指「銷售量」。",
       "sentenceIndex": 6,
@@ -630,12 +604,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-04": "本句指「銷售量」。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。"
+        "volume-mcq-04": "本句的「volume」指「銷售量」。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-04"
     },
@@ -647,11 +619,9 @@ export default {
       "masked": "The company wants to raise its annual sales ____.",
       "options": [
         "volume-mcq-04",
-        "volume-mcq-03",
-        "volume-mcq-05",
-        "volume-mcq-02",
-        "volume-mcq-06",
-        "volume-mcq-01"
+        "volume-mcq-12",
+        "volume-pdf-001",
+        "volume-mcq-13"
       ],
       "explanation": "本句的「volume」指「銷售量」。",
       "sentenceIndex": 7,
@@ -660,12 +630,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-04": "本句指「銷售量」。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-01": "「體積」是「volume of a box」的用法，與本句語境不同。"
+        "volume-mcq-04": "本句的「volume」指「銷售量」。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-04"
     },
@@ -677,11 +645,9 @@ export default {
       "masked": "Traffic ____ is highest during rush hour.",
       "options": [
         "volume-mcq-05",
-        "volume-mcq-04",
-        "volume-mcq-06",
-        "volume-mcq-03",
-        "volume-mcq-07",
-        "volume-mcq-02"
+        "volume-mcq-18",
+        "volume-mcq-13",
+        "volume-mcq-11"
       ],
       "explanation": "本句的「volume」指「交通流量」。",
       "sentenceIndex": 8,
@@ -690,12 +656,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-05": "本句指「交通流量」。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。"
+        "volume-mcq-05": "本句的「volume」指「交通流量」。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-05"
     },
@@ -707,11 +671,9 @@ export default {
       "masked": "The road was redesigned to handle greater traffic ____.",
       "options": [
         "volume-mcq-05",
-        "volume-mcq-04",
-        "volume-mcq-06",
-        "volume-mcq-03",
-        "volume-mcq-07",
-        "volume-mcq-02"
+        "volume-mcq-13",
+        "volume-mcq-12",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「volumes」指「交通流量」。",
       "sentenceIndex": 9,
@@ -720,12 +682,10 @@ export default {
         "volumes"
       ],
       "optionReasons": {
-        "volume-mcq-05": "本句指「交通流量」。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-02": "「體積／容量」是「volume of water」的用法，與本句語境不同。"
+        "volume-mcq-05": "本句的「volumes」指「交通流量」。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-05"
     },
@@ -737,11 +697,9 @@ export default {
       "masked": "Trading ____ rose sharply after the announcement.",
       "options": [
         "volume-mcq-06",
-        "volume-mcq-05",
-        "volume-mcq-07",
-        "volume-mcq-04",
-        "volume-mcq-08",
-        "volume-mcq-03"
+        "volume-pdf-001",
+        "volume-mcq-11",
+        "volume-mcq-14"
       ],
       "explanation": "本句的「volume」指「成交量」。",
       "sentenceIndex": 10,
@@ -750,12 +708,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-06": "本句指「成交量」。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。"
+        "volume-mcq-06": "本句的「volume」指「成交量」。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-06"
     },
@@ -767,11 +723,9 @@ export default {
       "masked": "The stock had unusually high trading ____.",
       "options": [
         "volume-mcq-06",
-        "volume-mcq-05",
-        "volume-mcq-07",
-        "volume-mcq-04",
-        "volume-mcq-08",
-        "volume-mcq-03"
+        "volume-mcq-14",
+        "volume-mcq-12",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「volume」指「成交量」。",
       "sentenceIndex": 11,
@@ -780,12 +734,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-06": "本句指「成交量」。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-03": "「訂單量」是「volume of orders」的用法，與本句語境不同。"
+        "volume-mcq-06": "本句的「volume」指「成交量」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-06"
     },
@@ -797,11 +749,9 @@ export default {
       "masked": "The factory increased its production ____.",
       "options": [
         "volume-mcq-07",
-        "volume-mcq-06",
-        "volume-mcq-08",
-        "volume-mcq-05",
-        "volume-mcq-09",
-        "volume-mcq-04"
+        "volume-mcq-13",
+        "volume-mcq-12",
+        "volume-pdf-001"
       ],
       "explanation": "本句的「volume」指「生產量」。",
       "sentenceIndex": 12,
@@ -810,12 +760,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-07": "本句指「生產量」。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。"
+        "volume-mcq-07": "本句的「volume」指「生產量」。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-07"
     },
@@ -827,11 +775,9 @@ export default {
       "masked": "Lower demand led to reduced production ____.",
       "options": [
         "volume-mcq-07",
-        "volume-mcq-06",
-        "volume-mcq-08",
-        "volume-mcq-05",
-        "volume-mcq-09",
-        "volume-mcq-04"
+        "volume-mcq-11",
+        "volume-mcq-18",
+        "volume-mcq-13"
       ],
       "explanation": "本句的「volumes」指「生產量」。",
       "sentenceIndex": 13,
@@ -840,12 +786,10 @@ export default {
         "volumes"
       ],
       "optionReasons": {
-        "volume-mcq-07": "本句指「生產量」。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-04": "「銷售量」是「sales volume」的用法，與本句語境不同。"
+        "volume-mcq-07": "本句的「volumes」指「生產量」。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-07"
     },
@@ -857,11 +801,9 @@ export default {
       "masked": "Please turn the ____ down.",
       "options": [
         "volume-mcq-08",
-        "volume-mcq-07",
-        "volume-mcq-09",
-        "volume-mcq-06",
-        "volume-mcq-10",
-        "volume-mcq-05"
+        "volume-pdf-001",
+        "volume-mcq-11",
+        "volume-mcq-14"
       ],
       "explanation": "本句的「volume」指「音量」。",
       "sentenceIndex": 14,
@@ -870,12 +812,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-08": "本句指「音量」。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。"
+        "volume-mcq-08": "本句的「volume」指「音量」。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-08"
     },
@@ -887,11 +827,9 @@ export default {
       "masked": "The television ____ is too loud.",
       "options": [
         "volume-mcq-08",
-        "volume-mcq-07",
-        "volume-mcq-09",
-        "volume-mcq-06",
-        "volume-mcq-10",
-        "volume-mcq-05"
+        "volume-mcq-12",
+        "volume-pdf-001",
+        "volume-mcq-14"
       ],
       "explanation": "本句的「volume」指「音量」。",
       "sentenceIndex": 15,
@@ -900,12 +838,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-08": "本句指「音量」。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-05": "「交通流量」是「traffic volume」的用法，與本句語境不同。"
+        "volume-mcq-08": "本句的「volume」指「音量」。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-08"
     },
@@ -917,11 +853,9 @@ export default {
       "masked": "Can you turn the ____?",
       "options": [
         "volume-mcq-09",
-        "volume-mcq-08",
-        "volume-mcq-10",
-        "volume-mcq-07",
-        "volume-mcq-11",
-        "volume-mcq-06"
+        "volume-mcq-12",
+        "volume-mcq-13",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「volume up」指「調高／調低音量」。",
       "sentenceIndex": 16,
@@ -930,12 +864,10 @@ export default {
         "volume up"
       ],
       "optionReasons": {
-        "volume-mcq-09": "本句指「調高／調低音量」。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
+        "volume-mcq-09": "本句的「volume up」指「調高／調低音量」。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-09"
     },
@@ -947,11 +879,9 @@ export default {
       "masked": "He turned the ____ so the baby could sleep.",
       "options": [
         "volume-mcq-09",
-        "volume-mcq-08",
-        "volume-mcq-10",
-        "volume-mcq-07",
-        "volume-mcq-11",
-        "volume-mcq-06"
+        "volume-mcq-14",
+        "volume-mcq-12",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「volume down」指「調高／調低音量」。",
       "sentenceIndex": 17,
@@ -960,12 +890,10 @@ export default {
         "volume down"
       ],
       "optionReasons": {
-        "volume-mcq-09": "本句指「調高／調低音量」。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-06": "「成交量」是「trading volume」的用法，與本句語境不同。"
+        "volume-mcq-09": "本句的「volume down」指「調高／調低音量」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-09"
     },
@@ -977,11 +905,9 @@ export default {
       "masked": "The music was playing at ____.",
       "options": [
         "volume-mcq-10",
-        "volume-mcq-09",
+        "volume-mcq-13",
         "volume-mcq-11",
-        "volume-mcq-08",
-        "volume-mcq-12",
-        "volume-mcq-07"
+        "volume-mcq-18"
       ],
       "explanation": "本句的「full volume」指「以最大音量」。",
       "sentenceIndex": 18,
@@ -990,12 +916,10 @@ export default {
         "full volume"
       ],
       "optionReasons": {
-        "volume-mcq-10": "本句指「以最大音量」。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。"
+        "volume-mcq-10": "本句的「full volume」指「以最大音量」。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-10"
     },
@@ -1007,11 +931,9 @@ export default {
       "masked": "He shouted at ____.",
       "options": [
         "volume-mcq-10",
-        "volume-mcq-09",
+        "volume-mcq-14",
         "volume-mcq-11",
-        "volume-mcq-08",
-        "volume-mcq-12",
-        "volume-mcq-07"
+        "volume-mcq-18"
       ],
       "explanation": "本句的「full volume」指「以最大音量」。",
       "sentenceIndex": 19,
@@ -1020,12 +942,10 @@ export default {
         "full volume"
       ],
       "optionReasons": {
-        "volume-mcq-10": "本句指「以最大音量」。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-07": "「生產量」是「production volume」的用法，與本句語境不同。"
+        "volume-mcq-10": "本句的「full volume」指「以最大音量」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-10"
     },
@@ -1037,11 +957,9 @@ export default {
       "masked": "She bought the first ____ of the series.",
       "options": [
         "volume-mcq-11",
-        "volume-mcq-10",
-        "volume-mcq-12",
-        "volume-mcq-09",
-        "volume-mcq-13",
-        "volume-mcq-08"
+        "volume-mcq-15",
+        "volume-mcq-18",
+        "volume-mcq-14"
       ],
       "explanation": "本句的「volume」指「一卷；一冊」。",
       "sentenceIndex": 20,
@@ -1050,12 +968,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-11": "本句指「一卷；一冊」。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。"
+        "volume-mcq-11": "本句的「volume」指「一卷；一冊」。",
+        "volume-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-11"
     },
@@ -1067,11 +983,9 @@ export default {
       "masked": "The encyclopedia consists of ten ____.",
       "options": [
         "volume-mcq-11",
-        "volume-mcq-10",
-        "volume-mcq-12",
         "volume-mcq-09",
-        "volume-mcq-13",
-        "volume-mcq-08"
+        "volume-pdf-001",
+        "volume-mcq-13"
       ],
       "explanation": "本句的「volumes」指「一卷；一冊」。",
       "sentenceIndex": 21,
@@ -1080,12 +994,10 @@ export default {
         "volumes"
       ],
       "optionReasons": {
-        "volume-mcq-11": "本句指「一卷；一冊」。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-08": "「音量」是「sound volume」的用法，與本句語境不同。"
+        "volume-mcq-11": "本句的「volumes」指「一卷；一冊」。",
+        "volume-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-11"
     },
@@ -1097,11 +1009,9 @@ export default {
       "masked": "The biography was published as a two-____ work.",
       "options": [
         "volume-mcq-12",
-        "volume-mcq-11",
-        "volume-mcq-13",
-        "volume-mcq-10",
-        "volume-mcq-14",
-        "volume-mcq-09"
+        "volume-mcq-18",
+        "volume-mcq-17",
+        "volume-mcq-13"
       ],
       "explanation": "本句的「volume」指「多卷本著作」。",
       "sentenceIndex": 22,
@@ -1110,12 +1020,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-12": "本句指「多卷本著作」。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。"
+        "volume-mcq-12": "本句的「volume」指「多卷本著作」。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-12"
     },
@@ -1127,11 +1035,9 @@ export default {
       "masked": "The history is a six-____ series.",
       "options": [
         "volume-mcq-12",
-        "volume-mcq-11",
-        "volume-mcq-13",
-        "volume-mcq-10",
         "volume-mcq-14",
-        "volume-mcq-09"
+        "volume-mcq-04",
+        "volume-pdf-001"
       ],
       "explanation": "本句的「volume」指「多卷本著作」。",
       "sentenceIndex": 23,
@@ -1140,12 +1046,10 @@ export default {
         "volume"
       ],
       "optionReasons": {
-        "volume-mcq-12": "本句指「多卷本著作」。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-09": "「調高／調低音量」是「turn the volume up/down」的用法，與本句語境不同。"
+        "volume-mcq-12": "本句的「volume」指「多卷本著作」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-12"
     },
@@ -1157,11 +1061,9 @@ export default {
       "masked": "That moment ____.",
       "options": [
         "volume-mcq-13",
-        "volume-mcq-12",
-        "volume-mcq-14",
+        "volume-mcq-17",
         "volume-mcq-11",
-        "volume-mcq-15",
-        "volume-mcq-10"
+        "volume-mcq-18"
       ],
       "explanation": "本句的「spoke volumes」指「充分說明；透露很多」。",
       "sentenceIndex": 24,
@@ -1170,12 +1072,10 @@ export default {
         "spoke volumes"
       ],
       "optionReasons": {
-        "volume-mcq-13": "本句指「充分說明；透露很多」。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。"
+        "volume-mcq-13": "本句的「spoke volumes」指「充分說明；透露很多」。",
+        "volume-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-13"
     },
@@ -1187,11 +1087,9 @@ export default {
       "masked": "Her silence ____.",
       "options": [
         "volume-mcq-13",
-        "volume-mcq-12",
-        "volume-mcq-14",
+        "volume-mcq-07",
         "volume-mcq-11",
-        "volume-mcq-15",
-        "volume-mcq-10"
+        "volume-pdf-001"
       ],
       "explanation": "本句的「spoke volumes」指「充分說明；透露很多」。",
       "sentenceIndex": 25,
@@ -1200,12 +1098,10 @@ export default {
         "spoke volumes"
       ],
       "optionReasons": {
-        "volume-mcq-13": "本句指「充分說明；透露很多」。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。"
+        "volume-mcq-13": "本句的「spoke volumes」指「充分說明；透露很多」。",
+        "volume-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-13"
     },
@@ -1217,11 +1113,9 @@ export default {
       "masked": "His reaction ____.",
       "options": [
         "volume-mcq-13",
-        "volume-mcq-12",
-        "volume-mcq-14",
-        "volume-mcq-11",
-        "volume-mcq-15",
-        "volume-mcq-10"
+        "volume-mcq-05",
+        "volume-mcq-18",
+        "volume-mcq-12"
       ],
       "explanation": "本句的「spoke volumes about his character」指「充分說明；透露很多」。",
       "sentenceIndex": 26,
@@ -1230,12 +1124,10 @@ export default {
         "spoke volumes about his character"
       ],
       "optionReasons": {
-        "volume-mcq-13": "本句指「充分說明；透露很多」。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-10": "「以最大音量」是「at full volume」的用法，與本句語境不同。"
+        "volume-mcq-13": "本句的「spoke volumes about his character」指「充分說明；透露很多」。",
+        "volume-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-13"
     },
@@ -1247,10 +1139,8 @@ export default {
       "masked": "The way she treated the staff ____.",
       "options": [
         "volume-mcq-14",
-        "volume-mcq-13",
-        "volume-mcq-15",
-        "volume-mcq-12",
-        "volume-mcq-16",
+        "volume-mcq-19",
+        "volume-mcq-18",
         "volume-mcq-11"
       ],
       "explanation": "本句的「spoke volumes about her character」指「充分反映 X」。",
@@ -1260,12 +1150,10 @@ export default {
         "spoke volumes about her character"
       ],
       "optionReasons": {
-        "volume-mcq-14": "本句指「充分反映 X」。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。"
+        "volume-mcq-14": "本句的「spoke volumes about her character」指「充分反映 X」。",
+        "volume-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-14"
     },
@@ -1277,11 +1165,9 @@ export default {
       "masked": "His willingness to help ____.",
       "options": [
         "volume-mcq-14",
-        "volume-mcq-13",
-        "volume-mcq-15",
-        "volume-mcq-12",
-        "volume-mcq-16",
-        "volume-mcq-11"
+        "volume-mcq-07",
+        "volume-mcq-11",
+        "volume-pdf-001"
       ],
       "explanation": "本句的「speaks volumes about him」指「充分反映 X」。",
       "sentenceIndex": 28,
@@ -1290,12 +1176,10 @@ export default {
         "speaks volumes about him"
       ],
       "optionReasons": {
-        "volume-mcq-14": "本句指「充分反映 X」。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-11": "「一卷；一冊」是「a volume」的用法，與本句語境不同。"
+        "volume-mcq-14": "本句的「speaks volumes about him」指「充分反映 X」。",
+        "volume-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-14"
     },
@@ -1307,11 +1191,9 @@ export default {
       "masked": "This factory specializes in ____.",
       "options": [
         "volume-mcq-15",
-        "volume-mcq-14",
-        "volume-mcq-16",
+        "volume-mcq-12",
         "volume-mcq-13",
-        "volume-mcq-17",
-        "volume-mcq-12"
+        "volume-mcq-18"
       ],
       "explanation": "本句的「high-volume production」指「大量的」。",
       "sentenceIndex": 29,
@@ -1320,12 +1202,10 @@ export default {
         "high-volume production"
       ],
       "optionReasons": {
-        "volume-mcq-15": "本句指「大量的」。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-17": "「大批量地」是「in volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。"
+        "volume-mcq-15": "本句的「high-volume production」指「大量的」。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-15"
     },
@@ -1338,10 +1218,8 @@ export default {
       "options": [
         "volume-mcq-15",
         "volume-mcq-14",
-        "volume-mcq-16",
-        "volume-mcq-13",
-        "volume-mcq-17",
-        "volume-mcq-12"
+        "volume-mcq-11",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「low-volume transactions」指「大量的」。",
       "sentenceIndex": 30,
@@ -1350,12 +1228,10 @@ export default {
         "low-volume transactions"
       ],
       "optionReasons": {
-        "volume-mcq-15": "本句指「大量的」。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-13": "「充分說明；透露很多」是「speak volumes」的用法，與本句語境不同。",
-        "volume-mcq-17": "「大批量地」是「in volume」的用法，與本句語境不同。",
-        "volume-mcq-12": "「多卷本著作」是「multi-volume work」的用法，與本句語境不同。"
+        "volume-mcq-15": "本句的「low-volume transactions」指「大量的」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-15"
     },
@@ -1367,10 +1243,8 @@ export default {
       "masked": "The product is cheaper when purchased ____.",
       "options": [
         "volume-mcq-17",
-        "volume-mcq-16",
         "volume-mcq-18",
-        "volume-mcq-15",
-        "volume-mcq-19",
+        "volume-mcq-12",
         "volume-mcq-14"
       ],
       "explanation": "本句的「in volume」指「大批量地」。",
@@ -1380,12 +1254,10 @@ export default {
         "in volume"
       ],
       "optionReasons": {
-        "volume-mcq-17": "本句指「大批量地」。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-18": "「體積的」是「volumetric」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-19": "「大量的；龐大的」是「voluminous」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。"
+        "volume-mcq-17": "本句的「in volume」指「大批量地」。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-17"
     },
@@ -1397,11 +1269,9 @@ export default {
       "masked": "The company can manufacture the parts ____.",
       "options": [
         "volume-mcq-17",
-        "volume-mcq-16",
+        "volume-mcq-14",
         "volume-mcq-18",
-        "volume-mcq-15",
-        "volume-mcq-19",
-        "volume-mcq-14"
+        "volume-mcq-12"
       ],
       "explanation": "本句的「in volume」指「大批量地」。",
       "sentenceIndex": 32,
@@ -1410,12 +1280,10 @@ export default {
         "in volume"
       ],
       "optionReasons": {
-        "volume-mcq-17": "本句指「大批量地」。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-18": "「體積的」是「volumetric」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-19": "「大量的；龐大的」是「voluminous」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。"
+        "volume-mcq-17": "本句的「in volume」指「大批量地」。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-17"
     },
@@ -1427,11 +1295,9 @@ export default {
       "masked": "The engineer carried out a ____.",
       "options": [
         "volume-mcq-18",
-        "volume-mcq-17",
-        "volume-mcq-19",
-        "volume-mcq-16",
-        "volume-mcq-15",
-        "volume-mcq-14"
+        "volume-mcq-10",
+        "volume-mcq-13",
+        "volume-mcq-12"
       ],
       "explanation": "本句的「volumetric analysis」指「體積的」。",
       "sentenceIndex": 33,
@@ -1440,12 +1306,10 @@ export default {
         "volumetric analysis"
       ],
       "optionReasons": {
-        "volume-mcq-18": "本句指「體積的」。",
-        "volume-mcq-17": "「大批量地」是「in volume」的用法，與本句語境不同。",
-        "volume-mcq-19": "「大量的；龐大的」是「voluminous」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。"
+        "volume-mcq-18": "本句的「volumetric analysis」指「體積的」。",
+        "volume-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-18"
     },
@@ -1457,10 +1321,8 @@ export default {
       "masked": "The fee is based on ____.",
       "options": [
         "volume-mcq-18",
-        "volume-mcq-17",
-        "volume-mcq-19",
-        "volume-mcq-16",
-        "volume-mcq-15",
+        "volume-mcq-07",
+        "volume-mcq-11",
         "volume-mcq-14"
       ],
       "explanation": "本句的「volumetric weight」指「體積的」。",
@@ -1470,12 +1332,10 @@ export default {
         "volumetric weight"
       ],
       "optionReasons": {
-        "volume-mcq-18": "本句指「體積的」。",
-        "volume-mcq-17": "「大批量地」是「in volume」的用法，與本句語境不同。",
-        "volume-mcq-19": "「大量的；龐大的」是「voluminous」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。"
+        "volume-mcq-18": "本句的「volumetric weight」指「體積的」。",
+        "volume-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-18"
     },
@@ -1487,11 +1347,9 @@ export default {
       "masked": "The investigation produced ____.",
       "options": [
         "volume-mcq-19",
-        "volume-mcq-18",
-        "volume-mcq-17",
-        "volume-mcq-16",
-        "volume-mcq-15",
-        "volume-mcq-14"
+        "volume-mcq-12",
+        "volume-mcq-14",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「voluminous records」指「大量的；龐大的」。",
       "sentenceIndex": 35,
@@ -1500,12 +1358,10 @@ export default {
         "voluminous records"
       ],
       "optionReasons": {
-        "volume-mcq-19": "本句指「大量的；龐大的」。",
-        "volume-mcq-18": "「體積的」是「volumetric」的用法，與本句語境不同。",
-        "volume-mcq-17": "「大批量地」是「in volume」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。"
+        "volume-mcq-19": "本句的「voluminous records」指「大量的；龐大的」。",
+        "volume-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-19"
     },
@@ -1517,11 +1373,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "volume-mcq-19",
-        "volume-mcq-18",
-        "volume-mcq-17",
-        "volume-mcq-16",
-        "volume-mcq-15",
-        "volume-mcq-14"
+        "volume-mcq-13",
+        "volume-mcq-11",
+        "volume-mcq-18"
       ],
       "explanation": "本句的「voluminous skirt」指「大量的；龐大的」。",
       "sentenceIndex": 36,
@@ -1530,12 +1384,10 @@ export default {
         "voluminous skirt"
       ],
       "optionReasons": {
-        "volume-mcq-19": "本句指「大量的；龐大的」。",
-        "volume-mcq-18": "「體積的」是「volumetric」的用法，與本句語境不同。",
-        "volume-mcq-17": "「大批量地」是「in volume」的用法，與本句語境不同。",
-        "volume-mcq-16": "「少量的」是「low-volume」的用法，與本句語境不同。",
-        "volume-mcq-15": "「大量的」是「high-volume」的用法，與本句語境不同。",
-        "volume-mcq-14": "「充分反映 X」是「speak volumes about X」的用法，與本句語境不同。"
+        "volume-mcq-19": "本句的「voluminous skirt」指「大量的；龐大的」。",
+        "volume-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "volume-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "volume-mcq-19"
     }
@@ -1547,5 +1399,7 @@ export default {
     "sha256": "4a49e438a0315ba8e00473783bcf509b5567cbb319668bfeee82694d7bfd7016",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

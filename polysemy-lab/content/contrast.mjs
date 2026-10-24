@@ -427,11 +427,7 @@ export default {
       "masked": "There is a clear ____ between the two gifts.",
       "options": [
         "contrast-mcq-01",
-        "contrast-mcq-02",
-        "contrast-mcq-04",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast」指「對比；反差」。",
       "sentenceIndex": 0,
@@ -440,12 +436,8 @@ export default {
         "contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-01": "本句指「對比；反差」。",
-        "contrast-mcq-02": "「相比之下」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-01": "本句的「contrast」指「對比；反差」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-01"
     },
@@ -457,11 +449,7 @@ export default {
       "masked": "The ____ between old and new is striking.",
       "options": [
         "contrast-mcq-01",
-        "contrast-mcq-02",
-        "contrast-mcq-04",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast」指「對比；反差」。",
       "sentenceIndex": 1,
@@ -470,12 +458,8 @@ export default {
         "contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-01": "本句指「對比；反差」。",
-        "contrast-mcq-02": "「相比之下」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-01": "本句的「contrast」指「對比；反差」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-01"
     },
@@ -487,11 +471,7 @@ export default {
       "masked": "The essay examines the ____ between city and country life.",
       "options": [
         "contrast-mcq-01",
-        "contrast-mcq-02",
-        "contrast-mcq-04",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast」指「對比；反差」。",
       "sentenceIndex": 2,
@@ -500,12 +480,8 @@ export default {
         "contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-01": "本句指「對比；反差」。",
-        "contrast-mcq-02": "「相比之下」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-01": "本句的「contrast」指「對比；反差」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-01"
     },
@@ -517,11 +493,7 @@ export default {
       "masked": "This photo album, ____, felt far more thoughtful.",
       "options": [
         "contrast-mcq-02",
-        "contrast-mcq-01",
-        "contrast-mcq-04",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「by contrast」指「相比之下」。",
       "sentenceIndex": 3,
@@ -530,12 +502,8 @@ export default {
         "by contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-02": "本句指「相比之下」。",
-        "contrast-mcq-01": "「對比；反差」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-02": "本句的「by contrast」指「相比之下」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-02"
     },
@@ -547,11 +515,7 @@ export default {
       "masked": "The first plan was expensive. ____, the second was quite affordable.",
       "options": [
         "contrast-mcq-02",
-        "contrast-mcq-01",
-        "contrast-mcq-04",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「By contrast」指「相比之下」。",
       "sentenceIndex": 4,
@@ -560,12 +524,8 @@ export default {
         "By contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-02": "本句指「相比之下」。",
-        "contrast-mcq-01": "「對比；反差」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-02": "本句的「By contrast」指「相比之下」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-02"
     },
@@ -577,11 +537,7 @@ export default {
       "masked": "His brother is very outgoing. ____, he is quiet.",
       "options": [
         "contrast-mcq-03",
-        "contrast-mcq-04",
-        "contrast-mcq-01",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「In contrast」指「相比之下」。",
       "sentenceIndex": 5,
@@ -590,12 +546,8 @@ export default {
         "In contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-03": "本句指「相比之下」。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-01": "「對比；反差」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-03": "本句的「In contrast」指「相比之下」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-03"
     },
@@ -607,11 +559,7 @@ export default {
       "masked": "The old building is dark; ____, the new one is bright.",
       "options": [
         "contrast-mcq-03",
-        "contrast-mcq-04",
-        "contrast-mcq-01",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「in contrast」指「相比之下」。",
       "sentenceIndex": 6,
@@ -620,12 +568,8 @@ export default {
         "in contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-03": "本句指「相比之下」。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-01": "「對比；反差」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-03": "本句的「in contrast」指「相比之下」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-03"
     },
@@ -637,11 +581,7 @@ export default {
       "masked": "____ her previous gifts, the album was highly personal.",
       "options": [
         "contrast-mcq-04",
-        "contrast-mcq-03",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-01",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「In contrast to」指「與……相比／形成對比」。",
       "sentenceIndex": 7,
@@ -650,12 +590,8 @@ export default {
         "In contrast to"
       ],
       "optionReasons": {
-        "contrast-mcq-04": "本句指「與……相比／形成對比」。",
-        "contrast-mcq-03": "「相比之下」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-01": "「對比；反差」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-04": "本句的「In contrast to」指「與……相比／形成對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-04"
     },
@@ -667,11 +603,7 @@ export default {
       "masked": "His calm manner stood ____ the tense atmosphere.",
       "options": [
         "contrast-mcq-04",
-        "contrast-mcq-03",
-        "contrast-mcq-05",
-        "contrast-mcq-06",
-        "contrast-mcq-01",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「in contrast with」指「與……相比／形成對比」。",
       "sentenceIndex": 8,
@@ -680,12 +612,8 @@ export default {
         "in contrast with"
       ],
       "optionReasons": {
-        "contrast-mcq-04": "本句指「與……相比／形成對比」。",
-        "contrast-mcq-03": "「相比之下」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-01": "「對比；反差」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-04": "本句的「in contrast with」指「與……相比／形成對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-04"
     },
@@ -697,11 +625,7 @@ export default {
       "masked": "The essay ____.",
       "options": [
         "contrast-mcq-05",
-        "contrast-mcq-04",
-        "contrast-mcq-06",
-        "contrast-mcq-03",
-        "contrast-mcq-07",
-        "contrast-mcq-08"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasts city life with country life」指「把 A 與 B 對比」。",
       "sentenceIndex": 9,
@@ -710,12 +634,8 @@ export default {
         "contrasts city life with country life"
       ],
       "optionReasons": {
-        "contrast-mcq-05": "本句指「把 A 與 B 對比」。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-03": "「相比之下」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。"
+        "contrast-mcq-05": "本句的「contrasts city life with country life」指「把 A 與 B 對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-05"
     },
@@ -727,11 +647,7 @@ export default {
       "masked": "The speaker ____.",
       "options": [
         "contrast-mcq-05",
-        "contrast-mcq-04",
-        "contrast-mcq-06",
-        "contrast-mcq-03",
-        "contrast-mcq-07",
-        "contrast-mcq-08"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasted handmade gifts with shop-bought ones」指「把 A 與 B 對比」。",
       "sentenceIndex": 10,
@@ -740,12 +656,8 @@ export default {
         "contrasted handmade gifts with shop-bought ones"
       ],
       "optionReasons": {
-        "contrast-mcq-05": "本句指「把 A 與 B 對比」。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-03": "「相比之下」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。"
+        "contrast-mcq-05": "本句的「contrasted handmade gifts with shop-bought ones」指「把 A 與 B 對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-05"
     },
@@ -757,11 +669,7 @@ export default {
       "masked": "Her cheerful voice ____ his serious expression.",
       "options": [
         "contrast-mcq-06",
-        "contrast-mcq-05",
-        "contrast-mcq-07",
-        "contrast-mcq-04",
-        "contrast-mcq-08",
-        "contrast-mcq-03"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasted with」指「與 X 形成對比」。",
       "sentenceIndex": 11,
@@ -770,12 +678,8 @@ export default {
         "contrasted with"
       ],
       "optionReasons": {
-        "contrast-mcq-06": "本句指「與 X 形成對比」。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。",
-        "contrast-mcq-03": "「相比之下」與本句語境不同。"
+        "contrast-mcq-06": "本句的「contrasted with」指「與 X 形成對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-06"
     },
@@ -787,11 +691,7 @@ export default {
       "masked": "The modern furniture ____ the old walls.",
       "options": [
         "contrast-mcq-06",
-        "contrast-mcq-05",
-        "contrast-mcq-07",
-        "contrast-mcq-04",
-        "contrast-mcq-08",
-        "contrast-mcq-03"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasts with」指「與 X 形成對比」。",
       "sentenceIndex": 12,
@@ -800,12 +700,8 @@ export default {
         "contrasts with"
       ],
       "optionReasons": {
-        "contrast-mcq-06": "本句指「與 X 形成對比」。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。",
-        "contrast-mcq-03": "「相比之下」與本句語境不同。"
+        "contrast-mcq-06": "本句的「contrasts with」指「與 X 形成對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-06"
     },
@@ -817,11 +713,7 @@ export default {
       "masked": "The quiet room ____ the noisy street outside.",
       "options": [
         "contrast-mcq-07",
-        "contrast-mcq-06",
-        "contrast-mcq-08",
-        "contrast-mcq-05",
-        "contrast-mcq-09",
-        "contrast-mcq-04"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasted sharply with」指「與……形成鮮明對比」。",
       "sentenceIndex": 13,
@@ -830,12 +722,8 @@ export default {
         "contrasted sharply with"
       ],
       "optionReasons": {
-        "contrast-mcq-07": "本句指「與……形成鮮明對比」。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。"
+        "contrast-mcq-07": "本句的「contrasted sharply with」指「與……形成鮮明對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-07"
     },
@@ -847,11 +735,7 @@ export default {
       "masked": "His generous behaviour ____ her selfishness.",
       "options": [
         "contrast-mcq-07",
-        "contrast-mcq-06",
-        "contrast-mcq-08",
-        "contrast-mcq-05",
-        "contrast-mcq-09",
-        "contrast-mcq-04"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasted sharply with」指「與……形成鮮明對比」。",
       "sentenceIndex": 14,
@@ -860,12 +744,8 @@ export default {
         "contrasted sharply with"
       ],
       "optionReasons": {
-        "contrast-mcq-07": "本句指「與……形成鮮明對比」。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-04": "「與……相比／形成對比」與本句語境不同。"
+        "contrast-mcq-07": "本句的「contrasted sharply with」指「與……形成鮮明對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-07"
     },
@@ -877,11 +757,7 @@ export default {
       "masked": "There was a ____ between the two designs.",
       "options": [
         "contrast-mcq-08",
-        "contrast-mcq-07",
-        "contrast-mcq-09",
-        "contrast-mcq-06",
-        "contrast-mcq-10",
-        "contrast-mcq-05"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「sharp contrast」指「強烈對比」。",
       "sentenceIndex": 15,
@@ -890,12 +766,8 @@ export default {
         "sharp contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-08": "本句指「強烈對比」。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。"
+        "contrast-mcq-08": "本句的「sharp contrast」指「強烈對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-08"
     },
@@ -907,11 +779,7 @@ export default {
       "masked": "Her calm reaction was a ____ to everyone else's panic.",
       "options": [
         "contrast-mcq-08",
-        "contrast-mcq-07",
-        "contrast-mcq-09",
-        "contrast-mcq-06",
-        "contrast-mcq-10",
-        "contrast-mcq-05"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「striking contrast」指「強烈對比」。",
       "sentenceIndex": 16,
@@ -920,12 +788,8 @@ export default {
         "striking contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-08": "本句指「強烈對比」。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-06": "「與 X 形成對比」與本句語境不同。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。",
-        "contrast-mcq-05": "「把 A 與 B 對比」與本句語境不同。"
+        "contrast-mcq-08": "本句的「striking contrast」指「強烈對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-08"
     },
@@ -937,11 +801,7 @@ export default {
       "masked": "His new attitude is a ____ to his old one.",
       "options": [
         "contrast-mcq-10",
-        "contrast-mcq-09",
-        "contrast-mcq-11",
-        "contrast-mcq-08",
-        "contrast-mcq-12",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「marked contrast」指「明顯對比」。",
       "sentenceIndex": 17,
@@ -950,12 +810,8 @@ export default {
         "marked contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-10": "本句指「明顯對比」。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-10": "本句的「marked contrast」指「明顯對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-10"
     },
@@ -967,11 +823,7 @@ export default {
       "masked": "The second half showed a ____ in performance.",
       "options": [
         "contrast-mcq-10",
-        "contrast-mcq-09",
-        "contrast-mcq-11",
-        "contrast-mcq-08",
-        "contrast-mcq-12",
-        "contrast-mcq-07"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「marked contrast」指「明顯對比」。",
       "sentenceIndex": 18,
@@ -980,12 +832,8 @@ export default {
         "marked contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-10": "本句指「明顯對比」。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-07": "「與……形成鮮明對比」與本句語境不同。"
+        "contrast-mcq-10": "本句的「marked contrast」指「明顯對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-10"
     },
@@ -997,11 +845,7 @@ export default {
       "masked": "The dark frame ____ with the white wall.",
       "options": [
         "contrast-mcq-11",
-        "contrast-mcq-10",
-        "contrast-mcq-12",
-        "contrast-mcq-09",
-        "contrast-mcq-13",
-        "contrast-mcq-08"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「creates a contrast」指「形成對比」。",
       "sentenceIndex": 19,
@@ -1010,12 +854,8 @@ export default {
         "creates a contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-11": "本句指「形成對比」。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。"
+        "contrast-mcq-11": "本句的「creates a contrast」指「形成對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-11"
     },
@@ -1027,11 +867,7 @@ export default {
       "masked": "The quiet music ____ to the dramatic scene.",
       "options": [
         "contrast-mcq-11",
-        "contrast-mcq-10",
-        "contrast-mcq-12",
-        "contrast-mcq-09",
-        "contrast-mcq-13",
-        "contrast-mcq-08"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「provides a contrast」指「形成對比」。",
       "sentenceIndex": 20,
@@ -1040,12 +876,8 @@ export default {
         "provides a contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-11": "本句指「形成對比」。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-08": "「強烈對比」與本句語境不同。"
+        "contrast-mcq-11": "本句的「provides a contrast」指「形成對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-11"
     },
@@ -1057,11 +889,7 @@ export default {
       "masked": "I like the ____ between the blue and orange.",
       "options": [
         "contrast-mcq-12",
-        "contrast-mcq-11",
-        "contrast-mcq-13",
-        "contrast-mcq-10",
-        "contrast-mcq-14",
-        "contrast-mcq-09"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast in colour」指「色彩／風格對比」。",
       "sentenceIndex": 21,
@@ -1070,12 +898,8 @@ export default {
         "contrast in colour"
       ],
       "optionReasons": {
-        "contrast-mcq-12": "本句指「色彩／風格對比」。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。"
+        "contrast-mcq-12": "本句的「contrast in colour」指「色彩／風格對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-12"
     },
@@ -1087,11 +911,7 @@ export default {
       "masked": "The room uses a ____.",
       "options": [
         "contrast-mcq-12",
-        "contrast-mcq-11",
-        "contrast-mcq-13",
-        "contrast-mcq-10",
-        "contrast-mcq-14",
-        "contrast-mcq-09"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast of textures」指「色彩／風格對比」。",
       "sentenceIndex": 22,
@@ -1100,12 +920,8 @@ export default {
         "contrast of textures"
       ],
       "optionReasons": {
-        "contrast-mcq-12": "本句指「色彩／風格對比」。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-09": "「鮮明反差」與本句語境不同。"
+        "contrast-mcq-12": "本句的「contrast of textures」指「色彩／風格對比」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-12"
     },
@@ -1117,11 +933,7 @@ export default {
       "masked": "The photograph has very ____.",
       "options": [
         "contrast-mcq-13",
-        "contrast-mcq-12",
-        "contrast-mcq-14",
-        "contrast-mcq-11",
-        "contrast-mcq-15",
-        "contrast-mcq-10"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「high contrast」指「高對比度」。",
       "sentenceIndex": 23,
@@ -1130,12 +942,8 @@ export default {
         "high contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-13": "本句指「高對比度」。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。"
+        "contrast-mcq-13": "本句的「high contrast」指「高對比度」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-13"
     },
@@ -1147,11 +955,7 @@ export default {
       "masked": "High-____ text is easier to read.",
       "options": [
         "contrast-mcq-13",
-        "contrast-mcq-12",
-        "contrast-mcq-14",
-        "contrast-mcq-11",
-        "contrast-mcq-15",
-        "contrast-mcq-10"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast」指「高對比度」。",
       "sentenceIndex": 24,
@@ -1160,12 +964,8 @@ export default {
         "contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-13": "本句指「高對比度」。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-10": "「明顯對比」與本句語境不同。"
+        "contrast-mcq-13": "本句的「contrast」指「高對比度」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-13"
     },
@@ -1177,11 +977,7 @@ export default {
       "masked": "The image looks soft because it has ____.",
       "options": [
         "contrast-mcq-14",
-        "contrast-mcq-13",
-        "contrast-mcq-15",
-        "contrast-mcq-12",
-        "contrast-mcq-16",
-        "contrast-mcq-11"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「low contrast」指「低對比度」。",
       "sentenceIndex": 25,
@@ -1190,12 +986,8 @@ export default {
         "low contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-14": "本句指「低對比度」。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。"
+        "contrast-mcq-14": "本句的「low contrast」指「低對比度」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-14"
     },
@@ -1207,11 +999,7 @@ export default {
       "masked": "Low-____ text can be difficult to read.",
       "options": [
         "contrast-mcq-14",
-        "contrast-mcq-13",
-        "contrast-mcq-15",
-        "contrast-mcq-12",
-        "contrast-mcq-16",
-        "contrast-mcq-11"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast」指「低對比度」。",
       "sentenceIndex": 26,
@@ -1220,12 +1008,8 @@ export default {
         "contrast"
       ],
       "optionReasons": {
-        "contrast-mcq-14": "本句指「低對比度」。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-11": "「形成對比」與本句語境不同。"
+        "contrast-mcq-14": "本句的「contrast」指「低對比度」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-14"
     },
@@ -1237,11 +1021,7 @@ export default {
       "masked": "The monitor has a high ____.",
       "options": [
         "contrast-mcq-15",
-        "contrast-mcq-14",
-        "contrast-mcq-16",
-        "contrast-mcq-13",
-        "contrast-mcq-17",
-        "contrast-mcq-12"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast ratio」指「對比度比率」。",
       "sentenceIndex": 27,
@@ -1250,12 +1030,8 @@ export default {
         "contrast ratio"
       ],
       "optionReasons": {
-        "contrast-mcq-15": "本句指「對比度比率」。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。"
+        "contrast-mcq-15": "本句的「contrast ratio」指「對比度比率」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-15"
     },
@@ -1267,11 +1043,7 @@ export default {
       "masked": "A better ____ can improve image clarity.",
       "options": [
         "contrast-mcq-15",
-        "contrast-mcq-14",
-        "contrast-mcq-16",
-        "contrast-mcq-13",
-        "contrast-mcq-17",
-        "contrast-mcq-12"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrast ratio」指「對比度比率」。",
       "sentenceIndex": 28,
@@ -1280,12 +1052,8 @@ export default {
         "contrast ratio"
       ],
       "optionReasons": {
-        "contrast-mcq-15": "本句指「對比度比率」。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-12": "「色彩／風格對比」與本句語境不同。"
+        "contrast-mcq-15": "本句的「contrast ratio」指「對比度比率」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-15"
     },
@@ -1297,11 +1065,7 @@ export default {
       "masked": "She used ____ in the design.",
       "options": [
         "contrast-mcq-16",
-        "contrast-mcq-15",
-        "contrast-mcq-17",
-        "contrast-mcq-14",
-        "contrast-mcq-18",
-        "contrast-mcq-13"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasting colours」指「對比色」。",
       "sentenceIndex": 29,
@@ -1310,12 +1074,8 @@ export default {
         "contrasting colours"
       ],
       "optionReasons": {
-        "contrast-mcq-16": "本句指「對比色」。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-18": "「對比性的」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。"
+        "contrast-mcq-16": "本句的「contrasting colours」指「對比色」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-16"
     },
@@ -1327,11 +1087,7 @@ export default {
       "masked": "The red scarf stood out against the ____.",
       "options": [
         "contrast-mcq-16",
-        "contrast-mcq-15",
-        "contrast-mcq-17",
-        "contrast-mcq-14",
-        "contrast-mcq-18",
-        "contrast-mcq-13"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrasting blue coat」指「對比色」。",
       "sentenceIndex": 30,
@@ -1340,12 +1096,8 @@ export default {
         "contrasting blue coat"
       ],
       "optionReasons": {
-        "contrast-mcq-16": "本句指「對比色」。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。",
-        "contrast-mcq-18": "「對比性的」與本句語境不同。",
-        "contrast-mcq-13": "「高對比度」與本句語境不同。"
+        "contrast-mcq-16": "本句的「contrasting blue coat」指「對比色」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-16"
     },
@@ -1357,11 +1109,7 @@ export default {
       "masked": "The article presents two ____.",
       "options": [
         "contrast-mcq-17",
-        "contrast-mcq-16",
-        "contrast-mcq-18",
-        "contrast-mcq-15",
-        "contrast-mcq-19",
-        "contrast-mcq-14"
+        "contrast-mcq-08"
       ],
       "explanation": "本句的「contrasting views」指「截然不同的觀點」。",
       "sentenceIndex": 31,
@@ -1370,12 +1118,8 @@ export default {
         "contrasting views"
       ],
       "optionReasons": {
-        "contrast-mcq-17": "本句指「截然不同的觀點」。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-18": "「對比性的」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-19": "「對比分析」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。"
+        "contrast-mcq-17": "本句的「contrasting views」指「截然不同的觀點」。",
+        "contrast-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-17"
     },
@@ -1387,11 +1131,7 @@ export default {
       "masked": "The building combines ____.",
       "options": [
         "contrast-mcq-17",
-        "contrast-mcq-16",
-        "contrast-mcq-18",
-        "contrast-mcq-15",
-        "contrast-mcq-19",
-        "contrast-mcq-14"
+        "contrast-mcq-13"
       ],
       "explanation": "本句的「contrasting styles」指「截然不同的觀點」。",
       "sentenceIndex": 32,
@@ -1400,12 +1140,8 @@ export default {
         "contrasting styles"
       ],
       "optionReasons": {
-        "contrast-mcq-17": "本句指「截然不同的觀點」。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-18": "「對比性的」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-19": "「對比分析」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。"
+        "contrast-mcq-17": "本句的「contrasting styles」指「截然不同的觀點」。",
+        "contrast-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-17"
     },
@@ -1417,11 +1153,7 @@ export default {
       "masked": "The study uses a ____.",
       "options": [
         "contrast-mcq-18",
-        "contrast-mcq-17",
-        "contrast-mcq-19",
-        "contrast-mcq-16",
-        "contrast-mcq-15",
-        "contrast-mcq-14"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrastive approach」指「對比性的」。",
       "sentenceIndex": 33,
@@ -1430,12 +1162,8 @@ export default {
         "contrastive approach"
       ],
       "optionReasons": {
-        "contrast-mcq-18": "本句指「對比性的」。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-19": "「對比分析」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。"
+        "contrast-mcq-18": "本句的「contrastive approach」指「對比性的」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-18"
     },
@@ -1447,11 +1175,7 @@ export default {
       "masked": "Linguists carried out a ____ of the two languages.",
       "options": [
         "contrast-mcq-18",
-        "contrast-mcq-17",
-        "contrast-mcq-19",
-        "contrast-mcq-16",
-        "contrast-mcq-15",
-        "contrast-mcq-14"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrastive analysis」指「對比性的」。",
       "sentenceIndex": 34,
@@ -1460,12 +1184,8 @@ export default {
         "contrastive analysis"
       ],
       "optionReasons": {
-        "contrast-mcq-18": "本句指「對比性的」。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-19": "「對比分析」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。"
+        "contrast-mcq-18": "本句的「contrastive analysis」指「對比性的」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-18"
     },
@@ -1477,11 +1197,7 @@ export default {
       "masked": "____ can reveal differences between English and Chinese grammar.",
       "options": [
         "contrast-mcq-19",
-        "contrast-mcq-18",
-        "contrast-mcq-17",
-        "contrast-mcq-16",
-        "contrast-mcq-15",
-        "contrast-mcq-14"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「Contrastive analysis」指「對比分析」。",
       "sentenceIndex": 35,
@@ -1490,12 +1206,8 @@ export default {
         "Contrastive analysis"
       ],
       "optionReasons": {
-        "contrast-mcq-19": "本句指「對比分析」。",
-        "contrast-mcq-18": "「對比性的」與本句語境不同。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。"
+        "contrast-mcq-19": "本句的「Contrastive analysis」指「對比分析」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-19"
     },
@@ -1507,11 +1219,7 @@ export default {
       "masked": "The teacher used ____ to explain the two structures.",
       "options": [
         "contrast-mcq-19",
-        "contrast-mcq-18",
-        "contrast-mcq-17",
-        "contrast-mcq-16",
-        "contrast-mcq-15",
-        "contrast-mcq-14"
+        "contrast-mcq-17"
       ],
       "explanation": "本句的「contrastive analysis」指「對比分析」。",
       "sentenceIndex": 36,
@@ -1520,12 +1228,8 @@ export default {
         "contrastive analysis"
       ],
       "optionReasons": {
-        "contrast-mcq-19": "本句指「對比分析」。",
-        "contrast-mcq-18": "「對比性的」與本句語境不同。",
-        "contrast-mcq-17": "「截然不同的觀點」與本句語境不同。",
-        "contrast-mcq-16": "「對比色」與本句語境不同。",
-        "contrast-mcq-15": "「對比度比率」與本句語境不同。",
-        "contrast-mcq-14": "「低對比度」與本句語境不同。"
+        "contrast-mcq-19": "本句的「contrastive analysis」指「對比分析」。",
+        "contrast-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "contrast-mcq-19"
     }
@@ -1537,5 +1241,7 @@ export default {
     "sha256": "7adaecfbc02bd8481cda7b2f7b41342bcdf9afe0b8de7dee82ca40eaf08765cc",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

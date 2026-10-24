@@ -437,10 +437,8 @@ export default {
       "masked": "What ____ it effective was that it did not try too hard.",
       "options": [
         "make-mcq-01",
-        "make-mcq-02",
-        "make-mcq-03",
-        "make-mcq-04",
-        "make-mcq-05",
+        "make-mcq-14",
+        "make-mcq-11",
         "make-mcq-06"
       ],
       "explanation": "本句的「made」指「使某人／某物產生某種狀態或特質」。",
@@ -450,12 +448,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-01": "本句指「使某人／某物產生某種狀態或特質」。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-01": "本句的「made」指「使某人／某物產生某種狀態或特質」。",
+        "make-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-01"
     },
@@ -467,11 +463,9 @@ export default {
       "masked": "The soft lighting ____ the room more comfortable.",
       "options": [
         "make-mcq-01",
-        "make-mcq-02",
-        "make-mcq-03",
-        "make-mcq-04",
-        "make-mcq-05",
-        "make-mcq-06"
+        "make-mcq-11",
+        "make-mcq-13",
+        "make-mcq-17"
       ],
       "explanation": "本句的「made」指「使某人／某物產生某種狀態或特質」。",
       "sentenceIndex": 1,
@@ -480,12 +474,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-01": "本句指「使某人／某物產生某種狀態或特質」。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-01": "本句的「made」指「使某人／某物產生某種狀態或特質」。",
+        "make-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-01"
     },
@@ -497,11 +489,9 @@ export default {
       "masked": "The long commute ____ me exhausted.",
       "options": [
         "make-mcq-01",
-        "make-mcq-02",
-        "make-mcq-03",
-        "make-mcq-04",
-        "make-mcq-05",
-        "make-mcq-06"
+        "make-mcq-15",
+        "make-mcq-17",
+        "make-mcq-13"
       ],
       "explanation": "本句的「made」指「使某人／某物產生某種狀態或特質」。",
       "sentenceIndex": 2,
@@ -510,12 +500,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-01": "本句指「使某人／某物產生某種狀態或特質」。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-01": "本句的「made」指「使某人／某物產生某種狀態或特質」。",
+        "make-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-01"
     },
@@ -527,11 +515,9 @@ export default {
       "masked": "The advertisement ____ me think about buying the product.",
       "options": [
         "make-mcq-02",
-        "make-mcq-01",
-        "make-mcq-03",
-        "make-mcq-04",
-        "make-mcq-05",
-        "make-mcq-06"
+        "make-mcq-07",
+        "make-mcq-06",
+        "make-mcq-05"
       ],
       "explanation": "本句的「made」指「使／要求／迫使某人做某事」。",
       "sentenceIndex": 0,
@@ -540,12 +526,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-02": "本句指「使／要求／迫使某人做某事」。",
-        "make-mcq-01": "「使某人／某物產生某種狀態或特質」是「make + object + adjective」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-02": "本句的「made」指「使／要求／迫使某人做某事」。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-02"
     },
@@ -557,11 +541,9 @@ export default {
       "masked": "The teacher ____ the students rewrite the paragraph.",
       "options": [
         "make-mcq-02",
-        "make-mcq-01",
-        "make-mcq-03",
-        "make-mcq-04",
-        "make-mcq-05",
-        "make-mcq-06"
+        "make-mcq-06",
+        "make-mcq-19",
+        "make-mcq-08"
       ],
       "explanation": "本句的「made」指「使／要求／迫使某人做某事」。",
       "sentenceIndex": 1,
@@ -570,12 +552,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-02": "本句指「使／要求／迫使某人做某事」。",
-        "make-mcq-01": "「使某人／某物產生某種狀態或特質」是「make + object + adjective」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-02": "本句的「made」指「使／要求／迫使某人做某事」。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-02"
     },
@@ -588,10 +568,8 @@ export default {
       "options": [
         "make-mcq-03",
         "make-mcq-02",
-        "make-mcq-04",
-        "make-mcq-01",
-        "make-mcq-05",
-        "make-mcq-06"
+        "make-mcq-13",
+        "make-mcq-14"
       ],
       "explanation": "本句的「makes」指「製造／製作實體物品」。",
       "sentenceIndex": 0,
@@ -600,12 +578,10 @@ export default {
         "makes"
       ],
       "optionReasons": {
-        "make-mcq-03": "本句指「製造／製作實體物品」。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-01": "「使某人／某物產生某種狀態或特質」是「make + object + adjective」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-03": "本句的「makes」指「製造／製作實體物品」。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-03"
     },
@@ -617,11 +593,9 @@ export default {
       "masked": "The table was ____ by hand.",
       "options": [
         "make-mcq-03",
-        "make-mcq-02",
-        "make-mcq-04",
-        "make-mcq-01",
-        "make-mcq-05",
-        "make-mcq-06"
+        "make-mcq-09",
+        "make-mcq-14",
+        "make-mcq-07"
       ],
       "explanation": "本句的「made」指「製造／製作實體物品」。",
       "sentenceIndex": 1,
@@ -630,12 +604,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-03": "本句指「製造／製作實體物品」。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-01": "「使某人／某物產生某種狀態或特質」是「make + object + adjective」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-03": "本句的「made」指「製造／製作實體物品」。",
+        "make-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-03"
     },
@@ -647,11 +619,9 @@ export default {
       "masked": "I’ll ____ some coffee.",
       "options": [
         "make-mcq-04",
-        "make-mcq-03",
-        "make-mcq-05",
-        "make-mcq-02",
         "make-mcq-06",
-        "make-mcq-01"
+        "make-mcq-14",
+        "make-mcq-08"
       ],
       "explanation": "本句的「make」指「準備或製作食物／飲品」。",
       "sentenceIndex": 0,
@@ -660,12 +630,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-04": "本句指「準備或製作食物／飲品」。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-01": "「使某人／某物產生某種狀態或特質」是「make + object + adjective」的用法，與本句語境不同。"
+        "make-mcq-04": "本句的「make」指「準備或製作食物／飲品」。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-04"
     },
@@ -677,11 +645,9 @@ export default {
       "masked": "She ____ dinner for the family.",
       "options": [
         "make-mcq-04",
-        "make-mcq-03",
-        "make-mcq-05",
-        "make-mcq-02",
-        "make-mcq-06",
-        "make-mcq-01"
+        "make-mcq-10",
+        "make-mcq-12",
+        "make-mcq-05"
       ],
       "explanation": "本句的「made」指「準備或製作食物／飲品」。",
       "sentenceIndex": 1,
@@ -690,12 +656,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-04": "本句指「準備或製作食物／飲品」。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-01": "「使某人／某物產生某種狀態或特質」是「make + object + adjective」的用法，與本句語境不同。"
+        "make-mcq-04": "本句的「made」指「準備或製作食物／飲品」。",
+        "make-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-04"
     },
@@ -707,11 +671,9 @@ export default {
       "masked": "We need to ____ a decision today.",
       "options": [
         "make-mcq-05",
-        "make-mcq-04",
-        "make-mcq-06",
         "make-mcq-03",
         "make-mcq-07",
-        "make-mcq-02"
+        "make-mcq-13"
       ],
       "explanation": "本句的「make」指「作出／進行／犯某種行動」。",
       "sentenceIndex": 0,
@@ -720,12 +682,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-05": "本句指「作出／進行／犯某種行動」。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。"
+        "make-mcq-05": "本句的「make」指「作出／進行／犯某種行動」。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-05"
     },
@@ -737,11 +697,9 @@ export default {
       "masked": "He ____ a serious mistake.",
       "options": [
         "make-mcq-05",
-        "make-mcq-04",
-        "make-mcq-06",
-        "make-mcq-03",
-        "make-mcq-07",
-        "make-mcq-02"
+        "make-mcq-09",
+        "make-mcq-12",
+        "make-mcq-07"
       ],
       "explanation": "本句的「made」指「作出／進行／犯某種行動」。",
       "sentenceIndex": 1,
@@ -750,12 +708,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-05": "本句指「作出／進行／犯某種行動」。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-02": "「使／要求／迫使某人做某事」是「make + person + verb」的用法，與本句語境不同。"
+        "make-mcq-05": "本句的「made」指「作出／進行／犯某種行動」。",
+        "make-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-05"
     },
@@ -767,11 +723,9 @@ export default {
       "masked": "She ____ a good salary.",
       "options": [
         "make-mcq-06",
-        "make-mcq-05",
-        "make-mcq-07",
-        "make-mcq-04",
+        "make-mcq-17",
         "make-mcq-08",
-        "make-mcq-03"
+        "make-mcq-16"
       ],
       "explanation": "本句的「makes」指「賺取金錢／取得利潤」。",
       "sentenceIndex": 0,
@@ -780,12 +734,10 @@ export default {
         "makes"
       ],
       "optionReasons": {
-        "make-mcq-06": "本句指「賺取金錢／取得利潤」。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。"
+        "make-mcq-06": "本句的「makes」指「賺取金錢／取得利潤」。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-06"
     },
@@ -797,10 +749,8 @@ export default {
       "masked": "The company ____ a large profit last year.",
       "options": [
         "make-mcq-06",
-        "make-mcq-05",
         "make-mcq-07",
-        "make-mcq-04",
-        "make-mcq-08",
+        "make-mcq-02",
         "make-mcq-03"
       ],
       "explanation": "本句的「made」指「賺取金錢／取得利潤」。",
@@ -810,12 +760,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-06": "本句指「賺取金錢／取得利潤」。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-03": "「製造／製作實體物品」是「make + product/object」的用法，與本句語境不同。"
+        "make-mcq-06": "本句的「made」指「賺取金錢／取得利潤」。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-06"
     },
@@ -828,10 +776,8 @@ export default {
       "options": [
         "make-mcq-07",
         "make-mcq-06",
-        "make-mcq-08",
-        "make-mcq-05",
-        "make-mcq-09",
-        "make-mcq-04"
+        "make-mcq-10",
+        "make-mcq-19"
       ],
       "explanation": "本句的「makes」指「合計為／等於某個數值」。",
       "sentenceIndex": 0,
@@ -840,12 +786,10 @@ export default {
         "makes"
       ],
       "optionReasons": {
-        "make-mcq-07": "本句指「合計為／等於某個數值」。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。"
+        "make-mcq-07": "本句的「makes」指「合計為／等於某個數值」。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-07"
     },
@@ -857,11 +801,9 @@ export default {
       "masked": "The two payments together ____ $1,000.",
       "options": [
         "make-mcq-07",
+        "make-mcq-03",
         "make-mcq-06",
-        "make-mcq-08",
-        "make-mcq-05",
-        "make-mcq-09",
-        "make-mcq-04"
+        "make-mcq-13"
       ],
       "explanation": "本句的「make」指「合計為／等於某個數值」。",
       "sentenceIndex": 1,
@@ -870,12 +812,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-07": "本句指「合計為／等於某個數值」。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-04": "「準備或製作食物／飲品」是「make + food/drink」的用法，與本句語境不同。"
+        "make-mcq-07": "本句的「make」指「合計為／等於某個數值」。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-07"
     },
@@ -887,11 +827,9 @@ export default {
       "masked": "Ten employees ____ a complete team.",
       "options": [
         "make-mcq-08",
-        "make-mcq-07",
-        "make-mcq-09",
-        "make-mcq-06",
-        "make-mcq-10",
-        "make-mcq-05"
+        "make-mcq-15",
+        "make-mcq-18",
+        "make-mcq-17"
       ],
       "explanation": "本句的「make」指「多個部分共同組成整體」。",
       "sentenceIndex": 0,
@@ -900,12 +838,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-08": "本句指「多個部分共同組成整體」。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。"
+        "make-mcq-08": "本句的「make」指「多個部分共同組成整體」。",
+        "make-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-08"
     },
@@ -917,11 +853,9 @@ export default {
       "masked": "These small details ____ the overall design.",
       "options": [
         "make-mcq-08",
-        "make-mcq-07",
-        "make-mcq-09",
-        "make-mcq-06",
-        "make-mcq-10",
-        "make-mcq-05"
+        "make-mcq-19",
+        "make-mcq-17",
+        "make-mcq-12"
       ],
       "explanation": "本句的「make」指「多個部分共同組成整體」。",
       "sentenceIndex": 1,
@@ -930,12 +864,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-08": "本句指「多個部分共同組成整體」。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-05": "「作出／進行／犯某種行動」是「make + decision/effort/mistake etc.」的用法，與本句語境不同。"
+        "make-mcq-08": "本句的「make」指「多個部分共同組成整體」。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-08"
     },
@@ -947,11 +879,9 @@ export default {
       "masked": "They ____ her team leader.",
       "options": [
         "make-mcq-09",
-        "make-mcq-08",
-        "make-mcq-10",
-        "make-mcq-07",
-        "make-mcq-11",
-        "make-mcq-06"
+        "make-mcq-05",
+        "make-mcq-04",
+        "make-mcq-13"
       ],
       "explanation": "本句的「made」指「任命某人擔任某職位」。",
       "sentenceIndex": 0,
@@ -960,12 +890,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-09": "本句指「任命某人擔任某職位」。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-09": "本句的「made」指「任命某人擔任某職位」。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-09"
     },
@@ -977,11 +905,9 @@ export default {
       "masked": "The board ____ him chairman.",
       "options": [
         "make-mcq-09",
-        "make-mcq-08",
-        "make-mcq-10",
-        "make-mcq-07",
-        "make-mcq-11",
-        "make-mcq-06"
+        "make-mcq-17",
+        "make-mcq-19",
+        "make-mcq-12"
       ],
       "explanation": "本句的「made」指「任命某人擔任某職位」。",
       "sentenceIndex": 1,
@@ -990,12 +916,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-09": "本句指「任命某人擔任某職位」。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-06": "「賺取金錢／取得利潤」是「make money/profit」的用法，與本句語境不同。"
+        "make-mcq-09": "本句的「made」指「任命某人擔任某職位」。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-09"
     },
@@ -1007,11 +931,9 @@ export default {
       "masked": "Her patience ____ her a good teacher.",
       "options": [
         "make-mcq-10",
-        "make-mcq-09",
-        "make-mcq-11",
-        "make-mcq-08",
-        "make-mcq-12",
-        "make-mcq-07"
+        "make-mcq-14",
+        "make-mcq-03",
+        "make-mcq-17"
       ],
       "explanation": "本句的「makes」指「使某人／某物成為某種類型」。",
       "sentenceIndex": 0,
@@ -1020,12 +942,10 @@ export default {
         "makes"
       ],
       "optionReasons": {
-        "make-mcq-10": "本句指「使某人／某物成為某種類型」。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。"
+        "make-mcq-10": "本句的「makes」指「使某人／某物成為某種類型」。",
+        "make-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-10"
     },
@@ -1037,11 +957,9 @@ export default {
       "masked": "The large windows ____ this room an ideal meeting space.",
       "options": [
         "make-mcq-10",
-        "make-mcq-09",
-        "make-mcq-11",
-        "make-mcq-08",
-        "make-mcq-12",
-        "make-mcq-07"
+        "make-mcq-07",
+        "make-mcq-13",
+        "make-mcq-03"
       ],
       "explanation": "本句的「make」指「使某人／某物成為某種類型」。",
       "sentenceIndex": 1,
@@ -1050,12 +968,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-10": "本句指「使某人／某物成為某種類型」。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-07": "「合計為／等於某個數值」是「make + amount/number」的用法，與本句語境不同。"
+        "make-mcq-10": "本句的「make」指「使某人／某物成為某種類型」。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-10"
     },
@@ -1067,11 +983,9 @@ export default {
       "masked": "I don’t think I can ____ the 6:00 train.",
       "options": [
         "make-mcq-11",
-        "make-mcq-10",
-        "make-mcq-12",
-        "make-mcq-09",
-        "make-mcq-13",
-        "make-mcq-08"
+        "make-mcq-07",
+        "make-mcq-02",
+        "make-mcq-03"
       ],
       "explanation": "本句的「make」指「成功及時到達或出席」。",
       "sentenceIndex": 0,
@@ -1080,12 +994,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-11": "本句指「成功及時到達或出席」。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。"
+        "make-mcq-11": "本句的「make」指「成功及時到達或出席」。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-11"
     },
@@ -1097,11 +1009,9 @@ export default {
       "masked": "Can you ____ the meeting tomorrow?",
       "options": [
         "make-mcq-11",
-        "make-mcq-10",
-        "make-mcq-12",
-        "make-mcq-09",
-        "make-mcq-13",
-        "make-mcq-08"
+        "make-mcq-19",
+        "make-mcq-17",
+        "make-mcq-13"
       ],
       "explanation": "本句的「make」指「成功及時到達或出席」。",
       "sentenceIndex": 1,
@@ -1110,12 +1020,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-11": "本句指「成功及時到達或出席」。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-08": "「多個部分共同組成整體」是「make + group/whole」的用法，與本句語境不同。"
+        "make-mcq-11": "本句的「make」指「成功及時到達或出席」。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-11"
     },
@@ -1127,11 +1035,9 @@ export default {
       "masked": "The runner ____ the distance in under an hour.",
       "options": [
         "make-mcq-12",
-        "make-mcq-11",
-        "make-mcq-13",
-        "make-mcq-10",
-        "make-mcq-14",
-        "make-mcq-09"
+        "make-mcq-17",
+        "make-mcq-19",
+        "make-mcq-06"
       ],
       "explanation": "本句的「made」指「達到某時間、距離或速度」。",
       "sentenceIndex": 0,
@@ -1140,12 +1046,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-12": "本句指「達到某時間、距離或速度」。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。"
+        "make-mcq-12": "本句的「made」指「達到某時間、距離或速度」。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-12"
     },
@@ -1157,11 +1061,9 @@ export default {
       "masked": "The car can ____ 200 kilometres per hour.",
       "options": [
         "make-mcq-12",
-        "make-mcq-11",
-        "make-mcq-13",
-        "make-mcq-10",
-        "make-mcq-14",
-        "make-mcq-09"
+        "make-mcq-17",
+        "make-mcq-06",
+        "make-mcq-16"
       ],
       "explanation": "本句的「make」指「達到某時間、距離或速度」。",
       "sentenceIndex": 1,
@@ -1170,12 +1072,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-12": "本句指「達到某時間、距離或速度」。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-09": "「任命某人擔任某職位」是「make + person + role」的用法，與本句語境不同。"
+        "make-mcq-12": "本句的「make」指「達到某時間、距離或速度」。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-12"
     },
@@ -1187,11 +1087,9 @@ export default {
       "masked": "Please ____ your bed before you leave.",
       "options": [
         "make-mcq-13",
-        "make-mcq-12",
-        "make-mcq-14",
-        "make-mcq-11",
         "make-mcq-15",
-        "make-mcq-10"
+        "make-mcq-01",
+        "make-mcq-17"
       ],
       "explanation": "本句的「make」指「整理床鋪」。",
       "sentenceIndex": 0,
@@ -1200,12 +1098,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-13": "本句指「整理床鋪」。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。"
+        "make-mcq-13": "本句的「make」指「整理床鋪」。",
+        "make-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-13"
     },
@@ -1217,11 +1113,9 @@ export default {
       "masked": "She ____ the bed as soon as she got up.",
       "options": [
         "make-mcq-13",
-        "make-mcq-12",
-        "make-mcq-14",
-        "make-mcq-11",
-        "make-mcq-15",
-        "make-mcq-10"
+        "make-mcq-06",
+        "make-mcq-09",
+        "make-mcq-07"
       ],
       "explanation": "本句的「made」指「整理床鋪」。",
       "sentenceIndex": 1,
@@ -1230,12 +1124,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-13": "本句指「整理床鋪」。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-10": "「使某人／某物成為某種類型」是「make + object + noun」的用法，與本句語境不同。"
+        "make-mcq-13": "本句的「made」指「整理床鋪」。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-13"
     },
@@ -1247,11 +1139,9 @@ export default {
       "masked": "The machine ____ a strange noise.",
       "options": [
         "make-mcq-14",
-        "make-mcq-13",
-        "make-mcq-15",
-        "make-mcq-12",
-        "make-mcq-16",
-        "make-mcq-11"
+        "make-mcq-02",
+        "make-mcq-06",
+        "make-mcq-03"
       ],
       "explanation": "本句的「made」指「發出／作出某種聲音、評論或動作」。",
       "sentenceIndex": 0,
@@ -1260,12 +1150,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-14": "本句指「發出／作出某種聲音、評論或動作」。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。"
+        "make-mcq-14": "本句的「made」指「發出／作出某種聲音、評論或動作」。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-14"
     },
@@ -1278,10 +1166,8 @@ export default {
       "options": [
         "make-mcq-14",
         "make-mcq-13",
-        "make-mcq-15",
-        "make-mcq-12",
-        "make-mcq-16",
-        "make-mcq-11"
+        "make-mcq-07",
+        "make-mcq-12"
       ],
       "explanation": "本句的「made」指「發出／作出某種聲音、評論或動作」。",
       "sentenceIndex": 1,
@@ -1290,12 +1176,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-14": "本句指「發出／作出某種聲音、評論或動作」。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-11": "「成功及時到達或出席」是「make + destination/event」的用法，與本句語境不同。"
+        "make-mcq-14": "本句的「made」指「發出／作出某種聲音、評論或動作」。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-14"
     },
@@ -1307,11 +1191,9 @@ export default {
       "masked": "We need to ____ some changes to the design.",
       "options": [
         "make-mcq-15",
-        "make-mcq-14",
-        "make-mcq-16",
-        "make-mcq-13",
         "make-mcq-17",
-        "make-mcq-12"
+        "make-mcq-13",
+        "make-mcq-19"
       ],
       "explanation": "本句的「make」指「作出改變／取得進展」。",
       "sentenceIndex": 0,
@@ -1320,12 +1202,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-15": "本句指「作出改變／取得進展」。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。"
+        "make-mcq-15": "本句的「make」指「作出改變／取得進展」。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-15"
     },
@@ -1337,11 +1217,9 @@ export default {
       "masked": "She has ____ excellent progress in English.",
       "options": [
         "make-mcq-15",
-        "make-mcq-14",
-        "make-mcq-16",
-        "make-mcq-13",
-        "make-mcq-17",
-        "make-mcq-12"
+        "make-mcq-04",
+        "make-mcq-10",
+        "make-mcq-17"
       ],
       "explanation": "本句的「made」指「作出改變／取得進展」。",
       "sentenceIndex": 1,
@@ -1350,12 +1228,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-15": "本句指「作出改變／取得進展」。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-12": "「達到某時間、距離或速度」是「make + time/distance/speed」的用法，與本句語境不同。"
+        "make-mcq-15": "本句的「made」指「作出改變／取得進展」。",
+        "make-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-15"
     },
@@ -1367,11 +1243,9 @@ export default {
       "masked": "The advertisement ____ a strong impression on me.",
       "options": [
         "make-mcq-16",
-        "make-mcq-15",
-        "make-mcq-17",
-        "make-mcq-14",
-        "make-mcq-18",
-        "make-mcq-13"
+        "make-mcq-05",
+        "make-mcq-06",
+        "make-mcq-02"
       ],
       "explanation": "本句的「made」指「產生或造成影響、差異、印象」。",
       "sentenceIndex": 0,
@@ -1380,12 +1254,10 @@ export default {
         "made"
       ],
       "optionReasons": {
-        "make-mcq-16": "本句指「產生或造成影響、差異、印象」。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-18": "「產品的品牌／製造廠牌」是「make — noun」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。"
+        "make-mcq-16": "本句的「made」指「產生或造成影響、差異、印象」。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-16"
     },
@@ -1397,11 +1269,9 @@ export default {
       "masked": "A small change can ____ a big difference.",
       "options": [
         "make-mcq-16",
-        "make-mcq-15",
-        "make-mcq-17",
-        "make-mcq-14",
-        "make-mcq-18",
-        "make-mcq-13"
+        "make-mcq-07",
+        "make-mcq-02",
+        "make-mcq-14"
       ],
       "explanation": "本句的「make」指「產生或造成影響、差異、印象」。",
       "sentenceIndex": 1,
@@ -1410,12 +1280,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-16": "本句指「產生或造成影響、差異、印象」。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。",
-        "make-mcq-18": "「產品的品牌／製造廠牌」是「make — noun」的用法，與本句語境不同。",
-        "make-mcq-13": "「整理床鋪」是「make the bed」的用法，與本句語境不同。"
+        "make-mcq-16": "本句的「make」指「產生或造成影響、差異、印象」。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-16"
     },
@@ -1427,11 +1295,9 @@ export default {
       "masked": "I ____ the total about $500.",
       "options": [
         "make-mcq-17",
-        "make-mcq-16",
-        "make-mcq-18",
-        "make-mcq-15",
-        "make-mcq-19",
-        "make-mcq-14"
+        "make-mcq-05",
+        "make-mcq-12",
+        "make-mcq-02"
       ],
       "explanation": "本句的「make」指「根據計算或判斷估計某數值／情況」。",
       "sentenceIndex": 0,
@@ -1440,12 +1306,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-17": "本句指「根據計算或判斷估計某數值／情況」。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-18": "「產品的品牌／製造廠牌」是「make — noun」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-19": "「某物被創造或製作的過程」是「making — noun」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。"
+        "make-mcq-17": "本句的「make」指「根據計算或判斷估計某數值／情況」。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-17"
     },
@@ -1457,11 +1321,9 @@ export default {
       "masked": "What do you ____ the distance?",
       "options": [
         "make-mcq-17",
-        "make-mcq-16",
-        "make-mcq-18",
-        "make-mcq-15",
+        "make-mcq-06",
         "make-mcq-19",
-        "make-mcq-14"
+        "make-mcq-02"
       ],
       "explanation": "本句的「make」指「根據計算或判斷估計某數值／情況」。",
       "sentenceIndex": 1,
@@ -1470,12 +1332,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-17": "本句指「根據計算或判斷估計某數值／情況」。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-18": "「產品的品牌／製造廠牌」是「make — noun」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-19": "「某物被創造或製作的過程」是「making — noun」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。"
+        "make-mcq-17": "本句的「make」指「根據計算或判斷估計某數值／情況」。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-17"
     },
@@ -1487,11 +1347,9 @@ export default {
       "masked": "What ____ is your car?",
       "options": [
         "make-mcq-18",
-        "make-mcq-17",
-        "make-mcq-19",
-        "make-mcq-16",
-        "make-mcq-15",
-        "make-mcq-14"
+        "make-mcq-05",
+        "make-mcq-10",
+        "make-mcq-17"
       ],
       "explanation": "本句的「make」指「產品的品牌／製造廠牌」。",
       "sentenceIndex": 0,
@@ -1500,12 +1358,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-18": "本句指「產品的品牌／製造廠牌」。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-19": "「某物被創造或製作的過程」是「making — noun」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。"
+        "make-mcq-18": "本句的「make」指「產品的品牌／製造廠牌」。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-18"
     },
@@ -1517,11 +1373,9 @@ export default {
       "masked": "I prefer this ____ of camera.",
       "options": [
         "make-mcq-18",
-        "make-mcq-17",
-        "make-mcq-19",
-        "make-mcq-16",
-        "make-mcq-15",
-        "make-mcq-14"
+        "make-mcq-10",
+        "make-mcq-05",
+        "make-mcq-07"
       ],
       "explanation": "本句的「make」指「產品的品牌／製造廠牌」。",
       "sentenceIndex": 1,
@@ -1530,12 +1384,10 @@ export default {
         "make"
       ],
       "optionReasons": {
-        "make-mcq-18": "本句指「產品的品牌／製造廠牌」。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-19": "「某物被創造或製作的過程」是「making — noun」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。"
+        "make-mcq-18": "本句的「make」指「產品的品牌／製造廠牌」。",
+        "make-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-18"
     },
@@ -1547,11 +1399,9 @@ export default {
       "masked": "The documentary shows the ____ of the film.",
       "options": [
         "make-mcq-19",
-        "make-mcq-18",
-        "make-mcq-17",
-        "make-mcq-16",
-        "make-mcq-15",
-        "make-mcq-14"
+        "make-mcq-11",
+        "make-mcq-13",
+        "make-mcq-17"
       ],
       "explanation": "本句的「making」指「某物被創造或製作的過程」。",
       "sentenceIndex": 0,
@@ -1560,12 +1410,10 @@ export default {
         "making"
       ],
       "optionReasons": {
-        "make-mcq-19": "本句指「某物被創造或製作的過程」。",
-        "make-mcq-18": "「產品的品牌／製造廠牌」是「make — noun」的用法，與本句語境不同。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。"
+        "make-mcq-19": "本句的「making」指「某物被創造或製作的過程」。",
+        "make-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-19"
     },
@@ -1577,11 +1425,9 @@ export default {
       "masked": "Traditional methods are still used in the ____ of this product.",
       "options": [
         "make-mcq-19",
-        "make-mcq-18",
-        "make-mcq-17",
-        "make-mcq-16",
-        "make-mcq-15",
-        "make-mcq-14"
+        "make-mcq-02",
+        "make-mcq-06",
+        "make-mcq-08"
       ],
       "explanation": "本句的「making」指「某物被創造或製作的過程」。",
       "sentenceIndex": 1,
@@ -1590,12 +1436,10 @@ export default {
         "making"
       ],
       "optionReasons": {
-        "make-mcq-19": "本句指「某物被創造或製作的過程」。",
-        "make-mcq-18": "「產品的品牌／製造廠牌」是「make — noun」的用法，與本句語境不同。",
-        "make-mcq-17": "「根據計算或判斷估計某數值／情況」是「make = estimate/judge」的用法，與本句語境不同。",
-        "make-mcq-16": "「產生或造成影響、差異、印象」是「make + impression/difference/impact」的用法，與本句語境不同。",
-        "make-mcq-15": "「作出改變／取得進展」是「make + change/progress」的用法，與本句語境不同。",
-        "make-mcq-14": "「發出／作出某種聲音、評論或動作」是「make + sound/comment/gesture」的用法，與本句語境不同。"
+        "make-mcq-19": "本句的「making」指「某物被創造或製作的過程」。",
+        "make-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "make-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "make-mcq-19"
     }
@@ -1608,5 +1452,7 @@ export default {
     "pages": 13,
     "sha256": "b402bf5ec0c85b0b9228e363cb030b032956935c173a2ae37a7887c28cbbd84e"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

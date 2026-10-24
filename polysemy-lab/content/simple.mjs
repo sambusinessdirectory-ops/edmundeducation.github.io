@@ -763,11 +763,9 @@ export default {
       "masked": "She gives ____.",
       "options": [
         "simple-mcq-01",
-        "simple-mcq-02",
-        "simple-mcq-03",
-        "simple-mcq-04",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-14",
+        "simple-mcq-32",
+        "simple-mcq-04"
       ],
       "explanation": "本句的「simple but thoughtful advice」指「內容或表達方式不複雜，因此容易理解」。",
       "sentenceIndex": 0,
@@ -776,12 +774,10 @@ export default {
         "simple but thoughtful advice"
       ],
       "optionReasons": {
-        "simple-mcq-01": "本句指「內容或表達方式不複雜，因此容易理解」。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-01": "本句的「simple but thoughtful advice」指「內容或表達方式不複雜，因此容易理解」。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-01"
     },
@@ -793,11 +789,9 @@ export default {
       "masked": "The teacher gave a ____.",
       "options": [
         "simple-mcq-01",
-        "simple-mcq-02",
-        "simple-mcq-03",
-        "simple-mcq-04",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-16",
+        "simple-mcq-29",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simple explanation」指「內容或表達方式不複雜，因此容易理解」。",
       "sentenceIndex": 1,
@@ -806,12 +800,10 @@ export default {
         "simple explanation"
       ],
       "optionReasons": {
-        "simple-mcq-01": "本句指「內容或表達方式不複雜，因此容易理解」。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-01": "本句的「simple explanation」指「內容或表達方式不複雜，因此容易理解」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-01"
     },
@@ -823,11 +815,9 @@ export default {
       "masked": "Try to use ____.",
       "options": [
         "simple-mcq-01",
-        "simple-mcq-02",
-        "simple-mcq-03",
-        "simple-mcq-04",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-14",
+        "simple-mcq-29",
+        "simple-mcq-04"
       ],
       "explanation": "本句的「simple language」指「內容或表達方式不複雜，因此容易理解」。",
       "sentenceIndex": 2,
@@ -836,12 +826,10 @@ export default {
         "simple language"
       ],
       "optionReasons": {
-        "simple-mcq-01": "本句指「內容或表達方式不複雜，因此容易理解」。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-01": "本句的「simple language」指「內容或表達方式不複雜，因此容易理解」。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-01"
     },
@@ -853,11 +841,9 @@ export default {
       "masked": "The instructions are ____.",
       "options": [
         "simple-mcq-02",
-        "simple-mcq-01",
-        "simple-mcq-03",
-        "simple-mcq-04",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-32",
+        "simple-mcq-14",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple」指「表達清晰、沒有不必要複雜內容」。",
       "sentenceIndex": 3,
@@ -866,12 +852,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-02": "本句指「表達清晰、沒有不必要複雜內容」。",
-        "simple-mcq-01": "「內容或表達方式不複雜，因此容易理解」是「simple = easy to understand（簡單易明的）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-02": "本句的「simple」指「表達清晰、沒有不必要複雜內容」。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-02"
     },
@@ -883,11 +867,9 @@ export default {
       "masked": "She explained the idea in ____.",
       "options": [
         "simple-mcq-02",
-        "simple-mcq-01",
-        "simple-mcq-03",
-        "simple-mcq-04",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-32",
+        "simple-mcq-15",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simple terms」指「表達清晰、沒有不必要複雜內容」。",
       "sentenceIndex": 4,
@@ -896,12 +878,10 @@ export default {
         "simple terms"
       ],
       "optionReasons": {
-        "simple-mcq-02": "本句指「表達清晰、沒有不必要複雜內容」。",
-        "simple-mcq-01": "「內容或表達方式不複雜，因此容易理解」是「simple = easy to understand（簡單易明的）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-02": "本句的「simple terms」指「表達清晰、沒有不必要複雜內容」。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-02"
     },
@@ -913,11 +893,9 @@ export default {
       "masked": "The task is quite ____.",
       "options": [
         "simple-mcq-03",
-        "simple-mcq-02",
-        "simple-mcq-04",
-        "simple-mcq-01",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-20",
+        "simple-mcq-13",
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simple」指「執行某件事所需技巧、步驟或努力不多」。",
       "sentenceIndex": 5,
@@ -926,12 +904,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-03": "本句指「執行某件事所需技巧、步驟或努力不多」。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-01": "「內容或表達方式不複雜，因此容易理解」是「simple = easy to understand（簡單易明的）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-03": "本句的「simple」指「執行某件事所需技巧、步驟或努力不多」。",
+        "simple-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-03"
     },
@@ -943,11 +919,9 @@ export default {
       "masked": "It’s a ____.",
       "options": [
         "simple-mcq-03",
-        "simple-mcq-02",
-        "simple-mcq-04",
-        "simple-mcq-01",
-        "simple-mcq-05",
-        "simple-mcq-06"
+        "simple-mcq-06",
+        "simple-mcq-15",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple process」指「執行某件事所需技巧、步驟或努力不多」。",
       "sentenceIndex": 6,
@@ -956,12 +930,10 @@ export default {
         "simple process"
       ],
       "optionReasons": {
-        "simple-mcq-03": "本句指「執行某件事所需技巧、步驟或努力不多」。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-01": "「內容或表達方式不複雜，因此容易理解」是「simple = easy to understand（簡單易明的）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-03": "本句的「simple process」指「執行某件事所需技巧、步驟或努力不多」。",
+        "simple-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-03"
     },
@@ -973,11 +945,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "simple-mcq-04",
-        "simple-mcq-03",
-        "simple-mcq-05",
-        "simple-mcq-02",
-        "simple-mcq-06",
-        "simple-mcq-01"
+        "simple-mcq-30",
+        "simple-mcq-21",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simple task」指「技術要求／難度較低，完成並不困難」。",
       "sentenceIndex": 7,
@@ -986,12 +956,10 @@ export default {
         "simple task"
       ],
       "optionReasons": {
-        "simple-mcq-04": "本句指「技術要求／難度較低，完成並不困難」。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-01": "「內容或表達方式不複雜，因此容易理解」是「simple = easy to understand（簡單易明的）」的用法，與本句語境不同。"
+        "simple-mcq-04": "本句的「simple task」指「技術要求／難度較低，完成並不困難」。",
+        "simple-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-04"
     },
@@ -1003,11 +971,9 @@ export default {
       "masked": "The repair should be fairly ____.",
       "options": [
         "simple-mcq-04",
-        "simple-mcq-03",
-        "simple-mcq-05",
-        "simple-mcq-02",
-        "simple-mcq-06",
-        "simple-mcq-01"
+        "simple-mcq-16",
+        "simple-mcq-23",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「simple」指「技術要求／難度較低，完成並不困難」。",
       "sentenceIndex": 8,
@@ -1016,12 +982,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-04": "本句指「技術要求／難度較低，完成並不困難」。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-01": "「內容或表達方式不複雜，因此容易理解」是「simple = easy to understand（簡單易明的）」的用法，與本句語境不同。"
+        "simple-mcq-04": "本句的「simple」指「技術要求／難度較低，完成並不困難」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-04"
     },
@@ -1033,11 +997,9 @@ export default {
       "masked": "The course starts with ____.",
       "options": [
         "simple-mcq-05",
-        "simple-mcq-04",
-        "simple-mcq-06",
         "simple-mcq-03",
-        "simple-mcq-07",
-        "simple-mcq-02"
+        "simple-mcq-08",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「simple concepts」指「處於較基礎、初級、未複雜化的層次」。",
       "sentenceIndex": 9,
@@ -1046,12 +1008,10 @@ export default {
         "simple concepts"
       ],
       "optionReasons": {
-        "simple-mcq-05": "本句指「處於較基礎、初級、未複雜化的層次」。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。"
+        "simple-mcq-05": "本句的「simple concepts」指「處於較基礎、初級、未複雜化的層次」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-05"
     },
@@ -1063,11 +1023,9 @@ export default {
       "masked": "Children learn ____ maths first.",
       "options": [
         "simple-mcq-05",
-        "simple-mcq-04",
-        "simple-mcq-06",
-        "simple-mcq-03",
-        "simple-mcq-07",
-        "simple-mcq-02"
+        "simple-mcq-14",
+        "simple-mcq-19",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple」指「處於較基礎、初級、未複雜化的層次」。",
       "sentenceIndex": 10,
@@ -1076,12 +1034,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-05": "本句指「處於較基礎、初級、未複雜化的層次」。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-02": "「表達清晰、沒有不必要複雜內容」是「simple explanation/language/instructions（簡單易明）」的用法，與本句語境不同。"
+        "simple-mcq-05": "本句的「simple」指「處於較基礎、初級、未複雜化的層次」。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-05"
     },
@@ -1093,11 +1049,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "simple-mcq-06",
-        "simple-mcq-05",
-        "simple-mcq-07",
+        "simple-mcq-16",
         "simple-mcq-04",
-        "simple-mcq-08",
-        "simple-mcq-03"
+        "simple-mcq-19"
       ],
       "explanation": "本句的「simple machine」指「結構簡單的時，表示基本；不複雜」。",
       "sentenceIndex": 11,
@@ -1106,12 +1060,10 @@ export default {
         "simple machine"
       ],
       "optionReasons": {
-        "simple-mcq-06": "本句指「結構簡單的時，表示基本；不複雜」。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。"
+        "simple-mcq-06": "本句的「simple machine」指「結構簡單的時，表示基本；不複雜」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-06"
     },
@@ -1123,11 +1075,9 @@ export default {
       "masked": "The system uses a ____ structure.",
       "options": [
         "simple-mcq-06",
-        "simple-mcq-05",
-        "simple-mcq-07",
-        "simple-mcq-04",
-        "simple-mcq-08",
-        "simple-mcq-03"
+        "simple-mcq-03",
+        "simple-mcq-16",
+        "simple-mcq-33"
       ],
       "explanation": "本句的「simple」指「結構簡單的時，表示基本；不複雜」。",
       "sentenceIndex": 12,
@@ -1136,12 +1086,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-06": "本句指「結構簡單的時，表示基本；不複雜」。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-03": "「執行某件事所需技巧、步驟或努力不多」是「simple = easy to do（容易做的）」的用法，與本句語境不同。"
+        "simple-mcq-06": "本句的「simple」指「結構簡單的時，表示基本；不複雜」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-06"
     },
@@ -1153,11 +1101,9 @@ export default {
       "masked": "She wore a ____.",
       "options": [
         "simple-mcq-07",
-        "simple-mcq-06",
-        "simple-mcq-08",
-        "simple-mcq-05",
-        "simple-mcq-09",
-        "simple-mcq-04"
+        "simple-mcq-29",
+        "simple-mcq-14",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simple dress」指「外觀、設計或裝飾不複雜、不華麗」。",
       "sentenceIndex": 13,
@@ -1166,12 +1112,10 @@ export default {
         "simple dress"
       ],
       "optionReasons": {
-        "simple-mcq-07": "本句指「外觀、設計或裝飾不複雜、不華麗」。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。"
+        "simple-mcq-07": "本句的「simple dress」指「外觀、設計或裝飾不複雜、不華麗」。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-07"
     },
@@ -1183,10 +1127,8 @@ export default {
       "masked": "The room has a ____.",
       "options": [
         "simple-mcq-07",
-        "simple-mcq-06",
+        "simple-mcq-03",
         "simple-mcq-08",
-        "simple-mcq-05",
-        "simple-mcq-09",
         "simple-mcq-04"
       ],
       "explanation": "本句的「simple design」指「外觀、設計或裝飾不複雜、不華麗」。",
@@ -1196,12 +1138,10 @@ export default {
         "simple design"
       ],
       "optionReasons": {
-        "simple-mcq-07": "本句指「外觀、設計或裝飾不複雜、不華麗」。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-04": "「技術要求／難度較低，完成並不困難」是「simple task/job（簡單工作）」的用法，與本句語境不同。"
+        "simple-mcq-07": "本句的「simple design」指「外觀、設計或裝飾不複雜、不華麗」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-07"
     },
@@ -1213,11 +1153,9 @@ export default {
       "masked": "I prefer a ____.",
       "options": [
         "simple-mcq-08",
-        "simple-mcq-07",
-        "simple-mcq-09",
-        "simple-mcq-06",
-        "simple-mcq-10",
-        "simple-mcq-05"
+        "simple-mcq-26",
+        "simple-mcq-03",
+        "simple-mcq-04"
       ],
       "explanation": "本句的「simple design」指「簡潔風格時，表示簡約；樸素」。",
       "sentenceIndex": 15,
@@ -1226,12 +1164,10 @@ export default {
         "simple design"
       ],
       "optionReasons": {
-        "simple-mcq-08": "本句指「簡潔風格時，表示簡約；樸素」。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。"
+        "simple-mcq-08": "本句的「simple design」指「簡潔風格時，表示簡約；樸素」。",
+        "simple-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-08"
     },
@@ -1243,11 +1179,9 @@ export default {
       "masked": "The website has a ____ layout.",
       "options": [
         "simple-mcq-08",
-        "simple-mcq-07",
-        "simple-mcq-09",
-        "simple-mcq-06",
-        "simple-mcq-10",
-        "simple-mcq-05"
+        "simple-mcq-25",
+        "simple-mcq-17",
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simple」指「簡潔風格時，表示簡約；樸素」。",
       "sentenceIndex": 16,
@@ -1256,12 +1190,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-08": "本句指「簡潔風格時，表示簡約；樸素」。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-05": "「處於較基礎、初級、未複雜化的層次」是「simple = basic / not advanced（基礎的）」的用法，與本句語境不同。"
+        "simple-mcq-08": "本句的「simple」指「簡潔風格時，表示簡約；樸素」。",
+        "simple-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-08"
     },
@@ -1273,11 +1205,9 @@ export default {
       "masked": "They live a ____.",
       "options": [
         "simple-mcq-09",
-        "simple-mcq-08",
-        "simple-mcq-10",
-        "simple-mcq-07",
-        "simple-mcq-11",
-        "simple-mcq-06"
+        "simple-mcq-19",
+        "simple-mcq-29",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple life」指「生活方式不奢華、不複雜，需求較少」。",
       "sentenceIndex": 17,
@@ -1286,12 +1216,10 @@ export default {
         "simple life"
       ],
       "optionReasons": {
-        "simple-mcq-09": "本句指「生活方式不奢華、不複雜，需求較少」。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-09": "本句的「simple life」指「生活方式不奢華、不複雜，需求較少」。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-09"
     },
@@ -1303,11 +1231,9 @@ export default {
       "masked": "She prefers ____ pleasures.",
       "options": [
         "simple-mcq-09",
-        "simple-mcq-08",
-        "simple-mcq-10",
-        "simple-mcq-07",
-        "simple-mcq-11",
-        "simple-mcq-06"
+        "simple-mcq-14",
+        "simple-mcq-29",
+        "simple-mcq-21"
       ],
       "explanation": "本句的「simple」指「生活方式不奢華、不複雜，需求較少」。",
       "sentenceIndex": 18,
@@ -1316,12 +1242,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-09": "本句指「生活方式不奢華、不複雜，需求較少」。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-06": "「結構簡單的時，表示基本；不複雜」是「simple machine/system（結構簡單的）」的用法，與本句語境不同。"
+        "simple-mcq-09": "本句的「simple」指「生活方式不奢華、不複雜，需求較少」。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-09"
     },
@@ -1333,11 +1257,9 @@ export default {
       "masked": "Tea with family is one of life’s ____.",
       "options": [
         "simple-mcq-10",
-        "simple-mcq-09",
-        "simple-mcq-11",
         "simple-mcq-08",
-        "simple-mcq-12",
-        "simple-mcq-07"
+        "simple-mcq-03",
+        "simple-mcq-04"
       ],
       "explanation": "本句的「simple pleasures」指「不昂貴、不複雜但能帶來真實愉快的小事」。",
       "sentenceIndex": 19,
@@ -1346,12 +1268,10 @@ export default {
         "simple pleasures"
       ],
       "optionReasons": {
-        "simple-mcq-10": "本句指「不昂貴、不複雜但能帶來真實愉快的小事」。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。"
+        "simple-mcq-10": "本句的「simple pleasures」指「不昂貴、不複雜但能帶來真實愉快的小事」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-10"
     },
@@ -1363,11 +1283,9 @@ export default {
       "masked": "She enjoys the ____ pleasures of daily life.",
       "options": [
         "simple-mcq-10",
-        "simple-mcq-09",
-        "simple-mcq-11",
-        "simple-mcq-08",
-        "simple-mcq-12",
-        "simple-mcq-07"
+        "simple-mcq-04",
+        "simple-mcq-29",
+        "simple-mcq-14"
       ],
       "explanation": "本句的「simple」指「不昂貴、不複雜但能帶來真實愉快的小事」。",
       "sentenceIndex": 20,
@@ -1376,12 +1294,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-10": "本句指「不昂貴、不複雜但能帶來真實愉快的小事」。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-07": "「外觀、設計或裝飾不複雜、不華麗」是「simple = plain / not decorated（樸素的）」的用法，與本句語境不同。"
+        "simple-mcq-10": "本句的「simple」指「不昂貴、不複雜但能帶來真實愉快的小事」。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-10"
     },
@@ -1393,11 +1309,9 @@ export default {
       "masked": "The situation is not as ____ as it looks.",
       "options": [
         "simple-mcq-11",
-        "simple-mcq-10",
-        "simple-mcq-12",
-        "simple-mcq-09",
-        "simple-mcq-13",
-        "simple-mcq-08"
+        "simple-mcq-04",
+        "simple-mcq-14",
+        "simple-mcq-12"
       ],
       "explanation": "本句的「simple」指「單純的時，表示單純；不複雜」。",
       "sentenceIndex": 21,
@@ -1406,12 +1320,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-11": "本句指「單純的時，表示單純；不複雜」。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。"
+        "simple-mcq-11": "本句的「simple」指「單純的時，表示單純；不複雜」。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-11"
     },
@@ -1423,11 +1335,9 @@ export default {
       "masked": "There is no ____ answer.",
       "options": [
         "simple-mcq-11",
-        "simple-mcq-10",
-        "simple-mcq-12",
-        "simple-mcq-09",
-        "simple-mcq-13",
-        "simple-mcq-08"
+        "simple-mcq-16",
+        "simple-mcq-33",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simple」指「單純的時，表示單純；不複雜」。",
       "sentenceIndex": 22,
@@ -1436,12 +1346,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-11": "本句指「單純的時，表示單純；不複雜」。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-08": "「簡潔風格時，表示簡約；樸素」是「simple design/style（簡潔風格）」的用法，與本句語境不同。"
+        "simple-mcq-11": "本句的「simple」指「單純的時，表示單純；不複雜」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-11"
     },
@@ -1453,11 +1361,9 @@ export default {
       "masked": "There is no ____.",
       "options": [
         "simple-mcq-12",
-        "simple-mcq-11",
         "simple-mcq-13",
-        "simple-mcq-10",
-        "simple-mcq-14",
-        "simple-mcq-09"
+        "simple-mcq-11",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「simple solution」指「不需要很多條件、解釋或步驟就能表達／實現」。",
       "sentenceIndex": 23,
@@ -1466,12 +1372,10 @@ export default {
         "simple solution"
       ],
       "optionReasons": {
-        "simple-mcq-12": "本句指「不需要很多條件、解釋或步驟就能表達／實現」。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。"
+        "simple-mcq-12": "本句的「simple solution」指「不需要很多條件、解釋或步驟就能表達／實現」。",
+        "simple-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-12"
     },
@@ -1483,11 +1387,9 @@ export default {
       "masked": "The ____ answer is no.",
       "options": [
         "simple-mcq-12",
-        "simple-mcq-11",
-        "simple-mcq-13",
-        "simple-mcq-10",
-        "simple-mcq-14",
-        "simple-mcq-09"
+        "simple-mcq-25",
+        "simple-mcq-17",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simple」指「不需要很多條件、解釋或步驟就能表達／實現」。",
       "sentenceIndex": 24,
@@ -1496,12 +1398,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-12": "本句指「不需要很多條件、解釋或步驟就能表達／實現」。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-09": "「生活方式不奢華、不複雜，需求較少」是「simple = modest / uncomplicated way of living（簡樸的生活）」的用法，與本句語境不同。"
+        "simple-mcq-12": "本句的「simple」指「不需要很多條件、解釋或步驟就能表達／實現」。",
+        "simple-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-12"
     },
@@ -1513,11 +1413,9 @@ export default {
       "masked": "The device uses a ____.",
       "options": [
         "simple-mcq-13",
-        "simple-mcq-12",
-        "simple-mcq-14",
-        "simple-mcq-11",
-        "simple-mcq-15",
-        "simple-mcq-10"
+        "simple-mcq-08",
+        "simple-mcq-19",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simple circuit」指「結構由較少部分組成，非多層／複合式」。",
       "sentenceIndex": 25,
@@ -1526,12 +1424,10 @@ export default {
         "simple circuit"
       ],
       "optionReasons": {
-        "simple-mcq-13": "本句指「結構由較少部分組成，非多層／複合式」。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。"
+        "simple-mcq-13": "本句的「simple circuit」指「結構由較少部分組成，非多層／複合式」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-13"
     },
@@ -1543,11 +1439,9 @@ export default {
       "masked": "The molecule has a relatively ____ structure.",
       "options": [
         "simple-mcq-13",
+        "simple-mcq-08",
         "simple-mcq-12",
-        "simple-mcq-14",
-        "simple-mcq-11",
-        "simple-mcq-15",
-        "simple-mcq-10"
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simple」指「結構由較少部分組成，非多層／複合式」。",
       "sentenceIndex": 26,
@@ -1556,12 +1450,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-13": "本句指「結構由較少部分組成，非多層／複合式」。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-10": "「不昂貴、不複雜但能帶來真實愉快的小事」是「simple pleasures（簡單的小確幸／樸實樂趣）」的用法，與本句語境不同。"
+        "simple-mcq-13": "本句的「simple」指「結構由較少部分組成，非多層／複合式」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-13"
     },
@@ -1573,11 +1465,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "simple-mcq-14",
-        "simple-mcq-13",
-        "simple-mcq-15",
-        "simple-mcq-12",
-        "simple-mcq-16",
-        "simple-mcq-11"
+        "simple-mcq-02",
+        "simple-mcq-03",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple sentence」指「具有一個獨立分句核心、不是由多個獨立分句組成的句子」。",
       "sentenceIndex": 27,
@@ -1586,12 +1476,10 @@ export default {
         "simple sentence"
       ],
       "optionReasons": {
-        "simple-mcq-14": "本句指「具有一個獨立分句核心、不是由多個獨立分句組成的句子」。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。"
+        "simple-mcq-14": "本句的「simple sentence」指「具有一個獨立分句核心、不是由多個獨立分句組成的句子」。",
+        "simple-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-14"
     },
@@ -1603,11 +1491,9 @@ export default {
       "masked": "Begin with ____ sentences before writing complex ones.",
       "options": [
         "simple-mcq-14",
-        "simple-mcq-13",
-        "simple-mcq-15",
-        "simple-mcq-12",
-        "simple-mcq-16",
-        "simple-mcq-11"
+        "simple-mcq-01",
+        "simple-mcq-32",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simple」指「具有一個獨立分句核心、不是由多個獨立分句組成的句子」。",
       "sentenceIndex": 28,
@@ -1616,12 +1502,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-14": "本句指「具有一個獨立分句核心、不是由多個獨立分句組成的句子」。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-11": "「單純的時，表示單純；不複雜」是「simple = straightforward / uncomplicated situation（單純的）」的用法，與本句語境不同。"
+        "simple-mcq-14": "本句的「simple」指「具有一個獨立分句核心、不是由多個獨立分句組成的句子」。",
+        "simple-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-14"
     },
@@ -1633,10 +1517,8 @@ export default {
       "masked": "The loan uses ____.",
       "options": [
         "simple-mcq-15",
+        "simple-mcq-22",
         "simple-mcq-14",
-        "simple-mcq-16",
-        "simple-mcq-13",
-        "simple-mcq-17",
         "simple-mcq-12"
       ],
       "explanation": "本句的「simple interest」指「只按原始本金計算利息，而不把之前利息加入本金再計息」。",
@@ -1646,12 +1528,10 @@ export default {
         "simple interest"
       ],
       "optionReasons": {
-        "simple-mcq-15": "本句指「只按原始本金計算利息，而不把之前利息加入本金再計息」。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。"
+        "simple-mcq-15": "本句的「simple interest」指「只按原始本金計算利息，而不把之前利息加入本金再計息」。",
+        "simple-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-15"
     },
@@ -1663,11 +1543,9 @@ export default {
       "masked": "____ interest is calculated only on the original principal.",
       "options": [
         "simple-mcq-15",
-        "simple-mcq-14",
-        "simple-mcq-16",
-        "simple-mcq-13",
-        "simple-mcq-17",
-        "simple-mcq-12"
+        "simple-mcq-03",
+        "simple-mcq-18",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「Simple」指「只按原始本金計算利息，而不把之前利息加入本金再計息」。",
       "sentenceIndex": 30,
@@ -1676,12 +1554,10 @@ export default {
         "Simple"
       ],
       "optionReasons": {
-        "simple-mcq-15": "本句指「只按原始本金計算利息，而不把之前利息加入本金再計息」。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-12": "「不需要很多條件、解釋或步驟就能表達／實現」是「simple answer/solution（簡單答案／方案）」的用法，與本句語境不同。"
+        "simple-mcq-15": "本句的「Simple」指「只按原始本金計算利息，而不把之前利息加入本金再計息」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-15"
     },
@@ -1693,11 +1569,9 @@ export default {
       "masked": "The proposal passed by a ____.",
       "options": [
         "simple-mcq-16",
-        "simple-mcq-15",
-        "simple-mcq-17",
-        "simple-mcq-14",
-        "simple-mcq-18",
-        "simple-mcq-13"
+        "simple-mcq-31",
+        "simple-mcq-19",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simple majority」指「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」。",
       "sentenceIndex": 31,
@@ -1706,12 +1580,10 @@ export default {
         "simple majority"
       ],
       "optionReasons": {
-        "simple-mcq-16": "本句指「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。"
+        "simple-mcq-16": "本句的「simple majority」指「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」。",
+        "simple-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-16"
     },
@@ -1723,11 +1595,9 @@ export default {
       "masked": "A ____ majority is enough to approve the motion.",
       "options": [
         "simple-mcq-16",
-        "simple-mcq-15",
-        "simple-mcq-17",
-        "simple-mcq-14",
-        "simple-mcq-18",
-        "simple-mcq-13"
+        "simple-mcq-04",
+        "simple-mcq-31",
+        "simple-mcq-14"
       ],
       "explanation": "本句的「simple」指「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」。",
       "sentenceIndex": 32,
@@ -1736,12 +1606,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-16": "本句指「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-13": "「結構由較少部分組成，非多層／複合式」是「simple = single / not compound（單一的）」的用法，與本句語境不同。"
+        "simple-mcq-16": "本句的「simple」指「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-16"
     },
@@ -1753,11 +1621,9 @@ export default {
       "masked": "The material is not a ____.",
       "options": [
         "simple-mcq-17",
-        "simple-mcq-16",
-        "simple-mcq-18",
-        "simple-mcq-15",
+        "simple-mcq-08",
         "simple-mcq-19",
-        "simple-mcq-14"
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simple substance」指「非混合、非複合，或不涉及多重成分」。",
       "sentenceIndex": 33,
@@ -1766,12 +1632,10 @@ export default {
         "simple substance"
       ],
       "optionReasons": {
-        "simple-mcq-17": "本句指「非混合、非複合，或不涉及多重成分」。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。"
+        "simple-mcq-17": "本句的「simple substance」指「非混合、非複合，或不涉及多重成分」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-17"
     },
@@ -1783,11 +1647,9 @@ export default {
       "masked": "The reaction is not ____.",
       "options": [
         "simple-mcq-17",
-        "simple-mcq-16",
-        "simple-mcq-18",
         "simple-mcq-15",
         "simple-mcq-19",
-        "simple-mcq-14"
+        "simple-mcq-12"
       ],
       "explanation": "本句的「simple」指「非混合、非複合，或不涉及多重成分」。",
       "sentenceIndex": 34,
@@ -1796,12 +1658,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-17": "本句指「非混合、非複合，或不涉及多重成分」。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-14": "「具有一個獨立分句核心、不是由多個獨立分句組成的句子」是「simple sentence（簡單句）」的用法，與本句語境不同。"
+        "simple-mcq-17": "本句的「simple」指「非混合、非複合，或不涉及多重成分」。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-17"
     },
@@ -1813,11 +1673,9 @@ export default {
       "masked": "She explained it ____.",
       "options": [
         "simple-mcq-18",
-        "simple-mcq-17",
-        "simple-mcq-19",
-        "simple-mcq-16",
-        "simple-mcq-20",
-        "simple-mcq-15"
+        "simple-mcq-15",
+        "simple-mcq-04",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simply」指「以清楚、不複雜、容易理解的方式」。",
       "sentenceIndex": 35,
@@ -1826,12 +1684,10 @@ export default {
         "simply"
       ],
       "optionReasons": {
-        "simple-mcq-18": "本句指「以清楚、不複雜、容易理解的方式」。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。"
+        "simple-mcq-18": "本句的「simply」指「以清楚、不複雜、容易理解的方式」。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-18"
     },
@@ -1843,11 +1699,9 @@ export default {
       "masked": "The system is ____ designed.",
       "options": [
         "simple-mcq-18",
-        "simple-mcq-17",
-        "simple-mcq-19",
-        "simple-mcq-16",
-        "simple-mcq-20",
-        "simple-mcq-15"
+        "simple-mcq-03",
+        "simple-mcq-08",
+        "simple-mcq-04"
       ],
       "explanation": "本句的「simply」指「以清楚、不複雜、容易理解的方式」。",
       "sentenceIndex": 36,
@@ -1856,12 +1710,10 @@ export default {
         "simply"
       ],
       "optionReasons": {
-        "simple-mcq-18": "本句指「以清楚、不複雜、容易理解的方式」。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-15": "「只按原始本金計算利息，而不把之前利息加入本金再計息」是「simple interest（單利）」的用法，與本句語境不同。"
+        "simple-mcq-18": "本句的「simply」指「以清楚、不複雜、容易理解的方式」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-18"
     },
@@ -1873,11 +1725,9 @@ export default {
       "masked": "I was ____ trying to help.",
       "options": [
         "simple-mcq-19",
-        "simple-mcq-18",
-        "simple-mcq-20",
-        "simple-mcq-17",
-        "simple-mcq-21",
-        "simple-mcq-16"
+        "simple-mcq-13",
+        "simple-mcq-04",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「simply」指「只是／純粹；或用來加強某個直接、明確的說法」。",
       "sentenceIndex": 37,
@@ -1886,12 +1736,10 @@ export default {
         "simply"
       ],
       "optionReasons": {
-        "simple-mcq-19": "本句指「只是／純粹；或用來加強某個直接、明確的說法」。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。"
+        "simple-mcq-19": "本句的「simply」指「只是／純粹；或用來加強某個直接、明確的說法」。",
+        "simple-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-19"
     },
@@ -1903,11 +1751,9 @@ export default {
       "masked": "There is ____ no time.",
       "options": [
         "simple-mcq-19",
-        "simple-mcq-18",
-        "simple-mcq-20",
-        "simple-mcq-17",
-        "simple-mcq-21",
-        "simple-mcq-16"
+        "simple-mcq-14",
+        "simple-mcq-29",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simply」指「只是／純粹；或用來加強某個直接、明確的說法」。",
       "sentenceIndex": 38,
@@ -1916,12 +1762,10 @@ export default {
         "simply"
       ],
       "optionReasons": {
-        "simple-mcq-19": "本句指「只是／純粹；或用來加強某個直接、明確的說法」。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-16": "「支持票多於反對票／通常超過一半即可的多數形式，而非特別高門檻多數」是「simple majority（簡單多數）」的用法，與本句語境不同。"
+        "simple-mcq-19": "本句的「simply」指「只是／純粹；或用來加強某個直接、明確的說法」。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-19"
     },
@@ -1933,11 +1777,9 @@ export default {
       "masked": "I like her ____ she is kind.",
       "options": [
         "simple-mcq-20",
-        "simple-mcq-19",
-        "simple-mcq-21",
-        "simple-mcq-18",
-        "simple-mcq-22",
-        "simple-mcq-17"
+        "simple-mcq-16",
+        "simple-mcq-32",
+        "simple-mcq-21"
       ],
       "explanation": "本句的「simply because」指「唯一／直接原因只是……；沒有更複雜理由」。",
       "sentenceIndex": 39,
@@ -1946,12 +1788,10 @@ export default {
         "simply because"
       ],
       "optionReasons": {
-        "simple-mcq-20": "本句指「唯一／直接原因只是……；沒有更複雜理由」。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。"
+        "simple-mcq-20": "本句的「simply because」指「唯一／直接原因只是……；沒有更複雜理由」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-20"
     },
@@ -1963,11 +1803,9 @@ export default {
       "masked": "You shouldn’t agree ____ because everyone else does.",
       "options": [
         "simple-mcq-20",
-        "simple-mcq-19",
-        "simple-mcq-21",
-        "simple-mcq-18",
-        "simple-mcq-22",
-        "simple-mcq-17"
+        "simple-mcq-04",
+        "simple-mcq-16",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simply」指「唯一／直接原因只是……；沒有更複雜理由」。",
       "sentenceIndex": 40,
@@ -1976,12 +1814,10 @@ export default {
         "simply"
       ],
       "optionReasons": {
-        "simple-mcq-20": "本句指「唯一／直接原因只是……；沒有更複雜理由」。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-17": "「非混合、非複合，或不涉及多重成分」是「simple = pure / unmixed（單純的；純粹的）」的用法，與本句語境不同。"
+        "simple-mcq-20": "本句的「simply」指「唯一／直接原因只是……；沒有更複雜理由」。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-20"
     },
@@ -1993,11 +1829,9 @@ export default {
       "masked": "That is ____.",
       "options": [
         "simple-mcq-21",
+        "simple-mcq-12",
         "simple-mcq-20",
-        "simple-mcq-22",
-        "simple-mcq-19",
-        "simple-mcq-23",
-        "simple-mcq-18"
+        "simple-mcq-04"
       ],
       "explanation": "本句的「simply impossible」指「用來加強語氣，表示某種情況非常明確／強烈」。",
       "sentenceIndex": 41,
@@ -2006,12 +1840,10 @@ export default {
         "simply impossible"
       ],
       "optionReasons": {
-        "simple-mcq-21": "本句指「用來加強語氣，表示某種情況非常明確／強烈」。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。"
+        "simple-mcq-21": "本句的「simply impossible」指「用來加強語氣，表示某種情況非常明確／強烈」。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-21"
     },
@@ -2023,11 +1855,9 @@ export default {
       "masked": "The view was ____ beautiful.",
       "options": [
         "simple-mcq-21",
-        "simple-mcq-20",
-        "simple-mcq-22",
-        "simple-mcq-19",
-        "simple-mcq-23",
-        "simple-mcq-18"
+        "simple-mcq-06",
+        "simple-mcq-12",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simply」指「用來加強語氣，表示某種情況非常明確／強烈」。",
       "sentenceIndex": 42,
@@ -2036,12 +1866,10 @@ export default {
         "simply"
       ],
       "optionReasons": {
-        "simple-mcq-21": "本句指「用來加強語氣，表示某種情況非常明確／強烈」。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-18": "「以清楚、不複雜、容易理解的方式」是「simply = in a simple way（簡單地）」的用法，與本句語境不同。"
+        "simple-mcq-21": "本句的「simply」指「用來加強語氣，表示某種情況非常明確／強烈」。",
+        "simple-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-21"
     },
@@ -2053,11 +1881,9 @@ export default {
       "masked": "I like the ____ of the design.",
       "options": [
         "simple-mcq-22",
-        "simple-mcq-21",
-        "simple-mcq-23",
-        "simple-mcq-20",
-        "simple-mcq-24",
-        "simple-mcq-19"
+        "simple-mcq-04",
+        "simple-mcq-32",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「simplicity」指「不複雜、清晰、容易理解／使用的性質」。",
       "sentenceIndex": 43,
@@ -2066,12 +1892,10 @@ export default {
         "simplicity"
       ],
       "optionReasons": {
-        "simple-mcq-22": "本句指「不複雜、清晰、容易理解／使用的性質」。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。"
+        "simple-mcq-22": "本句的「simplicity」指「不複雜、清晰、容易理解／使用的性質」。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-22"
     },
@@ -2083,11 +1907,9 @@ export default {
       "masked": "The strength of the plan is its ____.",
       "options": [
         "simple-mcq-22",
-        "simple-mcq-21",
-        "simple-mcq-23",
-        "simple-mcq-20",
-        "simple-mcq-24",
-        "simple-mcq-19"
+        "simple-mcq-29",
+        "simple-mcq-15",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simplicity」指「不複雜、清晰、容易理解／使用的性質」。",
       "sentenceIndex": 44,
@@ -2096,12 +1918,10 @@ export default {
         "simplicity"
       ],
       "optionReasons": {
-        "simple-mcq-22": "本句指「不複雜、清晰、容易理解／使用的性質」。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-19": "「只是／純粹；或用來加強某個直接、明確的說法」是「simply = merely / just（只是；只不過）」的用法，與本句語境不同。"
+        "simple-mcq-22": "本句的「simplicity」指「不複雜、清晰、容易理解／使用的性質」。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-22"
     },
@@ -2113,11 +1933,9 @@ export default {
       "masked": "She admired the ____ of village life.",
       "options": [
         "simple-mcq-23",
-        "simple-mcq-22",
-        "simple-mcq-24",
-        "simple-mcq-21",
-        "simple-mcq-25",
-        "simple-mcq-20"
+        "simple-mcq-16",
+        "simple-mcq-04",
+        "simple-mcq-28"
       ],
       "explanation": "本句的「simplicity」指「不華麗、不奢侈、不複雜的風格／生活狀態」。",
       "sentenceIndex": 45,
@@ -2126,12 +1944,10 @@ export default {
         "simplicity"
       ],
       "optionReasons": {
-        "simple-mcq-23": "本句指「不華麗、不奢侈、不複雜的風格／生活狀態」。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。"
+        "simple-mcq-23": "本句的「simplicity」指「不華麗、不奢侈、不複雜的風格／生活狀態」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-23"
     },
@@ -2143,11 +1959,9 @@ export default {
       "masked": "The room was beautiful in its ____.",
       "options": [
         "simple-mcq-23",
-        "simple-mcq-22",
-        "simple-mcq-24",
-        "simple-mcq-21",
-        "simple-mcq-25",
-        "simple-mcq-20"
+        "simple-mcq-16",
+        "simple-mcq-15",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simplicity」指「不華麗、不奢侈、不複雜的風格／生活狀態」。",
       "sentenceIndex": 46,
@@ -2156,12 +1970,10 @@ export default {
         "simplicity"
       ],
       "optionReasons": {
-        "simple-mcq-23": "本句指「不華麗、不奢侈、不複雜的風格／生活狀態」。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-20": "「唯一／直接原因只是……；沒有更複雜理由」是「simply because（只是因為）」的用法，與本句語境不同。"
+        "simple-mcq-23": "本句的「simplicity」指「不華麗、不奢侈、不複雜的風格／生活狀態」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-23"
     },
@@ -2173,11 +1985,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "simple-mcq-24",
-        "simple-mcq-23",
-        "simple-mcq-25",
-        "simple-mcq-22",
-        "simple-mcq-26",
-        "simple-mcq-21"
+        "simple-mcq-16",
+        "simple-mcq-29",
+        "simple-mcq-14"
       ],
       "explanation": "本句的「simplify the process」指「減少複雜度、步驟或細節，使某物更容易理解／使用」。",
       "sentenceIndex": 47,
@@ -2186,12 +1996,10 @@ export default {
         "simplify the process"
       ],
       "optionReasons": {
-        "simple-mcq-24": "本句指「減少複雜度、步驟或細節，使某物更容易理解／使用」。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。"
+        "simple-mcq-24": "本句的「simplify the process」指「減少複雜度、步驟或細節，使某物更容易理解／使用」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-24"
     },
@@ -2203,11 +2011,9 @@ export default {
       "masked": "She ____ the explanation.",
       "options": [
         "simple-mcq-24",
-        "simple-mcq-23",
-        "simple-mcq-25",
-        "simple-mcq-22",
-        "simple-mcq-26",
-        "simple-mcq-21"
+        "simple-mcq-16",
+        "simple-mcq-14",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simplified」指「減少複雜度、步驟或細節，使某物更容易理解／使用」。",
       "sentenceIndex": 48,
@@ -2216,12 +2022,10 @@ export default {
         "simplified"
       ],
       "optionReasons": {
-        "simple-mcq-24": "本句指「減少複雜度、步驟或細節，使某物更容易理解／使用」。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-21": "「用來加強語氣，表示某種情況非常明確／強烈」是「simply = absolutely / really（簡直；實在）」的用法，與本句語境不同。"
+        "simple-mcq-24": "本句的「simplified」指「減少複雜度、步驟或細節，使某物更容易理解／使用」。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-24"
     },
@@ -2233,11 +2037,9 @@ export default {
       "masked": "Try to ____.",
       "options": [
         "simple-mcq-25",
-        "simple-mcq-24",
-        "simple-mcq-26",
-        "simple-mcq-23",
-        "simple-mcq-27",
-        "simple-mcq-22"
+        "simple-mcq-03",
+        "simple-mcq-29",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simplify the language」指「把原本較複雜的內容改得較清楚／容易處理」。",
       "sentenceIndex": 49,
@@ -2246,12 +2048,10 @@ export default {
         "simplify the language"
       ],
       "optionReasons": {
-        "simple-mcq-25": "本句指「把原本較複雜的內容改得較清楚／容易處理」。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。"
+        "simple-mcq-25": "本句的「simplify the language」指「把原本較複雜的內容改得較清楚／容易處理」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-25"
     },
@@ -2263,11 +2063,9 @@ export default {
       "masked": "The instructions were ____ for beginners.",
       "options": [
         "simple-mcq-25",
-        "simple-mcq-24",
-        "simple-mcq-26",
-        "simple-mcq-23",
-        "simple-mcq-27",
-        "simple-mcq-22"
+        "simple-mcq-03",
+        "simple-mcq-14",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simplified」指「把原本較複雜的內容改得較清楚／容易處理」。",
       "sentenceIndex": 50,
@@ -2276,12 +2074,10 @@ export default {
         "simplified"
       ],
       "optionReasons": {
-        "simple-mcq-25": "本句指「把原本較複雜的內容改得較清楚／容易處理」。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-22": "「不複雜、清晰、容易理解／使用的性質」是「simplicity（簡單；簡潔）」的用法，與本句語境不同。"
+        "simple-mcq-25": "本句的「simplified」指「把原本較複雜的內容改得較清楚／容易處理」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-25"
     },
@@ -2293,11 +2089,9 @@ export default {
       "masked": "The diagram is a ____ of the real system.",
       "options": [
         "simple-mcq-26",
-        "simple-mcq-25",
-        "simple-mcq-27",
-        "simple-mcq-24",
-        "simple-mcq-28",
-        "simple-mcq-23"
+        "simple-mcq-08",
+        "simple-mcq-03",
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simplification」指「把複雜事物縮減／改成較容易理解形式的過程或結果」。",
       "sentenceIndex": 51,
@@ -2306,12 +2100,10 @@ export default {
         "simplification"
       ],
       "optionReasons": {
-        "simple-mcq-26": "本句指「把複雜事物縮減／改成較容易理解形式的過程或結果」。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。"
+        "simple-mcq-26": "本句的「simplification」指「把複雜事物縮減／改成較容易理解形式的過程或結果」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-26"
     },
@@ -2323,11 +2115,9 @@ export default {
       "masked": "Some ____ was necessary.",
       "options": [
         "simple-mcq-26",
-        "simple-mcq-25",
-        "simple-mcq-27",
-        "simple-mcq-24",
-        "simple-mcq-28",
-        "simple-mcq-23"
+        "simple-mcq-03",
+        "simple-mcq-08",
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simplification」指「把複雜事物縮減／改成較容易理解形式的過程或結果」。",
       "sentenceIndex": 52,
@@ -2336,12 +2126,10 @@ export default {
         "simplification"
       ],
       "optionReasons": {
-        "simple-mcq-26": "本句指「把複雜事物縮減／改成較容易理解形式的過程或結果」。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-23": "「不華麗、不奢侈、不複雜的風格／生活狀態」是「simplicity = plainness / modesty（樸素）」的用法，與本句語境不同。"
+        "simple-mcq-26": "本句的「simplification」指「把複雜事物縮減／改成較容易理解形式的過程或結果」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-26"
     },
@@ -2353,11 +2141,9 @@ export default {
       "masked": "That explanation is too ____.",
       "options": [
         "simple-mcq-27",
-        "simple-mcq-26",
         "simple-mcq-28",
-        "simple-mcq-25",
-        "simple-mcq-29",
-        "simple-mcq-24"
+        "simple-mcq-03",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simplistic」指「把本來複雜的問題過度簡化，以致忽略重要因素／細節」。",
       "sentenceIndex": 53,
@@ -2366,12 +2152,10 @@ export default {
         "simplistic"
       ],
       "optionReasons": {
-        "simple-mcq-27": "本句指「把本來複雜的問題過度簡化，以致忽略重要因素／細節」。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。"
+        "simple-mcq-27": "本句的「simplistic」指「把本來複雜的問題過度簡化，以致忽略重要因素／細節」。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-27"
     },
@@ -2383,11 +2167,9 @@ export default {
       "masked": "It is ____ to blame one person for everything.",
       "options": [
         "simple-mcq-27",
-        "simple-mcq-26",
+        "simple-mcq-03",
         "simple-mcq-28",
-        "simple-mcq-25",
-        "simple-mcq-29",
-        "simple-mcq-24"
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simplistic」指「把本來複雜的問題過度簡化，以致忽略重要因素／細節」。",
       "sentenceIndex": 54,
@@ -2396,12 +2178,10 @@ export default {
         "simplistic"
       ],
       "optionReasons": {
-        "simple-mcq-27": "本句指「把本來複雜的問題過度簡化，以致忽略重要因素／細節」。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-24": "「減少複雜度、步驟或細節，使某物更容易理解／使用」是「simplify（簡化）」的用法，與本句語境不同。"
+        "simple-mcq-27": "本句的「simplistic」指「把本來複雜的問題過度簡化，以致忽略重要因素／細節」。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-27"
     },
@@ -2413,11 +2193,9 @@ export default {
       "masked": "The character was portrayed as ____.",
       "options": [
         "simple-mcq-28",
-        "simple-mcq-27",
-        "simple-mcq-29",
-        "simple-mcq-26",
         "simple-mcq-30",
-        "simple-mcq-25"
+        "simple-mcq-08",
+        "simple-mcq-14"
       ],
       "explanation": "本句的「simple-minded」指「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」。",
       "sentenceIndex": 55,
@@ -2426,12 +2204,10 @@ export default {
         "simple-minded"
       ],
       "optionReasons": {
-        "simple-mcq-28": "本句指「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。"
+        "simple-mcq-28": "本句的「simple-minded」指「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」。",
+        "simple-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-28"
     },
@@ -2444,10 +2220,8 @@ export default {
       "options": [
         "simple-mcq-28",
         "simple-mcq-27",
-        "simple-mcq-29",
-        "simple-mcq-26",
-        "simple-mcq-30",
-        "simple-mcq-25"
+        "simple-mcq-08",
+        "simple-mcq-32"
       ],
       "explanation": "本句的「simple」指「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」。",
       "sentenceIndex": 56,
@@ -2456,12 +2230,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-28": "本句指「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-25": "「把原本較複雜的內容改得較清楚／容易處理」是「simplify language/instructions（簡化語言／指示）」的用法，與本句語境不同。"
+        "simple-mcq-28": "本句的「simple」指「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」。",
+        "simple-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-28"
     },
@@ -2473,11 +2245,9 @@ export default {
       "masked": "He treated me like a ____.",
       "options": [
         "simple-mcq-29",
-        "simple-mcq-28",
-        "simple-mcq-30",
-        "simple-mcq-27",
-        "simple-mcq-31",
-        "simple-mcq-26"
+        "simple-mcq-23",
+        "simple-mcq-15",
+        "simple-mcq-03"
       ],
       "explanation": "本句的「simpleton」指「被認為愚笨／頭腦過分簡單的人」。",
       "sentenceIndex": 57,
@@ -2486,12 +2256,10 @@ export default {
         "simpleton"
       ],
       "optionReasons": {
-        "simple-mcq-29": "本句指「被認為愚笨／頭腦過分簡單的人」。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-26": "「把複雜事物縮減／改成較容易理解形式的過程或結果」是「simplification（簡化）」的用法，與本句語境不同。"
+        "simple-mcq-29": "本句的「simpleton」指「被認為愚笨／頭腦過分簡單的人」。",
+        "simple-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-29"
     },
@@ -2503,11 +2271,9 @@ export default {
       "masked": "They served a ____.",
       "options": [
         "simple-mcq-30",
-        "simple-mcq-29",
-        "simple-mcq-31",
-        "simple-mcq-28",
-        "simple-mcq-32",
-        "simple-mcq-27"
+        "simple-mcq-14",
+        "simple-mcq-16",
+        "simple-mcq-29"
       ],
       "explanation": "本句的「simple meal」指「沒有很多精緻加工、裝飾或複雜元素」。",
       "sentenceIndex": 58,
@@ -2516,12 +2282,10 @@ export default {
         "simple meal"
       ],
       "optionReasons": {
-        "simple-mcq-30": "本句指「沒有很多精緻加工、裝飾或複雜元素」。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。"
+        "simple-mcq-30": "本句的「simple meal」指「沒有很多精緻加工、裝飾或複雜元素」。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-30"
     },
@@ -2533,11 +2297,9 @@ export default {
       "masked": "She prefers ____ food.",
       "options": [
         "simple-mcq-30",
-        "simple-mcq-29",
-        "simple-mcq-31",
-        "simple-mcq-28",
         "simple-mcq-32",
-        "simple-mcq-27"
+        "simple-mcq-28",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple」指「沒有很多精緻加工、裝飾或複雜元素」。",
       "sentenceIndex": 59,
@@ -2546,12 +2308,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-30": "本句指「沒有很多精緻加工、裝飾或複雜元素」。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-27": "「把本來複雜的問題過度簡化，以致忽略重要因素／細節」是「simplistic（過度簡化的）」的用法，與本句語境不同。"
+        "simple-mcq-30": "本句的「simple」指「沒有很多精緻加工、裝飾或複雜元素」。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-30"
     },
@@ -2563,11 +2323,9 @@ export default {
       "masked": "We had a ____ at home.",
       "options": [
         "simple-mcq-31",
-        "simple-mcq-30",
-        "simple-mcq-32",
-        "simple-mcq-29",
-        "simple-mcq-33",
-        "simple-mcq-28"
+        "simple-mcq-12",
+        "simple-mcq-14",
+        "simple-mcq-21"
       ],
       "explanation": "本句的「simple dinner」指「食物準備方式不複雜、不奢華」。",
       "sentenceIndex": 60,
@@ -2576,12 +2334,10 @@ export default {
         "simple dinner"
       ],
       "optionReasons": {
-        "simple-mcq-31": "本句指「食物準備方式不複雜、不奢華」。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-33": "「強調事情非常直接明確，不需要額外解釋」是「plain and simple（就是這麼簡單／純粹如此）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。"
+        "simple-mcq-31": "本句的「simple dinner」指「食物準備方式不複雜、不奢華」。",
+        "simple-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-31"
     },
@@ -2593,11 +2349,9 @@ export default {
       "masked": "The café serves ____ homemade food.",
       "options": [
         "simple-mcq-31",
-        "simple-mcq-30",
-        "simple-mcq-32",
-        "simple-mcq-29",
-        "simple-mcq-33",
-        "simple-mcq-28"
+        "simple-mcq-04",
+        "simple-mcq-28",
+        "simple-mcq-16"
       ],
       "explanation": "本句的「simple」指「食物準備方式不複雜、不奢華」。",
       "sentenceIndex": 61,
@@ -2606,12 +2360,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-31": "本句指「食物準備方式不複雜、不奢華」。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。",
-        "simple-mcq-33": "「強調事情非常直接明確，不需要額外解釋」是「plain and simple（就是這麼簡單／純粹如此）」的用法，與本句語境不同。",
-        "simple-mcq-28": "「思考方式非常單純，語境中可能帶貶義，暗示理解力／判斷較有限」是「simple-minded（思想簡單／單純；有時貶義）」的用法，與本句語境不同。"
+        "simple-mcq-31": "本句的「simple」指「食物準備方式不複雜、不奢華」。",
+        "simple-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-31"
     },
@@ -2623,11 +2375,9 @@ export default {
       "masked": "The agreement is based on one ____.",
       "options": [
         "simple-mcq-32",
-        "simple-mcq-31",
-        "simple-mcq-33",
-        "simple-mcq-30",
-        "simple-mcq-34",
-        "simple-mcq-29"
+        "simple-mcq-02",
+        "simple-mcq-14",
+        "simple-mcq-15"
       ],
       "explanation": "本句的「simple rule」指「不涉及額外條件、例外或多層結構」。",
       "sentenceIndex": 62,
@@ -2636,12 +2386,10 @@ export default {
         "simple rule"
       ],
       "optionReasons": {
-        "simple-mcq-32": "本句指「不涉及額外條件、例外或多層結構」。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-33": "「強調事情非常直接明確，不需要額外解釋」是「plain and simple（就是這麼簡單／純粹如此）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-34": "「強調某事本質就是如此，沒有其他複雜成分」是「pure and simple（純粹就是）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。"
+        "simple-mcq-32": "本句的「simple rule」指「不涉及額外條件、例外或多層結構」。",
+        "simple-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-32"
     },
@@ -2653,11 +2401,9 @@ export default {
       "masked": "The principle is ____.",
       "options": [
         "simple-mcq-32",
-        "simple-mcq-31",
-        "simple-mcq-33",
-        "simple-mcq-30",
-        "simple-mcq-34",
-        "simple-mcq-29"
+        "simple-mcq-18",
+        "simple-mcq-29",
+        "simple-mcq-08"
       ],
       "explanation": "本句的「simple」指「不涉及額外條件、例外或多層結構」。",
       "sentenceIndex": 63,
@@ -2666,12 +2412,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-32": "本句指「不涉及額外條件、例外或多層結構」。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-33": "「強調事情非常直接明確，不需要額外解釋」是「plain and simple（就是這麼簡單／純粹如此）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-34": "「強調某事本質就是如此，沒有其他複雜成分」是「pure and simple（純粹就是）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。"
+        "simple-mcq-32": "本句的「simple」指「不涉及額外條件、例外或多層結構」。",
+        "simple-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-32"
     },
@@ -2683,10 +2427,8 @@ export default {
       "masked": "He was wrong, ____.",
       "options": [
         "simple-mcq-33",
-        "simple-mcq-32",
-        "simple-mcq-34",
-        "simple-mcq-31",
-        "simple-mcq-30",
+        "simple-mcq-05",
+        "simple-mcq-08",
         "simple-mcq-29"
       ],
       "explanation": "本句的「plain and simple」指「強調事情非常直接明確，不需要額外解釋」。",
@@ -2696,12 +2438,10 @@ export default {
         "plain and simple"
       ],
       "optionReasons": {
-        "simple-mcq-33": "本句指「強調事情非常直接明確，不需要額外解釋」。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-34": "「強調某事本質就是如此，沒有其他複雜成分」是「pure and simple（純粹就是）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。"
+        "simple-mcq-33": "本句的「plain and simple」指「強調事情非常直接明確，不需要額外解釋」。",
+        "simple-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-33"
     },
@@ -2713,11 +2453,9 @@ export default {
       "masked": "We need more time, plain and ____.",
       "options": [
         "simple-mcq-33",
-        "simple-mcq-32",
-        "simple-mcq-34",
-        "simple-mcq-31",
-        "simple-mcq-30",
-        "simple-mcq-29"
+        "simple-mcq-23",
+        "simple-mcq-29",
+        "simple-mcq-14"
       ],
       "explanation": "本句的「simple」指「強調事情非常直接明確，不需要額外解釋」。",
       "sentenceIndex": 65,
@@ -2726,12 +2464,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-33": "本句指「強調事情非常直接明確，不需要額外解釋」。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-34": "「強調某事本質就是如此，沒有其他複雜成分」是「pure and simple（純粹就是）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。"
+        "simple-mcq-33": "本句的「simple」指「強調事情非常直接明確，不需要額外解釋」。",
+        "simple-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-33"
     },
@@ -2743,11 +2479,9 @@ export default {
       "masked": "It was greed, ____.",
       "options": [
         "simple-mcq-34",
-        "simple-mcq-33",
-        "simple-mcq-32",
-        "simple-mcq-31",
-        "simple-mcq-30",
-        "simple-mcq-29"
+        "simple-mcq-08",
+        "simple-mcq-16",
+        "simple-mcq-28"
       ],
       "explanation": "本句的「pure and simple」指「強調某事本質就是如此，沒有其他複雜成分」。",
       "sentenceIndex": 66,
@@ -2756,12 +2490,10 @@ export default {
         "pure and simple"
       ],
       "optionReasons": {
-        "simple-mcq-34": "本句指「強調某事本質就是如此，沒有其他複雜成分」。",
-        "simple-mcq-33": "「強調事情非常直接明確，不需要額外解釋」是「plain and simple（就是這麼簡單／純粹如此）」的用法，與本句語境不同。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。"
+        "simple-mcq-34": "本句的「pure and simple」指「強調某事本質就是如此，沒有其他複雜成分」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-34"
     },
@@ -2773,11 +2505,9 @@ export default {
       "masked": "The decision was unfair, pure and ____.",
       "options": [
         "simple-mcq-34",
-        "simple-mcq-33",
+        "simple-mcq-08",
         "simple-mcq-32",
-        "simple-mcq-31",
-        "simple-mcq-30",
-        "simple-mcq-29"
+        "simple-mcq-28"
       ],
       "explanation": "本句的「simple」指「強調某事本質就是如此，沒有其他複雜成分」。",
       "sentenceIndex": 67,
@@ -2786,12 +2516,10 @@ export default {
         "simple"
       ],
       "optionReasons": {
-        "simple-mcq-34": "本句指「強調某事本質就是如此，沒有其他複雜成分」。",
-        "simple-mcq-33": "「強調事情非常直接明確，不需要額外解釋」是「plain and simple（就是這麼簡單／純粹如此）」的用法，與本句語境不同。",
-        "simple-mcq-32": "「不涉及額外條件、例外或多層結構」是「simple = direct / without extra conditions（直接的）」的用法，與本句語境不同。",
-        "simple-mcq-31": "「食物準備方式不複雜、不奢華」是「simple meal/food（簡單飯菜）」的用法，與本句語境不同。",
-        "simple-mcq-30": "「沒有很多精緻加工、裝飾或複雜元素」是「simple = not sophisticated / basic in taste or form（不精緻的）」的用法，與本句語境不同。",
-        "simple-mcq-29": "「被認為愚笨／頭腦過分簡單的人」是「simpleton（傻瓜；較舊／貶義）」的用法，與本句語境不同。"
+        "simple-mcq-34": "本句的「simple」指「強調某事本質就是如此，沒有其他複雜成分」。",
+        "simple-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "simple-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "simple-mcq-34"
     }
@@ -2803,5 +2531,7 @@ export default {
     "sha256": "72cc711ddedccd3cb11a5aa6a6d714a9dee8b3466490b7cf7cce60c49afdf228",
     "pages": 30
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

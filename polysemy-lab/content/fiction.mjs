@@ -333,11 +333,7 @@ export default {
       "masked": "I read more ____ than non-fiction.",
       "options": [
         "fiction-mcq-01",
-        "fiction-mcq-02",
-        "fiction-mcq-03",
-        "fiction-mcq-04",
-        "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
       "sentenceIndex": 0,
@@ -346,12 +342,8 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-01": "本句指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-01": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-01"
     },
@@ -363,11 +355,7 @@ export default {
       "masked": "The book is a work of ____.",
       "options": [
         "fiction-mcq-01",
-        "fiction-mcq-02",
-        "fiction-mcq-03",
-        "fiction-mcq-04",
-        "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
       "sentenceIndex": 1,
@@ -376,12 +364,8 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-01": "本句指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-01": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-01"
     },
@@ -393,11 +377,7 @@ export default {
       "masked": "She enjoys reading contemporary ____.",
       "options": [
         "fiction-mcq-01",
-        "fiction-mcq-02",
-        "fiction-mcq-03",
-        "fiction-mcq-04",
-        "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
       "sentenceIndex": 2,
@@ -406,12 +386,8 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-01": "本句指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-01": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-01"
     },
@@ -423,11 +399,7 @@ export default {
       "masked": "The library has a large ____ section.",
       "options": [
         "fiction-mcq-01",
-        "fiction-mcq-02",
-        "fiction-mcq-03",
-        "fiction-mcq-04",
-        "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
       "sentenceIndex": 3,
@@ -436,12 +408,8 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-01": "本句指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-01": "本句的「fiction」指「以虛構人物、事件和故事為主要內容的小說／虛構文學」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-01"
     },
@@ -453,11 +421,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "fiction-mcq-03",
-        "fiction-mcq-02",
-        "fiction-mcq-04",
-        "fiction-mcq-01",
+        "fiction-mcq-06",
         "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「work of fiction」指「主要由作者想像創作而成的虛構作品」。",
       "sentenceIndex": 4,
@@ -466,12 +432,10 @@ export default {
         "work of fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-03": "本句指「主要由作者想像創作而成的虛構作品」。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-01": "「以虛構人物、事件和故事為主要內容的小說／虛構文學」是「fiction — imaginative literature」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-03": "本句的「work of fiction」指「主要由作者想像創作而成的虛構作品」。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-03"
     },
@@ -483,11 +447,9 @@ export default {
       "masked": "The characters in the ____ are imaginary.",
       "options": [
         "fiction-mcq-03",
-        "fiction-mcq-02",
-        "fiction-mcq-04",
-        "fiction-mcq-01",
         "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-06",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「work of fiction」指「主要由作者想像創作而成的虛構作品」。",
       "sentenceIndex": 5,
@@ -496,12 +458,10 @@ export default {
         "work of fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-03": "本句指「主要由作者想像創作而成的虛構作品」。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-01": "「以虛構人物、事件和故事為主要內容的小說／虛構文學」是「fiction — imaginative literature」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-03": "本句的「work of fiction」指「主要由作者想像創作而成的虛構作品」。",
+        "fiction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-03"
     },
@@ -513,11 +473,7 @@ export default {
       "masked": "She writes both ____.",
       "options": [
         "fiction-mcq-02",
-        "fiction-mcq-01",
-        "fiction-mcq-03",
-        "fiction-mcq-04",
-        "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction and poetry」指「包含小說、短篇故事等的虛構類文學」。",
       "sentenceIndex": 6,
@@ -526,12 +482,8 @@ export default {
         "fiction and poetry"
       ],
       "optionReasons": {
-        "fiction-mcq-02": "本句指「包含小說、短篇故事等的虛構類文學」。",
-        "fiction-mcq-01": "「以虛構人物、事件和故事為主要內容的小說／虛構文學」是「fiction — imaginative literature」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-02": "本句的「fiction and poetry」指「包含小說、短篇故事等的虛構類文學」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-02"
     },
@@ -543,11 +495,7 @@ export default {
       "masked": "The prize recognizes outstanding ____.",
       "options": [
         "fiction-mcq-02",
-        "fiction-mcq-01",
-        "fiction-mcq-03",
-        "fiction-mcq-04",
-        "fiction-mcq-05",
-        "fiction-mcq-06"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「包含小說、短篇故事等的虛構類文學」。",
       "sentenceIndex": 7,
@@ -556,12 +504,8 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-02": "本句指「包含小說、短篇故事等的虛構類文學」。",
-        "fiction-mcq-01": "「以虛構人物、事件和故事為主要內容的小說／虛構文學」是「fiction — imaginative literature」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-02": "本句的「fiction」指「包含小說、短篇故事等的虛構類文學」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-02"
     },
@@ -573,11 +517,8 @@ export default {
       "masked": "She mainly reads ____.",
       "options": [
         "fiction-mcq-04",
-        "fiction-mcq-03",
-        "fiction-mcq-05",
-        "fiction-mcq-02",
-        "fiction-mcq-06",
-        "fiction-mcq-01"
+        "fiction-mcq-14",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「literary fiction」指「強調人物、文風、思想或心理深度的文學小說」。",
       "sentenceIndex": 8,
@@ -586,12 +527,9 @@ export default {
         "literary fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-04": "本句指「強調人物、文風、思想或心理深度的文學小說」。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-01": "「以虛構人物、事件和故事為主要內容的小說／虛構文學」是「fiction — imaginative literature」的用法，與本句語境不同。"
+        "fiction-mcq-04": "本句的「literary fiction」指「強調人物、文風、思想或心理深度的文學小說」。",
+        "fiction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-04"
     },
@@ -603,11 +541,8 @@ export default {
       "masked": "The novel sits somewhere between fantasy and ____.",
       "options": [
         "fiction-mcq-04",
-        "fiction-mcq-03",
-        "fiction-mcq-05",
-        "fiction-mcq-02",
-        "fiction-mcq-06",
-        "fiction-mcq-01"
+        "fiction-mcq-12",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「literary fiction」指「強調人物、文風、思想或心理深度的文學小說」。",
       "sentenceIndex": 9,
@@ -616,12 +551,9 @@ export default {
         "literary fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-04": "本句指「強調人物、文風、思想或心理深度的文學小說」。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-01": "「以虛構人物、事件和故事為主要內容的小說／虛構文學」是「fiction — imaginative literature」的用法，與本句語境不同。"
+        "fiction-mcq-04": "本句的「literary fiction」指「強調人物、文風、思想或心理深度的文學小說」。",
+        "fiction-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-04"
     },
@@ -633,11 +565,9 @@ export default {
       "masked": "Crime novels are a form of ____.",
       "options": [
         "fiction-mcq-05",
-        "fiction-mcq-04",
-        "fiction-mcq-06",
         "fiction-mcq-03",
-        "fiction-mcq-07",
-        "fiction-mcq-02"
+        "fiction-mcq-08",
+        "fiction-mcq-06"
       ],
       "explanation": "本句的「genre fiction」指「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」。",
       "sentenceIndex": 10,
@@ -646,12 +576,10 @@ export default {
         "genre fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-05": "本句指「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。"
+        "fiction-mcq-05": "本句的「genre fiction」指「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」。",
+        "fiction-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-05"
     },
@@ -663,11 +591,9 @@ export default {
       "masked": "He writes popular ____.",
       "options": [
         "fiction-mcq-05",
-        "fiction-mcq-04",
-        "fiction-mcq-06",
         "fiction-mcq-03",
-        "fiction-mcq-07",
-        "fiction-mcq-02"
+        "fiction-mcq-08",
+        "fiction-mcq-06"
       ],
       "explanation": "本句的「genre fiction」指「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」。",
       "sentenceIndex": 11,
@@ -676,12 +602,10 @@ export default {
         "genre fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-05": "本句指「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-02": "「包含小說、短篇故事等的虛構類文學」是「fiction — literary category」的用法，與本句語境不同。"
+        "fiction-mcq-05": "本句的「genre fiction」指「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」。",
+        "fiction-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-05"
     },
@@ -693,11 +617,8 @@ export default {
       "masked": "The story turned out to be complete ____.",
       "options": [
         "fiction-mcq-06",
-        "fiction-mcq-05",
-        "fiction-mcq-07",
-        "fiction-mcq-04",
-        "fiction-mcq-08",
-        "fiction-mcq-03"
+        "fiction-mcq-09",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「並非事實而是捏造、杜撰的內容」。",
       "sentenceIndex": 12,
@@ -706,12 +627,9 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-06": "本句指「並非事實而是捏造、杜撰的內容」。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。"
+        "fiction-mcq-06": "本句的「fiction」指「並非事實而是捏造、杜撰的內容」。",
+        "fiction-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-06"
     },
@@ -723,11 +641,8 @@ export default {
       "masked": "His explanation was mostly ____.",
       "options": [
         "fiction-mcq-06",
-        "fiction-mcq-05",
-        "fiction-mcq-07",
-        "fiction-mcq-04",
-        "fiction-mcq-08",
-        "fiction-mcq-03"
+        "fiction-mcq-09",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fiction」指「並非事實而是捏造、杜撰的內容」。",
       "sentenceIndex": 13,
@@ -736,12 +651,9 @@ export default {
         "fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-06": "本句指「並非事實而是捏造、杜撰的內容」。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-03": "「主要由作者想像創作而成的虛構作品」是「work of fiction」的用法，與本句語境不同。"
+        "fiction-mcq-06": "本句的「fiction」指「並非事實而是捏造、杜撰的內容」。",
+        "fiction-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-06"
     },
@@ -753,11 +665,8 @@ export default {
       "masked": "The claim is ____.",
       "options": [
         "fiction-mcq-07",
-        "fiction-mcq-06",
-        "fiction-mcq-08",
-        "fiction-mcq-05",
-        "fiction-mcq-09",
-        "fiction-mcq-04"
+        "fiction-mcq-04",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「pure fiction」指「完全沒有事實基礎；純屬虛構」。",
       "sentenceIndex": 14,
@@ -766,12 +675,9 @@ export default {
         "pure fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-07": "本句指「完全沒有事實基礎；純屬虛構」。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。"
+        "fiction-mcq-07": "本句的「pure fiction」指「完全沒有事實基礎；純屬虛構」。",
+        "fiction-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-07"
     },
@@ -783,11 +689,8 @@ export default {
       "masked": "The rumor was dismissed as ____.",
       "options": [
         "fiction-mcq-07",
-        "fiction-mcq-06",
         "fiction-mcq-08",
-        "fiction-mcq-05",
-        "fiction-mcq-09",
-        "fiction-mcq-04"
+        "fiction-mcq-11"
       ],
       "explanation": "本句的「pure fiction」指「完全沒有事實基礎；純屬虛構」。",
       "sentenceIndex": 15,
@@ -796,12 +699,9 @@ export default {
         "pure fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-07": "本句指「完全沒有事實基礎；純屬虛構」。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-04": "「強調人物、文風、思想或心理深度的文學小說」是「literary fiction」的用法，與本句語境不同。"
+        "fiction-mcq-07": "本句的「pure fiction」指「完全沒有事實基礎；純屬虛構」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-07"
     },
@@ -813,11 +713,7 @@ export default {
       "masked": "The concept operates as a ____.",
       "options": [
         "fiction-mcq-08",
-        "fiction-mcq-07",
-        "fiction-mcq-09",
-        "fiction-mcq-06",
-        "fiction-mcq-10",
-        "fiction-mcq-05"
+        "fiction-mcq-01"
       ],
       "explanation": "本句的「legal fiction」指「法律上為特定目的而視作成立的法律擬制」。",
       "sentenceIndex": 16,
@@ -826,12 +722,8 @@ export default {
         "legal fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-08": "本句指「法律上為特定目的而視作成立的法律擬制」。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。"
+        "fiction-mcq-08": "本句的「legal fiction」指「法律上為特定目的而視作成立的法律擬制」。",
+        "fiction-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-08"
     },
@@ -843,11 +735,9 @@ export default {
       "masked": "A ____ may simplify legal reasoning.",
       "options": [
         "fiction-mcq-08",
-        "fiction-mcq-07",
-        "fiction-mcq-09",
+        "fiction-mcq-05",
         "fiction-mcq-06",
-        "fiction-mcq-10",
-        "fiction-mcq-05"
+        "fiction-mcq-03"
       ],
       "explanation": "本句的「legal fiction」指「法律上為特定目的而視作成立的法律擬制」。",
       "sentenceIndex": 17,
@@ -856,12 +746,10 @@ export default {
         "legal fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-08": "本句指「法律上為特定目的而視作成立的法律擬制」。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-05": "「屬於犯罪、浪漫、奇幻、科幻等明確類型的類型小說」是「genre fiction」的用法，與本句語境不同。"
+        "fiction-mcq-08": "本句的「legal fiction」指「法律上為特定目的而視作成立的法律擬制」。",
+        "fiction-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-08"
     },
@@ -873,11 +761,8 @@ export default {
       "masked": "She loves ____.",
       "options": [
         "fiction-mcq-09",
-        "fiction-mcq-08",
-        "fiction-mcq-10",
-        "fiction-mcq-07",
-        "fiction-mcq-11",
-        "fiction-mcq-06"
+        "fiction-mcq-14",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「science fiction」指「以科學、科技、未來、太空等想像為核心的科幻小說」。",
       "sentenceIndex": 18,
@@ -886,12 +771,9 @@ export default {
         "science fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-09": "本句指「以科學、科技、未來、太空等想像為核心的科幻小說」。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-09": "本句的「science fiction」指「以科學、科技、未來、太空等想像為核心的科幻小說」。",
+        "fiction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-09"
     },
@@ -903,11 +785,8 @@ export default {
       "masked": "The film combines ____ and drama.",
       "options": [
         "fiction-mcq-09",
-        "fiction-mcq-08",
-        "fiction-mcq-10",
-        "fiction-mcq-07",
-        "fiction-mcq-11",
-        "fiction-mcq-06"
+        "fiction-mcq-12",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「science fiction」指「以科學、科技、未來、太空等想像為核心的科幻小說」。",
       "sentenceIndex": 19,
@@ -916,12 +795,9 @@ export default {
         "science fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-09": "本句指「以科學、科技、未來、太空等想像為核心的科幻小說」。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-06": "「並非事實而是捏造、杜撰的內容」是「fiction — invented/untrue account」的用法，與本句語境不同。"
+        "fiction-mcq-09": "本句的「science fiction」指「以科學、科技、未來、太空等想像為核心的科幻小說」。",
+        "fiction-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-09"
     },
@@ -933,11 +809,8 @@ export default {
       "masked": "The book is a work of ____.",
       "options": [
         "fiction-mcq-10",
-        "fiction-mcq-09",
-        "fiction-mcq-11",
-        "fiction-mcq-08",
-        "fiction-mcq-12",
-        "fiction-mcq-07"
+        "fiction-mcq-06",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「historical fiction」指「以歷史時期為背景、融合虛構人物／事件的歷史小說」。",
       "sentenceIndex": 20,
@@ -946,12 +819,9 @@ export default {
         "historical fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-10": "本句指「以歷史時期為背景、融合虛構人物／事件的歷史小說」。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。"
+        "fiction-mcq-10": "本句的「historical fiction」指「以歷史時期為背景、融合虛構人物／事件的歷史小說」。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-10"
     },
@@ -963,11 +833,8 @@ export default {
       "masked": "She writes ____ set in the nineteenth century.",
       "options": [
         "fiction-mcq-10",
-        "fiction-mcq-09",
-        "fiction-mcq-11",
         "fiction-mcq-08",
-        "fiction-mcq-12",
-        "fiction-mcq-07"
+        "fiction-mcq-06"
       ],
       "explanation": "本句的「historical fiction」指「以歷史時期為背景、融合虛構人物／事件的歷史小說」。",
       "sentenceIndex": 21,
@@ -976,12 +843,9 @@ export default {
         "historical fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-10": "本句指「以歷史時期為背景、融合虛構人物／事件的歷史小說」。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-07": "「完全沒有事實基礎；純屬虛構」是「pure fiction」的用法，與本句語境不同。"
+        "fiction-mcq-10": "本句的「historical fiction」指「以歷史時期為背景、融合虛構人物／事件的歷史小說」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-10"
     },
@@ -993,10 +857,7 @@ export default {
       "masked": "He reads a lot of ____.",
       "options": [
         "fiction-mcq-11",
-        "fiction-mcq-10",
-        "fiction-mcq-12",
-        "fiction-mcq-09",
-        "fiction-mcq-13",
+        "fiction-mcq-07",
         "fiction-mcq-08"
       ],
       "explanation": "本句的「crime fiction」指「以犯罪、調查、懸疑等為核心的犯罪小說」。",
@@ -1006,12 +867,9 @@ export default {
         "crime fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-11": "本句指「以犯罪、調查、懸疑等為核心的犯罪小說」。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-13": "「把真實人物、事件等改寫成虛構／小說形式」是「fictionalize / fictionalise」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。"
+        "fiction-mcq-11": "本句的「crime fiction」指「以犯罪、調查、懸疑等為核心的犯罪小說」。",
+        "fiction-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-11"
     },
@@ -1023,10 +881,7 @@ export default {
       "masked": "The author is known for ____.",
       "options": [
         "fiction-mcq-11",
-        "fiction-mcq-10",
-        "fiction-mcq-12",
-        "fiction-mcq-09",
-        "fiction-mcq-13",
+        "fiction-mcq-14",
         "fiction-mcq-08"
       ],
       "explanation": "本句的「crime fiction」指「以犯罪、調查、懸疑等為核心的犯罪小說」。",
@@ -1036,12 +891,9 @@ export default {
         "crime fiction"
       ],
       "optionReasons": {
-        "fiction-mcq-11": "本句指「以犯罪、調查、懸疑等為核心的犯罪小說」。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。",
-        "fiction-mcq-13": "「把真實人物、事件等改寫成虛構／小說形式」是「fictionalize / fictionalise」的用法，與本句語境不同。",
-        "fiction-mcq-08": "「法律上為特定目的而視作成立的法律擬制」是「legal fiction」的用法，與本句語境不同。"
+        "fiction-mcq-11": "本句的「crime fiction」指「以犯罪、調查、懸疑等為核心的犯罪小說」。",
+        "fiction-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-11"
     },
@@ -1053,11 +905,8 @@ export default {
       "masked": "The town is ____.",
       "options": [
         "fiction-mcq-12",
-        "fiction-mcq-11",
-        "fiction-mcq-13",
-        "fiction-mcq-10",
-        "fiction-mcq-14",
-        "fiction-mcq-09"
+        "fiction-mcq-08",
+        "fiction-mcq-04"
       ],
       "explanation": "本句的「fictional」指「為故事創作、現實中並不存在的；虛構的」。",
       "sentenceIndex": 24,
@@ -1066,12 +915,9 @@ export default {
         "fictional"
       ],
       "optionReasons": {
-        "fiction-mcq-12": "本句指「為故事創作、現實中並不存在的；虛構的」。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-13": "「把真實人物、事件等改寫成虛構／小說形式」是「fictionalize / fictionalise」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-14": "「把真實材料轉化為虛構故事的過程」是「fictionalization / fictionalisation」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。"
+        "fiction-mcq-12": "本句的「fictional」指「為故事創作、現實中並不存在的；虛構的」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-12"
     },
@@ -1084,10 +930,7 @@ export default {
       "options": [
         "fiction-mcq-12",
         "fiction-mcq-11",
-        "fiction-mcq-13",
-        "fiction-mcq-10",
-        "fiction-mcq-14",
-        "fiction-mcq-09"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fictional character」指「為故事創作、現實中並不存在的；虛構的」。",
       "sentenceIndex": 25,
@@ -1096,12 +939,9 @@ export default {
         "fictional character"
       ],
       "optionReasons": {
-        "fiction-mcq-12": "本句指「為故事創作、現實中並不存在的；虛構的」。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-13": "「把真實人物、事件等改寫成虛構／小說形式」是「fictionalize / fictionalise」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-14": "「把真實材料轉化為虛構故事的過程」是「fictionalization / fictionalisation」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。"
+        "fiction-mcq-12": "本句的「fictional character」指「為故事創作、現實中並不存在的；虛構的」。",
+        "fiction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-12"
     },
@@ -1113,11 +953,7 @@ export default {
       "masked": "The film ____ real events.",
       "options": [
         "fiction-mcq-13",
-        "fiction-mcq-12",
-        "fiction-mcq-14",
-        "fiction-mcq-11",
-        "fiction-mcq-10",
-        "fiction-mcq-09"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fictionalizes」指「把真實人物、事件等改寫成虛構／小說形式」。",
       "sentenceIndex": 26,
@@ -1126,12 +962,8 @@ export default {
         "fictionalizes"
       ],
       "optionReasons": {
-        "fiction-mcq-13": "本句指「把真實人物、事件等改寫成虛構／小說形式」。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-14": "「把真實材料轉化為虛構故事的過程」是「fictionalization / fictionalisation」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。"
+        "fiction-mcq-13": "本句的「fictionalizes」指「把真實人物、事件等改寫成虛構／小說形式」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-13"
     },
@@ -1143,11 +975,7 @@ export default {
       "masked": "The writer ____ parts of her own life.",
       "options": [
         "fiction-mcq-13",
-        "fiction-mcq-12",
-        "fiction-mcq-14",
-        "fiction-mcq-11",
-        "fiction-mcq-10",
-        "fiction-mcq-09"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fictionalised」指「把真實人物、事件等改寫成虛構／小說形式」。",
       "sentenceIndex": 27,
@@ -1156,12 +984,8 @@ export default {
         "fictionalised"
       ],
       "optionReasons": {
-        "fiction-mcq-13": "本句指「把真實人物、事件等改寫成虛構／小說形式」。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-14": "「把真實材料轉化為虛構故事的過程」是「fictionalization / fictionalisation」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。"
+        "fiction-mcq-13": "本句的「fictionalised」指「把真實人物、事件等改寫成虛構／小說形式」。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-13"
     },
@@ -1173,11 +997,8 @@ export default {
       "masked": "The series is a ____ of historical events.",
       "options": [
         "fiction-mcq-14",
-        "fiction-mcq-13",
-        "fiction-mcq-12",
         "fiction-mcq-11",
-        "fiction-mcq-10",
-        "fiction-mcq-09"
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fictionalization」指「把真實材料轉化為虛構故事的過程」。",
       "sentenceIndex": 28,
@@ -1186,12 +1007,9 @@ export default {
         "fictionalization"
       ],
       "optionReasons": {
-        "fiction-mcq-14": "本句指「把真實材料轉化為虛構故事的過程」。",
-        "fiction-mcq-13": "「把真實人物、事件等改寫成虛構／小說形式」是「fictionalize / fictionalise」的用法，與本句語境不同。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。"
+        "fiction-mcq-14": "本句的「fictionalization」指「把真實材料轉化為虛構故事的過程」。",
+        "fiction-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-14"
     },
@@ -1203,11 +1021,8 @@ export default {
       "masked": "Some details were changed during ____.",
       "options": [
         "fiction-mcq-14",
-        "fiction-mcq-13",
-        "fiction-mcq-12",
-        "fiction-mcq-11",
-        "fiction-mcq-10",
-        "fiction-mcq-09"
+        "fiction-mcq-09",
+        "fiction-mcq-08"
       ],
       "explanation": "本句的「fictionalisation」指「把真實材料轉化為虛構故事的過程」。",
       "sentenceIndex": 29,
@@ -1216,12 +1031,9 @@ export default {
         "fictionalisation"
       ],
       "optionReasons": {
-        "fiction-mcq-14": "本句指「把真實材料轉化為虛構故事的過程」。",
-        "fiction-mcq-13": "「把真實人物、事件等改寫成虛構／小說形式」是「fictionalize / fictionalise」的用法，與本句語境不同。",
-        "fiction-mcq-12": "「為故事創作、現實中並不存在的；虛構的」是「fictional」的用法，與本句語境不同。",
-        "fiction-mcq-11": "「以犯罪、調查、懸疑等為核心的犯罪小說」是「crime fiction」的用法，與本句語境不同。",
-        "fiction-mcq-10": "「以歷史時期為背景、融合虛構人物／事件的歷史小說」是「historical fiction」的用法，與本句語境不同。",
-        "fiction-mcq-09": "「以科學、科技、未來、太空等想像為核心的科幻小說」是「science fiction」的用法，與本句語境不同。"
+        "fiction-mcq-14": "本句的「fictionalisation」指「把真實材料轉化為虛構故事的過程」。",
+        "fiction-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fiction-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fiction-mcq-14"
     }
@@ -1233,5 +1045,7 @@ export default {
     "sha256": "be61888913d63f0a3ddaa51f572d924ff8a5ee084f4ec0313e33f86b46f24f29",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

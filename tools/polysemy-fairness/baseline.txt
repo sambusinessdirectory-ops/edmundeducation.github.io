@@ -1,0 +1,6 @@
+Baseline commit: e742f8e2815f6ce31eaa2db0344a0070690933ee
+Export polysemy-lab from that commit, then run rebuild.py --baseline <export-root> from repository root.
+Source alignment was checked against the bundled PDFs. Reviewed corrections are explicit; lexical/domain overlap checks never infer answer keys.
+The filter is deliberately conservative and does not constitute a human review of every sentence.
+Questions keep their original IDs, text, translations and audio references.
+Server update batches are generated under /private/tmp/polysemy-fairness/sql. Apply the two sync migrations before publishing these batches. Active choices and legacy compatibility choices are separate.

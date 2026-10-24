@@ -372,11 +372,9 @@ export default {
       "masked": "I have known him since he was a ____.",
       "options": [
         "baby-mcq-01",
-        "baby-mcq-02",
-        "baby-mcq-03",
-        "baby-mcq-04",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-09",
+        "baby-mcq-11",
+        "baby-mcq-02"
       ],
       "explanation": "本句的「baby」指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
       "sentenceIndex": 0,
@@ -385,12 +383,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-01": "本句指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-01": "本句的「baby」指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-01"
     },
@@ -402,11 +398,9 @@ export default {
       "masked": "The ____ is sleeping.",
       "options": [
         "baby-mcq-01",
-        "baby-mcq-02",
-        "baby-mcq-03",
-        "baby-mcq-04",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-11",
+        "baby-mcq-09",
+        "baby-mcq-14"
       ],
       "explanation": "本句的「baby」指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
       "sentenceIndex": 1,
@@ -415,12 +409,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-01": "本句指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-01": "本句的「baby」指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-01"
     },
@@ -432,11 +424,9 @@ export default {
       "masked": "She is holding a six-month-old ____.",
       "options": [
         "baby-mcq-01",
+        "baby-mcq-06",
         "baby-mcq-02",
-        "baby-mcq-03",
-        "baby-mcq-04",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-14"
       ],
       "explanation": "本句的「baby」指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
       "sentenceIndex": 2,
@@ -445,12 +435,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-01": "本句指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-01": "本句的「baby」指「非常年幼、仍處於人生最早期階段的小孩；嬰兒」。",
+        "baby-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-01"
     },
@@ -462,11 +450,9 @@ export default {
       "masked": "The zoo has a new ____.",
       "options": [
         "baby-mcq-02",
-        "baby-mcq-01",
-        "baby-mcq-03",
-        "baby-mcq-04",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-12",
+        "baby-mcq-09",
+        "baby-mcq-05"
       ],
       "explanation": "本句的「baby elephant」指「尚未完全長成的幼小動物」。",
       "sentenceIndex": 3,
@@ -475,12 +461,10 @@ export default {
         "baby elephant"
       ],
       "optionReasons": {
-        "baby-mcq-02": "本句指「尚未完全長成的幼小動物」。",
-        "baby-mcq-01": "「非常年幼、仍處於人生最早期階段的小孩；嬰兒」是「baby — human child」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-02": "本句的「baby elephant」指「尚未完全長成的幼小動物」。",
+        "baby-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-02"
     },
@@ -492,11 +476,9 @@ export default {
       "masked": "We saw several ____ in the nest.",
       "options": [
         "baby-mcq-02",
-        "baby-mcq-01",
-        "baby-mcq-03",
-        "baby-mcq-04",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-11",
+        "baby-mcq-13",
+        "baby-mcq-05"
       ],
       "explanation": "本句的「baby birds」指「尚未完全長成的幼小動物」。",
       "sentenceIndex": 4,
@@ -505,12 +487,10 @@ export default {
         "baby birds"
       ],
       "optionReasons": {
-        "baby-mcq-02": "本句指「尚未完全長成的幼小動物」。",
-        "baby-mcq-01": "「非常年幼、仍處於人生最早期階段的小孩；嬰兒」是「baby — human child」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-02": "本句的「baby birds」指「尚未完全長成的幼小動物」。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-02"
     },
@@ -522,11 +502,9 @@ export default {
       "masked": "He is the ____.",
       "options": [
         "baby-mcq-03",
-        "baby-mcq-02",
-        "baby-mcq-04",
-        "baby-mcq-01",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-13",
+        "baby-mcq-11",
+        "baby-mcq-16"
       ],
       "explanation": "本句的「baby of the family」指「家庭／群體中年齡最小的成員」。",
       "sentenceIndex": 5,
@@ -535,12 +513,10 @@ export default {
         "baby of the family"
       ],
       "optionReasons": {
-        "baby-mcq-03": "本句指「家庭／群體中年齡最小的成員」。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-01": "「非常年幼、仍處於人生最早期階段的小孩；嬰兒」是「baby — human child」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-03": "本句的「baby of the family」指「家庭／群體中年齡最小的成員」。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-03"
     },
@@ -552,11 +528,9 @@ export default {
       "masked": "Even though she is twenty, everyone still treats her as the ____ of the family.",
       "options": [
         "baby-mcq-03",
-        "baby-mcq-02",
-        "baby-mcq-04",
-        "baby-mcq-01",
-        "baby-mcq-05",
-        "baby-mcq-06"
+        "baby-mcq-16",
+        "baby-mcq-13",
+        "baby-mcq-11"
       ],
       "explanation": "本句的「baby」指「家庭／群體中年齡最小的成員」。",
       "sentenceIndex": 6,
@@ -565,12 +539,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-03": "本句指「家庭／群體中年齡最小的成員」。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-01": "「非常年幼、仍處於人生最早期階段的小孩；嬰兒」是「baby — human child」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-03": "本句的「baby」指「家庭／群體中年齡最小的成員」。",
+        "baby-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-03"
     },
@@ -582,11 +554,9 @@ export default {
       "masked": "Come here, ____.",
       "options": [
         "baby-mcq-04",
-        "baby-mcq-03",
-        "baby-mcq-05",
-        "baby-mcq-02",
-        "baby-mcq-06",
-        "baby-mcq-01"
+        "baby-mcq-15",
+        "baby-mcq-13",
+        "baby-mcq-09"
       ],
       "explanation": "本句的「baby」指「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」。",
       "sentenceIndex": 7,
@@ -595,12 +565,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-04": "本句指「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-01": "「非常年幼、仍處於人生最早期階段的小孩；嬰兒」是「baby — human child」的用法，與本句語境不同。"
+        "baby-mcq-04": "本句的「baby」指「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-04"
     },
@@ -612,11 +580,9 @@ export default {
       "masked": "Good night, ____.",
       "options": [
         "baby-mcq-04",
-        "baby-mcq-03",
-        "baby-mcq-05",
-        "baby-mcq-02",
-        "baby-mcq-06",
-        "baby-mcq-01"
+        "baby-mcq-16",
+        "baby-mcq-09",
+        "baby-mcq-15"
       ],
       "explanation": "本句的「baby」指「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」。",
       "sentenceIndex": 8,
@@ -625,12 +591,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-04": "本句指「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-01": "「非常年幼、仍處於人生最早期階段的小孩；嬰兒」是「baby — human child」的用法，與本句語境不同。"
+        "baby-mcq-04": "本句的「baby」指「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」。",
+        "baby-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-04"
     },
@@ -642,11 +606,9 @@ export default {
       "masked": "This project is her ____.",
       "options": [
         "baby-mcq-05",
-        "baby-mcq-04",
-        "baby-mcq-06",
-        "baby-mcq-03",
-        "baby-mcq-07",
-        "baby-mcq-02"
+        "baby-mcq-15",
+        "baby-mcq-10",
+        "baby-mcq-12"
       ],
       "explanation": "本句的「baby」指「某人親手建立、非常投入並特別珍視的事物／項目」。",
       "sentenceIndex": 9,
@@ -655,12 +617,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-05": "本句指「某人親手建立、非常投入並特別珍視的事物／項目」。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。"
+        "baby-mcq-05": "本句的「baby」指「某人親手建立、非常投入並特別珍視的事物／項目」。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-05"
     },
@@ -672,10 +632,8 @@ export default {
       "masked": "He built the company from nothing, so it is really his ____.",
       "options": [
         "baby-mcq-05",
-        "baby-mcq-04",
-        "baby-mcq-06",
-        "baby-mcq-03",
-        "baby-mcq-07",
+        "baby-mcq-13",
+        "baby-mcq-11",
         "baby-mcq-02"
       ],
       "explanation": "本句的「baby」指「某人親手建立、非常投入並特別珍視的事物／項目」。",
@@ -685,12 +643,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-05": "本句指「某人親手建立、非常投入並特別珍視的事物／項目」。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-02": "「尚未完全長成的幼小動物」是「baby — young animal」的用法，與本句語境不同。"
+        "baby-mcq-05": "本句的「baby」指「某人親手建立、非常投入並特別珍視的事物／項目」。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-05"
     },
@@ -702,11 +658,9 @@ export default {
       "masked": "Stop ____ him.",
       "options": [
         "baby-mcq-06",
-        "baby-mcq-05",
-        "baby-mcq-07",
-        "baby-mcq-04",
-        "baby-mcq-08",
-        "baby-mcq-03"
+        "baby-mcq-12",
+        "baby-mcq-16",
+        "baby-mcq-15"
       ],
       "explanation": "本句的「babying」指「把某人當成比實際更弱小或更不能自理的人來過度照顧」。",
       "sentenceIndex": 11,
@@ -715,12 +669,10 @@ export default {
         "babying"
       ],
       "optionReasons": {
-        "baby-mcq-06": "本句指「把某人當成比實際更弱小或更不能自理的人來過度照顧」。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。"
+        "baby-mcq-06": "本句的「babying」指「把某人當成比實際更弱小或更不能自理的人來過度照顧」。",
+        "baby-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-06"
     },
@@ -732,11 +684,9 @@ export default {
       "masked": "His parents tend to ____ him too much.",
       "options": [
         "baby-mcq-06",
-        "baby-mcq-05",
-        "baby-mcq-07",
-        "baby-mcq-04",
-        "baby-mcq-08",
-        "baby-mcq-03"
+        "baby-mcq-13",
+        "baby-mcq-16",
+        "baby-mcq-15"
       ],
       "explanation": "本句的「baby」指「把某人當成比實際更弱小或更不能自理的人來過度照顧」。",
       "sentenceIndex": 12,
@@ -745,12 +695,10 @@ export default {
         "baby"
       ],
       "optionReasons": {
-        "baby-mcq-06": "本句指「把某人當成比實際更弱小或更不能自理的人來過度照顧」。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-03": "「家庭／群體中年齡最小的成員」是「the baby of the family」的用法，與本句語境不同。"
+        "baby-mcq-06": "本句的「baby」指「把某人當成比實際更弱小或更不能自理的人來過度照顧」。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-06"
     },
@@ -762,11 +710,9 @@ export default {
       "masked": "He ____ his old car.",
       "options": [
         "baby-mcq-07",
-        "baby-mcq-06",
         "baby-mcq-08",
-        "baby-mcq-05",
-        "baby-mcq-09",
-        "baby-mcq-04"
+        "baby-mcq-15",
+        "baby-mcq-11"
       ],
       "explanation": "本句的「babies」指「對某物／身體部位非常小心地呵護或使用」。",
       "sentenceIndex": 13,
@@ -775,12 +721,10 @@ export default {
         "babies"
       ],
       "optionReasons": {
-        "baby-mcq-07": "本句指「對某物／身體部位非常小心地呵護或使用」。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。"
+        "baby-mcq-07": "本句的「babies」指「對某物／身體部位非常小心地呵護或使用」。",
+        "baby-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-07"
     },
@@ -792,11 +736,9 @@ export default {
       "masked": "She ____ the injured knee for several weeks.",
       "options": [
         "baby-mcq-07",
-        "baby-mcq-06",
         "baby-mcq-08",
-        "baby-mcq-05",
-        "baby-mcq-09",
-        "baby-mcq-04"
+        "baby-mcq-15",
+        "baby-mcq-11"
       ],
       "explanation": "本句的「babied」指「對某物／身體部位非常小心地呵護或使用」。",
       "sentenceIndex": 14,
@@ -805,12 +747,10 @@ export default {
         "babied"
       ],
       "optionReasons": {
-        "baby-mcq-07": "本句指「對某物／身體部位非常小心地呵護或使用」。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-04": "「對伴侶、小孩或親密的人使用的親暱稱呼；寶貝」是「baby — affectionate address」的用法，與本句語境不同。"
+        "baby-mcq-07": "本句的「babied」指「對某物／身體部位非常小心地呵護或使用」。",
+        "baby-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-07"
     },
@@ -822,11 +762,9 @@ export default {
       "masked": "That voice sounds a little ____.",
       "options": [
         "baby-mcq-08",
-        "baby-mcq-07",
-        "baby-mcq-09",
-        "baby-mcq-06",
-        "baby-mcq-10",
-        "baby-mcq-05"
+        "baby-mcq-05",
+        "baby-mcq-11",
+        "baby-mcq-14"
       ],
       "explanation": "本句的「babyish」指「像嬰兒一樣；顯得幼稚、不成熟的」。",
       "sentenceIndex": 15,
@@ -835,12 +773,10 @@ export default {
         "babyish"
       ],
       "optionReasons": {
-        "baby-mcq-08": "本句指「像嬰兒一樣；顯得幼稚、不成熟的」。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。"
+        "baby-mcq-08": "本句的「babyish」指「像嬰兒一樣；顯得幼稚、不成熟的」。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-08"
     },
@@ -852,10 +788,8 @@ export default {
       "masked": "He sometimes behaves in a ____ way when he does not get what he wants.",
       "options": [
         "baby-mcq-08",
-        "baby-mcq-07",
-        "baby-mcq-09",
-        "baby-mcq-06",
-        "baby-mcq-10",
+        "baby-mcq-11",
+        "baby-mcq-14",
         "baby-mcq-05"
       ],
       "explanation": "本句的「babyish」指「像嬰兒一樣；顯得幼稚、不成熟的」。",
@@ -865,12 +799,10 @@ export default {
         "babyish"
       ],
       "optionReasons": {
-        "baby-mcq-08": "本句指「像嬰兒一樣；顯得幼稚、不成熟的」。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-05": "「某人親手建立、非常投入並特別珍視的事物／項目」是「someone’s baby」的用法，與本句語境不同。"
+        "baby-mcq-08": "本句的「babyish」指「像嬰兒一樣；顯得幼稚、不成熟的」。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-08"
     },
@@ -882,11 +814,9 @@ export default {
       "masked": "He is very ____.",
       "options": [
         "baby-mcq-09",
-        "baby-mcq-08",
+        "baby-mcq-12",
         "baby-mcq-10",
-        "baby-mcq-07",
-        "baby-mcq-11",
-        "baby-mcq-06"
+        "baby-mcq-02"
       ],
       "explanation": "本句的「baby-faced」指「臉部特徵令人看起來比實際年齡更年輕的」。",
       "sentenceIndex": 17,
@@ -895,12 +825,10 @@ export default {
         "baby-faced"
       ],
       "optionReasons": {
-        "baby-mcq-09": "本句指「臉部特徵令人看起來比實際年齡更年輕的」。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-09": "本句的「baby-faced」指「臉部特徵令人看起來比實際年齡更年輕的」。",
+        "baby-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-09"
     },
@@ -912,11 +840,9 @@ export default {
       "masked": "The actor still looks ____ in his thirties.",
       "options": [
         "baby-mcq-09",
-        "baby-mcq-08",
-        "baby-mcq-10",
-        "baby-mcq-07",
-        "baby-mcq-11",
-        "baby-mcq-06"
+        "baby-mcq-13",
+        "baby-mcq-15",
+        "baby-mcq-02"
       ],
       "explanation": "本句的「baby-faced」指「臉部特徵令人看起來比實際年齡更年輕的」。",
       "sentenceIndex": 18,
@@ -925,12 +851,10 @@ export default {
         "baby-faced"
       ],
       "optionReasons": {
-        "baby-mcq-09": "本句指「臉部特徵令人看起來比實際年齡更年輕的」。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-06": "「把某人當成比實際更弱小或更不能自理的人來過度照顧」是「baby someone」的用法，與本句語境不同。"
+        "baby-mcq-09": "本句的「baby-faced」指「臉部特徵令人看起來比實際年齡更年輕的」。",
+        "baby-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-09"
     },
@@ -942,11 +866,9 @@ export default {
       "masked": "I sometimes ____ my cousin’s son.",
       "options": [
         "baby-mcq-10",
-        "baby-mcq-09",
-        "baby-mcq-11",
-        "baby-mcq-08",
-        "baby-mcq-12",
-        "baby-mcq-07"
+        "baby-mcq-05",
+        "baby-mcq-15",
+        "baby-mcq-08"
       ],
       "explanation": "本句的「babysit」指「在父母／主要照顧者不在時暫時照顧小孩」。",
       "sentenceIndex": 19,
@@ -955,12 +877,10 @@ export default {
         "babysit"
       ],
       "optionReasons": {
-        "baby-mcq-10": "本句指「在父母／主要照顧者不在時暫時照顧小孩」。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。"
+        "baby-mcq-10": "本句的「babysit」指「在父母／主要照顧者不在時暫時照顧小孩」。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-10"
     },
@@ -973,10 +893,8 @@ export default {
       "options": [
         "baby-mcq-10",
         "baby-mcq-09",
-        "baby-mcq-11",
         "baby-mcq-08",
-        "baby-mcq-12",
-        "baby-mcq-07"
+        "baby-mcq-15"
       ],
       "explanation": "本句的「babysit」指「在父母／主要照顧者不在時暫時照顧小孩」。",
       "sentenceIndex": 20,
@@ -985,12 +903,10 @@ export default {
         "babysit"
       ],
       "optionReasons": {
-        "baby-mcq-10": "本句指「在父母／主要照顧者不在時暫時照顧小孩」。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-07": "「對某物／身體部位非常小心地呵護或使用」是「baby something」的用法，與本句語境不同。"
+        "baby-mcq-10": "本句的「babysit」指「在父母／主要照顧者不在時暫時照顧小孩」。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-10"
     },
@@ -1002,11 +918,9 @@ export default {
       "masked": "They hired a ____ for the evening.",
       "options": [
         "baby-mcq-11",
-        "baby-mcq-10",
-        "baby-mcq-12",
+        "baby-mcq-08",
         "baby-mcq-09",
-        "baby-mcq-13",
-        "baby-mcq-08"
+        "baby-mcq-05"
       ],
       "explanation": "本句的「babysitter」指「暫時負責照顧孩子的人」。",
       "sentenceIndex": 21,
@@ -1015,12 +929,10 @@ export default {
         "babysitter"
       ],
       "optionReasons": {
-        "baby-mcq-11": "本句指「暫時負責照顧孩子的人」。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。"
+        "baby-mcq-11": "本句的「babysitter」指「暫時負責照顧孩子的人」。",
+        "baby-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-11"
     },
@@ -1032,11 +944,9 @@ export default {
       "masked": "The ____ stayed until midnight.",
       "options": [
         "baby-mcq-11",
-        "baby-mcq-10",
-        "baby-mcq-12",
-        "baby-mcq-09",
-        "baby-mcq-13",
-        "baby-mcq-08"
+        "baby-mcq-07",
+        "baby-mcq-16",
+        "baby-mcq-09"
       ],
       "explanation": "本句的「babysitter」指「暫時負責照顧孩子的人」。",
       "sentenceIndex": 22,
@@ -1045,12 +955,10 @@ export default {
         "babysitter"
       ],
       "optionReasons": {
-        "baby-mcq-11": "本句指「暫時負責照顧孩子的人」。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-08": "「像嬰兒一樣；顯得幼稚、不成熟的」是「babyish」的用法，與本句語境不同。"
+        "baby-mcq-11": "本句的「babysitter」指「暫時負責照顧孩子的人」。",
+        "baby-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-11"
     },
@@ -1062,11 +970,9 @@ export default {
       "masked": "The country experienced a ____ after the war.",
       "options": [
         "baby-mcq-12",
-        "baby-mcq-11",
-        "baby-mcq-13",
-        "baby-mcq-10",
-        "baby-mcq-14",
-        "baby-mcq-09"
+        "baby-mcq-06",
+        "baby-mcq-07",
+        "baby-mcq-14"
       ],
       "explanation": "本句的「baby boom」指「某段時期內出生嬰兒數量突然大幅增加的現象」。",
       "sentenceIndex": 23,
@@ -1075,12 +981,10 @@ export default {
         "baby boom"
       ],
       "optionReasons": {
-        "baby-mcq-12": "本句指「某段時期內出生嬰兒數量突然大幅增加的現象」。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。"
+        "baby-mcq-12": "本句的「baby boom」指「某段時期內出生嬰兒數量突然大幅增加的現象」。",
+        "baby-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-12"
     },
@@ -1092,11 +996,9 @@ export default {
       "masked": "The ____ increased demand for schools.",
       "options": [
         "baby-mcq-12",
-        "baby-mcq-11",
-        "baby-mcq-13",
-        "baby-mcq-10",
-        "baby-mcq-14",
-        "baby-mcq-09"
+        "baby-mcq-09",
+        "baby-mcq-05",
+        "baby-mcq-14"
       ],
       "explanation": "本句的「baby boom」指「某段時期內出生嬰兒數量突然大幅增加的現象」。",
       "sentenceIndex": 24,
@@ -1105,12 +1007,10 @@ export default {
         "baby boom"
       ],
       "optionReasons": {
-        "baby-mcq-12": "本句指「某段時期內出生嬰兒數量突然大幅增加的現象」。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-09": "「臉部特徵令人看起來比實際年齡更年輕的」是「baby-faced」的用法，與本句語境不同。"
+        "baby-mcq-12": "本句的「baby boom」指「某段時期內出生嬰兒數量突然大幅增加的現象」。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-12"
     },
@@ -1122,11 +1022,9 @@ export default {
       "masked": "Many ____ are now retired.",
       "options": [
         "baby-mcq-13",
-        "baby-mcq-12",
-        "baby-mcq-14",
-        "baby-mcq-11",
-        "baby-mcq-15",
-        "baby-mcq-10"
+        "baby-mcq-09",
+        "baby-mcq-05",
+        "baby-mcq-04"
       ],
       "explanation": "本句的「baby boomers」指「出生於主要嬰兒潮時期的一代人」。",
       "sentenceIndex": 25,
@@ -1135,12 +1033,10 @@ export default {
         "baby boomers"
       ],
       "optionReasons": {
-        "baby-mcq-13": "本句指「出生於主要嬰兒潮時期的一代人」。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-15": "「兒童最早長出的第一套牙齒；乳牙」是「baby teeth」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。"
+        "baby-mcq-13": "本句的「baby boomers」指「出生於主要嬰兒潮時期的一代人」。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-13"
     },
@@ -1152,11 +1048,9 @@ export default {
       "masked": "The survey compared millennials with ____.",
       "options": [
         "baby-mcq-13",
-        "baby-mcq-12",
-        "baby-mcq-14",
-        "baby-mcq-11",
-        "baby-mcq-15",
-        "baby-mcq-10"
+        "baby-mcq-09",
+        "baby-mcq-05",
+        "baby-mcq-04"
       ],
       "explanation": "本句的「baby boomers」指「出生於主要嬰兒潮時期的一代人」。",
       "sentenceIndex": 26,
@@ -1165,12 +1059,10 @@ export default {
         "baby boomers"
       ],
       "optionReasons": {
-        "baby-mcq-13": "本句指「出生於主要嬰兒潮時期的一代人」。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。",
-        "baby-mcq-15": "「兒童最早長出的第一套牙齒；乳牙」是「baby teeth」的用法，與本句語境不同。",
-        "baby-mcq-10": "「在父母／主要照顧者不在時暫時照顧小孩」是「babysit」的用法，與本句語境不同。"
+        "baby-mcq-13": "本句的「baby boomers」指「出生於主要嬰兒潮時期的一代人」。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-13"
     },
@@ -1182,11 +1074,9 @@ export default {
       "masked": "We are making progress in ____.",
       "options": [
         "baby-mcq-14",
-        "baby-mcq-13",
-        "baby-mcq-15",
+        "baby-mcq-05",
         "baby-mcq-12",
-        "baby-mcq-16",
-        "baby-mcq-11"
+        "baby-mcq-15"
       ],
       "explanation": "本句的「baby steps」指「很小、容易處理、用來逐步取得進展的步驟」。",
       "sentenceIndex": 27,
@@ -1195,12 +1085,10 @@ export default {
         "baby steps"
       ],
       "optionReasons": {
-        "baby-mcq-14": "本句指「很小、容易處理、用來逐步取得進展的步驟」。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-15": "「兒童最早長出的第一套牙齒；乳牙」是「baby teeth」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-16": "「特別為嬰幼兒製作的食物」是「baby food」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。"
+        "baby-mcq-14": "本句的「baby steps」指「很小、容易處理、用來逐步取得進展的步驟」。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-14"
     },
@@ -1212,10 +1100,8 @@ export default {
       "masked": "Take ____ instead of trying to change everything at once.",
       "options": [
         "baby-mcq-14",
-        "baby-mcq-13",
+        "baby-mcq-05",
         "baby-mcq-15",
-        "baby-mcq-12",
-        "baby-mcq-16",
         "baby-mcq-11"
       ],
       "explanation": "本句的「baby steps」指「很小、容易處理、用來逐步取得進展的步驟」。",
@@ -1225,12 +1111,10 @@ export default {
         "baby steps"
       ],
       "optionReasons": {
-        "baby-mcq-14": "本句指「很小、容易處理、用來逐步取得進展的步驟」。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-15": "「兒童最早長出的第一套牙齒；乳牙」是「baby teeth」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-16": "「特別為嬰幼兒製作的食物」是「baby food」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。"
+        "baby-mcq-14": "本句的「baby steps」指「很小、容易處理、用來逐步取得進展的步驟」。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-14"
     },
@@ -1242,11 +1126,9 @@ export default {
       "masked": "Children eventually lose their ____.",
       "options": [
         "baby-mcq-15",
-        "baby-mcq-14",
-        "baby-mcq-16",
-        "baby-mcq-13",
-        "baby-mcq-12",
-        "baby-mcq-11"
+        "baby-mcq-10",
+        "baby-mcq-05",
+        "baby-mcq-14"
       ],
       "explanation": "本句的「baby teeth」指「兒童最早長出的第一套牙齒；乳牙」。",
       "sentenceIndex": 29,
@@ -1255,12 +1137,10 @@ export default {
         "baby teeth"
       ],
       "optionReasons": {
-        "baby-mcq-15": "本句指「兒童最早長出的第一套牙齒；乳牙」。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-16": "「特別為嬰幼兒製作的食物」是「baby food」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。"
+        "baby-mcq-15": "本句的「baby teeth」指「兒童最早長出的第一套牙齒；乳牙」。",
+        "baby-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-15"
     },
@@ -1272,11 +1152,9 @@ export default {
       "masked": "One of his ____ has fallen out.",
       "options": [
         "baby-mcq-15",
-        "baby-mcq-14",
-        "baby-mcq-16",
-        "baby-mcq-13",
-        "baby-mcq-12",
-        "baby-mcq-11"
+        "baby-mcq-05",
+        "baby-mcq-09",
+        "baby-mcq-14"
       ],
       "explanation": "本句的「baby teeth」指「兒童最早長出的第一套牙齒；乳牙」。",
       "sentenceIndex": 30,
@@ -1285,12 +1163,10 @@ export default {
         "baby teeth"
       ],
       "optionReasons": {
-        "baby-mcq-15": "本句指「兒童最早長出的第一套牙齒；乳牙」。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-16": "「特別為嬰幼兒製作的食物」是「baby food」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。"
+        "baby-mcq-15": "本句的「baby teeth」指「兒童最早長出的第一套牙齒；乳牙」。",
+        "baby-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-15"
     },
@@ -1302,11 +1178,9 @@ export default {
       "masked": "They bought some ____.",
       "options": [
         "baby-mcq-16",
-        "baby-mcq-15",
-        "baby-mcq-14",
-        "baby-mcq-13",
-        "baby-mcq-12",
-        "baby-mcq-11"
+        "baby-mcq-03",
+        "baby-mcq-07",
+        "baby-mcq-10"
       ],
       "explanation": "本句的「baby food」指「特別為嬰幼兒製作的食物」。",
       "sentenceIndex": 31,
@@ -1315,12 +1189,10 @@ export default {
         "baby food"
       ],
       "optionReasons": {
-        "baby-mcq-16": "本句指「特別為嬰幼兒製作的食物」。",
-        "baby-mcq-15": "「兒童最早長出的第一套牙齒；乳牙」是「baby teeth」的用法，與本句語境不同。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。"
+        "baby-mcq-16": "本句的「baby food」指「特別為嬰幼兒製作的食物」。",
+        "baby-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-16"
     },
@@ -1332,11 +1204,9 @@ export default {
       "masked": "The child has started eating solid ____.",
       "options": [
         "baby-mcq-16",
-        "baby-mcq-15",
         "baby-mcq-14",
-        "baby-mcq-13",
-        "baby-mcq-12",
-        "baby-mcq-11"
+        "baby-mcq-07",
+        "baby-mcq-03"
       ],
       "explanation": "本句的「baby food」指「特別為嬰幼兒製作的食物」。",
       "sentenceIndex": 32,
@@ -1345,12 +1215,10 @@ export default {
         "baby food"
       ],
       "optionReasons": {
-        "baby-mcq-16": "本句指「特別為嬰幼兒製作的食物」。",
-        "baby-mcq-15": "「兒童最早長出的第一套牙齒；乳牙」是「baby teeth」的用法，與本句語境不同。",
-        "baby-mcq-14": "「很小、容易處理、用來逐步取得進展的步驟」是「baby steps」的用法，與本句語境不同。",
-        "baby-mcq-13": "「出生於主要嬰兒潮時期的一代人」是「baby boomer」的用法，與本句語境不同。",
-        "baby-mcq-12": "「某段時期內出生嬰兒數量突然大幅增加的現象」是「baby boom」的用法，與本句語境不同。",
-        "baby-mcq-11": "「暫時負責照顧孩子的人」是「babysitter」的用法，與本句語境不同。"
+        "baby-mcq-16": "本句的「baby food」指「特別為嬰幼兒製作的食物」。",
+        "baby-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "baby-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "baby-mcq-16"
     }
@@ -1362,5 +1230,7 @@ export default {
     "sha256": "7549cbf1385c7ba657e2fd560dfec8b4a46547815b856e4a337f2082f242d7a6",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -225,7 +225,7 @@ export default {
     },
     {
       "id": "blue-mcq-10",
-      "title": "表示毫無預兆地、突然地",
+      "title": "毫無預兆地、突然地",
       "form": "Useful expression: out of the blue — 突然；出乎意料地",
       "en": "Useful expression: out of the blue — 突然；出乎意料地",
       "zh": "表示毫無預兆地、突然地",
@@ -247,7 +247,7 @@ export default {
     },
     {
       "id": "blue-mcq-11",
-      "title": "表示非常罕見地；隔很久才一次",
+      "title": "非常罕見地；隔很久才一次",
       "form": "Useful expression: once in a blue moon — 極少；難得一次",
       "en": "Useful expression: once in a blue moon — 極少；難得一次",
       "zh": "表示非常罕見地；隔很久才一次",
@@ -286,7 +286,7 @@ export default {
     },
     {
       "id": "blue-mcq-13",
-      "title": "表示貴族／上流社會血統",
+      "title": "貴族／上流社會血統",
       "form": "Useful expression: blue blood — 貴族血統",
       "en": "Useful expression: blue blood — 貴族血統",
       "zh": "表示貴族／上流社會血統",
@@ -328,11 +328,9 @@ export default {
       "masked": "The turtle disappeared into the ____.",
       "options": [
         "blue-mcq-01",
+        "blue-mcq-10",
         "blue-mcq-02",
-        "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue water」指「呈現藍色色調的；或藍色本身」。",
       "sentenceIndex": 0,
@@ -341,12 +339,10 @@ export default {
         "blue water"
       ],
       "optionReasons": {
-        "blue-mcq-01": "本句指「呈現藍色色調的；或藍色本身」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-01": "本句的「blue water」指「呈現藍色色調的；或藍色本身」。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-01"
     },
@@ -358,11 +354,9 @@ export default {
       "masked": "She was wearing a ____ shirt.",
       "options": [
         "blue-mcq-01",
-        "blue-mcq-02",
-        "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-13",
+        "blue-mcq-10",
+        "blue-mcq-02"
       ],
       "explanation": "本句的「blue」指「呈現藍色色調的；或藍色本身」。",
       "sentenceIndex": 1,
@@ -371,12 +365,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-01": "本句指「呈現藍色色調的；或藍色本身」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-01": "本句的「blue」指「呈現藍色色調的；或藍色本身」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-01"
     },
@@ -388,11 +380,9 @@ export default {
       "masked": "The sky turned deep ____.",
       "options": [
         "blue-mcq-01",
-        "blue-mcq-02",
-        "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-11",
+        "blue-mcq-06",
+        "blue-mcq-10"
       ],
       "explanation": "本句的「blue」指「呈現藍色色調的；或藍色本身」。",
       "sentenceIndex": 2,
@@ -401,12 +391,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-01": "本句指「呈現藍色色調的；或藍色本身」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-01": "本句的「blue」指「呈現藍色色調的；或藍色本身」。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-01"
     },
@@ -418,10 +406,8 @@ export default {
       "masked": "____ is my favourite colour.",
       "options": [
         "blue-mcq-01",
-        "blue-mcq-02",
-        "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
+        "blue-mcq-13",
+        "blue-mcq-14",
         "blue-mcq-06"
       ],
       "explanation": "本句的「Blue」指「呈現藍色色調的；或藍色本身」。",
@@ -431,12 +417,10 @@ export default {
         "Blue"
       ],
       "optionReasons": {
-        "blue-mcq-01": "本句指「呈現藍色色調的；或藍色本身」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-01": "本句的「Blue」指「呈現藍色色調的；或藍色本身」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-01"
     },
@@ -448,11 +432,9 @@ export default {
       "masked": "The painting uses several shades of ____.",
       "options": [
         "blue-mcq-01",
+        "blue-mcq-13",
         "blue-mcq-02",
-        "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue」指「呈現藍色色調的；或藍色本身」。",
       "sentenceIndex": 4,
@@ -461,12 +443,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-01": "本句指「呈現藍色色調的；或藍色本身」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-01": "本句的「blue」指「呈現藍色色調的；或藍色本身」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-01"
     },
@@ -478,11 +458,9 @@ export default {
       "masked": "I’ve been feeling a little ____ lately.",
       "options": [
         "blue-mcq-02",
-        "blue-mcq-01",
         "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-08",
+        "blue-mcq-13"
       ],
       "explanation": "本句的「blue」指「感到悲傷、失落或情緒低落的；非正式」。",
       "sentenceIndex": 5,
@@ -491,12 +469,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-02": "本句指「感到悲傷、失落或情緒低落的；非正式」。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-02": "本句的「blue」指「感到悲傷、失落或情緒低落的；非正式」。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-02"
     },
@@ -509,10 +485,8 @@ export default {
       "options": [
         "blue-mcq-02",
         "blue-mcq-01",
-        "blue-mcq-03",
-        "blue-mcq-04",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-10",
+        "blue-mcq-07"
       ],
       "explanation": "本句的「blue」指「感到悲傷、失落或情緒低落的；非正式」。",
       "sentenceIndex": 6,
@@ -521,12 +495,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-02": "本句指「感到悲傷、失落或情緒低落的；非正式」。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-02": "本句的「blue」指「感到悲傷、失落或情緒低落的；非正式」。",
+        "blue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-02"
     },
@@ -538,11 +510,9 @@ export default {
       "masked": "He told a few ____ jokes.",
       "options": [
         "blue-mcq-03",
-        "blue-mcq-02",
-        "blue-mcq-04",
-        "blue-mcq-01",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-13",
+        "blue-mcq-06",
+        "blue-mcq-07"
       ],
       "explanation": "本句的「blue」指「含有色情、性暗示或不雅內容的」。",
       "sentenceIndex": 7,
@@ -551,12 +521,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-03": "本句指「含有色情、性暗示或不雅內容的」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-03": "本句的「blue」指「含有色情、性暗示或不雅內容的」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-03"
     },
@@ -568,11 +536,9 @@ export default {
       "masked": "The comedian’s material became rather ____.",
       "options": [
         "blue-mcq-03",
-        "blue-mcq-02",
-        "blue-mcq-04",
-        "blue-mcq-01",
-        "blue-mcq-05",
-        "blue-mcq-06"
+        "blue-mcq-07",
+        "blue-mcq-13",
+        "blue-mcq-02"
       ],
       "explanation": "本句的「blue」指「含有色情、性暗示或不雅內容的」。",
       "sentenceIndex": 8,
@@ -581,12 +547,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-03": "本句指「含有色情、性暗示或不雅內容的」。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-03": "本句的「blue」指「含有色情、性暗示或不雅內容的」。",
+        "blue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-03"
     },
@@ -598,11 +562,9 @@ export default {
       "masked": "His lips were turning ____ from the cold.",
       "options": [
         "blue-mcq-04",
-        "blue-mcq-03",
-        "blue-mcq-05",
-        "blue-mcq-02",
-        "blue-mcq-06",
-        "blue-mcq-01"
+        "blue-mcq-14",
+        "blue-mcq-13",
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
       "sentenceIndex": 9,
@@ -611,12 +573,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-04": "本句指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。"
+        "blue-mcq-04": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-04"
     },
@@ -628,11 +588,9 @@ export default {
       "masked": "Her fingers looked ____ after being outside for so long.",
       "options": [
         "blue-mcq-04",
-        "blue-mcq-03",
-        "blue-mcq-05",
-        "blue-mcq-02",
-        "blue-mcq-06",
-        "blue-mcq-01"
+        "blue-mcq-13",
+        "blue-mcq-10",
+        "blue-mcq-14"
       ],
       "explanation": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
       "sentenceIndex": 10,
@@ -641,12 +599,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-04": "本句指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。"
+        "blue-mcq-04": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-04"
     },
@@ -658,11 +614,9 @@ export default {
       "masked": "His arm was black and ____ after the fall.",
       "options": [
         "blue-mcq-04",
-        "blue-mcq-03",
-        "blue-mcq-05",
-        "blue-mcq-02",
-        "blue-mcq-06",
-        "blue-mcq-01"
+        "blue-mcq-14",
+        "blue-mcq-13",
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
       "sentenceIndex": 11,
@@ -671,12 +625,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-04": "本句指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。"
+        "blue-mcq-04": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-04"
     },
@@ -688,11 +640,9 @@ export default {
       "masked": "She was bruised black and ____.",
       "options": [
         "blue-mcq-04",
-        "blue-mcq-03",
-        "blue-mcq-05",
-        "blue-mcq-02",
-        "blue-mcq-06",
-        "blue-mcq-01"
+        "blue-mcq-10",
+        "blue-mcq-14",
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
       "sentenceIndex": 12,
@@ -701,12 +651,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-04": "本句指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-01": "「呈現藍色色調的；或藍色本身」是「blue — colour」的用法，與本句語境不同。"
+        "blue-mcq-04": "本句的「blue」指「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-04"
     },
@@ -718,11 +666,9 @@ export default {
       "masked": "The bird disappeared into the ____.",
       "options": [
         "blue-mcq-05",
-        "blue-mcq-04",
-        "blue-mcq-06",
-        "blue-mcq-03",
-        "blue-mcq-07",
-        "blue-mcq-02"
+        "blue-mcq-13",
+        "blue-mcq-02",
+        "blue-mcq-10"
       ],
       "explanation": "本句的「blue」指「藉藍色代指天空或海洋；較詩意」。",
       "sentenceIndex": 13,
@@ -731,12 +677,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-05": "本句指「藉藍色代指天空或海洋；較詩意」。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。"
+        "blue-mcq-05": "本句的「blue」指「藉藍色代指天空或海洋；較詩意」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-05"
     },
@@ -748,11 +692,9 @@ export default {
       "masked": "The boat sailed out into the deep ____.",
       "options": [
         "blue-mcq-05",
-        "blue-mcq-04",
-        "blue-mcq-06",
-        "blue-mcq-03",
-        "blue-mcq-07",
-        "blue-mcq-02"
+        "blue-mcq-02",
+        "blue-mcq-13",
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue」指「藉藍色代指天空或海洋；較詩意」。",
       "sentenceIndex": 14,
@@ -761,12 +703,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-05": "本句指「藉藍色代指天空或海洋；較詩意」。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-02": "「感到悲傷、失落或情緒低落的；非正式」是「blue — sad」的用法，與本句語境不同。"
+        "blue-mcq-05": "本句的「blue」指「藉藍色代指天空或海洋；較詩意」。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-05"
     },
@@ -778,11 +718,9 @@ export default {
       "masked": "She had the Monday morning ____.",
       "options": [
         "blue-mcq-06",
-        "blue-mcq-05",
-        "blue-mcq-07",
-        "blue-mcq-04",
-        "blue-mcq-08",
-        "blue-mcq-03"
+        "blue-mcq-11",
+        "blue-mcq-01",
+        "blue-mcq-10"
       ],
       "explanation": "本句的「blues」指「憂鬱、低落、傷感的情緒」。",
       "sentenceIndex": 15,
@@ -791,12 +729,10 @@ export default {
         "blues"
       ],
       "optionReasons": {
-        "blue-mcq-06": "本句指「憂鬱、低落、傷感的情緒」。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。"
+        "blue-mcq-06": "本句的「blues」指「憂鬱、低落、傷感的情緒」。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-06"
     },
@@ -808,11 +744,9 @@ export default {
       "masked": "Music helped chase away the ____.",
       "options": [
         "blue-mcq-06",
-        "blue-mcq-05",
         "blue-mcq-07",
-        "blue-mcq-04",
-        "blue-mcq-08",
-        "blue-mcq-03"
+        "blue-mcq-03",
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blues」指「憂鬱、低落、傷感的情緒」。",
       "sentenceIndex": 16,
@@ -821,12 +755,10 @@ export default {
         "blues"
       ],
       "optionReasons": {
-        "blue-mcq-06": "本句指「憂鬱、低落、傷感的情緒」。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-03": "「含有色情、性暗示或不雅內容的」是「blue — sexually explicit」的用法，與本句語境不同。"
+        "blue-mcq-06": "本句的「blues」指「憂鬱、低落、傷感的情緒」。",
+        "blue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-06"
     },
@@ -838,11 +770,9 @@ export default {
       "masked": "He enjoys listening to the ____.",
       "options": [
         "blue-mcq-07",
-        "blue-mcq-06",
-        "blue-mcq-08",
-        "blue-mcq-05",
-        "blue-mcq-09",
-        "blue-mcq-04"
+        "blue-mcq-14",
+        "blue-mcq-11",
+        "blue-mcq-10"
       ],
       "explanation": "本句的「blues」指「藍調音樂；已成為獨立的音樂類型名稱」。",
       "sentenceIndex": 17,
@@ -851,12 +781,10 @@ export default {
         "blues"
       ],
       "optionReasons": {
-        "blue-mcq-07": "本句指「藍調音樂；已成為獨立的音樂類型名稱」。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。"
+        "blue-mcq-07": "本句的「blues」指「藍調音樂；已成為獨立的音樂類型名稱」。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-07"
     },
@@ -869,10 +797,8 @@ export default {
       "options": [
         "blue-mcq-07",
         "blue-mcq-06",
-        "blue-mcq-08",
-        "blue-mcq-05",
-        "blue-mcq-09",
-        "blue-mcq-04"
+        "blue-mcq-12",
+        "blue-mcq-03"
       ],
       "explanation": "本句的「blues」指「藍調音樂；已成為獨立的音樂類型名稱」。",
       "sentenceIndex": 18,
@@ -881,12 +807,10 @@ export default {
         "blues"
       ],
       "optionReasons": {
-        "blue-mcq-07": "本句指「藍調音樂；已成為獨立的音樂類型名稱」。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-04": "「因寒冷、缺氧、瘀傷等而呈青藍／紫藍色；屬於 colour 義」是「blue — skin colour state」的用法，與本句語境不同。"
+        "blue-mcq-07": "本句的「blues」指「藍調音樂；已成為獨立的音樂類型名稱」。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-07"
     },
@@ -898,11 +822,9 @@ export default {
       "masked": "The shell had a ____ tint.",
       "options": [
         "blue-mcq-08",
-        "blue-mcq-07",
-        "blue-mcq-09",
-        "blue-mcq-06",
-        "blue-mcq-10",
-        "blue-mcq-05"
+        "blue-mcq-02",
+        "blue-mcq-13",
+        "blue-mcq-12"
       ],
       "explanation": "本句的「bluish」指「略帶藍色的」。",
       "sentenceIndex": 19,
@@ -911,12 +833,10 @@ export default {
         "bluish"
       ],
       "optionReasons": {
-        "blue-mcq-08": "本句指「略帶藍色的」。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。"
+        "blue-mcq-08": "本句的「bluish」指「略帶藍色的」。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-08"
     },
@@ -928,11 +848,9 @@ export default {
       "masked": "The mountains looked ____ in the distance.",
       "options": [
         "blue-mcq-08",
-        "blue-mcq-07",
-        "blue-mcq-09",
-        "blue-mcq-06",
-        "blue-mcq-10",
-        "blue-mcq-05"
+        "blue-mcq-02",
+        "blue-mcq-11",
+        "blue-mcq-14"
       ],
       "explanation": "本句的「bluish」指「略帶藍色的」。",
       "sentenceIndex": 20,
@@ -941,12 +859,10 @@ export default {
         "bluish"
       ],
       "optionReasons": {
-        "blue-mcq-08": "本句指「略帶藍色的」。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-05": "「藉藍色代指天空或海洋；較詩意」是「the blue」的用法，與本句語境不同。"
+        "blue-mcq-08": "本句的「bluish」指「略帶藍色的」。",
+        "blue-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-08"
     },
@@ -958,11 +874,9 @@ export default {
       "masked": "The ____ of the water was striking.",
       "options": [
         "blue-mcq-09",
-        "blue-mcq-08",
         "blue-mcq-10",
-        "blue-mcq-07",
-        "blue-mcq-11",
-        "blue-mcq-06"
+        "blue-mcq-06",
+        "blue-mcq-13"
       ],
       "explanation": "本句的「blueness」指「藍色的性質或程度」。",
       "sentenceIndex": 21,
@@ -971,12 +885,10 @@ export default {
         "blueness"
       ],
       "optionReasons": {
-        "blue-mcq-09": "本句指「藍色的性質或程度」。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。",
-        "blue-mcq-11": "「表示非常罕見地；隔很久才一次」是「Useful expression: once in a blue moon — 極少；難得一次」的用法，與本句語境不同。",
-        "blue-mcq-06": "「憂鬱、低落、傷感的情緒」是「the blues — emotion」的用法，與本句語境不同。"
+        "blue-mcq-09": "本句的「blueness」指「藍色的性質或程度」。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-09"
     },
@@ -988,11 +900,9 @@ export default {
       "masked": "He called me completely ____.",
       "options": [
         "blue-mcq-10",
-        "blue-mcq-09",
+        "blue-mcq-05",
         "blue-mcq-11",
-        "blue-mcq-08",
-        "blue-mcq-12",
-        "blue-mcq-07"
+        "blue-mcq-03"
       ],
       "explanation": "本句的「out of the blue」指「表示毫無預兆地、突然地」。",
       "sentenceIndex": 22,
@@ -1001,12 +911,10 @@ export default {
         "out of the blue"
       ],
       "optionReasons": {
-        "blue-mcq-10": "本句指「表示毫無預兆地、突然地」。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-11": "「表示非常罕見地；隔很久才一次」是「Useful expression: once in a blue moon — 極少；難得一次」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-12": "「身體因碰撞而出現大量瘀傷」是「Useful expression: black and blue — 青一塊紫一塊」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。"
+        "blue-mcq-10": "本句的「out of the blue」指「表示毫無預兆地、突然地」。",
+        "blue-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-10"
     },
@@ -1018,10 +926,8 @@ export default {
       "masked": "The opportunity came ____.",
       "options": [
         "blue-mcq-10",
-        "blue-mcq-09",
-        "blue-mcq-11",
-        "blue-mcq-08",
-        "blue-mcq-12",
+        "blue-mcq-13",
+        "blue-mcq-01",
         "blue-mcq-07"
       ],
       "explanation": "本句的「out of the blue」指「表示毫無預兆地、突然地」。",
@@ -1031,12 +937,10 @@ export default {
         "out of the blue"
       ],
       "optionReasons": {
-        "blue-mcq-10": "本句指「表示毫無預兆地、突然地」。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-11": "「表示非常罕見地；隔很久才一次」是「Useful expression: once in a blue moon — 極少；難得一次」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。",
-        "blue-mcq-12": "「身體因碰撞而出現大量瘀傷」是「Useful expression: black and blue — 青一塊紫一塊」的用法，與本句語境不同。",
-        "blue-mcq-07": "「藍調音樂；已成為獨立的音樂類型名稱」是「the blues — music」的用法，與本句語境不同。"
+        "blue-mcq-10": "本句的「out of the blue」指「表示毫無預兆地、突然地」。",
+        "blue-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-10"
     },
@@ -1048,11 +952,9 @@ export default {
       "masked": "We only eat there ____.",
       "options": [
         "blue-mcq-11",
-        "blue-mcq-10",
         "blue-mcq-12",
-        "blue-mcq-09",
-        "blue-mcq-13",
-        "blue-mcq-08"
+        "blue-mcq-06",
+        "blue-mcq-03"
       ],
       "explanation": "本句的「once in a blue moon」指「表示非常罕見地；隔很久才一次」。",
       "sentenceIndex": 24,
@@ -1061,12 +963,10 @@ export default {
         "once in a blue moon"
       ],
       "optionReasons": {
-        "blue-mcq-11": "本句指「表示非常罕見地；隔很久才一次」。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-12": "「身體因碰撞而出現大量瘀傷」是「Useful expression: black and blue — 青一塊紫一塊」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-13": "「表示貴族／上流社會血統」是「Useful expression: blue blood — 貴族血統」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。"
+        "blue-mcq-11": "本句的「once in a blue moon」指「表示非常罕見地；隔很久才一次」。",
+        "blue-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-11"
     },
@@ -1078,11 +978,9 @@ export default {
       "masked": "He visits us once in a ____.",
       "options": [
         "blue-mcq-11",
-        "blue-mcq-10",
-        "blue-mcq-12",
-        "blue-mcq-09",
-        "blue-mcq-13",
-        "blue-mcq-08"
+        "blue-mcq-03",
+        "blue-mcq-08",
+        "blue-mcq-12"
       ],
       "explanation": "本句的「blue moon」指「表示非常罕見地；隔很久才一次」。",
       "sentenceIndex": 25,
@@ -1091,12 +989,10 @@ export default {
         "blue moon"
       ],
       "optionReasons": {
-        "blue-mcq-11": "本句指「表示非常罕見地；隔很久才一次」。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-12": "「身體因碰撞而出現大量瘀傷」是「Useful expression: black and blue — 青一塊紫一塊」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。",
-        "blue-mcq-13": "「表示貴族／上流社會血統」是「Useful expression: blue blood — 貴族血統」的用法，與本句語境不同。",
-        "blue-mcq-08": "「略帶藍色的」是「bluish」的用法，與本句語境不同。"
+        "blue-mcq-11": "本句的「blue moon」指「表示非常罕見地；隔很久才一次」。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-11"
     },
@@ -1108,10 +1004,8 @@ export default {
       "masked": "My leg was black and ____ after the accident.",
       "options": [
         "blue-mcq-12",
-        "blue-mcq-11",
-        "blue-mcq-13",
         "blue-mcq-10",
-        "blue-mcq-14",
+        "blue-mcq-11",
         "blue-mcq-09"
       ],
       "explanation": "本句的「blue」指「身體因碰撞而出現大量瘀傷」。",
@@ -1121,12 +1015,10 @@ export default {
         "blue"
       ],
       "optionReasons": {
-        "blue-mcq-12": "本句指「身體因碰撞而出現大量瘀傷」。",
-        "blue-mcq-11": "「表示非常罕見地；隔很久才一次」是「Useful expression: once in a blue moon — 極少；難得一次」的用法，與本句語境不同。",
-        "blue-mcq-13": "「表示貴族／上流社會血統」是「Useful expression: blue blood — 貴族血統」的用法，與本句語境不同。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-14": "「與體力、技術工種或工業工作有關的」是「Useful compound: blue-collar — 藍領的」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。"
+        "blue-mcq-12": "本句的「blue」指「身體因碰撞而出現大量瘀傷」。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-12"
     },
@@ -1138,11 +1030,9 @@ export default {
       "masked": "The expression ‘____’ traditionally refers to aristocratic ancestry.",
       "options": [
         "blue-mcq-13",
-        "blue-mcq-12",
-        "blue-mcq-14",
-        "blue-mcq-11",
         "blue-mcq-10",
-        "blue-mcq-09"
+        "blue-mcq-14",
+        "blue-mcq-03"
       ],
       "explanation": "本句的「blue blood」指「表示貴族／上流社會血統」。",
       "sentenceIndex": 27,
@@ -1151,12 +1041,10 @@ export default {
         "blue blood"
       ],
       "optionReasons": {
-        "blue-mcq-13": "本句指「表示貴族／上流社會血統」。",
-        "blue-mcq-12": "「身體因碰撞而出現大量瘀傷」是「Useful expression: black and blue — 青一塊紫一塊」的用法，與本句語境不同。",
-        "blue-mcq-14": "「與體力、技術工種或工業工作有關的」是「Useful compound: blue-collar — 藍領的」的用法，與本句語境不同。",
-        "blue-mcq-11": "「表示非常罕見地；隔很久才一次」是「Useful expression: once in a blue moon — 極少；難得一次」的用法，與本句語境不同。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。"
+        "blue-mcq-13": "本句的「blue blood」指「表示貴族／上流社會血統」。",
+        "blue-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-13"
     },
@@ -1168,11 +1056,9 @@ export default {
       "masked": "The area traditionally had many ____ workers.",
       "options": [
         "blue-mcq-14",
-        "blue-mcq-13",
-        "blue-mcq-12",
-        "blue-mcq-11",
-        "blue-mcq-10",
-        "blue-mcq-09"
+        "blue-mcq-06",
+        "blue-mcq-07",
+        "blue-mcq-11"
       ],
       "explanation": "本句的「blue-collar」指「與體力、技術工種或工業工作有關的」。",
       "sentenceIndex": 28,
@@ -1181,12 +1067,10 @@ export default {
         "blue-collar"
       ],
       "optionReasons": {
-        "blue-mcq-14": "本句指「與體力、技術工種或工業工作有關的」。",
-        "blue-mcq-13": "「表示貴族／上流社會血統」是「Useful expression: blue blood — 貴族血統」的用法，與本句語境不同。",
-        "blue-mcq-12": "「身體因碰撞而出現大量瘀傷」是「Useful expression: black and blue — 青一塊紫一塊」的用法，與本句語境不同。",
-        "blue-mcq-11": "「表示非常罕見地；隔很久才一次」是「Useful expression: once in a blue moon — 極少；難得一次」的用法，與本句語境不同。",
-        "blue-mcq-10": "「表示毫無預兆地、突然地」是「Useful expression: out of the blue — 突然；出乎意料地」的用法，與本句語境不同。",
-        "blue-mcq-09": "「藍色的性質或程度」是「blueness」的用法，與本句語境不同。"
+        "blue-mcq-14": "本句的「blue-collar」指「與體力、技術工種或工業工作有關的」。",
+        "blue-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "blue-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "blue-mcq-14"
     }
@@ -1198,5 +1082,7 @@ export default {
     "sha256": "03674f3e223a6ee93176b569fa2288dd065a447ef985f5b8d2f001dc543113d4",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

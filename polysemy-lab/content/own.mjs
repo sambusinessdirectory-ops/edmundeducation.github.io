@@ -660,11 +660,9 @@ export default {
       "masked": "I brought my ____ laptop.",
       "options": [
         "own-mcq-01",
-        "own-mcq-02",
-        "own-mcq-03",
-        "own-mcq-04",
-        "own-mcq-05",
-        "own-mcq-06"
+        "own-pdf-001",
+        "own-mcq-16",
+        "own-mcq-11"
       ],
       "explanation": "本句的「own」指「自己的」。",
       "sentenceIndex": 0,
@@ -673,12 +671,10 @@ export default {
         "own"
       ],
       "optionReasons": {
-        "own-mcq-01": "本句指「自己的」。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-01": "本句的「own」指「自己的」。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-01"
     },
@@ -690,11 +686,9 @@ export default {
       "masked": "Everyone should have their ____ opinion.",
       "options": [
         "own-mcq-01",
-        "own-mcq-02",
-        "own-mcq-03",
-        "own-mcq-04",
-        "own-mcq-05",
-        "own-mcq-06"
+        "own-mcq-10",
+        "own-mcq-22",
+        "own-mcq-16"
       ],
       "explanation": "本句的「own」指「自己的」。",
       "sentenceIndex": 1,
@@ -703,12 +697,10 @@ export default {
         "own"
       ],
       "optionReasons": {
-        "own-mcq-01": "本句指「自己的」。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-01": "本句的「own」指「自己的」。",
+        "own-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-01"
     },
@@ -720,11 +712,9 @@ export default {
       "masked": "She has her ____ room.",
       "options": [
         "own-mcq-01",
-        "own-mcq-02",
-        "own-mcq-03",
-        "own-mcq-04",
-        "own-mcq-05",
-        "own-mcq-06"
+        "own-mcq-10",
+        "own-mcq-24",
+        "own-mcq-13"
       ],
       "explanation": "本句的「own」指「自己的」。",
       "sentenceIndex": 2,
@@ -733,12 +723,10 @@ export default {
         "own"
       ],
       "optionReasons": {
-        "own-mcq-01": "本句指「自己的」。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-01": "本句的「own」指「自己的」。",
+        "own-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-01"
     },
@@ -750,11 +738,9 @@ export default {
       "masked": "I want to make my ____ decision.",
       "options": [
         "own-mcq-02",
-        "own-mcq-01",
-        "own-mcq-03",
-        "own-mcq-04",
-        "own-mcq-05",
-        "own-mcq-06"
+        "own-mcq-18",
+        "own-mcq-06",
+        "own-mcq-16"
       ],
       "explanation": "本句的「own」指「我自己的」。",
       "sentenceIndex": 3,
@@ -763,12 +749,10 @@ export default {
         "own"
       ],
       "optionReasons": {
-        "own-mcq-02": "本句指「我自己的」。",
-        "own-mcq-01": "「自己的」是「own (possessive)」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-02": "本句的「own」指「我自己的」。",
+        "own-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-02"
     },
@@ -780,11 +764,9 @@ export default {
       "masked": "You need to find your ____ way.",
       "options": [
         "own-mcq-02",
-        "own-mcq-01",
-        "own-mcq-03",
-        "own-mcq-04",
         "own-mcq-05",
-        "own-mcq-06"
+        "own-pdf-001",
+        "own-mcq-08"
       ],
       "explanation": "本句的「own」指「我自己的」。",
       "sentenceIndex": 4,
@@ -793,12 +775,10 @@ export default {
         "own"
       ],
       "optionReasons": {
-        "own-mcq-02": "本句指「我自己的」。",
-        "own-mcq-01": "「自己的」是「own (possessive)」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-02": "本句的「own」指「我自己的」。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-02"
     },
@@ -810,11 +790,9 @@ export default {
       "masked": "I'd like a place ____.",
       "options": [
         "own-mcq-03",
-        "own-mcq-02",
-        "own-mcq-04",
-        "own-mcq-01",
+        "own-mcq-08",
         "own-mcq-05",
-        "own-mcq-06"
+        "own-pdf-001"
       ],
       "explanation": "本句的「of my own」指「屬於我自己的」。",
       "sentenceIndex": 5,
@@ -823,12 +801,10 @@ export default {
         "of my own"
       ],
       "optionReasons": {
-        "own-mcq-03": "本句指「屬於我自己的」。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-01": "「自己的」是「own (possessive)」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-03": "本句的「of my own」指「屬於我自己的」。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-03"
     },
@@ -840,11 +816,9 @@ export default {
       "masked": "She started a business ____.",
       "options": [
         "own-mcq-03",
-        "own-mcq-02",
-        "own-mcq-04",
-        "own-mcq-01",
-        "own-mcq-05",
-        "own-mcq-06"
+        "own-mcq-12",
+        "own-mcq-15",
+        "own-mcq-07"
       ],
       "explanation": "本句的「of her own」指「屬於我自己的」。",
       "sentenceIndex": 6,
@@ -853,12 +827,10 @@ export default {
         "of her own"
       ],
       "optionReasons": {
-        "own-mcq-03": "本句指「屬於我自己的」。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-01": "「自己的」是「own (possessive)」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-03": "本句的「of her own」指「屬於我自己的」。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-03"
     },
@@ -870,11 +842,9 @@ export default {
       "masked": "I finished the project ____.",
       "options": [
         "own-mcq-04",
-        "own-mcq-03",
-        "own-mcq-05",
-        "own-mcq-02",
-        "own-mcq-06",
-        "own-mcq-01"
+        "own-mcq-13",
+        "own-mcq-12",
+        "own-mcq-06"
       ],
       "explanation": "本句的「on my own」指「獨自／靠自己」。",
       "sentenceIndex": 7,
@@ -883,12 +853,10 @@ export default {
         "on my own"
       ],
       "optionReasons": {
-        "own-mcq-04": "本句指「獨自／靠自己」。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-01": "「自己的」是「own (possessive)」的用法，與本句語境不同。"
+        "own-mcq-04": "本句的「on my own」指「獨自／靠自己」。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-04"
     },
@@ -900,11 +868,9 @@ export default {
       "masked": "She lives ____.",
       "options": [
         "own-mcq-04",
-        "own-mcq-03",
-        "own-mcq-05",
-        "own-mcq-02",
-        "own-mcq-06",
-        "own-mcq-01"
+        "own-mcq-12",
+        "own-mcq-16",
+        "own-mcq-06"
       ],
       "explanation": "本句的「on her own」指「獨自／靠自己」。",
       "sentenceIndex": 8,
@@ -913,12 +879,10 @@ export default {
         "on her own"
       ],
       "optionReasons": {
-        "own-mcq-04": "本句指「獨自／靠自己」。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-01": "「自己的」是「own (possessive)」的用法，與本句語境不同。"
+        "own-mcq-04": "本句的「on her own」指「獨自／靠自己」。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-04"
     },
@@ -930,11 +894,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "own-mcq-05",
-        "own-mcq-04",
-        "own-mcq-06",
-        "own-mcq-03",
-        "own-mcq-07",
-        "own-mcq-02"
+        "own-pdf-001",
+        "own-mcq-19",
+        "own-mcq-16"
       ],
       "explanation": "本句的「owns a flat」指「擁有」。",
       "sentenceIndex": 9,
@@ -943,12 +905,10 @@ export default {
         "owns a flat"
       ],
       "optionReasons": {
-        "own-mcq-05": "本句指「擁有」。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。"
+        "own-mcq-05": "本句的「owns a flat」指「擁有」。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-05"
     },
@@ -960,11 +920,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "own-mcq-05",
-        "own-mcq-04",
-        "own-mcq-06",
-        "own-mcq-03",
-        "own-mcq-07",
-        "own-mcq-02"
+        "own-mcq-24",
+        "own-mcq-18",
+        "own-mcq-20"
       ],
       "explanation": "本句的「owns several buildings」指「擁有」。",
       "sentenceIndex": 10,
@@ -973,12 +931,10 @@ export default {
         "owns several buildings"
       ],
       "optionReasons": {
-        "own-mcq-05": "本句指「擁有」。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。"
+        "own-mcq-05": "本句的「owns several buildings」指「擁有」。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-05"
     },
@@ -990,11 +946,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "own-pdf-001",
-        "own-mcq-04",
-        "own-mcq-06",
-        "own-mcq-03",
-        "own-mcq-07",
-        "own-mcq-02"
+        "own-mcq-11",
+        "own-mcq-16",
+        "own-mcq-23"
       ],
       "explanation": "本句的「own their home」指「對 X 有正式所有權」。",
       "sentenceIndex": 11,
@@ -1003,12 +957,10 @@ export default {
         "own their home"
       ],
       "optionReasons": {
-        "own-pdf-001": "本句指「對 X 有正式所有權」。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。"
+        "own-pdf-001": "本句的「own their home」指「對 X 有正式所有權」。",
+        "own-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-pdf-001"
     },
@@ -1020,11 +972,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "own-pdf-001",
-        "own-mcq-04",
         "own-mcq-06",
-        "own-mcq-03",
-        "own-mcq-07",
-        "own-mcq-02"
+        "own-mcq-21",
+        "own-mcq-08"
       ],
       "explanation": "本句的「owns a small company」指「對 X 有正式所有權」。",
       "sentenceIndex": 12,
@@ -1033,12 +983,10 @@ export default {
         "owns a small company"
       ],
       "optionReasons": {
-        "own-pdf-001": "本句指「對 X 有正式所有權」。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-02": "「我自己的」是「my own」的用法，與本句語境不同。"
+        "own-pdf-001": "本句的「owns a small company」指「對 X 有正式所有權」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-pdf-001"
     },
@@ -1050,11 +998,9 @@ export default {
       "masked": "The building is ____ the university.",
       "options": [
         "own-mcq-06",
-        "own-mcq-05",
-        "own-mcq-07",
-        "own-mcq-04",
-        "own-mcq-08",
-        "own-mcq-03"
+        "own-mcq-24",
+        "own-mcq-17",
+        "own-mcq-26"
       ],
       "explanation": "本句的「owned by」指「由……擁有」。",
       "sentenceIndex": 13,
@@ -1063,12 +1009,10 @@ export default {
         "owned by"
       ],
       "optionReasons": {
-        "own-mcq-06": "本句指「由……擁有」。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。"
+        "own-mcq-06": "本句的「owned by」指「由……擁有」。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-06"
     },
@@ -1080,11 +1024,9 @@ export default {
       "masked": "The restaurant is ____ a local family.",
       "options": [
         "own-mcq-06",
-        "own-mcq-05",
-        "own-mcq-07",
-        "own-mcq-04",
-        "own-mcq-08",
-        "own-mcq-03"
+        "own-mcq-19",
+        "own-pdf-001",
+        "own-mcq-26"
       ],
       "explanation": "本句的「owned by」指「由……擁有」。",
       "sentenceIndex": 14,
@@ -1093,12 +1035,10 @@ export default {
         "owned by"
       ],
       "optionReasons": {
-        "own-mcq-06": "本句指「由……擁有」。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-03": "「屬於我自己的」是「of my own」的用法，與本句語境不同。"
+        "own-mcq-06": "本句的「owned by」指「由……擁有」。",
+        "own-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-06"
     },
@@ -1110,11 +1050,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "own-mcq-07",
-        "own-mcq-06",
-        "own-mcq-08",
-        "own-mcq-05",
-        "own-mcq-09",
-        "own-mcq-04"
+        "own-pdf-001",
+        "own-mcq-16",
+        "own-mcq-20"
       ],
       "explanation": "本句的「privately owned」指「私人擁有的」。",
       "sentenceIndex": 15,
@@ -1123,12 +1061,10 @@ export default {
         "privately owned"
       ],
       "optionReasons": {
-        "own-mcq-07": "本句指「私人擁有的」。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。"
+        "own-mcq-07": "本句的「privately owned」指「私人擁有的」。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-07"
     },
@@ -1140,11 +1076,9 @@ export default {
       "masked": "The land is ____.",
       "options": [
         "own-mcq-07",
-        "own-mcq-06",
-        "own-mcq-08",
-        "own-mcq-05",
-        "own-mcq-09",
-        "own-mcq-04"
+        "own-mcq-11",
+        "own-mcq-22",
+        "own-mcq-17"
       ],
       "explanation": "本句的「privately owned」指「私人擁有的」。",
       "sentenceIndex": 16,
@@ -1153,12 +1087,10 @@ export default {
         "privately owned"
       ],
       "optionReasons": {
-        "own-mcq-07": "本句指「私人擁有的」。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-04": "「獨自／靠自己」是「on my own」的用法，與本句語境不同。"
+        "own-mcq-07": "本句的「privately owned」指「私人擁有的」。",
+        "own-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-07"
     },
@@ -1170,11 +1102,9 @@ export default {
       "masked": "It is a ____.",
       "options": [
         "own-mcq-08",
-        "own-mcq-07",
-        "own-mcq-09",
-        "own-mcq-06",
-        "own-mcq-10",
-        "own-mcq-05"
+        "own-mcq-03",
+        "own-pdf-001",
+        "own-mcq-24"
       ],
       "explanation": "本句的「state-owned company」指「國有的」。",
       "sentenceIndex": 17,
@@ -1183,12 +1113,10 @@ export default {
         "state-owned company"
       ],
       "optionReasons": {
-        "own-mcq-08": "本句指「國有的」。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。"
+        "own-mcq-08": "本句的「state-owned company」指「國有的」。",
+        "own-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-08"
     },
@@ -1200,11 +1128,9 @@ export default {
       "masked": "The railway is ____.",
       "options": [
         "own-mcq-08",
-        "own-mcq-07",
-        "own-mcq-09",
-        "own-mcq-06",
-        "own-mcq-10",
-        "own-mcq-05"
+        "own-mcq-12",
+        "own-mcq-19",
+        "own-mcq-17"
       ],
       "explanation": "本句的「state-owned」指「國有的」。",
       "sentenceIndex": 18,
@@ -1213,12 +1139,10 @@ export default {
         "state-owned"
       ],
       "optionReasons": {
-        "own-mcq-08": "本句指「國有的」。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-05": "「擁有」是「own (verb)」的用法，與本句語境不同。"
+        "own-mcq-08": "本句的「state-owned」指「國有的」。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-08"
     },
@@ -1230,11 +1154,9 @@ export default {
       "masked": "The ____ of the shop was very friendly.",
       "options": [
         "own-mcq-09",
-        "own-mcq-08",
-        "own-mcq-10",
-        "own-mcq-07",
-        "own-mcq-11",
-        "own-mcq-06"
+        "own-mcq-16",
+        "own-pdf-001",
+        "own-mcq-04"
       ],
       "explanation": "本句的「owner」指「擁有人；物主」。",
       "sentenceIndex": 19,
@@ -1243,12 +1165,10 @@ export default {
         "owner"
       ],
       "optionReasons": {
-        "own-mcq-09": "本句指「擁有人；物主」。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-09": "本句的「owner」指「擁有人；物主」。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-09"
     },
@@ -1260,11 +1180,9 @@ export default {
       "masked": "Who is the ____ of this car?",
       "options": [
         "own-mcq-09",
-        "own-mcq-08",
-        "own-mcq-10",
-        "own-mcq-07",
-        "own-mcq-11",
-        "own-mcq-06"
+        "own-mcq-13",
+        "own-mcq-23",
+        "own-mcq-02"
       ],
       "explanation": "本句的「owner」指「擁有人；物主」。",
       "sentenceIndex": 20,
@@ -1273,12 +1191,10 @@ export default {
         "owner"
       ],
       "optionReasons": {
-        "own-mcq-09": "本句指「擁有人；物主」。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-06": "「由……擁有」是「be owned by」的用法，與本句語境不同。"
+        "own-mcq-09": "本句的「owner」指「擁有人；物主」。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-09"
     },
@@ -1290,11 +1206,9 @@ export default {
       "masked": "She is a small ____.",
       "options": [
         "own-mcq-10",
-        "own-mcq-09",
-        "own-mcq-11",
         "own-mcq-08",
-        "own-mcq-12",
-        "own-mcq-07"
+        "own-pdf-002",
+        "own-mcq-23"
       ],
       "explanation": "本句的「business owner」指「企業主」。",
       "sentenceIndex": 21,
@@ -1303,12 +1217,10 @@ export default {
         "business owner"
       ],
       "optionReasons": {
-        "own-mcq-10": "本句指「企業主」。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。"
+        "own-mcq-10": "本句的「business owner」指「企業主」。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-10"
     },
@@ -1320,11 +1232,9 @@ export default {
       "masked": "Local ____ attended the meeting.",
       "options": [
         "own-mcq-10",
-        "own-mcq-09",
-        "own-mcq-11",
-        "own-mcq-08",
         "own-mcq-12",
-        "own-mcq-07"
+        "own-mcq-06",
+        "own-mcq-26"
       ],
       "explanation": "本句的「business owners」指「企業主」。",
       "sentenceIndex": 22,
@@ -1333,12 +1243,10 @@ export default {
         "business owners"
       ],
       "optionReasons": {
-        "own-mcq-10": "本句指「企業主」。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-07": "「私人擁有的」是「privately owned」的用法，與本句語境不同。"
+        "own-mcq-10": "本句的「business owners」指「企業主」。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-10"
     },
@@ -1350,11 +1258,9 @@ export default {
       "masked": "The scheme helps first-time ____.",
       "options": [
         "own-mcq-11",
-        "own-mcq-10",
-        "own-mcq-12",
-        "own-mcq-09",
-        "own-mcq-13",
-        "own-mcq-08"
+        "own-mcq-04",
+        "own-mcq-07",
+        "own-mcq-13"
       ],
       "explanation": "本句的「homeowners」指「業主」。",
       "sentenceIndex": 23,
@@ -1363,12 +1269,10 @@ export default {
         "homeowners"
       ],
       "optionReasons": {
-        "own-mcq-11": "本句指「業主」。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。"
+        "own-mcq-11": "本句的「homeowners」指「業主」。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-11"
     },
@@ -1380,11 +1284,9 @@ export default {
       "masked": "Many ____ are worried about repair costs.",
       "options": [
         "own-mcq-11",
-        "own-mcq-10",
-        "own-mcq-12",
-        "own-mcq-09",
-        "own-mcq-13",
-        "own-mcq-08"
+        "own-mcq-08",
+        "own-mcq-16",
+        "own-mcq-04"
       ],
       "explanation": "本句的「homeowners」指「業主」。",
       "sentenceIndex": 24,
@@ -1393,12 +1295,10 @@ export default {
         "homeowners"
       ],
       "optionReasons": {
-        "own-mcq-11": "本句指「業主」。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-08": "「國有的」是「state-owned」的用法，與本句語境不同。"
+        "own-mcq-11": "本句的「homeowners」指「業主」。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-11"
     },
@@ -1410,11 +1310,9 @@ export default {
       "masked": "The document proves ____ of the property.",
       "options": [
         "own-mcq-12",
-        "own-mcq-11",
-        "own-mcq-13",
-        "own-mcq-10",
-        "own-mcq-14",
-        "own-mcq-09"
+        "own-pdf-002",
+        "own-mcq-09",
+        "own-mcq-08"
       ],
       "explanation": "本句的「ownership」指「所有權」。",
       "sentenceIndex": 25,
@@ -1423,12 +1321,10 @@ export default {
         "ownership"
       ],
       "optionReasons": {
-        "own-mcq-12": "本句指「所有權」。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。"
+        "own-mcq-12": "本句的「ownership」指「所有權」。",
+        "own-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-12"
     },
@@ -1440,11 +1336,9 @@ export default {
       "masked": "____ was transferred to the buyer.",
       "options": [
         "own-mcq-12",
-        "own-mcq-11",
-        "own-mcq-13",
-        "own-mcq-10",
-        "own-mcq-14",
-        "own-mcq-09"
+        "own-mcq-04",
+        "own-mcq-21",
+        "own-mcq-10"
       ],
       "explanation": "本句的「Ownership」指「所有權」。",
       "sentenceIndex": 26,
@@ -1453,12 +1347,10 @@ export default {
         "Ownership"
       ],
       "optionReasons": {
-        "own-mcq-12": "本句指「所有權」。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。"
+        "own-mcq-12": "本句的「Ownership」指「所有權」。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-12"
     },
@@ -1470,11 +1362,9 @@ export default {
       "masked": "____ is disputed.",
       "options": [
         "own-mcq-12",
-        "own-mcq-11",
-        "own-mcq-13",
-        "own-mcq-10",
-        "own-mcq-14",
-        "own-mcq-09"
+        "own-mcq-04",
+        "own-mcq-24",
+        "own-mcq-18"
       ],
       "explanation": "本句的「Ownership of the land」指「所有權」。",
       "sentenceIndex": 27,
@@ -1483,12 +1373,10 @@ export default {
         "Ownership of the land"
       ],
       "optionReasons": {
-        "own-mcq-12": "本句指「所有權」。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。"
+        "own-mcq-12": "本句的「Ownership of the land」指「所有權」。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-12"
     },
@@ -1500,11 +1388,9 @@ export default {
       "masked": "The records show ____.",
       "options": [
         "own-mcq-12",
-        "own-mcq-11",
-        "own-mcq-13",
-        "own-mcq-10",
-        "own-mcq-14",
-        "own-mcq-09"
+        "own-mcq-18",
+        "own-mcq-26",
+        "own-mcq-05"
       ],
       "explanation": "本句的「ownership of the shares」指「所有權」。",
       "sentenceIndex": 28,
@@ -1513,12 +1399,10 @@ export default {
         "ownership of the shares"
       ],
       "optionReasons": {
-        "own-mcq-12": "本句指「所有權」。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-09": "「擁有人；物主」是「owner」的用法，與本句語境不同。"
+        "own-mcq-12": "本句的「ownership of the shares」指「所有權」。",
+        "own-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-12"
     },
@@ -1530,11 +1414,9 @@ export default {
       "masked": "I respect people who can ____.",
       "options": [
         "own-mcq-13",
-        "own-mcq-12",
-        "own-mcq-14",
-        "own-mcq-11",
-        "own-mcq-15",
-        "own-mcq-10"
+        "own-mcq-22",
+        "own-mcq-10",
+        "own-mcq-01"
       ],
       "explanation": "本句的「own their mistakes」指「承認並承擔錯誤」。",
       "sentenceIndex": 29,
@@ -1543,12 +1425,10 @@ export default {
         "own their mistakes"
       ],
       "optionReasons": {
-        "own-mcq-13": "本句指「承認並承擔錯誤」。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
+        "own-mcq-13": "本句的「own their mistakes」指「承認並承擔錯誤」。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-13"
     },
@@ -1560,11 +1440,9 @@ export default {
       "masked": "She ____ and apologised.",
       "options": [
         "own-mcq-13",
-        "own-mcq-12",
-        "own-mcq-14",
-        "own-mcq-11",
-        "own-mcq-15",
-        "own-mcq-10"
+        "own-mcq-05",
+        "own-mcq-26",
+        "own-mcq-22"
       ],
       "explanation": "本句的「owned her mistake」指「承認並承擔錯誤」。",
       "sentenceIndex": 30,
@@ -1573,12 +1451,10 @@ export default {
         "owned her mistake"
       ],
       "optionReasons": {
-        "own-mcq-13": "本句指「承認並承擔錯誤」。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
+        "own-mcq-13": "本句的「owned her mistake」指「承認並承擔錯誤」。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-13"
     },
@@ -1590,11 +1466,9 @@ export default {
       "masked": "He needs to ____.",
       "options": [
         "own-mcq-13",
-        "own-mcq-12",
-        "own-mcq-14",
-        "own-mcq-11",
-        "own-mcq-15",
-        "own-mcq-10"
+        "own-mcq-08",
+        "own-mcq-06",
+        "own-pdf-001"
       ],
       "explanation": "本句的「own what he did」指「承認並承擔錯誤」。",
       "sentenceIndex": 31,
@@ -1603,12 +1477,10 @@ export default {
         "own what he did"
       ],
       "optionReasons": {
-        "own-mcq-13": "本句指「承認並承擔錯誤」。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
+        "own-mcq-13": "本句的「own what he did」指「承認並承擔錯誤」。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-13"
     },
@@ -1620,11 +1492,9 @@ export default {
       "masked": "Good leaders ____.",
       "options": [
         "own-pdf-002",
-        "own-mcq-12",
-        "own-mcq-14",
-        "own-mcq-11",
-        "own-mcq-15",
-        "own-mcq-10"
+        "own-mcq-05",
+        "own-mcq-22",
+        "own-mcq-24"
       ],
       "explanation": "本句的「own their mistakes」指「不推卸責任，坦白承認錯誤是自己造成的」。",
       "sentenceIndex": 32,
@@ -1633,12 +1503,10 @@ export default {
         "own their mistakes"
       ],
       "optionReasons": {
-        "own-pdf-002": "本句指「不推卸責任，坦白承認錯誤是自己造成的」。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
+        "own-pdf-002": "本句的「own their mistakes」指「不推卸責任，坦白承認錯誤是自己造成的」。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-pdf-002"
     },
@@ -1650,11 +1518,9 @@ export default {
       "masked": "It's difficult, but you have to ____.",
       "options": [
         "own-pdf-002",
-        "own-mcq-12",
-        "own-mcq-14",
+        "own-mcq-06",
         "own-mcq-11",
-        "own-mcq-15",
-        "own-mcq-10"
+        "own-mcq-24"
       ],
       "explanation": "本句的「own your mistakes」指「不推卸責任，坦白承認錯誤是自己造成的」。",
       "sentenceIndex": 33,
@@ -1663,12 +1529,10 @@ export default {
         "own your mistakes"
       ],
       "optionReasons": {
-        "own-pdf-002": "本句指「不推卸責任，坦白承認錯誤是自己造成的」。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-10": "「企業主」是「business owner」的用法，與本句語境不同。"
+        "own-pdf-002": "本句的「own your mistakes」指「不推卸責任，坦白承認錯誤是自己造成的」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-pdf-002"
     },
@@ -1680,11 +1544,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "own-mcq-14",
-        "own-mcq-13",
-        "own-mcq-15",
-        "own-mcq-12",
-        "own-mcq-16",
-        "own-mcq-11"
+        "own-mcq-17",
+        "own-mcq-05",
+        "own-mcq-23"
       ],
       "explanation": "本句的「own your actions」指「為自己的行為負責」。",
       "sentenceIndex": 34,
@@ -1693,12 +1555,10 @@ export default {
         "own your actions"
       ],
       "optionReasons": {
-        "own-mcq-14": "本句指「為自己的行為負責」。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。"
+        "own-mcq-14": "本句的「own your actions」指「為自己的行為負責」。",
+        "own-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-14"
     },
@@ -1710,11 +1570,9 @@ export default {
       "masked": "He finally ____ instead of blaming others.",
       "options": [
         "own-mcq-14",
-        "own-mcq-13",
-        "own-mcq-15",
-        "own-mcq-12",
-        "own-mcq-16",
-        "own-mcq-11"
+        "own-mcq-08",
+        "own-mcq-06",
+        "own-mcq-10"
       ],
       "explanation": "本句的「owned his actions」指「為自己的行為負責」。",
       "sentenceIndex": 35,
@@ -1723,12 +1581,10 @@ export default {
         "owned his actions"
       ],
       "optionReasons": {
-        "own-mcq-14": "本句指「為自己的行為負責」。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-11": "「業主」是「homeowner」的用法，與本句語境不同。"
+        "own-mcq-14": "本句的「owned his actions」指「為自己的行為負責」。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-14"
     },
@@ -1740,11 +1596,9 @@ export default {
       "masked": "If you make the decision, you should ____.",
       "options": [
         "own-mcq-15",
-        "own-mcq-14",
-        "own-mcq-16",
-        "own-mcq-13",
-        "own-mcq-17",
-        "own-mcq-12"
+        "own-mcq-06",
+        "own-pdf-001",
+        "own-mcq-16"
       ],
       "explanation": "本句的「own it」指「承擔決定責任」。",
       "sentenceIndex": 36,
@@ -1753,12 +1607,10 @@ export default {
         "own it"
       ],
       "optionReasons": {
-        "own-mcq-15": "本句指「承擔決定責任」。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。"
+        "own-mcq-15": "本句的「own it」指「承擔決定責任」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-15"
     },
@@ -1770,11 +1622,9 @@ export default {
       "masked": "The manager ____ and accepted the consequences.",
       "options": [
         "own-mcq-15",
-        "own-mcq-14",
-        "own-mcq-16",
-        "own-mcq-13",
-        "own-mcq-17",
-        "own-mcq-12"
+        "own-mcq-12",
+        "own-mcq-06",
+        "own-mcq-03"
       ],
       "explanation": "本句的「owned the decision」指「承擔決定責任」。",
       "sentenceIndex": 37,
@@ -1783,12 +1633,10 @@ export default {
         "owned the decision"
       ],
       "optionReasons": {
-        "own-mcq-15": "本句指「承擔決定責任」。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-12": "「所有權」是「ownership」的用法，與本句語境不同。"
+        "own-mcq-15": "本句的「owned the decision」指「承擔決定責任」。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-15"
     },
@@ -1800,11 +1648,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "own-mcq-16",
-        "own-mcq-15",
-        "own-mcq-17",
-        "own-mcq-14",
-        "own-mcq-18",
-        "own-mcq-13"
+        "own-mcq-21",
+        "own-mcq-24",
+        "own-mcq-04"
       ],
       "explanation": "本句的「owned up」指「坦白認錯」。",
       "sentenceIndex": 38,
@@ -1813,12 +1659,10 @@ export default {
         "owned up"
       ],
       "optionReasons": {
-        "own-mcq-16": "本句指「坦白認錯」。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。"
+        "own-mcq-16": "本句的「owned up」指「坦白認錯」。",
+        "own-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-16"
     },
@@ -1830,11 +1674,9 @@ export default {
       "masked": "Nobody wanted to ____ to the mistake.",
       "options": [
         "own-mcq-16",
-        "own-mcq-15",
-        "own-mcq-17",
-        "own-mcq-14",
-        "own-mcq-18",
-        "own-mcq-13"
+        "own-mcq-24",
+        "own-mcq-26",
+        "own-mcq-15"
       ],
       "explanation": "本句的「own up」指「坦白認錯」。",
       "sentenceIndex": 39,
@@ -1843,12 +1685,10 @@ export default {
         "own up"
       ],
       "optionReasons": {
-        "own-mcq-16": "本句指「坦白認錯」。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-13": "「承認並承擔錯誤」是「own a mistake」的用法，與本句語境不同。"
+        "own-mcq-16": "本句的「own up」指「坦白認錯」。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-16"
     },
@@ -1860,11 +1700,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "own-mcq-17",
-        "own-mcq-16",
-        "own-mcq-18",
-        "own-mcq-15",
+        "own-mcq-24",
         "own-mcq-19",
-        "own-mcq-14"
+        "own-mcq-22"
       ],
       "explanation": "本句的「owned up to the mistake」指「承認 X」。",
       "sentenceIndex": 40,
@@ -1873,12 +1711,10 @@ export default {
         "owned up to the mistake"
       ],
       "optionReasons": {
-        "own-mcq-17": "本句指「承認 X」。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。"
+        "own-mcq-17": "本句的「owned up to the mistake」指「承認 X」。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-17"
     },
@@ -1890,11 +1726,9 @@ export default {
       "masked": "He refused to ____.",
       "options": [
         "own-mcq-17",
-        "own-mcq-16",
-        "own-mcq-18",
-        "own-mcq-15",
-        "own-mcq-19",
-        "own-mcq-14"
+        "own-mcq-12",
+        "own-mcq-20",
+        "own-mcq-06"
       ],
       "explanation": "本句的「own up to what he had done」指「承認 X」。",
       "sentenceIndex": 41,
@@ -1903,12 +1737,10 @@ export default {
         "own up to what he had done"
       ],
       "optionReasons": {
-        "own-mcq-17": "本句指「承認 X」。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-14": "「為自己的行為負責」是「own your actions」的用法，與本句語境不同。"
+        "own-mcq-17": "本句的「own up to what he had done」指「承認 X」。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-17"
     },
@@ -1920,11 +1752,9 @@ export default {
       "masked": "She took ____.",
       "options": [
         "own-mcq-18",
-        "own-mcq-17",
-        "own-mcq-19",
-        "own-mcq-16",
-        "own-mcq-20",
-        "own-mcq-15"
+        "own-mcq-05",
+        "own-pdf-001",
+        "own-mcq-16"
       ],
       "explanation": "本句的「ownership of the mistake」指「主動承擔 X」。",
       "sentenceIndex": 42,
@@ -1933,12 +1763,10 @@ export default {
         "ownership of the mistake"
       ],
       "optionReasons": {
-        "own-mcq-18": "本句指「主動承擔 X」。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。"
+        "own-mcq-18": "本句的「ownership of the mistake」指「主動承擔 X」。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-18"
     },
@@ -1950,11 +1778,9 @@ export default {
       "masked": "Employees are encouraged to take ____.",
       "options": [
         "own-mcq-18",
-        "own-mcq-17",
-        "own-mcq-19",
-        "own-mcq-16",
-        "own-mcq-20",
-        "own-mcq-15"
+        "own-mcq-26",
+        "own-mcq-06",
+        "own-mcq-24"
       ],
       "explanation": "本句的「ownership of their work」指「主動承擔 X」。",
       "sentenceIndex": 43,
@@ -1963,12 +1789,10 @@ export default {
         "ownership of their work"
       ],
       "optionReasons": {
-        "own-mcq-18": "本句指「主動承擔 X」。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。"
+        "own-mcq-18": "本句的「ownership of their work」指「主動承擔 X」。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-18"
     },
@@ -1980,11 +1804,9 @@ export default {
       "masked": "He ____ instead of blaming the team.",
       "options": [
         "own-mcq-18",
-        "own-mcq-17",
-        "own-mcq-19",
-        "own-mcq-16",
         "own-mcq-20",
-        "own-mcq-15"
+        "own-mcq-07",
+        "own-mcq-12"
       ],
       "explanation": "本句的「took ownership of the problem」指「主動承擔 X」。",
       "sentenceIndex": 44,
@@ -1993,12 +1815,10 @@ export default {
         "took ownership of the problem"
       ],
       "optionReasons": {
-        "own-mcq-18": "本句指「主動承擔 X」。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。"
+        "own-mcq-18": "本句的「took ownership of the problem」指「主動承擔 X」。",
+        "own-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-18"
     },
@@ -2010,11 +1830,9 @@ export default {
       "masked": "Managers should ____.",
       "options": [
         "own-mcq-18",
-        "own-mcq-17",
-        "own-mcq-19",
-        "own-mcq-16",
-        "own-mcq-20",
-        "own-mcq-15"
+        "own-mcq-04",
+        "own-mcq-06",
+        "own-mcq-23"
       ],
       "explanation": "本句的「take ownership of their decisions」指「主動承擔 X」。",
       "sentenceIndex": 45,
@@ -2023,12 +1841,10 @@ export default {
         "take ownership of their decisions"
       ],
       "optionReasons": {
-        "own-mcq-18": "本句指「主動承擔 X」。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-15": "「承擔決定責任」是「own a decision」的用法，與本句語境不同。"
+        "own-mcq-18": "本句的「take ownership of their decisions」指「主動承擔 X」。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-18"
     },
@@ -2040,11 +1856,9 @@ export default {
       "masked": "Giving students choices creates a ____.",
       "options": [
         "own-mcq-19",
-        "own-mcq-18",
-        "own-mcq-20",
-        "own-mcq-17",
-        "own-mcq-21",
-        "own-mcq-16"
+        "own-pdf-002",
+        "own-pdf-001",
+        "own-mcq-07"
       ],
       "explanation": "本句的「sense of ownership」指「主人翁意識」。",
       "sentenceIndex": 46,
@@ -2053,12 +1867,10 @@ export default {
         "sense of ownership"
       ],
       "optionReasons": {
-        "own-mcq-19": "本句指「主人翁意識」。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。"
+        "own-mcq-19": "本句的「sense of ownership」指「主人翁意識」。",
+        "own-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-19"
     },
@@ -2070,11 +1882,9 @@ export default {
       "masked": "Team members developed a strong ____ over the project.",
       "options": [
         "own-mcq-19",
-        "own-mcq-18",
-        "own-mcq-20",
-        "own-mcq-17",
-        "own-mcq-21",
-        "own-mcq-16"
+        "own-mcq-06",
+        "own-mcq-22",
+        "own-mcq-03"
       ],
       "explanation": "本句的「sense of ownership」指「主人翁意識」。",
       "sentenceIndex": 47,
@@ -2083,12 +1893,10 @@ export default {
         "sense of ownership"
       ],
       "optionReasons": {
-        "own-mcq-19": "本句指「主人翁意識」。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-16": "「坦白認錯」是「own up」的用法，與本句語境不同。"
+        "own-mcq-19": "本句的「sense of ownership」指「主人翁意識」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-19"
     },
@@ -2100,11 +1908,9 @@ export default {
       "masked": "She learned to ____.",
       "options": [
         "own-mcq-20",
-        "own-mcq-19",
-        "own-mcq-21",
-        "own-mcq-18",
-        "own-mcq-22",
-        "own-mcq-17"
+        "own-mcq-06",
+        "own-mcq-13",
+        "own-pdf-001"
       ],
       "explanation": "本句的「own her style」指「坦然接受自己」。",
       "sentenceIndex": 48,
@@ -2113,12 +1919,10 @@ export default {
         "own her style"
       ],
       "optionReasons": {
-        "own-mcq-20": "本句指「坦然接受自己」。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。"
+        "own-mcq-20": "本句的「own her style」指「坦然接受自己」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "own-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-20"
     },
@@ -2130,11 +1934,9 @@ export default {
       "masked": "He finally ____.",
       "options": [
         "own-mcq-20",
-        "own-mcq-19",
-        "own-mcq-21",
-        "own-mcq-18",
-        "own-mcq-22",
-        "own-mcq-17"
+        "own-mcq-06",
+        "own-mcq-23",
+        "own-mcq-12"
       ],
       "explanation": "本句的「owned who he was」指「坦然接受自己」。",
       "sentenceIndex": 49,
@@ -2143,12 +1945,10 @@ export default {
         "owned who he was"
       ],
       "optionReasons": {
-        "own-mcq-20": "本句指「坦然接受自己」。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-17": "「承認 X」是「own up to X」的用法，與本句語境不同。"
+        "own-mcq-20": "本句的「owned who he was」指「坦然接受自己」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-20"
     },
@@ -2160,11 +1960,9 @@ export default {
       "masked": "You made the mistake, so ____.",
       "options": [
         "own-mcq-21",
-        "own-mcq-20",
-        "own-mcq-22",
-        "own-mcq-19",
-        "own-mcq-23",
-        "own-mcq-18"
+        "own-mcq-05",
+        "own-mcq-08",
+        "own-mcq-12"
       ],
       "explanation": "本句的「own it」指「承擔／自信駕馭」。",
       "sentenceIndex": 50,
@@ -2173,12 +1971,10 @@ export default {
         "own it"
       ],
       "optionReasons": {
-        "own-mcq-21": "本句指「承擔／自信駕馭」。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。"
+        "own-mcq-21": "本句的「own it」指「承擔／自信駕馭」。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-21"
     },
@@ -2190,11 +1986,9 @@ export default {
       "masked": "If you're going to wear something bold, ____.",
       "options": [
         "own-mcq-21",
-        "own-mcq-20",
-        "own-mcq-22",
-        "own-mcq-19",
-        "own-mcq-23",
-        "own-mcq-18"
+        "own-mcq-06",
+        "own-mcq-11",
+        "own-mcq-12"
       ],
       "explanation": "本句的「own it」指「承擔／自信駕馭」。",
       "sentenceIndex": 51,
@@ -2203,12 +1997,10 @@ export default {
         "own it"
       ],
       "optionReasons": {
-        "own-mcq-21": "本句指「承擔／自信駕馭」。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-18": "「主動承擔 X」是「take ownership of X」的用法，與本句語境不同。"
+        "own-mcq-21": "本句的「own it」指「承擔／自信駕馭」。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-21"
     },
@@ -2220,11 +2012,9 @@ export default {
       "masked": "Their team totally ____ in the second half.",
       "options": [
         "own-mcq-22",
-        "own-mcq-21",
-        "own-mcq-23",
-        "own-mcq-20",
-        "own-mcq-24",
-        "own-mcq-19"
+        "own-mcq-07",
+        "own-mcq-03",
+        "own-mcq-24"
       ],
       "explanation": "本句的「owned us」指「完全壓制某人」。",
       "sentenceIndex": 52,
@@ -2233,12 +2023,10 @@ export default {
         "owned us"
       ],
       "optionReasons": {
-        "own-mcq-22": "本句指「完全壓制某人」。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-24": "「烏龍球」是「own goal」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。"
+        "own-mcq-22": "本句的「owned us」指「完全壓制某人」。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-22"
     },
@@ -2250,11 +2038,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "own-mcq-22",
-        "own-mcq-21",
-        "own-mcq-23",
-        "own-mcq-20",
-        "own-mcq-24",
-        "own-mcq-19"
+        "own-mcq-07",
+        "own-mcq-10",
+        "own-mcq-16"
       ],
       "explanation": "本句的「owned the debate」指「完全壓制某人」。",
       "sentenceIndex": 53,
@@ -2263,12 +2049,10 @@ export default {
         "owned the debate"
       ],
       "optionReasons": {
-        "own-mcq-22": "本句指「完全壓制某人」。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。",
-        "own-mcq-24": "「烏龍球」是「own goal」的用法，與本句語境不同。",
-        "own-mcq-19": "「主人翁意識」是「sense of ownership」的用法，與本句語境不同。"
+        "own-mcq-22": "本句的「owned the debate」指「完全壓制某人」。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-22"
     },
@@ -2280,11 +2064,9 @@ export default {
       "masked": "We got completely ____.",
       "options": [
         "own-mcq-23",
-        "own-mcq-22",
-        "own-mcq-24",
-        "own-mcq-21",
-        "own-mcq-25",
-        "own-mcq-20"
+        "own-mcq-26",
+        "own-mcq-06",
+        "own-mcq-18"
       ],
       "explanation": "本句的「owned」指「被完勝」。",
       "sentenceIndex": 54,
@@ -2293,12 +2075,10 @@ export default {
         "owned"
       ],
       "optionReasons": {
-        "own-mcq-23": "本句指「被完勝」。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-24": "「烏龍球」是「own goal」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。"
+        "own-mcq-23": "本句的「owned」指「被完勝」。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-23"
     },
@@ -2310,11 +2090,9 @@ export default {
       "masked": "He got ____ in the argument.",
       "options": [
         "own-mcq-23",
-        "own-mcq-22",
-        "own-mcq-24",
-        "own-mcq-21",
-        "own-mcq-25",
-        "own-mcq-20"
+        "own-mcq-04",
+        "own-mcq-08",
+        "own-mcq-06"
       ],
       "explanation": "本句的「owned」指「被完勝」。",
       "sentenceIndex": 55,
@@ -2323,12 +2101,10 @@ export default {
         "owned"
       ],
       "optionReasons": {
-        "own-mcq-23": "本句指「被完勝」。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-24": "「烏龍球」是「own goal」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-20": "「坦然接受自己」是「own who you are」的用法，與本句語境不同。"
+        "own-mcq-23": "本句的「owned」指「被完勝」。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-23"
     },
@@ -2340,11 +2116,9 @@ export default {
       "masked": "He scored an ____.",
       "options": [
         "own-mcq-24",
+        "own-mcq-11",
         "own-mcq-23",
-        "own-mcq-25",
-        "own-mcq-22",
-        "own-mcq-26",
-        "own-mcq-21"
+        "own-mcq-16"
       ],
       "explanation": "本句的「own goal」指「烏龍球」。",
       "sentenceIndex": 56,
@@ -2353,12 +2127,10 @@ export default {
         "own goal"
       ],
       "optionReasons": {
-        "own-mcq-24": "本句指「烏龍球」。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-26": "「按自己的方式」是「on your own terms」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。"
+        "own-mcq-24": "本句的「own goal」指「烏龍球」。",
+        "own-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-24"
     },
@@ -2370,11 +2142,9 @@ export default {
       "masked": "The match was decided by an ____.",
       "options": [
         "own-mcq-24",
-        "own-mcq-23",
-        "own-mcq-25",
-        "own-mcq-22",
-        "own-mcq-26",
-        "own-mcq-21"
+        "own-mcq-02",
+        "own-mcq-19",
+        "own-mcq-13"
       ],
       "explanation": "本句的「own goal」指「烏龍球」。",
       "sentenceIndex": 57,
@@ -2383,12 +2153,10 @@ export default {
         "own goal"
       ],
       "optionReasons": {
-        "own-mcq-24": "本句指「烏龍球」。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-26": "「按自己的方式」是「on your own terms」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。"
+        "own-mcq-24": "本句的「own goal」指「烏龍球」。",
+        "own-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-24"
     },
@@ -2400,11 +2168,9 @@ export default {
       "masked": "The careless comment was a political ____.",
       "options": [
         "own-mcq-24",
-        "own-mcq-23",
-        "own-mcq-25",
-        "own-mcq-22",
-        "own-mcq-26",
-        "own-mcq-21"
+        "own-mcq-04",
+        "own-mcq-19",
+        "own-mcq-08"
       ],
       "explanation": "本句的「own goal」指「烏龍球」。",
       "sentenceIndex": 58,
@@ -2413,12 +2179,10 @@ export default {
         "own goal"
       ],
       "optionReasons": {
-        "own-mcq-24": "本句指「烏龍球」。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-26": "「按自己的方式」是「on your own terms」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。"
+        "own-mcq-24": "本句的「own goal」指「烏龍球」。",
+        "own-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-24"
     },
@@ -2430,11 +2194,9 @@ export default {
       "masked": "Cancelling the service turned into an ____ for the company.",
       "options": [
         "own-mcq-24",
-        "own-mcq-23",
-        "own-mcq-25",
-        "own-mcq-22",
+        "own-mcq-09",
         "own-mcq-26",
-        "own-mcq-21"
+        "own-mcq-17"
       ],
       "explanation": "本句的「own goal」指「烏龍球」。",
       "sentenceIndex": 59,
@@ -2443,12 +2205,10 @@ export default {
         "own goal"
       ],
       "optionReasons": {
-        "own-mcq-24": "本句指「烏龍球」。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-26": "「按自己的方式」是「on your own terms」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。"
+        "own-mcq-24": "本句的「own goal」指「烏龍球」。",
+        "own-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-24"
     },
@@ -2460,11 +2220,9 @@ export default {
       "masked": "She wanted to succeed ____.",
       "options": [
         "own-mcq-26",
-        "own-mcq-25",
-        "own-mcq-24",
-        "own-mcq-23",
+        "own-mcq-13",
         "own-mcq-22",
-        "own-mcq-21"
+        "own-mcq-07"
       ],
       "explanation": "本句的「on her own terms」指「按自己的方式」。",
       "sentenceIndex": 60,
@@ -2473,12 +2231,10 @@ export default {
         "on her own terms"
       ],
       "optionReasons": {
-        "own-mcq-26": "本句指「按自己的方式」。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-24": "「烏龍球」是「own goal」的用法，與本句語境不同。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。"
+        "own-mcq-26": "本句的「on her own terms」指「按自己的方式」。",
+        "own-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-26"
     },
@@ -2490,11 +2246,9 @@ export default {
       "masked": "He left the company ____.",
       "options": [
         "own-mcq-26",
-        "own-mcq-25",
-        "own-mcq-24",
-        "own-mcq-23",
-        "own-mcq-22",
-        "own-mcq-21"
+        "own-mcq-17",
+        "own-mcq-05",
+        "own-mcq-24"
       ],
       "explanation": "本句的「on his own terms」指「按自己的方式」。",
       "sentenceIndex": 61,
@@ -2503,12 +2257,10 @@ export default {
         "on his own terms"
       ],
       "optionReasons": {
-        "own-mcq-26": "本句指「按自己的方式」。",
-        "own-mcq-25": "「自擺烏龍」是「own goal (figurative)」的用法，與本句語境不同。",
-        "own-mcq-24": "「烏龍球」是「own goal」的用法，與本句語境不同。",
-        "own-mcq-23": "「被完勝」是「get owned」的用法，與本句語境不同。",
-        "own-mcq-22": "「完全壓制某人」是「own someone」的用法，與本句語境不同。",
-        "own-mcq-21": "「承擔／自信駕馭」是「own it」的用法，與本句語境不同。"
+        "own-mcq-26": "本句的「on his own terms」指「按自己的方式」。",
+        "own-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "own-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "own-mcq-26"
     }
@@ -2520,5 +2272,7 @@ export default {
     "sha256": "9ef2c207547e2943f2d59835c67b09bd55ad0d634f22b6b5157de14e90a5859f",
     "pages": 24
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

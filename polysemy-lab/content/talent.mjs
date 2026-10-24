@@ -517,11 +517,7 @@ export default {
       "masked": "What matters in high-performance sport is not ____ alone.",
       "options": [
         "talent-mcq-01",
-        "talent-mcq-02",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
       "sentenceIndex": 0,
@@ -530,12 +526,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-01": "本句指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-01": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-01"
     },
@@ -547,11 +539,7 @@ export default {
       "masked": "She showed exceptional ____ for running at a young age.",
       "options": [
         "talent-mcq-01",
-        "talent-mcq-02",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
       "sentenceIndex": 1,
@@ -560,12 +548,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-01": "本句指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-01": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-01"
     },
@@ -577,11 +561,7 @@ export default {
       "masked": "Natural ____ helps, but disciplined training is also essential.",
       "options": [
         "talent-mcq-01",
-        "talent-mcq-02",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
       "sentenceIndex": 2,
@@ -590,12 +570,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-01": "本句指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-01": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-01"
     },
@@ -607,11 +583,7 @@ export default {
       "masked": "Years of training helped her develop her ____.",
       "options": [
         "talent-mcq-01",
-        "talent-mcq-02",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
       "sentenceIndex": 3,
@@ -620,12 +592,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-01": "本句指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-01": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-01"
     },
@@ -637,11 +605,7 @@ export default {
       "masked": "His greatest ____ is communicating with young athletes.",
       "options": [
         "talent-mcq-01",
-        "talent-mcq-02",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
       "sentenceIndex": 4,
@@ -650,12 +614,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-01": "本句指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-01": "本句的「talent」指「某人在某個領域表現突出或具有特別發展潛質的能力／天分」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-01"
     },
@@ -667,11 +627,7 @@ export default {
       "masked": "She has a ____ motivating nervous athletes.",
       "options": [
         "talent-mcq-02",
-        "talent-mcq-01",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "talent-mcq-17"
       ],
       "explanation": "本句的「talent for」指「在某項活動、技能或領域中特別有天分或特長」。",
       "sentenceIndex": 5,
@@ -680,12 +636,8 @@ export default {
         "talent for"
       ],
       "optionReasons": {
-        "talent-mcq-02": "本句指「在某項活動、技能或領域中特別有天分或特長」。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-02": "本句的「talent for」指「在某項活動、技能或領域中特別有天分或特長」。",
+        "talent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-02"
     },
@@ -697,11 +649,8 @@ export default {
       "masked": "He has a natural ____ languages.",
       "options": [
         "talent-mcq-02",
-        "talent-mcq-01",
-        "talent-mcq-03",
-        "talent-mcq-04",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "talent-mcq-10",
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent for」指「在某項活動、技能或領域中特別有天分或特長」。",
       "sentenceIndex": 6,
@@ -710,12 +659,9 @@ export default {
         "talent for"
       ],
       "optionReasons": {
-        "talent-mcq-02": "本句指「在某項活動、技能或領域中特別有天分或特長」。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-02": "本句的「talent for」指「在某項活動、技能或領域中特別有天分或特長」。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-02"
     },
@@ -727,11 +673,8 @@ export default {
       "masked": "One of her greatest ____ is staying calm under pressure.",
       "options": [
         "talent-mcq-03",
-        "talent-mcq-02",
-        "talent-mcq-04",
-        "talent-mcq-01",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "talent-mcq-07",
+        "talent-mcq-10"
       ],
       "explanation": "本句的「talents」指「某人所具備的多項特別才能或特長」。",
       "sentenceIndex": 7,
@@ -740,12 +683,9 @@ export default {
         "talents"
       ],
       "optionReasons": {
-        "talent-mcq-03": "本句指「某人所具備的多項特別才能或特長」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-03": "本句的「talents」指「某人所具備的多項特別才能或特長」。",
+        "talent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-03"
     },
@@ -757,11 +697,8 @@ export default {
       "masked": "He has many ____, including coaching and event organisation.",
       "options": [
         "talent-mcq-03",
-        "talent-mcq-02",
-        "talent-mcq-04",
-        "talent-mcq-01",
-        "talent-mcq-05",
-        "talent-mcq-06"
+        "talent-mcq-07",
+        "talent-mcq-10"
       ],
       "explanation": "本句的「talents」指「某人所具備的多項特別才能或特長」。",
       "sentenceIndex": 8,
@@ -770,12 +707,9 @@ export default {
         "talents"
       ],
       "optionReasons": {
-        "talent-mcq-03": "本句指「某人所具備的多項特別才能或特長」。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-03": "本句的「talents」指「某人所具備的多項特別才能或特長」。",
+        "talent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-03"
     },
@@ -787,11 +721,7 @@ export default {
       "masked": "The Foundation aims to identify and support local ____.",
       "options": [
         "talent-mcq-04",
-        "talent-mcq-03",
-        "talent-mcq-05",
-        "talent-mcq-02",
-        "talent-mcq-06",
-        "talent-mcq-01"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「具有突出能力、專業技能或發展潛質的人才群體」。",
       "sentenceIndex": 9,
@@ -800,12 +730,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-04": "本句指「具有突出能力、專業技能或發展潛質的人才群體」。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。"
+        "talent-mcq-04": "本句的「talent」指「具有突出能力、專業技能或發展潛質的人才群體」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-04"
     },
@@ -817,11 +743,7 @@ export default {
       "masked": "The academy is known for developing young ____.",
       "options": [
         "talent-mcq-04",
-        "talent-mcq-03",
-        "talent-mcq-05",
-        "talent-mcq-02",
-        "talent-mcq-06",
-        "talent-mcq-01"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「具有突出能力、專業技能或發展潛質的人才群體」。",
       "sentenceIndex": 10,
@@ -830,12 +752,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-04": "本句指「具有突出能力、專業技能或發展潛質的人才群體」。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。"
+        "talent-mcq-04": "本句的「talent」指「具有突出能力、專業技能或發展潛質的人才群體」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-04"
     },
@@ -847,11 +765,7 @@ export default {
       "masked": "The company is trying to attract international ____.",
       "options": [
         "talent-mcq-04",
-        "talent-mcq-03",
-        "talent-mcq-05",
-        "talent-mcq-02",
-        "talent-mcq-06",
-        "talent-mcq-01"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「具有突出能力、專業技能或發展潛質的人才群體」。",
       "sentenceIndex": 11,
@@ -860,12 +774,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-04": "本句指「具有突出能力、專業技能或發展潛質的人才群體」。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-01": "「某人在某個領域表現突出或具有特別發展潛質的能力／天分」與本句語境不同。"
+        "talent-mcq-04": "本句的「talent」指「具有突出能力、專業技能或發展潛質的人才群體」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-04"
     },
@@ -877,11 +787,7 @@ export default {
       "masked": "The programme was created to develop local ____.",
       "options": [
         "talent-mcq-05",
-        "talent-mcq-04",
-        "talent-mcq-06",
-        "talent-mcq-03",
-        "talent-mcq-07",
-        "talent-mcq-02"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent」指「某個地區內具有能力或發展潛質的人才」。",
       "sentenceIndex": 12,
@@ -890,12 +796,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-05": "本句指「某個地區內具有能力或發展潛質的人才」。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。"
+        "talent-mcq-05": "本句的「talent」指「某個地區內具有能力或發展潛質的人才」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-05"
     },
@@ -907,11 +809,7 @@ export default {
       "masked": "Several ____s joined the national training squad.” Careful: in ordinary professional English, local talent as a collective noun is often more natural than local talents when referring to people generally. Better: > “Several talented local athletes joined the national training squad.",
       "options": [
         "talent-mcq-05",
-        "talent-mcq-04",
-        "talent-mcq-06",
-        "talent-mcq-03",
-        "talent-mcq-07",
-        "talent-mcq-02"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「local talent」指「某個地區內具有能力或發展潛質的人才」。",
       "sentenceIndex": 13,
@@ -920,12 +818,8 @@ export default {
         "local talent"
       ],
       "optionReasons": {
-        "talent-mcq-05": "本句指「某個地區內具有能力或發展潛質的人才」。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-02": "「在某項活動、技能或領域中特別有天分或特長」與本句語境不同。"
+        "talent-mcq-05": "本句的「local talent」指「某個地區內具有能力或發展潛質的人才」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-05"
     },
@@ -937,11 +831,8 @@ export default {
       "masked": "The club invests heavily in young ____.",
       "options": [
         "talent-mcq-06",
-        "talent-mcq-05",
-        "talent-mcq-07",
-        "talent-mcq-04",
-        "talent-mcq-08",
-        "talent-mcq-03"
+        "talent-mcq-20",
+        "talent-mcq-02"
       ],
       "explanation": "本句的「talent」指「尚在發展階段但已顯示明顯潛力的人才」。",
       "sentenceIndex": 14,
@@ -950,12 +841,9 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-06": "本句指「尚在發展階段但已顯示明顯潛力的人才」。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。"
+        "talent-mcq-06": "本句的「talent」指「尚在發展階段但已顯示明顯潛力的人才」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-06"
     },
@@ -967,11 +855,8 @@ export default {
       "masked": "The festival gives emerging ____ a chance to perform.",
       "options": [
         "talent-mcq-06",
-        "talent-mcq-05",
-        "talent-mcq-07",
-        "talent-mcq-04",
-        "talent-mcq-08",
-        "talent-mcq-03"
+        "talent-mcq-02",
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent」指「尚在發展階段但已顯示明顯潛力的人才」。",
       "sentenceIndex": 15,
@@ -980,12 +865,9 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-06": "本句指「尚在發展階段但已顯示明顯潛力的人才」。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-03": "「某人所具備的多項特別才能或特長」與本句語境不同。"
+        "talent-mcq-06": "本句的「talent」指「尚在發展階段但已顯示明顯潛力的人才」。",
+        "talent-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-06"
     },
@@ -997,11 +879,8 @@ export default {
       "masked": "The coach immediately noticed her ____.",
       "options": [
         "talent-mcq-07",
-        "talent-mcq-06",
-        "talent-mcq-08",
-        "talent-mcq-05",
-        "talent-mcq-09",
-        "talent-mcq-04"
+        "talent-mcq-10",
+        "talent-mcq-03"
       ],
       "explanation": "本句的「raw talent」指「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」。",
       "sentenceIndex": 16,
@@ -1010,12 +889,9 @@ export default {
         "raw talent"
       ],
       "optionReasons": {
-        "talent-mcq-07": "本句指「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。"
+        "talent-mcq-07": "本句的「raw talent」指「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-07"
     },
@@ -1027,11 +903,8 @@ export default {
       "masked": "Raw ____ is not enough without discipline and coaching.",
       "options": [
         "talent-mcq-07",
-        "talent-mcq-06",
-        "talent-mcq-08",
-        "talent-mcq-05",
-        "talent-mcq-09",
-        "talent-mcq-04"
+        "talent-mcq-18",
+        "talent-mcq-10"
       ],
       "explanation": "本句的「talent」指「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」。",
       "sentenceIndex": 17,
@@ -1040,12 +913,9 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-07": "本句指「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-04": "「具有突出能力、專業技能或發展潛質的人才群體」與本句語境不同。"
+        "talent-mcq-07": "本句的「talent」指「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-07"
     },
@@ -1057,11 +927,7 @@ export default {
       "masked": "The organisation wants to attract top ____.",
       "options": [
         "talent-mcq-08",
-        "talent-mcq-07",
-        "talent-mcq-09",
-        "talent-mcq-06",
-        "talent-mcq-10",
-        "talent-mcq-05"
+        "talent-mcq-03"
       ],
       "explanation": "本句的「talent」指「某個專業或領域中能力最突出的一批人才」。",
       "sentenceIndex": 18,
@@ -1070,12 +936,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-08": "本句指「某個專業或領域中能力最突出的一批人才」。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。"
+        "talent-mcq-08": "本句的「talent」指「某個專業或領域中能力最突出的一批人才」。",
+        "talent-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-08"
     },
@@ -1087,11 +949,7 @@ export default {
       "masked": "Strong organisations know how to retain top ____.",
       "options": [
         "talent-mcq-08",
-        "talent-mcq-07",
-        "talent-mcq-09",
-        "talent-mcq-06",
-        "talent-mcq-10",
-        "talent-mcq-05"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「某個專業或領域中能力最突出的一批人才」。",
       "sentenceIndex": 19,
@@ -1100,12 +958,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-08": "本句指「某個專業或領域中能力最突出的一批人才」。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-05": "「某個地區內具有能力或發展潛質的人才」與本句語境不同。"
+        "talent-mcq-08": "本句的「talent」指「某個專業或領域中能力最突出的一批人才」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-08"
     },
@@ -1117,11 +971,7 @@ export default {
       "masked": "The company needs more technology ____.",
       "options": [
         "talent-pdf-001",
-        "talent-mcq-08",
-        "talent-mcq-10",
-        "talent-mcq-07",
-        "talent-mcq-11",
-        "talent-mcq-06"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
       "sentenceIndex": 20,
@@ -1130,12 +980,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-pdf-001": "本句指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-pdf-001": "本句的「talent」指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-pdf-001"
     },
@@ -1147,11 +993,7 @@ export default {
       "masked": "Competition for skilled ____ is increasing.",
       "options": [
         "talent-pdf-001",
-        "talent-mcq-08",
-        "talent-mcq-10",
-        "talent-mcq-07",
-        "talent-mcq-11",
-        "talent-mcq-06"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
       "sentenceIndex": 21,
@@ -1160,12 +1002,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-pdf-001": "本句指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-pdf-001": "本句的「talent」指「對組織具有專業技能、能力或發展價值的人力資源／人才」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-pdf-001"
     },
@@ -1177,11 +1015,7 @@ export default {
       "masked": "The programme creates a larger ____ for elite sport.",
       "options": [
         "talent-mcq-09",
-        "talent-mcq-08",
-        "talent-mcq-10",
-        "talent-mcq-07",
-        "talent-mcq-11",
-        "talent-mcq-06"
+        "talent-mcq-17"
       ],
       "explanation": "本句的「talent pool」指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
       "sentenceIndex": 22,
@@ -1190,12 +1024,8 @@ export default {
         "talent pool"
       ],
       "optionReasons": {
-        "talent-mcq-09": "本句指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-09": "本句的「talent pool」指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
+        "talent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-09"
     },
@@ -1207,11 +1037,7 @@ export default {
       "masked": "The company wants to broaden its international ____ pool.",
       "options": [
         "talent-mcq-09",
-        "talent-mcq-08",
-        "talent-mcq-10",
-        "talent-mcq-07",
-        "talent-mcq-11",
-        "talent-mcq-06"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent」指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
       "sentenceIndex": 23,
@@ -1220,12 +1046,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-09": "本句指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-06": "「尚在發展階段但已顯示明顯潛力的人才」與本句語境不同。"
+        "talent-mcq-09": "本句的「talent」指「可供招聘、選拔、培養或晉升的一群具備相關能力的人」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-09"
     },
@@ -1237,11 +1059,8 @@ export default {
       "masked": "School outreach helps strengthen the sporting ____.",
       "options": [
         "talent-mcq-10",
-        "talent-mcq-09",
-        "talent-mcq-11",
-        "talent-mcq-08",
-        "talent-mcq-12",
-        "talent-mcq-07"
+        "talent-mcq-20",
+        "talent-mcq-19"
       ],
       "explanation": "本句的「talent pipeline」指「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」。",
       "sentenceIndex": 24,
@@ -1250,12 +1069,9 @@ export default {
         "talent pipeline"
       ],
       "optionReasons": {
-        "talent-mcq-10": "本句指「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。"
+        "talent-mcq-10": "本句的「talent pipeline」指「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-10"
     },
@@ -1267,10 +1083,7 @@ export default {
       "masked": "The company is building a stronger leadership ____ pipeline.",
       "options": [
         "talent-mcq-10",
-        "talent-mcq-09",
-        "talent-mcq-11",
-        "talent-mcq-08",
-        "talent-mcq-12",
+        "talent-mcq-20",
         "talent-mcq-07"
       ],
       "explanation": "本句的「talent」指「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」。",
@@ -1280,12 +1093,9 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-10": "本句指「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-07": "「尚未經充分訓練或打磨，但已明顯顯示出的自然能力」與本句語境不同。"
+        "talent-mcq-10": "本句的「talent」指「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-10"
     },
@@ -1297,11 +1107,8 @@ export default {
       "masked": "The Foundation places strong emphasis on ____.",
       "options": [
         "talent-mcq-11",
-        "talent-mcq-10",
-        "talent-mcq-12",
-        "talent-mcq-09",
-        "talent-mcq-13",
-        "talent-mcq-08"
+        "talent-mcq-18",
+        "talent-mcq-10"
       ],
       "explanation": "本句的「talent development」指「透過訓練、教育和支援持續提升有潛質人士能力的過程」。",
       "sentenceIndex": 26,
@@ -1310,12 +1117,9 @@ export default {
         "talent development"
       ],
       "optionReasons": {
-        "talent-mcq-11": "本句指「透過訓練、教育和支援持續提升有潛質人士能力的過程」。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。"
+        "talent-mcq-11": "本句的「talent development」指「透過訓練、教育和支援持續提升有潛質人士能力的過程」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-11"
     },
@@ -1328,10 +1132,7 @@ export default {
       "options": [
         "talent-mcq-11",
         "talent-mcq-10",
-        "talent-mcq-12",
-        "talent-mcq-09",
-        "talent-mcq-13",
-        "talent-mcq-08"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「透過訓練、教育和支援持續提升有潛質人士能力的過程」。",
       "sentenceIndex": 27,
@@ -1340,12 +1141,9 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-11": "本句指「透過訓練、教育和支援持續提升有潛質人士能力的過程」。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-08": "「某個專業或領域中能力最突出的一批人才」與本句語境不同。"
+        "talent-mcq-11": "本句的「talent」指「透過訓練、教育和支援持續提升有潛質人士能力的過程」。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-11"
     },
@@ -1357,11 +1155,7 @@ export default {
       "masked": "The academy uses school competitions for ____.",
       "options": [
         "talent-mcq-12",
-        "talent-mcq-11",
-        "talent-mcq-13",
-        "talent-mcq-10",
-        "talent-mcq-14",
-        "talent-mcq-09"
+        "talent-mcq-17"
       ],
       "explanation": "本句的「talent identification」指「系統地找出具有較高能力或未來發展潛力的人」。",
       "sentenceIndex": 28,
@@ -1370,12 +1164,8 @@ export default {
         "talent identification"
       ],
       "optionReasons": {
-        "talent-mcq-12": "本句指「系統地找出具有較高能力或未來發展潛力的人」。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。"
+        "talent-mcq-12": "本句的「talent identification」指「系統地找出具有較高能力或未來發展潛力的人」。",
+        "talent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-12"
     },
@@ -1387,11 +1177,7 @@ export default {
       "masked": "____ identification should consider long-term potential, not only early results.",
       "options": [
         "talent-mcq-12",
-        "talent-mcq-11",
-        "talent-mcq-13",
-        "talent-mcq-10",
-        "talent-mcq-14",
-        "talent-mcq-09"
+        "talent-mcq-17"
       ],
       "explanation": "本句的「Talent」指「系統地找出具有較高能力或未來發展潛力的人」。",
       "sentenceIndex": 29,
@@ -1400,12 +1186,8 @@ export default {
         "Talent"
       ],
       "optionReasons": {
-        "talent-mcq-12": "本句指「系統地找出具有較高能力或未來發展潛力的人」。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-09": "「可供招聘、選拔、培養或晉升的一群具備相關能力的人」與本句語境不同。"
+        "talent-mcq-12": "本句的「Talent」指「系統地找出具有較高能力或未來發展潛力的人」。",
+        "talent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-12"
     },
@@ -1417,11 +1199,7 @@ export default {
       "masked": "Effective ____ helps retain strong employees.",
       "options": [
         "talent-mcq-13",
-        "talent-mcq-12",
-        "talent-mcq-14",
-        "talent-mcq-11",
-        "talent-mcq-15",
-        "talent-mcq-10"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent management」指「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」。",
       "sentenceIndex": 30,
@@ -1430,12 +1208,8 @@ export default {
         "talent management"
       ],
       "optionReasons": {
-        "talent-mcq-13": "本句指「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。"
+        "talent-mcq-13": "本句的「talent management」指「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-13"
     },
@@ -1447,11 +1221,7 @@ export default {
       "masked": "The organisation introduced a new ____ management strategy.",
       "options": [
         "talent-mcq-13",
-        "talent-mcq-12",
-        "talent-mcq-14",
-        "talent-mcq-11",
-        "talent-mcq-15",
-        "talent-mcq-10"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent」指「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」。",
       "sentenceIndex": 31,
@@ -1460,12 +1230,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-13": "本句指「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-10": "「從人才發掘、培養到進入更高層級的一整套人才來源和發展渠道」與本句語境不同。"
+        "talent-mcq-13": "本句的「talent」指「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-13"
     },
@@ -1477,11 +1243,7 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "talent-mcq-14",
-        "talent-mcq-13",
-        "talent-mcq-15",
-        "talent-mcq-12",
-        "talent-mcq-16",
-        "talent-mcq-11"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent acquisition」指「有策略地尋找、吸引和招聘具有所需技能的人才」。",
       "sentenceIndex": 32,
@@ -1490,12 +1252,8 @@ export default {
         "talent acquisition"
       ],
       "optionReasons": {
-        "talent-mcq-14": "本句指「有策略地尋找、吸引和招聘具有所需技能的人才」。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。"
+        "talent-mcq-14": "本句的「talent acquisition」指「有策略地尋找、吸引和招聘具有所需技能的人才」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-14"
     },
@@ -1507,11 +1265,7 @@ export default {
       "masked": "The firm expanded its ____ acquisition team.",
       "options": [
         "talent-mcq-14",
-        "talent-mcq-13",
-        "talent-mcq-15",
-        "talent-mcq-12",
-        "talent-mcq-16",
-        "talent-mcq-11"
+        "talent-mcq-20"
       ],
       "explanation": "本句的「talent」指「有策略地尋找、吸引和招聘具有所需技能的人才」。",
       "sentenceIndex": 33,
@@ -1520,12 +1274,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-14": "本句指「有策略地尋找、吸引和招聘具有所需技能的人才」。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-11": "「透過訓練、教育和支援持續提升有潛質人士能力的過程」與本句語境不同。"
+        "talent-mcq-14": "本句的「talent」指「有策略地尋找、吸引和招聘具有所需技能的人才」。",
+        "talent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-14"
     },
@@ -1537,11 +1287,7 @@ export default {
       "masked": "The industry is facing a serious ____.",
       "options": [
         "talent-mcq-15",
-        "talent-mcq-14",
-        "talent-mcq-16",
-        "talent-mcq-13",
-        "talent-mcq-17",
-        "talent-mcq-12"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent shortage」指「某行業／機構缺乏足夠具備所需能力的人才」。",
       "sentenceIndex": 34,
@@ -1550,12 +1296,8 @@ export default {
         "talent shortage"
       ],
       "optionReasons": {
-        "talent-mcq-15": "本句指「某行業／機構缺乏足夠具備所需能力的人才」。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。"
+        "talent-mcq-15": "本句的「talent shortage」指「某行業／機構缺乏足夠具備所需能力的人才」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-15"
     },
@@ -1567,11 +1309,7 @@ export default {
       "masked": "Training programmes can help address the ____ shortage.",
       "options": [
         "talent-mcq-15",
-        "talent-mcq-14",
-        "talent-mcq-16",
-        "talent-mcq-13",
-        "talent-mcq-17",
-        "talent-mcq-12"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「某行業／機構缺乏足夠具備所需能力的人才」。",
       "sentenceIndex": 35,
@@ -1580,12 +1318,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-15": "本句指「某行業／機構缺乏足夠具備所需能力的人才」。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-12": "「系統地找出具有較高能力或未來發展潛力的人」與本句語境不同。"
+        "talent-mcq-15": "本句的「talent」指「某行業／機構缺乏足夠具備所需能力的人才」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-15"
     },
@@ -1597,11 +1331,7 @@ export default {
       "masked": "A ____ noticed her at a junior competition.",
       "options": [
         "talent-mcq-16",
-        "talent-mcq-15",
-        "talent-mcq-17",
-        "talent-mcq-14",
-        "talent-mcq-18",
-        "talent-mcq-13"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent scout」指「專門尋找具有突出能力或發展潛質人士的人」。",
       "sentenceIndex": 36,
@@ -1610,12 +1340,8 @@ export default {
         "talent scout"
       ],
       "optionReasons": {
-        "talent-mcq-16": "本句指「專門尋找具有突出能力或發展潛質人士的人」。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。"
+        "talent-mcq-16": "本句的「talent scout」指「專門尋找具有突出能力或發展潛質人士的人」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-16"
     },
@@ -1627,11 +1353,7 @@ export default {
       "masked": "The club employs ____ scouts across the region.",
       "options": [
         "talent-mcq-16",
-        "talent-mcq-15",
-        "talent-mcq-17",
-        "talent-mcq-14",
-        "talent-mcq-18",
-        "talent-mcq-13"
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talent」指「專門尋找具有突出能力或發展潛質人士的人」。",
       "sentenceIndex": 37,
@@ -1640,12 +1362,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-16": "本句指「專門尋找具有突出能力或發展潛質人士的人」。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-13": "「招聘、培養、評估、晉升及留住有能力人才的一整套管理做法」與本句語境不同。"
+        "talent-mcq-16": "本句的「talent」指「專門尋找具有突出能力或發展潛質人士的人」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-16"
     },
@@ -1657,11 +1375,7 @@ export default {
       "masked": "She signed with a major ____.",
       "options": [
         "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-18",
-        "talent-mcq-15",
-        "talent-mcq-19",
-        "talent-mcq-14"
+        "talent-mcq-02"
       ],
       "explanation": "本句的「talent agency」指「代表並安排演藝或表演人才工作的專業代理公司」。",
       "sentenceIndex": 38,
@@ -1670,12 +1384,8 @@ export default {
         "talent agency"
       ],
       "optionReasons": {
-        "talent-mcq-17": "本句指「代表並安排演藝或表演人才工作的專業代理公司」。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。"
+        "talent-mcq-17": "本句的「talent agency」指「代表並安排演藝或表演人才工作的專業代理公司」。",
+        "talent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-17"
     },
@@ -1687,11 +1397,7 @@ export default {
       "masked": "The ____ agency represents actors and musicians.",
       "options": [
         "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-18",
-        "talent-mcq-15",
-        "talent-mcq-19",
-        "talent-mcq-14"
+        "talent-mcq-19"
       ],
       "explanation": "本句的「talent」指「代表並安排演藝或表演人才工作的專業代理公司」。",
       "sentenceIndex": 39,
@@ -1700,12 +1406,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-17": "本句指「代表並安排演藝或表演人才工作的專業代理公司」。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。"
+        "talent-mcq-17": "本句的「talent」指「代表並安排演藝或表演人才工作的專業代理公司」。",
+        "talent-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-17"
     },
@@ -1717,11 +1419,7 @@ export default {
       "masked": "Her ____ negotiated the contract.",
       "options": [
         "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-18",
-        "talent-mcq-15",
-        "talent-mcq-19",
-        "talent-mcq-14"
+        "talent-mcq-07"
       ],
       "explanation": "本句的「talent agent」指「代表並安排演藝或表演人才工作的專業代理公司」。",
       "sentenceIndex": 40,
@@ -1730,12 +1428,8 @@ export default {
         "talent agent"
       ],
       "optionReasons": {
-        "talent-mcq-17": "本句指「代表並安排演藝或表演人才工作的專業代理公司」。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。"
+        "talent-mcq-17": "本句的「talent agent」指「代表並安排演藝或表演人才工作的專業代理公司」。",
+        "talent-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-17"
     },
@@ -1747,11 +1441,7 @@ export default {
       "masked": "A ____ agent introduced him to several producers.",
       "options": [
         "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-18",
-        "talent-mcq-15",
-        "talent-mcq-19",
-        "talent-mcq-14"
+        "talent-mcq-02"
       ],
       "explanation": "本句的「talent」指「代表並安排演藝或表演人才工作的專業代理公司」。",
       "sentenceIndex": 41,
@@ -1760,12 +1450,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-17": "本句指「代表並安排演藝或表演人才工作的專業代理公司」。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-14": "「有策略地尋找、吸引和招聘具有所需技能的人才」與本句語境不同。"
+        "talent-mcq-17": "本句的「talent」指「代表並安排演藝或表演人才工作的專業代理公司」。",
+        "talent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-17"
     },
@@ -1777,11 +1463,8 @@ export default {
       "masked": "She won the school ____.",
       "options": [
         "talent-mcq-18",
-        "talent-mcq-17",
         "talent-mcq-19",
-        "talent-mcq-16",
-        "talent-mcq-20",
-        "talent-mcq-15"
+        "talent-mcq-10"
       ],
       "explanation": "本句的「talent show」指「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」。",
       "sentenceIndex": 42,
@@ -1790,12 +1473,9 @@ export default {
         "talent show"
       ],
       "optionReasons": {
-        "talent-mcq-18": "本句指「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-20": "「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-18": "本句的「talent show」指「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」。",
+        "talent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-18"
     },
@@ -1807,11 +1487,7 @@ export default {
       "masked": "The television ____ show attracted millions of viewers.",
       "options": [
         "talent-mcq-18",
-        "talent-mcq-17",
-        "talent-mcq-19",
-        "talent-mcq-16",
-        "talent-mcq-20",
-        "talent-mcq-15"
+        "talent-mcq-09"
       ],
       "explanation": "本句的「talent」指「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」。",
       "sentenceIndex": 43,
@@ -1820,12 +1496,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-18": "本句指「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-20": "「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-18": "本句的「talent」指「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」。",
+        "talent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-18"
     },
@@ -1838,10 +1510,7 @@ export default {
       "options": [
         "talent-mcq-19",
         "talent-mcq-18",
-        "talent-mcq-20",
-        "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-15"
+        "talent-mcq-10"
       ],
       "explanation": "本句的「talented」指「在某個領域具有明顯突出能力或天分的」。",
       "sentenceIndex": 44,
@@ -1850,12 +1519,9 @@ export default {
         "talented"
       ],
       "optionReasons": {
-        "talent-mcq-19": "本句指「在某個領域具有明顯突出能力或天分的」。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-20": "「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-19": "本句的「talented」指「在某個領域具有明顯突出能力或天分的」。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-19"
     },
@@ -1867,11 +1533,8 @@ export default {
       "masked": "The team includes several ____ designers.",
       "options": [
         "talent-mcq-19",
-        "talent-mcq-18",
-        "talent-mcq-20",
-        "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-15"
+        "talent-mcq-10",
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talented」指「在某個領域具有明顯突出能力或天分的」。",
       "sentenceIndex": 45,
@@ -1880,12 +1543,9 @@ export default {
         "talented"
       ],
       "optionReasons": {
-        "talent-mcq-19": "本句指「在某個領域具有明顯突出能力或天分的」。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-20": "「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-19": "本句的「talented」指「在某個領域具有明顯突出能力或天分的」。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-19"
     },
@@ -1897,11 +1557,8 @@ export default {
       "masked": "He is particularly ____ explaining difficult ideas.",
       "options": [
         "talent-mcq-19",
-        "talent-mcq-18",
-        "talent-mcq-20",
-        "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-15"
+        "talent-mcq-10",
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talented at」指「在某個領域具有明顯突出能力或天分的」。",
       "sentenceIndex": 46,
@@ -1910,12 +1567,9 @@ export default {
         "talented at"
       ],
       "optionReasons": {
-        "talent-mcq-19": "本句指「在某個領域具有明顯突出能力或天分的」。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-20": "「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-19": "本句的「talented at」指「在某個領域具有明顯突出能力或天分的」。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-19"
     },
@@ -1927,11 +1581,8 @@ export default {
       "masked": "She is ____ in both sport and music.",
       "options": [
         "talent-mcq-19",
-        "talent-mcq-18",
-        "talent-mcq-20",
-        "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-15"
+        "talent-mcq-10",
+        "talent-mcq-18"
       ],
       "explanation": "本句的「talented」指「在某個領域具有明顯突出能力或天分的」。",
       "sentenceIndex": 47,
@@ -1940,12 +1591,9 @@ export default {
         "talented"
       ],
       "optionReasons": {
-        "talent-mcq-19": "本句指「在某個領域具有明顯突出能力或天分的」。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-20": "「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-19": "本句的「talented」指「在某個領域具有明顯突出能力或天分的」。",
+        "talent-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-19"
     },
@@ -1957,11 +1605,8 @@ export default {
       "masked": "The production team arranged transport for the ____.",
       "options": [
         "talent-mcq-20",
-        "talent-mcq-19",
-        "talent-mcq-18",
-        "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-15"
+        "talent-mcq-06",
+        "talent-mcq-02"
       ],
       "explanation": "本句的「talent」指「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」。",
       "sentenceIndex": 48,
@@ -1970,12 +1615,9 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-20": "本句指「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-20": "本句的「talent」指「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」。",
+        "talent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "talent-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-20"
     },
@@ -1987,11 +1629,7 @@ export default {
       "masked": "All ____ must arrive on set by eight.",
       "options": [
         "talent-mcq-20",
-        "talent-mcq-19",
-        "talent-mcq-18",
-        "talent-mcq-17",
-        "talent-mcq-16",
-        "talent-mcq-15"
+        "talent-mcq-05"
       ],
       "explanation": "本句的「talent」指「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」。",
       "sentenceIndex": 49,
@@ -2000,12 +1638,8 @@ export default {
         "talent"
       ],
       "optionReasons": {
-        "talent-mcq-20": "本句指「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」。",
-        "talent-mcq-19": "「在某個領域具有明顯突出能力或天分的」與本句語境不同。",
-        "talent-mcq-18": "「參加者展示唱歌、舞蹈、表演等才能的比賽或節目」與本句語境不同。",
-        "talent-mcq-17": "「代表並安排演藝或表演人才工作的專業代理公司」與本句語境不同。",
-        "talent-mcq-16": "「專門尋找具有突出能力或發展潛質人士的人」與本句語境不同。",
-        "talent-mcq-15": "「某行業／機構缺乏足夠具備所需能力的人才」與本句語境不同。"
+        "talent-mcq-20": "本句的「talent」指「影視、廣告或娛樂製作中的演員、主持人、模特等演出人員」。",
+        "talent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "talent-mcq-20"
     }
@@ -2017,5 +1651,12 @@ export default {
     "sha256": "14d92ae56f77c36f7bb91c477d52f22ad1c595664a70a5967cdc5456582815ee",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -1076,16 +1076,6 @@ export default {
           "Everyone recognised the excuse as transparent.",
           "大家都看得出那個藉口根本站不住腳。",
           "容易識破的藉口"
-        ],
-        [
-          "She is unusually transparent about her feelings.",
-          "她對自己的感受非常坦率、不加掩飾。",
-          "容易識破的藉口"
-        ],
-        [
-          "His reactions are so transparent that everyone knows when he disagrees.",
-          "他的反應太容易看懂，所以大家都知道他何時不同意。",
-          "容易識破的藉口"
         ]
       ],
       "options": [],
@@ -1107,16 +1097,6 @@ export default {
         [
           "Management explained the change transparently.",
           "管理層以公開坦誠的方式解釋改變。",
-          "公開透明地"
-        ],
-        [
-          "The claim is transparently false.",
-          "這個說法明顯是錯的。",
-          "公開透明地"
-        ],
-        [
-          "His explanation was transparently self-serving.",
-          "他的解釋顯然是在為自己利益辯護。",
           "公開透明地"
         ]
       ],
@@ -1477,6 +1457,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "transparent-reviewed-66c49eacd0",
+      "title": "坦率、不隱藏想法的人",
+      "form": "transparent · source section 58",
+      "en": "坦率、不隱藏想法的人",
+      "zh": "坦率、不隱藏想法的人",
+      "note": "對照原始教材第 58 節及例句核實。",
+      "examples": [
+        [
+          "She is unusually transparent about her feelings.",
+          "她對自己的感受非常坦率、不加掩飾。",
+          "坦率、不隱藏想法的人"
+        ],
+        [
+          "His reactions are so transparent that everyone knows when he disagrees.",
+          "他的反應太容易看懂，所以大家都知道他何時不同意。",
+          "坦率、不隱藏想法的人"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "transparent-reviewed-b0dfc94d71",
+      "title": "明顯到很容易看穿或判斷",
+      "form": "transparent · source section 61",
+      "en": "明顯到很容易看穿或判斷",
+      "zh": "明顯到很容易看穿或判斷",
+      "note": "對照原始教材第 61 節及例句核實。",
+      "examples": [
+        [
+          "The claim is transparently false.",
+          "這個說法明顯是錯的。",
+          "明顯到很容易看穿或判斷"
+        ],
+        [
+          "His explanation was transparently self-serving.",
+          "他的解釋顯然是在為自己利益辯護。",
+          "明顯到很容易看穿或判斷"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1488,11 +1512,9 @@ export default {
       "masked": "The container is made of ____.",
       "options": [
         "transparent-pdf-001",
-        "transparent-mcq-02",
-        "transparent-mcq-03",
-        "transparent-mcq-04",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-mcq-36",
+        "transparent-mcq-22",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent plastic」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
       "sentenceIndex": 0,
@@ -1501,12 +1523,10 @@ export default {
         "transparent plastic"
       ],
       "optionReasons": {
-        "transparent-pdf-001": "本句指「能讓光線穿過，因此可以清楚看到後面物件的」。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-pdf-001": "本句的「transparent plastic」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
+        "transparent-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-001"
     },
@@ -1518,11 +1538,9 @@ export default {
       "masked": "The door has a ____ glass panel.",
       "options": [
         "transparent-pdf-001",
-        "transparent-mcq-02",
-        "transparent-mcq-03",
-        "transparent-mcq-04",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-mcq-31",
+        "transparent-mcq-54",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「transparent」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
       "sentenceIndex": 1,
@@ -1531,12 +1549,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-pdf-001": "本句指「能讓光線穿過，因此可以清楚看到後面物件的」。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-pdf-001": "本句的「transparent」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
+        "transparent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-001"
     },
@@ -1548,11 +1564,9 @@ export default {
       "masked": "The material becomes ____ when wet.",
       "options": [
         "transparent-pdf-001",
-        "transparent-mcq-02",
-        "transparent-mcq-03",
-        "transparent-mcq-04",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-mcq-41",
+        "transparent-mcq-22",
+        "transparent-mcq-48"
       ],
       "explanation": "本句的「transparent」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
       "sentenceIndex": 2,
@@ -1561,12 +1575,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-pdf-001": "本句指「能讓光線穿過，因此可以清楚看到後面物件的」。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-pdf-001": "本句的「transparent」指「能讓光線穿過，因此可以清楚看到後面物件的」。",
+        "transparent-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-001"
     },
@@ -1578,11 +1590,9 @@ export default {
       "masked": "The office walls are made of ____.",
       "options": [
         "transparent-mcq-02",
-        "transparent-mcq-01",
-        "transparent-mcq-03",
-        "transparent-mcq-04",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-mcq-47",
+        "transparent-mcq-21",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent glass」指「透明玻璃」。",
       "sentenceIndex": 3,
@@ -1591,12 +1601,10 @@ export default {
         "transparent glass"
       ],
       "optionReasons": {
-        "transparent-mcq-02": "本句指「透明玻璃」。",
-        "transparent-mcq-01": "「透明的」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-02": "本句的「transparent glass」指「透明玻璃」。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-02"
     },
@@ -1608,11 +1616,9 @@ export default {
       "masked": "____ glass allows natural light into the room.",
       "options": [
         "transparent-mcq-02",
-        "transparent-mcq-01",
-        "transparent-mcq-03",
-        "transparent-mcq-04",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-mcq-24",
+        "transparent-mcq-33",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「Transparent」指「透明玻璃」。",
       "sentenceIndex": 4,
@@ -1621,12 +1627,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-02": "本句指「透明玻璃」。",
-        "transparent-mcq-01": "「透明的」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-02": "本句的「Transparent」指「透明玻璃」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-02"
     },
@@ -1638,11 +1642,9 @@ export default {
       "masked": "Put the documents in a ____.",
       "options": [
         "transparent-mcq-03",
-        "transparent-mcq-02",
-        "transparent-mcq-04",
-        "transparent-mcq-01",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-43",
+        "transparent-pdf-002"
       ],
       "explanation": "本句的「transparent plastic folder」指「透明塑膠」。",
       "sentenceIndex": 5,
@@ -1651,12 +1653,10 @@ export default {
         "transparent plastic folder"
       ],
       "optionReasons": {
-        "transparent-mcq-03": "本句指「透明塑膠」。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-01": "「透明的」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-03": "本句的「transparent plastic folder」指「透明塑膠」。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-03"
     },
@@ -1668,11 +1668,9 @@ export default {
       "masked": "The cover is ____.",
       "options": [
         "transparent-mcq-03",
-        "transparent-mcq-02",
-        "transparent-mcq-04",
-        "transparent-mcq-01",
-        "transparent-mcq-05",
-        "transparent-mcq-06"
+        "transparent-mcq-33",
+        "transparent-mcq-22",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「transparent」指「透明塑膠」。",
       "sentenceIndex": 6,
@@ -1681,12 +1679,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-03": "本句指「透明塑膠」。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-01": "「透明的」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-03": "本句的「transparent」指「透明塑膠」。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-03"
     },
@@ -1698,11 +1694,9 @@ export default {
       "masked": "Glass is a common ____.",
       "options": [
         "transparent-mcq-04",
-        "transparent-mcq-03",
-        "transparent-mcq-05",
-        "transparent-mcq-02",
-        "transparent-mcq-06",
-        "transparent-mcq-01"
+        "transparent-mcq-54",
+        "transparent-mcq-45",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent material」指「透明材料」。",
       "sentenceIndex": 7,
@@ -1711,12 +1705,10 @@ export default {
         "transparent material"
       ],
       "optionReasons": {
-        "transparent-mcq-04": "本句指「透明材料」。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-01": "「透明的」與本句語境不同。"
+        "transparent-mcq-04": "本句的「transparent material」指「透明材料」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-04"
     },
@@ -1728,11 +1720,9 @@ export default {
       "masked": "Researchers developed a strong ____ material.",
       "options": [
         "transparent-mcq-04",
-        "transparent-mcq-03",
-        "transparent-mcq-05",
-        "transparent-mcq-02",
-        "transparent-mcq-06",
-        "transparent-mcq-01"
+        "transparent-mcq-22",
+        "transparent-mcq-33",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent」指「透明材料」。",
       "sentenceIndex": 8,
@@ -1741,12 +1731,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-04": "本句指「透明材料」。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-01": "「透明的」與本句語境不同。"
+        "transparent-mcq-04": "本句的「transparent」指「透明材料」。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-04"
     },
@@ -1758,11 +1746,9 @@ export default {
       "masked": "The panel is almost ____.",
       "options": [
         "transparent-mcq-05",
-        "transparent-mcq-04",
-        "transparent-mcq-06",
-        "transparent-mcq-03",
-        "transparent-mcq-07",
-        "transparent-mcq-02"
+        "transparent-mcq-43",
+        "transparent-mcq-22",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「completely transparent」指「完全透明」。",
       "sentenceIndex": 9,
@@ -1771,12 +1757,10 @@ export default {
         "completely transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-05": "本句指「完全透明」。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。"
+        "transparent-mcq-05": "本句的「completely transparent」指「完全透明」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-05"
     },
@@ -1788,11 +1772,9 @@ export default {
       "masked": "The coating becomes fully ____ after drying.",
       "options": [
         "transparent-mcq-05",
-        "transparent-mcq-04",
-        "transparent-mcq-06",
-        "transparent-mcq-03",
-        "transparent-mcq-07",
-        "transparent-mcq-02"
+        "transparent-mcq-21",
+        "transparent-mcq-50",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「transparent」指「完全透明」。",
       "sentenceIndex": 10,
@@ -1801,12 +1783,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-05": "本句指「完全透明」。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-02": "「透明玻璃」與本句語境不同。"
+        "transparent-mcq-05": "本句的「transparent」指「完全透明」。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-05"
     },
@@ -1818,11 +1798,9 @@ export default {
       "masked": "The curtain is ____.",
       "options": [
         "transparent-mcq-06",
-        "transparent-mcq-05",
-        "transparent-mcq-07",
-        "transparent-mcq-04",
-        "transparent-mcq-08",
-        "transparent-mcq-03"
+        "transparent-mcq-22",
+        "transparent-mcq-54",
+        "transparent-mcq-09"
       ],
       "explanation": "本句的「semi-transparent」指「半透明」。",
       "sentenceIndex": 11,
@@ -1831,12 +1809,10 @@ export default {
         "semi-transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-06": "本句指「半透明」。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。"
+        "transparent-mcq-06": "本句的「semi-transparent」指「半透明」。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-06"
     },
@@ -1848,11 +1824,9 @@ export default {
       "masked": "A semi-____ layer was placed over the image.",
       "options": [
         "transparent-mcq-06",
-        "transparent-mcq-05",
-        "transparent-mcq-07",
-        "transparent-mcq-04",
-        "transparent-mcq-08",
-        "transparent-mcq-03"
+        "transparent-pdf-003",
+        "transparent-mcq-50",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent」指「半透明」。",
       "sentenceIndex": 12,
@@ -1861,12 +1835,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-06": "本句指「半透明」。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-03": "「透明塑膠」與本句語境不同。"
+        "transparent-mcq-06": "本句的「transparent」指「半透明」。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-06"
     },
@@ -1878,11 +1850,9 @@ export default {
       "masked": "The glass has excellent ____.",
       "options": [
         "transparent-pdf-002",
-        "transparent-mcq-06",
-        "transparent-mcq-08",
-        "transparent-mcq-05",
-        "transparent-mcq-09",
-        "transparent-mcq-04"
+        "transparent-mcq-12",
+        "transparent-mcq-50",
+        "transparent-mcq-24"
       ],
       "explanation": "本句的「transparency」指「材料讓光穿過、使後方物件可見的程度」。",
       "sentenceIndex": 13,
@@ -1891,12 +1861,10 @@ export default {
         "transparency"
       ],
       "optionReasons": {
-        "transparent-pdf-002": "本句指「材料讓光穿過、使後方物件可見的程度」。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
-        "transparent-mcq-04": "「透明材料」與本句語境不同。"
+        "transparent-pdf-002": "本句的「transparency」指「材料讓光穿過、使後方物件可見的程度」。",
+        "transparent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-002"
     },
@@ -1908,11 +1876,9 @@ export default {
       "masked": "The coating improves ____.",
       "options": [
         "transparent-mcq-08",
-        "transparent-mcq-07",
-        "transparent-mcq-09",
-        "transparent-mcq-06",
-        "transparent-mcq-10",
-        "transparent-mcq-05"
+        "transparent-mcq-45",
+        "transparent-mcq-46",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「optical transparency」指「光學透明度」。",
       "sentenceIndex": 14,
@@ -1921,12 +1887,10 @@ export default {
         "optical transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-08": "本句指「光學透明度」。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。"
+        "transparent-mcq-08": "本句的「optical transparency」指「光學透明度」。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-08"
     },
@@ -1938,11 +1902,9 @@ export default {
       "masked": "The material is ____.",
       "options": [
         "transparent-mcq-09",
-        "transparent-mcq-08",
-        "transparent-mcq-10",
-        "transparent-mcq-07",
-        "transparent-mcq-11",
-        "transparent-mcq-06"
+        "transparent-mcq-39",
+        "transparent-mcq-22",
+        "transparent-mcq-43"
       ],
       "explanation": "本句的「transparent to visible light」指「可讓光穿過」。",
       "sentenceIndex": 15,
@@ -1951,12 +1913,10 @@ export default {
         "transparent to visible light"
       ],
       "optionReasons": {
-        "transparent-mcq-09": "本句指「可讓光穿過」。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-09": "本句的「transparent to visible light」指「可讓光穿過」。",
+        "transparent-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-09"
     },
@@ -1968,11 +1928,9 @@ export default {
       "masked": "Some materials are ____ to infrared radiation.",
       "options": [
         "transparent-mcq-09",
-        "transparent-mcq-08",
-        "transparent-mcq-10",
-        "transparent-mcq-07",
-        "transparent-mcq-11",
-        "transparent-mcq-06"
+        "transparent-mcq-59",
+        "transparent-mcq-48",
+        "transparent-mcq-33"
       ],
       "explanation": "本句的「transparent」指「可讓光穿過」。",
       "sentenceIndex": 16,
@@ -1981,12 +1939,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-09": "本句指「可讓光穿過」。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-09": "本句的「transparent」指「可讓光穿過」。",
+        "transparent-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-09"
     },
@@ -1998,11 +1954,9 @@ export default {
       "masked": "Window glass is largely ____.",
       "options": [
         "transparent-mcq-09",
-        "transparent-mcq-08",
-        "transparent-mcq-10",
-        "transparent-mcq-07",
-        "transparent-mcq-11",
-        "transparent-mcq-06"
+        "transparent-mcq-37",
+        "transparent-mcq-43",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent to visible light」指「可讓光穿過」。",
       "sentenceIndex": 17,
@@ -2011,12 +1965,10 @@ export default {
         "transparent to visible light"
       ],
       "optionReasons": {
-        "transparent-mcq-09": "本句指「可讓光穿過」。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-09": "本句的「transparent to visible light」指「可讓光穿過」。",
+        "transparent-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-09"
     },
@@ -2028,11 +1980,9 @@ export default {
       "masked": "A material may be ____ at some wavelengths but not others.",
       "options": [
         "transparent-mcq-09",
-        "transparent-mcq-08",
-        "transparent-mcq-10",
-        "transparent-mcq-07",
-        "transparent-mcq-11",
-        "transparent-mcq-06"
+        "transparent-mcq-64",
+        "transparent-mcq-54",
+        "transparent-mcq-48"
       ],
       "explanation": "本句的「transparent」指「可讓光穿過」。",
       "sentenceIndex": 18,
@@ -2041,12 +1991,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-09": "本句指「可讓光穿過」。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。"
+        "transparent-mcq-09": "本句的「transparent」指「可讓光穿過」。",
+        "transparent-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-09"
     },
@@ -2058,11 +2006,9 @@ export default {
       "masked": "The protective layer is ____.",
       "options": [
         "transparent-mcq-08",
-        "transparent-mcq-07",
-        "transparent-mcq-09",
-        "transparent-mcq-06",
-        "transparent-mcq-10",
-        "transparent-mcq-05"
+        "transparent-mcq-24",
+        "transparent-pdf-003",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「optically transparent」指「光學透明度」。",
       "sentenceIndex": 19,
@@ -2071,12 +2017,10 @@ export default {
         "optically transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-08": "本句指「光學透明度」。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。"
+        "transparent-mcq-08": "本句的「optically transparent」指「光學透明度」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-08"
     },
@@ -2088,11 +2032,9 @@ export default {
       "masked": "The material must remain optically ____ after heating.",
       "options": [
         "transparent-mcq-08",
-        "transparent-mcq-07",
-        "transparent-mcq-09",
-        "transparent-mcq-06",
-        "transparent-mcq-10",
-        "transparent-mcq-05"
+        "transparent-mcq-33",
+        "transparent-mcq-50",
+        "transparent-mcq-49"
       ],
       "explanation": "本句的「transparent」指「光學透明度」。",
       "sentenceIndex": 20,
@@ -2101,12 +2043,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-08": "本句指「光學透明度」。",
-        "transparent-mcq-07": "「透明度」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
-        "transparent-mcq-06": "「半透明」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-05": "「完全透明」與本句語境不同。"
+        "transparent-mcq-08": "本句的「transparent」指「光學透明度」。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-08"
     },
@@ -2118,11 +2058,9 @@ export default {
       "masked": "Save the logo with a ____.",
       "options": [
         "transparent-mcq-11",
-        "transparent-mcq-10",
-        "transparent-mcq-12",
         "transparent-mcq-09",
-        "transparent-mcq-13",
-        "transparent-mcq-08"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-45"
       ],
       "explanation": "本句的「transparent background」指「透明背景」。",
       "sentenceIndex": 21,
@@ -2131,12 +2069,10 @@ export default {
         "transparent background"
       ],
       "optionReasons": {
-        "transparent-mcq-11": "本句指「透明背景」。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。"
+        "transparent-mcq-11": "本句的「transparent background」指「透明背景」。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-11"
     },
@@ -2148,11 +2084,9 @@ export default {
       "masked": "The icon looks better on different colours when the background is ____.",
       "options": [
         "transparent-mcq-11",
-        "transparent-mcq-10",
-        "transparent-mcq-12",
-        "transparent-mcq-09",
-        "transparent-mcq-13",
-        "transparent-mcq-08"
+        "transparent-mcq-24",
+        "transparent-pdf-002",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent」指「透明背景」。",
       "sentenceIndex": 22,
@@ -2161,12 +2095,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-11": "本句指「透明背景」。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-08": "「光學透明度」與本句語境不同。"
+        "transparent-mcq-11": "本句的「transparent」指「透明背景」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-11"
     },
@@ -2178,11 +2110,9 @@ export default {
       "masked": "The design uses several ____.",
       "options": [
         "transparent-mcq-12",
-        "transparent-mcq-11",
-        "transparent-mcq-13",
-        "transparent-mcq-10",
-        "transparent-mcq-14",
-        "transparent-mcq-09"
+        "transparent-mcq-46",
+        "transparent-mcq-21",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent images」指「透明背景 PNG」。",
       "sentenceIndex": 23,
@@ -2191,12 +2121,10 @@ export default {
         "transparent images"
       ],
       "optionReasons": {
-        "transparent-mcq-12": "本句指「透明背景 PNG」。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。"
+        "transparent-mcq-12": "本句的「transparent images」指「透明背景 PNG」。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-12"
     },
@@ -2208,11 +2136,9 @@ export default {
       "masked": "____ images can be placed over other content.",
       "options": [
         "transparent-mcq-12",
-        "transparent-mcq-11",
-        "transparent-mcq-13",
-        "transparent-mcq-10",
-        "transparent-mcq-14",
-        "transparent-mcq-09"
+        "transparent-mcq-34",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「Transparent」指「透明背景 PNG」。",
       "sentenceIndex": 24,
@@ -2221,12 +2147,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-12": "本句指「透明背景 PNG」。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。"
+        "transparent-mcq-12": "本句的「Transparent」指「透明背景 PNG」。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-12"
     },
@@ -2238,11 +2162,9 @@ export default {
       "masked": "Export the logo as a ____.",
       "options": [
         "transparent-mcq-12",
-        "transparent-mcq-11",
-        "transparent-mcq-13",
-        "transparent-mcq-10",
-        "transparent-mcq-14",
-        "transparent-mcq-09"
+        "transparent-mcq-21",
+        "transparent-mcq-09",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent PNG」指「透明背景 PNG」。",
       "sentenceIndex": 25,
@@ -2251,12 +2173,10 @@ export default {
         "transparent PNG"
       ],
       "optionReasons": {
-        "transparent-mcq-12": "本句指「透明背景 PNG」。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。"
+        "transparent-mcq-12": "本句的「transparent PNG」指「透明背景 PNG」。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-12"
     },
@@ -2268,11 +2188,9 @@ export default {
       "masked": "A ____ PNG is useful for logos and icons.",
       "options": [
         "transparent-mcq-12",
-        "transparent-mcq-11",
-        "transparent-mcq-13",
-        "transparent-mcq-10",
-        "transparent-mcq-14",
-        "transparent-mcq-09"
+        "transparent-mcq-22",
+        "transparent-pdf-002",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent」指「透明背景 PNG」。",
       "sentenceIndex": 26,
@@ -2281,12 +2199,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-12": "本句指「透明背景 PNG」。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-09": "「可讓光穿過」與本句語境不同。"
+        "transparent-mcq-12": "本句的「transparent」指「透明背景 PNG」。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-12"
     },
@@ -2298,11 +2214,9 @@ export default {
       "masked": "Adjust the ____ of the layer.",
       "options": [
         "transparent-mcq-14",
-        "transparent-mcq-13",
-        "transparent-mcq-15",
-        "transparent-mcq-12",
-        "transparent-mcq-16",
-        "transparent-mcq-11"
+        "transparent-mcq-47",
+        "transparent-pdf-003",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「transparency level」指「透明度設定」。",
       "sentenceIndex": 27,
@@ -2311,12 +2225,10 @@ export default {
         "transparency level"
       ],
       "optionReasons": {
-        "transparent-mcq-14": "本句指「透明度設定」。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。"
+        "transparent-mcq-14": "本句的「transparency level」指「透明度設定」。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-14"
     },
@@ -2328,11 +2240,9 @@ export default {
       "masked": "The organisation needs a more ____.",
       "options": [
         "transparent-mcq-15",
-        "transparent-mcq-14",
-        "transparent-mcq-16",
-        "transparent-mcq-13",
-        "transparent-mcq-17",
-        "transparent-mcq-12"
+        "transparent-mcq-45",
+        "transparent-mcq-54",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent process」指「公開透明的」。",
       "sentenceIndex": 28,
@@ -2341,12 +2251,10 @@ export default {
         "transparent process"
       ],
       "optionReasons": {
-        "transparent-mcq-15": "本句指「公開透明的」。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。"
+        "transparent-mcq-15": "本句的「transparent process」指「公開透明的」。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-15"
     },
@@ -2358,11 +2266,9 @@ export default {
       "masked": "Managers should be ____ about how decisions are made.",
       "options": [
         "transparent-mcq-15",
-        "transparent-mcq-14",
-        "transparent-mcq-16",
-        "transparent-mcq-13",
-        "transparent-mcq-17",
-        "transparent-mcq-12"
+        "transparent-mcq-43",
+        "transparent-mcq-50",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent」指「公開透明的」。",
       "sentenceIndex": 29,
@@ -2371,12 +2277,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-15": "本句指「公開透明的」。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。"
+        "transparent-mcq-15": "本句的「transparent」指「公開透明的」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-15"
     },
@@ -2388,11 +2292,9 @@ export default {
       "masked": "Promotion decisions should follow a ____.",
       "options": [
         "transparent-mcq-16",
-        "transparent-mcq-15",
-        "transparent-mcq-17",
-        "transparent-mcq-14",
-        "transparent-mcq-18",
-        "transparent-mcq-13"
+        "transparent-mcq-43",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-46"
       ],
       "explanation": "本句的「transparent process」指「透明程序」。",
       "sentenceIndex": 30,
@@ -2401,12 +2303,10 @@ export default {
         "transparent process"
       ],
       "optionReasons": {
-        "transparent-mcq-16": "本句指「透明程序」。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。"
+        "transparent-mcq-16": "本句的「transparent process」指「透明程序」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-16"
     },
@@ -2418,11 +2318,9 @@ export default {
       "masked": "A ____ process improves trust.",
       "options": [
         "transparent-mcq-16",
-        "transparent-mcq-15",
-        "transparent-mcq-17",
-        "transparent-mcq-14",
-        "transparent-mcq-18",
-        "transparent-mcq-13"
+        "transparent-mcq-54",
+        "transparent-mcq-43",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparent」指「透明程序」。",
       "sentenceIndex": 31,
@@ -2431,12 +2329,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-16": "本句指「透明程序」。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-13": "「透明圖層」與本句語境不同。"
+        "transparent-mcq-16": "本句的「transparent」指「透明程序」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-16"
     },
@@ -2448,11 +2344,9 @@ export default {
       "masked": "Complaints should be handled through a ____.",
       "options": [
         "transparent-mcq-17",
-        "transparent-mcq-16",
-        "transparent-mcq-18",
-        "transparent-mcq-15",
-        "transparent-mcq-19",
-        "transparent-mcq-14"
+        "transparent-mcq-50",
+        "transparent-pdf-003",
+        "transparent-mcq-49"
       ],
       "explanation": "本句的「transparent procedure」指「公開透明程序」。",
       "sentenceIndex": 32,
@@ -2461,12 +2355,10 @@ export default {
         "transparent procedure"
       ],
       "optionReasons": {
-        "transparent-mcq-17": "本句指「公開透明程序」。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。"
+        "transparent-mcq-17": "本句的「transparent procedure」指「公開透明程序」。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-17"
     },
@@ -2478,11 +2370,9 @@ export default {
       "masked": "____ procedures make expectations clearer.",
       "options": [
         "transparent-mcq-17",
-        "transparent-mcq-16",
-        "transparent-mcq-18",
-        "transparent-mcq-15",
-        "transparent-mcq-19",
-        "transparent-mcq-14"
+        "transparent-mcq-49",
+        "transparent-mcq-50",
+        "transparent-mcq-34"
       ],
       "explanation": "本句的「Transparent」指「公開透明程序」。",
       "sentenceIndex": 33,
@@ -2491,12 +2381,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-17": "本句指「公開透明程序」。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。"
+        "transparent-mcq-17": "本句的「Transparent」指「公開透明程序」。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-17"
     },
@@ -2508,11 +2396,9 @@ export default {
       "masked": "The company introduced a more ____.",
       "options": [
         "transparent-mcq-18",
-        "transparent-mcq-17",
-        "transparent-mcq-19",
-        "transparent-mcq-16",
-        "transparent-mcq-20",
-        "transparent-mcq-15"
+        "transparent-mcq-09",
+        "transparent-mcq-50",
+        "transparent-mcq-24"
       ],
       "explanation": "本句的「transparent evaluation system」指「透明制度」。",
       "sentenceIndex": 34,
@@ -2521,12 +2407,10 @@ export default {
         "transparent evaluation system"
       ],
       "optionReasons": {
-        "transparent-mcq-18": "本句指「透明制度」。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。"
+        "transparent-mcq-18": "本句的「transparent evaluation system」指「透明制度」。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-18"
     },
@@ -2538,11 +2422,9 @@ export default {
       "masked": "A ____ system makes it easier to understand how rewards are allocated.",
       "options": [
         "transparent-mcq-18",
-        "transparent-mcq-17",
-        "transparent-mcq-19",
-        "transparent-mcq-16",
-        "transparent-mcq-20",
-        "transparent-mcq-15"
+        "transparent-mcq-24",
+        "transparent-mcq-33",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent」指「透明制度」。",
       "sentenceIndex": 35,
@@ -2551,12 +2433,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-18": "本句指「透明制度」。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。"
+        "transparent-mcq-18": "本句的「transparent」指「透明制度」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-18"
     },
@@ -2568,11 +2448,9 @@ export default {
       "masked": "Employees value ____.",
       "options": [
         "transparent-mcq-19",
-        "transparent-mcq-18",
-        "transparent-mcq-20",
-        "transparent-mcq-17",
-        "transparent-mcq-21",
-        "transparent-mcq-16"
+        "transparent-mcq-50",
+        "transparent-mcq-47",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「transparent decision-making」指「透明決策」。",
       "sentenceIndex": 36,
@@ -2581,12 +2459,10 @@ export default {
         "transparent decision-making"
       ],
       "optionReasons": {
-        "transparent-mcq-19": "本句指「透明決策」。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。"
+        "transparent-mcq-19": "本句的「transparent decision-making」指「透明決策」。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-19"
     },
@@ -2598,11 +2474,9 @@ export default {
       "masked": "____ decision-making requires clear reasons and criteria.",
       "options": [
         "transparent-mcq-19",
-        "transparent-mcq-18",
-        "transparent-mcq-20",
-        "transparent-mcq-17",
-        "transparent-mcq-21",
-        "transparent-mcq-16"
+        "transparent-mcq-54",
+        "transparent-mcq-43",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「Transparent」指「透明決策」。",
       "sentenceIndex": 37,
@@ -2611,12 +2485,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-19": "本句指「透明決策」。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-16": "「透明程序」與本句語境不同。"
+        "transparent-mcq-19": "本句的「Transparent」指「透明決策」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-19"
     },
@@ -2628,11 +2500,9 @@ export default {
       "masked": "Promotions should be based on ____.",
       "options": [
         "transparent-mcq-20",
-        "transparent-mcq-19",
-        "transparent-mcq-21",
-        "transparent-mcq-18",
-        "transparent-mcq-22",
-        "transparent-mcq-17"
+        "transparent-mcq-23",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-33"
       ],
       "explanation": "本句的「transparent criteria」指「透明準則」。",
       "sentenceIndex": 38,
@@ -2641,12 +2511,10 @@ export default {
         "transparent criteria"
       ],
       "optionReasons": {
-        "transparent-mcq-20": "本句指「透明準則」。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。"
+        "transparent-mcq-20": "本句的「transparent criteria」指「透明準則」。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-20"
     },
@@ -2658,11 +2526,9 @@ export default {
       "masked": "____ criteria reduce suspicion of favouritism.",
       "options": [
         "transparent-mcq-20",
-        "transparent-mcq-19",
-        "transparent-mcq-21",
-        "transparent-mcq-18",
+        "transparent-mcq-47",
         "transparent-mcq-22",
-        "transparent-mcq-17"
+        "transparent-mcq-43"
       ],
       "explanation": "本句的「Transparent」指「透明準則」。",
       "sentenceIndex": 39,
@@ -2671,12 +2537,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-20": "本句指「透明準則」。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-17": "「公開透明程序」與本句語境不同。"
+        "transparent-mcq-20": "本句的「Transparent」指「透明準則」。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-20"
     },
@@ -2688,11 +2552,9 @@ export default {
       "masked": "Teams need ____ for allocating credit.",
       "options": [
         "transparent-mcq-21",
-        "transparent-mcq-20",
-        "transparent-mcq-22",
-        "transparent-mcq-19",
-        "transparent-mcq-23",
-        "transparent-mcq-18"
+        "transparent-mcq-30",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-49"
       ],
       "explanation": "本句的「transparent rules」指「公開清楚規則」。",
       "sentenceIndex": 40,
@@ -2701,12 +2563,10 @@ export default {
         "transparent rules"
       ],
       "optionReasons": {
-        "transparent-mcq-21": "本句指「公開清楚規則」。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。"
+        "transparent-mcq-21": "本句的「transparent rules」指「公開清楚規則」。",
+        "transparent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-21"
     },
@@ -2718,11 +2578,9 @@ export default {
       "masked": "____ rules make the system easier to trust.",
       "options": [
         "transparent-mcq-21",
-        "transparent-mcq-20",
-        "transparent-mcq-22",
-        "transparent-mcq-19",
-        "transparent-mcq-23",
-        "transparent-mcq-18"
+        "transparent-mcq-59",
+        "transparent-pdf-002",
+        "transparent-mcq-48"
       ],
       "explanation": "本句的「Transparent」指「公開清楚規則」。",
       "sentenceIndex": 41,
@@ -2731,12 +2589,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-21": "本句指「公開清楚規則」。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-18": "「透明制度」與本句語境不同。"
+        "transparent-mcq-21": "本句的「Transparent」指「公開清楚規則」。",
+        "transparent-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-21"
     },
@@ -2748,11 +2604,9 @@ export default {
       "masked": "____ reduces uncertainty.",
       "options": [
         "transparent-mcq-22",
-        "transparent-mcq-21",
-        "transparent-mcq-23",
-        "transparent-mcq-20",
-        "transparent-mcq-24",
-        "transparent-mcq-19"
+        "transparent-mcq-37",
+        "transparent-mcq-43",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「Transparent communication」指「公開坦誠的溝通」。",
       "sentenceIndex": 42,
@@ -2761,12 +2615,10 @@ export default {
         "Transparent communication"
       ],
       "optionReasons": {
-        "transparent-mcq-22": "本句指「公開坦誠的溝通」。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。"
+        "transparent-mcq-22": "本句的「Transparent communication」指「公開坦誠的溝通」。",
+        "transparent-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-22"
     },
@@ -2778,11 +2630,9 @@ export default {
       "masked": "Leaders should encourage ____ communication about problems.",
       "options": [
         "transparent-mcq-22",
-        "transparent-mcq-21",
-        "transparent-mcq-23",
-        "transparent-mcq-20",
-        "transparent-mcq-24",
-        "transparent-mcq-19"
+        "transparent-mcq-16",
+        "transparent-mcq-47",
+        "transparent-mcq-33"
       ],
       "explanation": "本句的「transparent」指「公開坦誠的溝通」。",
       "sentenceIndex": 43,
@@ -2791,12 +2641,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-22": "本句指「公開坦誠的溝通」。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-19": "「透明決策」與本句語境不同。"
+        "transparent-mcq-22": "本句的「transparent」指「公開坦誠的溝通」。",
+        "transparent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-22"
     },
@@ -2808,11 +2656,9 @@ export default {
       "masked": "Managers should ____.",
       "options": [
         "transparent-mcq-23",
-        "transparent-mcq-22",
-        "transparent-mcq-24",
-        "transparent-mcq-21",
-        "transparent-mcq-25",
-        "transparent-mcq-20"
+        "transparent-mcq-14",
+        "transparent-mcq-09",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「be transparent with employees」指「對 X 坦誠公開」。",
       "sentenceIndex": 44,
@@ -2821,12 +2667,10 @@ export default {
         "be transparent with employees"
       ],
       "optionReasons": {
-        "transparent-mcq-23": "本句指「對 X 坦誠公開」。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。"
+        "transparent-mcq-23": "本句的「be transparent with employees」指「對 X 坦誠公開」。",
+        "transparent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-23"
     },
@@ -2838,11 +2682,9 @@ export default {
       "masked": "Be ____ with the team about the risks.",
       "options": [
         "transparent-mcq-23",
-        "transparent-mcq-22",
-        "transparent-mcq-24",
-        "transparent-mcq-21",
-        "transparent-mcq-25",
-        "transparent-mcq-20"
+        "transparent-mcq-62",
+        "transparent-mcq-43",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparent」指「對 X 坦誠公開」。",
       "sentenceIndex": 45,
@@ -2851,12 +2693,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-23": "本句指「對 X 坦誠公開」。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-20": "「透明準則」與本句語境不同。"
+        "transparent-mcq-23": "本句的「transparent」指「對 X 坦誠公開」。",
+        "transparent-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-23"
     },
@@ -2868,11 +2708,9 @@ export default {
       "masked": "The company should ____.",
       "options": [
         "transparent-mcq-24",
-        "transparent-mcq-23",
+        "transparent-mcq-46",
         "transparent-mcq-25",
-        "transparent-mcq-22",
-        "transparent-mcq-26",
-        "transparent-mcq-21"
+        "transparent-mcq-44"
       ],
       "explanation": "本句的「be transparent about the delay」指「對 X 坦白公開」。",
       "sentenceIndex": 46,
@@ -2881,12 +2719,10 @@ export default {
         "be transparent about the delay"
       ],
       "optionReasons": {
-        "transparent-mcq-24": "本句指「對 X 坦白公開」。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。"
+        "transparent-mcq-24": "本句的「be transparent about the delay」指「對 X 坦白公開」。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-24"
     },
@@ -2898,11 +2734,9 @@ export default {
       "masked": "She was ____ about what had gone wrong.",
       "options": [
         "transparent-mcq-24",
-        "transparent-mcq-23",
-        "transparent-mcq-25",
-        "transparent-mcq-22",
-        "transparent-mcq-26",
-        "transparent-mcq-21"
+        "transparent-mcq-34",
+        "transparent-mcq-39",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparent」指「對 X 坦白公開」。",
       "sentenceIndex": 47,
@@ -2911,12 +2745,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-24": "本句指「對 X 坦白公開」。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-21": "「公開清楚規則」與本句語境不同。"
+        "transparent-mcq-24": "本句的「transparent」指「對 X 坦白公開」。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-24"
     },
@@ -2928,11 +2760,9 @@ export default {
       "masked": "____ reporting helps build confidence.",
       "options": [
         "transparent-mcq-25",
-        "transparent-mcq-24",
-        "transparent-mcq-26",
-        "transparent-mcq-23",
-        "transparent-mcq-27",
-        "transparent-mcq-22"
+        "transparent-mcq-33",
+        "transparent-mcq-50",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「Transparent」指「透明匯報」。",
       "sentenceIndex": 48,
@@ -2941,12 +2771,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-25": "本句指「透明匯報」。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。"
+        "transparent-mcq-25": "本句的「Transparent」指「透明匯報」。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-25"
     },
@@ -2959,10 +2787,8 @@ export default {
       "options": [
         "transparent-mcq-25",
         "transparent-mcq-24",
-        "transparent-mcq-26",
-        "transparent-mcq-23",
-        "transparent-mcq-27",
-        "transparent-mcq-22"
+        "transparent-mcq-49",
+        "transparent-mcq-43"
       ],
       "explanation": "本句的「transparent」指「透明匯報」。",
       "sentenceIndex": 49,
@@ -2971,12 +2797,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-25": "本句指「透明匯報」。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。"
+        "transparent-mcq-25": "本句的「transparent」指「透明匯報」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-25"
     },
@@ -2988,11 +2812,9 @@ export default {
       "masked": "Customers need ____ information about fees.",
       "options": [
         "transparent-mcq-25",
+        "transparent-reviewed-66c49eacd0",
         "transparent-mcq-24",
-        "transparent-mcq-26",
-        "transparent-mcq-23",
-        "transparent-mcq-27",
-        "transparent-mcq-22"
+        "transparent-mcq-09"
       ],
       "explanation": "本句的「transparent」指「透明匯報」。",
       "sentenceIndex": 50,
@@ -3001,12 +2823,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-25": "本句指「透明匯報」。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。"
+        "transparent-mcq-25": "本句的「transparent」指「透明匯報」。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-25"
     },
@@ -3018,11 +2838,9 @@ export default {
       "masked": "____ information allows better decisions.",
       "options": [
         "transparent-mcq-25",
-        "transparent-mcq-24",
-        "transparent-mcq-26",
-        "transparent-mcq-23",
-        "transparent-mcq-27",
-        "transparent-mcq-22"
+        "transparent-mcq-09",
+        "transparent-mcq-50",
+        "transparent-mcq-43"
       ],
       "explanation": "本句的「Transparent」指「透明匯報」。",
       "sentenceIndex": 51,
@@ -3031,12 +2849,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-25": "本句指「透明匯報」。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。"
+        "transparent-mcq-25": "本句的「Transparent」指「透明匯報」。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-25"
     },
@@ -3048,11 +2864,9 @@ export default {
       "masked": "The organisation improved its disclosure practices to make them more ____.",
       "options": [
         "transparent-mcq-25",
-        "transparent-mcq-24",
-        "transparent-mcq-26",
-        "transparent-mcq-23",
-        "transparent-mcq-27",
-        "transparent-mcq-22"
+        "transparent-mcq-49",
+        "transparent-pdf-002",
+        "transparent-mcq-21"
       ],
       "explanation": "本句的「transparent」指「透明匯報」。",
       "sentenceIndex": 52,
@@ -3061,12 +2875,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-25": "本句指「透明匯報」。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。"
+        "transparent-mcq-25": "本句的「transparent」指「透明匯報」。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-25"
     },
@@ -3078,11 +2890,9 @@ export default {
       "masked": "____ disclosure reduces uncertainty.",
       "options": [
         "transparent-mcq-25",
-        "transparent-mcq-24",
-        "transparent-mcq-26",
-        "transparent-mcq-23",
-        "transparent-mcq-27",
-        "transparent-mcq-22"
+        "transparent-mcq-45",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「Transparent」指「透明匯報」。",
       "sentenceIndex": 53,
@@ -3091,12 +2901,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-25": "本句指「透明匯報」。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-22": "「公開坦誠的溝通」與本句語境不同。"
+        "transparent-mcq-25": "本句的「Transparent」指「透明匯報」。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-25"
     },
@@ -3108,11 +2916,9 @@ export default {
       "masked": "Strong ____ helps stakeholders understand an organisation's finances.",
       "options": [
         "transparent-mcq-26",
-        "transparent-mcq-25",
-        "transparent-mcq-27",
+        "transparent-mcq-54",
         "transparent-mcq-24",
-        "transparent-mcq-28",
-        "transparent-mcq-23"
+        "transparent-pdf-001"
       ],
       "explanation": "本句的「financial transparency」指「財務透明度」。",
       "sentenceIndex": 54,
@@ -3121,12 +2927,10 @@ export default {
         "financial transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-26": "本句指「財務透明度」。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。",
-        "transparent-mcq-28": "「透明定價」與本句語境不同。",
-        "transparent-mcq-23": "「對 X 坦誠公開」與本句語境不同。"
+        "transparent-mcq-26": "本句的「financial transparency」指「財務透明度」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-26"
     },
@@ -3138,11 +2942,9 @@ export default {
       "masked": "The organisation adopted more ____.",
       "options": [
         "transparent-mcq-27",
-        "transparent-mcq-26",
-        "transparent-mcq-28",
-        "transparent-mcq-25",
-        "transparent-mcq-29",
-        "transparent-mcq-24"
+        "transparent-mcq-49",
+        "transparent-pdf-002",
+        "transparent-mcq-45"
       ],
       "explanation": "本句的「transparent accounting practices」指「透明會計處理」。",
       "sentenceIndex": 55,
@@ -3151,12 +2953,10 @@ export default {
         "transparent accounting practices"
       ],
       "optionReasons": {
-        "transparent-mcq-27": "本句指「透明會計處理」。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-28": "「透明定價」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。"
+        "transparent-mcq-27": "本句的「transparent accounting practices」指「透明會計處理」。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-27"
     },
@@ -3168,11 +2968,9 @@ export default {
       "masked": "____ accounting makes transactions easier to examine.",
       "options": [
         "transparent-mcq-27",
-        "transparent-mcq-26",
-        "transparent-mcq-28",
-        "transparent-mcq-25",
-        "transparent-mcq-29",
-        "transparent-mcq-24"
+        "transparent-mcq-50",
+        "transparent-mcq-49",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「Transparent」指「透明會計處理」。",
       "sentenceIndex": 56,
@@ -3181,12 +2979,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-27": "本句指「透明會計處理」。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-28": "「透明定價」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。",
-        "transparent-mcq-24": "「對 X 坦白公開」與本句語境不同。"
+        "transparent-mcq-27": "本句的「Transparent」指「透明會計處理」。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-27"
     },
@@ -3198,11 +2994,9 @@ export default {
       "masked": "Customers prefer ____.",
       "options": [
         "transparent-mcq-28",
-        "transparent-mcq-27",
-        "transparent-mcq-29",
-        "transparent-mcq-26",
-        "transparent-mcq-30",
-        "transparent-mcq-25"
+        "transparent-mcq-54",
+        "transparent-mcq-47",
+        "transparent-mcq-34"
       ],
       "explanation": "本句的「transparent pricing」指「透明定價」。",
       "sentenceIndex": 57,
@@ -3211,12 +3005,10 @@ export default {
         "transparent pricing"
       ],
       "optionReasons": {
-        "transparent-mcq-28": "本句指「透明定價」。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。"
+        "transparent-mcq-28": "本句的「transparent pricing」指「透明定價」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-28"
     },
@@ -3228,11 +3020,9 @@ export default {
       "masked": "The website uses ____ pricing with no hidden fees.",
       "options": [
         "transparent-mcq-28",
-        "transparent-mcq-27",
-        "transparent-mcq-29",
-        "transparent-mcq-26",
-        "transparent-mcq-30",
-        "transparent-mcq-25"
+        "transparent-mcq-34",
+        "transparent-mcq-54",
+        "transparent-mcq-24"
       ],
       "explanation": "本句的「transparent」指「透明定價」。",
       "sentenceIndex": 58,
@@ -3241,12 +3031,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-28": "本句指「透明定價」。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。",
-        "transparent-mcq-25": "「透明匯報」與本句語境不同。"
+        "transparent-mcq-28": "本句的「transparent」指「透明定價」。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-28"
     },
@@ -3258,11 +3046,9 @@ export default {
       "masked": "Online comparison tools can increase ____.",
       "options": [
         "transparent-mcq-29",
-        "transparent-mcq-28",
-        "transparent-mcq-30",
-        "transparent-mcq-27",
-        "transparent-mcq-31",
-        "transparent-mcq-26"
+        "transparent-pdf-001",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「price transparency」指「價格透明度」。",
       "sentenceIndex": 59,
@@ -3271,12 +3057,10 @@ export default {
         "price transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-29": "本句指「價格透明度」。",
-        "transparent-mcq-28": "「透明定價」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-26": "「財務透明度」與本句語境不同。"
+        "transparent-mcq-29": "本句的「price transparency」指「價格透明度」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-29"
     },
@@ -3288,11 +3072,9 @@ export default {
       "masked": "The regulator requires greater ____.",
       "options": [
         "transparent-mcq-30",
-        "transparent-mcq-29",
-        "transparent-mcq-31",
-        "transparent-mcq-28",
-        "transparent-mcq-32",
-        "transparent-mcq-27"
+        "transparent-mcq-09",
+        "transparent-mcq-54",
+        "transparent-mcq-21"
       ],
       "explanation": "本句的「fee transparency」指「收費透明度」。",
       "sentenceIndex": 60,
@@ -3301,12 +3083,10 @@ export default {
         "fee transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-30": "本句指「收費透明度」。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-28": "「透明定價」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-27": "「透明會計處理」與本句語境不同。"
+        "transparent-mcq-30": "本句的「fee transparency」指「收費透明度」。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-30"
     },
@@ -3318,11 +3098,9 @@ export default {
       "masked": "The company introduced greater ____.",
       "options": [
         "transparent-mcq-31",
-        "transparent-mcq-30",
-        "transparent-mcq-32",
-        "transparent-mcq-29",
-        "transparent-mcq-33",
-        "transparent-mcq-28"
+        "transparent-mcq-54",
+        "transparent-mcq-21",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「pay transparency」指「薪酬透明度」。",
       "sentenceIndex": 61,
@@ -3331,12 +3109,10 @@ export default {
         "pay transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-31": "本句指「薪酬透明度」。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-28": "「透明定價」與本句語境不同。"
+        "transparent-mcq-31": "本句的「pay transparency」指「薪酬透明度」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-31"
     },
@@ -3348,11 +3124,9 @@ export default {
       "masked": "The organisation wants a more ____.",
       "options": [
         "transparent-mcq-32",
-        "transparent-mcq-31",
-        "transparent-mcq-33",
-        "transparent-mcq-30",
-        "transparent-mcq-34",
-        "transparent-mcq-29"
+        "transparent-pdf-001",
+        "transparent-mcq-24",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent ownership structure」指「所有權透明」。",
       "sentenceIndex": 62,
@@ -3361,12 +3135,10 @@ export default {
         "transparent ownership structure"
       ],
       "optionReasons": {
-        "transparent-mcq-32": "本句指「所有權透明」。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。"
+        "transparent-mcq-32": "本句的「transparent ownership structure」指「所有權透明」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-32"
     },
@@ -3378,11 +3150,9 @@ export default {
       "masked": "____ ownership makes it clearer who controls the company.",
       "options": [
         "transparent-mcq-32",
-        "transparent-mcq-31",
-        "transparent-mcq-33",
-        "transparent-mcq-30",
-        "transparent-mcq-34",
-        "transparent-mcq-29"
+        "transparent-mcq-24",
+        "transparent-mcq-09",
+        "transparent-mcq-34"
       ],
       "explanation": "本句的「Transparent」指「所有權透明」。",
       "sentenceIndex": 63,
@@ -3391,12 +3161,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-32": "本句指「所有權透明」。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-29": "「價格透明度」與本句語境不同。"
+        "transparent-mcq-32": "本句的「Transparent」指「所有權透明」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-32"
     },
@@ -3408,11 +3176,9 @@ export default {
       "masked": "Responsibility should be ____.",
       "options": [
         "transparent-mcq-33",
-        "transparent-mcq-32",
-        "transparent-mcq-34",
-        "transparent-mcq-31",
-        "transparent-mcq-35",
-        "transparent-mcq-30"
+        "transparent-mcq-39",
+        "transparent-mcq-47",
+        "transparent-mcq-22"
       ],
       "explanation": "本句的「transparent」指「工作量清楚可見」。",
       "sentenceIndex": 64,
@@ -3421,12 +3187,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-33": "本句指「工作量清楚可見」。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。"
+        "transparent-mcq-33": "本句的「transparent」指「工作量清楚可見」。",
+        "transparent-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-33"
     },
@@ -3438,11 +3202,9 @@ export default {
       "masked": "____ responsibilities make accountability easier.",
       "options": [
         "transparent-mcq-33",
-        "transparent-mcq-32",
-        "transparent-mcq-34",
-        "transparent-mcq-31",
-        "transparent-mcq-35",
-        "transparent-mcq-30"
+        "transparent-mcq-56",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「Transparent」指「工作量清楚可見」。",
       "sentenceIndex": 65,
@@ -3451,12 +3213,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-33": "本句指「工作量清楚可見」。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。"
+        "transparent-mcq-33": "本句的「Transparent」指「工作量清楚可見」。",
+        "transparent-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-33"
     },
@@ -3468,11 +3228,9 @@ export default {
       "masked": "Shared tools make the team's workload more ____.",
       "options": [
         "transparent-mcq-33",
-        "transparent-mcq-32",
-        "transparent-mcq-34",
-        "transparent-mcq-31",
-        "transparent-mcq-35",
-        "transparent-mcq-30"
+        "transparent-reviewed-b0dfc94d71",
+        "transparent-mcq-16",
+        "transparent-mcq-24"
       ],
       "explanation": "本句的「transparent」指「工作量清楚可見」。",
       "sentenceIndex": 66,
@@ -3481,12 +3239,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-33": "本句指「工作量清楚可見」。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。"
+        "transparent-mcq-33": "本句的「transparent」指「工作量清楚可見」。",
+        "transparent-reviewed-b0dfc94d71": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-33"
     },
@@ -3498,11 +3254,9 @@ export default {
       "masked": "A ____ workload system can reveal unequal participation.",
       "options": [
         "transparent-mcq-33",
-        "transparent-mcq-32",
-        "transparent-mcq-34",
-        "transparent-mcq-31",
-        "transparent-mcq-35",
-        "transparent-mcq-30"
+        "transparent-mcq-48",
+        "transparent-mcq-38",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparent」指「工作量清楚可見」。",
       "sentenceIndex": 67,
@@ -3511,12 +3265,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-33": "本句指「工作量清楚可見」。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-30": "「收費透明度」與本句語境不同。"
+        "transparent-mcq-33": "本句的「transparent」指「工作量清楚可見」。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-33"
     },
@@ -3528,11 +3280,9 @@ export default {
       "masked": "Teamwork works better when individual contribution is ____.",
       "options": [
         "transparent-mcq-34",
-        "transparent-mcq-33",
-        "transparent-mcq-35",
-        "transparent-mcq-32",
-        "transparent-mcq-36",
-        "transparent-mcq-31"
+        "transparent-mcq-25",
+        "transparent-mcq-48",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparent」指「貢獻清楚可見」。",
       "sentenceIndex": 68,
@@ -3541,12 +3291,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-34": "本句指「貢獻清楚可見」。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。"
+        "transparent-mcq-34": "本句的「transparent」指「貢獻清楚可見」。",
+        "transparent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-34"
     },
@@ -3558,11 +3306,9 @@ export default {
       "masked": "Progress tracking makes contribution more ____.",
       "options": [
         "transparent-mcq-34",
-        "transparent-mcq-33",
-        "transparent-mcq-35",
-        "transparent-mcq-32",
-        "transparent-mcq-36",
-        "transparent-mcq-31"
+        "transparent-mcq-18",
+        "transparent-mcq-22",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent」指「貢獻清楚可見」。",
       "sentenceIndex": 69,
@@ -3571,12 +3317,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-34": "本句指「貢獻清楚可見」。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。"
+        "transparent-mcq-34": "本句的「transparent」指「貢獻清楚可見」。",
+        "transparent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-34"
     },
@@ -3588,11 +3332,9 @@ export default {
       "masked": "Individual evaluations can ____.",
       "options": [
         "transparent-mcq-34",
-        "transparent-mcq-33",
-        "transparent-mcq-35",
-        "transparent-mcq-32",
-        "transparent-mcq-36",
-        "transparent-mcq-31"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-03",
+        "transparent-mcq-09"
       ],
       "explanation": "本句的「make contribution more transparent」指「貢獻清楚可見」。",
       "sentenceIndex": 70,
@@ -3601,12 +3343,10 @@ export default {
         "make contribution more transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-34": "本句指「貢獻清楚可見」。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。"
+        "transparent-mcq-34": "本句的「make contribution more transparent」指「貢獻清楚可見」。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-34"
     },
@@ -3618,11 +3358,9 @@ export default {
       "masked": "Clear task ownership makes contribution ____.",
       "options": [
         "transparent-mcq-34",
-        "transparent-mcq-33",
-        "transparent-mcq-35",
         "transparent-mcq-32",
-        "transparent-mcq-36",
-        "transparent-mcq-31"
+        "transparent-mcq-22",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparent」指「貢獻清楚可見」。",
       "sentenceIndex": 71,
@@ -3631,12 +3369,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-34": "本句指「貢獻清楚可見」。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。"
+        "transparent-mcq-34": "本句的「transparent」指「貢獻清楚可見」。",
+        "transparent-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-34"
     },
@@ -3648,11 +3384,9 @@ export default {
       "masked": "____ accountability helps prevent free-riding.",
       "options": [
         "transparent-mcq-34",
-        "transparent-mcq-33",
-        "transparent-mcq-35",
-        "transparent-mcq-32",
-        "transparent-mcq-36",
-        "transparent-mcq-31"
+        "transparent-mcq-23",
+        "transparent-mcq-30",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「Transparent」指「貢獻清楚可見」。",
       "sentenceIndex": 72,
@@ -3661,12 +3395,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-34": "本句指「貢獻清楚可見」。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-31": "「薪酬透明度」與本句語境不同。"
+        "transparent-mcq-34": "本句的「Transparent」指「貢獻清楚可見」。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-34"
     },
@@ -3678,11 +3410,9 @@ export default {
       "masked": "The process needs greater ____.",
       "options": [
         "transparent-mcq-35",
-        "transparent-mcq-34",
-        "transparent-mcq-36",
-        "transparent-mcq-33",
-        "transparent-mcq-37",
-        "transparent-mcq-32"
+        "transparent-pdf-001",
+        "transparent-mcq-54",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparency」指「透明度；公開性」。",
       "sentenceIndex": 73,
@@ -3691,12 +3421,10 @@ export default {
         "transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-35": "本句指「透明度；公開性」。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。",
-        "transparent-mcq-37": "「全面透明」與本句語境不同。",
-        "transparent-mcq-32": "「所有權透明」與本句語境不同。"
+        "transparent-mcq-35": "本句的「transparency」指「透明度；公開性」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-35"
     },
@@ -3708,11 +3436,9 @@ export default {
       "masked": "Employees asked for ____ around promotions.",
       "options": [
         "transparent-mcq-36",
-        "transparent-mcq-35",
-        "transparent-mcq-37",
-        "transparent-mcq-34",
-        "transparent-mcq-38",
-        "transparent-mcq-33"
+        "transparent-mcq-43",
+        "transparent-mcq-50",
+        "transparent-mcq-09"
       ],
       "explanation": "本句的「greater transparency」指「更高透明度」。",
       "sentenceIndex": 74,
@@ -3721,12 +3447,10 @@ export default {
         "greater transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-36": "本句指「更高透明度」。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-37": "「全面透明」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。",
-        "transparent-mcq-38": "「缺乏透明度」與本句語境不同。",
-        "transparent-mcq-33": "「工作量清楚可見」與本句語境不同。"
+        "transparent-mcq-36": "本句的「greater transparency」指「更高透明度」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-36"
     },
@@ -3738,11 +3462,9 @@ export default {
       "masked": "Written criteria ____.",
       "options": [
         "transparent-mcq-39",
-        "transparent-mcq-38",
-        "transparent-mcq-40",
-        "transparent-mcq-37",
-        "transparent-mcq-41",
-        "transparent-mcq-36"
+        "transparent-pdf-003",
+        "transparent-mcq-09",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「improve transparency」指「提高透明度」。",
       "sentenceIndex": 75,
@@ -3751,12 +3473,10 @@ export default {
         "improve transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-39": "本句指「提高透明度」。",
-        "transparent-mcq-38": "「缺乏透明度」與本句語境不同。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
-        "transparent-mcq-37": "「全面透明」與本句語境不同。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。"
+        "transparent-mcq-39": "本句的「improve transparency」指「提高透明度」。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-39"
     },
@@ -3768,11 +3488,9 @@ export default {
       "masked": "The manager promised ____.",
       "options": [
         "transparent-mcq-37",
-        "transparent-mcq-36",
-        "transparent-mcq-38",
-        "transparent-mcq-35",
-        "transparent-mcq-39",
-        "transparent-mcq-34"
+        "transparent-mcq-21",
+        "transparent-mcq-47",
+        "transparent-pdf-002"
       ],
       "explanation": "本句的「full transparency」指「全面透明」。",
       "sentenceIndex": 76,
@@ -3781,12 +3499,10 @@ export default {
         "full transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-37": "本句指「全面透明」。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-38": "「缺乏透明度」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。",
-        "transparent-mcq-39": "「提高透明度」與本句語境不同。",
-        "transparent-mcq-34": "「貢獻清楚可見」與本句語境不同。"
+        "transparent-mcq-37": "本句的「full transparency」指「全面透明」。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-37"
     },
@@ -3798,11 +3514,9 @@ export default {
       "masked": "A ____ created suspicion.",
       "options": [
         "transparent-mcq-38",
-        "transparent-mcq-37",
-        "transparent-mcq-39",
-        "transparent-mcq-36",
-        "transparent-mcq-40",
-        "transparent-mcq-35"
+        "transparent-mcq-47",
+        "transparent-mcq-45",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「lack of transparency」指「缺乏透明度」。",
       "sentenceIndex": 77,
@@ -3811,12 +3525,10 @@ export default {
         "lack of transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-38": "本句指「缺乏透明度」。",
-        "transparent-mcq-37": "「全面透明」與本句語境不同。",
-        "transparent-mcq-39": "「提高透明度」與本句語境不同。",
-        "transparent-mcq-36": "「更高透明度」與本句語境不同。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
-        "transparent-mcq-35": "「透明度；公開性」與本句語境不同。"
+        "transparent-mcq-38": "本句的「lack of transparency」指「缺乏透明度」。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-38"
     },
@@ -3828,11 +3540,9 @@ export default {
       "masked": "Clear records support ____.",
       "options": [
         "transparent-mcq-40",
-        "transparent-mcq-39",
-        "transparent-mcq-41",
-        "transparent-mcq-38",
-        "transparent-mcq-42",
-        "transparent-mcq-37"
+        "transparent-mcq-24",
+        "transparent-mcq-49",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparency and accountability」指「透明度與問責」。",
       "sentenceIndex": 78,
@@ -3841,12 +3551,10 @@ export default {
         "transparency and accountability"
       ],
       "optionReasons": {
-        "transparent-mcq-40": "本句指「透明度與問責」。",
-        "transparent-mcq-39": "「提高透明度」與本句語境不同。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
-        "transparent-mcq-38": "「缺乏透明度」與本句語境不同。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。",
-        "transparent-mcq-37": "「全面透明」與本句語境不同。"
+        "transparent-mcq-40": "本句的「transparency and accountability」指「透明度與問責」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-40"
     },
@@ -3858,11 +3566,9 @@ export default {
       "masked": "Some organisations experiment with ____.",
       "options": [
         "transparent-mcq-41",
-        "transparent-mcq-40",
-        "transparent-mcq-42",
-        "transparent-mcq-39",
-        "transparent-mcq-43",
-        "transparent-mcq-38"
+        "transparent-mcq-47",
+        "transparent-pdf-003",
+        "transparent-mcq-24"
       ],
       "explanation": "本句的「radical transparency」指「高度／徹底透明」。",
       "sentenceIndex": 79,
@@ -3871,12 +3577,10 @@ export default {
         "radical transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-41": "本句指「高度／徹底透明」。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。",
-        "transparent-mcq-39": "「提高透明度」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-38": "「缺乏透明度」與本句語境不同。"
+        "transparent-mcq-41": "本句的「radical transparency」指「高度／徹底透明」。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-41"
     },
@@ -3889,10 +3593,8 @@ export default {
       "options": [
         "transparent-pdf-003",
         "transparent-mcq-41",
-        "transparent-mcq-43",
-        "transparent-mcq-40",
-        "transparent-mcq-44",
-        "transparent-mcq-39"
+        "transparent-mcq-46",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent」指「結構或意思十分清楚，不難理解」。",
       "sentenceIndex": 80,
@@ -3901,12 +3603,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-pdf-003": "本句指「結構或意思十分清楚，不難理解」。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-39": "「提高透明度」與本句語境不同。"
+        "transparent-pdf-003": "本句的「transparent」指「結構或意思十分清楚，不難理解」。",
+        "transparent-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-003"
     },
@@ -3918,11 +3618,9 @@ export default {
       "masked": "The rules should be ____ to ordinary users.",
       "options": [
         "transparent-pdf-003",
-        "transparent-mcq-41",
-        "transparent-mcq-43",
-        "transparent-mcq-40",
-        "transparent-mcq-44",
-        "transparent-mcq-39"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-19",
+        "transparent-mcq-48"
       ],
       "explanation": "本句的「transparent」指「結構或意思十分清楚，不難理解」。",
       "sentenceIndex": 81,
@@ -3931,12 +3629,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-pdf-003": "本句指「結構或意思十分清楚，不難理解」。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-39": "「提高透明度」與本句語境不同。"
+        "transparent-pdf-003": "本句的「transparent」指「結構或意思十分清楚，不難理解」。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-003"
     },
@@ -3948,11 +3644,9 @@ export default {
       "masked": "The teacher gave a ____ of the process.",
       "options": [
         "transparent-mcq-43",
-        "transparent-mcq-42",
-        "transparent-mcq-44",
-        "transparent-mcq-41",
-        "transparent-mcq-45",
-        "transparent-mcq-40"
+        "transparent-mcq-17",
+        "transparent-mcq-49",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent explanation」指「清晰易懂的解釋」。",
       "sentenceIndex": 82,
@@ -3961,12 +3655,10 @@ export default {
         "transparent explanation"
       ],
       "optionReasons": {
-        "transparent-mcq-43": "本句指「清晰易懂的解釋」。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。"
+        "transparent-mcq-43": "本句的「transparent explanation」指「清晰易懂的解釋」。",
+        "transparent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-43"
     },
@@ -3978,11 +3670,9 @@ export default {
       "masked": "Technical documents should aim for ____ explanations.",
       "options": [
         "transparent-mcq-43",
-        "transparent-mcq-42",
-        "transparent-mcq-44",
-        "transparent-mcq-41",
-        "transparent-mcq-45",
-        "transparent-mcq-40"
+        "transparent-mcq-62",
+        "transparent-pdf-002",
+        "transparent-mcq-48"
       ],
       "explanation": "本句的「transparent」指「清晰易懂的解釋」。",
       "sentenceIndex": 83,
@@ -3991,12 +3681,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-43": "本句指「清晰易懂的解釋」。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-40": "「透明度與問責」與本句語境不同。"
+        "transparent-mcq-43": "本句的「transparent」指「清晰易懂的解釋」。",
+        "transparent-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-43"
     },
@@ -4008,11 +3696,9 @@ export default {
       "masked": "Contracts should use more ____ where possible.",
       "options": [
         "transparent-mcq-44",
-        "transparent-mcq-43",
-        "transparent-mcq-45",
-        "transparent-mcq-42",
-        "transparent-mcq-46",
-        "transparent-mcq-41"
+        "transparent-mcq-24",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「transparent language」指「清楚易明的語言」。",
       "sentenceIndex": 84,
@@ -4021,12 +3707,10 @@ export default {
         "transparent language"
       ],
       "optionReasons": {
-        "transparent-mcq-44": "本句指「清楚易明的語言」。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。"
+        "transparent-mcq-44": "本句的「transparent language」指「清楚易明的語言」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-44"
     },
@@ -4038,11 +3722,9 @@ export default {
       "masked": "____ language reduces misunderstanding.",
       "options": [
         "transparent-mcq-44",
-        "transparent-mcq-43",
-        "transparent-mcq-45",
-        "transparent-mcq-42",
-        "transparent-mcq-46",
-        "transparent-mcq-41"
+        "transparent-mcq-24",
+        "transparent-mcq-47",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「Transparent」指「清楚易明的語言」。",
       "sentenceIndex": 85,
@@ -4051,12 +3733,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-44": "本句指「清楚易明的語言」。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-41": "「高度／徹底透明」與本句語境不同。"
+        "transparent-mcq-44": "本句的「Transparent」指「清楚易明的語言」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-44"
     },
@@ -4068,11 +3748,9 @@ export default {
       "masked": "Her prose is simple and ____.",
       "options": [
         "transparent-mcq-45",
-        "transparent-mcq-44",
-        "transparent-mcq-46",
-        "transparent-mcq-43",
-        "transparent-mcq-47",
-        "transparent-mcq-42"
+        "transparent-mcq-58",
+        "transparent-mcq-23",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparent」指「清晰易讀的文筆」。",
       "sentenceIndex": 86,
@@ -4081,12 +3759,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-45": "本句指「清晰易讀的文筆」。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。"
+        "transparent-mcq-45": "本句的「transparent」指「清晰易讀的文筆」。",
+        "transparent-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-45"
     },
@@ -4098,11 +3774,9 @@ export default {
       "masked": "____ writing helps readers follow complex ideas.",
       "options": [
         "transparent-mcq-45",
-        "transparent-mcq-44",
-        "transparent-mcq-46",
-        "transparent-mcq-43",
-        "transparent-mcq-47",
-        "transparent-mcq-42"
+        "transparent-mcq-24",
+        "transparent-mcq-55",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「Transparent」指「清晰易讀的文筆」。",
       "sentenceIndex": 87,
@@ -4111,12 +3785,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-45": "本句指「清晰易讀的文筆」。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-42": "「清晰易懂的」與本句語境不同。"
+        "transparent-mcq-45": "本句的「Transparent」指「清晰易讀的文筆」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-45"
     },
@@ -4128,11 +3800,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "transparent-mcq-46",
-        "transparent-mcq-45",
-        "transparent-mcq-47",
-        "transparent-mcq-44",
-        "transparent-mcq-48",
-        "transparent-mcq-43"
+        "transparent-mcq-12",
+        "transparent-mcq-22",
+        "transparent-pdf-003"
       ],
       "explanation": "本句的「transparent attempt to avoid responsibility」指「顯而易見／容易看穿的」。",
       "sentenceIndex": 88,
@@ -4141,12 +3811,10 @@ export default {
         "transparent attempt to avoid responsibility"
       ],
       "optionReasons": {
-        "transparent-mcq-46": "本句指「顯而易見／容易看穿的」。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。"
+        "transparent-mcq-46": "本句的「transparent attempt to avoid responsibility」指「顯而易見／容易看穿的」。",
+        "transparent-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-46"
     },
@@ -4158,11 +3826,9 @@ export default {
       "masked": "His excuse was completely ____.",
       "options": [
         "transparent-mcq-46",
-        "transparent-mcq-45",
-        "transparent-mcq-47",
-        "transparent-mcq-44",
-        "transparent-mcq-48",
-        "transparent-mcq-43"
+        "transparent-mcq-62",
+        "transparent-mcq-23",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent」指「顯而易見／容易看穿的」。",
       "sentenceIndex": 89,
@@ -4171,12 +3837,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-46": "本句指「顯而易見／容易看穿的」。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。"
+        "transparent-mcq-46": "本句的「transparent」指「顯而易見／容易看穿的」。",
+        "transparent-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-46"
     },
@@ -4188,11 +3852,9 @@ export default {
       "masked": "His ____.",
       "options": [
         "transparent-mcq-47",
-        "transparent-mcq-46",
-        "transparent-mcq-48",
-        "transparent-mcq-45",
-        "transparent-mcq-49",
-        "transparent-mcq-44"
+        "transparent-mcq-54",
+        "transparent-mcq-58",
+        "transparent-mcq-33"
       ],
       "explanation": "本句的「motive was transparent」指「一眼看穿的動機」。",
       "sentenceIndex": 90,
@@ -4201,12 +3863,10 @@ export default {
         "motive was transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-47": "本句指「一眼看穿的動機」。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。"
+        "transparent-mcq-47": "本句的「motive was transparent」指「一眼看穿的動機」。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-47"
     },
@@ -4218,11 +3878,9 @@ export default {
       "masked": "The ____ motive behind the proposal made people suspicious.",
       "options": [
         "transparent-mcq-47",
-        "transparent-mcq-46",
-        "transparent-mcq-48",
-        "transparent-mcq-45",
-        "transparent-mcq-49",
-        "transparent-mcq-44"
+        "transparent-mcq-50",
+        "transparent-mcq-11",
+        "transparent-pdf-003"
       ],
       "explanation": "本句的「transparent」指「一眼看穿的動機」。",
       "sentenceIndex": 91,
@@ -4231,12 +3889,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-47": "本句指「一眼看穿的動機」。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。"
+        "transparent-mcq-47": "本句的「transparent」指「一眼看穿的動機」。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-47"
     },
@@ -4248,11 +3904,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "transparent-mcq-48",
-        "transparent-mcq-47",
-        "transparent-mcq-49",
-        "transparent-mcq-46",
-        "transparent-mcq-50",
-        "transparent-mcq-45"
+        "transparent-mcq-22",
+        "transparent-mcq-09",
+        "transparent-pdf-003"
       ],
       "explanation": "本句的「transparent attempt to shift the blame」指「明顯的企圖」。",
       "sentenceIndex": 92,
@@ -4261,12 +3915,10 @@ export default {
         "transparent attempt to shift the blame"
       ],
       "optionReasons": {
-        "transparent-mcq-48": "本句指「明顯的企圖」。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。"
+        "transparent-mcq-48": "本句的「transparent attempt to shift the blame」指「明顯的企圖」。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-48"
     },
@@ -4278,11 +3930,9 @@ export default {
       "masked": "The apology sounded like a ____ attempt at damage control.",
       "options": [
         "transparent-mcq-48",
-        "transparent-mcq-47",
-        "transparent-mcq-49",
-        "transparent-mcq-46",
-        "transparent-mcq-50",
-        "transparent-mcq-45"
+        "transparent-mcq-23",
+        "transparent-pdf-003",
+        "transparent-pdf-002"
       ],
       "explanation": "本句的「transparent」指「明顯的企圖」。",
       "sentenceIndex": 93,
@@ -4291,12 +3941,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-48": "本句指「明顯的企圖」。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。"
+        "transparent-mcq-48": "本句的「transparent」指「明顯的企圖」。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-48"
     },
@@ -4308,11 +3956,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "transparent-mcq-49",
-        "transparent-mcq-48",
-        "transparent-mcq-50",
-        "transparent-mcq-47",
-        "transparent-mcq-51",
-        "transparent-mcq-46"
+        "transparent-mcq-61",
+        "transparent-mcq-23",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent lie」指「一眼看穿的謊言」。",
       "sentenceIndex": 94,
@@ -4321,12 +3967,10 @@ export default {
         "transparent lie"
       ],
       "optionReasons": {
-        "transparent-mcq-49": "本句指「一眼看穿的謊言」。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。"
+        "transparent-mcq-49": "本句的「transparent lie」指「一眼看穿的謊言」。",
+        "transparent-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-49"
     },
@@ -4338,11 +3982,9 @@ export default {
       "masked": "____ lies quickly damage credibility.",
       "options": [
         "transparent-mcq-49",
-        "transparent-mcq-48",
-        "transparent-mcq-50",
-        "transparent-mcq-47",
-        "transparent-mcq-51",
-        "transparent-mcq-46"
+        "transparent-mcq-62",
+        "transparent-mcq-22",
+        "transparent-mcq-45"
       ],
       "explanation": "本句的「Transparent」指「一眼看穿的謊言」。",
       "sentenceIndex": 95,
@@ -4351,12 +3993,10 @@ export default {
         "Transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-49": "本句指「一眼看穿的謊言」。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-46": "「顯而易見／容易看穿的」與本句語境不同。"
+        "transparent-mcq-49": "本句的「Transparent」指「一眼看穿的謊言」。",
+        "transparent-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-49"
     },
@@ -4368,11 +4008,9 @@ export default {
       "masked": "His explanation was a ____.",
       "options": [
         "transparent-mcq-50",
-        "transparent-mcq-49",
-        "transparent-mcq-51",
-        "transparent-mcq-48",
-        "transparent-mcq-52",
-        "transparent-mcq-47"
+        "transparent-mcq-27",
+        "transparent-mcq-34",
+        "transparent-mcq-48"
       ],
       "explanation": "本句的「transparent excuse」指「容易識破的藉口」。",
       "sentenceIndex": 96,
@@ -4381,12 +4019,10 @@ export default {
         "transparent excuse"
       ],
       "optionReasons": {
-        "transparent-mcq-50": "本句指「容易識破的藉口」。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。"
+        "transparent-mcq-50": "本句的「transparent excuse」指「容易識破的藉口」。",
+        "transparent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-50"
     },
@@ -4398,11 +4034,9 @@ export default {
       "masked": "Everyone recognised the excuse as ____.",
       "options": [
         "transparent-mcq-50",
-        "transparent-mcq-49",
         "transparent-mcq-51",
-        "transparent-mcq-48",
-        "transparent-mcq-52",
-        "transparent-mcq-47"
+        "transparent-mcq-09",
+        "transparent-mcq-33"
       ],
       "explanation": "本句的「transparent」指「容易識破的藉口」。",
       "sentenceIndex": 97,
@@ -4411,74 +4045,68 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-50": "本句指「容易識破的藉口」。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。"
+        "transparent-mcq-50": "本句的「transparent」指「容易識破的藉口」。",
+        "transparent-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-50"
     },
     {
       "id": "transparent-58-0",
-      "sense": "transparent-mcq-50",
+      "sense": "transparent-reviewed-66c49eacd0",
       "en": "She is unusually transparent about her feelings.",
       "zh": "她對自己的感受非常坦率、不加掩飾。",
       "masked": "She is unusually ____.",
       "options": [
-        "transparent-mcq-50",
-        "transparent-mcq-49",
-        "transparent-mcq-51",
-        "transparent-mcq-48",
-        "transparent-mcq-52",
-        "transparent-mcq-47"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-55",
+        "transparent-mcq-46",
+        "transparent-mcq-45"
       ],
-      "explanation": "本句的「transparent about her feelings」指「容易識破的藉口」。",
+      "explanation": "對照完整句子：「她對自己的感受非常坦率、不加掩飾。」。這裡的「transparent about her feelings」表示「坦率、不隱藏想法的人」。",
       "sentenceIndex": 98,
       "sourcePractice": 1,
       "targets": [
         "transparent about her feelings"
       ],
       "optionReasons": {
-        "transparent-mcq-50": "本句指「容易識破的藉口」。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。"
+        "transparent-reviewed-66c49eacd0": "對照完整句子：「她對自己的感受非常坦率、不加掩飾。」。這裡的「transparent about her feelings」表示「坦率、不隱藏想法的人」。",
+        "transparent-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "transparent-mcq-50"
+      "correctOption": "transparent-reviewed-66c49eacd0",
+      "previousCorrectOption": "transparent-mcq-50",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "transparent-58-1",
-      "sense": "transparent-mcq-50",
+      "sense": "transparent-reviewed-66c49eacd0",
       "en": "His reactions are so transparent that everyone knows when he disagrees.",
       "zh": "他的反應太容易看懂，所以大家都知道他何時不同意。",
       "masked": "His reactions are so ____ that everyone knows when he disagrees.",
       "options": [
-        "transparent-mcq-50",
-        "transparent-mcq-49",
-        "transparent-mcq-51",
-        "transparent-mcq-48",
-        "transparent-mcq-52",
-        "transparent-mcq-47"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-04",
+        "transparent-mcq-44",
+        "transparent-mcq-46"
       ],
-      "explanation": "本句的「transparent」指「容易識破的藉口」。",
+      "explanation": "對照完整句子：「他的反應太容易看懂，所以大家都知道他何時不同意。」。這裡的「transparent」表示「坦率、不隱藏想法的人」。",
       "sentenceIndex": 99,
       "sourcePractice": 2,
       "targets": [
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-50": "本句指「容易識破的藉口」。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。"
+        "transparent-reviewed-66c49eacd0": "對照完整句子：「他的反應太容易看懂，所以大家都知道他何時不同意。」。這裡的「transparent」表示「坦率、不隱藏想法的人」。",
+        "transparent-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "transparent-mcq-50"
+      "correctOption": "transparent-reviewed-66c49eacd0",
+      "previousCorrectOption": "transparent-mcq-50",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "transparent-60-0",
@@ -4488,11 +4116,9 @@ export default {
       "masked": "The process should be managed ____.",
       "options": [
         "transparent-mcq-51",
-        "transparent-mcq-50",
-        "transparent-mcq-52",
-        "transparent-mcq-49",
-        "transparent-mcq-53",
-        "transparent-mcq-48"
+        "transparent-mcq-43",
+        "transparent-mcq-54",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「transparently」指「公開透明地」。",
       "sentenceIndex": 100,
@@ -4501,12 +4127,10 @@ export default {
         "transparently"
       ],
       "optionReasons": {
-        "transparent-mcq-51": "本句指「公開透明地」。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。"
+        "transparent-mcq-51": "本句的「transparently」指「公開透明地」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-51"
     },
@@ -4518,11 +4142,9 @@ export default {
       "masked": "Management explained the change ____.",
       "options": [
         "transparent-mcq-51",
-        "transparent-mcq-50",
-        "transparent-mcq-52",
-        "transparent-mcq-49",
-        "transparent-mcq-53",
-        "transparent-mcq-48"
+        "transparent-pdf-003",
+        "transparent-mcq-46",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparently」指「公開透明地」。",
       "sentenceIndex": 101,
@@ -4531,74 +4153,68 @@ export default {
         "transparently"
       ],
       "optionReasons": {
-        "transparent-mcq-51": "本句指「公開透明地」。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。"
+        "transparent-mcq-51": "本句的「transparently」指「公開透明地」。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-51"
     },
     {
       "id": "transparent-61-0",
-      "sense": "transparent-mcq-51",
+      "sense": "transparent-reviewed-b0dfc94d71",
       "en": "The claim is transparently false.",
       "zh": "這個說法明顯是錯的。",
       "masked": "The claim is ____.",
       "options": [
-        "transparent-mcq-51",
-        "transparent-mcq-50",
-        "transparent-mcq-52",
-        "transparent-mcq-49",
-        "transparent-mcq-53",
-        "transparent-mcq-48"
+        "transparent-reviewed-b0dfc94d71",
+        "transparent-mcq-22",
+        "transparent-mcq-33",
+        "transparent-mcq-54"
       ],
-      "explanation": "本句的「transparently false」指「公開透明地」。",
+      "explanation": "對照完整句子：「這個說法明顯是錯的。」。這裡的「transparently false」表示「明顯到很容易看穿或判斷」。",
       "sentenceIndex": 102,
       "sourcePractice": 1,
       "targets": [
         "transparently false"
       ],
       "optionReasons": {
-        "transparent-mcq-51": "本句指「公開透明地」。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。"
+        "transparent-reviewed-b0dfc94d71": "對照完整句子：「這個說法明顯是錯的。」。這裡的「transparently false」表示「明顯到很容易看穿或判斷」。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "transparent-mcq-51"
+      "correctOption": "transparent-reviewed-b0dfc94d71",
+      "previousCorrectOption": "transparent-mcq-51",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "transparent-61-1",
-      "sense": "transparent-mcq-51",
+      "sense": "transparent-reviewed-b0dfc94d71",
       "en": "His explanation was transparently self-serving.",
       "zh": "他的解釋顯然是在為自己利益辯護。",
       "masked": "His explanation was ____ self-serving.",
       "options": [
-        "transparent-mcq-51",
-        "transparent-mcq-50",
-        "transparent-mcq-52",
-        "transparent-mcq-49",
-        "transparent-mcq-53",
-        "transparent-mcq-48"
+        "transparent-reviewed-b0dfc94d71",
+        "transparent-mcq-21",
+        "transparent-mcq-54",
+        "transparent-mcq-05"
       ],
-      "explanation": "本句的「transparently」指「公開透明地」。",
+      "explanation": "對照完整句子：「他的解釋顯然是在為自己利益辯護。」。這裡的「transparently」表示「明顯到很容易看穿或判斷」。",
       "sentenceIndex": 103,
       "sourcePractice": 2,
       "targets": [
         "transparently"
       ],
       "optionReasons": {
-        "transparent-mcq-51": "本句指「公開透明地」。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-49": "「一眼看穿的謊言」與本句語境不同。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。"
+        "transparent-reviewed-b0dfc94d71": "對照完整句子：「他的解釋顯然是在為自己利益辯護。」。這裡的「transparently」表示「明顯到很容易看穿或判斷」。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "transparent-mcq-51"
+      "correctOption": "transparent-reviewed-b0dfc94d71",
+      "previousCorrectOption": "transparent-mcq-51",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "transparent-62-0",
@@ -4608,11 +4224,9 @@ export default {
       "masked": "The motive was ____.",
       "options": [
         "transparent-mcq-46",
-        "transparent-mcq-45",
-        "transparent-mcq-47",
-        "transparent-mcq-44",
-        "transparent-mcq-48",
-        "transparent-mcq-43"
+        "transparent-mcq-17",
+        "transparent-reviewed-66c49eacd0",
+        "transparent-pdf-003"
       ],
       "explanation": "本句的「transparently obvious」指「顯而易見／容易看穿的」。",
       "sentenceIndex": 104,
@@ -4621,12 +4235,10 @@ export default {
         "transparently obvious"
       ],
       "optionReasons": {
-        "transparent-mcq-46": "本句指「顯而易見／容易看穿的」。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。"
+        "transparent-mcq-46": "本句的「transparently obvious」指「顯而易見／容易看穿的」。",
+        "transparent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-46"
     },
@@ -4638,11 +4250,9 @@ export default {
       "masked": "The contradiction became ____ obvious.",
       "options": [
         "transparent-mcq-46",
-        "transparent-mcq-45",
-        "transparent-mcq-47",
-        "transparent-mcq-44",
-        "transparent-mcq-48",
-        "transparent-mcq-43"
+        "transparent-mcq-36",
+        "transparent-mcq-21",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「transparently」指「顯而易見／容易看穿的」。",
       "sentenceIndex": 105,
@@ -4651,12 +4261,10 @@ export default {
         "transparently"
       ],
       "optionReasons": {
-        "transparent-mcq-46": "本句指「顯而易見／容易看穿的」。",
-        "transparent-mcq-45": "「清晰易讀的文筆」與本句語境不同。",
-        "transparent-mcq-47": "「一眼看穿的動機」與本句語境不同。",
-        "transparent-mcq-44": "「清楚易明的語言」與本句語境不同。",
-        "transparent-mcq-48": "「明顯的企圖」與本句語境不同。",
-        "transparent-mcq-43": "「清晰易懂的解釋」與本句語境不同。"
+        "transparent-mcq-46": "本句的「transparently」指「顯而易見／容易看穿的」。",
+        "transparent-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-46"
     },
@@ -4668,11 +4276,9 @@ export default {
       "masked": "The synchronization process is ____.",
       "options": [
         "transparent-mcq-53",
-        "transparent-mcq-52",
-        "transparent-mcq-54",
-        "transparent-mcq-51",
-        "transparent-mcq-55",
-        "transparent-mcq-50"
+        "transparent-mcq-46",
+        "transparent-mcq-23",
+        "transparent-pdf-003"
       ],
       "explanation": "本句的「transparent to the user」指「對使用者透明／無感」。",
       "sentenceIndex": 106,
@@ -4681,12 +4287,10 @@ export default {
         "transparent to the user"
       ],
       "optionReasons": {
-        "transparent-mcq-53": "本句指「對使用者透明／無感」。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-54": "「無感運作」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。"
+        "transparent-mcq-53": "本句的「transparent to the user」指「對使用者透明／無感」。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-53"
     },
@@ -4698,11 +4302,9 @@ export default {
       "masked": "The change should be completely ____ to customers.",
       "options": [
         "transparent-mcq-53",
-        "transparent-mcq-52",
-        "transparent-mcq-54",
-        "transparent-mcq-51",
-        "transparent-mcq-55",
-        "transparent-mcq-50"
+        "transparent-pdf-002",
+        "transparent-mcq-49",
+        "transparent-mcq-45"
       ],
       "explanation": "本句的「transparent」指「對使用者透明／無感」。",
       "sentenceIndex": 107,
@@ -4711,12 +4313,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-53": "本句指「對使用者透明／無感」。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-54": "「無感運作」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-50": "「容易識破的藉口」與本句語境不同。"
+        "transparent-mcq-53": "本句的「transparent」指「對使用者透明／無感」。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-53"
     },
@@ -4728,11 +4328,9 @@ export default {
       "masked": "Data backup happens as a ____.",
       "options": [
         "transparent-mcq-54",
-        "transparent-mcq-53",
-        "transparent-mcq-55",
-        "transparent-mcq-52",
-        "transparent-mcq-56",
-        "transparent-mcq-51"
+        "transparent-mcq-11",
+        "transparent-mcq-09",
+        "transparent-mcq-22"
       ],
       "explanation": "本句的「transparent operation」指「無感運作」。",
       "sentenceIndex": 108,
@@ -4741,12 +4339,10 @@ export default {
         "transparent operation"
       ],
       "optionReasons": {
-        "transparent-mcq-54": "本句指「無感運作」。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。"
+        "transparent-mcq-54": "本句的「transparent operation」指「無感運作」。",
+        "transparent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-54"
     },
@@ -4758,11 +4354,9 @@ export default {
       "masked": "The technical complexity remains ____ to the user.",
       "options": [
         "transparent-mcq-54",
-        "transparent-mcq-53",
-        "transparent-mcq-55",
-        "transparent-mcq-52",
-        "transparent-mcq-56",
-        "transparent-mcq-51"
+        "transparent-mcq-16",
+        "transparent-mcq-22",
+        "transparent-pdf-002"
       ],
       "explanation": "本句的「transparent」指「無感運作」。",
       "sentenceIndex": 109,
@@ -4771,12 +4365,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-54": "本句指「無感運作」。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。",
-        "transparent-mcq-51": "「公開透明地」與本句語境不同。"
+        "transparent-mcq-54": "本句的「transparent」指「無感運作」。",
+        "transparent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-54"
     },
@@ -4788,11 +4380,9 @@ export default {
       "masked": "The system aims to provide ____.",
       "options": [
         "transparent-mcq-55",
-        "transparent-mcq-54",
-        "transparent-mcq-56",
-        "transparent-mcq-53",
-        "transparent-mcq-57",
-        "transparent-mcq-52"
+        "transparent-mcq-50",
+        "transparent-mcq-49",
+        "transparent-mcq-22"
       ],
       "explanation": "本句的「network transparency」指「網絡透明性」。",
       "sentenceIndex": 110,
@@ -4801,12 +4391,10 @@ export default {
         "network transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-55": "本句指「網絡透明性」。",
-        "transparent-mcq-54": "「無感運作」與本句語境不同。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。",
-        "transparent-mcq-57": "「透明代理」與本句語境不同。",
-        "transparent-mcq-52": "「明顯錯誤的」與本句語境不同。"
+        "transparent-mcq-55": "本句的「network transparency」指「網絡透明性」。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-55"
     },
@@ -4818,11 +4406,9 @@ export default {
       "masked": "____ hides the physical location of a resource.",
       "options": [
         "transparent-mcq-56",
-        "transparent-mcq-55",
-        "transparent-mcq-57",
-        "transparent-mcq-54",
-        "transparent-mcq-58",
-        "transparent-mcq-53"
+        "transparent-pdf-001",
+        "transparent-mcq-50",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「Location transparency」指「位置透明性」。",
       "sentenceIndex": 111,
@@ -4831,12 +4417,10 @@ export default {
         "Location transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-56": "本句指「位置透明性」。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-57": "「透明代理」與本句語境不同。",
-        "transparent-mcq-54": "「無感運作」與本句語境不同。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。",
-        "transparent-mcq-53": "「對使用者透明／無感」與本句語境不同。"
+        "transparent-mcq-56": "本句的「Location transparency」指「位置透明性」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-56"
     },
@@ -4848,11 +4432,9 @@ export default {
       "masked": "Traffic passes through a ____.",
       "options": [
         "transparent-mcq-57",
-        "transparent-mcq-56",
-        "transparent-mcq-58",
-        "transparent-mcq-55",
-        "transparent-mcq-59",
-        "transparent-mcq-54"
+        "transparent-mcq-43",
+        "transparent-mcq-09",
+        "transparent-mcq-24"
       ],
       "explanation": "本句的「transparent proxy」指「透明代理」。",
       "sentenceIndex": 112,
@@ -4861,12 +4443,10 @@ export default {
         "transparent proxy"
       ],
       "optionReasons": {
-        "transparent-mcq-57": "本句指「透明代理」。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-59": "「參照透明性」與本句語境不同。",
-        "transparent-mcq-54": "「無感運作」與本句語境不同。"
+        "transparent-mcq-57": "本句的「transparent proxy」指「透明代理」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-57"
     },
@@ -4878,11 +4458,9 @@ export default {
       "masked": "A ____ proxy can operate without requiring the client to configure a conventional proxy manually.",
       "options": [
         "transparent-mcq-57",
-        "transparent-mcq-56",
-        "transparent-mcq-58",
-        "transparent-mcq-55",
-        "transparent-mcq-59",
-        "transparent-mcq-54"
+        "transparent-mcq-09",
+        "transparent-mcq-22",
+        "transparent-mcq-34"
       ],
       "explanation": "本句的「transparent」指「透明代理」。",
       "sentenceIndex": 113,
@@ -4891,12 +4469,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-57": "本句指「透明代理」。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。",
-        "transparent-mcq-59": "「參照透明性」與本句語境不同。",
-        "transparent-mcq-54": "「無感運作」與本句語境不同。"
+        "transparent-mcq-57": "本句的「transparent」指「透明代理」。",
+        "transparent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-57"
     },
@@ -4908,11 +4484,9 @@ export default {
       "masked": "The system uses ____.",
       "options": [
         "transparent-mcq-58",
-        "transparent-mcq-57",
-        "transparent-mcq-59",
-        "transparent-mcq-56",
-        "transparent-mcq-60",
-        "transparent-mcq-55"
+        "transparent-reviewed-66c49eacd0",
+        "transparent-mcq-43",
+        "transparent-mcq-22"
       ],
       "explanation": "本句的「transparent encryption」指「透明加密」。",
       "sentenceIndex": 114,
@@ -4921,12 +4495,10 @@ export default {
         "transparent encryption"
       ],
       "optionReasons": {
-        "transparent-mcq-58": "本句指「透明加密」。",
-        "transparent-mcq-57": "「透明代理」與本句語境不同。",
-        "transparent-mcq-59": "「參照透明性」與本句語境不同。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。",
-        "transparent-mcq-60": "「數據透明度」與本句語境不同。",
-        "transparent-mcq-55": "「網絡透明性」與本句語境不同。"
+        "transparent-mcq-58": "本句的「transparent encryption」指「透明加密」。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-58"
     },
@@ -4938,11 +4510,9 @@ export default {
       "masked": "Pure functions help support ____.",
       "options": [
         "transparent-mcq-59",
-        "transparent-mcq-58",
-        "transparent-mcq-60",
-        "transparent-mcq-57",
-        "transparent-mcq-61",
-        "transparent-mcq-56"
+        "transparent-mcq-45",
+        "transparent-mcq-22",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「referential transparency」指「參照透明性」。",
       "sentenceIndex": 115,
@@ -4951,12 +4521,10 @@ export default {
         "referential transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-59": "本句指「參照透明性」。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。",
-        "transparent-mcq-60": "「數據透明度」與本句語境不同。",
-        "transparent-mcq-57": "「透明代理」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。"
+        "transparent-mcq-59": "本句的「referential transparency」指「參照透明性」。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-59"
     },
@@ -4968,11 +4536,9 @@ export default {
       "masked": "In a referentially ____ expression, replacing the expression with its value does not change the program's observable behaviour.",
       "options": [
         "transparent-mcq-59",
-        "transparent-mcq-58",
-        "transparent-mcq-60",
-        "transparent-mcq-57",
-        "transparent-mcq-61",
-        "transparent-mcq-56"
+        "transparent-mcq-46",
+        "transparent-mcq-21",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent」指「參照透明性」。",
       "sentenceIndex": 116,
@@ -4981,12 +4547,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-59": "本句指「參照透明性」。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。",
-        "transparent-mcq-60": "「數據透明度」與本句語境不同。",
-        "transparent-mcq-57": "「透明代理」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。",
-        "transparent-mcq-56": "「位置透明性」與本句語境不同。"
+        "transparent-mcq-59": "本句的「transparent」指「參照透明性」。",
+        "transparent-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-59"
     },
@@ -4998,11 +4562,9 @@ export default {
       "masked": "Better documentation improves ____.",
       "options": [
         "transparent-mcq-60",
-        "transparent-mcq-59",
-        "transparent-mcq-61",
-        "transparent-mcq-58",
-        "transparent-mcq-62",
-        "transparent-mcq-57"
+        "transparent-mcq-21",
+        "transparent-mcq-49",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「data transparency」指「數據透明度」。",
       "sentenceIndex": 117,
@@ -5011,12 +4573,10 @@ export default {
         "data transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-60": "本句指「數據透明度」。",
-        "transparent-mcq-59": "「參照透明性」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-57": "「透明代理」與本句語境不同。"
+        "transparent-mcq-60": "本句的「data transparency」指「數據透明度」。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-60"
     },
@@ -5028,11 +4588,9 @@ export default {
       "masked": "The organisation is studying ways to improve ____.",
       "options": [
         "transparent-mcq-62",
-        "transparent-mcq-61",
-        "transparent-mcq-63",
-        "transparent-mcq-60",
-        "transparent-mcq-64",
-        "transparent-mcq-59"
+        "transparent-mcq-21",
+        "transparent-mcq-54",
+        "transparent-mcq-47"
       ],
       "explanation": "本句的「algorithmic transparency」指「演算法透明度」。",
       "sentenceIndex": 118,
@@ -5041,12 +4599,10 @@ export default {
         "algorithmic transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-62": "本句指「演算法透明度」。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-60": "「數據透明度」與本句語境不同。",
-        "transparent-mcq-64": "「不透明的；晦澀的」與本句語境不同。",
-        "transparent-mcq-59": "「參照透明性」與本句語境不同。"
+        "transparent-mcq-62": "本句的「algorithmic transparency」指「演算法透明度」。",
+        "transparent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-62"
     },
@@ -5058,11 +4614,9 @@ export default {
       "masked": "Simpler models may offer greater ____.",
       "options": [
         "transparent-mcq-61",
-        "transparent-mcq-60",
-        "transparent-mcq-62",
-        "transparent-mcq-59",
-        "transparent-mcq-63",
-        "transparent-mcq-58"
+        "transparent-mcq-22",
+        "transparent-mcq-47",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「model transparency」指「模型透明度」。",
       "sentenceIndex": 119,
@@ -5071,12 +4625,10 @@ export default {
         "model transparency"
       ],
       "optionReasons": {
-        "transparent-mcq-61": "本句指「模型透明度」。",
-        "transparent-mcq-60": "「數據透明度」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-59": "「參照透明性」與本句語境不同。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-58": "「透明加密」與本句語境不同。"
+        "transparent-mcq-61": "本句的「model transparency」指「模型透明度」。",
+        "transparent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-61"
     },
@@ -5088,11 +4640,9 @@ export default {
       "masked": "The archive contains hundreds of photographic ____.",
       "options": [
         "transparent-pdf-004",
-        "transparent-mcq-62",
-        "transparent-mcq-64",
-        "transparent-mcq-61",
-        "transparent-mcq-65",
-        "transparent-mcq-60"
+        "transparent-mcq-24",
+        "transparent-pdf-003",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparencies」指「印在透明底片上的正像照片，可透光觀看或投影」。",
       "sentenceIndex": 120,
@@ -5101,12 +4651,10 @@ export default {
         "transparencies"
       ],
       "optionReasons": {
-        "transparent-pdf-004": "本句指「印在透明底片上的正像照片，可透光觀看或投影」。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-64": "「不透明的；晦澀的」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。",
-        "transparent-mcq-65": "「不透明度」與本句語境不同。",
-        "transparent-mcq-60": "「數據透明度」與本句語境不同。"
+        "transparent-pdf-004": "本句的「transparencies」指「印在透明底片上的正像照片，可透光觀看或投影」。",
+        "transparent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-pdf-004"
     },
@@ -5118,11 +4666,9 @@ export default {
       "masked": "Add a ____ over the photograph.",
       "options": [
         "transparent-mcq-13",
-        "transparent-mcq-12",
-        "transparent-mcq-14",
-        "transparent-mcq-11",
-        "transparent-mcq-15",
-        "transparent-mcq-10"
+        "transparent-pdf-002",
+        "transparent-mcq-49",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「transparent layer」指「透明圖層」。",
       "sentenceIndex": 121,
@@ -5131,12 +4677,10 @@ export default {
         "transparent layer"
       ],
       "optionReasons": {
-        "transparent-mcq-13": "本句指「透明圖層」。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。"
+        "transparent-mcq-13": "本句的「transparent layer」指「透明圖層」。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-13"
     },
@@ -5148,11 +4692,9 @@ export default {
       "masked": "The ____ layer allows the original image to remain visible.",
       "options": [
         "transparent-mcq-13",
-        "transparent-mcq-12",
-        "transparent-mcq-14",
-        "transparent-mcq-11",
-        "transparent-mcq-15",
-        "transparent-mcq-10"
+        "transparent-mcq-43",
+        "transparent-pdf-002",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「transparent」指「透明圖層」。",
       "sentenceIndex": 122,
@@ -5161,12 +4703,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-13": "本句指「透明圖層」。",
-        "transparent-mcq-12": "「透明背景 PNG」與本句語境不同。",
-        "transparent-mcq-14": "「透明度設定」與本句語境不同。",
-        "transparent-mcq-11": "「透明背景」與本句語境不同。",
-        "transparent-mcq-15": "「公開透明的」與本句語境不同。",
-        "transparent-mcq-10": "「可讓紅外線穿過」與本句語境不同。"
+        "transparent-mcq-13": "本句的「transparent」指「透明圖層」。",
+        "transparent-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "transparent-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-13"
     },
@@ -5178,11 +4718,9 @@ export default {
       "masked": "The selection process was criticised as ____.",
       "options": [
         "transparent-mcq-66",
-        "transparent-mcq-65",
-        "transparent-mcq-64",
-        "transparent-mcq-63",
-        "transparent-mcq-62",
-        "transparent-mcq-61"
+        "transparent-pdf-001",
+        "transparent-mcq-23",
+        "transparent-reviewed-66c49eacd0"
       ],
       "explanation": "本句的「non-transparent」指「不透明／缺乏透明度的」。",
       "sentenceIndex": 125,
@@ -5191,12 +4729,10 @@ export default {
         "non-transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-66": "本句指「不透明／缺乏透明度的」。",
-        "transparent-mcq-65": "「不透明度」與本句語境不同。",
-        "transparent-mcq-64": "「不透明的；晦澀的」與本句語境不同。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。"
+        "transparent-mcq-66": "本句的「non-transparent」指「不透明／缺乏透明度的」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-reviewed-66c49eacd0": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-66"
     },
@@ -5208,11 +4744,9 @@ export default {
       "masked": "Non-____ pricing makes comparison difficult.",
       "options": [
         "transparent-mcq-66",
-        "transparent-mcq-65",
-        "transparent-mcq-64",
-        "transparent-mcq-63",
-        "transparent-mcq-62",
-        "transparent-mcq-61"
+        "transparent-mcq-49",
+        "transparent-mcq-45",
+        "transparent-mcq-23"
       ],
       "explanation": "本句的「transparent」指「不透明／缺乏透明度的」。",
       "sentenceIndex": 126,
@@ -5221,12 +4755,10 @@ export default {
         "transparent"
       ],
       "optionReasons": {
-        "transparent-mcq-66": "本句指「不透明／缺乏透明度的」。",
-        "transparent-mcq-65": "「不透明度」與本句語境不同。",
-        "transparent-mcq-64": "「不透明的；晦澀的」與本句語境不同。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。"
+        "transparent-mcq-66": "本句的「transparent」指「不透明／缺乏透明度的」。",
+        "transparent-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-66"
     },
@@ -5238,11 +4770,9 @@ export default {
       "masked": "Metal is generally ____ to visible light.",
       "options": [
         "transparent-mcq-64",
-        "transparent-mcq-63",
-        "transparent-mcq-65",
-        "transparent-mcq-62",
-        "transparent-mcq-66",
-        "transparent-mcq-61"
+        "transparent-pdf-001",
+        "transparent-mcq-23",
+        "transparent-mcq-50"
       ],
       "explanation": "本句的「opaque」指「不透明的；晦澀的」。",
       "sentenceIndex": 127,
@@ -5251,12 +4781,10 @@ export default {
         "opaque"
       ],
       "optionReasons": {
-        "transparent-mcq-64": "本句指「不透明的；晦澀的」。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-65": "「不透明度」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-66": "「不透明／缺乏透明度的」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。"
+        "transparent-mcq-64": "本句的「opaque」指「不透明的；晦澀的」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-64"
     },
@@ -5268,11 +4796,9 @@ export default {
       "masked": "The instructions are unnecessarily ____.",
       "options": [
         "transparent-mcq-64",
-        "transparent-mcq-63",
-        "transparent-mcq-65",
-        "transparent-mcq-62",
-        "transparent-mcq-66",
-        "transparent-mcq-61"
+        "transparent-pdf-003",
+        "transparent-mcq-47",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「opaque」指「不透明的；晦澀的」。",
       "sentenceIndex": 128,
@@ -5281,12 +4807,10 @@ export default {
         "opaque"
       ],
       "optionReasons": {
-        "transparent-mcq-64": "本句指「不透明的；晦澀的」。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-65": "「不透明度」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-66": "「不透明／缺乏透明度的」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。"
+        "transparent-mcq-64": "本句的「opaque」指「不透明的；晦澀的」。",
+        "transparent-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-64"
     },
@@ -5298,11 +4822,9 @@ export default {
       "masked": "Employees were frustrated by the ____.",
       "options": [
         "transparent-mcq-66",
-        "transparent-mcq-65",
-        "transparent-mcq-64",
-        "transparent-mcq-63",
-        "transparent-mcq-62",
-        "transparent-mcq-61"
+        "transparent-pdf-001",
+        "transparent-mcq-50",
+        "transparent-mcq-54"
       ],
       "explanation": "本句的「opaque promotion process」指「不透明／缺乏透明度的」。",
       "sentenceIndex": 129,
@@ -5311,12 +4833,10 @@ export default {
         "opaque promotion process"
       ],
       "optionReasons": {
-        "transparent-mcq-66": "本句指「不透明／缺乏透明度的」。",
-        "transparent-mcq-65": "「不透明度」與本句語境不同。",
-        "transparent-mcq-64": "「不透明的；晦澀的」與本句語境不同。",
-        "transparent-mcq-63": "「透明正片／幻燈片」與本句語境不同。",
-        "transparent-mcq-62": "「演算法透明度」與本句語境不同。",
-        "transparent-mcq-61": "「模型透明度」與本句語境不同。"
+        "transparent-mcq-66": "本句的「opaque promotion process」指「不透明／缺乏透明度的」。",
+        "transparent-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "transparent-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "transparent-mcq-66"
     }
@@ -5328,5 +4848,7 @@ export default {
     "sha256": "4e00829c661bdf0b63f90d6536b90d15c4658150798af32fe80bef24a22566ee",
     "pages": 56
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

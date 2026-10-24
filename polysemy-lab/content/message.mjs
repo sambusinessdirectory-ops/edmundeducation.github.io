@@ -423,16 +423,6 @@ export default {
           "The king sent a messenger with the news.",
           "國王派出一名傳令者送出消息。",
           "信使；傳訊者"
-        ],
-        [
-          "They spoke through an online messenger.",
-          "他們透過網上通訊程式聊天。",
-          "信使；傳訊者"
-        ],
-        [
-          "The messenger supports voice calls and file sharing.",
-          "這個通訊工具支援語音通話和檔案分享。",
-          "信使；傳訊者"
         ]
       ],
       "options": [],
@@ -524,6 +514,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "message-reviewed-690cd07675",
+      "title": "用來傳送即時訊息的數碼通訊程式或服務",
+      "form": "message · source section 22",
+      "en": "用來傳送即時訊息的數碼通訊程式或服務",
+      "zh": "用來傳送即時訊息的數碼通訊程式或服務",
+      "note": "對照原始教材第 22 節及例句核實。",
+      "examples": [
+        [
+          "They spoke through an online messenger.",
+          "他們透過網上通訊程式聊天。",
+          "用來傳送即時訊息的數碼通訊程式或服務"
+        ],
+        [
+          "The messenger supports voice calls and file sharing.",
+          "這個通訊工具支援語音通話和檔案分享。",
+          "用來傳送即時訊息的數碼通訊程式或服務"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -535,11 +547,9 @@ export default {
       "masked": "I got a ____ from my friend.",
       "options": [
         "message-mcq-01",
-        "message-mcq-02",
-        "message-mcq-03",
-        "message-mcq-04",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-mcq-08",
+        "message-mcq-15",
+        "message-mcq-12"
       ],
       "explanation": "本句的「message」指「訊息；消息」。",
       "sentenceIndex": 0,
@@ -548,12 +558,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-mcq-01": "本句指「訊息；消息」。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-01": "本句的「message」指「訊息；消息」。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-01"
     },
@@ -565,11 +573,9 @@ export default {
       "masked": "Please send me a ____ when you arrive.",
       "options": [
         "message-mcq-01",
-        "message-mcq-02",
-        "message-mcq-03",
-        "message-mcq-04",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-mcq-15",
+        "message-mcq-18",
+        "message-mcq-12"
       ],
       "explanation": "本句的「message」指「訊息；消息」。",
       "sentenceIndex": 1,
@@ -578,12 +584,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-mcq-01": "本句指「訊息；消息」。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-01": "本句的「message」指「訊息；消息」。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-01"
     },
@@ -595,11 +599,9 @@ export default {
       "masked": "The ____ said the meeting had been cancelled.",
       "options": [
         "message-mcq-01",
-        "message-mcq-02",
-        "message-mcq-03",
-        "message-mcq-04",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-mcq-12",
+        "message-mcq-15",
+        "message-mcq-22"
       ],
       "explanation": "本句的「message」指「訊息；消息」。",
       "sentenceIndex": 2,
@@ -608,12 +610,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-mcq-01": "本句指「訊息；消息」。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-01": "本句的「message」指「訊息；消息」。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-01"
     },
@@ -625,11 +625,9 @@ export default {
       "masked": "I wrote a short ____ beside each photo.",
       "options": [
         "message-mcq-02",
-        "message-mcq-01",
-        "message-mcq-03",
-        "message-mcq-04",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-reviewed-690cd07675",
+        "message-mcq-16",
+        "message-mcq-22"
       ],
       "explanation": "本句的「message」指「私人／心意留言」。",
       "sentenceIndex": 3,
@@ -638,12 +636,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-mcq-02": "本句指「私人／心意留言」。",
-        "message-mcq-01": "「訊息；消息」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-02": "本句的「message」指「私人／心意留言」。",
+        "message-reviewed-690cd07675": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-02"
     },
@@ -655,11 +651,9 @@ export default {
       "masked": "She added a ____ to the card.",
       "options": [
         "message-mcq-02",
-        "message-mcq-01",
-        "message-mcq-03",
-        "message-mcq-04",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-mcq-13",
+        "message-mcq-11",
+        "message-mcq-16"
       ],
       "explanation": "本句的「personal message」指「私人／心意留言」。",
       "sentenceIndex": 4,
@@ -668,12 +662,10 @@ export default {
         "personal message"
       ],
       "optionReasons": {
-        "message-mcq-02": "本句指「私人／心意留言」。",
-        "message-mcq-01": "「訊息；消息」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-02": "本句的「personal message」指「私人／心意留言」。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-02"
     },
@@ -685,11 +677,9 @@ export default {
       "masked": "She ____ inside the album.",
       "options": [
         "message-mcq-03",
-        "message-mcq-02",
-        "message-mcq-04",
-        "message-mcq-01",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-pdf-001",
+        "message-mcq-22",
+        "message-mcq-21"
       ],
       "explanation": "本句的「wrote a message」指「寫留言／訊息」。",
       "sentenceIndex": 5,
@@ -698,12 +688,10 @@ export default {
         "wrote a message"
       ],
       "optionReasons": {
-        "message-mcq-03": "本句指「寫留言／訊息」。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-01": "「訊息；消息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-03": "本句的「wrote a message」指「寫留言／訊息」。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-03"
     },
@@ -715,11 +703,9 @@ export default {
       "masked": "I ____ to say thank you.",
       "options": [
         "message-mcq-03",
-        "message-mcq-02",
-        "message-mcq-04",
-        "message-mcq-01",
-        "message-mcq-05",
-        "message-mcq-06"
+        "message-pdf-001",
+        "message-mcq-22",
+        "message-mcq-10"
       ],
       "explanation": "本句的「wrote him a message」指「寫留言／訊息」。",
       "sentenceIndex": 6,
@@ -728,12 +714,10 @@ export default {
         "wrote him a message"
       ],
       "optionReasons": {
-        "message-mcq-03": "本句指「寫留言／訊息」。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-01": "「訊息；消息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-03": "本句的「wrote him a message」指「寫留言／訊息」。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-03"
     },
@@ -745,11 +729,9 @@ export default {
       "masked": "I'll ____ later.",
       "options": [
         "message-mcq-04",
-        "message-mcq-03",
-        "message-mcq-05",
-        "message-mcq-02",
-        "message-mcq-06",
-        "message-mcq-01"
+        "message-mcq-08",
+        "message-mcq-12",
+        "message-mcq-15"
       ],
       "explanation": "本句的「send you a message」指「傳訊息」。",
       "sentenceIndex": 7,
@@ -758,12 +740,10 @@ export default {
         "send you a message"
       ],
       "optionReasons": {
-        "message-mcq-04": "本句指「傳訊息」。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-01": "「訊息；消息」與本句語境不同。"
+        "message-mcq-04": "本句的「send you a message」指「傳訊息」。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-04"
     },
@@ -775,11 +755,9 @@ export default {
       "masked": "She ____ to the group.",
       "options": [
         "message-mcq-04",
-        "message-mcq-03",
         "message-mcq-05",
-        "message-mcq-02",
-        "message-mcq-06",
-        "message-mcq-01"
+        "message-mcq-12",
+        "message-mcq-16"
       ],
       "explanation": "本句的「sent a message」指「傳訊息」。",
       "sentenceIndex": 8,
@@ -788,12 +766,10 @@ export default {
         "sent a message"
       ],
       "optionReasons": {
-        "message-mcq-04": "本句指「傳訊息」。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-01": "「訊息；消息」與本句語境不同。"
+        "message-mcq-04": "本句的「sent a message」指「傳訊息」。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-04"
     },
@@ -805,11 +781,9 @@ export default {
       "masked": "She wasn't available, so I ____.",
       "options": [
         "message-mcq-05",
-        "message-mcq-04",
-        "message-mcq-06",
-        "message-mcq-03",
-        "message-mcq-07",
-        "message-mcq-02"
+        "message-mcq-19",
+        "message-pdf-001",
+        "message-mcq-13"
       ],
       "explanation": "本句的「left a message」指「留言」。",
       "sentenceIndex": 9,
@@ -818,12 +792,10 @@ export default {
         "left a message"
       ],
       "optionReasons": {
-        "message-mcq-05": "本句指「留言」。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。"
+        "message-mcq-05": "本句的「left a message」指「留言」。",
+        "message-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-05"
     },
@@ -835,11 +807,9 @@ export default {
       "masked": "Please ____ after the tone.",
       "options": [
         "message-mcq-05",
-        "message-mcq-04",
-        "message-mcq-06",
-        "message-mcq-03",
         "message-mcq-07",
-        "message-mcq-02"
+        "message-mcq-15",
+        "message-mcq-22"
       ],
       "explanation": "本句的「leave a message」指「留言」。",
       "sentenceIndex": 10,
@@ -848,12 +818,10 @@ export default {
         "leave a message"
       ],
       "optionReasons": {
-        "message-mcq-05": "本句指「留言」。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-02": "「私人／心意留言」與本句語境不同。"
+        "message-mcq-05": "本句的「leave a message」指「留言」。",
+        "message-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-05"
     },
@@ -865,11 +833,9 @@ export default {
       "masked": "Did you ____?",
       "options": [
         "message-mcq-06",
-        "message-mcq-05",
-        "message-mcq-07",
-        "message-mcq-04",
-        "message-mcq-08",
-        "message-mcq-03"
+        "message-mcq-18",
+        "message-mcq-12",
+        "message-mcq-16"
       ],
       "explanation": "本句的「get my message」指「收到訊息」。",
       "sentenceIndex": 11,
@@ -878,12 +844,10 @@ export default {
         "get my message"
       ],
       "optionReasons": {
-        "message-mcq-06": "本句指「收到訊息」。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。"
+        "message-mcq-06": "本句的「get my message」指「收到訊息」。",
+        "message-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-06"
     },
@@ -895,11 +859,9 @@ export default {
       "masked": "I ____ from the school.",
       "options": [
         "message-mcq-06",
-        "message-mcq-05",
-        "message-mcq-07",
-        "message-mcq-04",
+        "message-pdf-001",
         "message-mcq-08",
-        "message-mcq-03"
+        "message-mcq-22"
       ],
       "explanation": "本句的「received a message」指「收到訊息」。",
       "sentenceIndex": 12,
@@ -908,12 +870,10 @@ export default {
         "received a message"
       ],
       "optionReasons": {
-        "message-mcq-06": "本句指「收到訊息」。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-03": "「寫留言／訊息」與本句語境不同。"
+        "message-mcq-06": "本句的「received a message」指「收到訊息」。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-06"
     },
@@ -925,11 +885,9 @@ export default {
       "masked": "She sent me a ____.",
       "options": [
         "message-mcq-07",
-        "message-mcq-06",
         "message-mcq-08",
-        "message-mcq-05",
-        "message-mcq-09",
-        "message-mcq-04"
+        "message-mcq-12",
+        "message-mcq-15"
       ],
       "explanation": "本句的「text message」指「短訊」。",
       "sentenceIndex": 13,
@@ -938,12 +896,10 @@ export default {
         "text message"
       ],
       "optionReasons": {
-        "message-mcq-07": "本句指「短訊」。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。"
+        "message-mcq-07": "本句的「text message」指「短訊」。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-07"
     },
@@ -955,11 +911,9 @@ export default {
       "masked": "I received three ____ this morning.",
       "options": [
         "message-mcq-07",
-        "message-mcq-06",
-        "message-mcq-08",
         "message-mcq-05",
-        "message-mcq-09",
-        "message-mcq-04"
+        "message-mcq-22",
+        "message-mcq-15"
       ],
       "explanation": "本句的「text messages」指「短訊」。",
       "sentenceIndex": 14,
@@ -968,12 +922,10 @@ export default {
         "text messages"
       ],
       "optionReasons": {
-        "message-mcq-07": "本句指「短訊」。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-04": "「傳訊息」與本句語境不同。"
+        "message-mcq-07": "本句的「text messages」指「短訊」。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-07"
     },
@@ -985,11 +937,9 @@ export default {
       "masked": "He left me a ____.",
       "options": [
         "message-mcq-08",
-        "message-mcq-07",
-        "message-mcq-09",
-        "message-mcq-06",
-        "message-mcq-10",
-        "message-mcq-05"
+        "message-mcq-01",
+        "message-mcq-22",
+        "message-mcq-12"
       ],
       "explanation": "本句的「voice message」指「語音留言」。",
       "sentenceIndex": 15,
@@ -998,12 +948,10 @@ export default {
         "voice message"
       ],
       "optionReasons": {
-        "message-mcq-08": "本句指「語音留言」。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。"
+        "message-mcq-08": "本句的「voice message」指「語音留言」。",
+        "message-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-08"
     },
@@ -1015,11 +963,9 @@ export default {
       "masked": "I listened to her ____ twice.",
       "options": [
         "message-mcq-08",
-        "message-mcq-07",
         "message-mcq-09",
-        "message-mcq-06",
-        "message-mcq-10",
-        "message-mcq-05"
+        "message-mcq-17",
+        "message-mcq-12"
       ],
       "explanation": "本句的「voice message」指「語音留言」。",
       "sentenceIndex": 16,
@@ -1028,12 +974,10 @@ export default {
         "voice message"
       ],
       "optionReasons": {
-        "message-mcq-08": "本句指「語音留言」。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-05": "「留言」與本句語境不同。"
+        "message-mcq-08": "本句的「voice message」指「語音留言」。",
+        "message-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-08"
     },
@@ -1045,11 +989,9 @@ export default {
       "masked": "____ when you arrive.",
       "options": [
         "message-mcq-09",
-        "message-mcq-08",
-        "message-mcq-10",
-        "message-mcq-07",
-        "message-mcq-11",
-        "message-mcq-06"
+        "message-mcq-05",
+        "message-pdf-001",
+        "message-mcq-22"
       ],
       "explanation": "本句的「Message me」指「傳訊息給某人」。",
       "sentenceIndex": 17,
@@ -1058,12 +1000,10 @@ export default {
         "Message me"
       ],
       "optionReasons": {
-        "message-mcq-09": "本句指「傳訊息給某人」。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-09": "本句的「Message me」指「傳訊息給某人」。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-09"
     },
@@ -1075,11 +1015,9 @@ export default {
       "masked": "I ____ last night.",
       "options": [
         "message-mcq-09",
-        "message-mcq-08",
-        "message-mcq-10",
-        "message-mcq-07",
-        "message-mcq-11",
-        "message-mcq-06"
+        "message-mcq-18",
+        "message-mcq-15",
+        "message-mcq-22"
       ],
       "explanation": "本句的「messaged her」指「傳訊息給某人」。",
       "sentenceIndex": 18,
@@ -1088,12 +1026,10 @@ export default {
         "messaged her"
       ],
       "optionReasons": {
-        "message-mcq-09": "本句指「傳訊息給某人」。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-06": "「收到訊息」與本句語境不同。"
+        "message-mcq-09": "本句的「messaged her」指「傳訊息給某人」。",
+        "message-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-09"
     },
@@ -1105,11 +1041,9 @@ export default {
       "masked": "We usually communicate through ____ apps.",
       "options": [
         "message-mcq-10",
-        "message-mcq-09",
-        "message-mcq-11",
-        "message-mcq-08",
-        "message-mcq-12",
-        "message-mcq-07"
+        "message-mcq-16",
+        "message-mcq-18",
+        "message-mcq-13"
       ],
       "explanation": "本句的「messaging」指「傳訊；即時通訊」。",
       "sentenceIndex": 19,
@@ -1118,12 +1052,10 @@ export default {
         "messaging"
       ],
       "optionReasons": {
-        "message-mcq-10": "本句指「傳訊；即時通訊」。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。"
+        "message-mcq-10": "本句的「messaging」指「傳訊；即時通訊」。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-10"
     },
@@ -1135,11 +1067,9 @@ export default {
       "masked": "____ has become a common way to stay in touch.",
       "options": [
         "message-mcq-10",
-        "message-mcq-09",
-        "message-mcq-11",
-        "message-mcq-08",
-        "message-mcq-12",
-        "message-mcq-07"
+        "message-mcq-02",
+        "message-mcq-13",
+        "message-mcq-15"
       ],
       "explanation": "本句的「Messaging」指「傳訊；即時通訊」。",
       "sentenceIndex": 20,
@@ -1148,12 +1078,10 @@ export default {
         "Messaging"
       ],
       "optionReasons": {
-        "message-mcq-10": "本句指「傳訊；即時通訊」。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-07": "「短訊」與本句語境不同。"
+        "message-mcq-10": "本句的「Messaging」指「傳訊；即時通訊」。",
+        "message-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-10"
     },
@@ -1165,11 +1093,9 @@ export default {
       "masked": "The team uses ____ during work.",
       "options": [
         "message-mcq-11",
-        "message-mcq-10",
+        "message-mcq-08",
         "message-mcq-12",
-        "message-mcq-09",
-        "message-mcq-13",
-        "message-mcq-08"
+        "message-mcq-16"
       ],
       "explanation": "本句的「instant messaging」指「即時通訊」。",
       "sentenceIndex": 21,
@@ -1178,12 +1104,10 @@ export default {
         "instant messaging"
       ],
       "optionReasons": {
-        "message-mcq-11": "本句指「即時通訊」。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。"
+        "message-mcq-11": "本句的「instant messaging」指「即時通訊」。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-11"
     },
@@ -1195,11 +1119,9 @@ export default {
       "masked": "____ allows quick communication.",
       "options": [
         "message-mcq-11",
-        "message-mcq-10",
-        "message-mcq-12",
-        "message-mcq-09",
+        "message-pdf-001",
         "message-mcq-13",
-        "message-mcq-08"
+        "message-mcq-02"
       ],
       "explanation": "本句的「Instant messaging」指「即時通訊」。",
       "sentenceIndex": 22,
@@ -1208,12 +1130,10 @@ export default {
         "Instant messaging"
       ],
       "optionReasons": {
-        "message-mcq-11": "本句指「即時通訊」。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-08": "「語音留言」與本句語境不同。"
+        "message-mcq-11": "本句的「Instant messaging」指「即時通訊」。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-11"
     },
@@ -1225,11 +1145,9 @@ export default {
       "masked": "What is the main ____ of the speech?",
       "options": [
         "message-mcq-12",
-        "message-mcq-11",
-        "message-mcq-13",
-        "message-mcq-10",
-        "message-mcq-14",
-        "message-mcq-09"
+        "message-mcq-16",
+        "message-mcq-22",
+        "message-mcq-06"
       ],
       "explanation": "本句的「message」指「主旨；寓意」。",
       "sentenceIndex": 23,
@@ -1238,12 +1156,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-mcq-12": "本句指「主旨；寓意」。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。"
+        "message-mcq-12": "本句的「message」指「主旨；寓意」。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-12"
     },
@@ -1255,11 +1171,9 @@ export default {
       "masked": "The advertisement sends a positive ____.",
       "options": [
         "message-mcq-12",
-        "message-mcq-11",
-        "message-mcq-13",
-        "message-mcq-10",
-        "message-mcq-14",
-        "message-mcq-09"
+        "message-mcq-06",
+        "message-mcq-08",
+        "message-mcq-16"
       ],
       "explanation": "本句的「message」指「主旨；寓意」。",
       "sentenceIndex": 24,
@@ -1268,12 +1182,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-mcq-12": "本句指「主旨；寓意」。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。"
+        "message-mcq-12": "本句的「message」指「主旨；寓意」。",
+        "message-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-12"
     },
@@ -1285,11 +1197,9 @@ export default {
       "masked": "The ____ is about kindness.",
       "options": [
         "message-pdf-001",
-        "message-mcq-11",
-        "message-mcq-13",
-        "message-mcq-10",
         "message-mcq-14",
-        "message-mcq-09"
+        "message-mcq-03",
+        "message-mcq-22"
       ],
       "explanation": "本句的「message of the story」指「作品希望觀眾理解的主要思想、價值或寓意」。",
       "sentenceIndex": 25,
@@ -1298,12 +1208,10 @@ export default {
         "message of the story"
       ],
       "optionReasons": {
-        "message-pdf-001": "本句指「作品希望觀眾理解的主要思想、價值或寓意」。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。"
+        "message-pdf-001": "本句的「message of the story」指「作品希望觀眾理解的主要思想、價值或寓意」。",
+        "message-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-pdf-001"
     },
@@ -1315,11 +1223,9 @@ export default {
       "masked": "The film has a strong environmental ____.",
       "options": [
         "message-pdf-001",
-        "message-mcq-11",
         "message-mcq-13",
-        "message-mcq-10",
-        "message-mcq-14",
-        "message-mcq-09"
+        "message-mcq-07",
+        "message-mcq-05"
       ],
       "explanation": "本句的「message」指「作品希望觀眾理解的主要思想、價值或寓意」。",
       "sentenceIndex": 26,
@@ -1328,12 +1234,10 @@ export default {
         "message"
       ],
       "optionReasons": {
-        "message-pdf-001": "本句指「作品希望觀眾理解的主要思想、價值或寓意」。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-09": "「傳訊息給某人」與本句語境不同。"
+        "message-pdf-001": "本句的「message」指「作品希望觀眾理解的主要思想、價值或寓意」。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-pdf-001"
     },
@@ -1345,11 +1249,9 @@ export default {
       "masked": "The ____ is that family matters more than money.",
       "options": [
         "message-mcq-13",
-        "message-mcq-12",
-        "message-mcq-14",
-        "message-mcq-11",
-        "message-mcq-15",
-        "message-mcq-10"
+        "message-mcq-21",
+        "message-mcq-08",
+        "message-mcq-12"
       ],
       "explanation": "本句的「underlying message」指「隱含信息」。",
       "sentenceIndex": 27,
@@ -1358,12 +1260,10 @@ export default {
         "underlying message"
       ],
       "optionReasons": {
-        "message-mcq-13": "本句指「隱含信息」。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。"
+        "message-mcq-13": "本句的「underlying message」指「隱含信息」。",
+        "message-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-13"
     },
@@ -1375,11 +1275,9 @@ export default {
       "masked": "The advertisement has an ____ about status.",
       "options": [
         "message-mcq-13",
-        "message-mcq-12",
-        "message-mcq-14",
-        "message-mcq-11",
-        "message-mcq-15",
-        "message-mcq-10"
+        "message-mcq-05",
+        "message-mcq-10",
+        "message-mcq-16"
       ],
       "explanation": "本句的「underlying message」指「隱含信息」。",
       "sentenceIndex": 28,
@@ -1388,12 +1286,10 @@ export default {
         "underlying message"
       ],
       "optionReasons": {
-        "message-mcq-13": "本句指「隱含信息」。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-10": "「傳訊；即時通訊」與本句語境不同。"
+        "message-mcq-13": "本句的「underlying message」指「隱含信息」。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-13"
     },
@@ -1405,11 +1301,9 @@ export default {
       "masked": "The decision ____ that the rules matter.",
       "options": [
         "message-mcq-14",
+        "message-mcq-08",
         "message-mcq-13",
-        "message-mcq-15",
-        "message-mcq-12",
-        "message-mcq-16",
-        "message-mcq-11"
+        "message-mcq-22"
       ],
       "explanation": "本句的「sends a clear message」指「傳遞訊號／表態」。",
       "sentenceIndex": 29,
@@ -1418,12 +1312,10 @@ export default {
         "sends a clear message"
       ],
       "optionReasons": {
-        "message-mcq-14": "本句指「傳遞訊號／表態」。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。"
+        "message-mcq-14": "本句的「sends a clear message」指「傳遞訊號／表態」。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-14"
     },
@@ -1435,11 +1327,9 @@ export default {
       "masked": "Her refusal ____ to the rest of the team.",
       "options": [
         "message-mcq-14",
+        "message-mcq-22",
         "message-mcq-13",
-        "message-mcq-15",
-        "message-mcq-12",
-        "message-mcq-16",
-        "message-mcq-11"
+        "message-mcq-15"
       ],
       "explanation": "本句的「sent a message」指「傳遞訊號／表態」。",
       "sentenceIndex": 30,
@@ -1448,12 +1338,10 @@ export default {
         "sent a message"
       ],
       "optionReasons": {
-        "message-mcq-14": "本句指「傳遞訊號／表態」。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-11": "「即時通訊」與本句語境不同。"
+        "message-mcq-14": "本句的「sent a message」指「傳遞訊號／表態」。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-14"
     },
@@ -1465,11 +1353,9 @@ export default {
       "masked": "He stopped calling after he finally ____.",
       "options": [
         "message-mcq-15",
-        "message-mcq-14",
-        "message-mcq-16",
-        "message-mcq-13",
-        "message-mcq-17",
-        "message-mcq-12"
+        "message-mcq-02",
+        "message-mcq-12",
+        "message-mcq-17"
       ],
       "explanation": "本句的「got the message」指「明白暗示」。",
       "sentenceIndex": 33,
@@ -1478,12 +1364,10 @@ export default {
         "got the message"
       ],
       "optionReasons": {
-        "message-mcq-15": "本句指「明白暗示」。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。"
+        "message-mcq-15": "本句的「got the message」指「明白暗示」。",
+        "message-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-15"
     },
@@ -1495,11 +1379,9 @@ export default {
       "masked": "I think she ____.",
       "options": [
         "message-mcq-15",
-        "message-mcq-14",
-        "message-mcq-16",
-        "message-mcq-13",
-        "message-mcq-17",
-        "message-mcq-12"
+        "message-mcq-21",
+        "message-mcq-22",
+        "message-mcq-13"
       ],
       "explanation": "本句的「got the message」指「明白暗示」。",
       "sentenceIndex": 34,
@@ -1508,12 +1390,10 @@ export default {
         "got the message"
       ],
       "optionReasons": {
-        "message-mcq-15": "本句指「明白暗示」。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-12": "「主旨；寓意」與本句語境不同。"
+        "message-mcq-15": "本句的「got the message」指「明白暗示」。",
+        "message-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-15"
     },
@@ -1525,11 +1405,9 @@ export default {
       "masked": "Don't be late again.” “____.",
       "options": [
         "message-mcq-16",
-        "message-mcq-15",
-        "message-mcq-17",
-        "message-mcq-14",
-        "message-mcq-18",
-        "message-mcq-13"
+        "message-mcq-06",
+        "message-mcq-05",
+        "message-mcq-22"
       ],
       "explanation": "本句的「Message received」指「明白了」。",
       "sentenceIndex": 35,
@@ -1538,12 +1416,10 @@ export default {
         "Message received"
       ],
       "optionReasons": {
-        "message-mcq-16": "本句指「明白了」。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。"
+        "message-mcq-16": "本句的「Message received」指「明白了」。",
+        "message-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-16"
     },
@@ -1555,11 +1431,9 @@ export default {
       "masked": "His expression made it clear: ____.",
       "options": [
         "message-mcq-16",
-        "message-mcq-15",
-        "message-mcq-17",
-        "message-mcq-14",
-        "message-mcq-18",
-        "message-mcq-13"
+        "message-mcq-09",
+        "message-mcq-08",
+        "message-mcq-17"
       ],
       "explanation": "本句的「message received」指「明白了」。",
       "sentenceIndex": 36,
@@ -1568,12 +1442,10 @@ export default {
         "message received"
       ],
       "optionReasons": {
-        "message-mcq-16": "本句指「明白了」。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-13": "「隱含信息」與本句語境不同。"
+        "message-mcq-16": "本句的「message received」指「明白了」。",
+        "message-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-16"
     },
@@ -1585,11 +1457,9 @@ export default {
       "masked": "He is sending me ____.",
       "options": [
         "message-mcq-17",
-        "message-mcq-16",
         "message-mcq-18",
         "message-mcq-15",
-        "message-mcq-19",
-        "message-mcq-14"
+        "message-mcq-22"
       ],
       "explanation": "本句的「mixed messages」指「矛盾訊號」。",
       "sentenceIndex": 37,
@@ -1598,12 +1468,10 @@ export default {
         "mixed messages"
       ],
       "optionReasons": {
-        "message-mcq-17": "本句指「矛盾訊號」。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。"
+        "message-mcq-17": "本句的「mixed messages」指「矛盾訊號」。",
+        "message-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-17"
     },
@@ -1615,11 +1483,9 @@ export default {
       "masked": "The policy sends ____ about what is expected.",
       "options": [
         "message-mcq-17",
-        "message-mcq-16",
-        "message-mcq-18",
-        "message-mcq-15",
-        "message-mcq-19",
-        "message-mcq-14"
+        "message-pdf-001",
+        "message-mcq-22",
+        "message-mcq-05"
       ],
       "explanation": "本句的「mixed messages」指「矛盾訊號」。",
       "sentenceIndex": 38,
@@ -1628,12 +1494,10 @@ export default {
         "mixed messages"
       ],
       "optionReasons": {
-        "message-mcq-17": "本句指「矛盾訊號」。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-14": "「傳遞訊號／表態」與本句語境不同。"
+        "message-mcq-17": "本句的「mixed messages」指「矛盾訊號」。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-17"
     },
@@ -1645,11 +1509,9 @@ export default {
       "masked": "Users posted questions on the ____.",
       "options": [
         "message-mcq-18",
-        "message-mcq-17",
-        "message-mcq-19",
-        "message-mcq-16",
-        "message-mcq-20",
-        "message-mcq-15"
+        "message-mcq-07",
+        "message-mcq-13",
+        "message-pdf-001"
       ],
       "explanation": "本句的「message board」指「留言板／討論區」。",
       "sentenceIndex": 39,
@@ -1658,12 +1520,10 @@ export default {
         "message board"
       ],
       "optionReasons": {
-        "message-mcq-18": "本句指「留言板／討論區」。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。"
+        "message-mcq-18": "本句的「message board」指「留言板／討論區」。",
+        "message-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-18"
     },
@@ -1675,11 +1535,9 @@ export default {
       "masked": "The school's ____ displays announcements.",
       "options": [
         "message-mcq-18",
-        "message-mcq-17",
-        "message-mcq-19",
-        "message-mcq-16",
-        "message-mcq-20",
-        "message-mcq-15"
+        "message-mcq-10",
+        "message-pdf-001",
+        "message-mcq-13"
       ],
       "explanation": "本句的「message board」指「留言板／討論區」。",
       "sentenceIndex": 40,
@@ -1688,12 +1546,10 @@ export default {
         "message board"
       ],
       "optionReasons": {
-        "message-mcq-18": "本句指「留言板／討論區」。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-15": "「明白暗示」與本句語境不同。"
+        "message-mcq-18": "本句的「message board」指「留言板／討論區」。",
+        "message-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "message-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-18"
     },
@@ -1705,11 +1561,9 @@ export default {
       "masked": "A ____ delivered the letter.",
       "options": [
         "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-20",
-        "message-mcq-17",
-        "message-mcq-21",
-        "message-mcq-16"
+        "message-mcq-15",
+        "message-mcq-02",
+        "message-mcq-12"
       ],
       "explanation": "本句的「messenger」指「信使；傳訊者」。",
       "sentenceIndex": 41,
@@ -1718,12 +1572,10 @@ export default {
         "messenger"
       ],
       "optionReasons": {
-        "message-mcq-19": "本句指「信使；傳訊者」。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-21": "「品牌傳訊」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。"
+        "message-mcq-19": "本句的「messenger」指「信使；傳訊者」。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-19"
     },
@@ -1735,11 +1587,9 @@ export default {
       "masked": "The king sent a ____ with the news.",
       "options": [
         "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-20",
-        "message-mcq-17",
-        "message-mcq-21",
-        "message-mcq-16"
+        "message-mcq-15",
+        "message-mcq-08",
+        "message-mcq-12"
       ],
       "explanation": "本句的「messenger」指「信使；傳訊者」。",
       "sentenceIndex": 42,
@@ -1748,74 +1598,68 @@ export default {
         "messenger"
       ],
       "optionReasons": {
-        "message-mcq-19": "本句指「信使；傳訊者」。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-21": "「品牌傳訊」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。"
+        "message-mcq-19": "本句的「messenger」指「信使；傳訊者」。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-19"
     },
     {
       "id": "message-22-0",
-      "sense": "message-mcq-19",
+      "sense": "message-reviewed-690cd07675",
       "en": "They spoke through an online messenger.",
       "zh": "他們透過網上通訊程式聊天。",
       "masked": "They spoke through an online ____.",
       "options": [
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-20",
-        "message-mcq-17",
-        "message-mcq-21",
-        "message-mcq-16"
+        "message-reviewed-690cd07675",
+        "message-mcq-12",
+        "message-mcq-15",
+        "message-mcq-05"
       ],
-      "explanation": "本句的「messenger」指「信使；傳訊者」。",
+      "explanation": "對照完整句子：「他們透過網上通訊程式聊天。」。這裡的「messenger」表示「用來傳送即時訊息的數碼通訊程式或服務」。",
       "sentenceIndex": 43,
       "sourcePractice": 1,
       "targets": [
         "messenger"
       ],
       "optionReasons": {
-        "message-mcq-19": "本句指「信使；傳訊者」。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-21": "「品牌傳訊」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。"
+        "message-reviewed-690cd07675": "對照完整句子：「他們透過網上通訊程式聊天。」。這裡的「messenger」表示「用來傳送即時訊息的數碼通訊程式或服務」。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "message-mcq-19"
+      "correctOption": "message-reviewed-690cd07675",
+      "previousCorrectOption": "message-mcq-19",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "message-22-1",
-      "sense": "message-mcq-19",
+      "sense": "message-reviewed-690cd07675",
       "en": "The messenger supports voice calls and file sharing.",
       "zh": "這個通訊工具支援語音通話和檔案分享。",
       "masked": "The ____ supports voice calls and file sharing.",
       "options": [
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-20",
-        "message-mcq-17",
-        "message-mcq-21",
-        "message-mcq-16"
+        "message-reviewed-690cd07675",
+        "message-mcq-15",
+        "message-mcq-22",
+        "message-mcq-08"
       ],
-      "explanation": "本句的「messenger」指「信使；傳訊者」。",
+      "explanation": "對照完整句子：「這個通訊工具支援語音通話和檔案分享。」。這裡的「messenger」表示「用來傳送即時訊息的數碼通訊程式或服務」。",
       "sentenceIndex": 44,
       "sourcePractice": 2,
       "targets": [
         "messenger"
       ],
       "optionReasons": {
-        "message-mcq-19": "本句指「信使；傳訊者」。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。",
-        "message-mcq-21": "「品牌傳訊」與本句語境不同。",
-        "message-mcq-16": "「明白了」與本句語境不同。"
+        "message-reviewed-690cd07675": "對照完整句子：「這個通訊工具支援語音通話和檔案分享。」。這裡的「messenger」表示「用來傳送即時訊息的數碼通訊程式或服務」。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "message-mcq-19"
+      "correctOption": "message-reviewed-690cd07675",
+      "previousCorrectOption": "message-mcq-19",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "message-23-0",
@@ -1825,11 +1669,9 @@ export default {
       "masked": "The company's ____ focuses on simplicity.",
       "options": [
         "message-mcq-21",
-        "message-mcq-20",
-        "message-mcq-22",
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-17"
+        "message-mcq-12",
+        "message-mcq-15",
+        "message-mcq-18"
       ],
       "explanation": "本句的「messaging」指「品牌傳訊」。",
       "sentenceIndex": 45,
@@ -1838,12 +1680,10 @@ export default {
         "messaging"
       ],
       "optionReasons": {
-        "message-mcq-21": "本句指「品牌傳訊」。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-22": "「遷怒報信者」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。"
+        "message-mcq-21": "本句的「messaging」指「品牌傳訊」。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-21"
     },
@@ -1855,11 +1695,9 @@ export default {
       "masked": "The campaign needs clearer ____.",
       "options": [
         "message-mcq-21",
-        "message-mcq-20",
         "message-mcq-22",
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-17"
+        "message-mcq-08",
+        "message-mcq-13"
       ],
       "explanation": "本句的「messaging」指「品牌傳訊」。",
       "sentenceIndex": 46,
@@ -1868,12 +1706,10 @@ export default {
         "messaging"
       ],
       "optionReasons": {
-        "message-mcq-21": "本句指「品牌傳訊」。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-22": "「遷怒報信者」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。"
+        "message-mcq-21": "本句的「messaging」指「品牌傳訊」。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-21"
     },
@@ -1885,11 +1721,9 @@ export default {
       "masked": "Their ____ emphasizes reliability.",
       "options": [
         "message-mcq-21",
-        "message-mcq-20",
         "message-mcq-22",
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-17"
+        "message-mcq-02",
+        "message-mcq-12"
       ],
       "explanation": "本句的「brand messaging」指「品牌傳訊」。",
       "sentenceIndex": 47,
@@ -1898,12 +1732,10 @@ export default {
         "brand messaging"
       ],
       "optionReasons": {
-        "message-mcq-21": "本句指「品牌傳訊」。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-22": "「遷怒報信者」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。"
+        "message-mcq-21": "本句的「brand messaging」指「品牌傳訊」。",
+        "message-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-21"
     },
@@ -1915,11 +1747,9 @@ export default {
       "masked": "The new design does not match the company's ____.",
       "options": [
         "message-mcq-21",
-        "message-mcq-20",
-        "message-mcq-22",
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-17"
+        "message-mcq-15",
+        "message-mcq-08",
+        "message-mcq-12"
       ],
       "explanation": "本句的「brand messaging」指「品牌傳訊」。",
       "sentenceIndex": 48,
@@ -1928,12 +1758,10 @@ export default {
         "brand messaging"
       ],
       "optionReasons": {
-        "message-mcq-21": "本句指「品牌傳訊」。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-22": "「遷怒報信者」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。"
+        "message-mcq-21": "本句的「brand messaging」指「品牌傳訊」。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-21"
     },
@@ -1945,11 +1773,9 @@ export default {
       "masked": "Don't ____—I'm just telling you what happened.",
       "options": [
         "message-mcq-22",
-        "message-mcq-21",
-        "message-mcq-20",
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-17"
+        "message-mcq-06",
+        "message-mcq-08",
+        "message-mcq-15"
       ],
       "explanation": "本句的「shoot the messenger」指「遷怒報信者」。",
       "sentenceIndex": 49,
@@ -1958,12 +1784,10 @@ export default {
         "shoot the messenger"
       ],
       "optionReasons": {
-        "message-mcq-22": "本句指「遷怒報信者」。",
-        "message-mcq-21": "「品牌傳訊」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。"
+        "message-mcq-22": "本句的「shoot the messenger」指「遷怒報信者」。",
+        "message-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-22"
     },
@@ -1975,11 +1799,9 @@ export default {
       "masked": "Managers should not ____ when employees report problems.",
       "options": [
         "message-mcq-22",
-        "message-mcq-21",
-        "message-mcq-20",
-        "message-mcq-19",
-        "message-mcq-18",
-        "message-mcq-17"
+        "message-mcq-02",
+        "message-mcq-16",
+        "message-reviewed-690cd07675"
       ],
       "explanation": "本句的「shoot the messenger」指「遷怒報信者」。",
       "sentenceIndex": 50,
@@ -1988,12 +1810,10 @@ export default {
         "shoot the messenger"
       ],
       "optionReasons": {
-        "message-mcq-22": "本句指「遷怒報信者」。",
-        "message-mcq-21": "「品牌傳訊」與本句語境不同。",
-        "message-mcq-20": "「通訊程式」與本句語境不同。",
-        "message-mcq-19": "「信使；傳訊者」與本句語境不同。",
-        "message-mcq-18": "「留言板／討論區」與本句語境不同。",
-        "message-mcq-17": "「矛盾訊號」與本句語境不同。"
+        "message-mcq-22": "本句的「shoot the messenger」指「遷怒報信者」。",
+        "message-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "message-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "message-reviewed-690cd07675": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "message-mcq-22"
     }
@@ -2005,5 +1825,7 @@ export default {
     "sha256": "f4754ce6fd470683a7cc2930aee71a3581c98ec9ba18f86fbec0d7aced4c7a4e",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

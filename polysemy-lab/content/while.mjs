@@ -56,7 +56,7 @@ export default {
     },
     {
       "id": "while-mcq-03",
-      "title": "表示兩件事情在同一段時間內同時發生",
+      "title": "兩件事情在同一段時間內同時發生",
       "form": "while — simultaneous actions",
       "en": "while — simultaneous actions",
       "zh": "表示兩件事情在同一段時間內同時發生",
@@ -416,11 +416,9 @@ export default {
       "masked": "I want to learn from her ____.",
       "options": [
         "while-mcq-01",
-        "while-mcq-02",
-        "while-mcq-03",
-        "while-mcq-04",
-        "while-mcq-05",
-        "while-mcq-06"
+        "while-mcq-06",
+        "while-mcq-11",
+        "while-mcq-05"
       ],
       "explanation": "本句的「while I can」指「在某件事情持續進行的期間，另一件事情也發生」。",
       "sentenceIndex": 0,
@@ -429,12 +427,10 @@ export default {
         "while I can"
       ],
       "optionReasons": {
-        "while-mcq-01": "本句指「在某件事情持續進行的期間，另一件事情也發生」。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-01": "本句的「while I can」指「在某件事情持續進行的期間，另一件事情也發生」。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-01"
     },
@@ -446,11 +442,9 @@ export default {
       "masked": "She listened to music ____.",
       "options": [
         "while-mcq-01",
-        "while-mcq-02",
-        "while-mcq-03",
-        "while-mcq-04",
+        "while-mcq-06",
         "while-mcq-05",
-        "while-mcq-06"
+        "while-mcq-11"
       ],
       "explanation": "本句的「while she cooked」指「在某件事情持續進行的期間，另一件事情也發生」。",
       "sentenceIndex": 1,
@@ -459,12 +453,10 @@ export default {
         "while she cooked"
       ],
       "optionReasons": {
-        "while-mcq-01": "本句指「在某件事情持續進行的期間，另一件事情也發生」。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-01": "本句的「while she cooked」指「在某件事情持續進行的期間，另一件事情也發生」。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-01"
     },
@@ -476,9 +468,7 @@ export default {
       "masked": "I read the newspaper ____.",
       "options": [
         "while-mcq-01",
-        "while-mcq-02",
-        "while-mcq-03",
-        "while-mcq-04",
+        "while-mcq-11",
         "while-mcq-05",
         "while-mcq-06"
       ],
@@ -489,12 +479,10 @@ export default {
         "while I was waiting"
       ],
       "optionReasons": {
-        "while-mcq-01": "本句指「在某件事情持續進行的期間，另一件事情也發生」。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-01": "本句的「while I was waiting」指「在某件事情持續進行的期間，另一件事情也發生」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-01"
     },
@@ -506,9 +494,7 @@ export default {
       "masked": "Enjoy the sunshine ____.",
       "options": [
         "while-mcq-02",
-        "while-mcq-01",
-        "while-mcq-03",
-        "while-mcq-04",
+        "while-mcq-11",
         "while-mcq-05",
         "while-mcq-06"
       ],
@@ -519,12 +505,10 @@ export default {
         "while it lasts"
       ],
       "optionReasons": {
-        "while-mcq-02": "本句指「趁某種情況仍存在或某件事仍然可以做到的期間」。",
-        "while-mcq-01": "「在某件事情持續進行的期間，另一件事情也發生」是「while — time」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-02": "本句的「while it lasts」指「趁某種情況仍存在或某件事仍然可以做到的期間」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-02"
     },
@@ -536,9 +520,7 @@ export default {
       "masked": "Spend time with your family ____.",
       "options": [
         "while-mcq-02",
-        "while-mcq-01",
-        "while-mcq-03",
-        "while-mcq-04",
+        "while-mcq-11",
         "while-mcq-05",
         "while-mcq-06"
       ],
@@ -549,12 +531,10 @@ export default {
         "while you can"
       ],
       "optionReasons": {
-        "while-mcq-02": "本句指「趁某種情況仍存在或某件事仍然可以做到的期間」。",
-        "while-mcq-01": "「在某件事情持續進行的期間，另一件事情也發生」是「while — time」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-02": "本句的「while you can」指「趁某種情況仍存在或某件事仍然可以做到的期間」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-02"
     },
@@ -566,11 +546,8 @@ export default {
       "masked": "She smiled ____.",
       "options": [
         "while-mcq-03",
-        "while-mcq-02",
-        "while-mcq-04",
-        "while-mcq-01",
-        "while-mcq-05",
-        "while-mcq-06"
+        "while-mcq-11",
+        "while-mcq-05"
       ],
       "explanation": "本句的「while she spoke」指「表示兩件事情在同一段時間內同時發生」。",
       "sentenceIndex": 5,
@@ -579,12 +556,9 @@ export default {
         "while she spoke"
       ],
       "optionReasons": {
-        "while-mcq-03": "本句指「表示兩件事情在同一段時間內同時發生」。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-01": "「在某件事情持續進行的期間，另一件事情也發生」是「while — time」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-03": "本句的「while she spoke」指「表示兩件事情在同一段時間內同時發生」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-03"
     },
@@ -596,11 +570,8 @@ export default {
       "masked": "He worked ____.",
       "options": [
         "while-mcq-03",
-        "while-mcq-02",
-        "while-mcq-04",
-        "while-mcq-01",
-        "while-mcq-05",
-        "while-mcq-06"
+        "while-mcq-11",
+        "while-mcq-05"
       ],
       "explanation": "本句的「while the children slept」指「表示兩件事情在同一段時間內同時發生」。",
       "sentenceIndex": 6,
@@ -609,12 +580,9 @@ export default {
         "while the children slept"
       ],
       "optionReasons": {
-        "while-mcq-03": "本句指「表示兩件事情在同一段時間內同時發生」。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-01": "「在某件事情持續進行的期間，另一件事情也發生」是「while — time」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-03": "本句的「while the children slept」指「表示兩件事情在同一段時間內同時發生」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-03"
     },
@@ -626,11 +594,9 @@ export default {
       "masked": "Someone called ____.",
       "options": [
         "while-mcq-04",
-        "while-mcq-03",
-        "while-mcq-05",
-        "while-mcq-02",
+        "while-mcq-11",
         "while-mcq-06",
-        "while-mcq-01"
+        "while-mcq-15"
       ],
       "explanation": "本句的「while I was having dinner」指「以較持續的動作／情況作背景，另一件事在其間發生」。",
       "sentenceIndex": 7,
@@ -639,12 +605,10 @@ export default {
         "while I was having dinner"
       ],
       "optionReasons": {
-        "while-mcq-04": "本句指「以較持續的動作／情況作背景，另一件事在其間發生」。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-01": "「在某件事情持續進行的期間，另一件事情也發生」是「while — time」的用法，與本句語境不同。"
+        "while-mcq-04": "本句的「while I was having dinner」指「以較持續的動作／情況作背景，另一件事在其間發生」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-04"
     },
@@ -656,11 +620,9 @@ export default {
       "masked": "The lights went out ____.",
       "options": [
         "while-mcq-04",
-        "while-mcq-03",
-        "while-mcq-05",
-        "while-mcq-02",
         "while-mcq-06",
-        "while-mcq-01"
+        "while-mcq-11",
+        "while-mcq-07"
       ],
       "explanation": "本句的「while we were watching TV」指「以較持續的動作／情況作背景，另一件事在其間發生」。",
       "sentenceIndex": 8,
@@ -669,12 +631,10 @@ export default {
         "while we were watching TV"
       ],
       "optionReasons": {
-        "while-mcq-04": "本句指「以較持續的動作／情況作背景，另一件事在其間發生」。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-01": "「在某件事情持續進行的期間，另一件事情也發生」是「while — time」的用法，與本句語境不同。"
+        "while-mcq-04": "本句的「while we were watching TV」指「以較持續的動作／情況作背景，另一件事在其間發生」。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-04"
     },
@@ -686,11 +646,9 @@ export default {
       "masked": "My sister loves cities, ____ I prefer the countryside.",
       "options": [
         "while-mcq-05",
-        "while-mcq-04",
-        "while-mcq-06",
-        "while-mcq-03",
-        "while-mcq-07",
-        "while-mcq-02"
+        "while-mcq-18",
+        "while-mcq-11",
+        "while-mcq-04"
       ],
       "explanation": "本句的「while」指「把兩個人、事物或情況放在一起比較；而／相比之下」。",
       "sentenceIndex": 9,
@@ -699,12 +657,10 @@ export default {
         "while"
       ],
       "optionReasons": {
-        "while-mcq-05": "本句指「把兩個人、事物或情況放在一起比較；而／相比之下」。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。"
+        "while-mcq-05": "本句的「while」指「把兩個人、事物或情況放在一起比較；而／相比之下」。",
+        "while-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-05"
     },
@@ -716,11 +672,9 @@ export default {
       "masked": "Some people work best in the morning, ____ others prefer the evening.",
       "options": [
         "while-mcq-05",
-        "while-mcq-04",
+        "while-mcq-15",
         "while-mcq-06",
-        "while-mcq-03",
-        "while-mcq-07",
-        "while-mcq-02"
+        "while-mcq-11"
       ],
       "explanation": "本句的「while」指「把兩個人、事物或情況放在一起比較；而／相比之下」。",
       "sentenceIndex": 10,
@@ -729,12 +683,10 @@ export default {
         "while"
       ],
       "optionReasons": {
-        "while-mcq-05": "本句指「把兩個人、事物或情況放在一起比較；而／相比之下」。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-02": "「趁某種情況仍存在或某件事仍然可以做到的期間」是「while I can / while it lasts」的用法，與本句語境不同。"
+        "while-mcq-05": "本句的「while」指「把兩個人、事物或情況放在一起比較；而／相比之下」。",
+        "while-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-05"
     },
@@ -746,11 +698,9 @@ export default {
       "masked": "____ I understand your point, I disagree.",
       "options": [
         "while-mcq-06",
-        "while-mcq-05",
-        "while-mcq-07",
+        "while-mcq-11",
         "while-mcq-04",
-        "while-mcq-08",
-        "while-mcq-03"
+        "while-mcq-05"
       ],
       "explanation": "本句的「While」指「承認某事實成立，同時引出不同或相反的觀點；雖然」。",
       "sentenceIndex": 11,
@@ -759,12 +709,10 @@ export default {
         "While"
       ],
       "optionReasons": {
-        "while-mcq-06": "本句指「承認某事實成立，同時引出不同或相反的觀點；雖然」。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。"
+        "while-mcq-06": "本句的「While」指「承認某事實成立，同時引出不同或相反的觀點；雖然」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-06"
     },
@@ -777,10 +725,8 @@ export default {
       "options": [
         "while-mcq-06",
         "while-mcq-05",
-        "while-mcq-07",
         "while-mcq-04",
-        "while-mcq-08",
-        "while-mcq-03"
+        "while-mcq-11"
       ],
       "explanation": "本句的「While」指「承認某事實成立，同時引出不同或相反的觀點；雖然」。",
       "sentenceIndex": 12,
@@ -789,12 +735,10 @@ export default {
         "While"
       ],
       "optionReasons": {
-        "while-mcq-06": "本句指「承認某事實成立，同時引出不同或相反的觀點；雖然」。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-03": "「表示兩件事情在同一段時間內同時發生」是「while — simultaneous actions」的用法，與本句語境不同。"
+        "while-mcq-06": "本句的「While」指「承認某事實成立，同時引出不同或相反的觀點；雖然」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-06"
     },
@@ -806,11 +750,9 @@ export default {
       "masked": "Stay for ____.",
       "options": [
         "while-mcq-07",
-        "while-mcq-06",
-        "while-mcq-08",
         "while-mcq-05",
-        "while-mcq-09",
-        "while-mcq-04"
+        "while-mcq-04",
+        "while-mcq-06"
       ],
       "explanation": "本句的「a while」指「一段不精確、通常不太長的時間」。",
       "sentenceIndex": 13,
@@ -819,12 +761,10 @@ export default {
         "a while"
       ],
       "optionReasons": {
-        "while-mcq-07": "本句指「一段不精確、通常不太長的時間」。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。"
+        "while-mcq-07": "本句的「a while」指「一段不精確、通常不太長的時間」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-07"
     },
@@ -836,11 +776,9 @@ export default {
       "masked": "I haven’t seen her for ____.",
       "options": [
         "while-mcq-07",
-        "while-mcq-06",
-        "while-mcq-08",
         "while-mcq-05",
-        "while-mcq-09",
-        "while-mcq-04"
+        "while-mcq-04",
+        "while-mcq-06"
       ],
       "explanation": "本句的「a while」指「一段不精確、通常不太長的時間」。",
       "sentenceIndex": 14,
@@ -849,12 +787,10 @@ export default {
         "a while"
       ],
       "optionReasons": {
-        "while-mcq-07": "本句指「一段不精確、通常不太長的時間」。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-04": "「以較持續的動作／情況作背景，另一件事在其間發生」是「while — background action」的用法，與本句語境不同。"
+        "while-mcq-07": "本句的「a while」指「一段不精確、通常不太長的時間」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-07"
     },
@@ -866,11 +802,9 @@ export default {
       "masked": "We talked ____.",
       "options": [
         "while-mcq-08",
-        "while-mcq-07",
-        "while-mcq-09",
-        "while-mcq-06",
-        "while-mcq-10",
-        "while-mcq-05"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-06"
       ],
       "explanation": "本句的「for a while」指「持續一段時間」。",
       "sentenceIndex": 15,
@@ -879,12 +813,10 @@ export default {
         "for a while"
       ],
       "optionReasons": {
-        "while-mcq-08": "本句指「持續一段時間」。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。"
+        "while-mcq-08": "本句的「for a while」指「持續一段時間」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-08"
     },
@@ -896,11 +828,9 @@ export default {
       "masked": "She rested ____ before leaving.",
       "options": [
         "while-mcq-08",
-        "while-mcq-07",
-        "while-mcq-09",
-        "while-mcq-06",
-        "while-mcq-10",
-        "while-mcq-05"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-06"
       ],
       "explanation": "本句的「for a while」指「持續一段時間」。",
       "sentenceIndex": 16,
@@ -909,12 +839,10 @@ export default {
         "for a while"
       ],
       "optionReasons": {
-        "while-mcq-08": "本句指「持續一段時間」。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-05": "「把兩個人、事物或情況放在一起比較；而／相比之下」是「while — contrast」的用法，與本句語境不同。"
+        "while-mcq-08": "本句的「for a while」指「持續一段時間」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-08"
     },
@@ -926,11 +854,9 @@ export default {
       "masked": "____, she felt better.",
       "options": [
         "while-mcq-09",
-        "while-mcq-08",
-        "while-mcq-10",
-        "while-mcq-07",
-        "while-mcq-11",
-        "while-mcq-06"
+        "while-mcq-05",
+        "while-mcq-06",
+        "while-mcq-04"
       ],
       "explanation": "本句的「After a while」指「經過一段時間之後」。",
       "sentenceIndex": 17,
@@ -939,12 +865,10 @@ export default {
         "After a while"
       ],
       "optionReasons": {
-        "while-mcq-09": "本句指「經過一段時間之後」。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-09": "本句的「After a while」指「經過一段時間之後」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-09"
     },
@@ -956,10 +880,8 @@ export default {
       "masked": "The noise stopped ____.",
       "options": [
         "while-mcq-09",
-        "while-mcq-08",
-        "while-mcq-10",
-        "while-mcq-07",
-        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-04",
         "while-mcq-06"
       ],
       "explanation": "本句的「after a while」指「經過一段時間之後」。",
@@ -969,12 +891,10 @@ export default {
         "after a while"
       ],
       "optionReasons": {
-        "while-mcq-09": "本句指「經過一段時間之後」。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-06": "「承認某事實成立，同時引出不同或相反的觀點；雖然」是「while — concession」的用法，與本句語境不同。"
+        "while-mcq-09": "本句的「after a while」指「經過一段時間之後」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-09"
     },
@@ -986,11 +906,9 @@ export default {
       "masked": "I’ll call you ____.",
       "options": [
         "while-mcq-10",
-        "while-mcq-09",
         "while-mcq-11",
-        "while-mcq-08",
-        "while-mcq-12",
-        "while-mcq-07"
+        "while-mcq-06",
+        "while-mcq-04"
       ],
       "explanation": "本句的「in a while」指「從現在起過一段時間之後」。",
       "sentenceIndex": 19,
@@ -999,12 +917,10 @@ export default {
         "in a while"
       ],
       "optionReasons": {
-        "while-mcq-10": "本句指「從現在起過一段時間之後」。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。"
+        "while-mcq-10": "本句的「in a while」指「從現在起過一段時間之後」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-10"
     },
@@ -1016,11 +932,9 @@ export default {
       "masked": "Dinner will be ready ____.",
       "options": [
         "while-mcq-10",
-        "while-mcq-09",
         "while-mcq-11",
-        "while-mcq-08",
-        "while-mcq-12",
-        "while-mcq-07"
+        "while-mcq-05",
+        "while-mcq-04"
       ],
       "explanation": "本句的「in a while」指「從現在起過一段時間之後」。",
       "sentenceIndex": 20,
@@ -1029,12 +943,10 @@ export default {
         "in a while"
       ],
       "optionReasons": {
-        "while-mcq-10": "本句指「從現在起過一段時間之後」。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-07": "「一段不精確、通常不太長的時間」是「a while」的用法，與本句語境不同。"
+        "while-mcq-10": "本句的「in a while」指「從現在起過一段時間之後」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-10"
     },
@@ -1046,11 +958,9 @@ export default {
       "masked": "We eat out ____.",
       "options": [
         "while-mcq-11",
-        "while-mcq-10",
-        "while-mcq-12",
-        "while-mcq-09",
-        "while-mcq-13",
-        "while-mcq-08"
+        "while-mcq-08",
+        "while-mcq-06",
+        "while-mcq-05"
       ],
       "explanation": "本句的「once in a while」指「不經常；偶爾」。",
       "sentenceIndex": 21,
@@ -1059,12 +969,10 @@ export default {
         "once in a while"
       ],
       "optionReasons": {
-        "while-mcq-11": "本句指「不經常；偶爾」。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。"
+        "while-mcq-11": "本句的「once in a while」指「不經常；偶爾」。",
+        "while-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-11"
     },
@@ -1076,11 +984,8 @@ export default {
       "masked": "She still visits her old neighbourhood ____.",
       "options": [
         "while-mcq-11",
-        "while-mcq-10",
-        "while-mcq-12",
-        "while-mcq-09",
-        "while-mcq-13",
-        "while-mcq-08"
+        "while-mcq-03",
+        "while-mcq-05"
       ],
       "explanation": "本句的「once in a while」指「不經常；偶爾」。",
       "sentenceIndex": 22,
@@ -1089,12 +994,9 @@ export default {
         "once in a while"
       ],
       "optionReasons": {
-        "while-mcq-11": "本句指「不經常；偶爾」。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-08": "「持續一段時間」是「for a while」的用法，與本句語境不同。"
+        "while-mcq-11": "本句的「once in a while」指「不經常；偶爾」。",
+        "while-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-11"
     },
@@ -1107,10 +1009,8 @@ export default {
       "options": [
         "while-mcq-12",
         "while-mcq-11",
-        "while-mcq-13",
-        "while-mcq-10",
-        "while-mcq-14",
-        "while-mcq-09"
+        "while-mcq-05",
+        "while-mcq-04"
       ],
       "explanation": "本句的「all the while」指「在整段時間內一直如此」。",
       "sentenceIndex": 23,
@@ -1119,12 +1019,10 @@ export default {
         "all the while"
       ],
       "optionReasons": {
-        "while-mcq-12": "本句指「在整段時間內一直如此」。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。"
+        "while-mcq-12": "本句的「all the while」指「在整段時間內一直如此」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-12"
     },
@@ -1136,11 +1034,9 @@ export default {
       "masked": "She said nothing, ____ listening carefully.",
       "options": [
         "while-mcq-12",
+        "while-mcq-05",
         "while-mcq-11",
-        "while-mcq-13",
-        "while-mcq-10",
-        "while-mcq-14",
-        "while-mcq-09"
+        "while-mcq-04"
       ],
       "explanation": "本句的「all the while」指「在整段時間內一直如此」。",
       "sentenceIndex": 24,
@@ -1149,12 +1045,10 @@ export default {
         "all the while"
       ],
       "optionReasons": {
-        "while-mcq-12": "本句指「在整段時間內一直如此」。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-09": "「經過一段時間之後」是「after a while」的用法，與本句語境不同。"
+        "while-mcq-12": "本句的「all the while」指「在整段時間內一直如此」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-12"
     },
@@ -1166,11 +1060,9 @@ export default {
       "masked": "Wait ____.",
       "options": [
         "while-mcq-13",
-        "while-mcq-12",
-        "while-mcq-14",
+        "while-mcq-05",
         "while-mcq-11",
-        "while-mcq-15",
-        "while-mcq-10"
+        "while-mcq-06"
       ],
       "explanation": "本句的「a little while」指「一小段時間」。",
       "sentenceIndex": 25,
@@ -1179,12 +1071,10 @@ export default {
         "a little while"
       ],
       "optionReasons": {
-        "while-mcq-13": "本句指「一小段時間」。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。"
+        "while-mcq-13": "本句的「a little while」指「一小段時間」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-13"
     },
@@ -1196,11 +1086,9 @@ export default {
       "masked": "She sat quietly for ____.",
       "options": [
         "while-mcq-13",
-        "while-mcq-12",
-        "while-mcq-14",
+        "while-mcq-05",
         "while-mcq-11",
-        "while-mcq-15",
-        "while-mcq-10"
+        "while-mcq-04"
       ],
       "explanation": "本句的「a little while」指「一小段時間」。",
       "sentenceIndex": 26,
@@ -1209,12 +1097,10 @@ export default {
         "a little while"
       ],
       "optionReasons": {
-        "while-mcq-13": "本句指「一小段時間」。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-10": "「從現在起過一段時間之後」是「in a while」的用法，與本句語境不同。"
+        "while-mcq-13": "本句的「a little while」指「一小段時間」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-13"
     },
@@ -1226,11 +1112,9 @@ export default {
       "masked": "I haven’t spoken to him for ____.",
       "options": [
         "while-mcq-14",
-        "while-mcq-13",
-        "while-mcq-15",
-        "while-mcq-12",
-        "while-mcq-16",
-        "while-mcq-11"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-06"
       ],
       "explanation": "本句的「quite a while」指「一段相當長的時間」。",
       "sentenceIndex": 27,
@@ -1239,12 +1123,10 @@ export default {
         "quite a while"
       ],
       "optionReasons": {
-        "while-mcq-14": "本句指「一段相當長的時間」。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。"
+        "while-mcq-14": "本句的「quite a while」指「一段相當長的時間」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-14"
     },
@@ -1256,11 +1138,9 @@ export default {
       "masked": "It took ____ to finish.",
       "options": [
         "while-mcq-14",
-        "while-mcq-13",
-        "while-mcq-15",
-        "while-mcq-12",
-        "while-mcq-16",
-        "while-mcq-11"
+        "while-mcq-05",
+        "while-mcq-11",
+        "while-mcq-06"
       ],
       "explanation": "本句的「quite a while」指「一段相當長的時間」。",
       "sentenceIndex": 28,
@@ -1269,12 +1149,10 @@ export default {
         "quite a while"
       ],
       "optionReasons": {
-        "while-mcq-14": "本句指「一段相當長的時間」。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-11": "「不經常；偶爾」是「once in a while」的用法，與本句語境不同。"
+        "while-mcq-14": "本句的「quite a while」指「一段相當長的時間」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-14"
     },
@@ -1286,11 +1164,9 @@ export default {
       "masked": "It would be ____ to read the report.",
       "options": [
         "while-mcq-15",
-        "while-mcq-14",
-        "while-mcq-16",
-        "while-mcq-13",
-        "while-mcq-17",
-        "while-mcq-12"
+        "while-mcq-05",
+        "while-mcq-11",
+        "while-mcq-04"
       ],
       "explanation": "本句的「worth your while」指「值得某人付出時間、精力或努力」。",
       "sentenceIndex": 29,
@@ -1299,12 +1175,10 @@ export default {
         "worth your while"
       ],
       "optionReasons": {
-        "while-mcq-15": "本句指「值得某人付出時間、精力或努力」。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-17": "「一會兒；短時間地」是「awhile」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。"
+        "while-mcq-15": "本句的「worth your while」指「值得某人付出時間、精力或努力」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-15"
     },
@@ -1316,11 +1190,9 @@ export default {
       "masked": "The course is definitely ____.",
       "options": [
         "while-mcq-15",
-        "while-mcq-14",
-        "while-mcq-16",
-        "while-mcq-13",
-        "while-mcq-17",
-        "while-mcq-12"
+        "while-mcq-05",
+        "while-mcq-11",
+        "while-mcq-04"
       ],
       "explanation": "本句的「worth your while」指「值得某人付出時間、精力或努力」。",
       "sentenceIndex": 30,
@@ -1329,12 +1201,10 @@ export default {
         "worth your while"
       ],
       "optionReasons": {
-        "while-mcq-15": "本句指「值得某人付出時間、精力或努力」。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。",
-        "while-mcq-17": "「一會兒；短時間地」是「awhile」的用法，與本句語境不同。",
-        "while-mcq-12": "「在整段時間內一直如此」是「all the while」的用法，與本句語境不同。"
+        "while-mcq-15": "本句的「worth your while」指「值得某人付出時間、精力或努力」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-15"
     },
@@ -1346,11 +1216,9 @@ export default {
       "masked": "The trip was difficult but ____.",
       "options": [
         "while-mcq-16",
-        "while-mcq-15",
-        "while-mcq-17",
-        "while-mcq-14",
-        "while-mcq-18",
-        "while-mcq-13"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-06"
       ],
       "explanation": "本句的「worthwhile」指「值得投入時間、努力或資源的」。",
       "sentenceIndex": 31,
@@ -1359,12 +1227,10 @@ export default {
         "worthwhile"
       ],
       "optionReasons": {
-        "while-mcq-16": "本句指「值得投入時間、努力或資源的」。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-17": "「一會兒；短時間地」是「awhile」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-18": "「在同一段時間內；與此同時」是「meanwhile」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。"
+        "while-mcq-16": "本句的「worthwhile」指「值得投入時間、努力或資源的」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-16"
     },
@@ -1376,11 +1242,9 @@ export default {
       "masked": "Volunteering can be a very ____ experience.",
       "options": [
         "while-mcq-16",
-        "while-mcq-15",
-        "while-mcq-17",
-        "while-mcq-14",
-        "while-mcq-18",
-        "while-mcq-13"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-06"
       ],
       "explanation": "本句的「worthwhile」指「值得投入時間、努力或資源的」。",
       "sentenceIndex": 32,
@@ -1389,12 +1253,10 @@ export default {
         "worthwhile"
       ],
       "optionReasons": {
-        "while-mcq-16": "本句指「值得投入時間、努力或資源的」。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-17": "「一會兒；短時間地」是「awhile」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-18": "「在同一段時間內；與此同時」是「meanwhile」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。"
+        "while-mcq-16": "本句的「worthwhile」指「值得投入時間、努力或資源的」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-16"
     },
@@ -1406,11 +1268,9 @@ export default {
       "masked": "Stay ____.",
       "options": [
         "while-mcq-17",
-        "while-mcq-16",
-        "while-mcq-18",
-        "while-mcq-15",
-        "while-mcq-14",
-        "while-mcq-13"
+        "while-mcq-05",
+        "while-mcq-11",
+        "while-mcq-04"
       ],
       "explanation": "本句的「awhile」指「一會兒；短時間地」。",
       "sentenceIndex": 33,
@@ -1419,12 +1279,10 @@ export default {
         "awhile"
       ],
       "optionReasons": {
-        "while-mcq-17": "本句指「一會兒；短時間地」。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-18": "「在同一段時間內；與此同時」是「meanwhile」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。"
+        "while-mcq-17": "本句的「awhile」指「一會兒；短時間地」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-17"
     },
@@ -1436,11 +1294,9 @@ export default {
       "masked": "She rested ____ before continuing.",
       "options": [
         "while-mcq-17",
-        "while-mcq-16",
-        "while-mcq-18",
-        "while-mcq-15",
-        "while-mcq-14",
-        "while-mcq-13"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-06"
       ],
       "explanation": "本句的「awhile」指「一會兒；短時間地」。",
       "sentenceIndex": 34,
@@ -1449,12 +1305,10 @@ export default {
         "awhile"
       ],
       "optionReasons": {
-        "while-mcq-17": "本句指「一會兒；短時間地」。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-18": "「在同一段時間內；與此同時」是「meanwhile」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。"
+        "while-mcq-17": "本句的「awhile」指「一會兒；短時間地」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-17"
     },
@@ -1466,11 +1320,9 @@ export default {
       "masked": "She prepared the food. ____, I made the tea.",
       "options": [
         "while-mcq-18",
-        "while-mcq-17",
-        "while-mcq-16",
-        "while-mcq-15",
-        "while-mcq-14",
-        "while-mcq-13"
+        "while-mcq-05",
+        "while-mcq-11",
+        "while-mcq-04"
       ],
       "explanation": "本句的「Meanwhile」指「在同一段時間內；與此同時」。",
       "sentenceIndex": 35,
@@ -1479,12 +1331,10 @@ export default {
         "Meanwhile"
       ],
       "optionReasons": {
-        "while-mcq-18": "本句指「在同一段時間內；與此同時」。",
-        "while-mcq-17": "「一會兒；短時間地」是「awhile」的用法，與本句語境不同。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。"
+        "while-mcq-18": "本句的「Meanwhile」指「在同一段時間內；與此同時」。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-18"
     },
@@ -1496,11 +1346,9 @@ export default {
       "masked": "One department is growing; ____, another is shrinking.",
       "options": [
         "while-mcq-18",
-        "while-mcq-17",
-        "while-mcq-16",
-        "while-mcq-15",
-        "while-mcq-14",
-        "while-mcq-13"
+        "while-mcq-11",
+        "while-mcq-05",
+        "while-mcq-04"
       ],
       "explanation": "本句的「meanwhile」指「在同一段時間內；與此同時」。",
       "sentenceIndex": 36,
@@ -1509,12 +1357,10 @@ export default {
         "meanwhile"
       ],
       "optionReasons": {
-        "while-mcq-18": "本句指「在同一段時間內；與此同時」。",
-        "while-mcq-17": "「一會兒；短時間地」是「awhile」的用法，與本句語境不同。",
-        "while-mcq-16": "「值得投入時間、努力或資源的」是「worthwhile」的用法，與本句語境不同。",
-        "while-mcq-15": "「值得某人付出時間、精力或努力」是「worth your while」的用法，與本句語境不同。",
-        "while-mcq-14": "「一段相當長的時間」是「quite a while」的用法，與本句語境不同。",
-        "while-mcq-13": "「一小段時間」是「a little while」的用法，與本句語境不同。"
+        "while-mcq-18": "本句的「meanwhile」指「在同一段時間內；與此同時」。",
+        "while-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "while-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "while-mcq-18"
     }
@@ -1526,5 +1372,7 @@ export default {
     "sha256": "9ed37528ec7b5e4c508a611a28ec78491ec0b4765ff33f715c0c2943020ad673",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

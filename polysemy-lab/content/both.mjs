@@ -372,11 +372,7 @@ export default {
       "masked": "____ need more sunlight.",
       "options": [
         "both-mcq-01",
-        "both-mcq-02",
-        "both-mcq-03",
-        "both-mcq-04",
-        "both-mcq-05",
-        "both-mcq-06"
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both plants」指「已知兩個人／事物，而兩者全部都符合後面的敘述」。",
       "sentenceIndex": 0,
@@ -385,12 +381,8 @@ export default {
         "Both plants"
       ],
       "optionReasons": {
-        "both-mcq-01": "本句指「已知兩個人／事物，而兩者全部都符合後面的敘述」。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-01": "本句的「Both plants」指「已知兩個人／事物，而兩者全部都符合後面的敘述」。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-01"
     },
@@ -402,11 +394,7 @@ export default {
       "masked": "____ students passed the exam.",
       "options": [
         "both-mcq-01",
-        "both-mcq-02",
-        "both-mcq-03",
-        "both-mcq-04",
-        "both-mcq-05",
-        "both-mcq-06"
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both」指「已知兩個人／事物，而兩者全部都符合後面的敘述」。",
       "sentenceIndex": 1,
@@ -415,12 +403,8 @@ export default {
         "Both"
       ],
       "optionReasons": {
-        "both-mcq-01": "本句指「已知兩個人／事物，而兩者全部都符合後面的敘述」。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-01": "本句的「Both」指「已知兩個人／事物，而兩者全部都符合後面的敘述」。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-01"
     },
@@ -432,11 +416,8 @@ export default {
       "masked": "____ are healthy.",
       "options": [
         "both-mcq-02",
-        "both-mcq-01",
-        "both-mcq-03",
-        "both-mcq-04",
-        "both-mcq-05",
-        "both-mcq-06"
+        "both-mcq-11",
+        "both-mcq-07"
       ],
       "explanation": "本句的「Both of these plants」指「某一組已明確限定的兩個人／事物全部」。",
       "sentenceIndex": 2,
@@ -445,12 +426,9 @@ export default {
         "Both of these plants"
       ],
       "optionReasons": {
-        "both-mcq-02": "本句指「某一組已明確限定的兩個人／事物全部」。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-02": "本句的「Both of these plants」指「某一組已明確限定的兩個人／事物全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-02"
     },
@@ -462,11 +440,9 @@ export default {
       "masked": "____ of my sisters live nearby.",
       "options": [
         "both-mcq-02",
-        "both-mcq-01",
-        "both-mcq-03",
-        "both-mcq-04",
-        "both-mcq-05",
-        "both-mcq-06"
+        "both-mcq-11",
+        "both-mcq-06",
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both」指「某一組已明確限定的兩個人／事物全部」。",
       "sentenceIndex": 3,
@@ -475,12 +451,10 @@ export default {
         "Both"
       ],
       "optionReasons": {
-        "both-mcq-02": "本句指「某一組已明確限定的兩個人／事物全部」。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-02": "本句的「Both」指「某一組已明確限定的兩個人／事物全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-02"
     },
@@ -492,11 +466,8 @@ export default {
       "masked": "Which plant do you like?” > “I like ____.",
       "options": [
         "both-mcq-03",
-        "both-mcq-02",
-        "both-mcq-04",
-        "both-mcq-01",
-        "both-mcq-05",
-        "both-mcq-06"
+        "both-mcq-11",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both」指「已知兩者中的兩個全部」。",
       "sentenceIndex": 4,
@@ -505,12 +476,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-03": "本句指「已知兩者中的兩個全部」。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-03": "本句的「both」指「已知兩者中的兩個全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-03"
     },
@@ -522,11 +490,8 @@ export default {
       "masked": "____ were ready.",
       "options": [
         "both-mcq-03",
-        "both-mcq-02",
-        "both-mcq-04",
-        "both-mcq-01",
-        "both-mcq-05",
-        "both-mcq-06"
+        "both-mcq-11",
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both」指「已知兩者中的兩個全部」。",
       "sentenceIndex": 5,
@@ -535,12 +500,9 @@ export default {
         "Both"
       ],
       "optionReasons": {
-        "both-mcq-03": "本句指「已知兩者中的兩個全部」。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-03": "本句的「Both」指「已知兩者中的兩個全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-03"
     },
@@ -553,10 +515,7 @@ export default {
       "options": [
         "both-mcq-04",
         "both-mcq-03",
-        "both-mcq-05",
-        "both-mcq-02",
-        "both-mcq-06",
-        "both-mcq-01"
+        "both-mcq-11"
       ],
       "explanation": "本句的「both practical and beautiful」指「A、B 兩項同時成立／都被包括；既……又……」。",
       "sentenceIndex": 6,
@@ -565,12 +524,9 @@ export default {
         "both practical and beautiful"
       ],
       "optionReasons": {
-        "both-mcq-04": "本句指「A、B 兩項同時成立／都被包括；既……又……」。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。"
+        "both-mcq-04": "本句的「both practical and beautiful」指「A、B 兩項同時成立／都被包括；既……又……」。",
+        "both-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-04"
     },
@@ -582,11 +538,9 @@ export default {
       "masked": "She grows ____.",
       "options": [
         "both-mcq-04",
-        "both-mcq-03",
-        "both-mcq-05",
-        "both-mcq-02",
-        "both-mcq-06",
-        "both-mcq-01"
+        "both-mcq-13",
+        "both-mcq-11",
+        "both-mcq-06"
       ],
       "explanation": "本句的「both vegetables and flowers」指「A、B 兩項同時成立／都被包括；既……又……」。",
       "sentenceIndex": 7,
@@ -595,12 +549,10 @@ export default {
         "both vegetables and flowers"
       ],
       "optionReasons": {
-        "both-mcq-04": "本句指「A、B 兩項同時成立／都被包括；既……又……」。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。"
+        "both-mcq-04": "本句的「both vegetables and flowers」指「A、B 兩項同時成立／都被包括；既……又……」。",
+        "both-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-04"
     },
@@ -612,11 +564,9 @@ export default {
       "masked": "Gardening can be ____.",
       "options": [
         "both-mcq-04",
-        "both-mcq-03",
-        "both-mcq-05",
-        "both-mcq-02",
-        "both-mcq-06",
-        "both-mcq-01"
+        "both-mcq-13",
+        "both-mcq-11",
+        "both-mcq-06"
       ],
       "explanation": "本句的「both relaxing and rewarding」指「A、B 兩項同時成立／都被包括；既……又……」。",
       "sentenceIndex": 8,
@@ -625,12 +575,10 @@ export default {
         "both relaxing and rewarding"
       ],
       "optionReasons": {
-        "both-mcq-04": "本句指「A、B 兩項同時成立／都被包括；既……又……」。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-01": "「已知兩個人／事物，而兩者全部都符合後面的敘述」與本句語境不同。"
+        "both-mcq-04": "本句的「both relaxing and rewarding」指「A、B 兩項同時成立／都被包括；既……又……」。",
+        "both-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-04"
     },
@@ -642,11 +590,8 @@ export default {
       "masked": "She ____ vegetables.",
       "options": [
         "both-pdf-001",
-        "both-mcq-04",
-        "both-mcq-06",
-        "both-mcq-03",
-        "both-mcq-07",
-        "both-mcq-02"
+        "both-mcq-11",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both grows and shares」指「強調同一主語進行兩個動作／具備兩個作用」。",
       "sentenceIndex": 9,
@@ -655,12 +600,9 @@ export default {
         "both grows and shares"
       ],
       "optionReasons": {
-        "both-pdf-001": "本句指「強調同一主語進行兩個動作／具備兩個作用」。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
+        "both-pdf-001": "本句的「both grows and shares」指「強調同一主語進行兩個動作／具備兩個作用」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-pdf-001"
     },
@@ -672,11 +614,8 @@ export default {
       "masked": "The project ____ saves money and reduces waste.",
       "options": [
         "both-pdf-001",
-        "both-mcq-04",
-        "both-mcq-06",
-        "both-mcq-03",
-        "both-mcq-07",
-        "both-mcq-02"
+        "both-mcq-11",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both」指「強調同一主語進行兩個動作／具備兩個作用」。",
       "sentenceIndex": 10,
@@ -685,12 +624,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-pdf-001": "本句指「強調同一主語進行兩個動作／具備兩個作用」。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
+        "both-pdf-001": "本句的「both」指「強調同一主語進行兩個動作／具備兩個作用」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-pdf-001"
     },
@@ -702,11 +638,7 @@ export default {
       "masked": "____ enjoy gardening.",
       "options": [
         "both-pdf-002",
-        "both-mcq-04",
-        "both-mcq-06",
-        "both-mcq-03",
-        "both-mcq-07",
-        "both-mcq-02"
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both Anna and Ben」指「A、B 兩個主體都符合後面的敘述」。",
       "sentenceIndex": 11,
@@ -715,12 +647,8 @@ export default {
         "Both Anna and Ben"
       ],
       "optionReasons": {
-        "both-pdf-002": "本句指「A、B 兩個主體都符合後面的敘述」。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
+        "both-pdf-002": "本句的「Both Anna and Ben」指「A、B 兩個主體都符合後面的敘述」。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-pdf-002"
     },
@@ -732,11 +660,7 @@ export default {
       "masked": "____ the teacher and the students agreed.",
       "options": [
         "both-pdf-002",
-        "both-mcq-04",
-        "both-mcq-06",
-        "both-mcq-03",
-        "both-mcq-07",
-        "both-mcq-02"
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both」指「A、B 兩個主體都符合後面的敘述」。",
       "sentenceIndex": 12,
@@ -745,12 +669,8 @@ export default {
         "Both"
       ],
       "optionReasons": {
-        "both-pdf-002": "本句指「A、B 兩個主體都符合後面的敘述」。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
+        "both-pdf-002": "本句的「Both」指「A、B 兩個主體都符合後面的敘述」。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-pdf-002"
     },
@@ -762,11 +682,7 @@ export default {
       "masked": "They ____ gardening.",
       "options": [
         "both-mcq-05",
-        "both-mcq-04",
-        "both-mcq-06",
-        "both-mcq-03",
-        "both-mcq-07",
-        "both-mcq-02"
+        "both-mcq-12"
       ],
       "explanation": "本句的「both enjoy」指「主語所指的兩個人／事物都進行同一動作」。",
       "sentenceIndex": 13,
@@ -775,12 +691,8 @@ export default {
         "both enjoy"
       ],
       "optionReasons": {
-        "both-mcq-05": "本句指「主語所指的兩個人／事物都進行同一動作」。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
+        "both-mcq-05": "本句的「both enjoy」指「主語所指的兩個人／事物都進行同一動作」。",
+        "both-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-05"
     },
@@ -792,11 +704,7 @@ export default {
       "masked": "The plants ____ need more water.",
       "options": [
         "both-mcq-05",
-        "both-mcq-04",
-        "both-mcq-06",
-        "both-mcq-03",
-        "both-mcq-07",
-        "both-mcq-02"
+        "both-mcq-11"
       ],
       "explanation": "本句的「both」指「主語所指的兩個人／事物都進行同一動作」。",
       "sentenceIndex": 14,
@@ -805,12 +713,8 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-05": "本句指「主語所指的兩個人／事物都進行同一動作」。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-02": "「某一組已明確限定的兩個人／事物全部」與本句語境不同。"
+        "both-mcq-05": "本句的「both」指「主語所指的兩個人／事物都進行同一動作」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-05"
     },
@@ -822,11 +726,9 @@ export default {
       "masked": "They are ____.",
       "options": [
         "both-mcq-06",
-        "both-mcq-05",
-        "both-mcq-07",
-        "both-mcq-04",
-        "both-mcq-08",
-        "both-mcq-03"
+        "both-mcq-13",
+        "both-mcq-11",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both tired」指「主語所指兩者都處於同一狀態」。",
       "sentenceIndex": 15,
@@ -835,12 +737,10 @@ export default {
         "both tired"
       ],
       "optionReasons": {
-        "both-mcq-06": "本句指「主語所指兩者都處於同一狀態」。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。"
+        "both-mcq-06": "本句的「both tired」指「主語所指兩者都處於同一狀態」。",
+        "both-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-06"
     },
@@ -852,11 +752,9 @@ export default {
       "masked": "The plants are ____ healthy.",
       "options": [
         "both-mcq-06",
-        "both-mcq-05",
-        "both-mcq-07",
-        "both-mcq-04",
-        "both-mcq-08",
-        "both-mcq-03"
+        "both-mcq-13",
+        "both-mcq-11",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both」指「主語所指兩者都處於同一狀態」。",
       "sentenceIndex": 16,
@@ -865,12 +763,10 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-06": "本句指「主語所指兩者都處於同一狀態」。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-03": "「已知兩者中的兩個全部」與本句語境不同。"
+        "both-mcq-06": "本句的「both」指「主語所指兩者都處於同一狀態」。",
+        "both-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-06"
     },
@@ -882,11 +778,8 @@ export default {
       "masked": "They have ____.",
       "options": [
         "both-mcq-07",
-        "both-mcq-06",
-        "both-mcq-08",
-        "both-mcq-05",
         "both-mcq-09",
-        "both-mcq-04"
+        "both-mcq-11"
       ],
       "explanation": "本句的「both finished」指「主語所指兩者都完成／能做／會做某事」。",
       "sentenceIndex": 17,
@@ -895,12 +788,9 @@ export default {
         "both finished"
       ],
       "optionReasons": {
-        "both-mcq-07": "本句指「主語所指兩者都完成／能做／會做某事」。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。"
+        "both-mcq-07": "本句的「both finished」指「主語所指兩者都完成／能做／會做某事」。",
+        "both-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-07"
     },
@@ -912,11 +802,8 @@ export default {
       "masked": "The plants can ____ survive outdoors.",
       "options": [
         "both-mcq-07",
-        "both-mcq-06",
-        "both-mcq-08",
-        "both-mcq-05",
-        "both-mcq-09",
-        "both-mcq-04"
+        "both-mcq-13",
+        "both-mcq-11"
       ],
       "explanation": "本句的「both」指「主語所指兩者都完成／能做／會做某事」。",
       "sentenceIndex": 18,
@@ -925,12 +812,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-07": "本句指「主語所指兩者都完成／能做／會做某事」。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-04": "「A、B 兩項同時成立／都被包括；既……又……」與本句語境不同。"
+        "both-mcq-07": "本句的「both」指「主語所指兩者都完成／能做／會做某事」。",
+        "both-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-07"
     },
@@ -942,11 +826,8 @@ export default {
       "masked": "There are flowers on ____ of the path.",
       "options": [
         "both-mcq-08",
-        "both-mcq-07",
-        "both-mcq-09",
-        "both-mcq-06",
-        "both-mcq-10",
-        "both-mcq-05"
+        "both-mcq-12",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both sides」指「兩個相對的邊；亦可指參與／對立的雙方」。",
       "sentenceIndex": 19,
@@ -955,12 +836,9 @@ export default {
         "both sides"
       ],
       "optionReasons": {
-        "both-mcq-08": "本句指「兩個相對的邊；亦可指參與／對立的雙方」。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。"
+        "both-mcq-08": "本句的「both sides」指「兩個相對的邊；亦可指參與／對立的雙方」。",
+        "both-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-08"
     },
@@ -972,11 +850,8 @@ export default {
       "masked": "____ sides agreed to continue the discussion.",
       "options": [
         "both-mcq-08",
-        "both-mcq-07",
-        "both-mcq-09",
-        "both-mcq-06",
-        "both-mcq-10",
-        "both-mcq-05"
+        "both-mcq-12",
+        "both-mcq-04"
       ],
       "explanation": "本句的「Both」指「兩個相對的邊；亦可指參與／對立的雙方」。",
       "sentenceIndex": 20,
@@ -985,12 +860,9 @@ export default {
         "Both"
       ],
       "optionReasons": {
-        "both-mcq-08": "本句指「兩個相對的邊；亦可指參與／對立的雙方」。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-05": "「主語所指的兩個人／事物都進行同一動作」與本句語境不同。"
+        "both-mcq-08": "本句的「Both」指「兩個相對的邊；亦可指參與／對立的雙方」。",
+        "both-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-08"
     },
@@ -1002,10 +874,8 @@ export default {
       "masked": "Hold the rope at ____.",
       "options": [
         "both-mcq-09",
-        "both-mcq-08",
-        "both-mcq-10",
-        "both-mcq-07",
         "both-mcq-11",
+        "both-mcq-04",
         "both-mcq-06"
       ],
       "explanation": "本句的「both ends」指「某物的兩個端點全部」。",
@@ -1015,12 +885,10 @@ export default {
         "both ends"
       ],
       "optionReasons": {
-        "both-mcq-09": "本句指「某物的兩個端點全部」。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-09": "本句的「both ends」指「某物的兩個端點全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-09"
     },
@@ -1032,11 +900,8 @@ export default {
       "masked": "The road is closed at ____ ends.",
       "options": [
         "both-mcq-09",
-        "both-mcq-08",
-        "both-mcq-10",
-        "both-mcq-07",
         "both-mcq-11",
-        "both-mcq-06"
+        "both-mcq-07"
       ],
       "explanation": "本句的「both」指「某物的兩個端點全部」。",
       "sentenceIndex": 22,
@@ -1045,12 +910,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-09": "本句指「某物的兩個端點全部」。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-06": "「主語所指兩者都處於同一狀態」與本句語境不同。"
+        "both-mcq-09": "本句的「both」指「某物的兩個端點全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-09"
     },
@@ -1062,11 +924,7 @@ export default {
       "masked": "Look ____ before crossing.",
       "options": [
         "both-mcq-10",
-        "both-mcq-09",
-        "both-mcq-11",
-        "both-mcq-08",
-        "both-mcq-12",
-        "both-mcq-07"
+        "both-mcq-12"
       ],
       "explanation": "本句的「both ways」指「兩個方向、兩種方式，或對雙方都成立」。",
       "sentenceIndex": 23,
@@ -1075,12 +933,8 @@ export default {
         "both ways"
       ],
       "optionReasons": {
-        "both-mcq-10": "本句指「兩個方向、兩種方式，或對雙方都成立」。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。"
+        "both-mcq-10": "本句的「both ways」指「兩個方向、兩種方式，或對雙方都成立」。",
+        "both-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-10"
     },
@@ -1092,11 +946,7 @@ export default {
       "masked": "The rule works ____ ways.",
       "options": [
         "both-mcq-10",
-        "both-mcq-09",
-        "both-mcq-11",
-        "both-mcq-08",
-        "both-mcq-12",
-        "both-mcq-07"
+        "both-mcq-12"
       ],
       "explanation": "本句的「both」指「兩個方向、兩種方式，或對雙方都成立」。",
       "sentenceIndex": 24,
@@ -1105,12 +955,8 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-10": "本句指「兩個方向、兩種方式，或對雙方都成立」。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-07": "「主語所指兩者都完成／能做／會做某事」與本句語境不同。"
+        "both-mcq-10": "本句的「both」指「兩個方向、兩種方式，或對雙方都成立」。",
+        "both-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-10"
     },
@@ -1122,11 +968,8 @@ export default {
       "masked": "Respect should ____.",
       "options": [
         "both-mcq-11",
-        "both-mcq-10",
-        "both-mcq-12",
-        "both-mcq-09",
-        "both-mcq-13",
-        "both-mcq-08"
+        "both-mcq-03",
+        "both-mcq-04"
       ],
       "explanation": "本句的「go both ways」指「某種責任、影響或原則對雙方都適用」。",
       "sentenceIndex": 25,
@@ -1135,12 +978,9 @@ export default {
         "go both ways"
       ],
       "optionReasons": {
-        "both-mcq-11": "本句指「某種責任、影響或原則對雙方都適用」。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-13": "「前面提到的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。"
+        "both-mcq-11": "本句的「go both ways」指「某種責任、影響或原則對雙方都適用」。",
+        "both-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-11"
     },
@@ -1152,11 +992,8 @@ export default {
       "masked": "Communication has to go ____ ways.",
       "options": [
         "both-mcq-11",
-        "both-mcq-10",
-        "both-mcq-12",
-        "both-mcq-09",
-        "both-mcq-13",
-        "both-mcq-08"
+        "both-pdf-001",
+        "both-mcq-04"
       ],
       "explanation": "本句的「both」指「某種責任、影響或原則對雙方都適用」。",
       "sentenceIndex": 26,
@@ -1165,12 +1002,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-11": "本句指「某種責任、影響或原則對雙方都適用」。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。",
-        "both-mcq-13": "「前面提到的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-08": "「兩個相對的邊；亦可指參與／對立的雙方」與本句語境不同。"
+        "both-mcq-11": "本句的「both」指「某種責任、影響或原則對雙方都適用」。",
+        "both-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-11"
     },
@@ -1182,11 +1016,7 @@ export default {
       "masked": "The two plants are ____.",
       "options": [
         "both-mcq-12",
-        "both-mcq-11",
-        "both-mcq-13",
-        "both-mcq-10",
-        "both-mcq-14",
-        "both-mcq-09"
+        "both-mcq-10"
       ],
       "explanation": "本句的「not both healthy」指「否定「兩者全部」；至少其中一個不符合」。",
       "sentenceIndex": 27,
@@ -1195,12 +1025,8 @@ export default {
         "not both healthy"
       ],
       "optionReasons": {
-        "both-mcq-12": "本句指「否定「兩者全部」；至少其中一個不符合」。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-13": "「前面提到的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-14": "「該代名詞所指的兩個人全部」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。"
+        "both-mcq-12": "本句的「not both healthy」指「否定「兩者全部」；至少其中一個不符合」。",
+        "both-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-12"
     },
@@ -1212,11 +1038,7 @@ export default {
       "masked": "They did not ____ agree.",
       "options": [
         "both-mcq-12",
-        "both-mcq-11",
-        "both-mcq-13",
-        "both-mcq-10",
-        "both-mcq-14",
-        "both-mcq-09"
+        "both-mcq-05"
       ],
       "explanation": "本句的「both」指「否定「兩者全部」；至少其中一個不符合」。",
       "sentenceIndex": 28,
@@ -1225,12 +1047,8 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-12": "本句指「否定「兩者全部」；至少其中一個不符合」。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-13": "「前面提到的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-14": "「該代名詞所指的兩個人全部」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。"
+        "both-mcq-12": "本句的「both」指「否定「兩者全部」；至少其中一個不符合」。",
+        "both-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-12"
     },
@@ -1242,11 +1060,8 @@ export default {
       "masked": "She has two sisters, ____ live abroad.",
       "options": [
         "both-mcq-13",
-        "both-mcq-12",
-        "both-mcq-14",
         "both-mcq-11",
-        "both-mcq-10",
-        "both-mcq-09"
+        "both-mcq-07"
       ],
       "explanation": "本句的「both of whom」指「前面提到的兩個人／事物全部」。",
       "sentenceIndex": 29,
@@ -1255,12 +1070,9 @@ export default {
         "both of whom"
       ],
       "optionReasons": {
-        "both-mcq-13": "本句指「前面提到的兩個人／事物全部」。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-14": "「該代名詞所指的兩個人全部」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。"
+        "both-mcq-13": "本句的「both of whom」指「前面提到的兩個人／事物全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-13"
     },
@@ -1272,11 +1084,8 @@ export default {
       "masked": "The garden has two lemon trees, ____ of which are healthy.",
       "options": [
         "both-mcq-13",
-        "both-mcq-12",
-        "both-mcq-14",
         "both-mcq-11",
-        "both-mcq-10",
-        "both-mcq-09"
+        "both-mcq-07"
       ],
       "explanation": "本句的「both」指「前面提到的兩個人／事物全部」。",
       "sentenceIndex": 30,
@@ -1285,12 +1094,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-13": "本句指「前面提到的兩個人／事物全部」。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-14": "「該代名詞所指的兩個人全部」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。"
+        "both-mcq-13": "本句的「both」指「前面提到的兩個人／事物全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-13"
     },
@@ -1302,11 +1108,8 @@ export default {
       "masked": "____ enjoy gardening.",
       "options": [
         "both-mcq-14",
-        "both-mcq-13",
-        "both-mcq-12",
         "both-mcq-11",
-        "both-mcq-10",
-        "both-mcq-09"
+        "both-mcq-04"
       ],
       "explanation": "本句的「We both」指「該代名詞所指的兩個人全部」。",
       "sentenceIndex": 31,
@@ -1315,12 +1118,9 @@ export default {
         "We both"
       ],
       "optionReasons": {
-        "both-mcq-14": "本句指「該代名詞所指的兩個人全部」。",
-        "both-mcq-13": "「前面提到的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。"
+        "both-mcq-14": "本句的「We both」指「該代名詞所指的兩個人全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-14"
     },
@@ -1332,11 +1132,8 @@ export default {
       "masked": "You ____ did a great job.",
       "options": [
         "both-mcq-14",
-        "both-mcq-13",
-        "both-mcq-12",
         "both-mcq-11",
-        "both-mcq-10",
-        "both-mcq-09"
+        "both-mcq-04"
       ],
       "explanation": "本句的「both」指「該代名詞所指的兩個人全部」。",
       "sentenceIndex": 32,
@@ -1345,12 +1142,9 @@ export default {
         "both"
       ],
       "optionReasons": {
-        "both-mcq-14": "本句指「該代名詞所指的兩個人全部」。",
-        "both-mcq-13": "「前面提到的兩個人／事物全部」與本句語境不同。",
-        "both-mcq-12": "「否定「兩者全部」；至少其中一個不符合」與本句語境不同。",
-        "both-mcq-11": "「某種責任、影響或原則對雙方都適用」與本句語境不同。",
-        "both-mcq-10": "「兩個方向、兩種方式，或對雙方都成立」與本句語境不同。",
-        "both-mcq-09": "「某物的兩個端點全部」與本句語境不同。"
+        "both-mcq-14": "本句的「both」指「該代名詞所指的兩個人全部」。",
+        "both-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "both-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "both-mcq-14"
     }
@@ -1362,5 +1156,7 @@ export default {
     "sha256": "345ae503b71ab906c3612463c5112888007c3c0692b7f64edb3e9cc06ccf0652",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

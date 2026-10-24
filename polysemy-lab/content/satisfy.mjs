@@ -591,11 +591,8 @@ export default {
       "masked": "I was rarely ____.",
       "options": [
         "satisfy-pdf-001",
-        "satisfy-mcq-02",
-        "satisfy-mcq-03",
-        "satisfy-mcq-04",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-15",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfied with my work」指「覺得 X 達到自己的期望，因此感到滿意」。",
       "sentenceIndex": 0,
@@ -604,12 +601,9 @@ export default {
         "satisfied with my work"
       ],
       "optionReasons": {
-        "satisfy-pdf-001": "本句指「覺得 X 達到自己的期望，因此感到滿意」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-pdf-001": "本句的「satisfied with my work」指「覺得 X 達到自己的期望，因此感到滿意」。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-pdf-001"
     },
@@ -621,11 +615,8 @@ export default {
       "masked": "She was ____.",
       "options": [
         "satisfy-pdf-001",
-        "satisfy-mcq-02",
-        "satisfy-mcq-03",
-        "satisfy-mcq-04",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-13",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfied with the final result」指「覺得 X 達到自己的期望，因此感到滿意」。",
       "sentenceIndex": 1,
@@ -634,12 +625,9 @@ export default {
         "satisfied with the final result"
       ],
       "optionReasons": {
-        "satisfy-pdf-001": "本句指「覺得 X 達到自己的期望，因此感到滿意」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-pdf-001": "本句的「satisfied with the final result」指「覺得 X 達到自己的期望，因此感到滿意」。",
+        "satisfy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-pdf-001"
     },
@@ -651,11 +639,8 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "satisfy-pdf-001",
-        "satisfy-mcq-02",
-        "satisfy-mcq-03",
-        "satisfy-mcq-04",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-15",
+        "satisfy-mcq-16"
       ],
       "explanation": "本句的「satisfied with your progress」指「覺得 X 達到自己的期望，因此感到滿意」。",
       "sentenceIndex": 2,
@@ -664,12 +649,9 @@ export default {
         "satisfied with your progress"
       ],
       "optionReasons": {
-        "satisfy-pdf-001": "本句指「覺得 X 達到自己的期望，因此感到滿意」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-pdf-001": "本句的「satisfied with your progress」指「覺得 X 達到自己的期望，因此感到滿意」。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-pdf-001"
     },
@@ -681,11 +663,8 @@ export default {
       "masked": "The final version ____.",
       "options": [
         "satisfy-mcq-01",
-        "satisfy-mcq-02",
-        "satisfy-mcq-03",
-        "satisfy-mcq-04",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-14",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「satisfied the client」指「令某人滿意」。",
       "sentenceIndex": 3,
@@ -694,12 +673,9 @@ export default {
         "satisfied the client"
       ],
       "optionReasons": {
-        "satisfy-mcq-01": "本句指「令某人滿意」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-mcq-01": "本句的「satisfied the client」指「令某人滿意」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-01"
     },
@@ -711,11 +687,8 @@ export default {
       "masked": "It is impossible to ____.",
       "options": [
         "satisfy-mcq-01",
-        "satisfy-mcq-02",
-        "satisfy-mcq-03",
-        "satisfy-mcq-04",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-18",
+        "satisfy-mcq-14"
       ],
       "explanation": "本句的「satisfy everyone」指「令某人滿意」。",
       "sentenceIndex": 4,
@@ -724,12 +697,9 @@ export default {
         "satisfy everyone"
       ],
       "optionReasons": {
-        "satisfy-mcq-01": "本句指「令某人滿意」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-mcq-01": "本句的「satisfy everyone」指「令某人滿意」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-01"
     },
@@ -741,11 +711,7 @@ export default {
       "masked": "Finishing a difficult task can be very ____.",
       "options": [
         "satisfy-mcq-03",
-        "satisfy-mcq-02",
-        "satisfy-mcq-04",
-        "satisfy-mcq-01",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfying」指「令人滿足的」。",
       "sentenceIndex": 5,
@@ -754,12 +720,8 @@ export default {
         "satisfying"
       ],
       "optionReasons": {
-        "satisfy-mcq-03": "本句指「令人滿足的」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-01": "「令某人滿意」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-mcq-03": "本句的「satisfying」指「令人滿足的」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-03"
     },
@@ -771,11 +733,7 @@ export default {
       "masked": "It was a deeply ____.",
       "options": [
         "satisfy-mcq-03",
-        "satisfy-mcq-02",
-        "satisfy-mcq-04",
-        "satisfy-mcq-01",
-        "satisfy-mcq-05",
-        "satisfy-mcq-06"
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfying experience」指「令人滿足的」。",
       "sentenceIndex": 6,
@@ -784,12 +742,8 @@ export default {
         "satisfying experience"
       ],
       "optionReasons": {
-        "satisfy-mcq-03": "本句指「令人滿足的」。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-01": "「令某人滿意」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-mcq-03": "本句的「satisfying experience」指「令人滿足的」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-03"
     },
@@ -801,11 +755,7 @@ export default {
       "masked": "She smiled with ____.",
       "options": [
         "satisfy-mcq-04",
-        "satisfy-mcq-03",
-        "satisfy-mcq-05",
-        "satisfy-mcq-02",
-        "satisfy-mcq-06",
-        "satisfy-mcq-01"
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「satisfaction」指「滿意；滿足感」。",
       "sentenceIndex": 7,
@@ -814,12 +764,8 @@ export default {
         "satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-04": "本句指「滿意；滿足感」。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-01": "「令某人滿意」與本句語境不同。"
+        "satisfy-mcq-04": "本句的「satisfaction」指「滿意；滿足感」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-04"
     },
@@ -831,11 +777,7 @@ export default {
       "masked": "Finishing the project gave me a real sense of ____.",
       "options": [
         "satisfy-mcq-04",
-        "satisfy-mcq-03",
-        "satisfy-mcq-05",
-        "satisfy-mcq-02",
-        "satisfy-mcq-06",
-        "satisfy-mcq-01"
+        "satisfy-mcq-16"
       ],
       "explanation": "本句的「satisfaction」指「滿意；滿足感」。",
       "sentenceIndex": 8,
@@ -844,12 +786,8 @@ export default {
         "satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-04": "本句指「滿意；滿足感」。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-01": "「令某人滿意」與本句語境不同。"
+        "satisfy-mcq-04": "本句的「satisfaction」指「滿意；滿足感」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-04"
     },
@@ -861,11 +799,8 @@ export default {
       "masked": "I felt a strong ____ after finishing the assignment.",
       "options": [
         "satisfy-mcq-05",
-        "satisfy-mcq-04",
-        "satisfy-mcq-06",
-        "satisfy-mcq-03",
-        "satisfy-mcq-07",
-        "satisfy-mcq-02"
+        "satisfy-mcq-18",
+        "satisfy-mcq-06"
       ],
       "explanation": "本句的「sense of satisfaction」指「滿足感；成就感」。",
       "sentenceIndex": 9,
@@ -874,12 +809,9 @@ export default {
         "sense of satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-05": "本句指「滿足感；成就感」。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。"
+        "satisfy-mcq-05": "本句的「sense of satisfaction」指「滿足感；成就感」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-05"
     },
@@ -891,11 +823,8 @@ export default {
       "masked": "Helping others gives her a ____.",
       "options": [
         "satisfy-mcq-05",
-        "satisfy-mcq-04",
-        "satisfy-mcq-06",
-        "satisfy-mcq-03",
-        "satisfy-mcq-07",
-        "satisfy-mcq-02"
+        "satisfy-mcq-18",
+        "satisfy-mcq-06"
       ],
       "explanation": "本句的「sense of satisfaction」指「滿足感；成就感」。",
       "sentenceIndex": 10,
@@ -904,12 +833,9 @@ export default {
         "sense of satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-05": "本句指「滿足感；成就感」。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-02": "「對 X 滿意」與本句語境不同。"
+        "satisfy-mcq-05": "本句的「sense of satisfaction」指「滿足感；成就感」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-05"
     },
@@ -921,11 +847,8 @@ export default {
       "masked": "Flexible hours can improve ____.",
       "options": [
         "satisfy-mcq-06",
-        "satisfy-mcq-05",
-        "satisfy-mcq-07",
-        "satisfy-mcq-04",
-        "satisfy-mcq-08",
-        "satisfy-mcq-03"
+        "satisfy-mcq-13",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「job satisfaction」指「工作滿意度」。",
       "sentenceIndex": 11,
@@ -934,12 +857,9 @@ export default {
         "job satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-06": "本句指「工作滿意度」。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。"
+        "satisfy-mcq-06": "本句的「job satisfaction」指「工作滿意度」。",
+        "satisfy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-06"
     },
@@ -951,11 +871,8 @@ export default {
       "masked": "Salary is not the only factor affecting ____.",
       "options": [
         "satisfy-mcq-06",
-        "satisfy-mcq-05",
-        "satisfy-mcq-07",
-        "satisfy-mcq-04",
-        "satisfy-mcq-08",
-        "satisfy-mcq-03"
+        "satisfy-mcq-15",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「job satisfaction」指「工作滿意度」。",
       "sentenceIndex": 12,
@@ -964,12 +881,9 @@ export default {
         "job satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-06": "本句指「工作滿意度」。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-03": "「令人滿足的」與本句語境不同。"
+        "satisfy-mcq-06": "本句的「job satisfaction」指「工作滿意度」。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-06"
     },
@@ -981,11 +895,8 @@ export default {
       "masked": "The company measures ____ every year.",
       "options": [
         "satisfy-mcq-07",
-        "satisfy-mcq-06",
-        "satisfy-mcq-08",
-        "satisfy-mcq-05",
-        "satisfy-mcq-09",
-        "satisfy-mcq-04"
+        "satisfy-mcq-18",
+        "satisfy-mcq-15"
       ],
       "explanation": "本句的「customer satisfaction」指「顧客滿意度」。",
       "sentenceIndex": 13,
@@ -994,12 +905,9 @@ export default {
         "customer satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-07": "本句指「顧客滿意度」。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。"
+        "satisfy-mcq-07": "本句的「customer satisfaction」指「顧客滿意度」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-07"
     },
@@ -1011,11 +919,8 @@ export default {
       "masked": "Good service improves ____.",
       "options": [
         "satisfy-mcq-07",
-        "satisfy-mcq-06",
-        "satisfy-mcq-08",
-        "satisfy-mcq-05",
-        "satisfy-mcq-09",
-        "satisfy-mcq-04"
+        "satisfy-mcq-15",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「customer satisfaction」指「顧客滿意度」。",
       "sentenceIndex": 14,
@@ -1024,12 +929,9 @@ export default {
         "customer satisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-07": "本句指「顧客滿意度」。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-04": "「滿意；滿足感」與本句語境不同。"
+        "satisfy-mcq-07": "本句的「customer satisfaction」指「顧客滿意度」。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-07"
     },
@@ -1041,11 +943,8 @@ export default {
       "masked": "The programme was designed to ____.",
       "options": [
         "satisfy-mcq-08",
-        "satisfy-mcq-07",
-        "satisfy-mcq-09",
-        "satisfy-mcq-06",
-        "satisfy-mcq-10",
-        "satisfy-mcq-05"
+        "satisfy-mcq-16",
+        "satisfy-mcq-19"
       ],
       "explanation": "本句的「satisfy students' needs」指「滿足需要」。",
       "sentenceIndex": 15,
@@ -1054,12 +953,9 @@ export default {
         "satisfy students' needs"
       ],
       "optionReasons": {
-        "satisfy-mcq-08": "本句指「滿足需要」。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。"
+        "satisfy-mcq-08": "本句的「satisfy students' needs」指「滿足需要」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-08"
     },
@@ -1071,11 +967,8 @@ export default {
       "masked": "A good solution should ____.",
       "options": [
         "satisfy-mcq-08",
-        "satisfy-mcq-07",
-        "satisfy-mcq-09",
-        "satisfy-mcq-06",
-        "satisfy-mcq-10",
-        "satisfy-mcq-05"
+        "satisfy-mcq-17",
+        "satisfy-pdf-001"
       ],
       "explanation": "本句的「satisfy both practical and emotional needs」指「滿足需要」。",
       "sentenceIndex": 16,
@@ -1084,12 +977,9 @@ export default {
         "satisfy both practical and emotional needs"
       ],
       "optionReasons": {
-        "satisfy-mcq-08": "本句指「滿足需要」。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-05": "「滿足感；成就感」與本句語境不同。"
+        "satisfy-mcq-08": "本句的「satisfy both practical and emotional needs」指「滿足需要」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "satisfy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-08"
     },
@@ -1101,11 +991,8 @@ export default {
       "masked": "Production increased to ____.",
       "options": [
         "satisfy-mcq-09",
-        "satisfy-mcq-08",
-        "satisfy-mcq-10",
-        "satisfy-mcq-07",
-        "satisfy-mcq-11",
-        "satisfy-mcq-06"
+        "satisfy-mcq-18",
+        "satisfy-mcq-19"
       ],
       "explanation": "本句的「satisfy demand」指「滿足需求」。",
       "sentenceIndex": 17,
@@ -1114,12 +1001,9 @@ export default {
         "satisfy demand"
       ],
       "optionReasons": {
-        "satisfy-mcq-09": "本句指「滿足需求」。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-mcq-09": "本句的「satisfy demand」指「滿足需求」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-09"
     },
@@ -1131,11 +1015,8 @@ export default {
       "masked": "The company could not produce enough units to ____.",
       "options": [
         "satisfy-mcq-09",
-        "satisfy-mcq-08",
-        "satisfy-mcq-10",
-        "satisfy-mcq-07",
-        "satisfy-mcq-11",
-        "satisfy-mcq-06"
+        "satisfy-mcq-18",
+        "satisfy-mcq-19"
       ],
       "explanation": "本句的「satisfy customer demand」指「滿足需求」。",
       "sentenceIndex": 18,
@@ -1144,12 +1025,9 @@ export default {
         "satisfy customer demand"
       ],
       "optionReasons": {
-        "satisfy-mcq-09": "本句指「滿足需求」。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-06": "「工作滿意度」與本句語境不同。"
+        "satisfy-mcq-09": "本句的「satisfy customer demand」指「滿足需求」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-09"
     },
@@ -1161,11 +1039,8 @@ export default {
       "masked": "The snack was enough to ____.",
       "options": [
         "satisfy-mcq-10",
-        "satisfy-mcq-09",
-        "satisfy-mcq-11",
-        "satisfy-mcq-08",
-        "satisfy-mcq-12",
-        "satisfy-mcq-07"
+        "satisfy-mcq-16",
+        "satisfy-mcq-06"
       ],
       "explanation": "本句的「satisfy my hunger」指「解餓；滿足飢餓」。",
       "sentenceIndex": 19,
@@ -1174,12 +1049,9 @@ export default {
         "satisfy my hunger"
       ],
       "optionReasons": {
-        "satisfy-mcq-10": "本句指「解餓；滿足飢餓」。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。"
+        "satisfy-mcq-10": "本句的「satisfy my hunger」指「解餓；滿足飢餓」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-10"
     },
@@ -1191,10 +1063,7 @@ export default {
       "masked": "The meal did not fully ____.",
       "options": [
         "satisfy-mcq-10",
-        "satisfy-mcq-09",
-        "satisfy-mcq-11",
-        "satisfy-mcq-08",
-        "satisfy-mcq-12",
+        "satisfy-mcq-16",
         "satisfy-mcq-07"
       ],
       "explanation": "本句的「satisfy his appetite」指「解餓；滿足飢餓」。",
@@ -1204,12 +1073,9 @@ export default {
         "satisfy his appetite"
       ],
       "optionReasons": {
-        "satisfy-mcq-10": "本句指「解餓；滿足飢餓」。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-07": "「顧客滿意度」與本句語境不同。"
+        "satisfy-mcq-10": "本句的「satisfy his appetite」指「解餓；滿足飢餓」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-10"
     },
@@ -1221,11 +1087,8 @@ export default {
       "masked": "I opened the box to ____.",
       "options": [
         "satisfy-mcq-11",
-        "satisfy-mcq-10",
-        "satisfy-mcq-12",
-        "satisfy-mcq-09",
-        "satisfy-mcq-13",
-        "satisfy-mcq-08"
+        "satisfy-mcq-16",
+        "satisfy-mcq-07"
       ],
       "explanation": "本句的「satisfy my curiosity」指「滿足好奇心」。",
       "sentenceIndex": 21,
@@ -1234,12 +1097,9 @@ export default {
         "satisfy my curiosity"
       ],
       "optionReasons": {
-        "satisfy-mcq-11": "本句指「滿足好奇心」。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。"
+        "satisfy-mcq-11": "本句的「satisfy my curiosity」指「滿足好奇心」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-11"
     },
@@ -1251,11 +1111,8 @@ export default {
       "masked": "The explanation did little to ____.",
       "options": [
         "satisfy-mcq-11",
-        "satisfy-mcq-10",
-        "satisfy-mcq-12",
-        "satisfy-mcq-09",
-        "satisfy-mcq-13",
-        "satisfy-mcq-08"
+        "satisfy-mcq-16",
+        "satisfy-pdf-001"
       ],
       "explanation": "本句的「satisfy her curiosity」指「滿足好奇心」。",
       "sentenceIndex": 22,
@@ -1264,12 +1121,9 @@ export default {
         "satisfy her curiosity"
       ],
       "optionReasons": {
-        "satisfy-mcq-11": "本句指「滿足好奇心」。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-08": "「滿足需要」與本句語境不同。"
+        "satisfy-mcq-11": "本句的「satisfy her curiosity」指「滿足好奇心」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "satisfy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-11"
     },
@@ -1281,11 +1135,8 @@ export default {
       "masked": "Buying more things will not necessarily ____.",
       "options": [
         "satisfy-mcq-12",
-        "satisfy-mcq-11",
-        "satisfy-mcq-13",
-        "satisfy-mcq-10",
-        "satisfy-mcq-14",
-        "satisfy-mcq-09"
+        "satisfy-mcq-17",
+        "satisfy-mcq-19"
       ],
       "explanation": "本句的「satisfy every desire」指「滿足願望」。",
       "sentenceIndex": 23,
@@ -1294,12 +1145,9 @@ export default {
         "satisfy every desire"
       ],
       "optionReasons": {
-        "satisfy-mcq-12": "本句指「滿足願望」。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。"
+        "satisfy-mcq-12": "本句的「satisfy every desire」指「滿足願望」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-12"
     },
@@ -1311,11 +1159,8 @@ export default {
       "masked": "The trip ____ to see the mountains.",
       "options": [
         "satisfy-mcq-12",
-        "satisfy-mcq-11",
-        "satisfy-mcq-13",
-        "satisfy-mcq-10",
-        "satisfy-mcq-14",
-        "satisfy-mcq-09"
+        "satisfy-mcq-18",
+        "satisfy-mcq-06"
       ],
       "explanation": "本句的「satisfied his wish」指「滿足願望」。",
       "sentenceIndex": 24,
@@ -1324,12 +1169,9 @@ export default {
         "satisfied his wish"
       ],
       "optionReasons": {
-        "satisfy-mcq-12": "本句指「滿足願望」。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-09": "「滿足需求」與本句語境不同。"
+        "satisfy-mcq-12": "本句的「satisfied his wish」指「滿足願望」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-12"
     },
@@ -1341,11 +1183,8 @@ export default {
       "masked": "The applicant must ____.",
       "options": [
         "satisfy-mcq-13",
-        "satisfy-mcq-12",
-        "satisfy-mcq-14",
-        "satisfy-mcq-11",
-        "satisfy-mcq-15",
-        "satisfy-mcq-10"
+        "satisfy-mcq-22",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfy all the requirements」指「符合要求」。",
       "sentenceIndex": 25,
@@ -1354,12 +1193,9 @@ export default {
         "satisfy all the requirements"
       ],
       "optionReasons": {
-        "satisfy-mcq-13": "本句指「符合要求」。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。"
+        "satisfy-mcq-13": "本句的「satisfy all the requirements」指「符合要求」。",
+        "satisfy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-13"
     },
@@ -1371,11 +1207,8 @@ export default {
       "masked": "The product ____.",
       "options": [
         "satisfy-mcq-13",
-        "satisfy-mcq-12",
-        "satisfy-mcq-14",
-        "satisfy-mcq-11",
-        "satisfy-mcq-15",
-        "satisfy-mcq-10"
+        "satisfy-mcq-22",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「satisfies international safety requirements」指「符合要求」。",
       "sentenceIndex": 26,
@@ -1384,12 +1217,9 @@ export default {
         "satisfies international safety requirements"
       ],
       "optionReasons": {
-        "satisfy-mcq-13": "本句指「符合要求」。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-10": "「解餓；滿足飢餓」與本句語境不同。"
+        "satisfy-mcq-13": "本句的「satisfies international safety requirements」指「符合要求」。",
+        "satisfy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-13"
     },
@@ -1401,11 +1231,8 @@ export default {
       "masked": "You must ____ before applying.",
       "options": [
         "satisfy-mcq-14",
-        "satisfy-mcq-13",
-        "satisfy-mcq-15",
-        "satisfy-mcq-12",
-        "satisfy-mcq-16",
-        "satisfy-mcq-11"
+        "satisfy-mcq-01",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「satisfy certain conditions」指「符合條件」。",
       "sentenceIndex": 27,
@@ -1414,12 +1241,9 @@ export default {
         "satisfy certain conditions"
       ],
       "optionReasons": {
-        "satisfy-mcq-14": "本句指「符合條件」。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。"
+        "satisfy-mcq-14": "本句的「satisfy certain conditions」指「符合條件」。",
+        "satisfy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-14"
     },
@@ -1431,11 +1255,8 @@ export default {
       "masked": "The agreement becomes valid only if these conditions are ____.",
       "options": [
         "satisfy-mcq-14",
-        "satisfy-mcq-13",
-        "satisfy-mcq-15",
-        "satisfy-mcq-12",
-        "satisfy-mcq-16",
-        "satisfy-mcq-11"
+        "satisfy-mcq-06",
+        "satisfy-mcq-16"
       ],
       "explanation": "本句的「satisfied」指「符合條件」。",
       "sentenceIndex": 28,
@@ -1444,12 +1265,9 @@ export default {
         "satisfied"
       ],
       "optionReasons": {
-        "satisfy-mcq-14": "本句指「符合條件」。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-11": "「滿足好奇心」與本句語境不同。"
+        "satisfy-mcq-14": "本句的「satisfied」指「符合條件」。",
+        "satisfy-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-14"
     },
@@ -1461,11 +1279,8 @@ export default {
       "masked": "The proposal did not ____.",
       "options": [
         "satisfy-mcq-15",
-        "satisfy-mcq-14",
-        "satisfy-mcq-16",
-        "satisfy-mcq-13",
-        "satisfy-mcq-17",
-        "satisfy-mcq-12"
+        "satisfy-mcq-01",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「satisfy the selection criteria」指「符合準則」。",
       "sentenceIndex": 29,
@@ -1474,12 +1289,9 @@ export default {
         "satisfy the selection criteria"
       ],
       "optionReasons": {
-        "satisfy-mcq-15": "本句指「符合準則」。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。"
+        "satisfy-mcq-15": "本句的「satisfy the selection criteria」指「符合準則」。",
+        "satisfy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-15"
     },
@@ -1491,11 +1303,8 @@ export default {
       "masked": "Only applicants who ____ will be considered.",
       "options": [
         "satisfy-mcq-15",
-        "satisfy-mcq-14",
-        "satisfy-mcq-16",
-        "satisfy-mcq-13",
-        "satisfy-mcq-17",
-        "satisfy-mcq-12"
+        "satisfy-pdf-001",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「satisfy the criteria」指「符合準則」。",
       "sentenceIndex": 30,
@@ -1504,12 +1313,9 @@ export default {
         "satisfy the criteria"
       ],
       "optionReasons": {
-        "satisfy-mcq-15": "本句指「符合準則」。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-12": "「滿足願望」與本句語境不同。"
+        "satisfy-mcq-15": "本句的「satisfy the criteria」指「符合準則」。",
+        "satisfy-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-15"
     },
@@ -1521,11 +1327,8 @@ export default {
       "masked": "The manager was ____.",
       "options": [
         "satisfy-mcq-16",
-        "satisfy-mcq-15",
-        "satisfy-mcq-17",
-        "satisfy-mcq-14",
-        "satisfy-mcq-18",
-        "satisfy-mcq-13"
+        "satisfy-mcq-22",
+        "satisfy-mcq-15"
       ],
       "explanation": "本句的「satisfied that the problem had been fixed」指「確信……」。",
       "sentenceIndex": 33,
@@ -1534,12 +1337,9 @@ export default {
         "satisfied that the problem had been fixed"
       ],
       "optionReasons": {
-        "satisfy-mcq-16": "本句指「確信……」。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。"
+        "satisfy-mcq-16": "本句的「satisfied that the problem had been fixed」指「確信……」。",
+        "satisfy-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-16"
     },
@@ -1551,10 +1351,7 @@ export default {
       "masked": "I am ____.",
       "options": [
         "satisfy-mcq-16",
-        "satisfy-mcq-15",
-        "satisfy-mcq-17",
-        "satisfy-mcq-14",
-        "satisfy-mcq-18",
+        "satisfy-mcq-01",
         "satisfy-mcq-13"
       ],
       "explanation": "本句的「satisfied that she acted honestly」指「確信……」。",
@@ -1564,12 +1361,9 @@ export default {
         "satisfied that she acted honestly"
       ],
       "optionReasons": {
-        "satisfy-mcq-16": "本句指「確信……」。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-13": "「符合要求」與本句語境不同。"
+        "satisfy-mcq-16": "本句的「satisfied that she acted honestly」指「確信……」。",
+        "satisfy-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-16"
     },
@@ -1581,10 +1375,7 @@ export default {
       "masked": "You must ____.",
       "options": [
         "satisfy-mcq-17",
-        "satisfy-mcq-16",
-        "satisfy-mcq-18",
-        "satisfy-mcq-15",
-        "satisfy-mcq-19",
+        "satisfy-mcq-21",
         "satisfy-mcq-14"
       ],
       "explanation": "本句的「satisfy the examiner that your argument is valid」指「使某人確信……」。",
@@ -1594,12 +1385,9 @@ export default {
         "satisfy the examiner that your argument is valid"
       ],
       "optionReasons": {
-        "satisfy-mcq-17": "本句指「使某人確信……」。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。"
+        "satisfy-mcq-17": "本句的「satisfy the examiner that your argument is valid」指「使某人確信……」。",
+        "satisfy-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-17"
     },
@@ -1611,11 +1399,7 @@ export default {
       "masked": "The evidence ____.",
       "options": [
         "satisfy-mcq-17",
-        "satisfy-mcq-16",
-        "satisfy-mcq-18",
-        "satisfy-mcq-15",
-        "satisfy-mcq-19",
-        "satisfy-mcq-14"
+        "satisfy-mcq-24"
       ],
       "explanation": "本句的「satisfied the committee that no rule had been broken」指「使某人確信……」。",
       "sentenceIndex": 36,
@@ -1624,12 +1408,8 @@ export default {
         "satisfied the committee that no rule had been broken"
       ],
       "optionReasons": {
-        "satisfy-mcq-17": "本句指「使某人確信……」。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-14": "「符合條件」與本句語境不同。"
+        "satisfy-mcq-17": "本句的「satisfied the committee that no rule had been broken」指「使某人確信……」。",
+        "satisfy-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-17"
     },
@@ -1641,11 +1421,8 @@ export default {
       "masked": "You should ____.",
       "options": [
         "satisfy-mcq-18",
-        "satisfy-mcq-17",
         "satisfy-mcq-19",
-        "satisfy-mcq-16",
-        "satisfy-mcq-20",
-        "satisfy-mcq-15"
+        "satisfy-mcq-13"
       ],
       "explanation": "本句的「satisfy yourself that the information is correct」指「親自確認……」。",
       "sentenceIndex": 37,
@@ -1654,12 +1431,9 @@ export default {
         "satisfy yourself that the information is correct"
       ],
       "optionReasons": {
-        "satisfy-mcq-18": "本句指「親自確認……」。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。"
+        "satisfy-mcq-18": "本句的「satisfy yourself that the information is correct」指「親自確認……」。",
+        "satisfy-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-18"
     },
@@ -1671,11 +1445,8 @@ export default {
       "masked": "Before signing, ____.",
       "options": [
         "satisfy-mcq-18",
-        "satisfy-mcq-17",
-        "satisfy-mcq-19",
-        "satisfy-mcq-16",
-        "satisfy-mcq-20",
-        "satisfy-mcq-15"
+        "satisfy-mcq-07",
+        "satisfy-mcq-14"
       ],
       "explanation": "本句的「satisfy yourself that you understand the terms」指「親自確認……」。",
       "sentenceIndex": 38,
@@ -1684,12 +1455,9 @@ export default {
         "satisfy yourself that you understand the terms"
       ],
       "optionReasons": {
-        "satisfy-mcq-18": "本句指「親自確認……」。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-15": "「符合準則」與本句語境不同。"
+        "satisfy-mcq-18": "本句的「satisfy yourself that you understand the terms」指「親自確認……」。",
+        "satisfy-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-18"
     },
@@ -1701,11 +1469,8 @@ export default {
       "masked": "His performance was ____.",
       "options": [
         "satisfy-mcq-19",
-        "satisfy-mcq-18",
-        "satisfy-mcq-20",
         "satisfy-mcq-17",
-        "satisfy-mcq-21",
-        "satisfy-mcq-16"
+        "satisfy-mcq-14"
       ],
       "explanation": "本句的「satisfactory」指「令人滿意的；達標的」。",
       "sentenceIndex": 39,
@@ -1714,12 +1479,9 @@ export default {
         "satisfactory"
       ],
       "optionReasons": {
-        "satisfy-mcq-19": "本句指「令人滿意的；達標的」。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。"
+        "satisfy-mcq-19": "本句的「satisfactory」指「令人滿意的；達標的」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-19"
     },
@@ -1731,10 +1493,7 @@ export default {
       "masked": "We found a ____.",
       "options": [
         "satisfy-mcq-19",
-        "satisfy-mcq-18",
-        "satisfy-mcq-20",
-        "satisfy-mcq-17",
-        "satisfy-mcq-21",
+        "satisfy-mcq-13",
         "satisfy-mcq-16"
       ],
       "explanation": "本句的「satisfactory solution」指「令人滿意的；達標的」。",
@@ -1744,12 +1503,9 @@ export default {
         "satisfactory solution"
       ],
       "optionReasons": {
-        "satisfy-mcq-19": "本句指「令人滿意的；達標的」。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。"
+        "satisfy-mcq-19": "本句的「satisfactory solution」指「令人滿意的；達標的」。",
+        "satisfy-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-19"
     },
@@ -1761,11 +1517,8 @@ export default {
       "masked": "The investigation reached a ____.",
       "options": [
         "satisfy-mcq-19",
-        "satisfy-mcq-18",
-        "satisfy-mcq-20",
-        "satisfy-mcq-17",
-        "satisfy-mcq-21",
-        "satisfy-mcq-16"
+        "satisfy-mcq-14",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfactory result」指「令人滿意的；達標的」。",
       "sentenceIndex": 41,
@@ -1774,12 +1527,9 @@ export default {
         "satisfactory result"
       ],
       "optionReasons": {
-        "satisfy-mcq-19": "本句指「令人滿意的；達標的」。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。"
+        "satisfy-mcq-19": "本句的「satisfactory result」指「令人滿意的；達標的」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-19"
     },
@@ -1791,11 +1541,8 @@ export default {
       "masked": "We were unable to find a ____.",
       "options": [
         "satisfy-mcq-19",
-        "satisfy-mcq-18",
-        "satisfy-mcq-20",
         "satisfy-mcq-17",
-        "satisfy-mcq-21",
-        "satisfy-mcq-16"
+        "satisfy-mcq-15"
       ],
       "explanation": "本句的「satisfactory answer」指「令人滿意的；達標的」。",
       "sentenceIndex": 42,
@@ -1804,12 +1551,9 @@ export default {
         "satisfactory answer"
       ],
       "optionReasons": {
-        "satisfy-mcq-19": "本句指「令人滿意的；達標的」。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-16": "「確信……」與本句語境不同。"
+        "satisfy-mcq-19": "本句的「satisfactory answer」指「令人滿意的；達標的」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-19"
     },
@@ -1821,10 +1565,7 @@ export default {
       "masked": "The issue was resolved ____.",
       "options": [
         "satisfy-mcq-20",
-        "satisfy-mcq-19",
-        "satisfy-mcq-21",
-        "satisfy-mcq-18",
-        "satisfy-mcq-22",
+        "satisfy-mcq-14",
         "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfactorily」指「令人滿意地」。",
@@ -1834,12 +1575,9 @@ export default {
         "satisfactorily"
       ],
       "optionReasons": {
-        "satisfy-mcq-20": "本句指「令人滿意地」。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。"
+        "satisfy-mcq-20": "本句的「satisfactorily」指「令人滿意地」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-20"
     },
@@ -1851,11 +1589,8 @@ export default {
       "masked": "The machine is now working ____.",
       "options": [
         "satisfy-mcq-20",
-        "satisfy-mcq-19",
-        "satisfy-mcq-21",
         "satisfy-mcq-18",
-        "satisfy-mcq-22",
-        "satisfy-mcq-17"
+        "satisfy-mcq-14"
       ],
       "explanation": "本句的「satisfactorily」指「令人滿意地」。",
       "sentenceIndex": 44,
@@ -1864,12 +1599,9 @@ export default {
         "satisfactorily"
       ],
       "optionReasons": {
-        "satisfy-mcq-20": "本句指「令人滿意地」。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-17": "「使某人確信……」與本句語境不同。"
+        "satisfy-mcq-20": "本句的「satisfactorily」指「令人滿意地」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-20"
     },
@@ -1881,10 +1613,7 @@ export default {
       "masked": "His explanation was ____.",
       "options": [
         "satisfy-mcq-21",
-        "satisfy-mcq-20",
-        "satisfy-mcq-22",
-        "satisfy-mcq-19",
-        "satisfy-mcq-23",
+        "satisfy-mcq-14",
         "satisfy-mcq-18"
       ],
       "explanation": "本句的「unsatisfactory」指「不令人滿意的」。",
@@ -1894,12 +1623,9 @@ export default {
         "unsatisfactory"
       ],
       "optionReasons": {
-        "satisfy-mcq-21": "本句指「不令人滿意的」。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。"
+        "satisfy-mcq-21": "本句的「unsatisfactory」指「不令人滿意的」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-21"
     },
@@ -1911,11 +1637,8 @@ export default {
       "masked": "The overall performance was ____.",
       "options": [
         "satisfy-mcq-21",
-        "satisfy-mcq-20",
-        "satisfy-mcq-22",
-        "satisfy-mcq-19",
-        "satisfy-mcq-23",
-        "satisfy-mcq-18"
+        "satisfy-mcq-14",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「unsatisfactory」指「不令人滿意的」。",
       "sentenceIndex": 46,
@@ -1924,12 +1647,9 @@ export default {
         "unsatisfactory"
       ],
       "optionReasons": {
-        "satisfy-mcq-21": "本句指「不令人滿意的」。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-18": "「親自確認……」與本句語境不同。"
+        "satisfy-mcq-21": "本句的「unsatisfactory」指「不令人滿意的」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-21"
     },
@@ -1941,11 +1661,8 @@ export default {
       "masked": "She was ____.",
       "options": [
         "satisfy-mcq-22",
-        "satisfy-mcq-21",
-        "satisfy-mcq-23",
-        "satisfy-mcq-20",
-        "satisfy-mcq-24",
-        "satisfy-mcq-19"
+        "satisfy-mcq-15",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「dissatisfied with the service」指「不滿意的」。",
       "sentenceIndex": 47,
@@ -1954,12 +1671,9 @@ export default {
         "dissatisfied with the service"
       ],
       "optionReasons": {
-        "satisfy-mcq-22": "本句指「不滿意的」。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-24": "「滿足方程式」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。"
+        "satisfy-mcq-22": "本句的「dissatisfied with the service」指「不滿意的」。",
+        "satisfy-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-22"
     },
@@ -1971,11 +1685,8 @@ export default {
       "masked": "Many employees were ____.",
       "options": [
         "satisfy-mcq-22",
-        "satisfy-mcq-21",
-        "satisfy-mcq-23",
-        "satisfy-mcq-20",
-        "satisfy-mcq-24",
-        "satisfy-mcq-19"
+        "satisfy-mcq-14",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「dissatisfied with the new system」指「不滿意的」。",
       "sentenceIndex": 48,
@@ -1984,12 +1695,9 @@ export default {
         "dissatisfied with the new system"
       ],
       "optionReasons": {
-        "satisfy-mcq-22": "本句指「不滿意的」。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。",
-        "satisfy-mcq-24": "「滿足方程式」與本句語境不同。",
-        "satisfy-mcq-19": "「令人滿意的；達標的」與本句語境不同。"
+        "satisfy-mcq-22": "本句的「dissatisfied with the new system」指「不滿意的」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-22"
     },
@@ -2001,11 +1709,8 @@ export default {
       "masked": "Employees expressed their ____.",
       "options": [
         "satisfy-mcq-23",
-        "satisfy-mcq-22",
-        "satisfy-mcq-24",
-        "satisfy-mcq-21",
-        "satisfy-mcq-25",
-        "satisfy-mcq-20"
+        "satisfy-mcq-14",
+        "satisfy-mcq-18"
       ],
       "explanation": "本句的「dissatisfaction」指「不滿」。",
       "sentenceIndex": 49,
@@ -2014,12 +1719,9 @@ export default {
         "dissatisfaction"
       ],
       "optionReasons": {
-        "satisfy-mcq-23": "本句指「不滿」。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-24": "「滿足方程式」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-25": "「滿足數學條件」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。"
+        "satisfy-mcq-23": "本句的「dissatisfaction」指「不滿」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-23"
     },
@@ -2031,11 +1733,8 @@ export default {
       "masked": "There was growing ____.",
       "options": [
         "satisfy-mcq-23",
-        "satisfy-mcq-22",
-        "satisfy-mcq-24",
-        "satisfy-mcq-21",
-        "satisfy-mcq-25",
-        "satisfy-mcq-20"
+        "satisfy-mcq-14",
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「dissatisfaction with the service」指「不滿」。",
       "sentenceIndex": 50,
@@ -2044,12 +1743,9 @@ export default {
         "dissatisfaction with the service"
       ],
       "optionReasons": {
-        "satisfy-mcq-23": "本句指「不滿」。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-24": "「滿足方程式」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-25": "「滿足數學條件」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。"
+        "satisfy-mcq-23": "本句的「dissatisfaction with the service」指「不滿」。",
+        "satisfy-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-23"
     },
@@ -2061,11 +1757,7 @@ export default {
       "masked": "Which values ____?",
       "options": [
         "satisfy-mcq-24",
-        "satisfy-mcq-23",
-        "satisfy-mcq-25",
-        "satisfy-mcq-22",
-        "satisfy-mcq-21",
-        "satisfy-mcq-20"
+        "satisfy-mcq-16"
       ],
       "explanation": "本句的「satisfy the equation」指「滿足方程式」。",
       "sentenceIndex": 51,
@@ -2074,12 +1766,8 @@ export default {
         "satisfy the equation"
       ],
       "optionReasons": {
-        "satisfy-mcq-24": "本句指「滿足方程式」。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-25": "「滿足數學條件」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。"
+        "satisfy-mcq-24": "本句的「satisfy the equation」指「滿足方程式」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-24"
     },
@@ -2091,11 +1779,7 @@ export default {
       "masked": "Both answers ____.",
       "options": [
         "satisfy-mcq-24",
-        "satisfy-mcq-23",
-        "satisfy-mcq-25",
-        "satisfy-mcq-22",
-        "satisfy-mcq-21",
-        "satisfy-mcq-20"
+        "satisfy-mcq-17"
       ],
       "explanation": "本句的「satisfy the equation」指「滿足方程式」。",
       "sentenceIndex": 52,
@@ -2104,12 +1788,8 @@ export default {
         "satisfy the equation"
       ],
       "optionReasons": {
-        "satisfy-mcq-24": "本句指「滿足方程式」。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-25": "「滿足數學條件」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。"
+        "satisfy-mcq-24": "本句的「satisfy the equation」指「滿足方程式」。",
+        "satisfy-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-24"
     },
@@ -2121,11 +1801,8 @@ export default {
       "masked": "The solution must ____.",
       "options": [
         "satisfy-mcq-25",
-        "satisfy-mcq-24",
-        "satisfy-mcq-23",
-        "satisfy-mcq-22",
-        "satisfy-mcq-21",
-        "satisfy-mcq-20"
+        "satisfy-mcq-18",
+        "satisfy-pdf-001"
       ],
       "explanation": "本句的「satisfy both conditions」指「滿足數學條件」。",
       "sentenceIndex": 53,
@@ -2134,12 +1811,9 @@ export default {
         "satisfy both conditions"
       ],
       "optionReasons": {
-        "satisfy-mcq-25": "本句指「滿足數學條件」。",
-        "satisfy-mcq-24": "「滿足方程式」與本句語境不同。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。"
+        "satisfy-mcq-25": "本句的「satisfy both conditions」指「滿足數學條件」。",
+        "satisfy-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "satisfy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-25"
     },
@@ -2151,11 +1825,8 @@ export default {
       "masked": "Not every number ____.",
       "options": [
         "satisfy-mcq-25",
-        "satisfy-mcq-24",
-        "satisfy-mcq-23",
-        "satisfy-mcq-22",
-        "satisfy-mcq-21",
-        "satisfy-mcq-20"
+        "satisfy-mcq-16",
+        "satisfy-pdf-001"
       ],
       "explanation": "本句的「satisfies this condition」指「滿足數學條件」。",
       "sentenceIndex": 54,
@@ -2164,12 +1835,9 @@ export default {
         "satisfies this condition"
       ],
       "optionReasons": {
-        "satisfy-mcq-25": "本句指「滿足數學條件」。",
-        "satisfy-mcq-24": "「滿足方程式」與本句語境不同。",
-        "satisfy-mcq-23": "「不滿」與本句語境不同。",
-        "satisfy-mcq-22": "「不滿意的」與本句語境不同。",
-        "satisfy-mcq-21": "「不令人滿意的」與本句語境不同。",
-        "satisfy-mcq-20": "「令人滿意地」與本句語境不同。"
+        "satisfy-mcq-25": "本句的「satisfies this condition」指「滿足數學條件」。",
+        "satisfy-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "satisfy-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "satisfy-mcq-25"
     }
@@ -2181,5 +1849,7 @@ export default {
     "sha256": "324137229283171f8c3b51a1b6d7f82ab8173929ecbf568aaf0b51e22db5a454",
     "pages": 22
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

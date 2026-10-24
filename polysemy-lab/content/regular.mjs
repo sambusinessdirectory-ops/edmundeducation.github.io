@@ -262,11 +262,8 @@ export default {
       "masked": "We have ____ meetings every Friday.",
       "options": [
         "regular-mcq-01",
-        "regular-mcq-02",
         "regular-mcq-03",
-        "regular-mcq-04",
-        "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-07"
       ],
       "explanation": "本句的「regular」指「按固定或穩定時間／次序重複發生的；定期、規律的」。",
       "sentenceIndex": 0,
@@ -275,12 +272,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-01": "本句指「按固定或穩定時間／次序重複發生的；定期、規律的」。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-01": "本句的「regular」指「按固定或穩定時間／次序重複發生的；定期、規律的」。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-01"
     },
@@ -292,11 +286,8 @@ export default {
       "masked": "The bus runs at ____ intervals.",
       "options": [
         "regular-mcq-01",
-        "regular-mcq-02",
         "regular-mcq-03",
-        "regular-mcq-04",
-        "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-07"
       ],
       "explanation": "本句的「regular」指「按固定或穩定時間／次序重複發生的；定期、規律的」。",
       "sentenceIndex": 1,
@@ -305,12 +296,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-01": "本句指「按固定或穩定時間／次序重複發生的；定期、規律的」。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-01": "本句的「regular」指「按固定或穩定時間／次序重複發生的；定期、規律的」。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-01"
     },
@@ -322,11 +310,8 @@ export default {
       "masked": "Even people who are not ____ seem to know its name.",
       "options": [
         "regular-mcq-02",
-        "regular-mcq-01",
-        "regular-mcq-03",
-        "regular-mcq-04",
         "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-10"
       ],
       "explanation": "本句的「regular readers」指「經常進行某活動、到訪某地或把某事當成習慣的」。",
       "sentenceIndex": 2,
@@ -335,12 +320,9 @@ export default {
         "regular readers"
       ],
       "optionReasons": {
-        "regular-mcq-02": "本句指「經常進行某活動、到訪某地或把某事當成習慣的」。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-02": "本句的「regular readers」指「經常進行某活動、到訪某地或把某事當成習慣的」。",
+        "regular-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-02"
     },
@@ -352,11 +334,8 @@ export default {
       "masked": "She is a ____ customer at the café.",
       "options": [
         "regular-mcq-02",
-        "regular-mcq-01",
-        "regular-mcq-03",
-        "regular-mcq-04",
         "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-10"
       ],
       "explanation": "本句的「regular」指「經常進行某活動、到訪某地或把某事當成習慣的」。",
       "sentenceIndex": 3,
@@ -365,12 +344,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-02": "本句指「經常進行某活動、到訪某地或把某事當成習慣的」。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-02": "本句的「regular」指「經常進行某活動、到訪某地或把某事當成習慣的」。",
+        "regular-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-02"
     },
@@ -383,10 +359,7 @@ export default {
       "options": [
         "regular-mcq-02",
         "regular-mcq-01",
-        "regular-mcq-03",
-        "regular-mcq-04",
-        "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-03"
       ],
       "explanation": "本句的「regular」指「經常進行某活動、到訪某地或把某事當成習慣的」。",
       "sentenceIndex": 4,
@@ -395,12 +368,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-02": "本句指「經常進行某活動、到訪某地或把某事當成習慣的」。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-02": "本句的「regular」指「經常進行某活動、到訪某地或把某事當成習慣的」。",
+        "regular-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-02"
     },
@@ -412,11 +382,7 @@ export default {
       "masked": "I ordered a ____ coffee.",
       "options": [
         "regular-mcq-03",
-        "regular-mcq-02",
-        "regular-mcq-04",
-        "regular-mcq-01",
-        "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-08"
       ],
       "explanation": "本句的「regular」指「一般、普通、標準版本的；不是特殊或例外的」。",
       "sentenceIndex": 5,
@@ -425,12 +391,8 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-03": "本句指「一般、普通、標準版本的；不是特殊或例外的」。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-03": "本句的「regular」指「一般、普通、標準版本的；不是特殊或例外的」。",
+        "regular-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-03"
     },
@@ -442,11 +404,8 @@ export default {
       "masked": "This is the ____ version, not the premium one.",
       "options": [
         "regular-mcq-03",
-        "regular-mcq-02",
-        "regular-mcq-04",
         "regular-mcq-01",
-        "regular-mcq-05",
-        "regular-mcq-06"
+        "regular-mcq-07"
       ],
       "explanation": "本句的「regular」指「一般、普通、標準版本的；不是特殊或例外的」。",
       "sentenceIndex": 6,
@@ -455,12 +414,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-03": "本句指「一般、普通、標準版本的；不是特殊或例外的」。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。"
+        "regular-mcq-03": "本句的「regular」指「一般、普通、標準版本的；不是特殊或例外的」。",
+        "regular-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-03"
     },
@@ -472,11 +428,8 @@ export default {
       "masked": "The tiles were arranged in a ____ pattern.",
       "options": [
         "regular-mcq-04",
-        "regular-mcq-03",
-        "regular-mcq-05",
-        "regular-mcq-02",
-        "regular-mcq-06",
-        "regular-mcq-01"
+        "regular-mcq-07",
+        "regular-pdf-001"
       ],
       "explanation": "本句的「regular」指「形狀、排列或結構按一致規律形成的；規則的」。",
       "sentenceIndex": 7,
@@ -485,12 +438,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-04": "本句指「形狀、排列或結構按一致規律形成的；規則的」。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。"
+        "regular-mcq-04": "本句的「regular」指「形狀、排列或結構按一致規律形成的；規則的」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-04"
     },
@@ -502,11 +452,8 @@ export default {
       "masked": "The building has a ____ geometric shape.",
       "options": [
         "regular-mcq-04",
-        "regular-mcq-03",
-        "regular-mcq-05",
-        "regular-mcq-02",
-        "regular-mcq-06",
-        "regular-mcq-01"
+        "regular-mcq-07",
+        "regular-pdf-001"
       ],
       "explanation": "本句的「regular」指「形狀、排列或結構按一致規律形成的；規則的」。",
       "sentenceIndex": 8,
@@ -515,12 +462,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-04": "本句指「形狀、排列或結構按一致規律形成的；規則的」。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-01": "「按固定或穩定時間／次序重複發生的；定期、規律的」是「regular — repeated/scheduled」的用法，與本句語境不同。"
+        "regular-mcq-04": "本句的「regular」指「形狀、排列或結構按一致規律形成的；規則的」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-04"
     },
@@ -532,11 +476,8 @@ export default {
       "masked": "‘Walk’ is a ____ verb.",
       "options": [
         "regular-mcq-05",
-        "regular-mcq-04",
-        "regular-mcq-06",
-        "regular-mcq-03",
         "regular-mcq-07",
-        "regular-mcq-02"
+        "regular-pdf-001"
       ],
       "explanation": "本句的「regular」指「按一般規則或標準模式變化的」。",
       "sentenceIndex": 9,
@@ -545,12 +486,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-05": "本句指「按一般規則或標準模式變化的」。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。"
+        "regular-mcq-05": "本句的「regular」指「按一般規則或標準模式變化的」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-05"
     },
@@ -562,11 +500,8 @@ export default {
       "masked": "The plural follows the ____ pattern.",
       "options": [
         "regular-mcq-05",
-        "regular-mcq-04",
-        "regular-mcq-06",
-        "regular-mcq-03",
-        "regular-mcq-07",
-        "regular-mcq-02"
+        "regular-mcq-02",
+        "regular-mcq-10"
       ],
       "explanation": "本句的「regular」指「按一般規則或標準模式變化的」。",
       "sentenceIndex": 10,
@@ -575,12 +510,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-05": "本句指「按一般規則或標準模式變化的」。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-02": "「經常進行某活動、到訪某地或把某事當成習慣的」是「regular — habitual person/activity」的用法，與本句語境不同。"
+        "regular-mcq-05": "本句的「regular」指「按一般規則或標準模式變化的」。",
+        "regular-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-05"
     },
@@ -592,11 +524,8 @@ export default {
       "masked": "He became a ____ member of the team.",
       "options": [
         "regular-mcq-06",
-        "regular-mcq-05",
-        "regular-mcq-07",
-        "regular-mcq-04",
-        "regular-mcq-08",
-        "regular-mcq-03"
+        "regular-mcq-02",
+        "regular-mcq-10"
       ],
       "explanation": "本句的「regular」指「屬於正式、固定編制或主要制度內的」。",
       "sentenceIndex": 11,
@@ -605,12 +534,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-06": "本句指「屬於正式、固定編制或主要制度內的」。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。"
+        "regular-mcq-06": "本句的「regular」指「屬於正式、固定編制或主要制度內的」。",
+        "regular-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-06"
     },
@@ -622,11 +548,8 @@ export default {
       "masked": "The unit is part of the ____ army.",
       "options": [
         "regular-mcq-06",
-        "regular-mcq-05",
         "regular-mcq-07",
-        "regular-mcq-04",
-        "regular-mcq-08",
-        "regular-mcq-03"
+        "regular-mcq-10"
       ],
       "explanation": "本句的「regular」指「屬於正式、固定編制或主要制度內的」。",
       "sentenceIndex": 12,
@@ -635,12 +558,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-mcq-06": "本句指「屬於正式、固定編制或主要制度內的」。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-03": "「一般、普通、標準版本的；不是特殊或例外的」是「regular — normal/standard」的用法，與本句語境不同。"
+        "regular-mcq-06": "本句的「regular」指「屬於正式、固定編制或主要制度內的」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-06"
     },
@@ -652,11 +572,8 @@ export default {
       "masked": "Exercise can help keep your sleep pattern ____.",
       "options": [
         "regular-pdf-001",
-        "regular-mcq-07",
-        "regular-mcq-09",
-        "regular-mcq-06",
-        "regular-mcq-10",
-        "regular-mcq-05"
+        "regular-mcq-03",
+        "regular-mcq-07"
       ],
       "explanation": "本句的「regular」指「身體功能按穩定、正常節奏運作的」。",
       "sentenceIndex": 13,
@@ -665,12 +582,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-pdf-001": "本句指「身體功能按穩定、正常節奏運作的」。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-pdf-001": "本句的「regular」指「身體功能按穩定、正常節奏運作的」。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-pdf-001"
     },
@@ -682,11 +596,8 @@ export default {
       "masked": "Her heartbeat was slow but ____.",
       "options": [
         "regular-pdf-001",
-        "regular-mcq-07",
-        "regular-mcq-09",
-        "regular-mcq-06",
-        "regular-mcq-10",
-        "regular-mcq-05"
+        "regular-mcq-03",
+        "regular-mcq-07"
       ],
       "explanation": "本句的「regular」指「身體功能按穩定、正常節奏運作的」。",
       "sentenceIndex": 14,
@@ -695,12 +606,9 @@ export default {
         "regular"
       ],
       "optionReasons": {
-        "regular-pdf-001": "本句指「身體功能按穩定、正常節奏運作的」。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-pdf-001": "本句的「regular」指「身體功能按穩定、正常節奏運作的」。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-pdf-001"
     },
@@ -712,11 +620,8 @@ export default {
       "masked": "He is one of the café’s ____.",
       "options": [
         "regular-mcq-07",
-        "regular-mcq-06",
-        "regular-mcq-08",
         "regular-mcq-05",
-        "regular-mcq-09",
-        "regular-mcq-04"
+        "regular-mcq-01"
       ],
       "explanation": "本句的「regulars」指「經常光顧某地或參與某項活動的人；常客」。",
       "sentenceIndex": 15,
@@ -725,12 +630,9 @@ export default {
         "regulars"
       ],
       "optionReasons": {
-        "regular-mcq-07": "本句指「經常光顧某地或參與某項活動的人；常客」。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。"
+        "regular-mcq-07": "本句的「regulars」指「經常光顧某地或參與某項活動的人；常客」。",
+        "regular-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-07"
     },
@@ -742,11 +644,8 @@ export default {
       "masked": "Most of the ____ knew each other.",
       "options": [
         "regular-mcq-07",
-        "regular-mcq-06",
-        "regular-mcq-08",
-        "regular-mcq-05",
-        "regular-mcq-09",
-        "regular-mcq-04"
+        "regular-mcq-04",
+        "regular-pdf-001"
       ],
       "explanation": "本句的「regulars」指「經常光顧某地或參與某項活動的人；常客」。",
       "sentenceIndex": 16,
@@ -755,12 +654,9 @@ export default {
         "regulars"
       ],
       "optionReasons": {
-        "regular-mcq-07": "本句指「經常光顧某地或參與某項活動的人；常客」。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-04": "「形狀、排列或結構按一致規律形成的；規則的」是「regular — orderly/uniform」的用法，與本句語境不同。"
+        "regular-mcq-07": "本句的「regulars」指「經常光顧某地或參與某項活動的人；常客」。",
+        "regular-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "regular-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-07"
     },
@@ -772,11 +668,7 @@ export default {
       "masked": "She exercises ____.",
       "options": [
         "regular-mcq-08",
-        "regular-mcq-07",
-        "regular-mcq-09",
-        "regular-mcq-06",
-        "regular-mcq-10",
-        "regular-mcq-05"
+        "regular-mcq-03"
       ],
       "explanation": "本句的「regularly」指「定期地；有規律地；經常地」。",
       "sentenceIndex": 17,
@@ -785,12 +677,8 @@ export default {
         "regularly"
       ],
       "optionReasons": {
-        "regular-mcq-08": "本句指「定期地；有規律地；經常地」。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-mcq-08": "本句的「regularly」指「定期地；有規律地；經常地」。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-08"
     },
@@ -802,11 +690,7 @@ export default {
       "masked": "The equipment is checked ____.",
       "options": [
         "regular-mcq-08",
-        "regular-mcq-07",
-        "regular-mcq-09",
-        "regular-mcq-06",
-        "regular-mcq-10",
-        "regular-mcq-05"
+        "regular-mcq-03"
       ],
       "explanation": "本句的「regularly」指「定期地；有規律地；經常地」。",
       "sentenceIndex": 18,
@@ -815,12 +699,8 @@ export default {
         "regularly"
       ],
       "optionReasons": {
-        "regular-mcq-08": "本句指「定期地；有規律地；經常地」。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-mcq-08": "本句的「regularly」指「定期地；有規律地；經常地」。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-08"
     },
@@ -832,11 +712,8 @@ export default {
       "masked": "The ____ of the pattern is easy to see.",
       "options": [
         "regular-mcq-10",
-        "regular-mcq-09",
-        "regular-mcq-08",
         "regular-mcq-07",
-        "regular-mcq-06",
-        "regular-mcq-05"
+        "regular-mcq-03"
       ],
       "explanation": "本句的「regularity」指「重複、整齊、穩定或有規律的特性」。",
       "sentenceIndex": 19,
@@ -845,12 +722,9 @@ export default {
         "regularity"
       ],
       "optionReasons": {
-        "regular-mcq-10": "本句指「重複、整齊、穩定或有規律的特性」。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-mcq-10": "本句的「regularity」指「重複、整齊、穩定或有規律的特性」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-10"
     },
@@ -862,11 +736,8 @@ export default {
       "masked": "Exercise with some ____.",
       "options": [
         "regular-mcq-10",
-        "regular-mcq-09",
-        "regular-mcq-08",
         "regular-mcq-07",
-        "regular-mcq-06",
-        "regular-mcq-05"
+        "regular-mcq-09"
       ],
       "explanation": "本句的「regularity」指「重複、整齊、穩定或有規律的特性」。",
       "sentenceIndex": 20,
@@ -875,12 +746,9 @@ export default {
         "regularity"
       ],
       "optionReasons": {
-        "regular-mcq-10": "本句指「重複、整齊、穩定或有規律的特性」。",
-        "regular-mcq-09": "「不按固定、正常或標準模式發生／變化的」是「irregular」的用法，與本句語境不同。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-mcq-10": "本句的「regularity」指「重複、整齊、穩定或有規律的特性」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-10"
     },
@@ -892,11 +760,8 @@ export default {
       "masked": "The heartbeat became ____.",
       "options": [
         "regular-mcq-09",
-        "regular-mcq-08",
-        "regular-mcq-10",
         "regular-mcq-07",
-        "regular-mcq-06",
-        "regular-mcq-05"
+        "regular-mcq-10"
       ],
       "explanation": "本句的「irregular」指「不按固定、正常或標準模式發生／變化的」。",
       "sentenceIndex": 21,
@@ -905,12 +770,9 @@ export default {
         "irregular"
       ],
       "optionReasons": {
-        "regular-mcq-09": "本句指「不按固定、正常或標準模式發生／變化的」。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-mcq-09": "本句的「irregular」指「不按固定、正常或標準模式發生／變化的」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-09"
     },
@@ -922,11 +784,8 @@ export default {
       "masked": "‘Go’ is an ____ verb.",
       "options": [
         "regular-mcq-09",
-        "regular-mcq-08",
-        "regular-mcq-10",
         "regular-mcq-07",
-        "regular-mcq-06",
-        "regular-mcq-05"
+        "regular-mcq-10"
       ],
       "explanation": "本句的「irregular」指「不按固定、正常或標準模式發生／變化的」。",
       "sentenceIndex": 22,
@@ -935,12 +794,9 @@ export default {
         "irregular"
       ],
       "optionReasons": {
-        "regular-mcq-09": "本句指「不按固定、正常或標準模式發生／變化的」。",
-        "regular-mcq-08": "「定期地；有規律地；經常地」是「regularly」的用法，與本句語境不同。",
-        "regular-mcq-10": "「重複、整齊、穩定或有規律的特性」是「Related form: regularity」的用法，與本句語境不同。",
-        "regular-mcq-07": "「經常光顧某地或參與某項活動的人；常客」是「a regular」的用法，與本句語境不同。",
-        "regular-mcq-06": "「屬於正式、固定編制或主要制度內的」是「regular — official/permanent」的用法，與本句語境不同。",
-        "regular-mcq-05": "「按一般規則或標準模式變化的」是「regular — grammatical/system rule」的用法，與本句語境不同。"
+        "regular-mcq-09": "本句的「irregular」指「不按固定、正常或標準模式發生／變化的」。",
+        "regular-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "regular-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "regular-mcq-09"
     }
@@ -952,5 +808,7 @@ export default {
     "sha256": "f48158954f6f245e21fe8cda0fa12675821c960cd1479b0193e97db803b8eee2",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

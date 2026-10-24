@@ -529,11 +529,9 @@ export default {
       "masked": "She needs a system to ____ efficiently.",
       "options": [
         "manage-mcq-01",
-        "manage-mcq-02",
-        "manage-mcq-03",
-        "manage-mcq-04",
-        "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-14",
+        "manage-mcq-06",
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage orders」指「負責組織、企業、團隊等的運作；管理／經營」。",
       "sentenceIndex": 0,
@@ -542,12 +540,10 @@ export default {
         "manage orders"
       ],
       "optionReasons": {
-        "manage-mcq-01": "本句指「負責組織、企業、團隊等的運作；管理／經營」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-01": "本句的「manage orders」指「負責組織、企業、團隊等的運作；管理／經營」。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-01"
     },
@@ -559,11 +555,9 @@ export default {
       "masked": "Running a bakery means ____ stock, customers, and deadlines.",
       "options": [
         "manage-mcq-01",
-        "manage-mcq-02",
-        "manage-mcq-03",
-        "manage-mcq-04",
-        "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-06",
+        "manage-mcq-22",
+        "manage-mcq-14"
       ],
       "explanation": "本句的「managing」指「負責組織、企業、團隊等的運作；管理／經營」。",
       "sentenceIndex": 1,
@@ -572,12 +566,10 @@ export default {
         "managing"
       ],
       "optionReasons": {
-        "manage-mcq-01": "本句指「負責組織、企業、團隊等的運作；管理／經營」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-01": "本句的「managing」指「負責組織、企業、團隊等的運作；管理／經營」。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-01"
     },
@@ -589,11 +581,9 @@ export default {
       "masked": "I finally ____ everything on time.",
       "options": [
         "manage-mcq-01",
-        "manage-mcq-02",
-        "manage-mcq-03",
-        "manage-mcq-04",
         "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-22",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「managed to finish」指「負責組織、企業、團隊等的運作；管理／經營」。",
       "sentenceIndex": 2,
@@ -602,12 +592,10 @@ export default {
         "managed to finish"
       ],
       "optionReasons": {
-        "manage-mcq-01": "本句指「負責組織、企業、團隊等的運作；管理／經營」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-01": "本句的「managed to finish」指「負責組織、企業、團隊等的運作；管理／經營」。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-01"
     },
@@ -619,10 +607,8 @@ export default {
       "masked": "She ____ the business with very little money.",
       "options": [
         "manage-mcq-01",
-        "manage-mcq-02",
-        "manage-mcq-03",
-        "manage-mcq-04",
-        "manage-mcq-05",
+        "manage-mcq-22",
+        "manage-mcq-08",
         "manage-mcq-06"
       ],
       "explanation": "本句的「managed to start」指「負責組織、企業、團隊等的運作；管理／經營」。",
@@ -632,12 +618,10 @@ export default {
         "managed to start"
       ],
       "optionReasons": {
-        "manage-mcq-01": "本句指「負責組織、企業、團隊等的運作；管理／經營」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-01": "本句的「managed to start」指「負責組織、企業、團隊等的運作；管理／經營」。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-01"
     },
@@ -649,11 +633,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "manage-mcq-01",
-        "manage-mcq-02",
-        "manage-mcq-03",
-        "manage-mcq-04",
-        "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-23",
+        "manage-mcq-08",
+        "manage-mcq-03"
       ],
       "explanation": "本句的「manages a small team」指「負責組織、企業、團隊等的運作；管理／經營」。",
       "sentenceIndex": 4,
@@ -662,12 +644,10 @@ export default {
         "manages a small team"
       ],
       "optionReasons": {
-        "manage-mcq-01": "本句指「負責組織、企業、團隊等的運作；管理／經營」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-01": "本句的「manages a small team」指「負責組織、企業、團隊等的運作；管理／經營」。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-01"
     },
@@ -679,11 +659,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "manage-mcq-01",
-        "manage-mcq-02",
-        "manage-mcq-03",
-        "manage-mcq-04",
+        "manage-mcq-22",
         "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manages the restaurant」指「負責組織、企業、團隊等的運作；管理／經營」。",
       "sentenceIndex": 5,
@@ -692,12 +670,10 @@ export default {
         "manages the restaurant"
       ],
       "optionReasons": {
-        "manage-mcq-01": "本句指「負責組織、企業、團隊等的運作；管理／經營」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-01": "本句的「manages the restaurant」指「負責組織、企業、團隊等的運作；管理／經營」。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-01"
     },
@@ -709,10 +685,8 @@ export default {
       "masked": "She has experience ____.",
       "options": [
         "manage-mcq-02",
-        "manage-mcq-01",
-        "manage-mcq-03",
-        "manage-mcq-04",
-        "manage-mcq-05",
+        "manage-mcq-14",
+        "manage-mcq-22",
         "manage-mcq-06"
       ],
       "explanation": "本句的「managing a business」指「負責管理企業／團隊」。",
@@ -722,12 +696,10 @@ export default {
         "managing a business"
       ],
       "optionReasons": {
-        "manage-mcq-02": "本句指「負責管理企業／團隊」。",
-        "manage-mcq-01": "「負責組織、企業、團隊等的運作；管理／經營」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-02": "本句的「managing a business」指「負責管理企業／團隊」。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-02"
     },
@@ -739,11 +711,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "manage-mcq-02",
-        "manage-mcq-01",
-        "manage-mcq-03",
-        "manage-mcq-04",
-        "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-06",
+        "manage-mcq-14",
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manages the sales department」指「負責管理企業／團隊」。",
       "sentenceIndex": 7,
@@ -752,12 +722,10 @@ export default {
         "manages the sales department"
       ],
       "optionReasons": {
-        "manage-mcq-02": "本句指「負責管理企業／團隊」。",
-        "manage-mcq-01": "「負責組織、企業、團隊等的運作；管理／經營」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-02": "本句的「manages the sales department」指「負責管理企業／團隊」。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-02"
     },
@@ -769,10 +737,8 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "manage-mcq-03",
-        "manage-mcq-02",
-        "manage-mcq-04",
-        "manage-mcq-01",
-        "manage-mcq-05",
+        "manage-mcq-22",
+        "manage-mcq-14",
         "manage-mcq-06"
       ],
       "explanation": "本句的「manage the workload」指「有效處理工作、情況、訂單等」。",
@@ -782,12 +748,10 @@ export default {
         "manage the workload"
       ],
       "optionReasons": {
-        "manage-mcq-03": "本句指「有效處理工作、情況、訂單等」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-01": "「負責組織、企業、團隊等的運作；管理／經營」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-03": "本句的「manage the workload」指「有效處理工作、情況、訂單等」。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-03"
     },
@@ -799,11 +763,9 @@ export default {
       "masked": "She ____ calmly.",
       "options": [
         "manage-mcq-03",
-        "manage-mcq-02",
-        "manage-mcq-04",
-        "manage-mcq-01",
-        "manage-mcq-05",
-        "manage-mcq-06"
+        "manage-mcq-08",
+        "manage-mcq-13",
+        "manage-mcq-10"
       ],
       "explanation": "本句的「managed the situation」指「有效處理工作、情況、訂單等」。",
       "sentenceIndex": 9,
@@ -812,12 +774,10 @@ export default {
         "managed the situation"
       ],
       "optionReasons": {
-        "manage-mcq-03": "本句指「有效處理工作、情況、訂單等」。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-01": "「負責組織、企業、團隊等的運作；管理／經營」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-03": "本句的「managed the situation」指「有效處理工作、情況、訂單等」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-03"
     },
@@ -829,11 +789,8 @@ export default {
       "masked": "The software helps us ____.",
       "options": [
         "manage-mcq-04",
-        "manage-mcq-03",
-        "manage-mcq-05",
-        "manage-mcq-02",
-        "manage-mcq-06",
-        "manage-mcq-01"
+        "manage-mcq-08",
+        "manage-mcq-23"
       ],
       "explanation": "本句的「manage orders」指「組織、控制並處理訂單／預約／庫存」。",
       "sentenceIndex": 10,
@@ -842,12 +799,9 @@ export default {
         "manage orders"
       ],
       "optionReasons": {
-        "manage-mcq-04": "本句指「組織、控制並處理訂單／預約／庫存」。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-01": "「負責組織、企業、團隊等的運作；管理／經營」與本句語境不同。"
+        "manage-mcq-04": "本句的「manage orders」指「組織、控制並處理訂單／預約／庫存」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-04"
     },
@@ -859,11 +813,9 @@ export default {
       "masked": "Small businesses need to ____ carefully.",
       "options": [
         "manage-mcq-04",
-        "manage-mcq-03",
-        "manage-mcq-05",
-        "manage-mcq-02",
+        "manage-mcq-08",
         "manage-mcq-06",
-        "manage-mcq-01"
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage inventory」指「組織、控制並處理訂單／預約／庫存」。",
       "sentenceIndex": 11,
@@ -872,12 +824,10 @@ export default {
         "manage inventory"
       ],
       "optionReasons": {
-        "manage-mcq-04": "本句指「組織、控制並處理訂單／預約／庫存」。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-01": "「負責組織、企業、團隊等的運作；管理／經營」與本句語境不同。"
+        "manage-mcq-04": "本句的「manage inventory」指「組織、控制並處理訂單／預約／庫存」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-04"
     },
@@ -889,11 +839,9 @@ export default {
       "masked": "Don’t worry—I can ____.",
       "options": [
         "manage-mcq-05",
-        "manage-mcq-04",
-        "manage-mcq-06",
-        "manage-mcq-03",
-        "manage-mcq-07",
-        "manage-mcq-02"
+        "manage-mcq-20",
+        "manage-mcq-08",
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage」指「即使有困難仍能應付／撐得住」。",
       "sentenceIndex": 12,
@@ -902,12 +850,10 @@ export default {
         "manage"
       ],
       "optionReasons": {
-        "manage-mcq-05": "本句指「即使有困難仍能應付／撐得住」。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。"
+        "manage-mcq-05": "本句的「manage」指「即使有困難仍能應付／撐得住」。",
+        "manage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-05"
     },
@@ -919,11 +865,9 @@ export default {
       "masked": "She found it difficult, but she ____.",
       "options": [
         "manage-mcq-05",
-        "manage-mcq-04",
-        "manage-mcq-06",
+        "manage-mcq-08",
         "manage-mcq-03",
-        "manage-mcq-07",
-        "manage-mcq-02"
+        "manage-mcq-10"
       ],
       "explanation": "本句的「managed」指「即使有困難仍能應付／撐得住」。",
       "sentenceIndex": 13,
@@ -932,12 +876,10 @@ export default {
         "managed"
       ],
       "optionReasons": {
-        "manage-mcq-05": "本句指「即使有困難仍能應付／撐得住」。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-02": "「負責管理企業／團隊」與本句語境不同。"
+        "manage-mcq-05": "本句的「managed」指「即使有困難仍能應付／撐得住」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-05"
     },
@@ -949,11 +891,9 @@ export default {
       "masked": "We can ____.",
       "options": [
         "manage-mcq-06",
-        "manage-mcq-05",
-        "manage-mcq-07",
-        "manage-mcq-04",
-        "manage-mcq-08",
-        "manage-mcq-03"
+        "manage-mcq-22",
+        "manage-mcq-12",
+        "manage-mcq-14"
       ],
       "explanation": "本句的「manage without a car」指「在缺少某物的情況下仍能應付」。",
       "sentenceIndex": 14,
@@ -962,12 +902,10 @@ export default {
         "manage without a car"
       ],
       "optionReasons": {
-        "manage-mcq-06": "本句指「在缺少某物的情況下仍能應付」。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。"
+        "manage-mcq-06": "本句的「manage without a car」指「在缺少某物的情況下仍能應付」。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-06"
     },
@@ -979,10 +917,8 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "manage-mcq-06",
-        "manage-mcq-05",
+        "manage-mcq-10",
         "manage-mcq-07",
-        "manage-mcq-04",
-        "manage-mcq-08",
         "manage-mcq-03"
       ],
       "explanation": "本句的「manage without help」指「在缺少某物的情況下仍能應付」。",
@@ -992,12 +928,10 @@ export default {
         "manage without help"
       ],
       "optionReasons": {
-        "manage-mcq-06": "本句指「在缺少某物的情況下仍能應付」。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-03": "「有效處理工作、情況、訂單等」與本句語境不同。"
+        "manage-mcq-06": "本句的「manage without help」指「在缺少某物的情況下仍能應付」。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-06"
     },
@@ -1009,11 +943,8 @@ export default {
       "masked": "We ____ on time.",
       "options": [
         "manage-mcq-07",
-        "manage-mcq-06",
-        "manage-mcq-08",
-        "manage-mcq-05",
-        "manage-mcq-09",
-        "manage-mcq-04"
+        "manage-mcq-12",
+        "manage-mcq-06"
       ],
       "explanation": "本句的「managed to arrive」指「經過努力或在困難下成功做到某事」。",
       "sentenceIndex": 16,
@@ -1022,12 +953,9 @@ export default {
         "managed to arrive"
       ],
       "optionReasons": {
-        "manage-mcq-07": "本句指「經過努力或在困難下成功做到某事」。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。"
+        "manage-mcq-07": "本句的「managed to arrive」指「經過努力或在困難下成功做到某事」。",
+        "manage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-07"
     },
@@ -1039,11 +967,8 @@ export default {
       "masked": "He ____ the problem.",
       "options": [
         "manage-mcq-07",
-        "manage-mcq-06",
-        "manage-mcq-08",
-        "manage-mcq-05",
-        "manage-mcq-09",
-        "manage-mcq-04"
+        "manage-mcq-12",
+        "manage-mcq-06"
       ],
       "explanation": "本句的「managed to solve」指「經過努力或在困難下成功做到某事」。",
       "sentenceIndex": 17,
@@ -1052,12 +977,9 @@ export default {
         "managed to solve"
       ],
       "optionReasons": {
-        "manage-mcq-07": "本句指「經過努力或在困難下成功做到某事」。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-04": "「組織、控制並處理訂單／預約／庫存」與本句語境不同。"
+        "manage-mcq-07": "本句的「managed to solve」指「經過努力或在困難下成功做到某事」。",
+        "manage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-07"
     },
@@ -1069,11 +991,8 @@ export default {
       "masked": "I ____ the work.",
       "options": [
         "manage-mcq-08",
-        "manage-mcq-07",
-        "manage-mcq-09",
-        "manage-mcq-06",
-        "manage-mcq-10",
-        "manage-mcq-05"
+        "manage-mcq-04",
+        "manage-mcq-23"
       ],
       "explanation": "本句的「barely managed to finish」指「勉強／總算成功做到」。",
       "sentenceIndex": 18,
@@ -1082,12 +1001,9 @@ export default {
         "barely managed to finish"
       ],
       "optionReasons": {
-        "manage-mcq-08": "本句指「勉強／總算成功做到」。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。"
+        "manage-mcq-08": "本句的「barely managed to finish」指「勉強／總算成功做到」。",
+        "manage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-08"
     },
@@ -1099,11 +1015,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "manage-mcq-08",
-        "manage-mcq-07",
-        "manage-mcq-09",
-        "manage-mcq-06",
-        "manage-mcq-10",
-        "manage-mcq-05"
+        "manage-mcq-13",
+        "manage-mcq-22",
+        "manage-mcq-10"
       ],
       "explanation": "本句的「somehow managed to stay calm」指「勉強／總算成功做到」。",
       "sentenceIndex": 19,
@@ -1112,12 +1026,10 @@ export default {
         "somehow managed to stay calm"
       ],
       "optionReasons": {
-        "manage-mcq-08": "本句指「勉強／總算成功做到」。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-05": "「即使有困難仍能應付／撐得住」與本句語境不同。"
+        "manage-mcq-08": "本句的「somehow managed to stay calm」指「勉強／總算成功做到」。",
+        "manage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-08"
     },
@@ -1129,11 +1041,8 @@ export default {
       "masked": "You need to ____ well.",
       "options": [
         "manage-mcq-09",
-        "manage-mcq-08",
-        "manage-mcq-10",
-        "manage-mcq-07",
-        "manage-mcq-11",
-        "manage-mcq-06"
+        "manage-mcq-06",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manage your time」指「有效控制和運用時間、金錢或資源」。",
       "sentenceIndex": 20,
@@ -1142,12 +1051,9 @@ export default {
         "manage your time"
       ],
       "optionReasons": {
-        "manage-mcq-09": "本句指「有效控制和運用時間、金錢或資源」。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-09": "本句的「manage your time」指「有效控制和運用時間、金錢或資源」。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-09"
     },
@@ -1159,11 +1065,8 @@ export default {
       "masked": "The business must ____.",
       "options": [
         "manage-mcq-09",
-        "manage-mcq-08",
-        "manage-mcq-10",
-        "manage-mcq-07",
-        "manage-mcq-11",
-        "manage-mcq-06"
+        "manage-mcq-06",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manage cash carefully」指「有效控制和運用時間、金錢或資源」。",
       "sentenceIndex": 21,
@@ -1172,12 +1075,9 @@ export default {
         "manage cash carefully"
       ],
       "optionReasons": {
-        "manage-mcq-09": "本句指「有效控制和運用時間、金錢或資源」。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-09": "本句的「manage cash carefully」指「有效控制和運用時間、金錢或資源」。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-09"
     },
@@ -1189,11 +1089,8 @@ export default {
       "masked": "Good ____ is essential for small businesses.",
       "options": [
         "manage-mcq-09",
-        "manage-mcq-08",
-        "manage-mcq-10",
-        "manage-mcq-07",
-        "manage-mcq-11",
-        "manage-mcq-06"
+        "manage-mcq-05",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「money management」指「有效控制和運用時間、金錢或資源」。",
       "sentenceIndex": 22,
@@ -1202,12 +1099,9 @@ export default {
         "money management"
       ],
       "optionReasons": {
-        "manage-mcq-09": "本句指「有效控制和運用時間、金錢或資源」。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-09": "本句的「money management」指「有效控制和運用時間、金錢或資源」。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-09"
     },
@@ -1219,11 +1113,8 @@ export default {
       "masked": "She learned basic ____ skills.",
       "options": [
         "manage-mcq-09",
-        "manage-mcq-08",
-        "manage-mcq-10",
-        "manage-mcq-07",
-        "manage-mcq-11",
-        "manage-mcq-06"
+        "manage-mcq-14",
+        "manage-mcq-13"
       ],
       "explanation": "本句的「money management」指「有效控制和運用時間、金錢或資源」。",
       "sentenceIndex": 23,
@@ -1232,12 +1123,9 @@ export default {
         "money management"
       ],
       "optionReasons": {
-        "manage-mcq-09": "本句指「有效控制和運用時間、金錢或資源」。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-06": "「在缺少某物的情況下仍能應付」與本句語境不同。"
+        "manage-mcq-09": "本句的「money management」指「有效控制和運用時間、金錢或資源」。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-09"
     },
@@ -1249,11 +1137,9 @@ export default {
       "masked": "He learned to ____.",
       "options": [
         "manage-mcq-10",
-        "manage-mcq-09",
-        "manage-mcq-11",
         "manage-mcq-08",
-        "manage-mcq-12",
-        "manage-mcq-07"
+        "manage-mcq-03",
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage his anger」指「控制自己的情緒／怒氣」。",
       "sentenceIndex": 24,
@@ -1262,12 +1148,10 @@ export default {
         "manage his anger"
       ],
       "optionReasons": {
-        "manage-mcq-10": "本句指「控制自己的情緒／怒氣」。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。"
+        "manage-mcq-10": "本句的「manage his anger」指「控制自己的情緒／怒氣」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-10"
     },
@@ -1279,11 +1163,9 @@ export default {
       "masked": "Stress can make it harder to ____.",
       "options": [
         "manage-mcq-10",
-        "manage-mcq-09",
-        "manage-mcq-11",
-        "manage-mcq-08",
-        "manage-mcq-12",
-        "manage-mcq-07"
+        "manage-mcq-14",
+        "manage-mcq-06",
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage your emotions」指「控制自己的情緒／怒氣」。",
       "sentenceIndex": 25,
@@ -1292,12 +1174,10 @@ export default {
         "manage your emotions"
       ],
       "optionReasons": {
-        "manage-mcq-10": "本句指「控制自己的情緒／怒氣」。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-07": "「經過努力或在困難下成功做到某事」與本句語境不同。"
+        "manage-mcq-10": "本句的「manage your emotions」指「控制自己的情緒／怒氣」。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-10"
     },
@@ -1309,11 +1189,9 @@ export default {
       "masked": "The medication helps ____.",
       "options": [
         "manage-mcq-11",
-        "manage-mcq-10",
-        "manage-mcq-12",
-        "manage-mcq-09",
-        "manage-mcq-13",
-        "manage-mcq-08"
+        "manage-mcq-05",
+        "manage-mcq-08",
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage symptoms」指「透過治療等控制病情／症狀」。",
       "sentenceIndex": 26,
@@ -1322,12 +1200,10 @@ export default {
         "manage symptoms"
       ],
       "optionReasons": {
-        "manage-mcq-11": "本句指「透過治療等控制病情／症狀」。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-13": "「應付／駕馭某人的行為或期望」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。"
+        "manage-mcq-11": "本句的「manage symptoms」指「透過治療等控制病情／症狀」。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-11"
     },
@@ -1339,11 +1215,9 @@ export default {
       "masked": "The condition can often be ____ with treatment.",
       "options": [
         "manage-mcq-11",
-        "manage-mcq-10",
-        "manage-mcq-12",
-        "manage-mcq-09",
+        "manage-mcq-14",
         "manage-mcq-13",
-        "manage-mcq-08"
+        "manage-mcq-22"
       ],
       "explanation": "本句的「managed」指「透過治療等控制病情／症狀」。",
       "sentenceIndex": 27,
@@ -1352,12 +1226,10 @@ export default {
         "managed"
       ],
       "optionReasons": {
-        "manage-mcq-11": "本句指「透過治療等控制病情／症狀」。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。",
-        "manage-mcq-13": "「應付／駕馭某人的行為或期望」與本句語境不同。",
-        "manage-mcq-08": "「勉強／總算成功做到」與本句語境不同。"
+        "manage-mcq-11": "本句的「managed」指「透過治療等控制病情／症狀」。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-11"
     },
@@ -1369,11 +1241,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "manage-mcq-12",
-        "manage-mcq-11",
-        "manage-mcq-13",
-        "manage-mcq-10",
-        "manage-mcq-14",
-        "manage-mcq-09"
+        "manage-mcq-08",
+        "manage-mcq-22",
+        "manage-mcq-05"
       ],
       "explanation": "本句的「manages five employees」指「督導、管理某人的工作」。",
       "sentenceIndex": 28,
@@ -1382,12 +1252,10 @@ export default {
         "manages five employees"
       ],
       "optionReasons": {
-        "manage-mcq-12": "本句指「督導、管理某人的工作」。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-13": "「應付／駕馭某人的行為或期望」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-14": "「在困難情況下勉強擠出微笑／說出幾句話」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。"
+        "manage-mcq-12": "本句的「manages five employees」指「督導、管理某人的工作」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-12"
     },
@@ -1399,11 +1267,8 @@ export default {
       "masked": "He is good at ____.",
       "options": [
         "manage-mcq-12",
-        "manage-mcq-11",
-        "manage-mcq-13",
-        "manage-mcq-10",
         "manage-mcq-14",
-        "manage-mcq-09"
+        "manage-mcq-23"
       ],
       "explanation": "本句的「managing people」指「督導、管理某人的工作」。",
       "sentenceIndex": 29,
@@ -1412,12 +1277,9 @@ export default {
         "managing people"
       ],
       "optionReasons": {
-        "manage-mcq-12": "本句指「督導、管理某人的工作」。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-13": "「應付／駕馭某人的行為或期望」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。",
-        "manage-mcq-14": "「在困難情況下勉強擠出微笑／說出幾句話」與本句語境不同。",
-        "manage-mcq-09": "「有效控制和運用時間、金錢或資源」與本句語境不同。"
+        "manage-mcq-12": "本句的「managing people」指「督導、管理某人的工作」。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-12"
     },
@@ -1429,11 +1291,9 @@ export default {
       "masked": "He knows how to ____.",
       "options": [
         "manage-mcq-13",
-        "manage-mcq-12",
+        "manage-mcq-20",
         "manage-mcq-14",
-        "manage-mcq-11",
-        "manage-mcq-15",
-        "manage-mcq-10"
+        "manage-mcq-22"
       ],
       "explanation": "本句的「manage difficult clients」指「應付／駕馭某人的行為或期望」。",
       "sentenceIndex": 30,
@@ -1442,12 +1302,10 @@ export default {
         "manage difficult clients"
       ],
       "optionReasons": {
-        "manage-mcq-13": "本句指「應付／駕馭某人的行為或期望」。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-14": "「在困難情況下勉強擠出微笑／說出幾句話」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。"
+        "manage-mcq-13": "本句的「manage difficult clients」指「應付／駕馭某人的行為或期望」。",
+        "manage-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-13"
     },
@@ -1459,10 +1317,8 @@ export default {
       "masked": "She tried to ____.",
       "options": [
         "manage-mcq-13",
-        "manage-mcq-12",
-        "manage-mcq-14",
-        "manage-mcq-11",
-        "manage-mcq-15",
+        "manage-mcq-03",
+        "manage-mcq-07",
         "manage-mcq-10"
       ],
       "explanation": "本句的「manage everyone’s expectations」指「應付／駕馭某人的行為或期望」。",
@@ -1472,12 +1328,10 @@ export default {
         "manage everyone’s expectations"
       ],
       "optionReasons": {
-        "manage-mcq-13": "本句指「應付／駕馭某人的行為或期望」。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-14": "「在困難情況下勉強擠出微笑／說出幾句話」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。",
-        "manage-mcq-10": "「控制自己的情緒／怒氣」與本句語境不同。"
+        "manage-mcq-13": "本句的「manage everyone’s expectations」指「應付／駕馭某人的行為或期望」。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-13"
     },
@@ -1489,11 +1343,9 @@ export default {
       "masked": "He could only ____.",
       "options": [
         "manage-mcq-14",
-        "manage-mcq-13",
-        "manage-mcq-15",
-        "manage-mcq-12",
-        "manage-mcq-16",
-        "manage-mcq-11"
+        "manage-mcq-23",
+        "manage-mcq-03",
+        "manage-mcq-10"
       ],
       "explanation": "本句的「manage a few bites」指「在困難情況下勉強擠出微笑／說出幾句話」。",
       "sentenceIndex": 34,
@@ -1502,12 +1354,10 @@ export default {
         "manage a few bites"
       ],
       "optionReasons": {
-        "manage-mcq-14": "本句指「在困難情況下勉強擠出微笑／說出幾句話」。",
-        "manage-mcq-13": "「應付／駕馭某人的行為或期望」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。"
+        "manage-mcq-14": "本句的「manage a few bites」指「在困難情況下勉強擠出微笑／說出幾句話」。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-14"
     },
@@ -1519,11 +1369,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "manage-mcq-14",
-        "manage-mcq-13",
-        "manage-mcq-15",
-        "manage-mcq-12",
-        "manage-mcq-16",
-        "manage-mcq-11"
+        "manage-mcq-03",
+        "manage-mcq-21",
+        "manage-mcq-06"
       ],
       "explanation": "本句的「managed a little soup」指「在困難情況下勉強擠出微笑／說出幾句話」。",
       "sentenceIndex": 35,
@@ -1532,12 +1380,10 @@ export default {
         "managed a little soup"
       ],
       "optionReasons": {
-        "manage-mcq-14": "本句指「在困難情況下勉強擠出微笑／說出幾句話」。",
-        "manage-mcq-13": "「應付／駕馭某人的行為或期望」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。",
-        "manage-mcq-12": "「督導、管理某人的工作」與本句語境不同。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。",
-        "manage-mcq-11": "「透過治療等控制病情／症狀」與本句語境不同。"
+        "manage-mcq-14": "本句的「managed a little soup」指「在困難情況下勉強擠出微笑／說出幾句話」。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-14"
     },
@@ -1549,11 +1395,9 @@ export default {
       "masked": "She works as a store ____.",
       "options": [
         "manage-mcq-17",
-        "manage-mcq-16",
-        "manage-mcq-18",
-        "manage-mcq-15",
-        "manage-mcq-19",
-        "manage-mcq-14"
+        "manage-mcq-23",
+        "manage-mcq-08",
+        "manage-mcq-03"
       ],
       "explanation": "本句的「manager」指「負責管理團隊、部門或企業的人；經理」。",
       "sentenceIndex": 36,
@@ -1562,12 +1406,10 @@ export default {
         "manager"
       ],
       "optionReasons": {
-        "manage-mcq-17": "本句指「負責管理團隊、部門或企業的人；經理」。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-14": "「在困難情況下勉強擠出微笑／說出幾句話」與本句語境不同。"
+        "manage-mcq-17": "本句的「manager」指「負責管理團隊、部門或企業的人；經理」。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-17"
     },
@@ -1579,11 +1421,9 @@ export default {
       "masked": "Ask the ____ if you need help.",
       "options": [
         "manage-mcq-17",
-        "manage-mcq-16",
-        "manage-mcq-18",
-        "manage-mcq-15",
-        "manage-mcq-19",
-        "manage-mcq-14"
+        "manage-mcq-05",
+        "manage-mcq-22",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manager」指「負責管理團隊、部門或企業的人；經理」。",
       "sentenceIndex": 37,
@@ -1592,12 +1432,10 @@ export default {
         "manager"
       ],
       "optionReasons": {
-        "manage-mcq-17": "本句指「負責管理團隊、部門或企業的人；經理」。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-14": "「在困難情況下勉強擠出微笑／說出幾句話」與本句語境不同。"
+        "manage-mcq-17": "本句的「manager」指「負責管理團隊、部門或企業的人；經理」。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-17"
     },
@@ -1609,11 +1447,9 @@ export default {
       "masked": "Keep the workload ____.",
       "options": [
         "manage-mcq-18",
-        "manage-mcq-17",
-        "manage-mcq-19",
-        "manage-mcq-16",
-        "manage-mcq-20",
-        "manage-mcq-15"
+        "manage-mcq-22",
+        "manage-mcq-13",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manageable」指「困難程度仍在可以處理／控制的範圍內」。",
       "sentenceIndex": 38,
@@ -1622,12 +1458,10 @@ export default {
         "manageable"
       ],
       "optionReasons": {
-        "manage-mcq-18": "本句指「困難程度仍在可以處理／控制的範圍內」。",
-        "manage-mcq-17": "「負責管理團隊、部門或企業的人；經理」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。"
+        "manage-mcq-18": "本句的「manageable」指「困難程度仍在可以處理／控制的範圍內」。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-18"
     },
@@ -1639,11 +1473,8 @@ export default {
       "masked": "The problem became more ____ after we divided it into smaller tasks.",
       "options": [
         "manage-mcq-18",
-        "manage-mcq-17",
-        "manage-mcq-19",
-        "manage-mcq-16",
-        "manage-mcq-20",
-        "manage-mcq-15"
+        "manage-mcq-23",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manageable」指「困難程度仍在可以處理／控制的範圍內」。",
       "sentenceIndex": 39,
@@ -1652,12 +1483,9 @@ export default {
         "manageable"
       ],
       "optionReasons": {
-        "manage-mcq-18": "本句指「困難程度仍在可以處理／控制的範圍內」。",
-        "manage-mcq-17": "「負責管理團隊、部門或企業的人；經理」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-15": "「管理、組織和控制的過程」與本句語境不同。"
+        "manage-mcq-18": "本句的「manageable」指「困難程度仍在可以處理／控制的範圍內」。",
+        "manage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-18"
     },
@@ -1669,11 +1497,9 @@ export default {
       "masked": "The workload became ____.",
       "options": [
         "manage-mcq-19",
-        "manage-mcq-18",
-        "manage-mcq-20",
-        "manage-mcq-17",
-        "manage-mcq-21",
-        "manage-mcq-16"
+        "manage-mcq-03",
+        "manage-mcq-22",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「unmanageable」指「難以控制或應付的」。",
       "sentenceIndex": 40,
@@ -1682,12 +1508,10 @@ export default {
         "unmanageable"
       ],
       "optionReasons": {
-        "manage-mcq-19": "本句指「難以控制或應付的」。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-17": "「負責管理團隊、部門或企業的人；經理」與本句語境不同。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。"
+        "manage-mcq-19": "本句的「unmanageable」指「難以控制或應付的」。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-19"
     },
@@ -1699,11 +1523,9 @@ export default {
       "masked": "Costs were becoming ____.",
       "options": [
         "manage-mcq-19",
-        "manage-mcq-18",
-        "manage-mcq-20",
-        "manage-mcq-17",
-        "manage-mcq-21",
-        "manage-mcq-16"
+        "manage-mcq-08",
+        "manage-mcq-22",
+        "manage-mcq-03"
       ],
       "explanation": "本句的「unmanageable」指「難以控制或應付的」。",
       "sentenceIndex": 41,
@@ -1712,12 +1534,10 @@ export default {
         "unmanageable"
       ],
       "optionReasons": {
-        "manage-mcq-19": "本句指「難以控制或應付的」。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-17": "「負責管理團隊、部門或企業的人；經理」與本句語境不同。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-16": "「負責管理公司的管理層」與本句語境不同。"
+        "manage-mcq-19": "本句的「unmanageable」指「難以控制或應付的」。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-19"
     },
@@ -1729,11 +1549,9 @@ export default {
       "masked": "She has strong ____.",
       "options": [
         "manage-mcq-20",
-        "manage-mcq-19",
-        "manage-mcq-21",
-        "manage-mcq-18",
+        "manage-mcq-05",
         "manage-mcq-22",
-        "manage-mcq-17"
+        "manage-mcq-08"
       ],
       "explanation": "本句的「managerial skills」指「與管理工作／經理職務有關的」。",
       "sentenceIndex": 42,
@@ -1742,12 +1560,10 @@ export default {
         "managerial skills"
       ],
       "optionReasons": {
-        "manage-mcq-20": "本句指「與管理工作／經理職務有關的」。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。",
-        "manage-mcq-22": "「靠某個收入／資源水平維持生活」與本句語境不同。",
-        "manage-mcq-17": "「負責管理團隊、部門或企業的人；經理」與本句語境不同。"
+        "manage-mcq-20": "本句的「managerial skills」指「與管理工作／經理職務有關的」。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-20"
     },
@@ -1759,11 +1575,9 @@ export default {
       "masked": "He moved into a ____.",
       "options": [
         "manage-mcq-20",
-        "manage-mcq-19",
-        "manage-mcq-21",
-        "manage-mcq-18",
         "manage-mcq-22",
-        "manage-mcq-17"
+        "manage-mcq-06",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「managerial role」指「與管理工作／經理職務有關的」。",
       "sentenceIndex": 43,
@@ -1772,12 +1586,10 @@ export default {
         "managerial role"
       ],
       "optionReasons": {
-        "manage-mcq-20": "本句指「與管理工作／經理職務有關的」。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。",
-        "manage-mcq-22": "「靠某個收入／資源水平維持生活」與本句語境不同。",
-        "manage-mcq-17": "「負責管理團隊、部門或企業的人；經理」與本句語境不同。"
+        "manage-mcq-20": "本句的「managerial role」指「與管理工作／經理職務有關的」。",
+        "manage-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-20"
     },
@@ -1789,11 +1601,9 @@ export default {
       "masked": "Small businesses need to ____.",
       "options": [
         "manage-mcq-21",
-        "manage-mcq-20",
-        "manage-mcq-22",
-        "manage-mcq-19",
-        "manage-mcq-23",
-        "manage-mcq-18"
+        "manage-mcq-07",
+        "manage-mcq-06",
+        "manage-mcq-03"
       ],
       "explanation": "本句的「manage customer expectations」指「調整、控制某人的期望，使之保持合理」。",
       "sentenceIndex": 44,
@@ -1802,12 +1612,10 @@ export default {
         "manage customer expectations"
       ],
       "optionReasons": {
-        "manage-mcq-21": "本句指「調整、控制某人的期望，使之保持合理」。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-22": "「靠某個收入／資源水平維持生活」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-23": "「利用現有、有限的資源設法應付」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。"
+        "manage-mcq-21": "本句的「manage customer expectations」指「調整、控制某人的期望，使之保持合理」。",
+        "manage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-21"
     },
@@ -1819,11 +1627,9 @@ export default {
       "masked": "It is important to ____ from the beginning.",
       "options": [
         "manage-mcq-21",
-        "manage-mcq-20",
-        "manage-mcq-22",
-        "manage-mcq-19",
-        "manage-mcq-23",
-        "manage-mcq-18"
+        "manage-mcq-05",
+        "manage-mcq-08",
+        "manage-mcq-03"
       ],
       "explanation": "本句的「manage expectations」指「調整、控制某人的期望，使之保持合理」。",
       "sentenceIndex": 45,
@@ -1832,12 +1638,10 @@ export default {
         "manage expectations"
       ],
       "optionReasons": {
-        "manage-mcq-21": "本句指「調整、控制某人的期望，使之保持合理」。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-22": "「靠某個收入／資源水平維持生活」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-23": "「利用現有、有限的資源設法應付」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。"
+        "manage-mcq-21": "本句的「manage expectations」指「調整、控制某人的期望，使之保持合理」。",
+        "manage-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-21"
     },
@@ -1849,11 +1653,9 @@ export default {
       "masked": "They had to ____.",
       "options": [
         "manage-mcq-22",
-        "manage-mcq-21",
-        "manage-mcq-23",
-        "manage-mcq-20",
-        "manage-mcq-19",
-        "manage-mcq-18"
+        "manage-mcq-17",
+        "manage-mcq-08",
+        "manage-mcq-06"
       ],
       "explanation": "本句的「manage on a small income」指「靠某個收入／資源水平維持生活」。",
       "sentenceIndex": 46,
@@ -1862,12 +1664,10 @@ export default {
         "manage on a small income"
       ],
       "optionReasons": {
-        "manage-mcq-22": "本句指「靠某個收入／資源水平維持生活」。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-23": "「利用現有、有限的資源設法應付」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。"
+        "manage-mcq-22": "本句的「manage on a small income」指「靠某個收入／資源水平維持生活」。",
+        "manage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-22"
     },
@@ -1879,11 +1679,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "manage-mcq-22",
-        "manage-mcq-21",
-        "manage-mcq-23",
-        "manage-mcq-20",
-        "manage-mcq-19",
-        "manage-mcq-18"
+        "manage-mcq-03",
+        "manage-mcq-14",
+        "manage-mcq-11"
       ],
       "explanation": "本句的「manage on less money」指「靠某個收入／資源水平維持生活」。",
       "sentenceIndex": 47,
@@ -1892,12 +1690,10 @@ export default {
         "manage on less money"
       ],
       "optionReasons": {
-        "manage-mcq-22": "本句指「靠某個收入／資源水平維持生活」。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-23": "「利用現有、有限的資源設法應付」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。"
+        "manage-mcq-22": "本句的「manage on less money」指「靠某個收入／資源水平維持生活」。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-22"
     },
@@ -1909,11 +1705,9 @@ export default {
       "masked": "We can ____ for now.",
       "options": [
         "manage-mcq-23",
-        "manage-mcq-22",
-        "manage-mcq-21",
-        "manage-mcq-20",
-        "manage-mcq-19",
-        "manage-mcq-18"
+        "manage-mcq-10",
+        "manage-mcq-14",
+        "manage-mcq-03"
       ],
       "explanation": "本句的「manage with one oven」指「利用現有、有限的資源設法應付」。",
       "sentenceIndex": 48,
@@ -1922,12 +1716,10 @@ export default {
         "manage with one oven"
       ],
       "optionReasons": {
-        "manage-mcq-23": "本句指「利用現有、有限的資源設法應付」。",
-        "manage-mcq-22": "「靠某個收入／資源水平維持生活」與本句語境不同。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。"
+        "manage-mcq-23": "本句的「manage with one oven」指「利用現有、有限的資源設法應付」。",
+        "manage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-23"
     },
@@ -1939,11 +1731,8 @@ export default {
       "masked": "She had to ____.",
       "options": [
         "manage-mcq-23",
-        "manage-mcq-22",
-        "manage-mcq-21",
-        "manage-mcq-20",
-        "manage-mcq-19",
-        "manage-mcq-18"
+        "manage-mcq-18",
+        "manage-mcq-08"
       ],
       "explanation": "本句的「manage with limited space」指「利用現有、有限的資源設法應付」。",
       "sentenceIndex": 49,
@@ -1952,12 +1741,9 @@ export default {
         "manage with limited space"
       ],
       "optionReasons": {
-        "manage-mcq-23": "本句指「利用現有、有限的資源設法應付」。",
-        "manage-mcq-22": "「靠某個收入／資源水平維持生活」與本句語境不同。",
-        "manage-mcq-21": "「調整、控制某人的期望，使之保持合理」與本句語境不同。",
-        "manage-mcq-20": "「與管理工作／經理職務有關的」與本句語境不同。",
-        "manage-mcq-19": "「難以控制或應付的」與本句語境不同。",
-        "manage-mcq-18": "「困難程度仍在可以處理／控制的範圍內」與本句語境不同。"
+        "manage-mcq-23": "本句的「manage with limited space」指「利用現有、有限的資源設法應付」。",
+        "manage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "manage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "manage-mcq-23"
     }
@@ -1969,5 +1755,7 @@ export default {
     "sha256": "ccfdb4575de9fd5523893e1a7665df6004df1d4891a813cf4a2b850f44b7182d",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

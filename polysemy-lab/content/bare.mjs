@@ -339,11 +339,9 @@ export default {
       "masked": "He walked across the sand in his ____ feet.",
       "options": [
         "bare-mcq-01",
-        "bare-mcq-02",
-        "bare-mcq-03",
-        "bare-mcq-04",
-        "bare-mcq-05",
-        "bare-mcq-06"
+        "bare-mcq-06",
+        "bare-mcq-16",
+        "bare-mcq-11"
       ],
       "explanation": "本句的「bare」指「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」。",
       "sentenceIndex": 0,
@@ -352,12 +350,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-01": "本句指「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-01": "本句的「bare」指「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-01"
     },
@@ -369,11 +365,9 @@ export default {
       "masked": "Her ____ arms were cold.",
       "options": [
         "bare-mcq-01",
-        "bare-mcq-02",
-        "bare-mcq-03",
-        "bare-mcq-04",
-        "bare-mcq-05",
-        "bare-mcq-06"
+        "bare-mcq-16",
+        "bare-mcq-06",
+        "bare-mcq-11"
       ],
       "explanation": "本句的「bare」指「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」。",
       "sentenceIndex": 1,
@@ -382,12 +376,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-01": "本句指「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-01": "本句的「bare」指「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-01"
     },
@@ -399,11 +391,9 @@ export default {
       "masked": "The wires should never be left ____.",
       "options": [
         "bare-mcq-02",
-        "bare-mcq-01",
-        "bare-mcq-03",
-        "bare-mcq-04",
-        "bare-mcq-05",
-        "bare-mcq-06"
+        "bare-mcq-16",
+        "bare-mcq-06",
+        "bare-mcq-10"
       ],
       "explanation": "本句的「bare」指「沒有通常覆蓋物或保護層的；暴露的」。",
       "sentenceIndex": 2,
@@ -412,12 +402,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-02": "本句指「沒有通常覆蓋物或保護層的；暴露的」。",
-        "bare-mcq-01": "「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-02": "本句的「bare」指「沒有通常覆蓋物或保護層的；暴露的」。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-02"
     },
@@ -429,11 +417,9 @@ export default {
       "masked": "The snow melted and exposed the ____ rock.",
       "options": [
         "bare-mcq-02",
-        "bare-mcq-01",
-        "bare-mcq-03",
-        "bare-mcq-04",
-        "bare-mcq-05",
-        "bare-mcq-06"
+        "bare-mcq-16",
+        "bare-mcq-06",
+        "bare-mcq-11"
       ],
       "explanation": "本句的「bare」指「沒有通常覆蓋物或保護層的；暴露的」。",
       "sentenceIndex": 3,
@@ -442,12 +428,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-02": "本句指「沒有通常覆蓋物或保護層的；暴露的」。",
-        "bare-mcq-01": "「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-02": "本句的「bare」指「沒有通常覆蓋物或保護層的；暴露的」。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-02"
     },
@@ -459,11 +443,9 @@ export default {
       "masked": "The trees were ____ in winter.",
       "options": [
         "bare-mcq-03",
-        "bare-mcq-02",
-        "bare-mcq-04",
-        "bare-mcq-01",
-        "bare-mcq-05",
-        "bare-mcq-06"
+        "bare-mcq-06",
+        "bare-mcq-11",
+        "bare-mcq-10"
       ],
       "explanation": "本句的「bare」指「沒有葉子、植被等覆蓋的；光禿的」。",
       "sentenceIndex": 4,
@@ -472,12 +454,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-03": "本句指「沒有葉子、植被等覆蓋的；光禿的」。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-01": "「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-03": "本句的「bare」指「沒有葉子、植被等覆蓋的；光禿的」。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-03"
     },
@@ -489,11 +469,9 @@ export default {
       "masked": "Only a few ____ branches remained.",
       "options": [
         "bare-mcq-03",
-        "bare-mcq-02",
-        "bare-mcq-04",
-        "bare-mcq-01",
-        "bare-mcq-05",
-        "bare-mcq-06"
+        "bare-mcq-10",
+        "bare-mcq-09",
+        "bare-mcq-11"
       ],
       "explanation": "本句的「bare」指「沒有葉子、植被等覆蓋的；光禿的」。",
       "sentenceIndex": 5,
@@ -502,12 +480,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-03": "本句指「沒有葉子、植被等覆蓋的；光禿的」。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-01": "「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-03": "本句的「bare」指「沒有葉子、植被等覆蓋的；光禿的」。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-03"
     },
@@ -519,11 +495,9 @@ export default {
       "masked": "The room was almost completely ____.",
       "options": [
         "bare-mcq-04",
-        "bare-mcq-03",
-        "bare-mcq-05",
-        "bare-mcq-02",
-        "bare-mcq-06",
-        "bare-mcq-01"
+        "bare-mcq-11",
+        "bare-mcq-16",
+        "bare-mcq-06"
       ],
       "explanation": "本句的「bare」指「缺少通常家具、裝飾或內容的；空蕩／簡陋的」。",
       "sentenceIndex": 6,
@@ -532,12 +506,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-04": "本句指「缺少通常家具、裝飾或內容的；空蕩／簡陋的」。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-01": "「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」與本句語境不同。"
+        "bare-mcq-04": "本句的「bare」指「缺少通常家具、裝飾或內容的；空蕩／簡陋的」。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-04"
     },
@@ -549,11 +521,9 @@ export default {
       "masked": "The walls were ____ except for one photograph.",
       "options": [
         "bare-mcq-04",
-        "bare-mcq-03",
-        "bare-mcq-05",
-        "bare-mcq-02",
-        "bare-mcq-06",
-        "bare-mcq-01"
+        "bare-mcq-16",
+        "bare-mcq-08",
+        "bare-mcq-06"
       ],
       "explanation": "本句的「bare」指「缺少通常家具、裝飾或內容的；空蕩／簡陋的」。",
       "sentenceIndex": 7,
@@ -562,12 +532,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-04": "本句指「缺少通常家具、裝飾或內容的；空蕩／簡陋的」。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-01": "「身體／身體部位沒有衣物、鞋襪等遮蓋的；裸露的」與本句語境不同。"
+        "bare-mcq-04": "本句的「bare」指「缺少通常家具、裝飾或內容的；空蕩／簡陋的」。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-04"
     },
@@ -579,11 +547,9 @@ export default {
       "masked": "The report gives only the ____ facts.",
       "options": [
         "bare-mcq-05",
-        "bare-mcq-04",
-        "bare-mcq-06",
-        "bare-mcq-03",
-        "bare-mcq-07",
-        "bare-mcq-02"
+        "bare-mcq-09",
+        "bare-mcq-08",
+        "bare-mcq-16"
       ],
       "explanation": "本句的「bare」指「只剩最基本、必要部分，沒有額外內容」。",
       "sentenceIndex": 8,
@@ -592,12 +558,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-05": "本句指「只剩最基本、必要部分，沒有額外內容」。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。"
+        "bare-mcq-05": "本句的「bare」指「只剩最基本、必要部分，沒有額外內容」。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-05"
     },
@@ -609,11 +573,9 @@ export default {
       "masked": "The apartment had only the ____ essentials.",
       "options": [
         "bare-mcq-05",
-        "bare-mcq-04",
-        "bare-mcq-06",
-        "bare-mcq-03",
-        "bare-mcq-07",
-        "bare-mcq-02"
+        "bare-mcq-09",
+        "bare-mcq-08",
+        "bare-mcq-16"
       ],
       "explanation": "本句的「bare」指「只剩最基本、必要部分，沒有額外內容」。",
       "sentenceIndex": 9,
@@ -622,12 +584,10 @@ export default {
         "bare"
       ],
       "optionReasons": {
-        "bare-mcq-05": "本句指「只剩最基本、必要部分，沒有額外內容」。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-02": "「沒有通常覆蓋物或保護層的；暴露的」與本句語境不同。"
+        "bare-mcq-05": "本句的「bare」指「只剩最基本、必要部分，沒有額外內容」。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-05"
     },
@@ -639,11 +599,9 @@ export default {
       "masked": "They ordered only the ____.",
       "options": [
         "bare-mcq-06",
-        "bare-mcq-05",
-        "bare-mcq-07",
-        "bare-mcq-04",
-        "bare-mcq-08",
-        "bare-mcq-03"
+        "bare-mcq-01",
+        "bare-mcq-09",
+        "bare-mcq-11"
       ],
       "explanation": "本句的「bare minimum」指「僅達到最低要求的最少程度／最低限度」。",
       "sentenceIndex": 10,
@@ -652,12 +610,10 @@ export default {
         "bare minimum"
       ],
       "optionReasons": {
-        "bare-mcq-06": "本句指「僅達到最低要求的最少程度／最低限度」。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。"
+        "bare-mcq-06": "本句的「bare minimum」指「僅達到最低要求的最少程度／最低限度」。",
+        "bare-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-06"
     },
@@ -669,11 +625,9 @@ export default {
       "masked": "He did the ____ needed to pass.",
       "options": [
         "bare-mcq-06",
-        "bare-mcq-05",
-        "bare-mcq-07",
-        "bare-mcq-04",
-        "bare-mcq-08",
-        "bare-mcq-03"
+        "bare-mcq-09",
+        "bare-mcq-11",
+        "bare-mcq-02"
       ],
       "explanation": "本句的「bare minimum」指「僅達到最低要求的最少程度／最低限度」。",
       "sentenceIndex": 11,
@@ -682,12 +636,10 @@ export default {
         "bare minimum"
       ],
       "optionReasons": {
-        "bare-mcq-06": "本句指「僅達到最低要求的最少程度／最低限度」。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。"
+        "bare-mcq-06": "本句的「bare minimum」指「僅達到最低要求的最少程度／最低限度」。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-06"
     },
@@ -699,11 +651,9 @@ export default {
       "masked": "The company spent the ____ on maintenance.",
       "options": [
         "bare-mcq-06",
-        "bare-mcq-05",
-        "bare-mcq-07",
-        "bare-mcq-04",
-        "bare-mcq-08",
-        "bare-mcq-03"
+        "bare-mcq-11",
+        "bare-mcq-01",
+        "bare-mcq-10"
       ],
       "explanation": "本句的「bare minimum」指「僅達到最低要求的最少程度／最低限度」。",
       "sentenceIndex": 12,
@@ -712,12 +662,10 @@ export default {
         "bare minimum"
       ],
       "optionReasons": {
-        "bare-mcq-06": "本句指「僅達到最低要求的最少程度／最低限度」。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-03": "「沒有葉子、植被等覆蓋的；光禿的」與本句語境不同。"
+        "bare-mcq-06": "本句的「bare minimum」指「僅達到最低要求的最少程度／最低限度」。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-06"
     },
@@ -729,11 +677,9 @@ export default {
       "masked": "The proposal passed by a ____.",
       "options": [
         "bare-pdf-001",
-        "bare-mcq-06",
         "bare-mcq-08",
-        "bare-mcq-05",
         "bare-mcq-09",
-        "bare-mcq-04"
+        "bare-mcq-10"
       ],
       "explanation": "本句的「bare majority」指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
       "sentenceIndex": 13,
@@ -742,12 +688,10 @@ export default {
         "bare majority"
       ],
       "optionReasons": {
-        "bare-pdf-001": "本句指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。"
+        "bare-pdf-001": "本句的「bare majority」指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
+        "bare-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-pdf-001"
     },
@@ -759,11 +703,9 @@ export default {
       "masked": "They survived on a ____ income.",
       "options": [
         "bare-pdf-001",
-        "bare-mcq-06",
-        "bare-mcq-08",
-        "bare-mcq-05",
         "bare-mcq-09",
-        "bare-mcq-04"
+        "bare-mcq-08",
+        "bare-mcq-10"
       ],
       "explanation": "本句的「bare subsistence」指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
       "sentenceIndex": 14,
@@ -772,12 +714,10 @@ export default {
         "bare subsistence"
       ],
       "optionReasons": {
-        "bare-pdf-001": "本句指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-04": "「缺少通常家具、裝飾或內容的；空蕩／簡陋的」與本句語境不同。"
+        "bare-pdf-001": "本句的「bare subsistence」指「數量、程度等只比不足多一點點，幾乎沒有餘裕」。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-pdf-001"
     },
@@ -789,11 +729,9 @@ export default {
       "masked": "He rolled up his sleeve and ____ his arm.",
       "options": [
         "bare-mcq-08",
-        "bare-mcq-07",
-        "bare-mcq-09",
+        "bare-mcq-05",
         "bare-mcq-06",
-        "bare-mcq-10",
-        "bare-mcq-05"
+        "bare-mcq-16"
       ],
       "explanation": "本句的「bared」指「移除遮蓋，使身體、物件或事實顯露」。",
       "sentenceIndex": 17,
@@ -802,12 +740,10 @@ export default {
         "bared"
       ],
       "optionReasons": {
-        "bare-mcq-08": "本句指「移除遮蓋，使身體、物件或事實顯露」。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-10": "「袒露內心深處的思想或感受」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。"
+        "bare-mcq-08": "本句的「bared」指「移除遮蓋，使身體、物件或事實顯露」。",
+        "bare-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-08"
     },
@@ -819,11 +755,9 @@ export default {
       "masked": "The wind ____ the roots of the tree.",
       "options": [
         "bare-mcq-08",
-        "bare-mcq-07",
-        "bare-mcq-09",
         "bare-mcq-06",
-        "bare-mcq-10",
-        "bare-mcq-05"
+        "bare-mcq-04",
+        "bare-mcq-16"
       ],
       "explanation": "本句的「bared」指「移除遮蓋，使身體、物件或事實顯露」。",
       "sentenceIndex": 18,
@@ -832,12 +766,10 @@ export default {
         "bared"
       ],
       "optionReasons": {
-        "bare-mcq-08": "本句指「移除遮蓋，使身體、物件或事實顯露」。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。",
-        "bare-mcq-10": "「袒露內心深處的思想或感受」與本句語境不同。",
-        "bare-mcq-05": "「只剩最基本、必要部分，沒有額外內容」與本句語境不同。"
+        "bare-mcq-08": "本句的「bared」指「移除遮蓋，使身體、物件或事實顯露」。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-08"
     },
@@ -849,11 +781,9 @@ export default {
       "masked": "The dog ____.",
       "options": [
         "bare-mcq-09",
-        "bare-mcq-08",
-        "bare-mcq-10",
-        "bare-mcq-07",
-        "bare-mcq-11",
-        "bare-mcq-06"
+        "bare-mcq-03",
+        "bare-mcq-06",
+        "bare-mcq-16"
       ],
       "explanation": "本句的「bared its teeth」指「露齒／齜牙，常表示威嚇」。",
       "sentenceIndex": 19,
@@ -862,12 +792,10 @@ export default {
         "bared its teeth"
       ],
       "optionReasons": {
-        "bare-mcq-09": "本句指「露齒／齜牙，常表示威嚇」。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-10": "「袒露內心深處的思想或感受」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。",
-        "bare-mcq-11": "「把原本隱藏的真相、問題或弱點揭露出來」與本句語境不同。",
-        "bare-mcq-06": "「僅達到最低要求的最少程度／最低限度」與本句語境不同。"
+        "bare-mcq-09": "本句的「bared its teeth」指「露齒／齜牙，常表示威嚇」。",
+        "bare-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-09"
     },
@@ -879,11 +807,9 @@ export default {
       "masked": "She ____ to her closest friend.",
       "options": [
         "bare-mcq-10",
-        "bare-mcq-09",
-        "bare-mcq-11",
-        "bare-mcq-08",
-        "bare-mcq-12",
-        "bare-mcq-07"
+        "bare-mcq-03",
+        "bare-mcq-16",
+        "bare-mcq-06"
       ],
       "explanation": "本句的「bared her soul」指「袒露內心深處的思想或感受」。",
       "sentenceIndex": 20,
@@ -892,12 +818,10 @@ export default {
         "bared her soul"
       ],
       "optionReasons": {
-        "bare-mcq-10": "本句指「袒露內心深處的思想或感受」。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-11": "「把原本隱藏的真相、問題或弱點揭露出來」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。"
+        "bare-mcq-10": "本句的「bared her soul」指「袒露內心深處的思想或感受」。",
+        "bare-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-10"
     },
@@ -909,11 +833,9 @@ export default {
       "masked": "The memoir ____ the author’s deepest fears.",
       "options": [
         "bare-mcq-10",
-        "bare-mcq-09",
-        "bare-mcq-11",
-        "bare-mcq-08",
-        "bare-mcq-12",
-        "bare-mcq-07"
+        "bare-mcq-16",
+        "bare-mcq-03",
+        "bare-mcq-06"
       ],
       "explanation": "本句的「bares」指「袒露內心深處的思想或感受」。",
       "sentenceIndex": 21,
@@ -922,12 +844,10 @@ export default {
         "bares"
       ],
       "optionReasons": {
-        "bare-mcq-10": "本句指「袒露內心深處的思想或感受」。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-11": "「把原本隱藏的真相、問題或弱點揭露出來」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-07": "「數量或程度僅僅足夠、非常微小的」與本句語境不同。"
+        "bare-mcq-10": "本句的「bares」指「袒露內心深處的思想或感受」。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-10"
     },
@@ -939,11 +859,9 @@ export default {
       "masked": "The investigation ____ serious weaknesses in the system.",
       "options": [
         "bare-mcq-11",
-        "bare-mcq-10",
-        "bare-mcq-12",
-        "bare-mcq-09",
-        "bare-mcq-13",
-        "bare-mcq-08"
+        "bare-mcq-04",
+        "bare-mcq-16",
+        "bare-mcq-06"
       ],
       "explanation": "本句的「laid bare」指「把原本隱藏的真相、問題或弱點揭露出來」。",
       "sentenceIndex": 22,
@@ -952,12 +870,10 @@ export default {
         "laid bare"
       ],
       "optionReasons": {
-        "bare-mcq-11": "本句指「把原本隱藏的真相、問題或弱點揭露出來」。",
-        "bare-mcq-10": "「袒露內心深處的思想或感受」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-13": "「沒有中間軟件／虛擬化層、直接使用硬件的；裸機」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。"
+        "bare-mcq-11": "本句的「laid bare」指「把原本隱藏的真相、問題或弱點揭露出來」。",
+        "bare-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-11"
     },
@@ -969,11 +885,9 @@ export default {
       "masked": "The crisis ____ the lack of preparation.",
       "options": [
         "bare-mcq-11",
-        "bare-mcq-10",
-        "bare-mcq-12",
-        "bare-mcq-09",
-        "bare-mcq-13",
-        "bare-mcq-08"
+        "bare-mcq-03",
+        "bare-mcq-16",
+        "bare-mcq-06"
       ],
       "explanation": "本句的「laid bare」指「把原本隱藏的真相、問題或弱點揭露出來」。",
       "sentenceIndex": 23,
@@ -982,12 +896,10 @@ export default {
         "laid bare"
       ],
       "optionReasons": {
-        "bare-mcq-11": "本句指「把原本隱藏的真相、問題或弱點揭露出來」。",
-        "bare-mcq-10": "「袒露內心深處的思想或感受」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-09": "「露齒／齜牙，常表示威嚇」與本句語境不同。",
-        "bare-mcq-13": "「沒有中間軟件／虛擬化層、直接使用硬件的；裸機」與本句語境不同。",
-        "bare-mcq-08": "「移除遮蓋，使身體、物件或事實顯露」與本句語境不同。"
+        "bare-mcq-11": "本句的「laid bare」指「把原本隱藏的真相、問題或弱點揭露出來」。",
+        "bare-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-11"
     },
@@ -999,10 +911,8 @@ export default {
       "masked": "I could ____ hear him.",
       "options": [
         "bare-mcq-16",
-        "bare-mcq-15",
-        "bare-mcq-14",
-        "bare-mcq-13",
-        "bare-mcq-12",
+        "bare-mcq-09",
+        "bare-mcq-02",
         "bare-mcq-11"
       ],
       "explanation": "本句的「barely」指「僅僅；勉強；幾乎不」。",
@@ -1012,12 +922,10 @@ export default {
         "barely"
       ],
       "optionReasons": {
-        "bare-mcq-16": "本句指「僅僅；勉強；幾乎不」。",
-        "bare-mcq-15": "「英國部分都市俚語：很多／非常；非標準正式用語」與本句語境不同。",
-        "bare-mcq-14": "「法律上的裸信託；專門」與本句語境不同。",
-        "bare-mcq-13": "「沒有中間軟件／虛擬化層、直接使用硬件的；裸機」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-11": "「把原本隱藏的真相、問題或弱點揭露出來」與本句語境不同。"
+        "bare-mcq-16": "本句的「barely」指「僅僅；勉強；幾乎不」。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-16"
     },
@@ -1029,11 +937,9 @@ export default {
       "masked": "She ____ passed the exam.",
       "options": [
         "bare-mcq-16",
-        "bare-mcq-15",
-        "bare-mcq-14",
-        "bare-mcq-13",
-        "bare-mcq-12",
-        "bare-mcq-11"
+        "bare-mcq-09",
+        "bare-mcq-05",
+        "bare-mcq-10"
       ],
       "explanation": "本句的「barely」指「僅僅；勉強；幾乎不」。",
       "sentenceIndex": 29,
@@ -1042,12 +948,10 @@ export default {
         "barely"
       ],
       "optionReasons": {
-        "bare-mcq-16": "本句指「僅僅；勉強；幾乎不」。",
-        "bare-mcq-15": "「英國部分都市俚語：很多／非常；非標準正式用語」與本句語境不同。",
-        "bare-mcq-14": "「法律上的裸信託；專門」與本句語境不同。",
-        "bare-mcq-13": "「沒有中間軟件／虛擬化層、直接使用硬件的；裸機」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-11": "「把原本隱藏的真相、問題或弱點揭露出來」與本句語境不同。"
+        "bare-mcq-16": "本句的「barely」指「僅僅；勉強；幾乎不」。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-16"
     },
@@ -1059,11 +963,9 @@ export default {
       "masked": "There was ____ enough food.",
       "options": [
         "bare-mcq-16",
-        "bare-mcq-15",
-        "bare-mcq-14",
-        "bare-mcq-13",
-        "bare-mcq-12",
-        "bare-mcq-11"
+        "bare-mcq-11",
+        "bare-mcq-04",
+        "bare-mcq-09"
       ],
       "explanation": "本句的「barely」指「僅僅；勉強；幾乎不」。",
       "sentenceIndex": 30,
@@ -1072,12 +974,10 @@ export default {
         "barely"
       ],
       "optionReasons": {
-        "bare-mcq-16": "本句指「僅僅；勉強；幾乎不」。",
-        "bare-mcq-15": "「英國部分都市俚語：很多／非常；非標準正式用語」與本句語境不同。",
-        "bare-mcq-14": "「法律上的裸信託；專門」與本句語境不同。",
-        "bare-mcq-13": "「沒有中間軟件／虛擬化層、直接使用硬件的；裸機」與本句語境不同。",
-        "bare-mcq-12": "「不帶 to 的不定詞／原形不定詞」與本句語境不同。",
-        "bare-mcq-11": "「把原本隱藏的真相、問題或弱點揭露出來」與本句語境不同。"
+        "bare-mcq-16": "本句的「barely」指「僅僅；勉強；幾乎不」。",
+        "bare-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "bare-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "bare-mcq-16"
     }
@@ -1089,5 +989,7 @@ export default {
     "sha256": "2b24ba4cd7c783a5d30fb7678eade471f007f81123635e9096da3d82ac5b8532",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

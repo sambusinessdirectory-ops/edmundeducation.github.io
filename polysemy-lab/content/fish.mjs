@@ -191,11 +191,8 @@ export default {
       "masked": "I expected to see only small ____ and coral.",
       "options": [
         "fish-mcq-01",
-        "fish-mcq-02",
-        "fish-mcq-03",
         "fish-mcq-04",
-        "fish-mcq-05",
-        "fish-mcq-06"
+        "fish-mcq-07"
       ],
       "explanation": "本句的「fish」指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
       "sentenceIndex": 0,
@@ -204,12 +201,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-01": "本句指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-01": "本句的「fish」指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
+        "fish-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-01"
     },
@@ -221,11 +215,8 @@ export default {
       "masked": "We saw colourful ____ near the reef.",
       "options": [
         "fish-mcq-01",
-        "fish-mcq-02",
-        "fish-mcq-03",
-        "fish-mcq-04",
-        "fish-mcq-05",
-        "fish-mcq-06"
+        "fish-pdf-001",
+        "fish-mcq-07"
       ],
       "explanation": "本句的「fish」指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
       "sentenceIndex": 1,
@@ -234,12 +225,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-01": "本句指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-01": "本句的「fish」指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-01"
     },
@@ -251,11 +239,8 @@ export default {
       "masked": "The lake is full of ____.",
       "options": [
         "fish-mcq-01",
-        "fish-mcq-02",
-        "fish-mcq-03",
-        "fish-mcq-04",
-        "fish-mcq-05",
-        "fish-mcq-06"
+        "fish-pdf-001",
+        "fish-mcq-07"
       ],
       "explanation": "本句的「fish」指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
       "sentenceIndex": 2,
@@ -264,12 +249,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-01": "本句指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-01": "本句的「fish」指「生活在水中、通常以鰓呼吸並有鰭的魚類動物」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-01"
     },
@@ -281,11 +263,8 @@ export default {
       "masked": "We had grilled ____ for dinner.",
       "options": [
         "fish-mcq-02",
-        "fish-mcq-01",
-        "fish-mcq-03",
         "fish-mcq-04",
-        "fish-mcq-05",
-        "fish-mcq-06"
+        "fish-mcq-07"
       ],
       "explanation": "本句的「fish」指「作為食物食用的魚肉或魚類食品」。",
       "sentenceIndex": 3,
@@ -294,12 +273,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-02": "本句指「作為食物食用的魚肉或魚類食品」。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-02": "本句的「fish」指「作為食物食用的魚肉或魚類食品」。",
+        "fish-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-02"
     },
@@ -311,10 +287,7 @@ export default {
       "masked": "She does not eat ____.",
       "options": [
         "fish-mcq-02",
-        "fish-mcq-01",
-        "fish-mcq-03",
-        "fish-mcq-04",
-        "fish-mcq-05",
+        "fish-pdf-001",
         "fish-mcq-06"
       ],
       "explanation": "本句的「fish」指「作為食物食用的魚肉或魚類食品」。",
@@ -324,12 +297,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-02": "本句指「作為食物食用的魚肉或魚類食品」。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-02": "本句的「fish」指「作為食物食用的魚肉或魚類食品」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-02"
     },
@@ -341,10 +311,7 @@ export default {
       "masked": "They often ____ in the river.",
       "options": [
         "fish-mcq-03",
-        "fish-mcq-02",
         "fish-mcq-04",
-        "fish-mcq-01",
-        "fish-mcq-05",
         "fish-mcq-06"
       ],
       "explanation": "本句的「fish」指「以魚竿、魚網或其他方法捕捉魚類」。",
@@ -354,12 +321,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-03": "本句指「以魚竿、魚網或其他方法捕捉魚類」。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-03": "本句的「fish」指「以魚竿、魚網或其他方法捕捉魚類」。",
+        "fish-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-03"
     },
@@ -371,10 +335,7 @@ export default {
       "masked": "We went ____ early in the morning.",
       "options": [
         "fish-mcq-03",
-        "fish-mcq-02",
-        "fish-mcq-04",
-        "fish-mcq-01",
-        "fish-mcq-05",
+        "fish-pdf-001",
         "fish-mcq-06"
       ],
       "explanation": "本句的「fishing」指「以魚竿、魚網或其他方法捕捉魚類」。",
@@ -384,12 +345,9 @@ export default {
         "fishing"
       ],
       "optionReasons": {
-        "fish-mcq-03": "本句指「以魚竿、魚網或其他方法捕捉魚類」。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。"
+        "fish-mcq-03": "本句的「fishing」指「以魚竿、魚網或其他方法捕捉魚類」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-03"
     },
@@ -401,11 +359,7 @@ export default {
       "masked": "She ____ in her bag for her keys.",
       "options": [
         "fish-mcq-04",
-        "fish-mcq-03",
-        "fish-mcq-05",
-        "fish-mcq-02",
-        "fish-mcq-06",
-        "fish-mcq-01"
+        "fish-mcq-05"
       ],
       "explanation": "本句的「fished」指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
       "sentenceIndex": 7,
@@ -414,12 +368,8 @@ export default {
         "fished"
       ],
       "optionReasons": {
-        "fish-mcq-04": "本句指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。"
+        "fish-mcq-04": "本句的「fished」指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
+        "fish-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-04"
     },
@@ -431,11 +381,8 @@ export default {
       "masked": "He ____ around in his pocket for some coins.",
       "options": [
         "fish-mcq-04",
-        "fish-mcq-03",
-        "fish-mcq-05",
-        "fish-mcq-02",
-        "fish-mcq-06",
-        "fish-mcq-01"
+        "fish-mcq-01",
+        "fish-mcq-07"
       ],
       "explanation": "本句的「fished」指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
       "sentenceIndex": 8,
@@ -444,12 +391,9 @@ export default {
         "fished"
       ],
       "optionReasons": {
-        "fish-mcq-04": "本句指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。"
+        "fish-mcq-04": "本句的「fished」指「摸索、試探或間接嘗試取得某物；屬於 figurative extension」。",
+        "fish-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-04"
     },
@@ -461,11 +405,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "fish-pdf-001",
-        "fish-mcq-03",
-        "fish-mcq-05",
-        "fish-mcq-02",
-        "fish-mcq-06",
-        "fish-mcq-01"
+        "fish-mcq-07",
+        "fish-mcq-02"
       ],
       "explanation": "本句的「fishing for information」指「間接地試圖獲得資料、稱讚、反應等」。",
       "sentenceIndex": 9,
@@ -474,12 +415,9 @@ export default {
         "fishing for information"
       ],
       "optionReasons": {
-        "fish-pdf-001": "本句指「間接地試圖獲得資料、稱讚、反應等」。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。"
+        "fish-pdf-001": "本句的「fishing for information」指「間接地試圖獲得資料、稱讚、反應等」。",
+        "fish-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-pdf-001"
     },
@@ -492,10 +430,7 @@ export default {
       "options": [
         "fish-pdf-001",
         "fish-mcq-03",
-        "fish-mcq-05",
-        "fish-mcq-02",
-        "fish-mcq-06",
-        "fish-mcq-01"
+        "fish-mcq-06"
       ],
       "explanation": "本句的「fishing for compliments」指「間接地試圖獲得資料、稱讚、反應等」。",
       "sentenceIndex": 10,
@@ -504,12 +439,9 @@ export default {
         "fishing for compliments"
       ],
       "optionReasons": {
-        "fish-pdf-001": "本句指「間接地試圖獲得資料、稱讚、反應等」。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-01": "「生活在水中、通常以鰓呼吸並有鰭的魚類動物」與本句語境不同。"
+        "fish-pdf-001": "本句的「fishing for compliments」指「間接地試圖獲得資料、稱讚、反應等」。",
+        "fish-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-pdf-001"
     },
@@ -521,10 +453,7 @@ export default {
       "masked": "He is a big ____ in a small company.",
       "options": [
         "fish-mcq-07",
-        "fish-mcq-06",
-        "fish-mcq-05",
-        "fish-mcq-04",
-        "fish-mcq-03",
+        "fish-pdf-001",
         "fish-mcq-02"
       ],
       "explanation": "本句的「fish」指「捕魚的人；漁民／漁夫」。",
@@ -534,12 +463,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-07": "本句指「捕魚的人；漁民／漁夫」。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。"
+        "fish-mcq-07": "本句的「fish」指「捕魚的人；漁民／漁夫」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-07"
     },
@@ -551,11 +477,8 @@ export default {
       "masked": "She can seem like a rather cold ____.",
       "options": [
         "fish-mcq-07",
-        "fish-mcq-06",
-        "fish-mcq-05",
         "fish-mcq-04",
-        "fish-mcq-03",
-        "fish-mcq-02"
+        "fish-mcq-01"
       ],
       "explanation": "本句的「fish」指「捕魚的人；漁民／漁夫」。",
       "sentenceIndex": 12,
@@ -564,12 +487,9 @@ export default {
         "fish"
       ],
       "optionReasons": {
-        "fish-mcq-07": "本句指「捕魚的人；漁民／漁夫」。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。"
+        "fish-mcq-07": "本句的「fish」指「捕魚的人；漁民／漁夫」。",
+        "fish-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-07"
     },
@@ -581,11 +501,7 @@ export default {
       "masked": "____ is popular in the area.",
       "options": [
         "fish-mcq-05",
-        "fish-mcq-04",
-        "fish-mcq-06",
-        "fish-mcq-03",
-        "fish-mcq-07",
-        "fish-mcq-02"
+        "fish-pdf-001"
       ],
       "explanation": "本句的「Fishing」指「捕捉魚類的活動」。",
       "sentenceIndex": 13,
@@ -594,12 +510,8 @@ export default {
         "Fishing"
       ],
       "optionReasons": {
-        "fish-mcq-05": "本句指「捕捉魚類的活動」。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-07": "「捕魚的人；漁民／漁夫」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。"
+        "fish-mcq-05": "本句的「Fishing」指「捕捉魚類的活動」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-05"
     },
@@ -611,10 +523,7 @@ export default {
       "masked": "The region depends on its coastal ____.",
       "options": [
         "fish-mcq-06",
-        "fish-mcq-05",
-        "fish-mcq-07",
         "fish-mcq-04",
-        "fish-mcq-03",
         "fish-mcq-02"
       ],
       "explanation": "本句的「fisheries」指「捕魚、養魚的水域、產業或漁業系統」。",
@@ -624,12 +533,9 @@ export default {
         "fisheries"
       ],
       "optionReasons": {
-        "fish-mcq-06": "本句指「捕魚、養魚的水域、產業或漁業系統」。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-07": "「捕魚的人；漁民／漁夫」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。"
+        "fish-mcq-06": "本句的「fisheries」指「捕魚、養魚的水域、產業或漁業系統」。",
+        "fish-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-06"
     },
@@ -641,11 +547,8 @@ export default {
       "masked": "Local ____ returned before sunset.",
       "options": [
         "fish-mcq-07",
-        "fish-mcq-06",
-        "fish-mcq-05",
-        "fish-mcq-04",
-        "fish-mcq-03",
-        "fish-mcq-02"
+        "fish-pdf-001",
+        "fish-mcq-01"
       ],
       "explanation": "本句的「fishers」指「捕魚的人；漁民／漁夫」。",
       "sentenceIndex": 15,
@@ -654,12 +557,9 @@ export default {
         "fishers"
       ],
       "optionReasons": {
-        "fish-mcq-07": "本句指「捕魚的人；漁民／漁夫」。",
-        "fish-mcq-06": "「捕魚、養魚的水域、產業或漁業系統」與本句語境不同。",
-        "fish-mcq-05": "「捕捉魚類的活動」與本句語境不同。",
-        "fish-mcq-04": "「摸索、試探或間接嘗試取得某物；屬於 figurative extension」與本句語境不同。",
-        "fish-mcq-03": "「以魚竿、魚網或其他方法捕捉魚類」與本句語境不同。",
-        "fish-mcq-02": "「作為食物食用的魚肉或魚類食品」與本句語境不同。"
+        "fish-mcq-07": "本句的「fishers」指「捕魚的人；漁民／漁夫」。",
+        "fish-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "fish-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fish-mcq-07"
     }
@@ -671,5 +571,7 @@ export default {
     "sha256": "0c43dfa80ca9f58a9b9a8333ee5ffa13c21f989654922494383bd71a915c771e",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

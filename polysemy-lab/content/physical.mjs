@@ -668,11 +668,8 @@ export default {
       "masked": "Although she is quite small and ____, she has an incredibly strong spirit.",
       "options": [
         "physical-mcq-01",
-        "physical-mcq-02",
-        "physical-mcq-03",
-        "physical-mcq-04",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-mcq-15",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physically frail」指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
       "sentenceIndex": 0,
@@ -681,12 +678,9 @@ export default {
         "physically frail"
       ],
       "optionReasons": {
-        "physical-mcq-01": "本句指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-01": "本句的「physically frail」指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-01"
     },
@@ -698,11 +692,8 @@ export default {
       "masked": "The job requires a lot of ____.",
       "options": [
         "physical-mcq-01",
-        "physical-mcq-02",
-        "physical-mcq-03",
-        "physical-mcq-04",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-mcq-19",
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical strength」指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
       "sentenceIndex": 1,
@@ -711,12 +702,9 @@ export default {
         "physical strength"
       ],
       "optionReasons": {
-        "physical-mcq-01": "本句指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-01": "本句的「physical strength」指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-01"
     },
@@ -728,11 +716,8 @@ export default {
       "masked": "His mental health improved, but he still had several ____.",
       "options": [
         "physical-mcq-01",
-        "physical-mcq-02",
-        "physical-mcq-03",
-        "physical-mcq-04",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-mcq-11",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical problems」指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
       "sentenceIndex": 2,
@@ -741,12 +726,9 @@ export default {
         "physical problems"
       ],
       "optionReasons": {
-        "physical-mcq-01": "本句指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-01": "本句的「physical problems」指「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」。",
+        "physical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-01"
     },
@@ -758,11 +740,8 @@ export default {
       "masked": "She is ____ but mentally very strong.",
       "options": [
         "physical-mcq-02",
-        "physical-mcq-01",
-        "physical-mcq-03",
-        "physical-mcq-04",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-mcq-20",
+        "physical-mcq-13"
       ],
       "explanation": "本句的「physically weak」指「從身體、體能、生理條件等方面來說」。",
       "sentenceIndex": 3,
@@ -771,12 +750,9 @@ export default {
         "physically weak"
       ],
       "optionReasons": {
-        "physical-mcq-02": "本句指「從身體、體能、生理條件等方面來說」。",
-        "physical-mcq-01": "「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」是「physical — body」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-02": "本句的「physically weak」指「從身體、體能、生理條件等方面來說」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-02"
     },
@@ -788,11 +764,8 @@ export default {
       "masked": "The work is ____.",
       "options": [
         "physical-mcq-02",
-        "physical-mcq-01",
-        "physical-mcq-03",
-        "physical-mcq-04",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-pdf-001",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physically demanding」指「從身體、體能、生理條件等方面來說」。",
       "sentenceIndex": 4,
@@ -801,12 +774,9 @@ export default {
         "physically demanding"
       ],
       "optionReasons": {
-        "physical-mcq-02": "本句指「從身體、體能、生理條件等方面來說」。",
-        "physical-mcq-01": "「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」是「physical — body」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-02": "本句的「physically demanding」指「從身體、體能、生理條件等方面來說」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-02"
     },
@@ -818,11 +788,8 @@ export default {
       "masked": "Regular exercise can improve ____.",
       "options": [
         "physical-mcq-03",
-        "physical-mcq-02",
-        "physical-mcq-04",
-        "physical-mcq-01",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical health」指「身體機能、健康和體能方面的狀態」。",
       "sentenceIndex": 5,
@@ -831,12 +798,9 @@ export default {
         "physical health"
       ],
       "optionReasons": {
-        "physical-mcq-03": "本句指「身體機能、健康和體能方面的狀態」。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-01": "「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」是「physical — body」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-03": "本句的「physical health」指「身體機能、健康和體能方面的狀態」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-03"
     },
@@ -848,11 +812,8 @@ export default {
       "masked": "Her ____ has improved.",
       "options": [
         "physical-mcq-03",
-        "physical-mcq-02",
-        "physical-mcq-04",
-        "physical-mcq-01",
-        "physical-mcq-05",
-        "physical-mcq-06"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical condition」指「身體機能、健康和體能方面的狀態」。",
       "sentenceIndex": 6,
@@ -861,12 +822,9 @@ export default {
         "physical condition"
       ],
       "optionReasons": {
-        "physical-mcq-03": "本句指「身體機能、健康和體能方面的狀態」。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-01": "「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」是「physical — body」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-03": "本句的「physical condition」指「身體機能、健康和體能方面的狀態」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-03"
     },
@@ -878,11 +836,9 @@ export default {
       "masked": "He does not have enough ____ to lift it.",
       "options": [
         "physical-mcq-04",
-        "physical-mcq-03",
-        "physical-mcq-05",
-        "physical-mcq-02",
-        "physical-mcq-06",
-        "physical-mcq-01"
+        "physical-mcq-12",
+        "physical-mcq-11",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical strength」指「身體肌肉及體能所產生的力量」。",
       "sentenceIndex": 7,
@@ -891,12 +847,10 @@ export default {
         "physical strength"
       ],
       "optionReasons": {
-        "physical-mcq-04": "本句指「身體肌肉及體能所產生的力量」。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-01": "「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」是「physical — body」的用法，與本句語境不同。"
+        "physical-mcq-04": "本句的「physical strength」指「身體肌肉及體能所產生的力量」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-04"
     },
@@ -908,11 +862,8 @@ export default {
       "masked": "Age can affect ____.",
       "options": [
         "physical-mcq-04",
-        "physical-mcq-03",
-        "physical-mcq-05",
-        "physical-mcq-02",
-        "physical-mcq-06",
-        "physical-mcq-01"
+        "physical-pdf-001",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical strength」指「身體肌肉及體能所產生的力量」。",
       "sentenceIndex": 8,
@@ -921,12 +872,9 @@ export default {
         "physical strength"
       ],
       "optionReasons": {
-        "physical-mcq-04": "本句指「身體肌肉及體能所產生的力量」。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-01": "「與身體、體力或身體狀況有關，而非心理、情緒或精神層面」是「physical — body」的用法，與本句語境不同。"
+        "physical-mcq-04": "本句的「physical strength」指「身體肌肉及體能所產生的力量」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-04"
     },
@@ -938,11 +886,8 @@ export default {
       "masked": "Walking is a simple form of ____.",
       "options": [
         "physical-mcq-05",
-        "physical-mcq-04",
-        "physical-mcq-06",
-        "physical-mcq-03",
-        "physical-mcq-07",
-        "physical-mcq-02"
+        "physical-pdf-001",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical activity」指「需要身體移動、消耗體力的活動／運動」。",
       "sentenceIndex": 9,
@@ -951,12 +896,9 @@ export default {
         "physical activity"
       ],
       "optionReasons": {
-        "physical-mcq-05": "本句指「需要身體移動、消耗體力的活動／運動」。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。"
+        "physical-mcq-05": "本句的「physical activity」指「需要身體移動、消耗體力的活動／運動」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-05"
     },
@@ -968,11 +910,8 @@ export default {
       "masked": "Children need regular ____.",
       "options": [
         "physical-mcq-05",
-        "physical-mcq-04",
-        "physical-mcq-06",
-        "physical-mcq-03",
-        "physical-mcq-07",
-        "physical-mcq-02"
+        "physical-mcq-12",
+        "physical-mcq-19"
       ],
       "explanation": "本句的「physical exercise」指「需要身體移動、消耗體力的活動／運動」。",
       "sentenceIndex": 10,
@@ -981,12 +920,9 @@ export default {
         "physical exercise"
       ],
       "optionReasons": {
-        "physical-mcq-05": "本句指「需要身體移動、消耗體力的活動／運動」。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-02": "「從身體、體能、生理條件等方面來說」是「physically」的用法，與本句語境不同。"
+        "physical-mcq-05": "本句的「physical exercise」指「需要身體移動、消耗體力的活動／運動」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-05"
     },
@@ -998,11 +934,9 @@ export default {
       "masked": "Farming involves a lot of ____.",
       "options": [
         "physical-mcq-06",
-        "physical-mcq-05",
-        "physical-mcq-07",
-        "physical-mcq-04",
-        "physical-mcq-08",
-        "physical-mcq-03"
+        "physical-mcq-12",
+        "physical-mcq-11",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical work」指「主要依靠身體力量完成或需要大量體力的工作／努力」。",
       "sentenceIndex": 11,
@@ -1011,12 +945,10 @@ export default {
         "physical work"
       ],
       "optionReasons": {
-        "physical-mcq-06": "本句指「主要依靠身體力量完成或需要大量體力的工作／努力」。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。"
+        "physical-mcq-06": "本句的「physical work」指「主要依靠身體力量完成或需要大量體力的工作／努力」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-06"
     },
@@ -1028,11 +960,9 @@ export default {
       "masked": "The climb required considerable ____.",
       "options": [
         "physical-mcq-06",
-        "physical-mcq-05",
-        "physical-mcq-07",
-        "physical-mcq-04",
-        "physical-mcq-08",
-        "physical-mcq-03"
+        "physical-mcq-12",
+        "physical-mcq-11",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical effort」指「主要依靠身體力量完成或需要大量體力的工作／努力」。",
       "sentenceIndex": 12,
@@ -1041,12 +971,10 @@ export default {
         "physical effort"
       ],
       "optionReasons": {
-        "physical-mcq-06": "本句指「主要依靠身體力量完成或需要大量體力的工作／努力」。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-03": "「身體機能、健康和體能方面的狀態」是「physical health/condition」的用法，與本句語境不同。"
+        "physical-mcq-06": "本句的「physical effort」指「主要依靠身體力量完成或需要大量體力的工作／努力」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-06"
     },
@@ -1058,11 +986,8 @@ export default {
       "masked": "The sport involves a lot of ____.",
       "options": [
         "physical-mcq-07",
-        "physical-mcq-06",
-        "physical-mcq-08",
-        "physical-mcq-05",
-        "physical-mcq-09",
-        "physical-mcq-04"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical contact」指「人與人之間實際的身體接觸」。",
       "sentenceIndex": 13,
@@ -1071,12 +996,9 @@ export default {
         "physical contact"
       ],
       "optionReasons": {
-        "physical-mcq-07": "本句指「人與人之間實際的身體接觸」。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。"
+        "physical-mcq-07": "本句的「physical contact」指「人與人之間實際的身體接觸」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-07"
     },
@@ -1088,11 +1010,8 @@ export default {
       "masked": "Some people are uncomfortable with too much ____.",
       "options": [
         "physical-mcq-07",
-        "physical-mcq-06",
-        "physical-mcq-08",
-        "physical-mcq-05",
-        "physical-mcq-09",
-        "physical-mcq-04"
+        "physical-mcq-12",
+        "physical-mcq-20"
       ],
       "explanation": "本句的「physical contact」指「人與人之間實際的身體接觸」。",
       "sentenceIndex": 14,
@@ -1101,12 +1020,9 @@ export default {
         "physical contact"
       ],
       "optionReasons": {
-        "physical-mcq-07": "本句指「人與人之間實際的身體接觸」。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-04": "「身體肌肉及體能所產生的力量」是「physical strength」的用法，與本句語境不同。"
+        "physical-mcq-07": "本句的「physical contact」指「人與人之間實際的身體接觸」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-07"
     },
@@ -1118,11 +1034,8 @@ export default {
       "masked": "The argument became ____.",
       "options": [
         "physical-mcq-08",
-        "physical-mcq-07",
-        "physical-mcq-09",
-        "physical-mcq-06",
-        "physical-mcq-10",
-        "physical-mcq-05"
+        "physical-pdf-001",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physical」指「涉及推撞、打鬥等身體力量的暴力」。",
       "sentenceIndex": 15,
@@ -1131,12 +1044,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-08": "本句指「涉及推撞、打鬥等身體力量的暴力」。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。"
+        "physical-mcq-08": "本句的「physical」指「涉及推撞、打鬥等身體力量的暴力」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-08"
     },
@@ -1148,11 +1058,8 @@ export default {
       "masked": "They exchanged words, but there was no ____.",
       "options": [
         "physical-mcq-08",
-        "physical-mcq-07",
-        "physical-mcq-09",
-        "physical-mcq-06",
-        "physical-mcq-10",
-        "physical-mcq-05"
+        "physical-pdf-001",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physical violence」指「涉及推撞、打鬥等身體力量的暴力」。",
       "sentenceIndex": 16,
@@ -1161,12 +1068,9 @@ export default {
         "physical violence"
       ],
       "optionReasons": {
-        "physical-mcq-08": "本句指「涉及推撞、打鬥等身體力量的暴力」。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-05": "「需要身體移動、消耗體力的活動／運動」是「physical activity/exercise」的用法，與本句語境不同。"
+        "physical-mcq-08": "本句的「physical violence」指「涉及推撞、打鬥等身體力量的暴力」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-08"
     },
@@ -1178,11 +1082,8 @@ export default {
       "masked": "The argument nearly ____.",
       "options": [
         "physical-mcq-09",
-        "physical-mcq-08",
-        "physical-mcq-10",
-        "physical-mcq-07",
-        "physical-mcq-11",
-        "physical-mcq-06"
+        "physical-mcq-19",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「got physical」指「情況由言語／非接觸狀態變成實際肢體接觸或衝突」。",
       "sentenceIndex": 17,
@@ -1191,12 +1092,9 @@ export default {
         "got physical"
       ],
       "optionReasons": {
-        "physical-mcq-09": "本句指「情況由言語／非接觸狀態變成實際肢體接觸或衝突」。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-09": "本句的「got physical」指「情況由言語／非接觸狀態變成實際肢體接觸或衝突」。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-09"
     },
@@ -1208,11 +1106,8 @@ export default {
       "masked": "Security stepped in before things ____.",
       "options": [
         "physical-mcq-09",
-        "physical-mcq-08",
-        "physical-mcq-10",
-        "physical-mcq-07",
-        "physical-mcq-11",
-        "physical-mcq-06"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「got physical」指「情況由言語／非接觸狀態變成實際肢體接觸或衝突」。",
       "sentenceIndex": 18,
@@ -1221,12 +1116,9 @@ export default {
         "got physical"
       ],
       "optionReasons": {
-        "physical-mcq-09": "本句指「情況由言語／非接觸狀態變成實際肢體接觸或衝突」。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-06": "「主要依靠身體力量完成或需要大量體力的工作／努力」是「physical work/effort」的用法，與本句語境不同。"
+        "physical-mcq-09": "本句的「got physical」指「情況由言語／非接觸狀態變成實際肢體接觸或衝突」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-09"
     },
@@ -1238,11 +1130,8 @@ export default {
       "masked": "The company sells both digital and ____.",
       "options": [
         "physical-mcq-10",
-        "physical-mcq-09",
-        "physical-mcq-11",
         "physical-mcq-08",
-        "physical-mcq-12",
-        "physical-mcq-07"
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical products」指「以具體物質形式存在，而非純數碼、抽象或虛擬形式」。",
       "sentenceIndex": 19,
@@ -1251,12 +1140,9 @@ export default {
         "physical products"
       ],
       "optionReasons": {
-        "physical-mcq-10": "本句指「以具體物質形式存在，而非純數碼、抽象或虛擬形式」。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。"
+        "physical-mcq-10": "本句的「physical products」指「以具體物質形式存在，而非純數碼、抽象或虛擬形式」。",
+        "physical-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-10"
     },
@@ -1268,11 +1154,8 @@ export default {
       "masked": "We no longer keep many ____.",
       "options": [
         "physical-mcq-10",
-        "physical-mcq-09",
-        "physical-mcq-11",
-        "physical-mcq-08",
-        "physical-mcq-12",
-        "physical-mcq-07"
+        "physical-mcq-06",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical documents」指「以具體物質形式存在，而非純數碼、抽象或虛擬形式」。",
       "sentenceIndex": 20,
@@ -1281,12 +1164,9 @@ export default {
         "physical documents"
       ],
       "optionReasons": {
-        "physical-mcq-10": "本句指「以具體物質形式存在，而非純數碼、抽象或虛擬形式」。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-07": "「人與人之間實際的身體接觸」是「physical contact」的用法，與本句語境不同。"
+        "physical-mcq-10": "本句的「physical documents」指「以具體物質形式存在，而非純數碼、抽象或虛擬形式」。",
+        "physical-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-10"
     },
@@ -1298,11 +1178,9 @@ export default {
       "masked": "A chair is a ____.",
       "options": [
         "physical-mcq-11",
-        "physical-mcq-10",
-        "physical-mcq-12",
-        "physical-mcq-09",
-        "physical-mcq-13",
-        "physical-mcq-08"
+        "physical-mcq-03",
+        "physical-mcq-18",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical object」指「具有物質形式、佔據空間的實體物件」。",
       "sentenceIndex": 21,
@@ -1311,12 +1189,10 @@ export default {
         "physical object"
       ],
       "optionReasons": {
-        "physical-mcq-11": "本句指「具有物質形式、佔據空間的實體物件」。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。"
+        "physical-mcq-11": "本句的「physical object」指「具有物質形式、佔據空間的實體物件」。",
+        "physical-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-11"
     },
@@ -1328,11 +1204,9 @@ export default {
       "masked": "The virtual model represents a real ____.",
       "options": [
         "physical-mcq-11",
-        "physical-mcq-10",
-        "physical-mcq-12",
-        "physical-mcq-09",
-        "physical-mcq-13",
-        "physical-mcq-08"
+        "physical-mcq-04",
+        "physical-mcq-18",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical object」指「具有物質形式、佔據空間的實體物件」。",
       "sentenceIndex": 22,
@@ -1341,12 +1215,10 @@ export default {
         "physical object"
       ],
       "optionReasons": {
-        "physical-mcq-11": "本句指「具有物質形式、佔據空間的實體物件」。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-08": "「涉及推撞、打鬥等身體力量的暴力」是「physical violence」的用法，與本句語境不同。"
+        "physical-mcq-11": "本句的「physical object」指「具有物質形式、佔據空間的實體物件」。",
+        "physical-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-11"
     },
@@ -1358,11 +1230,8 @@ export default {
       "masked": "Do you want a digital version or a ____?",
       "options": [
         "physical-mcq-12",
-        "physical-mcq-11",
-        "physical-mcq-13",
-        "physical-mcq-10",
-        "physical-mcq-14",
-        "physical-mcq-09"
+        "physical-mcq-26",
+        "physical-mcq-14"
       ],
       "explanation": "本句的「physical copy」指「以紙張等有形媒介存在的版本，而非純數碼檔案」。",
       "sentenceIndex": 23,
@@ -1371,12 +1240,9 @@ export default {
         "physical copy"
       ],
       "optionReasons": {
-        "physical-mcq-12": "本句指「以紙張等有形媒介存在的版本，而非純數碼檔案」。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。"
+        "physical-mcq-12": "本句的「physical copy」指「以紙張等有形媒介存在的版本，而非純數碼檔案」。",
+        "physical-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-12"
     },
@@ -1388,11 +1254,9 @@ export default {
       "masked": "I keep a ____ of the contract.",
       "options": [
         "physical-mcq-12",
-        "physical-mcq-11",
-        "physical-mcq-13",
-        "physical-mcq-10",
         "physical-mcq-14",
-        "physical-mcq-09"
+        "physical-mcq-03",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical copy」指「以紙張等有形媒介存在的版本，而非純數碼檔案」。",
       "sentenceIndex": 24,
@@ -1401,12 +1265,10 @@ export default {
         "physical copy"
       ],
       "optionReasons": {
-        "physical-mcq-12": "本句指「以紙張等有形媒介存在的版本，而非純數碼檔案」。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-09": "「情況由言語／非接觸狀態變成實際肢體接觸或衝突」是「get physical」的用法，與本句語境不同。"
+        "physical-mcq-12": "本句的「physical copy」指「以紙張等有形媒介存在的版本，而非純數碼檔案」。",
+        "physical-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-12"
     },
@@ -1418,11 +1280,8 @@ export default {
       "masked": "The brand sells online and through ____.",
       "options": [
         "physical-mcq-13",
-        "physical-mcq-12",
-        "physical-mcq-14",
-        "physical-mcq-11",
-        "physical-mcq-15",
-        "physical-mcq-10"
+        "physical-mcq-24",
+        "physical-mcq-19"
       ],
       "explanation": "本句的「physical stores」指「顧客可以親自前往的實體商店，而非純網店」。",
       "sentenceIndex": 25,
@@ -1431,12 +1290,9 @@ export default {
         "physical stores"
       ],
       "optionReasons": {
-        "physical-mcq-13": "本句指「顧客可以親自前往的實體商店，而非純網店」。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。"
+        "physical-mcq-13": "本句的「physical stores」指「顧客可以親自前往的實體商店，而非純網店」。",
+        "physical-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-13"
     },
@@ -1448,11 +1304,8 @@ export default {
       "masked": "Some customers still prefer shopping in a ____.",
       "options": [
         "physical-mcq-13",
-        "physical-mcq-12",
-        "physical-mcq-14",
-        "physical-mcq-11",
-        "physical-mcq-15",
-        "physical-mcq-10"
+        "physical-mcq-24",
+        "physical-mcq-19"
       ],
       "explanation": "本句的「physical store」指「顧客可以親自前往的實體商店，而非純網店」。",
       "sentenceIndex": 26,
@@ -1461,12 +1314,9 @@ export default {
         "physical store"
       ],
       "optionReasons": {
-        "physical-mcq-13": "本句指「顧客可以親自前往的實體商店，而非純網店」。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-10": "「以具體物質形式存在，而非純數碼、抽象或虛擬形式」是「physical — tangible/material」的用法，與本句語境不同。"
+        "physical-mcq-13": "本句的「physical store」指「顧客可以親自前往的實體商店，而非純網店」。",
+        "physical-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-13"
     },
@@ -1478,11 +1328,8 @@ export default {
       "masked": "The damage was both emotional and ____.",
       "options": [
         "physical-pdf-001",
-        "physical-mcq-13",
-        "physical-mcq-15",
-        "physical-mcq-12",
-        "physical-mcq-16",
-        "physical-mcq-11"
+        "physical-mcq-24",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physical」指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
       "sentenceIndex": 27,
@@ -1491,12 +1338,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-pdf-001": "本句指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。"
+        "physical-pdf-001": "本句的「physical」指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
+        "physical-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-pdf-001"
     },
@@ -1508,11 +1352,8 @@ export default {
       "masked": "The project produced a ____, not just an idea.",
       "options": [
         "physical-pdf-001",
-        "physical-mcq-13",
-        "physical-mcq-15",
-        "physical-mcq-12",
-        "physical-mcq-16",
-        "physical-mcq-11"
+        "physical-mcq-06",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical result」指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
       "sentenceIndex": 28,
@@ -1521,12 +1362,9 @@ export default {
         "physical result"
       ],
       "optionReasons": {
-        "physical-pdf-001": "本句指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。"
+        "physical-pdf-001": "本句的「physical result」指「屬於實際物質存在，而非純思想、概念或抽象層面的」。",
+        "physical-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-pdf-001"
     },
@@ -1538,11 +1376,9 @@ export default {
       "masked": "Digital information still depends on the ____.",
       "options": [
         "physical-mcq-14",
-        "physical-mcq-13",
-        "physical-mcq-15",
         "physical-mcq-12",
-        "physical-mcq-16",
-        "physical-mcq-11"
+        "physical-mcq-25",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical world」指「由物質、空間和實體事物組成的現實世界」。",
       "sentenceIndex": 29,
@@ -1551,12 +1387,10 @@ export default {
         "physical world"
       ],
       "optionReasons": {
-        "physical-mcq-14": "本句指「由物質、空間和實體事物組成的現實世界」。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。"
+        "physical-mcq-14": "本句的「physical world」指「由物質、空間和實體事物組成的現實世界」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-14"
     },
@@ -1568,11 +1402,9 @@ export default {
       "masked": "The game mixes the virtual and ____.",
       "options": [
         "physical-mcq-14",
-        "physical-mcq-13",
-        "physical-mcq-15",
         "physical-mcq-12",
-        "physical-mcq-16",
-        "physical-mcq-11"
+        "physical-mcq-23",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical worlds」指「由物質、空間和實體事物組成的現實世界」。",
       "sentenceIndex": 30,
@@ -1581,12 +1413,10 @@ export default {
         "physical worlds"
       ],
       "optionReasons": {
-        "physical-mcq-14": "本句指「由物質、空間和實體事物組成的現實世界」。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-11": "「具有物質形式、佔據空間的實體物件」是「physical object」的用法，與本句語境不同。"
+        "physical-mcq-14": "本句的「physical worlds」指「由物質、空間和實體事物組成的現實世界」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-14"
     },
@@ -1598,11 +1428,8 @@ export default {
       "masked": "Investigators found ____ at the scene.",
       "options": [
         "physical-mcq-15",
-        "physical-mcq-14",
-        "physical-mcq-16",
-        "physical-mcq-13",
-        "physical-mcq-17",
-        "physical-mcq-12"
+        "physical-mcq-19",
+        "physical-mcq-03"
       ],
       "explanation": "本句的「physical evidence」指「以物件、痕跡、材料等實體形式存在並可檢驗的證據」。",
       "sentenceIndex": 31,
@@ -1611,12 +1438,9 @@ export default {
         "physical evidence"
       ],
       "optionReasons": {
-        "physical-mcq-15": "本句指「以物件、痕跡、材料等實體形式存在並可檢驗的證據」。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。"
+        "physical-mcq-15": "本句的「physical evidence」指「以物件、痕跡、材料等實體形式存在並可檢驗的證據」。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-15"
     },
@@ -1628,11 +1452,8 @@ export default {
       "masked": "The claim was supported by ____.",
       "options": [
         "physical-mcq-15",
-        "physical-mcq-14",
-        "physical-mcq-16",
-        "physical-mcq-13",
-        "physical-mcq-17",
-        "physical-mcq-12"
+        "physical-mcq-20",
+        "physical-mcq-23"
       ],
       "explanation": "本句的「physical evidence」指「以物件、痕跡、材料等實體形式存在並可檢驗的證據」。",
       "sentenceIndex": 32,
@@ -1641,12 +1462,9 @@ export default {
         "physical evidence"
       ],
       "optionReasons": {
-        "physical-mcq-15": "本句指「以物件、痕跡、材料等實體形式存在並可檢驗的證據」。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-12": "「以紙張等有形媒介存在的版本，而非純數碼檔案」是「physical copy」的用法，與本句語境不同。"
+        "physical-mcq-15": "本句的「physical evidence」指「以物件、痕跡、材料等實體形式存在並可檢驗的證據」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-15"
     },
@@ -1658,11 +1476,8 @@ export default {
       "masked": "People should not be judged only by their ____.",
       "options": [
         "physical-mcq-16",
-        "physical-mcq-15",
-        "physical-mcq-17",
-        "physical-mcq-14",
-        "physical-mcq-18",
-        "physical-mcq-13"
+        "physical-mcq-12",
+        "physical-mcq-20"
       ],
       "explanation": "本句的「physical appearance」指「一個人的身體和外表可見的樣子」。",
       "sentenceIndex": 33,
@@ -1671,12 +1486,9 @@ export default {
         "physical appearance"
       ],
       "optionReasons": {
-        "physical-mcq-16": "本句指「一個人的身體和外表可見的樣子」。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。"
+        "physical-mcq-16": "本句的「physical appearance」指「一個人的身體和外表可見的樣子」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-16"
     },
@@ -1688,11 +1500,8 @@ export default {
       "masked": "Her ____ appearance changed very little.",
       "options": [
         "physical-mcq-16",
-        "physical-mcq-15",
-        "physical-mcq-17",
-        "physical-mcq-14",
-        "physical-mcq-18",
-        "physical-mcq-13"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical」指「一個人的身體和外表可見的樣子」。",
       "sentenceIndex": 34,
@@ -1701,12 +1510,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-16": "本句指「一個人的身體和外表可見的樣子」。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-13": "「顧客可以親自前往的實體商店，而非純網店」是「physical store」的用法，與本句語境不同。"
+        "physical-mcq-16": "本句的「physical」指「一個人的身體和外表可見的樣子」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-16"
     },
@@ -1718,11 +1524,8 @@ export default {
       "masked": "Eye colour is a ____.",
       "options": [
         "physical-mcq-17",
-        "physical-mcq-16",
-        "physical-mcq-18",
-        "physical-mcq-15",
-        "physical-mcq-19",
-        "physical-mcq-14"
+        "physical-pdf-001",
+        "physical-mcq-02"
       ],
       "explanation": "本句的「physical feature」指「人／地方可以直接觀察到的形體或自然外觀特徵」。",
       "sentenceIndex": 35,
@@ -1731,12 +1534,9 @@ export default {
         "physical feature"
       ],
       "optionReasons": {
-        "physical-mcq-17": "本句指「人／地方可以直接觀察到的形體或自然外觀特徵」。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。"
+        "physical-mcq-17": "本句的「physical feature」指「人／地方可以直接觀察到的形體或自然外觀特徵」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-17"
     },
@@ -1748,11 +1548,8 @@ export default {
       "masked": "Mountains are important ____ of the region.",
       "options": [
         "physical-mcq-17",
-        "physical-mcq-16",
-        "physical-mcq-18",
-        "physical-mcq-15",
-        "physical-mcq-19",
-        "physical-mcq-14"
+        "physical-pdf-001",
+        "physical-mcq-05"
       ],
       "explanation": "本句的「physical features」指「人／地方可以直接觀察到的形體或自然外觀特徵」。",
       "sentenceIndex": 36,
@@ -1761,12 +1558,9 @@ export default {
         "physical features"
       ],
       "optionReasons": {
-        "physical-mcq-17": "本句指「人／地方可以直接觀察到的形體或自然外觀特徵」。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-14": "「由物質、空間和實體事物組成的現實世界」是「physical world」的用法，與本句語境不同。"
+        "physical-mcq-17": "本句的「physical features」指「人／地方可以直接觀察到的形體或自然外觀特徵」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-17"
     },
@@ -1778,11 +1572,8 @@ export default {
       "masked": "We studied rivers and mountains in ____.",
       "options": [
         "physical-mcq-18",
-        "physical-mcq-17",
-        "physical-mcq-19",
-        "physical-mcq-16",
-        "physical-mcq-20",
-        "physical-mcq-15"
+        "physical-pdf-001",
+        "physical-mcq-06"
       ],
       "explanation": "本句的「physical geography」指「研究地貌、氣候、水體等地球自然環境的地理學分支」。",
       "sentenceIndex": 37,
@@ -1791,12 +1582,9 @@ export default {
         "physical geography"
       ],
       "optionReasons": {
-        "physical-mcq-18": "本句指「研究地貌、氣候、水體等地球自然環境的地理學分支」。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。"
+        "physical-mcq-18": "本句的「physical geography」指「研究地貌、氣候、水體等地球自然環境的地理學分支」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-18"
     },
@@ -1808,11 +1596,8 @@ export default {
       "masked": "Climate is an important topic in ____ geography.",
       "options": [
         "physical-mcq-18",
-        "physical-mcq-17",
-        "physical-mcq-19",
-        "physical-mcq-16",
-        "physical-mcq-20",
-        "physical-mcq-15"
+        "physical-pdf-001",
+        "physical-mcq-06"
       ],
       "explanation": "本句的「physical」指「研究地貌、氣候、水體等地球自然環境的地理學分支」。",
       "sentenceIndex": 38,
@@ -1821,12 +1606,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-18": "本句指「研究地貌、氣候、水體等地球自然環境的地理學分支」。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-15": "「以物件、痕跡、材料等實體形式存在並可檢驗的證據」是「physical evidence」的用法，與本句語境不同。"
+        "physical-mcq-18": "本句的「physical」指「研究地貌、氣候、水體等地球自然環境的地理學分支」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-18"
     },
@@ -1838,11 +1620,8 @@ export default {
       "masked": "Temperature is a ____.",
       "options": [
         "physical-mcq-19",
-        "physical-mcq-18",
-        "physical-mcq-20",
-        "physical-mcq-17",
-        "physical-mcq-21",
-        "physical-mcq-16"
+        "physical-mcq-09",
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical property」指「與物質本身可觀察／測量的自然性質有關」。",
       "sentenceIndex": 39,
@@ -1851,12 +1630,9 @@ export default {
         "physical property"
       ],
       "optionReasons": {
-        "physical-mcq-19": "本句指「與物質本身可觀察／測量的自然性質有關」。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。"
+        "physical-mcq-19": "本句的「physical property」指「與物質本身可觀察／測量的自然性質有關」。",
+        "physical-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-19"
     },
@@ -1868,11 +1644,8 @@ export default {
       "masked": "The experiment measured several ____ of the material.",
       "options": [
         "physical-mcq-19",
-        "physical-mcq-18",
-        "physical-mcq-20",
-        "physical-mcq-17",
-        "physical-mcq-21",
-        "physical-mcq-16"
+        "physical-mcq-15",
+        "physical-mcq-09"
       ],
       "explanation": "本句的「physical properties」指「與物質本身可觀察／測量的自然性質有關」。",
       "sentenceIndex": 40,
@@ -1881,12 +1654,9 @@ export default {
         "physical properties"
       ],
       "optionReasons": {
-        "physical-mcq-19": "本句指「與物質本身可觀察／測量的自然性質有關」。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-16": "「一個人的身體和外表可見的樣子」是「physical appearance」的用法，與本句語境不同。"
+        "physical-mcq-19": "本句的「physical properties」指「與物質本身可觀察／測量的自然性質有關」。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-19"
     },
@@ -1898,11 +1668,8 @@ export default {
       "masked": "Physics and chemistry are commonly grouped among the ____.",
       "options": [
         "physical-mcq-20",
-        "physical-mcq-19",
-        "physical-mcq-21",
-        "physical-mcq-18",
-        "physical-mcq-22",
-        "physical-mcq-17"
+        "physical-mcq-09",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical sciences」指「主要研究物質、能量及相關自然現象的科學領域」。",
       "sentenceIndex": 41,
@@ -1911,12 +1678,9 @@ export default {
         "physical sciences"
       ],
       "optionReasons": {
-        "physical-mcq-20": "本句指「主要研究物質、能量及相關自然現象的科學領域」。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。"
+        "physical-mcq-20": "本句的「physical sciences」指「主要研究物質、能量及相關自然現象的科學領域」。",
+        "physical-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-20"
     },
@@ -1928,11 +1692,8 @@ export default {
       "masked": "She studies the ____ sciences.",
       "options": [
         "physical-mcq-20",
-        "physical-mcq-19",
-        "physical-mcq-21",
-        "physical-mcq-18",
-        "physical-mcq-22",
-        "physical-mcq-17"
+        "physical-mcq-09",
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical」指「主要研究物質、能量及相關自然現象的科學領域」。",
       "sentenceIndex": 42,
@@ -1941,12 +1702,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-20": "本句指「主要研究物質、能量及相關自然現象的科學領域」。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-17": "「人／地方可以直接觀察到的形體或自然外觀特徵」是「physical feature」的用法，與本句語境不同。"
+        "physical-mcq-20": "本句的「physical」指「主要研究物質、能量及相關自然現象的科學領域」。",
+        "physical-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-20"
     },
@@ -1958,11 +1716,8 @@ export default {
       "masked": "The meeting requires your ____.",
       "options": [
         "physical-mcq-21",
-        "physical-mcq-20",
-        "physical-mcq-22",
         "physical-mcq-19",
-        "physical-mcq-23",
-        "physical-mcq-18"
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical presence」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
       "sentenceIndex": 43,
@@ -1971,12 +1726,9 @@ export default {
         "physical presence"
       ],
       "optionReasons": {
-        "physical-mcq-21": "本句指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。"
+        "physical-mcq-21": "本句的「physical presence」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-21"
     },
@@ -1988,11 +1740,8 @@ export default {
       "masked": "There is no need for a ____.",
       "options": [
         "physical-mcq-21",
-        "physical-mcq-20",
-        "physical-mcq-22",
-        "physical-mcq-19",
-        "physical-mcq-23",
-        "physical-mcq-18"
+        "physical-mcq-18",
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical office」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
       "sentenceIndex": 44,
@@ -2001,12 +1750,9 @@ export default {
         "physical office"
       ],
       "optionReasons": {
-        "physical-mcq-21": "本句指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。"
+        "physical-mcq-21": "本句的「physical office」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-21"
     },
@@ -2018,11 +1764,8 @@ export default {
       "masked": "Her ____ was not required.",
       "options": [
         "physical-mcq-21",
-        "physical-mcq-20",
-        "physical-mcq-22",
-        "physical-mcq-19",
-        "physical-mcq-23",
-        "physical-mcq-18"
+        "physical-mcq-18",
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical presence」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
       "sentenceIndex": 45,
@@ -2031,12 +1774,9 @@ export default {
         "physical presence"
       ],
       "optionReasons": {
-        "physical-mcq-21": "本句指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。"
+        "physical-mcq-21": "本句的「physical presence」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-21"
     },
@@ -2048,11 +1788,8 @@ export default {
       "masked": "Video calls reduce the need for ____ presence.",
       "options": [
         "physical-mcq-21",
-        "physical-mcq-20",
-        "physical-mcq-22",
         "physical-mcq-19",
-        "physical-mcq-23",
-        "physical-mcq-18"
+        "physical-mcq-15"
       ],
       "explanation": "本句的「physical」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
       "sentenceIndex": 46,
@@ -2061,12 +1798,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-21": "本句指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-18": "「研究地貌、氣候、水體等地球自然環境的地理學分支」是「physical geography」的用法，與本句語境不同。"
+        "physical-mcq-21": "本句的「physical」指「一個人的身體實際位於現場，而非只在線／遙距參與」。",
+        "physical-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-21"
     },
@@ -2078,11 +1812,7 @@ export default {
       "masked": "It is ____ to fit all of these boxes into the car.",
       "options": [
         "physical-mcq-22",
-        "physical-mcq-21",
-        "physical-mcq-23",
-        "physical-mcq-20",
-        "physical-mcq-24",
-        "physical-mcq-19"
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physically impossible」指「身體能力、空間或自然物理條件允許／不允許某事發生」。",
       "sentenceIndex": 47,
@@ -2091,12 +1821,8 @@ export default {
         "physically impossible"
       ],
       "optionReasons": {
-        "physical-mcq-22": "本句指「身體能力、空間或自然物理條件允許／不允許某事發生」。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。"
+        "physical-mcq-22": "本句的「physically impossible」指「身體能力、空間或自然物理條件允許／不允許某事發生」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-22"
     },
@@ -2108,11 +1834,7 @@ export default {
       "masked": "I couldn’t ____ carry everything at once.",
       "options": [
         "physical-mcq-22",
-        "physical-mcq-21",
-        "physical-mcq-23",
-        "physical-mcq-20",
-        "physical-mcq-24",
-        "physical-mcq-19"
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physically」指「身體能力、空間或自然物理條件允許／不允許某事發生」。",
       "sentenceIndex": 48,
@@ -2121,12 +1843,8 @@ export default {
         "physically"
       ],
       "optionReasons": {
-        "physical-mcq-22": "本句指「身體能力、空間或自然物理條件允許／不允許某事發生」。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-19": "「與物質本身可觀察／測量的自然性質有關」是「physical property」的用法，與本句語境不同。"
+        "physical-mcq-22": "本句的「physically」指「身體能力、空間或自然物理條件允許／不允許某事發生」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-22"
     },
@@ -2138,11 +1856,8 @@ export default {
       "masked": "There was strong ____ between them.",
       "options": [
         "physical-mcq-23",
-        "physical-mcq-22",
-        "physical-mcq-24",
-        "physical-mcq-21",
-        "physical-mcq-25",
-        "physical-mcq-20"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical attraction」指「因外貌、身體或感官特徵產生的吸引」。",
       "sentenceIndex": 49,
@@ -2151,12 +1866,9 @@ export default {
         "physical attraction"
       ],
       "optionReasons": {
-        "physical-mcq-23": "本句指「因外貌、身體或感官特徵產生的吸引」。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。"
+        "physical-mcq-23": "本句的「physical attraction」指「因外貌、身體或感官特徵產生的吸引」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-23"
     },
@@ -2168,11 +1880,8 @@ export default {
       "masked": "____ attraction is only one part of a relationship.",
       "options": [
         "physical-mcq-23",
-        "physical-mcq-22",
-        "physical-mcq-24",
-        "physical-mcq-21",
-        "physical-mcq-25",
-        "physical-mcq-20"
+        "physical-pdf-001",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「Physical」指「因外貌、身體或感官特徵產生的吸引」。",
       "sentenceIndex": 50,
@@ -2181,12 +1890,9 @@ export default {
         "Physical"
       ],
       "optionReasons": {
-        "physical-mcq-23": "本句指「因外貌、身體或感官特徵產生的吸引」。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-20": "「主要研究物質、能量及相關自然現象的科學領域」是「physical sciences」的用法，與本句語境不同。"
+        "physical-mcq-23": "本句的「Physical」指「因外貌、身體或感官特徵產生的吸引」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-23"
     },
@@ -2198,11 +1904,8 @@ export default {
       "masked": "I have a ____ next week.",
       "options": [
         "physical-mcq-24",
-        "physical-mcq-23",
-        "physical-mcq-25",
-        "physical-mcq-22",
-        "physical-mcq-26",
-        "physical-mcq-21"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical」指「醫護人員進行的常規身體健康檢查；尤常見於美式英語」。",
       "sentenceIndex": 51,
@@ -2211,12 +1914,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-24": "本句指「醫護人員進行的常規身體健康檢查；尤常見於美式英語」。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。"
+        "physical-mcq-24": "本句的「physical」指「醫護人員進行的常規身體健康檢查；尤常見於美式英語」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-24"
     },
@@ -2228,11 +1928,8 @@ export default {
       "masked": "The doctor gave him a complete ____.",
       "options": [
         "physical-mcq-24",
-        "physical-mcq-23",
-        "physical-mcq-25",
-        "physical-mcq-22",
-        "physical-mcq-26",
-        "physical-mcq-21"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「physical」指「醫護人員進行的常規身體健康檢查；尤常見於美式英語」。",
       "sentenceIndex": 52,
@@ -2241,12 +1938,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-24": "本句指「醫護人員進行的常規身體健康檢查；尤常見於美式英語」。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-21": "「一個人的身體實際位於現場，而非只在線／遙距參與」是「physical presence」的用法，與本句語境不同。"
+        "physical-mcq-24": "本句的「physical」指「醫護人員進行的常規身體健康檢查；尤常見於美式英語」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-24"
     },
@@ -2258,11 +1952,8 @@ export default {
       "masked": "The doctor performed a ____.",
       "options": [
         "physical-mcq-25",
-        "physical-mcq-24",
-        "physical-mcq-26",
-        "physical-mcq-23",
-        "physical-mcq-27",
-        "physical-mcq-22"
+        "physical-pdf-001",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical examination」指「透過觀察、觸診、量度等方法檢查身體狀況」。",
       "sentenceIndex": 53,
@@ -2271,12 +1962,9 @@ export default {
         "physical examination"
       ],
       "optionReasons": {
-        "physical-mcq-25": "本句指「透過觀察、觸診、量度等方法檢查身體狀況」。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-27": "「透過運動、手法等方法改善活動能力及身體功能的治療」是「physical therapy」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。"
+        "physical-mcq-25": "本句的「physical examination」指「透過觀察、觸診、量度等方法檢查身體狀況」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-25"
     },
@@ -2288,11 +1976,8 @@ export default {
       "masked": "The assessment includes a ____ examination.",
       "options": [
         "physical-mcq-25",
-        "physical-mcq-24",
-        "physical-mcq-26",
-        "physical-mcq-23",
-        "physical-mcq-27",
-        "physical-mcq-22"
+        "physical-pdf-001",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physical」指「透過觀察、觸診、量度等方法檢查身體狀況」。",
       "sentenceIndex": 54,
@@ -2301,12 +1986,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-25": "本句指「透過觀察、觸診、量度等方法檢查身體狀況」。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。",
-        "physical-mcq-27": "「透過運動、手法等方法改善活動能力及身體功能的治療」是「physical therapy」的用法，與本句語境不同。",
-        "physical-mcq-22": "「身體能力、空間或自然物理條件允許／不允許某事發生」是「physically possible/impossible」的用法，與本句語境不同。"
+        "physical-mcq-25": "本句的「physical」指「透過觀察、觸診、量度等方法檢查身體狀況」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-25"
     },
@@ -2318,11 +2000,8 @@ export default {
       "masked": "Students have ____ twice a week.",
       "options": [
         "physical-mcq-26",
-        "physical-mcq-25",
-        "physical-mcq-27",
-        "physical-mcq-24",
-        "physical-mcq-28",
-        "physical-mcq-23"
+        "physical-pdf-001",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physical education」指「透過運動和身體活動培養體能、技巧與健康的學校科目」。",
       "sentenceIndex": 55,
@@ -2331,12 +2010,9 @@ export default {
         "physical education"
       ],
       "optionReasons": {
-        "physical-mcq-26": "本句指「透過運動和身體活動培養體能、技巧與健康的學校科目」。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-27": "「透過運動、手法等方法改善活動能力及身體功能的治療」是「physical therapy」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-28": "「身體力量、動作、存在感或肢體特質所形成的整體表現」是「physicality」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。"
+        "physical-mcq-26": "本句的「physical education」指「透過運動和身體活動培養體能、技巧與健康的學校科目」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-26"
     },
@@ -2348,11 +2024,8 @@ export default {
       "masked": "He teaches ____ education.",
       "options": [
         "physical-mcq-26",
-        "physical-mcq-25",
-        "physical-mcq-27",
-        "physical-mcq-24",
-        "physical-mcq-28",
-        "physical-mcq-23"
+        "physical-mcq-12",
+        "physical-mcq-11"
       ],
       "explanation": "本句的「physical」指「透過運動和身體活動培養體能、技巧與健康的學校科目」。",
       "sentenceIndex": 56,
@@ -2361,12 +2034,9 @@ export default {
         "physical"
       ],
       "optionReasons": {
-        "physical-mcq-26": "本句指「透過運動和身體活動培養體能、技巧與健康的學校科目」。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-27": "「透過運動、手法等方法改善活動能力及身體功能的治療」是「physical therapy」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-28": "「身體力量、動作、存在感或肢體特質所形成的整體表現」是「physicality」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。"
+        "physical-mcq-26": "本句的「physical」指「透過運動和身體活動培養體能、技巧與健康的學校科目」。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-26"
     },
@@ -2378,11 +2048,8 @@ export default {
       "masked": "She needed ____ after the injury.",
       "options": [
         "physical-mcq-27",
-        "physical-mcq-26",
-        "physical-mcq-28",
-        "physical-mcq-25",
-        "physical-mcq-24",
-        "physical-mcq-23"
+        "physical-pdf-001",
+        "physical-mcq-17"
       ],
       "explanation": "本句的「physical therapy」指「透過運動、手法等方法改善活動能力及身體功能的治療」。",
       "sentenceIndex": 57,
@@ -2391,12 +2058,9 @@ export default {
         "physical therapy"
       ],
       "optionReasons": {
-        "physical-mcq-27": "本句指「透過運動、手法等方法改善活動能力及身體功能的治療」。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-28": "「身體力量、動作、存在感或肢體特質所形成的整體表現」是「physicality」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。"
+        "physical-mcq-27": "本句的「physical therapy」指「透過運動、手法等方法改善活動能力及身體功能的治療」。",
+        "physical-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-27"
     },
@@ -2408,11 +2072,8 @@ export default {
       "masked": "____ therapy helped him regain movement.",
       "options": [
         "physical-mcq-27",
-        "physical-mcq-26",
-        "physical-mcq-28",
-        "physical-mcq-25",
-        "physical-mcq-24",
-        "physical-mcq-23"
+        "physical-mcq-20",
+        "physical-mcq-12"
       ],
       "explanation": "本句的「Physical」指「透過運動、手法等方法改善活動能力及身體功能的治療」。",
       "sentenceIndex": 58,
@@ -2421,12 +2082,9 @@ export default {
         "Physical"
       ],
       "optionReasons": {
-        "physical-mcq-27": "本句指「透過運動、手法等方法改善活動能力及身體功能的治療」。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-28": "「身體力量、動作、存在感或肢體特質所形成的整體表現」是「physicality」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。"
+        "physical-mcq-27": "本句的「Physical」指「透過運動、手法等方法改善活動能力及身體功能的治療」。",
+        "physical-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-27"
     },
@@ -2438,11 +2096,8 @@ export default {
       "masked": "The role requires a great deal of ____.",
       "options": [
         "physical-mcq-28",
-        "physical-mcq-27",
-        "physical-mcq-26",
-        "physical-mcq-25",
-        "physical-mcq-24",
-        "physical-mcq-23"
+        "physical-mcq-13",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physicality」指「身體力量、動作、存在感或肢體特質所形成的整體表現」。",
       "sentenceIndex": 59,
@@ -2451,12 +2106,9 @@ export default {
         "physicality"
       ],
       "optionReasons": {
-        "physical-mcq-28": "本句指「身體力量、動作、存在感或肢體特質所形成的整體表現」。",
-        "physical-mcq-27": "「透過運動、手法等方法改善活動能力及身體功能的治療」是「physical therapy」的用法，與本句語境不同。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。"
+        "physical-mcq-28": "本句的「physicality」指「身體力量、動作、存在感或肢體特質所形成的整體表現」。",
+        "physical-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-28"
     },
@@ -2468,11 +2120,8 @@ export default {
       "masked": "The team struggled with the opponent’s ____.",
       "options": [
         "physical-mcq-28",
-        "physical-mcq-27",
-        "physical-mcq-26",
-        "physical-mcq-25",
-        "physical-mcq-24",
-        "physical-mcq-23"
+        "physical-mcq-13",
+        "physical-mcq-18"
       ],
       "explanation": "本句的「physicality」指「身體力量、動作、存在感或肢體特質所形成的整體表現」。",
       "sentenceIndex": 60,
@@ -2481,12 +2130,9 @@ export default {
         "physicality"
       ],
       "optionReasons": {
-        "physical-mcq-28": "本句指「身體力量、動作、存在感或肢體特質所形成的整體表現」。",
-        "physical-mcq-27": "「透過運動、手法等方法改善活動能力及身體功能的治療」是「physical therapy」的用法，與本句語境不同。",
-        "physical-mcq-26": "「透過運動和身體活動培養體能、技巧與健康的學校科目」是「physical education」的用法，與本句語境不同。",
-        "physical-mcq-25": "「透過觀察、觸診、量度等方法檢查身體狀況」是「physical examination」的用法，與本句語境不同。",
-        "physical-mcq-24": "「醫護人員進行的常規身體健康檢查；尤常見於美式英語」是「a physical」的用法，與本句語境不同。",
-        "physical-mcq-23": "「因外貌、身體或感官特徵產生的吸引」是「physical attraction」的用法，與本句語境不同。"
+        "physical-mcq-28": "本句的「physicality」指「身體力量、動作、存在感或肢體特質所形成的整體表現」。",
+        "physical-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "physical-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "physical-mcq-28"
     }
@@ -2498,5 +2144,7 @@ export default {
     "sha256": "4c2701145c12f7cf3175f05380a370452b33ca157774dc1063a0e05dc95b994f",
     "pages": 30
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -865,11 +865,9 @@ export default {
       "masked": "To ____, I prepared in a very practical way.",
       "options": [
         "handle-mcq-01",
-        "handle-mcq-02",
-        "handle-mcq-03",
-        "handle-mcq-04",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-pdf-001",
+        "handle-pdf-003",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handle the challenge」指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
       "sentenceIndex": 0,
@@ -878,12 +876,10 @@ export default {
         "handle the challenge"
       ],
       "optionReasons": {
-        "handle-mcq-01": "本句指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-01": "本句的「handle the challenge」指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-01"
     },
@@ -895,11 +891,9 @@ export default {
       "masked": "She ____ calmly.",
       "options": [
         "handle-mcq-01",
-        "handle-mcq-02",
-        "handle-mcq-03",
-        "handle-mcq-04",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-mcq-22",
+        "handle-mcq-21",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handled the problem」指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
       "sentenceIndex": 1,
@@ -908,12 +902,10 @@ export default {
         "handled the problem"
       ],
       "optionReasons": {
-        "handle-mcq-01": "本句指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-01": "本句的「handled the problem」指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-01"
     },
@@ -925,11 +917,9 @@ export default {
       "masked": "He knows how to ____.",
       "options": [
         "handle-mcq-01",
-        "handle-mcq-02",
-        "handle-mcq-03",
-        "handle-mcq-04",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-pdf-002",
+        "handle-mcq-22",
+        "handle-mcq-18"
       ],
       "explanation": "本句的「handle difficult situations」指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
       "sentenceIndex": 2,
@@ -938,12 +928,10 @@ export default {
         "handle difficult situations"
       ],
       "optionReasons": {
-        "handle-mcq-01": "本句指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-01": "本句的「handle difficult situations」指「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-01"
     },
@@ -955,11 +943,9 @@ export default {
       "masked": "She ____ very well.",
       "options": [
         "handle-mcq-02",
-        "handle-mcq-01",
-        "handle-mcq-03",
-        "handle-mcq-04",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-mcq-34",
+        "handle-mcq-30",
+        "handle-mcq-18"
       ],
       "explanation": "本句的「handles pressure」指「在壓力之下仍能有效思考、工作或控制情緒」。",
       "sentenceIndex": 3,
@@ -968,12 +954,10 @@ export default {
         "handles pressure"
       ],
       "optionReasons": {
-        "handle-mcq-02": "本句指「在壓力之下仍能有效思考、工作或控制情緒」。",
-        "handle-mcq-01": "「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」是「handle a challenge/problem」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-02": "本句的「handles pressure」指「在壓力之下仍能有效思考、工作或控制情緒」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-02"
     },
@@ -985,11 +969,9 @@ export default {
       "masked": "I was learning how to ____ before presentations.",
       "options": [
         "handle-mcq-02",
-        "handle-mcq-01",
-        "handle-mcq-03",
-        "handle-mcq-04",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-mcq-11",
+        "handle-pdf-003",
+        "handle-pdf-001"
       ],
       "explanation": "本句的「handle stress」指「在壓力之下仍能有效思考、工作或控制情緒」。",
       "sentenceIndex": 4,
@@ -998,12 +980,10 @@ export default {
         "handle stress"
       ],
       "optionReasons": {
-        "handle-mcq-02": "本句指「在壓力之下仍能有效思考、工作或控制情緒」。",
-        "handle-mcq-01": "「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」是「handle a challenge/problem」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-02": "本句的「handle stress」指「在壓力之下仍能有效思考、工作或控制情緒」。",
+        "handle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-02"
     },
@@ -1015,11 +995,9 @@ export default {
       "masked": "I can ____ on my own.",
       "options": [
         "handle-mcq-03",
-        "handle-mcq-02",
-        "handle-mcq-04",
-        "handle-mcq-01",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-mcq-34",
+        "handle-mcq-33",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handle this task」指「有能力完成、管理或應付指定工作／工作量」。",
       "sentenceIndex": 5,
@@ -1028,12 +1006,10 @@ export default {
         "handle this task"
       ],
       "optionReasons": {
-        "handle-mcq-03": "本句指「有能力完成、管理或應付指定工作／工作量」。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-01": "「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」是「handle a challenge/problem」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-03": "本句的「handle this task」指「有能力完成、管理或應付指定工作／工作量」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-03"
     },
@@ -1045,11 +1021,9 @@ export default {
       "masked": "She is able to ____.",
       "options": [
         "handle-mcq-03",
-        "handle-mcq-02",
-        "handle-mcq-04",
-        "handle-mcq-01",
-        "handle-mcq-05",
-        "handle-mcq-06"
+        "handle-pdf-001",
+        "handle-mcq-22",
+        "handle-mcq-33"
       ],
       "explanation": "本句的「handle a heavy workload」指「有能力完成、管理或應付指定工作／工作量」。",
       "sentenceIndex": 6,
@@ -1058,12 +1032,10 @@ export default {
         "handle a heavy workload"
       ],
       "optionReasons": {
-        "handle-mcq-03": "本句指「有能力完成、管理或應付指定工作／工作量」。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-01": "「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」是「handle a challenge/problem」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-03": "本句的「handle a heavy workload」指「有能力完成、管理或應付指定工作／工作量」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-03"
     },
@@ -1075,11 +1047,9 @@ export default {
       "masked": "He is ready to ____.",
       "options": [
         "handle-mcq-04",
-        "handle-mcq-03",
-        "handle-mcq-05",
-        "handle-mcq-02",
-        "handle-mcq-06",
-        "handle-mcq-01"
+        "handle-mcq-13",
+        "handle-mcq-24",
+        "handle-mcq-26"
       ],
       "explanation": "本句的「handle more responsibility」指「有能力承擔並履行某項責任或職務」。",
       "sentenceIndex": 7,
@@ -1088,12 +1058,10 @@ export default {
         "handle more responsibility"
       ],
       "optionReasons": {
-        "handle-mcq-04": "本句指「有能力承擔並履行某項責任或職務」。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-01": "「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」是「handle a challenge/problem」的用法，與本句語境不同。"
+        "handle-mcq-04": "本句的「handle more responsibility」指「有能力承擔並履行某項責任或職務」。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-04"
     },
@@ -1105,11 +1073,9 @@ export default {
       "masked": "She ____ the new role well.",
       "options": [
         "handle-mcq-04",
-        "handle-mcq-03",
-        "handle-mcq-05",
-        "handle-mcq-02",
-        "handle-mcq-06",
-        "handle-mcq-01"
+        "handle-pdf-002",
+        "handle-pdf-003",
+        "handle-mcq-11"
       ],
       "explanation": "本句的「handled」指「有能力承擔並履行某項責任或職務」。",
       "sentenceIndex": 8,
@@ -1118,12 +1084,10 @@ export default {
         "handled"
       ],
       "optionReasons": {
-        "handle-mcq-04": "本句指「有能力承擔並履行某項責任或職務」。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-01": "「面對並處理一個困難、問題或情況，使其受到控制或得到有效應對」是「handle a challenge/problem」的用法，與本句語境不同。"
+        "handle-mcq-04": "本句的「handled」指「有能力承擔並履行某項責任或職務」。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-04"
     },
@@ -1135,11 +1099,9 @@ export default {
       "masked": "She knows how to ____.",
       "options": [
         "handle-mcq-05",
-        "handle-mcq-04",
-        "handle-mcq-06",
-        "handle-mcq-03",
-        "handle-mcq-07",
-        "handle-mcq-02"
+        "handle-pdf-001",
+        "handle-mcq-22",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handle difficult customers」指「以適當方式應對、管理或處理某人的行為／要求」。",
       "sentenceIndex": 9,
@@ -1148,12 +1110,10 @@ export default {
         "handle difficult customers"
       ],
       "optionReasons": {
-        "handle-mcq-05": "本句指「以適當方式應對、管理或處理某人的行為／要求」。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。"
+        "handle-mcq-05": "本句的「handle difficult customers」指「以適當方式應對、管理或處理某人的行為／要求」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-05"
     },
@@ -1165,11 +1125,9 @@ export default {
       "masked": "The manager ____ the angry client professionally.",
       "options": [
         "handle-mcq-05",
-        "handle-mcq-04",
-        "handle-mcq-06",
-        "handle-mcq-03",
-        "handle-mcq-07",
-        "handle-mcq-02"
+        "handle-mcq-18",
+        "handle-mcq-22",
+        "handle-pdf-002"
       ],
       "explanation": "本句的「handled」指「以適當方式應對、管理或處理某人的行為／要求」。",
       "sentenceIndex": 10,
@@ -1178,12 +1136,10 @@ export default {
         "handled"
       ],
       "optionReasons": {
-        "handle-mcq-05": "本句指「以適當方式應對、管理或處理某人的行為／要求」。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-02": "「在壓力之下仍能有效思考、工作或控制情緒」是「handle pressure/stress」的用法，與本句語境不同。"
+        "handle-mcq-05": "本句的「handled」指「以適當方式應對、管理或處理某人的行為／要求」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-05"
     },
@@ -1195,11 +1151,9 @@ export default {
       "masked": "The department ____.",
       "options": [
         "handle-mcq-06",
-        "handle-mcq-05",
-        "handle-mcq-07",
-        "handle-mcq-04",
-        "handle-mcq-08",
-        "handle-mcq-03"
+        "handle-mcq-27",
+        "handle-mcq-12",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handles customer complaints」指「正式負責接收、跟進和處理某項投訴／個案」。",
       "sentenceIndex": 11,
@@ -1208,12 +1162,10 @@ export default {
         "handles customer complaints"
       ],
       "optionReasons": {
-        "handle-mcq-06": "本句指「正式負責接收、跟進和處理某項投訴／個案」。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。"
+        "handle-mcq-06": "本句的「handles customer complaints」指「正式負責接收、跟進和處理某項投訴／個案」。",
+        "handle-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-06"
     },
@@ -1225,11 +1177,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "handle-mcq-06",
-        "handle-mcq-05",
-        "handle-mcq-07",
-        "handle-mcq-04",
-        "handle-mcq-08",
-        "handle-mcq-03"
+        "handle-pdf-001",
+        "handle-mcq-22",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handling the case」指「正式負責接收、跟進和處理某項投訴／個案」。",
       "sentenceIndex": 12,
@@ -1238,12 +1188,10 @@ export default {
         "handling the case"
       ],
       "optionReasons": {
-        "handle-mcq-06": "本句指「正式負責接收、跟進和處理某項投訴／個案」。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-03": "「有能力完成、管理或應付指定工作／工作量」是「handle a task/workload」的用法，與本句語境不同。"
+        "handle-mcq-06": "本句的「handling the case」指「正式負責接收、跟進和處理某項投訴／個案」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-06"
     },
@@ -1255,11 +1203,9 @@ export default {
       "masked": "The system can ____.",
       "options": [
         "handle-mcq-07",
-        "handle-mcq-06",
-        "handle-mcq-08",
-        "handle-mcq-05",
-        "handle-mcq-09",
-        "handle-mcq-04"
+        "handle-mcq-15",
+        "handle-pdf-002",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handle large amounts of data」指「接收、儲存、處理、傳送或管理資料」。",
       "sentenceIndex": 13,
@@ -1268,12 +1214,10 @@ export default {
         "handle large amounts of data"
       ],
       "optionReasons": {
-        "handle-mcq-07": "本句指「接收、儲存、處理、傳送或管理資料」。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。"
+        "handle-mcq-07": "本句的「handle large amounts of data」指「接收、儲存、處理、傳送或管理資料」。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-07"
     },
@@ -1285,11 +1229,9 @@ export default {
       "masked": "Sensitive information must be ____.",
       "options": [
         "handle-mcq-07",
-        "handle-mcq-06",
-        "handle-mcq-08",
-        "handle-mcq-05",
-        "handle-mcq-09",
-        "handle-mcq-04"
+        "handle-pdf-001",
+        "handle-mcq-15",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handled carefully」指「接收、儲存、處理、傳送或管理資料」。",
       "sentenceIndex": 14,
@@ -1298,12 +1240,10 @@ export default {
         "handled carefully"
       ],
       "optionReasons": {
-        "handle-mcq-07": "本句指「接收、儲存、處理、傳送或管理資料」。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-04": "「有能力承擔並履行某項責任或職務」是「handle responsibility」的用法，與本句語境不同。"
+        "handle-mcq-07": "本句的「handled carefully」指「接收、儲存、處理、傳送或管理資料」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-07"
     },
@@ -1315,11 +1255,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "handle-mcq-08",
-        "handle-mcq-07",
-        "handle-mcq-09",
-        "handle-mcq-06",
-        "handle-mcq-10",
-        "handle-mcq-05"
+        "handle-pdf-003",
+        "handle-mcq-19",
+        "handle-mcq-12"
       ],
       "explanation": "本句的「handles the company’s accounts」指「負責管理、接觸或經手金錢／財務事務」。",
       "sentenceIndex": 15,
@@ -1328,12 +1266,10 @@ export default {
         "handles the company’s accounts"
       ],
       "optionReasons": {
-        "handle-mcq-08": "本句指「負責管理、接觸或經手金錢／財務事務」。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。"
+        "handle-mcq-08": "本句的「handles the company’s accounts」指「負責管理、接觸或經手金錢／財務事務」。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-08"
     },
@@ -1345,11 +1281,9 @@ export default {
       "masked": "Only authorized staff may ____.",
       "options": [
         "handle-mcq-08",
-        "handle-mcq-07",
-        "handle-mcq-09",
-        "handle-mcq-06",
-        "handle-mcq-10",
-        "handle-mcq-05"
+        "handle-mcq-34",
+        "handle-mcq-22",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handle cash」指「負責管理、接觸或經手金錢／財務事務」。",
       "sentenceIndex": 16,
@@ -1358,12 +1292,10 @@ export default {
         "handle cash"
       ],
       "optionReasons": {
-        "handle-mcq-08": "本句指「負責管理、接觸或經手金錢／財務事務」。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-05": "「以適當方式應對、管理或處理某人的行為／要求」是「handle customers/people」的用法，與本句語境不同。"
+        "handle-mcq-08": "本句的「handle cash」指「負責管理、接觸或經手金錢／財務事務」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-08"
     },
@@ -1375,11 +1307,9 @@ export default {
       "masked": "She ____ from beginning to end.",
       "options": [
         "handle-mcq-09",
-        "handle-mcq-08",
-        "handle-mcq-10",
-        "handle-mcq-07",
-        "handle-mcq-11",
-        "handle-mcq-06"
+        "handle-mcq-18",
+        "handle-mcq-19",
+        "handle-mcq-34"
       ],
       "explanation": "本句的「handled the event」指「對某項工作負主要管理／執行責任」。",
       "sentenceIndex": 17,
@@ -1388,12 +1318,10 @@ export default {
         "handled the event"
       ],
       "optionReasons": {
-        "handle-mcq-09": "本句指「對某項工作負主要管理／執行責任」。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-09": "本句的「handled the event」指「對某項工作負主要管理／執行責任」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-09"
     },
@@ -1405,11 +1333,9 @@ export default {
       "masked": "Who is ____?",
       "options": [
         "handle-mcq-09",
-        "handle-mcq-08",
-        "handle-mcq-10",
-        "handle-mcq-07",
-        "handle-mcq-11",
-        "handle-mcq-06"
+        "handle-mcq-22",
+        "handle-mcq-18",
+        "handle-mcq-34"
       ],
       "explanation": "本句的「handling the project」指「對某項工作負主要管理／執行責任」。",
       "sentenceIndex": 18,
@@ -1418,12 +1344,10 @@ export default {
         "handling the project"
       ],
       "optionReasons": {
-        "handle-mcq-09": "本句指「對某項工作負主要管理／執行責任」。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-06": "「正式負責接收、跟進和處理某項投訴／個案」是「handle complaint/case」的用法，與本句語境不同。"
+        "handle-mcq-09": "本句的「handling the project」指「對某項工作負主要管理／執行責任」。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-09"
     },
@@ -1435,11 +1359,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "handle-mcq-10",
-        "handle-mcq-09",
-        "handle-mcq-11",
-        "handle-mcq-08",
-        "handle-mcq-12",
-        "handle-mcq-07"
+        "handle-mcq-05",
+        "handle-mcq-16",
+        "handle-mcq-24"
       ],
       "explanation": "本句的「handle the equipment carefully」指「用手接觸、拿著、移動或操弄某物」。",
       "sentenceIndex": 19,
@@ -1448,12 +1370,10 @@ export default {
         "handle the equipment carefully"
       ],
       "optionReasons": {
-        "handle-mcq-10": "本句指「用手接觸、拿著、移動或操弄某物」。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。"
+        "handle-mcq-10": "本句的「handle the equipment carefully」指「用手接觸、拿著、移動或操弄某物」。",
+        "handle-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-10"
     },
@@ -1465,11 +1385,9 @@ export default {
       "masked": "The glass is fragile, so don’t ____.",
       "options": [
         "handle-mcq-10",
-        "handle-mcq-09",
-        "handle-mcq-11",
-        "handle-mcq-08",
-        "handle-mcq-12",
-        "handle-mcq-07"
+        "handle-mcq-30",
+        "handle-mcq-04",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handle it roughly」指「用手接觸、拿著、移動或操弄某物」。",
       "sentenceIndex": 20,
@@ -1478,12 +1396,10 @@ export default {
         "handle it roughly"
       ],
       "optionReasons": {
-        "handle-mcq-10": "本句指「用手接觸、拿著、移動或操弄某物」。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。",
-        "handle-mcq-07": "「接收、儲存、處理、傳送或管理資料」是「handle data/information」的用法，與本句語境不同。"
+        "handle-mcq-10": "本句的「handle it roughly」指「用手接觸、拿著、移動或操弄某物」。",
+        "handle-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-10"
     },
@@ -1495,11 +1411,9 @@ export default {
       "masked": "This package is marked ‘____.’",
       "options": [
         "handle-mcq-11",
-        "handle-mcq-10",
-        "handle-mcq-12",
-        "handle-mcq-09",
-        "handle-mcq-13",
-        "handle-mcq-08"
+        "handle-mcq-22",
+        "handle-mcq-02",
+        "handle-pdf-002"
       ],
       "explanation": "本句的「Handle with care」指「搬動／處理某物時格外小心，以免損壞」。",
       "sentenceIndex": 21,
@@ -1508,12 +1422,10 @@ export default {
         "Handle with care"
       ],
       "optionReasons": {
-        "handle-mcq-11": "本句指「搬動／處理某物時格外小心，以免損壞」。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。"
+        "handle-mcq-11": "本句的「Handle with care」指「搬動／處理某物時格外小心，以免損壞」。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-11"
     },
@@ -1525,11 +1437,9 @@ export default {
       "masked": "The equipment must be ____.",
       "options": [
         "handle-mcq-11",
-        "handle-mcq-10",
-        "handle-mcq-12",
-        "handle-mcq-09",
-        "handle-mcq-13",
-        "handle-mcq-08"
+        "handle-pdf-002",
+        "handle-mcq-27",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handled with care」指「搬動／處理某物時格外小心，以免損壞」。",
       "sentenceIndex": 22,
@@ -1538,12 +1448,10 @@ export default {
         "handled with care"
       ],
       "optionReasons": {
-        "handle-mcq-11": "本句指「搬動／處理某物時格外小心，以免損壞」。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。",
-        "handle-mcq-08": "「負責管理、接觸或經手金錢／財務事務」是「handle money/accounts」的用法，與本句語境不同。"
+        "handle-mcq-11": "本句的「handled with care」指「搬動／處理某物時格外小心，以免損壞」。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-11"
     },
@@ -1555,11 +1463,9 @@ export default {
       "masked": "Only trained staff should ____.",
       "options": [
         "handle-mcq-12",
-        "handle-mcq-11",
-        "handle-mcq-13",
-        "handle-mcq-10",
-        "handle-mcq-14",
-        "handle-mcq-09"
+        "handle-mcq-04",
+        "handle-mcq-26",
+        "handle-mcq-25"
       ],
       "explanation": "本句的「handle this machine」指「實際操作或使用某件設備／工具」。",
       "sentenceIndex": 23,
@@ -1568,12 +1474,10 @@ export default {
         "handle this machine"
       ],
       "optionReasons": {
-        "handle-mcq-12": "本句指「實際操作或使用某件設備／工具」。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。"
+        "handle-mcq-12": "本句的「handle this machine」指「實際操作或使用某件設備／工具」。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-12"
     },
@@ -1585,11 +1489,9 @@ export default {
       "masked": "She knows how to ____.",
       "options": [
         "handle-mcq-12",
-        "handle-mcq-11",
-        "handle-mcq-13",
-        "handle-mcq-10",
-        "handle-mcq-14",
-        "handle-mcq-09"
+        "handle-pdf-003",
+        "handle-mcq-20",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handle the equipment safely」指「實際操作或使用某件設備／工具」。",
       "sentenceIndex": 24,
@@ -1598,12 +1500,10 @@ export default {
         "handle the equipment safely"
       ],
       "optionReasons": {
-        "handle-mcq-12": "本句指「實際操作或使用某件設備／工具」。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-09": "「對某項工作負主要管理／執行責任」是「handle a project/event」的用法，與本句語境不同。"
+        "handle-mcq-12": "本句的「handle the equipment safely」指「實際操作或使用某件設備／工具」。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-12"
     },
@@ -1615,11 +1515,9 @@ export default {
       "masked": "The car ____ on wet roads.",
       "options": [
         "handle-mcq-13",
-        "handle-mcq-12",
-        "handle-mcq-14",
-        "handle-mcq-11",
-        "handle-mcq-15",
-        "handle-mcq-10"
+        "handle-mcq-32",
+        "handle-mcq-34",
+        "handle-mcq-15"
       ],
       "explanation": "本句的「handles well」指「操控車、船等，使其按需要移動」。",
       "sentenceIndex": 25,
@@ -1628,12 +1526,10 @@ export default {
         "handles well"
       ],
       "optionReasons": {
-        "handle-mcq-13": "本句指「操控車、船等，使其按需要移動」。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。"
+        "handle-mcq-13": "本句的「handles well」指「操控車、船等，使其按需要移動」。",
+        "handle-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-13"
     },
@@ -1645,11 +1541,9 @@ export default {
       "masked": "He learned how to ____.",
       "options": [
         "handle-mcq-13",
-        "handle-mcq-12",
-        "handle-mcq-14",
-        "handle-mcq-11",
         "handle-mcq-15",
-        "handle-mcq-10"
+        "handle-mcq-07",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handle the boat」指「操控車、船等，使其按需要移動」。",
       "sentenceIndex": 26,
@@ -1658,12 +1552,10 @@ export default {
         "handle the boat"
       ],
       "optionReasons": {
-        "handle-mcq-13": "本句指「操控車、船等，使其按需要移動」。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-11": "「搬動／處理某物時格外小心，以免損壞」是「handle with care」的用法，與本句語境不同。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。",
-        "handle-mcq-10": "「用手接觸、拿著、移動或操弄某物」是「handle — physically」的用法，與本句語境不同。"
+        "handle-mcq-13": "本句的「handle the boat」指「操控車、船等，使其按需要移動」。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-13"
     },
@@ -1675,11 +1567,9 @@ export default {
       "masked": "This room can ____ up to three hundred people.",
       "options": [
         "handle-mcq-15",
-        "handle-mcq-14",
-        "handle-mcq-16",
-        "handle-mcq-13",
-        "handle-mcq-17",
-        "handle-mcq-12"
+        "handle-mcq-10",
+        "handle-mcq-07",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handle」指「系統／場所／人具有足夠能力或容量應付某個負荷」。",
       "sentenceIndex": 27,
@@ -1688,12 +1578,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-15": "本句指「系統／場所／人具有足夠能力或容量應付某個負荷」。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。"
+        "handle-mcq-15": "本句的「handle」指「系統／場所／人具有足夠能力或容量應付某個負荷」。",
+        "handle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-15"
     },
@@ -1705,11 +1593,9 @@ export default {
       "masked": "The server can ____ per second.",
       "options": [
         "handle-mcq-15",
-        "handle-mcq-14",
-        "handle-mcq-16",
-        "handle-mcq-13",
-        "handle-mcq-17",
-        "handle-mcq-12"
+        "handle-mcq-21",
+        "handle-mcq-11",
+        "handle-mcq-25"
       ],
       "explanation": "本句的「handle thousands of requests」指「系統／場所／人具有足夠能力或容量應付某個負荷」。",
       "sentenceIndex": 28,
@@ -1718,12 +1604,10 @@ export default {
         "handle thousands of requests"
       ],
       "optionReasons": {
-        "handle-mcq-15": "本句指「系統／場所／人具有足夠能力或容量應付某個負荷」。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-12": "「實際操作或使用某件設備／工具」是「handle equipment/tools」的用法，與本句語境不同。"
+        "handle-mcq-15": "本句的「handle thousands of requests」指「系統／場所／人具有足夠能力或容量應付某個負荷」。",
+        "handle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-15"
     },
@@ -1735,11 +1619,9 @@ export default {
       "masked": "I wasn’t sure I could ____.",
       "options": [
         "handle-mcq-16",
-        "handle-mcq-15",
-        "handle-mcq-17",
-        "handle-mcq-14",
-        "handle-mcq-18",
-        "handle-mcq-13"
+        "handle-mcq-25",
+        "handle-mcq-19",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handle such a large audience」指「心理上、身體上或實際上無法承受／應付某事」。",
       "sentenceIndex": 29,
@@ -1748,12 +1630,10 @@ export default {
         "handle such a large audience"
       ],
       "optionReasons": {
-        "handle-mcq-16": "本句指「心理上、身體上或實際上無法承受／應付某事」。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。"
+        "handle-mcq-16": "本句的「handle such a large audience」指「心理上、身體上或實際上無法承受／應付某事」。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-16"
     },
@@ -1765,11 +1645,9 @@ export default {
       "masked": "I can’t ____ anymore.",
       "options": [
         "handle-mcq-16",
-        "handle-mcq-15",
-        "handle-mcq-17",
-        "handle-mcq-14",
-        "handle-mcq-18",
-        "handle-mcq-13"
+        "handle-pdf-001",
+        "handle-mcq-33",
+        "handle-mcq-02"
       ],
       "explanation": "本句的「handle this noise」指「心理上、身體上或實際上無法承受／應付某事」。",
       "sentenceIndex": 30,
@@ -1778,12 +1656,10 @@ export default {
         "handle this noise"
       ],
       "optionReasons": {
-        "handle-mcq-16": "本句指「心理上、身體上或實際上無法承受／應付某事」。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-13": "「操控車、船等，使其按需要移動」是「handle a vehicle」的用法，與本句語境不同。"
+        "handle-mcq-16": "本句的「handle this noise」指「心理上、身體上或實際上無法承受／應付某事」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-16"
     },
@@ -1795,11 +1671,9 @@ export default {
       "masked": "The situation was ____.",
       "options": [
         "handle-mcq-30",
-        "handle-mcq-29",
-        "handle-mcq-31",
-        "handle-mcq-28",
-        "handle-mcq-32",
-        "handle-mcq-27"
+        "handle-mcq-02",
+        "handle-pdf-002",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handled professionally」指「以某種方式處理或應對事情」。",
       "sentenceIndex": 31,
@@ -1808,12 +1682,10 @@ export default {
         "handled professionally"
       ],
       "optionReasons": {
-        "handle-mcq-30": "本句指「以某種方式處理或應對事情」。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。"
+        "handle-mcq-30": "本句的「handled professionally」指「以某種方式處理或應對事情」。",
+        "handle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-30"
     },
@@ -1825,11 +1697,9 @@ export default {
       "masked": "The mistake should have been ____.",
       "options": [
         "handle-mcq-30",
-        "handle-mcq-29",
-        "handle-mcq-31",
-        "handle-mcq-28",
-        "handle-mcq-32",
-        "handle-mcq-27"
+        "handle-mcq-13",
+        "handle-mcq-22",
+        "handle-mcq-34"
       ],
       "explanation": "本句的「handled differently」指「以某種方式處理或應對事情」。",
       "sentenceIndex": 32,
@@ -1838,12 +1708,10 @@ export default {
         "handled differently"
       ],
       "optionReasons": {
-        "handle-mcq-30": "本句指「以某種方式處理或應對事情」。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。"
+        "handle-mcq-30": "本句的「handled differently」指「以某種方式處理或應對事情」。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-30"
     },
@@ -1855,11 +1723,9 @@ export default {
       "masked": "She ____ for the company.",
       "options": [
         "handle-mcq-31",
-        "handle-mcq-30",
-        "handle-mcq-32",
-        "handle-mcq-29",
-        "handle-mcq-33",
-        "handle-mcq-28"
+        "handle-mcq-18",
+        "handle-mcq-15",
+        "handle-mcq-34"
       ],
       "explanation": "本句的「handled the negotiations」指「管理溝通、談判或討論的進行」。",
       "sentenceIndex": 33,
@@ -1868,12 +1734,10 @@ export default {
         "handled the negotiations"
       ],
       "optionReasons": {
-        "handle-mcq-31": "本句指「管理溝通、談判或討論的進行」。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-33": "「接收、搬運、分類、儲存或轉運貨物／行李」是「19. handle = process goods/luggage（搬運／處理貨物） — 搬運；處理」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。"
+        "handle-mcq-31": "本句的「handled the negotiations」指「管理溝通、談判或討論的進行」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-31"
     },
@@ -1885,11 +1749,9 @@ export default {
       "masked": "He ____ the discussion very calmly.",
       "options": [
         "handle-mcq-31",
-        "handle-mcq-30",
-        "handle-mcq-32",
-        "handle-mcq-29",
-        "handle-mcq-33",
-        "handle-mcq-28"
+        "handle-mcq-34",
+        "handle-mcq-15",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handled」指「管理溝通、談判或討論的進行」。",
       "sentenceIndex": 34,
@@ -1898,12 +1760,10 @@ export default {
         "handled"
       ],
       "optionReasons": {
-        "handle-mcq-31": "本句指「管理溝通、談判或討論的進行」。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-33": "「接收、搬運、分類、儲存或轉運貨物／行李」是「19. handle = process goods/luggage（搬運／處理貨物） — 搬運；處理」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。"
+        "handle-mcq-31": "本句的「handled」指「管理溝通、談判或討論的進行」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-31"
     },
@@ -1915,11 +1775,9 @@ export default {
       "masked": "The PR team ____.",
       "options": [
         "handle-mcq-32",
-        "handle-mcq-31",
-        "handle-mcq-33",
-        "handle-mcq-30",
-        "handle-mcq-34",
-        "handle-mcq-29"
+        "handle-mcq-22",
+        "handle-mcq-13",
+        "handle-mcq-21"
       ],
       "explanation": "本句的「handles media inquiries」指「正式負責接收、回應和管理相關訊息」。",
       "sentenceIndex": 35,
@@ -1928,12 +1786,10 @@ export default {
         "handles media inquiries"
       ],
       "optionReasons": {
-        "handle-mcq-32": "本句指「正式負責接收、回應和管理相關訊息」。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-33": "「接收、搬運、分類、儲存或轉運貨物／行李」是「19. handle = process goods/luggage（搬運／處理貨物） — 搬運；處理」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-34": "「讓人提起或攜帶物品的部分」是「26. suitcase/bag handle（行李箱／袋把手） — 手挽；把手」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。"
+        "handle-mcq-32": "本句的「handles media inquiries」指「正式負責接收、回應和管理相關訊息」。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-32"
     },
@@ -1945,11 +1801,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "handle-mcq-32",
-        "handle-mcq-31",
-        "handle-mcq-33",
-        "handle-mcq-30",
-        "handle-mcq-34",
-        "handle-mcq-29"
+        "handle-mcq-21",
+        "handle-mcq-22",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handles external communications」指「正式負責接收、回應和管理相關訊息」。",
       "sentenceIndex": 36,
@@ -1958,12 +1812,10 @@ export default {
         "handles external communications"
       ],
       "optionReasons": {
-        "handle-mcq-32": "本句指「正式負責接收、回應和管理相關訊息」。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-33": "「接收、搬運、分類、儲存或轉運貨物／行李」是「19. handle = process goods/luggage（搬運／處理貨物） — 搬運；處理」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-34": "「讓人提起或攜帶物品的部分」是「26. suitcase/bag handle（行李箱／袋把手） — 手挽；把手」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。"
+        "handle-mcq-32": "本句的「handles external communications」指「正式負責接收、回應和管理相關訊息」。",
+        "handle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-32"
     },
@@ -1975,11 +1827,9 @@ export default {
       "masked": "The airport ____ every year.",
       "options": [
         "handle-mcq-33",
-        "handle-mcq-32",
-        "handle-mcq-34",
-        "handle-mcq-31",
-        "handle-mcq-30",
-        "handle-mcq-29"
+        "handle-mcq-17",
+        "handle-mcq-22",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handles millions of bags」指「接收、搬運、分類、儲存或轉運貨物／行李」。",
       "sentenceIndex": 37,
@@ -1988,12 +1838,10 @@ export default {
         "handles millions of bags"
       ],
       "optionReasons": {
-        "handle-mcq-33": "本句指「接收、搬運、分類、儲存或轉運貨物／行李」。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-34": "「讓人提起或攜帶物品的部分」是「26. suitcase/bag handle（行李箱／袋把手） — 手挽；把手」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。"
+        "handle-mcq-33": "本句的「handles millions of bags」指「接收、搬運、分類、儲存或轉運貨物／行李」。",
+        "handle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-33"
     },
@@ -2005,11 +1853,9 @@ export default {
       "masked": "The warehouse ____.",
       "options": [
         "handle-mcq-33",
-        "handle-mcq-32",
-        "handle-mcq-34",
-        "handle-mcq-31",
-        "handle-mcq-30",
-        "handle-mcq-29"
+        "handle-mcq-15",
+        "handle-mcq-17",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「handles fragile goods」指「接收、搬運、分類、儲存或轉運貨物／行李」。",
       "sentenceIndex": 38,
@@ -2018,12 +1864,10 @@ export default {
         "handles fragile goods"
       ],
       "optionReasons": {
-        "handle-mcq-33": "本句指「接收、搬運、分類、儲存或轉運貨物／行李」。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-34": "「讓人提起或攜帶物品的部分」是「26. suitcase/bag handle（行李箱／袋把手） — 手挽；把手」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。"
+        "handle-mcq-33": "本句的「handles fragile goods」指「接收、搬運、分類、儲存或轉運貨物／行李」。",
+        "handle-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-33"
     },
@@ -2035,11 +1879,9 @@ export default {
       "masked": "Her ____ was excellent.",
       "options": [
         "handle-mcq-17",
-        "handle-mcq-16",
-        "handle-mcq-18",
-        "handle-mcq-15",
-        "handle-mcq-19",
-        "handle-mcq-14"
+        "handle-mcq-04",
+        "handle-pdf-002",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「handling of the situation」指「處理、管理或應對某件事情的方式」。",
       "sentenceIndex": 39,
@@ -2048,12 +1890,10 @@ export default {
         "handling of the situation"
       ],
       "optionReasons": {
-        "handle-mcq-17": "本句指「處理、管理或應對某件事情的方式」。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。"
+        "handle-mcq-17": "本句的「handling of the situation」指「處理、管理或應對某件事情的方式」。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-17"
     },
@@ -2065,11 +1905,9 @@ export default {
       "masked": "The company was criticized for its ____.",
       "options": [
         "handle-mcq-17",
-        "handle-mcq-16",
-        "handle-mcq-18",
-        "handle-mcq-15",
-        "handle-mcq-19",
-        "handle-mcq-14"
+        "handle-pdf-003",
+        "handle-pdf-001",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handling of the complaint」指「處理、管理或應對某件事情的方式」。",
       "sentenceIndex": 40,
@@ -2078,12 +1916,10 @@ export default {
         "handling of the complaint"
       ],
       "optionReasons": {
-        "handle-mcq-17": "本句指「處理、管理或應對某件事情的方式」。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-14": "「車輛本身容易／穩定操控」是「vehicle handles well」的用法，與本句語境不同。"
+        "handle-mcq-17": "本句的「handling of the complaint」指「處理、管理或應對某件事情的方式」。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-17"
     },
@@ -2095,11 +1931,9 @@ export default {
       "masked": "The equipment requires careful ____.",
       "options": [
         "handle-mcq-18",
-        "handle-mcq-17",
-        "handle-mcq-19",
-        "handle-mcq-16",
         "handle-mcq-20",
-        "handle-mcq-15"
+        "handle-mcq-22",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handling」指「實際接觸、搬動或操作某物的方式」。",
       "sentenceIndex": 41,
@@ -2108,12 +1942,10 @@ export default {
         "handling"
       ],
       "optionReasons": {
-        "handle-mcq-18": "本句指「實際接觸、搬動或操作某物的方式」。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。"
+        "handle-mcq-18": "本句的「handling」指「實際接觸、搬動或操作某物的方式」。",
+        "handle-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-18"
     },
@@ -2125,11 +1957,9 @@ export default {
       "masked": "Improper ____ may damage the product.",
       "options": [
         "handle-mcq-18",
-        "handle-mcq-17",
-        "handle-mcq-19",
-        "handle-mcq-16",
         "handle-mcq-20",
-        "handle-mcq-15"
+        "handle-mcq-24",
+        "handle-mcq-22"
       ],
       "explanation": "本句的「handling」指「實際接觸、搬動或操作某物的方式」。",
       "sentenceIndex": 42,
@@ -2138,12 +1968,10 @@ export default {
         "handling"
       ],
       "optionReasons": {
-        "handle-mcq-18": "本句指「實際接觸、搬動或操作某物的方式」。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-15": "「系統／場所／人具有足夠能力或容量應付某個負荷」是「system can handle X」的用法，與本句語境不同。"
+        "handle-mcq-18": "本句的「handling」指「實際接觸、搬動或操作某物的方式」。",
+        "handle-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-18"
     },
@@ -2155,11 +1983,9 @@ export default {
       "masked": "The car has excellent ____.",
       "options": [
         "handle-mcq-19",
-        "handle-mcq-18",
-        "handle-mcq-20",
-        "handle-mcq-17",
-        "handle-mcq-21",
-        "handle-mcq-16"
+        "handle-mcq-16",
+        "handle-mcq-24",
+        "handle-mcq-11"
       ],
       "explanation": "本句的「handling」指「車輛在轉向和道路狀況下的操控表現」。",
       "sentenceIndex": 43,
@@ -2168,12 +1994,10 @@ export default {
         "handling"
       ],
       "optionReasons": {
-        "handle-mcq-19": "本句指「車輛在轉向和道路狀況下的操控表現」。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。"
+        "handle-mcq-19": "本句的「handling」指「車輛在轉向和道路狀況下的操控表現」。",
+        "handle-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-19"
     },
@@ -2185,11 +2009,9 @@ export default {
       "masked": "The new suspension improves ____.",
       "options": [
         "handle-mcq-19",
-        "handle-mcq-18",
-        "handle-mcq-20",
-        "handle-mcq-17",
-        "handle-mcq-21",
-        "handle-mcq-16"
+        "handle-mcq-30",
+        "handle-mcq-34",
+        "handle-mcq-22"
       ],
       "explanation": "本句的「handling」指「車輛在轉向和道路狀況下的操控表現」。",
       "sentenceIndex": 44,
@@ -2198,12 +2020,10 @@ export default {
         "handling"
       ],
       "optionReasons": {
-        "handle-mcq-19": "本句指「車輛在轉向和道路狀況下的操控表現」。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-16": "「心理上、身體上或實際上無法承受／應付某事」是「can’t handle something」的用法，與本句語境不同。"
+        "handle-mcq-19": "本句的「handling」指「車輛在轉向和道路狀況下的操控表現」。",
+        "handle-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-19"
     },
@@ -2215,11 +2035,9 @@ export default {
       "masked": "A small ____ will be added.",
       "options": [
         "handle-mcq-20",
-        "handle-mcq-19",
         "handle-mcq-21",
-        "handle-mcq-18",
-        "handle-mcq-22",
-        "handle-mcq-17"
+        "handle-mcq-19",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handling fee」指「為處理、包裝、管理或安排交易／物品而收取的費用」。",
       "sentenceIndex": 45,
@@ -2228,12 +2046,10 @@ export default {
         "handling fee"
       ],
       "optionReasons": {
-        "handle-mcq-20": "本句指「為處理、包裝、管理或安排交易／物品而收取的費用」。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。"
+        "handle-mcq-20": "本句的「handling fee」指「為處理、包裝、管理或安排交易／物品而收取的費用」。",
+        "handle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-20"
     },
@@ -2245,11 +2061,9 @@ export default {
       "masked": "Shipping and ____ are included.",
       "options": [
         "handle-mcq-20",
+        "handle-pdf-002",
         "handle-mcq-19",
-        "handle-mcq-21",
-        "handle-mcq-18",
-        "handle-mcq-22",
-        "handle-mcq-17"
+        "handle-mcq-18"
       ],
       "explanation": "本句的「handling charges」指「為處理、包裝、管理或安排交易／物品而收取的費用」。",
       "sentenceIndex": 46,
@@ -2258,12 +2072,10 @@ export default {
         "handling charges"
       ],
       "optionReasons": {
-        "handle-mcq-20": "本句指「為處理、包裝、管理或安排交易／物品而收取的費用」。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-17": "「處理、管理或應對某件事情的方式」是「handling of something」的用法，與本句語境不同。"
+        "handle-mcq-20": "本句的「handling charges」指「為處理、包裝、管理或安排交易／物品而收取的費用」。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-20"
     },
@@ -2275,11 +2087,9 @@ export default {
       "masked": "Turn the door ____.",
       "options": [
         "handle-mcq-21",
-        "handle-mcq-20",
-        "handle-mcq-22",
-        "handle-mcq-19",
-        "handle-mcq-23",
-        "handle-mcq-18"
+        "handle-mcq-26",
+        "handle-mcq-09",
+        "handle-mcq-22"
       ],
       "explanation": "本句的「handle」指「物件上讓人用手握住、拉動、轉動或提起的部分」。",
       "sentenceIndex": 47,
@@ -2288,12 +2098,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-21": "本句指「物件上讓人用手握住、拉動、轉動或提起的部分」。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。"
+        "handle-mcq-21": "本句的「handle」指「物件上讓人用手握住、拉動、轉動或提起的部分」。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-21"
     },
@@ -2305,11 +2113,9 @@ export default {
       "masked": "The suitcase has a broken ____.",
       "options": [
         "handle-mcq-21",
-        "handle-mcq-20",
-        "handle-mcq-22",
-        "handle-mcq-19",
-        "handle-mcq-23",
-        "handle-mcq-18"
+        "handle-mcq-06",
+        "handle-mcq-25",
+        "handle-mcq-22"
       ],
       "explanation": "本句的「handle」指「物件上讓人用手握住、拉動、轉動或提起的部分」。",
       "sentenceIndex": 48,
@@ -2318,12 +2124,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-21": "本句指「物件上讓人用手握住、拉動、轉動或提起的部分」。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-18": "「實際接觸、搬動或操作某物的方式」是「handling — physical」的用法，與本句語境不同。"
+        "handle-mcq-21": "本句的「handle」指「物件上讓人用手握住、拉動、轉動或提起的部分」。",
+        "handle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-21"
     },
@@ -2335,11 +2139,9 @@ export default {
       "masked": "She reached for the ____.",
       "options": [
         "handle-pdf-001",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
+        "handle-mcq-25",
         "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-04"
       ],
       "explanation": "本句的「door handle」指「用手開關／操作門的把手部分」。",
       "sentenceIndex": 49,
@@ -2348,12 +2150,10 @@ export default {
         "door handle"
       ],
       "optionReasons": {
-        "handle-pdf-001": "本句指「用手開關／操作門的把手部分」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-pdf-001": "本句的「door handle」指「用手開關／操作門的把手部分」。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-001"
     },
@@ -2365,11 +2165,9 @@ export default {
       "masked": "The ____ was loose.",
       "options": [
         "handle-pdf-001",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
-        "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-31",
+        "handle-pdf-reviewed-01",
+        "handle-pdf-003"
       ],
       "explanation": "本句的「door handle」指「用手開關／操作門的把手部分」。",
       "sentenceIndex": 50,
@@ -2378,12 +2176,10 @@ export default {
         "door handle"
       ],
       "optionReasons": {
-        "handle-pdf-001": "本句指「用手開關／操作門的把手部分」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-pdf-001": "本句的「door handle」指「用手開關／操作門的把手部分」。",
+        "handle-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-001"
     },
@@ -2395,11 +2191,9 @@ export default {
       "masked": "Hold the suitcase by the ____.",
       "options": [
         "handle-mcq-34",
-        "handle-mcq-33",
-        "handle-mcq-32",
-        "handle-mcq-31",
-        "handle-mcq-30",
-        "handle-mcq-29"
+        "handle-mcq-29",
+        "handle-mcq-13",
+        "handle-mcq-26"
       ],
       "explanation": "本句的「handle」指「讓人提起或攜帶物品的部分」。",
       "sentenceIndex": 51,
@@ -2408,12 +2202,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-34": "本句指「讓人提起或攜帶物品的部分」。",
-        "handle-mcq-33": "「接收、搬運、分類、儲存或轉運貨物／行李」是「19. handle = process goods/luggage（搬運／處理貨物） — 搬運；處理」的用法，與本句語境不同。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。"
+        "handle-mcq-34": "本句的「handle」指「讓人提起或攜帶物品的部分」。",
+        "handle-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-34"
     },
@@ -2425,11 +2217,9 @@ export default {
       "masked": "The bag’s ____ is made of leather.",
       "options": [
         "handle-mcq-34",
-        "handle-mcq-33",
-        "handle-mcq-32",
-        "handle-mcq-31",
-        "handle-mcq-30",
-        "handle-mcq-29"
+        "handle-mcq-17",
+        "handle-mcq-18",
+        "handle-mcq-04"
       ],
       "explanation": "本句的「handle」指「讓人提起或攜帶物品的部分」。",
       "sentenceIndex": 52,
@@ -2438,12 +2228,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-34": "本句指「讓人提起或攜帶物品的部分」。",
-        "handle-mcq-33": "「接收、搬運、分類、儲存或轉運貨物／行李」是「19. handle = process goods/luggage（搬運／處理貨物） — 搬運；處理」的用法，與本句語境不同。",
-        "handle-mcq-32": "「正式負責接收、回應和管理相關訊息」是「18. handle communications/media inquiries（處理對外聯絡） — 負責；應對」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。"
+        "handle-mcq-34": "本句的「handle」指「讓人提起或攜帶物品的部分」。",
+        "handle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-34"
     },
@@ -2455,11 +2243,9 @@ export default {
       "masked": "The hammer has a wooden ____.",
       "options": [
         "handle-pdf-002",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
-        "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-22",
+        "handle-mcq-17",
+        "handle-mcq-18"
       ],
       "explanation": "本句的「handle」指「工具上專供手握的長柄／握持部分」。",
       "sentenceIndex": 53,
@@ -2468,12 +2254,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-pdf-002": "本句指「工具上專供手握的長柄／握持部分」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-pdf-002": "本句的「handle」指「工具上專供手握的長柄／握持部分」。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-002"
     },
@@ -2485,11 +2269,9 @@ export default {
       "masked": "Grip the ____ firmly.",
       "options": [
         "handle-pdf-002",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
-        "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-18",
+        "handle-mcq-25",
+        "handle-mcq-06"
       ],
       "explanation": "本句的「handle」指「工具上專供手握的長柄／握持部分」。",
       "sentenceIndex": 54,
@@ -2498,12 +2280,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-pdf-002": "本句指「工具上專供手握的長柄／握持部分」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-pdf-002": "本句的「handle」指「工具上專供手握的長柄／握持部分」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-002"
     },
@@ -2515,11 +2295,9 @@ export default {
       "masked": "What’s your social media ____?",
       "options": [
         "handle-mcq-22",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
-        "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-07",
+        "handle-mcq-04",
+        "handle-pdf-001"
       ],
       "explanation": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
       "sentenceIndex": 55,
@@ -2528,12 +2306,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-mcq-22": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-22"
     },
@@ -2545,11 +2321,9 @@ export default {
       "masked": "She changed her online ____.",
       "options": [
         "handle-mcq-22",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
         "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-01",
+        "handle-mcq-18"
       ],
       "explanation": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
       "sentenceIndex": 56,
@@ -2558,12 +2332,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-22": "本句指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-mcq-22": "本句的「handle」指「在網絡／社交平台上用作身份識別的帳號名稱／網名」。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-22"
     },
@@ -2575,11 +2347,9 @@ export default {
       "masked": "He goes by the ____ ‘Ace.’",
       "options": [
         "handle-pdf-003",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
-        "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-13",
+        "handle-mcq-02",
+        "handle-pdf-001"
       ],
       "explanation": "本句的「handle」指「非正式用來指某人的名稱、暱稱或識別名稱」。",
       "sentenceIndex": 57,
@@ -2588,12 +2358,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-pdf-003": "本句指「非正式用來指某人的名稱、暱稱或識別名稱」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-pdf-003": "本句的「handle」指「非正式用來指某人的名稱、暱稱或識別名稱」。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-003"
     },
@@ -2605,11 +2373,9 @@ export default {
       "masked": "What ____ do you use on the forum?",
       "options": [
         "handle-pdf-003",
-        "handle-mcq-21",
-        "handle-mcq-23",
-        "handle-mcq-20",
-        "handle-mcq-24",
-        "handle-mcq-19"
+        "handle-mcq-09",
+        "handle-mcq-18",
+        "handle-mcq-24"
       ],
       "explanation": "本句的「handle」指「非正式用來指某人的名稱、暱稱或識別名稱」。",
       "sentenceIndex": 58,
@@ -2618,12 +2384,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-pdf-003": "本句指「非正式用來指某人的名稱、暱稱或識別名稱」。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-19": "「車輛在轉向和道路狀況下的操控表現」是「handling — vehicle」的用法，與本句語境不同。"
+        "handle-pdf-003": "本句的「handle」指「非正式用來指某人的名稱、暱稱或識別名稱」。",
+        "handle-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-003"
     },
@@ -2635,11 +2399,9 @@ export default {
       "masked": "I needed to ____ my nerves.",
       "options": [
         "handle-mcq-23",
-        "handle-mcq-22",
-        "handle-mcq-24",
-        "handle-mcq-21",
-        "handle-mcq-25",
-        "handle-mcq-20"
+        "handle-pdf-003",
+        "handle-mcq-18",
+        "handle-mcq-34"
       ],
       "explanation": "本句的「get a handle on」指「開始充分理解某件事，並能夠有效管理／控制它」。",
       "sentenceIndex": 59,
@@ -2648,12 +2410,10 @@ export default {
         "get a handle on"
       ],
       "optionReasons": {
-        "handle-mcq-23": "本句指「開始充分理解某件事，並能夠有效管理／控制它」。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。"
+        "handle-mcq-23": "本句的「get a handle on」指「開始充分理解某件事，並能夠有效管理／控制它」。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-23"
     },
@@ -2665,11 +2425,9 @@ export default {
       "masked": "We’re trying to ____ the problem.",
       "options": [
         "handle-mcq-23",
+        "handle-mcq-18",
         "handle-mcq-22",
-        "handle-mcq-24",
-        "handle-mcq-21",
-        "handle-mcq-25",
-        "handle-mcq-20"
+        "handle-pdf-002"
       ],
       "explanation": "本句的「get a handle on」指「開始充分理解某件事，並能夠有效管理／控制它」。",
       "sentenceIndex": 60,
@@ -2678,12 +2436,10 @@ export default {
         "get a handle on"
       ],
       "optionReasons": {
-        "handle-mcq-23": "本句指「開始充分理解某件事，並能夠有效管理／控制它」。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-20": "「為處理、包裝、管理或安排交易／物品而收取的費用」是「handling fee」的用法，與本句語境不同。"
+        "handle-mcq-23": "本句的「get a handle on」指「開始充分理解某件事，並能夠有效管理／控制它」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-23"
     },
@@ -2695,11 +2451,9 @@ export default {
       "masked": "I finally ____ the presentation.",
       "options": [
         "handle-mcq-24",
-        "handle-mcq-23",
-        "handle-mcq-25",
-        "handle-mcq-22",
-        "handle-mcq-26",
-        "handle-mcq-21"
+        "handle-mcq-18",
+        "handle-mcq-02",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「have a handle on」指「已對某件事有足夠理解和掌握」。",
       "sentenceIndex": 61,
@@ -2708,12 +2462,10 @@ export default {
         "have a handle on"
       ],
       "optionReasons": {
-        "handle-mcq-24": "本句指「已對某件事有足夠理解和掌握」。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。"
+        "handle-mcq-24": "本句的「have a handle on」指「已對某件事有足夠理解和掌握」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-24"
     },
@@ -2725,11 +2477,9 @@ export default {
       "masked": "She has a good ____ the situation.",
       "options": [
         "handle-mcq-24",
-        "handle-mcq-23",
-        "handle-mcq-25",
-        "handle-mcq-22",
-        "handle-mcq-26",
-        "handle-mcq-21"
+        "handle-mcq-02",
+        "handle-pdf-001",
+        "handle-mcq-22"
       ],
       "explanation": "本句的「handle on」指「已對某件事有足夠理解和掌握」。",
       "sentenceIndex": 62,
@@ -2738,12 +2488,10 @@ export default {
         "handle on"
       ],
       "optionReasons": {
-        "handle-mcq-24": "本句指「已對某件事有足夠理解和掌握」。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-21": "「物件上讓人用手握住、拉動、轉動或提起的部分」是「handle — noun」的用法，與本句語境不同。"
+        "handle-mcq-24": "本句的「handle on」指「已對某件事有足夠理解和掌握」。",
+        "handle-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-24"
     },
@@ -2755,11 +2503,9 @@ export default {
       "masked": "He ____ when he saw the mistake.",
       "options": [
         "handle-mcq-25",
-        "handle-mcq-24",
-        "handle-mcq-26",
-        "handle-mcq-23",
-        "handle-mcq-27",
-        "handle-mcq-22"
+        "handle-mcq-06",
+        "handle-mcq-21",
+        "handle-mcq-12"
       ],
       "explanation": "本句的「flew off the handle」指「突然失去情緒控制並非常生氣」。",
       "sentenceIndex": 63,
@@ -2768,12 +2514,10 @@ export default {
         "flew off the handle"
       ],
       "optionReasons": {
-        "handle-mcq-25": "本句指「突然失去情緒控制並非常生氣」。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。"
+        "handle-mcq-25": "本句的「flew off the handle」指「突然失去情緒控制並非常生氣」。",
+        "handle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-25"
     },
@@ -2785,11 +2529,9 @@ export default {
       "masked": "There’s no need to ____.",
       "options": [
         "handle-mcq-25",
-        "handle-mcq-24",
-        "handle-mcq-26",
-        "handle-mcq-23",
-        "handle-mcq-27",
-        "handle-mcq-22"
+        "handle-mcq-10",
+        "handle-pdf-002",
+        "handle-pdf-reviewed-01"
       ],
       "explanation": "本句的「fly off the handle」指「突然失去情緒控制並非常生氣」。",
       "sentenceIndex": 64,
@@ -2798,12 +2540,10 @@ export default {
         "fly off the handle"
       ],
       "optionReasons": {
-        "handle-mcq-25": "本句指「突然失去情緒控制並非常生氣」。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-22": "「在網絡／社交平台上用作身份識別的帳號名稱／網名」是「online handle」的用法，與本句語境不同。"
+        "handle-mcq-25": "本句的「fly off the handle」指「突然失去情緒控制並非常生氣」。",
+        "handle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-reviewed-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-25"
     },
@@ -2815,11 +2555,9 @@ export default {
       "masked": "The issue became too difficult to ____.",
       "options": [
         "handle-mcq-26",
-        "handle-mcq-25",
-        "handle-mcq-27",
-        "handle-mcq-24",
-        "handle-mcq-28",
-        "handle-mcq-23"
+        "handle-mcq-12",
+        "handle-pdf-003",
+        "handle-mcq-13"
       ],
       "explanation": "本句的「handle」指「困難、敏感或危險到很難安全有效地處理」。",
       "sentenceIndex": 65,
@@ -2828,12 +2566,10 @@ export default {
         "handle"
       ],
       "optionReasons": {
-        "handle-mcq-26": "本句指「困難、敏感或危險到很難安全有效地處理」。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。"
+        "handle-mcq-26": "本句的「handle」指「困難、敏感或危險到很難安全有效地處理」。",
+        "handle-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-26"
     },
@@ -2845,11 +2581,9 @@ export default {
       "masked": "The situation was becoming ____.",
       "options": [
         "handle-mcq-26",
-        "handle-mcq-25",
-        "handle-mcq-27",
-        "handle-mcq-24",
-        "handle-mcq-28",
-        "handle-mcq-23"
+        "handle-pdf-002",
+        "handle-mcq-10",
+        "handle-mcq-19"
       ],
       "explanation": "本句的「too hot to handle」指「困難、敏感或危險到很難安全有效地處理」。",
       "sentenceIndex": 66,
@@ -2858,12 +2592,10 @@ export default {
         "too hot to handle"
       ],
       "optionReasons": {
-        "handle-mcq-26": "本句指「困難、敏感或危險到很難安全有效地處理」。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-23": "「開始充分理解某件事，並能夠有效管理／控制它」是「get a handle on」的用法，與本句語境不同。"
+        "handle-mcq-26": "本句的「too hot to handle」指「困難、敏感或危險到很難安全有效地處理」。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-26"
     },
@@ -2875,10 +2607,8 @@ export default {
       "masked": "Don’t worry about her—she can ____.",
       "options": [
         "handle-mcq-27",
-        "handle-mcq-26",
-        "handle-mcq-28",
-        "handle-mcq-25",
-        "handle-mcq-29",
+        "handle-pdf-001",
+        "handle-mcq-33",
         "handle-mcq-24"
       ],
       "explanation": "本句的「handle herself」指「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」。",
@@ -2888,12 +2618,10 @@ export default {
         "handle herself"
       ],
       "optionReasons": {
-        "handle-mcq-27": "本句指「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。"
+        "handle-mcq-27": "本句的「handle herself」指「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-27"
     },
@@ -2905,11 +2633,9 @@ export default {
       "masked": "He can ____ in difficult situations.",
       "options": [
         "handle-mcq-27",
-        "handle-mcq-26",
-        "handle-mcq-28",
-        "handle-mcq-25",
-        "handle-mcq-29",
-        "handle-mcq-24"
+        "handle-mcq-22",
+        "handle-mcq-34",
+        "handle-mcq-10"
       ],
       "explanation": "本句的「handle himself」指「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」。",
       "sentenceIndex": 68,
@@ -2918,12 +2644,10 @@ export default {
         "handle himself"
       ],
       "optionReasons": {
-        "handle-mcq-27": "本句指「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-24": "「已對某件事有足夠理解和掌握」是「have a handle on」的用法，與本句語境不同。"
+        "handle-mcq-27": "本句的「handle himself」指「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」。",
+        "handle-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-27"
     },
@@ -2935,11 +2659,9 @@ export default {
       "masked": "You ____ during the Q&A.",
       "options": [
         "handle-mcq-28",
-        "handle-mcq-27",
-        "handle-mcq-29",
-        "handle-mcq-26",
-        "handle-mcq-30",
-        "handle-mcq-25"
+        "handle-mcq-06",
+        "handle-mcq-10",
+        "handle-mcq-12"
       ],
       "explanation": "本句的「handled yourself very well」指「在專業、社交或壓力情況中表現成熟、有控制力」。",
       "sentenceIndex": 69,
@@ -2948,12 +2670,10 @@ export default {
         "handled yourself very well"
       ],
       "optionReasons": {
-        "handle-mcq-28": "本句指「在專業、社交或壓力情況中表現成熟、有控制力」。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。"
+        "handle-mcq-28": "本句的「handled yourself very well」指「在專業、社交或壓力情況中表現成熟、有控制力」。",
+        "handle-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-28"
     },
@@ -2965,11 +2685,9 @@ export default {
       "masked": "She ____ herself calmly under pressure.",
       "options": [
         "handle-mcq-28",
-        "handle-mcq-27",
-        "handle-mcq-29",
-        "handle-mcq-26",
+        "handle-mcq-18",
         "handle-mcq-30",
-        "handle-mcq-25"
+        "handle-mcq-34"
       ],
       "explanation": "本句的「handled」指「在專業、社交或壓力情況中表現成熟、有控制力」。",
       "sentenceIndex": 70,
@@ -2978,12 +2696,10 @@ export default {
         "handled"
       ],
       "optionReasons": {
-        "handle-mcq-28": "本句指「在專業、社交或壓力情況中表現成熟、有控制力」。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-29": "「負責操作、控制、管理或照顧某人／某物的人或程式元件」是「handler」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-25": "「突然失去情緒控制並非常生氣」是「fly off the handle」的用法，與本句語境不同。"
+        "handle-mcq-28": "本句的「handled」指「在專業、社交或壓力情況中表現成熟、有控制力」。",
+        "handle-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-28"
     },
@@ -2995,10 +2711,8 @@ export default {
       "masked": "Only trained ____ may move the equipment.",
       "options": [
         "handle-mcq-29",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
+        "handle-mcq-33",
+        "handle-mcq-34",
         "handle-mcq-26"
       ],
       "explanation": "本句的「handlers」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
@@ -3008,12 +2722,10 @@ export default {
         "handlers"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-mcq-29": "本句的「handlers」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-29"
     },
@@ -3025,10 +2737,8 @@ export default {
       "masked": "The animal’s ____ kept it calm.",
       "options": [
         "handle-mcq-29",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
+        "handle-mcq-33",
+        "handle-pdf-002",
         "handle-mcq-26"
       ],
       "explanation": "本句的「handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
@@ -3038,12 +2748,10 @@ export default {
         "handler"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-mcq-29": "本句的「handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-29"
     },
@@ -3055,10 +2763,8 @@ export default {
       "masked": "The ____ led the dog onto the stage.",
       "options": [
         "handle-mcq-29",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
+        "handle-mcq-34",
+        "handle-mcq-33",
         "handle-mcq-26"
       ],
       "explanation": "本句的「animal handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
@@ -3068,12 +2774,10 @@ export default {
         "animal handler"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-mcq-29": "本句的「animal handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-29"
     },
@@ -3085,10 +2789,8 @@ export default {
       "masked": "Professional ____ worked with the horses.",
       "options": [
         "handle-mcq-29",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
+        "handle-mcq-34",
+        "handle-mcq-33",
         "handle-mcq-26"
       ],
       "explanation": "本句的「handlers」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
@@ -3098,12 +2800,10 @@ export default {
         "handlers"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-mcq-29": "本句的「handlers」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-29"
     },
@@ -3115,10 +2815,8 @@ export default {
       "masked": "The ____ loaded the suitcases.",
       "options": [
         "handle-mcq-29",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
+        "handle-mcq-34",
+        "handle-mcq-33",
         "handle-mcq-26"
       ],
       "explanation": "本句的「baggage handlers」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
@@ -3128,12 +2826,10 @@ export default {
         "baggage handlers"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-mcq-29": "本句的「baggage handlers」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+        "handle-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-29"
     },
@@ -3145,10 +2841,8 @@ export default {
       "masked": "She works as a ____ at the airport.",
       "options": [
         "handle-mcq-29",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
+        "handle-pdf-002",
+        "handle-mcq-33",
         "handle-mcq-26"
       ],
       "explanation": "本句的「baggage handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
@@ -3158,12 +2852,10 @@ export default {
         "baggage handler"
       ],
       "optionReasons": {
-        "handle-mcq-29": "本句指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」是「handle yourself well」的用法，與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」是「16. handle = treat/deal with in a particular way（以某方式處理） — 對待；處理」的用法，與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」是「handle yourself」的用法，與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」是「17. handle negotiations/discussions（主持／處理談判） — 負責；處理」的用法，與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」是「too hot to handle」的用法，與本句語境不同。"
+        "handle-mcq-29": "本句的「baggage handler」指「負責操作、控制、管理或照顧某人／某物的人或程式元件」。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-mcq-29"
     },
@@ -3175,11 +2867,9 @@ export default {
       "masked": "The program uses an error ____.",
       "options": [
         "handle-pdf-reviewed-01",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
-        "handle-mcq-26"
+        "handle-pdf-001",
+        "handle-mcq-25",
+        "handle-mcq-13"
       ],
       "explanation": "本句的「handler」指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
       "sentenceIndex": 77,
@@ -3188,12 +2878,10 @@ export default {
         "handler"
       ],
       "optionReasons": {
-        "handle-pdf-reviewed-01": "本句指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」與本句語境不同。"
+        "handle-pdf-reviewed-01": "本句的「handler」指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
+        "handle-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "handle-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-reviewed-01"
     },
@@ -3205,11 +2893,9 @@ export default {
       "masked": "The event ____ runs when the user clicks the button.",
       "options": [
         "handle-pdf-reviewed-01",
-        "handle-mcq-28",
-        "handle-mcq-30",
-        "handle-mcq-27",
-        "handle-mcq-31",
-        "handle-mcq-26"
+        "handle-mcq-25",
+        "handle-pdf-003",
+        "handle-pdf-002"
       ],
       "explanation": "本句的「handler」指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
       "sentenceIndex": 78,
@@ -3218,12 +2904,10 @@ export default {
         "handler"
       ],
       "optionReasons": {
-        "handle-pdf-reviewed-01": "本句指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
-        "handle-mcq-28": "「在專業、社交或壓力情況中表現成熟、有控制力」與本句語境不同。",
-        "handle-mcq-30": "「以某種方式處理或應對事情」與本句語境不同。",
-        "handle-mcq-27": "「在困難、衝突或壓力情況中能有效照顧／控制／應付自己」與本句語境不同。",
-        "handle-mcq-31": "「管理溝通、談判或討論的進行」與本句語境不同。",
-        "handle-mcq-26": "「困難、敏感或危險到很難安全有效地處理」與本句語境不同。"
+        "handle-pdf-reviewed-01": "本句的「handler」指「電腦系統中負責回應／處理特定事件、錯誤或資料的程式元件」。",
+        "handle-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "handle-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "handle-pdf-reviewed-01"
     }
@@ -3235,5 +2919,7 @@ export default {
     "sha256": "c32d703226c8b55d0076bc470cc1052eea526aafb35435e412db5e102a96bfbc",
     "pages": 31
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

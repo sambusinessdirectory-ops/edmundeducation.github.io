@@ -179,11 +179,7 @@ export default {
       "masked": "I try to think before I ____.",
       "options": [
         "react-mcq-01",
-        "react-mcq-02",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-03"
       ],
       "explanation": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
       "sentenceIndex": 0,
@@ -192,12 +188,8 @@ export default {
         "react"
       ],
       "optionReasons": {
-        "react-mcq-01": "本句指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-01": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-01"
     },
@@ -209,11 +201,7 @@ export default {
       "masked": "She ____ calmly to the bad news.",
       "options": [
         "react-mcq-01",
-        "react-mcq-02",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-03"
       ],
       "explanation": "本句的「reacted」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
       "sentenceIndex": 1,
@@ -222,12 +210,8 @@ export default {
         "reacted"
       ],
       "optionReasons": {
-        "react-mcq-01": "本句指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-01": "本句的「reacted」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-01"
     },
@@ -239,11 +223,7 @@ export default {
       "masked": "How did he ____ when you told him?",
       "options": [
         "react-mcq-01",
-        "react-mcq-02",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-03"
       ],
       "explanation": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
       "sentenceIndex": 2,
@@ -252,12 +232,8 @@ export default {
         "react"
       ],
       "optionReasons": {
-        "react-mcq-01": "本句指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-01": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-01"
     },
@@ -269,11 +245,7 @@ export default {
       "masked": "Don’t ____ in anger.",
       "options": [
         "react-mcq-01",
-        "react-mcq-02",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-03"
       ],
       "explanation": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
       "sentenceIndex": 3,
@@ -282,12 +254,8 @@ export default {
         "react"
       ],
       "optionReasons": {
-        "react-mcq-01": "本句指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-01": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-01"
     },
@@ -299,11 +267,7 @@ export default {
       "masked": "He tends to ____ before thinking.",
       "options": [
         "react-mcq-01",
-        "react-mcq-02",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-03"
       ],
       "explanation": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
       "sentenceIndex": 4,
@@ -312,12 +276,8 @@ export default {
         "react"
       ],
       "optionReasons": {
-        "react-mcq-01": "本句指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-01": "本句的「react」指「因某件事情發生，而在情緒、言語或行為上作出回應」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-01"
     },
@@ -329,11 +289,7 @@ export default {
       "masked": "Some people ____ badly to certain foods.",
       "options": [
         "react-mcq-02",
-        "react-mcq-01",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-01"
       ],
       "explanation": "本句的「react」指「身體、生物或系統受到刺激後產生某種變化或反應」。",
       "sentenceIndex": 5,
@@ -342,12 +298,8 @@ export default {
         "react"
       ],
       "optionReasons": {
-        "react-mcq-02": "本句指「身體、生物或系統受到刺激後產生某種變化或反應」。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-02": "本句的「react」指「身體、生物或系統受到刺激後產生某種變化或反應」。",
+        "react-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-02"
     },
@@ -359,11 +311,7 @@ export default {
       "masked": "The skin may ____ to the chemical.",
       "options": [
         "react-mcq-02",
-        "react-mcq-01",
-        "react-mcq-03",
-        "react-mcq-04",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-01"
       ],
       "explanation": "本句的「react」指「身體、生物或系統受到刺激後產生某種變化或反應」。",
       "sentenceIndex": 6,
@@ -372,12 +320,8 @@ export default {
         "react"
       ],
       "optionReasons": {
-        "react-mcq-02": "本句指「身體、生物或系統受到刺激後產生某種變化或反應」。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-02": "本句的「react」指「身體、生物或系統受到刺激後產生某種變化或反應」。",
+        "react-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-02"
     },
@@ -389,11 +333,7 @@ export default {
       "masked": "Hydrogen ____ with oxygen.",
       "options": [
         "react-mcq-03",
-        "react-mcq-02",
-        "react-mcq-04",
-        "react-mcq-01",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-07"
       ],
       "explanation": "本句的「reacts」指「物質互相作用並產生化學變化」。",
       "sentenceIndex": 7,
@@ -402,12 +342,8 @@ export default {
         "reacts"
       ],
       "optionReasons": {
-        "react-mcq-03": "本句指「物質互相作用並產生化學變化」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-03": "本句的「reacts」指「物質互相作用並產生化學變化」。",
+        "react-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-03"
     },
@@ -419,11 +355,7 @@ export default {
       "masked": "The two substances ____ quickly.",
       "options": [
         "react-mcq-03",
-        "react-mcq-02",
-        "react-mcq-04",
-        "react-mcq-01",
-        "react-mcq-05",
-        "react-mcq-06"
+        "react-mcq-07"
       ],
       "explanation": "本句的「reacted」指「物質互相作用並產生化學變化」。",
       "sentenceIndex": 8,
@@ -432,12 +364,8 @@ export default {
         "reacted"
       ],
       "optionReasons": {
-        "react-mcq-03": "本句指「物質互相作用並產生化學變化」。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。"
+        "react-mcq-03": "本句的「reacted」指「物質互相作用並產生化學變化」。",
+        "react-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-03"
     },
@@ -449,11 +377,7 @@ export default {
       "masked": "Her first ____ was surprise.",
       "options": [
         "react-mcq-04",
-        "react-mcq-03",
-        "react-mcq-05",
-        "react-mcq-02",
-        "react-mcq-06",
-        "react-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
       "sentenceIndex": 9,
@@ -462,12 +386,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "react-mcq-04": "本句指「對事件、刺激或物質所產生的回應／反應」。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。"
+        "react-mcq-04": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-04"
     },
@@ -479,11 +399,7 @@ export default {
       "masked": "The announcement caused a strong ____.",
       "options": [
         "react-mcq-04",
-        "react-mcq-03",
-        "react-mcq-05",
-        "react-mcq-02",
-        "react-mcq-06",
-        "react-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
       "sentenceIndex": 10,
@@ -492,12 +408,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "react-mcq-04": "本句指「對事件、刺激或物質所產生的回應／反應」。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。"
+        "react-mcq-04": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-04"
     },
@@ -509,11 +421,7 @@ export default {
       "masked": "He had an allergic ____.",
       "options": [
         "react-mcq-04",
-        "react-mcq-03",
-        "react-mcq-05",
-        "react-mcq-02",
-        "react-mcq-06",
-        "react-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
       "sentenceIndex": 11,
@@ -522,12 +430,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "react-mcq-04": "本句指「對事件、刺激或物質所產生的回應／反應」。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。"
+        "react-mcq-04": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-04"
     },
@@ -539,11 +443,7 @@ export default {
       "masked": "The experiment caused a chemical ____.",
       "options": [
         "react-mcq-04",
-        "react-mcq-03",
-        "react-mcq-05",
-        "react-mcq-02",
-        "react-mcq-06",
-        "react-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
       "sentenceIndex": 12,
@@ -552,12 +452,8 @@ export default {
         "reaction"
       ],
       "optionReasons": {
-        "react-mcq-04": "本句指「對事件、刺激或物質所產生的回應／反應」。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。",
-        "react-mcq-01": "「因某件事情發生，而在情緒、言語或行為上作出回應」是「react — behavioural/emotional response」的用法，與本句語境不同。"
+        "react-mcq-04": "本句的「reaction」指「對事件、刺激或物質所產生的回應／反應」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-04"
     },
@@ -569,11 +465,7 @@ export default {
       "masked": "The team was too ____ and not proactive enough.",
       "options": [
         "react-mcq-05",
-        "react-mcq-04",
-        "react-mcq-06",
-        "react-mcq-03",
-        "react-mcq-07",
-        "react-mcq-02"
+        "react-mcq-03"
       ],
       "explanation": "本句的「reactive」指「事情發生後才作出回應，而不是事先主動準備」。",
       "sentenceIndex": 13,
@@ -582,12 +474,8 @@ export default {
         "reactive"
       ],
       "optionReasons": {
-        "react-mcq-05": "本句指「事情發生後才作出回應，而不是事先主動準備」。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-07": "「發生反應的傾向或程度」是「reactivity」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。"
+        "react-mcq-05": "本句的「reactive」指「事情發生後才作出回應，而不是事先主動準備」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-05"
     },
@@ -599,11 +487,7 @@ export default {
       "masked": "The metal is highly ____.",
       "options": [
         "react-mcq-06",
-        "react-mcq-05",
-        "react-mcq-07",
-        "react-mcq-04",
-        "react-mcq-03",
-        "react-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「reactive」指「容易與其他物質發生化學反應的」。",
       "sentenceIndex": 14,
@@ -612,12 +496,8 @@ export default {
         "reactive"
       ],
       "optionReasons": {
-        "react-mcq-06": "本句指「容易與其他物質發生化學反應的」。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-07": "「發生反應的傾向或程度」是「reactivity」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。"
+        "react-mcq-06": "本句的「reactive」指「容易與其他物質發生化學反應的」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-06"
     },
@@ -629,11 +509,7 @@ export default {
       "masked": "The substance has high chemical ____.",
       "options": [
         "react-mcq-07",
-        "react-mcq-06",
-        "react-mcq-05",
-        "react-mcq-04",
-        "react-mcq-03",
-        "react-mcq-02"
+        "react-mcq-03"
       ],
       "explanation": "本句的「reactivity」指「發生反應的傾向或程度」。",
       "sentenceIndex": 15,
@@ -642,12 +518,8 @@ export default {
         "reactivity"
       ],
       "optionReasons": {
-        "react-mcq-07": "本句指「發生反應的傾向或程度」。",
-        "react-mcq-06": "「容易與其他物質發生化學反應的」是「reactive — chemical」的用法，與本句語境不同。",
-        "react-mcq-05": "「事情發生後才作出回應，而不是事先主動準備」是「reactive — behavioural」的用法，與本句語境不同。",
-        "react-mcq-04": "「對事件、刺激或物質所產生的回應／反應」是「reaction」的用法，與本句語境不同。",
-        "react-mcq-03": "「物質互相作用並產生化學變化」是「react — chemical」的用法，與本句語境不同。",
-        "react-mcq-02": "「身體、生物或系統受到刺激後產生某種變化或反應」是「react — physical/biological response」的用法，與本句語境不同。"
+        "react-mcq-07": "本句的「reactivity」指「發生反應的傾向或程度」。",
+        "react-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "react-mcq-07"
     }
@@ -659,5 +531,12 @@ export default {
     "sha256": "072f2f7900937bf570c1adfa234317c25ce588b90925c4e78b90b8a6731a5713",
     "pages": 10
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

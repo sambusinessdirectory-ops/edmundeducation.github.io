@@ -564,11 +564,9 @@ export default {
       "masked": "Teenagers are often influenced by their ____.",
       "options": [
         "peer-mcq-01",
-        "peer-mcq-02",
-        "peer-mcq-03",
-        "peer-mcq-04",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-14",
+        "peer-mcq-15",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「peers」指「年齡、地位、能力或身分大致相近的同輩／同儕」。",
       "sentenceIndex": 0,
@@ -577,12 +575,10 @@ export default {
         "peers"
       ],
       "optionReasons": {
-        "peer-mcq-01": "本句指「年齡、地位、能力或身分大致相近的同輩／同儕」。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-01": "本句的「peers」指「年齡、地位、能力或身分大致相近的同輩／同儕」。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-01"
     },
@@ -594,11 +590,9 @@ export default {
       "masked": "____ can affect the decisions students make.",
       "options": [
         "peer-mcq-01",
-        "peer-mcq-02",
-        "peer-mcq-03",
-        "peer-mcq-04",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-11",
+        "peer-mcq-15",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「Peer pressure」指「年齡、地位、能力或身分大致相近的同輩／同儕」。",
       "sentenceIndex": 1,
@@ -607,12 +601,10 @@ export default {
         "Peer pressure"
       ],
       "optionReasons": {
-        "peer-mcq-01": "本句指「年齡、地位、能力或身分大致相近的同輩／同儕」。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-01": "本句的「Peer pressure」指「年齡、地位、能力或身分大致相近的同輩／同儕」。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-01"
     },
@@ -624,11 +616,9 @@ export default {
       "masked": "Children learn a lot from their ____.",
       "options": [
         "peer-mcq-02",
-        "peer-mcq-01",
-        "peer-mcq-03",
-        "peer-mcq-04",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-20",
+        "peer-mcq-13",
+        "peer-mcq-14"
       ],
       "explanation": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
       "sentenceIndex": 2,
@@ -637,12 +627,10 @@ export default {
         "peers"
       ],
       "optionReasons": {
-        "peer-mcq-02": "本句指「同一專業／領域中地位相近的同業／同儕」。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-02": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-02"
     },
@@ -654,11 +642,9 @@ export default {
       "masked": "She is highly respected by her ____.",
       "options": [
         "peer-mcq-02",
-        "peer-mcq-01",
-        "peer-mcq-03",
-        "peer-mcq-04",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-20",
+        "peer-mcq-22",
+        "peer-mcq-14"
       ],
       "explanation": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
       "sentenceIndex": 3,
@@ -667,12 +653,10 @@ export default {
         "peers"
       ],
       "optionReasons": {
-        "peer-mcq-02": "本句指「同一專業／領域中地位相近的同業／同儕」。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-02": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-02"
     },
@@ -684,11 +668,9 @@ export default {
       "masked": "The researcher discussed the findings with her ____.",
       "options": [
         "peer-mcq-02",
-        "peer-mcq-01",
-        "peer-mcq-03",
-        "peer-mcq-04",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-20",
+        "peer-mcq-14",
+        "peer-mcq-12"
       ],
       "explanation": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
       "sentenceIndex": 4,
@@ -697,12 +679,10 @@ export default {
         "peers"
       ],
       "optionReasons": {
-        "peer-mcq-02": "本句指「同一專業／領域中地位相近的同業／同儕」。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-02": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-02"
     },
@@ -714,11 +694,9 @@ export default {
       "masked": "He was recognized by his ____ as an excellent teacher.",
       "options": [
         "peer-mcq-02",
-        "peer-mcq-01",
-        "peer-mcq-03",
-        "peer-mcq-04",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-14",
+        "peer-mcq-15",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
       "sentenceIndex": 5,
@@ -727,12 +705,10 @@ export default {
         "peers"
       ],
       "optionReasons": {
-        "peer-mcq-02": "本句指「同一專業／領域中地位相近的同業／同儕」。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-02": "本句的「peers」指「同一專業／領域中地位相近的同業／同儕」。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-02"
     },
@@ -744,11 +720,9 @@ export default {
       "masked": "Young people may give in to ____.",
       "options": [
         "peer-mcq-03",
-        "peer-mcq-02",
-        "peer-mcq-04",
-        "peer-mcq-01",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-21",
+        "peer-mcq-18",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「peer pressure」指「來自同齡／同儕群體、促使人跟從群體行為的壓力」。",
       "sentenceIndex": 6,
@@ -757,12 +731,10 @@ export default {
         "peer pressure"
       ],
       "optionReasons": {
-        "peer-mcq-03": "本句指「來自同齡／同儕群體、促使人跟從群體行為的壓力」。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-03": "本句的「peer pressure」指「來自同齡／同儕群體、促使人跟從群體行為的壓力」。",
+        "peer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-03"
     },
@@ -774,11 +746,9 @@ export default {
       "masked": "The lesson explored how ____ affects choices.",
       "options": [
         "peer-mcq-03",
-        "peer-mcq-02",
-        "peer-mcq-04",
-        "peer-mcq-01",
-        "peer-mcq-05",
-        "peer-mcq-06"
+        "peer-mcq-13",
+        "peer-mcq-21",
+        "peer-mcq-18"
       ],
       "explanation": "本句的「peer pressure」指「來自同齡／同儕群體、促使人跟從群體行為的壓力」。",
       "sentenceIndex": 7,
@@ -787,12 +757,10 @@ export default {
         "peer pressure"
       ],
       "optionReasons": {
-        "peer-mcq-03": "本句指「來自同齡／同儕群體、促使人跟從群體行為的壓力」。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-03": "本句的「peer pressure」指「來自同齡／同儕群體、促使人跟從群體行為的壓力」。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-03"
     },
@@ -804,11 +772,9 @@ export default {
       "masked": "Children often compare themselves with their ____.",
       "options": [
         "peer-mcq-04",
-        "peer-mcq-03",
-        "peer-mcq-05",
-        "peer-mcq-02",
-        "peer-mcq-06",
-        "peer-mcq-01"
+        "peer-mcq-15",
+        "peer-mcq-20",
+        "peer-mcq-22"
       ],
       "explanation": "本句的「peer group」指「年齡、地位、背景等相近的一群同儕」。",
       "sentenceIndex": 8,
@@ -817,12 +783,10 @@ export default {
         "peer group"
       ],
       "optionReasons": {
-        "peer-mcq-04": "本句指「年齡、地位、背景等相近的一群同儕」。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。"
+        "peer-mcq-04": "本句的「peer group」指「年齡、地位、背景等相近的一群同儕」。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-04"
     },
@@ -834,11 +798,9 @@ export default {
       "masked": "His ____ strongly influenced his behavior.",
       "options": [
         "peer-mcq-04",
-        "peer-mcq-03",
-        "peer-mcq-05",
-        "peer-mcq-02",
-        "peer-mcq-06",
-        "peer-mcq-01"
+        "peer-mcq-22",
+        "peer-mcq-14",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「peer group」指「年齡、地位、背景等相近的一群同儕」。",
       "sentenceIndex": 9,
@@ -847,12 +809,10 @@ export default {
         "peer group"
       ],
       "optionReasons": {
-        "peer-mcq-04": "本句指「年齡、地位、背景等相近的一群同儕」。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-01": "「年齡、地位、能力或身分大致相近的同輩／同儕」與本句語境不同。"
+        "peer-mcq-04": "本句的「peer group」指「年齡、地位、背景等相近的一群同儕」。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-04"
     },
@@ -864,11 +824,9 @@ export default {
       "masked": "The school offers a ____ program.",
       "options": [
         "peer-mcq-05",
-        "peer-mcq-04",
-        "peer-mcq-06",
-        "peer-mcq-03",
-        "peer-mcq-07",
-        "peer-mcq-02"
+        "peer-mcq-11",
+        "peer-mcq-13",
+        "peer-mcq-16"
       ],
       "explanation": "本句的「peer support」指「由類似年齡、經驗或身分者提供的同儕支援」。",
       "sentenceIndex": 10,
@@ -877,12 +835,10 @@ export default {
         "peer support"
       ],
       "optionReasons": {
-        "peer-mcq-05": "本句指「由類似年齡、經驗或身分者提供的同儕支援」。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。"
+        "peer-mcq-05": "本句的「peer support」指「由類似年齡、經驗或身分者提供的同儕支援」。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-05"
     },
@@ -894,11 +850,9 @@ export default {
       "masked": "____ can reduce feelings of isolation.",
       "options": [
         "peer-mcq-05",
-        "peer-mcq-04",
-        "peer-mcq-06",
-        "peer-mcq-03",
-        "peer-mcq-07",
-        "peer-mcq-02"
+        "peer-mcq-12",
+        "peer-mcq-16",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「Peer support」指「由類似年齡、經驗或身分者提供的同儕支援」。",
       "sentenceIndex": 11,
@@ -907,12 +861,10 @@ export default {
         "Peer support"
       ],
       "optionReasons": {
-        "peer-mcq-05": "本句指「由類似年齡、經驗或身分者提供的同儕支援」。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-02": "「同一專業／領域中地位相近的同業／同儕」與本句語境不同。"
+        "peer-mcq-05": "本句的「Peer support」指「由類似年齡、經驗或身分者提供的同儕支援」。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-05"
     },
@@ -924,11 +876,9 @@ export default {
       "masked": "Group work encourages ____.",
       "options": [
         "peer-mcq-06",
-        "peer-mcq-05",
-        "peer-mcq-07",
-        "peer-mcq-04",
-        "peer-mcq-08",
-        "peer-mcq-03"
+        "peer-mcq-12",
+        "peer-mcq-11",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「peer learning」指「與同等程度的人互相學習的同儕學習」。",
       "sentenceIndex": 12,
@@ -937,12 +887,10 @@ export default {
         "peer learning"
       ],
       "optionReasons": {
-        "peer-mcq-06": "本句指「與同等程度的人互相學習的同儕學習」。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。"
+        "peer-mcq-06": "本句的「peer learning」指「與同等程度的人互相學習的同儕學習」。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-06"
     },
@@ -954,11 +902,9 @@ export default {
       "masked": "Students benefit from ____.",
       "options": [
         "peer-mcq-06",
-        "peer-mcq-05",
-        "peer-mcq-07",
-        "peer-mcq-04",
-        "peer-mcq-08",
-        "peer-mcq-03"
+        "peer-mcq-13",
+        "peer-mcq-12",
+        "peer-mcq-20"
       ],
       "explanation": "本句的「peer learning」指「與同等程度的人互相學習的同儕學習」。",
       "sentenceIndex": 13,
@@ -967,12 +913,10 @@ export default {
         "peer learning"
       ],
       "optionReasons": {
-        "peer-mcq-06": "本句指「與同等程度的人互相學習的同儕學習」。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。",
-        "peer-mcq-03": "「來自同齡／同儕群體、促使人跟從群體行為的壓力」與本句語境不同。"
+        "peer-mcq-06": "本句的「peer learning」指「與同等程度的人互相學習的同儕學習」。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-06"
     },
@@ -984,11 +928,9 @@ export default {
       "masked": "The teacher used ____ during the lesson.",
       "options": [
         "peer-mcq-07",
-        "peer-mcq-06",
-        "peer-mcq-08",
-        "peer-mcq-05",
-        "peer-mcq-09",
-        "peer-mcq-04"
+        "peer-mcq-16",
+        "peer-mcq-13",
+        "peer-mcq-11"
       ],
       "explanation": "本句的「peer teaching」指「由同儕互相解釋／教授的朋輩教學」。",
       "sentenceIndex": 14,
@@ -997,12 +939,10 @@ export default {
         "peer teaching"
       ],
       "optionReasons": {
-        "peer-mcq-07": "本句指「由同儕互相解釋／教授的朋輩教學」。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。"
+        "peer-mcq-07": "本句的「peer teaching」指「由同儕互相解釋／教授的朋輩教學」。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-07"
     },
@@ -1014,11 +954,9 @@ export default {
       "masked": "____ can strengthen understanding.",
       "options": [
         "peer-mcq-07",
-        "peer-mcq-06",
-        "peer-mcq-08",
-        "peer-mcq-05",
-        "peer-mcq-09",
-        "peer-mcq-04"
+        "peer-mcq-16",
+        "peer-mcq-11",
+        "peer-mcq-12"
       ],
       "explanation": "本句的「Peer teaching」指「由同儕互相解釋／教授的朋輩教學」。",
       "sentenceIndex": 15,
@@ -1027,12 +965,10 @@ export default {
         "Peer teaching"
       ],
       "optionReasons": {
-        "peer-mcq-07": "本句指「由同儕互相解釋／教授的朋輩教學」。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。",
-        "peer-mcq-04": "「年齡、地位、背景等相近的一群同儕」與本句語境不同。"
+        "peer-mcq-07": "本句的「Peer teaching」指「由同儕互相解釋／教授的朋輩教學」。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-07"
     },
@@ -1044,11 +980,9 @@ export default {
       "masked": "The article went through ____.",
       "options": [
         "peer-mcq-08",
-        "peer-mcq-07",
-        "peer-mcq-09",
-        "peer-mcq-06",
-        "peer-mcq-10",
-        "peer-mcq-05"
+        "peer-mcq-16",
+        "peer-mcq-14",
+        "peer-mcq-20"
       ],
       "explanation": "本句的「peer review」指「由同一領域專家對學術／專業工作進行的同行評審」。",
       "sentenceIndex": 16,
@@ -1057,12 +991,10 @@ export default {
         "peer review"
       ],
       "optionReasons": {
-        "peer-mcq-08": "本句指「由同一領域專家對學術／專業工作進行的同行評審」。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。"
+        "peer-mcq-08": "本句的「peer review」指「由同一領域專家對學術／專業工作進行的同行評審」。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-08"
     },
@@ -1074,11 +1006,9 @@ export default {
       "masked": "____ helps maintain academic standards.",
       "options": [
         "peer-mcq-08",
-        "peer-mcq-07",
-        "peer-mcq-09",
-        "peer-mcq-06",
-        "peer-mcq-10",
-        "peer-mcq-05"
+        "peer-mcq-12",
+        "peer-mcq-15",
+        "peer-mcq-11"
       ],
       "explanation": "本句的「Peer review」指「由同一領域專家對學術／專業工作進行的同行評審」。",
       "sentenceIndex": 17,
@@ -1087,12 +1017,10 @@ export default {
         "Peer review"
       ],
       "optionReasons": {
-        "peer-mcq-08": "本句指「由同一領域專家對學術／專業工作進行的同行評審」。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-05": "「由類似年齡、經驗或身分者提供的同儕支援」與本句語境不同。"
+        "peer-mcq-08": "本句的「Peer review」指「由同一領域專家對學術／專業工作進行的同行評審」。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-08"
     },
@@ -1104,11 +1032,9 @@ export default {
       "masked": "Use ____ sources.",
       "options": [
         "peer-mcq-09",
-        "peer-mcq-08",
-        "peer-mcq-10",
-        "peer-mcq-07",
-        "peer-mcq-11",
-        "peer-mcq-06"
+        "peer-mcq-14",
+        "peer-mcq-16",
+        "peer-mcq-20"
       ],
       "explanation": "本句的「peer-reviewed」指「已經過同領域專家審查的」。",
       "sentenceIndex": 18,
@@ -1117,12 +1043,10 @@ export default {
         "peer-reviewed"
       ],
       "optionReasons": {
-        "peer-mcq-09": "本句指「已經過同領域專家審查的」。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-09": "本句的「peer-reviewed」指「已經過同領域專家審查的」。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-09"
     },
@@ -1134,11 +1058,9 @@ export default {
       "masked": "The study appeared in a ____.",
       "options": [
         "peer-mcq-09",
-        "peer-mcq-08",
-        "peer-mcq-10",
-        "peer-mcq-07",
-        "peer-mcq-11",
-        "peer-mcq-06"
+        "peer-mcq-22",
+        "peer-mcq-13",
+        "peer-mcq-16"
       ],
       "explanation": "本句的「peer-reviewed journal」指「已經過同領域專家審查的」。",
       "sentenceIndex": 19,
@@ -1147,12 +1069,10 @@ export default {
         "peer-reviewed journal"
       ],
       "optionReasons": {
-        "peer-mcq-09": "本句指「已經過同領域專家審查的」。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-07": "「由同儕互相解釋／教授的朋輩教學」與本句語境不同。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。",
-        "peer-mcq-06": "「與同等程度的人互相學習的同儕學習」與本句語境不同。"
+        "peer-mcq-09": "本句的「peer-reviewed journal」指「已經過同領域專家審查的」。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-09"
     },
@@ -1164,11 +1084,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "peer-mcq-11",
-        "peer-mcq-10",
-        "peer-mcq-12",
-        "peer-mcq-09",
-        "peer-mcq-13",
-        "peer-mcq-08"
+        "peer-mcq-22",
+        "peer-mcq-25",
+        "peer-mcq-15"
       ],
       "explanation": "本句的「peered at the tiny writing」指「仔細盯著某物看」。",
       "sentenceIndex": 22,
@@ -1177,12 +1095,10 @@ export default {
         "peered at the tiny writing"
       ],
       "optionReasons": {
-        "peer-mcq-11": "本句指「仔細盯著某物看」。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。"
+        "peer-mcq-11": "本句的「peered at the tiny writing」指「仔細盯著某物看」。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-11"
     },
@@ -1194,11 +1110,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "peer-mcq-11",
-        "peer-mcq-10",
-        "peer-mcq-12",
-        "peer-mcq-09",
-        "peer-mcq-13",
-        "peer-mcq-08"
+        "peer-mcq-17",
+        "peer-mcq-08",
+        "peer-mcq-21"
       ],
       "explanation": "本句的「peered at the screen」指「仔細盯著某物看」。",
       "sentenceIndex": 23,
@@ -1207,12 +1121,10 @@ export default {
         "peered at the screen"
       ],
       "optionReasons": {
-        "peer-mcq-11": "本句指「仔細盯著某物看」。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-08": "「由同一領域專家對學術／專業工作進行的同行評審」與本句語境不同。"
+        "peer-mcq-11": "本句的「peered at the screen」指「仔細盯著某物看」。",
+        "peer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-11"
     },
@@ -1224,11 +1136,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "peer-mcq-12",
-        "peer-mcq-11",
-        "peer-mcq-13",
-        "peer-mcq-10",
-        "peer-mcq-14",
-        "peer-mcq-09"
+        "peer-mcq-23",
+        "peer-mcq-18",
+        "peer-mcq-07"
       ],
       "explanation": "本句的「peered through the fog」指「透過某物努力看清」。",
       "sentenceIndex": 24,
@@ -1237,12 +1147,10 @@ export default {
         "peered through the fog"
       ],
       "optionReasons": {
-        "peer-mcq-12": "本句指「透過某物努力看清」。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。"
+        "peer-mcq-12": "本句的「peered through the fog」指「透過某物努力看清」。",
+        "peer-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-12"
     },
@@ -1254,11 +1162,9 @@ export default {
       "masked": "She ____ in the door.",
       "options": [
         "peer-mcq-12",
-        "peer-mcq-11",
-        "peer-mcq-13",
-        "peer-mcq-10",
-        "peer-mcq-14",
-        "peer-mcq-09"
+        "peer-mcq-04",
+        "peer-mcq-18",
+        "peer-mcq-08"
       ],
       "explanation": "本句的「peered through the gap」指「透過某物努力看清」。",
       "sentenceIndex": 25,
@@ -1267,12 +1173,10 @@ export default {
         "peered through the gap"
       ],
       "optionReasons": {
-        "peer-mcq-12": "本句指「透過某物努力看清」。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-09": "「已經過同領域專家審查的」與本句語境不同。"
+        "peer-mcq-12": "本句的「peered through the gap」指「透過某物努力看清」。",
+        "peer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-12"
     },
@@ -1284,11 +1188,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "peer-mcq-13",
-        "peer-mcq-12",
-        "peer-mcq-14",
-        "peer-mcq-11",
-        "peer-mcq-15",
-        "peer-mcq-10"
+        "peer-mcq-24",
+        "peer-mcq-17",
+        "peer-mcq-22"
       ],
       "explanation": "本句的「peered into the box」指「凝神往某地方／容器裡看」。",
       "sentenceIndex": 26,
@@ -1297,12 +1199,10 @@ export default {
         "peered into the box"
       ],
       "optionReasons": {
-        "peer-mcq-13": "本句指「凝神往某地方／容器裡看」。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。"
+        "peer-mcq-13": "本句的「peered into the box」指「凝神往某地方／容器裡看」。",
+        "peer-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-13"
     },
@@ -1314,11 +1214,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "peer-mcq-13",
-        "peer-mcq-12",
-        "peer-mcq-14",
-        "peer-mcq-11",
+        "peer-mcq-02",
         "peer-mcq-15",
-        "peer-mcq-10"
+        "peer-mcq-22"
       ],
       "explanation": "本句的「peered into the distance」指「凝神往某地方／容器裡看」。",
       "sentenceIndex": 27,
@@ -1327,12 +1225,10 @@ export default {
         "peered into the distance"
       ],
       "optionReasons": {
-        "peer-mcq-13": "本句指「凝神往某地方／容器裡看」。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-10": "「因難以看清而仔細／費力地看；凝視」與本句語境不同。"
+        "peer-mcq-13": "本句的「peered into the distance」指「凝神往某地方／容器裡看」。",
+        "peer-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-13"
     },
@@ -1344,11 +1240,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "peer-mcq-14",
-        "peer-mcq-13",
-        "peer-mcq-15",
-        "peer-mcq-12",
-        "peer-mcq-16",
-        "peer-mcq-11"
+        "peer-mcq-17",
+        "peer-mcq-07",
+        "peer-mcq-19"
       ],
       "explanation": "本句的「peered out of the window」指「從某處探頭／仔細往外看」。",
       "sentenceIndex": 28,
@@ -1357,12 +1251,10 @@ export default {
         "peered out of the window"
       ],
       "optionReasons": {
-        "peer-mcq-14": "本句指「從某處探頭／仔細往外看」。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。"
+        "peer-mcq-14": "本句的「peered out of the window」指「從某處探頭／仔細往外看」。",
+        "peer-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-14"
     },
@@ -1374,11 +1266,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "peer-mcq-14",
-        "peer-mcq-13",
-        "peer-mcq-15",
-        "peer-mcq-12",
-        "peer-mcq-16",
-        "peer-mcq-11"
+        "peer-mcq-01",
+        "peer-mcq-20",
+        "peer-mcq-17"
       ],
       "explanation": "本句的「peered out from behind the curtain」指「從某處探頭／仔細往外看」。",
       "sentenceIndex": 29,
@@ -1387,12 +1277,10 @@ export default {
         "peered out from behind the curtain"
       ],
       "optionReasons": {
-        "peer-mcq-14": "本句指「從某處探頭／仔細往外看」。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-11": "「仔細盯著某物看」與本句語境不同。"
+        "peer-mcq-14": "本句的「peered out from behind the curtain」指「從某處探頭／仔細往外看」。",
+        "peer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-14"
     },
@@ -1404,11 +1292,9 @@ export default {
       "masked": "He was made a ____.",
       "options": [
         "peer-mcq-15",
-        "peer-mcq-14",
-        "peer-mcq-16",
-        "peer-mcq-13",
-        "peer-mcq-17",
-        "peer-mcq-12"
+        "peer-mcq-03",
+        "peer-mcq-08",
+        "peer-mcq-22"
       ],
       "explanation": "本句的「peer」指「尤其英國制度中的貴族」。",
       "sentenceIndex": 30,
@@ -1417,12 +1303,10 @@ export default {
         "peer"
       ],
       "optionReasons": {
-        "peer-mcq-15": "本句指「尤其英國制度中的貴族」。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。"
+        "peer-mcq-15": "本句的「peer」指「尤其英國制度中的貴族」。",
+        "peer-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-15"
     },
@@ -1434,11 +1318,9 @@ export default {
       "masked": "Several hereditary ____ attended the ceremony.",
       "options": [
         "peer-mcq-15",
-        "peer-mcq-14",
-        "peer-mcq-16",
-        "peer-mcq-13",
-        "peer-mcq-17",
-        "peer-mcq-12"
+        "peer-mcq-05",
+        "peer-mcq-20",
+        "peer-mcq-22"
       ],
       "explanation": "本句的「peers」指「尤其英國制度中的貴族」。",
       "sentenceIndex": 31,
@@ -1447,12 +1329,10 @@ export default {
         "peers"
       ],
       "optionReasons": {
-        "peer-mcq-15": "本句指「尤其英國制度中的貴族」。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-12": "「透過某物努力看清」與本句語境不同。"
+        "peer-mcq-15": "本句的「peers」指「尤其英國制度中的貴族」。",
+        "peer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-15"
     },
@@ -1464,11 +1344,9 @@ export default {
       "masked": "He was elevated to the ____.",
       "options": [
         "peer-mcq-16",
-        "peer-mcq-15",
-        "peer-mcq-17",
-        "peer-mcq-14",
-        "peer-mcq-18",
-        "peer-mcq-13"
+        "peer-mcq-13",
+        "peer-mcq-25",
+        "peer-mcq-14"
       ],
       "explanation": "本句的「peerage」指「貴族制度／貴族階層；亦可指貴族爵位」。",
       "sentenceIndex": 32,
@@ -1477,12 +1355,10 @@ export default {
         "peerage"
       ],
       "optionReasons": {
-        "peer-mcq-16": "本句指「貴族制度／貴族階層；亦可指貴族爵位」。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。"
+        "peer-mcq-16": "本句的「peerage」指「貴族制度／貴族階層；亦可指貴族爵位」。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-16"
     },
@@ -1494,11 +1370,9 @@ export default {
       "masked": "The title forms part of the British ____.",
       "options": [
         "peer-mcq-16",
-        "peer-mcq-15",
-        "peer-mcq-17",
-        "peer-mcq-14",
-        "peer-mcq-18",
-        "peer-mcq-13"
+        "peer-mcq-12",
+        "peer-mcq-20",
+        "peer-mcq-07"
       ],
       "explanation": "本句的「peerage」指「貴族制度／貴族階層；亦可指貴族爵位」。",
       "sentenceIndex": 33,
@@ -1507,12 +1381,10 @@ export default {
         "peerage"
       ],
       "optionReasons": {
-        "peer-mcq-16": "本句指「貴族制度／貴族階層；亦可指貴族爵位」。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-13": "「凝神往某地方／容器裡看」與本句語境不同。"
+        "peer-mcq-16": "本句的「peerage」指「貴族制度／貴族階層；亦可指貴族爵位」。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-16"
     },
@@ -1524,11 +1396,9 @@ export default {
       "masked": "She was appointed a ____.",
       "options": [
         "peer-mcq-17",
-        "peer-mcq-16",
-        "peer-mcq-18",
-        "peer-mcq-15",
-        "peer-mcq-19",
-        "peer-mcq-14"
+        "peer-mcq-20",
+        "peer-mcq-14",
+        "peer-mcq-12"
       ],
       "explanation": "本句的「life peer」指「爵位只維持本人一生、不世襲的終身貴族」。",
       "sentenceIndex": 34,
@@ -1537,12 +1407,10 @@ export default {
         "life peer"
       ],
       "optionReasons": {
-        "peer-mcq-17": "本句指「爵位只維持本人一生、不世襲的終身貴族」。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。"
+        "peer-mcq-17": "本句的「life peer」指「爵位只維持本人一生、不世襲的終身貴族」。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-17"
     },
@@ -1554,9 +1422,7 @@ export default {
       "masked": "A ____ does not pass the title to descendants.",
       "options": [
         "peer-mcq-17",
-        "peer-mcq-16",
-        "peer-mcq-18",
-        "peer-mcq-15",
+        "peer-mcq-08",
         "peer-mcq-19",
         "peer-mcq-14"
       ],
@@ -1567,12 +1433,10 @@ export default {
         "life peer"
       ],
       "optionReasons": {
-        "peer-mcq-17": "本句指「爵位只維持本人一生、不世襲的終身貴族」。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-14": "「從某處探頭／仔細往外看」與本句語境不同。"
+        "peer-mcq-17": "本句的「life peer」指「爵位只維持本人一生、不世襲的終身貴族」。",
+        "peer-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-17"
     },
@@ -1584,11 +1448,9 @@ export default {
       "masked": "He inherited the title as a ____.",
       "options": [
         "peer-mcq-18",
-        "peer-mcq-17",
         "peer-mcq-19",
-        "peer-mcq-16",
-        "peer-mcq-20",
-        "peer-mcq-15"
+        "peer-mcq-22",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「hereditary peer」指「爵位可由後代繼承的世襲貴族」。",
       "sentenceIndex": 36,
@@ -1597,12 +1459,10 @@ export default {
         "hereditary peer"
       ],
       "optionReasons": {
-        "peer-mcq-18": "本句指「爵位可由後代繼承的世襲貴族」。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。"
+        "peer-mcq-18": "本句的「hereditary peer」指「爵位可由後代繼承的世襲貴族」。",
+        "peer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-18"
     },
@@ -1614,11 +1474,9 @@ export default {
       "masked": "Some ____ retain ceremonial roles.",
       "options": [
         "peer-mcq-18",
-        "peer-mcq-17",
         "peer-mcq-19",
-        "peer-mcq-16",
-        "peer-mcq-20",
-        "peer-mcq-15"
+        "peer-mcq-23",
+        "peer-mcq-03"
       ],
       "explanation": "本句的「hereditary peers」指「爵位可由後代繼承的世襲貴族」。",
       "sentenceIndex": 37,
@@ -1627,12 +1485,10 @@ export default {
         "hereditary peers"
       ],
       "optionReasons": {
-        "peer-mcq-18": "本句指「爵位可由後代繼承的世襲貴族」。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-15": "「尤其英國制度中的貴族」與本句語境不同。"
+        "peer-mcq-18": "本句的「hereditary peers」指「爵位可由後代繼承的世襲貴族」。",
+        "peer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-18"
     },
@@ -1644,11 +1500,9 @@ export default {
       "masked": "Her skill was ____.",
       "options": [
         "peer-mcq-19",
-        "peer-mcq-18",
-        "peer-mcq-20",
-        "peer-mcq-17",
-        "peer-mcq-21",
-        "peer-mcq-16"
+        "peer-mcq-11",
+        "peer-mcq-13",
+        "peer-mcq-12"
       ],
       "explanation": "本句的「without peer」指「沒有同等對手；無與倫比」。",
       "sentenceIndex": 38,
@@ -1657,12 +1511,10 @@ export default {
         "without peer"
       ],
       "optionReasons": {
-        "peer-mcq-19": "本句指「沒有同等對手；無與倫比」。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。"
+        "peer-mcq-19": "本句的「without peer」指「沒有同等對手；無與倫比」。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-19"
     },
@@ -1674,11 +1526,9 @@ export default {
       "masked": "He was considered a scholar ____.",
       "options": [
         "peer-mcq-19",
-        "peer-mcq-18",
-        "peer-mcq-20",
-        "peer-mcq-17",
-        "peer-mcq-21",
-        "peer-mcq-16"
+        "peer-mcq-22",
+        "peer-mcq-11",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「without peer」指「沒有同等對手；無與倫比」。",
       "sentenceIndex": 39,
@@ -1687,12 +1537,10 @@ export default {
         "without peer"
       ],
       "optionReasons": {
-        "peer-mcq-19": "本句指「沒有同等對手；無與倫比」。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-16": "「貴族制度／貴族階層；亦可指貴族爵位」與本句語境不同。"
+        "peer-mcq-19": "本句的「without peer」指「沒有同等對手；無與倫比」。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-19"
     },
@@ -1704,11 +1552,9 @@ export default {
       "masked": "In speed, the machine ____.",
       "options": [
         "peer-mcq-20",
-        "peer-mcq-19",
-        "peer-mcq-21",
-        "peer-mcq-18",
-        "peer-mcq-22",
-        "peer-mcq-17"
+        "peer-mcq-15",
+        "peer-mcq-07",
+        "peer-mcq-14"
       ],
       "explanation": "本句的「has no peer」指「沒有可相比者；無人能及」。",
       "sentenceIndex": 40,
@@ -1717,12 +1563,10 @@ export default {
         "has no peer"
       ],
       "optionReasons": {
-        "peer-mcq-20": "本句指「沒有可相比者；無人能及」。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。"
+        "peer-mcq-20": "本句的「has no peer」指「沒有可相比者；無人能及」。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-20"
     },
@@ -1734,11 +1578,9 @@ export default {
       "masked": "Her precision ____.",
       "options": [
         "peer-mcq-20",
-        "peer-mcq-19",
-        "peer-mcq-21",
-        "peer-mcq-18",
-        "peer-mcq-22",
-        "peer-mcq-17"
+        "peer-mcq-01",
+        "peer-mcq-15",
+        "peer-mcq-11"
       ],
       "explanation": "本句的「has few peers」指「沒有可相比者；無人能及」。",
       "sentenceIndex": 41,
@@ -1747,12 +1589,10 @@ export default {
         "has few peers"
       ],
       "optionReasons": {
-        "peer-mcq-20": "本句指「沒有可相比者；無人能及」。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-17": "「爵位只維持本人一生、不世襲的終身貴族」與本句語境不同。"
+        "peer-mcq-20": "本句的「has few peers」指「沒有可相比者；無人能及」。",
+        "peer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-20"
     },
@@ -1764,11 +1604,9 @@ export default {
       "masked": "The application uses ____.",
       "options": [
         "peer-mcq-21",
-        "peer-mcq-20",
-        "peer-mcq-22",
-        "peer-mcq-19",
-        "peer-mcq-23",
-        "peer-mcq-18"
+        "peer-mcq-12",
+        "peer-mcq-24",
+        "peer-mcq-15"
       ],
       "explanation": "本句的「peer-to-peer communication」指「各參與者以對等地位直接互動的；點對點」。",
       "sentenceIndex": 42,
@@ -1777,12 +1615,10 @@ export default {
         "peer-to-peer communication"
       ],
       "optionReasons": {
-        "peer-mcq-21": "本句指「各參與者以對等地位直接互動的；點對點」。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。"
+        "peer-mcq-21": "本句的「peer-to-peer communication」指「各參與者以對等地位直接互動的；點對點」。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-21"
     },
@@ -1794,11 +1630,9 @@ export default {
       "masked": "Files can be shared through a ____.",
       "options": [
         "peer-mcq-21",
-        "peer-mcq-20",
-        "peer-mcq-22",
-        "peer-mcq-19",
-        "peer-mcq-23",
-        "peer-mcq-18"
+        "peer-mcq-03",
+        "peer-mcq-13",
+        "peer-mcq-12"
       ],
       "explanation": "本句的「peer-to-peer network」指「各參與者以對等地位直接互動的；點對點」。",
       "sentenceIndex": 43,
@@ -1807,12 +1641,10 @@ export default {
         "peer-to-peer network"
       ],
       "optionReasons": {
-        "peer-mcq-21": "本句指「各參與者以對等地位直接互動的；點對點」。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-18": "「爵位可由後代繼承的世襲貴族」與本句語境不同。"
+        "peer-mcq-21": "本句的「peer-to-peer network」指「各參與者以對等地位直接互動的；點對點」。",
+        "peer-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-21"
     },
@@ -1824,11 +1656,9 @@ export default {
       "masked": "Each computer in a ____ can share resources.",
       "options": [
         "peer-mcq-22",
-        "peer-mcq-21",
-        "peer-mcq-23",
-        "peer-mcq-20",
-        "peer-mcq-24",
-        "peer-mcq-19"
+        "peer-mcq-15",
+        "peer-mcq-05",
+        "peer-mcq-09"
       ],
       "explanation": "本句的「peer-to-peer network」指「裝置彼此直接共享資源的點對點網絡」。",
       "sentenceIndex": 44,
@@ -1837,12 +1667,10 @@ export default {
         "peer-to-peer network"
       ],
       "optionReasons": {
-        "peer-mcq-22": "本句指「裝置彼此直接共享資源的點對點網絡」。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-24": "「身分／年齡相近人士之間的同儕關係」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。"
+        "peer-mcq-22": "本句的「peer-to-peer network」指「裝置彼此直接共享資源的點對點網絡」。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-22"
     },
@@ -1854,11 +1682,9 @@ export default {
       "masked": "The service uses a ____.",
       "options": [
         "peer-mcq-22",
-        "peer-mcq-21",
-        "peer-mcq-23",
-        "peer-mcq-20",
-        "peer-mcq-24",
-        "peer-mcq-19"
+        "peer-mcq-07",
+        "peer-mcq-19",
+        "peer-mcq-11"
       ],
       "explanation": "本句的「P2P network」指「裝置彼此直接共享資源的點對點網絡」。",
       "sentenceIndex": 45,
@@ -1867,12 +1693,10 @@ export default {
         "P2P network"
       ],
       "optionReasons": {
-        "peer-mcq-22": "本句指「裝置彼此直接共享資源的點對點網絡」。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。",
-        "peer-mcq-24": "「身分／年齡相近人士之間的同儕關係」與本句語境不同。",
-        "peer-mcq-19": "「沒有同等對手；無與倫比」與本句語境不同。"
+        "peer-mcq-22": "本句的「P2P network」指「裝置彼此直接共享資源的點對點網絡」。",
+        "peer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-22"
     },
@@ -1884,11 +1708,9 @@ export default {
       "masked": "The two providers established a ____.",
       "options": [
         "peer-mcq-23",
-        "peer-mcq-22",
-        "peer-mcq-24",
-        "peer-mcq-21",
-        "peer-mcq-25",
-        "peer-mcq-20"
+        "peer-mcq-12",
+        "peer-mcq-16",
+        "peer-mcq-11"
       ],
       "explanation": "本句的「peering agreement」指「不同網絡之間直接交換流量的對等互聯」。",
       "sentenceIndex": 46,
@@ -1897,12 +1719,10 @@ export default {
         "peering agreement"
       ],
       "optionReasons": {
-        "peer-mcq-23": "本句指「不同網絡之間直接交換流量的對等互聯」。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-24": "「身分／年齡相近人士之間的同儕關係」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-25": "「由身分、年齡或經驗相近者提供的同儕輔導」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。"
+        "peer-mcq-23": "本句的「peering agreement」指「不同網絡之間直接交換流量的對等互聯」。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-23"
     },
@@ -1914,11 +1734,9 @@ export default {
       "masked": "Internet ____ can improve routing efficiency.",
       "options": [
         "peer-mcq-23",
-        "peer-mcq-22",
-        "peer-mcq-24",
-        "peer-mcq-21",
-        "peer-mcq-25",
-        "peer-mcq-20"
+        "peer-mcq-15",
+        "peer-mcq-11",
+        "peer-mcq-13"
       ],
       "explanation": "本句的「peering」指「不同網絡之間直接交換流量的對等互聯」。",
       "sentenceIndex": 47,
@@ -1927,12 +1745,10 @@ export default {
         "peering"
       ],
       "optionReasons": {
-        "peer-mcq-23": "本句指「不同網絡之間直接交換流量的對等互聯」。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-24": "「身分／年齡相近人士之間的同儕關係」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-25": "「由身分、年齡或經驗相近者提供的同儕輔導」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。"
+        "peer-mcq-23": "本句的「peering」指「不同網絡之間直接交換流量的對等互聯」。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-23"
     },
@@ -1944,11 +1760,9 @@ export default {
       "masked": "Healthy ____ are important during adolescence.",
       "options": [
         "peer-mcq-24",
-        "peer-mcq-23",
-        "peer-mcq-25",
         "peer-mcq-22",
-        "peer-mcq-21",
-        "peer-mcq-20"
+        "peer-mcq-11",
+        "peer-mcq-18"
       ],
       "explanation": "本句的「peer relationships」指「身分／年齡相近人士之間的同儕關係」。",
       "sentenceIndex": 50,
@@ -1957,12 +1771,10 @@ export default {
         "peer relationships"
       ],
       "optionReasons": {
-        "peer-mcq-24": "本句指「身分／年齡相近人士之間的同儕關係」。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-25": "「由身分、年齡或經驗相近者提供的同儕輔導」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。"
+        "peer-mcq-24": "本句的「peer relationships」指「身分／年齡相近人士之間的同儕關係」。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-24"
     },
@@ -1974,9 +1786,7 @@ export default {
       "masked": "The activity improves ____.",
       "options": [
         "peer-mcq-24",
-        "peer-mcq-23",
-        "peer-mcq-25",
-        "peer-mcq-22",
+        "peer-mcq-16",
         "peer-mcq-21",
         "peer-mcq-20"
       ],
@@ -1987,12 +1797,10 @@ export default {
         "peer relationships"
       ],
       "optionReasons": {
-        "peer-mcq-24": "本句指「身分／年齡相近人士之間的同儕關係」。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-25": "「由身分、年齡或經驗相近者提供的同儕輔導」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。"
+        "peer-mcq-24": "本句的「peer relationships」指「身分／年齡相近人士之間的同儕關係」。",
+        "peer-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-24"
     },
@@ -2004,11 +1812,9 @@ export default {
       "masked": "The university runs a ____ scheme.",
       "options": [
         "peer-mcq-25",
-        "peer-mcq-24",
-        "peer-mcq-23",
+        "peer-mcq-14",
         "peer-mcq-22",
-        "peer-mcq-21",
-        "peer-mcq-20"
+        "peer-mcq-15"
       ],
       "explanation": "本句的「peer mentoring」指「由身分、年齡或經驗相近者提供的同儕輔導」。",
       "sentenceIndex": 52,
@@ -2017,12 +1823,10 @@ export default {
         "peer mentoring"
       ],
       "optionReasons": {
-        "peer-mcq-25": "本句指「由身分、年齡或經驗相近者提供的同儕輔導」。",
-        "peer-mcq-24": "「身分／年齡相近人士之間的同儕關係」與本句語境不同。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。"
+        "peer-mcq-25": "本句的「peer mentoring」指「由身分、年齡或經驗相近者提供的同儕輔導」。",
+        "peer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-25"
     },
@@ -2034,11 +1838,9 @@ export default {
       "masked": "____ helps new students adjust.",
       "options": [
         "peer-mcq-25",
-        "peer-mcq-24",
-        "peer-mcq-23",
-        "peer-mcq-22",
-        "peer-mcq-21",
-        "peer-mcq-20"
+        "peer-mcq-15",
+        "peer-mcq-11",
+        "peer-mcq-12"
       ],
       "explanation": "本句的「Peer mentoring」指「由身分、年齡或經驗相近者提供的同儕輔導」。",
       "sentenceIndex": 53,
@@ -2047,12 +1849,10 @@ export default {
         "Peer mentoring"
       ],
       "optionReasons": {
-        "peer-mcq-25": "本句指「由身分、年齡或經驗相近者提供的同儕輔導」。",
-        "peer-mcq-24": "「身分／年齡相近人士之間的同儕關係」與本句語境不同。",
-        "peer-mcq-23": "「不同網絡之間直接交換流量的對等互聯」與本句語境不同。",
-        "peer-mcq-22": "「裝置彼此直接共享資源的點對點網絡」與本句語境不同。",
-        "peer-mcq-21": "「各參與者以對等地位直接互動的；點對點」與本句語境不同。",
-        "peer-mcq-20": "「沒有可相比者；無人能及」與本句語境不同。"
+        "peer-mcq-25": "本句的「Peer mentoring」指「由身分、年齡或經驗相近者提供的同儕輔導」。",
+        "peer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "peer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "peer-mcq-25"
     }
@@ -2064,5 +1864,7 @@ export default {
     "sha256": "37f8242f5b4b51669c3e593e9b56c320ad345bd2ce2ecbc7770bdefc2865872d",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

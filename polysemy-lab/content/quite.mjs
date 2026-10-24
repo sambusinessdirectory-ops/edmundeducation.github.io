@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "quite-mcq-01",
-      "title": "表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當",
+      "title": "某種性質／方式達到相當明顯但通常非極端的程度；頗／相當",
       "form": "quite + gradable adjective/adverb",
       "en": "quite + gradable adjective/adverb",
       "zh": "表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當",
@@ -326,11 +326,8 @@ export default {
       "masked": "He was ____.",
       "options": [
         "quite-mcq-01",
-        "quite-mcq-02",
-        "quite-mcq-03",
-        "quite-mcq-04",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-11",
+        "quite-mcq-04"
       ],
       "explanation": "本句的「quite tall and thin」指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
       "sentenceIndex": 0,
@@ -339,12 +336,9 @@ export default {
         "quite tall and thin"
       ],
       "optionReasons": {
-        "quite-mcq-01": "本句指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-01": "本句的「quite tall and thin」指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
+        "quite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-01"
     },
@@ -357,10 +351,7 @@ export default {
       "options": [
         "quite-mcq-01",
         "quite-mcq-02",
-        "quite-mcq-03",
-        "quite-mcq-04",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite difficult」指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
       "sentenceIndex": 1,
@@ -369,12 +360,9 @@ export default {
         "quite difficult"
       ],
       "optionReasons": {
-        "quite-mcq-01": "本句指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-01": "本句的「quite difficult」指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
+        "quite-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-01"
     },
@@ -386,11 +374,8 @@ export default {
       "masked": "She explained the idea ____.",
       "options": [
         "quite-mcq-01",
-        "quite-mcq-02",
-        "quite-mcq-03",
-        "quite-mcq-04",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-11",
+        "quite-mcq-04"
       ],
       "explanation": "本句的「quite clearly」指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
       "sentenceIndex": 2,
@@ -399,12 +384,9 @@ export default {
         "quite clearly"
       ],
       "optionReasons": {
-        "quite-mcq-01": "本句指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-01": "本句的「quite clearly」指「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」。",
+        "quite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-01"
     },
@@ -416,11 +398,8 @@ export default {
       "masked": "You are ____.",
       "options": [
         "quite-mcq-02",
-        "quite-mcq-01",
-        "quite-mcq-03",
-        "quite-mcq-04",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-06",
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite right」指「強調某個狀態完全成立；完全／絕對」。",
       "sentenceIndex": 3,
@@ -429,12 +408,9 @@ export default {
         "quite right"
       ],
       "optionReasons": {
-        "quite-mcq-02": "本句指「強調某個狀態完全成立；完全／絕對」。",
-        "quite-mcq-01": "「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」是「quite + gradable adjective/adverb」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-02": "本句的「quite right」指「強調某個狀態完全成立；完全／絕對」。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-02"
     },
@@ -446,11 +422,8 @@ export default {
       "masked": "The two situations are ____.",
       "options": [
         "quite-mcq-02",
-        "quite-mcq-01",
-        "quite-mcq-03",
-        "quite-mcq-04",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-07",
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite different」指「強調某個狀態完全成立；完全／絕對」。",
       "sentenceIndex": 4,
@@ -459,12 +432,9 @@ export default {
         "quite different"
       ],
       "optionReasons": {
-        "quite-mcq-02": "本句指「強調某個狀態完全成立；完全／絕對」。",
-        "quite-mcq-01": "「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」是「quite + gradable adjective/adverb」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-02": "本句的「quite different」指「強調某個狀態完全成立；完全／絕對」。",
+        "quite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-02"
     },
@@ -476,11 +446,7 @@ export default {
       "masked": "He was ____.",
       "options": [
         "quite-mcq-03",
-        "quite-mcq-02",
-        "quite-mcq-04",
-        "quite-mcq-01",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite a good teacher」指「強調某人／物在某特質上達到相當明顯的程度」。",
       "sentenceIndex": 5,
@@ -489,12 +455,8 @@ export default {
         "quite a good teacher"
       ],
       "optionReasons": {
-        "quite-mcq-03": "本句指「強調某人／物在某特質上達到相當明顯的程度」。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-01": "「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」是「quite + gradable adjective/adverb」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-03": "本句的「quite a good teacher」指「強調某人／物在某特質上達到相當明顯的程度」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-03"
     },
@@ -506,11 +468,7 @@ export default {
       "masked": "That was ____.",
       "options": [
         "quite-mcq-03",
-        "quite-mcq-02",
-        "quite-mcq-04",
-        "quite-mcq-01",
-        "quite-mcq-05",
-        "quite-mcq-06"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite an interesting lesson」指「強調某人／物在某特質上達到相當明顯的程度」。",
       "sentenceIndex": 6,
@@ -519,12 +477,8 @@ export default {
         "quite an interesting lesson"
       ],
       "optionReasons": {
-        "quite-mcq-03": "本句指「強調某人／物在某特質上達到相當明顯的程度」。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-01": "「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」是「quite + gradable adjective/adverb」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-03": "本句的「quite an interesting lesson」指「強調某人／物在某特質上達到相當明顯的程度」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-03"
     },
@@ -536,11 +490,8 @@ export default {
       "masked": "That was ____.",
       "options": [
         "quite-mcq-04",
-        "quite-mcq-03",
-        "quite-mcq-05",
-        "quite-mcq-02",
-        "quite-mcq-06",
-        "quite-mcq-01"
+        "quite-mcq-12",
+        "quite-mcq-10"
       ],
       "explanation": "本句的「quite a lesson」指「強調某人／物非常突出或令人印象深刻地屬於該類別」。",
       "sentenceIndex": 7,
@@ -549,12 +500,9 @@ export default {
         "quite a lesson"
       ],
       "optionReasons": {
-        "quite-mcq-04": "本句指「強調某人／物非常突出或令人印象深刻地屬於該類別」。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-01": "「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」是「quite + gradable adjective/adverb」的用法，與本句語境不同。"
+        "quite-mcq-04": "本句的「quite a lesson」指「強調某人／物非常突出或令人印象深刻地屬於該類別」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-04"
     },
@@ -566,11 +514,9 @@ export default {
       "masked": "He became ____ over the years.",
       "options": [
         "quite-mcq-04",
-        "quite-mcq-03",
         "quite-mcq-05",
-        "quite-mcq-02",
         "quite-mcq-06",
-        "quite-mcq-01"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite a teacher」指「強調某人／物非常突出或令人印象深刻地屬於該類別」。",
       "sentenceIndex": 8,
@@ -579,12 +525,10 @@ export default {
         "quite a teacher"
       ],
       "optionReasons": {
-        "quite-mcq-04": "本句指「強調某人／物非常突出或令人印象深刻地屬於該類別」。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-01": "「表示某種性質／方式達到相當明顯但通常非極端的程度；頗／相當」是「quite + gradable adjective/adverb」的用法，與本句語境不同。"
+        "quite-mcq-04": "本句的「quite a teacher」指「強調某人／物非常突出或令人印象深刻地屬於該類別」。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-04"
     },
@@ -596,11 +540,9 @@ export default {
       "masked": "I ____ the question.",
       "options": [
         "quite-mcq-05",
-        "quite-mcq-04",
         "quite-mcq-06",
-        "quite-mcq-03",
-        "quite-mcq-07",
-        "quite-mcq-02"
+        "quite-mcq-04",
+        "quite-mcq-12"
       ],
       "explanation": "本句的「don’t quite understand」指「接近某個狀態／標準但尚未完全達到」。",
       "sentenceIndex": 9,
@@ -609,12 +551,10 @@ export default {
         "don’t quite understand"
       ],
       "optionReasons": {
-        "quite-mcq-05": "本句指「接近某個狀態／標準但尚未完全達到」。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。"
+        "quite-mcq-05": "本句的「don’t quite understand」指「接近某個狀態／標準但尚未完全達到」。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-05"
     },
@@ -626,11 +566,9 @@ export default {
       "masked": "The answer is ____.",
       "options": [
         "quite-mcq-05",
-        "quite-mcq-04",
         "quite-mcq-06",
-        "quite-mcq-03",
-        "quite-mcq-07",
-        "quite-mcq-02"
+        "quite-mcq-12",
+        "quite-mcq-09"
       ],
       "explanation": "本句的「not quite correct」指「接近某個狀態／標準但尚未完全達到」。",
       "sentenceIndex": 10,
@@ -639,12 +577,10 @@ export default {
         "not quite correct"
       ],
       "optionReasons": {
-        "quite-mcq-05": "本句指「接近某個狀態／標準但尚未完全達到」。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。"
+        "quite-mcq-05": "本句的「not quite correct」指「接近某個狀態／標準但尚未完全達到」。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-05"
     },
@@ -656,11 +592,9 @@ export default {
       "masked": "The explanation was ____.",
       "options": [
         "quite-mcq-05",
-        "quite-mcq-04",
         "quite-mcq-06",
-        "quite-mcq-03",
-        "quite-mcq-07",
-        "quite-mcq-02"
+        "quite-mcq-13",
+        "quite-mcq-12"
       ],
       "explanation": "本句的「not quite clear」指「接近某個狀態／標準但尚未完全達到」。",
       "sentenceIndex": 11,
@@ -669,12 +603,10 @@ export default {
         "not quite clear"
       ],
       "optionReasons": {
-        "quite-mcq-05": "本句指「接近某個狀態／標準但尚未完全達到」。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。"
+        "quite-mcq-05": "本句的「not quite clear」指「接近某個狀態／標準但尚未完全達到」。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-05"
     },
@@ -688,9 +620,7 @@ export default {
         "quite-mcq-05",
         "quite-mcq-04",
         "quite-mcq-06",
-        "quite-mcq-03",
-        "quite-mcq-07",
-        "quite-mcq-02"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「not quite what I meant」指「接近某個狀態／標準但尚未完全達到」。",
       "sentenceIndex": 12,
@@ -699,12 +629,10 @@ export default {
         "not quite what I meant"
       ],
       "optionReasons": {
-        "quite-mcq-05": "本句指「接近某個狀態／標準但尚未完全達到」。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-02": "「強調某個狀態完全成立；完全／絕對」是「quite + absolute/extreme adjective」的用法，與本句語境不同。"
+        "quite-mcq-05": "本句的「not quite what I meant」指「接近某個狀態／標準但尚未完全達到」。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-05"
     },
@@ -716,11 +644,9 @@ export default {
       "masked": "____ remembered the teacher.",
       "options": [
         "quite-mcq-06",
-        "quite-mcq-05",
-        "quite-mcq-07",
-        "quite-mcq-04",
-        "quite-mcq-08",
-        "quite-mcq-03"
+        "quite-mcq-13",
+        "quite-mcq-12",
+        "quite-mcq-05"
       ],
       "explanation": "本句的「Quite a few students」指「可數事物的數量相當多，而不是很少」。",
       "sentenceIndex": 13,
@@ -729,12 +655,10 @@ export default {
         "Quite a few students"
       ],
       "optionReasons": {
-        "quite-mcq-06": "本句指「可數事物的數量相當多，而不是很少」。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。"
+        "quite-mcq-06": "本句的「Quite a few students」指「可數事物的數量相當多，而不是很少」。",
+        "quite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-06"
     },
@@ -746,11 +670,9 @@ export default {
       "masked": "I made ____ in the first draft.",
       "options": [
         "quite-mcq-06",
-        "quite-mcq-05",
-        "quite-mcq-07",
+        "quite-mcq-12",
         "quite-mcq-04",
-        "quite-mcq-08",
-        "quite-mcq-03"
+        "quite-mcq-05"
       ],
       "explanation": "本句的「quite a few mistakes」指「可數事物的數量相當多，而不是很少」。",
       "sentenceIndex": 14,
@@ -759,12 +681,10 @@ export default {
         "quite a few mistakes"
       ],
       "optionReasons": {
-        "quite-mcq-06": "本句指「可數事物的數量相當多，而不是很少」。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-03": "「強調某人／物在某特質上達到相當明顯的程度」是「quite a/an + adjective + noun」的用法，與本句語境不同。"
+        "quite-mcq-06": "本句的「quite a few mistakes」指「可數事物的數量相當多，而不是很少」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-06"
     },
@@ -776,11 +696,8 @@ export default {
       "masked": "I learned ____ from him.",
       "options": [
         "quite-mcq-07",
-        "quite-mcq-06",
-        "quite-mcq-08",
-        "quite-mcq-05",
-        "quite-mcq-09",
-        "quite-mcq-04"
+        "quite-mcq-12",
+        "quite-mcq-02"
       ],
       "explanation": "本句的「quite a lot」指「數量、變化或程度相當大」。",
       "sentenceIndex": 15,
@@ -789,12 +706,9 @@ export default {
         "quite a lot"
       ],
       "optionReasons": {
-        "quite-mcq-07": "本句指「數量、變化或程度相當大」。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。"
+        "quite-mcq-07": "本句的「quite a lot」指「數量、變化或程度相當大」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-07"
     },
@@ -806,11 +720,8 @@ export default {
       "masked": "The school has changed ____.",
       "options": [
         "quite-mcq-07",
-        "quite-mcq-06",
-        "quite-mcq-08",
-        "quite-mcq-05",
-        "quite-mcq-09",
-        "quite-mcq-04"
+        "quite-mcq-11",
+        "quite-mcq-13"
       ],
       "explanation": "本句的「quite a bit」指「數量、變化或程度相當大」。",
       "sentenceIndex": 16,
@@ -819,12 +730,9 @@ export default {
         "quite a bit"
       ],
       "optionReasons": {
-        "quite-mcq-07": "本句指「數量、變化或程度相當大」。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。"
+        "quite-mcq-07": "本句的「quite a bit」指「數量、變化或程度相當大」。",
+        "quite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-07"
     },
@@ -836,11 +744,9 @@ export default {
       "masked": "The project required ____.",
       "options": [
         "quite-mcq-07",
-        "quite-mcq-06",
-        "quite-mcq-08",
         "quite-mcq-05",
         "quite-mcq-09",
-        "quite-mcq-04"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite a lot of work」指「數量、變化或程度相當大」。",
       "sentenceIndex": 17,
@@ -849,12 +755,10 @@ export default {
         "quite a lot of work"
       ],
       "optionReasons": {
-        "quite-mcq-07": "本句指「數量、變化或程度相當大」。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。"
+        "quite-mcq-07": "本句的「quite a lot of work」指「數量、變化或程度相當大」。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-07"
     },
@@ -866,11 +770,8 @@ export default {
       "masked": "He spent ____ preparing his lessons.",
       "options": [
         "quite-mcq-07",
-        "quite-mcq-06",
-        "quite-mcq-08",
-        "quite-mcq-05",
-        "quite-mcq-09",
-        "quite-mcq-04"
+        "quite-mcq-11",
+        "quite-mcq-13"
       ],
       "explanation": "本句的「quite a bit of time」指「數量、變化或程度相當大」。",
       "sentenceIndex": 18,
@@ -879,12 +780,9 @@ export default {
         "quite a bit of time"
       ],
       "optionReasons": {
-        "quite-mcq-07": "本句指「數量、變化或程度相當大」。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-04": "「強調某人／物非常突出或令人印象深刻地屬於該類別」是「quite a + noun」的用法，與本句語境不同。"
+        "quite-mcq-07": "本句的「quite a bit of time」指「數量、變化或程度相當大」。",
+        "quite-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-07"
     },
@@ -896,10 +794,7 @@ export default {
       "masked": "That caused ____.",
       "options": [
         "quite-mcq-08",
-        "quite-mcq-07",
-        "quite-mcq-09",
-        "quite-mcq-06",
-        "quite-mcq-10",
+        "quite-mcq-12",
         "quite-mcq-05"
       ],
       "explanation": "本句的「quite some confusion」指「強調某事物的數量、影響或程度相當顯著」。",
@@ -909,12 +804,9 @@ export default {
         "quite some confusion"
       ],
       "optionReasons": {
-        "quite-mcq-08": "本句指「強調某事物的數量、影響或程度相當顯著」。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。"
+        "quite-mcq-08": "本句的「quite some confusion」指「強調某事物的數量、影響或程度相當顯著」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-08"
     },
@@ -926,11 +818,8 @@ export default {
       "masked": "He had ____ on his students.",
       "options": [
         "quite-mcq-08",
-        "quite-mcq-07",
-        "quite-mcq-09",
-        "quite-mcq-06",
-        "quite-mcq-10",
-        "quite-mcq-05"
+        "quite-mcq-05",
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite some influence」指「強調某事物的數量、影響或程度相當顯著」。",
       "sentenceIndex": 20,
@@ -939,12 +828,9 @@ export default {
         "quite some influence"
       ],
       "optionReasons": {
-        "quite-mcq-08": "本句指「強調某事物的數量、影響或程度相當顯著」。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-05": "「接近某個狀態／標準但尚未完全達到」是「not quite」的用法，與本句語境不同。"
+        "quite-mcq-08": "本句的「quite some influence」指「強調某事物的數量、影響或程度相當顯著」。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-08"
     },
@@ -956,11 +842,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "quite-mcq-09",
-        "quite-mcq-08",
-        "quite-mcq-10",
-        "quite-mcq-07",
-        "quite-mcq-11",
-        "quite-mcq-06"
+        "quite-mcq-12",
+        "quite-mcq-06",
+        "quite-mcq-05"
       ],
       "explanation": "本句的「quite the storyteller」指「強調某人／物非常具有該身分或特質」。",
       "sentenceIndex": 21,
@@ -969,12 +853,10 @@ export default {
         "quite the storyteller"
       ],
       "optionReasons": {
-        "quite-mcq-09": "本句指「強調某人／物非常具有該身分或特質」。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-09": "本句的「quite the storyteller」指「強調某人／物非常具有該身分或特質」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-09"
     },
@@ -986,10 +868,8 @@ export default {
       "masked": "She has become ____ on local history.",
       "options": [
         "quite-mcq-09",
-        "quite-mcq-08",
-        "quite-mcq-10",
-        "quite-mcq-07",
-        "quite-mcq-11",
+        "quite-mcq-05",
+        "quite-mcq-12",
         "quite-mcq-06"
       ],
       "explanation": "本句的「quite the expert」指「強調某人／物非常具有該身分或特質」。",
@@ -999,12 +879,10 @@ export default {
         "quite the expert"
       ],
       "optionReasons": {
-        "quite-mcq-09": "本句指「強調某人／物非常具有該身分或特質」。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-06": "「可數事物的數量相當多，而不是很少」是「quite a few」的用法，與本句語境不同。"
+        "quite-mcq-09": "本句的「quite the expert」指「強調某人／物非常具有該身分或特質」。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-09"
     },
@@ -1016,11 +894,8 @@ export default {
       "masked": "We have ____ to make a decision.",
       "options": [
         "quite-mcq-10",
-        "quite-mcq-09",
-        "quite-mcq-11",
-        "quite-mcq-08",
-        "quite-mcq-12",
-        "quite-mcq-07"
+        "quite-mcq-13",
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite enough information」指「所需數量或程度已完全足夠」。",
       "sentenceIndex": 23,
@@ -1029,12 +904,9 @@ export default {
         "quite enough information"
       ],
       "optionReasons": {
-        "quite-mcq-10": "本句指「所需數量或程度已完全足夠」。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-12": "「即使撇開某一因素不考慮，仍有另一獨立理由／事實」是「quite apart from」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。"
+        "quite-mcq-10": "本句的「quite enough information」指「所需數量或程度已完全足夠」。",
+        "quite-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-10"
     },
@@ -1047,10 +919,7 @@ export default {
       "options": [
         "quite-mcq-10",
         "quite-mcq-09",
-        "quite-mcq-11",
-        "quite-mcq-08",
-        "quite-mcq-12",
-        "quite-mcq-07"
+        "quite-mcq-12"
       ],
       "explanation": "本句的「quite enough」指「所需數量或程度已完全足夠」。",
       "sentenceIndex": 24,
@@ -1059,12 +928,9 @@ export default {
         "quite enough"
       ],
       "optionReasons": {
-        "quite-mcq-10": "本句指「所需數量或程度已完全足夠」。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。",
-        "quite-mcq-12": "「即使撇開某一因素不考慮，仍有另一獨立理由／事實」是「quite apart from」的用法，與本句語境不同。",
-        "quite-mcq-07": "「數量、變化或程度相當大」是「quite a bit / lot」的用法，與本句語境不同。"
+        "quite-mcq-10": "本句的「quite enough」指「所需數量或程度已完全足夠」。",
+        "quite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-10"
     },
@@ -1076,11 +942,8 @@ export default {
       "masked": "So the real problem was the teaching method?” > “____",
       "options": [
         "quite-mcq-11",
-        "quite-mcq-10",
-        "quite-mcq-12",
-        "quite-mcq-09",
-        "quite-mcq-13",
-        "quite-mcq-08"
+        "quite-mcq-07",
+        "quite-mcq-04"
       ],
       "explanation": "本句的「Quite so.」指「強烈確認對方所說的內容完全正確；正是如此」。",
       "sentenceIndex": 25,
@@ -1089,12 +952,9 @@ export default {
         "Quite so."
       ],
       "optionReasons": {
-        "quite-mcq-11": "本句指「強烈確認對方所說的內容完全正確；正是如此」。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-12": "「即使撇開某一因素不考慮，仍有另一獨立理由／事實」是「quite apart from」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-13": "「強調兩者之間存在明顯甚至根本差異」是「quite another / quite different」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。"
+        "quite-mcq-11": "本句的「Quite so.」指「強烈確認對方所說的內容完全正確；正是如此」。",
+        "quite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-11"
     },
@@ -1106,11 +966,8 @@ export default {
       "masked": "You mean students should think, not just memorise?” > “____",
       "options": [
         "quite-mcq-11",
-        "quite-mcq-10",
-        "quite-mcq-12",
-        "quite-mcq-09",
-        "quite-mcq-13",
-        "quite-mcq-08"
+        "quite-mcq-07",
+        "quite-mcq-04"
       ],
       "explanation": "本句的「Quite so.」指「強烈確認對方所說的內容完全正確；正是如此」。",
       "sentenceIndex": 26,
@@ -1119,12 +976,9 @@ export default {
         "Quite so."
       ],
       "optionReasons": {
-        "quite-mcq-11": "本句指「強烈確認對方所說的內容完全正確；正是如此」。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-12": "「即使撇開某一因素不考慮，仍有另一獨立理由／事實」是「quite apart from」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-13": "「強調兩者之間存在明顯甚至根本差異」是「quite another / quite different」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。"
+        "quite-mcq-11": "本句的「Quite so.」指「強烈確認對方所說的內容完全正確；正是如此」。",
+        "quite-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-11"
     },
@@ -1136,11 +990,9 @@ export default {
       "masked": "____ the exam results, the students became more curious.",
       "options": [
         "quite-mcq-12",
-        "quite-mcq-11",
-        "quite-mcq-13",
-        "quite-mcq-10",
-        "quite-mcq-09",
-        "quite-mcq-08"
+        "quite-mcq-05",
+        "quite-mcq-06",
+        "quite-mcq-09"
       ],
       "explanation": "本句的「Quite apart from」指「即使撇開某一因素不考慮，仍有另一獨立理由／事實」。",
       "sentenceIndex": 27,
@@ -1149,12 +1001,10 @@ export default {
         "Quite apart from"
       ],
       "optionReasons": {
-        "quite-mcq-12": "本句指「即使撇開某一因素不考慮，仍有另一獨立理由／事實」。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-13": "「強調兩者之間存在明顯甚至根本差異」是「quite another / quite different」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。"
+        "quite-mcq-12": "本句的「Quite apart from」指「即使撇開某一因素不考慮，仍有另一獨立理由／事實」。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-12"
     },
@@ -1166,11 +1016,9 @@ export default {
       "masked": "____ apart from being knowledgeable, he was also patient.",
       "options": [
         "quite-mcq-12",
-        "quite-mcq-11",
-        "quite-mcq-13",
-        "quite-mcq-10",
         "quite-mcq-09",
-        "quite-mcq-08"
+        "quite-mcq-05",
+        "quite-mcq-07"
       ],
       "explanation": "本句的「Quite」指「即使撇開某一因素不考慮，仍有另一獨立理由／事實」。",
       "sentenceIndex": 28,
@@ -1179,12 +1027,10 @@ export default {
         "Quite"
       ],
       "optionReasons": {
-        "quite-mcq-12": "本句指「即使撇開某一因素不考慮，仍有另一獨立理由／事實」。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-13": "「強調兩者之間存在明顯甚至根本差異」是「quite another / quite different」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。"
+        "quite-mcq-12": "本句的「Quite」指「即使撇開某一因素不考慮，仍有另一獨立理由／事實」。",
+        "quite-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-12"
     },
@@ -1197,10 +1043,8 @@ export default {
       "options": [
         "quite-mcq-13",
         "quite-mcq-12",
-        "quite-mcq-11",
-        "quite-mcq-10",
-        "quite-mcq-09",
-        "quite-mcq-08"
+        "quite-mcq-05",
+        "quite-mcq-07"
       ],
       "explanation": "本句的「quite different things」指「強調兩者之間存在明顯甚至根本差異」。",
       "sentenceIndex": 29,
@@ -1209,12 +1053,10 @@ export default {
         "quite different things"
       ],
       "optionReasons": {
-        "quite-mcq-13": "本句指「強調兩者之間存在明顯甚至根本差異」。",
-        "quite-mcq-12": "「即使撇開某一因素不考慮，仍有另一獨立理由／事實」是「quite apart from」的用法，與本句語境不同。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。"
+        "quite-mcq-13": "本句的「quite different things」指「強調兩者之間存在明顯甚至根本差異」。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-13"
     },
@@ -1226,11 +1068,9 @@ export default {
       "masked": "Teaching well is ____.",
       "options": [
         "quite-mcq-13",
+        "quite-mcq-06",
         "quite-mcq-12",
-        "quite-mcq-11",
-        "quite-mcq-10",
-        "quite-mcq-09",
-        "quite-mcq-08"
+        "quite-mcq-05"
       ],
       "explanation": "本句的「quite another matter」指「強調兩者之間存在明顯甚至根本差異」。",
       "sentenceIndex": 30,
@@ -1239,12 +1079,10 @@ export default {
         "quite another matter"
       ],
       "optionReasons": {
-        "quite-mcq-13": "本句指「強調兩者之間存在明顯甚至根本差異」。",
-        "quite-mcq-12": "「即使撇開某一因素不考慮，仍有另一獨立理由／事實」是「quite apart from」的用法，與本句語境不同。",
-        "quite-mcq-11": "「強烈確認對方所說的內容完全正確；正是如此」是「quite so」的用法，與本句語境不同。",
-        "quite-mcq-10": "「所需數量或程度已完全足夠」是「quite enough」的用法，與本句語境不同。",
-        "quite-mcq-09": "「強調某人／物非常具有該身分或特質」是「quite the + noun」的用法，與本句語境不同。",
-        "quite-mcq-08": "「強調某事物的數量、影響或程度相當顯著」是「quite some + noun」的用法，與本句語境不同。"
+        "quite-mcq-13": "本句的「quite another matter」指「強調兩者之間存在明顯甚至根本差異」。",
+        "quite-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "quite-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "quite-mcq-13"
     }
@@ -1256,5 +1094,7 @@ export default {
     "sha256": "1ed1f9d1de5e3360f7edff416e81a9b559f71dfbaa4199c1228bf4e2f5b788f2",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -355,11 +355,8 @@ export default {
       "masked": "Good communication helps manage ____.",
       "options": [
         "customer-mcq-01",
-        "customer-mcq-02",
-        "customer-mcq-03",
-        "customer-mcq-04",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-12",
+        "customer-mcq-14"
       ],
       "explanation": "本句的「customer expectations」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
       "sentenceIndex": 0,
@@ -368,12 +365,9 @@ export default {
         "customer expectations"
       ],
       "optionReasons": {
-        "customer-mcq-01": "本句指「向企業購買商品或服務的人／機構；顧客／客戶」。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-01": "本句的「customer expectations」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-01"
     },
@@ -385,11 +379,8 @@ export default {
       "masked": "Small businesses need to understand what their ____ want.",
       "options": [
         "customer-mcq-01",
-        "customer-mcq-02",
-        "customer-mcq-03",
-        "customer-mcq-04",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-14",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「customers」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
       "sentenceIndex": 1,
@@ -398,12 +389,9 @@ export default {
         "customers"
       ],
       "optionReasons": {
-        "customer-mcq-01": "本句指「向企業購買商品或服務的人／機構；顧客／客戶」。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-01": "本句的「customers」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-01"
     },
@@ -415,11 +403,8 @@ export default {
       "masked": "The shop has many regular ____.",
       "options": [
         "customer-mcq-01",
-        "customer-mcq-02",
-        "customer-mcq-03",
-        "customer-mcq-04",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-14",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「customers」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
       "sentenceIndex": 2,
@@ -428,12 +413,9 @@ export default {
         "customers"
       ],
       "optionReasons": {
-        "customer-mcq-01": "本句指「向企業購買商品或服務的人／機構；顧客／客戶」。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-01": "本句的「customers」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-01"
     },
@@ -445,11 +427,8 @@ export default {
       "masked": "We always try to help the ____ quickly.",
       "options": [
         "customer-mcq-01",
-        "customer-mcq-02",
-        "customer-mcq-03",
-        "customer-mcq-04",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-12",
+        "customer-mcq-14"
       ],
       "explanation": "本句的「customer」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
       "sentenceIndex": 3,
@@ -458,12 +437,9 @@ export default {
         "customer"
       ],
       "optionReasons": {
-        "customer-mcq-01": "本句指「向企業購買商品或服務的人／機構；顧客／客戶」。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-01": "本句的「customer」指「向企業購買商品或服務的人／機構；顧客／客戶」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-01"
     },
@@ -475,11 +451,9 @@ export default {
       "masked": "The service is available only to ____.",
       "options": [
         "customer-mcq-02",
-        "customer-mcq-01",
-        "customer-mcq-03",
-        "customer-mcq-04",
+        "customer-mcq-12",
         "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-14"
       ],
       "explanation": "本句的「paying customers」指「實際付費購買商品／服務的顧客」。",
       "sentenceIndex": 4,
@@ -488,12 +462,10 @@ export default {
         "paying customers"
       ],
       "optionReasons": {
-        "customer-mcq-02": "本句指「實際付費購買商品／服務的顧客」。",
-        "customer-mcq-01": "「向企業購買商品或服務的人／機構；顧客／客戶」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-02": "本句的「paying customers」指「實際付費購買商品／服務的顧客」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-02"
     },
@@ -505,11 +477,9 @@ export default {
       "masked": "The business needs enough ____ to survive.",
       "options": [
         "customer-mcq-02",
-        "customer-mcq-01",
-        "customer-mcq-03",
-        "customer-mcq-04",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-12",
+        "customer-mcq-15",
+        "customer-mcq-14"
       ],
       "explanation": "本句的「paying customers」指「實際付費購買商品／服務的顧客」。",
       "sentenceIndex": 5,
@@ -518,12 +488,10 @@ export default {
         "paying customers"
       ],
       "optionReasons": {
-        "customer-mcq-02": "本句指「實際付費購買商品／服務的顧客」。",
-        "customer-mcq-01": "「向企業購買商品或服務的人／機構；顧客／客戶」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-02": "本句的「paying customers」指「實際付費購買商品／服務的顧客」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-02"
     },
@@ -535,11 +503,9 @@ export default {
       "masked": "She became a ____.",
       "options": [
         "customer-mcq-03",
-        "customer-mcq-02",
-        "customer-mcq-04",
-        "customer-mcq-01",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-13",
+        "customer-mcq-12",
+        "customer-mcq-09"
       ],
       "explanation": "本句的「regular customer」指「經常光顧同一商戶的熟客／常客」。",
       "sentenceIndex": 6,
@@ -548,12 +514,10 @@ export default {
         "regular customer"
       ],
       "optionReasons": {
-        "customer-mcq-03": "本句指「經常光顧同一商戶的熟客／常客」。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-01": "「向企業購買商品或服務的人／機構；顧客／客戶」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-03": "本句的「regular customer」指「經常光顧同一商戶的熟客／常客」。",
+        "customer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-03"
     },
@@ -565,11 +529,9 @@ export default {
       "masked": "The bakery gives small discounts to ____.",
       "options": [
         "customer-mcq-03",
-        "customer-mcq-02",
-        "customer-mcq-04",
-        "customer-mcq-01",
-        "customer-mcq-05",
-        "customer-mcq-06"
+        "customer-mcq-13",
+        "customer-mcq-12",
+        "customer-mcq-10"
       ],
       "explanation": "本句的「regular customers」指「經常光顧同一商戶的熟客／常客」。",
       "sentenceIndex": 7,
@@ -578,12 +540,10 @@ export default {
         "regular customers"
       ],
       "optionReasons": {
-        "customer-mcq-03": "本句指「經常光顧同一商戶的熟客／常客」。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-01": "「向企業購買商品或服務的人／機構；顧客／客戶」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-03": "本句的「regular customers」指「經常光顧同一商戶的熟客／常客」。",
+        "customer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-03"
     },
@@ -595,11 +555,9 @@ export default {
       "masked": "Good service creates ____.",
       "options": [
         "customer-mcq-04",
-        "customer-mcq-03",
-        "customer-mcq-05",
-        "customer-mcq-02",
-        "customer-mcq-06",
-        "customer-mcq-01"
+        "customer-mcq-12",
+        "customer-mcq-14",
+        "customer-mcq-15"
       ],
       "explanation": "本句的「repeat customers」指「曾購買後再次光顧的回頭客」。",
       "sentenceIndex": 8,
@@ -608,12 +566,10 @@ export default {
         "repeat customers"
       ],
       "optionReasons": {
-        "customer-mcq-04": "本句指「曾購買後再次光顧的回頭客」。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-01": "「向企業購買商品或服務的人／機構；顧客／客戶」與本句語境不同。"
+        "customer-mcq-04": "本句的「repeat customers」指「曾購買後再次光顧的回頭客」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-04"
     },
@@ -625,11 +581,9 @@ export default {
       "masked": "Most of our sales come from ____.",
       "options": [
         "customer-mcq-04",
-        "customer-mcq-03",
-        "customer-mcq-05",
-        "customer-mcq-02",
-        "customer-mcq-06",
-        "customer-mcq-01"
+        "customer-mcq-13",
+        "customer-mcq-12",
+        "customer-mcq-05"
       ],
       "explanation": "本句的「repeat customers」指「曾購買後再次光顧的回頭客」。",
       "sentenceIndex": 9,
@@ -638,12 +592,10 @@ export default {
         "repeat customers"
       ],
       "optionReasons": {
-        "customer-mcq-04": "本句指「曾購買後再次光顧的回頭客」。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-01": "「向企業購買商品或服務的人／機構；顧客／客戶」與本句語境不同。"
+        "customer-mcq-04": "本句的「repeat customers」指「曾購買後再次光顧的回頭客」。",
+        "customer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-04"
     },
@@ -655,11 +607,9 @@ export default {
       "masked": "The company has a loyal ____.",
       "options": [
         "customer-mcq-05",
-        "customer-mcq-04",
-        "customer-mcq-06",
-        "customer-mcq-03",
-        "customer-mcq-07",
-        "customer-mcq-02"
+        "customer-mcq-12",
+        "customer-mcq-14",
+        "customer-mcq-09"
       ],
       "explanation": "本句的「customer base」指「某企業現有或穩定的整體客戶群」。",
       "sentenceIndex": 10,
@@ -668,12 +618,10 @@ export default {
         "customer base"
       ],
       "optionReasons": {
-        "customer-mcq-05": "本句指「某企業現有或穩定的整體客戶群」。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。"
+        "customer-mcq-05": "本句的「customer base」指「某企業現有或穩定的整體客戶群」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-05"
     },
@@ -685,11 +633,9 @@ export default {
       "masked": "Social media helped the bakery expand its ____.",
       "options": [
         "customer-mcq-05",
-        "customer-mcq-04",
-        "customer-mcq-06",
-        "customer-mcq-03",
-        "customer-mcq-07",
-        "customer-mcq-02"
+        "customer-mcq-13",
+        "customer-mcq-12",
+        "customer-mcq-04"
       ],
       "explanation": "本句的「customer base」指「某企業現有或穩定的整體客戶群」。",
       "sentenceIndex": 11,
@@ -698,12 +644,10 @@ export default {
         "customer base"
       ],
       "optionReasons": {
-        "customer-mcq-05": "本句指「某企業現有或穩定的整體客戶群」。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-02": "「實際付費購買商品／服務的顧客」與本句語境不同。"
+        "customer-mcq-05": "本句的「customer base」指「某企業現有或穩定的整體客戶群」。",
+        "customer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-05"
     },
@@ -715,11 +659,9 @@ export default {
       "masked": "Good ____ is essential for a small business.",
       "options": [
         "customer-mcq-06",
-        "customer-mcq-05",
-        "customer-mcq-07",
-        "customer-mcq-04",
-        "customer-mcq-08",
-        "customer-mcq-03"
+        "customer-mcq-12",
+        "customer-mcq-14",
+        "customer-mcq-15"
       ],
       "explanation": "本句的「customer service」指「企業在購買前後為顧客提供的服務與協助」。",
       "sentenceIndex": 12,
@@ -728,12 +670,10 @@ export default {
         "customer service"
       ],
       "optionReasons": {
-        "customer-mcq-06": "本句指「企業在購買前後為顧客提供的服務與協助」。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。"
+        "customer-mcq-06": "本句的「customer service」指「企業在購買前後為顧客提供的服務與協助」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-06"
     },
@@ -745,11 +685,9 @@ export default {
       "masked": "She works in ____.",
       "options": [
         "customer-mcq-06",
-        "customer-mcq-05",
-        "customer-mcq-07",
-        "customer-mcq-04",
-        "customer-mcq-08",
-        "customer-mcq-03"
+        "customer-mcq-12",
+        "customer-mcq-14",
+        "customer-mcq-15"
       ],
       "explanation": "本句的「customer service」指「企業在購買前後為顧客提供的服務與協助」。",
       "sentenceIndex": 13,
@@ -758,12 +696,10 @@ export default {
         "customer service"
       ],
       "optionReasons": {
-        "customer-mcq-06": "本句指「企業在購買前後為顧客提供的服務與協助」。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-03": "「經常光顧同一商戶的熟客／常客」與本句語境不同。"
+        "customer-mcq-06": "本句的「customer service」指「企業在購買前後為顧客提供的服務與協助」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-06"
     },
@@ -775,10 +711,8 @@ export default {
       "masked": "Contact ____ if your order is missing.",
       "options": [
         "customer-mcq-07",
-        "customer-mcq-06",
-        "customer-mcq-08",
-        "customer-mcq-05",
-        "customer-mcq-09",
+        "customer-mcq-14",
+        "customer-mcq-12",
         "customer-mcq-04"
       ],
       "explanation": "本句的「customer support」指「幫助顧客解決問題或疑問的客戶支援」。",
@@ -788,12 +722,10 @@ export default {
         "customer support"
       ],
       "optionReasons": {
-        "customer-mcq-07": "本句指「幫助顧客解決問題或疑問的客戶支援」。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。"
+        "customer-mcq-07": "本句的「customer support」指「幫助顧客解決問題或疑問的客戶支援」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-07"
     },
@@ -805,10 +737,8 @@ export default {
       "masked": "The company offers 24-hour ____.",
       "options": [
         "customer-mcq-07",
-        "customer-mcq-06",
-        "customer-mcq-08",
-        "customer-mcq-05",
-        "customer-mcq-09",
+        "customer-mcq-13",
+        "customer-mcq-12",
         "customer-mcq-04"
       ],
       "explanation": "本句的「customer support」指「幫助顧客解決問題或疑問的客戶支援」。",
@@ -818,12 +748,10 @@ export default {
         "customer support"
       ],
       "optionReasons": {
-        "customer-mcq-07": "本句指「幫助顧客解決問題或疑問的客戶支援」。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-04": "「曾購買後再次光顧的回頭客」與本句語境不同。"
+        "customer-mcq-07": "本句的「customer support」指「幫助顧客解決問題或疑問的客戶支援」。",
+        "customer-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-07"
     },
@@ -835,11 +763,9 @@ export default {
       "masked": "Fast delivery improves the ____.",
       "options": [
         "customer-mcq-08",
-        "customer-mcq-07",
-        "customer-mcq-09",
-        "customer-mcq-06",
-        "customer-mcq-10",
-        "customer-mcq-05"
+        "customer-mcq-14",
+        "customer-mcq-12",
+        "customer-mcq-04"
       ],
       "explanation": "本句的「customer experience」指「顧客與企業互動整個過程中的整體體驗」。",
       "sentenceIndex": 16,
@@ -848,12 +774,10 @@ export default {
         "customer experience"
       ],
       "optionReasons": {
-        "customer-mcq-08": "本句指「顧客與企業互動整個過程中的整體體驗」。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。"
+        "customer-mcq-08": "本句的「customer experience」指「顧客與企業互動整個過程中的整體體驗」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-08"
     },
@@ -865,11 +789,9 @@ export default {
       "masked": "Packaging is part of the overall ____.",
       "options": [
         "customer-mcq-08",
-        "customer-mcq-07",
-        "customer-mcq-09",
-        "customer-mcq-06",
-        "customer-mcq-10",
-        "customer-mcq-05"
+        "customer-mcq-14",
+        "customer-mcq-12",
+        "customer-mcq-03"
       ],
       "explanation": "本句的「customer experience」指「顧客與企業互動整個過程中的整體體驗」。",
       "sentenceIndex": 17,
@@ -878,12 +800,10 @@ export default {
         "customer experience"
       ],
       "optionReasons": {
-        "customer-mcq-08": "本句指「顧客與企業互動整個過程中的整體體驗」。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-05": "「某企業現有或穩定的整體客戶群」與本句語境不同。"
+        "customer-mcq-08": "本句的「customer experience」指「顧客與企業互動整個過程中的整體體驗」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-08"
     },
@@ -895,11 +815,9 @@ export default {
       "masked": "Businesses need to manage ____.",
       "options": [
         "customer-mcq-09",
-        "customer-mcq-08",
-        "customer-mcq-10",
-        "customer-mcq-07",
-        "customer-mcq-11",
-        "customer-mcq-06"
+        "customer-mcq-12",
+        "customer-mcq-05",
+        "customer-mcq-14"
       ],
       "explanation": "本句的「customer expectations」指「顧客對產品、服務、交付等預期的標準」。",
       "sentenceIndex": 18,
@@ -908,12 +826,10 @@ export default {
         "customer expectations"
       ],
       "optionReasons": {
-        "customer-mcq-09": "本句指「顧客對產品、服務、交付等預期的標準」。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-09": "本句的「customer expectations」指「顧客對產品、服務、交付等預期的標準」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-09"
     },
@@ -925,11 +841,9 @@ export default {
       "masked": "Clear delivery times help set realistic ____.",
       "options": [
         "customer-mcq-09",
-        "customer-mcq-08",
-        "customer-mcq-10",
-        "customer-mcq-07",
-        "customer-mcq-11",
-        "customer-mcq-06"
+        "customer-mcq-12",
+        "customer-mcq-05",
+        "customer-mcq-14"
       ],
       "explanation": "本句的「customer expectations」指「顧客對產品、服務、交付等預期的標準」。",
       "sentenceIndex": 19,
@@ -938,12 +852,10 @@ export default {
         "customer expectations"
       ],
       "optionReasons": {
-        "customer-mcq-09": "本句指「顧客對產品、服務、交付等預期的標準」。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-06": "「企業在購買前後為顧客提供的服務與協助」與本句語境不同。"
+        "customer-mcq-09": "本句的「customer expectations」指「顧客對產品、服務、交付等預期的標準」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-09"
     },
@@ -955,11 +867,9 @@ export default {
       "masked": "The company measures ____ regularly.",
       "options": [
         "customer-mcq-10",
-        "customer-mcq-09",
-        "customer-mcq-11",
-        "customer-mcq-08",
-        "customer-mcq-12",
-        "customer-mcq-07"
+        "customer-mcq-14",
+        "customer-mcq-05",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「customer satisfaction」指「顧客對產品／服務感到滿意的程度」。",
       "sentenceIndex": 20,
@@ -968,12 +878,10 @@ export default {
         "customer satisfaction"
       ],
       "optionReasons": {
-        "customer-mcq-10": "本句指「顧客對產品／服務感到滿意的程度」。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。"
+        "customer-mcq-10": "本句的「customer satisfaction」指「顧客對產品／服務感到滿意的程度」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-10"
     },
@@ -985,11 +893,9 @@ export default {
       "masked": "Product quality affects ____.",
       "options": [
         "customer-mcq-10",
-        "customer-mcq-09",
-        "customer-mcq-11",
-        "customer-mcq-08",
-        "customer-mcq-12",
-        "customer-mcq-07"
+        "customer-mcq-14",
+        "customer-mcq-05",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「customer satisfaction」指「顧客對產品／服務感到滿意的程度」。",
       "sentenceIndex": 21,
@@ -998,12 +904,10 @@ export default {
         "customer satisfaction"
       ],
       "optionReasons": {
-        "customer-mcq-10": "本句指「顧客對產品／服務感到滿意的程度」。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-07": "「幫助顧客解決問題或疑問的客戶支援」與本句語境不同。"
+        "customer-mcq-10": "本句的「customer satisfaction」指「顧客對產品／服務感到滿意的程度」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-10"
     },
@@ -1015,11 +919,8 @@ export default {
       "masked": "The software company serves large corporate ____.",
       "options": [
         "customer-mcq-11",
-        "customer-mcq-10",
-        "customer-mcq-12",
-        "customer-mcq-09",
-        "customer-mcq-13",
-        "customer-mcq-08"
+        "customer-mcq-14",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「customers」指「向另一企業購買商品／服務的企業或機構客戶」。",
       "sentenceIndex": 22,
@@ -1028,12 +929,9 @@ export default {
         "customers"
       ],
       "optionReasons": {
-        "customer-mcq-11": "本句指「向另一企業購買商品／服務的企業或機構客戶」。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。"
+        "customer-mcq-11": "本句的「customers」指「向另一企業購買商品／服務的企業或機構客戶」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-11"
     },
@@ -1045,11 +943,8 @@ export default {
       "masked": "The supplier lost one of its biggest ____.",
       "options": [
         "customer-mcq-11",
-        "customer-mcq-10",
         "customer-mcq-12",
-        "customer-mcq-09",
-        "customer-mcq-13",
-        "customer-mcq-08"
+        "customer-mcq-14"
       ],
       "explanation": "本句的「customers」指「向另一企業購買商品／服務的企業或機構客戶」。",
       "sentenceIndex": 23,
@@ -1058,12 +953,9 @@ export default {
         "customers"
       ],
       "optionReasons": {
-        "customer-mcq-11": "本句指「向另一企業購買商品／服務的企業或機構客戶」。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-08": "「顧客與企業互動整個過程中的整體體驗」與本句語境不同。"
+        "customer-mcq-11": "本句的「customers」指「向另一企業購買商品／服務的企業或機構客戶」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-11"
     },
@@ -1075,11 +967,8 @@ export default {
       "masked": "He can be a difficult ____.",
       "options": [
         "customer-mcq-12",
-        "customer-mcq-11",
-        "customer-mcq-13",
-        "customer-mcq-10",
-        "customer-mcq-14",
-        "customer-mcq-09"
+        "customer-mcq-01",
+        "customer-mcq-13"
       ],
       "explanation": "本句的「customer」指「非正式：某種性格／難度的人或角色」。",
       "sentenceIndex": 24,
@@ -1088,12 +977,9 @@ export default {
         "customer"
       ],
       "optionReasons": {
-        "customer-mcq-12": "本句指「非正式：某種性格／難度的人或角色」。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-14": "「較棘手、難應付的人」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。"
+        "customer-mcq-12": "本句的「customer」指「非正式：某種性格／難度的人或角色」。",
+        "customer-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-12"
     },
@@ -1105,11 +991,9 @@ export default {
       "masked": "She is one tough ____.",
       "options": [
         "customer-mcq-12",
-        "customer-mcq-11",
-        "customer-mcq-13",
-        "customer-mcq-10",
-        "customer-mcq-14",
-        "customer-mcq-09"
+        "customer-mcq-15",
+        "customer-mcq-09",
+        "customer-mcq-03"
       ],
       "explanation": "本句的「customer」指「非正式：某種性格／難度的人或角色」。",
       "sentenceIndex": 25,
@@ -1118,12 +1002,10 @@ export default {
         "customer"
       ],
       "optionReasons": {
-        "customer-mcq-12": "本句指「非正式：某種性格／難度的人或角色」。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。",
-        "customer-mcq-14": "「較棘手、難應付的人」與本句語境不同。",
-        "customer-mcq-09": "「顧客對產品、服務、交付等預期的標準」與本句語境不同。"
+        "customer-mcq-12": "本句的「customer」指「非正式：某種性格／難度的人或角色」。",
+        "customer-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-12"
     },
@@ -1136,10 +1018,8 @@ export default {
       "options": [
         "customer-mcq-13",
         "customer-mcq-12",
-        "customer-mcq-14",
-        "customer-mcq-11",
-        "customer-mcq-15",
-        "customer-mcq-10"
+        "customer-mcq-03",
+        "customer-mcq-05"
       ],
       "explanation": "本句的「tough customer」指「強悍、不容易說服、擊敗或應付的人」。",
       "sentenceIndex": 26,
@@ -1148,12 +1028,10 @@ export default {
         "tough customer"
       ],
       "optionReasons": {
-        "customer-mcq-13": "本句指「強悍、不容易說服、擊敗或應付的人」。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-14": "「較棘手、難應付的人」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-15": "「工作內容需要直接與客戶互動的」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。"
+        "customer-mcq-13": "本句的「tough customer」指「強悍、不容易說服、擊敗或應付的人」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-13"
     },
@@ -1165,11 +1043,9 @@ export default {
       "masked": "Don’t underestimate her—she’s a ____.",
       "options": [
         "customer-mcq-13",
-        "customer-mcq-12",
-        "customer-mcq-14",
-        "customer-mcq-11",
-        "customer-mcq-15",
-        "customer-mcq-10"
+        "customer-mcq-07",
+        "customer-mcq-04",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「tough customer」指「強悍、不容易說服、擊敗或應付的人」。",
       "sentenceIndex": 27,
@@ -1178,12 +1054,10 @@ export default {
         "tough customer"
       ],
       "optionReasons": {
-        "customer-mcq-13": "本句指「強悍、不容易說服、擊敗或應付的人」。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-14": "「較棘手、難應付的人」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-15": "「工作內容需要直接與客戶互動的」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。"
+        "customer-mcq-13": "本句的「tough customer」指「強悍、不容易說服、擊敗或應付的人」。",
+        "customer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-13"
     },
@@ -1195,11 +1069,9 @@ export default {
       "masked": "He can be an ____ when he is angry.",
       "options": [
         "customer-mcq-14",
-        "customer-mcq-13",
-        "customer-mcq-15",
-        "customer-mcq-12",
-        "customer-mcq-11",
-        "customer-mcq-10"
+        "customer-mcq-07",
+        "customer-mcq-04",
+        "customer-mcq-12"
       ],
       "explanation": "本句的「awkward customer」指「較棘手、難應付的人」。",
       "sentenceIndex": 28,
@@ -1208,12 +1080,10 @@ export default {
         "awkward customer"
       ],
       "optionReasons": {
-        "customer-mcq-14": "本句指「較棘手、難應付的人」。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-15": "「工作內容需要直接與客戶互動的」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。"
+        "customer-mcq-14": "本句的「awkward customer」指「較棘手、難應付的人」。",
+        "customer-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-14"
     },
@@ -1225,11 +1095,8 @@ export default {
       "masked": "That opponent is an ____.",
       "options": [
         "customer-mcq-14",
-        "customer-mcq-13",
-        "customer-mcq-15",
-        "customer-mcq-12",
         "customer-mcq-11",
-        "customer-mcq-10"
+        "customer-mcq-12"
       ],
       "explanation": "本句的「awkward customer」指「較棘手、難應付的人」。",
       "sentenceIndex": 29,
@@ -1238,12 +1105,9 @@ export default {
         "awkward customer"
       ],
       "optionReasons": {
-        "customer-mcq-14": "本句指「較棘手、難應付的人」。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-15": "「工作內容需要直接與客戶互動的」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。"
+        "customer-mcq-14": "本句的「awkward customer」指「較棘手、難應付的人」。",
+        "customer-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-14"
     },
@@ -1256,10 +1120,8 @@ export default {
       "options": [
         "customer-mcq-15",
         "customer-mcq-14",
-        "customer-mcq-13",
         "customer-mcq-12",
-        "customer-mcq-11",
-        "customer-mcq-10"
+        "customer-mcq-02"
       ],
       "explanation": "本句的「customer-facing role」指「工作內容需要直接與客戶互動的」。",
       "sentenceIndex": 32,
@@ -1268,12 +1130,10 @@ export default {
         "customer-facing role"
       ],
       "optionReasons": {
-        "customer-mcq-15": "本句指「工作內容需要直接與客戶互動的」。",
-        "customer-mcq-14": "「較棘手、難應付的人」與本句語境不同。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。"
+        "customer-mcq-15": "本句的「customer-facing role」指「工作內容需要直接與客戶互動的」。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-15"
     },
@@ -1285,11 +1145,9 @@ export default {
       "masked": "Staff in ____ need strong communication skills.",
       "options": [
         "customer-mcq-15",
-        "customer-mcq-14",
-        "customer-mcq-13",
         "customer-mcq-12",
-        "customer-mcq-11",
-        "customer-mcq-10"
+        "customer-mcq-14",
+        "customer-mcq-02"
       ],
       "explanation": "本句的「customer-facing positions」指「工作內容需要直接與客戶互動的」。",
       "sentenceIndex": 33,
@@ -1298,12 +1156,10 @@ export default {
         "customer-facing positions"
       ],
       "optionReasons": {
-        "customer-mcq-15": "本句指「工作內容需要直接與客戶互動的」。",
-        "customer-mcq-14": "「較棘手、難應付的人」與本句語境不同。",
-        "customer-mcq-13": "「強悍、不容易說服、擊敗或應付的人」與本句語境不同。",
-        "customer-mcq-12": "「非正式：某種性格／難度的人或角色」與本句語境不同。",
-        "customer-mcq-11": "「向另一企業購買商品／服務的企業或機構客戶」與本句語境不同。",
-        "customer-mcq-10": "「顧客對產品／服務感到滿意的程度」與本句語境不同。"
+        "customer-mcq-15": "本句的「customer-facing positions」指「工作內容需要直接與客戶互動的」。",
+        "customer-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "customer-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "customer-mcq-15"
     }
@@ -1315,5 +1171,7 @@ export default {
     "sha256": "933018072b53819ebafe195fcbfe08477c4b8c016c85d0440527d10403e89287",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

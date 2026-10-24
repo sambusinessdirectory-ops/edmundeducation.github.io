@@ -440,7 +440,7 @@ export default {
     },
     {
       "id": "first-mcq-20",
-      "title": "表示當初／原本的情況",
+      "title": "當初／原本的情況",
       "form": "in the first place — originally",
       "en": "in the first place — originally",
       "zh": "表示當初／原本的情況",
@@ -569,11 +569,9 @@ export default {
       "masked": "She listens ____ and then gives advice.",
       "options": [
         "first-mcq-01",
-        "first-mcq-02",
-        "first-mcq-03",
-        "first-mcq-04",
+        "first-mcq-08",
         "first-mcq-05",
-        "first-mcq-06"
+        "first-mcq-17"
       ],
       "explanation": "本句的「first」指「在一連串行動中最先進行，之後才做其他事情」。",
       "sentenceIndex": 0,
@@ -582,12 +580,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-01": "本句指「在一連串行動中最先進行，之後才做其他事情」。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-01": "本句的「first」指「在一連串行動中最先進行，之後才做其他事情」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-01"
     },
@@ -599,11 +595,9 @@ export default {
       "masked": "Think ____ before you answer.",
       "options": [
         "first-mcq-01",
-        "first-mcq-02",
-        "first-mcq-03",
-        "first-mcq-04",
+        "first-mcq-15",
         "first-mcq-05",
-        "first-mcq-06"
+        "first-mcq-08"
       ],
       "explanation": "本句的「first」指「在一連串行動中最先進行，之後才做其他事情」。",
       "sentenceIndex": 1,
@@ -612,12 +606,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-01": "本句指「在一連串行動中最先進行，之後才做其他事情」。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-01": "本句的「first」指「在一連串行動中最先進行，之後才做其他事情」。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-01"
     },
@@ -629,11 +621,9 @@ export default {
       "masked": "Wash your hands ____.",
       "options": [
         "first-mcq-01",
-        "first-mcq-02",
-        "first-mcq-03",
-        "first-mcq-04",
-        "first-mcq-05",
-        "first-mcq-06"
+        "first-mcq-21",
+        "first-mcq-17",
+        "first-mcq-05"
       ],
       "explanation": "本句的「first」指「在一連串行動中最先進行，之後才做其他事情」。",
       "sentenceIndex": 2,
@@ -642,12 +632,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-01": "本句指「在一連串行動中最先進行，之後才做其他事情」。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-01": "本句的「first」指「在一連串行動中最先進行，之後才做其他事情」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-01"
     },
@@ -659,11 +647,9 @@ export default {
       "masked": "She was the ____ to arrive.",
       "options": [
         "first-mcq-02",
-        "first-mcq-01",
-        "first-mcq-03",
-        "first-mcq-04",
-        "first-mcq-05",
-        "first-mcq-06"
+        "first-mcq-07",
+        "first-mcq-17",
+        "first-mcq-15"
       ],
       "explanation": "本句的「first person」指「在順序、時間或排列中位於最前面的」。",
       "sentenceIndex": 3,
@@ -672,12 +658,10 @@ export default {
         "first person"
       ],
       "optionReasons": {
-        "first-mcq-02": "本句指「在順序、時間或排列中位於最前面的」。",
-        "first-mcq-01": "「在一連串行動中最先進行，之後才做其他事情」是「first — sequence adverb」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-02": "本句的「first person」指「在順序、時間或排列中位於最前面的」。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-02"
     },
@@ -689,11 +673,9 @@ export default {
       "masked": "The ____ was easy.",
       "options": [
         "first-mcq-02",
-        "first-mcq-01",
-        "first-mcq-03",
-        "first-mcq-04",
-        "first-mcq-05",
-        "first-mcq-06"
+        "first-mcq-17",
+        "first-mcq-07",
+        "first-mcq-15"
       ],
       "explanation": "本句的「first question」指「在順序、時間或排列中位於最前面的」。",
       "sentenceIndex": 4,
@@ -702,12 +684,10 @@ export default {
         "first question"
       ],
       "optionReasons": {
-        "first-mcq-02": "本句指「在順序、時間或排列中位於最前面的」。",
-        "first-mcq-01": "「在一連串行動中最先進行，之後才做其他事情」是「first — sequence adverb」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-02": "本句的「first question」指「在順序、時間或排列中位於最前面的」。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-02"
     },
@@ -719,10 +699,8 @@ export default {
       "masked": "She was the ____ to speak.",
       "options": [
         "first-mcq-03",
-        "first-mcq-02",
-        "first-mcq-04",
-        "first-mcq-01",
-        "first-mcq-05",
+        "first-mcq-07",
+        "first-mcq-17",
         "first-mcq-06"
       ],
       "explanation": "本句的「first」指「某組人、事物或事件中排最前的一個」。",
@@ -732,12 +710,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-03": "本句指「某組人、事物或事件中排最前的一個」。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-01": "「在一連串行動中最先進行，之後才做其他事情」是「first — sequence adverb」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-03": "本句的「first」指「某組人、事物或事件中排最前的一個」。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-03"
     },
@@ -749,10 +725,8 @@ export default {
       "masked": "This was the ____ of three meetings.",
       "options": [
         "first-mcq-03",
-        "first-mcq-02",
-        "first-mcq-04",
-        "first-mcq-01",
-        "first-mcq-05",
+        "first-mcq-15",
+        "first-mcq-21",
         "first-mcq-06"
       ],
       "explanation": "本句的「first」指「某組人、事物或事件中排最前的一個」。",
@@ -762,12 +736,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-03": "本句指「某組人、事物或事件中排最前的一個」。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-01": "「在一連串行動中最先進行，之後才做其他事情」是「first — sequence adverb」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-03": "本句的「first」指「某組人、事物或事件中排最前的一個」。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-03"
     },
@@ -779,11 +751,9 @@ export default {
       "masked": "I still remember my ____ at school.",
       "options": [
         "first-mcq-04",
-        "first-mcq-03",
-        "first-mcq-05",
-        "first-mcq-02",
-        "first-mcq-06",
-        "first-mcq-01"
+        "first-mcq-21",
+        "first-mcq-15",
+        "first-mcq-14"
       ],
       "explanation": "本句的「first day」指「某件事情最早發生的一次或階段」。",
       "sentenceIndex": 7,
@@ -792,12 +762,10 @@ export default {
         "first day"
       ],
       "optionReasons": {
-        "first-mcq-04": "本句指「某件事情最早發生的一次或階段」。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-01": "「在一連串行動中最先進行，之後才做其他事情」是「first — sequence adverb」的用法，與本句語境不同。"
+        "first-mcq-04": "本句的「first day」指「某件事情最早發生的一次或階段」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-04"
     },
@@ -809,11 +777,9 @@ export default {
       "masked": "That was my ____ to the city.",
       "options": [
         "first-mcq-04",
-        "first-mcq-03",
-        "first-mcq-05",
-        "first-mcq-02",
-        "first-mcq-06",
-        "first-mcq-01"
+        "first-mcq-17",
+        "first-mcq-15",
+        "first-mcq-21"
       ],
       "explanation": "本句的「first visit」指「某件事情最早發生的一次或階段」。",
       "sentenceIndex": 8,
@@ -822,12 +788,10 @@ export default {
         "first visit"
       ],
       "optionReasons": {
-        "first-mcq-04": "本句指「某件事情最早發生的一次或階段」。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-01": "「在一連串行動中最先進行，之後才做其他事情」是「first — sequence adverb」的用法，與本句語境不同。"
+        "first-mcq-04": "本句的「first visit」指「某件事情最早發生的一次或階段」。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-04"
     },
@@ -839,11 +803,9 @@ export default {
       "masked": "I met her ____ when I was young.",
       "options": [
         "first-mcq-05",
-        "first-mcq-04",
-        "first-mcq-06",
-        "first-mcq-03",
-        "first-mcq-07",
-        "first-mcq-02"
+        "first-pdf-001",
+        "first-mcq-18",
+        "first-mcq-09"
       ],
       "explanation": "本句的「for the first time」指「某件事以前從未發生，這次是首次」。",
       "sentenceIndex": 9,
@@ -852,12 +814,10 @@ export default {
         "for the first time"
       ],
       "optionReasons": {
-        "first-mcq-05": "本句指「某件事以前從未發生，這次是首次」。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。"
+        "first-mcq-05": "本句的「for the first time」指「某件事以前從未發生，這次是首次」。",
+        "first-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-05"
     },
@@ -869,11 +829,9 @@ export default {
       "masked": "She travelled alone ____.",
       "options": [
         "first-mcq-05",
-        "first-mcq-04",
-        "first-mcq-06",
-        "first-mcq-03",
-        "first-mcq-07",
-        "first-mcq-02"
+        "first-mcq-09",
+        "first-mcq-13",
+        "first-mcq-17"
       ],
       "explanation": "本句的「for the first time」指「某件事以前從未發生，這次是首次」。",
       "sentenceIndex": 10,
@@ -882,12 +840,10 @@ export default {
         "for the first time"
       ],
       "optionReasons": {
-        "first-mcq-05": "本句指「某件事以前從未發生，這次是首次」。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-02": "「在順序、時間或排列中位於最前面的」是「first + noun」的用法，與本句語境不同。"
+        "first-mcq-05": "本句的「for the first time」指「某件事以前從未發生，這次是首次」。",
+        "first-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-05"
     },
@@ -899,10 +855,8 @@ export default {
       "masked": "____, she seemed quiet.",
       "options": [
         "first-mcq-06",
-        "first-mcq-05",
-        "first-mcq-07",
-        "first-mcq-04",
         "first-mcq-08",
+        "first-mcq-18",
         "first-mcq-03"
       ],
       "explanation": "本句的「At first」指「在事情開始的階段；通常暗示後來有所變化」。",
@@ -912,12 +866,10 @@ export default {
         "At first"
       ],
       "optionReasons": {
-        "first-mcq-06": "本句指「在事情開始的階段；通常暗示後來有所變化」。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。"
+        "first-mcq-06": "本句的「At first」指「在事情開始的階段；通常暗示後來有所變化」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-06"
     },
@@ -929,10 +881,8 @@ export default {
       "masked": "I didn’t understand it ____.",
       "options": [
         "first-mcq-06",
-        "first-mcq-05",
-        "first-mcq-07",
-        "first-mcq-04",
-        "first-mcq-08",
+        "first-mcq-21",
+        "first-mcq-22",
         "first-mcq-03"
       ],
       "explanation": "本句的「at first」指「在事情開始的階段；通常暗示後來有所變化」。",
@@ -942,12 +892,10 @@ export default {
         "at first"
       ],
       "optionReasons": {
-        "first-mcq-06": "本句指「在事情開始的階段；通常暗示後來有所變化」。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-03": "「某組人、事物或事件中排最前的一個」是「the first」的用法，與本句語境不同。"
+        "first-mcq-06": "本句的「at first」指「在事情開始的階段；通常暗示後來有所變化」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-06"
     },
@@ -959,11 +907,9 @@ export default {
       "masked": "____, we need to understand the problem.",
       "options": [
         "first-mcq-07",
-        "first-mcq-06",
-        "first-mcq-08",
-        "first-mcq-05",
-        "first-mcq-09",
-        "first-mcq-04"
+        "first-mcq-18",
+        "first-mcq-14",
+        "first-mcq-05"
       ],
       "explanation": "本句的「First of all」指「用來引出一連串內容、理由或步驟中的第一項」。",
       "sentenceIndex": 13,
@@ -972,12 +918,10 @@ export default {
         "First of all"
       ],
       "optionReasons": {
-        "first-mcq-07": "本句指「用來引出一連串內容、理由或步驟中的第一項」。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。"
+        "first-mcq-07": "本句的「First of all」指「用來引出一連串內容、理由或步驟中的第一項」。",
+        "first-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-07"
     },
@@ -989,11 +933,9 @@ export default {
       "masked": "____, thank you for coming.",
       "options": [
         "first-mcq-07",
-        "first-mcq-06",
-        "first-mcq-08",
-        "first-mcq-05",
-        "first-mcq-09",
-        "first-mcq-04"
+        "first-mcq-23",
+        "first-mcq-10",
+        "first-mcq-03"
       ],
       "explanation": "本句的「First of all」指「用來引出一連串內容、理由或步驟中的第一項」。",
       "sentenceIndex": 14,
@@ -1002,12 +944,10 @@ export default {
         "First of all"
       ],
       "optionReasons": {
-        "first-mcq-07": "本句指「用來引出一連串內容、理由或步驟中的第一項」。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-04": "「某件事情最早發生的一次或階段」是「first — earliest occurrence」的用法，與本句語境不同。"
+        "first-mcq-07": "本句的「First of all」指「用來引出一連串內容、理由或步驟中的第一項」。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-07"
     },
@@ -1019,11 +959,9 @@ export default {
       "masked": "____, we need more information.",
       "options": [
         "first-mcq-08",
-        "first-mcq-07",
-        "first-mcq-09",
-        "first-mcq-06",
-        "first-mcq-10",
-        "first-mcq-05"
+        "first-mcq-23",
+        "first-mcq-12",
+        "first-mcq-01"
       ],
       "explanation": "本句的「Firstly」指「較正式地引出第一個論點／原因／步驟」。",
       "sentenceIndex": 15,
@@ -1032,12 +970,10 @@ export default {
         "Firstly"
       ],
       "optionReasons": {
-        "first-mcq-08": "本句指「較正式地引出第一個論點／原因／步驟」。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。"
+        "first-mcq-08": "本句的「Firstly」指「較正式地引出第一個論點／原因／步驟」。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-08"
     },
@@ -1049,11 +985,9 @@ export default {
       "masked": "____, the plan is too expensive.",
       "options": [
         "first-mcq-08",
-        "first-mcq-07",
-        "first-mcq-09",
-        "first-mcq-06",
-        "first-mcq-10",
-        "first-mcq-05"
+        "first-mcq-23",
+        "first-mcq-01",
+        "first-mcq-11"
       ],
       "explanation": "本句的「Firstly」指「較正式地引出第一個論點／原因／步驟」。",
       "sentenceIndex": 16,
@@ -1062,12 +996,10 @@ export default {
         "Firstly"
       ],
       "optionReasons": {
-        "first-mcq-08": "本句指「較正式地引出第一個論點／原因／步驟」。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-05": "「某件事以前從未發生，這次是首次」是「for the first time」的用法，與本句語境不同。"
+        "first-mcq-08": "本句的「Firstly」指「較正式地引出第一個論點／原因／步驟」。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-08"
     },
@@ -1079,10 +1011,8 @@ export default {
       "masked": "She is ____ a caring person.",
       "options": [
         "first-mcq-09",
-        "first-mcq-08",
-        "first-mcq-10",
+        "first-mcq-15",
         "first-mcq-07",
-        "first-mcq-11",
         "first-mcq-06"
       ],
       "explanation": "本句的「first and foremost」指「在所有考慮中最重要、最優先」。",
@@ -1092,12 +1022,10 @@ export default {
         "first and foremost"
       ],
       "optionReasons": {
-        "first-mcq-09": "本句指「在所有考慮中最重要、最優先」。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-09": "本句的「first and foremost」指「在所有考慮中最重要、最優先」。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-09"
     },
@@ -1109,10 +1037,8 @@ export default {
       "masked": "Safety must come ____.",
       "options": [
         "first-mcq-09",
-        "first-mcq-08",
-        "first-mcq-10",
-        "first-mcq-07",
-        "first-mcq-11",
+        "first-mcq-05",
+        "first-mcq-15",
         "first-mcq-06"
       ],
       "explanation": "本句的「first and foremost」指「在所有考慮中最重要、最優先」。",
@@ -1122,12 +1048,10 @@ export default {
         "first and foremost"
       ],
       "optionReasons": {
-        "first-mcq-09": "本句指「在所有考慮中最重要、最優先」。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-06": "「在事情開始的階段；通常暗示後來有所變化」是「at first」的用法，與本句語境不同。"
+        "first-mcq-09": "本句的「first and foremost」指「在所有考慮中最重要、最優先」。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-09"
     },
@@ -1139,11 +1063,9 @@ export default {
       "masked": "Family comes ____ for her.",
       "options": [
         "first-mcq-10",
-        "first-mcq-09",
-        "first-mcq-11",
         "first-mcq-08",
-        "first-mcq-12",
-        "first-mcq-07"
+        "first-mcq-23",
+        "first-mcq-17"
       ],
       "explanation": "本句的「first」指「在重要性或優先次序上高於其他事情」。",
       "sentenceIndex": 19,
@@ -1152,12 +1074,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-10": "本句指「在重要性或優先次序上高於其他事情」。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。"
+        "first-mcq-10": "本句的「first」指「在重要性或優先次序上高於其他事情」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-10"
     },
@@ -1169,11 +1089,9 @@ export default {
       "masked": "Safety should always come ____.",
       "options": [
         "first-mcq-10",
-        "first-mcq-09",
-        "first-mcq-11",
-        "first-mcq-08",
-        "first-mcq-12",
-        "first-mcq-07"
+        "first-mcq-07",
+        "first-mcq-23",
+        "first-mcq-17"
       ],
       "explanation": "本句的「first」指「在重要性或優先次序上高於其他事情」。",
       "sentenceIndex": 20,
@@ -1182,12 +1100,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-10": "本句指「在重要性或優先次序上高於其他事情」。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-07": "「用來引出一連串內容、理由或步驟中的第一項」是「first of all」的用法，與本句語境不同。"
+        "first-mcq-10": "本句的「first」指「在重要性或優先次序上高於其他事情」。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-10"
     },
@@ -1199,11 +1115,9 @@ export default {
       "masked": "She always ____.",
       "options": [
         "first-mcq-11",
-        "first-mcq-10",
-        "first-mcq-12",
-        "first-mcq-09",
-        "first-mcq-13",
-        "first-mcq-08"
+        "first-mcq-06",
+        "first-mcq-07",
+        "first-mcq-17"
       ],
       "explanation": "本句的「puts her family first」指「主動把某人／某事的需要或重要性放在最高優先次序」。",
       "sentenceIndex": 21,
@@ -1212,12 +1126,10 @@ export default {
         "puts her family first"
       ],
       "optionReasons": {
-        "first-mcq-11": "本句指「主動把某人／某事的需要或重要性放在最高優先次序」。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。"
+        "first-mcq-11": "本句的「puts her family first」指「主動把某人／某事的需要或重要性放在最高優先次序」。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-11"
     },
@@ -1229,11 +1141,9 @@ export default {
       "masked": "Good leaders ____.",
       "options": [
         "first-mcq-11",
-        "first-mcq-10",
-        "first-mcq-12",
-        "first-mcq-09",
-        "first-mcq-13",
-        "first-mcq-08"
+        "first-mcq-08",
+        "first-mcq-17",
+        "first-mcq-06"
       ],
       "explanation": "本句的「put people first」指「主動把某人／某事的需要或重要性放在最高優先次序」。",
       "sentenceIndex": 22,
@@ -1242,12 +1152,10 @@ export default {
         "put people first"
       ],
       "optionReasons": {
-        "first-mcq-11": "本句指「主動把某人／某事的需要或重要性放在最高優先次序」。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-08": "「較正式地引出第一個論點／原因／步驟」是「firstly」的用法，與本句語境不同。"
+        "first-mcq-11": "本句的「put people first」指「主動把某人／某事的需要或重要性放在最高優先次序」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-11"
     },
@@ -1259,11 +1167,9 @@ export default {
       "masked": "Her ____ is her family.",
       "options": [
         "first-mcq-12",
-        "first-mcq-11",
-        "first-mcq-13",
-        "first-mcq-10",
         "first-mcq-14",
-        "first-mcq-09"
+        "first-mcq-15",
+        "first-mcq-08"
       ],
       "explanation": "本句的「first priority」指「最需要優先處理或考慮的事情」。",
       "sentenceIndex": 23,
@@ -1272,12 +1178,10 @@ export default {
         "first priority"
       ],
       "optionReasons": {
-        "first-mcq-12": "本句指「最需要優先處理或考慮的事情」。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。"
+        "first-mcq-12": "本句的「first priority」指「最需要優先處理或考慮的事情」。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-12"
     },
@@ -1289,11 +1193,9 @@ export default {
       "masked": "Patient safety is our ____.",
       "options": [
         "first-mcq-12",
-        "first-mcq-11",
-        "first-mcq-13",
-        "first-mcq-10",
-        "first-mcq-14",
-        "first-mcq-09"
+        "first-mcq-06",
+        "first-mcq-08",
+        "first-mcq-05"
       ],
       "explanation": "本句的「first concern」指「最需要優先處理或考慮的事情」。",
       "sentenceIndex": 24,
@@ -1302,12 +1204,10 @@ export default {
         "first concern"
       ],
       "optionReasons": {
-        "first-mcq-12": "本句指「最需要優先處理或考慮的事情」。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-09": "「在所有考慮中最重要、最優先」是「first and foremost」的用法，與本句語境不同。"
+        "first-mcq-12": "本句的「first concern」指「最需要優先處理或考慮的事情」。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-12"
     },
@@ -1319,11 +1219,9 @@ export default {
       "masked": "She finished in ____.",
       "options": [
         "first-mcq-13",
-        "first-mcq-12",
-        "first-mcq-14",
-        "first-mcq-11",
-        "first-mcq-15",
-        "first-mcq-10"
+        "first-mcq-07",
+        "first-mcq-06",
+        "first-mcq-05"
       ],
       "explanation": "本句的「first place」指「比賽、排名或競爭中的最高位置」。",
       "sentenceIndex": 25,
@@ -1332,12 +1230,10 @@ export default {
         "first place"
       ],
       "optionReasons": {
-        "first-mcq-13": "本句指「比賽、排名或競爭中的最高位置」。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。"
+        "first-mcq-13": "本句的「first place」指「比賽、排名或競爭中的最高位置」。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-13"
     },
@@ -1349,11 +1245,9 @@ export default {
       "masked": "The team moved into ____.",
       "options": [
         "first-mcq-13",
-        "first-mcq-12",
-        "first-mcq-14",
-        "first-mcq-11",
-        "first-mcq-15",
-        "first-mcq-10"
+        "first-mcq-05",
+        "first-mcq-17",
+        "first-mcq-21"
       ],
       "explanation": "本句的「first place」指「比賽、排名或競爭中的最高位置」。",
       "sentenceIndex": 26,
@@ -1362,12 +1256,10 @@ export default {
         "first place"
       ],
       "optionReasons": {
-        "first-mcq-13": "本句指「比賽、排名或競爭中的最高位置」。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-10": "「在重要性或優先次序上高於其他事情」是「come first — priority」的用法，與本句語境不同。"
+        "first-mcq-13": "本句的「first place」指「比賽、排名或競爭中的最高位置」。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-13"
     },
@@ -1379,11 +1271,9 @@ export default {
       "masked": "She ____ in the race.",
       "options": [
         "first-mcq-14",
-        "first-mcq-13",
-        "first-mcq-15",
-        "first-mcq-12",
-        "first-mcq-16",
-        "first-mcq-11"
+        "first-mcq-23",
+        "first-mcq-17",
+        "first-mcq-07"
       ],
       "explanation": "本句的「came first」指「在比賽或完成順序中排在所有其他人之前」。",
       "sentenceIndex": 27,
@@ -1392,12 +1282,10 @@ export default {
         "came first"
       ],
       "optionReasons": {
-        "first-mcq-14": "本句指「在比賽或完成順序中排在所有其他人之前」。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。"
+        "first-mcq-14": "本句的「came first」指「在比賽或完成順序中排在所有其他人之前」。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-14"
     },
@@ -1409,11 +1297,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "first-mcq-14",
-        "first-mcq-13",
-        "first-mcq-15",
+        "first-mcq-08",
         "first-mcq-12",
-        "first-mcq-16",
-        "first-mcq-11"
+        "first-mcq-23"
       ],
       "explanation": "本句的「finished first」指「在比賽或完成順序中排在所有其他人之前」。",
       "sentenceIndex": 28,
@@ -1422,12 +1308,10 @@ export default {
         "finished first"
       ],
       "optionReasons": {
-        "first-mcq-14": "本句指「在比賽或完成順序中排在所有其他人之前」。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-11": "「主動把某人／某事的需要或重要性放在最高優先次序」是「put someone/something first」的用法，與本句語境不同。"
+        "first-mcq-14": "本句的「finished first」指「在比賽或完成順序中排在所有其他人之前」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-14"
     },
@@ -1439,11 +1323,9 @@ export default {
       "masked": "They received ____ service.",
       "options": [
         "first-mcq-24",
-        "first-mcq-23",
-        "first-mcq-22",
-        "first-mcq-21",
-        "first-mcq-20",
-        "first-mcq-19"
+        "first-mcq-08",
+        "first-mcq-05",
+        "first-mcq-06"
       ],
       "explanation": "本句的「first-class」指「在品質、等級或評價上屬於最高一級」。",
       "sentenceIndex": 29,
@@ -1452,12 +1334,10 @@ export default {
         "first-class"
       ],
       "optionReasons": {
-        "first-mcq-24": "本句指「在品質、等級或評價上屬於最高一級」。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-22": "「最早到達／提出要求的人最先獲得服務或資源」是「first come, first served」的用法，與本句語境不同。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-mcq-24": "本句的「first-class」指「在品質、等級或評價上屬於最高一級」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-24"
     },
@@ -1469,11 +1349,9 @@ export default {
       "masked": "The work was of ____ quality.",
       "options": [
         "first-mcq-24",
-        "first-mcq-23",
-        "first-mcq-22",
         "first-mcq-21",
-        "first-mcq-20",
-        "first-mcq-19"
+        "first-mcq-05",
+        "first-mcq-14"
       ],
       "explanation": "本句的「first-rate」指「在品質、等級或評價上屬於最高一級」。",
       "sentenceIndex": 30,
@@ -1482,12 +1360,10 @@ export default {
         "first-rate"
       ],
       "optionReasons": {
-        "first-mcq-24": "本句指「在品質、等級或評價上屬於最高一級」。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-22": "「最早到達／提出要求的人最先獲得服務或資源」是「first come, first served」的用法，與本句語境不同。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-mcq-24": "本句的「first-rate」指「在品質、等級或評價上屬於最高一級」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-24"
     },
@@ -1499,11 +1375,9 @@ export default {
       "masked": "She received ____ care.",
       "options": [
         "first-mcq-15",
-        "first-mcq-14",
-        "first-mcq-16",
-        "first-mcq-13",
-        "first-mcq-17",
-        "first-mcq-12"
+        "first-mcq-21",
+        "first-mcq-03",
+        "first-mcq-06"
       ],
       "explanation": "本句的「first-class」指「品質、服務或能力達到很高水平的」。",
       "sentenceIndex": 31,
@@ -1512,12 +1386,10 @@ export default {
         "first-class"
       ],
       "optionReasons": {
-        "first-mcq-15": "本句指「品質、服務或能力達到很高水平的」。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。"
+        "first-mcq-15": "本句的「first-class」指「品質、服務或能力達到很高水平的」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-15"
     },
@@ -1529,11 +1401,9 @@ export default {
       "masked": "The hotel provides ____ service.",
       "options": [
         "first-mcq-15",
-        "first-mcq-14",
-        "first-mcq-16",
-        "first-mcq-13",
-        "first-mcq-17",
-        "first-mcq-12"
+        "first-mcq-23",
+        "first-mcq-03",
+        "first-mcq-09"
       ],
       "explanation": "本句的「first-class」指「品質、服務或能力達到很高水平的」。",
       "sentenceIndex": 32,
@@ -1542,12 +1412,10 @@ export default {
         "first-class"
       ],
       "optionReasons": {
-        "first-mcq-15": "本句指「品質、服務或能力達到很高水平的」。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-12": "「最需要優先處理或考慮的事情」是「first priority/concern」的用法，與本句語境不同。"
+        "first-mcq-15": "本句的「first-class」指「品質、服務或能力達到很高水平的」。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-15"
     },
@@ -1559,11 +1427,9 @@ export default {
       "masked": "They travelled ____.",
       "options": [
         "first-mcq-16",
-        "first-mcq-15",
-        "first-mcq-17",
+        "first-mcq-21",
         "first-mcq-14",
-        "first-mcq-18",
-        "first-mcq-13"
+        "first-mcq-17"
       ],
       "explanation": "本句的「first class」指「交通、郵件或服務中的最高等級」。",
       "sentenceIndex": 33,
@@ -1572,12 +1438,10 @@ export default {
         "first class"
       ],
       "optionReasons": {
-        "first-mcq-16": "本句指「交通、郵件或服務中的最高等級」。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。"
+        "first-mcq-16": "本句的「first class」指「交通、郵件或服務中的最高等級」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-16"
     },
@@ -1589,11 +1453,9 @@ export default {
       "masked": "She bought a ____.",
       "options": [
         "first-mcq-16",
-        "first-mcq-15",
         "first-mcq-17",
         "first-mcq-14",
-        "first-mcq-18",
-        "first-mcq-13"
+        "first-mcq-08"
       ],
       "explanation": "本句的「first-class ticket」指「交通、郵件或服務中的最高等級」。",
       "sentenceIndex": 34,
@@ -1602,12 +1464,10 @@ export default {
         "first-class ticket"
       ],
       "optionReasons": {
-        "first-mcq-16": "本句指「交通、郵件或服務中的最高等級」。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-13": "「比賽、排名或競爭中的最高位置」是「first place」的用法，與本句語境不同。"
+        "first-mcq-16": "本句的「first-class ticket」指「交通、郵件或服務中的最高等級」。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-16"
     },
@@ -1619,11 +1479,9 @@ export default {
       "masked": "She has ____ of the problem.",
       "options": [
         "first-mcq-17",
-        "first-mcq-16",
-        "first-mcq-18",
-        "first-mcq-15",
-        "first-mcq-19",
-        "first-mcq-14"
+        "first-mcq-24",
+        "first-mcq-05",
+        "first-mcq-19"
       ],
       "explanation": "本句的「first-hand experience」指「直接來自親身經歷、原始來源或當事人的」。",
       "sentenceIndex": 35,
@@ -1632,12 +1490,10 @@ export default {
         "first-hand experience"
       ],
       "optionReasons": {
-        "first-mcq-17": "本句指「直接來自親身經歷、原始來源或當事人的」。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。"
+        "first-mcq-17": "本句的「first-hand experience」指「直接來自親身經歷、原始來源或當事人的」。",
+        "first-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-17"
     },
@@ -1649,11 +1505,9 @@ export default {
       "masked": "We received the information ____.",
       "options": [
         "first-mcq-17",
-        "first-mcq-16",
-        "first-mcq-18",
-        "first-mcq-15",
-        "first-mcq-19",
-        "first-mcq-14"
+        "first-mcq-04",
+        "first-mcq-02",
+        "first-mcq-21"
       ],
       "explanation": "本句的「first-hand」指「直接來自親身經歷、原始來源或當事人的」。",
       "sentenceIndex": 36,
@@ -1662,12 +1516,10 @@ export default {
         "first-hand"
       ],
       "optionReasons": {
-        "first-mcq-17": "本句指「直接來自親身經歷、原始來源或當事人的」。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。"
+        "first-mcq-17": "本句的「first-hand」指「直接來自親身經歷、原始來源或當事人的」。",
+        "first-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-17"
     },
@@ -1679,11 +1531,9 @@ export default {
       "masked": "He gave a ____ of the event.",
       "options": [
         "first-mcq-17",
-        "first-mcq-16",
-        "first-mcq-18",
-        "first-mcq-15",
-        "first-mcq-19",
-        "first-mcq-14"
+        "first-mcq-01",
+        "first-mcq-11",
+        "first-mcq-23"
       ],
       "explanation": "本句的「first-hand account」指「直接來自親身經歷、原始來源或當事人的」。",
       "sentenceIndex": 37,
@@ -1692,12 +1542,10 @@ export default {
         "first-hand account"
       ],
       "optionReasons": {
-        "first-mcq-17": "本句指「直接來自親身經歷、原始來源或當事人的」。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。"
+        "first-mcq-17": "本句的「first-hand account」指「直接來自親身經歷、原始來源或當事人的」。",
+        "first-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-17"
     },
@@ -1709,11 +1557,9 @@ export default {
       "masked": "The book is based on ____.",
       "options": [
         "first-mcq-17",
-        "first-mcq-16",
-        "first-mcq-18",
-        "first-mcq-15",
-        "first-mcq-19",
-        "first-mcq-14"
+        "first-mcq-23",
+        "first-mcq-14",
+        "first-mcq-21"
       ],
       "explanation": "本句的「first-hand experience」指「直接來自親身經歷、原始來源或當事人的」。",
       "sentenceIndex": 38,
@@ -1722,12 +1568,10 @@ export default {
         "first-hand experience"
       ],
       "optionReasons": {
-        "first-mcq-17": "本句指「直接來自親身經歷、原始來源或當事人的」。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-14": "「在比賽或完成順序中排在所有其他人之前」是「come/finish first」的用法，與本句語境不同。"
+        "first-mcq-17": "本句的「first-hand experience」指「直接來自親身經歷、原始來源或當事人的」。",
+        "first-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-17"
     },
@@ -1739,11 +1583,9 @@ export default {
       "masked": "I’ll call her ____ tomorrow.",
       "options": [
         "first-mcq-18",
-        "first-mcq-17",
-        "first-mcq-19",
-        "first-mcq-16",
-        "first-mcq-20",
-        "first-mcq-15"
+        "first-mcq-14",
+        "first-mcq-21",
+        "first-mcq-05"
       ],
       "explanation": "本句的「first thing」指「最先進行的事情；亦可指一早最先做的事」。",
       "sentenceIndex": 39,
@@ -1752,12 +1594,10 @@ export default {
         "first thing"
       ],
       "optionReasons": {
-        "first-mcq-18": "本句指「最先進行的事情；亦可指一早最先做的事」。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。"
+        "first-mcq-18": "本句的「first thing」指「最先進行的事情；亦可指一早最先做的事」。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-18"
     },
@@ -1769,11 +1609,9 @@ export default {
       "masked": "The ____ she does is make tea.",
       "options": [
         "first-mcq-18",
-        "first-mcq-17",
-        "first-mcq-19",
-        "first-mcq-16",
-        "first-mcq-20",
-        "first-mcq-15"
+        "first-mcq-15",
+        "first-mcq-14",
+        "first-mcq-21"
       ],
       "explanation": "本句的「first thing」指「最先進行的事情；亦可指一早最先做的事」。",
       "sentenceIndex": 40,
@@ -1782,12 +1620,10 @@ export default {
         "first thing"
       ],
       "optionReasons": {
-        "first-mcq-18": "本句指「最先進行的事情；亦可指一早最先做的事」。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-15": "「品質、服務或能力達到很高水平的」是「first-class — excellent」的用法，與本句語境不同。"
+        "first-mcq-18": "本句的「first thing」指「最先進行的事情；亦可指一早最先做的事」。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-18"
     },
@@ -1799,11 +1635,9 @@ export default {
       "masked": "____—let’s make sure everyone is safe.",
       "options": [
         "first-mcq-19",
-        "first-mcq-18",
-        "first-mcq-20",
-        "first-mcq-17",
-        "first-mcq-21",
-        "first-mcq-16"
+        "first-mcq-08",
+        "first-mcq-15",
+        "first-mcq-05"
       ],
       "explanation": "本句的「First things first」指「先處理最基本、最重要或最應優先完成的事情」。",
       "sentenceIndex": 41,
@@ -1812,12 +1646,10 @@ export default {
         "First things first"
       ],
       "optionReasons": {
-        "first-mcq-19": "本句指「先處理最基本、最重要或最應優先完成的事情」。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。"
+        "first-mcq-19": "本句的「First things first」指「先處理最基本、最重要或最應優先完成的事情」。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-19"
     },
@@ -1829,11 +1661,9 @@ export default {
       "masked": "____ things first: we need a plan.",
       "options": [
         "first-mcq-19",
-        "first-mcq-18",
-        "first-mcq-20",
-        "first-mcq-17",
-        "first-mcq-21",
-        "first-mcq-16"
+        "first-mcq-15",
+        "first-mcq-05",
+        "first-mcq-17"
       ],
       "explanation": "本句的「first」指「先處理最基本、最重要或最應優先完成的事情」。",
       "sentenceIndex": 42,
@@ -1842,12 +1672,10 @@ export default {
         "first"
       ],
       "optionReasons": {
-        "first-mcq-19": "本句指「先處理最基本、最重要或最應優先完成的事情」。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-17": "「直接來自親身經歷、原始來源或當事人的」是「first-hand」的用法，與本句語境不同。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-16": "「交通、郵件或服務中的最高等級」是「first class — category」的用法，與本句語境不同。"
+        "first-mcq-19": "本句的「first」指「先處理最基本、最重要或最應優先完成的事情」。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-19"
     },
@@ -1859,11 +1687,9 @@ export default {
       "masked": "Why did you agree in the ____?",
       "options": [
         "first-mcq-21",
-        "first-mcq-20",
-        "first-mcq-22",
-        "first-mcq-19",
-        "first-mcq-23",
-        "first-mcq-18"
+        "first-mcq-06",
+        "first-mcq-24",
+        "first-mcq-17"
       ],
       "explanation": "本句的「first place」指「引出第一個理由或考慮」。",
       "sentenceIndex": 43,
@@ -1872,12 +1698,10 @@ export default {
         "first place"
       ],
       "optionReasons": {
-        "first-mcq-21": "本句指「引出第一個理由或考慮」。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-22": "「最早到達／提出要求的人最先獲得服務或資源」是「first come, first served」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。"
+        "first-mcq-21": "本句的「first place」指「引出第一個理由或考慮」。",
+        "first-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-21"
     },
@@ -1889,11 +1713,9 @@ export default {
       "masked": "In the ____, we do not have enough time.",
       "options": [
         "first-mcq-21",
-        "first-mcq-20",
-        "first-mcq-22",
-        "first-mcq-19",
-        "first-mcq-23",
-        "first-mcq-18"
+        "first-mcq-17",
+        "first-mcq-13",
+        "first-mcq-10"
       ],
       "explanation": "本句的「first place」指「引出第一個理由或考慮」。",
       "sentenceIndex": 44,
@@ -1902,12 +1724,10 @@ export default {
         "first place"
       ],
       "optionReasons": {
-        "first-mcq-21": "本句指「引出第一個理由或考慮」。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-22": "「最早到達／提出要求的人最先獲得服務或資源」是「first come, first served」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-18": "「最先進行的事情；亦可指一早最先做的事」是「first thing」的用法，與本句語境不同。"
+        "first-mcq-21": "本句的「first place」指「引出第一個理由或考慮」。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-21"
     },
@@ -1919,11 +1739,9 @@ export default {
       "masked": "Tickets are available on a ____ basis.",
       "options": [
         "first-mcq-22",
-        "first-mcq-21",
-        "first-mcq-23",
-        "first-mcq-20",
-        "first-mcq-24",
-        "first-mcq-19"
+        "first-mcq-05",
+        "first-mcq-14",
+        "first-mcq-08"
       ],
       "explanation": "本句的「first come, first served」指「最早到達／提出要求的人最先獲得服務或資源」。",
       "sentenceIndex": 45,
@@ -1932,12 +1750,10 @@ export default {
         "first come, first served"
       ],
       "optionReasons": {
-        "first-mcq-22": "本句指「最早到達／提出要求的人最先獲得服務或資源」。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-mcq-22": "本句的「first come, first served」指「最早到達／提出要求的人最先獲得服務或資源」。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-22"
     },
@@ -1949,11 +1765,9 @@ export default {
       "masked": "Seats are ____.",
       "options": [
         "first-mcq-22",
-        "first-mcq-21",
-        "first-mcq-23",
-        "first-mcq-20",
-        "first-mcq-24",
-        "first-mcq-19"
+        "first-mcq-14",
+        "first-mcq-05",
+        "first-mcq-24"
       ],
       "explanation": "本句的「first come, first served」指「最早到達／提出要求的人最先獲得服務或資源」。",
       "sentenceIndex": 46,
@@ -1962,12 +1776,10 @@ export default {
         "first come, first served"
       ],
       "optionReasons": {
-        "first-mcq-22": "本句指「最早到達／提出要求的人最先獲得服務或資源」。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-mcq-22": "本句的「first come, first served」指「最早到達／提出要求的人最先獲得服務或資源」。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-22"
     },
@@ -1980,10 +1792,8 @@ export default {
       "options": [
         "first-pdf-001",
         "first-mcq-21",
-        "first-mcq-23",
-        "first-mcq-20",
-        "first-mcq-24",
-        "first-mcq-19"
+        "first-mcq-15",
+        "first-mcq-05"
       ],
       "explanation": "本句的「from the first」指「從事情最初開始的時候」。",
       "sentenceIndex": 47,
@@ -1992,12 +1802,10 @@ export default {
         "from the first"
       ],
       "optionReasons": {
-        "first-pdf-001": "本句指「從事情最初開始的時候」。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-pdf-001": "本句的「from the first」指「從事情最初開始的時候」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-pdf-001"
     },
@@ -2009,11 +1817,9 @@ export default {
       "masked": "The idea seemed promising ____.",
       "options": [
         "first-pdf-001",
-        "first-mcq-21",
-        "first-mcq-23",
-        "first-mcq-20",
-        "first-mcq-24",
-        "first-mcq-19"
+        "first-mcq-10",
+        "first-mcq-05",
+        "first-mcq-08"
       ],
       "explanation": "本句的「from the first」指「從事情最初開始的時候」。",
       "sentenceIndex": 48,
@@ -2022,12 +1828,10 @@ export default {
         "from the first"
       ],
       "optionReasons": {
-        "first-pdf-001": "本句指「從事情最初開始的時候」。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-23": "「一系列版本、世代或階段中的最早一個」是「first version/generation」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-pdf-001": "本句的「from the first」指「從事情最初開始的時候」。",
+        "first-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-pdf-001"
     },
@@ -2039,11 +1843,9 @@ export default {
       "masked": "The ____ of the product was much simpler.",
       "options": [
         "first-mcq-23",
-        "first-mcq-22",
-        "first-mcq-24",
-        "first-mcq-21",
-        "first-mcq-20",
-        "first-mcq-19"
+        "first-mcq-07",
+        "first-mcq-17",
+        "first-mcq-14"
       ],
       "explanation": "本句的「first version」指「一系列版本、世代或階段中的最早一個」。",
       "sentenceIndex": 49,
@@ -2052,12 +1854,10 @@ export default {
         "first version"
       ],
       "optionReasons": {
-        "first-mcq-23": "本句指「一系列版本、世代或階段中的最早一個」。",
-        "first-mcq-22": "「最早到達／提出要求的人最先獲得服務或資源」是「first come, first served」的用法，與本句語境不同。",
-        "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-mcq-23": "本句的「first version」指「一系列版本、世代或階段中的最早一個」。",
+        "first-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-23"
     },
@@ -2069,11 +1869,9 @@ export default {
       "masked": "The ____ of the device had several problems.",
       "options": [
         "first-mcq-23",
-        "first-mcq-22",
-        "first-mcq-24",
         "first-mcq-21",
-        "first-mcq-20",
-        "first-mcq-19"
+        "first-mcq-15",
+        "first-mcq-14"
       ],
       "explanation": "本句的「first generation」指「一系列版本、世代或階段中的最早一個」。",
       "sentenceIndex": 50,
@@ -2082,12 +1880,10 @@ export default {
         "first generation"
       ],
       "optionReasons": {
-        "first-mcq-23": "本句指「一系列版本、世代或階段中的最早一個」。",
-        "first-mcq-22": "「最早到達／提出要求的人最先獲得服務或資源」是「first come, first served」的用法，與本句語境不同。",
-        "first-mcq-24": "「在品質、等級或評價上屬於最高一級」是「15. first = highest quality / best category（第一流） — 上等的；最好的」的用法，與本句語境不同。",
-        "first-mcq-21": "「引出第一個理由或考慮」是「in the first place — first reason」的用法，與本句語境不同。",
-        "first-mcq-20": "「表示當初／原本的情況」是「in the first place — originally」的用法，與本句語境不同。",
-        "first-mcq-19": "「先處理最基本、最重要或最應優先完成的事情」是「first things first」的用法，與本句語境不同。"
+        "first-mcq-23": "本句的「first generation」指「一系列版本、世代或階段中的最早一個」。",
+        "first-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "first-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "first-mcq-23"
     }
@@ -2099,5 +1895,7 @@ export default {
     "sha256": "87ce72bca1be8c14d0e7dbf566161f858f707bd3d73155524a59fcfed6a66fef",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

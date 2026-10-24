@@ -144,11 +144,6 @@ export default {
       "note": "來源詞義：物體以斜角擦撞表面後偏轉",
       "examples": [
         [
-          "She glanced back before leaving.",
-          "她離開前回頭看了一眼。",
-          "物體以斜角擦撞表面後偏轉"
-        ],
-        [
           "The ball glanced off the post.",
           "球擦過／斜撞門柱後偏開。",
           "物體以斜角擦撞表面後偏轉"
@@ -227,6 +222,23 @@ export default {
       "examples": [],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "glance-reviewed-3519686f48",
+      "title": "回頭看一眼",
+      "form": "glance · source section 7",
+      "en": "回頭看一眼",
+      "zh": "回頭看一眼",
+      "note": "對照原始教材第 7 節及例句核實。",
+      "examples": [
+        [
+          "She glanced back before leaving.",
+          "她離開前回頭看了一眼。",
+          "回頭看一眼"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -238,11 +250,9 @@ export default {
       "masked": "She ____ at her phone.",
       "options": [
         "glance-mcq-01",
-        "glance-mcq-02",
-        "glance-mcq-03",
-        "glance-mcq-04",
+        "glance-mcq-07",
         "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-reviewed-3519686f48"
       ],
       "explanation": "本句的「glanced」指「很短暫地看某人／某物一下，而不是仔細觀察」。",
       "sentenceIndex": 0,
@@ -251,12 +261,10 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-01": "本句指「很短暫地看某人／某物一下，而不是仔細觀察」。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-01": "本句的「glanced」指「很短暫地看某人／某物一下，而不是仔細觀察」。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glance-reviewed-3519686f48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-01"
     },
@@ -268,11 +276,9 @@ export default {
       "masked": "He ____ at the clock and stood up.",
       "options": [
         "glance-mcq-01",
-        "glance-mcq-02",
-        "glance-mcq-03",
-        "glance-mcq-04",
         "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-mcq-07",
+        "glance-mcq-03"
       ],
       "explanation": "本句的「glanced」指「很短暫地看某人／某物一下，而不是仔細觀察」。",
       "sentenceIndex": 1,
@@ -281,12 +287,10 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-01": "本句指「很短暫地看某人／某物一下，而不是仔細觀察」。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-01": "本句的「glanced」指「很短暫地看某人／某物一下，而不是仔細觀察」。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-01"
     },
@@ -298,11 +302,9 @@ export default {
       "masked": "I ____ through the window as the bus passed.",
       "options": [
         "glance-mcq-01",
-        "glance-mcq-02",
-        "glance-mcq-03",
-        "glance-mcq-04",
+        "glance-mcq-07",
         "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-reviewed-3519686f48"
       ],
       "explanation": "本句的「glanced」指「很短暫地看某人／某物一下，而不是仔細觀察」。",
       "sentenceIndex": 2,
@@ -311,12 +313,10 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-01": "本句指「很短暫地看某人／某物一下，而不是仔細觀察」。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-01": "本句的「glanced」指「很短暫地看某人／某物一下，而不是仔細觀察」。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glance-reviewed-3519686f48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-01"
     },
@@ -328,11 +328,8 @@ export default {
       "masked": "She took a quick ____ at the document.",
       "options": [
         "glance-mcq-02",
-        "glance-mcq-01",
-        "glance-mcq-03",
-        "glance-mcq-04",
-        "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-mcq-06",
+        "glance-reviewed-3519686f48"
       ],
       "explanation": "本句的「glance」指「一次短暫快速的查看；一瞥」。",
       "sentenceIndex": 3,
@@ -341,12 +338,9 @@ export default {
         "glance"
       ],
       "optionReasons": {
-        "glance-mcq-02": "本句指「一次短暫快速的查看；一瞥」。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-02": "本句的「glance」指「一次短暫快速的查看；一瞥」。",
+        "glance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glance-reviewed-3519686f48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-02"
     },
@@ -358,11 +352,8 @@ export default {
       "masked": "One ____ was enough to see the problem.",
       "options": [
         "glance-mcq-02",
-        "glance-mcq-01",
-        "glance-mcq-03",
-        "glance-mcq-04",
-        "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-mcq-06",
+        "glance-reviewed-3519686f48"
       ],
       "explanation": "本句的「glance」指「一次短暫快速的查看；一瞥」。",
       "sentenceIndex": 4,
@@ -371,12 +362,9 @@ export default {
         "glance"
       ],
       "optionReasons": {
-        "glance-mcq-02": "本句指「一次短暫快速的查看；一瞥」。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-02": "本句的「glance」指「一次短暫快速的查看；一瞥」。",
+        "glance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glance-reviewed-3519686f48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-02"
     },
@@ -388,11 +376,9 @@ export default {
       "masked": "The trend may seem reasonable ____.",
       "options": [
         "glance-mcq-03",
-        "glance-mcq-02",
-        "glance-mcq-04",
-        "glance-mcq-01",
+        "glance-mcq-07",
         "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-mcq-01"
       ],
       "explanation": "本句的「at first glance」指「第一眼／初步看來，尚未深入分析之前」。",
       "sentenceIndex": 5,
@@ -401,12 +387,10 @@ export default {
         "at first glance"
       ],
       "optionReasons": {
-        "glance-mcq-03": "本句指「第一眼／初步看來，尚未深入分析之前」。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-03": "本句的「at first glance」指「第一眼／初步看來，尚未深入分析之前」。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-03"
     },
@@ -418,11 +402,8 @@ export default {
       "masked": "At first ____, the two pictures look identical.",
       "options": [
         "glance-mcq-03",
-        "glance-mcq-02",
-        "glance-mcq-04",
-        "glance-mcq-01",
-        "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-mcq-08",
+        "glance-mcq-07"
       ],
       "explanation": "本句的「glance」指「第一眼／初步看來，尚未深入分析之前」。",
       "sentenceIndex": 6,
@@ -431,12 +412,9 @@ export default {
         "glance"
       ],
       "optionReasons": {
-        "glance-mcq-03": "本句指「第一眼／初步看來，尚未深入分析之前」。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-03": "本句的「glance」指「第一眼／初步看來，尚未深入分析之前」。",
+        "glance-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-03"
     },
@@ -448,11 +426,8 @@ export default {
       "masked": "The plan seems simple at first ____, but it is actually quite complicated.",
       "options": [
         "glance-mcq-03",
-        "glance-mcq-02",
-        "glance-mcq-04",
-        "glance-mcq-01",
-        "glance-mcq-05",
-        "glance-mcq-06"
+        "glance-mcq-07",
+        "glance-mcq-08"
       ],
       "explanation": "本句的「glance」指「第一眼／初步看來，尚未深入分析之前」。",
       "sentenceIndex": 7,
@@ -461,12 +436,9 @@ export default {
         "glance"
       ],
       "optionReasons": {
-        "glance-mcq-03": "本句指「第一眼／初步看來，尚未深入分析之前」。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。"
+        "glance-mcq-03": "本句的「glance」指「第一眼／初步看來，尚未深入分析之前」。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-03"
     },
@@ -478,11 +450,8 @@ export default {
       "masked": "The chart lets you see the results ____.",
       "options": [
         "glance-mcq-04",
-        "glance-mcq-03",
-        "glance-mcq-05",
-        "glance-mcq-02",
         "glance-mcq-06",
-        "glance-mcq-01"
+        "glance-mcq-03"
       ],
       "explanation": "本句的「at a glance」指「只需快速看一下便能立即掌握資訊」。",
       "sentenceIndex": 8,
@@ -491,12 +460,9 @@ export default {
         "at a glance"
       ],
       "optionReasons": {
-        "glance-mcq-04": "本句指「只需快速看一下便能立即掌握資訊」。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。"
+        "glance-mcq-04": "本句的「at a glance」指「只需快速看一下便能立即掌握資訊」。",
+        "glance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-04"
     },
@@ -508,11 +474,8 @@ export default {
       "masked": "You can tell ____ which items are unavailable.",
       "options": [
         "glance-mcq-04",
-        "glance-mcq-03",
-        "glance-mcq-05",
-        "glance-mcq-02",
         "glance-mcq-06",
-        "glance-mcq-01"
+        "glance-mcq-03"
       ],
       "explanation": "本句的「at a glance」指「只需快速看一下便能立即掌握資訊」。",
       "sentenceIndex": 9,
@@ -521,12 +484,9 @@ export default {
         "at a glance"
       ],
       "optionReasons": {
-        "glance-mcq-04": "本句指「只需快速看一下便能立即掌握資訊」。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-01": "「很短暫地看某人／某物一下，而不是仔細觀察」與本句語境不同。"
+        "glance-mcq-04": "本句的「at a glance」指「只需快速看一下便能立即掌握資訊」。",
+        "glance-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-04"
     },
@@ -538,11 +498,8 @@ export default {
       "masked": "She ____ the report before the meeting.",
       "options": [
         "glance-mcq-05",
-        "glance-mcq-04",
-        "glance-mcq-06",
         "glance-mcq-03",
-        "glance-mcq-07",
-        "glance-mcq-02"
+        "glance-mcq-06"
       ],
       "explanation": "本句的「glanced over」指「快速瀏覽文字、文件或內容」。",
       "sentenceIndex": 10,
@@ -551,12 +508,9 @@ export default {
         "glanced over"
       ],
       "optionReasons": {
-        "glance-mcq-05": "本句指「快速瀏覽文字、文件或內容」。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。"
+        "glance-mcq-05": "本句的「glanced over」指「快速瀏覽文字、文件或內容」。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-05"
     },
@@ -568,11 +522,9 @@ export default {
       "masked": "I ____ the notes on the train.",
       "options": [
         "glance-mcq-05",
-        "glance-mcq-04",
-        "glance-mcq-06",
         "glance-mcq-03",
         "glance-mcq-07",
-        "glance-mcq-02"
+        "glance-mcq-01"
       ],
       "explanation": "本句的「glanced through」指「快速瀏覽文字、文件或內容」。",
       "sentenceIndex": 11,
@@ -581,12 +533,10 @@ export default {
         "glanced through"
       ],
       "optionReasons": {
-        "glance-mcq-05": "本句指「快速瀏覽文字、文件或內容」。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。"
+        "glance-mcq-05": "本句的「glanced through」指「快速瀏覽文字、文件或內容」。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-05"
     },
@@ -598,11 +548,9 @@ export default {
       "masked": "He ____ the room.",
       "options": [
         "glance-mcq-05",
-        "glance-mcq-04",
-        "glance-mcq-06",
         "glance-mcq-03",
-        "glance-mcq-07",
-        "glance-mcq-02"
+        "glance-mcq-01",
+        "glance-mcq-07"
       ],
       "explanation": "本句的「glanced around」指「快速瀏覽文字、文件或內容」。",
       "sentenceIndex": 12,
@@ -611,12 +559,10 @@ export default {
         "glanced around"
       ],
       "optionReasons": {
-        "glance-mcq-05": "本句指「快速瀏覽文字、文件或內容」。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。"
+        "glance-mcq-05": "本句的「glanced around」指「快速瀏覽文字、文件或內容」。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-05"
     },
@@ -628,11 +574,9 @@ export default {
       "masked": "She ____ to see whether anyone was watching.",
       "options": [
         "glance-mcq-05",
-        "glance-mcq-04",
-        "glance-mcq-06",
-        "glance-mcq-03",
+        "glance-mcq-01",
         "glance-mcq-07",
-        "glance-mcq-02"
+        "glance-reviewed-3519686f48"
       ],
       "explanation": "本句的「glanced around」指「快速瀏覽文字、文件或內容」。",
       "sentenceIndex": 13,
@@ -641,44 +585,38 @@ export default {
         "glanced around"
       ],
       "optionReasons": {
-        "glance-mcq-05": "本句指「快速瀏覽文字、文件或內容」。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-02": "「一次短暫快速的查看；一瞥」與本句語境不同。"
+        "glance-mcq-05": "本句的「glanced around」指「快速瀏覽文字、文件或內容」。",
+        "glance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-reviewed-3519686f48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-05"
     },
     {
       "id": "glance-07-0",
-      "sense": "glance-mcq-06",
+      "sense": "glance-reviewed-3519686f48",
       "en": "She glanced back before leaving.",
       "zh": "她離開前回頭看了一眼。",
       "masked": "She ____ before leaving.",
       "options": [
-        "glance-mcq-06",
+        "glance-reviewed-3519686f48",
         "glance-mcq-05",
-        "glance-mcq-07",
-        "glance-mcq-04",
-        "glance-mcq-08",
-        "glance-mcq-03"
+        "glance-mcq-06"
       ],
-      "explanation": "本句的「glanced back」指「物體以斜角擦撞表面後偏轉」。",
+      "explanation": "對照完整句子：「她離開前回頭看了一眼。」。這裡的「glanced back」表示「回頭看一眼」。",
       "sentenceIndex": 14,
       "sourcePractice": 15,
       "targets": [
         "glanced back"
       ],
       "optionReasons": {
-        "glance-mcq-06": "本句指「物體以斜角擦撞表面後偏轉」。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-08": "「光線在表面短暫閃現／反射；較文學」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。"
+        "glance-reviewed-3519686f48": "對照完整句子：「她離開前回頭看了一眼。」。這裡的「glanced back」表示「回頭看一眼」。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "glance-mcq-06"
+      "correctOption": "glance-reviewed-3519686f48",
+      "previousCorrectOption": "glance-mcq-06",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "glance-08-0",
@@ -689,9 +627,6 @@ export default {
       "options": [
         "glance-mcq-06",
         "glance-mcq-05",
-        "glance-mcq-07",
-        "glance-mcq-04",
-        "glance-mcq-08",
         "glance-mcq-03"
       ],
       "explanation": "本句的「glanced」指「物體以斜角擦撞表面後偏轉」。",
@@ -701,12 +636,9 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-06": "本句指「物體以斜角擦撞表面後偏轉」。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-08": "「光線在表面短暫閃現／反射；較文學」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。"
+        "glance-mcq-06": "本句的「glanced」指「物體以斜角擦撞表面後偏轉」。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-06"
     },
@@ -718,11 +650,8 @@ export default {
       "masked": "The bullet ____ off the metal surface.",
       "options": [
         "glance-mcq-06",
-        "glance-mcq-05",
-        "glance-mcq-07",
-        "glance-mcq-04",
-        "glance-mcq-08",
-        "glance-mcq-03"
+        "glance-mcq-03",
+        "glance-mcq-02"
       ],
       "explanation": "本句的「glanced」指「物體以斜角擦撞表面後偏轉」。",
       "sentenceIndex": 16,
@@ -731,12 +660,9 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-06": "本句指「物體以斜角擦撞表面後偏轉」。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。",
-        "glance-mcq-08": "「光線在表面短暫閃現／反射；較文學」與本句語境不同。",
-        "glance-mcq-03": "「第一眼／初步看來，尚未深入分析之前」與本句語境不同。"
+        "glance-mcq-06": "本句的「glanced」指「物體以斜角擦撞表面後偏轉」。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-06"
     },
@@ -748,11 +674,9 @@ export default {
       "masked": "The car received only a ____.",
       "options": [
         "glance-mcq-07",
-        "glance-mcq-06",
-        "glance-mcq-08",
-        "glance-mcq-05",
-        "glance-mcq-09",
-        "glance-mcq-04"
+        "glance-mcq-03",
+        "glance-mcq-01",
+        "glance-mcq-05"
       ],
       "explanation": "本句的「glancing blow」指「斜向擦過而不是正面擊中的撞擊」。",
       "sentenceIndex": 17,
@@ -761,12 +685,10 @@ export default {
         "glancing blow"
       ],
       "optionReasons": {
-        "glance-mcq-07": "本句指「斜向擦過而不是正面擊中的撞擊」。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-08": "「光線在表面短暫閃現／反射；較文學」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-09": "「短暫、順帶、不深入的；較正式」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。"
+        "glance-mcq-07": "本句的「glancing blow」指「斜向擦過而不是正面擊中的撞擊」。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-07"
     },
@@ -778,11 +700,8 @@ export default {
       "masked": "The ball struck him with a ____.",
       "options": [
         "glance-mcq-07",
-        "glance-mcq-06",
-        "glance-mcq-08",
-        "glance-mcq-05",
-        "glance-mcq-09",
-        "glance-mcq-04"
+        "glance-mcq-02",
+        "glance-mcq-03"
       ],
       "explanation": "本句的「glancing blow」指「斜向擦過而不是正面擊中的撞擊」。",
       "sentenceIndex": 18,
@@ -791,12 +710,9 @@ export default {
         "glancing blow"
       ],
       "optionReasons": {
-        "glance-mcq-07": "本句指「斜向擦過而不是正面擊中的撞擊」。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-08": "「光線在表面短暫閃現／反射；較文學」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。",
-        "glance-mcq-09": "「短暫、順帶、不深入的；較正式」與本句語境不同。",
-        "glance-mcq-04": "「只需快速看一下便能立即掌握資訊」與本句語境不同。"
+        "glance-mcq-07": "本句的「glancing blow」指「斜向擦過而不是正面擊中的撞擊」。",
+        "glance-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-07"
     },
@@ -808,11 +724,8 @@ export default {
       "masked": "Sunlight ____ off the water.",
       "options": [
         "glance-mcq-08",
-        "glance-mcq-07",
-        "glance-mcq-09",
-        "glance-mcq-06",
-        "glance-mcq-10",
-        "glance-mcq-05"
+        "glance-mcq-03",
+        "glance-mcq-07"
       ],
       "explanation": "本句的「glanced」指「光線在表面短暫閃現／反射；較文學」。",
       "sentenceIndex": 19,
@@ -821,12 +734,9 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-08": "本句指「光線在表面短暫閃現／反射；較文學」。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-09": "「短暫、順帶、不深入的；較正式」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-10": "「彼此快速交換眼神」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。"
+        "glance-mcq-08": "本句的「glanced」指「光線在表面短暫閃現／反射；較文學」。",
+        "glance-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-08"
     },
@@ -839,10 +749,7 @@ export default {
       "options": [
         "glance-mcq-08",
         "glance-mcq-07",
-        "glance-mcq-09",
-        "glance-mcq-06",
-        "glance-mcq-10",
-        "glance-mcq-05"
+        "glance-reviewed-3519686f48"
       ],
       "explanation": "本句的「glanced」指「光線在表面短暫閃現／反射；較文學」。",
       "sentenceIndex": 20,
@@ -851,12 +758,9 @@ export default {
         "glanced"
       ],
       "optionReasons": {
-        "glance-mcq-08": "本句指「光線在表面短暫閃現／反射；較文學」。",
-        "glance-mcq-07": "「斜向擦過而不是正面擊中的撞擊」與本句語境不同。",
-        "glance-mcq-09": "「短暫、順帶、不深入的；較正式」與本句語境不同。",
-        "glance-mcq-06": "「物體以斜角擦撞表面後偏轉」與本句語境不同。",
-        "glance-mcq-10": "「彼此快速交換眼神」與本句語境不同。",
-        "glance-mcq-05": "「快速瀏覽文字、文件或內容」與本句語境不同。"
+        "glance-mcq-08": "本句的「glanced」指「光線在表面短暫閃現／反射；較文學」。",
+        "glance-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glance-reviewed-3519686f48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glance-mcq-08"
     }
@@ -868,5 +772,7 @@ export default {
     "sha256": "adf9794b56842323a5d37b5f027568afdaba5b8a334360bae101bcec1e44cc86",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

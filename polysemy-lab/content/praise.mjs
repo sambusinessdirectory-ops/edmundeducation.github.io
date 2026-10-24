@@ -238,11 +238,8 @@ export default {
       "masked": "People online were ____ the bakery.",
       "options": [
         "praise-mcq-01",
-        "praise-mcq-02",
-        "praise-mcq-03",
-        "praise-mcq-04",
-        "praise-mcq-05",
-        "praise-mcq-06"
+        "praise-mcq-06",
+        "praise-mcq-09"
       ],
       "explanation": "本句的「praising」指「明確表達對某人／某事高度肯定、欣賞或認可」。",
       "sentenceIndex": 0,
@@ -251,12 +248,9 @@ export default {
         "praising"
       ],
       "optionReasons": {
-        "praise-mcq-01": "本句指「明確表達對某人／某事高度肯定、欣賞或認可」。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-01": "本句的「praising」指「明確表達對某人／某事高度肯定、欣賞或認可」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-01"
     },
@@ -268,11 +262,8 @@ export default {
       "masked": "Customers ____ the quality of the bread.",
       "options": [
         "praise-mcq-01",
-        "praise-mcq-02",
-        "praise-mcq-03",
-        "praise-mcq-04",
-        "praise-mcq-05",
-        "praise-mcq-06"
+        "praise-mcq-06",
+        "praise-mcq-09"
       ],
       "explanation": "本句的「praised」指「明確表達對某人／某事高度肯定、欣賞或認可」。",
       "sentenceIndex": 1,
@@ -281,12 +272,9 @@ export default {
         "praised"
       ],
       "optionReasons": {
-        "praise-mcq-01": "本句指「明確表達對某人／某事高度肯定、欣賞或認可」。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-01": "本句的「praised」指「明確表達對某人／某事高度肯定、欣賞或認可」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-01"
     },
@@ -298,11 +286,8 @@ export default {
       "masked": "The manager ____ the staff for their hard work.",
       "options": [
         "praise-mcq-01",
-        "praise-mcq-02",
-        "praise-mcq-03",
-        "praise-mcq-04",
-        "praise-mcq-05",
-        "praise-mcq-06"
+        "praise-mcq-06",
+        "praise-mcq-09"
       ],
       "explanation": "本句的「praised」指「明確表達對某人／某事高度肯定、欣賞或認可」。",
       "sentenceIndex": 2,
@@ -311,12 +296,9 @@ export default {
         "praised"
       ],
       "optionReasons": {
-        "praise-mcq-01": "本句指「明確表達對某人／某事高度肯定、欣賞或認可」。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-01": "本句的「praised」指「明確表達對某人／某事高度肯定、欣賞或認可」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-01"
     },
@@ -328,9 +310,6 @@ export default {
       "masked": "The owner praised the staff ____.",
       "options": [
         "praise-mcq-02",
-        "praise-mcq-01",
-        "praise-mcq-03",
-        "praise-mcq-04",
         "praise-mcq-05",
         "praise-mcq-06"
       ],
@@ -341,12 +320,9 @@ export default {
         "for their excellent service"
       ],
       "optionReasons": {
-        "praise-mcq-02": "本句指「因某項行為、品質或成就而稱讚某人」。",
-        "praise-mcq-01": "「明確表達對某人／某事高度肯定、欣賞或認可」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-02": "本句的「for their excellent service」指「因某項行為、品質或成就而稱讚某人」。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-02"
     },
@@ -358,9 +334,6 @@ export default {
       "masked": "She was praised ____.",
       "options": [
         "praise-mcq-02",
-        "praise-mcq-01",
-        "praise-mcq-03",
-        "praise-mcq-04",
         "praise-mcq-05",
         "praise-mcq-06"
       ],
@@ -371,12 +344,9 @@ export default {
         "for handling the complaint calmly"
       ],
       "optionReasons": {
-        "praise-mcq-02": "本句指「因某項行為、品質或成就而稱讚某人」。",
-        "praise-mcq-01": "「明確表達對某人／某事高度肯定、欣賞或認可」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-02": "本句的「for handling the complaint calmly」指「因某項行為、品質或成就而稱讚某人」。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-02"
     },
@@ -388,11 +358,9 @@ export default {
       "masked": "Critics praised the bakery ____.",
       "options": [
         "praise-mcq-03",
-        "praise-mcq-02",
-        "praise-mcq-04",
-        "praise-mcq-01",
-        "praise-mcq-05",
-        "praise-mcq-06"
+        "praise-mcq-06",
+        "praise-mcq-07",
+        "praise-mcq-05"
       ],
       "explanation": "本句的「as one of the best in the area」指「公開肯定某人／某物具有某種優點或地位」。",
       "sentenceIndex": 5,
@@ -401,12 +369,10 @@ export default {
         "as one of the best in the area"
       ],
       "optionReasons": {
-        "praise-mcq-03": "本句指「公開肯定某人／某物具有某種優點或地位」。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-01": "「明確表達對某人／某事高度肯定、欣賞或認可」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-03": "本句的「as one of the best in the area」指「公開肯定某人／某物具有某種優點或地位」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-03"
     },
@@ -418,10 +384,7 @@ export default {
       "masked": "The design was ____ as simple and effective.",
       "options": [
         "praise-mcq-03",
-        "praise-mcq-02",
-        "praise-mcq-04",
-        "praise-mcq-01",
-        "praise-mcq-05",
+        "praise-mcq-09",
         "praise-mcq-06"
       ],
       "explanation": "本句的「praised」指「公開肯定某人／某物具有某種優點或地位」。",
@@ -431,12 +394,9 @@ export default {
         "praised"
       ],
       "optionReasons": {
-        "praise-mcq-03": "本句指「公開肯定某人／某物具有某種優點或地位」。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-01": "「明確表達對某人／某事高度肯定、欣賞或認可」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。"
+        "praise-mcq-03": "本句的「praised」指「公開肯定某人／某物具有某種優點或地位」。",
+        "praise-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-03"
     },
@@ -448,11 +408,7 @@ export default {
       "masked": "The bakery received a lot of ____.",
       "options": [
         "praise-mcq-04",
-        "praise-mcq-03",
-        "praise-mcq-05",
-        "praise-mcq-02",
-        "praise-mcq-06",
-        "praise-mcq-01"
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praise」指「對某人／某事表達的正面評價與欣賞」。",
       "sentenceIndex": 7,
@@ -461,12 +417,8 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-04": "本句指「對某人／某事表達的正面評價與欣賞」。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-01": "「明確表達對某人／某事高度肯定、欣賞或認可」與本句語境不同。"
+        "praise-mcq-04": "本句的「praise」指「對某人／某事表達的正面評價與欣賞」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-04"
     },
@@ -478,11 +430,7 @@ export default {
       "masked": "Her work deserves ____.",
       "options": [
         "praise-mcq-04",
-        "praise-mcq-03",
-        "praise-mcq-05",
-        "praise-mcq-02",
-        "praise-mcq-06",
-        "praise-mcq-01"
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praise」指「對某人／某事表達的正面評價與欣賞」。",
       "sentenceIndex": 8,
@@ -491,12 +439,8 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-04": "本句指「對某人／某事表達的正面評價與欣賞」。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-01": "「明確表達對某人／某事高度肯定、欣賞或認可」與本句語境不同。"
+        "praise-mcq-04": "本句的「praise」指「對某人／某事表達的正面評價與欣賞」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-04"
     },
@@ -508,11 +452,9 @@ export default {
       "masked": "The new product ____ from customers.",
       "options": [
         "praise-mcq-05",
-        "praise-mcq-04",
-        "praise-mcq-06",
-        "praise-mcq-03",
         "praise-mcq-07",
-        "praise-mcq-02"
+        "praise-mcq-06",
+        "praise-mcq-03"
       ],
       "explanation": "本句的「won praise」指「非常強烈、高度的正面評價」。",
       "sentenceIndex": 9,
@@ -521,12 +463,10 @@ export default {
         "won praise"
       ],
       "optionReasons": {
-        "praise-mcq-05": "本句指「非常強烈、高度的正面評價」。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。"
+        "praise-mcq-05": "本句的「won praise」指「非常強烈、高度的正面評價」。",
+        "praise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-05"
     },
@@ -538,11 +478,9 @@ export default {
       "masked": "The staff earned ____ for their professionalism.",
       "options": [
         "praise-mcq-05",
-        "praise-mcq-04",
         "praise-mcq-06",
         "praise-mcq-03",
-        "praise-mcq-07",
-        "praise-mcq-02"
+        "praise-mcq-07"
       ],
       "explanation": "本句的「praise」指「非常強烈、高度的正面評價」。",
       "sentenceIndex": 10,
@@ -551,12 +489,10 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-05": "本句指「非常強烈、高度的正面評價」。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。"
+        "praise-mcq-05": "本句的「praise」指「非常強烈、高度的正面評價」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-05"
     },
@@ -568,10 +504,7 @@ export default {
       "masked": "The bakery received ____ from local customers.",
       "options": [
         "praise-mcq-05",
-        "praise-mcq-04",
         "praise-mcq-06",
-        "praise-mcq-03",
-        "praise-mcq-07",
         "praise-mcq-02"
       ],
       "explanation": "本句的「high praise」指「非常強烈、高度的正面評價」。",
@@ -581,12 +514,9 @@ export default {
         "high praise"
       ],
       "optionReasons": {
-        "praise-mcq-05": "本句指「非常強烈、高度的正面評價」。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。"
+        "praise-mcq-05": "本句的「high praise」指「非常強烈、高度的正面評價」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-05"
     },
@@ -598,11 +528,9 @@ export default {
       "masked": "That is high ____ coming from such a strict critic.",
       "options": [
         "praise-mcq-05",
-        "praise-mcq-04",
-        "praise-mcq-06",
-        "praise-mcq-03",
         "praise-mcq-07",
-        "praise-mcq-02"
+        "praise-mcq-03",
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praise」指「非常強烈、高度的正面評價」。",
       "sentenceIndex": 12,
@@ -611,12 +539,10 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-05": "本句指「非常強烈、高度的正面評價」。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-02": "「因某項行為、品質或成就而稱讚某人」與本句語境不同。"
+        "praise-mcq-05": "本句的「praise」指「非常強烈、高度的正面評價」。",
+        "praise-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-05"
     },
@@ -628,11 +554,9 @@ export default {
       "masked": "They gathered to ____ God.",
       "options": [
         "praise-mcq-06",
+        "praise-mcq-03",
         "praise-mcq-05",
-        "praise-mcq-07",
-        "praise-mcq-04",
-        "praise-mcq-08",
-        "praise-mcq-03"
+        "praise-mcq-07"
       ],
       "explanation": "本句的「praise」指「以崇敬、感恩或敬拜方式讚美神」。",
       "sentenceIndex": 13,
@@ -641,12 +565,10 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-06": "本句指「以崇敬、感恩或敬拜方式讚美神」。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。"
+        "praise-mcq-06": "本句的「praise」指「以崇敬、感恩或敬拜方式讚美神」。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-06"
     },
@@ -658,11 +580,7 @@ export default {
       "masked": "The song ____ God’s mercy.",
       "options": [
         "praise-mcq-06",
-        "praise-mcq-05",
-        "praise-mcq-07",
-        "praise-mcq-04",
-        "praise-mcq-08",
-        "praise-mcq-03"
+        "praise-mcq-04"
       ],
       "explanation": "本句的「praises」指「以崇敬、感恩或敬拜方式讚美神」。",
       "sentenceIndex": 14,
@@ -671,12 +589,8 @@ export default {
         "praises"
       ],
       "optionReasons": {
-        "praise-mcq-06": "本句指「以崇敬、感恩或敬拜方式讚美神」。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。"
+        "praise-mcq-06": "本句的「praises」指「以崇敬、感恩或敬拜方式讚美神」。",
+        "praise-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-06"
     },
@@ -688,11 +602,8 @@ export default {
       "masked": "The congregation sang songs of ____.",
       "options": [
         "praise-mcq-06",
-        "praise-mcq-05",
-        "praise-mcq-07",
-        "praise-mcq-04",
-        "praise-mcq-08",
-        "praise-mcq-03"
+        "praise-mcq-01",
+        "praise-mcq-09"
       ],
       "explanation": "本句的「praise」指「以崇敬、感恩或敬拜方式讚美神」。",
       "sentenceIndex": 15,
@@ -701,12 +612,9 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-06": "本句指「以崇敬、感恩或敬拜方式讚美神」。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。"
+        "praise-mcq-06": "本句的「praise」指「以崇敬、感恩或敬拜方式讚美神」。",
+        "praise-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-06"
     },
@@ -719,10 +627,8 @@ export default {
       "options": [
         "praise-mcq-06",
         "praise-mcq-05",
-        "praise-mcq-07",
-        "praise-mcq-04",
-        "praise-mcq-08",
-        "praise-mcq-03"
+        "praise-mcq-03",
+        "praise-mcq-07"
       ],
       "explanation": "本句的「praise」指「以崇敬、感恩或敬拜方式讚美神」。",
       "sentenceIndex": 16,
@@ -731,12 +637,10 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-06": "本句指「以崇敬、感恩或敬拜方式讚美神」。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-03": "「公開肯定某人／某物具有某種優點或地位」與本句語境不同。"
+        "praise-mcq-06": "本句的「praise」指「以崇敬、感恩或敬拜方式讚美神」。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-06"
     },
@@ -748,11 +652,9 @@ export default {
       "masked": "Their commitment to quality is ____.",
       "options": [
         "praise-mcq-07",
-        "praise-mcq-06",
-        "praise-mcq-08",
         "praise-mcq-05",
-        "praise-mcq-09",
-        "praise-mcq-04"
+        "praise-mcq-03",
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praiseworthy」指「因表現、品格或行為良好而值得稱讚的」。",
       "sentenceIndex": 17,
@@ -761,12 +663,10 @@ export default {
         "praiseworthy"
       ],
       "optionReasons": {
-        "praise-mcq-07": "本句指「因表現、品格或行為良好而值得稱讚的」。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-09": "「用表面上的弱稱讚暗示實際評價不高」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。"
+        "praise-mcq-07": "本句的「praiseworthy」指「因表現、品格或行為良好而值得稱讚的」。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-07"
     },
@@ -778,11 +678,9 @@ export default {
       "masked": "Her honesty was ____.",
       "options": [
         "praise-mcq-07",
-        "praise-mcq-06",
-        "praise-mcq-08",
         "praise-mcq-05",
-        "praise-mcq-09",
-        "praise-mcq-04"
+        "praise-mcq-03",
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praiseworthy」指「因表現、品格或行為良好而值得稱讚的」。",
       "sentenceIndex": 18,
@@ -791,12 +689,10 @@ export default {
         "praiseworthy"
       ],
       "optionReasons": {
-        "praise-mcq-07": "本句指「因表現、品格或行為良好而值得稱讚的」。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-09": "「用表面上的弱稱讚暗示實際評價不高」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。"
+        "praise-mcq-07": "本句的「praiseworthy」指「因表現、品格或行為良好而值得稱讚的」。",
+        "praise-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-07"
     },
@@ -808,11 +704,7 @@ export default {
       "masked": "Her customers are always ____.",
       "options": [
         "praise-mcq-08",
-        "praise-mcq-07",
-        "praise-mcq-09",
-        "praise-mcq-06",
-        "praise-mcq-05",
-        "praise-mcq-04"
+        "praise-mcq-06"
       ],
       "explanation": "本句的「singing her praises」指「非常熱情、不斷地稱讚某人」。",
       "sentenceIndex": 19,
@@ -821,12 +713,8 @@ export default {
         "singing her praises"
       ],
       "optionReasons": {
-        "praise-mcq-08": "本句指「非常熱情、不斷地稱讚某人」。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-09": "「用表面上的弱稱讚暗示實際評價不高」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。"
+        "praise-mcq-08": "本句的「singing her praises」指「非常熱情、不斷地稱讚某人」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-08"
     },
@@ -838,11 +726,7 @@ export default {
       "masked": "His colleagues sang his ____ after the event.",
       "options": [
         "praise-mcq-08",
-        "praise-mcq-07",
-        "praise-mcq-09",
-        "praise-mcq-06",
-        "praise-mcq-05",
-        "praise-mcq-04"
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praises」指「非常熱情、不斷地稱讚某人」。",
       "sentenceIndex": 20,
@@ -851,12 +735,8 @@ export default {
         "praises"
       ],
       "optionReasons": {
-        "praise-mcq-08": "本句指「非常熱情、不斷地稱讚某人」。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-09": "「用表面上的弱稱讚暗示實際評價不高」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。"
+        "praise-mcq-08": "本句的「praises」指「非常熱情、不斷地稱讚某人」。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-08"
     },
@@ -868,11 +748,8 @@ export default {
       "masked": "Calling the food ‘quite acceptable’ sounded like ____.",
       "options": [
         "praise-mcq-09",
-        "praise-mcq-08",
-        "praise-mcq-07",
-        "praise-mcq-06",
-        "praise-mcq-05",
-        "praise-mcq-04"
+        "praise-mcq-03",
+        "praise-mcq-06"
       ],
       "explanation": "本句的「damning it with faint praise」指「用表面上的弱稱讚暗示實際評價不高」。",
       "sentenceIndex": 21,
@@ -881,12 +758,9 @@ export default {
         "damning it with faint praise"
       ],
       "optionReasons": {
-        "praise-mcq-09": "本句指「用表面上的弱稱讚暗示實際評價不高」。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。"
+        "praise-mcq-09": "本句的「damning it with faint praise」指「用表面上的弱稱讚暗示實際評價不高」。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-09"
     },
@@ -898,11 +772,8 @@ export default {
       "masked": "The review damned the film with faint ____.",
       "options": [
         "praise-mcq-09",
-        "praise-mcq-08",
-        "praise-mcq-07",
-        "praise-mcq-06",
-        "praise-mcq-05",
-        "praise-mcq-04"
+        "praise-mcq-03",
+        "praise-mcq-06"
       ],
       "explanation": "本句的「praise」指「用表面上的弱稱讚暗示實際評價不高」。",
       "sentenceIndex": 22,
@@ -911,12 +782,9 @@ export default {
         "praise"
       ],
       "optionReasons": {
-        "praise-mcq-09": "本句指「用表面上的弱稱讚暗示實際評價不高」。",
-        "praise-mcq-08": "「非常熱情、不斷地稱讚某人」與本句語境不同。",
-        "praise-mcq-07": "「因表現、品格或行為良好而值得稱讚的」與本句語境不同。",
-        "praise-mcq-06": "「以崇敬、感恩或敬拜方式讚美神」與本句語境不同。",
-        "praise-mcq-05": "「非常強烈、高度的正面評價」與本句語境不同。",
-        "praise-mcq-04": "「對某人／某事表達的正面評價與欣賞」與本句語境不同。"
+        "praise-mcq-09": "本句的「praise」指「用表面上的弱稱讚暗示實際評價不高」。",
+        "praise-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "praise-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "praise-mcq-09"
     }
@@ -928,5 +796,7 @@ export default {
     "sha256": "239e01d0ad553c3451e21f9743e46c0beb6ce5bce78637e59430fb4558763ba0",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

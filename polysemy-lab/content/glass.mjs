@@ -140,16 +140,6 @@ export default {
       "note": "來源詞義：玻璃器皿",
       "examples": [
         [
-          "The picture is protected by glass.",
-          "那幅畫由玻璃片保護着。",
-          "玻璃器皿"
-        ],
-        [
-          "There was a crack in the glass.",
-          "那塊玻璃有一道裂痕。",
-          "玻璃器皿"
-        ],
-        [
           "The restaurant uses elegant glassware.",
           "餐廳使用很精緻的玻璃器皿。",
           "玻璃器皿"
@@ -491,6 +481,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "glass-reviewed-ed309f4ef2",
+      "title": "安裝或使用在某物上的玻璃片或玻璃表面",
+      "form": "glass · source section 8",
+      "en": "安裝或使用在某物上的玻璃片或玻璃表面",
+      "zh": "安裝或使用在某物上的玻璃片或玻璃表面",
+      "note": "對照原始教材第 8 節及例句核實。",
+      "examples": [
+        [
+          "The picture is protected by glass.",
+          "那幅畫由玻璃片保護着。",
+          "安裝或使用在某物上的玻璃片或玻璃表面"
+        ],
+        [
+          "There was a crack in the glass.",
+          "那塊玻璃有一道裂痕。",
+          "安裝或使用在某物上的玻璃片或玻璃表面"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -502,11 +514,9 @@ export default {
       "masked": "He wore ____.",
       "options": [
         "glass-mcq-05",
-        "glass-mcq-04",
-        "glass-mcq-06",
-        "glass-mcq-03",
-        "glass-mcq-07",
-        "glass-mcq-02"
+        "glass-mcq-22",
+        "glass-mcq-18",
+        "glass-mcq-20"
       ],
       "explanation": "本句的「a pair of glasses」指「眼鏡」。",
       "sentenceIndex": 0,
@@ -515,12 +525,10 @@ export default {
         "a pair of glasses"
       ],
       "optionReasons": {
-        "glass-mcq-05": "本句指「眼鏡」。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-03": "「玻璃杯」是「a glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-02": "「玻璃門」是「glass door」的用法，與本句語境不同。"
+        "glass-mcq-05": "本句的「a pair of glasses」指「眼鏡」。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-05"
     },
@@ -532,11 +540,9 @@ export default {
       "masked": "I can't read without my ____.",
       "options": [
         "glass-mcq-05",
-        "glass-mcq-04",
-        "glass-mcq-06",
-        "glass-mcq-03",
-        "glass-mcq-07",
-        "glass-mcq-02"
+        "glass-mcq-21",
+        "glass-mcq-17",
+        "glass-mcq-18"
       ],
       "explanation": "本句的「glasses」指「眼鏡」。",
       "sentenceIndex": 1,
@@ -545,12 +551,10 @@ export default {
         "glasses"
       ],
       "optionReasons": {
-        "glass-mcq-05": "本句指「眼鏡」。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-03": "「玻璃杯」是「a glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-02": "「玻璃門」是「glass door」的用法，與本句語境不同。"
+        "glass-mcq-05": "本句的「glasses」指「眼鏡」。",
+        "glass-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-05"
     },
@@ -562,11 +566,9 @@ export default {
       "masked": "She took off her ____ and cleaned them.",
       "options": [
         "glass-mcq-05",
-        "glass-mcq-04",
-        "glass-mcq-06",
-        "glass-mcq-03",
-        "glass-mcq-07",
-        "glass-mcq-02"
+        "glass-pdf-001",
+        "glass-mcq-17",
+        "glass-mcq-19"
       ],
       "explanation": "本句的「glasses」指「眼鏡」。",
       "sentenceIndex": 2,
@@ -575,12 +577,10 @@ export default {
         "glasses"
       ],
       "optionReasons": {
-        "glass-mcq-05": "本句指「眼鏡」。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-03": "「玻璃杯」是「a glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-02": "「玻璃門」是「glass door」的用法，與本句語境不同。"
+        "glass-mcq-05": "本句的「glasses」指「眼鏡」。",
+        "glass-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-05"
     },
@@ -592,11 +592,8 @@ export default {
       "masked": "He bought a new ____.",
       "options": [
         "glass-mcq-06",
-        "glass-mcq-05",
-        "glass-mcq-07",
-        "glass-mcq-04",
-        "glass-mcq-08",
-        "glass-mcq-03"
+        "glass-mcq-03",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「pair of glasses」指「一副眼鏡」。",
       "sentenceIndex": 3,
@@ -605,12 +602,9 @@ export default {
         "pair of glasses"
       ],
       "optionReasons": {
-        "glass-mcq-06": "本句指「一副眼鏡」。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-03": "「玻璃杯」是「a glass」的用法，與本句語境不同。"
+        "glass-mcq-06": "本句的「pair of glasses」指「一副眼鏡」。",
+        "glass-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-06"
     },
@@ -622,11 +616,9 @@ export default {
       "masked": "I need another ____ for reading.",
       "options": [
         "glass-mcq-06",
-        "glass-mcq-05",
-        "glass-mcq-07",
-        "glass-mcq-04",
-        "glass-mcq-08",
-        "glass-mcq-03"
+        "glass-reviewed-ed309f4ef2",
+        "glass-mcq-17",
+        "glass-mcq-19"
       ],
       "explanation": "本句的「pair of glasses」指「一副眼鏡」。",
       "sentenceIndex": 4,
@@ -635,12 +627,10 @@ export default {
         "pair of glasses"
       ],
       "optionReasons": {
-        "glass-mcq-06": "本句指「一副眼鏡」。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-03": "「玻璃杯」是「a glass」的用法，與本句語境不同。"
+        "glass-mcq-06": "本句的「pair of glasses」指「一副眼鏡」。",
+        "glass-reviewed-ed309f4ef2": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-06"
     },
@@ -652,11 +642,9 @@ export default {
       "masked": "He put on his ____.",
       "options": [
         "glass-mcq-07",
-        "glass-mcq-06",
         "glass-mcq-08",
-        "glass-mcq-05",
-        "glass-mcq-09",
-        "glass-mcq-04"
+        "glass-mcq-18",
+        "glass-mcq-22"
       ],
       "explanation": "本句的「reading glasses」指「閱讀／老花眼鏡」。",
       "sentenceIndex": 5,
@@ -665,12 +653,10 @@ export default {
         "reading glasses"
       ],
       "optionReasons": {
-        "glass-mcq-07": "本句指「閱讀／老花眼鏡」。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。"
+        "glass-mcq-07": "本句的「reading glasses」指「閱讀／老花眼鏡」。",
+        "glass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-07"
     },
@@ -682,11 +668,9 @@ export default {
       "masked": "She keeps her ____ beside the bed.",
       "options": [
         "glass-mcq-07",
-        "glass-mcq-06",
-        "glass-mcq-08",
-        "glass-mcq-05",
-        "glass-mcq-09",
-        "glass-mcq-04"
+        "glass-reviewed-ed309f4ef2",
+        "glass-mcq-17",
+        "glass-mcq-19"
       ],
       "explanation": "本句的「reading glasses」指「閱讀／老花眼鏡」。",
       "sentenceIndex": 6,
@@ -695,12 +679,10 @@ export default {
         "reading glasses"
       ],
       "optionReasons": {
-        "glass-mcq-07": "本句指「閱讀／老花眼鏡」。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。"
+        "glass-mcq-07": "本句的「reading glasses」指「閱讀／老花眼鏡」。",
+        "glass-reviewed-ed309f4ef2": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-07"
     },
@@ -712,11 +694,9 @@ export default {
       "masked": "The table is made of ____.",
       "options": [
         "glass-mcq-22",
-        "glass-mcq-21",
-        "glass-mcq-20",
-        "glass-mcq-19",
-        "glass-mcq-18",
-        "glass-mcq-17"
+        "glass-mcq-11",
+        "glass-mcq-13",
+        "glass-mcq-14"
       ],
       "explanation": "本句的「glass」指「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」。",
       "sentenceIndex": 7,
@@ -725,12 +705,10 @@ export default {
         "glass"
       ],
       "optionReasons": {
-        "glass-mcq-22": "本句指「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-22": "本句的「glass」指「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」。",
+        "glass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-22"
     },
@@ -742,10 +720,8 @@ export default {
       "masked": "Be careful—the broken ____ is sharp.",
       "options": [
         "glass-mcq-22",
-        "glass-mcq-21",
-        "glass-mcq-20",
-        "glass-mcq-19",
-        "glass-mcq-18",
+        "glass-mcq-05",
+        "glass-reviewed-ed309f4ef2",
         "glass-mcq-17"
       ],
       "explanation": "本句的「glass」指「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」。",
@@ -755,12 +731,10 @@ export default {
         "glass"
       ],
       "optionReasons": {
-        "glass-mcq-22": "本句指「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-22": "本句的「glass」指「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」。",
+        "glass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glass-reviewed-ed309f4ef2": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-22"
     },
@@ -772,11 +746,9 @@ export default {
       "masked": "He pushed open the ____.",
       "options": [
         "glass-pdf-001",
-        "glass-mcq-07",
         "glass-mcq-09",
-        "glass-mcq-06",
-        "glass-mcq-10",
-        "glass-mcq-05"
+        "glass-mcq-17",
+        "glass-mcq-19"
       ],
       "explanation": "本句的「glass door」指「由玻璃製成的某物」。",
       "sentenceIndex": 9,
@@ -785,12 +757,10 @@ export default {
         "glass door"
       ],
       "optionReasons": {
-        "glass-pdf-001": "本句指「由玻璃製成的某物」。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
+        "glass-pdf-001": "本句的「glass door」指「由玻璃製成的某物」。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-pdf-001"
     },
@@ -802,11 +772,9 @@ export default {
       "masked": "The office has large ____.",
       "options": [
         "glass-pdf-001",
-        "glass-mcq-07",
-        "glass-mcq-09",
         "glass-mcq-06",
-        "glass-mcq-10",
-        "glass-mcq-05"
+        "glass-mcq-18",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「glass walls」指「由玻璃製成的某物」。",
       "sentenceIndex": 10,
@@ -815,12 +783,10 @@ export default {
         "glass walls"
       ],
       "optionReasons": {
-        "glass-pdf-001": "本句指「由玻璃製成的某物」。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
+        "glass-pdf-001": "本句的「glass walls」指「由玻璃製成的某物」。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-pdf-001"
     },
@@ -832,11 +798,8 @@ export default {
       "masked": "She poured water into a ____.",
       "options": [
         "glass-mcq-03",
-        "glass-mcq-02",
-        "glass-mcq-04",
-        "glass-mcq-01",
         "glass-mcq-05",
-        "glass-mcq-06"
+        "glass-mcq-17"
       ],
       "explanation": "本句的「glass」指「玻璃杯」。",
       "sentenceIndex": 11,
@@ -845,12 +808,9 @@ export default {
         "glass"
       ],
       "optionReasons": {
-        "glass-mcq-03": "本句指「玻璃杯」。",
-        "glass-mcq-02": "「玻璃門」是「glass door」的用法，與本句語境不同。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-01": "「玻璃」是「glass (material)」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。"
+        "glass-mcq-03": "本句的「glass」指「玻璃杯」。",
+        "glass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-03"
     },
@@ -862,11 +822,9 @@ export default {
       "masked": "He dropped the ____ on the floor.",
       "options": [
         "glass-mcq-03",
-        "glass-mcq-02",
-        "glass-mcq-04",
-        "glass-mcq-01",
-        "glass-mcq-05",
-        "glass-mcq-06"
+        "glass-mcq-09",
+        "glass-mcq-14",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「glass」指「玻璃杯」。",
       "sentenceIndex": 12,
@@ -875,12 +833,10 @@ export default {
         "glass"
       ],
       "optionReasons": {
-        "glass-mcq-03": "本句指「玻璃杯」。",
-        "glass-mcq-02": "「玻璃門」是「glass door」的用法，與本句語境不同。",
-        "glass-mcq-04": "「一杯水」是「a glass of water」的用法，與本句語境不同。",
-        "glass-mcq-01": "「玻璃」是「glass (material)」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。"
+        "glass-mcq-03": "本句的「glass」指「玻璃杯」。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-03"
     },
@@ -892,10 +848,8 @@ export default {
       "masked": "Can I have a ____?",
       "options": [
         "glass-mcq-20",
+        "glass-mcq-06",
         "glass-mcq-19",
-        "glass-mcq-21",
-        "glass-mcq-18",
-        "glass-mcq-22",
         "glass-mcq-17"
       ],
       "explanation": "本句的「glass of water」指「裝上玻璃」。",
@@ -905,12 +859,10 @@ export default {
         "glass of water"
       ],
       "optionReasons": {
-        "glass-mcq-20": "本句指「裝上玻璃」。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-22": "「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」是「4. glass（材料：玻璃） — 玻璃」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-20": "本句的「glass of water」指「裝上玻璃」。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-20"
     },
@@ -922,11 +874,9 @@ export default {
       "masked": "She drank two ____.",
       "options": [
         "glass-mcq-20",
-        "glass-mcq-19",
-        "glass-mcq-21",
-        "glass-mcq-18",
+        "glass-mcq-13",
         "glass-mcq-22",
-        "glass-mcq-17"
+        "glass-mcq-14"
       ],
       "explanation": "本句的「glasses of juice」指「裝上玻璃」。",
       "sentenceIndex": 14,
@@ -935,74 +885,68 @@ export default {
         "glasses of juice"
       ],
       "optionReasons": {
-        "glass-mcq-20": "本句指「裝上玻璃」。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-22": "「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」是「4. glass（材料：玻璃） — 玻璃」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-20": "本句的「glasses of juice」指「裝上玻璃」。",
+        "glass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-20"
     },
     {
       "id": "glass-08-0",
-      "sense": "glass-mcq-08",
+      "sense": "glass-reviewed-ed309f4ef2",
       "en": "The picture is protected by glass.",
       "zh": "那幅畫由玻璃片保護着。",
       "masked": "The picture is protected by ____.",
       "options": [
-        "glass-mcq-08",
-        "glass-mcq-07",
-        "glass-mcq-09",
+        "glass-reviewed-ed309f4ef2",
+        "glass-mcq-19",
         "glass-mcq-06",
-        "glass-mcq-10",
-        "glass-mcq-05"
+        "glass-mcq-17"
       ],
-      "explanation": "本句的「glass」指「玻璃器皿」。",
+      "explanation": "對照完整句子：「那幅畫由玻璃片保護着。」。這裡的「glass」表示「安裝或使用在某物上的玻璃片或玻璃表面」。",
       "sentenceIndex": 15,
       "sourcePractice": 1,
       "targets": [
         "glass"
       ],
       "optionReasons": {
-        "glass-mcq-08": "本句指「玻璃器皿」。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
+        "glass-reviewed-ed309f4ef2": "對照完整句子：「那幅畫由玻璃片保護着。」。這裡的「glass」表示「安裝或使用在某物上的玻璃片或玻璃表面」。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "glass-mcq-08"
+      "correctOption": "glass-reviewed-ed309f4ef2",
+      "previousCorrectOption": "glass-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "glass-08-1",
-      "sense": "glass-mcq-08",
+      "sense": "glass-reviewed-ed309f4ef2",
       "en": "There was a crack in the glass.",
       "zh": "那塊玻璃有一道裂痕。",
       "masked": "There was a crack in the ____.",
       "options": [
-        "glass-mcq-08",
-        "glass-mcq-07",
-        "glass-mcq-09",
-        "glass-mcq-06",
+        "glass-reviewed-ed309f4ef2",
         "glass-mcq-10",
-        "glass-mcq-05"
+        "glass-mcq-22",
+        "glass-mcq-18"
       ],
-      "explanation": "本句的「glass」指「玻璃器皿」。",
+      "explanation": "對照完整句子：「那塊玻璃有一道裂痕。」。這裡的「glass」表示「安裝或使用在某物上的玻璃片或玻璃表面」。",
       "sentenceIndex": 16,
       "sourcePractice": 2,
       "targets": [
         "glass"
       ],
       "optionReasons": {
-        "glass-mcq-08": "本句指「玻璃器皿」。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
+        "glass-reviewed-ed309f4ef2": "對照完整句子：「那塊玻璃有一道裂痕。」。這裡的「glass」表示「安裝或使用在某物上的玻璃片或玻璃表面」。",
+        "glass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "glass-mcq-08"
+      "correctOption": "glass-reviewed-ed309f4ef2",
+      "previousCorrectOption": "glass-mcq-08",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "glass-09-0",
@@ -1012,11 +956,9 @@ export default {
       "masked": "The restaurant uses elegant ____.",
       "options": [
         "glass-mcq-08",
-        "glass-mcq-07",
+        "glass-mcq-17",
         "glass-mcq-09",
-        "glass-mcq-06",
-        "glass-mcq-10",
-        "glass-mcq-05"
+        "glass-mcq-18"
       ],
       "explanation": "本句的「glassware」指「玻璃器皿」。",
       "sentenceIndex": 17,
@@ -1025,12 +967,10 @@ export default {
         "glassware"
       ],
       "optionReasons": {
-        "glass-mcq-08": "本句指「玻璃器皿」。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
+        "glass-mcq-08": "本句的「glassware」指「玻璃器皿」。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-08"
     },
@@ -1042,11 +982,9 @@ export default {
       "masked": "Please wash the ____ carefully.",
       "options": [
         "glass-mcq-08",
-        "glass-mcq-07",
-        "glass-mcq-09",
-        "glass-mcq-06",
         "glass-mcq-10",
-        "glass-mcq-05"
+        "glass-mcq-22",
+        "glass-mcq-14"
       ],
       "explanation": "本句的「glassware」指「玻璃器皿」。",
       "sentenceIndex": 18,
@@ -1055,12 +993,10 @@ export default {
         "glassware"
       ],
       "optionReasons": {
-        "glass-mcq-08": "本句指「玻璃器皿」。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-05": "「眼鏡」是「glasses」的用法，與本句語境不同。"
+        "glass-mcq-08": "本句的「glassware」指「玻璃器皿」。",
+        "glass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-08"
     },
@@ -1072,11 +1008,9 @@ export default {
       "masked": "He examined the stamp with a ____.",
       "options": [
         "glass-mcq-09",
-        "glass-mcq-08",
-        "glass-mcq-10",
-        "glass-mcq-07",
         "glass-mcq-11",
-        "glass-mcq-06"
+        "glass-mcq-14",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「magnifying glass」指「放大鏡」。",
       "sentenceIndex": 19,
@@ -1085,12 +1019,10 @@ export default {
         "magnifying glass"
       ],
       "optionReasons": {
-        "glass-mcq-09": "本句指「放大鏡」。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。"
+        "glass-mcq-09": "本句的「magnifying glass」指「放大鏡」。",
+        "glass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-09"
     },
@@ -1102,11 +1034,9 @@ export default {
       "masked": "Use a ____ to read the tiny print.",
       "options": [
         "glass-mcq-09",
-        "glass-mcq-08",
-        "glass-mcq-10",
-        "glass-mcq-07",
-        "glass-mcq-11",
-        "glass-mcq-06"
+        "glass-mcq-20",
+        "glass-mcq-17",
+        "glass-mcq-18"
       ],
       "explanation": "本句的「magnifying glass」指「放大鏡」。",
       "sentenceIndex": 20,
@@ -1115,12 +1045,10 @@ export default {
         "magnifying glass"
       ],
       "optionReasons": {
-        "glass-mcq-09": "本句指「放大鏡」。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-06": "「一副眼鏡」是「a pair of glasses」的用法，與本句語境不同。"
+        "glass-mcq-09": "本句的「magnifying glass」指「放大鏡」。",
+        "glass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-09"
     },
@@ -1132,11 +1060,9 @@ export default {
       "masked": "She looked at herself in the ____.",
       "options": [
         "glass-mcq-10",
-        "glass-mcq-09",
-        "glass-mcq-11",
         "glass-mcq-08",
-        "glass-mcq-12",
-        "glass-mcq-07"
+        "glass-mcq-18",
+        "glass-mcq-14"
       ],
       "explanation": "本句的「looking glass」指「鏡子」。",
       "sentenceIndex": 21,
@@ -1145,12 +1071,10 @@ export default {
         "looking glass"
       ],
       "optionReasons": {
-        "glass-mcq-10": "本句指「鏡子」。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。"
+        "glass-mcq-10": "本句的「looking glass」指「鏡子」。",
+        "glass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-10"
     },
@@ -1162,11 +1086,9 @@ export default {
       "masked": "The phrase ____ sounds old-fashioned today.",
       "options": [
         "glass-mcq-10",
-        "glass-mcq-09",
-        "glass-mcq-11",
-        "glass-mcq-08",
-        "glass-mcq-12",
-        "glass-mcq-07"
+        "glass-mcq-22",
+        "glass-mcq-17",
+        "glass-mcq-20"
       ],
       "explanation": "本句的「looking glass」指「鏡子」。",
       "sentenceIndex": 22,
@@ -1175,12 +1097,10 @@ export default {
         "looking glass"
       ],
       "optionReasons": {
-        "glass-mcq-10": "本句指「鏡子」。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-07": "「閱讀／老花眼鏡」是「reading glasses」的用法，與本句語境不同。"
+        "glass-mcq-10": "本句的「looking glass」指「鏡子」。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-10"
     },
@@ -1192,11 +1112,9 @@ export default {
       "masked": "Car windows are made from ____.",
       "options": [
         "glass-mcq-11",
-        "glass-mcq-10",
-        "glass-mcq-12",
-        "glass-mcq-09",
-        "glass-mcq-13",
-        "glass-mcq-08"
+        "glass-mcq-07",
+        "glass-mcq-19",
+        "glass-mcq-14"
       ],
       "explanation": "本句的「safety glass」指「安全玻璃」。",
       "sentenceIndex": 23,
@@ -1205,12 +1123,10 @@ export default {
         "safety glass"
       ],
       "optionReasons": {
-        "glass-mcq-11": "本句指「安全玻璃」。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。"
+        "glass-mcq-11": "本句的「safety glass」指「安全玻璃」。",
+        "glass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-11"
     },
@@ -1222,11 +1138,9 @@ export default {
       "masked": "The door uses reinforced ____.",
       "options": [
         "glass-mcq-11",
-        "glass-mcq-10",
-        "glass-mcq-12",
-        "glass-mcq-09",
-        "glass-mcq-13",
-        "glass-mcq-08"
+        "glass-mcq-07",
+        "glass-mcq-19",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「safety glass」指「安全玻璃」。",
       "sentenceIndex": 24,
@@ -1235,12 +1149,10 @@ export default {
         "safety glass"
       ],
       "optionReasons": {
-        "glass-mcq-11": "本句指「安全玻璃」。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-08": "「玻璃器皿」是「glassware」的用法，與本句語境不同。"
+        "glass-mcq-11": "本句的「safety glass」指「安全玻璃」。",
+        "glass-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-11"
     },
@@ -1252,11 +1164,9 @@ export default {
       "masked": "The church has beautiful ____.",
       "options": [
         "glass-mcq-12",
-        "glass-mcq-11",
-        "glass-mcq-13",
-        "glass-mcq-10",
         "glass-mcq-14",
-        "glass-mcq-09"
+        "glass-mcq-09",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「stained glass」指「彩繪玻璃」。",
       "sentenceIndex": 25,
@@ -1265,12 +1175,10 @@ export default {
         "stained glass"
       ],
       "optionReasons": {
-        "glass-mcq-12": "本句指「彩繪玻璃」。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。"
+        "glass-mcq-12": "本句的「stained glass」指「彩繪玻璃」。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-12"
     },
@@ -1282,11 +1190,9 @@ export default {
       "masked": "Sunlight shone through the ____.",
       "options": [
         "glass-mcq-12",
-        "glass-mcq-11",
-        "glass-mcq-13",
-        "glass-mcq-10",
-        "glass-mcq-14",
-        "glass-mcq-09"
+        "glass-mcq-06",
+        "glass-mcq-22",
+        "glass-mcq-18"
       ],
       "explanation": "本句的「stained-glass windows」指「彩繪玻璃」。",
       "sentenceIndex": 26,
@@ -1295,12 +1201,10 @@ export default {
         "stained-glass windows"
       ],
       "optionReasons": {
-        "glass-mcq-12": "本句指「彩繪玻璃」。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。",
-        "glass-mcq-09": "「放大鏡」是「magnifying glass」的用法，與本句語境不同。"
+        "glass-mcq-12": "本句的「stained-glass windows」指「彩繪玻璃」。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-12"
     },
@@ -1312,11 +1216,9 @@ export default {
       "masked": "The lake had a ____.",
       "options": [
         "glass-mcq-13",
-        "glass-mcq-12",
         "glass-mcq-14",
-        "glass-mcq-11",
-        "glass-mcq-15",
-        "glass-mcq-10"
+        "glass-mcq-22",
+        "glass-mcq-15"
       ],
       "explanation": "本句的「glassy surface」指「平滑如鏡的表面」。",
       "sentenceIndex": 27,
@@ -1325,12 +1227,10 @@ export default {
         "glassy surface"
       ],
       "optionReasons": {
-        "glass-mcq-13": "本句指「平滑如鏡的表面」。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。"
+        "glass-mcq-13": "本句的「glassy surface」指「平滑如鏡的表面」。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-13"
     },
@@ -1342,11 +1242,9 @@ export default {
       "masked": "The material has a ____.",
       "options": [
         "glass-mcq-13",
-        "glass-mcq-12",
+        "glass-mcq-20",
         "glass-mcq-14",
-        "glass-mcq-11",
-        "glass-mcq-15",
-        "glass-mcq-10"
+        "glass-mcq-18"
       ],
       "explanation": "本句的「glassy appearance」指「平滑如鏡的表面」。",
       "sentenceIndex": 28,
@@ -1355,12 +1253,10 @@ export default {
         "glassy appearance"
       ],
       "optionReasons": {
-        "glass-mcq-13": "本句指「平滑如鏡的表面」。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。",
-        "glass-mcq-10": "「鏡子」是「looking glass」的用法，與本句語境不同。"
+        "glass-mcq-13": "本句的「glassy appearance」指「平滑如鏡的表面」。",
+        "glass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-13"
     },
@@ -1372,11 +1268,9 @@ export default {
       "masked": "He stared ahead with ____.",
       "options": [
         "glass-mcq-14",
-        "glass-mcq-13",
-        "glass-mcq-15",
-        "glass-mcq-12",
-        "glass-mcq-16",
-        "glass-mcq-11"
+        "glass-mcq-11",
+        "glass-mcq-22",
+        "glass-mcq-18"
       ],
       "explanation": "本句的「glassy eyes」指「呆滯無神的眼睛」。",
       "sentenceIndex": 29,
@@ -1385,12 +1279,10 @@ export default {
         "glassy eyes"
       ],
       "optionReasons": {
-        "glass-mcq-14": "本句指「呆滯無神的眼睛」。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。"
+        "glass-mcq-14": "本句的「glassy eyes」指「呆滯無神的眼睛」。",
+        "glass-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-14"
     },
@@ -1402,11 +1294,9 @@ export default {
       "masked": "She had a ____.",
       "options": [
         "glass-mcq-14",
+        "glass-mcq-18",
         "glass-mcq-13",
-        "glass-mcq-15",
-        "glass-mcq-12",
-        "glass-mcq-16",
-        "glass-mcq-11"
+        "glass-pdf-001"
       ],
       "explanation": "本句的「glassy stare」指「呆滯無神的眼睛」。",
       "sentenceIndex": 30,
@@ -1415,12 +1305,10 @@ export default {
         "glassy stare"
       ],
       "optionReasons": {
-        "glass-mcq-14": "本句指「呆滯無神的眼睛」。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-11": "「安全玻璃」是「safety glass」的用法，與本句語境不同。"
+        "glass-mcq-14": "本句的「glassy stare」指「呆滯無神的眼睛」。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "glass-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-14"
     },
@@ -1432,11 +1320,9 @@ export default {
       "masked": "She spoke about the ____ in senior management.",
       "options": [
         "glass-mcq-15",
-        "glass-mcq-14",
-        "glass-mcq-16",
-        "glass-mcq-13",
+        "glass-mcq-09",
         "glass-mcq-17",
-        "glass-mcq-12"
+        "glass-mcq-19"
       ],
       "explanation": "本句的「glass ceiling」指「玻璃天花板；無形障礙」。",
       "sentenceIndex": 31,
@@ -1445,12 +1331,10 @@ export default {
         "glass ceiling"
       ],
       "optionReasons": {
-        "glass-mcq-15": "本句指「玻璃天花板；無形障礙」。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。"
+        "glass-mcq-15": "本句的「glass ceiling」指「玻璃天花板；無形障礙」。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-15"
     },
@@ -1462,11 +1346,9 @@ export default {
       "masked": "Many employees feel that a ____ limits their careers.",
       "options": [
         "glass-mcq-15",
-        "glass-mcq-14",
-        "glass-mcq-16",
-        "glass-mcq-13",
-        "glass-mcq-17",
-        "glass-mcq-12"
+        "glass-mcq-10",
+        "glass-mcq-19",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「glass ceiling」指「玻璃天花板；無形障礙」。",
       "sentenceIndex": 32,
@@ -1475,12 +1357,10 @@ export default {
         "glass ceiling"
       ],
       "optionReasons": {
-        "glass-mcq-15": "本句指「玻璃天花板；無形障礙」。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-13": "「平滑如鏡的表面」是「glassy surface」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。",
-        "glass-mcq-12": "「彩繪玻璃」是「stained glass」的用法，與本句語境不同。"
+        "glass-mcq-15": "本句的「glass ceiling」指「玻璃天花板；無形障礙」。",
+        "glass-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-15"
     },
@@ -1492,11 +1372,9 @@ export default {
       "masked": "She always sees the ____.",
       "options": [
         "glass-mcq-17",
-        "glass-mcq-16",
-        "glass-mcq-18",
-        "glass-mcq-15",
-        "glass-mcq-19",
-        "glass-mcq-14"
+        "glass-reviewed-ed309f4ef2",
+        "glass-mcq-14",
+        "glass-mcq-19"
       ],
       "explanation": "本句的「glass as half full」指「悲觀角度」。",
       "sentenceIndex": 33,
@@ -1505,12 +1383,10 @@ export default {
         "glass as half full"
       ],
       "optionReasons": {
-        "glass-mcq-17": "本句指「悲觀角度」。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。"
+        "glass-mcq-17": "本句的「glass as half full」指「悲觀角度」。",
+        "glass-reviewed-ed309f4ef2": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-17"
     },
@@ -1522,11 +1398,9 @@ export default {
       "masked": "He tends to see the ____.",
       "options": [
         "glass-mcq-17",
-        "glass-mcq-16",
-        "glass-mcq-18",
-        "glass-mcq-15",
+        "glass-mcq-08",
         "glass-mcq-19",
-        "glass-mcq-14"
+        "glass-mcq-09"
       ],
       "explanation": "本句的「glass as half empty」指「悲觀角度」。",
       "sentenceIndex": 34,
@@ -1535,12 +1409,10 @@ export default {
         "glass as half empty"
       ],
       "optionReasons": {
-        "glass-mcq-17": "本句指「悲觀角度」。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-14": "「呆滯無神的眼睛」是「glassy eyes」的用法，與本句語境不同。"
+        "glass-mcq-17": "本句的「glass as half empty」指「悲觀角度」。",
+        "glass-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-17"
     },
@@ -1552,11 +1424,9 @@ export default {
       "masked": "Let's ____ to the newly married couple.",
       "options": [
         "glass-mcq-18",
-        "glass-mcq-17",
-        "glass-mcq-19",
-        "glass-mcq-16",
-        "glass-mcq-20",
-        "glass-mcq-15"
+        "glass-mcq-06",
+        "glass-mcq-15",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「raise a glass」指「舉杯祝酒」。",
       "sentenceIndex": 35,
@@ -1565,12 +1435,10 @@ export default {
         "raise a glass"
       ],
       "optionReasons": {
-        "glass-mcq-18": "本句指「舉杯祝酒」。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+        "glass-mcq-18": "本句的「raise a glass」指「舉杯祝酒」。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-18"
     },
@@ -1582,11 +1450,9 @@ export default {
       "masked": "Everyone ____ to the winner.",
       "options": [
         "glass-mcq-18",
-        "glass-mcq-17",
-        "glass-mcq-19",
-        "glass-mcq-16",
         "glass-mcq-20",
-        "glass-mcq-15"
+        "glass-mcq-05",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「raised their glasses」指「舉杯祝酒」。",
       "sentenceIndex": 36,
@@ -1595,12 +1461,10 @@ export default {
         "raised their glasses"
       ],
       "optionReasons": {
-        "glass-mcq-18": "本句指「舉杯祝酒」。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-15": "「玻璃天花板；無形障礙」是「glass ceiling」的用法，與本句語境不同。"
+        "glass-mcq-18": "本句的「raised their glasses」指「舉杯祝酒」。",
+        "glass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-18"
     },
@@ -1612,11 +1476,9 @@ export default {
       "masked": "They ____ and celebrated.",
       "options": [
         "glass-mcq-19",
-        "glass-mcq-18",
         "glass-mcq-20",
-        "glass-mcq-17",
-        "glass-mcq-21",
-        "glass-mcq-16"
+        "glass-mcq-06",
+        "glass-mcq-17"
       ],
       "explanation": "本句的「clinked glasses」指「碰杯」。",
       "sentenceIndex": 37,
@@ -1625,12 +1487,10 @@ export default {
         "clinked glasses"
       ],
       "optionReasons": {
-        "glass-mcq-19": "本句指「碰杯」。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。"
+        "glass-mcq-19": "本句的「clinked glasses」指「碰杯」。",
+        "glass-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-19"
     },
@@ -1642,11 +1502,9 @@ export default {
       "masked": "Everyone ____ at midnight.",
       "options": [
         "glass-mcq-19",
-        "glass-mcq-18",
-        "glass-mcq-20",
+        "glass-mcq-13",
         "glass-mcq-17",
-        "glass-mcq-21",
-        "glass-mcq-16"
+        "glass-mcq-08"
       ],
       "explanation": "本句的「clinked glasses」指「碰杯」。",
       "sentenceIndex": 38,
@@ -1655,12 +1513,10 @@ export default {
         "clinked glasses"
       ],
       "optionReasons": {
-        "glass-mcq-19": "本句指「碰杯」。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-16": "「樂觀角度」是「glass half full」的用法，與本句語境不同。"
+        "glass-mcq-19": "本句的「clinked glasses」指「碰杯」。",
+        "glass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-19"
     },
@@ -1672,11 +1528,9 @@ export default {
       "masked": "The balcony was ____ to keep out the wind.",
       "options": [
         "glass-mcq-20",
-        "glass-mcq-19",
-        "glass-mcq-21",
-        "glass-mcq-18",
-        "glass-mcq-22",
-        "glass-mcq-17"
+        "glass-mcq-13",
+        "glass-mcq-17",
+        "glass-mcq-19"
       ],
       "explanation": "本句的「glassed in」指「裝上玻璃」。",
       "sentenceIndex": 39,
@@ -1685,12 +1539,10 @@ export default {
         "glassed in"
       ],
       "optionReasons": {
-        "glass-mcq-20": "本句指「裝上玻璃」。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-22": "「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」是「4. glass（材料：玻璃） — 玻璃」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-20": "本句的「glassed in」指「裝上玻璃」。",
+        "glass-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-20"
     },
@@ -1702,10 +1554,8 @@ export default {
       "masked": "The old frame was carefully ____.",
       "options": [
         "glass-mcq-20",
+        "glass-mcq-06",
         "glass-mcq-19",
-        "glass-mcq-21",
-        "glass-mcq-18",
-        "glass-mcq-22",
         "glass-mcq-17"
       ],
       "explanation": "本句的「glassed」指「裝上玻璃」。",
@@ -1715,12 +1565,10 @@ export default {
         "glassed"
       ],
       "optionReasons": {
-        "glass-mcq-20": "本句指「裝上玻璃」。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-21": "「用玻璃杯襲擊」是「glass someone」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-22": "「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」是「4. glass（材料：玻璃） — 玻璃」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-20": "本句的「glassed」指「裝上玻璃」。",
+        "glass-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-20"
     },
@@ -1732,11 +1580,9 @@ export default {
       "masked": "He was arrested after ____ a man in a bar.",
       "options": [
         "glass-mcq-21",
-        "glass-mcq-20",
-        "glass-mcq-22",
-        "glass-mcq-19",
-        "glass-mcq-18",
-        "glass-mcq-17"
+        "glass-mcq-17",
+        "glass-mcq-05",
+        "glass-mcq-18"
       ],
       "explanation": "本句的「glassing」指「用玻璃杯襲擊」。",
       "sentenceIndex": 41,
@@ -1745,12 +1591,10 @@ export default {
         "glassing"
       ],
       "optionReasons": {
-        "glass-mcq-21": "本句指「用玻璃杯襲擊」。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-22": "「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」是「4. glass（材料：玻璃） — 玻璃」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-21": "本句的「glassing」指「用玻璃杯襲擊」。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-21"
     },
@@ -1762,11 +1606,9 @@ export default {
       "masked": "The report said the victim had been ____.",
       "options": [
         "glass-mcq-21",
-        "glass-mcq-20",
-        "glass-mcq-22",
-        "glass-mcq-19",
-        "glass-mcq-18",
-        "glass-mcq-17"
+        "glass-mcq-14",
+        "glass-mcq-17",
+        "glass-mcq-09"
       ],
       "explanation": "本句的「glassed」指「用玻璃杯襲擊」。",
       "sentenceIndex": 42,
@@ -1775,12 +1617,10 @@ export default {
         "glassed"
       ],
       "optionReasons": {
-        "glass-mcq-21": "本句指「用玻璃杯襲擊」。",
-        "glass-mcq-20": "「裝上玻璃」是「glass something」的用法，與本句語境不同。",
-        "glass-mcq-22": "「通常透明、堅硬但容易碎裂的材料，常用於窗、瓶、杯等」是「4. glass（材料：玻璃） — 玻璃」的用法，與本句語境不同。",
-        "glass-mcq-19": "「碰杯」是「clink glasses」的用法，與本句語境不同。",
-        "glass-mcq-18": "「舉杯祝酒」是「raise a glass」的用法，與本句語境不同。",
-        "glass-mcq-17": "「悲觀角度」是「glass half empty」的用法，與本句語境不同。"
+        "glass-mcq-21": "本句的「glassed」指「用玻璃杯襲擊」。",
+        "glass-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "glass-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "glass-mcq-21"
     }
@@ -1792,5 +1632,7 @@ export default {
     "sha256": "be1690e91120ffdd94e3e3fac1cf003858854eef66097d6d7748797888d86748",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -525,7 +525,7 @@ export default {
     },
     {
       "id": "school-mcq-23",
-      "title": "表示在學校任教的老師",
+      "title": "在學校任教的老師",
       "form": "28. schoolteacher / school teacher（學校老師） — 教師",
       "en": "28. schoolteacher / school teacher（學校老師） — 教師",
       "zh": "表示在學校任教的老師",
@@ -599,11 +599,9 @@ export default {
       "masked": "She was my ____ English teacher.",
       "options": [
         "school-mcq-01",
-        "school-mcq-02",
-        "school-mcq-03",
-        "school-mcq-04",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-13",
+        "school-mcq-19",
+        "school-mcq-11"
       ],
       "explanation": "本句的「secondary school」指「提供有系統正式教育的機構／學校」。",
       "sentenceIndex": 0,
@@ -612,12 +610,10 @@ export default {
         "secondary school"
       ],
       "optionReasons": {
-        "school-mcq-01": "本句指「提供有系統正式教育的機構／學校」。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-01": "本句的「secondary school」指「提供有系統正式教育的機構／學校」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-01"
     },
@@ -629,11 +625,9 @@ export default {
       "masked": "The children walk to ____ every morning.",
       "options": [
         "school-mcq-01",
-        "school-mcq-02",
-        "school-mcq-03",
-        "school-mcq-04",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-13",
+        "school-mcq-11",
+        "school-mcq-19"
       ],
       "explanation": "本句的「school」指「提供有系統正式教育的機構／學校」。",
       "sentenceIndex": 1,
@@ -642,12 +636,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-01": "本句指「提供有系統正式教育的機構／學校」。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-01": "本句的「school」指「提供有系統正式教育的機構／學校」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-01"
     },
@@ -659,11 +651,9 @@ export default {
       "masked": "The ____ has more than a thousand students.",
       "options": [
         "school-mcq-01",
-        "school-mcq-02",
-        "school-mcq-03",
-        "school-mcq-04",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-13",
+        "school-mcq-11",
+        "school-mcq-19"
       ],
       "explanation": "本句的「school」指「提供有系統正式教育的機構／學校」。",
       "sentenceIndex": 2,
@@ -672,12 +662,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-01": "本句指「提供有系統正式教育的機構／學校」。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-01": "本句的「school」指「提供有系統正式教育的機構／學校」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-01"
     },
@@ -689,11 +677,8 @@ export default {
       "masked": "I left my bag at ____.",
       "options": [
         "school-mcq-02",
-        "school-mcq-01",
-        "school-mcq-03",
-        "school-mcq-04",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-13",
+        "school-mcq-12"
       ],
       "explanation": "本句的「school」指「學校實際所在的建築或場所」。",
       "sentenceIndex": 3,
@@ -702,12 +687,9 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-02": "本句指「學校實際所在的建築或場所」。",
-        "school-mcq-01": "「提供有系統正式教育的機構／學校」是「school — institution」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-02": "本句的「school」指「學校實際所在的建築或場所」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-02"
     },
@@ -719,11 +701,9 @@ export default {
       "masked": "The ____ was closed for repairs.",
       "options": [
         "school-mcq-02",
-        "school-mcq-01",
-        "school-mcq-03",
-        "school-mcq-04",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「學校實際所在的建築或場所」。",
       "sentenceIndex": 4,
@@ -732,12 +712,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-02": "本句指「學校實際所在的建築或場所」。",
-        "school-mcq-01": "「提供有系統正式教育的機構／學校」是「school — institution」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-02": "本句的「school」指「學校實際所在的建築或場所」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-02"
     },
@@ -749,11 +727,9 @@ export default {
       "masked": "She ____ nearby.",
       "options": [
         "school-mcq-03",
-        "school-mcq-02",
-        "school-mcq-04",
-        "school-mcq-01",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「goes to school」指「作為學生前往／接受正式學校教育；上學」。",
       "sentenceIndex": 5,
@@ -762,12 +738,10 @@ export default {
         "goes to school"
       ],
       "optionReasons": {
-        "school-mcq-03": "本句指「作為學生前往／接受正式學校教育；上學」。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-01": "「提供有系統正式教育的機構／學校」是「school — institution」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-03": "本句的「goes to school」指「作為學生前往／接受正式學校教育；上學」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-03"
     },
@@ -779,11 +753,9 @@ export default {
       "masked": "Children usually start going to ____ at a young age.",
       "options": [
         "school-mcq-03",
-        "school-mcq-02",
-        "school-mcq-04",
-        "school-mcq-01",
-        "school-mcq-05",
-        "school-mcq-06"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「作為學生前往／接受正式學校教育；上學」。",
       "sentenceIndex": 6,
@@ -792,12 +764,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-03": "本句指「作為學生前往／接受正式學校教育；上學」。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-01": "「提供有系統正式教育的機構／學校」是「school — institution」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-03": "本句的「school」指「作為學生前往／接受正式學校教育；上學」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-03"
     },
@@ -809,11 +779,9 @@ export default {
       "masked": "The children are ____.",
       "options": [
         "school-mcq-04",
-        "school-mcq-03",
-        "school-mcq-05",
-        "school-mcq-02",
-        "school-mcq-06",
-        "school-mcq-01"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「at school」指「在學校接受教育，或人在學校場所」。",
       "sentenceIndex": 7,
@@ -822,12 +790,10 @@ export default {
         "at school"
       ],
       "optionReasons": {
-        "school-mcq-04": "本句指「在學校接受教育，或人在學校場所」。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-01": "「提供有系統正式教育的機構／學校」是「school — institution」的用法，與本句語境不同。"
+        "school-mcq-04": "本句的「at school」指「在學校接受教育，或人在學校場所」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-04"
     },
@@ -839,11 +805,8 @@ export default {
       "masked": "I learned French at ____.",
       "options": [
         "school-mcq-04",
-        "school-mcq-03",
-        "school-mcq-05",
-        "school-mcq-02",
-        "school-mcq-06",
-        "school-mcq-01"
+        "school-mcq-12",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school」指「在學校接受教育，或人在學校場所」。",
       "sentenceIndex": 8,
@@ -852,12 +815,9 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-04": "本句指「在學校接受教育，或人在學校場所」。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-01": "「提供有系統正式教育的機構／學校」是「school — institution」的用法，與本句語境不同。"
+        "school-mcq-04": "本句的「school」指「在學校接受教育，或人在學校場所」。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-04"
     },
@@ -869,11 +829,9 @@ export default {
       "masked": "I enjoyed ____.",
       "options": [
         "school-mcq-05",
-        "school-mcq-04",
-        "school-mcq-06",
-        "school-mcq-03",
-        "school-mcq-07",
-        "school-mcq-02"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「一個人接受學校教育的時期／學校生活」。",
       "sentenceIndex": 9,
@@ -882,12 +840,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-05": "本句指「一個人接受學校教育的時期／學校生活」。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。"
+        "school-mcq-05": "本句的「school」指「一個人接受學校教育的時期／學校生活」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-05"
     },
@@ -899,11 +855,9 @@ export default {
       "masked": "She was very shy at ____.",
       "options": [
         "school-mcq-05",
-        "school-mcq-04",
-        "school-mcq-06",
-        "school-mcq-03",
-        "school-mcq-07",
-        "school-mcq-02"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「一個人接受學校教育的時期／學校生活」。",
       "sentenceIndex": 10,
@@ -912,12 +866,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-05": "本句指「一個人接受學校教育的時期／學校生活」。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-02": "「學校實際所在的建築或場所」是「school — building/place」的用法，與本句語境不同。"
+        "school-mcq-05": "本句的「school」指「一個人接受學校教育的時期／學校生活」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-05"
     },
@@ -929,11 +881,8 @@ export default {
       "masked": "She ____ at eighteen.",
       "options": [
         "school-mcq-06",
-        "school-mcq-05",
-        "school-mcq-07",
-        "school-mcq-04",
-        "school-mcq-08",
-        "school-mcq-03"
+        "school-mcq-12",
+        "school-mcq-13"
       ],
       "explanation": "本句的「left school」指「結束或停止學校教育，尤其完成／離開中學階段」。",
       "sentenceIndex": 11,
@@ -942,12 +891,9 @@ export default {
         "left school"
       ],
       "optionReasons": {
-        "school-mcq-06": "本句指「結束或停止學校教育，尤其完成／離開中學階段」。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。"
+        "school-mcq-06": "本句的「left school」指「結束或停止學校教育，尤其完成／離開中學階段」。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-06"
     },
@@ -959,11 +905,9 @@ export default {
       "masked": "What did you do after leaving ____?",
       "options": [
         "school-mcq-06",
-        "school-mcq-05",
-        "school-mcq-07",
-        "school-mcq-04",
-        "school-mcq-08",
-        "school-mcq-03"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「結束或停止學校教育，尤其完成／離開中學階段」。",
       "sentenceIndex": 12,
@@ -972,12 +916,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-06": "本句指「結束或停止學校教育，尤其完成／離開中學階段」。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-03": "「作為學生前往／接受正式學校教育；上學」是「go to school」的用法，與本句語境不同。"
+        "school-mcq-06": "本句的「school」指「結束或停止學校教育，尤其完成／離開中學階段」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-06"
     },
@@ -989,11 +931,9 @@ export default {
       "masked": "Children learn many social skills through ____.",
       "options": [
         "school-mcq-07",
-        "school-mcq-06",
-        "school-mcq-08",
-        "school-mcq-05",
-        "school-mcq-09",
-        "school-mcq-04"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「正規學校教育這套制度／體系」。",
       "sentenceIndex": 13,
@@ -1002,12 +942,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-07": "本句指「正規學校教育這套制度／體系」。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。"
+        "school-mcq-07": "本句的「school」指「正規學校教育這套制度／體系」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-07"
     },
@@ -1019,11 +957,9 @@ export default {
       "masked": "The experience changed the way he thought about ____.",
       "options": [
         "school-mcq-07",
-        "school-mcq-06",
-        "school-mcq-08",
-        "school-mcq-05",
-        "school-mcq-09",
-        "school-mcq-04"
+        "school-mcq-13",
+        "school-mcq-19",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「正規學校教育這套制度／體系」。",
       "sentenceIndex": 14,
@@ -1032,12 +968,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-07": "本句指「正規學校教育這套制度／體系」。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。"
+        "school-mcq-07": "本句的「school」指「正規學校教育這套制度／體系」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-07"
     },
@@ -1049,11 +983,9 @@ export default {
       "masked": "The ____ differs from country to country.",
       "options": [
         "school-mcq-07",
-        "school-mcq-06",
-        "school-mcq-08",
-        "school-mcq-05",
-        "school-mcq-09",
-        "school-mcq-04"
+        "school-mcq-13",
+        "school-mcq-19",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school system」指「正規學校教育這套制度／體系」。",
       "sentenceIndex": 15,
@@ -1062,12 +994,10 @@ export default {
         "school system"
       ],
       "optionReasons": {
-        "school-mcq-07": "本句指「正規學校教育這套制度／體系」。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。"
+        "school-mcq-07": "本句的「school system」指「正規學校教育這套制度／體系」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-07"
     },
@@ -1079,11 +1009,9 @@ export default {
       "masked": "She has worked in the public ____ system for years.",
       "options": [
         "school-mcq-07",
-        "school-mcq-06",
-        "school-mcq-08",
-        "school-mcq-05",
-        "school-mcq-09",
-        "school-mcq-04"
+        "school-mcq-13",
+        "school-mcq-19",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「正規學校教育這套制度／體系」。",
       "sentenceIndex": 16,
@@ -1092,12 +1020,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-07": "本句指「正規學校教育這套制度／體系」。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-04": "「在學校接受教育，或人在學校場所」是「at school」的用法，與本句語境不同。"
+        "school-mcq-07": "本句的「school」指「正規學校教育這套制度／體系」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-07"
     },
@@ -1109,11 +1035,9 @@ export default {
       "masked": "She teaches at a ____.",
       "options": [
         "school-mcq-22",
-        "school-mcq-21",
-        "school-mcq-23",
-        "school-mcq-20",
         "school-mcq-19",
-        "school-mcq-18"
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「secondary school」指「指特定教育階段／類型的學校」。",
       "sentenceIndex": 17,
@@ -1122,12 +1046,10 @@ export default {
         "secondary school"
       ],
       "optionReasons": {
-        "school-mcq-22": "本句指「指特定教育階段／類型的學校」。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-23": "「表示在學校任教的老師」是「28. schoolteacher / school teacher（學校老師） — 教師」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。"
+        "school-mcq-22": "本句的「secondary school」指「指特定教育階段／類型的學校」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-22"
     },
@@ -1139,11 +1061,9 @@ export default {
       "masked": "He moved to a new primary ____.",
       "options": [
         "school-mcq-22",
-        "school-mcq-21",
-        "school-mcq-23",
-        "school-mcq-20",
+        "school-mcq-13",
         "school-mcq-19",
-        "school-mcq-18"
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「指特定教育階段／類型的學校」。",
       "sentenceIndex": 18,
@@ -1152,12 +1072,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-22": "本句指「指特定教育階段／類型的學校」。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-23": "「表示在學校任教的老師」是「28. schoolteacher / school teacher（學校老師） — 教師」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。"
+        "school-mcq-22": "本句的「school」指「指特定教育階段／類型的學校」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-22"
     },
@@ -1169,11 +1087,9 @@ export default {
       "masked": "The whole ____ attended the event.",
       "options": [
         "school-mcq-08",
-        "school-mcq-07",
-        "school-mcq-09",
-        "school-mcq-06",
-        "school-mcq-10",
-        "school-mcq-05"
+        "school-mcq-13",
+        "school-mcq-19",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「某校的學生、教師、職員或整個校方」。",
       "sentenceIndex": 19,
@@ -1182,12 +1098,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-08": "本句指「某校的學生、教師、職員或整個校方」。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。"
+        "school-mcq-08": "本句的「school」指「某校的學生、教師、職員或整個校方」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-08"
     },
@@ -1199,11 +1113,9 @@ export default {
       "masked": "The ____ supported the charity project.",
       "options": [
         "school-mcq-08",
-        "school-mcq-07",
-        "school-mcq-09",
-        "school-mcq-06",
-        "school-mcq-10",
-        "school-mcq-05"
+        "school-mcq-13",
+        "school-mcq-19",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「某校的學生、教師、職員或整個校方」。",
       "sentenceIndex": 20,
@@ -1212,12 +1124,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-08": "本句指「某校的學生、教師、職員或整個校方」。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-05": "「一個人接受學校教育的時期／學校生活」是「school — period/experience」的用法，與本句語境不同。"
+        "school-mcq-08": "本句的「school」指「某校的學生、教師、職員或整個校方」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-08"
     },
@@ -1229,11 +1139,9 @@ export default {
       "masked": "She went to ____.",
       "options": [
         "school-mcq-09",
-        "school-mcq-08",
-        "school-mcq-10",
-        "school-mcq-07",
+        "school-mcq-19",
         "school-mcq-11",
-        "school-mcq-06"
+        "school-mcq-13"
       ],
       "explanation": "本句的「law school」指「提供某一專業領域教育／訓練的機構」。",
       "sentenceIndex": 21,
@@ -1242,12 +1150,10 @@ export default {
         "law school"
       ],
       "optionReasons": {
-        "school-mcq-09": "本句指「提供某一專業領域教育／訓練的機構」。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-09": "本句的「law school」指「提供某一專業領域教育／訓練的機構」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-09"
     },
@@ -1259,11 +1165,9 @@ export default {
       "masked": "He studied at an art ____.",
       "options": [
         "school-mcq-09",
-        "school-mcq-08",
-        "school-mcq-10",
-        "school-mcq-07",
         "school-mcq-11",
-        "school-mcq-06"
+        "school-mcq-19",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school」指「提供某一專業領域教育／訓練的機構」。",
       "sentenceIndex": 22,
@@ -1272,12 +1176,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-09": "本句指「提供某一專業領域教育／訓練的機構」。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-06": "「結束或停止學校教育，尤其完成／離開中學階段」是「leave school」的用法，與本句語境不同。"
+        "school-mcq-09": "本句的「school」指「提供某一專業領域教育／訓練的機構」。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-09"
     },
@@ -1289,11 +1191,9 @@ export default {
       "masked": "She works in the ____.",
       "options": [
         "school-mcq-10",
-        "school-mcq-09",
-        "school-mcq-11",
-        "school-mcq-08",
-        "school-mcq-12",
-        "school-mcq-07"
+        "school-mcq-19",
+        "school-pdf-001",
+        "school-mcq-11"
       ],
       "explanation": "本句的「School of Education」指「大學內某個大型學術／行政單位」。",
       "sentenceIndex": 23,
@@ -1302,12 +1202,10 @@ export default {
         "School of Education"
       ],
       "optionReasons": {
-        "school-mcq-10": "本句指「大學內某個大型學術／行政單位」。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。"
+        "school-mcq-10": "本句的「School of Education」指「大學內某個大型學術／行政單位」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-10"
     },
@@ -1319,11 +1217,9 @@ export default {
       "masked": "The university has a ____ of Engineering.",
       "options": [
         "school-mcq-10",
-        "school-mcq-09",
-        "school-mcq-11",
-        "school-mcq-08",
-        "school-mcq-12",
-        "school-mcq-07"
+        "school-mcq-19",
+        "school-pdf-001",
+        "school-mcq-13"
       ],
       "explanation": "本句的「School」指「大學內某個大型學術／行政單位」。",
       "sentenceIndex": 24,
@@ -1332,12 +1228,10 @@ export default {
         "School"
       ],
       "optionReasons": {
-        "school-mcq-10": "本句指「大學內某個大型學術／行政單位」。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-07": "「正規學校教育這套制度／體系」是「school — education system」的用法，與本句語境不同。"
+        "school-mcq-10": "本句的「School」指「大學內某個大型學術／行政單位」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-10"
     },
@@ -1349,11 +1243,9 @@ export default {
       "masked": "There are several ____ on the issue.",
       "options": [
         "school-mcq-11",
-        "school-mcq-10",
-        "school-mcq-12",
-        "school-mcq-09",
-        "school-mcq-13",
-        "school-mcq-08"
+        "school-mcq-16",
+        "school-mcq-19",
+        "school-mcq-13"
       ],
       "explanation": "本句的「schools of thought」指「共享相似理論、觀點或方法的一群思想家／學者」。",
       "sentenceIndex": 25,
@@ -1362,12 +1254,10 @@ export default {
         "schools of thought"
       ],
       "optionReasons": {
-        "school-mcq-11": "本句指「共享相似理論、觀點或方法的一群思想家／學者」。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。"
+        "school-mcq-11": "本句的「schools of thought」指「共享相似理論、觀點或方法的一群思想家／學者」。",
+        "school-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-11"
     },
@@ -1379,11 +1269,9 @@ export default {
       "masked": "She belongs to a different ____ of thought.",
       "options": [
         "school-mcq-11",
-        "school-mcq-10",
-        "school-mcq-12",
+        "school-mcq-19",
         "school-mcq-09",
-        "school-mcq-13",
-        "school-mcq-08"
+        "school-mcq-13"
       ],
       "explanation": "本句的「school」指「共享相似理論、觀點或方法的一群思想家／學者」。",
       "sentenceIndex": 26,
@@ -1392,12 +1280,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-11": "本句指「共享相似理論、觀點或方法的一群思想家／學者」。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。"
+        "school-mcq-11": "本句的「school」指「共享相似理論、觀點或方法的一群思想家／學者」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-11"
     },
@@ -1409,11 +1295,9 @@ export default {
       "masked": "The painting belongs to the Dutch ____.",
       "options": [
         "school-mcq-11",
-        "school-mcq-10",
-        "school-mcq-12",
+        "school-mcq-19",
         "school-mcq-09",
-        "school-mcq-13",
-        "school-mcq-08"
+        "school-mcq-13"
       ],
       "explanation": "本句的「school」指「共享相似理論、觀點或方法的一群思想家／學者」。",
       "sentenceIndex": 27,
@@ -1422,12 +1306,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-11": "本句指「共享相似理論、觀點或方法的一群思想家／學者」。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。"
+        "school-mcq-11": "本句的「school」指「共享相似理論、觀點或方法的一群思想家／學者」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-11"
     },
@@ -1439,11 +1321,9 @@ export default {
       "masked": "The philosopher influenced a whole ____ of thinkers.",
       "options": [
         "school-mcq-11",
-        "school-mcq-10",
-        "school-mcq-12",
-        "school-mcq-09",
-        "school-mcq-13",
-        "school-mcq-08"
+        "school-mcq-16",
+        "school-mcq-19",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school」指「共享相似理論、觀點或方法的一群思想家／學者」。",
       "sentenceIndex": 28,
@@ -1452,12 +1332,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-11": "本句指「共享相似理論、觀點或方法的一群思想家／學者」。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-08": "「某校的學生、教師、職員或整個校方」是「school — community」的用法，與本句語境不同。"
+        "school-mcq-11": "本句的「school」指「共享相似理論、觀點或方法的一群思想家／學者」。",
+        "school-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-11"
     },
@@ -1469,11 +1347,8 @@ export default {
       "masked": "The artist was associated with a modern ____.",
       "options": [
         "school-mcq-12",
-        "school-mcq-11",
-        "school-mcq-13",
-        "school-mcq-10",
-        "school-mcq-14",
-        "school-mcq-09"
+        "school-mcq-02",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school of painting」指「共享特定藝術風格、技巧或理念的創作者群體」。",
       "sentenceIndex": 29,
@@ -1482,12 +1357,9 @@ export default {
         "school of painting"
       ],
       "optionReasons": {
-        "school-mcq-12": "本句指「共享特定藝術風格、技巧或理念的創作者群體」。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。"
+        "school-mcq-12": "本句的「school of painting」指「共享特定藝術風格、技巧或理念的創作者群體」。",
+        "school-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-12"
     },
@@ -1499,11 +1371,8 @@ export default {
       "masked": "Different ____ of art developed in the region.",
       "options": [
         "school-mcq-12",
-        "school-mcq-11",
-        "school-mcq-13",
-        "school-mcq-10",
-        "school-mcq-14",
-        "school-mcq-09"
+        "school-mcq-03",
+        "school-mcq-13"
       ],
       "explanation": "本句的「schools」指「共享特定藝術風格、技巧或理念的創作者群體」。",
       "sentenceIndex": 30,
@@ -1512,12 +1381,9 @@ export default {
         "schools"
       ],
       "optionReasons": {
-        "school-mcq-12": "本句指「共享特定藝術風格、技巧或理念的創作者群體」。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-09": "「提供某一專業領域教育／訓練的機構」是「specialized school」的用法，與本句語境不同。"
+        "school-mcq-12": "本句的「schools」指「共享特定藝術風格、技巧或理念的創作者群體」。",
+        "school-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-12"
     },
@@ -1529,11 +1395,9 @@ export default {
       "masked": "A ____ swam past the boat.",
       "options": [
         "school-mcq-13",
-        "school-mcq-12",
-        "school-mcq-14",
-        "school-mcq-11",
         "school-mcq-15",
-        "school-mcq-10"
+        "school-pdf-001",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school of fish」指「一大群一起游動的魚」。",
       "sentenceIndex": 31,
@@ -1542,12 +1406,10 @@ export default {
         "school of fish"
       ],
       "optionReasons": {
-        "school-mcq-13": "本句指「一大群一起游動的魚」。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。"
+        "school-mcq-13": "本句的「school of fish」指「一大群一起游動的魚」。",
+        "school-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-13"
     },
@@ -1559,11 +1421,9 @@ export default {
       "masked": "We saw a huge ____ of silver fish.",
       "options": [
         "school-mcq-13",
-        "school-mcq-12",
-        "school-mcq-14",
-        "school-mcq-11",
-        "school-mcq-15",
-        "school-mcq-10"
+        "school-mcq-19",
+        "school-mcq-22",
+        "school-pdf-001"
       ],
       "explanation": "本句的「school」指「一大群一起游動的魚」。",
       "sentenceIndex": 32,
@@ -1572,12 +1432,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-13": "本句指「一大群一起游動的魚」。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-10": "「大學內某個大型學術／行政單位」是「School of X」的用法，與本句語境不同。"
+        "school-mcq-13": "本句的「school」指「一大群一起游動的魚」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-13"
     },
@@ -1590,10 +1448,8 @@ export default {
       "options": [
         "school-mcq-14",
         "school-mcq-13",
-        "school-mcq-15",
-        "school-mcq-12",
-        "school-mcq-16",
-        "school-mcq-11"
+        "school-mcq-11",
+        "school-mcq-19"
       ],
       "explanation": "本句的「schooled at home」指「對某人進行系統教育／訓練」。",
       "sentenceIndex": 33,
@@ -1602,12 +1458,10 @@ export default {
         "schooled at home"
       ],
       "optionReasons": {
-        "school-mcq-14": "本句指「對某人進行系統教育／訓練」。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。"
+        "school-mcq-14": "本句的「schooled at home」指「對某人進行系統教育／訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-14"
     },
@@ -1620,10 +1474,8 @@ export default {
       "options": [
         "school-mcq-14",
         "school-mcq-13",
-        "school-mcq-15",
-        "school-mcq-12",
-        "school-mcq-16",
-        "school-mcq-11"
+        "school-mcq-11",
+        "school-mcq-19"
       ],
       "explanation": "本句的「schooled」指「對某人進行系統教育／訓練」。",
       "sentenceIndex": 34,
@@ -1632,12 +1484,10 @@ export default {
         "schooled"
       ],
       "optionReasons": {
-        "school-mcq-14": "本句指「對某人進行系統教育／訓練」。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-11": "「共享相似理論、觀點或方法的一群思想家／學者」是「school of thought」的用法，與本句語境不同。"
+        "school-mcq-14": "本句的「schooled」指「對某人進行系統教育／訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-14"
     },
@@ -1649,11 +1499,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "school-mcq-15",
-        "school-mcq-14",
-        "school-mcq-16",
         "school-mcq-13",
-        "school-mcq-17",
-        "school-mcq-12"
+        "school-mcq-11",
+        "school-pdf-001"
       ],
       "explanation": "本句的「schooled in classical music」指「在某知識、技能或傳統方面受過有系統訓練」。",
       "sentenceIndex": 35,
@@ -1662,12 +1510,10 @@ export default {
         "schooled in classical music"
       ],
       "optionReasons": {
-        "school-mcq-15": "本句指「在某知識、技能或傳統方面受過有系統訓練」。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。"
+        "school-mcq-15": "本句的「schooled in classical music」指「在某知識、技能或傳統方面受過有系統訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-15"
     },
@@ -1679,11 +1525,9 @@ export default {
       "masked": "She was well ____ in public speaking.",
       "options": [
         "school-mcq-15",
-        "school-mcq-14",
-        "school-mcq-16",
+        "school-mcq-11",
         "school-mcq-13",
-        "school-mcq-17",
-        "school-mcq-12"
+        "school-pdf-001"
       ],
       "explanation": "本句的「schooled」指「在某知識、技能或傳統方面受過有系統訓練」。",
       "sentenceIndex": 36,
@@ -1692,12 +1536,10 @@ export default {
         "schooled"
       ],
       "optionReasons": {
-        "school-mcq-15": "本句指「在某知識、技能或傳統方面受過有系統訓練」。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-12": "「共享特定藝術風格、技巧或理念的創作者群體」是「school of art」的用法，與本句語境不同。"
+        "school-mcq-15": "本句的「schooled」指「在某知識、技能或傳統方面受過有系統訓練」。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-15"
     },
@@ -1709,10 +1551,7 @@ export default {
       "masked": "He ____.",
       "options": [
         "school-mcq-16",
-        "school-mcq-15",
-        "school-mcq-17",
-        "school-mcq-14",
-        "school-mcq-18",
+        "school-mcq-12",
         "school-mcq-13"
       ],
       "explanation": "本句的「schooled himself to remain calm」指「透過自我訓練控制情緒、反應或行為」。",
@@ -1722,12 +1561,9 @@ export default {
         "schooled himself to remain calm"
       ],
       "optionReasons": {
-        "school-mcq-16": "本句指「透過自我訓練控制情緒、反應或行為」。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。"
+        "school-mcq-16": "本句的「schooled himself to remain calm」指「透過自我訓練控制情緒、反應或行為」。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-16"
     },
@@ -1739,11 +1575,9 @@ export default {
       "masked": "She ____ her expression into neutrality.",
       "options": [
         "school-mcq-16",
-        "school-mcq-15",
-        "school-mcq-17",
-        "school-mcq-14",
-        "school-mcq-18",
-        "school-mcq-13"
+        "school-mcq-19",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「schooled」指「透過自我訓練控制情緒、反應或行為」。",
       "sentenceIndex": 38,
@@ -1752,12 +1586,10 @@ export default {
         "schooled"
       ],
       "optionReasons": {
-        "school-mcq-16": "本句指「透過自我訓練控制情緒、反應或行為」。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-13": "「一大群一起游動的魚」是「school of fish」的用法，與本句語境不同。"
+        "school-mcq-16": "本句的「schooled」指「透過自我訓練控制情緒、反應或行為」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-16"
     },
@@ -1769,11 +1601,9 @@ export default {
       "masked": "The experienced player ____ the younger opponent.",
       "options": [
         "school-pdf-001",
-        "school-mcq-16",
-        "school-mcq-18",
-        "school-mcq-15",
+        "school-mcq-13",
         "school-mcq-19",
-        "school-mcq-14"
+        "school-mcq-02"
       ],
       "explanation": "本句的「schooled」指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
       "sentenceIndex": 39,
@@ -1782,12 +1612,10 @@ export default {
         "schooled"
       ],
       "optionReasons": {
-        "school-pdf-001": "本句指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。"
+        "school-pdf-001": "本句的「schooled」指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-pdf-001"
     },
@@ -1799,11 +1627,9 @@ export default {
       "masked": "She ____ everyone in the debate.",
       "options": [
         "school-pdf-001",
-        "school-mcq-16",
-        "school-mcq-18",
-        "school-mcq-15",
         "school-mcq-19",
-        "school-mcq-14"
+        "school-mcq-13",
+        "school-mcq-10"
       ],
       "explanation": "本句的「schooled」指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
       "sentenceIndex": 40,
@@ -1812,12 +1638,10 @@ export default {
         "schooled"
       ],
       "optionReasons": {
-        "school-pdf-001": "本句指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-14": "「對某人進行系統教育／訓練」是「school — verb: educate」的用法，與本句語境不同。"
+        "school-pdf-001": "本句的「schooled」指「非正式地以高超表現教訓／壓倒某人，顯示對方還有很多要學」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-pdf-001"
     },
@@ -1829,11 +1653,9 @@ export default {
       "masked": "She received most of her ____ abroad.",
       "options": [
         "school-mcq-18",
-        "school-mcq-17",
+        "school-mcq-13",
         "school-mcq-19",
-        "school-mcq-16",
-        "school-mcq-20",
-        "school-mcq-15"
+        "school-mcq-11"
       ],
       "explanation": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
       "sentenceIndex": 41,
@@ -1842,12 +1664,10 @@ export default {
         "schooling"
       ],
       "optionReasons": {
-        "school-mcq-18": "本句指「一個人接受的正式學校教育／系統訓練」。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。"
+        "school-mcq-18": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-18"
     },
@@ -1859,11 +1679,9 @@ export default {
       "masked": "He had very little formal ____.",
       "options": [
         "school-mcq-18",
-        "school-mcq-17",
+        "school-mcq-13",
         "school-mcq-19",
-        "school-mcq-16",
-        "school-mcq-20",
-        "school-mcq-15"
+        "school-mcq-11"
       ],
       "explanation": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
       "sentenceIndex": 42,
@@ -1872,12 +1690,10 @@ export default {
         "schooling"
       ],
       "optionReasons": {
-        "school-mcq-18": "本句指「一個人接受的正式學校教育／系統訓練」。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。"
+        "school-mcq-18": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-18"
     },
@@ -1889,11 +1705,9 @@ export default {
       "masked": "Years of musical ____ shaped her style.",
       "options": [
         "school-mcq-18",
-        "school-mcq-17",
+        "school-mcq-13",
         "school-mcq-19",
-        "school-mcq-16",
-        "school-mcq-20",
-        "school-mcq-15"
+        "school-mcq-11"
       ],
       "explanation": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
       "sentenceIndex": 43,
@@ -1902,12 +1716,10 @@ export default {
         "schooling"
       ],
       "optionReasons": {
-        "school-mcq-18": "本句指「一個人接受的正式學校教育／系統訓練」。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。"
+        "school-mcq-18": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-18"
     },
@@ -1919,11 +1731,9 @@ export default {
       "masked": "His early ____ in design influenced his career.",
       "options": [
         "school-mcq-18",
-        "school-mcq-17",
-        "school-mcq-19",
-        "school-mcq-16",
-        "school-mcq-20",
-        "school-mcq-15"
+        "school-mcq-13",
+        "school-mcq-11",
+        "school-mcq-19"
       ],
       "explanation": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
       "sentenceIndex": 44,
@@ -1932,12 +1742,10 @@ export default {
         "schooling"
       ],
       "optionReasons": {
-        "school-mcq-18": "本句指「一個人接受的正式學校教育／系統訓練」。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-15": "「在某知識、技能或傳統方面受過有系統訓練」是「be schooled in X」的用法，與本句語境不同。"
+        "school-mcq-18": "本句的「schooling」指「一個人接受的正式學校教育／系統訓練」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-18"
     },
@@ -1949,11 +1757,9 @@ export default {
       "masked": "He has an ____ approach to teaching.",
       "options": [
         "school-mcq-19",
-        "school-mcq-18",
-        "school-mcq-20",
-        "school-mcq-17",
-        "school-mcq-21",
-        "school-mcq-16"
+        "school-mcq-05",
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「old-school」指「採用較傳統、舊式的方式、價值或風格」。",
       "sentenceIndex": 45,
@@ -1962,12 +1768,10 @@ export default {
         "old-school"
       ],
       "optionReasons": {
-        "school-mcq-19": "本句指「採用較傳統、舊式的方式、價值或風格」。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。"
+        "school-mcq-19": "本句的「old-school」指「採用較傳統、舊式的方式、價值或風格」。",
+        "school-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-19"
     },
@@ -1979,11 +1783,9 @@ export default {
       "masked": "She prefers old-____ notebooks to digital apps.",
       "options": [
         "school-mcq-19",
-        "school-mcq-18",
-        "school-mcq-20",
-        "school-mcq-17",
-        "school-mcq-21",
-        "school-mcq-16"
+        "school-mcq-06",
+        "school-mcq-11",
+        "school-pdf-001"
       ],
       "explanation": "本句的「school」指「採用較傳統、舊式的方式、價值或風格」。",
       "sentenceIndex": 46,
@@ -1992,12 +1794,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-19": "本句指「採用較傳統、舊式的方式、價值或風格」。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。"
+        "school-mcq-19": "本句的「school」指「採用較傳統、舊式的方式、價值或風格」。",
+        "school-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-19"
     },
@@ -2009,11 +1809,9 @@ export default {
       "masked": "He’s very ____.",
       "options": [
         "school-mcq-19",
-        "school-mcq-18",
-        "school-mcq-20",
-        "school-mcq-17",
-        "school-mcq-21",
-        "school-mcq-16"
+        "school-mcq-22",
+        "school-mcq-11",
+        "school-mcq-13"
       ],
       "explanation": "本句的「old school」指「採用較傳統、舊式的方式、價值或風格」。",
       "sentenceIndex": 47,
@@ -2022,12 +1820,10 @@ export default {
         "old school"
       ],
       "optionReasons": {
-        "school-mcq-19": "本句指「採用較傳統、舊式的方式、價值或風格」。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。"
+        "school-mcq-19": "本句的「old school」指「採用較傳統、舊式的方式、價值或風格」。",
+        "school-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-19"
     },
@@ -2039,11 +1835,9 @@ export default {
       "masked": "Their management style is old ____.",
       "options": [
         "school-mcq-19",
-        "school-mcq-18",
-        "school-mcq-20",
-        "school-mcq-17",
-        "school-mcq-21",
-        "school-mcq-16"
+        "school-mcq-23",
+        "school-mcq-11",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school」指「採用較傳統、舊式的方式、價值或風格」。",
       "sentenceIndex": 48,
@@ -2052,12 +1846,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-19": "本句指「採用較傳統、舊式的方式、價值或風格」。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-16": "「透過自我訓練控制情緒、反應或行為」是「school yourself」的用法，與本句語境不同。"
+        "school-mcq-19": "本句的「school」指「採用較傳統、舊式的方式、價值或風格」。",
+        "school-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-19"
     },
@@ -2069,11 +1861,8 @@ export default {
       "masked": "The programme is designed for ____.",
       "options": [
         "school-mcq-20",
-        "school-mcq-19",
-        "school-mcq-21",
-        "school-mcq-18",
-        "school-mcq-22",
-        "school-mcq-17"
+        "school-mcq-13",
+        "school-mcq-12"
       ],
       "explanation": "本句的「school-age children」指「已達一般接受正式學校教育的年齡」。",
       "sentenceIndex": 49,
@@ -2082,12 +1871,9 @@ export default {
         "school-age children"
       ],
       "optionReasons": {
-        "school-mcq-20": "本句指「已達一般接受正式學校教育的年齡」。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。"
+        "school-mcq-20": "本句的「school-age children」指「已達一般接受正式學校教育的年齡」。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-20"
     },
@@ -2099,11 +1885,8 @@ export default {
       "masked": "There are several ____ children in the family.",
       "options": [
         "school-mcq-20",
-        "school-mcq-19",
-        "school-mcq-21",
-        "school-mcq-18",
-        "school-mcq-22",
-        "school-mcq-17"
+        "school-mcq-12",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school-age」指「已達一般接受正式學校教育的年齡」。",
       "sentenceIndex": 50,
@@ -2112,12 +1895,9 @@ export default {
         "school-age"
       ],
       "optionReasons": {
-        "school-mcq-20": "本句指「已達一般接受正式學校教育的年齡」。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。"
+        "school-mcq-20": "本句的「school-age」指「已達一般接受正式學校教育的年齡」。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-20"
     },
@@ -2129,11 +1909,8 @@ export default {
       "masked": "A typical ____ begins at eight.",
       "options": [
         "school-pdf-002",
-        "school-mcq-19",
-        "school-mcq-21",
-        "school-mcq-18",
-        "school-mcq-22",
-        "school-mcq-17"
+        "school-mcq-12",
+        "school-mcq-13"
       ],
       "explanation": "本句的「school day」指「正式上課的一天；複數亦可指學生時代」。",
       "sentenceIndex": 51,
@@ -2142,12 +1919,9 @@ export default {
         "school day"
       ],
       "optionReasons": {
-        "school-pdf-002": "本句指「正式上課的一天；複數亦可指學生時代」。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。"
+        "school-pdf-002": "本句的「school day」指「正式上課的一天；複數亦可指學生時代」。",
+        "school-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-pdf-002"
     },
@@ -2160,10 +1934,8 @@ export default {
       "options": [
         "school-pdf-002",
         "school-mcq-19",
-        "school-mcq-21",
-        "school-mcq-18",
-        "school-mcq-22",
-        "school-mcq-17"
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「正式上課的一天；複數亦可指學生時代」。",
       "sentenceIndex": 52,
@@ -2172,12 +1944,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-pdf-002": "本句指「正式上課的一天；複數亦可指學生時代」。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-17": "「以明顯較高水平壓倒某人、令其「上了一課」」是「school someone — informal」的用法，與本句語境不同。"
+        "school-pdf-002": "本句的「school」指「正式上課的一天；複數亦可指學生時代」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-pdf-002"
     },
@@ -2189,11 +1959,9 @@ export default {
       "masked": "She spends an hour on ____ every evening.",
       "options": [
         "school-mcq-21",
-        "school-mcq-20",
-        "school-mcq-22",
         "school-mcq-19",
-        "school-mcq-23",
-        "school-mcq-18"
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「schoolwork」指「因學校學習而需要完成的課業／功課」。",
       "sentenceIndex": 53,
@@ -2202,12 +1970,10 @@ export default {
         "schoolwork"
       ],
       "optionReasons": {
-        "school-mcq-21": "本句指「因學校學習而需要完成的課業／功課」。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-23": "「表示在學校任教的老師」是「28. schoolteacher / school teacher（學校老師） — 教師」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。"
+        "school-mcq-21": "本句的「schoolwork」指「因學校學習而需要完成的課業／功課」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-21"
     },
@@ -2219,11 +1985,9 @@ export default {
       "masked": "He was struggling with his ____.",
       "options": [
         "school-mcq-21",
-        "school-mcq-20",
-        "school-mcq-22",
         "school-mcq-19",
-        "school-mcq-23",
-        "school-mcq-18"
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「schoolwork」指「因學校學習而需要完成的課業／功課」。",
       "sentenceIndex": 54,
@@ -2232,12 +1996,10 @@ export default {
         "schoolwork"
       ],
       "optionReasons": {
-        "school-mcq-21": "本句指「因學校學習而需要完成的課業／功課」。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-23": "「表示在學校任教的老師」是「28. schoolteacher / school teacher（學校老師） — 教師」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。"
+        "school-mcq-21": "本句的「schoolwork」指「因學校學習而需要完成的課業／功課」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-21"
     },
@@ -2249,11 +2011,9 @@ export default {
       "masked": "Her mother was a ____.",
       "options": [
         "school-mcq-23",
-        "school-mcq-22",
-        "school-mcq-21",
-        "school-mcq-20",
         "school-mcq-19",
-        "school-mcq-18"
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「schoolteacher」指「表示在學校任教的老師」。",
       "sentenceIndex": 55,
@@ -2262,12 +2022,10 @@ export default {
         "schoolteacher"
       ],
       "optionReasons": {
-        "school-mcq-23": "本句指「表示在學校任教的老師」。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。"
+        "school-mcq-23": "本句的「schoolteacher」指「表示在學校任教的老師」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-23"
     },
@@ -2279,11 +2037,9 @@ export default {
       "masked": "He worked as a ____ teacher for thirty years.",
       "options": [
         "school-mcq-23",
-        "school-mcq-22",
-        "school-mcq-21",
-        "school-mcq-20",
         "school-mcq-19",
-        "school-mcq-18"
+        "school-mcq-13",
+        "school-mcq-11"
       ],
       "explanation": "本句的「school」指「表示在學校任教的老師」。",
       "sentenceIndex": 56,
@@ -2292,12 +2048,10 @@ export default {
         "school"
       ],
       "optionReasons": {
-        "school-mcq-23": "本句指「表示在學校任教的老師」。",
-        "school-mcq-22": "「指特定教育階段／類型的學校」是「9. primary / secondary / high school（不同教育階段） — 小學／中學等」的用法，與本句語境不同。",
-        "school-mcq-21": "「因學校學習而需要完成的課業／功課」是「schoolwork」的用法，與本句語境不同。",
-        "school-mcq-20": "「已達一般接受正式學校教育的年齡」是「school-age」的用法，與本句語境不同。",
-        "school-mcq-19": "「採用較傳統、舊式的方式、價值或風格」是「old-school」的用法，與本句語境不同。",
-        "school-mcq-18": "「一個人接受的正式學校教育／系統訓練」是「schooling」的用法，與本句語境不同。"
+        "school-mcq-23": "本句的「school」指「表示在學校任教的老師」。",
+        "school-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "school-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "school-mcq-23"
     }
@@ -2309,5 +2063,7 @@ export default {
     "sha256": "8ccd13bece3a08d27fffab695f1447b2630b2c8f756ad09c95d7020749ef61aa",
     "pages": 27
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -305,11 +305,9 @@ export default {
       "masked": "She waited ____ the station.",
       "options": [
         "outside-mcq-01",
-        "outside-mcq-02",
-        "outside-mcq-03",
-        "outside-mcq-04",
-        "outside-mcq-05",
-        "outside-mcq-06"
+        "outside-mcq-13",
+        "outside-mcq-10",
+        "outside-mcq-11"
       ],
       "explanation": "本句的「outside」指「位於某個有明確界線的地方之外，而不是其內部」。",
       "sentenceIndex": 0,
@@ -318,12 +316,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-01": "本句指「位於某個有明確界線的地方之外，而不是其內部」。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-01": "本句的「outside」指「位於某個有明確界線的地方之外，而不是其內部」。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-01"
     },
@@ -335,11 +331,9 @@ export default {
       "masked": "There is a café ____ the building.",
       "options": [
         "outside-mcq-01",
-        "outside-mcq-02",
-        "outside-mcq-03",
-        "outside-mcq-04",
-        "outside-mcq-05",
-        "outside-mcq-06"
+        "outside-mcq-12",
+        "outside-mcq-10",
+        "outside-mcq-11"
       ],
       "explanation": "本句的「outside」指「位於某個有明確界線的地方之外，而不是其內部」。",
       "sentenceIndex": 1,
@@ -348,12 +342,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-01": "本句指「位於某個有明確界線的地方之外，而不是其內部」。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-01": "本句的「outside」指「位於某個有明確界線的地方之外，而不是其內部」。",
+        "outside-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-01"
     },
@@ -365,10 +357,8 @@ export default {
       "masked": "It’s warm enough to eat ____.",
       "options": [
         "outside-mcq-02",
-        "outside-mcq-01",
-        "outside-mcq-03",
-        "outside-mcq-04",
-        "outside-mcq-05",
+        "outside-mcq-13",
+        "outside-mcq-10",
         "outside-mcq-06"
       ],
       "explanation": "本句的「outside」指「位於建築物或室內空間之外的戶外地方」。",
@@ -378,12 +368,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-02": "本句指「位於建築物或室內空間之外的戶外地方」。",
-        "outside-mcq-01": "「位於某個有明確界線的地方之外，而不是其內部」是「outside + place」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-02": "本句的「outside」指「位於建築物或室內空間之外的戶外地方」。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-02"
     },
@@ -395,10 +383,8 @@ export default {
       "masked": "The children are playing ____.",
       "options": [
         "outside-mcq-02",
-        "outside-mcq-01",
-        "outside-mcq-03",
-        "outside-mcq-04",
-        "outside-mcq-05",
+        "outside-mcq-13",
+        "outside-mcq-10",
         "outside-mcq-06"
       ],
       "explanation": "本句的「outside」指「位於建築物或室內空間之外的戶外地方」。",
@@ -408,12 +394,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-02": "本句指「位於建築物或室內空間之外的戶外地方」。",
-        "outside-mcq-01": "「位於某個有明確界線的地方之外，而不是其內部」是「outside + place」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-02": "本句的「outside」指「位於建築物或室內空間之外的戶外地方」。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-02"
     },
@@ -425,11 +409,9 @@ export default {
       "masked": "The ____ wall needs to be repaired.",
       "options": [
         "outside-mcq-03",
-        "outside-mcq-02",
-        "outside-mcq-04",
-        "outside-mcq-01",
-        "outside-mcq-05",
-        "outside-mcq-06"
+        "outside-mcq-10",
+        "outside-mcq-13",
+        "outside-mcq-09"
       ],
       "explanation": "本句的「outside」指「位於物件、建築物或範圍外側的」。",
       "sentenceIndex": 4,
@@ -438,12 +420,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-03": "本句指「位於物件、建築物或範圍外側的」。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-01": "「位於某個有明確界線的地方之外，而不是其內部」是「outside + place」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-03": "本句的「outside」指「位於物件、建築物或範圍外側的」。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-03"
     },
@@ -455,11 +435,8 @@ export default {
       "masked": "Clean both the inside and ____ surfaces.",
       "options": [
         "outside-mcq-03",
-        "outside-mcq-02",
-        "outside-mcq-04",
-        "outside-mcq-01",
-        "outside-mcq-05",
-        "outside-mcq-06"
+        "outside-mcq-12",
+        "outside-mcq-10"
       ],
       "explanation": "本句的「outside」指「位於物件、建築物或範圍外側的」。",
       "sentenceIndex": 5,
@@ -468,12 +445,9 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-03": "本句指「位於物件、建築物或範圍外側的」。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-01": "「位於某個有明確界線的地方之外，而不是其內部」是「outside + place」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-03": "本句的「outside」指「位於物件、建築物或範圍外側的」。",
+        "outside-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-03"
     },
@@ -485,11 +459,9 @@ export default {
       "masked": "The box is damaged on the ____.",
       "options": [
         "outside-mcq-04",
-        "outside-mcq-03",
-        "outside-mcq-05",
-        "outside-mcq-02",
-        "outside-mcq-06",
-        "outside-mcq-01"
+        "outside-mcq-10",
+        "outside-mcq-12",
+        "outside-mcq-06"
       ],
       "explanation": "本句的「outside」指「某物相對於內部而言的外層、外側或外部部分」。",
       "sentenceIndex": 6,
@@ -498,12 +470,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-04": "本句指「某物相對於內部而言的外層、外側或外部部分」。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-01": "「位於某個有明確界線的地方之外，而不是其內部」是「outside + place」的用法，與本句語境不同。"
+        "outside-mcq-04": "本句的「outside」指「某物相對於內部而言的外層、外側或外部部分」。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-04"
     },
@@ -515,11 +485,9 @@ export default {
       "masked": "The building looks modern from the ____.",
       "options": [
         "outside-mcq-04",
-        "outside-mcq-03",
-        "outside-mcq-05",
-        "outside-mcq-02",
         "outside-mcq-06",
-        "outside-mcq-01"
+        "outside-mcq-10",
+        "outside-mcq-13"
       ],
       "explanation": "本句的「outside」指「某物相對於內部而言的外層、外側或外部部分」。",
       "sentenceIndex": 7,
@@ -528,12 +496,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-04": "本句指「某物相對於內部而言的外層、外側或外部部分」。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-01": "「位於某個有明確界線的地方之外，而不是其內部」是「outside + place」的用法，與本句語境不同。"
+        "outside-mcq-04": "本句的「outside」指「某物相對於內部而言的外層、外側或外部部分」。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-04"
     },
@@ -545,11 +511,9 @@ export default {
       "masked": "It was like someone had pressed a mute button on the ____ world.",
       "options": [
         "outside-mcq-05",
-        "outside-mcq-04",
-        "outside-mcq-06",
-        "outside-mcq-03",
-        "outside-mcq-07",
-        "outside-mcq-02"
+        "outside-mcq-13",
+        "outside-mcq-11",
+        "outside-mcq-10"
       ],
       "explanation": "本句的「outside」指「某人自身、私人空間或封閉環境以外的外界現實」。",
       "sentenceIndex": 8,
@@ -558,12 +522,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-05": "本句指「某人自身、私人空間或封閉環境以外的外界現實」。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。"
+        "outside-mcq-05": "本句的「outside」指「某人自身、私人空間或封閉環境以外的外界現實」。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-05"
     },
@@ -575,11 +537,9 @@ export default {
       "masked": "The thick walls blocked out most sounds from the ____ world.",
       "options": [
         "outside-mcq-05",
-        "outside-mcq-04",
-        "outside-mcq-06",
-        "outside-mcq-03",
-        "outside-mcq-07",
-        "outside-mcq-02"
+        "outside-mcq-10",
+        "outside-mcq-13",
+        "outside-mcq-11"
       ],
       "explanation": "本句的「outside」指「某人自身、私人空間或封閉環境以外的外界現實」。",
       "sentenceIndex": 9,
@@ -588,12 +548,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-05": "本句指「某人自身、私人空間或封閉環境以外的外界現實」。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。"
+        "outside-mcq-05": "本句的「outside」指「某人自身、私人空間或封閉環境以外的外界現實」。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-05"
     },
@@ -605,11 +563,9 @@ export default {
       "masked": "For a few hours, she wanted to disconnect from the ____ world.",
       "options": [
         "outside-mcq-05",
-        "outside-mcq-04",
-        "outside-mcq-06",
-        "outside-mcq-03",
-        "outside-mcq-07",
-        "outside-mcq-02"
+        "outside-mcq-11",
+        "outside-mcq-10",
+        "outside-mcq-13"
       ],
       "explanation": "本句的「outside」指「某人自身、私人空間或封閉環境以外的外界現實」。",
       "sentenceIndex": 10,
@@ -618,12 +574,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-05": "本句指「某人自身、私人空間或封閉環境以外的外界現實」。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-02": "「位於建築物或室內空間之外的戶外地方」是「outside — outdoors」的用法，與本句語境不同。"
+        "outside-mcq-05": "本句的「outside」指「某人自身、私人空間或封閉環境以外的外界現實」。",
+        "outside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-05"
     },
@@ -635,11 +589,9 @@ export default {
       "masked": "That question is ____ the scope of this report.",
       "options": [
         "outside-mcq-06",
-        "outside-mcq-05",
-        "outside-mcq-07",
         "outside-mcq-04",
-        "outside-mcq-08",
-        "outside-mcq-03"
+        "outside-mcq-09",
+        "outside-mcq-10"
       ],
       "explanation": "本句的「outside」指「超出某項規則、界限、專業或既定範圍」。",
       "sentenceIndex": 11,
@@ -648,12 +600,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-06": "本句指「超出某項規則、界限、專業或既定範圍」。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。"
+        "outside-mcq-06": "本句的「outside」指「超出某項規則、界限、專業或既定範圍」。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-06"
     },
@@ -665,11 +615,9 @@ export default {
       "masked": "The temperature is ____ the normal range.",
       "options": [
         "outside-mcq-06",
-        "outside-mcq-05",
-        "outside-mcq-07",
-        "outside-mcq-04",
-        "outside-mcq-08",
-        "outside-mcq-03"
+        "outside-mcq-10",
+        "outside-mcq-02",
+        "outside-mcq-04"
       ],
       "explanation": "本句的「outside」指「超出某項規則、界限、專業或既定範圍」。",
       "sentenceIndex": 12,
@@ -678,12 +626,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-06": "本句指「超出某項規則、界限、專業或既定範圍」。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-03": "「位於物件、建築物或範圍外側的」是「outside + noun — external part」的用法，與本句語境不同。"
+        "outside-mcq-06": "本句的「outside」指「超出某項規則、界限、專業或既定範圍」。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-06"
     },
@@ -696,10 +642,8 @@ export default {
       "options": [
         "outside-mcq-07",
         "outside-mcq-06",
-        "outside-mcq-08",
-        "outside-mcq-05",
-        "outside-mcq-09",
-        "outside-mcq-04"
+        "outside-mcq-13",
+        "outside-mcq-02"
       ],
       "explanation": "本句的「outside」指「並非來自某機構或群體內部，而是來自外部的」。",
       "sentenceIndex": 13,
@@ -708,12 +652,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-07": "本句指「並非來自某機構或群體內部，而是來自外部的」。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。"
+        "outside-mcq-07": "本句的「outside」指「並非來自某機構或群體內部，而是來自外部的」。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-07"
     },
@@ -726,10 +668,8 @@ export default {
       "options": [
         "outside-mcq-07",
         "outside-mcq-06",
-        "outside-mcq-08",
-        "outside-mcq-05",
-        "outside-mcq-09",
-        "outside-mcq-04"
+        "outside-mcq-13",
+        "outside-mcq-02"
       ],
       "explanation": "本句的「outside」指「並非來自某機構或群體內部，而是來自外部的」。",
       "sentenceIndex": 14,
@@ -738,12 +678,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-07": "本句指「並非來自某機構或群體內部，而是來自外部的」。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-04": "「某物相對於內部而言的外層、外側或外部部分」是「the outside」的用法，與本句語境不同。"
+        "outside-mcq-07": "本句的「outside」指「並非來自某機構或群體內部，而是來自外部的」。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-07"
     },
@@ -755,11 +693,9 @@ export default {
       "masked": "Employees must declare any ____ employment.",
       "options": [
         "outside-mcq-08",
-        "outside-mcq-07",
-        "outside-mcq-09",
-        "outside-mcq-06",
         "outside-mcq-10",
-        "outside-mcq-05"
+        "outside-mcq-02",
+        "outside-mcq-04"
       ],
       "explanation": "本句的「outside」指「不屬於某人主要職務或主要活動範圍內的」。",
       "sentenceIndex": 15,
@@ -768,12 +704,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-08": "本句指「不屬於某人主要職務或主要活動範圍內的」。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。"
+        "outside-mcq-08": "本句的「outside」指「不屬於某人主要職務或主要活動範圍內的」。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-08"
     },
@@ -785,11 +719,8 @@ export default {
       "masked": "Her ____ interests include photography and hiking.",
       "options": [
         "outside-mcq-08",
-        "outside-mcq-07",
-        "outside-mcq-09",
-        "outside-mcq-06",
         "outside-mcq-10",
-        "outside-mcq-05"
+        "outside-mcq-01"
       ],
       "explanation": "本句的「outside」指「不屬於某人主要職務或主要活動範圍內的」。",
       "sentenceIndex": 16,
@@ -798,12 +729,9 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-08": "本句指「不屬於某人主要職務或主要活動範圍內的」。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-05": "「某人自身、私人空間或封閉環境以外的外界現實」是「outside world」的用法，與本句語境不同。"
+        "outside-mcq-08": "本句的「outside」指「不屬於某人主要職務或主要活動範圍內的」。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-08"
     },
@@ -815,11 +743,9 @@ export default {
       "masked": "The decision was made without ____ pressure.",
       "options": [
         "outside-mcq-09",
-        "outside-mcq-08",
-        "outside-mcq-10",
-        "outside-mcq-07",
+        "outside-mcq-13",
         "outside-mcq-11",
-        "outside-mcq-06"
+        "outside-mcq-02"
       ],
       "explanation": "本句的「outside」指「從某個人、機構或系統以外而來的影響或干預」。",
       "sentenceIndex": 17,
@@ -828,12 +754,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-09": "本句指「從某個人、機構或系統以外而來的影響或干預」。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-09": "本句的「outside」指「從某個人、機構或系統以外而來的影響或干預」。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-09"
     },
@@ -845,11 +769,9 @@ export default {
       "masked": "The system is protected from ____ interference.",
       "options": [
         "outside-mcq-09",
-        "outside-mcq-08",
-        "outside-mcq-10",
-        "outside-mcq-07",
-        "outside-mcq-11",
-        "outside-mcq-06"
+        "outside-mcq-13",
+        "outside-mcq-06",
+        "outside-mcq-04"
       ],
       "explanation": "本句的「outside」指「從某個人、機構或系統以外而來的影響或干預」。",
       "sentenceIndex": 18,
@@ -858,12 +780,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-09": "本句指「從某個人、機構或系統以外而來的影響或干預」。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-06": "「超出某項規則、界限、專業或既定範圍」是「outside a range/scope」的用法，與本句語境不同。"
+        "outside-mcq-09": "本句的「outside」指「從某個人、機構或系統以外而來的影響或干預」。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-09"
     },
@@ -875,11 +795,8 @@ export default {
       "masked": "There is an ____ chance that the tickets will become available.",
       "options": [
         "outside-mcq-10",
-        "outside-mcq-09",
-        "outside-mcq-11",
-        "outside-mcq-08",
-        "outside-mcq-12",
-        "outside-mcq-07"
+        "outside-mcq-03",
+        "outside-mcq-12"
       ],
       "explanation": "本句的「outside」指「成功可能性很低，但並非完全不可能的機會」。",
       "sentenceIndex": 19,
@@ -888,12 +805,9 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-10": "本句指「成功可能性很低，但並非完全不可能的機會」。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-12": "「不屬於某個特定群體、圈子或社群的人」是「outsider — group」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。"
+        "outside-mcq-10": "本句的「outside」指「成功可能性很低，但並非完全不可能的機會」。",
+        "outside-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-10"
     },
@@ -905,11 +819,9 @@ export default {
       "masked": "She has an ____ chance of winning the competition.",
       "options": [
         "outside-mcq-10",
-        "outside-mcq-09",
-        "outside-mcq-11",
-        "outside-mcq-08",
-        "outside-mcq-12",
-        "outside-mcq-07"
+        "outside-mcq-06",
+        "outside-mcq-05",
+        "outside-mcq-13"
       ],
       "explanation": "本句的「outside」指「成功可能性很低，但並非完全不可能的機會」。",
       "sentenceIndex": 20,
@@ -918,12 +830,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-10": "本句指「成功可能性很低，但並非完全不可能的機會」。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。",
-        "outside-mcq-12": "「不屬於某個特定群體、圈子或社群的人」是「outsider — group」的用法，與本句語境不同。",
-        "outside-mcq-07": "「並非來自某機構或群體內部，而是來自外部的」是「outside consultant/help」的用法，與本句語境不同。"
+        "outside-mcq-10": "本句的「outside」指「成功可能性很低，但並非完全不可能的機會」。",
+        "outside-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-10"
     },
@@ -935,11 +845,9 @@ export default {
       "masked": "Two weeks would be an ____ estimate for the repair.",
       "options": [
         "outside-mcq-11",
+        "outside-mcq-05",
         "outside-mcq-10",
-        "outside-mcq-12",
-        "outside-mcq-09",
-        "outside-mcq-13",
-        "outside-mcq-08"
+        "outside-mcq-13"
       ],
       "explanation": "本句的「outside」指「在合理範圍內作出的最大／最高估算」。",
       "sentenceIndex": 21,
@@ -948,12 +856,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-11": "本句指「在合理範圍內作出的最大／最高估算」。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-12": "「不屬於某個特定群體、圈子或社群的人」是「outsider — group」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-13": "「在競爭中被認為勝算較低、不屬於熱門的一方」是「outsider — competition」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。"
+        "outside-mcq-11": "本句的「outside」指「在合理範圍內作出的最大／最高估算」。",
+        "outside-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-11"
     },
@@ -965,11 +871,9 @@ export default {
       "masked": "At an ____ estimate, the project should cost no more than $50,000.",
       "options": [
         "outside-mcq-11",
-        "outside-mcq-10",
-        "outside-mcq-12",
         "outside-mcq-09",
-        "outside-mcq-13",
-        "outside-mcq-08"
+        "outside-mcq-10",
+        "outside-mcq-13"
       ],
       "explanation": "本句的「outside」指「在合理範圍內作出的最大／最高估算」。",
       "sentenceIndex": 22,
@@ -978,12 +882,10 @@ export default {
         "outside"
       ],
       "optionReasons": {
-        "outside-mcq-11": "本句指「在合理範圍內作出的最大／最高估算」。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-12": "「不屬於某個特定群體、圈子或社群的人」是「outsider — group」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-13": "「在競爭中被認為勝算較低、不屬於熱門的一方」是「outsider — competition」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。"
+        "outside-mcq-11": "本句的「outside」指「在合理範圍內作出的最大／最高估算」。",
+        "outside-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-11"
     },
@@ -995,11 +897,8 @@ export default {
       "masked": "As an ____, he found the company culture difficult to understand.",
       "options": [
         "outside-mcq-12",
-        "outside-mcq-11",
-        "outside-mcq-13",
-        "outside-mcq-10",
-        "outside-mcq-09",
-        "outside-mcq-08"
+        "outside-mcq-03",
+        "outside-mcq-10"
       ],
       "explanation": "本句的「outsider」指「不屬於某個特定群體、圈子或社群的人」。",
       "sentenceIndex": 23,
@@ -1008,12 +907,9 @@ export default {
         "outsider"
       ],
       "optionReasons": {
-        "outside-mcq-12": "本句指「不屬於某個特定群體、圈子或社群的人」。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-13": "「在競爭中被認為勝算較低、不屬於熱門的一方」是「outsider — competition」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。"
+        "outside-mcq-12": "本句的「outsider」指「不屬於某個特定群體、圈子或社群的人」。",
+        "outside-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-12"
     },
@@ -1025,11 +921,9 @@ export default {
       "masked": "Local traditions can seem unusual to ____.",
       "options": [
         "outside-mcq-12",
-        "outside-mcq-11",
-        "outside-mcq-13",
-        "outside-mcq-10",
-        "outside-mcq-09",
-        "outside-mcq-08"
+        "outside-mcq-02",
+        "outside-mcq-04",
+        "outside-mcq-10"
       ],
       "explanation": "本句的「outsiders」指「不屬於某個特定群體、圈子或社群的人」。",
       "sentenceIndex": 24,
@@ -1038,12 +932,10 @@ export default {
         "outsiders"
       ],
       "optionReasons": {
-        "outside-mcq-12": "本句指「不屬於某個特定群體、圈子或社群的人」。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-13": "「在競爭中被認為勝算較低、不屬於熱門的一方」是「outsider — competition」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。"
+        "outside-mcq-12": "本句的「outsiders」指「不屬於某個特定群體、圈子或社群的人」。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-12"
     },
@@ -1055,11 +947,9 @@ export default {
       "masked": "The team entered the tournament as an ____.",
       "options": [
         "outside-mcq-13",
-        "outside-mcq-12",
-        "outside-mcq-11",
-        "outside-mcq-10",
-        "outside-mcq-09",
-        "outside-mcq-08"
+        "outside-mcq-02",
+        "outside-mcq-04",
+        "outside-mcq-09"
       ],
       "explanation": "本句的「outsider」指「在競爭中被認為勝算較低、不屬於熱門的一方」。",
       "sentenceIndex": 25,
@@ -1068,12 +958,10 @@ export default {
         "outsider"
       ],
       "optionReasons": {
-        "outside-mcq-13": "本句指「在競爭中被認為勝算較低、不屬於熱門的一方」。",
-        "outside-mcq-12": "「不屬於某個特定群體、圈子或社群的人」是「outsider — group」的用法，與本句語境不同。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。"
+        "outside-mcq-13": "本句的「outsider」指「在競爭中被認為勝算較低、不屬於熱門的一方」。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-13"
     },
@@ -1085,11 +973,9 @@ export default {
       "masked": "She began the race as a rank ____ but finished second.",
       "options": [
         "outside-mcq-13",
-        "outside-mcq-12",
-        "outside-mcq-11",
-        "outside-mcq-10",
+        "outside-mcq-04",
         "outside-mcq-09",
-        "outside-mcq-08"
+        "outside-mcq-02"
       ],
       "explanation": "本句的「outsider」指「在競爭中被認為勝算較低、不屬於熱門的一方」。",
       "sentenceIndex": 26,
@@ -1098,12 +984,10 @@ export default {
         "outsider"
       ],
       "optionReasons": {
-        "outside-mcq-13": "本句指「在競爭中被認為勝算較低、不屬於熱門的一方」。",
-        "outside-mcq-12": "「不屬於某個特定群體、圈子或社群的人」是「outsider — group」的用法，與本句語境不同。",
-        "outside-mcq-11": "「在合理範圍內作出的最大／最高估算」是「outside estimate」的用法，與本句語境不同。",
-        "outside-mcq-10": "「成功可能性很低，但並非完全不可能的機會」是「outside chance」的用法，與本句語境不同。",
-        "outside-mcq-09": "「從某個人、機構或系統以外而來的影響或干預」是「outside pressure/influence」的用法，與本句語境不同。",
-        "outside-mcq-08": "「不屬於某人主要職務或主要活動範圍內的」是「outside employment/interests」的用法，與本句語境不同。"
+        "outside-mcq-13": "本句的「outsider」指「在競爭中被認為勝算較低、不屬於熱門的一方」。",
+        "outside-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "outside-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "outside-mcq-13"
     }
@@ -1115,5 +999,7 @@ export default {
     "sha256": "96bf444f66468181fccfed6299803098dc99f4103e0dfa1ada9090f887c93359",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -926,11 +926,9 @@ export default {
       "masked": "The bird flew ____ above the trees.",
       "options": [
         "high-mcq-01",
-        "high-mcq-02",
-        "high-mcq-03",
-        "high-mcq-04",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-25",
+        "high-pdf-002",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
       "sentenceIndex": 0,
@@ -939,12 +937,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-01": "本句指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-01": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-01"
     },
@@ -956,11 +952,9 @@ export default {
       "masked": "They live on a ____ floor.",
       "options": [
         "high-mcq-01",
-        "high-mcq-02",
-        "high-mcq-03",
-        "high-mcq-04",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-18",
+        "high-pdf-003",
+        "high-mcq-04"
       ],
       "explanation": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
       "sentenceIndex": 1,
@@ -969,12 +963,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-01": "本句指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-01": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-01"
     },
@@ -986,11 +978,9 @@ export default {
       "masked": "The wall is three metres ____.",
       "options": [
         "high-mcq-01",
-        "high-mcq-02",
-        "high-mcq-03",
-        "high-mcq-04",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-pdf-009",
+        "high-mcq-13",
+        "high-mcq-03"
       ],
       "explanation": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
       "sentenceIndex": 2,
@@ -999,12 +989,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-01": "本句指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-01": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
+        "high-pdf-009": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-01"
     },
@@ -1016,11 +1004,9 @@ export default {
       "masked": "The mountain is extremely ____.",
       "options": [
         "high-mcq-01",
-        "high-mcq-02",
-        "high-mcq-03",
+        "high-mcq-14",
         "high-mcq-04",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-pdf-002"
       ],
       "explanation": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
       "sentenceIndex": 3,
@@ -1029,12 +1015,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-01": "本句指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-01": "本句的「high」指「垂直位置距離地面／基準點較遠，或垂直尺寸大」。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-01"
     },
@@ -1046,11 +1030,9 @@ export default {
       "masked": "The price is too ____.",
       "options": [
         "high-mcq-02",
-        "high-mcq-01",
-        "high-mcq-03",
-        "high-mcq-04",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-pdf-011",
+        "high-mcq-14",
+        "high-mcq-25"
       ],
       "explanation": "本句的「high」指「數值、程度、比率或數量處於較大水平」。",
       "sentenceIndex": 4,
@@ -1059,12 +1041,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-02": "本句指「數值、程度、比率或數量處於較大水平」。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-02": "本句的「high」指「數值、程度、比率或數量處於較大水平」。",
+        "high-pdf-011": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-02"
     },
@@ -1076,11 +1056,9 @@ export default {
       "masked": "The temperature is unusually ____.",
       "options": [
         "high-mcq-02",
-        "high-mcq-01",
-        "high-mcq-03",
-        "high-mcq-04",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-25",
+        "high-mcq-14",
+        "high-mcq-04"
       ],
       "explanation": "本句的「high」指「數值、程度、比率或數量處於較大水平」。",
       "sentenceIndex": 5,
@@ -1089,12 +1067,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-02": "本句指「數值、程度、比率或數量處於較大水平」。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-02": "本句的「high」指「數值、程度、比率或數量處於較大水平」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-02"
     },
@@ -1106,11 +1082,9 @@ export default {
       "masked": "The product has a ____.",
       "options": [
         "high-pdf-001",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-15",
+        "high-mcq-12",
+        "high-mcq-08"
       ],
       "explanation": "本句的「high price」指「金額／成本數值大」。",
       "sentenceIndex": 6,
@@ -1119,12 +1093,10 @@ export default {
         "high price"
       ],
       "optionReasons": {
-        "high-pdf-001": "本句指「金額／成本數值大」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-001": "本句的「high price」指「金額／成本數值大」。",
+        "high-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-001"
     },
@@ -1136,11 +1108,9 @@ export default {
       "masked": "____ costs can reduce profit.",
       "options": [
         "high-pdf-001",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-03",
+        "high-mcq-11",
+        "high-mcq-14"
       ],
       "explanation": "本句的「High」指「金額／成本數值大」。",
       "sentenceIndex": 7,
@@ -1149,12 +1119,10 @@ export default {
         "High"
       ],
       "optionReasons": {
-        "high-pdf-001": "本句指「金額／成本數值大」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-001": "本句的「High」指「金額／成本數值大」。",
+        "high-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-001"
     },
@@ -1166,11 +1134,9 @@ export default {
       "masked": "The machine cannot operate at ____.",
       "options": [
         "high-pdf-002",
-        "high-mcq-02",
-        "high-mcq-04",
+        "high-mcq-19",
         "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-14"
       ],
       "explanation": "本句的「high temperatures」指「溫度數值高」。",
       "sentenceIndex": 8,
@@ -1179,12 +1145,10 @@ export default {
         "high temperatures"
       ],
       "optionReasons": {
-        "high-pdf-002": "本句指「溫度數值高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-002": "本句的「high temperatures」指「溫度數值高」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-002"
     },
@@ -1196,11 +1160,9 @@ export default {
       "masked": "The patient developed a ____ temperature.",
       "options": [
         "high-pdf-002",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-19",
+        "high-mcq-22",
+        "high-mcq-18"
       ],
       "explanation": "本句的「high」指「溫度數值高」。",
       "sentenceIndex": 9,
@@ -1209,12 +1171,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-002": "本句指「溫度數值高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-002": "本句的「high」指「溫度數值高」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-002"
     },
@@ -1226,11 +1186,9 @@ export default {
       "masked": "The train travels at ____.",
       "options": [
         "high-pdf-003",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-22",
+        "high-mcq-21",
+        "high-mcq-14"
       ],
       "explanation": "本句的「high speed」指「速度數值高」。",
       "sentenceIndex": 10,
@@ -1239,12 +1197,10 @@ export default {
         "high speed"
       ],
       "optionReasons": {
-        "high-pdf-003": "本句指「速度數值高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-003": "本句的「high speed」指「速度數值高」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-003"
     },
@@ -1256,11 +1212,9 @@ export default {
       "masked": "Driving at ____ speed can be dangerous.",
       "options": [
         "high-pdf-003",
-        "high-mcq-02",
-        "high-mcq-04",
+        "high-pdf-007",
         "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-14"
       ],
       "explanation": "本句的「high」指「速度數值高」。",
       "sentenceIndex": 11,
@@ -1269,12 +1223,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-003": "本句指「速度數值高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-003": "本句的「high」指「速度數值高」。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-003"
     },
@@ -1286,11 +1238,9 @@ export default {
       "masked": "There is a ____.",
       "options": [
         "high-pdf-004",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-pdf-007",
+        "high-mcq-21",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high level of stress」指「程度／強度處於較高水平」。",
       "sentenceIndex": 12,
@@ -1299,12 +1249,10 @@ export default {
         "high level of stress"
       ],
       "optionReasons": {
-        "high-pdf-004": "本句指「程度／強度處於較高水平」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-004": "本句的「high level of stress」指「程度／強度處於較高水平」。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-004"
     },
@@ -1316,11 +1264,9 @@ export default {
       "masked": "The project carries a ____ level of risk.",
       "options": [
         "high-pdf-004",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-22",
+        "high-mcq-13",
+        "high-mcq-25"
       ],
       "explanation": "本句的「high」指「程度／強度處於較高水平」。",
       "sentenceIndex": 13,
@@ -1329,12 +1275,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-004": "本句指「程度／強度處於較高水平」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-004": "本句的「high」指「程度／強度處於較高水平」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-004"
     },
@@ -1346,11 +1290,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "high-mcq-09",
-        "high-mcq-08",
-        "high-mcq-10",
-        "high-mcq-07",
-        "high-mcq-11",
-        "high-mcq-06"
+        "high-pdf-010",
+        "high-mcq-21",
+        "high-mcq-14"
       ],
       "explanation": "本句的「high-risk investment」指「負面結果發生的可能性或危險程度較高」。",
       "sentenceIndex": 14,
@@ -1359,12 +1301,10 @@ export default {
         "high-risk investment"
       ],
       "optionReasons": {
-        "high-mcq-09": "本句指「負面結果發生的可能性或危險程度較高」。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-09": "本句的「high-risk investment」指「負面結果發生的可能性或危險程度較高」。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-09"
     },
@@ -1376,11 +1316,9 @@ export default {
       "masked": "The area is at ____ risk of flooding.",
       "options": [
         "high-mcq-09",
-        "high-mcq-08",
-        "high-mcq-10",
-        "high-mcq-07",
-        "high-mcq-11",
-        "high-mcq-06"
+        "high-mcq-19",
+        "high-mcq-14",
+        "high-mcq-21"
       ],
       "explanation": "本句的「high」指「負面結果發生的可能性或危險程度較高」。",
       "sentenceIndex": 15,
@@ -1389,12 +1327,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-09": "本句指「負面結果發生的可能性或危險程度較高」。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-09": "本句的「high」指「負面結果發生的可能性或危險程度較高」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-09"
     },
@@ -1406,11 +1342,9 @@ export default {
       "masked": "She had ____.",
       "options": [
         "high-mcq-03",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-pdf-010",
+        "high-pdf-007",
+        "high-mcq-01"
       ],
       "explanation": "本句的「high standards」指「對品質、表現或行為要求的水平很高」。",
       "sentenceIndex": 16,
@@ -1419,12 +1353,10 @@ export default {
         "high standards"
       ],
       "optionReasons": {
-        "high-mcq-03": "本句指「對品質、表現或行為要求的水平很高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-03": "本句的「high standards」指「對品質、表現或行為要求的水平很高」。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-03"
     },
@@ -1436,11 +1368,9 @@ export default {
       "masked": "The company maintains ____ standards of quality.",
       "options": [
         "high-mcq-03",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-mcq-14",
+        "high-mcq-25",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high」指「對品質、表現或行為要求的水平很高」。",
       "sentenceIndex": 17,
@@ -1449,12 +1379,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-03": "本句指「對品質、表現或行為要求的水平很高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-03": "本句的「high」指「對品質、表現或行為要求的水平很高」。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-03"
     },
@@ -1466,11 +1394,9 @@ export default {
       "masked": "She sets ____ standards for her students.",
       "options": [
         "high-mcq-03",
-        "high-mcq-02",
-        "high-mcq-04",
-        "high-mcq-01",
-        "high-mcq-05",
-        "high-mcq-06"
+        "high-pdf-001",
+        "high-mcq-22",
+        "high-mcq-01"
       ],
       "explanation": "本句的「high」指「對品質、表現或行為要求的水平很高」。",
       "sentenceIndex": 18,
@@ -1479,12 +1405,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-03": "本句指「對品質、表現或行為要求的水平很高」。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-mcq-03": "本句的「high」指「對品質、表現或行為要求的水平很高」。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-03"
     },
@@ -1496,11 +1420,9 @@ export default {
       "masked": "Her parents had ____.",
       "options": [
         "high-mcq-04",
-        "high-mcq-03",
-        "high-mcq-05",
-        "high-mcq-02",
-        "high-mcq-06",
-        "high-mcq-01"
+        "high-mcq-01",
+        "high-mcq-22",
+        "high-mcq-14"
       ],
       "explanation": "本句的「high expectations」指「預期某人／某事能達到很高表現」。",
       "sentenceIndex": 19,
@@ -1509,12 +1431,10 @@ export default {
         "high expectations"
       ],
       "optionReasons": {
-        "high-mcq-04": "本句指「預期某人／某事能達到很高表現」。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。"
+        "high-mcq-04": "本句的「high expectations」指「預期某人／某事能達到很高表現」。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-04"
     },
@@ -1526,11 +1446,9 @@ export default {
       "masked": "The teacher has ____ expectations of the class.",
       "options": [
         "high-mcq-04",
-        "high-mcq-03",
-        "high-mcq-05",
-        "high-mcq-02",
-        "high-mcq-06",
-        "high-mcq-01"
+        "high-mcq-22",
+        "high-pdf-001",
+        "high-mcq-14"
       ],
       "explanation": "本句的「high」指「預期某人／某事能達到很高表現」。",
       "sentenceIndex": 20,
@@ -1539,12 +1457,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-04": "本句指「預期某人／某事能達到很高表現」。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-01": "「垂直位置距離地面／基準點較遠，或垂直尺寸大」是「high — physical」的用法，與本句語境不同。"
+        "high-mcq-04": "本句的「high」指「預期某人／某事能達到很高表現」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-04"
     },
@@ -1556,11 +1472,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "high-pdf-005",
-        "high-mcq-04",
-        "high-mcq-06",
-        "high-mcq-03",
-        "high-mcq-07",
-        "high-mcq-02"
+        "high-mcq-25",
+        "high-mcq-10",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high level of skill」指「某項能力、品質或程度很高」。",
       "sentenceIndex": 21,
@@ -1569,12 +1483,10 @@ export default {
         "high level of skill"
       ],
       "optionReasons": {
-        "high-pdf-005": "本句指「某項能力、品質或程度很高」。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。"
+        "high-pdf-005": "本句的「high level of skill」指「某項能力、品質或程度很高」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-005"
     },
@@ -1586,11 +1498,9 @@ export default {
       "masked": "The work requires a ____ level of accuracy.",
       "options": [
         "high-pdf-005",
-        "high-mcq-04",
-        "high-mcq-06",
-        "high-mcq-03",
-        "high-mcq-07",
-        "high-mcq-02"
+        "high-mcq-25",
+        "high-mcq-10",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high」指「某項能力、品質或程度很高」。",
       "sentenceIndex": 22,
@@ -1599,12 +1509,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-005": "本句指「某項能力、品質或程度很高」。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。"
+        "high-pdf-005": "本句的「high」指「某項能力、品質或程度很高」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-005"
     },
@@ -1616,11 +1524,9 @@ export default {
       "masked": "They produce ____.",
       "options": [
         "high-mcq-05",
-        "high-mcq-04",
-        "high-mcq-06",
-        "high-mcq-03",
-        "high-mcq-07",
-        "high-mcq-02"
+        "high-mcq-10",
+        "high-mcq-19",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high-quality products」指「品質水準高」。",
       "sentenceIndex": 23,
@@ -1629,12 +1535,10 @@ export default {
         "high-quality products"
       ],
       "optionReasons": {
-        "high-mcq-05": "本句指「品質水準高」。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。"
+        "high-mcq-05": "本句的「high-quality products」指「品質水準高」。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-05"
     },
@@ -1646,11 +1550,9 @@ export default {
       "masked": "The course offers ____ teaching.",
       "options": [
         "high-mcq-05",
-        "high-mcq-04",
-        "high-mcq-06",
-        "high-mcq-03",
-        "high-mcq-07",
-        "high-mcq-02"
+        "high-pdf-001",
+        "high-mcq-25",
+        "high-mcq-21"
       ],
       "explanation": "本句的「high-quality」指「品質水準高」。",
       "sentenceIndex": 24,
@@ -1659,12 +1561,10 @@ export default {
         "high-quality"
       ],
       "optionReasons": {
-        "high-mcq-05": "本句指「品質水準高」。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-02": "「數值、程度、比率或數量處於較大水平」是「high — amount/level」的用法，與本句語境不同。"
+        "high-mcq-05": "本句的「high-quality」指「品質水準高」。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-05"
     },
@@ -1676,11 +1576,9 @@ export default {
       "masked": "She holds a ____ in the company.",
       "options": [
         "high-mcq-06",
-        "high-mcq-05",
-        "high-mcq-07",
-        "high-mcq-04",
-        "high-mcq-08",
-        "high-mcq-03"
+        "high-mcq-13",
+        "high-mcq-25",
+        "high-pdf-001"
       ],
       "explanation": "本句的「high position」指「在階級、職位或權力結構中位置較高」。",
       "sentenceIndex": 25,
@@ -1689,12 +1587,10 @@ export default {
         "high position"
       ],
       "optionReasons": {
-        "high-mcq-06": "本句指「在階級、職位或權力結構中位置較高」。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。"
+        "high-mcq-06": "本句的「high position」指「在階級、職位或權力結構中位置較高」。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-06"
     },
@@ -1706,11 +1602,9 @@ export default {
       "masked": "Several ____ officials attended.",
       "options": [
         "high-mcq-06",
-        "high-mcq-05",
-        "high-mcq-07",
-        "high-mcq-04",
-        "high-mcq-08",
-        "high-mcq-03"
+        "high-mcq-19",
+        "high-mcq-21",
+        "high-pdf-001"
       ],
       "explanation": "本句的「high-ranking」指「在階級、職位或權力結構中位置較高」。",
       "sentenceIndex": 26,
@@ -1719,12 +1613,10 @@ export default {
         "high-ranking"
       ],
       "optionReasons": {
-        "high-mcq-06": "本句指「在階級、職位或權力結構中位置較高」。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。"
+        "high-mcq-06": "本句的「high-ranking」指「在階級、職位或權力結構中位置較高」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-06"
     },
@@ -1736,11 +1628,9 @@ export default {
       "masked": "He rose to a ____ in the organization.",
       "options": [
         "high-mcq-06",
-        "high-mcq-05",
-        "high-mcq-07",
-        "high-mcq-04",
-        "high-mcq-08",
-        "high-mcq-03"
+        "high-mcq-22",
+        "high-pdf-001",
+        "high-pdf-010"
       ],
       "explanation": "本句的「high position」指「在階級、職位或權力結構中位置較高」。",
       "sentenceIndex": 27,
@@ -1749,12 +1639,10 @@ export default {
         "high position"
       ],
       "optionReasons": {
-        "high-mcq-06": "本句指「在階級、職位或權力結構中位置較高」。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。"
+        "high-mcq-06": "本句的「high position」指「在階級、職位或權力結構中位置較高」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-06"
     },
@@ -1766,11 +1654,9 @@ export default {
       "masked": "The role carries ____ status.",
       "options": [
         "high-mcq-06",
-        "high-mcq-05",
-        "high-mcq-07",
-        "high-mcq-04",
-        "high-mcq-08",
-        "high-mcq-03"
+        "high-mcq-25",
+        "high-mcq-21",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high」指「在階級、職位或權力結構中位置較高」。",
       "sentenceIndex": 28,
@@ -1779,12 +1665,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-06": "本句指「在階級、職位或權力結構中位置較高」。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-03": "「對品質、表現或行為要求的水平很高」是「high standards」的用法，與本句語境不同。"
+        "high-mcq-06": "本句的「high」指「在階級、職位或權力結構中位置較高」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-06"
     },
@@ -1796,11 +1680,9 @@ export default {
       "masked": "The job has relatively ____.",
       "options": [
         "high-mcq-07",
-        "high-mcq-06",
-        "high-mcq-08",
-        "high-mcq-05",
-        "high-mcq-09",
-        "high-mcq-04"
+        "high-mcq-13",
+        "high-pdf-001",
+        "high-mcq-19"
       ],
       "explanation": "本句的「high status」指「社會／專業地位較高」。",
       "sentenceIndex": 29,
@@ -1809,12 +1691,10 @@ export default {
         "high status"
       ],
       "optionReasons": {
-        "high-mcq-07": "本句指「社會／專業地位較高」。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。"
+        "high-mcq-07": "本句的「high status」指「社會／專業地位較高」。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-07"
     },
@@ -1826,11 +1706,9 @@ export default {
       "masked": "Education once carried ____ social status.",
       "options": [
         "high-mcq-07",
-        "high-mcq-06",
-        "high-mcq-08",
-        "high-mcq-05",
-        "high-mcq-09",
-        "high-mcq-04"
+        "high-pdf-001",
+        "high-mcq-24",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high」指「社會／專業地位較高」。",
       "sentenceIndex": 30,
@@ -1839,12 +1717,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-07": "本句指「社會／專業地位較高」。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-04": "「預期某人／某事能達到很高表現」是「high expectations」的用法，與本句語境不同。"
+        "high-mcq-07": "本句的「high」指「社會／專業地位較高」。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-07"
     },
@@ -1856,11 +1732,9 @@ export default {
       "masked": "Safety is a ____.",
       "options": [
         "high-mcq-08",
-        "high-mcq-07",
-        "high-mcq-09",
-        "high-mcq-06",
-        "high-mcq-10",
-        "high-mcq-05"
+        "high-mcq-14",
+        "high-pdf-001",
+        "high-mcq-25"
       ],
       "explanation": "本句的「high priority」指「在重要性／處理次序上位置較高」。",
       "sentenceIndex": 31,
@@ -1869,12 +1743,10 @@ export default {
         "high priority"
       ],
       "optionReasons": {
-        "high-mcq-08": "本句指「在重要性／處理次序上位置較高」。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。"
+        "high-mcq-08": "本句的「high priority」指「在重要性／處理次序上位置較高」。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-08"
     },
@@ -1886,11 +1758,9 @@ export default {
       "masked": "Customer satisfaction ranks ____ on our list.",
       "options": [
         "high-mcq-08",
-        "high-mcq-07",
-        "high-mcq-09",
-        "high-mcq-06",
-        "high-mcq-10",
-        "high-mcq-05"
+        "high-mcq-14",
+        "high-mcq-19",
+        "high-mcq-21"
       ],
       "explanation": "本句的「high」指「在重要性／處理次序上位置較高」。",
       "sentenceIndex": 32,
@@ -1899,12 +1769,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-08": "本句指「在重要性／處理次序上位置較高」。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-05": "「品質水準高」是「high quality」的用法，與本句語境不同。"
+        "high-mcq-08": "本句的「high」指「在重要性／處理次序上位置較高」。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-08"
     },
@@ -1916,11 +1784,9 @@ export default {
       "masked": "The university ____ for research.",
       "options": [
         "high-pdf-006",
-        "high-mcq-08",
-        "high-mcq-10",
-        "high-mcq-07",
-        "high-mcq-11",
-        "high-mcq-06"
+        "high-pdf-007",
+        "high-mcq-18",
+        "high-mcq-25"
       ],
       "explanation": "本句的「ranks highly」指「在排名或重要程度上處於較高位置」。",
       "sentenceIndex": 33,
@@ -1929,12 +1795,10 @@ export default {
         "ranks highly"
       ],
       "optionReasons": {
-        "high-pdf-006": "本句指「在排名或重要程度上處於較高位置」。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-006": "本句的「ranks highly」指「在排名或重要程度上處於較高位置」。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-006"
     },
@@ -1946,11 +1810,9 @@ export default {
       "masked": "Safety ranks ____ among our concerns.",
       "options": [
         "high-pdf-006",
-        "high-mcq-08",
-        "high-mcq-10",
-        "high-mcq-07",
-        "high-mcq-11",
-        "high-mcq-06"
+        "high-mcq-21",
+        "high-mcq-18",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high」指「在排名或重要程度上處於較高位置」。",
       "sentenceIndex": 34,
@@ -1959,12 +1821,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-006": "本句指「在排名或重要程度上處於較高位置」。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-06": "「在階級、職位或權力結構中位置較高」是「high rank/position」的用法，與本句語境不同。"
+        "high-pdf-006": "本句的「high」指「在排名或重要程度上處於較高位置」。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-006"
     },
@@ -1976,11 +1836,9 @@ export default {
       "masked": "The area has a ____.",
       "options": [
         "high-pdf-007",
-        "high-mcq-09",
-        "high-mcq-11",
-        "high-mcq-08",
-        "high-mcq-12",
-        "high-mcq-07"
+        "high-mcq-19",
+        "high-mcq-22",
+        "high-pdf-011"
       ],
       "explanation": "本句的「high unemployment rate」指「某事件發生頻率／比例大」。",
       "sentenceIndex": 35,
@@ -1989,12 +1847,10 @@ export default {
         "high unemployment rate"
       ],
       "optionReasons": {
-        "high-pdf-007": "本句指「某事件發生頻率／比例大」。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。"
+        "high-pdf-007": "本句的「high unemployment rate」指「某事件發生頻率／比例大」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-011": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-007"
     },
@@ -2006,11 +1862,9 @@ export default {
       "masked": "There is a ____ failure rate.",
       "options": [
         "high-pdf-007",
-        "high-mcq-09",
-        "high-mcq-11",
+        "high-mcq-16",
         "high-mcq-08",
-        "high-mcq-12",
-        "high-mcq-07"
+        "high-mcq-25"
       ],
       "explanation": "本句的「high」指「某事件發生頻率／比例大」。",
       "sentenceIndex": 36,
@@ -2019,12 +1873,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-007": "本句指「某事件發生頻率／比例大」。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。"
+        "high-pdf-007": "本句的「high」指「某事件發生頻率／比例大」。",
+        "high-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-007"
     },
@@ -2036,11 +1888,9 @@ export default {
       "masked": "The food is ____.",
       "options": [
         "high-mcq-10",
-        "high-mcq-09",
-        "high-mcq-11",
-        "high-mcq-08",
         "high-mcq-12",
-        "high-mcq-07"
+        "high-pdf-011",
+        "high-mcq-20"
       ],
       "explanation": "本句的「high in sugar」指「某物含有較大量的指定成分」。",
       "sentenceIndex": 37,
@@ -2049,12 +1899,10 @@ export default {
         "high in sugar"
       ],
       "optionReasons": {
-        "high-mcq-10": "本句指「某物含有較大量的指定成分」。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。"
+        "high-mcq-10": "本句的「high in sugar」指「某物含有較大量的指定成分」。",
+        "high-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-011": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-10"
     },
@@ -2066,11 +1914,9 @@ export default {
       "masked": "The product is ____ in protein.",
       "options": [
         "high-mcq-10",
-        "high-mcq-09",
-        "high-mcq-11",
-        "high-mcq-08",
-        "high-mcq-12",
-        "high-mcq-07"
+        "high-pdf-008",
+        "high-mcq-20",
+        "high-mcq-16"
       ],
       "explanation": "本句的「high」指「某物含有較大量的指定成分」。",
       "sentenceIndex": 38,
@@ -2079,12 +1925,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-10": "本句指「某物含有較大量的指定成分」。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-07": "「社會／專業地位較高」是「high status」的用法，與本句語境不同。"
+        "high-mcq-10": "本句的「high」指「某物含有較大量的指定成分」。",
+        "high-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-10"
     },
@@ -2096,11 +1940,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "high-mcq-11",
-        "high-mcq-10",
-        "high-mcq-12",
-        "high-mcq-09",
-        "high-mcq-13",
-        "high-mcq-08"
+        "high-pdf-001",
+        "high-mcq-22",
+        "high-mcq-13"
       ],
       "explanation": "本句的「high voice」指「聲音頻率／音調較高」。",
       "sentenceIndex": 39,
@@ -2109,12 +1951,10 @@ export default {
         "high voice"
       ],
       "optionReasons": {
-        "high-mcq-11": "本句指「聲音頻率／音調較高」。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。"
+        "high-mcq-11": "本句的「high voice」指「聲音頻率／音調較高」。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-11"
     },
@@ -2126,11 +1966,9 @@ export default {
       "masked": "The note is too ____ for me.",
       "options": [
         "high-mcq-11",
-        "high-mcq-10",
-        "high-mcq-12",
-        "high-mcq-09",
-        "high-mcq-13",
-        "high-mcq-08"
+        "high-mcq-24",
+        "high-mcq-22",
+        "high-mcq-21"
       ],
       "explanation": "本句的「high」指「聲音頻率／音調較高」。",
       "sentenceIndex": 40,
@@ -2139,12 +1977,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-11": "本句指「聲音頻率／音調較高」。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-08": "「在重要性／處理次序上位置較高」是「high priority」的用法，與本句語境不同。"
+        "high-mcq-11": "本句的「high」指「聲音頻率／音調較高」。",
+        "high-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-11"
     },
@@ -2156,11 +1992,9 @@ export default {
       "masked": "We heard a ____.",
       "options": [
         "high-pdf-008",
-        "high-mcq-11",
-        "high-mcq-13",
-        "high-mcq-10",
-        "high-mcq-14",
-        "high-mcq-09"
+        "high-mcq-19",
+        "high-pdf-001",
+        "high-mcq-10"
       ],
       "explanation": "本句的「high-pitched sound」指「音調／頻率很高」。",
       "sentenceIndex": 41,
@@ -2169,12 +2003,10 @@ export default {
         "high-pitched sound"
       ],
       "optionReasons": {
-        "high-pdf-008": "本句指「音調／頻率很高」。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。"
+        "high-pdf-008": "本句的「high-pitched sound」指「音調／頻率很高」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-008"
     },
@@ -2186,11 +2018,9 @@ export default {
       "masked": "The alarm produces a ____ tone.",
       "options": [
         "high-pdf-008",
-        "high-mcq-11",
-        "high-mcq-13",
         "high-mcq-10",
-        "high-mcq-14",
-        "high-mcq-09"
+        "high-mcq-25",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high-pitched」指「音調／頻率很高」。",
       "sentenceIndex": 42,
@@ -2199,12 +2029,10 @@ export default {
         "high-pitched"
       ],
       "optionReasons": {
-        "high-pdf-008": "本句指「音調／頻率很高」。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。"
+        "high-pdf-008": "本句的「high-pitched」指「音調／頻率很高」。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-008"
     },
@@ -2216,11 +2044,9 @@ export default {
       "masked": "Everyone was in ____.",
       "options": [
         "high-mcq-12",
-        "high-mcq-11",
-        "high-mcq-13",
-        "high-mcq-10",
-        "high-mcq-14",
-        "high-mcq-09"
+        "high-mcq-19",
+        "high-mcq-18",
+        "high-mcq-02"
       ],
       "explanation": "本句的「high spirits」指「心情興奮、愉快、士氣高昂」。",
       "sentenceIndex": 43,
@@ -2229,12 +2055,10 @@ export default {
         "high spirits"
       ],
       "optionReasons": {
-        "high-mcq-12": "本句指「心情興奮、愉快、士氣高昂」。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。"
+        "high-mcq-12": "本句的「high spirits」指「心情興奮、愉快、士氣高昂」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-12"
     },
@@ -2246,11 +2070,9 @@ export default {
       "masked": "The team remained in ____ spirits after the win.",
       "options": [
         "high-mcq-12",
-        "high-mcq-11",
-        "high-mcq-13",
-        "high-mcq-10",
-        "high-mcq-14",
-        "high-mcq-09"
+        "high-mcq-24",
+        "high-mcq-02",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high」指「心情興奮、愉快、士氣高昂」。",
       "sentenceIndex": 44,
@@ -2259,12 +2081,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-12": "本句指「心情興奮、愉快、士氣高昂」。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。"
+        "high-mcq-12": "本句的「high」指「心情興奮、愉快、士氣高昂」。",
+        "high-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-12"
     },
@@ -2276,11 +2096,9 @@ export default {
       "masked": "The children were in ____.",
       "options": [
         "high-mcq-12",
-        "high-mcq-11",
-        "high-mcq-13",
-        "high-mcq-10",
-        "high-mcq-14",
-        "high-mcq-09"
+        "high-mcq-02",
+        "high-mcq-18",
+        "high-mcq-21"
       ],
       "explanation": "本句的「high spirits」指「心情興奮、愉快、士氣高昂」。",
       "sentenceIndex": 45,
@@ -2289,12 +2107,10 @@ export default {
         "high spirits"
       ],
       "optionReasons": {
-        "high-mcq-12": "本句指「心情興奮、愉快、士氣高昂」。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。"
+        "high-mcq-12": "本句的「high spirits」指「心情興奮、愉快、士氣高昂」。",
+        "high-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-12"
     },
@@ -2306,11 +2122,9 @@ export default {
       "masked": "Despite the long journey, everyone stayed in ____ spirits.",
       "options": [
         "high-mcq-12",
-        "high-mcq-11",
-        "high-mcq-13",
-        "high-mcq-10",
-        "high-mcq-14",
-        "high-mcq-09"
+        "high-mcq-22",
+        "high-mcq-01",
+        "high-pdf-010"
       ],
       "explanation": "本句的「high」指「心情興奮、愉快、士氣高昂」。",
       "sentenceIndex": 46,
@@ -2319,12 +2133,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-12": "本句指「心情興奮、愉快、士氣高昂」。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-09": "「負面結果發生的可能性或危險程度較高」是「high risk」的用法，與本句語境不同。"
+        "high-mcq-12": "本句的「high」指「心情興奮、愉快、士氣高昂」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-12"
     },
@@ -2336,11 +2148,9 @@ export default {
       "masked": "He was ____ on drugs.",
       "options": [
         "high-mcq-13",
-        "high-mcq-12",
-        "high-mcq-14",
-        "high-mcq-11",
-        "high-mcq-15",
-        "high-mcq-10"
+        "high-mcq-16",
+        "high-mcq-23",
+        "high-pdf-008"
       ],
       "explanation": "本句的「high」指「因毒品作用而出現欣快、亢奮或知覺改變」。",
       "sentenceIndex": 47,
@@ -2349,12 +2159,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-13": "本句指「因毒品作用而出現欣快、亢奮或知覺改變」。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。"
+        "high-mcq-13": "本句的「high」指「因毒品作用而出現欣快、亢奮或知覺改變」。",
+        "high-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-008": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-13"
     },
@@ -2366,10 +2174,8 @@ export default {
       "masked": "The drug can make users feel ____.",
       "options": [
         "high-mcq-13",
-        "high-mcq-12",
-        "high-mcq-14",
-        "high-mcq-11",
-        "high-mcq-15",
+        "high-mcq-25",
+        "high-mcq-22",
         "high-mcq-10"
       ],
       "explanation": "本句的「high」指「因毒品作用而出現欣快、亢奮或知覺改變」。",
@@ -2379,12 +2185,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-13": "本句指「因毒品作用而出現欣快、亢奮或知覺改變」。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-10": "「某物含有較大量的指定成分」是「high in X」的用法，與本句語境不同。"
+        "high-mcq-13": "本句的「high」指「因毒品作用而出現欣快、亢奮或知覺改變」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-13"
     },
@@ -2396,11 +2200,9 @@ export default {
       "masked": "Winning gave her an emotional ____.",
       "options": [
         "high-mcq-14",
-        "high-mcq-13",
-        "high-mcq-15",
-        "high-mcq-12",
-        "high-mcq-16",
-        "high-mcq-11"
+        "high-mcq-07",
+        "high-mcq-04",
+        "high-pdf-007"
       ],
       "explanation": "本句的「high」指「強烈快樂、興奮或欣快感」。",
       "sentenceIndex": 49,
@@ -2409,12 +2211,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-14": "本句指「強烈快樂、興奮或欣快感」。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。"
+        "high-mcq-14": "本句的「high」指「強烈快樂、興奮或欣快感」。",
+        "high-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-14"
     },
@@ -2426,11 +2226,9 @@ export default {
       "masked": "He was still on a ____ after the performance.",
       "options": [
         "high-mcq-14",
-        "high-mcq-13",
-        "high-mcq-15",
-        "high-mcq-12",
-        "high-mcq-16",
-        "high-mcq-11"
+        "high-mcq-02",
+        "high-mcq-11",
+        "high-mcq-19"
       ],
       "explanation": "本句的「high」指「強烈快樂、興奮或欣快感」。",
       "sentenceIndex": 50,
@@ -2439,12 +2237,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-14": "本句指「強烈快樂、興奮或欣快感」。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。"
+        "high-mcq-14": "本句的「high」指「強烈快樂、興奮或欣快感」。",
+        "high-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-14"
     },
@@ -2456,11 +2252,9 @@ export default {
       "masked": "She was ____ after the interview.",
       "options": [
         "high-mcq-14",
-        "high-mcq-13",
-        "high-mcq-15",
-        "high-mcq-12",
-        "high-mcq-16",
-        "high-mcq-11"
+        "high-mcq-01",
+        "high-mcq-21",
+        "high-pdf-002"
       ],
       "explanation": "本句的「on a high」指「強烈快樂、興奮或欣快感」。",
       "sentenceIndex": 51,
@@ -2469,12 +2263,10 @@ export default {
         "on a high"
       ],
       "optionReasons": {
-        "high-mcq-14": "本句指「強烈快樂、興奮或欣快感」。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。"
+        "high-mcq-14": "本句的「on a high」指「強烈快樂、興奮或欣快感」。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-14"
     },
@@ -2486,11 +2278,9 @@ export default {
       "masked": "The team finished the season on a ____.",
       "options": [
         "high-mcq-14",
-        "high-mcq-13",
-        "high-mcq-15",
-        "high-mcq-12",
-        "high-mcq-16",
-        "high-mcq-11"
+        "high-mcq-08",
+        "high-mcq-03",
+        "high-pdf-010"
       ],
       "explanation": "本句的「high」指「強烈快樂、興奮或欣快感」。",
       "sentenceIndex": 52,
@@ -2499,12 +2289,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-14": "本句指「強烈快樂、興奮或欣快感」。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-11": "「聲音頻率／音調較高」是「high voice/note」的用法，與本句語境不同。"
+        "high-mcq-14": "本句的「high」指「強烈快樂、興奮或欣快感」。",
+        "high-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-14"
     },
@@ -2516,11 +2304,9 @@ export default {
       "masked": "The system operates under ____.",
       "options": [
         "high-mcq-23",
-        "high-mcq-22",
-        "high-mcq-24",
-        "high-mcq-21",
         "high-mcq-25",
-        "high-mcq-20"
+        "high-mcq-18",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high pressure」指「物理壓力高；或比喻要求／壓力很大」。",
       "sentenceIndex": 53,
@@ -2529,12 +2315,10 @@ export default {
         "high pressure"
       ],
       "optionReasons": {
-        "high-mcq-23": "本句指「物理壓力高；或比喻要求／壓力很大」。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-24": "「某時期最強烈、最繁盛或最重要的階段」是「38. at the height of（在……最高潮／頂峰時） — 巔峰時期」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-25": "「好壞時期、成功與困難的交替」是「42. highs and lows（高低起伏） — 順境與逆境；高潮低潮」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。"
+        "high-mcq-23": "本句的「high pressure」指「物理壓力高；或比喻要求／壓力很大」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-23"
     },
@@ -2546,11 +2330,9 @@ export default {
       "masked": "He works in a ____ environment.",
       "options": [
         "high-mcq-23",
-        "high-mcq-22",
-        "high-mcq-24",
-        "high-mcq-21",
-        "high-mcq-25",
-        "high-mcq-20"
+        "high-mcq-19",
+        "high-mcq-14",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high-pressure」指「物理壓力高；或比喻要求／壓力很大」。",
       "sentenceIndex": 54,
@@ -2559,12 +2341,10 @@ export default {
         "high-pressure"
       ],
       "optionReasons": {
-        "high-mcq-23": "本句指「物理壓力高；或比喻要求／壓力很大」。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-24": "「某時期最強烈、最繁盛或最重要的階段」是「38. at the height of（在……最高潮／頂峰時） — 巔峰時期」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-25": "「好壞時期、成功與困難的交替」是「42. highs and lows（高低起伏） — 順境與逆境；高潮低潮」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。"
+        "high-mcq-23": "本句的「high-pressure」指「物理壓力高；或比喻要求／壓力很大」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-23"
     },
@@ -2576,11 +2356,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "high-mcq-15",
-        "high-mcq-14",
-        "high-mcq-16",
-        "high-mcq-13",
-        "high-mcq-17",
-        "high-mcq-12"
+        "high-pdf-001",
+        "high-mcq-01",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high-level course」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
       "sentenceIndex": 55,
@@ -2589,12 +2367,10 @@ export default {
         "high-level course"
       ],
       "optionReasons": {
-        "high-mcq-15": "本句指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。"
+        "high-mcq-15": "本句的「high-level course」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-15"
     },
@@ -2606,11 +2382,9 @@ export default {
       "masked": "The discussion became ____ technical.",
       "options": [
         "high-mcq-15",
-        "high-mcq-14",
-        "high-mcq-16",
-        "high-mcq-13",
-        "high-mcq-17",
-        "high-mcq-12"
+        "high-mcq-19",
+        "high-pdf-001",
+        "high-mcq-18"
       ],
       "explanation": "本句的「highly」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
       "sentenceIndex": 56,
@@ -2619,12 +2393,10 @@ export default {
         "highly"
       ],
       "optionReasons": {
-        "high-mcq-15": "本句指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。"
+        "high-mcq-15": "本句的「highly」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-15"
     },
@@ -2636,11 +2408,9 @@ export default {
       "masked": "We need a ____.",
       "options": [
         "high-mcq-15",
-        "high-mcq-14",
-        "high-mcq-16",
         "high-mcq-13",
-        "high-mcq-17",
-        "high-mcq-12"
+        "high-mcq-22",
+        "high-mcq-01"
       ],
       "explanation": "本句的「high-level overview」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
       "sentenceIndex": 57,
@@ -2649,12 +2419,10 @@ export default {
         "high-level overview"
       ],
       "optionReasons": {
-        "high-mcq-15": "本句指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。"
+        "high-mcq-15": "本句的「high-level overview」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-15"
     },
@@ -2666,11 +2434,9 @@ export default {
       "masked": "The two sides held ____ talks.",
       "options": [
         "high-mcq-15",
-        "high-mcq-14",
-        "high-mcq-16",
+        "high-mcq-18",
         "high-mcq-13",
-        "high-mcq-17",
-        "high-mcq-12"
+        "high-mcq-01"
       ],
       "explanation": "本句的「high-level」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
       "sentenceIndex": 58,
@@ -2679,12 +2445,10 @@ export default {
         "high-level"
       ],
       "optionReasons": {
-        "high-mcq-15": "本句指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。"
+        "high-mcq-15": "本句的「high-level」指「層次高、難度高；或涉及高層人士／宏觀層面的」。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-15"
     },
@@ -2697,10 +2461,8 @@ export default {
       "options": [
         "high-pdf-009",
         "high-mcq-14",
-        "high-mcq-16",
-        "high-mcq-13",
-        "high-mcq-17",
-        "high-mcq-12"
+        "high-pdf-007",
+        "high-mcq-19"
       ],
       "explanation": "本句的「high regard」指「評價、尊重或看法程度高」。",
       "sentenceIndex": 59,
@@ -2709,12 +2471,10 @@ export default {
         "high regard"
       ],
       "optionReasons": {
-        "high-pdf-009": "本句指「評價、尊重或看法程度高」。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。"
+        "high-pdf-009": "本句的「high regard」指「評價、尊重或看法程度高」。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-009"
     },
@@ -2726,11 +2486,9 @@ export default {
       "masked": "The teacher had a ____ opinion of his work.",
       "options": [
         "high-pdf-009",
-        "high-mcq-14",
-        "high-mcq-16",
-        "high-mcq-13",
-        "high-mcq-17",
-        "high-mcq-12"
+        "high-mcq-21",
+        "high-mcq-19",
+        "high-mcq-22"
       ],
       "explanation": "本句的「high」指「評價、尊重或看法程度高」。",
       "sentenceIndex": 60,
@@ -2739,12 +2497,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-pdf-009": "本句指「評價、尊重或看法程度高」。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-12": "「心情興奮、愉快、士氣高昂」是「high spirits」的用法，與本句語境不同。"
+        "high-pdf-009": "本句的「high」指「評價、尊重或看法程度高」。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-009"
     },
@@ -2756,11 +2512,9 @@ export default {
       "masked": "Her students ____.",
       "options": [
         "high-pdf-010",
-        "high-mcq-15",
+        "high-pdf-008",
         "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-12"
       ],
       "explanation": "本句的「think highly of her」指「對某人／某事有很好的評價」。",
       "sentenceIndex": 61,
@@ -2769,12 +2523,10 @@ export default {
         "think highly of her"
       ],
       "optionReasons": {
-        "high-pdf-010": "本句指「對某人／某事有很好的評價」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-pdf-010": "本句的「think highly of her」指「對某人／某事有很好的評價」。",
+        "high-pdf-008": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-010"
     },
@@ -2786,11 +2538,9 @@ export default {
       "masked": "I think ____ of his judgment.",
       "options": [
         "high-pdf-010",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-05",
+        "high-pdf-001",
+        "high-mcq-14"
       ],
       "explanation": "本句的「highly」指「對某人／某事有很好的評價」。",
       "sentenceIndex": 62,
@@ -2799,12 +2549,10 @@ export default {
         "highly"
       ],
       "optionReasons": {
-        "high-pdf-010": "本句指「對某人／某事有很好的評價」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-pdf-010": "本句的「highly」指「對某人／某事有很好的評價」。",
+        "high-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-010"
     },
@@ -2816,11 +2564,9 @@ export default {
       "masked": "She is ____.",
       "options": [
         "high-mcq-16",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-25",
+        "high-mcq-10",
+        "high-mcq-01"
       ],
       "explanation": "本句的「highly respected」指「程度非常高，常用於評價、能力、可能性等」。",
       "sentenceIndex": 63,
@@ -2829,12 +2575,10 @@ export default {
         "highly respected"
       ],
       "optionReasons": {
-        "high-mcq-16": "本句指「程度非常高，常用於評價、能力、可能性等」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-mcq-16": "本句的「highly respected」指「程度非常高，常用於評價、能力、可能性等」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-16"
     },
@@ -2846,11 +2590,9 @@ export default {
       "masked": "The course is ____ demanding.",
       "options": [
         "high-mcq-16",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-25",
+        "high-mcq-01",
+        "high-mcq-22"
       ],
       "explanation": "本句的「highly」指「程度非常高，常用於評價、能力、可能性等」。",
       "sentenceIndex": 64,
@@ -2859,12 +2601,10 @@ export default {
         "highly"
       ],
       "optionReasons": {
-        "high-mcq-16": "本句指「程度非常高，常用於評價、能力、可能性等」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-mcq-16": "本句的「highly」指「程度非常高，常用於評價、能力、可能性等」。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-16"
     },
@@ -2876,11 +2616,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "high-mcq-16",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-22",
+        "high-mcq-10",
+        "high-pdf-007"
       ],
       "explanation": "本句的「highly skilled teacher」指「程度非常高，常用於評價、能力、可能性等」。",
       "sentenceIndex": 65,
@@ -2889,12 +2627,10 @@ export default {
         "highly skilled teacher"
       ],
       "optionReasons": {
-        "high-mcq-16": "本句指「程度非常高，常用於評價、能力、可能性等」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-mcq-16": "本句的「highly skilled teacher」指「程度非常高，常用於評價、能力、可能性等」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-16"
     },
@@ -2906,11 +2642,9 @@ export default {
       "masked": "The job requires ____ skilled workers.",
       "options": [
         "high-mcq-16",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-10",
+        "high-mcq-19",
+        "high-mcq-01"
       ],
       "explanation": "本句的「highly」指「程度非常高，常用於評價、能力、可能性等」。",
       "sentenceIndex": 66,
@@ -2919,12 +2653,10 @@ export default {
         "highly"
       ],
       "optionReasons": {
-        "high-mcq-16": "本句指「程度非常高，常用於評價、能力、可能性等」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-mcq-16": "本句的「highly」指「程度非常高，常用於評價、能力、可能性等」。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-16"
     },
@@ -2936,11 +2668,9 @@ export default {
       "masked": "It is ____ that she will succeed.",
       "options": [
         "high-mcq-16",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-21",
+        "high-mcq-13",
+        "high-mcq-01"
       ],
       "explanation": "本句的「highly likely」指「程度非常高，常用於評價、能力、可能性等」。",
       "sentenceIndex": 67,
@@ -2949,12 +2679,10 @@ export default {
         "highly likely"
       ],
       "optionReasons": {
-        "high-mcq-16": "本句指「程度非常高，常用於評價、能力、可能性等」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-mcq-16": "本句的「highly likely」指「程度非常高，常用於評價、能力、可能性等」。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-16"
     },
@@ -2966,11 +2694,9 @@ export default {
       "masked": "The change is ____ likely to continue.",
       "options": [
         "high-mcq-16",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-pdf-007",
+        "high-mcq-22",
+        "high-mcq-19"
       ],
       "explanation": "本句的「highly」指「程度非常高，常用於評價、能力、可能性等」。",
       "sentenceIndex": 68,
@@ -2979,12 +2705,10 @@ export default {
         "highly"
       ],
       "optionReasons": {
-        "high-mcq-16": "本句指「程度非常高，常用於評價、能力、可能性等」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-mcq-16": "本句的「highly」指「程度非常高，常用於評價、能力、可能性等」。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-16"
     },
@@ -2996,11 +2720,9 @@ export default {
       "masked": "She is ____ by her students.",
       "options": [
         "high-pdf-011",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-22",
+        "high-mcq-01",
+        "high-pdf-007"
       ],
       "explanation": "本句的「highly regarded」指「別人給予很高評價／尊重」。",
       "sentenceIndex": 69,
@@ -3009,12 +2731,10 @@ export default {
         "highly regarded"
       ],
       "optionReasons": {
-        "high-pdf-011": "本句指「別人給予很高評價／尊重」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-pdf-011": "本句的「highly regarded」指「別人給予很高評價／尊重」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-011"
     },
@@ -3026,11 +2746,9 @@ export default {
       "masked": "The programme is ____ respected.",
       "options": [
         "high-pdf-011",
-        "high-mcq-15",
-        "high-mcq-17",
-        "high-mcq-14",
-        "high-mcq-18",
-        "high-mcq-13"
+        "high-mcq-13",
+        "high-mcq-02",
+        "high-mcq-19"
       ],
       "explanation": "本句的「highly」指「別人給予很高評價／尊重」。",
       "sentenceIndex": 70,
@@ -3039,12 +2757,10 @@ export default {
         "highly"
       ],
       "optionReasons": {
-        "high-pdf-011": "本句指「別人給予很高評價／尊重」。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-13": "「因毒品作用而出現欣快、亢奮或知覺改變」是「high — drugs」的用法，與本句語境不同。"
+        "high-pdf-011": "本句的「highly」指「別人給予很高評價／尊重」。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-011"
     },
@@ -3056,11 +2772,9 @@ export default {
       "masked": "The ____ of the building is impressive.",
       "options": [
         "high-mcq-17",
-        "high-mcq-16",
-        "high-mcq-18",
-        "high-mcq-15",
-        "high-mcq-19",
-        "high-mcq-14"
+        "high-mcq-13",
+        "high-mcq-22",
+        "high-mcq-18"
       ],
       "explanation": "本句的「height」指「垂直高度；亦可指某事發展的最高峰」。",
       "sentenceIndex": 71,
@@ -3069,12 +2783,10 @@ export default {
         "height"
       ],
       "optionReasons": {
-        "high-mcq-17": "本句指「垂直高度；亦可指某事發展的最高峰」。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。"
+        "high-mcq-17": "本句的「height」指「垂直高度；亦可指某事發展的最高峰」。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-17"
     },
@@ -3086,11 +2798,9 @@ export default {
       "masked": "Please write down your ____.",
       "options": [
         "high-mcq-17",
-        "high-mcq-16",
-        "high-mcq-18",
-        "high-mcq-15",
-        "high-mcq-19",
-        "high-mcq-14"
+        "high-mcq-13",
+        "high-mcq-25",
+        "high-mcq-22"
       ],
       "explanation": "本句的「height」指「垂直高度；亦可指某事發展的最高峰」。",
       "sentenceIndex": 72,
@@ -3099,12 +2809,10 @@ export default {
         "height"
       ],
       "optionReasons": {
-        "high-mcq-17": "本句指「垂直高度；亦可指某事發展的最高峰」。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。"
+        "high-mcq-17": "本句的「height」指「垂直高度；亦可指某事發展的最高峰」。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-17"
     },
@@ -3116,11 +2824,9 @@ export default {
       "masked": "She was at the ____.",
       "options": [
         "high-pdf-012",
-        "high-mcq-16",
-        "high-mcq-18",
-        "high-mcq-15",
-        "high-mcq-19",
-        "high-mcq-14"
+        "high-mcq-01",
+        "high-pdf-007",
+        "high-mcq-22"
       ],
       "explanation": "本句的「height of her career」指「某種活動、成功、情況最強烈／最高峰的階段」。",
       "sentenceIndex": 73,
@@ -3129,12 +2835,10 @@ export default {
         "height of her career"
       ],
       "optionReasons": {
-        "high-pdf-012": "本句指「某種活動、成功、情況最強烈／最高峰的階段」。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。"
+        "high-pdf-012": "本句的「height of her career」指「某種活動、成功、情況最強烈／最高峰的階段」。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-012"
     },
@@ -3146,11 +2850,9 @@ export default {
       "masked": "The conflict reached its ____.",
       "options": [
         "high-pdf-012",
-        "high-mcq-16",
-        "high-mcq-18",
-        "high-mcq-15",
-        "high-mcq-19",
-        "high-mcq-14"
+        "high-mcq-01",
+        "high-mcq-22",
+        "high-mcq-13"
       ],
       "explanation": "本句的「height」指「某種活動、成功、情況最強烈／最高峰的階段」。",
       "sentenceIndex": 74,
@@ -3159,12 +2861,10 @@ export default {
         "height"
       ],
       "optionReasons": {
-        "high-pdf-012": "本句指「某種活動、成功、情況最強烈／最高峰的階段」。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-14": "「強烈快樂、興奮或欣快感」是「a high」的用法，與本句語境不同。"
+        "high-pdf-012": "本句的「height」指「某種活動、成功、情況最強烈／最高峰的階段」。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-012"
     },
@@ -3176,11 +2876,9 @@ export default {
       "masked": "At the ____, she was widely respected.",
       "options": [
         "high-mcq-24",
-        "high-mcq-23",
-        "high-mcq-25",
-        "high-mcq-22",
-        "high-mcq-21",
-        "high-mcq-20"
+        "high-mcq-11",
+        "high-mcq-10",
+        "high-pdf-010"
       ],
       "explanation": "本句的「height of her career」指「某時期最強烈、最繁盛或最重要的階段」。",
       "sentenceIndex": 75,
@@ -3189,12 +2887,10 @@ export default {
         "height of her career"
       ],
       "optionReasons": {
-        "high-mcq-24": "本句指「某時期最強烈、最繁盛或最重要的階段」。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-25": "「好壞時期、成功與困難的交替」是「42. highs and lows（高低起伏） — 順境與逆境；高潮低潮」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。"
+        "high-mcq-24": "本句的「height of her career」指「某時期最強烈、最繁盛或最重要的階段」。",
+        "high-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-24"
     },
@@ -3206,11 +2902,9 @@ export default {
       "masked": "The city was busiest at the ____ of summer.",
       "options": [
         "high-mcq-24",
-        "high-mcq-23",
-        "high-mcq-25",
-        "high-mcq-22",
-        "high-mcq-21",
-        "high-mcq-20"
+        "high-mcq-09",
+        "high-mcq-20",
+        "high-mcq-21"
       ],
       "explanation": "本句的「height」指「某時期最強烈、最繁盛或最重要的階段」。",
       "sentenceIndex": 76,
@@ -3219,12 +2913,10 @@ export default {
         "height"
       ],
       "optionReasons": {
-        "high-mcq-24": "本句指「某時期最強烈、最繁盛或最重要的階段」。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-25": "「好壞時期、成功與困難的交替」是「42. highs and lows（高低起伏） — 順境與逆境；高潮低潮」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。"
+        "high-mcq-24": "本句的「height」指「某時期最強烈、最繁盛或最重要的階段」。",
+        "high-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-24"
     },
@@ -3236,11 +2928,9 @@ export default {
       "masked": "The news ____.",
       "options": [
         "high-mcq-18",
-        "high-mcq-17",
-        "high-mcq-19",
-        "high-mcq-16",
-        "high-mcq-20",
-        "high-mcq-15"
+        "high-pdf-003",
+        "high-mcq-25",
+        "high-mcq-08"
       ],
       "explanation": "本句的「heightened concern」指「使情緒、風險、意識、效果等變得更強」。",
       "sentenceIndex": 77,
@@ -3249,12 +2939,10 @@ export default {
         "heightened concern"
       ],
       "optionReasons": {
-        "high-mcq-18": "本句指「使情緒、風險、意識、效果等變得更強」。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。"
+        "high-mcq-18": "本句的「heightened concern」指「使情緒、風險、意識、效果等變得更強」。",
+        "high-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-18"
     },
@@ -3266,11 +2954,9 @@ export default {
       "masked": "The lighting ____ the dramatic effect.",
       "options": [
         "high-mcq-18",
-        "high-mcq-17",
-        "high-mcq-19",
-        "high-mcq-16",
-        "high-mcq-20",
-        "high-mcq-15"
+        "high-mcq-15",
+        "high-mcq-02",
+        "high-mcq-07"
       ],
       "explanation": "本句的「heightened」指「使情緒、風險、意識、效果等變得更強」。",
       "sentenceIndex": 78,
@@ -3279,12 +2965,10 @@ export default {
         "heightened"
       ],
       "optionReasons": {
-        "high-mcq-18": "本句指「使情緒、風險、意識、效果等變得更強」。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。"
+        "high-mcq-18": "本句的「heightened」指「使情緒、風險、意識、效果等變得更強」。",
+        "high-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-18"
     },
@@ -3296,11 +2980,9 @@ export default {
       "masked": "The event led to ____.",
       "options": [
         "high-pdf-013",
-        "high-mcq-17",
-        "high-mcq-19",
-        "high-mcq-16",
-        "high-mcq-20",
-        "high-mcq-15"
+        "high-mcq-01",
+        "high-mcq-21",
+        "high-pdf-010"
       ],
       "explanation": "本句的「heightened awareness」指「比原本程度更高／更強烈的」。",
       "sentenceIndex": 79,
@@ -3309,12 +2991,10 @@ export default {
         "heightened awareness"
       ],
       "optionReasons": {
-        "high-pdf-013": "本句指「比原本程度更高／更強烈的」。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。"
+        "high-pdf-013": "本句的「heightened awareness」指「比原本程度更高／更強烈的」。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-010": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-013"
     },
@@ -3326,11 +3006,9 @@ export default {
       "masked": "There was ____ tension before the announcement.",
       "options": [
         "high-pdf-013",
-        "high-mcq-17",
-        "high-mcq-19",
-        "high-mcq-16",
-        "high-mcq-20",
-        "high-mcq-15"
+        "high-mcq-01",
+        "high-mcq-25",
+        "high-mcq-21"
       ],
       "explanation": "本句的「heightened」指「比原本程度更高／更強烈的」。",
       "sentenceIndex": 80,
@@ -3339,12 +3017,10 @@ export default {
         "heightened"
       ],
       "optionReasons": {
-        "high-pdf-013": "本句指「比原本程度更高／更強烈的」。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-15": "「層次高、難度高；或涉及高層人士／宏觀層面的」是「high-level」的用法，與本句語境不同。"
+        "high-pdf-013": "本句的「heightened」指「比原本程度更高／更強烈的」。",
+        "high-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-pdf-013"
     },
@@ -3356,11 +3032,9 @@ export default {
       "masked": "The presentation was the ____ of the event.",
       "options": [
         "high-mcq-19",
-        "high-mcq-18",
-        "high-mcq-20",
-        "high-mcq-17",
-        "high-mcq-21",
-        "high-mcq-16"
+        "high-mcq-03",
+        "high-pdf-006",
+        "high-mcq-14"
       ],
       "explanation": "本句的「high point」指「一段經歷中最好、最成功或最精彩的部分」。",
       "sentenceIndex": 81,
@@ -3369,12 +3043,10 @@ export default {
         "high point"
       ],
       "optionReasons": {
-        "high-mcq-19": "本句指「一段經歷中最好、最成功或最精彩的部分」。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。"
+        "high-mcq-19": "本句的「high point」指「一段經歷中最好、最成功或最精彩的部分」。",
+        "high-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-19"
     },
@@ -3387,10 +3059,8 @@ export default {
       "options": [
         "high-mcq-19",
         "high-mcq-18",
-        "high-mcq-20",
-        "high-mcq-17",
-        "high-mcq-21",
-        "high-mcq-16"
+        "high-mcq-22",
+        "high-pdf-009"
       ],
       "explanation": "本句的「high」指「一段經歷中最好、最成功或最精彩的部分」。",
       "sentenceIndex": 82,
@@ -3399,12 +3069,10 @@ export default {
         "high"
       ],
       "optionReasons": {
-        "high-mcq-19": "本句指「一段經歷中最好、最成功或最精彩的部分」。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-16": "「程度非常高，常用於評價、能力、可能性等」是「highly」的用法，與本句語境不同。"
+        "high-mcq-19": "本句的「high」指「一段經歷中最好、最成功或最精彩的部分」。",
+        "high-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-009": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-19"
     },
@@ -3416,11 +3084,9 @@ export default {
       "masked": "Every career has its ____.",
       "options": [
         "high-mcq-25",
-        "high-mcq-24",
-        "high-mcq-23",
-        "high-mcq-22",
-        "high-mcq-21",
-        "high-mcq-20"
+        "high-pdf-002",
+        "high-mcq-05",
+        "high-mcq-12"
       ],
       "explanation": "本句的「highs and lows」指「好壞時期、成功與困難的交替」。",
       "sentenceIndex": 83,
@@ -3429,12 +3095,10 @@ export default {
         "highs and lows"
       ],
       "optionReasons": {
-        "high-mcq-25": "本句指「好壞時期、成功與困難的交替」。",
-        "high-mcq-24": "「某時期最強烈、最繁盛或最重要的階段」是「38. at the height of（在……最高潮／頂峰時） — 巔峰時期」的用法，與本句語境不同。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。"
+        "high-mcq-25": "本句的「highs and lows」指「好壞時期、成功與困難的交替」。",
+        "high-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-25"
     },
@@ -3446,11 +3110,9 @@ export default {
       "masked": "They supported each other through the ____ and lows.",
       "options": [
         "high-mcq-25",
-        "high-mcq-24",
-        "high-mcq-23",
-        "high-mcq-22",
-        "high-mcq-21",
-        "high-mcq-20"
+        "high-mcq-16",
+        "high-mcq-03",
+        "high-mcq-13"
       ],
       "explanation": "本句的「highs」指「好壞時期、成功與困難的交替」。",
       "sentenceIndex": 84,
@@ -3459,12 +3121,10 @@ export default {
         "highs"
       ],
       "optionReasons": {
-        "high-mcq-25": "本句指「好壞時期、成功與困難的交替」。",
-        "high-mcq-24": "「某時期最強烈、最繁盛或最重要的階段」是「38. at the height of（在……最高潮／頂峰時） — 巔峰時期」的用法，與本句語境不同。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。"
+        "high-mcq-25": "本句的「highs」指「好壞時期、成功與困難的交替」。",
+        "high-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-25"
     },
@@ -3476,11 +3136,9 @@ export default {
       "masked": "They sell ____.",
       "options": [
         "high-mcq-20",
-        "high-mcq-19",
         "high-mcq-21",
-        "high-mcq-18",
-        "high-mcq-22",
-        "high-mcq-17"
+        "high-mcq-19",
+        "high-mcq-14"
       ],
       "explanation": "本句的「high-end equipment」指「處於市場／品質／價格上端的高檔產品或服務」。",
       "sentenceIndex": 85,
@@ -3489,12 +3147,10 @@ export default {
         "high-end equipment"
       ],
       "optionReasons": {
-        "high-mcq-20": "本句指「處於市場／品質／價格上端的高檔產品或服務」。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。"
+        "high-mcq-20": "本句的「high-end equipment」指「處於市場／品質／價格上端的高檔產品或服務」。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-20"
     },
@@ -3506,11 +3162,9 @@ export default {
       "masked": "The area has several ____ restaurants.",
       "options": [
         "high-mcq-20",
-        "high-mcq-19",
-        "high-mcq-21",
-        "high-mcq-18",
         "high-mcq-22",
-        "high-mcq-17"
+        "high-mcq-21",
+        "high-pdf-001"
       ],
       "explanation": "本句的「high-end」指「處於市場／品質／價格上端的高檔產品或服務」。",
       "sentenceIndex": 86,
@@ -3519,12 +3173,10 @@ export default {
         "high-end"
       ],
       "optionReasons": {
-        "high-mcq-20": "本句指「處於市場／品質／價格上端的高檔產品或服務」。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-17": "「垂直高度；亦可指某事發展的最高峰」是「height」的用法，與本句語境不同。"
+        "high-mcq-20": "本句的「high-end」指「處於市場／品質／價格上端的高檔產品或服務」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-20"
     },
@@ -3536,11 +3188,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "high-mcq-21",
-        "high-mcq-20",
         "high-mcq-22",
-        "high-mcq-19",
-        "high-mcq-23",
-        "high-mcq-18"
+        "high-mcq-08",
+        "high-pdf-013"
       ],
       "explanation": "本句的「high-profile case」指「受到大量公眾／媒體關注的」。",
       "sentenceIndex": 87,
@@ -3549,12 +3199,10 @@ export default {
         "high-profile case"
       ],
       "optionReasons": {
-        "high-mcq-21": "本句指「受到大量公眾／媒體關注的」。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。"
+        "high-mcq-21": "本句的「high-profile case」指「受到大量公眾／媒體關注的」。",
+        "high-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "high-pdf-013": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-21"
     },
@@ -3566,11 +3214,9 @@ export default {
       "masked": "Several ____ figures attended.",
       "options": [
         "high-mcq-21",
-        "high-mcq-20",
-        "high-mcq-22",
-        "high-mcq-19",
-        "high-mcq-23",
-        "high-mcq-18"
+        "high-mcq-06",
+        "high-mcq-12",
+        "high-mcq-05"
       ],
       "explanation": "本句的「high-profile」指「受到大量公眾／媒體關注的」。",
       "sentenceIndex": 88,
@@ -3579,12 +3225,10 @@ export default {
         "high-profile"
       ],
       "optionReasons": {
-        "high-mcq-21": "本句指「受到大量公眾／媒體關注的」。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-22": "「使用先進科技的」是「high-tech」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-18": "「使情緒、風險、意識、效果等變得更強」是「heighten」的用法，與本句語境不同。"
+        "high-mcq-21": "本句的「high-profile」指「受到大量公眾／媒體關注的」。",
+        "high-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-21"
     },
@@ -3596,11 +3240,9 @@ export default {
       "masked": "The company produces ____.",
       "options": [
         "high-mcq-22",
-        "high-mcq-21",
-        "high-mcq-23",
-        "high-mcq-20",
-        "high-mcq-24",
-        "high-mcq-19"
+        "high-mcq-19",
+        "high-mcq-07",
+        "high-mcq-10"
       ],
       "explanation": "本句的「high-tech equipment」指「使用先進科技的」。",
       "sentenceIndex": 89,
@@ -3609,12 +3251,10 @@ export default {
         "high-tech equipment"
       ],
       "optionReasons": {
-        "high-mcq-22": "本句指「使用先進科技的」。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-24": "「某時期最強烈、最繁盛或最重要的階段」是「38. at the height of（在……最高潮／頂峰時） — 巔峰時期」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。"
+        "high-mcq-22": "本句的「high-tech equipment」指「使用先進科技的」。",
+        "high-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-22"
     },
@@ -3626,11 +3266,9 @@ export default {
       "masked": "They work in a ____ industry.",
       "options": [
         "high-mcq-22",
-        "high-mcq-21",
-        "high-mcq-23",
-        "high-mcq-20",
-        "high-mcq-24",
-        "high-mcq-19"
+        "high-mcq-17",
+        "high-mcq-11",
+        "high-mcq-04"
       ],
       "explanation": "本句的「high-tech」指「使用先進科技的」。",
       "sentenceIndex": 90,
@@ -3639,12 +3277,10 @@ export default {
         "high-tech"
       ],
       "optionReasons": {
-        "high-mcq-22": "本句指「使用先進科技的」。",
-        "high-mcq-21": "「受到大量公眾／媒體關注的」是「high-profile」的用法，與本句語境不同。",
-        "high-mcq-23": "「物理壓力高；或比喻要求／壓力很大」是「27. high = strong pressure（高壓） — 壓力高」的用法，與本句語境不同。",
-        "high-mcq-20": "「處於市場／品質／價格上端的高檔產品或服務」是「high-end」的用法，與本句語境不同。",
-        "high-mcq-24": "「某時期最強烈、最繁盛或最重要的階段」是「38. at the height of（在……最高潮／頂峰時） — 巔峰時期」的用法，與本句語境不同。",
-        "high-mcq-19": "「一段經歷中最好、最成功或最精彩的部分」是「high point」的用法，與本句語境不同。"
+        "high-mcq-22": "本句的「high-tech」指「使用先進科技的」。",
+        "high-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "high-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "high-mcq-22"
     }
@@ -3656,5 +3292,7 @@ export default {
     "sha256": "adb3473bb0a22aa0d84cf6f5441fa6f94a8d94048f82cec286be76b3f4ea1211",
     "pages": 34
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

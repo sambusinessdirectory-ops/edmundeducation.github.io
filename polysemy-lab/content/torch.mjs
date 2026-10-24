@@ -709,7 +709,7 @@ export default {
     },
     {
       "id": "torch-mcq-33",
-      "title": "表示噴燈；噴炬；焊炬；切割炬",
+      "title": "噴燈；噴炬；焊炬；切割炬",
       "form": "10. torch — tool producing intense directed heat",
       "en": "10. torch — tool producing intense directed heat",
       "zh": "表示噴燈；噴炬；焊炬；切割炬",
@@ -761,11 +761,9 @@ export default {
       "masked": "She shone a ____ at the cup to create a shadow.",
       "options": [
         "torch-mcq-01",
-        "torch-mcq-02",
         "torch-mcq-03",
-        "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-23",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
       "sentenceIndex": 0,
@@ -774,12 +772,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-01": "本句指「手持、通常以電池供電的便攜式電燈；手電筒」。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-01": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
+        "torch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-01"
     },
@@ -791,11 +787,9 @@ export default {
       "masked": "I used a ____ to look under the desk.",
       "options": [
         "torch-mcq-01",
-        "torch-mcq-02",
-        "torch-mcq-03",
-        "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-31",
+        "torch-mcq-24",
+        "torch-mcq-18"
       ],
       "explanation": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
       "sentenceIndex": 1,
@@ -804,12 +798,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-01": "本句指「手持、通常以電池供電的便攜式電燈；手電筒」。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-01": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
+        "torch-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-01"
     },
@@ -821,11 +813,9 @@ export default {
       "masked": "Take a ____ with you in case it gets dark.",
       "options": [
         "torch-mcq-01",
-        "torch-mcq-02",
-        "torch-mcq-03",
-        "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-11",
+        "torch-mcq-28",
+        "torch-mcq-16"
       ],
       "explanation": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
       "sentenceIndex": 2,
@@ -834,12 +824,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-01": "本句指「手持、通常以電池供電的便攜式電燈；手電筒」。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-01": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
+        "torch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-01"
     },
@@ -851,11 +839,9 @@ export default {
       "masked": "He switched on his ____.",
       "options": [
         "torch-mcq-01",
-        "torch-mcq-02",
-        "torch-mcq-03",
-        "torch-mcq-04",
         "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-15",
+        "torch-mcq-11"
       ],
       "explanation": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
       "sentenceIndex": 3,
@@ -864,12 +850,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-01": "本句指「手持、通常以電池供電的便攜式電燈；手電筒」。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-01": "本句的「torch」指「手持、通常以電池供電的便攜式電燈；手電筒」。",
+        "torch-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-01"
     },
@@ -881,11 +865,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "torch-mcq-02",
-        "torch-mcq-01",
-        "torch-mcq-03",
-        "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-17",
+        "torch-mcq-10",
+        "torch-mcq-18"
       ],
       "explanation": "本句的「shone the torch on the wall」指「用手電筒把光照向某個地方或物體」。",
       "sentenceIndex": 4,
@@ -894,12 +876,10 @@ export default {
         "shone the torch on the wall"
       ],
       "optionReasons": {
-        "torch-mcq-02": "本句指「用手電筒把光照向某個地方或物體」。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-02": "本句的「shone the torch on the wall」指「用手電筒把光照向某個地方或物體」。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-02"
     },
@@ -911,11 +891,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "torch-mcq-02",
-        "torch-mcq-01",
-        "torch-mcq-03",
+        "torch-mcq-13",
         "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-20"
       ],
       "explanation": "本句的「shone a torch into the box」指「用手電筒把光照向某個地方或物體」。",
       "sentenceIndex": 5,
@@ -924,12 +902,10 @@ export default {
         "shone a torch into the box"
       ],
       "optionReasons": {
-        "torch-mcq-02": "本句指「用手電筒把光照向某個地方或物體」。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-02": "本句的「shone a torch into the box」指「用手電筒把光照向某個地方或物體」。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-02"
     },
@@ -941,11 +917,9 @@ export default {
       "masked": "The ____ moved across the wall.",
       "options": [
         "torch-mcq-02",
-        "torch-mcq-01",
-        "torch-mcq-03",
+        "torch-mcq-28",
         "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-33"
       ],
       "explanation": "本句的「torch beam」指「用手電筒把光照向某個地方或物體」。",
       "sentenceIndex": 6,
@@ -954,12 +928,10 @@ export default {
         "torch beam"
       ],
       "optionReasons": {
-        "torch-mcq-02": "本句指「用手電筒把光照向某個地方或物體」。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-02": "本句的「torch beam」指「用手電筒把光照向某個地方或物體」。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-02"
     },
@@ -971,11 +943,9 @@ export default {
       "masked": "I could see dust floating in the ____.",
       "options": [
         "torch-mcq-02",
-        "torch-mcq-01",
-        "torch-mcq-03",
-        "torch-mcq-04",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-28",
+        "torch-mcq-06",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torch beam」指「用手電筒把光照向某個地方或物體」。",
       "sentenceIndex": 7,
@@ -984,12 +954,10 @@ export default {
         "torch beam"
       ],
       "optionReasons": {
-        "torch-mcq-02": "本句指「用手電筒把光照向某個地方或物體」。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-02": "本句的「torch beam」指「用手電筒把光照向某個地方或物體」。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-02"
     },
@@ -1001,11 +969,9 @@ export default {
       "masked": "They carried burning ____ through the tunnel.",
       "options": [
         "torch-mcq-03",
-        "torch-mcq-02",
-        "torch-mcq-04",
-        "torch-mcq-01",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-28",
+        "torch-mcq-21",
+        "torch-mcq-26"
       ],
       "explanation": "本句的「torches」指「一端燃燒、用來照明的火把／火炬」。",
       "sentenceIndex": 8,
@@ -1014,12 +980,10 @@ export default {
         "torches"
       ],
       "optionReasons": {
-        "torch-mcq-03": "本句指「一端燃燒、用來照明的火把／火炬」。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-03": "本句的「torches」指「一端燃燒、用來照明的火把／火炬」。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-03"
     },
@@ -1031,11 +995,9 @@ export default {
       "masked": "The entrance was lit by ____.",
       "options": [
         "torch-mcq-03",
-        "torch-mcq-02",
-        "torch-mcq-04",
-        "torch-mcq-01",
-        "torch-mcq-05",
-        "torch-mcq-06"
+        "torch-mcq-20",
+        "torch-pdf-001",
+        "torch-mcq-28"
       ],
       "explanation": "本句的「torches」指「一端燃燒、用來照明的火把／火炬」。",
       "sentenceIndex": 9,
@@ -1044,12 +1006,10 @@ export default {
         "torches"
       ],
       "optionReasons": {
-        "torch-mcq-03": "本句指「一端燃燒、用來照明的火把／火炬」。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。"
+        "torch-mcq-03": "本句的「torches」指「一端燃燒、用來照明的火把／火炬」。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "torch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-03"
     },
@@ -1061,11 +1021,9 @@ export default {
       "masked": "The runner carried a ____.",
       "options": [
         "torch-mcq-04",
-        "torch-mcq-03",
-        "torch-mcq-05",
-        "torch-mcq-02",
-        "torch-mcq-06",
-        "torch-mcq-01"
+        "torch-mcq-29",
+        "torch-mcq-20",
+        "torch-mcq-21"
       ],
       "explanation": "本句的「flaming torch」指「正燃燒著的火把／火炬」。",
       "sentenceIndex": 10,
@@ -1074,12 +1032,10 @@ export default {
         "flaming torch"
       ],
       "optionReasons": {
-        "torch-mcq-04": "本句指「正燃燒著的火把／火炬」。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。"
+        "torch-mcq-04": "本句的「flaming torch」指「正燃燒著的火把／火炬」。",
+        "torch-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-04"
     },
@@ -1091,11 +1047,9 @@ export default {
       "masked": "Guards stood beside the gate holding ____.",
       "options": [
         "torch-mcq-04",
-        "torch-mcq-03",
-        "torch-mcq-05",
-        "torch-mcq-02",
-        "torch-mcq-06",
-        "torch-mcq-01"
+        "torch-mcq-20",
+        "torch-mcq-22",
+        "torch-mcq-28"
       ],
       "explanation": "本句的「flaming torches」指「正燃燒著的火把／火炬」。",
       "sentenceIndex": 11,
@@ -1104,12 +1058,10 @@ export default {
         "flaming torches"
       ],
       "optionReasons": {
-        "torch-mcq-04": "本句指「正燃燒著的火把／火炬」。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。",
-        "torch-mcq-01": "「手持、通常以電池供電的便攜式電燈；手電筒」是「torch — BrE portable electric light」的用法，與本句語境不同。"
+        "torch-mcq-04": "本句的「flaming torches」指「正燃燒著的火把／火炬」。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-04"
     },
@@ -1121,11 +1073,9 @@ export default {
       "masked": "She was chosen to carry the ____.",
       "options": [
         "torch-mcq-05",
-        "torch-mcq-04",
-        "torch-mcq-06",
-        "torch-mcq-03",
-        "torch-mcq-07",
-        "torch-mcq-02"
+        "torch-mcq-15",
+        "torch-mcq-19",
+        "torch-pdf-001"
       ],
       "explanation": "本句的「Olympic torch」指「奧運會傳遞聖火所使用的火炬」。",
       "sentenceIndex": 12,
@@ -1134,12 +1084,10 @@ export default {
         "Olympic torch"
       ],
       "optionReasons": {
-        "torch-mcq-05": "本句指「奧運會傳遞聖火所使用的火炬」。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-07": "「在典禮或接力中實際攜帶火炬的人；火炬手」是「torchbearer — literal」的用法，與本句語境不同。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。"
+        "torch-mcq-05": "本句的「Olympic torch」指「奧運會傳遞聖火所使用的火炬」。",
+        "torch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-05"
     },
@@ -1151,11 +1099,9 @@ export default {
       "masked": "The ____ arrived in the city.",
       "options": [
         "torch-mcq-05",
-        "torch-mcq-04",
-        "torch-mcq-06",
-        "torch-mcq-03",
-        "torch-mcq-07",
-        "torch-mcq-02"
+        "torch-mcq-21",
+        "torch-mcq-19",
+        "torch-mcq-20"
       ],
       "explanation": "本句的「Olympic torch」指「奧運會傳遞聖火所使用的火炬」。",
       "sentenceIndex": 13,
@@ -1164,12 +1110,10 @@ export default {
         "Olympic torch"
       ],
       "optionReasons": {
-        "torch-mcq-05": "本句指「奧運會傳遞聖火所使用的火炬」。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。",
-        "torch-mcq-07": "「在典禮或接力中實際攜帶火炬的人；火炬手」是「torchbearer — literal」的用法，與本句語境不同。",
-        "torch-mcq-02": "「用手電筒把光照向某個地方或物體」是「shine a torch」的用法，與本句語境不同。"
+        "torch-mcq-05": "本句的「Olympic torch」指「奧運會傳遞聖火所使用的火炬」。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-05"
     },
@@ -1181,11 +1125,9 @@ export default {
       "masked": "Thousands watched the ____.",
       "options": [
         "torch-mcq-06",
-        "torch-mcq-05",
-        "torch-mcq-07",
-        "torch-mcq-04",
-        "torch-mcq-08",
-        "torch-mcq-03"
+        "torch-mcq-21",
+        "torch-mcq-19",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torch relay」指「多人輪流傳遞火炬的接力活動」。",
       "sentenceIndex": 14,
@@ -1194,12 +1136,10 @@ export default {
         "torch relay"
       ],
       "optionReasons": {
-        "torch-mcq-06": "本句指「多人輪流傳遞火炬的接力活動」。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-07": "「在典禮或接力中實際攜帶火炬的人；火炬手」是「torchbearer — literal」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。"
+        "torch-mcq-06": "本句的「torch relay」指「多人輪流傳遞火炬的接力活動」。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-06"
     },
@@ -1211,11 +1151,9 @@ export default {
       "masked": "He took part in the ____.",
       "options": [
         "torch-mcq-06",
-        "torch-mcq-05",
-        "torch-mcq-07",
-        "torch-mcq-04",
-        "torch-mcq-08",
-        "torch-mcq-03"
+        "torch-mcq-02",
+        "torch-mcq-29",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torch relay」指「多人輪流傳遞火炬的接力活動」。",
       "sentenceIndex": 15,
@@ -1224,12 +1162,10 @@ export default {
         "torch relay"
       ],
       "optionReasons": {
-        "torch-mcq-06": "本句指「多人輪流傳遞火炬的接力活動」。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-07": "「在典禮或接力中實際攜帶火炬的人；火炬手」是「torchbearer — literal」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。",
-        "torch-mcq-03": "「一端燃燒、用來照明的火把／火炬」是「torch — burning stick」的用法，與本句語境不同。"
+        "torch-mcq-06": "本句的「torch relay」指「多人輪流傳遞火炬的接力活動」。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-06"
     },
@@ -1241,11 +1177,9 @@ export default {
       "masked": "She was selected as an Olympic ____.",
       "options": [
         "torch-mcq-07",
-        "torch-mcq-06",
-        "torch-mcq-08",
-        "torch-mcq-05",
-        "torch-mcq-09",
-        "torch-mcq-04"
+        "torch-mcq-23",
+        "torch-mcq-19",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torchbearer」指「在典禮或接力中實際攜帶火炬的人；火炬手」。",
       "sentenceIndex": 16,
@@ -1254,12 +1188,10 @@ export default {
         "torchbearer"
       ],
       "optionReasons": {
-        "torch-mcq-07": "本句指「在典禮或接力中實際攜帶火炬的人；火炬手」。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。"
+        "torch-mcq-07": "本句的「torchbearer」指「在典禮或接力中實際攜帶火炬的人；火炬手」。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-07"
     },
@@ -1271,11 +1203,9 @@ export default {
       "masked": "He became a ____.",
       "options": [
         "torch-mcq-07",
-        "torch-mcq-06",
-        "torch-mcq-08",
-        "torch-mcq-05",
-        "torch-mcq-09",
-        "torch-mcq-04"
+        "torch-mcq-13",
+        "torch-mcq-19",
+        "torch-mcq-20"
       ],
       "explanation": "本句的「torchbearer for educational reform」指「在典禮或接力中實際攜帶火炬的人；火炬手」。",
       "sentenceIndex": 17,
@@ -1284,12 +1214,10 @@ export default {
         "torchbearer for educational reform"
       ],
       "optionReasons": {
-        "torch-mcq-07": "本句指「在典禮或接力中實際攜帶火炬的人；火炬手」。",
-        "torch-mcq-06": "「多人輪流傳遞火炬的接力活動」是「torch relay」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。",
-        "torch-mcq-05": "「奧運會傳遞聖火所使用的火炬」是「Olympic torch」的用法，與本句語境不同。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。",
-        "torch-mcq-04": "「正燃燒著的火把／火炬」是「flaming torch」的用法，與本句語境不同。"
+        "torch-mcq-07": "本句的「torchbearer for educational reform」指「在典禮或接力中實際攜帶火炬的人；火炬手」。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-07"
     },
@@ -1301,11 +1229,9 @@ export default {
       "masked": "The worker used a ____ to cut the metal.",
       "options": [
         "torch-mcq-33",
-        "torch-mcq-32",
-        "torch-mcq-31",
-        "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-28"
+        "torch-mcq-16",
+        "torch-mcq-24",
+        "torch-mcq-22"
       ],
       "explanation": "本句的「torch」指「表示噴燈；噴炬；焊炬；切割炬」。",
       "sentenceIndex": 18,
@@ -1314,12 +1240,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-33": "本句指「表示噴燈；噴炬；焊炬；切割炬」。",
-        "torch-mcq-32": "「參與者手持火把進行的火炬／火把遊行」是「torchlight procession/parade」的用法，與本句語境不同。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-mcq-33": "本句的「torch」指「表示噴燈；噴炬；焊炬；切割炬」。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-33"
     },
@@ -1331,11 +1255,9 @@ export default {
       "masked": "The pipe was heated with a gas ____.",
       "options": [
         "torch-mcq-33",
-        "torch-mcq-32",
-        "torch-mcq-31",
-        "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-28"
+        "torch-mcq-18",
+        "torch-mcq-22",
+        "torch-mcq-16"
       ],
       "explanation": "本句的「torch」指「表示噴燈；噴炬；焊炬；切割炬」。",
       "sentenceIndex": 19,
@@ -1344,12 +1266,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-mcq-33": "本句指「表示噴燈；噴炬；焊炬；切割炬」。",
-        "torch-mcq-32": "「參與者手持火把進行的火炬／火把遊行」是「torchlight procession/parade」的用法，與本句語境不同。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-mcq-33": "本句的「torch」指「表示噴燈；噴炬；焊炬；切割炬」。",
+        "torch-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-33"
     },
@@ -1361,11 +1281,9 @@ export default {
       "masked": "He used a ____ to heat the metal.",
       "options": [
         "torch-mcq-10",
-        "torch-mcq-09",
-        "torch-mcq-11",
-        "torch-mcq-08",
-        "torch-mcq-12",
-        "torch-mcq-07"
+        "torch-mcq-19",
+        "torch-mcq-23",
+        "torch-mcq-22"
       ],
       "explanation": "本句的「blowtorch」指「產生強烈高溫火焰的噴燈／噴火槍」。",
       "sentenceIndex": 20,
@@ -1374,12 +1292,10 @@ export default {
         "blowtorch"
       ],
       "optionReasons": {
-        "torch-mcq-10": "本句指「產生強烈高溫火焰的噴燈／噴火槍」。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-07": "「在典禮或接力中實際攜帶火炬的人；火炬手」是「torchbearer — literal」的用法，與本句語境不同。"
+        "torch-mcq-10": "本句的「blowtorch」指「產生強烈高溫火焰的噴燈／噴火槍」。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-10"
     },
@@ -1391,11 +1307,9 @@ export default {
       "masked": "A ____ can produce very high temperatures.",
       "options": [
         "torch-mcq-10",
-        "torch-mcq-09",
-        "torch-mcq-11",
-        "torch-mcq-08",
-        "torch-mcq-12",
-        "torch-mcq-07"
+        "torch-mcq-25",
+        "torch-mcq-02",
+        "torch-mcq-29"
       ],
       "explanation": "本句的「blowtorch」指「產生強烈高溫火焰的噴燈／噴火槍」。",
       "sentenceIndex": 21,
@@ -1404,12 +1318,10 @@ export default {
         "blowtorch"
       ],
       "optionReasons": {
-        "torch-mcq-10": "本句指「產生強烈高溫火焰的噴燈／噴火槍」。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-07": "「在典禮或接力中實際攜帶火炬的人；火炬手」是「torchbearer — literal」的用法，與本句語境不同。"
+        "torch-mcq-10": "本句的「blowtorch」指「產生強烈高溫火焰的噴燈／噴火槍」。",
+        "torch-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-10"
     },
@@ -1421,11 +1333,9 @@ export default {
       "masked": "The technician adjusted the ____.",
       "options": [
         "torch-mcq-11",
-        "torch-mcq-10",
-        "torch-mcq-12",
-        "torch-mcq-09",
-        "torch-mcq-13",
-        "torch-mcq-08"
+        "torch-pdf-001",
+        "torch-mcq-26",
+        "torch-mcq-20"
       ],
       "explanation": "本句的「welding torch」指「用於焊接的焊炬／焊槍」。",
       "sentenceIndex": 22,
@@ -1434,12 +1344,10 @@ export default {
         "welding torch"
       ],
       "optionReasons": {
-        "torch-mcq-11": "本句指「用於焊接的焊炬／焊槍」。",
-        "torch-mcq-10": "「產生強烈高溫火焰的噴燈／噴火槍」是「blowtorch」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。"
+        "torch-mcq-11": "本句的「welding torch」指「用於焊接的焊炬／焊槍」。",
+        "torch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-11"
     },
@@ -1451,11 +1359,9 @@ export default {
       "masked": "Protective equipment is essential when using a ____.",
       "options": [
         "torch-mcq-11",
-        "torch-mcq-10",
-        "torch-mcq-12",
-        "torch-mcq-09",
-        "torch-mcq-13",
-        "torch-mcq-08"
+        "torch-mcq-20",
+        "torch-mcq-28",
+        "torch-mcq-02"
       ],
       "explanation": "本句的「welding torch」指「用於焊接的焊炬／焊槍」。",
       "sentenceIndex": 23,
@@ -1464,12 +1370,10 @@ export default {
         "welding torch"
       ],
       "optionReasons": {
-        "torch-mcq-11": "本句指「用於焊接的焊炬／焊槍」。",
-        "torch-mcq-10": "「產生強烈高溫火焰的噴燈／噴火槍」是「blowtorch」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-08": "「延續或代表某種理念、傳統或運動的人；傳承者／代表人物」是「torchbearer — figurative」的用法，與本句語境不同。"
+        "torch-mcq-11": "本句的「welding torch」指「用於焊接的焊炬／焊槍」。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-11"
     },
@@ -1481,11 +1385,9 @@ export default {
       "masked": "The worker used a ____ on the steel plate.",
       "options": [
         "torch-mcq-12",
-        "torch-mcq-11",
-        "torch-mcq-13",
-        "torch-mcq-10",
-        "torch-mcq-14",
-        "torch-mcq-09"
+        "torch-mcq-23",
+        "torch-mcq-16",
+        "torch-mcq-21"
       ],
       "explanation": "本句的「cutting torch」指「用於切割金屬的切割炬」。",
       "sentenceIndex": 24,
@@ -1494,12 +1396,10 @@ export default {
         "cutting torch"
       ],
       "optionReasons": {
-        "torch-mcq-12": "本句指「用於切割金屬的切割炬」。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-10": "「產生強烈高溫火焰的噴燈／噴火槍」是「blowtorch」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。"
+        "torch-mcq-12": "本句的「cutting torch」指「用於切割金屬的切割炬」。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-12"
     },
@@ -1511,11 +1411,9 @@ export default {
       "masked": "A ____ can slice through thick metal.",
       "options": [
         "torch-mcq-12",
-        "torch-mcq-11",
-        "torch-mcq-13",
-        "torch-mcq-10",
-        "torch-mcq-14",
-        "torch-mcq-09"
+        "torch-mcq-26",
+        "torch-mcq-30",
+        "torch-mcq-21"
       ],
       "explanation": "本句的「cutting torch」指「用於切割金屬的切割炬」。",
       "sentenceIndex": 25,
@@ -1524,12 +1422,10 @@ export default {
         "cutting torch"
       ],
       "optionReasons": {
-        "torch-mcq-12": "本句指「用於切割金屬的切割炬」。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-10": "「產生強烈高溫火焰的噴燈／噴火槍」是「blowtorch」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-09": "「產生集中高溫火焰或熱流、用於焊接／切割／加熱的噴炬」是「torch — technical heat tool」的用法，與本句語境不同。"
+        "torch-mcq-12": "本句的「cutting torch」指「用於切割金屬的切割炬」。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-12"
     },
@@ -1541,11 +1437,9 @@ export default {
       "masked": "He used a ____ to heat the pipe.",
       "options": [
         "torch-mcq-13",
-        "torch-mcq-12",
-        "torch-mcq-14",
-        "torch-mcq-11",
-        "torch-mcq-15",
-        "torch-mcq-10"
+        "torch-mcq-16",
+        "torch-mcq-05",
+        "torch-mcq-19"
       ],
       "explanation": "本句的「propane torch」指「以瓦斯／丙烷為燃料的噴燈／噴槍」。",
       "sentenceIndex": 26,
@@ -1554,12 +1448,10 @@ export default {
         "propane torch"
       ],
       "optionReasons": {
-        "torch-mcq-13": "本句指「以瓦斯／丙烷為燃料的噴燈／噴槍」。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-10": "「產生強烈高溫火焰的噴燈／噴火槍」是「blowtorch」的用法，與本句語境不同。"
+        "torch-mcq-13": "本句的「propane torch」指「以瓦斯／丙烷為燃料的噴燈／噴槍」。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-13"
     },
@@ -1571,11 +1463,9 @@ export default {
       "masked": "A small ____ is useful for repair work.",
       "options": [
         "torch-mcq-13",
-        "torch-mcq-12",
-        "torch-mcq-14",
-        "torch-mcq-11",
-        "torch-mcq-15",
-        "torch-mcq-10"
+        "torch-mcq-32",
+        "torch-mcq-23",
+        "torch-mcq-22"
       ],
       "explanation": "本句的「gas torch」指「以瓦斯／丙烷為燃料的噴燈／噴槍」。",
       "sentenceIndex": 27,
@@ -1584,12 +1474,10 @@ export default {
         "gas torch"
       ],
       "optionReasons": {
-        "torch-mcq-13": "本句指「以瓦斯／丙烷為燃料的噴燈／噴槍」。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-10": "「產生強烈高溫火焰的噴燈／噴火槍」是「blowtorch」的用法，與本句語境不同。"
+        "torch-mcq-13": "本句的「gas torch」指「以瓦斯／丙烷為燃料的噴燈／噴槍」。",
+        "torch-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-13"
     },
@@ -1601,11 +1489,9 @@ export default {
       "masked": "A ____ can reach extremely high temperatures.",
       "options": [
         "torch-mcq-14",
-        "torch-mcq-13",
-        "torch-mcq-15",
-        "torch-mcq-12",
-        "torch-mcq-16",
-        "torch-mcq-11"
+        "torch-mcq-21",
+        "torch-mcq-29",
+        "torch-mcq-25"
       ],
       "explanation": "本句的「plasma torch」指「利用高溫電漿熱流工作的電漿炬／等離子炬」。",
       "sentenceIndex": 28,
@@ -1614,12 +1500,10 @@ export default {
         "plasma torch"
       ],
       "optionReasons": {
-        "torch-mcq-14": "本句指「利用高溫電漿熱流工作的電漿炬／等離子炬」。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。"
+        "torch-mcq-14": "本句的「plasma torch」指「利用高溫電漿熱流工作的電漿炬／等離子炬」。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-14"
     },
@@ -1631,11 +1515,9 @@ export default {
       "masked": "The material was treated with a ____.",
       "options": [
         "torch-mcq-14",
-        "torch-mcq-13",
-        "torch-mcq-15",
-        "torch-mcq-12",
-        "torch-mcq-16",
-        "torch-mcq-11"
+        "torch-mcq-22",
+        "torch-mcq-20",
+        "torch-mcq-16"
       ],
       "explanation": "本句的「plasma torch」指「利用高溫電漿熱流工作的電漿炬／等離子炬」。",
       "sentenceIndex": 29,
@@ -1644,12 +1526,10 @@ export default {
         "plasma torch"
       ],
       "optionReasons": {
-        "torch-mcq-14": "本句指「利用高溫電漿熱流工作的電漿炬／等離子炬」。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-11": "「用於焊接的焊炬／焊槍」是「welding torch」的用法，與本句語境不同。"
+        "torch-mcq-14": "本句的「plasma torch」指「利用高溫電漿熱流工作的電漿炬／等離子炬」。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-14"
     },
@@ -1661,11 +1541,9 @@ export default {
       "masked": "Use a ____ to caramelize the sugar.",
       "options": [
         "torch-mcq-15",
+        "torch-mcq-01",
         "torch-mcq-14",
-        "torch-mcq-16",
-        "torch-mcq-13",
-        "torch-mcq-17",
-        "torch-mcq-12"
+        "torch-mcq-28"
       ],
       "explanation": "本句的「kitchen torch」指「用來焦糖化、炙燒食物表面的料理噴槍」。",
       "sentenceIndex": 30,
@@ -1674,12 +1552,10 @@ export default {
         "kitchen torch"
       ],
       "optionReasons": {
-        "torch-mcq-15": "本句指「用來焦糖化、炙燒食物表面的料理噴槍」。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。"
+        "torch-mcq-15": "本句的「kitchen torch」指「用來焦糖化、炙燒食物表面的料理噴槍」。",
+        "torch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-15"
     },
@@ -1691,11 +1567,9 @@ export default {
       "masked": "The chef finished the dish with a ____.",
       "options": [
         "torch-mcq-15",
-        "torch-mcq-14",
-        "torch-mcq-16",
-        "torch-mcq-13",
-        "torch-mcq-17",
-        "torch-mcq-12"
+        "torch-mcq-07",
+        "torch-mcq-21",
+        "torch-mcq-02"
       ],
       "explanation": "本句的「culinary torch」指「用來焦糖化、炙燒食物表面的料理噴槍」。",
       "sentenceIndex": 31,
@@ -1704,12 +1578,10 @@ export default {
         "culinary torch"
       ],
       "optionReasons": {
-        "torch-mcq-15": "本句指「用來焦糖化、炙燒食物表面的料理噴槍」。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-12": "「用於切割金屬的切割炬」是「cutting torch」的用法，與本句語境不同。"
+        "torch-mcq-15": "本句的「culinary torch」指「用來焦糖化、炙燒食物表面的料理噴槍」。",
+        "torch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-15"
     },
@@ -1721,11 +1593,9 @@ export default {
       "masked": "The chef ____ before serving it.",
       "options": [
         "torch-mcq-16",
-        "torch-mcq-15",
-        "torch-mcq-17",
-        "torch-mcq-14",
-        "torch-mcq-18",
-        "torch-mcq-13"
+        "torch-mcq-19",
+        "torch-mcq-24",
+        "torch-mcq-02"
       ],
       "explanation": "本句的「torched the salmon」指「用直接火焰快速炙燒、焦化或上色食物表面」。",
       "sentenceIndex": 32,
@@ -1734,12 +1604,10 @@ export default {
         "torched the salmon"
       ],
       "optionReasons": {
-        "torch-mcq-16": "本句指「用直接火焰快速炙燒、焦化或上色食物表面」。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。"
+        "torch-mcq-16": "本句的「torched the salmon」指「用直接火焰快速炙燒、焦化或上色食物表面」。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-16"
     },
@@ -1751,11 +1619,9 @@ export default {
       "masked": "____ until it caramelizes.",
       "options": [
         "torch-mcq-16",
-        "torch-mcq-15",
-        "torch-mcq-17",
-        "torch-mcq-14",
-        "torch-mcq-18",
-        "torch-mcq-13"
+        "torch-mcq-13",
+        "torch-mcq-12",
+        "torch-mcq-14"
       ],
       "explanation": "本句的「Torch the sugar」指「用直接火焰快速炙燒、焦化或上色食物表面」。",
       "sentenceIndex": 33,
@@ -1764,12 +1630,10 @@ export default {
         "Torch the sugar"
       ],
       "optionReasons": {
-        "torch-mcq-16": "本句指「用直接火焰快速炙燒、焦化或上色食物表面」。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-13": "「以瓦斯／丙烷為燃料的噴燈／噴槍」是「gas/propane torch」的用法，與本句語境不同。"
+        "torch-mcq-16": "本句的「Torch the sugar」指「用直接火焰快速炙燒、焦化或上色食物表面」。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-16"
     },
@@ -1781,11 +1645,9 @@ export default {
       "masked": "We ordered ____.",
       "options": [
         "torch-mcq-17",
-        "torch-mcq-16",
-        "torch-mcq-18",
-        "torch-mcq-15",
-        "torch-mcq-19",
-        "torch-mcq-14"
+        "torch-mcq-22",
+        "torch-mcq-14",
+        "torch-mcq-05"
       ],
       "explanation": "本句的「torched salmon」指「表面經噴槍快速炙燒處理的食物」。",
       "sentenceIndex": 34,
@@ -1794,12 +1656,10 @@ export default {
         "torched salmon"
       ],
       "optionReasons": {
-        "torch-mcq-17": "本句指「表面經噴槍快速炙燒處理的食物」。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。"
+        "torch-mcq-17": "本句的「torched salmon」指「表面經噴槍快速炙燒處理的食物」。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-17"
     },
@@ -1811,11 +1671,9 @@ export default {
       "masked": "The dessert was topped with ____.",
       "options": [
         "torch-mcq-17",
-        "torch-mcq-16",
-        "torch-mcq-18",
-        "torch-mcq-15",
-        "torch-mcq-19",
-        "torch-mcq-14"
+        "torch-mcq-06",
+        "torch-mcq-25",
+        "torch-pdf-001"
       ],
       "explanation": "本句的「torched meringue」指「表面經噴槍快速炙燒處理的食物」。",
       "sentenceIndex": 35,
@@ -1824,12 +1682,10 @@ export default {
         "torched meringue"
       ],
       "optionReasons": {
-        "torch-mcq-17": "本句指「表面經噴槍快速炙燒處理的食物」。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-14": "「利用高溫電漿熱流工作的電漿炬／等離子炬」是「plasma torch」的用法，與本句語境不同。"
+        "torch-mcq-17": "本句的「torched meringue」指「表面經噴槍快速炙燒處理的食物」。",
+        "torch-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "torch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-17"
     },
@@ -1841,11 +1697,9 @@ export default {
       "masked": "The abandoned car was ____ overnight.",
       "options": [
         "torch-mcq-18",
-        "torch-mcq-17",
-        "torch-mcq-19",
-        "torch-mcq-16",
-        "torch-mcq-20",
-        "torch-mcq-15"
+        "torch-mcq-29",
+        "torch-mcq-11",
+        "torch-mcq-26"
       ],
       "explanation": "本句的「torched」指「故意放火燒毀建築、車輛等」。",
       "sentenceIndex": 36,
@@ -1854,12 +1708,10 @@ export default {
         "torched"
       ],
       "optionReasons": {
-        "torch-mcq-18": "本句指「故意放火燒毀建築、車輛等」。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。"
+        "torch-mcq-18": "本句的「torched」指「故意放火燒毀建築、車輛等」。",
+        "torch-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-18"
     },
@@ -1871,11 +1723,9 @@ export default {
       "masked": "Several buildings were ____ during the unrest.",
       "options": [
         "torch-mcq-18",
-        "torch-mcq-17",
-        "torch-mcq-19",
-        "torch-mcq-16",
-        "torch-mcq-20",
-        "torch-mcq-15"
+        "torch-mcq-28",
+        "torch-mcq-22",
+        "torch-mcq-01"
       ],
       "explanation": "本句的「torched」指「故意放火燒毀建築、車輛等」。",
       "sentenceIndex": 37,
@@ -1884,12 +1734,10 @@ export default {
         "torched"
       ],
       "optionReasons": {
-        "torch-mcq-18": "本句指「故意放火燒毀建築、車輛等」。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-15": "「用來焦糖化、炙燒食物表面的料理噴槍」是「kitchen/culinary torch」的用法，與本句語境不同。"
+        "torch-mcq-18": "本句的「torched」指「故意放火燒毀建築、車輛等」。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-18"
     },
@@ -1901,11 +1749,9 @@ export default {
       "masked": "One bad investment ____.",
       "options": [
         "torch-mcq-19",
-        "torch-mcq-18",
-        "torch-mcq-20",
-        "torch-mcq-17",
-        "torch-mcq-21",
-        "torch-mcq-16"
+        "torch-mcq-25",
+        "torch-mcq-11",
+        "torch-pdf-001"
       ],
       "explanation": "本句的「torched his savings」指「嚴重破壞名聲、財務、計畫等；重創／毀掉」。",
       "sentenceIndex": 38,
@@ -1914,12 +1760,10 @@ export default {
         "torched his savings"
       ],
       "optionReasons": {
-        "torch-mcq-19": "本句指「嚴重破壞名聲、財務、計畫等；重創／毀掉」。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。"
+        "torch-mcq-19": "本句的「torched his savings」指「嚴重破壞名聲、財務、計畫等；重創／毀掉」。",
+        "torch-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "torch-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-19"
     },
@@ -1931,11 +1775,9 @@ export default {
       "masked": "The scandal ____.",
       "options": [
         "torch-mcq-19",
-        "torch-mcq-18",
-        "torch-mcq-20",
-        "torch-mcq-17",
-        "torch-mcq-21",
-        "torch-mcq-16"
+        "torch-mcq-33",
+        "torch-mcq-01",
+        "torch-mcq-03"
       ],
       "explanation": "本句的「torched the company’s reputation」指「嚴重破壞名聲、財務、計畫等；重創／毀掉」。",
       "sentenceIndex": 39,
@@ -1944,12 +1786,10 @@ export default {
         "torched the company’s reputation"
       ],
       "optionReasons": {
-        "torch-mcq-19": "本句指「嚴重破壞名聲、財務、計畫等；重創／毀掉」。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-16": "「用直接火焰快速炙燒、焦化或上色食物表面」是「torch food」的用法，與本句語境不同。"
+        "torch-mcq-19": "本句的「torched the company’s reputation」指「嚴重破壞名聲、財務、計畫等；重創／毀掉」。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-19"
     },
@@ -1961,11 +1801,9 @@ export default {
       "masked": "Critics ____.",
       "options": [
         "torch-mcq-20",
-        "torch-mcq-19",
-        "torch-mcq-21",
-        "torch-mcq-18",
-        "torch-mcq-22",
-        "torch-mcq-17"
+        "torch-mcq-02",
+        "torch-mcq-07",
+        "torch-mcq-22"
       ],
       "explanation": "本句的「torched the film」指「對某人、作品或提議作非常猛烈的批評」。",
       "sentenceIndex": 40,
@@ -1974,12 +1812,10 @@ export default {
         "torched the film"
       ],
       "optionReasons": {
-        "torch-mcq-20": "本句指「對某人、作品或提議作非常猛烈的批評」。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。"
+        "torch-mcq-20": "本句的「torched the film」指「對某人、作品或提議作非常猛烈的批評」。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-20"
     },
@@ -1991,11 +1827,9 @@ export default {
       "masked": "Commentators ____.",
       "options": [
         "torch-mcq-20",
-        "torch-mcq-19",
-        "torch-mcq-21",
-        "torch-mcq-18",
-        "torch-mcq-22",
-        "torch-mcq-17"
+        "torch-mcq-11",
+        "torch-mcq-04",
+        "torch-mcq-21"
       ],
       "explanation": "本句的「torched the proposal」指「對某人、作品或提議作非常猛烈的批評」。",
       "sentenceIndex": 41,
@@ -2004,12 +1838,10 @@ export default {
         "torched the proposal"
       ],
       "optionReasons": {
-        "torch-mcq-20": "本句指「對某人、作品或提議作非常猛烈的批評」。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-17": "「表面經噴槍快速炙燒處理的食物」是「torched salmon/tuna/etc.」的用法，與本句語境不同。"
+        "torch-mcq-20": "本句的「torched the proposal」指「對某人、作品或提議作非常猛烈的批評」。",
+        "torch-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-20"
     },
@@ -2021,11 +1853,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "torch-mcq-21",
-        "torch-mcq-20",
-        "torch-mcq-22",
-        "torch-mcq-19",
-        "torch-mcq-23",
-        "torch-mcq-18"
+        "torch-mcq-05",
+        "torch-mcq-26",
+        "torch-mcq-10"
       ],
       "explanation": "本句的「torched the defense for 35 points」指「在比賽中徹底壓制、痛擊對手」。",
       "sentenceIndex": 42,
@@ -2034,12 +1864,10 @@ export default {
         "torched the defense for 35 points"
       ],
       "optionReasons": {
-        "torch-mcq-21": "本句指「在比賽中徹底壓制、痛擊對手」。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。"
+        "torch-mcq-21": "本句的「torched the defense for 35 points」指「在比賽中徹底壓制、痛擊對手」。",
+        "torch-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-21"
     },
@@ -2051,11 +1879,9 @@ export default {
       "masked": "The striker ____ in the second half.",
       "options": [
         "torch-mcq-21",
-        "torch-mcq-20",
-        "torch-mcq-22",
-        "torch-mcq-19",
-        "torch-mcq-23",
-        "torch-mcq-18"
+        "torch-mcq-17",
+        "torch-mcq-06",
+        "torch-mcq-33"
       ],
       "explanation": "本句的「torched the opposition」指「在比賽中徹底壓制、痛擊對手」。",
       "sentenceIndex": 43,
@@ -2064,12 +1890,10 @@ export default {
         "torched the opposition"
       ],
       "optionReasons": {
-        "torch-mcq-21": "本句指「在比賽中徹底壓制、痛擊對手」。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-18": "「故意放火燒毀建築、車輛等」是「torch — set fire to」的用法，與本句語境不同。"
+        "torch-mcq-21": "本句的「torched the opposition」指「在比賽中徹底壓制、痛擊對手」。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-21"
     },
@@ -2081,11 +1905,9 @@ export default {
       "masked": "The defense ____ in the second half.",
       "options": [
         "torch-mcq-22",
-        "torch-mcq-21",
         "torch-mcq-23",
-        "torch-mcq-20",
-        "torch-mcq-24",
-        "torch-mcq-19"
+        "torch-mcq-17",
+        "torch-mcq-31"
       ],
       "explanation": "本句的「got torched」指「在比賽或競爭中被對手徹底壓制／打爆」。",
       "sentenceIndex": 44,
@@ -2094,12 +1916,10 @@ export default {
         "got torched"
       ],
       "optionReasons": {
-        "torch-mcq-22": "本句指「在比賽或競爭中被對手徹底壓制／打爆」。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。"
+        "torch-mcq-22": "本句的「got torched」指「在比賽或競爭中被對手徹底壓制／打爆」。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-22"
     },
@@ -2111,11 +1931,9 @@ export default {
       "masked": "He ____ by a faster opponent.",
       "options": [
         "torch-mcq-22",
-        "torch-mcq-21",
-        "torch-mcq-23",
-        "torch-mcq-20",
-        "torch-mcq-24",
-        "torch-mcq-19"
+        "torch-mcq-16",
+        "torch-mcq-06",
+        "torch-mcq-28"
       ],
       "explanation": "本句的「got torched」指「在比賽或競爭中被對手徹底壓制／打爆」。",
       "sentenceIndex": 45,
@@ -2124,12 +1942,10 @@ export default {
         "got torched"
       ],
       "optionReasons": {
-        "torch-mcq-22": "本句指「在比賽或競爭中被對手徹底壓制／打爆」。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-19": "「嚴重破壞名聲、財務、計畫等；重創／毀掉」是「torch something figuratively」的用法，與本句語境不同。"
+        "torch-mcq-22": "本句的「got torched」指「在比賽或競爭中被對手徹底壓制／打爆」。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-22"
     },
@@ -2141,11 +1957,9 @@ export default {
       "masked": "He still ____.",
       "options": [
         "torch-mcq-23",
+        "torch-mcq-16",
         "torch-mcq-22",
-        "torch-mcq-24",
-        "torch-mcq-21",
-        "torch-mcq-25",
-        "torch-mcq-20"
+        "torch-mcq-02"
       ],
       "explanation": "本句的「carries a torch for her」指「長期對某人懷有浪漫感情；暗戀／舊情未了」。",
       "sentenceIndex": 46,
@@ -2154,12 +1968,10 @@ export default {
         "carries a torch for her"
       ],
       "optionReasons": {
-        "torch-mcq-23": "本句指「長期對某人懷有浪漫感情；暗戀／舊情未了」。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。"
+        "torch-mcq-23": "本句的「carries a torch for her」指「長期對某人懷有浪漫感情；暗戀／舊情未了」。",
+        "torch-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-23"
     },
@@ -2171,11 +1983,9 @@ export default {
       "masked": "She had ____ for years.",
       "options": [
         "torch-mcq-23",
-        "torch-mcq-22",
-        "torch-mcq-24",
-        "torch-mcq-21",
-        "torch-mcq-25",
-        "torch-mcq-20"
+        "torch-mcq-32",
+        "torch-mcq-19",
+        "torch-mcq-21"
       ],
       "explanation": "本句的「carried a torch for him」指「長期對某人懷有浪漫感情；暗戀／舊情未了」。",
       "sentenceIndex": 47,
@@ -2184,12 +1994,10 @@ export default {
         "carried a torch for him"
       ],
       "optionReasons": {
-        "torch-mcq-23": "本句指「長期對某人懷有浪漫感情；暗戀／舊情未了」。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-20": "「對某人、作品或提議作非常猛烈的批評」是「torch — criticize severely」的用法，與本句語境不同。"
+        "torch-mcq-23": "本句的「carried a torch for him」指「長期對某人懷有浪漫感情；暗戀／舊情未了」。",
+        "torch-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-23"
     },
@@ -2201,11 +2009,9 @@ export default {
       "masked": "The founder decided to ____ to a younger leader.",
       "options": [
         "torch-mcq-24",
-        "torch-mcq-23",
-        "torch-mcq-25",
-        "torch-mcq-22",
-        "torch-mcq-26",
-        "torch-mcq-21"
+        "torch-mcq-15",
+        "torch-mcq-14",
+        "torch-mcq-33"
       ],
       "explanation": "本句的「pass the torch」指「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」。",
       "sentenceIndex": 48,
@@ -2214,12 +2020,10 @@ export default {
         "pass the torch"
       ],
       "optionReasons": {
-        "torch-mcq-24": "本句指「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。"
+        "torch-mcq-24": "本句的「pass the torch」指「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」。",
+        "torch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-24"
     },
@@ -2231,11 +2035,9 @@ export default {
       "masked": "Great teachers eventually ____ to the next generation.",
       "options": [
         "torch-mcq-24",
-        "torch-mcq-23",
-        "torch-mcq-25",
-        "torch-mcq-22",
-        "torch-mcq-26",
-        "torch-mcq-21"
+        "torch-mcq-07",
+        "torch-mcq-12",
+        "torch-mcq-14"
       ],
       "explanation": "本句的「pass the torch」指「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」。",
       "sentenceIndex": 49,
@@ -2244,12 +2046,10 @@ export default {
         "pass the torch"
       ],
       "optionReasons": {
-        "torch-mcq-24": "本句指「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-21": "「在比賽中徹底壓制、痛擊對手」是「torch an opponent/defense」的用法，與本句語境不同。"
+        "torch-mcq-24": "本句的「pass the torch」指「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」。",
+        "torch-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-24"
     },
@@ -2261,11 +2061,9 @@ export default {
       "masked": "Younger researchers ____.",
       "options": [
         "torch-mcq-25",
-        "torch-mcq-24",
-        "torch-mcq-26",
-        "torch-mcq-23",
-        "torch-mcq-27",
-        "torch-mcq-22"
+        "torch-mcq-33",
+        "torch-mcq-01",
+        "torch-mcq-04"
       ],
       "explanation": "本句的「took up the torch」指「接下別人的責任、使命或傳統；接棒」。",
       "sentenceIndex": 50,
@@ -2274,12 +2072,10 @@ export default {
         "took up the torch"
       ],
       "optionReasons": {
-        "torch-mcq-25": "本句指「接下別人的責任、使命或傳統；接棒」。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。"
+        "torch-mcq-25": "本句的「took up the torch」指「接下別人的責任、使命或傳統；接棒」。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-25"
     },
@@ -2291,11 +2087,9 @@ export default {
       "masked": "She ____ after her mentor retired.",
       "options": [
         "torch-mcq-25",
-        "torch-mcq-24",
-        "torch-mcq-26",
-        "torch-mcq-23",
-        "torch-mcq-27",
-        "torch-mcq-22"
+        "torch-mcq-19",
+        "torch-mcq-22",
+        "torch-mcq-13"
       ],
       "explanation": "本句的「took up the torch」指「接下別人的責任、使命或傳統；接棒」。",
       "sentenceIndex": 51,
@@ -2304,12 +2098,10 @@ export default {
         "took up the torch"
       ],
       "optionReasons": {
-        "torch-mcq-25": "本句指「接下別人的責任、使命或傳統；接棒」。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-22": "「在比賽或競爭中被對手徹底壓制／打爆」是「get torched」的用法，與本句語境不同。"
+        "torch-mcq-25": "本句的「took up the torch」指「接下別人的責任、使命或傳統；接棒」。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-25"
     },
@@ -2321,11 +2113,9 @@ export default {
       "masked": "Younger scientists are now ____.",
       "options": [
         "torch-mcq-26",
-        "torch-mcq-25",
-        "torch-mcq-27",
-        "torch-mcq-24",
-        "torch-mcq-28",
-        "torch-mcq-23"
+        "torch-mcq-10",
+        "torch-mcq-01",
+        "torch-mcq-21"
       ],
       "explanation": "本句的「carrying the torch」指「延續某種理念、使命或傳統」。",
       "sentenceIndex": 52,
@@ -2334,12 +2124,10 @@ export default {
         "carrying the torch"
       ],
       "optionReasons": {
-        "torch-mcq-26": "本句指「延續某種理念、使命或傳統」。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。"
+        "torch-mcq-26": "本句的「carrying the torch」指「延續某種理念、使命或傳統」。",
+        "torch-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-26"
     },
@@ -2351,11 +2139,9 @@ export default {
       "masked": "She hopes her students will ____.",
       "options": [
         "torch-mcq-26",
-        "torch-mcq-25",
-        "torch-mcq-27",
-        "torch-mcq-24",
-        "torch-mcq-28",
-        "torch-mcq-23"
+        "torch-mcq-21",
+        "torch-mcq-33",
+        "torch-mcq-04"
       ],
       "explanation": "本句的「carry the torch」指「延續某種理念、使命或傳統」。",
       "sentenceIndex": 53,
@@ -2364,12 +2150,10 @@ export default {
         "carry the torch"
       ],
       "optionReasons": {
-        "torch-mcq-26": "本句指「延續某種理念、使命或傳統」。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-23": "「長期對某人懷有浪漫感情；暗戀／舊情未了」是「carry a torch for someone」的用法，與本句語境不同。"
+        "torch-mcq-26": "本句的「carry the torch」指「延續某種理念、使命或傳統」。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-26"
     },
@@ -2381,11 +2165,9 @@ export default {
       "masked": "Teachers help carry the ____.",
       "options": [
         "torch-mcq-27",
-        "torch-mcq-26",
-        "torch-mcq-28",
-        "torch-mcq-25",
         "torch-mcq-29",
-        "torch-mcq-24"
+        "torch-mcq-01",
+        "torch-mcq-23"
       ],
       "explanation": "本句的「torch of knowledge」指「文學性比喻中象徵理念延續與傳播的火炬」。",
       "sentenceIndex": 54,
@@ -2394,12 +2176,10 @@ export default {
         "torch of knowledge"
       ],
       "optionReasons": {
-        "torch-mcq-27": "本句指「文學性比喻中象徵理念延續與傳播的火炬」。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。"
+        "torch-mcq-27": "本句的「torch of knowledge」指「文學性比喻中象徵理念延續與傳播的火炬」。",
+        "torch-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-27"
     },
@@ -2411,11 +2191,9 @@ export default {
       "masked": "The monument represents the ____.",
       "options": [
         "torch-mcq-27",
-        "torch-mcq-26",
-        "torch-mcq-28",
-        "torch-mcq-25",
-        "torch-mcq-29",
-        "torch-mcq-24"
+        "torch-mcq-13",
+        "torch-mcq-02",
+        "torch-mcq-28"
       ],
       "explanation": "本句的「torch of freedom」指「文學性比喻中象徵理念延續與傳播的火炬」。",
       "sentenceIndex": 55,
@@ -2424,12 +2202,10 @@ export default {
         "torch of freedom"
       ],
       "optionReasons": {
-        "torch-mcq-27": "本句指「文學性比喻中象徵理念延續與傳播的火炬」。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-24": "「把責任、領導權、傳統或使命交給下一個人；交棒／傳承」是「pass the torch」的用法，與本句語境不同。"
+        "torch-mcq-27": "本句的「torch of freedom」指「文學性比喻中象徵理念延續與傳播的火炬」。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-27"
     },
@@ -2441,11 +2217,9 @@ export default {
       "masked": "She performed an old ____.",
       "options": [
         "torch-mcq-28",
-        "torch-mcq-27",
-        "torch-mcq-29",
-        "torch-mcq-26",
-        "torch-mcq-30",
-        "torch-mcq-25"
+        "torch-mcq-19",
+        "torch-mcq-03",
+        "torch-mcq-14"
       ],
       "explanation": "本句的「torch song」指「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」。",
       "sentenceIndex": 56,
@@ -2454,12 +2228,10 @@ export default {
         "torch song"
       ],
       "optionReasons": {
-        "torch-mcq-28": "本句指「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。"
+        "torch-mcq-28": "本句的「torch song」指「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-28"
     },
@@ -2471,11 +2243,9 @@ export default {
       "masked": "The singer became famous for dramatic ____.",
       "options": [
         "torch-mcq-28",
-        "torch-mcq-27",
-        "torch-mcq-29",
-        "torch-mcq-26",
-        "torch-mcq-30",
-        "torch-mcq-25"
+        "torch-mcq-15",
+        "torch-pdf-001",
+        "torch-mcq-05"
       ],
       "explanation": "本句的「torch songs」指「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」。",
       "sentenceIndex": 57,
@@ -2484,12 +2254,10 @@ export default {
         "torch songs"
       ],
       "optionReasons": {
-        "torch-mcq-28": "本句指「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-25": "「接下別人的責任、使命或傳統；接棒」是「take up the torch」的用法，與本句語境不同。"
+        "torch-mcq-28": "本句的「torch songs」指「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」。",
+        "torch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "torch-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-28"
     },
@@ -2501,11 +2269,9 @@ export default {
       "masked": "She became known as a ____.",
       "options": [
         "torch-mcq-29",
-        "torch-mcq-28",
-        "torch-mcq-30",
-        "torch-mcq-27",
-        "torch-mcq-31",
-        "torch-mcq-26"
+        "torch-mcq-13",
+        "torch-mcq-20",
+        "torch-mcq-12"
       ],
       "explanation": "本句的「torch singer」指「以演唱傷感／失戀情歌聞名的歌手」。",
       "sentenceIndex": 58,
@@ -2514,12 +2280,10 @@ export default {
         "torch singer"
       ],
       "optionReasons": {
-        "torch-mcq-29": "本句指「以演唱傷感／失戀情歌聞名的歌手」。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。"
+        "torch-mcq-29": "本句的「torch singer」指「以演唱傷感／失戀情歌聞名的歌手」。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-29"
     },
@@ -2531,11 +2295,9 @@ export default {
       "masked": "Classic ____ often used highly expressive vocal styles.",
       "options": [
         "torch-mcq-29",
-        "torch-mcq-28",
-        "torch-mcq-30",
-        "torch-mcq-27",
+        "torch-mcq-18",
         "torch-mcq-31",
-        "torch-mcq-26"
+        "torch-mcq-13"
       ],
       "explanation": "本句的「torch singers」指「以演唱傷感／失戀情歌聞名的歌手」。",
       "sentenceIndex": 59,
@@ -2544,12 +2306,10 @@ export default {
         "torch singers"
       ],
       "optionReasons": {
-        "torch-mcq-29": "本句指「以演唱傷感／失戀情歌聞名的歌手」。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-26": "「延續某種理念、使命或傳統」是「carry the torch」的用法，與本句語境不同。"
+        "torch-mcq-29": "本句的「torch singers」指「以演唱傷感／失戀情歌聞名的歌手」。",
+        "torch-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-29"
     },
@@ -2561,11 +2321,9 @@ export default {
       "masked": "We walked by ____.",
       "options": [
         "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-31",
-        "torch-mcq-28",
-        "torch-mcq-32",
-        "torch-mcq-27"
+        "torch-mcq-23",
+        "torch-mcq-33",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torchlight」指「手電筒或火把產生的光」。",
       "sentenceIndex": 60,
@@ -2574,12 +2332,10 @@ export default {
         "torchlight"
       ],
       "optionReasons": {
-        "torch-mcq-30": "本句指「手電筒或火把產生的光」。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-32": "「參與者手持火把進行的火炬／火把遊行」是「torchlight procession/parade」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。"
+        "torch-mcq-30": "本句的「torchlight」指「手電筒或火把產生的光」。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-30"
     },
@@ -2591,11 +2347,9 @@ export default {
       "masked": "Their faces were visible in the ____.",
       "options": [
         "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-31",
-        "torch-mcq-28",
-        "torch-mcq-32",
-        "torch-mcq-27"
+        "torch-mcq-26",
+        "torch-mcq-15",
+        "torch-mcq-23"
       ],
       "explanation": "本句的「torchlight」指「手電筒或火把產生的光」。",
       "sentenceIndex": 61,
@@ -2604,12 +2358,10 @@ export default {
         "torchlight"
       ],
       "optionReasons": {
-        "torch-mcq-30": "本句指「手電筒或火把產生的光」。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。",
-        "torch-mcq-32": "「參與者手持火把進行的火炬／火把遊行」是「torchlight procession/parade」的用法，與本句語境不同。",
-        "torch-mcq-27": "「文學性比喻中象徵理念延續與傳播的火炬」是「torch of knowledge/freedom/etc.」的用法，與本句語境不同。"
+        "torch-mcq-30": "本句的「torchlight」指「手電筒或火把產生的光」。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-30"
     },
@@ -2621,10 +2373,8 @@ export default {
       "masked": "They followed a ____.",
       "options": [
         "torch-mcq-31",
-        "torch-mcq-30",
-        "torch-mcq-32",
-        "torch-mcq-29",
-        "torch-mcq-33",
+        "torch-mcq-15",
+        "torch-mcq-25",
         "torch-mcq-28"
       ],
       "explanation": "本句的「torchlit path」指「被火把／火炬照亮的」。",
@@ -2634,12 +2384,10 @@ export default {
         "torchlit path"
       ],
       "optionReasons": {
-        "torch-mcq-31": "本句指「被火把／火炬照亮的」。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-32": "「參與者手持火把進行的火炬／火把遊行」是「torchlight procession/parade」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-mcq-31": "本句的「torchlit path」指「被火把／火炬照亮的」。",
+        "torch-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-31"
     },
@@ -2651,11 +2399,9 @@ export default {
       "masked": "The ceremony took place in a ____.",
       "options": [
         "torch-mcq-31",
-        "torch-mcq-30",
-        "torch-mcq-32",
-        "torch-mcq-29",
-        "torch-mcq-33",
-        "torch-mcq-28"
+        "torch-mcq-26",
+        "torch-mcq-21",
+        "torch-mcq-17"
       ],
       "explanation": "本句的「torchlit courtyard」指「被火把／火炬照亮的」。",
       "sentenceIndex": 63,
@@ -2664,12 +2410,10 @@ export default {
         "torchlit courtyard"
       ],
       "optionReasons": {
-        "torch-mcq-31": "本句指「被火把／火炬照亮的」。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-32": "「參與者手持火把進行的火炬／火把遊行」是「torchlight procession/parade」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-mcq-31": "本句的「torchlit courtyard」指「被火把／火炬照亮的」。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-31"
     },
@@ -2681,11 +2425,9 @@ export default {
       "masked": "The festival ended with a ____.",
       "options": [
         "torch-mcq-32",
-        "torch-mcq-31",
-        "torch-mcq-33",
-        "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-28"
+        "torch-mcq-26",
+        "torch-mcq-17",
+        "torch-mcq-19"
       ],
       "explanation": "本句的「torchlight procession」指「參與者手持火把進行的火炬／火把遊行」。",
       "sentenceIndex": 64,
@@ -2694,12 +2436,10 @@ export default {
         "torchlight procession"
       ],
       "optionReasons": {
-        "torch-mcq-32": "本句指「參與者手持火把進行的火炬／火把遊行」。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-mcq-32": "本句的「torchlight procession」指「參與者手持火把進行的火炬／火把遊行」。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-32"
     },
@@ -2711,11 +2451,9 @@ export default {
       "masked": "Thousands joined the ____.",
       "options": [
         "torch-mcq-32",
-        "torch-mcq-31",
-        "torch-mcq-33",
-        "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-28"
+        "torch-mcq-13",
+        "torch-mcq-24",
+        "torch-mcq-19"
       ],
       "explanation": "本句的「torchlight parade」指「參與者手持火把進行的火炬／火把遊行」。",
       "sentenceIndex": 65,
@@ -2724,12 +2462,10 @@ export default {
         "torchlight parade"
       ],
       "optionReasons": {
-        "torch-mcq-32": "本句指「參與者手持火把進行的火炬／火把遊行」。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-mcq-32": "本句的「torchlight parade」指「參與者手持火把進行的火炬／火把遊行」。",
+        "torch-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-mcq-32"
     },
@@ -2741,11 +2477,9 @@ export default {
       "masked": "BrE: Have you got a ____?",
       "options": [
         "torch-pdf-001",
-        "torch-mcq-31",
-        "torch-mcq-33",
-        "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-28"
+        "torch-mcq-12",
+        "torch-mcq-28",
+        "torch-mcq-27"
       ],
       "explanation": "本句的「torch」指「手電筒」。",
       "sentenceIndex": 66,
@@ -2754,12 +2488,10 @@ export default {
         "torch"
       ],
       "optionReasons": {
-        "torch-pdf-001": "本句指「手電筒」。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-pdf-001": "本句的「torch」指「手電筒」。",
+        "torch-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-pdf-001"
     },
@@ -2771,11 +2503,9 @@ export default {
       "masked": "AmE: Do you have a ____?",
       "options": [
         "torch-pdf-001",
-        "torch-mcq-31",
-        "torch-mcq-33",
-        "torch-mcq-30",
-        "torch-mcq-29",
-        "torch-mcq-28"
+        "torch-mcq-17",
+        "torch-mcq-26",
+        "torch-mcq-20"
       ],
       "explanation": "本句的「flashlight」指「手電筒」。",
       "sentenceIndex": 67,
@@ -2784,12 +2514,10 @@ export default {
         "flashlight"
       ],
       "optionReasons": {
-        "torch-pdf-001": "本句指「手電筒」。",
-        "torch-mcq-31": "「被火把／火炬照亮的」是「torchlit」的用法，與本句語境不同。",
-        "torch-mcq-33": "「表示噴燈；噴炬；焊炬；切割炬」是「10. torch — tool producing intense directed heat」的用法，與本句語境不同。",
-        "torch-mcq-30": "「手電筒或火把產生的光」是「torchlight」的用法，與本句語境不同。",
-        "torch-mcq-29": "「以演唱傷感／失戀情歌聞名的歌手」是「torch singer」的用法，與本句語境不同。",
-        "torch-mcq-28": "「以失戀、單戀或未得到回應的愛情為主題的傷感情歌」是「torch song」的用法，與本句語境不同。"
+        "torch-pdf-001": "本句的「flashlight」指「手電筒」。",
+        "torch-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "torch-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "torch-pdf-001"
     }
@@ -2801,5 +2529,7 @@ export default {
     "sha256": "188f3f464d62c94802337631cfb98dc38bfebce9323f677eaa52f4bd912cafca",
     "pages": 20
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

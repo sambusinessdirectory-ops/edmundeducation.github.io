@@ -254,7 +254,7 @@ export default {
     },
     {
       "id": "fair-mcq-12",
-      "title": "表示接受對方的理由、看法或安排是合理的",
+      "title": "接受對方的理由、看法或安排是合理的",
       "form": "fair enough",
       "en": "fair enough",
       "zh": "表示接受對方的理由、看法或安排是合理的",
@@ -320,7 +320,7 @@ export default {
     },
     {
       "id": "fair-mcq-15",
-      "title": "表示認為某個安排、結果或待遇不合理",
+      "title": "認為某個安排、結果或待遇不合理",
       "form": "no fair!",
       "en": "no fair!",
       "zh": "表示認為某個安排、結果或待遇不合理",
@@ -408,7 +408,7 @@ export default {
     },
     {
       "id": "fair-mcq-19",
-      "title": "表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」",
+      "title": "頗多；頗遠",
       "form": "a fair bit / a fair way",
       "en": "a fair bit / a fair way",
       "zh": "表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」",
@@ -474,7 +474,7 @@ export default {
     },
     {
       "id": "fair-mcq-22",
-      "title": "表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」",
+      "title": "狀況尚可",
       "form": "fair condition",
       "en": "fair condition",
       "zh": "表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」",
@@ -584,7 +584,7 @@ export default {
     },
     {
       "id": "fair-mcq-27",
-      "title": "表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」",
+      "title": "白皙／淺色皮膚",
       "form": "fair skin / complexion",
       "en": "fair skin / complexion",
       "zh": "表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」",
@@ -944,11 +944,9 @@ export default {
       "masked": "He was firm, but ____.",
       "options": [
         "fair-mcq-01",
-        "fair-mcq-02",
-        "fair-mcq-03",
-        "fair-mcq-04",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-26",
+        "fair-mcq-31",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「fair」指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
       "sentenceIndex": 0,
@@ -957,12 +955,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-01": "本句指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-01": "本句的「fair」指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-01"
     },
@@ -974,11 +970,9 @@ export default {
       "masked": "She is a strict but ____ teacher.",
       "options": [
         "fair-mcq-01",
-        "fair-mcq-02",
-        "fair-mcq-03",
-        "fair-mcq-04",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-28",
+        "fair-mcq-26",
+        "fair-mcq-29"
       ],
       "explanation": "本句的「fair」指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
       "sentenceIndex": 1,
@@ -987,12 +981,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-01": "本句指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-01": "本句的「fair」指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-01"
     },
@@ -1004,11 +996,9 @@ export default {
       "masked": "A good manager should be ____ to everyone.",
       "options": [
         "fair-mcq-01",
-        "fair-mcq-02",
-        "fair-mcq-03",
-        "fair-mcq-04",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-31",
+        "fair-mcq-19",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「fair」指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
       "sentenceIndex": 2,
@@ -1017,12 +1007,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-01": "本句指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-01": "本句的「fair」指「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-01"
     },
@@ -1034,11 +1022,9 @@ export default {
       "masked": "The teacher was always ____.",
       "options": [
         "fair-mcq-02",
-        "fair-mcq-01",
-        "fair-mcq-03",
-        "fair-mcq-04",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-23",
+        "fair-mcq-11",
+        "fair-mcq-34"
       ],
       "explanation": "本句的「fair to weaker students」指「以同樣合理的標準對待某人，不偏心或歧視」。",
       "sentenceIndex": 3,
@@ -1047,12 +1033,10 @@ export default {
         "fair to weaker students"
       ],
       "optionReasons": {
-        "fair-mcq-02": "本句指「以同樣合理的標準對待某人，不偏心或歧視」。",
-        "fair-mcq-01": "「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」是「fair（待人公平的）」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-02": "本句的「fair to weaker students」指「以同樣合理的標準對待某人，不偏心或歧視」。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-02"
     },
@@ -1064,11 +1048,9 @@ export default {
       "masked": "You need to be ____.",
       "options": [
         "fair-mcq-02",
-        "fair-mcq-01",
-        "fair-mcq-03",
-        "fair-mcq-04",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-35",
+        "fair-mcq-23",
+        "fair-mcq-11"
       ],
       "explanation": "本句的「fair to both sides」指「以同樣合理的標準對待某人，不偏心或歧視」。",
       "sentenceIndex": 4,
@@ -1077,12 +1059,10 @@ export default {
         "fair to both sides"
       ],
       "optionReasons": {
-        "fair-mcq-02": "本句指「以同樣合理的標準對待某人，不偏心或歧視」。",
-        "fair-mcq-01": "「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」是「fair（待人公平的）」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-02": "本句的「fair to both sides」指「以同樣合理的標準對待某人，不偏心或歧視」。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-02"
     },
@@ -1094,11 +1074,9 @@ export default {
       "masked": "Everyone deserves ____.",
       "options": [
         "fair-mcq-03",
-        "fair-mcq-02",
-        "fair-mcq-04",
-        "fair-mcq-01",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-24",
+        "fair-mcq-18",
+        "fair-mcq-22"
       ],
       "explanation": "本句的「fair treatment」指「按合理和一致的標準對待某人」。",
       "sentenceIndex": 5,
@@ -1107,12 +1085,10 @@ export default {
         "fair treatment"
       ],
       "optionReasons": {
-        "fair-mcq-03": "本句指「按合理和一致的標準對待某人」。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-01": "「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」是「fair（待人公平的）」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-03": "本句的「fair treatment」指「按合理和一致的標準對待某人」。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-03"
     },
@@ -1124,11 +1100,9 @@ export default {
       "masked": "The workers demanded ____.",
       "options": [
         "fair-mcq-03",
-        "fair-mcq-02",
-        "fair-mcq-04",
-        "fair-mcq-01",
-        "fair-mcq-05",
-        "fair-mcq-06"
+        "fair-mcq-34",
+        "fair-mcq-38",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「fair treatment」指「按合理和一致的標準對待某人」。",
       "sentenceIndex": 6,
@@ -1137,12 +1111,10 @@ export default {
         "fair treatment"
       ],
       "optionReasons": {
-        "fair-mcq-03": "本句指「按合理和一致的標準對待某人」。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-01": "「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」是「fair（待人公平的）」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-03": "本句的「fair treatment」指「按合理和一致的標準對待某人」。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-03"
     },
@@ -1154,11 +1126,9 @@ export default {
       "masked": "I think the judge made a ____.",
       "options": [
         "fair-mcq-04",
-        "fair-mcq-03",
-        "fair-mcq-05",
-        "fair-mcq-02",
-        "fair-mcq-06",
-        "fair-mcq-01"
+        "fair-mcq-33",
+        "fair-mcq-18",
+        "fair-mcq-22"
       ],
       "explanation": "本句的「fair decision」指「沒有偏見，並基於合理原則作出的決定或判斷」。",
       "sentenceIndex": 7,
@@ -1167,12 +1137,10 @@ export default {
         "fair decision"
       ],
       "optionReasons": {
-        "fair-mcq-04": "本句指「沒有偏見，並基於合理原則作出的決定或判斷」。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-01": "「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」是「fair（待人公平的）」的用法，與本句語境不同。"
+        "fair-mcq-04": "本句的「fair decision」指「沒有偏見，並基於合理原則作出的決定或判斷」。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-04"
     },
@@ -1184,11 +1152,9 @@ export default {
       "masked": "We need a ____ based on the evidence.",
       "options": [
         "fair-mcq-04",
-        "fair-mcq-03",
-        "fair-mcq-05",
-        "fair-mcq-02",
-        "fair-mcq-06",
-        "fair-mcq-01"
+        "fair-mcq-29",
+        "fair-mcq-22",
+        "fair-mcq-31"
       ],
       "explanation": "本句的「fair judgment」指「沒有偏見，並基於合理原則作出的決定或判斷」。",
       "sentenceIndex": 8,
@@ -1197,12 +1163,10 @@ export default {
         "fair judgment"
       ],
       "optionReasons": {
-        "fair-mcq-04": "本句指「沒有偏見，並基於合理原則作出的決定或判斷」。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-01": "「按合理標準對待所有人，不偏袒任何一方，也不給予不合理的優待或懲罰」是「fair（待人公平的）」的用法，與本句語境不同。"
+        "fair-mcq-04": "本句的「fair judgment」指「沒有偏見，並基於合理原則作出的決定或判斷」。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-04"
     },
@@ -1214,11 +1178,9 @@ export default {
       "masked": "The school needs a ____ for dealing with complaints.",
       "options": [
         "fair-mcq-05",
-        "fair-mcq-04",
-        "fair-mcq-06",
-        "fair-mcq-03",
-        "fair-mcq-07",
-        "fair-mcq-02"
+        "fair-mcq-26",
+        "fair-mcq-33",
+        "fair-mcq-19"
       ],
       "explanation": "本句的「fair system」指「對不同的人採用合理、一致標準的規則或制度」。",
       "sentenceIndex": 9,
@@ -1227,12 +1189,10 @@ export default {
         "fair system"
       ],
       "optionReasons": {
-        "fair-mcq-05": "本句指「對不同的人採用合理、一致標準的規則或制度」。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。"
+        "fair-mcq-05": "本句的「fair system」指「對不同的人採用合理、一致標準的規則或制度」。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-05"
     },
@@ -1244,11 +1204,9 @@ export default {
       "masked": "The rules should be ____.",
       "options": [
         "fair-mcq-05",
-        "fair-mcq-04",
-        "fair-mcq-06",
-        "fair-mcq-03",
-        "fair-mcq-07",
-        "fair-mcq-02"
+        "fair-mcq-28",
+        "fair-mcq-24",
+        "fair-mcq-35"
       ],
       "explanation": "本句的「fair to everyone」指「對不同的人採用合理、一致標準的規則或制度」。",
       "sentenceIndex": 10,
@@ -1257,12 +1215,10 @@ export default {
         "fair to everyone"
       ],
       "optionReasons": {
-        "fair-mcq-05": "本句指「對不同的人採用合理、一致標準的規則或制度」。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-02": "「以同樣合理的標準對待某人，不偏心或歧視」是「be fair to someone」的用法，與本句語境不同。"
+        "fair-mcq-05": "本句的「fair to everyone」指「對不同的人採用合理、一致標準的規則或制度」。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-05"
     },
@@ -1274,11 +1230,9 @@ export default {
       "masked": "Everyone should do their ____ of the work.",
       "options": [
         "fair-mcq-06",
-        "fair-mcq-05",
-        "fair-mcq-07",
-        "fair-mcq-04",
-        "fair-mcq-08",
-        "fair-mcq-03"
+        "fair-mcq-24",
+        "fair-mcq-37",
+        "fair-mcq-34"
       ],
       "explanation": "本句的「fair share」指「按情況或貢獻合理分配後某人應得到的一份」。",
       "sentenceIndex": 11,
@@ -1287,12 +1241,10 @@ export default {
         "fair share"
       ],
       "optionReasons": {
-        "fair-mcq-06": "本句指「按情況或貢獻合理分配後某人應得到的一份」。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。"
+        "fair-mcq-06": "本句的「fair share」指「按情況或貢獻合理分配後某人應得到的一份」。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-06"
     },
@@ -1304,11 +1256,9 @@ export default {
       "masked": "She received her ____ of the money.",
       "options": [
         "fair-mcq-06",
-        "fair-mcq-05",
-        "fair-mcq-07",
-        "fair-mcq-04",
-        "fair-mcq-08",
-        "fair-mcq-03"
+        "fair-mcq-22",
+        "fair-mcq-32",
+        "fair-mcq-24"
       ],
       "explanation": "本句的「fair share」指「按情況或貢獻合理分配後某人應得到的一份」。",
       "sentenceIndex": 12,
@@ -1317,12 +1267,10 @@ export default {
         "fair share"
       ],
       "optionReasons": {
-        "fair-mcq-06": "本句指「按情況或貢獻合理分配後某人應得到的一份」。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-03": "「按合理和一致的標準對待某人」是「fair treatment」的用法，與本句語境不同。"
+        "fair-mcq-06": "本句的「fair share」指「按情況或貢獻合理分配後某人應得到的一份」。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-06"
     },
@@ -1334,11 +1282,9 @@ export default {
       "masked": "They offered me a ____ for the car.",
       "options": [
         "fair-mcq-07",
-        "fair-mcq-06",
-        "fair-mcq-08",
-        "fair-mcq-05",
-        "fair-mcq-09",
-        "fair-mcq-04"
+        "fair-mcq-35",
+        "fair-mcq-26",
+        "fair-mcq-38"
       ],
       "explanation": "本句的「fair price」指「對買賣雙方而言合理、不過高也不過低的價格」。",
       "sentenceIndex": 13,
@@ -1347,12 +1293,10 @@ export default {
         "fair price"
       ],
       "optionReasons": {
-        "fair-mcq-07": "本句指「對買賣雙方而言合理、不過高也不過低的價格」。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。"
+        "fair-mcq-07": "本句的「fair price」指「對買賣雙方而言合理、不過高也不過低的價格」。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-07"
     },
@@ -1364,11 +1308,9 @@ export default {
       "masked": "Customers want good quality at a ____.",
       "options": [
         "fair-mcq-07",
-        "fair-mcq-06",
-        "fair-mcq-08",
-        "fair-mcq-05",
-        "fair-mcq-09",
-        "fair-mcq-04"
+        "fair-mcq-32",
+        "fair-mcq-22",
+        "fair-mcq-19"
       ],
       "explanation": "本句的「fair price」指「對買賣雙方而言合理、不過高也不過低的價格」。",
       "sentenceIndex": 14,
@@ -1377,12 +1319,10 @@ export default {
         "fair price"
       ],
       "optionReasons": {
-        "fair-mcq-07": "本句指「對買賣雙方而言合理、不過高也不過低的價格」。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-04": "「沒有偏見，並基於合理原則作出的決定或判斷」是「fair decision / judgment」的用法，與本句語境不同。"
+        "fair-mcq-07": "本句的「fair price」指「對買賣雙方而言合理、不過高也不過低的價格」。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-07"
     },
@@ -1394,11 +1334,9 @@ export default {
       "masked": "Workers deserve a ____.",
       "options": [
         "fair-mcq-08",
-        "fair-mcq-07",
-        "fair-mcq-09",
-        "fair-mcq-06",
-        "fair-mcq-10",
-        "fair-mcq-05"
+        "fair-mcq-28",
+        "fair-mcq-35",
+        "fair-mcq-23"
       ],
       "explanation": "本句的「fair deal」指「各方得到合理待遇或條件的協議／安排」。",
       "sentenceIndex": 15,
@@ -1407,12 +1345,10 @@ export default {
         "fair deal"
       ],
       "optionReasons": {
-        "fair-mcq-08": "本句指「各方得到合理待遇或條件的協議／安排」。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。"
+        "fair-mcq-08": "本句的「fair deal」指「各方得到合理待遇或條件的協議／安排」。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-08"
     },
@@ -1424,11 +1360,9 @@ export default {
       "masked": "I just want a ____.",
       "options": [
         "fair-mcq-08",
-        "fair-mcq-07",
-        "fair-mcq-09",
-        "fair-mcq-06",
-        "fair-mcq-10",
-        "fair-mcq-05"
+        "fair-mcq-25",
+        "fair-mcq-35",
+        "fair-mcq-19"
       ],
       "explanation": "本句的「fair deal」指「各方得到合理待遇或條件的協議／安排」。",
       "sentenceIndex": 16,
@@ -1437,12 +1371,10 @@ export default {
         "fair deal"
       ],
       "optionReasons": {
-        "fair-mcq-08": "本句指「各方得到合理待遇或條件的協議／安排」。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-05": "「對不同的人採用合理、一致標準的規則或制度」是「fair rule / system」的用法，與本句語境不同。"
+        "fair-mcq-08": "本句的「fair deal」指「各方得到合理待遇或條件的協議／安排」。",
+        "fair-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-08"
     },
@@ -1454,11 +1386,9 @@ export default {
       "masked": "Every student deserves a ____ to succeed.",
       "options": [
         "fair-mcq-09",
-        "fair-mcq-08",
-        "fair-mcq-10",
-        "fair-mcq-07",
-        "fair-mcq-11",
-        "fair-mcq-06"
+        "fair-mcq-24",
+        "fair-mcq-29",
+        "fair-mcq-19"
       ],
       "explanation": "本句的「fair chance」指「不受不合理阻礙、能夠充分嘗試或證明自己的機會」。",
       "sentenceIndex": 17,
@@ -1467,12 +1397,10 @@ export default {
         "fair chance"
       ],
       "optionReasons": {
-        "fair-mcq-09": "本句指「不受不合理阻礙、能夠充分嘗試或證明自己的機會」。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-09": "本句的「fair chance」指「不受不合理阻礙、能夠充分嘗試或證明自己的機會」。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-09"
     },
@@ -1484,11 +1412,9 @@ export default {
       "masked": "Give him a ____ to explain himself.",
       "options": [
         "fair-mcq-09",
-        "fair-mcq-08",
-        "fair-mcq-10",
-        "fair-mcq-07",
-        "fair-mcq-11",
-        "fair-mcq-06"
+        "fair-mcq-23",
+        "fair-mcq-30",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「fair chance」指「不受不合理阻礙、能夠充分嘗試或證明自己的機會」。",
       "sentenceIndex": 18,
@@ -1497,12 +1423,10 @@ export default {
         "fair chance"
       ],
       "optionReasons": {
-        "fair-mcq-09": "本句指「不受不合理阻礙、能夠充分嘗試或證明自己的機會」。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-06": "「按情況或貢獻合理分配後某人應得到的一份」是「fair share」的用法，與本句語境不同。"
+        "fair-mcq-09": "本句的「fair chance」指「不受不合理阻礙、能夠充分嘗試或證明自己的機會」。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-09"
     },
@@ -1514,11 +1438,9 @@ export default {
       "masked": "You helped me yesterday, so ____ that I help you today.",
       "options": [
         "fair-mcq-10",
-        "fair-mcq-09",
-        "fair-mcq-11",
-        "fair-mcq-08",
-        "fair-mcq-12",
-        "fair-mcq-07"
+        "fair-mcq-35",
+        "fair-mcq-26",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「it's only fair」指「某個做法在道理上是合理、公平而應該的」。",
       "sentenceIndex": 19,
@@ -1527,12 +1449,10 @@ export default {
         "it's only fair"
       ],
       "optionReasons": {
-        "fair-mcq-10": "本句指「某個做法在道理上是合理、公平而應該的」。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。"
+        "fair-mcq-10": "本句的「it's only fair」指「某個做法在道理上是合理、公平而應該的」。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-10"
     },
@@ -1544,11 +1464,9 @@ export default {
       "masked": "____ to give everyone the same amount of time.",
       "options": [
         "fair-mcq-10",
-        "fair-mcq-09",
-        "fair-mcq-11",
-        "fair-mcq-08",
-        "fair-mcq-12",
-        "fair-mcq-07"
+        "fair-mcq-34",
+        "fair-mcq-29",
+        "fair-mcq-23"
       ],
       "explanation": "本句的「It's only fair」指「某個做法在道理上是合理、公平而應該的」。",
       "sentenceIndex": 20,
@@ -1557,12 +1475,10 @@ export default {
         "It's only fair"
       ],
       "optionReasons": {
-        "fair-mcq-10": "本句指「某個做法在道理上是合理、公平而應該的」。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-07": "「對買賣雙方而言合理、不過高也不過低的價格」是「fair price」的用法，與本句語境不同。"
+        "fair-mcq-10": "本句的「It's only fair」指「某個做法在道理上是合理、公平而應該的」。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-10"
     },
@@ -1574,11 +1490,9 @@ export default {
       "masked": "____, he did apologize.",
       "options": [
         "fair-mcq-11",
-        "fair-mcq-10",
-        "fair-mcq-12",
+        "fair-mcq-32",
         "fair-mcq-09",
-        "fair-mcq-13",
-        "fair-mcq-08"
+        "fair-mcq-23"
       ],
       "explanation": "本句的「To be fair」指「引出一個較平衡、公正、替另一方考慮的觀點」。",
       "sentenceIndex": 21,
@@ -1587,12 +1501,10 @@ export default {
         "To be fair"
       ],
       "optionReasons": {
-        "fair-mcq-11": "本句指「引出一個較平衡、公正、替另一方考慮的觀點」。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。"
+        "fair-mcq-11": "本句的「To be fair」指「引出一個較平衡、公正、替另一方考慮的觀點」。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-11"
     },
@@ -1604,11 +1516,9 @@ export default {
       "masked": "____, the task was difficult.",
       "options": [
         "fair-mcq-11",
-        "fair-mcq-10",
-        "fair-mcq-12",
-        "fair-mcq-09",
-        "fair-mcq-13",
-        "fair-mcq-08"
+        "fair-mcq-16",
+        "fair-mcq-20",
+        "fair-mcq-33"
       ],
       "explanation": "本句的「To be fair」指「引出一個較平衡、公正、替另一方考慮的觀點」。",
       "sentenceIndex": 22,
@@ -1617,12 +1527,10 @@ export default {
         "To be fair"
       ],
       "optionReasons": {
-        "fair-mcq-11": "本句指「引出一個較平衡、公正、替另一方考慮的觀點」。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-08": "「各方得到合理待遇或條件的協議／安排」是「fair deal」的用法，與本句語境不同。"
+        "fair-mcq-11": "本句的「To be fair」指「引出一個較平衡、公正、替另一方考慮的觀點」。",
+        "fair-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-11"
     },
@@ -1634,11 +1542,9 @@ export default {
       "masked": "I need more time.” > “____",
       "options": [
         "fair-mcq-12",
-        "fair-mcq-11",
-        "fair-mcq-13",
-        "fair-mcq-10",
-        "fair-mcq-14",
-        "fair-mcq-09"
+        "fair-mcq-28",
+        "fair-mcq-31",
+        "fair-mcq-20"
       ],
       "explanation": "本句的「Fair enough.」指「表示接受對方的理由、看法或安排是合理的」。",
       "sentenceIndex": 23,
@@ -1647,12 +1553,10 @@ export default {
         "Fair enough."
       ],
       "optionReasons": {
-        "fair-mcq-12": "本句指「表示接受對方的理由、看法或安排是合理的」。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。"
+        "fair-mcq-12": "本句的「Fair enough.」指「表示接受對方的理由、看法或安排是合理的」。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-12"
     },
@@ -1664,11 +1568,9 @@ export default {
       "masked": "____, let's try your idea.",
       "options": [
         "fair-mcq-12",
-        "fair-mcq-11",
-        "fair-mcq-13",
-        "fair-mcq-10",
         "fair-mcq-14",
-        "fair-mcq-09"
+        "fair-mcq-22",
+        "fair-mcq-25"
       ],
       "explanation": "本句的「Fair enough」指「表示接受對方的理由、看法或安排是合理的」。",
       "sentenceIndex": 24,
@@ -1677,12 +1579,10 @@ export default {
         "Fair enough"
       ],
       "optionReasons": {
-        "fair-mcq-12": "本句指「表示接受對方的理由、看法或安排是合理的」。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-09": "「不受不合理阻礙、能夠充分嘗試或證明自己的機會」是「fair chance」的用法，與本句語境不同。"
+        "fair-mcq-12": "本句的「Fair enough」指「表示接受對方的理由、看法或安排是合理的」。",
+        "fair-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-12"
     },
@@ -1694,11 +1594,9 @@ export default {
       "masked": "Sport should encourage ____.",
       "options": [
         "fair-mcq-13",
-        "fair-mcq-12",
-        "fair-mcq-14",
-        "fair-mcq-11",
-        "fair-mcq-15",
-        "fair-mcq-10"
+        "fair-mcq-32",
+        "fair-mcq-19",
+        "fair-mcq-06"
       ],
       "explanation": "本句的「fair play」指「遵守規則、不作弊並公平對待競爭者的行為」。",
       "sentenceIndex": 25,
@@ -1707,12 +1605,10 @@ export default {
         "fair play"
       ],
       "optionReasons": {
-        "fair-mcq-13": "本句指「遵守規則、不作弊並公平對待競爭者的行為」。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。"
+        "fair-mcq-13": "本句的「fair play」指「遵守規則、不作弊並公平對待競爭者的行為」。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-13"
     },
@@ -1724,11 +1620,9 @@ export default {
       "masked": "The rules are designed to ensure ____.",
       "options": [
         "fair-mcq-13",
-        "fair-mcq-12",
-        "fair-mcq-14",
-        "fair-mcq-11",
-        "fair-mcq-15",
-        "fair-mcq-10"
+        "fair-mcq-20",
+        "fair-mcq-28",
+        "fair-mcq-26"
       ],
       "explanation": "本句的「fair play」指「遵守規則、不作弊並公平對待競爭者的行為」。",
       "sentenceIndex": 26,
@@ -1737,12 +1631,10 @@ export default {
         "fair play"
       ],
       "optionReasons": {
-        "fair-mcq-13": "本句指「遵守規則、不作弊並公平對待競爭者的行為」。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-10": "「某個做法在道理上是合理、公平而應該的」是「it's only fair」的用法，與本句語境不同。"
+        "fair-mcq-13": "本句的「fair play」指「遵守規則、不作弊並公平對待競爭者的行為」。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-13"
     },
@@ -1754,11 +1646,9 @@ export default {
       "masked": "She won ____.",
       "options": [
         "fair-mcq-14",
-        "fair-mcq-13",
-        "fair-mcq-15",
-        "fair-mcq-12",
-        "fair-mcq-16",
-        "fair-mcq-11"
+        "fair-mcq-10",
+        "fair-mcq-22",
+        "fair-mcq-34"
       ],
       "explanation": "本句的「fair and square」指「完全按照規則、沒有作弊或不正當手段地」。",
       "sentenceIndex": 27,
@@ -1767,12 +1657,10 @@ export default {
         "fair and square"
       ],
       "optionReasons": {
-        "fair-mcq-14": "本句指「完全按照規則、沒有作弊或不正當手段地」。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。"
+        "fair-mcq-14": "本句的「fair and square」指「完全按照規則、沒有作弊或不正當手段地」。",
+        "fair-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-14"
     },
@@ -1784,11 +1672,9 @@ export default {
       "masked": "They beat us ____.",
       "options": [
         "fair-mcq-14",
-        "fair-mcq-13",
-        "fair-mcq-15",
-        "fair-mcq-12",
-        "fair-mcq-16",
-        "fair-mcq-11"
+        "fair-mcq-27",
+        "fair-mcq-19",
+        "fair-mcq-34"
       ],
       "explanation": "本句的「fair and square」指「完全按照規則、沒有作弊或不正當手段地」。",
       "sentenceIndex": 28,
@@ -1797,12 +1683,10 @@ export default {
         "fair and square"
       ],
       "optionReasons": {
-        "fair-mcq-14": "本句指「完全按照規則、沒有作弊或不正當手段地」。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-11": "「引出一個較平衡、公正、替另一方考慮的觀點」是「to be fair」的用法，與本句語境不同。"
+        "fair-mcq-14": "本句的「fair and square」指「完全按照規則、沒有作弊或不正當手段地」。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-14"
     },
@@ -1814,11 +1698,9 @@ export default {
       "masked": "You got two pieces!” > “____",
       "options": [
         "fair-mcq-15",
-        "fair-mcq-14",
-        "fair-mcq-16",
-        "fair-mcq-13",
-        "fair-mcq-17",
-        "fair-mcq-12"
+        "fair-mcq-23",
+        "fair-mcq-24",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「No fair!」指「表示認為某個安排、結果或待遇不合理」。",
       "sentenceIndex": 29,
@@ -1827,12 +1709,10 @@ export default {
         "No fair!"
       ],
       "optionReasons": {
-        "fair-mcq-15": "本句指「表示認為某個安排、結果或待遇不合理」。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。"
+        "fair-mcq-15": "本句的「No fair!」指「表示認為某個安排、結果或待遇不合理」。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-15"
     },
@@ -1844,11 +1724,9 @@ export default {
       "masked": "That's ____!",
       "options": [
         "fair-mcq-15",
-        "fair-mcq-14",
-        "fair-mcq-16",
-        "fair-mcq-13",
-        "fair-mcq-17",
-        "fair-mcq-12"
+        "fair-mcq-34",
+        "fair-mcq-28",
+        "fair-mcq-41"
       ],
       "explanation": "本句的「not fair」指「表示認為某個安排、結果或待遇不合理」。",
       "sentenceIndex": 30,
@@ -1857,12 +1735,10 @@ export default {
         "not fair"
       ],
       "optionReasons": {
-        "fair-mcq-15": "本句指「表示認為某個安排、結果或待遇不合理」。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-12": "「表示接受對方的理由、看法或安排是合理的」是「fair enough」的用法，與本句語境不同。"
+        "fair-mcq-15": "本句的「not fair」指「表示認為某個安排、結果或待遇不合理」。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-15"
     },
@@ -1874,11 +1750,9 @@ export default {
       "masked": "That's a ____.",
       "options": [
         "fair-mcq-16",
-        "fair-mcq-15",
-        "fair-mcq-17",
-        "fair-mcq-14",
         "fair-mcq-18",
-        "fair-mcq-13"
+        "fair-mcq-26",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「fair question」指「有充分理由、合乎情理，不過分或不合理的」。",
       "sentenceIndex": 31,
@@ -1887,12 +1761,10 @@ export default {
         "fair question"
       ],
       "optionReasons": {
-        "fair-mcq-16": "本句指「有充分理由、合乎情理，不過分或不合理的」。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。"
+        "fair-mcq-16": "本句的「fair question」指「有充分理由、合乎情理，不過分或不合理的」。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-16"
     },
@@ -1904,11 +1776,9 @@ export default {
       "masked": "It's a ____.",
       "options": [
         "fair-mcq-16",
-        "fair-mcq-15",
-        "fair-mcq-17",
-        "fair-mcq-14",
-        "fair-mcq-18",
-        "fair-mcq-13"
+        "fair-mcq-38",
+        "fair-mcq-31",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「fair criticism」指「有充分理由、合乎情理，不過分或不合理的」。",
       "sentenceIndex": 32,
@@ -1917,12 +1787,10 @@ export default {
         "fair criticism"
       ],
       "optionReasons": {
-        "fair-mcq-16": "本句指「有充分理由、合乎情理，不過分或不合理的」。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-13": "「遵守規則、不作弊並公平對待競爭者的行為」是「fair play」的用法，與本句語境不同。"
+        "fair-mcq-16": "本句的「fair criticism」指「有充分理由、合乎情理，不過分或不合理的」。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-16"
     },
@@ -1934,11 +1802,9 @@ export default {
       "masked": "I think that's a ____.",
       "options": [
         "fair-mcq-17",
-        "fair-mcq-16",
-        "fair-mcq-18",
-        "fair-mcq-15",
-        "fair-mcq-19",
-        "fair-mcq-14"
+        "fair-mcq-31",
+        "fair-mcq-30",
+        "fair-mcq-23"
       ],
       "explanation": "本句的「fair comment」指「有事實或合理理由支持、不算過分的評論／批評」。",
       "sentenceIndex": 33,
@@ -1947,12 +1813,10 @@ export default {
         "fair comment"
       ],
       "optionReasons": {
-        "fair-mcq-17": "本句指「有事實或合理理由支持、不算過分的評論／批評」。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。"
+        "fair-mcq-17": "本句的「fair comment」指「有事實或合理理由支持、不算過分的評論／批評」。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-17"
     },
@@ -1964,11 +1828,9 @@ export default {
       "masked": "His criticism was harsh but ____.",
       "options": [
         "fair-mcq-17",
-        "fair-mcq-16",
-        "fair-mcq-18",
-        "fair-mcq-15",
-        "fair-mcq-19",
-        "fair-mcq-14"
+        "fair-mcq-30",
+        "fair-mcq-28",
+        "fair-mcq-11"
       ],
       "explanation": "本句的「fair」指「有事實或合理理由支持、不算過分的評論／批評」。",
       "sentenceIndex": 34,
@@ -1977,12 +1839,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-17": "本句指「有事實或合理理由支持、不算過分的評論／批評」。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-14": "「完全按照規則、沒有作弊或不正當手段地」是「fair and square」的用法，與本句語境不同。"
+        "fair-mcq-17": "本句的「fair」指「有事實或合理理由支持、不算過分的評論／批評」。",
+        "fair-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-17"
     },
@@ -1994,11 +1854,9 @@ export default {
       "masked": "We still have a ____ to do.",
       "options": [
         "fair-mcq-18",
-        "fair-mcq-17",
-        "fair-mcq-19",
-        "fair-mcq-16",
-        "fair-mcq-20",
-        "fair-mcq-15"
+        "fair-mcq-15",
+        "fair-mcq-28",
+        "fair-mcq-33"
       ],
       "explanation": "本句的「fair amount of work」指「數量頗多、相當可觀，但未必非常大量」。",
       "sentenceIndex": 35,
@@ -2007,12 +1865,10 @@ export default {
         "fair amount of work"
       ],
       "optionReasons": {
-        "fair-mcq-18": "本句指「數量頗多、相當可觀，但未必非常大量」。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。"
+        "fair-mcq-18": "本句的「fair amount of work」指「數量頗多、相當可觀，但未必非常大量」。",
+        "fair-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-18"
     },
@@ -2024,11 +1880,9 @@ export default {
       "masked": "A ____ attended the event.",
       "options": [
         "fair-mcq-18",
-        "fair-mcq-17",
-        "fair-mcq-19",
         "fair-mcq-16",
-        "fair-mcq-20",
-        "fair-mcq-15"
+        "fair-mcq-24",
+        "fair-mcq-31"
       ],
       "explanation": "本句的「fair number of students」指「數量頗多、相當可觀，但未必非常大量」。",
       "sentenceIndex": 36,
@@ -2037,12 +1891,10 @@ export default {
         "fair number of students"
       ],
       "optionReasons": {
-        "fair-mcq-18": "本句指「數量頗多、相當可觀，但未必非常大量」。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-15": "「表示認為某個安排、結果或待遇不合理」是「no fair!」的用法，與本句語境不同。"
+        "fair-mcq-18": "本句的「fair number of students」指「數量頗多、相當可觀，但未必非常大量」。",
+        "fair-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-18"
     },
@@ -2054,11 +1906,9 @@ export default {
       "masked": "We've still got a ____ left.",
       "options": [
         "fair-mcq-19",
-        "fair-mcq-18",
-        "fair-mcq-20",
-        "fair-mcq-17",
-        "fair-mcq-21",
-        "fair-mcq-16"
+        "fair-mcq-07",
+        "fair-mcq-36",
+        "fair-mcq-31"
       ],
       "explanation": "本句的「fair bit of work」指「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」。",
       "sentenceIndex": 37,
@@ -2067,12 +1917,10 @@ export default {
         "fair bit of work"
       ],
       "optionReasons": {
-        "fair-mcq-19": "本句指「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。"
+        "fair-mcq-19": "本句的「fair bit of work」指「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」。",
+        "fair-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-19"
     },
@@ -2084,11 +1932,9 @@ export default {
       "masked": "The station is a ____ from here.",
       "options": [
         "fair-mcq-19",
-        "fair-mcq-18",
-        "fair-mcq-20",
-        "fair-mcq-17",
-        "fair-mcq-21",
-        "fair-mcq-16"
+        "fair-mcq-02",
+        "fair-mcq-28",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「fair way」指「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」。",
       "sentenceIndex": 38,
@@ -2097,12 +1943,10 @@ export default {
         "fair way"
       ],
       "optionReasons": {
-        "fair-mcq-19": "本句指「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-16": "「有充分理由、合乎情理，不過分或不合理的」是「fair（合理的；合情合理的）」的用法，與本句語境不同。"
+        "fair-mcq-19": "本句的「fair way」指「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」。",
+        "fair-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-19"
     },
@@ -2114,11 +1958,9 @@ export default {
       "masked": "There's a ____ of rain tonight.",
       "options": [
         "fair-mcq-20",
-        "fair-mcq-19",
         "fair-mcq-21",
-        "fair-mcq-18",
-        "fair-mcq-22",
-        "fair-mcq-17"
+        "fair-mcq-24",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「fair chance」指「相當可能時，表示頗有可能」。",
       "sentenceIndex": 39,
@@ -2127,12 +1969,10 @@ export default {
         "fair chance"
       ],
       "optionReasons": {
-        "fair-mcq-20": "本句指「相當可能時，表示頗有可能」。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。"
+        "fair-mcq-20": "本句的「fair chance」指「相當可能時，表示頗有可能」。",
+        "fair-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-20"
     },
@@ -2144,11 +1984,9 @@ export default {
       "masked": "He has a ____.",
       "options": [
         "fair-mcq-20",
-        "fair-mcq-19",
-        "fair-mcq-21",
-        "fair-mcq-18",
-        "fair-mcq-22",
-        "fair-mcq-17"
+        "fair-mcq-12",
+        "fair-mcq-33",
+        "fair-mcq-13"
       ],
       "explanation": "本句的「fair chance of winning」指「相當可能時，表示頗有可能」。",
       "sentenceIndex": 40,
@@ -2157,12 +1995,10 @@ export default {
         "fair chance of winning"
       ],
       "optionReasons": {
-        "fair-mcq-20": "本句指「相當可能時，表示頗有可能」。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-17": "「有事實或合理理由支持、不算過分的評論／批評」是「fair comment / criticism」的用法，與本句語境不同。"
+        "fair-mcq-20": "本句的「fair chance of winning」指「相當可能時，表示頗有可能」。",
+        "fair-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-20"
     },
@@ -2174,11 +2010,9 @@ export default {
       "masked": "His performance was ____, but not excellent.",
       "options": [
         "fair-mcq-21",
-        "fair-mcq-20",
-        "fair-mcq-22",
-        "fair-mcq-19",
-        "fair-mcq-23",
-        "fair-mcq-18"
+        "fair-mcq-34",
+        "fair-mcq-38",
+        "fair-mcq-26"
       ],
       "explanation": "本句的「fair」指「質素尚可、達到合理水平，但並不特別優秀」。",
       "sentenceIndex": 41,
@@ -2187,12 +2021,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-21": "本句指「質素尚可、達到合理水平，但並不特別優秀」。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。"
+        "fair-mcq-21": "本句的「fair」指「質素尚可、達到合理水平，但並不特別優秀」。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-21"
     },
@@ -2204,11 +2036,9 @@ export default {
       "masked": "The food was ____ for the price.",
       "options": [
         "fair-mcq-21",
-        "fair-mcq-20",
-        "fair-mcq-22",
-        "fair-mcq-19",
-        "fair-mcq-23",
-        "fair-mcq-18"
+        "fair-mcq-34",
+        "fair-mcq-28",
+        "fair-mcq-20"
       ],
       "explanation": "本句的「fair」指「質素尚可、達到合理水平，但並不特別優秀」。",
       "sentenceIndex": 42,
@@ -2217,12 +2047,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-21": "本句指「質素尚可、達到合理水平，但並不特別優秀」。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-18": "「數量頗多、相當可觀，但未必非常大量」是「fair（相當的；不少的）」的用法，與本句語境不同。"
+        "fair-mcq-21": "本句的「fair」指「質素尚可、達到合理水平，但並不特別優秀」。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-21"
     },
@@ -2234,11 +2062,9 @@ export default {
       "masked": "The old building is still in ____.",
       "options": [
         "fair-mcq-22",
-        "fair-mcq-21",
-        "fair-mcq-23",
-        "fair-mcq-20",
-        "fair-mcq-24",
-        "fair-mcq-19"
+        "fair-mcq-35",
+        "fair-mcq-18",
+        "fair-mcq-17"
       ],
       "explanation": "本句的「fair condition」指「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」。",
       "sentenceIndex": 43,
@@ -2247,12 +2073,10 @@ export default {
         "fair condition"
       ],
       "optionReasons": {
-        "fair-mcq-22": "本句指「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。"
+        "fair-mcq-22": "本句的「fair condition」指「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-22"
     },
@@ -2264,11 +2088,9 @@ export default {
       "masked": "The second-hand car is in ____.",
       "options": [
         "fair-mcq-22",
-        "fair-mcq-21",
-        "fair-mcq-23",
-        "fair-mcq-20",
-        "fair-mcq-24",
-        "fair-mcq-19"
+        "fair-mcq-40",
+        "fair-mcq-35",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「fair condition」指「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」。",
       "sentenceIndex": 44,
@@ -2277,12 +2099,10 @@ export default {
         "fair condition"
       ],
       "optionReasons": {
-        "fair-mcq-22": "本句指「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-19": "「表示頗多；頗遠；例句：「我們仍有頗多工作未完成。」」是「a fair bit / a fair way」的用法，與本句語境不同。"
+        "fair-mcq-22": "本句的「fair condition」指「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」。",
+        "fair-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-22"
     },
@@ -2294,11 +2114,9 @@ export default {
       "masked": "The test was ____.",
       "options": [
         "fair-mcq-23",
-        "fair-mcq-22",
-        "fair-mcq-24",
-        "fair-mcq-21",
-        "fair-mcq-25",
-        "fair-mcq-20"
+        "fair-mcq-06",
+        "fair-mcq-36",
+        "fair-mcq-24"
       ],
       "explanation": "本句的「fairly difficult」指「程度相當、頗為，但通常不到非常強烈」。",
       "sentenceIndex": 45,
@@ -2307,12 +2125,10 @@ export default {
         "fairly difficult"
       ],
       "optionReasons": {
-        "fair-mcq-23": "本句指「程度相當、頗為，但通常不到非常強烈」。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。"
+        "fair-mcq-23": "本句的「fairly difficult」指「程度相當、頗為，但通常不到非常強烈」。",
+        "fair-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-23"
     },
@@ -2324,11 +2140,9 @@ export default {
       "masked": "She speaks English ____.",
       "options": [
         "fair-mcq-23",
-        "fair-mcq-22",
-        "fair-mcq-24",
-        "fair-mcq-21",
-        "fair-mcq-25",
-        "fair-mcq-20"
+        "fair-mcq-16",
+        "fair-mcq-38",
+        "fair-mcq-32"
       ],
       "explanation": "本句的「fairly well」指「程度相當、頗為，但通常不到非常強烈」。",
       "sentenceIndex": 46,
@@ -2337,12 +2151,10 @@ export default {
         "fairly well"
       ],
       "optionReasons": {
-        "fair-mcq-23": "本句指「程度相當、頗為，但通常不到非常強烈」。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-20": "「相當可能時，表示頗有可能」是「fair chance / possibility（相當可能）」的用法，與本句語境不同。"
+        "fair-mcq-23": "本句的「fairly well」指「程度相當、頗為，但通常不到非常強烈」。",
+        "fair-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-23"
     },
@@ -2354,11 +2166,9 @@ export default {
       "masked": "The teacher treated everyone ____.",
       "options": [
         "fair-mcq-24",
-        "fair-mcq-23",
-        "fair-mcq-25",
-        "fair-mcq-22",
-        "fair-mcq-26",
-        "fair-mcq-21"
+        "fair-mcq-29",
+        "fair-mcq-35",
+        "fair-mcq-08"
       ],
       "explanation": "本句的「fairly」指「以公平、不偏袒任何一方的方式」。",
       "sentenceIndex": 47,
@@ -2367,12 +2177,10 @@ export default {
         "fairly"
       ],
       "optionReasons": {
-        "fair-mcq-24": "本句指「以公平、不偏袒任何一方的方式」。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。"
+        "fair-mcq-24": "本句的「fairly」指「以公平、不偏袒任何一方的方式」。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-24"
     },
@@ -2384,11 +2192,9 @@ export default {
       "masked": "We need to divide the work ____.",
       "options": [
         "fair-mcq-24",
-        "fair-mcq-23",
-        "fair-mcq-25",
         "fair-mcq-22",
-        "fair-mcq-26",
-        "fair-mcq-21"
+        "fair-mcq-33",
+        "fair-mcq-25"
       ],
       "explanation": "本句的「fairly」指「以公平、不偏袒任何一方的方式」。",
       "sentenceIndex": 48,
@@ -2397,12 +2203,10 @@ export default {
         "fairly"
       ],
       "optionReasons": {
-        "fair-mcq-24": "本句指「以公平、不偏袒任何一方的方式」。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-21": "「質素尚可、達到合理水平，但並不特別優秀」是「fair（尚可的；相當好的）」的用法，與本句語境不同。"
+        "fair-mcq-24": "本句的「fairly」指「以公平、不偏袒任何一方的方式」。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-24"
     },
@@ -2414,11 +2218,9 @@ export default {
       "masked": "I was ____ that he would come.",
       "options": [
         "fair-mcq-25",
-        "fair-mcq-24",
-        "fair-mcq-26",
-        "fair-mcq-23",
-        "fair-mcq-27",
-        "fair-mcq-22"
+        "fair-mcq-13",
+        "fair-mcq-19",
+        "fair-mcq-31"
       ],
       "explanation": "本句的「fairly certain」指「在某些搭配中強調程度相當高；實際強度依語境而定」。",
       "sentenceIndex": 49,
@@ -2427,12 +2229,10 @@ export default {
         "fairly certain"
       ],
       "optionReasons": {
-        "fair-mcq-25": "本句指「在某些搭配中強調程度相當高；實際強度依語境而定」。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。"
+        "fair-mcq-25": "本句的「fairly certain」指「在某些搭配中強調程度相當高；實際強度依語境而定」。",
+        "fair-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-25"
     },
@@ -2444,11 +2244,9 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "fair-mcq-25",
-        "fair-mcq-24",
-        "fair-mcq-26",
-        "fair-mcq-23",
-        "fair-mcq-27",
-        "fair-mcq-22"
+        "fair-mcq-08",
+        "fair-mcq-35",
+        "fair-mcq-13"
       ],
       "explanation": "本句的「fairly packed」指「在某些搭配中強調程度相當高；實際強度依語境而定」。",
       "sentenceIndex": 50,
@@ -2457,12 +2255,10 @@ export default {
         "fairly packed"
       ],
       "optionReasons": {
-        "fair-mcq-25": "本句指「在某些搭配中強調程度相當高；實際強度依語境而定」。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-22": "「表示狀況尚可；例句：「這座舊建築的狀況仍算尚可。」」是「fair condition」的用法，與本句語境不同。"
+        "fair-mcq-25": "本句的「fairly packed」指「在某些搭配中強調程度相當高；實際強度依語境而定」。",
+        "fair-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-25"
     },
@@ -2474,11 +2270,9 @@ export default {
       "masked": "She has ____ and blue eyes.",
       "options": [
         "fair-mcq-26",
-        "fair-mcq-25",
-        "fair-mcq-27",
-        "fair-mcq-24",
-        "fair-mcq-28",
-        "fair-mcq-23"
+        "fair-mcq-02",
+        "fair-mcq-22",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「fair hair」指「顏色較淺的頭髮，通常指金色或淺棕色」。",
       "sentenceIndex": 51,
@@ -2487,12 +2281,10 @@ export default {
         "fair hair"
       ],
       "optionReasons": {
-        "fair-mcq-26": "本句指「顏色較淺的頭髮，通常指金色或淺棕色」。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。"
+        "fair-mcq-26": "本句的「fair hair」指「顏色較淺的頭髮，通常指金色或淺棕色」。",
+        "fair-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-26"
     },
@@ -2504,11 +2296,9 @@ export default {
       "masked": "He was a ____ child.",
       "options": [
         "fair-mcq-26",
+        "fair-mcq-16",
         "fair-mcq-25",
-        "fair-mcq-27",
-        "fair-mcq-24",
-        "fair-mcq-28",
-        "fair-mcq-23"
+        "fair-mcq-31"
       ],
       "explanation": "本句的「fair-haired」指「顏色較淺的頭髮，通常指金色或淺棕色」。",
       "sentenceIndex": 52,
@@ -2517,12 +2307,10 @@ export default {
         "fair-haired"
       ],
       "optionReasons": {
-        "fair-mcq-26": "本句指「顏色較淺的頭髮，通常指金色或淺棕色」。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-23": "「程度相當、頗為，但通常不到非常強烈」是「fairly（相當；頗）」的用法，與本句語境不同。"
+        "fair-mcq-26": "本句的「fair-haired」指「顏色較淺的頭髮，通常指金色或淺棕色」。",
+        "fair-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-26"
     },
@@ -2534,11 +2322,9 @@ export default {
       "masked": "She has very ____.",
       "options": [
         "fair-mcq-27",
-        "fair-mcq-26",
-        "fair-mcq-28",
-        "fair-mcq-25",
-        "fair-mcq-29",
-        "fair-mcq-24"
+        "fair-mcq-34",
+        "fair-mcq-40",
+        "fair-mcq-18"
       ],
       "explanation": "本句的「fair skin」指「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」。",
       "sentenceIndex": 53,
@@ -2547,12 +2333,10 @@ export default {
         "fair skin"
       ],
       "optionReasons": {
-        "fair-mcq-27": "本句指「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。"
+        "fair-mcq-27": "本句的「fair skin」指「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-27"
     },
@@ -2564,11 +2348,9 @@ export default {
       "masked": "People with ____ may burn easily in strong sunlight.",
       "options": [
         "fair-mcq-27",
-        "fair-mcq-26",
-        "fair-mcq-28",
-        "fair-mcq-25",
-        "fair-mcq-29",
-        "fair-mcq-24"
+        "fair-mcq-18",
+        "fair-mcq-24",
+        "fair-mcq-05"
       ],
       "explanation": "本句的「fair complexions」指「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」。",
       "sentenceIndex": 54,
@@ -2577,12 +2359,10 @@ export default {
         "fair complexions"
       ],
       "optionReasons": {
-        "fair-mcq-27": "本句指「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-24": "「以公平、不偏袒任何一方的方式」是「fairly（公平地）」的用法，與本句語境不同。"
+        "fair-mcq-27": "本句的「fair complexions」指「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-27"
     },
@@ -2595,10 +2375,8 @@ export default {
       "options": [
         "fair-mcq-28",
         "fair-mcq-27",
-        "fair-mcq-29",
-        "fair-mcq-26",
-        "fair-mcq-30",
-        "fair-mcq-25"
+        "fair-mcq-42",
+        "fair-mcq-35"
       ],
       "explanation": "本句的「fair」指「天氣晴朗、乾燥，沒有明顯惡劣天氣」。",
       "sentenceIndex": 55,
@@ -2607,12 +2385,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-28": "本句指「天氣晴朗、乾燥，沒有明顯惡劣天氣」。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。"
+        "fair-mcq-28": "本句的「fair」指「天氣晴朗、乾燥，沒有明顯惡劣天氣」。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-28"
     },
@@ -2624,11 +2400,9 @@ export default {
       "masked": "We had ____ for most of the trip.",
       "options": [
         "fair-mcq-28",
-        "fair-mcq-27",
-        "fair-mcq-29",
-        "fair-mcq-26",
-        "fair-mcq-30",
-        "fair-mcq-25"
+        "fair-mcq-19",
+        "fair-mcq-41",
+        "fair-mcq-29"
       ],
       "explanation": "本句的「fair weather」指「天氣晴朗、乾燥，沒有明顯惡劣天氣」。",
       "sentenceIndex": 56,
@@ -2637,12 +2411,10 @@ export default {
         "fair weather"
       ],
       "optionReasons": {
-        "fair-mcq-28": "本句指「天氣晴朗、乾燥，沒有明顯惡劣天氣」。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-25": "「在某些搭配中強調程度相當高；實際強度依語境而定」是「fairly（完全地／真正地，在某些搭配中）」的用法，與本句語境不同。"
+        "fair-mcq-28": "本句的「fair weather」指「天氣晴朗、乾燥，沒有明顯惡劣天氣」。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-28"
     },
@@ -2654,11 +2426,9 @@ export default {
       "masked": "He turned out to be a ____.",
       "options": [
         "fair-mcq-29",
+        "fair-mcq-24",
         "fair-mcq-28",
-        "fair-mcq-30",
-        "fair-mcq-27",
-        "fair-mcq-31",
-        "fair-mcq-26"
+        "fair-mcq-21"
       ],
       "explanation": "本句的「fair-weather friend」指「只在情況順利時才支持你，遇到困難便離開的朋友」。",
       "sentenceIndex": 57,
@@ -2667,12 +2437,10 @@ export default {
         "fair-weather friend"
       ],
       "optionReasons": {
-        "fair-mcq-29": "本句指「只在情況順利時才支持你，遇到困難便離開的朋友」。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。"
+        "fair-mcq-29": "本句的「fair-weather friend」指「只在情況順利時才支持你，遇到困難便離開的朋友」。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-29"
     },
@@ -2684,11 +2452,9 @@ export default {
       "masked": "Real friends stay; ____ disappear when things get difficult.",
       "options": [
         "fair-mcq-29",
-        "fair-mcq-28",
-        "fair-mcq-30",
-        "fair-mcq-27",
-        "fair-mcq-31",
-        "fair-mcq-26"
+        "fair-mcq-10",
+        "fair-mcq-11",
+        "fair-mcq-33"
       ],
       "explanation": "本句的「fair-weather friends」指「只在情況順利時才支持你，遇到困難便離開的朋友」。",
       "sentenceIndex": 58,
@@ -2697,12 +2463,10 @@ export default {
         "fair-weather friends"
       ],
       "optionReasons": {
-        "fair-mcq-29": "本句指「只在情況順利時才支持你，遇到困難便離開的朋友」。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-26": "「顏色較淺的頭髮，通常指金色或淺棕色」是「fair hair」的用法，與本句語境不同。"
+        "fair-mcq-29": "本句的「fair-weather friends」指「只在情況順利時才支持你，遇到困難便離開的朋友」。",
+        "fair-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-29"
     },
@@ -2714,11 +2478,9 @@ export default {
       "masked": "We went to the local ____ on Saturday.",
       "options": [
         "fair-mcq-30",
-        "fair-mcq-29",
-        "fair-mcq-31",
-        "fair-mcq-28",
-        "fair-mcq-32",
-        "fair-mcq-27"
+        "fair-mcq-20",
+        "fair-mcq-26",
+        "fair-mcq-07"
       ],
       "explanation": "本句的「fair」指「有攤位、活動、商品或娛樂項目的公共活動或市集」。",
       "sentenceIndex": 59,
@@ -2727,12 +2489,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-30": "本句指「有攤位、活動、商品或娛樂項目的公共活動或市集」。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。"
+        "fair-mcq-30": "本句的「fair」指「有攤位、活動、商品或娛樂項目的公共活動或市集」。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-30"
     },
@@ -2744,11 +2504,9 @@ export default {
       "masked": "The school held a summer ____.",
       "options": [
         "fair-mcq-30",
-        "fair-mcq-29",
-        "fair-mcq-31",
-        "fair-mcq-28",
-        "fair-mcq-32",
-        "fair-mcq-27"
+        "fair-mcq-04",
+        "fair-mcq-19",
+        "fair-mcq-29"
       ],
       "explanation": "本句的「fair」指「有攤位、活動、商品或娛樂項目的公共活動或市集」。",
       "sentenceIndex": 60,
@@ -2757,12 +2515,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-30": "本句指「有攤位、活動、商品或娛樂項目的公共活動或市集」。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-27": "「表示白皙／淺色皮膚；例句：「她的皮膚很白皙。」」是「fair skin / complexion」的用法，與本句語境不同。"
+        "fair-mcq-30": "本句的「fair」指「有攤位、活動、商品或娛樂項目的公共活動或市集」。",
+        "fair-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-30"
     },
@@ -2774,11 +2530,9 @@ export default {
       "masked": "The company exhibited its products at a ____.",
       "options": [
         "fair-mcq-31",
-        "fair-mcq-30",
-        "fair-mcq-32",
-        "fair-mcq-29",
-        "fair-mcq-33",
-        "fair-mcq-28"
+        "fair-mcq-23",
+        "fair-mcq-36",
+        "fair-mcq-15"
       ],
       "explanation": "本句的「trade fair」指「公司展示產品、與買家或業界人士交流的商業展覽」。",
       "sentenceIndex": 61,
@@ -2787,12 +2541,10 @@ export default {
         "trade fair"
       ],
       "optionReasons": {
-        "fair-mcq-31": "本句指「公司展示產品、與買家或業界人士交流的商業展覽」。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。"
+        "fair-mcq-31": "本句的「trade fair」指「公司展示產品、與買家或業界人士交流的商業展覽」。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-31"
     },
@@ -2804,11 +2556,9 @@ export default {
       "masked": "Buyers from many countries attended the ____.",
       "options": [
         "fair-mcq-31",
-        "fair-mcq-30",
-        "fair-mcq-32",
-        "fair-mcq-29",
-        "fair-mcq-33",
-        "fair-mcq-28"
+        "fair-mcq-14",
+        "fair-mcq-35",
+        "fair-mcq-26"
       ],
       "explanation": "本句的「trade fair」指「公司展示產品、與買家或業界人士交流的商業展覽」。",
       "sentenceIndex": 62,
@@ -2817,12 +2567,10 @@ export default {
         "trade fair"
       ],
       "optionReasons": {
-        "fair-mcq-31": "本句指「公司展示產品、與買家或業界人士交流的商業展覽」。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-28": "「天氣晴朗、乾燥，沒有明顯惡劣天氣」是「fair（天氣：晴朗的）」的用法，與本句語境不同。"
+        "fair-mcq-31": "本句的「trade fair」指「公司展示產品、與買家或業界人士交流的商業展覽」。",
+        "fair-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-31"
     },
@@ -2834,11 +2582,9 @@ export default {
       "masked": "We bought several books at the ____.",
       "options": [
         "fair-mcq-32",
-        "fair-mcq-31",
-        "fair-mcq-33",
-        "fair-mcq-30",
-        "fair-mcq-34",
-        "fair-mcq-29"
+        "fair-mcq-24",
+        "fair-mcq-09",
+        "fair-mcq-22"
       ],
       "explanation": "本句的「book fair」指「展示、推廣和銷售書籍的大型活動」。",
       "sentenceIndex": 63,
@@ -2847,12 +2593,10 @@ export default {
         "book fair"
       ],
       "optionReasons": {
-        "fair-mcq-32": "本句指「展示、推廣和銷售書籍的大型活動」。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。"
+        "fair-mcq-32": "本句的「book fair」指「展示、推廣和銷售書籍的大型活動」。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-32"
     },
@@ -2864,11 +2608,9 @@ export default {
       "masked": "The annual ____ attracts thousands of visitors.",
       "options": [
         "fair-mcq-32",
-        "fair-mcq-31",
-        "fair-mcq-33",
-        "fair-mcq-30",
-        "fair-mcq-34",
-        "fair-mcq-29"
+        "fair-mcq-10",
+        "fair-mcq-19",
+        "fair-mcq-11"
       ],
       "explanation": "本句的「book fair」指「展示、推廣和銷售書籍的大型活動」。",
       "sentenceIndex": 64,
@@ -2877,12 +2619,10 @@ export default {
         "book fair"
       ],
       "optionReasons": {
-        "fair-mcq-32": "本句指「展示、推廣和銷售書籍的大型活動」。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-29": "「只在情況順利時才支持你，遇到困難便離開的朋友」是「fair-weather friend」的用法，與本句語境不同。"
+        "fair-mcq-32": "本句的「book fair」指「展示、推廣和銷售書籍的大型活動」。",
+        "fair-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-32"
     },
@@ -2894,11 +2634,9 @@ export default {
       "masked": "Students attended a ____.",
       "options": [
         "fair-mcq-33",
-        "fair-mcq-32",
-        "fair-mcq-34",
-        "fair-mcq-31",
-        "fair-mcq-35",
-        "fair-mcq-30"
+        "fair-mcq-12",
+        "fair-mcq-28",
+        "fair-mcq-29"
       ],
       "explanation": "本句的「career fair」指「僱主、機構和求職者集中交流招聘及職業資訊的活動」。",
       "sentenceIndex": 65,
@@ -2907,12 +2645,10 @@ export default {
         "career fair"
       ],
       "optionReasons": {
-        "fair-mcq-33": "本句指「僱主、機構和求職者集中交流招聘及職業資訊的活動」。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。"
+        "fair-mcq-33": "本句的「career fair」指「僱主、機構和求職者集中交流招聘及職業資訊的活動」。",
+        "fair-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-33"
     },
@@ -2924,11 +2660,9 @@ export default {
       "masked": "I spoke to several employers at the ____.",
       "options": [
         "fair-mcq-33",
-        "fair-mcq-32",
-        "fair-mcq-34",
-        "fair-mcq-31",
-        "fair-mcq-35",
-        "fair-mcq-30"
+        "fair-mcq-10",
+        "fair-mcq-38",
+        "fair-mcq-22"
       ],
       "explanation": "本句的「job fair」指「僱主、機構和求職者集中交流招聘及職業資訊的活動」。",
       "sentenceIndex": 66,
@@ -2937,12 +2671,10 @@ export default {
         "job fair"
       ],
       "optionReasons": {
-        "fair-mcq-33": "本句指「僱主、機構和求職者集中交流招聘及職業資訊的活動」。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-30": "「有攤位、活動、商品或娛樂項目的公共活動或市集」是「fair（noun：市集；展覽會；嘉年華）」的用法，與本句語境不同。"
+        "fair-mcq-33": "本句的「job fair」指「僱主、機構和求職者集中交流招聘及職業資訊的活動」。",
+        "fair-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-33"
     },
@@ -2954,11 +2686,9 @@ export default {
       "masked": "The students presented their projects at the ____.",
       "options": [
         "fair-mcq-34",
-        "fair-mcq-33",
-        "fair-mcq-35",
-        "fair-mcq-32",
-        "fair-mcq-36",
-        "fair-mcq-31"
+        "fair-mcq-41",
+        "fair-mcq-26",
+        "fair-mcq-20"
       ],
       "explanation": "本句的「science fair」指「學生或參加者展示科學實驗、研究或發明的活動」。",
       "sentenceIndex": 67,
@@ -2967,12 +2697,10 @@ export default {
         "science fair"
       ],
       "optionReasons": {
-        "fair-mcq-34": "本句指「學生或參加者展示科學實驗、研究或發明的活動」。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。"
+        "fair-mcq-34": "本句的「science fair」指「學生或參加者展示科學實驗、研究或發明的活動」。",
+        "fair-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-34"
     },
@@ -2984,11 +2712,9 @@ export default {
       "masked": "She won first prize at the school ____.",
       "options": [
         "fair-mcq-34",
-        "fair-mcq-33",
-        "fair-mcq-35",
-        "fair-mcq-32",
-        "fair-mcq-36",
-        "fair-mcq-31"
+        "fair-mcq-16",
+        "fair-mcq-18",
+        "fair-mcq-41"
       ],
       "explanation": "本句的「science fair」指「學生或參加者展示科學實驗、研究或發明的活動」。",
       "sentenceIndex": 68,
@@ -2997,12 +2723,10 @@ export default {
         "science fair"
       ],
       "optionReasons": {
-        "fair-mcq-34": "本句指「學生或參加者展示科學實驗、研究或發明的活動」。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-31": "「公司展示產品、與買家或業界人士交流的商業展覽」是「trade fair」的用法，與本句語境不同。"
+        "fair-mcq-34": "本句的「science fair」指「學生或參加者展示科學實驗、研究或發明的活動」。",
+        "fair-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-34"
     },
@@ -3014,11 +2738,9 @@ export default {
       "masked": "The children spent the afternoon at the ____.",
       "options": [
         "fair-mcq-35",
-        "fair-mcq-34",
-        "fair-mcq-36",
-        "fair-mcq-33",
-        "fair-mcq-37",
-        "fair-mcq-32"
+        "fair-mcq-17",
+        "fair-mcq-19",
+        "fair-mcq-31"
       ],
       "explanation": "本句的「fairground」指「舉行嘉年華、市集或機動遊戲活動的場地」。",
       "sentenceIndex": 69,
@@ -3027,12 +2749,10 @@ export default {
         "fairground"
       ],
       "optionReasons": {
-        "fair-mcq-35": "本句指「舉行嘉年華、市集或機動遊戲活動的場地」。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。"
+        "fair-mcq-35": "本句的「fairground」指「舉行嘉年華、市集或機動遊戲活動的場地」。",
+        "fair-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-35"
     },
@@ -3044,11 +2764,9 @@ export default {
       "masked": "The ____ was full of rides and food stalls.",
       "options": [
         "fair-mcq-35",
-        "fair-mcq-34",
-        "fair-mcq-36",
-        "fair-mcq-33",
-        "fair-mcq-37",
-        "fair-mcq-32"
+        "fair-mcq-15",
+        "fair-mcq-29",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「fairground」指「舉行嘉年華、市集或機動遊戲活動的場地」。",
       "sentenceIndex": 70,
@@ -3057,12 +2775,10 @@ export default {
         "fairground"
       ],
       "optionReasons": {
-        "fair-mcq-35": "本句指「舉行嘉年華、市集或機動遊戲活動的場地」。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-32": "「展示、推廣和銷售書籍的大型活動」是「book fair」的用法，與本句語境不同。"
+        "fair-mcq-35": "本句的「fairground」指「舉行嘉年華、市集或機動遊戲活動的場地」。",
+        "fair-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-35"
     },
@@ -3074,11 +2790,9 @@ export default {
       "masked": "The referee ruled the challenge ____.",
       "options": [
         "fair-mcq-36",
-        "fair-mcq-35",
-        "fair-mcq-37",
-        "fair-mcq-34",
+        "fair-mcq-19",
         "fair-mcq-38",
-        "fair-mcq-33"
+        "fair-mcq-29"
       ],
       "explanation": "本句的「fair」指「在某項運動規則下合法、有效、不屬犯規的」。",
       "sentenceIndex": 71,
@@ -3087,12 +2801,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-36": "本句指「在某項運動規則下合法、有效、不屬犯規的」。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。"
+        "fair-mcq-36": "本句的「fair」指「在某項運動規則下合法、有效、不屬犯規的」。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-36"
     },
@@ -3104,11 +2816,9 @@ export default {
       "masked": "The ball landed in ____.",
       "options": [
         "fair-mcq-36",
-        "fair-mcq-35",
-        "fair-mcq-37",
-        "fair-mcq-34",
+        "fair-mcq-20",
         "fair-mcq-38",
-        "fair-mcq-33"
+        "fair-mcq-41"
       ],
       "explanation": "本句的「fair territory」指「在某項運動規則下合法、有效、不屬犯規的」。",
       "sentenceIndex": 72,
@@ -3117,12 +2827,10 @@ export default {
         "fair territory"
       ],
       "optionReasons": {
-        "fair-mcq-36": "本句指「在某項運動規則下合法、有效、不屬犯規的」。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-33": "「僱主、機構和求職者集中交流招聘及職業資訊的活動」是「job / career fair」的用法，與本句語境不同。"
+        "fair-mcq-36": "本句的「fair territory」指「在某項運動規則下合法、有效、不屬犯規的」。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-36"
     },
@@ -3134,11 +2842,9 @@ export default {
       "masked": "The umpire called it a ____.",
       "options": [
         "fair-mcq-37",
-        "fair-mcq-36",
-        "fair-mcq-38",
-        "fair-mcq-35",
-        "fair-mcq-39",
-        "fair-mcq-34"
+        "fair-mcq-24",
+        "fair-mcq-21",
+        "fair-mcq-19"
       ],
       "explanation": "本句的「fair ball」指「在棒球等運動中落於規定有效範圍內的球」。",
       "sentenceIndex": 73,
@@ -3147,12 +2853,10 @@ export default {
         "fair ball"
       ],
       "optionReasons": {
-        "fair-mcq-37": "本句指「在棒球等運動中落於規定有效範圍內的球」。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。"
+        "fair-mcq-37": "本句的「fair ball」指「在棒球等運動中落於規定有效範圍內的球」。",
+        "fair-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-37"
     },
@@ -3164,11 +2868,9 @@ export default {
       "masked": "The ball landed just inside the line and was ruled ____.",
       "options": [
         "fair-mcq-37",
-        "fair-mcq-36",
-        "fair-mcq-38",
-        "fair-mcq-35",
-        "fair-mcq-39",
-        "fair-mcq-34"
+        "fair-mcq-17",
+        "fair-mcq-28",
+        "fair-mcq-26"
       ],
       "explanation": "本句的「fair」指「在棒球等運動中落於規定有效範圍內的球」。",
       "sentenceIndex": 74,
@@ -3177,12 +2879,10 @@ export default {
         "fair"
       ],
       "optionReasons": {
-        "fair-mcq-37": "本句指「在棒球等運動中落於規定有效範圍內的球」。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-34": "「學生或參加者展示科學實驗、研究或發明的活動」是「science fair」的用法，與本句語境不同。"
+        "fair-mcq-37": "本句的「fair」指「在棒球等運動中落於規定有效範圍內的球」。",
+        "fair-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-37"
     },
@@ -3194,11 +2894,9 @@ export default {
       "masked": "A judge needs to be ____.",
       "options": [
         "fair-mcq-38",
-        "fair-mcq-37",
-        "fair-mcq-39",
-        "fair-mcq-36",
-        "fair-mcq-40",
-        "fair-mcq-35"
+        "fair-mcq-26",
+        "fair-mcq-34",
+        "fair-mcq-40"
       ],
       "explanation": "本句的「fair-minded」指「願意客觀考慮各方觀點，不帶偏見的」。",
       "sentenceIndex": 75,
@@ -3207,12 +2905,10 @@ export default {
         "fair-minded"
       ],
       "optionReasons": {
-        "fair-mcq-38": "本句指「願意客觀考慮各方觀點，不帶偏見的」。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。"
+        "fair-mcq-38": "本句的「fair-minded」指「願意客觀考慮各方觀點，不帶偏見的」。",
+        "fair-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-38"
     },
@@ -3224,11 +2920,9 @@ export default {
       "masked": "She is thoughtful and ____.",
       "options": [
         "fair-mcq-38",
-        "fair-mcq-37",
-        "fair-mcq-39",
-        "fair-mcq-36",
-        "fair-mcq-40",
-        "fair-mcq-35"
+        "fair-mcq-30",
+        "fair-mcq-05",
+        "fair-mcq-25"
       ],
       "explanation": "本句的「fair-minded」指「願意客觀考慮各方觀點，不帶偏見的」。",
       "sentenceIndex": 76,
@@ -3237,12 +2931,10 @@ export default {
         "fair-minded"
       ],
       "optionReasons": {
-        "fair-mcq-38": "本句指「願意客觀考慮各方觀點，不帶偏見的」。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-35": "「舉行嘉年華、市集或機動遊戲活動的場地」是「fairground」的用法，與本句語境不同。"
+        "fair-mcq-38": "本句的「fair-minded」指「願意客觀考慮各方觀點，不帶偏見的」。",
+        "fair-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-38"
     },
@@ -3254,11 +2946,9 @@ export default {
       "masked": "Students appreciated his sense of ____.",
       "options": [
         "fair-mcq-39",
-        "fair-mcq-38",
-        "fair-mcq-40",
-        "fair-mcq-37",
-        "fair-mcq-41",
-        "fair-mcq-36"
+        "fair-mcq-27",
+        "fair-mcq-11",
+        "fair-mcq-18"
       ],
       "explanation": "本句的「fairness」指「對不同人士採用合理一致標準、不偏袒的特質」。",
       "sentenceIndex": 77,
@@ -3267,12 +2957,10 @@ export default {
         "fairness"
       ],
       "optionReasons": {
-        "fair-mcq-39": "本句指「對不同人士採用合理一致標準、不偏袒的特質」。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-41": "「透過不公平條件或手段取得的優勢」是「unfair advantage」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。"
+        "fair-mcq-39": "本句的「fairness」指「對不同人士採用合理一致標準、不偏袒的特質」。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-39"
     },
@@ -3284,11 +2972,9 @@ export default {
       "masked": "The decision raised questions about ____.",
       "options": [
         "fair-mcq-39",
-        "fair-mcq-38",
-        "fair-mcq-40",
-        "fair-mcq-37",
         "fair-mcq-41",
-        "fair-mcq-36"
+        "fair-mcq-34",
+        "fair-mcq-22"
       ],
       "explanation": "本句的「fairness」指「對不同人士採用合理一致標準、不偏袒的特質」。",
       "sentenceIndex": 78,
@@ -3297,12 +2983,10 @@ export default {
         "fairness"
       ],
       "optionReasons": {
-        "fair-mcq-39": "本句指「對不同人士採用合理一致標準、不偏袒的特質」。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。",
-        "fair-mcq-41": "「透過不公平條件或手段取得的優勢」是「unfair advantage」的用法，與本句語境不同。",
-        "fair-mcq-36": "「在某項運動規則下合法、有效、不屬犯規的」是「fair（sports：合規的；有效的）」的用法，與本句語境不同。"
+        "fair-mcq-39": "本句的「fairness」指「對不同人士採用合理一致標準、不偏袒的特質」。",
+        "fair-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-39"
     },
@@ -3314,11 +2998,9 @@ export default {
       "masked": "The punishment was ____.",
       "options": [
         "fair-mcq-40",
-        "fair-mcq-39",
-        "fair-mcq-41",
+        "fair-mcq-25",
         "fair-mcq-38",
-        "fair-mcq-42",
-        "fair-mcq-37"
+        "fair-mcq-35"
       ],
       "explanation": "本句的「unfair」指「沒有按合理、公正或一致標準處理的」。",
       "sentenceIndex": 79,
@@ -3327,12 +3009,10 @@ export default {
         "unfair"
       ],
       "optionReasons": {
-        "fair-mcq-40": "本句指「沒有按合理、公正或一致標準處理的」。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-41": "「透過不公平條件或手段取得的優勢」是「unfair advantage」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-42": "「以不公正、不合理或偏袒的方式」是「unfairly」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。"
+        "fair-mcq-40": "本句的「unfair」指「沒有按合理、公正或一致標準處理的」。",
+        "fair-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-40"
     },
@@ -3344,11 +3024,9 @@ export default {
       "masked": "It's ____ for everything.",
       "options": [
         "fair-mcq-40",
-        "fair-mcq-39",
-        "fair-mcq-41",
-        "fair-mcq-38",
-        "fair-mcq-42",
-        "fair-mcq-37"
+        "fair-mcq-33",
+        "fair-mcq-18",
+        "fair-mcq-27"
       ],
       "explanation": "本句的「unfair to blame her」指「沒有按合理、公正或一致標準處理的」。",
       "sentenceIndex": 80,
@@ -3357,12 +3035,10 @@ export default {
         "unfair to blame her"
       ],
       "optionReasons": {
-        "fair-mcq-40": "本句指「沒有按合理、公正或一致標準處理的」。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-41": "「透過不公平條件或手段取得的優勢」是「unfair advantage」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-42": "「以不公正、不合理或偏袒的方式」是「unfairly」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。"
+        "fair-mcq-40": "本句的「unfair to blame her」指「沒有按合理、公正或一致標準處理的」。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-40"
     },
@@ -3374,11 +3050,9 @@ export default {
       "masked": "The rule gave one team an ____.",
       "options": [
         "fair-mcq-41",
-        "fair-mcq-40",
-        "fair-mcq-42",
-        "fair-mcq-39",
-        "fair-mcq-38",
-        "fair-mcq-37"
+        "fair-mcq-18",
+        "fair-mcq-32",
+        "fair-mcq-22"
       ],
       "explanation": "本句的「unfair advantage」指「透過不公平條件或手段取得的優勢」。",
       "sentenceIndex": 81,
@@ -3387,12 +3061,10 @@ export default {
         "unfair advantage"
       ],
       "optionReasons": {
-        "fair-mcq-41": "本句指「透過不公平條件或手段取得的優勢」。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-42": "「以不公正、不合理或偏袒的方式」是「unfairly」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。"
+        "fair-mcq-41": "本句的「unfair advantage」指「透過不公平條件或手段取得的優勢」。",
+        "fair-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-41"
     },
@@ -3404,11 +3076,9 @@ export default {
       "masked": "Cheating gives players an ____.",
       "options": [
         "fair-mcq-41",
-        "fair-mcq-40",
-        "fair-mcq-42",
-        "fair-mcq-39",
-        "fair-mcq-38",
-        "fair-mcq-37"
+        "fair-mcq-04",
+        "fair-mcq-20",
+        "fair-mcq-33"
       ],
       "explanation": "本句的「unfair advantage」指「透過不公平條件或手段取得的優勢」。",
       "sentenceIndex": 82,
@@ -3417,12 +3087,10 @@ export default {
         "unfair advantage"
       ],
       "optionReasons": {
-        "fair-mcq-41": "本句指「透過不公平條件或手段取得的優勢」。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-42": "「以不公正、不合理或偏袒的方式」是「unfairly」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。"
+        "fair-mcq-41": "本句的「unfair advantage」指「透過不公平條件或手段取得的優勢」。",
+        "fair-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-41"
     },
@@ -3434,11 +3102,9 @@ export default {
       "masked": "He felt that he had been treated ____.",
       "options": [
         "fair-mcq-42",
-        "fair-mcq-41",
-        "fair-mcq-40",
-        "fair-mcq-39",
-        "fair-mcq-38",
-        "fair-mcq-37"
+        "fair-mcq-19",
+        "fair-mcq-29",
+        "fair-mcq-28"
       ],
       "explanation": "本句的「unfairly」指「以不公正、不合理或偏袒的方式」。",
       "sentenceIndex": 83,
@@ -3447,12 +3113,10 @@ export default {
         "unfairly"
       ],
       "optionReasons": {
-        "fair-mcq-42": "本句指「以不公正、不合理或偏袒的方式」。",
-        "fair-mcq-41": "「透過不公平條件或手段取得的優勢」是「unfair advantage」的用法，與本句語境不同。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。"
+        "fair-mcq-42": "本句的「unfairly」指「以不公正、不合理或偏袒的方式」。",
+        "fair-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-42"
     },
@@ -3464,11 +3128,9 @@ export default {
       "masked": "Don't judge her ____.",
       "options": [
         "fair-mcq-42",
-        "fair-mcq-41",
-        "fair-mcq-40",
-        "fair-mcq-39",
-        "fair-mcq-38",
-        "fair-mcq-37"
+        "fair-mcq-23",
+        "fair-mcq-32",
+        "fair-mcq-29"
       ],
       "explanation": "本句的「unfairly」指「以不公正、不合理或偏袒的方式」。",
       "sentenceIndex": 84,
@@ -3477,12 +3139,10 @@ export default {
         "unfairly"
       ],
       "optionReasons": {
-        "fair-mcq-42": "本句指「以不公正、不合理或偏袒的方式」。",
-        "fair-mcq-41": "「透過不公平條件或手段取得的優勢」是「unfair advantage」的用法，與本句語境不同。",
-        "fair-mcq-40": "「沒有按合理、公正或一致標準處理的」是「unfair」的用法，與本句語境不同。",
-        "fair-mcq-39": "「對不同人士採用合理一致標準、不偏袒的特質」是「fairness」的用法，與本句語境不同。",
-        "fair-mcq-38": "「願意客觀考慮各方觀點，不帶偏見的」是「fair-minded」的用法，與本句語境不同。",
-        "fair-mcq-37": "「在棒球等運動中落於規定有效範圍內的球」是「fair ball」的用法，與本句語境不同。"
+        "fair-mcq-42": "本句的「unfairly」指「以不公正、不合理或偏袒的方式」。",
+        "fair-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "fair-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "fair-mcq-42"
     }
@@ -3494,5 +3154,7 @@ export default {
     "sha256": "712531d5e2b97cf770bbf3817f0ef202ac293bfb6df23c98f530c317ac0efa1d",
     "pages": 31
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

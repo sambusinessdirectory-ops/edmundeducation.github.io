@@ -580,11 +580,9 @@ export default {
       "masked": "This neighbourhood is generally ____ at night.",
       "options": [
         "safe-mcq-01",
-        "safe-mcq-02",
-        "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-15",
+        "safe-mcq-14",
+        "safe-mcq-11"
       ],
       "explanation": "本句的「safe」指「安全的」。",
       "sentenceIndex": 0,
@@ -593,12 +591,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-01": "本句指「安全的」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-01": "本句的「safe」指「安全的」。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-01"
     },
@@ -610,11 +606,9 @@ export default {
       "masked": "The children are ____ now.",
       "options": [
         "safe-mcq-01",
-        "safe-mcq-02",
-        "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-25",
+        "safe-mcq-12",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「safe」指「安全的」。",
       "sentenceIndex": 1,
@@ -623,12 +617,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-01": "本句指「安全的」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-01": "本句的「safe」指「安全的」。",
+        "safe-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-01"
     },
@@ -640,11 +632,9 @@ export default {
       "masked": "Is it ____ to swim here?",
       "options": [
         "safe-mcq-01",
+        "safe-mcq-26",
         "safe-mcq-02",
-        "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-09"
       ],
       "explanation": "本句的「safe」指「安全的」。",
       "sentenceIndex": 2,
@@ -653,12 +643,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-01": "本句指「安全的」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-01": "本句的「safe」指「安全的」。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-01"
     },
@@ -670,11 +658,9 @@ export default {
       "masked": "The animals are ____ here.",
       "options": [
         "safe-mcq-02",
-        "safe-mcq-01",
         "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-26",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「safe from hunters」指「免受 X 傷害」。",
       "sentenceIndex": 3,
@@ -683,12 +669,10 @@ export default {
         "safe from hunters"
       ],
       "optionReasons": {
-        "safe-mcq-02": "本句指「免受 X 傷害」。",
-        "safe-mcq-01": "「安全的」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-02": "本句的「safe from hunters」指「免受 X 傷害」。",
+        "safe-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-02"
     },
@@ -701,10 +685,8 @@ export default {
       "options": [
         "safe-mcq-02",
         "safe-mcq-01",
-        "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-11",
+        "safe-mcq-13"
       ],
       "explanation": "本句的「safe from fire」指「免受 X 傷害」。",
       "sentenceIndex": 4,
@@ -713,12 +695,10 @@ export default {
         "safe from fire"
       ],
       "optionReasons": {
-        "safe-mcq-02": "本句指「免受 X 傷害」。",
-        "safe-mcq-01": "「安全的」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-02": "本句的「safe from fire」指「免受 X 傷害」。",
+        "safe-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-02"
     },
@@ -730,11 +710,9 @@ export default {
       "masked": "Is this water ____?",
       "options": [
         "safe-mcq-03",
-        "safe-mcq-02",
-        "safe-mcq-04",
-        "safe-mcq-01",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-14",
+        "safe-mcq-25",
+        "safe-mcq-15"
       ],
       "explanation": "本句的「safe to drink」指「可安全使用／食用」。",
       "sentenceIndex": 5,
@@ -743,12 +721,10 @@ export default {
         "safe to drink"
       ],
       "optionReasons": {
-        "safe-mcq-03": "本句指「可安全使用／食用」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-01": "「安全的」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-03": "本句的「safe to drink」指「可安全使用／食用」。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-03"
     },
@@ -760,11 +736,9 @@ export default {
       "masked": "The equipment is ____.",
       "options": [
         "safe-mcq-03",
+        "safe-mcq-08",
         "safe-mcq-02",
-        "safe-mcq-04",
-        "safe-mcq-01",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-10"
       ],
       "explanation": "本句的「safe to use」指「可安全使用／食用」。",
       "sentenceIndex": 6,
@@ -773,12 +747,10 @@ export default {
         "safe to use"
       ],
       "optionReasons": {
-        "safe-mcq-03": "本句指「可安全使用／食用」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-01": "「安全的」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-03": "本句的「safe to use」指「可安全使用／食用」。",
+        "safe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-03"
     },
@@ -790,11 +762,9 @@ export default {
       "masked": "We found a ____ to wait.",
       "options": [
         "safe-mcq-04",
-        "safe-mcq-03",
-        "safe-mcq-05",
+        "safe-mcq-09",
         "safe-mcq-02",
-        "safe-mcq-06",
-        "safe-mcq-01"
+        "safe-mcq-11"
       ],
       "explanation": "本句的「safe place」指「安全地方」。",
       "sentenceIndex": 7,
@@ -803,12 +773,10 @@ export default {
         "safe place"
       ],
       "optionReasons": {
-        "safe-mcq-04": "本句指「安全地方」。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。",
-        "safe-mcq-01": "「安全的」與本句語境不同。"
+        "safe-mcq-04": "本句的「safe place」指「安全地方」。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-04"
     },
@@ -820,11 +788,9 @@ export default {
       "masked": "Keep your passport in a ____.",
       "options": [
         "safe-mcq-04",
-        "safe-mcq-03",
-        "safe-mcq-05",
-        "safe-mcq-02",
-        "safe-mcq-06",
-        "safe-mcq-01"
+        "safe-mcq-11",
+        "safe-mcq-18",
+        "safe-mcq-13"
       ],
       "explanation": "本句的「safe place」指「安全地方」。",
       "sentenceIndex": 8,
@@ -833,12 +799,10 @@ export default {
         "safe place"
       ],
       "optionReasons": {
-        "safe-mcq-04": "本句指「安全地方」。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。",
-        "safe-mcq-01": "「安全的」與本句語境不同。"
+        "safe-mcq-04": "本句的「safe place」指「安全地方」。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-04"
     },
@@ -850,11 +814,9 @@ export default {
       "masked": "Have a ____.",
       "options": [
         "safe-mcq-05",
-        "safe-mcq-04",
-        "safe-mcq-06",
-        "safe-mcq-03",
-        "safe-mcq-07",
-        "safe-mcq-02"
+        "safe-mcq-15",
+        "safe-mcq-11",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「safe journey」指「一路平安」。",
       "sentenceIndex": 9,
@@ -863,12 +825,10 @@ export default {
         "safe journey"
       ],
       "optionReasons": {
-        "safe-mcq-05": "本句指「一路平安」。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。"
+        "safe-mcq-05": "本句的「safe journey」指「一路平安」。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-05"
     },
@@ -880,11 +840,9 @@ export default {
       "masked": "I hope you have a ____ home.",
       "options": [
         "safe-mcq-05",
-        "safe-mcq-04",
-        "safe-mcq-06",
-        "safe-mcq-03",
-        "safe-mcq-07",
-        "safe-mcq-02"
+        "safe-mcq-15",
+        "safe-mcq-14",
+        "safe-mcq-11"
       ],
       "explanation": "本句的「safe trip」指「一路平安」。",
       "sentenceIndex": 10,
@@ -893,12 +851,10 @@ export default {
         "safe trip"
       ],
       "optionReasons": {
-        "safe-mcq-05": "本句指「一路平安」。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。"
+        "safe-mcq-05": "本句的「safe trip」指「一路平安」。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-05"
     },
@@ -910,11 +866,9 @@ export default {
       "masked": "They arrived home ____.",
       "options": [
         "safe-mcq-06",
-        "safe-mcq-05",
-        "safe-mcq-07",
-        "safe-mcq-04",
-        "safe-mcq-08",
-        "safe-mcq-03"
+        "safe-mcq-11",
+        "safe-mcq-26",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「safe and sound」指「安然無恙」。",
       "sentenceIndex": 11,
@@ -923,12 +877,10 @@ export default {
         "safe and sound"
       ],
       "optionReasons": {
-        "safe-mcq-06": "本句指「安然無恙」。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。"
+        "safe-mcq-06": "本句的「safe and sound」指「安然無恙」。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-06"
     },
@@ -940,11 +892,9 @@ export default {
       "masked": "The missing child was found ____.",
       "options": [
         "safe-mcq-06",
-        "safe-mcq-05",
-        "safe-mcq-07",
-        "safe-mcq-04",
-        "safe-mcq-08",
-        "safe-mcq-03"
+        "safe-mcq-11",
+        "safe-mcq-09",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「safe and sound」指「安然無恙」。",
       "sentenceIndex": 12,
@@ -953,12 +903,10 @@ export default {
         "safe and sound"
       ],
       "optionReasons": {
-        "safe-mcq-06": "本句指「安然無恙」。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。"
+        "safe-mcq-06": "本句的「safe and sound」指「安然無恙」。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-06"
     },
@@ -970,11 +918,9 @@ export default {
       "masked": "A gift card is a ____.",
       "options": [
         "safe-mcq-08",
-        "safe-mcq-07",
-        "safe-mcq-09",
-        "safe-mcq-06",
-        "safe-mcq-10",
-        "safe-mcq-05"
+        "safe-mcq-22",
+        "safe-mcq-14",
+        "safe-mcq-06"
       ],
       "explanation": "本句的「safe choice」指「穩陣選擇」。",
       "sentenceIndex": 16,
@@ -983,12 +929,10 @@ export default {
         "safe choice"
       ],
       "optionReasons": {
-        "safe-mcq-08": "本句指「穩陣選擇」。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。"
+        "safe-mcq-08": "本句的「safe choice」指「穩陣選擇」。",
+        "safe-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-08"
     },
@@ -1000,11 +944,9 @@ export default {
       "masked": "We chose the ____ and booked the earlier flight.",
       "options": [
         "safe-mcq-08",
-        "safe-mcq-07",
-        "safe-mcq-09",
-        "safe-mcq-06",
         "safe-mcq-10",
-        "safe-mcq-05"
+        "safe-mcq-05",
+        "safe-mcq-02"
       ],
       "explanation": "本句的「safe option」指「穩陣選擇」。",
       "sentenceIndex": 17,
@@ -1013,12 +955,10 @@ export default {
         "safe option"
       ],
       "optionReasons": {
-        "safe-mcq-08": "本句指「穩陣選擇」。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。"
+        "safe-mcq-08": "本句的「safe option」指「穩陣選擇」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-08"
     },
@@ -1030,11 +970,9 @@ export default {
       "masked": "We decided to ____ and leave early.",
       "options": [
         "safe-mcq-09",
-        "safe-mcq-08",
         "safe-mcq-10",
-        "safe-mcq-07",
-        "safe-mcq-11",
-        "safe-mcq-06"
+        "safe-mcq-05",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「play it safe」指「穩陣行事」。",
       "sentenceIndex": 18,
@@ -1043,12 +981,10 @@ export default {
         "play it safe"
       ],
       "optionReasons": {
-        "safe-mcq-09": "本句指「穩陣行事」。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-09": "本句的「play it safe」指「穩陣行事」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-09"
     },
@@ -1060,11 +996,9 @@ export default {
       "masked": "He always ____ when investing.",
       "options": [
         "safe-mcq-09",
-        "safe-mcq-08",
-        "safe-mcq-10",
-        "safe-mcq-07",
-        "safe-mcq-11",
-        "safe-mcq-06"
+        "safe-mcq-05",
+        "safe-mcq-02",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「plays it safe」指「穩陣行事」。",
       "sentenceIndex": 19,
@@ -1073,12 +1007,10 @@ export default {
         "plays it safe"
       ],
       "optionReasons": {
-        "safe-mcq-09": "本句指「穩陣行事」。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-09": "本句的「plays it safe」指「穩陣行事」。",
+        "safe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-09"
     },
@@ -1090,11 +1022,9 @@ export default {
       "masked": "Take an umbrella—____.",
       "options": [
         "safe-mcq-10",
-        "safe-mcq-09",
-        "safe-mcq-11",
-        "safe-mcq-08",
-        "safe-mcq-12",
-        "safe-mcq-07"
+        "safe-mcq-03",
+        "safe-mcq-15",
+        "safe-mcq-18"
       ],
       "explanation": "本句的「better safe than sorry」指「有備無患」。",
       "sentenceIndex": 20,
@@ -1103,12 +1033,10 @@ export default {
         "better safe than sorry"
       ],
       "optionReasons": {
-        "safe-mcq-10": "本句指「有備無患」。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。"
+        "safe-mcq-10": "本句的「better safe than sorry」指「有備無患」。",
+        "safe-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-10"
     },
@@ -1120,11 +1048,9 @@ export default {
       "masked": "I backed up the files twice. ____.",
       "options": [
         "safe-mcq-10",
-        "safe-mcq-09",
-        "safe-mcq-11",
-        "safe-mcq-08",
-        "safe-mcq-12",
-        "safe-mcq-07"
+        "safe-mcq-26",
+        "safe-mcq-18",
+        "safe-mcq-02"
       ],
       "explanation": "本句的「Better safe than sorry」指「有備無患」。",
       "sentenceIndex": 21,
@@ -1133,12 +1059,10 @@ export default {
         "Better safe than sorry"
       ],
       "optionReasons": {
-        "safe-mcq-10": "本句指「有備無患」。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-07": "「穩陣的；保守的」與本句語境不同。"
+        "safe-mcq-10": "本句的「Better safe than sorry」指「有備無患」。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-10"
     },
@@ -1150,11 +1074,9 @@ export default {
       "masked": "Leave ten minutes early ____.",
       "options": [
         "safe-mcq-11",
-        "safe-mcq-10",
-        "safe-mcq-12",
-        "safe-mcq-09",
-        "safe-mcq-13",
-        "safe-mcq-08"
+        "safe-mcq-02",
+        "safe-mcq-20",
+        "safe-mcq-09"
       ],
       "explanation": "本句的「to be on the safe side」指「為保險起見」。",
       "sentenceIndex": 22,
@@ -1163,12 +1085,10 @@ export default {
         "to be on the safe side"
       ],
       "optionReasons": {
-        "safe-mcq-11": "本句指「為保險起見」。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。"
+        "safe-mcq-11": "本句的「to be on the safe side」指「為保險起見」。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-11"
     },
@@ -1181,10 +1101,8 @@ export default {
       "options": [
         "safe-mcq-11",
         "safe-mcq-10",
-        "safe-mcq-12",
         "safe-mcq-09",
-        "safe-mcq-13",
-        "safe-mcq-08"
+        "safe-mcq-24"
       ],
       "explanation": "本句的「to be on the safe side」指「為保險起見」。",
       "sentenceIndex": 23,
@@ -1193,12 +1111,10 @@ export default {
         "to be on the safe side"
       ],
       "optionReasons": {
-        "safe-mcq-11": "本句指「為保險起見」。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-08": "「穩陣選擇」與本句語境不同。"
+        "safe-mcq-11": "本句的「to be on the safe side」指「為保險起見」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-11"
     },
@@ -1210,11 +1126,9 @@ export default {
       "masked": "It's a ____ that the train will be crowded.",
       "options": [
         "safe-mcq-12",
-        "safe-mcq-11",
-        "safe-mcq-13",
-        "safe-mcq-10",
-        "safe-mcq-14",
-        "safe-mcq-09"
+        "safe-mcq-05",
+        "safe-mcq-09",
+        "safe-mcq-02"
       ],
       "explanation": "本句的「safe bet」指「很有把握的選擇」。",
       "sentenceIndex": 24,
@@ -1223,12 +1137,10 @@ export default {
         "safe bet"
       ],
       "optionReasons": {
-        "safe-mcq-12": "本句指「很有把握的選擇」。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。"
+        "safe-mcq-12": "本句的「safe bet」指「很有把握的選擇」。",
+        "safe-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-12"
     },
@@ -1240,11 +1152,9 @@ export default {
       "masked": "A simple black jacket is usually a ____.",
       "options": [
         "safe-mcq-12",
-        "safe-mcq-11",
+        "safe-mcq-17",
         "safe-mcq-13",
-        "safe-mcq-10",
-        "safe-mcq-14",
-        "safe-mcq-09"
+        "safe-mcq-05"
       ],
       "explanation": "本句的「safe bet」指「很有把握的選擇」。",
       "sentenceIndex": 25,
@@ -1253,12 +1163,10 @@ export default {
         "safe bet"
       ],
       "optionReasons": {
-        "safe-mcq-12": "本句指「很有把握的選擇」。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。",
-        "safe-mcq-09": "「穩陣行事」與本句語境不同。"
+        "safe-mcq-12": "本句的「safe bet」指「很有把握的選擇」。",
+        "safe-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-12"
     },
@@ -1270,11 +1178,9 @@ export default {
       "masked": "She's a ____ for the project.",
       "options": [
         "safe-mcq-13",
-        "safe-mcq-12",
-        "safe-mcq-14",
-        "safe-mcq-11",
-        "safe-mcq-15",
-        "safe-mcq-10"
+        "safe-mcq-03",
+        "safe-mcq-17",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「safe pair of hands」指「穩可靠的人」。",
       "sentenceIndex": 26,
@@ -1283,12 +1189,10 @@ export default {
         "safe pair of hands"
       ],
       "optionReasons": {
-        "safe-mcq-13": "本句指「穩可靠的人」。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。"
+        "safe-mcq-13": "本句的「safe pair of hands」指「穩可靠的人」。",
+        "safe-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-13"
     },
@@ -1301,10 +1205,8 @@ export default {
       "options": [
         "safe-mcq-13",
         "safe-mcq-12",
-        "safe-mcq-14",
-        "safe-mcq-11",
-        "safe-mcq-15",
-        "safe-mcq-10"
+        "safe-mcq-04",
+        "safe-mcq-17"
       ],
       "explanation": "本句的「safe pair of hands」指「穩可靠的人」。",
       "sentenceIndex": 27,
@@ -1313,12 +1215,10 @@ export default {
         "safe pair of hands"
       ],
       "optionReasons": {
-        "safe-mcq-13": "本句指「穩可靠的人」。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。",
-        "safe-mcq-10": "「有備無患」與本句語境不同。"
+        "safe-mcq-13": "本句的「safe pair of hands」指「穩可靠的人」。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-13"
     },
@@ -1330,10 +1230,8 @@ export default {
       "masked": "Don't worry—the children are ____.",
       "options": [
         "safe-mcq-14",
-        "safe-mcq-13",
-        "safe-mcq-15",
         "safe-mcq-12",
-        "safe-mcq-16",
+        "safe-mcq-03",
         "safe-mcq-11"
       ],
       "explanation": "本句的「in safe hands」指「由可靠的人處理」。",
@@ -1343,12 +1241,10 @@ export default {
         "in safe hands"
       ],
       "optionReasons": {
-        "safe-mcq-14": "本句指「由可靠的人處理」。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。"
+        "safe-mcq-14": "本句的「in safe hands」指「由可靠的人處理」。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-14"
     },
@@ -1360,11 +1256,9 @@ export default {
       "masked": "Your account is ____ with our team.",
       "options": [
         "safe-mcq-14",
-        "safe-mcq-13",
-        "safe-mcq-15",
-        "safe-mcq-12",
-        "safe-mcq-16",
-        "safe-mcq-11"
+        "safe-mcq-04",
+        "safe-mcq-25",
+        "safe-mcq-09"
       ],
       "explanation": "本句的「in safe hands」指「由可靠的人處理」。",
       "sentenceIndex": 29,
@@ -1373,12 +1267,10 @@ export default {
         "in safe hands"
       ],
       "optionReasons": {
-        "safe-mcq-14": "本句指「由可靠的人處理」。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-11": "「為保險起見」與本句語境不同。"
+        "safe-mcq-14": "本句的「in safe hands」指「由可靠的人處理」。",
+        "safe-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-14"
     },
@@ -1390,11 +1282,9 @@ export default {
       "masked": "The party has held the seat for many years, making it a ____.",
       "options": [
         "safe-mcq-15",
-        "safe-mcq-14",
-        "safe-mcq-16",
-        "safe-mcq-13",
-        "safe-mcq-17",
-        "safe-mcq-12"
+        "safe-mcq-11",
+        "safe-mcq-20",
+        "safe-mcq-26"
       ],
       "explanation": "本句的「safe seat」指「穩固議席」。",
       "sentenceIndex": 30,
@@ -1403,12 +1293,10 @@ export default {
         "safe seat"
       ],
       "optionReasons": {
-        "safe-mcq-15": "本句指「穩固議席」。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。"
+        "safe-mcq-15": "本句的「safe seat」指「穩固議席」。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-15"
     },
@@ -1420,11 +1308,9 @@ export default {
       "masked": "Candidates often campaign differently in ____ and competitive seats.",
       "options": [
         "safe-mcq-15",
-        "safe-mcq-14",
-        "safe-mcq-16",
-        "safe-mcq-13",
-        "safe-mcq-17",
-        "safe-mcq-12"
+        "safe-mcq-10",
+        "safe-mcq-20",
+        "safe-mcq-02"
       ],
       "explanation": "本句的「safe seats」指「穩固議席」。",
       "sentenceIndex": 31,
@@ -1433,12 +1319,10 @@ export default {
         "safe seats"
       ],
       "optionReasons": {
-        "safe-mcq-15": "本句指「穩固議席」。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-13": "「穩可靠的人」與本句語境不同。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。",
-        "safe-mcq-12": "「很有把握的選擇」與本句語境不同。"
+        "safe-mcq-15": "本句的「safe seats」指「穩固議席」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-15"
     },
@@ -1451,10 +1335,8 @@ export default {
       "options": [
         "safe-mcq-01",
         "safe-mcq-02",
-        "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-17",
+        "safe-mcq-10"
       ],
       "explanation": "本句的「safe」指「安全的」。",
       "sentenceIndex": 32,
@@ -1463,12 +1345,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-01": "本句指「安全的」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-01": "本句的「safe」指「安全的」。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-01"
     },
@@ -1480,11 +1360,9 @@ export default {
       "masked": "He reached first base ____.",
       "options": [
         "safe-mcq-01",
-        "safe-mcq-02",
-        "safe-mcq-03",
-        "safe-mcq-04",
-        "safe-mcq-05",
-        "safe-mcq-06"
+        "safe-mcq-10",
+        "safe-mcq-18",
+        "safe-mcq-13"
       ],
       "explanation": "本句的「safe」指「安全的」。",
       "sentenceIndex": 33,
@@ -1493,12 +1371,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-01": "本句指「安全的」。",
-        "safe-mcq-02": "「免受 X 傷害」與本句語境不同。",
-        "safe-mcq-03": "「可安全使用／食用」與本句語境不同。",
-        "safe-mcq-04": "「安全地方」與本句語境不同。",
-        "safe-mcq-05": "「一路平安」與本句語境不同。",
-        "safe-mcq-06": "「安然無恙」與本句語境不同。"
+        "safe-mcq-01": "本句的「safe」指「安全的」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-01"
     },
@@ -1510,11 +1386,9 @@ export default {
       "masked": "The jewellery is kept in a ____.",
       "options": [
         "safe-mcq-17",
-        "safe-mcq-16",
-        "safe-mcq-18",
-        "safe-mcq-15",
         "safe-mcq-19",
-        "safe-mcq-14"
+        "safe-mcq-14",
+        "safe-mcq-09"
       ],
       "explanation": "本句的「safe」指「保險箱」。",
       "sentenceIndex": 34,
@@ -1523,12 +1397,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-17": "本句指「保險箱」。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。"
+        "safe-mcq-17": "本句的「safe」指「保險箱」。",
+        "safe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-17"
     },
@@ -1540,11 +1412,9 @@ export default {
       "masked": "He locked the documents in the ____.",
       "options": [
         "safe-mcq-17",
-        "safe-mcq-16",
-        "safe-mcq-18",
-        "safe-mcq-15",
-        "safe-mcq-19",
-        "safe-mcq-14"
+        "safe-mcq-23",
+        "safe-mcq-02",
+        "safe-mcq-06"
       ],
       "explanation": "本句的「safe」指「保險箱」。",
       "sentenceIndex": 35,
@@ -1553,12 +1423,10 @@ export default {
         "safe"
       ],
       "optionReasons": {
-        "safe-mcq-17": "本句指「保險箱」。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-14": "「由可靠的人處理」與本句語境不同。"
+        "safe-mcq-17": "本句的「safe」指「保險箱」。",
+        "safe-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-17"
     },
@@ -1570,11 +1438,9 @@ export default {
       "masked": "She keeps the documents in a ____ at the bank.",
       "options": [
         "safe-mcq-18",
-        "safe-mcq-17",
         "safe-mcq-19",
-        "safe-mcq-16",
-        "safe-mcq-20",
-        "safe-mcq-15"
+        "safe-mcq-08",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「safe deposit box」指「銀行保管箱」。",
       "sentenceIndex": 36,
@@ -1583,12 +1449,10 @@ export default {
         "safe deposit box"
       ],
       "optionReasons": {
-        "safe-mcq-18": "本句指「銀行保管箱」。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。"
+        "safe-mcq-18": "本句的「safe deposit box」指「銀行保管箱」。",
+        "safe-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-18"
     },
@@ -1600,10 +1464,8 @@ export default {
       "masked": "The jewellery was stored in a ____.",
       "options": [
         "safe-mcq-18",
-        "safe-mcq-17",
-        "safe-mcq-19",
-        "safe-mcq-16",
-        "safe-mcq-20",
+        "safe-mcq-21",
+        "safe-mcq-14",
         "safe-mcq-15"
       ],
       "explanation": "本句的「safe deposit box」指「銀行保管箱」。",
@@ -1613,12 +1475,10 @@ export default {
         "safe deposit box"
       ],
       "optionReasons": {
-        "safe-mcq-18": "本句指「銀行保管箱」。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-15": "「穩固議席」與本句語境不同。"
+        "safe-mcq-18": "本句的「safe deposit box」指「銀行保管箱」。",
+        "safe-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-18"
     },
@@ -1630,11 +1490,9 @@ export default {
       "masked": "They arrived ____.",
       "options": [
         "safe-mcq-19",
-        "safe-mcq-18",
-        "safe-mcq-20",
-        "safe-mcq-17",
-        "safe-mcq-21",
-        "safe-mcq-16"
+        "safe-mcq-15",
+        "safe-mcq-08",
+        "safe-mcq-10"
       ],
       "explanation": "本句的「safely」指「安全地」。",
       "sentenceIndex": 38,
@@ -1643,12 +1501,10 @@ export default {
         "safely"
       ],
       "optionReasons": {
-        "safe-mcq-19": "本句指「安全地」。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。"
+        "safe-mcq-19": "本句的「safely」指「安全地」。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-19"
     },
@@ -1660,11 +1516,9 @@ export default {
       "masked": "Store the chemicals ____.",
       "options": [
         "safe-mcq-19",
-        "safe-mcq-18",
-        "safe-mcq-20",
-        "safe-mcq-17",
-        "safe-mcq-21",
-        "safe-mcq-16"
+        "safe-mcq-12",
+        "safe-mcq-09",
+        "safe-mcq-11"
       ],
       "explanation": "本句的「safely」指「安全地」。",
       "sentenceIndex": 39,
@@ -1673,12 +1527,10 @@ export default {
         "safely"
       ],
       "optionReasons": {
-        "safe-mcq-19": "本句指「安全地」。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-16": "「安全上壘」與本句語境不同。"
+        "safe-mcq-19": "本句的「safely」指「安全地」。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-19"
     },
@@ -1690,11 +1542,9 @@ export default {
       "masked": "Passenger ____ is our priority.",
       "options": [
         "safe-mcq-20",
-        "safe-mcq-19",
-        "safe-mcq-21",
-        "safe-mcq-18",
-        "safe-mcq-22",
-        "safe-mcq-17"
+        "safe-mcq-10",
+        "safe-mcq-11",
+        "safe-mcq-26"
       ],
       "explanation": "本句的「safety」指「安全」。",
       "sentenceIndex": 40,
@@ -1703,12 +1553,10 @@ export default {
         "safety"
       ],
       "optionReasons": {
-        "safe-mcq-20": "本句指「安全」。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。"
+        "safe-mcq-20": "本句的「safety」指「安全」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-20"
     },
@@ -1720,11 +1568,9 @@ export default {
       "masked": "The building was closed for ____ reasons.",
       "options": [
         "safe-mcq-20",
-        "safe-mcq-19",
-        "safe-mcq-21",
-        "safe-mcq-18",
-        "safe-mcq-22",
-        "safe-mcq-17"
+        "safe-mcq-26",
+        "safe-mcq-11",
+        "safe-mcq-18"
       ],
       "explanation": "本句的「safety」指「安全」。",
       "sentenceIndex": 41,
@@ -1733,12 +1579,10 @@ export default {
         "safety"
       ],
       "optionReasons": {
-        "safe-mcq-20": "本句指「安全」。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-17": "「保險箱」與本句語境不同。"
+        "safe-mcq-20": "本句的「safety」指「安全」。",
+        "safe-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-20"
     },
@@ -1750,11 +1594,9 @@ export default {
       "masked": "Wearing a helmet is an important ____.",
       "options": [
         "safe-mcq-21",
-        "safe-mcq-20",
-        "safe-mcq-22",
-        "safe-mcq-19",
-        "safe-mcq-23",
-        "safe-mcq-18"
+        "safe-mcq-08",
+        "safe-mcq-14",
+        "safe-mcq-11"
       ],
       "explanation": "本句的「safety measure」指「安全措施」。",
       "sentenceIndex": 42,
@@ -1763,12 +1605,10 @@ export default {
         "safety measure"
       ],
       "optionReasons": {
-        "safe-mcq-21": "本句指「安全措施」。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。"
+        "safe-mcq-21": "本句的「safety measure」指「安全措施」。",
+        "safe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-21"
     },
@@ -1780,11 +1620,9 @@ export default {
       "masked": "The company introduced additional ____.",
       "options": [
         "safe-mcq-21",
-        "safe-mcq-20",
-        "safe-mcq-22",
-        "safe-mcq-19",
-        "safe-mcq-23",
-        "safe-mcq-18"
+        "safe-mcq-17",
+        "safe-mcq-08",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「safety precautions」指「安全措施」。",
       "sentenceIndex": 43,
@@ -1793,12 +1631,10 @@ export default {
         "safety precautions"
       ],
       "optionReasons": {
-        "safe-mcq-21": "本句指「安全措施」。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-18": "「銀行保管箱」與本句語境不同。"
+        "safe-mcq-21": "本句的「safety precautions」指「安全措施」。",
+        "safe-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-21"
     },
@@ -1810,11 +1646,9 @@ export default {
       "masked": "The workers used a ____ below the platform.",
       "options": [
         "safe-mcq-22",
-        "safe-mcq-21",
-        "safe-mcq-23",
-        "safe-mcq-20",
-        "safe-mcq-24",
-        "safe-mcq-19"
+        "safe-mcq-02",
+        "safe-mcq-10",
+        "safe-mcq-14"
       ],
       "explanation": "本句的「safety net」指「安全網；保障」。",
       "sentenceIndex": 44,
@@ -1823,12 +1657,10 @@ export default {
         "safety net"
       ],
       "optionReasons": {
-        "safe-mcq-22": "本句指「安全網；保障」。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。"
+        "safe-mcq-22": "本句的「safety net」指「安全網；保障」。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-22"
     },
@@ -1840,11 +1672,9 @@ export default {
       "masked": "Savings can provide a financial ____.",
       "options": [
         "safe-mcq-22",
-        "safe-mcq-21",
-        "safe-mcq-23",
-        "safe-mcq-20",
-        "safe-mcq-24",
-        "safe-mcq-19"
+        "safe-mcq-13",
+        "safe-mcq-02",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「safety net」指「安全網；保障」。",
       "sentenceIndex": 45,
@@ -1853,12 +1683,10 @@ export default {
         "safety net"
       ],
       "optionReasons": {
-        "safe-mcq-22": "本句指「安全網；保障」。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-19": "「安全地」與本句語境不同。"
+        "safe-mcq-22": "本句的「safety net」指「安全網；保障」。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-22"
     },
@@ -1870,11 +1698,9 @@ export default {
       "masked": "The machine has a ____.",
       "options": [
         "safe-mcq-23",
-        "safe-mcq-22",
-        "safe-mcq-24",
-        "safe-mcq-21",
-        "safe-mcq-25",
-        "safe-mcq-20"
+        "safe-mcq-17",
+        "safe-mcq-13",
+        "safe-mcq-02"
       ],
       "explanation": "本句的「safety valve」指「安全閥／紓壓出口」。",
       "sentenceIndex": 46,
@@ -1883,12 +1709,10 @@ export default {
         "safety valve"
       ],
       "optionReasons": {
-        "safe-mcq-23": "本句指「安全閥／紓壓出口」。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-25": "「保障；保護」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。"
+        "safe-mcq-23": "本句的「safety valve」指「安全閥／紓壓出口」。",
+        "safe-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-23"
     },
@@ -1900,11 +1724,9 @@ export default {
       "masked": "Exercise can act as a ____ for stress.",
       "options": [
         "safe-mcq-23",
-        "safe-mcq-22",
-        "safe-mcq-24",
-        "safe-mcq-21",
-        "safe-mcq-25",
-        "safe-mcq-20"
+        "safe-mcq-13",
+        "safe-mcq-12",
+        "safe-mcq-10"
       ],
       "explanation": "本句的「safety valve」指「安全閥／紓壓出口」。",
       "sentenceIndex": 47,
@@ -1913,12 +1735,10 @@ export default {
         "safety valve"
       ],
       "optionReasons": {
-        "safe-mcq-23": "本句指「安全閥／紓壓出口」。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。",
-        "safe-mcq-25": "「保障；保護」與本句語境不同。",
-        "safe-mcq-20": "「安全」與本句語境不同。"
+        "safe-mcq-23": "本句的「safety valve」指「安全閥／紓壓出口」。",
+        "safe-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-23"
     },
@@ -1930,11 +1750,9 @@ export default {
       "masked": "The bridge is ____.",
       "options": [
         "safe-mcq-24",
-        "safe-mcq-23",
-        "safe-mcq-25",
-        "safe-mcq-22",
-        "safe-mcq-26",
-        "safe-mcq-21"
+        "safe-mcq-10",
+        "safe-mcq-15",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「unsafe」指「不安全的」。",
       "sentenceIndex": 48,
@@ -1943,12 +1761,10 @@ export default {
         "unsafe"
       ],
       "optionReasons": {
-        "safe-mcq-24": "本句指「不安全的」。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-25": "「保障；保護」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-26": "「保障措施」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。"
+        "safe-mcq-24": "本句的「unsafe」指「不安全的」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-24"
     },
@@ -1960,11 +1776,9 @@ export default {
       "masked": "It's ____ in these conditions.",
       "options": [
         "safe-mcq-24",
-        "safe-mcq-23",
-        "safe-mcq-25",
-        "safe-mcq-22",
-        "safe-mcq-26",
-        "safe-mcq-21"
+        "safe-mcq-11",
+        "safe-mcq-12",
+        "safe-mcq-18"
       ],
       "explanation": "本句的「unsafe to drive」指「不安全的」。",
       "sentenceIndex": 49,
@@ -1973,12 +1787,10 @@ export default {
         "unsafe to drive"
       ],
       "optionReasons": {
-        "safe-mcq-24": "本句指「不安全的」。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-25": "「保障；保護」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-26": "「保障措施」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。"
+        "safe-mcq-24": "本句的「unsafe to drive」指「不安全的」。",
+        "safe-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-24"
     },
@@ -1990,11 +1802,9 @@ export default {
       "masked": "We need to ____.",
       "options": [
         "safe-mcq-25",
-        "safe-mcq-24",
-        "safe-mcq-26",
-        "safe-mcq-23",
-        "safe-mcq-22",
-        "safe-mcq-21"
+        "safe-mcq-09",
+        "safe-mcq-06",
+        "safe-mcq-12"
       ],
       "explanation": "本句的「safeguard children's privacy」指「保障；保護」。",
       "sentenceIndex": 50,
@@ -2003,12 +1813,10 @@ export default {
         "safeguard children's privacy"
       ],
       "optionReasons": {
-        "safe-mcq-25": "本句指「保障；保護」。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-26": "「保障措施」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。"
+        "safe-mcq-25": "本句的「safeguard children's privacy」指「保障；保護」。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-25"
     },
@@ -2020,11 +1828,9 @@ export default {
       "masked": "The rules are designed to ____.",
       "options": [
         "safe-mcq-25",
-        "safe-mcq-24",
-        "safe-mcq-26",
-        "safe-mcq-23",
-        "safe-mcq-22",
-        "safe-mcq-21"
+        "safe-mcq-12",
+        "safe-mcq-20",
+        "safe-mcq-15"
       ],
       "explanation": "本句的「safeguard workers」指「保障；保護」。",
       "sentenceIndex": 51,
@@ -2033,12 +1839,10 @@ export default {
         "safeguard workers"
       ],
       "optionReasons": {
-        "safe-mcq-25": "本句指「保障；保護」。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-26": "「保障措施」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。"
+        "safe-mcq-25": "本句的「safeguard workers」指「保障；保護」。",
+        "safe-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-25"
     },
@@ -2050,11 +1854,9 @@ export default {
       "masked": "The system includes several ____.",
       "options": [
         "safe-mcq-26",
-        "safe-mcq-25",
-        "safe-mcq-24",
-        "safe-mcq-23",
-        "safe-mcq-22",
-        "safe-mcq-21"
+        "safe-mcq-10",
+        "safe-mcq-09",
+        "safe-mcq-24"
       ],
       "explanation": "本句的「safeguards」指「保障措施」。",
       "sentenceIndex": 52,
@@ -2063,12 +1865,10 @@ export default {
         "safeguards"
       ],
       "optionReasons": {
-        "safe-mcq-26": "本句指「保障措施」。",
-        "safe-mcq-25": "「保障；保護」與本句語境不同。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。"
+        "safe-mcq-26": "本句的「safeguards」指「保障措施」。",
+        "safe-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-26"
     },
@@ -2080,11 +1880,9 @@ export default {
       "masked": "Strong legal ____ are needed.",
       "options": [
         "safe-mcq-26",
-        "safe-mcq-25",
+        "safe-mcq-14",
         "safe-mcq-24",
-        "safe-mcq-23",
-        "safe-mcq-22",
-        "safe-mcq-21"
+        "safe-mcq-15"
       ],
       "explanation": "本句的「safeguards」指「保障措施」。",
       "sentenceIndex": 53,
@@ -2093,12 +1891,10 @@ export default {
         "safeguards"
       ],
       "optionReasons": {
-        "safe-mcq-26": "本句指「保障措施」。",
-        "safe-mcq-25": "「保障；保護」與本句語境不同。",
-        "safe-mcq-24": "「不安全的」與本句語境不同。",
-        "safe-mcq-23": "「安全閥／紓壓出口」與本句語境不同。",
-        "safe-mcq-22": "「安全網；保障」與本句語境不同。",
-        "safe-mcq-21": "「安全措施」與本句語境不同。"
+        "safe-mcq-26": "本句的「safeguards」指「保障措施」。",
+        "safe-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "safe-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "safe-mcq-26"
     }
@@ -2110,5 +1906,7 @@ export default {
     "sha256": "22d9605cabcf27f9c18dc3123f19c15328e0c518ff4a6c3c7b91982905811639",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

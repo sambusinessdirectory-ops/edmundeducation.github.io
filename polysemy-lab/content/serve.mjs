@@ -283,11 +283,6 @@ export default {
       "note": "來源詞義：一人份／一份食物",
       "examples": [
         [
-          "The company served notice that the agreement would end.",
-          "公司正式通知協議將終止。",
-          "一人份／一份食物"
-        ],
-        [
           "One serving contains 200 calories.",
           "一份含有二百卡路里。",
           "一人份／一份食物"
@@ -334,6 +329,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "serve-reviewed-6a90915174",
+      "title": "正式通知",
+      "form": "serve · source section 14",
+      "en": "正式通知",
+      "zh": "正式通知",
+      "note": "對照原始教材第 14 節及例句核實。",
+      "examples": [
+        [
+          "The company served notice that the agreement would end.",
+          "公司正式通知協議將終止。",
+          "正式通知"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -345,11 +357,9 @@ export default {
       "masked": "The restaurant ____ meals throughout the day.",
       "options": [
         "serve-mcq-01",
-        "serve-mcq-02",
-        "serve-mcq-03",
-        "serve-mcq-04",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-pdf-001",
+        "serve-mcq-11",
+        "serve-reviewed-6a90915174"
       ],
       "explanation": "本句的「serves」指「把食物或飲品提供給顧客、客人或用餐者」。",
       "sentenceIndex": 0,
@@ -358,12 +368,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-01": "本句指「把食物或飲品提供給顧客、客人或用餐者」。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-01": "本句的「serves」指「把食物或飲品提供給顧客、客人或用餐者」。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "serve-reviewed-6a90915174": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-01"
     },
@@ -375,11 +383,9 @@ export default {
       "masked": "Breakfast is ____ from seven o’clock.",
       "options": [
         "serve-mcq-01",
-        "serve-mcq-02",
-        "serve-mcq-03",
-        "serve-mcq-04",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-pdf-001",
+        "serve-mcq-07",
+        "serve-mcq-11"
       ],
       "explanation": "本句的「served」指「把食物或飲品提供給顧客、客人或用餐者」。",
       "sentenceIndex": 1,
@@ -388,12 +394,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-01": "本句指「把食物或飲品提供給顧客、客人或用餐者」。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-01": "本句的「served」指「把食物或飲品提供給顧客、客人或用餐者」。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-01"
     },
@@ -405,11 +409,9 @@ export default {
       "masked": "They ____ coffee after dinner.",
       "options": [
         "serve-mcq-01",
-        "serve-mcq-02",
-        "serve-mcq-03",
-        "serve-mcq-04",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-mcq-07",
+        "serve-mcq-09",
+        "serve-mcq-11"
       ],
       "explanation": "本句的「served」指「把食物或飲品提供給顧客、客人或用餐者」。",
       "sentenceIndex": 2,
@@ -418,12 +420,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-01": "本句指「把食物或飲品提供給顧客、客人或用餐者」。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-01": "本句的「served」指「把食物或飲品提供給顧客、客人或用餐者」。",
+        "serve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-01"
     },
@@ -435,11 +435,9 @@ export default {
       "masked": "The hospital ____ the local community.",
       "options": [
         "serve-mcq-02",
-        "serve-mcq-01",
-        "serve-mcq-03",
-        "serve-mcq-04",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-mcq-07",
+        "serve-mcq-08",
+        "serve-mcq-13"
       ],
       "explanation": "本句的「serves」指「為某人、顧客或群體提供服務、協助或所需資源」。",
       "sentenceIndex": 3,
@@ -448,12 +446,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-02": "本句指「為某人、顧客或群體提供服務、協助或所需資源」。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-02": "本句的「serves」指「為某人、顧客或群體提供服務、協助或所需資源」。",
+        "serve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-02"
     },
@@ -465,11 +461,9 @@ export default {
       "masked": "The company ____ customers across Asia.",
       "options": [
         "serve-mcq-02",
-        "serve-mcq-01",
-        "serve-mcq-03",
+        "serve-mcq-09",
         "serve-mcq-04",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-reviewed-6a90915174"
       ],
       "explanation": "本句的「serves」指「為某人、顧客或群體提供服務、協助或所需資源」。",
       "sentenceIndex": 4,
@@ -478,12 +472,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-02": "本句指「為某人、顧客或群體提供服務、協助或所需資源」。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-02": "本句的「serves」指「為某人、顧客或群體提供服務、協助或所需資源」。",
+        "serve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-reviewed-6a90915174": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-02"
     },
@@ -495,11 +487,9 @@ export default {
       "masked": "She ____ in the army for six years.",
       "options": [
         "serve-mcq-03",
-        "serve-mcq-02",
-        "serve-mcq-04",
-        "serve-mcq-01",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-mcq-09",
+        "serve-mcq-10",
+        "serve-mcq-04"
       ],
       "explanation": "本句的「served」指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
       "sentenceIndex": 5,
@@ -508,12 +498,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-03": "本句指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-03": "本句的「served」指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
+        "serve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-03"
     },
@@ -525,11 +513,9 @@ export default {
       "masked": "He ____ as mayor for two terms.",
       "options": [
         "serve-mcq-03",
-        "serve-mcq-02",
+        "serve-mcq-06",
         "serve-mcq-04",
-        "serve-mcq-01",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-mcq-10"
       ],
       "explanation": "本句的「served」指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
       "sentenceIndex": 6,
@@ -538,12 +524,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-03": "本句指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-03": "本句的「served」指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
+        "serve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-03"
     },
@@ -555,11 +539,9 @@ export default {
       "masked": "She ____ on the committee.",
       "options": [
         "serve-mcq-03",
-        "serve-mcq-02",
-        "serve-mcq-04",
         "serve-mcq-01",
-        "serve-mcq-05",
-        "serve-mcq-06"
+        "serve-mcq-08",
+        "serve-mcq-05"
       ],
       "explanation": "本句的「served」指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
       "sentenceIndex": 7,
@@ -568,12 +550,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-03": "本句指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-03": "本句的「served」指「在軍隊、政府、委員會、機構等履行正式職責／效力」。",
+        "serve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-03"
     },
@@ -585,11 +565,9 @@ export default {
       "masked": "The room also ____ a meeting space.",
       "options": [
         "serve-mcq-04",
-        "serve-mcq-03",
         "serve-mcq-05",
-        "serve-mcq-02",
-        "serve-mcq-06",
-        "serve-mcq-01"
+        "serve-mcq-07",
+        "serve-mcq-02"
       ],
       "explanation": "本句的「serves as」指「充當某種角色、具有某種用途或功能」。",
       "sentenceIndex": 8,
@@ -598,12 +576,10 @@ export default {
         "serves as"
       ],
       "optionReasons": {
-        "serve-mcq-04": "本句指「充當某種角色、具有某種用途或功能」。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。"
+        "serve-mcq-04": "本句的「serves as」指「充當某種角色、具有某種用途或功能」。",
+        "serve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-04"
     },
@@ -615,11 +591,9 @@ export default {
       "masked": "The wall ____ a screen.",
       "options": [
         "serve-mcq-04",
-        "serve-mcq-03",
-        "serve-mcq-05",
-        "serve-mcq-02",
-        "serve-mcq-06",
-        "serve-mcq-01"
+        "serve-mcq-10",
+        "serve-mcq-13",
+        "serve-pdf-001"
       ],
       "explanation": "本句的「serves as」指「充當某種角色、具有某種用途或功能」。",
       "sentenceIndex": 9,
@@ -628,12 +602,10 @@ export default {
         "serves as"
       ],
       "optionReasons": {
-        "serve-mcq-04": "本句指「充當某種角色、具有某種用途或功能」。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-01": "「把食物或飲品提供給顧客、客人或用餐者」與本句語境不同。"
+        "serve-mcq-04": "本句的「serves as」指「充當某種角色、具有某種用途或功能」。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-04"
     },
@@ -645,11 +617,9 @@ export default {
       "masked": "The warning ____ an important purpose.",
       "options": [
         "serve-mcq-05",
-        "serve-mcq-04",
-        "serve-mcq-06",
-        "serve-mcq-03",
-        "serve-mcq-07",
-        "serve-mcq-02"
+        "serve-mcq-10",
+        "serve-mcq-13",
+        "serve-reviewed-6a90915174"
       ],
       "explanation": "本句的「serves」指「發揮某種作用、達到目的或滿足需要」。",
       "sentenceIndex": 10,
@@ -658,12 +628,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-05": "本句指「發揮某種作用、達到目的或滿足需要」。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。"
+        "serve-mcq-05": "本句的「serves」指「發揮某種作用、達到目的或滿足需要」。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "serve-reviewed-6a90915174": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-05"
     },
@@ -675,11 +643,9 @@ export default {
       "masked": "This example ____ to illustrate the problem.",
       "options": [
         "serve-mcq-05",
-        "serve-mcq-04",
-        "serve-mcq-06",
         "serve-mcq-03",
-        "serve-mcq-07",
-        "serve-mcq-02"
+        "serve-mcq-13",
+        "serve-mcq-10"
       ],
       "explanation": "本句的「serves」指「發揮某種作用、達到目的或滿足需要」。",
       "sentenceIndex": 11,
@@ -688,12 +654,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-05": "本句指「發揮某種作用、達到目的或滿足需要」。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。"
+        "serve-mcq-05": "本句的「serves」指「發揮某種作用、達到目的或滿足需要」。",
+        "serve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-05"
     },
@@ -705,11 +669,9 @@ export default {
       "masked": "This small table will ____ for now.",
       "options": [
         "serve-pdf-001",
-        "serve-mcq-04",
-        "serve-mcq-06",
-        "serve-mcq-03",
-        "serve-mcq-07",
-        "serve-mcq-02"
+        "serve-mcq-12",
+        "serve-mcq-11",
+        "serve-mcq-08"
       ],
       "explanation": "本句的「serve」指「足以滿足某種暫時或實際需要」。",
       "sentenceIndex": 12,
@@ -718,12 +680,10 @@ export default {
         "serve"
       ],
       "optionReasons": {
-        "serve-pdf-001": "本句指「足以滿足某種暫時或實際需要」。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。"
+        "serve-pdf-001": "本句的「serve」指「足以滿足某種暫時或實際需要」。",
+        "serve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-pdf-001"
     },
@@ -735,11 +695,9 @@ export default {
       "masked": "A simple explanation should ____.",
       "options": [
         "serve-pdf-001",
+        "serve-mcq-01",
         "serve-mcq-04",
-        "serve-mcq-06",
-        "serve-mcq-03",
-        "serve-mcq-07",
-        "serve-mcq-02"
+        "serve-mcq-03"
       ],
       "explanation": "本句的「serve」指「足以滿足某種暫時或實際需要」。",
       "sentenceIndex": 13,
@@ -748,12 +706,10 @@ export default {
         "serve"
       ],
       "optionReasons": {
-        "serve-pdf-001": "本句指「足以滿足某種暫時或實際需要」。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-02": "「為某人、顧客或群體提供服務、協助或所需資源」與本句語境不同。"
+        "serve-pdf-001": "本句的「serve」指「足以滿足某種暫時或實際需要」。",
+        "serve-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-pdf-001"
     },
@@ -766,10 +722,8 @@ export default {
       "options": [
         "serve-mcq-06",
         "serve-mcq-05",
-        "serve-mcq-07",
-        "serve-mcq-04",
-        "serve-mcq-08",
-        "serve-mcq-03"
+        "serve-mcq-10",
+        "serve-mcq-08"
       ],
       "explanation": "本句的「served」指「按法院判決服刑」。",
       "sentenceIndex": 14,
@@ -778,12 +732,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-06": "本句指「按法院判決服刑」。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。"
+        "serve-mcq-06": "本句的「served」指「按法院判決服刑」。",
+        "serve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-06"
     },
@@ -795,11 +747,9 @@ export default {
       "masked": "She is currently ____ a life sentence.",
       "options": [
         "serve-mcq-06",
-        "serve-mcq-05",
-        "serve-mcq-07",
-        "serve-mcq-04",
-        "serve-mcq-08",
-        "serve-mcq-03"
+        "serve-pdf-001",
+        "serve-mcq-03",
+        "serve-mcq-08"
       ],
       "explanation": "本句的「serving」指「按法院判決服刑」。",
       "sentenceIndex": 15,
@@ -808,12 +758,10 @@ export default {
         "serving"
       ],
       "optionReasons": {
-        "serve-mcq-06": "本句指「按法院判決服刑」。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-03": "「在軍隊、政府、委員會、機構等履行正式職責／效力」與本句語境不同。"
+        "serve-mcq-06": "本句的「serving」指「按法院判決服刑」。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-06"
     },
@@ -825,10 +773,8 @@ export default {
       "masked": "The papers were ____ on the defendant.",
       "options": [
         "serve-mcq-07",
-        "serve-mcq-06",
         "serve-mcq-08",
-        "serve-mcq-05",
-        "serve-mcq-09",
+        "serve-mcq-02",
         "serve-mcq-04"
       ],
       "explanation": "本句的「served」指「按法律程序正式送達傳票、通知等文件」。",
@@ -838,12 +784,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-07": "本句指「按法律程序正式送達傳票、通知等文件」。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。"
+        "serve-mcq-07": "本句的「served」指「按法律程序正式送達傳票、通知等文件」。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-07"
     },
@@ -855,11 +799,9 @@ export default {
       "masked": "He was ____ with a court summons.",
       "options": [
         "serve-mcq-07",
-        "serve-mcq-06",
-        "serve-mcq-08",
-        "serve-mcq-05",
-        "serve-mcq-09",
-        "serve-mcq-04"
+        "serve-pdf-001",
+        "serve-mcq-04",
+        "serve-mcq-13"
       ],
       "explanation": "本句的「served」指「按法律程序正式送達傳票、通知等文件」。",
       "sentenceIndex": 17,
@@ -868,12 +810,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-07": "本句指「按法律程序正式送達傳票、通知等文件」。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-04": "「充當某種角色、具有某種用途或功能」與本句語境不同。"
+        "serve-mcq-07": "本句的「served」指「按法律程序正式送達傳票、通知等文件」。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-07"
     },
@@ -885,11 +825,9 @@ export default {
       "masked": "She ____ first.",
       "options": [
         "serve-mcq-08",
-        "serve-mcq-07",
-        "serve-mcq-09",
+        "serve-mcq-02",
         "serve-mcq-06",
-        "serve-mcq-10",
-        "serve-mcq-05"
+        "serve-reviewed-6a90915174"
       ],
       "explanation": "本句的「served」指「在球類運動中發球，開始一個回合」。",
       "sentenceIndex": 18,
@@ -898,12 +836,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-08": "本句指「在球類運動中發球，開始一個回合」。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。"
+        "serve-mcq-08": "本句的「served」指「在球類運動中發球，開始一個回合」。",
+        "serve-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serve-reviewed-6a90915174": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-08"
     },
@@ -915,11 +851,9 @@ export default {
       "masked": "He ____ the ball into the corner.",
       "options": [
         "serve-mcq-08",
-        "serve-mcq-07",
-        "serve-mcq-09",
+        "serve-mcq-03",
         "serve-mcq-06",
-        "serve-mcq-10",
-        "serve-mcq-05"
+        "serve-mcq-04"
       ],
       "explanation": "本句的「served」指「在球類運動中發球，開始一個回合」。",
       "sentenceIndex": 19,
@@ -928,12 +862,10 @@ export default {
         "served"
       ],
       "optionReasons": {
-        "serve-mcq-08": "本句指「在球類運動中發球，開始一個回合」。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-05": "「發揮某種作用、達到目的或滿足需要」與本句語境不同。"
+        "serve-mcq-08": "本句的「served」指「在球類運動中發球，開始一個回合」。",
+        "serve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-08"
     },
@@ -945,11 +877,9 @@ export default {
       "masked": "He has a powerful ____.",
       "options": [
         "serve-mcq-09",
-        "serve-mcq-08",
         "serve-mcq-10",
-        "serve-mcq-07",
-        "serve-mcq-11",
-        "serve-mcq-06"
+        "serve-mcq-04",
+        "serve-mcq-13"
       ],
       "explanation": "本句的「serve」指「一次發球／發球方式」。",
       "sentenceIndex": 20,
@@ -958,12 +888,10 @@ export default {
         "serve"
       ],
       "optionReasons": {
-        "serve-mcq-09": "本句指「一次發球／發球方式」。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-09": "本句的「serve」指「一次發球／發球方式」。",
+        "serve-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-09"
     },
@@ -975,11 +903,9 @@ export default {
       "masked": "Her first ____ went out.",
       "options": [
         "serve-mcq-09",
-        "serve-mcq-08",
-        "serve-mcq-10",
-        "serve-mcq-07",
-        "serve-mcq-11",
-        "serve-mcq-06"
+        "serve-mcq-03",
+        "serve-mcq-04",
+        "serve-pdf-001"
       ],
       "explanation": "本句的「serve」指「一次發球／發球方式」。",
       "sentenceIndex": 21,
@@ -988,12 +914,10 @@ export default {
         "serve"
       ],
       "optionReasons": {
-        "serve-mcq-09": "本句指「一次發球／發球方式」。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-06": "「按法院判決服刑」與本句語境不同。"
+        "serve-mcq-09": "本句的「serve」指「一次發球／發球方式」。",
+        "serve-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-09"
     },
@@ -1005,11 +929,9 @@ export default {
       "masked": "The application ____ web pages to users.",
       "options": [
         "serve-mcq-10",
-        "serve-mcq-09",
+        "serve-mcq-13",
         "serve-mcq-11",
-        "serve-mcq-08",
-        "serve-mcq-12",
-        "serve-mcq-07"
+        "serve-mcq-04"
       ],
       "explanation": "本句的「serves」指「透過網絡向使用者／系統提供資料或資源」。",
       "sentenceIndex": 22,
@@ -1018,12 +940,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-10": "本句指「透過網絡向使用者／系統提供資料或資源」。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-12": "「某人因自己的行為得到應有後果；活該」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。"
+        "serve-mcq-10": "本句的「serves」指「透過網絡向使用者／系統提供資料或資源」。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-10"
     },
@@ -1035,11 +955,9 @@ export default {
       "masked": "The system can ____ thousands of requests.",
       "options": [
         "serve-mcq-10",
-        "serve-mcq-09",
-        "serve-mcq-11",
-        "serve-mcq-08",
-        "serve-mcq-12",
-        "serve-mcq-07"
+        "serve-mcq-06",
+        "serve-mcq-05",
+        "serve-mcq-11"
       ],
       "explanation": "本句的「serve」指「透過網絡向使用者／系統提供資料或資源」。",
       "sentenceIndex": 23,
@@ -1048,12 +966,10 @@ export default {
         "serve"
       ],
       "optionReasons": {
-        "serve-mcq-10": "本句指「透過網絡向使用者／系統提供資料或資源」。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。",
-        "serve-mcq-12": "「某人因自己的行為得到應有後果；活該」與本句語境不同。",
-        "serve-mcq-07": "「按法律程序正式送達傳票、通知等文件」與本句語境不同。"
+        "serve-mcq-10": "本句的「serve」指「透過網絡向使用者／系統提供資料或資源」。",
+        "serve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-10"
     },
@@ -1065,11 +981,9 @@ export default {
       "masked": "He devoted his life to ____ God.",
       "options": [
         "serve-mcq-11",
-        "serve-mcq-10",
-        "serve-mcq-12",
+        "serve-mcq-07",
         "serve-mcq-09",
-        "serve-mcq-13",
-        "serve-mcq-08"
+        "serve-mcq-01"
       ],
       "explanation": "本句的「serving」指「事奉神明／履行宗教服務」。",
       "sentenceIndex": 24,
@@ -1078,12 +992,10 @@ export default {
         "serving"
       ],
       "optionReasons": {
-        "serve-mcq-11": "本句指「事奉神明／履行宗教服務」。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-12": "「某人因自己的行為得到應有後果；活該」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。",
-        "serve-mcq-13": "「一人份／一份食物」與本句語境不同。",
-        "serve-mcq-08": "「在球類運動中發球，開始一個回合」與本句語境不同。"
+        "serve-mcq-11": "本句的「serving」指「事奉神明／履行宗教服務」。",
+        "serve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-11"
     },
@@ -1095,11 +1007,9 @@ export default {
       "masked": "It ____ him right for ignoring the warning.",
       "options": [
         "serve-mcq-12",
-        "serve-mcq-11",
-        "serve-mcq-13",
-        "serve-mcq-10",
-        "serve-mcq-14",
-        "serve-mcq-09"
+        "serve-mcq-07",
+        "serve-mcq-04",
+        "serve-mcq-08"
       ],
       "explanation": "本句的「serves」指「某人因自己的行為得到應有後果；活該」。",
       "sentenceIndex": 25,
@@ -1108,12 +1018,10 @@ export default {
         "serves"
       ],
       "optionReasons": {
-        "serve-mcq-12": "本句指「某人因自己的行為得到應有後果；活該」。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-13": "「一人份／一份食物」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-14": "「餐廳服務員；亦指提供網絡資源的伺服器」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。"
+        "serve-mcq-12": "本句的「serves」指「某人因自己的行為得到應有後果；活該」。",
+        "serve-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-12"
     },
@@ -1125,11 +1033,9 @@ export default {
       "masked": "It would ____ them right if they lost the money.",
       "options": [
         "serve-mcq-12",
-        "serve-mcq-11",
-        "serve-mcq-13",
-        "serve-mcq-10",
-        "serve-mcq-14",
-        "serve-mcq-09"
+        "serve-mcq-08",
+        "serve-mcq-06",
+        "serve-mcq-13"
       ],
       "explanation": "本句的「serve」指「某人因自己的行為得到應有後果；活該」。",
       "sentenceIndex": 26,
@@ -1138,44 +1044,40 @@ export default {
         "serve"
       ],
       "optionReasons": {
-        "serve-mcq-12": "本句指「某人因自己的行為得到應有後果；活該」。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-13": "「一人份／一份食物」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-14": "「餐廳服務員；亦指提供網絡資源的伺服器」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。"
+        "serve-mcq-12": "本句的「serve」指「某人因自己的行為得到應有後果；活該」。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-12"
     },
     {
       "id": "serve-14-0",
-      "sense": "serve-mcq-13",
+      "sense": "serve-reviewed-6a90915174",
       "en": "The company served notice that the agreement would end.",
       "zh": "公司正式通知協議將終止。",
       "masked": "The company ____ that the agreement would end.",
       "options": [
-        "serve-mcq-13",
+        "serve-reviewed-6a90915174",
         "serve-mcq-12",
-        "serve-mcq-14",
-        "serve-mcq-11",
-        "serve-mcq-10",
-        "serve-mcq-09"
+        "serve-pdf-001",
+        "serve-mcq-11"
       ],
-      "explanation": "本句的「served notice」指「一人份／一份食物」。",
+      "explanation": "對照完整句子：「公司正式通知協議將終止。」。這裡的「served notice」表示「正式通知」。",
       "sentenceIndex": 27,
       "sourcePractice": 28,
       "targets": [
         "served notice"
       ],
       "optionReasons": {
-        "serve-mcq-13": "本句指「一人份／一份食物」。",
-        "serve-mcq-12": "「某人因自己的行為得到應有後果；活該」與本句語境不同。",
-        "serve-mcq-14": "「餐廳服務員；亦指提供網絡資源的伺服器」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。"
+        "serve-reviewed-6a90915174": "對照完整句子：「公司正式通知協議將終止。」。這裡的「served notice」表示「正式通知」。",
+        "serve-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "serve-mcq-13"
+      "correctOption": "serve-reviewed-6a90915174",
+      "previousCorrectOption": "serve-mcq-13",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "serve-15-0",
@@ -1185,11 +1087,9 @@ export default {
       "masked": "One ____ contains 200 calories.",
       "options": [
         "serve-mcq-13",
-        "serve-mcq-12",
-        "serve-mcq-14",
         "serve-mcq-11",
-        "serve-mcq-10",
-        "serve-mcq-09"
+        "serve-mcq-05",
+        "serve-mcq-08"
       ],
       "explanation": "本句的「serving」指「一人份／一份食物」。",
       "sentenceIndex": 28,
@@ -1198,12 +1098,10 @@ export default {
         "serving"
       ],
       "optionReasons": {
-        "serve-mcq-13": "本句指「一人份／一份食物」。",
-        "serve-mcq-12": "「某人因自己的行為得到應有後果；活該」與本句語境不同。",
-        "serve-mcq-14": "「餐廳服務員；亦指提供網絡資源的伺服器」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。"
+        "serve-mcq-13": "本句的「serving」指「一人份／一份食物」。",
+        "serve-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "serve-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-13"
     },
@@ -1216,10 +1114,8 @@ export default {
       "options": [
         "serve-mcq-14",
         "serve-mcq-13",
-        "serve-mcq-12",
-        "serve-mcq-11",
-        "serve-mcq-10",
-        "serve-mcq-09"
+        "serve-reviewed-6a90915174",
+        "serve-pdf-001"
       ],
       "explanation": "本句的「server」指「餐廳服務員；亦指提供網絡資源的伺服器」。",
       "sentenceIndex": 29,
@@ -1228,12 +1124,10 @@ export default {
         "server"
       ],
       "optionReasons": {
-        "serve-mcq-14": "本句指「餐廳服務員；亦指提供網絡資源的伺服器」。",
-        "serve-mcq-13": "「一人份／一份食物」與本句語境不同。",
-        "serve-mcq-12": "「某人因自己的行為得到應有後果；活該」與本句語境不同。",
-        "serve-mcq-11": "「事奉神明／履行宗教服務」與本句語境不同。",
-        "serve-mcq-10": "「透過網絡向使用者／系統提供資料或資源」與本句語境不同。",
-        "serve-mcq-09": "「一次發球／發球方式」與本句語境不同。"
+        "serve-mcq-14": "本句的「server」指「餐廳服務員；亦指提供網絡資源的伺服器」。",
+        "serve-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "serve-reviewed-6a90915174": "請比較這個意思與句子中標示的用法。",
+        "serve-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "serve-mcq-14"
     }
@@ -1245,5 +1139,7 @@ export default {
     "sha256": "4becb7eccacb3d80a3b2e47ae37ee4302195de19e2ea7a7cf0d88f599c74ee2e",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "stimulate-mcq-08",
-      "title": "表示思想刺激",
+      "title": "思想刺激",
       "form": "mental stimulation — 思想刺激",
       "en": "mental stimulation — 思想刺激",
       "zh": "表示思想刺激",
@@ -186,11 +186,8 @@ export default {
       "masked": "The book seems intellectually ____.",
       "options": [
         "stimulate-mcq-01",
-        "stimulate-mcq-02",
         "stimulate-mcq-03",
-        "stimulate-mcq-04",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-02"
       ],
       "explanation": "本句的「stimulating」指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
       "sentenceIndex": 0,
@@ -199,12 +196,9 @@ export default {
         "stimulating"
       ],
       "optionReasons": {
-        "stimulate-mcq-01": "本句指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-01": "本句的「stimulating」指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stimulate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-01"
     },
@@ -216,11 +210,8 @@ export default {
       "masked": "Good questions ____ discussion.",
       "options": [
         "stimulate-mcq-01",
-        "stimulate-mcq-02",
         "stimulate-mcq-03",
-        "stimulate-mcq-04",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-02"
       ],
       "explanation": "本句的「stimulate」指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
       "sentenceIndex": 1,
@@ -229,12 +220,9 @@ export default {
         "stimulate"
       ],
       "optionReasons": {
-        "stimulate-mcq-01": "本句指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-01": "本句的「stimulate」指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stimulate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-01"
     },
@@ -246,11 +234,8 @@ export default {
       "masked": "The lecture ____ my interest in history.",
       "options": [
         "stimulate-mcq-01",
-        "stimulate-mcq-02",
         "stimulate-mcq-03",
-        "stimulate-mcq-04",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-02"
       ],
       "explanation": "本句的「stimulated」指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
       "sentenceIndex": 2,
@@ -259,12 +244,9 @@ export default {
         "stimulated"
       ],
       "optionReasons": {
-        "stimulate-mcq-01": "本句指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-01": "本句的「stimulated」指「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stimulate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-01"
     },
@@ -276,11 +258,8 @@ export default {
       "masked": "The policy was designed to ____ economic growth.",
       "options": [
         "stimulate-mcq-02",
-        "stimulate-mcq-01",
         "stimulate-mcq-03",
-        "stimulate-mcq-04",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-01"
       ],
       "explanation": "本句的「stimulate」指「令某個過程、系統、需求或活動增加運作或增長」。",
       "sentenceIndex": 3,
@@ -289,12 +268,9 @@ export default {
         "stimulate"
       ],
       "optionReasons": {
-        "stimulate-mcq-02": "本句指「令某個過程、系統、需求或活動增加運作或增長」。",
-        "stimulate-mcq-01": "「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」是「stimulate — mental」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-02": "本句的「stimulate」指「令某個過程、系統、需求或活動增加運作或增長」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "stimulate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-02"
     },
@@ -306,11 +282,7 @@ export default {
       "masked": "Exercise can ____ blood circulation.",
       "options": [
         "stimulate-mcq-02",
-        "stimulate-mcq-01",
-        "stimulate-mcq-03",
-        "stimulate-mcq-04",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-08"
       ],
       "explanation": "本句的「stimulate」指「令某個過程、系統、需求或活動增加運作或增長」。",
       "sentenceIndex": 4,
@@ -319,12 +291,8 @@ export default {
         "stimulate"
       ],
       "optionReasons": {
-        "stimulate-mcq-02": "本句指「令某個過程、系統、需求或活動增加運作或增長」。",
-        "stimulate-mcq-01": "「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」是「stimulate — mental」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-02": "本句的「stimulate」指「令某個過程、系統、需求或活動增加運作或增長」。",
+        "stimulate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-02"
     },
@@ -337,10 +305,7 @@ export default {
       "options": [
         "stimulate-mcq-03",
         "stimulate-mcq-02",
-        "stimulate-mcq-04",
-        "stimulate-mcq-01",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-01"
       ],
       "explanation": "本句的「stimulates」指「刺激神經、肌肉、器官或細胞，使其產生生理反應」。",
       "sentenceIndex": 5,
@@ -349,12 +314,9 @@ export default {
         "stimulates"
       ],
       "optionReasons": {
-        "stimulate-mcq-03": "本句指「刺激神經、肌肉、器官或細胞，使其產生生理反應」。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-01": "「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」是「stimulate — mental」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-03": "本句的「stimulates」指「刺激神經、肌肉、器官或細胞，使其產生生理反應」。",
+        "stimulate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stimulate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-03"
     },
@@ -367,10 +329,7 @@ export default {
       "options": [
         "stimulate-mcq-03",
         "stimulate-mcq-02",
-        "stimulate-mcq-04",
-        "stimulate-mcq-01",
-        "stimulate-mcq-05",
-        "stimulate-mcq-06"
+        "stimulate-mcq-01"
       ],
       "explanation": "本句的「stimulates」指「刺激神經、肌肉、器官或細胞，使其產生生理反應」。",
       "sentenceIndex": 6,
@@ -379,12 +338,9 @@ export default {
         "stimulates"
       ],
       "optionReasons": {
-        "stimulate-mcq-03": "本句指「刺激神經、肌肉、器官或細胞，使其產生生理反應」。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-01": "「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」是「stimulate — mental」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。"
+        "stimulate-mcq-03": "本句的「stimulates」指「刺激神經、肌肉、器官或細胞，使其產生生理反應」。",
+        "stimulate-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stimulate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-03"
     },
@@ -396,11 +352,7 @@ export default {
       "masked": "Lower prices may ____ demand.",
       "options": [
         "stimulate-mcq-07",
-        "stimulate-mcq-06",
-        "stimulate-mcq-08",
-        "stimulate-mcq-05",
-        "stimulate-mcq-04",
-        "stimulate-mcq-03"
+        "stimulate-mcq-08"
       ],
       "explanation": "本句的「stimulate」指「透過某種因素使需求、興趣、活動量或參與程度增加」。",
       "sentenceIndex": 7,
@@ -409,12 +361,8 @@ export default {
         "stimulate"
       ],
       "optionReasons": {
-        "stimulate-mcq-07": "本句指「透過某種因素使需求、興趣、活動量或參與程度增加」。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。",
-        "stimulate-mcq-08": "「表示思想刺激」是「mental stimulation — 思想刺激」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。"
+        "stimulate-mcq-07": "本句的「stimulate」指「透過某種因素使需求、興趣、活動量或參與程度增加」。",
+        "stimulate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-07"
     },
@@ -426,10 +374,6 @@ export default {
       "masked": "The campaign helped ____ public interest.",
       "options": [
         "stimulate-mcq-07",
-        "stimulate-mcq-06",
-        "stimulate-mcq-08",
-        "stimulate-mcq-05",
-        "stimulate-mcq-04",
         "stimulate-mcq-03"
       ],
       "explanation": "本句的「stimulate」指「透過某種因素使需求、興趣、活動量或參與程度增加」。",
@@ -439,12 +383,8 @@ export default {
         "stimulate"
       ],
       "optionReasons": {
-        "stimulate-mcq-07": "本句指「透過某種因素使需求、興趣、活動量或參與程度增加」。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。",
-        "stimulate-mcq-08": "「表示思想刺激」是「mental stimulation — 思想刺激」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。"
+        "stimulate-mcq-07": "本句的「stimulate」指「透過某種因素使需求、興趣、活動量或參與程度增加」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-07"
     },
@@ -456,11 +396,7 @@ export default {
       "masked": "We had a very ____ conversation.",
       "options": [
         "stimulate-mcq-04",
-        "stimulate-mcq-03",
-        "stimulate-mcq-05",
-        "stimulate-mcq-02",
-        "stimulate-mcq-06",
-        "stimulate-mcq-01"
+        "stimulate-mcq-03"
       ],
       "explanation": "本句的「stimulating」指「能令思想、精神或活動變得更活躍；富啟發性」。",
       "sentenceIndex": 9,
@@ -469,12 +405,8 @@ export default {
         "stimulating"
       ],
       "optionReasons": {
-        "stimulate-mcq-04": "本句指「能令思想、精神或活動變得更活躍；富啟發性」。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。",
-        "stimulate-mcq-01": "「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」是「stimulate — mental」的用法，與本句語境不同。"
+        "stimulate-mcq-04": "本句的「stimulating」指「能令思想、精神或活動變得更活躍；富啟發性」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-04"
     },
@@ -486,11 +418,7 @@ export default {
       "masked": "She enjoys working in a ____ environment.",
       "options": [
         "stimulate-mcq-04",
-        "stimulate-mcq-03",
-        "stimulate-mcq-05",
-        "stimulate-mcq-02",
-        "stimulate-mcq-06",
-        "stimulate-mcq-01"
+        "stimulate-mcq-03"
       ],
       "explanation": "本句的「stimulating」指「能令思想、精神或活動變得更活躍；富啟發性」。",
       "sentenceIndex": 10,
@@ -499,12 +427,8 @@ export default {
         "stimulating"
       ],
       "optionReasons": {
-        "stimulate-mcq-04": "本句指「能令思想、精神或活動變得更活躍；富啟發性」。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。",
-        "stimulate-mcq-01": "「令思想、興趣、好奇心或討論變得更活躍；激發、啟發」是「stimulate — mental」的用法，與本句語境不同。"
+        "stimulate-mcq-04": "本句的「stimulating」指「能令思想、精神或活動變得更活躍；富啟發性」。",
+        "stimulate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-04"
     },
@@ -516,11 +440,7 @@ export default {
       "masked": "Children need plenty of mental ____.",
       "options": [
         "stimulate-mcq-08",
-        "stimulate-mcq-07",
-        "stimulate-mcq-06",
-        "stimulate-mcq-05",
-        "stimulate-mcq-04",
-        "stimulate-mcq-03"
+        "stimulate-mcq-07"
       ],
       "explanation": "本句的「stimulation」指「表示思想刺激」。",
       "sentenceIndex": 11,
@@ -529,12 +449,8 @@ export default {
         "stimulation"
       ],
       "optionReasons": {
-        "stimulate-mcq-08": "本句指「表示思想刺激」。",
-        "stimulate-mcq-07": "「透過某種因素使需求、興趣、活動量或參與程度增加」是「4. stimulate = encourage demand, interest, or activity（市場／行為） — 刺激；帶動」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。"
+        "stimulate-mcq-08": "本句的「stimulation」指「表示思想刺激」。",
+        "stimulate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-08"
     },
@@ -546,11 +462,7 @@ export default {
       "masked": "The treatment involves electrical ____ of the muscle.",
       "options": [
         "stimulate-mcq-05",
-        "stimulate-mcq-04",
-        "stimulate-mcq-06",
-        "stimulate-mcq-03",
-        "stimulate-mcq-07",
-        "stimulate-mcq-02"
+        "stimulate-mcq-07"
       ],
       "explanation": "本句的「stimulation」指「刺激作用；使心理、生理或系統變得活躍的過程」。",
       "sentenceIndex": 12,
@@ -559,12 +471,8 @@ export default {
         "stimulation"
       ],
       "optionReasons": {
-        "stimulate-mcq-05": "本句指「刺激作用；使心理、生理或系統變得活躍的過程」。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-06": "「引發反應、活動或增長的刺激因素」是「stimulus」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。",
-        "stimulate-mcq-07": "「透過某種因素使需求、興趣、活動量或參與程度增加」是「4. stimulate = encourage demand, interest, or activity（市場／行為） — 刺激；帶動」的用法，與本句語境不同。",
-        "stimulate-mcq-02": "「令某個過程、系統、需求或活動增加運作或增長」是「stimulate — activity/growth」的用法，與本句語境不同。"
+        "stimulate-mcq-05": "本句的「stimulation」指「刺激作用；使心理、生理或系統變得活躍的過程」。",
+        "stimulate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-05"
     },
@@ -576,11 +484,7 @@ export default {
       "masked": "Light is a visual ____.",
       "options": [
         "stimulate-mcq-06",
-        "stimulate-mcq-05",
-        "stimulate-mcq-07",
-        "stimulate-mcq-04",
-        "stimulate-mcq-08",
-        "stimulate-mcq-03"
+        "stimulate-mcq-01"
       ],
       "explanation": "本句的「stimulus」指「引發反應、活動或增長的刺激因素」。",
       "sentenceIndex": 13,
@@ -589,12 +493,8 @@ export default {
         "stimulus"
       ],
       "optionReasons": {
-        "stimulate-mcq-06": "本句指「引發反應、活動或增長的刺激因素」。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-07": "「透過某種因素使需求、興趣、活動量或參與程度增加」是「4. stimulate = encourage demand, interest, or activity（市場／行為） — 刺激；帶動」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-08": "「表示思想刺激」是「mental stimulation — 思想刺激」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。"
+        "stimulate-mcq-06": "本句的「stimulus」指「引發反應、活動或增長的刺激因素」。",
+        "stimulate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-06"
     },
@@ -606,11 +506,7 @@ export default {
       "masked": "The tax cut provided a ____ to the economy.",
       "options": [
         "stimulate-mcq-06",
-        "stimulate-mcq-05",
-        "stimulate-mcq-07",
-        "stimulate-mcq-04",
-        "stimulate-mcq-08",
-        "stimulate-mcq-03"
+        "stimulate-mcq-01"
       ],
       "explanation": "本句的「stimulus」指「引發反應、活動或增長的刺激因素」。",
       "sentenceIndex": 14,
@@ -619,12 +515,8 @@ export default {
         "stimulus"
       ],
       "optionReasons": {
-        "stimulate-mcq-06": "本句指「引發反應、活動或增長的刺激因素」。",
-        "stimulate-mcq-05": "「刺激作用；使心理、生理或系統變得活躍的過程」是「stimulation」的用法，與本句語境不同。",
-        "stimulate-mcq-07": "「透過某種因素使需求、興趣、活動量或參與程度增加」是「4. stimulate = encourage demand, interest, or activity（市場／行為） — 刺激；帶動」的用法，與本句語境不同。",
-        "stimulate-mcq-04": "「能令思想、精神或活動變得更活躍；富啟發性」是「stimulating」的用法，與本句語境不同。",
-        "stimulate-mcq-08": "「表示思想刺激」是「mental stimulation — 思想刺激」的用法，與本句語境不同。",
-        "stimulate-mcq-03": "「刺激神經、肌肉、器官或細胞，使其產生生理反應」是「stimulate — biological」的用法，與本句語境不同。"
+        "stimulate-mcq-06": "本句的「stimulus」指「引發反應、活動或增長的刺激因素」。",
+        "stimulate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stimulate-mcq-06"
     }
@@ -636,5 +528,7 @@ export default {
     "sha256": "3f4ebe0b85f8d14f7d6728bbba76f195b952612afb18eb1f5a357bcd37a49d6b",
     "pages": 9
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

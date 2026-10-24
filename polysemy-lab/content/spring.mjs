@@ -394,11 +394,9 @@ export default {
       "masked": "The flowers begin to grow in ____.",
       "options": [
         "spring-mcq-01",
-        "spring-mcq-02",
-        "spring-mcq-03",
-        "spring-mcq-04",
-        "spring-mcq-05",
-        "spring-mcq-06"
+        "spring-mcq-08",
+        "spring-mcq-14",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「spring」指「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」。",
       "sentenceIndex": 0,
@@ -407,12 +405,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-01": "本句指「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-01": "本句的「spring」指「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」。",
+        "spring-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-01"
     },
@@ -424,11 +420,9 @@ export default {
       "masked": "We usually plant tomatoes in early ____.",
       "options": [
         "spring-mcq-01",
-        "spring-mcq-02",
-        "spring-mcq-03",
-        "spring-mcq-04",
-        "spring-mcq-05",
-        "spring-mcq-06"
+        "spring-mcq-07",
+        "spring-mcq-14",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「spring」指「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」。",
       "sentenceIndex": 1,
@@ -437,12 +431,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-01": "本句指「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-01": "本句的「spring」指「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」。",
+        "spring-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-01"
     },
@@ -454,11 +446,9 @@ export default {
       "masked": "The garden is beautiful in ____.",
       "options": [
         "spring-mcq-02",
-        "spring-mcq-01",
-        "spring-mcq-03",
         "spring-mcq-04",
-        "spring-mcq-05",
-        "spring-mcq-06"
+        "spring-mcq-16",
+        "spring-mcq-03"
       ],
       "explanation": "本句的「springtime」指「春季；語氣稍具描寫性或抒情感」。",
       "sentenceIndex": 2,
@@ -467,12 +457,10 @@ export default {
         "springtime"
       ],
       "optionReasons": {
-        "spring-mcq-02": "本句指「春季；語氣稍具描寫性或抒情感」。",
-        "spring-mcq-01": "「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」是「spring — season」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-02": "本句的「springtime」指「春季；語氣稍具描寫性或抒情感」。",
+        "spring-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-02"
     },
@@ -484,11 +472,9 @@ export default {
       "masked": "Many plants flower during ____.",
       "options": [
         "spring-mcq-02",
-        "spring-mcq-01",
-        "spring-mcq-03",
-        "spring-mcq-04",
         "spring-mcq-05",
-        "spring-mcq-06"
+        "spring-mcq-17",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「springtime」指「春季；語氣稍具描寫性或抒情感」。",
       "sentenceIndex": 3,
@@ -497,12 +483,10 @@ export default {
         "springtime"
       ],
       "optionReasons": {
-        "spring-mcq-02": "本句指「春季；語氣稍具描寫性或抒情感」。",
-        "spring-mcq-01": "「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」是「spring — season」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-02": "本句的「springtime」指「春季；語氣稍具描寫性或抒情感」。",
+        "spring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-02"
     },
@@ -514,11 +498,9 @@ export default {
       "masked": "The door contains a strong ____.",
       "options": [
         "spring-mcq-03",
-        "spring-mcq-02",
-        "spring-mcq-04",
-        "spring-mcq-01",
-        "spring-mcq-05",
-        "spring-mcq-06"
+        "spring-mcq-15",
+        "spring-mcq-14",
+        "spring-mcq-09"
       ],
       "explanation": "本句的「spring」指「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」。",
       "sentenceIndex": 4,
@@ -527,12 +509,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-03": "本句指「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-01": "「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」是「spring — season」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-03": "本句的「spring」指「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-03"
     },
@@ -544,10 +524,8 @@ export default {
       "masked": "The ____ in the pen is broken.",
       "options": [
         "spring-mcq-03",
-        "spring-mcq-02",
-        "spring-mcq-04",
-        "spring-mcq-01",
-        "spring-mcq-05",
+        "spring-mcq-10",
+        "spring-mcq-14",
         "spring-mcq-06"
       ],
       "explanation": "本句的「spring」指「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」。",
@@ -557,12 +535,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-03": "本句指「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-01": "「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」是「spring — season」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-03": "本句的「spring」指「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-03"
     },
@@ -575,10 +551,8 @@ export default {
       "options": [
         "spring-mcq-04",
         "spring-mcq-03",
-        "spring-mcq-05",
-        "spring-mcq-02",
-        "spring-mcq-06",
-        "spring-mcq-01"
+        "spring-mcq-16",
+        "spring-mcq-02"
       ],
       "explanation": "本句的「spring」指「地下水自然湧出地面的泉源／泉眼」。",
       "sentenceIndex": 6,
@@ -587,12 +561,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-04": "本句指「地下水自然湧出地面的泉源／泉眼」。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-01": "「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」是「spring — season」的用法，與本句語境不同。"
+        "spring-mcq-04": "本句的「spring」指「地下水自然湧出地面的泉源／泉眼」。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-04"
     },
@@ -605,10 +577,8 @@ export default {
       "options": [
         "spring-mcq-04",
         "spring-mcq-03",
-        "spring-mcq-05",
-        "spring-mcq-02",
-        "spring-mcq-06",
-        "spring-mcq-01"
+        "spring-mcq-14",
+        "spring-mcq-15"
       ],
       "explanation": "本句的「spring」指「地下水自然湧出地面的泉源／泉眼」。",
       "sentenceIndex": 7,
@@ -617,12 +587,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-04": "本句指「地下水自然湧出地面的泉源／泉眼」。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-01": "「冬季之後、夏季之前，常與天氣回暖及植物重新生長相關的季節」是「spring — season」的用法，與本句語境不同。"
+        "spring-mcq-04": "本句的「spring」指「地下水自然湧出地面的泉源／泉眼」。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-04"
     },
@@ -634,11 +602,9 @@ export default {
       "masked": "The town is famous for its ____.",
       "options": [
         "spring-mcq-05",
-        "spring-mcq-04",
-        "spring-mcq-06",
-        "spring-mcq-03",
-        "spring-mcq-07",
-        "spring-mcq-02"
+        "spring-mcq-15",
+        "spring-mcq-16",
+        "spring-mcq-12"
       ],
       "explanation": "本句的「hot springs」指「地下自然湧出、溫度較高的地熱泉水」。",
       "sentenceIndex": 8,
@@ -647,12 +613,10 @@ export default {
         "hot springs"
       ],
       "optionReasons": {
-        "spring-mcq-05": "本句指「地下自然湧出、溫度較高的地熱泉水」。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。"
+        "spring-mcq-05": "本句的「hot springs」指「地下自然湧出、溫度較高的地熱泉水」。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-05"
     },
@@ -664,11 +628,9 @@ export default {
       "masked": "We relaxed in a hot ____ after hiking.",
       "options": [
         "spring-mcq-05",
-        "spring-mcq-04",
-        "spring-mcq-06",
-        "spring-mcq-03",
-        "spring-mcq-07",
-        "spring-mcq-02"
+        "spring-mcq-15",
+        "spring-mcq-11",
+        "spring-mcq-10"
       ],
       "explanation": "本句的「spring」指「地下自然湧出、溫度較高的地熱泉水」。",
       "sentenceIndex": 9,
@@ -677,12 +639,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-05": "本句指「地下自然湧出、溫度較高的地熱泉水」。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-02": "「春季；語氣稍具描寫性或抒情感」是「springtime」的用法，與本句語境不同。"
+        "spring-mcq-05": "本句的「spring」指「地下自然湧出、溫度較高的地熱泉水」。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-05"
     },
@@ -694,11 +654,9 @@ export default {
       "masked": "The bottle contains natural ____.",
       "options": [
         "spring-mcq-06",
-        "spring-mcq-05",
-        "spring-mcq-07",
-        "spring-mcq-04",
-        "spring-mcq-08",
-        "spring-mcq-03"
+        "spring-mcq-17",
+        "spring-mcq-15",
+        "spring-mcq-14"
       ],
       "explanation": "本句的「spring water」指「來自天然地下泉源的水」。",
       "sentenceIndex": 10,
@@ -707,12 +665,10 @@ export default {
         "spring water"
       ],
       "optionReasons": {
-        "spring-mcq-06": "本句指「來自天然地下泉源的水」。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。"
+        "spring-mcq-06": "本句的「spring water」指「來自天然地下泉源的水」。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-06"
     },
@@ -724,10 +680,8 @@ export default {
       "masked": "They collected ____ water from the mountain.",
       "options": [
         "spring-mcq-06",
-        "spring-mcq-05",
-        "spring-mcq-07",
-        "spring-mcq-04",
-        "spring-mcq-08",
+        "spring-mcq-17",
+        "spring-mcq-15",
         "spring-mcq-03"
       ],
       "explanation": "本句的「spring」指「來自天然地下泉源的水」。",
@@ -737,12 +691,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-06": "本句指「來自天然地下泉源的水」。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-03": "「受壓／拉伸後能恢復形狀並儲存、釋放機械能的彈簧」是「spring — mechanism」的用法，與本句語境不同。"
+        "spring-mcq-06": "本句的「spring」指「來自天然地下泉源的水」。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-06"
     },
@@ -754,11 +706,9 @@ export default {
       "masked": "The cat ____ onto the wall.",
       "options": [
         "spring-mcq-07",
-        "spring-mcq-06",
-        "spring-mcq-08",
-        "spring-mcq-05",
-        "spring-mcq-09",
-        "spring-mcq-04"
+        "spring-mcq-01",
+        "spring-mcq-15",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「sprang」指「以快速、有彈性的動作突然跳動／躍起」。",
       "sentenceIndex": 12,
@@ -767,12 +717,10 @@ export default {
         "sprang"
       ],
       "optionReasons": {
-        "spring-mcq-07": "本句指「以快速、有彈性的動作突然跳動／躍起」。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。"
+        "spring-mcq-07": "本句的「sprang」指「以快速、有彈性的動作突然跳動／躍起」。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-07"
     },
@@ -784,11 +732,9 @@ export default {
       "masked": "He ____ to his feet when he heard the noise.",
       "options": [
         "spring-mcq-07",
-        "spring-mcq-06",
-        "spring-mcq-08",
-        "spring-mcq-05",
-        "spring-mcq-09",
-        "spring-mcq-04"
+        "spring-mcq-01",
+        "spring-mcq-15",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「sprang」指「以快速、有彈性的動作突然跳動／躍起」。",
       "sentenceIndex": 13,
@@ -797,12 +743,10 @@ export default {
         "sprang"
       ],
       "optionReasons": {
-        "spring-mcq-07": "本句指「以快速、有彈性的動作突然跳動／躍起」。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-04": "「地下水自然湧出地面的泉源／泉眼」是「spring — water source」的用法，與本句語境不同。"
+        "spring-mcq-07": "本句的「sprang」指「以快速、有彈性的動作突然跳動／躍起」。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-07"
     },
@@ -814,11 +758,9 @@ export default {
       "masked": "The door ____.",
       "options": [
         "spring-mcq-08",
-        "spring-mcq-07",
-        "spring-mcq-09",
-        "spring-mcq-06",
-        "spring-mcq-10",
-        "spring-mcq-05"
+        "spring-mcq-16",
+        "spring-mcq-02",
+        "spring-mcq-14"
       ],
       "explanation": "本句的「sprang open」指「因彈力或突然動作而迅速改變位置」。",
       "sentenceIndex": 14,
@@ -827,12 +769,10 @@ export default {
         "sprang open"
       ],
       "optionReasons": {
-        "spring-mcq-08": "本句指「因彈力或突然動作而迅速改變位置」。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。"
+        "spring-mcq-08": "本句的「sprang open」指「因彈力或突然動作而迅速改變位置」。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-08"
     },
@@ -844,11 +784,9 @@ export default {
       "masked": "The lid ____ shut.",
       "options": [
         "spring-mcq-08",
-        "spring-mcq-07",
-        "spring-mcq-09",
-        "spring-mcq-06",
-        "spring-mcq-10",
-        "spring-mcq-05"
+        "spring-mcq-16",
+        "spring-mcq-14",
+        "spring-mcq-15"
       ],
       "explanation": "本句的「sprang」指「因彈力或突然動作而迅速改變位置」。",
       "sentenceIndex": 15,
@@ -857,12 +795,10 @@ export default {
         "sprang"
       ],
       "optionReasons": {
-        "spring-mcq-08": "本句指「因彈力或突然動作而迅速改變位置」。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-05": "「地下自然湧出、溫度較高的地熱泉水」是「hot spring」的用法，與本句語境不同。"
+        "spring-mcq-08": "本句的「sprang」指「因彈力或突然動作而迅速改變位置」。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-08"
     },
@@ -874,11 +810,9 @@ export default {
       "masked": "Her love of gardening ____ childhood memories.",
       "options": [
         "spring-mcq-10",
-        "spring-mcq-09",
         "spring-mcq-11",
-        "spring-mcq-08",
-        "spring-mcq-12",
-        "spring-mcq-07"
+        "spring-mcq-15",
+        "spring-mcq-02"
       ],
       "explanation": "本句的「sprang from」指「某事物從某個來源、原因或背景產生／起源」。",
       "sentenceIndex": 16,
@@ -887,12 +821,10 @@ export default {
         "sprang from"
       ],
       "optionReasons": {
-        "spring-mcq-10": "本句指「某事物從某個來源、原因或背景產生／起源」。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。"
+        "spring-mcq-10": "本句的「sprang from」指「某事物從某個來源、原因或背景產生／起源」。",
+        "spring-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-10"
     },
@@ -904,11 +836,9 @@ export default {
       "masked": "The idea ____ from a simple conversation.",
       "options": [
         "spring-mcq-10",
-        "spring-mcq-09",
-        "spring-mcq-11",
-        "spring-mcq-08",
-        "spring-mcq-12",
-        "spring-mcq-07"
+        "spring-mcq-05",
+        "spring-mcq-02",
+        "spring-mcq-15"
       ],
       "explanation": "本句的「sprang」指「某事物從某個來源、原因或背景產生／起源」。",
       "sentenceIndex": 17,
@@ -917,12 +847,10 @@ export default {
         "sprang"
       ],
       "optionReasons": {
-        "spring-mcq-10": "本句指「某事物從某個來源、原因或背景產生／起源」。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。"
+        "spring-mcq-10": "本句的「sprang」指「某事物從某個來源、原因或背景產生／起源」。",
+        "spring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-10"
     },
@@ -934,11 +862,9 @@ export default {
       "masked": "New ideas ____ from curiosity.",
       "options": [
         "spring-mcq-09",
-        "spring-mcq-08",
-        "spring-mcq-10",
-        "spring-mcq-07",
-        "spring-mcq-11",
-        "spring-mcq-06"
+        "spring-mcq-16",
+        "spring-mcq-03",
+        "spring-mcq-17"
       ],
       "explanation": "本句的「spring」指「某種想法、情感或現象自然／突然萌生或出現」。",
       "sentenceIndex": 18,
@@ -947,12 +873,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-09": "本句指「某種想法、情感或現象自然／突然萌生或出現」。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-09": "本句的「spring」指「某種想法、情感或現象自然／突然萌生或出現」。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-09"
     },
@@ -964,11 +888,9 @@ export default {
       "masked": "Hope can ____ from difficult experiences.",
       "options": [
         "spring-mcq-09",
-        "spring-mcq-08",
-        "spring-mcq-10",
-        "spring-mcq-07",
-        "spring-mcq-11",
-        "spring-mcq-06"
+        "spring-mcq-14",
+        "spring-mcq-16",
+        "spring-mcq-15"
       ],
       "explanation": "本句的「spring」指「某種想法、情感或現象自然／突然萌生或出現」。",
       "sentenceIndex": 19,
@@ -977,12 +899,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-09": "本句指「某種想法、情感或現象自然／突然萌生或出現」。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-07": "「以快速、有彈性的動作突然跳動／躍起」是「spring — jump」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-06": "「來自天然地下泉源的水」是「spring water」的用法，與本句語境不同。"
+        "spring-mcq-09": "本句的「spring」指「某種想法、情感或現象自然／突然萌生或出現」。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-09"
     },
@@ -994,11 +914,9 @@ export default {
       "masked": "The mattress feels soft and ____.",
       "options": [
         "spring-mcq-11",
+        "spring-mcq-16",
         "spring-mcq-10",
-        "spring-mcq-12",
-        "spring-mcq-09",
-        "spring-mcq-13",
-        "spring-mcq-08"
+        "spring-mcq-15"
       ],
       "explanation": "本句的「springy」指「受壓後能回彈、具有彈性的」。",
       "sentenceIndex": 20,
@@ -1007,12 +925,10 @@ export default {
         "springy"
       ],
       "optionReasons": {
-        "spring-mcq-11": "本句指「受壓後能回彈、具有彈性的」。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。"
+        "spring-mcq-11": "本句的「springy」指「受壓後能回彈、具有彈性的」。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-11"
     },
@@ -1024,11 +940,9 @@ export default {
       "masked": "The grass felt ____ underfoot.",
       "options": [
         "spring-mcq-11",
-        "spring-mcq-10",
-        "spring-mcq-12",
         "spring-mcq-09",
-        "spring-mcq-13",
-        "spring-mcq-08"
+        "spring-mcq-10",
+        "spring-mcq-14"
       ],
       "explanation": "本句的「springy」指「受壓後能回彈、具有彈性的」。",
       "sentenceIndex": 21,
@@ -1037,12 +951,10 @@ export default {
         "springy"
       ],
       "optionReasons": {
-        "spring-mcq-11": "本句指「受壓後能回彈、具有彈性的」。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-08": "「因彈力或突然動作而迅速改變位置」是「spring — sudden movement」的用法，與本句語境不同。"
+        "spring-mcq-11": "本句的「springy」指「受壓後能回彈、具有彈性的」。",
+        "spring-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-11"
     },
@@ -1054,11 +966,9 @@ export default {
       "masked": "She walked with a ____ step.",
       "options": [
         "spring-mcq-12",
-        "spring-mcq-11",
-        "spring-mcq-13",
+        "spring-mcq-06",
         "spring-mcq-10",
-        "spring-mcq-14",
-        "spring-mcq-09"
+        "spring-mcq-16"
       ],
       "explanation": "本句的「springy」指「動作或步伐輕快、有彈跳感的」。",
       "sentenceIndex": 22,
@@ -1067,12 +977,10 @@ export default {
         "springy"
       ],
       "optionReasons": {
-        "spring-mcq-12": "本句指「動作或步伐輕快、有彈跳感的」。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。"
+        "spring-mcq-12": "本句的「springy」指「動作或步伐輕快、有彈跳感的」。",
+        "spring-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-12"
     },
@@ -1084,11 +992,9 @@ export default {
       "masked": "The dancer’s movements were light and ____.",
       "options": [
         "spring-mcq-12",
-        "spring-mcq-11",
-        "spring-mcq-13",
-        "spring-mcq-10",
-        "spring-mcq-14",
-        "spring-mcq-09"
+        "spring-mcq-01",
+        "spring-mcq-15",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「springy」指「動作或步伐輕快、有彈跳感的」。",
       "sentenceIndex": 23,
@@ -1097,12 +1003,10 @@ export default {
         "springy"
       ],
       "optionReasons": {
-        "spring-mcq-12": "本句指「動作或步伐輕快、有彈跳感的」。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-09": "「某種想法、情感或現象自然／突然萌生或出現」是「spring — figurative」的用法，與本句語境不同。"
+        "spring-mcq-12": "本句的「springy」指「動作或步伐輕快、有彈跳感的」。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-12"
     },
@@ -1114,11 +1018,9 @@ export default {
       "masked": "The diver jumped from the ____.",
       "options": [
         "spring-mcq-13",
-        "spring-mcq-12",
-        "spring-mcq-14",
-        "spring-mcq-11",
-        "spring-mcq-15",
-        "spring-mcq-10"
+        "spring-mcq-01",
+        "spring-mcq-16",
+        "spring-mcq-17"
       ],
       "explanation": "本句的「springboard」指「用來協助跳躍／跳水的彈性跳板」。",
       "sentenceIndex": 24,
@@ -1127,12 +1029,10 @@ export default {
         "springboard"
       ],
       "optionReasons": {
-        "spring-mcq-13": "本句指「用來協助跳躍／跳水的彈性跳板」。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。"
+        "spring-mcq-13": "本句的「springboard」指「用來協助跳躍／跳水的彈性跳板」。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-13"
     },
@@ -1144,11 +1044,9 @@ export default {
       "masked": "The gymnast pushed off from the ____.",
       "options": [
         "spring-mcq-13",
-        "spring-mcq-12",
-        "spring-mcq-14",
-        "spring-mcq-11",
         "spring-mcq-15",
-        "spring-mcq-10"
+        "spring-mcq-01",
+        "spring-mcq-16"
       ],
       "explanation": "本句的「springboard」指「用來協助跳躍／跳水的彈性跳板」。",
       "sentenceIndex": 25,
@@ -1157,12 +1055,10 @@ export default {
         "springboard"
       ],
       "optionReasons": {
-        "spring-mcq-13": "本句指「用來協助跳躍／跳水的彈性跳板」。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-10": "「某事物從某個來源、原因或背景產生／起源」是「spring from」的用法，與本句語境不同。"
+        "spring-mcq-13": "本句的「springboard」指「用來協助跳躍／跳水的彈性跳板」。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-13"
     },
@@ -1174,11 +1070,9 @@ export default {
       "masked": "The internship became a ____ for her career.",
       "options": [
         "spring-mcq-14",
-        "spring-mcq-13",
-        "spring-mcq-15",
-        "spring-mcq-12",
-        "spring-mcq-16",
-        "spring-mcq-11"
+        "spring-mcq-02",
+        "spring-mcq-05",
+        "spring-mcq-03"
       ],
       "explanation": "本句的「springboard」指「幫助某人進一步發展或成功的起點／跳板」。",
       "sentenceIndex": 26,
@@ -1187,12 +1081,10 @@ export default {
         "springboard"
       ],
       "optionReasons": {
-        "spring-mcq-14": "本句指「幫助某人進一步發展或成功的起點／跳板」。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。"
+        "spring-mcq-14": "本句的「springboard」指「幫助某人進一步發展或成功的起點／跳板」。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-14"
     },
@@ -1204,11 +1096,9 @@ export default {
       "masked": "The competition gave him a ____ into professional sport.",
       "options": [
         "spring-mcq-14",
-        "spring-mcq-13",
-        "spring-mcq-15",
-        "spring-mcq-12",
-        "spring-mcq-16",
-        "spring-mcq-11"
+        "spring-mcq-06",
+        "spring-mcq-03",
+        "spring-mcq-02"
       ],
       "explanation": "本句的「springboard」指「幫助某人進一步發展或成功的起點／跳板」。",
       "sentenceIndex": 27,
@@ -1217,12 +1107,10 @@ export default {
         "springboard"
       ],
       "optionReasons": {
-        "spring-mcq-14": "本句指「幫助某人進一步發展或成功的起點／跳板」。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-11": "「受壓後能回彈、具有彈性的」是「springy — material」的用法，與本句語境不同。"
+        "spring-mcq-14": "本句的「springboard」指「幫助某人進一步發展或成功的起點／跳板」。",
+        "spring-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-14"
     },
@@ -1234,11 +1122,9 @@ export default {
       "masked": "She grows lettuce, cherry tomatoes, ____, and chilli peppers.",
       "options": [
         "spring-mcq-15",
-        "spring-mcq-14",
-        "spring-mcq-16",
-        "spring-mcq-13",
-        "spring-mcq-17",
-        "spring-mcq-12"
+        "spring-mcq-10",
+        "spring-mcq-06",
+        "spring-mcq-03"
       ],
       "explanation": "本句的「spring onions」指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
       "sentenceIndex": 28,
@@ -1247,12 +1133,10 @@ export default {
         "spring onions"
       ],
       "optionReasons": {
-        "spring-mcq-15": "本句指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-17": "「因心情愉快／精力充沛而步伐輕快、精神奕奕」是「spring in one’s step」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-15": "本句的「spring onions」指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-15"
     },
@@ -1264,11 +1148,9 @@ export default {
       "masked": "Chop the ____ onions finely.",
       "options": [
         "spring-mcq-15",
-        "spring-mcq-14",
-        "spring-mcq-16",
-        "spring-mcq-13",
+        "spring-mcq-09",
         "spring-mcq-17",
-        "spring-mcq-12"
+        "spring-mcq-10"
       ],
       "explanation": "本句的「spring」指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
       "sentenceIndex": 29,
@@ -1277,12 +1159,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-15": "本句指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-17": "「因心情愉快／精力充沛而步伐輕快、精神奕奕」是「spring in one’s step」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-15": "本句的「spring」指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
+        "spring-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-15"
     },
@@ -1294,11 +1174,9 @@ export default {
       "masked": "____ onions add a fresh flavour to the dish.",
       "options": [
         "spring-mcq-15",
-        "spring-mcq-14",
-        "spring-mcq-16",
-        "spring-mcq-13",
-        "spring-mcq-17",
-        "spring-mcq-12"
+        "spring-mcq-10",
+        "spring-mcq-04",
+        "spring-mcq-08"
       ],
       "explanation": "本句的「Spring」指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
       "sentenceIndex": 30,
@@ -1307,12 +1185,10 @@ export default {
         "Spring"
       ],
       "optionReasons": {
-        "spring-mcq-15": "本句指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-17": "「因心情愉快／精力充沛而步伐輕快、精神奕奕」是「spring in one’s step」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-15": "本句的「Spring」指「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」。",
+        "spring-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-15"
     },
@@ -1324,11 +1200,9 @@ export default {
       "masked": "We did some ____ at the weekend.",
       "options": [
         "spring-mcq-16",
-        "spring-mcq-15",
-        "spring-mcq-17",
-        "spring-mcq-14",
-        "spring-mcq-13",
-        "spring-mcq-12"
+        "spring-mcq-07",
+        "spring-mcq-03",
+        "spring-mcq-17"
       ],
       "explanation": "本句的「spring cleaning」指「對家居進行徹底清潔、整理和清除舊物的大掃除」。",
       "sentenceIndex": 31,
@@ -1337,12 +1211,10 @@ export default {
         "spring cleaning"
       ],
       "optionReasons": {
-        "spring-mcq-16": "本句指「對家居進行徹底清潔、整理和清除舊物的大掃除」。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-17": "「因心情愉快／精力充沛而步伐輕快、精神奕奕」是「spring in one’s step」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-16": "本句的「spring cleaning」指「對家居進行徹底清潔、整理和清除舊物的大掃除」。",
+        "spring-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-16"
     },
@@ -1354,11 +1226,9 @@ export default {
       "masked": "____ cleaning usually involves clearing out old things.",
       "options": [
         "spring-mcq-16",
-        "spring-mcq-15",
-        "spring-mcq-17",
-        "spring-mcq-14",
-        "spring-mcq-13",
-        "spring-mcq-12"
+        "spring-mcq-05",
+        "spring-mcq-03",
+        "spring-mcq-07"
       ],
       "explanation": "本句的「Spring」指「對家居進行徹底清潔、整理和清除舊物的大掃除」。",
       "sentenceIndex": 32,
@@ -1367,12 +1237,10 @@ export default {
         "Spring"
       ],
       "optionReasons": {
-        "spring-mcq-16": "本句指「對家居進行徹底清潔、整理和清除舊物的大掃除」。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-17": "「因心情愉快／精力充沛而步伐輕快、精神奕奕」是「spring in one’s step」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-16": "本句的「Spring」指「對家居進行徹底清潔、整理和清除舊物的大掃除」。",
+        "spring-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-16"
     },
@@ -1384,11 +1252,9 @@ export default {
       "masked": "She had a ____ after seeing the first flowers bloom.",
       "options": [
         "spring-mcq-17",
-        "spring-mcq-16",
-        "spring-mcq-15",
-        "spring-mcq-14",
-        "spring-mcq-13",
-        "spring-mcq-12"
+        "spring-mcq-01",
+        "spring-mcq-11",
+        "spring-mcq-15"
       ],
       "explanation": "本句的「spring in her step」指「因心情愉快／精力充沛而步伐輕快、精神奕奕」。",
       "sentenceIndex": 33,
@@ -1397,12 +1263,10 @@ export default {
         "spring in her step"
       ],
       "optionReasons": {
-        "spring-mcq-17": "本句指「因心情愉快／精力充沛而步伐輕快、精神奕奕」。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-17": "本句的「spring in her step」指「因心情愉快／精力充沛而步伐輕快、精神奕奕」。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-17"
     },
@@ -1414,11 +1278,9 @@ export default {
       "masked": "Good news put a ____ in his step.",
       "options": [
         "spring-mcq-17",
-        "spring-mcq-16",
-        "spring-mcq-15",
-        "spring-mcq-14",
-        "spring-mcq-13",
-        "spring-mcq-12"
+        "spring-mcq-01",
+        "spring-mcq-02",
+        "spring-mcq-15"
       ],
       "explanation": "本句的「spring」指「因心情愉快／精力充沛而步伐輕快、精神奕奕」。",
       "sentenceIndex": 34,
@@ -1427,12 +1289,10 @@ export default {
         "spring"
       ],
       "optionReasons": {
-        "spring-mcq-17": "本句指「因心情愉快／精力充沛而步伐輕快、精神奕奕」。",
-        "spring-mcq-16": "「對家居進行徹底清潔、整理和清除舊物的大掃除」是「spring cleaning」的用法，與本句語境不同。",
-        "spring-mcq-15": "「尚未完全長成大球莖、連綠色葉柄食用的嫩蔥／青蔥」是「spring onion」的用法，與本句語境不同。",
-        "spring-mcq-14": "「幫助某人進一步發展或成功的起點／跳板」是「springboard — figurative」的用法，與本句語境不同。",
-        "spring-mcq-13": "「用來協助跳躍／跳水的彈性跳板」是「springboard — literal」的用法，與本句語境不同。",
-        "spring-mcq-12": "「動作或步伐輕快、有彈跳感的」是「springy — movement」的用法，與本句語境不同。"
+        "spring-mcq-17": "本句的「spring」指「因心情愉快／精力充沛而步伐輕快、精神奕奕」。",
+        "spring-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "spring-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "spring-mcq-17"
     }
@@ -1444,5 +1304,7 @@ export default {
     "sha256": "e7baa30dc4f12b0f602bf5e65df1a4b2d277454c58651963b05ee568b37748eb",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

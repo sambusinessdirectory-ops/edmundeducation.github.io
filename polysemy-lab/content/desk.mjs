@@ -368,7 +368,7 @@ export default {
     },
     {
       "id": "desk-mcq-18",
-      "title": "表示工作崗位；辦公位置",
+      "title": "工作崗位；辦公位置",
       "form": "13. desk — office position or station",
       "en": "13. desk — office position or station",
       "zh": "表示工作崗位；辦公位置",
@@ -398,11 +398,9 @@ export default {
       "masked": "The pen is always on my ____.",
       "options": [
         "desk-mcq-01",
-        "desk-mcq-02",
-        "desk-mcq-03",
-        "desk-mcq-04",
+        "desk-mcq-08",
         "desk-mcq-05",
-        "desk-mcq-06"
+        "desk-mcq-07"
       ],
       "explanation": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
       "sentenceIndex": 0,
@@ -411,12 +409,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-01": "本句指「用於寫字、讀書或辦公的書桌／辦公桌」。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-01": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-01"
     },
@@ -428,11 +424,9 @@ export default {
       "masked": "She sat at her ____ and started writing.",
       "options": [
         "desk-mcq-01",
-        "desk-mcq-02",
-        "desk-mcq-03",
-        "desk-mcq-04",
-        "desk-mcq-05",
-        "desk-mcq-06"
+        "desk-mcq-08",
+        "desk-mcq-07",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
       "sentenceIndex": 1,
@@ -441,12 +435,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-01": "本句指「用於寫字、讀書或辦公的書桌／辦公桌」。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-01": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-01"
     },
@@ -458,11 +450,9 @@ export default {
       "masked": "There is a lamp on my ____.",
       "options": [
         "desk-mcq-01",
-        "desk-mcq-02",
-        "desk-mcq-03",
-        "desk-mcq-04",
-        "desk-mcq-05",
-        "desk-mcq-06"
+        "desk-mcq-08",
+        "desk-mcq-07",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
       "sentenceIndex": 2,
@@ -471,12 +461,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-01": "本句指「用於寫字、讀書或辦公的書桌／辦公桌」。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-01": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-01"
     },
@@ -488,11 +476,9 @@ export default {
       "masked": "He spends most of the day at his ____.",
       "options": [
         "desk-mcq-01",
-        "desk-mcq-02",
-        "desk-mcq-03",
-        "desk-mcq-04",
         "desk-mcq-05",
-        "desk-mcq-06"
+        "desk-mcq-08",
+        "desk-mcq-07"
       ],
       "explanation": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
       "sentenceIndex": 3,
@@ -501,12 +487,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-01": "本句指「用於寫字、讀書或辦公的書桌／辦公桌」。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-01": "本句的「desk」指「用於寫字、讀書或辦公的書桌／辦公桌」。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-01"
     },
@@ -518,11 +502,9 @@ export default {
       "masked": "She bought a small ____.",
       "options": [
         "desk-mcq-02",
-        "desk-mcq-01",
-        "desk-mcq-03",
-        "desk-mcq-04",
-        "desk-mcq-05",
-        "desk-mcq-06"
+        "desk-mcq-08",
+        "desk-mcq-16",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「writing desk」指「主要用於寫作或讀書的書桌」。",
       "sentenceIndex": 4,
@@ -531,12 +513,10 @@ export default {
         "writing desk"
       ],
       "optionReasons": {
-        "desk-mcq-02": "本句指「主要用於寫作或讀書的書桌」。",
-        "desk-mcq-01": "「用於寫字、讀書或辦公的書桌／辦公桌」是「desk — furniture」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-02": "本句的「writing desk」指「主要用於寫作或讀書的書桌」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-02"
     },
@@ -548,11 +528,9 @@ export default {
       "masked": "The student kept all his books on the ____.",
       "options": [
         "desk-mcq-02",
-        "desk-mcq-01",
-        "desk-mcq-03",
         "desk-mcq-04",
-        "desk-mcq-05",
-        "desk-mcq-06"
+        "desk-mcq-08",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「study desk」指「主要用於寫作或讀書的書桌」。",
       "sentenceIndex": 5,
@@ -561,12 +539,10 @@ export default {
         "study desk"
       ],
       "optionReasons": {
-        "desk-mcq-02": "本句指「主要用於寫作或讀書的書桌」。",
-        "desk-mcq-01": "「用於寫字、讀書或辦公的書桌／辦公桌」是「desk — furniture」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-02": "本句的「study desk」指「主要用於寫作或讀書的書桌」。",
+        "desk-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-02"
     },
@@ -578,10 +554,7 @@ export default {
       "masked": "Ask at the front ____.",
       "options": [
         "desk-mcq-03",
-        "desk-mcq-02",
-        "desk-mcq-04",
-        "desk-mcq-01",
-        "desk-mcq-05",
+        "desk-mcq-14",
         "desk-mcq-06"
       ],
       "explanation": "本句的「desk」指「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」。",
@@ -591,12 +564,9 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-03": "本句指「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-01": "「用於寫字、讀書或辦公的書桌／辦公桌」是「desk — furniture」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-03": "本句的「desk」指「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」。",
+        "desk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-03"
     },
@@ -608,10 +578,7 @@ export default {
       "masked": "Please leave the key at the reception ____.",
       "options": [
         "desk-mcq-03",
-        "desk-mcq-02",
-        "desk-mcq-04",
-        "desk-mcq-01",
-        "desk-mcq-05",
+        "desk-mcq-14",
         "desk-mcq-06"
       ],
       "explanation": "本句的「desk」指「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」。",
@@ -621,12 +588,9 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-03": "本句指「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-01": "「用於寫字、讀書或辦公的書桌／辦公桌」是「desk — furniture」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-03": "本句的「desk」指「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」。",
+        "desk-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-03"
     },
@@ -638,11 +602,9 @@ export default {
       "masked": "The ____ is open twenty-four hours.",
       "options": [
         "desk-mcq-04",
-        "desk-mcq-03",
-        "desk-mcq-05",
-        "desk-mcq-02",
         "desk-mcq-06",
-        "desk-mcq-01"
+        "desk-mcq-02",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「front desk」指「飯店、辦公室等的前台／接待櫃檯」。",
       "sentenceIndex": 8,
@@ -651,12 +613,10 @@ export default {
         "front desk"
       ],
       "optionReasons": {
-        "desk-mcq-04": "本句指「飯店、辦公室等的前台／接待櫃檯」。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-01": "「用於寫字、讀書或辦公的書桌／辦公桌」是「desk — furniture」的用法，與本句語境不同。"
+        "desk-mcq-04": "本句的「front desk」指「飯店、辦公室等的前台／接待櫃檯」。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-04"
     },
@@ -668,11 +628,9 @@ export default {
       "masked": "I called the ____ for help.",
       "options": [
         "desk-mcq-04",
-        "desk-mcq-03",
-        "desk-mcq-05",
-        "desk-mcq-02",
         "desk-mcq-06",
-        "desk-mcq-01"
+        "desk-mcq-02",
+        "desk-mcq-14"
       ],
       "explanation": "本句的「front desk」指「飯店、辦公室等的前台／接待櫃檯」。",
       "sentenceIndex": 9,
@@ -681,12 +639,10 @@ export default {
         "front desk"
       ],
       "optionReasons": {
-        "desk-mcq-04": "本句指「飯店、辦公室等的前台／接待櫃檯」。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-01": "「用於寫字、讀書或辦公的書桌／辦公桌」是「desk — furniture」的用法，與本句語境不同。"
+        "desk-mcq-04": "本句的「front desk」指「飯店、辦公室等的前台／接待櫃檯」。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-04"
     },
@@ -698,11 +654,8 @@ export default {
       "masked": "Contact the IT ____.",
       "options": [
         "desk-mcq-05",
-        "desk-mcq-04",
-        "desk-mcq-06",
-        "desk-mcq-03",
-        "desk-mcq-07",
-        "desk-mcq-02"
+        "desk-mcq-09",
+        "desk-mcq-06"
       ],
       "explanation": "本句的「help desk」指「提供技術或實務支援的服務台」。",
       "sentenceIndex": 10,
@@ -711,12 +664,9 @@ export default {
         "help desk"
       ],
       "optionReasons": {
-        "desk-mcq-05": "本句指「提供技術或實務支援的服務台」。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。"
+        "desk-mcq-05": "本句的「help desk」指「提供技術或實務支援的服務台」。",
+        "desk-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-05"
     },
@@ -728,11 +678,9 @@ export default {
       "masked": "The ____ resolved the issue quickly.",
       "options": [
         "desk-mcq-05",
-        "desk-mcq-04",
         "desk-mcq-06",
-        "desk-mcq-03",
-        "desk-mcq-07",
-        "desk-mcq-02"
+        "desk-mcq-02",
+        "desk-mcq-17"
       ],
       "explanation": "本句的「help desk」指「提供技術或實務支援的服務台」。",
       "sentenceIndex": 11,
@@ -741,12 +689,10 @@ export default {
         "help desk"
       ],
       "optionReasons": {
-        "desk-mcq-05": "本句指「提供技術或實務支援的服務台」。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-02": "「主要用於寫作或讀書的書桌」是「writing/study desk」的用法，與本句語境不同。"
+        "desk-mcq-05": "本句的「help desk」指「提供技術或實務支援的服務台」。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-05"
     },
@@ -758,11 +704,9 @@ export default {
       "masked": "She works on the foreign ____.",
       "options": [
         "desk-mcq-06",
+        "desk-mcq-01",
         "desk-mcq-05",
-        "desk-mcq-07",
-        "desk-mcq-04",
-        "desk-mcq-08",
-        "desk-mcq-03"
+        "desk-mcq-14"
       ],
       "explanation": "本句的「desk」指「新聞機構中負責某一主題的編輯組／部門」。",
       "sentenceIndex": 12,
@@ -771,12 +715,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-06": "本句指「新聞機構中負責某一主題的編輯組／部門」。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。"
+        "desk-mcq-06": "本句的「desk」指「新聞機構中負責某一主題的編輯組／部門」。",
+        "desk-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-06"
     },
@@ -788,11 +730,9 @@ export default {
       "masked": "The sports ____ covered the tournament.",
       "options": [
         "desk-mcq-06",
+        "desk-mcq-17",
         "desk-mcq-05",
-        "desk-mcq-07",
-        "desk-mcq-04",
-        "desk-mcq-08",
-        "desk-mcq-03"
+        "desk-mcq-02"
       ],
       "explanation": "本句的「desk」指「新聞機構中負責某一主題的編輯組／部門」。",
       "sentenceIndex": 13,
@@ -801,12 +741,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-06": "本句指「新聞機構中負責某一主題的編輯組／部門」。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-03": "「飯店、辦公室、機場等提供服務或資訊的櫃檯／服務台」是「desk — service point」的用法，與本句語境不同。"
+        "desk-mcq-06": "本句的「desk」指「新聞機構中負責某一主題的編輯組／部門」。",
+        "desk-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-06"
     },
@@ -818,11 +756,9 @@ export default {
       "masked": "The report was sent to the ____.",
       "options": [
         "desk-mcq-07",
-        "desk-mcq-06",
-        "desk-mcq-08",
+        "desk-mcq-16",
         "desk-mcq-05",
-        "desk-mcq-09",
-        "desk-mcq-04"
+        "desk-mcq-08"
       ],
       "explanation": "本句的「news desk」指「處理新聞內容的新聞編輯台／新聞部」。",
       "sentenceIndex": 14,
@@ -831,12 +767,10 @@ export default {
         "news desk"
       ],
       "optionReasons": {
-        "desk-mcq-07": "本句指「處理新聞內容的新聞編輯台／新聞部」。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。"
+        "desk-mcq-07": "本句的「news desk」指「處理新聞內容的新聞編輯台／新聞部」。",
+        "desk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-07"
     },
@@ -848,11 +782,9 @@ export default {
       "masked": "He called the ____ with an update.",
       "options": [
         "desk-mcq-07",
-        "desk-mcq-06",
-        "desk-mcq-08",
+        "desk-mcq-15",
         "desk-mcq-05",
-        "desk-mcq-09",
-        "desk-mcq-04"
+        "desk-mcq-08"
       ],
       "explanation": "本句的「news desk」指「處理新聞內容的新聞編輯台／新聞部」。",
       "sentenceIndex": 15,
@@ -861,12 +793,10 @@ export default {
         "news desk"
       ],
       "optionReasons": {
-        "desk-mcq-07": "本句指「處理新聞內容的新聞編輯台／新聞部」。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-04": "「飯店、辦公室等的前台／接待櫃檯」是「front desk」的用法，與本句語境不同。"
+        "desk-mcq-07": "本句的「news desk」指「處理新聞內容的新聞編輯台／新聞部」。",
+        "desk-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-07"
     },
@@ -878,10 +808,8 @@ export default {
       "masked": "She works on a bond ____.",
       "options": [
         "desk-mcq-08",
-        "desk-mcq-07",
-        "desk-mcq-09",
-        "desk-mcq-06",
-        "desk-mcq-10",
+        "desk-mcq-17",
+        "desk-mcq-02",
         "desk-mcq-05"
       ],
       "explanation": "本句的「trading desk」指「金融機構中負責某類市場交易的交易台／部門」。",
@@ -891,12 +819,10 @@ export default {
         "trading desk"
       ],
       "optionReasons": {
-        "desk-mcq-08": "本句指「金融機構中負責某類市場交易的交易台／部門」。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-10": "「主要在辦公桌前完成的案頭／文書工作」是「desk work」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。"
+        "desk-mcq-08": "本句的「trading desk」指「金融機構中負責某類市場交易的交易台／部門」。",
+        "desk-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-08"
     },
@@ -908,9 +834,6 @@ export default {
       "masked": "The ____ handles foreign-exchange trades.",
       "options": [
         "desk-mcq-08",
-        "desk-mcq-07",
-        "desk-mcq-09",
-        "desk-mcq-06",
         "desk-mcq-10",
         "desk-mcq-05"
       ],
@@ -921,12 +844,9 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-08": "本句指「金融機構中負責某類市場交易的交易台／部門」。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-10": "「主要在辦公桌前完成的案頭／文書工作」是「desk work」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。"
+        "desk-mcq-08": "本句的「desk」指「金融機構中負責某類市場交易的交易台／部門」。",
+        "desk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-08"
     },
@@ -938,10 +858,8 @@ export default {
       "masked": "The rates ____ was especially busy.",
       "options": [
         "desk-mcq-08",
-        "desk-mcq-07",
-        "desk-mcq-09",
-        "desk-mcq-06",
-        "desk-mcq-10",
+        "desk-mcq-02",
+        "desk-mcq-16",
         "desk-mcq-05"
       ],
       "explanation": "本句的「desk」指「金融機構中負責某類市場交易的交易台／部門」。",
@@ -951,12 +869,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-08": "本句指「金融機構中負責某類市場交易的交易台／部門」。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-10": "「主要在辦公桌前完成的案頭／文書工作」是「desk work」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。"
+        "desk-mcq-08": "本句的「desk」指「金融機構中負責某類市場交易的交易台／部門」。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-08"
     },
@@ -968,9 +884,6 @@ export default {
       "masked": "The commodities ____ reported higher activity.",
       "options": [
         "desk-mcq-08",
-        "desk-mcq-07",
-        "desk-mcq-09",
-        "desk-mcq-06",
         "desk-mcq-10",
         "desk-mcq-05"
       ],
@@ -981,12 +894,9 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-08": "本句指「金融機構中負責某類市場交易的交易台／部門」。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。",
-        "desk-mcq-10": "「主要在辦公桌前完成的案頭／文書工作」是「desk work」的用法，與本句語境不同。",
-        "desk-mcq-05": "「提供技術或實務支援的服務台」是「help desk」的用法，與本句語境不同。"
+        "desk-mcq-08": "本句的「desk」指「金融機構中負責某類市場交易的交易台／部門」。",
+        "desk-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-08"
     },
@@ -998,11 +908,9 @@ export default {
       "masked": "He wanted something more active than a ____.",
       "options": [
         "desk-mcq-09",
+        "desk-mcq-05",
         "desk-mcq-08",
-        "desk-mcq-10",
-        "desk-mcq-07",
-        "desk-mcq-11",
-        "desk-mcq-06"
+        "desk-mcq-07"
       ],
       "explanation": "本句的「desk job」指「主要坐在辦公桌前進行的文職／辦公室工作」。",
       "sentenceIndex": 20,
@@ -1011,12 +919,10 @@ export default {
         "desk job"
       ],
       "optionReasons": {
-        "desk-mcq-09": "本句指「主要坐在辦公桌前進行的文職／辦公室工作」。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-10": "「主要在辦公桌前完成的案頭／文書工作」是「desk work」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-11": "「桌子的上表面；桌面」是「desktop — physical」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-09": "本句的「desk job」指「主要坐在辦公桌前進行的文職／辦公室工作」。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-09"
     },
@@ -1028,11 +934,9 @@ export default {
       "masked": "A ____ can involve long hours of sitting.",
       "options": [
         "desk-mcq-09",
-        "desk-mcq-08",
-        "desk-mcq-10",
         "desk-mcq-07",
-        "desk-mcq-11",
-        "desk-mcq-06"
+        "desk-mcq-05",
+        "desk-mcq-08"
       ],
       "explanation": "本句的「desk job」指「主要坐在辦公桌前進行的文職／辦公室工作」。",
       "sentenceIndex": 21,
@@ -1041,12 +945,10 @@ export default {
         "desk job"
       ],
       "optionReasons": {
-        "desk-mcq-09": "本句指「主要坐在辦公桌前進行的文職／辦公室工作」。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-10": "「主要在辦公桌前完成的案頭／文書工作」是「desk work」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。",
-        "desk-mcq-11": "「桌子的上表面；桌面」是「desktop — physical」的用法，與本句語境不同。",
-        "desk-mcq-06": "「新聞機構中負責某一主題的編輯組／部門」是「desk — newsroom department」的用法，與本句語境不同。"
+        "desk-mcq-09": "本句的「desk job」指「主要坐在辦公桌前進行的文職／辦公室工作」。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-09"
     },
@@ -1058,11 +960,8 @@ export default {
       "masked": "I spent the morning doing ____.",
       "options": [
         "desk-mcq-10",
-        "desk-mcq-09",
-        "desk-mcq-11",
         "desk-mcq-08",
-        "desk-mcq-12",
-        "desk-mcq-07"
+        "desk-mcq-05"
       ],
       "explanation": "本句的「desk work」指「主要在辦公桌前完成的案頭／文書工作」。",
       "sentenceIndex": 22,
@@ -1071,12 +970,9 @@ export default {
         "desk work"
       ],
       "optionReasons": {
-        "desk-mcq-10": "本句指「主要在辦公桌前完成的案頭／文書工作」。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-11": "「桌子的上表面；桌面」是「desktop — physical」的用法，與本句語境不同。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-12": "「電腦圖形介面的桌面」是「desktop — computing」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。"
+        "desk-mcq-10": "本句的「desk work」指「主要在辦公桌前完成的案頭／文書工作」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-10"
     },
@@ -1088,11 +984,8 @@ export default {
       "masked": "The role involves both fieldwork and ____.",
       "options": [
         "desk-mcq-10",
-        "desk-mcq-09",
-        "desk-mcq-11",
-        "desk-mcq-08",
-        "desk-mcq-12",
-        "desk-mcq-07"
+        "desk-mcq-05",
+        "desk-mcq-08"
       ],
       "explanation": "本句的「desk work」指「主要在辦公桌前完成的案頭／文書工作」。",
       "sentenceIndex": 23,
@@ -1101,12 +994,9 @@ export default {
         "desk work"
       ],
       "optionReasons": {
-        "desk-mcq-10": "本句指「主要在辦公桌前完成的案頭／文書工作」。",
-        "desk-mcq-09": "「主要坐在辦公桌前進行的文職／辦公室工作」是「desk job」的用法，與本句語境不同。",
-        "desk-mcq-11": "「桌子的上表面；桌面」是「desktop — physical」的用法，與本句語境不同。",
-        "desk-mcq-08": "「金融機構中負責某類市場交易的交易台／部門」是「trading desk」的用法，與本句語境不同。",
-        "desk-mcq-12": "「電腦圖形介面的桌面」是「desktop — computing」的用法，與本句語境不同。",
-        "desk-mcq-07": "「處理新聞內容的新聞編輯台／新聞部」是「news desk」的用法，與本句語境不同。"
+        "desk-mcq-10": "本句的「desk work」指「主要在辦公桌前完成的案頭／文書工作」。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-10"
     },
@@ -1118,11 +1008,9 @@ export default {
       "masked": "She returned to her ____ after lunch.",
       "options": [
         "desk-mcq-18",
-        "desk-mcq-17",
-        "desk-mcq-16",
-        "desk-mcq-15",
-        "desk-mcq-14",
-        "desk-mcq-13"
+        "desk-mcq-02",
+        "desk-mcq-05",
+        "desk-mcq-06"
       ],
       "explanation": "本句的「desk」指「表示工作崗位；辦公位置」。",
       "sentenceIndex": 24,
@@ -1131,12 +1019,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-18": "本句指「表示工作崗位；辦公位置」。",
-        "desk-mcq-17": "「因工作而長時間被困在辦公桌前」是「tied to a desk」的用法，與本句語境不同。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。"
+        "desk-mcq-18": "本句的「desk」指「表示工作崗位；辦公位置」。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-18"
     },
@@ -1148,11 +1034,9 @@ export default {
       "masked": "Please report to the security ____.",
       "options": [
         "desk-mcq-18",
-        "desk-mcq-17",
-        "desk-mcq-16",
-        "desk-mcq-15",
-        "desk-mcq-14",
-        "desk-mcq-13"
+        "desk-mcq-02",
+        "desk-mcq-08",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「desk」指「表示工作崗位；辦公位置」。",
       "sentenceIndex": 25,
@@ -1161,12 +1045,10 @@ export default {
         "desk"
       ],
       "optionReasons": {
-        "desk-mcq-18": "本句指「表示工作崗位；辦公位置」。",
-        "desk-mcq-17": "「因工作而長時間被困在辦公桌前」是「tied to a desk」的用法，與本句語境不同。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。"
+        "desk-mcq-18": "本句的「desk」指「表示工作崗位；辦公位置」。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-18"
     },
@@ -1178,11 +1060,9 @@ export default {
       "masked": "He disliked being ____ all day.",
       "options": [
         "desk-mcq-14",
-        "desk-mcq-13",
-        "desk-mcq-15",
-        "desk-mcq-12",
-        "desk-mcq-16",
-        "desk-mcq-11"
+        "desk-mcq-05",
+        "desk-mcq-01",
+        "desk-mcq-08"
       ],
       "explanation": "本句的「deskbound」指「工作大部分時間都必須坐在桌前的」。",
       "sentenceIndex": 26,
@@ -1191,12 +1071,10 @@ export default {
         "deskbound"
       ],
       "optionReasons": {
-        "desk-mcq-14": "本句指「工作大部分時間都必須坐在桌前的」。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-12": "「電腦圖形介面的桌面」是「desktop — computing」的用法，與本句語境不同。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-11": "「桌子的上表面；桌面」是「desktop — physical」的用法，與本句語境不同。"
+        "desk-mcq-14": "本句的「deskbound」指「工作大部分時間都必須坐在桌前的」。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-14"
     },
@@ -1208,11 +1086,8 @@ export default {
       "masked": "The job is mostly ____.",
       "options": [
         "desk-mcq-14",
-        "desk-mcq-13",
-        "desk-mcq-15",
-        "desk-mcq-12",
-        "desk-mcq-16",
-        "desk-mcq-11"
+        "desk-mcq-03",
+        "desk-mcq-06"
       ],
       "explanation": "本句的「deskbound」指「工作大部分時間都必須坐在桌前的」。",
       "sentenceIndex": 27,
@@ -1221,12 +1096,9 @@ export default {
         "deskbound"
       ],
       "optionReasons": {
-        "desk-mcq-14": "本句指「工作大部分時間都必須坐在桌前的」。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-12": "「電腦圖形介面的桌面」是「desktop — computing」的用法，與本句語境不同。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-11": "「桌子的上表面；桌面」是「desktop — physical」的用法，與本句語境不同。"
+        "desk-mcq-14": "本句的「deskbound」指「工作大部分時間都必須坐在桌前的」。",
+        "desk-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-14"
     },
@@ -1238,11 +1110,8 @@ export default {
       "masked": "I was ____ all morning.",
       "options": [
         "desk-mcq-15",
-        "desk-mcq-14",
-        "desk-mcq-16",
-        "desk-mcq-13",
-        "desk-mcq-17",
-        "desk-mcq-12"
+        "desk-mcq-05",
+        "desk-mcq-06"
       ],
       "explanation": "本句的「at my desk」指「坐在書桌／辦公桌前工作」。",
       "sentenceIndex": 28,
@@ -1251,12 +1120,9 @@ export default {
         "at my desk"
       ],
       "optionReasons": {
-        "desk-mcq-15": "本句指「坐在書桌／辦公桌前工作」。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。",
-        "desk-mcq-17": "「因工作而長時間被困在辦公桌前」是「tied to a desk」的用法，與本句語境不同。",
-        "desk-mcq-12": "「電腦圖形介面的桌面」是「desktop — computing」的用法，與本句語境不同。"
+        "desk-mcq-15": "本句的「at my desk」指「坐在書桌／辦公桌前工作」。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-15"
     },
@@ -1268,11 +1134,9 @@ export default {
       "masked": "She is usually ____ by eight.",
       "options": [
         "desk-mcq-15",
-        "desk-mcq-14",
-        "desk-mcq-16",
-        "desk-mcq-13",
-        "desk-mcq-17",
-        "desk-mcq-12"
+        "desk-mcq-07",
+        "desk-mcq-08",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「at her desk」指「坐在書桌／辦公桌前工作」。",
       "sentenceIndex": 29,
@@ -1281,12 +1145,10 @@ export default {
         "at her desk"
       ],
       "optionReasons": {
-        "desk-mcq-15": "本句指「坐在書桌／辦公桌前工作」。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。",
-        "desk-mcq-17": "「因工作而長時間被困在辦公桌前」是「tied to a desk」的用法，與本句語境不同。",
-        "desk-mcq-12": "「電腦圖形介面的桌面」是「desktop — computing」的用法，與本句語境不同。"
+        "desk-mcq-15": "本句的「at her desk」指「坐在書桌／辦公桌前工作」。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-15"
     },
@@ -1298,11 +1160,9 @@ export default {
       "masked": "He did not want to spend his life ____.",
       "options": [
         "desk-mcq-16",
-        "desk-mcq-15",
-        "desk-mcq-17",
-        "desk-mcq-14",
-        "desk-mcq-18",
-        "desk-mcq-13"
+        "desk-mcq-06",
+        "desk-mcq-05",
+        "desk-mcq-02"
       ],
       "explanation": "本句的「behind a desk」指「比喻從事辦公室／文職工作，而非外勤」。",
       "sentenceIndex": 30,
@@ -1311,12 +1171,10 @@ export default {
         "behind a desk"
       ],
       "optionReasons": {
-        "desk-mcq-16": "本句指「比喻從事辦公室／文職工作，而非外勤」。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-17": "「因工作而長時間被困在辦公桌前」是「tied to a desk」的用法，與本句語境不同。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-18": "「表示工作崗位；辦公位置」是「13. desk — office position or station」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。"
+        "desk-mcq-16": "本句的「behind a desk」指「比喻從事辦公室／文職工作，而非外勤」。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-16"
     },
@@ -1328,11 +1186,9 @@ export default {
       "masked": "She prefers fieldwork to sitting ____.",
       "options": [
         "desk-mcq-16",
-        "desk-mcq-15",
-        "desk-mcq-17",
-        "desk-mcq-14",
-        "desk-mcq-18",
-        "desk-mcq-13"
+        "desk-mcq-08",
+        "desk-mcq-07",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「behind a desk」指「比喻從事辦公室／文職工作，而非外勤」。",
       "sentenceIndex": 31,
@@ -1341,12 +1197,10 @@ export default {
         "behind a desk"
       ],
       "optionReasons": {
-        "desk-mcq-16": "本句指「比喻從事辦公室／文職工作，而非外勤」。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-17": "「因工作而長時間被困在辦公桌前」是「tied to a desk」的用法，與本句語境不同。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-18": "「表示工作崗位；辦公位置」是「13. desk — office position or station」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。"
+        "desk-mcq-16": "本句的「behind a desk」指「比喻從事辦公室／文職工作，而非外勤」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-16"
     },
@@ -1358,11 +1212,9 @@ export default {
       "masked": "I felt ____ all week.",
       "options": [
         "desk-mcq-17",
-        "desk-mcq-16",
-        "desk-mcq-18",
-        "desk-mcq-15",
-        "desk-mcq-14",
-        "desk-mcq-13"
+        "desk-mcq-06",
+        "desk-mcq-05",
+        "desk-mcq-02"
       ],
       "explanation": "本句的「tied to my desk」指「因工作而長時間被困在辦公桌前」。",
       "sentenceIndex": 32,
@@ -1371,12 +1223,10 @@ export default {
         "tied to my desk"
       ],
       "optionReasons": {
-        "desk-mcq-17": "本句指「因工作而長時間被困在辦公桌前」。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-18": "「表示工作崗位；辦公位置」是「13. desk — office position or station」的用法，與本句語境不同。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。"
+        "desk-mcq-17": "本句的「tied to my desk」指「因工作而長時間被困在辦公桌前」。",
+        "desk-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-17"
     },
@@ -1388,11 +1238,9 @@ export default {
       "masked": "The role is not completely ____.",
       "options": [
         "desk-mcq-17",
-        "desk-mcq-16",
-        "desk-mcq-18",
-        "desk-mcq-15",
-        "desk-mcq-14",
-        "desk-mcq-13"
+        "desk-mcq-08",
+        "desk-mcq-07",
+        "desk-mcq-05"
       ],
       "explanation": "本句的「desk-bound」指「因工作而長時間被困在辦公桌前」。",
       "sentenceIndex": 33,
@@ -1401,12 +1249,10 @@ export default {
         "desk-bound"
       ],
       "optionReasons": {
-        "desk-mcq-17": "本句指「因工作而長時間被困在辦公桌前」。",
-        "desk-mcq-16": "「比喻從事辦公室／文職工作，而非外勤」是「behind a desk」的用法，與本句語境不同。",
-        "desk-mcq-18": "「表示工作崗位；辦公位置」是「13. desk — office position or station」的用法，與本句語境不同。",
-        "desk-mcq-15": "「坐在書桌／辦公桌前工作」是「at your desk」的用法，與本句語境不同。",
-        "desk-mcq-14": "「工作大部分時間都必須坐在桌前的」是「deskbound」的用法，與本句語境不同。",
-        "desk-mcq-13": "「放在桌上使用的桌上型電腦」是「desktop computer」的用法，與本句語境不同。"
+        "desk-mcq-17": "本句的「desk-bound」指「因工作而長時間被困在辦公桌前」。",
+        "desk-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "desk-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "desk-mcq-17"
     }
@@ -1418,5 +1264,7 @@ export default {
     "sha256": "4b039086f36a972db4dc3f157e141c3951c1478553c706bd7c6b7ab430a422c3",
     "pages": 11
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

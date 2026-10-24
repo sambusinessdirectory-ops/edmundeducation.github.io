@@ -457,11 +457,7 @@ export default {
       "masked": "The advertisement persuaded me to buy the ____.",
       "options": [
         "product-mcq-01",
-        "product-mcq-02",
-        "product-mcq-03",
-        "product-mcq-04",
-        "product-mcq-05",
-        "product-mcq-06"
+        "product-mcq-04"
       ],
       "explanation": "本句的「product」指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
       "sentenceIndex": 0,
@@ -470,12 +466,8 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-01": "本句指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-01": "本句的「product」指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-01"
     },
@@ -487,11 +479,7 @@ export default {
       "masked": "The company launched a new ____ last month.",
       "options": [
         "product-mcq-01",
-        "product-mcq-02",
-        "product-mcq-03",
-        "product-mcq-04",
-        "product-mcq-05",
-        "product-mcq-06"
+        "product-mcq-04"
       ],
       "explanation": "本句的「product」指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
       "sentenceIndex": 1,
@@ -500,12 +488,8 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-01": "本句指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-01": "本句的「product」指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-01"
     },
@@ -517,11 +501,7 @@ export default {
       "masked": "Customers expect the ____ to be reliable.",
       "options": [
         "product-mcq-01",
-        "product-mcq-02",
-        "product-mcq-03",
-        "product-mcq-04",
-        "product-mcq-05",
-        "product-mcq-06"
+        "product-mcq-04"
       ],
       "explanation": "本句的「product」指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
       "sentenceIndex": 2,
@@ -530,12 +510,8 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-01": "本句指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-01": "本句的「product」指「由企業製造、開發或提供，供顧客購買和使用的商品／產品」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-01"
     },
@@ -547,11 +523,8 @@ export default {
       "masked": "The final design was the ____ of months of research.",
       "options": [
         "product-mcq-02",
-        "product-mcq-01",
-        "product-mcq-03",
-        "product-mcq-04",
-        "product-mcq-05",
-        "product-mcq-06"
+        "product-mcq-08",
+        "product-mcq-12"
       ],
       "explanation": "本句的「product」指「經過某個過程、努力、研究或創作後產生的成果／產物」。",
       "sentenceIndex": 3,
@@ -560,12 +533,9 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-02": "本句指「經過某個過程、努力、研究或創作後產生的成果／產物」。",
-        "product-mcq-01": "「由企業製造、開發或提供，供顧客購買和使用的商品／產品」是「product — commercial item」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-02": "本句的「product」指「經過某個過程、努力、研究或創作後產生的成果／產物」。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-02"
     },
@@ -577,11 +547,8 @@ export default {
       "masked": "The building is the ____ of careful planning.",
       "options": [
         "product-mcq-02",
-        "product-mcq-01",
-        "product-mcq-03",
-        "product-mcq-04",
-        "product-mcq-05",
-        "product-mcq-06"
+        "product-mcq-08",
+        "product-mcq-12"
       ],
       "explanation": "本句的「product」指「經過某個過程、努力、研究或創作後產生的成果／產物」。",
       "sentenceIndex": 4,
@@ -590,12 +557,9 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-02": "本句指「經過某個過程、努力、研究或創作後產生的成果／產物」。",
-        "product-mcq-01": "「由企業製造、開發或提供，供顧客購買和使用的商品／產品」是「product — commercial item」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-02": "本句的「product」指「經過某個過程、努力、研究或創作後產生的成果／產物」。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-02"
     },
@@ -607,10 +571,7 @@ export default {
       "masked": "He is a ____ his environment.",
       "options": [
         "product-mcq-03",
-        "product-mcq-02",
-        "product-mcq-04",
-        "product-mcq-01",
-        "product-mcq-05",
+        "product-mcq-12",
         "product-mcq-06"
       ],
       "explanation": "本句的「product of」指「因特定環境、歷史、文化或經歷影響而形成的人／事物」。",
@@ -620,12 +581,9 @@ export default {
         "product of"
       ],
       "optionReasons": {
-        "product-mcq-03": "本句指「因特定環境、歷史、文化或經歷影響而形成的人／事物」。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-01": "「由企業製造、開發或提供，供顧客購買和使用的商品／產品」是「product — commercial item」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-03": "本句的「product of」指「因特定環境、歷史、文化或經歷影響而形成的人／事物」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-03"
     },
@@ -637,10 +595,7 @@ export default {
       "masked": "The tradition is partly a ____ local history.",
       "options": [
         "product-mcq-03",
-        "product-mcq-02",
-        "product-mcq-04",
-        "product-mcq-01",
-        "product-mcq-05",
+        "product-mcq-12",
         "product-mcq-06"
       ],
       "explanation": "本句的「product of」指「因特定環境、歷史、文化或經歷影響而形成的人／事物」。",
@@ -650,12 +605,9 @@ export default {
         "product of"
       ],
       "optionReasons": {
-        "product-mcq-03": "本句指「因特定環境、歷史、文化或經歷影響而形成的人／事物」。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-01": "「由企業製造、開發或提供，供顧客購買和使用的商品／產品」是「product — commercial item」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-03": "本句的「product of」指「因特定環境、歷史、文化或經歷影響而形成的人／事物」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-03"
     },
@@ -667,11 +619,8 @@ export default {
       "masked": "The ____ of six and four is twenty-four.",
       "options": [
         "product-mcq-04",
-        "product-mcq-03",
-        "product-mcq-05",
-        "product-mcq-02",
-        "product-mcq-06",
-        "product-mcq-01"
+        "product-mcq-11",
+        "product-mcq-06"
       ],
       "explanation": "本句的「product」指「兩個或以上數值相乘後所得的結果／乘積」。",
       "sentenceIndex": 7,
@@ -680,12 +629,9 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-04": "本句指「兩個或以上數值相乘後所得的結果／乘積」。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-01": "「由企業製造、開發或提供，供顧客購買和使用的商品／產品」是「product — commercial item」的用法，與本句語境不同。"
+        "product-mcq-04": "本句的「product」指「兩個或以上數值相乘後所得的結果／乘積」。",
+        "product-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-04"
     },
@@ -697,11 +643,8 @@ export default {
       "masked": "Find the ____ of these two numbers.",
       "options": [
         "product-mcq-04",
-        "product-mcq-03",
-        "product-mcq-05",
-        "product-mcq-02",
-        "product-mcq-06",
-        "product-mcq-01"
+        "product-mcq-13",
+        "product-mcq-07"
       ],
       "explanation": "本句的「product」指「兩個或以上數值相乘後所得的結果／乘積」。",
       "sentenceIndex": 8,
@@ -710,12 +653,9 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-04": "本句指「兩個或以上數值相乘後所得的結果／乘積」。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-01": "「由企業製造、開發或提供，供顧客購買和使用的商品／產品」是「product — commercial item」的用法，與本句語境不同。"
+        "product-mcq-04": "本句的「product」指「兩個或以上數值相乘後所得的結果／乘積」。",
+        "product-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-04"
     },
@@ -727,11 +667,8 @@ export default {
       "masked": "Water is one of the ____ of the reaction.",
       "options": [
         "product-mcq-05",
-        "product-mcq-04",
-        "product-mcq-06",
-        "product-mcq-03",
         "product-mcq-07",
-        "product-mcq-02"
+        "product-mcq-12"
       ],
       "explanation": "本句的「products」指「化學反應完成後形成的物質／生成物」。",
       "sentenceIndex": 9,
@@ -740,12 +677,9 @@ export default {
         "products"
       ],
       "optionReasons": {
-        "product-mcq-05": "本句指「化學反應完成後形成的物質／生成物」。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。"
+        "product-mcq-05": "本句的「products」指「化學反應完成後形成的物質／生成物」。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-05"
     },
@@ -757,11 +691,8 @@ export default {
       "masked": "The reaction produces several chemical ____.",
       "options": [
         "product-mcq-05",
-        "product-mcq-04",
-        "product-mcq-06",
-        "product-mcq-03",
         "product-mcq-07",
-        "product-mcq-02"
+        "product-mcq-12"
       ],
       "explanation": "本句的「products」指「化學反應完成後形成的物質／生成物」。",
       "sentenceIndex": 10,
@@ -770,12 +701,9 @@ export default {
         "products"
       ],
       "optionReasons": {
-        "product-mcq-05": "本句指「化學反應完成後形成的物質／生成物」。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-02": "「經過某個過程、努力、研究或創作後產生的成果／產物」是「product — outcome」的用法，與本句語境不同。"
+        "product-mcq-05": "本句的「products」指「化學反應完成後形成的物質／生成物」。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-05"
     },
@@ -787,11 +715,8 @@ export default {
       "masked": "The report is the ____ of a year’s work.",
       "options": [
         "product-mcq-18",
-        "product-mcq-17",
-        "product-mcq-16",
-        "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-13"
+        "product-mcq-12",
+        "product-mcq-06"
       ],
       "explanation": "本句的「product」指「經過創作、研究或合作後完成的作品／成果」。",
       "sentenceIndex": 11,
@@ -800,12 +725,9 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-18": "本句指「經過創作、研究或合作後完成的作品／成果」。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。"
+        "product-mcq-18": "本句的「product」指「經過創作、研究或合作後完成的作品／成果」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-18"
     },
@@ -817,11 +739,8 @@ export default {
       "masked": "The film is the ____ of collaboration between several artists.",
       "options": [
         "product-mcq-18",
-        "product-mcq-17",
-        "product-mcq-16",
-        "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-13"
+        "product-mcq-12",
+        "product-mcq-07"
       ],
       "explanation": "本句的「product」指「經過創作、研究或合作後完成的作品／成果」。",
       "sentenceIndex": 12,
@@ -830,12 +749,9 @@ export default {
         "product"
       ],
       "optionReasons": {
-        "product-mcq-18": "本句指「經過創作、研究或合作後完成的作品／成果」。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。"
+        "product-mcq-18": "本句的「product」指「經過創作、研究或合作後完成的作品／成果」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-18"
     },
@@ -847,11 +763,8 @@ export default {
       "masked": "The company expanded its ____.",
       "options": [
         "product-mcq-06",
-        "product-mcq-05",
-        "product-mcq-07",
-        "product-mcq-04",
-        "product-mcq-08",
-        "product-mcq-03"
+        "product-mcq-03",
+        "product-mcq-04"
       ],
       "explanation": "本句的「product line」指「同一公司或品牌下相關的一組產品」。",
       "sentenceIndex": 13,
@@ -860,12 +773,9 @@ export default {
         "product line"
       ],
       "optionReasons": {
-        "product-mcq-06": "本句指「同一公司或品牌下相關的一組產品」。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。"
+        "product-mcq-06": "本句的「product line」指「同一公司或品牌下相關的一組產品」。",
+        "product-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-06"
     },
@@ -877,11 +787,8 @@ export default {
       "masked": "This model belongs to the company’s premium ____.",
       "options": [
         "product-mcq-06",
-        "product-mcq-05",
-        "product-mcq-07",
-        "product-mcq-04",
-        "product-mcq-08",
-        "product-mcq-03"
+        "product-mcq-03",
+        "product-mcq-04"
       ],
       "explanation": "本句的「product range」指「同一公司或品牌下相關的一組產品」。",
       "sentenceIndex": 14,
@@ -890,12 +797,9 @@ export default {
         "product range"
       ],
       "optionReasons": {
-        "product-mcq-06": "本句指「同一公司或品牌下相關的一組產品」。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-03": "「因特定環境、歷史、文化或經歷影響而形成的人／事物」是「product of something」的用法，與本句語境不同。"
+        "product-mcq-06": "本句的「product range」指「同一公司或品牌下相關的一組產品」。",
+        "product-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-06"
     },
@@ -907,10 +811,7 @@ export default {
       "masked": "The ____ attracted a lot of media attention.",
       "options": [
         "product-mcq-07",
-        "product-mcq-06",
-        "product-mcq-08",
         "product-mcq-05",
-        "product-mcq-09",
         "product-mcq-04"
       ],
       "explanation": "本句的「product launch」指「新產品正式公開並進入市場的發布／上市活動」。",
@@ -920,12 +821,9 @@ export default {
         "product launch"
       ],
       "optionReasons": {
-        "product-mcq-07": "本句指「新產品正式公開並進入市場的發布／上市活動」。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。"
+        "product-mcq-07": "本句的「product launch」指「新產品正式公開並進入市場的發布／上市活動」。",
+        "product-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-07"
     },
@@ -937,11 +835,8 @@ export default {
       "masked": "The company delayed the ____.",
       "options": [
         "product-mcq-07",
-        "product-mcq-06",
-        "product-mcq-08",
-        "product-mcq-05",
-        "product-mcq-09",
-        "product-mcq-04"
+        "product-mcq-04",
+        "product-mcq-05"
       ],
       "explanation": "本句的「product launch」指「新產品正式公開並進入市場的發布／上市活動」。",
       "sentenceIndex": 16,
@@ -950,12 +845,9 @@ export default {
         "product launch"
       ],
       "optionReasons": {
-        "product-mcq-07": "本句指「新產品正式公開並進入市場的發布／上市活動」。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-04": "「兩個或以上數值相乘後所得的結果／乘積」是「product — mathematics」的用法，與本句語境不同。"
+        "product-mcq-07": "本句的「product launch」指「新產品正式公開並進入市場的發布／上市活動」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-07"
     },
@@ -967,10 +859,7 @@ export default {
       "masked": "The film contains several examples of ____.",
       "options": [
         "product-mcq-08",
-        "product-mcq-07",
-        "product-mcq-09",
-        "product-mcq-06",
-        "product-mcq-10",
+        "product-mcq-04",
         "product-mcq-05"
       ],
       "explanation": "本句的「product placement」指「把產品／品牌置入媒體內容中進行宣傳」。",
@@ -980,12 +869,9 @@ export default {
         "product placement"
       ],
       "optionReasons": {
-        "product-mcq-08": "本句指「把產品／品牌置入媒體內容中進行宣傳」。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。"
+        "product-mcq-08": "本句的「product placement」指「把產品／品牌置入媒體內容中進行宣傳」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-08"
     },
@@ -997,11 +883,8 @@ export default {
       "masked": "The brand paid for ____ in the television series.",
       "options": [
         "product-mcq-08",
-        "product-mcq-07",
-        "product-mcq-09",
-        "product-mcq-06",
-        "product-mcq-10",
-        "product-mcq-05"
+        "product-mcq-05",
+        "product-mcq-04"
       ],
       "explanation": "本句的「product placement」指「把產品／品牌置入媒體內容中進行宣傳」。",
       "sentenceIndex": 18,
@@ -1010,12 +893,9 @@ export default {
         "product placement"
       ],
       "optionReasons": {
-        "product-mcq-08": "本句指「把產品／品牌置入媒體內容中進行宣傳」。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-05": "「化學反應完成後形成的物質／生成物」是「product — chemistry」的用法，與本句語境不同。"
+        "product-mcq-08": "本句的「product placement」指「把產品／品牌置入媒體內容中進行宣傳」。",
+        "product-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-08"
     },
@@ -1027,11 +907,7 @@ export default {
       "masked": "The factory ____ electronic equipment.",
       "options": [
         "product-mcq-09",
-        "product-mcq-08",
-        "product-mcq-10",
-        "product-mcq-07",
-        "product-mcq-11",
-        "product-mcq-06"
+        "product-mcq-12"
       ],
       "explanation": "本句的「produces」指「製造、產生或形成產品、結果、聲音等」。",
       "sentenceIndex": 19,
@@ -1040,12 +916,8 @@ export default {
         "produces"
       ],
       "optionReasons": {
-        "product-mcq-09": "本句指「製造、產生或形成產品、結果、聲音等」。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-09": "本句的「produces」指「製造、產生或形成產品、結果、聲音等」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-09"
     },
@@ -1057,11 +929,7 @@ export default {
       "masked": "The headphones ____ very clear sound.",
       "options": [
         "product-mcq-09",
-        "product-mcq-08",
-        "product-mcq-10",
-        "product-mcq-07",
-        "product-mcq-11",
-        "product-mcq-06"
+        "product-mcq-12"
       ],
       "explanation": "本句的「produce」指「製造、產生或形成產品、結果、聲音等」。",
       "sentenceIndex": 20,
@@ -1070,12 +938,8 @@ export default {
         "produce"
       ],
       "optionReasons": {
-        "product-mcq-09": "本句指「製造、產生或形成產品、結果、聲音等」。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-09": "本句的「produce」指「製造、產生或形成產品、結果、聲音等」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-09"
     },
@@ -1087,11 +951,7 @@ export default {
       "masked": "The campaign ____ excellent results.",
       "options": [
         "product-mcq-09",
-        "product-mcq-08",
-        "product-mcq-10",
-        "product-mcq-07",
-        "product-mcq-11",
-        "product-mcq-06"
+        "product-mcq-12"
       ],
       "explanation": "本句的「produced」指「製造、產生或形成產品、結果、聲音等」。",
       "sentenceIndex": 21,
@@ -1100,12 +960,8 @@ export default {
         "produced"
       ],
       "optionReasons": {
-        "product-mcq-09": "本句指「製造、產生或形成產品、結果、聲音等」。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-09": "本句的「produced」指「製造、產生或形成產品、結果、聲音等」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-09"
     },
@@ -1117,11 +973,7 @@ export default {
       "masked": "The treatment ____ noticeable improvements.",
       "options": [
         "product-mcq-09",
-        "product-mcq-08",
-        "product-mcq-10",
-        "product-mcq-07",
-        "product-mcq-11",
-        "product-mcq-06"
+        "product-mcq-12"
       ],
       "explanation": "本句的「produced」指「製造、產生或形成產品、結果、聲音等」。",
       "sentenceIndex": 22,
@@ -1130,12 +982,8 @@ export default {
         "produced"
       ],
       "optionReasons": {
-        "product-mcq-09": "本句指「製造、產生或形成產品、結果、聲音等」。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-mcq-09": "本句的「produced」指「製造、產生或形成產品、結果、聲音等」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-09"
     },
@@ -1147,11 +995,8 @@ export default {
       "masked": "The documentary was ____ by an independent studio.",
       "options": [
         "product-pdf-001",
-        "product-mcq-08",
-        "product-mcq-10",
-        "product-mcq-07",
-        "product-mcq-11",
-        "product-mcq-06"
+        "product-mcq-04",
+        "product-mcq-08"
       ],
       "explanation": "本句的「produced」指「組織、管理並負責電影、節目、音樂等作品的製作」。",
       "sentenceIndex": 23,
@@ -1160,12 +1005,9 @@ export default {
         "produced"
       ],
       "optionReasons": {
-        "product-pdf-001": "本句指「組織、管理並負責電影、節目、音樂等作品的製作」。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-pdf-001": "本句的「produced」指「組織、管理並負責電影、節目、音樂等作品的製作」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-pdf-001"
     },
@@ -1177,11 +1019,8 @@ export default {
       "masked": "She ____ several successful television programmes.",
       "options": [
         "product-pdf-001",
-        "product-mcq-08",
-        "product-mcq-10",
-        "product-mcq-07",
-        "product-mcq-11",
-        "product-mcq-06"
+        "product-mcq-04",
+        "product-mcq-08"
       ],
       "explanation": "本句的「produced」指「組織、管理並負責電影、節目、音樂等作品的製作」。",
       "sentenceIndex": 24,
@@ -1190,12 +1029,9 @@ export default {
         "produced"
       ],
       "optionReasons": {
-        "product-pdf-001": "本句指「組織、管理並負責電影、節目、音樂等作品的製作」。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-06": "「同一公司或品牌下相關的一組產品」是「product line/range」的用法，與本句語境不同。"
+        "product-pdf-001": "本句的「produced」指「組織、管理並負責電影、節目、音樂等作品的製作」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-pdf-001"
     },
@@ -1207,11 +1043,8 @@ export default {
       "masked": "The market sells fresh ____.",
       "options": [
         "product-mcq-10",
-        "product-mcq-09",
-        "product-mcq-11",
-        "product-mcq-08",
-        "product-mcq-12",
-        "product-mcq-07"
+        "product-mcq-04",
+        "product-mcq-08"
       ],
       "explanation": "本句的「produce」指「農場生產的食物，尤其水果和蔬菜」。",
       "sentenceIndex": 25,
@@ -1220,12 +1053,9 @@ export default {
         "produce"
       ],
       "optionReasons": {
-        "product-mcq-10": "本句指「農場生產的食物，尤其水果和蔬菜」。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。"
+        "product-mcq-10": "本句的「produce」指「農場生產的食物，尤其水果和蔬菜」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-10"
     },
@@ -1237,11 +1067,8 @@ export default {
       "masked": "Local ____ is available throughout the summer.",
       "options": [
         "product-mcq-10",
-        "product-mcq-09",
-        "product-mcq-11",
-        "product-mcq-08",
-        "product-mcq-12",
-        "product-mcq-07"
+        "product-mcq-06",
+        "product-mcq-04"
       ],
       "explanation": "本句的「produce」指「農場生產的食物，尤其水果和蔬菜」。",
       "sentenceIndex": 26,
@@ -1250,12 +1077,9 @@ export default {
         "produce"
       ],
       "optionReasons": {
-        "product-mcq-10": "本句指「農場生產的食物，尤其水果和蔬菜」。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-07": "「新產品正式公開並進入市場的發布／上市活動」是「product launch」的用法，與本句語境不同。"
+        "product-mcq-10": "本句的「produce」指「農場生產的食物，尤其水果和蔬菜」。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-10"
     },
@@ -1267,11 +1091,8 @@ export default {
       "masked": "The company increased ____.",
       "options": [
         "product-mcq-11",
-        "product-mcq-10",
-        "product-mcq-12",
-        "product-mcq-09",
-        "product-mcq-13",
-        "product-mcq-08"
+        "product-mcq-04",
+        "product-mcq-06"
       ],
       "explanation": "本句的「production」指「製造商品、內容或材料的過程」。",
       "sentenceIndex": 27,
@@ -1280,12 +1101,9 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "product-mcq-11": "本句指「製造商品、內容或材料的過程」。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。"
+        "product-mcq-11": "本句的「production」指「製造商品、內容或材料的過程」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-11"
     },
@@ -1297,11 +1115,8 @@ export default {
       "masked": "The factory stopped ____ temporarily.",
       "options": [
         "product-mcq-11",
-        "product-mcq-10",
-        "product-mcq-12",
-        "product-mcq-09",
-        "product-mcq-13",
-        "product-mcq-08"
+        "product-mcq-04",
+        "product-mcq-07"
       ],
       "explanation": "本句的「production」指「製造商品、內容或材料的過程」。",
       "sentenceIndex": 28,
@@ -1310,12 +1125,9 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "product-mcq-11": "本句指「製造商品、內容或材料的過程」。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-08": "「把產品／品牌置入媒體內容中進行宣傳」是「product placement」的用法，與本句語境不同。"
+        "product-mcq-11": "本句的「production」指「製造商品、內容或材料的過程」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-11"
     },
@@ -1327,11 +1139,8 @@ export default {
       "masked": "Oil ____ fell last year.",
       "options": [
         "product-mcq-12",
-        "product-mcq-11",
-        "product-mcq-13",
-        "product-mcq-10",
-        "product-mcq-14",
-        "product-mcq-09"
+        "product-mcq-05",
+        "product-mcq-07"
       ],
       "explanation": "本句的「production」指「某段時間內實際產出的數量」。",
       "sentenceIndex": 29,
@@ -1340,12 +1149,9 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "product-mcq-12": "本句指「某段時間內實際產出的數量」。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。"
+        "product-mcq-12": "本句的「production」指「某段時間內實際產出的數量」。",
+        "product-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-12"
     },
@@ -1357,11 +1163,8 @@ export default {
       "masked": "The plant has doubled its annual ____.",
       "options": [
         "product-mcq-12",
-        "product-mcq-11",
-        "product-mcq-13",
-        "product-mcq-10",
-        "product-mcq-14",
-        "product-mcq-09"
+        "product-mcq-05",
+        "product-mcq-06"
       ],
       "explanation": "本句的「production」指「某段時間內實際產出的數量」。",
       "sentenceIndex": 30,
@@ -1370,12 +1173,9 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "product-mcq-12": "本句指「某段時間內實際產出的數量」。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-09": "「製造、產生或形成產品、結果、聲音等」是「produce — verb」的用法，與本句語境不同。"
+        "product-mcq-12": "本句的「production」指「某段時間內實際產出的數量」。",
+        "product-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-12"
     },
@@ -1387,11 +1187,8 @@ export default {
       "masked": "The theatre is preparing a new ____ of Hamlet.",
       "options": [
         "product-mcq-13",
-        "product-mcq-12",
-        "product-mcq-14",
-        "product-mcq-11",
-        "product-mcq-15",
-        "product-mcq-10"
+        "product-mcq-04",
+        "product-mcq-07"
       ],
       "explanation": "本句的「production」指「電影、節目或戲劇的製作過程或作品本身」。",
       "sentenceIndex": 31,
@@ -1400,12 +1197,9 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "product-mcq-13": "本句指「電影、節目或戲劇的製作過程或作品本身」。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。"
+        "product-mcq-13": "本句的「production」指「電影、節目或戲劇的製作過程或作品本身」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-13"
     },
@@ -1418,10 +1212,7 @@ export default {
       "options": [
         "product-mcq-13",
         "product-mcq-12",
-        "product-mcq-14",
-        "product-mcq-11",
-        "product-mcq-15",
-        "product-mcq-10"
+        "product-mcq-08"
       ],
       "explanation": "本句的「production」指「電影、節目或戲劇的製作過程或作品本身」。",
       "sentenceIndex": 32,
@@ -1430,12 +1221,9 @@ export default {
         "production"
       ],
       "optionReasons": {
-        "product-mcq-13": "本句指「電影、節目或戲劇的製作過程或作品本身」。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-10": "「農場生產的食物，尤其水果和蔬菜」是「produce — noun」的用法，與本句語境不同。"
+        "product-mcq-13": "本句的「production」指「電影、節目或戲劇的製作過程或作品本身」。",
+        "product-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-13"
     },
@@ -1447,11 +1235,8 @@ export default {
       "masked": "The country is a major coffee ____.",
       "options": [
         "product-mcq-14",
-        "product-mcq-13",
-        "product-mcq-15",
-        "product-mcq-12",
-        "product-mcq-16",
-        "product-mcq-11"
+        "product-mcq-04",
+        "product-mcq-07"
       ],
       "explanation": "本句的「producer」指「生產商品的企業／人；或負責影視音樂製作的人」。",
       "sentenceIndex": 33,
@@ -1460,12 +1245,9 @@ export default {
         "producer"
       ],
       "optionReasons": {
-        "product-mcq-14": "本句指「生產商品的企業／人；或負責影視音樂製作的人」。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。"
+        "product-mcq-14": "本句的「producer」指「生產商品的企業／人；或負責影視音樂製作的人」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-14"
     },
@@ -1477,11 +1259,8 @@ export default {
       "masked": "She works as a television ____.",
       "options": [
         "product-mcq-14",
-        "product-mcq-13",
-        "product-mcq-15",
-        "product-mcq-12",
-        "product-mcq-16",
-        "product-mcq-11"
+        "product-mcq-04",
+        "product-mcq-07"
       ],
       "explanation": "本句的「producer」指「生產商品的企業／人；或負責影視音樂製作的人」。",
       "sentenceIndex": 34,
@@ -1490,12 +1269,9 @@ export default {
         "producer"
       ],
       "optionReasons": {
-        "product-mcq-14": "本句指「生產商品的企業／人；或負責影視音樂製作的人」。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-11": "「製造商品、內容或材料的過程」是「production — process」的用法，與本句語境不同。"
+        "product-mcq-14": "本句的「producer」指「生產商品的企業／人；或負責影視音樂製作的人」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-14"
     },
@@ -1507,11 +1283,8 @@ export default {
       "masked": "We had a very ____ meeting.",
       "options": [
         "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-16",
-        "product-mcq-13",
-        "product-mcq-17",
-        "product-mcq-12"
+        "product-mcq-06",
+        "product-mcq-04"
       ],
       "explanation": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
       "sentenceIndex": 35,
@@ -1520,12 +1293,9 @@ export default {
         "productive"
       ],
       "optionReasons": {
-        "product-mcq-15": "本句指「能有效產生有價值成果、進展或大量產出的」。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。"
+        "product-mcq-15": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-15"
     },
@@ -1537,11 +1307,8 @@ export default {
       "masked": "I’m more ____ when the office is quiet.",
       "options": [
         "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-16",
-        "product-mcq-13",
-        "product-mcq-17",
-        "product-mcq-12"
+        "product-mcq-06",
+        "product-mcq-04"
       ],
       "explanation": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
       "sentenceIndex": 36,
@@ -1550,12 +1317,9 @@ export default {
         "productive"
       ],
       "optionReasons": {
-        "product-mcq-15": "本句指「能有效產生有價值成果、進展或大量產出的」。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。"
+        "product-mcq-15": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-15"
     },
@@ -1567,11 +1331,8 @@ export default {
       "masked": "This is highly ____ farmland.",
       "options": [
         "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-16",
-        "product-mcq-13",
-        "product-mcq-17",
-        "product-mcq-12"
+        "product-mcq-06",
+        "product-mcq-04"
       ],
       "explanation": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
       "sentenceIndex": 37,
@@ -1580,12 +1341,9 @@ export default {
         "productive"
       ],
       "optionReasons": {
-        "product-mcq-15": "本句指「能有效產生有價值成果、進展或大量產出的」。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。"
+        "product-mcq-15": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-15"
     },
@@ -1597,11 +1355,8 @@ export default {
       "masked": "The new system makes the factory more ____.",
       "options": [
         "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-16",
-        "product-mcq-13",
-        "product-mcq-17",
-        "product-mcq-12"
+        "product-mcq-06",
+        "product-mcq-04"
       ],
       "explanation": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
       "sentenceIndex": 38,
@@ -1610,12 +1365,9 @@ export default {
         "productive"
       ],
       "optionReasons": {
-        "product-mcq-15": "本句指「能有效產生有價值成果、進展或大量產出的」。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-12": "「某段時間內實際產出的數量」是「production — quantity」的用法，與本句語境不同。"
+        "product-mcq-15": "本句的「productive」指「能有效產生有價值成果、進展或大量產出的」。",
+        "product-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-15"
     },
@@ -1627,11 +1379,7 @@ export default {
       "masked": "Noise can reduce ____.",
       "options": [
         "product-mcq-16",
-        "product-mcq-15",
-        "product-mcq-17",
-        "product-mcq-14",
-        "product-mcq-18",
-        "product-mcq-13"
+        "product-mcq-08"
       ],
       "explanation": "本句的「productivity」指「每單位時間、勞力或資源所能產生的有效成果程度」。",
       "sentenceIndex": 39,
@@ -1640,12 +1388,8 @@ export default {
         "productivity"
       ],
       "optionReasons": {
-        "product-mcq-16": "本句指「每單位時間、勞力或資源所能產生的有效成果程度」。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-18": "「經過創作、研究或合作後完成的作品／成果」是「6. product = creative/intellectual output（創作／工作成果） — 作品；成果」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。"
+        "product-mcq-16": "本句的「productivity」指「每單位時間、勞力或資源所能產生的有效成果程度」。",
+        "product-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-16"
     },
@@ -1657,11 +1401,7 @@ export default {
       "masked": "The company invested in technology to improve ____.",
       "options": [
         "product-mcq-16",
-        "product-mcq-15",
-        "product-mcq-17",
-        "product-mcq-14",
-        "product-mcq-18",
-        "product-mcq-13"
+        "product-mcq-07"
       ],
       "explanation": "本句的「productivity」指「每單位時間、勞力或資源所能產生的有效成果程度」。",
       "sentenceIndex": 40,
@@ -1670,12 +1410,8 @@ export default {
         "productivity"
       ],
       "optionReasons": {
-        "product-mcq-16": "本句指「每單位時間、勞力或資源所能產生的有效成果程度」。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-17": "「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」是「by-product」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-18": "「經過創作、研究或合作後完成的作品／成果」是「6. product = creative/intellectual output（創作／工作成果） — 作品；成果」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。"
+        "product-mcq-16": "本句的「productivity」指「每單位時間、勞力或資源所能產生的有效成果程度」。",
+        "product-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-16"
     },
@@ -1687,11 +1423,7 @@ export default {
       "masked": "Heat is a ____ of the process.",
       "options": [
         "product-mcq-17",
-        "product-mcq-16",
-        "product-mcq-18",
-        "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-13"
+        "product-mcq-04"
       ],
       "explanation": "本句的「by-product」指「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」。",
       "sentenceIndex": 41,
@@ -1700,12 +1432,8 @@ export default {
         "by-product"
       ],
       "optionReasons": {
-        "product-mcq-17": "本句指「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-18": "「經過創作、研究或合作後完成的作品／成果」是「6. product = creative/intellectual output（創作／工作成果） — 作品；成果」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。"
+        "product-mcq-17": "本句的「by-product」指「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-17"
     },
@@ -1717,11 +1445,7 @@ export default {
       "masked": "Confidence was an unexpected ____ of the training.",
       "options": [
         "product-mcq-17",
-        "product-mcq-16",
-        "product-mcq-18",
-        "product-mcq-15",
-        "product-mcq-14",
-        "product-mcq-13"
+        "product-mcq-04"
       ],
       "explanation": "本句的「by-product」指「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」。",
       "sentenceIndex": 42,
@@ -1730,12 +1454,8 @@ export default {
         "by-product"
       ],
       "optionReasons": {
-        "product-mcq-17": "本句指「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」。",
-        "product-mcq-16": "「每單位時間、勞力或資源所能產生的有效成果程度」是「productivity」的用法，與本句語境不同。",
-        "product-mcq-18": "「經過創作、研究或合作後完成的作品／成果」是「6. product = creative/intellectual output（創作／工作成果） — 作品；成果」的用法，與本句語境不同。",
-        "product-mcq-15": "「能有效產生有價值成果、進展或大量產出的」是「productive」的用法，與本句語境不同。",
-        "product-mcq-14": "「生產商品的企業／人；或負責影視音樂製作的人」是「producer」的用法，與本句語境不同。",
-        "product-mcq-13": "「電影、節目或戲劇的製作過程或作品本身」是「production — media/theatre」的用法，與本句語境不同。"
+        "product-mcq-17": "本句的「by-product」指「主要過程進行時額外產生、並非主要目的的副產品／附帶成果」。",
+        "product-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "product-mcq-17"
     }
@@ -1747,5 +1467,7 @@ export default {
     "sha256": "a3cb9620f8afcbde5def690949a8b457f4f8edef6f9fc7d1315d45672133f9e2",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

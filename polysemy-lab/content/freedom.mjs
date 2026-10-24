@@ -532,11 +532,7 @@ export default {
       "masked": "She values her ____.",
       "options": [
         "freedom-mcq-01",
-        "freedom-mcq-02",
-        "freedom-mcq-03",
-        "freedom-mcq-04",
-        "freedom-mcq-05",
-        "freedom-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「freedom」指「不受過度限制而可以自行選擇、行動的自由」。",
       "sentenceIndex": 0,
@@ -545,12 +541,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-01": "本句指「不受過度限制而可以自行選擇、行動的自由」。",
-        "freedom-mcq-02": "「在個人生活方面自主作決定的自由」與本句語境不同。",
-        "freedom-mcq-03": "「自主決定工作方式、方向、時間等的空間」與本句語境不同。",
-        "freedom-mcq-04": "「不受阻止地進行某行為的能力／權利」與本句語境不同。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。"
+        "freedom-mcq-01": "本句的「freedom」指「不受過度限制而可以自行選擇、行動的自由」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-01"
     },
@@ -562,11 +554,7 @@ export default {
       "masked": "Working independently gives him greater ____.",
       "options": [
         "freedom-mcq-01",
-        "freedom-mcq-02",
-        "freedom-mcq-03",
-        "freedom-mcq-04",
-        "freedom-mcq-05",
-        "freedom-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「freedom」指「不受過度限制而可以自行選擇、行動的自由」。",
       "sentenceIndex": 1,
@@ -575,12 +563,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-01": "本句指「不受過度限制而可以自行選擇、行動的自由」。",
-        "freedom-mcq-02": "「在個人生活方面自主作決定的自由」與本句語境不同。",
-        "freedom-mcq-03": "「自主決定工作方式、方向、時間等的空間」與本句語境不同。",
-        "freedom-mcq-04": "「不受阻止地進行某行為的能力／權利」與本句語境不同。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。"
+        "freedom-mcq-01": "本句的「freedom」指「不受過度限制而可以自行選擇、行動的自由」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-01"
     },
@@ -592,11 +576,7 @@ export default {
       "masked": "He wanted more personal ____.",
       "options": [
         "freedom-mcq-02",
-        "freedom-mcq-01",
-        "freedom-mcq-03",
-        "freedom-mcq-04",
-        "freedom-mcq-05",
-        "freedom-mcq-06"
+        "freedom-mcq-04"
       ],
       "explanation": "本句的「freedom」指「在個人生活方面自主作決定的自由」。",
       "sentenceIndex": 2,
@@ -605,12 +585,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-02": "本句指「在個人生活方面自主作決定的自由」。",
-        "freedom-mcq-01": "「不受過度限制而可以自行選擇、行動的自由」與本句語境不同。",
-        "freedom-mcq-03": "「自主決定工作方式、方向、時間等的空間」與本句語境不同。",
-        "freedom-mcq-04": "「不受阻止地進行某行為的能力／權利」與本句語境不同。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。"
+        "freedom-mcq-02": "本句的「freedom」指「在個人生活方面自主作決定的自由」。",
+        "freedom-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-02"
     },
@@ -622,11 +598,7 @@ export default {
       "masked": "Employees have the ____ to choose how they complete the task.",
       "options": [
         "freedom-mcq-04",
-        "freedom-mcq-03",
-        "freedom-mcq-05",
-        "freedom-mcq-02",
-        "freedom-mcq-06",
-        "freedom-mcq-01"
+        "freedom-mcq-02"
       ],
       "explanation": "本句的「freedom」指「不受阻止地進行某行為的能力／權利」。",
       "sentenceIndex": 6,
@@ -635,12 +607,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-04": "本句指「不受阻止地進行某行為的能力／權利」。",
-        "freedom-mcq-03": "「自主決定工作方式、方向、時間等的空間」與本句語境不同。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。",
-        "freedom-mcq-02": "「在個人生活方面自主作決定的自由」與本句語境不同。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。",
-        "freedom-mcq-01": "「不受過度限制而可以自行選擇、行動的自由」與本句語境不同。"
+        "freedom-mcq-04": "本句的「freedom」指「不受阻止地進行某行為的能力／權利」。",
+        "freedom-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-04"
     },
@@ -652,11 +620,8 @@ export default {
       "masked": "The manager gave the team the ____ to experiment.",
       "options": [
         "freedom-mcq-05",
-        "freedom-mcq-04",
-        "freedom-mcq-06",
-        "freedom-mcq-03",
-        "freedom-mcq-07",
-        "freedom-mcq-02"
+        "freedom-mcq-08",
+        "freedom-mcq-10"
       ],
       "explanation": "本句的「freedom」指「給某人自行選擇／行動的自主權」。",
       "sentenceIndex": 8,
@@ -665,12 +630,9 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-05": "本句指「給某人自行選擇／行動的自主權」。",
-        "freedom-mcq-04": "「不受阻止地進行某行為的能力／權利」與本句語境不同。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。",
-        "freedom-mcq-03": "「自主決定工作方式、方向、時間等的空間」與本句語境不同。",
-        "freedom-mcq-07": "「可以自主採取行動的權限／空間」與本句語境不同。",
-        "freedom-mcq-02": "「在個人生活方面自主作決定的自由」與本句語境不同。"
+        "freedom-mcq-05": "本句的「freedom」指「給某人自行選擇／行動的自主權」。",
+        "freedom-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "freedom-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-05"
     },
@@ -682,11 +644,7 @@ export default {
       "masked": "Customers value ____ of choice.",
       "options": [
         "freedom-mcq-06",
-        "freedom-mcq-05",
-        "freedom-mcq-07",
-        "freedom-mcq-04",
-        "freedom-mcq-08",
-        "freedom-mcq-03"
+        "freedom-mcq-08"
       ],
       "explanation": "本句的「freedom」指「在不同選項之間自行作選擇的自由」。",
       "sentenceIndex": 10,
@@ -695,12 +653,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-06": "本句指「在不同選項之間自行作選擇的自由」。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。",
-        "freedom-mcq-07": "「可以自主採取行動的權限／空間」與本句語境不同。",
-        "freedom-mcq-04": "「不受阻止地進行某行為的能力／權利」與本句語境不同。",
-        "freedom-mcq-08": "「免受某種不希望的限制、痛苦或干預」與本句語境不同。",
-        "freedom-mcq-03": "「自主決定工作方式、方向、時間等的空間」與本句語境不同。"
+        "freedom-mcq-06": "本句的「freedom」指「在不同選項之間自行作選擇的自由」。",
+        "freedom-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-06"
     },
@@ -712,11 +666,8 @@ export default {
       "masked": "The agreement leaves managers considerable ____ of action.",
       "options": [
         "freedom-mcq-07",
-        "freedom-mcq-06",
-        "freedom-mcq-08",
-        "freedom-mcq-05",
-        "freedom-mcq-09",
-        "freedom-mcq-04"
+        "freedom-mcq-32",
+        "freedom-mcq-08"
       ],
       "explanation": "本句的「freedom」指「可以自主採取行動的權限／空間」。",
       "sentenceIndex": 12,
@@ -725,12 +676,9 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-07": "本句指「可以自主採取行動的權限／空間」。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。",
-        "freedom-mcq-08": "「免受某種不希望的限制、痛苦或干預」與本句語境不同。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。",
-        "freedom-mcq-09": "「免於恐懼」與本句語境不同。",
-        "freedom-mcq-04": "「不受阻止地進行某行為的能力／權利」與本句語境不同。"
+        "freedom-mcq-07": "本句的「freedom」指「可以自主採取行動的權限／空間」。",
+        "freedom-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "freedom-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-07"
     },
@@ -742,10 +690,7 @@ export default {
       "masked": "Financial planning gave him greater ____ from debt.",
       "options": [
         "freedom-mcq-08",
-        "freedom-mcq-07",
-        "freedom-mcq-09",
-        "freedom-mcq-06",
-        "freedom-mcq-10",
+        "freedom-mcq-30",
         "freedom-mcq-05"
       ],
       "explanation": "本句的「freedom」指「免受某種不希望的限制、痛苦或干預」。",
@@ -755,12 +700,9 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-08": "本句指「免受某種不希望的限制、痛苦或干預」。",
-        "freedom-mcq-07": "「可以自主採取行動的權限／空間」與本句語境不同。",
-        "freedom-mcq-09": "「免於恐懼」與本句語境不同。",
-        "freedom-mcq-06": "「在不同選項之間自行作選擇的自由」與本句語境不同。",
-        "freedom-mcq-10": "「社會／法律制度所承認的各項公民自由」與本句語境不同。",
-        "freedom-mcq-05": "「給某人自行選擇／行動的自主權」與本句語境不同。"
+        "freedom-mcq-08": "本句的「freedom」指「免受某種不希望的限制、痛苦或干預」。",
+        "freedom-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "freedom-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-08"
     },
@@ -772,11 +714,8 @@ export default {
       "masked": "The debate concerned individual rights and civil ____.",
       "options": [
         "freedom-mcq-10",
-        "freedom-mcq-09",
-        "freedom-mcq-11",
-        "freedom-mcq-08",
-        "freedom-mcq-12",
-        "freedom-mcq-07"
+        "freedom-mcq-04",
+        "freedom-mcq-05"
       ],
       "explanation": "本句的「freedoms」指「社會／法律制度所承認的各項公民自由」。",
       "sentenceIndex": 16,
@@ -785,12 +724,9 @@ export default {
         "freedoms"
       ],
       "optionReasons": {
-        "freedom-mcq-10": "本句指「社會／法律制度所承認的各項公民自由」。",
-        "freedom-mcq-09": "「免於恐懼」與本句語境不同。",
-        "freedom-mcq-11": "「言論自由；具體法律範圍依司法地區」與本句語境不同。",
-        "freedom-mcq-08": "「免受某種不希望的限制、痛苦或干預」與本句語境不同。",
-        "freedom-mcq-12": "「以言語、文字、藝術等方式表達思想的自由」與本句語境不同。",
-        "freedom-mcq-07": "「可以自主採取行動的權限／空間」與本句語境不同。"
+        "freedom-mcq-10": "本句的「freedoms」指「社會／法律制度所承認的各項公民自由」。",
+        "freedom-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "freedom-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-10"
     },
@@ -802,11 +738,7 @@ export default {
       "masked": "The animal was released and regained its ____.",
       "options": [
         "freedom-mcq-28",
-        "freedom-mcq-27",
-        "freedom-mcq-29",
-        "freedom-mcq-26",
-        "freedom-mcq-30",
-        "freedom-mcq-25"
+        "freedom-mcq-05"
       ],
       "explanation": "本句的「freedom」指「從監禁、控制或束縛中取得／重獲自由」。",
       "sentenceIndex": 21,
@@ -815,12 +747,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-28": "本句指「從監禁、控制或束縛中取得／重獲自由」。",
-        "freedom-mcq-27": "「評估產品／程序商業實施是否可能侵犯相關有效第三方知識產權的自由實施分析」與本句語境不同。",
-        "freedom-mcq-29": "「減少控制並給予自主空間」與本句語境不同。",
-        "freedom-mcq-26": "「某些版權制度中對公共場所作品影像使用的特定例外概念」與本句語境不同。",
-        "freedom-mcq-30": "「正式：享有／擁有某種自由」與本句語境不同。",
-        "freedom-mcq-25": "「航運／海事法律語境中的航行自由」與本句語境不同。"
+        "freedom-mcq-28": "本句的「freedom」指「從監禁、控制或束縛中取得／重獲自由」。",
+        "freedom-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-28"
     },
@@ -832,11 +760,7 @@ export default {
       "masked": "Good management gives employees enough ____ to make decisions.",
       "options": [
         "freedom-mcq-29",
-        "freedom-mcq-28",
-        "freedom-mcq-30",
-        "freedom-mcq-27",
-        "freedom-mcq-31",
-        "freedom-mcq-26"
+        "freedom-mcq-30"
       ],
       "explanation": "本句的「freedom」指「減少控制並給予自主空間」。",
       "sentenceIndex": 23,
@@ -845,12 +769,8 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-29": "本句指「減少控制並給予自主空間」。",
-        "freedom-mcq-28": "「從監禁、控制或束縛中取得／重獲自由」與本句語境不同。",
-        "freedom-mcq-30": "「正式：享有／擁有某種自由」與本句語境不同。",
-        "freedom-mcq-27": "「評估產品／程序商業實施是否可能侵犯相關有效第三方知識產權的自由實施分析」與本句語境不同。",
-        "freedom-mcq-31": "「為取得／維持自由而奮鬥」與本句語境不同。",
-        "freedom-mcq-26": "「某些版權制度中對公共場所作品影像使用的特定例外概念」與本句語境不同。"
+        "freedom-mcq-29": "本句的「freedom」指「減少控制並給予自主空間」。",
+        "freedom-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-29"
     },
@@ -862,11 +782,8 @@ export default {
       "masked": "Workers enjoy considerable ____ in choosing their schedules.",
       "options": [
         "freedom-mcq-30",
-        "freedom-mcq-29",
-        "freedom-mcq-31",
-        "freedom-mcq-28",
-        "freedom-mcq-32",
-        "freedom-mcq-27"
+        "freedom-mcq-08",
+        "freedom-mcq-07"
       ],
       "explanation": "本句的「freedom」指「正式：享有／擁有某種自由」。",
       "sentenceIndex": 28,
@@ -875,12 +792,9 @@ export default {
         "freedom"
       ],
       "optionReasons": {
-        "freedom-mcq-30": "本句指「正式：享有／擁有某種自由」。",
-        "freedom-mcq-29": "「減少控制並給予自主空間」與本句語境不同。",
-        "freedom-mcq-31": "「為取得／維持自由而奮鬥」與本句語境不同。",
-        "freedom-mcq-28": "「從監禁、控制或束縛中取得／重獲自由」與本句語境不同。",
-        "freedom-mcq-32": "「非常重視、熱愛自由的」與本句語境不同。",
-        "freedom-mcq-27": "「評估產品／程序商業實施是否可能侵犯相關有效第三方知識產權的自由實施分析」與本句語境不同。"
+        "freedom-mcq-30": "本句的「freedom」指「正式：享有／擁有某種自由」。",
+        "freedom-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "freedom-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-30"
     },
@@ -892,11 +806,8 @@ export default {
       "masked": "He described himself as ____.",
       "options": [
         "freedom-mcq-32",
-        "freedom-mcq-31",
-        "freedom-mcq-33",
-        "freedom-mcq-30",
-        "freedom-mcq-34",
-        "freedom-mcq-29"
+        "freedom-mcq-04",
+        "freedom-mcq-05"
       ],
       "explanation": "本句的「freedom-loving」指「非常重視、熱愛自由的」。",
       "sentenceIndex": 29,
@@ -905,12 +816,9 @@ export default {
         "freedom-loving"
       ],
       "optionReasons": {
-        "freedom-mcq-32": "本句指「非常重視、熱愛自由的」。",
-        "freedom-mcq-31": "「為取得／維持自由而奮鬥」與本句語境不同。",
-        "freedom-mcq-33": "「多項分開識別的具體自由權」與本句語境不同。",
-        "freedom-mcq-30": "「正式：享有／擁有某種自由」與本句語境不同。",
-        "freedom-mcq-34": "「系統能獨立變化的一個方向／參數；自由度」與本句語境不同。",
-        "freedom-mcq-29": "「減少控制並給予自主空間」與本句語境不同。"
+        "freedom-mcq-32": "本句的「freedom-loving」指「非常重視、熱愛自由的」。",
+        "freedom-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "freedom-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "freedom-mcq-32"
     }
@@ -922,5 +830,12 @@ export default {
     "sha256": "4f125bb3bba2f66e2a60a968dcb6b02b1dc10a356fe4ef514c726d2babfeb695",
     "pages": 34
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

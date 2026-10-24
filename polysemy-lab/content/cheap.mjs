@@ -394,11 +394,8 @@ export default {
       "masked": "That is ____.",
       "options": [
         "cheap-mcq-01",
-        "cheap-mcq-02",
-        "cheap-mcq-03",
-        "cheap-mcq-04",
-        "cheap-mcq-05",
-        "cheap-mcq-06"
+        "cheap-mcq-06",
+        "cheap-mcq-13"
       ],
       "explanation": "本句的「not exactly cheap」指「相對同類物品或預期而言，所需金錢較少」。",
       "sentenceIndex": 0,
@@ -407,12 +404,9 @@ export default {
         "not exactly cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-01": "本句指「相對同類物品或預期而言，所需金錢較少」。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-mcq-01": "本句的「not exactly cheap」指「相對同類物品或預期而言，所需金錢較少」。",
+        "cheap-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-01"
     },
@@ -424,10 +418,7 @@ export default {
       "masked": "The museum shop sells some ____ postcards.",
       "options": [
         "cheap-mcq-01",
-        "cheap-mcq-02",
-        "cheap-mcq-03",
-        "cheap-mcq-04",
-        "cheap-mcq-05",
+        "cheap-mcq-15",
         "cheap-mcq-06"
       ],
       "explanation": "本句的「cheap」指「相對同類物品或預期而言，所需金錢較少」。",
@@ -437,12 +428,9 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-01": "本句指「相對同類物品或預期而言，所需金錢較少」。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-mcq-01": "本句的「cheap」指「相對同類物品或預期而言，所需金錢較少」。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-01"
     },
@@ -454,11 +442,9 @@ export default {
       "masked": "We found a ____ frame online.",
       "options": [
         "cheap-mcq-01",
-        "cheap-mcq-02",
         "cheap-mcq-03",
-        "cheap-mcq-04",
-        "cheap-mcq-05",
-        "cheap-mcq-06"
+        "cheap-mcq-16",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheaper」指「相對同類物品或預期而言，所需金錢較少」。",
       "sentenceIndex": 2,
@@ -467,12 +453,10 @@ export default {
         "cheaper"
       ],
       "optionReasons": {
-        "cheap-mcq-01": "本句指「相對同類物品或預期而言，所需金錢較少」。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-mcq-01": "本句的「cheaper」指「相對同類物品或預期而言，所需金錢較少」。",
+        "cheap-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-01"
     },
@@ -484,11 +468,9 @@ export default {
       "masked": "Digital copies are a ____ way to access art.",
       "options": [
         "cheap-pdf-001",
-        "cheap-mcq-01",
-        "cheap-mcq-03",
-        "cheap-mcq-04",
-        "cheap-mcq-05",
-        "cheap-mcq-06"
+        "cheap-mcq-08",
+        "cheap-mcq-07",
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「cheap」指「所需花費低，重點在成本少」。",
       "sentenceIndex": 3,
@@ -497,12 +479,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-pdf-001": "本句指「所需花費低，重點在成本少」。",
-        "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-pdf-001": "本句的「cheap」指「所需花費低，重點在成本少」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-pdf-001"
     },
@@ -514,11 +494,9 @@ export default {
       "masked": "They were looking for a ____ solution.",
       "options": [
         "cheap-pdf-001",
-        "cheap-mcq-01",
-        "cheap-mcq-03",
-        "cheap-mcq-04",
-        "cheap-mcq-05",
-        "cheap-mcq-06"
+        "cheap-mcq-08",
+        "cheap-mcq-15",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheap」指「所需花費低，重點在成本少」。",
       "sentenceIndex": 4,
@@ -527,12 +505,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-pdf-001": "本句指「所需花費低，重點在成本少」。",
-        "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-pdf-001": "本句的「cheap」指「所需花費低，重點在成本少」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-pdf-001"
     },
@@ -544,11 +520,9 @@ export default {
       "masked": "The frame looked ____.",
       "options": [
         "cheap-mcq-03",
-        "cheap-mcq-02",
-        "cheap-mcq-04",
         "cheap-mcq-01",
-        "cheap-mcq-05",
-        "cheap-mcq-06"
+        "cheap-mcq-07",
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap」指「因材料、造工或外觀低劣而顯得沒有質感」。",
       "sentenceIndex": 5,
@@ -557,12 +531,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-03": "本句指「因材料、造工或外觀低劣而顯得沒有質感」。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-mcq-03": "本句的「cheap」指「因材料、造工或外觀低劣而顯得沒有質感」。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-03"
     },
@@ -574,11 +546,9 @@ export default {
       "masked": "The bag was made from ____ plastic.",
       "options": [
         "cheap-mcq-03",
-        "cheap-mcq-02",
-        "cheap-mcq-04",
         "cheap-mcq-01",
-        "cheap-mcq-05",
-        "cheap-mcq-06"
+        "cheap-mcq-07",
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap」指「因材料、造工或外觀低劣而顯得沒有質感」。",
       "sentenceIndex": 6,
@@ -587,12 +557,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-03": "本句指「因材料、造工或外觀低劣而顯得沒有質感」。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。"
+        "cheap-mcq-03": "本句的「cheap」指「因材料、造工或外觀低劣而顯得沒有質感」。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-03"
     },
@@ -604,11 +572,9 @@ export default {
       "masked": "The gold-coloured frame looked ____.",
       "options": [
         "cheap-mcq-04",
-        "cheap-mcq-03",
+        "cheap-mcq-07",
         "cheap-mcq-05",
-        "cheap-mcq-02",
-        "cheap-mcq-06",
-        "cheap-mcq-01"
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap-looking」指「外觀看起來品質低、造工差或沒有質感」。",
       "sentenceIndex": 7,
@@ -617,12 +583,10 @@ export default {
         "cheap-looking"
       ],
       "optionReasons": {
-        "cheap-mcq-04": "本句指「外觀看起來品質低、造工差或沒有質感」。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。"
+        "cheap-mcq-04": "本句的「cheap-looking」指「外觀看起來品質低、造工差或沒有質感」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-04"
     },
@@ -634,11 +598,9 @@ export default {
       "masked": "Bright plastic can make the product look ____.",
       "options": [
         "cheap-mcq-04",
-        "cheap-mcq-03",
         "cheap-mcq-05",
-        "cheap-mcq-02",
-        "cheap-mcq-06",
-        "cheap-mcq-01"
+        "cheap-mcq-07",
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap」指「外觀看起來品質低、造工差或沒有質感」。",
       "sentenceIndex": 8,
@@ -647,12 +609,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-04": "本句指「外觀看起來品質低、造工差或沒有質感」。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-01": "「相對同類物品或預期而言，所需金錢較少」是「cheap — price」的用法，與本句語境不同。"
+        "cheap-mcq-04": "本句的「cheap」指「外觀看起來品質低、造工差或沒有質感」。",
+        "cheap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-04"
     },
@@ -665,10 +625,8 @@ export default {
       "options": [
         "cheap-mcq-05",
         "cheap-mcq-04",
-        "cheap-mcq-06",
-        "cheap-mcq-03",
-        "cheap-mcq-07",
-        "cheap-mcq-02"
+        "cheap-mcq-16",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheap」指「過分不願花錢，即使合理支出也想避免；小氣」。",
       "sentenceIndex": 9,
@@ -677,12 +635,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-05": "本句指「過分不願花錢，即使合理支出也想避免；小氣」。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。"
+        "cheap-mcq-05": "本句的「cheap」指「過分不願花錢，即使合理支出也想避免；小氣」。",
+        "cheap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-05"
     },
@@ -695,10 +651,8 @@ export default {
       "options": [
         "cheap-mcq-05",
         "cheap-mcq-04",
-        "cheap-mcq-06",
-        "cheap-mcq-03",
         "cheap-mcq-07",
-        "cheap-mcq-02"
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap」指「過分不願花錢，即使合理支出也想避免；小氣」。",
       "sentenceIndex": 10,
@@ -707,12 +661,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-05": "本句指「過分不願花錢，即使合理支出也想避免；小氣」。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-02": "「完成、取得或生產某事所需成本較低」是「cheap — low-cost」的用法，與本句語境不同。"
+        "cheap-mcq-05": "本句的「cheap」指「過分不願花錢，即使合理支出也想避免；小氣」。",
+        "cheap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-05"
     },
@@ -725,10 +677,7 @@ export default {
       "options": [
         "cheap-mcq-06",
         "cheap-mcq-05",
-        "cheap-mcq-07",
-        "cheap-mcq-04",
-        "cheap-mcq-08",
-        "cheap-mcq-03"
+        "cheap-mcq-04"
       ],
       "explanation": "本句的「cheap trick」指「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」。",
       "sentenceIndex": 11,
@@ -737,12 +686,9 @@ export default {
         "cheap trick"
       ],
       "optionReasons": {
-        "cheap-mcq-06": "本句指「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。"
+        "cheap-mcq-06": "本句的「cheap trick」指「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」。",
+        "cheap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-06"
     },
@@ -754,11 +700,8 @@ export default {
       "masked": "He scored a ____ victory because his opponent was injured.",
       "options": [
         "cheap-mcq-06",
-        "cheap-mcq-05",
-        "cheap-mcq-07",
-        "cheap-mcq-04",
-        "cheap-mcq-08",
-        "cheap-mcq-03"
+        "cheap-mcq-01",
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「cheap」指「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」。",
       "sentenceIndex": 12,
@@ -767,12 +710,9 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-06": "本句指「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。",
-        "cheap-mcq-03": "「因材料、造工或外觀低劣而顯得沒有質感」是「cheap — poor quality」的用法，與本句語境不同。"
+        "cheap-mcq-06": "本句的「cheap」指「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-06"
     },
@@ -784,11 +724,8 @@ export default {
       "masked": "That comment was a ____.",
       "options": [
         "cheap-mcq-07",
-        "cheap-mcq-06",
-        "cheap-mcq-08",
-        "cheap-mcq-05",
-        "cheap-mcq-09",
-        "cheap-mcq-04"
+        "cheap-mcq-11",
+        "cheap-mcq-13"
       ],
       "explanation": "本句的「cheap shot」指「不公平、針對弱點的攻擊或批評」。",
       "sentenceIndex": 13,
@@ -797,12 +734,9 @@ export default {
         "cheap shot"
       ],
       "optionReasons": {
-        "cheap-mcq-07": "本句指「不公平、針對弱點的攻擊或批評」。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。"
+        "cheap-mcq-07": "本句的「cheap shot」指「不公平、針對弱點的攻擊或批評」。",
+        "cheap-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-07"
     },
@@ -814,11 +748,9 @@ export default {
       "masked": "Criticizing his family was a ____ shot.",
       "options": [
         "cheap-mcq-07",
-        "cheap-mcq-06",
-        "cheap-mcq-08",
-        "cheap-mcq-05",
-        "cheap-mcq-09",
-        "cheap-mcq-04"
+        "cheap-mcq-04",
+        "cheap-mcq-01",
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap」指「不公平、針對弱點的攻擊或批評」。",
       "sentenceIndex": 14,
@@ -827,12 +759,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-07": "本句指「不公平、針對弱點的攻擊或批評」。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-04": "「外觀看起來品質低、造工差或沒有質感」是「cheap-looking」的用法，與本句語境不同。"
+        "cheap-mcq-07": "本句的「cheap」指「不公平、針對弱點的攻擊或批評」。",
+        "cheap-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-07"
     },
@@ -844,11 +774,9 @@ export default {
       "masked": "Using fear to get attention is a ____.",
       "options": [
         "cheap-mcq-08",
+        "cheap-mcq-01",
         "cheap-mcq-07",
-        "cheap-mcq-09",
-        "cheap-mcq-06",
-        "cheap-mcq-10",
-        "cheap-mcq-05"
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「cheap trick」指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
       "sentenceIndex": 15,
@@ -857,12 +785,10 @@ export default {
         "cheap trick"
       ],
       "optionReasons": {
-        "cheap-mcq-08": "本句指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。"
+        "cheap-mcq-08": "本句的「cheap trick」指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-08"
     },
@@ -874,11 +800,9 @@ export default {
       "masked": "The advertisement relies on ____ tricks.",
       "options": [
         "cheap-mcq-08",
-        "cheap-mcq-07",
-        "cheap-mcq-09",
-        "cheap-mcq-06",
-        "cheap-mcq-10",
-        "cheap-mcq-05"
+        "cheap-pdf-001",
+        "cheap-mcq-15",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheap」指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
       "sentenceIndex": 16,
@@ -887,12 +811,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-08": "本句指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。"
+        "cheap-mcq-08": "本句的「cheap」指「缺乏真正技巧、靠簡單操弄取得效果的手段」。",
+        "cheap-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-08"
     },
@@ -905,10 +827,7 @@ export default {
       "options": [
         "cheap-pdf-002",
         "cheap-mcq-07",
-        "cheap-mcq-09",
-        "cheap-mcq-06",
-        "cheap-mcq-10",
-        "cheap-mcq-05"
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap emotion」指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
       "sentenceIndex": 17,
@@ -917,12 +836,9 @@ export default {
         "cheap emotion"
       ],
       "optionReasons": {
-        "cheap-pdf-002": "本句指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。"
+        "cheap-pdf-002": "本句的「cheap emotion」指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-pdf-002"
     },
@@ -935,10 +851,7 @@ export default {
       "options": [
         "cheap-pdf-002",
         "cheap-mcq-07",
-        "cheap-mcq-09",
-        "cheap-mcq-06",
-        "cheap-mcq-10",
-        "cheap-mcq-05"
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheap」指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
       "sentenceIndex": 18,
@@ -947,12 +860,9 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-pdf-002": "本句指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-06": "「不靠真正實力或公平方式便取得效果，因此顯得低級／不光彩」是「cheap — tactic」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-05": "「過分不願花錢，即使合理支出也想避免；小氣」是「cheap — person」的用法，與本句語境不同。"
+        "cheap-pdf-002": "本句的「cheap」指「為了快速製造效果而顯得膚淺、做作、缺乏真正價值」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-pdf-002"
     },
@@ -964,11 +874,8 @@ export default {
       "masked": "____ energy helped the industry expand.",
       "options": [
         "cheap-mcq-16",
-        "cheap-mcq-15",
-        "cheap-mcq-14",
-        "cheap-mcq-13",
-        "cheap-mcq-12",
-        "cheap-mcq-11"
+        "cheap-pdf-002",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「Cheap」指「某種資源、勞動力或服務的取得成本低」。",
       "sentenceIndex": 19,
@@ -977,12 +884,9 @@ export default {
         "Cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-16": "本句指「某種資源、勞動力或服務的取得成本低」。",
-        "cheap-mcq-15": "「外觀或造工帶來的低質感／廉價感」是「cheapness — quality」的用法，與本句語境不同。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。"
+        "cheap-mcq-16": "本句的「Cheap」指「某種資源、勞動力或服務的取得成本低」。",
+        "cheap-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-16"
     },
@@ -994,11 +898,9 @@ export default {
       "masked": "The company depends on ____ labour.",
       "options": [
         "cheap-mcq-16",
-        "cheap-mcq-15",
-        "cheap-mcq-14",
-        "cheap-mcq-13",
-        "cheap-mcq-12",
-        "cheap-mcq-11"
+        "cheap-mcq-01",
+        "cheap-mcq-07",
+        "cheap-mcq-03"
       ],
       "explanation": "本句的「cheap」指「某種資源、勞動力或服務的取得成本低」。",
       "sentenceIndex": 20,
@@ -1007,12 +909,10 @@ export default {
         "cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-16": "本句指「某種資源、勞動力或服務的取得成本低」。",
-        "cheap-mcq-15": "「外觀或造工帶來的低質感／廉價感」是「cheapness — quality」的用法，與本句語境不同。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。"
+        "cheap-mcq-16": "本句的「cheap」指「某種資源、勞動力或服務的取得成本低」。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-16"
     },
@@ -1024,11 +924,9 @@ export default {
       "masked": "The factory relied on ____.",
       "options": [
         "cheap-mcq-10",
-        "cheap-mcq-09",
-        "cheap-mcq-11",
+        "cheap-mcq-07",
         "cheap-mcq-08",
-        "cheap-mcq-12",
-        "cheap-mcq-07"
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「cheap labour」指「工資成本相對較低的勞動力」。",
       "sentenceIndex": 21,
@@ -1037,12 +935,10 @@ export default {
         "cheap labour"
       ],
       "optionReasons": {
-        "cheap-mcq-10": "本句指「工資成本相對較低的勞動力」。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。"
+        "cheap-mcq-10": "本句的「cheap labour」指「工資成本相對較低的勞動力」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-10"
     },
@@ -1054,11 +950,9 @@ export default {
       "masked": "____ labour can reduce production costs.",
       "options": [
         "cheap-mcq-10",
-        "cheap-mcq-09",
-        "cheap-mcq-11",
         "cheap-mcq-08",
-        "cheap-mcq-12",
-        "cheap-mcq-07"
+        "cheap-mcq-07",
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「Cheap」指「工資成本相對較低的勞動力」。",
       "sentenceIndex": 22,
@@ -1067,12 +961,10 @@ export default {
         "Cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-10": "本句指「工資成本相對較低的勞動力」。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-07": "「不公平、針對弱點的攻擊或批評」是「cheap shot」的用法，與本句語境不同。"
+        "cheap-mcq-10": "本句的「Cheap」指「工資成本相對較低的勞動力」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-10"
     },
@@ -1084,11 +976,9 @@ export default {
       "masked": "Businesses expanded during a period of ____.",
       "options": [
         "cheap-mcq-11",
-        "cheap-mcq-10",
-        "cheap-mcq-12",
-        "cheap-mcq-09",
-        "cheap-mcq-13",
-        "cheap-mcq-08"
+        "cheap-mcq-07",
+        "cheap-mcq-08",
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「cheap money」指「借貸成本低、利率較低的資金」。",
       "sentenceIndex": 23,
@@ -1097,12 +987,10 @@ export default {
         "cheap money"
       ],
       "optionReasons": {
-        "cheap-mcq-11": "本句指「借貸成本低、利率較低的資金」。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。"
+        "cheap-mcq-11": "本句的「cheap money」指「借貸成本低、利率較低的資金」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-11"
     },
@@ -1114,11 +1002,9 @@ export default {
       "masked": "____ money encouraged borrowing.",
       "options": [
         "cheap-mcq-11",
-        "cheap-mcq-10",
-        "cheap-mcq-12",
-        "cheap-mcq-09",
-        "cheap-mcq-13",
-        "cheap-mcq-08"
+        "cheap-mcq-08",
+        "cheap-mcq-07",
+        "cheap-mcq-15"
       ],
       "explanation": "本句的「Cheap」指「借貸成本低、利率較低的資金」。",
       "sentenceIndex": 24,
@@ -1127,12 +1013,10 @@ export default {
         "Cheap"
       ],
       "optionReasons": {
-        "cheap-mcq-11": "本句指「借貸成本低、利率較低的資金」。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-08": "「缺乏真正技巧、靠簡單操弄取得效果的手段」是「cheap trick」的用法，與本句語境不同。"
+        "cheap-mcq-11": "本句的「Cheap」指「借貸成本低、利率較低的資金」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-11"
     },
@@ -1144,11 +1028,8 @@ export default {
       "masked": "The prints can be produced ____.",
       "options": [
         "cheap-mcq-12",
-        "cheap-mcq-11",
-        "cheap-mcq-13",
-        "cheap-mcq-10",
-        "cheap-mcq-14",
-        "cheap-mcq-09"
+        "cheap-mcq-08",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheaply」指「以較低價格／成本」。",
       "sentenceIndex": 25,
@@ -1157,12 +1038,9 @@ export default {
         "cheaply"
       ],
       "optionReasons": {
-        "cheap-mcq-12": "本句指「以較低價格／成本」。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。"
+        "cheap-mcq-12": "本句的「cheaply」指「以較低價格／成本」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-12"
     },
@@ -1174,11 +1052,8 @@ export default {
       "masked": "We bought the frame ____ online.",
       "options": [
         "cheap-mcq-12",
-        "cheap-mcq-11",
-        "cheap-mcq-13",
-        "cheap-mcq-10",
-        "cheap-mcq-14",
-        "cheap-mcq-09"
+        "cheap-mcq-07",
+        "cheap-mcq-08"
       ],
       "explanation": "本句的「cheaply」指「以較低價格／成本」。",
       "sentenceIndex": 26,
@@ -1187,12 +1062,9 @@ export default {
         "cheaply"
       ],
       "optionReasons": {
-        "cheap-mcq-12": "本句指「以較低價格／成本」。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-09": "「為快速製造反應而顯得膚淺、做作、缺乏真正價值」是「cheap — emotion/effect」的用法，與本句語境不同。"
+        "cheap-mcq-12": "本句的「cheaply」指「以較低價格／成本」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-12"
     },
@@ -1204,11 +1076,9 @@ export default {
       "masked": "The room was ____ decorated.",
       "options": [
         "cheap-mcq-13",
-        "cheap-mcq-12",
-        "cheap-mcq-14",
-        "cheap-mcq-11",
-        "cheap-mcq-15",
-        "cheap-mcq-10"
+        "cheap-mcq-05",
+        "cheap-mcq-07",
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheaply」指「以低質素、粗糙或缺乏質感的方式」。",
       "sentenceIndex": 27,
@@ -1217,12 +1087,10 @@ export default {
         "cheaply"
       ],
       "optionReasons": {
-        "cheap-mcq-13": "本句指「以低質素、粗糙或缺乏質感的方式」。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。",
-        "cheap-mcq-15": "「外觀或造工帶來的低質感／廉價感」是「cheapness — quality」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。"
+        "cheap-mcq-13": "本句的「cheaply」指「以低質素、粗糙或缺乏質感的方式」。",
+        "cheap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-13"
     },
@@ -1234,11 +1102,9 @@ export default {
       "masked": "The product was ____ made.",
       "options": [
         "cheap-mcq-13",
-        "cheap-mcq-12",
-        "cheap-mcq-14",
-        "cheap-mcq-11",
-        "cheap-mcq-15",
-        "cheap-mcq-10"
+        "cheap-mcq-01",
+        "cheap-mcq-07",
+        "cheap-mcq-16"
       ],
       "explanation": "本句的「cheaply」指「以低質素、粗糙或缺乏質感的方式」。",
       "sentenceIndex": 28,
@@ -1247,12 +1113,10 @@ export default {
         "cheaply"
       ],
       "optionReasons": {
-        "cheap-mcq-13": "本句指「以低質素、粗糙或缺乏質感的方式」。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。",
-        "cheap-mcq-15": "「外觀或造工帶來的低質感／廉價感」是「cheapness — quality」的用法，與本句語境不同。",
-        "cheap-mcq-10": "「工資成本相對較低的勞動力」是「cheap labour」的用法，與本句語境不同。"
+        "cheap-mcq-13": "本句的「cheaply」指「以低質素、粗糙或缺乏質感的方式」。",
+        "cheap-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-13"
     },
@@ -1264,11 +1128,8 @@ export default {
       "masked": "The main attraction is its ____.",
       "options": [
         "cheap-mcq-14",
-        "cheap-mcq-13",
-        "cheap-mcq-15",
-        "cheap-mcq-12",
-        "cheap-mcq-16",
-        "cheap-mcq-11"
+        "cheap-mcq-07",
+        "cheap-mcq-08"
       ],
       "explanation": "本句的「cheapness」指「價格低廉這種特質」。",
       "sentenceIndex": 29,
@@ -1277,12 +1138,9 @@ export default {
         "cheapness"
       ],
       "optionReasons": {
-        "cheap-mcq-14": "本句指「價格低廉這種特質」。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-15": "「外觀或造工帶來的低質感／廉價感」是「cheapness — quality」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-16": "「某種資源、勞動力或服務的取得成本低」是「10. cheap = easy to obtain / abundant at low cost — 低廉的；容易取得的」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。"
+        "cheap-mcq-14": "本句的「cheapness」指「價格低廉這種特質」。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-14"
     },
@@ -1294,11 +1152,8 @@ export default {
       "masked": "____ alone does not guarantee value.",
       "options": [
         "cheap-mcq-14",
-        "cheap-mcq-13",
-        "cheap-mcq-15",
-        "cheap-mcq-12",
-        "cheap-mcq-16",
-        "cheap-mcq-11"
+        "cheap-mcq-08",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「Cheapness」指「價格低廉這種特質」。",
       "sentenceIndex": 30,
@@ -1307,12 +1162,9 @@ export default {
         "Cheapness"
       ],
       "optionReasons": {
-        "cheap-mcq-14": "本句指「價格低廉這種特質」。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-15": "「外觀或造工帶來的低質感／廉價感」是「cheapness — quality」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-16": "「某種資源、勞動力或服務的取得成本低」是「10. cheap = easy to obtain / abundant at low cost — 低廉的；容易取得的」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。"
+        "cheap-mcq-14": "本句的「Cheapness」指「價格低廉這種特質」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-14"
     },
@@ -1324,11 +1176,9 @@ export default {
       "masked": "The shiny plastic gave the product a sense of ____.",
       "options": [
         "cheap-mcq-15",
-        "cheap-mcq-14",
-        "cheap-mcq-16",
-        "cheap-mcq-13",
-        "cheap-mcq-12",
-        "cheap-mcq-11"
+        "cheap-mcq-08",
+        "cheap-mcq-05",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheapness」指「外觀或造工帶來的低質感／廉價感」。",
       "sentenceIndex": 31,
@@ -1337,12 +1187,10 @@ export default {
         "cheapness"
       ],
       "optionReasons": {
-        "cheap-mcq-15": "本句指「外觀或造工帶來的低質感／廉價感」。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-16": "「某種資源、勞動力或服務的取得成本低」是「10. cheap = easy to obtain / abundant at low cost — 低廉的；容易取得的」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。"
+        "cheap-mcq-15": "本句的「cheapness」指「外觀或造工帶來的低質感／廉價感」。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-15"
     },
@@ -1354,11 +1202,9 @@ export default {
       "masked": "The design avoided visual ____.",
       "options": [
         "cheap-mcq-15",
-        "cheap-mcq-14",
-        "cheap-mcq-16",
-        "cheap-mcq-13",
-        "cheap-mcq-12",
-        "cheap-mcq-11"
+        "cheap-mcq-05",
+        "cheap-mcq-08",
+        "cheap-mcq-07"
       ],
       "explanation": "本句的「cheapness」指「外觀或造工帶來的低質感／廉價感」。",
       "sentenceIndex": 32,
@@ -1367,12 +1213,10 @@ export default {
         "cheapness"
       ],
       "optionReasons": {
-        "cheap-mcq-15": "本句指「外觀或造工帶來的低質感／廉價感」。",
-        "cheap-mcq-14": "「價格低廉這種特質」是「cheapness — price」的用法，與本句語境不同。",
-        "cheap-mcq-16": "「某種資源、勞動力或服務的取得成本低」是「10. cheap = easy to obtain / abundant at low cost — 低廉的；容易取得的」的用法，與本句語境不同。",
-        "cheap-mcq-13": "「以低質素、粗糙或缺乏質感的方式」是「cheaply — quality」的用法，與本句語境不同。",
-        "cheap-mcq-12": "「以較低價格／成本」是「cheaply — price」的用法，與本句語境不同。",
-        "cheap-mcq-11": "「借貸成本低、利率較低的資金」是「cheap money」的用法，與本句語境不同。"
+        "cheap-mcq-15": "本句的「cheapness」指「外觀或造工帶來的低質感／廉價感」。",
+        "cheap-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "cheap-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "cheap-mcq-15"
     }
@@ -1384,5 +1228,7 @@ export default {
     "sha256": "d6defd58c7f5144534eb485140623ddf4e657ee6b13d41467bf3f1f5b4714cc9",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

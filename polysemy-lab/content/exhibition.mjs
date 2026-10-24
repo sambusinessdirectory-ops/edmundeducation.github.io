@@ -237,13 +237,7 @@ export default {
       "en": "exhibit — medicine, historical",
       "zh": "給藥、施藥；已過時，不納入現代核心",
       "note": "來源詞義：給藥、施藥；已過時，不納入現代核心",
-      "examples": [
-        [
-          "The annual technology exhibit attracted thousands of visitors.",
-          "年度科技展覽／展示活動吸引了數千名參觀者。",
-          "給藥、施藥；已過時，不納入現代核心"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -323,6 +317,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "exhibition-reviewed-c49a0e7055",
+      "title": "展示；展出",
+      "form": "exhibition · source section 12",
+      "en": "展示；展出",
+      "zh": "展示；展出",
+      "note": "對照原始教材第 12 節及例句核實。",
+      "examples": [
+        [
+          "The annual technology exhibit attracted thousands of visitors.",
+          "年度科技展覽／展示活動吸引了數千名參觀者。",
+          "展示；展出"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -334,11 +345,9 @@ export default {
       "masked": "He rolled up his sleeve to ____ the scar.",
       "options": [
         "exhibition-mcq-01",
-        "exhibition-mcq-02",
-        "exhibition-mcq-03",
-        "exhibition-mcq-04",
-        "exhibition-mcq-05",
-        "exhibition-mcq-06"
+        "exhibition-mcq-08",
+        "exhibition-mcq-13",
+        "exhibition-mcq-09"
       ],
       "explanation": "本句的「exhibit」指「把某物呈現給別人觀看、檢查或注意」。",
       "sentenceIndex": 0,
@@ -347,12 +356,10 @@ export default {
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-01": "本句指「把某物呈現給別人觀看、檢查或注意」。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-mcq-01": "本句的「exhibit」指「把某物呈現給別人觀看、檢查或注意」。",
+        "exhibition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-01"
     },
@@ -364,11 +371,9 @@ export default {
       "masked": "The machine was ____ for inspection.",
       "options": [
         "exhibition-mcq-01",
-        "exhibition-mcq-02",
-        "exhibition-mcq-03",
-        "exhibition-mcq-04",
-        "exhibition-mcq-05",
-        "exhibition-mcq-06"
+        "exhibition-mcq-08",
+        "exhibition-mcq-13",
+        "exhibition-mcq-09"
       ],
       "explanation": "本句的「exhibited」指「把某物呈現給別人觀看、檢查或注意」。",
       "sentenceIndex": 1,
@@ -377,12 +382,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-01": "本句指「把某物呈現給別人觀看、檢查或注意」。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-mcq-01": "本句的「exhibited」指「把某物呈現給別人觀看、檢查或注意」。",
+        "exhibition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-01"
     },
@@ -394,11 +397,9 @@ export default {
       "masked": "The gallery is ____ several of her paintings.",
       "options": [
         "exhibition-pdf-001",
-        "exhibition-mcq-01",
-        "exhibition-mcq-03",
-        "exhibition-mcq-04",
-        "exhibition-mcq-05",
-        "exhibition-mcq-06"
+        "exhibition-mcq-09",
+        "exhibition-pdf-002",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibiting」指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
       "sentenceIndex": 2,
@@ -407,12 +408,10 @@ export default {
         "exhibiting"
       ],
       "optionReasons": {
-        "exhibition-pdf-001": "本句指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-pdf-001": "本句的「exhibiting」指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-pdf-001"
     },
@@ -424,11 +423,9 @@ export default {
       "masked": "The flowers were ____ at the local show.",
       "options": [
         "exhibition-pdf-001",
-        "exhibition-mcq-01",
-        "exhibition-mcq-03",
-        "exhibition-mcq-04",
-        "exhibition-mcq-05",
-        "exhibition-mcq-06"
+        "exhibition-mcq-09",
+        "exhibition-pdf-002",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibited」指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
       "sentenceIndex": 3,
@@ -437,12 +434,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-pdf-001": "本句指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-pdf-001": "本句的「exhibited」指「把藝術品、產品、動植物或其他物件公開展出，供觀賞、評審、教育或宣傳」。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-pdf-001"
     },
@@ -454,11 +449,9 @@ export default {
       "masked": "She has ____ in galleries around the world.",
       "options": [
         "exhibition-mcq-03",
-        "exhibition-mcq-02",
-        "exhibition-mcq-04",
-        "exhibition-mcq-01",
-        "exhibition-mcq-05",
-        "exhibition-mcq-06"
+        "exhibition-mcq-06",
+        "exhibition-pdf-002",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibited」指「作為藝術家／參展者公開參展或展示作品」。",
       "sentenceIndex": 4,
@@ -467,12 +460,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-03": "本句指「作為藝術家／參展者公開參展或展示作品」。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-mcq-03": "本句的「exhibited」指「作為藝術家／參展者公開參展或展示作品」。",
+        "exhibition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-03"
     },
@@ -484,11 +475,9 @@ export default {
       "masked": "Are you ____ at the trade show this year?",
       "options": [
         "exhibition-mcq-03",
-        "exhibition-mcq-02",
-        "exhibition-mcq-04",
-        "exhibition-mcq-01",
-        "exhibition-mcq-05",
-        "exhibition-mcq-06"
+        "exhibition-mcq-10",
+        "exhibition-mcq-11",
+        "exhibition-pdf-002"
       ],
       "explanation": "本句的「exhibiting」指「作為藝術家／參展者公開參展或展示作品」。",
       "sentenceIndex": 5,
@@ -497,12 +486,10 @@ export default {
         "exhibiting"
       ],
       "optionReasons": {
-        "exhibition-mcq-03": "本句指「作為藝術家／參展者公開參展或展示作品」。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-mcq-03": "本句的「exhibiting」指「作為藝術家／參展者公開參展或展示作品」。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-03"
     },
@@ -514,11 +501,9 @@ export default {
       "masked": "She ____ remarkable patience.",
       "options": [
         "exhibition-mcq-04",
-        "exhibition-mcq-03",
-        "exhibition-mcq-05",
-        "exhibition-mcq-02",
-        "exhibition-mcq-06",
-        "exhibition-mcq-01"
+        "exhibition-mcq-10",
+        "exhibition-mcq-13",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibited」指「顯示、表現出某種特質、情緒、行為或能力」。",
       "sentenceIndex": 6,
@@ -527,12 +512,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-04": "本句指「顯示、表現出某種特質、情緒、行為或能力」。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。"
+        "exhibition-mcq-04": "本句的「exhibited」指「顯示、表現出某種特質、情緒、行為或能力」。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-04"
     },
@@ -544,11 +527,9 @@ export default {
       "masked": "The patient ____ signs of infection.",
       "options": [
         "exhibition-mcq-04",
-        "exhibition-mcq-03",
-        "exhibition-mcq-05",
-        "exhibition-mcq-02",
-        "exhibition-mcq-06",
-        "exhibition-mcq-01"
+        "exhibition-mcq-10",
+        "exhibition-mcq-13",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibited」指「顯示、表現出某種特質、情緒、行為或能力」。",
       "sentenceIndex": 7,
@@ -557,12 +538,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-04": "本句指「顯示、表現出某種特質、情緒、行為或能力」。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。"
+        "exhibition-mcq-04": "本句的「exhibited」指「顯示、表現出某種特質、情緒、行為或能力」。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-04"
     },
@@ -574,11 +553,9 @@ export default {
       "masked": "The material ____ unusual properties.",
       "options": [
         "exhibition-mcq-04",
-        "exhibition-mcq-03",
-        "exhibition-mcq-05",
-        "exhibition-mcq-02",
-        "exhibition-mcq-06",
-        "exhibition-mcq-01"
+        "exhibition-mcq-13",
+        "exhibition-mcq-10",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibits」指「顯示、表現出某種特質、情緒、行為或能力」。",
       "sentenceIndex": 8,
@@ -587,12 +564,10 @@ export default {
         "exhibits"
       ],
       "optionReasons": {
-        "exhibition-mcq-04": "本句指「顯示、表現出某種特質、情緒、行為或能力」。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-01": "「把某物呈現給別人觀看、檢查或注意」與本句語境不同。"
+        "exhibition-mcq-04": "本句的「exhibits」指「顯示、表現出某種特質、情緒、行為或能力」。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-04"
     },
@@ -604,11 +579,9 @@ export default {
       "masked": "The plant ____ dimorphism.",
       "options": [
         "exhibition-pdf-002",
-        "exhibition-mcq-04",
-        "exhibition-mcq-06",
-        "exhibition-mcq-03",
+        "exhibition-mcq-08",
         "exhibition-mcq-07",
-        "exhibition-mcq-02"
+        "exhibition-mcq-13"
       ],
       "explanation": "本句的「exhibits」指「具有並可觀察到某種特性／現象」。",
       "sentenceIndex": 9,
@@ -617,12 +590,10 @@ export default {
         "exhibits"
       ],
       "optionReasons": {
-        "exhibition-pdf-002": "本句指「具有並可觀察到某種特性／現象」。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。"
+        "exhibition-pdf-002": "本句的「exhibits」指「具有並可觀察到某種特性／現象」。",
+        "exhibition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-pdf-002"
     },
@@ -634,11 +605,9 @@ export default {
       "masked": "The samples ____ similar patterns.",
       "options": [
         "exhibition-pdf-002",
-        "exhibition-mcq-04",
-        "exhibition-mcq-06",
-        "exhibition-mcq-03",
+        "exhibition-mcq-10",
         "exhibition-mcq-07",
-        "exhibition-mcq-02"
+        "exhibition-mcq-13"
       ],
       "explanation": "本句的「exhibited」指「具有並可觀察到某種特性／現象」。",
       "sentenceIndex": 10,
@@ -647,12 +616,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-pdf-002": "本句指「具有並可觀察到某種特性／現象」。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-02": "「在博物館、畫廊、展覽會、比賽等公開展出某物」與本句語境不同。"
+        "exhibition-pdf-002": "本句的「exhibited」指「具有並可觀察到某種特性／現象」。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-pdf-002"
     },
@@ -664,11 +631,9 @@ export default {
       "masked": "The document was ____ to the court.",
       "options": [
         "exhibition-mcq-06",
-        "exhibition-mcq-05",
-        "exhibition-mcq-07",
-        "exhibition-mcq-04",
-        "exhibition-mcq-08",
-        "exhibition-mcq-03"
+        "exhibition-mcq-13",
+        "exhibition-pdf-002",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibited」指「在法律程序中正式提交／出示文件、物件等」。",
       "sentenceIndex": 11,
@@ -677,12 +642,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-06": "本句指「在法律程序中正式提交／出示文件、物件等」。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。"
+        "exhibition-mcq-06": "本句的「exhibited」指「在法律程序中正式提交／出示文件、物件等」。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-06"
     },
@@ -694,11 +657,9 @@ export default {
       "masked": "Counsel ____ the photograph during the hearing.",
       "options": [
         "exhibition-mcq-06",
-        "exhibition-mcq-05",
-        "exhibition-mcq-07",
-        "exhibition-mcq-04",
-        "exhibition-mcq-08",
-        "exhibition-mcq-03"
+        "exhibition-mcq-11",
+        "exhibition-mcq-03",
+        "exhibition-pdf-002"
       ],
       "explanation": "本句的「exhibited」指「在法律程序中正式提交／出示文件、物件等」。",
       "sentenceIndex": 12,
@@ -707,12 +668,10 @@ export default {
         "exhibited"
       ],
       "optionReasons": {
-        "exhibition-mcq-06": "本句指「在法律程序中正式提交／出示文件、物件等」。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-03": "「作為藝術家／參展者公開參展或展示作品」與本句語境不同。"
+        "exhibition-mcq-06": "本句的「exhibited」指「在法律程序中正式提交／出示文件、物件等」。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-06"
     },
@@ -724,11 +683,9 @@ export default {
       "masked": "The dinosaur skeleton is the museum’s most popular ____.",
       "options": [
         "exhibition-mcq-07",
-        "exhibition-mcq-06",
-        "exhibition-mcq-08",
-        "exhibition-mcq-05",
         "exhibition-mcq-09",
-        "exhibition-mcq-04"
+        "exhibition-pdf-002",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibit」指「博物館、畫廊等所展示的單件展品」。",
       "sentenceIndex": 13,
@@ -737,12 +694,10 @@ export default {
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-07": "本句指「博物館、畫廊等所展示的單件展品」。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。"
+        "exhibition-mcq-07": "本句的「exhibit」指「博物館、畫廊等所展示的單件展品」。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-07"
     },
@@ -754,11 +709,9 @@ export default {
       "masked": "Each ____ includes a short description.",
       "options": [
         "exhibition-mcq-07",
-        "exhibition-mcq-06",
-        "exhibition-mcq-08",
-        "exhibition-mcq-05",
         "exhibition-mcq-09",
-        "exhibition-mcq-04"
+        "exhibition-mcq-11",
+        "exhibition-pdf-002"
       ],
       "explanation": "本句的「exhibit」指「博物館、畫廊等所展示的單件展品」。",
       "sentenceIndex": 14,
@@ -767,12 +720,10 @@ export default {
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-07": "本句指「博物館、畫廊等所展示的單件展品」。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-04": "「顯示、表現出某種特質、情緒、行為或能力」與本句語境不同。"
+        "exhibition-mcq-07": "本句的「exhibit」指「博物館、畫廊等所展示的單件展品」。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-07"
     },
@@ -784,11 +735,9 @@ export default {
       "masked": "We went to see the new dinosaur ____.",
       "options": [
         "exhibition-mcq-08",
-        "exhibition-mcq-07",
         "exhibition-mcq-09",
-        "exhibition-mcq-06",
-        "exhibition-mcq-10",
-        "exhibition-mcq-05"
+        "exhibition-mcq-11",
+        "exhibition-mcq-01"
       ],
       "explanation": "本句的「exhibit」指「一整個公開展覽／展出內容」。",
       "sentenceIndex": 15,
@@ -797,12 +746,10 @@ export default {
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-08": "本句指「一整個公開展覽／展出內容」。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。"
+        "exhibition-mcq-08": "本句的「exhibit」指「一整個公開展覽／展出內容」。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-08"
     },
@@ -814,11 +761,9 @@ export default {
       "masked": "The museum has opened an ____ on space exploration.",
       "options": [
         "exhibition-mcq-08",
-        "exhibition-mcq-07",
-        "exhibition-mcq-09",
-        "exhibition-mcq-06",
-        "exhibition-mcq-10",
-        "exhibition-mcq-05"
+        "exhibition-mcq-11",
+        "exhibition-mcq-01",
+        "exhibition-mcq-09"
       ],
       "explanation": "本句的「exhibit」指「一整個公開展覽／展出內容」。",
       "sentenceIndex": 16,
@@ -827,12 +772,10 @@ export default {
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-08": "本句指「一整個公開展覽／展出內容」。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-05": "「呈現某種可觀察的症狀、特徵、模式或性質」與本句語境不同。"
+        "exhibition-mcq-08": "本句的「exhibit」指「一整個公開展覽／展出內容」。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-08"
     },
@@ -844,11 +787,9 @@ export default {
       "masked": "The photograph was marked as ____.",
       "options": [
         "exhibition-mcq-09",
-        "exhibition-mcq-08",
-        "exhibition-mcq-10",
-        "exhibition-mcq-07",
-        "exhibition-mcq-11",
-        "exhibition-mcq-06"
+        "exhibition-mcq-01",
+        "exhibition-mcq-13",
+        "exhibition-mcq-08"
       ],
       "explanation": "本句的「Exhibit A」指「在法律程序中正式標記、提交或擬提交的證物／證據材料」。",
       "sentenceIndex": 17,
@@ -857,12 +798,10 @@ export default {
         "Exhibit A"
       ],
       "optionReasons": {
-        "exhibition-mcq-09": "本句指「在法律程序中正式標記、提交或擬提交的證物／證據材料」。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-mcq-09": "本句的「Exhibit A」指「在法律程序中正式標記、提交或擬提交的證物／證據材料」。",
+        "exhibition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-09"
     },
@@ -874,11 +813,9 @@ export default {
       "masked": "The jury asked to see several of the ____ again.",
       "options": [
         "exhibition-mcq-09",
+        "exhibition-mcq-13",
         "exhibition-mcq-08",
-        "exhibition-mcq-10",
-        "exhibition-mcq-07",
-        "exhibition-mcq-11",
-        "exhibition-mcq-06"
+        "exhibition-mcq-01"
       ],
       "explanation": "本句的「exhibits」指「在法律程序中正式標記、提交或擬提交的證物／證據材料」。",
       "sentenceIndex": 18,
@@ -887,12 +824,10 @@ export default {
         "exhibits"
       ],
       "optionReasons": {
-        "exhibition-mcq-09": "本句指「在法律程序中正式標記、提交或擬提交的證物／證據材料」。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-06": "「在法律程序中正式提交／出示文件、物件等」與本句語境不同。"
+        "exhibition-mcq-09": "本句的「exhibits」指「在法律程序中正式標記、提交或擬提交的證物／證據材料」。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-09"
     },
@@ -904,11 +839,9 @@ export default {
       "masked": "See ____ attached to the agreement.",
       "options": [
         "exhibition-mcq-10",
-        "exhibition-mcq-09",
-        "exhibition-mcq-11",
-        "exhibition-mcq-08",
-        "exhibition-mcq-12",
-        "exhibition-mcq-07"
+        "exhibition-mcq-13",
+        "exhibition-mcq-04",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「Exhibit B」指「合約、訴狀、動議等法律文件正式附上的附件」。",
       "sentenceIndex": 19,
@@ -917,12 +850,10 @@ export default {
         "Exhibit B"
       ],
       "optionReasons": {
-        "exhibition-mcq-10": "本句指「合約、訴狀、動議等法律文件正式附上的附件」。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-12": "「給藥、施藥；已過時，不納入現代核心」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。"
+        "exhibition-mcq-10": "本句的「Exhibit B」指「合約、訴狀、動議等法律文件正式附上的附件」。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-10"
     },
@@ -934,11 +865,9 @@ export default {
       "masked": "The schedule is attached as an ____ to the contract.",
       "options": [
         "exhibition-mcq-10",
-        "exhibition-mcq-09",
+        "exhibition-mcq-03",
         "exhibition-mcq-11",
-        "exhibition-mcq-08",
-        "exhibition-mcq-12",
-        "exhibition-mcq-07"
+        "exhibition-pdf-002"
       ],
       "explanation": "本句的「exhibit」指「合約、訴狀、動議等法律文件正式附上的附件」。",
       "sentenceIndex": 20,
@@ -947,12 +876,10 @@ export default {
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-10": "本句指「合約、訴狀、動議等法律文件正式附上的附件」。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。",
-        "exhibition-mcq-12": "「給藥、施藥；已過時，不納入現代核心」與本句語境不同。",
-        "exhibition-mcq-07": "「博物館、畫廊等所展示的單件展品」與本句語境不同。"
+        "exhibition-mcq-10": "本句的「exhibit」指「合約、訴狀、動議等法律文件正式附上的附件」。",
+        "exhibition-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-10"
     },
@@ -964,11 +891,9 @@ export default {
       "masked": "If you think the system is inefficient, this case is ____.",
       "options": [
         "exhibition-mcq-11",
-        "exhibition-mcq-10",
-        "exhibition-mcq-12",
-        "exhibition-mcq-09",
+        "exhibition-mcq-08",
         "exhibition-mcq-13",
-        "exhibition-mcq-08"
+        "exhibition-mcq-07"
       ],
       "explanation": "本句的「Exhibit A」指「支持某個觀點的最明顯例子／主要例證」。",
       "sentenceIndex": 21,
@@ -977,12 +902,10 @@ export default {
         "Exhibit A"
       ],
       "optionReasons": {
-        "exhibition-mcq-11": "本句指「支持某個觀點的最明顯例子／主要例證」。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-12": "「給藥、施藥；已過時，不納入現代核心」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-13": "「參展者／參展商」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。"
+        "exhibition-mcq-11": "本句的「Exhibit A」指「支持某個觀點的最明顯例子／主要例證」。",
+        "exhibition-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-11"
     },
@@ -994,11 +917,9 @@ export default {
       "masked": "He says he never procrastinates. ____: the unfinished report.",
       "options": [
         "exhibition-mcq-11",
+        "exhibition-mcq-07",
         "exhibition-mcq-10",
-        "exhibition-mcq-12",
-        "exhibition-mcq-09",
-        "exhibition-mcq-13",
-        "exhibition-mcq-08"
+        "exhibition-mcq-13"
       ],
       "explanation": "本句的「Exhibit A」指「支持某個觀點的最明顯例子／主要例證」。",
       "sentenceIndex": 22,
@@ -1007,44 +928,40 @@ export default {
         "Exhibit A"
       ],
       "optionReasons": {
-        "exhibition-mcq-11": "本句指「支持某個觀點的最明顯例子／主要例證」。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-12": "「給藥、施藥；已過時，不納入現代核心」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。",
-        "exhibition-mcq-13": "「參展者／參展商」與本句語境不同。",
-        "exhibition-mcq-08": "「一整個公開展覽／展出內容」與本句語境不同。"
+        "exhibition-mcq-11": "本句的「Exhibit A」指「支持某個觀點的最明顯例子／主要例證」。",
+        "exhibition-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-11"
     },
     {
       "id": "exhibition-12-0",
-      "sense": "exhibition-mcq-12",
+      "sense": "exhibition-reviewed-c49a0e7055",
       "en": "The annual technology exhibit attracted thousands of visitors.",
       "zh": "年度科技展覽／展示活動吸引了數千名參觀者。",
       "masked": "The annual technology ____ attracted thousands of visitors.",
       "options": [
-        "exhibition-mcq-12",
+        "exhibition-reviewed-c49a0e7055",
         "exhibition-mcq-11",
-        "exhibition-mcq-13",
-        "exhibition-mcq-10",
-        "exhibition-mcq-14",
-        "exhibition-mcq-09"
+        "exhibition-pdf-002",
+        "exhibition-mcq-10"
       ],
-      "explanation": "本句的「exhibit」指「給藥、施藥；已過時，不納入現代核心」。",
+      "explanation": "對照完整句子：「年度科技展覽／展示活動吸引了數千名參觀者。」。這裡的「exhibit」表示「展示；展出」。",
       "sentenceIndex": 23,
       "sourcePractice": 24,
       "targets": [
         "exhibit"
       ],
       "optionReasons": {
-        "exhibition-mcq-12": "本句指「給藥、施藥；已過時，不納入現代核心」。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-13": "「參展者／參展商」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-14": "「展覽；另有自己的多義網絡」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。"
+        "exhibition-reviewed-c49a0e7055": "對照完整句子：「年度科技展覽／展示活動吸引了數千名參觀者。」。這裡的「exhibit」表示「展示；展出」。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "exhibition-mcq-12"
+      "correctOption": "exhibition-reviewed-c49a0e7055",
+      "previousCorrectOption": "exhibition-mcq-12",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "exhibition-13-0",
@@ -1054,11 +971,9 @@ export default {
       "masked": "More than 200 ____ attended the trade show.",
       "options": [
         "exhibition-mcq-13",
-        "exhibition-mcq-12",
-        "exhibition-mcq-14",
-        "exhibition-mcq-11",
-        "exhibition-mcq-10",
-        "exhibition-mcq-09"
+        "exhibition-mcq-06",
+        "exhibition-pdf-002",
+        "exhibition-mcq-11"
       ],
       "explanation": "本句的「exhibitors」指「參展者／參展商」。",
       "sentenceIndex": 24,
@@ -1067,12 +982,10 @@ export default {
         "exhibitors"
       ],
       "optionReasons": {
-        "exhibition-mcq-13": "本句指「參展者／參展商」。",
-        "exhibition-mcq-12": "「給藥、施藥；已過時，不納入現代核心」與本句語境不同。",
-        "exhibition-mcq-14": "「展覽；另有自己的多義網絡」與本句語境不同。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。"
+        "exhibition-mcq-13": "本句的「exhibitors」指「參展者／參展商」。",
+        "exhibition-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "exhibition-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-13"
     },
@@ -1084,11 +997,9 @@ export default {
       "masked": "Each ____ was given a separate booth.",
       "options": [
         "exhibition-mcq-13",
-        "exhibition-mcq-12",
-        "exhibition-mcq-14",
+        "exhibition-mcq-01",
         "exhibition-mcq-11",
-        "exhibition-mcq-10",
-        "exhibition-mcq-09"
+        "exhibition-mcq-06"
       ],
       "explanation": "本句的「exhibitor」指「參展者／參展商」。",
       "sentenceIndex": 25,
@@ -1097,12 +1008,10 @@ export default {
         "exhibitor"
       ],
       "optionReasons": {
-        "exhibition-mcq-13": "本句指「參展者／參展商」。",
-        "exhibition-mcq-12": "「給藥、施藥；已過時，不納入現代核心」與本句語境不同。",
-        "exhibition-mcq-14": "「展覽；另有自己的多義網絡」與本句語境不同。",
-        "exhibition-mcq-11": "「支持某個觀點的最明顯例子／主要例證」與本句語境不同。",
-        "exhibition-mcq-10": "「合約、訴狀、動議等法律文件正式附上的附件」與本句語境不同。",
-        "exhibition-mcq-09": "「在法律程序中正式標記、提交或擬提交的證物／證據材料」與本句語境不同。"
+        "exhibition-mcq-13": "本句的「exhibitor」指「參展者／參展商」。",
+        "exhibition-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "exhibition-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "exhibition-mcq-13"
     }
@@ -1114,5 +1023,7 @@ export default {
     "sha256": "d95c5eaef9d87d8bed498e1ce5093d99b00472bebb43df9ca7d3aee37a379175",
     "pages": 20
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

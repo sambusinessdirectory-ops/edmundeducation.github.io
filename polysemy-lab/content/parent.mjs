@@ -762,11 +762,9 @@ export default {
       "masked": "Many ____ attended the school meeting.",
       "options": [
         "parent-mcq-01",
-        "parent-mcq-02",
-        "parent-mcq-03",
-        "parent-mcq-04",
-        "parent-mcq-05",
-        "parent-mcq-06"
+        "parent-mcq-31",
+        "parent-mcq-16",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parents」指「一個人的父親或母親；父母之一」。",
       "sentenceIndex": 0,
@@ -775,12 +773,10 @@ export default {
         "parents"
       ],
       "optionReasons": {
-        "parent-mcq-01": "本句指「一個人的父親或母親；父母之一」。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-01": "本句的「parents」指「一個人的父親或母親；父母之一」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-01"
     },
@@ -792,11 +788,9 @@ export default {
       "masked": "The teacher explained the activity to the students’ ____.",
       "options": [
         "parent-mcq-01",
-        "parent-mcq-02",
-        "parent-mcq-03",
-        "parent-mcq-04",
-        "parent-mcq-05",
-        "parent-mcq-06"
+        "parent-mcq-15",
+        "parent-mcq-31",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parents」指「一個人的父親或母親；父母之一」。",
       "sentenceIndex": 1,
@@ -805,12 +799,10 @@ export default {
         "parents"
       ],
       "optionReasons": {
-        "parent-mcq-01": "本句指「一個人的父親或母親；父母之一」。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-01": "本句的「parents」指「一個人的父親或母親；父母之一」。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-01"
     },
@@ -822,11 +814,9 @@ export default {
       "masked": "One of his ____ works at the school.",
       "options": [
         "parent-mcq-01",
-        "parent-mcq-02",
-        "parent-mcq-03",
-        "parent-mcq-04",
-        "parent-mcq-05",
-        "parent-mcq-06"
+        "parent-mcq-21",
+        "parent-mcq-15",
+        "parent-mcq-05"
       ],
       "explanation": "本句的「parents」指「一個人的父親或母親；父母之一」。",
       "sentenceIndex": 2,
@@ -835,12 +825,10 @@ export default {
         "parents"
       ],
       "optionReasons": {
-        "parent-mcq-01": "本句指「一個人的父親或母親；父母之一」。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-01": "本句的「parents」指「一個人的父親或母親；父母之一」。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-01"
     },
@@ -852,11 +840,9 @@ export default {
       "masked": "Children often learn habits from their ____.",
       "options": [
         "parent-mcq-01",
-        "parent-mcq-02",
-        "parent-mcq-03",
-        "parent-mcq-04",
-        "parent-mcq-05",
-        "parent-mcq-06"
+        "parent-mcq-34",
+        "parent-mcq-16",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「parents」指「一個人的父親或母親；父母之一」。",
       "sentenceIndex": 3,
@@ -865,12 +851,10 @@ export default {
         "parents"
       ],
       "optionReasons": {
-        "parent-mcq-01": "本句指「一個人的父親或母親；父母之一」。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-01": "本句的「parents」指「一個人的父親或母親；父母之一」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-01"
     },
@@ -882,11 +866,9 @@ export default {
       "masked": "She later contacted her ____.",
       "options": [
         "parent-mcq-03",
-        "parent-mcq-02",
-        "parent-mcq-04",
-        "parent-mcq-01",
-        "parent-mcq-05",
-        "parent-mcq-06"
+        "parent-mcq-31",
+        "parent-mcq-34",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「biological parents」指「與孩子有生物血緣關係的親生父母」。",
       "sentenceIndex": 6,
@@ -895,12 +877,10 @@ export default {
         "biological parents"
       ],
       "optionReasons": {
-        "parent-mcq-03": "本句指「與孩子有生物血緣關係的親生父母」。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-01": "「一個人的父親或母親；父母之一」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-03": "本句的「biological parents」指「與孩子有生物血緣關係的親生父母」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-03"
     },
@@ -912,11 +892,9 @@ export default {
       "masked": "A ____ is not always the person who raises the child.",
       "options": [
         "parent-mcq-03",
-        "parent-mcq-02",
-        "parent-mcq-04",
-        "parent-mcq-01",
-        "parent-mcq-05",
-        "parent-mcq-06"
+        "parent-mcq-34",
+        "parent-mcq-31",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「biological parent」指「與孩子有生物血緣關係的親生父母」。",
       "sentenceIndex": 7,
@@ -925,12 +903,10 @@ export default {
         "biological parent"
       ],
       "optionReasons": {
-        "parent-mcq-03": "本句指「與孩子有生物血緣關係的親生父母」。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-01": "「一個人的父親或母親；父母之一」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-03": "本句的「biological parent」指「與孩子有生物血緣關係的親生父母」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-03"
     },
@@ -942,11 +918,9 @@ export default {
       "masked": "He was raised by his ____.",
       "options": [
         "parent-mcq-04",
-        "parent-mcq-03",
-        "parent-mcq-05",
-        "parent-mcq-02",
-        "parent-mcq-06",
-        "parent-mcq-01"
+        "parent-mcq-31",
+        "parent-mcq-27",
+        "parent-mcq-21"
       ],
       "explanation": "本句的「adoptive parents」指「透過法律領養成為父母的養父／養母」。",
       "sentenceIndex": 8,
@@ -955,12 +929,10 @@ export default {
         "adoptive parents"
       ],
       "optionReasons": {
-        "parent-mcq-04": "本句指「透過法律領養成為父母的養父／養母」。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-01": "「一個人的父親或母親；父母之一」與本句語境不同。"
+        "parent-mcq-04": "本句的「adoptive parents」指「透過法律領養成為父母的養父／養母」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-04"
     },
@@ -972,11 +944,9 @@ export default {
       "masked": "Her ____ supported her throughout childhood.",
       "options": [
         "parent-mcq-04",
-        "parent-mcq-03",
-        "parent-mcq-05",
-        "parent-mcq-02",
-        "parent-mcq-06",
-        "parent-mcq-01"
+        "parent-mcq-25",
+        "parent-mcq-31",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「adoptive mother」指「透過法律領養成為父母的養父／養母」。",
       "sentenceIndex": 9,
@@ -985,12 +955,10 @@ export default {
         "adoptive mother"
       ],
       "optionReasons": {
-        "parent-mcq-04": "本句指「透過法律領養成為父母的養父／養母」。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-01": "「一個人的父親或母親；父母之一」與本句語境不同。"
+        "parent-mcq-04": "本句的「adoptive mother」指「透過法律領養成為父母的養父／養母」。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-04"
     },
@@ -1002,11 +970,9 @@ export default {
       "masked": "The child stayed with a ____.",
       "options": [
         "parent-mcq-05",
-        "parent-mcq-04",
-        "parent-mcq-06",
-        "parent-mcq-03",
-        "parent-mcq-07",
-        "parent-mcq-02"
+        "parent-mcq-18",
+        "parent-mcq-25",
+        "parent-mcq-28"
       ],
       "explanation": "本句的「foster parent」指「在寄養安排下暫時照顧孩子的寄養家長」。",
       "sentenceIndex": 10,
@@ -1015,12 +981,10 @@ export default {
         "foster parent"
       ],
       "optionReasons": {
-        "parent-mcq-05": "本句指「在寄養安排下暫時照顧孩子的寄養家長」。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。"
+        "parent-mcq-05": "本句的「foster parent」指「在寄養安排下暫時照顧孩子的寄養家長」。",
+        "parent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-05"
     },
@@ -1032,11 +996,9 @@ export default {
       "masked": "____ provide temporary care.",
       "options": [
         "parent-mcq-05",
-        "parent-mcq-04",
-        "parent-mcq-06",
-        "parent-mcq-03",
-        "parent-mcq-07",
-        "parent-mcq-02"
+        "parent-mcq-29",
+        "parent-mcq-33",
+        "parent-mcq-06"
       ],
       "explanation": "本句的「Foster parents」指「在寄養安排下暫時照顧孩子的寄養家長」。",
       "sentenceIndex": 11,
@@ -1045,12 +1007,10 @@ export default {
         "Foster parents"
       ],
       "optionReasons": {
-        "parent-mcq-05": "本句指「在寄養安排下暫時照顧孩子的寄養家長」。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-02": "「對孩子負養育責任的家長」與本句語境不同。"
+        "parent-mcq-05": "本句的「Foster parents」指「在寄養安排下暫時照顧孩子的寄養家長」。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-05"
     },
@@ -1062,11 +1022,9 @@ export default {
       "masked": "She has a good relationship with her ____.",
       "options": [
         "parent-mcq-06",
-        "parent-mcq-05",
-        "parent-mcq-07",
-        "parent-mcq-04",
-        "parent-mcq-08",
-        "parent-mcq-03"
+        "parent-mcq-34",
+        "parent-mcq-16",
+        "parent-mcq-24"
       ],
       "explanation": "本句的「stepparent」指「父親／母親再婚後其配偶；繼父／繼母」。",
       "sentenceIndex": 12,
@@ -1075,12 +1033,10 @@ export default {
         "stepparent"
       ],
       "optionReasons": {
-        "parent-mcq-06": "本句指「父親／母親再婚後其配偶；繼父／繼母」。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。"
+        "parent-mcq-06": "本句的「stepparent」指「父親／母親再婚後其配偶；繼父／繼母」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-06"
     },
@@ -1092,11 +1048,9 @@ export default {
       "masked": "A ____ may play an important role in a child’s life.",
       "options": [
         "parent-mcq-06",
-        "parent-mcq-05",
-        "parent-mcq-07",
-        "parent-mcq-04",
-        "parent-mcq-08",
-        "parent-mcq-03"
+        "parent-mcq-34",
+        "parent-mcq-15",
+        "parent-mcq-28"
       ],
       "explanation": "本句的「stepparent」指「父親／母親再婚後其配偶；繼父／繼母」。",
       "sentenceIndex": 13,
@@ -1105,12 +1059,10 @@ export default {
         "stepparent"
       ],
       "optionReasons": {
-        "parent-mcq-06": "本句指「父親／母親再婚後其配偶；繼父／繼母」。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-03": "「與孩子有生物血緣關係的親生父母」與本句語境不同。"
+        "parent-mcq-06": "本句的「stepparent」指「父親／母親再婚後其配偶；繼父／繼母」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-06"
     },
@@ -1122,11 +1074,9 @@ export default {
       "masked": "She raised two children as a ____.",
       "options": [
         "parent-mcq-07",
-        "parent-mcq-06",
-        "parent-mcq-08",
-        "parent-mcq-05",
-        "parent-mcq-09",
-        "parent-mcq-04"
+        "parent-mcq-17",
+        "parent-mcq-11",
+        "parent-mcq-24"
       ],
       "explanation": "本句的「single parent」指「沒有伴侶共同生活並主要獨自養育孩子的單親家長」。",
       "sentenceIndex": 14,
@@ -1135,12 +1085,10 @@ export default {
         "single parent"
       ],
       "optionReasons": {
-        "parent-mcq-07": "本句指「沒有伴侶共同生活並主要獨自養育孩子的單親家長」。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。"
+        "parent-mcq-07": "本句的「single parent」指「沒有伴侶共同生活並主要獨自養育孩子的單親家長」。",
+        "parent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-07"
     },
@@ -1152,11 +1100,9 @@ export default {
       "masked": "The program supports ____.",
       "options": [
         "parent-mcq-07",
-        "parent-mcq-06",
-        "parent-mcq-08",
-        "parent-mcq-05",
-        "parent-mcq-09",
-        "parent-mcq-04"
+        "parent-mcq-17",
+        "parent-mcq-11",
+        "parent-mcq-06"
       ],
       "explanation": "本句的「single parents」指「沒有伴侶共同生活並主要獨自養育孩子的單親家長」。",
       "sentenceIndex": 15,
@@ -1165,12 +1111,10 @@ export default {
         "single parents"
       ],
       "optionReasons": {
-        "parent-mcq-07": "本句指「沒有伴侶共同生活並主要獨自養育孩子的單親家長」。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-04": "「透過法律領養成為父母的養父／養母」與本句語境不同。"
+        "parent-mcq-07": "本句的「single parents」指「沒有伴侶共同生活並主要獨自養育孩子的單親家長」。",
+        "parent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-07"
     },
@@ -1182,11 +1126,9 @@ export default {
       "masked": "There is no single correct way to ____.",
       "options": [
         "parent-mcq-08",
-        "parent-mcq-07",
-        "parent-mcq-09",
-        "parent-mcq-06",
-        "parent-mcq-10",
-        "parent-mcq-05"
+        "parent-mcq-25",
+        "parent-mcq-34",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「parent」指「履行父母角色、養育及教養孩子」。",
       "sentenceIndex": 16,
@@ -1195,12 +1137,10 @@ export default {
         "parent"
       ],
       "optionReasons": {
-        "parent-mcq-08": "本句指「履行父母角色、養育及教養孩子」。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。"
+        "parent-mcq-08": "本句的「parent」指「履行父母角色、養育及教養孩子」。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-08"
     },
@@ -1212,11 +1152,9 @@ export default {
       "masked": "They try to ____ with patience and consistency.",
       "options": [
         "parent-mcq-08",
-        "parent-mcq-07",
-        "parent-mcq-09",
-        "parent-mcq-06",
-        "parent-mcq-10",
-        "parent-mcq-05"
+        "parent-mcq-31",
+        "parent-mcq-27",
+        "parent-mcq-21"
       ],
       "explanation": "本句的「parent」指「履行父母角色、養育及教養孩子」。",
       "sentenceIndex": 17,
@@ -1225,12 +1163,10 @@ export default {
         "parent"
       ],
       "optionReasons": {
-        "parent-mcq-08": "本句指「履行父母角色、養育及教養孩子」。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-05": "「在寄養安排下暫時照顧孩子的寄養家長」與本句語境不同。"
+        "parent-mcq-08": "本句的「parent」指「履行父母角色、養育及教養孩子」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-08"
     },
@@ -1242,11 +1178,9 @@ export default {
       "masked": "____ can be challenging.",
       "options": [
         "parent-mcq-09",
-        "parent-mcq-08",
-        "parent-mcq-10",
-        "parent-mcq-07",
-        "parent-mcq-11",
-        "parent-mcq-06"
+        "parent-mcq-14",
+        "parent-mcq-19",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「Parenting」指「養育、教導孩子的活動與方式；育兒／親職」。",
       "sentenceIndex": 18,
@@ -1255,12 +1189,10 @@ export default {
         "Parenting"
       ],
       "optionReasons": {
-        "parent-mcq-09": "本句指「養育、教導孩子的活動與方式；育兒／親職」。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-09": "本句的「Parenting」指「養育、教導孩子的活動與方式；育兒／親職」。",
+        "parent-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-09"
     },
@@ -1272,11 +1204,9 @@ export default {
       "masked": "The course focuses on positive ____.",
       "options": [
         "parent-mcq-09",
-        "parent-mcq-08",
-        "parent-mcq-10",
-        "parent-mcq-07",
+        "parent-mcq-18",
         "parent-mcq-11",
-        "parent-mcq-06"
+        "parent-mcq-28"
       ],
       "explanation": "本句的「parenting」指「養育、教導孩子的活動與方式；育兒／親職」。",
       "sentenceIndex": 19,
@@ -1285,12 +1215,10 @@ export default {
         "parenting"
       ],
       "optionReasons": {
-        "parent-mcq-09": "本句指「養育、教導孩子的活動與方式；育兒／親職」。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-06": "「父親／母親再婚後其配偶；繼父／繼母」與本句語境不同。"
+        "parent-mcq-09": "本句的「parenting」指「養育、教導孩子的活動與方式；育兒／親職」。",
+        "parent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-09"
     },
@@ -1302,11 +1230,9 @@ export default {
       "masked": "Different families have different ____.",
       "options": [
         "parent-mcq-10",
-        "parent-mcq-09",
-        "parent-mcq-11",
-        "parent-mcq-08",
-        "parent-mcq-12",
-        "parent-mcq-07"
+        "parent-mcq-31",
+        "parent-mcq-33",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parenting styles」指「父母教養孩子的典型方式」。",
       "sentenceIndex": 20,
@@ -1315,12 +1241,10 @@ export default {
         "parenting styles"
       ],
       "optionReasons": {
-        "parent-mcq-10": "本句指「父母教養孩子的典型方式」。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。"
+        "parent-mcq-10": "本句的「parenting styles」指「父母教養孩子的典型方式」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-10"
     },
@@ -1332,11 +1256,9 @@ export default {
       "masked": "Their ____ emphasizes communication.",
       "options": [
         "parent-mcq-10",
-        "parent-mcq-09",
-        "parent-mcq-11",
-        "parent-mcq-08",
-        "parent-mcq-12",
-        "parent-mcq-07"
+        "parent-mcq-34",
+        "parent-mcq-25",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「parenting style」指「父母教養孩子的典型方式」。",
       "sentenceIndex": 21,
@@ -1345,12 +1267,10 @@ export default {
         "parenting style"
       ],
       "optionReasons": {
-        "parent-mcq-10": "本句指「父母教養孩子的典型方式」。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-07": "「沒有伴侶共同生活並主要獨自養育孩子的單親家長」與本句語境不同。"
+        "parent-mcq-10": "本句的「parenting style」指「父母教養孩子的典型方式」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-10"
     },
@@ -1362,11 +1282,9 @@ export default {
       "masked": "____ changed his priorities.",
       "options": [
         "parent-mcq-11",
-        "parent-mcq-10",
-        "parent-mcq-12",
         "parent-mcq-09",
-        "parent-mcq-13",
-        "parent-mcq-08"
+        "parent-mcq-25",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「Parenthood」指「成為／身為父母的狀態與經歷」。",
       "sentenceIndex": 22,
@@ -1375,12 +1293,10 @@ export default {
         "Parenthood"
       ],
       "optionReasons": {
-        "parent-mcq-11": "本句指「成為／身為父母的狀態與經歷」。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。"
+        "parent-mcq-11": "本句的「Parenthood」指「成為／身為父母的狀態與經歷」。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-11"
     },
@@ -1392,11 +1308,9 @@ export default {
       "masked": "The book discusses the pressures of ____.",
       "options": [
         "parent-mcq-11",
-        "parent-mcq-10",
-        "parent-mcq-12",
-        "parent-mcq-09",
-        "parent-mcq-13",
-        "parent-mcq-08"
+        "parent-mcq-07",
+        "parent-mcq-27",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「parenthood」指「成為／身為父母的狀態與經歷」。",
       "sentenceIndex": 23,
@@ -1405,12 +1319,10 @@ export default {
         "parenthood"
       ],
       "optionReasons": {
-        "parent-mcq-11": "本句指「成為／身為父母的狀態與經歷」。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-08": "「履行父母角色、養育及教養孩子」與本句語境不同。"
+        "parent-mcq-11": "本句的「parenthood」指「成為／身為父母的狀態與經歷」。",
+        "parent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-11"
     },
@@ -1422,11 +1334,9 @@ export default {
       "masked": "The school requires ____.",
       "options": [
         "parent-mcq-12",
-        "parent-mcq-11",
-        "parent-mcq-13",
-        "parent-mcq-10",
-        "parent-mcq-14",
-        "parent-mcq-09"
+        "parent-mcq-16",
+        "parent-mcq-21",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「parental consent」指「與父母、家長或親職有關的」。",
       "sentenceIndex": 24,
@@ -1435,12 +1345,10 @@ export default {
         "parental consent"
       ],
       "optionReasons": {
-        "parent-mcq-12": "本句指「與父母、家長或親職有關的」。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。"
+        "parent-mcq-12": "本句的「parental consent」指「與父母、家長或親職有關的」。",
+        "parent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-12"
     },
@@ -1452,11 +1360,9 @@ export default {
       "masked": "Children often need ____.",
       "options": [
         "parent-mcq-12",
-        "parent-mcq-11",
-        "parent-mcq-13",
-        "parent-mcq-10",
-        "parent-mcq-14",
-        "parent-mcq-09"
+        "parent-mcq-31",
+        "parent-mcq-21",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「parental support」指「與父母、家長或親職有關的」。",
       "sentenceIndex": 25,
@@ -1465,12 +1371,10 @@ export default {
         "parental support"
       ],
       "optionReasons": {
-        "parent-mcq-12": "本句指「與父母、家長或親職有關的」。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-09": "「養育、教導孩子的活動與方式；育兒／親職」與本句語境不同。"
+        "parent-mcq-12": "本句的「parental support」指「與父母、家長或親職有關的」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-12"
     },
@@ -1482,11 +1386,9 @@ export default {
       "masked": "The law defines ____.",
       "options": [
         "parent-mcq-13",
-        "parent-mcq-12",
-        "parent-mcq-14",
-        "parent-mcq-11",
-        "parent-mcq-15",
-        "parent-mcq-10"
+        "parent-mcq-25",
+        "parent-mcq-31",
+        "parent-mcq-18"
       ],
       "explanation": "本句的「parental responsibility」指「父母／家長對孩子承擔的法律或實際責任」。",
       "sentenceIndex": 26,
@@ -1495,12 +1397,10 @@ export default {
         "parental responsibility"
       ],
       "optionReasons": {
-        "parent-mcq-13": "本句指「父母／家長對孩子承擔的法律或實際責任」。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。"
+        "parent-mcq-13": "本句的「parental responsibility」指「父母／家長對孩子承擔的法律或實際責任」。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-13"
     },
@@ -1512,11 +1412,9 @@ export default {
       "masked": "Both adults shared ____.",
       "options": [
         "parent-mcq-13",
-        "parent-mcq-12",
-        "parent-mcq-14",
-        "parent-mcq-11",
-        "parent-mcq-15",
-        "parent-mcq-10"
+        "parent-mcq-33",
+        "parent-mcq-31",
+        "parent-mcq-17"
       ],
       "explanation": "本句的「parental responsibility」指「父母／家長對孩子承擔的法律或實際責任」。",
       "sentenceIndex": 27,
@@ -1525,12 +1423,10 @@ export default {
         "parental responsibility"
       ],
       "optionReasons": {
-        "parent-mcq-13": "本句指「父母／家長對孩子承擔的法律或實際責任」。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-10": "「父母教養孩子的典型方式」與本句語境不同。"
+        "parent-mcq-13": "本句的「parental responsibility」指「父母／家長對孩子承擔的法律或實際責任」。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-13"
     },
@@ -1542,11 +1438,9 @@ export default {
       "masked": "Students under eighteen need ____.",
       "options": [
         "parent-mcq-14",
-        "parent-mcq-13",
-        "parent-mcq-15",
-        "parent-mcq-12",
-        "parent-mcq-16",
-        "parent-mcq-11"
+        "parent-mcq-33",
+        "parent-mcq-31",
+        "parent-mcq-09"
       ],
       "explanation": "本句的「parental consent」指「父母／家長正式給予的同意」。",
       "sentenceIndex": 28,
@@ -1555,12 +1449,10 @@ export default {
         "parental consent"
       ],
       "optionReasons": {
-        "parent-mcq-14": "本句指「父母／家長正式給予的同意」。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。"
+        "parent-mcq-14": "本句的「parental consent」指「父母／家長正式給予的同意」。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-14"
     },
@@ -1572,11 +1464,9 @@ export default {
       "masked": "The trip requires written ____.",
       "options": [
         "parent-mcq-14",
-        "parent-mcq-13",
-        "parent-mcq-15",
-        "parent-mcq-12",
-        "parent-mcq-16",
-        "parent-mcq-11"
+        "parent-mcq-21",
+        "parent-mcq-27",
+        "parent-mcq-09"
       ],
       "explanation": "本句的「parental consent」指「父母／家長正式給予的同意」。",
       "sentenceIndex": 29,
@@ -1585,12 +1475,10 @@ export default {
         "parental consent"
       ],
       "optionReasons": {
-        "parent-mcq-14": "本句指「父母／家長正式給予的同意」。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-11": "「成為／身為父母的狀態與經歷」與本句語境不同。"
+        "parent-mcq-14": "本句的「parental consent」指「父母／家長正式給予的同意」。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-14"
     },
@@ -1602,11 +1490,9 @@ export default {
       "masked": "They remained cooperative ____ after separating.",
       "options": [
         "parent-mcq-15",
-        "parent-mcq-14",
-        "parent-mcq-16",
-        "parent-mcq-13",
-        "parent-mcq-17",
-        "parent-mcq-12"
+        "parent-mcq-28",
+        "parent-mcq-32",
+        "parent-mcq-24"
       ],
       "explanation": "本句的「co-parents」指「與另一人共同承擔養育責任的共同教養者」。",
       "sentenceIndex": 30,
@@ -1615,12 +1501,10 @@ export default {
         "co-parents"
       ],
       "optionReasons": {
-        "parent-mcq-15": "本句指「與另一人共同承擔養育責任的共同教養者」。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。"
+        "parent-mcq-15": "本句的「co-parents」指「與另一人共同承擔養育責任的共同教養者」。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-15"
     },
@@ -1632,11 +1516,9 @@ export default {
       "masked": "Good communication between ____ helps children.",
       "options": [
         "parent-mcq-15",
-        "parent-mcq-14",
-        "parent-mcq-16",
-        "parent-mcq-13",
-        "parent-mcq-17",
-        "parent-mcq-12"
+        "parent-mcq-26",
+        "parent-mcq-34",
+        "parent-mcq-20"
       ],
       "explanation": "本句的「co-parents」指「與另一人共同承擔養育責任的共同教養者」。",
       "sentenceIndex": 31,
@@ -1645,12 +1527,10 @@ export default {
         "co-parents"
       ],
       "optionReasons": {
-        "parent-mcq-15": "本句指「與另一人共同承擔養育責任的共同教養者」。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-12": "「與父母、家長或親職有關的」與本句語境不同。"
+        "parent-mcq-15": "本句的「co-parents」指「與另一人共同承擔養育責任的共同教養者」。",
+        "parent-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-15"
     },
@@ -1662,11 +1542,9 @@ export default {
       "masked": "They continue to ____ their son.",
       "options": [
         "parent-mcq-16",
-        "parent-mcq-15",
-        "parent-mcq-17",
-        "parent-mcq-14",
         "parent-mcq-18",
-        "parent-mcq-13"
+        "parent-mcq-06",
+        "parent-mcq-11"
       ],
       "explanation": "本句的「co-parent」指「與另一人共同養育／教養孩子」。",
       "sentenceIndex": 32,
@@ -1675,12 +1553,10 @@ export default {
         "co-parent"
       ],
       "optionReasons": {
-        "parent-mcq-16": "本句指「與另一人共同養育／教養孩子」。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。"
+        "parent-mcq-16": "本句的「co-parent」指「與另一人共同養育／教養孩子」。",
+        "parent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-16"
     },
@@ -1692,11 +1568,9 @@ export default {
       "masked": "Effective communication makes it easier to ____.",
       "options": [
         "parent-mcq-16",
-        "parent-mcq-15",
-        "parent-mcq-17",
-        "parent-mcq-14",
-        "parent-mcq-18",
-        "parent-mcq-13"
+        "parent-mcq-06",
+        "parent-mcq-31",
+        "parent-mcq-23"
       ],
       "explanation": "本句的「co-parent」指「與另一人共同養育／教養孩子」。",
       "sentenceIndex": 33,
@@ -1705,12 +1579,10 @@ export default {
         "co-parent"
       ],
       "optionReasons": {
-        "parent-mcq-16": "本句指「與另一人共同養育／教養孩子」。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-13": "「父母／家長對孩子承擔的法律或實際責任」與本句語境不同。"
+        "parent-mcq-16": "本句的「co-parent」指「與另一人共同養育／教養孩子」。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-16"
     },
@@ -1722,11 +1594,9 @@ export default {
       "masked": "The brand is owned by a large ____.",
       "options": [
         "parent-mcq-17",
-        "parent-mcq-16",
-        "parent-mcq-18",
-        "parent-mcq-15",
-        "parent-mcq-19",
-        "parent-mcq-14"
+        "parent-mcq-25",
+        "parent-mcq-05",
+        "parent-mcq-21"
       ],
       "explanation": "本句的「parent company」指「擁有或控制另一公司的母公司」。",
       "sentenceIndex": 34,
@@ -1735,12 +1605,10 @@ export default {
         "parent company"
       ],
       "optionReasons": {
-        "parent-mcq-17": "本句指「擁有或控制另一公司的母公司」。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。"
+        "parent-mcq-17": "本句的「parent company」指「擁有或控制另一公司的母公司」。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-17"
     },
@@ -1752,11 +1620,9 @@ export default {
       "masked": "The ____ provides financial support.",
       "options": [
         "parent-mcq-17",
-        "parent-mcq-16",
-        "parent-mcq-18",
-        "parent-mcq-15",
-        "parent-mcq-19",
-        "parent-mcq-14"
+        "parent-mcq-07",
+        "parent-mcq-20",
+        "parent-mcq-33"
       ],
       "explanation": "本句的「parent company」指「擁有或控制另一公司的母公司」。",
       "sentenceIndex": 35,
@@ -1765,12 +1631,10 @@ export default {
         "parent company"
       ],
       "optionReasons": {
-        "parent-mcq-17": "本句指「擁有或控制另一公司的母公司」。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-14": "「父母／家長正式給予的同意」與本句語境不同。"
+        "parent-mcq-17": "本句的「parent company」指「擁有或控制另一公司的母公司」。",
+        "parent-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-17"
     },
@@ -1782,11 +1646,9 @@ export default {
       "masked": "The charity receives support from its ____.",
       "options": [
         "parent-mcq-18",
-        "parent-mcq-17",
-        "parent-mcq-19",
-        "parent-mcq-16",
-        "parent-mcq-20",
-        "parent-mcq-15"
+        "parent-mcq-05",
+        "parent-mcq-22",
+        "parent-mcq-31"
       ],
       "explanation": "本句的「parent organization」指「管理、控制或涵蓋下級單位的母機構／上級組織」。",
       "sentenceIndex": 36,
@@ -1795,12 +1657,10 @@ export default {
         "parent organization"
       ],
       "optionReasons": {
-        "parent-mcq-18": "本句指「管理、控制或涵蓋下級單位的母機構／上級組織」。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。"
+        "parent-mcq-18": "本句的「parent organization」指「管理、控制或涵蓋下級單位的母機構／上級組織」。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-18"
     },
@@ -1812,11 +1672,9 @@ export default {
       "masked": "Each branch reports to the ____.",
       "options": [
         "parent-mcq-18",
-        "parent-mcq-17",
-        "parent-mcq-19",
-        "parent-mcq-16",
-        "parent-mcq-20",
-        "parent-mcq-15"
+        "parent-mcq-31",
+        "parent-mcq-09",
+        "parent-mcq-22"
       ],
       "explanation": "本句的「parent organization」指「管理、控制或涵蓋下級單位的母機構／上級組織」。",
       "sentenceIndex": 37,
@@ -1825,12 +1683,10 @@ export default {
         "parent organization"
       ],
       "optionReasons": {
-        "parent-mcq-18": "本句指「管理、控制或涵蓋下級單位的母機構／上級組織」。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-15": "「與另一人共同承擔養育責任的共同教養者」與本句語境不同。"
+        "parent-mcq-18": "本句的「parent organization」指「管理、控制或涵蓋下級單位的母機構／上級組織」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-18"
     },
@@ -1842,11 +1698,9 @@ export default {
       "masked": "This folder is the ____ of several subfolders.",
       "options": [
         "parent-mcq-19",
-        "parent-mcq-18",
-        "parent-mcq-20",
-        "parent-mcq-17",
-        "parent-mcq-21",
-        "parent-mcq-16"
+        "parent-mcq-33",
+        "parent-mcq-28",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parent」指「直接包含或位於另一項目上一層的父項／上層項目」。",
       "sentenceIndex": 38,
@@ -1855,12 +1709,10 @@ export default {
         "parent"
       ],
       "optionReasons": {
-        "parent-mcq-19": "本句指「直接包含或位於另一項目上一層的父項／上層項目」。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。"
+        "parent-mcq-19": "本句的「parent」指「直接包含或位於另一項目上一層的父項／上層項目」。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-19"
     },
@@ -1872,11 +1724,9 @@ export default {
       "masked": "Each child node has a ____ node.",
       "options": [
         "parent-mcq-19",
-        "parent-mcq-18",
-        "parent-mcq-20",
-        "parent-mcq-17",
-        "parent-mcq-21",
-        "parent-mcq-16"
+        "parent-mcq-33",
+        "parent-mcq-09",
+        "parent-mcq-32"
       ],
       "explanation": "本句的「parent」指「直接包含或位於另一項目上一層的父項／上層項目」。",
       "sentenceIndex": 39,
@@ -1885,12 +1735,10 @@ export default {
         "parent"
       ],
       "optionReasons": {
-        "parent-mcq-19": "本句指「直接包含或位於另一項目上一層的父項／上層項目」。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-16": "「與另一人共同養育／教養孩子」與本句語境不同。"
+        "parent-mcq-19": "本句的「parent」指「直接包含或位於另一項目上一層的父項／上層項目」。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-19"
     },
@@ -1902,11 +1750,9 @@ export default {
       "masked": "Move back to the ____.",
       "options": [
         "parent-mcq-20",
-        "parent-mcq-19",
-        "parent-mcq-21",
-        "parent-mcq-18",
-        "parent-mcq-22",
-        "parent-mcq-17"
+        "parent-mcq-29",
+        "parent-mcq-27",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「parent node」指「樹狀結構中直接位於子節點上一層的父節點」。",
       "sentenceIndex": 40,
@@ -1915,12 +1761,10 @@ export default {
         "parent node"
       ],
       "optionReasons": {
-        "parent-mcq-20": "本句指「樹狀結構中直接位於子節點上一層的父節點」。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。"
+        "parent-mcq-20": "本句的「parent node」指「樹狀結構中直接位於子節點上一層的父節點」。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-20"
     },
@@ -1932,11 +1776,9 @@ export default {
       "masked": "The ____ contains three children.",
       "options": [
         "parent-mcq-20",
-        "parent-mcq-19",
-        "parent-mcq-21",
-        "parent-mcq-18",
-        "parent-mcq-22",
-        "parent-mcq-17"
+        "parent-mcq-31",
+        "parent-mcq-27",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「parent node」指「樹狀結構中直接位於子節點上一層的父節點」。",
       "sentenceIndex": 41,
@@ -1945,12 +1787,10 @@ export default {
         "parent node"
       ],
       "optionReasons": {
-        "parent-mcq-20": "本句指「樹狀結構中直接位於子節點上一層的父節點」。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-17": "「擁有或控制另一公司的母公司」與本句語境不同。"
+        "parent-mcq-20": "本句的「parent node」指「樹狀結構中直接位於子節點上一層的父節點」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-20"
     },
@@ -1962,11 +1802,9 @@ export default {
       "masked": "Return to the ____.",
       "options": [
         "parent-mcq-21",
-        "parent-mcq-20",
-        "parent-mcq-22",
-        "parent-mcq-19",
-        "parent-mcq-23",
-        "parent-mcq-18"
+        "parent-mcq-33",
+        "parent-mcq-28",
+        "parent-mcq-06"
       ],
       "explanation": "本句的「parent directory」指「直接包含某檔案／子資料夾的上層目錄」。",
       "sentenceIndex": 42,
@@ -1975,12 +1813,10 @@ export default {
         "parent directory"
       ],
       "optionReasons": {
-        "parent-mcq-21": "本句指「直接包含某檔案／子資料夾的上層目錄」。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。"
+        "parent-mcq-21": "本句的「parent directory」指「直接包含某檔案／子資料夾的上層目錄」。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-21"
     },
@@ -1992,11 +1828,9 @@ export default {
       "masked": "The file is stored inside its ____.",
       "options": [
         "parent-mcq-21",
-        "parent-mcq-20",
-        "parent-mcq-22",
-        "parent-mcq-19",
-        "parent-mcq-23",
-        "parent-mcq-18"
+        "parent-mcq-17",
+        "parent-mcq-31",
+        "parent-mcq-06"
       ],
       "explanation": "本句的「parent folder」指「直接包含某檔案／子資料夾的上層目錄」。",
       "sentenceIndex": 43,
@@ -2005,12 +1839,10 @@ export default {
         "parent folder"
       ],
       "optionReasons": {
-        "parent-mcq-21": "本句指「直接包含某檔案／子資料夾的上層目錄」。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-18": "「管理、控制或涵蓋下級單位的母機構／上級組織」與本句語境不同。"
+        "parent-mcq-21": "本句的「parent folder」指「直接包含某檔案／子資料夾的上層目錄」。",
+        "parent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-21"
     },
@@ -2022,11 +1854,9 @@ export default {
       "masked": "The child process was created by the ____.",
       "options": [
         "parent-mcq-22",
-        "parent-mcq-21",
-        "parent-mcq-23",
-        "parent-mcq-20",
-        "parent-mcq-24",
-        "parent-mcq-19"
+        "parent-mcq-28",
+        "parent-mcq-18",
+        "parent-mcq-33"
       ],
       "explanation": "本句的「parent process」指「建立另一子行程／程序的父行程」。",
       "sentenceIndex": 44,
@@ -2035,12 +1865,10 @@ export default {
         "parent process"
       ],
       "optionReasons": {
-        "parent-mcq-22": "本句指「建立另一子行程／程序的父行程」。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。"
+        "parent-mcq-22": "本句的「parent process」指「建立另一子行程／程序的父行程」。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-22"
     },
@@ -2052,11 +1880,9 @@ export default {
       "masked": "When the ____ ends, related processes may also be affected.",
       "options": [
         "parent-mcq-22",
-        "parent-mcq-21",
-        "parent-mcq-23",
-        "parent-mcq-20",
-        "parent-mcq-24",
-        "parent-mcq-19"
+        "parent-mcq-29",
+        "parent-mcq-33",
+        "parent-mcq-06"
       ],
       "explanation": "本句的「parent process」指「建立另一子行程／程序的父行程」。",
       "sentenceIndex": 45,
@@ -2065,12 +1891,10 @@ export default {
         "parent process"
       ],
       "optionReasons": {
-        "parent-mcq-22": "本句指「建立另一子行程／程序的父行程」。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-19": "「直接包含或位於另一項目上一層的父項／上層項目」與本句語境不同。"
+        "parent-mcq-22": "本句的「parent process」指「建立另一子行程／程序的父行程」。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-22"
     },
@@ -2082,11 +1906,9 @@ export default {
       "masked": "The button inherits settings from its ____.",
       "options": [
         "parent-mcq-23",
-        "parent-mcq-22",
-        "parent-mcq-24",
-        "parent-mcq-21",
-        "parent-mcq-25",
-        "parent-mcq-20"
+        "parent-mcq-09",
+        "parent-mcq-33",
+        "parent-mcq-29"
       ],
       "explanation": "本句的「parent component」指「包含、控制或擁有下層物件的父物件／上層元件」。",
       "sentenceIndex": 46,
@@ -2095,12 +1917,10 @@ export default {
         "parent component"
       ],
       "optionReasons": {
-        "parent-mcq-23": "本句指「包含、控制或擁有下層物件的父物件／上層元件」。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。"
+        "parent-mcq-23": "本句的「parent component」指「包含、控制或擁有下層物件的父物件／上層元件」。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-23"
     },
@@ -2112,11 +1932,9 @@ export default {
       "masked": "The object is attached to a ____.",
       "options": [
         "parent-mcq-23",
-        "parent-mcq-22",
-        "parent-mcq-24",
-        "parent-mcq-21",
-        "parent-mcq-25",
-        "parent-mcq-20"
+        "parent-mcq-29",
+        "parent-mcq-09",
+        "parent-mcq-27"
       ],
       "explanation": "本句的「parent object」指「包含、控制或擁有下層物件的父物件／上層元件」。",
       "sentenceIndex": 47,
@@ -2125,12 +1943,10 @@ export default {
         "parent object"
       ],
       "optionReasons": {
-        "parent-mcq-23": "本句指「包含、控制或擁有下層物件的父物件／上層元件」。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-20": "「樹狀結構中直接位於子節點上一層的父節點」與本句語境不同。"
+        "parent-mcq-23": "本句的「parent object」指「包含、控制或擁有下層物件的父物件／上層元件」。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-23"
     },
@@ -2142,11 +1958,9 @@ export default {
       "masked": "Fruit” is the ____ of several subcategories.",
       "options": [
         "parent-mcq-24",
-        "parent-mcq-23",
         "parent-mcq-25",
-        "parent-mcq-22",
-        "parent-mcq-26",
-        "parent-mcq-21"
+        "parent-mcq-31",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parent category」指「包含較狹窄子類別的上位／父類別」。",
       "sentenceIndex": 48,
@@ -2155,12 +1969,10 @@ export default {
         "parent category"
       ],
       "optionReasons": {
-        "parent-mcq-24": "本句指「包含較狹窄子類別的上位／父類別」。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。"
+        "parent-mcq-24": "本句的「parent category」指「包含較狹窄子類別的上位／父類別」。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-24"
     },
@@ -2172,11 +1984,9 @@ export default {
       "masked": "Select a ____ first.",
       "options": [
         "parent-mcq-24",
-        "parent-mcq-23",
-        "parent-mcq-25",
-        "parent-mcq-22",
-        "parent-mcq-26",
-        "parent-mcq-21"
+        "parent-mcq-34",
+        "parent-mcq-29",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「parent category」指「包含較狹窄子類別的上位／父類別」。",
       "sentenceIndex": 49,
@@ -2185,12 +1995,10 @@ export default {
         "parent category"
       ],
       "optionReasons": {
-        "parent-mcq-24": "本句指「包含較狹窄子類別的上位／父類別」。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-21": "「直接包含某檔案／子資料夾的上層目錄」與本句語境不同。"
+        "parent-mcq-24": "本句的「parent category」指「包含較狹窄子類別的上位／父類別」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-24"
     },
@@ -2202,11 +2010,9 @@ export default {
       "masked": "The offspring inherited traits from both ____.",
       "options": [
         "parent-mcq-25",
-        "parent-mcq-24",
-        "parent-mcq-26",
-        "parent-mcq-23",
-        "parent-mcq-27",
-        "parent-mcq-22"
+        "parent-mcq-11",
+        "parent-mcq-17",
+        "parent-mcq-24"
       ],
       "explanation": "本句的「parents」指「產生後代的親本／親代」。",
       "sentenceIndex": 50,
@@ -2215,12 +2021,10 @@ export default {
         "parents"
       ],
       "optionReasons": {
-        "parent-mcq-25": "本句指「產生後代的親本／親代」。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。"
+        "parent-mcq-25": "本句的「parents」指「產生後代的親本／親代」。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-25"
     },
@@ -2232,11 +2036,9 @@ export default {
       "masked": "Scientists selected healthy ____.",
       "options": [
         "parent-mcq-25",
-        "parent-mcq-24",
-        "parent-mcq-26",
-        "parent-mcq-23",
-        "parent-mcq-27",
-        "parent-mcq-22"
+        "parent-mcq-34",
+        "parent-mcq-32",
+        "parent-mcq-11"
       ],
       "explanation": "本句的「parent plants」指「產生後代的親本／親代」。",
       "sentenceIndex": 51,
@@ -2245,12 +2047,10 @@ export default {
         "parent plants"
       ],
       "optionReasons": {
-        "parent-mcq-25": "本句指「產生後代的親本／親代」。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-22": "「建立另一子行程／程序的父行程」與本句語境不同。"
+        "parent-mcq-25": "本句的「parent plants」指「產生後代的親本／親代」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-25"
     },
@@ -2262,11 +2062,9 @@ export default {
       "masked": "Seeds were collected from the ____.",
       "options": [
         "parent-mcq-26",
-        "parent-mcq-25",
-        "parent-mcq-27",
-        "parent-mcq-24",
-        "parent-mcq-28",
-        "parent-mcq-23"
+        "parent-mcq-19",
+        "parent-mcq-34",
+        "parent-mcq-04"
       ],
       "explanation": "本句的「parent plant」指「提供種子、插枝或遺傳來源的親本植物／母株」。",
       "sentenceIndex": 52,
@@ -2275,12 +2073,10 @@ export default {
         "parent plant"
       ],
       "optionReasons": {
-        "parent-mcq-26": "本句指「提供種子、插枝或遺傳來源的親本植物／母株」。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。"
+        "parent-mcq-26": "本句的「parent plant」指「提供種子、插枝或遺傳來源的親本植物／母株」。",
+        "parent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-26"
     },
@@ -2292,11 +2088,9 @@ export default {
       "masked": "The new variety combines traits from two ____.",
       "options": [
         "parent-mcq-26",
-        "parent-mcq-25",
-        "parent-mcq-27",
-        "parent-mcq-24",
-        "parent-mcq-28",
-        "parent-mcq-23"
+        "parent-mcq-15",
+        "parent-mcq-23",
+        "parent-mcq-11"
       ],
       "explanation": "本句的「parent plants」指「提供種子、插枝或遺傳來源的親本植物／母株」。",
       "sentenceIndex": 53,
@@ -2305,12 +2099,10 @@ export default {
         "parent plants"
       ],
       "optionReasons": {
-        "parent-mcq-26": "本句指「提供種子、插枝或遺傳來源的親本植物／母株」。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-23": "「包含、控制或擁有下層物件的父物件／上層元件」與本句語境不同。"
+        "parent-mcq-26": "本句的「parent plants」指「提供種子、插枝或遺傳來源的親本植物／母株」。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-26"
     },
@@ -2322,11 +2114,9 @@ export default {
       "masked": "The hybrid was developed from two ____.",
       "options": [
         "parent-mcq-27",
-        "parent-mcq-26",
-        "parent-mcq-28",
-        "parent-mcq-25",
-        "parent-mcq-29",
-        "parent-mcq-24"
+        "parent-mcq-23",
+        "parent-mcq-08",
+        "parent-mcq-29"
       ],
       "explanation": "本句的「parent lines」指「用來產生雜交品系等的親本株／親本品系」。",
       "sentenceIndex": 54,
@@ -2335,12 +2125,10 @@ export default {
         "parent lines"
       ],
       "optionReasons": {
-        "parent-mcq-27": "本句指「用來產生雜交品系等的親本株／親本品系」。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。"
+        "parent-mcq-27": "本句的「parent lines」指「用來產生雜交品系等的親本株／親本品系」。",
+        "parent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-27"
     },
@@ -2352,11 +2140,9 @@ export default {
       "masked": "Researchers compared the hybrid with its ____.",
       "options": [
         "parent-mcq-27",
-        "parent-mcq-26",
-        "parent-mcq-28",
-        "parent-mcq-25",
-        "parent-mcq-29",
-        "parent-mcq-24"
+        "parent-mcq-24",
+        "parent-mcq-15",
+        "parent-mcq-05"
       ],
       "explanation": "本句的「parent strains」指「用來產生雜交品系等的親本株／親本品系」。",
       "sentenceIndex": 55,
@@ -2365,12 +2151,10 @@ export default {
         "parent strains"
       ],
       "optionReasons": {
-        "parent-mcq-27": "本句指「用來產生雜交品系等的親本株／親本品系」。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-24": "「包含較狹窄子類別的上位／父類別」與本句語境不同。"
+        "parent-mcq-27": "本句的「parent strains」指「用來產生雜交品系等的親本株／親本品系」。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-27"
     },
@@ -2382,11 +2166,9 @@ export default {
       "masked": "The derivative differs slightly from the ____.",
       "options": [
         "parent-mcq-28",
-        "parent-mcq-27",
-        "parent-mcq-29",
-        "parent-mcq-26",
-        "parent-mcq-30",
-        "parent-mcq-25"
+        "parent-mcq-34",
+        "parent-mcq-24",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「parent compound」指「衍生物所源自的基礎母體化合物」。",
       "sentenceIndex": 56,
@@ -2395,12 +2177,10 @@ export default {
         "parent compound"
       ],
       "optionReasons": {
-        "parent-mcq-28": "本句指「衍生物所源自的基礎母體化合物」。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。"
+        "parent-mcq-28": "本句的「parent compound」指「衍生物所源自的基礎母體化合物」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-28"
     },
@@ -2412,11 +2192,9 @@ export default {
       "masked": "Scientists studied both the metabolite and its ____.",
       "options": [
         "parent-mcq-28",
-        "parent-mcq-27",
-        "parent-mcq-29",
-        "parent-mcq-26",
-        "parent-mcq-30",
-        "parent-mcq-25"
+        "parent-mcq-21",
+        "parent-mcq-05",
+        "parent-mcq-22"
       ],
       "explanation": "本句的「parent compound」指「衍生物所源自的基礎母體化合物」。",
       "sentenceIndex": 57,
@@ -2425,12 +2203,10 @@ export default {
         "parent compound"
       ],
       "optionReasons": {
-        "parent-mcq-28": "本句指「衍生物所源自的基礎母體化合物」。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-25": "「產生後代的親本／親代」與本句語境不同。"
+        "parent-mcq-28": "本句的「parent compound」指「衍生物所源自的基礎母體化合物」。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-28"
     },
@@ -2442,11 +2218,9 @@ export default {
       "masked": "Soil properties depend partly on the ____.",
       "options": [
         "parent-mcq-29",
-        "parent-mcq-28",
-        "parent-mcq-30",
-        "parent-mcq-27",
-        "parent-mcq-31",
-        "parent-mcq-26"
+        "parent-mcq-05",
+        "parent-mcq-25",
+        "parent-mcq-20"
       ],
       "explanation": "本句的「parent rock」指「土壤／其他岩石發育所源自的母岩」。",
       "sentenceIndex": 58,
@@ -2455,12 +2229,10 @@ export default {
         "parent rock"
       ],
       "optionReasons": {
-        "parent-mcq-29": "本句指「土壤／其他岩石發育所源自的母岩」。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。"
+        "parent-mcq-29": "本句的「parent rock」指「土壤／其他岩石發育所源自的母岩」。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-29"
     },
@@ -2472,11 +2244,9 @@ export default {
       "masked": "Heat changed the ____ over time.",
       "options": [
         "parent-mcq-29",
-        "parent-mcq-28",
-        "parent-mcq-30",
-        "parent-mcq-27",
-        "parent-mcq-31",
-        "parent-mcq-26"
+        "parent-mcq-34",
+        "parent-mcq-20",
+        "parent-mcq-24"
       ],
       "explanation": "本句的「parent rock」指「土壤／其他岩石發育所源自的母岩」。",
       "sentenceIndex": 59,
@@ -2485,12 +2255,10 @@ export default {
         "parent rock"
       ],
       "optionReasons": {
-        "parent-mcq-29": "本句指「土壤／其他岩石發育所源自的母岩」。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-26": "「提供種子、插枝或遺傳來源的親本植物／母株」與本句語境不同。"
+        "parent-mcq-29": "本句的「parent rock」指「土壤／其他岩石發育所源自的母岩」。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-29"
     },
@@ -2502,11 +2270,9 @@ export default {
       "masked": "Soil develops from ____.",
       "options": [
         "parent-mcq-30",
-        "parent-mcq-29",
-        "parent-mcq-31",
-        "parent-mcq-28",
-        "parent-mcq-32",
-        "parent-mcq-27"
+        "parent-mcq-23",
+        "parent-mcq-05",
+        "parent-mcq-15"
       ],
       "explanation": "本句的「parent material」指「土壤形成所源自的成土母質」。",
       "sentenceIndex": 60,
@@ -2515,12 +2281,10 @@ export default {
         "parent material"
       ],
       "optionReasons": {
-        "parent-mcq-30": "本句指「土壤形成所源自的成土母質」。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。"
+        "parent-mcq-30": "本句的「parent material」指「土壤形成所源自的成土母質」。",
+        "parent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-30"
     },
@@ -2532,11 +2296,9 @@ export default {
       "masked": "Different ____ produce different soil characteristics.",
       "options": [
         "parent-mcq-30",
-        "parent-mcq-29",
-        "parent-mcq-31",
-        "parent-mcq-28",
-        "parent-mcq-32",
-        "parent-mcq-27"
+        "parent-mcq-09",
+        "parent-mcq-19",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parent materials」指「土壤形成所源自的成土母質」。",
       "sentenceIndex": 61,
@@ -2545,12 +2307,10 @@ export default {
         "parent materials"
       ],
       "optionReasons": {
-        "parent-mcq-30": "本句指「土壤形成所源自的成土母質」。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-27": "「用來產生雜交品系等的親本株／親本品系」與本句語境不同。"
+        "parent-mcq-30": "本句的「parent materials」指「土壤形成所源自的成土母質」。",
+        "parent-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-30"
     },
@@ -2562,11 +2322,9 @@ export default {
       "masked": "Latin is a ____ of the Romance languages.",
       "options": [
         "parent-mcq-31",
-        "parent-mcq-30",
-        "parent-mcq-32",
-        "parent-mcq-29",
-        "parent-mcq-33",
-        "parent-mcq-28"
+        "parent-mcq-15",
+        "parent-mcq-05",
+        "parent-mcq-23"
       ],
       "explanation": "本句的「parent language」指「後來語言所源自的祖語／源語」。",
       "sentenceIndex": 62,
@@ -2575,12 +2333,10 @@ export default {
         "parent language"
       ],
       "optionReasons": {
-        "parent-mcq-31": "本句指「後來語言所源自的祖語／源語」。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-33": "「血統、親本來源；較廣義也可指來源」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。"
+        "parent-mcq-31": "本句的「parent language」指「後來語言所源自的祖語／源語」。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-31"
     },
@@ -2592,11 +2348,9 @@ export default {
       "masked": "Linguists reconstruct features of a ____.",
       "options": [
         "parent-mcq-31",
-        "parent-mcq-30",
-        "parent-mcq-32",
-        "parent-mcq-29",
-        "parent-mcq-33",
-        "parent-mcq-28"
+        "parent-mcq-23",
+        "parent-mcq-16",
+        "parent-mcq-04"
       ],
       "explanation": "本句的「parent language」指「後來語言所源自的祖語／源語」。",
       "sentenceIndex": 63,
@@ -2605,12 +2359,10 @@ export default {
         "parent language"
       ],
       "optionReasons": {
-        "parent-mcq-31": "本句指「後來語言所源自的祖語／源語」。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。",
-        "parent-mcq-33": "「血統、親本來源；較廣義也可指來源」與本句語境不同。",
-        "parent-mcq-28": "「衍生物所源自的基礎母體化合物」與本句語境不同。"
+        "parent-mcq-31": "本句的「parent language」指「後來語言所源自的祖語／源語」。",
+        "parent-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-31"
     },
@@ -2622,11 +2374,9 @@ export default {
       "masked": "The product still uses the ____ name.",
       "options": [
         "parent-mcq-32",
-        "parent-mcq-31",
-        "parent-mcq-33",
-        "parent-mcq-30",
-        "parent-mcq-34",
-        "parent-mcq-29"
+        "parent-mcq-25",
+        "parent-mcq-15",
+        "parent-mcq-34"
       ],
       "explanation": "本句的「parent brand」指「擁有／統攝多個子品牌的母品牌」。",
       "sentenceIndex": 64,
@@ -2635,12 +2385,10 @@ export default {
         "parent brand"
       ],
       "optionReasons": {
-        "parent-mcq-32": "本句指「擁有／統攝多個子品牌的母品牌」。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-33": "「血統、親本來源；較廣義也可指來源」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-34": "「家長用來限制／管理兒童裝置與內容使用的家長控制功能」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。"
+        "parent-mcq-32": "本句的「parent brand」指「擁有／統攝多個子品牌的母品牌」。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-32"
     },
@@ -2653,10 +2401,8 @@ export default {
       "options": [
         "parent-mcq-32",
         "parent-mcq-31",
-        "parent-mcq-33",
-        "parent-mcq-30",
-        "parent-mcq-34",
-        "parent-mcq-29"
+        "parent-mcq-15",
+        "parent-mcq-25"
       ],
       "explanation": "本句的「parent brand」指「擁有／統攝多個子品牌的母品牌」。",
       "sentenceIndex": 65,
@@ -2665,12 +2411,10 @@ export default {
         "parent brand"
       ],
       "optionReasons": {
-        "parent-mcq-32": "本句指「擁有／統攝多個子品牌的母品牌」。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-33": "「血統、親本來源；較廣義也可指來源」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-34": "「家長用來限制／管理兒童裝置與內容使用的家長控制功能」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。"
+        "parent-mcq-32": "本句的「parent brand」指「擁有／統攝多個子品牌的母品牌」。",
+        "parent-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-32"
     },
@@ -2682,11 +2426,9 @@ export default {
       "masked": "The animal’s ____ was carefully recorded.",
       "options": [
         "parent-mcq-33",
-        "parent-mcq-32",
-        "parent-mcq-34",
-        "parent-mcq-31",
-        "parent-mcq-30",
-        "parent-mcq-29"
+        "parent-mcq-22",
+        "parent-mcq-05",
+        "parent-mcq-21"
       ],
       "explanation": "本句的「parentage」指「血統、親本來源；較廣義也可指來源」。",
       "sentenceIndex": 66,
@@ -2695,12 +2437,10 @@ export default {
         "parentage"
       ],
       "optionReasons": {
-        "parent-mcq-33": "本句指「血統、親本來源；較廣義也可指來源」。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-34": "「家長用來限制／管理兒童裝置與內容使用的家長控制功能」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。"
+        "parent-mcq-33": "本句的「parentage」指「血統、親本來源；較廣義也可指來源」。",
+        "parent-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-33"
     },
@@ -2712,11 +2452,9 @@ export default {
       "masked": "Researchers questioned the ____ of the document.",
       "options": [
         "parent-mcq-33",
-        "parent-mcq-32",
-        "parent-mcq-34",
-        "parent-mcq-31",
-        "parent-mcq-30",
-        "parent-mcq-29"
+        "parent-mcq-13",
+        "parent-mcq-21",
+        "parent-mcq-22"
       ],
       "explanation": "本句的「parentage」指「血統、親本來源；較廣義也可指來源」。",
       "sentenceIndex": 67,
@@ -2725,12 +2463,10 @@ export default {
         "parentage"
       ],
       "optionReasons": {
-        "parent-mcq-33": "本句指「血統、親本來源；較廣義也可指來源」。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-34": "「家長用來限制／管理兒童裝置與內容使用的家長控制功能」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。"
+        "parent-mcq-33": "本句的「parentage」指「血統、親本來源；較廣義也可指來源」。",
+        "parent-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-33"
     },
@@ -2742,11 +2478,9 @@ export default {
       "masked": "The device includes ____.",
       "options": [
         "parent-mcq-34",
-        "parent-mcq-33",
-        "parent-mcq-32",
-        "parent-mcq-31",
-        "parent-mcq-30",
-        "parent-mcq-29"
+        "parent-mcq-28",
+        "parent-mcq-06",
+        "parent-mcq-32"
       ],
       "explanation": "本句的「parental controls」指「家長用來限制／管理兒童裝置與內容使用的家長控制功能」。",
       "sentenceIndex": 68,
@@ -2755,12 +2489,10 @@ export default {
         "parental controls"
       ],
       "optionReasons": {
-        "parent-mcq-34": "本句指「家長用來限制／管理兒童裝置與內容使用的家長控制功能」。",
-        "parent-mcq-33": "「血統、親本來源；較廣義也可指來源」與本句語境不同。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。"
+        "parent-mcq-34": "本句的「parental controls」指「家長用來限制／管理兒童裝置與內容使用的家長控制功能」。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-34"
     },
@@ -2772,11 +2504,9 @@ export default {
       "masked": "____ can restrict certain content.",
       "options": [
         "parent-mcq-34",
-        "parent-mcq-33",
-        "parent-mcq-32",
-        "parent-mcq-31",
-        "parent-mcq-30",
-        "parent-mcq-29"
+        "parent-mcq-16",
+        "parent-mcq-28",
+        "parent-mcq-25"
       ],
       "explanation": "本句的「Parental controls」指「家長用來限制／管理兒童裝置與內容使用的家長控制功能」。",
       "sentenceIndex": 69,
@@ -2785,12 +2515,10 @@ export default {
         "Parental controls"
       ],
       "optionReasons": {
-        "parent-mcq-34": "本句指「家長用來限制／管理兒童裝置與內容使用的家長控制功能」。",
-        "parent-mcq-33": "「血統、親本來源；較廣義也可指來源」與本句語境不同。",
-        "parent-mcq-32": "「擁有／統攝多個子品牌的母品牌」與本句語境不同。",
-        "parent-mcq-31": "「後來語言所源自的祖語／源語」與本句語境不同。",
-        "parent-mcq-30": "「土壤形成所源自的成土母質」與本句語境不同。",
-        "parent-mcq-29": "「土壤／其他岩石發育所源自的母岩」與本句語境不同。"
+        "parent-mcq-34": "本句的「Parental controls」指「家長用來限制／管理兒童裝置與內容使用的家長控制功能」。",
+        "parent-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "parent-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "parent-mcq-34"
     }
@@ -2802,5 +2530,7 @@ export default {
     "sha256": "beffba0ea1217ffd5f16689d7e177937ebd4820a9d80a5e6e6895b1ae33ae8f7",
     "pages": 21
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

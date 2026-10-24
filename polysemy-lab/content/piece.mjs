@@ -330,16 +330,6 @@ export default {
           "We were relieved to get home in one piece.",
           "我們很慶幸能平安無事地回到家。",
           "沒有破損；人則指安全無恙"
-        ],
-        [
-          "The glass fell and broke to pieces.",
-          "玻璃掉下來摔得粉碎。",
-          "沒有破損；人則指安全無恙"
-        ],
-        [
-          "The old paper was falling to pieces.",
-          "那張舊紙已經破爛不堪。",
-          "沒有破損；人則指安全無恙"
         ]
       ],
       "options": [],
@@ -420,6 +410,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "piece-reviewed-7b23dd5a52",
+      "title": "分裂成很多碎片；完全破碎",
+      "form": "piece · source section 20",
+      "en": "分裂成很多碎片；完全破碎",
+      "zh": "分裂成很多碎片；完全破碎",
+      "note": "對照原始教材第 20 節及例句核實。",
+      "examples": [
+        [
+          "The glass fell and broke to pieces.",
+          "玻璃掉下來摔得粉碎。",
+          "分裂成很多碎片；完全破碎"
+        ],
+        [
+          "The old paper was falling to pieces.",
+          "那張舊紙已經破爛不堪。",
+          "分裂成很多碎片；完全破碎"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -431,11 +443,9 @@ export default {
       "masked": "A small ____ of glass broke off.",
       "options": [
         "piece-mcq-01",
-        "piece-mcq-02",
-        "piece-mcq-03",
-        "piece-mcq-04",
-        "piece-mcq-05",
-        "piece-mcq-06"
+        "piece-mcq-07",
+        "piece-mcq-11",
+        "piece-mcq-12"
       ],
       "explanation": "本句的「piece」指「從較大整體中分出來的一個部分」。",
       "sentenceIndex": 0,
@@ -444,12 +454,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-01": "本句指「從較大整體中分出來的一個部分」。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-01": "本句的「piece」指「從較大整體中分出來的一個部分」。",
+        "piece-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-01"
     },
@@ -461,11 +469,9 @@ export default {
       "masked": "She cut the paper into several ____.",
       "options": [
         "piece-mcq-01",
-        "piece-mcq-02",
-        "piece-mcq-03",
-        "piece-mcq-04",
-        "piece-mcq-05",
-        "piece-mcq-06"
+        "piece-pdf-001",
+        "piece-mcq-12",
+        "piece-mcq-11"
       ],
       "explanation": "本句的「pieces」指「從較大整體中分出來的一個部分」。",
       "sentenceIndex": 1,
@@ -474,12 +480,10 @@ export default {
         "pieces"
       ],
       "optionReasons": {
-        "piece-mcq-01": "本句指「從較大整體中分出來的一個部分」。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-01": "本句的「pieces」指「從較大整體中分出來的一個部分」。",
+        "piece-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-01"
     },
@@ -491,11 +495,9 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "piece-mcq-02",
-        "piece-mcq-01",
-        "piece-mcq-03",
-        "piece-mcq-04",
-        "piece-mcq-05",
-        "piece-mcq-06"
+        "piece-mcq-11",
+        "piece-mcq-08",
+        "piece-mcq-12"
       ],
       "explanation": "本句的「piece of advice」指「把不可數概念表示成一個可數單位」。",
       "sentenceIndex": 2,
@@ -504,12 +506,10 @@ export default {
         "piece of advice"
       ],
       "optionReasons": {
-        "piece-mcq-02": "本句指「把不可數概念表示成一個可數單位」。",
-        "piece-mcq-01": "「從較大整體中分出來的一個部分」是「piece — part」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-02": "本句的「piece of advice」指「把不可數概念表示成一個可數單位」。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-02"
     },
@@ -521,11 +521,9 @@ export default {
       "masked": "I found an interesting ____ of information.",
       "options": [
         "piece-mcq-02",
-        "piece-mcq-01",
-        "piece-mcq-03",
-        "piece-mcq-04",
-        "piece-mcq-05",
-        "piece-mcq-06"
+        "piece-mcq-07",
+        "piece-mcq-14",
+        "piece-mcq-01"
       ],
       "explanation": "本句的「piece」指「把不可數概念表示成一個可數單位」。",
       "sentenceIndex": 3,
@@ -534,12 +532,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-02": "本句指「把不可數概念表示成一個可數單位」。",
-        "piece-mcq-01": "「從較大整體中分出來的一個部分」是「piece — part」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-02": "本句的「piece」指「把不可數概念表示成一個可數單位」。",
+        "piece-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-02"
     },
@@ -552,10 +548,8 @@ export default {
       "options": [
         "piece-mcq-03",
         "piece-mcq-02",
-        "piece-mcq-04",
-        "piece-mcq-01",
-        "piece-mcq-05",
-        "piece-mcq-06"
+        "piece-reviewed-7b23dd5a52",
+        "piece-mcq-13"
       ],
       "explanation": "本句的「piece」指「一個獨立的物件／物品」。",
       "sentenceIndex": 4,
@@ -564,12 +558,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-03": "本句指「一個獨立的物件／物品」。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-01": "「從較大整體中分出來的一個部分」是「piece — part」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-03": "本句的「piece」指「一個獨立的物件／物品」。",
+        "piece-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "piece-reviewed-7b23dd5a52": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-03"
     },
@@ -581,11 +573,9 @@ export default {
       "masked": "Each ____ was carefully labelled.",
       "options": [
         "piece-mcq-03",
-        "piece-mcq-02",
-        "piece-mcq-04",
+        "piece-mcq-11",
         "piece-mcq-01",
-        "piece-mcq-05",
-        "piece-mcq-06"
+        "piece-mcq-14"
       ],
       "explanation": "本句的「piece」指「一個獨立的物件／物品」。",
       "sentenceIndex": 5,
@@ -594,12 +584,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-03": "本句指「一個獨立的物件／物品」。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-01": "「從較大整體中分出來的一個部分」是「piece — part」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-03": "本句的「piece」指「一個獨立的物件／物品」。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-03"
     },
@@ -611,11 +599,9 @@ export default {
       "masked": "For a ____ I would look at every day, I think it would be worth it.",
       "options": [
         "piece-mcq-04",
-        "piece-mcq-03",
-        "piece-mcq-05",
-        "piece-mcq-02",
-        "piece-mcq-06",
-        "piece-mcq-01"
+        "piece-mcq-12",
+        "piece-mcq-09",
+        "piece-mcq-13"
       ],
       "explanation": "本句的「piece」指「一件個別的藝術作品」。",
       "sentenceIndex": 6,
@@ -624,12 +610,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-04": "本句指「一件個別的藝術作品」。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-01": "「從較大整體中分出來的一個部分」是「piece — part」的用法，與本句語境不同。"
+        "piece-mcq-04": "本句的「piece」指「一件個別的藝術作品」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-04"
     },
@@ -641,11 +625,9 @@ export default {
       "masked": "This is one of the artist’s best-known ____.",
       "options": [
         "piece-mcq-04",
-        "piece-mcq-03",
-        "piece-mcq-05",
-        "piece-mcq-02",
-        "piece-mcq-06",
-        "piece-mcq-01"
+        "piece-mcq-12",
+        "piece-mcq-01",
+        "piece-mcq-13"
       ],
       "explanation": "本句的「pieces」指「一件個別的藝術作品」。",
       "sentenceIndex": 7,
@@ -654,12 +636,10 @@ export default {
         "pieces"
       ],
       "optionReasons": {
-        "piece-mcq-04": "本句指「一件個別的藝術作品」。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-01": "「從較大整體中分出來的一個部分」是「piece — part」的用法，與本句語境不同。"
+        "piece-mcq-04": "本句的「pieces」指「一件個別的藝術作品」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-04"
     },
@@ -671,11 +651,9 @@ export default {
       "masked": "She played a beautiful ____ on the piano.",
       "options": [
         "piece-mcq-05",
-        "piece-mcq-04",
-        "piece-mcq-06",
-        "piece-mcq-03",
-        "piece-mcq-07",
-        "piece-mcq-02"
+        "piece-mcq-12",
+        "piece-mcq-11",
+        "piece-mcq-15"
       ],
       "explanation": "本句的「piece」指「一首／一段完整的音樂作品」。",
       "sentenceIndex": 8,
@@ -684,12 +662,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-05": "本句指「一首／一段完整的音樂作品」。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。"
+        "piece-mcq-05": "本句的「piece」指「一首／一段完整的音樂作品」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-05"
     },
@@ -701,11 +677,9 @@ export default {
       "masked": "This ____ was written for violin.",
       "options": [
         "piece-mcq-05",
-        "piece-mcq-04",
-        "piece-mcq-06",
-        "piece-mcq-03",
-        "piece-mcq-07",
-        "piece-mcq-02"
+        "piece-mcq-02",
+        "piece-mcq-15",
+        "piece-mcq-14"
       ],
       "explanation": "本句的「piece」指「一首／一段完整的音樂作品」。",
       "sentenceIndex": 9,
@@ -714,12 +688,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-05": "本句指「一首／一段完整的音樂作品」。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-02": "「把不可數概念表示成一個可數單位」是「a piece of + uncountable noun」的用法，與本句語境不同。"
+        "piece-mcq-05": "本句的「piece」指「一首／一段完整的音樂作品」。",
+        "piece-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-05"
     },
@@ -731,11 +703,9 @@ export default {
       "masked": "She wrote a short ____ about the exhibition.",
       "options": [
         "piece-mcq-06",
-        "piece-mcq-05",
-        "piece-mcq-07",
-        "piece-mcq-04",
-        "piece-mcq-08",
-        "piece-mcq-03"
+        "piece-mcq-10",
+        "piece-mcq-09",
+        "piece-mcq-01"
       ],
       "explanation": "本句的「piece」指「一篇獨立的文章、評論或文字作品」。",
       "sentenceIndex": 10,
@@ -744,12 +714,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-06": "本句指「一篇獨立的文章、評論或文字作品」。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。"
+        "piece-mcq-06": "本句的「piece」指「一篇獨立的文章、評論或文字作品」。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-06"
     },
@@ -761,11 +729,9 @@ export default {
       "masked": "The newspaper published an opinion ____.",
       "options": [
         "piece-mcq-06",
-        "piece-mcq-05",
-        "piece-mcq-07",
-        "piece-mcq-04",
+        "piece-mcq-10",
         "piece-mcq-08",
-        "piece-mcq-03"
+        "piece-mcq-14"
       ],
       "explanation": "本句的「piece」指「一篇獨立的文章、評論或文字作品」。",
       "sentenceIndex": 11,
@@ -774,12 +740,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-06": "本句指「一篇獨立的文章、評論或文字作品」。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-03": "「一個獨立的物件／物品」是「piece — object」的用法，與本句語境不同。"
+        "piece-mcq-06": "本句的「piece」指「一篇獨立的文章、評論或文字作品」。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-06"
     },
@@ -791,11 +755,9 @@ export default {
       "masked": "The dancers performed a new ____.",
       "options": [
         "piece-mcq-07",
-        "piece-mcq-06",
-        "piece-mcq-08",
-        "piece-mcq-05",
         "piece-mcq-09",
-        "piece-mcq-04"
+        "piece-mcq-08",
+        "piece-mcq-10"
       ],
       "explanation": "本句的「piece」指「一個獨立的舞蹈／表演作品」。",
       "sentenceIndex": 12,
@@ -804,12 +766,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-07": "本句指「一個獨立的舞蹈／表演作品」。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。"
+        "piece-mcq-07": "本句的「piece」指「一個獨立的舞蹈／表演作品」。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-07"
     },
@@ -821,11 +781,9 @@ export default {
       "masked": "The final ____ lasted twenty minutes.",
       "options": [
         "piece-mcq-07",
-        "piece-mcq-06",
-        "piece-mcq-08",
-        "piece-mcq-05",
-        "piece-mcq-09",
-        "piece-mcq-04"
+        "piece-mcq-12",
+        "piece-reviewed-7b23dd5a52",
+        "piece-mcq-09"
       ],
       "explanation": "本句的「piece」指「一個獨立的舞蹈／表演作品」。",
       "sentenceIndex": 13,
@@ -834,12 +792,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-07": "本句指「一個獨立的舞蹈／表演作品」。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-04": "「一件個別的藝術作品」是「piece — art」的用法，與本句語境不同。"
+        "piece-mcq-07": "本句的「piece」指「一個獨立的舞蹈／表演作品」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-reviewed-7b23dd5a52": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-07"
     },
@@ -851,11 +807,9 @@ export default {
       "masked": "Would you like a ____ of cake?",
       "options": [
         "piece-mcq-08",
-        "piece-mcq-07",
-        "piece-mcq-09",
-        "piece-mcq-06",
-        "piece-mcq-10",
-        "piece-mcq-05"
+        "piece-mcq-12",
+        "piece-mcq-02",
+        "piece-mcq-03"
       ],
       "explanation": "本句的「piece」指「從食物整體切開／分出的一部分」。",
       "sentenceIndex": 14,
@@ -864,12 +818,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-08": "本句指「從食物整體切開／分出的一部分」。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。"
+        "piece-mcq-08": "本句的「piece」指「從食物整體切開／分出的一部分」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-08"
     },
@@ -881,11 +833,9 @@ export default {
       "masked": "He ate a ____ of bread.",
       "options": [
         "piece-mcq-08",
-        "piece-mcq-07",
         "piece-mcq-09",
-        "piece-mcq-06",
-        "piece-mcq-10",
-        "piece-mcq-05"
+        "piece-mcq-15",
+        "piece-mcq-04"
       ],
       "explanation": "本句的「piece」指「從食物整體切開／分出的一部分」。",
       "sentenceIndex": 15,
@@ -894,12 +844,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-08": "本句指「從食物整體切開／分出的一部分」。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-05": "「一首／一段完整的音樂作品」是「piece — music」的用法，與本句語境不同。"
+        "piece-mcq-08": "本句的「piece」指「從食物整體切開／分出的一部分」。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-08"
     },
@@ -911,11 +859,9 @@ export default {
       "masked": "Move your ____ forward two spaces.",
       "options": [
         "piece-mcq-09",
-        "piece-mcq-08",
+        "piece-mcq-04",
         "piece-mcq-10",
-        "piece-mcq-07",
-        "piece-mcq-11",
-        "piece-mcq-06"
+        "piece-mcq-08"
       ],
       "explanation": "本句的「piece」指「棋盤遊戲中可移動的一個單位」。",
       "sentenceIndex": 16,
@@ -924,12 +870,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-09": "本句指「棋盤遊戲中可移動的一個單位」。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-09": "本句的「piece」指「棋盤遊戲中可移動的一個單位」。",
+        "piece-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-09"
     },
@@ -941,11 +885,9 @@ export default {
       "masked": "One chess ____ was missing.",
       "options": [
         "piece-mcq-09",
-        "piece-mcq-08",
-        "piece-mcq-10",
+        "piece-reviewed-7b23dd5a52",
         "piece-mcq-07",
-        "piece-mcq-11",
-        "piece-mcq-06"
+        "piece-mcq-16"
       ],
       "explanation": "本句的「piece」指「棋盤遊戲中可移動的一個單位」。",
       "sentenceIndex": 17,
@@ -954,12 +896,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-09": "本句指「棋盤遊戲中可移動的一個單位」。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-06": "「一篇獨立的文章、評論或文字作品」是「piece — writing」的用法，與本句語境不同。"
+        "piece-mcq-09": "本句的「piece」指「棋盤遊戲中可移動的一個單位」。",
+        "piece-reviewed-7b23dd5a52": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-09"
     },
@@ -971,11 +911,9 @@ export default {
       "masked": "This small ____ belongs to the frame.",
       "options": [
         "piece-mcq-10",
-        "piece-mcq-09",
+        "piece-mcq-13",
         "piece-mcq-11",
-        "piece-mcq-08",
-        "piece-mcq-12",
-        "piece-mcq-07"
+        "piece-mcq-15"
       ],
       "explanation": "本句的「piece」指「機械、設備或物件中的一個組成部件」。",
       "sentenceIndex": 18,
@@ -984,12 +922,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-10": "本句指「機械、設備或物件中的一個組成部件」。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。"
+        "piece-mcq-10": "本句的「piece」指「機械、設備或物件中的一個組成部件」。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-10"
     },
@@ -1001,11 +937,9 @@ export default {
       "masked": "Several ____ were missing from the machine.",
       "options": [
         "piece-mcq-10",
-        "piece-mcq-09",
-        "piece-mcq-11",
-        "piece-mcq-08",
         "piece-mcq-12",
-        "piece-mcq-07"
+        "piece-mcq-15",
+        "piece-mcq-13"
       ],
       "explanation": "本句的「pieces」指「機械、設備或物件中的一個組成部件」。",
       "sentenceIndex": 19,
@@ -1014,12 +948,10 @@ export default {
         "pieces"
       ],
       "optionReasons": {
-        "piece-mcq-10": "本句指「機械、設備或物件中的一個組成部件」。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-07": "「一個獨立的舞蹈／表演作品」是「piece — performance」的用法，與本句語境不同。"
+        "piece-mcq-10": "本句的「pieces」指「機械、設備或物件中的一個組成部件」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-10"
     },
@@ -1031,11 +963,9 @@ export default {
       "masked": "That chair is a beautiful ____.",
       "options": [
         "piece-pdf-001",
-        "piece-mcq-10",
-        "piece-mcq-12",
-        "piece-mcq-09",
-        "piece-mcq-13",
-        "piece-mcq-08"
+        "piece-mcq-15",
+        "piece-mcq-08",
+        "piece-mcq-11"
       ],
       "explanation": "本句的「piece of furniture」指「一件某類物品」。",
       "sentenceIndex": 20,
@@ -1044,12 +974,10 @@ export default {
         "piece of furniture"
       ],
       "optionReasons": {
-        "piece-pdf-001": "本句指「一件某類物品」。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。"
+        "piece-pdf-001": "本句的「piece of furniture」指「一件某類物品」。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-pdf-001"
     },
@@ -1061,11 +989,9 @@ export default {
       "masked": "This is an expensive ____ of equipment.",
       "options": [
         "piece-pdf-001",
-        "piece-mcq-10",
-        "piece-mcq-12",
-        "piece-mcq-09",
-        "piece-mcq-13",
-        "piece-mcq-08"
+        "piece-mcq-14",
+        "piece-mcq-02",
+        "piece-mcq-12"
       ],
       "explanation": "本句的「piece」指「一件某類物品」。",
       "sentenceIndex": 21,
@@ -1074,12 +1000,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-pdf-001": "本句指「一件某類物品」。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。"
+        "piece-pdf-001": "本句的「piece」指「一件某類物品」。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-pdf-001"
     },
@@ -1091,11 +1015,9 @@ export default {
       "masked": "The police found an important ____.",
       "options": [
         "piece-mcq-11",
-        "piece-mcq-10",
-        "piece-mcq-12",
-        "piece-mcq-09",
-        "piece-mcq-13",
-        "piece-mcq-08"
+        "piece-pdf-001",
+        "piece-mcq-14",
+        "piece-mcq-01"
       ],
       "explanation": "本句的「piece of evidence」指「一項個別證據／資訊」。",
       "sentenceIndex": 22,
@@ -1104,12 +1026,10 @@ export default {
         "piece of evidence"
       ],
       "optionReasons": {
-        "piece-mcq-11": "本句指「一項個別證據／資訊」。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。"
+        "piece-mcq-11": "本句的「piece of evidence」指「一項個別證據／資訊」。",
+        "piece-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-11"
     },
@@ -1122,10 +1042,8 @@ export default {
       "options": [
         "piece-mcq-11",
         "piece-mcq-10",
-        "piece-mcq-12",
-        "piece-mcq-09",
-        "piece-mcq-13",
-        "piece-mcq-08"
+        "piece-mcq-08",
+        "piece-mcq-15"
       ],
       "explanation": "本句的「piece」指「一項個別證據／資訊」。",
       "sentenceIndex": 23,
@@ -1134,12 +1052,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-11": "本句指「一項個別證據／資訊」。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-08": "「從食物整體切開／分出的一部分」是「piece — food」的用法，與本句語境不同。"
+        "piece-mcq-11": "本句的「piece」指「一項個別證據／資訊」。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-11"
     },
@@ -1151,11 +1067,9 @@ export default {
       "masked": "That is only one ____ of the story.",
       "options": [
         "piece-mcq-17",
-        "piece-mcq-16",
-        "piece-mcq-15",
-        "piece-mcq-14",
         "piece-mcq-13",
-        "piece-mcq-12"
+        "piece-mcq-12",
+        "piece-mcq-15"
       ],
       "explanation": "本句的「piece」指「構成整體理解或事件的一個部分」。",
       "sentenceIndex": 24,
@@ -1164,12 +1078,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-17": "本句指「構成整體理解或事件的一個部分」。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-17": "本句的「piece」指「構成整體理解或事件的一個部分」。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-17"
     },
@@ -1181,11 +1093,9 @@ export default {
       "masked": "We are still missing an important ____ of the puzzle.",
       "options": [
         "piece-mcq-17",
-        "piece-mcq-16",
+        "piece-mcq-11",
         "piece-mcq-15",
-        "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-12"
+        "piece-mcq-07"
       ],
       "explanation": "本句的「piece」指「構成整體理解或事件的一個部分」。",
       "sentenceIndex": 25,
@@ -1194,12 +1104,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-17": "本句指「構成整體理解或事件的一個部分」。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-17": "本句的「piece」指「構成整體理解或事件的一個部分」。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-17"
     },
@@ -1211,11 +1119,9 @@ export default {
       "masked": "I found the last ____ of the puzzle.",
       "options": [
         "piece-mcq-12",
-        "piece-mcq-11",
-        "piece-mcq-13",
         "piece-mcq-10",
-        "piece-mcq-14",
-        "piece-mcq-09"
+        "piece-mcq-09",
+        "piece-mcq-05"
       ],
       "explanation": "本句的「piece」指「拼圖中的一小塊」。",
       "sentenceIndex": 26,
@@ -1224,12 +1130,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-12": "本句指「拼圖中的一小塊」。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。"
+        "piece-mcq-12": "本句的「piece」指「拼圖中的一小塊」。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-12"
     },
@@ -1241,11 +1145,9 @@ export default {
       "masked": "Two ____ do not fit together.",
       "options": [
         "piece-mcq-12",
-        "piece-mcq-11",
-        "piece-mcq-13",
         "piece-mcq-10",
-        "piece-mcq-14",
-        "piece-mcq-09"
+        "piece-mcq-15",
+        "piece-mcq-14"
       ],
       "explanation": "本句的「pieces」指「拼圖中的一小塊」。",
       "sentenceIndex": 27,
@@ -1254,12 +1156,10 @@ export default {
         "pieces"
       ],
       "optionReasons": {
-        "piece-mcq-12": "本句指「拼圖中的一小塊」。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-09": "「棋盤遊戲中可移動的一個單位」是「piece — game」的用法，與本句語境不同。"
+        "piece-mcq-12": "本句的「pieces」指「拼圖中的一小塊」。",
+        "piece-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-12"
     },
@@ -1271,11 +1171,9 @@ export default {
       "masked": "He found an old gold ____.",
       "options": [
         "piece-mcq-13",
-        "piece-mcq-12",
+        "piece-mcq-07",
         "piece-mcq-14",
-        "piece-mcq-11",
-        "piece-mcq-15",
-        "piece-mcq-10"
+        "piece-mcq-09"
       ],
       "explanation": "本句的「piece」指「某種面值或材質的一枚硬幣」。",
       "sentenceIndex": 28,
@@ -1284,12 +1182,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-13": "本句指「某種面值或材質的一枚硬幣」。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。"
+        "piece-mcq-13": "本句的「piece」指「某種面值或材質的一枚硬幣」。",
+        "piece-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-13"
     },
@@ -1301,11 +1197,9 @@ export default {
       "masked": "A fifty-cent ____ rolled under the table.",
       "options": [
         "piece-mcq-13",
-        "piece-mcq-12",
+        "piece-pdf-001",
         "piece-mcq-14",
-        "piece-mcq-11",
-        "piece-mcq-15",
-        "piece-mcq-10"
+        "piece-mcq-11"
       ],
       "explanation": "本句的「piece」指「某種面值或材質的一枚硬幣」。",
       "sentenceIndex": 29,
@@ -1314,12 +1208,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-13": "本句指「某種面值或材質的一枚硬幣」。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-10": "「機械、設備或物件中的一個組成部件」是「piece — component」的用法，與本句語境不同。"
+        "piece-mcq-13": "本句的「piece」指「某種面值或材質的一枚硬幣」。",
+        "piece-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-13"
     },
@@ -1331,11 +1223,9 @@ export default {
       "masked": "The police found a ____ in the car.",
       "options": [
         "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-15",
-        "piece-mcq-12",
-        "piece-mcq-16",
-        "piece-mcq-11"
+        "piece-mcq-08",
+        "piece-pdf-001",
+        "piece-mcq-09"
       ],
       "explanation": "本句的「piece」指「非正式俚語中的槍械」。",
       "sentenceIndex": 30,
@@ -1344,12 +1234,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-14": "本句指「非正式俚語中的槍械」。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。"
+        "piece-mcq-14": "本句的「piece」指「非正式俚語中的槍械」。",
+        "piece-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "piece-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-14"
     },
@@ -1361,10 +1249,8 @@ export default {
       "masked": "He was carrying a ____.",
       "options": [
         "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-15",
-        "piece-mcq-12",
-        "piece-mcq-16",
+        "piece-pdf-001",
+        "piece-reviewed-7b23dd5a52",
         "piece-mcq-11"
       ],
       "explanation": "本句的「piece」指「非正式俚語中的槍械」。",
@@ -1374,12 +1260,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-14": "本句指「非正式俚語中的槍械」。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-11": "「一項個別證據／資訊」是「piece of evidence/information」的用法，與本句語境不同。"
+        "piece-mcq-14": "本句的「piece」指「非正式俚語中的槍械」。",
+        "piece-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "piece-reviewed-7b23dd5a52": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-14"
     },
@@ -1391,11 +1275,9 @@ export default {
       "masked": "The painting arrived ____.",
       "options": [
         "piece-mcq-15",
-        "piece-mcq-14",
-        "piece-mcq-16",
-        "piece-mcq-13",
-        "piece-mcq-17",
-        "piece-mcq-12"
+        "piece-mcq-05",
+        "piece-mcq-12",
+        "piece-mcq-16"
       ],
       "explanation": "本句的「in one piece」指「沒有破損；人則指安全無恙」。",
       "sentenceIndex": 32,
@@ -1404,12 +1286,10 @@ export default {
         "in one piece"
       ],
       "optionReasons": {
-        "piece-mcq-15": "本句指「沒有破損；人則指安全無恙」。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-15": "本句的「in one piece」指「沒有破損；人則指安全無恙」。",
+        "piece-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-15"
     },
@@ -1421,11 +1301,9 @@ export default {
       "masked": "We were relieved to get home in one ____.",
       "options": [
         "piece-mcq-15",
-        "piece-mcq-14",
-        "piece-mcq-16",
-        "piece-mcq-13",
+        "piece-mcq-12",
         "piece-mcq-17",
-        "piece-mcq-12"
+        "piece-mcq-04"
       ],
       "explanation": "本句的「piece」指「沒有破損；人則指安全無恙」。",
       "sentenceIndex": 33,
@@ -1434,74 +1312,68 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-15": "本句指「沒有破損；人則指安全無恙」。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-15": "本句的「piece」指「沒有破損；人則指安全無恙」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-15"
     },
     {
       "id": "piece-20-0",
-      "sense": "piece-mcq-15",
+      "sense": "piece-reviewed-7b23dd5a52",
       "en": "The glass fell and broke to pieces.",
       "zh": "玻璃掉下來摔得粉碎。",
       "masked": "The glass fell and broke ____.",
       "options": [
-        "piece-mcq-15",
+        "piece-reviewed-7b23dd5a52",
         "piece-mcq-14",
-        "piece-mcq-16",
-        "piece-mcq-13",
-        "piece-mcq-17",
-        "piece-mcq-12"
+        "piece-mcq-12",
+        "piece-mcq-06"
       ],
-      "explanation": "本句的「to pieces」指「沒有破損；人則指安全無恙」。",
+      "explanation": "對照完整句子：「玻璃掉下來摔得粉碎。」。這裡的「to pieces」表示「分裂成很多碎片；完全破碎」。",
       "sentenceIndex": 34,
       "sourcePractice": 35,
       "targets": [
         "to pieces"
       ],
       "optionReasons": {
-        "piece-mcq-15": "本句指「沒有破損；人則指安全無恙」。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-reviewed-7b23dd5a52": "對照完整句子：「玻璃掉下來摔得粉碎。」。這裡的「to pieces」表示「分裂成很多碎片；完全破碎」。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "piece-mcq-15"
+      "correctOption": "piece-reviewed-7b23dd5a52",
+      "previousCorrectOption": "piece-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "piece-20-1",
-      "sense": "piece-mcq-15",
+      "sense": "piece-reviewed-7b23dd5a52",
       "en": "The old paper was falling to pieces.",
       "zh": "那張舊紙已經破爛不堪。",
       "masked": "The old paper was falling to ____.",
       "options": [
-        "piece-mcq-15",
-        "piece-mcq-14",
-        "piece-mcq-16",
-        "piece-mcq-13",
-        "piece-mcq-17",
-        "piece-mcq-12"
+        "piece-reviewed-7b23dd5a52",
+        "piece-mcq-12",
+        "piece-mcq-03",
+        "piece-mcq-13"
       ],
-      "explanation": "本句的「pieces」指「沒有破損；人則指安全無恙」。",
+      "explanation": "對照完整句子：「那張舊紙已經破爛不堪。」。這裡的「pieces」表示「分裂成很多碎片；完全破碎」。",
       "sentenceIndex": 35,
       "sourcePractice": 36,
       "targets": [
         "pieces"
       ],
       "optionReasons": {
-        "piece-mcq-15": "本句指「沒有破損；人則指安全無恙」。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-16": "「把整件事拆成小部分逐步處理」是「piece by piece」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-reviewed-7b23dd5a52": "對照完整句子：「那張舊紙已經破爛不堪。」。這裡的「pieces」表示「分裂成很多碎片；完全破碎」。",
+        "piece-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "piece-mcq-15"
+      "correctOption": "piece-reviewed-7b23dd5a52",
+      "previousCorrectOption": "piece-mcq-15",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "piece-21-0",
@@ -1511,11 +1383,9 @@ export default {
       "masked": "They restored the painting ____.",
       "options": [
         "piece-mcq-16",
-        "piece-mcq-15",
-        "piece-mcq-17",
+        "piece-mcq-11",
         "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-12"
+        "piece-mcq-15"
       ],
       "explanation": "本句的「piece by piece」指「把整件事拆成小部分逐步處理」。",
       "sentenceIndex": 36,
@@ -1524,12 +1394,10 @@ export default {
         "piece by piece"
       ],
       "optionReasons": {
-        "piece-mcq-16": "本句指「把整件事拆成小部分逐步處理」。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-16": "本句的「piece by piece」指「把整件事拆成小部分逐步處理」。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-16"
     },
@@ -1541,11 +1409,9 @@ export default {
       "masked": "The story was revealed ____ by piece.",
       "options": [
         "piece-mcq-16",
-        "piece-mcq-15",
-        "piece-mcq-17",
+        "piece-mcq-11",
         "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-12"
+        "piece-mcq-09"
       ],
       "explanation": "本句的「piece」指「把整件事拆成小部分逐步處理」。",
       "sentenceIndex": 37,
@@ -1554,12 +1420,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-16": "本句指「把整件事拆成小部分逐步處理」。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-16": "本句的「piece」指「把整件事拆成小部分逐步處理」。",
+        "piece-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-16"
     },
@@ -1571,11 +1435,9 @@ export default {
       "masked": "That sculpture is an impressive ____.",
       "options": [
         "piece-mcq-16",
-        "piece-mcq-15",
-        "piece-mcq-17",
         "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-12"
+        "piece-mcq-07",
+        "piece-mcq-09"
       ],
       "explanation": "本句的「piece of work」指「把整件事拆成小部分逐步處理」。",
       "sentenceIndex": 38,
@@ -1584,12 +1446,10 @@ export default {
         "piece of work"
       ],
       "optionReasons": {
-        "piece-mcq-16": "本句指「把整件事拆成小部分逐步處理」。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-16": "本句的「piece of work」指「把整件事拆成小部分逐步處理」。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-16"
     },
@@ -1601,11 +1461,9 @@ export default {
       "masked": "He is a real ____ of work.",
       "options": [
         "piece-mcq-16",
-        "piece-mcq-15",
-        "piece-mcq-17",
+        "piece-mcq-06",
         "piece-mcq-14",
-        "piece-mcq-13",
-        "piece-mcq-12"
+        "piece-mcq-09"
       ],
       "explanation": "本句的「piece」指「把整件事拆成小部分逐步處理」。",
       "sentenceIndex": 39,
@@ -1614,12 +1472,10 @@ export default {
         "piece"
       ],
       "optionReasons": {
-        "piece-mcq-16": "本句指「把整件事拆成小部分逐步處理」。",
-        "piece-mcq-15": "「沒有破損；人則指安全無恙」是「in one piece」的用法，與本句語境不同。",
-        "piece-mcq-17": "「構成整體理解或事件的一個部分」是「13. piece = part of a whole idea/story — 一段；一部分」的用法，與本句語境不同。",
-        "piece-mcq-14": "「非正式俚語中的槍械」是「piece — slang」的用法，與本句語境不同。",
-        "piece-mcq-13": "「某種面值或材質的一枚硬幣」是「piece — coin」的用法，與本句語境不同。",
-        "piece-mcq-12": "「拼圖中的一小塊」是「piece — puzzle」的用法，與本句語境不同。"
+        "piece-mcq-16": "本句的「piece」指「把整件事拆成小部分逐步處理」。",
+        "piece-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "piece-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "piece-mcq-16"
     }
@@ -1631,5 +1487,7 @@ export default {
     "sha256": "d497d5494b97434e68c31bf7c240ab1fa5050859134d2ba5d707e551995ffd10",
     "pages": 19
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

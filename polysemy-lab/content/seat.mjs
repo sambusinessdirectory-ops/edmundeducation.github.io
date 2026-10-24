@@ -218,11 +218,7 @@ export default {
       "masked": "He asked whether the ____ beside me was free.",
       "options": [
         "seat-mcq-01",
-        "seat-mcq-02",
-        "seat-mcq-03",
-        "seat-mcq-04",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seat」指「供一個人坐下的指定位置或座位」。",
       "sentenceIndex": 0,
@@ -231,12 +227,8 @@ export default {
         "seat"
       ],
       "optionReasons": {
-        "seat-mcq-01": "本句指「供一個人坐下的指定位置或座位」。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-01": "本句的「seat」指「供一個人坐下的指定位置或座位」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-01"
     },
@@ -248,11 +240,7 @@ export default {
       "masked": "There were no empty ____ on the train.",
       "options": [
         "seat-mcq-01",
-        "seat-mcq-02",
-        "seat-mcq-03",
-        "seat-mcq-04",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seats」指「供一個人坐下的指定位置或座位」。",
       "sentenceIndex": 1,
@@ -261,12 +249,8 @@ export default {
         "seats"
       ],
       "optionReasons": {
-        "seat-mcq-01": "本句指「供一個人坐下的指定位置或座位」。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-01": "本句的「seats」指「供一個人坐下的指定位置或座位」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-01"
     },
@@ -278,11 +262,7 @@ export default {
       "masked": "Please take a ____ near the front.",
       "options": [
         "seat-mcq-01",
-        "seat-mcq-02",
-        "seat-mcq-03",
-        "seat-mcq-04",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seat」指「供一個人坐下的指定位置或座位」。",
       "sentenceIndex": 2,
@@ -291,12 +271,8 @@ export default {
         "seat"
       ],
       "optionReasons": {
-        "seat-mcq-01": "本句指「供一個人坐下的指定位置或座位」。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-01": "本句的「seat」指「供一個人坐下的指定位置或座位」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-01"
     },
@@ -308,11 +284,8 @@ export default {
       "masked": "The ____ of the chair was made of wood.",
       "options": [
         "seat-mcq-02",
-        "seat-mcq-01",
-        "seat-mcq-03",
         "seat-mcq-04",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "seat-mcq-03"
       ],
       "explanation": "本句的「seat」指「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」。",
       "sentenceIndex": 3,
@@ -321,12 +294,9 @@ export default {
         "seat"
       ],
       "optionReasons": {
-        "seat-mcq-02": "本句指「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」。",
-        "seat-mcq-01": "「供一個人坐下的指定位置或座位」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-02": "本句的「seat」指「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」。",
+        "seat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "seat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-02"
     },
@@ -338,11 +308,8 @@ export default {
       "masked": "The bicycle ____ was too high for me.",
       "options": [
         "seat-mcq-02",
-        "seat-mcq-01",
-        "seat-mcq-03",
         "seat-mcq-04",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "seat-mcq-03"
       ],
       "explanation": "本句的「seat」指「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」。",
       "sentenceIndex": 4,
@@ -351,12 +318,9 @@ export default {
         "seat"
       ],
       "optionReasons": {
-        "seat-mcq-02": "本句指「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」。",
-        "seat-mcq-01": "「供一個人坐下的指定位置或座位」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-02": "本句的「seat」指「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」。",
+        "seat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "seat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-02"
     },
@@ -368,11 +332,8 @@ export default {
       "masked": "The party won three additional ____ in the election.",
       "options": [
         "seat-mcq-03",
-        "seat-mcq-02",
         "seat-mcq-04",
-        "seat-mcq-01",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "seat-mcq-02"
       ],
       "explanation": "本句的「seats」指「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」。",
       "sentenceIndex": 5,
@@ -381,12 +342,9 @@ export default {
         "seats"
       ],
       "optionReasons": {
-        "seat-mcq-03": "本句指「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-01": "「供一個人坐下的指定位置或座位」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-03": "本句的「seats」指「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」。",
+        "seat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "seat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-03"
     },
@@ -398,11 +356,8 @@ export default {
       "masked": "She has held a ____ on the council for six years.",
       "options": [
         "seat-mcq-03",
-        "seat-mcq-02",
         "seat-mcq-04",
-        "seat-mcq-01",
-        "seat-mcq-05",
-        "seat-mcq-06"
+        "seat-mcq-02"
       ],
       "explanation": "本句的「seat」指「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」。",
       "sentenceIndex": 6,
@@ -411,12 +366,9 @@ export default {
         "seat"
       ],
       "optionReasons": {
-        "seat-mcq-03": "本句指「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-01": "「供一個人坐下的指定位置或座位」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。"
+        "seat-mcq-03": "本句的「seat」指「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」。",
+        "seat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "seat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-03"
     },
@@ -428,11 +380,8 @@ export default {
       "masked": "The city became the ____.",
       "options": [
         "seat-mcq-04",
-        "seat-mcq-03",
-        "seat-mcq-05",
         "seat-mcq-02",
-        "seat-mcq-06",
-        "seat-mcq-01"
+        "seat-mcq-03"
       ],
       "explanation": "本句的「seat of government」指「某種政府、權力、學術或重要活動集中和運作的所在地／中心」。",
       "sentenceIndex": 7,
@@ -441,12 +390,9 @@ export default {
         "seat of government"
       ],
       "optionReasons": {
-        "seat-mcq-04": "本句指「某種政府、權力、學術或重要活動集中和運作的所在地／中心」。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-01": "「供一個人坐下的指定位置或座位」與本句語境不同。"
+        "seat-mcq-04": "本句的「seat of government」指「某種政府、權力、學術或重要活動集中和運作的所在地／中心」。",
+        "seat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "seat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-04"
     },
@@ -459,10 +405,7 @@ export default {
       "options": [
         "seat-mcq-04",
         "seat-mcq-03",
-        "seat-mcq-05",
-        "seat-mcq-02",
-        "seat-mcq-06",
-        "seat-mcq-01"
+        "seat-mcq-02"
       ],
       "explanation": "本句的「seat of learning」指「某種政府、權力、學術或重要活動集中和運作的所在地／中心」。",
       "sentenceIndex": 8,
@@ -471,12 +414,9 @@ export default {
         "seat of learning"
       ],
       "optionReasons": {
-        "seat-mcq-04": "本句指「某種政府、權力、學術或重要活動集中和運作的所在地／中心」。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-01": "「供一個人坐下的指定位置或座位」與本句語境不同。"
+        "seat-mcq-04": "本句的「seat of learning」指「某種政府、權力、學術或重要活動集中和運作的所在地／中心」。",
+        "seat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "seat-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-04"
     },
@@ -488,11 +428,7 @@ export default {
       "masked": "The waiter ____ us near the window.",
       "options": [
         "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-06",
-        "seat-mcq-03",
-        "seat-mcq-07",
-        "seat-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seated」指「安排某人坐在指定位置或給某人安排座位」。",
       "sentenceIndex": 9,
@@ -501,12 +437,8 @@ export default {
         "seated"
       ],
       "optionReasons": {
-        "seat-mcq-05": "本句指「安排某人坐在指定位置或給某人安排座位」。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。"
+        "seat-mcq-05": "本句的「seated」指「安排某人坐在指定位置或給某人安排座位」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-05"
     },
@@ -518,11 +450,7 @@ export default {
       "masked": "Guests were ____ according to the seating plan.",
       "options": [
         "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-06",
-        "seat-mcq-03",
-        "seat-mcq-07",
-        "seat-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seated」指「安排某人坐在指定位置或給某人安排座位」。",
       "sentenceIndex": 10,
@@ -531,12 +459,8 @@ export default {
         "seated"
       ],
       "optionReasons": {
-        "seat-mcq-05": "本句指「安排某人坐在指定位置或給某人安排座位」。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-02": "「椅子、車輛或其他坐具中直接承托身體、供人坐上的部分；與一般座位義高度相關」與本句語境不同。"
+        "seat-mcq-05": "本句的「seated」指「安排某人坐在指定位置或給某人安排座位」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-05"
     },
@@ -548,10 +472,6 @@ export default {
       "masked": "The theatre ____ 800 people.",
       "options": [
         "seat-mcq-06",
-        "seat-mcq-05",
-        "seat-mcq-07",
-        "seat-mcq-04",
-        "seat-mcq-08",
         "seat-mcq-03"
       ],
       "explanation": "本句的「seats」指「某個地方或交通工具可提供足夠座位讓指定人數就座」。",
@@ -561,12 +481,8 @@ export default {
         "seats"
       ],
       "optionReasons": {
-        "seat-mcq-06": "本句指「某個地方或交通工具可提供足夠座位讓指定人數就座」。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-08": "「某場所提供的座位，或座位／人物的排列方式」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-mcq-06": "本句的「seats」指「某個地方或交通工具可提供足夠座位讓指定人數就座」。",
+        "seat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-06"
     },
@@ -578,10 +494,6 @@ export default {
       "masked": "The car can ____ seven passengers.",
       "options": [
         "seat-mcq-06",
-        "seat-mcq-05",
-        "seat-mcq-07",
-        "seat-mcq-04",
-        "seat-mcq-08",
         "seat-mcq-03"
       ],
       "explanation": "本句的「seat」指「某個地方或交通工具可提供足夠座位讓指定人數就座」。",
@@ -591,12 +503,8 @@ export default {
         "seat"
       ],
       "optionReasons": {
-        "seat-mcq-06": "本句指「某個地方或交通工具可提供足夠座位讓指定人數就座」。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-08": "「某場所提供的座位，或座位／人物的排列方式」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-mcq-06": "本句的「seat」指「某個地方或交通工具可提供足夠座位讓指定人數就座」。",
+        "seat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-06"
     },
@@ -608,11 +516,7 @@ export default {
       "masked": "Everyone was already ____ when the speaker arrived.",
       "options": [
         "seat-mcq-07",
-        "seat-mcq-06",
-        "seat-mcq-08",
-        "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seated」指「已坐下或處於座位上的；較正式」。",
       "sentenceIndex": 13,
@@ -621,12 +525,8 @@ export default {
         "seated"
       ],
       "optionReasons": {
-        "seat-mcq-07": "本句指「已坐下或處於座位上的；較正式」。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-08": "「某場所提供的座位，或座位／人物的排列方式」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-mcq-07": "本句的「seated」指「已坐下或處於座位上的；較正式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-07"
     },
@@ -638,11 +538,7 @@ export default {
       "masked": "Please remain ____ until the train stops.",
       "options": [
         "seat-mcq-07",
-        "seat-mcq-06",
-        "seat-mcq-08",
-        "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seated」指「已坐下或處於座位上的；較正式」。",
       "sentenceIndex": 14,
@@ -651,12 +547,8 @@ export default {
         "seated"
       ],
       "optionReasons": {
-        "seat-mcq-07": "本句指「已坐下或處於座位上的；較正式」。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-08": "「某場所提供的座位，或座位／人物的排列方式」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-mcq-07": "本句的「seated」指「已坐下或處於座位上的；較正式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-07"
     },
@@ -668,11 +560,7 @@ export default {
       "masked": "The café has outdoor ____.",
       "options": [
         "seat-mcq-08",
-        "seat-mcq-07",
-        "seat-mcq-06",
-        "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seating」指「某場所提供的座位，或座位／人物的排列方式」。",
       "sentenceIndex": 15,
@@ -681,12 +569,8 @@ export default {
         "seating"
       ],
       "optionReasons": {
-        "seat-mcq-08": "本句指「某場所提供的座位，或座位／人物的排列方式」。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-mcq-08": "本句的「seating」指「某場所提供的座位，或座位／人物的排列方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-08"
     },
@@ -698,11 +582,7 @@ export default {
       "masked": "Additional ____ was added for the event.",
       "options": [
         "seat-mcq-08",
-        "seat-mcq-07",
-        "seat-mcq-06",
-        "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「seating」指「某場所提供的座位，或座位／人物的排列方式」。",
       "sentenceIndex": 16,
@@ -711,12 +591,8 @@ export default {
         "seating"
       ],
       "optionReasons": {
-        "seat-mcq-08": "本句指「某場所提供的座位，或座位／人物的排列方式」。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-mcq-08": "本句的「seating」指「某場所提供的座位，或座位／人物的排列方式」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-mcq-08"
     },
@@ -728,11 +604,7 @@ export default {
       "masked": "The ____ was arranged by family group.",
       "options": [
         "seat-pdf-001",
-        "seat-mcq-07",
-        "seat-mcq-06",
-        "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-03"
+        "seat-mcq-04"
       ],
       "explanation": "本句的「seating」指「座位如何排列，或人物如何被分配到不同座位」。",
       "sentenceIndex": 17,
@@ -741,12 +613,8 @@ export default {
         "seating"
       ],
       "optionReasons": {
-        "seat-pdf-001": "本句指「座位如何排列，或人物如何被分配到不同座位」。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-pdf-001": "本句的「seating」指「座位如何排列，或人物如何被分配到不同座位」。",
+        "seat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-pdf-001"
     },
@@ -758,11 +626,7 @@ export default {
       "masked": "Check the ____ before the dinner begins.",
       "options": [
         "seat-pdf-001",
-        "seat-mcq-07",
-        "seat-mcq-06",
-        "seat-mcq-05",
-        "seat-mcq-04",
-        "seat-mcq-03"
+        "seat-mcq-04"
       ],
       "explanation": "本句的「seating plan」指「座位如何排列，或人物如何被分配到不同座位」。",
       "sentenceIndex": 18,
@@ -771,12 +635,8 @@ export default {
         "seating plan"
       ],
       "optionReasons": {
-        "seat-pdf-001": "本句指「座位如何排列，或人物如何被分配到不同座位」。",
-        "seat-mcq-07": "「已坐下或處於座位上的；較正式」與本句語境不同。",
-        "seat-mcq-06": "「某個地方或交通工具可提供足夠座位讓指定人數就座」與本句語境不同。",
-        "seat-mcq-05": "「安排某人坐在指定位置或給某人安排座位」與本句語境不同。",
-        "seat-mcq-04": "「某種政府、權力、學術或重要活動集中和運作的所在地／中心」與本句語境不同。",
-        "seat-mcq-03": "「在議會、理事會、委員會等正式機構中代表成員身分的一個職位或名額」與本句語境不同。"
+        "seat-pdf-001": "本句的「seating plan」指「座位如何排列，或人物如何被分配到不同座位」。",
+        "seat-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "seat-pdf-001"
     }
@@ -788,5 +648,12 @@ export default {
     "sha256": "cbfb25eb7eb3e5f4135bca575d380c75d3be31c756c02a82235a9da44b486687",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

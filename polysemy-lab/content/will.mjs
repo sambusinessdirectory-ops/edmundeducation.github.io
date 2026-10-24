@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "will-mcq-01",
-      "title": "表示說話者預期／相信某件事情將在未來發生",
+      "title": "說話者預期／相信某件事情將在未來發生",
       "form": "will — future prediction",
       "en": "will — future prediction",
       "zh": "表示說話者預期／相信某件事情將在未來發生",
@@ -34,7 +34,7 @@ export default {
     },
     {
       "id": "will-mcq-02",
-      "title": "表示按時間、安排或自然發展將在未來成立",
+      "title": "按時間、安排或自然發展將在未來成立",
       "form": "will — future fact",
       "en": "will — future fact",
       "zh": "表示按時間、安排或自然發展將在未來成立",
@@ -220,7 +220,7 @@ export default {
     },
     {
       "id": "will-mcq-10",
-      "title": "表示某人／某物典型、反覆出現的行為或傾向",
+      "title": "某人／某物典型、反覆出現的行為或傾向",
       "form": "will — habitual tendency",
       "en": "will — habitual tendency",
       "zh": "表示某人／某物典型、反覆出現的行為或傾向",
@@ -626,7 +626,7 @@ export default {
     },
     {
       "id": "will-mcq-28",
-      "title": "表示某條件下自然／必然出現的結果",
+      "title": "某條件下自然／必然出現的結果",
       "form": "14. will = inevitable result（自然會；必然會） — 會；必然",
       "en": "14. will = inevitable result（自然會；必然會） — 會；必然",
       "zh": "表示某條件下自然／必然出現的結果",
@@ -648,7 +648,7 @@ export default {
     },
     {
       "id": "will-mcq-29",
-      "title": "表示不再有足夠決心／動力繼續",
+      "title": "不再有足夠決心／動力繼續",
       "form": "19. lose the will to do something（失去做某事的意欲／意志） — 失去動力",
       "en": "19. lose the will to do something（失去做某事的意欲／意志） — 失去動力",
       "zh": "表示不再有足夠決心／動力繼續",
@@ -766,11 +766,9 @@ export default {
       "masked": "One day these visits ____.",
       "options": [
         "will-mcq-01",
-        "will-mcq-02",
-        "will-mcq-03",
-        "will-mcq-04",
+        "will-mcq-11",
         "will-mcq-05",
-        "will-mcq-06"
+        "will-mcq-18"
       ],
       "explanation": "本句的「will become memories」指「表示說話者預期／相信某件事情將在未來發生」。",
       "sentenceIndex": 0,
@@ -779,12 +777,10 @@ export default {
         "will become memories"
       ],
       "optionReasons": {
-        "will-mcq-01": "本句指「表示說話者預期／相信某件事情將在未來發生」。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-01": "本句的「will become memories」指「表示說話者預期／相信某件事情將在未來發生」。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-01"
     },
@@ -796,11 +792,9 @@ export default {
       "masked": "The weather ____ tomorrow.",
       "options": [
         "will-mcq-01",
-        "will-mcq-02",
-        "will-mcq-03",
-        "will-mcq-04",
-        "will-mcq-05",
-        "will-mcq-06"
+        "will-mcq-06",
+        "will-mcq-18",
+        "will-mcq-11"
       ],
       "explanation": "本句的「will improve」指「表示說話者預期／相信某件事情將在未來發生」。",
       "sentenceIndex": 1,
@@ -809,12 +803,10 @@ export default {
         "will improve"
       ],
       "optionReasons": {
-        "will-mcq-01": "本句指「表示說話者預期／相信某件事情將在未來發生」。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-01": "本句的「will improve」指「表示說話者預期／相信某件事情將在未來發生」。",
+        "will-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-01"
     },
@@ -826,11 +818,9 @@ export default {
       "masked": "She ____ before six.",
       "options": [
         "will-mcq-01",
-        "will-mcq-02",
-        "will-mcq-03",
-        "will-mcq-04",
-        "will-mcq-05",
-        "will-mcq-06"
+        "will-mcq-17",
+        "will-mcq-11",
+        "will-mcq-24"
       ],
       "explanation": "本句的「will probably arrive」指「表示說話者預期／相信某件事情將在未來發生」。",
       "sentenceIndex": 2,
@@ -839,12 +829,10 @@ export default {
         "will probably arrive"
       ],
       "optionReasons": {
-        "will-mcq-01": "本句指「表示說話者預期／相信某件事情將在未來發生」。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-01": "本句的「will probably arrive」指「表示說話者預期／相信某件事情將在未來發生」。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-01"
     },
@@ -856,11 +844,9 @@ export default {
       "masked": "She ____ next year.",
       "options": [
         "will-mcq-02",
-        "will-mcq-01",
-        "will-mcq-03",
-        "will-mcq-04",
         "will-mcq-05",
-        "will-mcq-06"
+        "will-mcq-11",
+        "will-pdf-002"
       ],
       "explanation": "本句的「will be eighty」指「表示按時間、安排或自然發展將在未來成立」。",
       "sentenceIndex": 3,
@@ -869,12 +855,10 @@ export default {
         "will be eighty"
       ],
       "optionReasons": {
-        "will-mcq-02": "本句指「表示按時間、安排或自然發展將在未來成立」。",
-        "will-mcq-01": "「表示說話者預期／相信某件事情將在未來發生」是「will — future prediction」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-02": "本句的「will be eighty」指「表示按時間、安排或自然發展將在未來成立」。",
+        "will-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-02"
     },
@@ -886,11 +870,9 @@ export default {
       "masked": "The meeting ____ at nine.",
       "options": [
         "will-mcq-02",
-        "will-mcq-01",
-        "will-mcq-03",
-        "will-mcq-04",
-        "will-mcq-05",
-        "will-mcq-06"
+        "will-mcq-13",
+        "will-mcq-16",
+        "will-mcq-11"
       ],
       "explanation": "本句的「will begin」指「表示按時間、安排或自然發展將在未來成立」。",
       "sentenceIndex": 4,
@@ -899,12 +881,10 @@ export default {
         "will begin"
       ],
       "optionReasons": {
-        "will-mcq-02": "本句指「表示按時間、安排或自然發展將在未來成立」。",
-        "will-mcq-01": "「表示說話者預期／相信某件事情將在未來發生」是「will — future prediction」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-02": "本句的「will begin」指「表示按時間、安排或自然發展將在未來成立」。",
+        "will-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-02"
     },
@@ -916,11 +896,9 @@ export default {
       "masked": "The phone is ringing. I’____ it.",
       "options": [
         "will-mcq-03",
-        "will-mcq-02",
-        "will-mcq-04",
-        "will-mcq-01",
-        "will-mcq-05",
-        "will-mcq-06"
+        "will-pdf-002",
+        "will-mcq-22",
+        "will-mcq-12"
       ],
       "explanation": "本句的「ll answer」指「在說話當刻立即決定自己接下來要做某事」。",
       "sentenceIndex": 5,
@@ -929,12 +907,10 @@ export default {
         "ll answer"
       ],
       "optionReasons": {
-        "will-mcq-03": "本句指「在說話當刻立即決定自己接下來要做某事」。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-01": "「表示說話者預期／相信某件事情將在未來發生」是「will — future prediction」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-03": "本句的「ll answer」指「在說話當刻立即決定自己接下來要做某事」。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-03"
     },
@@ -946,11 +922,9 @@ export default {
       "masked": "I’____ the blue one.",
       "options": [
         "will-mcq-03",
-        "will-mcq-02",
-        "will-mcq-04",
-        "will-mcq-01",
-        "will-mcq-05",
-        "will-mcq-06"
+        "will-mcq-10",
+        "will-mcq-15",
+        "will-mcq-11"
       ],
       "explanation": "本句的「ll take」指「在說話當刻立即決定自己接下來要做某事」。",
       "sentenceIndex": 6,
@@ -959,12 +933,10 @@ export default {
         "ll take"
       ],
       "optionReasons": {
-        "will-mcq-03": "本句指「在說話當刻立即決定自己接下來要做某事」。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-01": "「表示說話者預期／相信某件事情將在未來發生」是「will — future prediction」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-03": "本句的「ll take」指「在說話當刻立即決定自己接下來要做某事」。",
+        "will-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-03"
     },
@@ -976,11 +948,9 @@ export default {
       "masked": "I’____ the bags for you.",
       "options": [
         "will-mcq-04",
-        "will-mcq-03",
-        "will-mcq-05",
-        "will-mcq-02",
-        "will-mcq-06",
-        "will-mcq-01"
+        "will-mcq-16",
+        "will-mcq-12",
+        "will-mcq-11"
       ],
       "explanation": "本句的「ll carry」指「主動表示自己願意替別人做某事」。",
       "sentenceIndex": 7,
@@ -989,12 +959,10 @@ export default {
         "ll carry"
       ],
       "optionReasons": {
-        "will-mcq-04": "本句指「主動表示自己願意替別人做某事」。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-01": "「表示說話者預期／相信某件事情將在未來發生」是「will — future prediction」的用法，與本句語境不同。"
+        "will-mcq-04": "本句的「ll carry」指「主動表示自己願意替別人做某事」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-04"
     },
@@ -1006,11 +974,9 @@ export default {
       "masked": "I’____ make the tea.",
       "options": [
         "will-mcq-04",
-        "will-mcq-03",
-        "will-mcq-05",
-        "will-mcq-02",
-        "will-mcq-06",
-        "will-mcq-01"
+        "will-mcq-11",
+        "will-mcq-12",
+        "will-mcq-30"
       ],
       "explanation": "本句的「ll」指「主動表示自己願意替別人做某事」。",
       "sentenceIndex": 8,
@@ -1019,12 +985,10 @@ export default {
         "ll"
       ],
       "optionReasons": {
-        "will-mcq-04": "本句指「主動表示自己願意替別人做某事」。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-01": "「表示說話者預期／相信某件事情將在未來發生」是「will — future prediction」的用法，與本句語境不同。"
+        "will-mcq-04": "本句的「ll」指「主動表示自己願意替別人做某事」。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-04"
     },
@@ -1036,11 +1000,9 @@ export default {
       "masked": "She ____ if you ask her.",
       "options": [
         "will-mcq-05",
-        "will-mcq-04",
-        "will-mcq-06",
-        "will-mcq-03",
-        "will-mcq-07",
-        "will-mcq-02"
+        "will-mcq-02",
+        "will-mcq-12",
+        "will-mcq-16"
       ],
       "explanation": "本句的「will help」指「某人願意／肯選擇進行某項行動」。",
       "sentenceIndex": 9,
@@ -1049,12 +1011,10 @@ export default {
         "will help"
       ],
       "optionReasons": {
-        "will-mcq-05": "本句指「某人願意／肯選擇進行某項行動」。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。"
+        "will-mcq-05": "本句的「will help」指「某人願意／肯選擇進行某項行動」。",
+        "will-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-05"
     },
@@ -1066,10 +1026,8 @@ export default {
       "masked": "He ____ to anyone.",
       "options": [
         "will-mcq-05",
-        "will-mcq-04",
-        "will-mcq-06",
         "will-mcq-03",
-        "will-mcq-07",
+        "will-pdf-002",
         "will-mcq-02"
       ],
       "explanation": "本句的「won’t listen」指「某人願意／肯選擇進行某項行動」。",
@@ -1079,12 +1037,10 @@ export default {
         "won’t listen"
       ],
       "optionReasons": {
-        "will-mcq-05": "本句指「某人願意／肯選擇進行某項行動」。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-02": "「表示按時間、安排或自然發展將在未來成立」是「will — future fact」的用法，與本句語境不同。"
+        "will-mcq-05": "本句的「won’t listen」指「某人願意／肯選擇進行某項行動」。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-05"
     },
@@ -1096,11 +1052,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "will-mcq-06",
-        "will-mcq-05",
-        "will-mcq-07",
-        "will-mcq-04",
-        "will-mcq-08",
-        "will-mcq-03"
+        "will-mcq-11",
+        "will-mcq-19",
+        "will-mcq-30"
       ],
       "explanation": "本句的「won’t apologize」指「某人拒絕、不肯進行某項行動」。",
       "sentenceIndex": 11,
@@ -1109,12 +1063,10 @@ export default {
         "won’t apologize"
       ],
       "optionReasons": {
-        "will-mcq-06": "本句指「某人拒絕、不肯進行某項行動」。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。"
+        "will-mcq-06": "本句的「won’t apologize」指「某人拒絕、不肯進行某項行動」。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-06"
     },
@@ -1126,11 +1078,9 @@ export default {
       "masked": "She ____’t accept any help.",
       "options": [
         "will-mcq-06",
-        "will-mcq-05",
-        "will-mcq-07",
-        "will-mcq-04",
-        "will-mcq-08",
-        "will-mcq-03"
+        "will-mcq-20",
+        "will-mcq-01",
+        "will-pdf-002"
       ],
       "explanation": "本句的「won」指「某人拒絕、不肯進行某項行動」。",
       "sentenceIndex": 12,
@@ -1139,12 +1089,10 @@ export default {
         "won"
       ],
       "optionReasons": {
-        "will-mcq-06": "本句指「某人拒絕、不肯進行某項行動」。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-03": "「在說話當刻立即決定自己接下來要做某事」是「will — spontaneous decision」的用法，與本句語境不同。"
+        "will-mcq-06": "本句的「won」指「某人拒絕、不肯進行某項行動」。",
+        "will-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-06"
     },
@@ -1156,11 +1104,9 @@ export default {
       "masked": "I ____ tonight.",
       "options": [
         "will-mcq-07",
-        "will-mcq-06",
-        "will-mcq-08",
-        "will-mcq-05",
-        "will-mcq-09",
-        "will-mcq-04"
+        "will-mcq-11",
+        "will-mcq-12",
+        "will-mcq-16"
       ],
       "explanation": "本句的「will call you」指「向別人承諾自己未來一定會採取某項行動」。",
       "sentenceIndex": 13,
@@ -1169,12 +1115,10 @@ export default {
         "will call you"
       ],
       "optionReasons": {
-        "will-mcq-07": "本句指「向別人承諾自己未來一定會採取某項行動」。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。"
+        "will-mcq-07": "本句的「will call you」指「向別人承諾自己未來一定會採取某項行動」。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-07"
     },
@@ -1186,11 +1130,9 @@ export default {
       "masked": "I promise I ____.",
       "options": [
         "will-mcq-07",
-        "will-mcq-06",
-        "will-mcq-08",
-        "will-mcq-05",
-        "will-mcq-09",
-        "will-mcq-04"
+        "will-mcq-12",
+        "will-mcq-30",
+        "will-mcq-23"
       ],
       "explanation": "本句的「will help」指「向別人承諾自己未來一定會採取某項行動」。",
       "sentenceIndex": 14,
@@ -1199,12 +1141,10 @@ export default {
         "will help"
       ],
       "optionReasons": {
-        "will-mcq-07": "本句指「向別人承諾自己未來一定會採取某項行動」。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-04": "「主動表示自己願意替別人做某事」是「I’ll… — offer」的用法，與本句語境不同。"
+        "will-mcq-07": "本句的「will help」指「向別人承諾自己未來一定會採取某項行動」。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-07"
     },
@@ -1216,11 +1156,9 @@ export default {
       "masked": "I ____ this today.",
       "options": [
         "will-mcq-08",
-        "will-mcq-07",
-        "will-mcq-09",
-        "will-mcq-06",
-        "will-mcq-10",
-        "will-mcq-05"
+        "will-mcq-12",
+        "will-mcq-30",
+        "will-mcq-11"
       ],
       "explanation": "本句的「will finish」指「強烈表達自己決意要某事發生／完成」。",
       "sentenceIndex": 15,
@@ -1229,12 +1167,10 @@ export default {
         "will finish"
       ],
       "optionReasons": {
-        "will-mcq-08": "本句指「強烈表達自己決意要某事發生／完成」。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。"
+        "will-mcq-08": "本句的「will finish」指「強烈表達自己決意要某事發生／完成」。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-08"
     },
@@ -1246,11 +1182,9 @@ export default {
       "masked": "We ____ not give up.",
       "options": [
         "will-mcq-08",
-        "will-mcq-07",
-        "will-mcq-09",
-        "will-mcq-06",
-        "will-mcq-10",
-        "will-mcq-05"
+        "will-mcq-22",
+        "will-mcq-11",
+        "will-mcq-12"
       ],
       "explanation": "本句的「will」指「強烈表達自己決意要某事發生／完成」。",
       "sentenceIndex": 16,
@@ -1259,12 +1193,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-08": "本句指「強烈表達自己決意要某事發生／完成」。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-05": "「某人願意／肯選擇進行某項行動」是「will — willingness」的用法，與本句語境不同。"
+        "will-mcq-08": "本句的「will」指「強烈表達自己決意要某事發生／完成」。",
+        "will-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-08"
     },
@@ -1276,11 +1208,9 @@ export default {
       "masked": "____",
       "options": [
         "will-mcq-09",
-        "will-mcq-08",
-        "will-mcq-10",
-        "will-mcq-07",
         "will-mcq-11",
-        "will-mcq-06"
+        "will-mcq-17",
+        "will-mcq-01"
       ],
       "explanation": "本句的「Will you help me?」指「詢問／請求對方是否願意替自己做某事」。",
       "sentenceIndex": 17,
@@ -1289,12 +1219,10 @@ export default {
         "Will you help me?"
       ],
       "optionReasons": {
-        "will-mcq-09": "本句指「詢問／請求對方是否願意替自己做某事」。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-09": "本句的「Will you help me?」指「詢問／請求對方是否願意替自己做某事」。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-09"
     },
@@ -1306,11 +1234,9 @@ export default {
       "masked": "____ you close the door?",
       "options": [
         "will-mcq-09",
-        "will-mcq-08",
-        "will-mcq-10",
-        "will-mcq-07",
-        "will-mcq-11",
-        "will-mcq-06"
+        "will-mcq-12",
+        "will-pdf-002",
+        "will-mcq-15"
       ],
       "explanation": "本句的「Will」指「詢問／請求對方是否願意替自己做某事」。",
       "sentenceIndex": 18,
@@ -1319,12 +1245,10 @@ export default {
         "Will"
       ],
       "optionReasons": {
-        "will-mcq-09": "本句指「詢問／請求對方是否願意替自己做某事」。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-09": "本句的「Will」指「詢問／請求對方是否願意替自己做某事」。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-09"
     },
@@ -1336,11 +1260,9 @@ export default {
       "masked": "____",
       "options": [
         "will-mcq-09",
-        "will-mcq-08",
-        "will-mcq-10",
-        "will-mcq-07",
-        "will-mcq-11",
-        "will-mcq-06"
+        "will-mcq-06",
+        "will-mcq-30",
+        "will-mcq-14"
       ],
       "explanation": "本句的「Will you come with us?」指「詢問／請求對方是否願意替自己做某事」。",
       "sentenceIndex": 19,
@@ -1349,12 +1271,10 @@ export default {
         "Will you come with us?"
       ],
       "optionReasons": {
-        "will-mcq-09": "本句指「詢問／請求對方是否願意替自己做某事」。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-09": "本句的「Will you come with us?」指「詢問／請求對方是否願意替自己做某事」。",
+        "will-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-09"
     },
@@ -1366,11 +1286,9 @@ export default {
       "masked": "____ you stay for dinner?",
       "options": [
         "will-mcq-09",
-        "will-mcq-08",
-        "will-mcq-10",
-        "will-mcq-07",
+        "will-mcq-17",
         "will-mcq-11",
-        "will-mcq-06"
+        "will-mcq-12"
       ],
       "explanation": "本句的「Will」指「詢問／請求對方是否願意替自己做某事」。",
       "sentenceIndex": 20,
@@ -1379,12 +1297,10 @@ export default {
         "Will"
       ],
       "optionReasons": {
-        "will-mcq-09": "本句指「詢問／請求對方是否願意替自己做某事」。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-06": "「某人拒絕、不肯進行某項行動」是「won’t — refusal」的用法，與本句語境不同。"
+        "will-mcq-09": "本句的「Will」指「詢問／請求對方是否願意替自己做某事」。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-09"
     },
@@ -1396,11 +1312,9 @@ export default {
       "masked": "Children ____ difficult questions.",
       "options": [
         "will-mcq-10",
+        "will-mcq-01",
         "will-mcq-09",
-        "will-mcq-11",
-        "will-mcq-08",
-        "will-mcq-12",
-        "will-mcq-07"
+        "will-pdf-002"
       ],
       "explanation": "本句的「will ask」指「表示某人／某物典型、反覆出現的行為或傾向」。",
       "sentenceIndex": 21,
@@ -1409,12 +1323,10 @@ export default {
         "will ask"
       ],
       "optionReasons": {
-        "will-mcq-10": "本句指「表示某人／某物典型、反覆出現的行為或傾向」。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。"
+        "will-mcq-10": "本句的「will ask」指「表示某人／某物典型、反覆出現的行為或傾向」。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-10"
     },
@@ -1426,11 +1338,9 @@ export default {
       "masked": "He ____ there for hours reading.",
       "options": [
         "will-mcq-10",
-        "will-mcq-09",
-        "will-mcq-11",
         "will-mcq-08",
-        "will-mcq-12",
-        "will-mcq-07"
+        "will-mcq-30",
+        "will-mcq-29"
       ],
       "explanation": "本句的「will sit」指「表示某人／某物典型、反覆出現的行為或傾向」。",
       "sentenceIndex": 22,
@@ -1439,12 +1349,10 @@ export default {
         "will sit"
       ],
       "optionReasons": {
-        "will-mcq-10": "本句指「表示某人／某物典型、反覆出現的行為或傾向」。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。"
+        "will-mcq-10": "本句的「will sit」指「表示某人／某物典型、反覆出現的行為或傾向」。",
+        "will-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-10"
     },
@@ -1456,11 +1364,9 @@ export default {
       "masked": "Accidents ____.",
       "options": [
         "will-mcq-10",
-        "will-mcq-09",
-        "will-mcq-11",
-        "will-mcq-08",
         "will-mcq-12",
-        "will-mcq-07"
+        "will-mcq-16",
+        "will-mcq-18"
       ],
       "explanation": "本句的「will happen」指「表示某人／某物典型、反覆出現的行為或傾向」。",
       "sentenceIndex": 23,
@@ -1469,12 +1375,10 @@ export default {
         "will happen"
       ],
       "optionReasons": {
-        "will-mcq-10": "本句指「表示某人／某物典型、反覆出現的行為或傾向」。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。"
+        "will-mcq-10": "本句的「will happen」指「表示某人／某物典型、反覆出現的行為或傾向」。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-10"
     },
@@ -1486,11 +1390,9 @@ export default {
       "masked": "People ____ make mistakes.",
       "options": [
         "will-mcq-10",
-        "will-mcq-09",
-        "will-mcq-11",
-        "will-mcq-08",
-        "will-mcq-12",
-        "will-mcq-07"
+        "will-pdf-002",
+        "will-mcq-03",
+        "will-mcq-12"
       ],
       "explanation": "本句的「will」指「表示某人／某物典型、反覆出現的行為或傾向」。",
       "sentenceIndex": 24,
@@ -1499,12 +1401,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-10": "本句指「表示某人／某物典型、反覆出現的行為或傾向」。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-07": "「向別人承諾自己未來一定會採取某項行動」是「will — promise」的用法，與本句語境不同。"
+        "will-mcq-10": "本句的「will」指「表示某人／某物典型、反覆出現的行為或傾向」。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-10"
     },
@@ -1516,11 +1416,9 @@ export default {
       "masked": "That ____ John at the door.",
       "options": [
         "will-mcq-11",
-        "will-mcq-10",
-        "will-mcq-12",
-        "will-mcq-09",
-        "will-mcq-13",
-        "will-mcq-08"
+        "will-mcq-17",
+        "will-mcq-23",
+        "will-mcq-19"
       ],
       "explanation": "本句的「will be」指「根據目前情況作出把握較高的推斷」。",
       "sentenceIndex": 25,
@@ -1529,12 +1427,10 @@ export default {
         "will be"
       ],
       "optionReasons": {
-        "will-mcq-11": "本句指「根據目前情況作出把握較高的推斷」。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。"
+        "will-mcq-11": "本句的「will be」指「根據目前情況作出把握較高的推斷」。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-11"
     },
@@ -1546,11 +1442,9 @@ export default {
       "masked": "You ____ the news by now.",
       "options": [
         "will-mcq-11",
-        "will-mcq-10",
-        "will-mcq-12",
-        "will-mcq-09",
-        "will-mcq-13",
-        "will-mcq-08"
+        "will-mcq-31",
+        "will-mcq-16",
+        "will-mcq-27"
       ],
       "explanation": "本句的「will have heard」指「根據目前情況作出把握較高的推斷」。",
       "sentenceIndex": 26,
@@ -1559,12 +1453,10 @@ export default {
         "will have heard"
       ],
       "optionReasons": {
-        "will-mcq-11": "本句指「根據目前情況作出把握較高的推斷」。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-08": "「強烈表達自己決意要某事發生／完成」是「will — determination」的用法，與本句語境不同。"
+        "will-mcq-11": "本句的「will have heard」指「根據目前情況作出把握較高的推斷」。",
+        "will-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-11"
     },
@@ -1576,11 +1468,9 @@ export default {
       "masked": "If you heat ice, it ____.",
       "options": [
         "will-mcq-28",
-        "will-mcq-27",
-        "will-mcq-29",
-        "will-mcq-26",
-        "will-mcq-30",
-        "will-mcq-25"
+        "will-mcq-12",
+        "will-pdf-002",
+        "will-mcq-15"
       ],
       "explanation": "本句的「will melt」指「表示某條件下自然／必然出現的結果」。",
       "sentenceIndex": 27,
@@ -1589,12 +1479,10 @@ export default {
         "will melt"
       ],
       "optionReasons": {
-        "will-mcq-28": "本句指「表示某條件下自然／必然出現的結果」。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-30": "「正式訂立死後財產安排的法律文件」是「22. make/write a will（立遺囑） — 訂立遺囑」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。"
+        "will-mcq-28": "本句的「will melt」指「表示某條件下自然／必然出現的結果」。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-28"
     },
@@ -1606,11 +1494,9 @@ export default {
       "masked": "Without water, the plant ____ die.",
       "options": [
         "will-mcq-28",
-        "will-mcq-27",
-        "will-mcq-29",
-        "will-mcq-26",
-        "will-mcq-30",
-        "will-mcq-25"
+        "will-mcq-06",
+        "will-pdf-002",
+        "will-mcq-15"
       ],
       "explanation": "本句的「will」指「表示某條件下自然／必然出現的結果」。",
       "sentenceIndex": 28,
@@ -1619,12 +1505,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-28": "本句指「表示某條件下自然／必然出現的結果」。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-30": "「正式訂立死後財產安排的法律文件」是「22. make/write a will（立遺囑） — 訂立遺囑」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。"
+        "will-mcq-28": "本句的「will」指「表示某條件下自然／必然出現的結果」。",
+        "will-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-28"
     },
@@ -1636,11 +1520,9 @@ export default {
       "masked": "The car ____.",
       "options": [
         "will-mcq-12",
-        "will-mcq-11",
-        "will-mcq-13",
-        "will-mcq-10",
-        "will-mcq-14",
-        "will-mcq-09"
+        "will-mcq-15",
+        "will-mcq-04",
+        "will-mcq-22"
       ],
       "explanation": "本句的「won’t start」指「某物儘管嘗試仍無法按預期運作」。",
       "sentenceIndex": 29,
@@ -1649,12 +1531,10 @@ export default {
         "won’t start"
       ],
       "optionReasons": {
-        "will-mcq-12": "本句指「某物儘管嘗試仍無法按預期運作」。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。"
+        "will-mcq-12": "本句的「won’t start」指「某物儘管嘗試仍無法按預期運作」。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-12"
     },
@@ -1666,11 +1546,9 @@ export default {
       "masked": "The door ____.",
       "options": [
         "will-mcq-12",
-        "will-mcq-11",
-        "will-mcq-13",
-        "will-mcq-10",
-        "will-mcq-14",
-        "will-mcq-09"
+        "will-mcq-22",
+        "will-mcq-08",
+        "will-mcq-28"
       ],
       "explanation": "本句的「won’t open」指「某物儘管嘗試仍無法按預期運作」。",
       "sentenceIndex": 30,
@@ -1679,12 +1557,10 @@ export default {
         "won’t open"
       ],
       "optionReasons": {
-        "will-mcq-12": "本句指「某物儘管嘗試仍無法按預期運作」。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-09": "「詢問／請求對方是否願意替自己做某事」是「Will you…? — request」的用法，與本句語境不同。"
+        "will-mcq-12": "本句的「won’t open」指「某物儘管嘗試仍無法按預期運作」。",
+        "will-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-12"
     },
@@ -1696,11 +1572,9 @@ export default {
       "masked": "She has a ____.",
       "options": [
         "will-mcq-13",
-        "will-mcq-12",
-        "will-mcq-14",
-        "will-mcq-11",
-        "will-mcq-15",
-        "will-mcq-10"
+        "will-mcq-16",
+        "will-mcq-02",
+        "will-mcq-03"
       ],
       "explanation": "本句的「strong will」指「推動某人堅持、選擇或克服困難的內在意志」。",
       "sentenceIndex": 31,
@@ -1709,12 +1583,10 @@ export default {
         "strong will"
       ],
       "optionReasons": {
-        "will-mcq-13": "本句指「推動某人堅持、選擇或克服困難的內在意志」。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。"
+        "will-mcq-13": "本句的「strong will」指「推動某人堅持、選擇或克服困難的內在意志」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-13"
     },
@@ -1726,11 +1598,9 @@ export default {
       "masked": "His ____ to succeed kept him going.",
       "options": [
         "will-mcq-13",
-        "will-mcq-12",
-        "will-mcq-14",
-        "will-mcq-11",
-        "will-mcq-15",
-        "will-mcq-10"
+        "will-mcq-16",
+        "will-mcq-01",
+        "will-mcq-28"
       ],
       "explanation": "本句的「will」指「推動某人堅持、選擇或克服困難的內在意志」。",
       "sentenceIndex": 32,
@@ -1739,12 +1609,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-13": "本句指「推動某人堅持、選擇或克服困難的內在意志」。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-10": "「表示某人／某物典型、反覆出現的行為或傾向」是「will — habitual tendency」的用法，與本句語境不同。"
+        "will-mcq-13": "本句的「will」指「推動某人堅持、選擇或克服困難的內在意志」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-13"
     },
@@ -1756,11 +1624,9 @@ export default {
       "masked": "Her ____ helped her through difficult times.",
       "options": [
         "will-mcq-14",
-        "will-mcq-13",
-        "will-mcq-15",
-        "will-mcq-12",
         "will-mcq-16",
-        "will-mcq-11"
+        "will-mcq-01",
+        "will-mcq-10"
       ],
       "explanation": "本句的「strong will」指「不容易被困難動搖的堅定決心」。",
       "sentenceIndex": 33,
@@ -1769,12 +1635,10 @@ export default {
         "strong will"
       ],
       "optionReasons": {
-        "will-mcq-14": "本句指「不容易被困難動搖的堅定決心」。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。"
+        "will-mcq-14": "本句的「strong will」指「不容易被困難動搖的堅定決心」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-14"
     },
@@ -1786,11 +1650,9 @@ export default {
       "masked": "He succeeded through talent and a strong ____.",
       "options": [
         "will-mcq-14",
-        "will-mcq-13",
-        "will-mcq-15",
-        "will-mcq-12",
-        "will-mcq-16",
-        "will-mcq-11"
+        "will-mcq-30",
+        "will-mcq-18",
+        "will-mcq-21"
       ],
       "explanation": "本句的「will」指「不容易被困難動搖的堅定決心」。",
       "sentenceIndex": 34,
@@ -1799,12 +1661,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-14": "本句指「不容易被困難動搖的堅定決心」。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。"
+        "will-mcq-14": "本句的「will」指「不容易被困難動搖的堅定決心」。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-14"
     },
@@ -1816,11 +1676,9 @@ export default {
       "masked": "She never lost her ____.",
       "options": [
         "will-pdf-001",
-        "will-mcq-13",
-        "will-mcq-15",
+        "will-mcq-02",
         "will-mcq-12",
-        "will-mcq-16",
-        "will-mcq-11"
+        "will-pdf-002"
       ],
       "explanation": "本句的「will to live」指「推動某人堅持做某事的內在意志／決心」。",
       "sentenceIndex": 35,
@@ -1829,12 +1687,10 @@ export default {
         "will to live"
       ],
       "optionReasons": {
-        "will-pdf-001": "本句指「推動某人堅持做某事的內在意志／決心」。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。"
+        "will-pdf-001": "本句的「will to live」指「推動某人堅持做某事的內在意志／決心」。",
+        "will-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-pdf-001"
     },
@@ -1846,11 +1702,9 @@ export default {
       "masked": "His ____ to survive was extraordinary.",
       "options": [
         "will-pdf-001",
-        "will-mcq-13",
-        "will-mcq-15",
-        "will-mcq-12",
+        "will-mcq-25",
         "will-mcq-16",
-        "will-mcq-11"
+        "will-mcq-28"
       ],
       "explanation": "本句的「will」指「推動某人堅持做某事的內在意志／決心」。",
       "sentenceIndex": 36,
@@ -1859,12 +1713,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-pdf-001": "本句指「推動某人堅持做某事的內在意志／決心」。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-11": "「根據目前情況作出把握較高的推斷」是「will — confident inference」的用法，與本句語境不同。"
+        "will-pdf-001": "本句的「will」指「推動某人堅持做某事的內在意志／決心」。",
+        "will-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-pdf-001"
     },
@@ -1876,11 +1728,9 @@ export default {
       "masked": "He almost ____.",
       "options": [
         "will-mcq-29",
-        "will-mcq-28",
-        "will-mcq-30",
-        "will-mcq-27",
-        "will-mcq-31",
-        "will-mcq-26"
+        "will-mcq-23",
+        "will-pdf-002",
+        "will-mcq-19"
       ],
       "explanation": "本句的「lost the will to continue」指「表示不再有足夠決心／動力繼續」。",
       "sentenceIndex": 37,
@@ -1889,12 +1739,10 @@ export default {
         "lost the will to continue"
       ],
       "optionReasons": {
-        "will-mcq-29": "本句指「表示不再有足夠決心／動力繼續」。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-30": "「正式訂立死後財產安排的法律文件」是「22. make/write a will（立遺囑） — 訂立遺囑」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-31": "「對進行某項行動持接受／自願態度」是「27. be willing to do（願意做） — 願意」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。"
+        "will-mcq-29": "本句的「lost the will to continue」指「表示不再有足夠決心／動力繼續」。",
+        "will-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-29"
     },
@@ -1906,11 +1754,9 @@ export default {
       "masked": "Repeated failure made her lose the ____ to try.",
       "options": [
         "will-mcq-29",
-        "will-mcq-28",
+        "will-mcq-20",
         "will-mcq-30",
-        "will-mcq-27",
-        "will-mcq-31",
-        "will-mcq-26"
+        "will-mcq-21"
       ],
       "explanation": "本句的「will」指「表示不再有足夠決心／動力繼續」。",
       "sentenceIndex": 38,
@@ -1919,12 +1765,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-29": "本句指「表示不再有足夠決心／動力繼續」。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-30": "「正式訂立死後財產安排的法律文件」是「22. make/write a will（立遺囑） — 訂立遺囑」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-31": "「對進行某項行動持接受／自願態度」是「27. be willing to do（願意做） — 願意」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。"
+        "will-mcq-29": "本句的「will」指「表示不再有足夠決心／動力繼續」。",
+        "will-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-29"
     },
@@ -1936,11 +1780,9 @@ export default {
       "masked": "It takes ____ to change a habit.",
       "options": [
         "will-mcq-15",
-        "will-mcq-14",
-        "will-mcq-16",
-        "will-mcq-13",
-        "will-mcq-17",
-        "will-mcq-12"
+        "will-mcq-03",
+        "will-mcq-27",
+        "will-pdf-002"
       ],
       "explanation": "本句的「willpower」指「控制衝動、克服困難、堅持目標的心理力量」。",
       "sentenceIndex": 39,
@@ -1949,12 +1791,10 @@ export default {
         "willpower"
       ],
       "optionReasons": {
-        "will-mcq-15": "本句指「控制衝動、克服困難、堅持目標的心理力量」。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。"
+        "will-mcq-15": "本句的「willpower」指「控制衝動、克服困難、堅持目標的心理力量」。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-15"
     },
@@ -1966,11 +1806,9 @@ export default {
       "masked": "She showed remarkable ____.",
       "options": [
         "will-mcq-15",
-        "will-mcq-14",
-        "will-mcq-16",
-        "will-mcq-13",
         "will-mcq-17",
-        "will-mcq-12"
+        "will-mcq-03",
+        "will-mcq-28"
       ],
       "explanation": "本句的「willpower」指「控制衝動、克服困難、堅持目標的心理力量」。",
       "sentenceIndex": 40,
@@ -1979,12 +1817,10 @@ export default {
         "willpower"
       ],
       "optionReasons": {
-        "will-mcq-15": "本句指「控制衝動、克服困難、堅持目標的心理力量」。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-12": "「某物儘管嘗試仍無法按預期運作」是「won’t — object malfunction」的用法，與本句語境不同。"
+        "will-mcq-15": "本句的「willpower」指「控制衝動、克服困難、堅持目標的心理力量」。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-15"
     },
@@ -1996,11 +1832,9 @@ export default {
       "masked": "She made a ____.",
       "options": [
         "will-mcq-16",
-        "will-mcq-15",
-        "will-mcq-17",
-        "will-mcq-14",
-        "will-mcq-18",
-        "will-mcq-13"
+        "will-mcq-19",
+        "will-mcq-27",
+        "will-mcq-29"
       ],
       "explanation": "本句的「will」指「說明死後財產／資產如何處理的法律文件」。",
       "sentenceIndex": 41,
@@ -2009,12 +1843,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-16": "本句指「說明死後財產／資產如何處理的法律文件」。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。"
+        "will-mcq-16": "本句的「will」指「說明死後財產／資產如何處理的法律文件」。",
+        "will-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-16"
     },
@@ -2026,11 +1858,9 @@ export default {
       "masked": "His ____ divided the property among his children.",
       "options": [
         "will-mcq-16",
-        "will-mcq-15",
-        "will-mcq-17",
-        "will-mcq-14",
-        "will-mcq-18",
-        "will-mcq-13"
+        "will-mcq-10",
+        "will-mcq-09",
+        "will-mcq-14"
       ],
       "explanation": "本句的「will」指「說明死後財產／資產如何處理的法律文件」。",
       "sentenceIndex": 42,
@@ -2039,12 +1869,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-16": "本句指「說明死後財產／資產如何處理的法律文件」。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-13": "「推動某人堅持、選擇或克服困難的內在意志」是「will — determination noun」的用法，與本句語境不同。"
+        "will-mcq-16": "本句的「will」指「說明死後財產／資產如何處理的法律文件」。",
+        "will-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-16"
     },
@@ -2056,11 +1884,9 @@ export default {
       "masked": "Everyone should consider ____.",
       "options": [
         "will-mcq-30",
-        "will-mcq-29",
         "will-mcq-31",
-        "will-mcq-28",
-        "will-mcq-27",
-        "will-mcq-26"
+        "will-mcq-13",
+        "will-mcq-29"
       ],
       "explanation": "本句的「making a will」指「正式訂立死後財產安排的法律文件」。",
       "sentenceIndex": 43,
@@ -2069,12 +1895,10 @@ export default {
         "making a will"
       ],
       "optionReasons": {
-        "will-mcq-30": "本句指「正式訂立死後財產安排的法律文件」。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-31": "「對進行某項行動持接受／自願態度」是「27. be willing to do（願意做） — 願意」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。"
+        "will-mcq-30": "本句的「making a will」指「正式訂立死後財產安排的法律文件」。",
+        "will-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-30"
     },
@@ -2086,11 +1910,9 @@ export default {
       "masked": "He wrote his ____ many years ago.",
       "options": [
         "will-mcq-30",
-        "will-mcq-29",
-        "will-mcq-31",
-        "will-mcq-28",
-        "will-mcq-27",
-        "will-mcq-26"
+        "will-mcq-05",
+        "will-mcq-18",
+        "will-mcq-29"
       ],
       "explanation": "本句的「will」指「正式訂立死後財產安排的法律文件」。",
       "sentenceIndex": 44,
@@ -2099,12 +1921,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-30": "本句指「正式訂立死後財產安排的法律文件」。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-31": "「對進行某項行動持接受／自願態度」是「27. be willing to do（願意做） — 願意」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。"
+        "will-mcq-30": "本句的「will」指「正式訂立死後財產安排的法律文件」。",
+        "will-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-30"
     },
@@ -2116,11 +1936,9 @@ export default {
       "masked": "This document is his ____.",
       "options": [
         "will-pdf-002",
-        "will-mcq-16",
-        "will-mcq-18",
-        "will-mcq-15",
-        "will-mcq-19",
-        "will-mcq-14"
+        "will-mcq-01",
+        "will-mcq-04",
+        "will-mcq-11"
       ],
       "explanation": "本句的「last will and testament」指「正式法律用語，指遺囑」。",
       "sentenceIndex": 45,
@@ -2129,12 +1947,10 @@ export default {
         "last will and testament"
       ],
       "optionReasons": {
-        "will-pdf-002": "本句指「正式法律用語，指遺囑」。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。"
+        "will-pdf-002": "本句的「last will and testament」指「正式法律用語，指遺囑」。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-pdf-002"
     },
@@ -2146,11 +1962,9 @@ export default {
       "masked": "The lawyer prepared her last ____ and testament.",
       "options": [
         "will-pdf-002",
-        "will-mcq-16",
-        "will-mcq-18",
         "will-mcq-15",
-        "will-mcq-19",
-        "will-mcq-14"
+        "will-mcq-03",
+        "will-mcq-31"
       ],
       "explanation": "本句的「will」指「正式法律用語，指遺囑」。",
       "sentenceIndex": 46,
@@ -2159,12 +1973,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-pdf-002": "本句指「正式法律用語，指遺囑」。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。"
+        "will-pdf-002": "本句的「will」指「正式法律用語，指遺囑」。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-pdf-002"
     },
@@ -2176,11 +1988,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "will-mcq-17",
-        "will-mcq-16",
-        "will-mcq-18",
-        "will-mcq-15",
-        "will-mcq-19",
-        "will-mcq-14"
+        "will-mcq-21",
+        "will-mcq-28",
+        "will-mcq-25"
       ],
       "explanation": "本句的「willed the house to her daughter」指「在遺囑中指定某人／機構繼承某項財產」。",
       "sentenceIndex": 47,
@@ -2189,12 +1999,10 @@ export default {
         "willed the house to her daughter"
       ],
       "optionReasons": {
-        "will-mcq-17": "本句指「在遺囑中指定某人／機構繼承某項財產」。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。"
+        "will-mcq-17": "本句的「willed the house to her daughter」指「在遺囑中指定某人／機構繼承某項財產」。",
+        "will-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-17"
     },
@@ -2206,11 +2014,9 @@ export default {
       "masked": "He ____ most of his money to charity.",
       "options": [
         "will-mcq-17",
-        "will-mcq-16",
-        "will-mcq-18",
-        "will-mcq-15",
         "will-mcq-19",
-        "will-mcq-14"
+        "will-mcq-28",
+        "will-mcq-12"
       ],
       "explanation": "本句的「willed」指「在遺囑中指定某人／機構繼承某項財產」。",
       "sentenceIndex": 48,
@@ -2219,12 +2025,10 @@ export default {
         "willed"
       ],
       "optionReasons": {
-        "will-mcq-17": "本句指「在遺囑中指定某人／機構繼承某項財產」。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-14": "「不容易被困難動搖的堅定決心」是「strong will」的用法，與本句語境不同。"
+        "will-mcq-17": "本句的「willed」指「在遺囑中指定某人／機構繼承某項財產」。",
+        "will-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-17"
     },
@@ -2236,11 +2040,9 @@ export default {
       "masked": "She seemed to ____.",
       "options": [
         "will-mcq-18",
-        "will-mcq-17",
-        "will-mcq-19",
-        "will-mcq-16",
-        "will-mcq-20",
-        "will-mcq-15"
+        "will-pdf-002",
+        "will-mcq-11",
+        "will-mcq-14"
       ],
       "explanation": "本句的「will herself to stay awake」指「靠強烈意志迫使／鼓勵自己完成某事」。",
       "sentenceIndex": 49,
@@ -2249,12 +2051,10 @@ export default {
         "will herself to stay awake"
       ],
       "optionReasons": {
-        "will-mcq-18": "本句指「靠強烈意志迫使／鼓勵自己完成某事」。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。"
+        "will-mcq-18": "本句的「will herself to stay awake」指「靠強烈意志迫使／鼓勵自己完成某事」。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-18"
     },
@@ -2266,11 +2066,9 @@ export default {
       "masked": "He ____ himself not to react.",
       "options": [
         "will-mcq-18",
+        "will-mcq-01",
         "will-mcq-17",
-        "will-mcq-19",
-        "will-mcq-16",
-        "will-mcq-20",
-        "will-mcq-15"
+        "will-mcq-29"
       ],
       "explanation": "本句的「willed」指「靠強烈意志迫使／鼓勵自己完成某事」。",
       "sentenceIndex": 50,
@@ -2279,12 +2077,10 @@ export default {
         "willed"
       ],
       "optionReasons": {
-        "will-mcq-18": "本句指「靠強烈意志迫使／鼓勵自己完成某事」。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-15": "「控制衝動、克服困難、堅持目標的心理力量」是「willpower」的用法，與本句語境不同。"
+        "will-mcq-18": "本句的「willed」指「靠強烈意志迫使／鼓勵自己完成某事」。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-18"
     },
@@ -2296,10 +2092,8 @@ export default {
       "masked": "She is always ____.",
       "options": [
         "will-mcq-19",
-        "will-mcq-18",
-        "will-mcq-20",
-        "will-mcq-17",
-        "will-mcq-21",
+        "will-mcq-15",
+        "will-mcq-10",
         "will-mcq-16"
       ],
       "explanation": "本句的「willing to help」指「樂意、自願、願意選擇做某事的」。",
@@ -2309,12 +2103,10 @@ export default {
         "willing to help"
       ],
       "optionReasons": {
-        "will-mcq-19": "本句指「樂意、自願、願意選擇做某事的」。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。"
+        "will-mcq-19": "本句的「willing to help」指「樂意、自願、願意選擇做某事的」。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-19"
     },
@@ -2326,10 +2118,8 @@ export default {
       "masked": "Are you ____ to try?",
       "options": [
         "will-mcq-19",
-        "will-mcq-18",
-        "will-mcq-20",
-        "will-mcq-17",
-        "will-mcq-21",
+        "will-mcq-15",
+        "will-mcq-12",
         "will-mcq-16"
       ],
       "explanation": "本句的「willing」指「樂意、自願、願意選擇做某事的」。",
@@ -2339,12 +2129,10 @@ export default {
         "willing"
       ],
       "optionReasons": {
-        "will-mcq-19": "本句指「樂意、自願、願意選擇做某事的」。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-16": "「說明死後財產／資產如何處理的法律文件」是「will — legal document」的用法，與本句語境不同。"
+        "will-mcq-19": "本句的「willing」指「樂意、自願、願意選擇做某事的」。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-19"
     },
@@ -2356,11 +2144,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "will-mcq-31",
-        "will-mcq-30",
-        "will-mcq-29",
-        "will-mcq-28",
-        "will-mcq-27",
-        "will-mcq-26"
+        "will-mcq-12",
+        "will-pdf-002",
+        "will-mcq-11"
       ],
       "explanation": "本句的「willing to listen」指「對進行某項行動持接受／自願態度」。",
       "sentenceIndex": 53,
@@ -2369,12 +2155,10 @@ export default {
         "willing to listen"
       ],
       "optionReasons": {
-        "will-mcq-31": "本句指「對進行某項行動持接受／自願態度」。",
-        "will-mcq-30": "「正式訂立死後財產安排的法律文件」是「22. make/write a will（立遺囑） — 訂立遺囑」的用法，與本句語境不同。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。"
+        "will-mcq-31": "本句的「willing to listen」指「對進行某項行動持接受／自願態度」。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-31"
     },
@@ -2387,10 +2171,8 @@ export default {
       "options": [
         "will-mcq-31",
         "will-mcq-30",
-        "will-mcq-29",
-        "will-mcq-28",
-        "will-mcq-27",
-        "will-mcq-26"
+        "will-mcq-12",
+        "will-mcq-11"
       ],
       "explanation": "本句的「willing」指「對進行某項行動持接受／自願態度」。",
       "sentenceIndex": 54,
@@ -2399,12 +2181,10 @@ export default {
         "willing"
       ],
       "optionReasons": {
-        "will-mcq-31": "本句指「對進行某項行動持接受／自願態度」。",
-        "will-mcq-30": "「正式訂立死後財產安排的法律文件」是「22. make/write a will（立遺囑） — 訂立遺囑」的用法，與本句語境不同。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。"
+        "will-mcq-31": "本句的「willing」指「對進行某項行動持接受／自願態度」。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-31"
     },
@@ -2416,11 +2196,9 @@ export default {
       "masked": "She ____ everyone.",
       "options": [
         "will-mcq-20",
-        "will-mcq-19",
-        "will-mcq-21",
-        "will-mcq-18",
-        "will-mcq-22",
-        "will-mcq-17"
+        "will-mcq-14",
+        "will-mcq-12",
+        "will-mcq-30"
       ],
       "explanation": "本句的「willingly helped」指「並非被迫，而是出於自己意願地」。",
       "sentenceIndex": 55,
@@ -2429,12 +2207,10 @@ export default {
         "willingly helped"
       ],
       "optionReasons": {
-        "will-mcq-20": "本句指「並非被迫，而是出於自己意願地」。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。"
+        "will-mcq-20": "本句的「willingly helped」指「並非被迫，而是出於自己意願地」。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-20"
     },
@@ -2446,11 +2222,9 @@ export default {
       "masked": "He ____ accepted the responsibility.",
       "options": [
         "will-mcq-20",
-        "will-mcq-19",
-        "will-mcq-21",
-        "will-mcq-18",
-        "will-mcq-22",
-        "will-mcq-17"
+        "will-mcq-15",
+        "will-mcq-17",
+        "will-mcq-01"
       ],
       "explanation": "本句的「willingly」指「並非被迫，而是出於自己意願地」。",
       "sentenceIndex": 56,
@@ -2459,12 +2233,10 @@ export default {
         "willingly"
       ],
       "optionReasons": {
-        "will-mcq-20": "本句指「並非被迫，而是出於自己意願地」。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-17": "「在遺囑中指定某人／機構繼承某項財產」是「will something to someone」的用法，與本句語境不同。"
+        "will-mcq-20": "本句的「willingly」指「並非被迫，而是出於自己意願地」。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-20"
     },
@@ -2476,11 +2248,9 @@ export default {
       "masked": "Her ____ impressed me.",
       "options": [
         "will-mcq-21",
-        "will-mcq-20",
-        "will-mcq-22",
-        "will-mcq-19",
-        "will-mcq-23",
-        "will-mcq-18"
+        "will-pdf-002",
+        "will-mcq-02",
+        "will-mcq-11"
       ],
       "explanation": "本句的「willingness to help」指「願意接受／進行某事的態度」。",
       "sentenceIndex": 57,
@@ -2489,12 +2259,10 @@ export default {
         "willingness to help"
       ],
       "optionReasons": {
-        "will-mcq-21": "本句指「願意接受／進行某事的態度」。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。"
+        "will-mcq-21": "本句的「willingness to help」指「願意接受／進行某事的態度」。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-21"
     },
@@ -2506,11 +2274,9 @@ export default {
       "masked": "Success requires a ____ to learn.",
       "options": [
         "will-mcq-21",
-        "will-mcq-20",
-        "will-mcq-22",
-        "will-mcq-19",
-        "will-mcq-23",
-        "will-mcq-18"
+        "will-pdf-002",
+        "will-mcq-25",
+        "will-mcq-02"
       ],
       "explanation": "本句的「willingness」指「願意接受／進行某事的態度」。",
       "sentenceIndex": 58,
@@ -2519,12 +2285,10 @@ export default {
         "willingness"
       ],
       "optionReasons": {
-        "will-mcq-21": "本句指「願意接受／進行某事的態度」。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-18": "「靠強烈意志迫使／鼓勵自己完成某事」是「will yourself to do」的用法，與本句語境不同。"
+        "will-mcq-21": "本句的「willingness」指「願意接受／進行某事的態度」。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-21"
     },
@@ -2536,11 +2300,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "will-mcq-22",
-        "will-mcq-21",
-        "will-mcq-23",
-        "will-mcq-20",
-        "will-mcq-24",
-        "will-mcq-19"
+        "will-mcq-28",
+        "will-mcq-12",
+        "will-mcq-16"
       ],
       "explanation": "本句的「unwilling to apologize」指「不願選擇進行某項行動的」。",
       "sentenceIndex": 59,
@@ -2549,12 +2311,10 @@ export default {
         "unwilling to apologize"
       ],
       "optionReasons": {
-        "will-mcq-22": "本句指「不願選擇進行某項行動的」。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。"
+        "will-mcq-22": "本句的「unwilling to apologize」指「不願選擇進行某項行動的」。",
+        "will-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-22"
     },
@@ -2566,11 +2326,9 @@ export default {
       "masked": "She seemed ____ to discuss the problem.",
       "options": [
         "will-mcq-22",
-        "will-mcq-21",
-        "will-mcq-23",
-        "will-mcq-20",
-        "will-mcq-24",
-        "will-mcq-19"
+        "will-mcq-08",
+        "will-mcq-12",
+        "will-mcq-16"
       ],
       "explanation": "本句的「unwilling」指「不願選擇進行某項行動的」。",
       "sentenceIndex": 60,
@@ -2579,12 +2337,10 @@ export default {
         "unwilling"
       ],
       "optionReasons": {
-        "will-mcq-22": "本句指「不願選擇進行某項行動的」。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-19": "「樂意、自願、願意選擇做某事的」是「willing」的用法，與本句語境不同。"
+        "will-mcq-22": "本句的「unwilling」指「不願選擇進行某項行動的」。",
+        "will-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-22"
     },
@@ -2596,11 +2352,9 @@ export default {
       "masked": "He was taken there ____.",
       "options": [
         "will-mcq-23",
-        "will-mcq-22",
-        "will-mcq-24",
-        "will-mcq-21",
-        "will-mcq-25",
-        "will-mcq-20"
+        "will-mcq-06",
+        "will-mcq-29",
+        "will-mcq-12"
       ],
       "explanation": "本句的「against his will」指「某事在違背當事人意願、甚至被迫的情況下發生」。",
       "sentenceIndex": 61,
@@ -2609,12 +2363,10 @@ export default {
         "against his will"
       ],
       "optionReasons": {
-        "will-mcq-23": "本句指「某事在違背當事人意願、甚至被迫的情況下發生」。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。"
+        "will-mcq-23": "本句的「against his will」指「某事在違背當事人意願、甚至被迫的情況下發生」。",
+        "will-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-23"
     },
@@ -2626,11 +2378,9 @@ export default {
       "masked": "Nobody should be forced to stay against their ____.",
       "options": [
         "will-mcq-23",
-        "will-mcq-22",
-        "will-mcq-24",
-        "will-mcq-21",
-        "will-mcq-25",
-        "will-mcq-20"
+        "will-mcq-11",
+        "will-mcq-06",
+        "will-mcq-29"
       ],
       "explanation": "本句的「will」指「某事在違背當事人意願、甚至被迫的情況下發生」。",
       "sentenceIndex": 62,
@@ -2639,12 +2389,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-23": "本句指「某事在違背當事人意願、甚至被迫的情況下發生」。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-20": "「並非被迫，而是出於自己意願地」是「willingly」的用法，與本句語境不同。"
+        "will-mcq-23": "本句的「will」指「某事在違背當事人意願、甚至被迫的情況下發生」。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-23"
     },
@@ -2656,11 +2404,9 @@ export default {
       "masked": "She came ____.",
       "options": [
         "will-mcq-24",
-        "will-mcq-23",
-        "will-mcq-25",
-        "will-mcq-22",
-        "will-mcq-26",
-        "will-mcq-21"
+        "will-mcq-10",
+        "will-mcq-16",
+        "will-mcq-29"
       ],
       "explanation": "本句的「of her own free will」指「沒有被迫，由自己自由選擇」。",
       "sentenceIndex": 63,
@@ -2669,12 +2415,10 @@ export default {
         "of her own free will"
       ],
       "optionReasons": {
-        "will-mcq-24": "本句指「沒有被迫，由自己自由選擇」。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。"
+        "will-mcq-24": "本句的「of her own free will」指「沒有被迫，由自己自由選擇」。",
+        "will-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-24"
     },
@@ -2686,11 +2430,9 @@ export default {
       "masked": "He signed the document of his own free ____.",
       "options": [
         "will-mcq-24",
-        "will-mcq-23",
-        "will-mcq-25",
-        "will-mcq-22",
-        "will-mcq-26",
-        "will-mcq-21"
+        "will-mcq-16",
+        "will-mcq-14",
+        "will-mcq-06"
       ],
       "explanation": "本句的「will」指「沒有被迫，由自己自由選擇」。",
       "sentenceIndex": 64,
@@ -2699,12 +2441,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-24": "本句指「沒有被迫，由自己自由選擇」。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-21": "「願意接受／進行某事的態度」是「willingness」的用法，與本句語境不同。"
+        "will-mcq-24": "本句的「will」指「沒有被迫，由自己自由選擇」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-24"
     },
@@ -2716,11 +2456,9 @@ export default {
       "masked": "The debate concerns ____ and choice.",
       "options": [
         "will-mcq-25",
-        "will-mcq-24",
-        "will-mcq-26",
-        "will-mcq-23",
-        "will-mcq-27",
-        "will-mcq-22"
+        "will-pdf-001",
+        "will-pdf-002",
+        "will-mcq-23"
       ],
       "explanation": "本句的「free will」指「人自主、獨立作出選擇的能力／概念」。",
       "sentenceIndex": 65,
@@ -2729,12 +2467,10 @@ export default {
         "free will"
       ],
       "optionReasons": {
-        "will-mcq-25": "本句指「人自主、獨立作出選擇的能力／概念」。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。"
+        "will-mcq-25": "本句的「free will」指「人自主、獨立作出選擇的能力／概念」。",
+        "will-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "will-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-25"
     },
@@ -2746,11 +2482,9 @@ export default {
       "masked": "Do people have complete free ____?",
       "options": [
         "will-mcq-25",
-        "will-mcq-24",
-        "will-mcq-26",
-        "will-mcq-23",
-        "will-mcq-27",
-        "will-mcq-22"
+        "will-mcq-16",
+        "will-mcq-12",
+        "will-mcq-14"
       ],
       "explanation": "本句的「will」指「人自主、獨立作出選擇的能力／概念」。",
       "sentenceIndex": 66,
@@ -2759,12 +2493,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-25": "本句指「人自主、獨立作出選擇的能力／概念」。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-22": "「不願選擇進行某項行動的」是「unwilling」的用法，與本句語境不同。"
+        "will-mcq-25": "本句的「will」指「人自主、獨立作出選擇的能力／概念」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-25"
     },
@@ -2776,11 +2508,9 @@ export default {
       "masked": "Users can change the setting ____.",
       "options": [
         "will-mcq-26",
-        "will-mcq-25",
-        "will-mcq-27",
-        "will-mcq-24",
-        "will-mcq-28",
-        "will-mcq-23"
+        "will-mcq-16",
+        "will-mcq-15",
+        "will-mcq-11"
       ],
       "explanation": "本句的「at will」指「按自己的意願，在想要時自由地進行」。",
       "sentenceIndex": 67,
@@ -2789,12 +2519,10 @@ export default {
         "at will"
       ],
       "optionReasons": {
-        "will-mcq-26": "本句指「按自己的意願，在想要時自由地進行」。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。"
+        "will-mcq-26": "本句的「at will」指「按自己的意願，在想要時自由地進行」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-26"
     },
@@ -2806,11 +2534,9 @@ export default {
       "masked": "The door can be opened at ____.",
       "options": [
         "will-mcq-26",
-        "will-mcq-25",
-        "will-mcq-27",
-        "will-mcq-24",
-        "will-mcq-28",
-        "will-mcq-23"
+        "will-mcq-14",
+        "will-mcq-16",
+        "will-mcq-01"
       ],
       "explanation": "本句的「will」指「按自己的意願，在想要時自由地進行」。",
       "sentenceIndex": 68,
@@ -2819,12 +2545,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-26": "本句指「按自己的意願，在想要時自由地進行」。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-27": "「個人／群體希望某個結果發生的集體意願」是「will of the people」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-23": "「某事在違背當事人意願、甚至被迫的情況下發生」是「against someone’s will」的用法，與本句語境不同。"
+        "will-mcq-26": "本句的「will」指「按自己的意願，在想要時自由地進行」。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-26"
     },
@@ -2836,11 +2560,9 @@ export default {
       "masked": "The decision reflected the ____.",
       "options": [
         "will-mcq-27",
-        "will-mcq-26",
-        "will-mcq-28",
-        "will-mcq-25",
-        "will-mcq-29",
-        "will-mcq-24"
+        "will-mcq-16",
+        "will-mcq-15",
+        "will-mcq-03"
       ],
       "explanation": "本句的「will of the people」指「個人／群體希望某個結果發生的集體意願」。",
       "sentenceIndex": 69,
@@ -2849,12 +2571,10 @@ export default {
         "will of the people"
       ],
       "optionReasons": {
-        "will-mcq-27": "本句指「個人／群體希望某個結果發生的集體意願」。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。"
+        "will-mcq-27": "本句的「will of the people」指「個人／群體希望某個結果發生的集體意願」。",
+        "will-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-27"
     },
@@ -2866,10 +2586,8 @@ export default {
       "masked": "They ignored the public ____.",
       "options": [
         "will-mcq-27",
-        "will-mcq-26",
-        "will-mcq-28",
-        "will-mcq-25",
-        "will-mcq-29",
+        "will-mcq-30",
+        "will-mcq-14",
         "will-mcq-24"
       ],
       "explanation": "本句的「will」指「個人／群體希望某個結果發生的集體意願」。",
@@ -2879,12 +2597,10 @@ export default {
         "will"
       ],
       "optionReasons": {
-        "will-mcq-27": "本句指「個人／群體希望某個結果發生的集體意願」。",
-        "will-mcq-26": "「按自己的意願，在想要時自由地進行」是「at will」的用法，與本句語境不同。",
-        "will-mcq-28": "「表示某條件下自然／必然出現的結果」是「14. will = inevitable result（自然會；必然會） — 會；必然」的用法，與本句語境不同。",
-        "will-mcq-25": "「人自主、獨立作出選擇的能力／概念」是「free will」的用法，與本句語境不同。",
-        "will-mcq-29": "「表示不再有足夠決心／動力繼續」是「19. lose the will to do something（失去做某事的意欲／意志） — 失去動力」的用法，與本句語境不同。",
-        "will-mcq-24": "「沒有被迫，由自己自由選擇」是「of your own free will」的用法，與本句語境不同。"
+        "will-mcq-27": "本句的「will」指「個人／群體希望某個結果發生的集體意願」。",
+        "will-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "will-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "will-mcq-27"
     }
@@ -2896,5 +2612,7 @@ export default {
     "sha256": "40806d0bb17745df75c8a54810737e6ce7934f9b074bdd04b1931e5c902207f7",
     "pages": 33
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -955,11 +955,9 @@ export default {
       "masked": "She ____ before the meeting.",
       "options": [
         "give-mcq-01",
-        "give-mcq-02",
-        "give-mcq-03",
-        "give-mcq-04",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-18",
+        "give-mcq-31",
+        "give-mcq-03"
       ],
       "explanation": "本句的「gave me the report」指「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」。",
       "sentenceIndex": 0,
@@ -968,12 +966,10 @@ export default {
         "gave me the report"
       ],
       "optionReasons": {
-        "give-mcq-01": "本句指「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-01": "本句的「gave me the report」指「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-01"
     },
@@ -985,11 +981,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "give-mcq-01",
-        "give-mcq-02",
-        "give-mcq-03",
-        "give-mcq-04",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-43",
+        "give-mcq-31",
+        "give-mcq-26"
       ],
       "explanation": "本句的「gave the keys to his colleague」指「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」。",
       "sentenceIndex": 1,
@@ -998,12 +992,10 @@ export default {
         "gave the keys to his colleague"
       ],
       "optionReasons": {
-        "give-mcq-01": "本句指「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-01": "本句的「gave the keys to his colleague」指「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-01"
     },
@@ -1015,11 +1007,9 @@ export default {
       "masked": "The company ____ about the project.",
       "options": [
         "give-mcq-02",
-        "give-mcq-01",
-        "give-mcq-03",
-        "give-mcq-04",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-19",
+        "give-mcq-35",
+        "give-mcq-18"
       ],
       "explanation": "本句的「gave us more information」指「使某人獲得資料、資源、能力、機會或其他非實體事物」。",
       "sentenceIndex": 2,
@@ -1028,12 +1018,10 @@ export default {
         "gave us more information"
       ],
       "optionReasons": {
-        "give-mcq-02": "本句指「使某人獲得資料、資源、能力、機會或其他非實體事物」。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-02": "本句的「gave us more information」指「使某人獲得資料、資源、能力、機會或其他非實體事物」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-02"
     },
@@ -1045,11 +1033,9 @@ export default {
       "masked": "The training ____.",
       "options": [
         "give-mcq-02",
-        "give-mcq-01",
-        "give-mcq-03",
-        "give-mcq-04",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-13",
+        "give-mcq-19",
+        "give-mcq-32"
       ],
       "explanation": "本句的「gave employees useful skills」指「使某人獲得資料、資源、能力、機會或其他非實體事物」。",
       "sentenceIndex": 3,
@@ -1058,12 +1044,10 @@ export default {
         "gave employees useful skills"
       ],
       "optionReasons": {
-        "give-mcq-02": "本句指「使某人獲得資料、資源、能力、機會或其他非實體事物」。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-02": "本句的「gave employees useful skills」指「使某人獲得資料、資源、能力、機會或其他非實體事物」。",
+        "give-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-02"
     },
@@ -1075,11 +1059,9 @@ export default {
       "masked": "One of the most challenging things I have ever done was ____.",
       "options": [
         "give-mcq-03",
-        "give-mcq-02",
-        "give-mcq-04",
-        "give-mcq-01",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-07",
+        "give-mcq-15",
+        "give-mcq-43"
       ],
       "explanation": "本句的「giving a formal presentation in English」指「向聽眾正式講解、報告或發表準備好的內容」。",
       "sentenceIndex": 4,
@@ -1088,12 +1070,10 @@ export default {
         "giving a formal presentation in English"
       ],
       "optionReasons": {
-        "give-mcq-03": "本句指「向聽眾正式講解、報告或發表準備好的內容」。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-03": "本句的「giving a formal presentation in English」指「向聽眾正式講解、報告或發表準備好的內容」。",
+        "give-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-03"
     },
@@ -1105,11 +1085,9 @@ export default {
       "masked": "She ____ about the new project.",
       "options": [
         "give-mcq-03",
-        "give-mcq-02",
-        "give-mcq-04",
-        "give-mcq-01",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-41",
+        "give-mcq-19",
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave a short presentation」指「向聽眾正式講解、報告或發表準備好的內容」。",
       "sentenceIndex": 5,
@@ -1118,12 +1096,10 @@ export default {
         "gave a short presentation"
       ],
       "optionReasons": {
-        "give-mcq-03": "本句指「向聽眾正式講解、報告或發表準備好的內容」。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-03": "本句的「gave a short presentation」指「向聽眾正式講解、報告或發表準備好的內容」。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-03"
     },
@@ -1135,11 +1111,9 @@ export default {
       "masked": "The manager will ____ at the company event.",
       "options": [
         "give-mcq-03",
-        "give-mcq-02",
-        "give-mcq-04",
-        "give-mcq-01",
-        "give-mcq-05",
-        "give-mcq-06"
+        "give-mcq-14",
+        "give-mcq-19",
+        "give-mcq-42"
       ],
       "explanation": "本句的「give a speech」指「向聽眾正式講解、報告或發表準備好的內容」。",
       "sentenceIndex": 6,
@@ -1148,12 +1122,10 @@ export default {
         "give a speech"
       ],
       "optionReasons": {
-        "give-mcq-03": "本句指「向聽眾正式講解、報告或發表準備好的內容」。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-03": "本句的「give a speech」指「向聽眾正式講解、報告或發表準備好的內容」。",
+        "give-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-03"
     },
@@ -1165,11 +1137,9 @@ export default {
       "masked": "My supervisor ____ before the presentation.",
       "options": [
         "give-mcq-04",
-        "give-mcq-03",
-        "give-mcq-05",
-        "give-mcq-02",
-        "give-mcq-06",
-        "give-mcq-01"
+        "give-mcq-19",
+        "give-mcq-37",
+        "give-mcq-35"
       ],
       "explanation": "本句的「gave me some useful advice」指「向某人提供有助理解、判斷或行動的內容」。",
       "sentenceIndex": 7,
@@ -1178,12 +1148,10 @@ export default {
         "gave me some useful advice"
       ],
       "optionReasons": {
-        "give-mcq-04": "本句指「向某人提供有助理解、判斷或行動的內容」。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。"
+        "give-mcq-04": "本句的「gave me some useful advice」指「向某人提供有助理解、判斷或行動的內容」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-04"
     },
@@ -1195,11 +1163,9 @@ export default {
       "masked": "The trainer ____.",
       "options": [
         "give-mcq-04",
-        "give-mcq-03",
-        "give-mcq-05",
-        "give-mcq-02",
-        "give-mcq-06",
-        "give-mcq-01"
+        "give-mcq-19",
+        "give-mcq-18",
+        "give-mcq-41"
       ],
       "explanation": "本句的「gave us clear instructions」指「向某人提供有助理解、判斷或行動的內容」。",
       "sentenceIndex": 8,
@@ -1208,12 +1174,10 @@ export default {
         "gave us clear instructions"
       ],
       "optionReasons": {
-        "give-mcq-04": "本句指「向某人提供有助理解、判斷或行動的內容」。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-01": "「把某件實體或抽象事物轉交或提供給另一個人，使對方得到它」是「give someone something / give something to someone」的用法，與本句語境不同。"
+        "give-mcq-04": "本句的「gave us clear instructions」指「向某人提供有助理解、判斷或行動的內容」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-04"
     },
@@ -1225,11 +1189,9 @@ export default {
       "masked": "She ____ to the question.",
       "options": [
         "give-mcq-05",
-        "give-mcq-04",
-        "give-mcq-06",
-        "give-mcq-03",
-        "give-mcq-07",
-        "give-mcq-02"
+        "give-mcq-28",
+        "give-mcq-33",
+        "give-mcq-41"
       ],
       "explanation": "本句的「gave a clear answer」指「以說話或文字提出回答、解釋、理由或例子」。",
       "sentenceIndex": 9,
@@ -1238,12 +1200,10 @@ export default {
         "gave a clear answer"
       ],
       "optionReasons": {
-        "give-mcq-05": "本句指「以說話或文字提出回答、解釋、理由或例子」。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。"
+        "give-mcq-05": "本句的「gave a clear answer」指「以說話或文字提出回答、解釋、理由或例子」。",
+        "give-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-05"
     },
@@ -1255,11 +1215,9 @@ export default {
       "masked": "Can you ____?",
       "options": [
         "give-mcq-05",
-        "give-mcq-04",
-        "give-mcq-06",
-        "give-mcq-03",
-        "give-mcq-07",
-        "give-mcq-02"
+        "give-mcq-20",
+        "give-mcq-28",
+        "give-mcq-43"
       ],
       "explanation": "本句的「give an example」指「以說話或文字提出回答、解釋、理由或例子」。",
       "sentenceIndex": 10,
@@ -1268,12 +1226,10 @@ export default {
         "give an example"
       ],
       "optionReasons": {
-        "give-mcq-05": "本句指「以說話或文字提出回答、解釋、理由或例子」。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-02": "「使某人獲得資料、資源、能力、機會或其他非實體事物」是「give — provide」的用法，與本句語境不同。"
+        "give-mcq-05": "本句的「give an example」指「以說話或文字提出回答、解釋、理由或例子」。",
+        "give-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-05"
     },
@@ -1285,11 +1241,9 @@ export default {
       "masked": "The manager ____ to leave early.",
       "options": [
         "give-mcq-06",
-        "give-mcq-05",
-        "give-mcq-07",
-        "give-mcq-04",
-        "give-mcq-08",
-        "give-mcq-03"
+        "give-mcq-28",
+        "give-mcq-21",
+        "give-mcq-05"
       ],
       "explanation": "本句的「gave us permission」指「明確或正式地同意某件事情可以進行」。",
       "sentenceIndex": 11,
@@ -1298,12 +1252,10 @@ export default {
         "gave us permission"
       ],
       "optionReasons": {
-        "give-mcq-06": "本句指「明確或正式地同意某件事情可以進行」。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。"
+        "give-mcq-06": "本句的「gave us permission」指「明確或正式地同意某件事情可以進行」。",
+        "give-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-06"
     },
@@ -1315,11 +1267,9 @@ export default {
       "masked": "The client ____ to the design.",
       "options": [
         "give-mcq-06",
-        "give-mcq-05",
-        "give-mcq-07",
-        "give-mcq-04",
-        "give-mcq-08",
-        "give-mcq-03"
+        "give-mcq-19",
+        "give-mcq-43",
+        "give-mcq-21"
       ],
       "explanation": "本句的「gave final approval」指「明確或正式地同意某件事情可以進行」。",
       "sentenceIndex": 12,
@@ -1328,12 +1278,10 @@ export default {
         "gave final approval"
       ],
       "optionReasons": {
-        "give-mcq-06": "本句指「明確或正式地同意某件事情可以進行」。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-03": "「向聽眾正式講解、報告或發表準備好的內容」是「give a presentation/speech/talk」的用法，與本句語境不同。"
+        "give-mcq-06": "本句的「gave final approval」指「明確或正式地同意某件事情可以進行」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-06"
     },
@@ -1345,11 +1293,9 @@ export default {
       "masked": "My colleagues ____ before the event.",
       "options": [
         "give-mcq-07",
-        "give-mcq-06",
-        "give-mcq-08",
-        "give-mcq-05",
-        "give-mcq-09",
-        "give-mcq-04"
+        "give-mcq-36",
+        "give-mcq-13",
+        "give-mcq-05"
       ],
       "explanation": "本句的「gave me a lot of support」指「使某人獲得實際、情感或其他形式的幫助」。",
       "sentenceIndex": 13,
@@ -1358,12 +1304,10 @@ export default {
         "gave me a lot of support"
       ],
       "optionReasons": {
-        "give-mcq-07": "本句指「使某人獲得實際、情感或其他形式的幫助」。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。"
+        "give-mcq-07": "本句的「gave me a lot of support」指「使某人獲得實際、情感或其他形式的幫助」。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-07"
     },
@@ -1375,11 +1319,9 @@ export default {
       "masked": "The company ____ to affected employees.",
       "options": [
         "give-mcq-07",
-        "give-mcq-06",
-        "give-mcq-08",
         "give-mcq-05",
-        "give-mcq-09",
-        "give-mcq-04"
+        "give-mcq-15",
+        "give-mcq-26"
       ],
       "explanation": "本句的「gave financial assistance」指「使某人獲得實際、情感或其他形式的幫助」。",
       "sentenceIndex": 14,
@@ -1388,12 +1330,10 @@ export default {
         "gave financial assistance"
       ],
       "optionReasons": {
-        "give-mcq-07": "本句指「使某人獲得實際、情感或其他形式的幫助」。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-04": "「向某人提供有助理解、判斷或行動的內容」是「give advice/information/instructions」的用法，與本句語境不同。"
+        "give-mcq-07": "本句的「gave financial assistance」指「使某人獲得實際、情感或其他形式的幫助」。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-07"
     },
@@ -1405,11 +1345,9 @@ export default {
       "masked": "My supervisor ____ to represent the team.",
       "options": [
         "give-mcq-08",
-        "give-mcq-07",
-        "give-mcq-09",
-        "give-mcq-06",
-        "give-mcq-10",
-        "give-mcq-05"
+        "give-mcq-19",
+        "give-mcq-21",
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave me the chance」指「讓某人獲得做某件事的可能、條件或權利」。",
       "sentenceIndex": 15,
@@ -1418,12 +1356,10 @@ export default {
         "gave me the chance"
       ],
       "optionReasons": {
-        "give-mcq-08": "本句指「讓某人獲得做某件事的可能、條件或權利」。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。"
+        "give-mcq-08": "本句的「gave me the chance」指「讓某人獲得做某件事的可能、條件或權利」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-08"
     },
@@ -1435,11 +1371,9 @@ export default {
       "masked": "Everyone should be ____ to speak.",
       "options": [
         "give-mcq-08",
-        "give-mcq-07",
-        "give-mcq-09",
-        "give-mcq-06",
-        "give-mcq-10",
-        "give-mcq-05"
+        "give-mcq-21",
+        "give-mcq-43",
+        "give-mcq-37"
       ],
       "explanation": "本句的「given an opportunity」指「讓某人獲得做某件事的可能、條件或權利」。",
       "sentenceIndex": 16,
@@ -1448,12 +1382,10 @@ export default {
         "given an opportunity"
       ],
       "optionReasons": {
-        "give-mcq-08": "本句指「讓某人獲得做某件事的可能、條件或權利」。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-05": "「以說話或文字提出回答、解釋、理由或例子」是「give an answer/reason/example」的用法，與本句語境不同。"
+        "give-mcq-08": "本句的「given an opportunity」指「讓某人獲得做某件事的可能、條件或權利」。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-08"
     },
@@ -1465,11 +1397,9 @@ export default {
       "masked": "Please ____ to think.",
       "options": [
         "give-mcq-09",
-        "give-mcq-08",
-        "give-mcq-10",
-        "give-mcq-07",
-        "give-mcq-11",
-        "give-mcq-06"
+        "give-mcq-21",
+        "give-mcq-13",
+        "give-mcq-19"
       ],
       "explanation": "本句的「give me a few minutes」指「容許某人有足夠時間或不受干擾的空間」。",
       "sentenceIndex": 17,
@@ -1478,12 +1408,10 @@ export default {
         "give me a few minutes"
       ],
       "optionReasons": {
-        "give-mcq-09": "本句指「容許某人有足夠時間或不受干擾的空間」。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-09": "本句的「give me a few minutes」指「容許某人有足夠時間或不受干擾的空間」。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-09"
     },
@@ -1495,11 +1423,9 @@ export default {
       "masked": "She needed some quiet, so we ____.",
       "options": [
         "give-mcq-09",
-        "give-mcq-08",
-        "give-mcq-10",
-        "give-mcq-07",
-        "give-mcq-11",
-        "give-mcq-06"
+        "give-mcq-21",
+        "give-mcq-31",
+        "give-mcq-37"
       ],
       "explanation": "本句的「gave her space」指「容許某人有足夠時間或不受干擾的空間」。",
       "sentenceIndex": 18,
@@ -1508,12 +1434,10 @@ export default {
         "gave her space"
       ],
       "optionReasons": {
-        "give-mcq-09": "本句指「容許某人有足夠時間或不受干擾的空間」。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-06": "「明確或正式地同意某件事情可以進行」是「give permission/approval」的用法，與本句語境不同。"
+        "give-mcq-09": "本句的「gave her space」指「容許某人有足夠時間或不受干擾的空間」。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-09"
     },
@@ -1525,11 +1449,9 @@ export default {
       "masked": "The positive feedback ____.",
       "options": [
         "give-mcq-10",
-        "give-mcq-09",
-        "give-mcq-11",
-        "give-mcq-08",
-        "give-mcq-12",
-        "give-mcq-07"
+        "give-mcq-37",
+        "give-mcq-20",
+        "give-mcq-15"
       ],
       "explanation": "本句的「gave me confidence」指「令某人產生某種正面的心理狀態或感受」。",
       "sentenceIndex": 19,
@@ -1538,12 +1460,10 @@ export default {
         "gave me confidence"
       ],
       "optionReasons": {
-        "give-mcq-10": "本句指「令某人產生某種正面的心理狀態或感受」。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。"
+        "give-mcq-10": "本句的「gave me confidence」指「令某人產生某種正面的心理狀態或感受」。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-10"
     },
@@ -1555,11 +1475,9 @@ export default {
       "masked": "Her words ____.",
       "options": [
         "give-mcq-10",
-        "give-mcq-09",
-        "give-mcq-11",
-        "give-mcq-08",
-        "give-mcq-12",
-        "give-mcq-07"
+        "give-mcq-41",
+        "give-mcq-38",
+        "give-mcq-18"
       ],
       "explanation": "本句的「gave him hope」指「令某人產生某種正面的心理狀態或感受」。",
       "sentenceIndex": 20,
@@ -1568,12 +1486,10 @@ export default {
         "gave him hope"
       ],
       "optionReasons": {
-        "give-mcq-10": "本句指「令某人產生某種正面的心理狀態或感受」。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-07": "「使某人獲得實際、情感或其他形式的幫助」是「give support/help」的用法，與本句語境不同。"
+        "give-mcq-10": "本句的「gave him hope」指「令某人產生某種正面的心理狀態或感受」。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-10"
     },
@@ -1585,11 +1501,9 @@ export default {
       "masked": "The new software ____.",
       "options": [
         "give-mcq-11",
-        "give-mcq-10",
-        "give-mcq-12",
-        "give-mcq-09",
-        "give-mcq-13",
-        "give-mcq-08"
+        "give-mcq-42",
+        "give-mcq-32",
+        "give-mcq-38"
       ],
       "explanation": "本句的「gave us a lot of trouble」指「使某人遇到麻煩、困難或問題」。",
       "sentenceIndex": 21,
@@ -1598,12 +1512,10 @@ export default {
         "gave us a lot of trouble"
       ],
       "optionReasons": {
-        "give-mcq-11": "本句指「使某人遇到麻煩、困難或問題」。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。"
+        "give-mcq-11": "本句的「gave us a lot of trouble」指「使某人遇到麻煩、困難或問題」。",
+        "give-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-11"
     },
@@ -1615,11 +1527,9 @@ export default {
       "masked": "That decision ____.",
       "options": [
         "give-mcq-11",
-        "give-mcq-10",
-        "give-mcq-12",
-        "give-mcq-09",
-        "give-mcq-13",
-        "give-mcq-08"
+        "give-mcq-36",
+        "give-mcq-34",
+        "give-mcq-18"
       ],
       "explanation": "本句的「gave the team a serious problem」指「使某人遇到麻煩、困難或問題」。",
       "sentenceIndex": 22,
@@ -1628,12 +1538,10 @@ export default {
         "gave the team a serious problem"
       ],
       "optionReasons": {
-        "give-mcq-11": "本句指「使某人遇到麻煩、困難或問題」。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-08": "「讓某人獲得做某件事的可能、條件或權利」是「give someone a chance/opportunity」的用法，與本句語境不同。"
+        "give-mcq-11": "本句的「gave the team a serious problem」指「使某人遇到麻煩、困難或問題」。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-11"
     },
@@ -1645,11 +1553,9 @@ export default {
       "masked": "She ____ before I went on stage.",
       "options": [
         "give-mcq-12",
-        "give-mcq-11",
-        "give-mcq-13",
-        "give-mcq-10",
-        "give-mcq-14",
-        "give-mcq-09"
+        "give-mcq-43",
+        "give-mcq-32",
+        "give-mcq-33"
       ],
       "explanation": "本句的「gave me a smile」指「向某人作出某種面部或身體反應」。",
       "sentenceIndex": 23,
@@ -1658,12 +1564,10 @@ export default {
         "gave me a smile"
       ],
       "optionReasons": {
-        "give-mcq-12": "本句指「向某人作出某種面部或身體反應」。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。"
+        "give-mcq-12": "本句的「gave me a smile」指「向某人作出某種面部或身體反應」。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-12"
     },
@@ -1675,11 +1579,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "give-mcq-12",
-        "give-mcq-11",
-        "give-mcq-13",
-        "give-mcq-10",
-        "give-mcq-14",
-        "give-mcq-09"
+        "give-mcq-37",
+        "give-mcq-35",
+        "give-mcq-38"
       ],
       "explanation": "本句的「gave me a strange look」指「向某人作出某種面部或身體反應」。",
       "sentenceIndex": 24,
@@ -1688,12 +1590,10 @@ export default {
         "gave me a strange look"
       ],
       "optionReasons": {
-        "give-mcq-12": "本句指「向某人作出某種面部或身體反應」。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-09": "「容許某人有足夠時間或不受干擾的空間」是「give someone time/space」的用法，與本句語境不同。"
+        "give-mcq-12": "本句的「gave me a strange look」指「向某人作出某種面部或身體反應」。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-12"
     },
@@ -1705,11 +1605,9 @@ export default {
       "masked": "The manager ____ about the deadline.",
       "options": [
         "give-mcq-13",
-        "give-mcq-12",
-        "give-mcq-14",
-        "give-mcq-11",
+        "give-mcq-07",
         "give-mcq-15",
-        "give-mcq-10"
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave a warning」指「正式或明確地發出警告、命令或指示」。",
       "sentenceIndex": 25,
@@ -1718,12 +1616,10 @@ export default {
         "gave a warning"
       ],
       "optionReasons": {
-        "give-mcq-13": "本句指「正式或明確地發出警告、命令或指示」。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。"
+        "give-mcq-13": "本句的「gave a warning」指「正式或明確地發出警告、命令或指示」。",
+        "give-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-13"
     },
@@ -1735,11 +1631,9 @@ export default {
       "masked": "The officer ____ to leave.",
       "options": [
         "give-mcq-13",
-        "give-mcq-12",
-        "give-mcq-14",
-        "give-mcq-11",
-        "give-mcq-15",
-        "give-mcq-10"
+        "give-mcq-39",
+        "give-mcq-32",
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave the order」指「正式或明確地發出警告、命令或指示」。",
       "sentenceIndex": 26,
@@ -1748,12 +1642,10 @@ export default {
         "gave the order"
       ],
       "optionReasons": {
-        "give-mcq-13": "本句指「正式或明確地發出警告、命令或指示」。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-10": "「令某人產生某種正面的心理狀態或感受」是「give confidence/hope/courage」的用法，與本句語境不同。"
+        "give-mcq-13": "本句的「gave the order」指「正式或明確地發出警告、命令或指示」。",
+        "give-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-13"
     },
@@ -1765,11 +1657,9 @@ export default {
       "masked": "I’ll ____ after the meeting.",
       "options": [
         "give-mcq-14",
-        "give-mcq-13",
-        "give-mcq-15",
-        "give-mcq-12",
-        "give-mcq-16",
-        "give-mcq-11"
+        "give-mcq-26",
+        "give-mcq-31",
+        "give-mcq-15"
       ],
       "explanation": "本句的「give you a call」指「打電話聯絡某人」。",
       "sentenceIndex": 27,
@@ -1778,12 +1668,10 @@ export default {
         "give you a call"
       ],
       "optionReasons": {
-        "give-mcq-14": "本句指「打電話聯絡某人」。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。"
+        "give-mcq-14": "本句的「give you a call」指「打電話聯絡某人」。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-14"
     },
@@ -1795,11 +1683,9 @@ export default {
       "masked": "Can you ____ when you arrive?",
       "options": [
         "give-mcq-14",
-        "give-mcq-13",
-        "give-mcq-15",
-        "give-mcq-12",
-        "give-mcq-16",
-        "give-mcq-11"
+        "give-mcq-41",
+        "give-mcq-19",
+        "give-mcq-36"
       ],
       "explanation": "本句的「give me a ring」指「打電話聯絡某人」。",
       "sentenceIndex": 28,
@@ -1808,12 +1694,10 @@ export default {
         "give me a ring"
       ],
       "optionReasons": {
-        "give-mcq-14": "本句指「打電話聯絡某人」。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-11": "「使某人遇到麻煩、困難或問題」是「give trouble/a problem」的用法，與本句語境不同。"
+        "give-mcq-14": "本句的「give me a ring」指「打電話聯絡某人」。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-14"
     },
@@ -1825,11 +1709,9 @@ export default {
       "masked": "You should ____ before deciding.",
       "options": [
         "give-mcq-15",
-        "give-mcq-14",
-        "give-mcq-16",
-        "give-mcq-13",
-        "give-mcq-17",
-        "give-mcq-12"
+        "give-mcq-11",
+        "give-mcq-34",
+        "give-mcq-19"
       ],
       "explanation": "本句的「give the issue more thought」指「把注意力、思考或判斷投入某件事情」。",
       "sentenceIndex": 29,
@@ -1838,12 +1720,10 @@ export default {
         "give the issue more thought"
       ],
       "optionReasons": {
-        "give-mcq-15": "本句指「把注意力、思考或判斷投入某件事情」。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。"
+        "give-mcq-15": "本句的「give the issue more thought」指「把注意力、思考或判斷投入某件事情」。",
+        "give-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-15"
     },
@@ -1855,11 +1735,9 @@ export default {
       "masked": "The proposal deserves to be ____.",
       "options": [
         "give-mcq-15",
-        "give-mcq-14",
-        "give-mcq-16",
-        "give-mcq-13",
         "give-mcq-17",
-        "give-mcq-12"
+        "give-mcq-05",
+        "give-mcq-18"
       ],
       "explanation": "本句的「given serious consideration」指「把注意力、思考或判斷投入某件事情」。",
       "sentenceIndex": 30,
@@ -1868,12 +1746,10 @@ export default {
         "given serious consideration"
       ],
       "optionReasons": {
-        "give-mcq-15": "本句指「把注意力、思考或判斷投入某件事情」。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-12": "「向某人作出某種面部或身體反應」是「give a smile/look/nod」的用法，與本句語境不同。"
+        "give-mcq-15": "本句的「given serious consideration」指「把注意力、思考或判斷投入某件事情」。",
+        "give-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-15"
     },
@@ -1885,11 +1761,9 @@ export default {
       "masked": "We should ____ safety.",
       "options": [
         "give-mcq-16",
-        "give-mcq-15",
-        "give-mcq-17",
         "give-mcq-14",
-        "give-mcq-18",
-        "give-mcq-13"
+        "give-mcq-26",
+        "give-mcq-37"
       ],
       "explanation": "本句的「give priority to」指「把某件事放在其他事情之前優先處理」。",
       "sentenceIndex": 31,
@@ -1898,12 +1772,10 @@ export default {
         "give priority to"
       ],
       "optionReasons": {
-        "give-mcq-16": "本句指「把某件事放在其他事情之前優先處理」。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。"
+        "give-mcq-16": "本句的「give priority to」指「把某件事放在其他事情之前優先處理」。",
+        "give-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-16"
     },
@@ -1915,11 +1787,9 @@ export default {
       "masked": "The company ____ urgent customer complaints.",
       "options": [
         "give-mcq-16",
-        "give-mcq-15",
-        "give-mcq-17",
-        "give-mcq-14",
-        "give-mcq-18",
-        "give-mcq-13"
+        "give-mcq-38",
+        "give-mcq-40",
+        "give-mcq-31"
       ],
       "explanation": "本句的「gave priority to」指「把某件事放在其他事情之前優先處理」。",
       "sentenceIndex": 32,
@@ -1928,12 +1798,10 @@ export default {
         "gave priority to"
       ],
       "optionReasons": {
-        "give-mcq-16": "本句指「把某件事放在其他事情之前優先處理」。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-13": "「正式或明確地發出警告、命令或指示」是「give a warning/order」的用法，與本句語境不同。"
+        "give-mcq-16": "本句的「gave priority to」指「把某件事放在其他事情之前優先處理」。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-16"
     },
@@ -1945,11 +1813,9 @@ export default {
       "masked": "The manager ____ for the project.",
       "options": [
         "give-mcq-17",
-        "give-mcq-16",
-        "give-mcq-18",
-        "give-mcq-15",
-        "give-mcq-19",
-        "give-mcq-14"
+        "give-mcq-43",
+        "give-mcq-36",
+        "give-mcq-05"
       ],
       "explanation": "本句的「gave her responsibility」指「正式授予某人某種權限、控制權或責任」。",
       "sentenceIndex": 33,
@@ -1958,12 +1824,10 @@ export default {
         "gave her responsibility"
       ],
       "optionReasons": {
-        "give-mcq-17": "本句指「正式授予某人某種權限、控制權或責任」。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。"
+        "give-mcq-17": "本句的「gave her responsibility」指「正式授予某人某種權限、控制權或責任」。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-17"
     },
@@ -1975,11 +1839,9 @@ export default {
       "masked": "Only senior staff are ____ to the system.",
       "options": [
         "give-mcq-17",
-        "give-mcq-16",
         "give-mcq-18",
-        "give-mcq-15",
-        "give-mcq-19",
-        "give-mcq-14"
+        "give-mcq-21",
+        "give-mcq-05"
       ],
       "explanation": "本句的「given access」指「正式授予某人某種權限、控制權或責任」。",
       "sentenceIndex": 34,
@@ -1988,12 +1850,10 @@ export default {
         "given access"
       ],
       "optionReasons": {
-        "give-mcq-17": "本句指「正式授予某人某種權限、控制權或責任」。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-14": "「打電話聯絡某人」是「give someone a call/ring」的用法，與本句語境不同。"
+        "give-mcq-17": "本句的「given access」指「正式授予某人某種權限、控制權或責任」。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-17"
     },
@@ -2005,11 +1865,9 @@ export default {
       "masked": "The judges ____.",
       "options": [
         "give-mcq-18",
-        "give-mcq-17",
-        "give-mcq-19",
-        "give-mcq-16",
-        "give-mcq-20",
-        "give-mcq-15"
+        "give-mcq-04",
+        "give-mcq-41",
+        "give-mcq-35"
       ],
       "explanation": "本句的「gave her a high score」指「根據表現作出評分或評級」。",
       "sentenceIndex": 35,
@@ -2018,12 +1876,10 @@ export default {
         "gave her a high score"
       ],
       "optionReasons": {
-        "give-mcq-18": "本句指「根據表現作出評分或評級」。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-20": "「使某物獲得某種意義、價值、地位或特質」是「give something meaning/value」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。"
+        "give-mcq-18": "本句的「gave her a high score」指「根據表現作出評分或評級」。",
+        "give-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-18"
     },
@@ -2035,11 +1891,9 @@ export default {
       "masked": "The teacher ____.",
       "options": [
         "give-mcq-18",
-        "give-mcq-17",
-        "give-mcq-19",
-        "give-mcq-16",
-        "give-mcq-20",
-        "give-mcq-15"
+        "give-mcq-39",
+        "give-mcq-32",
+        "give-mcq-21"
       ],
       "explanation": "本句的「gave the presentation an A」指「根據表現作出評分或評級」。",
       "sentenceIndex": 36,
@@ -2048,12 +1902,10 @@ export default {
         "gave the presentation an A"
       ],
       "optionReasons": {
-        "give-mcq-18": "本句指「根據表現作出評分或評級」。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。",
-        "give-mcq-20": "「使某物獲得某種意義、價值、地位或特質」是「give something meaning/value」的用法，與本句語境不同。",
-        "give-mcq-15": "「把注意力、思考或判斷投入某件事情」是「give thought/attention/consideration」的用法，與本句語境不同。"
+        "give-mcq-18": "本句的「gave the presentation an A」指「根據表現作出評分或評級」。",
+        "give-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-18"
     },
@@ -2065,11 +1917,9 @@ export default {
       "masked": "They ____.",
       "options": [
         "give-mcq-19",
-        "give-mcq-18",
+        "give-mcq-03",
         "give-mcq-20",
-        "give-mcq-17",
-        "give-mcq-21",
-        "give-mcq-16"
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave the project a new name」指「為某物指定或賦予某個名稱、稱號或分類」。",
       "sentenceIndex": 37,
@@ -2078,12 +1928,10 @@ export default {
         "gave the project a new name"
       ],
       "optionReasons": {
-        "give-mcq-19": "本句指「為某物指定或賦予某個名稱、稱號或分類」。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-20": "「使某物獲得某種意義、價值、地位或特質」是「give something meaning/value」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-21": "「生孩子；比喻上可指催生或產生某個新事物」是「give birth」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。"
+        "give-mcq-19": "本句的「gave the project a new name」指「為某物指定或賦予某個名稱、稱號或分類」。",
+        "give-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-19"
     },
@@ -2095,11 +1943,9 @@ export default {
       "masked": "The media ____ ‘historic’.",
       "options": [
         "give-mcq-19",
-        "give-mcq-18",
-        "give-mcq-20",
-        "give-mcq-17",
-        "give-mcq-21",
-        "give-mcq-16"
+        "give-mcq-02",
+        "give-mcq-43",
+        "give-mcq-37"
       ],
       "explanation": "本句的「gave the event the label」指「為某物指定或賦予某個名稱、稱號或分類」。",
       "sentenceIndex": 38,
@@ -2108,12 +1954,10 @@ export default {
         "gave the event the label"
       ],
       "optionReasons": {
-        "give-mcq-19": "本句指「為某物指定或賦予某個名稱、稱號或分類」。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-20": "「使某物獲得某種意義、價值、地位或特質」是「give something meaning/value」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。",
-        "give-mcq-21": "「生孩子；比喻上可指催生或產生某個新事物」是「give birth」的用法，與本句語境不同。",
-        "give-mcq-16": "「把某件事放在其他事情之前優先處理」是「give priority to」的用法，與本句語境不同。"
+        "give-mcq-19": "本句的「gave the event the label」指「為某物指定或賦予某個名稱、稱號或分類」。",
+        "give-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-19"
     },
@@ -2125,11 +1969,9 @@ export default {
       "masked": "The experience ____ to the word confidence.",
       "options": [
         "give-mcq-20",
-        "give-mcq-19",
-        "give-mcq-21",
-        "give-mcq-18",
-        "give-mcq-22",
-        "give-mcq-17"
+        "give-mcq-05",
+        "give-mcq-16",
+        "give-mcq-26"
       ],
       "explanation": "本句的「gave new meaning」指「使某物獲得某種意義、價值、地位或特質」。",
       "sentenceIndex": 39,
@@ -2138,12 +1980,10 @@ export default {
         "gave new meaning"
       ],
       "optionReasons": {
-        "give-mcq-20": "本句指「使某物獲得某種意義、價值、地位或特質」。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-21": "「生孩子；比喻上可指催生或產生某個新事物」是「give birth」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-22": "「讓另一名道路使用者先行」是「give way — traffic」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。"
+        "give-mcq-20": "本句的「gave new meaning」指「使某物獲得某種意義、價值、地位或特質」。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-20"
     },
@@ -2155,11 +1995,9 @@ export default {
       "masked": "His support ____.",
       "options": [
         "give-mcq-20",
-        "give-mcq-19",
-        "give-mcq-21",
-        "give-mcq-18",
-        "give-mcq-22",
-        "give-mcq-17"
+        "give-mcq-30",
+        "give-mcq-33",
+        "give-mcq-19"
       ],
       "explanation": "本句的「gave the project greater credibility」指「使某物獲得某種意義、價值、地位或特質」。",
       "sentenceIndex": 40,
@@ -2168,12 +2006,10 @@ export default {
         "gave the project greater credibility"
       ],
       "optionReasons": {
-        "give-mcq-20": "本句指「使某物獲得某種意義、價值、地位或特質」。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-21": "「生孩子；比喻上可指催生或產生某個新事物」是「give birth」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。",
-        "give-mcq-22": "「讓另一名道路使用者先行」是「give way — traffic」的用法，與本句語境不同。",
-        "give-mcq-17": "「正式授予某人某種權限、控制權或責任」是「give access/control/responsibility」的用法，與本句語境不同。"
+        "give-mcq-20": "本句的「gave the project greater credibility」指「使某物獲得某種意義、價值、地位或特質」。",
+        "give-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-20"
     },
@@ -2185,11 +2021,9 @@ export default {
       "masked": "She ____ to a baby girl last month.",
       "options": [
         "give-mcq-21",
-        "give-mcq-20",
-        "give-mcq-22",
-        "give-mcq-19",
-        "give-mcq-23",
-        "give-mcq-18"
+        "give-mcq-14",
+        "give-mcq-31",
+        "give-mcq-37"
       ],
       "explanation": "本句的「gave birth」指「生孩子；比喻上可指催生或產生某個新事物」。",
       "sentenceIndex": 41,
@@ -2198,12 +2032,10 @@ export default {
         "gave birth"
       ],
       "optionReasons": {
-        "give-mcq-21": "本句指「生孩子；比喻上可指催生或產生某個新事物」。",
-        "give-mcq-20": "「使某物獲得某種意義、價值、地位或特質」是「give something meaning/value」的用法，與本句語境不同。",
-        "give-mcq-22": "「讓另一名道路使用者先行」是「give way — traffic」的用法，與本句語境不同。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-23": "「停止堅持或抵抗而作出讓步」是「give way — yield」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。"
+        "give-mcq-21": "本句的「gave birth」指「生孩子；比喻上可指催生或產生某個新事物」。",
+        "give-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-21"
     },
@@ -2215,11 +2047,9 @@ export default {
       "masked": "The movement ____ several new ideas.",
       "options": [
         "give-mcq-21",
-        "give-mcq-20",
-        "give-mcq-22",
-        "give-mcq-19",
-        "give-mcq-23",
-        "give-mcq-18"
+        "give-mcq-12",
+        "give-mcq-06",
+        "give-mcq-41"
       ],
       "explanation": "本句的「gave birth to」指「生孩子；比喻上可指催生或產生某個新事物」。",
       "sentenceIndex": 42,
@@ -2228,12 +2058,10 @@ export default {
         "gave birth to"
       ],
       "optionReasons": {
-        "give-mcq-21": "本句指「生孩子；比喻上可指催生或產生某個新事物」。",
-        "give-mcq-20": "「使某物獲得某種意義、價值、地位或特質」是「give something meaning/value」的用法，與本句語境不同。",
-        "give-mcq-22": "「讓另一名道路使用者先行」是「give way — traffic」的用法，與本句語境不同。",
-        "give-mcq-19": "「為某物指定或賦予某個名稱、稱號或分類」是「give a name/title/label」的用法，與本句語境不同。",
-        "give-mcq-23": "「停止堅持或抵抗而作出讓步」是「give way — yield」的用法，與本句語境不同。",
-        "give-mcq-18": "「根據表現作出評分或評級」是「give a grade/score」的用法，與本句語境不同。"
+        "give-mcq-21": "本句的「gave birth to」指「生孩子；比喻上可指催生或產生某個新事物」。",
+        "give-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-21"
     },
@@ -2245,11 +2073,9 @@ export default {
       "masked": "The material has a little ____.",
       "options": [
         "give-mcq-43",
-        "give-mcq-42",
-        "give-mcq-44",
         "give-mcq-41",
-        "give-mcq-40",
-        "give-mcq-39"
+        "give-mcq-16",
+        "give-mcq-33"
       ],
       "explanation": "本句的「give」指「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」。",
       "sentenceIndex": 43,
@@ -2258,12 +2084,10 @@ export default {
         "give"
       ],
       "optionReasons": {
-        "give-mcq-43": "本句指「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-44": "「提供新的資訊、觀點或問題，令某人需要進一步思考」是「26. give someone something to think about（令人思考） — 引發思考」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。"
+        "give-mcq-43": "本句的「give」指「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-43"
     },
@@ -2275,11 +2099,9 @@ export default {
       "masked": "The seat should ____ slightly when you sit down.",
       "options": [
         "give-mcq-43",
-        "give-mcq-42",
-        "give-mcq-44",
-        "give-mcq-41",
-        "give-mcq-40",
-        "give-mcq-39"
+        "give-mcq-26",
+        "give-mcq-08",
+        "give-mcq-41"
       ],
       "explanation": "本句的「give」指「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」。",
       "sentenceIndex": 44,
@@ -2288,12 +2110,10 @@ export default {
         "give"
       ],
       "optionReasons": {
-        "give-mcq-43": "本句指「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-44": "「提供新的資訊、觀點或問題，令某人需要進一步思考」是「26. give someone something to think about（令人思考） — 引發思考」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。"
+        "give-mcq-43": "本句的「give」指「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-43"
     },
@@ -2305,11 +2125,9 @@ export default {
       "masked": "The band ____.",
       "options": [
         "give-mcq-26",
-        "give-mcq-25",
-        "give-mcq-27",
-        "give-mcq-24",
-        "give-mcq-28",
-        "give-mcq-23"
+        "give-mcq-21",
+        "give-mcq-38",
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave a brilliant performance」指「進行或呈現一場表演、演出或正式表現」。",
       "sentenceIndex": 45,
@@ -2318,12 +2136,10 @@ export default {
         "gave a brilliant performance"
       ],
       "optionReasons": {
-        "give-mcq-26": "本句指「進行或呈現一場表演、演出或正式表現」。",
-        "give-mcq-25": "「物料受力時稍微彎曲、伸展或移動的彈性」是「give — flexibility」的用法，與本句語境不同。",
-        "give-mcq-27": "「令別人形成某種感覺、看法或判斷」是「give an impression」的用法，與本句語境不同。",
-        "give-mcq-24": "「因承受不了壓力或重量而失去支撐／倒塌」是「give way — collapse」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。",
-        "give-mcq-23": "「停止堅持或抵抗而作出讓步」是「give way — yield」的用法，與本句語境不同。"
+        "give-mcq-26": "本句的「gave a brilliant performance」指「進行或呈現一場表演、演出或正式表現」。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-26"
     },
@@ -2335,11 +2151,9 @@ export default {
       "masked": "She ____ in the final presentation.",
       "options": [
         "give-mcq-26",
-        "give-mcq-25",
-        "give-mcq-27",
-        "give-mcq-24",
-        "give-mcq-28",
-        "give-mcq-23"
+        "give-mcq-09",
+        "give-mcq-41",
+        "give-mcq-31"
       ],
       "explanation": "本句的「gave a confident performance」指「進行或呈現一場表演、演出或正式表現」。",
       "sentenceIndex": 46,
@@ -2348,12 +2162,10 @@ export default {
         "gave a confident performance"
       ],
       "optionReasons": {
-        "give-mcq-26": "本句指「進行或呈現一場表演、演出或正式表現」。",
-        "give-mcq-25": "「物料受力時稍微彎曲、伸展或移動的彈性」是「give — flexibility」的用法，與本句語境不同。",
-        "give-mcq-27": "「令別人形成某種感覺、看法或判斷」是「give an impression」的用法，與本句語境不同。",
-        "give-mcq-24": "「因承受不了壓力或重量而失去支撐／倒塌」是「give way — collapse」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。",
-        "give-mcq-23": "「停止堅持或抵抗而作出讓步」是「give way — yield」的用法，與本句語境不同。"
+        "give-mcq-26": "本句的「gave a confident performance」指「進行或呈現一場表演、演出或正式表現」。",
+        "give-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-26"
     },
@@ -2365,11 +2177,9 @@ export default {
       "masked": "The design ____.",
       "options": [
         "give-mcq-27",
-        "give-mcq-26",
-        "give-mcq-28",
-        "give-mcq-25",
-        "give-mcq-29",
-        "give-mcq-24"
+        "give-mcq-16",
+        "give-mcq-31",
+        "give-mcq-03"
       ],
       "explanation": "本句的「gives an impression of simplicity」指「令別人形成某種感覺、看法或判斷」。",
       "sentenceIndex": 47,
@@ -2378,12 +2188,10 @@ export default {
         "gives an impression of simplicity"
       ],
       "optionReasons": {
-        "give-mcq-27": "本句指「令別人形成某種感覺、看法或判斷」。",
-        "give-mcq-26": "「進行或呈現一場表演、演出或正式表現」是「give a performance」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。",
-        "give-mcq-25": "「物料受力時稍微彎曲、伸展或移動的彈性」是「give — flexibility」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-24": "「因承受不了壓力或重量而失去支撐／倒塌」是「give way — collapse」的用法，與本句語境不同。"
+        "give-mcq-27": "本句的「gives an impression of simplicity」指「令別人形成某種感覺、看法或判斷」。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-27"
     },
@@ -2395,11 +2203,9 @@ export default {
       "masked": "His voice ____ that he was nervous.",
       "options": [
         "give-mcq-27",
-        "give-mcq-26",
-        "give-mcq-28",
-        "give-mcq-25",
-        "give-mcq-29",
-        "give-mcq-24"
+        "give-mcq-19",
+        "give-mcq-31",
+        "give-mcq-37"
       ],
       "explanation": "本句的「gave me the impression」指「令別人形成某種感覺、看法或判斷」。",
       "sentenceIndex": 48,
@@ -2408,12 +2214,10 @@ export default {
         "gave me the impression"
       ],
       "optionReasons": {
-        "give-mcq-27": "本句指「令別人形成某種感覺、看法或判斷」。",
-        "give-mcq-26": "「進行或呈現一場表演、演出或正式表現」是「give a performance」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。",
-        "give-mcq-25": "「物料受力時稍微彎曲、伸展或移動的彈性」是「give — flexibility」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-24": "「因承受不了壓力或重量而失去支撐／倒塌」是「give way — collapse」的用法，與本句語境不同。"
+        "give-mcq-27": "本句的「gave me the impression」指「令別人形成某種感覺、看法或判斷」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-27"
     },
@@ -2425,11 +2229,9 @@ export default {
       "masked": "The feedback ____.",
       "options": [
         "give-mcq-44",
+        "give-mcq-35",
         "give-mcq-43",
-        "give-mcq-42",
-        "give-mcq-41",
-        "give-mcq-40",
-        "give-mcq-39"
+        "give-mcq-41"
       ],
       "explanation": "本句的「gave me something to think about」指「提供新的資訊、觀點或問題，令某人需要進一步思考」。",
       "sentenceIndex": 49,
@@ -2438,12 +2240,10 @@ export default {
         "gave me something to think about"
       ],
       "optionReasons": {
-        "give-mcq-44": "本句指「提供新的資訊、觀點或問題，令某人需要進一步思考」。",
-        "give-mcq-43": "「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」是「23. give = bend/yield under pressure（物料可彎曲／有彈性） — 有彈性；會讓位」的用法，與本句語境不同。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。"
+        "give-mcq-44": "本句的「gave me something to think about」指「提供新的資訊、觀點或問題，令某人需要進一步思考」。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-44"
     },
@@ -2455,11 +2255,9 @@ export default {
       "masked": "The question really ____.",
       "options": [
         "give-mcq-44",
-        "give-mcq-43",
-        "give-mcq-42",
-        "give-mcq-41",
-        "give-mcq-40",
-        "give-mcq-39"
+        "give-mcq-16",
+        "give-mcq-31",
+        "give-mcq-41"
       ],
       "explanation": "本句的「gave the audience something to think about」指「提供新的資訊、觀點或問題，令某人需要進一步思考」。",
       "sentenceIndex": 50,
@@ -2468,12 +2266,10 @@ export default {
         "gave the audience something to think about"
       ],
       "optionReasons": {
-        "give-mcq-44": "本句指「提供新的資訊、觀點或問題，令某人需要進一步思考」。",
-        "give-mcq-43": "「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」是「23. give = bend/yield under pressure（物料可彎曲／有彈性） — 有彈性；會讓位」的用法，與本句語境不同。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。"
+        "give-mcq-44": "本句的「gave the audience something to think about」指「提供新的資訊、觀點或問題，令某人需要進一步思考」。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-44"
     },
@@ -2485,11 +2281,9 @@ export default {
       "masked": "You should ____ for facing your fear.",
       "options": [
         "give-mcq-28",
-        "give-mcq-27",
-        "give-mcq-29",
-        "give-mcq-26",
-        "give-mcq-30",
-        "give-mcq-25"
+        "give-mcq-18",
+        "give-mcq-06",
+        "give-mcq-41"
       ],
       "explanation": "本句的「give yourself credit」指「承認某人的貢獻、能力或值得肯定之處」。",
       "sentenceIndex": 51,
@@ -2498,12 +2292,10 @@ export default {
         "give yourself credit"
       ],
       "optionReasons": {
-        "give-mcq-28": "本句指「承認某人的貢獻、能力或值得肯定之處」。",
-        "give-mcq-27": "「令別人形成某種感覺、看法或判斷」是「give an impression」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-26": "「進行或呈現一場表演、演出或正式表現」是「give a performance」的用法，與本句語境不同。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。",
-        "give-mcq-25": "「物料受力時稍微彎曲、伸展或移動的彈性」是「give — flexibility」的用法，與本句語境不同。"
+        "give-mcq-28": "本句的「give yourself credit」指「承認某人的貢獻、能力或值得肯定之處」。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-28"
     },
@@ -2515,11 +2307,9 @@ export default {
       "masked": "The manager ____ for the success.",
       "options": [
         "give-mcq-28",
-        "give-mcq-27",
-        "give-mcq-29",
-        "give-mcq-26",
-        "give-mcq-30",
-        "give-mcq-25"
+        "give-mcq-35",
+        "give-mcq-42",
+        "give-mcq-21"
       ],
       "explanation": "本句的「gave the team credit」指「承認某人的貢獻、能力或值得肯定之處」。",
       "sentenceIndex": 52,
@@ -2528,12 +2318,10 @@ export default {
         "gave the team credit"
       ],
       "optionReasons": {
-        "give-mcq-28": "本句指「承認某人的貢獻、能力或值得肯定之處」。",
-        "give-mcq-27": "「令別人形成某種感覺、看法或判斷」是「give an impression」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-26": "「進行或呈現一場表演、演出或正式表現」是「give a performance」的用法，與本句語境不同。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。",
-        "give-mcq-25": "「物料受力時稍微彎曲、伸展或移動的彈性」是「give — flexibility」的用法，與本句語境不同。"
+        "give-mcq-28": "本句的「gave the team credit」指「承認某人的貢獻、能力或值得肯定之處」。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-28"
     },
@@ -2545,11 +2333,9 @@ export default {
       "masked": "Could you ____ with these slides?",
       "options": [
         "give-mcq-30",
-        "give-mcq-29",
-        "give-mcq-31",
-        "give-mcq-28",
-        "give-mcq-32",
-        "give-mcq-27"
+        "give-mcq-37",
+        "give-mcq-20",
+        "give-mcq-18"
       ],
       "explanation": "本句的「give me a hand」指「幫助某人完成某件事情」。",
       "sentenceIndex": 53,
@@ -2558,12 +2344,10 @@ export default {
         "give me a hand"
       ],
       "optionReasons": {
-        "give-mcq-30": "本句指「幫助某人完成某件事情」。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-27": "「令別人形成某種感覺、看法或判斷」是「give an impression」的用法，與本句語境不同。"
+        "give-mcq-30": "本句的「give me a hand」指「幫助某人完成某件事情」。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-30"
     },
@@ -2575,11 +2359,9 @@ export default {
       "masked": "Two colleagues ____ with the equipment.",
       "options": [
         "give-mcq-30",
-        "give-mcq-29",
-        "give-mcq-31",
-        "give-mcq-28",
-        "give-mcq-32",
-        "give-mcq-27"
+        "give-mcq-37",
+        "give-mcq-21",
+        "give-mcq-19"
       ],
       "explanation": "本句的「gave me a hand」指「幫助某人完成某件事情」。",
       "sentenceIndex": 54,
@@ -2588,12 +2370,10 @@ export default {
         "gave me a hand"
       ],
       "optionReasons": {
-        "give-mcq-30": "本句指「幫助某人完成某件事情」。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-27": "「令別人形成某種感覺、看法或判斷」是「give an impression」的用法，與本句語境不同。"
+        "give-mcq-30": "本句的「gave me a hand」指「幫助某人完成某件事情」。",
+        "give-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-30"
     },
@@ -2605,11 +2385,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "give-mcq-31",
-        "give-mcq-30",
-        "give-mcq-32",
-        "give-mcq-29",
+        "give-mcq-27",
         "give-mcq-33",
-        "give-mcq-28"
+        "give-mcq-32"
       ],
       "explanation": "本句的「give our speaker a hand」指「以鼓掌方式表示支持或讚賞」。",
       "sentenceIndex": 55,
@@ -2618,12 +2396,10 @@ export default {
         "give our speaker a hand"
       ],
       "optionReasons": {
-        "give-mcq-31": "本句指「以鼓掌方式表示支持或讚賞」。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。"
+        "give-mcq-31": "本句的「give our speaker a hand」指「以鼓掌方式表示支持或讚賞」。",
+        "give-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-31"
     },
@@ -2635,11 +2411,9 @@ export default {
       "masked": "The audience ____ at the end.",
       "options": [
         "give-mcq-31",
-        "give-mcq-30",
-        "give-mcq-32",
-        "give-mcq-29",
-        "give-mcq-33",
-        "give-mcq-28"
+        "give-mcq-41",
+        "give-mcq-05",
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave him a big hand」指「以鼓掌方式表示支持或讚賞」。",
       "sentenceIndex": 56,
@@ -2648,12 +2422,10 @@ export default {
         "gave him a big hand"
       ],
       "optionReasons": {
-        "give-mcq-31": "本句指「以鼓掌方式表示支持或讚賞」。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-28": "「承認某人的貢獻、能力或值得肯定之處」是「give someone credit」的用法，與本句語境不同。"
+        "give-mcq-31": "本句的「gave him a big hand」指「以鼓掌方式表示支持或讚賞」。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-31"
     },
@@ -2665,11 +2437,9 @@ export default {
       "masked": "I ____ that I’ll finish it today.",
       "options": [
         "give-mcq-32",
+        "give-mcq-12",
         "give-mcq-31",
-        "give-mcq-33",
-        "give-mcq-30",
-        "give-mcq-34",
-        "give-mcq-29"
+        "give-mcq-20"
       ],
       "explanation": "本句的「give you my word」指「鄭重承諾某件事情是真的或自己一定會履行」。",
       "sentenceIndex": 57,
@@ -2678,12 +2448,10 @@ export default {
         "give you my word"
       ],
       "optionReasons": {
-        "give-mcq-32": "本句指「鄭重承諾某件事情是真的或自己一定會履行」。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。"
+        "give-mcq-32": "本句的「give you my word」指「鄭重承諾某件事情是真的或自己一定會履行」。",
+        "give-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-32"
     },
@@ -2695,11 +2463,9 @@ export default {
       "masked": "He ____ that the information would remain private.",
       "options": [
         "give-mcq-32",
+        "give-mcq-27",
         "give-mcq-31",
-        "give-mcq-33",
-        "give-mcq-30",
-        "give-mcq-34",
-        "give-mcq-29"
+        "give-mcq-13"
       ],
       "explanation": "本句的「gave his word」指「鄭重承諾某件事情是真的或自己一定會履行」。",
       "sentenceIndex": 58,
@@ -2708,12 +2474,10 @@ export default {
         "gave his word"
       ],
       "optionReasons": {
-        "give-mcq-32": "本句指「鄭重承諾某件事情是真的或自己一定會履行」。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-29": "「讓某人休息，或在要求／批評上對某人寬鬆一點」是「give someone a break」的用法，與本句語境不同。"
+        "give-mcq-32": "本句的「gave his word」指「鄭重承諾某件事情是真的或自己一定會履行」。",
+        "give-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-32"
     },
@@ -2725,11 +2489,9 @@ export default {
       "masked": "She ____ to everyone who had supported her.",
       "options": [
         "give-mcq-33",
-        "give-mcq-32",
-        "give-mcq-34",
-        "give-mcq-31",
-        "give-mcq-35",
-        "give-mcq-30"
+        "give-mcq-39",
+        "give-mcq-15",
+        "give-mcq-43"
       ],
       "explanation": "本句的「gave thanks」指「正式或明確地表達感謝」。",
       "sentenceIndex": 59,
@@ -2738,12 +2500,10 @@ export default {
         "gave thanks"
       ],
       "optionReasons": {
-        "give-mcq-33": "本句指「正式或明確地表達感謝」。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。"
+        "give-mcq-33": "本句的「gave thanks」指「正式或明確地表達感謝」。",
+        "give-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-33"
     },
@@ -2755,11 +2515,9 @@ export default {
       "masked": "We should ____ for the help we received.",
       "options": [
         "give-mcq-33",
-        "give-mcq-32",
-        "give-mcq-34",
-        "give-mcq-31",
-        "give-mcq-35",
-        "give-mcq-30"
+        "give-mcq-30",
+        "give-mcq-43",
+        "give-mcq-19"
       ],
       "explanation": "本句的「give thanks」指「正式或明確地表達感謝」。",
       "sentenceIndex": 60,
@@ -2768,12 +2526,10 @@ export default {
         "give thanks"
       ],
       "optionReasons": {
-        "give-mcq-33": "本句指「正式或明確地表達感謝」。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-30": "「幫助某人完成某件事情」是「give someone a hand — help」的用法，與本句語境不同。"
+        "give-mcq-33": "本句的「give thanks」指「正式或明確地表達感謝」。",
+        "give-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-33"
     },
@@ -2785,11 +2541,9 @@ export default {
       "masked": "She was asked to ____ in court.",
       "options": [
         "give-mcq-34",
-        "give-mcq-33",
-        "give-mcq-35",
-        "give-mcq-32",
-        "give-mcq-36",
-        "give-mcq-31"
+        "give-mcq-19",
+        "give-mcq-16",
+        "give-mcq-21"
       ],
       "explanation": "本句的「give evidence」指「在正式／法律情況下提供證據、證詞或所知事實」。",
       "sentenceIndex": 61,
@@ -2798,12 +2552,10 @@ export default {
         "give evidence"
       ],
       "optionReasons": {
-        "give-mcq-34": "本句指「在正式／法律情況下提供證據、證詞或所知事實」。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。"
+        "give-mcq-34": "本句的「give evidence」指「在正式／法律情況下提供證據、證詞或所知事實」。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-34"
     },
@@ -2815,11 +2567,9 @@ export default {
       "masked": "The witness ____.",
       "options": [
         "give-mcq-34",
-        "give-mcq-33",
-        "give-mcq-35",
-        "give-mcq-32",
         "give-mcq-36",
-        "give-mcq-31"
+        "give-mcq-11",
+        "give-mcq-19"
       ],
       "explanation": "本句的「gave detailed testimony」指「在正式／法律情況下提供證據、證詞或所知事實」。",
       "sentenceIndex": 62,
@@ -2828,12 +2578,10 @@ export default {
         "gave detailed testimony"
       ],
       "optionReasons": {
-        "give-mcq-34": "本句指「在正式／法律情況下提供證據、證詞或所知事實」。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-31": "「以鼓掌方式表示支持或讚賞」是「give someone a hand — applause」的用法，與本句語境不同。"
+        "give-mcq-34": "本句的「gave detailed testimony」指「在正式／法律情況下提供證據、證詞或所知事實」。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-34"
     },
@@ -2845,11 +2593,9 @@ export default {
       "masked": "Employees must ____ before leaving.",
       "options": [
         "give-mcq-35",
-        "give-mcq-34",
-        "give-mcq-36",
-        "give-mcq-33",
-        "give-mcq-37",
-        "give-mcq-32"
+        "give-mcq-28",
+        "give-mcq-19",
+        "give-mcq-42"
       ],
       "explanation": "本句的「give one month’s notice」指「按正式程序預先通知某件將發生的事情」。",
       "sentenceIndex": 63,
@@ -2858,12 +2604,10 @@ export default {
         "give one month’s notice"
       ],
       "optionReasons": {
-        "give-mcq-35": "本句指「按正式程序預先通知某件將發生的事情」。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。"
+        "give-mcq-35": "本句的「give one month’s notice」指「按正式程序預先通知某件將發生的事情」。",
+        "give-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-35"
     },
@@ -2875,11 +2619,9 @@ export default {
       "masked": "She ____ that she would resign.",
       "options": [
         "give-mcq-35",
-        "give-mcq-34",
-        "give-mcq-36",
-        "give-mcq-33",
-        "give-mcq-37",
-        "give-mcq-32"
+        "give-mcq-14",
+        "give-mcq-31",
+        "give-mcq-38"
       ],
       "explanation": "本句的「gave notice」指「按正式程序預先通知某件將發生的事情」。",
       "sentenceIndex": 64,
@@ -2888,12 +2630,10 @@ export default {
         "gave notice"
       ],
       "optionReasons": {
-        "give-mcq-35": "本句指「按正式程序預先通知某件將發生的事情」。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-32": "「鄭重承諾某件事情是真的或自己一定會履行」是「give someone your word」的用法，與本句語境不同。"
+        "give-mcq-35": "本句的「gave notice」指「按正式程序預先通知某件將發生的事情」。",
+        "give-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-35"
     },
@@ -2905,11 +2645,9 @@ export default {
       "masked": "The decision ____ several complaints.",
       "options": [
         "give-mcq-36",
-        "give-mcq-35",
-        "give-mcq-37",
-        "give-mcq-34",
-        "give-mcq-38",
-        "give-mcq-33"
+        "give-mcq-28",
+        "give-mcq-33",
+        "give-mcq-41"
       ],
       "explanation": "本句的「gave rise to」指「令另一件事情產生、出現或發展出來；引起／導致」。",
       "sentenceIndex": 65,
@@ -2918,12 +2656,10 @@ export default {
         "gave rise to"
       ],
       "optionReasons": {
-        "give-mcq-36": "本句指「令另一件事情產生、出現或發展出來；引起／導致」。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。"
+        "give-mcq-36": "本句的「gave rise to」指「令另一件事情產生、出現或發展出來；引起／導致」。",
+        "give-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-36"
     },
@@ -2935,11 +2671,9 @@ export default {
       "masked": "Poor communication can ____ misunderstandings.",
       "options": [
         "give-mcq-36",
-        "give-mcq-35",
-        "give-mcq-37",
         "give-mcq-34",
-        "give-mcq-38",
-        "give-mcq-33"
+        "give-mcq-31",
+        "give-mcq-19"
       ],
       "explanation": "本句的「give rise to」指「令另一件事情產生、出現或發展出來；引起／導致」。",
       "sentenceIndex": 66,
@@ -2948,12 +2682,10 @@ export default {
         "give rise to"
       ],
       "optionReasons": {
-        "give-mcq-36": "本句指「令另一件事情產生、出現或發展出來；引起／導致」。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-33": "「正式或明確地表達感謝」是「give thanks」的用法，與本句語境不同。"
+        "give-mcq-36": "本句的「give rise to」指「令另一件事情產生、出現或發展出來；引起／導致」。",
+        "give-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-36"
     },
@@ -2965,11 +2697,9 @@ export default {
       "masked": "____ the size of the audience, it was natural to feel nervous.",
       "options": [
         "give-mcq-37",
-        "give-mcq-36",
-        "give-mcq-38",
-        "give-mcq-35",
-        "give-mcq-39",
-        "give-mcq-34"
+        "give-mcq-31",
+        "give-mcq-17",
+        "give-mcq-18"
       ],
       "explanation": "本句的「Given」指「把某個已知事實或情況納入考慮；鑑於／考慮到」。",
       "sentenceIndex": 67,
@@ -2978,12 +2708,10 @@ export default {
         "Given"
       ],
       "optionReasons": {
-        "give-mcq-37": "本句指「把某個已知事實或情況納入考慮；鑑於／考慮到」。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。"
+        "give-mcq-37": "本句的「Given」指「把某個已知事實或情況納入考慮；鑑於／考慮到」。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-37"
     },
@@ -2995,11 +2723,9 @@ export default {
       "masked": "____ his experience, he handled the situation well.",
       "options": [
         "give-mcq-37",
-        "give-mcq-36",
-        "give-mcq-38",
-        "give-mcq-35",
-        "give-mcq-39",
-        "give-mcq-34"
+        "give-mcq-14",
+        "give-mcq-33",
+        "give-mcq-31"
       ],
       "explanation": "本句的「Given」指「把某個已知事實或情況納入考慮；鑑於／考慮到」。",
       "sentenceIndex": 68,
@@ -3008,12 +2734,10 @@ export default {
         "Given"
       ],
       "optionReasons": {
-        "give-mcq-37": "本句指「把某個已知事實或情況納入考慮；鑑於／考慮到」。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-34": "「在正式／法律情況下提供證據、證詞或所知事實」是「give evidence/testimony」的用法，與本句語境不同。"
+        "give-mcq-37": "本句的「Given」指「把某個已知事實或情況納入考慮；鑑於／考慮到」。",
+        "give-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-37"
     },
@@ -3025,11 +2749,9 @@ export default {
       "masked": "The task must be completed within the ____.",
       "options": [
         "give-mcq-38",
-        "give-mcq-37",
-        "give-mcq-39",
-        "give-mcq-36",
-        "give-mcq-40",
-        "give-mcq-35"
+        "give-mcq-35",
+        "give-mcq-43",
+        "give-mcq-42"
       ],
       "explanation": "本句的「given time」指「已經被指定、提供或確定的」。",
       "sentenceIndex": 69,
@@ -3038,12 +2760,10 @@ export default {
         "given time"
       ],
       "optionReasons": {
-        "give-mcq-38": "本句指「已經被指定、提供或確定的」。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。"
+        "give-mcq-38": "本句的「given time」指「已經被指定、提供或確定的」。",
+        "give-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-38"
     },
@@ -3055,11 +2775,9 @@ export default {
       "masked": "Use the ____ to answer the question.",
       "options": [
         "give-mcq-38",
-        "give-mcq-37",
-        "give-mcq-39",
-        "give-mcq-36",
-        "give-mcq-40",
-        "give-mcq-35"
+        "give-mcq-16",
+        "give-mcq-41",
+        "give-mcq-42"
       ],
       "explanation": "本句的「given information」指「已經被指定、提供或確定的」。",
       "sentenceIndex": 70,
@@ -3068,12 +2786,10 @@ export default {
         "given information"
       ],
       "optionReasons": {
-        "give-mcq-38": "本句指「已經被指定、提供或確定的」。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。"
+        "give-mcq-38": "本句的「given information」指「已經被指定、提供或確定的」。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-38"
     },
@@ -3085,11 +2801,9 @@ export default {
       "masked": "I was ____ that the meeting had been cancelled.",
       "options": [
         "give-pdf-001",
-        "give-mcq-37",
-        "give-mcq-39",
-        "give-mcq-36",
-        "give-mcq-40",
-        "give-mcq-35"
+        "give-mcq-32",
+        "give-mcq-31",
+        "give-mcq-26"
       ],
       "explanation": "本句的「given to understand」指「根據別人提供的資料而被告知／形成某種理解」。",
       "sentenceIndex": 71,
@@ -3098,12 +2812,10 @@ export default {
         "given to understand"
       ],
       "optionReasons": {
-        "give-pdf-001": "本句指「根據別人提供的資料而被告知／形成某種理解」。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。"
+        "give-pdf-001": "本句的「given to understand」指「根據別人提供的資料而被告知／形成某種理解」。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-pdf-001"
     },
@@ -3115,11 +2827,9 @@ export default {
       "masked": "We were ____ that the project was on schedule.",
       "options": [
         "give-pdf-001",
-        "give-mcq-37",
-        "give-mcq-39",
-        "give-mcq-36",
-        "give-mcq-40",
-        "give-mcq-35"
+        "give-mcq-31",
+        "give-mcq-15",
+        "give-mcq-19"
       ],
       "explanation": "本句的「given to believe」指「根據別人提供的資料而被告知／形成某種理解」。",
       "sentenceIndex": 72,
@@ -3128,12 +2838,10 @@ export default {
         "given to believe"
       ],
       "optionReasons": {
-        "give-pdf-001": "本句指「根據別人提供的資料而被告知／形成某種理解」。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-35": "「按正式程序預先通知某件將發生的事情」是「give notice」的用法，與本句語境不同。"
+        "give-pdf-001": "本句的「given to believe」指「根據別人提供的資料而被告知／形成某種理解」。",
+        "give-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-pdf-001"
     },
@@ -3145,10 +2853,8 @@ export default {
       "masked": "The value of a gift depends on both the ____ and the receiver.",
       "options": [
         "give-mcq-39",
-        "give-mcq-38",
-        "give-mcq-40",
-        "give-mcq-37",
         "give-mcq-41",
+        "give-mcq-13",
         "give-mcq-36"
       ],
       "explanation": "本句的「giver」指「把物品、金錢、幫助或其他事物給予別人的人」。",
@@ -3158,12 +2864,10 @@ export default {
         "giver"
       ],
       "optionReasons": {
-        "give-mcq-39": "本句指「把物品、金錢、幫助或其他事物給予別人的人」。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。"
+        "give-mcq-39": "本句的「giver」指「把物品、金錢、幫助或其他事物給予別人的人」。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-39"
     },
@@ -3175,11 +2879,9 @@ export default {
       "masked": "She has always been a generous ____.",
       "options": [
         "give-mcq-39",
-        "give-mcq-38",
-        "give-mcq-40",
-        "give-mcq-37",
+        "give-mcq-36",
         "give-mcq-41",
-        "give-mcq-36"
+        "give-mcq-43"
       ],
       "explanation": "本句的「giver」指「把物品、金錢、幫助或其他事物給予別人的人」。",
       "sentenceIndex": 74,
@@ -3188,12 +2890,10 @@ export default {
         "giver"
       ],
       "optionReasons": {
-        "give-mcq-39": "本句指「把物品、金錢、幫助或其他事物給予別人的人」。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-36": "「令另一件事情產生、出現或發展出來；引起／導致」是「give rise to」的用法，與本句語境不同。"
+        "give-mcq-39": "本句的「giver」指「把物品、金錢、幫助或其他事物給予別人的人」。",
+        "give-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-39"
     },
@@ -3205,11 +2905,9 @@ export default {
       "masked": "The company offered a free ____ at the event.",
       "options": [
         "give-mcq-40",
-        "give-mcq-39",
-        "give-mcq-41",
-        "give-mcq-38",
-        "give-mcq-42",
-        "give-mcq-37"
+        "give-mcq-20",
+        "give-mcq-15",
+        "give-mcq-19"
       ],
       "explanation": "本句的「giveaway」指「商戶或機構免費送出的物品／宣傳贈品」。",
       "sentenceIndex": 75,
@@ -3218,12 +2916,10 @@ export default {
         "giveaway"
       ],
       "optionReasons": {
-        "give-mcq-40": "本句指「商戶或機構免費送出的物品／宣傳贈品」。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。"
+        "give-mcq-40": "本句的「giveaway」指「商戶或機構免費送出的物品／宣傳贈品」。",
+        "give-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-40"
     },
@@ -3235,11 +2931,9 @@ export default {
       "masked": "Promotional ____ attracted more visitors to the booth.",
       "options": [
         "give-mcq-40",
-        "give-mcq-39",
-        "give-mcq-41",
-        "give-mcq-38",
-        "give-mcq-42",
-        "give-mcq-37"
+        "give-mcq-16",
+        "give-mcq-33",
+        "give-mcq-41"
       ],
       "explanation": "本句的「giveaways」指「商戶或機構免費送出的物品／宣傳贈品」。",
       "sentenceIndex": 76,
@@ -3248,12 +2942,10 @@ export default {
         "giveaways"
       ],
       "optionReasons": {
-        "give-mcq-40": "本句指「商戶或機構免費送出的物品／宣傳贈品」。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-37": "「把某個已知事實或情況納入考慮；鑑於／考慮到」是「given = considering」的用法，與本句語境不同。"
+        "give-mcq-40": "本句的「giveaways」指「商戶或機構免費送出的物品／宣傳贈品」。",
+        "give-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-40"
     },
@@ -3265,11 +2957,9 @@ export default {
       "masked": "His nervous expression was a clear ____.",
       "options": [
         "give-mcq-41",
-        "give-mcq-40",
-        "give-mcq-42",
-        "give-mcq-39",
-        "give-mcq-43",
-        "give-mcq-38"
+        "give-mcq-21",
+        "give-mcq-03",
+        "give-mcq-39"
       ],
       "explanation": "本句的「giveaway」指「無意中暴露真實情況、身份或秘密的明顯線索」。",
       "sentenceIndex": 77,
@@ -3278,12 +2968,10 @@ export default {
         "giveaway"
       ],
       "optionReasons": {
-        "give-mcq-41": "本句指「無意中暴露真實情況、身份或秘密的明顯線索」。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-43": "「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」是「23. give = bend/yield under pressure（物料可彎曲／有彈性） — 有彈性；會讓位」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。"
+        "give-mcq-41": "本句的「giveaway」指「無意中暴露真實情況、身份或秘密的明顯線索」。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-41"
     },
@@ -3295,11 +2983,9 @@ export default {
       "masked": "The spelling mistakes were a ____ that the message was fake.",
       "options": [
         "give-mcq-41",
-        "give-mcq-40",
-        "give-mcq-42",
         "give-mcq-39",
-        "give-mcq-43",
-        "give-mcq-38"
+        "give-mcq-21",
+        "give-mcq-26"
       ],
       "explanation": "本句的「giveaway」指「無意中暴露真實情況、身份或秘密的明顯線索」。",
       "sentenceIndex": 78,
@@ -3308,12 +2994,10 @@ export default {
         "giveaway"
       ],
       "optionReasons": {
-        "give-mcq-41": "本句指「無意中暴露真實情況、身份或秘密的明顯線索」。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-42": "「雙方互相配合、交換意見或作出合理讓步」是「give-and-take」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。",
-        "give-mcq-43": "「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」是「23. give = bend/yield under pressure（物料可彎曲／有彈性） — 有彈性；會讓位」的用法，與本句語境不同。",
-        "give-mcq-38": "「已經被指定、提供或確定的」是「given = specified」的用法，與本句語境不同。"
+        "give-mcq-41": "本句的「giveaway」指「無意中暴露真實情況、身份或秘密的明顯線索」。",
+        "give-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-41"
     },
@@ -3325,11 +3009,9 @@ export default {
       "masked": "Successful teamwork requires some ____.",
       "options": [
         "give-mcq-42",
-        "give-mcq-41",
-        "give-mcq-43",
-        "give-mcq-40",
-        "give-mcq-44",
-        "give-mcq-39"
+        "give-mcq-14",
+        "give-mcq-32",
+        "give-mcq-03"
       ],
       "explanation": "本句的「give-and-take」指「雙方互相配合、交換意見或作出合理讓步」。",
       "sentenceIndex": 79,
@@ -3338,12 +3020,10 @@ export default {
         "give-and-take"
       ],
       "optionReasons": {
-        "give-mcq-42": "本句指「雙方互相配合、交換意見或作出合理讓步」。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-43": "「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」是「23. give = bend/yield under pressure（物料可彎曲／有彈性） — 有彈性；會讓位」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-44": "「提供新的資訊、觀點或問題，令某人需要進一步思考」是「26. give someone something to think about（令人思考） — 引發思考」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。"
+        "give-mcq-42": "本句的「give-and-take」指「雙方互相配合、交換意見或作出合理讓步」。",
+        "give-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-42"
     },
@@ -3355,11 +3035,9 @@ export default {
       "masked": "Good discussions involve plenty of ____.",
       "options": [
         "give-mcq-42",
-        "give-mcq-41",
         "give-mcq-43",
-        "give-mcq-40",
-        "give-mcq-44",
-        "give-mcq-39"
+        "give-mcq-17",
+        "give-mcq-38"
       ],
       "explanation": "本句的「give-and-take」指「雙方互相配合、交換意見或作出合理讓步」。",
       "sentenceIndex": 80,
@@ -3368,12 +3046,10 @@ export default {
         "give-and-take"
       ],
       "optionReasons": {
-        "give-mcq-42": "本句指「雙方互相配合、交換意見或作出合理讓步」。",
-        "give-mcq-41": "「無意中暴露真實情況、身份或秘密的明顯線索」是「giveaway — clue」的用法，與本句語境不同。",
-        "give-mcq-43": "「在受力時稍微彎曲、伸展或移動，而不是完全堅硬不動」是「23. give = bend/yield under pressure（物料可彎曲／有彈性） — 有彈性；會讓位」的用法，與本句語境不同。",
-        "give-mcq-40": "「商戶或機構免費送出的物品／宣傳贈品」是「giveaway — free item」的用法，與本句語境不同。",
-        "give-mcq-44": "「提供新的資訊、觀點或問題，令某人需要進一步思考」是「26. give someone something to think about（令人思考） — 引發思考」的用法，與本句語境不同。",
-        "give-mcq-39": "「把物品、金錢、幫助或其他事物給予別人的人」是「giver」的用法，與本句語境不同。"
+        "give-mcq-42": "本句的「give-and-take」指「雙方互相配合、交換意見或作出合理讓步」。",
+        "give-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "give-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "give-mcq-42"
     }
@@ -3385,5 +3061,7 @@ export default {
     "sha256": "1923faec96dec79321a25a3cdf5dd160d549b93320f6b3cac6de80392461fa8d",
     "pages": 29
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

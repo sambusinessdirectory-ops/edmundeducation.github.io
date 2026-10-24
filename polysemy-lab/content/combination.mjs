@@ -442,11 +442,9 @@ export default {
       "masked": "The dish uses an unusual ____.",
       "options": [
         "combination-mcq-01",
-        "combination-mcq-02",
-        "combination-mcq-03",
-        "combination-mcq-04",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-08",
+        "combination-mcq-13",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of flavours」指「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」。",
       "sentenceIndex": 2,
@@ -455,12 +453,10 @@ export default {
         "combination of flavours"
       ],
       "optionReasons": {
-        "combination-mcq-01": "本句指「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-01": "本句的「combination of flavours」指「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-01"
     },
@@ -472,11 +468,9 @@ export default {
       "masked": "The design is a ____.",
       "options": [
         "combination-mcq-01",
-        "combination-mcq-02",
-        "combination-mcq-03",
-        "combination-mcq-04",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-08",
+        "combination-mcq-13",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of modern and traditional styles」指「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」。",
       "sentenceIndex": 3,
@@ -485,12 +479,10 @@ export default {
         "combination of modern and traditional styles"
       ],
       "optionReasons": {
-        "combination-mcq-01": "本句指「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-01": "本句的「combination of modern and traditional styles」指「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-01"
     },
@@ -502,11 +494,9 @@ export default {
       "masked": "The job requires a ____.",
       "options": [
         "combination-mcq-02",
-        "combination-mcq-01",
-        "combination-mcq-03",
-        "combination-mcq-04",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-08",
+        "combination-mcq-16",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of creativity and discipline」指「A 與 B 同時存在、一起發揮作用或形成一個整體」。",
       "sentenceIndex": 4,
@@ -515,12 +505,10 @@ export default {
         "combination of creativity and discipline"
       ],
       "optionReasons": {
-        "combination-mcq-02": "本句指「A 與 B 同時存在、一起發揮作用或形成一個整體」。",
-        "combination-mcq-01": "「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-02": "本句的「combination of creativity and discipline」指「A 與 B 同時存在、一起發揮作用或形成一個整體」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-02"
     },
@@ -532,11 +520,8 @@ export default {
       "masked": "The result came from a ____.",
       "options": [
         "combination-mcq-02",
-        "combination-mcq-01",
-        "combination-mcq-03",
-        "combination-mcq-04",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-09",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of skill and luck」指「A 與 B 同時存在、一起發揮作用或形成一個整體」。",
       "sentenceIndex": 5,
@@ -545,12 +530,9 @@ export default {
         "combination of skill and luck"
       ],
       "optionReasons": {
-        "combination-mcq-02": "本句指「A 與 B 同時存在、一起發揮作用或形成一個整體」。",
-        "combination-mcq-01": "「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-02": "本句的「combination of skill and luck」指「A 與 B 同時存在、一起發揮作用或形成一個整體」。",
+        "combination-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-02"
     },
@@ -562,11 +544,9 @@ export default {
       "masked": "A ____ affected his performance.",
       "options": [
         "combination-mcq-03",
-        "combination-mcq-02",
-        "combination-mcq-04",
-        "combination-mcq-01",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-07",
+        "combination-mcq-08",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of stress and lack of sleep」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
       "sentenceIndex": 6,
@@ -575,12 +555,10 @@ export default {
         "combination of stress and lack of sleep"
       ],
       "optionReasons": {
-        "combination-mcq-03": "本句指「多種性格、能力或特質同時出現在一個人身上的組合」。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-01": "「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-03": "本句的「combination of stress and lack of sleep」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-03"
     },
@@ -592,11 +570,9 @@ export default {
       "masked": "Her personality is a ____.",
       "options": [
         "combination-mcq-03",
-        "combination-mcq-02",
-        "combination-mcq-04",
-        "combination-mcq-01",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-08",
+        "combination-mcq-12",
+        "combination-mcq-07"
       ],
       "explanation": "本句的「combination of warmth and determination」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
       "sentenceIndex": 7,
@@ -605,12 +581,10 @@ export default {
         "combination of warmth and determination"
       ],
       "optionReasons": {
-        "combination-mcq-03": "本句指「多種性格、能力或特質同時出現在一個人身上的組合」。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-01": "「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-03": "本句的「combination of warmth and determination」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-03"
     },
@@ -622,11 +596,9 @@ export default {
       "masked": "She has a rare ____.",
       "options": [
         "combination-mcq-03",
-        "combination-mcq-02",
-        "combination-mcq-04",
-        "combination-mcq-01",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-07",
+        "combination-mcq-08",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of confidence and humility」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
       "sentenceIndex": 8,
@@ -635,12 +607,10 @@ export default {
         "combination of confidence and humility"
       ],
       "optionReasons": {
-        "combination-mcq-03": "本句指「多種性格、能力或特質同時出現在一個人身上的組合」。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-01": "「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-03": "本句的「combination of confidence and humility」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-03"
     },
@@ -652,11 +622,9 @@ export default {
       "masked": "Leadership often requires a ____.",
       "options": [
         "combination-mcq-03",
-        "combination-mcq-02",
-        "combination-mcq-04",
-        "combination-mcq-01",
-        "combination-mcq-05",
-        "combination-mcq-06"
+        "combination-mcq-12",
+        "combination-mcq-07",
+        "combination-mcq-08"
       ],
       "explanation": "本句的「combination of patience and decisiveness」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
       "sentenceIndex": 9,
@@ -665,12 +633,10 @@ export default {
         "combination of patience and decisiveness"
       ],
       "optionReasons": {
-        "combination-mcq-03": "本句指「多種性格、能力或特質同時出現在一個人身上的組合」。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-01": "「兩個或以上事物被放在一起、一起使用或共同出現；組合／結合」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-03": "本句的「combination of patience and decisiveness」指「多種性格、能力或特質同時出現在一個人身上的組合」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-03"
     },
@@ -682,11 +648,9 @@ export default {
       "masked": "This colour ____ works well.",
       "options": [
         "combination-mcq-05",
-        "combination-mcq-04",
-        "combination-mcq-06",
-        "combination-mcq-03",
-        "combination-mcq-07",
-        "combination-mcq-02"
+        "combination-mcq-12",
+        "combination-mcq-08",
+        "combination-mcq-10"
       ],
       "explanation": "本句的「combination」指「不同材料、顏色、味道等被搭配或混合在一起」。",
       "sentenceIndex": 10,
@@ -695,12 +659,10 @@ export default {
         "combination"
       ],
       "optionReasons": {
-        "combination-mcq-05": "本句指「不同材料、顏色、味道等被搭配或混合在一起」。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。"
+        "combination-mcq-05": "本句的「combination」指「不同材料、顏色、味道等被搭配或混合在一起」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-05"
     },
@@ -712,11 +674,9 @@ export default {
       "masked": "The drink is a ____.",
       "options": [
         "combination-mcq-05",
-        "combination-mcq-04",
-        "combination-mcq-06",
-        "combination-mcq-03",
-        "combination-mcq-07",
-        "combination-mcq-02"
+        "combination-mcq-12",
+        "combination-mcq-08",
+        "combination-mcq-10"
       ],
       "explanation": "本句的「combination of fruit juice and sparkling water」指「不同材料、顏色、味道等被搭配或混合在一起」。",
       "sentenceIndex": 11,
@@ -725,12 +685,10 @@ export default {
         "combination of fruit juice and sparkling water"
       ],
       "optionReasons": {
-        "combination-mcq-05": "本句指「不同材料、顏色、味道等被搭配或混合在一起」。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-02": "「A 與 B 同時存在、一起發揮作用或形成一個整體」與本句語境不同。"
+        "combination-mcq-05": "本句的「combination of fruit juice and sparkling water」指「不同材料、顏色、味道等被搭配或混合在一起」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-05"
     },
@@ -742,11 +700,9 @@ export default {
       "masked": "I like this ____.",
       "options": [
         "combination-mcq-06",
-        "combination-mcq-05",
-        "combination-mcq-07",
-        "combination-mcq-04",
         "combination-mcq-08",
-        "combination-mcq-03"
+        "combination-mcq-13",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「colour combination」指「顏色／味道彼此搭配形成的組合」。",
       "sentenceIndex": 12,
@@ -755,12 +711,10 @@ export default {
         "colour combination"
       ],
       "optionReasons": {
-        "combination-mcq-06": "本句指「顏色／味道彼此搭配形成的組合」。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。"
+        "combination-mcq-06": "本句的「colour combination」指「顏色／味道彼此搭配形成的組合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-06"
     },
@@ -772,11 +726,9 @@ export default {
       "masked": "The designer tested several ____.",
       "options": [
         "combination-mcq-06",
-        "combination-mcq-05",
-        "combination-mcq-07",
-        "combination-mcq-04",
+        "combination-mcq-13",
         "combination-mcq-08",
-        "combination-mcq-03"
+        "combination-mcq-17"
       ],
       "explanation": "本句的「colour combinations」指「顏色／味道彼此搭配形成的組合」。",
       "sentenceIndex": 13,
@@ -785,12 +737,10 @@ export default {
         "colour combinations"
       ],
       "optionReasons": {
-        "combination-mcq-06": "本句指「顏色／味道彼此搭配形成的組合」。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。"
+        "combination-mcq-06": "本句的「colour combinations」指「顏色／味道彼此搭配形成的組合」。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-06"
     },
@@ -802,11 +752,9 @@ export default {
       "masked": "Sweet and salty is a popular ____.",
       "options": [
         "combination-mcq-06",
-        "combination-mcq-05",
-        "combination-mcq-07",
-        "combination-mcq-04",
         "combination-mcq-08",
-        "combination-mcq-03"
+        "combination-mcq-13",
+        "combination-mcq-07"
       ],
       "explanation": "本句的「flavour combination」指「顏色／味道彼此搭配形成的組合」。",
       "sentenceIndex": 14,
@@ -815,12 +763,10 @@ export default {
         "flavour combination"
       ],
       "optionReasons": {
-        "combination-mcq-06": "本句指「顏色／味道彼此搭配形成的組合」。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。"
+        "combination-mcq-06": "本句的「flavour combination」指「顏色／味道彼此搭配形成的組合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-06"
     },
@@ -832,11 +778,9 @@ export default {
       "masked": "The chef created an unusual ____.",
       "options": [
         "combination-mcq-06",
-        "combination-mcq-05",
-        "combination-mcq-07",
-        "combination-mcq-04",
         "combination-mcq-08",
-        "combination-mcq-03"
+        "combination-mcq-13",
+        "combination-mcq-07"
       ],
       "explanation": "本句的「flavour combination」指「顏色／味道彼此搭配形成的組合」。",
       "sentenceIndex": 15,
@@ -845,12 +789,10 @@ export default {
         "flavour combination"
       ],
       "optionReasons": {
-        "combination-mcq-06": "本句指「顏色／味道彼此搭配形成的組合」。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-03": "「多種性格、能力或特質同時出現在一個人身上的組合」與本句語境不同。"
+        "combination-mcq-06": "本句的「flavour combination」指「顏色／味道彼此搭配形成的組合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-06"
     },
@@ -862,11 +804,9 @@ export default {
       "masked": "Test every possible ____.",
       "options": [
         "combination-mcq-07",
-        "combination-mcq-06",
-        "combination-mcq-08",
-        "combination-mcq-05",
-        "combination-mcq-09",
-        "combination-mcq-04"
+        "combination-mcq-16",
+        "combination-mcq-12",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combination」指「元素可以被選取、配對或排列在一起的一種方式」。",
       "sentenceIndex": 18,
@@ -875,12 +815,10 @@ export default {
         "combination"
       ],
       "optionReasons": {
-        "combination-mcq-07": "本句指「元素可以被選取、配對或排列在一起的一種方式」。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。"
+        "combination-mcq-07": "本句的「combination」指「元素可以被選取、配對或排列在一起的一種方式」。",
+        "combination-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-07"
     },
@@ -892,11 +830,9 @@ export default {
       "masked": "This ____ produces the best result.",
       "options": [
         "combination-mcq-07",
-        "combination-mcq-06",
-        "combination-mcq-08",
-        "combination-mcq-05",
-        "combination-mcq-09",
-        "combination-mcq-04"
+        "combination-mcq-16",
+        "combination-mcq-12",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combination」指「元素可以被選取、配對或排列在一起的一種方式」。",
       "sentenceIndex": 19,
@@ -905,12 +841,10 @@ export default {
         "combination"
       ],
       "optionReasons": {
-        "combination-mcq-07": "本句指「元素可以被選取、配對或排列在一起的一種方式」。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-04": "「多個原因或因素共同產生某項結果」與本句語境不同。"
+        "combination-mcq-07": "本句的「combination」指「元素可以被選取、配對或排列在一起的一種方式」。",
+        "combination-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-07"
     },
@@ -922,11 +856,9 @@ export default {
       "masked": "I forgot the ____ to the lock.",
       "options": [
         "combination-mcq-08",
-        "combination-mcq-07",
-        "combination-mcq-09",
-        "combination-mcq-06",
-        "combination-mcq-10",
-        "combination-mcq-05"
+        "combination-mcq-14",
+        "combination-mcq-02",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination」指「用來開啟密碼鎖的一連串數字或符號」。",
       "sentenceIndex": 20,
@@ -935,12 +867,10 @@ export default {
         "combination"
       ],
       "optionReasons": {
-        "combination-mcq-08": "本句指「用來開啟密碼鎖的一連串數字或符號」。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。"
+        "combination-mcq-08": "本句的「combination」指「用來開啟密碼鎖的一連串數字或符號」。",
+        "combination-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-08"
     },
@@ -952,11 +882,9 @@ export default {
       "masked": "Enter the correct ____.",
       "options": [
         "combination-mcq-08",
-        "combination-mcq-07",
-        "combination-mcq-09",
-        "combination-mcq-06",
-        "combination-mcq-10",
-        "combination-mcq-05"
+        "combination-mcq-19",
+        "combination-mcq-12",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combination」指「用來開啟密碼鎖的一連串數字或符號」。",
       "sentenceIndex": 21,
@@ -965,12 +893,10 @@ export default {
         "combination"
       ],
       "optionReasons": {
-        "combination-mcq-08": "本句指「用來開啟密碼鎖的一連串數字或符號」。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-05": "「不同材料、顏色、味道等被搭配或混合在一起」與本句語境不同。"
+        "combination-mcq-08": "本句的「combination」指「用來開啟密碼鎖的一連串數字或符號」。",
+        "combination-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-08"
     },
@@ -982,11 +908,9 @@ export default {
       "masked": "The locker uses a ____.",
       "options": [
         "combination-mcq-09",
-        "combination-mcq-08",
-        "combination-mcq-10",
+        "combination-mcq-12",
         "combination-mcq-07",
-        "combination-mcq-11",
-        "combination-mcq-06"
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combination lock」指「透過特定號碼／符號組合開啟的鎖；密碼鎖」。",
       "sentenceIndex": 22,
@@ -995,12 +919,10 @@ export default {
         "combination lock"
       ],
       "optionReasons": {
-        "combination-mcq-09": "本句指「透過特定號碼／符號組合開啟的鎖；密碼鎖」。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-09": "本句的「combination lock」指「透過特定號碼／符號組合開啟的鎖；密碼鎖」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-09"
     },
@@ -1012,11 +934,9 @@ export default {
       "masked": "She forgot the code for the ____.",
       "options": [
         "combination-mcq-09",
-        "combination-mcq-08",
-        "combination-mcq-10",
-        "combination-mcq-07",
-        "combination-mcq-11",
-        "combination-mcq-06"
+        "combination-mcq-13",
+        "combination-mcq-12",
+        "combination-mcq-07"
       ],
       "explanation": "本句的「combination lock」指「透過特定號碼／符號組合開啟的鎖；密碼鎖」。",
       "sentenceIndex": 23,
@@ -1025,12 +945,10 @@ export default {
         "combination lock"
       ],
       "optionReasons": {
-        "combination-mcq-09": "本句指「透過特定號碼／符號組合開啟的鎖；密碼鎖」。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-06": "「顏色／味道彼此搭配形成的組合」與本句語境不同。"
+        "combination-mcq-09": "本句的「combination lock」指「透過特定號碼／符號組合開啟的鎖；密碼鎖」。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-09"
     },
@@ -1042,11 +960,9 @@ export default {
       "masked": "Students learned the difference between permutations and ____.",
       "options": [
         "combination-mcq-10",
-        "combination-mcq-09",
-        "combination-mcq-11",
-        "combination-mcq-08",
+        "combination-mcq-13",
         "combination-mcq-12",
-        "combination-mcq-07"
+        "combination-mcq-08"
       ],
       "explanation": "本句的「combinations」指「從一組元素中選取若干項且不考慮順序的數學組合」。",
       "sentenceIndex": 24,
@@ -1055,12 +971,10 @@ export default {
         "combinations"
       ],
       "optionReasons": {
-        "combination-mcq-10": "本句指「從一組元素中選取若干項且不考慮順序的數學組合」。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。"
+        "combination-mcq-10": "本句的「combinations」指「從一組元素中選取若干項且不考慮順序的數學組合」。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-10"
     },
@@ -1072,11 +986,9 @@ export default {
       "masked": "The problem asks how many ____ are possible.",
       "options": [
         "combination-mcq-10",
-        "combination-mcq-09",
-        "combination-mcq-11",
-        "combination-mcq-08",
         "combination-mcq-12",
-        "combination-mcq-07"
+        "combination-mcq-13",
+        "combination-mcq-08"
       ],
       "explanation": "本句的「combinations」指「從一組元素中選取若干項且不考慮順序的數學組合」。",
       "sentenceIndex": 25,
@@ -1085,12 +997,10 @@ export default {
         "combinations"
       ],
       "optionReasons": {
-        "combination-mcq-10": "本句指「從一組元素中選取若干項且不考慮順序的數學組合」。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-07": "「元素可以被選取、配對或排列在一起的一種方式」與本句語境不同。"
+        "combination-mcq-10": "本句的「combinations」指「從一組元素中選取若干項且不考慮順序的數學組合」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-10"
     },
@@ -1102,11 +1012,9 @@ export default {
       "masked": "Doctors recommended ____.",
       "options": [
         "combination-mcq-11",
-        "combination-mcq-10",
-        "combination-mcq-12",
-        "combination-mcq-09",
-        "combination-mcq-13",
-        "combination-mcq-08"
+        "combination-mcq-08",
+        "combination-mcq-07",
+        "combination-mcq-06"
       ],
       "explanation": "本句的「combination therapy」指「同時使用兩種或以上治療方法／藥物的聯合治療」。",
       "sentenceIndex": 26,
@@ -1115,12 +1023,10 @@ export default {
         "combination therapy"
       ],
       "optionReasons": {
-        "combination-mcq-11": "本句指「同時使用兩種或以上治療方法／藥物的聯合治療」。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。"
+        "combination-mcq-11": "本句的「combination therapy」指「同時使用兩種或以上治療方法／藥物的聯合治療」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-11"
     },
@@ -1132,11 +1038,9 @@ export default {
       "masked": "The condition may respond better to ____.",
       "options": [
         "combination-mcq-11",
-        "combination-mcq-10",
-        "combination-mcq-12",
-        "combination-mcq-09",
-        "combination-mcq-13",
-        "combination-mcq-08"
+        "combination-mcq-08",
+        "combination-mcq-07",
+        "combination-mcq-06"
       ],
       "explanation": "本句的「combination treatment」指「同時使用兩種或以上治療方法／藥物的聯合治療」。",
       "sentenceIndex": 27,
@@ -1145,12 +1049,10 @@ export default {
         "combination treatment"
       ],
       "optionReasons": {
-        "combination-mcq-11": "本句指「同時使用兩種或以上治療方法／藥物的聯合治療」。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-08": "「用來開啟密碼鎖的一連串數字或符號」與本句語境不同。"
+        "combination-mcq-11": "本句的「combination treatment」指「同時使用兩種或以上治療方法／藥物的聯合治療」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-11"
     },
@@ -1162,11 +1064,9 @@ export default {
       "masked": "The patient was given a ____.",
       "options": [
         "combination-mcq-12",
-        "combination-mcq-11",
-        "combination-mcq-13",
-        "combination-mcq-10",
-        "combination-mcq-14",
-        "combination-mcq-09"
+        "combination-mcq-19",
+        "combination-mcq-08",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combination medication」指「含有兩種或以上有效成分的複方藥物」。",
       "sentenceIndex": 28,
@@ -1175,12 +1075,10 @@ export default {
         "combination medication"
       ],
       "optionReasons": {
-        "combination-mcq-12": "本句指「含有兩種或以上有效成分的複方藥物」。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。"
+        "combination-mcq-12": "本句的「combination medication」指「含有兩種或以上有效成分的複方藥物」。",
+        "combination-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-12"
     },
@@ -1192,11 +1090,9 @@ export default {
       "masked": "This is a ____ containing two active ingredients.",
       "options": [
         "combination-mcq-12",
-        "combination-mcq-11",
-        "combination-mcq-13",
         "combination-mcq-10",
-        "combination-mcq-14",
-        "combination-mcq-09"
+        "combination-mcq-17",
+        "combination-mcq-08"
       ],
       "explanation": "本句的「combination drug」指「含有兩種或以上有效成分的複方藥物」。",
       "sentenceIndex": 29,
@@ -1205,12 +1101,10 @@ export default {
         "combination drug"
       ],
       "optionReasons": {
-        "combination-mcq-12": "本句指「含有兩種或以上有效成分的複方藥物」。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-09": "「透過特定號碼／符號組合開啟的鎖；密碼鎖」與本句語境不同。"
+        "combination-mcq-12": "本句的「combination drug」指「含有兩種或以上有效成分的複方藥物」。",
+        "combination-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-12"
     },
@@ -1222,11 +1116,9 @@ export default {
       "masked": "The company used a ____.",
       "options": [
         "combination-mcq-13",
-        "combination-mcq-12",
-        "combination-mcq-14",
-        "combination-mcq-11",
-        "combination-mcq-15",
-        "combination-mcq-10"
+        "combination-mcq-08",
+        "combination-mcq-07",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combination of advertising and direct sales」指「同時採用多種策略或方法」。",
       "sentenceIndex": 30,
@@ -1235,12 +1127,10 @@ export default {
         "combination of advertising and direct sales"
       ],
       "optionReasons": {
-        "combination-mcq-13": "本句指「同時採用多種策略或方法」。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。"
+        "combination-mcq-13": "本句的「combination of advertising and direct sales」指「同時採用多種策略或方法」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-13"
     },
@@ -1252,11 +1142,9 @@ export default {
       "masked": "Success required a ____.",
       "options": [
         "combination-mcq-13",
+        "combination-mcq-19",
         "combination-mcq-12",
-        "combination-mcq-14",
-        "combination-mcq-11",
-        "combination-mcq-15",
-        "combination-mcq-10"
+        "combination-mcq-08"
       ],
       "explanation": "本句的「combination of planning and flexibility」指「同時採用多種策略或方法」。",
       "sentenceIndex": 31,
@@ -1265,12 +1153,10 @@ export default {
         "combination of planning and flexibility"
       ],
       "optionReasons": {
-        "combination-mcq-13": "本句指「同時採用多種策略或方法」。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-10": "「從一組元素中選取若干項且不考慮順序的數學組合」與本句語境不同。"
+        "combination-mcq-13": "本句的「combination of planning and flexibility」指「同時採用多種策略或方法」。",
+        "combination-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-13"
     },
@@ -1282,11 +1168,9 @@ export default {
       "masked": "The course ____.",
       "options": [
         "combination-mcq-16",
-        "combination-mcq-15",
-        "combination-mcq-17",
-        "combination-mcq-14",
-        "combination-mcq-18",
-        "combination-mcq-13"
+        "combination-mcq-02",
+        "combination-mcq-08",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「combines theory with practice」指「把兩個或以上事物結合、合併或混合」。",
       "sentenceIndex": 34,
@@ -1295,12 +1179,10 @@ export default {
         "combines theory with practice"
       ],
       "optionReasons": {
-        "combination-mcq-16": "本句指「把兩個或以上事物結合、合併或混合」。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-18": "「已經合併、結合或共同計算的」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。"
+        "combination-mcq-16": "本句的「combines theory with practice」指「把兩個或以上事物結合、合併或混合」。",
+        "combination-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-16"
     },
@@ -1312,11 +1194,9 @@ export default {
       "masked": "She ____ into one plan.",
       "options": [
         "combination-mcq-16",
-        "combination-mcq-15",
-        "combination-mcq-17",
-        "combination-mcq-14",
-        "combination-mcq-18",
-        "combination-mcq-13"
+        "combination-mcq-13",
+        "combination-mcq-08",
+        "combination-mcq-07"
       ],
       "explanation": "本句的「combined several ideas」指「把兩個或以上事物結合、合併或混合」。",
       "sentenceIndex": 35,
@@ -1325,12 +1205,10 @@ export default {
         "combined several ideas"
       ],
       "optionReasons": {
-        "combination-mcq-16": "本句指「把兩個或以上事物結合、合併或混合」。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-18": "「已經合併、結合或共同計算的」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。"
+        "combination-mcq-16": "本句的「combined several ideas」指「把兩個或以上事物結合、合併或混合」。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-16"
     },
@@ -1342,11 +1220,9 @@ export default {
       "masked": "____.",
       "options": [
         "combination-mcq-17",
-        "combination-mcq-16",
-        "combination-mcq-18",
-        "combination-mcq-15",
-        "combination-mcq-19",
-        "combination-mcq-14"
+        "combination-mcq-12",
+        "combination-mcq-08",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「Combine the flour with the water」指「把 A 和 B 放在一起使用或整合」。",
       "sentenceIndex": 36,
@@ -1355,12 +1231,10 @@ export default {
         "Combine the flour with the water"
       ],
       "optionReasons": {
-        "combination-mcq-17": "本句指「把 A 和 B 放在一起使用或整合」。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-18": "「已經合併、結合或共同計算的」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-19": "「與……結合／加上……一起發生」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。"
+        "combination-mcq-17": "本句的「Combine the flour with the water」指「把 A 和 B 放在一起使用或整合」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-17"
     },
@@ -1372,11 +1246,9 @@ export default {
       "masked": "The programme ____.",
       "options": [
         "combination-mcq-17",
-        "combination-mcq-16",
-        "combination-mcq-18",
-        "combination-mcq-15",
-        "combination-mcq-19",
-        "combination-mcq-14"
+        "combination-mcq-08",
+        "combination-mcq-12",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combines study with work experience」指「把 A 和 B 放在一起使用或整合」。",
       "sentenceIndex": 37,
@@ -1385,12 +1257,10 @@ export default {
         "combines study with work experience"
       ],
       "optionReasons": {
-        "combination-mcq-17": "本句指「把 A 和 B 放在一起使用或整合」。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-18": "「已經合併、結合或共同計算的」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-19": "「與……結合／加上……一起發生」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。"
+        "combination-mcq-17": "本句的「combines study with work experience」指「把 A 和 B 放在一起使用或整合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-17"
     },
@@ -1402,11 +1272,9 @@ export default {
       "masked": "Their ____ exceeds thirty years.",
       "options": [
         "combination-mcq-18",
-        "combination-mcq-17",
-        "combination-mcq-19",
-        "combination-mcq-16",
-        "combination-mcq-15",
-        "combination-mcq-14"
+        "combination-mcq-12",
+        "combination-mcq-07",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combined experience」指「已經合併、結合或共同計算的」。",
       "sentenceIndex": 38,
@@ -1415,12 +1283,10 @@ export default {
         "combined experience"
       ],
       "optionReasons": {
-        "combination-mcq-18": "本句指「已經合併、結合或共同計算的」。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-19": "「與……結合／加上……一起發生」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。"
+        "combination-mcq-18": "本句的「combined experience」指「已經合併、結合或共同計算的」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-18"
     },
@@ -1432,11 +1298,9 @@ export default {
       "masked": "The two teams made a ____.",
       "options": [
         "combination-mcq-18",
-        "combination-mcq-17",
-        "combination-mcq-19",
-        "combination-mcq-16",
-        "combination-mcq-15",
-        "combination-mcq-14"
+        "combination-mcq-12",
+        "combination-mcq-07",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combined effort」指「已經合併、結合或共同計算的」。",
       "sentenceIndex": 39,
@@ -1445,12 +1309,10 @@ export default {
         "combined effort"
       ],
       "optionReasons": {
-        "combination-mcq-18": "本句指「已經合併、結合或共同計算的」。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-19": "「與……結合／加上……一起發生」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。"
+        "combination-mcq-18": "本句的「combined effort」指「已經合併、結合或共同計算的」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-18"
     },
@@ -1462,11 +1324,9 @@ export default {
       "masked": "Talent ____ can produce excellent results.",
       "options": [
         "combination-mcq-19",
-        "combination-mcq-18",
-        "combination-mcq-17",
-        "combination-mcq-16",
-        "combination-mcq-15",
-        "combination-mcq-14"
+        "combination-mcq-12",
+        "combination-mcq-08",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「combined with hard work」指「與……結合／加上……一起發生」。",
       "sentenceIndex": 40,
@@ -1475,12 +1335,10 @@ export default {
         "combined with hard work"
       ],
       "optionReasons": {
-        "combination-mcq-19": "本句指「與……結合／加上……一起發生」。",
-        "combination-mcq-18": "「已經合併、結合或共同計算的」與本句語境不同。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。"
+        "combination-mcq-19": "本句的「combined with hard work」指「與……結合／加上……一起發生」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-19"
     },
@@ -1492,11 +1350,9 @@ export default {
       "masked": "Stress ____ reduced his concentration.",
       "options": [
         "combination-mcq-19",
-        "combination-mcq-18",
-        "combination-mcq-17",
-        "combination-mcq-16",
-        "combination-mcq-15",
-        "combination-mcq-14"
+        "combination-mcq-12",
+        "combination-mcq-13",
+        "combination-mcq-08"
       ],
       "explanation": "本句的「combined with lack of sleep」指「與……結合／加上……一起發生」。",
       "sentenceIndex": 41,
@@ -1505,12 +1361,10 @@ export default {
         "combined with lack of sleep"
       ],
       "optionReasons": {
-        "combination-mcq-19": "本句指「與……結合／加上……一起發生」。",
-        "combination-mcq-18": "「已經合併、結合或共同計算的」與本句語境不同。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。"
+        "combination-mcq-19": "本句的「combined with lack of sleep」指「與……結合／加上……一起發生」。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-19"
     },
@@ -1523,10 +1377,8 @@ export default {
       "options": [
         "combination-mcq-14",
         "combination-mcq-13",
-        "combination-mcq-15",
         "combination-mcq-12",
-        "combination-mcq-16",
-        "combination-mcq-11"
+        "combination-mcq-08"
       ],
       "explanation": "本句的「in combination with」指「與另一事物配合、結合使用」。",
       "sentenceIndex": 42,
@@ -1535,12 +1387,10 @@ export default {
         "in combination with"
       ],
       "optionReasons": {
-        "combination-mcq-14": "本句指「與另一事物配合、結合使用」。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。"
+        "combination-mcq-14": "本句的「in combination with」指「與另一事物配合、結合使用」。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-14"
     },
@@ -1553,10 +1403,8 @@ export default {
       "options": [
         "combination-mcq-14",
         "combination-mcq-13",
-        "combination-mcq-15",
-        "combination-mcq-12",
-        "combination-mcq-16",
-        "combination-mcq-11"
+        "combination-mcq-08",
+        "combination-mcq-12"
       ],
       "explanation": "本句的「in combination with」指「與另一事物配合、結合使用」。",
       "sentenceIndex": 43,
@@ -1565,12 +1413,10 @@ export default {
         "in combination with"
       ],
       "optionReasons": {
-        "combination-mcq-14": "本句指「與另一事物配合、結合使用」。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-15": "「多個元素配在一起後特別有效或成功的組合」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-11": "「同時使用兩種或以上治療方法／藥物的聯合治療」與本句語境不同。"
+        "combination-mcq-14": "本句的「in combination with」指「與另一事物配合、結合使用」。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-14"
     },
@@ -1582,11 +1428,8 @@ export default {
       "masked": "Good design and low cost are a ____.",
       "options": [
         "combination-mcq-15",
-        "combination-mcq-14",
-        "combination-mcq-16",
-        "combination-mcq-13",
-        "combination-mcq-17",
-        "combination-mcq-12"
+        "combination-mcq-08",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「winning combination」指「多個元素配在一起後特別有效或成功的組合」。",
       "sentenceIndex": 44,
@@ -1595,12 +1438,9 @@ export default {
         "winning combination"
       ],
       "optionReasons": {
-        "combination-mcq-15": "本句指「多個元素配在一起後特別有效或成功的組合」。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。"
+        "combination-mcq-15": "本句的「winning combination」指「多個元素配在一起後特別有效或成功的組合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-15"
     },
@@ -1612,11 +1452,8 @@ export default {
       "masked": "Her warmth and confidence proved to be a ____.",
       "options": [
         "combination-mcq-15",
-        "combination-mcq-14",
-        "combination-mcq-16",
-        "combination-mcq-13",
-        "combination-mcq-17",
-        "combination-mcq-12"
+        "combination-mcq-08",
+        "combination-mcq-13"
       ],
       "explanation": "本句的「winning combination」指「多個元素配在一起後特別有效或成功的組合」。",
       "sentenceIndex": 45,
@@ -1625,12 +1462,9 @@ export default {
         "winning combination"
       ],
       "optionReasons": {
-        "combination-mcq-15": "本句指「多個元素配在一起後特別有效或成功的組合」。",
-        "combination-mcq-14": "「與另一事物配合、結合使用」與本句語境不同。",
-        "combination-mcq-16": "「把兩個或以上事物結合、合併或混合」與本句語境不同。",
-        "combination-mcq-13": "「同時採用多種策略或方法」與本句語境不同。",
-        "combination-mcq-17": "「把 A 和 B 放在一起使用或整合」與本句語境不同。",
-        "combination-mcq-12": "「含有兩種或以上有效成分的複方藥物」與本句語境不同。"
+        "combination-mcq-15": "本句的「winning combination」指「多個元素配在一起後特別有效或成功的組合」。",
+        "combination-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "combination-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "combination-mcq-15"
     }
@@ -1642,5 +1476,7 @@ export default {
     "sha256": "481a4c137cae1908d839fc1d79d574e43f533991c8318032d82136a83b33d39a",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

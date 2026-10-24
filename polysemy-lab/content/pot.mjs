@@ -408,7 +408,7 @@ export default {
     },
     {
       "id": "pot-mcq-19",
-      "title": "表示擊入；入球",
+      "title": "擊入；入球",
       "form": "16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球",
       "en": "16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球",
       "zh": "表示擊入；入球",
@@ -438,11 +438,9 @@ export default {
       "masked": "I remember seeing little ____ of herbs and flowers near her windows.",
       "options": [
         "pot-mcq-01",
-        "pot-mcq-02",
-        "pot-mcq-03",
-        "pot-mcq-04",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-06",
+        "pot-mcq-18",
+        "pot-mcq-14"
       ],
       "explanation": "本句的「pots」指「盛載泥土和植物、供植物生長的花盆／容器」。",
       "sentenceIndex": 0,
@@ -451,12 +449,10 @@ export default {
         "pots"
       ],
       "optionReasons": {
-        "pot-mcq-01": "本句指「盛載泥土和植物、供植物生長的花盆／容器」。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-01": "本句的「pots」指「盛載泥土和植物、供植物生長的花盆／容器」。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-01"
     },
@@ -468,11 +464,9 @@ export default {
       "masked": "She moved the lemon tree into a larger ____.",
       "options": [
         "pot-mcq-01",
-        "pot-mcq-02",
-        "pot-mcq-03",
-        "pot-mcq-04",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-17",
+        "pot-mcq-18",
+        "pot-mcq-07"
       ],
       "explanation": "本句的「pot」指「盛載泥土和植物、供植物生長的花盆／容器」。",
       "sentenceIndex": 1,
@@ -481,12 +475,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-01": "本句指「盛載泥土和植物、供植物生長的花盆／容器」。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-01": "本句的「pot」指「盛載泥土和植物、供植物生長的花盆／容器」。",
+        "pot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-01"
     },
@@ -498,11 +490,9 @@ export default {
       "masked": "Make sure the ____ has holes for drainage.",
       "options": [
         "pot-mcq-01",
-        "pot-mcq-02",
-        "pot-mcq-03",
-        "pot-mcq-04",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-17",
+        "pot-mcq-14",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「pot」指「盛載泥土和植物、供植物生長的花盆／容器」。",
       "sentenceIndex": 2,
@@ -511,12 +501,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-01": "本句指「盛載泥土和植物、供植物生長的花盆／容器」。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-01": "本句的「pot」指「盛載泥土和植物、供植物生長的花盆／容器」。",
+        "pot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-01"
     },
@@ -528,11 +516,9 @@ export default {
       "masked": "She cooked the soup in a large ____.",
       "options": [
         "pot-mcq-02",
-        "pot-mcq-01",
-        "pot-mcq-03",
-        "pot-mcq-04",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-18",
+        "pot-mcq-09",
+        "pot-mcq-07"
       ],
       "explanation": "本句的「pot」指「用來煮食物或液體、通常較深的烹飪器皿」。",
       "sentenceIndex": 3,
@@ -541,12 +527,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-02": "本句指「用來煮食物或液體、通常較深的烹飪器皿」。",
-        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-02": "本句的「pot」指「用來煮食物或液體、通常較深的烹飪器皿」。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-02"
     },
@@ -558,11 +542,9 @@ export default {
       "masked": "Put the water in the ____ and bring it to a boil.",
       "options": [
         "pot-mcq-02",
-        "pot-mcq-01",
-        "pot-mcq-03",
-        "pot-mcq-04",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-09",
+        "pot-mcq-19",
+        "pot-mcq-07"
       ],
       "explanation": "本句的「pot」指「用來煮食物或液體、通常較深的烹飪器皿」。",
       "sentenceIndex": 4,
@@ -571,12 +553,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-02": "本句指「用來煮食物或液體、通常較深的烹飪器皿」。",
-        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-02": "本句的「pot」指「用來煮食物或液體、通常較深的烹飪器皿」。",
+        "pot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-02"
     },
@@ -588,11 +568,9 @@ export default {
       "masked": "She brought a ____ to the table.",
       "options": [
         "pot-mcq-03",
-        "pot-mcq-02",
-        "pot-mcq-04",
-        "pot-mcq-01",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-18",
+        "pot-mcq-19",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「pot of tea」指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
       "sentenceIndex": 5,
@@ -601,12 +579,10 @@ export default {
         "pot of tea"
       ],
       "optionReasons": {
-        "pot-mcq-03": "本句指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-03": "本句的「pot of tea」指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-03"
     },
@@ -618,11 +594,9 @@ export default {
       "masked": "There was a small ____ beside the coffee.",
       "options": [
         "pot-mcq-03",
-        "pot-mcq-02",
-        "pot-mcq-04",
-        "pot-mcq-01",
-        "pot-mcq-05",
-        "pot-mcq-06"
+        "pot-mcq-07",
+        "pot-mcq-14",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「pot of cream」指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
       "sentenceIndex": 6,
@@ -631,12 +605,10 @@ export default {
         "pot of cream"
       ],
       "optionReasons": {
-        "pot-mcq-03": "本句指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-03": "本句的「pot of cream」指「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-03"
     },
@@ -648,11 +620,9 @@ export default {
       "masked": "She made a ____.",
       "options": [
         "pot-mcq-04",
-        "pot-mcq-03",
-        "pot-mcq-05",
-        "pot-mcq-02",
-        "pot-mcq-06",
-        "pot-mcq-01"
+        "pot-mcq-14",
+        "pot-mcq-07",
+        "pot-mcq-12"
       ],
       "explanation": "本句的「pot of soup」指「一個 pot 所能盛載的一整份食物／飲品數量」。",
       "sentenceIndex": 7,
@@ -661,12 +631,10 @@ export default {
         "pot of soup"
       ],
       "optionReasons": {
-        "pot-mcq-04": "本句指「一個 pot 所能盛載的一整份食物／飲品數量」。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。"
+        "pot-mcq-04": "本句的「pot of soup」指「一個 pot 所能盛載的一整份食物／飲品數量」。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-04"
     },
@@ -678,11 +646,9 @@ export default {
       "masked": "We shared a ____.",
       "options": [
         "pot-mcq-04",
-        "pot-mcq-03",
-        "pot-mcq-05",
-        "pot-mcq-02",
-        "pot-mcq-06",
-        "pot-mcq-01"
+        "pot-mcq-10",
+        "pot-mcq-07",
+        "pot-mcq-14"
       ],
       "explanation": "本句的「pot of coffee」指「一個 pot 所能盛載的一整份食物／飲品數量」。",
       "sentenceIndex": 8,
@@ -691,12 +657,10 @@ export default {
         "pot of coffee"
       ],
       "optionReasons": {
-        "pot-mcq-04": "本句指「一個 pot 所能盛載的一整份食物／飲品數量」。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-01": "「盛載泥土和植物、供植物生長的花盆／容器」是「pot — plant container」的用法，與本句語境不同。"
+        "pot-mcq-04": "本句的「pot of coffee」指「一個 pot 所能盛載的一整份食物／飲品數量」。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-04"
     },
@@ -708,11 +672,9 @@ export default {
       "masked": "She had a small ____.",
       "options": [
         "pot-mcq-05",
-        "pot-mcq-04",
-        "pot-mcq-06",
-        "pot-mcq-03",
-        "pot-mcq-07",
-        "pot-mcq-02"
+        "pot-mcq-09",
+        "pot-mcq-19",
+        "pot-mcq-18"
       ],
       "explanation": "本句的「pot of yoghurt」指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
       "sentenceIndex": 9,
@@ -721,12 +683,10 @@ export default {
         "pot of yoghurt"
       ],
       "optionReasons": {
-        "pot-mcq-05": "本句指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。"
+        "pot-mcq-05": "本句的「pot of yoghurt」指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
+        "pot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-05"
     },
@@ -738,11 +698,9 @@ export default {
       "masked": "I bought a little ____.",
       "options": [
         "pot-mcq-05",
-        "pot-mcq-04",
-        "pot-mcq-06",
-        "pot-mcq-03",
         "pot-mcq-07",
-        "pot-mcq-02"
+        "pot-mcq-19",
+        "pot-mcq-10"
       ],
       "explanation": "本句的「pot of face cream」指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
       "sentenceIndex": 10,
@@ -751,12 +709,10 @@ export default {
         "pot of face cream"
       ],
       "optionReasons": {
-        "pot-mcq-05": "本句指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-02": "「用來煮食物或液體、通常較深的烹飪器皿」是「pot — cooking vessel」的用法，與本句語境不同。"
+        "pot-mcq-05": "本句的「pot of face cream」指「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-05"
     },
@@ -769,10 +725,8 @@ export default {
       "options": [
         "pot-mcq-06",
         "pot-mcq-05",
-        "pot-mcq-07",
-        "pot-mcq-04",
-        "pot-mcq-08",
-        "pot-mcq-03"
+        "pot-mcq-09",
+        "pot-mcq-13"
       ],
       "explanation": "本句的「pot」指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
       "sentenceIndex": 11,
@@ -781,12 +735,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-06": "本句指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。"
+        "pot-mcq-06": "本句的「pot」指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
+        "pot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-06"
     },
@@ -798,11 +750,9 @@ export default {
       "masked": "The winner took the entire ____.",
       "options": [
         "pot-mcq-06",
-        "pot-mcq-05",
         "pot-mcq-07",
-        "pot-mcq-04",
-        "pot-mcq-08",
-        "pot-mcq-03"
+        "pot-mcq-14",
+        "pot-mcq-11"
       ],
       "explanation": "本句的「pot」指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
       "sentenceIndex": 12,
@@ -811,12 +761,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-06": "本句指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-03": "「用來盛載、沖泡或供應食物／飲品的壺、罐或容器」是「pot — serving/storage container」的用法，與本句語境不同。"
+        "pot-mcq-06": "本句的「pot」指「多人共同投入、按規則分配或由勝者取得的一筆錢」。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-06"
     },
@@ -828,11 +776,9 @@ export default {
       "masked": "She won the ____.",
       "options": [
         "pot-mcq-18",
+        "pot-mcq-01",
         "pot-mcq-17",
-        "pot-mcq-19",
-        "pot-mcq-16",
-        "pot-mcq-15",
-        "pot-mcq-14"
+        "pot-mcq-07"
       ],
       "explanation": "本句的「jackpot」指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
       "sentenceIndex": 13,
@@ -841,12 +787,10 @@ export default {
         "jackpot"
       ],
       "optionReasons": {
-        "pot-mcq-18": "本句指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+        "pot-mcq-18": "本句的「jackpot」指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
+        "pot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-18"
     },
@@ -858,10 +802,8 @@ export default {
       "masked": "The machine displayed the current ____.",
       "options": [
         "pot-mcq-18",
-        "pot-mcq-17",
-        "pot-mcq-19",
-        "pot-mcq-16",
-        "pot-mcq-15",
+        "pot-mcq-05",
+        "pot-mcq-06",
         "pot-mcq-14"
       ],
       "explanation": "本句的「jackpot」指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
@@ -871,12 +813,10 @@ export default {
         "jackpot"
       ],
       "optionReasons": {
-        "pot-mcq-18": "本句指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+        "pot-mcq-18": "本句的「jackpot」指「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」。",
+        "pot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-18"
     },
@@ -889,10 +829,8 @@ export default {
       "options": [
         "pot-mcq-07",
         "pot-mcq-06",
-        "pot-mcq-08",
-        "pot-mcq-05",
-        "pot-mcq-09",
-        "pot-mcq-04"
+        "pot-mcq-15",
+        "pot-mcq-13"
       ],
       "explanation": "本句的「pot」指「marijuana/cannabis 的非正式稱呼」。",
       "sentenceIndex": 15,
@@ -901,12 +839,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-07": "本句指「marijuana/cannabis 的非正式稱呼」。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。"
+        "pot-mcq-07": "本句的「pot」指「marijuana/cannabis 的非正式稱呼」。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-07"
     },
@@ -918,11 +854,9 @@ export default {
       "masked": "In informal American English, ‘____’ can refer to marijuana.",
       "options": [
         "pot-mcq-07",
-        "pot-mcq-06",
-        "pot-mcq-08",
-        "pot-mcq-05",
-        "pot-mcq-09",
-        "pot-mcq-04"
+        "pot-mcq-03",
+        "pot-mcq-14",
+        "pot-mcq-11"
       ],
       "explanation": "本句的「pot」指「marijuana/cannabis 的非正式稱呼」。",
       "sentenceIndex": 16,
@@ -931,12 +865,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-07": "本句指「marijuana/cannabis 的非正式稱呼」。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-04": "「一個 pot 所能盛載的一整份食物／飲品數量」是「a pot of something」的用法，與本句語境不同。"
+        "pot-mcq-07": "本句的「pot」指「marijuana/cannabis 的非正式稱呼」。",
+        "pot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-07"
     },
@@ -948,11 +880,9 @@ export default {
       "masked": "She ____ the young tomato plants.",
       "options": [
         "pot-mcq-08",
+        "pot-mcq-17",
         "pot-mcq-07",
-        "pot-mcq-09",
-        "pot-mcq-06",
-        "pot-mcq-10",
-        "pot-mcq-05"
+        "pot-mcq-14"
       ],
       "explanation": "本句的「potted」指「把植物移入裝有泥土的花盆中栽種」。",
       "sentenceIndex": 17,
@@ -961,12 +891,10 @@ export default {
         "potted"
       ],
       "optionReasons": {
-        "pot-mcq-08": "本句指「把植物移入裝有泥土的花盆中栽種」。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。"
+        "pot-mcq-08": "本句的「potted」指「把植物移入裝有泥土的花盆中栽種」。",
+        "pot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-08"
     },
@@ -979,10 +907,8 @@ export default {
       "options": [
         "pot-mcq-08",
         "pot-mcq-07",
-        "pot-mcq-09",
-        "pot-mcq-06",
-        "pot-mcq-10",
-        "pot-mcq-05"
+        "pot-mcq-14",
+        "pot-mcq-02"
       ],
       "explanation": "本句的「potted」指「把植物移入裝有泥土的花盆中栽種」。",
       "sentenceIndex": 18,
@@ -991,12 +917,10 @@ export default {
         "potted"
       ],
       "optionReasons": {
-        "pot-mcq-08": "本句指「把植物移入裝有泥土的花盆中栽種」。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-05": "「裝乳酪、面霜等食品／產品的小型容器，尤其英式英語」是「pot — packaged container」的用法，與本句語境不同。"
+        "pot-mcq-08": "本句的「potted」指「把植物移入裝有泥土的花盆中栽種」。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-08"
     },
@@ -1008,11 +932,9 @@ export default {
       "masked": "She keeps several ____ near the window.",
       "options": [
         "pot-mcq-09",
-        "pot-mcq-08",
-        "pot-mcq-10",
-        "pot-mcq-07",
-        "pot-mcq-11",
-        "pot-mcq-06"
+        "pot-mcq-18",
+        "pot-mcq-02",
+        "pot-mcq-19"
       ],
       "explanation": "本句的「potted plants」指「種植在花盆而非直接種在地裡的植物」。",
       "sentenceIndex": 19,
@@ -1021,12 +943,10 @@ export default {
         "potted plants"
       ],
       "optionReasons": {
-        "pot-mcq-09": "本句指「種植在花盆而非直接種在地裡的植物」。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-09": "本句的「potted plants」指「種植在花盆而非直接種在地裡的植物」。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-09"
     },
@@ -1038,11 +958,9 @@ export default {
       "masked": "____ plants need regular watering.",
       "options": [
         "pot-mcq-09",
-        "pot-mcq-08",
-        "pot-mcq-10",
-        "pot-mcq-07",
-        "pot-mcq-11",
-        "pot-mcq-06"
+        "pot-mcq-03",
+        "pot-mcq-12",
+        "pot-mcq-14"
       ],
       "explanation": "本句的「Potted」指「種植在花盆而非直接種在地裡的植物」。",
       "sentenceIndex": 20,
@@ -1051,12 +969,10 @@ export default {
         "Potted"
       ],
       "optionReasons": {
-        "pot-mcq-09": "本句指「種植在花盆而非直接種在地裡的植物」。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-06": "「多人共同投入、按規則分配或由勝者取得的一筆錢」是「pot — pooled money」的用法，與本句語境不同。"
+        "pot-mcq-09": "本句的「Potted」指「種植在花盆而非直接種在地裡的植物」。",
+        "pot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-09"
     },
@@ -1068,11 +984,9 @@ export default {
       "masked": "Use fresh ____ for the herbs.",
       "options": [
         "pot-mcq-10",
-        "pot-mcq-09",
         "pot-mcq-11",
-        "pot-mcq-08",
-        "pot-mcq-12",
-        "pot-mcq-07"
+        "pot-mcq-18",
+        "pot-mcq-05"
       ],
       "explanation": "本句的「potting soil」指「專供盆栽植物生長使用的栽培介質」。",
       "sentenceIndex": 21,
@@ -1081,12 +995,10 @@ export default {
         "potting soil"
       ],
       "optionReasons": {
-        "pot-mcq-10": "本句指「專供盆栽植物生長使用的栽培介質」。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。"
+        "pot-mcq-10": "本句的「potting soil」指「專供盆栽植物生長使用的栽培介質」。",
+        "pot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-10"
     },
@@ -1098,11 +1010,9 @@ export default {
       "masked": "This ____ mix drains well.",
       "options": [
         "pot-mcq-10",
-        "pot-mcq-09",
-        "pot-mcq-11",
-        "pot-mcq-08",
-        "pot-mcq-12",
-        "pot-mcq-07"
+        "pot-mcq-02",
+        "pot-mcq-07",
+        "pot-mcq-18"
       ],
       "explanation": "本句的「potting」指「專供盆栽植物生長使用的栽培介質」。",
       "sentenceIndex": 22,
@@ -1111,12 +1021,10 @@ export default {
         "potting"
       ],
       "optionReasons": {
-        "pot-mcq-10": "本句指「專供盆栽植物生長使用的栽培介質」。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-07": "「marijuana/cannabis 的非正式稱呼」是「pot — cannabis」的用法，與本句語境不同。"
+        "pot-mcq-10": "本句的「potting」指「專供盆栽植物生長使用的栽培介質」。",
+        "pot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-10"
     },
@@ -1129,10 +1037,8 @@ export default {
       "options": [
         "pot-mcq-11",
         "pot-mcq-10",
-        "pot-mcq-12",
-        "pot-mcq-09",
-        "pot-mcq-13",
-        "pot-mcq-08"
+        "pot-mcq-06",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「pottery」指「用陶土燒製的器皿／物品整體」。",
       "sentenceIndex": 23,
@@ -1141,12 +1047,10 @@ export default {
         "pottery"
       ],
       "optionReasons": {
-        "pot-mcq-11": "本句指「用陶土燒製的器皿／物品整體」。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。"
+        "pot-mcq-11": "本句的「pottery」指「用陶土燒製的器皿／物品整體」。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-11"
     },
@@ -1158,11 +1062,9 @@ export default {
       "masked": "She collects handmade ____.",
       "options": [
         "pot-mcq-11",
-        "pot-mcq-10",
-        "pot-mcq-12",
-        "pot-mcq-09",
-        "pot-mcq-13",
-        "pot-mcq-08"
+        "pot-mcq-14",
+        "pot-mcq-17",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「pottery」指「用陶土燒製的器皿／物品整體」。",
       "sentenceIndex": 24,
@@ -1171,12 +1073,10 @@ export default {
         "pottery"
       ],
       "optionReasons": {
-        "pot-mcq-11": "本句指「用陶土燒製的器皿／物品整體」。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-08": "「把植物移入裝有泥土的花盆中栽種」是「pot a plant」的用法，與本句語境不同。"
+        "pot-mcq-11": "本句的「pottery」指「用陶土燒製的器皿／物品整體」。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-11"
     },
@@ -1188,11 +1088,9 @@ export default {
       "masked": "She takes a ____ class on Saturdays.",
       "options": [
         "pot-mcq-12",
-        "pot-mcq-11",
-        "pot-mcq-13",
         "pot-mcq-10",
-        "pot-mcq-14",
-        "pot-mcq-09"
+        "pot-mcq-18",
+        "pot-mcq-14"
       ],
       "explanation": "本句的「pottery」指「用陶土塑形並燒製器物的工藝／活動」。",
       "sentenceIndex": 25,
@@ -1201,12 +1099,10 @@ export default {
         "pottery"
       ],
       "optionReasons": {
-        "pot-mcq-12": "本句指「用陶土塑形並燒製器物的工藝／活動」。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。"
+        "pot-mcq-12": "本句的「pottery」指「用陶土塑形並燒製器物的工藝／活動」。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-12"
     },
@@ -1218,11 +1114,9 @@ export default {
       "masked": "____ requires patience and practice.",
       "options": [
         "pot-mcq-12",
-        "pot-mcq-11",
-        "pot-mcq-13",
-        "pot-mcq-10",
-        "pot-mcq-14",
-        "pot-mcq-09"
+        "pot-mcq-07",
+        "pot-mcq-18",
+        "pot-mcq-06"
       ],
       "explanation": "本句的「Pottery」指「用陶土塑形並燒製器物的工藝／活動」。",
       "sentenceIndex": 26,
@@ -1231,12 +1125,10 @@ export default {
         "Pottery"
       ],
       "optionReasons": {
-        "pot-mcq-12": "本句指「用陶土塑形並燒製器物的工藝／活動」。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-09": "「種植在花盆而非直接種在地裡的植物」是「potted plant」的用法，與本句語境不同。"
+        "pot-mcq-12": "本句的「Pottery」指「用陶土塑形並燒製器物的工藝／活動」。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-12"
     },
@@ -1248,10 +1140,8 @@ export default {
       "masked": "The bowl was made by a local ____.",
       "options": [
         "pot-mcq-13",
-        "pot-mcq-12",
-        "pot-mcq-14",
-        "pot-mcq-11",
-        "pot-mcq-15",
+        "pot-mcq-04",
+        "pot-mcq-16",
         "pot-mcq-10"
       ],
       "explanation": "本句的「potter」指「以陶土製作器物的陶工／陶藝家」。",
@@ -1261,12 +1151,10 @@ export default {
         "potter"
       ],
       "optionReasons": {
-        "pot-mcq-13": "本句指「以陶土製作器物的陶工／陶藝家」。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。"
+        "pot-mcq-13": "本句的「potter」指「以陶土製作器物的陶工／陶藝家」。",
+        "pot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-13"
     },
@@ -1278,11 +1166,9 @@ export default {
       "masked": "The ____ shaped the clay by hand.",
       "options": [
         "pot-mcq-13",
-        "pot-mcq-12",
-        "pot-mcq-14",
-        "pot-mcq-11",
-        "pot-mcq-15",
-        "pot-mcq-10"
+        "pot-mcq-04",
+        "pot-mcq-10",
+        "pot-mcq-06"
       ],
       "explanation": "本句的「potter」指「以陶土製作器物的陶工／陶藝家」。",
       "sentenceIndex": 28,
@@ -1291,12 +1177,10 @@ export default {
         "potter"
       ],
       "optionReasons": {
-        "pot-mcq-13": "本句指「以陶土製作器物的陶工／陶藝家」。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-10": "「專供盆栽植物生長使用的栽培介質」是「potting soil/mix」的用法，與本句語境不同。"
+        "pot-mcq-13": "本句的「potter」指「以陶土製作器物的陶工／陶藝家」。",
+        "pot-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-13"
     },
@@ -1309,10 +1193,8 @@ export default {
       "options": [
         "pot-mcq-14",
         "pot-mcq-13",
-        "pot-mcq-15",
-        "pot-mcq-12",
-        "pot-mcq-16",
-        "pot-mcq-11"
+        "pot-mcq-08",
+        "pot-mcq-17"
       ],
       "explanation": "本句的「potted」指「在桌球／撞球中把球擊進球袋」。",
       "sentenceIndex": 29,
@@ -1321,12 +1203,10 @@ export default {
         "potted"
       ],
       "optionReasons": {
-        "pot-mcq-14": "本句指「在桌球／撞球中把球擊進球袋」。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。"
+        "pot-mcq-14": "本句的「potted」指「在桌球／撞球中把球擊進球袋」。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-14"
     },
@@ -1338,11 +1218,9 @@ export default {
       "masked": "She failed to ____ the red ball.",
       "options": [
         "pot-mcq-14",
-        "pot-mcq-13",
-        "pot-mcq-15",
-        "pot-mcq-12",
+        "pot-mcq-08",
         "pot-mcq-16",
-        "pot-mcq-11"
+        "pot-mcq-18"
       ],
       "explanation": "本句的「pot」指「在桌球／撞球中把球擊進球袋」。",
       "sentenceIndex": 30,
@@ -1351,12 +1229,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-14": "本句指「在桌球／撞球中把球擊進球袋」。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-11": "「用陶土燒製的器皿／物品整體」是「pottery — objects」的用法，與本句語境不同。"
+        "pot-mcq-14": "本句的「pot」指「在桌球／撞球中把球擊進球袋」。",
+        "pot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-14"
     },
@@ -1368,11 +1244,9 @@ export default {
       "masked": "He calmly ____ the ball.",
       "options": [
         "pot-mcq-19",
-        "pot-mcq-18",
-        "pot-mcq-17",
-        "pot-mcq-16",
-        "pot-mcq-15",
-        "pot-mcq-14"
+        "pot-mcq-10",
+        "pot-mcq-03",
+        "pot-mcq-13"
       ],
       "explanation": "本句的「potted」指「表示擊入；入球」。",
       "sentenceIndex": 31,
@@ -1381,12 +1255,10 @@ export default {
         "potted"
       ],
       "optionReasons": {
-        "pot-mcq-19": "本句指「表示擊入；入球」。",
-        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+        "pot-mcq-19": "本句的「potted」指「表示擊入；入球」。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-19"
     },
@@ -1398,11 +1270,9 @@ export default {
       "masked": "The player had several chances to ____.",
       "options": [
         "pot-mcq-19",
-        "pot-mcq-18",
-        "pot-mcq-17",
-        "pot-mcq-16",
-        "pot-mcq-15",
-        "pot-mcq-14"
+        "pot-mcq-05",
+        "pot-mcq-09",
+        "pot-mcq-18"
       ],
       "explanation": "本句的「pot」指「表示擊入；入球」。",
       "sentenceIndex": 32,
@@ -1411,12 +1281,10 @@ export default {
         "pot"
       ],
       "optionReasons": {
-        "pot-mcq-19": "本句指「表示擊入；入球」。",
-        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+        "pot-mcq-19": "本句的「pot」指「表示擊入；入球」。",
+        "pot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-19"
     },
@@ -1428,11 +1296,9 @@ export default {
       "masked": "The restaurant serves ____.",
       "options": [
         "pot-mcq-15",
-        "pot-mcq-14",
-        "pot-mcq-16",
         "pot-mcq-13",
-        "pot-mcq-17",
-        "pot-mcq-12"
+        "pot-mcq-18",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「potted shrimp」指「經烹調後放入小罐／盆中保存的食品」。",
       "sentenceIndex": 33,
@@ -1441,12 +1307,10 @@ export default {
         "potted shrimp"
       ],
       "optionReasons": {
-        "pot-mcq-15": "本句指「經烹調後放入小罐／盆中保存的食品」。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。"
+        "pot-mcq-15": "本句的「potted shrimp」指「經烹調後放入小罐／盆中保存的食品」。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-15"
     },
@@ -1458,11 +1322,9 @@ export default {
       "masked": "____ meat was traditionally stored under a layer of fat.",
       "options": [
         "pot-mcq-15",
-        "pot-mcq-14",
+        "pot-mcq-12",
         "pot-mcq-16",
-        "pot-mcq-13",
-        "pot-mcq-17",
-        "pot-mcq-12"
+        "pot-mcq-07"
       ],
       "explanation": "本句的「Potted」指「經烹調後放入小罐／盆中保存的食品」。",
       "sentenceIndex": 34,
@@ -1471,12 +1333,10 @@ export default {
         "Potted"
       ],
       "optionReasons": {
-        "pot-mcq-15": "本句指「經烹調後放入小罐／盆中保存的食品」。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-12": "「用陶土塑形並燒製器物的工藝／活動」是「pottery — craft」的用法，與本句語境不同。"
+        "pot-mcq-15": "本句的「Potted」指「經烹調後放入小罐／盆中保存的食品」。",
+        "pot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-15"
     },
@@ -1488,11 +1348,9 @@ export default {
       "masked": "The book begins with a ____ of the town.",
       "options": [
         "pot-mcq-16",
+        "pot-mcq-11",
         "pot-mcq-15",
-        "pot-mcq-17",
-        "pot-mcq-14",
-        "pot-mcq-18",
-        "pot-mcq-13"
+        "pot-mcq-10"
       ],
       "explanation": "本句的「potted history」指「把大量資料濃縮成非常簡短的概略版本」。",
       "sentenceIndex": 35,
@@ -1501,12 +1359,10 @@ export default {
         "potted history"
       ],
       "optionReasons": {
-        "pot-mcq-16": "本句指「把大量資料濃縮成非常簡短的概略版本」。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。"
+        "pot-mcq-16": "本句的「potted history」指「把大量資料濃縮成非常簡短的概略版本」。",
+        "pot-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-16"
     },
@@ -1518,11 +1374,9 @@ export default {
       "masked": "She gave us a ____ biography of the artist.",
       "options": [
         "pot-mcq-16",
-        "pot-mcq-15",
-        "pot-mcq-17",
-        "pot-mcq-14",
-        "pot-mcq-18",
-        "pot-mcq-13"
+        "pot-mcq-08",
+        "pot-mcq-13",
+        "pot-mcq-06"
       ],
       "explanation": "本句的「potted」指「把大量資料濃縮成非常簡短的概略版本」。",
       "sentenceIndex": 36,
@@ -1531,12 +1385,10 @@ export default {
         "potted"
       ],
       "optionReasons": {
-        "pot-mcq-16": "本句指「把大量資料濃縮成非常簡短的概略版本」。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-17": "「每名參加者各自帶食物共同分享的聚餐」是「potluck」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。",
-        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
-        "pot-mcq-13": "「以陶土製作器物的陶工／陶藝家」是「potter」的用法，與本句語境不同。"
+        "pot-mcq-16": "本句的「potted」指「把大量資料濃縮成非常簡短的概略版本」。",
+        "pot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-16"
     },
@@ -1548,11 +1400,9 @@ export default {
       "masked": "We’re having a ____ this weekend.",
       "options": [
         "pot-mcq-17",
-        "pot-mcq-16",
-        "pot-mcq-18",
-        "pot-mcq-15",
-        "pot-mcq-19",
-        "pot-mcq-14"
+        "pot-mcq-01",
+        "pot-mcq-13",
+        "pot-mcq-16"
       ],
       "explanation": "本句的「potluck」指「每名參加者各自帶食物共同分享的聚餐」。",
       "sentenceIndex": 37,
@@ -1561,12 +1411,10 @@ export default {
         "potluck"
       ],
       "optionReasons": {
-        "pot-mcq-17": "本句指「每名參加者各自帶食物共同分享的聚餐」。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+        "pot-mcq-17": "本句的「potluck」指「每名參加者各自帶食物共同分享的聚餐」。",
+        "pot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-17"
     },
@@ -1578,11 +1426,9 @@ export default {
       "masked": "Everyone brought a dish to the ____.",
       "options": [
         "pot-mcq-17",
-        "pot-mcq-16",
+        "pot-mcq-01",
         "pot-mcq-18",
-        "pot-mcq-15",
-        "pot-mcq-19",
-        "pot-mcq-14"
+        "pot-mcq-19"
       ],
       "explanation": "本句的「potluck」指「每名參加者各自帶食物共同分享的聚餐」。",
       "sentenceIndex": 38,
@@ -1591,12 +1437,10 @@ export default {
         "potluck"
       ],
       "optionReasons": {
-        "pot-mcq-17": "本句指「每名參加者各自帶食物共同分享的聚餐」。",
-        "pot-mcq-16": "「把大量資料濃縮成非常簡短的概略版本」是「potted history/account」的用法，與本句語境不同。",
-        "pot-mcq-18": "「彩票／遊戲中最大或累積的獎金；亦可比喻意外的大成功」是「jackpot」的用法，與本句語境不同。",
-        "pot-mcq-15": "「經烹調後放入小罐／盆中保存的食品」是「potted food」的用法，與本句語境不同。",
-        "pot-mcq-19": "「表示擊入；入球」是「16. pot = score by putting a ball into a target/hole（球類） — 擊入；入球」的用法，與本句語境不同。",
-        "pot-mcq-14": "「在桌球／撞球中把球擊進球袋」是「pot — cue sports」的用法，與本句語境不同。"
+        "pot-mcq-17": "本句的「potluck」指「每名參加者各自帶食物共同分享的聚餐」。",
+        "pot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "pot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "pot-mcq-17"
     }
@@ -1608,5 +1452,7 @@ export default {
     "sha256": "efd5ba5d56e082a4384cfe42aea45806e7f7a520eec8efec2e789232c7a26143",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

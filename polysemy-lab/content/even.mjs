@@ -482,11 +482,9 @@ export default {
       "masked": "____, I can still remember the atmosphere in his classroom.",
       "options": [
         "even-mcq-01",
-        "even-mcq-02",
-        "even-mcq-03",
-        "even-mcq-04",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-06",
+        "even-mcq-17",
+        "even-mcq-11"
       ],
       "explanation": "本句的「Even now」指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
       "sentenceIndex": 0,
@@ -495,12 +493,10 @@ export default {
         "Even now"
       ],
       "optionReasons": {
-        "even-mcq-01": "本句指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-01": "本句的「Even now」指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
+        "even-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-01"
     },
@@ -512,11 +508,8 @@ export default {
       "masked": "____ enjoyed his lessons.",
       "options": [
         "even-mcq-01",
-        "even-mcq-02",
-        "even-mcq-03",
-        "even-mcq-04",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-18",
+        "even-mcq-05"
       ],
       "explanation": "本句的「Even the weakest students」指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
       "sentenceIndex": 1,
@@ -525,12 +518,9 @@ export default {
         "Even the weakest students"
       ],
       "optionReasons": {
-        "even-mcq-01": "本句指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-01": "本句的「Even the weakest students」指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
+        "even-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-01"
     },
@@ -542,11 +532,9 @@ export default {
       "masked": "He could make ____ interesting.",
       "options": [
         "even-mcq-01",
-        "even-mcq-02",
-        "even-mcq-03",
-        "even-mcq-04",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-20",
+        "even-mcq-11",
+        "even-mcq-16"
       ],
       "explanation": "本句的「even difficult topics」指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
       "sentenceIndex": 2,
@@ -555,12 +543,10 @@ export default {
         "even difficult topics"
       ],
       "optionReasons": {
-        "even-mcq-01": "本句指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-01": "本句的「even difficult topics」指「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-01"
     },
@@ -572,11 +558,9 @@ export default {
       "masked": "____, people still discuss his teaching methods.",
       "options": [
         "even-mcq-02",
-        "even-mcq-01",
-        "even-mcq-03",
-        "even-mcq-04",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-17",
+        "even-mcq-11",
+        "even-mcq-20"
       ],
       "explanation": "本句的「Even today」指「強調到了某個時間點，某件可能預期已改變的事情仍然成立」。",
       "sentenceIndex": 3,
@@ -585,12 +569,10 @@ export default {
         "Even today"
       ],
       "optionReasons": {
-        "even-mcq-02": "本句指「強調到了某個時間點，某件可能預期已改變的事情仍然成立」。",
-        "even-mcq-01": "「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」是「even — emphasis」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-02": "本句的「Even today」指「強調到了某個時間點，某件可能預期已改變的事情仍然成立」。",
+        "even-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-02"
     },
@@ -602,11 +584,9 @@ export default {
       "masked": "____, she remembered his advice.",
       "options": [
         "even-mcq-02",
-        "even-mcq-01",
-        "even-mcq-03",
-        "even-mcq-04",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-11",
+        "even-mcq-20",
+        "even-mcq-17"
       ],
       "explanation": "本句的「Even after twenty years」指「強調到了某個時間點，某件可能預期已改變的事情仍然成立」。",
       "sentenceIndex": 4,
@@ -615,12 +595,10 @@ export default {
         "Even after twenty years"
       ],
       "optionReasons": {
-        "even-mcq-02": "本句指「強調到了某個時間點，某件可能預期已改變的事情仍然成立」。",
-        "even-mcq-01": "「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」是「even — emphasis」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-02": "本句的「Even after twenty years」指「強調到了某個時間點，某件可能預期已改變的事情仍然成立」。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-02"
     },
@@ -632,11 +610,9 @@ export default {
       "masked": "His second lesson was ____.",
       "options": [
         "even-mcq-03",
-        "even-mcq-02",
-        "even-mcq-04",
-        "even-mcq-01",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-11",
+        "even-mcq-09",
+        "even-mcq-20"
       ],
       "explanation": "本句的「even more interesting」指「在原有程度上進一步加強；更加／甚至更……」。",
       "sentenceIndex": 5,
@@ -645,12 +621,10 @@ export default {
         "even more interesting"
       ],
       "optionReasons": {
-        "even-mcq-03": "本句指「在原有程度上進一步加強；更加／甚至更……」。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-01": "「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」是「even — emphasis」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-03": "本句的「even more interesting」指「在原有程度上進一步加強；更加／甚至更……」。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-03"
     },
@@ -662,11 +636,8 @@ export default {
       "masked": "The question became ____.",
       "options": [
         "even-mcq-03",
-        "even-mcq-02",
-        "even-mcq-04",
-        "even-mcq-01",
-        "even-mcq-05",
-        "even-mcq-06"
+        "even-mcq-18",
+        "even-mcq-09"
       ],
       "explanation": "本句的「even harder」指「在原有程度上進一步加強；更加／甚至更……」。",
       "sentenceIndex": 6,
@@ -675,12 +646,9 @@ export default {
         "even harder"
       ],
       "optionReasons": {
-        "even-mcq-03": "本句指「在原有程度上進一步加強；更加／甚至更……」。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-01": "「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」是「even — emphasis」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-03": "本句的「even harder」指「在原有程度上進一步加強；更加／甚至更……」。",
+        "even-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-03"
     },
@@ -692,11 +660,9 @@ export default {
       "masked": "____ the exam is difficult, I will try my best.",
       "options": [
         "even-mcq-04",
-        "even-mcq-03",
-        "even-mcq-05",
-        "even-mcq-02",
-        "even-mcq-06",
-        "even-mcq-01"
+        "even-mcq-14",
+        "even-mcq-20",
+        "even-mcq-11"
       ],
       "explanation": "本句的「Even if」指「即使某個假設情況成立，主句結果仍然不改變」。",
       "sentenceIndex": 7,
@@ -705,12 +671,10 @@ export default {
         "Even if"
       ],
       "optionReasons": {
-        "even-mcq-04": "本句指「即使某個假設情況成立，主句結果仍然不改變」。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-01": "「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」是「even — emphasis」的用法，與本句語境不同。"
+        "even-mcq-04": "本句的「Even if」指「即使某個假設情況成立，主句結果仍然不改變」。",
+        "even-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-04"
     },
@@ -722,11 +686,9 @@ export default {
       "masked": "I would respect him ____ I disagreed with him.",
       "options": [
         "even-mcq-04",
-        "even-mcq-03",
-        "even-mcq-05",
-        "even-mcq-02",
-        "even-mcq-06",
-        "even-mcq-01"
+        "even-mcq-12",
+        "even-mcq-01",
+        "even-mcq-20"
       ],
       "explanation": "本句的「even if」指「即使某個假設情況成立，主句結果仍然不改變」。",
       "sentenceIndex": 8,
@@ -735,12 +697,10 @@ export default {
         "even if"
       ],
       "optionReasons": {
-        "even-mcq-04": "本句指「即使某個假設情況成立，主句結果仍然不改變」。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-01": "「把某個人、事物、時間或情況標示為特別意外、極端或值得強調的；甚至／連……也」是「even — emphasis」的用法，與本句語境不同。"
+        "even-mcq-04": "本句的「even if」指「即使某個假設情況成立，主句結果仍然不改變」。",
+        "even-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-04"
     },
@@ -752,11 +712,8 @@ export default {
       "masked": "____ he was strict, the students respected him.",
       "options": [
         "even-mcq-05",
-        "even-mcq-04",
-        "even-mcq-06",
-        "even-mcq-03",
-        "even-mcq-07",
-        "even-mcq-02"
+        "even-mcq-18",
+        "even-mcq-03"
       ],
       "explanation": "本句的「Even though」指「承認某個真實事實存在，但主句結果仍然成立」。",
       "sentenceIndex": 9,
@@ -765,12 +722,9 @@ export default {
         "Even though"
       ],
       "optionReasons": {
-        "even-mcq-05": "本句指「承認某個真實事實存在，但主句結果仍然成立」。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。"
+        "even-mcq-05": "本句的「Even though」指「承認某個真實事實存在，但主句結果仍然成立」。",
+        "even-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-05"
     },
@@ -782,11 +736,9 @@ export default {
       "masked": "She attended class ____ she was tired.",
       "options": [
         "even-mcq-05",
-        "even-mcq-04",
-        "even-mcq-06",
-        "even-mcq-03",
-        "even-mcq-07",
-        "even-mcq-02"
+        "even-mcq-13",
+        "even-mcq-08",
+        "even-mcq-01"
       ],
       "explanation": "本句的「even though」指「承認某個真實事實存在，但主句結果仍然成立」。",
       "sentenceIndex": 10,
@@ -795,12 +747,10 @@ export default {
         "even though"
       ],
       "optionReasons": {
-        "even-mcq-05": "本句指「承認某個真實事實存在，但主句結果仍然成立」。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-02": "「強調到了某個時間點，某件可能預期已改變的事情仍然成立」是「even now/today/after...」的用法，與本句語境不同。"
+        "even-mcq-05": "本句的「even though」指「承認某個真實事實存在，但主句結果仍然成立」。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-05"
     },
@@ -812,11 +762,9 @@ export default {
       "masked": "The lesson was difficult. ____, I enjoyed it.",
       "options": [
         "even-mcq-06",
-        "even-mcq-05",
-        "even-mcq-07",
-        "even-mcq-04",
-        "even-mcq-08",
-        "even-mcq-03"
+        "even-mcq-11",
+        "even-mcq-14",
+        "even-mcq-13"
       ],
       "explanation": "本句的「Even so」指「前述情況雖可能導致相反結果，但實際結果仍然如此」。",
       "sentenceIndex": 11,
@@ -825,12 +773,10 @@ export default {
         "Even so"
       ],
       "optionReasons": {
-        "even-mcq-06": "本句指「前述情況雖可能導致相反結果，但實際結果仍然如此」。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。"
+        "even-mcq-06": "本句的「Even so」指「前述情況雖可能導致相反結果，但實際結果仍然如此」。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-06"
     },
@@ -842,10 +788,8 @@ export default {
       "masked": "He was very strict. ____, the students trusted him.",
       "options": [
         "even-mcq-06",
-        "even-mcq-05",
-        "even-mcq-07",
-        "even-mcq-04",
-        "even-mcq-08",
+        "even-mcq-13",
+        "even-mcq-20",
         "even-mcq-03"
       ],
       "explanation": "本句的「Even so」指「前述情況雖可能導致相反結果，但實際結果仍然如此」。",
@@ -855,12 +799,10 @@ export default {
         "Even so"
       ],
       "optionReasons": {
-        "even-mcq-06": "本句指「前述情況雖可能導致相反結果，但實際結果仍然如此」。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-03": "「在原有程度上進一步加強；更加／甚至更……」是「even + comparative」的用法，與本句語境不同。"
+        "even-mcq-06": "本句的「Even so」指「前述情況雖可能導致相反結果，但實際結果仍然如此」。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-06"
     },
@@ -872,11 +814,9 @@ export default {
       "masked": "Make sure the table is on an ____.",
       "options": [
         "even-mcq-07",
-        "even-mcq-06",
-        "even-mcq-08",
-        "even-mcq-05",
-        "even-mcq-09",
-        "even-mcq-04"
+        "even-mcq-03",
+        "even-mcq-20",
+        "even-mcq-13"
       ],
       "explanation": "本句的「even surface」指「高低一致、沒有明顯凹凸或傾斜的」。",
       "sentenceIndex": 13,
@@ -885,12 +825,10 @@ export default {
         "even surface"
       ],
       "optionReasons": {
-        "even-mcq-07": "本句指「高低一致、沒有明顯凹凸或傾斜的」。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。"
+        "even-mcq-07": "本句的「even surface」指「高低一致、沒有明顯凹凸或傾斜的」。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-07"
     },
@@ -902,11 +840,9 @@ export default {
       "masked": "The floor is not completely ____.",
       "options": [
         "even-mcq-07",
-        "even-mcq-06",
-        "even-mcq-08",
-        "even-mcq-05",
-        "even-mcq-09",
-        "even-mcq-04"
+        "even-mcq-03",
+        "even-mcq-02",
+        "even-mcq-13"
       ],
       "explanation": "本句的「even」指「高低一致、沒有明顯凹凸或傾斜的」。",
       "sentenceIndex": 14,
@@ -915,12 +851,10 @@ export default {
         "even"
       ],
       "optionReasons": {
-        "even-mcq-07": "本句指「高低一致、沒有明顯凹凸或傾斜的」。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-04": "「即使某個假設情況成立，主句結果仍然不改變」是「even if」的用法，與本句語境不同。"
+        "even-mcq-07": "本句的「even」指「高低一致、沒有明顯凹凸或傾斜的」。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-07"
     },
@@ -932,11 +866,9 @@ export default {
       "masked": "Divide the students into two ____.",
       "options": [
         "even-mcq-08",
-        "even-mcq-07",
-        "even-mcq-09",
-        "even-mcq-06",
-        "even-mcq-10",
-        "even-mcq-05"
+        "even-mcq-01",
+        "even-mcq-05",
+        "even-mcq-13"
       ],
       "explanation": "本句的「even groups」指「數量、力量、程度或條件大致相同，沒有一方明顯佔優」。",
       "sentenceIndex": 15,
@@ -945,12 +877,10 @@ export default {
         "even groups"
       ],
       "optionReasons": {
-        "even-mcq-08": "本句指「數量、力量、程度或條件大致相同，沒有一方明顯佔優」。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。"
+        "even-mcq-08": "本句的「even groups」指「數量、力量、程度或條件大致相同，沒有一方明顯佔優」。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-08"
     },
@@ -962,11 +892,9 @@ export default {
       "masked": "The two teams were fairly ____.",
       "options": [
         "even-mcq-08",
-        "even-mcq-07",
-        "even-mcq-09",
-        "even-mcq-06",
-        "even-mcq-10",
-        "even-mcq-05"
+        "even-mcq-20",
+        "even-mcq-01",
+        "even-mcq-04"
       ],
       "explanation": "本句的「even」指「數量、力量、程度或條件大致相同，沒有一方明顯佔優」。",
       "sentenceIndex": 16,
@@ -975,12 +903,10 @@ export default {
         "even"
       ],
       "optionReasons": {
-        "even-mcq-08": "本句指「數量、力量、程度或條件大致相同，沒有一方明顯佔優」。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-05": "「承認某個真實事實存在，但主句結果仍然成立」是「even though」的用法，與本句語境不同。"
+        "even-mcq-08": "本句的「even」指「數量、力量、程度或條件大致相同，沒有一方明顯佔優」。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-08"
     },
@@ -992,11 +918,9 @@ export default {
       "masked": "There is an ____ that either team will win.",
       "options": [
         "even-mcq-09",
-        "even-mcq-08",
-        "even-mcq-10",
-        "even-mcq-07",
-        "even-mcq-11",
-        "even-mcq-06"
+        "even-mcq-14",
+        "even-mcq-20",
+        "even-mcq-11"
       ],
       "explanation": "本句的「even chance」指「兩種結果的可能性大致相等」。",
       "sentenceIndex": 17,
@@ -1005,12 +929,10 @@ export default {
         "even chance"
       ],
       "optionReasons": {
-        "even-mcq-09": "本句指「兩種結果的可能性大致相等」。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-09": "本句的「even chance」指「兩種結果的可能性大致相等」。",
+        "even-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-09"
     },
@@ -1022,11 +944,9 @@ export default {
       "masked": "We have an ____ of success.",
       "options": [
         "even-mcq-09",
-        "even-mcq-08",
-        "even-mcq-10",
-        "even-mcq-07",
-        "even-mcq-11",
-        "even-mcq-06"
+        "even-mcq-12",
+        "even-mcq-03",
+        "even-mcq-20"
       ],
       "explanation": "本句的「even chance」指「兩種結果的可能性大致相等」。",
       "sentenceIndex": 18,
@@ -1035,12 +955,10 @@ export default {
         "even chance"
       ],
       "optionReasons": {
-        "even-mcq-09": "本句指「兩種結果的可能性大致相等」。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-06": "「前述情況雖可能導致相反結果，但實際結果仍然如此」是「even so」的用法，與本句語境不同。"
+        "even-mcq-09": "本句的「even chance」指「兩種結果的可能性大致相等」。",
+        "even-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-09"
     },
@@ -1052,11 +970,9 @@ export default {
       "masked": "He spoke in a calm, ____.",
       "options": [
         "even-mcq-10",
-        "even-mcq-09",
-        "even-mcq-11",
-        "even-mcq-08",
-        "even-mcq-12",
-        "even-mcq-07"
+        "even-mcq-13",
+        "even-mcq-20",
+        "even-mcq-04"
       ],
       "explanation": "本句的「even voice」指「各時間／位置的程度相近，沒有突然或明顯波動的」。",
       "sentenceIndex": 19,
@@ -1065,12 +981,10 @@ export default {
         "even voice"
       ],
       "optionReasons": {
-        "even-mcq-10": "本句指「各時間／位置的程度相近，沒有突然或明顯波動的」。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。"
+        "even-mcq-10": "本句的「even voice」指「各時間／位置的程度相近，沒有突然或明顯波動的」。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-10"
     },
@@ -1083,10 +997,7 @@ export default {
       "options": [
         "even-mcq-10",
         "even-mcq-09",
-        "even-mcq-11",
-        "even-mcq-08",
-        "even-mcq-12",
-        "even-mcq-07"
+        "even-mcq-20"
       ],
       "explanation": "本句的「even pace」指「各時間／位置的程度相近，沒有突然或明顯波動的」。",
       "sentenceIndex": 20,
@@ -1095,12 +1006,9 @@ export default {
         "even pace"
       ],
       "optionReasons": {
-        "even-mcq-10": "本句指「各時間／位置的程度相近，沒有突然或明顯波動的」。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-07": "「高低一致、沒有明顯凹凸或傾斜的」是「even — surface」的用法，與本句語境不同。"
+        "even-mcq-10": "本句的「even pace」指「各時間／位置的程度相近，沒有突然或明顯波動的」。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-10"
     },
@@ -1112,11 +1020,9 @@ export default {
       "masked": "She remained ____ under pressure.",
       "options": [
         "even-mcq-20",
-        "even-mcq-19",
-        "even-mcq-18",
-        "even-mcq-17",
-        "even-mcq-16",
-        "even-mcq-15"
+        "even-mcq-07",
+        "even-mcq-06",
+        "even-mcq-13"
       ],
       "explanation": "本句的「even-tempered」指「情緒不容易劇烈起伏，能保持冷靜穩定的」。",
       "sentenceIndex": 21,
@@ -1125,12 +1031,10 @@ export default {
         "even-tempered"
       ],
       "optionReasons": {
-        "even-mcq-20": "本句指「情緒不容易劇烈起伏，能保持冷靜穩定的」。",
-        "even-mcq-19": "「對不同人士或立場採用相同標準、不偏袒任何一方的」是「even-handed」的用法，與本句語境不同。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。"
+        "even-mcq-20": "本句的「even-tempered」指「情緒不容易劇烈起伏，能保持冷靜穩定的」。",
+        "even-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-20"
     },
@@ -1142,11 +1046,9 @@ export default {
       "masked": "His manner remained calm and ____.",
       "options": [
         "even-mcq-20",
-        "even-mcq-19",
-        "even-mcq-18",
-        "even-mcq-17",
-        "even-mcq-16",
-        "even-mcq-15"
+        "even-mcq-13",
+        "even-mcq-08",
+        "even-mcq-02"
       ],
       "explanation": "本句的「even」指「情緒不容易劇烈起伏，能保持冷靜穩定的」。",
       "sentenceIndex": 22,
@@ -1155,12 +1057,10 @@ export default {
         "even"
       ],
       "optionReasons": {
-        "even-mcq-20": "本句指「情緒不容易劇烈起伏，能保持冷靜穩定的」。",
-        "even-mcq-19": "「對不同人士或立場採用相同標準、不偏袒任何一方的」是「even-handed」的用法，與本句語境不同。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。"
+        "even-mcq-20": "本句的「even」指「情緒不容易劇烈起伏，能保持冷靜穩定的」。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-20"
     },
@@ -1172,11 +1072,9 @@ export default {
       "masked": "Six is an ____.",
       "options": [
         "even-mcq-11",
-        "even-mcq-10",
-        "even-mcq-12",
-        "even-mcq-09",
-        "even-mcq-13",
-        "even-mcq-08"
+        "even-mcq-04",
+        "even-mcq-20",
+        "even-mcq-01"
       ],
       "explanation": "本句的「even number」指「能被 2 整除而沒有餘數的整數」。",
       "sentenceIndex": 23,
@@ -1185,12 +1083,10 @@ export default {
         "even number"
       ],
       "optionReasons": {
-        "even-mcq-11": "本句指「能被 2 整除而沒有餘數的整數」。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。"
+        "even-mcq-11": "本句的「even number」指「能被 2 整除而沒有餘數的整數」。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-11"
     },
@@ -1202,11 +1098,9 @@ export default {
       "masked": "Write down all the ____ between 1 and 10.",
       "options": [
         "even-mcq-11",
-        "even-mcq-10",
-        "even-mcq-12",
         "even-mcq-09",
-        "even-mcq-13",
-        "even-mcq-08"
+        "even-mcq-19",
+        "even-mcq-03"
       ],
       "explanation": "本句的「even numbers」指「能被 2 整除而沒有餘數的整數」。",
       "sentenceIndex": 24,
@@ -1215,12 +1109,10 @@ export default {
         "even numbers"
       ],
       "optionReasons": {
-        "even-mcq-11": "本句指「能被 2 整除而沒有餘數的整數」。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-08": "「數量、力量、程度或條件大致相同，沒有一方明顯佔優」是「even — equal/balanced」的用法，與本句語境不同。"
+        "even-mcq-11": "本句的「even numbers」指「能被 2 整除而沒有餘數的整數」。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-11"
     },
@@ -1232,11 +1124,9 @@ export default {
       "masked": "The score was ____ at 2–2.",
       "options": [
         "even-mcq-12",
-        "even-mcq-11",
         "even-mcq-13",
-        "even-mcq-10",
-        "even-mcq-14",
-        "even-mcq-09"
+        "even-mcq-03",
+        "even-mcq-04"
       ],
       "explanation": "本句的「even」指「雙方比分相同或競爭實力相若，沒有一方領先」。",
       "sentenceIndex": 25,
@@ -1245,12 +1135,10 @@ export default {
         "even"
       ],
       "optionReasons": {
-        "even-mcq-12": "本句指「雙方比分相同或競爭實力相若，沒有一方領先」。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。"
+        "even-mcq-12": "本句的「even」指「雙方比分相同或競爭實力相若，沒有一方領先」。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-12"
     },
@@ -1262,11 +1150,9 @@ export default {
       "masked": "The match remained ____ until the final minute.",
       "options": [
         "even-mcq-12",
-        "even-mcq-11",
-        "even-mcq-13",
-        "even-mcq-10",
-        "even-mcq-14",
-        "even-mcq-09"
+        "even-mcq-09",
+        "even-mcq-01",
+        "even-mcq-20"
       ],
       "explanation": "本句的「even」指「雙方比分相同或競爭實力相若，沒有一方領先」。",
       "sentenceIndex": 26,
@@ -1275,12 +1161,10 @@ export default {
         "even"
       ],
       "optionReasons": {
-        "even-mcq-12": "本句指「雙方比分相同或競爭實力相若，沒有一方領先」。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-09": "「兩種結果的可能性大致相等」是「even chance」的用法，與本句語境不同。"
+        "even-mcq-12": "本句的「even」指「雙方比分相同或競爭實力相若，沒有一方領先」。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-12"
     },
@@ -1292,11 +1176,9 @@ export default {
       "masked": "The worker ____ the surface before painting.",
       "options": [
         "even-mcq-13",
-        "even-mcq-12",
-        "even-mcq-14",
-        "even-mcq-11",
-        "even-mcq-15",
-        "even-mcq-10"
+        "even-mcq-05",
+        "even-mcq-08",
+        "even-mcq-01"
       ],
       "explanation": "本句的「evened」指「使原本不平、不相等或不均衡的東西變得平整／相等」。",
       "sentenceIndex": 27,
@@ -1305,12 +1187,10 @@ export default {
         "evened"
       ],
       "optionReasons": {
-        "even-mcq-13": "本句指「使原本不平、不相等或不均衡的東西變得平整／相等」。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。"
+        "even-mcq-13": "本句的「evened」指「使原本不平、不相等或不均衡的東西變得平整／相等」。",
+        "even-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-13"
     },
@@ -1322,11 +1202,9 @@ export default {
       "masked": "The final goal ____ the score.",
       "options": [
         "even-mcq-13",
-        "even-mcq-12",
-        "even-mcq-14",
-        "even-mcq-11",
-        "even-mcq-15",
-        "even-mcq-10"
+        "even-mcq-01",
+        "even-mcq-20",
+        "even-mcq-19"
       ],
       "explanation": "本句的「evened」指「使原本不平、不相等或不均衡的東西變得平整／相等」。",
       "sentenceIndex": 28,
@@ -1335,12 +1213,10 @@ export default {
         "evened"
       ],
       "optionReasons": {
-        "even-mcq-13": "本句指「使原本不平、不相等或不均衡的東西變得平整／相等」。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-10": "「各時間／位置的程度相近，沒有突然或明顯波動的」是「even — regular/steady」的用法，與本句語境不同。"
+        "even-mcq-13": "本句的「evened」指「使原本不平、不相等或不均衡的東西變得平整／相等」。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-13"
     },
@@ -1352,11 +1228,9 @@ export default {
       "masked": "Spread the paint ____ across the wall.",
       "options": [
         "even-mcq-14",
+        "even-mcq-01",
         "even-mcq-13",
-        "even-mcq-15",
-        "even-mcq-12",
-        "even-mcq-16",
-        "even-mcq-11"
+        "even-mcq-20"
       ],
       "explanation": "本句的「evenly」指「以各部分數量、程度或分布相近的方式」。",
       "sentenceIndex": 29,
@@ -1365,12 +1239,10 @@ export default {
         "evenly"
       ],
       "optionReasons": {
-        "even-mcq-14": "本句指「以各部分數量、程度或分布相近的方式」。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。"
+        "even-mcq-14": "本句的「evenly」指「以各部分數量、程度或分布相近的方式」。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-14"
     },
@@ -1382,11 +1254,9 @@ export default {
       "masked": "The money was divided ____ among the students.",
       "options": [
         "even-mcq-14",
-        "even-mcq-13",
-        "even-mcq-15",
-        "even-mcq-12",
-        "even-mcq-16",
-        "even-mcq-11"
+        "even-mcq-02",
+        "even-mcq-20",
+        "even-mcq-13"
       ],
       "explanation": "本句的「evenly」指「以各部分數量、程度或分布相近的方式」。",
       "sentenceIndex": 30,
@@ -1395,12 +1265,10 @@ export default {
         "evenly"
       ],
       "optionReasons": {
-        "even-mcq-14": "本句指「以各部分數量、程度或分布相近的方式」。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。"
+        "even-mcq-14": "本句的「evenly」指「以各部分數量、程度或分布相近的方式」。",
+        "even-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-14"
     },
@@ -1412,11 +1280,9 @@ export default {
       "masked": "She breathed slowly and ____.",
       "options": [
         "even-pdf-001",
-        "even-mcq-13",
-        "even-mcq-15",
-        "even-mcq-12",
-        "even-mcq-16",
-        "even-mcq-11"
+        "even-mcq-17",
+        "even-mcq-01",
+        "even-mcq-09"
       ],
       "explanation": "本句的「evenly」指「以沒有明顯波動、起伏或突然變化的方式」。",
       "sentenceIndex": 31,
@@ -1425,12 +1291,10 @@ export default {
         "evenly"
       ],
       "optionReasons": {
-        "even-pdf-001": "本句指「以沒有明顯波動、起伏或突然變化的方式」。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。"
+        "even-pdf-001": "本句的「evenly」指「以沒有明顯波動、起伏或突然變化的方式」。",
+        "even-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-pdf-001"
     },
@@ -1442,11 +1306,9 @@ export default {
       "masked": "He spoke ____ despite his anger.",
       "options": [
         "even-pdf-001",
-        "even-mcq-13",
-        "even-mcq-15",
-        "even-mcq-12",
-        "even-mcq-16",
-        "even-mcq-11"
+        "even-mcq-09",
+        "even-mcq-19",
+        "even-mcq-03"
       ],
       "explanation": "本句的「evenly」指「以沒有明顯波動、起伏或突然變化的方式」。",
       "sentenceIndex": 32,
@@ -1455,12 +1317,10 @@ export default {
         "evenly"
       ],
       "optionReasons": {
-        "even-pdf-001": "本句指「以沒有明顯波動、起伏或突然變化的方式」。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-11": "「能被 2 整除而沒有餘數的整數」是「even number」的用法，與本句語境不同。"
+        "even-pdf-001": "本句的「evenly」指「以沒有明顯波動、起伏或突然變化的方式」。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-pdf-001"
     },
@@ -1472,11 +1332,8 @@ export default {
       "masked": "Check the ____ of the surface.",
       "options": [
         "even-mcq-15",
-        "even-mcq-14",
-        "even-mcq-16",
-        "even-mcq-13",
-        "even-mcq-17",
-        "even-mcq-12"
+        "even-mcq-02",
+        "even-mcq-11"
       ],
       "explanation": "本句的「evenness」指「保持平整、均衡、規律或一致的程度／特質」。",
       "sentenceIndex": 33,
@@ -1485,12 +1342,9 @@ export default {
         "evenness"
       ],
       "optionReasons": {
-        "even-mcq-15": "本句指「保持平整、均衡、規律或一致的程度／特質」。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。"
+        "even-mcq-15": "本句的「evenness」指「保持平整、均衡、規律或一致的程度／特質」。",
+        "even-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-15"
     },
@@ -1502,11 +1356,8 @@ export default {
       "masked": "The ____ of the lighting made the room easier to photograph.",
       "options": [
         "even-mcq-15",
-        "even-mcq-14",
-        "even-mcq-16",
-        "even-mcq-13",
-        "even-mcq-17",
-        "even-mcq-12"
+        "even-mcq-02",
+        "even-mcq-11"
       ],
       "explanation": "本句的「evenness」指「保持平整、均衡、規律或一致的程度／特質」。",
       "sentenceIndex": 34,
@@ -1515,12 +1366,9 @@ export default {
         "evenness"
       ],
       "optionReasons": {
-        "even-mcq-15": "本句指「保持平整、均衡、規律或一致的程度／特質」。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-12": "「雙方比分相同或競爭實力相若，沒有一方領先」是「even — score」的用法，與本句語境不同。"
+        "even-mcq-15": "本句的「evenness」指「保持平整、均衡、規律或一致的程度／特質」。",
+        "even-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-15"
     },
@@ -1532,11 +1380,9 @@ export default {
       "masked": "The ground was rough and ____.",
       "options": [
         "even-mcq-16",
-        "even-mcq-15",
-        "even-mcq-17",
-        "even-mcq-14",
-        "even-mcq-18",
-        "even-mcq-13"
+        "even-mcq-05",
+        "even-pdf-001",
+        "even-mcq-01"
       ],
       "explanation": "本句的「uneven」指「在高度、數量、分布、質素或表現方面不一致／不均衡的」。",
       "sentenceIndex": 35,
@@ -1545,12 +1391,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "even-mcq-16": "本句指「在高度、數量、分布、質素或表現方面不一致／不均衡的」。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。"
+        "even-mcq-16": "本句的「uneven」指「在高度、數量、分布、質素或表現方面不一致／不均衡的」。",
+        "even-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "even-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-16"
     },
@@ -1562,11 +1406,9 @@ export default {
       "masked": "The quality of the students’ work was ____.",
       "options": [
         "even-mcq-16",
-        "even-mcq-15",
-        "even-mcq-17",
-        "even-mcq-14",
-        "even-mcq-18",
-        "even-mcq-13"
+        "even-pdf-001",
+        "even-mcq-01",
+        "even-mcq-05"
       ],
       "explanation": "本句的「uneven」指「在高度、數量、分布、質素或表現方面不一致／不均衡的」。",
       "sentenceIndex": 36,
@@ -1575,12 +1417,10 @@ export default {
         "uneven"
       ],
       "optionReasons": {
-        "even-mcq-16": "本句指「在高度、數量、分布、質素或表現方面不一致／不均衡的」。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-13": "「使原本不平、不相等或不均衡的東西變得平整／相等」是「even — verb」的用法，與本句語境不同。"
+        "even-mcq-16": "本句的「uneven」指「在高度、數量、分布、質素或表現方面不一致／不均衡的」。",
+        "even-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-16"
     },
@@ -1592,11 +1432,9 @@ export default {
       "masked": "The paint was applied ____.",
       "options": [
         "even-mcq-17",
-        "even-mcq-16",
-        "even-mcq-18",
-        "even-mcq-15",
-        "even-mcq-19",
-        "even-mcq-14"
+        "even-mcq-20",
+        "even-mcq-04",
+        "even-mcq-01"
       ],
       "explanation": "本句的「unevenly」指「不同部分的數量、程度或分布不一致地」。",
       "sentenceIndex": 37,
@@ -1605,12 +1443,10 @@ export default {
         "unevenly"
       ],
       "optionReasons": {
-        "even-mcq-17": "本句指「不同部分的數量、程度或分布不一致地」。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-19": "「對不同人士或立場採用相同標準、不偏袒任何一方的」是「even-handed」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。"
+        "even-mcq-17": "本句的「unevenly」指「不同部分的數量、程度或分布不一致地」。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-17"
     },
@@ -1622,11 +1458,9 @@ export default {
       "masked": "The benefits were distributed ____.",
       "options": [
         "even-mcq-17",
-        "even-mcq-16",
-        "even-mcq-18",
-        "even-mcq-15",
-        "even-mcq-19",
-        "even-mcq-14"
+        "even-mcq-04",
+        "even-mcq-20",
+        "even-mcq-01"
       ],
       "explanation": "本句的「unevenly」指「不同部分的數量、程度或分布不一致地」。",
       "sentenceIndex": 38,
@@ -1635,12 +1469,10 @@ export default {
         "unevenly"
       ],
       "optionReasons": {
-        "even-mcq-17": "本句指「不同部分的數量、程度或分布不一致地」。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。",
-        "even-mcq-19": "「對不同人士或立場採用相同標準、不偏袒任何一方的」是「even-handed」的用法，與本句語境不同。",
-        "even-mcq-14": "「以各部分數量、程度或分布相近的方式」是「evenly」的用法，與本句語境不同。"
+        "even-mcq-17": "本句的「unevenly」指「不同部分的數量、程度或分布不一致地」。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-17"
     },
@@ -1652,11 +1484,8 @@ export default {
       "masked": "The road’s ____ made driving uncomfortable.",
       "options": [
         "even-mcq-18",
-        "even-mcq-17",
-        "even-mcq-19",
-        "even-mcq-16",
-        "even-mcq-20",
-        "even-mcq-15"
+        "even-mcq-03",
+        "even-mcq-04"
       ],
       "explanation": "本句的「unevenness」指「缺乏平整、均衡、穩定或一致的狀態」。",
       "sentenceIndex": 39,
@@ -1665,12 +1494,9 @@ export default {
         "unevenness"
       ],
       "optionReasons": {
-        "even-mcq-18": "本句指「缺乏平整、均衡、穩定或一致的狀態」。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-19": "「對不同人士或立場採用相同標準、不偏袒任何一方的」是「even-handed」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-20": "「情緒不容易劇烈起伏，能保持冷靜穩定的」是「11. even = calm / controlled（情緒／性格） — 平和的；情緒穩定的」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。"
+        "even-mcq-18": "本句的「unevenness」指「缺乏平整、均衡、穩定或一致的狀態」。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-18"
     },
@@ -1682,11 +1508,8 @@ export default {
       "masked": "Critics noted the ____ of the film.",
       "options": [
         "even-mcq-18",
-        "even-mcq-17",
-        "even-mcq-19",
-        "even-mcq-16",
-        "even-mcq-20",
-        "even-mcq-15"
+        "even-mcq-02",
+        "even-mcq-03"
       ],
       "explanation": "本句的「unevenness」指「缺乏平整、均衡、穩定或一致的狀態」。",
       "sentenceIndex": 40,
@@ -1695,12 +1518,9 @@ export default {
         "unevenness"
       ],
       "optionReasons": {
-        "even-mcq-18": "本句指「缺乏平整、均衡、穩定或一致的狀態」。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-19": "「對不同人士或立場採用相同標準、不偏袒任何一方的」是「even-handed」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-20": "「情緒不容易劇烈起伏，能保持冷靜穩定的」是「11. even = calm / controlled（情緒／性格） — 平和的；情緒穩定的」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。"
+        "even-mcq-18": "本句的「unevenness」指「缺乏平整、均衡、穩定或一致的狀態」。",
+        "even-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-18"
     },
@@ -1712,11 +1532,9 @@ export default {
       "masked": "The teacher was strict but ____.",
       "options": [
         "even-mcq-19",
-        "even-mcq-18",
+        "even-mcq-09",
         "even-mcq-20",
-        "even-mcq-17",
-        "even-mcq-16",
-        "even-mcq-15"
+        "even-mcq-03"
       ],
       "explanation": "本句的「even-handed」指「對不同人士或立場採用相同標準、不偏袒任何一方的」。",
       "sentenceIndex": 41,
@@ -1725,12 +1543,10 @@ export default {
         "even-handed"
       ],
       "optionReasons": {
-        "even-mcq-19": "本句指「對不同人士或立場採用相同標準、不偏袒任何一方的」。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-20": "「情緒不容易劇烈起伏，能保持冷靜穩定的」是「11. even = calm / controlled（情緒／性格） — 平和的；情緒穩定的」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。"
+        "even-mcq-19": "本句的「even-handed」指「對不同人士或立場採用相同標準、不偏袒任何一方的」。",
+        "even-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-19"
     },
@@ -1742,11 +1558,9 @@ export default {
       "masked": "The report gives an ____ account of both sides.",
       "options": [
         "even-mcq-19",
-        "even-mcq-18",
-        "even-mcq-20",
-        "even-mcq-17",
-        "even-mcq-16",
-        "even-mcq-15"
+        "even-mcq-11",
+        "even-mcq-13",
+        "even-mcq-03"
       ],
       "explanation": "本句的「even-handed」指「對不同人士或立場採用相同標準、不偏袒任何一方的」。",
       "sentenceIndex": 42,
@@ -1755,12 +1569,10 @@ export default {
         "even-handed"
       ],
       "optionReasons": {
-        "even-mcq-19": "本句指「對不同人士或立場採用相同標準、不偏袒任何一方的」。",
-        "even-mcq-18": "「缺乏平整、均衡、穩定或一致的狀態」是「unevenness」的用法，與本句語境不同。",
-        "even-mcq-20": "「情緒不容易劇烈起伏，能保持冷靜穩定的」是「11. even = calm / controlled（情緒／性格） — 平和的；情緒穩定的」的用法，與本句語境不同。",
-        "even-mcq-17": "「不同部分的數量、程度或分布不一致地」是「unevenly」的用法，與本句語境不同。",
-        "even-mcq-16": "「在高度、數量、分布、質素或表現方面不一致／不均衡的」是「uneven」的用法，與本句語境不同。",
-        "even-mcq-15": "「保持平整、均衡、規律或一致的程度／特質」是「evenness」的用法，與本句語境不同。"
+        "even-mcq-19": "本句的「even-handed」指「對不同人士或立場採用相同標準、不偏袒任何一方的」。",
+        "even-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "even-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "even-mcq-19"
     }
@@ -1772,5 +1584,7 @@ export default {
     "sha256": "c3fe4d40c25fe7c3d7ab4f1ef3fd484bae564599109a765615c2ae5b22bb399b",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

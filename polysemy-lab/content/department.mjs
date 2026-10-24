@@ -800,16 +800,6 @@ export default {
           "Numbers aren't really my department.",
           "數字方面不太是我的專長。",
           "不是我負責／擅長的範疇"
-        ],
-        [
-          "The proposal is strong in the creativity department but weak on cost control.",
-          "這份方案在創意方面很強，但成本控制較弱。",
-          "不是我負責／擅長的範疇"
-        ],
-        [
-          "He's not lacking in the confidence department.",
-          "他在自信方面可一點也不缺。",
-          "不是我負責／擅長的範疇"
         ]
       ],
       "options": [],
@@ -1123,6 +1113,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "department-reviewed-c6327c4aa5",
+      "title": "在某方面",
+      "form": "department · source section 47",
+      "en": "在某方面",
+      "zh": "在某方面",
+      "note": "對照原始教材第 47 節及例句核實。",
+      "examples": [
+        [
+          "The proposal is strong in the creativity department but weak on cost control.",
+          "這份方案在創意方面很強，但成本控制較弱。",
+          "在某方面"
+        ],
+        [
+          "He's not lacking in the confidence department.",
+          "他在自信方面可一點也不缺。",
+          "在某方面"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1135,10 +1147,8 @@ export default {
       "options": [
         "department-pdf-001",
         "department-mcq-02",
-        "department-mcq-03",
-        "department-mcq-04",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-mcq-33",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「departments」指「大型公司或機構內負責某一類特定工作的正式單位」。",
       "sentenceIndex": 0,
@@ -1147,12 +1157,10 @@ export default {
         "departments"
       ],
       "optionReasons": {
-        "department-pdf-001": "本句指「大型公司或機構內負責某一類特定工作的正式單位」。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-pdf-001": "本句的「departments」指「大型公司或機構內負責某一類特定工作的正式單位」。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-001"
     },
@@ -1164,11 +1172,9 @@ export default {
       "masked": "Each ____ has its own responsibilities.",
       "options": [
         "department-pdf-001",
-        "department-mcq-02",
-        "department-mcq-03",
-        "department-mcq-04",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-mcq-39",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-02"
       ],
       "explanation": "本句的「department」指「大型公司或機構內負責某一類特定工作的正式單位」。",
       "sentenceIndex": 1,
@@ -1177,12 +1183,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-001": "本句指「大型公司或機構內負責某一類特定工作的正式單位」。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-pdf-001": "本句的「department」指「大型公司或機構內負責某一類特定工作的正式單位」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-001"
     },
@@ -1194,11 +1198,9 @@ export default {
       "masked": "The project involves several ____.",
       "options": [
         "department-pdf-001",
-        "department-mcq-02",
-        "department-mcq-03",
-        "department-mcq-04",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-mcq-06",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-09"
       ],
       "explanation": "本句的「departments」指「大型公司或機構內負責某一類特定工作的正式單位」。",
       "sentenceIndex": 2,
@@ -1207,12 +1209,10 @@ export default {
         "departments"
       ],
       "optionReasons": {
-        "department-pdf-001": "本句指「大型公司或機構內負責某一類特定工作的正式單位」。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-pdf-001": "本句的「departments」指「大型公司或機構內負責某一類特定工作的正式單位」。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-001"
     },
@@ -1224,11 +1224,9 @@ export default {
       "masked": "The ____ is preparing the new campaign.",
       "options": [
         "department-mcq-02",
-        "department-mcq-01",
-        "department-mcq-03",
-        "department-mcq-04",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-pdf-007",
+        "department-pdf-003",
+        "department-mcq-25"
       ],
       "explanation": "本句的「marketing department」指「市場推廣部」。",
       "sentenceIndex": 3,
@@ -1237,12 +1235,10 @@ export default {
         "marketing department"
       ],
       "optionReasons": {
-        "department-mcq-02": "本句指「市場推廣部」。",
-        "department-mcq-01": "「部門」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-mcq-02": "本句的「marketing department」指「市場推廣部」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-02"
     },
@@ -1254,11 +1250,9 @@ export default {
       "masked": "The product team consulted the ____.",
       "options": [
         "department-mcq-02",
-        "department-mcq-01",
-        "department-mcq-03",
-        "department-mcq-04",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-pdf-005",
+        "department-mcq-36",
+        "department-mcq-37"
       ],
       "explanation": "本句的「marketing department」指「市場推廣部」。",
       "sentenceIndex": 4,
@@ -1267,12 +1261,10 @@ export default {
         "marketing department"
       ],
       "optionReasons": {
-        "department-mcq-02": "本句指「市場推廣部」。",
-        "department-mcq-01": "「部門」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-mcq-02": "本句的「marketing department」指「市場推廣部」。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-02"
     },
@@ -1284,11 +1276,9 @@ export default {
       "masked": "The ____ approved the budget.",
       "options": [
         "department-mcq-03",
-        "department-mcq-02",
-        "department-mcq-04",
-        "department-mcq-01",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-pdf-001",
+        "department-pdf-007",
+        "department-mcq-25"
       ],
       "explanation": "本句的「finance department」指「財務部」。",
       "sentenceIndex": 5,
@@ -1297,12 +1287,10 @@ export default {
         "finance department"
       ],
       "optionReasons": {
-        "department-mcq-03": "本句指「財務部」。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-01": "「部門」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-mcq-03": "本句的「finance department」指「財務部」。",
+        "department-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-03"
     },
@@ -1314,11 +1302,9 @@ export default {
       "masked": "Please send the invoice to the ____.",
       "options": [
         "department-mcq-03",
-        "department-mcq-02",
-        "department-mcq-04",
-        "department-mcq-01",
-        "department-mcq-05",
-        "department-mcq-06"
+        "department-pdf-003",
+        "department-pdf-006",
+        "department-mcq-37"
       ],
       "explanation": "本句的「finance department」指「財務部」。",
       "sentenceIndex": 6,
@@ -1327,12 +1313,10 @@ export default {
         "finance department"
       ],
       "optionReasons": {
-        "department-mcq-03": "本句指「財務部」。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-01": "「部門」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-mcq-03": "本句的「finance department」指「財務部」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-03"
     },
@@ -1344,11 +1328,9 @@ export default {
       "masked": "The ____ manages daily processes.",
       "options": [
         "department-mcq-04",
-        "department-mcq-03",
-        "department-mcq-05",
-        "department-mcq-02",
-        "department-mcq-06",
-        "department-mcq-01"
+        "department-pdf-005",
+        "department-mcq-25",
+        "department-mcq-39"
       ],
       "explanation": "本句的「operations department」指「營運部」。",
       "sentenceIndex": 7,
@@ -1357,12 +1339,10 @@ export default {
         "operations department"
       ],
       "optionReasons": {
-        "department-mcq-04": "本句指「營運部」。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-01": "「部門」與本句語境不同。"
+        "department-mcq-04": "本句的「operations department」指「營運部」。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-04"
     },
@@ -1374,11 +1354,9 @@ export default {
       "masked": "Marketing and ____ had different priorities.",
       "options": [
         "department-mcq-04",
-        "department-mcq-03",
-        "department-mcq-05",
-        "department-mcq-02",
-        "department-mcq-06",
-        "department-mcq-01"
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-37",
+        "department-pdf-005"
       ],
       "explanation": "本句的「operations」指「營運部」。",
       "sentenceIndex": 8,
@@ -1387,12 +1365,10 @@ export default {
         "operations"
       ],
       "optionReasons": {
-        "department-mcq-04": "本句指「營運部」。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-01": "「部門」與本句語境不同。"
+        "department-mcq-04": "本句的「operations」指「營運部」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-04"
     },
@@ -1404,11 +1380,9 @@ export default {
       "masked": "The ____ exceeded its target.",
       "options": [
         "department-mcq-05",
-        "department-mcq-04",
-        "department-mcq-06",
-        "department-mcq-03",
-        "department-mcq-07",
-        "department-mcq-02"
+        "department-pdf-004",
+        "department-mcq-36",
+        "department-mcq-25"
       ],
       "explanation": "本句的「sales department」指「銷售部」。",
       "sentenceIndex": 9,
@@ -1417,12 +1391,10 @@ export default {
         "sales department"
       ],
       "optionReasons": {
-        "department-mcq-05": "本句指「銷售部」。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。"
+        "department-mcq-05": "本句的「sales department」指「銷售部」。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-05"
     },
@@ -1434,11 +1406,9 @@ export default {
       "masked": "Customer feedback was passed to the ____.",
       "options": [
         "department-mcq-05",
-        "department-mcq-04",
-        "department-mcq-06",
-        "department-mcq-03",
-        "department-mcq-07",
-        "department-mcq-02"
+        "department-mcq-38",
+        "department-mcq-36",
+        "department-mcq-25"
       ],
       "explanation": "本句的「sales department」指「銷售部」。",
       "sentenceIndex": 10,
@@ -1447,12 +1417,10 @@ export default {
         "sales department"
       ],
       "optionReasons": {
-        "department-mcq-05": "本句指「銷售部」。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-02": "「市場推廣部」與本句語境不同。"
+        "department-mcq-05": "本句的「sales department」指「銷售部」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-05"
     },
@@ -1464,11 +1432,9 @@ export default {
       "masked": "Contact the ____ if you have questions about leave.",
       "options": [
         "department-mcq-06",
-        "department-mcq-05",
-        "department-mcq-07",
-        "department-mcq-04",
-        "department-mcq-08",
-        "department-mcq-03"
+        "department-mcq-25",
+        "department-mcq-37",
+        "department-mcq-39"
       ],
       "explanation": "本句的「HR department」指「人力資源部」。",
       "sentenceIndex": 11,
@@ -1477,12 +1443,10 @@ export default {
         "HR department"
       ],
       "optionReasons": {
-        "department-mcq-06": "本句指「人力資源部」。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。"
+        "department-mcq-06": "本句的「HR department」指「人力資源部」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-06"
     },
@@ -1494,11 +1458,9 @@ export default {
       "masked": "The ____ organised staff training.",
       "options": [
         "department-mcq-06",
-        "department-mcq-05",
-        "department-mcq-07",
-        "department-mcq-04",
-        "department-mcq-08",
-        "department-mcq-03"
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-004",
+        "department-pdf-005"
       ],
       "explanation": "本句的「human resources department」指「人力資源部」。",
       "sentenceIndex": 12,
@@ -1507,12 +1469,10 @@ export default {
         "human resources department"
       ],
       "optionReasons": {
-        "department-mcq-06": "本句指「人力資源部」。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-03": "「財務部」與本句語境不同。"
+        "department-mcq-06": "本句的「human resources department」指「人力資源部」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-06"
     },
@@ -1524,11 +1484,9 @@ export default {
       "masked": "The ____ fixed the network problem.",
       "options": [
         "department-mcq-07",
-        "department-mcq-06",
-        "department-mcq-08",
-        "department-mcq-05",
-        "department-mcq-09",
-        "department-mcq-04"
+        "department-mcq-25",
+        "department-mcq-39",
+        "department-mcq-37"
       ],
       "explanation": "本句的「IT department」指「資訊科技部」。",
       "sentenceIndex": 13,
@@ -1537,12 +1495,10 @@ export default {
         "IT department"
       ],
       "optionReasons": {
-        "department-mcq-07": "本句指「資訊科技部」。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。"
+        "department-mcq-07": "本句的「IT department」指「資訊科技部」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-07"
     },
@@ -1554,11 +1510,9 @@ export default {
       "masked": "Report security issues to the ____.",
       "options": [
         "department-mcq-07",
-        "department-mcq-06",
-        "department-mcq-08",
-        "department-mcq-05",
-        "department-mcq-09",
-        "department-mcq-04"
+        "department-pdf-005",
+        "department-mcq-25",
+        "department-mcq-39"
       ],
       "explanation": "本句的「IT department」指「資訊科技部」。",
       "sentenceIndex": 14,
@@ -1567,12 +1521,10 @@ export default {
         "IT department"
       ],
       "optionReasons": {
-        "department-mcq-07": "本句指「資訊科技部」。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-04": "「營運部」與本句語境不同。"
+        "department-mcq-07": "本句的「IT department」指「資訊科技部」。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-07"
     },
@@ -1584,11 +1536,9 @@ export default {
       "masked": "The contract was reviewed by the ____.",
       "options": [
         "department-mcq-08",
-        "department-mcq-07",
-        "department-mcq-09",
-        "department-mcq-06",
-        "department-mcq-10",
-        "department-mcq-05"
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-005",
+        "department-mcq-25"
       ],
       "explanation": "本句的「legal department」指「法務部」。",
       "sentenceIndex": 15,
@@ -1597,12 +1547,10 @@ export default {
         "legal department"
       ],
       "optionReasons": {
-        "department-mcq-08": "本句指「法務部」。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。"
+        "department-mcq-08": "本句的「legal department」指「法務部」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-08"
     },
@@ -1614,11 +1562,9 @@ export default {
       "masked": "The issue was referred to the company's ____.",
       "options": [
         "department-mcq-08",
-        "department-mcq-07",
-        "department-mcq-09",
-        "department-mcq-06",
-        "department-mcq-10",
-        "department-mcq-05"
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-005",
+        "department-pdf-004"
       ],
       "explanation": "本句的「legal department」指「法務部」。",
       "sentenceIndex": 16,
@@ -1627,12 +1573,10 @@ export default {
         "legal department"
       ],
       "optionReasons": {
-        "department-mcq-08": "本句指「法務部」。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-05": "「銷售部」與本句語境不同。"
+        "department-mcq-08": "本句的「legal department」指「法務部」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-08"
     },
@@ -1644,11 +1588,9 @@ export default {
       "masked": "Your complaint has been sent to the ____.",
       "options": [
         "department-mcq-09",
-        "department-mcq-08",
-        "department-mcq-10",
-        "department-mcq-07",
-        "department-mcq-11",
-        "department-mcq-06"
+        "department-mcq-25",
+        "department-mcq-39",
+        "department-mcq-37"
       ],
       "explanation": "本句的「customer service department」指「客戶服務部」。",
       "sentenceIndex": 17,
@@ -1657,12 +1599,10 @@ export default {
         "customer service department"
       ],
       "optionReasons": {
-        "department-mcq-09": "本句指「客戶服務部」。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-mcq-09": "本句的「customer service department」指「客戶服務部」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-09"
     },
@@ -1674,11 +1614,9 @@ export default {
       "masked": "The ____ handles returns.",
       "options": [
         "department-mcq-09",
-        "department-mcq-08",
-        "department-mcq-10",
-        "department-mcq-07",
-        "department-mcq-11",
-        "department-mcq-06"
+        "department-mcq-25",
+        "department-mcq-37",
+        "department-pdf-006"
       ],
       "explanation": "本句的「customer service department」指「客戶服務部」。",
       "sentenceIndex": 18,
@@ -1687,12 +1625,10 @@ export default {
         "customer service department"
       ],
       "optionReasons": {
-        "department-mcq-09": "本句指「客戶服務部」。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-06": "「人力資源部」與本句語境不同。"
+        "department-mcq-09": "本句的「customer service department」指「客戶服務部」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-006": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-09"
     },
@@ -1704,11 +1640,9 @@ export default {
       "masked": "She is the ____.",
       "options": [
         "department-mcq-10",
-        "department-mcq-09",
-        "department-mcq-11",
-        "department-mcq-08",
-        "department-mcq-12",
-        "department-mcq-07"
+        "department-mcq-39",
+        "department-pdf-007",
+        "department-mcq-25"
       ],
       "explanation": "本句的「head of the finance department」指「部門主管」。",
       "sentenceIndex": 19,
@@ -1717,12 +1651,10 @@ export default {
         "head of the finance department"
       ],
       "optionReasons": {
-        "department-mcq-10": "本句指「部門主管」。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。"
+        "department-mcq-10": "本句的「head of the finance department」指「部門主管」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-10"
     },
@@ -1734,11 +1666,9 @@ export default {
       "masked": "The ____ approved the request.",
       "options": [
         "department-mcq-10",
-        "department-mcq-09",
-        "department-mcq-11",
-        "department-mcq-08",
-        "department-mcq-12",
-        "department-mcq-07"
+        "department-mcq-38",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department head」指「部門主管」。",
       "sentenceIndex": 20,
@@ -1747,12 +1677,10 @@ export default {
         "department head"
       ],
       "optionReasons": {
-        "department-mcq-10": "本句指「部門主管」。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-07": "「資訊科技部」與本句語境不同。"
+        "department-mcq-10": "本句的「department head」指「部門主管」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-10"
     },
@@ -1764,11 +1692,9 @@ export default {
       "masked": "Ask your ____ for approval.",
       "options": [
         "department-mcq-12",
-        "department-mcq-11",
-        "department-mcq-13",
-        "department-mcq-10",
-        "department-mcq-14",
-        "department-mcq-09"
+        "department-mcq-37",
+        "department-pdf-003",
+        "department-mcq-25"
       ],
       "explanation": "本句的「department manager」指「部門經理」。",
       "sentenceIndex": 21,
@@ -1777,12 +1703,10 @@ export default {
         "department manager"
       ],
       "optionReasons": {
-        "department-mcq-12": "本句指「部門經理」。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。"
+        "department-mcq-12": "本句的「department manager」指「部門經理」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-12"
     },
@@ -1794,11 +1718,9 @@ export default {
       "masked": "____ managers meet every Monday.",
       "options": [
         "department-mcq-12",
-        "department-mcq-11",
-        "department-mcq-13",
-        "department-mcq-10",
-        "department-mcq-14",
-        "department-mcq-09"
+        "department-pdf-003",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「Department」指「部門經理」。",
       "sentenceIndex": 22,
@@ -1807,12 +1729,10 @@ export default {
         "Department"
       ],
       "optionReasons": {
-        "department-mcq-12": "本句指「部門經理」。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。"
+        "department-mcq-12": "本句的「Department」指「部門經理」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-12"
     },
@@ -1824,11 +1744,9 @@ export default {
       "masked": "We have a ____ this afternoon.",
       "options": [
         "department-mcq-13",
-        "department-mcq-12",
-        "department-mcq-14",
-        "department-mcq-11",
-        "department-mcq-15",
-        "department-mcq-10"
+        "department-mcq-25",
+        "department-mcq-37",
+        "department-mcq-39"
       ],
       "explanation": "本句的「department meeting」指「部門會議」。",
       "sentenceIndex": 23,
@@ -1837,12 +1755,10 @@ export default {
         "department meeting"
       ],
       "optionReasons": {
-        "department-mcq-13": "本句指「部門會議」。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。"
+        "department-mcq-13": "本句的「department meeting」指「部門會議」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-13"
     },
@@ -1854,11 +1770,9 @@ export default {
       "masked": "The issue was discussed at the monthly ____.",
       "options": [
         "department-mcq-13",
-        "department-mcq-12",
-        "department-mcq-14",
-        "department-mcq-11",
-        "department-mcq-15",
-        "department-mcq-10"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「department meeting」指「部門會議」。",
       "sentenceIndex": 24,
@@ -1867,12 +1781,10 @@ export default {
         "department meeting"
       ],
       "optionReasons": {
-        "department-mcq-13": "本句指「部門會議」。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-10": "「部門主管」與本句語境不同。"
+        "department-mcq-13": "本句的「department meeting」指「部門會議」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-13"
     },
@@ -1884,11 +1796,9 @@ export default {
       "masked": "The training costs will come from the ____.",
       "options": [
         "department-mcq-14",
-        "department-mcq-13",
-        "department-mcq-15",
-        "department-mcq-12",
-        "department-mcq-16",
-        "department-mcq-11"
+        "department-pdf-007",
+        "department-pdf-004",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「department budget」指「部門預算」。",
       "sentenceIndex": 25,
@@ -1897,12 +1807,10 @@ export default {
         "department budget"
       ],
       "optionReasons": {
-        "department-mcq-14": "本句指「部門預算」。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。"
+        "department-mcq-14": "本句的「department budget」指「部門預算」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-14"
     },
@@ -1914,11 +1822,9 @@ export default {
       "masked": "Each manager prepares an annual ____.",
       "options": [
         "department-mcq-14",
-        "department-mcq-13",
-        "department-mcq-15",
-        "department-mcq-12",
-        "department-mcq-16",
-        "department-mcq-11"
+        "department-mcq-38",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department budget」指「部門預算」。",
       "sentenceIndex": 26,
@@ -1927,12 +1833,10 @@ export default {
         "department budget"
       ],
       "optionReasons": {
-        "department-mcq-14": "本句指「部門預算」。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-11": "「部門／系主管」與本句語境不同。"
+        "department-mcq-14": "本句的「department budget」指「部門預算」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-14"
     },
@@ -1944,11 +1848,9 @@ export default {
       "masked": "This is a ____, not a company-wide rule.",
       "options": [
         "department-mcq-15",
-        "department-mcq-14",
-        "department-mcq-16",
-        "department-mcq-13",
-        "department-mcq-17",
-        "department-mcq-12"
+        "department-mcq-37",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-25"
       ],
       "explanation": "本句的「department policy」指「部門政策」。",
       "sentenceIndex": 27,
@@ -1957,12 +1859,10 @@ export default {
         "department policy"
       ],
       "optionReasons": {
-        "department-mcq-15": "本句指「部門政策」。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。"
+        "department-mcq-15": "本句的「department policy」指「部門政策」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-15"
     },
@@ -1974,11 +1874,9 @@ export default {
       "masked": "Procedures vary from one ____ to another.",
       "options": [
         "department-mcq-15",
-        "department-mcq-14",
-        "department-mcq-16",
-        "department-mcq-13",
-        "department-mcq-17",
-        "department-mcq-12"
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-37",
+        "department-pdf-007"
       ],
       "explanation": "本句的「department」指「部門政策」。",
       "sentenceIndex": 28,
@@ -1987,12 +1885,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-15": "本句指「部門政策」。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。"
+        "department-mcq-15": "本句的「department」指「部門政策」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-15"
     },
@@ -2004,11 +1900,9 @@ export default {
       "masked": "Communication ____ has improved.",
       "options": [
         "department-mcq-16",
-        "department-mcq-15",
-        "department-mcq-17",
-        "department-mcq-14",
-        "department-mcq-18",
-        "department-mcq-13"
+        "department-mcq-37",
+        "department-pdf-003",
+        "department-mcq-25"
       ],
       "explanation": "本句的「within the department」指「部門內部」。",
       "sentenceIndex": 29,
@@ -2017,12 +1911,10 @@ export default {
         "within the department"
       ],
       "optionReasons": {
-        "department-mcq-16": "本句指「部門內部」。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。"
+        "department-mcq-16": "本句的「within the department」指「部門內部」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-16"
     },
@@ -2034,11 +1926,9 @@ export default {
       "masked": "Responsibilities should be clear ____.",
       "options": [
         "department-mcq-16",
-        "department-mcq-15",
-        "department-mcq-17",
-        "department-mcq-14",
-        "department-mcq-18",
-        "department-mcq-13"
+        "department-pdf-004",
+        "department-mcq-25",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「within each department」指「部門內部」。",
       "sentenceIndex": 30,
@@ -2047,12 +1937,10 @@ export default {
         "within each department"
       ],
       "optionReasons": {
-        "department-mcq-16": "本句指「部門內部」。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。"
+        "department-mcq-16": "本句的「within each department」指「部門內部」。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-16"
     },
@@ -2064,11 +1952,9 @@ export default {
       "masked": "The company encourages cooperation ____.",
       "options": [
         "department-mcq-17",
-        "department-mcq-16",
-        "department-mcq-18",
-        "department-mcq-15",
-        "department-mcq-19",
-        "department-mcq-14"
+        "department-pdf-007",
+        "department-pdf-004",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「across departments」指「跨部門」。",
       "sentenceIndex": 31,
@@ -2077,12 +1963,10 @@ export default {
         "across departments"
       ],
       "optionReasons": {
-        "department-mcq-17": "本句指「跨部門」。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。"
+        "department-mcq-17": "本句的「across departments」指「跨部門」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-17"
     },
@@ -2094,11 +1978,9 @@ export default {
       "masked": "Information does not always flow smoothly ____.",
       "options": [
         "department-mcq-17",
-        "department-mcq-16",
-        "department-mcq-18",
-        "department-mcq-15",
-        "department-mcq-19",
-        "department-mcq-14"
+        "department-mcq-37",
+        "department-mcq-38",
+        "department-mcq-25"
       ],
       "explanation": "本句的「across departments」指「跨部門」。",
       "sentenceIndex": 32,
@@ -2107,12 +1989,10 @@ export default {
         "across departments"
       ],
       "optionReasons": {
-        "department-mcq-17": "本句指「跨部門」。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。"
+        "department-mcq-17": "本句的「across departments」指「跨部門」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-17"
     },
@@ -2124,11 +2004,9 @@ export default {
       "masked": "Misunderstandings often occur ____.",
       "options": [
         "department-mcq-17",
-        "department-mcq-16",
-        "department-mcq-18",
-        "department-mcq-15",
-        "department-mcq-19",
-        "department-mcq-14"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「between departments」指「跨部門」。",
       "sentenceIndex": 33,
@@ -2137,12 +2015,10 @@ export default {
         "between departments"
       ],
       "optionReasons": {
-        "department-mcq-17": "本句指「跨部門」。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。"
+        "department-mcq-17": "本句的「between departments」指「跨部門」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-17"
     },
@@ -2154,11 +2030,9 @@ export default {
       "masked": "Priorities differ ____.",
       "options": [
         "department-mcq-17",
-        "department-mcq-16",
-        "department-mcq-18",
-        "department-mcq-15",
-        "department-mcq-19",
-        "department-mcq-14"
+        "department-pdf-007",
+        "department-mcq-25",
+        "department-mcq-39"
       ],
       "explanation": "本句的「between departments」指「跨部門」。",
       "sentenceIndex": 34,
@@ -2167,12 +2041,10 @@ export default {
         "between departments"
       ],
       "optionReasons": {
-        "department-mcq-17": "本句指「跨部門」。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-14": "「部門預算」與本句語境不同。"
+        "department-mcq-17": "本句的「between departments」指「跨部門」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-17"
     },
@@ -2184,11 +2056,9 @@ export default {
       "masked": "The change requires ____.",
       "options": [
         "department-mcq-18",
-        "department-mcq-17",
-        "department-mcq-19",
-        "department-mcq-16",
-        "department-mcq-20",
-        "department-mcq-15"
+        "department-mcq-39",
+        "department-mcq-25",
+        "department-pdf-007"
       ],
       "explanation": "本句的「departmental approval」指「部門的」。",
       "sentenceIndex": 35,
@@ -2197,12 +2067,10 @@ export default {
         "departmental approval"
       ],
       "optionReasons": {
-        "department-mcq-18": "本句指「部門的」。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。"
+        "department-mcq-18": "本句的「departmental approval」指「部門的」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-18"
     },
@@ -2214,11 +2082,9 @@ export default {
       "masked": "Each team has different ____.",
       "options": [
         "department-mcq-18",
-        "department-mcq-17",
-        "department-mcq-19",
-        "department-mcq-16",
-        "department-mcq-20",
-        "department-mcq-15"
+        "department-mcq-37",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-38"
       ],
       "explanation": "本句的「departmental priorities」指「部門的」。",
       "sentenceIndex": 36,
@@ -2227,12 +2093,10 @@ export default {
         "departmental priorities"
       ],
       "optionReasons": {
-        "department-mcq-18": "本句指「部門的」。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-15": "「部門政策」與本句語境不同。"
+        "department-mcq-18": "本句的「departmental priorities」指「部門的」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-18"
     },
@@ -2244,11 +2108,9 @@ export default {
       "masked": "The company changed its ____.",
       "options": [
         "department-mcq-19",
-        "department-mcq-18",
-        "department-mcq-20",
-        "department-mcq-17",
-        "department-mcq-21",
-        "department-mcq-16"
+        "department-mcq-39",
+        "department-pdf-007",
+        "department-mcq-37"
       ],
       "explanation": "本句的「departmental structure」指「部門架構」。",
       "sentenceIndex": 37,
@@ -2257,12 +2119,10 @@ export default {
         "departmental structure"
       ],
       "optionReasons": {
-        "department-mcq-19": "本句指「部門架構」。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。"
+        "department-mcq-19": "本句的「departmental structure」指「部門架構」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-19"
     },
@@ -2274,11 +2134,9 @@ export default {
       "masked": "A rigid ____ can slow communication.",
       "options": [
         "department-mcq-19",
-        "department-mcq-18",
-        "department-mcq-20",
-        "department-mcq-17",
-        "department-mcq-21",
-        "department-mcq-16"
+        "department-mcq-38",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「departmental structure」指「部門架構」。",
       "sentenceIndex": 38,
@@ -2287,12 +2145,10 @@ export default {
         "departmental structure"
       ],
       "optionReasons": {
-        "department-mcq-19": "本句指「部門架構」。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-16": "「部門內部」與本句語境不同。"
+        "department-mcq-19": "本句的「departmental structure」指「部門架構」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-19"
     },
@@ -2304,11 +2160,9 @@ export default {
       "masked": "Safety is a shared responsibility rather than a purely ____.",
       "options": [
         "department-mcq-20",
-        "department-mcq-19",
-        "department-mcq-21",
-        "department-mcq-18",
-        "department-mcq-22",
-        "department-mcq-17"
+        "department-mcq-37",
+        "department-mcq-39",
+        "department-mcq-25"
       ],
       "explanation": "本句的「departmental responsibility」指「部門界線」。",
       "sentenceIndex": 39,
@@ -2317,12 +2171,10 @@ export default {
         "departmental responsibility"
       ],
       "optionReasons": {
-        "department-mcq-20": "本句指「部門界線」。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。"
+        "department-mcq-20": "本句的「departmental responsibility」指「部門界線」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-20"
     },
@@ -2334,11 +2186,9 @@ export default {
       "masked": "The document defines ____ clearly.",
       "options": [
         "department-mcq-20",
-        "department-mcq-19",
-        "department-mcq-21",
-        "department-mcq-18",
-        "department-mcq-22",
-        "department-mcq-17"
+        "department-mcq-39",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「departmental responsibilities」指「部門界線」。",
       "sentenceIndex": 40,
@@ -2347,12 +2197,10 @@ export default {
         "departmental responsibilities"
       ],
       "optionReasons": {
-        "department-mcq-20": "本句指「部門界線」。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。"
+        "department-mcq-20": "本句的「departmental responsibilities」指「部門界線」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-20"
     },
@@ -2364,11 +2212,9 @@ export default {
       "masked": "Information needs to move beyond traditional ____.",
       "options": [
         "department-mcq-20",
-        "department-mcq-19",
-        "department-mcq-21",
-        "department-mcq-18",
-        "department-mcq-22",
-        "department-mcq-17"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「departmental boundaries」指「部門界線」。",
       "sentenceIndex": 41,
@@ -2377,12 +2223,10 @@ export default {
         "departmental boundaries"
       ],
       "optionReasons": {
-        "department-mcq-20": "本句指「部門界線」。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。"
+        "department-mcq-20": "本句的「departmental boundaries」指「部門界線」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-20"
     },
@@ -2394,11 +2238,9 @@ export default {
       "masked": "The project crossed several ____.",
       "options": [
         "department-mcq-20",
-        "department-mcq-19",
-        "department-mcq-21",
-        "department-mcq-18",
-        "department-mcq-22",
-        "department-mcq-17"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「departmental boundaries」指「部門界線」。",
       "sentenceIndex": 42,
@@ -2407,12 +2249,10 @@ export default {
         "departmental boundaries"
       ],
       "optionReasons": {
-        "department-mcq-20": "本句指「部門界線」。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-17": "「跨部門」與本句語境不同。"
+        "department-mcq-20": "本句的「departmental boundaries」指「部門界線」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-20"
     },
@@ -2424,11 +2264,9 @@ export default {
       "masked": "Better ____ can prevent duplication.",
       "options": [
         "department-mcq-21",
-        "department-mcq-20",
-        "department-mcq-22",
-        "department-mcq-19",
-        "department-mcq-23",
-        "department-mcq-18"
+        "department-mcq-25",
+        "department-pdf-007",
+        "department-pdf-003"
       ],
       "explanation": "本句的「interdepartmental communication」指「跨部門的」。",
       "sentenceIndex": 43,
@@ -2437,12 +2275,10 @@ export default {
         "interdepartmental communication"
       ],
       "optionReasons": {
-        "department-mcq-21": "本句指「跨部門的」。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。"
+        "department-mcq-21": "本句的「interdepartmental communication」指「跨部門的」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-21"
     },
@@ -2454,11 +2290,9 @@ export default {
       "masked": "An ____ was created to solve the problem.",
       "options": [
         "department-mcq-21",
-        "department-mcq-20",
-        "department-mcq-22",
-        "department-mcq-19",
-        "department-mcq-23",
-        "department-mcq-18"
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-39",
+        "department-mcq-37"
       ],
       "explanation": "本句的「interdepartmental team」指「跨部門的」。",
       "sentenceIndex": 44,
@@ -2467,12 +2301,10 @@ export default {
         "interdepartmental team"
       ],
       "optionReasons": {
-        "department-mcq-21": "本句指「跨部門的」。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-18": "「部門的」與本句語境不同。"
+        "department-mcq-21": "本句的「interdepartmental team」指「跨部門的」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-21"
     },
@@ -2484,11 +2316,9 @@ export default {
       "masked": "Poor ____ delayed the launch.",
       "options": [
         "department-mcq-22",
-        "department-mcq-21",
-        "department-mcq-23",
-        "department-mcq-20",
-        "department-mcq-24",
-        "department-mcq-19"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「interdepartmental communication」指「跨部門溝通」。",
       "sentenceIndex": 45,
@@ -2497,12 +2327,10 @@ export default {
         "interdepartmental communication"
       ],
       "optionReasons": {
-        "department-mcq-22": "本句指「跨部門溝通」。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-24": "「部門內部的」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。"
+        "department-mcq-22": "本句的「interdepartmental communication」指「跨部門溝通」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-22"
     },
@@ -2514,11 +2342,9 @@ export default {
       "masked": "Regular updates improve ____.",
       "options": [
         "department-mcq-22",
-        "department-mcq-21",
-        "department-mcq-23",
-        "department-mcq-20",
-        "department-mcq-24",
-        "department-mcq-19"
+        "department-mcq-39",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「interdepartmental communication」指「跨部門溝通」。",
       "sentenceIndex": 46,
@@ -2527,12 +2353,10 @@ export default {
         "interdepartmental communication"
       ],
       "optionReasons": {
-        "department-mcq-22": "本句指「跨部門溝通」。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。",
-        "department-mcq-24": "「部門內部的」與本句語境不同。",
-        "department-mcq-19": "「部門架構」與本句語境不同。"
+        "department-mcq-22": "本句的「interdepartmental communication」指「跨部門溝通」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-22"
     },
@@ -2544,11 +2368,9 @@ export default {
       "masked": "The project requires strong ____.",
       "options": [
         "department-mcq-23",
-        "department-mcq-22",
-        "department-mcq-24",
-        "department-mcq-21",
-        "department-mcq-25",
-        "department-mcq-20"
+        "department-pdf-007",
+        "department-pdf-004",
+        "department-mcq-25"
       ],
       "explanation": "本句的「interdepartmental cooperation」指「跨部門合作」。",
       "sentenceIndex": 47,
@@ -2557,12 +2379,10 @@ export default {
         "interdepartmental cooperation"
       ],
       "optionReasons": {
-        "department-mcq-23": "本句指「跨部門合作」。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-24": "「部門內部的」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。"
+        "department-mcq-23": "本句的「interdepartmental cooperation」指「跨部門合作」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-23"
     },
@@ -2574,11 +2394,9 @@ export default {
       "masked": "Weak ____ caused delays.",
       "options": [
         "department-mcq-23",
-        "department-mcq-22",
-        "department-mcq-24",
-        "department-mcq-21",
-        "department-mcq-25",
-        "department-mcq-20"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「interdepartmental coordination」指「跨部門合作」。",
       "sentenceIndex": 48,
@@ -2587,12 +2405,10 @@ export default {
         "interdepartmental coordination"
       ],
       "optionReasons": {
-        "department-mcq-23": "本句指「跨部門合作」。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-24": "「部門內部的」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。",
-        "department-mcq-20": "「部門界線」與本句語境不同。"
+        "department-mcq-23": "本句的「interdepartmental coordination」指「跨部門合作」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-23"
     },
@@ -2604,11 +2420,9 @@ export default {
       "masked": "The survey examined ____.",
       "options": [
         "department-mcq-24",
-        "department-mcq-23",
-        "department-mcq-25",
-        "department-mcq-22",
-        "department-mcq-26",
-        "department-mcq-21"
+        "department-pdf-004",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-25"
       ],
       "explanation": "本句的「intradepartmental communication」指「部門內部的」。",
       "sentenceIndex": 49,
@@ -2617,12 +2431,10 @@ export default {
         "intradepartmental communication"
       ],
       "optionReasons": {
-        "department-mcq-24": "本句指「部門內部的」。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。"
+        "department-mcq-24": "本句的「intradepartmental communication」指「部門內部的」。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-24"
     },
@@ -2634,11 +2446,9 @@ export default {
       "masked": "The conflict remained ____.",
       "options": [
         "department-mcq-24",
-        "department-mcq-23",
-        "department-mcq-25",
-        "department-mcq-22",
-        "department-mcq-26",
-        "department-mcq-21"
+        "department-mcq-37",
+        "department-mcq-39",
+        "department-mcq-25"
       ],
       "explanation": "本句的「intradepartmental」指「部門內部的」。",
       "sentenceIndex": 50,
@@ -2647,12 +2457,10 @@ export default {
         "intradepartmental"
       ],
       "optionReasons": {
-        "department-mcq-24": "本句指「部門內部的」。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。"
+        "department-mcq-24": "本句的「intradepartmental」指「部門內部的」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-24"
     },
@@ -2664,11 +2472,9 @@ export default {
       "masked": "Budgets are managed ____.",
       "options": [
         "department-pdf-002",
-        "department-mcq-23",
-        "department-mcq-25",
-        "department-mcq-22",
-        "department-mcq-26",
-        "department-mcq-21"
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「departmentally」指「以部門為單位或從部門層面進行」。",
       "sentenceIndex": 51,
@@ -2677,12 +2483,10 @@ export default {
         "departmentally"
       ],
       "optionReasons": {
-        "department-pdf-002": "本句指「以部門為單位或從部門層面進行」。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。"
+        "department-pdf-002": "本句的「departmentally」指「以部門為單位或從部門層面進行」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-002"
     },
@@ -2694,11 +2498,9 @@ export default {
       "masked": "The data were organised ____.",
       "options": [
         "department-pdf-002",
-        "department-mcq-23",
+        "department-pdf-007",
         "department-mcq-25",
-        "department-mcq-22",
-        "department-mcq-26",
-        "department-mcq-21"
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「departmentally」指「以部門為單位或從部門層面進行」。",
       "sentenceIndex": 52,
@@ -2707,12 +2509,10 @@ export default {
         "departmentally"
       ],
       "optionReasons": {
-        "department-pdf-002": "本句指「以部門為單位或從部門層面進行」。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-21": "「跨部門的」與本句語境不同。"
+        "department-pdf-002": "本句的「departmentally」指「以部門為單位或從部門層面進行」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-002"
     },
@@ -2724,11 +2524,9 @@ export default {
       "masked": "She works in the English ____.",
       "options": [
         "department-mcq-25",
-        "department-mcq-24",
-        "department-mcq-26",
-        "department-mcq-23",
-        "department-mcq-27",
-        "department-mcq-22"
+        "department-pdf-003",
+        "department-mcq-30",
+        "department-mcq-02"
       ],
       "explanation": "本句的「department」指「學系」。",
       "sentenceIndex": 53,
@@ -2737,12 +2535,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-25": "本句指「學系」。",
-        "department-mcq-24": "「部門內部的」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。"
+        "department-mcq-25": "本句的「department」指「學系」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-25"
     },
@@ -2754,11 +2550,9 @@ export default {
       "masked": "The university has a large science ____.",
       "options": [
         "department-mcq-25",
-        "department-mcq-24",
-        "department-mcq-26",
-        "department-mcq-23",
-        "department-mcq-27",
-        "department-mcq-22"
+        "department-mcq-22",
+        "department-mcq-06",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department」指「學系」。",
       "sentenceIndex": 54,
@@ -2767,12 +2561,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-25": "本句指「學系」。",
-        "department-mcq-24": "「部門內部的」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-23": "「跨部門合作」與本句語境不同。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-22": "「跨部門溝通」與本句語境不同。"
+        "department-mcq-25": "本句的「department」指「學系」。",
+        "department-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-25"
     },
@@ -2784,11 +2576,9 @@ export default {
       "masked": "He is ____.",
       "options": [
         "department-mcq-11",
-        "department-mcq-10",
-        "department-mcq-12",
-        "department-mcq-09",
-        "department-mcq-13",
-        "department-mcq-08"
+        "department-mcq-39",
+        "department-pdf-007",
+        "department-mcq-37"
       ],
       "explanation": "本句的「Head of Department」指「部門／系主管」。",
       "sentenceIndex": 59,
@@ -2797,12 +2587,10 @@ export default {
         "Head of Department"
       ],
       "optionReasons": {
-        "department-mcq-11": "本句指「部門／系主管」。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。"
+        "department-mcq-11": "本句的「Head of Department」指「部門／系主管」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-11"
     },
@@ -2814,11 +2602,9 @@ export default {
       "masked": "The ____ met the new lecturers.",
       "options": [
         "department-mcq-11",
-        "department-mcq-10",
-        "department-mcq-12",
-        "department-mcq-09",
-        "department-mcq-13",
-        "department-mcq-08"
+        "department-pdf-007",
+        "department-mcq-37",
+        "department-mcq-39"
       ],
       "explanation": "本句的「Head of Department」指「部門／系主管」。",
       "sentenceIndex": 60,
@@ -2827,12 +2613,10 @@ export default {
         "Head of Department"
       ],
       "optionReasons": {
-        "department-mcq-11": "本句指「部門／系主管」。",
-        "department-mcq-10": "「部門主管」與本句語境不同。",
-        "department-mcq-12": "「部門經理」與本句語境不同。",
-        "department-mcq-09": "「客戶服務部」與本句語境不同。",
-        "department-mcq-13": "「部門會議」與本句語境不同。",
-        "department-mcq-08": "「法務部」與本句語境不同。"
+        "department-mcq-11": "本句的「Head of Department」指「部門／系主管」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-11"
     },
@@ -2844,11 +2628,9 @@ export default {
       "masked": "The information was published by a ____.",
       "options": [
         "department-mcq-28",
-        "department-mcq-27",
-        "department-mcq-29",
-        "department-mcq-26",
-        "department-mcq-30",
-        "department-mcq-25"
+        "department-pdf-007",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「government department」指「政府部門」。",
       "sentenceIndex": 63,
@@ -2857,12 +2639,10 @@ export default {
         "government department"
       ],
       "optionReasons": {
-        "department-mcq-28": "本句指「政府部門」。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。"
+        "department-mcq-28": "本句的「government department」指「政府部門」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-28"
     },
@@ -2874,10 +2654,8 @@ export default {
       "masked": "Several ____ were involved.",
       "options": [
         "department-mcq-28",
-        "department-mcq-27",
-        "department-mcq-29",
-        "department-mcq-26",
-        "department-mcq-30",
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-007",
         "department-mcq-25"
       ],
       "explanation": "本句的「government departments」指「政府部門」。",
@@ -2887,12 +2665,10 @@ export default {
         "government departments"
       ],
       "optionReasons": {
-        "department-mcq-28": "本句指「政府部門」。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。"
+        "department-mcq-28": "本句的「government departments」指「政府部門」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-28"
     },
@@ -2904,11 +2680,9 @@ export default {
       "masked": "Some countries use the term ____, while others use ministry.",
       "options": [
         "department-pdf-003",
-        "department-mcq-27",
-        "department-mcq-29",
-        "department-mcq-26",
-        "department-mcq-30",
-        "department-mcq-25"
+        "department-mcq-42",
+        "department-mcq-02",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department」指「政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不」。",
       "sentenceIndex": 65,
@@ -2917,12 +2691,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-003": "本句指「政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不」。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。"
+        "department-pdf-003": "本句的「department」指「政府行政單位；在不同國家可能相當於 ministry、bureau、office 等不」。",
+        "department-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-003"
     },
@@ -2934,11 +2706,9 @@ export default {
       "masked": "Contact the ____.",
       "options": [
         "department-pdf-004",
-        "department-mcq-27",
-        "department-mcq-29",
-        "department-mcq-26",
-        "department-mcq-30",
-        "department-mcq-25"
+        "department-mcq-18",
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-007"
       ],
       "explanation": "本句的「department responsible for transport」指「正式負責管理 X 政策或行政工作的政府單位」。",
       "sentenceIndex": 66,
@@ -2947,12 +2717,10 @@ export default {
         "department responsible for transport"
       ],
       "optionReasons": {
-        "department-pdf-004": "本句指「正式負責管理 X 政策或行政工作的政府單位」。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。"
+        "department-pdf-004": "本句的「department responsible for transport」指「正式負責管理 X 政策或行政工作的政府單位」。",
+        "department-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-004"
     },
@@ -2964,11 +2732,9 @@ export default {
       "masked": "The relevant ____ issued new guidance.",
       "options": [
         "department-pdf-004",
-        "department-mcq-27",
-        "department-mcq-29",
-        "department-mcq-26",
-        "department-mcq-30",
-        "department-mcq-25"
+        "department-mcq-33",
+        "department-mcq-07",
+        "department-mcq-23"
       ],
       "explanation": "本句的「department」指「正式負責管理 X 政策或行政工作的政府單位」。",
       "sentenceIndex": 67,
@@ -2977,12 +2743,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-004": "本句指「正式負責管理 X 政策或行政工作的政府單位」。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-25": "「學系」與本句語境不同。"
+        "department-pdf-004": "本句的「department」指「正式負責管理 X 政策或行政工作的政府單位」。",
+        "department-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-004"
     },
@@ -2994,11 +2758,9 @@ export default {
       "masked": "The local ____ opened an investigation.",
       "options": [
         "department-mcq-29",
-        "department-mcq-28",
-        "department-mcq-30",
-        "department-mcq-27",
-        "department-mcq-31",
-        "department-mcq-26"
+        "department-mcq-37",
+        "department-mcq-25",
+        "department-mcq-39"
       ],
       "explanation": "本句的「police department」指「警察部門」。",
       "sentenceIndex": 68,
@@ -3007,12 +2769,10 @@ export default {
         "police department"
       ],
       "optionReasons": {
-        "department-mcq-29": "本句指「警察部門」。",
-        "department-mcq-28": "「政府部門」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。"
+        "department-mcq-29": "本句的「police department」指「警察部門」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-29"
     },
@@ -3024,11 +2784,9 @@ export default {
       "masked": "She works for the city ____.",
       "options": [
         "department-mcq-29",
-        "department-mcq-28",
-        "department-mcq-30",
-        "department-mcq-27",
-        "department-mcq-31",
-        "department-mcq-26"
+        "department-mcq-38",
+        "department-mcq-37",
+        "department-mcq-25"
       ],
       "explanation": "本句的「police department」指「警察部門」。",
       "sentenceIndex": 69,
@@ -3037,12 +2795,10 @@ export default {
         "police department"
       ],
       "optionReasons": {
-        "department-mcq-29": "本句指「警察部門」。",
-        "department-mcq-28": "「政府部門」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-27": "「系主任」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-26": "「X 系」與本句語境不同。"
+        "department-mcq-29": "本句的「police department」指「警察部門」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-29"
     },
@@ -3054,11 +2810,9 @@ export default {
       "masked": "The ____ arrived within minutes.",
       "options": [
         "department-mcq-30",
-        "department-mcq-29",
-        "department-mcq-31",
-        "department-mcq-28",
-        "department-mcq-32",
-        "department-mcq-27"
+        "department-mcq-39",
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-007"
       ],
       "explanation": "本句的「fire department」指「消防部門」。",
       "sentenceIndex": 70,
@@ -3067,12 +2821,10 @@ export default {
         "fire department"
       ],
       "optionReasons": {
-        "department-mcq-30": "本句指「消防部門」。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-28": "「政府部門」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-27": "「系主任」與本句語境不同。"
+        "department-mcq-30": "本句的「fire department」指「消防部門」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-30"
     },
@@ -3084,11 +2836,9 @@ export default {
       "masked": "Call the ____ immediately.",
       "options": [
         "department-mcq-30",
-        "department-mcq-29",
-        "department-mcq-31",
-        "department-mcq-28",
-        "department-mcq-32",
-        "department-mcq-27"
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-003",
+        "department-pdf-007"
       ],
       "explanation": "本句的「fire department」指「消防部門」。",
       "sentenceIndex": 71,
@@ -3097,12 +2847,10 @@ export default {
         "fire department"
       ],
       "optionReasons": {
-        "department-mcq-30": "本句指「消防部門」。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-28": "「政府部門」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-27": "「系主任」與本句語境不同。"
+        "department-mcq-30": "本句的「fire department」指「消防部門」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-30"
     },
@@ -3114,11 +2862,9 @@ export default {
       "masked": "The local ____ issued an advisory.",
       "options": [
         "department-mcq-31",
-        "department-mcq-30",
-        "department-mcq-32",
-        "department-mcq-29",
-        "department-mcq-33",
-        "department-mcq-28"
+        "department-mcq-25",
+        "department-mcq-38",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「health department」指「衞生部門」。",
       "sentenceIndex": 72,
@@ -3127,12 +2873,10 @@ export default {
         "health department"
       ],
       "optionReasons": {
-        "department-mcq-31": "本句指「衞生部門」。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-28": "「政府部門」與本句語境不同。"
+        "department-mcq-31": "本句的「health department」指「衞生部門」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-31"
     },
@@ -3144,11 +2888,9 @@ export default {
       "masked": "The restaurant was inspected by the ____.",
       "options": [
         "department-mcq-31",
-        "department-mcq-30",
-        "department-mcq-32",
-        "department-mcq-29",
-        "department-mcq-33",
-        "department-mcq-28"
+        "department-pdf-003",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「health department」指「衞生部門」。",
       "sentenceIndex": 73,
@@ -3157,12 +2899,10 @@ export default {
         "health department"
       ],
       "optionReasons": {
-        "department-mcq-31": "本句指「衞生部門」。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-28": "「政府部門」與本句語境不同。"
+        "department-mcq-31": "本句的「health department」指「衞生部門」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-31"
     },
@@ -3174,11 +2914,9 @@ export default {
       "masked": "She was transferred to another ____ in the hospital.",
       "options": [
         "department-mcq-32",
-        "department-mcq-31",
-        "department-mcq-33",
-        "department-mcq-30",
-        "department-mcq-34",
-        "department-mcq-29"
+        "department-mcq-37",
+        "department-mcq-39",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「department」指「醫院科／部門」。",
       "sentenceIndex": 74,
@@ -3187,12 +2925,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-32": "本句指「醫院科／部門」。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。"
+        "department-mcq-32": "本句的「department」指「醫院科／部門」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-32"
     },
@@ -3204,11 +2940,9 @@ export default {
       "masked": "Different ____ specialise in different types of care.",
       "options": [
         "department-mcq-32",
-        "department-mcq-31",
-        "department-mcq-33",
-        "department-mcq-30",
-        "department-mcq-34",
-        "department-mcq-29"
+        "department-pdf-003",
+        "department-mcq-25",
+        "department-pdf-007"
       ],
       "explanation": "本句的「departments」指「醫院科／部門」。",
       "sentenceIndex": 75,
@@ -3217,12 +2951,10 @@ export default {
         "departments"
       ],
       "optionReasons": {
-        "department-mcq-32": "本句指「醫院科／部門」。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-29": "「警察部門」與本句語境不同。"
+        "department-mcq-32": "本句的「departments」指「醫院科／部門」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-32"
     },
@@ -3234,11 +2966,9 @@ export default {
       "masked": "He was taken to the ____.",
       "options": [
         "department-mcq-33",
-        "department-mcq-32",
-        "department-mcq-34",
-        "department-mcq-31",
-        "department-mcq-35",
-        "department-mcq-30"
+        "department-pdf-006",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-37"
       ],
       "explanation": "本句的「emergency department」指「急症室／急診部」。",
       "sentenceIndex": 76,
@@ -3247,12 +2977,10 @@ export default {
         "emergency department"
       ],
       "optionReasons": {
-        "department-mcq-33": "本句指「急症室／急診部」。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。"
+        "department-mcq-33": "本句的「emergency department」指「急症室／急診部」。",
+        "department-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-33"
     },
@@ -3264,11 +2992,9 @@ export default {
       "masked": "The hospital's ____ was very busy.",
       "options": [
         "department-mcq-33",
-        "department-mcq-32",
-        "department-mcq-34",
-        "department-mcq-31",
-        "department-mcq-35",
-        "department-mcq-30"
+        "department-pdf-003",
+        "department-mcq-36",
+        "department-pdf-007"
       ],
       "explanation": "本句的「emergency department」指「急症室／急診部」。",
       "sentenceIndex": 77,
@@ -3277,12 +3003,10 @@ export default {
         "emergency department"
       ],
       "optionReasons": {
-        "department-mcq-33": "本句指「急症室／急診部」。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-30": "「消防部門」與本句語境不同。"
+        "department-mcq-33": "本句的「emergency department」指「急症室／急診部」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-33"
     },
@@ -3294,11 +3018,9 @@ export default {
       "masked": "She has an appointment at the ____.",
       "options": [
         "department-mcq-34",
-        "department-mcq-33",
-        "department-mcq-35",
-        "department-mcq-32",
-        "department-mcq-36",
-        "department-mcq-31"
+        "department-pdf-003",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「outpatient department」指「門診部」。",
       "sentenceIndex": 78,
@@ -3307,12 +3029,10 @@ export default {
         "outpatient department"
       ],
       "optionReasons": {
-        "department-mcq-34": "本句指「門診部」。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。"
+        "department-mcq-34": "本句的「outpatient department」指「門診部」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-34"
     },
@@ -3324,11 +3044,9 @@ export default {
       "masked": "The patient was referred to the ____.",
       "options": [
         "department-mcq-34",
-        "department-mcq-33",
-        "department-mcq-35",
-        "department-mcq-32",
-        "department-mcq-36",
-        "department-mcq-31"
+        "department-pdf-001",
+        "department-mcq-39",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「outpatient department」指「門診部」。",
       "sentenceIndex": 79,
@@ -3337,12 +3055,10 @@ export default {
         "outpatient department"
       ],
       "optionReasons": {
-        "department-mcq-34": "本句指「門診部」。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-31": "「衞生部門」與本句語境不同。"
+        "department-mcq-34": "本句的「outpatient department」指「門診部」。",
+        "department-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-34"
     },
@@ -3354,11 +3070,9 @@ export default {
       "masked": "The furniture ____ is on the third floor.",
       "options": [
         "department-pdf-005",
-        "department-mcq-34",
-        "department-mcq-36",
         "department-mcq-33",
-        "department-mcq-37",
-        "department-mcq-32"
+        "department-mcq-25",
+        "department-mcq-09"
       ],
       "explanation": "本句的「department」指「大型商店內專門售賣某一類商品的區域」。",
       "sentenceIndex": 80,
@@ -3367,12 +3081,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-005": "本句指「大型商店內專門售賣某一類商品的區域」。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。"
+        "department-pdf-005": "本句的「department」指「大型商店內專門售賣某一類商品的區域」。",
+        "department-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-005"
     },
@@ -3384,11 +3096,9 @@ export default {
       "masked": "Ask someone in the cosmetics ____.",
       "options": [
         "department-pdf-005",
-        "department-mcq-34",
-        "department-mcq-36",
-        "department-mcq-33",
-        "department-mcq-37",
-        "department-mcq-32"
+        "department-mcq-08",
+        "department-mcq-25",
+        "department-pdf-003"
       ],
       "explanation": "本句的「department」指「大型商店內專門售賣某一類商品的區域」。",
       "sentenceIndex": 81,
@@ -3397,12 +3107,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-005": "本句指「大型商店內專門售賣某一類商品的區域」。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。"
+        "department-pdf-005": "本句的「department」指「大型商店內專門售賣某一類商品的區域」。",
+        "department-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-005"
     },
@@ -3414,11 +3122,9 @@ export default {
       "masked": "The men's ____ is upstairs.",
       "options": [
         "department-pdf-006",
-        "department-mcq-34",
-        "department-mcq-36",
-        "department-mcq-33",
-        "department-mcq-37",
-        "department-mcq-32"
+        "department-mcq-09",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department」指「百貨公司內專門售賣 X 類商品的區域」。",
       "sentenceIndex": 82,
@@ -3427,12 +3133,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-006": "本句指「百貨公司內專門售賣 X 類商品的區域」。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。"
+        "department-pdf-006": "本句的「department」指「百貨公司內專門售賣 X 類商品的區域」。",
+        "department-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-006"
     },
@@ -3444,11 +3148,9 @@ export default {
       "masked": "She works in the children's ____.",
       "options": [
         "department-pdf-006",
-        "department-mcq-34",
-        "department-mcq-36",
-        "department-mcq-33",
-        "department-mcq-37",
-        "department-mcq-32"
+        "department-mcq-09",
+        "department-mcq-07",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department」指「百貨公司內專門售賣 X 類商品的區域」。",
       "sentenceIndex": 83,
@@ -3457,12 +3159,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-006": "本句指「百貨公司內專門售賣 X 類商品的區域」。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。"
+        "department-pdf-006": "本句的「department」指「百貨公司內專門售賣 X 類商品的區域」。",
+        "department-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-006"
     },
@@ -3474,11 +3174,9 @@ export default {
       "masked": "The cosmetics ____ is near the entrance.",
       "options": [
         "department-pdf-007",
-        "department-mcq-34",
-        "department-mcq-36",
+        "department-mcq-14",
         "department-mcq-33",
-        "department-mcq-37",
-        "department-mcq-32"
+        "department-mcq-37"
       ],
       "explanation": "本句的「department」指「店內按商品種類劃分的銷售區域」。",
       "sentenceIndex": 84,
@@ -3487,12 +3185,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-007": "本句指「店內按商品種類劃分的銷售區域」。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。"
+        "department-pdf-007": "本句的「department」指「店內按商品種類劃分的銷售區域」。",
+        "department-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-007"
     },
@@ -3504,11 +3200,9 @@ export default {
       "masked": "I found the item in the electronics ____.",
       "options": [
         "department-pdf-007",
-        "department-mcq-34",
-        "department-mcq-36",
-        "department-mcq-33",
-        "department-mcq-37",
-        "department-mcq-32"
+        "department-mcq-22",
+        "department-mcq-06",
+        "department-mcq-37"
       ],
       "explanation": "本句的「department」指「店內按商品種類劃分的銷售區域」。",
       "sentenceIndex": 85,
@@ -3517,12 +3211,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-pdf-007": "本句指「店內按商品種類劃分的銷售區域」。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-32": "「醫院科／部門」與本句語境不同。"
+        "department-pdf-007": "本句的「department」指「店內按商品種類劃分的銷售區域」。",
+        "department-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-pdf-007"
     },
@@ -3534,11 +3226,9 @@ export default {
       "masked": "She works in a large ____.",
       "options": [
         "department-mcq-36",
-        "department-mcq-35",
+        "department-reviewed-c6327c4aa5",
         "department-mcq-37",
-        "department-mcq-34",
-        "department-mcq-38",
-        "department-mcq-33"
+        "department-mcq-06"
       ],
       "explanation": "本句的「department store」指「百貨公司」。",
       "sentenceIndex": 86,
@@ -3547,12 +3237,10 @@ export default {
         "department store"
       ],
       "optionReasons": {
-        "department-mcq-36": "本句指「百貨公司」。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。"
+        "department-mcq-36": "本句的「department store」指「百貨公司」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-36"
     },
@@ -3564,11 +3252,9 @@ export default {
       "masked": "____ stores sell many different categories of goods.",
       "options": [
         "department-mcq-36",
-        "department-mcq-35",
-        "department-mcq-37",
-        "department-mcq-34",
-        "department-mcq-38",
-        "department-mcq-33"
+        "department-mcq-05",
+        "department-mcq-25",
+        "department-mcq-39"
       ],
       "explanation": "本句的「Department」指「百貨公司」。",
       "sentenceIndex": 87,
@@ -3577,12 +3263,10 @@ export default {
         "Department"
       ],
       "optionReasons": {
-        "department-mcq-36": "本句指「百貨公司」。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-33": "「急症室／急診部」與本句語境不同。"
+        "department-mcq-36": "本句的「Department」指「百貨公司」。",
+        "department-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-36"
     },
@@ -3594,11 +3278,9 @@ export default {
       "masked": "I'm afraid that's ____.",
       "options": [
         "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-38",
-        "department-mcq-35",
-        "department-mcq-39",
-        "department-mcq-34"
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-19",
+        "department-mcq-25"
       ],
       "explanation": "本句的「not my department」指「不是我負責／擅長的範疇」。",
       "sentenceIndex": 88,
@@ -3607,12 +3289,10 @@ export default {
         "not my department"
       ],
       "optionReasons": {
-        "department-mcq-37": "本句指「不是我負責／擅長的範疇」。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。"
+        "department-mcq-37": "本句的「not my department」指「不是我負責／擅長的範疇」。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-37"
     },
@@ -3624,11 +3304,9 @@ export default {
       "masked": "Technical support isn't really ____.",
       "options": [
         "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-38",
-        "department-mcq-35",
-        "department-mcq-39",
-        "department-mcq-34"
+        "department-pdf-003",
+        "department-mcq-23",
+        "department-mcq-06"
       ],
       "explanation": "本句的「my department」指「不是我負責／擅長的範疇」。",
       "sentenceIndex": 89,
@@ -3637,12 +3315,10 @@ export default {
         "my department"
       ],
       "optionReasons": {
-        "department-mcq-37": "本句指「不是我負責／擅長的範疇」。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。"
+        "department-mcq-37": "本句的「my department」指「不是我負責／擅長的範疇」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-37"
     },
@@ -3654,11 +3330,9 @@ export default {
       "masked": "Legal matters are Sarah's ____.",
       "options": [
         "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-38",
-        "department-mcq-35",
+        "department-mcq-24",
         "department-mcq-39",
-        "department-mcq-34"
+        "department-mcq-25"
       ],
       "explanation": "本句的「department」指「不是我負責／擅長的範疇」。",
       "sentenceIndex": 90,
@@ -3667,12 +3341,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-37": "本句指「不是我負責／擅長的範疇」。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。"
+        "department-mcq-37": "本句的「department」指「不是我負責／擅長的範疇」。",
+        "department-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-37"
     },
@@ -3684,11 +3356,9 @@ export default {
       "masked": "Numbers aren't really my ____.",
       "options": [
         "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-38",
-        "department-mcq-35",
-        "department-mcq-39",
-        "department-mcq-34"
+        "department-pdf-006",
+        "department-mcq-06",
+        "department-pdf-003"
       ],
       "explanation": "本句的「department」指「不是我負責／擅長的範疇」。",
       "sentenceIndex": 91,
@@ -3697,74 +3367,68 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-37": "本句指「不是我負責／擅長的範疇」。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。"
+        "department-mcq-37": "本句的「department」指「不是我負責／擅長的範疇」。",
+        "department-pdf-006": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-37"
     },
     {
       "id": "department-47-0",
-      "sense": "department-mcq-37",
+      "sense": "department-reviewed-c6327c4aa5",
       "en": "The proposal is strong in the creativity department but weak on cost control.",
       "zh": "這份方案在創意方面很強，但成本控制較弱。",
       "masked": "The proposal is strong ____ but weak on cost control.",
       "options": [
-        "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-38",
-        "department-mcq-35",
-        "department-mcq-39",
-        "department-mcq-34"
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-19",
+        "department-pdf-005",
+        "department-mcq-02"
       ],
-      "explanation": "本句的「in the creativity department」指「不是我負責／擅長的範疇」。",
+      "explanation": "對照完整句子：「這份方案在創意方面很強，但成本控制較弱。」。這裡的「in the creativity department」表示「在某方面」。",
       "sentenceIndex": 92,
       "sourcePractice": 1,
       "targets": [
         "in the creativity department"
       ],
       "optionReasons": {
-        "department-mcq-37": "本句指「不是我負責／擅長的範疇」。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。"
+        "department-reviewed-c6327c4aa5": "對照完整句子：「這份方案在創意方面很強，但成本控制較弱。」。這裡的「in the creativity department」表示「在某方面」。",
+        "department-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-005": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "department-mcq-37"
+      "correctOption": "department-reviewed-c6327c4aa5",
+      "previousCorrectOption": "department-mcq-37",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "department-47-1",
-      "sense": "department-mcq-37",
+      "sense": "department-reviewed-c6327c4aa5",
       "en": "He's not lacking in the confidence department.",
       "zh": "他在自信方面可一點也不缺。",
       "masked": "He's not lacking ____.",
       "options": [
-        "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-38",
-        "department-mcq-35",
-        "department-mcq-39",
-        "department-mcq-34"
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-007",
+        "department-mcq-09",
+        "department-pdf-002"
       ],
-      "explanation": "本句的「in the confidence department」指「不是我負責／擅長的範疇」。",
+      "explanation": "對照完整句子：「他在自信方面可一點也不缺。」。這裡的「in the confidence department」表示「在某方面」。",
       "sentenceIndex": 93,
       "sourcePractice": 2,
       "targets": [
         "in the confidence department"
       ],
       "optionReasons": {
-        "department-mcq-37": "本句指「不是我負責／擅長的範疇」。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-34": "「門診部」與本句語境不同。"
+        "department-reviewed-c6327c4aa5": "對照完整句子：「他在自信方面可一點也不缺。」。這裡的「in the confidence department」表示「在某方面」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "department-mcq-37"
+      "correctOption": "department-reviewed-c6327c4aa5",
+      "previousCorrectOption": "department-mcq-37",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "department-48-0",
@@ -3774,11 +3438,9 @@ export default {
       "masked": "The country is divided into several administrative ____.",
       "options": [
         "department-mcq-38",
-        "department-mcq-37",
-        "department-mcq-39",
-        "department-mcq-36",
-        "department-mcq-40",
-        "department-mcq-35"
+        "department-mcq-31",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-06"
       ],
       "explanation": "本句的「departments」指「行政區」。",
       "sentenceIndex": 94,
@@ -3787,12 +3449,10 @@ export default {
         "departments"
       ],
       "optionReasons": {
-        "department-mcq-38": "本句指「行政區」。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-40": "「部門化」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。"
+        "department-mcq-38": "本句的「departments」指「行政區」。",
+        "department-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-38"
     },
@@ -3804,11 +3464,9 @@ export default {
       "masked": "Each ____ has its own local administration.",
       "options": [
         "department-mcq-38",
+        "department-mcq-32",
         "department-mcq-37",
-        "department-mcq-39",
-        "department-mcq-36",
-        "department-mcq-40",
-        "department-mcq-35"
+        "department-mcq-02"
       ],
       "explanation": "本句的「department」指「行政區」。",
       "sentenceIndex": 95,
@@ -3817,12 +3475,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-38": "本句指「行政區」。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-40": "「部門化」與本句語境不同。",
-        "department-mcq-35": "「商品部／專區」與本句語境不同。"
+        "department-mcq-38": "本句的「department」指「行政區」。",
+        "department-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-38"
     },
@@ -3834,11 +3490,9 @@ export default {
       "masked": "France is divided into ____.",
       "options": [
         "department-mcq-39",
-        "department-mcq-38",
+        "department-mcq-25",
         "department-mcq-40",
-        "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-42"
+        "department-mcq-37"
       ],
       "explanation": "本句的「départements」指「法國省級行政區」。",
       "sentenceIndex": 96,
@@ -3847,12 +3501,10 @@ export default {
         "départements"
       ],
       "optionReasons": {
-        "department-mcq-39": "本句指「法國省級行政區」。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-40": "「部門化」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。"
+        "department-mcq-39": "本句的「départements」指「法國省級行政區」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-39"
     },
@@ -3864,11 +3516,9 @@ export default {
       "masked": "Each ____ has an identifying number.",
       "options": [
         "department-mcq-39",
-        "department-mcq-38",
-        "department-mcq-40",
-        "department-mcq-37",
-        "department-mcq-36",
-        "department-mcq-42"
+        "department-mcq-29",
+        "department-mcq-02",
+        "department-mcq-25"
       ],
       "explanation": "本句的「department」指「法國省級行政區」。",
       "sentenceIndex": 97,
@@ -3877,12 +3527,10 @@ export default {
         "department"
       ],
       "optionReasons": {
-        "department-mcq-39": "本句指「法國省級行政區」。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-40": "「部門化」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-36": "「百貨公司」與本句語境不同。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。"
+        "department-mcq-39": "本句的「department」指「法國省級行政區」。",
+        "department-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-39"
     },
@@ -3894,11 +3542,9 @@ export default {
       "masked": "The company ____.",
       "options": [
         "department-mcq-40",
-        "department-mcq-39",
-        "department-mcq-38",
-        "department-mcq-42",
-        "department-mcq-37",
-        "department-mcq-43"
+        "department-pdf-007",
+        "department-reviewed-c6327c4aa5",
+        "department-mcq-39"
       ],
       "explanation": "本句的「departmentalized its operations by function」指「部門化」。",
       "sentenceIndex": 98,
@@ -3907,12 +3553,10 @@ export default {
         "departmentalized its operations by function"
       ],
       "optionReasons": {
-        "department-mcq-40": "本句指「部門化」。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。"
+        "department-mcq-40": "本句的「departmentalized its operations by function」指「部門化」。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-40"
     },
@@ -3924,11 +3568,9 @@ export default {
       "masked": "Large organisations often ____ work to improve specialization.",
       "options": [
         "department-mcq-40",
-        "department-mcq-39",
-        "department-mcq-38",
-        "department-mcq-42",
-        "department-mcq-37",
-        "department-mcq-43"
+        "department-mcq-25",
+        "department-pdf-004",
+        "department-pdf-007"
       ],
       "explanation": "本句的「departmentalise」指「部門化」。",
       "sentenceIndex": 99,
@@ -3937,12 +3579,10 @@ export default {
         "departmentalise"
       ],
       "optionReasons": {
-        "department-mcq-40": "本句指「部門化」。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。",
-        "department-mcq-37": "「不是我負責／擅長的範疇」與本句語境不同。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。"
+        "department-mcq-40": "本句的「departmentalise」指「部門化」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-40"
     },
@@ -3954,11 +3594,9 @@ export default {
       "masked": "Functional ____ groups employees by specialty.",
       "options": [
         "department-mcq-41",
-        "department-mcq-42",
-        "department-mcq-39",
-        "department-mcq-43",
         "department-mcq-38",
-        "department-mcq-44"
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「departmentalization」指「部門化」。",
       "sentenceIndex": 100,
@@ -3967,12 +3605,10 @@ export default {
         "departmentalization"
       ],
       "optionReasons": {
-        "department-mcq-41": "本句指「部門化」。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-44": "「地域式部門化」與本句語境不同。"
+        "department-mcq-41": "本句的「departmentalization」指「部門化」。",
+        "department-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-41"
     },
@@ -3984,11 +3620,9 @@ export default {
       "masked": "Excessive ____ can create communication barriers.",
       "options": [
         "department-mcq-41",
-        "department-mcq-42",
-        "department-mcq-39",
-        "department-mcq-43",
-        "department-mcq-38",
-        "department-mcq-44"
+        "department-mcq-37",
+        "department-mcq-25",
+        "department-pdf-003"
       ],
       "explanation": "本句的「departmentalization」指「部門化」。",
       "sentenceIndex": 101,
@@ -3997,12 +3631,10 @@ export default {
         "departmentalization"
       ],
       "optionReasons": {
-        "department-mcq-41": "本句指「部門化」。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。",
-        "department-mcq-38": "「行政區」與本句語境不同。",
-        "department-mcq-44": "「地域式部門化」與本句語境不同。"
+        "department-mcq-41": "本句的「departmentalization」指「部門化」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-41"
     },
@@ -4014,11 +3646,9 @@ export default {
       "masked": "Marketing, finance and operations are examples of ____.",
       "options": [
         "department-mcq-42",
-        "department-mcq-41",
-        "department-mcq-43",
-        "department-mcq-44",
-        "department-mcq-39",
-        "department-mcq-45"
+        "department-mcq-37",
+        "department-reviewed-c6327c4aa5",
+        "department-pdf-003"
       ],
       "explanation": "本句的「functional departmentalization」指「職能式部門化」。",
       "sentenceIndex": 102,
@@ -4027,12 +3657,10 @@ export default {
         "functional departmentalization"
       ],
       "optionReasons": {
-        "department-mcq-42": "本句指「職能式部門化」。",
-        "department-mcq-41": "「部門化」與本句語境不同。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。",
-        "department-mcq-44": "「地域式部門化」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-45": "「部門孤島／資訊孤島」與本句語境不同。"
+        "department-mcq-42": "本句的「functional departmentalization」指「職能式部門化」。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-42"
     },
@@ -4044,11 +3672,9 @@ export default {
       "masked": "Functional ____ groups similar expertise together.",
       "options": [
         "department-mcq-42",
-        "department-mcq-41",
-        "department-mcq-43",
-        "department-mcq-44",
-        "department-mcq-39",
-        "department-mcq-45"
+        "department-pdf-003",
+        "department-pdf-007",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「departmentalization」指「職能式部門化」。",
       "sentenceIndex": 103,
@@ -4057,12 +3683,10 @@ export default {
         "departmentalization"
       ],
       "optionReasons": {
-        "department-mcq-42": "本句指「職能式部門化」。",
-        "department-mcq-41": "「部門化」與本句語境不同。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。",
-        "department-mcq-44": "「地域式部門化」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。",
-        "department-mcq-45": "「部門孤島／資訊孤島」與本句語境不同。"
+        "department-mcq-42": "本句的「departmentalization」指「職能式部門化」。",
+        "department-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-007": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-42"
     },
@@ -4074,11 +3698,9 @@ export default {
       "masked": "The company uses ____.",
       "options": [
         "department-mcq-43",
-        "department-mcq-42",
-        "department-mcq-44",
-        "department-mcq-41",
-        "department-mcq-45",
-        "department-mcq-39"
+        "department-mcq-39",
+        "department-mcq-25",
+        "department-mcq-37"
       ],
       "explanation": "本句的「product departmentalization」指「產品式部門化」。",
       "sentenceIndex": 104,
@@ -4087,12 +3709,10 @@ export default {
         "product departmentalization"
       ],
       "optionReasons": {
-        "department-mcq-43": "本句指「產品式部門化」。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。",
-        "department-mcq-44": "「地域式部門化」與本句語境不同。",
-        "department-mcq-41": "「部門化」與本句語境不同。",
-        "department-mcq-45": "「部門孤島／資訊孤島」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。"
+        "department-mcq-43": "本句的「product departmentalization」指「產品式部門化」。",
+        "department-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-43"
     },
@@ -4104,11 +3724,9 @@ export default {
       "masked": "International firms may use ____.",
       "options": [
         "department-mcq-44",
-        "department-mcq-43",
-        "department-mcq-45",
-        "department-mcq-42",
-        "department-mcq-41",
-        "department-mcq-39"
+        "department-mcq-25",
+        "department-pdf-004",
+        "department-reviewed-c6327c4aa5"
       ],
       "explanation": "本句的「geographical departmentalization」指「地域式部門化」。",
       "sentenceIndex": 105,
@@ -4117,12 +3735,10 @@ export default {
         "geographical departmentalization"
       ],
       "optionReasons": {
-        "department-mcq-44": "本句指「地域式部門化」。",
-        "department-mcq-43": "「產品式部門化」與本句語境不同。",
-        "department-mcq-45": "「部門孤島／資訊孤島」與本句語境不同。",
-        "department-mcq-42": "「職能式部門化」與本句語境不同。",
-        "department-mcq-41": "「部門化」與本句語境不同。",
-        "department-mcq-39": "「法國省級行政區」與本句語境不同。"
+        "department-mcq-44": "本句的「geographical departmentalization」指「地域式部門化」。",
+        "department-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "department-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "department-reviewed-c6327c4aa5": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "department-mcq-44"
     }
@@ -4134,5 +3750,7 @@ export default {
     "sha256": "683c7020d0b72812de9cfed0edb0ff910971c7cf850ab7c57d1becb4dcec9c8b",
     "pages": 40
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

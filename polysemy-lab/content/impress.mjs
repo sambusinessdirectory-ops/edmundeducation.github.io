@@ -174,11 +174,7 @@ export default {
       "masked": "He never talks just to ____ people.",
       "options": [
         "impress-mcq-01",
-        "impress-mcq-02",
-        "impress-mcq-03",
-        "impress-mcq-04",
-        "impress-mcq-05",
-        "impress-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「impress」指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "impress"
       ],
       "optionReasons": {
-        "impress-mcq-01": "本句指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-01": "本句的「impress」指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "Her calm response ____ everyone in the room.",
       "options": [
         "impress-mcq-01",
-        "impress-mcq-02",
-        "impress-mcq-03",
-        "impress-mcq-04",
-        "impress-mcq-05",
-        "impress-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「impressed」指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "impressed"
       ],
       "optionReasons": {
-        "impress-mcq-01": "本句指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-01": "本句的「impressed」指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-01"
     },
@@ -234,11 +218,7 @@ export default {
       "masked": "He tried to ____ the interviewer with his knowledge.",
       "options": [
         "impress-mcq-01",
-        "impress-mcq-02",
-        "impress-mcq-03",
-        "impress-mcq-04",
-        "impress-mcq-05",
-        "impress-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「impress」指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
       "sentenceIndex": 2,
@@ -247,12 +227,8 @@ export default {
         "impress"
       ],
       "optionReasons": {
-        "impress-mcq-01": "本句指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-01": "本句的「impress」指「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-01"
     },
@@ -264,10 +240,6 @@ export default {
       "masked": "The teacher ____ the students the importance of checking their work.",
       "options": [
         "impress-mcq-02",
-        "impress-mcq-01",
-        "impress-mcq-03",
-        "impress-mcq-04",
-        "impress-mcq-05",
         "impress-mcq-06"
       ],
       "explanation": "本句的「impressed on」指「強烈地向某人指出某件事，使對方深刻理解、記住或重視」。",
@@ -277,12 +249,8 @@ export default {
         "impressed on"
       ],
       "optionReasons": {
-        "impress-mcq-02": "本句指「強烈地向某人指出某件事，使對方深刻理解、記住或重視」。",
-        "impress-mcq-01": "「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-02": "本句的「impressed on」指「強烈地向某人指出某件事，使對方深刻理解、記住或重視」。",
+        "impress-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-02"
     },
@@ -294,10 +262,6 @@ export default {
       "masked": "She ____ him the need to remain careful.",
       "options": [
         "impress-mcq-02",
-        "impress-mcq-01",
-        "impress-mcq-03",
-        "impress-mcq-04",
-        "impress-mcq-05",
         "impress-mcq-06"
       ],
       "explanation": "本句的「impressed upon」指「強烈地向某人指出某件事，使對方深刻理解、記住或重視」。",
@@ -307,12 +271,8 @@ export default {
         "impressed upon"
       ],
       "optionReasons": {
-        "impress-mcq-02": "本句指「強烈地向某人指出某件事，使對方深刻理解、記住或重視」。",
-        "impress-mcq-01": "「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-02": "本句的「impressed upon」指「強烈地向某人指出某件事，使對方深刻理解、記住或重視」。",
+        "impress-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-02"
     },
@@ -324,10 +284,6 @@ export default {
       "masked": "The seal was ____ the soft wax.",
       "options": [
         "impress-mcq-03",
-        "impress-mcq-02",
-        "impress-mcq-04",
-        "impress-mcq-01",
-        "impress-mcq-05",
         "impress-mcq-06"
       ],
       "explanation": "本句的「impressed into」指「透過壓力在某個表面留下清楚的形狀、圖案或印痕」。",
@@ -337,12 +293,8 @@ export default {
         "impressed into"
       ],
       "optionReasons": {
-        "impress-mcq-03": "本句指「透過壓力在某個表面留下清楚的形狀、圖案或印痕」。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-01": "「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-03": "本句的「impressed into」指「透過壓力在某個表面留下清楚的形狀、圖案或印痕」。",
+        "impress-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-03"
     },
@@ -354,10 +306,6 @@ export default {
       "masked": "A decorative pattern was ____ the surface of the clay.",
       "options": [
         "impress-mcq-03",
-        "impress-mcq-02",
-        "impress-mcq-04",
-        "impress-mcq-01",
-        "impress-mcq-05",
         "impress-mcq-06"
       ],
       "explanation": "本句的「impressed on」指「透過壓力在某個表面留下清楚的形狀、圖案或印痕」。",
@@ -367,12 +315,8 @@ export default {
         "impressed on"
       ],
       "optionReasons": {
-        "impress-mcq-03": "本句指「透過壓力在某個表面留下清楚的形狀、圖案或印痕」。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-01": "「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。"
+        "impress-mcq-03": "本句的「impressed on」指「透過壓力在某個表面留下清楚的形狀、圖案或印痕」。",
+        "impress-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-03"
     },
@@ -384,11 +328,7 @@ export default {
       "masked": "I was very ____ by her presentation.",
       "options": [
         "impress-mcq-04",
-        "impress-mcq-03",
-        "impress-mcq-05",
-        "impress-mcq-02",
-        "impress-mcq-06",
-        "impress-mcq-01"
+        "contrast-duration"
       ],
       "explanation": "本句的「impressed」指「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」。",
       "sentenceIndex": 7,
@@ -397,12 +337,8 @@ export default {
         "impressed"
       ],
       "optionReasons": {
-        "impress-mcq-04": "本句指「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。",
-        "impress-mcq-01": "「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」與本句語境不同。"
+        "impress-mcq-04": "本句的「impressed」指「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-04"
     },
@@ -414,11 +350,7 @@ export default {
       "masked": "They were ____ the quality of the work.",
       "options": [
         "impress-mcq-04",
-        "impress-mcq-03",
-        "impress-mcq-05",
-        "impress-mcq-02",
-        "impress-mcq-06",
-        "impress-mcq-01"
+        "contrast-duration"
       ],
       "explanation": "本句的「impressed with」指「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」。",
       "sentenceIndex": 8,
@@ -427,12 +359,8 @@ export default {
         "impressed with"
       ],
       "optionReasons": {
-        "impress-mcq-04": "本句指「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。",
-        "impress-mcq-01": "「透過能力、表現、特質或成就，使某人產生欣賞、佩服或高度評價」與本句語境不同。"
+        "impress-mcq-04": "本句的「impressed with」指「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-04"
     },
@@ -444,11 +372,8 @@ export default {
       "masked": "She gave an ____ performance.",
       "options": [
         "impress-mcq-05",
-        "impress-mcq-04",
-        "impress-mcq-06",
-        "impress-mcq-03",
         "impress-mcq-07",
-        "impress-mcq-02"
+        "impress-mcq-03"
       ],
       "explanation": "本句的「impressive」指「因品質、能力、規模或表現出色而令人欣賞或佩服的」。",
       "sentenceIndex": 9,
@@ -457,12 +382,9 @@ export default {
         "impressive"
       ],
       "optionReasons": {
-        "impress-mcq-05": "本句指「因品質、能力、規模或表現出色而令人欣賞或佩服的」。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-07": "「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。"
+        "impress-mcq-05": "本句的「impressive」指「因品質、能力、規模或表現出色而令人欣賞或佩服的」。",
+        "impress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "impress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-05"
     },
@@ -474,11 +396,8 @@ export default {
       "masked": "The building is architecturally ____.",
       "options": [
         "impress-mcq-05",
-        "impress-mcq-04",
-        "impress-mcq-06",
-        "impress-mcq-03",
         "impress-mcq-07",
-        "impress-mcq-02"
+        "impress-mcq-03"
       ],
       "explanation": "本句的「impressive」指「因品質、能力、規模或表現出色而令人欣賞或佩服的」。",
       "sentenceIndex": 10,
@@ -487,12 +406,9 @@ export default {
         "impressive"
       ],
       "optionReasons": {
-        "impress-mcq-05": "本句指「因品質、能力、規模或表現出色而令人欣賞或佩服的」。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-07": "「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。"
+        "impress-mcq-05": "本句的「impressive」指「因品質、能力、規模或表現出色而令人欣賞或佩服的」。",
+        "impress-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "impress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-05"
     },
@@ -504,11 +420,7 @@ export default {
       "masked": "She spoke ____ without using any notes.",
       "options": [
         "impress-mcq-06",
-        "impress-mcq-05",
-        "impress-mcq-07",
-        "impress-mcq-04",
-        "impress-mcq-03",
-        "impress-mcq-02"
+        "impress-mcq-03"
       ],
       "explanation": "本句的「impressively」指「以令人欣賞、佩服或感到出色的方式」。",
       "sentenceIndex": 11,
@@ -517,12 +429,8 @@ export default {
         "impressively"
       ],
       "optionReasons": {
-        "impress-mcq-06": "本句指「以令人欣賞、佩服或感到出色的方式」。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-07": "「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。"
+        "impress-mcq-06": "本句的「impressively」指「以令人欣賞、佩服或感到出色的方式」。",
+        "impress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-06"
     },
@@ -534,11 +442,7 @@ export default {
       "masked": "The company grew ____ quickly.",
       "options": [
         "impress-mcq-06",
-        "impress-mcq-05",
-        "impress-mcq-07",
-        "impress-mcq-04",
-        "impress-mcq-03",
-        "impress-mcq-02"
+        "impress-mcq-03"
       ],
       "explanation": "本句的「impressively」指「以令人欣賞、佩服或感到出色的方式」。",
       "sentenceIndex": 12,
@@ -547,12 +451,8 @@ export default {
         "impressively"
       ],
       "optionReasons": {
-        "impress-mcq-06": "本句指「以令人欣賞、佩服或感到出色的方式」。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-07": "「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。"
+        "impress-mcq-06": "本句的「impressively」指「以令人欣賞、佩服或感到出色的方式」。",
+        "impress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-06"
     },
@@ -564,11 +464,8 @@ export default {
       "masked": "She made a very good first ____.",
       "options": [
         "impress-mcq-07",
-        "impress-mcq-06",
         "impress-mcq-05",
-        "impress-mcq-04",
-        "impress-mcq-03",
-        "impress-mcq-02"
+        "impress-mcq-03"
       ],
       "explanation": "本句的「impression」指「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」。",
       "sentenceIndex": 13,
@@ -577,12 +474,9 @@ export default {
         "impression"
       ],
       "optionReasons": {
-        "impress-mcq-07": "本句指「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。"
+        "impress-mcq-07": "本句的「impression」指「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」。",
+        "impress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "impress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-07"
     },
@@ -594,11 +488,8 @@ export default {
       "masked": "My first ____ of him was completely wrong.",
       "options": [
         "impress-mcq-07",
-        "impress-mcq-06",
         "impress-mcq-05",
-        "impress-mcq-04",
-        "impress-mcq-03",
-        "impress-mcq-02"
+        "impress-mcq-03"
       ],
       "explanation": "本句的「impression」指「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」。",
       "sentenceIndex": 14,
@@ -607,12 +498,9 @@ export default {
         "impression"
       ],
       "optionReasons": {
-        "impress-mcq-07": "本句指「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」。",
-        "impress-mcq-06": "「以令人欣賞、佩服或感到出色的方式」與本句語境不同。",
-        "impress-mcq-05": "「因品質、能力、規模或表現出色而令人欣賞或佩服的」與本句語境不同。",
-        "impress-mcq-04": "「因別人的能力、表現或事物品質而感到欣賞、佩服或印象深刻的」與本句語境不同。",
-        "impress-mcq-03": "「透過壓力在某個表面留下清楚的形狀、圖案或印痕」與本句語境不同。",
-        "impress-mcq-02": "「強烈地向某人指出某件事，使對方深刻理解、記住或重視」與本句語境不同。"
+        "impress-mcq-07": "本句的「impression」指「接觸某人或某事物後，在腦中形成的整體看法或感受；其他 polysemy 宜另行處理」。",
+        "impress-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "impress-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "impress-mcq-07"
     }
@@ -624,5 +512,16 @@ export default {
     "sha256": "bac77ce4d5c574fa5d50fc5812d4ae70173997e6c7a2323c3b5c206cda84a713",
     "pages": 10
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

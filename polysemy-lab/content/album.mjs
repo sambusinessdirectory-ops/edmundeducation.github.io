@@ -350,10 +350,7 @@ export default {
       "masked": "I gave my mother a handmade photo ____.",
       "options": [
         "album-mcq-01",
-        "album-mcq-02",
-        "album-mcq-03",
-        "album-mcq-04",
-        "album-mcq-05",
+        "album-mcq-13",
         "album-mcq-06"
       ],
       "explanation": "本句的「album」指「相簿；照片簿」。",
@@ -363,12 +360,9 @@ export default {
         "album"
       ],
       "optionReasons": {
-        "album-mcq-01": "本句指「相簿；照片簿」。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-01": "本句的「album」指「相簿；照片簿」。",
+        "album-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-01"
     },
@@ -380,10 +374,7 @@ export default {
       "masked": "We looked through an old family ____.",
       "options": [
         "album-mcq-01",
-        "album-mcq-02",
-        "album-mcq-03",
-        "album-mcq-04",
-        "album-mcq-05",
+        "album-mcq-13",
         "album-mcq-06"
       ],
       "explanation": "本句的「album」指「相簿；照片簿」。",
@@ -393,12 +384,9 @@ export default {
         "album"
       ],
       "optionReasons": {
-        "album-mcq-01": "本句指「相簿；照片簿」。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-01": "本句的「album」指「相簿；照片簿」。",
+        "album-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-01"
     },
@@ -410,10 +398,7 @@ export default {
       "masked": "She keeps her childhood photos in a large ____.",
       "options": [
         "album-mcq-01",
-        "album-mcq-02",
-        "album-mcq-03",
-        "album-mcq-04",
-        "album-mcq-05",
+        "album-mcq-12",
         "album-mcq-06"
       ],
       "explanation": "本句的「album」指「相簿；照片簿」。",
@@ -423,12 +408,9 @@ export default {
         "album"
       ],
       "optionReasons": {
-        "album-mcq-01": "本句指「相簿；照片簿」。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-01": "本句的「album」指「相簿；照片簿」。",
+        "album-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-01"
     },
@@ -440,11 +422,8 @@ export default {
       "masked": "The ____ contains photos from several generations.",
       "options": [
         "album-mcq-02",
-        "album-mcq-01",
-        "album-mcq-03",
-        "album-mcq-04",
-        "album-mcq-05",
-        "album-mcq-06"
+        "album-mcq-06",
+        "album-mcq-09"
       ],
       "explanation": "本句的「family album」指「家庭相簿」。",
       "sentenceIndex": 3,
@@ -453,12 +432,9 @@ export default {
         "family album"
       ],
       "optionReasons": {
-        "album-mcq-02": "本句指「家庭相簿」。",
-        "album-mcq-01": "「相簿；照片簿」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-02": "本句的「family album」指「家庭相簿」。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-02"
     },
@@ -470,10 +446,7 @@ export default {
       "masked": "We found an old ____ in the cupboard.",
       "options": [
         "album-mcq-02",
-        "album-mcq-01",
-        "album-mcq-03",
-        "album-mcq-04",
-        "album-mcq-05",
+        "album-mcq-13",
         "album-mcq-06"
       ],
       "explanation": "本句的「family album」指「家庭相簿」。",
@@ -483,12 +456,9 @@ export default {
         "family album"
       ],
       "optionReasons": {
-        "album-mcq-02": "本句指「家庭相簿」。",
-        "album-mcq-01": "「相簿；照片簿」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-02": "本句的「family album」指「家庭相簿」。",
+        "album-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-02"
     },
@@ -500,10 +470,7 @@ export default {
       "masked": "They showed us their ____.",
       "options": [
         "album-mcq-03",
-        "album-mcq-02",
-        "album-mcq-04",
-        "album-mcq-01",
-        "album-mcq-05",
+        "album-mcq-10",
         "album-mcq-06"
       ],
       "explanation": "本句的「wedding album」指「婚禮相簿」。",
@@ -513,12 +480,9 @@ export default {
         "wedding album"
       ],
       "optionReasons": {
-        "album-mcq-03": "本句指「婚禮相簿」。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-01": "「相簿；照片簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-03": "本句的「wedding album」指「婚禮相簿」。",
+        "album-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-03"
     },
@@ -530,10 +494,7 @@ export default {
       "masked": "The photographer designed a beautiful ____.",
       "options": [
         "album-mcq-03",
-        "album-mcq-02",
-        "album-mcq-04",
-        "album-mcq-01",
-        "album-mcq-05",
+        "album-mcq-13",
         "album-mcq-06"
       ],
       "explanation": "本句的「wedding album」指「婚禮相簿」。",
@@ -543,12 +504,9 @@ export default {
         "wedding album"
       ],
       "optionReasons": {
-        "album-mcq-03": "本句指「婚禮相簿」。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-01": "「相簿；照片簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-03": "本句的「wedding album」指「婚禮相簿」。",
+        "album-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-03"
     },
@@ -560,11 +518,8 @@ export default {
       "masked": "She made a ____ with photos and tickets.",
       "options": [
         "album-mcq-04",
-        "album-mcq-03",
-        "album-mcq-05",
-        "album-mcq-02",
-        "album-mcq-06",
-        "album-mcq-01"
+        "album-mcq-12",
+        "album-mcq-06"
       ],
       "explanation": "本句的「scrapbook album」指「剪貼簿式相簿」。",
       "sentenceIndex": 7,
@@ -573,12 +528,9 @@ export default {
         "scrapbook album"
       ],
       "optionReasons": {
-        "album-mcq-04": "本句指「剪貼簿式相簿」。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。",
-        "album-mcq-01": "「相簿；照片簿」與本句語境不同。"
+        "album-mcq-04": "本句的「scrapbook album」指「剪貼簿式相簿」。",
+        "album-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-04"
     },
@@ -590,11 +542,8 @@ export default {
       "masked": "The ____ included notes, receipts, and small decorations.",
       "options": [
         "album-mcq-04",
-        "album-mcq-03",
-        "album-mcq-05",
-        "album-mcq-02",
-        "album-mcq-06",
-        "album-mcq-01"
+        "album-mcq-13",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album」指「剪貼簿式相簿」。",
       "sentenceIndex": 8,
@@ -603,12 +552,9 @@ export default {
         "album"
       ],
       "optionReasons": {
-        "album-mcq-04": "本句指「剪貼簿式相簿」。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-02": "「家庭相簿」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。",
-        "album-mcq-01": "「相簿；照片簿」與本句語境不同。"
+        "album-mcq-04": "本句的「album」指「剪貼簿式相簿」。",
+        "album-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-04"
     },
@@ -620,11 +566,8 @@ export default {
       "masked": "The singer released a new ____ last month.",
       "options": [
         "album-mcq-07",
-        "album-mcq-06",
-        "album-mcq-08",
-        "album-mcq-05",
-        "album-mcq-09",
-        "album-mcq-04"
+        "album-mcq-01",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album」指「音樂專輯；大碟」。",
       "sentenceIndex": 9,
@@ -633,12 +576,9 @@ export default {
         "album"
       ],
       "optionReasons": {
-        "album-mcq-07": "本句指「音樂專輯；大碟」。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。"
+        "album-mcq-07": "本句的「album」指「音樂專輯；大碟」。",
+        "album-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-07"
     },
@@ -650,11 +590,8 @@ export default {
       "masked": "This is my favourite ____ by the band.",
       "options": [
         "album-mcq-07",
-        "album-mcq-06",
-        "album-mcq-08",
-        "album-mcq-05",
-        "album-mcq-09",
-        "album-mcq-04"
+        "album-mcq-03",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album」指「音樂專輯；大碟」。",
       "sentenceIndex": 10,
@@ -663,12 +600,9 @@ export default {
         "album"
       ],
       "optionReasons": {
-        "album-mcq-07": "本句指「音樂專輯；大碟」。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。"
+        "album-mcq-07": "本句的「album」指「音樂專輯；大碟」。",
+        "album-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-07"
     },
@@ -680,11 +614,8 @@ export default {
       "masked": "This is the band's third ____.",
       "options": [
         "album-mcq-08",
-        "album-mcq-07",
-        "album-mcq-09",
-        "album-mcq-06",
-        "album-mcq-10",
-        "album-mcq-05"
+        "album-mcq-02",
+        "album-mcq-06"
       ],
       "explanation": "本句的「studio album」指「錄音室專輯」。",
       "sentenceIndex": 11,
@@ -693,12 +624,9 @@ export default {
         "studio album"
       ],
       "optionReasons": {
-        "album-mcq-08": "本句指「錄音室專輯」。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。"
+        "album-mcq-08": "本句的「studio album」指「錄音室專輯」。",
+        "album-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-08"
     },
@@ -710,11 +638,8 @@ export default {
       "masked": "The ____ took two years to complete.",
       "options": [
         "album-mcq-08",
-        "album-mcq-07",
-        "album-mcq-09",
         "album-mcq-06",
-        "album-mcq-10",
-        "album-mcq-05"
+        "album-mcq-01"
       ],
       "explanation": "本句的「studio album」指「錄音室專輯」。",
       "sentenceIndex": 12,
@@ -723,12 +648,9 @@ export default {
         "studio album"
       ],
       "optionReasons": {
-        "album-mcq-08": "本句指「錄音室專輯」。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。"
+        "album-mcq-08": "本句的「studio album」指「錄音室專輯」。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-08"
     },
@@ -740,11 +662,8 @@ export default {
       "masked": "They released a ____ from the concert tour.",
       "options": [
         "album-mcq-09",
-        "album-mcq-08",
-        "album-mcq-10",
-        "album-mcq-07",
-        "album-mcq-11",
-        "album-mcq-06"
+        "album-mcq-06",
+        "album-mcq-01"
       ],
       "explanation": "本句的「live album」指「現場錄音專輯」。",
       "sentenceIndex": 13,
@@ -753,12 +672,9 @@ export default {
         "live album"
       ],
       "optionReasons": {
-        "album-mcq-09": "本句指「現場錄音專輯」。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-09": "本句的「live album」指「現場錄音專輯」。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-09"
     },
@@ -770,10 +686,7 @@ export default {
       "masked": "The ____ captures the energy of the performance.",
       "options": [
         "album-mcq-09",
-        "album-mcq-08",
-        "album-mcq-10",
-        "album-mcq-07",
-        "album-mcq-11",
+        "album-mcq-01",
         "album-mcq-06"
       ],
       "explanation": "本句的「live album」指「現場錄音專輯」。",
@@ -783,12 +696,9 @@ export default {
         "live album"
       ],
       "optionReasons": {
-        "album-mcq-09": "本句指「現場錄音專輯」。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-06": "「集郵冊」與本句語境不同。"
+        "album-mcq-09": "本句的「live album」指「現場錄音專輯」。",
+        "album-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-09"
     },
@@ -800,11 +710,8 @@ export default {
       "masked": "Her ____ became very successful.",
       "options": [
         "album-mcq-10",
-        "album-mcq-09",
-        "album-mcq-11",
-        "album-mcq-08",
-        "album-mcq-12",
-        "album-mcq-07"
+        "album-mcq-02",
+        "album-mcq-06"
       ],
       "explanation": "本句的「debut album」指「首張專輯」。",
       "sentenceIndex": 15,
@@ -813,12 +720,9 @@ export default {
         "debut album"
       ],
       "optionReasons": {
-        "album-mcq-10": "本句指「首張專輯」。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。"
+        "album-mcq-10": "本句的「debut album」指「首張專輯」。",
+        "album-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-10"
     },
@@ -830,11 +734,8 @@ export default {
       "masked": "The band recorded its ____ in London.",
       "options": [
         "album-mcq-10",
-        "album-mcq-09",
-        "album-mcq-11",
-        "album-mcq-08",
-        "album-mcq-12",
-        "album-mcq-07"
+        "album-mcq-06",
+        "album-mcq-03"
       ],
       "explanation": "本句的「debut album」指「首張專輯」。",
       "sentenceIndex": 16,
@@ -843,12 +744,9 @@ export default {
         "debut album"
       ],
       "optionReasons": {
-        "album-mcq-10": "本句指「首張專輯」。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。"
+        "album-mcq-10": "本句的「debut album」指「首張專輯」。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-10"
     },
@@ -860,11 +758,8 @@ export default {
       "masked": "The band created a ____ about city life.",
       "options": [
         "album-mcq-11",
-        "album-mcq-10",
-        "album-mcq-12",
-        "album-mcq-09",
-        "album-mcq-13",
-        "album-mcq-08"
+        "album-mcq-01",
+        "album-mcq-06"
       ],
       "explanation": "本句的「concept album」指「概念專輯」。",
       "sentenceIndex": 17,
@@ -873,12 +768,9 @@ export default {
         "concept album"
       ],
       "optionReasons": {
-        "album-mcq-11": "本句指「概念專輯」。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。"
+        "album-mcq-11": "本句的「concept album」指「概念專輯」。",
+        "album-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-11"
     },
@@ -890,11 +782,8 @@ export default {
       "masked": "Every song on the ____ is connected to the same story.",
       "options": [
         "album-mcq-11",
-        "album-mcq-10",
-        "album-mcq-12",
-        "album-mcq-09",
-        "album-mcq-13",
-        "album-mcq-08"
+        "album-mcq-04",
+        "album-mcq-06"
       ],
       "explanation": "本句的「concept album」指「概念專輯」。",
       "sentenceIndex": 18,
@@ -903,12 +792,9 @@ export default {
         "concept album"
       ],
       "optionReasons": {
-        "album-mcq-11": "本句指「概念專輯」。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。"
+        "album-mcq-11": "本句的「concept album」指「概念專輯」。",
+        "album-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-11"
     },
@@ -920,11 +806,8 @@ export default {
       "masked": "This song was originally just an ____.",
       "options": [
         "album-mcq-12",
-        "album-mcq-11",
-        "album-mcq-13",
-        "album-mcq-10",
-        "album-mcq-14",
-        "album-mcq-09"
+        "album-mcq-06",
+        "album-mcq-02"
       ],
       "explanation": "本句的「album track」指「專輯收錄曲」。",
       "sentenceIndex": 19,
@@ -933,12 +816,9 @@ export default {
         "album track"
       ],
       "optionReasons": {
-        "album-mcq-12": "本句指「專輯收錄曲」。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-14": "「專輯發行」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。"
+        "album-mcq-12": "本句的「album track」指「專輯收錄曲」。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-12"
     },
@@ -950,11 +830,8 @@ export default {
       "masked": "Several ____ later became popular.",
       "options": [
         "album-mcq-12",
-        "album-mcq-11",
-        "album-mcq-13",
-        "album-mcq-10",
-        "album-mcq-14",
-        "album-mcq-09"
+        "album-mcq-04",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album tracks」指「專輯收錄曲」。",
       "sentenceIndex": 20,
@@ -963,12 +840,9 @@ export default {
         "album tracks"
       ],
       "optionReasons": {
-        "album-mcq-12": "本句指「專輯收錄曲」。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。",
-        "album-mcq-14": "「專輯發行」與本句語境不同。",
-        "album-mcq-09": "「現場錄音專輯」與本句語境不同。"
+        "album-mcq-12": "本句的「album tracks」指「專輯收錄曲」。",
+        "album-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-12"
     },
@@ -980,11 +854,8 @@ export default {
       "masked": "The ____ was designed by a famous artist.",
       "options": [
         "album-mcq-13",
-        "album-mcq-12",
-        "album-mcq-14",
-        "album-mcq-11",
-        "album-mcq-15",
-        "album-mcq-10"
+        "album-mcq-04",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album cover」指「專輯封面」。",
       "sentenceIndex": 21,
@@ -993,12 +864,9 @@ export default {
         "album cover"
       ],
       "optionReasons": {
-        "album-mcq-13": "本句指「專輯封面」。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-14": "「專輯發行」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-15": "「數碼相簿」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。"
+        "album-mcq-13": "本句的「album cover」指「專輯封面」。",
+        "album-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-13"
     },
@@ -1010,11 +878,8 @@ export default {
       "masked": "I recognized the record from its ____.",
       "options": [
         "album-mcq-13",
-        "album-mcq-12",
-        "album-mcq-14",
-        "album-mcq-11",
-        "album-mcq-15",
-        "album-mcq-10"
+        "album-mcq-03",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album cover」指「專輯封面」。",
       "sentenceIndex": 22,
@@ -1023,12 +888,9 @@ export default {
         "album cover"
       ],
       "optionReasons": {
-        "album-mcq-13": "本句指「專輯封面」。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-14": "「專輯發行」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。",
-        "album-mcq-15": "「數碼相簿」與本句語境不同。",
-        "album-mcq-10": "「首張專輯」與本句語境不同。"
+        "album-mcq-13": "本句的「album cover」指「專輯封面」。",
+        "album-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-13"
     },
@@ -1040,11 +902,8 @@ export default {
       "masked": "The ____ is scheduled for Friday.",
       "options": [
         "album-mcq-14",
-        "album-mcq-13",
-        "album-mcq-15",
-        "album-mcq-12",
-        "album-mcq-16",
-        "album-mcq-11"
+        "album-mcq-02",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album release」指「專輯發行」。",
       "sentenceIndex": 23,
@@ -1053,12 +912,9 @@ export default {
         "album release"
       ],
       "optionReasons": {
-        "album-mcq-14": "本句指「專輯發行」。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-15": "「數碼相簿」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-16": "「數碼專輯」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。"
+        "album-mcq-14": "本句的「album release」指「專輯發行」。",
+        "album-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-14"
     },
@@ -1070,11 +926,8 @@ export default {
       "masked": "Fans celebrated the new ____.",
       "options": [
         "album-mcq-14",
-        "album-mcq-13",
-        "album-mcq-15",
-        "album-mcq-12",
-        "album-mcq-16",
-        "album-mcq-11"
+        "album-mcq-01",
+        "album-mcq-06"
       ],
       "explanation": "本句的「album release」指「專輯發行」。",
       "sentenceIndex": 24,
@@ -1083,12 +936,9 @@ export default {
         "album release"
       ],
       "optionReasons": {
-        "album-mcq-14": "本句指「專輯發行」。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-15": "「數碼相簿」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-16": "「數碼專輯」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。"
+        "album-mcq-14": "本句的「album release」指「專輯發行」。",
+        "album-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-14"
     },
@@ -1100,10 +950,7 @@ export default {
       "masked": "His grandfather gave him a ____.",
       "options": [
         "album-mcq-06",
-        "album-mcq-05",
-        "album-mcq-07",
-        "album-mcq-04",
-        "album-mcq-08",
+        "album-mcq-13",
         "album-mcq-03"
       ],
       "explanation": "本句的「stamp album」指「集郵冊」。",
@@ -1113,12 +960,9 @@ export default {
         "stamp album"
       ],
       "optionReasons": {
-        "album-mcq-06": "本句指「集郵冊」。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。"
+        "album-mcq-06": "本句的「stamp album」指「集郵冊」。",
+        "album-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-06"
     },
@@ -1130,11 +974,8 @@ export default {
       "masked": "The ____ contains stamps from many countries.",
       "options": [
         "album-mcq-06",
-        "album-mcq-05",
-        "album-mcq-07",
-        "album-mcq-04",
         "album-mcq-08",
-        "album-mcq-03"
+        "album-mcq-02"
       ],
       "explanation": "本句的「stamp album」指「集郵冊」。",
       "sentenceIndex": 28,
@@ -1143,12 +984,9 @@ export default {
         "stamp album"
       ],
       "optionReasons": {
-        "album-mcq-06": "本句指「集郵冊」。",
-        "album-mcq-05": "「收藏冊」與本句語境不同。",
-        "album-mcq-07": "「音樂專輯；大碟」與本句語境不同。",
-        "album-mcq-04": "「剪貼簿式相簿」與本句語境不同。",
-        "album-mcq-08": "「錄音室專輯」與本句語境不同。",
-        "album-mcq-03": "「婚禮相簿」與本句語境不同。"
+        "album-mcq-06": "本句的「stamp album」指「集郵冊」。",
+        "album-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-06"
     },
@@ -1160,11 +998,8 @@ export default {
       "masked": "She created a ____ for the family.",
       "options": [
         "album-mcq-16",
-        "album-mcq-15",
-        "album-mcq-14",
-        "album-mcq-13",
-        "album-mcq-12",
-        "album-mcq-11"
+        "album-mcq-03",
+        "album-mcq-06"
       ],
       "explanation": "本句的「digital photo album」指「數碼專輯」。",
       "sentenceIndex": 29,
@@ -1173,12 +1008,9 @@ export default {
         "digital photo album"
       ],
       "optionReasons": {
-        "album-mcq-16": "本句指「數碼專輯」。",
-        "album-mcq-15": "「數碼相簿」與本句語境不同。",
-        "album-mcq-14": "「專輯發行」與本句語境不同。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。"
+        "album-mcq-16": "本句的「digital photo album」指「數碼專輯」。",
+        "album-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-16"
     },
@@ -1190,11 +1022,8 @@ export default {
       "masked": "The ____ is available on streaming platforms.",
       "options": [
         "album-mcq-16",
-        "album-mcq-15",
-        "album-mcq-14",
-        "album-mcq-13",
-        "album-mcq-12",
-        "album-mcq-11"
+        "album-mcq-04",
+        "album-mcq-06"
       ],
       "explanation": "本句的「digital album」指「數碼專輯」。",
       "sentenceIndex": 30,
@@ -1203,12 +1032,9 @@ export default {
         "digital album"
       ],
       "optionReasons": {
-        "album-mcq-16": "本句指「數碼專輯」。",
-        "album-mcq-15": "「數碼相簿」與本句語境不同。",
-        "album-mcq-14": "「專輯發行」與本句語境不同。",
-        "album-mcq-13": "「專輯封面」與本句語境不同。",
-        "album-mcq-12": "「專輯收錄曲」與本句語境不同。",
-        "album-mcq-11": "「概念專輯」與本句語境不同。"
+        "album-mcq-16": "本句的「digital album」指「數碼專輯」。",
+        "album-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "album-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "album-mcq-16"
     }
@@ -1220,5 +1046,7 @@ export default {
     "sha256": "e608c9527efe1e2b39435b138cb0dbdeedef10d979b60a6bef858013f445acec",
     "pages": 14
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

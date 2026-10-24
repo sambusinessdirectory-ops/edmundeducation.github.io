@@ -821,11 +821,9 @@ export default {
       "masked": "I would ____ the worst.",
       "options": [
         "start-mcq-01",
-        "start-mcq-02",
-        "start-mcq-03",
-        "start-mcq-04",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-32",
+        "start-mcq-20",
+        "start-mcq-30"
       ],
       "explanation": "本句的「start imagining」指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
       "sentenceIndex": 0,
@@ -834,12 +832,10 @@ export default {
         "start imagining"
       ],
       "optionReasons": {
-        "start-mcq-01": "本句指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-01": "本句的「start imagining」指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-01"
     },
@@ -851,11 +847,9 @@ export default {
       "masked": "I ____ every evening.",
       "options": [
         "start-mcq-01",
-        "start-mcq-02",
-        "start-mcq-03",
-        "start-mcq-04",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-20",
+        "start-mcq-32",
+        "start-mcq-30"
       ],
       "explanation": "本句的「started practising」指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
       "sentenceIndex": 1,
@@ -864,12 +858,10 @@ export default {
         "started practising"
       ],
       "optionReasons": {
-        "start-mcq-01": "本句指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-01": "本句的「started practising」指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-01"
     },
@@ -881,11 +873,9 @@ export default {
       "masked": "She ____ more confident after a few minutes.",
       "options": [
         "start-mcq-01",
-        "start-mcq-02",
-        "start-mcq-03",
-        "start-mcq-04",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-19",
+        "start-mcq-30",
+        "start-mcq-32"
       ],
       "explanation": "本句的「started feeling」指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
       "sentenceIndex": 2,
@@ -894,12 +884,10 @@ export default {
         "started feeling"
       ],
       "optionReasons": {
-        "start-mcq-01": "本句指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-01": "本句的「started feeling」指「某個動作、過程或狀態由沒有發生轉為開始發生」。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-01"
     },
@@ -911,11 +899,9 @@ export default {
       "masked": "I ____ once I saw a few friendly faces.",
       "options": [
         "start-mcq-02",
-        "start-mcq-01",
-        "start-mcq-03",
-        "start-mcq-04",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-19",
+        "start-mcq-30",
+        "start-mcq-32"
       ],
       "explanation": "本句的「started to relax」指「開始進行、出現或經歷後面的動作／狀態」。",
       "sentenceIndex": 3,
@@ -924,12 +910,10 @@ export default {
         "started to relax"
       ],
       "optionReasons": {
-        "start-mcq-02": "本句指「開始進行、出現或經歷後面的動作／狀態」。",
-        "start-mcq-01": "「某個動作、過程或狀態由沒有發生轉為開始發生」是「start + -ing」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-02": "本句的「started to relax」指「開始進行、出現或經歷後面的動作／狀態」。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-02"
     },
@@ -941,11 +925,9 @@ export default {
       "masked": "The audience ____ questions.",
       "options": [
         "start-mcq-02",
-        "start-mcq-01",
-        "start-mcq-03",
-        "start-mcq-04",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-30",
+        "start-mcq-19",
+        "start-mcq-07"
       ],
       "explanation": "本句的「started to ask」指「開始進行、出現或經歷後面的動作／狀態」。",
       "sentenceIndex": 4,
@@ -954,12 +936,10 @@ export default {
         "started to ask"
       ],
       "optionReasons": {
-        "start-mcq-02": "本句指「開始進行、出現或經歷後面的動作／狀態」。",
-        "start-mcq-01": "「某個動作、過程或狀態由沒有發生轉為開始發生」是「start + -ing」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-02": "本句的「started to ask」指「開始進行、出現或經歷後面的動作／狀態」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-02"
     },
@@ -971,11 +951,9 @@ export default {
       "masked": "The presentation ____ at ten o’clock.",
       "options": [
         "start-mcq-03",
-        "start-mcq-02",
-        "start-mcq-04",
-        "start-mcq-01",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-23",
+        "start-mcq-07",
+        "start-mcq-30"
       ],
       "explanation": "本句的「started」指「某項活動、事件或過程由尚未進行轉為正式進行」。",
       "sentenceIndex": 5,
@@ -984,12 +962,10 @@ export default {
         "started"
       ],
       "optionReasons": {
-        "start-mcq-03": "本句指「某項活動、事件或過程由尚未進行轉為正式進行」。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-01": "「某個動作、過程或狀態由沒有發生轉為開始發生」是「start + -ing」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-03": "本句的「started」指「某項活動、事件或過程由尚未進行轉為正式進行」。",
+        "start-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-03"
     },
@@ -1001,11 +977,9 @@ export default {
       "masked": "The meeting ____ with a short introduction.",
       "options": [
         "start-mcq-03",
-        "start-mcq-02",
-        "start-mcq-04",
-        "start-mcq-01",
-        "start-mcq-05",
-        "start-mcq-06"
+        "start-mcq-16",
+        "start-mcq-07",
+        "start-mcq-32"
       ],
       "explanation": "本句的「started」指「某項活動、事件或過程由尚未進行轉為正式進行」。",
       "sentenceIndex": 6,
@@ -1014,12 +988,10 @@ export default {
         "started"
       ],
       "optionReasons": {
-        "start-mcq-03": "本句指「某項活動、事件或過程由尚未進行轉為正式進行」。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-01": "「某個動作、過程或狀態由沒有發生轉為開始發生」是「start + -ing」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-03": "本句的「started」指「某項活動、事件或過程由尚未進行轉為正式進行」。",
+        "start-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-03"
     },
@@ -1031,11 +1003,9 @@ export default {
       "masked": "Let’s ____.",
       "options": [
         "start-mcq-04",
-        "start-mcq-03",
-        "start-mcq-05",
-        "start-mcq-02",
-        "start-mcq-06",
-        "start-mcq-01"
+        "start-mcq-32",
+        "start-mcq-30",
+        "start-mcq-07"
       ],
       "explanation": "本句的「start the meeting」指「使某項活動、過程或事情開始進行」。",
       "sentenceIndex": 7,
@@ -1044,12 +1014,10 @@ export default {
         "start the meeting"
       ],
       "optionReasons": {
-        "start-mcq-04": "本句指「使某項活動、過程或事情開始進行」。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-01": "「某個動作、過程或狀態由沒有發生轉為開始發生」是「start + -ing」的用法，與本句語境不同。"
+        "start-mcq-04": "本句的「start the meeting」指「使某項活動、過程或事情開始進行」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-04"
     },
@@ -1061,11 +1029,9 @@ export default {
       "masked": "She ____ with a question.",
       "options": [
         "start-mcq-04",
-        "start-mcq-03",
-        "start-mcq-05",
-        "start-mcq-02",
-        "start-mcq-06",
-        "start-mcq-01"
+        "start-mcq-32",
+        "start-mcq-19",
+        "start-mcq-30"
       ],
       "explanation": "本句的「started the presentation」指「使某項活動、過程或事情開始進行」。",
       "sentenceIndex": 8,
@@ -1074,12 +1040,10 @@ export default {
         "started the presentation"
       ],
       "optionReasons": {
-        "start-mcq-04": "本句指「使某項活動、過程或事情開始進行」。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-01": "「某個動作、過程或狀態由沒有發生轉為開始發生」是「start + -ing」的用法，與本句語境不同。"
+        "start-mcq-04": "本句的「started the presentation」指「使某項活動、過程或事情開始進行」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-04"
     },
@@ -1091,11 +1055,9 @@ export default {
       "masked": "I ____ a simple script.",
       "options": [
         "start-mcq-05",
-        "start-mcq-04",
-        "start-mcq-06",
-        "start-mcq-03",
-        "start-mcq-07",
-        "start-mcq-02"
+        "start-mcq-09",
+        "start-mcq-18",
+        "start-mcq-30"
       ],
       "explanation": "本句的「started by writing」指「把某個動作作為一連串事情中的第一步」。",
       "sentenceIndex": 9,
@@ -1104,12 +1066,10 @@ export default {
         "started by writing"
       ],
       "optionReasons": {
-        "start-mcq-05": "本句指「把某個動作作為一連串事情中的第一步」。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。"
+        "start-mcq-05": "本句的「started by writing」指「把某個動作作為一連串事情中的第一步」。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-05"
     },
@@ -1121,11 +1081,9 @@ export default {
       "masked": "She ____ the audience.",
       "options": [
         "start-mcq-05",
-        "start-mcq-04",
-        "start-mcq-06",
-        "start-mcq-03",
         "start-mcq-07",
-        "start-mcq-02"
+        "start-mcq-23",
+        "start-mcq-09"
       ],
       "explanation": "本句的「started by thanking」指「把某個動作作為一連串事情中的第一步」。",
       "sentenceIndex": 10,
@@ -1134,12 +1092,10 @@ export default {
         "started by thanking"
       ],
       "optionReasons": {
-        "start-mcq-05": "本句指「把某個動作作為一連串事情中的第一步」。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-02": "「開始進行、出現或經歷後面的動作／狀態」是「start to + verb」的用法，與本句語境不同。"
+        "start-mcq-05": "本句的「started by thanking」指「把某個動作作為一連串事情中的第一步」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-05"
     },
@@ -1151,11 +1107,9 @@ export default {
       "masked": "The presentation ____ a short story.",
       "options": [
         "start-mcq-06",
-        "start-mcq-05",
-        "start-mcq-07",
-        "start-mcq-04",
+        "start-mcq-30",
         "start-mcq-08",
-        "start-mcq-03"
+        "start-mcq-28"
       ],
       "explanation": "本句的「started with」指「把某項內容、人物或步驟放在最前面開始」。",
       "sentenceIndex": 11,
@@ -1164,12 +1118,10 @@ export default {
         "started with"
       ],
       "optionReasons": {
-        "start-mcq-06": "本句指「把某項內容、人物或步驟放在最前面開始」。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。"
+        "start-mcq-06": "本句的「started with」指「把某項內容、人物或步驟放在最前面開始」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-06"
     },
@@ -1181,11 +1133,9 @@ export default {
       "masked": "Let’s ____ the most important point.",
       "options": [
         "start-mcq-06",
-        "start-mcq-05",
-        "start-mcq-07",
-        "start-mcq-04",
         "start-mcq-08",
-        "start-mcq-03"
+        "start-mcq-29",
+        "start-mcq-28"
       ],
       "explanation": "本句的「start with」指「把某項內容、人物或步驟放在最前面開始」。",
       "sentenceIndex": 12,
@@ -1194,12 +1144,10 @@ export default {
         "start with"
       ],
       "optionReasons": {
-        "start-mcq-06": "本句指「把某項內容、人物或步驟放在最前面開始」。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-03": "「某項活動、事件或過程由尚未進行轉為正式進行」是「start — activity begins」的用法，與本句語境不同。"
+        "start-mcq-06": "本句的「start with」指「把某項內容、人物或步驟放在最前面開始」。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-06"
     },
@@ -1211,11 +1159,9 @@ export default {
       "masked": "The tour ____ the main entrance.",
       "options": [
         "start-mcq-07",
-        "start-mcq-06",
-        "start-mcq-08",
-        "start-mcq-05",
-        "start-mcq-09",
-        "start-mcq-04"
+        "start-mcq-25",
+        "start-mcq-29",
+        "start-mcq-05"
       ],
       "explanation": "本句的「starts from」指「以某個地點、階段、資料或概念作為起點」。",
       "sentenceIndex": 13,
@@ -1224,12 +1170,10 @@ export default {
         "starts from"
       ],
       "optionReasons": {
-        "start-mcq-07": "本句指「以某個地點、階段、資料或概念作為起點」。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。"
+        "start-mcq-07": "本句的「starts from」指「以某個地點、階段、資料或概念作為起點」。",
+        "start-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-07"
     },
@@ -1241,11 +1185,9 @@ export default {
       "masked": "We need to ____ the basic facts.",
       "options": [
         "start-mcq-07",
-        "start-mcq-06",
-        "start-mcq-08",
-        "start-mcq-05",
-        "start-mcq-09",
-        "start-mcq-04"
+        "start-mcq-10",
+        "start-mcq-32",
+        "start-mcq-03"
       ],
       "explanation": "本句的「start from」指「以某個地點、階段、資料或概念作為起點」。",
       "sentenceIndex": 14,
@@ -1254,12 +1196,10 @@ export default {
         "start from"
       ],
       "optionReasons": {
-        "start-mcq-07": "本句指「以某個地點、階段、資料或概念作為起點」。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-04": "「使某項活動、過程或事情開始進行」是「start something」的用法，與本句語境不同。"
+        "start-mcq-07": "本句的「start from」指「以某個地點、階段、資料或概念作為起點」。",
+        "start-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-07"
     },
@@ -1271,11 +1211,9 @@ export default {
       "masked": "The event ____ nine.",
       "options": [
         "start-mcq-08",
-        "start-mcq-07",
-        "start-mcq-09",
+        "start-mcq-29",
         "start-mcq-06",
-        "start-mcq-10",
-        "start-mcq-05"
+        "start-mcq-28"
       ],
       "explanation": "本句的「starts at」指「以指定時間、數值、位置或程度作為起點」。",
       "sentenceIndex": 15,
@@ -1284,12 +1222,10 @@ export default {
         "starts at"
       ],
       "optionReasons": {
-        "start-mcq-08": "本句指「以指定時間、數值、位置或程度作為起點」。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。"
+        "start-mcq-08": "本句的「starts at」指「以指定時間、數值、位置或程度作為起點」。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-08"
     },
@@ -1301,11 +1237,9 @@ export default {
       "masked": "Prices ____ $50.",
       "options": [
         "start-mcq-08",
-        "start-mcq-07",
-        "start-mcq-09",
-        "start-mcq-06",
-        "start-mcq-10",
-        "start-mcq-05"
+        "start-mcq-33",
+        "start-mcq-32",
+        "start-mcq-30"
       ],
       "explanation": "本句的「start at」指「以指定時間、數值、位置或程度作為起點」。",
       "sentenceIndex": 16,
@@ -1314,12 +1248,10 @@ export default {
         "start at"
       ],
       "optionReasons": {
-        "start-mcq-08": "本句指「以指定時間、數值、位置或程度作為起點」。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-05": "「把某個動作作為一連串事情中的第一步」是「start by + -ing」的用法，與本句語境不同。"
+        "start-mcq-08": "本句的「start at」指「以指定時間、數值、位置或程度作為起點」。",
+        "start-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-08"
     },
@@ -1331,11 +1263,9 @@ export default {
       "masked": "She ____ a junior employee.",
       "options": [
         "start-mcq-09",
-        "start-mcq-08",
-        "start-mcq-10",
-        "start-mcq-07",
-        "start-mcq-11",
-        "start-mcq-06"
+        "start-mcq-28",
+        "start-mcq-23",
+        "start-mcq-07"
       ],
       "explanation": "本句的「started as」指「在發展歷程最初以某身份、形式或角色存在」。",
       "sentenceIndex": 17,
@@ -1344,12 +1274,10 @@ export default {
         "started as"
       ],
       "optionReasons": {
-        "start-mcq-09": "本句指「在發展歷程最初以某身份、形式或角色存在」。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-09": "本句的「started as」指「在發展歷程最初以某身份、形式或角色存在」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-09"
     },
@@ -1361,11 +1289,9 @@ export default {
       "masked": "The company ____ a small family business.",
       "options": [
         "start-mcq-09",
-        "start-mcq-08",
-        "start-mcq-10",
+        "start-mcq-25",
         "start-mcq-07",
-        "start-mcq-11",
-        "start-mcq-06"
+        "start-mcq-05"
       ],
       "explanation": "本句的「started as」指「在發展歷程最初以某身份、形式或角色存在」。",
       "sentenceIndex": 18,
@@ -1374,12 +1300,10 @@ export default {
         "started as"
       ],
       "optionReasons": {
-        "start-mcq-09": "本句指「在發展歷程最初以某身份、形式或角色存在」。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-06": "「把某項內容、人物或步驟放在最前面開始」是「start with」的用法，與本句語境不同。"
+        "start-mcq-09": "本句的「started as」指「在發展歷程最初以某身份、形式或角色存在」。",
+        "start-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-09"
     },
@@ -1391,11 +1315,9 @@ export default {
       "masked": "The problem ____ several months ago.",
       "options": [
         "start-mcq-10",
-        "start-mcq-09",
-        "start-mcq-11",
+        "start-mcq-20",
         "start-mcq-08",
-        "start-mcq-12",
-        "start-mcq-07"
+        "start-mcq-05"
       ],
       "explanation": "本句的「started」指「某個問題、趨勢、關係或事物開始存在／發展」。",
       "sentenceIndex": 19,
@@ -1404,12 +1326,10 @@ export default {
         "started"
       ],
       "optionReasons": {
-        "start-mcq-10": "本句指「某個問題、趨勢、關係或事物開始存在／發展」。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。"
+        "start-mcq-10": "本句的「started」指「某個問題、趨勢、關係或事物開始存在／發展」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-10"
     },
@@ -1421,11 +1341,9 @@ export default {
       "masked": "The idea ____ as a simple experiment.",
       "options": [
         "start-mcq-10",
-        "start-mcq-09",
-        "start-mcq-11",
-        "start-mcq-08",
-        "start-mcq-12",
-        "start-mcq-07"
+        "start-mcq-20",
+        "start-mcq-32",
+        "start-mcq-29"
       ],
       "explanation": "本句的「started」指「某個問題、趨勢、關係或事物開始存在／發展」。",
       "sentenceIndex": 20,
@@ -1434,12 +1352,10 @@ export default {
         "started"
       ],
       "optionReasons": {
-        "start-mcq-10": "本句指「某個問題、趨勢、關係或事物開始存在／發展」。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-07": "「以某個地點、階段、資料或概念作為起點」是「start from」的用法，與本句語境不同。"
+        "start-mcq-10": "本句的「started」指「某個問題、趨勢、關係或事物開始存在／發展」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-10"
     },
@@ -1451,11 +1367,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "start-mcq-11",
-        "start-mcq-10",
-        "start-mcq-12",
-        "start-mcq-09",
-        "start-mcq-13",
-        "start-mcq-08"
+        "start-mcq-30",
+        "start-mcq-28",
+        "start-mcq-19"
       ],
       "explanation": "本句的「started her own company」指「建立一個新的企業／商業活動並令其開始營運」。",
       "sentenceIndex": 21,
@@ -1464,12 +1378,10 @@ export default {
         "started her own company"
       ],
       "optionReasons": {
-        "start-mcq-11": "本句指「建立一個新的企業／商業活動並令其開始營運」。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。"
+        "start-mcq-11": "本句的「started her own company」指「建立一個新的企業／商業活動並令其開始營運」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-11"
     },
@@ -1481,10 +1393,8 @@ export default {
       "masked": "They ____ from home.",
       "options": [
         "start-mcq-11",
-        "start-mcq-10",
-        "start-mcq-12",
-        "start-mcq-09",
-        "start-mcq-13",
+        "start-mcq-20",
+        "start-mcq-32",
         "start-mcq-08"
       ],
       "explanation": "本句的「started a small business」指「建立一個新的企業／商業活動並令其開始營運」。",
@@ -1494,12 +1404,10 @@ export default {
         "started a small business"
       ],
       "optionReasons": {
-        "start-mcq-11": "本句指「建立一個新的企業／商業活動並令其開始營運」。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-08": "「以指定時間、數值、位置或程度作為起點」是「start at」的用法，與本句語境不同。"
+        "start-mcq-11": "本句的「started a small business」指「建立一個新的企業／商業活動並令其開始營運」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-11"
     },
@@ -1511,10 +1419,8 @@ export default {
       "masked": "The company ____ last month.",
       "options": [
         "start-mcq-12",
-        "start-mcq-11",
-        "start-mcq-13",
-        "start-mcq-10",
-        "start-mcq-14",
+        "start-mcq-07",
+        "start-mcq-32",
         "start-mcq-09"
       ],
       "explanation": "本句的「started a new project」指「正式使某項有組織的工作／行動開始運作」。",
@@ -1524,12 +1430,10 @@ export default {
         "started a new project"
       ],
       "optionReasons": {
-        "start-mcq-12": "本句指「正式使某項有組織的工作／行動開始運作」。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。"
+        "start-mcq-12": "本句的「started a new project」指「正式使某項有組織的工作／行動開始運作」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-12"
     },
@@ -1541,11 +1445,9 @@ export default {
       "masked": "The organization ____ to improve safety.",
       "options": [
         "start-mcq-12",
-        "start-mcq-11",
-        "start-mcq-13",
-        "start-mcq-10",
-        "start-mcq-14",
-        "start-mcq-09"
+        "start-mcq-32",
+        "start-mcq-08",
+        "start-mcq-28"
       ],
       "explanation": "本句的「started a campaign」指「正式使某項有組織的工作／行動開始運作」。",
       "sentenceIndex": 24,
@@ -1554,12 +1456,10 @@ export default {
         "started a campaign"
       ],
       "optionReasons": {
-        "start-mcq-12": "本句指「正式使某項有組織的工作／行動開始運作」。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-09": "「在發展歷程最初以某身份、形式或角色存在」是「start as」的用法，與本句語境不同。"
+        "start-mcq-12": "本句的「started a campaign」指「正式使某項有組織的工作／行動開始運作」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-12"
     },
@@ -1571,11 +1471,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "start-mcq-13",
-        "start-mcq-12",
-        "start-mcq-14",
-        "start-mcq-11",
-        "start-mcq-15",
-        "start-mcq-10"
+        "start-mcq-30",
+        "start-mcq-07",
+        "start-mcq-09"
       ],
       "explanation": "本句的「started the engine」指「使機器由停止狀態轉為開始運作」。",
       "sentenceIndex": 25,
@@ -1584,12 +1482,10 @@ export default {
         "started the engine"
       ],
       "optionReasons": {
-        "start-mcq-13": "本句指「使機器由停止狀態轉為開始運作」。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。"
+        "start-mcq-13": "本句的「started the engine」指「使機器由停止狀態轉為開始運作」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-13"
     },
@@ -1601,11 +1497,9 @@ export default {
       "masked": "Press this button to ____.",
       "options": [
         "start-mcq-13",
-        "start-mcq-12",
-        "start-mcq-14",
-        "start-mcq-11",
-        "start-mcq-15",
-        "start-mcq-10"
+        "start-mcq-32",
+        "start-mcq-20",
+        "start-mcq-29"
       ],
       "explanation": "本句的「start the machine」指「使機器由停止狀態轉為開始運作」。",
       "sentenceIndex": 26,
@@ -1614,12 +1508,10 @@ export default {
         "start the machine"
       ],
       "optionReasons": {
-        "start-mcq-13": "本句指「使機器由停止狀態轉為開始運作」。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-10": "「某個問題、趨勢、關係或事物開始存在／發展」是「start — begin to exist/develop」的用法，與本句語境不同。"
+        "start-mcq-13": "本句的「start the machine」指「使機器由停止狀態轉為開始運作」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-13"
     },
@@ -1631,11 +1523,9 @@ export default {
       "masked": "The engine wouldn’t ____.",
       "options": [
         "start-mcq-14",
-        "start-mcq-13",
-        "start-mcq-15",
-        "start-mcq-12",
-        "start-mcq-16",
-        "start-mcq-11"
+        "start-mcq-07",
+        "start-mcq-32",
+        "start-mcq-19"
       ],
       "explanation": "本句的「start」指「機器本身開始啟動／運轉」。",
       "sentenceIndex": 27,
@@ -1644,12 +1534,10 @@ export default {
         "start"
       ],
       "optionReasons": {
-        "start-mcq-14": "本句指「機器本身開始啟動／運轉」。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。"
+        "start-mcq-14": "本句的「start」指「機器本身開始啟動／運轉」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-14"
     },
@@ -1661,11 +1549,9 @@ export default {
       "masked": "The computer ____ normally.",
       "options": [
         "start-mcq-14",
-        "start-mcq-13",
-        "start-mcq-15",
-        "start-mcq-12",
-        "start-mcq-16",
-        "start-mcq-11"
+        "start-mcq-07",
+        "start-mcq-30",
+        "start-mcq-28"
       ],
       "explanation": "本句的「started」指「機器本身開始啟動／運轉」。",
       "sentenceIndex": 28,
@@ -1674,12 +1560,10 @@ export default {
         "started"
       ],
       "optionReasons": {
-        "start-mcq-14": "本句指「機器本身開始啟動／運轉」。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-11": "「建立一個新的企業／商業活動並令其開始營運」是「start a business/company」的用法，與本句語境不同。"
+        "start-mcq-14": "本句的「started」指「機器本身開始啟動／運轉」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-14"
     },
@@ -1691,11 +1575,9 @@ export default {
       "masked": "They ____ to keep warm.",
       "options": [
         "start-mcq-15",
-        "start-mcq-14",
-        "start-mcq-16",
-        "start-mcq-13",
-        "start-mcq-17",
-        "start-mcq-12"
+        "start-mcq-05",
+        "start-mcq-03",
+        "start-mcq-07"
       ],
       "explanation": "本句的「started a fire」指「使火開始燃燒；生火或引發火災」。",
       "sentenceIndex": 29,
@@ -1704,12 +1586,10 @@ export default {
         "started a fire"
       ],
       "optionReasons": {
-        "start-mcq-15": "本句指「使火開始燃燒；生火或引發火災」。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。"
+        "start-mcq-15": "本句的「started a fire」指「使火開始燃燒；生火或引發火災」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-15"
     },
@@ -1721,11 +1601,9 @@ export default {
       "masked": "The electrical fault ____.",
       "options": [
         "start-mcq-15",
-        "start-mcq-14",
-        "start-mcq-16",
-        "start-mcq-13",
-        "start-mcq-17",
-        "start-mcq-12"
+        "start-mcq-08",
+        "start-mcq-32",
+        "start-mcq-20"
       ],
       "explanation": "本句的「started a fire」指「使火開始燃燒；生火或引發火災」。",
       "sentenceIndex": 30,
@@ -1734,12 +1612,10 @@ export default {
         "started a fire"
       ],
       "optionReasons": {
-        "start-mcq-15": "本句指「使火開始燃燒；生火或引發火災」。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-12": "「正式使某項有組織的工作／行動開始運作」是「start a project/campaign」的用法，與本句語境不同。"
+        "start-mcq-15": "本句的「started a fire」指「使火開始燃燒；生火或引發火災」。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-15"
     },
@@ -1751,11 +1627,9 @@ export default {
       "masked": "His comment ____.",
       "options": [
         "start-mcq-16",
-        "start-mcq-15",
-        "start-mcq-17",
-        "start-mcq-14",
-        "start-mcq-18",
-        "start-mcq-13"
+        "start-mcq-20",
+        "start-mcq-05",
+        "start-mcq-08"
       ],
       "explanation": "本句的「started an argument」指「使爭論、衝突或問題開始發生」。",
       "sentenceIndex": 31,
@@ -1764,12 +1638,10 @@ export default {
         "started an argument"
       ],
       "optionReasons": {
-        "start-mcq-16": "本句指「使爭論、衝突或問題開始發生」。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。"
+        "start-mcq-16": "本句的「started an argument」指「使爭論、衝突或問題開始發生」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-16"
     },
@@ -1781,11 +1653,9 @@ export default {
       "masked": "Don’t ____ over something so small.",
       "options": [
         "start-mcq-16",
-        "start-mcq-15",
-        "start-mcq-17",
-        "start-mcq-14",
-        "start-mcq-18",
-        "start-mcq-13"
+        "start-mcq-05",
+        "start-mcq-07",
+        "start-mcq-32"
       ],
       "explanation": "本句的「start a fight」指「使爭論、衝突或問題開始發生」。",
       "sentenceIndex": 32,
@@ -1794,12 +1664,10 @@ export default {
         "start a fight"
       ],
       "optionReasons": {
-        "start-mcq-16": "本句指「使爭論、衝突或問題開始發生」。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-13": "「使機器由停止狀態轉為開始運作」是「start an engine/machine」的用法，與本句語境不同。"
+        "start-mcq-16": "本句的「start a fight」指「使爭論、衝突或問題開始發生」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-16"
     },
@@ -1811,11 +1679,9 @@ export default {
       "masked": "The question ____.",
       "options": [
         "start-mcq-36",
-        "start-mcq-35",
-        "start-mcq-37",
-        "start-mcq-34",
-        "start-mcq-33",
-        "start-mcq-32"
+        "start-mcq-28",
+        "start-mcq-32",
+        "start-mcq-19"
       ],
       "explanation": "本句的「started me thinking」指「觸發某人開始某個動作／思考過程」。",
       "sentenceIndex": 33,
@@ -1824,12 +1690,10 @@ export default {
         "started me thinking"
       ],
       "optionReasons": {
-        "start-mcq-36": "本句指「觸發某人開始某個動作／思考過程」。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-37": "「某項動作／比賽／系統開始前所處的位置」是「24. starting position（起始位置） — 起點位置；初始位置」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-36": "本句的「started me thinking」指「觸發某人開始某個動作／思考過程」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-36"
     },
@@ -1841,11 +1705,9 @@ export default {
       "masked": "The experience ____ a career change.",
       "options": [
         "start-mcq-36",
-        "start-mcq-35",
-        "start-mcq-37",
-        "start-mcq-34",
-        "start-mcq-33",
-        "start-mcq-32"
+        "start-mcq-19",
+        "start-mcq-30",
+        "start-mcq-07"
       ],
       "explanation": "本句的「started her thinking about」指「觸發某人開始某個動作／思考過程」。",
       "sentenceIndex": 34,
@@ -1854,12 +1716,10 @@ export default {
         "started her thinking about"
       ],
       "optionReasons": {
-        "start-mcq-36": "本句指「觸發某人開始某個動作／思考過程」。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-37": "「某項動作／比賽／系統開始前所處的位置」是「24. starting position（起始位置） — 起點位置；初始位置」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-36": "本句的「started her thinking about」指「觸發某人開始某個動作／思考過程」。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-36"
     },
@@ -1871,11 +1731,9 @@ export default {
       "masked": "The presentation got off to a good ____.",
       "options": [
         "start-mcq-17",
-        "start-mcq-16",
-        "start-mcq-18",
-        "start-mcq-15",
-        "start-mcq-19",
-        "start-mcq-14"
+        "start-mcq-30",
+        "start-mcq-32",
+        "start-mcq-20"
       ],
       "explanation": "本句的「start」指「某件事情、過程或時期開始的部分／時間點」。",
       "sentenceIndex": 35,
@@ -1884,12 +1742,10 @@ export default {
         "start"
       ],
       "optionReasons": {
-        "start-mcq-17": "本句指「某件事情、過程或時期開始的部分／時間點」。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。"
+        "start-mcq-17": "本句的「start」指「某件事情、過程或時期開始的部分／時間點」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-17"
     },
@@ -1901,11 +1757,9 @@ export default {
       "masked": "The first few minutes are only the ____.",
       "options": [
         "start-mcq-17",
-        "start-mcq-16",
-        "start-mcq-18",
-        "start-mcq-15",
-        "start-mcq-19",
-        "start-mcq-14"
+        "start-mcq-30",
+        "start-mcq-20",
+        "start-mcq-28"
       ],
       "explanation": "本句的「start」指「某件事情、過程或時期開始的部分／時間點」。",
       "sentenceIndex": 36,
@@ -1914,12 +1768,10 @@ export default {
         "start"
       ],
       "optionReasons": {
-        "start-mcq-17": "本句指「某件事情、過程或時期開始的部分／時間點」。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。"
+        "start-mcq-17": "本句的「start」指「某件事情、過程或時期開始的部分／時間點」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-17"
     },
@@ -1931,11 +1783,9 @@ export default {
       "masked": "I felt extremely nervous ____.",
       "options": [
         "start-mcq-18",
-        "start-mcq-17",
-        "start-mcq-19",
-        "start-mcq-16",
-        "start-mcq-20",
-        "start-mcq-15"
+        "start-mcq-09",
+        "start-mcq-05",
+        "start-mcq-30"
       ],
       "explanation": "本句的「at the start」指「在某件事情剛開始的時候」。",
       "sentenceIndex": 37,
@@ -1944,12 +1794,10 @@ export default {
         "at the start"
       ],
       "optionReasons": {
-        "start-mcq-18": "本句指「在某件事情剛開始的時候」。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。"
+        "start-mcq-18": "本句的「at the start」指「在某件事情剛開始的時候」。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-18"
     },
@@ -1961,11 +1809,9 @@ export default {
       "masked": "The instructions were explained ____ of the session.",
       "options": [
         "start-mcq-18",
-        "start-mcq-17",
-        "start-mcq-19",
-        "start-mcq-16",
-        "start-mcq-20",
-        "start-mcq-15"
+        "start-mcq-07",
+        "start-mcq-28",
+        "start-mcq-29"
       ],
       "explanation": "本句的「at the start」指「在某件事情剛開始的時候」。",
       "sentenceIndex": 38,
@@ -1974,12 +1820,10 @@ export default {
         "at the start"
       ],
       "optionReasons": {
-        "start-mcq-18": "本句指「在某件事情剛開始的時候」。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。"
+        "start-mcq-18": "本句的「at the start」指「在某件事情剛開始的時候」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-18"
     },
@@ -1991,11 +1835,9 @@ export default {
       "masked": "I was nervous ____.",
       "options": [
         "start-mcq-19",
-        "start-mcq-18",
-        "start-mcq-20",
-        "start-mcq-17",
-        "start-mcq-21",
-        "start-mcq-16"
+        "start-mcq-05",
+        "start-mcq-14",
+        "start-mcq-32"
       ],
       "explanation": "本句的「from the start」指「從某件事情最初的時候起」。",
       "sentenceIndex": 39,
@@ -2004,12 +1846,10 @@ export default {
         "from the start"
       ],
       "optionReasons": {
-        "start-mcq-19": "本句指「從某件事情最初的時候起」。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。"
+        "start-mcq-19": "本句的「from the start」指「從某件事情最初的時候起」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-19"
     },
@@ -2021,11 +1861,9 @@ export default {
       "masked": "The team supported the idea ____.",
       "options": [
         "start-mcq-19",
-        "start-mcq-18",
-        "start-mcq-20",
-        "start-mcq-17",
-        "start-mcq-21",
-        "start-mcq-16"
+        "start-mcq-29",
+        "start-mcq-32",
+        "start-mcq-28"
       ],
       "explanation": "本句的「from the start」指「從某件事情最初的時候起」。",
       "sentenceIndex": 40,
@@ -2034,12 +1872,10 @@ export default {
         "from the start"
       ],
       "optionReasons": {
-        "start-mcq-19": "本句指「從某件事情最初的時候起」。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。"
+        "start-mcq-19": "本句的「from the start」指「從某件事情最初的時候起」。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-19"
     },
@@ -2051,11 +1887,9 @@ export default {
       "masked": "The presentation got off to a ____.",
       "options": [
         "start-mcq-17",
-        "start-mcq-16",
-        "start-mcq-18",
-        "start-mcq-15",
-        "start-mcq-19",
-        "start-mcq-14"
+        "start-mcq-29",
+        "start-mcq-20",
+        "start-mcq-05"
       ],
       "explanation": "本句的「good start」指「某件事情、過程或時期開始的部分／時間點」。",
       "sentenceIndex": 41,
@@ -2064,12 +1898,10 @@ export default {
         "good start"
       ],
       "optionReasons": {
-        "start-mcq-17": "本句指「某件事情、過程或時期開始的部分／時間點」。",
-        "start-mcq-16": "「使爭論、衝突或問題開始發生」是「start an argument/fight」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-15": "「使火開始燃燒；生火或引發火災」是「start a fire」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-14": "「機器本身開始啟動／運轉」是「machine/engine starts」的用法，與本句語境不同。"
+        "start-mcq-17": "本句的「good start」指「某件事情、過程或時期開始的部分／時間點」。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-17"
     },
@@ -2081,11 +1913,9 @@ export default {
       "masked": "A technical problem gave the event a ____.",
       "options": [
         "start-mcq-20",
-        "start-mcq-19",
-        "start-mcq-21",
-        "start-mcq-18",
-        "start-mcq-22",
-        "start-mcq-17"
+        "start-mcq-15",
+        "start-mcq-30",
+        "start-mcq-32"
       ],
       "explanation": "本句的「bad start」指「某項事情最初階段表現順利／不順利」。",
       "sentenceIndex": 42,
@@ -2094,12 +1924,10 @@ export default {
         "bad start"
       ],
       "optionReasons": {
-        "start-mcq-20": "本句指「某項事情最初階段表現順利／不順利」。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。",
-        "start-mcq-17": "「某件事情、過程或時期開始的部分／時間點」是「a start」的用法，與本句語境不同。"
+        "start-mcq-20": "本句的「bad start」指「某項事情最初階段表現順利／不順利」。",
+        "start-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-20"
     },
@@ -2111,11 +1939,9 @@ export default {
       "masked": "Your original sentence is a good ____ for the discussion.",
       "options": [
         "start-mcq-21",
+        "start-mcq-28",
         "start-mcq-20",
-        "start-mcq-22",
-        "start-mcq-19",
-        "start-mcq-23",
-        "start-mcq-18"
+        "start-mcq-32"
       ],
       "explanation": "本句的「starting point」指「某個旅程、分析、討論或過程開始的位置／基礎」。",
       "sentenceIndex": 43,
@@ -2124,12 +1950,10 @@ export default {
         "starting point"
       ],
       "optionReasons": {
-        "start-mcq-21": "本句指「某個旅程、分析、討論或過程開始的位置／基礎」。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。"
+        "start-mcq-21": "本句的「starting point」指「某個旅程、分析、討論或過程開始的位置／基礎」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-21"
     },
@@ -2141,11 +1965,9 @@ export default {
       "masked": "We need a clear ____.",
       "options": [
         "start-mcq-21",
-        "start-mcq-20",
-        "start-mcq-22",
-        "start-mcq-19",
-        "start-mcq-23",
-        "start-mcq-18"
+        "start-mcq-28",
+        "start-mcq-32",
+        "start-mcq-20"
       ],
       "explanation": "本句的「starting point」指「某個旅程、分析、討論或過程開始的位置／基礎」。",
       "sentenceIndex": 44,
@@ -2154,12 +1976,10 @@ export default {
         "starting point"
       ],
       "optionReasons": {
-        "start-mcq-21": "本句指「某個旅程、分析、討論或過程開始的位置／基礎」。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。",
-        "start-mcq-18": "「在某件事情剛開始的時候」是「at the start」的用法，與本句語境不同。"
+        "start-mcq-21": "本句的「starting point」指「某個旅程、分析、討論或過程開始的位置／基礎」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-21"
     },
@@ -2171,11 +1991,9 @@ export default {
       "masked": "The ____ is $40,000.",
       "options": [
         "start-mcq-22",
-        "start-mcq-21",
-        "start-mcq-23",
-        "start-mcq-20",
-        "start-mcq-24",
-        "start-mcq-19"
+        "start-mcq-05",
+        "start-mcq-29",
+        "start-mcq-32"
       ],
       "explanation": "本句的「starting salary」指「某項薪酬／價格最初或最低的起始數值」。",
       "sentenceIndex": 45,
@@ -2184,12 +2002,10 @@ export default {
         "starting salary"
       ],
       "optionReasons": {
-        "start-mcq-22": "本句指「某項薪酬／價格最初或最低的起始數值」。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。"
+        "start-mcq-22": "本句的「starting salary」指「某項薪酬／價格最初或最低的起始數值」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-22"
     },
@@ -2201,11 +2017,9 @@ export default {
       "masked": "The model has a ____ of $500.",
       "options": [
         "start-mcq-22",
-        "start-mcq-21",
-        "start-mcq-23",
-        "start-mcq-20",
-        "start-mcq-24",
-        "start-mcq-19"
+        "start-mcq-05",
+        "start-mcq-30",
+        "start-mcq-32"
       ],
       "explanation": "本句的「starting price」指「某項薪酬／價格最初或最低的起始數值」。",
       "sentenceIndex": 46,
@@ -2214,12 +2028,10 @@ export default {
         "starting price"
       ],
       "optionReasons": {
-        "start-mcq-22": "本句指「某項薪酬／價格最初或最低的起始數值」。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-19": "「從某件事情最初的時候起」是「from the start」的用法，與本句語境不同。"
+        "start-mcq-22": "本句的「starting price」指「某項薪酬／價格最初或最低的起始數值」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-22"
     },
@@ -2231,11 +2043,9 @@ export default {
       "masked": "Return the device to its ____.",
       "options": [
         "start-mcq-37",
-        "start-mcq-36",
-        "start-mcq-35",
-        "start-mcq-34",
-        "start-mcq-33",
-        "start-mcq-32"
+        "start-mcq-19",
+        "start-mcq-30",
+        "start-mcq-28"
       ],
       "explanation": "本句的「starting position」指「某項動作／比賽／系統開始前所處的位置」。",
       "sentenceIndex": 47,
@@ -2244,12 +2054,10 @@ export default {
         "starting position"
       ],
       "optionReasons": {
-        "start-mcq-37": "本句指「某項動作／比賽／系統開始前所處的位置」。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-37": "本句的「starting position」指「某項動作／比賽／系統開始前所處的位置」。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-37"
     },
@@ -2261,11 +2069,9 @@ export default {
       "masked": "The runners moved into their ____.",
       "options": [
         "start-mcq-37",
-        "start-mcq-36",
-        "start-mcq-35",
-        "start-mcq-34",
-        "start-mcq-33",
-        "start-mcq-32"
+        "start-mcq-09",
+        "start-mcq-30",
+        "start-mcq-28"
       ],
       "explanation": "本句的「starting positions」指「某項動作／比賽／系統開始前所處的位置」。",
       "sentenceIndex": 48,
@@ -2274,12 +2080,10 @@ export default {
         "starting positions"
       ],
       "optionReasons": {
-        "start-mcq-37": "本句指「某項動作／比賽／系統開始前所處的位置」。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-37": "本句的「starting positions」指「某項動作／比賽／系統開始前所處的位置」。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-37"
     },
@@ -2291,11 +2095,9 @@ export default {
       "masked": "Practising early gave me a ____.",
       "options": [
         "start-mcq-23",
-        "start-mcq-22",
-        "start-mcq-24",
-        "start-mcq-21",
-        "start-mcq-25",
-        "start-mcq-20"
+        "start-mcq-05",
+        "start-mcq-03",
+        "start-mcq-08"
       ],
       "explanation": "本句的「head start」指「比其他人更早開始或一開始便擁有的優勢」。",
       "sentenceIndex": 49,
@@ -2304,12 +2106,10 @@ export default {
         "head start"
       ],
       "optionReasons": {
-        "start-mcq-23": "本句指「比其他人更早開始或一開始便擁有的優勢」。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-25": "「離開之前的問題／情況，以新的方式重新開始」是「fresh/new start」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。"
+        "start-mcq-23": "本句的「head start」指「比其他人更早開始或一開始便擁有的優勢」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-23"
     },
@@ -2321,11 +2121,9 @@ export default {
       "masked": "Experience gave her a ____ over the other candidates.",
       "options": [
         "start-mcq-23",
-        "start-mcq-22",
-        "start-mcq-24",
-        "start-mcq-21",
-        "start-mcq-25",
-        "start-mcq-20"
+        "start-mcq-32",
+        "start-mcq-09",
+        "start-mcq-03"
       ],
       "explanation": "本句的「head start」指「比其他人更早開始或一開始便擁有的優勢」。",
       "sentenceIndex": 50,
@@ -2334,12 +2132,10 @@ export default {
         "head start"
       ],
       "optionReasons": {
-        "start-mcq-23": "本句指「比其他人更早開始或一開始便擁有的優勢」。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-21": "「某個旅程、分析、討論或過程開始的位置／基礎」是「starting point」的用法，與本句語境不同。",
-        "start-mcq-25": "「離開之前的問題／情況，以新的方式重新開始」是「fresh/new start」的用法，與本句語境不同。",
-        "start-mcq-20": "「某項事情最初階段表現順利／不順利」是「good/bad start」的用法，與本句語境不同。"
+        "start-mcq-23": "本句的「head start」指「比其他人更早開始或一開始便擁有的優勢」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-23"
     },
@@ -2351,11 +2147,9 @@ export default {
       "masked": "The new role gave her a ____.",
       "options": [
         "start-mcq-25",
-        "start-mcq-24",
-        "start-mcq-26",
-        "start-mcq-23",
-        "start-mcq-27",
-        "start-mcq-22"
+        "start-mcq-20",
+        "start-mcq-30",
+        "start-mcq-08"
       ],
       "explanation": "本句的「fresh start」指「離開之前的問題／情況，以新的方式重新開始」。",
       "sentenceIndex": 51,
@@ -2364,12 +2158,10 @@ export default {
         "fresh start"
       ],
       "optionReasons": {
-        "start-mcq-25": "本句指「離開之前的問題／情況，以新的方式重新開始」。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-26": "「不利用原有進度／成果，而從零／最基本狀態開始」是「start from scratch」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。"
+        "start-mcq-25": "本句的「fresh start」指「離開之前的問題／情況，以新的方式重新開始」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-25"
     },
@@ -2381,11 +2173,9 @@ export default {
       "masked": "After the mistake, I treated the next section as a ____.",
       "options": [
         "start-mcq-25",
-        "start-mcq-24",
-        "start-mcq-26",
-        "start-mcq-23",
-        "start-mcq-27",
-        "start-mcq-22"
+        "start-mcq-05",
+        "start-mcq-03",
+        "start-mcq-29"
       ],
       "explanation": "本句的「new start」指「離開之前的問題／情況，以新的方式重新開始」。",
       "sentenceIndex": 52,
@@ -2394,12 +2184,10 @@ export default {
         "new start"
       ],
       "optionReasons": {
-        "start-mcq-25": "本句指「離開之前的問題／情況，以新的方式重新開始」。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-26": "「不利用原有進度／成果，而從零／最基本狀態開始」是「start from scratch」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-22": "「某項薪酬／價格最初或最低的起始數值」是「starting salary/price」的用法，與本句語境不同。"
+        "start-mcq-25": "本句的「new start」指「離開之前的問題／情況，以新的方式重新開始」。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-25"
     },
@@ -2411,11 +2199,9 @@ export default {
       "masked": "We had to ____.",
       "options": [
         "start-mcq-26",
-        "start-mcq-25",
-        "start-mcq-27",
-        "start-mcq-24",
-        "start-mcq-28",
-        "start-mcq-23"
+        "start-mcq-30",
+        "start-mcq-07",
+        "start-mcq-05"
       ],
       "explanation": "本句的「start from scratch」指「不利用原有進度／成果，而從零／最基本狀態開始」。",
       "sentenceIndex": 53,
@@ -2424,12 +2210,10 @@ export default {
         "start from scratch"
       ],
       "optionReasons": {
-        "start-mcq-26": "本句指「不利用原有進度／成果，而從零／最基本狀態開始」。",
-        "start-mcq-25": "「離開之前的問題／情況，以新的方式重新開始」是「fresh/new start」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。"
+        "start-mcq-26": "本句的「start from scratch」指「不利用原有進度／成果，而從零／最基本狀態開始」。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-26"
     },
@@ -2441,11 +2225,9 @@ export default {
       "masked": "I didn’t rewrite everything; I didn’t need to ____.",
       "options": [
         "start-mcq-26",
-        "start-mcq-25",
-        "start-mcq-27",
-        "start-mcq-24",
-        "start-mcq-28",
-        "start-mcq-23"
+        "start-mcq-07",
+        "start-mcq-32",
+        "start-mcq-28"
       ],
       "explanation": "本句的「start from scratch」指「不利用原有進度／成果，而從零／最基本狀態開始」。",
       "sentenceIndex": 54,
@@ -2454,12 +2236,10 @@ export default {
         "start from scratch"
       ],
       "optionReasons": {
-        "start-mcq-26": "本句指「不利用原有進度／成果，而從零／最基本狀態開始」。",
-        "start-mcq-25": "「離開之前的問題／情況，以新的方式重新開始」是「fresh/new start」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-24": "「原本似乎開始，但因錯誤／問題而不能正常繼續的開始」是「false start」的用法，與本句語境不同。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。",
-        "start-mcq-23": "「比其他人更早開始或一開始便擁有的優勢」是「head start」的用法，與本句語境不同。"
+        "start-mcq-26": "本句的「start from scratch」指「不利用原有進度／成果，而從零／最基本狀態開始」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-26"
     },
@@ -2471,11 +2251,9 @@ export default {
       "masked": "Why was it difficult? ____, the audience was huge.",
       "options": [
         "start-mcq-28",
-        "start-mcq-27",
-        "start-mcq-29",
-        "start-mcq-26",
-        "start-mcq-30",
-        "start-mcq-25"
+        "start-mcq-20",
+        "start-mcq-14",
+        "start-mcq-32"
       ],
       "explanation": "本句的「For a start」指「用來提出多個理由／問題中的第一個」。",
       "sentenceIndex": 55,
@@ -2484,12 +2262,10 @@ export default {
         "For a start"
       ],
       "optionReasons": {
-        "start-mcq-28": "本句指「用來提出多個理由／問題中的第一個」。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。",
-        "start-mcq-26": "「不利用原有進度／成果，而從零／最基本狀態開始」是「start from scratch」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-25": "「離開之前的問題／情況，以新的方式重新開始」是「fresh/new start」的用法，與本句語境不同。"
+        "start-mcq-28": "本句的「For a start」指「用來提出多個理由／問題中的第一個」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-28"
     },
@@ -2501,11 +2277,9 @@ export default {
       "masked": "The plan has several problems. ____, it costs too much.",
       "options": [
         "start-mcq-28",
-        "start-mcq-27",
-        "start-mcq-29",
-        "start-mcq-26",
-        "start-mcq-30",
-        "start-mcq-25"
+        "start-mcq-31",
+        "start-mcq-08",
+        "start-mcq-09"
       ],
       "explanation": "本句的「For a start」指「用來提出多個理由／問題中的第一個」。",
       "sentenceIndex": 56,
@@ -2514,12 +2288,10 @@ export default {
         "For a start"
       ],
       "optionReasons": {
-        "start-mcq-28": "本句指「用來提出多個理由／問題中的第一個」。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。",
-        "start-mcq-26": "「不利用原有進度／成果，而從零／最基本狀態開始」是「start from scratch」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-25": "「離開之前的問題／情況，以新的方式重新開始」是「fresh/new start」的用法，與本句語境不同。"
+        "start-mcq-28": "本句的「For a start」指「用來提出多個理由／問題中的第一個」。",
+        "start-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-28"
     },
@@ -2532,10 +2304,8 @@ export default {
       "options": [
         "start-mcq-29",
         "start-mcq-28",
-        "start-mcq-30",
-        "start-mcq-27",
-        "start-mcq-31",
-        "start-mcq-26"
+        "start-mcq-33",
+        "start-mcq-20"
       ],
       "explanation": "本句的「start」指「因突然驚嚇或意外刺激而身體猛然一動」。",
       "sentenceIndex": 57,
@@ -2544,12 +2314,10 @@ export default {
         "start"
       ],
       "optionReasons": {
-        "start-mcq-29": "本句指「因突然驚嚇或意外刺激而身體猛然一動」。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-26": "「不利用原有進度／成果，而從零／最基本狀態開始」是「start from scratch」的用法，與本句語境不同。"
+        "start-mcq-29": "本句的「start」指「因突然驚嚇或意外刺激而身體猛然一動」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-29"
     },
@@ -2561,11 +2329,9 @@ export default {
       "masked": "The sudden noise made him ____.",
       "options": [
         "start-mcq-29",
-        "start-mcq-28",
-        "start-mcq-30",
-        "start-mcq-27",
-        "start-mcq-31",
-        "start-mcq-26"
+        "start-mcq-10",
+        "start-mcq-20",
+        "start-mcq-32"
       ],
       "explanation": "本句的「start」指「因突然驚嚇或意外刺激而身體猛然一動」。",
       "sentenceIndex": 58,
@@ -2574,12 +2340,10 @@ export default {
         "start"
       ],
       "optionReasons": {
-        "start-mcq-29": "本句指「因突然驚嚇或意外刺激而身體猛然一動」。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-26": "「不利用原有進度／成果，而從零／最基本狀態開始」是「start from scratch」的用法，與本句語境不同。"
+        "start-mcq-29": "本句的「start」指「因突然驚嚇或意外刺激而身體猛然一動」。",
+        "start-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-29"
     },
@@ -2591,11 +2355,9 @@ export default {
       "masked": "He looked up ____.",
       "options": [
         "start-mcq-30",
-        "start-mcq-29",
-        "start-mcq-31",
-        "start-mcq-28",
-        "start-mcq-32",
-        "start-mcq-27"
+        "start-mcq-02",
+        "start-mcq-20",
+        "start-mcq-32"
       ],
       "explanation": "本句的「with a start」指「因突如其來的驚訝／驚嚇而猛然一驚」。",
       "sentenceIndex": 59,
@@ -2604,12 +2366,10 @@ export default {
         "with a start"
       ],
       "optionReasons": {
-        "start-mcq-30": "本句指「因突如其來的驚訝／驚嚇而猛然一驚」。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。"
+        "start-mcq-30": "本句的「with a start」指「因突如其來的驚訝／驚嚇而猛然一驚」。",
+        "start-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-30"
     },
@@ -2621,11 +2381,9 @@ export default {
       "masked": "She woke ____ when the phone rang.",
       "options": [
         "start-mcq-30",
-        "start-mcq-29",
-        "start-mcq-31",
-        "start-mcq-28",
-        "start-mcq-32",
-        "start-mcq-27"
+        "start-mcq-14",
+        "start-mcq-05",
+        "start-mcq-09"
       ],
       "explanation": "本句的「with a start」指「因突如其來的驚訝／驚嚇而猛然一驚」。",
       "sentenceIndex": 60,
@@ -2634,12 +2392,10 @@ export default {
         "with a start"
       ],
       "optionReasons": {
-        "start-mcq-30": "本句指「因突如其來的驚訝／驚嚇而猛然一驚」。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-27": "「用來引出第一點，或表示最初的情況」是「to start with」的用法，與本句語境不同。"
+        "start-mcq-30": "本句的「with a start」指「因突如其來的驚訝／驚嚇而猛然一驚」。",
+        "start-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-30"
     },
@@ -2651,11 +2407,9 @@ export default {
       "masked": "The car’s ____ needs replacing.",
       "options": [
         "start-mcq-31",
-        "start-mcq-30",
-        "start-mcq-32",
+        "start-mcq-20",
         "start-mcq-29",
-        "start-mcq-33",
-        "start-mcq-28"
+        "start-mcq-05"
       ],
       "explanation": "本句的「starter」指「負責使某件事／機器開始的人或裝置」。",
       "sentenceIndex": 61,
@@ -2664,12 +2418,10 @@ export default {
         "starter"
       ],
       "optionReasons": {
-        "start-mcq-31": "本句指「負責使某件事／機器開始的人或裝置」。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。"
+        "start-mcq-31": "本句的「starter」指「負責使某件事／機器開始的人或裝置」。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-31"
     },
@@ -2681,10 +2433,8 @@ export default {
       "masked": "The official ____ signaled the beginning of the race.",
       "options": [
         "start-mcq-31",
-        "start-mcq-30",
-        "start-mcq-32",
+        "start-mcq-07",
         "start-mcq-29",
-        "start-mcq-33",
         "start-mcq-28"
       ],
       "explanation": "本句的「starter」指「負責使某件事／機器開始的人或裝置」。",
@@ -2694,12 +2444,10 @@ export default {
         "starter"
       ],
       "optionReasons": {
-        "start-mcq-31": "本句指「負責使某件事／機器開始的人或裝置」。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-28": "「用來提出多個理由／問題中的第一個」是「for a start」的用法，與本句語境不同。"
+        "start-mcq-31": "本句的「starter」指「負責使某件事／機器開始的人或裝置」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-31"
     },
@@ -2711,11 +2459,9 @@ export default {
       "masked": "I ordered soup as a ____.",
       "options": [
         "start-mcq-32",
-        "start-mcq-31",
-        "start-mcq-33",
-        "start-mcq-30",
-        "start-mcq-34",
-        "start-mcq-29"
+        "start-mcq-28",
+        "start-mcq-19",
+        "start-mcq-26"
       ],
       "explanation": "本句的「starter」指「主菜之前先吃的小份前菜／頭盤」。",
       "sentenceIndex": 63,
@@ -2724,12 +2470,10 @@ export default {
         "starter"
       ],
       "optionReasons": {
-        "start-mcq-32": "本句指「主菜之前先吃的小份前菜／頭盤」。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。"
+        "start-mcq-32": "本句的「starter」指「主菜之前先吃的小份前菜／頭盤」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-32"
     },
@@ -2741,11 +2485,9 @@ export default {
       "masked": "Would you like a ____ before the main course?",
       "options": [
         "start-mcq-32",
-        "start-mcq-31",
-        "start-mcq-33",
-        "start-mcq-30",
-        "start-mcq-34",
-        "start-mcq-29"
+        "start-mcq-26",
+        "start-mcq-28",
+        "start-mcq-30"
       ],
       "explanation": "本句的「starter」指「主菜之前先吃的小份前菜／頭盤」。",
       "sentenceIndex": 64,
@@ -2754,12 +2496,10 @@ export default {
         "starter"
       ],
       "optionReasons": {
-        "start-mcq-32": "本句指「主菜之前先吃的小份前菜／頭盤」。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-29": "「因突然驚嚇或意外刺激而身體猛然一動」是「start — sudden movement」的用法，與本句語境不同。"
+        "start-mcq-32": "本句的「starter」指「主菜之前先吃的小份前菜／頭盤」。",
+        "start-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-32"
     },
@@ -2771,11 +2511,9 @@ export default {
       "masked": "He became a regular ____ for the team.",
       "options": [
         "start-mcq-33",
-        "start-mcq-32",
-        "start-mcq-34",
-        "start-mcq-31",
-        "start-mcq-35",
-        "start-mcq-30"
+        "start-mcq-08",
+        "start-mcq-30",
+        "start-mcq-05"
       ],
       "explanation": "本句的「starter」指「比賽一開始便正式參與的正選／先發選手」。",
       "sentenceIndex": 65,
@@ -2784,12 +2522,10 @@ export default {
         "starter"
       ],
       "optionReasons": {
-        "start-mcq-33": "本句指「比賽一開始便正式參與的正選／先發選手」。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。"
+        "start-mcq-33": "本句的「starter」指「比賽一開始便正式參與的正選／先發選手」。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-33"
     },
@@ -2801,11 +2537,9 @@ export default {
       "masked": "Only twelve runners were official ____.",
       "options": [
         "start-mcq-33",
-        "start-mcq-32",
-        "start-mcq-34",
-        "start-mcq-31",
-        "start-mcq-35",
-        "start-mcq-30"
+        "start-mcq-28",
+        "start-mcq-20",
+        "start-mcq-08"
       ],
       "explanation": "本句的「starters」指「比賽一開始便正式參與的正選／先發選手」。",
       "sentenceIndex": 66,
@@ -2814,12 +2548,10 @@ export default {
         "starters"
       ],
       "optionReasons": {
-        "start-mcq-33": "本句指「比賽一開始便正式參與的正選／先發選手」。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-30": "「因突如其來的驚訝／驚嚇而猛然一驚」是「with a start」的用法，與本句語境不同。"
+        "start-mcq-33": "本句的「starters」指「比賽一開始便正式參與的正選／先發選手」。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-33"
     },
@@ -2831,11 +2563,9 @@ export default {
       "masked": "The course includes a beginner’s ____.",
       "options": [
         "start-mcq-34",
-        "start-mcq-33",
-        "start-mcq-35",
         "start-mcq-32",
-        "start-mcq-36",
-        "start-mcq-31"
+        "start-mcq-03",
+        "start-mcq-05"
       ],
       "explanation": "本句的「starter kit」指「為剛開始學習／使用者而設的基本入門版本」。",
       "sentenceIndex": 67,
@@ -2844,12 +2574,10 @@ export default {
         "starter kit"
       ],
       "optionReasons": {
-        "start-mcq-34": "本句指「為剛開始學習／使用者而設的基本入門版本」。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。"
+        "start-mcq-34": "本句的「starter kit」指「為剛開始學習／使用者而設的基本入門版本」。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-34"
     },
@@ -2861,11 +2589,9 @@ export default {
       "masked": "The software offers a free ____.",
       "options": [
         "start-mcq-34",
-        "start-mcq-33",
-        "start-mcq-35",
+        "start-mcq-07",
         "start-mcq-32",
-        "start-mcq-36",
-        "start-mcq-31"
+        "start-mcq-05"
       ],
       "explanation": "本句的「starter plan」指「為剛開始學習／使用者而設的基本入門版本」。",
       "sentenceIndex": 68,
@@ -2874,12 +2600,10 @@ export default {
         "starter plan"
       ],
       "optionReasons": {
-        "start-mcq-34": "本句指「為剛開始學習／使用者而設的基本入門版本」。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-35": "「在停止、中斷或失敗後再次開始活動／系統」是「restart」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-31": "「負責使某件事／機器開始的人或裝置」是「starter — machine/person」的用法，與本句語境不同。"
+        "start-mcq-34": "本句的「starter plan」指「為剛開始學習／使用者而設的基本入門版本」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-34"
     },
@@ -2891,11 +2615,9 @@ export default {
       "masked": "I made a mistake but did not need to ____ the presentation.",
       "options": [
         "start-mcq-35",
-        "start-mcq-34",
-        "start-mcq-36",
-        "start-mcq-33",
-        "start-mcq-37",
-        "start-mcq-32"
+        "start-mcq-07",
+        "start-mcq-19",
+        "start-mcq-28"
       ],
       "explanation": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
       "sentenceIndex": 69,
@@ -2904,12 +2626,10 @@ export default {
         "restart"
       ],
       "optionReasons": {
-        "start-mcq-35": "本句指「在停止、中斷或失敗後再次開始活動／系統」。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-37": "「某項動作／比賽／系統開始前所處的位置」是「24. starting position（起始位置） — 起點位置；初始位置」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-35": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
+        "start-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-35"
     },
@@ -2921,11 +2641,9 @@ export default {
       "masked": "Please ____ the computer.",
       "options": [
         "start-mcq-35",
-        "start-mcq-34",
-        "start-mcq-36",
-        "start-mcq-33",
-        "start-mcq-37",
-        "start-mcq-32"
+        "start-mcq-08",
+        "start-mcq-32",
+        "start-mcq-09"
       ],
       "explanation": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
       "sentenceIndex": 70,
@@ -2934,12 +2652,10 @@ export default {
         "restart"
       ],
       "optionReasons": {
-        "start-mcq-35": "本句指「在停止、中斷或失敗後再次開始活動／系統」。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-37": "「某項動作／比賽／系統開始前所處的位置」是「24. starting position（起始位置） — 起點位置；初始位置」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-35": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
+        "start-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-35"
     },
@@ -2951,10 +2667,8 @@ export default {
       "masked": "The system requires a ____.",
       "options": [
         "start-mcq-35",
-        "start-mcq-34",
-        "start-mcq-36",
-        "start-mcq-33",
-        "start-mcq-37",
+        "start-mcq-09",
+        "start-mcq-28",
         "start-mcq-32"
       ],
       "explanation": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
@@ -2964,12 +2678,10 @@ export default {
         "restart"
       ],
       "optionReasons": {
-        "start-mcq-35": "本句指「在停止、中斷或失敗後再次開始活動／系統」。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-37": "「某項動作／比賽／系統開始前所處的位置」是「24. starting position（起始位置） — 起點位置；初始位置」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-35": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
+        "start-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-35"
     },
@@ -2981,11 +2693,9 @@ export default {
       "masked": "The referee ordered a ____ of the game.",
       "options": [
         "start-mcq-35",
-        "start-mcq-34",
-        "start-mcq-36",
-        "start-mcq-33",
-        "start-mcq-37",
-        "start-mcq-32"
+        "start-mcq-19",
+        "start-mcq-30",
+        "start-mcq-28"
       ],
       "explanation": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
       "sentenceIndex": 72,
@@ -2994,12 +2704,10 @@ export default {
         "restart"
       ],
       "optionReasons": {
-        "start-mcq-35": "本句指「在停止、中斷或失敗後再次開始活動／系統」。",
-        "start-mcq-34": "「為剛開始學習／使用者而設的基本入門版本」是「starter kit/plan」的用法，與本句語境不同。",
-        "start-mcq-36": "「觸發某人開始某個動作／思考過程」是「17. start = cause someone to begin doing something（令某人開始） — 使開始」的用法，與本句語境不同。",
-        "start-mcq-33": "「比賽一開始便正式參與的正選／先發選手」是「starter — sport」的用法，與本句語境不同。",
-        "start-mcq-37": "「某項動作／比賽／系統開始前所處的位置」是「24. starting position（起始位置） — 起點位置；初始位置」的用法，與本句語境不同。",
-        "start-mcq-32": "「主菜之前先吃的小份前菜／頭盤」是「starter — food」的用法，與本句語境不同。"
+        "start-mcq-35": "本句的「restart」指「在停止、中斷或失敗後再次開始活動／系統」。",
+        "start-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "start-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "start-mcq-35"
     }
@@ -3011,5 +2719,7 @@ export default {
     "sha256": "6cb7f4c7494069bd1b0ebc0143d9773bbb5347be3fb71d3fcbe3829e3b425dce",
     "pages": 33
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

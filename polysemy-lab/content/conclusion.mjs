@@ -646,11 +646,9 @@ export default {
       "masked": "He had ____.",
       "options": [
         "conclusion-mcq-01",
-        "conclusion-mcq-02",
-        "conclusion-mcq-03",
-        "conclusion-mcq-04",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-28",
+        "conclusion-mcq-21",
+        "conclusion-mcq-22"
       ],
       "explanation": "本句的「jumped to conclusions」指「結論；判斷」。",
       "sentenceIndex": 0,
@@ -659,12 +657,10 @@ export default {
         "jumped to conclusions"
       ],
       "optionReasons": {
-        "conclusion-mcq-01": "本句指「結論；判斷」。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-01": "本句的「jumped to conclusions」指「結論；判斷」。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-01"
     },
@@ -676,11 +672,9 @@ export default {
       "masked": "We reached the ____ that the file had been uploaded correctly.",
       "options": [
         "conclusion-mcq-01",
-        "conclusion-mcq-02",
-        "conclusion-mcq-03",
-        "conclusion-mcq-04",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-21",
+        "conclusion-mcq-28",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「conclusion」指「結論；判斷」。",
       "sentenceIndex": 1,
@@ -689,12 +683,10 @@ export default {
         "conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-01": "本句指「結論；判斷」。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-01": "本句的「conclusion」指「結論；判斷」。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-01"
     },
@@ -706,11 +698,9 @@ export default {
       "masked": "That ____ was based on incomplete information.",
       "options": [
         "conclusion-mcq-01",
-        "conclusion-mcq-02",
-        "conclusion-mcq-03",
-        "conclusion-mcq-04",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-18",
+        "conclusion-mcq-09",
+        "conclusion-mcq-26"
       ],
       "explanation": "本句的「conclusion」指「結論；判斷」。",
       "sentenceIndex": 2,
@@ -719,12 +709,10 @@ export default {
         "conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-01": "本句指「結論；判斷」。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-01": "本句的「conclusion」指「結論；判斷」。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-01"
     },
@@ -736,11 +724,9 @@ export default {
       "masked": "We ____ that there had been a misunderstanding.",
       "options": [
         "conclusion-mcq-02",
-        "conclusion-mcq-01",
-        "conclusion-mcq-03",
-        "conclusion-mcq-04",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-11",
+        "conclusion-mcq-28",
+        "conclusion-mcq-21"
       ],
       "explanation": "本句的「reached the conclusion」指「得出結論」。",
       "sentenceIndex": 3,
@@ -749,12 +735,10 @@ export default {
         "reached the conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-02": "本句指「得出結論」。",
-        "conclusion-mcq-01": "「結論；判斷」是「conclusion (judgment)」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-02": "本句的「reached the conclusion」指「得出結論」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-02"
     },
@@ -766,11 +750,8 @@ export default {
       "masked": "She ____ that she needed more time.",
       "options": [
         "conclusion-mcq-02",
-        "conclusion-mcq-01",
-        "conclusion-mcq-03",
-        "conclusion-mcq-04",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-18",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「came to the conclusion」指「得出結論」。",
       "sentenceIndex": 4,
@@ -779,12 +760,9 @@ export default {
         "came to the conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-02": "本句指「得出結論」。",
-        "conclusion-mcq-01": "「結論；判斷」是「conclusion (judgment)」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-02": "本句的「came to the conclusion」指「得出結論」。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-02"
     },
@@ -796,11 +774,8 @@ export default {
       "masked": "It is too early to ____.",
       "options": [
         "conclusion-mcq-03",
-        "conclusion-mcq-02",
-        "conclusion-mcq-04",
-        "conclusion-mcq-01",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-08",
+        "conclusion-mcq-18"
       ],
       "explanation": "本句的「draw a conclusion」指「作出推論」。",
       "sentenceIndex": 5,
@@ -809,12 +784,9 @@ export default {
         "draw a conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-03": "本句指「作出推論」。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-01": "「結論；判斷」是「conclusion (judgment)」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-03": "本句的「draw a conclusion」指「作出推論」。",
+        "conclusion-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-03"
     },
@@ -826,11 +798,9 @@ export default {
       "masked": "What conclusion can we ____?",
       "options": [
         "conclusion-mcq-03",
-        "conclusion-mcq-02",
-        "conclusion-mcq-04",
-        "conclusion-mcq-01",
-        "conclusion-mcq-05",
-        "conclusion-mcq-06"
+        "conclusion-mcq-26",
+        "conclusion-mcq-18",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「draw from the evidence」指「作出推論」。",
       "sentenceIndex": 6,
@@ -839,12 +809,10 @@ export default {
         "draw from the evidence"
       ],
       "optionReasons": {
-        "conclusion-mcq-03": "本句指「作出推論」。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-01": "「結論；判斷」是「conclusion (judgment)」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-03": "本句的「draw from the evidence」指「作出推論」。",
+        "conclusion-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-03"
     },
@@ -856,11 +824,9 @@ export default {
       "masked": "He admitted that he had ____.",
       "options": [
         "conclusion-mcq-04",
-        "conclusion-mcq-03",
-        "conclusion-mcq-05",
-        "conclusion-mcq-02",
-        "conclusion-mcq-06",
-        "conclusion-mcq-01"
+        "conclusion-mcq-20",
+        "conclusion-mcq-17",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「jumped to conclusions」指「妄下結論」。",
       "sentenceIndex": 7,
@@ -869,12 +835,10 @@ export default {
         "jumped to conclusions"
       ],
       "optionReasons": {
-        "conclusion-mcq-04": "本句指「妄下結論」。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-01": "「結論；判斷」是「conclusion (judgment)」的用法，與本句語境不同。"
+        "conclusion-mcq-04": "本句的「jumped to conclusions」指「妄下結論」。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-04"
     },
@@ -886,11 +850,9 @@ export default {
       "masked": "Don't ____ before checking the facts.",
       "options": [
         "conclusion-mcq-04",
-        "conclusion-mcq-03",
-        "conclusion-mcq-05",
-        "conclusion-mcq-02",
-        "conclusion-mcq-06",
-        "conclusion-mcq-01"
+        "conclusion-mcq-17",
+        "conclusion-mcq-20",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「jump to conclusions」指「妄下結論」。",
       "sentenceIndex": 8,
@@ -899,12 +861,10 @@ export default {
         "jump to conclusions"
       ],
       "optionReasons": {
-        "conclusion-mcq-04": "本句指「妄下結論」。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-01": "「結論；判斷」是「conclusion (judgment)」的用法，與本句語境不同。"
+        "conclusion-mcq-04": "本句的「jump to conclusions」指「妄下結論」。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-04"
     },
@@ -916,11 +876,9 @@ export default {
       "masked": "That seems like the most ____.",
       "options": [
         "conclusion-mcq-05",
-        "conclusion-mcq-04",
-        "conclusion-mcq-06",
-        "conclusion-mcq-03",
-        "conclusion-mcq-07",
-        "conclusion-mcq-02"
+        "conclusion-mcq-21",
+        "conclusion-mcq-28",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「logical conclusion」指「合理結論」。",
       "sentenceIndex": 9,
@@ -929,12 +887,10 @@ export default {
         "logical conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-05": "本句指「合理結論」。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-05": "本句的「logical conclusion」指「合理結論」。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-05"
     },
@@ -946,11 +902,9 @@ export default {
       "masked": "The ____ is that the data is incomplete.",
       "options": [
         "conclusion-mcq-05",
-        "conclusion-mcq-04",
-        "conclusion-mcq-06",
-        "conclusion-mcq-03",
-        "conclusion-mcq-07",
-        "conclusion-mcq-02"
+        "conclusion-mcq-21",
+        "conclusion-mcq-28",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「logical conclusion」指「合理結論」。",
       "sentenceIndex": 10,
@@ -959,12 +913,10 @@ export default {
         "logical conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-05": "本句指「合理結論」。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-02": "「得出結論」是「reach a conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-05": "本句的「logical conclusion」指「合理結論」。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-05"
     },
@@ -976,11 +928,9 @@ export default {
       "masked": "The essay needs a stronger ____.",
       "options": [
         "conclusion-mcq-06",
-        "conclusion-mcq-05",
-        "conclusion-mcq-07",
-        "conclusion-mcq-04",
-        "conclusion-mcq-08",
-        "conclusion-mcq-03"
+        "conclusion-mcq-17",
+        "conclusion-mcq-20",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusion」指「結論部分」。",
       "sentenceIndex": 11,
@@ -989,12 +939,10 @@ export default {
         "conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-06": "本句指「結論部分」。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-06": "本句的「conclusion」指「結論部分」。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-06"
     },
@@ -1006,11 +954,9 @@ export default {
       "masked": "In the ____, she summarizes her main argument.",
       "options": [
         "conclusion-mcq-06",
-        "conclusion-mcq-05",
-        "conclusion-mcq-07",
-        "conclusion-mcq-04",
-        "conclusion-mcq-08",
-        "conclusion-mcq-03"
+        "conclusion-mcq-11",
+        "conclusion-mcq-17",
+        "conclusion-mcq-20"
       ],
       "explanation": "本句的「conclusion」指「結論部分」。",
       "sentenceIndex": 12,
@@ -1019,12 +965,10 @@ export default {
         "conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-06": "本句指「結論部分」。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-03": "「作出推論」是「draw a conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-06": "本句的「conclusion」指「結論部分」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-06"
     },
@@ -1036,11 +980,9 @@ export default {
       "masked": "____, the project was successful.",
       "options": [
         "conclusion-mcq-07",
-        "conclusion-mcq-06",
-        "conclusion-mcq-08",
-        "conclusion-mcq-05",
-        "conclusion-mcq-09",
-        "conclusion-mcq-04"
+        "conclusion-mcq-18",
+        "conclusion-mcq-03",
+        "conclusion-mcq-09"
       ],
       "explanation": "本句的「In conclusion」指「總結來說」。",
       "sentenceIndex": 13,
@@ -1049,12 +991,10 @@ export default {
         "In conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-07": "本句指「總結來說」。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。"
+        "conclusion-mcq-07": "本句的「In conclusion」指「總結來說」。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-07"
     },
@@ -1066,11 +1006,9 @@ export default {
       "masked": "____, we need better communication.",
       "options": [
         "conclusion-mcq-07",
-        "conclusion-mcq-06",
-        "conclusion-mcq-08",
-        "conclusion-mcq-05",
-        "conclusion-mcq-09",
-        "conclusion-mcq-04"
+        "conclusion-mcq-22",
+        "conclusion-mcq-18",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「In conclusion」指「總結來說」。",
       "sentenceIndex": 14,
@@ -1079,12 +1017,10 @@ export default {
         "In conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-07": "本句指「總結來說」。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-04": "「妄下結論」是「jump to conclusions」的用法，與本句語境不同。"
+        "conclusion-mcq-07": "本句的「In conclusion」指「總結來說」。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-07"
     },
@@ -1096,11 +1032,9 @@ export default {
       "masked": "The agreement marked the ____.",
       "options": [
         "conclusion-mcq-08",
-        "conclusion-mcq-07",
-        "conclusion-mcq-09",
-        "conclusion-mcq-06",
-        "conclusion-mcq-10",
-        "conclusion-mcq-05"
+        "conclusion-mcq-20",
+        "conclusion-mcq-23",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusion of the negotiations」指「結束」。",
       "sentenceIndex": 15,
@@ -1109,12 +1043,10 @@ export default {
         "conclusion of the negotiations"
       ],
       "optionReasons": {
-        "conclusion-mcq-08": "本句指「結束」。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-08": "本句的「conclusion of the negotiations」指「結束」。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-08"
     },
@@ -1126,11 +1058,9 @@ export default {
       "masked": "At the ____, everyone left.",
       "options": [
         "conclusion-mcq-08",
-        "conclusion-mcq-07",
-        "conclusion-mcq-09",
-        "conclusion-mcq-06",
-        "conclusion-mcq-10",
-        "conclusion-mcq-05"
+        "conclusion-mcq-21",
+        "conclusion-mcq-28",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusion of the meeting」指「結束」。",
       "sentenceIndex": 16,
@@ -1139,12 +1069,10 @@ export default {
         "conclusion of the meeting"
       ],
       "optionReasons": {
-        "conclusion-mcq-08": "本句指「結束」。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-05": "「合理結論」是「logical conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-08": "本句的「conclusion of the meeting」指「結束」。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-08"
     },
@@ -1156,11 +1084,9 @@ export default {
       "masked": "The result was not a ____.",
       "options": [
         "conclusion-mcq-09",
-        "conclusion-mcq-08",
-        "conclusion-mcq-10",
-        "conclusion-mcq-07",
         "conclusion-mcq-11",
-        "conclusion-mcq-06"
+        "conclusion-mcq-21",
+        "conclusion-mcq-14"
       ],
       "explanation": "本句的「foregone conclusion」指「早已成定局的結果」。",
       "sentenceIndex": 17,
@@ -1169,12 +1095,10 @@ export default {
         "foregone conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-09": "本句指「早已成定局的結果」。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-09": "本句的「foregone conclusion」指「早已成定局的結果」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-09"
     },
@@ -1186,11 +1110,9 @@ export default {
       "masked": "Many people treated the decision as a ____.",
       "options": [
         "conclusion-mcq-09",
-        "conclusion-mcq-08",
-        "conclusion-mcq-10",
-        "conclusion-mcq-07",
-        "conclusion-mcq-11",
-        "conclusion-mcq-06"
+        "conclusion-mcq-18",
+        "conclusion-mcq-03",
+        "conclusion-mcq-14"
       ],
       "explanation": "本句的「foregone conclusion」指「早已成定局的結果」。",
       "sentenceIndex": 18,
@@ -1199,12 +1121,10 @@ export default {
         "foregone conclusion"
       ],
       "optionReasons": {
-        "conclusion-mcq-09": "本句指「早已成定局的結果」。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-06": "「結論部分」是「conclusion (writing)」的用法，與本句語境不同。"
+        "conclusion-mcq-09": "本句的「foregone conclusion」指「早已成定局的結果」。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-09"
     },
@@ -1216,11 +1136,9 @@ export default {
       "masked": "Kevin ____ I had not uploaded the file.",
       "options": [
         "conclusion-mcq-10",
-        "conclusion-mcq-09",
-        "conclusion-mcq-11",
-        "conclusion-mcq-08",
-        "conclusion-mcq-07",
-        "conclusion-mcq-13"
+        "conclusion-mcq-28",
+        "conclusion-mcq-21",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluded that」指「得出結論認為……」。",
       "sentenceIndex": 19,
@@ -1229,12 +1147,10 @@ export default {
         "concluded that"
       ],
       "optionReasons": {
-        "conclusion-mcq-10": "本句指「得出結論認為……」。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。"
+        "conclusion-mcq-10": "本句的「concluded that」指「得出結論認為……」。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-10"
     },
@@ -1246,11 +1162,9 @@ export default {
       "masked": "The researchers ____ the treatment was effective.",
       "options": [
         "conclusion-mcq-10",
-        "conclusion-mcq-09",
+        "conclusion-mcq-18",
         "conclusion-mcq-11",
-        "conclusion-mcq-08",
-        "conclusion-mcq-07",
-        "conclusion-mcq-13"
+        "conclusion-mcq-27"
       ],
       "explanation": "本句的「concluded that」指「得出結論認為……」。",
       "sentenceIndex": 20,
@@ -1259,12 +1173,10 @@ export default {
         "concluded that"
       ],
       "optionReasons": {
-        "conclusion-mcq-10": "本句指「得出結論認為……」。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-08": "「結束」是「conclusion (ending)」的用法，與本句語境不同。",
-        "conclusion-mcq-07": "「總結來說」是「in conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。"
+        "conclusion-mcq-10": "本句的「concluded that」指「得出結論認為……」。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-10"
     },
@@ -1276,11 +1188,9 @@ export default {
       "masked": "He ____ that the work was missing.",
       "options": [
         "conclusion-mcq-11",
-        "conclusion-mcq-10",
-        "conclusion-mcq-12",
+        "conclusion-mcq-28",
         "conclusion-mcq-09",
-        "conclusion-mcq-13",
-        "conclusion-mcq-14"
+        "conclusion-mcq-10"
       ],
       "explanation": "本句的「concluded from the empty folder」指「從 X 推斷」。",
       "sentenceIndex": 21,
@@ -1289,12 +1199,10 @@ export default {
         "concluded from the empty folder"
       ],
       "optionReasons": {
-        "conclusion-mcq-11": "本句指「從 X 推斷」。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。"
+        "conclusion-mcq-11": "本句的「concluded from the empty folder」指「從 X 推斷」。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-11"
     },
@@ -1307,10 +1215,8 @@ export default {
       "options": [
         "conclusion-mcq-11",
         "conclusion-mcq-10",
-        "conclusion-mcq-12",
-        "conclusion-mcq-09",
-        "conclusion-mcq-13",
-        "conclusion-mcq-14"
+        "conclusion-mcq-27",
+        "conclusion-mcq-18"
       ],
       "explanation": "本句的「conclude from these results」指「從 X 推斷」。",
       "sentenceIndex": 22,
@@ -1319,12 +1225,10 @@ export default {
         "conclude from these results"
       ],
       "optionReasons": {
-        "conclusion-mcq-11": "本句指「從 X 推斷」。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。"
+        "conclusion-mcq-11": "本句的「conclude from these results」指「從 X 推斷」。",
+        "conclusion-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-11"
     },
@@ -1336,11 +1240,9 @@ export default {
       "masked": "The meeting ____ at six.",
       "options": [
         "conclusion-mcq-12",
-        "conclusion-mcq-11",
-        "conclusion-mcq-13",
-        "conclusion-mcq-10",
-        "conclusion-mcq-14",
-        "conclusion-mcq-09"
+        "conclusion-mcq-20",
+        "conclusion-mcq-22",
+        "conclusion-mcq-17"
       ],
       "explanation": "本句的「concluded」指「結束」。",
       "sentenceIndex": 23,
@@ -1349,12 +1251,10 @@ export default {
         "concluded"
       ],
       "optionReasons": {
-        "conclusion-mcq-12": "本句指「結束」。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-12": "本句的「concluded」指「結束」。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-12"
     },
@@ -1366,11 +1266,9 @@ export default {
       "masked": "The speaker ____ with a short summary.",
       "options": [
         "conclusion-mcq-12",
-        "conclusion-mcq-11",
-        "conclusion-mcq-13",
-        "conclusion-mcq-10",
-        "conclusion-mcq-14",
-        "conclusion-mcq-09"
+        "conclusion-mcq-22",
+        "conclusion-mcq-18",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluded the presentation」指「結束」。",
       "sentenceIndex": 24,
@@ -1379,12 +1277,10 @@ export default {
         "concluded the presentation"
       ],
       "optionReasons": {
-        "conclusion-mcq-12": "本句指「結束」。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-09": "「早已成定局的結果」是「foregone conclusion」的用法，與本句語境不同。"
+        "conclusion-mcq-12": "本句的「concluded the presentation」指「結束」。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-12"
     },
@@ -1396,11 +1292,9 @@ export default {
       "masked": "The presentation ____ a question-and-answer session.",
       "options": [
         "conclusion-mcq-13",
-        "conclusion-mcq-12",
-        "conclusion-mcq-14",
-        "conclusion-mcq-11",
-        "conclusion-mcq-15",
-        "conclusion-mcq-10"
+        "conclusion-mcq-28",
+        "conclusion-mcq-21",
+        "conclusion-mcq-22"
       ],
       "explanation": "本句的「concluded with」指「以 X 作結」。",
       "sentenceIndex": 25,
@@ -1409,12 +1303,10 @@ export default {
         "concluded with"
       ],
       "optionReasons": {
-        "conclusion-mcq-13": "本句指「以 X 作結」。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。"
+        "conclusion-mcq-13": "本句的「concluded with」指「以 X 作結」。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-13"
     },
@@ -1426,11 +1318,9 @@ export default {
       "masked": "The letter ____ a brief apology.",
       "options": [
         "conclusion-mcq-13",
-        "conclusion-mcq-12",
-        "conclusion-mcq-14",
-        "conclusion-mcq-11",
-        "conclusion-mcq-15",
-        "conclusion-mcq-10"
+        "conclusion-mcq-23",
+        "conclusion-mcq-20",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluded with」指「以 X 作結」。",
       "sentenceIndex": 26,
@@ -1439,12 +1329,10 @@ export default {
         "concluded with"
       ],
       "optionReasons": {
-        "conclusion-mcq-13": "本句指「以 X 作結」。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-10": "「得出結論認為……」是「conclude that...」的用法，與本句語境不同。"
+        "conclusion-mcq-13": "本句的「concluded with」指「以 X 作結」。",
+        "conclusion-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-13"
     },
@@ -1456,11 +1344,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "conclusion-mcq-14",
-        "conclusion-mcq-13",
-        "conclusion-mcq-15",
-        "conclusion-mcq-12",
-        "conclusion-mcq-16",
-        "conclusion-mcq-11"
+        "conclusion-mcq-22",
+        "conclusion-mcq-28",
+        "conclusion-mcq-21"
       ],
       "explanation": "本句的「concluded by thanking everyone」指「最後以做 X 作結」。",
       "sentenceIndex": 27,
@@ -1469,12 +1355,10 @@ export default {
         "concluded by thanking everyone"
       ],
       "optionReasons": {
-        "conclusion-mcq-14": "本句指「最後以做 X 作結」。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。"
+        "conclusion-mcq-14": "本句的「concluded by thanking everyone」指「最後以做 X 作結」。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-14"
     },
@@ -1486,10 +1370,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "conclusion-mcq-14",
-        "conclusion-mcq-13",
-        "conclusion-mcq-15",
-        "conclusion-mcq-12",
-        "conclusion-mcq-16",
+        "conclusion-mcq-22",
+        "conclusion-mcq-28",
         "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluded by summarizing the main points」指「最後以做 X 作結」。",
@@ -1499,12 +1381,10 @@ export default {
         "concluded by summarizing the main points"
       ],
       "optionReasons": {
-        "conclusion-mcq-14": "本句指「最後以做 X 作結」。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-11": "「從 X 推斷」是「conclude from X」的用法，與本句語境不同。"
+        "conclusion-mcq-14": "本句的「concluded by summarizing the main points」指「最後以做 X 作結」。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-14"
     },
@@ -1516,11 +1396,9 @@ export default {
       "masked": "The two sides ____.",
       "options": [
         "conclusion-mcq-15",
-        "conclusion-mcq-14",
-        "conclusion-mcq-16",
-        "conclusion-mcq-13",
-        "conclusion-mcq-17",
-        "conclusion-mcq-12"
+        "conclusion-mcq-28",
+        "conclusion-mcq-22",
+        "conclusion-mcq-21"
       ],
       "explanation": "本句的「concluded an agreement」指「達成／締結協議」。",
       "sentenceIndex": 29,
@@ -1529,12 +1407,10 @@ export default {
         "concluded an agreement"
       ],
       "optionReasons": {
-        "conclusion-mcq-15": "本句指「達成／締結協議」。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。"
+        "conclusion-mcq-15": "本句的「concluded an agreement」指「達成／締結協議」。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-15"
     },
@@ -1546,11 +1422,9 @@ export default {
       "masked": "The company ____ last week.",
       "options": [
         "conclusion-mcq-15",
-        "conclusion-mcq-14",
         "conclusion-mcq-16",
-        "conclusion-mcq-13",
-        "conclusion-mcq-17",
-        "conclusion-mcq-12"
+        "conclusion-mcq-21",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluded the deal」指「達成／締結協議」。",
       "sentenceIndex": 30,
@@ -1559,12 +1433,10 @@ export default {
         "concluded the deal"
       ],
       "optionReasons": {
-        "conclusion-mcq-15": "本句指「達成／締結協議」。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。"
+        "conclusion-mcq-15": "本句的「concluded the deal」指「達成／締結協議」。",
+        "conclusion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-15"
     },
@@ -1576,11 +1448,9 @@ export default {
       "masked": "The ____ took several months.",
       "options": [
         "conclusion-mcq-15",
-        "conclusion-mcq-14",
-        "conclusion-mcq-16",
-        "conclusion-mcq-13",
-        "conclusion-mcq-17",
-        "conclusion-mcq-12"
+        "conclusion-mcq-20",
+        "conclusion-mcq-22",
+        "conclusion-mcq-17"
       ],
       "explanation": "本句的「conclusion of the agreement」指「達成／締結協議」。",
       "sentenceIndex": 31,
@@ -1589,12 +1459,10 @@ export default {
         "conclusion of the agreement"
       ],
       "optionReasons": {
-        "conclusion-mcq-15": "本句指「達成／締結協議」。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。"
+        "conclusion-mcq-15": "本句的「conclusion of the agreement」指「達成／締結協議」。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-15"
     },
@@ -1606,11 +1474,9 @@ export default {
       "masked": "We are waiting for the ____.",
       "options": [
         "conclusion-mcq-15",
-        "conclusion-mcq-14",
-        "conclusion-mcq-16",
-        "conclusion-mcq-13",
-        "conclusion-mcq-17",
-        "conclusion-mcq-12"
+        "conclusion-mcq-23",
+        "conclusion-mcq-20",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusion of the process」指「達成／締結協議」。",
       "sentenceIndex": 32,
@@ -1619,12 +1485,10 @@ export default {
         "conclusion of the process"
       ],
       "optionReasons": {
-        "conclusion-mcq-15": "本句指「達成／締結協議」。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-12": "「結束」是「conclude (end)」的用法，與本句語境不同。"
+        "conclusion-mcq-15": "本句的「conclusion of the process」指「達成／締結協議」。",
+        "conclusion-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-15"
     },
@@ -1636,11 +1500,9 @@ export default {
       "masked": "There was no ____.",
       "options": [
         "conclusion-mcq-16",
+        "conclusion-mcq-27",
         "conclusion-mcq-15",
-        "conclusion-mcq-17",
-        "conclusion-mcq-14",
-        "conclusion-mcq-18",
-        "conclusion-mcq-13"
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusive evidence」指「確鑿的；足以定論的」。",
       "sentenceIndex": 33,
@@ -1649,12 +1511,10 @@ export default {
         "conclusive evidence"
       ],
       "optionReasons": {
-        "conclusion-mcq-16": "本句指「確鑿的；足以定論的」。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。"
+        "conclusion-mcq-16": "本句的「conclusive evidence」指「確鑿的；足以定論的」。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-16"
     },
@@ -1666,11 +1526,9 @@ export default {
       "masked": "The test produced a ____.",
       "options": [
         "conclusion-mcq-16",
+        "conclusion-mcq-27",
         "conclusion-mcq-15",
-        "conclusion-mcq-17",
-        "conclusion-mcq-14",
-        "conclusion-mcq-18",
-        "conclusion-mcq-13"
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusive result」指「確鑿的；足以定論的」。",
       "sentenceIndex": 34,
@@ -1679,12 +1537,10 @@ export default {
         "conclusive result"
       ],
       "optionReasons": {
-        "conclusion-mcq-16": "本句指「確鑿的；足以定論的」。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-13": "「以 X 作結」是「conclude with X」的用法，與本句語境不同。"
+        "conclusion-mcq-16": "本句的「conclusive result」指「確鑿的；足以定論的」。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-16"
     },
@@ -1696,11 +1552,9 @@ export default {
       "masked": "The investigators found no ____ of wrongdoing.",
       "options": [
         "conclusion-mcq-17",
-        "conclusion-mcq-16",
-        "conclusion-mcq-18",
+        "conclusion-mcq-07",
         "conclusion-mcq-15",
-        "conclusion-mcq-19",
-        "conclusion-mcq-14"
+        "conclusion-mcq-19"
       ],
       "explanation": "本句的「conclusive evidence」指「確鑿證據」。",
       "sentenceIndex": 35,
@@ -1709,12 +1563,10 @@ export default {
         "conclusive evidence"
       ],
       "optionReasons": {
-        "conclusion-mcq-17": "本句指「確鑿證據」。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。"
+        "conclusion-mcq-17": "本句的「conclusive evidence」指「確鑿證據」。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-17"
     },
@@ -1726,11 +1578,9 @@ export default {
       "masked": "One screenshot is not necessarily ____.",
       "options": [
         "conclusion-mcq-17",
-        "conclusion-mcq-16",
-        "conclusion-mcq-18",
-        "conclusion-mcq-15",
-        "conclusion-mcq-19",
-        "conclusion-mcq-14"
+        "conclusion-mcq-01",
+        "conclusion-mcq-07",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「conclusive evidence」指「確鑿證據」。",
       "sentenceIndex": 36,
@@ -1739,12 +1589,10 @@ export default {
         "conclusive evidence"
       ],
       "optionReasons": {
-        "conclusion-mcq-17": "本句指「確鑿證據」。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-14": "「最後以做 X 作結」是「conclude by doing X」的用法，與本句語境不同。"
+        "conclusion-mcq-17": "本句的「conclusive evidence」指「確鑿證據」。",
+        "conclusion-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-17"
     },
@@ -1756,11 +1604,9 @@ export default {
       "masked": "The document provided ____.",
       "options": [
         "conclusion-mcq-18",
-        "conclusion-mcq-17",
-        "conclusion-mcq-19",
-        "conclusion-mcq-16",
-        "conclusion-mcq-20",
-        "conclusion-mcq-15"
+        "conclusion-mcq-10",
+        "conclusion-mcq-11",
+        "conclusion-mcq-07"
       ],
       "explanation": "本句的「conclusive proof」指「確證」。",
       "sentenceIndex": 37,
@@ -1769,12 +1615,10 @@ export default {
         "conclusive proof"
       ],
       "optionReasons": {
-        "conclusion-mcq-18": "本句指「確證」。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。"
+        "conclusion-mcq-18": "本句的「conclusive proof」指「確證」。",
+        "conclusion-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-18"
     },
@@ -1786,10 +1630,8 @@ export default {
       "masked": "We still lack ____ that the claim is true.",
       "options": [
         "conclusion-mcq-18",
-        "conclusion-mcq-17",
-        "conclusion-mcq-19",
-        "conclusion-mcq-16",
-        "conclusion-mcq-20",
+        "conclusion-mcq-03",
+        "conclusion-mcq-27",
         "conclusion-mcq-15"
       ],
       "explanation": "本句的「conclusive proof」指「確證」。",
@@ -1799,12 +1641,10 @@ export default {
         "conclusive proof"
       ],
       "optionReasons": {
-        "conclusion-mcq-18": "本句指「確證」。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-15": "「達成／締結協議」是「conclude an agreement」的用法，與本句語境不同。"
+        "conclusion-mcq-18": "本句的「conclusive proof」指「確證」。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-18"
     },
@@ -1816,11 +1656,9 @@ export default {
       "masked": "The first test did not produce a ____.",
       "options": [
         "conclusion-mcq-19",
+        "conclusion-mcq-11",
         "conclusion-mcq-18",
-        "conclusion-mcq-20",
-        "conclusion-mcq-17",
-        "conclusion-mcq-21",
-        "conclusion-mcq-16"
+        "conclusion-mcq-07"
       ],
       "explanation": "本句的「conclusive result」指「足以定論的結果」。",
       "sentenceIndex": 39,
@@ -1829,12 +1667,10 @@ export default {
         "conclusive result"
       ],
       "optionReasons": {
-        "conclusion-mcq-19": "本句指「足以定論的結果」。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。"
+        "conclusion-mcq-19": "本句的「conclusive result」指「足以定論的結果」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-19"
     },
@@ -1846,11 +1682,9 @@ export default {
       "masked": "Further testing finally gave a ____.",
       "options": [
         "conclusion-mcq-19",
-        "conclusion-mcq-18",
-        "conclusion-mcq-20",
+        "conclusion-mcq-11",
         "conclusion-mcq-17",
-        "conclusion-mcq-21",
-        "conclusion-mcq-16"
+        "conclusion-mcq-26"
       ],
       "explanation": "本句的「conclusive result」指「足以定論的結果」。",
       "sentenceIndex": 40,
@@ -1859,12 +1693,10 @@ export default {
         "conclusive result"
       ],
       "optionReasons": {
-        "conclusion-mcq-19": "本句指「足以定論的結果」。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-16": "「確鑿的；足以定論的」是「conclusive」的用法，與本句語境不同。"
+        "conclusion-mcq-19": "本句的「conclusive result」指「足以定論的結果」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-19"
     },
@@ -1876,11 +1708,9 @@ export default {
       "masked": "The evidence does not ____ that he was responsible.",
       "options": [
         "conclusion-mcq-20",
-        "conclusion-mcq-19",
-        "conclusion-mcq-21",
-        "conclusion-mcq-18",
-        "conclusion-mcq-22",
-        "conclusion-mcq-17"
+        "conclusion-mcq-27",
+        "conclusion-mcq-11",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「conclusively prove」指「確切地；決定性地」。",
       "sentenceIndex": 41,
@@ -1889,12 +1719,10 @@ export default {
         "conclusively prove"
       ],
       "optionReasons": {
-        "conclusion-mcq-20": "本句指「確切地；決定性地」。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-20": "本句的「conclusively prove」指「確切地；決定性地」。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-20"
     },
@@ -1906,11 +1734,9 @@ export default {
       "masked": "The issue has not been ____.",
       "options": [
         "conclusion-mcq-20",
-        "conclusion-mcq-19",
-        "conclusion-mcq-21",
-        "conclusion-mcq-18",
-        "conclusion-mcq-22",
-        "conclusion-mcq-17"
+        "conclusion-mcq-05",
+        "conclusion-mcq-15",
+        "conclusion-mcq-07"
       ],
       "explanation": "本句的「conclusively resolved」指「確切地；決定性地」。",
       "sentenceIndex": 42,
@@ -1919,12 +1745,10 @@ export default {
         "conclusively resolved"
       ],
       "optionReasons": {
-        "conclusion-mcq-20": "本句指「確切地；決定性地」。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-17": "「確鑿證據」是「conclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-20": "本句的「conclusively resolved」指「確切地；決定性地」。",
+        "conclusion-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-20"
     },
@@ -1936,11 +1760,9 @@ export default {
       "masked": "The data ____ that the original assumption was wrong.",
       "options": [
         "conclusion-mcq-21",
-        "conclusion-mcq-20",
-        "conclusion-mcq-22",
+        "conclusion-mcq-07",
         "conclusion-mcq-19",
-        "conclusion-mcq-23",
-        "conclusion-mcq-18"
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「conclusively proved」指「確切證明」。",
       "sentenceIndex": 43,
@@ -1949,12 +1771,10 @@ export default {
         "conclusively proved"
       ],
       "optionReasons": {
-        "conclusion-mcq-21": "本句指「確切證明」。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。"
+        "conclusion-mcq-21": "本句的「conclusively proved」指「確切證明」。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-21"
     },
@@ -1966,11 +1786,9 @@ export default {
       "masked": "Nothing has ____ the theory yet.",
       "options": [
         "conclusion-mcq-21",
-        "conclusion-mcq-20",
-        "conclusion-mcq-22",
-        "conclusion-mcq-19",
-        "conclusion-mcq-23",
-        "conclusion-mcq-18"
+        "conclusion-mcq-02",
+        "conclusion-mcq-11",
+        "conclusion-mcq-28"
       ],
       "explanation": "本句的「conclusively proved」指「確切證明」。",
       "sentenceIndex": 44,
@@ -1979,12 +1797,10 @@ export default {
         "conclusively proved"
       ],
       "optionReasons": {
-        "conclusion-mcq-21": "本句指「確切證明」。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-18": "「確證」是「conclusive proof」的用法，與本句語境不同。"
+        "conclusion-mcq-21": "本句的「conclusively proved」指「確切證明」。",
+        "conclusion-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-21"
     },
@@ -1996,11 +1812,9 @@ export default {
       "masked": "The evidence was ____.",
       "options": [
         "conclusion-mcq-22",
-        "conclusion-mcq-21",
-        "conclusion-mcq-23",
-        "conclusion-mcq-20",
-        "conclusion-mcq-24",
-        "conclusion-mcq-19"
+        "conclusion-mcq-11",
+        "conclusion-mcq-26",
+        "conclusion-mcq-21"
       ],
       "explanation": "本句的「inconclusive」指「無法定論的」。",
       "sentenceIndex": 45,
@@ -2009,12 +1823,10 @@ export default {
         "inconclusive"
       ],
       "optionReasons": {
-        "conclusion-mcq-22": "本句指「無法定論的」。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。"
+        "conclusion-mcq-22": "本句的「inconclusive」指「無法定論的」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-22"
     },
@@ -2026,11 +1838,9 @@ export default {
       "masked": "The test results were ____.",
       "options": [
         "conclusion-mcq-22",
-        "conclusion-mcq-21",
-        "conclusion-mcq-23",
-        "conclusion-mcq-20",
-        "conclusion-mcq-24",
-        "conclusion-mcq-19"
+        "conclusion-mcq-25",
+        "conclusion-mcq-17",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「inconclusive」指「無法定論的」。",
       "sentenceIndex": 46,
@@ -2039,12 +1849,10 @@ export default {
         "inconclusive"
       ],
       "optionReasons": {
-        "conclusion-mcq-22": "本句指「無法定論的」。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-19": "「足以定論的結果」是「conclusive result」的用法，與本句語境不同。"
+        "conclusion-mcq-22": "本句的「inconclusive」指「無法定論的」。",
+        "conclusion-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-22"
     },
@@ -2056,11 +1864,9 @@ export default {
       "masked": "The case remained open because the evidence was ____.",
       "options": [
         "conclusion-mcq-23",
-        "conclusion-mcq-22",
-        "conclusion-mcq-24",
-        "conclusion-mcq-21",
-        "conclusion-mcq-25",
-        "conclusion-mcq-20"
+        "conclusion-mcq-07",
+        "conclusion-mcq-14",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「inconclusive」指「不足以定論的證據」。",
       "sentenceIndex": 47,
@@ -2069,12 +1875,10 @@ export default {
         "inconclusive"
       ],
       "optionReasons": {
-        "conclusion-mcq-23": "本句指「不足以定論的證據」。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。"
+        "conclusion-mcq-23": "本句的「inconclusive」指「不足以定論的證據」。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-23"
     },
@@ -2086,11 +1890,9 @@ export default {
       "masked": "The study provided only ____.",
       "options": [
         "conclusion-mcq-23",
-        "conclusion-mcq-22",
-        "conclusion-mcq-24",
-        "conclusion-mcq-21",
-        "conclusion-mcq-25",
-        "conclusion-mcq-20"
+        "conclusion-mcq-15",
+        "conclusion-mcq-14",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「inconclusive evidence」指「不足以定論的證據」。",
       "sentenceIndex": 48,
@@ -2099,12 +1901,10 @@ export default {
         "inconclusive evidence"
       ],
       "optionReasons": {
-        "conclusion-mcq-23": "本句指「不足以定論的證據」。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-20": "「確切地；決定性地」是「conclusively」的用法，與本句語境不同。"
+        "conclusion-mcq-23": "本句的「inconclusive evidence」指「不足以定論的證據」。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-23"
     },
@@ -2116,11 +1916,9 @@ export default {
       "masked": "The scan gave an ____.",
       "options": [
         "conclusion-mcq-24",
-        "conclusion-mcq-23",
-        "conclusion-mcq-25",
-        "conclusion-mcq-22",
-        "conclusion-mcq-26",
-        "conclusion-mcq-21"
+        "conclusion-mcq-11",
+        "conclusion-mcq-18",
+        "conclusion-mcq-27"
       ],
       "explanation": "本句的「inconclusive result」指「未能定論的結果」。",
       "sentenceIndex": 49,
@@ -2129,12 +1927,10 @@ export default {
         "inconclusive result"
       ],
       "optionReasons": {
-        "conclusion-mcq-24": "本句指「未能定論的結果」。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。"
+        "conclusion-mcq-24": "本句的「inconclusive result」指「未能定論的結果」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-24"
     },
@@ -2146,11 +1942,9 @@ export default {
       "masked": "An ____ means more testing may be needed.",
       "options": [
         "conclusion-mcq-24",
-        "conclusion-mcq-23",
-        "conclusion-mcq-25",
-        "conclusion-mcq-22",
-        "conclusion-mcq-26",
-        "conclusion-mcq-21"
+        "conclusion-mcq-11",
+        "conclusion-mcq-21",
+        "conclusion-mcq-07"
       ],
       "explanation": "本句的「inconclusive result」指「未能定論的結果」。",
       "sentenceIndex": 50,
@@ -2159,12 +1953,10 @@ export default {
         "inconclusive result"
       ],
       "optionReasons": {
-        "conclusion-mcq-24": "本句指「未能定論的結果」。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-21": "「確切證明」是「prove conclusively」的用法，與本句語境不同。"
+        "conclusion-mcq-24": "本句的「inconclusive result」指「未能定論的結果」。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-24"
     },
@@ -2176,11 +1968,9 @@ export default {
       "masked": "She gave some ____.",
       "options": [
         "conclusion-mcq-25",
-        "conclusion-mcq-24",
-        "conclusion-mcq-26",
-        "conclusion-mcq-23",
-        "conclusion-mcq-27",
-        "conclusion-mcq-22"
+        "conclusion-mcq-16",
+        "conclusion-mcq-21",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluding remarks」指「最後的；總結性的」。",
       "sentenceIndex": 51,
@@ -2189,12 +1979,10 @@ export default {
         "concluding remarks"
       ],
       "optionReasons": {
-        "conclusion-mcq-25": "本句指「最後的；總結性的」。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-27": "「最後／總結部分」是「concluding section」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。"
+        "conclusion-mcq-25": "本句的「concluding remarks」指「最後的；總結性的」。",
+        "conclusion-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-25"
     },
@@ -2206,11 +1994,9 @@ export default {
       "masked": "Read the ____ carefully.",
       "options": [
         "conclusion-mcq-25",
-        "conclusion-mcq-24",
-        "conclusion-mcq-26",
-        "conclusion-mcq-23",
-        "conclusion-mcq-27",
-        "conclusion-mcq-22"
+        "conclusion-mcq-21",
+        "conclusion-mcq-22",
+        "conclusion-mcq-11"
       ],
       "explanation": "本句的「concluding section」指「最後的；總結性的」。",
       "sentenceIndex": 52,
@@ -2219,12 +2005,10 @@ export default {
         "concluding section"
       ],
       "optionReasons": {
-        "conclusion-mcq-25": "本句指「最後的；總結性的」。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。",
-        "conclusion-mcq-27": "「最後／總結部分」是「concluding section」的用法，與本句語境不同。",
-        "conclusion-mcq-22": "「無法定論的」是「inconclusive」的用法，與本句語境不同。"
+        "conclusion-mcq-25": "本句的「concluding section」指「最後的；總結性的」。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-25"
     },
@@ -2236,11 +2020,9 @@ export default {
       "masked": "The chair gave the ____.",
       "options": [
         "conclusion-mcq-26",
-        "conclusion-mcq-25",
-        "conclusion-mcq-27",
-        "conclusion-mcq-24",
-        "conclusion-mcq-28",
-        "conclusion-mcq-23"
+        "conclusion-mcq-21",
+        "conclusion-mcq-22",
+        "conclusion-mcq-28"
       ],
       "explanation": "本句的「concluding remarks」指「總結發言」。",
       "sentenceIndex": 53,
@@ -2249,12 +2031,10 @@ export default {
         "concluding remarks"
       ],
       "optionReasons": {
-        "conclusion-mcq-26": "本句指「總結發言」。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-27": "「最後／總結部分」是「concluding section」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-28": "「確鑿程度；決定性」是「conclusiveness」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-26": "本句的「concluding remarks」指「總結發言」。",
+        "conclusion-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-26"
     },
@@ -2266,11 +2046,9 @@ export default {
       "masked": "His ____ focused on teamwork.",
       "options": [
         "conclusion-mcq-26",
-        "conclusion-mcq-25",
-        "conclusion-mcq-27",
-        "conclusion-mcq-24",
         "conclusion-mcq-28",
-        "conclusion-mcq-23"
+        "conclusion-mcq-03",
+        "conclusion-mcq-14"
       ],
       "explanation": "本句的「concluding remarks」指「總結發言」。",
       "sentenceIndex": 54,
@@ -2279,12 +2057,10 @@ export default {
         "concluding remarks"
       ],
       "optionReasons": {
-        "conclusion-mcq-26": "本句指「總結發言」。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-27": "「最後／總結部分」是「concluding section」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-28": "「確鑿程度；決定性」是「conclusiveness」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-26": "本句的「concluding remarks」指「總結發言」。",
+        "conclusion-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-26"
     },
@@ -2296,11 +2072,9 @@ export default {
       "masked": "The ____ summarizes the findings.",
       "options": [
         "conclusion-mcq-27",
-        "conclusion-mcq-26",
-        "conclusion-mcq-28",
-        "conclusion-mcq-25",
-        "conclusion-mcq-24",
-        "conclusion-mcq-23"
+        "conclusion-mcq-17",
+        "conclusion-mcq-22",
+        "conclusion-mcq-20"
       ],
       "explanation": "本句的「concluding section」指「最後／總結部分」。",
       "sentenceIndex": 55,
@@ -2309,12 +2083,10 @@ export default {
         "concluding section"
       ],
       "optionReasons": {
-        "conclusion-mcq-27": "本句指「最後／總結部分」。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-28": "「確鑿程度；決定性」是「conclusiveness」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-27": "本句的「concluding section」指「最後／總結部分」。",
+        "conclusion-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-27"
     },
@@ -2326,11 +2098,9 @@ export default {
       "masked": "Add your recommendation to the ____.",
       "options": [
         "conclusion-mcq-27",
-        "conclusion-mcq-26",
-        "conclusion-mcq-28",
-        "conclusion-mcq-25",
-        "conclusion-mcq-24",
-        "conclusion-mcq-23"
+        "conclusion-mcq-18",
+        "conclusion-mcq-03",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「concluding section」指「最後／總結部分」。",
       "sentenceIndex": 56,
@@ -2339,12 +2109,10 @@ export default {
         "concluding section"
       ],
       "optionReasons": {
-        "conclusion-mcq-27": "本句指「最後／總結部分」。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-28": "「確鑿程度；決定性」是「conclusiveness」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-27": "本句的「concluding section」指「最後／總結部分」。",
+        "conclusion-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-27"
     },
@@ -2357,10 +2125,8 @@ export default {
       "options": [
         "conclusion-mcq-28",
         "conclusion-mcq-27",
-        "conclusion-mcq-26",
-        "conclusion-mcq-25",
-        "conclusion-mcq-24",
-        "conclusion-mcq-23"
+        "conclusion-mcq-03",
+        "conclusion-mcq-15"
       ],
       "explanation": "本句的「conclusiveness」指「確鑿程度；決定性」。",
       "sentenceIndex": 57,
@@ -2369,12 +2135,10 @@ export default {
         "conclusiveness"
       ],
       "optionReasons": {
-        "conclusion-mcq-28": "本句指「確鑿程度；決定性」。",
-        "conclusion-mcq-27": "「最後／總結部分」是「concluding section」的用法，與本句語境不同。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-28": "本句的「conclusiveness」指「確鑿程度；決定性」。",
+        "conclusion-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-28"
     },
@@ -2386,11 +2150,9 @@ export default {
       "masked": "The ____ of the result depends on the quality of the data.",
       "options": [
         "conclusion-mcq-28",
-        "conclusion-mcq-27",
-        "conclusion-mcq-26",
-        "conclusion-mcq-25",
-        "conclusion-mcq-24",
-        "conclusion-mcq-23"
+        "conclusion-mcq-07",
+        "conclusion-mcq-14",
+        "conclusion-mcq-03"
       ],
       "explanation": "本句的「conclusiveness」指「確鑿程度；決定性」。",
       "sentenceIndex": 58,
@@ -2399,12 +2161,10 @@ export default {
         "conclusiveness"
       ],
       "optionReasons": {
-        "conclusion-mcq-28": "本句指「確鑿程度；決定性」。",
-        "conclusion-mcq-27": "「最後／總結部分」是「concluding section」的用法，與本句語境不同。",
-        "conclusion-mcq-26": "「總結發言」是「concluding remarks」的用法，與本句語境不同。",
-        "conclusion-mcq-25": "「最後的；總結性的」是「concluding」的用法，與本句語境不同。",
-        "conclusion-mcq-24": "「未能定論的結果」是「inconclusive result」的用法，與本句語境不同。",
-        "conclusion-mcq-23": "「不足以定論的證據」是「inconclusive evidence」的用法，與本句語境不同。"
+        "conclusion-mcq-28": "本句的「conclusiveness」指「確鑿程度；決定性」。",
+        "conclusion-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "conclusion-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "conclusion-mcq-28"
     }
@@ -2416,5 +2176,7 @@ export default {
     "sha256": "96d5006fe2b6d62f3602448de20640e1769e8f788e0f26343d7e1ebdbd88711d",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

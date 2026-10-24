@@ -405,11 +405,7 @@ export default {
       "masked": "I can still remember the ____ in his classroom very clearly.",
       "options": [
         "atmosphere-mcq-01",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmosphere」指「氣氛；氛圍」。",
       "sentenceIndex": 0,
@@ -418,12 +414,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-01": "本句指「氣氛；氛圍」。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-01": "本句的「atmosphere」指「氣氛；氛圍」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-01"
     },
@@ -435,11 +427,7 @@ export default {
       "masked": "The café has a warm and relaxed ____.",
       "options": [
         "atmosphere-mcq-01",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmosphere」指「氣氛；氛圍」。",
       "sentenceIndex": 1,
@@ -448,12 +436,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-01": "本句指「氣氛；氛圍」。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-01": "本句的「atmosphere」指「氣氛；氛圍」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-01"
     },
@@ -465,11 +449,7 @@ export default {
       "masked": "There was a strange ____ in the room.",
       "options": [
         "atmosphere-mcq-01",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmosphere」指「氣氛；氛圍」。",
       "sentenceIndex": 2,
@@ -478,12 +458,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-01": "本句指「氣氛；氛圍」。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-01": "本句的「atmosphere」指「氣氛；氛圍」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-01"
     },
@@ -495,11 +471,7 @@ export default {
       "masked": "A positive ____ helps students learn.",
       "options": [
         "atmosphere-mcq-02",
-        "atmosphere-mcq-01",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "atmosphere-mcq-13"
       ],
       "explanation": "本句的「classroom atmosphere」指「課堂氣氛」。",
       "sentenceIndex": 3,
@@ -508,12 +480,8 @@ export default {
         "classroom atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-02": "本句指「課堂氣氛」。",
-        "atmosphere-mcq-01": "「氣氛；氛圍」是「atmosphere (social)」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-02": "本句的「classroom atmosphere」指「課堂氣氛」。",
+        "atmosphere-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-02"
     },
@@ -525,11 +493,7 @@ export default {
       "masked": "The teacher created a calm ____.",
       "options": [
         "atmosphere-mcq-02",
-        "atmosphere-mcq-01",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "atmosphere-mcq-14"
       ],
       "explanation": "本句的「classroom atmosphere」指「課堂氣氛」。",
       "sentenceIndex": 4,
@@ -538,12 +502,8 @@ export default {
         "classroom atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-02": "本句指「課堂氣氛」。",
-        "atmosphere-mcq-01": "「氣氛；氛圍」是「atmosphere (social)」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-02": "本句的「classroom atmosphere」指「課堂氣氛」。",
+        "atmosphere-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-02"
     },
@@ -555,11 +515,7 @@ export default {
       "masked": "The office has a friendly ____.",
       "options": [
         "atmosphere-mcq-03",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-01",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「working atmosphere」指「工作氣氛」。",
       "sentenceIndex": 5,
@@ -568,12 +524,8 @@ export default {
         "working atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-03": "本句指「工作氣氛」。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-01": "「氣氛；氛圍」是「atmosphere (social)」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-03": "本句的「working atmosphere」指「工作氣氛」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-03"
     },
@@ -585,11 +537,7 @@ export default {
       "masked": "A stressful ____ can affect performance.",
       "options": [
         "atmosphere-mcq-03",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-01",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「working atmosphere」指「工作氣氛」。",
       "sentenceIndex": 6,
@@ -598,12 +546,8 @@ export default {
         "working atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-03": "本句指「工作氣氛」。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-01": "「氣氛；氛圍」是「atmosphere (social)」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-03": "本句的「working atmosphere」指「工作氣氛」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-03"
     },
@@ -615,11 +559,7 @@ export default {
       "masked": "The restaurant has a warm ____.",
       "options": [
         "atmosphere-mcq-04",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-01"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「family atmosphere」指「家庭式氣氛」。",
       "sentenceIndex": 7,
@@ -628,12 +568,8 @@ export default {
         "family atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-04": "本句指「家庭式氣氛」。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-01": "「氣氛；氛圍」是「atmosphere (social)」的用法，與本句語境不同。"
+        "atmosphere-mcq-04": "本句的「family atmosphere」指「家庭式氣氛」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-04"
     },
@@ -645,11 +581,7 @@ export default {
       "masked": "The small school has a strong ____.",
       "options": [
         "atmosphere-mcq-04",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-02",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-01"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「family atmosphere」指「家庭式氣氛」。",
       "sentenceIndex": 8,
@@ -658,12 +590,8 @@ export default {
         "family atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-04": "本句指「家庭式氣氛」。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-01": "「氣氛；氛圍」是「atmosphere (social)」的用法，與本句語境不同。"
+        "atmosphere-mcq-04": "本句的「family atmosphere」指「家庭式氣氛」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-04"
     },
@@ -675,11 +603,7 @@ export default {
       "masked": "There was a ____ before the announcement.",
       "options": [
         "atmosphere-mcq-05",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-02"
+        "atmosphere-mcq-14"
       ],
       "explanation": "本句的「tense atmosphere」指「緊張氣氛」。",
       "sentenceIndex": 9,
@@ -688,12 +612,8 @@ export default {
         "tense atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-05": "本句指「緊張氣氛」。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-05": "本句的「tense atmosphere」指「緊張氣氛」。",
+        "atmosphere-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-05"
     },
@@ -705,11 +625,7 @@ export default {
       "masked": "His comment made the ____ more tense.",
       "options": [
         "atmosphere-mcq-05",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-03",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-02"
+        "atmosphere-mcq-14"
       ],
       "explanation": "本句的「atmosphere」指「緊張氣氛」。",
       "sentenceIndex": 10,
@@ -718,12 +634,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-05": "本句指「緊張氣氛」。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-02": "「課堂氣氛」是「classroom atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-05": "本句的「atmosphere」指「緊張氣氛」。",
+        "atmosphere-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-05"
     },
@@ -735,11 +647,7 @@ export default {
       "masked": "The meeting had a very ____.",
       "options": [
         "atmosphere-mcq-06",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-03"
+        "atmosphere-mcq-13"
       ],
       "explanation": "本句的「relaxed atmosphere」指「輕鬆氣氛」。",
       "sentenceIndex": 11,
@@ -748,12 +656,8 @@ export default {
         "relaxed atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-06": "本句指「輕鬆氣氛」。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-06": "本句的「relaxed atmosphere」指「輕鬆氣氛」。",
+        "atmosphere-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-06"
     },
@@ -765,11 +669,7 @@ export default {
       "masked": "Soft music helped create a ____.",
       "options": [
         "atmosphere-mcq-06",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-04",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-03"
+        "atmosphere-mcq-14"
       ],
       "explanation": "本句的「relaxed atmosphere」指「輕鬆氣氛」。",
       "sentenceIndex": 12,
@@ -778,12 +678,8 @@ export default {
         "relaxed atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-06": "本句指「輕鬆氣氛」。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-03": "「工作氣氛」是「working atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-06": "本句的「relaxed atmosphere」指「輕鬆氣氛」。",
+        "atmosphere-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-06"
     },
@@ -795,11 +691,7 @@ export default {
       "masked": "The school has a very ____.",
       "options": [
         "atmosphere-mcq-07",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-04"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「friendly atmosphere」指「友善氣氛」。",
       "sentenceIndex": 13,
@@ -808,12 +700,8 @@ export default {
         "friendly atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-07": "本句指「友善氣氛」。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-07": "本句的「friendly atmosphere」指「友善氣氛」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-07"
     },
@@ -825,11 +713,7 @@ export default {
       "masked": "The staff helped create a ____.",
       "options": [
         "atmosphere-mcq-07",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-05",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-04"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「friendly atmosphere」指「友善氣氛」。",
       "sentenceIndex": 14,
@@ -838,12 +722,8 @@ export default {
         "friendly atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-07": "本句指「友善氣氛」。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-04": "「家庭式氣氛」是「family atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-07": "本句的「friendly atmosphere」指「友善氣氛」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-07"
     },
@@ -855,11 +735,7 @@ export default {
       "masked": "The teacher ____ where students felt safe asking questions.",
       "options": [
         "atmosphere-mcq-08",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-05"
+        "atmosphere-mcq-14"
       ],
       "explanation": "本句的「created an atmosphere」指「營造氣氛」。",
       "sentenceIndex": 15,
@@ -868,12 +744,8 @@ export default {
         "created an atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-08": "本句指「營造氣氛」。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-08": "本句的「created an atmosphere」指「營造氣氛」。",
+        "atmosphere-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-08"
     },
@@ -885,11 +757,7 @@ export default {
       "masked": "Candles can ____.",
       "options": [
         "atmosphere-mcq-08",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-06",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-05"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「create a romantic atmosphere」指「營造氣氛」。",
       "sentenceIndex": 16,
@@ -898,12 +766,8 @@ export default {
         "create a romantic atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-08": "本句指「營造氣氛」。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-05": "「緊張氣氛」是「tense atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-08": "本句的「create a romantic atmosphere」指「營造氣氛」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-08"
     },
@@ -915,11 +779,7 @@ export default {
       "masked": "Her joke completely ____.",
       "options": [
         "atmosphere-mcq-09",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-06"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「changed the atmosphere」指「改變氣氛」。",
       "sentenceIndex": 17,
@@ -928,12 +788,8 @@ export default {
         "changed the atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-09": "本句指「改變氣氛」。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-09": "本句的「changed the atmosphere」指「改變氣氛」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-09"
     },
@@ -945,11 +801,7 @@ export default {
       "masked": "The announcement ____ in the room.",
       "options": [
         "atmosphere-mcq-09",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-07",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-06"
+        "atmosphere-mcq-13"
       ],
       "explanation": "本句的「changed the atmosphere」指「改變氣氛」。",
       "sentenceIndex": 18,
@@ -958,12 +810,8 @@ export default {
         "changed the atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-09": "本句指「改變氣氛」。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-06": "「輕鬆氣氛」是「relaxed atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-09": "本句的「changed the atmosphere」指「改變氣氛」。",
+        "atmosphere-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-09"
     },
@@ -975,11 +823,7 @@ export default {
       "masked": "He told a joke to ____.",
       "options": [
         "atmosphere-mcq-10",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lighten the atmosphere」指「緩和氣氛」。",
       "sentenceIndex": 19,
@@ -988,12 +832,8 @@ export default {
         "lighten the atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-10": "本句指「緩和氣氛」。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-10": "本句的「lighten the atmosphere」指「緩和氣氛」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-10"
     },
@@ -1005,11 +845,7 @@ export default {
       "masked": "A little humour helped ____.",
       "options": [
         "atmosphere-mcq-10",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-08",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「lighten the atmosphere」指「緩和氣氛」。",
       "sentenceIndex": 20,
@@ -1018,12 +854,8 @@ export default {
         "lighten the atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-10": "本句指「緩和氣氛」。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-07": "「友善氣氛」是「friendly atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-10": "本句的「lighten the atmosphere」指「緩和氣氛」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-10"
     },
@@ -1035,11 +867,7 @@ export default {
       "masked": "Earth is surrounded by an ____.",
       "options": [
         "atmosphere-mcq-11",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmosphere」指「大氣層」。",
       "sentenceIndex": 21,
@@ -1048,12 +876,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-11": "本句指「大氣層」。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-11": "本句的「atmosphere」指「大氣層」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-11"
     },
@@ -1065,11 +889,7 @@ export default {
       "masked": "The planet has a thin ____.",
       "options": [
         "atmosphere-mcq-11",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-09",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-08"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmosphere」指「大氣層」。",
       "sentenceIndex": 22,
@@ -1078,12 +898,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-11": "本句指「大氣層」。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-08": "「營造氣氛」是「create an atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-11": "本句的「atmosphere」指「大氣層」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-11"
     },
@@ -1095,11 +911,7 @@ export default {
       "masked": "Carbon dioxide is present in the Earth's ____.",
       "options": [
         "atmosphere-mcq-12",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-09"
+        "atmosphere-mcq-02"
       ],
       "explanation": "本句的「atmosphere」指「地球大氣層」。",
       "sentenceIndex": 23,
@@ -1108,12 +920,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-12": "本句指「地球大氣層」。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-12": "本句的「atmosphere」指「地球大氣層」。",
+        "atmosphere-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-12"
     },
@@ -1125,11 +933,7 @@ export default {
       "masked": "Most weather occurs in the lower ____.",
       "options": [
         "atmosphere-mcq-12",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-10",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-09"
+        "atmosphere-mcq-02"
       ],
       "explanation": "本句的「atmosphere」指「地球大氣層」。",
       "sentenceIndex": 24,
@@ -1138,12 +942,8 @@ export default {
         "atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-12": "本句指「地球大氣層」。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-09": "「改變氣氛」是「change the atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-12": "本句的「atmosphere」指「地球大氣層」。",
+        "atmosphere-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-12"
     },
@@ -1155,11 +955,7 @@ export default {
       "masked": "Satellites can collect data about the ____.",
       "options": [
         "atmosphere-mcq-13",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-10"
+        "atmosphere-mcq-07"
       ],
       "explanation": "本句的「upper atmosphere」指「高層大氣」。",
       "sentenceIndex": 25,
@@ -1168,12 +964,8 @@ export default {
         "upper atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-13": "本句指「高層大氣」。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-13": "本句的「upper atmosphere」指「高層大氣」。",
+        "atmosphere-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-13"
     },
@@ -1185,11 +977,7 @@ export default {
       "masked": "Pollution is concentrated in the ____.",
       "options": [
         "atmosphere-mcq-13",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-11",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-10"
+        "atmosphere-mcq-02"
       ],
       "explanation": "本句的「lower atmosphere」指「高層大氣」。",
       "sentenceIndex": 26,
@@ -1198,12 +986,8 @@ export default {
         "lower atmosphere"
       ],
       "optionReasons": {
-        "atmosphere-mcq-13": "本句指「高層大氣」。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-10": "「緩和氣氛」是「lighten the atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-13": "本句的「lower atmosphere」指「高層大氣」。",
+        "atmosphere-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-13"
     },
@@ -1215,11 +999,7 @@ export default {
       "masked": "____ falls as altitude increases.",
       "options": [
         "atmosphere-mcq-14",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-16",
-        "atmosphere-mcq-11"
+        "atmosphere-mcq-05"
       ],
       "explanation": "本句的「Atmospheric pressure」指「大氣壓力」。",
       "sentenceIndex": 27,
@@ -1228,12 +1008,8 @@ export default {
         "Atmospheric pressure"
       ],
       "optionReasons": {
-        "atmosphere-mcq-14": "本句指「大氣壓力」。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-16": "「很有氣氛的餐廳」是「atmospheric restaurant」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。"
+        "atmosphere-mcq-14": "本句的「Atmospheric pressure」指「大氣壓力」。",
+        "atmosphere-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-14"
     },
@@ -1245,11 +1021,7 @@ export default {
       "masked": "Changes in ____ can affect the weather.",
       "options": [
         "atmosphere-mcq-14",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-12",
-        "atmosphere-mcq-16",
-        "atmosphere-mcq-11"
+        "atmosphere-mcq-04"
       ],
       "explanation": "本句的「atmospheric pressure」指「大氣壓力」。",
       "sentenceIndex": 28,
@@ -1258,12 +1030,8 @@ export default {
         "atmospheric pressure"
       ],
       "optionReasons": {
-        "atmosphere-mcq-14": "本句指「大氣壓力」。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-16": "「很有氣氛的餐廳」是「atmospheric restaurant」的用法，與本句語境不同。",
-        "atmosphere-mcq-11": "「大氣層」是「atmosphere (scientific)」的用法，與本句語境不同。"
+        "atmosphere-mcq-14": "本句的「atmospheric pressure」指「大氣壓力」。",
+        "atmosphere-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-14"
     },
@@ -1275,11 +1043,7 @@ export default {
       "masked": "The flight was delayed because of poor ____.",
       "options": [
         "atmosphere-mcq-15",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-16",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-17",
-        "atmosphere-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmospheric conditions」指「大氣狀況」。",
       "sentenceIndex": 29,
@@ -1288,12 +1052,8 @@ export default {
         "atmospheric conditions"
       ],
       "optionReasons": {
-        "atmosphere-mcq-15": "本句指「大氣狀況」。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-16": "「很有氣氛的餐廳」是「atmospheric restaurant」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-17": "「富氣氛的音樂」是「atmospheric music」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-15": "本句的「atmospheric conditions」指「大氣狀況」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-15"
     },
@@ -1305,11 +1065,7 @@ export default {
       "masked": "Scientists study changing ____.",
       "options": [
         "atmosphere-mcq-15",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-16",
-        "atmosphere-mcq-13",
-        "atmosphere-mcq-17",
-        "atmosphere-mcq-12"
+        "contrast-purchase"
       ],
       "explanation": "本句的「atmospheric conditions」指「大氣狀況」。",
       "sentenceIndex": 30,
@@ -1318,12 +1074,8 @@ export default {
         "atmospheric conditions"
       ],
       "optionReasons": {
-        "atmosphere-mcq-15": "本句指「大氣狀況」。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-16": "「很有氣氛的餐廳」是「atmospheric restaurant」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。",
-        "atmosphere-mcq-17": "「富氣氛的音樂」是「atmospheric music」的用法，與本句語境不同。",
-        "atmosphere-mcq-12": "「地球大氣層」是「Earth's atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-15": "本句的「atmospheric conditions」指「大氣狀況」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-15"
     },
@@ -1335,11 +1087,7 @@ export default {
       "masked": "We ate in a small, ____ restaurant.",
       "options": [
         "atmosphere-mcq-16",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-17",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-18",
-        "atmosphere-mcq-13"
+        "atmosphere-mcq-14"
       ],
       "explanation": "本句的「atmospheric」指「很有氣氛的餐廳」。",
       "sentenceIndex": 31,
@@ -1348,12 +1096,8 @@ export default {
         "atmospheric"
       ],
       "optionReasons": {
-        "atmosphere-mcq-16": "本句指「很有氣氛的餐廳」。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-17": "「富氣氛的音樂」是「atmospheric music」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-18": "「富氣氛的燈光」是「atmospheric lighting」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-16": "本句的「atmospheric」指「很有氣氛的餐廳」。",
+        "atmosphere-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-16"
     },
@@ -1365,11 +1109,7 @@ export default {
       "masked": "The old streets are especially ____ at night.",
       "options": [
         "atmosphere-mcq-16",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-17",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-18",
-        "atmosphere-mcq-13"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「atmospheric」指「很有氣氛的餐廳」。",
       "sentenceIndex": 32,
@@ -1378,12 +1118,8 @@ export default {
         "atmospheric"
       ],
       "optionReasons": {
-        "atmosphere-mcq-16": "本句指「很有氣氛的餐廳」。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-17": "「富氣氛的音樂」是「atmospheric music」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-18": "「富氣氛的燈光」是「atmospheric lighting」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-16": "本句的「atmospheric」指「很有氣氛的餐廳」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-16"
     },
@@ -1395,11 +1131,7 @@ export default {
       "masked": "The film uses ____.",
       "options": [
         "atmosphere-mcq-18",
-        "atmosphere-mcq-17",
-        "atmosphere-mcq-16",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-14",
-        "atmosphere-mcq-13"
+        "atmosphere-mcq-12"
       ],
       "explanation": "本句的「atmospheric music」指「富氣氛的燈光」。",
       "sentenceIndex": 33,
@@ -1408,12 +1140,8 @@ export default {
         "atmospheric music"
       ],
       "optionReasons": {
-        "atmosphere-mcq-18": "本句指「富氣氛的燈光」。",
-        "atmosphere-mcq-17": "「富氣氛的音樂」是「atmospheric music」的用法，與本句語境不同。",
-        "atmosphere-mcq-16": "「很有氣氛的餐廳」是「atmospheric restaurant」的用法，與本句語境不同。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-18": "本句的「atmospheric music」指「富氣氛的燈光」。",
+        "atmosphere-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-18"
     },
@@ -1425,10 +1153,6 @@ export default {
       "masked": "The restaurant has soft, ____.",
       "options": [
         "atmosphere-mcq-18",
-        "atmosphere-mcq-17",
-        "atmosphere-mcq-16",
-        "atmosphere-mcq-15",
-        "atmosphere-mcq-14",
         "atmosphere-mcq-13"
       ],
       "explanation": "本句的「atmospheric lighting」指「富氣氛的燈光」。",
@@ -1438,12 +1162,8 @@ export default {
         "atmospheric lighting"
       ],
       "optionReasons": {
-        "atmosphere-mcq-18": "本句指「富氣氛的燈光」。",
-        "atmosphere-mcq-17": "「富氣氛的音樂」是「atmospheric music」的用法，與本句語境不同。",
-        "atmosphere-mcq-16": "「很有氣氛的餐廳」是「atmospheric restaurant」的用法，與本句語境不同。",
-        "atmosphere-mcq-15": "「大氣狀況」是「atmospheric conditions」的用法，與本句語境不同。",
-        "atmosphere-mcq-14": "「大氣壓力」是「atmospheric pressure」的用法，與本句語境不同。",
-        "atmosphere-mcq-13": "「高層大氣」是「upper atmosphere」的用法，與本句語境不同。"
+        "atmosphere-mcq-18": "本句的「atmospheric lighting」指「富氣氛的燈光」。",
+        "atmosphere-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "atmosphere-mcq-18"
     }
@@ -1455,5 +1175,12 @@ export default {
     "sha256": "31fcd5508b6bf09563265834f9d8fe73ad5faeb23d346ce78266ae78d336ac51",
     "pages": 15
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -509,7 +509,7 @@ export default {
     },
     {
       "id": "surface-mcq-23",
-      "title": "表示重新鋪面；重新浮現",
+      "title": "重新鋪面；重新浮現",
       "form": "22. resurfacing",
       "en": "22. resurfacing",
       "zh": "表示重新鋪面；重新浮現",
@@ -539,11 +539,9 @@ export default {
       "masked": "____, the gift seemed simple.",
       "options": [
         "surface-mcq-22",
-        "surface-mcq-21",
-        "surface-mcq-23",
-        "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-18"
+        "surface-mcq-11",
+        "surface-mcq-17",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「On the surface」指「表面上；乍看之下；從表面來看」。",
       "sentenceIndex": 0,
@@ -552,12 +550,10 @@ export default {
         "On the surface"
       ],
       "optionReasons": {
-        "surface-mcq-22": "本句指「表面上；乍看之下；從表面來看」。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-23": "「表示重新鋪面；重新浮現」是「22. resurfacing」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-22": "本句的「On the surface」指「表面上；乍看之下；從表面來看」。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-22"
     },
@@ -569,11 +565,9 @@ export default {
       "masked": "The idea looks easy ____, but it is actually quite complex.",
       "options": [
         "surface-mcq-22",
-        "surface-mcq-21",
-        "surface-mcq-23",
-        "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-18"
+        "surface-mcq-10",
+        "surface-mcq-17",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「on the surface」指「表面上；乍看之下；從表面來看」。",
       "sentenceIndex": 1,
@@ -582,12 +576,10 @@ export default {
         "on the surface"
       ],
       "optionReasons": {
-        "surface-mcq-22": "本句指「表面上；乍看之下；從表面來看」。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-23": "「表示重新鋪面；重新浮現」是「22. resurfacing」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-22": "本句的「on the surface」指「表面上；乍看之下；從表面來看」。",
+        "surface-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-22"
     },
@@ -599,11 +591,9 @@ export default {
       "masked": "The table has a smooth ____.",
       "options": [
         "surface-mcq-01",
-        "surface-mcq-02",
-        "surface-mcq-03",
-        "surface-mcq-04",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-11",
+        "surface-mcq-09",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「surface」指「物體最外面可見或可觸摸的部分；表面」。",
       "sentenceIndex": 2,
@@ -612,12 +602,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-01": "本句指「物體最外面可見或可觸摸的部分；表面」。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-01": "本句的「surface」指「物體最外面可見或可觸摸的部分；表面」。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-01"
     },
@@ -629,11 +617,9 @@ export default {
       "masked": "Dust covered the ____ of the shelf.",
       "options": [
         "surface-mcq-01",
-        "surface-mcq-02",
-        "surface-mcq-03",
-        "surface-mcq-04",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-12",
+        "surface-mcq-09",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「surface」指「物體最外面可見或可觸摸的部分；表面」。",
       "sentenceIndex": 3,
@@ -642,12 +628,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-01": "本句指「物體最外面可見或可觸摸的部分；表面」。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-01": "本句的「surface」指「物體最外面可見或可觸摸的部分；表面」。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-01"
     },
@@ -659,11 +643,9 @@ export default {
       "masked": "Leaves floated on the ____.",
       "options": [
         "surface-mcq-02",
-        "surface-mcq-01",
-        "surface-mcq-03",
-        "surface-mcq-04",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-11",
+        "surface-mcq-23",
+        "surface-mcq-16"
       ],
       "explanation": "本句的「surface of the water」指「水或液體最上層的界面；水面／液面」。",
       "sentenceIndex": 4,
@@ -672,12 +654,10 @@ export default {
         "surface of the water"
       ],
       "optionReasons": {
-        "surface-mcq-02": "本句指「水或液體最上層的界面；水面／液面」。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-02": "本句的「surface of the water」指「水或液體最上層的界面；水面／液面」。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-02"
     },
@@ -689,11 +669,9 @@ export default {
       "masked": "The swimmer came back to the ____.",
       "options": [
         "surface-mcq-02",
-        "surface-mcq-01",
-        "surface-mcq-03",
-        "surface-mcq-04",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-12",
+        "surface-mcq-19",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「surface」指「水或液體最上層的界面；水面／液面」。",
       "sentenceIndex": 5,
@@ -702,12 +680,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-02": "本句指「水或液體最上層的界面；水面／液面」。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-02": "本句的「surface」指「水或液體最上層的界面；水面／液面」。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-02"
     },
@@ -719,11 +695,9 @@ export default {
       "masked": "The road ____ was wet.",
       "options": [
         "surface-mcq-03",
-        "surface-mcq-02",
-        "surface-mcq-04",
-        "surface-mcq-01",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-09",
+        "surface-mcq-10",
+        "surface-mcq-18"
       ],
       "explanation": "本句的「surface」指「地面、路面或人行走其上的最上層」。",
       "sentenceIndex": 6,
@@ -732,12 +706,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-03": "本句指「地面、路面或人行走其上的最上層」。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-03": "本句的「surface」指「地面、路面或人行走其上的最上層」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-03"
     },
@@ -749,11 +721,9 @@ export default {
       "masked": "The moon has a rocky ____.",
       "options": [
         "surface-mcq-03",
-        "surface-mcq-02",
-        "surface-mcq-04",
-        "surface-mcq-01",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-11",
+        "surface-mcq-23",
+        "surface-mcq-22"
       ],
       "explanation": "本句的「surface」指「地面、路面或人行走其上的最上層」。",
       "sentenceIndex": 7,
@@ -762,12 +732,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-03": "本句指「地面、路面或人行走其上的最上層」。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-03": "本句的「surface」指「地面、路面或人行走其上的最上層」。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-03"
     },
@@ -779,11 +747,9 @@ export default {
       "masked": "Ice formed on the ____.",
       "options": [
         "surface-mcq-03",
-        "surface-mcq-02",
+        "surface-mcq-16",
         "surface-mcq-04",
-        "surface-mcq-01",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-17"
       ],
       "explanation": "本句的「road surface」指「地面、路面或人行走其上的最上層」。",
       "sentenceIndex": 8,
@@ -792,12 +758,10 @@ export default {
         "road surface"
       ],
       "optionReasons": {
-        "surface-mcq-03": "本句指「地面、路面或人行走其上的最上層」。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-03": "本句的「road surface」指「地面、路面或人行走其上的最上層」。",
+        "surface-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-03"
     },
@@ -809,11 +773,9 @@ export default {
       "masked": "The damaged ____ made driving difficult.",
       "options": [
         "surface-mcq-03",
-        "surface-mcq-02",
-        "surface-mcq-04",
-        "surface-mcq-01",
-        "surface-mcq-05",
-        "surface-mcq-06"
+        "surface-mcq-09",
+        "surface-mcq-19",
+        "surface-mcq-12"
       ],
       "explanation": "本句的「surface」指「地面、路面或人行走其上的最上層」。",
       "sentenceIndex": 9,
@@ -822,12 +784,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-03": "本句指「地面、路面或人行走其上的最上層」。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-03": "本句的「surface」指「地面、路面或人行走其上的最上層」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-03"
     },
@@ -839,11 +799,9 @@ export default {
       "masked": "A sphere has a curved ____.",
       "options": [
         "surface-mcq-04",
-        "surface-mcq-03",
-        "surface-mcq-05",
-        "surface-mcq-02",
-        "surface-mcq-06",
-        "surface-mcq-01"
+        "surface-mcq-23",
+        "surface-mcq-09",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「surface」指「三維物體的外部邊界；表面／曲面」。",
       "sentenceIndex": 10,
@@ -852,12 +810,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-04": "本句指「三維物體的外部邊界；表面／曲面」。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。"
+        "surface-mcq-04": "本句的「surface」指「三維物體的外部邊界；表面／曲面」。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-04"
     },
@@ -869,11 +825,9 @@ export default {
       "masked": "The points lie on the ____ of the object.",
       "options": [
         "surface-mcq-04",
-        "surface-mcq-03",
-        "surface-mcq-05",
-        "surface-mcq-02",
-        "surface-mcq-06",
-        "surface-mcq-01"
+        "surface-mcq-23",
+        "surface-mcq-17",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「surface」指「三維物體的外部邊界；表面／曲面」。",
       "sentenceIndex": 11,
@@ -882,12 +836,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-04": "本句指「三維物體的外部邊界；表面／曲面」。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-01": "「物體最外面可見或可觸摸的部分；表面」是「surface — outer layer」的用法，與本句語境不同。"
+        "surface-mcq-04": "本句的「surface」指「三維物體的外部邊界；表面／曲面」。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-04"
     },
@@ -899,11 +851,9 @@ export default {
       "masked": "We calculated the ____ of the cube.",
       "options": [
         "surface-mcq-05",
-        "surface-mcq-04",
-        "surface-mcq-06",
-        "surface-mcq-03",
-        "surface-mcq-07",
-        "surface-mcq-02"
+        "surface-mcq-17",
+        "surface-mcq-10",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「surface area」指「物體外部所有表面的總面積；表面積」。",
       "sentenceIndex": 12,
@@ -912,12 +862,10 @@ export default {
         "surface area"
       ],
       "optionReasons": {
-        "surface-mcq-05": "本句指「物體外部所有表面的總面積；表面積」。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。"
+        "surface-mcq-05": "本句的「surface area」指「物體外部所有表面的總面積；表面積」。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-05"
     },
@@ -929,11 +877,9 @@ export default {
       "masked": "Smaller particles have a greater ____ relative to volume.",
       "options": [
         "surface-mcq-05",
-        "surface-mcq-04",
-        "surface-mcq-06",
-        "surface-mcq-03",
-        "surface-mcq-07",
-        "surface-mcq-02"
+        "surface-mcq-12",
+        "surface-mcq-09",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「surface area」指「物體外部所有表面的總面積；表面積」。",
       "sentenceIndex": 13,
@@ -942,12 +888,10 @@ export default {
         "surface area"
       ],
       "optionReasons": {
-        "surface-mcq-05": "本句指「物體外部所有表面的總面積；表面積」。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-02": "「水或液體最上層的界面；水面／液面」是「surface of water」的用法，與本句語境不同。"
+        "surface-mcq-05": "本句的「surface area」指「物體外部所有表面的總面積；表面積」。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-05"
     },
@@ -959,11 +903,9 @@ export default {
       "masked": "Beneath the calm ____, she was worried.",
       "options": [
         "surface-mcq-06",
-        "surface-mcq-05",
-        "surface-mcq-07",
-        "surface-mcq-04",
-        "surface-mcq-08",
-        "surface-mcq-03"
+        "surface-mcq-22",
+        "surface-mcq-20",
+        "surface-mcq-09"
       ],
       "explanation": "本句的「surface」指「與深層現實相對的外在表現／表象」。",
       "sentenceIndex": 14,
@@ -972,12 +914,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-06": "本句指「與深層現實相對的外在表現／表象」。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。"
+        "surface-mcq-06": "本句的「surface」指「與深層現實相對的外在表現／表象」。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-06"
     },
@@ -989,11 +929,9 @@ export default {
       "masked": "The problem looked simple on the ____.",
       "options": [
         "surface-mcq-06",
-        "surface-mcq-05",
-        "surface-mcq-07",
-        "surface-mcq-04",
-        "surface-mcq-08",
-        "surface-mcq-03"
+        "surface-mcq-17",
+        "surface-mcq-22",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「surface」指「與深層現實相對的外在表現／表象」。",
       "sentenceIndex": 15,
@@ -1002,12 +940,10 @@ export default {
         "surface"
       ],
       "optionReasons": {
-        "surface-mcq-06": "本句指「與深層現實相對的外在表現／表象」。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-03": "「地面、路面或人行走其上的最上層」是「surface — ground/road」的用法，與本句語境不同。"
+        "surface-mcq-06": "本句的「surface」指「與深層現實相對的外在表現／表象」。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-06"
     },
@@ -1019,11 +955,9 @@ export default {
       "masked": "____, everything seemed normal.",
       "options": [
         "surface-mcq-07",
-        "surface-mcq-06",
-        "surface-mcq-08",
-        "surface-mcq-05",
         "surface-mcq-09",
-        "surface-mcq-04"
+        "surface-mcq-23",
+        "surface-mcq-12"
       ],
       "explanation": "本句的「On the surface」指「只按表面或第一印象判斷；表面上／乍看之下」。",
       "sentenceIndex": 16,
@@ -1032,12 +966,10 @@ export default {
         "On the surface"
       ],
       "optionReasons": {
-        "surface-mcq-07": "本句指「只按表面或第一印象判斷；表面上／乍看之下」。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。"
+        "surface-mcq-07": "本句的「On the surface」指「只按表面或第一印象判斷；表面上／乍看之下」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-07"
     },
@@ -1049,11 +981,9 @@ export default {
       "masked": "The two plans look similar ____.",
       "options": [
         "surface-mcq-07",
-        "surface-mcq-06",
-        "surface-mcq-08",
-        "surface-mcq-05",
-        "surface-mcq-09",
-        "surface-mcq-04"
+        "surface-mcq-16",
+        "surface-mcq-03",
+        "surface-mcq-17"
       ],
       "explanation": "本句的「on the surface」指「只按表面或第一印象判斷；表面上／乍看之下」。",
       "sentenceIndex": 17,
@@ -1062,12 +992,10 @@ export default {
         "on the surface"
       ],
       "optionReasons": {
-        "surface-mcq-07": "本句指「只按表面或第一印象判斷；表面上／乍看之下」。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-04": "「三維物體的外部邊界；表面／曲面」是「surface — mathematics」的用法，與本句語境不同。"
+        "surface-mcq-07": "本句的「on the surface」指「只按表面或第一印象判斷；表面上／乍看之下」。",
+        "surface-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-07"
     },
@@ -1079,11 +1007,9 @@ export default {
       "masked": "There was tension ____.",
       "options": [
         "surface-mcq-08",
-        "surface-mcq-07",
         "surface-mcq-09",
-        "surface-mcq-06",
-        "surface-mcq-10",
-        "surface-mcq-05"
+        "surface-mcq-05",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「beneath the surface」指「隱藏在表象之下、更深層的」。",
       "sentenceIndex": 18,
@@ -1092,12 +1018,10 @@ export default {
         "beneath the surface"
       ],
       "optionReasons": {
-        "surface-mcq-08": "本句指「隱藏在表象之下、更深層的」。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。"
+        "surface-mcq-08": "本句的「beneath the surface」指「隱藏在表象之下、更深層的」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-08"
     },
@@ -1109,11 +1033,9 @@ export default {
       "masked": "The film explores emotions ____.",
       "options": [
         "surface-mcq-08",
-        "surface-mcq-07",
-        "surface-mcq-09",
-        "surface-mcq-06",
-        "surface-mcq-10",
-        "surface-mcq-05"
+        "surface-mcq-17",
+        "surface-mcq-23",
+        "surface-mcq-22"
       ],
       "explanation": "本句的「below the surface」指「隱藏在表象之下、更深層的」。",
       "sentenceIndex": 19,
@@ -1122,12 +1044,10 @@ export default {
         "below the surface"
       ],
       "optionReasons": {
-        "surface-mcq-08": "本句指「隱藏在表象之下、更深層的」。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-05": "「物體外部所有表面的總面積；表面積」是「surface area」的用法，與本句語境不同。"
+        "surface-mcq-08": "本句的「below the surface」指「隱藏在表象之下、更深層的」。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-08"
     },
@@ -1139,11 +1059,9 @@ export default {
       "masked": "The diver ____ after several minutes.",
       "options": [
         "surface-mcq-09",
-        "surface-mcq-08",
-        "surface-mcq-10",
-        "surface-mcq-07",
-        "surface-mcq-11",
-        "surface-mcq-06"
+        "surface-mcq-03",
+        "surface-mcq-22",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「surfaced」指「從水下升至水面；浮出水面」。",
       "sentenceIndex": 20,
@@ -1152,12 +1070,10 @@ export default {
         "surfaced"
       ],
       "optionReasons": {
-        "surface-mcq-09": "本句指「從水下升至水面；浮出水面」。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-09": "本句的「surfaced」指「從水下升至水面；浮出水面」。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-09"
     },
@@ -1169,10 +1085,8 @@ export default {
       "masked": "Air bubbles ____ near the boat.",
       "options": [
         "surface-mcq-09",
-        "surface-mcq-08",
-        "surface-mcq-10",
-        "surface-mcq-07",
-        "surface-mcq-11",
+        "surface-mcq-03",
+        "surface-mcq-22",
         "surface-mcq-06"
       ],
       "explanation": "本句的「surfaced」指「從水下升至水面；浮出水面」。",
@@ -1182,12 +1096,10 @@ export default {
         "surfaced"
       ],
       "optionReasons": {
-        "surface-mcq-09": "本句指「從水下升至水面；浮出水面」。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-06": "「與深層現實相對的外在表現／表象」是「surface — outward appearance」的用法，與本句語境不同。"
+        "surface-mcq-09": "本句的「surfaced」指「從水下升至水面；浮出水面」。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-09"
     },
@@ -1199,11 +1111,9 @@ export default {
       "masked": "New evidence ____ during the investigation.",
       "options": [
         "surface-mcq-10",
-        "surface-mcq-09",
-        "surface-mcq-11",
-        "surface-mcq-08",
-        "surface-mcq-12",
-        "surface-mcq-07"
+        "surface-mcq-05",
+        "surface-mcq-17",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「surfaced」指「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」。",
       "sentenceIndex": 22,
@@ -1212,12 +1122,10 @@ export default {
         "surfaced"
       ],
       "optionReasons": {
-        "surface-mcq-10": "本句指「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-12": "「使隱藏的問題或資訊顯現出來；揭露／帶出」是「surface something」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。"
+        "surface-mcq-10": "本句的「surfaced」指「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」。",
+        "surface-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-10"
     },
@@ -1229,11 +1137,9 @@ export default {
       "masked": "Several problems ____ after the launch.",
       "options": [
         "surface-mcq-10",
-        "surface-mcq-09",
-        "surface-mcq-11",
-        "surface-mcq-08",
-        "surface-mcq-12",
-        "surface-mcq-07"
+        "surface-mcq-05",
+        "surface-mcq-20",
+        "surface-mcq-02"
       ],
       "explanation": "本句的「surfaced」指「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」。",
       "sentenceIndex": 23,
@@ -1242,12 +1148,10 @@ export default {
         "surfaced"
       ],
       "optionReasons": {
-        "surface-mcq-10": "本句指「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。",
-        "surface-mcq-12": "「使隱藏的問題或資訊顯現出來；揭露／帶出」是「surface something」的用法，與本句語境不同。",
-        "surface-mcq-07": "「只按表面或第一印象判斷；表面上／乍看之下」是「on the surface」的用法，與本句語境不同。"
+        "surface-mcq-10": "本句的「surfaced」指「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」。",
+        "surface-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-10"
     },
@@ -1259,11 +1163,9 @@ export default {
       "masked": "He ____ again several weeks later.",
       "options": [
         "surface-mcq-11",
-        "surface-mcq-10",
-        "surface-mcq-12",
-        "surface-mcq-09",
-        "surface-mcq-13",
-        "surface-mcq-08"
+        "surface-mcq-07",
+        "surface-mcq-20",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「surfaced」指「原本消失或隱藏的人／事再次出現」。",
       "sentenceIndex": 24,
@@ -1272,12 +1174,10 @@ export default {
         "surfaced"
       ],
       "optionReasons": {
-        "surface-mcq-11": "本句指「原本消失或隱藏的人／事再次出現」。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-12": "「使隱藏的問題或資訊顯現出來；揭露／帶出」是「surface something」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-13": "「在道路或物體上鋪設／加上表層材料」是「surface a road/material」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。"
+        "surface-mcq-11": "本句的「surfaced」指「原本消失或隱藏的人／事再次出現」。",
+        "surface-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-11"
     },
@@ -1289,11 +1189,9 @@ export default {
       "masked": "The missing document finally ____.",
       "options": [
         "surface-mcq-11",
-        "surface-mcq-10",
-        "surface-mcq-12",
-        "surface-mcq-09",
-        "surface-mcq-13",
-        "surface-mcq-08"
+        "surface-mcq-04",
+        "surface-mcq-03",
+        "surface-mcq-17"
       ],
       "explanation": "本句的「surfaced」指「原本消失或隱藏的人／事再次出現」。",
       "sentenceIndex": 25,
@@ -1302,12 +1200,10 @@ export default {
         "surfaced"
       ],
       "optionReasons": {
-        "surface-mcq-11": "本句指「原本消失或隱藏的人／事再次出現」。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-12": "「使隱藏的問題或資訊顯現出來；揭露／帶出」是「surface something」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。",
-        "surface-mcq-13": "「在道路或物體上鋪設／加上表層材料」是「surface a road/material」的用法，與本句語境不同。",
-        "surface-mcq-08": "「隱藏在表象之下、更深層的」是「beneath/below the surface」的用法，與本句語境不同。"
+        "surface-mcq-11": "本句的「surfaced」指「原本消失或隱藏的人／事再次出現」。",
+        "surface-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-11"
     },
@@ -1319,11 +1215,9 @@ export default {
       "masked": "The discussion ____.",
       "options": [
         "surface-mcq-12",
-        "surface-mcq-11",
-        "surface-mcq-13",
-        "surface-mcq-10",
-        "surface-mcq-14",
-        "surface-mcq-09"
+        "surface-mcq-05",
+        "surface-mcq-03",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「surfaced several concerns」指「使隱藏的問題或資訊顯現出來；揭露／帶出」。",
       "sentenceIndex": 26,
@@ -1332,12 +1226,10 @@ export default {
         "surfaced several concerns"
       ],
       "optionReasons": {
-        "surface-mcq-12": "本句指「使隱藏的問題或資訊顯現出來；揭露／帶出」。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-13": "「在道路或物體上鋪設／加上表層材料」是「surface a road/material」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。"
+        "surface-mcq-12": "本句的「surfaced several concerns」指「使隱藏的問題或資訊顯現出來；揭露／帶出」。",
+        "surface-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-12"
     },
@@ -1349,11 +1241,9 @@ export default {
       "masked": "The review ____.",
       "options": [
         "surface-mcq-12",
-        "surface-mcq-11",
-        "surface-mcq-13",
-        "surface-mcq-10",
-        "surface-mcq-14",
-        "surface-mcq-09"
+        "surface-mcq-05",
+        "surface-mcq-17",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「surfaced a number of problems」指「使隱藏的問題或資訊顯現出來；揭露／帶出」。",
       "sentenceIndex": 27,
@@ -1362,12 +1252,10 @@ export default {
         "surfaced a number of problems"
       ],
       "optionReasons": {
-        "surface-mcq-12": "本句指「使隱藏的問題或資訊顯現出來；揭露／帶出」。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-13": "「在道路或物體上鋪設／加上表層材料」是「surface a road/material」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。",
-        "surface-mcq-09": "「從水下升至水面；浮出水面」是「surface — rise from water」的用法，與本句語境不同。"
+        "surface-mcq-12": "本句的「surfaced a number of problems」指「使隱藏的問題或資訊顯現出來；揭露／帶出」。",
+        "surface-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-12"
     },
@@ -1379,11 +1267,9 @@ export default {
       "masked": "The road was ____.",
       "options": [
         "surface-mcq-13",
-        "surface-mcq-12",
-        "surface-mcq-14",
-        "surface-mcq-11",
-        "surface-mcq-15",
-        "surface-mcq-10"
+        "surface-mcq-22",
+        "surface-mcq-10",
+        "surface-mcq-09"
       ],
       "explanation": "本句的「surfaced with asphalt」指「在道路或物體上鋪設／加上表層材料」。",
       "sentenceIndex": 28,
@@ -1392,12 +1278,10 @@ export default {
         "surfaced with asphalt"
       ],
       "optionReasons": {
-        "surface-mcq-13": "本句指「在道路或物體上鋪設／加上表層材料」。",
-        "surface-mcq-12": "「使隱藏的問題或資訊顯現出來；揭露／帶出」是「surface something」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。"
+        "surface-mcq-13": "本句的「surfaced with asphalt」指「在道路或物體上鋪設／加上表層材料」。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-13"
     },
@@ -1409,11 +1293,9 @@ export default {
       "masked": "The path was ____.",
       "options": [
         "surface-mcq-13",
-        "surface-mcq-12",
-        "surface-mcq-14",
-        "surface-mcq-11",
-        "surface-mcq-15",
-        "surface-mcq-10"
+        "surface-mcq-16",
+        "surface-mcq-18",
+        "surface-mcq-09"
       ],
       "explanation": "本句的「surfaced with stone」指「在道路或物體上鋪設／加上表層材料」。",
       "sentenceIndex": 29,
@@ -1422,12 +1304,10 @@ export default {
         "surfaced with stone"
       ],
       "optionReasons": {
-        "surface-mcq-13": "本句指「在道路或物體上鋪設／加上表層材料」。",
-        "surface-mcq-12": "「使隱藏的問題或資訊顯現出來；揭露／帶出」是「surface something」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。",
-        "surface-mcq-11": "「原本消失或隱藏的人／事再次出現」是「surface — reappear」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-10": "「原本隱藏的資訊、問題等被發現或顯露；浮現／曝光」是「surface — become known」的用法，與本句語境不同。"
+        "surface-mcq-13": "本句的「surfaced with stone」指「在道路或物體上鋪設／加上表層材料」。",
+        "surface-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-13"
     },
@@ -1439,11 +1319,9 @@ export default {
       "masked": "The app ____ relevant information automatically.",
       "options": [
         "surface-mcq-16",
-        "surface-mcq-15",
+        "surface-mcq-08",
         "surface-mcq-17",
-        "surface-mcq-14",
-        "surface-mcq-18",
-        "surface-mcq-13"
+        "surface-mcq-20"
       ],
       "explanation": "本句的「surfaces」指「在系統中把相關資訊或內容呈現出來、提高可見度」。",
       "sentenceIndex": 30,
@@ -1452,12 +1330,10 @@ export default {
         "surfaces"
       ],
       "optionReasons": {
-        "surface-mcq-16": "本句指「在系統中把相關資訊或內容呈現出來、提高可見度」。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-13": "「在道路或物體上鋪設／加上表層材料」是「surface a road/material」的用法，與本句語境不同。"
+        "surface-mcq-16": "本句的「surfaces」指「在系統中把相關資訊或內容呈現出來、提高可見度」。",
+        "surface-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-16"
     },
@@ -1469,11 +1345,9 @@ export default {
       "masked": "The search tool ____ the most useful results first.",
       "options": [
         "surface-mcq-16",
-        "surface-mcq-15",
-        "surface-mcq-17",
-        "surface-mcq-14",
-        "surface-mcq-18",
-        "surface-mcq-13"
+        "surface-mcq-02",
+        "surface-mcq-20",
+        "surface-mcq-07"
       ],
       "explanation": "本句的「surfaces」指「在系統中把相關資訊或內容呈現出來、提高可見度」。",
       "sentenceIndex": 31,
@@ -1482,12 +1356,10 @@ export default {
         "surfaces"
       ],
       "optionReasons": {
-        "surface-mcq-16": "本句指「在系統中把相關資訊或內容呈現出來、提高可見度」。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-13": "「在道路或物體上鋪設／加上表層材料」是「surface a road/material」的用法，與本句語境不同。"
+        "surface-mcq-16": "本句的「surfaces」指「在系統中把相關資訊或內容呈現出來、提高可見度」。",
+        "surface-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-16"
     },
@@ -1499,11 +1371,9 @@ export default {
       "masked": "The navy deployed several ____.",
       "options": [
         "surface-mcq-17",
-        "surface-mcq-16",
-        "surface-mcq-18",
-        "surface-mcq-15",
-        "surface-mcq-19",
-        "surface-mcq-14"
+        "surface-mcq-23",
+        "surface-mcq-20",
+        "surface-mcq-13"
       ],
       "explanation": "本句的「surface ships」指「在海面而非水下運作的水面艦艇」。",
       "sentenceIndex": 32,
@@ -1512,12 +1382,10 @@ export default {
         "surface ships"
       ],
       "optionReasons": {
-        "surface-mcq-17": "本句指「在海面而非水下運作的水面艦艇」。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。"
+        "surface-mcq-17": "本句的「surface ships」指「在海面而非水下運作的水面艦艇」。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-17"
     },
@@ -1529,11 +1397,9 @@ export default {
       "masked": "A submarine operates differently from a ____.",
       "options": [
         "surface-mcq-17",
-        "surface-mcq-16",
-        "surface-mcq-18",
-        "surface-mcq-15",
-        "surface-mcq-19",
-        "surface-mcq-14"
+        "surface-mcq-12",
+        "surface-mcq-01",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「surface vessel」指「在海面而非水下運作的水面艦艇」。",
       "sentenceIndex": 33,
@@ -1542,12 +1408,10 @@ export default {
         "surface vessel"
       ],
       "optionReasons": {
-        "surface-mcq-17": "本句指「在海面而非水下運作的水面艦艇」。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。"
+        "surface-mcq-17": "本句的「surface vessel」指「在海面而非水下運作的水面艦艇」。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-17"
     },
@@ -1559,11 +1423,9 @@ export default {
       "masked": "The goods were sent by ____.",
       "options": [
         "surface-mcq-17",
-        "surface-mcq-16",
         "surface-mcq-18",
-        "surface-mcq-15",
-        "surface-mcq-19",
-        "surface-mcq-14"
+        "surface-mcq-11",
+        "surface-mcq-06"
       ],
       "explanation": "本句的「surface transport」指「在海面而非水下運作的水面艦艇」。",
       "sentenceIndex": 34,
@@ -1572,12 +1434,10 @@ export default {
         "surface transport"
       ],
       "optionReasons": {
-        "surface-mcq-17": "本句指「在海面而非水下運作的水面艦艇」。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。"
+        "surface-mcq-17": "本句的「surface transport」指「在海面而非水下運作的水面艦艇」。",
+        "surface-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-17"
     },
@@ -1589,11 +1449,9 @@ export default {
       "masked": "____ is slower than airmail.",
       "options": [
         "surface-mcq-17",
-        "surface-mcq-16",
-        "surface-mcq-18",
-        "surface-mcq-15",
-        "surface-mcq-19",
-        "surface-mcq-14"
+        "surface-mcq-12",
+        "surface-mcq-03",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「Surface mail」指「在海面而非水下運作的水面艦艇」。",
       "sentenceIndex": 35,
@@ -1602,12 +1460,10 @@ export default {
         "Surface mail"
       ],
       "optionReasons": {
-        "surface-mcq-17": "本句指「在海面而非水下運作的水面艦艇」。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-14": "「重新鋪設路面或表層」是「resurface — road」的用法，與本句語境不同。"
+        "surface-mcq-17": "本句的「Surface mail」指「在海面而非水下運作的水面艦艇」。",
+        "surface-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-17"
     },
@@ -1619,11 +1475,9 @@ export default {
       "masked": "The report gives only a ____.",
       "options": [
         "surface-mcq-18",
-        "surface-mcq-17",
-        "surface-mcq-19",
-        "surface-mcq-16",
-        "surface-mcq-20",
-        "surface-mcq-15"
+        "surface-mcq-09",
+        "surface-mcq-10",
+        "surface-mcq-13"
       ],
       "explanation": "本句的「superficial analysis」指「只停留在表面、缺乏深度的；膚淺的」。",
       "sentenceIndex": 36,
@@ -1632,12 +1486,10 @@ export default {
         "superficial analysis"
       ],
       "optionReasons": {
-        "surface-mcq-18": "本句指「只停留在表面、缺乏深度的；膚淺的」。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。"
+        "surface-mcq-18": "本句的「superficial analysis」指「只停留在表面、缺乏深度的；膚淺的」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-18"
     },
@@ -1649,11 +1501,9 @@ export default {
       "masked": "Their similarities are ____.",
       "options": [
         "surface-mcq-18",
-        "surface-mcq-17",
-        "surface-mcq-19",
-        "surface-mcq-16",
-        "surface-mcq-20",
-        "surface-mcq-15"
+        "surface-mcq-13",
+        "surface-mcq-10",
+        "surface-mcq-09"
       ],
       "explanation": "本句的「superficial」指「只停留在表面、缺乏深度的；膚淺的」。",
       "sentenceIndex": 37,
@@ -1662,12 +1512,10 @@ export default {
         "superficial"
       ],
       "optionReasons": {
-        "surface-mcq-18": "本句指「只停留在表面、缺乏深度的；膚淺的」。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-15": "「記憶、問題、情緒等再次浮現」是「resurface — figurative」的用法，與本句語境不同。"
+        "surface-mcq-18": "本句的「superficial」指「只停留在表面、缺乏深度的；膚淺的」。",
+        "surface-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-18"
     },
@@ -1679,11 +1527,9 @@ export default {
       "masked": "The two designs are ____.",
       "options": [
         "surface-mcq-19",
-        "surface-mcq-18",
-        "surface-mcq-20",
-        "surface-mcq-17",
-        "surface-mcq-21",
-        "surface-mcq-16"
+        "surface-mcq-09",
+        "surface-mcq-23",
+        "surface-mcq-03"
       ],
       "explanation": "本句的「superficially similar」指「只從表面來看；缺乏深入地」。",
       "sentenceIndex": 38,
@@ -1692,12 +1538,10 @@ export default {
         "superficially similar"
       ],
       "optionReasons": {
-        "surface-mcq-19": "本句指「只從表面來看；缺乏深入地」。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。"
+        "surface-mcq-19": "本句的「superficially similar」指「只從表面來看；缺乏深入地」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-19"
     },
@@ -1709,11 +1553,9 @@ export default {
       "masked": "He understood the issue only ____.",
       "options": [
         "surface-mcq-19",
-        "surface-mcq-18",
-        "surface-mcq-20",
-        "surface-mcq-17",
-        "surface-mcq-21",
-        "surface-mcq-16"
+        "surface-mcq-03",
+        "surface-mcq-11",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「superficially」指「只從表面來看；缺乏深入地」。",
       "sentenceIndex": 39,
@@ -1722,12 +1564,10 @@ export default {
         "superficially"
       ],
       "optionReasons": {
-        "surface-mcq-19": "本句指「只從表面來看；缺乏深入地」。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-16": "「在系統中把相關資訊或內容呈現出來、提高可見度」是「surface information/content」的用法，與本句語境不同。"
+        "surface-mcq-19": "本句的「superficially」指「只從表面來看；缺乏深入地」。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-19"
     },
@@ -1739,11 +1579,9 @@ export default {
       "masked": "Road ____ begins next week.",
       "options": [
         "surface-mcq-23",
-        "surface-mcq-22",
-        "surface-mcq-21",
-        "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-18"
+        "surface-mcq-07",
+        "surface-mcq-02",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「resurfacing」指「表示重新鋪面；重新浮現」。",
       "sentenceIndex": 40,
@@ -1752,12 +1590,10 @@ export default {
         "resurfacing"
       ],
       "optionReasons": {
-        "surface-mcq-23": "本句指「表示重新鋪面；重新浮現」。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-23": "本句的「resurfacing」指「表示重新鋪面；重新浮現」。",
+        "surface-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-23"
     },
@@ -1769,11 +1605,9 @@ export default {
       "masked": "The ____ of old concerns caused tension.",
       "options": [
         "surface-mcq-23",
-        "surface-mcq-22",
-        "surface-mcq-21",
-        "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-18"
+        "surface-mcq-02",
+        "surface-mcq-05",
+        "surface-mcq-20"
       ],
       "explanation": "本句的「resurfacing」指「表示重新鋪面；重新浮現」。",
       "sentenceIndex": 41,
@@ -1782,12 +1616,10 @@ export default {
         "resurfacing"
       ],
       "optionReasons": {
-        "surface-mcq-23": "本句指「表示重新鋪面；重新浮現」。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-23": "本句的「resurfacing」指「表示重新鋪面；重新浮現」。",
+        "surface-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-23"
     },
@@ -1799,11 +1631,9 @@ export default {
       "masked": "One lesson can only ____ of this topic.",
       "options": [
         "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-21",
-        "surface-mcq-18",
-        "surface-mcq-22",
-        "surface-mcq-17"
+        "surface-mcq-03",
+        "surface-mcq-23",
+        "surface-mcq-16"
       ],
       "explanation": "本句的「scratch the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
       "sentenceIndex": 42,
@@ -1812,12 +1642,10 @@ export default {
         "scratch the surface"
       ],
       "optionReasons": {
-        "surface-mcq-20": "本句指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。"
+        "surface-mcq-20": "本句的「scratch the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-20"
     },
@@ -1829,11 +1657,9 @@ export default {
       "masked": "We have barely ____ of the problem.",
       "options": [
         "surface-mcq-20",
-        "surface-mcq-19",
         "surface-mcq-21",
-        "surface-mcq-18",
-        "surface-mcq-22",
-        "surface-mcq-17"
+        "surface-mcq-02",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「scratched the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
       "sentenceIndex": 43,
@@ -1842,12 +1668,10 @@ export default {
         "scratched the surface"
       ],
       "optionReasons": {
-        "surface-mcq-20": "本句指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。"
+        "surface-mcq-20": "本句的「scratched the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
+        "surface-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-20"
     },
@@ -1859,11 +1683,9 @@ export default {
       "masked": "The article ____.",
       "options": [
         "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-21",
-        "surface-mcq-18",
+        "surface-mcq-13",
         "surface-mcq-22",
-        "surface-mcq-17"
+        "surface-mcq-11"
       ],
       "explanation": "本句的「barely scratches the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
       "sentenceIndex": 44,
@@ -1872,12 +1694,10 @@ export default {
         "barely scratches the surface"
       ],
       "optionReasons": {
-        "surface-mcq-20": "本句指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。"
+        "surface-mcq-20": "本句的「barely scratches the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
+        "surface-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-20"
     },
@@ -1889,11 +1709,9 @@ export default {
       "masked": "Even this long report ____ of the issue.",
       "options": [
         "surface-mcq-20",
-        "surface-mcq-19",
-        "surface-mcq-21",
-        "surface-mcq-18",
-        "surface-mcq-22",
-        "surface-mcq-17"
+        "surface-mcq-09",
+        "surface-mcq-23",
+        "surface-mcq-08"
       ],
       "explanation": "本句的「barely scratches the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
       "sentenceIndex": 45,
@@ -1902,12 +1720,10 @@ export default {
         "barely scratches the surface"
       ],
       "optionReasons": {
-        "surface-mcq-20": "本句指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-21": "「實際浮上表面；比喻隱藏問題、情緒等顯露出來」是「rise/come to the surface」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-17": "「在海面而非水下運作的水面艦艇」是「surface ship/vessel」的用法，與本句語境不同。"
+        "surface-mcq-20": "本句的「barely scratches the surface」指「只開始了解或處理極小的一部分；僅觸及皮毛」。",
+        "surface-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-20"
     },
@@ -1920,10 +1736,8 @@ export default {
       "options": [
         "surface-mcq-21",
         "surface-mcq-20",
-        "surface-mcq-22",
-        "surface-mcq-19",
-        "surface-mcq-23",
-        "surface-mcq-18"
+        "surface-mcq-02",
+        "surface-mcq-23"
       ],
       "explanation": "本句的「rose to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
       "sentenceIndex": 46,
@@ -1932,12 +1746,10 @@ export default {
         "rose to the surface"
       ],
       "optionReasons": {
-        "surface-mcq-21": "本句指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-23": "「表示重新鋪面；重新浮現」是「22. resurfacing」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-21": "本句的「rose to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-21"
     },
@@ -1949,11 +1761,9 @@ export default {
       "masked": "Old tensions ____ again.",
       "options": [
         "surface-mcq-21",
+        "surface-mcq-13",
         "surface-mcq-20",
-        "surface-mcq-22",
-        "surface-mcq-19",
-        "surface-mcq-23",
-        "surface-mcq-18"
+        "surface-mcq-17"
       ],
       "explanation": "本句的「rose to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
       "sentenceIndex": 47,
@@ -1962,12 +1772,10 @@ export default {
         "rose to the surface"
       ],
       "optionReasons": {
-        "surface-mcq-21": "本句指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-23": "「表示重新鋪面；重新浮現」是「22. resurfacing」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-21": "本句的「rose to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
+        "surface-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-21"
     },
@@ -1979,11 +1787,9 @@ export default {
       "masked": "Several disagreements ____.",
       "options": [
         "surface-mcq-21",
+        "surface-mcq-03",
         "surface-mcq-20",
-        "surface-mcq-22",
-        "surface-mcq-19",
-        "surface-mcq-23",
-        "surface-mcq-18"
+        "surface-mcq-17"
       ],
       "explanation": "本句的「came to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
       "sentenceIndex": 48,
@@ -1992,12 +1798,10 @@ export default {
         "came to the surface"
       ],
       "optionReasons": {
-        "surface-mcq-21": "本句指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-23": "「表示重新鋪面；重新浮現」是「22. resurfacing」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-21": "本句的「came to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
+        "surface-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-21"
     },
@@ -2009,11 +1813,9 @@ export default {
       "masked": "Her frustration eventually ____.",
       "options": [
         "surface-mcq-21",
+        "surface-mcq-13",
         "surface-mcq-20",
-        "surface-mcq-22",
-        "surface-mcq-19",
-        "surface-mcq-23",
-        "surface-mcq-18"
+        "surface-mcq-17"
       ],
       "explanation": "本句的「came to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
       "sentenceIndex": 49,
@@ -2022,12 +1824,10 @@ export default {
         "came to the surface"
       ],
       "optionReasons": {
-        "surface-mcq-21": "本句指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
-        "surface-mcq-20": "「只開始了解或處理極小的一部分；僅觸及皮毛」是「scratch the surface」的用法，與本句語境不同。",
-        "surface-mcq-22": "「表面上；乍看之下；從表面來看」是「Passage meaning」的用法，與本句語境不同。",
-        "surface-mcq-19": "「只從表面來看；缺乏深入地」是「superficially」的用法，與本句語境不同。",
-        "surface-mcq-23": "「表示重新鋪面；重新浮現」是「22. resurfacing」的用法，與本句語境不同。",
-        "surface-mcq-18": "「只停留在表面、缺乏深度的；膚淺的」是「superficial」的用法，與本句語境不同。"
+        "surface-mcq-21": "本句的「came to the surface」指「實際浮上表面；比喻隱藏問題、情緒等顯露出來」。",
+        "surface-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "surface-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "surface-mcq-21"
     }
@@ -2039,5 +1839,7 @@ export default {
     "sha256": "1eed12bef5fead9988e9401470ccabcdc2372e0b66d3e256d49d4ba5c1a46cc8",
     "pages": 16
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

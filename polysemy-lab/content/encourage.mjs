@@ -450,11 +450,8 @@ export default {
       "masked": "Her teacher ____ her before the exam.",
       "options": [
         "encourage-mcq-01",
-        "encourage-mcq-02",
-        "encourage-mcq-03",
-        "encourage-mcq-04",
-        "encourage-mcq-05",
-        "encourage-mcq-06"
+        "encourage-mcq-11",
+        "encourage-mcq-07"
       ],
       "explanation": "本句的「encouraged」指「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」。",
       "sentenceIndex": 0,
@@ -463,12 +460,9 @@ export default {
         "encouraged"
       ],
       "optionReasons": {
-        "encourage-mcq-01": "本句指「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」。",
-        "encourage-mcq-02": "「給予支持／推動，使某人更願意去做 X」與本句語境不同。",
-        "encourage-mcq-03": "「能增加信心、希望或行動意欲的支持／說話」與本句語境不同。",
-        "encourage-mcq-04": "「能令某人更有信心、希望或感到被支持的」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。"
+        "encourage-mcq-01": "本句的「encouraged」指「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」。",
+        "encourage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-01"
     },
@@ -480,11 +474,9 @@ export default {
       "masked": "His friends ____ him when he felt nervous.",
       "options": [
         "encourage-mcq-01",
-        "encourage-mcq-02",
-        "encourage-mcq-03",
-        "encourage-mcq-04",
-        "encourage-mcq-05",
-        "encourage-mcq-06"
+        "encourage-mcq-08",
+        "encourage-mcq-18",
+        "encourage-mcq-13"
       ],
       "explanation": "本句的「encouraged」指「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」。",
       "sentenceIndex": 1,
@@ -493,12 +485,10 @@ export default {
         "encouraged"
       ],
       "optionReasons": {
-        "encourage-mcq-01": "本句指「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」。",
-        "encourage-mcq-02": "「給予支持／推動，使某人更願意去做 X」與本句語境不同。",
-        "encourage-mcq-03": "「能增加信心、希望或行動意欲的支持／說話」與本句語境不同。",
-        "encourage-mcq-04": "「能令某人更有信心、希望或感到被支持的」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。"
+        "encourage-mcq-01": "本句的「encouraged」指「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-01"
     },
@@ -510,11 +500,8 @@ export default {
       "masked": "Not all comments were ____.",
       "options": [
         "encourage-mcq-04",
-        "encourage-mcq-03",
-        "encourage-mcq-05",
-        "encourage-mcq-02",
-        "encourage-mcq-06",
-        "encourage-mcq-01"
+        "encourage-mcq-07",
+        "encourage-mcq-18"
       ],
       "explanation": "本句的「encouraging」指「能令某人更有信心、希望或感到被支持的」。",
       "sentenceIndex": 8,
@@ -523,12 +510,9 @@ export default {
         "encouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-04": "本句指「能令某人更有信心、希望或感到被支持的」。",
-        "encourage-mcq-03": "「能增加信心、希望或行動意欲的支持／說話」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。",
-        "encourage-mcq-02": "「給予支持／推動，使某人更願意去做 X」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。",
-        "encourage-mcq-01": "「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」與本句語境不同。"
+        "encourage-mcq-04": "本句的「encouraging」指「能令某人更有信心、希望或感到被支持的」。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-04"
     },
@@ -540,11 +524,9 @@ export default {
       "masked": "She received several ____ messages.",
       "options": [
         "encourage-mcq-04",
-        "encourage-mcq-03",
-        "encourage-mcq-05",
-        "encourage-mcq-02",
-        "encourage-mcq-06",
-        "encourage-mcq-01"
+        "encourage-mcq-10",
+        "encourage-mcq-12",
+        "encourage-mcq-08"
       ],
       "explanation": "本句的「encouraging」指「能令某人更有信心、希望或感到被支持的」。",
       "sentenceIndex": 9,
@@ -553,12 +535,10 @@ export default {
         "encouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-04": "本句指「能令某人更有信心、希望或感到被支持的」。",
-        "encourage-mcq-03": "「能增加信心、希望或行動意欲的支持／說話」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。",
-        "encourage-mcq-02": "「給予支持／推動，使某人更願意去做 X」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。",
-        "encourage-mcq-01": "「透過支持、安慰或正面說話令某人更有信心、希望或勇氣」與本句語境不同。"
+        "encourage-mcq-04": "本句的「encouraging」指「能令某人更有信心、希望或感到被支持的」。",
+        "encourage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-04"
     },
@@ -570,11 +550,9 @@ export default {
       "masked": "The programme is designed to ____.",
       "options": [
         "encourage-mcq-07",
-        "encourage-mcq-06",
-        "encourage-mcq-08",
-        "encourage-mcq-05",
-        "encourage-mcq-09",
-        "encourage-mcq-04"
+        "encourage-mcq-19",
+        "encourage-mcq-14",
+        "encourage-mcq-18"
       ],
       "explanation": "本句的「encourage participation」指「提高人們參與某活動的意願／程度」。",
       "sentenceIndex": 18,
@@ -583,12 +561,10 @@ export default {
         "encourage participation"
       ],
       "optionReasons": {
-        "encourage-mcq-07": "本句指「提高人們參與某活動的意願／程度」。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-04": "「能令某人更有信心、希望或感到被支持的」與本句語境不同。"
+        "encourage-mcq-07": "本句的「encourage participation」指「提高人們參與某活動的意願／程度」。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-07"
     },
@@ -600,11 +576,9 @@ export default {
       "masked": "Open discussion can ____ wider participation.",
       "options": [
         "encourage-mcq-07",
-        "encourage-mcq-06",
-        "encourage-mcq-08",
-        "encourage-mcq-05",
-        "encourage-mcq-09",
-        "encourage-mcq-04"
+        "encourage-mcq-19",
+        "encourage-mcq-16",
+        "encourage-mcq-18"
       ],
       "explanation": "本句的「encourage」指「提高人們參與某活動的意願／程度」。",
       "sentenceIndex": 19,
@@ -613,12 +587,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-07": "本句指「提高人們參與某活動的意願／程度」。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-04": "「能令某人更有信心、希望或感到被支持的」與本句語境不同。"
+        "encourage-mcq-07": "本句的「encourage」指「提高人們參與某活動的意願／程度」。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-07"
     },
@@ -630,11 +602,9 @@ export default {
       "masked": "The platform uses notifications to ____.",
       "options": [
         "encourage-mcq-08",
-        "encourage-mcq-07",
-        "encourage-mcq-09",
-        "encourage-mcq-06",
         "encourage-mcq-10",
-        "encourage-mcq-05"
+        "encourage-mcq-17",
+        "encourage-mcq-15"
       ],
       "explanation": "本句的「encourage engagement」指「促進使用者、觀眾或參與者作出互動」。",
       "sentenceIndex": 20,
@@ -643,12 +613,10 @@ export default {
         "encourage engagement"
       ],
       "optionReasons": {
-        "encourage-mcq-08": "本句指「促進使用者、觀眾或參與者作出互動」。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。"
+        "encourage-mcq-08": "本句的「encourage engagement」指「促進使用者、觀眾或參與者作出互動」。",
+        "encourage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-08"
     },
@@ -660,11 +628,9 @@ export default {
       "masked": "Questions can ____ audience engagement.",
       "options": [
         "encourage-mcq-08",
-        "encourage-mcq-07",
-        "encourage-mcq-09",
-        "encourage-mcq-06",
-        "encourage-mcq-10",
-        "encourage-mcq-05"
+        "encourage-mcq-12",
+        "encourage-mcq-01",
+        "encourage-mcq-13"
       ],
       "explanation": "本句的「encourage」指「促進使用者、觀眾或參與者作出互動」。",
       "sentenceIndex": 21,
@@ -673,12 +639,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-08": "本句指「促進使用者、觀眾或參與者作出互動」。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-05": "「因支持、進展或好跡象而感到更有信心／希望的」與本句語境不同。"
+        "encourage-mcq-08": "本句的「encourage」指「促進使用者、觀眾或參與者作出互動」。",
+        "encourage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-08"
     },
@@ -691,10 +655,8 @@ export default {
       "options": [
         "encourage-mcq-09",
         "encourage-mcq-08",
-        "encourage-mcq-10",
-        "encourage-mcq-07",
-        "encourage-mcq-11",
-        "encourage-mcq-06"
+        "encourage-mcq-16",
+        "encourage-mcq-15"
       ],
       "explanation": "本句的「encourage economic growth」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
       "sentenceIndex": 26,
@@ -703,12 +665,10 @@ export default {
         "encourage economic growth"
       ],
       "optionReasons": {
-        "encourage-mcq-09": "本句指「創造有利條件，使經濟、生物等更容易增長／生長」。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。"
+        "encourage-mcq-09": "本句的「encourage economic growth」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-09"
     },
@@ -720,11 +680,9 @@ export default {
       "masked": "Warm conditions ____ plant growth.",
       "options": [
         "encourage-mcq-09",
+        "encourage-mcq-19",
         "encourage-mcq-08",
-        "encourage-mcq-10",
-        "encourage-mcq-07",
-        "encourage-mcq-11",
-        "encourage-mcq-06"
+        "encourage-mcq-17"
       ],
       "explanation": "本句的「encourage」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
       "sentenceIndex": 27,
@@ -733,12 +691,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-09": "本句指「創造有利條件，使經濟、生物等更容易增長／生長」。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。"
+        "encourage-mcq-09": "本句的「encourage」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-09"
     },
@@ -750,11 +706,9 @@ export default {
       "masked": "Tax incentives may ____.",
       "options": [
         "encourage-mcq-10",
-        "encourage-mcq-09",
-        "encourage-mcq-11",
-        "encourage-mcq-08",
+        "encourage-mcq-16",
         "encourage-mcq-12",
-        "encourage-mcq-07"
+        "encourage-mcq-08"
       ],
       "explanation": "本句的「encourage investment」指「透過誘因／條件提高投資意願」。",
       "sentenceIndex": 30,
@@ -763,12 +717,10 @@ export default {
         "encourage investment"
       ],
       "optionReasons": {
-        "encourage-mcq-10": "本句指「透過誘因／條件提高投資意願」。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。"
+        "encourage-mcq-10": "本句的「encourage investment」指「透過誘因／條件提高投資意願」。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-10"
     },
@@ -780,11 +732,9 @@ export default {
       "masked": "The reform was intended to ____ foreign investment.",
       "options": [
         "encourage-mcq-10",
-        "encourage-mcq-09",
-        "encourage-mcq-11",
-        "encourage-mcq-08",
-        "encourage-mcq-12",
-        "encourage-mcq-07"
+        "encourage-mcq-15",
+        "encourage-mcq-17",
+        "encourage-mcq-08"
       ],
       "explanation": "本句的「encourage」指「透過誘因／條件提高投資意願」。",
       "sentenceIndex": 31,
@@ -793,12 +743,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-10": "本句指「透過誘因／條件提高投資意願」。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。"
+        "encourage-mcq-10": "本句的「encourage」指「透過誘因／條件提高投資意願」。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-10"
     },
@@ -810,11 +758,9 @@ export default {
       "masked": "Competition can ____.",
       "options": [
         "encourage-mcq-11",
-        "encourage-mcq-10",
-        "encourage-mcq-12",
-        "encourage-mcq-09",
-        "encourage-mcq-13",
-        "encourage-mcq-08"
+        "encourage-mcq-15",
+        "encourage-mcq-07",
+        "encourage-mcq-17"
       ],
       "explanation": "本句的「encourage innovation」指「創造環境／誘因，使新想法和新方法更容易出現」。",
       "sentenceIndex": 32,
@@ -823,12 +769,10 @@ export default {
         "encourage innovation"
       ],
       "optionReasons": {
-        "encourage-mcq-11": "本句指「創造環境／誘因，使新想法和新方法更容易出現」。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。"
+        "encourage-mcq-11": "本句的「encourage innovation」指「創造環境／誘因，使新想法和新方法更容易出現」。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-11"
     },
@@ -840,11 +784,9 @@ export default {
       "masked": "The company created a fund to ____ innovation.",
       "options": [
         "encourage-mcq-11",
-        "encourage-mcq-10",
-        "encourage-mcq-12",
-        "encourage-mcq-09",
-        "encourage-mcq-13",
-        "encourage-mcq-08"
+        "encourage-mcq-15",
+        "encourage-mcq-17",
+        "encourage-mcq-13"
       ],
       "explanation": "本句的「encourage」指「創造環境／誘因，使新想法和新方法更容易出現」。",
       "sentenceIndex": 33,
@@ -853,12 +795,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-11": "本句指「創造環境／誘因，使新想法和新方法更容易出現」。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。"
+        "encourage-mcq-11": "本句的「encourage」指「創造環境／誘因，使新想法和新方法更容易出現」。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-11"
     },
@@ -870,11 +810,9 @@ export default {
       "masked": "Ignoring the behaviour may ____.",
       "options": [
         "encourage-mcq-12",
-        "encourage-mcq-11",
-        "encourage-mcq-13",
-        "encourage-mcq-10",
-        "encourage-mcq-14",
-        "encourage-mcq-09"
+        "encourage-mcq-15",
+        "encourage-mcq-16",
+        "encourage-mcq-07"
       ],
       "explanation": "本句的「encourage it」指「使不良行為更容易發生；助長」。",
       "sentenceIndex": 50,
@@ -883,12 +821,10 @@ export default {
         "encourage it"
       ],
       "optionReasons": {
-        "encourage-mcq-12": "本句指「使不良行為更容易發生；助長」。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。"
+        "encourage-mcq-12": "本句的「encourage it」指「使不良行為更容易發生；助長」。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-12"
     },
@@ -900,11 +836,8 @@ export default {
       "masked": "Easy access can ____ misuse.",
       "options": [
         "encourage-mcq-12",
-        "encourage-mcq-11",
-        "encourage-mcq-13",
-        "encourage-mcq-10",
-        "encourage-mcq-14",
-        "encourage-mcq-09"
+        "encourage-mcq-01",
+        "encourage-mcq-07"
       ],
       "explanation": "本句的「encourage」指「使不良行為更容易發生；助長」。",
       "sentenceIndex": 51,
@@ -913,12 +846,9 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-12": "本句指「使不良行為更容易發生；助長」。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-09": "「創造有利條件，使經濟、生物等更容易增長／生長」與本句語境不同。"
+        "encourage-mcq-12": "本句的「encourage」指「使不良行為更容易發生；助長」。",
+        "encourage-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-12"
     },
@@ -930,11 +860,9 @@ export default {
       "masked": "Discounts can ____.",
       "options": [
         "encourage-mcq-13",
-        "encourage-mcq-12",
-        "encourage-mcq-14",
+        "encourage-mcq-16",
         "encourage-mcq-11",
-        "encourage-mcq-15",
-        "encourage-mcq-10"
+        "encourage-mcq-19"
       ],
       "explanation": "本句的「encourage spending」指「令消費意欲增加；刺激消費」。",
       "sentenceIndex": 56,
@@ -943,12 +871,10 @@ export default {
         "encourage spending"
       ],
       "optionReasons": {
-        "encourage-mcq-13": "本句指「令消費意欲增加；刺激消費」。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。"
+        "encourage-mcq-13": "本句的「encourage spending」指「令消費意欲增加；刺激消費」。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-13"
     },
@@ -960,11 +886,9 @@ export default {
       "masked": "Low interest rates may ____ borrowing and spending.",
       "options": [
         "encourage-mcq-13",
-        "encourage-mcq-12",
-        "encourage-mcq-14",
-        "encourage-mcq-11",
-        "encourage-mcq-15",
-        "encourage-mcq-10"
+        "encourage-mcq-19",
+        "encourage-mcq-18",
+        "encourage-mcq-16"
       ],
       "explanation": "本句的「encourage」指「令消費意欲增加；刺激消費」。",
       "sentenceIndex": 57,
@@ -973,12 +897,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-13": "本句指「令消費意欲增加；刺激消費」。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。"
+        "encourage-mcq-13": "本句的「encourage」指「令消費意欲增加；刺激消費」。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-13"
     },
@@ -990,11 +912,9 @@ export default {
       "masked": "The early results are an ____.",
       "options": [
         "encourage-mcq-14",
-        "encourage-mcq-13",
-        "encourage-mcq-15",
-        "encourage-mcq-12",
-        "encourage-mcq-16",
-        "encourage-mcq-11"
+        "encourage-mcq-11",
+        "encourage-mcq-08",
+        "encourage-mcq-19"
       ],
       "explanation": "本句的「encouraging sign」指「顯示事情可能向好發展、令人更有希望的跡象」。",
       "sentenceIndex": 66,
@@ -1003,12 +923,10 @@ export default {
         "encouraging sign"
       ],
       "optionReasons": {
-        "encourage-mcq-14": "本句指「顯示事情可能向好發展、令人更有希望的跡象」。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。"
+        "encourage-mcq-14": "本句的「encouraging sign」指「顯示事情可能向好發展、令人更有希望的跡象」。",
+        "encourage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-14"
     },
@@ -1020,11 +938,9 @@ export default {
       "masked": "More applications are an ____ sign.",
       "options": [
         "encourage-mcq-14",
-        "encourage-mcq-13",
-        "encourage-mcq-15",
-        "encourage-mcq-12",
-        "encourage-mcq-16",
-        "encourage-mcq-11"
+        "encourage-mcq-11",
+        "encourage-mcq-07",
+        "encourage-mcq-19"
       ],
       "explanation": "本句的「encouraging」指「顯示事情可能向好發展、令人更有希望的跡象」。",
       "sentenceIndex": 67,
@@ -1033,12 +949,10 @@ export default {
         "encouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-14": "本句指「顯示事情可能向好發展、令人更有希望的跡象」。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。"
+        "encourage-mcq-14": "本句的「encouraging」指「顯示事情可能向好發展、令人更有希望的跡象」。",
+        "encourage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-14"
     },
@@ -1050,11 +964,9 @@ export default {
       "masked": "The trial produced ____.",
       "options": [
         "encourage-mcq-15",
-        "encourage-mcq-14",
-        "encourage-mcq-16",
-        "encourage-mcq-13",
-        "encourage-mcq-17",
-        "encourage-mcq-12"
+        "encourage-mcq-08",
+        "encourage-mcq-11",
+        "encourage-mcq-16"
       ],
       "explanation": "本句的「encouraging results」指「好到足以令人對未來更有信心的結果」。",
       "sentenceIndex": 68,
@@ -1063,12 +975,10 @@ export default {
         "encouraging results"
       ],
       "optionReasons": {
-        "encourage-mcq-15": "本句指「好到足以令人對未來更有信心的結果」。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。"
+        "encourage-mcq-15": "本句的「encouraging results」指「好到足以令人對未來更有信心的結果」。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-15"
     },
@@ -1080,11 +990,9 @@ export default {
       "masked": "Early test results were ____.",
       "options": [
         "encourage-mcq-15",
-        "encourage-mcq-14",
-        "encourage-mcq-16",
-        "encourage-mcq-13",
-        "encourage-mcq-17",
-        "encourage-mcq-12"
+        "encourage-mcq-11",
+        "encourage-mcq-08",
+        "encourage-mcq-13"
       ],
       "explanation": "本句的「encouraging」指「好到足以令人對未來更有信心的結果」。",
       "sentenceIndex": 69,
@@ -1093,12 +1001,10 @@ export default {
         "encouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-15": "本句指「好到足以令人對未來更有信心的結果」。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-12": "「使不良行為更容易發生；助長」與本句語境不同。"
+        "encourage-mcq-15": "本句的「encouraging」指「好到足以令人對未來更有信心的結果」。",
+        "encourage-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-15"
     },
@@ -1110,11 +1016,9 @@ export default {
       "masked": "The early figures are ____.",
       "options": [
         "encourage-mcq-16",
-        "encourage-mcq-15",
+        "encourage-mcq-09",
         "encourage-mcq-17",
-        "encourage-mcq-14",
-        "encourage-mcq-18",
-        "encourage-mcq-13"
+        "encourage-mcq-19"
       ],
       "explanation": "本句的「not very encouraging」指「沒有給人好轉／成功希望；情況不太樂觀」。",
       "sentenceIndex": 75,
@@ -1123,12 +1027,10 @@ export default {
         "not very encouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-16": "本句指「沒有給人好轉／成功希望；情況不太樂觀」。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。"
+        "encourage-mcq-16": "本句的「not very encouraging」指「沒有給人好轉／成功希望；情況不太樂觀」。",
+        "encourage-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-16"
     },
@@ -1140,11 +1042,9 @@ export default {
       "masked": "The doctor’s expression was not ____.",
       "options": [
         "encourage-mcq-16",
-        "encourage-mcq-15",
-        "encourage-mcq-17",
-        "encourage-mcq-14",
-        "encourage-mcq-18",
-        "encourage-mcq-13"
+        "encourage-mcq-12",
+        "encourage-mcq-10",
+        "encourage-mcq-17"
       ],
       "explanation": "本句的「encouraging」指「沒有給人好轉／成功希望；情況不太樂觀」。",
       "sentenceIndex": 76,
@@ -1153,12 +1053,10 @@ export default {
         "encouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-16": "本句指「沒有給人好轉／成功希望；情況不太樂觀」。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。",
-        "encourage-mcq-13": "「令消費意欲增加；刺激消費」與本句語境不同。"
+        "encourage-mcq-16": "本句的「encouraging」指「沒有給人好轉／成功希望；情況不太樂觀」。",
+        "encourage-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-16"
     },
@@ -1170,11 +1068,9 @@ export default {
       "masked": "Students are ____.",
       "options": [
         "encourage-mcq-17",
-        "encourage-mcq-16",
-        "encourage-mcq-18",
-        "encourage-mcq-15",
-        "encourage-mcq-19",
-        "encourage-mcq-14"
+        "encourage-mcq-10",
+        "encourage-mcq-08",
+        "encourage-mcq-12"
       ],
       "explanation": "本句的「encouraged to participate」指「被支持／建議去做某事，通常語氣比命令柔和」。",
       "sentenceIndex": 81,
@@ -1183,12 +1079,10 @@ export default {
         "encouraged to participate"
       ],
       "optionReasons": {
-        "encourage-mcq-17": "本句指「被支持／建議去做某事，通常語氣比命令柔和」。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-19": "「打擊某人信心，使其灰心」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。"
+        "encourage-mcq-17": "本句的「encouraged to participate」指「被支持／建議去做某事，通常語氣比命令柔和」。",
+        "encourage-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-17"
     },
@@ -1200,11 +1094,9 @@ export default {
       "masked": "Users are ____ to change their passwords regularly.",
       "options": [
         "encourage-mcq-17",
-        "encourage-mcq-16",
         "encourage-mcq-18",
-        "encourage-mcq-15",
-        "encourage-mcq-19",
-        "encourage-mcq-14"
+        "encourage-mcq-07",
+        "encourage-mcq-19"
       ],
       "explanation": "本句的「encouraged」指「被支持／建議去做某事，通常語氣比命令柔和」。",
       "sentenceIndex": 82,
@@ -1213,12 +1105,10 @@ export default {
         "encouraged"
       ],
       "optionReasons": {
-        "encourage-mcq-17": "本句指「被支持／建議去做某事，通常語氣比命令柔和」。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。",
-        "encourage-mcq-19": "「打擊某人信心，使其灰心」與本句語境不同。",
-        "encourage-mcq-14": "「顯示事情可能向好發展、令人更有希望的跡象」與本句語境不同。"
+        "encourage-mcq-17": "本句的「encouraged」指「被支持／建議去做某事，通常語氣比命令柔和」。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-17"
     },
@@ -1230,11 +1120,9 @@ export default {
       "masked": "Warm, wet conditions ____.",
       "options": [
         "encourage-mcq-18",
-        "encourage-mcq-17",
         "encourage-mcq-19",
-        "encourage-mcq-16",
-        "encourage-mcq-20",
-        "encourage-mcq-15"
+        "encourage-mcq-08",
+        "encourage-mcq-17"
       ],
       "explanation": "本句的「encourage mould growth」指「某種條件使一個自然／系統現象更容易發生」。",
       "sentenceIndex": 95,
@@ -1243,12 +1131,10 @@ export default {
         "encourage mould growth"
       ],
       "optionReasons": {
-        "encourage-mcq-18": "本句指「某種條件使一個自然／系統現象更容易發生」。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-19": "「打擊某人信心，使其灰心」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-20": "「降低某人做某事的意願；勸阻」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。"
+        "encourage-mcq-18": "本句的「encourage mould growth」指「某種條件使一個自然／系統現象更容易發生」。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-18"
     },
@@ -1260,11 +1146,9 @@ export default {
       "masked": "Poor lighting can ____ eye strain.",
       "options": [
         "encourage-mcq-18",
-        "encourage-mcq-17",
-        "encourage-mcq-19",
-        "encourage-mcq-16",
-        "encourage-mcq-20",
-        "encourage-mcq-15"
+        "encourage-mcq-15",
+        "encourage-mcq-23",
+        "encourage-mcq-17"
       ],
       "explanation": "本句的「encourage」指「某種條件使一個自然／系統現象更容易發生」。",
       "sentenceIndex": 96,
@@ -1273,12 +1157,10 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-18": "本句指「某種條件使一個自然／系統現象更容易發生」。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-19": "「打擊某人信心，使其灰心」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。",
-        "encourage-mcq-20": "「降低某人做某事的意願；勸阻」與本句語境不同。",
-        "encourage-mcq-15": "「好到足以令人對未來更有信心的結果」與本句語境不同。"
+        "encourage-mcq-18": "本句的「encourage」指「某種條件使一個自然／系統現象更容易發生」。",
+        "encourage-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-18"
     },
@@ -1290,11 +1172,9 @@ export default {
       "masked": "Regular watering ____.",
       "options": [
         "encourage-mcq-09",
+        "encourage-mcq-16",
         "encourage-mcq-08",
-        "encourage-mcq-10",
-        "encourage-mcq-07",
-        "encourage-mcq-11",
-        "encourage-mcq-06"
+        "encourage-mcq-17"
       ],
       "explanation": "本句的「encourages root growth」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
       "sentenceIndex": 97,
@@ -1303,12 +1183,10 @@ export default {
         "encourages root growth"
       ],
       "optionReasons": {
-        "encourage-mcq-09": "本句指「創造有利條件，使經濟、生物等更容易增長／生長」。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。"
+        "encourage-mcq-09": "本句的「encourages root growth」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-09"
     },
@@ -1320,11 +1198,8 @@ export default {
       "masked": "Pruning can ____ new growth.",
       "options": [
         "encourage-mcq-09",
-        "encourage-mcq-08",
-        "encourage-mcq-10",
-        "encourage-mcq-07",
-        "encourage-mcq-11",
-        "encourage-mcq-06"
+        "encourage-mcq-04",
+        "encourage-mcq-08"
       ],
       "explanation": "本句的「encourage」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
       "sentenceIndex": 98,
@@ -1333,12 +1208,9 @@ export default {
         "encourage"
       ],
       "optionReasons": {
-        "encourage-mcq-09": "本句指「創造有利條件，使經濟、生物等更容易增長／生長」。",
-        "encourage-mcq-08": "「促進使用者、觀眾或參與者作出互動」與本句語境不同。",
-        "encourage-mcq-10": "「透過誘因／條件提高投資意願」與本句語境不同。",
-        "encourage-mcq-07": "「提高人們參與某活動的意願／程度」與本句語境不同。",
-        "encourage-mcq-11": "「創造環境／誘因，使新想法和新方法更容易出現」與本句語境不同。",
-        "encourage-mcq-06": "「令某種行為更有可能發生或更普遍」與本句語境不同。"
+        "encourage-mcq-09": "本句的「encourage」指「創造有利條件，使經濟、生物等更容易增長／生長」。",
+        "encourage-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-09"
     },
@@ -1351,10 +1223,8 @@ export default {
       "options": [
         "encourage-mcq-19",
         "encourage-mcq-18",
-        "encourage-mcq-20",
-        "encourage-mcq-17",
-        "encourage-mcq-21",
-        "encourage-mcq-16"
+        "encourage-mcq-16",
+        "encourage-mcq-08"
       ],
       "explanation": "本句的「discourage」指「打擊某人信心，使其灰心」。",
       "sentenceIndex": 101,
@@ -1363,12 +1233,10 @@ export default {
         "discourage"
       ],
       "optionReasons": {
-        "encourage-mcq-19": "本句指「打擊某人信心，使其灰心」。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。",
-        "encourage-mcq-20": "「降低某人做某事的意願；勸阻」與本句語境不同。",
-        "encourage-mcq-17": "「被支持／建議去做某事，通常語氣比命令柔和」與本句語境不同。",
-        "encourage-mcq-21": "「令某行為變得較不可能發生；抑制／遏止」與本句語境不同。",
-        "encourage-mcq-16": "「沒有給人好轉／成功希望；情況不太樂觀」與本句語境不同。"
+        "encourage-mcq-19": "本句的「discourage」指「打擊某人信心，使其灰心」。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-19"
     },
@@ -1380,11 +1248,9 @@ export default {
       "masked": "The early results were ____.",
       "options": [
         "encourage-mcq-22",
-        "encourage-mcq-21",
-        "encourage-mcq-23",
-        "encourage-mcq-20",
-        "encourage-mcq-19",
-        "encourage-mcq-18"
+        "encourage-mcq-18",
+        "encourage-mcq-08",
+        "encourage-mcq-16"
       ],
       "explanation": "本句的「discouraging」指「令信心下降或顯示前景不佳的」。",
       "sentenceIndex": 104,
@@ -1393,12 +1259,10 @@ export default {
         "discouraging"
       ],
       "optionReasons": {
-        "encourage-mcq-22": "本句指「令信心下降或顯示前景不佳的」。",
-        "encourage-mcq-21": "「令某行為變得較不可能發生；抑制／遏止」與本句語境不同。",
-        "encourage-mcq-23": "「洩氣感；或令某種行為減少的阻嚇因素」與本句語境不同。",
-        "encourage-mcq-20": "「降低某人做某事的意願；勸阻」與本句語境不同。",
-        "encourage-mcq-19": "「打擊某人信心，使其灰心」與本句語境不同。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。"
+        "encourage-mcq-22": "本句的「discouraging」指「令信心下降或顯示前景不佳的」。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-22"
     },
@@ -1410,9 +1274,7 @@ export default {
       "masked": "She continued despite moments of ____.",
       "options": [
         "encourage-mcq-23",
-        "encourage-mcq-22",
-        "encourage-mcq-21",
-        "encourage-mcq-20",
+        "encourage-mcq-16",
         "encourage-mcq-19",
         "encourage-mcq-18"
       ],
@@ -1423,12 +1285,10 @@ export default {
         "discouragement"
       ],
       "optionReasons": {
-        "encourage-mcq-23": "本句指「洩氣感；或令某種行為減少的阻嚇因素」。",
-        "encourage-mcq-22": "「令信心下降或顯示前景不佳的」與本句語境不同。",
-        "encourage-mcq-21": "「令某行為變得較不可能發生；抑制／遏止」與本句語境不同。",
-        "encourage-mcq-20": "「降低某人做某事的意願；勸阻」與本句語境不同。",
-        "encourage-mcq-19": "「打擊某人信心，使其灰心」與本句語境不同。",
-        "encourage-mcq-18": "「某種條件使一個自然／系統現象更容易發生」與本句語境不同。"
+        "encourage-mcq-23": "本句的「discouragement」指「洩氣感；或令某種行為減少的阻嚇因素」。",
+        "encourage-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "encourage-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "encourage-mcq-23"
     }
@@ -1440,5 +1300,7 @@ export default {
     "sha256": "453472613db4574e0a6d3212cdb6173313e8aa0abb0d9de044ffbd362ce8685b",
     "pages": 41
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

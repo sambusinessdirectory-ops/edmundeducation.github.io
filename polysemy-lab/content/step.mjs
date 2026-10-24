@@ -7,7 +7,7 @@ export default {
   "senses": [
     {
       "id": "step-mcq-01",
-      "title": "表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」",
+      "title": "踏出；走出；跨出",
       "form": "Passage anchor > “Because of her, I became more willing to step outside my comfort zone...",
       "en": "Passage anchor > “Because of her, I became more willing to step outside my comfort zone...",
       "zh": "表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」",
@@ -29,7 +29,7 @@ export default {
     },
     {
       "id": "step-mcq-02",
-      "title": "表示一步；步伐；例句：「她向前走了一步。」",
+      "title": "一步；步伐",
       "form": "step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐",
       "en": "step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐",
       "zh": "表示一步；步伐；例句：「她向前走了一步。」",
@@ -51,7 +51,7 @@ export default {
     },
     {
       "id": "step-mcq-03",
-      "title": "表示走一步；跨一步；例句：「往後退一步。」",
+      "title": "走一步；跨一步",
       "form": "take a step = make one movement with the foot 走一步；跨一步",
       "en": "take a step = make one movement with the foot 走一步；跨一步",
       "zh": "表示走一步；跨一步；例句：「往後退一步。」",
@@ -73,7 +73,7 @@ export default {
     },
     {
       "id": "step-mcq-04",
-      "title": "表示向前／向後／往旁邊走；例句：「請往前一步。」",
+      "title": "向前／向後／往旁邊走",
       "form": "step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走",
       "en": "step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走",
       "zh": "表示向前／向後／往旁邊走；例句：「請往前一步。」",
@@ -95,7 +95,7 @@ export default {
     },
     {
       "id": "step-mcq-05",
-      "title": "表示踏；踩；走；例句：「她安靜地走進房間。」",
+      "title": "踏；踩；走",
       "form": "step somewhere = move by placing one foot somewhere 踏；踩；走",
       "en": "step somewhere = move by placing one foot somewhere 踏；踩；走",
       "zh": "表示踏；踩；走；例句：「她安靜地走進房間。」",
@@ -117,7 +117,7 @@ export default {
     },
     {
       "id": "step-mcq-06",
-      "title": "表示踩到；踩在……上；例句：「小心不要踩到玻璃。」",
+      "title": "踩到；踩在……上",
       "form": "step on something = put your foot on something 踩到；踩在……上",
       "en": "step on something = put your foot on something 踩到；踩在……上",
       "zh": "表示踩到；踩在……上；例句：「小心不要踩到玻璃。」",
@@ -139,7 +139,7 @@ export default {
     },
     {
       "id": "step-mcq-07",
-      "title": "表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」",
+      "title": "一步之遙；很近",
       "form": "a step away = a very short distance away 一步之遙；很近",
       "en": "a step away = a very short distance away 一步之遙；很近",
       "zh": "表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」",
@@ -161,7 +161,7 @@ export default {
     },
     {
       "id": "step-mcq-08",
-      "title": "表示步驟；階段；例句：「第一步是找出問題。」",
+      "title": "步驟；階段",
       "form": "step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段",
       "en": "step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段",
       "zh": "表示步驟；階段；例句：「第一步是找出問題。」",
@@ -183,7 +183,7 @@ export default {
     },
     {
       "id": "step-mcq-09",
-      "title": "表示第一步／下一步／最後一步；例句：「下一步是什麼？」",
+      "title": "第一步／下一步／最後一步",
       "form": "first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步",
       "en": "first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步",
       "zh": "表示第一步／下一步／最後一步；例句：「下一步是什麼？」",
@@ -205,7 +205,7 @@ export default {
     },
     {
       "id": "step-mcq-10",
-      "title": "表示採取措施；採取行動；例句：「公司已採取措施降低成本。」",
+      "title": "採取措施；採取行動",
       "form": "take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動",
       "en": "take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動",
       "zh": "表示採取措施；採取行動；例句：「公司已採取措施降低成本。」",
@@ -227,7 +227,7 @@ export default {
     },
     {
       "id": "step-mcq-11",
-      "title": "表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」",
+      "title": "朝……邁進的一步",
       "form": "a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步",
       "en": "a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步",
       "zh": "表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」",
@@ -249,7 +249,7 @@ export default {
     },
     {
       "id": "step-mcq-12",
-      "title": "表示進步；向前邁進；例句：「新政策是一項進步。」",
+      "title": "進步；向前邁進",
       "form": "a step forward = progress or improvement 進步；向前邁進",
       "en": "a step forward = progress or improvement 進步；向前邁進",
       "zh": "表示進步；向前邁進；例句：「新政策是一項進步。」",
@@ -271,7 +271,7 @@ export default {
     },
     {
       "id": "step-mcq-13",
-      "title": "表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」",
+      "title": "退步；倒退的一步",
       "form": "a step backward / back = regression or movement away from progress 退步；倒退的一步",
       "en": "a step backward / back = regression or movement away from progress 退步；倒退的一步",
       "zh": "表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」",
@@ -293,7 +293,7 @@ export default {
     },
     {
       "id": "step-mcq-14",
-      "title": "表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」",
+      "title": "提升；升級；更上一層",
       "form": "a step up = an improvement or move to a higher level 提升；升級；更上一層",
       "en": "a step up = an improvement or move to a higher level 提升；升級；更上一層",
       "zh": "表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」",
@@ -315,7 +315,7 @@ export default {
     },
     {
       "id": "step-mcq-15",
-      "title": "表示降級；降低；例句：「他認為新職位算是降級。」",
+      "title": "降級；降低",
       "form": "a step down = a reduction in rank, quality, responsibility, or status 降級；降低",
       "en": "a step down = a reduction in rank, quality, responsibility, or status 降級；降低",
       "zh": "表示降級；降低；例句：「他認為新職位算是降級。」",
@@ -337,7 +337,7 @@ export default {
     },
     {
       "id": "step-mcq-16",
-      "title": "表示階梯；台階；例句：「她坐在最下面的階梯上。」",
+      "title": "階梯；台階",
       "form": "step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階",
       "en": "step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階",
       "zh": "表示階梯；台階；例句：「她坐在最下面的階梯上。」",
@@ -359,7 +359,7 @@ export default {
     },
     {
       "id": "step-mcq-17",
-      "title": "表示階梯；臺階；例句：「他在門前的階梯上等。」",
+      "title": "階梯；臺階",
       "form": "steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階",
       "en": "steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階",
       "zh": "表示階梯；臺階；例句：「他在門前的階梯上等。」",
@@ -381,7 +381,7 @@ export default {
     },
     {
       "id": "step-mcq-18",
-      "title": "表示舞步；例句：「我還不會基本舞步。」",
+      "title": "舞步",
       "form": "step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步",
       "en": "step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步",
       "zh": "表示舞步；例句：「我還不會基本舞步。」",
@@ -403,7 +403,7 @@ export default {
     },
     {
       "id": "step-mcq-19",
-      "title": "表示步伐；步態；例句：「他以自信的步伐走路。」",
+      "title": "步伐；步態",
       "form": "step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態",
       "en": "step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態",
       "zh": "表示步伐；步態；例句：「他以自信的步伐走路。」",
@@ -425,7 +425,7 @@ export default {
     },
     {
       "id": "step-mcq-20",
-      "title": "表示腳步聲；例句：「我聽到門外有腳步聲。」",
+      "title": "腳步聲",
       "form": "step / footsteps = the sound made by someone walking 腳步聲",
       "en": "step / footsteps = the sound made by someone walking 腳步聲",
       "zh": "表示腳步聲；例句：「我聽到門外有腳步聲。」",
@@ -447,7 +447,7 @@ export default {
     },
     {
       "id": "step-mcq-21",
-      "title": "表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」",
+      "title": "介入；出面",
       "form": "step in = intervene or become involved to help or control a situation 介入；出面",
       "en": "step in = intervene or become involved to help or control a situation 介入；出面",
       "zh": "表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」",
@@ -469,7 +469,7 @@ export default {
     },
     {
       "id": "step-mcq-22",
-      "title": "表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」",
+      "title": "下台；辭職；卸任",
       "form": "step down = leave an important job or position 下台；辭職；卸任",
       "en": "step down = leave an important job or position 下台；辭職；卸任",
       "zh": "表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」",
@@ -491,7 +491,7 @@ export default {
     },
     {
       "id": "step-mcq-23",
-      "title": "表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」",
+      "title": "一步一步地；逐步地",
       "form": "step by step = gradually, one stage at a time 一步一步地；逐步地",
       "en": "step by step = gradually, one stage at a time 一步一步地；逐步地",
       "zh": "表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」",
@@ -513,7 +513,7 @@ export default {
     },
     {
       "id": "step-mcq-24",
-      "title": "表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」",
+      "title": "一步一步來",
       "form": "one step at a time = deal with something gradually rather than all at once 一步一步來",
       "en": "one step at a time = deal with something gradually rather than all at once 一步一步來",
       "zh": "表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」",
@@ -535,7 +535,7 @@ export default {
     },
     {
       "id": "step-mcq-25",
-      "title": "表示小心腳下；例句：「地板很濕，小心腳下。」",
+      "title": "小心腳下",
       "form": "watch your step",
       "en": "watch your step",
       "zh": "表示小心腳下；例句：「地板很濕，小心腳下。」",
@@ -557,7 +557,7 @@ export default {
     },
     {
       "id": "step-mcq-26",
-      "title": "表示小心腳下；例句：「下火車時小心腳下。」",
+      "title": "小心腳下",
       "form": "mind your step = be careful where you are walking 小心腳下",
       "en": "mind your step = be careful where you are walking 小心腳下",
       "zh": "表示小心腳下；例句：「下火車時小心腳下。」",
@@ -579,7 +579,7 @@ export default {
     },
     {
       "id": "step-mcq-27",
-      "title": "表示步調一致；例句：「士兵們步伐一致地行進。」",
+      "title": "步調一致",
       "form": "keep in step",
       "en": "keep in step",
       "zh": "表示步調一致；例句：「士兵們步伐一致地行進。」",
@@ -601,7 +601,7 @@ export default {
     },
     {
       "id": "step-mcq-28",
-      "title": "表示步調不一致；例句：「他行進時步伐不一致。」",
+      "title": "步調不一致",
       "form": "out of step",
       "en": "out of step",
       "zh": "表示步調不一致；例句：「他行進時步伐不一致。」",
@@ -645,7 +645,7 @@ export default {
     },
     {
       "id": "step-mcq-30",
-      "title": "表示領先一步；例句：「她總是設法領先一步。」",
+      "title": "領先一步",
       "form": "get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步",
       "en": "get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步",
       "zh": "表示領先一步；例句：「她總是設法領先一步。」",
@@ -667,7 +667,7 @@ export default {
     },
     {
       "id": "step-mcq-31",
-      "title": "表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」",
+      "title": "退一步；重新審視",
       "form": "take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視",
       "en": "take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視",
       "zh": "表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」",
@@ -689,7 +689,7 @@ export default {
     },
     {
       "id": "step-mcq-32",
-      "title": "表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」",
+      "title": "腳步聲；足跡",
       "form": "footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡",
       "en": "footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡",
       "zh": "表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」",
@@ -711,7 +711,7 @@ export default {
     },
     {
       "id": "step-mcq-33",
-      "title": "表示門階；家門口；例句：「包裹被放在門口。」",
+      "title": "門階；家門口",
       "form": "doorstep = the step or area immediately outside an entrance door 門階；家門口",
       "en": "doorstep = the step or area immediately outside an entrance door 門階；家門口",
       "zh": "表示門階；家門口；例句：「包裹被放在門口。」",
@@ -741,11 +741,9 @@ export default {
       "masked": "Joining the debate club helped me ____.",
       "options": [
         "step-mcq-01",
-        "step-mcq-02",
-        "step-mcq-03",
-        "step-mcq-04",
-        "step-mcq-05",
-        "step-mcq-06"
+        "step-mcq-15",
+        "step-mcq-16",
+        "step-mcq-12"
       ],
       "explanation": "本句的「step outside my comfort zone」指「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」。",
       "sentenceIndex": 0,
@@ -754,12 +752,10 @@ export default {
         "step outside my comfort zone"
       ],
       "optionReasons": {
-        "step-mcq-01": "本句指「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-01": "本句的「step outside my comfort zone」指「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-01"
     },
@@ -771,11 +767,9 @@ export default {
       "masked": "Sometimes growth begins when you are willing to ____.",
       "options": [
         "step-mcq-01",
-        "step-mcq-02",
-        "step-mcq-03",
-        "step-mcq-04",
-        "step-mcq-05",
-        "step-mcq-06"
+        "step-mcq-20",
+        "step-mcq-22",
+        "step-mcq-15"
       ],
       "explanation": "本句的「take a step beyond what feels familiar」指「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」。",
       "sentenceIndex": 1,
@@ -784,12 +778,10 @@ export default {
         "take a step beyond what feels familiar"
       ],
       "optionReasons": {
-        "step-mcq-01": "本句指「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-01": "本句的「take a step beyond what feels familiar」指「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」。",
+        "step-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-01"
     },
@@ -801,11 +793,9 @@ export default {
       "masked": "She took a ____ forward.",
       "options": [
         "step-mcq-02",
-        "step-mcq-01",
-        "step-mcq-03",
-        "step-mcq-04",
-        "step-mcq-05",
-        "step-mcq-06"
+        "step-mcq-16",
+        "step-mcq-21",
+        "step-mcq-04"
       ],
       "explanation": "本句的「step」指「表示一步；步伐；例句：「她向前走了一步。」」。",
       "sentenceIndex": 2,
@@ -814,12 +804,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-02": "本句指「表示一步；步伐；例句：「她向前走了一步。」」。",
-        "step-mcq-01": "「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-02": "本句的「step」指「表示一步；步伐；例句：「她向前走了一步。」」。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-02"
     },
@@ -832,9 +820,7 @@ export default {
       "options": [
         "step-mcq-02",
         "step-mcq-01",
-        "step-mcq-03",
-        "step-mcq-04",
-        "step-mcq-05",
+        "step-mcq-22",
         "step-mcq-06"
       ],
       "explanation": "本句的「steps」指「表示一步；步伐；例句：「她向前走了一步。」」。",
@@ -844,12 +830,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-02": "本句指「表示一步；步伐；例句：「她向前走了一步。」」。",
-        "step-mcq-01": "「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-02": "本句的「steps」指「表示一步；步伐；例句：「她向前走了一步。」」。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-02"
     },
@@ -861,11 +845,9 @@ export default {
       "masked": "Take one ____ back.",
       "options": [
         "step-mcq-03",
-        "step-mcq-02",
-        "step-mcq-04",
-        "step-mcq-01",
-        "step-mcq-05",
-        "step-mcq-06"
+        "step-mcq-21",
+        "step-mcq-15",
+        "step-mcq-10"
       ],
       "explanation": "本句的「step」指「表示走一步；跨一步；例句：「往後退一步。」」。",
       "sentenceIndex": 4,
@@ -874,12 +856,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-03": "本句指「表示走一步；跨一步；例句：「往後退一步。」」。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-01": "「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-03": "本句的「step」指「表示走一步；跨一步；例句：「往後退一步。」」。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-03"
     },
@@ -891,10 +871,8 @@ export default {
       "masked": "She took a ____ toward the door.",
       "options": [
         "step-mcq-03",
-        "step-mcq-02",
-        "step-mcq-04",
-        "step-mcq-01",
-        "step-mcq-05",
+        "step-mcq-26",
+        "step-mcq-21",
         "step-mcq-06"
       ],
       "explanation": "本句的「step」指「表示走一步；跨一步；例句：「往後退一步。」」。",
@@ -904,12 +882,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-03": "本句指「表示走一步；跨一步；例句：「往後退一步。」」。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-01": "「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-03": "本句的「step」指「表示走一步；跨一步；例句：「往後退一步。」」。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-03"
     },
@@ -921,11 +897,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "step-mcq-04",
-        "step-mcq-03",
-        "step-mcq-05",
-        "step-mcq-02",
-        "step-mcq-06",
-        "step-mcq-01"
+        "step-mcq-15",
+        "step-mcq-17",
+        "step-mcq-07"
       ],
       "explanation": "本句的「step forward」指「表示向前／向後／往旁邊走；例句：「請往前一步。」」。",
       "sentenceIndex": 6,
@@ -934,12 +908,10 @@ export default {
         "step forward"
       ],
       "optionReasons": {
-        "step-mcq-04": "本句指「表示向前／向後／往旁邊走；例句：「請往前一步。」」。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-01": "「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。"
+        "step-mcq-04": "本句的「step forward」指「表示向前／向後／往旁邊走；例句：「請往前一步。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-04"
     },
@@ -951,11 +923,9 @@ export default {
       "masked": "He ____ to let her pass.",
       "options": [
         "step-mcq-04",
-        "step-mcq-03",
-        "step-mcq-05",
-        "step-mcq-02",
-        "step-mcq-06",
-        "step-mcq-01"
+        "step-mcq-11",
+        "step-mcq-08",
+        "step-mcq-26"
       ],
       "explanation": "本句的「stepped aside」指「表示向前／向後／往旁邊走；例句：「請往前一步。」」。",
       "sentenceIndex": 7,
@@ -964,12 +934,10 @@ export default {
         "stepped aside"
       ],
       "optionReasons": {
-        "step-mcq-04": "本句指「表示向前／向後／往旁邊走；例句：「請往前一步。」」。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-01": "「表示踏出；走出；跨出；例句：「加入辯論社幫助我走出舒適圈。」」是「Passage anchor > “Because of her, I became more willing to step outside my comfort zone...」的用法，與本句語境不同。"
+        "step-mcq-04": "本句的「stepped aside」指「表示向前／向後／往旁邊走；例句：「請往前一步。」」。",
+        "step-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-04"
     },
@@ -981,11 +949,9 @@ export default {
       "masked": "She ____ quietly.",
       "options": [
         "step-mcq-05",
-        "step-mcq-04",
-        "step-mcq-06",
-        "step-mcq-03",
-        "step-mcq-07",
-        "step-mcq-02"
+        "step-mcq-15",
+        "step-mcq-02",
+        "step-mcq-16"
       ],
       "explanation": "本句的「stepped into the room」指「表示踏；踩；走；例句：「她安靜地走進房間。」」。",
       "sentenceIndex": 8,
@@ -994,12 +960,10 @@ export default {
         "stepped into the room"
       ],
       "optionReasons": {
-        "step-mcq-05": "本句指「表示踏；踩；走；例句：「她安靜地走進房間。」」。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。"
+        "step-mcq-05": "本句的「stepped into the room」指「表示踏；踩；走；例句：「她安靜地走進房間。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-05"
     },
@@ -1011,11 +975,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "step-mcq-05",
-        "step-mcq-04",
-        "step-mcq-06",
-        "step-mcq-03",
-        "step-mcq-07",
-        "step-mcq-02"
+        "step-mcq-08",
+        "step-mcq-33",
+        "step-mcq-25"
       ],
       "explanation": "本句的「stepped onto the platform」指「表示踏；踩；走；例句：「她安靜地走進房間。」」。",
       "sentenceIndex": 9,
@@ -1024,12 +986,10 @@ export default {
         "stepped onto the platform"
       ],
       "optionReasons": {
-        "step-mcq-05": "本句指「表示踏；踩；走；例句：「她安靜地走進房間。」」。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-02": "「表示一步；步伐；例句：「她向前走了一步。」」是「step — one movement made by lifting and putting down a foot = a single movement of the foot while walking 一步；步伐」的用法，與本句語境不同。"
+        "step-mcq-05": "本句的「stepped onto the platform」指「表示踏；踩；走；例句：「她安靜地走進房間。」」。",
+        "step-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-05"
     },
@@ -1041,11 +1001,9 @@ export default {
       "masked": "Be careful not to ____.",
       "options": [
         "step-mcq-06",
-        "step-mcq-05",
-        "step-mcq-07",
-        "step-mcq-04",
-        "step-mcq-08",
-        "step-mcq-03"
+        "step-mcq-14",
+        "step-mcq-17",
+        "step-mcq-31"
       ],
       "explanation": "本句的「step on the glass」指「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」。",
       "sentenceIndex": 10,
@@ -1054,12 +1012,10 @@ export default {
         "step on the glass"
       ],
       "optionReasons": {
-        "step-mcq-06": "本句指「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。"
+        "step-mcq-06": "本句的「step on the glass」指「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-06"
     },
@@ -1071,11 +1027,9 @@ export default {
       "masked": "I accidentally ____.",
       "options": [
         "step-mcq-06",
-        "step-mcq-05",
-        "step-mcq-07",
-        "step-mcq-04",
-        "step-mcq-08",
-        "step-mcq-03"
+        "step-mcq-23",
+        "step-mcq-25",
+        "step-mcq-10"
       ],
       "explanation": "本句的「stepped on his foot」指「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」。",
       "sentenceIndex": 11,
@@ -1084,12 +1038,10 @@ export default {
         "stepped on his foot"
       ],
       "optionReasons": {
-        "step-mcq-06": "本句指「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-03": "「表示走一步；跨一步；例句：「往後退一步。」」是「take a step = make one movement with the foot 走一步；跨一步」的用法，與本句語境不同。"
+        "step-mcq-06": "本句的「stepped on his foot」指「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」。",
+        "step-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-06"
     },
@@ -1101,11 +1053,9 @@ export default {
       "masked": "The hotel is only a few ____ from the station.",
       "options": [
         "step-mcq-07",
-        "step-mcq-06",
-        "step-mcq-08",
-        "step-mcq-05",
-        "step-mcq-09",
-        "step-mcq-04"
+        "step-mcq-26",
+        "step-mcq-17",
+        "step-mcq-14"
       ],
       "explanation": "本句的「steps away」指「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」。",
       "sentenceIndex": 12,
@@ -1114,12 +1064,10 @@ export default {
         "steps away"
       ],
       "optionReasons": {
-        "step-mcq-07": "本句指「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。"
+        "step-mcq-07": "本句的「steps away」指「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-07"
     },
@@ -1131,11 +1079,9 @@ export default {
       "masked": "She was standing just a ____.",
       "options": [
         "step-mcq-07",
-        "step-mcq-06",
-        "step-mcq-08",
-        "step-mcq-05",
-        "step-mcq-09",
-        "step-mcq-04"
+        "step-mcq-15",
+        "step-mcq-26",
+        "step-mcq-21"
       ],
       "explanation": "本句的「step away」指「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」。",
       "sentenceIndex": 13,
@@ -1144,12 +1090,10 @@ export default {
         "step away"
       ],
       "optionReasons": {
-        "step-mcq-07": "本句指「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-04": "「表示向前／向後／往旁邊走；例句：「請往前一步。」」是「step forward / backward / aside = move one or more steps in a particular direction 向前／向後／往旁邊走」的用法，與本句語境不同。"
+        "step-mcq-07": "本句的「step away」指「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-07"
     },
@@ -1161,11 +1105,9 @@ export default {
       "masked": "The first ____ is to identify the problem.",
       "options": [
         "step-mcq-08",
-        "step-mcq-07",
-        "step-mcq-09",
+        "step-mcq-25",
         "step-mcq-06",
-        "step-mcq-10",
-        "step-mcq-05"
+        "step-mcq-01"
       ],
       "explanation": "本句的「step」指「表示步驟；階段；例句：「第一步是找出問題。」」。",
       "sentenceIndex": 14,
@@ -1174,12 +1116,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-08": "本句指「表示步驟；階段；例句：「第一步是找出問題。」」。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。"
+        "step-mcq-08": "本句的「step」指「表示步驟；階段；例句：「第一步是找出問題。」」。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-08"
     },
@@ -1191,11 +1131,9 @@ export default {
       "masked": "Follow these three ____ carefully.",
       "options": [
         "step-mcq-08",
-        "step-mcq-07",
-        "step-mcq-09",
-        "step-mcq-06",
+        "step-mcq-05",
         "step-mcq-10",
-        "step-mcq-05"
+        "step-mcq-15"
       ],
       "explanation": "本句的「steps」指「表示步驟；階段；例句：「第一步是找出問題。」」。",
       "sentenceIndex": 15,
@@ -1204,12 +1142,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-08": "本句指「表示步驟；階段；例句：「第一步是找出問題。」」。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-05": "「表示踏；踩；走；例句：「她安靜地走進房間。」」是「step somewhere = move by placing one foot somewhere 踏；踩；走」的用法，與本句語境不同。"
+        "step-mcq-08": "本句的「steps」指「表示步驟；階段；例句：「第一步是找出問題。」」。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-08"
     },
@@ -1221,11 +1157,9 @@ export default {
       "masked": "What is the ____?",
       "options": [
         "step-mcq-09",
-        "step-mcq-08",
         "step-mcq-10",
-        "step-mcq-07",
-        "step-mcq-11",
-        "step-mcq-06"
+        "step-mcq-16",
+        "step-mcq-26"
       ],
       "explanation": "本句的「next step」指「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」。",
       "sentenceIndex": 16,
@@ -1234,12 +1168,10 @@ export default {
         "next step"
       ],
       "optionReasons": {
-        "step-mcq-09": "本句指「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-09": "本句的「next step」指「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-09"
     },
@@ -1251,11 +1183,9 @@ export default {
       "masked": "Signing the form is the ____.",
       "options": [
         "step-mcq-09",
-        "step-mcq-08",
-        "step-mcq-10",
-        "step-mcq-07",
-        "step-mcq-11",
-        "step-mcq-06"
+        "step-mcq-26",
+        "step-mcq-22",
+        "step-mcq-33"
       ],
       "explanation": "本句的「final step」指「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」。",
       "sentenceIndex": 17,
@@ -1264,12 +1194,10 @@ export default {
         "final step"
       ],
       "optionReasons": {
-        "step-mcq-09": "本句指「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-06": "「表示踩到；踩在……上；例句：「小心不要踩到玻璃。」」是「step on something = put your foot on something 踩到；踩在……上」的用法，與本句語境不同。"
+        "step-mcq-09": "本句的「final step」指「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-09"
     },
@@ -1281,11 +1209,9 @@ export default {
       "masked": "The company has ____.",
       "options": [
         "step-mcq-10",
-        "step-mcq-09",
-        "step-mcq-11",
-        "step-mcq-08",
-        "step-mcq-12",
-        "step-mcq-07"
+        "step-mcq-05",
+        "step-mcq-23",
+        "step-mcq-25"
       ],
       "explanation": "本句的「taken steps to reduce costs」指「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」。",
       "sentenceIndex": 18,
@@ -1294,12 +1220,10 @@ export default {
         "taken steps to reduce costs"
       ],
       "optionReasons": {
-        "step-mcq-10": "本句指「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。"
+        "step-mcq-10": "本句的「taken steps to reduce costs」指「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-10"
     },
@@ -1312,10 +1236,8 @@ export default {
       "options": [
         "step-mcq-10",
         "step-mcq-09",
-        "step-mcq-11",
-        "step-mcq-08",
-        "step-mcq-12",
-        "step-mcq-07"
+        "step-mcq-16",
+        "step-mcq-29"
       ],
       "explanation": "本句的「take steps to prevent」指「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」。",
       "sentenceIndex": 19,
@@ -1324,12 +1246,10 @@ export default {
         "take steps to prevent"
       ],
       "optionReasons": {
-        "step-mcq-10": "本句指「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-07": "「表示一步之遙；很近；例句：「飯店距離車站只有幾步之遙。」」是「a step away = a very short distance away 一步之遙；很近」的用法，與本句語境不同。"
+        "step-mcq-10": "本句的「take steps to prevent」指「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」。",
+        "step-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-10"
     },
@@ -1342,10 +1262,8 @@ export default {
       "options": [
         "step-mcq-11",
         "step-mcq-10",
-        "step-mcq-12",
-        "step-mcq-09",
-        "step-mcq-13",
-        "step-mcq-08"
+        "step-mcq-01",
+        "step-mcq-22"
       ],
       "explanation": "本句的「step toward peace」指「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」。",
       "sentenceIndex": 20,
@@ -1354,12 +1272,10 @@ export default {
         "step toward peace"
       ],
       "optionReasons": {
-        "step-mcq-11": "本句指「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。"
+        "step-mcq-11": "本句的「step toward peace」指「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-11"
     },
@@ -1371,11 +1287,9 @@ export default {
       "masked": "Asking for help was her first ____.",
       "options": [
         "step-mcq-11",
-        "step-mcq-10",
-        "step-mcq-12",
-        "step-mcq-09",
-        "step-mcq-13",
-        "step-mcq-08"
+        "step-mcq-15",
+        "step-mcq-22",
+        "step-mcq-33"
       ],
       "explanation": "本句的「step toward recovery」指「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」。",
       "sentenceIndex": 21,
@@ -1384,12 +1298,10 @@ export default {
         "step toward recovery"
       ],
       "optionReasons": {
-        "step-mcq-11": "本句指「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-08": "「表示步驟；階段；例句：「第一步是找出問題。」」是「step — a stage in a process = one of a series of actions or stages used to achieve something 步驟；階段」的用法，與本句語境不同。"
+        "step-mcq-11": "本句的「step toward recovery」指「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-11"
     },
@@ -1401,11 +1313,9 @@ export default {
       "masked": "The new policy is a ____.",
       "options": [
         "step-mcq-12",
-        "step-mcq-11",
-        "step-mcq-13",
-        "step-mcq-10",
-        "step-mcq-14",
-        "step-mcq-09"
+        "step-mcq-22",
+        "step-mcq-21",
+        "step-mcq-10"
       ],
       "explanation": "本句的「step forward」指「表示進步；向前邁進；例句：「新政策是一項進步。」」。",
       "sentenceIndex": 22,
@@ -1414,12 +1324,10 @@ export default {
         "step forward"
       ],
       "optionReasons": {
-        "step-mcq-12": "本句指「表示進步；向前邁進；例句：「新政策是一項進步。」」。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。"
+        "step-mcq-12": "本句的「step forward」指「表示進步；向前邁進；例句：「新政策是一項進步。」」。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-12"
     },
@@ -1431,11 +1339,9 @@ export default {
       "masked": "This discovery represents a major ____ in research.",
       "options": [
         "step-mcq-12",
-        "step-mcq-11",
-        "step-mcq-13",
-        "step-mcq-10",
-        "step-mcq-14",
-        "step-mcq-09"
+        "step-mcq-15",
+        "step-mcq-05",
+        "step-mcq-16"
       ],
       "explanation": "本句的「step forward」指「表示進步；向前邁進；例句：「新政策是一項進步。」」。",
       "sentenceIndex": 23,
@@ -1444,12 +1350,10 @@ export default {
         "step forward"
       ],
       "optionReasons": {
-        "step-mcq-12": "本句指「表示進步；向前邁進；例句：「新政策是一項進步。」」。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-09": "「表示第一步／下一步／最後一步；例句：「下一步是什麼？」」是「first / next / final step = a particular stage in a sequence 第一步／下一步／最後一步」的用法，與本句語境不同。"
+        "step-mcq-12": "本句的「step forward」指「表示進步；向前邁進；例句：「新政策是一項進步。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-12"
     },
@@ -1461,11 +1365,9 @@ export default {
       "masked": "Cancelling the programme would be a ____.",
       "options": [
         "step-mcq-13",
-        "step-mcq-12",
-        "step-mcq-14",
-        "step-mcq-11",
-        "step-mcq-15",
-        "step-mcq-10"
+        "step-mcq-25",
+        "step-mcq-21",
+        "step-mcq-15"
       ],
       "explanation": "本句的「step backward」指「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」。",
       "sentenceIndex": 24,
@@ -1474,12 +1376,10 @@ export default {
         "step backward"
       ],
       "optionReasons": {
-        "step-mcq-13": "本句指「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。"
+        "step-mcq-13": "本句的「step backward」指「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-13"
     },
@@ -1491,11 +1391,9 @@ export default {
       "masked": "The decision felt like a ____.",
       "options": [
         "step-mcq-13",
-        "step-mcq-12",
-        "step-mcq-14",
-        "step-mcq-11",
-        "step-mcq-15",
-        "step-mcq-10"
+        "step-mcq-22",
+        "step-mcq-05",
+        "step-mcq-15"
       ],
       "explanation": "本句的「step back」指「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」。",
       "sentenceIndex": 25,
@@ -1504,12 +1402,10 @@ export default {
         "step back"
       ],
       "optionReasons": {
-        "step-mcq-13": "本句指「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-10": "「表示採取措施；採取行動；例句：「公司已採取措施降低成本。」」是「take steps to do something = take deliberate action to achieve or prevent something 採取措施；採取行動」的用法，與本句語境不同。"
+        "step-mcq-13": "本句的「step back」指「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-13"
     },
@@ -1521,11 +1417,9 @@ export default {
       "masked": "The new role is a ____ for her career.",
       "options": [
         "step-mcq-14",
-        "step-mcq-13",
-        "step-mcq-15",
-        "step-mcq-12",
-        "step-mcq-16",
-        "step-mcq-11"
+        "step-mcq-24",
+        "step-mcq-33",
+        "step-mcq-10"
       ],
       "explanation": "本句的「step up」指「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」。",
       "sentenceIndex": 26,
@@ -1534,12 +1428,10 @@ export default {
         "step up"
       ],
       "optionReasons": {
-        "step-mcq-14": "本句指「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。"
+        "step-mcq-14": "本句的「step up」指「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」。",
+        "step-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-14"
     },
@@ -1551,11 +1443,9 @@ export default {
       "masked": "This model is a ____ the basic version.",
       "options": [
         "step-mcq-14",
-        "step-mcq-13",
-        "step-mcq-15",
-        "step-mcq-12",
-        "step-mcq-16",
-        "step-mcq-11"
+        "step-mcq-05",
+        "step-mcq-21",
+        "step-mcq-26"
       ],
       "explanation": "本句的「step up from」指「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」。",
       "sentenceIndex": 27,
@@ -1564,12 +1454,10 @@ export default {
         "step up from"
       ],
       "optionReasons": {
-        "step-mcq-14": "本句指「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-11": "「表示朝……邁進的一步；例句：「這項協議是邁向和平的重要一步。」」是「a step toward something = an action that contributes to progress toward a goal 朝……邁進的一步」的用法，與本句語境不同。"
+        "step-mcq-14": "本句的「step up from」指「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-14"
     },
@@ -1581,11 +1469,9 @@ export default {
       "masked": "He saw the new position as a ____.",
       "options": [
         "step-mcq-15",
-        "step-mcq-14",
-        "step-mcq-16",
-        "step-mcq-13",
-        "step-mcq-17",
-        "step-mcq-12"
+        "step-mcq-08",
+        "step-mcq-33",
+        "step-mcq-11"
       ],
       "explanation": "本句的「step down」指「表示降級；降低；例句：「他認為新職位算是降級。」」。",
       "sentenceIndex": 28,
@@ -1594,12 +1480,10 @@ export default {
         "step down"
       ],
       "optionReasons": {
-        "step-mcq-15": "本句指「表示降級；降低；例句：「他認為新職位算是降級。」」。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。"
+        "step-mcq-15": "本句的「step down」指「表示降級；降低；例句：「他認為新職位算是降級。」」。",
+        "step-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-15"
     },
@@ -1611,11 +1495,9 @@ export default {
       "masked": "The replacement model is a ____.",
       "options": [
         "step-mcq-15",
-        "step-mcq-14",
-        "step-mcq-16",
-        "step-mcq-13",
-        "step-mcq-17",
-        "step-mcq-12"
+        "step-mcq-10",
+        "step-mcq-09",
+        "step-mcq-25"
       ],
       "explanation": "本句的「step down in quality」指「表示降級；降低；例句：「他認為新職位算是降級。」」。",
       "sentenceIndex": 29,
@@ -1624,12 +1506,10 @@ export default {
         "step down in quality"
       ],
       "optionReasons": {
-        "step-mcq-15": "本句指「表示降級；降低；例句：「他認為新職位算是降級。」」。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-12": "「表示進步；向前邁進；例句：「新政策是一項進步。」」是「a step forward = progress or improvement 進步；向前邁進」的用法，與本句語境不同。"
+        "step-mcq-15": "本句的「step down in quality」指「表示降級；降低；例句：「他認為新職位算是降級。」」。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-15"
     },
@@ -1641,11 +1521,9 @@ export default {
       "masked": "She sat on the bottom ____.",
       "options": [
         "step-mcq-16",
-        "step-mcq-15",
-        "step-mcq-17",
-        "step-mcq-14",
-        "step-mcq-18",
-        "step-mcq-13"
+        "step-mcq-24",
+        "step-mcq-10",
+        "step-mcq-06"
       ],
       "explanation": "本句的「step」指「表示階梯；台階；例句：「她坐在最下面的階梯上。」」。",
       "sentenceIndex": 30,
@@ -1654,12 +1532,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-16": "本句指「表示階梯；台階；例句：「她坐在最下面的階梯上。」」。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。"
+        "step-mcq-16": "本句的「step」指「表示階梯；台階；例句：「她坐在最下面的階梯上。」」。",
+        "step-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-16"
     },
@@ -1671,11 +1547,9 @@ export default {
       "masked": "Be careful on the wet ____.",
       "options": [
         "step-mcq-16",
-        "step-mcq-15",
-        "step-mcq-17",
-        "step-mcq-14",
-        "step-mcq-18",
-        "step-mcq-13"
+        "step-mcq-13",
+        "step-mcq-06",
+        "step-mcq-01"
       ],
       "explanation": "本句的「steps」指「表示階梯；台階；例句：「她坐在最下面的階梯上。」」。",
       "sentenceIndex": 31,
@@ -1684,12 +1558,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-16": "本句指「表示階梯；台階；例句：「她坐在最下面的階梯上。」」。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-13": "「表示退步；倒退的一步；例句：「取消這個計畫將是一次倒退。」」是「a step backward / back = regression or movement away from progress 退步；倒退的一步」的用法，與本句語境不同。"
+        "step-mcq-16": "本句的「steps」指「表示階梯；台階；例句：「她坐在最下面的階梯上。」」。",
+        "step-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-16"
     },
@@ -1701,11 +1573,9 @@ export default {
       "masked": "He was waiting on the front ____.",
       "options": [
         "step-mcq-17",
-        "step-mcq-16",
-        "step-mcq-18",
-        "step-mcq-15",
-        "step-mcq-19",
-        "step-mcq-14"
+        "step-mcq-02",
+        "step-mcq-21",
+        "step-mcq-15"
       ],
       "explanation": "本句的「steps」指「表示階梯；臺階；例句：「他在門前的階梯上等。」」。",
       "sentenceIndex": 32,
@@ -1714,12 +1584,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-17": "本句指「表示階梯；臺階；例句：「他在門前的階梯上等。」」。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。"
+        "step-mcq-17": "本句的「steps」指「表示階梯；臺階；例句：「他在門前的階梯上等。」」。",
+        "step-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-17"
     },
@@ -1731,11 +1599,9 @@ export default {
       "masked": "We climbed the stone ____.",
       "options": [
         "step-mcq-17",
-        "step-mcq-16",
-        "step-mcq-18",
-        "step-mcq-15",
-        "step-mcq-19",
-        "step-mcq-14"
+        "step-mcq-23",
+        "step-mcq-21",
+        "step-mcq-05"
       ],
       "explanation": "本句的「steps」指「表示階梯；臺階；例句：「他在門前的階梯上等。」」。",
       "sentenceIndex": 33,
@@ -1744,12 +1610,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-17": "本句指「表示階梯；臺階；例句：「他在門前的階梯上等。」」。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-14": "「表示提升；升級；更上一層；例句：「新職位是她職涯上的一次提升。」」是「a step up = an improvement or move to a higher level 提升；升級；更上一層」的用法，與本句語境不同。"
+        "step-mcq-17": "本句的「steps」指「表示階梯；臺階；例句：「他在門前的階梯上等。」」。",
+        "step-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-17"
     },
@@ -1761,11 +1625,9 @@ export default {
       "masked": "I still don’t know the basic dance ____.",
       "options": [
         "step-mcq-18",
+        "step-mcq-21",
         "step-mcq-17",
-        "step-mcq-19",
-        "step-mcq-16",
-        "step-mcq-20",
-        "step-mcq-15"
+        "step-mcq-14"
       ],
       "explanation": "本句的「steps」指「表示舞步；例句：「我還不會基本舞步。」」。",
       "sentenceIndex": 34,
@@ -1774,12 +1636,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-18": "本句指「表示舞步；例句：「我還不會基本舞步。」」。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。"
+        "step-mcq-18": "本句的「steps」指「表示舞步；例句：「我還不會基本舞步。」」。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-18"
     },
@@ -1791,11 +1651,9 @@ export default {
       "masked": "She taught us a new ____.",
       "options": [
         "step-mcq-18",
+        "step-mcq-26",
         "step-mcq-17",
-        "step-mcq-19",
-        "step-mcq-16",
-        "step-mcq-20",
-        "step-mcq-15"
+        "step-mcq-14"
       ],
       "explanation": "本句的「step」指「表示舞步；例句：「我還不會基本舞步。」」。",
       "sentenceIndex": 35,
@@ -1804,12 +1662,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-18": "本句指「表示舞步；例句：「我還不會基本舞步。」」。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-15": "「表示降級；降低；例句：「他認為新職位算是降級。」」是「a step down = a reduction in rank, quality, responsibility, or status 降級；降低」的用法，與本句語境不同。"
+        "step-mcq-18": "本句的「step」指「表示舞步；例句：「我還不會基本舞步。」」。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-18"
     },
@@ -1821,11 +1677,9 @@ export default {
       "masked": "He walked with a confident ____.",
       "options": [
         "step-mcq-19",
-        "step-mcq-18",
-        "step-mcq-20",
-        "step-mcq-17",
         "step-mcq-21",
-        "step-mcq-16"
+        "step-mcq-14",
+        "step-mcq-05"
       ],
       "explanation": "本句的「step」指「表示步伐；步態；例句：「他以自信的步伐走路。」」。",
       "sentenceIndex": 36,
@@ -1834,12 +1688,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-19": "本句指「表示步伐；步態；例句：「他以自信的步伐走路。」」。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。"
+        "step-mcq-19": "本句的「step」指「表示步伐；步態；例句：「他以自信的步伐走路。」」。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-19"
     },
@@ -1851,11 +1703,9 @@ export default {
       "masked": "She quickened her ____.",
       "options": [
         "step-mcq-19",
-        "step-mcq-18",
-        "step-mcq-20",
-        "step-mcq-17",
+        "step-mcq-26",
         "step-mcq-21",
-        "step-mcq-16"
+        "step-mcq-14"
       ],
       "explanation": "本句的「step」指「表示步伐；步態；例句：「他以自信的步伐走路。」」。",
       "sentenceIndex": 37,
@@ -1864,12 +1714,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-19": "本句指「表示步伐；步態；例句：「他以自信的步伐走路。」」。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-16": "「表示階梯；台階；例句：「她坐在最下面的階梯上。」」是「step — one part of a staircase = a flat surface on which you place your foot when going up or down stairs 階梯；台階」的用法，與本句語境不同。"
+        "step-mcq-19": "本句的「step」指「表示步伐；步態；例句：「他以自信的步伐走路。」」。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-19"
     },
@@ -1881,11 +1729,9 @@ export default {
       "masked": "I heard a ____ outside the door.",
       "options": [
         "step-mcq-20",
-        "step-mcq-19",
-        "step-mcq-21",
-        "step-mcq-18",
-        "step-mcq-22",
-        "step-mcq-17"
+        "step-mcq-17",
+        "step-mcq-10",
+        "step-mcq-22"
       ],
       "explanation": "本句的「step」指「表示腳步聲；例句：「我聽到門外有腳步聲。」」。",
       "sentenceIndex": 38,
@@ -1894,12 +1740,10 @@ export default {
         "step"
       ],
       "optionReasons": {
-        "step-mcq-20": "本句指「表示腳步聲；例句：「我聽到門外有腳步聲。」」。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。"
+        "step-mcq-20": "本句的「step」指「表示腳步聲；例句：「我聽到門外有腳步聲。」」。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-20"
     },
@@ -1911,11 +1755,9 @@ export default {
       "masked": "Their ____ echoed in the hallway.",
       "options": [
         "step-mcq-20",
-        "step-mcq-19",
-        "step-mcq-21",
-        "step-mcq-18",
-        "step-mcq-22",
-        "step-mcq-17"
+        "step-mcq-16",
+        "step-mcq-14",
+        "step-mcq-06"
       ],
       "explanation": "本句的「steps」指「表示腳步聲；例句：「我聽到門外有腳步聲。」」。",
       "sentenceIndex": 39,
@@ -1924,12 +1766,10 @@ export default {
         "steps"
       ],
       "optionReasons": {
-        "step-mcq-20": "本句指「表示腳步聲；例句：「我聽到門外有腳步聲。」」。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-17": "「表示階梯；臺階；例句：「他在門前的階梯上等。」」是「steps — stairs, especially a short outdoor flight = a set of steps leading to an entrance or another level 階梯；臺階」的用法，與本句語境不同。"
+        "step-mcq-20": "本句的「steps」指「表示腳步聲；例句：「我聽到門外有腳步聲。」」。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-20"
     },
@@ -1941,11 +1781,9 @@ export default {
       "masked": "A teacher ____ before the argument became serious.",
       "options": [
         "step-mcq-21",
-        "step-mcq-20",
-        "step-mcq-22",
-        "step-mcq-19",
-        "step-mcq-23",
-        "step-mcq-18"
+        "step-mcq-16",
+        "step-mcq-28",
+        "step-mcq-06"
       ],
       "explanation": "本句的「stepped in」指「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」。",
       "sentenceIndex": 40,
@@ -1954,12 +1792,10 @@ export default {
         "stepped in"
       ],
       "optionReasons": {
-        "step-mcq-21": "本句指「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。"
+        "step-mcq-21": "本句的「stepped in」指「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-21"
     },
@@ -1971,11 +1807,9 @@ export default {
       "masked": "The government may need to ____.",
       "options": [
         "step-mcq-21",
-        "step-mcq-20",
-        "step-mcq-22",
-        "step-mcq-19",
-        "step-mcq-23",
-        "step-mcq-18"
+        "step-mcq-03",
+        "step-mcq-14",
+        "step-mcq-16"
       ],
       "explanation": "本句的「step in」指「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」。",
       "sentenceIndex": 41,
@@ -1984,12 +1818,10 @@ export default {
         "step in"
       ],
       "optionReasons": {
-        "step-mcq-21": "本句指「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-18": "「表示舞步；例句：「我還不會基本舞步。」」是「step — a particular movement in dancing = a particular movement or sequence of foot movements 舞步」的用法，與本句語境不同。"
+        "step-mcq-21": "本句的「step in」指「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」。",
+        "step-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-21"
     },
@@ -2001,11 +1833,9 @@ export default {
       "masked": "The director decided to ____.",
       "options": [
         "step-mcq-22",
-        "step-mcq-21",
-        "step-mcq-23",
-        "step-mcq-20",
-        "step-mcq-24",
-        "step-mcq-19"
+        "step-mcq-02",
+        "step-mcq-33",
+        "step-mcq-04"
       ],
       "explanation": "本句的「step down」指「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」。",
       "sentenceIndex": 42,
@@ -2014,12 +1844,10 @@ export default {
         "step down"
       ],
       "optionReasons": {
-        "step-mcq-22": "本句指「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。"
+        "step-mcq-22": "本句的「step down」指「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」。",
+        "step-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-22"
     },
@@ -2031,11 +1859,9 @@ export default {
       "masked": "She ____ last year.",
       "options": [
         "step-mcq-22",
+        "step-mcq-33",
         "step-mcq-21",
-        "step-mcq-23",
-        "step-mcq-20",
-        "step-mcq-24",
-        "step-mcq-19"
+        "step-mcq-12"
       ],
       "explanation": "本句的「stepped down as chair」指「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」。",
       "sentenceIndex": 43,
@@ -2044,12 +1870,10 @@ export default {
         "stepped down as chair"
       ],
       "optionReasons": {
-        "step-mcq-22": "本句指「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-19": "「表示步伐；步態；例句：「他以自信的步伐走路。」」是「step — manner or rhythm of walking = a particular way, pace, or rhythm of walking 步伐；步態」的用法，與本句語境不同。"
+        "step-mcq-22": "本句的「stepped down as chair」指「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-22"
     },
@@ -2061,11 +1885,9 @@ export default {
       "masked": "We’ll solve the problem ____.",
       "options": [
         "step-mcq-23",
-        "step-mcq-22",
-        "step-mcq-24",
-        "step-mcq-21",
-        "step-mcq-25",
-        "step-mcq-20"
+        "step-mcq-16",
+        "step-mcq-05",
+        "step-mcq-14"
       ],
       "explanation": "本句的「step by step」指「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」。",
       "sentenceIndex": 44,
@@ -2074,12 +1896,10 @@ export default {
         "step by step"
       ],
       "optionReasons": {
-        "step-mcq-23": "本句指「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。"
+        "step-mcq-23": "本句的「step by step」指「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-23"
     },
@@ -2091,11 +1911,9 @@ export default {
       "masked": "Confidence develops ____.",
       "options": [
         "step-mcq-23",
-        "step-mcq-22",
-        "step-mcq-24",
-        "step-mcq-21",
-        "step-mcq-25",
-        "step-mcq-20"
+        "step-mcq-15",
+        "step-mcq-06",
+        "step-mcq-33"
       ],
       "explanation": "本句的「step by step」指「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」。",
       "sentenceIndex": 45,
@@ -2104,12 +1922,10 @@ export default {
         "step by step"
       ],
       "optionReasons": {
-        "step-mcq-23": "本句指「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-20": "「表示腳步聲；例句：「我聽到門外有腳步聲。」」是「step / footsteps = the sound made by someone walking 腳步聲」的用法，與本句語境不同。"
+        "step-mcq-23": "本句的「step by step」指「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-23"
     },
@@ -2121,11 +1937,9 @@ export default {
       "masked": "Don’t worry about everything at once—take it ____.",
       "options": [
         "step-mcq-24",
-        "step-mcq-23",
-        "step-mcq-25",
-        "step-mcq-22",
         "step-mcq-26",
-        "step-mcq-21"
+        "step-mcq-15",
+        "step-mcq-16"
       ],
       "explanation": "本句的「one step at a time」指「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」。",
       "sentenceIndex": 46,
@@ -2134,12 +1948,10 @@ export default {
         "one step at a time"
       ],
       "optionReasons": {
-        "step-mcq-24": "本句指「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。"
+        "step-mcq-24": "本句的「one step at a time」指「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」。",
+        "step-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-24"
     },
@@ -2151,11 +1963,9 @@ export default {
       "masked": "Recovery happens ____.",
       "options": [
         "step-mcq-24",
-        "step-mcq-23",
-        "step-mcq-25",
-        "step-mcq-22",
-        "step-mcq-26",
-        "step-mcq-21"
+        "step-mcq-33",
+        "step-mcq-01",
+        "step-mcq-06"
       ],
       "explanation": "本句的「one step at a time」指「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」。",
       "sentenceIndex": 47,
@@ -2164,12 +1974,10 @@ export default {
         "one step at a time"
       ],
       "optionReasons": {
-        "step-mcq-24": "本句指「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-21": "「表示介入；出面；例句：「爭吵變嚴重之前，一名老師出面制止。」」是「step in = intervene or become involved to help or control a situation 介入；出面」的用法，與本句語境不同。"
+        "step-mcq-24": "本句的「one step at a time」指「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-24"
     },
@@ -2181,11 +1989,9 @@ export default {
       "masked": "____ on the wet floor.",
       "options": [
         "step-mcq-25",
-        "step-mcq-24",
-        "step-mcq-26",
-        "step-mcq-23",
-        "step-mcq-27",
-        "step-mcq-22"
+        "step-mcq-06",
+        "step-mcq-07",
+        "step-mcq-21"
       ],
       "explanation": "本句的「Watch your step」指「表示小心腳下；例句：「地板很濕，小心腳下。」」。",
       "sentenceIndex": 48,
@@ -2194,12 +2000,10 @@ export default {
         "Watch your step"
       ],
       "optionReasons": {
-        "step-mcq-25": "本句指「表示小心腳下；例句：「地板很濕，小心腳下。」」。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。"
+        "step-mcq-25": "本句的「Watch your step」指「表示小心腳下；例句：「地板很濕，小心腳下。」」。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-25"
     },
@@ -2211,11 +2015,9 @@ export default {
       "masked": "You’d better ____ around the new manager.",
       "options": [
         "step-mcq-25",
-        "step-mcq-24",
-        "step-mcq-26",
-        "step-mcq-23",
-        "step-mcq-27",
-        "step-mcq-22"
+        "step-mcq-08",
+        "step-mcq-31",
+        "step-mcq-21"
       ],
       "explanation": "本句的「watch your step」指「表示小心腳下；例句：「地板很濕，小心腳下。」」。",
       "sentenceIndex": 49,
@@ -2224,12 +2026,10 @@ export default {
         "watch your step"
       ],
       "optionReasons": {
-        "step-mcq-25": "本句指「表示小心腳下；例句：「地板很濕，小心腳下。」」。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-22": "「表示下台；辭職；卸任；例句：「主任決定辭職／卸任。」」是「step down = leave an important job or position 下台；辭職；卸任」的用法，與本句語境不同。"
+        "step-mcq-25": "本句的「watch your step」指「表示小心腳下；例句：「地板很濕，小心腳下。」」。",
+        "step-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-25"
     },
@@ -2241,11 +2041,9 @@ export default {
       "masked": "____ as you get off the train.",
       "options": [
         "step-mcq-26",
-        "step-mcq-25",
-        "step-mcq-27",
-        "step-mcq-24",
-        "step-mcq-28",
-        "step-mcq-23"
+        "step-mcq-21",
+        "step-mcq-02",
+        "step-mcq-05"
       ],
       "explanation": "本句的「Mind your step」指「表示小心腳下；例句：「下火車時小心腳下。」」。",
       "sentenceIndex": 50,
@@ -2254,12 +2052,10 @@ export default {
         "Mind your step"
       ],
       "optionReasons": {
-        "step-mcq-26": "本句指「表示小心腳下；例句：「下火車時小心腳下。」」。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。"
+        "step-mcq-26": "本句的「Mind your step」指「表示小心腳下；例句：「下火車時小心腳下。」」。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-26"
     },
@@ -2271,11 +2067,9 @@ export default {
       "masked": "____ at the entrance.",
       "options": [
         "step-mcq-26",
-        "step-mcq-25",
-        "step-mcq-27",
-        "step-mcq-24",
-        "step-mcq-28",
-        "step-mcq-23"
+        "step-mcq-12",
+        "step-mcq-10",
+        "step-mcq-22"
       ],
       "explanation": "本句的「Mind the step」指「表示小心腳下；例句：「下火車時小心腳下。」」。",
       "sentenceIndex": 51,
@@ -2284,12 +2078,10 @@ export default {
         "Mind the step"
       ],
       "optionReasons": {
-        "step-mcq-26": "本句指「表示小心腳下；例句：「下火車時小心腳下。」」。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-23": "「表示一步一步地；逐步地；例句：「我們會一步一步地解決這個問題。」」是「step by step = gradually, one stage at a time 一步一步地；逐步地」的用法，與本句語境不同。"
+        "step-mcq-26": "本句的「Mind the step」指「表示小心腳下；例句：「下火車時小心腳下。」」。",
+        "step-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-26"
     },
@@ -2301,11 +2093,9 @@ export default {
       "masked": "The soldiers marched ____.",
       "options": [
         "step-mcq-27",
-        "step-mcq-26",
-        "step-mcq-28",
+        "step-mcq-04",
         "step-mcq-25",
-        "step-mcq-29",
-        "step-mcq-24"
+        "step-mcq-16"
       ],
       "explanation": "本句的「in step」指「表示步調一致；例句：「士兵們步伐一致地行進。」」。",
       "sentenceIndex": 52,
@@ -2314,12 +2104,10 @@ export default {
         "in step"
       ],
       "optionReasons": {
-        "step-mcq-27": "本句指「表示步調一致；例句：「士兵們步伐一致地行進。」」。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。"
+        "step-mcq-27": "本句的「in step」指「表示步調一致；例句：「士兵們步伐一致地行進。」」。",
+        "step-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-27"
     },
@@ -2331,11 +2119,9 @@ export default {
       "masked": "Businesses need to ____.",
       "options": [
         "step-mcq-27",
-        "step-mcq-26",
-        "step-mcq-28",
+        "step-mcq-01",
         "step-mcq-25",
-        "step-mcq-29",
-        "step-mcq-24"
+        "step-mcq-22"
       ],
       "explanation": "本句的「keep in step with technological change」指「表示步調一致；例句：「士兵們步伐一致地行進。」」。",
       "sentenceIndex": 53,
@@ -2344,12 +2130,10 @@ export default {
         "keep in step with technological change"
       ],
       "optionReasons": {
-        "step-mcq-27": "本句指「表示步調一致；例句：「士兵們步伐一致地行進。」」。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-24": "「表示一步一步來；例句：「不要一次擔心所有事情，一步一步來。」」是「one step at a time = deal with something gradually rather than all at once 一步一步來」的用法，與本句語境不同。"
+        "step-mcq-27": "本句的「keep in step with technological change」指「表示步調一致；例句：「士兵們步伐一致地行進。」」。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-27"
     },
@@ -2361,11 +2145,9 @@ export default {
       "masked": "He was marching ____.",
       "options": [
         "step-mcq-28",
-        "step-mcq-27",
-        "step-mcq-29",
-        "step-mcq-26",
-        "step-mcq-30",
-        "step-mcq-25"
+        "step-mcq-14",
+        "step-mcq-04",
+        "step-mcq-16"
       ],
       "explanation": "本句的「out of step」指「表示步調不一致；例句：「他行進時步伐不一致。」」。",
       "sentenceIndex": 54,
@@ -2374,12 +2156,10 @@ export default {
         "out of step"
       ],
       "optionReasons": {
-        "step-mcq-28": "本句指「表示步調不一致；例句：「他行進時步伐不一致。」」。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。"
+        "step-mcq-28": "本句的「out of step」指「表示步調不一致；例句：「他行進時步伐不一致。」」。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-28"
     },
@@ -2391,11 +2171,9 @@ export default {
       "masked": "The policy seems ____.",
       "options": [
         "step-mcq-28",
-        "step-mcq-27",
-        "step-mcq-29",
-        "step-mcq-26",
-        "step-mcq-30",
-        "step-mcq-25"
+        "step-mcq-25",
+        "step-mcq-14",
+        "step-mcq-17"
       ],
       "explanation": "本句的「out of step with modern needs」指「表示步調不一致；例句：「他行進時步伐不一致。」」。",
       "sentenceIndex": 55,
@@ -2404,12 +2182,10 @@ export default {
         "out of step with modern needs"
       ],
       "optionReasons": {
-        "step-mcq-28": "本句指「表示步調不一致；例句：「他行進時步伐不一致。」」。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-25": "「表示小心腳下；例句：「地板很濕，小心腳下。」」是「watch your step」的用法，與本句語境不同。"
+        "step-mcq-28": "本句的「out of step with modern needs」指「表示步調不一致；例句：「他行進時步伐不一致。」」。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-28"
     },
@@ -2421,11 +2197,9 @@ export default {
       "masked": "She ____ and became a teacher.",
       "options": [
         "step-mcq-29",
-        "step-mcq-28",
-        "step-mcq-30",
-        "step-mcq-27",
-        "step-mcq-31",
-        "step-mcq-26"
+        "step-mcq-16",
+        "step-mcq-10",
+        "step-mcq-06"
       ],
       "explanation": "本句的「followed in her mother’s footsteps」指「追隨某人的腳步；走與某人相似的道路」。",
       "sentenceIndex": 56,
@@ -2434,12 +2208,10 @@ export default {
         "followed in her mother’s footsteps"
       ],
       "optionReasons": {
-        "step-mcq-29": "本句指「追隨某人的腳步；走與某人相似的道路」。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。"
+        "step-mcq-29": "本句的「followed in her mother’s footsteps」指「追隨某人的腳步；走與某人相似的道路」。",
+        "step-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-29"
     },
@@ -2451,11 +2223,9 @@ export default {
       "masked": "He did not want to ____.",
       "options": [
         "step-mcq-29",
-        "step-mcq-28",
-        "step-mcq-30",
-        "step-mcq-27",
-        "step-mcq-31",
-        "step-mcq-26"
+        "step-mcq-22",
+        "step-mcq-10",
+        "step-mcq-14"
       ],
       "explanation": "本句的「follow in his father’s footsteps」指「追隨某人的腳步；走與某人相似的道路」。",
       "sentenceIndex": 57,
@@ -2464,12 +2234,10 @@ export default {
         "follow in his father’s footsteps"
       ],
       "optionReasons": {
-        "step-mcq-29": "本句指「追隨某人的腳步；走與某人相似的道路」。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-26": "「表示小心腳下；例句：「下火車時小心腳下。」」是「mind your step = be careful where you are walking 小心腳下」的用法，與本句語境不同。"
+        "step-mcq-29": "本句的「follow in his father’s footsteps」指「追隨某人的腳步；走與某人相似的道路」。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-29"
     },
@@ -2481,11 +2249,9 @@ export default {
       "masked": "She always tries to stay ____.",
       "options": [
         "step-mcq-30",
-        "step-mcq-29",
-        "step-mcq-31",
-        "step-mcq-28",
-        "step-mcq-32",
-        "step-mcq-27"
+        "step-mcq-21",
+        "step-mcq-15",
+        "step-mcq-25"
       ],
       "explanation": "本句的「one step ahead」指「表示領先一步；例句：「她總是設法領先一步。」」。",
       "sentenceIndex": 58,
@@ -2494,12 +2260,10 @@ export default {
         "one step ahead"
       ],
       "optionReasons": {
-        "step-mcq-30": "本句指「表示領先一步；例句：「她總是設法領先一步。」」。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-32": "「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」是「footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。"
+        "step-mcq-30": "本句的「one step ahead」指「表示領先一步；例句：「她總是設法領先一步。」」。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-30"
     },
@@ -2511,11 +2275,9 @@ export default {
       "masked": "Good planning keeps us ____.",
       "options": [
         "step-mcq-30",
-        "step-mcq-29",
-        "step-mcq-31",
-        "step-mcq-28",
-        "step-mcq-32",
-        "step-mcq-27"
+        "step-mcq-33",
+        "step-mcq-01",
+        "step-mcq-10"
       ],
       "explanation": "本句的「one step ahead of problems」指「表示領先一步；例句：「她總是設法領先一步。」」。",
       "sentenceIndex": 59,
@@ -2524,12 +2286,10 @@ export default {
         "one step ahead of problems"
       ],
       "optionReasons": {
-        "step-mcq-30": "本句指「表示領先一步；例句：「她總是設法領先一步。」」。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。",
-        "step-mcq-32": "「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」是「footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡」的用法，與本句語境不同。",
-        "step-mcq-27": "「表示步調一致；例句：「士兵們步伐一致地行進。」」是「keep in step」的用法，與本句語境不同。"
+        "step-mcq-30": "本句的「one step ahead of problems」指「表示領先一步；例句：「她總是設法領先一步。」」。",
+        "step-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-30"
     },
@@ -2541,11 +2301,9 @@ export default {
       "masked": "Let’s ____ and reconsider the problem.",
       "options": [
         "step-mcq-31",
-        "step-mcq-30",
-        "step-mcq-32",
-        "step-mcq-29",
-        "step-mcq-33",
-        "step-mcq-28"
+        "step-mcq-01",
+        "step-mcq-25",
+        "step-mcq-15"
       ],
       "explanation": "本句的「take a step back」指「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」。",
       "sentenceIndex": 60,
@@ -2554,12 +2312,10 @@ export default {
         "take a step back"
       ],
       "optionReasons": {
-        "step-mcq-31": "本句指「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-32": "「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」是「footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-33": "「表示門階；家門口；例句：「包裹被放在門口。」」是「doorstep = the step or area immediately outside an entrance door 門階；家門口」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。"
+        "step-mcq-31": "本句的「take a step back」指「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-31"
     },
@@ -2571,11 +2327,9 @@ export default {
       "masked": "Sometimes you need to ____ before making a decision.",
       "options": [
         "step-mcq-31",
-        "step-mcq-30",
-        "step-mcq-32",
-        "step-mcq-29",
-        "step-mcq-33",
-        "step-mcq-28"
+        "step-mcq-17",
+        "step-mcq-05",
+        "step-mcq-10"
       ],
       "explanation": "本句的「take a step back」指「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」。",
       "sentenceIndex": 61,
@@ -2584,12 +2338,10 @@ export default {
         "take a step back"
       ],
       "optionReasons": {
-        "step-mcq-31": "本句指「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-32": "「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」是「footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-33": "「表示門階；家門口；例句：「包裹被放在門口。」」是「doorstep = the step or area immediately outside an entrance door 門階；家門口」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。"
+        "step-mcq-31": "本句的「take a step back」指「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」。",
+        "step-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-31"
     },
@@ -2601,11 +2353,9 @@ export default {
       "masked": "I heard ____ in the hallway.",
       "options": [
         "step-mcq-32",
-        "step-mcq-31",
-        "step-mcq-33",
-        "step-mcq-30",
-        "step-mcq-29",
-        "step-mcq-28"
+        "step-mcq-22",
+        "step-mcq-04",
+        "step-mcq-15"
       ],
       "explanation": "本句的「footsteps」指「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」。",
       "sentenceIndex": 62,
@@ -2614,12 +2364,10 @@ export default {
         "footsteps"
       ],
       "optionReasons": {
-        "step-mcq-32": "本句指「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-33": "「表示門階；家門口；例句：「包裹被放在門口。」」是「doorstep = the step or area immediately outside an entrance door 門階；家門口」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。"
+        "step-mcq-32": "本句的「footsteps」指「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」。",
+        "step-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-32"
     },
@@ -2631,11 +2379,9 @@ export default {
       "masked": "She followed in her mentor’s ____.",
       "options": [
         "step-mcq-32",
-        "step-mcq-31",
-        "step-mcq-33",
-        "step-mcq-30",
-        "step-mcq-29",
-        "step-mcq-28"
+        "step-mcq-06",
+        "step-mcq-21",
+        "step-mcq-14"
       ],
       "explanation": "本句的「footsteps」指「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」。",
       "sentenceIndex": 63,
@@ -2644,12 +2390,10 @@ export default {
         "footsteps"
       ],
       "optionReasons": {
-        "step-mcq-32": "本句指「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-33": "「表示門階；家門口；例句：「包裹被放在門口。」」是「doorstep = the step or area immediately outside an entrance door 門階；家門口」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。"
+        "step-mcq-32": "本句的「footsteps」指「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-32"
     },
@@ -2661,11 +2405,9 @@ export default {
       "masked": "The package was left on the ____.",
       "options": [
         "step-mcq-33",
-        "step-mcq-32",
         "step-mcq-31",
-        "step-mcq-30",
-        "step-mcq-29",
-        "step-mcq-28"
+        "step-mcq-14",
+        "step-mcq-32"
       ],
       "explanation": "本句的「doorstep」指「表示門階；家門口；例句：「包裹被放在門口。」」。",
       "sentenceIndex": 64,
@@ -2674,12 +2416,10 @@ export default {
         "doorstep"
       ],
       "optionReasons": {
-        "step-mcq-33": "本句指「表示門階；家門口；例句：「包裹被放在門口。」」。",
-        "step-mcq-32": "「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」是「footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡」的用法，與本句語境不同。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。"
+        "step-mcq-33": "本句的「doorstep」指「表示門階；家門口；例句：「包裹被放在門口。」」。",
+        "step-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-33"
     },
@@ -2691,11 +2431,9 @@ export default {
       "masked": "Reporters gathered on his ____.",
       "options": [
         "step-mcq-33",
-        "step-mcq-32",
-        "step-mcq-31",
-        "step-mcq-30",
-        "step-mcq-29",
-        "step-mcq-28"
+        "step-mcq-20",
+        "step-mcq-06",
+        "step-mcq-01"
       ],
       "explanation": "本句的「doorstep」指「表示門階；家門口；例句：「包裹被放在門口。」」。",
       "sentenceIndex": 65,
@@ -2704,12 +2442,10 @@ export default {
         "doorstep"
       ],
       "optionReasons": {
-        "step-mcq-33": "本句指「表示門階；家門口；例句：「包裹被放在門口。」」。",
-        "step-mcq-32": "「表示腳步聲；足跡；例句：「我聽見走廊裡有腳步聲。」」是「footsteps = sounds or marks made by someone walking; figuratively, another person’s path 腳步聲；足跡」的用法，與本句語境不同。",
-        "step-mcq-31": "「表示退一步；重新審視；例句：「我們先退一步，重新思考這個問題。」」是「take a step back = reconsider something from a greater distance or broader perspective 退一步；重新審視」的用法，與本句語境不同。",
-        "step-mcq-30": "「表示領先一步；例句：「她總是設法領先一步。」」是「get / be one step ahead = be slightly more advanced, prepared, or informed than someone else 領先一步」的用法，與本句語境不同。",
-        "step-mcq-29": "「追隨某人的腳步；走與某人相似的道路」是「follow in someone’s footsteps = do similar work or make similar life choices to another person 追隨某人的腳步；走與某人相似的道路」的用法，與本句語境不同。",
-        "step-mcq-28": "「表示步調不一致；例句：「他行進時步伐不一致。」」是「out of step」的用法，與本句語境不同。"
+        "step-mcq-33": "本句的「doorstep」指「表示門階；家門口；例句：「包裹被放在門口。」」。",
+        "step-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "step-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "step-mcq-33"
     }
@@ -2721,5 +2457,7 @@ export default {
     "sha256": "4fb06e6f3084976f2e51e9ce44d089a70945b50634b4014af339c7f8b1fd7b0f",
     "pages": 20
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

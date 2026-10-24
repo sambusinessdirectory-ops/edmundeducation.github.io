@@ -334,11 +334,7 @@ export default {
       "masked": "Her calm voice ____ me.",
       "options": [
         "reassure-mcq-01",
-        "reassure-mcq-02",
-        "reassure-mcq-03",
-        "reassure-mcq-04",
-        "reassure-mcq-05",
-        "reassure-mcq-06"
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassured」指「透過資訊、支持或安慰，令某人的擔心／恐懼減少」。",
       "sentenceIndex": 0,
@@ -347,12 +343,8 @@ export default {
         "reassured"
       ],
       "optionReasons": {
-        "reassure-mcq-01": "本句指「透過資訊、支持或安慰，令某人的擔心／恐懼減少」。",
-        "reassure-mcq-02": "「告訴某人 X 是真的／情況較安全，從而令其放心」與本句語境不同。",
-        "reassure-mcq-03": "「就 X 的情況安撫某人，減少其憂慮」與本句語境不同。",
-        "reassure-mcq-04": "「使某人重新確信支持、承諾、感情等仍然存在」與本句語境不同。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。"
+        "reassure-mcq-01": "本句的「reassured」指「透過資訊、支持或安慰，令某人的擔心／恐懼減少」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-01"
     },
@@ -364,11 +356,7 @@ export default {
       "masked": "The teacher ____ the students before the exam.",
       "options": [
         "reassure-mcq-01",
-        "reassure-mcq-02",
-        "reassure-mcq-03",
-        "reassure-mcq-04",
-        "reassure-mcq-05",
-        "reassure-mcq-06"
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassured」指「透過資訊、支持或安慰，令某人的擔心／恐懼減少」。",
       "sentenceIndex": 1,
@@ -377,12 +365,8 @@ export default {
         "reassured"
       ],
       "optionReasons": {
-        "reassure-mcq-01": "本句指「透過資訊、支持或安慰，令某人的擔心／恐懼減少」。",
-        "reassure-mcq-02": "「告訴某人 X 是真的／情況較安全，從而令其放心」與本句語境不同。",
-        "reassure-mcq-03": "「就 X 的情況安撫某人，減少其憂慮」與本句語境不同。",
-        "reassure-mcq-04": "「使某人重新確信支持、承諾、感情等仍然存在」與本句語境不同。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。"
+        "reassure-mcq-01": "本句的「reassured」指「透過資訊、支持或安慰，令某人的擔心／恐懼減少」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-01"
     },
@@ -394,11 +378,7 @@ export default {
       "masked": "His smile was ____.",
       "options": [
         "reassure-mcq-06",
-        "reassure-mcq-05",
-        "reassure-mcq-07",
-        "reassure-mcq-04",
-        "reassure-mcq-08",
-        "reassure-mcq-03"
+        "reassure-mcq-10"
       ],
       "explanation": "本句的「reassuring」指「能令擔心／不安減少的」。",
       "sentenceIndex": 12,
@@ -407,12 +387,8 @@ export default {
         "reassuring"
       ],
       "optionReasons": {
-        "reassure-mcq-06": "本句指「能令擔心／不安減少的」。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
-        "reassure-mcq-04": "「使某人重新確信支持、承諾、感情等仍然存在」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-03": "「就 X 的情況安撫某人，減少其憂慮」與本句語境不同。"
+        "reassure-mcq-06": "本句的「reassuring」指「能令擔心／不安減少的」。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-06"
     },
@@ -424,11 +400,7 @@ export default {
       "masked": "The early results were ____.",
       "options": [
         "reassure-mcq-06",
-        "reassure-mcq-05",
-        "reassure-mcq-07",
-        "reassure-mcq-04",
-        "reassure-mcq-08",
-        "reassure-mcq-03"
+        "reassure-mcq-10"
       ],
       "explanation": "本句的「reassuring」指「能令擔心／不安減少的」。",
       "sentenceIndex": 13,
@@ -437,12 +409,8 @@ export default {
         "reassuring"
       ],
       "optionReasons": {
-        "reassure-mcq-06": "本句指「能令擔心／不安減少的」。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
-        "reassure-mcq-04": "「使某人重新確信支持、承諾、感情等仍然存在」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-03": "「就 X 的情況安撫某人，減少其憂慮」與本句語境不同。"
+        "reassure-mcq-06": "本句的「reassuring」指「能令擔心／不安減少的」。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-06"
     },
@@ -454,11 +422,9 @@ export default {
       "masked": "The drop in temperature was a ____.",
       "options": [
         "reassure-mcq-07",
-        "reassure-mcq-06",
         "reassure-mcq-08",
-        "reassure-mcq-05",
-        "reassure-mcq-09",
-        "reassure-mcq-04"
+        "reassure-mcq-10",
+        "reassure-mcq-12"
       ],
       "explanation": "本句的「reassuring sign」指「顯示情況沒有想像中那麼糟、令人較放心的跡象」。",
       "sentenceIndex": 20,
@@ -467,12 +433,10 @@ export default {
         "reassuring sign"
       ],
       "optionReasons": {
-        "reassure-mcq-07": "本句指「顯示情況沒有想像中那麼糟、令人較放心的跡象」。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-04": "「使某人重新確信支持、承諾、感情等仍然存在」與本句語境不同。"
+        "reassure-mcq-07": "本句的「reassuring sign」指「顯示情況沒有想像中那麼糟、令人較放心的跡象」。",
+        "reassure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-07"
     },
@@ -484,11 +448,9 @@ export default {
       "masked": "Stable sales are a ____ sign for the business.",
       "options": [
         "reassure-mcq-07",
-        "reassure-mcq-06",
         "reassure-mcq-08",
-        "reassure-mcq-05",
-        "reassure-mcq-09",
-        "reassure-mcq-04"
+        "reassure-mcq-10",
+        "reassure-mcq-12"
       ],
       "explanation": "本句的「reassuring」指「顯示情況沒有想像中那麼糟、令人較放心的跡象」。",
       "sentenceIndex": 21,
@@ -497,12 +459,10 @@ export default {
         "reassuring"
       ],
       "optionReasons": {
-        "reassure-mcq-07": "本句指「顯示情況沒有想像中那麼糟、令人較放心的跡象」。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-04": "「使某人重新確信支持、承諾、感情等仍然存在」與本句語境不同。"
+        "reassure-mcq-07": "本句的「reassuring」指「顯示情況沒有想像中那麼糟、令人較放心的跡象」。",
+        "reassure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-07"
     },
@@ -514,11 +474,9 @@ export default {
       "masked": "The scan produced ____.",
       "options": [
         "reassure-mcq-08",
-        "reassure-mcq-07",
-        "reassure-mcq-09",
-        "reassure-mcq-06",
         "reassure-mcq-10",
-        "reassure-mcq-05"
+        "reassure-mcq-12",
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassuring results」指「結果好到足以降低原本憂慮的」。",
       "sentenceIndex": 22,
@@ -527,12 +485,10 @@ export default {
         "reassuring results"
       ],
       "optionReasons": {
-        "reassure-mcq-08": "本句指「結果好到足以降低原本憂慮的」。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。"
+        "reassure-mcq-08": "本句的「reassuring results」指「結果好到足以降低原本憂慮的」。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-08"
     },
@@ -544,11 +500,8 @@ export default {
       "masked": "The test result was ____.",
       "options": [
         "reassure-mcq-08",
-        "reassure-mcq-07",
-        "reassure-mcq-09",
-        "reassure-mcq-06",
-        "reassure-mcq-10",
-        "reassure-mcq-05"
+        "reassure-mcq-13",
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassuring」指「結果好到足以降低原本憂慮的」。",
       "sentenceIndex": 23,
@@ -557,12 +510,9 @@ export default {
         "reassuring"
       ],
       "optionReasons": {
-        "reassure-mcq-08": "本句指「結果好到足以降低原本憂慮的」。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-05": "「因得到解釋、確認或支持而感到較安心的」與本句語境不同。"
+        "reassure-mcq-08": "本句的「reassuring」指「結果好到足以降低原本憂慮的」。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-08"
     },
@@ -574,11 +524,7 @@ export default {
       "masked": "She needed ____.",
       "options": [
         "reassure-pdf-001",
-        "reassure-mcq-08",
-        "reassure-mcq-10",
-        "reassure-mcq-07",
-        "reassure-mcq-11",
-        "reassure-mcq-06"
+        "reassure-mcq-12"
       ],
       "explanation": "本句的「reassurance」指「用說話、行動或證據令某人減少不安的支持」。",
       "sentenceIndex": 28,
@@ -587,12 +533,8 @@ export default {
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-pdf-001": "本句指「用說話、行動或證據令某人減少不安的支持」。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。"
+        "reassure-pdf-001": "本句的「reassurance」指「用說話、行動或證據令某人減少不安的支持」。",
+        "reassure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-pdf-001"
     },
@@ -604,11 +546,7 @@ export default {
       "masked": "His ____ helped her sleep.",
       "options": [
         "reassure-pdf-001",
-        "reassure-mcq-08",
-        "reassure-mcq-10",
-        "reassure-mcq-07",
-        "reassure-mcq-11",
-        "reassure-mcq-06"
+        "reassure-mcq-12"
       ],
       "explanation": "本句的「reassurance」指「用說話、行動或證據令某人減少不安的支持」。",
       "sentenceIndex": 29,
@@ -617,12 +555,8 @@ export default {
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-pdf-001": "本句指「用說話、行動或證據令某人減少不安的支持」。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-06": "「能令擔心／不安減少的」與本句語境不同。"
+        "reassure-pdf-001": "本句的「reassurance」指「用說話、行動或證據令某人減少不安的支持」。",
+        "reassure-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-pdf-001"
     },
@@ -634,11 +568,7 @@ export default {
       "masked": "He often ____ from friends.",
       "options": [
         "reassure-mcq-10",
-        "reassure-mcq-09",
-        "reassure-mcq-11",
-        "reassure-mcq-08",
-        "reassure-mcq-12",
-        "reassure-mcq-07"
+        "reassure-mcq-06"
       ],
       "explanation": "本句的「seeks reassurance」指「主動尋找別人／資訊確認「事情沒問題」」。",
       "sentenceIndex": 34,
@@ -647,12 +577,8 @@ export default {
         "seeks reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-10": "本句指「主動尋找別人／資訊確認「事情沒問題」」。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。"
+        "reassure-mcq-10": "本句的「seeks reassurance」指「主動尋找別人／資訊確認「事情沒問題」」。",
+        "reassure-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-10"
     },
@@ -664,10 +590,8 @@ export default {
       "masked": "She kept checking the numbers to seek ____.",
       "options": [
         "reassure-mcq-10",
-        "reassure-mcq-09",
-        "reassure-mcq-11",
-        "reassure-mcq-08",
         "reassure-mcq-12",
+        "reassure-mcq-08",
         "reassure-mcq-07"
       ],
       "explanation": "本句的「reassurance」指「主動尋找別人／資訊確認「事情沒問題」」。",
@@ -677,12 +601,10 @@ export default {
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-10": "本句指「主動尋找別人／資訊確認「事情沒問題」」。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-07": "「顯示情況沒有想像中那麼糟、令人較放心的跡象」與本句語境不同。"
+        "reassure-mcq-10": "本句的「reassurance」指「主動尋找別人／資訊確認「事情沒問題」」。",
+        "reassure-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-10"
     },
@@ -694,11 +616,8 @@ export default {
       "masked": "Repeated checking can become a form of ____.",
       "options": [
         "reassure-mcq-11",
-        "reassure-mcq-10",
-        "reassure-mcq-12",
-        "reassure-mcq-09",
-        "reassure-mcq-13",
-        "reassure-mcq-08"
+        "reassure-mcq-07",
+        "reassure-mcq-13"
       ],
       "explanation": "本句的「reassurance-seeking」指「反覆透過詢問、查看或確認來暫時降低焦慮的行為」。",
       "sentenceIndex": 40,
@@ -707,12 +626,9 @@ export default {
         "reassurance-seeking"
       ],
       "optionReasons": {
-        "reassure-mcq-11": "本句指「反覆透過詢問、查看或確認來暫時降低焦慮的行為」。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。"
+        "reassure-mcq-11": "本句的「reassurance-seeking」指「反覆透過詢問、查看或確認來暫時降低焦慮的行為」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-11"
     },
@@ -724,11 +640,8 @@ export default {
       "masked": "____ may temporarily reduce anxiety.",
       "options": [
         "reassure-mcq-11",
-        "reassure-mcq-10",
-        "reassure-mcq-12",
-        "reassure-mcq-09",
-        "reassure-mcq-13",
-        "reassure-mcq-08"
+        "reassure-mcq-07",
+        "reassure-mcq-13"
       ],
       "explanation": "本句的「Reassurance-seeking」指「反覆透過詢問、查看或確認來暫時降低焦慮的行為」。",
       "sentenceIndex": 41,
@@ -737,12 +650,9 @@ export default {
         "Reassurance-seeking"
       ],
       "optionReasons": {
-        "reassure-mcq-11": "本句指「反覆透過詢問、查看或確認來暫時降低焦慮的行為」。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-08": "「結果好到足以降低原本憂慮的」與本句語境不同。"
+        "reassure-mcq-11": "本句的「Reassurance-seeking」指「反覆透過詢問、查看或確認來暫時降低焦慮的行為」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-11"
     },
@@ -754,11 +664,9 @@ export default {
       "masked": "She used breathing exercises for ____.",
       "options": [
         "reassure-mcq-12",
-        "reassure-mcq-11",
-        "reassure-mcq-13",
+        "reassure-mcq-08",
         "reassure-mcq-10",
-        "reassure-mcq-14",
-        "reassure-mcq-09"
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「self-reassurance」指「透過自我對話／思考令自己安心」。",
       "sentenceIndex": 42,
@@ -767,12 +675,10 @@ export default {
         "self-reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-12": "本句指「透過自我對話／思考令自己安心」。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。"
+        "reassure-mcq-12": "本句的「self-reassurance」指「透過自我對話／思考令自己安心」。",
+        "reassure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-12"
     },
@@ -784,11 +690,9 @@ export default {
       "masked": "Positive self-talk can provide self-____.",
       "options": [
         "reassure-mcq-12",
-        "reassure-mcq-11",
-        "reassure-mcq-13",
         "reassure-mcq-10",
-        "reassure-mcq-14",
-        "reassure-mcq-09"
+        "reassure-mcq-08",
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassurance」指「透過自我對話／思考令自己安心」。",
       "sentenceIndex": 43,
@@ -797,12 +701,10 @@ export default {
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-12": "本句指「透過自我對話／思考令自己安心」。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-09": "「能降低擔憂、增加安全感的說話、行動或資訊」與本句語境不同。"
+        "reassure-mcq-12": "本句的「reassurance」指「透過自我對話／思考令自己安心」。",
+        "reassure-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-12"
     },
@@ -815,10 +717,7 @@ export default {
       "options": [
         "reassure-mcq-14",
         "reassure-mcq-13",
-        "reassure-mcq-15",
-        "reassure-mcq-12",
-        "reassure-mcq-16",
-        "reassure-mcq-11"
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassured the patient」指「透過醫療資訊／解釋令病人減少擔心」。",
       "sentenceIndex": 46,
@@ -827,12 +726,9 @@ export default {
         "reassured the patient"
       ],
       "optionReasons": {
-        "reassure-mcq-14": "本句指「透過醫療資訊／解釋令病人減少擔心」。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-15": "「透過資訊或行動降低投資者／市場參與者的不安」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-16": "「透過公開資訊減少公眾恐慌或擔憂」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。"
+        "reassure-mcq-14": "本句的「reassured the patient」指「透過醫療資訊／解釋令病人減少擔心」。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-14"
     },
@@ -845,10 +741,7 @@ export default {
       "options": [
         "reassure-mcq-14",
         "reassure-mcq-13",
-        "reassure-mcq-15",
-        "reassure-mcq-12",
-        "reassure-mcq-16",
-        "reassure-mcq-11"
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassure」指「透過醫療資訊／解釋令病人減少擔心」。",
       "sentenceIndex": 47,
@@ -857,12 +750,9 @@ export default {
         "reassure"
       ],
       "optionReasons": {
-        "reassure-mcq-14": "本句指「透過醫療資訊／解釋令病人減少擔心」。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-15": "「透過資訊或行動降低投資者／市場參與者的不安」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-16": "「透過公開資訊減少公眾恐慌或擔憂」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。"
+        "reassure-mcq-14": "本句的「reassure」指「透過醫療資訊／解釋令病人減少擔心」。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-14"
     },
@@ -874,11 +764,8 @@ export default {
       "masked": "The stronger results ____.",
       "options": [
         "reassure-mcq-15",
-        "reassure-mcq-14",
-        "reassure-mcq-16",
-        "reassure-mcq-13",
-        "reassure-mcq-12",
-        "reassure-mcq-11"
+        "reassure-mcq-07",
+        "reassure-mcq-13"
       ],
       "explanation": "本句的「reassured investors」指「透過資訊或行動降低投資者／市場參與者的不安」。",
       "sentenceIndex": 52,
@@ -887,12 +774,9 @@ export default {
         "reassured investors"
       ],
       "optionReasons": {
-        "reassure-mcq-15": "本句指「透過資訊或行動降低投資者／市場參與者的不安」。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-16": "「透過公開資訊減少公眾恐慌或擔憂」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。"
+        "reassure-mcq-15": "本句的「reassured investors」指「透過資訊或行動降低投資者／市場參與者的不安」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-15"
     },
@@ -904,11 +788,8 @@ export default {
       "masked": "Management tried to ____ investors about cash flow.",
       "options": [
         "reassure-mcq-15",
-        "reassure-mcq-14",
-        "reassure-mcq-16",
-        "reassure-mcq-13",
-        "reassure-mcq-12",
-        "reassure-mcq-11"
+        "reassure-mcq-07",
+        "reassure-mcq-13"
       ],
       "explanation": "本句的「reassure」指「透過資訊或行動降低投資者／市場參與者的不安」。",
       "sentenceIndex": 53,
@@ -917,12 +798,9 @@ export default {
         "reassure"
       ],
       "optionReasons": {
-        "reassure-mcq-15": "本句指「透過資訊或行動降低投資者／市場參與者的不安」。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-16": "「透過公開資訊減少公眾恐慌或擔憂」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。"
+        "reassure-mcq-15": "本句的「reassure」指「透過資訊或行動降低投資者／市場參與者的不安」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-15"
     },
@@ -934,11 +812,8 @@ export default {
       "masked": "Officials tried to ____.",
       "options": [
         "reassure-mcq-16",
-        "reassure-mcq-15",
-        "reassure-mcq-14",
         "reassure-mcq-13",
-        "reassure-mcq-12",
-        "reassure-mcq-11"
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassure the public」指「透過公開資訊減少公眾恐慌或擔憂」。",
       "sentenceIndex": 58,
@@ -947,12 +822,9 @@ export default {
         "reassure the public"
       ],
       "optionReasons": {
-        "reassure-mcq-16": "本句指「透過公開資訊減少公眾恐慌或擔憂」。",
-        "reassure-mcq-15": "「透過資訊或行動降低投資者／市場參與者的不安」與本句語境不同。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。"
+        "reassure-mcq-16": "本句的「reassure the public」指「透過公開資訊減少公眾恐慌或擔憂」。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-16"
     },
@@ -964,11 +836,8 @@ export default {
       "masked": "The statement was intended to ____ residents.",
       "options": [
         "reassure-mcq-16",
-        "reassure-mcq-15",
-        "reassure-mcq-14",
-        "reassure-mcq-13",
-        "reassure-mcq-12",
-        "reassure-mcq-11"
+        "reassure-mcq-07",
+        "reassure-mcq-13"
       ],
       "explanation": "本句的「reassure」指「透過公開資訊減少公眾恐慌或擔憂」。",
       "sentenceIndex": 59,
@@ -977,12 +846,9 @@ export default {
         "reassure"
       ],
       "optionReasons": {
-        "reassure-mcq-16": "本句指「透過公開資訊減少公眾恐慌或擔憂」。",
-        "reassure-mcq-15": "「透過資訊或行動降低投資者／市場參與者的不安」與本句語境不同。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-13": "「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」與本句語境不同。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。"
+        "reassure-mcq-16": "本句的「reassure」指「透過公開資訊減少公眾恐慌或擔憂」。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-16"
     },
@@ -994,11 +860,8 @@ export default {
       "masked": "A normal result can sometimes create ____.",
       "options": [
         "reassure-mcq-13",
-        "reassure-mcq-12",
-        "reassure-mcq-14",
-        "reassure-mcq-11",
-        "reassure-mcq-15",
-        "reassure-mcq-10"
+        "reassure-mcq-08",
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「false reassurance」指「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」。",
       "sentenceIndex": 66,
@@ -1007,12 +870,9 @@ export default {
         "false reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-13": "本句指「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-15": "「透過資訊或行動降低投資者／市場參與者的不安」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。"
+        "reassure-mcq-13": "本句的「false reassurance」指「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」。",
+        "reassure-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-13"
     },
@@ -1024,11 +884,8 @@ export default {
       "masked": "We should avoid giving false ____.",
       "options": [
         "reassure-mcq-13",
-        "reassure-mcq-12",
-        "reassure-mcq-14",
-        "reassure-mcq-11",
-        "reassure-mcq-15",
-        "reassure-mcq-10"
+        "reassure-mcq-16",
+        "reassure-mcq-07"
       ],
       "explanation": "本句的「reassurance」指「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」。",
       "sentenceIndex": 67,
@@ -1037,12 +894,9 @@ export default {
         "reassurance"
       ],
       "optionReasons": {
-        "reassure-mcq-13": "本句指「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」。",
-        "reassure-mcq-12": "「透過自我對話／思考令自己安心」與本句語境不同。",
-        "reassure-mcq-14": "「透過醫療資訊／解釋令病人減少擔心」與本句語境不同。",
-        "reassure-mcq-11": "「反覆透過詢問、查看或確認來暫時降低焦慮的行為」與本句語境不同。",
-        "reassure-mcq-15": "「透過資訊或行動降低投資者／市場參與者的不安」與本句語境不同。",
-        "reassure-mcq-10": "「主動尋找別人／資訊確認「事情沒問題」」與本句語境不同。"
+        "reassure-mcq-13": "本句的「reassurance」指「在風險仍存在時，卻令某人錯誤地相信完全沒問題的安心感」。",
+        "reassure-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "reassure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "reassure-mcq-13"
     }
@@ -1054,5 +908,7 @@ export default {
     "sha256": "37655bc624b4b14527a0e1610f6f8eb9179e63b955803af4e01b45f6e562788c",
     "pages": 30
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

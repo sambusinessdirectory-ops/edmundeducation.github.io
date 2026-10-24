@@ -243,11 +243,9 @@ export default {
       "masked": "The offence carries a severe ____.",
       "options": [
         "penalty-mcq-01",
-        "penalty-mcq-02",
-        "penalty-mcq-03",
-        "penalty-mcq-04",
         "penalty-mcq-05",
-        "penalty-mcq-06"
+        "penalty-mcq-03",
+        "penalty-mcq-08"
       ],
       "explanation": "本句的「penalty」指「因違法、違規或違反要求而正式施加的處罰／刑罰」。",
       "sentenceIndex": 0,
@@ -256,12 +254,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-01": "本句指「因違法、違規或違反要求而正式施加的處罰／刑罰」。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-01": "本句的「penalty」指「因違法、違規或違反要求而正式施加的處罰／刑罰」。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-01"
     },
@@ -273,11 +269,9 @@ export default {
       "masked": "Anyone who breaks the rule may face a ____.",
       "options": [
         "penalty-mcq-01",
-        "penalty-mcq-02",
-        "penalty-mcq-03",
-        "penalty-mcq-04",
+        "penalty-mcq-10",
         "penalty-mcq-05",
-        "penalty-mcq-06"
+        "penalty-mcq-09"
       ],
       "explanation": "本句的「penalty」指「因違法、違規或違反要求而正式施加的處罰／刑罰」。",
       "sentenceIndex": 1,
@@ -286,12 +280,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-01": "本句指「因違法、違規或違反要求而正式施加的處罰／刑罰」。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-01": "本句的「penalty」指「因違法、違規或違反要求而正式施加的處罰／刑罰」。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-01"
     },
@@ -303,11 +295,9 @@ export default {
       "masked": "There is a ____ for late payment.",
       "options": [
         "penalty-mcq-02",
-        "penalty-mcq-01",
-        "penalty-mcq-03",
-        "penalty-mcq-04",
-        "penalty-mcq-05",
-        "penalty-mcq-06"
+        "penalty-mcq-06",
+        "penalty-mcq-10",
+        "penalty-mcq-05"
       ],
       "explanation": "本句的「penalty」指「因違規、遲交、違約等而被額外收取的罰款／罰金」。",
       "sentenceIndex": 2,
@@ -316,12 +306,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-02": "本句指「因違規、遲交、違約等而被額外收取的罰款／罰金」。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-02": "本句的「penalty」指「因違規、遲交、違約等而被額外收取的罰款／罰金」。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-02"
     },
@@ -333,11 +321,9 @@ export default {
       "masked": "The company was required to pay a financial ____.",
       "options": [
         "penalty-mcq-02",
-        "penalty-mcq-01",
-        "penalty-mcq-03",
-        "penalty-mcq-04",
         "penalty-mcq-05",
-        "penalty-mcq-06"
+        "penalty-mcq-06",
+        "penalty-mcq-10"
       ],
       "explanation": "本句的「penalty」指「因違規、遲交、違約等而被額外收取的罰款／罰金」。",
       "sentenceIndex": 3,
@@ -346,12 +332,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-02": "本句指「因違規、遲交、違約等而被額外收取的罰款／罰金」。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-02": "本句的「penalty」指「因違規、遲交、違約等而被額外收取的罰款／罰金」。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-02"
     },
@@ -363,9 +347,7 @@ export default {
       "masked": "Long-stay customers impose a financial ____ on the restaurant.",
       "options": [
         "penalty-mcq-03",
-        "penalty-mcq-02",
-        "penalty-mcq-04",
-        "penalty-mcq-01",
+        "penalty-mcq-07",
         "penalty-mcq-05",
         "penalty-mcq-06"
       ],
@@ -376,12 +358,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-03": "本句指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-03": "本句的「penalty」指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
+        "penalty-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-03"
     },
@@ -393,11 +373,9 @@ export default {
       "masked": "Small firms sometimes suffer a cost ____ because they cannot buy in bulk.",
       "options": [
         "penalty-mcq-03",
-        "penalty-mcq-02",
-        "penalty-mcq-04",
         "penalty-mcq-01",
         "penalty-mcq-05",
-        "penalty-mcq-06"
+        "penalty-mcq-08"
       ],
       "explanation": "本句的「penalty」指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
       "sentenceIndex": 7,
@@ -406,12 +384,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-03": "本句指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-03": "本句的「penalty」指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
+        "penalty-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-03"
     },
@@ -423,11 +399,9 @@ export default {
       "masked": "Poor insulation creates an energy ____.",
       "options": [
         "penalty-mcq-03",
-        "penalty-mcq-02",
-        "penalty-mcq-04",
         "penalty-mcq-01",
         "penalty-mcq-05",
-        "penalty-mcq-06"
+        "penalty-mcq-08"
       ],
       "explanation": "本句的「penalty」指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
       "sentenceIndex": 8,
@@ -436,12 +410,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-03": "本句指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-03": "本句的「penalty」指「某種條件、選擇或安排造成的額外損失、代價或不利影響」。",
+        "penalty-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-03"
     },
@@ -454,10 +426,8 @@ export default {
       "options": [
         "penalty-mcq-04",
         "penalty-mcq-03",
-        "penalty-mcq-05",
-        "penalty-mcq-02",
         "penalty-mcq-06",
-        "penalty-mcq-01"
+        "penalty-mcq-05"
       ],
       "explanation": "本句的「penalty」指「運動員／球隊違規後受到的判罰」。",
       "sentenceIndex": 11,
@@ -466,12 +436,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-04": "本句指「運動員／球隊違規後受到的判罰」。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。"
+        "penalty-mcq-04": "本句的「penalty」指「運動員／球隊違規後受到的判罰」。",
+        "penalty-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-04"
     },
@@ -483,11 +451,9 @@ export default {
       "masked": "The team received a five-yard ____.",
       "options": [
         "penalty-mcq-04",
-        "penalty-mcq-03",
-        "penalty-mcq-05",
-        "penalty-mcq-02",
         "penalty-mcq-06",
-        "penalty-mcq-01"
+        "penalty-mcq-10",
+        "penalty-mcq-05"
       ],
       "explanation": "本句的「penalty」指「運動員／球隊違規後受到的判罰」。",
       "sentenceIndex": 12,
@@ -496,12 +462,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-04": "本句指「運動員／球隊違規後受到的判罰」。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。",
-        "penalty-mcq-01": "「因違法、違規或違反要求而正式施加的處罰／刑罰」與本句語境不同。"
+        "penalty-mcq-04": "本句的「penalty」指「運動員／球隊違規後受到的判罰」。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-04"
     },
@@ -513,11 +477,9 @@ export default {
       "masked": "She scored from a ____.",
       "options": [
         "penalty-mcq-05",
-        "penalty-mcq-04",
-        "penalty-mcq-06",
         "penalty-mcq-03",
-        "penalty-mcq-07",
-        "penalty-mcq-02"
+        "penalty-mcq-08",
+        "penalty-mcq-06"
       ],
       "explanation": "本句的「penalty」指「足球中可指十二碼／點球」。",
       "sentenceIndex": 13,
@@ -526,12 +488,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-05": "本句指「足球中可指十二碼／點球」。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。"
+        "penalty-mcq-05": "本句的「penalty」指「足球中可指十二碼／點球」。",
+        "penalty-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-05"
     },
@@ -543,11 +503,9 @@ export default {
       "masked": "The match was decided by a ____.",
       "options": [
         "penalty-mcq-05",
-        "penalty-mcq-04",
-        "penalty-mcq-06",
-        "penalty-mcq-03",
-        "penalty-mcq-07",
-        "penalty-mcq-02"
+        "penalty-mcq-10",
+        "penalty-mcq-09",
+        "penalty-mcq-12"
       ],
       "explanation": "本句的「penalty shoot-out」指「足球中可指十二碼／點球」。",
       "sentenceIndex": 14,
@@ -556,12 +514,10 @@ export default {
         "penalty shoot-out"
       ],
       "optionReasons": {
-        "penalty-mcq-05": "本句指「足球中可指十二碼／點球」。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。",
-        "penalty-mcq-02": "「因違規、遲交、違約等而被額外收取的罰款／罰金」與本句語境不同。"
+        "penalty-mcq-05": "本句的「penalty shoot-out」指「足球中可指十二碼／點球」。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-05"
     },
@@ -573,11 +529,9 @@ export default {
       "masked": "Drivers can receive ____ for certain offences.",
       "options": [
         "penalty-mcq-07",
+        "penalty-mcq-03",
         "penalty-mcq-06",
-        "penalty-mcq-08",
-        "penalty-mcq-05",
-        "penalty-mcq-09",
-        "penalty-mcq-04"
+        "penalty-mcq-05"
       ],
       "explanation": "本句的「penalty points」指「因違規而記錄／扣除的罰分或違例記分」。",
       "sentenceIndex": 15,
@@ -586,12 +540,10 @@ export default {
         "penalty points"
       ],
       "optionReasons": {
-        "penalty-mcq-07": "本句指「因違規而記錄／扣除的罰分或違例記分」。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。",
-        "penalty-mcq-08": "「合約中規定違約後果的罰則條款」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-09": "「為抑制不理想結果而加入目標函數的懲罰項／額外成本」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。"
+        "penalty-mcq-07": "本句的「penalty points」指「因違規而記錄／扣除的罰分或違例記分」。",
+        "penalty-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-07"
     },
@@ -603,11 +555,9 @@ export default {
       "masked": "The ____ is a form of criminal punishment.",
       "options": [
         "penalty-mcq-06",
-        "penalty-mcq-05",
-        "penalty-mcq-07",
-        "penalty-mcq-04",
-        "penalty-mcq-08",
-        "penalty-mcq-03"
+        "penalty-mcq-02",
+        "penalty-mcq-10",
+        "penalty-mcq-05"
       ],
       "explanation": "本句的「death penalty」指「死刑」。",
       "sentenceIndex": 16,
@@ -616,12 +566,10 @@ export default {
         "death penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-06": "本句指「死刑」。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。",
-        "penalty-mcq-04": "「運動員／球隊違規後受到的判罰」與本句語境不同。",
-        "penalty-mcq-08": "「合約中規定違約後果的罰則條款」與本句語境不同。",
-        "penalty-mcq-03": "「某種條件、選擇或安排造成的額外損失、代價或不利影響」與本句語境不同。"
+        "penalty-mcq-06": "本句的「death penalty」指「死刑」。",
+        "penalty-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-06"
     },
@@ -633,11 +581,9 @@ export default {
       "masked": "The agreement contains a ____ for late completion.",
       "options": [
         "penalty-mcq-08",
-        "penalty-mcq-07",
-        "penalty-mcq-09",
-        "penalty-mcq-06",
         "penalty-mcq-10",
-        "penalty-mcq-05"
+        "penalty-mcq-05",
+        "penalty-mcq-06"
       ],
       "explanation": "本句的「penalty clause」指「合約中規定違約後果的罰則條款」。",
       "sentenceIndex": 17,
@@ -646,12 +592,10 @@ export default {
         "penalty clause"
       ],
       "optionReasons": {
-        "penalty-mcq-08": "本句指「合約中規定違約後果的罰則條款」。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。",
-        "penalty-mcq-09": "「為抑制不理想結果而加入目標函數的懲罰項／額外成本」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。",
-        "penalty-mcq-10": "「某項設計或功能造成的效能損失／性能代價」與本句語境不同。",
-        "penalty-mcq-05": "「足球中可指十二碼／點球」與本句語境不同。"
+        "penalty-mcq-08": "本句的「penalty clause」指「合約中規定違約後果的罰則條款」。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-08"
     },
@@ -663,11 +607,9 @@ export default {
       "masked": "The model adds a ____ for excessive complexity.",
       "options": [
         "penalty-mcq-09",
-        "penalty-mcq-08",
-        "penalty-mcq-10",
-        "penalty-mcq-07",
-        "penalty-mcq-11",
-        "penalty-mcq-06"
+        "penalty-mcq-05",
+        "penalty-mcq-06",
+        "penalty-mcq-04"
       ],
       "explanation": "本句的「penalty」指「為抑制不理想結果而加入目標函數的懲罰項／額外成本」。",
       "sentenceIndex": 18,
@@ -676,12 +618,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-09": "本句指「為抑制不理想結果而加入目標函數的懲罰項／額外成本」。",
-        "penalty-mcq-08": "「合約中規定違約後果的罰則條款」與本句語境不同。",
-        "penalty-mcq-10": "「某項設計或功能造成的效能損失／性能代價」與本句語境不同。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。",
-        "penalty-mcq-11": "「正式處罰；或令某人／某事處於不利地位」與本句語境不同。",
-        "penalty-mcq-06": "「死刑」與本句語境不同。"
+        "penalty-mcq-09": "本句的「penalty」指「為抑制不理想結果而加入目標函數的懲罰項／額外成本」。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-09"
     },
@@ -693,11 +633,9 @@ export default {
       "masked": "Encryption can introduce a small performance ____.",
       "options": [
         "penalty-mcq-10",
-        "penalty-mcq-09",
-        "penalty-mcq-11",
-        "penalty-mcq-08",
-        "penalty-mcq-12",
-        "penalty-mcq-07"
+        "penalty-mcq-04",
+        "penalty-mcq-06",
+        "penalty-mcq-05"
       ],
       "explanation": "本句的「penalty」指「某項設計或功能造成的效能損失／性能代價」。",
       "sentenceIndex": 19,
@@ -706,12 +644,10 @@ export default {
         "penalty"
       ],
       "optionReasons": {
-        "penalty-mcq-10": "本句指「某項設計或功能造成的效能損失／性能代價」。",
-        "penalty-mcq-09": "「為抑制不理想結果而加入目標函數的懲罰項／額外成本」與本句語境不同。",
-        "penalty-mcq-11": "「正式處罰；或令某人／某事處於不利地位」與本句語境不同。",
-        "penalty-mcq-08": "「合約中規定違約後果的罰則條款」與本句語境不同。",
-        "penalty-mcq-12": "「與刑罰、刑事處罰或監禁制度有關的」與本句語境不同。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。"
+        "penalty-mcq-10": "本句的「penalty」指「某項設計或功能造成的效能損失／性能代價」。",
+        "penalty-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-10"
     },
@@ -723,11 +659,9 @@ export default {
       "masked": "The country revised parts of its ____.",
       "options": [
         "penalty-mcq-12",
-        "penalty-mcq-11",
         "penalty-mcq-10",
-        "penalty-mcq-09",
-        "penalty-mcq-08",
-        "penalty-mcq-07"
+        "penalty-mcq-05",
+        "penalty-mcq-02"
       ],
       "explanation": "本句的「penal code」指「與刑罰、刑事處罰或監禁制度有關的」。",
       "sentenceIndex": 22,
@@ -736,12 +670,10 @@ export default {
         "penal code"
       ],
       "optionReasons": {
-        "penalty-mcq-12": "本句指「與刑罰、刑事處罰或監禁制度有關的」。",
-        "penalty-mcq-11": "「正式處罰；或令某人／某事處於不利地位」與本句語境不同。",
-        "penalty-mcq-10": "「某項設計或功能造成的效能損失／性能代價」與本句語境不同。",
-        "penalty-mcq-09": "「為抑制不理想結果而加入目標函數的懲罰項／額外成本」與本句語境不同。",
-        "penalty-mcq-08": "「合約中規定違約後果的罰則條款」與本句語境不同。",
-        "penalty-mcq-07": "「因違規而記錄／扣除的罰分或違例記分」與本句語境不同。"
+        "penalty-mcq-12": "本句的「penal code」指「與刑罰、刑事處罰或監禁制度有關的」。",
+        "penalty-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "penalty-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "penalty-mcq-12"
     }
@@ -753,5 +685,7 @@ export default {
     "sha256": "312eb9b451ae5cdcb9bb3fc50aad8cc45a940e5ff7075cb9927ea92a4823db48",
     "pages": 17
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

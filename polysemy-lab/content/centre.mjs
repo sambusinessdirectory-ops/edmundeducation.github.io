@@ -548,11 +548,9 @@ export default {
       "masked": "The living room … turns into … a rescue ____.",
       "options": [
         "centre-mcq-01",
-        "centre-mcq-02",
-        "centre-mcq-03",
-        "centre-mcq-04",
-        "centre-mcq-05",
-        "centre-mcq-06"
+        "centre-mcq-23",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
       "sentenceIndex": 0,
@@ -561,12 +559,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-01": "本句指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-01": "本句的「centre」指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
+        "centre-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-01"
     },
@@ -578,11 +574,9 @@ export default {
       "masked": "The town has a new sports ____.",
       "options": [
         "centre-mcq-01",
-        "centre-mcq-02",
-        "centre-mcq-03",
-        "centre-mcq-04",
-        "centre-mcq-05",
-        "centre-mcq-06"
+        "centre-mcq-11",
+        "centre-mcq-23",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
       "sentenceIndex": 1,
@@ -591,12 +585,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-01": "本句指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-01": "本句的「centre」指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-01"
     },
@@ -608,11 +600,9 @@ export default {
       "masked": "She works at a community ____.",
       "options": [
         "centre-mcq-01",
-        "centre-mcq-02",
-        "centre-mcq-03",
-        "centre-mcq-04",
-        "centre-mcq-05",
-        "centre-mcq-06"
+        "centre-mcq-06",
+        "centre-mcq-12",
+        "centre-mcq-19"
       ],
       "explanation": "本句的「centre」指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
       "sentenceIndex": 2,
@@ -621,12 +611,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-01": "本句指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-01": "本句的「centre」指「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-01"
     },
@@ -638,11 +626,9 @@ export default {
       "masked": "There is a large shopping ____ nearby.",
       "options": [
         "centre-mcq-02",
-        "centre-mcq-01",
-        "centre-mcq-03",
-        "centre-mcq-04",
-        "centre-mcq-05",
-        "centre-mcq-06"
+        "centre-mcq-22",
+        "centre-mcq-06",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centre」指「集中多間商店和服務的購物設施／商場」。",
       "sentenceIndex": 3,
@@ -651,12 +637,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-02": "本句指「集中多間商店和服務的購物設施／商場」。",
-        "centre-mcq-01": "「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」是「centre — activity/service place」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-02": "本句的「centre」指「集中多間商店和服務的購物設施／商場」。",
+        "centre-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-02"
     },
@@ -668,11 +652,9 @@ export default {
       "masked": "We spent the afternoon at the shopping ____.",
       "options": [
         "centre-mcq-02",
-        "centre-mcq-01",
-        "centre-mcq-03",
-        "centre-mcq-04",
-        "centre-mcq-05",
-        "centre-mcq-06"
+        "centre-mcq-21",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「集中多間商店和服務的購物設施／商場」。",
       "sentenceIndex": 4,
@@ -681,12 +663,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-02": "本句指「集中多間商店和服務的購物設施／商場」。",
-        "centre-mcq-01": "「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」是「centre — activity/service place」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-02": "本句的「centre」指「集中多間商店和服務的購物設施／商場」。",
+        "centre-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-02"
     },
@@ -698,10 +678,8 @@ export default {
       "masked": "The classes are held at the community ____.",
       "options": [
         "centre-mcq-03",
-        "centre-mcq-02",
-        "centre-mcq-04",
-        "centre-mcq-01",
-        "centre-mcq-05",
+        "centre-mcq-20",
+        "centre-mcq-11",
         "centre-mcq-06"
       ],
       "explanation": "本句的「centre」指「為本地居民提供活動、服務和公共空間的場所」。",
@@ -711,12 +689,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-03": "本句指「為本地居民提供活動、服務和公共空間的場所」。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-01": "「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」是「centre — activity/service place」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-03": "本句的「centre」指「為本地居民提供活動、服務和公共空間的場所」。",
+        "centre-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-03"
     },
@@ -728,10 +704,7 @@ export default {
       "masked": "The community ____ offers activities for children.",
       "options": [
         "centre-mcq-03",
-        "centre-mcq-02",
-        "centre-mcq-04",
-        "centre-mcq-01",
-        "centre-mcq-05",
+        "centre-mcq-09",
         "centre-mcq-06"
       ],
       "explanation": "本句的「centre」指「為本地居民提供活動、服務和公共空間的場所」。",
@@ -741,12 +714,9 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-03": "本句指「為本地居民提供活動、服務和公共空間的場所」。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-01": "「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」是「centre — activity/service place」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-03": "本句的「centre」指「為本地居民提供活動、服務和公共空間的場所」。",
+        "centre-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-03"
     },
@@ -758,11 +728,9 @@ export default {
       "masked": "She went to the health ____.",
       "options": [
         "centre-mcq-04",
-        "centre-mcq-03",
-        "centre-mcq-05",
-        "centre-mcq-02",
-        "centre-mcq-06",
-        "centre-mcq-01"
+        "centre-mcq-11",
+        "centre-mcq-12",
+        "centre-mcq-23"
       ],
       "explanation": "本句的「centre」指「集中提供醫療／健康服務的設施」。",
       "sentenceIndex": 7,
@@ -771,12 +739,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-04": "本句指「集中提供醫療／健康服務的設施」。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-01": "「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」是「centre — activity/service place」的用法，與本句語境不同。"
+        "centre-mcq-04": "本句的「centre」指「集中提供醫療／健康服務的設施」。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-04"
     },
@@ -788,11 +754,9 @@ export default {
       "masked": "The new medical ____ opened last month.",
       "options": [
         "centre-mcq-04",
-        "centre-mcq-03",
-        "centre-mcq-05",
-        "centre-mcq-02",
-        "centre-mcq-06",
-        "centre-mcq-01"
+        "centre-mcq-17",
+        "centre-mcq-12",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centre」指「集中提供醫療／健康服務的設施」。",
       "sentenceIndex": 8,
@@ -801,12 +765,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-04": "本句指「集中提供醫療／健康服務的設施」。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-01": "「專門進行某類活動、提供某種服務或集中某項工作的地方／機構」是「centre — activity/service place」的用法，與本句語境不同。"
+        "centre-mcq-04": "本句的「centre」指「集中提供醫療／健康服務的設施」。",
+        "centre-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-04"
     },
@@ -818,11 +780,9 @@ export default {
       "masked": "Put the table in the ____ of the room.",
       "options": [
         "centre-mcq-05",
-        "centre-mcq-04",
-        "centre-mcq-06",
-        "centre-mcq-03",
-        "centre-mcq-07",
-        "centre-mcq-02"
+        "centre-mcq-02",
+        "centre-mcq-19",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「某個範圍或物件中距離各邊大致相等的中央位置」。",
       "sentenceIndex": 9,
@@ -831,12 +791,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-05": "本句指「某個範圍或物件中距離各邊大致相等的中央位置」。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。"
+        "centre-mcq-05": "本句的「centre」指「某個範圍或物件中距離各邊大致相等的中央位置」。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-05"
     },
@@ -848,11 +806,9 @@ export default {
       "masked": "There is a fountain in the ____ of the square.",
       "options": [
         "centre-mcq-05",
-        "centre-mcq-04",
-        "centre-mcq-06",
-        "centre-mcq-03",
-        "centre-mcq-07",
-        "centre-mcq-02"
+        "centre-mcq-24",
+        "centre-mcq-11",
+        "centre-mcq-04"
       ],
       "explanation": "本句的「centre」指「某個範圍或物件中距離各邊大致相等的中央位置」。",
       "sentenceIndex": 10,
@@ -861,12 +817,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-05": "本句指「某個範圍或物件中距離各邊大致相等的中央位置」。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-02": "「集中多間商店和服務的購物設施／商場」是「shopping centre」的用法，與本句語境不同。"
+        "centre-mcq-05": "本句的「centre」指「某個範圍或物件中距離各邊大致相等的中央位置」。",
+        "centre-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-05"
     },
@@ -878,11 +832,9 @@ export default {
       "masked": "Mark the ____ of the circle.",
       "options": [
         "centre-mcq-06",
-        "centre-mcq-05",
-        "centre-mcq-07",
-        "centre-mcq-04",
-        "centre-mcq-08",
-        "centre-mcq-03"
+        "centre-mcq-11",
+        "centre-mcq-24",
+        "centre-mcq-04"
       ],
       "explanation": "本句的「centre」指「幾何圖形中的中央基準點」。",
       "sentenceIndex": 11,
@@ -891,12 +843,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-06": "本句指「幾何圖形中的中央基準點」。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。"
+        "centre-mcq-06": "本句的「centre」指「幾何圖形中的中央基準點」。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-06"
     },
@@ -908,11 +858,9 @@ export default {
       "masked": "Draw a line through the ____.",
       "options": [
         "centre-mcq-06",
-        "centre-mcq-05",
-        "centre-mcq-07",
-        "centre-mcq-04",
         "centre-mcq-08",
-        "centre-mcq-03"
+        "centre-mcq-09",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「幾何圖形中的中央基準點」。",
       "sentenceIndex": 12,
@@ -921,12 +869,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-06": "本句指「幾何圖形中的中央基準點」。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-03": "「為本地居民提供活動、服務和公共空間的場所」是「community centre」的用法，與本句語境不同。"
+        "centre-mcq-06": "本句的「centre」指「幾何圖形中的中央基準點」。",
+        "centre-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-06"
     },
@@ -938,11 +884,9 @@ export default {
       "masked": "She lives near the city ____.",
       "options": [
         "centre-mcq-07",
-        "centre-mcq-06",
-        "centre-mcq-08",
-        "centre-mcq-05",
-        "centre-mcq-09",
-        "centre-mcq-04"
+        "centre-mcq-20",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「城市／城鎮中商業、交通、行政等較集中的中央地區」。",
       "sentenceIndex": 13,
@@ -951,12 +895,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-07": "本句指「城市／城鎮中商業、交通、行政等較集中的中央地區」。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。"
+        "centre-mcq-07": "本句的「centre」指「城市／城鎮中商業、交通、行政等較集中的中央地區」。",
+        "centre-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-07"
     },
@@ -968,11 +910,9 @@ export default {
       "masked": "The hotel is in the town ____.",
       "options": [
         "centre-mcq-07",
-        "centre-mcq-06",
-        "centre-mcq-08",
-        "centre-mcq-05",
-        "centre-mcq-09",
-        "centre-mcq-04"
+        "centre-mcq-24",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「城市／城鎮中商業、交通、行政等較集中的中央地區」。",
       "sentenceIndex": 14,
@@ -981,12 +921,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-07": "本句指「城市／城鎮中商業、交通、行政等較集中的中央地區」。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-04": "「集中提供醫療／健康服務的設施」是「medical/health centre」的用法，與本句語境不同。"
+        "centre-mcq-07": "本句的「centre」指「城市／城鎮中商業、交通、行政等較集中的中央地區」。",
+        "centre-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-07"
     },
@@ -998,11 +936,9 @@ export default {
       "masked": "The city became a ____ of trade.",
       "options": [
         "centre-mcq-08",
-        "centre-mcq-07",
-        "centre-mcq-09",
         "centre-mcq-06",
-        "centre-mcq-10",
-        "centre-mcq-05"
+        "centre-mcq-09",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre」指「某種產業、文化或活動高度集中的地方」。",
       "sentenceIndex": 15,
@@ -1011,12 +947,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-08": "本句指「某種產業、文化或活動高度集中的地方」。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。"
+        "centre-mcq-08": "本句的「centre」指「某種產業、文化或活動高度集中的地方」。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-08"
     },
@@ -1028,11 +962,9 @@ export default {
       "masked": "The region is an important ____ for technology.",
       "options": [
         "centre-mcq-08",
-        "centre-mcq-07",
-        "centre-mcq-09",
         "centre-mcq-06",
-        "centre-mcq-10",
-        "centre-mcq-05"
+        "centre-mcq-12",
+        "centre-mcq-19"
       ],
       "explanation": "本句的「centre」指「某種產業、文化或活動高度集中的地方」。",
       "sentenceIndex": 16,
@@ -1041,12 +973,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-08": "本句指「某種產業、文化或活動高度集中的地方」。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-05": "「某個範圍或物件中距離各邊大致相等的中央位置」是「centre — physical middle」的用法，與本句語境不同。"
+        "centre-mcq-08": "本句的「centre」指「某種產業、文化或活動高度集中的地方」。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-08"
     },
@@ -1058,10 +988,8 @@ export default {
       "masked": "Education is at the ____ of the debate.",
       "options": [
         "centre-mcq-09",
-        "centre-mcq-08",
-        "centre-mcq-10",
-        "centre-mcq-07",
-        "centre-mcq-11",
+        "centre-mcq-12",
+        "centre-mcq-01",
         "centre-mcq-06"
       ],
       "explanation": "本句的「centre」指「某事中最重要、最核心或最受關注的部分」。",
@@ -1071,12 +999,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-09": "本句指「某事中最重要、最核心或最受關注的部分」。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-09": "本句的「centre」指「某事中最重要、最核心或最受關注的部分」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-09"
     },
@@ -1088,10 +1014,7 @@ export default {
       "masked": "Family is at the ____ of her life.",
       "options": [
         "centre-mcq-09",
-        "centre-mcq-08",
-        "centre-mcq-10",
-        "centre-mcq-07",
-        "centre-mcq-11",
+        "centre-mcq-03",
         "centre-mcq-06"
       ],
       "explanation": "本句的「centre」指「某事中最重要、最核心或最受關注的部分」。",
@@ -1101,12 +1024,9 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-09": "本句指「某事中最重要、最核心或最受關注的部分」。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-06": "「幾何圖形中的中央基準點」是「centre — geometry」的用法，與本句語境不同。"
+        "centre-mcq-09": "本句的「centre」指「某事中最重要、最核心或最受關注的部分」。",
+        "centre-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-09"
     },
@@ -1118,11 +1038,9 @@ export default {
       "masked": "She is at the ____ the project.",
       "options": [
         "centre-mcq-10",
-        "centre-mcq-09",
         "centre-mcq-11",
-        "centre-mcq-08",
-        "centre-mcq-12",
-        "centre-mcq-07"
+        "centre-mcq-02",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre of」指「在某事中處於核心／焦點位置」。",
       "sentenceIndex": 19,
@@ -1131,12 +1049,10 @@ export default {
         "centre of"
       ],
       "optionReasons": {
-        "centre-mcq-10": "本句指「在某事中處於核心／焦點位置」。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。"
+        "centre-mcq-10": "本句的「centre of」指「在某事中處於核心／焦點位置」。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-10"
     },
@@ -1148,11 +1064,9 @@ export default {
       "masked": "The issue is at the ____ public discussion.",
       "options": [
         "centre-mcq-10",
-        "centre-mcq-09",
+        "centre-mcq-04",
         "centre-mcq-11",
-        "centre-mcq-08",
-        "centre-mcq-12",
-        "centre-mcq-07"
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre of」指「在某事中處於核心／焦點位置」。",
       "sentenceIndex": 20,
@@ -1161,12 +1075,10 @@ export default {
         "centre of"
       ],
       "optionReasons": {
-        "centre-mcq-10": "本句指「在某事中處於核心／焦點位置」。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-07": "「城市／城鎮中商業、交通、行政等較集中的中央地區」是「city/town centre」的用法，與本句語境不同。"
+        "centre-mcq-10": "本句的「centre of」指「在某事中處於核心／焦點位置」。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-10"
     },
@@ -1178,11 +1090,9 @@ export default {
       "masked": "He loves being the ____.",
       "options": [
         "centre-mcq-11",
-        "centre-mcq-10",
+        "centre-mcq-02",
         "centre-mcq-12",
-        "centre-mcq-09",
-        "centre-mcq-13",
-        "centre-mcq-08"
+        "centre-mcq-10"
       ],
       "explanation": "本句的「centre of attention」指「最受眾人注意的人／事物」。",
       "sentenceIndex": 21,
@@ -1191,12 +1101,10 @@ export default {
         "centre of attention"
       ],
       "optionReasons": {
-        "centre-mcq-11": "本句指「最受眾人注意的人／事物」。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。"
+        "centre-mcq-11": "本句的「centre of attention」指「最受眾人注意的人／事物」。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-11"
     },
@@ -1208,11 +1116,9 @@ export default {
       "masked": "The child suddenly became the ____.",
       "options": [
         "centre-mcq-11",
-        "centre-mcq-10",
-        "centre-mcq-12",
-        "centre-mcq-09",
+        "centre-mcq-20",
         "centre-mcq-13",
-        "centre-mcq-08"
+        "centre-mcq-02"
       ],
       "explanation": "本句的「centre of attention」指「最受眾人注意的人／事物」。",
       "sentenceIndex": 22,
@@ -1221,12 +1127,10 @@ export default {
         "centre of attention"
       ],
       "optionReasons": {
-        "centre-mcq-11": "本句指「最受眾人注意的人／事物」。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-08": "「某種產業、文化或活動高度集中的地方」是「centre — activity hub」的用法，與本句語境不同。"
+        "centre-mcq-11": "本句的「centre of attention」指「最受眾人注意的人／事物」。",
+        "centre-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-11"
     },
@@ -1238,11 +1142,9 @@ export default {
       "masked": "The party moved closer to the political ____.",
       "options": [
         "centre-mcq-12",
-        "centre-mcq-11",
         "centre-mcq-13",
-        "centre-mcq-10",
-        "centre-mcq-14",
-        "centre-mcq-09"
+        "centre-mcq-09",
+        "centre-mcq-04"
       ],
       "explanation": "本句的「centre」指「思想／政治光譜中介乎兩端之間的中間立場」。",
       "sentenceIndex": 23,
@@ -1251,12 +1153,10 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-12": "本句指「思想／政治光譜中介乎兩端之間的中間立場」。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。"
+        "centre-mcq-12": "本句的「centre」指「思想／政治光譜中介乎兩端之間的中間立場」。",
+        "centre-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-12"
     },
@@ -1268,11 +1168,8 @@ export default {
       "masked": "His views are generally in the ____.",
       "options": [
         "centre-mcq-12",
-        "centre-mcq-11",
-        "centre-mcq-13",
-        "centre-mcq-10",
         "centre-mcq-14",
-        "centre-mcq-09"
+        "centre-mcq-06"
       ],
       "explanation": "本句的「centre」指「思想／政治光譜中介乎兩端之間的中間立場」。",
       "sentenceIndex": 24,
@@ -1281,12 +1178,9 @@ export default {
         "centre"
       ],
       "optionReasons": {
-        "centre-mcq-12": "本句指「思想／政治光譜中介乎兩端之間的中間立場」。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-09": "「某事中最重要、最核心或最受關注的部分」是「centre — core/focus」的用法，與本句語境不同。"
+        "centre-mcq-12": "本句的「centre」指「思想／政治光譜中介乎兩端之間的中間立場」。",
+        "centre-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-12"
     },
@@ -1298,11 +1192,9 @@ export default {
       "masked": "____ the picture on the wall.",
       "options": [
         "centre-mcq-13",
-        "centre-mcq-12",
-        "centre-mcq-14",
-        "centre-mcq-11",
-        "centre-mcq-15",
-        "centre-mcq-10"
+        "centre-mcq-20",
+        "centre-mcq-02",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「Centre」指「把某物放在中央位置」。",
       "sentenceIndex": 25,
@@ -1311,12 +1203,10 @@ export default {
         "Centre"
       ],
       "optionReasons": {
-        "centre-mcq-13": "本句指「把某物放在中央位置」。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。"
+        "centre-mcq-13": "本句的「Centre」指「把某物放在中央位置」。",
+        "centre-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-13"
     },
@@ -1328,11 +1218,9 @@ export default {
       "masked": "The title should be ____.",
       "options": [
         "centre-mcq-13",
-        "centre-mcq-12",
-        "centre-mcq-14",
-        "centre-mcq-11",
-        "centre-mcq-15",
-        "centre-mcq-10"
+        "centre-mcq-09",
+        "centre-mcq-16",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centred」指「把某物放在中央位置」。",
       "sentenceIndex": 26,
@@ -1341,12 +1229,10 @@ export default {
         "centred"
       ],
       "optionReasons": {
-        "centre-mcq-13": "本句指「把某物放在中央位置」。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-10": "「在某事中處於核心／焦點位置」是「at the centre of」的用法，與本句語境不同。"
+        "centre-mcq-13": "本句的「centred」指「把某物放在中央位置」。",
+        "centre-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-13"
     },
@@ -1358,11 +1244,8 @@ export default {
       "masked": "The discussion ____ education.",
       "options": [
         "centre-mcq-14",
-        "centre-mcq-13",
-        "centre-mcq-15",
-        "centre-mcq-12",
-        "centre-mcq-16",
-        "centre-mcq-11"
+        "centre-mcq-05",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centred on」指「把主要內容、活動或注意力集中在某主題／人物上」。",
       "sentenceIndex": 27,
@@ -1371,12 +1254,9 @@ export default {
         "centred on"
       ],
       "optionReasons": {
-        "centre-mcq-14": "本句指「把主要內容、活動或注意力集中在某主題／人物上」。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。"
+        "centre-mcq-14": "本句的「centred on」指「把主要內容、活動或注意力集中在某主題／人物上」。",
+        "centre-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-14"
     },
@@ -1389,10 +1269,7 @@ export default {
       "options": [
         "centre-mcq-14",
         "centre-mcq-13",
-        "centre-mcq-15",
-        "centre-mcq-12",
-        "centre-mcq-16",
-        "centre-mcq-11"
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centres around」指「把主要內容、活動或注意力集中在某主題／人物上」。",
       "sentenceIndex": 28,
@@ -1401,12 +1278,9 @@ export default {
         "centres around"
       ],
       "optionReasons": {
-        "centre-mcq-14": "本句指「把主要內容、活動或注意力集中在某主題／人物上」。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-11": "「最受眾人注意的人／事物」是「centre of attention」的用法，與本句語境不同。"
+        "centre-mcq-14": "本句的「centres around」指「把主要內容、活動或注意力集中在某主題／人物上」。",
+        "centre-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-14"
     },
@@ -1418,11 +1292,9 @@ export default {
       "masked": "The programme is ____ children’s needs.",
       "options": [
         "centre-mcq-15",
-        "centre-mcq-14",
-        "centre-mcq-16",
-        "centre-mcq-13",
-        "centre-mcq-17",
-        "centre-mcq-12"
+        "centre-mcq-07",
+        "centre-mcq-12",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centred on」指「以某事作為主要焦點或組織核心」。",
       "sentenceIndex": 29,
@@ -1431,12 +1303,10 @@ export default {
         "centred on"
       ],
       "optionReasons": {
-        "centre-mcq-15": "本句指「以某事作為主要焦點或組織核心」。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。"
+        "centre-mcq-15": "本句的「centred on」指「以某事作為主要焦點或組織核心」。",
+        "centre-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-15"
     },
@@ -1448,11 +1318,9 @@ export default {
       "masked": "The course is ____ practical skills.",
       "options": [
         "centre-mcq-15",
-        "centre-mcq-14",
-        "centre-mcq-16",
-        "centre-mcq-13",
-        "centre-mcq-17",
-        "centre-mcq-12"
+        "centre-mcq-07",
+        "centre-mcq-12",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centred on」指「以某事作為主要焦點或組織核心」。",
       "sentenceIndex": 30,
@@ -1461,12 +1329,10 @@ export default {
         "centred on"
       ],
       "optionReasons": {
-        "centre-mcq-15": "本句指「以某事作為主要焦點或組織核心」。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-12": "「思想／政治光譜中介乎兩端之間的中間立場」是「centre — political」的用法，與本句語境不同。"
+        "centre-mcq-15": "本句的「centred on」指「以某事作為主要焦點或組織核心」。",
+        "centre-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-15"
     },
@@ -1478,11 +1344,9 @@ export default {
       "masked": "She took a deep breath to ____.",
       "options": [
         "centre-mcq-16",
-        "centre-mcq-15",
-        "centre-mcq-17",
-        "centre-mcq-14",
-        "centre-mcq-18",
-        "centre-mcq-13"
+        "centre-mcq-05",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centre herself」指「令自己重新平靜、集中或取得心理平衡」。",
       "sentenceIndex": 31,
@@ -1491,12 +1355,10 @@ export default {
         "centre herself"
       ],
       "optionReasons": {
-        "centre-mcq-16": "本句指「令自己重新平靜、集中或取得心理平衡」。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。"
+        "centre-mcq-16": "本句的「centre herself」指「令自己重新平靜、集中或取得心理平衡」。",
+        "centre-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-16"
     },
@@ -1508,11 +1370,9 @@ export default {
       "masked": "Meditation helps him ____.",
       "options": [
         "centre-mcq-16",
-        "centre-mcq-15",
-        "centre-mcq-17",
-        "centre-mcq-14",
-        "centre-mcq-18",
-        "centre-mcq-13"
+        "centre-mcq-13",
+        "centre-mcq-12",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centre himself」指「令自己重新平靜、集中或取得心理平衡」。",
       "sentenceIndex": 32,
@@ -1521,12 +1381,10 @@ export default {
         "centre himself"
       ],
       "optionReasons": {
-        "centre-mcq-16": "本句指「令自己重新平靜、集中或取得心理平衡」。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-13": "「把某物放在中央位置」是「centre — verb, physical」的用法，與本句語境不同。"
+        "centre-mcq-16": "本句的「centre himself」指「令自己重新平靜、集中或取得心理平衡」。",
+        "centre-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-16"
     },
@@ -1538,11 +1396,9 @@ export default {
       "masked": "The hotel has a ____ location.",
       "options": [
         "centre-mcq-17",
-        "centre-mcq-16",
-        "centre-mcq-18",
-        "centre-mcq-15",
-        "centre-mcq-19",
-        "centre-mcq-14"
+        "centre-mcq-12",
+        "centre-mcq-02",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「central」指「位於中央或接近中心位置的」。",
       "sentenceIndex": 33,
@@ -1551,12 +1407,10 @@ export default {
         "central"
       ],
       "optionReasons": {
-        "centre-mcq-17": "本句指「位於中央或接近中心位置的」。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。"
+        "centre-mcq-17": "本句的「central」指「位於中央或接近中心位置的」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-17"
     },
@@ -1568,11 +1422,9 @@ export default {
       "masked": "The building has a ____ courtyard.",
       "options": [
         "centre-mcq-17",
-        "centre-mcq-16",
-        "centre-mcq-18",
-        "centre-mcq-15",
-        "centre-mcq-19",
-        "centre-mcq-14"
+        "centre-mcq-12",
+        "centre-mcq-11",
+        "centre-mcq-02"
       ],
       "explanation": "本句的「central」指「位於中央或接近中心位置的」。",
       "sentenceIndex": 34,
@@ -1581,12 +1433,10 @@ export default {
         "central"
       ],
       "optionReasons": {
-        "centre-mcq-17": "本句指「位於中央或接近中心位置的」。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-14": "「把主要內容、活動或注意力集中在某主題／人物上」是「centre on/around」的用法，與本句語境不同。"
+        "centre-mcq-17": "本句的「central」指「位於中央或接近中心位置的」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-17"
     },
@@ -1598,11 +1448,9 @@ export default {
       "masked": "Trust is ____ to a good relationship.",
       "options": [
         "centre-mcq-18",
-        "centre-mcq-17",
-        "centre-mcq-19",
-        "centre-mcq-16",
-        "centre-mcq-20",
-        "centre-mcq-15"
+        "centre-mcq-12",
+        "centre-mcq-04",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「central」指「對某事非常重要、處於核心地位的」。",
       "sentenceIndex": 35,
@@ -1611,12 +1459,10 @@ export default {
         "central"
       ],
       "optionReasons": {
-        "centre-mcq-18": "本句指「對某事非常重要、處於核心地位的」。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。"
+        "centre-mcq-18": "本句的「central」指「對某事非常重要、處於核心地位的」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-18"
     },
@@ -1628,11 +1474,9 @@ export default {
       "masked": "Family plays a ____ role in her life.",
       "options": [
         "centre-mcq-18",
-        "centre-mcq-17",
-        "centre-mcq-19",
-        "centre-mcq-16",
-        "centre-mcq-20",
-        "centre-mcq-15"
+        "centre-mcq-02",
+        "centre-mcq-06",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「central」指「對某事非常重要、處於核心地位的」。",
       "sentenceIndex": 36,
@@ -1641,12 +1485,10 @@ export default {
         "central"
       ],
       "optionReasons": {
-        "centre-mcq-18": "本句指「對某事非常重要、處於核心地位的」。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-15": "「以某事作為主要焦點或組織核心」是「be centred on」的用法，與本句語境不同。"
+        "centre-mcq-18": "本句的「central」指「對某事非常重要、處於核心地位的」。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-18"
     },
@@ -1658,11 +1500,9 @@ export default {
       "masked": "Creativity is ____ Leo’s personality.",
       "options": [
         "centre-mcq-19",
-        "centre-mcq-18",
-        "centre-mcq-20",
-        "centre-mcq-17",
-        "centre-mcq-21",
-        "centre-mcq-16"
+        "centre-mcq-02",
+        "centre-mcq-12",
+        "centre-mcq-13"
       ],
       "explanation": "本句的「central to」指「是某事的核心組成部分，對其極為重要」。",
       "sentenceIndex": 37,
@@ -1671,12 +1511,10 @@ export default {
         "central to"
       ],
       "optionReasons": {
-        "centre-mcq-19": "本句指「是某事的核心組成部分，對其極為重要」。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。"
+        "centre-mcq-19": "本句的「central to」指「是某事的核心組成部分，對其極為重要」。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-19"
     },
@@ -1688,11 +1526,9 @@ export default {
       "masked": "Communication is ____ teamwork.",
       "options": [
         "centre-mcq-19",
-        "centre-mcq-18",
-        "centre-mcq-20",
-        "centre-mcq-17",
-        "centre-mcq-21",
-        "centre-mcq-16"
+        "centre-mcq-05",
+        "centre-mcq-11",
+        "centre-mcq-04"
       ],
       "explanation": "本句的「central to」指「是某事的核心組成部分，對其極為重要」。",
       "sentenceIndex": 38,
@@ -1701,12 +1537,10 @@ export default {
         "central to"
       ],
       "optionReasons": {
-        "centre-mcq-19": "本句指「是某事的核心組成部分，對其極為重要」。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-16": "「令自己重新平靜、集中或取得心理平衡」是「centre yourself」的用法，與本句語境不同。"
+        "centre-mcq-19": "本句的「central to」指「是某事的核心組成部分，對其極為重要」。",
+        "centre-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-19"
     },
@@ -1718,11 +1552,9 @@ export default {
       "masked": "The decision was made by the ____ government.",
       "options": [
         "centre-mcq-20",
-        "centre-mcq-19",
-        "centre-mcq-21",
-        "centre-mcq-18",
-        "centre-mcq-22",
-        "centre-mcq-17"
+        "centre-mcq-03",
+        "centre-mcq-06",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「central」指「屬於主要管理／控制機構的」。",
       "sentenceIndex": 39,
@@ -1731,12 +1563,10 @@ export default {
         "central"
       ],
       "optionReasons": {
-        "centre-mcq-20": "本句指「屬於主要管理／控制機構的」。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。"
+        "centre-mcq-20": "本句的「central」指「屬於主要管理／控制機構的」。",
+        "centre-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-20"
     },
@@ -1748,11 +1578,9 @@ export default {
       "masked": "The company has a ____ office.",
       "options": [
         "centre-mcq-20",
-        "centre-mcq-19",
-        "centre-mcq-21",
-        "centre-mcq-18",
-        "centre-mcq-22",
-        "centre-mcq-17"
+        "centre-mcq-12",
+        "centre-mcq-08",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「central」指「屬於主要管理／控制機構的」。",
       "sentenceIndex": 40,
@@ -1761,12 +1589,10 @@ export default {
         "central"
       ],
       "optionReasons": {
-        "centre-mcq-20": "本句指「屬於主要管理／控制機構的」。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-17": "「位於中央或接近中心位置的」是「central — spatial」的用法，與本句語境不同。"
+        "centre-mcq-20": "本句的「central」指「屬於主要管理／控制機構的」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-20"
     },
@@ -1778,11 +1604,9 @@ export default {
       "masked": "The hotel is ____.",
       "options": [
         "centre-mcq-21",
-        "centre-mcq-20",
-        "centre-mcq-22",
-        "centre-mcq-19",
-        "centre-mcq-23",
-        "centre-mcq-18"
+        "centre-mcq-12",
+        "centre-mcq-04",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centrally located」指「在中央位置，或由主要中心統一管理」。",
       "sentenceIndex": 41,
@@ -1791,12 +1615,10 @@ export default {
         "centrally located"
       ],
       "optionReasons": {
-        "centre-mcq-21": "本句指「在中央位置，或由主要中心統一管理」。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-23": "「放在中央、作為主要視覺焦點的物件」是「centrepiece — physical」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。"
+        "centre-mcq-21": "本句的「centrally located」指「在中央位置，或由主要中心統一管理」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-21"
     },
@@ -1808,11 +1630,9 @@ export default {
       "masked": "The data is stored ____.",
       "options": [
         "centre-mcq-21",
-        "centre-mcq-20",
-        "centre-mcq-22",
-        "centre-mcq-19",
-        "centre-mcq-23",
-        "centre-mcq-18"
+        "centre-mcq-11",
+        "centre-mcq-04",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centrally」指「在中央位置，或由主要中心統一管理」。",
       "sentenceIndex": 42,
@@ -1821,12 +1641,10 @@ export default {
         "centrally"
       ],
       "optionReasons": {
-        "centre-mcq-21": "本句指「在中央位置，或由主要中心統一管理」。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。",
-        "centre-mcq-23": "「放在中央、作為主要視覺焦點的物件」是「centrepiece — physical」的用法，與本句語境不同。",
-        "centre-mcq-18": "「對某事非常重要、處於核心地位的」是「central — figurative」的用法，與本句語境不同。"
+        "centre-mcq-21": "本句的「centrally」指「在中央位置，或由主要中心統一管理」。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-21"
     },
@@ -1838,11 +1656,9 @@ export default {
       "masked": "The study emphasizes the ____ of family relationships.",
       "options": [
         "centre-mcq-22",
-        "centre-mcq-21",
-        "centre-mcq-23",
-        "centre-mcq-20",
-        "centre-mcq-24",
-        "centre-mcq-19"
+        "centre-mcq-12",
+        "centre-mcq-11",
+        "centre-mcq-02"
       ],
       "explanation": "本句的「centrality」指「位於中心的狀態，或具有核心重要性的程度」。",
       "sentenceIndex": 43,
@@ -1851,12 +1667,10 @@ export default {
         "centrality"
       ],
       "optionReasons": {
-        "centre-mcq-22": "本句指「位於中心的狀態，或具有核心重要性的程度」。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-23": "「放在中央、作為主要視覺焦點的物件」是「centrepiece — physical」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-24": "「計劃、活動或安排中最突出、最重要的核心部分」是「centrepiece — figurative」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。"
+        "centre-mcq-22": "本句的「centrality」指「位於中心的狀態，或具有核心重要性的程度」。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-22"
     },
@@ -1868,11 +1682,9 @@ export default {
       "masked": "The city’s ____ made it an important trading hub.",
       "options": [
         "centre-mcq-22",
-        "centre-mcq-21",
-        "centre-mcq-23",
-        "centre-mcq-20",
-        "centre-mcq-24",
-        "centre-mcq-19"
+        "centre-mcq-04",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centrality」指「位於中心的狀態，或具有核心重要性的程度」。",
       "sentenceIndex": 44,
@@ -1881,12 +1693,10 @@ export default {
         "centrality"
       ],
       "optionReasons": {
-        "centre-mcq-22": "本句指「位於中心的狀態，或具有核心重要性的程度」。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-23": "「放在中央、作為主要視覺焦點的物件」是「centrepiece — physical」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-24": "「計劃、活動或安排中最突出、最重要的核心部分」是「centrepiece — figurative」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。"
+        "centre-mcq-22": "本句的「centrality」指「位於中心的狀態，或具有核心重要性的程度」。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-22"
     },
@@ -1898,11 +1708,9 @@ export default {
       "masked": "Flowers formed the ____ of the table.",
       "options": [
         "centre-mcq-23",
-        "centre-mcq-22",
-        "centre-mcq-24",
-        "centre-mcq-21",
-        "centre-mcq-20",
-        "centre-mcq-19"
+        "centre-mcq-04",
+        "centre-mcq-12",
+        "centre-mcq-11"
       ],
       "explanation": "本句的「centrepiece」指「放在中央、作為主要視覺焦點的物件」。",
       "sentenceIndex": 45,
@@ -1911,12 +1719,10 @@ export default {
         "centrepiece"
       ],
       "optionReasons": {
-        "centre-mcq-23": "本句指「放在中央、作為主要視覺焦點的物件」。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-24": "「計劃、活動或安排中最突出、最重要的核心部分」是「centrepiece — figurative」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。"
+        "centre-mcq-23": "本句的「centrepiece」指「放在中央、作為主要視覺焦點的物件」。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-23"
     },
@@ -1928,11 +1734,9 @@ export default {
       "masked": "The cake was the ____ of the display.",
       "options": [
         "centre-mcq-23",
-        "centre-mcq-22",
-        "centre-mcq-24",
-        "centre-mcq-21",
-        "centre-mcq-20",
-        "centre-mcq-19"
+        "centre-mcq-04",
+        "centre-mcq-11",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centrepiece」指「放在中央、作為主要視覺焦點的物件」。",
       "sentenceIndex": 46,
@@ -1941,12 +1745,10 @@ export default {
         "centrepiece"
       ],
       "optionReasons": {
-        "centre-mcq-23": "本句指「放在中央、作為主要視覺焦點的物件」。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-24": "「計劃、活動或安排中最突出、最重要的核心部分」是「centrepiece — figurative」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。"
+        "centre-mcq-23": "本句的「centrepiece」指「放在中央、作為主要視覺焦點的物件」。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-23"
     },
@@ -1958,11 +1760,9 @@ export default {
       "masked": "Education is the ____ of the plan.",
       "options": [
         "centre-mcq-24",
-        "centre-mcq-23",
-        "centre-mcq-22",
-        "centre-mcq-21",
-        "centre-mcq-20",
-        "centre-mcq-19"
+        "centre-mcq-06",
+        "centre-mcq-04",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centrepiece」指「計劃、活動或安排中最突出、最重要的核心部分」。",
       "sentenceIndex": 47,
@@ -1971,12 +1771,10 @@ export default {
         "centrepiece"
       ],
       "optionReasons": {
-        "centre-mcq-24": "本句指「計劃、活動或安排中最突出、最重要的核心部分」。",
-        "centre-mcq-23": "「放在中央、作為主要視覺焦點的物件」是「centrepiece — physical」的用法，與本句語境不同。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。"
+        "centre-mcq-24": "本句的「centrepiece」指「計劃、活動或安排中最突出、最重要的核心部分」。",
+        "centre-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-24"
     },
@@ -1988,11 +1786,9 @@ export default {
       "masked": "The new park is the ____ of the redevelopment.",
       "options": [
         "centre-mcq-24",
-        "centre-mcq-23",
-        "centre-mcq-22",
-        "centre-mcq-21",
-        "centre-mcq-20",
-        "centre-mcq-19"
+        "centre-mcq-02",
+        "centre-mcq-05",
+        "centre-mcq-12"
       ],
       "explanation": "本句的「centrepiece」指「計劃、活動或安排中最突出、最重要的核心部分」。",
       "sentenceIndex": 48,
@@ -2001,12 +1797,10 @@ export default {
         "centrepiece"
       ],
       "optionReasons": {
-        "centre-mcq-24": "本句指「計劃、活動或安排中最突出、最重要的核心部分」。",
-        "centre-mcq-23": "「放在中央、作為主要視覺焦點的物件」是「centrepiece — physical」的用法，與本句語境不同。",
-        "centre-mcq-22": "「位於中心的狀態，或具有核心重要性的程度」是「centrality」的用法，與本句語境不同。",
-        "centre-mcq-21": "「在中央位置，或由主要中心統一管理」是「centrally」的用法，與本句語境不同。",
-        "centre-mcq-20": "「屬於主要管理／控制機構的」是「central — organizational」的用法，與本句語境不同。",
-        "centre-mcq-19": "「是某事的核心組成部分，對其極為重要」是「central to」的用法，與本句語境不同。"
+        "centre-mcq-24": "本句的「centrepiece」指「計劃、活動或安排中最突出、最重要的核心部分」。",
+        "centre-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "centre-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "centre-mcq-24"
     }
@@ -2018,5 +1812,7 @@ export default {
     "sha256": "74ed12659ccfe9be9d2254c503b7331865be9264767a1fe8958e43d5b2865c33",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

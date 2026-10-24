@@ -104,16 +104,6 @@ export default {
           "After resting for an hour, she felt okay again.",
           "休息了一個小時後，她又覺得沒甚麼事了。",
           "感覺還可以"
-        ],
-        [
-          "The film was okay, but I wouldn't watch it again.",
-          "那部電影還可以，但我不會再看一次。",
-          "感覺還可以"
-        ],
-        [
-          "The food was okay, nothing special.",
-          "食物還過得去，沒甚麼特別。",
-          "感覺還可以"
         ]
       ],
       "options": [],
@@ -568,6 +558,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "okay-reviewed-8903603ed4",
+      "title": "品質、表現或情況可以接受，但不算特別好",
+      "form": "okay · source section 7",
+      "en": "品質、表現或情況可以接受，但不算特別好",
+      "zh": "品質、表現或情況可以接受，但不算特別好",
+      "note": "對照原始教材第 7 節及例句核實。",
+      "examples": [
+        [
+          "The film was okay, but I wouldn't watch it again.",
+          "那部電影還可以，但我不會再看一次。",
+          "品質、表現或情況可以接受，但不算特別好"
+        ],
+        [
+          "The food was okay, nothing special.",
+          "食物還過得去，沒甚麼特別。",
+          "品質、表現或情況可以接受，但不算特別好"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -579,11 +591,9 @@ export default {
       "masked": "That's ____, we can build a better one.",
       "options": [
         "okay-mcq-01",
-        "okay-mcq-02",
         "okay-mcq-03",
-        "okay-mcq-04",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-reviewed-8903603ed4",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「okay」指「沒關係；不要緊」。",
       "sentenceIndex": 0,
@@ -592,12 +602,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-01": "本句指「沒關係；不要緊」。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-01": "本句的「okay」指「沒關係；不要緊」。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-reviewed-8903603ed4": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-01"
     },
@@ -609,11 +617,9 @@ export default {
       "masked": "I'm sorry I'm late.” > “That's ____.",
       "options": [
         "okay-mcq-01",
-        "okay-mcq-02",
-        "okay-mcq-03",
-        "okay-mcq-04",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-mcq-16",
+        "okay-mcq-24",
+        "okay-mcq-20"
       ],
       "explanation": "本句的「okay」指「沒關係；不要緊」。",
       "sentenceIndex": 1,
@@ -622,12 +628,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-01": "本句指「沒關係；不要緊」。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-01": "本句的「okay」指「沒關係；不要緊」。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-01"
     },
@@ -639,11 +643,9 @@ export default {
       "masked": "It's ____. Accidents happen.",
       "options": [
         "okay-mcq-01",
-        "okay-mcq-02",
-        "okay-mcq-03",
-        "okay-mcq-04",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-mcq-17",
+        "okay-mcq-10",
+        "okay-reviewed-8903603ed4"
       ],
       "explanation": "本句的「okay」指「沒關係；不要緊」。",
       "sentenceIndex": 2,
@@ -652,12 +654,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-01": "本句指「沒關係；不要緊」。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-01": "本句的「okay」指「沒關係；不要緊」。",
+        "okay-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-reviewed-8903603ed4": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-01"
     },
@@ -669,11 +669,9 @@ export default {
       "masked": "Don't worry. Everything is ____.",
       "options": [
         "okay-mcq-02",
-        "okay-mcq-01",
         "okay-mcq-03",
-        "okay-mcq-04",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-mcq-24",
+        "okay-mcq-20"
       ],
       "explanation": "本句的「okay」指「沒事；沒問題」。",
       "sentenceIndex": 3,
@@ -682,12 +680,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-02": "本句指「沒事；沒問題」。",
-        "okay-mcq-01": "「沒關係；不要緊」是「That's okay」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-02": "本句的「okay」指「沒事；沒問題」。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-02"
     },
@@ -699,11 +695,9 @@ export default {
       "masked": "It's ____ now; the problem has been fixed.",
       "options": [
         "okay-mcq-02",
-        "okay-mcq-01",
-        "okay-mcq-03",
-        "okay-mcq-04",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-mcq-18",
+        "okay-pdf-001",
+        "okay-mcq-07"
       ],
       "explanation": "本句的「okay」指「沒事；沒問題」。",
       "sentenceIndex": 4,
@@ -712,12 +706,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-02": "本句指「沒事；沒問題」。",
-        "okay-mcq-01": "「沒關係；不要緊」是「That's okay」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-02": "本句的「okay」指「沒事；沒問題」。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-02"
     },
@@ -729,11 +721,9 @@ export default {
       "masked": "You look upset. Are you ____?",
       "options": [
         "okay-mcq-03",
-        "okay-mcq-02",
-        "okay-mcq-04",
-        "okay-mcq-01",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-mcq-10",
+        "okay-mcq-09",
+        "okay-mcq-01"
       ],
       "explanation": "本句的「okay」指「你還好嗎？」。",
       "sentenceIndex": 5,
@@ -742,12 +732,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-03": "本句指「你還好嗎？」。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-01": "「沒關係；不要緊」是「That's okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-03": "本句的「okay」指「你還好嗎？」。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-03"
     },
@@ -759,11 +747,9 @@ export default {
       "masked": "She fell off her bike, so I asked if she was ____.",
       "options": [
         "okay-mcq-03",
-        "okay-mcq-02",
-        "okay-mcq-04",
-        "okay-mcq-01",
-        "okay-mcq-05",
-        "okay-mcq-06"
+        "okay-mcq-20",
+        "okay-mcq-22",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「okay」指「你還好嗎？」。",
       "sentenceIndex": 6,
@@ -772,12 +758,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-03": "本句指「你還好嗎？」。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-01": "「沒關係；不要緊」是「That's okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-03": "本句的「okay」指「你還好嗎？」。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-03"
     },
@@ -789,11 +773,9 @@ export default {
       "masked": "He was shaken after the accident, but he was ____.",
       "options": [
         "okay-mcq-22",
-        "okay-mcq-21",
-        "okay-mcq-23",
-        "okay-mcq-20",
-        "okay-mcq-24",
-        "okay-mcq-19"
+        "okay-mcq-03",
+        "okay-mcq-10",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「okay」指「身體沒有受到嚴重傷害，或健康狀況大致正常」。",
       "sentenceIndex": 7,
@@ -802,12 +784,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-22": "本句指「身體沒有受到嚴重傷害，或健康狀況大致正常」。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-24": "「達到基本可接受水平，但不突出」是「8. an okay result / performance — 尚可的結果／表現」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。"
+        "okay-mcq-22": "本句的「okay」指「身體沒有受到嚴重傷害，或健康狀況大致正常」。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-22"
     },
@@ -819,11 +799,9 @@ export default {
       "masked": "The doctor checked her and said she would be ____.",
       "options": [
         "okay-mcq-22",
-        "okay-mcq-21",
-        "okay-mcq-23",
-        "okay-mcq-20",
-        "okay-mcq-24",
-        "okay-mcq-19"
+        "okay-mcq-14",
+        "okay-mcq-18",
+        "okay-mcq-05"
       ],
       "explanation": "本句的「okay」指「身體沒有受到嚴重傷害，或健康狀況大致正常」。",
       "sentenceIndex": 8,
@@ -832,12 +810,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-22": "本句指「身體沒有受到嚴重傷害，或健康狀況大致正常」。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-24": "「達到基本可接受水平，但不突出」是「8. an okay result / performance — 尚可的結果／表現」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。"
+        "okay-mcq-22": "本句的「okay」指「身體沒有受到嚴重傷害，或健康狀況大致正常」。",
+        "okay-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-22"
     },
@@ -849,11 +825,9 @@ export default {
       "masked": "I don't feel completely ____ today.",
       "options": [
         "okay-mcq-05",
-        "okay-mcq-04",
-        "okay-mcq-06",
-        "okay-mcq-03",
-        "okay-mcq-07",
-        "okay-mcq-02"
+        "okay-mcq-02",
+        "okay-mcq-10",
+        "okay-mcq-16"
       ],
       "explanation": "本句的「okay」指「感覺還可以」。",
       "sentenceIndex": 9,
@@ -862,12 +836,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-05": "本句指「感覺還可以」。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。"
+        "okay-mcq-05": "本句的「okay」指「感覺還可以」。",
+        "okay-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-05"
     },
@@ -879,11 +851,9 @@ export default {
       "masked": "After resting for an hour, she felt ____ again.",
       "options": [
         "okay-mcq-05",
-        "okay-mcq-04",
-        "okay-mcq-06",
-        "okay-mcq-03",
-        "okay-mcq-07",
-        "okay-mcq-02"
+        "okay-mcq-20",
+        "okay-mcq-25",
+        "okay-mcq-08"
       ],
       "explanation": "本句的「okay」指「感覺還可以」。",
       "sentenceIndex": 10,
@@ -892,12 +862,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-05": "本句指「感覺還可以」。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。"
+        "okay-mcq-05": "本句的「okay」指「感覺還可以」。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-05"
     },
@@ -909,11 +877,9 @@ export default {
       "masked": "He said he was ____, but he still looked upset.",
       "options": [
         "okay-mcq-23",
-        "okay-mcq-22",
-        "okay-mcq-24",
-        "okay-mcq-21",
-        "okay-mcq-25",
-        "okay-mcq-20"
+        "okay-mcq-16",
+        "okay-mcq-10",
+        "okay-mcq-07"
       ],
       "explanation": "本句的「okay」指「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」。",
       "sentenceIndex": 11,
@@ -922,12 +888,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-23": "本句指「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-24": "「達到基本可接受水平，但不突出」是「8. an okay result / performance — 尚可的結果／表現」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-25": "「對某個安排、決定或情況表示接受或沒有異議」是「13. be okay with something — 接受某事；不介意某事」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。"
+        "okay-mcq-23": "本句的「okay」指「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-23"
     },
@@ -939,10 +903,8 @@ export default {
       "masked": "Give her some time. She'll be ____.",
       "options": [
         "okay-mcq-23",
-        "okay-mcq-22",
+        "okay-mcq-14",
         "okay-mcq-24",
-        "okay-mcq-21",
-        "okay-mcq-25",
         "okay-mcq-20"
       ],
       "explanation": "本句的「okay」指「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」。",
@@ -952,74 +914,68 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-23": "本句指「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-24": "「達到基本可接受水平，但不突出」是「8. an okay result / performance — 尚可的結果／表現」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-25": "「對某個安排、決定或情況表示接受或沒有異議」是「13. be okay with something — 接受某事；不介意某事」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。"
+        "okay-mcq-23": "本句的「okay」指「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」。",
+        "okay-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-23"
     },
     {
       "id": "okay-07-0",
-      "sense": "okay-mcq-05",
+      "sense": "okay-reviewed-8903603ed4",
       "en": "The film was okay, but I wouldn't watch it again.",
       "zh": "那部電影還可以，但我不會再看一次。",
       "masked": "The film was ____, but I wouldn't watch it again.",
       "options": [
-        "okay-mcq-05",
-        "okay-mcq-04",
-        "okay-mcq-06",
-        "okay-mcq-03",
-        "okay-mcq-07",
-        "okay-mcq-02"
+        "okay-reviewed-8903603ed4",
+        "okay-mcq-23",
+        "okay-mcq-09",
+        "okay-mcq-17"
       ],
-      "explanation": "本句的「okay」指「感覺還可以」。",
+      "explanation": "對照完整句子：「那部電影還可以，但我不會再看一次。」。這裡的「okay」表示「品質、表現或情況可以接受，但不算特別好」。",
       "sentenceIndex": 13,
       "sourcePractice": 1,
       "targets": [
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-05": "本句指「感覺還可以」。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。"
+        "okay-reviewed-8903603ed4": "對照完整句子：「那部電影還可以，但我不會再看一次。」。這裡的「okay」表示「品質、表現或情況可以接受，但不算特別好」。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "okay-mcq-05"
+      "correctOption": "okay-reviewed-8903603ed4",
+      "previousCorrectOption": "okay-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "okay-07-1",
-      "sense": "okay-mcq-05",
+      "sense": "okay-reviewed-8903603ed4",
       "en": "The food was okay, nothing special.",
       "zh": "食物還過得去，沒甚麼特別。",
       "masked": "The food was ____, nothing special.",
       "options": [
-        "okay-mcq-05",
-        "okay-mcq-04",
-        "okay-mcq-06",
-        "okay-mcq-03",
-        "okay-mcq-07",
-        "okay-mcq-02"
+        "okay-reviewed-8903603ed4",
+        "okay-mcq-01",
+        "okay-mcq-17",
+        "okay-mcq-08"
       ],
-      "explanation": "本句的「okay」指「感覺還可以」。",
+      "explanation": "對照完整句子：「食物還過得去，沒甚麼特別。」。這裡的「okay」表示「品質、表現或情況可以接受，但不算特別好」。",
       "sentenceIndex": 14,
       "sourcePractice": 2,
       "targets": [
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-05": "本句指「感覺還可以」。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-03": "「你還好嗎？」是「Are you okay?」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-02": "「沒事；沒問題」是「It's okay」的用法，與本句語境不同。"
+        "okay-reviewed-8903603ed4": "對照完整句子：「食物還過得去，沒甚麼特別。」。這裡的「okay」表示「品質、表現或情況可以接受，但不算特別好」。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "okay-mcq-05"
+      "correctOption": "okay-reviewed-8903603ed4",
+      "previousCorrectOption": "okay-mcq-05",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "okay-08-0",
@@ -1029,11 +985,9 @@ export default {
       "masked": "It was an ____, considering how little time we had.",
       "options": [
         "okay-mcq-24",
-        "okay-mcq-23",
-        "okay-mcq-25",
-        "okay-mcq-22",
-        "okay-mcq-21",
-        "okay-mcq-20"
+        "okay-mcq-01",
+        "okay-mcq-18",
+        "okay-mcq-08"
       ],
       "explanation": "本句的「okay result」指「達到基本可接受水平，但不突出」。",
       "sentenceIndex": 15,
@@ -1042,12 +996,10 @@ export default {
         "okay result"
       ],
       "optionReasons": {
-        "okay-mcq-24": "本句指「達到基本可接受水平，但不突出」。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-25": "「對某個安排、決定或情況表示接受或沒有異議」是「13. be okay with something — 接受某事；不介意某事」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。"
+        "okay-mcq-24": "本句的「okay result」指「達到基本可接受水平，但不突出」。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-24"
     },
@@ -1059,11 +1011,9 @@ export default {
       "masked": "She gave an ____, but she can do better.",
       "options": [
         "okay-mcq-24",
-        "okay-mcq-23",
-        "okay-mcq-25",
-        "okay-mcq-22",
+        "okay-mcq-20",
         "okay-mcq-21",
-        "okay-mcq-20"
+        "okay-mcq-10"
       ],
       "explanation": "本句的「okay performance」指「達到基本可接受水平，但不突出」。",
       "sentenceIndex": 16,
@@ -1072,12 +1022,10 @@ export default {
         "okay performance"
       ],
       "optionReasons": {
-        "okay-mcq-24": "本句指「達到基本可接受水平，但不突出」。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-25": "「對某個安排、決定或情況表示接受或沒有異議」是「13. be okay with something — 接受某事；不介意某事」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。"
+        "okay-mcq-24": "本句的「okay performance」指「達到基本可接受水平，但不突出」。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-24"
     },
@@ -1089,11 +1037,9 @@ export default {
       "masked": "He did ____ in the interview.",
       "options": [
         "okay-mcq-07",
-        "okay-mcq-06",
-        "okay-mcq-08",
-        "okay-mcq-05",
-        "okay-mcq-09",
-        "okay-mcq-04"
+        "okay-mcq-17",
+        "okay-mcq-01",
+        "okay-mcq-23"
       ],
       "explanation": "本句的「okay」指「表現還可以」。",
       "sentenceIndex": 17,
@@ -1102,12 +1048,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-07": "本句指「表現還可以」。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。"
+        "okay-mcq-07": "本句的「okay」指「表現還可以」。",
+        "okay-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-07"
     },
@@ -1119,11 +1063,9 @@ export default {
       "masked": "Don't worry about her—she's doing ____ at school.",
       "options": [
         "okay-mcq-07",
-        "okay-mcq-06",
-        "okay-mcq-08",
-        "okay-mcq-05",
-        "okay-mcq-09",
-        "okay-mcq-04"
+        "okay-mcq-24",
+        "okay-mcq-14",
+        "okay-mcq-22"
       ],
       "explanation": "本句的「okay」指「表現還可以」。",
       "sentenceIndex": 18,
@@ -1132,12 +1074,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-07": "本句指「表現還可以」。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-04": "「我沒事／還好」是「I'm okay」的用法，與本句語境不同。"
+        "okay-mcq-07": "本句的「okay」指「表現還可以」。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-07"
     },
@@ -1149,10 +1089,8 @@ export default {
       "masked": "Does this shirt look ____ on me?",
       "options": [
         "okay-mcq-08",
-        "okay-mcq-07",
-        "okay-mcq-09",
-        "okay-mcq-06",
         "okay-mcq-10",
+        "okay-mcq-14",
         "okay-mcq-05"
       ],
       "explanation": "本句的「okay」指「看起來沒問題」。",
@@ -1162,12 +1100,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-08": "本句指「看起來沒問題」。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。"
+        "okay-mcq-08": "本句的「okay」指「看起來沒問題」。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-08"
     },
@@ -1179,11 +1115,9 @@ export default {
       "masked": "The document looks ____ to me.",
       "options": [
         "okay-mcq-08",
+        "okay-mcq-18",
         "okay-mcq-07",
-        "okay-mcq-09",
-        "okay-mcq-06",
-        "okay-mcq-10",
-        "okay-mcq-05"
+        "okay-mcq-16"
       ],
       "explanation": "本句的「okay」指「看起來沒問題」。",
       "sentenceIndex": 20,
@@ -1192,12 +1126,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-08": "本句指「看起來沒問題」。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-05": "「感覺還可以」是「feel okay」的用法，與本句語境不同。"
+        "okay-mcq-08": "本句的「okay」指「看起來沒問題」。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-08"
     },
@@ -1209,11 +1141,9 @@ export default {
       "masked": "That plan sounds ____ to me.",
       "options": [
         "okay-mcq-09",
-        "okay-mcq-08",
-        "okay-mcq-10",
-        "okay-mcq-07",
-        "okay-mcq-11",
-        "okay-mcq-06"
+        "okay-mcq-03",
+        "okay-mcq-22",
+        "okay-mcq-12"
       ],
       "explanation": "本句的「okay」指「聽起來可以」。",
       "sentenceIndex": 21,
@@ -1222,12 +1152,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-09": "本句指「聽起來可以」。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-09": "本句的「okay」指「聽起來可以」。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-09"
     },
@@ -1239,11 +1167,9 @@ export default {
       "masked": "Does seven o'clock sound ____?",
       "options": [
         "okay-mcq-09",
-        "okay-mcq-08",
-        "okay-mcq-10",
-        "okay-mcq-07",
-        "okay-mcq-11",
-        "okay-mcq-06"
+        "okay-mcq-21",
+        "okay-mcq-16",
+        "okay-mcq-18"
       ],
       "explanation": "本句的「okay」指「聽起來可以」。",
       "sentenceIndex": 22,
@@ -1252,12 +1178,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-09": "本句指「聽起來可以」。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-06": "「還可以的電影」是「an okay film」的用法，與本句語境不同。"
+        "okay-mcq-09": "本句的「okay」指「聽起來可以」。",
+        "okay-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-09"
     },
@@ -1269,11 +1193,9 @@ export default {
       "masked": "Is it ____?",
       "options": [
         "okay-mcq-10",
-        "okay-mcq-09",
-        "okay-mcq-11",
-        "okay-mcq-08",
-        "okay-mcq-12",
-        "okay-mcq-07"
+        "okay-mcq-17",
+        "okay-mcq-05",
+        "okay-mcq-23"
       ],
       "explanation": "本句的「okay to use your phone here」指「做 X 是可以的」。",
       "sentenceIndex": 23,
@@ -1282,12 +1204,10 @@ export default {
         "okay to use your phone here"
       ],
       "optionReasons": {
-        "okay-mcq-10": "本句指「做 X 是可以的」。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。"
+        "okay-mcq-10": "本句的「okay to use your phone here」指「做 X 是可以的」。",
+        "okay-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-10"
     },
@@ -1299,11 +1219,9 @@ export default {
       "masked": "It's ____ when you need it.",
       "options": [
         "okay-mcq-10",
-        "okay-mcq-09",
-        "okay-mcq-11",
-        "okay-mcq-08",
-        "okay-mcq-12",
-        "okay-mcq-07"
+        "okay-mcq-13",
+        "okay-mcq-24",
+        "okay-mcq-08"
       ],
       "explanation": "本句的「okay to ask for help」指「做 X 是可以的」。",
       "sentenceIndex": 24,
@@ -1312,12 +1230,10 @@ export default {
         "okay to ask for help"
       ],
       "optionReasons": {
-        "okay-mcq-10": "本句指「做 X 是可以的」。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-07": "「表現還可以」是「do okay」的用法，與本句語境不同。"
+        "okay-mcq-10": "本句的「okay to ask for help」指「做 X 是可以的」。",
+        "okay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-10"
     },
@@ -1329,11 +1245,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "okay-mcq-25",
-        "okay-mcq-24",
-        "okay-mcq-23",
-        "okay-mcq-22",
-        "okay-mcq-21",
-        "okay-mcq-20"
+        "okay-mcq-03",
+        "okay-mcq-20",
+        "okay-mcq-10"
       ],
       "explanation": "本句的「okay with the change」指「對某個安排、決定或情況表示接受或沒有異議」。",
       "sentenceIndex": 25,
@@ -1342,12 +1256,10 @@ export default {
         "okay with the change"
       ],
       "optionReasons": {
-        "okay-mcq-25": "本句指「對某個安排、決定或情況表示接受或沒有異議」。",
-        "okay-mcq-24": "「達到基本可接受水平，但不突出」是「8. an okay result / performance — 尚可的結果／表現」的用法，與本句語境不同。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。"
+        "okay-mcq-25": "本句的「okay with the change」指「對某個安排、決定或情況表示接受或沒有異議」。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-25"
     },
@@ -1359,11 +1271,9 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "okay-mcq-25",
-        "okay-mcq-24",
-        "okay-mcq-23",
-        "okay-mcq-22",
-        "okay-mcq-21",
-        "okay-mcq-20"
+        "okay-mcq-03",
+        "okay-mcq-20",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「okay with meeting at eight」指「對某個安排、決定或情況表示接受或沒有異議」。",
       "sentenceIndex": 26,
@@ -1372,12 +1282,10 @@ export default {
         "okay with meeting at eight"
       ],
       "optionReasons": {
-        "okay-mcq-25": "本句指「對某個安排、決定或情況表示接受或沒有異議」。",
-        "okay-mcq-24": "「達到基本可接受水平，但不突出」是「8. an okay result / performance — 尚可的結果／表現」的用法，與本句語境不同。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。"
+        "okay-mcq-25": "本句的「okay with meeting at eight」指「對某個安排、決定或情況表示接受或沒有異議」。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-25"
     },
@@ -1389,11 +1297,9 @@ export default {
       "masked": "I'm ____.",
       "options": [
         "okay-pdf-001",
-        "okay-mcq-10",
-        "okay-mcq-12",
-        "okay-mcq-09",
         "okay-mcq-13",
-        "okay-mcq-08"
+        "okay-mcq-01",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「okay with you leaving early」指「接受或不反對某人進行某項行動」。",
       "sentenceIndex": 27,
@@ -1402,12 +1308,10 @@ export default {
         "okay with you leaving early"
       ],
       "optionReasons": {
-        "okay-pdf-001": "本句指「接受或不反對某人進行某項行動」。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。"
+        "okay-pdf-001": "本句的「okay with you leaving early」指「接受或不反對某人進行某項行動」。",
+        "okay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-pdf-001"
     },
@@ -1419,11 +1323,9 @@ export default {
       "masked": "Is your manager ____?",
       "options": [
         "okay-pdf-001",
-        "okay-mcq-10",
+        "okay-mcq-07",
         "okay-mcq-12",
-        "okay-mcq-09",
-        "okay-mcq-13",
-        "okay-mcq-08"
+        "okay-mcq-01"
       ],
       "explanation": "本句的「okay with you working from home」指「接受或不反對某人進行某項行動」。",
       "sentenceIndex": 28,
@@ -1432,12 +1334,10 @@ export default {
         "okay with you working from home"
       ],
       "optionReasons": {
-        "okay-pdf-001": "本句指「接受或不反對某人進行某項行動」。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-08": "「看起來沒問題」是「look okay」的用法，與本句語境不同。"
+        "okay-pdf-001": "本句的「okay with you working from home」指「接受或不反對某人進行某項行動」。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-pdf-001"
     },
@@ -1449,11 +1349,9 @@ export default {
       "masked": "Can we leave early?” > “That's ____.",
       "options": [
         "okay-mcq-12",
-        "okay-mcq-11",
-        "okay-mcq-13",
-        "okay-mcq-10",
-        "okay-mcq-14",
-        "okay-mcq-09"
+        "okay-mcq-07",
+        "okay-pdf-001",
+        "okay-mcq-15"
       ],
       "explanation": "本句的「okay by me」指「我沒問題」。",
       "sentenceIndex": 29,
@@ -1462,12 +1360,10 @@ export default {
         "okay by me"
       ],
       "optionReasons": {
-        "okay-mcq-12": "本句指「我沒問題」。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。"
+        "okay-mcq-12": "本句的「okay by me」指「我沒問題」。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-12"
     },
@@ -1479,11 +1375,9 @@ export default {
       "masked": "If everyone wants pizza, that's ____.",
       "options": [
         "okay-mcq-12",
-        "okay-mcq-11",
         "okay-mcq-13",
-        "okay-mcq-10",
-        "okay-mcq-14",
-        "okay-mcq-09"
+        "okay-pdf-001",
+        "okay-mcq-18"
       ],
       "explanation": "本句的「okay by me」指「我沒問題」。",
       "sentenceIndex": 30,
@@ -1492,12 +1386,10 @@ export default {
         "okay by me"
       ],
       "optionReasons": {
-        "okay-mcq-12": "本句指「我沒問題」。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-09": "「聽起來可以」是「sound okay」的用法，與本句語境不同。"
+        "okay-mcq-12": "本句的「okay by me」指「我沒問題」。",
+        "okay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-12"
     },
@@ -1509,11 +1401,9 @@ export default {
       "masked": "Meet me at six.” > “____",
       "options": [
         "okay-mcq-13",
-        "okay-mcq-12",
-        "okay-mcq-14",
-        "okay-mcq-11",
-        "okay-mcq-15",
-        "okay-mcq-10"
+        "okay-mcq-01",
+        "okay-mcq-20",
+        "okay-mcq-25"
       ],
       "explanation": "本句的「Okay!」指「好！」。",
       "sentenceIndex": 31,
@@ -1522,12 +1412,10 @@ export default {
         "Okay!"
       ],
       "optionReasons": {
-        "okay-mcq-13": "本句指「好！」。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。"
+        "okay-mcq-13": "本句的「Okay!」指「好！」。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-13"
     },
@@ -1539,11 +1427,9 @@ export default {
       "masked": "Please send me the file tonight.” > “____, I will.",
       "options": [
         "okay-mcq-13",
-        "okay-mcq-12",
-        "okay-mcq-14",
-        "okay-mcq-11",
-        "okay-mcq-15",
-        "okay-mcq-10"
+        "okay-mcq-18",
+        "okay-mcq-24",
+        "okay-mcq-23"
       ],
       "explanation": "本句的「Okay」指「好！」。",
       "sentenceIndex": 32,
@@ -1552,12 +1438,10 @@ export default {
         "Okay"
       ],
       "optionReasons": {
-        "okay-mcq-13": "本句指「好！」。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-10": "「做 X 是可以的」是「It's okay to X」的用法，與本句語境不同。"
+        "okay-mcq-13": "本句的「Okay」指「好！」。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-13"
     },
@@ -1569,11 +1453,9 @@ export default {
       "masked": "____",
       "options": [
         "okay-mcq-14",
-        "okay-mcq-13",
-        "okay-mcq-15",
-        "okay-mcq-12",
-        "okay-mcq-16",
-        "okay-mcq-11"
+        "okay-mcq-08",
+        "okay-mcq-18",
+        "okay-mcq-22"
       ],
       "explanation": "本句的「Okay, let's begin.」指「好，那我們……」。",
       "sentenceIndex": 33,
@@ -1582,12 +1464,10 @@ export default {
         "Okay, let's begin."
       ],
       "optionReasons": {
-        "okay-mcq-14": "本句指「好，那我們……」。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。"
+        "okay-mcq-14": "本句的「Okay, let's begin.」指「好，那我們……」。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-14"
     },
@@ -1599,11 +1479,9 @@ export default {
       "masked": "____",
       "options": [
         "okay-mcq-14",
-        "okay-mcq-13",
-        "okay-mcq-15",
-        "okay-mcq-12",
-        "okay-mcq-16",
-        "okay-mcq-11"
+        "okay-mcq-07",
+        "okay-mcq-23",
+        "okay-mcq-20"
       ],
       "explanation": "本句的「Okay, let's move on to the next question.」指「好，那我們……」。",
       "sentenceIndex": 34,
@@ -1612,12 +1490,10 @@ export default {
         "Okay, let's move on to the next question."
       ],
       "optionReasons": {
-        "okay-mcq-14": "本句指「好，那我們……」。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-11": "「接受 X；不介意 X」是「okay with X」的用法，與本句語境不同。"
+        "okay-mcq-14": "本句的「Okay, let's move on to the next question.」指「好，那我們……」。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-14"
     },
@@ -1629,11 +1505,9 @@ export default {
       "masked": "Be back by ten, ____?",
       "options": [
         "okay-mcq-15",
-        "okay-mcq-14",
-        "okay-mcq-16",
-        "okay-mcq-13",
-        "okay-mcq-17",
-        "okay-mcq-12"
+        "okay-mcq-21",
+        "okay-pdf-001",
+        "okay-mcq-07"
       ],
       "explanation": "本句的「okay」指「好嗎？明白嗎？」。",
       "sentenceIndex": 35,
@@ -1642,12 +1516,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-15": "本句指「好嗎？明白嗎？」。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。"
+        "okay-mcq-15": "本句的「okay」指「好嗎？明白嗎？」。",
+        "okay-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-15"
     },
@@ -1659,11 +1531,9 @@ export default {
       "masked": "Don't touch that button, ____?",
       "options": [
         "okay-mcq-15",
-        "okay-mcq-14",
-        "okay-mcq-16",
-        "okay-mcq-13",
-        "okay-mcq-17",
-        "okay-mcq-12"
+        "okay-mcq-24",
+        "okay-mcq-08",
+        "okay-mcq-20"
       ],
       "explanation": "本句的「okay」指「好嗎？明白嗎？」。",
       "sentenceIndex": 36,
@@ -1672,12 +1542,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-15": "本句指「好嗎？明白嗎？」。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-12": "「我沒問題」是「okay by me」的用法，與本句語境不同。"
+        "okay-mcq-15": "本句的「okay」指「好嗎？明白嗎？」。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-15"
     },
@@ -1689,11 +1557,9 @@ export default {
       "masked": "Can you work this weekend?” > “____ if you really need me.",
       "options": [
         "okay-mcq-16",
-        "okay-mcq-15",
-        "okay-mcq-17",
-        "okay-mcq-14",
-        "okay-mcq-18",
-        "okay-mcq-13"
+        "okay-mcq-19",
+        "okay-mcq-05",
+        "okay-mcq-12"
       ],
       "explanation": "本句的「Okay...」指「好吧……」。",
       "sentenceIndex": 37,
@@ -1702,12 +1568,10 @@ export default {
         "Okay..."
       ],
       "optionReasons": {
-        "okay-mcq-16": "本句指「好吧……」。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。"
+        "okay-mcq-16": "本句的「Okay...」指「好吧……」。",
+        "okay-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-16"
     },
@@ -1719,11 +1583,9 @@ export default {
       "masked": "Let's try again.” > “____",
       "options": [
         "okay-mcq-16",
-        "okay-mcq-15",
-        "okay-mcq-17",
-        "okay-mcq-14",
-        "okay-mcq-18",
-        "okay-mcq-13"
+        "okay-mcq-05",
+        "okay-mcq-09",
+        "okay-mcq-23"
       ],
       "explanation": "本句的「Okay...」指「好吧……」。",
       "sentenceIndex": 38,
@@ -1732,12 +1594,10 @@ export default {
         "Okay..."
       ],
       "optionReasons": {
-        "okay-mcq-16": "本句指「好吧……」。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。"
+        "okay-mcq-16": "本句的「Okay...」指「好吧……」。",
+        "okay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-16"
     },
@@ -1749,11 +1609,9 @@ export default {
       "masked": "You need to press this button first.” > “____, I understand.",
       "options": [
         "okay-mcq-16",
-        "okay-mcq-15",
-        "okay-mcq-17",
-        "okay-mcq-14",
         "okay-mcq-18",
-        "okay-mcq-13"
+        "okay-mcq-10",
+        "okay-mcq-23"
       ],
       "explanation": "本句的「Okay」指「好吧……」。",
       "sentenceIndex": 39,
@@ -1762,12 +1620,10 @@ export default {
         "Okay"
       ],
       "optionReasons": {
-        "okay-mcq-16": "本句指「好吧……」。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。"
+        "okay-mcq-16": "本句的「Okay」指「好吧……」。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-16"
     },
@@ -1779,11 +1635,9 @@ export default {
       "masked": "The train leaves from platform four.” > “____",
       "options": [
         "okay-mcq-16",
-        "okay-mcq-15",
-        "okay-mcq-17",
-        "okay-mcq-14",
-        "okay-mcq-18",
-        "okay-mcq-13"
+        "okay-mcq-25",
+        "okay-mcq-05",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「Okay, got it.」指「好吧……」。",
       "sentenceIndex": 40,
@@ -1792,12 +1646,10 @@ export default {
         "Okay, got it."
       ],
       "optionReasons": {
-        "okay-mcq-16": "本句指「好吧……」。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-13": "「好！」是「Okay!」的用法，與本句語境不同。"
+        "okay-mcq-16": "本句的「Okay, got it.」指「好吧……」。",
+        "okay-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-16"
     },
@@ -1809,11 +1661,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "okay-mcq-17",
-        "okay-mcq-16",
-        "okay-mcq-18",
         "okay-mcq-15",
-        "okay-mcq-19",
-        "okay-mcq-14"
+        "okay-reviewed-8903603ed4",
+        "okay-mcq-02"
       ],
       "explanation": "本句的「okayed the plan」指「批准計劃」。",
       "sentenceIndex": 41,
@@ -1822,12 +1672,10 @@ export default {
         "okayed the plan"
       ],
       "optionReasons": {
-        "okay-mcq-17": "本句指「批准計劃」。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。"
+        "okay-mcq-17": "本句的「okayed the plan」指「批准計劃」。",
+        "okay-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "okay-reviewed-8903603ed4": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-17"
     },
@@ -1839,11 +1687,9 @@ export default {
       "masked": "The budget has been ____ by senior management.",
       "options": [
         "okay-mcq-17",
-        "okay-mcq-16",
-        "okay-mcq-18",
+        "okay-mcq-09",
         "okay-mcq-15",
-        "okay-mcq-19",
-        "okay-mcq-14"
+        "okay-mcq-12"
       ],
       "explanation": "本句的「okayed」指「批准計劃」。",
       "sentenceIndex": 42,
@@ -1852,12 +1698,10 @@ export default {
         "okayed"
       ],
       "optionReasons": {
-        "okay-mcq-17": "本句指「批准計劃」。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-14": "「好，那我們……」是「Okay, let's...」的用法，與本句語境不同。"
+        "okay-mcq-17": "本句的「okayed」指「批准計劃」。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-17"
     },
@@ -1869,11 +1713,9 @@ export default {
       "masked": "The doctor ____ to start exercising again.",
       "options": [
         "okay-mcq-18",
-        "okay-mcq-17",
-        "okay-mcq-19",
-        "okay-mcq-16",
-        "okay-mcq-20",
-        "okay-mcq-15"
+        "okay-mcq-13",
+        "okay-pdf-001",
+        "okay-mcq-01"
       ],
       "explanation": "本句的「gave me the okay」指「批准 X」。",
       "sentenceIndex": 43,
@@ -1882,12 +1724,10 @@ export default {
         "gave me the okay"
       ],
       "optionReasons": {
-        "okay-mcq-18": "本句指「批准 X」。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。"
+        "okay-mcq-18": "本句的「gave me the okay」指「批准 X」。",
+        "okay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-18"
     },
@@ -1899,11 +1739,9 @@ export default {
       "masked": "We're waiting for management to ____.",
       "options": [
         "okay-mcq-18",
-        "okay-mcq-17",
-        "okay-mcq-19",
+        "okay-mcq-08",
         "okay-mcq-16",
-        "okay-mcq-20",
-        "okay-mcq-15"
+        "okay-pdf-001"
       ],
       "explanation": "本句的「give the project the okay」指「批准 X」。",
       "sentenceIndex": 44,
@@ -1912,12 +1750,10 @@ export default {
         "give the project the okay"
       ],
       "optionReasons": {
-        "okay-mcq-18": "本句指「批准 X」。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-15": "「好嗎？明白嗎？」是「Okay?」的用法，與本句語境不同。"
+        "okay-mcq-18": "本句的「give the project the okay」指「批准 X」。",
+        "okay-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-18"
     },
@@ -1929,11 +1765,9 @@ export default {
       "masked": "We can't start until we ____.",
       "options": [
         "okay-mcq-19",
-        "okay-mcq-18",
-        "okay-mcq-20",
-        "okay-mcq-17",
-        "okay-mcq-21",
-        "okay-mcq-16"
+        "okay-mcq-23",
+        "okay-mcq-10",
+        "okay-mcq-03"
       ],
       "explanation": "本句的「get the okay」指「獲得批准」。",
       "sentenceIndex": 45,
@@ -1942,12 +1776,10 @@ export default {
         "get the okay"
       ],
       "optionReasons": {
-        "okay-mcq-19": "本句指「獲得批准」。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。"
+        "okay-mcq-19": "本句的「get the okay」指「獲得批准」。",
+        "okay-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-19"
     },
@@ -1959,11 +1791,9 @@ export default {
       "masked": "She finally ____ from her doctor to travel.",
       "options": [
         "okay-mcq-19",
-        "okay-mcq-18",
-        "okay-mcq-20",
-        "okay-mcq-17",
-        "okay-mcq-21",
-        "okay-mcq-16"
+        "okay-mcq-16",
+        "okay-mcq-01",
+        "okay-mcq-09"
       ],
       "explanation": "本句的「got the okay」指「獲得批准」。",
       "sentenceIndex": 46,
@@ -1972,12 +1802,10 @@ export default {
         "got the okay"
       ],
       "optionReasons": {
-        "okay-mcq-19": "本句指「獲得批准」。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-16": "「好吧……」是「Okay...」的用法，與本句語境不同。"
+        "okay-mcq-19": "本句的「got the okay」指「獲得批准」。",
+        "okay-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-19"
     },
@@ -1989,11 +1817,9 @@ export default {
       "masked": "The project still needs the ____ from the director.",
       "options": [
         "okay-mcq-20",
-        "okay-mcq-19",
-        "okay-mcq-21",
-        "okay-mcq-18",
-        "okay-mcq-22",
-        "okay-mcq-17"
+        "okay-mcq-12",
+        "okay-mcq-03",
+        "okay-mcq-01"
       ],
       "explanation": "本句的「final okay」指「最終批准」。",
       "sentenceIndex": 47,
@@ -2002,12 +1828,10 @@ export default {
         "final okay"
       ],
       "optionReasons": {
-        "okay-mcq-20": "本句指「最終批准」。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。"
+        "okay-mcq-20": "本句的「final okay」指「最終批准」。",
+        "okay-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-20"
     },
@@ -2019,11 +1843,9 @@ export default {
       "masked": "Once we receive the ____, construction can begin.",
       "options": [
         "okay-mcq-20",
-        "okay-mcq-19",
         "okay-mcq-21",
-        "okay-mcq-18",
-        "okay-mcq-22",
-        "okay-mcq-17"
+        "okay-mcq-09",
+        "okay-mcq-24"
       ],
       "explanation": "本句的「final okay」指「最終批准」。",
       "sentenceIndex": 48,
@@ -2032,12 +1854,10 @@ export default {
         "final okay"
       ],
       "optionReasons": {
-        "okay-mcq-20": "本句指「最終批准」。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-21": "「一切都會沒事」是「everything will be okay」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-17": "「批准計劃」是「okay a plan」的用法，與本句語境不同。"
+        "okay-mcq-20": "本句的「final okay」指「最終批准」。",
+        "okay-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-20"
     },
@@ -2049,11 +1869,9 @@ export default {
       "masked": "Don't panic. Everything is going to be ____.",
       "options": [
         "okay-mcq-21",
+        "okay-pdf-001",
         "okay-mcq-20",
-        "okay-mcq-22",
-        "okay-mcq-19",
-        "okay-mcq-23",
-        "okay-mcq-18"
+        "okay-mcq-10"
       ],
       "explanation": "本句的「okay」指「一切都會沒事」。",
       "sentenceIndex": 49,
@@ -2062,12 +1880,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-21": "本句指「一切都會沒事」。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。"
+        "okay-mcq-21": "本句的「okay」指「一切都會沒事」。",
+        "okay-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-21"
     },
@@ -2079,11 +1895,9 @@ export default {
       "masked": "She hugged him and said, “You'll be ____.",
       "options": [
         "okay-mcq-21",
-        "okay-mcq-20",
-        "okay-mcq-22",
-        "okay-mcq-19",
-        "okay-mcq-23",
-        "okay-mcq-18"
+        "okay-mcq-18",
+        "okay-mcq-13",
+        "okay-mcq-07"
       ],
       "explanation": "本句的「okay」指「一切都會沒事」。",
       "sentenceIndex": 50,
@@ -2092,12 +1906,10 @@ export default {
         "okay"
       ],
       "optionReasons": {
-        "okay-mcq-21": "本句指「一切都會沒事」。",
-        "okay-mcq-20": "「最終批准」是「the final okay」的用法，與本句語境不同。",
-        "okay-mcq-22": "「身體沒有受到嚴重傷害，或健康狀況大致正常」是「4. be okay（身體狀況正常） — 沒事；身體還好」的用法，與本句語境不同。",
-        "okay-mcq-19": "「獲得批准」是「get the okay」的用法，與本句語境不同。",
-        "okay-mcq-23": "「情緒上能夠應付目前情況，沒有嚴重崩潰或問題」是「6. be okay emotionally — 情緒沒事；還撐得住」的用法，與本句語境不同。",
-        "okay-mcq-18": "「批准 X」是「give X the okay」的用法，與本句語境不同。"
+        "okay-mcq-21": "本句的「okay」指「一切都會沒事」。",
+        "okay-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "okay-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "okay-mcq-21"
     }
@@ -2109,5 +1921,7 @@ export default {
     "sha256": "0de3753c925d4067ddd5cac75ca0016a0f355372d67d7d1633fd80293b046eb6",
     "pages": 21
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

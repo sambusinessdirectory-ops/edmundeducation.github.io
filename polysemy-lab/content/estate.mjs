@@ -174,11 +174,7 @@ export default {
       "masked": "The family owns a large country ____.",
       "options": [
         "estate-mcq-01",
-        "estate-mcq-02",
-        "estate-mcq-03",
-        "estate-mcq-04",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07"
       ],
       "explanation": "本句的「estate」指「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」。",
       "sentenceIndex": 0,
@@ -187,12 +183,8 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-01": "本句指「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」。",
-        "estate-mcq-02": "「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-01": "本句的「estate」指「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-01"
     },
@@ -204,11 +196,7 @@ export default {
       "masked": "The ____ includes farmland, woodland, and several cottages.",
       "options": [
         "estate-mcq-01",
-        "estate-mcq-02",
-        "estate-mcq-03",
-        "estate-mcq-04",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07"
       ],
       "explanation": "本句的「estate」指「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」。",
       "sentenceIndex": 1,
@@ -217,12 +205,8 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-01": "本句指「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」。",
-        "estate-mcq-02": "「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-01": "本句的「estate」指「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-01"
     },
@@ -234,11 +218,8 @@ export default {
       "masked": "We rode our bicycles around the housing ____ until sunset.",
       "options": [
         "estate-mcq-02",
-        "estate-mcq-01",
-        "estate-mcq-03",
-        "estate-mcq-04",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07",
+        "estate-mcq-04"
       ],
       "explanation": "本句的「estate」指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
       "sentenceIndex": 2,
@@ -247,12 +228,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-02": "本句指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-02": "本句的「estate」指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-02"
     },
@@ -264,11 +242,8 @@ export default {
       "masked": "Thousands of families live on the ____.",
       "options": [
         "estate-mcq-02",
-        "estate-mcq-01",
-        "estate-mcq-03",
-        "estate-mcq-04",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07",
+        "estate-mcq-04"
       ],
       "explanation": "本句的「estate」指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
       "sentenceIndex": 3,
@@ -277,12 +252,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-02": "本句指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-02": "本句的「estate」指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-02"
     },
@@ -294,11 +266,8 @@ export default {
       "masked": "The housing ____ has its own shops and playgrounds.",
       "options": [
         "estate-mcq-02",
-        "estate-mcq-01",
-        "estate-mcq-03",
-        "estate-mcq-04",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07",
+        "estate-mcq-04"
       ],
       "explanation": "本句的「estate」指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
       "sentenceIndex": 4,
@@ -307,12 +276,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-02": "本句指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-02": "本句的「estate」指「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-02"
     },
@@ -324,11 +290,7 @@ export default {
       "masked": "His children inherited most of his ____.",
       "options": [
         "estate-mcq-03",
-        "estate-mcq-02",
-        "estate-mcq-04",
-        "estate-mcq-01",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07"
       ],
       "explanation": "本句的「estate」指「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」。",
       "sentenceIndex": 5,
@@ -337,12 +299,8 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-03": "本句指「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」。",
-        "estate-mcq-02": "「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-03": "本句的「estate」指「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-03"
     },
@@ -354,11 +312,7 @@ export default {
       "masked": "The lawyer was responsible for managing the ____.",
       "options": [
         "estate-mcq-03",
-        "estate-mcq-02",
-        "estate-mcq-04",
-        "estate-mcq-01",
-        "estate-mcq-05",
-        "estate-mcq-06"
+        "estate-mcq-07"
       ],
       "explanation": "本句的「estate」指「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」。",
       "sentenceIndex": 6,
@@ -367,12 +321,8 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-03": "本句指「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」。",
-        "estate-mcq-02": "「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。"
+        "estate-mcq-03": "本句的「estate」指「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-03"
     },
@@ -384,11 +334,8 @@ export default {
       "masked": "Much of the company’s wealth is tied up in its property ____.",
       "options": [
         "estate-mcq-04",
-        "estate-mcq-03",
-        "estate-mcq-05",
-        "estate-mcq-02",
-        "estate-mcq-06",
-        "estate-mcq-01"
+        "estate-mcq-07",
+        "estate-mcq-06"
       ],
       "explanation": "本句的「estate」指「由土地、建築物及其他不動產構成的物業／地產資產；與」。",
       "sentenceIndex": 7,
@@ -397,12 +344,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-04": "本句指「由土地、建築物及其他不動產構成的物業／地產資產；與」。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-02": "「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。"
+        "estate-mcq-04": "本句的「estate」指「由土地、建築物及其他不動產構成的物業／地產資產；與」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-04"
     },
@@ -414,11 +358,8 @@ export default {
       "masked": "The organization manages a large commercial ____.",
       "options": [
         "estate-mcq-04",
-        "estate-mcq-03",
-        "estate-mcq-05",
-        "estate-mcq-02",
-        "estate-mcq-06",
-        "estate-mcq-01"
+        "estate-mcq-07",
+        "estate-mcq-06"
       ],
       "explanation": "本句的「estate」指「由土地、建築物及其他不動產構成的物業／地產資產；與」。",
       "sentenceIndex": 8,
@@ -427,12 +368,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-04": "本句指「由土地、建築物及其他不動產構成的物業／地產資產；與」。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-02": "「由多座住宅及相關設施組成、作為一個整體規劃發展的住宅區／屋苑」與本句語境不同。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。",
-        "estate-mcq-01": "「作為一個整體擁有和管理的一大片土地，以及通常位於其上的住宅和其他建築物」與本句語境不同。"
+        "estate-mcq-04": "本句的「estate」指「由土地、建築物及其他不動產構成的物業／地產資產；與」。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-04"
     },
@@ -444,11 +382,8 @@ export default {
       "masked": "The factory is located on an industrial ____ outside the city.",
       "options": [
         "estate-mcq-06",
-        "estate-mcq-05",
-        "estate-mcq-07",
         "estate-mcq-04",
-        "estate-mcq-08",
-        "estate-mcq-03"
+        "estate-mcq-07"
       ],
       "explanation": "本句的「estate」指「為工廠、辦公室或商業設施整體規劃的一個發展園區」。",
       "sentenceIndex": 9,
@@ -457,12 +392,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-06": "本句指「為工廠、辦公室或商業設施整體規劃的一個發展園區」。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-07": "「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-08": "「土地及建築物作為財產／商品來看；房地產／地產」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。"
+        "estate-mcq-06": "本句的「estate」指「為工廠、辦公室或商業設施整體規劃的一個發展園區」。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-06"
     },
@@ -474,11 +406,8 @@ export default {
       "masked": "Several technology companies have offices on the business ____.",
       "options": [
         "estate-mcq-06",
-        "estate-mcq-05",
-        "estate-mcq-07",
         "estate-mcq-04",
-        "estate-mcq-08",
-        "estate-mcq-03"
+        "estate-mcq-07"
       ],
       "explanation": "本句的「estate」指「為工廠、辦公室或商業設施整體規劃的一個發展園區」。",
       "sentenceIndex": 10,
@@ -487,12 +416,9 @@ export default {
         "estate"
       ],
       "optionReasons": {
-        "estate-mcq-06": "本句指「為工廠、辦公室或商業設施整體規劃的一個發展園區」。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-07": "「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-08": "「土地及建築物作為財產／商品來看；房地產／地產」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。"
+        "estate-mcq-06": "本句的「estate」指「為工廠、辦公室或商業設施整體規劃的一個發展園區」。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-06"
     },
@@ -504,11 +430,8 @@ export default {
       "masked": "Medieval society was divided into different ____.",
       "options": [
         "estate-mcq-07",
-        "estate-mcq-06",
-        "estate-mcq-08",
-        "estate-mcq-05",
         "estate-mcq-04",
-        "estate-mcq-03"
+        "estate-mcq-06"
       ],
       "explanation": "本句的「estates」指「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」。",
       "sentenceIndex": 11,
@@ -517,12 +440,9 @@ export default {
         "estates"
       ],
       "optionReasons": {
-        "estate-mcq-07": "本句指「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。",
-        "estate-mcq-08": "「土地及建築物作為財產／商品來看；房地產／地產」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。"
+        "estate-mcq-07": "本句的「estates」指「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-07"
     },
@@ -534,11 +454,8 @@ export default {
       "masked": "The Third ____ represented the common people.",
       "options": [
         "estate-mcq-07",
-        "estate-mcq-06",
-        "estate-mcq-08",
-        "estate-mcq-05",
         "estate-mcq-04",
-        "estate-mcq-03"
+        "estate-mcq-06"
       ],
       "explanation": "本句的「Estate」指「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」。",
       "sentenceIndex": 12,
@@ -547,12 +464,9 @@ export default {
         "Estate"
       ],
       "optionReasons": {
-        "estate-mcq-07": "本句指「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」。",
-        "estate-mcq-06": "「為工廠、辦公室或商業設施整體規劃的一個發展園區」與本句語境不同。",
-        "estate-mcq-08": "「土地及建築物作為財產／商品來看；房地產／地產」與本句語境不同。",
-        "estate-mcq-05": "「義相關」與本句語境不同。",
-        "estate-mcq-04": "「由土地、建築物及其他不動產構成的物業／地產資產；與」與本句語境不同。",
-        "estate-mcq-03": "「某人擁有的全部財產、資產和物業，尤其指去世後需要管理或分配的遺產」與本句語境不同。"
+        "estate-mcq-07": "本句的「Estate」指「歷史上根據身分、權利和社會地位劃分的正式社會階層；較低優先度」。",
+        "estate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "estate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "estate-mcq-07"
     }
@@ -564,5 +478,7 @@ export default {
     "sha256": "df1b48366131ec84099a18cdd5c34959d1255a163189e2c9356c969072ad6337",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

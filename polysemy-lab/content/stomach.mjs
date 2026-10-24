@@ -401,16 +401,6 @@ export default {
           "The report contained some stomach-turning details.",
           "報告中有一些令人作嘔的細節。",
           "令人反胃的"
-        ],
-        [
-          "He didn't have the stomach to continue.",
-          "他沒有足夠膽量／心理承受力繼續下去。",
-          "令人反胃的"
-        ],
-        [
-          "It takes some stomach to face that kind of criticism.",
-          "要面對那種批評，需要相當的心理承受力。",
-          "令人反胃的"
         ]
       ],
       "options": [],
@@ -442,6 +432,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "stomach-reviewed-8908ac1daa",
+      "title": "膽量；承受力",
+      "form": "stomach · source section 20",
+      "en": "膽量；承受力",
+      "zh": "膽量；承受力",
+      "note": "對照原始教材第 20 節及例句核實。",
+      "examples": [
+        [
+          "He didn't have the stomach to continue.",
+          "他沒有足夠膽量／心理承受力繼續下去。",
+          "膽量；承受力"
+        ],
+        [
+          "It takes some stomach to face that kind of criticism.",
+          "要面對那種批評，需要相當的心理承受力。",
+          "膽量；承受力"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -453,11 +465,9 @@ export default {
       "masked": "Food passes into the ____ after you swallow it.",
       "options": [
         "stomach-mcq-19",
-        "stomach-mcq-18",
-        "stomach-mcq-17",
-        "stomach-mcq-16",
-        "stomach-mcq-15",
-        "stomach-mcq-14"
+        "stomach-mcq-01",
+        "stomach-mcq-11",
+        "stomach-mcq-17"
       ],
       "explanation": "本句的「stomach」指「消化系統中接收和消化食物的器官」。",
       "sentenceIndex": 0,
@@ -466,12 +476,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-19": "本句指「消化系統中接收和消化食物的器官」。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-19": "本句的「stomach」指「消化系統中接收和消化食物的器官」。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-19"
     },
@@ -483,11 +491,9 @@ export default {
       "masked": "He had pain in his ____.",
       "options": [
         "stomach-mcq-19",
-        "stomach-mcq-18",
-        "stomach-mcq-17",
-        "stomach-mcq-16",
         "stomach-mcq-15",
-        "stomach-mcq-14"
+        "stomach-mcq-12",
+        "stomach-mcq-01"
       ],
       "explanation": "本句的「stomach」指「消化系統中接收和消化食物的器官」。",
       "sentenceIndex": 1,
@@ -496,12 +502,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-19": "本句指「消化系統中接收和消化食物的器官」。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-19": "本句的「stomach」指「消化系統中接收和消化食物的器官」。",
+        "stomach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-19"
     },
@@ -513,10 +517,8 @@ export default {
       "masked": "The doctor examined her ____.",
       "options": [
         "stomach-mcq-19",
-        "stomach-mcq-18",
-        "stomach-mcq-17",
-        "stomach-mcq-16",
         "stomach-mcq-15",
+        "stomach-mcq-05",
         "stomach-mcq-14"
       ],
       "explanation": "本句的「stomach」指「消化系統中接收和消化食物的器官」。",
@@ -526,12 +528,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-19": "本句指「消化系統中接收和消化食物的器官」。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-19": "本句的「stomach」指「消化系統中接收和消化食物的器官」。",
+        "stomach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-19"
     },
@@ -543,11 +543,9 @@ export default {
       "masked": "He was lying on his ____.",
       "options": [
         "stomach-mcq-01",
-        "stomach-mcq-02",
-        "stomach-mcq-03",
-        "stomach-mcq-04",
-        "stomach-mcq-05",
-        "stomach-mcq-06"
+        "stomach-mcq-13",
+        "stomach-mcq-09",
+        "stomach-mcq-16"
       ],
       "explanation": "本句的「stomach」指「肚子；腹部」。",
       "sentenceIndex": 3,
@@ -556,12 +554,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-01": "本句指「肚子；腹部」。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-01": "本句的「stomach」指「肚子；腹部」。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-01"
     },
@@ -573,11 +569,9 @@ export default {
       "masked": "She put her hand on her ____.",
       "options": [
         "stomach-mcq-01",
-        "stomach-mcq-02",
-        "stomach-mcq-03",
-        "stomach-mcq-04",
-        "stomach-mcq-05",
-        "stomach-mcq-06"
+        "stomach-mcq-14",
+        "stomach-mcq-19",
+        "stomach-mcq-08"
       ],
       "explanation": "本句的「stomach」指「肚子；腹部」。",
       "sentenceIndex": 4,
@@ -586,12 +580,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-01": "本句指「肚子；腹部」。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-01": "本句的「stomach」指「肚子；腹部」。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-01"
     },
@@ -603,11 +595,9 @@ export default {
       "masked": "The baby was lying on his ____.",
       "options": [
         "stomach-mcq-02",
-        "stomach-mcq-01",
-        "stomach-mcq-03",
-        "stomach-mcq-04",
-        "stomach-mcq-05",
-        "stomach-mcq-06"
+        "stomach-mcq-09",
+        "stomach-mcq-08",
+        "stomach-mcq-11"
       ],
       "explanation": "本句的「stomach」指「趴着；俯臥」。",
       "sentenceIndex": 5,
@@ -616,12 +606,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-02": "本句指「趴着；俯臥」。",
-        "stomach-mcq-01": "「肚子；腹部」是「stomach (body area)」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-02": "本句的「stomach」指「趴着；俯臥」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-02"
     },
@@ -633,11 +621,9 @@ export default {
       "masked": "I can't sleep comfortably on my ____.",
       "options": [
         "stomach-mcq-02",
-        "stomach-mcq-01",
-        "stomach-mcq-03",
-        "stomach-mcq-04",
-        "stomach-mcq-05",
-        "stomach-mcq-06"
+        "stomach-mcq-06",
+        "stomach-mcq-18",
+        "stomach-mcq-13"
       ],
       "explanation": "本句的「stomach」指「趴着；俯臥」。",
       "sentenceIndex": 6,
@@ -646,12 +632,10 @@ export default {
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-02": "本句指「趴着；俯臥」。",
-        "stomach-mcq-01": "「肚子；腹部」是「stomach (body area)」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-02": "本句的「stomach」指「趴着；俯臥」。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-02"
     },
@@ -663,11 +647,9 @@ export default {
       "masked": "She complained of ____.",
       "options": [
         "stomach-mcq-03",
-        "stomach-mcq-02",
-        "stomach-mcq-04",
-        "stomach-mcq-01",
-        "stomach-mcq-05",
-        "stomach-mcq-06"
+        "stomach-mcq-09",
+        "stomach-mcq-13",
+        "stomach-mcq-02"
       ],
       "explanation": "本句的「stomach pain」指「胃痛／腹痛」。",
       "sentenceIndex": 7,
@@ -676,12 +658,10 @@ export default {
         "stomach pain"
       ],
       "optionReasons": {
-        "stomach-mcq-03": "本句指「胃痛／腹痛」。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-01": "「肚子；腹部」是「stomach (body area)」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-03": "本句的「stomach pain」指「胃痛／腹痛」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-03"
     },
@@ -693,11 +673,9 @@ export default {
       "masked": "Severe ____ should not be ignored.",
       "options": [
         "stomach-mcq-03",
+        "stomach-mcq-13",
         "stomach-mcq-02",
-        "stomach-mcq-04",
-        "stomach-mcq-01",
-        "stomach-mcq-05",
-        "stomach-mcq-06"
+        "stomach-mcq-17"
       ],
       "explanation": "本句的「stomach pain」指「胃痛／腹痛」。",
       "sentenceIndex": 8,
@@ -706,12 +684,10 @@ export default {
         "stomach pain"
       ],
       "optionReasons": {
-        "stomach-mcq-03": "本句指「胃痛／腹痛」。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-01": "「肚子；腹部」是「stomach (body area)」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-03": "本句的「stomach pain」指「胃痛／腹痛」。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-03"
     },
@@ -723,11 +699,9 @@ export default {
       "masked": "I have a ____.",
       "options": [
         "stomach-mcq-04",
-        "stomach-mcq-03",
-        "stomach-mcq-05",
         "stomach-mcq-02",
-        "stomach-mcq-06",
-        "stomach-mcq-01"
+        "stomach-mcq-05",
+        "stomach-mcq-13"
       ],
       "explanation": "本句的「stomach ache」指「胃痛；肚痛」。",
       "sentenceIndex": 9,
@@ -736,12 +710,10 @@ export default {
         "stomach ache"
       ],
       "optionReasons": {
-        "stomach-mcq-04": "本句指「胃痛；肚痛」。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-01": "「肚子；腹部」是「stomach (body area)」的用法，與本句語境不同。"
+        "stomach-mcq-04": "本句的「stomach ache」指「胃痛；肚痛」。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-04"
     },
@@ -753,11 +725,9 @@ export default {
       "masked": "Too much rich food gave him a ____.",
       "options": [
         "stomach-mcq-04",
-        "stomach-mcq-03",
-        "stomach-mcq-05",
-        "stomach-mcq-02",
-        "stomach-mcq-06",
-        "stomach-mcq-01"
+        "stomach-mcq-17",
+        "stomach-mcq-13",
+        "stomach-mcq-06"
       ],
       "explanation": "本句的「stomachache」指「胃痛；肚痛」。",
       "sentenceIndex": 10,
@@ -766,12 +736,10 @@ export default {
         "stomachache"
       ],
       "optionReasons": {
-        "stomach-mcq-04": "本句指「胃痛；肚痛」。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-01": "「肚子；腹部」是「stomach (body area)」的用法，與本句語境不同。"
+        "stomach-mcq-04": "本句的「stomachache」指「胃痛；肚痛」。",
+        "stomach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-04"
     },
@@ -783,10 +751,8 @@ export default {
       "masked": "Don't take this medicine on an ____.",
       "options": [
         "stomach-mcq-05",
-        "stomach-mcq-04",
-        "stomach-mcq-06",
-        "stomach-mcq-03",
-        "stomach-mcq-07",
+        "stomach-mcq-09",
+        "stomach-mcq-14",
         "stomach-mcq-02"
       ],
       "explanation": "本句的「empty stomach」指「空腹」。",
@@ -796,12 +762,10 @@ export default {
         "empty stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-05": "本句指「空腹」。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。"
+        "stomach-mcq-05": "本句的「empty stomach」指「空腹」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-05"
     },
@@ -813,11 +777,9 @@ export default {
       "masked": "Coffee on an ____ makes me uncomfortable.",
       "options": [
         "stomach-mcq-05",
-        "stomach-mcq-04",
-        "stomach-mcq-06",
-        "stomach-mcq-03",
+        "stomach-mcq-02",
         "stomach-mcq-07",
-        "stomach-mcq-02"
+        "stomach-mcq-11"
       ],
       "explanation": "本句的「empty stomach」指「空腹」。",
       "sentenceIndex": 12,
@@ -826,12 +788,10 @@ export default {
         "empty stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-05": "本句指「空腹」。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-02": "「趴着；俯臥」是「lie on your stomach」的用法，與本句語境不同。"
+        "stomach-mcq-05": "本句的「empty stomach」指「空腹」。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-05"
     },
@@ -843,11 +803,9 @@ export default {
       "masked": "It's hard to exercise on a ____.",
       "options": [
         "stomach-mcq-06",
-        "stomach-mcq-05",
-        "stomach-mcq-07",
-        "stomach-mcq-04",
-        "stomach-mcq-08",
-        "stomach-mcq-03"
+        "stomach-mcq-02",
+        "stomach-mcq-16",
+        "stomach-mcq-14"
       ],
       "explanation": "本句的「full stomach」指「飽腹」。",
       "sentenceIndex": 13,
@@ -856,12 +814,10 @@ export default {
         "full stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-06": "本句指「飽腹」。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。"
+        "stomach-mcq-06": "本句的「full stomach」指「飽腹」。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-06"
     },
@@ -873,11 +829,9 @@ export default {
       "masked": "I fell asleep with a ____.",
       "options": [
         "stomach-mcq-06",
-        "stomach-mcq-05",
-        "stomach-mcq-07",
-        "stomach-mcq-04",
-        "stomach-mcq-08",
-        "stomach-mcq-03"
+        "stomach-mcq-11",
+        "stomach-mcq-13",
+        "stomach-mcq-09"
       ],
       "explanation": "本句的「full stomach」指「飽腹」。",
       "sentenceIndex": 14,
@@ -886,12 +840,10 @@ export default {
         "full stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-06": "本句指「飽腹」。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-03": "「胃痛／腹痛」是「stomach pain」的用法，與本句語境不同。"
+        "stomach-mcq-06": "本句的「full stomach」指「飽腹」。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-06"
     },
@@ -903,11 +855,9 @@ export default {
       "masked": "I have an ____.",
       "options": [
         "stomach-mcq-07",
-        "stomach-mcq-06",
-        "stomach-mcq-08",
-        "stomach-mcq-05",
+        "stomach-reviewed-8908ac1daa",
         "stomach-mcq-09",
-        "stomach-mcq-04"
+        "stomach-mcq-05"
       ],
       "explanation": "本句的「upset stomach」指「腸胃不適」。",
       "sentenceIndex": 15,
@@ -916,12 +866,10 @@ export default {
         "upset stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-07": "本句指「腸胃不適」。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。"
+        "stomach-mcq-07": "本句的「upset stomach」指「腸胃不適」。",
+        "stomach-reviewed-8908ac1daa": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-07"
     },
@@ -933,11 +881,9 @@ export default {
       "masked": "The food gave him an ____.",
       "options": [
         "stomach-mcq-07",
-        "stomach-mcq-06",
-        "stomach-mcq-08",
-        "stomach-mcq-05",
+        "stomach-mcq-02",
         "stomach-mcq-09",
-        "stomach-mcq-04"
+        "stomach-mcq-14"
       ],
       "explanation": "本句的「upset stomach」指「腸胃不適」。",
       "sentenceIndex": 16,
@@ -946,12 +892,10 @@ export default {
         "upset stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-07": "本句指「腸胃不適」。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-04": "「胃痛；肚痛」是「stomachache」的用法，與本句語境不同。"
+        "stomach-mcq-07": "本句的「upset stomach」指「腸胃不適」。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-07"
     },
@@ -963,11 +907,9 @@ export default {
       "masked": "I felt ____.",
       "options": [
         "stomach-mcq-08",
-        "stomach-mcq-07",
-        "stomach-mcq-09",
-        "stomach-mcq-06",
-        "stomach-mcq-10",
-        "stomach-mcq-05"
+        "stomach-mcq-13",
+        "stomach-mcq-01",
+        "stomach-mcq-11"
       ],
       "explanation": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
       "sentenceIndex": 17,
@@ -976,12 +918,10 @@ export default {
         "a knot in my stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-08": "本句指「胃裏一緊；心裏揪住」。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。"
+        "stomach-mcq-08": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-08"
     },
@@ -993,11 +933,9 @@ export default {
       "masked": "I get ____ before important interviews.",
       "options": [
         "stomach-mcq-08",
-        "stomach-mcq-07",
-        "stomach-mcq-09",
-        "stomach-mcq-06",
-        "stomach-mcq-10",
-        "stomach-mcq-05"
+        "stomach-mcq-01",
+        "stomach-mcq-14",
+        "stomach-mcq-02"
       ],
       "explanation": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
       "sentenceIndex": 18,
@@ -1006,12 +944,10 @@ export default {
         "a knot in my stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-08": "本句指「胃裏一緊；心裏揪住」。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。"
+        "stomach-mcq-08": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-08"
     },
@@ -1023,11 +959,9 @@ export default {
       "masked": "The accusation left me with ____.",
       "options": [
         "stomach-mcq-08",
-        "stomach-mcq-07",
-        "stomach-mcq-09",
-        "stomach-mcq-06",
-        "stomach-mcq-10",
-        "stomach-mcq-05"
+        "stomach-mcq-17",
+        "stomach-mcq-14",
+        "stomach-mcq-06"
       ],
       "explanation": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
       "sentenceIndex": 19,
@@ -1036,12 +970,10 @@ export default {
         "a knot in my stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-08": "本句指「胃裏一緊；心裏揪住」。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-05": "「空腹」是「empty stomach」的用法，與本句語境不同。"
+        "stomach-mcq-08": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
+        "stomach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-08"
     },
@@ -1053,11 +985,9 @@ export default {
       "masked": "I always get ____ before going on stage.",
       "options": [
         "stomach-mcq-09",
-        "stomach-mcq-08",
-        "stomach-mcq-10",
-        "stomach-mcq-07",
-        "stomach-mcq-11",
-        "stomach-mcq-06"
+        "stomach-mcq-18",
+        "stomach-reviewed-8908ac1daa",
+        "stomach-mcq-05"
       ],
       "explanation": "本句的「butterflies in my stomach」指「緊張又興奮」。",
       "sentenceIndex": 20,
@@ -1066,12 +996,10 @@ export default {
         "butterflies in my stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-09": "本句指「緊張又興奮」。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-09": "本句的「butterflies in my stomach」指「緊張又興奮」。",
+        "stomach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stomach-reviewed-8908ac1daa": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-09"
     },
@@ -1083,11 +1011,9 @@ export default {
       "masked": "She had ____ before the date.",
       "options": [
         "stomach-mcq-09",
-        "stomach-mcq-08",
+        "stomach-mcq-16",
         "stomach-mcq-10",
-        "stomach-mcq-07",
-        "stomach-mcq-11",
-        "stomach-mcq-06"
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「butterflies in her stomach」指「緊張又興奮」。",
       "sentenceIndex": 21,
@@ -1096,12 +1022,10 @@ export default {
         "butterflies in her stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-09": "本句指「緊張又興奮」。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-06": "「飽腹」是「full stomach」的用法，與本句語境不同。"
+        "stomach-mcq-09": "本句的「butterflies in her stomach」指「緊張又興奮」。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-09"
     },
@@ -1113,11 +1037,9 @@ export default {
       "masked": "I don't have much ____ today.",
       "options": [
         "stomach-mcq-10",
-        "stomach-mcq-09",
-        "stomach-mcq-11",
-        "stomach-mcq-08",
-        "stomach-mcq-12",
-        "stomach-mcq-07"
+        "stomach-mcq-01",
+        "stomach-reviewed-8908ac1daa",
+        "stomach-mcq-16"
       ],
       "explanation": "本句的「stomach for food」指「沒胃口」。",
       "sentenceIndex": 22,
@@ -1126,12 +1048,10 @@ export default {
         "stomach for food"
       ],
       "optionReasons": {
-        "stomach-mcq-10": "本句指「沒胃口」。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。"
+        "stomach-mcq-10": "本句的「stomach for food」指「沒胃口」。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stomach-reviewed-8908ac1daa": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-10"
     },
@@ -1143,11 +1063,9 @@ export default {
       "masked": "After seeing that, I had no ____.",
       "options": [
         "stomach-mcq-10",
-        "stomach-mcq-09",
-        "stomach-mcq-11",
-        "stomach-mcq-08",
-        "stomach-mcq-12",
-        "stomach-mcq-07"
+        "stomach-mcq-05",
+        "stomach-mcq-17",
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「stomach for dinner」指「沒胃口」。",
       "sentenceIndex": 23,
@@ -1156,12 +1074,10 @@ export default {
         "stomach for dinner"
       ],
       "optionReasons": {
-        "stomach-mcq-10": "本句指「沒胃口」。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-07": "「腸胃不適」是「upset stomach」的用法，與本句語境不同。"
+        "stomach-mcq-10": "本句的「stomach for dinner」指「沒胃口」。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-10"
     },
@@ -1173,11 +1089,9 @@ export default {
       "masked": "I have no ____.",
       "options": [
         "stomach-mcq-11",
-        "stomach-mcq-10",
-        "stomach-mcq-12",
         "stomach-mcq-09",
-        "stomach-mcq-13",
-        "stomach-mcq-08"
+        "stomach-mcq-12",
+        "stomach-mcq-16"
       ],
       "explanation": "本句的「stomach for another argument」指「沒膽量／沒意願面對 X」。",
       "sentenceIndex": 24,
@@ -1186,12 +1100,10 @@ export default {
         "stomach for another argument"
       ],
       "optionReasons": {
-        "stomach-mcq-11": "本句指「沒膽量／沒意願面對 X」。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。"
+        "stomach-mcq-11": "本句的「stomach for another argument」指「沒膽量／沒意願面對 X」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-11"
     },
@@ -1203,11 +1115,9 @@ export default {
       "masked": "He had no ____.",
       "options": [
         "stomach-mcq-11",
-        "stomach-mcq-10",
-        "stomach-mcq-12",
         "stomach-mcq-09",
-        "stomach-mcq-13",
-        "stomach-mcq-08"
+        "stomach-mcq-06",
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「stomach for a fight」指「沒膽量／沒意願面對 X」。",
       "sentenceIndex": 25,
@@ -1216,12 +1126,10 @@ export default {
         "stomach for a fight"
       ],
       "optionReasons": {
-        "stomach-mcq-11": "本句指「沒膽量／沒意願面對 X」。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-08": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。"
+        "stomach-mcq-11": "本句的「stomach for a fight」指「沒膽量／沒意願面對 X」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-11"
     },
@@ -1233,11 +1141,9 @@ export default {
       "masked": "You need a strong ____.",
       "options": [
         "stomach-mcq-12",
-        "stomach-mcq-11",
-        "stomach-mcq-13",
-        "stomach-mcq-10",
-        "stomach-mcq-14",
-        "stomach-mcq-09"
+        "stomach-mcq-16",
+        "stomach-mcq-09",
+        "stomach-mcq-11"
       ],
       "explanation": "本句的「stomach for this kind of work」指「有承受力面對 X」。",
       "sentenceIndex": 26,
@@ -1246,12 +1152,10 @@ export default {
         "stomach for this kind of work"
       ],
       "optionReasons": {
-        "stomach-mcq-12": "本句指「有承受力面對 X」。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。"
+        "stomach-mcq-12": "本句的「stomach for this kind of work」指「有承受力面對 X」。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-12"
     },
@@ -1263,11 +1167,9 @@ export default {
       "masked": "Not everyone has the ____.",
       "options": [
         "stomach-mcq-12",
-        "stomach-mcq-11",
-        "stomach-mcq-13",
-        "stomach-mcq-10",
-        "stomach-mcq-14",
-        "stomach-mcq-09"
+        "stomach-mcq-01",
+        "stomach-mcq-15",
+        "stomach-mcq-11"
       ],
       "explanation": "本句的「stomach for confrontation」指「有承受力面對 X」。",
       "sentenceIndex": 27,
@@ -1276,12 +1178,10 @@ export default {
         "stomach for confrontation"
       ],
       "optionReasons": {
-        "stomach-mcq-12": "本句指「有承受力面對 X」。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-09": "「緊張又興奮」是「butterflies in your stomach」的用法，與本句語境不同。"
+        "stomach-mcq-12": "本句的「stomach for confrontation」指「有承受力面對 X」。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-12"
     },
@@ -1293,11 +1193,9 @@ export default {
       "masked": "I can't ____.",
       "options": [
         "stomach-mcq-13",
-        "stomach-mcq-12",
-        "stomach-mcq-14",
-        "stomach-mcq-11",
-        "stomach-mcq-15",
-        "stomach-mcq-10"
+        "stomach-mcq-02",
+        "stomach-mcq-18",
+        "stomach-mcq-05"
       ],
       "explanation": "本句的「stomach his dishonesty」指「忍受；接受」。",
       "sentenceIndex": 28,
@@ -1306,12 +1204,10 @@ export default {
         "stomach his dishonesty"
       ],
       "optionReasons": {
-        "stomach-mcq-13": "本句指「忍受；接受」。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。"
+        "stomach-mcq-13": "本句的「stomach his dishonesty」指「忍受；接受」。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-13"
     },
@@ -1323,11 +1219,9 @@ export default {
       "masked": "She couldn't ____ of working with him again.",
       "options": [
         "stomach-mcq-13",
-        "stomach-mcq-12",
-        "stomach-mcq-14",
-        "stomach-mcq-11",
-        "stomach-mcq-15",
-        "stomach-mcq-10"
+        "stomach-mcq-08",
+        "stomach-mcq-06",
+        "stomach-mcq-11"
       ],
       "explanation": "本句的「stomach the idea」指「忍受；接受」。",
       "sentenceIndex": 29,
@@ -1336,12 +1230,10 @@ export default {
         "stomach the idea"
       ],
       "optionReasons": {
-        "stomach-mcq-13": "本句指「忍受；接受」。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-10": "「沒胃口」是「no stomach for food」的用法，與本句語境不同。"
+        "stomach-mcq-13": "本句的「stomach the idea」指「忍受；接受」。",
+        "stomach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-13"
     },
@@ -1353,10 +1245,8 @@ export default {
       "masked": "I can't ____.",
       "options": [
         "stomach-mcq-14",
-        "stomach-mcq-13",
-        "stomach-mcq-15",
-        "stomach-mcq-12",
         "stomach-mcq-16",
+        "stomach-mcq-01",
         "stomach-mcq-11"
       ],
       "explanation": "本句的「stomach that kind of behaviour」指「受不了 X」。",
@@ -1366,12 +1256,10 @@ export default {
         "stomach that kind of behaviour"
       ],
       "optionReasons": {
-        "stomach-mcq-14": "本句指「受不了 X」。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。"
+        "stomach-mcq-14": "本句的「stomach that kind of behaviour」指「受不了 X」。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-14"
     },
@@ -1383,11 +1271,9 @@ export default {
       "masked": "He couldn't ____.",
       "options": [
         "stomach-mcq-14",
-        "stomach-mcq-13",
-        "stomach-mcq-15",
-        "stomach-mcq-12",
-        "stomach-mcq-16",
-        "stomach-mcq-11"
+        "stomach-mcq-09",
+        "stomach-mcq-18",
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「stomach the hypocrisy」指「受不了 X」。",
       "sentenceIndex": 31,
@@ -1396,12 +1282,10 @@ export default {
         "stomach the hypocrisy"
       ],
       "optionReasons": {
-        "stomach-mcq-14": "本句指「受不了 X」。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-11": "「沒膽量／沒意願面對 X」是「have no stomach for X」的用法，與本句語境不同。"
+        "stomach-mcq-14": "本句的「stomach the hypocrisy」指「受不了 X」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-14"
     },
@@ -1413,11 +1297,9 @@ export default {
       "masked": "The smell ____.",
       "options": [
         "stomach-mcq-15",
-        "stomach-mcq-14",
-        "stomach-mcq-16",
-        "stomach-mcq-13",
-        "stomach-mcq-17",
-        "stomach-mcq-12"
+        "stomach-mcq-11",
+        "stomach-mcq-09",
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「turned my stomach」指「令人反胃」。",
       "sentenceIndex": 32,
@@ -1426,12 +1308,10 @@ export default {
         "turned my stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-15": "本句指「令人反胃」。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。"
+        "stomach-mcq-15": "本句的「turned my stomach」指「令人反胃」。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-15"
     },
@@ -1443,11 +1323,9 @@ export default {
       "masked": "The sight was enough to ____.",
       "options": [
         "stomach-mcq-15",
-        "stomach-mcq-14",
-        "stomach-mcq-16",
-        "stomach-mcq-13",
-        "stomach-mcq-17",
-        "stomach-mcq-12"
+        "stomach-reviewed-8908ac1daa",
+        "stomach-mcq-05",
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「turn your stomach」指「令人反胃」。",
       "sentenceIndex": 33,
@@ -1456,12 +1334,10 @@ export default {
         "turn your stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-15": "本句指「令人反胃」。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-12": "「有承受力面對 X」是「have the stomach for X」的用法，與本句語境不同。"
+        "stomach-mcq-15": "本句的「turn your stomach」指「令人反胃」。",
+        "stomach-reviewed-8908ac1daa": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-15"
     },
@@ -1473,11 +1349,9 @@ export default {
       "masked": "The smell ____.",
       "options": [
         "stomach-mcq-16",
-        "stomach-mcq-15",
-        "stomach-mcq-17",
-        "stomach-mcq-14",
-        "stomach-mcq-18",
-        "stomach-mcq-13"
+        "stomach-mcq-09",
+        "stomach-mcq-04",
+        "stomach-reviewed-8908ac1daa"
       ],
       "explanation": "本句的「made my stomach turn」指「令人噁心／反感」。",
       "sentenceIndex": 34,
@@ -1486,12 +1360,10 @@ export default {
         "made my stomach turn"
       ],
       "optionReasons": {
-        "stomach-mcq-16": "本句指「令人噁心／反感」。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。"
+        "stomach-mcq-16": "本句的「made my stomach turn」指「令人噁心／反感」。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stomach-reviewed-8908ac1daa": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-16"
     },
@@ -1503,11 +1375,9 @@ export default {
       "masked": "The cruelty in the story ____.",
       "options": [
         "stomach-mcq-16",
-        "stomach-mcq-15",
-        "stomach-mcq-17",
-        "stomach-mcq-14",
-        "stomach-mcq-18",
-        "stomach-mcq-13"
+        "stomach-mcq-13",
+        "stomach-mcq-10",
+        "stomach-mcq-06"
       ],
       "explanation": "本句的「made my stomach turn」指「令人噁心／反感」。",
       "sentenceIndex": 35,
@@ -1516,12 +1386,10 @@ export default {
         "made my stomach turn"
       ],
       "optionReasons": {
-        "stomach-mcq-16": "本句指「令人噁心／反感」。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-13": "「忍受；接受」是「stomach (verb)」的用法，與本句語境不同。"
+        "stomach-mcq-16": "本句的「made my stomach turn」指「令人噁心／反感」。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-16"
     },
@@ -1533,11 +1401,9 @@ export default {
       "masked": "The documentary included some ____.",
       "options": [
         "stomach-mcq-17",
-        "stomach-mcq-16",
-        "stomach-mcq-18",
-        "stomach-mcq-15",
-        "stomach-mcq-19",
-        "stomach-mcq-14"
+        "stomach-mcq-05",
+        "stomach-mcq-08",
+        "stomach-mcq-13"
       ],
       "explanation": "本句的「stomach-churning scenes」指「令人作嘔／極度不安的」。",
       "sentenceIndex": 36,
@@ -1546,12 +1412,10 @@ export default {
         "stomach-churning scenes"
       ],
       "optionReasons": {
-        "stomach-mcq-17": "本句指「令人作嘔／極度不安的」。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-19": "「消化系統中接收和消化食物的器官」是「1. stomach（胃） — 胃」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-17": "本句的「stomach-churning scenes」指「令人作嘔／極度不安的」。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-17"
     },
@@ -1563,11 +1427,9 @@ export default {
       "masked": "It was a ____.",
       "options": [
         "stomach-mcq-17",
-        "stomach-mcq-16",
-        "stomach-mcq-18",
-        "stomach-mcq-15",
-        "stomach-mcq-19",
-        "stomach-mcq-14"
+        "stomach-mcq-14",
+        "stomach-mcq-11",
+        "stomach-mcq-19"
       ],
       "explanation": "本句的「stomach-churning experience」指「令人作嘔／極度不安的」。",
       "sentenceIndex": 37,
@@ -1576,12 +1438,10 @@ export default {
         "stomach-churning experience"
       ],
       "optionReasons": {
-        "stomach-mcq-17": "本句指「令人作嘔／極度不安的」。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-18": "「令人反胃的」是「stomach-turning」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-19": "「消化系統中接收和消化食物的器官」是「1. stomach（胃） — 胃」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-17": "本句的「stomach-churning experience」指「令人作嘔／極度不安的」。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-17"
     },
@@ -1593,11 +1453,9 @@ export default {
       "masked": "The smell was ____.",
       "options": [
         "stomach-mcq-18",
-        "stomach-mcq-17",
         "stomach-mcq-19",
-        "stomach-mcq-16",
-        "stomach-mcq-15",
-        "stomach-mcq-14"
+        "stomach-mcq-11",
+        "stomach-mcq-06"
       ],
       "explanation": "本句的「stomach-turning」指「令人反胃的」。",
       "sentenceIndex": 38,
@@ -1606,12 +1464,10 @@ export default {
         "stomach-turning"
       ],
       "optionReasons": {
-        "stomach-mcq-18": "本句指「令人反胃的」。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-19": "「消化系統中接收和消化食物的器官」是「1. stomach（胃） — 胃」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-18": "本句的「stomach-turning」指「令人反胃的」。",
+        "stomach-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-18"
     },
@@ -1623,10 +1479,8 @@ export default {
       "masked": "The report contained some ____.",
       "options": [
         "stomach-mcq-18",
-        "stomach-mcq-17",
-        "stomach-mcq-19",
-        "stomach-mcq-16",
-        "stomach-mcq-15",
+        "stomach-mcq-05",
+        "stomach-mcq-02",
         "stomach-mcq-14"
       ],
       "explanation": "本句的「stomach-turning details」指「令人反胃的」。",
@@ -1636,74 +1490,68 @@ export default {
         "stomach-turning details"
       ],
       "optionReasons": {
-        "stomach-mcq-18": "本句指「令人反胃的」。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-19": "「消化系統中接收和消化食物的器官」是「1. stomach（胃） — 胃」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-mcq-18": "本句的「stomach-turning details」指「令人反胃的」。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "stomach-mcq-18"
     },
     {
       "id": "stomach-20-0",
-      "sense": "stomach-mcq-18",
+      "sense": "stomach-reviewed-8908ac1daa",
       "en": "He didn't have the stomach to continue.",
       "zh": "他沒有足夠膽量／心理承受力繼續下去。",
       "masked": "He didn't have the ____ to continue.",
       "options": [
-        "stomach-mcq-18",
-        "stomach-mcq-17",
-        "stomach-mcq-19",
+        "stomach-reviewed-8908ac1daa",
+        "stomach-mcq-04",
         "stomach-mcq-16",
-        "stomach-mcq-15",
-        "stomach-mcq-14"
+        "stomach-mcq-02"
       ],
-      "explanation": "本句的「stomach」指「令人反胃的」。",
+      "explanation": "對照完整句子：「他沒有足夠膽量／心理承受力繼續下去。」。這裡的「stomach」表示「膽量；承受力」。",
       "sentenceIndex": 40,
       "sourcePractice": 1,
       "targets": [
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-18": "本句指「令人反胃的」。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-19": "「消化系統中接收和消化食物的器官」是「1. stomach（胃） — 胃」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-reviewed-8908ac1daa": "對照完整句子：「他沒有足夠膽量／心理承受力繼續下去。」。這裡的「stomach」表示「膽量；承受力」。",
+        "stomach-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "stomach-mcq-18"
+      "correctOption": "stomach-reviewed-8908ac1daa",
+      "previousCorrectOption": "stomach-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "stomach-20-1",
-      "sense": "stomach-mcq-18",
+      "sense": "stomach-reviewed-8908ac1daa",
       "en": "It takes some stomach to face that kind of criticism.",
       "zh": "要面對那種批評，需要相當的心理承受力。",
       "masked": "It takes some ____ to face that kind of criticism.",
       "options": [
-        "stomach-mcq-18",
-        "stomach-mcq-17",
-        "stomach-mcq-19",
-        "stomach-mcq-16",
-        "stomach-mcq-15",
-        "stomach-mcq-14"
+        "stomach-reviewed-8908ac1daa",
+        "stomach-mcq-10",
+        "stomach-mcq-09",
+        "stomach-mcq-05"
       ],
-      "explanation": "本句的「stomach」指「令人反胃的」。",
+      "explanation": "對照完整句子：「要面對那種批評，需要相當的心理承受力。」。這裡的「stomach」表示「膽量；承受力」。",
       "sentenceIndex": 41,
       "sourcePractice": 2,
       "targets": [
         "stomach"
       ],
       "optionReasons": {
-        "stomach-mcq-18": "本句指「令人反胃的」。",
-        "stomach-mcq-17": "「令人作嘔／極度不安的」是「stomach-churning」的用法，與本句語境不同。",
-        "stomach-mcq-19": "「消化系統中接收和消化食物的器官」是「1. stomach（胃） — 胃」的用法，與本句語境不同。",
-        "stomach-mcq-16": "「令人噁心／反感」是「make your stomach turn」的用法，與本句語境不同。",
-        "stomach-mcq-15": "「令人反胃」是「turn your stomach」的用法，與本句語境不同。",
-        "stomach-mcq-14": "「受不了 X」是「can't stomach X」的用法，與本句語境不同。"
+        "stomach-reviewed-8908ac1daa": "對照完整句子：「要面對那種批評，需要相當的心理承受力。」。這裡的「stomach」表示「膽量；承受力」。",
+        "stomach-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "stomach-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "stomach-mcq-18"
+      "correctOption": "stomach-reviewed-8908ac1daa",
+      "previousCorrectOption": "stomach-mcq-18",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     }
   ],
   "comparisons": [],
@@ -1713,5 +1561,7 @@ export default {
     "sha256": "404441296e65051ca06450078de7ad65c8279cd0dba5ded8db4961937711ddbb",
     "pages": 17
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

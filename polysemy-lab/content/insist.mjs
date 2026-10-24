@@ -424,11 +424,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "insist-mcq-01",
-        "insist-mcq-02",
-        "insist-mcq-03",
-        "insist-mcq-04",
-        "insist-mcq-05",
-        "insist-mcq-06"
+        "insist-mcq-12",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insists on making tea and cutting fruit for everyone」指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
       "sentenceIndex": 0,
@@ -437,12 +434,9 @@ export default {
         "insists on making tea and cutting fruit for everyone"
       ],
       "optionReasons": {
-        "insist-mcq-01": "本句指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-01": "本句的「insists on making tea and cutting fruit for everyone」指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-01"
     },
@@ -454,11 +448,8 @@ export default {
       "masked": "He ____ for dinner.",
       "options": [
         "insist-mcq-01",
-        "insist-mcq-02",
-        "insist-mcq-03",
-        "insist-mcq-04",
-        "insist-mcq-05",
-        "insist-mcq-06"
+        "insist-mcq-12",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted on paying」指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
       "sentenceIndex": 1,
@@ -467,12 +458,9 @@ export default {
         "insisted on paying"
       ],
       "optionReasons": {
-        "insist-mcq-01": "本句指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-01": "本句的「insisted on paying」指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-01"
     },
@@ -484,11 +472,8 @@ export default {
       "masked": "She ____ the bags herself.",
       "options": [
         "insist-mcq-01",
-        "insist-mcq-02",
-        "insist-mcq-03",
-        "insist-mcq-04",
-        "insist-mcq-05",
-        "insist-mcq-06"
+        "insist-mcq-12",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted on carrying」指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
       "sentenceIndex": 2,
@@ -497,12 +482,9 @@ export default {
         "insisted on carrying"
       ],
       "optionReasons": {
-        "insist-mcq-01": "本句指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-01": "本句的「insisted on carrying」指「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-01"
     },
@@ -514,11 +496,7 @@ export default {
       "masked": "She ____.",
       "options": [
         "insist-mcq-02",
-        "insist-mcq-01",
-        "insist-mcq-03",
-        "insist-mcq-04",
-        "insist-mcq-05",
-        "insist-mcq-06"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted on an apology」指「強烈而堅定地要求某件事／結果必須提供或發生」。",
       "sentenceIndex": 3,
@@ -527,12 +505,8 @@ export default {
         "insisted on an apology"
       ],
       "optionReasons": {
-        "insist-mcq-02": "本句指「強烈而堅定地要求某件事／結果必須提供或發生」。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-02": "本句的「insisted on an apology」指「強烈而堅定地要求某件事／結果必須提供或發生」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-02"
     },
@@ -544,11 +518,7 @@ export default {
       "masked": "The customer ____.",
       "options": [
         "insist-mcq-02",
-        "insist-mcq-01",
-        "insist-mcq-03",
-        "insist-mcq-04",
-        "insist-mcq-05",
-        "insist-mcq-06"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted on a refund」指「強烈而堅定地要求某件事／結果必須提供或發生」。",
       "sentenceIndex": 4,
@@ -557,12 +527,8 @@ export default {
         "insisted on a refund"
       ],
       "optionReasons": {
-        "insist-mcq-02": "本句指「強烈而堅定地要求某件事／結果必須提供或發生」。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-02": "本句的「insisted on a refund」指「強烈而堅定地要求某件事／結果必須提供或發生」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-02"
     },
@@ -574,11 +540,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "insist-mcq-03",
-        "insist-mcq-02",
-        "insist-mcq-04",
-        "insist-mcq-01",
-        "insist-mcq-05",
-        "insist-mcq-06"
+        "insist-mcq-10",
+        "insist-mcq-16"
       ],
       "explanation": "本句的「insisted that she was fine」指「即使別人懷疑或不同意，仍堅定地聲稱某事為真」。",
       "sentenceIndex": 5,
@@ -587,12 +550,9 @@ export default {
         "insisted that she was fine"
       ],
       "optionReasons": {
-        "insist-mcq-03": "本句指「即使別人懷疑或不同意，仍堅定地聲稱某事為真」。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-03": "本句的「insisted that she was fine」指「即使別人懷疑或不同意，仍堅定地聲稱某事為真」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-03"
     },
@@ -604,10 +564,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "insist-mcq-03",
-        "insist-mcq-02",
-        "insist-mcq-04",
-        "insist-mcq-01",
-        "insist-mcq-05",
+        "insist-mcq-10",
+        "insist-mcq-12",
         "insist-mcq-06"
       ],
       "explanation": "本句的「insisted that the report was accurate」指「即使別人懷疑或不同意，仍堅定地聲稱某事為真」。",
@@ -617,12 +575,10 @@ export default {
         "insisted that the report was accurate"
       ],
       "optionReasons": {
-        "insist-mcq-03": "本句指「即使別人懷疑或不同意，仍堅定地聲稱某事為真」。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-03": "本句的「insisted that the report was accurate」指「即使別人懷疑或不同意，仍堅定地聲稱某事為真」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-03"
     },
@@ -634,11 +590,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "insist-mcq-14",
-        "insist-mcq-13",
-        "insist-mcq-15",
-        "insist-mcq-12",
-        "insist-mcq-16",
-        "insist-mcq-11"
+        "insist-mcq-09",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted that she had locked the door」指「對某個事實／說法保持非常堅定的立場」。",
       "sentenceIndex": 7,
@@ -647,12 +600,9 @@ export default {
         "insisted that she had locked the door"
       ],
       "optionReasons": {
-        "insist-mcq-14": "本句指「對某個事實／說法保持非常堅定的立場」。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-16": "「對某個選擇有強烈要求，不願接受替代方案」是「11. insist = press strongly for a preferred choice（執意要求） — 執意；強烈要求」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。"
+        "insist-mcq-14": "本句的「insisted that she had locked the door」指「對某個事實／說法保持非常堅定的立場」。",
+        "insist-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-14"
     },
@@ -664,11 +614,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "insist-mcq-14",
-        "insist-mcq-13",
         "insist-mcq-15",
-        "insist-mcq-12",
-        "insist-mcq-16",
-        "insist-mcq-11"
+        "insist-mcq-10",
+        "insist-mcq-13"
       ],
       "explanation": "本句的「insists that he never received the message」指「對某個事實／說法保持非常堅定的立場」。",
       "sentenceIndex": 8,
@@ -677,12 +625,10 @@ export default {
         "insists that he never received the message"
       ],
       "optionReasons": {
-        "insist-mcq-14": "本句指「對某個事實／說法保持非常堅定的立場」。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-16": "「對某個選擇有強烈要求，不願接受替代方案」是「11. insist = press strongly for a preferred choice（執意要求） — 執意；強烈要求」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。"
+        "insist-mcq-14": "本句的「insists that he never received the message」指「對某個事實／說法保持非常堅定的立場」。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-14"
     },
@@ -694,11 +640,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "insist-mcq-04",
-        "insist-mcq-03",
-        "insist-mcq-05",
-        "insist-mcq-02",
-        "insist-mcq-06",
-        "insist-mcq-01"
+        "insist-mcq-10",
+        "insist-mcq-14"
       ],
       "explanation": "本句的「insisted that I sit down」指「強烈要求某人採取指定行動」。",
       "sentenceIndex": 9,
@@ -707,12 +650,9 @@ export default {
         "insisted that I sit down"
       ],
       "optionReasons": {
-        "insist-mcq-04": "本句指「強烈要求某人採取指定行動」。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。"
+        "insist-mcq-04": "本句的「insisted that I sit down」指「強烈要求某人採取指定行動」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-04"
     },
@@ -724,11 +664,8 @@ export default {
       "masked": "The doctor ____.",
       "options": [
         "insist-mcq-04",
-        "insist-mcq-03",
-        "insist-mcq-05",
-        "insist-mcq-02",
-        "insist-mcq-06",
-        "insist-mcq-01"
+        "insist-mcq-10",
+        "insist-mcq-14"
       ],
       "explanation": "本句的「insisted that he rest」指「強烈要求某人採取指定行動」。",
       "sentenceIndex": 10,
@@ -737,12 +674,9 @@ export default {
         "insisted that he rest"
       ],
       "optionReasons": {
-        "insist-mcq-04": "本句指「強烈要求某人採取指定行動」。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。"
+        "insist-mcq-04": "本句的「insisted that he rest」指「強烈要求某人採取指定行動」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-04"
     },
@@ -754,11 +688,8 @@ export default {
       "masked": "They ____ on time.",
       "options": [
         "insist-mcq-04",
-        "insist-mcq-03",
-        "insist-mcq-05",
-        "insist-mcq-02",
-        "insist-mcq-06",
-        "insist-mcq-01"
+        "insist-mcq-10",
+        "insist-mcq-17"
       ],
       "explanation": "本句的「insisted that the meeting begin」指「強烈要求某人採取指定行動」。",
       "sentenceIndex": 11,
@@ -767,12 +698,9 @@ export default {
         "insisted that the meeting begin"
       ],
       "optionReasons": {
-        "insist-mcq-04": "本句指「強烈要求某人採取指定行動」。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。"
+        "insist-mcq-04": "本句的「insisted that the meeting begin」指「強烈要求某人採取指定行動」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-04"
     },
@@ -784,11 +712,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "insist-mcq-04",
-        "insist-mcq-03",
-        "insist-mcq-05",
-        "insist-mcq-02",
-        "insist-mcq-06",
-        "insist-mcq-01"
+        "insist-mcq-10",
+        "insist-mcq-17"
       ],
       "explanation": "本句的「insisted that he apologize」指「強烈要求某人採取指定行動」。",
       "sentenceIndex": 12,
@@ -797,12 +722,9 @@ export default {
         "insisted that he apologize"
       ],
       "optionReasons": {
-        "insist-mcq-04": "本句指「強烈要求某人採取指定行動」。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-01": "「即使別人有不同建議或勸阻，仍堅定地決定／要求自己要做某事」是「insist on doing」的用法，與本句語境不同。"
+        "insist-mcq-04": "本句的「insisted that he apologize」指「強烈要求某人採取指定行動」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-04"
     },
@@ -814,11 +736,7 @@ export default {
       "masked": "She ____ for dinner.",
       "options": [
         "insist-mcq-05",
-        "insist-mcq-04",
-        "insist-mcq-06",
-        "insist-mcq-03",
-        "insist-mcq-07",
-        "insist-mcq-02"
+        "insist-mcq-12"
       ],
       "explanation": "本句的「insisted on me staying」指「堅持要求某人進行某項行動」。",
       "sentenceIndex": 13,
@@ -827,12 +745,8 @@ export default {
         "insisted on me staying"
       ],
       "optionReasons": {
-        "insist-mcq-05": "本句指「堅持要求某人進行某項行動」。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。"
+        "insist-mcq-05": "本句的「insisted on me staying」指「堅持要求某人進行某項行動」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-05"
     },
@@ -844,11 +758,7 @@ export default {
       "masked": "They ____ on everyone wearing a badge.",
       "options": [
         "insist-mcq-05",
-        "insist-mcq-04",
-        "insist-mcq-06",
-        "insist-mcq-03",
-        "insist-mcq-07",
-        "insist-mcq-02"
+        "insist-mcq-12"
       ],
       "explanation": "本句的「insisted」指「堅持要求某人進行某項行動」。",
       "sentenceIndex": 14,
@@ -857,12 +767,8 @@ export default {
         "insisted"
       ],
       "optionReasons": {
-        "insist-mcq-05": "本句指「堅持要求某人進行某項行動」。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-02": "「強烈而堅定地要求某件事／結果必須提供或發生」是「insist on + noun」的用法，與本句語境不同。"
+        "insist-mcq-05": "本句的「insisted」指「堅持要求某人進行某項行動」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-05"
     },
@@ -874,11 +780,9 @@ export default {
       "masked": "The contract ____ strict confidentiality.",
       "options": [
         "insist-mcq-06",
-        "insist-mcq-05",
-        "insist-mcq-07",
-        "insist-mcq-04",
-        "insist-mcq-08",
-        "insist-mcq-03"
+        "insist-mcq-10",
+        "insist-mcq-15",
+        "insist-mcq-14"
       ],
       "explanation": "本句的「insists upon」指「insist on 的較正式形式；堅持要求」。",
       "sentenceIndex": 15,
@@ -887,12 +791,10 @@ export default {
         "insists upon"
       ],
       "optionReasons": {
-        "insist-mcq-06": "本句指「insist on 的較正式形式；堅持要求」。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。"
+        "insist-mcq-06": "本句的「insists upon」指「insist on 的較正式形式；堅持要求」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-06"
     },
@@ -904,11 +806,9 @@ export default {
       "masked": "She ____ seeing the manager.",
       "options": [
         "insist-mcq-06",
-        "insist-mcq-05",
-        "insist-mcq-07",
-        "insist-mcq-04",
-        "insist-mcq-08",
-        "insist-mcq-03"
+        "insist-mcq-10",
+        "insist-mcq-15",
+        "insist-mcq-14"
       ],
       "explanation": "本句的「insisted upon」指「insist on 的較正式形式；堅持要求」。",
       "sentenceIndex": 16,
@@ -917,12 +817,10 @@ export default {
         "insisted upon"
       ],
       "optionReasons": {
-        "insist-mcq-06": "本句指「insist on 的較正式形式；堅持要求」。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-03": "「即使別人懷疑或不同意，仍堅定地聲稱某事為真」是「insist that + statement」的用法，與本句語境不同。"
+        "insist-mcq-06": "本句的「insisted upon」指「insist on 的較正式形式；堅持要求」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-06"
     },
@@ -934,11 +832,9 @@ export default {
       "masked": "I suggested leaving early, but he ____.",
       "options": [
         "insist-mcq-07",
-        "insist-mcq-06",
-        "insist-mcq-08",
-        "insist-mcq-05",
-        "insist-mcq-09",
-        "insist-mcq-04"
+        "insist-mcq-12",
+        "insist-mcq-10",
+        "insist-mcq-03"
       ],
       "explanation": "本句的「insisted」指「面對反對仍不願改變自己的要求、決定或立場」。",
       "sentenceIndex": 17,
@@ -947,12 +843,10 @@ export default {
         "insisted"
       ],
       "optionReasons": {
-        "insist-mcq-07": "本句指「面對反對仍不願改變自己的要求、決定或立場」。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。"
+        "insist-mcq-07": "本句的「insisted」指「面對反對仍不願改變自己的要求、決定或立場」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-07"
     },
@@ -964,11 +858,9 @@ export default {
       "masked": "She ____, despite everyone’s objections.",
       "options": [
         "insist-mcq-07",
-        "insist-mcq-06",
-        "insist-mcq-08",
-        "insist-mcq-05",
-        "insist-mcq-09",
-        "insist-mcq-04"
+        "insist-mcq-10",
+        "insist-mcq-12",
+        "insist-mcq-03"
       ],
       "explanation": "本句的「insisted」指「面對反對仍不願改變自己的要求、決定或立場」。",
       "sentenceIndex": 18,
@@ -977,12 +869,10 @@ export default {
         "insisted"
       ],
       "optionReasons": {
-        "insist-mcq-07": "本句指「面對反對仍不願改變自己的要求、決定或立場」。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-04": "「強烈要求某人採取指定行動」是「insist that someone do」的用法，與本句語境不同。"
+        "insist-mcq-07": "本句的「insisted」指「面對反對仍不願改變自己的要求、決定或立場」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-07"
     },
@@ -995,10 +885,8 @@ export default {
       "options": [
         "insist-mcq-15",
         "insist-mcq-14",
-        "insist-mcq-16",
         "insist-mcq-13",
-        "insist-mcq-17",
-        "insist-mcq-12"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insists on doing everything herself」指「即使別人可以幫忙，也強烈希望親自完成」。",
       "sentenceIndex": 19,
@@ -1007,12 +895,10 @@ export default {
         "insists on doing everything herself"
       ],
       "optionReasons": {
-        "insist-mcq-15": "本句指「即使別人可以幫忙，也強烈希望親自完成」。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-16": "「對某個選擇有強烈要求，不願接受替代方案」是「11. insist = press strongly for a preferred choice（執意要求） — 執意；強烈要求」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-17": "「在有人懷疑／反對時仍堅定維持自己的說法」是「20. insist = emphasize correctness despite disagreement（堅持認為） — 堅持認為；不改口」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。"
+        "insist-mcq-15": "本句的「insists on doing everything herself」指「即使別人可以幫忙，也強烈希望親自完成」。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-15"
     },
@@ -1024,11 +910,9 @@ export default {
       "masked": "He ____ on fixing it himself.",
       "options": [
         "insist-mcq-15",
+        "insist-mcq-10",
         "insist-mcq-14",
-        "insist-mcq-16",
-        "insist-mcq-13",
-        "insist-mcq-17",
-        "insist-mcq-12"
+        "insist-mcq-13"
       ],
       "explanation": "本句的「insisted」指「即使別人可以幫忙，也強烈希望親自完成」。",
       "sentenceIndex": 20,
@@ -1037,12 +921,10 @@ export default {
         "insisted"
       ],
       "optionReasons": {
-        "insist-mcq-15": "本句指「即使別人可以幫忙，也強烈希望親自完成」。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-16": "「對某個選擇有強烈要求，不願接受替代方案」是「11. insist = press strongly for a preferred choice（執意要求） — 執意；強烈要求」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-17": "「在有人懷疑／反對時仍堅定維持自己的說法」是「20. insist = emphasize correctness despite disagreement（堅持認為） — 堅持認為；不改口」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。"
+        "insist-mcq-15": "本句的「insisted」指「即使別人可以幫忙，也強烈希望親自完成」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-15"
     },
@@ -1054,11 +936,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "insist-mcq-16",
-        "insist-mcq-15",
-        "insist-mcq-17",
         "insist-mcq-14",
-        "insist-mcq-13",
-        "insist-mcq-12"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted on the larger room」指「對某個選擇有強烈要求，不願接受替代方案」。",
       "sentenceIndex": 21,
@@ -1067,12 +946,9 @@ export default {
         "insisted on the larger room"
       ],
       "optionReasons": {
-        "insist-mcq-16": "本句指「對某個選擇有強烈要求，不願接受替代方案」。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-17": "「在有人懷疑／反對時仍堅定維持自己的說法」是「20. insist = emphasize correctness despite disagreement（堅持認為） — 堅持認為；不改口」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。"
+        "insist-mcq-16": "本句的「insisted on the larger room」指「對某個選擇有強烈要求，不願接受替代方案」。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-16"
     },
@@ -1084,11 +960,8 @@ export default {
       "masked": "She ____ on taking the earlier train.",
       "options": [
         "insist-mcq-16",
-        "insist-mcq-15",
-        "insist-mcq-17",
-        "insist-mcq-14",
-        "insist-mcq-13",
-        "insist-mcq-12"
+        "insist-mcq-03",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insisted」指「對某個選擇有強烈要求，不願接受替代方案」。",
       "sentenceIndex": 22,
@@ -1097,12 +970,9 @@ export default {
         "insisted"
       ],
       "optionReasons": {
-        "insist-mcq-16": "本句指「對某個選擇有強烈要求，不願接受替代方案」。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-17": "「在有人懷疑／反對時仍堅定維持自己的說法」是「20. insist = emphasize correctness despite disagreement（堅持認為） — 堅持認為；不改口」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。"
+        "insist-mcq-16": "本句的「insisted」指「對某個選擇有強烈要求，不願接受替代方案」。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-16"
     },
@@ -1114,11 +984,7 @@ export default {
       "masked": "At her ____, we stayed for dinner.",
       "options": [
         "insist-mcq-08",
-        "insist-mcq-07",
-        "insist-mcq-09",
-        "insist-mcq-06",
-        "insist-mcq-10",
-        "insist-mcq-05"
+        "insist-mcq-03"
       ],
       "explanation": "本句的「insistence」指「對某項要求、立場、標準或做法所表現出的強烈堅持」。",
       "sentenceIndex": 23,
@@ -1127,12 +993,8 @@ export default {
         "insistence"
       ],
       "optionReasons": {
-        "insist-mcq-08": "本句指「對某項要求、立場、標準或做法所表現出的強烈堅持」。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。"
+        "insist-mcq-08": "本句的「insistence」指「對某項要求、立場、標準或做法所表現出的強烈堅持」。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-08"
     },
@@ -1144,11 +1006,7 @@ export default {
       "masked": "His ____ slowed the process.",
       "options": [
         "insist-mcq-08",
-        "insist-mcq-07",
-        "insist-mcq-09",
-        "insist-mcq-06",
-        "insist-mcq-10",
-        "insist-mcq-05"
+        "insist-mcq-03"
       ],
       "explanation": "本句的「insistence on accuracy」指「對某項要求、立場、標準或做法所表現出的強烈堅持」。",
       "sentenceIndex": 24,
@@ -1157,12 +1015,8 @@ export default {
         "insistence on accuracy"
       ],
       "optionReasons": {
-        "insist-mcq-08": "本句指「對某項要求、立場、標準或做法所表現出的強烈堅持」。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-05": "「堅持要求某人進行某項行動」是「insist on someone doing」的用法，與本句語境不同。"
+        "insist-mcq-08": "本句的「insistence on accuracy」指「對某項要求、立場、標準或做法所表現出的強烈堅持」。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-08"
     },
@@ -1174,11 +1028,8 @@ export default {
       "masked": "At my grandmother’s ____, I took some fruit home.",
       "options": [
         "insist-mcq-09",
-        "insist-mcq-08",
-        "insist-mcq-10",
-        "insist-mcq-07",
-        "insist-mcq-11",
-        "insist-mcq-06"
+        "insist-mcq-17",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistence」指「因某人強烈要求，所以某件事情最終發生」。",
       "sentenceIndex": 25,
@@ -1187,12 +1038,9 @@ export default {
         "insistence"
       ],
       "optionReasons": {
-        "insist-mcq-09": "本句指「因某人強烈要求，所以某件事情最終發生」。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-09": "本句的「insistence」指「因某人強烈要求，所以某件事情最終發生」。",
+        "insist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-09"
     },
@@ -1204,11 +1052,8 @@ export default {
       "masked": "The meeting was postponed at the manager’s ____.",
       "options": [
         "insist-mcq-09",
-        "insist-mcq-08",
-        "insist-mcq-10",
-        "insist-mcq-07",
-        "insist-mcq-11",
-        "insist-mcq-06"
+        "insist-mcq-17",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistence」指「因某人強烈要求，所以某件事情最終發生」。",
       "sentenceIndex": 26,
@@ -1217,12 +1062,9 @@ export default {
         "insistence"
       ],
       "optionReasons": {
-        "insist-mcq-09": "本句指「因某人強烈要求，所以某件事情最終發生」。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-06": "「insist on 的較正式形式；堅持要求」是「insist upon」的用法，與本句語境不同。"
+        "insist-mcq-09": "本句的「insistence」指「因某人強烈要求，所以某件事情最終發生」。",
+        "insist-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-09"
     },
@@ -1234,11 +1076,8 @@ export default {
       "masked": "Her ____ is well known.",
       "options": [
         "insist-mcq-10",
-        "insist-mcq-09",
-        "insist-mcq-11",
-        "insist-mcq-08",
-        "insist-mcq-12",
-        "insist-mcq-07"
+        "insist-mcq-16",
+        "insist-mcq-03"
       ],
       "explanation": "本句的「insistence on punctuality」指「對某項做法、原則或標準一直不肯放鬆」。",
       "sentenceIndex": 27,
@@ -1247,12 +1086,9 @@ export default {
         "insistence on punctuality"
       ],
       "optionReasons": {
-        "insist-mcq-10": "本句指「對某項做法、原則或標準一直不肯放鬆」。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。"
+        "insist-mcq-10": "本句的「insistence on punctuality」指「對某項做法、原則或標準一直不肯放鬆」。",
+        "insist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-10"
     },
@@ -1264,11 +1100,8 @@ export default {
       "masked": "His ____ on checking everything twice can be frustrating.",
       "options": [
         "insist-mcq-10",
-        "insist-mcq-09",
         "insist-mcq-11",
-        "insist-mcq-08",
-        "insist-mcq-12",
-        "insist-mcq-07"
+        "insist-mcq-15"
       ],
       "explanation": "本句的「insistence」指「對某項做法、原則或標準一直不肯放鬆」。",
       "sentenceIndex": 28,
@@ -1277,12 +1110,9 @@ export default {
         "insistence"
       ],
       "optionReasons": {
-        "insist-mcq-10": "本句指「對某項做法、原則或標準一直不肯放鬆」。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-07": "「面對反對仍不願改變自己的要求、決定或立場」是「insist — maintain position」的用法，與本句語境不同。"
+        "insist-mcq-10": "本句的「insistence」指「對某項做法、原則或標準一直不肯放鬆」。",
+        "insist-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-10"
     },
@@ -1294,11 +1124,8 @@ export default {
       "masked": "She was ____ that we stay for tea.",
       "options": [
         "insist-mcq-11",
-        "insist-mcq-10",
-        "insist-mcq-12",
-        "insist-mcq-09",
-        "insist-mcq-13",
-        "insist-mcq-08"
+        "insist-mcq-15",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
       "sentenceIndex": 29,
@@ -1307,12 +1134,9 @@ export default {
         "insistent"
       ],
       "optionReasons": {
-        "insist-mcq-11": "本句指「反覆而堅定地要求某事、不容易接受拒絕的」。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。"
+        "insist-mcq-11": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-11"
     },
@@ -1325,10 +1149,7 @@ export default {
       "options": [
         "insist-mcq-11",
         "insist-mcq-10",
-        "insist-mcq-12",
-        "insist-mcq-09",
-        "insist-mcq-13",
-        "insist-mcq-08"
+        "insist-mcq-12"
       ],
       "explanation": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
       "sentenceIndex": 30,
@@ -1337,12 +1158,9 @@ export default {
         "insistent"
       ],
       "optionReasons": {
-        "insist-mcq-11": "本句指「反覆而堅定地要求某事、不容易接受拒絕的」。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。"
+        "insist-mcq-11": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-11"
     },
@@ -1355,10 +1173,7 @@ export default {
       "options": [
         "insist-mcq-11",
         "insist-mcq-10",
-        "insist-mcq-12",
-        "insist-mcq-09",
-        "insist-mcq-13",
-        "insist-mcq-08"
+        "insist-mcq-15"
       ],
       "explanation": "本句的「insistent tone」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
       "sentenceIndex": 31,
@@ -1367,12 +1182,9 @@ export default {
         "insistent tone"
       ],
       "optionReasons": {
-        "insist-mcq-11": "本句指「反覆而堅定地要求某事、不容易接受拒絕的」。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。"
+        "insist-mcq-11": "本句的「insistent tone」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-11"
     },
@@ -1384,11 +1196,8 @@ export default {
       "masked": "His voice became more ____.",
       "options": [
         "insist-mcq-11",
-        "insist-mcq-10",
         "insist-mcq-12",
-        "insist-mcq-09",
-        "insist-mcq-13",
-        "insist-mcq-08"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
       "sentenceIndex": 32,
@@ -1397,12 +1206,9 @@ export default {
         "insistent"
       ],
       "optionReasons": {
-        "insist-mcq-11": "本句指「反覆而堅定地要求某事、不容易接受拒絕的」。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。"
+        "insist-mcq-11": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
+        "insist-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-11"
     },
@@ -1415,10 +1221,7 @@ export default {
       "options": [
         "insist-mcq-12",
         "insist-mcq-11",
-        "insist-mcq-13",
-        "insist-mcq-10",
-        "insist-mcq-14",
-        "insist-mcq-09"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistent knocking」指「持續、強烈而令人難以忽視的」。",
       "sentenceIndex": 33,
@@ -1427,12 +1230,9 @@ export default {
         "insistent knocking"
       ],
       "optionReasons": {
-        "insist-mcq-12": "本句指「持續、強烈而令人難以忽視的」。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。"
+        "insist-mcq-12": "本句的「insistent knocking」指「持續、強烈而令人難以忽視的」。",
+        "insist-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-12"
     },
@@ -1444,11 +1244,9 @@ export default {
       "masked": "The phone made an ____.",
       "options": [
         "insist-mcq-12",
-        "insist-mcq-11",
-        "insist-mcq-13",
-        "insist-mcq-10",
-        "insist-mcq-14",
-        "insist-mcq-09"
+        "insist-mcq-03",
+        "insist-mcq-07",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistent ringing sound」指「持續、強烈而令人難以忽視的」。",
       "sentenceIndex": 34,
@@ -1457,12 +1255,10 @@ export default {
         "insistent ringing sound"
       ],
       "optionReasons": {
-        "insist-mcq-12": "本句指「持續、強烈而令人難以忽視的」。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。"
+        "insist-mcq-12": "本句的「insistent ringing sound」指「持續、強烈而令人難以忽視的」。",
+        "insist-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-12"
     },
@@ -1474,11 +1270,9 @@ export default {
       "masked": "‘You must eat something,’ she said ____.",
       "options": [
         "insist-mcq-13",
-        "insist-mcq-12",
-        "insist-mcq-14",
-        "insist-mcq-11",
+        "insist-mcq-10",
         "insist-mcq-15",
-        "insist-mcq-10"
+        "insist-mcq-14"
       ],
       "explanation": "本句的「insistently」指「以反覆、堅決而難以忽視的方式要求／表達」。",
       "sentenceIndex": 35,
@@ -1487,12 +1281,10 @@ export default {
         "insistently"
       ],
       "optionReasons": {
-        "insist-mcq-13": "本句指「以反覆、堅決而難以忽視的方式要求／表達」。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。"
+        "insist-mcq-13": "本句的「insistently」指「以反覆、堅決而難以忽視的方式要求／表達」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-13"
     },
@@ -1504,11 +1296,9 @@ export default {
       "masked": "The child called ____ for his mother.",
       "options": [
         "insist-mcq-13",
-        "insist-mcq-12",
-        "insist-mcq-14",
-        "insist-mcq-11",
+        "insist-mcq-10",
         "insist-mcq-15",
-        "insist-mcq-10"
+        "insist-mcq-14"
       ],
       "explanation": "本句的「insistently」指「以反覆、堅決而難以忽視的方式要求／表達」。",
       "sentenceIndex": 36,
@@ -1517,12 +1307,10 @@ export default {
         "insistently"
       ],
       "optionReasons": {
-        "insist-mcq-13": "本句指「以反覆、堅決而難以忽視的方式要求／表達」。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-11": "「反覆而堅定地要求某事、不容易接受拒絕的」是「insistent — person/request」的用法，與本句語境不同。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。"
+        "insist-mcq-13": "本句的「insistently」指「以反覆、堅決而難以忽視的方式要求／表達」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-13"
     },
@@ -1535,10 +1323,7 @@ export default {
       "options": [
         "insist-mcq-11",
         "insist-mcq-10",
-        "insist-mcq-12",
-        "insist-mcq-09",
-        "insist-mcq-13",
-        "insist-mcq-08"
+        "insist-mcq-15"
       ],
       "explanation": "本句的「insistent demands」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
       "sentenceIndex": 37,
@@ -1547,12 +1332,9 @@ export default {
         "insistent demands"
       ],
       "optionReasons": {
-        "insist-mcq-11": "本句指「反覆而堅定地要求某事、不容易接受拒絕的」。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。"
+        "insist-mcq-11": "本句的「insistent demands」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-11"
     },
@@ -1564,11 +1346,8 @@ export default {
       "masked": "She made an ____ request to speak to the manager.",
       "options": [
         "insist-mcq-11",
-        "insist-mcq-10",
-        "insist-mcq-12",
-        "insist-mcq-09",
-        "insist-mcq-13",
-        "insist-mcq-08"
+        "insist-mcq-15",
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
       "sentenceIndex": 38,
@@ -1577,12 +1356,9 @@ export default {
         "insistent"
       ],
       "optionReasons": {
-        "insist-mcq-11": "本句指「反覆而堅定地要求某事、不容易接受拒絕的」。",
-        "insist-mcq-10": "「對某項做法、原則或標準一直不肯放鬆」是「insistence on」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。",
-        "insist-mcq-09": "「因某人強烈要求，所以某件事情最終發生」是「at someone’s insistence」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-08": "「對某項要求、立場、標準或做法所表現出的強烈堅持」是「insistence」的用法，與本句語境不同。"
+        "insist-mcq-11": "本句的「insistent」指「反覆而堅定地要求某事、不容易接受拒絕的」。",
+        "insist-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-11"
     },
@@ -1595,10 +1371,7 @@ export default {
       "options": [
         "insist-mcq-17",
         "insist-mcq-16",
-        "insist-mcq-15",
-        "insist-mcq-14",
-        "insist-mcq-13",
-        "insist-mcq-12"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insists」指「在有人懷疑／反對時仍堅定維持自己的說法」。",
       "sentenceIndex": 39,
@@ -1607,12 +1380,9 @@ export default {
         "insists"
       ],
       "optionReasons": {
-        "insist-mcq-17": "本句指「在有人懷疑／反對時仍堅定維持自己的說法」。",
-        "insist-mcq-16": "「對某個選擇有強烈要求，不願接受替代方案」是「11. insist = press strongly for a preferred choice（執意要求） — 執意；強烈要求」的用法，與本句語境不同。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。"
+        "insist-mcq-17": "本句的「insists」指「在有人懷疑／反對時仍堅定維持自己的說法」。",
+        "insist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-17"
     },
@@ -1625,10 +1395,7 @@ export default {
       "options": [
         "insist-mcq-17",
         "insist-mcq-16",
-        "insist-mcq-15",
-        "insist-mcq-14",
-        "insist-mcq-13",
-        "insist-mcq-12"
+        "insist-mcq-10"
       ],
       "explanation": "本句的「insists」指「在有人懷疑／反對時仍堅定維持自己的說法」。",
       "sentenceIndex": 40,
@@ -1637,12 +1404,9 @@ export default {
         "insists"
       ],
       "optionReasons": {
-        "insist-mcq-17": "本句指「在有人懷疑／反對時仍堅定維持自己的說法」。",
-        "insist-mcq-16": "「對某個選擇有強烈要求，不願接受替代方案」是「11. insist = press strongly for a preferred choice（執意要求） — 執意；強烈要求」的用法，與本句語境不同。",
-        "insist-mcq-15": "「即使別人可以幫忙，也強烈希望親自完成」是「10. insist on doing it yourself（堅持親自做） — 一定要自己做」的用法，與本句語境不同。",
-        "insist-mcq-14": "「對某個事實／說法保持非常堅定的立場」是「4. insist that something happened / is true（堅稱） — 堅持說；斷言」的用法，與本句語境不同。",
-        "insist-mcq-13": "「以反覆、堅決而難以忽視的方式要求／表達」是「insistently」的用法，與本句語境不同。",
-        "insist-mcq-12": "「持續、強烈而令人難以忽視的」是「insistent — sound/signal」的用法，與本句語境不同。"
+        "insist-mcq-17": "本句的「insists」指「在有人懷疑／反對時仍堅定維持自己的說法」。",
+        "insist-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "insist-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "insist-mcq-17"
     }
@@ -1654,5 +1418,7 @@ export default {
     "sha256": "bf98696083810022124ac1f0c9f6884757a9f81fd6636492256f4c9784139e0c",
     "pages": 23
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

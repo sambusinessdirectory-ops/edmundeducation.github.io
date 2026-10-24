@@ -857,10 +857,8 @@ export default {
       "options": [
         "structure-mcq-01",
         "structure-mcq-02",
-        "structure-mcq-03",
-        "structure-mcq-04",
-        "structure-mcq-05",
-        "structure-mcq-06"
+        "structure-mcq-15",
+        "structure-mcq-07"
       ],
       "explanation": "本句的「structure」指「建築物、構築物或物理框架」。",
       "sentenceIndex": 0,
@@ -869,12 +867,10 @@ export default {
         "structure"
       ],
       "optionReasons": {
-        "structure-mcq-01": "本句指「建築物、構築物或物理框架」。",
-        "structure-mcq-02": "「各部分彼此排列、連接和組成整體的方式」與本句語境不同。",
-        "structure-mcq-03": "「物體／系統內部的組成與排列」與本句語境不同。",
-        "structure-mcq-04": "「影響基本承重／支撐結構的損壞」與本句語境不同。",
-        "structure-mcq-05": "「結構能安全保持完整並承受預期負荷的能力」與本句語境不同。",
-        "structure-mcq-06": "「設計及分析承重結構的結構工程」與本句語境不同。"
+        "structure-mcq-01": "本句的「structure」指「建築物、構築物或物理框架」。",
+        "structure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-01"
     },
@@ -887,10 +883,8 @@ export default {
       "options": [
         "structure-mcq-02",
         "structure-mcq-01",
-        "structure-mcq-03",
-        "structure-mcq-04",
-        "structure-mcq-05",
-        "structure-mcq-06"
+        "structure-mcq-40",
+        "structure-mcq-07"
       ],
       "explanation": "本句的「structure」指「各部分彼此排列、連接和組成整體的方式」。",
       "sentenceIndex": 1,
@@ -899,12 +893,10 @@ export default {
         "structure"
       ],
       "optionReasons": {
-        "structure-mcq-02": "本句指「各部分彼此排列、連接和組成整體的方式」。",
-        "structure-mcq-01": "「建築物、構築物或物理框架」與本句語境不同。",
-        "structure-mcq-03": "「物體／系統內部的組成與排列」與本句語境不同。",
-        "structure-mcq-04": "「影響基本承重／支撐結構的損壞」與本句語境不同。",
-        "structure-mcq-05": "「結構能安全保持完整並承受預期負荷的能力」與本句語境不同。",
-        "structure-mcq-06": "「設計及分析承重結構的結構工程」與本句語境不同。"
+        "structure-mcq-02": "本句的「structure」指「各部分彼此排列、連接和組成整體的方式」。",
+        "structure-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-02"
     },
@@ -916,10 +908,8 @@ export default {
       "masked": "We need to understand how the parts fit into the overall ____.",
       "options": [
         "structure-mcq-02",
-        "structure-mcq-01",
-        "structure-mcq-03",
-        "structure-mcq-04",
-        "structure-mcq-05",
+        "structure-mcq-37",
+        "structure-mcq-13",
         "structure-mcq-06"
       ],
       "explanation": "本句的「structure」指「各部分彼此排列、連接和組成整體的方式」。",
@@ -929,12 +919,10 @@ export default {
         "structure"
       ],
       "optionReasons": {
-        "structure-mcq-02": "本句指「各部分彼此排列、連接和組成整體的方式」。",
-        "structure-mcq-01": "「建築物、構築物或物理框架」與本句語境不同。",
-        "structure-mcq-03": "「物體／系統內部的組成與排列」與本句語境不同。",
-        "structure-mcq-04": "「影響基本承重／支撐結構的損壞」與本句語境不同。",
-        "structure-mcq-05": "「結構能安全保持完整並承受預期負荷的能力」與本句語境不同。",
-        "structure-mcq-06": "「設計及分析承重結構的結構工程」與本句語境不同。"
+        "structure-mcq-02": "本句的「structure」指「各部分彼此排列、連接和組成整體的方式」。",
+        "structure-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-02"
     },
@@ -946,11 +934,9 @@ export default {
       "masked": "Engineers found several ____ defects.",
       "options": [
         "structure-mcq-06",
-        "structure-mcq-05",
-        "structure-mcq-07",
-        "structure-mcq-04",
-        "structure-mcq-08",
-        "structure-mcq-03"
+        "structure-mcq-27",
+        "structure-mcq-01",
+        "structure-mcq-20"
       ],
       "explanation": "本句的「structural」指「設計及分析承重結構的結構工程」。",
       "sentenceIndex": 3,
@@ -959,12 +945,10 @@ export default {
         "structural"
       ],
       "optionReasons": {
-        "structure-mcq-06": "本句指「設計及分析承重結構的結構工程」。",
-        "structure-mcq-05": "「結構能安全保持完整並承受預期負荷的能力」與本句語境不同。",
-        "structure-mcq-07": "「身體中可辨認的解剖構造」與本句語境不同。",
-        "structure-mcq-04": "「影響基本承重／支撐結構的損壞」與本句語境不同。",
-        "structure-mcq-08": "「機構內角色、部門、層級、匯報關係的安排」與本句語境不同。",
-        "structure-mcq-03": "「物體／系統內部的組成與排列」與本句語境不同。"
+        "structure-mcq-06": "本句的「structural」指「設計及分析承重結構的結構工程」。",
+        "structure-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-06"
     },
@@ -976,11 +960,9 @@ export default {
       "masked": "The image shows several anatomical ____.",
       "options": [
         "structure-mcq-07",
-        "structure-mcq-06",
-        "structure-mcq-08",
-        "structure-mcq-05",
-        "structure-mcq-09",
-        "structure-mcq-04"
+        "structure-mcq-20",
+        "structure-mcq-40",
+        "structure-mcq-01"
       ],
       "explanation": "本句的「structures」指「身體中可辨認的解剖構造」。",
       "sentenceIndex": 4,
@@ -989,12 +971,10 @@ export default {
         "structures"
       ],
       "optionReasons": {
-        "structure-mcq-07": "本句指「身體中可辨認的解剖構造」。",
-        "structure-mcq-06": "「設計及分析承重結構的結構工程」與本句語境不同。",
-        "structure-mcq-08": "「機構內角色、部門、層級、匯報關係的安排」與本句語境不同。",
-        "structure-mcq-05": "「結構能安全保持完整並承受預期負荷的能力」與本句語境不同。",
-        "structure-mcq-09": "「管理／匯報關係的架構」與本句語境不同。",
-        "structure-mcq-04": "「影響基本承重／支撐結構的損壞」與本句語境不同。"
+        "structure-mcq-07": "本句的「structures」指「身體中可辨認的解剖構造」。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-07"
     },
@@ -1006,11 +986,9 @@ export default {
       "masked": "The course gives students more ____.",
       "options": [
         "structure-mcq-11",
-        "structure-mcq-10",
-        "structure-mcq-12",
-        "structure-mcq-09",
-        "structure-mcq-13",
-        "structure-mcq-08"
+        "structure-mcq-06",
+        "structure-mcq-20",
+        "structure-mcq-07"
       ],
       "explanation": "本句的「structure」指「為活動提供清楚規律、安排與框架」。",
       "sentenceIndex": 6,
@@ -1019,12 +997,10 @@ export default {
         "structure"
       ],
       "optionReasons": {
-        "structure-mcq-11": "本句指「為活動提供清楚規律、安排與框架」。",
-        "structure-mcq-10": "「所有權如何分布／安排」與本句語境不同。",
-        "structure-mcq-12": "「有目的地安排內容／部分，使其形成有系統的整體」與本句語境不同。",
-        "structure-mcq-09": "「管理／匯報關係的架構」與本句語境不同。",
-        "structure-mcq-13": "「有條理地安排文章／論證」與本句語境不同。",
-        "structure-mcq-08": "「機構內角色、部門、層級、匯報關係的安排」與本句語境不同。"
+        "structure-mcq-11": "本句的「structure」指「為活動提供清楚規律、安排與框架」。",
+        "structure-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-11"
     },
@@ -1036,11 +1012,9 @@ export default {
       "masked": "You should ____ your essay clearly.",
       "options": [
         "structure-mcq-13",
-        "structure-mcq-12",
-        "structure-mcq-14",
-        "structure-mcq-11",
-        "structure-mcq-15",
-        "structure-mcq-10"
+        "structure-mcq-37",
+        "structure-mcq-07",
+        "structure-mcq-20"
       ],
       "explanation": "本句的「structure」指「有條理地安排文章／論證」。",
       "sentenceIndex": 7,
@@ -1049,12 +1023,10 @@ export default {
         "structure"
       ],
       "optionReasons": {
-        "structure-mcq-13": "本句指「有條理地安排文章／論證」。",
-        "structure-mcq-12": "「有目的地安排內容／部分，使其形成有系統的整體」與本句語境不同。",
-        "structure-mcq-14": "「以某核心主題／元素作整體安排」與本句語境不同。",
-        "structure-mcq-11": "「為活動提供清楚規律、安排與框架」與本句語境不同。",
-        "structure-mcq-15": "「有預定程序、規則和清楚安排的課程／活動」與本句語境不同。",
-        "structure-mcq-10": "「所有權如何分布／安排」與本句語境不同。"
+        "structure-mcq-13": "本句的「structure」指「有條理地安排文章／論證」。",
+        "structure-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-13"
     },
@@ -1066,11 +1038,9 @@ export default {
       "masked": "The course is ____ into six modules.",
       "options": [
         "structure-mcq-13",
-        "structure-mcq-12",
-        "structure-mcq-14",
-        "structure-mcq-11",
-        "structure-mcq-15",
-        "structure-mcq-10"
+        "structure-mcq-37",
+        "structure-mcq-20",
+        "structure-mcq-06"
       ],
       "explanation": "本句的「structured」指「有條理地安排文章／論證」。",
       "sentenceIndex": 8,
@@ -1079,12 +1049,10 @@ export default {
         "structured"
       ],
       "optionReasons": {
-        "structure-mcq-13": "本句指「有條理地安排文章／論證」。",
-        "structure-mcq-12": "「有目的地安排內容／部分，使其形成有系統的整體」與本句語境不同。",
-        "structure-mcq-14": "「以某核心主題／元素作整體安排」與本句語境不同。",
-        "structure-mcq-11": "「為活動提供清楚規律、安排與框架」與本句語境不同。",
-        "structure-mcq-15": "「有預定程序、規則和清楚安排的課程／活動」與本句語境不同。",
-        "structure-mcq-10": "「所有權如何分布／安排」與本句語境不同。"
+        "structure-mcq-13": "本句的「structured」指「有條理地安排文章／論證」。",
+        "structure-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-13"
     },
@@ -1096,11 +1064,9 @@ export default {
       "masked": "The course is ____ around practical projects.",
       "options": [
         "structure-mcq-14",
-        "structure-mcq-13",
-        "structure-mcq-15",
-        "structure-mcq-12",
-        "structure-mcq-16",
-        "structure-mcq-11"
+        "structure-mcq-20",
+        "structure-mcq-37",
+        "structure-mcq-06"
       ],
       "explanation": "本句的「structured」指「以某核心主題／元素作整體安排」。",
       "sentenceIndex": 9,
@@ -1109,12 +1075,10 @@ export default {
         "structured"
       ],
       "optionReasons": {
-        "structure-mcq-14": "本句指「以某核心主題／元素作整體安排」。",
-        "structure-mcq-13": "「有條理地安排文章／論證」與本句語境不同。",
-        "structure-mcq-15": "「有預定程序、規則和清楚安排的課程／活動」與本句語境不同。",
-        "structure-mcq-12": "「有目的地安排內容／部分，使其形成有系統的整體」與本句語境不同。",
-        "structure-mcq-16": "「沒有固定預定流程、較自由開放的活動／時間」與本句語境不同。",
-        "structure-mcq-11": "「為活動提供清楚規律、安排與框架」與本句語境不同。"
+        "structure-mcq-14": "本句的「structured」指「以某核心主題／元素作整體安排」。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-14"
     },
@@ -1126,11 +1090,9 @@ export default {
       "masked": "Students follow a highly ____ programme.",
       "options": [
         "structure-mcq-15",
-        "structure-mcq-14",
-        "structure-mcq-16",
-        "structure-mcq-13",
-        "structure-mcq-17",
-        "structure-mcq-12"
+        "structure-mcq-20",
+        "structure-mcq-07",
+        "structure-mcq-01"
       ],
       "explanation": "本句的「structured」指「有預定程序、規則和清楚安排的課程／活動」。",
       "sentenceIndex": 10,
@@ -1139,12 +1101,10 @@ export default {
         "structured"
       ],
       "optionReasons": {
-        "structure-mcq-15": "本句指「有預定程序、規則和清楚安排的課程／活動」。",
-        "structure-mcq-14": "「以某核心主題／元素作整體安排」與本句語境不同。",
-        "structure-mcq-16": "「沒有固定預定流程、較自由開放的活動／時間」與本句語境不同。",
-        "structure-mcq-13": "「有條理地安排文章／論證」與本句語境不同。",
-        "structure-mcq-17": "「依預定標準問題進行的結構式訪談」與本句語境不同。",
-        "structure-mcq-12": "「有目的地安排內容／部分，使其形成有系統的整體」與本句語境不同。"
+        "structure-mcq-15": "本句的「structured」指「有預定程序、規則和清楚安排的課程／活動」。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-15"
     },
@@ -1156,11 +1116,9 @@ export default {
       "masked": "The two sentences have different ____.",
       "options": [
         "structure-mcq-20",
-        "structure-mcq-19",
-        "structure-mcq-21",
-        "structure-mcq-18",
-        "structure-mcq-22",
-        "structure-mcq-17"
+        "structure-mcq-13",
+        "structure-mcq-37",
+        "structure-mcq-07"
       ],
       "explanation": "本句的「structures」指「句子成分的語法／句法組織」。",
       "sentenceIndex": 11,
@@ -1169,12 +1127,10 @@ export default {
         "structures"
       ],
       "optionReasons": {
-        "structure-mcq-20": "本句指「句子成分的語法／句法組織」。",
-        "structure-mcq-19": "「故事／敘事內容的組織方式」與本句語境不同。",
-        "structure-mcq-21": "「短語成分的層級結構」與本句語境不同。",
-        "structure-mcq-18": "「有預定框架但容許追問的半結構式訪談」與本句語境不同。",
-        "structure-mcq-22": "「謂詞與其論元之間的結構關係」與本句語境不同。",
-        "structure-mcq-17": "「依預定標準問題進行的結構式訪談」與本句語境不同。"
+        "structure-mcq-20": "本句的「structures」指「句子成分的語法／句法組織」。",
+        "structure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-20"
     },
@@ -1186,11 +1142,9 @@ export default {
       "masked": "A shortage of affordable study space may be a ____ problem.",
       "options": [
         "structure-mcq-27",
-        "structure-mcq-26",
-        "structure-mcq-28",
-        "structure-mcq-25",
-        "structure-mcq-29",
-        "structure-mcq-24"
+        "structure-mcq-37",
+        "structure-mcq-06",
+        "structure-mcq-20"
       ],
       "explanation": "本句的「structural」指「由制度／系統本身的深層安排造成並維持的問題」。",
       "sentenceIndex": 12,
@@ -1199,12 +1153,10 @@ export default {
         "structural"
       ],
       "optionReasons": {
-        "structure-mcq-27": "本句指「由制度／系統本身的深層安排造成並維持的問題」。",
-        "structure-mcq-26": "「社會角色、關係、制度等的組織模式」與本句語境不同。",
-        "structure-mcq-28": "「嵌入制度／系統組織中的根本性原因／因素」與本句語境不同。",
-        "structure-mcq-25": "「強調元素之間深層關係／系統的結構主義」與本句語境不同。",
-        "structure-mcq-29": "「由制度安排造成而非單一個人造成的長期障礙」與本句語境不同。",
-        "structure-mcq-24": "「把語言視為關係系統研究的結構語言學」與本句語境不同。"
+        "structure-mcq-27": "本句的「structural」指「由制度／系統本身的深層安排造成並維持的問題」。",
+        "structure-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-27"
     },
@@ -1216,11 +1168,9 @@ export default {
       "masked": "The company changed its fee ____.",
       "options": [
         "structure-mcq-37",
-        "structure-mcq-36",
-        "structure-mcq-38",
-        "structure-mcq-35",
-        "structure-mcq-39",
-        "structure-mcq-34"
+        "structure-mcq-13",
+        "structure-mcq-20",
+        "structure-mcq-07"
       ],
       "explanation": "本句的「structure」指「收費／薪酬等級與計算方式的架構」。",
       "sentenceIndex": 13,
@@ -1229,12 +1179,10 @@ export default {
         "structure"
       ],
       "optionReasons": {
-        "structure-mcq-37": "本句指「收費／薪酬等級與計算方式的架構」。",
-        "structure-mcq-36": "「固定、變動、直接、間接等成本的組成方式」與本句語境不同。",
-        "structure-mcq-38": "「公司債務、股權等融資來源的組合」與本句語境不同。",
-        "structure-mcq-35": "「扣除暫時／周期因素後仍持續存在的結構性赤字概念」與本句語境不同。",
-        "structure-mcq-39": "「利率／收益率隨不同期限變化的期限結構」與本句語境不同。",
-        "structure-mcq-34": "「因技能、地區、行業等長期錯配造成的結構性失業」與本句語境不同。"
+        "structure-mcq-37": "本句的「structure」指「收費／薪酬等級與計算方式的架構」。",
+        "structure-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-37"
     },
@@ -1246,11 +1194,9 @@ export default {
       "masked": "The transaction was ____ as a joint venture.",
       "options": [
         "structure-mcq-40",
-        "structure-mcq-39",
-        "structure-mcq-41",
-        "structure-mcq-38",
-        "structure-mcq-42",
-        "structure-mcq-37"
+        "structure-mcq-02",
+        "structure-mcq-07",
+        "structure-mcq-01"
       ],
       "explanation": "本句的「structured」指「有目的地設計交易的法律、財務與付款條款」。",
       "sentenceIndex": 14,
@@ -1259,12 +1205,10 @@ export default {
         "structured"
       ],
       "optionReasons": {
-        "structure-mcq-40": "本句指「有目的地設計交易的法律、財務與付款條款」。",
-        "structure-mcq-39": "「利率／收益率隨不同期限變化的期限結構」與本句語境不同。",
-        "structure-mcq-41": "「利用特別設計的現金流、分層、證券化等安排進行的結構融資」與本句語境不同。",
-        "structure-mcq-38": "「公司債務、股權等融資來源的組合」與本句語境不同。",
-        "structure-mcq-42": "「回報依預先設計公式／衍生特徵而定的金融產品／票據」與本句語境不同。",
-        "structure-mcq-37": "「收費／薪酬等級與計算方式的架構」與本句語境不同。"
+        "structure-mcq-40": "本句的「structured」指「有目的地設計交易的法律、財務與付款條款」。",
+        "structure-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "structure-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "structure-mcq-40"
     }
@@ -1276,5 +1220,7 @@ export default {
     "sha256": "73ca6ffbf1990142590eeef5fdfc3d30a5c367a0cdeb5a7c419e1b0dba2d5f4c",
     "pages": 58
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

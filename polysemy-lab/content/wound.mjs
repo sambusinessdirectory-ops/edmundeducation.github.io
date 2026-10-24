@@ -1501,11 +1501,9 @@ export default {
       "masked": "The experience left a deep ____.",
       "options": [
         "wound-mcq-02",
-        "wound-mcq-01",
-        "wound-mcq-03",
-        "wound-mcq-04",
-        "wound-mcq-05",
-        "wound-mcq-06"
+        "wound-mcq-92",
+        "wound-mcq-97",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「emotional wound」指「長期存在的情感傷害／心傷」。",
       "sentenceIndex": 0,
@@ -1514,12 +1512,10 @@ export default {
         "emotional wound"
       ],
       "optionReasons": {
-        "wound-mcq-02": "本句指「長期存在的情感傷害／心傷」。",
-        "wound-mcq-01": "「比喻：由侮辱、排斥、羞辱等造成並可能持續的心靈／情感創傷」與本句語境不同。",
-        "wound-mcq-03": "「心理上留下的創傷」與本句語境不同。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。"
+        "wound-mcq-02": "本句的「emotional wound」指「長期存在的情感傷害／心傷」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-02"
     },
@@ -1531,11 +1527,9 @@ export default {
       "masked": "Old ____ can affect later relationships.",
       "options": [
         "wound-mcq-02",
-        "wound-mcq-01",
-        "wound-mcq-03",
-        "wound-mcq-04",
-        "wound-mcq-05",
-        "wound-mcq-06"
+        "wound-mcq-96",
+        "wound-mcq-90",
+        "wound-mcq-92"
       ],
       "explanation": "本句的「emotional wounds」指「長期存在的情感傷害／心傷」。",
       "sentenceIndex": 1,
@@ -1544,12 +1538,10 @@ export default {
         "emotional wounds"
       ],
       "optionReasons": {
-        "wound-mcq-02": "本句指「長期存在的情感傷害／心傷」。",
-        "wound-mcq-01": "「比喻：由侮辱、排斥、羞辱等造成並可能持續的心靈／情感創傷」與本句語境不同。",
-        "wound-mcq-03": "「心理上留下的創傷」與本句語境不同。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。"
+        "wound-mcq-02": "本句的「emotional wounds」指「長期存在的情感傷害／心傷」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-02"
     },
@@ -1561,11 +1553,9 @@ export default {
       "masked": "Repeated humiliation can create deep ____.",
       "options": [
         "wound-mcq-03",
-        "wound-mcq-02",
-        "wound-mcq-04",
-        "wound-mcq-01",
-        "wound-mcq-05",
-        "wound-mcq-06"
+        "wound-mcq-97",
+        "wound-mcq-90",
+        "wound-mcq-79"
       ],
       "explanation": "本句的「psychological wounds」指「心理上留下的創傷」。",
       "sentenceIndex": 2,
@@ -1574,12 +1564,10 @@ export default {
         "psychological wounds"
       ],
       "optionReasons": {
-        "wound-mcq-03": "本句指「心理上留下的創傷」。",
-        "wound-mcq-02": "「長期存在的情感傷害／心傷」與本句語境不同。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。",
-        "wound-mcq-01": "「比喻：由侮辱、排斥、羞辱等造成並可能持續的心靈／情感創傷」與本句語境不同。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。"
+        "wound-mcq-03": "本句的「psychological wounds」指「心理上留下的創傷」。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-03"
     },
@@ -1591,11 +1579,9 @@ export default {
       "masked": "He hid his ____ behind humor.",
       "options": [
         "wound-mcq-04",
-        "wound-mcq-03",
-        "wound-mcq-05",
-        "wound-mcq-02",
-        "wound-mcq-06",
-        "wound-mcq-01"
+        "wound-mcq-91",
+        "wound-mcq-80",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「inner wounds」指「隱藏於內心的痛苦／創傷」。",
       "sentenceIndex": 3,
@@ -1604,12 +1590,10 @@ export default {
         "inner wounds"
       ],
       "optionReasons": {
-        "wound-mcq-04": "本句指「隱藏於內心的痛苦／創傷」。",
-        "wound-mcq-03": "「心理上留下的創傷」與本句語境不同。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。",
-        "wound-mcq-02": "「長期存在的情感傷害／心傷」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。",
-        "wound-mcq-01": "「比喻：由侮辱、排斥、羞辱等造成並可能持續的心靈／情感創傷」與本句語境不同。"
+        "wound-mcq-04": "本句的「inner wounds」指「隱藏於內心的痛苦／創傷」。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-04"
     },
@@ -1621,11 +1605,9 @@ export default {
       "masked": "The argument reopened ____.",
       "options": [
         "wound-mcq-05",
-        "wound-mcq-04",
-        "wound-mcq-06",
-        "wound-mcq-03",
-        "wound-mcq-07",
-        "wound-mcq-02"
+        "wound-mcq-96",
+        "wound-mcq-80",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「old wounds」指「過去留下的心傷、積怨或痛苦回憶」。",
       "sentenceIndex": 4,
@@ -1634,12 +1616,10 @@ export default {
         "old wounds"
       ],
       "optionReasons": {
-        "wound-mcq-05": "本句指「過去留下的心傷、積怨或痛苦回憶」。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。",
-        "wound-mcq-03": "「心理上留下的創傷」與本句語境不同。",
-        "wound-mcq-07": "「從情感傷害中復原／撫平創傷」與本句語境不同。",
-        "wound-mcq-02": "「長期存在的情感傷害／心傷」與本句語境不同。"
+        "wound-mcq-05": "本句的「old wounds」指「過去留下的心傷、積怨或痛苦回憶」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-05"
     },
@@ -1651,11 +1631,9 @@ export default {
       "masked": "They did not want to discuss ____ again.",
       "options": [
         "wound-mcq-05",
-        "wound-mcq-04",
-        "wound-mcq-06",
-        "wound-mcq-03",
-        "wound-mcq-07",
-        "wound-mcq-02"
+        "wound-mcq-96",
+        "wound-mcq-93",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「old wounds」指「過去留下的心傷、積怨或痛苦回憶」。",
       "sentenceIndex": 5,
@@ -1664,12 +1642,10 @@ export default {
         "old wounds"
       ],
       "optionReasons": {
-        "wound-mcq-05": "本句指「過去留下的心傷、積怨或痛苦回憶」。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。",
-        "wound-mcq-03": "「心理上留下的創傷」與本句語境不同。",
-        "wound-mcq-07": "「從情感傷害中復原／撫平創傷」與本句語境不同。",
-        "wound-mcq-02": "「長期存在的情感傷害／心傷」與本句語境不同。"
+        "wound-mcq-05": "本句的「old wounds」指「過去留下的心傷、積怨或痛苦回憶」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-05"
     },
@@ -1681,11 +1657,9 @@ export default {
       "masked": "Mentioning the incident ____.",
       "options": [
         "wound-mcq-06",
-        "wound-mcq-05",
-        "wound-mcq-07",
-        "wound-mcq-04",
-        "wound-mcq-08",
-        "wound-mcq-03"
+        "wound-mcq-46",
+        "wound-mcq-25",
+        "wound-mcq-23"
       ],
       "explanation": "本句的「reopened an old wound」指「再次令某人感受到過去的痛苦」。",
       "sentenceIndex": 6,
@@ -1694,12 +1668,10 @@ export default {
         "reopened an old wound"
       ],
       "optionReasons": {
-        "wound-mcq-06": "本句指「再次令某人感受到過去的痛苦」。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。",
-        "wound-mcq-07": "「從情感傷害中復原／撫平創傷」與本句語境不同。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。",
-        "wound-mcq-08": "「很深、持續時間長的情感創傷」與本句語境不同。",
-        "wound-mcq-03": "「心理上留下的創傷」與本句語境不同。"
+        "wound-mcq-06": "本句的「reopened an old wound」指「再次令某人感受到過去的痛苦」。",
+        "wound-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-06"
     },
@@ -1711,11 +1683,9 @@ export default {
       "masked": "Honest conversation helped ____.",
       "options": [
         "wound-mcq-07",
-        "wound-mcq-06",
-        "wound-mcq-08",
-        "wound-mcq-05",
-        "wound-mcq-09",
-        "wound-mcq-04"
+        "wound-mcq-97",
+        "wound-mcq-90",
+        "wound-mcq-92"
       ],
       "explanation": "本句的「heal the wound」指「從情感傷害中復原／撫平創傷」。",
       "sentenceIndex": 7,
@@ -1724,12 +1694,10 @@ export default {
         "heal the wound"
       ],
       "optionReasons": {
-        "wound-mcq-07": "本句指「從情感傷害中復原／撫平創傷」。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。",
-        "wound-mcq-08": "「很深、持續時間長的情感創傷」與本句語境不同。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。",
-        "wound-mcq-09": "「對自尊造成的傷害」與本句語境不同。",
-        "wound-mcq-04": "「隱藏於內心的痛苦／創傷」與本句語境不同。"
+        "wound-mcq-07": "本句的「heal the wound」指「從情感傷害中復原／撫平創傷」。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-07"
     },
@@ -1741,11 +1709,9 @@ export default {
       "masked": "The betrayal left a ____.",
       "options": [
         "wound-mcq-08",
-        "wound-mcq-07",
-        "wound-mcq-09",
-        "wound-mcq-06",
-        "wound-mcq-10",
-        "wound-mcq-05"
+        "wound-mcq-90",
+        "wound-mcq-92",
+        "wound-mcq-97"
       ],
       "explanation": "本句的「deep wound」指「很深、持續時間長的情感創傷」。",
       "sentenceIndex": 8,
@@ -1754,12 +1720,10 @@ export default {
         "deep wound"
       ],
       "optionReasons": {
-        "wound-mcq-08": "本句指「很深、持續時間長的情感創傷」。",
-        "wound-mcq-07": "「從情感傷害中復原／撫平創傷」與本句語境不同。",
-        "wound-mcq-09": "「對自尊造成的傷害」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。",
-        "wound-mcq-10": "「因失敗、羞辱等而受到傷害的自尊」與本句語境不同。",
-        "wound-mcq-05": "「過去留下的心傷、積怨或痛苦回憶」與本句語境不同。"
+        "wound-mcq-08": "本句的「deep wound」指「很深、持續時間長的情感創傷」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-08"
     },
@@ -1771,10 +1735,8 @@ export default {
       "masked": "The public criticism was a ____.",
       "options": [
         "wound-mcq-09",
-        "wound-mcq-08",
-        "wound-mcq-10",
-        "wound-mcq-07",
-        "wound-mcq-11",
+        "wound-mcq-92",
+        "wound-mcq-97",
         "wound-mcq-06"
       ],
       "explanation": "本句的「wound to his pride」指「對自尊造成的傷害」。",
@@ -1784,12 +1746,10 @@ export default {
         "wound to his pride"
       ],
       "optionReasons": {
-        "wound-mcq-09": "本句指「對自尊造成的傷害」。",
-        "wound-mcq-08": "「很深、持續時間長的情感創傷」與本句語境不同。",
-        "wound-mcq-10": "「因失敗、羞辱等而受到傷害的自尊」與本句語境不同。",
-        "wound-mcq-07": "「從情感傷害中復原／撫平創傷」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。",
-        "wound-mcq-06": "「再次令某人感受到過去的痛苦」與本句語境不同。"
+        "wound-mcq-09": "本句的「wound to his pride」指「對自尊造成的傷害」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-09"
     },
@@ -1801,11 +1761,9 @@ export default {
       "masked": "His anger came partly from ____.",
       "options": [
         "wound-mcq-10",
-        "wound-mcq-09",
-        "wound-mcq-11",
-        "wound-mcq-08",
-        "wound-mcq-12",
-        "wound-mcq-07"
+        "wound-mcq-91",
+        "wound-mcq-90",
+        "wound-mcq-96"
       ],
       "explanation": "本句的「wounded pride」指「因失敗、羞辱等而受到傷害的自尊」。",
       "sentenceIndex": 10,
@@ -1814,12 +1772,10 @@ export default {
         "wounded pride"
       ],
       "optionReasons": {
-        "wound-mcq-10": "本句指「因失敗、羞辱等而受到傷害的自尊」。",
-        "wound-mcq-09": "「對自尊造成的傷害」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。",
-        "wound-mcq-08": "「很深、持續時間長的情感創傷」與本句語境不同。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-07": "「從情感傷害中復原／撫平創傷」與本句語境不同。"
+        "wound-mcq-10": "本句的「wounded pride」指「因失敗、羞辱等而受到傷害的自尊」。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-10"
     },
@@ -1831,11 +1787,9 @@ export default {
       "masked": "She tried to hide her ____.",
       "options": [
         "wound-mcq-11",
-        "wound-mcq-10",
-        "wound-mcq-12",
-        "wound-mcq-09",
-        "wound-mcq-13",
-        "wound-mcq-08"
+        "wound-mcq-79",
+        "wound-mcq-96",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「wounded feelings」指「被別人言行傷害的感情」。",
       "sentenceIndex": 11,
@@ -1844,12 +1798,10 @@ export default {
         "wounded feelings"
       ],
       "optionReasons": {
-        "wound-mcq-11": "本句指「被別人言行傷害的感情」。",
-        "wound-mcq-10": "「因失敗、羞辱等而受到傷害的自尊」與本句語境不同。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-09": "「對自尊造成的傷害」與本句語境不同。",
-        "wound-mcq-13": "「深深傷害某人的自尊」與本句語境不同。",
-        "wound-mcq-08": "「很深、持續時間長的情感創傷」與本句語境不同。"
+        "wound-mcq-11": "本句的「wounded feelings」指「被別人言行傷害的感情」。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-11"
     },
@@ -1861,11 +1813,9 @@ export default {
       "masked": "His words ____.",
       "options": [
         "wound-mcq-13",
-        "wound-mcq-12",
-        "wound-mcq-14",
-        "wound-mcq-11",
-        "wound-mcq-15",
-        "wound-mcq-10"
+        "wound-mcq-93",
+        "wound-mcq-79",
+        "wound-mcq-75"
       ],
       "explanation": "本句的「wounded her deeply」指「深深傷害某人的自尊」。",
       "sentenceIndex": 12,
@@ -1874,12 +1824,10 @@ export default {
         "wounded her deeply"
       ],
       "optionReasons": {
-        "wound-mcq-13": "本句指「深深傷害某人的自尊」。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-14": "「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。",
-        "wound-mcq-10": "「因失敗、羞辱等而受到傷害的自尊」與本句語境不同。"
+        "wound-mcq-13": "本句的「wounded her deeply」指「深深傷害某人的自尊」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-13"
     },
@@ -1891,11 +1839,9 @@ export default {
       "masked": "The rejection ____ more than he admitted.",
       "options": [
         "wound-mcq-13",
-        "wound-mcq-12",
-        "wound-mcq-14",
-        "wound-mcq-11",
-        "wound-mcq-15",
-        "wound-mcq-10"
+        "wound-mcq-92",
+        "wound-mcq-80",
+        "wound-mcq-75"
       ],
       "explanation": "本句的「wounded him」指「深深傷害某人的自尊」。",
       "sentenceIndex": 13,
@@ -1904,12 +1850,10 @@ export default {
         "wounded him"
       ],
       "optionReasons": {
-        "wound-mcq-13": "本句指「深深傷害某人的自尊」。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-14": "「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。",
-        "wound-mcq-10": "「因失敗、羞辱等而受到傷害的自尊」與本句語境不同。"
+        "wound-mcq-13": "本句的「wounded him」指「深深傷害某人的自尊」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-13"
     },
@@ -1921,11 +1865,9 @@ export default {
       "masked": "Losing in public ____.",
       "options": [
         "wound-mcq-13",
-        "wound-mcq-12",
-        "wound-mcq-14",
-        "wound-mcq-11",
-        "wound-mcq-15",
-        "wound-mcq-10"
+        "wound-mcq-97",
+        "wound-mcq-75",
+        "wound-mcq-79"
       ],
       "explanation": "本句的「wounded his pride」指「深深傷害某人的自尊」。",
       "sentenceIndex": 14,
@@ -1934,12 +1876,10 @@ export default {
         "wounded his pride"
       ],
       "optionReasons": {
-        "wound-mcq-13": "本句指「深深傷害某人的自尊」。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-14": "「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。",
-        "wound-mcq-10": "「因失敗、羞辱等而受到傷害的自尊」與本句語境不同。"
+        "wound-mcq-13": "本句的「wounded his pride」指「深深傷害某人的自尊」。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-13"
     },
@@ -1951,11 +1891,9 @@ export default {
       "masked": "The nurse cleaned the ____.",
       "options": [
         "wound-mcq-14",
-        "wound-mcq-13",
-        "wound-mcq-15",
-        "wound-mcq-12",
-        "wound-mcq-16",
-        "wound-mcq-11"
+        "wound-mcq-93",
+        "wound-mcq-80",
+        "wound-mcq-89"
       ],
       "explanation": "本句的「wound」指「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」。",
       "sentenceIndex": 15,
@@ -1964,12 +1902,10 @@ export default {
         "wound"
       ],
       "optionReasons": {
-        "wound-mcq-14": "本句指「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」。",
-        "wound-mcq-13": "「深深傷害某人的自尊」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-16": "「表面皮膚未開放但內部組織受損的閉合性創傷」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。"
+        "wound-mcq-14": "本句的「wound」指「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-14"
     },
@@ -1981,11 +1917,9 @@ export default {
       "masked": "The ____ was beginning to heal.",
       "options": [
         "wound-mcq-14",
-        "wound-mcq-13",
-        "wound-mcq-15",
-        "wound-mcq-12",
-        "wound-mcq-16",
-        "wound-mcq-11"
+        "wound-mcq-93",
+        "wound-mcq-97",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「wound」指「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」。",
       "sentenceIndex": 16,
@@ -1994,12 +1928,10 @@ export default {
         "wound"
       ],
       "optionReasons": {
-        "wound-mcq-14": "本句指「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」。",
-        "wound-mcq-13": "「深深傷害某人的自尊」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。",
-        "wound-mcq-16": "「表面皮膚未開放但內部組織受損的閉合性創傷」與本句語境不同。",
-        "wound-mcq-11": "「被別人言行傷害的感情」與本句語境不同。"
+        "wound-mcq-14": "本句的「wound」指「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-14"
     },
@@ -2011,11 +1943,9 @@ export default {
       "masked": "Cover the ____ with a clean dressing.",
       "options": [
         "wound-mcq-15",
-        "wound-mcq-14",
-        "wound-mcq-16",
-        "wound-mcq-13",
-        "wound-mcq-17",
-        "wound-mcq-12"
+        "wound-mcq-93",
+        "wound-mcq-80",
+        "wound-mcq-96"
       ],
       "explanation": "本句的「open wound」指「皮膚／組織表面已破裂的開放性傷口」。",
       "sentenceIndex": 17,
@@ -2024,12 +1954,10 @@ export default {
         "open wound"
       ],
       "optionReasons": {
-        "wound-mcq-15": "本句指「皮膚／組織表面已破裂的開放性傷口」。",
-        "wound-mcq-14": "「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」與本句語境不同。",
-        "wound-mcq-16": "「表面皮膚未開放但內部組織受損的閉合性創傷」與本句語境不同。",
-        "wound-mcq-13": "「深深傷害某人的自尊」與本句語境不同。",
-        "wound-mcq-17": "「延伸至較深組織的深層傷口」與本句語境不同。",
-        "wound-mcq-12": "「令某人受到深刻情感傷害」與本句語境不同。"
+        "wound-mcq-15": "本句的「open wound」指「皮膚／組織表面已破裂的開放性傷口」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-15"
     },
@@ -2041,11 +1969,9 @@ export default {
       "masked": "The cut caused a ____.",
       "options": [
         "wound-mcq-17",
-        "wound-mcq-16",
-        "wound-mcq-18",
-        "wound-mcq-15",
-        "wound-mcq-19",
-        "wound-mcq-14"
+        "wound-mcq-96",
+        "wound-mcq-89",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「deep wound」指「延伸至較深組織的深層傷口」。",
       "sentenceIndex": 18,
@@ -2054,12 +1980,10 @@ export default {
         "deep wound"
       ],
       "optionReasons": {
-        "wound-mcq-17": "本句指「延伸至較深組織的深層傷口」。",
-        "wound-mcq-16": "「表面皮膚未開放但內部組織受損的閉合性創傷」與本句語境不同。",
-        "wound-mcq-18": "「主要影響表層組織的表淺傷口」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。",
-        "wound-mcq-19": "「程度較輕的傷口」與本句語境不同。",
-        "wound-mcq-14": "「身體組織因切割、穿刺、槍擊等造成的傷口／創傷」與本句語境不同。"
+        "wound-mcq-17": "本句的「deep wound」指「延伸至較深組織的深層傷口」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-17"
     },
@@ -2071,11 +1995,9 @@ export default {
       "masked": "Fortunately, it was only a ____.",
       "options": [
         "wound-mcq-18",
-        "wound-mcq-17",
-        "wound-mcq-19",
-        "wound-mcq-16",
-        "wound-mcq-20",
-        "wound-mcq-15"
+        "wound-mcq-92",
+        "wound-mcq-80",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「superficial wound」指「主要影響表層組織的表淺傷口」。",
       "sentenceIndex": 19,
@@ -2084,12 +2006,10 @@ export default {
         "superficial wound"
       ],
       "optionReasons": {
-        "wound-mcq-18": "本句指「主要影響表層組織的表淺傷口」。",
-        "wound-mcq-17": "「延伸至較深組織的深層傷口」與本句語境不同。",
-        "wound-mcq-19": "「程度較輕的傷口」與本句語境不同。",
-        "wound-mcq-16": "「表面皮膚未開放但內部組織受損的閉合性創傷」與本句語境不同。",
-        "wound-mcq-20": "「嚴重傷口／創傷」與本句語境不同。",
-        "wound-mcq-15": "「皮膚／組織表面已破裂的開放性傷口」與本句語境不同。"
+        "wound-mcq-18": "本句的「superficial wound」指「主要影響表層組織的表淺傷口」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-18"
     },
@@ -2101,11 +2021,9 @@ export default {
       "masked": "The victim suffered a ____.",
       "options": [
         "wound-mcq-21",
-        "wound-mcq-20",
-        "wound-mcq-22",
-        "wound-mcq-19",
-        "wound-mcq-23",
-        "wound-mcq-18"
+        "wound-mcq-79",
+        "wound-mcq-96",
+        "wound-mcq-75"
       ],
       "explanation": "本句的「fatal wound」指「最終造成死亡的致命傷」。",
       "sentenceIndex": 20,
@@ -2114,12 +2032,10 @@ export default {
         "fatal wound"
       ],
       "optionReasons": {
-        "wound-mcq-21": "本句指「最終造成死亡的致命傷」。",
-        "wound-mcq-20": "「嚴重傷口／創傷」與本句語境不同。",
-        "wound-mcq-22": "「正式／文學：足以致命的傷」與本句語境不同。",
-        "wound-mcq-19": "「程度較輕的傷口」與本句語境不同。",
-        "wound-mcq-23": "「主要傷及皮肉、通常非致命的皮肉傷」與本句語境不同。",
-        "wound-mcq-18": "「主要影響表層組織的表淺傷口」與本句語境不同。"
+        "wound-mcq-21": "本句的「fatal wound」指「最終造成死亡的致命傷」。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-21"
     },
@@ -2131,11 +2047,9 @@ export default {
       "masked": "The soldier received a ____.",
       "options": [
         "wound-mcq-22",
-        "wound-mcq-21",
-        "wound-mcq-23",
-        "wound-mcq-20",
-        "wound-mcq-24",
-        "wound-mcq-19"
+        "wound-mcq-90",
+        "wound-mcq-92",
+        "wound-mcq-75"
       ],
       "explanation": "本句的「mortal wound」指「正式／文學：足以致命的傷」。",
       "sentenceIndex": 21,
@@ -2144,12 +2058,10 @@ export default {
         "mortal wound"
       ],
       "optionReasons": {
-        "wound-mcq-22": "本句指「正式／文學：足以致命的傷」。",
-        "wound-mcq-21": "「最終造成死亡的致命傷」與本句語境不同。",
-        "wound-mcq-23": "「主要傷及皮肉、通常非致命的皮肉傷」與本句語境不同。",
-        "wound-mcq-20": "「嚴重傷口／創傷」與本句語境不同。",
-        "wound-mcq-24": "「物體穿入身體組織造成的穿透傷」與本句語境不同。",
-        "wound-mcq-19": "「程度較輕的傷口」與本句語境不同。"
+        "wound-mcq-22": "本句的「mortal wound」指「正式／文學：足以致命的傷」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-22"
     },
@@ -2161,11 +2073,9 @@ export default {
       "masked": "It was only a ____.",
       "options": [
         "wound-mcq-23",
-        "wound-mcq-22",
-        "wound-mcq-24",
-        "wound-mcq-21",
-        "wound-mcq-25",
-        "wound-mcq-20"
+        "wound-mcq-75",
+        "wound-mcq-79",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「flesh wound」指「主要傷及皮肉、通常非致命的皮肉傷」。",
       "sentenceIndex": 22,
@@ -2174,12 +2084,10 @@ export default {
         "flesh wound"
       ],
       "optionReasons": {
-        "wound-mcq-23": "本句指「主要傷及皮肉、通常非致命的皮肉傷」。",
-        "wound-mcq-22": "「正式／文學：足以致命的傷」與本句語境不同。",
-        "wound-mcq-24": "「物體穿入身體組織造成的穿透傷」與本句語境不同。",
-        "wound-mcq-21": "「最終造成死亡的致命傷」與本句語境不同。",
-        "wound-mcq-25": "「尖銳物造成的窄而深的刺傷」與本句語境不同。",
-        "wound-mcq-20": "「嚴重傷口／創傷」與本句語境不同。"
+        "wound-mcq-23": "本句的「flesh wound」指「主要傷及皮肉、通常非致命的皮肉傷」。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-23"
     },
@@ -2191,11 +2099,9 @@ export default {
       "masked": "The nail caused a ____.",
       "options": [
         "wound-mcq-25",
-        "wound-mcq-24",
-        "wound-mcq-26",
-        "wound-mcq-23",
-        "wound-mcq-27",
-        "wound-mcq-22"
+        "wound-mcq-92",
+        "wound-mcq-96",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「puncture wound」指「尖銳物造成的窄而深的刺傷」。",
       "sentenceIndex": 23,
@@ -2204,12 +2110,10 @@ export default {
         "puncture wound"
       ],
       "optionReasons": {
-        "wound-mcq-25": "本句指「尖銳物造成的窄而深的刺傷」。",
-        "wound-mcq-24": "「物體穿入身體組織造成的穿透傷」與本句語境不同。",
-        "wound-mcq-26": "「槍械射擊造成的槍傷」與本句語境不同。",
-        "wound-mcq-23": "「主要傷及皮肉、通常非致命的皮肉傷」與本句語境不同。",
-        "wound-mcq-27": "「子彈造成的傷口」與本句語境不同。",
-        "wound-mcq-22": "「正式／文學：足以致命的傷」與本句語境不同。"
+        "wound-mcq-25": "本句的「puncture wound」指「尖銳物造成的窄而深的刺傷」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-25"
     },
@@ -2221,11 +2125,9 @@ export default {
       "masked": "The patient was treated for a ____.",
       "options": [
         "wound-mcq-26",
-        "wound-mcq-25",
-        "wound-mcq-27",
-        "wound-mcq-24",
-        "wound-mcq-28",
-        "wound-mcq-23"
+        "wound-mcq-90",
+        "wound-mcq-92",
+        "wound-mcq-96"
       ],
       "explanation": "本句的「gunshot wound」指「槍械射擊造成的槍傷」。",
       "sentenceIndex": 24,
@@ -2234,12 +2136,10 @@ export default {
         "gunshot wound"
       ],
       "optionReasons": {
-        "wound-mcq-26": "本句指「槍械射擊造成的槍傷」。",
-        "wound-mcq-25": "「尖銳物造成的窄而深的刺傷」與本句語境不同。",
-        "wound-mcq-27": "「子彈造成的傷口」與本句語境不同。",
-        "wound-mcq-24": "「物體穿入身體組織造成的穿透傷」與本句語境不同。",
-        "wound-mcq-28": "「被刀／尖銳物刺入造成的刺傷」與本句語境不同。",
-        "wound-mcq-23": "「主要傷及皮肉、通常非致命的皮肉傷」與本句語境不同。"
+        "wound-mcq-26": "本句的「gunshot wound」指「槍械射擊造成的槍傷」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-26"
     },
@@ -2251,11 +2151,9 @@ export default {
       "masked": "The victim suffered a ____ to the arm.",
       "options": [
         "wound-mcq-28",
-        "wound-mcq-27",
-        "wound-mcq-29",
-        "wound-mcq-26",
-        "wound-mcq-30",
-        "wound-mcq-25"
+        "wound-mcq-89",
+        "wound-mcq-92",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「stab wound」指「被刀／尖銳物刺入造成的刺傷」。",
       "sentenceIndex": 25,
@@ -2264,12 +2162,10 @@ export default {
         "stab wound"
       ],
       "optionReasons": {
-        "wound-mcq-28": "本句指「被刀／尖銳物刺入造成的刺傷」。",
-        "wound-mcq-27": "「子彈造成的傷口」與本句語境不同。",
-        "wound-mcq-29": "「刀具造成的刀傷」與本句語境不同。",
-        "wound-mcq-26": "「槍械射擊造成的槍傷」與本句語境不同。",
-        "wound-mcq-30": "「頭部／胸部／腹部創傷」與本句語境不同。",
-        "wound-mcq-25": "「尖銳物造成的窄而深的刺傷」與本句語境不同。"
+        "wound-mcq-28": "本句的「stab wound」指「被刀／尖銳物刺入造成的刺傷」。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-28"
     },
@@ -2281,11 +2177,9 @@ export default {
       "masked": "Keep the ____ clean and dry.",
       "options": [
         "wound-mcq-33",
-        "wound-mcq-32",
-        "wound-mcq-34",
-        "wound-mcq-31",
-        "wound-mcq-35",
-        "wound-mcq-30"
+        "wound-mcq-91",
+        "wound-mcq-93",
+        "wound-mcq-06"
       ],
       "explanation": "本句的「surgical wound」指「手術造成的切口／傷口」。",
       "sentenceIndex": 26,
@@ -2294,12 +2188,10 @@ export default {
         "surgical wound"
       ],
       "optionReasons": {
-        "wound-mcq-33": "本句指「手術造成的切口／傷口」。",
-        "wound-mcq-32": "「彈體離開身體的出口傷」與本句語境不同。",
-        "wound-mcq-34": "「外部創傷造成的傷口」與本句語境不同。",
-        "wound-mcq-31": "「彈體進入身體的入口傷」與本句語境不同。",
-        "wound-mcq-35": "「新近形成、一般按正常癒合過程修復的傷口」與本句語境不同。",
-        "wound-mcq-30": "「頭部／胸部／腹部創傷」與本句語境不同。"
+        "wound-mcq-33": "本句的「surgical wound」指「手術造成的切口／傷口」。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-33"
     },
@@ -2311,11 +2203,9 @@ export default {
       "masked": "Check the ____ for redness.",
       "options": [
         "wound-mcq-37",
-        "wound-mcq-36",
-        "wound-mcq-38",
-        "wound-mcq-35",
-        "wound-mcq-39",
-        "wound-mcq-34"
+        "wound-mcq-06",
+        "wound-mcq-91",
+        "wound-mcq-75"
       ],
       "explanation": "本句的「wound site」指「傷口所在位置」。",
       "sentenceIndex": 27,
@@ -2324,12 +2214,10 @@ export default {
         "wound site"
       ],
       "optionReasons": {
-        "wound-mcq-37": "本句指「傷口所在位置」。",
-        "wound-mcq-36": "「長期未按正常時間癒合的慢性傷口」與本句語境不同。",
-        "wound-mcq-38": "「傷口邊緣」與本句語境不同。",
-        "wound-mcq-35": "「新近形成、一般按正常癒合過程修復的傷口」與本句語境不同。",
-        "wound-mcq-39": "「開放傷口底部的組織表面」與本句語境不同。",
-        "wound-mcq-34": "「外部創傷造成的傷口」與本句語境不同。"
+        "wound-mcq-37": "本句的「wound site」指「傷口所在位置」。",
+        "wound-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-75": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-37"
     },
@@ -2341,11 +2229,9 @@ export default {
       "masked": "Proper ____ reduces complications.",
       "options": [
         "wound-mcq-40",
-        "wound-mcq-39",
-        "wound-mcq-41",
-        "wound-mcq-38",
-        "wound-mcq-42",
-        "wound-mcq-37"
+        "wound-mcq-80",
+        "wound-mcq-96",
+        "wound-mcq-06"
       ],
       "explanation": "本句的「wound care」指「清潔、保護、監察和處理傷口的傷口護理」。",
       "sentenceIndex": 28,
@@ -2354,12 +2240,10 @@ export default {
         "wound care"
       ],
       "optionReasons": {
-        "wound-mcq-40": "本句指「清潔、保護、監察和處理傷口的傷口護理」。",
-        "wound-mcq-39": "「開放傷口底部的組織表面」與本句語境不同。",
-        "wound-mcq-41": "「對傷口進行整體評估及治療管理」與本句語境不同。",
-        "wound-mcq-38": "「傷口邊緣」與本句語境不同。",
-        "wound-mcq-42": "「對傷口進行的治療」與本句語境不同。",
-        "wound-mcq-37": "「傷口所在位置」與本句語境不同。"
+        "wound-mcq-40": "本句的「wound care」指「清潔、保護、監察和處理傷口的傷口護理」。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-40"
     },
@@ -2371,11 +2255,9 @@ export default {
       "masked": "Nutrition can affect ____.",
       "options": [
         "wound-mcq-43",
-        "wound-mcq-42",
-        "wound-mcq-44",
-        "wound-mcq-41",
-        "wound-mcq-45",
-        "wound-mcq-40"
+        "wound-mcq-97",
+        "wound-mcq-93",
+        "wound-mcq-79"
       ],
       "explanation": "本句的「wound healing」指「損傷組織逐步修復的傷口癒合」。",
       "sentenceIndex": 29,
@@ -2384,12 +2266,10 @@ export default {
         "wound healing"
       ],
       "optionReasons": {
-        "wound-mcq-43": "本句指「損傷組織逐步修復的傷口癒合」。",
-        "wound-mcq-42": "「對傷口進行的治療」與本句語境不同。",
-        "wound-mcq-44": "「使傷口邊緣閉合的過程／方法」與本句語境不同。",
-        "wound-mcq-41": "「對傷口進行整體評估及治療管理」與本句語境不同。",
-        "wound-mcq-45": "「用來覆蓋及管理傷口的敷料」與本句語境不同。",
-        "wound-mcq-40": "「清潔、保護、監察和處理傷口的傷口護理」與本句語境不同。"
+        "wound-mcq-43": "本句的「wound healing」指「損傷組織逐步修復的傷口癒合」。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-43"
     },
@@ -2401,11 +2281,9 @@ export default {
       "masked": "Change the ____ as instructed.",
       "options": [
         "wound-mcq-45",
-        "wound-mcq-44",
-        "wound-mcq-46",
-        "wound-mcq-43",
-        "wound-mcq-47",
-        "wound-mcq-42"
+        "wound-mcq-93",
+        "wound-mcq-96",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「wound dressing」指「用來覆蓋及管理傷口的敷料」。",
       "sentenceIndex": 30,
@@ -2414,12 +2292,10 @@ export default {
         "wound dressing"
       ],
       "optionReasons": {
-        "wound-mcq-45": "本句指「用來覆蓋及管理傷口的敷料」。",
-        "wound-mcq-44": "「使傷口邊緣閉合的過程／方法」與本句語境不同。",
-        "wound-mcq-46": "「清潔／處理並覆蓋傷口」與本句語境不同。",
-        "wound-mcq-43": "「損傷組織逐步修復的傷口癒合」與本句語境不同。",
-        "wound-mcq-47": "「清潔傷口」與本句語境不同。",
-        "wound-mcq-42": "「對傷口進行的治療」與本句語境不同。"
+        "wound-mcq-45": "本句的「wound dressing」指「用來覆蓋及管理傷口的敷料」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-45"
     },
@@ -2431,11 +2307,9 @@ export default {
       "masked": "The nurse ____.",
       "options": [
         "wound-mcq-46",
-        "wound-mcq-45",
-        "wound-mcq-47",
-        "wound-mcq-44",
-        "wound-mcq-48",
-        "wound-mcq-43"
+        "wound-mcq-96",
+        "wound-mcq-93",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「dressed the wound」指「清潔／處理並覆蓋傷口」。",
       "sentenceIndex": 31,
@@ -2444,12 +2318,10 @@ export default {
         "dressed the wound"
       ],
       "optionReasons": {
-        "wound-mcq-46": "本句指「清潔／處理並覆蓋傷口」。",
-        "wound-mcq-45": "「用來覆蓋及管理傷口的敷料」與本句語境不同。",
-        "wound-mcq-47": "「清潔傷口」與本句語境不同。",
-        "wound-mcq-44": "「使傷口邊緣閉合的過程／方法」與本句語境不同。",
-        "wound-mcq-48": "「用繃帶包紮傷口」與本句語境不同。",
-        "wound-mcq-43": "「損傷組織逐步修復的傷口癒合」與本句語境不同。"
+        "wound-mcq-46": "本句的「dressed the wound」指「清潔／處理並覆蓋傷口」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-46"
     },
@@ -2461,11 +2333,9 @@ export default {
       "masked": "Redness and swelling may indicate a ____.",
       "options": [
         "wound-mcq-50",
-        "wound-mcq-49",
-        "wound-mcq-51",
-        "wound-mcq-48",
-        "wound-mcq-52",
-        "wound-mcq-47"
+        "wound-mcq-90",
+        "wound-mcq-92",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「wound infection」指「傷口受到感染」。",
       "sentenceIndex": 32,
@@ -2474,12 +2344,10 @@ export default {
         "wound infection"
       ],
       "optionReasons": {
-        "wound-mcq-50": "本句指「傷口受到感染」。",
-        "wound-mcq-49": "「用縫線把傷口縫合」與本句語境不同。",
-        "wound-mcq-51": "「已受感染的傷口」與本句語境不同。",
-        "wound-mcq-48": "「用繃帶包紮傷口」與本句語境不同。",
-        "wound-mcq-52": "「從傷口滲出的液體／滲液」與本句語境不同。",
-        "wound-mcq-47": "「清潔傷口」與本句語境不同。"
+        "wound-mcq-50": "本句的「wound infection」指「傷口受到感染」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-50"
     },
@@ -2491,11 +2359,9 @@ export default {
       "masked": "He ____ to the shoulder.",
       "options": [
         "wound-mcq-54",
-        "wound-mcq-53",
-        "wound-mcq-55",
-        "wound-mcq-52",
-        "wound-mcq-56",
-        "wound-mcq-51"
+        "wound-mcq-92",
+        "wound-mcq-89",
+        "wound-mcq-96"
       ],
       "explanation": "本句的「sustained a wound」指「正式：遭受／受到創傷」。",
       "sentenceIndex": 33,
@@ -2504,12 +2370,10 @@ export default {
         "sustained a wound"
       ],
       "optionReasons": {
-        "wound-mcq-54": "本句指「正式：遭受／受到創傷」。",
-        "wound-mcq-53": "「已閉合／縫合傷口再次裂開」與本句語境不同。",
-        "wound-mcq-55": "「遭受傷勢」與本句語境不同。",
-        "wound-mcq-52": "「從傷口滲出的液體／滲液」與本句語境不同。",
-        "wound-mcq-56": "「對另一人造成傷口／創傷」與本句語境不同。",
-        "wound-mcq-51": "「已受感染的傷口」與本句語境不同。"
+        "wound-mcq-54": "本句的「sustained a wound」指「正式：遭受／受到創傷」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-54"
     },
@@ -2521,11 +2385,9 @@ export default {
       "masked": "Two people ____.",
       "options": [
         "wound-mcq-55",
-        "wound-mcq-54",
-        "wound-mcq-56",
-        "wound-mcq-53",
-        "wound-mcq-57",
-        "wound-mcq-52"
+        "wound-mcq-90",
+        "wound-mcq-96",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「suffered minor wounds」指「遭受傷勢」。",
       "sentenceIndex": 34,
@@ -2534,12 +2396,10 @@ export default {
         "suffered minor wounds"
       ],
       "optionReasons": {
-        "wound-mcq-55": "本句指「遭受傷勢」。",
-        "wound-mcq-54": "「正式：遭受／受到創傷」與本句語境不同。",
-        "wound-mcq-56": "「對另一人造成傷口／創傷」與本句語境不同。",
-        "wound-mcq-53": "「已閉合／縫合傷口再次裂開」與本句語境不同。",
-        "wound-mcq-57": "「照料、護理傷口」與本句語境不同。",
-        "wound-mcq-52": "「從傷口滲出的液體／滲液」與本句語境不同。"
+        "wound-mcq-55": "本句的「suffered minor wounds」指「遭受傷勢」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-55"
     },
@@ -2551,11 +2411,9 @@ export default {
       "masked": "The weapon ____.",
       "options": [
         "wound-mcq-56",
-        "wound-mcq-55",
-        "wound-mcq-57",
-        "wound-mcq-54",
-        "wound-mcq-58",
-        "wound-mcq-53"
+        "wound-mcq-79",
+        "wound-mcq-97",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「inflicted a deep wound」指「對另一人造成傷口／創傷」。",
       "sentenceIndex": 35,
@@ -2564,12 +2422,10 @@ export default {
         "inflicted a deep wound"
       ],
       "optionReasons": {
-        "wound-mcq-56": "本句指「對另一人造成傷口／創傷」。",
-        "wound-mcq-55": "「遭受傷勢」與本句語境不同。",
-        "wound-mcq-57": "「照料、護理傷口」與本句語境不同。",
-        "wound-mcq-54": "「正式：遭受／受到創傷」與本句語境不同。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。",
-        "wound-mcq-53": "「已閉合／縫合傷口再次裂開」與本句語境不同。"
+        "wound-mcq-56": "本句的「inflicted a deep wound」指「對另一人造成傷口／創傷」。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-56"
     },
@@ -2581,11 +2437,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wound-mcq-57",
-        "wound-mcq-56",
-        "wound-mcq-58",
-        "wound-mcq-55",
-        "wound-mcq-59",
-        "wound-mcq-54"
+        "wound-mcq-97",
+        "wound-mcq-93",
+        "wound-mcq-79"
       ],
       "explanation": "本句的「tended his wounds」指「照料、護理傷口」。",
       "sentenceIndex": 36,
@@ -2594,12 +2448,10 @@ export default {
         "tended his wounds"
       ],
       "optionReasons": {
-        "wound-mcq-57": "本句指「照料、護理傷口」。",
-        "wound-mcq-56": "「對另一人造成傷口／創傷」與本句語境不同。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。",
-        "wound-mcq-55": "「遭受傷勢」與本句語境不同。",
-        "wound-mcq-59": "「已癒合／閉合的傷口再次裂開」與本句語境不同。",
-        "wound-mcq-54": "「正式：遭受／受到創傷」與本句語境不同。"
+        "wound-mcq-57": "本句的「tended his wounds」指「照料、護理傷口」。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-57"
     },
@@ -2611,11 +2463,9 @@ export default {
       "masked": "The ____ slowly.",
       "options": [
         "wound-mcq-58",
-        "wound-mcq-57",
-        "wound-mcq-59",
-        "wound-mcq-56",
-        "wound-mcq-60",
-        "wound-mcq-55"
+        "wound-mcq-79",
+        "wound-mcq-90",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「wound healed」指「傷口逐步修復、癒合」。",
       "sentenceIndex": 37,
@@ -2624,12 +2474,10 @@ export default {
         "wound healed"
       ],
       "optionReasons": {
-        "wound-mcq-58": "本句指「傷口逐步修復、癒合」。",
-        "wound-mcq-57": "「照料、護理傷口」與本句語境不同。",
-        "wound-mcq-59": "「已癒合／閉合的傷口再次裂開」與本句語境不同。",
-        "wound-mcq-56": "「對另一人造成傷口／創傷」與本句語境不同。",
-        "wound-mcq-60": "「尤其以武器／暴力使某人受傷」與本句語境不同。",
-        "wound-mcq-55": "「遭受傷勢」與本句語境不同。"
+        "wound-mcq-58": "本句的「wound healed」指「傷口逐步修復、癒合」。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-58"
     },
@@ -2641,11 +2489,9 @@ export default {
       "masked": "The ____ after he moved too quickly.",
       "options": [
         "wound-mcq-59",
-        "wound-mcq-58",
-        "wound-mcq-60",
-        "wound-mcq-57",
-        "wound-mcq-61",
-        "wound-mcq-56"
+        "wound-mcq-92",
+        "wound-mcq-90",
+        "wound-mcq-80"
       ],
       "explanation": "本句的「wound reopened」指「已癒合／閉合的傷口再次裂開」。",
       "sentenceIndex": 38,
@@ -2654,12 +2500,10 @@ export default {
         "wound reopened"
       ],
       "optionReasons": {
-        "wound-mcq-59": "本句指「已癒合／閉合的傷口再次裂開」。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。",
-        "wound-mcq-60": "「尤其以武器／暴力使某人受傷」與本句語境不同。",
-        "wound-mcq-57": "「照料、護理傷口」與本句語境不同。",
-        "wound-mcq-61": "「尤其在戰爭、攻擊等情況中受傷／負傷」與本句語境不同。",
-        "wound-mcq-56": "「對另一人造成傷口／創傷」與本句語境不同。"
+        "wound-mcq-59": "本句的「wound reopened」指「已癒合／閉合的傷口再次裂開」。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-59"
     },
@@ -2671,11 +2515,9 @@ export default {
       "masked": "The attack ____.",
       "options": [
         "wound-mcq-60",
-        "wound-mcq-59",
-        "wound-mcq-61",
-        "wound-mcq-58",
-        "wound-mcq-62",
-        "wound-mcq-57"
+        "wound-mcq-96",
+        "wound-mcq-91",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「wounded three people」指「尤其以武器／暴力使某人受傷」。",
       "sentenceIndex": 39,
@@ -2684,12 +2526,10 @@ export default {
         "wounded three people"
       ],
       "optionReasons": {
-        "wound-mcq-60": "本句指「尤其以武器／暴力使某人受傷」。",
-        "wound-mcq-59": "「已癒合／閉合的傷口再次裂開」與本句語境不同。",
-        "wound-mcq-61": "「尤其在戰爭、攻擊等情況中受傷／負傷」與本句語境不同。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。",
-        "wound-mcq-62": "「軍事：在作戰期間負傷」與本句語境不同。",
-        "wound-mcq-57": "「照料、護理傷口」與本句語境不同。"
+        "wound-mcq-60": "本句的「wounded three people」指「尤其以武器／暴力使某人受傷」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-60"
     },
@@ -2701,11 +2541,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "wound-mcq-60",
-        "wound-mcq-59",
-        "wound-mcq-61",
-        "wound-mcq-58",
-        "wound-mcq-62",
-        "wound-mcq-57"
+        "wound-mcq-89",
+        "wound-mcq-92",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「wounded in the leg」指「尤其以武器／暴力使某人受傷」。",
       "sentenceIndex": 40,
@@ -2714,12 +2552,10 @@ export default {
         "wounded in the leg"
       ],
       "optionReasons": {
-        "wound-mcq-60": "本句指「尤其以武器／暴力使某人受傷」。",
-        "wound-mcq-59": "「已癒合／閉合的傷口再次裂開」與本句語境不同。",
-        "wound-mcq-61": "「尤其在戰爭、攻擊等情況中受傷／負傷」與本句語境不同。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。",
-        "wound-mcq-62": "「軍事：在作戰期間負傷」與本句語境不同。",
-        "wound-mcq-57": "「照料、護理傷口」與本句語境不同。"
+        "wound-mcq-60": "本句的「wounded in the leg」指「尤其以武器／暴力使某人受傷」。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-60"
     },
@@ -2731,11 +2567,9 @@ export default {
       "masked": "Several soldiers were ____.",
       "options": [
         "wound-mcq-61",
-        "wound-mcq-60",
-        "wound-mcq-62",
-        "wound-mcq-59",
-        "wound-mcq-63",
-        "wound-mcq-58"
+        "wound-mcq-93",
+        "wound-mcq-90",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「wounded」指「尤其在戰爭、攻擊等情況中受傷／負傷」。",
       "sentenceIndex": 41,
@@ -2744,12 +2578,10 @@ export default {
         "wounded"
       ],
       "optionReasons": {
-        "wound-mcq-61": "本句指「尤其在戰爭、攻擊等情況中受傷／負傷」。",
-        "wound-mcq-60": "「尤其以武器／暴力使某人受傷」與本句語境不同。",
-        "wound-mcq-62": "「軍事：在作戰期間負傷」與本句語境不同。",
-        "wound-mcq-59": "「已癒合／閉合的傷口再次裂開」與本句語境不同。",
-        "wound-mcq-63": "「負傷士兵／傷兵」與本句語境不同。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。"
+        "wound-mcq-61": "本句的「wounded」指「尤其在戰爭、攻擊等情況中受傷／負傷」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-61"
     },
@@ -2761,11 +2593,9 @@ export default {
       "masked": "The victim was seriously ____.",
       "options": [
         "wound-mcq-61",
-        "wound-mcq-60",
-        "wound-mcq-62",
-        "wound-mcq-59",
-        "wound-mcq-63",
-        "wound-mcq-58"
+        "wound-mcq-96",
+        "wound-mcq-89",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「wounded」指「尤其在戰爭、攻擊等情況中受傷／負傷」。",
       "sentenceIndex": 42,
@@ -2774,12 +2604,10 @@ export default {
         "wounded"
       ],
       "optionReasons": {
-        "wound-mcq-61": "本句指「尤其在戰爭、攻擊等情況中受傷／負傷」。",
-        "wound-mcq-60": "「尤其以武器／暴力使某人受傷」與本句語境不同。",
-        "wound-mcq-62": "「軍事：在作戰期間負傷」與本句語境不同。",
-        "wound-mcq-59": "「已癒合／閉合的傷口再次裂開」與本句語境不同。",
-        "wound-mcq-63": "「負傷士兵／傷兵」與本句語境不同。",
-        "wound-mcq-58": "「傷口逐步修復、癒合」與本句語境不同。"
+        "wound-mcq-61": "本句的「wounded」指「尤其在戰爭、攻擊等情況中受傷／負傷」。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-61"
     },
@@ -2791,11 +2619,9 @@ export default {
       "masked": "Medical teams treated ____.",
       "options": [
         "wound-mcq-64",
-        "wound-mcq-63",
-        "wound-mcq-65",
-        "wound-mcq-62",
-        "wound-mcq-66",
-        "wound-mcq-61"
+        "wound-mcq-93",
+        "wound-mcq-96",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「the wounded」指「一群受傷的人；傷員」。",
       "sentenceIndex": 43,
@@ -2804,12 +2630,10 @@ export default {
         "the wounded"
       ],
       "optionReasons": {
-        "wound-mcq-64": "本句指「一群受傷的人；傷員」。",
-        "wound-mcq-63": "「負傷士兵／傷兵」與本句語境不同。",
-        "wound-mcq-65": "「雖受傷但仍能自行行走的傷員」與本句語境不同。",
-        "wound-mcq-62": "「軍事：在作戰期間負傷」與本句語境不同。",
-        "wound-mcq-66": "「表面仍能正常生活但內心受到重大創傷的人」與本句語境不同。",
-        "wound-mcq-61": "「尤其在戰爭、攻擊等情況中受傷／負傷」與本句語境不同。"
+        "wound-mcq-64": "本句的「the wounded」指「一群受傷的人；傷員」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-64"
     },
@@ -2821,11 +2645,9 @@ export default {
       "masked": "After the crisis, many staff were among the emotional ____.",
       "options": [
         "wound-mcq-66",
-        "wound-mcq-65",
-        "wound-mcq-67",
-        "wound-mcq-64",
-        "wound-mcq-68",
-        "wound-mcq-63"
+        "wound-mcq-97",
+        "wound-mcq-89",
+        "wound-mcq-92"
       ],
       "explanation": "本句的「walking wounded」指「表面仍能正常生活但內心受到重大創傷的人」。",
       "sentenceIndex": 44,
@@ -2834,12 +2656,10 @@ export default {
         "walking wounded"
       ],
       "optionReasons": {
-        "wound-mcq-66": "本句指「表面仍能正常生活但內心受到重大創傷的人」。",
-        "wound-mcq-65": "「雖受傷但仍能自行行走的傷員」與本句語境不同。",
-        "wound-mcq-67": "「受了足以致命的傷」與本句語境不同。",
-        "wound-mcq-64": "「一群受傷的人；傷員」與本句語境不同。",
-        "wound-mcq-68": "「嚴重受傷」與本句語境不同。",
-        "wound-mcq-63": "「負傷士兵／傷兵」與本句語境不同。"
+        "wound-mcq-66": "本句的「walking wounded」指「表面仍能正常生活但內心受到重大創傷的人」。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-92": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-66"
     },
@@ -2851,11 +2671,9 @@ export default {
       "masked": "He was ____.",
       "options": [
         "wound-mcq-67",
-        "wound-mcq-66",
-        "wound-mcq-68",
-        "wound-mcq-65",
-        "wound-mcq-69",
-        "wound-mcq-64"
+        "wound-mcq-89",
+        "wound-mcq-93",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「mortally wounded」指「受了足以致命的傷」。",
       "sentenceIndex": 45,
@@ -2864,12 +2682,10 @@ export default {
         "mortally wounded"
       ],
       "optionReasons": {
-        "wound-mcq-67": "本句指「受了足以致命的傷」。",
-        "wound-mcq-66": "「表面仍能正常生活但內心受到重大創傷的人」與本句語境不同。",
-        "wound-mcq-68": "「嚴重受傷」與本句語境不同。",
-        "wound-mcq-65": "「雖受傷但仍能自行行走的傷員」與本句語境不同。",
-        "wound-mcq-69": "「受輕傷」與本句語境不同。",
-        "wound-mcq-64": "「一群受傷的人；傷員」與本句語境不同。"
+        "wound-mcq-67": "本句的「mortally wounded」指「受了足以致命的傷」。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-67"
     },
@@ -2881,11 +2697,9 @@ export default {
       "masked": "Losing was bad enough; his mocking comment ____.",
       "options": [
         "wound-mcq-78",
-        "wound-mcq-77",
-        "wound-mcq-79",
-        "wound-mcq-76",
-        "wound-mcq-80",
-        "wound-mcq-75"
+        "wound-mcq-89",
+        "wound-mcq-96",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「rubbed salt into the wound」指「令已經痛苦的情況更加難受；在傷口上撒鹽」。",
       "sentenceIndex": 46,
@@ -2894,12 +2708,10 @@ export default {
         "rubbed salt into the wound"
       ],
       "optionReasons": {
-        "wound-mcq-78": "本句指「令已經痛苦的情況更加難受；在傷口上撒鹽」。",
-        "wound-mcq-77": "「重新勾起過去的痛苦、怨恨或創傷」與本句語境不同。",
-        "wound-mcq-79": "「令原有打擊更加難受的額外問題」與本句語境不同。",
-        "wound-mcq-76": "「正式：造成深刻情感傷害的；傷人的」與本句語境不同。",
-        "wound-mcq-80": "「失敗／受挫後暫時退下來恢復」與本句語境不同。",
-        "wound-mcq-75": "「心理／情感上的受創狀態」與本句語境不同。"
+        "wound-mcq-78": "本句的「rubbed salt into the wound」指「令已經痛苦的情況更加難受；在傷口上撒鹽」。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-78"
     },
@@ -2911,11 +2723,9 @@ export default {
       "masked": "The extra fee was ____.",
       "options": [
         "wound-mcq-79",
-        "wound-mcq-78",
-        "wound-mcq-80",
-        "wound-mcq-77",
-        "wound-mcq-81",
-        "wound-mcq-76"
+        "wound-mcq-03",
+        "wound-mcq-90",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「salt in the wound」指「令原有打擊更加難受的額外問題」。",
       "sentenceIndex": 47,
@@ -2924,12 +2734,10 @@ export default {
         "salt in the wound"
       ],
       "optionReasons": {
-        "wound-mcq-79": "本句指「令原有打擊更加難受的額外問題」。",
-        "wound-mcq-78": "「令已經痛苦的情況更加難受；在傷口上撒鹽」與本句語境不同。",
-        "wound-mcq-80": "「失敗／受挫後暫時退下來恢復」與本句語境不同。",
-        "wound-mcq-77": "「重新勾起過去的痛苦、怨恨或創傷」與本句語境不同。",
-        "wound-mcq-81": "「養傷；比喻從失敗／情感創傷中療傷」與本句語境不同。",
-        "wound-mcq-76": "「正式：造成深刻情感傷害的；傷人的」與本句語境不同。"
+        "wound-mcq-79": "本句的「salt in the wound」指「令原有打擊更加難受的額外問題」。",
+        "wound-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-79"
     },
@@ -2941,11 +2749,9 @@ export default {
       "masked": "After losing the contract, the team went away to ____.",
       "options": [
         "wound-mcq-80",
-        "wound-mcq-79",
-        "wound-mcq-81",
-        "wound-mcq-78",
-        "wound-mcq-82",
-        "wound-mcq-77"
+        "wound-mcq-18",
+        "wound-mcq-96",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「lick its wounds」指「失敗／受挫後暫時退下來恢復」。",
       "sentenceIndex": 48,
@@ -2954,12 +2760,10 @@ export default {
         "lick its wounds"
       ],
       "optionReasons": {
-        "wound-mcq-80": "本句指「失敗／受挫後暫時退下來恢復」。",
-        "wound-mcq-79": "「令原有打擊更加難受的額外問題」與本句語境不同。",
-        "wound-mcq-81": "「養傷；比喻從失敗／情感創傷中療傷」與本句語境不同。",
-        "wound-mcq-78": "「令已經痛苦的情況更加難受；在傷口上撒鹽」與本句語境不同。",
-        "wound-mcq-82": "「慣用說法：時間會逐漸減輕心靈痛苦」與本句語境不同。",
-        "wound-mcq-77": "「重新勾起過去的痛苦、怨恨或創傷」與本句語境不同。"
+        "wound-mcq-80": "本句的「lick its wounds」指「失敗／受挫後暫時退下來恢復」。",
+        "wound-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-80"
     },
@@ -2971,11 +2775,9 @@ export default {
       "masked": "He stayed home to ____ after the defeat.",
       "options": [
         "wound-mcq-81",
-        "wound-mcq-80",
-        "wound-mcq-82",
+        "wound-mcq-90",
         "wound-mcq-79",
-        "wound-mcq-83",
-        "wound-mcq-78"
+        "wound-mcq-91"
       ],
       "explanation": "本句的「nurse his wounds」指「養傷；比喻從失敗／情感創傷中療傷」。",
       "sentenceIndex": 49,
@@ -2984,12 +2786,10 @@ export default {
         "nurse his wounds"
       ],
       "optionReasons": {
-        "wound-mcq-81": "本句指「養傷；比喻從失敗／情感創傷中療傷」。",
-        "wound-mcq-80": "「失敗／受挫後暫時退下來恢復」與本句語境不同。",
-        "wound-mcq-82": "「慣用說法：時間會逐漸減輕心靈痛苦」與本句語境不同。",
-        "wound-mcq-79": "「令原有打擊更加難受的額外問題」與本句語境不同。",
-        "wound-mcq-83": "「仍然非常新鮮、強烈的心傷」與本句語境不同。",
-        "wound-mcq-78": "「令已經痛苦的情況更加難受；在傷口上撒鹽」與本句語境不同。"
+        "wound-mcq-81": "本句的「nurse his wounds」指「養傷；比喻從失敗／情感創傷中療傷」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-81"
     },
@@ -3001,11 +2801,9 @@ export default {
       "masked": "The loss was still a ____.",
       "options": [
         "wound-mcq-83",
-        "wound-mcq-82",
-        "wound-mcq-84",
-        "wound-mcq-81",
-        "wound-mcq-85",
-        "wound-mcq-80"
+        "wound-mcq-80",
+        "wound-mcq-91",
+        "wound-mcq-06"
       ],
       "explanation": "本句的「raw wound」指「仍然非常新鮮、強烈的心傷」。",
       "sentenceIndex": 50,
@@ -3014,12 +2812,10 @@ export default {
         "raw wound"
       ],
       "optionReasons": {
-        "wound-mcq-83": "本句指「仍然非常新鮮、強烈的心傷」。",
-        "wound-mcq-82": "「慣用說法：時間會逐漸減輕心靈痛苦」與本句語境不同。",
-        "wound-mcq-84": "「創傷／積怨非常深」與本句語境不同。",
-        "wound-mcq-81": "「養傷；比喻從失敗／情感創傷中療傷」與本句語境不同。",
-        "wound-mcq-85": "「化解過去的傷害／修復受損關係」與本句語境不同。",
-        "wound-mcq-80": "「失敗／受挫後暫時退下來恢復」與本句語境不同。"
+        "wound-mcq-83": "本句的「raw wound」指「仍然非常新鮮、強烈的心傷」。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-83"
     },
@@ -3031,11 +2827,9 @@ export default {
       "masked": "The conflict is over, but the ____.",
       "options": [
         "wound-mcq-84",
-        "wound-mcq-83",
-        "wound-mcq-85",
-        "wound-mcq-82",
-        "wound-mcq-86",
-        "wound-mcq-81"
+        "wound-mcq-93",
+        "wound-mcq-80",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「wounds run deep」指「創傷／積怨非常深」。",
       "sentenceIndex": 51,
@@ -3044,12 +2838,10 @@ export default {
         "wounds run deep"
       ],
       "optionReasons": {
-        "wound-mcq-84": "本句指「創傷／積怨非常深」。",
-        "wound-mcq-83": "「仍然非常新鮮、強烈的心傷」與本句語境不同。",
-        "wound-mcq-85": "「化解過去的傷害／修復受損關係」與本句語境不同。",
-        "wound-mcq-82": "「慣用說法：時間會逐漸減輕心靈痛苦」與本句語境不同。",
-        "wound-mcq-86": "「整個社會／群體共同承受的歷史或社會創傷」與本句語境不同。",
-        "wound-mcq-81": "「養傷；比喻從失敗／情感創傷中療傷」與本句語境不同。"
+        "wound-mcq-84": "本句的「wounds run deep」指「創傷／積怨非常深」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-80": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-84"
     },
@@ -3061,11 +2853,9 @@ export default {
       "masked": "The meeting helped ____.",
       "options": [
         "wound-mcq-85",
-        "wound-mcq-84",
-        "wound-mcq-86",
-        "wound-mcq-83",
-        "wound-mcq-87",
-        "wound-mcq-82"
+        "wound-mcq-93",
+        "wound-mcq-97",
+        "wound-mcq-56"
       ],
       "explanation": "本句的「heal old wounds」指「化解過去的傷害／修復受損關係」。",
       "sentenceIndex": 52,
@@ -3074,12 +2864,10 @@ export default {
         "heal old wounds"
       ],
       "optionReasons": {
-        "wound-mcq-85": "本句指「化解過去的傷害／修復受損關係」。",
-        "wound-mcq-84": "「創傷／積怨非常深」與本句語境不同。",
-        "wound-mcq-86": "「整個社會／群體共同承受的歷史或社會創傷」與本句語境不同。",
-        "wound-mcq-83": "「仍然非常新鮮、強烈的心傷」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。",
-        "wound-mcq-82": "「慣用說法：時間會逐漸減輕心靈痛苦」與本句語境不同。"
+        "wound-mcq-85": "本句的「heal old wounds」指「化解過去的傷害／修復受損關係」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-85"
     },
@@ -3091,11 +2879,9 @@ export default {
       "masked": "The event remained a deep ____.",
       "options": [
         "wound-mcq-86",
-        "wound-mcq-85",
-        "wound-mcq-87",
-        "wound-mcq-84",
-        "wound-mcq-88",
-        "wound-mcq-83"
+        "wound-mcq-93",
+        "wound-mcq-97",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「national wound」指「整個社會／群體共同承受的歷史或社會創傷」。",
       "sentenceIndex": 54,
@@ -3104,12 +2890,10 @@ export default {
         "national wound"
       ],
       "optionReasons": {
-        "wound-mcq-86": "本句指「整個社會／群體共同承受的歷史或社會創傷」。",
-        "wound-mcq-85": "「化解過去的傷害／修復受損關係」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。",
-        "wound-mcq-84": "「創傷／積怨非常深」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-83": "「仍然非常新鮮、強烈的心傷」與本句語境不同。"
+        "wound-mcq-86": "本句的「national wound」指「整個社會／群體共同承受的歷史或社會創傷」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-86"
     },
@@ -3121,11 +2905,9 @@ export default {
       "masked": "She looked ____ by the remark.",
       "options": [
         "wound-mcq-87",
-        "wound-mcq-86",
-        "wound-mcq-88",
-        "wound-mcq-85",
-        "wound-mcq-89",
-        "wound-mcq-84"
+        "wound-mcq-93",
+        "wound-mcq-97",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「wounded」指「植物因切割、破損等形成的受傷部位」。",
       "sentenceIndex": 55,
@@ -3134,12 +2916,10 @@ export default {
         "wounded"
       ],
       "optionReasons": {
-        "wound-mcq-87": "本句指「植物因切割、破損等形成的受傷部位」。",
-        "wound-mcq-86": "「整個社會／群體共同承受的歷史或社會創傷」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-85": "「化解過去的傷害／修復受損關係」與本句語境不同。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-84": "「創傷／積怨非常深」與本句語境不同。"
+        "wound-mcq-87": "本句的「wounded」指「植物因切割、破損等形成的受傷部位」。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-97": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-87"
     },
@@ -3151,11 +2931,9 @@ export default {
       "masked": "He gave me a ____.",
       "options": [
         "wound-mcq-87",
-        "wound-mcq-86",
-        "wound-mcq-88",
-        "wound-mcq-85",
-        "wound-mcq-89",
-        "wound-mcq-84"
+        "wound-mcq-91",
+        "wound-mcq-90",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「wounded look」指「植物因切割、破損等形成的受傷部位」。",
       "sentenceIndex": 56,
@@ -3164,12 +2942,10 @@ export default {
         "wounded look"
       ],
       "optionReasons": {
-        "wound-mcq-87": "本句指「植物因切割、破損等形成的受傷部位」。",
-        "wound-mcq-86": "「整個社會／群體共同承受的歷史或社會創傷」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-85": "「化解過去的傷害／修復受損關係」與本句語境不同。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-84": "「創傷／積怨非常深」與本句語境不同。"
+        "wound-mcq-87": "本句的「wounded look」指「植物因切割、破損等形成的受傷部位」。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-87"
     },
@@ -3181,11 +2957,9 @@ export default {
       "masked": "I thought you trusted me,” she said in a ____.",
       "options": [
         "wound-mcq-72",
-        "wound-mcq-71",
-        "wound-mcq-73",
-        "wound-mcq-70",
-        "wound-mcq-74",
-        "wound-mcq-69"
+        "wound-mcq-90",
+        "wound-mcq-93",
+        "wound-mcq-96"
       ],
       "explanation": "本句的「wounded tone」指「帶著受傷感的語氣」。",
       "sentenceIndex": 57,
@@ -3194,12 +2968,10 @@ export default {
         "wounded tone"
       ],
       "optionReasons": {
-        "wound-mcq-72": "本句指「帶著受傷感的語氣」。",
-        "wound-mcq-71": "「顯示心靈受傷的眼神／表情」與本句語境不同。",
-        "wound-mcq-73": "「受到打擊的自尊／自我形象」與本句語境不同。",
-        "wound-mcq-70": "「因別人言行而感到深深受傷」與本句語境不同。",
-        "wound-mcq-74": "「受到侮辱／損害的尊嚴」與本句語境不同。",
-        "wound-mcq-69": "「受輕傷」與本句語境不同。"
+        "wound-mcq-72": "本句的「wounded tone」指「帶著受傷感的語氣」。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-96": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-72"
     },
@@ -3211,11 +2983,9 @@ export default {
       "masked": "The novel explores emotional ____.",
       "options": [
         "wound-mcq-75",
-        "wound-mcq-74",
-        "wound-mcq-76",
-        "wound-mcq-73",
-        "wound-mcq-77",
-        "wound-mcq-72"
+        "wound-mcq-59",
+        "wound-mcq-21",
+        "wound-mcq-90"
       ],
       "explanation": "本句的「woundedness」指「心理／情感上的受創狀態」。",
       "sentenceIndex": 58,
@@ -3224,12 +2994,10 @@ export default {
         "woundedness"
       ],
       "optionReasons": {
-        "wound-mcq-75": "本句指「心理／情感上的受創狀態」。",
-        "wound-mcq-74": "「受到侮辱／損害的尊嚴」與本句語境不同。",
-        "wound-mcq-76": "「正式：造成深刻情感傷害的；傷人的」與本句語境不同。",
-        "wound-mcq-73": "「受到打擊的自尊／自我形象」與本句語境不同。",
-        "wound-mcq-77": "「重新勾起過去的痛苦、怨恨或創傷」與本句語境不同。",
-        "wound-mcq-72": "「帶著受傷感的語氣」與本句語境不同。"
+        "wound-mcq-75": "本句的「woundedness」指「心理／情感上的受創狀態」。",
+        "wound-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-90": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-75"
     },
@@ -3241,11 +3009,9 @@ export default {
       "masked": "His most ____ came at the end.",
       "options": [
         "wound-mcq-89",
-        "wound-mcq-88",
-        "wound-mcq-90",
-        "wound-mcq-87",
-        "wound-mcq-91",
-        "wound-mcq-86"
+        "wound-mcq-37",
+        "wound-mcq-21",
+        "wound-mcq-60"
       ],
       "explanation": "本句的「wounding comment」指「完全不同的字：wind 的過去式／過去分詞」。",
       "sentenceIndex": 59,
@@ -3254,12 +3020,10 @@ export default {
         "wounding comment"
       ],
       "optionReasons": {
-        "wound-mcq-89": "本句指「完全不同的字：wind 的過去式／過去分詞」。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-90": "「wind 的過去式：給鐘錶上發條」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-86": "「整個社會／群體共同承受的歷史或社會創傷」與本句語境不同。"
+        "wound-mcq-89": "本句的「wounding comment」指「完全不同的字：wind 的過去式／過去分詞」。",
+        "wound-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-89"
     },
@@ -3271,11 +3035,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "wound-mcq-90",
-        "wound-mcq-89",
-        "wound-mcq-91",
-        "wound-mcq-88",
-        "wound-mcq-92",
-        "wound-mcq-87"
+        "wound-mcq-37",
+        "wound-mcq-79",
+        "wound-mcq-22"
       ],
       "explanation": "本句的「wound the clock」指「wind 的過去式：給鐘錶上發條」。",
       "sentenceIndex": 61,
@@ -3284,12 +3046,10 @@ export default {
         "wound the clock"
       ],
       "optionReasons": {
-        "wound-mcq-90": "本句指「wind 的過去式：給鐘錶上發條」。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-92": "「道路蜿蜒穿過山丘」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。"
+        "wound-mcq-90": "本句的「wound the clock」指「wind 的過去式：給鐘錶上發條」。",
+        "wound-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-79": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-90"
     },
@@ -3301,11 +3061,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "wound-mcq-90",
-        "wound-mcq-89",
-        "wound-mcq-91",
-        "wound-mcq-88",
-        "wound-mcq-92",
-        "wound-mcq-87"
+        "wound-mcq-50",
+        "wound-mcq-21",
+        "wound-mcq-84"
       ],
       "explanation": "本句的「wound the rope around the post」指「wind 的過去式：給鐘錶上發條」。",
       "sentenceIndex": 62,
@@ -3314,12 +3072,10 @@ export default {
         "wound the rope around the post"
       ],
       "optionReasons": {
-        "wound-mcq-90": "本句指「wind 的過去式：給鐘錶上發條」。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-92": "「道路蜿蜒穿過山丘」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。"
+        "wound-mcq-90": "本句的「wound the rope around the post」指「wind 的過去式：給鐘錶上發條」。",
+        "wound-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-84": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-90"
     },
@@ -3331,11 +3087,9 @@ export default {
       "masked": "The road ____.",
       "options": [
         "wound-mcq-90",
-        "wound-mcq-89",
-        "wound-mcq-91",
-        "wound-mcq-88",
-        "wound-mcq-92",
-        "wound-mcq-87"
+        "wound-mcq-18",
+        "wound-mcq-64",
+        "wound-mcq-02"
       ],
       "explanation": "本句的「wound through the hills」指「wind 的過去式：給鐘錶上發條」。",
       "sentenceIndex": 63,
@@ -3344,12 +3098,10 @@ export default {
         "wound through the hills"
       ],
       "optionReasons": {
-        "wound-mcq-90": "本句指「wind 的過去式：給鐘錶上發條」。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-92": "「道路蜿蜒穿過山丘」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。"
+        "wound-mcq-90": "本句的「wound through the hills」指「wind 的過去式：給鐘錶上發條」。",
+        "wound-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-90"
     },
@@ -3361,11 +3113,9 @@ export default {
       "masked": "The cable was ____.",
       "options": [
         "wound-mcq-91",
-        "wound-mcq-90",
-        "wound-mcq-92",
-        "wound-mcq-89",
-        "wound-mcq-93",
-        "wound-mcq-88"
+        "wound-mcq-23",
+        "wound-mcq-45",
+        "wound-mcq-72"
       ],
       "explanation": "本句的「wound around the reel」指「線／繩已纏繞在某物周圍」。",
       "sentenceIndex": 64,
@@ -3374,12 +3124,10 @@ export default {
         "wound around the reel"
       ],
       "optionReasons": {
-        "wound-mcq-91": "本句指「線／繩已纏繞在某物周圍」。",
-        "wound-mcq-90": "「wind 的過去式：給鐘錶上發條」與本句語境不同。",
-        "wound-mcq-92": "「道路蜿蜒穿過山丘」與本句語境不同。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-93": "「沿曲折路線蜿蜒前進」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。"
+        "wound-mcq-91": "本句的「wound around the reel」指「線／繩已纏繞在某物周圍」。",
+        "wound-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-72": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-91"
     },
@@ -3391,11 +3139,9 @@ export default {
       "masked": "He ____ every morning.",
       "options": [
         "wound-mcq-90",
-        "wound-mcq-89",
-        "wound-mcq-91",
-        "wound-mcq-88",
-        "wound-mcq-92",
-        "wound-mcq-87"
+        "wound-mcq-83",
+        "wound-mcq-56",
+        "wound-mcq-91"
       ],
       "explanation": "本句的「wound the old watch」指「wind 的過去式：給鐘錶上發條」。",
       "sentenceIndex": 65,
@@ -3404,12 +3150,10 @@ export default {
         "wound the old watch"
       ],
       "optionReasons": {
-        "wound-mcq-90": "本句指「wind 的過去式：給鐘錶上發條」。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-88": "「生物組織受到損傷後產生的傷害反應」與本句語境不同。",
-        "wound-mcq-92": "「道路蜿蜒穿過山丘」與本句語境不同。",
-        "wound-mcq-87": "「植物因切割、破損等形成的受傷部位」與本句語境不同。"
+        "wound-mcq-90": "本句的「wound the old watch」指「wind 的過去式：給鐘錶上發條」。",
+        "wound-mcq-83": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-91": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-90"
     },
@@ -3421,11 +3165,9 @@ export default {
       "masked": "The path ____.",
       "options": [
         "wound-mcq-92",
-        "wound-mcq-91",
-        "wound-mcq-93",
-        "wound-mcq-90",
-        "wound-mcq-94",
-        "wound-mcq-89"
+        "wound-mcq-37",
+        "wound-mcq-55",
+        "wound-mcq-08"
       ],
       "explanation": "本句的「wound through the forest」指「道路蜿蜒穿過山丘」。",
       "sentenceIndex": 66,
@@ -3434,12 +3176,10 @@ export default {
         "wound through the forest"
       ],
       "optionReasons": {
-        "wound-mcq-92": "本句指「道路蜿蜒穿過山丘」。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-93": "「沿曲折路線蜿蜒前進」與本句語境不同。",
-        "wound-mcq-90": "「wind 的過去式：給鐘錶上發條」與本句語境不同。",
-        "wound-mcq-94": "「wind up 的過去式：最後變成／結果是」與本句語境不同。",
-        "wound-mcq-89": "「完全不同的字：wind 的過去式／過去分詞」與本句語境不同。"
+        "wound-mcq-92": "本句的「wound through the forest」指「道路蜿蜒穿過山丘」。",
+        "wound-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-92"
     },
@@ -3451,11 +3191,9 @@ export default {
       "masked": "The procession ____.",
       "options": [
         "wound-mcq-93",
-        "wound-mcq-92",
-        "wound-mcq-94",
-        "wound-mcq-91",
-        "wound-mcq-95",
-        "wound-mcq-90"
+        "wound-mcq-11",
+        "wound-mcq-21",
+        "wound-mcq-59"
       ],
       "explanation": "本句的「wound its way through the streets」指「沿曲折路線蜿蜒前進」。",
       "sentenceIndex": 67,
@@ -3464,12 +3202,10 @@ export default {
         "wound its way through the streets"
       ],
       "optionReasons": {
-        "wound-mcq-93": "本句指「沿曲折路線蜿蜒前進」。",
-        "wound-mcq-92": "「道路蜿蜒穿過山丘」與本句語境不同。",
-        "wound-mcq-94": "「wind up 的過去式：最後變成／結果是」與本句語境不同。",
-        "wound-mcq-91": "「線／繩已纏繞在某物周圍」與本句語境不同。",
-        "wound-mcq-95": "「非正式：非常緊張、激動」與本句語境不同。",
-        "wound-mcq-90": "「wind 的過去式：給鐘錶上發條」與本句語境不同。"
+        "wound-mcq-93": "本句的「wound its way through the streets」指「沿曲折路線蜿蜒前進」。",
+        "wound-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-93"
     },
@@ -3481,11 +3217,9 @@ export default {
       "masked": "He seemed very ____ before the interview.",
       "options": [
         "wound-mcq-96",
-        "wound-mcq-95",
-        "wound-mcq-97",
-        "wound-mcq-94",
-        "wound-mcq-98",
-        "wound-mcq-93"
+        "wound-mcq-60",
+        "wound-mcq-04",
+        "wound-mcq-09"
       ],
       "explanation": "本句的「wound-up」指「緊張、焦躁、精神繃得很緊的」。",
       "sentenceIndex": 68,
@@ -3494,12 +3228,10 @@ export default {
         "wound-up"
       ],
       "optionReasons": {
-        "wound-mcq-96": "本句指「緊張、焦躁、精神繃得很緊的」。",
-        "wound-mcq-95": "「非正式：非常緊張、激動」與本句語境不同。",
-        "wound-mcq-97": "「緊緊纏繞的」與本句語境不同。",
-        "wound-mcq-94": "「wind up 的過去式：最後變成／結果是」與本句語境不同。",
-        "wound-mcq-98": "「神經緊繃、容易焦慮的」與本句語境不同。",
-        "wound-mcq-93": "「沿曲折路線蜿蜒前進」與本句語境不同。"
+        "wound-mcq-96": "本句的「wound-up」指「緊張、焦躁、精神繃得很緊的」。",
+        "wound-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-96"
     },
@@ -3511,11 +3243,9 @@ export default {
       "masked": "She is a little ____.",
       "options": [
         "wound-mcq-97",
-        "wound-mcq-96",
-        "wound-mcq-98",
-        "wound-mcq-95",
-        "wound-mcq-99",
-        "wound-mcq-94"
+        "wound-mcq-03",
+        "wound-mcq-89",
+        "wound-mcq-93"
       ],
       "explanation": "本句的「tightly wound」指「緊緊纏繞的」。",
       "sentenceIndex": 69,
@@ -3524,12 +3254,10 @@ export default {
         "tightly wound"
       ],
       "optionReasons": {
-        "wound-mcq-97": "本句指「緊緊纏繞的」。",
-        "wound-mcq-96": "「緊張、焦躁、精神繃得很緊的」與本句語境不同。",
-        "wound-mcq-98": "「神經緊繃、容易焦慮的」與本句語境不同。",
-        "wound-mcq-95": "「非正式：非常緊張、激動」與本句語境不同。",
-        "wound-mcq-99": "「已經繞製／纏繞的線圈或線材」與本句語境不同。",
-        "wound-mcq-94": "「wind up 的過去式：最後變成／結果是」與本句語境不同。"
+        "wound-mcq-97": "本句的「tightly wound」指「緊緊纏繞的」。",
+        "wound-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-89": "請比較這個意思與句子中標示的用法。",
+        "wound-mcq-93": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "wound-mcq-97"
     }
@@ -3541,5 +3269,7 @@ export default {
     "sha256": "878d37c2d924e61d9a5d45ee648219efa150c998adcfb3d19182091694573659",
     "pages": 59
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

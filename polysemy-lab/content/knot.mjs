@@ -357,18 +357,7 @@ export default {
       "en": "knot (wood)",
       "zh": "木節",
       "note": "來源詞義：木節",
-      "examples": [
-        [
-          "The ship was travelling at twenty knots.",
-          "船以二十節航行。",
-          "木節"
-        ],
-        [
-          "The wind speed reached forty knots.",
-          "風速達到四十節。",
-          "木節"
-        ]
-      ],
+      "examples": [],
       "options": [],
       "excludedOverlaps": []
     },
@@ -450,6 +439,28 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "knot-reviewed-264744f49c",
+      "title": "航海及航空常用速度單位，相當於每小時一海里",
+      "form": "knot · source section 20",
+      "en": "航海及航空常用速度單位，相當於每小時一海里",
+      "zh": "航海及航空常用速度單位，相當於每小時一海里",
+      "note": "對照原始教材第 20 節及例句核實。",
+      "examples": [
+        [
+          "The ship was travelling at twenty knots.",
+          "船以二十節航行。",
+          "航海及航空常用速度單位，相當於每小時一海里"
+        ],
+        [
+          "The wind speed reached forty knots.",
+          "風速達到四十節。",
+          "航海及航空常用速度單位，相當於每小時一海里"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -461,11 +472,9 @@ export default {
       "masked": "He tied a ____ in the rope.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
+        "knot-reviewed-264744f49c",
         "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-07"
       ],
       "explanation": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 0,
@@ -474,12 +483,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -491,11 +498,9 @@ export default {
       "masked": "The ____ was difficult to untie.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-07",
+        "knot-reviewed-264744f49c",
+        "knot-mcq-16"
       ],
       "explanation": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 1,
@@ -504,12 +509,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -522,10 +525,8 @@ export default {
       "options": [
         "knot-mcq-19",
         "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-14",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 2,
@@ -534,12 +535,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -551,11 +550,9 @@ export default {
       "masked": "Can you ____ in this string?",
       "options": [
         "knot-mcq-01",
-        "knot-mcq-02",
-        "knot-mcq-03",
-        "knot-mcq-04",
-        "knot-mcq-05",
-        "knot-mcq-06"
+        "knot-mcq-18",
+        "knot-mcq-06",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「tie a knot」指「打結」。",
       "sentenceIndex": 3,
@@ -564,12 +561,10 @@ export default {
         "tie a knot"
       ],
       "optionReasons": {
-        "knot-mcq-01": "本句指「打結」。",
-        "knot-mcq-02": "「解結」是「untie a knot」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-01": "本句的「tie a knot」指「打結」。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-01"
     },
@@ -581,11 +576,9 @@ export default {
       "masked": "He ____ to secure the bag.",
       "options": [
         "knot-mcq-01",
-        "knot-mcq-02",
-        "knot-mcq-03",
-        "knot-mcq-04",
-        "knot-mcq-05",
-        "knot-mcq-06"
+        "knot-mcq-07",
+        "knot-mcq-08",
+        "knot-mcq-14"
       ],
       "explanation": "本句的「tied a knot」指「打結」。",
       "sentenceIndex": 4,
@@ -594,12 +587,10 @@ export default {
         "tied a knot"
       ],
       "optionReasons": {
-        "knot-mcq-01": "本句指「打結」。",
-        "knot-mcq-02": "「解結」是「untie a knot」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-01": "本句的「tied a knot」指「打結」。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-01"
     },
@@ -611,11 +602,9 @@ export default {
       "masked": "I couldn't ____.",
       "options": [
         "knot-mcq-02",
-        "knot-mcq-01",
-        "knot-mcq-03",
-        "knot-mcq-04",
-        "knot-mcq-05",
-        "knot-mcq-06"
+        "knot-mcq-08",
+        "knot-mcq-06",
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「untie the knot」指「解結」。",
       "sentenceIndex": 5,
@@ -624,12 +613,10 @@ export default {
         "untie the knot"
       ],
       "optionReasons": {
-        "knot-mcq-02": "本句指「解結」。",
-        "knot-mcq-01": "「打結」是「tie a knot」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-02": "本句的「untie the knot」指「解結」。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-02"
     },
@@ -641,11 +628,9 @@ export default {
       "masked": "She slowly ____.",
       "options": [
         "knot-mcq-02",
-        "knot-mcq-01",
-        "knot-mcq-03",
-        "knot-mcq-04",
-        "knot-mcq-05",
-        "knot-mcq-06"
+        "knot-mcq-06",
+        "knot-mcq-08",
+        "knot-mcq-18"
       ],
       "explanation": "本句的「undid the knot」指「解結」。",
       "sentenceIndex": 6,
@@ -654,12 +639,10 @@ export default {
         "undid the knot"
       ],
       "optionReasons": {
-        "knot-mcq-02": "本句指「解結」。",
-        "knot-mcq-01": "「打結」是「tie a knot」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-02": "本句的「undid the knot」指「解結」。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-02"
     },
@@ -671,11 +654,9 @@ export default {
       "masked": "My hair is full of ____.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
+        "knot-mcq-06",
         "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「knots」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 7,
@@ -684,12 +665,10 @@ export default {
         "knots"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knots」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -701,11 +680,9 @@ export default {
       "masked": "There was a ____ in the cable.",
       "options": [
         "knot-mcq-19",
+        "knot-mcq-06",
         "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-16"
       ],
       "explanation": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 8,
@@ -714,12 +691,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -731,10 +706,8 @@ export default {
       "masked": "Her hair was ____ after the windy walk.",
       "options": [
         "knot-mcq-03",
-        "knot-mcq-02",
-        "knot-mcq-04",
-        "knot-mcq-01",
-        "knot-mcq-05",
+        "knot-mcq-18",
+        "knot-mcq-16",
         "knot-mcq-06"
       ],
       "explanation": "本句的「in knots」指「頭髮打結」。",
@@ -744,12 +717,10 @@ export default {
         "in knots"
       ],
       "optionReasons": {
-        "knot-mcq-03": "本句指「頭髮打結」。",
-        "knot-mcq-02": "「解結」是「untie a knot」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-01": "「打結」是「tie a knot」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-03": "本句的「in knots」指「頭髮打結」。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-03"
     },
@@ -761,11 +732,9 @@ export default {
       "masked": "Use conditioner if your hair gets ____ easily.",
       "options": [
         "knot-mcq-03",
-        "knot-mcq-02",
-        "knot-mcq-04",
-        "knot-mcq-01",
-        "knot-mcq-05",
-        "knot-mcq-06"
+        "knot-mcq-07",
+        "knot-mcq-06",
+        "knot-mcq-18"
       ],
       "explanation": "本句的「in knots」指「頭髮打結」。",
       "sentenceIndex": 10,
@@ -774,12 +743,10 @@ export default {
         "in knots"
       ],
       "optionReasons": {
-        "knot-mcq-03": "本句指「頭髮打結」。",
-        "knot-mcq-02": "「解結」是「untie a knot」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-01": "「打結」是「tie a knot」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-03": "本句的「in knots」指「頭髮打結」。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-03"
     },
@@ -791,11 +758,9 @@ export default {
       "masked": "I have a ____ in my shoulder.",
       "options": [
         "knot-mcq-05",
-        "knot-mcq-04",
-        "knot-mcq-06",
-        "knot-mcq-03",
-        "knot-mcq-07",
-        "knot-mcq-02"
+        "knot-mcq-08",
+        "knot-mcq-18",
+        "knot-mcq-16"
       ],
       "explanation": "本句的「knot」指「肌肉硬結」。",
       "sentenceIndex": 11,
@@ -804,12 +769,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-05": "本句指「肌肉硬結」。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-02": "「解結」是「untie a knot」的用法，與本句語境不同。"
+        "knot-mcq-05": "本句的「knot」指「肌肉硬結」。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-05"
     },
@@ -821,11 +784,9 @@ export default {
       "masked": "The massage helped loosen the ____ in my back.",
       "options": [
         "knot-mcq-05",
-        "knot-mcq-04",
-        "knot-mcq-06",
-        "knot-mcq-03",
-        "knot-mcq-07",
-        "knot-mcq-02"
+        "knot-mcq-08",
+        "knot-mcq-18",
+        "knot-mcq-07"
       ],
       "explanation": "本句的「knot」指「肌肉硬結」。",
       "sentenceIndex": 12,
@@ -834,12 +795,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-05": "本句指「肌肉硬結」。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-02": "「解結」是「untie a knot」的用法，與本句語境不同。"
+        "knot-mcq-05": "本句的「knot」指「肌肉硬結」。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-05"
     },
@@ -851,11 +810,9 @@ export default {
       "masked": "My shoulders were ____ after the stressful meeting.",
       "options": [
         "knot-mcq-06",
-        "knot-mcq-05",
-        "knot-mcq-07",
-        "knot-mcq-04",
-        "knot-mcq-08",
-        "knot-mcq-03"
+        "knot-mcq-19",
+        "knot-reviewed-264744f49c",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「in knots」指「肌肉繃緊」。",
       "sentenceIndex": 13,
@@ -864,12 +821,10 @@ export default {
         "in knots"
       ],
       "optionReasons": {
-        "knot-mcq-06": "本句指「肌肉繃緊」。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。"
+        "knot-mcq-06": "本句的「in knots」指「肌肉繃緊」。",
+        "knot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-06"
     },
@@ -881,11 +836,9 @@ export default {
       "masked": "Stress can leave your muscles ____.",
       "options": [
         "knot-mcq-06",
-        "knot-mcq-05",
-        "knot-mcq-07",
-        "knot-mcq-04",
-        "knot-mcq-08",
-        "knot-mcq-03"
+        "knot-mcq-02",
+        "knot-mcq-18",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「in knots」指「肌肉繃緊」。",
       "sentenceIndex": 14,
@@ -894,12 +847,10 @@ export default {
         "in knots"
       ],
       "optionReasons": {
-        "knot-mcq-06": "本句指「肌肉繃緊」。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-03": "「頭髮打結」是「hair in knots」的用法，與本句語境不同。"
+        "knot-mcq-06": "本句的「in knots」指「肌肉繃緊」。",
+        "knot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-06"
     },
@@ -911,11 +862,9 @@ export default {
       "masked": "I felt ____.",
       "options": [
         "knot-mcq-07",
-        "knot-mcq-06",
-        "knot-mcq-08",
-        "knot-mcq-05",
-        "knot-mcq-09",
-        "knot-mcq-04"
+        "knot-mcq-19",
+        "knot-mcq-16",
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
       "sentenceIndex": 15,
@@ -924,12 +873,10 @@ export default {
         "a knot in my stomach"
       ],
       "optionReasons": {
-        "knot-mcq-07": "本句指「胃裏一緊；心裏揪住」。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。"
+        "knot-mcq-07": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
+        "knot-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-07"
     },
@@ -941,11 +888,9 @@ export default {
       "masked": "I always get ____ before interviews.",
       "options": [
         "knot-mcq-07",
-        "knot-mcq-06",
-        "knot-mcq-08",
-        "knot-mcq-05",
         "knot-mcq-09",
-        "knot-mcq-04"
+        "knot-mcq-16",
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
       "sentenceIndex": 16,
@@ -954,12 +899,10 @@ export default {
         "a knot in my stomach"
       ],
       "optionReasons": {
-        "knot-mcq-07": "本句指「胃裏一緊；心裏揪住」。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。"
+        "knot-mcq-07": "本句的「a knot in my stomach」指「胃裏一緊；心裏揪住」。",
+        "knot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-07"
     },
@@ -971,11 +914,9 @@ export default {
       "masked": "The bad news left her with ____.",
       "options": [
         "knot-mcq-07",
-        "knot-mcq-06",
-        "knot-mcq-08",
-        "knot-mcq-05",
         "knot-mcq-09",
-        "knot-mcq-04"
+        "knot-mcq-16",
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「a knot in her stomach」指「胃裏一緊；心裏揪住」。",
       "sentenceIndex": 17,
@@ -984,12 +925,10 @@ export default {
         "a knot in her stomach"
       ],
       "optionReasons": {
-        "knot-mcq-07": "本句指「胃裏一緊；心裏揪住」。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-04": "「電線纏結」是「knot in a cable」的用法，與本句語境不同。"
+        "knot-mcq-07": "本句的「a knot in her stomach」指「胃裏一緊；心裏揪住」。",
+        "knot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-07"
     },
@@ -1001,11 +940,9 @@ export default {
       "masked": "I felt ____ when I said goodbye.",
       "options": [
         "knot-mcq-08",
-        "knot-mcq-07",
-        "knot-mcq-09",
-        "knot-mcq-06",
-        "knot-mcq-10",
-        "knot-mcq-05"
+        "knot-mcq-02",
+        "knot-mcq-18",
+        "knot-mcq-06"
       ],
       "explanation": "本句的「a knot in my throat」指「喉頭哽住」。",
       "sentenceIndex": 18,
@@ -1014,12 +951,10 @@ export default {
         "a knot in my throat"
       ],
       "optionReasons": {
-        "knot-mcq-08": "本句指「喉頭哽住」。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。"
+        "knot-mcq-08": "本句的「a knot in my throat」指「喉頭哽住」。",
+        "knot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-08"
     },
@@ -1031,11 +966,9 @@ export default {
       "masked": "The speech left him with ____.",
       "options": [
         "knot-mcq-08",
-        "knot-mcq-07",
         "knot-mcq-09",
-        "knot-mcq-06",
-        "knot-mcq-10",
-        "knot-mcq-05"
+        "knot-mcq-16",
+        "knot-mcq-14"
       ],
       "explanation": "本句的「a knot in his throat」指「喉頭哽住」。",
       "sentenceIndex": 19,
@@ -1044,12 +977,10 @@ export default {
         "a knot in his throat"
       ],
       "optionReasons": {
-        "knot-mcq-08": "本句指「喉頭哽住」。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。",
-        "knot-mcq-05": "「肌肉硬結」是「muscle knot」的用法，與本句語境不同。"
+        "knot-mcq-08": "本句的「a knot in his throat」指「喉頭哽住」。",
+        "knot-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-08"
     },
@@ -1061,11 +992,9 @@ export default {
       "masked": "They ____ last summer.",
       "options": [
         "knot-mcq-09",
-        "knot-mcq-08",
-        "knot-mcq-10",
-        "knot-mcq-07",
-        "knot-mcq-11",
-        "knot-mcq-06"
+        "knot-mcq-14",
+        "knot-mcq-18",
+        "knot-mcq-07"
       ],
       "explanation": "本句的「tied the knot」指「結婚」。",
       "sentenceIndex": 20,
@@ -1074,12 +1003,10 @@ export default {
         "tied the knot"
       ],
       "optionReasons": {
-        "knot-mcq-09": "本句指「結婚」。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-09": "本句的「tied the knot」指「結婚」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-09"
     },
@@ -1091,11 +1018,9 @@ export default {
       "masked": "The couple plans to ____ next year.",
       "options": [
         "knot-mcq-09",
-        "knot-mcq-08",
-        "knot-mcq-10",
-        "knot-mcq-07",
-        "knot-mcq-11",
-        "knot-mcq-06"
+        "knot-mcq-18",
+        "knot-mcq-16",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「tie the knot」指「結婚」。",
       "sentenceIndex": 21,
@@ -1104,12 +1029,10 @@ export default {
         "tie the knot"
       ],
       "optionReasons": {
-        "knot-mcq-09": "本句指「結婚」。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-06": "「肌肉繃緊」是「muscles in knots」的用法，與本句語境不同。"
+        "knot-mcq-09": "本句的「tie the knot」指「結婚」。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-09"
     },
@@ -1121,11 +1044,9 @@ export default {
       "masked": "He ____ trying to explain himself.",
       "options": [
         "knot-mcq-10",
-        "knot-mcq-09",
-        "knot-mcq-11",
-        "knot-mcq-08",
-        "knot-mcq-12",
-        "knot-mcq-07"
+        "knot-mcq-18",
+        "knot-mcq-16",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「got tied up in knots」指「緊張得亂／過分糾結」。",
       "sentenceIndex": 22,
@@ -1134,12 +1055,10 @@ export default {
         "got tied up in knots"
       ],
       "optionReasons": {
-        "knot-mcq-10": "本句指「緊張得亂／過分糾結」。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。"
+        "knot-mcq-10": "本句的「got tied up in knots」指「緊張得亂／過分糾結」。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-10"
     },
@@ -1151,11 +1070,9 @@ export default {
       "masked": "Don't ____ over a small mistake.",
       "options": [
         "knot-mcq-10",
-        "knot-mcq-09",
-        "knot-mcq-11",
-        "knot-mcq-08",
-        "knot-mcq-12",
-        "knot-mcq-07"
+        "knot-mcq-18",
+        "knot-mcq-16",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「tie yourself in knots」指「緊張得亂／過分糾結」。",
       "sentenceIndex": 23,
@@ -1164,12 +1081,10 @@ export default {
         "tie yourself in knots"
       ],
       "optionReasons": {
-        "knot-mcq-10": "本句指「緊張得亂／過分糾結」。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-08": "「喉頭哽住」是「knot in your throat」的用法，與本句語境不同。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-07": "「胃裏一緊；心裏揪住」是「knot in your stomach」的用法，與本句語境不同。"
+        "knot-mcq-10": "本句的「tie yourself in knots」指「緊張得亂／過分糾結」。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-10"
     },
@@ -1181,11 +1096,9 @@ export default {
       "masked": "She ____ tightly.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-14",
+        "knot-mcq-07",
+        "knot-mcq-18"
       ],
       "explanation": "本句的「knotted the rope」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 24,
@@ -1194,12 +1107,10 @@ export default {
         "knotted the rope"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knotted the rope」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -1211,11 +1122,9 @@ export default {
       "masked": "He ____ around his neck.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-07",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「knotted the scarf」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 25,
@@ -1224,12 +1133,10 @@ export default {
         "knotted the scarf"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knotted the scarf」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -1241,11 +1148,9 @@ export default {
       "masked": "____.",
       "options": [
         "knot-mcq-12",
-        "knot-mcq-11",
-        "knot-mcq-13",
-        "knot-mcq-10",
-        "knot-mcq-14",
-        "knot-mcq-09"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-08",
+        "knot-mcq-14"
       ],
       "explanation": "本句的「Knot the two ropes together」指「打結綁在一起」。",
       "sentenceIndex": 26,
@@ -1254,12 +1159,10 @@ export default {
         "Knot the two ropes together"
       ],
       "optionReasons": {
-        "knot-mcq-12": "本句指「打結綁在一起」。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。"
+        "knot-mcq-12": "本句的「Knot the two ropes together」指「打結綁在一起」。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-12"
     },
@@ -1271,11 +1174,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "knot-mcq-12",
-        "knot-mcq-11",
-        "knot-mcq-13",
-        "knot-mcq-10",
-        "knot-mcq-14",
-        "knot-mcq-09"
+        "knot-mcq-16",
+        "knot-mcq-06",
+        "knot-mcq-18"
       ],
       "explanation": "本句的「knotted the ends together」指「打結綁在一起」。",
       "sentenceIndex": 27,
@@ -1284,12 +1185,10 @@ export default {
         "knotted the ends together"
       ],
       "optionReasons": {
-        "knot-mcq-12": "本句指「打結綁在一起」。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-09": "「結婚」是「tie the knot」的用法，與本句語境不同。"
+        "knot-mcq-12": "本句的「knotted the ends together」指「打結綁在一起」。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-12"
     },
@@ -1301,11 +1200,9 @@ export default {
       "masked": "My hair ____ in the wind.",
       "options": [
         "knot-mcq-13",
-        "knot-mcq-12",
         "knot-mcq-14",
-        "knot-mcq-11",
-        "knot-mcq-15",
-        "knot-mcq-10"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-16"
       ],
       "explanation": "本句的「knotted」指「打結的；糾纏的」。",
       "sentenceIndex": 28,
@@ -1314,12 +1211,10 @@ export default {
         "knotted"
       ],
       "optionReasons": {
-        "knot-mcq-13": "本句指「打結的；糾纏的」。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。"
+        "knot-mcq-13": "本句的「knotted」指「打結的；糾纏的」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-13"
     },
@@ -1331,11 +1226,9 @@ export default {
       "masked": "The fishing line had ____ badly.",
       "options": [
         "knot-mcq-13",
-        "knot-mcq-12",
         "knot-mcq-14",
-        "knot-mcq-11",
-        "knot-mcq-15",
-        "knot-mcq-10"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「knotted」指「打結的；糾纏的」。",
       "sentenceIndex": 29,
@@ -1344,12 +1237,10 @@ export default {
         "knotted"
       ],
       "optionReasons": {
-        "knot-mcq-13": "本句指「打結的；糾纏的」。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。"
+        "knot-mcq-13": "本句的「knotted」指「打結的；糾纏的」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-13"
     },
@@ -1361,11 +1252,9 @@ export default {
       "masked": "He pulled at the ____.",
       "options": [
         "knot-mcq-13",
-        "knot-mcq-12",
-        "knot-mcq-14",
-        "knot-mcq-11",
-        "knot-mcq-15",
-        "knot-mcq-10"
+        "knot-mcq-16",
+        "knot-mcq-07",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「knotted rope」指「打結的；糾纏的」。",
       "sentenceIndex": 30,
@@ -1374,12 +1263,10 @@ export default {
         "knotted rope"
       ],
       "optionReasons": {
-        "knot-mcq-13": "本句指「打結的；糾纏的」。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。"
+        "knot-mcq-13": "本句的「knotted rope」指「打結的；糾纏的」。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-13"
     },
@@ -1391,11 +1278,9 @@ export default {
       "masked": "Her hair was badly ____.",
       "options": [
         "knot-mcq-13",
-        "knot-mcq-12",
         "knot-mcq-14",
-        "knot-mcq-11",
-        "knot-mcq-15",
-        "knot-mcq-10"
+        "knot-mcq-16",
+        "knot-mcq-18"
       ],
       "explanation": "本句的「knotted」指「打結的；糾纏的」。",
       "sentenceIndex": 31,
@@ -1404,12 +1289,10 @@ export default {
         "knotted"
       ],
       "optionReasons": {
-        "knot-mcq-13": "本句指「打結的；糾纏的」。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-10": "「緊張得亂／過分糾結」是「tie yourself in knots」的用法，與本句語境不同。"
+        "knot-mcq-13": "本句的「knotted」指「打結的；糾纏的」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-13"
     },
@@ -1421,11 +1304,9 @@ export default {
       "masked": "Massage can help relax ____.",
       "options": [
         "knot-mcq-14",
-        "knot-mcq-13",
-        "knot-mcq-15",
-        "knot-mcq-12",
-        "knot-mcq-16",
-        "knot-mcq-11"
+        "knot-mcq-02",
+        "knot-reviewed-264744f49c",
+        "knot-mcq-16"
       ],
       "explanation": "本句的「knotted muscles」指「繃緊的肌肉」。",
       "sentenceIndex": 32,
@@ -1434,12 +1315,10 @@ export default {
         "knotted muscles"
       ],
       "optionReasons": {
-        "knot-mcq-14": "本句指「繃緊的肌肉」。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。"
+        "knot-mcq-14": "本句的「knotted muscles」指「繃緊的肌肉」。",
+        "knot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-14"
     },
@@ -1451,11 +1330,9 @@ export default {
       "masked": "Stress left his shoulders ____.",
       "options": [
         "knot-mcq-14",
+        "knot-reviewed-264744f49c",
         "knot-mcq-13",
-        "knot-mcq-15",
-        "knot-mcq-12",
-        "knot-mcq-16",
-        "knot-mcq-11"
+        "knot-mcq-16"
       ],
       "explanation": "本句的「knotted」指「繃緊的肌肉」。",
       "sentenceIndex": 33,
@@ -1464,12 +1341,10 @@ export default {
         "knotted"
       ],
       "optionReasons": {
-        "knot-mcq-14": "本句指「繃緊的肌肉」。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-11": "「打結；糾結」是「knot (verb)」的用法，與本句語境不同。"
+        "knot-mcq-14": "本句的「knotted」指「繃緊的肌肉」。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-14"
     },
@@ -1481,11 +1356,9 @@ export default {
       "masked": "The old wood was rough and ____.",
       "options": [
         "knot-mcq-15",
-        "knot-mcq-14",
-        "knot-mcq-16",
-        "knot-mcq-13",
-        "knot-mcq-17",
-        "knot-mcq-12"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-07",
+        "knot-mcq-14"
       ],
       "explanation": "本句的「knotty」指「多結的」。",
       "sentenceIndex": 34,
@@ -1494,12 +1367,10 @@ export default {
         "knotty"
       ],
       "optionReasons": {
-        "knot-mcq-15": "本句指「多結的」。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。"
+        "knot-mcq-15": "本句的「knotty」指「多結的」。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-15"
     },
@@ -1511,11 +1382,9 @@ export default {
       "masked": "The tree has ____.",
       "options": [
         "knot-mcq-15",
-        "knot-mcq-14",
-        "knot-mcq-16",
-        "knot-mcq-13",
-        "knot-mcq-17",
-        "knot-mcq-12"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-07",
+        "knot-mcq-14"
       ],
       "explanation": "本句的「knotty branches」指「多結的」。",
       "sentenceIndex": 35,
@@ -1524,12 +1393,10 @@ export default {
         "knotty branches"
       ],
       "optionReasons": {
-        "knot-mcq-15": "本句指「多結的」。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-12": "「打結綁在一起」是「knot together」的用法，與本句語境不同。"
+        "knot-mcq-15": "本句的「knotty branches」指「多結的」。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-15"
     },
@@ -1541,11 +1408,9 @@ export default {
       "masked": "This is a ____.",
       "options": [
         "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-17",
-        "knot-mcq-14",
-        "knot-mcq-18",
-        "knot-mcq-13"
+        "knot-mcq-02",
+        "knot-reviewed-264744f49c",
+        "knot-mcq-08"
       ],
       "explanation": "本句的「knotty problem」指「棘手問題」。",
       "sentenceIndex": 36,
@@ -1554,12 +1419,10 @@ export default {
         "knotty problem"
       ],
       "optionReasons": {
-        "knot-mcq-16": "本句指「棘手問題」。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。"
+        "knot-mcq-16": "本句的「knotty problem」指「棘手問題」。",
+        "knot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-16"
     },
@@ -1571,11 +1434,9 @@ export default {
       "masked": "The team spent hours discussing the ____.",
       "options": [
         "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-17",
-        "knot-mcq-14",
+        "knot-mcq-03",
         "knot-mcq-18",
-        "knot-mcq-13"
+        "knot-mcq-07"
       ],
       "explanation": "本句的「knotty issue」指「棘手問題」。",
       "sentenceIndex": 37,
@@ -1584,12 +1445,10 @@ export default {
         "knotty issue"
       ],
       "optionReasons": {
-        "knot-mcq-16": "本句指「棘手問題」。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-13": "「打結的；糾纏的」是「knotted」的用法，與本句語境不同。"
+        "knot-mcq-16": "本句的「knotty issue」指「棘手問題」。",
+        "knot-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-16"
     },
@@ -1601,11 +1460,9 @@ export default {
       "masked": "There is a large ____ in the wood.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-14",
+        "knot-mcq-07",
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 38,
@@ -1614,12 +1471,10 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
@@ -1631,11 +1486,9 @@ export default {
       "masked": "The board cracked around a ____.",
       "options": [
         "knot-mcq-19",
-        "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-14",
+        "knot-mcq-08",
+        "knot-reviewed-264744f49c"
       ],
       "explanation": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
       "sentenceIndex": 39,
@@ -1644,74 +1497,68 @@ export default {
         "knot"
       ],
       "optionReasons": {
-        "knot-mcq-19": "本句指「繩、線、帶等互相纏繞形成的結」。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-19": "本句的「knot」指「繩、線、帶等互相纏繞形成的結」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "knot-reviewed-264744f49c": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-19"
     },
     {
       "id": "knot-20-0",
-      "sense": "knot-mcq-17",
+      "sense": "knot-reviewed-264744f49c",
       "en": "The ship was travelling at twenty knots.",
       "zh": "船以二十節航行。",
       "masked": "The ship was travelling at twenty ____.",
       "options": [
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-18",
-        "knot-mcq-15",
-        "knot-mcq-19",
-        "knot-mcq-14"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-14",
+        "knot-mcq-01",
+        "knot-mcq-16"
       ],
-      "explanation": "本句的「knots」指「木節」。",
+      "explanation": "對照完整句子：「船以二十節航行。」。這裡的「knots」表示「航海及航空常用速度單位，相當於每小時一海里」。",
       "sentenceIndex": 40,
       "sourcePractice": 1,
       "targets": [
         "knots"
       ],
       "optionReasons": {
-        "knot-mcq-17": "本句指「木節」。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-19": "「繩、線、帶等互相纏繞形成的結」是「1. knot（繩結；結） — 結」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-reviewed-264744f49c": "對照完整句子：「船以二十節航行。」。這裡的「knots」表示「航海及航空常用速度單位，相當於每小時一海里」。",
+        "knot-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "knot-mcq-17"
+      "correctOption": "knot-reviewed-264744f49c",
+      "previousCorrectOption": "knot-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "knot-20-1",
-      "sense": "knot-mcq-17",
+      "sense": "knot-reviewed-264744f49c",
       "en": "The wind speed reached forty knots.",
       "zh": "風速達到四十節。",
       "masked": "The wind speed reached forty ____.",
       "options": [
-        "knot-mcq-17",
-        "knot-mcq-16",
-        "knot-mcq-18",
-        "knot-mcq-15",
-        "knot-mcq-19",
-        "knot-mcq-14"
+        "knot-reviewed-264744f49c",
+        "knot-mcq-07",
+        "knot-mcq-02",
+        "knot-mcq-16"
       ],
-      "explanation": "本句的「knots」指「木節」。",
+      "explanation": "對照完整句子：「風速達到四十節。」。這裡的「knots」表示「航海及航空常用速度單位，相當於每小時一海里」。",
       "sentenceIndex": 41,
       "sourcePractice": 2,
       "targets": [
         "knots"
       ],
       "optionReasons": {
-        "knot-mcq-17": "本句指「木節」。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-18": "「以 20 節速度」是「at 20 knots」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-19": "「繩、線、帶等互相纏繞形成的結」是「1. knot（繩結；結） — 結」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-reviewed-264744f49c": "對照完整句子：「風速達到四十節。」。這裡的「knots」表示「航海及航空常用速度單位，相當於每小時一海里」。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "knot-mcq-17"
+      "correctOption": "knot-reviewed-264744f49c",
+      "previousCorrectOption": "knot-mcq-17",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "knot-21-0",
@@ -1721,11 +1568,9 @@ export default {
       "masked": "The boat was moving at fifteen ____.",
       "options": [
         "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-19",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-12",
+        "knot-mcq-06",
+        "knot-mcq-19"
       ],
       "explanation": "本句的「knots」指「以 20 節速度」。",
       "sentenceIndex": 42,
@@ -1734,12 +1579,10 @@ export default {
         "knots"
       ],
       "optionReasons": {
-        "knot-mcq-18": "本句指「以 20 節速度」。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-19": "「繩、線、帶等互相纏繞形成的結」是「1. knot（繩結；結） — 結」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-18": "本句的「knots」指「以 20 節速度」。",
+        "knot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-18"
     },
@@ -1751,11 +1594,9 @@ export default {
       "masked": "The aircraft was travelling at several hundred ____.",
       "options": [
         "knot-mcq-18",
-        "knot-mcq-17",
-        "knot-mcq-19",
-        "knot-mcq-16",
-        "knot-mcq-15",
-        "knot-mcq-14"
+        "knot-mcq-12",
+        "knot-mcq-05",
+        "knot-mcq-07"
       ],
       "explanation": "本句的「knots」指「以 20 節速度」。",
       "sentenceIndex": 43,
@@ -1764,12 +1605,10 @@ export default {
         "knots"
       ],
       "optionReasons": {
-        "knot-mcq-18": "本句指「以 20 節速度」。",
-        "knot-mcq-17": "「木節」是「knot (wood)」的用法，與本句語境不同。",
-        "knot-mcq-19": "「繩、線、帶等互相纏繞形成的結」是「1. knot（繩結；結） — 結」的用法，與本句語境不同。",
-        "knot-mcq-16": "「棘手問題」是「knotty problem」的用法，與本句語境不同。",
-        "knot-mcq-15": "「多結的」是「knotty (literal)」的用法，與本句語境不同。",
-        "knot-mcq-14": "「繃緊的肌肉」是「knotted muscles」的用法，與本句語境不同。"
+        "knot-mcq-18": "本句的「knots」指「以 20 節速度」。",
+        "knot-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "knot-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "knot-mcq-18"
     }
@@ -1781,5 +1620,7 @@ export default {
     "sha256": "7fa6482e0a667a9760959f5e89864a4499595d4db245b693644770d525acb923",
     "pages": 18
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

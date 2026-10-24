@@ -245,11 +245,7 @@ export default {
       "masked": "The report ____.",
       "options": [
         "understate-mcq-01",
-        "understate-mcq-02",
-        "understate-mcq-03",
-        "understate-mcq-04",
-        "understate-mcq-05",
-        "understate-mcq-06"
+        "understate-mcq-04"
       ],
       "explanation": "本句的「understates the seriousness of the problem」指「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」。",
       "sentenceIndex": 2,
@@ -258,12 +254,8 @@ export default {
         "understates the seriousness of the problem"
       ],
       "optionReasons": {
-        "understate-mcq-01": "本句指「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-01": "本句的「understates the seriousness of the problem」指「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」。",
+        "understate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-01"
     },
@@ -275,11 +267,7 @@ export default {
       "masked": "To say the task was difficult would ____ the challenge.",
       "options": [
         "understate-mcq-01",
-        "understate-mcq-02",
-        "understate-mcq-03",
-        "understate-mcq-04",
-        "understate-mcq-05",
-        "understate-mcq-06"
+        "understate-mcq-11"
       ],
       "explanation": "本句的「understate」指「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」。",
       "sentenceIndex": 3,
@@ -288,12 +276,8 @@ export default {
         "understate"
       ],
       "optionReasons": {
-        "understate-mcq-01": "本句指「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-01": "本句的「understate」指「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」。",
+        "understate-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-01"
     },
@@ -305,11 +289,8 @@ export default {
       "masked": "We should not ____ of trust.",
       "options": [
         "understate-mcq-02",
-        "understate-mcq-01",
         "understate-mcq-03",
-        "understate-mcq-04",
-        "understate-mcq-05",
-        "understate-mcq-06"
+        "understate-mcq-08"
       ],
       "explanation": "本句的「understate the importance」指「把重要性、規模或程度說得太小；低估／淡化」。",
       "sentenceIndex": 4,
@@ -318,12 +299,9 @@ export default {
         "understate the importance"
       ],
       "optionReasons": {
-        "understate-mcq-02": "本句指「把重要性、規模或程度說得太小；低估／淡化」。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-02": "本句的「understate the importance」指「把重要性、規模或程度說得太小；低估／淡化」。",
+        "understate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "understate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-02"
     },
@@ -335,11 +313,8 @@ export default {
       "masked": "The figures may ____ of the problem.",
       "options": [
         "understate-mcq-02",
-        "understate-mcq-01",
         "understate-mcq-03",
-        "understate-mcq-04",
-        "understate-mcq-05",
-        "understate-mcq-06"
+        "understate-mcq-08"
       ],
       "explanation": "本句的「understate the true scale」指「把重要性、規模或程度說得太小；低估／淡化」。",
       "sentenceIndex": 5,
@@ -348,12 +323,9 @@ export default {
         "understate the true scale"
       ],
       "optionReasons": {
-        "understate-mcq-02": "本句指「把重要性、規模或程度說得太小；低估／淡化」。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-02": "本句的「understate the true scale」指「把重要性、規模或程度說得太小；低估／淡化」。",
+        "understate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "understate-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-02"
     },
@@ -365,10 +337,6 @@ export default {
       "masked": "He tends to ____.",
       "options": [
         "understate-mcq-03",
-        "understate-mcq-02",
-        "understate-mcq-04",
-        "understate-mcq-01",
-        "understate-mcq-05",
         "understate-mcq-06"
       ],
       "explanation": "本句的「understate his achievements」指「刻意含蓄地表達自己的成就、感受等」。",
@@ -378,12 +346,8 @@ export default {
         "understate his achievements"
       ],
       "optionReasons": {
-        "understate-mcq-03": "本句指「刻意含蓄地表達自己的成就、感受等」。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-03": "本句的「understate his achievements」指「刻意含蓄地表達自己的成就、感受等」。",
+        "understate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-03"
     },
@@ -395,11 +359,8 @@ export default {
       "masked": "She ____.",
       "options": [
         "understate-mcq-03",
-        "understate-mcq-02",
-        "understate-mcq-04",
-        "understate-mcq-01",
-        "understate-mcq-05",
-        "understate-mcq-06"
+        "understate-mcq-08",
+        "understate-mcq-02"
       ],
       "explanation": "本句的「understated her disappointment」指「刻意含蓄地表達自己的成就、感受等」。",
       "sentenceIndex": 7,
@@ -408,12 +369,9 @@ export default {
         "understated her disappointment"
       ],
       "optionReasons": {
-        "understate-mcq-03": "本句指「刻意含蓄地表達自己的成就、感受等」。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-03": "本句的「understated her disappointment」指「刻意含蓄地表達自己的成就、感受等」。",
+        "understate-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "understate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-03"
     },
@@ -425,11 +383,7 @@ export default {
       "masked": "The room has an ____.",
       "options": [
         "understate-mcq-04",
-        "understate-mcq-03",
-        "understate-mcq-05",
-        "understate-mcq-02",
-        "understate-mcq-06",
-        "understate-mcq-01"
+        "understate-mcq-06"
       ],
       "explanation": "本句的「understated elegance」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
       "sentenceIndex": 8,
@@ -438,12 +392,8 @@ export default {
         "understated elegance"
       ],
       "optionReasons": {
-        "understate-mcq-04": "本句指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。"
+        "understate-mcq-04": "本句的「understated elegance」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
+        "understate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-04"
     },
@@ -455,11 +405,7 @@ export default {
       "masked": "He wore an ____.",
       "options": [
         "understate-mcq-04",
-        "understate-mcq-03",
-        "understate-mcq-05",
-        "understate-mcq-02",
-        "understate-mcq-06",
-        "understate-mcq-01"
+        "understate-mcq-06"
       ],
       "explanation": "本句的「understated suit」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
       "sentenceIndex": 9,
@@ -468,12 +414,8 @@ export default {
         "understated suit"
       ],
       "optionReasons": {
-        "understate-mcq-04": "本句指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。"
+        "understate-mcq-04": "本句的「understated suit」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
+        "understate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-04"
     },
@@ -485,11 +427,7 @@ export default {
       "masked": "The watch has an ____.",
       "options": [
         "understate-mcq-04",
-        "understate-mcq-03",
-        "understate-mcq-05",
-        "understate-mcq-02",
-        "understate-mcq-06",
-        "understate-mcq-01"
+        "understate-mcq-06"
       ],
       "explanation": "本句的「understated design」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
       "sentenceIndex": 10,
@@ -498,12 +436,8 @@ export default {
         "understated design"
       ],
       "optionReasons": {
-        "understate-mcq-04": "本句指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。"
+        "understate-mcq-04": "本句的「understated design」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
+        "understate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-04"
     },
@@ -515,11 +449,7 @@ export default {
       "masked": "I like the brand’s ____.",
       "options": [
         "understate-mcq-04",
-        "understate-mcq-03",
-        "understate-mcq-05",
-        "understate-mcq-02",
-        "understate-mcq-06",
-        "understate-mcq-01"
+        "understate-mcq-06"
       ],
       "explanation": "本句的「understated style」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
       "sentenceIndex": 11,
@@ -528,12 +458,8 @@ export default {
         "understated style"
       ],
       "optionReasons": {
-        "understate-mcq-04": "本句指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-02": "「把重要性、規模或程度說得太小；低估／淡化」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。",
-        "understate-mcq-01": "「把某事的嚴重性、重要性、程度等說得比實際更低；輕描淡寫」與本句語境不同。"
+        "understate-mcq-04": "本句的「understated style」指「不張揚、不誇張而顯得有品味；低調的／含蓄的」。",
+        "understate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-04"
     },
@@ -545,11 +471,7 @@ export default {
       "masked": "Calling the storm “bad” would be an ____.",
       "options": [
         "understate-mcq-06",
-        "understate-mcq-05",
-        "understate-mcq-07",
-        "understate-mcq-04",
-        "understate-mcq-08",
-        "understate-mcq-03"
+        "understate-mcq-04"
       ],
       "explanation": "本句的「understatement」指「把實情說得比實際更輕、更小的說法」。",
       "sentenceIndex": 12,
@@ -558,12 +480,8 @@ export default {
         "understatement"
       ],
       "optionReasons": {
-        "understate-mcq-06": "本句指「把實情說得比實際更輕、更小的說法」。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。"
+        "understate-mcq-06": "本句的「understatement」指「把實情說得比實際更輕、更小的說法」。",
+        "understate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-06"
     },
@@ -575,11 +493,7 @@ export default {
       "masked": "Saying she was surprised is an ____.",
       "options": [
         "understate-mcq-06",
-        "understate-mcq-05",
-        "understate-mcq-07",
-        "understate-mcq-04",
-        "understate-mcq-08",
-        "understate-mcq-03"
+        "understate-mcq-04"
       ],
       "explanation": "本句的「understatement」指「把實情說得比實際更輕、更小的說法」。",
       "sentenceIndex": 13,
@@ -588,12 +502,8 @@ export default {
         "understatement"
       ],
       "optionReasons": {
-        "understate-mcq-06": "本句指「把實情說得比實際更輕、更小的說法」。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-04": "「不張揚、不誇張而顯得有品味；低調的／含蓄的」與本句語境不同。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-03": "「刻意含蓄地表達自己的成就、感受等」與本句語境不同。"
+        "understate-mcq-06": "本句的「understatement」指「把實情說得比實際更輕、更小的說法」。",
+        "understate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-06"
     },
@@ -605,11 +515,8 @@ export default {
       "masked": "Busy” is a ____.",
       "options": [
         "understate-mcq-08",
-        "understate-mcq-07",
-        "understate-mcq-09",
-        "understate-mcq-06",
-        "understate-mcq-10",
-        "understate-mcq-05"
+        "understate-mcq-11",
+        "understate-mcq-02"
       ],
       "explanation": "本句的「bit of an understatement」指「某說法明顯比真實情況輕很多；有點說輕了」。",
       "sentenceIndex": 14,
@@ -618,12 +525,9 @@ export default {
         "bit of an understatement"
       ],
       "optionReasons": {
-        "understate-mcq-08": "本句指「某說法明顯比真實情況輕很多；有點說輕了」。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-09": "「剛才的說法遠不足以形容實情；這說得太輕了」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。",
-        "understate-mcq-10": "「把事情實際程度說得太輕／低估實情」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。"
+        "understate-mcq-08": "本句的「bit of an understatement」指「某說法明顯比真實情況輕很多；有點說輕了」。",
+        "understate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "understate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-08"
     },
@@ -635,11 +539,8 @@ export default {
       "masked": "Calling the exam difficult is ____.",
       "options": [
         "understate-mcq-08",
-        "understate-mcq-07",
-        "understate-mcq-09",
-        "understate-mcq-06",
-        "understate-mcq-10",
-        "understate-mcq-05"
+        "understate-mcq-11",
+        "understate-mcq-02"
       ],
       "explanation": "本句的「a bit of an understatement」指「某說法明顯比真實情況輕很多；有點說輕了」。",
       "sentenceIndex": 15,
@@ -648,12 +549,9 @@ export default {
         "a bit of an understatement"
       ],
       "optionReasons": {
-        "understate-mcq-08": "本句指「某說法明顯比真實情況輕很多；有點說輕了」。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-09": "「剛才的說法遠不足以形容實情；這說得太輕了」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。",
-        "understate-mcq-10": "「把事情實際程度說得太輕／低估實情」與本句語境不同。",
-        "understate-mcq-05": "「不靠華麗裝飾，而以簡約克制呈現的低調優雅」與本句語境不同。"
+        "understate-mcq-08": "本句的「a bit of an understatement」指「某說法明顯比真實情況輕很多；有點說輕了」。",
+        "understate-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "understate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-08"
     },
@@ -665,11 +563,7 @@ export default {
       "masked": "The room was ____.",
       "options": [
         "understate-mcq-11",
-        "understate-mcq-10",
-        "understate-mcq-09",
-        "understate-mcq-08",
-        "understate-mcq-07",
-        "understate-mcq-06"
+        "understate-mcq-09"
       ],
       "explanation": "本句的「understatedly elegant」指「以低調、含蓄、不誇張的方式」。",
       "sentenceIndex": 18,
@@ -678,12 +572,8 @@ export default {
         "understatedly elegant"
       ],
       "optionReasons": {
-        "understate-mcq-11": "本句指「以低調、含蓄、不誇張的方式」。",
-        "understate-mcq-10": "「把事情實際程度說得太輕／低估實情」與本句語境不同。",
-        "understate-mcq-09": "「剛才的說法遠不足以形容實情；這說得太輕了」與本句語境不同。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-11": "本句的「understatedly elegant」指「以低調、含蓄、不誇張的方式」。",
+        "understate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-11"
     },
@@ -695,11 +585,7 @@ export default {
       "masked": "She dressed ____ for the event.",
       "options": [
         "understate-mcq-11",
-        "understate-mcq-10",
-        "understate-mcq-09",
-        "understate-mcq-08",
-        "understate-mcq-07",
-        "understate-mcq-06"
+        "understate-mcq-09"
       ],
       "explanation": "本句的「understatedly」指「以低調、含蓄、不誇張的方式」。",
       "sentenceIndex": 19,
@@ -708,12 +594,8 @@ export default {
         "understatedly"
       ],
       "optionReasons": {
-        "understate-mcq-11": "本句指「以低調、含蓄、不誇張的方式」。",
-        "understate-mcq-10": "「把事情實際程度說得太輕／低估實情」與本句語境不同。",
-        "understate-mcq-09": "「剛才的說法遠不足以形容實情；這說得太輕了」與本句語境不同。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-11": "本句的「understatedly」指「以低調、含蓄、不誇張的方式」。",
+        "understate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-11"
     },
@@ -725,11 +607,7 @@ export default {
       "masked": "To say he was disappointed would ____.",
       "options": [
         "understate-mcq-10",
-        "understate-mcq-09",
-        "understate-mcq-11",
-        "understate-mcq-08",
-        "understate-mcq-07",
-        "understate-mcq-06"
+        "understate-mcq-03"
       ],
       "explanation": "本句的「understate the case」指「把事情實際程度說得太輕／低估實情」。",
       "sentenceIndex": 20,
@@ -738,12 +616,8 @@ export default {
         "understate the case"
       ],
       "optionReasons": {
-        "understate-mcq-10": "本句指「把事情實際程度說得太輕／低估實情」。",
-        "understate-mcq-09": "「剛才的說法遠不足以形容實情；這說得太輕了」與本句語境不同。",
-        "understate-mcq-11": "「以低調、含蓄、不誇張的方式」與本句語境不同。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-10": "本句的「understate the case」指「把事情實際程度說得太輕／低估實情」。",
+        "understate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-10"
     },
@@ -755,11 +629,7 @@ export default {
       "masked": "Serious” would ____.",
       "options": [
         "understate-mcq-10",
-        "understate-mcq-09",
-        "understate-mcq-11",
-        "understate-mcq-08",
-        "understate-mcq-07",
-        "understate-mcq-06"
+        "understate-mcq-03"
       ],
       "explanation": "本句的「understate the case」指「把事情實際程度說得太輕／低估實情」。",
       "sentenceIndex": 21,
@@ -768,12 +638,8 @@ export default {
         "understate the case"
       ],
       "optionReasons": {
-        "understate-mcq-10": "本句指「把事情實際程度說得太輕／低估實情」。",
-        "understate-mcq-09": "「剛才的說法遠不足以形容實情；這說得太輕了」與本句語境不同。",
-        "understate-mcq-11": "「以低調、含蓄、不誇張的方式」與本句語境不同。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-10": "本句的「understate the case」指「把事情實際程度說得太輕／低估實情」。",
+        "understate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-10"
     },
@@ -785,11 +651,7 @@ export default {
       "masked": "The trip was tiring.” “That’s an ____.",
       "options": [
         "understate-mcq-09",
-        "understate-mcq-08",
-        "understate-mcq-10",
-        "understate-mcq-07",
-        "understate-mcq-11",
-        "understate-mcq-06"
+        "understate-mcq-04"
       ],
       "explanation": "本句的「understatement」指「剛才的說法遠不足以形容實情；這說得太輕了」。",
       "sentenceIndex": 22,
@@ -798,12 +660,8 @@ export default {
         "understatement"
       ],
       "optionReasons": {
-        "understate-mcq-09": "本句指「剛才的說法遠不足以形容實情；這說得太輕了」。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-10": "「把事情實際程度說得太輕／低估實情」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-11": "「以低調、含蓄、不誇張的方式」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-09": "本句的「understatement」指「剛才的說法遠不足以形容實情；這說得太輕了」。",
+        "understate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-09"
     },
@@ -815,11 +673,7 @@ export default {
       "masked": "He was upset.” “That’s an ____.",
       "options": [
         "understate-mcq-09",
-        "understate-mcq-08",
-        "understate-mcq-10",
-        "understate-mcq-07",
-        "understate-mcq-11",
-        "understate-mcq-06"
+        "understate-mcq-04"
       ],
       "explanation": "本句的「understatement」指「剛才的說法遠不足以形容實情；這說得太輕了」。",
       "sentenceIndex": 23,
@@ -828,12 +682,8 @@ export default {
         "understatement"
       ],
       "optionReasons": {
-        "understate-mcq-09": "本句指「剛才的說法遠不足以形容實情；這說得太輕了」。",
-        "understate-mcq-08": "「某說法明顯比真實情況輕很多；有點說輕了」與本句語境不同。",
-        "understate-mcq-10": "「把事情實際程度說得太輕／低估實情」與本句語境不同。",
-        "understate-mcq-07": "「刻意用較輕的語氣表達，以產生強調、幽默或反諷效果」與本句語境不同。",
-        "understate-mcq-11": "「以低調、含蓄、不誇張的方式」與本句語境不同。",
-        "understate-mcq-06": "「把實情說得比實際更輕、更小的說法」與本句語境不同。"
+        "understate-mcq-09": "本句的「understatement」指「剛才的說法遠不足以形容實情；這說得太輕了」。",
+        "understate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "understate-mcq-09"
     }
@@ -845,5 +695,7 @@ export default {
     "sha256": "cf77acc341963c58681c577b0077c181c438b3ccfda1a7fa1b1694d7fbbd6919",
     "pages": 9
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

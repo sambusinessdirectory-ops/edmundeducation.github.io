@@ -452,7 +452,7 @@ export default {
     },
     {
       "id": "point-mcq-21",
-      "title": "表示理解並接受對方提出的批評、理由或觀點",
+      "title": "理解並接受對方提出的批評、理由或觀點",
       "form": "point taken（明白你的道理了）",
       "en": "point taken（明白你的道理了）",
       "zh": "表示理解並接受對方提出的批評、理由或觀點",
@@ -1472,11 +1472,9 @@ export default {
       "masked": "At that ____, I was still extremely nervous.",
       "options": [
         "point-mcq-01",
-        "point-mcq-02",
-        "point-mcq-03",
-        "point-mcq-04",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-21",
+        "point-mcq-18",
+        "point-mcq-15"
       ],
       "explanation": "本句的「point」指「某個過程、時間或發展中的特定位置／階段」。",
       "sentenceIndex": 0,
@@ -1485,12 +1483,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-01": "本句指「某個過程、時間或發展中的特定位置／階段」。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-01": "本句的「point」指「某個過程、時間或發展中的特定位置／階段」。",
+        "point-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-01"
     },
@@ -1502,11 +1498,9 @@ export default {
       "masked": "We reached a ____ where we had to make a decision.",
       "options": [
         "point-mcq-01",
-        "point-mcq-02",
-        "point-mcq-03",
-        "point-mcq-04",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-17",
+        "point-mcq-10",
+        "point-mcq-48"
       ],
       "explanation": "本句的「point」指「某個過程、時間或發展中的特定位置／階段」。",
       "sentenceIndex": 1,
@@ -1515,12 +1509,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-01": "本句指「某個過程、時間或發展中的特定位置／階段」。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-01": "本句的「point」指「某個過程、時間或發展中的特定位置／階段」。",
+        "point-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-01"
     },
@@ -1532,11 +1524,9 @@ export default {
       "masked": "It was a ____ for me.",
       "options": [
         "point-mcq-02",
-        "point-mcq-01",
-        "point-mcq-03",
-        "point-mcq-04",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-41",
+        "point-mcq-66",
+        "point-mcq-38"
       ],
       "explanation": "本句的「turning point」指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
       "sentenceIndex": 2,
@@ -1545,12 +1535,10 @@ export default {
         "turning point"
       ],
       "optionReasons": {
-        "point-mcq-02": "本句指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-02": "本句的「turning point」指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-02"
     },
@@ -1562,11 +1550,9 @@ export default {
       "masked": "Giving that presentation became a ____ in her career.",
       "options": [
         "point-mcq-02",
-        "point-mcq-01",
-        "point-mcq-03",
-        "point-mcq-04",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-43",
+        "point-mcq-35",
+        "point-mcq-45"
       ],
       "explanation": "本句的「turning point」指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
       "sentenceIndex": 3,
@@ -1575,12 +1561,10 @@ export default {
         "turning point"
       ],
       "optionReasons": {
-        "point-mcq-02": "本句指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-02": "本句的「turning point」指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
+        "point-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-02"
     },
@@ -1592,11 +1576,9 @@ export default {
       "masked": "The experience marked a major ____ in his confidence.",
       "options": [
         "point-mcq-02",
-        "point-mcq-01",
-        "point-mcq-03",
-        "point-mcq-04",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-18",
+        "point-mcq-19",
+        "point-mcq-64"
       ],
       "explanation": "本句的「turning point」指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
       "sentenceIndex": 4,
@@ -1605,12 +1587,10 @@ export default {
         "turning point"
       ],
       "optionReasons": {
-        "point-mcq-02": "本句指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-02": "本句的「turning point」指「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-02"
     },
@@ -1622,11 +1602,9 @@ export default {
       "masked": "At that ____, I had little experience.",
       "options": [
         "point-mcq-03",
-        "point-mcq-02",
-        "point-mcq-04",
-        "point-mcq-01",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-38",
+        "point-mcq-25",
+        "point-mcq-50"
       ],
       "explanation": "本句的「point in time」指「時間線上的某一個特定時刻」。",
       "sentenceIndex": 5,
@@ -1635,12 +1613,10 @@ export default {
         "point in time"
       ],
       "optionReasons": {
-        "point-mcq-03": "本句指「時間線上的某一個特定時刻」。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-03": "本句的「point in time」指「時間線上的某一個特定時刻」。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-03"
     },
@@ -1652,11 +1628,9 @@ export default {
       "masked": "We cannot know exactly what happened at every ____.",
       "options": [
         "point-mcq-03",
-        "point-mcq-02",
-        "point-mcq-04",
-        "point-mcq-01",
-        "point-mcq-05",
-        "point-mcq-06"
+        "point-mcq-41",
+        "point-mcq-13",
+        "point-mcq-64"
       ],
       "explanation": "本句的「point in time」指「時間線上的某一個特定時刻」。",
       "sentenceIndex": 6,
@@ -1665,12 +1639,10 @@ export default {
         "point in time"
       ],
       "optionReasons": {
-        "point-mcq-03": "本句指「時間線上的某一個特定時刻」。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-03": "本句的「point in time」指「時間線上的某一個特定時刻」。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-03"
     },
@@ -1682,11 +1654,9 @@ export default {
       "masked": "At that ____, I decided to keep going.",
       "options": [
         "point-mcq-04",
-        "point-mcq-03",
-        "point-mcq-05",
-        "point-mcq-02",
-        "point-mcq-06",
-        "point-mcq-01"
+        "point-mcq-10",
+        "point-mcq-63",
+        "point-mcq-50"
       ],
       "explanation": "本句的「point」指「在某個特定時間或發展階段」。",
       "sentenceIndex": 7,
@@ -1695,12 +1665,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-04": "本句指「在某個特定時間或發展階段」。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。"
+        "point-mcq-04": "本句的「point」指「在某個特定時間或發展階段」。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-04"
     },
@@ -1712,11 +1680,9 @@ export default {
       "masked": "At this ____, we have enough information.",
       "options": [
         "point-mcq-04",
-        "point-mcq-03",
-        "point-mcq-05",
-        "point-mcq-02",
-        "point-mcq-06",
-        "point-mcq-01"
+        "point-mcq-19",
+        "point-mcq-52",
+        "point-mcq-34"
       ],
       "explanation": "本句的「point」指「在某個特定時間或發展階段」。",
       "sentenceIndex": 8,
@@ -1725,12 +1691,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-04": "本句指「在某個特定時間或發展階段」。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-01": "「某個過程、時間或發展中的特定位置／階段」是「point = particular moment/stage（時刻／階段）」的用法，與本句語境不同。"
+        "point-mcq-04": "本句的「point」指「在某個特定時間或發展階段」。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-04"
     },
@@ -1742,11 +1706,9 @@ export default {
       "masked": "I reached a ____ I could no longer avoid public speaking.",
       "options": [
         "point-mcq-05",
-        "point-mcq-04",
-        "point-mcq-06",
-        "point-mcq-03",
-        "point-mcq-07",
-        "point-mcq-02"
+        "point-mcq-54",
+        "point-mcq-49",
+        "point-mcq-33"
       ],
       "explanation": "本句的「point where」指「情況發展到某個具有重要結果／改變的階段」。",
       "sentenceIndex": 9,
@@ -1755,12 +1717,10 @@ export default {
         "point where"
       ],
       "optionReasons": {
-        "point-mcq-05": "本句指「情況發展到某個具有重要結果／改變的階段」。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。"
+        "point-mcq-05": "本句的「point where」指「情況發展到某個具有重要結果／改變的階段」。",
+        "point-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-05"
     },
@@ -1772,11 +1732,9 @@ export default {
       "masked": "The discussion reached a ____ no one could agree.",
       "options": [
         "point-mcq-05",
-        "point-mcq-04",
-        "point-mcq-06",
-        "point-mcq-03",
-        "point-mcq-07",
-        "point-mcq-02"
+        "point-mcq-56",
+        "point-mcq-45",
+        "point-mcq-35"
       ],
       "explanation": "本句的「point where」指「情況發展到某個具有重要結果／改變的階段」。",
       "sentenceIndex": 10,
@@ -1785,12 +1743,10 @@ export default {
         "point where"
       ],
       "optionReasons": {
-        "point-mcq-05": "本句指「情況發展到某個具有重要結果／改變的階段」。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-02": "「某件事情開始明顯改變方向、狀況或發展軌跡的關鍵時刻／事件」是「turning point（轉捩點）」的用法，與本句語境不同。"
+        "point-mcq-05": "本句的「point where」指「情況發展到某個具有重要結果／改變的階段」。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-05"
     },
@@ -1802,11 +1758,9 @@ export default {
       "masked": "I became nervous to the ____ I could barely speak.",
       "options": [
         "point-mcq-06",
-        "point-mcq-05",
-        "point-mcq-07",
-        "point-mcq-04",
-        "point-mcq-08",
-        "point-mcq-03"
+        "point-mcq-03",
+        "point-mcq-38",
+        "point-mcq-59"
       ],
       "explanation": "本句的「point where」指「某種情況達到足以引起另一結果的程度」。",
       "sentenceIndex": 11,
@@ -1815,12 +1769,10 @@ export default {
         "point where"
       ],
       "optionReasons": {
-        "point-mcq-06": "本句指「某種情況達到足以引起另一結果的程度」。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。"
+        "point-mcq-06": "本句的「point where」指「某種情況達到足以引起另一結果的程度」。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-06"
     },
@@ -1832,11 +1784,9 @@ export default {
       "masked": "The problem worsened to the ____ action was necessary.",
       "options": [
         "point-mcq-06",
-        "point-mcq-05",
-        "point-mcq-07",
-        "point-mcq-04",
-        "point-mcq-08",
-        "point-mcq-03"
+        "point-mcq-31",
+        "point-mcq-12",
+        "point-mcq-49"
       ],
       "explanation": "本句的「point where」指「某種情況達到足以引起另一結果的程度」。",
       "sentenceIndex": 12,
@@ -1845,12 +1795,10 @@ export default {
         "point where"
       ],
       "optionReasons": {
-        "point-mcq-06": "本句指「某種情況達到足以引起另一結果的程度」。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-03": "「時間線上的某一個特定時刻」是「point in time（時間點）」的用法，與本句語境不同。"
+        "point-mcq-06": "本句的「point where」指「某種情況達到足以引起另一結果的程度」。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-06"
     },
@@ -1862,11 +1810,9 @@ export default {
       "masked": "The main ____ of the presentation was clear.",
       "options": [
         "point-mcq-07",
-        "point-mcq-06",
-        "point-mcq-08",
-        "point-mcq-05",
-        "point-mcq-09",
-        "point-mcq-04"
+        "point-mcq-04",
+        "point-mcq-56",
+        "point-mcq-32"
       ],
       "explanation": "本句的「point」指「說話、文章、論證等希望傳達的主要意思／重點」。",
       "sentenceIndex": 13,
@@ -1875,12 +1821,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-07": "本句指「說話、文章、論證等希望傳達的主要意思／重點」。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。"
+        "point-mcq-07": "本句的「point」指「說話、文章、論證等希望傳達的主要意思／重點」。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-07"
     },
@@ -1892,11 +1836,9 @@ export default {
       "masked": "I understand your ____.",
       "options": [
         "point-mcq-07",
-        "point-mcq-06",
-        "point-mcq-08",
-        "point-mcq-05",
-        "point-mcq-09",
-        "point-mcq-04"
+        "point-mcq-44",
+        "point-mcq-42",
+        "point-mcq-40"
       ],
       "explanation": "本句的「point」指「說話、文章、論證等希望傳達的主要意思／重點」。",
       "sentenceIndex": 14,
@@ -1905,12 +1847,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-07": "本句指「說話、文章、論證等希望傳達的主要意思／重點」。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-04": "「在某個特定時間或發展階段」是「at this/that point（到了這／那個時候）」的用法，與本句語境不同。"
+        "point-mcq-07": "本句的「point」指「說話、文章、論證等希望傳達的主要意思／重點」。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-07"
     },
@@ -1922,11 +1862,9 @@ export default {
       "masked": "Focus on three ____.",
       "options": [
         "point-mcq-08",
-        "point-mcq-07",
-        "point-mcq-09",
-        "point-mcq-06",
-        "point-mcq-10",
-        "point-mcq-05"
+        "point-mcq-59",
+        "point-mcq-65",
+        "point-mcq-06"
       ],
       "explanation": "本句的「key points」指「一段內容中最重要、最值得記住的資訊／論點」。",
       "sentenceIndex": 15,
@@ -1935,12 +1873,10 @@ export default {
         "key points"
       ],
       "optionReasons": {
-        "point-mcq-08": "本句指「一段內容中最重要、最值得記住的資訊／論點」。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。"
+        "point-mcq-08": "本句的「key points」指「一段內容中最重要、最值得記住的資訊／論點」。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-08"
     },
@@ -1952,11 +1888,9 @@ export default {
       "masked": "The ____ is that preparation builds confidence.",
       "options": [
         "point-mcq-08",
-        "point-mcq-07",
-        "point-mcq-09",
-        "point-mcq-06",
-        "point-mcq-10",
-        "point-mcq-05"
+        "point-mcq-34",
+        "point-mcq-03",
+        "point-mcq-52"
       ],
       "explanation": "本句的「main point」指「一段內容中最重要、最值得記住的資訊／論點」。",
       "sentenceIndex": 16,
@@ -1965,12 +1899,10 @@ export default {
         "main point"
       ],
       "optionReasons": {
-        "point-mcq-08": "本句指「一段內容中最重要、最值得記住的資訊／論點」。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-05": "「情況發展到某個具有重要結果／改變的階段」是「reach a point where…（到了……的地步／階段）」的用法，與本句語境不同。"
+        "point-mcq-08": "本句的「main point」指「一段內容中最重要、最值得記住的資訊／論點」。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-08"
     },
@@ -1982,11 +1914,9 @@ export default {
       "masked": "She made an important ____ about preparation.",
       "options": [
         "point-mcq-09",
-        "point-mcq-08",
-        "point-mcq-10",
-        "point-mcq-07",
-        "point-mcq-11",
-        "point-mcq-06"
+        "point-mcq-38",
+        "point-mcq-48",
+        "point-mcq-28"
       ],
       "explanation": "本句的「point」指「清楚提出一項意見、理由或重要資訊」。",
       "sentenceIndex": 17,
@@ -1995,12 +1925,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-09": "本句指「清楚提出一項意見、理由或重要資訊」。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-09": "本句的「point」指「清楚提出一項意見、理由或重要資訊」。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-09"
     },
@@ -2012,11 +1940,9 @@ export default {
       "masked": "I’d like to make one ____.",
       "options": [
         "point-mcq-09",
-        "point-mcq-08",
-        "point-mcq-10",
-        "point-mcq-07",
-        "point-mcq-11",
-        "point-mcq-06"
+        "point-mcq-01",
+        "point-mcq-52",
+        "point-mcq-59"
       ],
       "explanation": "本句的「point」指「清楚提出一項意見、理由或重要資訊」。",
       "sentenceIndex": 18,
@@ -2025,12 +1951,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-09": "本句指「清楚提出一項意見、理由或重要資訊」。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-06": "「某種情況達到足以引起另一結果的程度」是「to the point where…（到了……程度）」的用法，與本句語境不同。"
+        "point-mcq-09": "本句的「point」指「清楚提出一項意見、理由或重要資訊」。",
+        "point-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-09"
     },
@@ -2042,11 +1966,9 @@ export default {
       "masked": "She made the ____ mistakes are normal.",
       "options": [
         "point-mcq-10",
-        "point-mcq-09",
-        "point-mcq-11",
-        "point-mcq-08",
-        "point-mcq-12",
-        "point-mcq-07"
+        "point-mcq-30",
+        "point-mcq-03",
+        "point-mcq-28"
       ],
       "explanation": "本句的「point that」指「明確表達並強調某項重要看法」。",
       "sentenceIndex": 19,
@@ -2055,12 +1977,10 @@ export default {
         "point that"
       ],
       "optionReasons": {
-        "point-mcq-10": "本句指「明確表達並強調某項重要看法」。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。"
+        "point-mcq-10": "本句的「point that」指「明確表達並強調某項重要看法」。",
+        "point-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-10"
     },
@@ -2072,11 +1992,9 @@ export default {
       "masked": "The speaker made the ____ clarity matters more than complexity.",
       "options": [
         "point-mcq-10",
-        "point-mcq-09",
-        "point-mcq-11",
-        "point-mcq-08",
-        "point-mcq-12",
-        "point-mcq-07"
+        "point-mcq-62",
+        "point-mcq-39",
+        "point-mcq-32"
       ],
       "explanation": "本句的「point that」指「明確表達並強調某項重要看法」。",
       "sentenceIndex": 20,
@@ -2085,12 +2003,10 @@ export default {
         "point that"
       ],
       "optionReasons": {
-        "point-mcq-10": "本句指「明確表達並強調某項重要看法」。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-07": "「說話、文章、論證等希望傳達的主要意思／重點」是「point = main idea（要點／重點）」的用法，與本句語境不同。"
+        "point-mcq-10": "本句的「point that」指「明確表達並強調某項重要看法」。",
+        "point-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-10"
     },
@@ -2102,11 +2018,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "point-mcq-11",
-        "point-mcq-10",
-        "point-mcq-12",
-        "point-mcq-09",
-        "point-mcq-13",
-        "point-mcq-08"
+        "point-mcq-40",
+        "point-mcq-28",
+        "point-mcq-42"
       ],
       "explanation": "本句的「get the point」指「理解對方真正想表達的主要意思」。",
       "sentenceIndex": 21,
@@ -2115,12 +2029,10 @@ export default {
         "get the point"
       ],
       "optionReasons": {
-        "point-mcq-11": "本句指「理解對方真正想表達的主要意思」。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。"
+        "point-mcq-11": "本句的「get the point」指「理解對方真正想表達的主要意思」。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-11"
     },
@@ -2132,11 +2044,9 @@ export default {
       "masked": "Do you ____?",
       "options": [
         "point-mcq-11",
-        "point-mcq-10",
-        "point-mcq-12",
-        "point-mcq-09",
-        "point-mcq-13",
-        "point-mcq-08"
+        "point-mcq-04",
+        "point-mcq-49",
+        "point-mcq-64"
       ],
       "explanation": "本句的「get my point」指「理解對方真正想表達的主要意思」。",
       "sentenceIndex": 22,
@@ -2145,12 +2055,10 @@ export default {
         "get my point"
       ],
       "optionReasons": {
-        "point-mcq-11": "本句指「理解對方真正想表達的主要意思」。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-08": "「一段內容中最重要、最值得記住的資訊／論點」是「main/key point（主要／關鍵重點）」的用法，與本句語境不同。"
+        "point-mcq-11": "本句的「get my point」指「理解對方真正想表達的主要意思」。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-11"
     },
@@ -2162,11 +2070,9 @@ export default {
       "masked": "You’re ____.",
       "options": [
         "point-mcq-12",
-        "point-mcq-11",
-        "point-mcq-13",
-        "point-mcq-10",
-        "point-mcq-14",
-        "point-mcq-09"
+        "point-mcq-29",
+        "point-mcq-49",
+        "point-mcq-33"
       ],
       "explanation": "本句的「missing the point」指「未能理解某段話／事情最重要的真正意思」。",
       "sentenceIndex": 23,
@@ -2175,12 +2081,10 @@ export default {
         "missing the point"
       ],
       "optionReasons": {
-        "point-mcq-12": "本句指「未能理解某段話／事情最重要的真正意思」。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。"
+        "point-mcq-12": "本句的「missing the point」指「未能理解某段話／事情最重要的真正意思」。",
+        "point-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-12"
     },
@@ -2192,11 +2096,9 @@ export default {
       "masked": "The criticism completely ____.",
       "options": [
         "point-mcq-12",
-        "point-mcq-11",
-        "point-mcq-13",
-        "point-mcq-10",
-        "point-mcq-14",
-        "point-mcq-09"
+        "point-mcq-29",
+        "point-mcq-06",
+        "point-mcq-61"
       ],
       "explanation": "本句的「misses the point」指「未能理解某段話／事情最重要的真正意思」。",
       "sentenceIndex": 24,
@@ -2205,12 +2107,10 @@ export default {
         "misses the point"
       ],
       "optionReasons": {
-        "point-mcq-12": "本句指「未能理解某段話／事情最重要的真正意思」。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-09": "「清楚提出一項意見、理由或重要資訊」是「make a point（提出觀點）」的用法，與本句語境不同。"
+        "point-mcq-12": "本句的「misses the point」指「未能理解某段話／事情最重要的真正意思」。",
+        "point-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-61": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-12"
     },
@@ -2222,11 +2122,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "point-mcq-13",
-        "point-mcq-12",
-        "point-mcq-14",
-        "point-mcq-11",
-        "point-mcq-15",
-        "point-mcq-10"
+        "point-mcq-28",
+        "point-mcq-58",
+        "point-mcq-44"
       ],
       "explanation": "本句的「get to the point」指「不再講不必要內容，直接說最重要的事情」。",
       "sentenceIndex": 25,
@@ -2235,12 +2133,10 @@ export default {
         "get to the point"
       ],
       "optionReasons": {
-        "point-mcq-13": "本句指「不再講不必要內容，直接說最重要的事情」。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。"
+        "point-mcq-13": "本句的「get to the point」指「不再講不必要內容，直接說最重要的事情」。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-13"
     },
@@ -2252,11 +2148,9 @@ export default {
       "masked": "She quickly ____.",
       "options": [
         "point-mcq-13",
-        "point-mcq-12",
-        "point-mcq-14",
-        "point-mcq-11",
-        "point-mcq-15",
-        "point-mcq-10"
+        "point-mcq-43",
+        "point-mcq-40",
+        "point-mcq-54"
       ],
       "explanation": "本句的「got to the point」指「不再講不必要內容，直接說最重要的事情」。",
       "sentenceIndex": 26,
@@ -2265,12 +2159,10 @@ export default {
         "got to the point"
       ],
       "optionReasons": {
-        "point-mcq-13": "本句指「不再講不必要內容，直接說最重要的事情」。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-10": "「明確表達並強調某項重要看法」是「make the point that…（強調／提出……這一點）」的用法，與本句語境不同。"
+        "point-mcq-13": "本句的「got to the point」指「不再講不必要內容，直接說最重要的事情」。",
+        "point-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-13"
     },
@@ -2282,11 +2174,9 @@ export default {
       "masked": "Her answer was brief and ____.",
       "options": [
         "point-mcq-14",
-        "point-mcq-13",
-        "point-mcq-15",
-        "point-mcq-12",
-        "point-mcq-16",
-        "point-mcq-11"
+        "point-mcq-20",
+        "point-mcq-60",
+        "point-mcq-58"
       ],
       "explanation": "本句的「to the point」指「直接相關、沒有多餘內容，而且集中於主要問題」。",
       "sentenceIndex": 27,
@@ -2295,12 +2185,10 @@ export default {
         "to the point"
       ],
       "optionReasons": {
-        "point-mcq-14": "本句指「直接相關、沒有多餘內容，而且集中於主要問題」。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。"
+        "point-mcq-14": "本句的「to the point」指「直接相關、沒有多餘內容，而且集中於主要問題」。",
+        "point-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-14"
     },
@@ -2312,11 +2200,9 @@ export default {
       "masked": "Keep your presentation clear and ____.",
       "options": [
         "point-mcq-14",
-        "point-mcq-13",
-        "point-mcq-15",
-        "point-mcq-12",
-        "point-mcq-16",
-        "point-mcq-11"
+        "point-mcq-04",
+        "point-mcq-36",
+        "point-mcq-19"
       ],
       "explanation": "本句的「to the point」指「直接相關、沒有多餘內容，而且集中於主要問題」。",
       "sentenceIndex": 28,
@@ -2325,12 +2211,10 @@ export default {
         "to the point"
       ],
       "optionReasons": {
-        "point-mcq-14": "本句指「直接相關、沒有多餘內容，而且集中於主要問題」。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-11": "「理解對方真正想表達的主要意思」是「get the point（明白重點／意思）」的用法，與本句語境不同。"
+        "point-mcq-14": "本句的「to the point」指「直接相關、沒有多餘內容，而且集中於主要問題」。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-14"
     },
@@ -2342,11 +2226,9 @@ export default {
       "masked": "Whether he was nervous is ____.",
       "options": [
         "point-mcq-15",
-        "point-mcq-14",
-        "point-mcq-16",
-        "point-mcq-13",
-        "point-mcq-17",
-        "point-mcq-12"
+        "point-mcq-56",
+        "point-mcq-61",
+        "point-mcq-49"
       ],
       "explanation": "本句的「beside the point」指「與正在討論的真正問題／重點無關」。",
       "sentenceIndex": 29,
@@ -2355,12 +2237,10 @@ export default {
         "beside the point"
       ],
       "optionReasons": {
-        "point-mcq-15": "本句指「與正在討論的真正問題／重點無關」。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。"
+        "point-mcq-15": "本句的「beside the point」指「與正在討論的真正問題／重點無關」。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-15"
     },
@@ -2372,11 +2252,9 @@ export default {
       "masked": "That argument is ____.",
       "options": [
         "point-mcq-15",
-        "point-mcq-14",
-        "point-mcq-16",
-        "point-mcq-13",
-        "point-mcq-17",
-        "point-mcq-12"
+        "point-mcq-36",
+        "point-mcq-24",
+        "point-mcq-55"
       ],
       "explanation": "本句的「beside the point」指「與正在討論的真正問題／重點無關」。",
       "sentenceIndex": 30,
@@ -2385,12 +2263,10 @@ export default {
         "beside the point"
       ],
       "optionReasons": {
-        "point-mcq-15": "本句指「與正在討論的真正問題／重點無關」。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-12": "「未能理解某段話／事情最重要的真正意思」是「miss the point（沒抓住重點）」的用法，與本句語境不同。"
+        "point-mcq-15": "本句的「beside the point」指「與正在討論的真正問題／重點無關」。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-15"
     },
@@ -2402,11 +2278,9 @@ export default {
       "masked": "What is the ____ of practising if you never review your mistakes?",
       "options": [
         "point-mcq-16",
-        "point-mcq-15",
-        "point-mcq-17",
-        "point-mcq-14",
-        "point-mcq-18",
-        "point-mcq-13"
+        "point-mcq-41",
+        "point-mcq-03",
+        "point-mcq-38"
       ],
       "explanation": "本句的「point」指「某件事存在／進行的主要目的、價值或理由」。",
       "sentenceIndex": 31,
@@ -2415,12 +2289,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-16": "本句指「某件事存在／進行的主要目的、價值或理由」。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。"
+        "point-mcq-16": "本句的「point」指「某件事存在／進行的主要目的、價值或理由」。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-16"
     },
@@ -2432,11 +2304,9 @@ export default {
       "masked": "The ____ of the exercise is to build confidence.",
       "options": [
         "point-mcq-16",
-        "point-mcq-15",
-        "point-mcq-17",
-        "point-mcq-14",
-        "point-mcq-18",
-        "point-mcq-13"
+        "point-mcq-26",
+        "point-mcq-51",
+        "point-mcq-35"
       ],
       "explanation": "本句的「point」指「某件事存在／進行的主要目的、價值或理由」。",
       "sentenceIndex": 32,
@@ -2445,12 +2315,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-16": "本句指「某件事存在／進行的主要目的、價值或理由」。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-13": "「不再講不必要內容，直接說最重要的事情」是「get to the point（說到重點）」的用法，與本句語境不同。"
+        "point-mcq-16": "本句的「point」指「某件事存在／進行的主要目的、價值或理由」。",
+        "point-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-16"
     },
@@ -2462,11 +2330,9 @@ export default {
       "masked": "What’s the ____ of worrying about a tiny mistake?",
       "options": [
         "point-mcq-17",
-        "point-mcq-16",
-        "point-mcq-18",
-        "point-mcq-15",
-        "point-mcq-19",
-        "point-mcq-14"
+        "point-mcq-04",
+        "point-mcq-10",
+        "point-mcq-33"
       ],
       "explanation": "本句的「point」指「質疑某件事是否有實際目的、價值或好處」。",
       "sentenceIndex": 33,
@@ -2475,12 +2341,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-17": "本句指「質疑某件事是否有實際目的、價值或好處」。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。"
+        "point-mcq-17": "本句的「point」指「質疑某件事是否有實際目的、價值或好處」。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-17"
     },
@@ -2492,11 +2356,9 @@ export default {
       "masked": "If nobody listens, what’s the ____?",
       "options": [
         "point-mcq-17",
-        "point-mcq-16",
-        "point-mcq-18",
-        "point-mcq-15",
-        "point-mcq-19",
-        "point-mcq-14"
+        "point-mcq-21",
+        "point-mcq-47",
+        "point-mcq-03"
       ],
       "explanation": "本句的「point」指「質疑某件事是否有實際目的、價值或好處」。",
       "sentenceIndex": 34,
@@ -2505,12 +2367,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-17": "本句指「質疑某件事是否有實際目的、價值或好處」。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-14": "「直接相關、沒有多餘內容，而且集中於主要問題」是「to the point（切中要點的）」的用法，與本句語境不同。"
+        "point-mcq-17": "本句的「point」指「質疑某件事是否有實際目的、價值或好處」。",
+        "point-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-17"
     },
@@ -2522,11 +2382,9 @@ export default {
       "masked": "There’s no ____ about every mistake.",
       "options": [
         "point-mcq-18",
-        "point-mcq-17",
-        "point-mcq-19",
-        "point-mcq-16",
-        "point-mcq-20",
-        "point-mcq-15"
+        "point-mcq-52",
+        "point-mcq-42",
+        "point-mcq-29"
       ],
       "explanation": "本句的「point in worrying」指「做某事不會帶來有用結果，因此沒有意義／必要」。",
       "sentenceIndex": 35,
@@ -2535,12 +2393,10 @@ export default {
         "point in worrying"
       ],
       "optionReasons": {
-        "point-mcq-18": "本句指「做某事不會帶來有用結果，因此沒有意義／必要」。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。"
+        "point-mcq-18": "本句的「point in worrying」指「做某事不會帶來有用結果，因此沒有意義／必要」。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-18"
     },
@@ -2552,11 +2408,9 @@ export default {
       "masked": "There’s no ____ to understand.",
       "options": [
         "point-mcq-18",
-        "point-mcq-17",
-        "point-mcq-19",
-        "point-mcq-16",
-        "point-mcq-20",
-        "point-mcq-15"
+        "point-mcq-42",
+        "point-mcq-15",
+        "point-mcq-33"
       ],
       "explanation": "本句的「point in pretending」指「做某事不會帶來有用結果，因此沒有意義／必要」。",
       "sentenceIndex": 36,
@@ -2565,12 +2419,10 @@ export default {
         "point in pretending"
       ],
       "optionReasons": {
-        "point-mcq-18": "本句指「做某事不會帶來有用結果，因此沒有意義／必要」。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-15": "「與正在討論的真正問題／重點無關」是「beside the point（與重點無關）」的用法，與本句語境不同。"
+        "point-mcq-18": "本句的「point in pretending」指「做某事不會帶來有用結果，因此沒有意義／必要」。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-18"
     },
@@ -2582,11 +2434,9 @@ export default {
       "masked": "You have a good ____.",
       "options": [
         "point-mcq-19",
-        "point-mcq-18",
-        "point-mcq-20",
-        "point-mcq-17",
-        "point-mcq-21",
-        "point-mcq-16"
+        "point-mcq-55",
+        "point-mcq-64",
+        "point-mcq-14"
       ],
       "explanation": "本句的「point」指「支持某種看法的一項有道理的意見／理由」。",
       "sentenceIndex": 37,
@@ -2595,12 +2445,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-19": "本句指「支持某種看法的一項有道理的意見／理由」。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。"
+        "point-mcq-19": "本句的「point」指「支持某種看法的一項有道理的意見／理由」。",
+        "point-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-19"
     },
@@ -2612,11 +2460,9 @@ export default {
       "masked": "That’s a fair ____.",
       "options": [
         "point-mcq-19",
-        "point-mcq-18",
-        "point-mcq-20",
-        "point-mcq-17",
-        "point-mcq-21",
-        "point-mcq-16"
+        "point-mcq-65",
+        "point-mcq-06",
+        "point-mcq-27"
       ],
       "explanation": "本句的「point」指「支持某種看法的一項有道理的意見／理由」。",
       "sentenceIndex": 38,
@@ -2625,12 +2471,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-19": "本句指「支持某種看法的一項有道理的意見／理由」。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-16": "「某件事存在／進行的主要目的、價值或理由」是「point = purpose/reason（意義／目的）」的用法，與本句語境不同。"
+        "point-mcq-19": "本句的「point」指「支持某種看法的一項有道理的意見／理由」。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-19"
     },
@@ -2642,11 +2486,9 @@ export default {
       "masked": "You have a ____—the audience may prefer simpler language.",
       "options": [
         "point-mcq-20",
-        "point-mcq-19",
-        "point-mcq-21",
-        "point-mcq-18",
-        "point-mcq-22",
-        "point-mcq-17"
+        "point-mcq-28",
+        "point-mcq-57",
+        "point-mcq-55"
       ],
       "explanation": "本句的「point」指「某人的意見至少有合理／值得考慮之處」。",
       "sentenceIndex": 39,
@@ -2655,12 +2497,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-20": "本句指「某人的意見至少有合理／值得考慮之處」。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。"
+        "point-mcq-20": "本句的「point」指「某人的意見至少有合理／值得考慮之處」。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-55": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-20"
     },
@@ -2672,11 +2512,9 @@ export default {
       "masked": "She has a ____ about the timing.",
       "options": [
         "point-mcq-20",
-        "point-mcq-19",
-        "point-mcq-21",
-        "point-mcq-18",
-        "point-mcq-22",
-        "point-mcq-17"
+        "point-mcq-49",
+        "point-mcq-65",
+        "point-mcq-01"
       ],
       "explanation": "本句的「point」指「某人的意見至少有合理／值得考慮之處」。",
       "sentenceIndex": 40,
@@ -2685,12 +2523,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-20": "本句指「某人的意見至少有合理／值得考慮之處」。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-17": "「質疑某件事是否有實際目的、價值或好處」是「What’s the point?（有甚麼意義？）」的用法，與本句語境不同。"
+        "point-mcq-20": "本句的「point」指「某人的意見至少有合理／值得考慮之處」。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-20"
     },
@@ -2702,11 +2538,9 @@ export default {
       "masked": "You need more practice.” > “____",
       "options": [
         "point-mcq-21",
-        "point-mcq-20",
-        "point-mcq-22",
-        "point-mcq-19",
-        "point-mcq-23",
-        "point-mcq-18"
+        "point-mcq-03",
+        "point-mcq-48",
+        "point-mcq-65"
       ],
       "explanation": "本句的「Point taken.」指「表示理解並接受對方提出的批評、理由或觀點」。",
       "sentenceIndex": 41,
@@ -2715,12 +2549,10 @@ export default {
         "Point taken."
       ],
       "optionReasons": {
-        "point-mcq-21": "本句指「表示理解並接受對方提出的批評、理由或觀點」。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。"
+        "point-mcq-21": "本句的「Point taken.」指「表示理解並接受對方提出的批評、理由或觀點」。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-21"
     },
@@ -2732,11 +2564,9 @@ export default {
       "masked": "That example is too technical.” > “____",
       "options": [
         "point-mcq-21",
-        "point-mcq-20",
-        "point-mcq-22",
-        "point-mcq-19",
-        "point-mcq-23",
-        "point-mcq-18"
+        "point-mcq-64",
+        "point-mcq-60",
+        "point-mcq-27"
       ],
       "explanation": "本句的「Point taken.」指「表示理解並接受對方提出的批評、理由或觀點」。",
       "sentenceIndex": 42,
@@ -2745,12 +2575,10 @@ export default {
         "Point taken."
       ],
       "optionReasons": {
-        "point-mcq-21": "本句指「表示理解並接受對方提出的批評、理由或觀點」。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-18": "「做某事不會帶來有用結果，因此沒有意義／必要」是「there is no point in + -ing（做……沒有意義）」的用法，與本句語境不同。"
+        "point-mcq-21": "本句的「Point taken.」指「表示理解並接受對方提出的批評、理由或觀點」。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-21"
     },
@@ -2762,11 +2590,9 @@ export default {
       "masked": "He repeated the experiment to ____.",
       "options": [
         "point-mcq-22",
-        "point-mcq-21",
-        "point-mcq-23",
-        "point-mcq-20",
-        "point-mcq-24",
-        "point-mcq-19"
+        "point-mcq-05",
+        "point-mcq-47",
+        "point-mcq-34"
       ],
       "explanation": "本句的「prove a point」指「提供證據／行動來顯示某個主張是正確的」。",
       "sentenceIndex": 43,
@@ -2775,12 +2601,10 @@ export default {
         "prove a point"
       ],
       "optionReasons": {
-        "point-mcq-22": "本句指「提供證據／行動來顯示某個主張是正確的」。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。"
+        "point-mcq-22": "本句的「prove a point」指「提供證據／行動來顯示某個主張是正確的」。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-22"
     },
@@ -2792,11 +2616,9 @@ export default {
       "masked": "You don’t need to take unnecessary risks just to ____.",
       "options": [
         "point-mcq-22",
-        "point-mcq-21",
-        "point-mcq-23",
-        "point-mcq-20",
-        "point-mcq-24",
-        "point-mcq-19"
+        "point-mcq-59",
+        "point-mcq-37",
+        "point-mcq-45"
       ],
       "explanation": "本句的「prove a point」指「提供證據／行動來顯示某個主張是正確的」。",
       "sentenceIndex": 44,
@@ -2805,12 +2627,10 @@ export default {
         "prove a point"
       ],
       "optionReasons": {
-        "point-mcq-22": "本句指「提供證據／行動來顯示某個主張是正確的」。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-19": "「支持某種看法的一項有道理的意見／理由」是「point = argument/reason（論點／理由）」的用法，與本句語境不同。"
+        "point-mcq-22": "本句的「prove a point」指「提供證據／行動來顯示某個主張是正確的」。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-22"
     },
@@ -2822,11 +2642,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "point-mcq-23",
-        "point-mcq-22",
-        "point-mcq-24",
-        "point-mcq-21",
-        "point-mcq-25",
-        "point-mcq-20"
+        "point-mcq-56",
+        "point-mcq-04",
+        "point-mcq-65"
       ],
       "explanation": "本句的「make a point of arriving early」指「認為某件事很重要，所以刻意／有意識地確保自己去做」。",
       "sentenceIndex": 45,
@@ -2835,12 +2653,10 @@ export default {
         "make a point of arriving early"
       ],
       "optionReasons": {
-        "point-mcq-23": "本句指「認為某件事很重要，所以刻意／有意識地確保自己去做」。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。"
+        "point-mcq-23": "本句的「make a point of arriving early」指「認為某件事很重要，所以刻意／有意識地確保自己去做」。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-23"
     },
@@ -2852,11 +2668,9 @@ export default {
       "masked": "She makes a ____ everyone.",
       "options": [
         "point-mcq-23",
-        "point-mcq-22",
-        "point-mcq-24",
-        "point-mcq-21",
-        "point-mcq-25",
-        "point-mcq-20"
+        "point-mcq-04",
+        "point-mcq-35",
+        "point-mcq-46"
       ],
       "explanation": "本句的「point of thanking」指「認為某件事很重要，所以刻意／有意識地確保自己去做」。",
       "sentenceIndex": 46,
@@ -2865,12 +2679,10 @@ export default {
         "point of thanking"
       ],
       "optionReasons": {
-        "point-mcq-23": "本句指「認為某件事很重要，所以刻意／有意識地確保自己去做」。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-20": "「某人的意見至少有合理／值得考慮之處」是「You have a point（你說得有道理）」的用法，與本句語境不同。"
+        "point-mcq-23": "本句的「point of thanking」指「認為某件事很重要，所以刻意／有意識地確保自己去做」。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-23"
     },
@@ -2882,11 +2694,9 @@ export default {
       "masked": "I understand your ____.",
       "options": [
         "point-mcq-24",
-        "point-mcq-23",
-        "point-mcq-25",
-        "point-mcq-22",
-        "point-mcq-26",
-        "point-mcq-21"
+        "point-mcq-02",
+        "point-mcq-34",
+        "point-mcq-18"
       ],
       "explanation": "本句的「point of view」指「某人理解、看待或判斷事情的角度／立場」。",
       "sentenceIndex": 47,
@@ -2895,12 +2705,10 @@ export default {
         "point of view"
       ],
       "optionReasons": {
-        "point-mcq-24": "本句指「某人理解、看待或判斷事情的角度／立場」。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。"
+        "point-mcq-24": "本句的「point of view」指「某人理解、看待或判斷事情的角度／立場」。",
+        "point-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-24"
     },
@@ -2912,11 +2720,9 @@ export default {
       "masked": "Try to see the issue from the audience’s ____.",
       "options": [
         "point-mcq-24",
-        "point-mcq-23",
-        "point-mcq-25",
-        "point-mcq-22",
-        "point-mcq-26",
-        "point-mcq-21"
+        "point-mcq-14",
+        "point-mcq-58",
+        "point-mcq-46"
       ],
       "explanation": "本句的「point of view」指「某人理解、看待或判斷事情的角度／立場」。",
       "sentenceIndex": 48,
@@ -2925,12 +2731,10 @@ export default {
         "point of view"
       ],
       "optionReasons": {
-        "point-mcq-24": "本句指「某人理解、看待或判斷事情的角度／立場」。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-21": "「表示理解並接受對方提出的批評、理由或觀點」是「point taken（明白你的道理了）」的用法，與本句語境不同。"
+        "point-mcq-24": "本句的「point of view」指「某人理解、看待或判斷事情的角度／立場」。",
+        "point-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-24"
     },
@@ -2942,11 +2746,9 @@ export default {
       "masked": "From my ____, the presentation was worthwhile.",
       "options": [
         "point-mcq-25",
-        "point-mcq-24",
-        "point-mcq-26",
-        "point-mcq-23",
-        "point-mcq-27",
-        "point-mcq-22"
+        "point-mcq-36",
+        "point-mcq-34",
+        "point-mcq-05"
       ],
       "explanation": "本句的「point of view」指「站在某人的立場／角度來理解某件事」。",
       "sentenceIndex": 49,
@@ -2955,12 +2757,10 @@ export default {
         "point of view"
       ],
       "optionReasons": {
-        "point-mcq-25": "本句指「站在某人的立場／角度來理解某件事」。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。"
+        "point-mcq-25": "本句的「point of view」指「站在某人的立場／角度來理解某件事」。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-25"
     },
@@ -2972,11 +2772,9 @@ export default {
       "masked": "From the manager’s ____, preparation was essential.",
       "options": [
         "point-mcq-25",
-        "point-mcq-24",
-        "point-mcq-26",
-        "point-mcq-23",
-        "point-mcq-27",
-        "point-mcq-22"
+        "point-mcq-46",
+        "point-mcq-62",
+        "point-mcq-36"
       ],
       "explanation": "本句的「point of view」指「站在某人的立場／角度來理解某件事」。",
       "sentenceIndex": 50,
@@ -2985,12 +2783,10 @@ export default {
         "point of view"
       ],
       "optionReasons": {
-        "point-mcq-25": "本句指「站在某人的立場／角度來理解某件事」。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-22": "「提供證據／行動來顯示某個主張是正確的」是「prove a point（證明自己的觀點）」的用法，與本句語境不同。"
+        "point-mcq-25": "本句的「point of view」指「站在某人的立場／角度來理解某件事」。",
+        "point-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-62": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-25"
     },
@@ -3002,11 +2798,9 @@ export default {
       "masked": "We should consider different ____.",
       "options": [
         "point-mcq-26",
-        "point-mcq-25",
-        "point-mcq-27",
-        "point-mcq-24",
-        "point-mcq-28",
-        "point-mcq-23"
+        "point-mcq-13",
+        "point-mcq-47",
+        "point-mcq-57"
       ],
       "explanation": "本句的「viewpoints」指「某人看待某個問題的特定角度、立場或意見」。",
       "sentenceIndex": 51,
@@ -3015,12 +2809,10 @@ export default {
         "viewpoints"
       ],
       "optionReasons": {
-        "point-mcq-26": "本句指「某人看待某個問題的特定角度、立場或意見」。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。"
+        "point-mcq-26": "本句的「viewpoints」指「某人看待某個問題的特定角度、立場或意見」。",
+        "point-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-26"
     },
@@ -3032,11 +2824,9 @@ export default {
       "masked": "Her ____ changed after the experience.",
       "options": [
         "point-mcq-26",
-        "point-mcq-25",
-        "point-mcq-27",
-        "point-mcq-24",
-        "point-mcq-28",
-        "point-mcq-23"
+        "point-mcq-58",
+        "point-mcq-57",
+        "point-mcq-60"
       ],
       "explanation": "本句的「viewpoint」指「某人看待某個問題的特定角度、立場或意見」。",
       "sentenceIndex": 52,
@@ -3045,12 +2835,10 @@ export default {
         "viewpoint"
       ],
       "optionReasons": {
-        "point-mcq-26": "本句指「某人看待某個問題的特定角度、立場或意見」。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-23": "「認為某件事很重要，所以刻意／有意識地確保自己去做」是「make a point of doing something（特意做某事）」的用法，與本句語境不同。"
+        "point-mcq-26": "本句的「viewpoint」指「某人看待某個問題的特定角度、立場或意見」。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-26"
     },
@@ -3062,11 +2850,9 @@ export default {
       "masked": "Meet me at this ____ on the map.",
       "options": [
         "point-mcq-27",
-        "point-mcq-26",
-        "point-mcq-28",
-        "point-mcq-25",
-        "point-mcq-29",
-        "point-mcq-24"
+        "point-mcq-38",
+        "point-mcq-56",
+        "point-mcq-17"
       ],
       "explanation": "本句的「point」指「空間中一個特定而精確的位置」。",
       "sentenceIndex": 53,
@@ -3075,12 +2861,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-27": "本句指「空間中一個特定而精確的位置」。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。"
+        "point-mcq-27": "本句的「point」指「空間中一個特定而精確的位置」。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-27"
     },
@@ -3092,11 +2876,9 @@ export default {
       "masked": "The road is narrow at this ____.",
       "options": [
         "point-mcq-27",
-        "point-mcq-26",
-        "point-mcq-28",
-        "point-mcq-25",
-        "point-mcq-29",
-        "point-mcq-24"
+        "point-mcq-50",
+        "point-mcq-13",
+        "point-mcq-59"
       ],
       "explanation": "本句的「point」指「空間中一個特定而精確的位置」。",
       "sentenceIndex": 54,
@@ -3105,12 +2887,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-27": "本句指「空間中一個特定而精確的位置」。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-24": "「某人理解、看待或判斷事情的角度／立場」是「point = viewpoint/opinion（觀點）」的用法，與本句語境不同。"
+        "point-mcq-27": "本句的「point」指「空間中一個特定而精確的位置」。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-27"
     },
@@ -3122,11 +2902,9 @@ export default {
       "masked": "This building is our ____.",
       "options": [
         "point-mcq-28",
-        "point-mcq-27",
-        "point-mcq-29",
-        "point-mcq-26",
-        "point-mcq-30",
-        "point-mcq-25"
+        "point-mcq-58",
+        "point-mcq-20",
+        "point-mcq-31"
       ],
       "explanation": "本句的「starting point」指「起點／終點時，表示起點；終點」。",
       "sentenceIndex": 55,
@@ -3135,12 +2913,10 @@ export default {
         "starting point"
       ],
       "optionReasons": {
-        "point-mcq-28": "本句指「起點／終點時，表示起點；終點」。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。"
+        "point-mcq-28": "本句的「starting point」指「起點／終點時，表示起點；終點」。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-28"
     },
@@ -3152,11 +2928,9 @@ export default {
       "masked": "The station is the ____ of the route.",
       "options": [
         "point-mcq-28",
-        "point-mcq-27",
-        "point-mcq-29",
-        "point-mcq-26",
-        "point-mcq-30",
-        "point-mcq-25"
+        "point-mcq-12",
+        "point-mcq-20",
+        "point-mcq-48"
       ],
       "explanation": "本句的「end point」指「起點／終點時，表示起點；終點」。",
       "sentenceIndex": 56,
@@ -3165,12 +2939,10 @@ export default {
         "end point"
       ],
       "optionReasons": {
-        "point-mcq-28": "本句指「起點／終點時，表示起點；終點」。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-25": "「站在某人的立場／角度來理解某件事」是「from someone’s point of view（從某人角度）」的用法，與本句語境不同。"
+        "point-mcq-28": "本句的「end point」指「起點／終點時，表示起點；終點」。",
+        "point-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-28"
     },
@@ -3182,11 +2954,9 @@ export default {
       "masked": "The lobby is our ____.",
       "options": [
         "point-mcq-29",
-        "point-mcq-28",
-        "point-mcq-30",
-        "point-mcq-27",
-        "point-mcq-31",
-        "point-mcq-26"
+        "point-mcq-44",
+        "point-mcq-51",
+        "point-mcq-41"
       ],
       "explanation": "本句的「meeting point」指「集合點時，表示集合地點」。",
       "sentenceIndex": 57,
@@ -3195,12 +2965,10 @@ export default {
         "meeting point"
       ],
       "optionReasons": {
-        "point-mcq-29": "本句指「集合點時，表示集合地點」。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。"
+        "point-mcq-29": "本句的「meeting point」指「集合點時，表示集合地點」。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-29"
     },
@@ -3212,11 +2980,9 @@ export default {
       "masked": "Choose an easy-to-find ____.",
       "options": [
         "point-mcq-29",
-        "point-mcq-28",
-        "point-mcq-30",
-        "point-mcq-27",
-        "point-mcq-31",
-        "point-mcq-26"
+        "point-mcq-49",
+        "point-mcq-05",
+        "point-mcq-34"
       ],
       "explanation": "本句的「meeting point」指「集合點時，表示集合地點」。",
       "sentenceIndex": 58,
@@ -3225,12 +2991,10 @@ export default {
         "meeting point"
       ],
       "optionReasons": {
-        "point-mcq-29": "本句指「集合點時，表示集合地點」。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-26": "「某人看待某個問題的特定角度、立場或意見」是「viewpoint（觀點／立場）」的用法，與本句語境不同。"
+        "point-mcq-29": "本句的「meeting point」指「集合點時，表示集合地點」。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-29"
     },
@@ -3242,11 +3006,9 @@ export default {
       "masked": "Mark the location with a ____.",
       "options": [
         "point-mcq-30",
-        "point-mcq-29",
-        "point-mcq-31",
-        "point-mcq-28",
-        "point-mcq-32",
-        "point-mcq-27"
+        "point-mcq-05",
+        "point-mcq-25",
+        "point-mcq-33"
       ],
       "explanation": "本句的「point」指「很小的圓點／標記，常代表一個位置或數據值」。",
       "sentenceIndex": 59,
@@ -3255,12 +3017,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-30": "本句指「很小的圓點／標記，常代表一個位置或數據值」。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。"
+        "point-mcq-30": "本句的「point」指「很小的圓點／標記，常代表一個位置或數據值」。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-30"
     },
@@ -3272,11 +3032,9 @@ export default {
       "masked": "The diagram contains several coloured ____.",
       "options": [
         "point-mcq-30",
-        "point-mcq-29",
-        "point-mcq-31",
-        "point-mcq-28",
-        "point-mcq-32",
-        "point-mcq-27"
+        "point-mcq-57",
+        "point-mcq-42",
+        "point-mcq-49"
       ],
       "explanation": "本句的「points」指「很小的圓點／標記，常代表一個位置或數據值」。",
       "sentenceIndex": 60,
@@ -3285,12 +3043,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-30": "本句指「很小的圓點／標記，常代表一個位置或數據值」。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-27": "「空間中一個特定而精確的位置」是「point = exact place/location（點／位置）」的用法，與本句語境不同。"
+        "point-mcq-30": "本句的「points」指「很小的圓點／標記，常代表一個位置或數據值」。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-30"
     },
@@ -3302,11 +3058,9 @@ export default {
       "masked": "One ____ is not enough to show a trend.",
       "options": [
         "point-mcq-31",
-        "point-mcq-30",
-        "point-mcq-32",
-        "point-mcq-29",
-        "point-mcq-33",
-        "point-mcq-28"
+        "point-mcq-41",
+        "point-mcq-34",
+        "point-mcq-25"
       ],
       "explanation": "本句的「data point」指「資料集中一個個別觀察值／測量值」。",
       "sentenceIndex": 61,
@@ -3315,12 +3069,10 @@ export default {
         "data point"
       ],
       "optionReasons": {
-        "point-mcq-31": "本句指「資料集中一個個別觀察值／測量值」。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。"
+        "point-mcq-31": "本句的「data point」指「資料集中一個個別觀察值／測量值」。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-31"
     },
@@ -3332,11 +3084,9 @@ export default {
       "masked": "Each dot represents a ____.",
       "options": [
         "point-mcq-31",
-        "point-mcq-30",
-        "point-mcq-32",
-        "point-mcq-29",
-        "point-mcq-33",
-        "point-mcq-28"
+        "point-mcq-50",
+        "point-mcq-15",
+        "point-mcq-06"
       ],
       "explanation": "本句的「data point」指「資料集中一個個別觀察值／測量值」。",
       "sentenceIndex": 62,
@@ -3345,12 +3095,10 @@ export default {
         "data point"
       ],
       "optionReasons": {
-        "point-mcq-31": "本句指「資料集中一個個別觀察值／測量值」。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-28": "「起點／終點時，表示起點；終點」是「starting/end point（起點／終點）」的用法，與本句語境不同。"
+        "point-mcq-31": "本句的「data point」指「資料集中一個個別觀察值／測量值」。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-31"
     },
@@ -3362,11 +3110,9 @@ export default {
       "masked": "The pencil has a sharp ____.",
       "options": [
         "point-mcq-32",
-        "point-mcq-31",
-        "point-mcq-33",
-        "point-mcq-30",
-        "point-mcq-34",
-        "point-mcq-29"
+        "point-mcq-21",
+        "point-mcq-47",
+        "point-mcq-43"
       ],
       "explanation": "本句的「point」指「物件逐漸收窄形成的尖銳末端」。",
       "sentenceIndex": 63,
@@ -3375,12 +3121,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-32": "本句指「物件逐漸收窄形成的尖銳末端」。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。"
+        "point-mcq-32": "本句的「point」指「物件逐漸收窄形成的尖銳末端」。",
+        "point-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-32"
     },
@@ -3392,11 +3136,9 @@ export default {
       "masked": "Be careful with the ____ of the knife.",
       "options": [
         "point-mcq-32",
-        "point-mcq-31",
-        "point-mcq-33",
-        "point-mcq-30",
-        "point-mcq-34",
-        "point-mcq-29"
+        "point-mcq-38",
+        "point-mcq-20",
+        "point-mcq-04"
       ],
       "explanation": "本句的「point」指「物件逐漸收窄形成的尖銳末端」。",
       "sentenceIndex": 64,
@@ -3405,12 +3147,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-32": "本句指「物件逐漸收窄形成的尖銳末端」。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-29": "「集合點時，表示集合地點」是「meeting point（集合點）」的用法，與本句語境不同。"
+        "point-mcq-32": "本句的「point」指「物件逐漸收窄形成的尖銳末端」。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-32"
     },
@@ -3422,11 +3162,9 @@ export default {
       "masked": "The ____ is extremely sharp.",
       "options": [
         "point-mcq-33",
-        "point-mcq-32",
-        "point-mcq-34",
-        "point-mcq-31",
-        "point-mcq-35",
-        "point-mcq-30"
+        "point-mcq-39",
+        "point-mcq-58",
+        "point-mcq-44"
       ],
       "explanation": "本句的「point of the needle」指「針尖／筆尖時，表示尖端」。",
       "sentenceIndex": 65,
@@ -3435,12 +3173,10 @@ export default {
         "point of the needle"
       ],
       "optionReasons": {
-        "point-mcq-33": "本句指「針尖／筆尖時，表示尖端」。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。"
+        "point-mcq-33": "本句的「point of the needle」指「針尖／筆尖時，表示尖端」。",
+        "point-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-33"
     },
@@ -3452,11 +3188,9 @@ export default {
       "masked": "The pencil ____ broke.",
       "options": [
         "point-mcq-33",
-        "point-mcq-32",
-        "point-mcq-34",
-        "point-mcq-31",
-        "point-mcq-35",
-        "point-mcq-30"
+        "point-mcq-20",
+        "point-mcq-22",
+        "point-mcq-18"
       ],
       "explanation": "本句的「point」指「針尖／筆尖時，表示尖端」。",
       "sentenceIndex": 66,
@@ -3465,12 +3199,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-33": "本句指「針尖／筆尖時，表示尖端」。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-30": "「很小的圓點／標記，常代表一個位置或數據值」是「point = small dot/mark（點）」的用法，與本句語境不同。"
+        "point-mcq-33": "本句的「point」指「針尖／筆尖時，表示尖端」。",
+        "point-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-33"
     },
@@ -3482,11 +3214,9 @@ export default {
       "masked": "They walked out to the ____.",
       "options": [
         "point-mcq-34",
-        "point-mcq-33",
-        "point-mcq-35",
-        "point-mcq-32",
-        "point-mcq-36",
-        "point-mcq-31"
+        "point-mcq-24",
+        "point-mcq-03",
+        "point-mcq-05"
       ],
       "explanation": "本句的「point」指「向水域／外部突出的狹長陸地部分」。",
       "sentenceIndex": 67,
@@ -3495,12 +3225,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-34": "本句指「向水域／外部突出的狹長陸地部分」。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。"
+        "point-mcq-34": "本句的「point」指「向水域／外部突出的狹長陸地部分」。",
+        "point-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-34"
     },
@@ -3512,10 +3240,8 @@ export default {
       "masked": "The lighthouse stands on the rocky ____.",
       "options": [
         "point-mcq-34",
-        "point-mcq-33",
-        "point-mcq-35",
-        "point-mcq-32",
-        "point-mcq-36",
+        "point-mcq-57",
+        "point-mcq-18",
         "point-mcq-31"
       ],
       "explanation": "本句的「point」指「向水域／外部突出的狹長陸地部分」。",
@@ -3525,12 +3251,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-34": "本句指「向水域／外部突出的狹長陸地部分」。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-31": "「資料集中一個個別觀察值／測量值」是「data point（數據點）」的用法，與本句語境不同。"
+        "point-mcq-34": "本句的「point」指「向水域／外部突出的狹長陸地部分」。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-34"
     },
@@ -3542,11 +3266,9 @@ export default {
       "masked": "The team won by three ____.",
       "options": [
         "point-mcq-35",
-        "point-mcq-34",
-        "point-mcq-36",
-        "point-mcq-33",
-        "point-mcq-37",
-        "point-mcq-32"
+        "point-mcq-39",
+        "point-mcq-23",
+        "point-mcq-44"
       ],
       "explanation": "本句的「points」指「比賽、考試、評分制度中用來計算成績的一個單位」。",
       "sentenceIndex": 69,
@@ -3555,12 +3277,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-35": "本句指「比賽、考試、評分制度中用來計算成績的一個單位」。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。"
+        "point-mcq-35": "本句的「points」指「比賽、考試、評分制度中用來計算成績的一個單位」。",
+        "point-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-35"
     },
@@ -3572,11 +3292,9 @@ export default {
       "masked": "Each question is worth five ____.",
       "options": [
         "point-mcq-35",
-        "point-mcq-34",
-        "point-mcq-36",
-        "point-mcq-33",
-        "point-mcq-37",
-        "point-mcq-32"
+        "point-mcq-60",
+        "point-mcq-23",
+        "point-mcq-31"
       ],
       "explanation": "本句的「points」指「比賽、考試、評分制度中用來計算成績的一個單位」。",
       "sentenceIndex": 70,
@@ -3585,12 +3303,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-35": "本句指「比賽、考試、評分制度中用來計算成績的一個單位」。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-32": "「物件逐漸收窄形成的尖銳末端」是「point = sharp end/tip（尖端）」的用法，與本句語境不同。"
+        "point-mcq-35": "本句的「points」指「比賽、考試、評分制度中用來計算成績的一個單位」。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-35"
     },
@@ -3602,11 +3318,9 @@ export default {
       "masked": "She scored ten ____.",
       "options": [
         "point-mcq-36",
-        "point-mcq-35",
-        "point-mcq-37",
-        "point-mcq-34",
-        "point-mcq-38",
-        "point-mcq-33"
+        "point-mcq-52",
+        "point-mcq-12",
+        "point-mcq-20"
       ],
       "explanation": "本句的「points」指「得分時，表示得分；取得分數」。",
       "sentenceIndex": 71,
@@ -3615,12 +3329,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-36": "本句指「得分時，表示得分；取得分數」。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。"
+        "point-mcq-36": "本句的「points」指「得分時，表示得分；取得分數」。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-36"
     },
@@ -3632,11 +3344,9 @@ export default {
       "masked": "You get extra ____ for clarity.",
       "options": [
         "point-mcq-36",
-        "point-mcq-35",
-        "point-mcq-37",
-        "point-mcq-34",
-        "point-mcq-38",
-        "point-mcq-33"
+        "point-mcq-19",
+        "point-mcq-39",
+        "point-mcq-49"
       ],
       "explanation": "本句的「points」指「得分時，表示得分；取得分數」。",
       "sentenceIndex": 72,
@@ -3645,12 +3355,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-36": "本句指「得分時，表示得分；取得分數」。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-33": "「針尖／筆尖時，表示尖端」是「point of a needle/pencil（針尖／筆尖）」的用法，與本句語境不同。"
+        "point-mcq-36": "本句的「points」指「得分時，表示得分；取得分數」。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-36"
     },
@@ -3662,11 +3370,9 @@ export default {
       "masked": "The rate rose from 5% to 7%, an increase of two ____.",
       "options": [
         "point-mcq-37",
-        "point-mcq-36",
-        "point-mcq-38",
-        "point-mcq-35",
-        "point-mcq-39",
-        "point-mcq-34"
+        "point-mcq-18",
+        "point-mcq-56",
+        "point-mcq-10"
       ],
       "explanation": "本句的「percentage points」指「兩個百分比數值之間的直接差距單位」。",
       "sentenceIndex": 73,
@@ -3675,12 +3381,10 @@ export default {
         "percentage points"
       ],
       "optionReasons": {
-        "point-mcq-37": "本句指「兩個百分比數值之間的直接差距單位」。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。"
+        "point-mcq-37": "本句的「percentage points」指「兩個百分比數值之間的直接差距單位」。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-37"
     },
@@ -3692,11 +3396,9 @@ export default {
       "masked": "Support fell by three ____.",
       "options": [
         "point-mcq-37",
-        "point-mcq-36",
-        "point-mcq-38",
-        "point-mcq-35",
-        "point-mcq-39",
-        "point-mcq-34"
+        "point-mcq-12",
+        "point-mcq-40",
+        "point-mcq-52"
       ],
       "explanation": "本句的「percentage points」指「兩個百分比數值之間的直接差距單位」。",
       "sentenceIndex": 74,
@@ -3705,12 +3407,10 @@ export default {
         "percentage points"
       ],
       "optionReasons": {
-        "point-mcq-37": "本句指「兩個百分比數值之間的直接差距單位」。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-34": "「向水域／外部突出的狹長陸地部分」是「point = projecting piece of land（岬角／地點名稱用法）」的用法，與本句語境不同。"
+        "point-mcq-37": "本句的「percentage points」指「兩個百分比數值之間的直接差距單位」。",
+        "point-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-37"
     },
@@ -3722,11 +3422,9 @@ export default {
       "masked": "Put the ____ in the correct place.",
       "options": [
         "point-mcq-38",
-        "point-mcq-37",
-        "point-mcq-39",
-        "point-mcq-36",
-        "point-mcq-40",
-        "point-mcq-35"
+        "point-mcq-04",
+        "point-mcq-42",
+        "point-mcq-31"
       ],
       "explanation": "本句的「decimal point」指「用來分隔整數部分和小數部分的點號」。",
       "sentenceIndex": 75,
@@ -3735,12 +3433,10 @@ export default {
         "decimal point"
       ],
       "optionReasons": {
-        "point-mcq-38": "本句指「用來分隔整數部分和小數部分的點號」。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。"
+        "point-mcq-38": "本句的「decimal point」指「用來分隔整數部分和小數部分的點號」。",
+        "point-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-38"
     },
@@ -3752,11 +3448,9 @@ export default {
       "masked": "3.5 contains a ____.",
       "options": [
         "point-mcq-38",
-        "point-mcq-37",
-        "point-mcq-39",
-        "point-mcq-36",
-        "point-mcq-40",
-        "point-mcq-35"
+        "point-mcq-11",
+        "point-mcq-48",
+        "point-mcq-60"
       ],
       "explanation": "本句的「decimal point」指「用來分隔整數部分和小數部分的點號」。",
       "sentenceIndex": 76,
@@ -3765,12 +3459,10 @@ export default {
         "decimal point"
       ],
       "optionReasons": {
-        "point-mcq-38": "本句指「用來分隔整數部分和小數部分的點號」。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-35": "「比賽、考試、評分制度中用來計算成績的一個單位」是「point = score/unit in games/tests（分數）」的用法，與本句語境不同。"
+        "point-mcq-38": "本句的「decimal point」指「用來分隔整數部分和小數部分的點號」。",
+        "point-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-38"
     },
@@ -3782,11 +3474,9 @@ export default {
       "masked": "Water reaches its boiling ____ at about 100°C under standard atmospheric pressure.",
       "options": [
         "point-mcq-39",
-        "point-mcq-38",
-        "point-mcq-40",
-        "point-mcq-37",
+        "point-mcq-32",
         "point-mcq-41",
-        "point-mcq-36"
+        "point-mcq-63"
       ],
       "explanation": "本句的「point」指「某個物理／化學變化發生的特定臨界值」。",
       "sentenceIndex": 77,
@@ -3795,12 +3485,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-39": "本句指「某個物理／化學變化發生的特定臨界值」。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。"
+        "point-mcq-39": "本句的「point」指「某個物理／化學變化發生的特定臨界值」。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-39"
     },
@@ -3812,11 +3500,9 @@ export default {
       "masked": "The temperature fell below freezing ____.",
       "options": [
         "point-mcq-39",
-        "point-mcq-38",
-        "point-mcq-40",
-        "point-mcq-37",
-        "point-mcq-41",
-        "point-mcq-36"
+        "point-mcq-36",
+        "point-mcq-14",
+        "point-mcq-52"
       ],
       "explanation": "本句的「point」指「某個物理／化學變化發生的特定臨界值」。",
       "sentenceIndex": 78,
@@ -3825,12 +3511,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-39": "本句指「某個物理／化學變化發生的特定臨界值」。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-36": "「得分時，表示得分；取得分數」是「score/earn/get points（得分）」的用法，與本句語境不同。"
+        "point-mcq-39": "本句的「point」指「某個物理／化學變化發生的特定臨界值」。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-39"
     },
@@ -3842,11 +3526,9 @@ export default {
       "masked": "Ice has a specific ____.",
       "options": [
         "point-mcq-40",
-        "point-mcq-39",
-        "point-mcq-41",
-        "point-mcq-38",
-        "point-mcq-42",
-        "point-mcq-37"
+        "point-mcq-19",
+        "point-mcq-37",
+        "point-mcq-15"
       ],
       "explanation": "本句的「melting point」指「某種狀態轉變發生的特定溫度／條件」。",
       "sentenceIndex": 79,
@@ -3855,12 +3537,10 @@ export default {
         "melting point"
       ],
       "optionReasons": {
-        "point-mcq-40": "本句指「某種狀態轉變發生的特定溫度／條件」。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。"
+        "point-mcq-40": "本句的「melting point」指「某種狀態轉變發生的特定溫度／條件」。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-40"
     },
@@ -3872,11 +3552,9 @@ export default {
       "masked": "The liquid has a low ____.",
       "options": [
         "point-mcq-40",
-        "point-mcq-39",
-        "point-mcq-41",
-        "point-mcq-38",
-        "point-mcq-42",
-        "point-mcq-37"
+        "point-mcq-31",
+        "point-mcq-11",
+        "point-mcq-34"
       ],
       "explanation": "本句的「boiling point」指「某種狀態轉變發生的特定溫度／條件」。",
       "sentenceIndex": 80,
@@ -3885,12 +3563,10 @@ export default {
         "boiling point"
       ],
       "optionReasons": {
-        "point-mcq-40": "本句指「某種狀態轉變發生的特定溫度／條件」。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-37": "「兩個百分比數值之間的直接差距單位」是「percentage point（百分點）」的用法，與本句語境不同。"
+        "point-mcq-40": "本句的「boiling point」指「某種狀態轉變發生的特定溫度／條件」。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-40"
     },
@@ -3902,11 +3578,9 @@ export default {
       "masked": "The stress pushed him to ____.",
       "options": [
         "point-mcq-41",
-        "point-mcq-40",
-        "point-mcq-42",
-        "point-mcq-39",
-        "point-mcq-43",
-        "point-mcq-38"
+        "point-mcq-44",
+        "point-mcq-32",
+        "point-mcq-54"
       ],
       "explanation": "本句的「breaking point」指「人／系統再也難以承受額外壓力的極限程度」。",
       "sentenceIndex": 81,
@@ -3915,12 +3589,10 @@ export default {
         "breaking point"
       ],
       "optionReasons": {
-        "point-mcq-41": "本句指「人／系統再也難以承受額外壓力的極限程度」。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。"
+        "point-mcq-41": "本句的「breaking point」指「人／系統再也難以承受額外壓力的極限程度」。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-41"
     },
@@ -3932,11 +3604,9 @@ export default {
       "masked": "The system was close to ____.",
       "options": [
         "point-mcq-41",
-        "point-mcq-40",
-        "point-mcq-42",
-        "point-mcq-39",
-        "point-mcq-43",
-        "point-mcq-38"
+        "point-mcq-18",
+        "point-mcq-50",
+        "point-mcq-59"
       ],
       "explanation": "本句的「breaking point」指「人／系統再也難以承受額外壓力的極限程度」。",
       "sentenceIndex": 82,
@@ -3945,12 +3615,10 @@ export default {
         "breaking point"
       ],
       "optionReasons": {
-        "point-mcq-41": "本句指「人／系統再也難以承受額外壓力的極限程度」。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-38": "「用來分隔整數部分和小數部分的點號」是「decimal point（小數點）」的用法，與本句語境不同。"
+        "point-mcq-41": "本句的「breaking point」指「人／系統再也難以承受額外壓力的極限程度」。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-41"
     },
@@ -3962,11 +3630,9 @@ export default {
       "masked": "Tension reached ____.",
       "options": [
         "point-mcq-42",
-        "point-mcq-41",
-        "point-mcq-43",
-        "point-mcq-40",
-        "point-mcq-44",
-        "point-mcq-39"
+        "point-mcq-57",
+        "point-mcq-49",
+        "point-mcq-08"
       ],
       "explanation": "本句的「boiling point」指「比喻情緒／局勢即將失控的臨界程度」。",
       "sentenceIndex": 83,
@@ -3975,12 +3641,10 @@ export default {
         "boiling point"
       ],
       "optionReasons": {
-        "point-mcq-42": "本句指「比喻情緒／局勢即將失控的臨界程度」。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。"
+        "point-mcq-42": "本句的「boiling point」指「比喻情緒／局勢即將失控的臨界程度」。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-42"
     },
@@ -3992,11 +3656,9 @@ export default {
       "masked": "His anger was approaching ____.",
       "options": [
         "point-mcq-42",
-        "point-mcq-41",
-        "point-mcq-43",
-        "point-mcq-40",
+        "point-mcq-08",
         "point-mcq-44",
-        "point-mcq-39"
+        "point-mcq-34"
       ],
       "explanation": "本句的「boiling point」指「比喻情緒／局勢即將失控的臨界程度」。",
       "sentenceIndex": 84,
@@ -4005,12 +3667,10 @@ export default {
         "boiling point"
       ],
       "optionReasons": {
-        "point-mcq-42": "本句指「比喻情緒／局勢即將失控的臨界程度」。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-39": "「某個物理／化學變化發生的特定臨界值」是「point = temperature/stage threshold（臨界點）」的用法，與本句語境不同。"
+        "point-mcq-42": "本句的「boiling point」指「比喻情緒／局勢即將失控的臨界程度」。",
+        "point-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-42"
     },
@@ -4022,11 +3682,9 @@ export default {
       "masked": "Confidence is one of her strong ____.",
       "options": [
         "point-mcq-43",
-        "point-mcq-42",
-        "point-mcq-44",
-        "point-mcq-41",
-        "point-mcq-45",
-        "point-mcq-40"
+        "point-mcq-63",
+        "point-mcq-51",
+        "point-mcq-07"
       ],
       "explanation": "本句的「points」指「某人／某物可被個別識別和評價的一項特徵」。",
       "sentenceIndex": 85,
@@ -4035,12 +3693,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-43": "本句指「某人／某物可被個別識別和評價的一項特徵」。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。"
+        "point-mcq-43": "本句的「points」指「某人／某物可被個別識別和評價的一項特徵」。",
+        "point-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-43"
     },
@@ -4052,11 +3708,9 @@ export default {
       "masked": "The report has several weak ____.",
       "options": [
         "point-mcq-43",
-        "point-mcq-42",
-        "point-mcq-44",
-        "point-mcq-41",
-        "point-mcq-45",
-        "point-mcq-40"
+        "point-mcq-48",
+        "point-mcq-22",
+        "point-mcq-29"
       ],
       "explanation": "本句的「points」指「某人／某物可被個別識別和評價的一項特徵」。",
       "sentenceIndex": 86,
@@ -4065,12 +3719,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-43": "本句指「某人／某物可被個別識別和評價的一項特徵」。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-40": "「某種狀態轉變發生的特定溫度／條件」是「boiling/freezing/melting point（沸點／冰點／熔點）」的用法，與本句語境不同。"
+        "point-mcq-43": "本句的「points」指「某人／某物可被個別識別和評價的一項特徵」。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-43"
     },
@@ -4082,11 +3734,9 @@ export default {
       "masked": "Clear communication is her strongest ____.",
       "options": [
         "point-mcq-44",
-        "point-mcq-43",
-        "point-mcq-45",
-        "point-mcq-42",
-        "point-mcq-46",
-        "point-mcq-41"
+        "point-mcq-52",
+        "point-mcq-36",
+        "point-mcq-66"
       ],
       "explanation": "本句的「point」指「某人／事物特別擅長／不足的一個方面」。",
       "sentenceIndex": 87,
@@ -4095,12 +3745,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-44": "本句指「某人／事物特別擅長／不足的一個方面」。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。"
+        "point-mcq-44": "本句的「point」指「某人／事物特別擅長／不足的一個方面」。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-44"
     },
@@ -4112,11 +3760,9 @@ export default {
       "masked": "Timing was my weak ____.",
       "options": [
         "point-mcq-44",
-        "point-mcq-43",
-        "point-mcq-45",
-        "point-mcq-42",
-        "point-mcq-46",
-        "point-mcq-41"
+        "point-mcq-15",
+        "point-mcq-37",
+        "point-mcq-28"
       ],
       "explanation": "本句的「point」指「某人／事物特別擅長／不足的一個方面」。",
       "sentenceIndex": 88,
@@ -4125,12 +3771,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-44": "本句指「某人／事物特別擅長／不足的一個方面」。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-41": "「人／系統再也難以承受額外壓力的極限程度」是「breaking point（極限）」的用法，與本句語境不同。"
+        "point-mcq-44": "本句的「point」指「某人／事物特別擅長／不足的一個方面」。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-44"
     },
@@ -4142,11 +3786,9 @@ export default {
       "masked": "Simplicity is the product’s main ____.",
       "options": [
         "point-mcq-45",
-        "point-mcq-44",
-        "point-mcq-46",
-        "point-mcq-43",
-        "point-mcq-47",
-        "point-mcq-42"
+        "point-mcq-63",
+        "point-mcq-64",
+        "point-mcq-32"
       ],
       "explanation": "本句的「selling point」指「令產品、服務或想法特別有吸引力／值得選擇的優點」。",
       "sentenceIndex": 89,
@@ -4155,12 +3797,10 @@ export default {
         "selling point"
       ],
       "optionReasons": {
-        "point-mcq-45": "本句指「令產品、服務或想法特別有吸引力／值得選擇的優點」。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。"
+        "point-mcq-45": "本句的「selling point」指「令產品、服務或想法特別有吸引力／值得選擇的優點」。",
+        "point-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-45"
     },
@@ -4172,11 +3812,9 @@ export default {
       "masked": "The location is a strong ____.",
       "options": [
         "point-mcq-45",
-        "point-mcq-44",
-        "point-mcq-46",
-        "point-mcq-43",
-        "point-mcq-47",
-        "point-mcq-42"
+        "point-mcq-36",
+        "point-mcq-56",
+        "point-mcq-18"
       ],
       "explanation": "本句的「selling point」指「令產品、服務或想法特別有吸引力／值得選擇的優點」。",
       "sentenceIndex": 90,
@@ -4185,12 +3823,10 @@ export default {
         "selling point"
       ],
       "optionReasons": {
-        "point-mcq-45": "本句指「令產品、服務或想法特別有吸引力／值得選擇的優點」。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-42": "「比喻情緒／局勢即將失控的臨界程度」是「boiling point figuratively（怒氣爆發點）」的用法，與本句語境不同。"
+        "point-mcq-45": "本句的「selling point」指「令產品、服務或想法特別有吸引力／值得選擇的優點」。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-45"
     },
@@ -4202,11 +3838,9 @@ export default {
       "masked": "There is a power ____ beside the desk.",
       "options": [
         "point-mcq-46",
-        "point-mcq-45",
-        "point-mcq-47",
-        "point-mcq-44",
-        "point-mcq-48",
-        "point-mcq-43"
+        "point-mcq-39",
+        "point-mcq-41",
+        "point-mcq-66"
       ],
       "explanation": "本句的「point」指「插座／接點；英式時，表示插座；接點」。",
       "sentenceIndex": 91,
@@ -4215,12 +3849,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-46": "本句指「插座／接點；英式時，表示插座；接點」。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。"
+        "point-mcq-46": "本句的「point」指「插座／接點；英式時，表示插座；接點」。",
+        "point-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-66": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-46"
     },
@@ -4232,11 +3864,9 @@ export default {
       "masked": "Plug the projector into that ____.",
       "options": [
         "point-mcq-46",
-        "point-mcq-45",
-        "point-mcq-47",
-        "point-mcq-44",
-        "point-mcq-48",
-        "point-mcq-43"
+        "point-mcq-19",
+        "point-mcq-52",
+        "point-mcq-53"
       ],
       "explanation": "本句的「point」指「插座／接點；英式時，表示插座；接點」。",
       "sentenceIndex": 92,
@@ -4245,12 +3875,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-46": "本句指「插座／接點；英式時，表示插座；接點」。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-43": "「某人／某物可被個別識別和評價的一項特徵」是「point = feature/aspect（特點）」的用法，與本句語境不同。"
+        "point-mcq-46": "本句的「point」指「插座／接點；英式時，表示插座；接點」。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-46"
     },
@@ -4262,11 +3890,9 @@ export default {
       "masked": "North is one of the main compass ____.",
       "options": [
         "point-mcq-47",
-        "point-mcq-46",
-        "point-mcq-48",
-        "point-mcq-45",
-        "point-mcq-49",
-        "point-mcq-44"
+        "point-mcq-61",
+        "point-mcq-31",
+        "point-mcq-42"
       ],
       "explanation": "本句的「points」指「羅盤方位點時，表示方位點」。",
       "sentenceIndex": 93,
@@ -4275,12 +3901,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-47": "本句指「羅盤方位點時，表示方位點」。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。"
+        "point-mcq-47": "本句的「points」指「羅盤方位點時，表示方位點」。",
+        "point-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-47"
     },
@@ -4292,11 +3916,9 @@ export default {
       "masked": "The compass shows the cardinal ____.",
       "options": [
         "point-mcq-47",
-        "point-mcq-46",
-        "point-mcq-48",
-        "point-mcq-45",
-        "point-mcq-49",
-        "point-mcq-44"
+        "point-mcq-17",
+        "point-mcq-44",
+        "point-mcq-50"
       ],
       "explanation": "本句的「points」指「羅盤方位點時，表示方位點」。",
       "sentenceIndex": 94,
@@ -4305,12 +3927,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-47": "本句指「羅盤方位點時，表示方位點」。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-44": "「某人／事物特別擅長／不足的一個方面」是「strong/weak point（強項／弱點）」的用法，與本句語境不同。"
+        "point-mcq-47": "本句的「points」指「羅盤方位點時，表示方位點」。",
+        "point-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-47"
     },
@@ -4322,11 +3942,9 @@ export default {
       "masked": "She ____ the first slide.",
       "options": [
         "point-mcq-48",
-        "point-mcq-47",
-        "point-mcq-49",
-        "point-mcq-46",
-        "point-mcq-50",
-        "point-mcq-45"
+        "point-mcq-44",
+        "point-mcq-05",
+        "point-mcq-38"
       ],
       "explanation": "本句的「pointed at」指「用手指、手或物件指示某個方向／對象」。",
       "sentenceIndex": 95,
@@ -4335,12 +3953,10 @@ export default {
         "pointed at"
       ],
       "optionReasons": {
-        "point-mcq-48": "本句指「用手指、手或物件指示某個方向／對象」。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。"
+        "point-mcq-48": "本句的「pointed at」指「用手指、手或物件指示某個方向／對象」。",
+        "point-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-48"
     },
@@ -4352,11 +3968,9 @@ export default {
       "masked": "He ____ the chart.",
       "options": [
         "point-mcq-48",
-        "point-mcq-47",
-        "point-mcq-49",
-        "point-mcq-46",
-        "point-mcq-50",
-        "point-mcq-45"
+        "point-mcq-64",
+        "point-mcq-36",
+        "point-mcq-09"
       ],
       "explanation": "本句的「pointed to」指「用手指、手或物件指示某個方向／對象」。",
       "sentenceIndex": 96,
@@ -4365,12 +3979,10 @@ export default {
         "pointed to"
       ],
       "optionReasons": {
-        "point-mcq-48": "本句指「用手指、手或物件指示某個方向／對象」。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-45": "「令產品、服務或想法特別有吸引力／值得選擇的優點」是「selling point（賣點）」的用法，與本句語境不同。"
+        "point-mcq-48": "本句的「pointed to」指「用手指、手或物件指示某個方向／對象」。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-48"
     },
@@ -4382,11 +3994,9 @@ export default {
       "masked": "Don’t ____ people.",
       "options": [
         "point-mcq-49",
-        "point-mcq-48",
-        "point-mcq-50",
-        "point-mcq-47",
-        "point-mcq-51",
-        "point-mcq-46"
+        "point-mcq-18",
+        "point-mcq-24",
+        "point-mcq-15"
       ],
       "explanation": "本句的「point at」指「把手指／物件直接朝向某個對象」。",
       "sentenceIndex": 97,
@@ -4395,12 +4005,10 @@ export default {
         "point at"
       ],
       "optionReasons": {
-        "point-mcq-49": "本句指「把手指／物件直接朝向某個對象」。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。"
+        "point-mcq-49": "本句的「point at」指「把手指／物件直接朝向某個對象」。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-49"
     },
@@ -4412,11 +4020,9 @@ export default {
       "masked": "She ____ the number on the screen.",
       "options": [
         "point-mcq-49",
-        "point-mcq-48",
-        "point-mcq-50",
-        "point-mcq-47",
-        "point-mcq-51",
-        "point-mcq-46"
+        "point-mcq-01",
+        "point-mcq-36",
+        "point-mcq-18"
       ],
       "explanation": "本句的「pointed at」指「把手指／物件直接朝向某個對象」。",
       "sentenceIndex": 98,
@@ -4425,12 +4031,10 @@ export default {
         "pointed at"
       ],
       "optionReasons": {
-        "point-mcq-49": "本句指「把手指／物件直接朝向某個對象」。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-46": "「插座／接點；英式時，表示插座；接點」是「point = electrical socket/outlet（插座／接點；英式）」的用法，與本句語境不同。"
+        "point-mcq-49": "本句的「pointed at」指「把手指／物件直接朝向某個對象」。",
+        "point-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-49"
     },
@@ -4442,11 +4046,9 @@ export default {
       "masked": "The arrow ____ the exit.",
       "options": [
         "point-mcq-50",
-        "point-mcq-49",
-        "point-mcq-51",
-        "point-mcq-48",
-        "point-mcq-52",
-        "point-mcq-47"
+        "point-mcq-01",
+        "point-mcq-53",
+        "point-mcq-65"
       ],
       "explanation": "本句的「points to」指「物理上指向某物，或比喻上提供證據令某個結論看來較可能」。",
       "sentenceIndex": 99,
@@ -4455,12 +4057,10 @@ export default {
         "points to"
       ],
       "optionReasons": {
-        "point-mcq-50": "本句指「物理上指向某物，或比喻上提供證據令某個結論看來較可能」。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。"
+        "point-mcq-50": "本句的「points to」指「物理上指向某物，或比喻上提供證據令某個結論看來較可能」。",
+        "point-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-50"
     },
@@ -4472,11 +4072,9 @@ export default {
       "masked": "The evidence ____ a different conclusion.",
       "options": [
         "point-mcq-50",
-        "point-mcq-49",
-        "point-mcq-51",
-        "point-mcq-48",
-        "point-mcq-52",
-        "point-mcq-47"
+        "point-mcq-63",
+        "point-mcq-41",
+        "point-mcq-29"
       ],
       "explanation": "本句的「points to」指「物理上指向某物，或比喻上提供證據令某個結論看來較可能」。",
       "sentenceIndex": 100,
@@ -4485,12 +4083,10 @@ export default {
         "points to"
       ],
       "optionReasons": {
-        "point-mcq-50": "本句指「物理上指向某物，或比喻上提供證據令某個結論看來較可能」。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-47": "「羅盤方位點時，表示方位點」是「point = compass direction（羅盤方位點）」的用法，與本句語境不同。"
+        "point-mcq-50": "本句的「points to」指「物理上指向某物，或比喻上提供證據令某個結論看來較可能」。",
+        "point-mcq-63": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-50"
     },
@@ -4502,11 +4098,9 @@ export default {
       "masked": "The sign ____ the main entrance.",
       "options": [
         "point-mcq-51",
-        "point-mcq-50",
-        "point-mcq-52",
-        "point-mcq-49",
-        "point-mcq-53",
-        "point-mcq-48"
+        "point-mcq-43",
+        "point-mcq-17",
+        "point-mcq-37"
       ],
       "explanation": "本句的「points toward」指「朝向某方向；或提供跡象支持某個發展／結論」。",
       "sentenceIndex": 101,
@@ -4515,12 +4109,10 @@ export default {
         "points toward"
       ],
       "optionReasons": {
-        "point-mcq-51": "本句指「朝向某方向；或提供跡象支持某個發展／結論」。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。"
+        "point-mcq-51": "本句的「points toward」指「朝向某方向；或提供跡象支持某個發展／結論」。",
+        "point-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-51"
     },
@@ -4532,11 +4124,9 @@ export default {
       "masked": "The results ____ gradual improvement.",
       "options": [
         "point-mcq-51",
-        "point-mcq-50",
-        "point-mcq-52",
-        "point-mcq-49",
-        "point-mcq-53",
-        "point-mcq-48"
+        "point-mcq-31",
+        "point-mcq-10",
+        "point-mcq-27"
       ],
       "explanation": "本句的「point toward」指「朝向某方向；或提供跡象支持某個發展／結論」。",
       "sentenceIndex": 102,
@@ -4545,12 +4135,10 @@ export default {
         "point toward"
       ],
       "optionReasons": {
-        "point-mcq-51": "本句指「朝向某方向；或提供跡象支持某個發展／結論」。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-48": "「用手指、手或物件指示某個方向／對象」是「point = verb: indicate with finger/object（指）」的用法，與本句語境不同。"
+        "point-mcq-51": "本句的「point toward」指「朝向某方向；或提供跡象支持某個發展／結論」。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-51"
     },
@@ -4562,11 +4150,9 @@ export default {
       "masked": "She ____ the screen.",
       "options": [
         "point-mcq-52",
-        "point-mcq-51",
-        "point-mcq-53",
-        "point-mcq-50",
-        "point-mcq-54",
-        "point-mcq-49"
+        "point-mcq-15",
+        "point-mcq-60",
+        "point-mcq-19"
       ],
       "explanation": "本句的「pointed the remote at」指「使物件的前端／作用方向對準某個目標」。",
       "sentenceIndex": 103,
@@ -4575,12 +4161,10 @@ export default {
         "pointed the remote at"
       ],
       "optionReasons": {
-        "point-mcq-52": "本句指「使物件的前端／作用方向對準某個目標」。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。"
+        "point-mcq-52": "本句的「pointed the remote at」指「使物件的前端／作用方向對準某個目標」。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-52"
     },
@@ -4592,11 +4176,9 @@ export default {
       "masked": "He ____ the stage.",
       "options": [
         "point-mcq-52",
-        "point-mcq-51",
-        "point-mcq-53",
-        "point-mcq-50",
-        "point-mcq-54",
-        "point-mcq-49"
+        "point-mcq-37",
+        "point-mcq-27",
+        "point-mcq-31"
       ],
       "explanation": "本句的「pointed the camera at」指「使物件的前端／作用方向對準某個目標」。",
       "sentenceIndex": 104,
@@ -4605,12 +4187,10 @@ export default {
         "pointed the camera at"
       ],
       "optionReasons": {
-        "point-mcq-52": "本句指「使物件的前端／作用方向對準某個目標」。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-49": "「把手指／物件直接朝向某個對象」是「point at（指著）」的用法，與本句語境不同。"
+        "point-mcq-52": "本句的「pointed the camera at」指「使物件的前端／作用方向對準某個目標」。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-52"
     },
@@ -4622,11 +4202,9 @@ export default {
       "masked": "She ____ a mistake in my slide.",
       "options": [
         "point-mcq-53",
-        "point-mcq-52",
-        "point-mcq-54",
-        "point-mcq-51",
-        "point-mcq-55",
-        "point-mcq-50"
+        "point-mcq-38",
+        "point-mcq-65",
+        "point-mcq-51"
       ],
       "explanation": "本句的「pointed out」指「特別引起別人注意某項資訊、事實或問題」。",
       "sentenceIndex": 105,
@@ -4635,12 +4213,10 @@ export default {
         "pointed out"
       ],
       "optionReasons": {
-        "point-mcq-53": "本句指「特別引起別人注意某項資訊、事實或問題」。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。"
+        "point-mcq-53": "本句的「pointed out」指「特別引起別人注意某項資訊、事實或問題」。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-53"
     },
@@ -4652,11 +4228,9 @@ export default {
       "masked": "I’d like to ____ one important difference.",
       "options": [
         "point-mcq-53",
-        "point-mcq-52",
-        "point-mcq-54",
-        "point-mcq-51",
-        "point-mcq-55",
-        "point-mcq-50"
+        "point-mcq-46",
+        "point-mcq-49",
+        "point-mcq-65"
       ],
       "explanation": "本句的「point out」指「特別引起別人注意某項資訊、事實或問題」。",
       "sentenceIndex": 106,
@@ -4665,12 +4239,10 @@ export default {
         "point out"
       ],
       "optionReasons": {
-        "point-mcq-53": "本句指「特別引起別人注意某項資訊、事實或問題」。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-50": "「物理上指向某物，或比喻上提供證據令某個結論看來較可能」是「point to（指向／顯示）」的用法，與本句語境不同。"
+        "point-mcq-53": "本句的「point out」指「特別引起別人注意某項資訊、事實或問題」。",
+        "point-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-53"
     },
@@ -4682,11 +4254,9 @@ export default {
       "masked": "She ____ preparation matters.",
       "options": [
         "point-mcq-54",
-        "point-mcq-53",
-        "point-mcq-55",
-        "point-mcq-52",
-        "point-mcq-56",
-        "point-mcq-51"
+        "point-mcq-60",
+        "point-mcq-43",
+        "point-mcq-64"
       ],
       "explanation": "本句的「pointed out that」指「明確提出某個值得注意的事實／觀點」。",
       "sentenceIndex": 107,
@@ -4695,12 +4265,10 @@ export default {
         "pointed out that"
       ],
       "optionReasons": {
-        "point-mcq-54": "本句指「明確提出某個值得注意的事實／觀點」。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。"
+        "point-mcq-54": "本句的「pointed out that」指「明確提出某個值得注意的事實／觀點」。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-54"
     },
@@ -4712,11 +4280,9 @@ export default {
       "masked": "The report ____ the data is incomplete.",
       "options": [
         "point-mcq-54",
-        "point-mcq-53",
-        "point-mcq-55",
-        "point-mcq-52",
-        "point-mcq-56",
-        "point-mcq-51"
+        "point-mcq-60",
+        "point-mcq-41",
+        "point-mcq-40"
       ],
       "explanation": "本句的「points out that」指「明確提出某個值得注意的事實／觀點」。",
       "sentenceIndex": 108,
@@ -4725,12 +4291,10 @@ export default {
         "points out that"
       ],
       "optionReasons": {
-        "point-mcq-54": "本句指「明確提出某個值得注意的事實／觀點」。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-51": "「朝向某方向；或提供跡象支持某個發展／結論」是「point toward(s)（朝向／暗示）」的用法，與本句語境不同。"
+        "point-mcq-54": "本句的「points out that」指「明確提出某個值得注意的事實／觀點」。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-54"
     },
@@ -4742,11 +4306,9 @@ export default {
       "masked": "____ the microphone toward your mouth.",
       "options": [
         "point-mcq-55",
-        "point-mcq-54",
-        "point-mcq-56",
-        "point-mcq-53",
-        "point-mcq-57",
-        "point-mcq-52"
+        "point-mcq-22",
+        "point-mcq-25",
+        "point-mcq-14"
       ],
       "explanation": "本句的「Point」指「調整某物方向，使其朝向指定目標」。",
       "sentenceIndex": 109,
@@ -4755,12 +4317,10 @@ export default {
         "Point"
       ],
       "optionReasons": {
-        "point-mcq-55": "本句指「調整某物方向，使其朝向指定目標」。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。"
+        "point-mcq-55": "本句的「Point」指「調整某物方向，使其朝向指定目標」。",
+        "point-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-55"
     },
@@ -4772,11 +4332,9 @@ export default {
       "masked": "The telescope was ____ the sky.",
       "options": [
         "point-mcq-55",
-        "point-mcq-54",
-        "point-mcq-56",
+        "point-mcq-19",
         "point-mcq-53",
-        "point-mcq-57",
-        "point-mcq-52"
+        "point-mcq-41"
       ],
       "explanation": "本句的「pointed at」指「調整某物方向，使其朝向指定目標」。",
       "sentenceIndex": 110,
@@ -4785,12 +4343,10 @@ export default {
         "pointed at"
       ],
       "optionReasons": {
-        "point-mcq-55": "本句指「調整某物方向，使其朝向指定目標」。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-52": "「使物件的前端／作用方向對準某個目標」是「point something at someone/something（把……對準）」的用法，與本句語境不同。"
+        "point-mcq-55": "本句的「pointed at」指「調整某物方向，使其朝向指定目標」。",
+        "point-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-55"
     },
@@ -4802,11 +4358,9 @@ export default {
       "masked": "She ____ the meeting room.",
       "options": [
         "point-mcq-56",
-        "point-mcq-55",
-        "point-mcq-57",
-        "point-mcq-54",
-        "point-mcq-58",
-        "point-mcq-53"
+        "point-mcq-46",
+        "point-mcq-45",
+        "point-mcq-38"
       ],
       "explanation": "本句的「pointed me toward」指「為某人指出應該前往／採取的方向」。",
       "sentenceIndex": 111,
@@ -4815,12 +4369,10 @@ export default {
         "pointed me toward"
       ],
       "optionReasons": {
-        "point-mcq-56": "本句指「為某人指出應該前往／採取的方向」。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。"
+        "point-mcq-56": "本句的「pointed me toward」指「為某人指出應該前往／採取的方向」。",
+        "point-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-56"
     },
@@ -4832,11 +4384,9 @@ export default {
       "masked": "Could you ____?",
       "options": [
         "point-mcq-56",
-        "point-mcq-55",
-        "point-mcq-57",
-        "point-mcq-54",
-        "point-mcq-58",
-        "point-mcq-53"
+        "point-mcq-14",
+        "point-mcq-45",
+        "point-mcq-65"
       ],
       "explanation": "本句的「point me in the right direction」指「為某人指出應該前往／採取的方向」。",
       "sentenceIndex": 112,
@@ -4845,12 +4395,10 @@ export default {
         "point me in the right direction"
       ],
       "optionReasons": {
-        "point-mcq-56": "本句指「為某人指出應該前往／採取的方向」。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-53": "「特別引起別人注意某項資訊、事實或問題」是「point out（指出）」的用法，與本句語境不同。"
+        "point-mcq-56": "本句的「point me in the right direction」指「為某人指出應該前往／採取的方向」。",
+        "point-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-56"
     },
@@ -4862,11 +4410,9 @@ export default {
       "masked": "My supervisor ____.",
       "options": [
         "point-mcq-57",
-        "point-mcq-56",
-        "point-mcq-58",
-        "point-mcq-55",
-        "point-mcq-59",
-        "point-mcq-54"
+        "point-mcq-52",
+        "point-mcq-60",
+        "point-mcq-18"
       ],
       "explanation": "本句的「pointed me in the right direction」指「提供足夠提示／指引，讓對方知道應如何開始或繼續」。",
       "sentenceIndex": 113,
@@ -4875,12 +4421,10 @@ export default {
         "pointed me in the right direction"
       ],
       "optionReasons": {
-        "point-mcq-57": "本句指「提供足夠提示／指引，讓對方知道應如何開始或繼續」。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。"
+        "point-mcq-57": "本句的「pointed me in the right direction」指「提供足夠提示／指引，讓對方知道應如何開始或繼續」。",
+        "point-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-57"
     },
@@ -4892,11 +4436,9 @@ export default {
       "masked": "I can’t solve it for you, but I can ____.",
       "options": [
         "point-mcq-57",
-        "point-mcq-56",
-        "point-mcq-58",
-        "point-mcq-55",
-        "point-mcq-59",
-        "point-mcq-54"
+        "point-mcq-66",
+        "point-mcq-32",
+        "point-mcq-59"
       ],
       "explanation": "本句的「point you in the right direction」指「提供足夠提示／指引，讓對方知道應如何開始或繼續」。",
       "sentenceIndex": 114,
@@ -4905,12 +4447,10 @@ export default {
         "point you in the right direction"
       ],
       "optionReasons": {
-        "point-mcq-57": "本句指「提供足夠提示／指引，讓對方知道應如何開始或繼續」。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-54": "「明確提出某個值得注意的事實／觀點」是「point out that…（指出……）」的用法，與本句語境不同。"
+        "point-mcq-57": "本句的「point you in the right direction」指「提供足夠提示／指引，讓對方知道應如何開始或繼續」。",
+        "point-mcq-66": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-57"
     },
@@ -4922,11 +4462,9 @@ export default {
       "masked": "The ____ moved across the screen.",
       "options": [
         "point-mcq-58",
-        "point-mcq-57",
-        "point-mcq-59",
-        "point-mcq-56",
-        "point-mcq-60",
-        "point-mcq-55"
+        "point-mcq-33",
+        "point-mcq-28",
+        "point-mcq-63"
       ],
       "explanation": "本句的「pointer」指「用來指出位置、方向或數值的物件／圖示」。",
       "sentenceIndex": 115,
@@ -4935,12 +4473,10 @@ export default {
         "pointer"
       ],
       "optionReasons": {
-        "point-mcq-58": "本句指「用來指出位置、方向或數值的物件／圖示」。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。"
+        "point-mcq-58": "本句的「pointer」指「用來指出位置、方向或數值的物件／圖示」。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-63": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-58"
     },
@@ -4952,11 +4488,9 @@ export default {
       "masked": "The gauge ____ showed the current level.",
       "options": [
         "point-mcq-58",
-        "point-mcq-57",
-        "point-mcq-59",
-        "point-mcq-56",
-        "point-mcq-60",
-        "point-mcq-55"
+        "point-mcq-10",
+        "point-mcq-61",
+        "point-mcq-60"
       ],
       "explanation": "本句的「pointer」指「用來指出位置、方向或數值的物件／圖示」。",
       "sentenceIndex": 116,
@@ -4965,12 +4499,10 @@ export default {
         "pointer"
       ],
       "optionReasons": {
-        "point-mcq-58": "本句指「用來指出位置、方向或數值的物件／圖示」。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-55": "「調整某物方向，使其朝向指定目標」是「point = aim/direct something（對準／指向）」的用法，與本句語境不同。"
+        "point-mcq-58": "本句的「pointer」指「用來指出位置、方向或數值的物件／圖示」。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-61": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-58"
     },
@@ -4982,11 +4514,9 @@ export default {
       "masked": "She gave me a few ____ before the presentation.",
       "options": [
         "point-mcq-59",
-        "point-mcq-58",
-        "point-mcq-60",
-        "point-mcq-57",
-        "point-mcq-61",
-        "point-mcq-56"
+        "point-mcq-01",
+        "point-mcq-08",
+        "point-mcq-34"
       ],
       "explanation": "本句的「pointers」指「幫助某人改善／學習某件事的簡短實用建議」。",
       "sentenceIndex": 117,
@@ -4995,12 +4525,10 @@ export default {
         "pointers"
       ],
       "optionReasons": {
-        "point-mcq-59": "本句指「幫助某人改善／學習某件事的簡短實用建議」。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。"
+        "point-mcq-59": "本句的「pointers」指「幫助某人改善／學習某件事的簡短實用建議」。",
+        "point-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-59"
     },
@@ -5012,11 +4540,9 @@ export default {
       "masked": "Can you give me some ____ on public speaking?",
       "options": [
         "point-mcq-59",
-        "point-mcq-58",
-        "point-mcq-60",
-        "point-mcq-57",
-        "point-mcq-61",
-        "point-mcq-56"
+        "point-mcq-37",
+        "point-mcq-47",
+        "point-mcq-57"
       ],
       "explanation": "本句的「pointers」指「幫助某人改善／學習某件事的簡短實用建議」。",
       "sentenceIndex": 118,
@@ -5025,12 +4551,10 @@ export default {
         "pointers"
       ],
       "optionReasons": {
-        "point-mcq-59": "本句指「幫助某人改善／學習某件事的簡短實用建議」。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-56": "「為某人指出應該前往／採取的方向」是「point = direct someone somewhere（指路）」的用法，與本句語境不同。"
+        "point-mcq-59": "本句的「pointers」指「幫助某人改善／學習某件事的簡短實用建議」。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-59"
     },
@@ -5042,11 +4566,9 @@ export default {
       "masked": "She wore ____ shoes.",
       "options": [
         "point-mcq-60",
-        "point-mcq-59",
-        "point-mcq-61",
-        "point-mcq-58",
-        "point-mcq-62",
-        "point-mcq-57"
+        "point-mcq-42",
+        "point-mcq-24",
+        "point-mcq-38"
       ],
       "explanation": "本句的「pointed」指「尖的時，表示尖的；尖頭的」。",
       "sentenceIndex": 119,
@@ -5055,12 +4577,10 @@ export default {
         "pointed"
       ],
       "optionReasons": {
-        "point-mcq-60": "本句指「尖的時，表示尖的；尖頭的」。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。"
+        "point-mcq-60": "本句的「pointed」指「尖的時，表示尖的；尖頭的」。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-60"
     },
@@ -5072,11 +4592,9 @@ export default {
       "masked": "The tool has a ____.",
       "options": [
         "point-mcq-60",
-        "point-mcq-59",
-        "point-mcq-61",
-        "point-mcq-58",
-        "point-mcq-62",
-        "point-mcq-57"
+        "point-mcq-10",
+        "point-mcq-65",
+        "point-mcq-18"
       ],
       "explanation": "本句的「pointed end」指「尖的時，表示尖的；尖頭的」。",
       "sentenceIndex": 120,
@@ -5085,12 +4603,10 @@ export default {
         "pointed end"
       ],
       "optionReasons": {
-        "point-mcq-60": "本句指「尖的時，表示尖的；尖頭的」。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-57": "「提供足夠提示／指引，讓對方知道應如何開始或繼續」是「point someone in the right direction（指點方向）」的用法，與本句語境不同。"
+        "point-mcq-60": "本句的「pointed end」指「尖的時，表示尖的；尖頭的」。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-65": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-60"
     },
@@ -5102,11 +4618,9 @@ export default {
       "masked": "She asked a ____.",
       "options": [
         "point-mcq-61",
-        "point-mcq-60",
-        "point-mcq-62",
-        "point-mcq-59",
-        "point-mcq-63",
-        "point-mcq-58"
+        "point-mcq-50",
+        "point-mcq-15",
+        "point-mcq-32"
       ],
       "explanation": "本句的「pointed question」指「明顯有特定針對目標、常帶批評或強烈暗示的」。",
       "sentenceIndex": 121,
@@ -5115,12 +4629,10 @@ export default {
         "pointed question"
       ],
       "optionReasons": {
-        "point-mcq-61": "本句指「明顯有特定針對目標、常帶批評或強烈暗示的」。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。"
+        "point-mcq-61": "本句的「pointed question」指「明顯有特定針對目標、常帶批評或強烈暗示的」。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-61"
     },
@@ -5132,11 +4644,9 @@ export default {
       "masked": "He made a ____ about the delay.",
       "options": [
         "point-mcq-61",
-        "point-mcq-60",
-        "point-mcq-62",
-        "point-mcq-59",
-        "point-mcq-63",
-        "point-mcq-58"
+        "point-mcq-50",
+        "point-mcq-38",
+        "point-mcq-60"
       ],
       "explanation": "本句的「pointed remark」指「明顯有特定針對目標、常帶批評或強烈暗示的」。",
       "sentenceIndex": 122,
@@ -5145,12 +4655,10 @@ export default {
         "pointed remark"
       ],
       "optionReasons": {
-        "point-mcq-61": "本句指「明顯有特定針對目標、常帶批評或強烈暗示的」。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-58": "「用來指出位置、方向或數值的物件／圖示」是「pointer = pointing device/indicator（指針／指示物）」的用法，與本句語境不同。"
+        "point-mcq-61": "本句的「pointed remark」指「明顯有特定針對目標、常帶批評或強烈暗示的」。",
+        "point-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-61"
     },
@@ -5162,11 +4670,9 @@ export default {
       "masked": "Worrying about every tiny mistake is ____.",
       "options": [
         "point-mcq-62",
-        "point-mcq-61",
-        "point-mcq-63",
-        "point-mcq-60",
-        "point-mcq-64",
-        "point-mcq-59"
+        "point-mcq-48",
+        "point-mcq-38",
+        "point-mcq-64"
       ],
       "explanation": "本句的「pointless」指「沒有實際目的、價值或有用結果的」。",
       "sentenceIndex": 123,
@@ -5175,12 +4681,10 @@ export default {
         "pointless"
       ],
       "optionReasons": {
-        "point-mcq-62": "本句指「沒有實際目的、價值或有用結果的」。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。"
+        "point-mcq-62": "本句的「pointless」指「沒有實際目的、價值或有用結果的」。",
+        "point-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-64": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-62"
     },
@@ -5192,11 +4696,9 @@ export default {
       "masked": "The argument became ____.",
       "options": [
         "point-mcq-62",
-        "point-mcq-61",
-        "point-mcq-63",
-        "point-mcq-60",
-        "point-mcq-64",
-        "point-mcq-59"
+        "point-mcq-56",
+        "point-mcq-41",
+        "point-mcq-60"
       ],
       "explanation": "本句的「pointless」指「沒有實際目的、價值或有用結果的」。",
       "sentenceIndex": 124,
@@ -5205,12 +4707,10 @@ export default {
         "pointless"
       ],
       "optionReasons": {
-        "point-mcq-62": "本句指「沒有實際目的、價值或有用結果的」。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-59": "「幫助某人改善／學習某件事的簡短實用建議」是「pointer = useful tip（提示／建議）」的用法，與本句語境不同。"
+        "point-mcq-62": "本句的「pointless」指「沒有實際目的、價值或有用結果的」。",
+        "point-mcq-56": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-62"
     },
@@ -5222,11 +4722,9 @@ export default {
       "masked": "They argued ____ for hours.",
       "options": [
         "point-mcq-63",
-        "point-mcq-62",
-        "point-mcq-64",
-        "point-mcq-61",
-        "point-mcq-65",
-        "point-mcq-60"
+        "point-mcq-26",
+        "point-mcq-58",
+        "point-mcq-36"
       ],
       "explanation": "本句的「pointlessly」指「以沒有實際目的／成果的方式」。",
       "sentenceIndex": 125,
@@ -5235,12 +4733,10 @@ export default {
         "pointlessly"
       ],
       "optionReasons": {
-        "point-mcq-63": "本句指「以沒有實際目的／成果的方式」。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-65": "「忠誠計劃／獎勵制度中累積和兌換的計量單位」是「point = loyalty/reward unit（積分）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。"
+        "point-mcq-63": "本句的「pointlessly」指「以沒有實際目的／成果的方式」。",
+        "point-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-58": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-63"
     },
@@ -5252,11 +4748,9 @@ export default {
       "masked": "Don’t spend time worrying ____.",
       "options": [
         "point-mcq-63",
-        "point-mcq-62",
-        "point-mcq-64",
-        "point-mcq-61",
-        "point-mcq-65",
-        "point-mcq-60"
+        "point-mcq-47",
+        "point-mcq-51",
+        "point-mcq-07"
       ],
       "explanation": "本句的「pointlessly」指「以沒有實際目的／成果的方式」。",
       "sentenceIndex": 126,
@@ -5265,12 +4759,10 @@ export default {
         "pointlessly"
       ],
       "optionReasons": {
-        "point-mcq-63": "本句指「以沒有實際目的／成果的方式」。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。",
-        "point-mcq-65": "「忠誠計劃／獎勵制度中累積和兌換的計量單位」是「point = loyalty/reward unit（積分）」的用法，與本句語境不同。",
-        "point-mcq-60": "「尖的時，表示尖的；尖頭的」是「pointed = having a sharp point（尖的）」的用法，與本句語境不同。"
+        "point-mcq-63": "本句的「pointlessly」指「以沒有實際目的／成果的方式」。",
+        "point-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-63"
     },
@@ -5282,11 +4774,9 @@ export default {
       "masked": "The body text is 12 ____.",
       "options": [
         "point-mcq-64",
-        "point-mcq-63",
-        "point-mcq-65",
-        "point-mcq-62",
-        "point-mcq-66",
-        "point-mcq-61"
+        "point-mcq-40",
+        "point-mcq-34",
+        "point-mcq-24"
       ],
       "explanation": "本句的「point」指「排版中衡量字體尺寸的一種單位」。",
       "sentenceIndex": 127,
@@ -5295,12 +4785,10 @@ export default {
         "point"
       ],
       "optionReasons": {
-        "point-mcq-64": "本句指「排版中衡量字體尺寸的一種單位」。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-65": "「忠誠計劃／獎勵制度中累積和兌換的計量單位」是「point = loyalty/reward unit（積分）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-66": "「可逐項列出的想法、事項或內容」是「points = arguments/items in a list（幾點事項）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。"
+        "point-mcq-64": "本句的「point」指「排版中衡量字體尺寸的一種單位」。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-64"
     },
@@ -5312,11 +4800,9 @@ export default {
       "masked": "Increase the font size by two ____.",
       "options": [
         "point-mcq-64",
-        "point-mcq-63",
-        "point-mcq-65",
-        "point-mcq-62",
-        "point-mcq-66",
-        "point-mcq-61"
+        "point-mcq-18",
+        "point-mcq-33",
+        "point-mcq-40"
       ],
       "explanation": "本句的「points」指「排版中衡量字體尺寸的一種單位」。",
       "sentenceIndex": 128,
@@ -5325,12 +4811,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-64": "本句指「排版中衡量字體尺寸的一種單位」。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-65": "「忠誠計劃／獎勵制度中累積和兌換的計量單位」是「point = loyalty/reward unit（積分）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-66": "「可逐項列出的想法、事項或內容」是「points = arguments/items in a list（幾點事項）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。"
+        "point-mcq-64": "本句的「points」指「排版中衡量字體尺寸的一種單位」。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-64"
     },
@@ -5342,11 +4826,9 @@ export default {
       "masked": "You earn ten ____ for every purchase.",
       "options": [
         "point-mcq-65",
-        "point-mcq-64",
-        "point-mcq-66",
-        "point-mcq-63",
-        "point-mcq-62",
-        "point-mcq-61"
+        "point-mcq-18",
+        "point-mcq-10",
+        "point-mcq-59"
       ],
       "explanation": "本句的「points」指「忠誠計劃／獎勵制度中累積和兌換的計量單位」。",
       "sentenceIndex": 129,
@@ -5355,12 +4837,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-65": "本句指「忠誠計劃／獎勵制度中累積和兌換的計量單位」。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-66": "「可逐項列出的想法、事項或內容」是「points = arguments/items in a list（幾點事項）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。"
+        "point-mcq-65": "本句的「points」指「忠誠計劃／獎勵制度中累積和兌換的計量單位」。",
+        "point-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-59": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-65"
     },
@@ -5372,11 +4852,9 @@ export default {
       "masked": "I used my reward ____.",
       "options": [
         "point-mcq-65",
-        "point-mcq-64",
-        "point-mcq-66",
-        "point-mcq-63",
-        "point-mcq-62",
-        "point-mcq-61"
+        "point-mcq-12",
+        "point-mcq-60",
+        "point-mcq-51"
       ],
       "explanation": "本句的「points」指「忠誠計劃／獎勵制度中累積和兌換的計量單位」。",
       "sentenceIndex": 130,
@@ -5385,12 +4863,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-65": "本句指「忠誠計劃／獎勵制度中累積和兌換的計量單位」。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-66": "「可逐項列出的想法、事項或內容」是「points = arguments/items in a list（幾點事項）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。"
+        "point-mcq-65": "本句的「points」指「忠誠計劃／獎勵制度中累積和兌換的計量單位」。",
+        "point-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-51": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-65"
     },
@@ -5402,11 +4878,9 @@ export default {
       "masked": "I have three ____ to discuss.",
       "options": [
         "point-mcq-66",
-        "point-mcq-65",
-        "point-mcq-64",
-        "point-mcq-63",
-        "point-mcq-62",
-        "point-mcq-61"
+        "point-mcq-05",
+        "point-mcq-17",
+        "point-mcq-37"
       ],
       "explanation": "本句的「points」指「可逐項列出的想法、事項或內容」。",
       "sentenceIndex": 131,
@@ -5415,12 +4889,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-66": "本句指「可逐項列出的想法、事項或內容」。",
-        "point-mcq-65": "「忠誠計劃／獎勵制度中累積和兌換的計量單位」是「point = loyalty/reward unit（積分）」的用法，與本句語境不同。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。"
+        "point-mcq-66": "本句的「points」指「可逐項列出的想法、事項或內容」。",
+        "point-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-66"
     },
@@ -5432,11 +4904,9 @@ export default {
       "masked": "Let’s review the main ____.",
       "options": [
         "point-mcq-66",
-        "point-mcq-65",
-        "point-mcq-64",
-        "point-mcq-63",
-        "point-mcq-62",
-        "point-mcq-61"
+        "point-mcq-46",
+        "point-mcq-49",
+        "point-mcq-42"
       ],
       "explanation": "本句的「points」指「可逐項列出的想法、事項或內容」。",
       "sentenceIndex": 132,
@@ -5445,12 +4915,10 @@ export default {
         "points"
       ],
       "optionReasons": {
-        "point-mcq-66": "本句指「可逐項列出的想法、事項或內容」。",
-        "point-mcq-65": "「忠誠計劃／獎勵制度中累積和兌換的計量單位」是「point = loyalty/reward unit（積分）」的用法，與本句語境不同。",
-        "point-mcq-64": "「排版中衡量字體尺寸的一種單位」是「point = a unit in typography（點；字級單位）」的用法，與本句語境不同。",
-        "point-mcq-63": "「以沒有實際目的／成果的方式」是「pointlessly（毫無意義地）」的用法，與本句語境不同。",
-        "point-mcq-62": "「沒有實際目的、價值或有用結果的」是「pointless（沒有意義／目的的）」的用法，與本句語境不同。",
-        "point-mcq-61": "「明顯有特定針對目標、常帶批評或強烈暗示的」是「pointed = deliberately direct/critical（尖銳／針對性的）」的用法，與本句語境不同。"
+        "point-mcq-66": "本句的「points」指「可逐項列出的想法、事項或內容」。",
+        "point-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "point-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "point-mcq-66"
     }
@@ -5462,5 +4930,7 @@ export default {
     "sha256": "70b4154d6551fac4ab25af4bdbfff9f40ebe3918087553bb35817b814d9dce65",
     "pages": 40
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

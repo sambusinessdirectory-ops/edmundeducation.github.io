@@ -385,11 +385,8 @@ export default {
       "masked": "這種藥帶來了____舒緩效果。",
       "options": [
         "immediate-mcq-01",
-        "immediate-mcq-02",
-        "immediate-mcq-03",
         "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-02"
       ],
       "explanation": "本句的「immediate relief」指「不需要等待，幾乎在當下便發生或需要處理的」。",
       "sentenceIndex": 0,
@@ -398,12 +395,9 @@ export default {
         "immediate relief"
       ],
       "optionReasons": {
-        "immediate-mcq-01": "本句指「不需要等待，幾乎在當下便發生或需要處理的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-01": "本句的「immediate relief」指「不需要等待，幾乎在當下便發生或需要處理的」。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-01"
     },
@@ -415,11 +409,7 @@ export default {
       "masked": "這個問題需要____採取行動。",
       "options": [
         "immediate-mcq-01",
-        "immediate-mcq-02",
-        "immediate-mcq-03",
-        "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-12"
       ],
       "explanation": "本句的「immediate action」指「不需要等待，幾乎在當下便發生或需要處理的」。",
       "sentenceIndex": 1,
@@ -428,12 +418,8 @@ export default {
         "immediate action"
       ],
       "optionReasons": {
-        "immediate-mcq-01": "本句指「不需要等待，幾乎在當下便發生或需要處理的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-01": "本句的「immediate action」指「不需要等待，幾乎在當下便發生或需要處理的」。",
+        "immediate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-01"
     },
@@ -445,11 +431,8 @@ export default {
       "masked": "那則廣告____吸引了我的注意力。",
       "options": [
         "immediate-mcq-01",
-        "immediate-mcq-02",
-        "immediate-mcq-03",
         "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-02"
       ],
       "explanation": "本句的「immediately」指「不需要等待，幾乎在當下便發生或需要處理的」。",
       "sentenceIndex": 2,
@@ -458,12 +441,9 @@ export default {
         "immediately"
       ],
       "optionReasons": {
-        "immediate-mcq-01": "本句指「不需要等待，幾乎在當下便發生或需要處理的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-01": "本句的「immediately」指「不需要等待，幾乎在當下便發生或需要處理的」。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-01"
     },
@@ -475,11 +455,8 @@ export default {
       "masked": "請____回覆。",
       "options": [
         "immediate-mcq-01",
-        "immediate-mcq-02",
-        "immediate-mcq-03",
         "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-02"
       ],
       "explanation": "本句的「immediately」指「不需要等待，幾乎在當下便發生或需要處理的」。",
       "sentenceIndex": 3,
@@ -488,12 +465,9 @@ export default {
         "immediately"
       ],
       "optionReasons": {
-        "immediate-mcq-01": "本句指「不需要等待，幾乎在當下便發生或需要處理的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-01": "本句的「immediately」指「不需要等待，幾乎在當下便發生或需要處理的」。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-01"
     },
@@ -505,11 +479,8 @@ export default {
       "masked": "噪音____停止了。",
       "options": [
         "immediate-mcq-01",
-        "immediate-mcq-02",
-        "immediate-mcq-03",
         "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-02"
       ],
       "explanation": "本句的「immediately」指「不需要等待，幾乎在當下便發生或需要處理的」。",
       "sentenceIndex": 4,
@@ -518,12 +489,9 @@ export default {
         "immediately"
       ],
       "optionReasons": {
-        "immediate-mcq-01": "本句指「不需要等待，幾乎在當下便發生或需要處理的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-01": "本句的「immediately」指「不需要等待，幾乎在當下便發生或需要處理的」。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-01"
     },
@@ -535,11 +503,9 @@ export default {
       "masked": "____的未來仍不確定。",
       "options": [
         "immediate-mcq-02",
-        "immediate-mcq-01",
-        "immediate-mcq-03",
-        "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-15",
+        "immediate-mcq-13",
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediate future」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
       "sentenceIndex": 5,
@@ -548,12 +514,10 @@ export default {
         "immediate future"
       ],
       "optionReasons": {
-        "immediate-mcq-02": "本句指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-02": "本句的「immediate future」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-02"
     },
@@ -565,11 +529,9 @@ export default {
       "masked": "____，道路被封閉。",
       "options": [
         "immediate-mcq-02",
-        "immediate-mcq-01",
-        "immediate-mcq-03",
-        "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-13",
+        "immediate-mcq-15",
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediate aftermath」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
       "sentenceIndex": 6,
@@ -578,12 +540,10 @@ export default {
         "immediate aftermath"
       ],
       "optionReasons": {
-        "immediate-mcq-02": "本句指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-02": "本句的「immediate aftermath」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-02"
     },
@@ -596,10 +556,7 @@ export default {
       "options": [
         "immediate-mcq-02",
         "immediate-mcq-01",
-        "immediate-mcq-03",
-        "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediately after」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
       "sentenceIndex": 7,
@@ -608,12 +565,9 @@ export default {
         "immediately after"
       ],
       "optionReasons": {
-        "immediate-mcq-02": "本句指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-02": "本句的「immediately after」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
+        "immediate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-02"
     },
@@ -625,11 +579,9 @@ export default {
       "masked": "公告在產品發布____之前發出。",
       "options": [
         "immediate-mcq-02",
-        "immediate-mcq-01",
-        "immediate-mcq-03",
-        "immediate-mcq-04",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-15",
+        "immediate-mcq-13",
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediately before」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
       "sentenceIndex": 8,
@@ -638,12 +590,10 @@ export default {
         "immediately before"
       ],
       "optionReasons": {
-        "immediate-mcq-02": "本句指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-02": "本句的「immediately before」指「與目前／某事件在時間上最接近，中間沒有其他重要階段的」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-02"
     },
@@ -655,11 +605,9 @@ export default {
       "masked": "____。",
       "options": [
         "immediate-mcq-03",
-        "immediate-mcq-02",
-        "immediate-mcq-04",
-        "immediate-mcq-01",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-13",
+        "immediate-mcq-06",
+        "immediate-mcq-15"
       ],
       "explanation": "本句的「immediate area」指「在物理位置上最接近、緊鄰或附近的」。",
       "sentenceIndex": 9,
@@ -668,12 +616,10 @@ export default {
         "immediate area"
       ],
       "optionReasons": {
-        "immediate-mcq-03": "本句指「在物理位置上最接近、緊鄰或附近的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-03": "本句的「immediate area」指「在物理位置上最接近、緊鄰或附近的」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-03"
     },
@@ -685,11 +631,9 @@ export default {
       "masked": "檢查你身邊____環境。",
       "options": [
         "immediate-mcq-03",
-        "immediate-mcq-02",
-        "immediate-mcq-04",
-        "immediate-mcq-01",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-13",
+        "immediate-mcq-06",
+        "immediate-mcq-15"
       ],
       "explanation": "本句的「immediate surroundings」指「在物理位置上最接近、緊鄰或附近的」。",
       "sentenceIndex": 10,
@@ -698,12 +642,10 @@ export default {
         "immediate surroundings"
       ],
       "optionReasons": {
-        "immediate-mcq-03": "本句指「在物理位置上最接近、緊鄰或附近的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-03": "本句的「immediate surroundings」指「在物理位置上最接近、緊鄰或附近的」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-03"
     },
@@ -715,10 +657,8 @@ export default {
       "masked": "咖啡店____車站旁邊。",
       "options": [
         "immediate-mcq-03",
-        "immediate-mcq-02",
-        "immediate-mcq-04",
-        "immediate-mcq-01",
-        "immediate-mcq-05",
+        "immediate-mcq-13",
+        "immediate-mcq-15",
         "immediate-mcq-06"
       ],
       "explanation": "本句的「immediately next to」指「在物理位置上最接近、緊鄰或附近的」。",
@@ -728,12 +668,10 @@ export default {
         "immediately next to"
       ],
       "optionReasons": {
-        "immediate-mcq-03": "本句指「在物理位置上最接近、緊鄰或附近的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-03": "本句的「immediately next to」指「在物理位置上最接近、緊鄰或附近的」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-03"
     },
@@ -745,11 +683,8 @@ export default {
       "masked": "辦公室____商店正上方。",
       "options": [
         "immediate-mcq-03",
-        "immediate-mcq-02",
-        "immediate-mcq-04",
-        "immediate-mcq-01",
-        "immediate-mcq-05",
-        "immediate-mcq-06"
+        "immediate-mcq-10",
+        "immediate-mcq-15"
       ],
       "explanation": "本句的「immediately above」指「在物理位置上最接近、緊鄰或附近的」。",
       "sentenceIndex": 12,
@@ -758,12 +693,9 @@ export default {
         "immediately above"
       ],
       "optionReasons": {
-        "immediate-mcq-03": "本句指「在物理位置上最接近、緊鄰或附近的」。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-03": "本句的「immediately above」指「在物理位置上最接近、緊鄰或附近的」。",
+        "immediate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-03"
     },
@@ -775,11 +707,8 @@ export default {
       "masked": "____。",
       "options": [
         "immediate-mcq-04",
-        "immediate-mcq-03",
-        "immediate-mcq-05",
-        "immediate-mcq-02",
-        "immediate-mcq-06",
-        "immediate-mcq-01"
+        "immediate-mcq-10",
+        "immediate-mcq-15"
       ],
       "explanation": "本句的「immediate family」指「與本人家庭關係最直接、最親近的一組家庭成員」。",
       "sentenceIndex": 13,
@@ -788,12 +717,9 @@ export default {
         "immediate family"
       ],
       "optionReasons": {
-        "immediate-mcq-04": "本句指「與本人家庭關係最直接、最親近的一組家庭成員」。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。"
+        "immediate-mcq-04": "本句的「immediate family」指「與本人家庭關係最直接、最親近的一組家庭成員」。",
+        "immediate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-04"
     },
@@ -805,11 +731,9 @@ export default {
       "masked": "____。",
       "options": [
         "immediate-mcq-04",
-        "immediate-mcq-03",
-        "immediate-mcq-05",
-        "immediate-mcq-02",
-        "immediate-mcq-06",
-        "immediate-mcq-01"
+        "immediate-mcq-13",
+        "immediate-mcq-15",
+        "immediate-mcq-02"
       ],
       "explanation": "本句的「immediate family」指「與本人家庭關係最直接、最親近的一組家庭成員」。",
       "sentenceIndex": 14,
@@ -818,12 +742,10 @@ export default {
         "immediate family"
       ],
       "optionReasons": {
-        "immediate-mcq-04": "本句指「與本人家庭關係最直接、最親近的一組家庭成員」。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-01": "「不需要等待，幾乎在當下便發生或需要處理的」是「immediate — no delay」的用法，與本句語境不同。"
+        "immediate-mcq-04": "本句的「immediate family」指「與本人家庭關係最直接、最親近的一組家庭成員」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-04"
     },
@@ -835,11 +757,8 @@ export default {
       "masked": "把問題報告給你的____。",
       "options": [
         "immediate-mcq-05",
-        "immediate-mcq-04",
-        "immediate-mcq-06",
-        "immediate-mcq-03",
-        "immediate-mcq-07",
-        "immediate-mcq-02"
+        "immediate-mcq-01",
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate supervisor」指「在組織中直接管理本人、中間沒有另一級主管的上司」。",
       "sentenceIndex": 15,
@@ -848,12 +767,9 @@ export default {
         "immediate supervisor"
       ],
       "optionReasons": {
-        "immediate-mcq-05": "本句指「在組織中直接管理本人、中間沒有另一級主管的上司」。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。"
+        "immediate-mcq-05": "本句的「immediate supervisor」指「在組織中直接管理本人、中間沒有另一級主管的上司」。",
+        "immediate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-05"
     },
@@ -865,11 +781,8 @@ export default {
       "masked": "她的____批准了申請。",
       "options": [
         "immediate-mcq-05",
-        "immediate-mcq-04",
-        "immediate-mcq-06",
-        "immediate-mcq-03",
-        "immediate-mcq-07",
-        "immediate-mcq-02"
+        "immediate-mcq-01",
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate manager」指「在組織中直接管理本人、中間沒有另一級主管的上司」。",
       "sentenceIndex": 16,
@@ -878,12 +791,9 @@ export default {
         "immediate manager"
       ],
       "optionReasons": {
-        "immediate-mcq-05": "本句指「在組織中直接管理本人、中間沒有另一級主管的上司」。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-02": "「與目前／某事件在時間上最接近，中間沒有其他重要階段的」是「immediate — nearest in time」的用法，與本句語境不同。"
+        "immediate-mcq-05": "本句的「immediate manager」指「在組織中直接管理本人、中間沒有另一級主管的上司」。",
+        "immediate-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-05"
     },
@@ -895,11 +805,9 @@ export default {
       "masked": "這個決定對員工產生了____即時的影響。",
       "options": [
         "immediate-mcq-06",
-        "immediate-mcq-05",
-        "immediate-mcq-07",
-        "immediate-mcq-04",
-        "immediate-mcq-08",
-        "immediate-mcq-03"
+        "immediate-mcq-13",
+        "immediate-mcq-03",
+        "immediate-mcq-09"
       ],
       "explanation": "本句的「immediate impact」指「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」。",
       "sentenceIndex": 17,
@@ -908,12 +816,10 @@ export default {
         "immediate impact"
       ],
       "optionReasons": {
-        "immediate-mcq-06": "本句指「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。"
+        "immediate-mcq-06": "本句的「immediate impact」指「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-06"
     },
@@ -925,10 +831,8 @@ export default {
       "masked": "____。",
       "options": [
         "immediate-mcq-06",
-        "immediate-mcq-05",
-        "immediate-mcq-07",
-        "immediate-mcq-04",
-        "immediate-mcq-08",
+        "immediate-mcq-13",
+        "immediate-mcq-15",
         "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate knowledge」指「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」。",
@@ -938,12 +842,10 @@ export default {
         "immediate knowledge"
       ],
       "optionReasons": {
-        "immediate-mcq-06": "本句指「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-03": "「在物理位置上最接近、緊鄰或附近的」是「immediate — nearest in space」的用法，與本句語境不同。"
+        "immediate-mcq-06": "本句的「immediate knowledge」指「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-06"
     },
@@ -955,11 +857,8 @@ export default {
       "masked": "故障的____是停電。",
       "options": [
         "immediate-mcq-07",
-        "immediate-mcq-06",
-        "immediate-mcq-08",
-        "immediate-mcq-05",
-        "immediate-mcq-09",
-        "immediate-mcq-04"
+        "immediate-mcq-15",
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate cause」指「最直接導致某件事情發生的原因，而非深層背景原因」。",
       "sentenceIndex": 19,
@@ -968,12 +867,9 @@ export default {
         "immediate cause"
       ],
       "optionReasons": {
-        "immediate-mcq-07": "本句指「最直接導致某件事情發生的原因，而非深層背景原因」。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。"
+        "immediate-mcq-07": "本句的「immediate cause」指「最直接導致某件事情發生的原因，而非深層背景原因」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-07"
     },
@@ -985,11 +881,8 @@ export default {
       "masked": "調查找出了事故的最____。",
       "options": [
         "immediate-mcq-07",
-        "immediate-mcq-06",
-        "immediate-mcq-08",
-        "immediate-mcq-05",
-        "immediate-mcq-09",
-        "immediate-mcq-04"
+        "immediate-mcq-15",
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate cause」指「最直接導致某件事情發生的原因，而非深層背景原因」。",
       "sentenceIndex": 20,
@@ -998,12 +891,9 @@ export default {
         "immediate cause"
       ],
       "optionReasons": {
-        "immediate-mcq-07": "本句指「最直接導致某件事情發生的原因，而非深層背景原因」。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。",
-        "immediate-mcq-04": "「與本人家庭關係最直接、最親近的一組家庭成員」是「immediate family」的用法，與本句語境不同。"
+        "immediate-mcq-07": "本句的「immediate cause」指「最直接導致某件事情發生的原因，而非深層背景原因」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-07"
     },
@@ -1015,11 +905,8 @@ export default {
       "masked": "新規則產生了____效果。",
       "options": [
         "immediate-mcq-08",
-        "immediate-mcq-07",
-        "immediate-mcq-09",
-        "immediate-mcq-06",
-        "immediate-mcq-10",
-        "immediate-mcq-05"
+        "immediate-mcq-15",
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate effect」指「某件事情發生後最先／最直接產生的影響」。",
       "sentenceIndex": 21,
@@ -1028,12 +915,9 @@ export default {
         "immediate effect"
       ],
       "optionReasons": {
-        "immediate-mcq-08": "本句指「某件事情發生後最先／最直接產生的影響」。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。"
+        "immediate-mcq-08": "本句的「immediate effect」指「某件事情發生後最先／最直接產生的影響」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-08"
     },
@@ -1045,11 +929,8 @@ export default {
       "masked": "最____、最初出現的後果相對輕微。",
       "options": [
         "immediate-mcq-08",
-        "immediate-mcq-07",
-        "immediate-mcq-09",
-        "immediate-mcq-06",
-        "immediate-mcq-10",
-        "immediate-mcq-05"
+        "immediate-mcq-15",
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate consequences」指「某件事情發生後最先／最直接產生的影響」。",
       "sentenceIndex": 22,
@@ -1058,12 +939,9 @@ export default {
         "immediate consequences"
       ],
       "optionReasons": {
-        "immediate-mcq-08": "本句指「某件事情發生後最先／最直接產生的影響」。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。",
-        "immediate-mcq-05": "「在組織中直接管理本人、中間沒有另一級主管的上司」是「immediate supervisor」的用法，與本句語境不同。"
+        "immediate-mcq-08": "本句的「immediate consequences」指「某件事情發生後最先／最直接產生的影響」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-08"
     },
@@ -1075,11 +953,8 @@ export default {
       "masked": "____。",
       "options": [
         "immediate-mcq-09",
-        "immediate-mcq-08",
-        "immediate-mcq-10",
-        "immediate-mcq-07",
-        "immediate-mcq-11",
-        "immediate-mcq-06"
+        "immediate-mcq-13",
+        "immediate-mcq-12"
       ],
       "explanation": "本句的「immediate concern」指「在目前情況下最迫切、最需要先處理的事項」。",
       "sentenceIndex": 23,
@@ -1088,12 +963,9 @@ export default {
         "immediate concern"
       ],
       "optionReasons": {
-        "immediate-mcq-09": "本句指「在目前情況下最迫切、最需要先處理的事項」。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-09": "本句的「immediate concern」指「在目前情況下最迫切、最需要先處理的事項」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-09"
     },
@@ -1105,11 +977,8 @@ export default {
       "masked": "____的首要任務是恢復電力供應。",
       "options": [
         "immediate-mcq-09",
-        "immediate-mcq-08",
         "immediate-mcq-10",
-        "immediate-mcq-07",
-        "immediate-mcq-11",
-        "immediate-mcq-06"
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediate priority」指「在目前情況下最迫切、最需要先處理的事項」。",
       "sentenceIndex": 24,
@@ -1118,12 +987,9 @@ export default {
         "immediate priority"
       ],
       "optionReasons": {
-        "immediate-mcq-09": "本句指「在目前情況下最迫切、最需要先處理的事項」。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-06": "「與某人／某結果直接相連，中間沒有其他重要媒介或步驟的」是「immediate — direct relationship」的用法，與本句語境不同。"
+        "immediate-mcq-09": "本句的「immediate priority」指「在目前情況下最迫切、最需要先處理的事項」。",
+        "immediate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-09"
     },
@@ -1136,10 +1002,7 @@ export default {
       "options": [
         "immediate-mcq-10",
         "immediate-mcq-09",
-        "immediate-mcq-11",
-        "immediate-mcq-08",
-        "immediate-mcq-12",
-        "immediate-mcq-07"
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediate danger」指「某個行動或變化沒有等待，馬上發生」。",
       "sentenceIndex": 25,
@@ -1148,12 +1011,9 @@ export default {
         "immediate danger"
       ],
       "optionReasons": {
-        "immediate-mcq-10": "本句指「某個行動或變化沒有等待，馬上發生」。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。"
+        "immediate-mcq-10": "本句的「immediate danger」指「某個行動或變化沒有等待，馬上發生」。",
+        "immediate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-10"
     },
@@ -1166,10 +1026,7 @@ export default {
       "options": [
         "immediate-mcq-10",
         "immediate-mcq-09",
-        "immediate-mcq-11",
-        "immediate-mcq-08",
-        "immediate-mcq-12",
-        "immediate-mcq-07"
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediate need」指「某個行動或變化沒有等待，馬上發生」。",
       "sentenceIndex": 26,
@@ -1178,12 +1035,9 @@ export default {
         "immediate need"
       ],
       "optionReasons": {
-        "immediate-mcq-10": "本句指「某個行動或變化沒有等待，馬上發生」。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-08": "「某件事情發生後最先／最直接產生的影響」是「immediate effect/consequence」的用法，與本句語境不同。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-07": "「最直接導致某件事情發生的原因，而非深層背景原因」是「immediate cause」的用法，與本句語境不同。"
+        "immediate-mcq-10": "本句的「immediate need」指「某個行動或變化沒有等待，馬上發生」。",
+        "immediate-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-10"
     },
@@ -1195,11 +1049,7 @@ export default {
       "masked": "她的辦公室____。",
       "options": [
         "immediate-mcq-12",
-        "immediate-mcq-11",
-        "immediate-mcq-13",
-        "immediate-mcq-10",
-        "immediate-mcq-14",
-        "immediate-mcq-09"
+        "immediate-mcq-01"
       ],
       "explanation": "本句的「immediately below」指「在空間上直接相鄰，中間沒有其他東西隔開」。",
       "sentenceIndex": 27,
@@ -1208,12 +1058,8 @@ export default {
         "immediately below"
       ],
       "optionReasons": {
-        "immediate-mcq-12": "本句指「在空間上直接相鄰，中間沒有其他東西隔開」。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-13": "「某事一發生，另一件事便隨即發生；一……就……」是「immediately = as soon as」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。",
-        "immediate-mcq-14": "「事情感覺貼近眼前、正在當下發生的直接感／臨場感」是「immediacy — present/direct quality」的用法，與本句語境不同。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。"
+        "immediate-mcq-12": "本句的「immediately below」指「在空間上直接相鄰，中間沒有其他東西隔開」。",
+        "immediate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-12"
     },
@@ -1225,10 +1071,7 @@ export default {
       "masked": "____引言之後的部分解釋研究方法。",
       "options": [
         "immediate-mcq-12",
-        "immediate-mcq-11",
         "immediate-mcq-13",
-        "immediate-mcq-10",
-        "immediate-mcq-14",
         "immediate-mcq-09"
       ],
       "explanation": "本句的「immediately following」指「在空間上直接相鄰，中間沒有其他東西隔開」。",
@@ -1238,12 +1081,9 @@ export default {
         "immediately following"
       ],
       "optionReasons": {
-        "immediate-mcq-12": "本句指「在空間上直接相鄰，中間沒有其他東西隔開」。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-13": "「某事一發生，另一件事便隨即發生；一……就……」是「immediately = as soon as」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。",
-        "immediate-mcq-14": "「事情感覺貼近眼前、正在當下發生的直接感／臨場感」是「immediacy — present/direct quality」的用法，與本句語境不同。",
-        "immediate-mcq-09": "「在目前情況下最迫切、最需要先處理的事項」是「immediate concern/priority」的用法，與本句語境不同。"
+        "immediate-mcq-12": "本句的「immediately following」指「在空間上直接相鄰，中間沒有其他東西隔開」。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-12"
     },
@@ -1255,11 +1095,9 @@ export default {
       "masked": "他____。",
       "options": [
         "immediate-mcq-13",
-        "immediate-mcq-12",
-        "immediate-mcq-14",
-        "immediate-mcq-11",
-        "immediate-mcq-15",
-        "immediate-mcq-10"
+        "immediate-mcq-03",
+        "immediate-mcq-06",
+        "immediate-mcq-15"
       ],
       "explanation": "本句的「Immediately」指「某事一發生，另一件事便隨即發生；一……就……」。",
       "sentenceIndex": 29,
@@ -1268,12 +1106,10 @@ export default {
         "Immediately"
       ],
       "optionReasons": {
-        "immediate-mcq-13": "本句指「某事一發生，另一件事便隨即發生；一……就……」。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-14": "「事情感覺貼近眼前、正在當下發生的直接感／臨場感」是「immediacy — present/direct quality」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-15": "「問題需要迅速關注或處理的迫切程度」是「immediacy — urgency」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。"
+        "immediate-mcq-13": "本句的「Immediately」指「某事一發生，另一件事便隨即發生；一……就……」。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-13"
     },
@@ -1285,22 +1121,18 @@ export default {
       "masked": "她____。",
       "options": [
         "immediate-mcq-13",
-        "immediate-mcq-12",
-        "immediate-mcq-14",
-        "immediate-mcq-11",
+        "immediate-mcq-04",
         "immediate-mcq-15",
-        "immediate-mcq-10"
+        "immediate-mcq-02"
       ],
       "explanation": "本句的「immediate」指「某事一發生，另一件事便隨即發生；一……就……」。",
       "sentenceIndex": 30,
       "sourcePractice": 31,
       "optionReasons": {
-        "immediate-mcq-13": "本句指「某事一發生，另一件事便隨即發生；一……就……」。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-14": "「事情感覺貼近眼前、正在當下發生的直接感／臨場感」是「immediacy — present/direct quality」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-15": "「問題需要迅速關注或處理的迫切程度」是「immediacy — urgency」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。"
+        "immediate-mcq-13": "本句的「immediate」指「某事一發生，另一件事便隨即發生；一……就……」。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-13"
     },
@@ -1312,11 +1144,8 @@ export default {
       "masked": "現場電視直播會營造一種事情正在眼前發生____。",
       "options": [
         "immediate-mcq-14",
-        "immediate-mcq-13",
         "immediate-mcq-15",
-        "immediate-mcq-12",
-        "immediate-mcq-11",
-        "immediate-mcq-10"
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediacy」指「事情感覺貼近眼前、正在當下發生的直接感／臨場感」。",
       "sentenceIndex": 31,
@@ -1325,12 +1154,9 @@ export default {
         "immediacy"
       ],
       "optionReasons": {
-        "immediate-mcq-14": "本句指「事情感覺貼近眼前、正在當下發生的直接感／臨場感」。",
-        "immediate-mcq-13": "「某事一發生，另一件事便隨即發生；一……就……」是「immediately = as soon as」的用法，與本句語境不同。",
-        "immediate-mcq-15": "「問題需要迅速關注或處理的迫切程度」是「immediacy — urgency」的用法，與本句語境不同。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。"
+        "immediate-mcq-14": "本句的「immediacy」指「事情感覺貼近眼前、正在當下發生的直接感／臨場感」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-14"
     },
@@ -1342,11 +1168,8 @@ export default {
       "masked": "這張照片帶有很強的____。",
       "options": [
         "immediate-mcq-14",
-        "immediate-mcq-13",
         "immediate-mcq-15",
-        "immediate-mcq-12",
-        "immediate-mcq-11",
-        "immediate-mcq-10"
+        "immediate-mcq-03"
       ],
       "explanation": "本句的「immediacy」指「事情感覺貼近眼前、正在當下發生的直接感／臨場感」。",
       "sentenceIndex": 32,
@@ -1355,12 +1178,9 @@ export default {
         "immediacy"
       ],
       "optionReasons": {
-        "immediate-mcq-14": "本句指「事情感覺貼近眼前、正在當下發生的直接感／臨場感」。",
-        "immediate-mcq-13": "「某事一發生，另一件事便隨即發生；一……就……」是「immediately = as soon as」的用法，與本句語境不同。",
-        "immediate-mcq-15": "「問題需要迅速關注或處理的迫切程度」是「immediacy — urgency」的用法，與本句語境不同。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。"
+        "immediate-mcq-14": "本句的「immediacy」指「事情感覺貼近眼前、正在當下發生的直接感／臨場感」。",
+        "immediate-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-14"
     },
@@ -1372,11 +1192,8 @@ export default {
       "masked": "問題____要求迅速作出回應。",
       "options": [
         "immediate-mcq-15",
-        "immediate-mcq-14",
-        "immediate-mcq-13",
-        "immediate-mcq-12",
-        "immediate-mcq-11",
-        "immediate-mcq-10"
+        "immediate-mcq-10",
+        "immediate-mcq-04"
       ],
       "explanation": "本句的「immediacy」指「問題需要迅速關注或處理的迫切程度」。",
       "sentenceIndex": 33,
@@ -1385,12 +1202,9 @@ export default {
         "immediacy"
       ],
       "optionReasons": {
-        "immediate-mcq-15": "本句指「問題需要迅速關注或處理的迫切程度」。",
-        "immediate-mcq-14": "「事情感覺貼近眼前、正在當下發生的直接感／臨場感」是「immediacy — present/direct quality」的用法，與本句語境不同。",
-        "immediate-mcq-13": "「某事一發生，另一件事便隨即發生；一……就……」是「immediately = as soon as」的用法，與本句語境不同。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。"
+        "immediate-mcq-15": "本句的「immediacy」指「問題需要迅速關注或處理的迫切程度」。",
+        "immediate-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-15"
     },
@@ -1402,11 +1216,8 @@ export default {
       "masked": "報告未能傳達這項威脅____程度。",
       "options": [
         "immediate-mcq-15",
-        "immediate-mcq-14",
-        "immediate-mcq-13",
         "immediate-mcq-12",
-        "immediate-mcq-11",
-        "immediate-mcq-10"
+        "immediate-mcq-13"
       ],
       "explanation": "本句的「immediacy」指「問題需要迅速關注或處理的迫切程度」。",
       "sentenceIndex": 34,
@@ -1415,12 +1226,9 @@ export default {
         "immediacy"
       ],
       "optionReasons": {
-        "immediate-mcq-15": "本句指「問題需要迅速關注或處理的迫切程度」。",
-        "immediate-mcq-14": "「事情感覺貼近眼前、正在當下發生的直接感／臨場感」是「immediacy — present/direct quality」的用法，與本句語境不同。",
-        "immediate-mcq-13": "「某事一發生，另一件事便隨即發生；一……就……」是「immediately = as soon as」的用法，與本句語境不同。",
-        "immediate-mcq-12": "「在空間上直接相鄰，中間沒有其他東西隔開」是「immediately — spatially」的用法，與本句語境不同。",
-        "immediate-mcq-11": "「在時間順序上緊貼另一事件之前／之後」是「immediately before/after」的用法，與本句語境不同。",
-        "immediate-mcq-10": "「某個行動或變化沒有等待，馬上發生」是「immediately — at once」的用法，與本句語境不同。"
+        "immediate-mcq-15": "本句的「immediacy」指「問題需要迅速關注或處理的迫切程度」。",
+        "immediate-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "immediate-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "immediate-mcq-15"
     }
@@ -1430,5 +1238,7 @@ export default {
     "sha256": "3625173c8cc34e9b4b9df58f5954293c47da78827d80c9f3caf4bf3d7de0f1c1",
     "path": "manuals/immediate.pdf"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

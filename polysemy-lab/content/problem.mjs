@@ -121,7 +121,7 @@ export default {
     },
     {
       "id": "problem-mcq-06",
-      "title": "表示某件事可以做到、沒有困難或願意幫忙",
+      "title": "某件事可以做到、沒有困難或願意幫忙",
       "form": "no problem — permission/help",
       "en": "no problem — permission/help",
       "zh": "表示某件事可以做到、沒有困難或願意幫忙",
@@ -349,11 +349,8 @@ export default {
       "masked": "It solved a real ____.",
       "options": [
         "problem-mcq-01",
-        "problem-mcq-02",
-        "problem-mcq-03",
-        "problem-mcq-04",
-        "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-13",
+        "problem-mcq-04"
       ],
       "explanation": "本句的「problem」指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
       "sentenceIndex": 0,
@@ -362,12 +359,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-01": "本句指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-01": "本句的「problem」指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-01"
     },
@@ -379,11 +373,8 @@ export default {
       "masked": "Noise is a serious ____ in open-plan offices.",
       "options": [
         "problem-mcq-01",
-        "problem-mcq-02",
-        "problem-mcq-03",
-        "problem-mcq-04",
-        "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-13",
+        "problem-mcq-04"
       ],
       "explanation": "本句的「problem」指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
       "sentenceIndex": 1,
@@ -392,12 +383,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-01": "本句指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-01": "本句的「problem」指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-01"
     },
@@ -409,11 +397,8 @@ export default {
       "masked": "We need to deal with the ____ before it gets worse.",
       "options": [
         "problem-mcq-01",
-        "problem-mcq-02",
-        "problem-mcq-03",
-        "problem-mcq-04",
-        "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-13",
+        "problem-mcq-04"
       ],
       "explanation": "本句的「problem」指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
       "sentenceIndex": 2,
@@ -422,12 +407,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-01": "本句指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-01": "本句的「problem」指「會造成不便、困難或障礙，因此需要採取行動處理的情況」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-01"
     },
@@ -439,11 +421,8 @@ export default {
       "masked": "The students solved the maths ____.",
       "options": [
         "problem-mcq-02",
-        "problem-mcq-01",
-        "problem-mcq-03",
         "problem-mcq-04",
-        "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-05"
       ],
       "explanation": "本句的「problem」指「需要透過計算、推理或分析找出答案的題目／難題」。",
       "sentenceIndex": 0,
@@ -452,12 +431,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-02": "本句指「需要透過計算、推理或分析找出答案的題目／難題」。",
-        "problem-mcq-01": "「會造成不便、困難或障礙，因此需要採取行動處理的情況」是「problem — practical difficulty」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-02": "本句的「problem」指「需要透過計算、推理或分析找出答案的題目／難題」。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-02"
     },
@@ -469,11 +445,8 @@ export default {
       "masked": "This logic ____ is harder than it looks.",
       "options": [
         "problem-mcq-02",
-        "problem-mcq-01",
-        "problem-mcq-03",
         "problem-mcq-04",
-        "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-05"
       ],
       "explanation": "本句的「problem」指「需要透過計算、推理或分析找出答案的題目／難題」。",
       "sentenceIndex": 1,
@@ -482,12 +455,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-02": "本句指「需要透過計算、推理或分析找出答案的題目／難題」。",
-        "problem-mcq-01": "「會造成不便、困難或障礙，因此需要採取行動處理的情況」是「problem — practical difficulty」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-02": "本句的「problem」指「需要透過計算、推理或分析找出答案的題目／難題」。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-02"
     },
@@ -499,11 +469,8 @@ export default {
       "masked": "There is a ____ with the battery.",
       "options": [
         "problem-mcq-03",
-        "problem-mcq-02",
-        "problem-mcq-04",
-        "problem-mcq-01",
-        "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-16",
+        "problem-mcq-11"
       ],
       "explanation": "本句的「problem」指「設備、系統或程序中出現的不正常情況、缺陷或故障原因」。",
       "sentenceIndex": 0,
@@ -512,12 +479,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-03": "本句指「設備、系統或程序中出現的不正常情況、缺陷或故障原因」。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-01": "「會造成不便、困難或障礙，因此需要採取行動處理的情況」是「problem — practical difficulty」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-03": "本句的「problem」指「設備、系統或程序中出現的不正常情況、缺陷或故障原因」。",
+        "problem-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-03"
     },
@@ -529,11 +493,8 @@ export default {
       "masked": "The technician found the ____.",
       "options": [
         "problem-mcq-03",
-        "problem-mcq-02",
-        "problem-mcq-04",
-        "problem-mcq-01",
         "problem-mcq-05",
-        "problem-mcq-06"
+        "problem-mcq-11"
       ],
       "explanation": "本句的「problem」指「設備、系統或程序中出現的不正常情況、缺陷或故障原因」。",
       "sentenceIndex": 1,
@@ -542,12 +503,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-03": "本句指「設備、系統或程序中出現的不正常情況、缺陷或故障原因」。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-01": "「會造成不便、困難或障礙，因此需要採取行動處理的情況」是「problem — practical difficulty」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-03": "本句的「problem」指「設備、系統或程序中出現的不正常情況、缺陷或故障原因」。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-03"
     },
@@ -559,11 +517,7 @@ export default {
       "masked": "I have a ____ the way this was handled.",
       "options": [
         "problem-mcq-04",
-        "problem-mcq-03",
-        "problem-mcq-05",
-        "problem-mcq-02",
-        "problem-mcq-06",
-        "problem-mcq-01"
+        "problem-mcq-09"
       ],
       "explanation": "本句的「problem with」指「某物存在故障／缺陷，或說話者對某事不滿、不能接受」。",
       "sentenceIndex": 0,
@@ -572,12 +526,8 @@ export default {
         "problem with"
       ],
       "optionReasons": {
-        "problem-mcq-04": "本句指「某物存在故障／缺陷，或說話者對某事不滿、不能接受」。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。",
-        "problem-mcq-01": "「會造成不便、困難或障礙，因此需要採取行動處理的情況」是「problem — practical difficulty」的用法，與本句語境不同。"
+        "problem-mcq-04": "本句的「problem with」指「某物存在故障／缺陷，或說話者對某事不滿、不能接受」。",
+        "problem-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-04"
     },
@@ -589,11 +539,7 @@ export default {
       "masked": "Do you have a ____ this arrangement?",
       "options": [
         "problem-mcq-04",
-        "problem-mcq-03",
-        "problem-mcq-05",
-        "problem-mcq-02",
-        "problem-mcq-06",
-        "problem-mcq-01"
+        "problem-mcq-09"
       ],
       "explanation": "本句的「problem with」指「某物存在故障／缺陷，或說話者對某事不滿、不能接受」。",
       "sentenceIndex": 1,
@@ -602,12 +548,8 @@ export default {
         "problem with"
       ],
       "optionReasons": {
-        "problem-mcq-04": "本句指「某物存在故障／缺陷，或說話者對某事不滿、不能接受」。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。",
-        "problem-mcq-01": "「會造成不便、困難或障礙，因此需要採取行動處理的情況」是「problem — practical difficulty」的用法，與本句語境不同。"
+        "problem-mcq-04": "本句的「problem with」指「某物存在故障／缺陷，或說話者對某事不滿、不能接受」。",
+        "problem-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-04"
     },
@@ -619,11 +561,8 @@ export default {
       "masked": "I have a ____ in noisy places.",
       "options": [
         "problem-mcq-05",
-        "problem-mcq-04",
-        "problem-mcq-06",
-        "problem-mcq-03",
-        "problem-mcq-07",
-        "problem-mcq-02"
+        "problem-mcq-13",
+        "problem-mcq-12"
       ],
       "explanation": "本句的「problem concentrating」指「做某件事時遇到明顯困難」。",
       "sentenceIndex": 0,
@@ -632,12 +571,9 @@ export default {
         "problem concentrating"
       ],
       "optionReasons": {
-        "problem-mcq-05": "本句指「做某件事時遇到明顯困難」。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。"
+        "problem-mcq-05": "本句的「problem concentrating」指「做某件事時遇到明顯困難」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-05"
     },
@@ -649,11 +585,8 @@ export default {
       "masked": "She had no ____ the hotel.",
       "options": [
         "problem-mcq-05",
-        "problem-mcq-04",
-        "problem-mcq-06",
-        "problem-mcq-03",
-        "problem-mcq-07",
-        "problem-mcq-02"
+        "problem-mcq-13",
+        "problem-mcq-03"
       ],
       "explanation": "本句的「problem finding」指「做某件事時遇到明顯困難」。",
       "sentenceIndex": 1,
@@ -662,12 +595,9 @@ export default {
         "problem finding"
       ],
       "optionReasons": {
-        "problem-mcq-05": "本句指「做某件事時遇到明顯困難」。",
-        "problem-mcq-04": "「某物存在故障／缺陷，或說話者對某事不滿、不能接受」是「problem with something」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。",
-        "problem-mcq-03": "「設備、系統或程序中出現的不正常情況、缺陷或故障原因」是「problem — fault」的用法，與本句語境不同。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。",
-        "problem-mcq-02": "「需要透過計算、推理或分析找出答案的題目／難題」是「problem — question/task」的用法，與本句語境不同。"
+        "problem-mcq-05": "本句的「problem finding」指「做某件事時遇到明顯困難」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-05"
     },
@@ -679,11 +609,8 @@ export default {
       "masked": "The old printer has become a constant ____.",
       "options": [
         "problem-mcq-08",
-        "problem-mcq-07",
-        "problem-mcq-09",
-        "problem-mcq-06",
-        "problem-mcq-10",
-        "problem-mcq-05"
+        "problem-mcq-13",
+        "problem-mcq-10"
       ],
       "explanation": "本句的「problem」指「持續造成錯誤、困難或麻煩的人／事物／因素」。",
       "sentenceIndex": 0,
@@ -692,12 +619,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-08": "本句指「持續造成錯誤、困難或麻煩的人／事物／因素」。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。"
+        "problem-mcq-08": "本句的「problem」指「持續造成錯誤、困難或麻煩的人／事物／因素」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-08"
     },
@@ -709,11 +633,8 @@ export default {
       "masked": "Poor communication is the main ____.",
       "options": [
         "problem-mcq-08",
-        "problem-mcq-07",
-        "problem-mcq-09",
-        "problem-mcq-06",
-        "problem-mcq-10",
-        "problem-mcq-05"
+        "problem-mcq-13",
+        "problem-mcq-03"
       ],
       "explanation": "本句的「problem」指「持續造成錯誤、困難或麻煩的人／事物／因素」。",
       "sentenceIndex": 1,
@@ -722,12 +643,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-08": "本句指「持續造成錯誤、困難或麻煩的人／事物／因素」。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-05": "「做某件事時遇到明顯困難」是「have a problem doing」的用法，與本句語境不同。"
+        "problem-mcq-08": "本句的「problem」指「持續造成錯誤、困難或麻煩的人／事物／因素」。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-08"
     },
@@ -739,11 +657,7 @@ export default {
       "masked": "Housing affordability is a major social ____.",
       "options": [
         "problem-mcq-09",
-        "problem-mcq-08",
-        "problem-mcq-10",
-        "problem-mcq-07",
-        "problem-mcq-11",
-        "problem-mcq-06"
+        "problem-mcq-03"
       ],
       "explanation": "本句的「problem」指「影響大量人口、制度或環境，需要集體處理的困難」。",
       "sentenceIndex": 0,
@@ -752,12 +666,8 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-09": "本句指「影響大量人口、制度或環境，需要集體處理的困難」。",
-        "problem-mcq-08": "「持續造成錯誤、困難或麻煩的人／事物／因素」是「problem — source of trouble」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-09": "本句的「problem」指「影響大量人口、制度或環境，需要集體處理的困難」。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-09"
     },
@@ -769,11 +679,7 @@ export default {
       "masked": "Pollution remains a serious environmental ____.",
       "options": [
         "problem-mcq-09",
-        "problem-mcq-08",
-        "problem-mcq-10",
-        "problem-mcq-07",
-        "problem-mcq-11",
-        "problem-mcq-06"
+        "problem-mcq-03"
       ],
       "explanation": "本句的「problem」指「影響大量人口、制度或環境，需要集體處理的困難」。",
       "sentenceIndex": 1,
@@ -782,12 +688,8 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-09": "本句指「影響大量人口、制度或環境，需要集體處理的困難」。",
-        "problem-mcq-08": "「持續造成錯誤、困難或麻煩的人／事物／因素」是「problem — source of trouble」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-06": "「表示某件事可以做到、沒有困難或願意幫忙」是「no problem — permission/help」的用法，與本句語境不同。"
+        "problem-mcq-09": "本句的「problem」指「影響大量人口、制度或環境，需要集體處理的困難」。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-09"
     },
@@ -799,11 +701,8 @@ export default {
       "masked": "He has a minor back ____.",
       "options": [
         "problem-mcq-10",
-        "problem-mcq-09",
-        "problem-mcq-11",
-        "problem-mcq-08",
-        "problem-mcq-12",
-        "problem-mcq-07"
+        "problem-mcq-04",
+        "problem-mcq-16"
       ],
       "explanation": "本句的「problem」指「身體或心理功能出現異常、困擾或需要處理的狀況」。",
       "sentenceIndex": 0,
@@ -812,12 +711,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-10": "本句指「身體或心理功能出現異常、困擾或需要處理的狀況」。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-08": "「持續造成錯誤、困難或麻煩的人／事物／因素」是「problem — source of trouble」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。"
+        "problem-mcq-10": "本句的「problem」指「身體或心理功能出現異常、困擾或需要處理的狀況」。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-10"
     },
@@ -829,11 +725,9 @@ export default {
       "masked": "Sleep ____ can affect concentration.",
       "options": [
         "problem-mcq-10",
-        "problem-mcq-09",
-        "problem-mcq-11",
-        "problem-mcq-08",
-        "problem-mcq-12",
-        "problem-mcq-07"
+        "problem-mcq-04",
+        "problem-mcq-05",
+        "problem-mcq-13"
       ],
       "explanation": "本句的「problems」指「身體或心理功能出現異常、困擾或需要處理的狀況」。",
       "sentenceIndex": 1,
@@ -842,12 +736,10 @@ export default {
         "problems"
       ],
       "optionReasons": {
-        "problem-mcq-10": "本句指「身體或心理功能出現異常、困擾或需要處理的狀況」。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-08": "「持續造成錯誤、困難或麻煩的人／事物／因素」是「problem — source of trouble」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-07": "「回應感謝／道歉時表示不客氣或沒關係」是「no problem — response」的用法，與本句語境不同。"
+        "problem-mcq-10": "本句的「problems」指「身體或心理功能出現異常、困擾或需要處理的狀況」。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-10"
     },
@@ -859,11 +751,8 @@ export default {
       "masked": "The researchers are studying the ____ of data bias.",
       "options": [
         "problem-mcq-11",
-        "problem-mcq-10",
-        "problem-mcq-12",
-        "problem-mcq-09",
-        "problem-mcq-13",
-        "problem-mcq-08"
+        "problem-mcq-03",
+        "problem-mcq-05"
       ],
       "explanation": "本句的「problem」指「尚未完全解決、需要分析或解釋的理論／研究難題」。",
       "sentenceIndex": 0,
@@ -872,12 +761,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-11": "本句指「尚未完全解決、需要分析或解釋的理論／研究難題」。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-08": "「持續造成錯誤、困難或麻煩的人／事物／因素」是「problem — source of trouble」的用法，與本句語境不同。"
+        "problem-mcq-11": "本句的「problem」指「尚未完全解決、需要分析或解釋的理論／研究難題」。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-11"
     },
@@ -889,10 +775,7 @@ export default {
       "masked": "The mind-body ____ has been discussed for centuries.",
       "options": [
         "problem-mcq-11",
-        "problem-mcq-10",
-        "problem-mcq-12",
-        "problem-mcq-09",
-        "problem-mcq-13",
+        "problem-mcq-03",
         "problem-mcq-08"
       ],
       "explanation": "本句的「problem」指「尚未完全解決、需要分析或解釋的理論／研究難題」。",
@@ -902,12 +785,9 @@ export default {
         "problem"
       ],
       "optionReasons": {
-        "problem-mcq-11": "本句指「尚未完全解決、需要分析或解釋的理論／研究難題」。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-08": "「持續造成錯誤、困難或麻煩的人／事物／因素」是「problem — source of trouble」的用法，與本句語境不同。"
+        "problem-mcq-11": "本句的「problem」指「尚未完全解決、需要分析或解釋的理論／研究難題」。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-11"
     },
@@ -919,11 +799,8 @@ export default {
       "masked": "The design is ____ for older users.",
       "options": [
         "problem-mcq-12",
-        "problem-mcq-11",
-        "problem-mcq-13",
-        "problem-mcq-10",
-        "problem-mcq-14",
-        "problem-mcq-09"
+        "problem-mcq-05",
+        "problem-mcq-13"
       ],
       "explanation": "本句的「problematic」指「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」。",
       "sentenceIndex": 0,
@@ -932,12 +809,9 @@ export default {
         "problematic"
       ],
       "optionReasons": {
-        "problem-mcq-12": "本句指「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。"
+        "problem-mcq-12": "本句的「problematic」指「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-12"
     },
@@ -949,11 +823,8 @@ export default {
       "masked": "That assumption is ____.",
       "options": [
         "problem-mcq-12",
-        "problem-mcq-11",
-        "problem-mcq-13",
-        "problem-mcq-10",
-        "problem-mcq-14",
-        "problem-mcq-09"
+        "problem-mcq-05",
+        "problem-mcq-13"
       ],
       "explanation": "本句的「problematic」指「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」。",
       "sentenceIndex": 1,
@@ -962,12 +833,9 @@ export default {
         "problematic"
       ],
       "optionReasons": {
-        "problem-mcq-12": "本句指「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-09": "「影響大量人口、制度或環境，需要集體處理的困難」是「social/environmental problem」的用法，與本句語境不同。"
+        "problem-mcq-12": "本句的「problematic」指「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-12"
     },
@@ -979,11 +847,8 @@ export default {
       "masked": "The rule is ____ vague.",
       "options": [
         "problem-mcq-16",
-        "problem-mcq-15",
-        "problem-mcq-14",
-        "problem-mcq-13",
-        "problem-mcq-12",
-        "problem-mcq-11"
+        "problem-mcq-03",
+        "problem-mcq-02"
       ],
       "explanation": "本句的「problematically」指「以會造成困難、疑慮或可靠性問題的方式」。",
       "sentenceIndex": 0,
@@ -992,12 +857,9 @@ export default {
         "problematically"
       ],
       "optionReasons": {
-        "problem-mcq-16": "本句指「以會造成困難、疑慮或可靠性問題的方式」。",
-        "problem-mcq-15": "「沒有出現故障、困難或麻煩的」是「problem-free」的用法，與本句語境不同。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。"
+        "problem-mcq-16": "本句的「problematically」指「以會造成困難、疑慮或可靠性問題的方式」。",
+        "problem-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-16"
     },
@@ -1009,11 +871,8 @@ export default {
       "masked": "The data were ____ incomplete.",
       "options": [
         "problem-mcq-16",
-        "problem-mcq-15",
-        "problem-mcq-14",
-        "problem-mcq-13",
-        "problem-mcq-12",
-        "problem-mcq-11"
+        "problem-mcq-04",
+        "problem-mcq-10"
       ],
       "explanation": "本句的「problematically」指「以會造成困難、疑慮或可靠性問題的方式」。",
       "sentenceIndex": 1,
@@ -1022,12 +881,9 @@ export default {
         "problematically"
       ],
       "optionReasons": {
-        "problem-mcq-16": "本句指「以會造成困難、疑慮或可靠性問題的方式」。",
-        "problem-mcq-15": "「沒有出現故障、困難或麻煩的」是「problem-free」的用法，與本句語境不同。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。"
+        "problem-mcq-16": "本句的「problematically」指「以會造成困難、疑慮或可靠性問題的方式」。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-16"
     },
@@ -1039,10 +895,8 @@ export default {
       "masked": "Good managers need strong ____.",
       "options": [
         "problem-mcq-13",
-        "problem-mcq-12",
-        "problem-mcq-14",
-        "problem-mcq-11",
-        "problem-mcq-15",
+        "problem-mcq-04",
+        "problem-mcq-05",
         "problem-mcq-10"
       ],
       "explanation": "本句的「problem-solving skills」指「分析問題並找出有效解決方案的過程／能力」。",
@@ -1052,12 +906,10 @@ export default {
         "problem-solving skills"
       ],
       "optionReasons": {
-        "problem-mcq-13": "本句指「分析問題並找出有效解決方案的過程／能力」。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-15": "「沒有出現故障、困難或麻煩的」是「problem-free」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。"
+        "problem-mcq-13": "本句的「problem-solving skills」指「分析問題並找出有效解決方案的過程／能力」。",
+        "problem-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-13"
     },
@@ -1069,11 +921,8 @@ export default {
       "masked": "The course focuses on creative ____.",
       "options": [
         "problem-mcq-13",
-        "problem-mcq-12",
-        "problem-mcq-14",
-        "problem-mcq-11",
-        "problem-mcq-15",
-        "problem-mcq-10"
+        "problem-mcq-05",
+        "problem-mcq-12"
       ],
       "explanation": "本句的「problem-solving」指「分析問題並找出有效解決方案的過程／能力」。",
       "sentenceIndex": 1,
@@ -1082,12 +931,9 @@ export default {
         "problem-solving"
       ],
       "optionReasons": {
-        "problem-mcq-13": "本句指「分析問題並找出有效解決方案的過程／能力」。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。",
-        "problem-mcq-15": "「沒有出現故障、困難或麻煩的」是「problem-free」的用法，與本句語境不同。",
-        "problem-mcq-10": "「身體或心理功能出現異常、困擾或需要處理的狀況」是「medical problem」的用法，與本句語境不同。"
+        "problem-mcq-13": "本句的「problem-solving」指「分析問題並找出有效解決方案的過程／能力」。",
+        "problem-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-13"
     },
@@ -1099,11 +945,7 @@ export default {
       "masked": "She is an excellent ____.",
       "options": [
         "problem-mcq-14",
-        "problem-mcq-13",
-        "problem-mcq-15",
-        "problem-mcq-12",
-        "problem-mcq-16",
-        "problem-mcq-11"
+        "problem-mcq-12"
       ],
       "explanation": "本句的「problem-solver」指「能分析困難並找出有效解決辦法的人、工具或系統」。",
       "sentenceIndex": 0,
@@ -1112,12 +954,8 @@ export default {
         "problem-solver"
       ],
       "optionReasons": {
-        "problem-mcq-14": "本句指「能分析困難並找出有效解決辦法的人、工具或系統」。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-15": "「沒有出現故障、困難或麻煩的」是「problem-free」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-16": "「以會造成困難、疑慮或可靠性問題的方式」是「13. problematically = in a way that creates difficulties or concerns — 有問題地；以引起問題的方式」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。"
+        "problem-mcq-14": "本句的「problem-solver」指「能分析困難並找出有效解決辦法的人、工具或系統」。",
+        "problem-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-14"
     },
@@ -1129,11 +967,7 @@ export default {
       "masked": "The company wants employees who are independent ____.",
       "options": [
         "problem-mcq-14",
-        "problem-mcq-13",
-        "problem-mcq-15",
-        "problem-mcq-12",
-        "problem-mcq-16",
-        "problem-mcq-11"
+        "problem-mcq-12"
       ],
       "explanation": "本句的「problem-solvers」指「能分析困難並找出有效解決辦法的人、工具或系統」。",
       "sentenceIndex": 1,
@@ -1142,12 +976,8 @@ export default {
         "problem-solvers"
       ],
       "optionReasons": {
-        "problem-mcq-14": "本句指「能分析困難並找出有效解決辦法的人、工具或系統」。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-15": "「沒有出現故障、困難或麻煩的」是「problem-free」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-16": "「以會造成困難、疑慮或可靠性問題的方式」是「13. problematically = in a way that creates difficulties or concerns — 有問題地；以引起問題的方式」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。"
+        "problem-mcq-14": "本句的「problem-solvers」指「能分析困難並找出有效解決辦法的人、工具或系統」。",
+        "problem-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-14"
     },
@@ -1159,11 +989,8 @@ export default {
       "masked": "The installation was completely ____.",
       "options": [
         "problem-mcq-15",
-        "problem-mcq-14",
-        "problem-mcq-16",
-        "problem-mcq-13",
         "problem-mcq-12",
-        "problem-mcq-11"
+        "problem-mcq-13"
       ],
       "explanation": "本句的「problem-free」指「沒有出現故障、困難或麻煩的」。",
       "sentenceIndex": 0,
@@ -1172,12 +999,9 @@ export default {
         "problem-free"
       ],
       "optionReasons": {
-        "problem-mcq-15": "本句指「沒有出現故障、困難或麻煩的」。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-16": "「以會造成困難、疑慮或可靠性問題的方式」是「13. problematically = in a way that creates difficulties or concerns — 有問題地；以引起問題的方式」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。"
+        "problem-mcq-15": "本句的「problem-free」指「沒有出現故障、困難或麻煩的」。",
+        "problem-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-15"
     },
@@ -1189,11 +1013,8 @@ export default {
       "masked": "We had a ____ journey.",
       "options": [
         "problem-mcq-15",
-        "problem-mcq-14",
-        "problem-mcq-16",
-        "problem-mcq-13",
         "problem-mcq-12",
-        "problem-mcq-11"
+        "problem-mcq-13"
       ],
       "explanation": "本句的「problem-free」指「沒有出現故障、困難或麻煩的」。",
       "sentenceIndex": 1,
@@ -1202,12 +1023,9 @@ export default {
         "problem-free"
       ],
       "optionReasons": {
-        "problem-mcq-15": "本句指「沒有出現故障、困難或麻煩的」。",
-        "problem-mcq-14": "「能分析困難並找出有效解決辦法的人、工具或系統」是「problem-solver」的用法，與本句語境不同。",
-        "problem-mcq-16": "「以會造成困難、疑慮或可靠性問題的方式」是「13. problematically = in a way that creates difficulties or concerns — 有問題地；以引起問題的方式」的用法，與本句語境不同。",
-        "problem-mcq-13": "「分析問題並找出有效解決方案的過程／能力」是「problem-solving」的用法，與本句語境不同。",
-        "problem-mcq-12": "「因存在缺陷、風險、矛盾或疑點而需要注意或質疑的」是「problematic」的用法，與本句語境不同。",
-        "problem-mcq-11": "「尚未完全解決、需要分析或解釋的理論／研究難題」是「research problem」的用法，與本句語境不同。"
+        "problem-mcq-15": "本句的「problem-free」指「沒有出現故障、困難或麻煩的」。",
+        "problem-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "problem-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "problem-mcq-15"
     }
@@ -1220,5 +1038,7 @@ export default {
     "pages": 16,
     "sha256": "587b1a8c15c25a52ba72ee5e0cebe91a3a9418b57a1ba2ddc7588e3052b8bc93"
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

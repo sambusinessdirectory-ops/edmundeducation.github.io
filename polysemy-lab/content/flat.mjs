@@ -334,11 +334,9 @@ export default {
       "masked": "Put the box on a ____ surface.",
       "options": [
         "flat-mcq-01",
-        "flat-mcq-02",
-        "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-06",
+        "flat-pdf-003",
+        "flat-mcq-03"
       ],
       "explanation": "本句的「flat」指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
       "sentenceIndex": 0,
@@ -347,12 +345,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-01": "本句指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-01": "本句的「flat」指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-01"
     },
@@ -364,11 +360,9 @@ export default {
       "masked": "The land around the village is very ____.",
       "options": [
         "flat-mcq-01",
-        "flat-mcq-02",
         "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-09",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
       "sentenceIndex": 1,
@@ -377,12 +371,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-01": "本句指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-01": "本句的「flat」指「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-01"
     },
@@ -394,11 +386,9 @@ export default {
       "masked": "She lay ____ on the floor.",
       "options": [
         "flat-pdf-001",
-        "flat-mcq-02",
+        "flat-mcq-08",
         "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-07"
       ],
       "explanation": "本句的「flat」指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
       "sentenceIndex": 2,
@@ -407,12 +397,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-pdf-001": "本句指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-001": "本句的「flat」指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-001"
     },
@@ -424,11 +412,9 @@ export default {
       "masked": "Press the paper ____ against the table.",
       "options": [
         "flat-pdf-001",
-        "flat-mcq-02",
         "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-06",
+        "flat-mcq-07"
       ],
       "explanation": "本句的「flat」指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
       "sentenceIndex": 3,
@@ -437,12 +423,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-pdf-001": "本句指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-001": "本句的「flat」指「整個表面平放或貼在另一個表面上，沒有豎起或突出」。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-001"
     },
@@ -454,11 +438,9 @@ export default {
       "masked": "Conversations with him never feel ____.",
       "options": [
         "flat-mcq-02",
-        "flat-mcq-01",
-        "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-06",
+        "flat-pdf-003",
+        "flat-mcq-03"
       ],
       "explanation": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
       "sentenceIndex": 4,
@@ -467,12 +449,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-02": "本句指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-02": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-02"
     },
@@ -484,11 +464,9 @@ export default {
       "masked": "The speech started well but became rather ____.",
       "options": [
         "flat-mcq-02",
-        "flat-mcq-01",
-        "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-06",
+        "flat-mcq-09",
+        "flat-mcq-03"
       ],
       "explanation": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
       "sentenceIndex": 5,
@@ -497,12 +475,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-02": "本句指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-02": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-02"
     },
@@ -514,11 +490,9 @@ export default {
       "masked": "The performance felt emotionally ____.",
       "options": [
         "flat-mcq-02",
-        "flat-mcq-01",
-        "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-09",
+        "flat-mcq-06",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
       "sentenceIndex": 6,
@@ -527,12 +501,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-02": "本句指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-02": "本句的「flat」指「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-02"
     },
@@ -544,11 +516,9 @@ export default {
       "masked": "He answered in a ____ voice.",
       "options": [
         "flat-pdf-002",
-        "flat-mcq-01",
-        "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-pdf-003",
+        "flat-mcq-07",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
       "sentenceIndex": 7,
@@ -557,12 +527,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-pdf-002": "本句指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-002": "本句的「flat」指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-002"
     },
@@ -574,11 +542,9 @@ export default {
       "masked": "Her delivery sounded strangely ____.",
       "options": [
         "flat-pdf-002",
-        "flat-mcq-01",
-        "flat-mcq-03",
-        "flat-mcq-04",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-pdf-003",
+        "flat-mcq-07",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
       "sentenceIndex": 8,
@@ -587,12 +553,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-pdf-002": "本句指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-002": "本句的「flat」指「語氣缺乏高低、情緒或表達力，聽起來平淡沒有生氣」。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-002"
     },
@@ -604,11 +568,9 @@ export default {
       "masked": "The cola has gone ____.",
       "options": [
         "flat-mcq-03",
-        "flat-mcq-02",
-        "flat-mcq-04",
+        "flat-mcq-06",
         "flat-mcq-01",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-09"
       ],
       "explanation": "本句的「flat」指「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」。",
       "sentenceIndex": 9,
@@ -617,12 +579,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-03": "本句指「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-03": "本句的「flat」指「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-03"
     },
@@ -634,11 +594,9 @@ export default {
       "masked": "I don’t like ____ sparkling water.",
       "options": [
         "flat-mcq-03",
-        "flat-mcq-02",
-        "flat-mcq-04",
-        "flat-mcq-01",
-        "flat-mcq-05",
-        "flat-mcq-06"
+        "flat-mcq-06",
+        "flat-mcq-09",
+        "flat-pdf-004"
       ],
       "explanation": "本句的「flat」指「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」。",
       "sentenceIndex": 10,
@@ -647,12 +605,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-03": "本句指「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-03": "本句的「flat」指「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-004": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-03"
     },
@@ -664,11 +620,9 @@ export default {
       "masked": "My phone battery is completely ____.",
       "options": [
         "flat-mcq-04",
-        "flat-mcq-03",
-        "flat-mcq-05",
-        "flat-mcq-02",
-        "flat-mcq-06",
-        "flat-mcq-01"
+        "flat-mcq-07",
+        "flat-mcq-11",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「電池沒有足夠電力供設備正常運作；沒電的」。",
       "sentenceIndex": 11,
@@ -677,12 +631,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-04": "本句指「電池沒有足夠電力供設備正常運作；沒電的」。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。"
+        "flat-mcq-04": "本句的「flat」指「電池沒有足夠電力供設備正常運作；沒電的」。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-04"
     },
@@ -695,10 +647,8 @@ export default {
       "options": [
         "flat-mcq-04",
         "flat-mcq-03",
-        "flat-mcq-05",
-        "flat-mcq-02",
-        "flat-mcq-06",
-        "flat-mcq-01"
+        "flat-mcq-07",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「電池沒有足夠電力供設備正常運作；沒電的」。",
       "sentenceIndex": 12,
@@ -707,12 +657,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-04": "本句指「電池沒有足夠電力供設備正常運作；沒電的」。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-01": "「表面、地形或物件沒有明顯彎曲、隆起、凹凸或突出部分的；平坦／平放的」是「flat — physical shape/surface」的用法，與本句語境不同。"
+        "flat-mcq-04": "本句的「flat」指「電池沒有足夠電力供設備正常運作；沒電的」。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-04"
     },
@@ -724,11 +672,9 @@ export default {
       "masked": "We had to stop because one of the tyres was ____.",
       "options": [
         "flat-mcq-05",
-        "flat-mcq-04",
-        "flat-mcq-06",
-        "flat-mcq-03",
-        "flat-mcq-07",
-        "flat-mcq-02"
+        "flat-mcq-09",
+        "flat-mcq-08",
+        "flat-mcq-11"
       ],
       "explanation": "本句的「flat」指「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」。",
       "sentenceIndex": 13,
@@ -737,12 +683,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-05": "本句指「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。"
+        "flat-mcq-05": "本句的「flat」指「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-05"
     },
@@ -754,11 +698,9 @@ export default {
       "masked": "He discovered a ____ before leaving for work.",
       "options": [
         "flat-mcq-05",
-        "flat-mcq-04",
-        "flat-mcq-06",
-        "flat-mcq-03",
-        "flat-mcq-07",
-        "flat-mcq-02"
+        "flat-mcq-09",
+        "flat-mcq-08",
+        "flat-mcq-11"
       ],
       "explanation": "本句的「flat tyre」指「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」。",
       "sentenceIndex": 14,
@@ -767,12 +709,10 @@ export default {
         "flat tyre"
       ],
       "optionReasons": {
-        "flat-mcq-05": "本句指「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-02": "「缺乏活力、變化、情感或吸引力，因此令人覺得沉悶、單調或沒有感染力」是「flat — dull/lifeless」的用法，與本句語境不同。"
+        "flat-mcq-05": "本句的「flat tyre」指「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」。",
+        "flat-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-05"
     },
@@ -784,11 +724,9 @@ export default {
       "masked": "B ____ is written with the symbol ♭.",
       "options": [
         "flat-mcq-06",
-        "flat-mcq-05",
-        "flat-mcq-07",
-        "flat-mcq-04",
-        "flat-mcq-08",
-        "flat-mcq-03"
+        "flat-mcq-03",
+        "flat-pdf-003",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat」指「音高低於指定或正常音高；亦可指降半音」。",
       "sentenceIndex": 15,
@@ -797,12 +735,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-06": "本句指「音高低於指定或正常音高；亦可指降半音」。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。"
+        "flat-mcq-06": "本句的「flat」指「音高低於指定或正常音高；亦可指降半音」。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-06"
     },
@@ -814,11 +750,9 @@ export default {
       "masked": "That note sounded slightly ____.",
       "options": [
         "flat-mcq-06",
-        "flat-mcq-05",
-        "flat-mcq-07",
-        "flat-mcq-04",
+        "flat-pdf-003",
         "flat-mcq-08",
-        "flat-mcq-03"
+        "flat-mcq-01"
       ],
       "explanation": "本句的「flat」指「音高低於指定或正常音高；亦可指降半音」。",
       "sentenceIndex": 16,
@@ -827,12 +761,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-06": "本句指「音高低於指定或正常音高；亦可指降半音」。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-03": "「原本應有氣泡的飲品失去氣體，不再有氣泡感；走氣的」是「flat drink」的用法，與本句語境不同。"
+        "flat-mcq-06": "本句的「flat」指「音高低於指定或正常音高；亦可指降半音」。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-06"
     },
@@ -844,11 +776,9 @@ export default {
       "masked": "The hotel charges a ____ for parking.",
       "options": [
         "flat-mcq-07",
-        "flat-mcq-06",
+        "flat-pdf-003",
         "flat-mcq-08",
-        "flat-mcq-05",
-        "flat-mcq-09",
-        "flat-mcq-04"
+        "flat-mcq-03"
       ],
       "explanation": "本句的「flat fee」指「不因使用量、時間或其他條件而改變的固定金額」。",
       "sentenceIndex": 17,
@@ -857,12 +787,10 @@ export default {
         "flat fee"
       ],
       "optionReasons": {
-        "flat-mcq-07": "本句指「不因使用量、時間或其他條件而改變的固定金額」。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。"
+        "flat-mcq-07": "本句的「flat fee」指「不因使用量、時間或其他條件而改變的固定金額」。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-07"
     },
@@ -874,11 +802,9 @@ export default {
       "masked": "Customers pay a ____ each month.",
       "options": [
         "flat-mcq-07",
-        "flat-mcq-06",
-        "flat-mcq-08",
-        "flat-mcq-05",
-        "flat-mcq-09",
-        "flat-mcq-04"
+        "flat-pdf-003",
+        "flat-pdf-002",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat rate」指「不因使用量、時間或其他條件而改變的固定金額」。",
       "sentenceIndex": 18,
@@ -887,12 +813,10 @@ export default {
         "flat rate"
       ],
       "optionReasons": {
-        "flat-mcq-07": "本句指「不因使用量、時間或其他條件而改變的固定金額」。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-04": "「電池沒有足夠電力供設備正常運作；沒電的」是「flat battery」的用法，與本句語境不同。"
+        "flat-mcq-07": "本句的「flat rate」指「不因使用量、時間或其他條件而改變的固定金額」。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-07"
     },
@@ -904,11 +828,9 @@ export default {
       "masked": "She rents a small ____ near the station.",
       "options": [
         "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-09",
+        "flat-pdf-001",
         "flat-mcq-06",
-        "flat-mcq-10",
-        "flat-mcq-05"
+        "flat-mcq-03"
       ],
       "explanation": "本句的「flat」指「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」。",
       "sentenceIndex": 19,
@@ -917,12 +839,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-08": "本句指「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-10": "「斷然地；亦可指毫無情緒或語調起伏地」是「flatly」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。"
+        "flat-mcq-08": "本句的「flat」指「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」。",
+        "flat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-08"
     },
@@ -934,11 +854,9 @@ export default {
       "masked": "They moved into a new ____ last month.",
       "options": [
         "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-09",
         "flat-mcq-06",
-        "flat-mcq-10",
-        "flat-mcq-05"
+        "flat-pdf-001",
+        "flat-mcq-07"
       ],
       "explanation": "本句的「flat」指「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」。",
       "sentenceIndex": 20,
@@ -947,12 +865,10 @@ export default {
         "flat"
       ],
       "optionReasons": {
-        "flat-mcq-08": "本句指「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。",
-        "flat-mcq-10": "「斷然地；亦可指毫無情緒或語調起伏地」是「flatly」的用法，與本句語境不同。",
-        "flat-mcq-05": "「輪胎因失去空氣或氣壓而變扁、不能保持正常形狀」是「flat tyre/tire」的用法，與本句語境不同。"
+        "flat-mcq-08": "本句的「flat」指「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-08"
     },
@@ -964,11 +880,9 @@ export default {
       "masked": "She gave the proposal a ____.",
       "options": [
         "flat-mcq-09",
+        "flat-pdf-004",
         "flat-mcq-08",
-        "flat-mcq-10",
-        "flat-mcq-07",
-        "flat-mcq-11",
-        "flat-mcq-06"
+        "flat-mcq-11"
       ],
       "explanation": "本句的「flat refusal」指「完全、直接而毫不含糊的拒絕或否定」。",
       "sentenceIndex": 21,
@@ -977,12 +891,10 @@ export default {
         "flat refusal"
       ],
       "optionReasons": {
-        "flat-mcq-09": "本句指「完全、直接而毫不含糊的拒絕或否定」。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-10": "「斷然地；亦可指毫無情緒或語調起伏地」是「flatly」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-09": "本句的「flat refusal」指「完全、直接而毫不含糊的拒絕或否定」。",
+        "flat-pdf-004": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-09"
     },
@@ -994,11 +906,9 @@ export default {
       "masked": "His answer was a ____.",
       "options": [
         "flat-mcq-09",
-        "flat-mcq-08",
-        "flat-mcq-10",
-        "flat-mcq-07",
-        "flat-mcq-11",
-        "flat-mcq-06"
+        "flat-mcq-03",
+        "flat-mcq-02",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flat no」指「完全、直接而毫不含糊的拒絕或否定」。",
       "sentenceIndex": 22,
@@ -1007,12 +917,10 @@ export default {
         "flat no"
       ],
       "optionReasons": {
-        "flat-mcq-09": "本句指「完全、直接而毫不含糊的拒絕或否定」。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-10": "「斷然地；亦可指毫無情緒或語調起伏地」是「flatly」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-09": "本句的「flat no」指「完全、直接而毫不含糊的拒絕或否定」。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-09"
     },
@@ -1024,11 +932,9 @@ export default {
       "masked": "She ____ to answer.",
       "options": [
         "flat-pdf-003",
-        "flat-mcq-09",
-        "flat-mcq-11",
         "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-06"
+        "flat-mcq-01",
+        "flat-mcq-07"
       ],
       "explanation": "本句的「flatly refused」指「以完全、不留餘地而直接的方式」。",
       "sentenceIndex": 23,
@@ -1037,12 +943,10 @@ export default {
         "flatly refused"
       ],
       "optionReasons": {
-        "flat-pdf-003": "本句指「以完全、不留餘地而直接的方式」。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-003": "本句的「flatly refused」指「以完全、不留餘地而直接的方式」。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-003"
     },
@@ -1054,11 +958,9 @@ export default {
       "masked": "He ____ the accusation.",
       "options": [
         "flat-pdf-003",
-        "flat-mcq-09",
-        "flat-mcq-11",
-        "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-06"
+        "flat-mcq-03",
+        "flat-mcq-02",
+        "flat-mcq-08"
       ],
       "explanation": "本句的「flatly denied」指「以完全、不留餘地而直接的方式」。",
       "sentenceIndex": 24,
@@ -1067,12 +969,10 @@ export default {
         "flatly denied"
       ],
       "optionReasons": {
-        "flat-pdf-003": "本句指「以完全、不留餘地而直接的方式」。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-003": "本句的「flatly denied」指「以完全、不留餘地而直接的方式」。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-003"
     },
@@ -1084,11 +984,9 @@ export default {
       "masked": "‘No,’ she said ____.",
       "options": [
         "flat-pdf-004",
-        "flat-mcq-09",
-        "flat-mcq-11",
-        "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-06"
+        "flat-mcq-06",
+        "flat-pdf-003",
+        "flat-mcq-03"
       ],
       "explanation": "本句的「flatly」指「以缺乏情緒、語調變化或表情的方式」。",
       "sentenceIndex": 25,
@@ -1097,12 +995,10 @@ export default {
         "flatly"
       ],
       "optionReasons": {
-        "flat-pdf-004": "本句指「以缺乏情緒、語調變化或表情的方式」。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-11": "「令某物變平、被壓倒或減少原本的突出／起伏」是「flatten」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-pdf-004": "本句的「flatly」指「以缺乏情緒、語調變化或表情的方式」。",
+        "flat-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "flat-pdf-003": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-pdf-004"
     },
@@ -1114,11 +1010,9 @@ export default {
       "masked": "Use your hand to ____ the dough.",
       "options": [
         "flat-mcq-11",
-        "flat-mcq-10",
-        "flat-mcq-09",
+        "flat-mcq-04",
         "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-06"
+        "flat-mcq-07"
       ],
       "explanation": "本句的「flatten」指「令某物變平、被壓倒或減少原本的突出／起伏」。",
       "sentenceIndex": 26,
@@ -1127,12 +1021,10 @@ export default {
         "flatten"
       ],
       "optionReasons": {
-        "flat-mcq-11": "本句指「令某物變平、被壓倒或減少原本的突出／起伏」。",
-        "flat-mcq-10": "「斷然地；亦可指毫無情緒或語調起伏地」是「flatly」的用法，與本句語境不同。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-11": "本句的「flatten」指「令某物變平、被壓倒或減少原本的突出／起伏」。",
+        "flat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-11"
     },
@@ -1144,11 +1036,9 @@ export default {
       "masked": "The storm ____ several trees.",
       "options": [
         "flat-mcq-11",
-        "flat-mcq-10",
-        "flat-mcq-09",
+        "flat-mcq-04",
         "flat-mcq-08",
-        "flat-mcq-07",
-        "flat-mcq-06"
+        "flat-mcq-07"
       ],
       "explanation": "本句的「flattened」指「令某物變平、被壓倒或減少原本的突出／起伏」。",
       "sentenceIndex": 27,
@@ -1157,12 +1047,10 @@ export default {
         "flattened"
       ],
       "optionReasons": {
-        "flat-mcq-11": "本句指「令某物變平、被壓倒或減少原本的突出／起伏」。",
-        "flat-mcq-10": "「斷然地；亦可指毫無情緒或語調起伏地」是「flatly」的用法，與本句語境不同。",
-        "flat-mcq-09": "「完全、直接而毫不含糊的拒絕或否定」是「flat refusal/denial」的用法，與本句語境不同。",
-        "flat-mcq-08": "「位於較大型建築物內、供一戶人居住的獨立住宅單位；英式英語」是「a flat — housing」的用法，與本句語境不同。",
-        "flat-mcq-07": "「不因使用量、時間或其他條件而改變的固定金額」是「flat rate/fee」的用法，與本句語境不同。",
-        "flat-mcq-06": "「音高低於指定或正常音高；亦可指降半音」是「flat — music」的用法，與本句語境不同。"
+        "flat-mcq-11": "本句的「flattened」指「令某物變平、被壓倒或減少原本的突出／起伏」。",
+        "flat-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "flat-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "flat-mcq-11"
     }
@@ -1174,5 +1062,7 @@ export default {
     "sha256": "0ce1664f03d2c1b783afe4290907ae082bfdfac28eb4c53f5e954aa949bcd6e8",
     "pages": 13
   },
-  "mcqSource": "master-comparison"
+  "mcqSource": "master-comparison",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

@@ -327,11 +327,9 @@ export default {
       "masked": "____ she enjoys is sharing what she grows.",
       "options": [
         "another-mcq-01",
-        "another-mcq-02",
-        "another-mcq-03",
-        "another-mcq-04",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-09",
+        "another-mcq-12",
+        "another-mcq-13"
       ],
       "explanation": "本句的「Another thing」指「在已有的人／事物之外，再加上一個同類的」。",
       "sentenceIndex": 0,
@@ -340,12 +338,10 @@ export default {
         "Another thing"
       ],
       "optionReasons": {
-        "another-mcq-01": "本句指「在已有的人／事物之外，再加上一個同類的」。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-01": "本句的「Another thing」指「在已有的人／事物之外，再加上一個同類的」。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-01"
     },
@@ -357,11 +353,9 @@ export default {
       "masked": "She planted ____.",
       "options": [
         "another-mcq-01",
-        "another-mcq-02",
-        "another-mcq-03",
-        "another-mcq-04",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-09",
+        "another-mcq-13",
+        "another-mcq-12"
       ],
       "explanation": "本句的「another tree」指「在已有的人／事物之外，再加上一個同類的」。",
       "sentenceIndex": 1,
@@ -370,12 +364,10 @@ export default {
         "another tree"
       ],
       "optionReasons": {
-        "another-mcq-01": "本句指「在已有的人／事物之外，再加上一個同類的」。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-01": "本句的「another tree」指「在已有的人／事物之外，再加上一個同類的」。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-01"
     },
@@ -387,11 +379,9 @@ export default {
       "masked": "Can I have ____ cup of tea?",
       "options": [
         "another-mcq-01",
-        "another-mcq-02",
-        "another-mcq-03",
-        "another-mcq-04",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-09",
+        "another-mcq-11",
+        "another-mcq-12"
       ],
       "explanation": "本句的「another」指「在已有的人／事物之外，再加上一個同類的」。",
       "sentenceIndex": 2,
@@ -400,12 +390,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-01": "本句指「在已有的人／事物之外，再加上一個同類的」。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-01": "本句的「another」指「在已有的人／事物之外，再加上一個同類的」。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-01"
     },
@@ -417,11 +405,9 @@ export default {
       "masked": "This lemon is sour. Give me ____.",
       "options": [
         "another-mcq-02",
-        "another-mcq-01",
-        "another-mcq-03",
-        "another-mcq-04",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-14",
+        "another-mcq-11",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another」指「同類中的另一個／再一個」。",
       "sentenceIndex": 3,
@@ -430,12 +416,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-02": "本句指「同類中的另一個／再一個」。",
-        "another-mcq-01": "「在已有的人／事物之外，再加上一個同類的」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-02": "本句的「another」指「同類中的另一個／再一個」。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-02"
     },
@@ -447,11 +431,9 @@ export default {
       "masked": "One plant died, so she bought ____.",
       "options": [
         "another-mcq-02",
-        "another-mcq-01",
-        "another-mcq-03",
-        "another-mcq-04",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-09",
+        "another-mcq-11",
+        "another-mcq-14"
       ],
       "explanation": "本句的「another」指「同類中的另一個／再一個」。",
       "sentenceIndex": 4,
@@ -460,12 +442,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-02": "本句指「同類中的另一個／再一個」。",
-        "another-mcq-01": "「在已有的人／事物之外，再加上一個同類的」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-02": "本句的「another」指「同類中的另一個／再一個」。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-02"
     },
@@ -477,11 +457,9 @@ export default {
       "masked": "This pot is too small. Try ____.",
       "options": [
         "another-mcq-03",
-        "another-mcq-02",
-        "another-mcq-04",
-        "another-mcq-01",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-14",
+        "another-mcq-11",
+        "another-mcq-04"
       ],
       "explanation": "本句的「another」指「與目前這個不同的另一個」。",
       "sentenceIndex": 5,
@@ -490,12 +468,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-03": "本句指「與目前這個不同的另一個」。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-01": "「在已有的人／事物之外，再加上一個同類的」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-03": "本句的「another」指「與目前這個不同的另一個」。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-03"
     },
@@ -507,11 +483,9 @@ export default {
       "masked": "Let’s choose ____ route.",
       "options": [
         "another-mcq-03",
-        "another-mcq-02",
-        "another-mcq-04",
-        "another-mcq-01",
-        "another-mcq-05",
-        "another-mcq-06"
+        "another-mcq-11",
+        "another-mcq-09",
+        "another-mcq-14"
       ],
       "explanation": "本句的「another」指「與目前這個不同的另一個」。",
       "sentenceIndex": 6,
@@ -520,12 +494,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-03": "本句指「與目前這個不同的另一個」。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-01": "「在已有的人／事物之外，再加上一個同類的」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-03": "本句的「another」指「與目前這個不同的另一個」。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-03"
     },
@@ -537,11 +509,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "another-mcq-04",
-        "another-mcq-03",
-        "another-mcq-05",
-        "another-mcq-02",
-        "another-mcq-06",
-        "another-mcq-01"
+        "another-mcq-09",
+        "another-mcq-08",
+        "another-mcq-13"
       ],
       "explanation": "本句的「another three pots」指「在原有數量之外再增加指定數量」。",
       "sentenceIndex": 7,
@@ -550,12 +520,10 @@ export default {
         "another three pots"
       ],
       "optionReasons": {
-        "another-mcq-04": "本句指「在原有數量之外再增加指定數量」。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-01": "「在已有的人／事物之外，再加上一個同類的」與本句語境不同。"
+        "another-mcq-04": "本句的「another three pots」指「在原有數量之外再增加指定數量」。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-04"
     },
@@ -567,11 +535,9 @@ export default {
       "masked": "She stayed for ____ two hours.",
       "options": [
         "another-mcq-04",
-        "another-mcq-03",
-        "another-mcq-05",
-        "another-mcq-02",
-        "another-mcq-06",
-        "another-mcq-01"
+        "another-mcq-12",
+        "another-mcq-09",
+        "another-mcq-14"
       ],
       "explanation": "本句的「another」指「在原有數量之外再增加指定數量」。",
       "sentenceIndex": 8,
@@ -580,12 +546,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-04": "本句指「在原有數量之外再增加指定數量」。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-01": "「在已有的人／事物之外，再加上一個同類的」與本句語境不同。"
+        "another-mcq-04": "本句的「another」指「在原有數量之外再增加指定數量」。",
+        "another-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-04"
     },
@@ -597,11 +561,9 @@ export default {
       "masked": "Wait ____.",
       "options": [
         "another-mcq-05",
-        "another-mcq-04",
-        "another-mcq-06",
-        "another-mcq-03",
-        "another-mcq-07",
-        "another-mcq-02"
+        "another-mcq-08",
+        "another-mcq-13",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another ten minutes」指「再增加一段時間、數量、距離等」。",
       "sentenceIndex": 9,
@@ -610,12 +572,10 @@ export default {
         "another ten minutes"
       ],
       "optionReasons": {
-        "another-mcq-05": "本句指「再增加一段時間、數量、距離等」。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。"
+        "another-mcq-05": "本句的「another ten minutes」指「再增加一段時間、數量、距離等」。",
+        "another-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-05"
     },
@@ -627,11 +587,9 @@ export default {
       "masked": "We walked ____ two kilometres.",
       "options": [
         "another-mcq-05",
-        "another-mcq-04",
-        "another-mcq-06",
+        "another-mcq-13",
         "another-mcq-03",
-        "another-mcq-07",
-        "another-mcq-02"
+        "another-mcq-09"
       ],
       "explanation": "本句的「another」指「再增加一段時間、數量、距離等」。",
       "sentenceIndex": 10,
@@ -640,12 +598,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-05": "本句指「再增加一段時間、數量、距離等」。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-02": "「同類中的另一個／再一個」與本句語境不同。"
+        "another-mcq-05": "本句的「another」指「再增加一段時間、數量、距離等」。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-05"
     },
@@ -657,11 +613,8 @@ export default {
       "masked": "One plant is tall; ____ is short.",
       "options": [
         "another-mcq-06",
-        "another-mcq-05",
-        "another-mcq-07",
-        "another-mcq-04",
-        "another-mcq-08",
-        "another-mcq-03"
+        "another-mcq-01",
+        "another-mcq-11"
       ],
       "explanation": "本句的「another」指「在多於兩個／數量未限定群體中，一個……另一個……」。",
       "sentenceIndex": 11,
@@ -670,12 +623,9 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-06": "本句指「在多於兩個／數量未限定群體中，一個……另一個……」。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。"
+        "another-mcq-06": "本句的「another」指「在多於兩個／數量未限定群體中，一個……另一個……」。",
+        "another-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-06"
     },
@@ -687,11 +637,8 @@ export default {
       "masked": "One student asked a question, and ____ gave an answer.",
       "options": [
         "another-mcq-06",
-        "another-mcq-05",
-        "another-mcq-07",
-        "another-mcq-04",
-        "another-mcq-08",
-        "another-mcq-03"
+        "another-mcq-01",
+        "another-mcq-11"
       ],
       "explanation": "本句的「another」指「在多於兩個／數量未限定群體中，一個……另一個……」。",
       "sentenceIndex": 12,
@@ -700,12 +647,9 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-06": "本句指「在多於兩個／數量未限定群體中，一個……另一個……」。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。",
-        "another-mcq-03": "「與目前這個不同的另一個」與本句語境不同。"
+        "another-mcq-06": "本句的「another」指「在多於兩個／數量未限定群體中，一個……另一個……」。",
+        "another-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-06"
     },
@@ -717,11 +661,8 @@ export default {
       "masked": "This pot is cracked. I need ____.",
       "options": [
         "another-mcq-07",
-        "another-mcq-06",
-        "another-mcq-08",
-        "another-mcq-05",
-        "another-mcq-09",
-        "another-mcq-04"
+        "another-mcq-13",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another one」指「另一個／再一個」。",
       "sentenceIndex": 13,
@@ -730,12 +671,9 @@ export default {
         "another one"
       ],
       "optionReasons": {
-        "another-mcq-07": "本句指「另一個／再一個」。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。"
+        "another-mcq-07": "本句的「another one」指「另一個／再一個」。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-07"
     },
@@ -747,11 +685,8 @@ export default {
       "masked": "Would you like ____ one?",
       "options": [
         "another-mcq-07",
-        "another-mcq-06",
-        "another-mcq-08",
-        "another-mcq-05",
-        "another-mcq-09",
-        "another-mcq-04"
+        "another-mcq-13",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another」指「另一個／再一個」。",
       "sentenceIndex": 14,
@@ -760,12 +695,9 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-07": "本句指「另一個／再一個」。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-04": "「在原有數量之外再增加指定數量」與本句語境不同。"
+        "another-mcq-07": "本句的「another」指「另一個／再一個」。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-07"
     },
@@ -777,11 +709,9 @@ export default {
       "masked": "We can try again ____.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-04",
+        "another-mcq-14",
+        "another-mcq-11"
       ],
       "explanation": "本句的「another day」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 15,
@@ -790,12 +720,10 @@ export default {
         "another day"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another day」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -807,11 +735,9 @@ export default {
       "masked": "Give him ____ chance.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-11",
+        "another-mcq-04",
+        "another-mcq-14"
       ],
       "explanation": "本句的「another」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 16,
@@ -820,12 +746,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -837,11 +761,9 @@ export default {
       "masked": "Let’s discuss it ____.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-04",
+        "another-mcq-11",
+        "another-mcq-14"
       ],
       "explanation": "本句的「another time」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 17,
@@ -850,12 +772,10 @@ export default {
         "another time"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another time」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -867,11 +787,9 @@ export default {
       "masked": "I’ll visit again ____ time.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-14",
+        "another-mcq-04",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 18,
@@ -880,12 +798,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -897,11 +813,9 @@ export default {
       "masked": "We’ll finish this ____.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-11",
+        "another-mcq-04",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another day」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 19,
@@ -910,12 +824,10 @@ export default {
         "another day"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another day」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -927,11 +839,9 @@ export default {
       "masked": "____ day might be better.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-11",
+        "another-mcq-14",
+        "another-mcq-09"
       ],
       "explanation": "本句的「Another」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 20,
@@ -940,12 +850,10 @@ export default {
         "Another"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「Another」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -957,11 +865,9 @@ export default {
       "masked": "The village felt like ____.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
+        "another-mcq-04",
         "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-13"
       ],
       "explanation": "本句的「another world」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 21,
@@ -970,12 +876,10 @@ export default {
         "another world"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another world」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -987,11 +891,9 @@ export default {
       "masked": "Moving abroad gave her ____ life.",
       "options": [
         "another-mcq-08",
-        "another-mcq-07",
-        "another-mcq-09",
-        "another-mcq-06",
-        "another-mcq-10",
-        "another-mcq-05"
+        "another-mcq-13",
+        "another-mcq-05",
+        "another-mcq-09"
       ],
       "explanation": "本句的「another」指「與目前不同的另一天／另一次；改天」。",
       "sentenceIndex": 22,
@@ -1000,12 +902,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-08": "本句指「與目前不同的另一天／另一次；改天」。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-05": "「再增加一段時間、數量、距離等」與本句語境不同。"
+        "another-mcq-08": "本句的「another」指「與目前不同的另一天／另一次；改天」。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-08"
     },
@@ -1017,11 +917,8 @@ export default {
       "masked": "Neighbours help ____.",
       "options": [
         "another-mcq-09",
-        "another-mcq-08",
-        "another-mcq-10",
         "another-mcq-07",
-        "another-mcq-11",
-        "another-mcq-06"
+        "another-mcq-13"
       ],
       "explanation": "本句的「one another」指「兩個或以上的人／事物彼此做某事」。",
       "sentenceIndex": 23,
@@ -1030,12 +927,9 @@ export default {
         "one another"
       ],
       "optionReasons": {
-        "another-mcq-09": "本句指「兩個或以上的人／事物彼此做某事」。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-11": "「其他的不可數事物／內容」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-09": "本句的「one another」指「兩個或以上的人／事物彼此做某事」。",
+        "another-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-09"
     },
@@ -1047,11 +941,9 @@ export default {
       "masked": "The plants compete with one ____ for light.",
       "options": [
         "another-mcq-09",
-        "another-mcq-08",
-        "another-mcq-10",
-        "another-mcq-07",
-        "another-mcq-11",
-        "another-mcq-06"
+        "another-mcq-14",
+        "another-mcq-01",
+        "another-mcq-08"
       ],
       "explanation": "本句的「another」指「兩個或以上的人／事物彼此做某事」。",
       "sentenceIndex": 24,
@@ -1060,12 +952,10 @@ export default {
         "another"
       ],
       "optionReasons": {
-        "another-mcq-09": "本句指「兩個或以上的人／事物彼此做某事」。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-07": "「另一個／再一個」與本句語境不同。",
-        "another-mcq-11": "「其他的不可數事物／內容」與本句語境不同。",
-        "another-mcq-06": "「在多於兩個／數量未限定群體中，一個……另一個……」與本句語境不同。"
+        "another-mcq-09": "本句的「another」指「兩個或以上的人／事物彼此做某事」。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-09"
     },
@@ -1077,11 +967,9 @@ export default {
       "masked": "She grows tomatoes and ____.",
       "options": [
         "another-mcq-11",
-        "another-mcq-10",
-        "another-mcq-12",
-        "another-mcq-09",
-        "another-mcq-13",
-        "another-mcq-08"
+        "another-mcq-01",
+        "another-mcq-14",
+        "another-mcq-12"
       ],
       "explanation": "本句的「other vegetables」指「其他的不可數事物／內容」。",
       "sentenceIndex": 25,
@@ -1090,12 +978,10 @@ export default {
         "other vegetables"
       ],
       "optionReasons": {
-        "another-mcq-11": "本句指「其他的不可數事物／內容」。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-12": "「在恰好兩者中，剩下的另一個」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。",
-        "another-mcq-13": "「其他人／其他事物，不重複名詞」與本句語境不同。",
-        "another-mcq-08": "「與目前不同的另一天／另一次；改天」與本句語境不同。"
+        "another-mcq-11": "本句的「other vegetables」指「其他的不可數事物／內容」。",
+        "another-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-11"
     },
@@ -1107,10 +993,8 @@ export default {
       "masked": "There are two pots. One is red and ____ is blue.",
       "options": [
         "another-mcq-12",
+        "another-mcq-01",
         "another-mcq-11",
-        "another-mcq-13",
-        "another-mcq-10",
-        "another-mcq-14",
         "another-mcq-09"
       ],
       "explanation": "本句的「the other」指「在恰好兩者中，剩下的另一個」。",
@@ -1120,12 +1004,10 @@ export default {
         "the other"
       ],
       "optionReasons": {
-        "another-mcq-12": "本句指「在恰好兩者中，剩下的另一個」。",
-        "another-mcq-11": "「其他的不可數事物／內容」與本句語境不同。",
-        "another-mcq-13": "「其他人／其他事物，不重複名詞」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-14": "「已知群體中剩餘的全部人／事物」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。"
+        "another-mcq-12": "本句的「the other」指「在恰好兩者中，剩下的另一個」。",
+        "another-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-12"
     },
@@ -1137,10 +1019,8 @@ export default {
       "masked": "Some plants need shade; ____ need full sun.",
       "options": [
         "another-mcq-13",
-        "another-mcq-12",
-        "another-mcq-14",
-        "another-mcq-11",
-        "another-mcq-10",
+        "another-mcq-04",
+        "another-mcq-08",
         "another-mcq-09"
       ],
       "explanation": "本句的「others」指「其他人／其他事物，不重複名詞」。",
@@ -1150,12 +1030,10 @@ export default {
         "others"
       ],
       "optionReasons": {
-        "another-mcq-13": "本句指「其他人／其他事物，不重複名詞」。",
-        "another-mcq-12": "「在恰好兩者中，剩下的另一個」與本句語境不同。",
-        "another-mcq-14": "「已知群體中剩餘的全部人／事物」與本句語境不同。",
-        "another-mcq-11": "「其他的不可數事物／內容」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。"
+        "another-mcq-13": "本句的「others」指「其他人／其他事物，不重複名詞」。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-13"
     },
@@ -1167,11 +1045,9 @@ export default {
       "masked": "Two plants are indoors; ____ are outside.",
       "options": [
         "another-mcq-14",
-        "another-mcq-13",
-        "another-mcq-12",
-        "another-mcq-11",
-        "another-mcq-10",
-        "another-mcq-09"
+        "another-mcq-02",
+        "another-mcq-04",
+        "another-mcq-11"
       ],
       "explanation": "本句的「the others」指「已知群體中剩餘的全部人／事物」。",
       "sentenceIndex": 28,
@@ -1180,12 +1056,10 @@ export default {
         "the others"
       ],
       "optionReasons": {
-        "another-mcq-14": "本句指「已知群體中剩餘的全部人／事物」。",
-        "another-mcq-13": "「其他人／其他事物，不重複名詞」與本句語境不同。",
-        "another-mcq-12": "「在恰好兩者中，剩下的另一個」與本句語境不同。",
-        "another-mcq-11": "「其他的不可數事物／內容」與本句語境不同。",
-        "another-mcq-10": "「其他同類的人／事物」與本句語境不同。",
-        "another-mcq-09": "「兩個或以上的人／事物彼此做某事」與本句語境不同。"
+        "another-mcq-14": "本句的「the others」指「已知群體中剩餘的全部人／事物」。",
+        "another-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "another-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "another-mcq-14"
     }
@@ -1197,5 +1071,7 @@ export default {
     "sha256": "2e8c194c3cff61ad522cdab13f495249a73a083e5c861b001530f3e5383cf7e5",
     "pages": 16
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

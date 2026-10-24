@@ -277,11 +277,9 @@ export default {
       "masked": "He was a huge ____ of what made my childhood so memorable.",
       "options": [
         "part-mcq-01",
-        "part-mcq-02",
         "part-mcq-03",
-        "part-mcq-04",
-        "part-mcq-05",
-        "part-mcq-06"
+        "part-mcq-09",
+        "part-pdf-002"
       ],
       "explanation": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
       "sentenceIndex": 0,
@@ -290,12 +288,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-01": "本句指「構成較大整體的其中一個部分、元素、區域或成分」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-01": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-01"
     },
@@ -307,11 +303,9 @@ export default {
       "masked": "Exercise is an important ____ of a healthy lifestyle.",
       "options": [
         "part-mcq-01",
-        "part-mcq-02",
         "part-mcq-03",
-        "part-mcq-04",
-        "part-mcq-05",
-        "part-mcq-06"
+        "part-mcq-09",
+        "part-mcq-04"
       ],
       "explanation": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
       "sentenceIndex": 1,
@@ -320,12 +314,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-01": "本句指「構成較大整體的其中一個部分、元素、區域或成分」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-01": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-01"
     },
@@ -337,11 +329,9 @@ export default {
       "masked": "This chapter is only one ____ of the book.",
       "options": [
         "part-mcq-01",
-        "part-mcq-02",
-        "part-mcq-03",
         "part-mcq-04",
-        "part-mcq-05",
-        "part-mcq-06"
+        "part-mcq-03",
+        "part-mcq-09"
       ],
       "explanation": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
       "sentenceIndex": 2,
@@ -350,12 +340,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-01": "本句指「構成較大整體的其中一個部分、元素、區域或成分」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-01": "本句的「part」指「構成較大整體的其中一個部分、元素、區域或成分」。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-01"
     },
@@ -367,11 +355,9 @@ export default {
       "masked": "This ____ of the city is very quiet.",
       "options": [
         "part-pdf-001",
-        "part-mcq-02",
-        "part-mcq-03",
-        "part-mcq-04",
-        "part-mcq-05",
-        "part-mcq-06"
+        "part-mcq-09",
+        "part-pdf-002",
+        "part-mcq-08"
       ],
       "explanation": "本句的「part」指「一個較大地方、物件或結構中的特定區域／部位」。",
       "sentenceIndex": 3,
@@ -380,12 +366,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-pdf-001": "本句指「一個較大地方、物件或結構中的特定區域／部位」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-pdf-001": "本句的「part」指「一個較大地方、物件或結構中的特定區域／部位」。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-pdf-001"
     },
@@ -397,11 +381,9 @@ export default {
       "masked": "The damaged ____ of the machine needs replacing.",
       "options": [
         "part-pdf-001",
-        "part-mcq-02",
-        "part-mcq-03",
-        "part-mcq-04",
+        "part-mcq-08",
         "part-mcq-05",
-        "part-mcq-06"
+        "part-pdf-002"
       ],
       "explanation": "本句的「part」指「一個較大地方、物件或結構中的特定區域／部位」。",
       "sentenceIndex": 4,
@@ -410,12 +392,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-pdf-001": "本句指「一個較大地方、物件或結構中的特定區域／部位」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-pdf-001": "本句的「part」指「一個較大地方、物件或結構中的特定區域／部位」。",
+        "part-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-pdf-001"
     },
@@ -427,11 +407,7 @@ export default {
       "masked": "Everyone played a ____ in the project.",
       "options": [
         "part-mcq-02",
-        "part-mcq-01",
-        "part-mcq-03",
-        "part-mcq-04",
-        "part-mcq-05",
-        "part-mcq-06"
+        "part-mcq-08"
       ],
       "explanation": "本句的「part」指「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」。",
       "sentenceIndex": 5,
@@ -440,12 +416,8 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-02": "本句指「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」。",
-        "part-mcq-01": "「構成較大整體的其中一個部分、元素、區域或成分」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-02": "本句的「part」指「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」。",
+        "part-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-02"
     },
@@ -457,10 +429,6 @@ export default {
       "masked": "Luck played a small ____ in their success.",
       "options": [
         "part-mcq-02",
-        "part-mcq-01",
-        "part-mcq-03",
-        "part-mcq-04",
-        "part-mcq-05",
         "part-mcq-06"
       ],
       "explanation": "本句的「part」指「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」。",
@@ -470,12 +438,8 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-02": "本句指「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」。",
-        "part-mcq-01": "「構成較大整體的其中一個部分、元素、區域或成分」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-02": "本句的「part」指「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」。",
+        "part-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-02"
     },
@@ -487,11 +451,9 @@ export default {
       "masked": "She got the ____ of the queen.",
       "options": [
         "part-mcq-03",
-        "part-mcq-02",
-        "part-mcq-04",
-        "part-mcq-01",
+        "part-pdf-002",
         "part-mcq-05",
-        "part-mcq-06"
+        "part-mcq-09"
       ],
       "explanation": "本句的「part」指「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」。",
       "sentenceIndex": 7,
@@ -500,12 +462,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-03": "本句指「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-01": "「構成較大整體的其中一個部分、元素、區域或成分」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-03": "本句的「part」指「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-03"
     },
@@ -517,11 +477,9 @@ export default {
       "masked": "He learned his ____ before rehearsal.",
       "options": [
         "part-mcq-03",
-        "part-mcq-02",
-        "part-mcq-04",
-        "part-mcq-01",
-        "part-mcq-05",
-        "part-mcq-06"
+        "part-pdf-001",
+        "part-mcq-09",
+        "part-mcq-05"
       ],
       "explanation": "本句的「part」指「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」。",
       "sentenceIndex": 8,
@@ -530,12 +488,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-03": "本句指「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-01": "「構成較大整體的其中一個部分、元素、區域或成分」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。"
+        "part-mcq-03": "本句的「part」指「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-03"
     },
@@ -547,11 +503,9 @@ export default {
       "masked": "I’ve done my ____.",
       "options": [
         "part-mcq-04",
-        "part-mcq-03",
+        "part-mcq-07",
         "part-mcq-05",
-        "part-mcq-02",
-        "part-mcq-06",
-        "part-mcq-01"
+        "part-pdf-001"
       ],
       "explanation": "本句的「part」指「某人應得、承擔、負責或貢獻的一份」。",
       "sentenceIndex": 9,
@@ -560,12 +514,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-04": "本句指「某人應得、承擔、負責或貢獻的一份」。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-01": "「構成較大整體的其中一個部分、元素、區域或成分」與本句語境不同。"
+        "part-mcq-04": "本句的「part」指「某人應得、承擔、負責或貢獻的一份」。",
+        "part-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-04"
     },
@@ -578,10 +530,8 @@ export default {
       "options": [
         "part-mcq-04",
         "part-mcq-03",
-        "part-mcq-05",
-        "part-mcq-02",
-        "part-mcq-06",
-        "part-mcq-01"
+        "part-pdf-001",
+        "part-mcq-07"
       ],
       "explanation": "本句的「part」指「某人應得、承擔、負責或貢獻的一份」。",
       "sentenceIndex": 10,
@@ -590,12 +540,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-mcq-04": "本句指「某人應得、承擔、負責或貢獻的一份」。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-01": "「構成較大整體的其中一個部分、元素、區域或成分」與本句語境不同。"
+        "part-mcq-04": "本句的「part」指「某人應得、承擔、負責或貢獻的一份」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-04"
     },
@@ -607,11 +555,9 @@ export default {
       "masked": "There was no dishonesty on her ____.",
       "options": [
         "part-pdf-002",
-        "part-mcq-04",
-        "part-mcq-06",
         "part-mcq-03",
         "part-mcq-07",
-        "part-mcq-02"
+        "part-mcq-05"
       ],
       "explanation": "本句的「part」指「就某人而言；由某人所做／負責的」。",
       "sentenceIndex": 11,
@@ -620,12 +566,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-pdf-002": "本句指「就某人而言；由某人所做／負責的」。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。"
+        "part-pdf-002": "本句的「part」指「就某人而言；由某人所做／負責的」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-pdf-002"
     },
@@ -637,11 +581,9 @@ export default {
       "masked": "The mistake was ____ly on my part.",
       "options": [
         "part-pdf-002",
-        "part-mcq-04",
-        "part-mcq-06",
+        "part-pdf-001",
         "part-mcq-03",
-        "part-mcq-07",
-        "part-mcq-02"
+        "part-mcq-08"
       ],
       "explanation": "本句的「part」指「就某人而言；由某人所做／負責的」。",
       "sentenceIndex": 12,
@@ -650,12 +592,10 @@ export default {
         "part"
       ],
       "optionReasons": {
-        "part-pdf-002": "本句指「就某人而言；由某人所做／負責的」。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。"
+        "part-pdf-002": "本句的「part」指「就某人而言；由某人所做／負責的」。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-pdf-002"
     },
@@ -667,11 +607,9 @@ export default {
       "masked": "The two friends ____ at the station.",
       "options": [
         "part-mcq-05",
-        "part-mcq-04",
-        "part-mcq-06",
         "part-mcq-03",
-        "part-mcq-07",
-        "part-mcq-02"
+        "part-pdf-002",
+        "part-mcq-08"
       ],
       "explanation": "本句的「parted」指「原本在一起的人或物分離、分開或向不同方向移動」。",
       "sentenceIndex": 13,
@@ -680,12 +618,10 @@ export default {
         "parted"
       ],
       "optionReasons": {
-        "part-mcq-05": "本句指「原本在一起的人或物分離、分開或向不同方向移動」。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。"
+        "part-mcq-05": "本句的「parted」指「原本在一起的人或物分離、分開或向不同方向移動」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-05"
     },
@@ -698,10 +634,8 @@ export default {
       "options": [
         "part-mcq-05",
         "part-mcq-04",
-        "part-mcq-06",
         "part-mcq-03",
-        "part-mcq-07",
-        "part-mcq-02"
+        "part-mcq-08"
       ],
       "explanation": "本句的「parted」指「原本在一起的人或物分離、分開或向不同方向移動」。",
       "sentenceIndex": 14,
@@ -710,12 +644,10 @@ export default {
         "parted"
       ],
       "optionReasons": {
-        "part-mcq-05": "本句指「原本在一起的人或物分離、分開或向不同方向移動」。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-02": "「某人或某事物在事件、活動或結果中所起的作用、角色或貢獻」與本句語境不同。"
+        "part-mcq-05": "本句的「parted」指「原本在一起的人或物分離、分開或向不同方向移動」。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-05"
     },
@@ -727,11 +659,9 @@ export default {
       "masked": "The delay was ____ caused by bad weather.",
       "options": [
         "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-07",
         "part-mcq-04",
-        "part-mcq-08",
-        "part-mcq-03"
+        "part-mcq-03",
+        "part-pdf-001"
       ],
       "explanation": "本句的「partly」指「只有一部分；某種程度上但並非完全」。",
       "sentenceIndex": 17,
@@ -740,12 +670,10 @@ export default {
         "partly"
       ],
       "optionReasons": {
-        "part-mcq-06": "本句指「只有一部分；某種程度上但並非完全」。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。"
+        "part-mcq-06": "本句的「partly」指「只有一部分；某種程度上但並非完全」。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-06"
     },
@@ -757,11 +685,7 @@ export default {
       "masked": "I agree with you ____, but not completely.",
       "options": [
         "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-07",
-        "part-mcq-04",
-        "part-mcq-08",
-        "part-mcq-03"
+        "part-mcq-02"
       ],
       "explanation": "本句的「partly」指「只有一部分；某種程度上但並非完全」。",
       "sentenceIndex": 18,
@@ -770,12 +694,8 @@ export default {
         "partly"
       ],
       "optionReasons": {
-        "part-mcq-06": "本句指「只有一部分；某種程度上但並非完全」。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。"
+        "part-mcq-06": "本句的「partly」指「只有一部分；某種程度上但並非完全」。",
+        "part-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-06"
     },
@@ -787,11 +707,9 @@ export default {
       "masked": "We only have ____ information.",
       "options": [
         "part-mcq-07",
-        "part-mcq-06",
-        "part-mcq-08",
-        "part-mcq-05",
-        "part-mcq-09",
-        "part-mcq-04"
+        "part-pdf-002",
+        "part-mcq-03",
+        "part-mcq-09"
       ],
       "explanation": "本句的「partial」指「只包括整體的一部分，而不是全部」。",
       "sentenceIndex": 19,
@@ -800,12 +718,10 @@ export default {
         "partial"
       ],
       "optionReasons": {
-        "part-mcq-07": "本句指「只包括整體的一部分，而不是全部」。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-09": "「參與某項活動；相關詞但應作獨立詞彙處理」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-07": "本句的「partial」指「只包括整體的一部分，而不是全部」。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-07"
     },
@@ -817,11 +733,9 @@ export default {
       "masked": "The road was reopened after a ____ repair.",
       "options": [
         "part-mcq-07",
-        "part-mcq-06",
-        "part-mcq-08",
-        "part-mcq-05",
-        "part-mcq-09",
-        "part-mcq-04"
+        "part-mcq-04",
+        "part-mcq-03",
+        "part-mcq-09"
       ],
       "explanation": "本句的「partial」指「只包括整體的一部分，而不是全部」。",
       "sentenceIndex": 20,
@@ -830,12 +744,10 @@ export default {
         "partial"
       ],
       "optionReasons": {
-        "part-mcq-07": "本句指「只包括整體的一部分，而不是全部」。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-09": "「參與某項活動；相關詞但應作獨立詞彙處理」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-07": "本句的「partial」指「只包括整體的一部分，而不是全部」。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-07"
     },
@@ -847,11 +759,9 @@ export default {
       "masked": "A judge must not be ____.",
       "options": [
         "part-mcq-08",
-        "part-mcq-07",
-        "part-mcq-09",
-        "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-04"
+        "part-mcq-04",
+        "part-mcq-03",
+        "part-pdf-001"
       ],
       "explanation": "本句的「partial」指「對某一方有偏好，因此不能完全公平中立」。",
       "sentenceIndex": 21,
@@ -860,12 +770,10 @@ export default {
         "partial"
       ],
       "optionReasons": {
-        "part-mcq-08": "本句指「對某一方有偏好，因此不能完全公平中立」。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-09": "「參與某項活動；相關詞但應作獨立詞彙處理」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-08": "本句的「partial」指「對某一方有偏好，因此不能完全公平中立」。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-08"
     },
@@ -877,11 +785,9 @@ export default {
       "masked": "The report was criticized for being ____.",
       "options": [
         "part-mcq-08",
-        "part-mcq-07",
-        "part-mcq-09",
-        "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-04"
+        "part-mcq-03",
+        "part-pdf-002",
+        "part-mcq-05"
       ],
       "explanation": "本句的「partial」指「對某一方有偏好，因此不能完全公平中立」。",
       "sentenceIndex": 22,
@@ -890,12 +796,10 @@ export default {
         "partial"
       ],
       "optionReasons": {
-        "part-mcq-08": "本句指「對某一方有偏好，因此不能完全公平中立」。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-09": "「參與某項活動；相關詞但應作獨立詞彙處理」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-08": "本句的「partial」指「對某一方有偏好，因此不能完全公平中立」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-08"
     },
@@ -907,11 +811,7 @@ export default {
       "masked": "The building was ____ damaged.",
       "options": [
         "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-07",
-        "part-mcq-04",
-        "part-mcq-08",
-        "part-mcq-03"
+        "part-mcq-02"
       ],
       "explanation": "本句的「partially」指「只有一部分；某種程度上但並非完全」。",
       "sentenceIndex": 23,
@@ -920,12 +820,8 @@ export default {
         "partially"
       ],
       "optionReasons": {
-        "part-mcq-06": "本句指「只有一部分；某種程度上但並非完全」。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。"
+        "part-mcq-06": "本句的「partially」指「只有一部分；某種程度上但並非完全」。",
+        "part-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-06"
     },
@@ -937,11 +833,9 @@ export default {
       "masked": "I only ____ understood the explanation.",
       "options": [
         "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-07",
+        "part-mcq-03",
         "part-mcq-04",
-        "part-mcq-08",
-        "part-mcq-03"
+        "part-mcq-05"
       ],
       "explanation": "本句的「partially」指「只有一部分；某種程度上但並非完全」。",
       "sentenceIndex": 24,
@@ -950,12 +844,10 @@ export default {
         "partially"
       ],
       "optionReasons": {
-        "part-mcq-06": "本句指「只有一部分；某種程度上但並非完全」。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-03": "「演員在戲劇、電影或表演中扮演的角色；與 role 義相關」與本句語境不同。"
+        "part-mcq-06": "本句的「partially」指「只有一部分；某種程度上但並非完全」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-06"
     },
@@ -967,11 +859,9 @@ export default {
       "masked": "Many students ____ in the competition.",
       "options": [
         "part-mcq-09",
-        "part-mcq-08",
-        "part-mcq-07",
-        "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-04"
+        "part-pdf-002",
+        "part-mcq-03",
+        "part-pdf-001"
       ],
       "explanation": "本句的「participated」指「參與某項活動；相關詞但應作獨立詞彙處理」。",
       "sentenceIndex": 25,
@@ -980,12 +870,10 @@ export default {
         "participated"
       ],
       "optionReasons": {
-        "part-mcq-09": "本句指「參與某項活動；相關詞但應作獨立詞彙處理」。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-09": "本句的「participated」指「參與某項活動；相關詞但應作獨立詞彙處理」。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-09"
     },
@@ -997,11 +885,9 @@ export default {
       "masked": "Everyone is encouraged to ____.",
       "options": [
         "part-mcq-09",
-        "part-mcq-08",
-        "part-mcq-07",
-        "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-04"
+        "part-mcq-03",
+        "part-mcq-01",
+        "part-pdf-002"
       ],
       "explanation": "本句的「participate」指「參與某項活動；相關詞但應作獨立詞彙處理」。",
       "sentenceIndex": 26,
@@ -1010,12 +896,10 @@ export default {
         "participate"
       ],
       "optionReasons": {
-        "part-mcq-09": "本句指「參與某項活動；相關詞但應作獨立詞彙處理」。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-09": "本句的「participate」指「參與某項活動；相關詞但應作獨立詞彙處理」。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-09"
     },
@@ -1027,11 +911,9 @@ export default {
       "masked": "Each ____ received a certificate.",
       "options": [
         "part-mcq-09",
-        "part-mcq-08",
-        "part-mcq-07",
-        "part-mcq-06",
-        "part-mcq-05",
-        "part-mcq-04"
+        "part-pdf-001",
+        "part-pdf-002",
+        "part-mcq-03"
       ],
       "explanation": "本句的「participant」指「參與某項活動；相關詞但應作獨立詞彙處理」。",
       "sentenceIndex": 27,
@@ -1040,12 +922,10 @@ export default {
         "participant"
       ],
       "optionReasons": {
-        "part-mcq-09": "本句指「參與某項活動；相關詞但應作獨立詞彙處理」。",
-        "part-mcq-08": "「對某一方有偏好，因此不能完全公平中立」與本句語境不同。",
-        "part-mcq-07": "「只包括整體的一部分，而不是全部」與本句語境不同。",
-        "part-mcq-06": "「只有一部分；某種程度上但並非完全」與本句語境不同。",
-        "part-mcq-05": "「原本在一起的人或物分離、分開或向不同方向移動」與本句語境不同。",
-        "part-mcq-04": "「某人應得、承擔、負責或貢獻的一份」與本句語境不同。"
+        "part-mcq-09": "本句的「participant」指「參與某項活動；相關詞但應作獨立詞彙處理」。",
+        "part-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "part-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "part-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "part-mcq-09"
     }
@@ -1057,5 +937,7 @@ export default {
     "sha256": "f2113db80f85f8d673dab8930e6bcf7bddd6e46ddf37499db66d5a0b4ef9be09",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

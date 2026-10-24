@@ -410,11 +410,6 @@ export default {
           "Because I was tired” is a dependent clause.",
           "Because I was tired 是一個從屬子句。",
           "文法上不能獨立構成完整句意、需依附其他子句的從屬子句"
-        ],
-        [
-          "The noun acts as the head, and the modifier as its dependent.",
-          "名詞充當核心，而修飾語則是它的依存成分。",
-          "文法上不能獨立構成完整句意、需依附其他子句的從屬子句"
         ]
       ],
       "options": [],
@@ -635,6 +630,23 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "dependence-reviewed-bb4115b24a",
+      "title": "依存成分",
+      "form": "dependence · source section 61",
+      "en": "依存成分",
+      "zh": "依存成分",
+      "note": "對照原始教材第 61 節及例句核實。",
+      "examples": [
+        [
+          "The noun acts as the head, and the modifier as its dependent.",
+          "名詞充當核心，而修飾語則是它的依存成分。",
+          "依存成分"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -646,11 +658,9 @@ export default {
       "masked": "The village’s ____ outside supplies increased.",
       "options": [
         "dependence-mcq-01",
-        "dependence-mcq-02",
-        "dependence-mcq-03",
-        "dependence-mcq-04",
-        "dependence-mcq-05",
-        "dependence-mcq-06"
+        "dependence-mcq-33",
+        "dependence-mcq-12",
+        "dependence-mcq-22"
       ],
       "explanation": "本句的「dependence on」指「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」。",
       "sentenceIndex": 0,
@@ -659,12 +669,10 @@ export default {
         "dependence on"
       ],
       "optionReasons": {
-        "dependence-mcq-01": "本句指「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」。",
-        "dependence-mcq-02": "「需要依靠他人的關注、肯定或支持來維持情緒穩定／安全感的狀態」與本句語境不同。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。"
+        "dependence-mcq-01": "本句的「dependence on」指「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-01"
     },
@@ -676,11 +684,9 @@ export default {
       "masked": "Too much ____ on one person can create problems.",
       "options": [
         "dependence-mcq-01",
-        "dependence-mcq-02",
-        "dependence-mcq-03",
-        "dependence-mcq-04",
-        "dependence-mcq-05",
-        "dependence-mcq-06"
+        "dependence-mcq-32",
+        "dependence-mcq-33",
+        "dependence-mcq-22"
       ],
       "explanation": "本句的「dependence」指「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」。",
       "sentenceIndex": 1,
@@ -689,12 +695,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-01": "本句指「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」。",
-        "dependence-mcq-02": "「需要依靠他人的關注、肯定或支持來維持情緒穩定／安全感的狀態」與本句語境不同。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。"
+        "dependence-mcq-01": "本句的「dependence」指「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-01"
     },
@@ -706,11 +710,9 @@ export default {
       "masked": "Long-term misuse can lead to ____.",
       "options": [
         "dependence-mcq-04",
-        "dependence-mcq-03",
-        "dependence-mcq-05",
-        "dependence-mcq-02",
-        "dependence-mcq-06",
-        "dependence-mcq-01"
+        "dependence-mcq-16",
+        "dependence-pdf-001",
+        "dependence-mcq-22"
       ],
       "explanation": "本句的「drug dependence」指「身體或心理對某物質形成持續依賴的狀態」。",
       "sentenceIndex": 15,
@@ -719,12 +721,10 @@ export default {
         "drug dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-04": "本句指「身體或心理對某物質形成持續依賴的狀態」。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-02": "「需要依靠他人的關注、肯定或支持來維持情緒穩定／安全感的狀態」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-01": "「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」與本句語境不同。"
+        "dependence-mcq-04": "本句的「drug dependence」指「身體或心理對某物質形成持續依賴的狀態」。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-04"
     },
@@ -736,11 +736,9 @@ export default {
       "masked": "The treatment aims to reduce ____ on the substance.",
       "options": [
         "dependence-mcq-04",
-        "dependence-mcq-03",
-        "dependence-mcq-05",
-        "dependence-mcq-02",
-        "dependence-mcq-06",
-        "dependence-mcq-01"
+        "dependence-mcq-33",
+        "dependence-mcq-22",
+        "dependence-mcq-20"
       ],
       "explanation": "本句的「dependence」指「身體或心理對某物質形成持續依賴的狀態」。",
       "sentenceIndex": 16,
@@ -749,12 +747,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-04": "本句指「身體或心理對某物質形成持續依賴的狀態」。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-02": "「需要依靠他人的關注、肯定或支持來維持情緒穩定／安全感的狀態」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-01": "「需要依靠另一人／物／系統才能得到支援、資源或正常運作的狀態」與本句語境不同。"
+        "dependence-mcq-04": "本句的「dependence」指「身體或心理對某物質形成持續依賴的狀態」。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-04"
     },
@@ -766,11 +762,9 @@ export default {
       "masked": "The body can develop ____ on some medicines.",
       "options": [
         "dependence-mcq-05",
-        "dependence-mcq-04",
-        "dependence-mcq-06",
-        "dependence-mcq-03",
-        "dependence-mcq-07",
-        "dependence-mcq-02"
+        "dependence-mcq-20",
+        "dependence-mcq-24",
+        "dependence-mcq-33"
       ],
       "explanation": "本句的「physical dependence」指「身體適應物質後，停止使用可能產生戒斷反應的狀態」。",
       "sentenceIndex": 21,
@@ -779,12 +773,10 @@ export default {
         "physical dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-05": "本句指「身體適應物質後，停止使用可能產生戒斷反應的狀態」。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-02": "「需要依靠他人的關注、肯定或支持來維持情緒穩定／安全感的狀態」與本句語境不同。"
+        "dependence-mcq-05": "本句的「physical dependence」指「身體適應物質後，停止使用可能產生戒斷反應的狀態」。",
+        "dependence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-05"
     },
@@ -796,11 +788,9 @@ export default {
       "masked": "Physical ____ may cause withdrawal symptoms when use stops.",
       "options": [
         "dependence-mcq-05",
-        "dependence-mcq-04",
-        "dependence-mcq-06",
-        "dependence-mcq-03",
-        "dependence-mcq-07",
-        "dependence-mcq-02"
+        "dependence-mcq-15",
+        "dependence-mcq-24",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependence」指「身體適應物質後，停止使用可能產生戒斷反應的狀態」。",
       "sentenceIndex": 22,
@@ -809,12 +799,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-05": "本句指「身體適應物質後，停止使用可能產生戒斷反應的狀態」。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-02": "「需要依靠他人的關注、肯定或支持來維持情緒穩定／安全感的狀態」與本句語境不同。"
+        "dependence-mcq-05": "本句的「dependence」指「身體適應物質後，停止使用可能產生戒斷反應的狀態」。",
+        "dependence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-05"
     },
@@ -826,11 +814,9 @@ export default {
       "masked": "She wanted to reduce her ____ on her parents.",
       "options": [
         "dependence-mcq-06",
-        "dependence-mcq-05",
-        "dependence-mcq-07",
-        "dependence-mcq-04",
-        "dependence-mcq-08",
-        "dependence-mcq-03"
+        "dependence-mcq-14",
+        "dependence-mcq-32",
+        "dependence-mcq-22"
       ],
       "explanation": "本句的「financial dependence」指「生活所需金錢主要依靠另一人／機構提供的狀態」。",
       "sentenceIndex": 25,
@@ -839,12 +825,10 @@ export default {
         "financial dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-06": "本句指「生活所需金錢主要依靠另一人／機構提供的狀態」。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。",
-        "dependence-mcq-08": "「企業對某一／少數供應商的持續依賴」與本句語境不同。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。"
+        "dependence-mcq-06": "本句的「financial dependence」指「生活所需金錢主要依靠另一人／機構提供的狀態」。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-06"
     },
@@ -856,11 +840,9 @@ export default {
       "masked": "Financial ____ can limit personal choices.",
       "options": [
         "dependence-mcq-06",
-        "dependence-mcq-05",
-        "dependence-mcq-07",
-        "dependence-mcq-04",
-        "dependence-mcq-08",
-        "dependence-mcq-03"
+        "dependence-mcq-22",
+        "dependence-mcq-14",
+        "dependence-mcq-32"
       ],
       "explanation": "本句的「dependence」指「生活所需金錢主要依靠另一人／機構提供的狀態」。",
       "sentenceIndex": 26,
@@ -869,12 +851,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-06": "本句指「生活所需金錢主要依靠另一人／機構提供的狀態」。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。",
-        "dependence-mcq-08": "「企業對某一／少數供應商的持續依賴」與本句語境不同。",
-        "dependence-mcq-03": "「對某活動形成持續需要，難以輕易停止或減少的狀態」與本句語境不同。"
+        "dependence-mcq-06": "本句的「dependence」指「生活所需金錢主要依靠另一人／機構提供的狀態」。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-06"
     },
@@ -886,11 +866,9 @@ export default {
       "masked": "The region’s ____ on tourism is significant.",
       "options": [
         "dependence-mcq-07",
-        "dependence-mcq-06",
-        "dependence-mcq-08",
-        "dependence-mcq-05",
-        "dependence-mcq-09",
-        "dependence-mcq-04"
+        "dependence-mcq-20",
+        "dependence-mcq-22",
+        "dependence-mcq-16"
       ],
       "explanation": "本句的「economic dependence」指「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」。",
       "sentenceIndex": 28,
@@ -899,12 +877,10 @@ export default {
         "economic dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-07": "本句指「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-08": "「企業對某一／少數供應商的持續依賴」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-09": "「需要某人／某物提供支援或資源」與本句語境不同。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。"
+        "dependence-mcq-07": "本句的「economic dependence」指「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」。",
+        "dependence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-07"
     },
@@ -916,11 +892,9 @@ export default {
       "masked": "Economic ____ on one industry creates risk.",
       "options": [
         "dependence-mcq-07",
-        "dependence-mcq-06",
-        "dependence-mcq-08",
-        "dependence-mcq-05",
-        "dependence-mcq-09",
-        "dependence-mcq-04"
+        "dependence-mcq-16",
+        "dependence-mcq-19",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependence」指「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」。",
       "sentenceIndex": 29,
@@ -929,12 +903,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-07": "本句指「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-08": "「企業對某一／少數供應商的持續依賴」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。",
-        "dependence-mcq-09": "「需要某人／某物提供支援或資源」與本句語境不同。",
-        "dependence-mcq-04": "「身體或心理對某物質形成持續依賴的狀態」與本句語境不同。"
+        "dependence-mcq-07": "本句的「dependence」指「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-07"
     },
@@ -946,11 +918,9 @@ export default {
       "masked": "Supplier ____ is a major supply-chain risk.",
       "options": [
         "dependence-mcq-08",
-        "dependence-mcq-07",
-        "dependence-mcq-09",
-        "dependence-mcq-06",
-        "dependence-mcq-10",
-        "dependence-mcq-05"
+        "dependence-mcq-16",
+        "dependence-mcq-20",
+        "dependence-mcq-22"
       ],
       "explanation": "本句的「dependence」指「企業對某一／少數供應商的持續依賴」。",
       "sentenceIndex": 36,
@@ -959,12 +929,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-08": "本句指「企業對某一／少數供應商的持續依賴」。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-09": "「需要某人／某物提供支援或資源」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-10": "「某結果隨另一條件而改變；取決於」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。"
+        "dependence-mcq-08": "本句的「dependence」指「企業對某一／少數供應商的持續依賴」。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-08"
     },
@@ -976,11 +944,9 @@ export default {
       "masked": "Diversification can reduce supplier ____.",
       "options": [
         "dependence-mcq-08",
-        "dependence-mcq-07",
-        "dependence-mcq-09",
-        "dependence-mcq-06",
-        "dependence-mcq-10",
-        "dependence-mcq-05"
+        "dependence-mcq-25",
+        "dependence-mcq-16",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependence」指「企業對某一／少數供應商的持續依賴」。",
       "sentenceIndex": 37,
@@ -989,12 +955,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-08": "本句指「企業對某一／少數供應商的持續依賴」。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-09": "「需要某人／某物提供支援或資源」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。",
-        "dependence-mcq-10": "「某結果隨另一條件而改變；取決於」與本句語境不同。",
-        "dependence-mcq-05": "「身體適應物質後，停止使用可能產生戒斷反應的狀態」與本句語境不同。"
+        "dependence-mcq-08": "本句的「dependence」指「企業對某一／少數供應商的持續依賴」。",
+        "dependence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-08"
     },
@@ -1006,11 +970,9 @@ export default {
       "masked": "The result ____ the weather.",
       "options": [
         "dependence-mcq-09",
-        "dependence-mcq-08",
-        "dependence-mcq-10",
-        "dependence-mcq-07",
-        "dependence-mcq-11",
-        "dependence-mcq-06"
+        "dependence-mcq-04",
+        "dependence-mcq-21",
+        "dependence-mcq-16"
       ],
       "explanation": "本句的「depends on」指「需要某人／某物提供支援或資源」。",
       "sentenceIndex": 46,
@@ -1019,12 +981,10 @@ export default {
         "depends on"
       ],
       "optionReasons": {
-        "dependence-mcq-09": "本句指「需要某人／某物提供支援或資源」。",
-        "dependence-mcq-08": "「企業對某一／少數供應商的持續依賴」與本句語境不同。",
-        "dependence-mcq-10": "「某結果隨另一條件而改變；取決於」與本句語境不同。",
-        "dependence-mcq-07": "「國家／地區／企業高度依靠某產業、市場或外部來源的狀態」與本句語境不同。",
-        "dependence-mcq-11": "「沒有固定答案，要視具體條件而定」與本句語境不同。",
-        "dependence-mcq-06": "「生活所需金錢主要依靠另一人／機構提供的狀態」與本句語境不同。"
+        "dependence-mcq-09": "本句的「depends on」指「需要某人／某物提供支援或資源」。",
+        "dependence-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-09"
     },
@@ -1036,11 +996,9 @@ export default {
       "masked": "You can ____.",
       "options": [
         "dependence-mcq-12",
-        "dependence-mcq-11",
-        "dependence-mcq-13",
-        "dependence-mcq-10",
-        "dependence-mcq-14",
-        "dependence-mcq-09"
+        "dependence-mcq-01",
+        "dependence-mcq-22",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「depend on me」指「信賴／指望某人完成某事」。",
       "sentenceIndex": 49,
@@ -1049,12 +1007,10 @@ export default {
         "depend on me"
       ],
       "optionReasons": {
-        "dependence-mcq-12": "本句指「信賴／指望某人完成某事」。",
-        "dependence-mcq-11": "「沒有固定答案，要視具體條件而定」與本句語境不同。",
-        "dependence-mcq-13": "「需要依靠……才能正常生活／運作的」與本句語境不同。",
-        "dependence-mcq-10": "「某結果隨另一條件而改變；取決於」與本句語境不同。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。",
-        "dependence-mcq-09": "「需要某人／某物提供支援或資源」與本句語境不同。"
+        "dependence-mcq-12": "本句的「depend on me」指「信賴／指望某人完成某事」。",
+        "dependence-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-12"
     },
@@ -1066,11 +1022,9 @@ export default {
       "masked": "The price is ____ demand.",
       "options": [
         "dependence-mcq-14",
-        "dependence-mcq-13",
-        "dependence-mcq-15",
-        "dependence-mcq-12",
-        "dependence-mcq-16",
-        "dependence-mcq-11"
+        "dependence-mcq-27",
+        "dependence-mcq-24",
+        "dependence-mcq-33"
       ],
       "explanation": "本句的「dependent on」指「結果由某因素決定或隨它改變的」。",
       "sentenceIndex": 53,
@@ -1079,12 +1033,10 @@ export default {
         "dependent on"
       ],
       "optionReasons": {
-        "dependence-mcq-14": "本句指「結果由某因素決定或隨它改變的」。",
-        "dependence-mcq-13": "「需要依靠……才能正常生活／運作的」與本句語境不同。",
-        "dependence-mcq-15": "「在經濟上由另一人供養的人」與本句語境不同。",
-        "dependence-mcq-12": "「信賴／指望某人完成某事」與本句語境不同。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。",
-        "dependence-mcq-11": "「沒有固定答案，要視具體條件而定」與本句語境不同。"
+        "dependence-mcq-14": "本句的「dependent on」指「結果由某因素決定或隨它改變的」。",
+        "dependence-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-14"
     },
@@ -1096,11 +1048,9 @@ export default {
       "masked": "She has two ____.",
       "options": [
         "dependence-mcq-15",
-        "dependence-mcq-14",
-        "dependence-mcq-16",
-        "dependence-mcq-13",
-        "dependence-mcq-17",
-        "dependence-mcq-12"
+        "dependence-mcq-24",
+        "dependence-mcq-12",
+        "dependence-mcq-07"
       ],
       "explanation": "本句的「dependents」指「在經濟上由另一人供養的人」。",
       "sentenceIndex": 54,
@@ -1109,12 +1059,10 @@ export default {
         "dependents"
       ],
       "optionReasons": {
-        "dependence-mcq-15": "本句指「在經濟上由另一人供養的人」。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。",
-        "dependence-mcq-13": "「需要依靠……才能正常生活／運作的」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
-        "dependence-mcq-12": "「信賴／指望某人完成某事」與本句語境不同。"
+        "dependence-mcq-15": "本句的「dependents」指「在經濟上由另一人供養的人」。",
+        "dependence-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-15"
     },
@@ -1126,11 +1074,9 @@ export default {
       "masked": "The benefit covers employees and their ____.",
       "options": [
         "dependence-mcq-16",
-        "dependence-mcq-15",
+        "dependence-mcq-05",
         "dependence-mcq-17",
-        "dependence-mcq-14",
-        "dependence-mcq-18",
-        "dependence-mcq-13"
+        "dependence-mcq-29"
       ],
       "explanation": "本句的「dependants」指「英式英語中常見的「受養人」拼法」。",
       "sentenceIndex": 55,
@@ -1139,12 +1085,10 @@ export default {
         "dependants"
       ],
       "optionReasons": {
-        "dependence-mcq-16": "本句指「英式英語中常見的「受養人」拼法」。",
-        "dependence-mcq-15": "「在經濟上由另一人供養的人」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-13": "「需要依靠……才能正常生活／運作的」與本句語境不同。"
+        "dependence-mcq-16": "本句的「dependants」指「英式英語中常見的「受養人」拼法」。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-16"
     },
@@ -1157,10 +1101,8 @@ export default {
       "options": [
         "dependence-mcq-17",
         "dependence-mcq-16",
-        "dependence-mcq-18",
-        "dependence-mcq-15",
-        "dependence-mcq-19",
-        "dependence-mcq-14"
+        "dependence-mcq-05",
+        "dependence-mcq-32"
       ],
       "explanation": "本句的「dependency」指「一個人／系統／任務對另一項事物的依賴關係」。",
       "sentenceIndex": 58,
@@ -1169,12 +1111,10 @@ export default {
         "dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-17": "本句指「一個人／系統／任務對另一項事物的依賴關係」。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-15": "「在經濟上由另一人供養的人」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。"
+        "dependence-mcq-17": "本句的「dependency」指「一個人／系統／任務對另一項事物的依賴關係」。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-17"
     },
@@ -1187,9 +1127,7 @@ export default {
       "options": [
         "dependence-mcq-17",
         "dependence-mcq-16",
-        "dependence-mcq-18",
-        "dependence-mcq-15",
-        "dependence-mcq-19",
+        "dependence-mcq-32",
         "dependence-mcq-14"
       ],
       "explanation": "本句的「dependencies」指「一個人／系統／任務對另一項事物的依賴關係」。",
@@ -1199,12 +1137,10 @@ export default {
         "dependencies"
       ],
       "optionReasons": {
-        "dependence-mcq-17": "本句指「一個人／系統／任務對另一項事物的依賴關係」。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-15": "「在經濟上由另一人供養的人」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。"
+        "dependence-mcq-17": "本句的「dependencies」指「一個人／系統／任務對另一項事物的依賴關係」。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-17"
     },
@@ -1216,11 +1152,9 @@ export default {
       "masked": "The application has several external ____.",
       "options": [
         "dependence-pdf-001",
-        "dependence-mcq-18",
-        "dependence-mcq-20",
-        "dependence-mcq-17",
-        "dependence-mcq-21",
-        "dependence-mcq-16"
+        "dependence-mcq-32",
+        "dependence-mcq-05",
+        "dependence-mcq-33"
       ],
       "explanation": "本句的「dependencies」指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
       "sentenceIndex": 60,
@@ -1229,12 +1163,10 @@ export default {
         "dependencies"
       ],
       "optionReasons": {
-        "dependence-pdf-001": "本句指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。"
+        "dependence-pdf-001": "本句的「dependencies」指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-pdf-001"
     },
@@ -1246,11 +1178,9 @@ export default {
       "masked": "Install the required ____ first.",
       "options": [
         "dependence-pdf-001",
-        "dependence-mcq-18",
-        "dependence-mcq-20",
-        "dependence-mcq-17",
-        "dependence-mcq-21",
-        "dependence-mcq-16"
+        "dependence-reviewed-bb4115b24a",
+        "dependence-mcq-26",
+        "dependence-mcq-32"
       ],
       "explanation": "本句的「dependencies」指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
       "sentenceIndex": 61,
@@ -1259,12 +1189,10 @@ export default {
         "dependencies"
       ],
       "optionReasons": {
-        "dependence-pdf-001": "本句指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。"
+        "dependence-pdf-001": "本句的「dependencies」指「一個程式正常執行所需要的另一套程式、函式庫、套件或元件」。",
+        "dependence-reviewed-bb4115b24a": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-pdf-001"
     },
@@ -1277,10 +1205,8 @@ export default {
       "options": [
         "dependence-mcq-17",
         "dependence-mcq-16",
-        "dependence-mcq-18",
-        "dependence-mcq-15",
-        "dependence-mcq-19",
-        "dependence-mcq-14"
+        "dependence-mcq-32",
+        "dependence-mcq-05"
       ],
       "explanation": "本句的「dependencies」指「一個人／系統／任務對另一項事物的依賴關係」。",
       "sentenceIndex": 68,
@@ -1289,12 +1215,10 @@ export default {
         "dependencies"
       ],
       "optionReasons": {
-        "dependence-mcq-17": "本句指「一個人／系統／任務對另一項事物的依賴關係」。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-15": "「在經濟上由另一人供養的人」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。"
+        "dependence-mcq-17": "本句的「dependencies」指「一個人／系統／任務對另一項事物的依賴關係」。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-17"
     },
@@ -1306,11 +1230,9 @@ export default {
       "masked": "Testing cannot begin until development finishes because of this ____.",
       "options": [
         "dependence-mcq-17",
+        "dependence-mcq-05",
         "dependence-mcq-16",
-        "dependence-mcq-18",
-        "dependence-mcq-15",
-        "dependence-mcq-19",
-        "dependence-mcq-14"
+        "dependence-mcq-32"
       ],
       "explanation": "本句的「dependency」指「一個人／系統／任務對另一項事物的依賴關係」。",
       "sentenceIndex": 69,
@@ -1319,12 +1241,10 @@ export default {
         "dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-17": "本句指「一個人／系統／任務對另一項事物的依賴關係」。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-15": "「在經濟上由另一人供養的人」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-14": "「結果由某因素決定或隨它改變的」與本句語境不同。"
+        "dependence-mcq-17": "本句的「dependency」指「一個人／系統／任務對另一項事物的依賴關係」。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-17"
     },
@@ -1336,11 +1256,9 @@ export default {
       "masked": "The schedule shows all ____.",
       "options": [
         "dependence-mcq-19",
-        "dependence-mcq-18",
-        "dependence-mcq-20",
-        "dependence-mcq-17",
-        "dependence-mcq-21",
-        "dependence-mcq-16"
+        "dependence-mcq-32",
+        "dependence-mcq-14",
+        "dependence-mcq-29"
       ],
       "explanation": "本句的「task dependencies」指「一項任務的開始／完成受另一任務影響的關係」。",
       "sentenceIndex": 70,
@@ -1349,12 +1267,10 @@ export default {
         "task dependencies"
       ],
       "optionReasons": {
-        "dependence-mcq-19": "本句指「一項任務的開始／完成受另一任務影響的關係」。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。"
+        "dependence-mcq-19": "本句的「task dependencies」指「一項任務的開始／完成受另一任務影響的關係」。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-19"
     },
@@ -1366,11 +1282,9 @@ export default {
       "masked": "Removing a task ____ may shorten the schedule.",
       "options": [
         "dependence-mcq-19",
-        "dependence-mcq-18",
-        "dependence-mcq-20",
-        "dependence-mcq-17",
-        "dependence-mcq-21",
-        "dependence-mcq-16"
+        "dependence-mcq-26",
+        "dependence-mcq-32",
+        "dependence-mcq-09"
       ],
       "explanation": "本句的「dependency」指「一項任務的開始／完成受另一任務影響的關係」。",
       "sentenceIndex": 71,
@@ -1379,12 +1293,10 @@ export default {
         "dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-19": "本句指「一項任務的開始／完成受另一任務影響的關係」。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-16": "「英式英語中常見的「受養人」拼法」與本句語境不同。"
+        "dependence-mcq-19": "本句的「dependency」指「一項任務的開始／完成受另一任務影響的關係」。",
+        "dependence-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-19"
     },
@@ -1396,11 +1308,9 @@ export default {
       "masked": "Reaction time was the ____.",
       "options": [
         "dependence-mcq-20",
-        "dependence-mcq-19",
-        "dependence-mcq-21",
-        "dependence-mcq-18",
-        "dependence-mcq-22",
-        "dependence-mcq-17"
+        "dependence-mcq-09",
+        "dependence-mcq-32",
+        "dependence-mcq-26"
       ],
       "explanation": "本句的「dependent variable」指「在模型／實驗中被視為受另一變量影響的結果變量」。",
       "sentenceIndex": 75,
@@ -1409,12 +1319,10 @@ export default {
         "dependent variable"
       ],
       "optionReasons": {
-        "dependence-mcq-20": "本句指「在模型／實驗中被視為受另一變量影響的結果變量」。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-17": "「一個人／系統／任務對另一項事物的依賴關係」與本句語境不同。"
+        "dependence-mcq-20": "本句的「dependent variable」指「在模型／實驗中被視為受另一變量影響的結果變量」。",
+        "dependence-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-20"
     },
@@ -1426,11 +1334,9 @@ export default {
       "masked": "The variables show statistical ____.",
       "options": [
         "dependence-mcq-21",
-        "dependence-mcq-20",
-        "dependence-mcq-22",
-        "dependence-mcq-19",
         "dependence-mcq-23",
-        "dependence-mcq-18"
+        "dependence-mcq-09",
+        "dependence-mcq-16"
       ],
       "explanation": "本句的「dependence」指「一個變量的機率分布會隨另一變量改變的關係」。",
       "sentenceIndex": 77,
@@ -1439,12 +1345,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-21": "本句指「一個變量的機率分布會隨另一變量改變的關係」。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。"
+        "dependence-mcq-21": "本句的「dependence」指「一個變量的機率分布會隨另一變量改變的關係」。",
+        "dependence-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-21"
     },
@@ -1456,11 +1360,9 @@ export default {
       "masked": "____ between variables does not by itself prove causation.",
       "options": [
         "dependence-mcq-21",
-        "dependence-mcq-20",
-        "dependence-mcq-22",
-        "dependence-mcq-19",
-        "dependence-mcq-23",
-        "dependence-mcq-18"
+        "dependence-mcq-33",
+        "dependence-mcq-12",
+        "dependence-mcq-26"
       ],
       "explanation": "本句的「Dependence」指「一個變量的機率分布會隨另一變量改變的關係」。",
       "sentenceIndex": 78,
@@ -1469,12 +1371,10 @@ export default {
         "Dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-21": "本句指「一個變量的機率分布會隨另一變量改變的關係」。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-18": "「某程式正常運作所需要的其他套件、函式庫或元件」與本句語境不同。"
+        "dependence-mcq-21": "本句的「Dependence」指「一個變量的機率分布會隨另一變量改變的關係」。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-21"
     },
@@ -1486,11 +1386,9 @@ export default {
       "masked": "The test assumes ____ between observations.",
       "options": [
         "dependence-mcq-27",
-        "dependence-mcq-26",
-        "dependence-mcq-28",
-        "dependence-mcq-25",
-        "dependence-mcq-29",
-        "dependence-mcq-24"
+        "dependence-mcq-14",
+        "dependence-mcq-22",
+        "dependence-reviewed-bb4115b24a"
       ],
       "explanation": "本句的「independence」指「不需要依賴另一人／系統，或不受其控制的狀態」。",
       "sentenceIndex": 79,
@@ -1499,12 +1397,10 @@ export default {
         "independence"
       ],
       "optionReasons": {
-        "dependence-mcq-27": "本句指「不需要依賴另一人／系統，或不受其控制的狀態」。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。"
+        "dependence-mcq-27": "本句的「independence」指「不需要依賴另一人／系統，或不受其控制的狀態」。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-reviewed-bb4115b24a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-27"
     },
@@ -1516,11 +1412,9 @@ export default {
       "masked": "The vectors show ____.",
       "options": [
         "dependence-mcq-22",
-        "dependence-mcq-21",
-        "dependence-mcq-23",
-        "dependence-mcq-20",
-        "dependence-mcq-24",
-        "dependence-mcq-19"
+        "dependence-mcq-29",
+        "dependence-pdf-001",
+        "dependence-mcq-05"
       ],
       "explanation": "本句的「linear dependence」指「一個向量可由其他向量的線性組合表示的數學關係」。",
       "sentenceIndex": 80,
@@ -1529,12 +1423,10 @@ export default {
         "linear dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-22": "本句指「一個向量可由其他向量的線性組合表示的數學關係」。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。",
-        "dependence-mcq-19": "「一項任務的開始／完成受另一任務影響的關係」與本句語境不同。"
+        "dependence-mcq-22": "本句的「linear dependence」指「一個向量可由其他向量的線性組合表示的數學關係」。",
+        "dependence-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "dependence-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-22"
     },
@@ -1546,11 +1438,9 @@ export default {
       "masked": "Because I was tired” is a ____.",
       "options": [
         "dependence-mcq-23",
-        "dependence-mcq-22",
-        "dependence-mcq-24",
         "dependence-mcq-21",
-        "dependence-mcq-25",
-        "dependence-mcq-20"
+        "dependence-mcq-32",
+        "dependence-mcq-33"
       ],
       "explanation": "本句的「dependent clause」指「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」。",
       "sentenceIndex": 84,
@@ -1559,12 +1449,10 @@ export default {
         "dependent clause"
       ],
       "optionReasons": {
-        "dependence-mcq-23": "本句指「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。"
+        "dependence-mcq-23": "本句的「dependent clause」指「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」。",
+        "dependence-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-23"
     },
@@ -1576,11 +1464,9 @@ export default {
       "masked": "The course introduces ____.",
       "options": [
         "dependence-mcq-24",
-        "dependence-mcq-23",
-        "dependence-mcq-25",
-        "dependence-mcq-22",
-        "dependence-mcq-26",
-        "dependence-mcq-21"
+        "dependence-mcq-15",
+        "dependence-mcq-32",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependency grammar」指「以詞與詞之間核心—依存關係描述句法的理論」。",
       "sentenceIndex": 88,
@@ -1589,12 +1475,10 @@ export default {
         "dependency grammar"
       ],
       "optionReasons": {
-        "dependence-mcq-24": "本句指「以詞與詞之間核心—依存關係描述句法的理論」。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。"
+        "dependence-mcq-24": "本句的「dependency grammar」指「以詞與詞之間核心—依存關係描述句法的理論」。",
+        "dependence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-24"
     },
@@ -1606,11 +1490,9 @@ export default {
       "masked": "____ grammar focuses on links between heads and dependents.",
       "options": [
         "dependence-mcq-24",
-        "dependence-mcq-23",
-        "dependence-mcq-25",
-        "dependence-mcq-22",
-        "dependence-mcq-26",
-        "dependence-mcq-21"
+        "dependence-mcq-32",
+        "dependence-mcq-14",
+        "dependence-mcq-15"
       ],
       "explanation": "本句的「Dependency」指「以詞與詞之間核心—依存關係描述句法的理論」。",
       "sentenceIndex": 89,
@@ -1619,44 +1501,40 @@ export default {
         "Dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-24": "本句指「以詞與詞之間核心—依存關係描述句法的理論」。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。"
+        "dependence-mcq-24": "本句的「Dependency」指「以詞與詞之間核心—依存關係描述句法的理論」。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-24"
     },
     {
       "id": "dependence-61-0",
-      "sense": "dependence-mcq-23",
+      "sense": "dependence-reviewed-bb4115b24a",
       "en": "The noun acts as the head, and the modifier as its dependent.",
       "zh": "名詞充當核心，而修飾語則是它的依存成分。",
       "masked": "The noun acts as the head, and the modifier as its ____.",
       "options": [
-        "dependence-mcq-23",
-        "dependence-mcq-22",
-        "dependence-mcq-24",
-        "dependence-mcq-21",
-        "dependence-mcq-25",
-        "dependence-mcq-20"
+        "dependence-reviewed-bb4115b24a",
+        "dependence-mcq-14",
+        "dependence-mcq-16",
+        "dependence-pdf-001"
       ],
-      "explanation": "本句的「dependent」指「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」。",
+      "explanation": "對照完整句子：「名詞充當核心，而修飾語則是它的依存成分。」。這裡的「dependent」表示「依存成分」。",
       "sentenceIndex": 90,
       "sourcePractice": 61,
       "targets": [
         "dependent"
       ],
       "optionReasons": {
-        "dependence-mcq-23": "本句指「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。",
-        "dependence-mcq-21": "「一個變量的機率分布會隨另一變量改變的關係」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-20": "「在模型／實驗中被視為受另一變量影響的結果變量」與本句語境不同。"
+        "dependence-reviewed-bb4115b24a": "對照完整句子：「名詞充當核心，而修飾語則是它的依存成分。」。這裡的「dependent」表示「依存成分」。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "dependence-mcq-23"
+      "correctOption": "dependence-reviewed-bb4115b24a",
+      "previousCorrectOption": "dependence-mcq-23",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "dependence-63-0",
@@ -1666,11 +1544,9 @@ export default {
       "masked": "The island was historically administered as a ____.",
       "options": [
         "dependence-mcq-25",
-        "dependence-mcq-24",
         "dependence-mcq-26",
-        "dependence-mcq-23",
-        "dependence-mcq-27",
-        "dependence-mcq-22"
+        "dependence-reviewed-bb4115b24a",
+        "dependence-mcq-32"
       ],
       "explanation": "本句的「dependency」指「由另一國家管治而並非完全主權獨立的屬地」。",
       "sentenceIndex": 93,
@@ -1679,12 +1555,10 @@ export default {
         "dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-25": "本句指「由另一國家管治而並非完全主權獨立的屬地」。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。"
+        "dependence-mcq-25": "本句的「dependency」指「由另一國家管治而並非完全主權獨立的屬地」。",
+        "dependence-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dependence-reviewed-bb4115b24a": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-25"
     },
@@ -1696,11 +1570,9 @@ export default {
       "masked": "The term ____ may refer to a territory that is not fully sovereign.",
       "options": [
         "dependence-mcq-25",
-        "dependence-mcq-24",
-        "dependence-mcq-26",
-        "dependence-mcq-23",
-        "dependence-mcq-27",
-        "dependence-mcq-22"
+        "dependence-mcq-29",
+        "dependence-mcq-05",
+        "dependence-mcq-33"
       ],
       "explanation": "本句的「dependency」指「由另一國家管治而並非完全主權獨立的屬地」。",
       "sentenceIndex": 94,
@@ -1709,12 +1581,10 @@ export default {
         "dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-25": "本句指「由另一國家管治而並非完全主權獨立的屬地」。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。",
-        "dependence-mcq-22": "「一個向量可由其他向量的線性組合表示的數學關係」與本句語境不同。"
+        "dependence-mcq-25": "本句的「dependency」指「由另一國家管治而並非完全主權獨立的屬地」。",
+        "dependence-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-25"
     },
@@ -1726,11 +1596,9 @@ export default {
       "masked": "Modern economies are characterized by growing ____.",
       "options": [
         "dependence-mcq-26",
-        "dependence-mcq-25",
-        "dependence-mcq-27",
-        "dependence-mcq-24",
-        "dependence-mcq-28",
-        "dependence-mcq-23"
+        "dependence-pdf-001",
+        "dependence-mcq-14",
+        "dependence-mcq-33"
       ],
       "explanation": "本句的「interdependence」指「兩方或多方彼此互相依賴的狀態」。",
       "sentenceIndex": 95,
@@ -1739,12 +1607,10 @@ export default {
         "interdependence"
       ],
       "optionReasons": {
-        "dependence-mcq-26": "本句指「兩方或多方彼此互相依賴的狀態」。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。",
-        "dependence-mcq-23": "「文法上不能獨立構成完整句意、需依附其他子句的從屬子句」與本句語境不同。"
+        "dependence-mcq-26": "本句的「interdependence」指「兩方或多方彼此互相依賴的狀態」。",
+        "dependence-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-26"
     },
@@ -1756,11 +1622,9 @@ export default {
       "masked": "Living alone gave her greater ____.",
       "options": [
         "dependence-mcq-27",
-        "dependence-mcq-26",
-        "dependence-mcq-28",
-        "dependence-mcq-25",
-        "dependence-mcq-29",
-        "dependence-mcq-24"
+        "dependence-mcq-22",
+        "dependence-mcq-14",
+        "dependence-mcq-16"
       ],
       "explanation": "本句的「independence」指「不需要依賴另一人／系統，或不受其控制的狀態」。",
       "sentenceIndex": 97,
@@ -1769,12 +1633,10 @@ export default {
         "independence"
       ],
       "optionReasons": {
-        "dependence-mcq-27": "本句指「不需要依賴另一人／系統，或不受其控制的狀態」。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-24": "「以詞與詞之間核心—依存關係描述句法的理論」與本句語境不同。"
+        "dependence-mcq-27": "本句的「independence」指「不需要依賴另一人／系統，或不受其控制的狀態」。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-27"
     },
@@ -1786,11 +1648,9 @@ export default {
       "masked": "She became more ____ after leaving home.",
       "options": [
         "dependence-mcq-28",
-        "dependence-mcq-27",
-        "dependence-mcq-29",
-        "dependence-mcq-26",
-        "dependence-mcq-30",
-        "dependence-mcq-25"
+        "dependence-mcq-05",
+        "dependence-mcq-14",
+        "dependence-pdf-001"
       ],
       "explanation": "本句的「independent」指「能自主運作／不受他人控制或依賴的」。",
       "sentenceIndex": 99,
@@ -1799,12 +1659,10 @@ export default {
         "independent"
       ],
       "optionReasons": {
-        "dependence-mcq-28": "本句指「能自主運作／不受他人控制或依賴的」。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。"
+        "dependence-mcq-28": "本句的「independent」指「能自主運作／不受他人控制或依賴的」。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-28"
     },
@@ -1816,11 +1674,9 @@ export default {
       "masked": "An ____ examined the incident.",
       "options": [
         "dependence-mcq-28",
-        "dependence-mcq-27",
-        "dependence-mcq-29",
-        "dependence-mcq-26",
-        "dependence-mcq-30",
-        "dependence-mcq-25"
+        "dependence-mcq-15",
+        "dependence-mcq-14",
+        "dependence-mcq-05"
       ],
       "explanation": "本句的「independent review」指「能自主運作／不受他人控制或依賴的」。",
       "sentenceIndex": 101,
@@ -1829,12 +1685,10 @@ export default {
         "independent review"
       ],
       "optionReasons": {
-        "dependence-mcq-28": "本句指「能自主運作／不受他人控制或依賴的」。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-25": "「由另一國家管治而並非完全主權獨立的屬地」與本句語境不同。"
+        "dependence-mcq-28": "本句的「independent review」指「能自主運作／不受他人控制或依賴的」。",
+        "dependence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-28"
     },
@@ -1846,11 +1700,9 @@ export default {
       "masked": "She is extremely ____.",
       "options": [
         "dependence-mcq-29",
-        "dependence-mcq-28",
-        "dependence-mcq-30",
-        "dependence-mcq-27",
-        "dependence-mcq-31",
-        "dependence-mcq-26"
+        "dependence-mcq-19",
+        "dependence-mcq-16",
+        "dependence-mcq-32"
       ],
       "explanation": "本句的「dependable」指「可以放心依靠、值得信賴的」。",
       "sentenceIndex": 103,
@@ -1859,12 +1711,10 @@ export default {
         "dependable"
       ],
       "optionReasons": {
-        "dependence-mcq-29": "本句指「可以放心依靠、值得信賴的」。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。",
-        "dependence-mcq-31": "「關係中存在過度、不健康的相互情感／角色依賴」與本句語境不同。",
-        "dependence-mcq-26": "「兩方或多方彼此互相依賴的狀態」與本句語境不同。"
+        "dependence-mcq-29": "本句的「dependable」指「可以放心依靠、值得信賴的」。",
+        "dependence-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-29"
     },
@@ -1876,11 +1726,9 @@ export default {
       "masked": "The machine is known for its ____.",
       "options": [
         "dependence-mcq-30",
-        "dependence-mcq-29",
-        "dependence-mcq-31",
-        "dependence-mcq-28",
-        "dependence-mcq-32",
-        "dependence-mcq-27"
+        "dependence-mcq-15",
+        "dependence-mcq-16",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependability」指「某人／系統能持續可靠完成預期工作的程度」。",
       "sentenceIndex": 104,
@@ -1889,12 +1737,10 @@ export default {
         "dependability"
       ],
       "optionReasons": {
-        "dependence-mcq-30": "本句指「某人／系統能持續可靠完成預期工作的程度」。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-31": "「關係中存在過度、不健康的相互情感／角色依賴」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。",
-        "dependence-mcq-32": "「過去選擇持續限制或塑造現在及未來選擇的現象」與本句語境不同。",
-        "dependence-mcq-27": "「不需要依賴另一人／系統，或不受其控制的狀態」與本句語境不同。"
+        "dependence-mcq-30": "本句的「dependability」指「某人／系統能持續可靠完成預期工作的程度」。",
+        "dependence-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-30"
     },
@@ -1906,11 +1752,9 @@ export default {
       "masked": "Institutional change often shows ____.",
       "options": [
         "dependence-mcq-32",
-        "dependence-mcq-31",
-        "dependence-mcq-33",
-        "dependence-mcq-30",
-        "dependence-mcq-29",
-        "dependence-mcq-28"
+        "dependence-mcq-01",
+        "dependence-mcq-24",
+        "dependence-mcq-16"
       ],
       "explanation": "本句的「path dependence」指「過去選擇持續限制或塑造現在及未來選擇的現象」。",
       "sentenceIndex": 112,
@@ -1919,12 +1763,10 @@ export default {
         "path dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-32": "本句指「過去選擇持續限制或塑造現在及未來選擇的現象」。",
-        "dependence-mcq-31": "「關係中存在過度、不健康的相互情感／角色依賴」與本句語境不同。",
-        "dependence-mcq-33": "「受供養人口相對於工作年齡人口的比例」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。"
+        "dependence-mcq-32": "本句的「path dependence」指「過去選擇持續限制或塑造現在及未來選擇的現象」。",
+        "dependence-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-32"
     },
@@ -1936,11 +1778,9 @@ export default {
       "masked": "Past decisions can constrain future choices through path ____.",
       "options": [
         "dependence-mcq-32",
-        "dependence-mcq-31",
         "dependence-mcq-33",
-        "dependence-mcq-30",
-        "dependence-mcq-29",
-        "dependence-mcq-28"
+        "dependence-mcq-26",
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependence」指「過去選擇持續限制或塑造現在及未來選擇的現象」。",
       "sentenceIndex": 113,
@@ -1949,12 +1789,10 @@ export default {
         "dependence"
       ],
       "optionReasons": {
-        "dependence-mcq-32": "本句指「過去選擇持續限制或塑造現在及未來選擇的現象」。",
-        "dependence-mcq-31": "「關係中存在過度、不健康的相互情感／角色依賴」與本句語境不同。",
-        "dependence-mcq-33": "「受供養人口相對於工作年齡人口的比例」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。"
+        "dependence-mcq-32": "本句的「dependence」指「過去選擇持續限制或塑造現在及未來選擇的現象」。",
+        "dependence-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-32"
     },
@@ -1966,11 +1804,9 @@ export default {
       "masked": "An ageing population can raise the ____.",
       "options": [
         "dependence-mcq-33",
-        "dependence-mcq-32",
-        "dependence-mcq-31",
-        "dependence-mcq-30",
+        "dependence-mcq-25",
         "dependence-mcq-29",
-        "dependence-mcq-28"
+        "dependence-mcq-14"
       ],
       "explanation": "本句的「dependency ratio」指「受供養人口相對於工作年齡人口的比例」。",
       "sentenceIndex": 116,
@@ -1979,12 +1815,10 @@ export default {
         "dependency ratio"
       ],
       "optionReasons": {
-        "dependence-mcq-33": "本句指「受供養人口相對於工作年齡人口的比例」。",
-        "dependence-mcq-32": "「過去選擇持續限制或塑造現在及未來選擇的現象」與本句語境不同。",
-        "dependence-mcq-31": "「關係中存在過度、不健康的相互情感／角色依賴」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。"
+        "dependence-mcq-33": "本句的「dependency ratio」指「受供養人口相對於工作年齡人口的比例」。",
+        "dependence-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-33"
     },
@@ -1996,11 +1830,9 @@ export default {
       "masked": "The ____ ratio compares dependants with the working-age population.",
       "options": [
         "dependence-mcq-33",
-        "dependence-mcq-32",
-        "dependence-mcq-31",
-        "dependence-mcq-30",
-        "dependence-mcq-29",
-        "dependence-mcq-28"
+        "dependence-mcq-07",
+        "dependence-mcq-22",
+        "dependence-reviewed-bb4115b24a"
       ],
       "explanation": "本句的「dependency」指「受供養人口相對於工作年齡人口的比例」。",
       "sentenceIndex": 117,
@@ -2009,12 +1841,10 @@ export default {
         "dependency"
       ],
       "optionReasons": {
-        "dependence-mcq-33": "本句指「受供養人口相對於工作年齡人口的比例」。",
-        "dependence-mcq-32": "「過去選擇持續限制或塑造現在及未來選擇的現象」與本句語境不同。",
-        "dependence-mcq-31": "「關係中存在過度、不健康的相互情感／角色依賴」與本句語境不同。",
-        "dependence-mcq-30": "「某人／系統能持續可靠完成預期工作的程度」與本句語境不同。",
-        "dependence-mcq-29": "「可以放心依靠、值得信賴的」與本句語境不同。",
-        "dependence-mcq-28": "「能自主運作／不受他人控制或依賴的」與本句語境不同。"
+        "dependence-mcq-33": "本句的「dependency」指「受供養人口相對於工作年齡人口的比例」。",
+        "dependence-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "dependence-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "dependence-reviewed-bb4115b24a": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "dependence-mcq-33"
     }
@@ -2026,5 +1856,7 @@ export default {
     "sha256": "aae0eadc8b97149a18bd9c03a842bd4824f0e8a770f3e3c411af5198d1f8daf9",
     "pages": 53
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

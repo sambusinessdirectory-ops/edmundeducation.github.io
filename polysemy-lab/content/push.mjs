@@ -1022,16 +1022,6 @@ export default {
       "note": "來源詞義：擺布／欺負",
       "examples": [
         [
-          "She pushed her doubts aside and continued.",
-          "她把疑慮暫時拋諸腦後，繼續前進。",
-          "擺布／欺負"
-        ],
-        [
-          "Quieter members should not be pushed aside.",
-          "較安靜的成員不應被排擠／忽視。",
-          "擺布／欺負"
-        ],
-        [
           "Don't let people push you around.",
           "不要讓別人擺布你。",
           "擺布／欺負"
@@ -1539,16 +1529,6 @@ export default {
       "note": "來源詞義：到真正關鍵時刻",
       "examples": [
         [
-          "She pushed the commit to the main branch.",
-          "她把提交推送到主分支。",
-          "到真正關鍵時刻"
-        ],
-        [
-          "Push your changes to a feature branch first.",
-          "先把變更推到功能分支。",
-          "到真正關鍵時刻"
-        ],
-        [
           "When push comes to shove, the manager will have to make a decision.",
           "到了真正關鍵時刻，經理就必須作決定。",
           "到真正關鍵時刻"
@@ -1627,6 +1607,50 @@ export default {
       ],
       "options": [],
       "excludedOverlaps": []
+    },
+    {
+      "id": "push-reviewed-5f76d6143d",
+      "title": "把……擱在一旁；忽視",
+      "form": "push · source section 54",
+      "en": "把……擱在一旁；忽視",
+      "zh": "把……擱在一旁；忽視",
+      "note": "對照原始教材第 54 節及例句核實。",
+      "examples": [
+        [
+          "She pushed her doubts aside and continued.",
+          "她把疑慮暫時拋諸腦後，繼續前進。",
+          "把……擱在一旁；忽視"
+        ],
+        [
+          "Quieter members should not be pushed aside.",
+          "較安靜的成員不應被排擠／忽視。",
+          "把……擱在一旁；忽視"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
+    },
+    {
+      "id": "push-reviewed-db4d116d36",
+      "title": "推送到分支",
+      "form": "push · source section 84",
+      "en": "推送到分支",
+      "zh": "推送到分支",
+      "note": "對照原始教材第 84 節及例句核實。",
+      "examples": [
+        [
+          "She pushed the commit to the main branch.",
+          "她把提交推送到主分支。",
+          "推送到分支"
+        ],
+        [
+          "Push your changes to a feature branch first.",
+          "先把變更推到功能分支。",
+          "推送到分支"
+        ]
+      ],
+      "options": [],
+      "excludedOverlaps": []
     }
   ],
   "questions": [
@@ -1638,11 +1662,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "push-mcq-01",
-        "push-mcq-02",
-        "push-mcq-03",
-        "push-mcq-04",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-42",
+        "push-mcq-19",
+        "push-mcq-35"
       ],
       "explanation": "本句的「pushed the door」指「推某物」。",
       "sentenceIndex": 0,
@@ -1651,12 +1673,10 @@ export default {
         "pushed the door"
       ],
       "optionReasons": {
-        "push-mcq-01": "本句指「推某物」。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-01": "本句的「pushed the door」指「推某物」。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-01"
     },
@@ -1668,11 +1688,9 @@ export default {
       "masked": "He ____ across the car park.",
       "options": [
         "push-mcq-01",
-        "push-mcq-02",
-        "push-mcq-03",
-        "push-mcq-04",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-37",
+        "push-pdf-002",
+        "push-mcq-35"
       ],
       "explanation": "本句的「pushed the trolley」指「推某物」。",
       "sentenceIndex": 1,
@@ -1681,12 +1699,10 @@ export default {
         "pushed the trolley"
       ],
       "optionReasons": {
-        "push-mcq-01": "本句指「推某物」。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-01": "本句的「pushed the trolley」指「推某物」。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-01"
     },
@@ -1698,11 +1714,9 @@ export default {
       "masked": "____ the box closer to the wall.",
       "options": [
         "push-mcq-01",
-        "push-mcq-02",
-        "push-mcq-03",
-        "push-mcq-04",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-23",
+        "push-mcq-60",
+        "push-mcq-15"
       ],
       "explanation": "本句的「Push」指「推某物」。",
       "sentenceIndex": 2,
@@ -1711,12 +1725,10 @@ export default {
         "Push"
       ],
       "optionReasons": {
-        "push-mcq-01": "本句指「推某物」。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-01": "本句的「Push」指「推某物」。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-01"
     },
@@ -1728,11 +1740,9 @@ export default {
       "masked": "Someone ____.",
       "options": [
         "push-mcq-02",
-        "push-mcq-01",
-        "push-mcq-03",
-        "push-mcq-04",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-25",
+        "push-mcq-42",
+        "push-mcq-23"
       ],
       "explanation": "本句的「pushed me from behind」指「推某人」。",
       "sentenceIndex": 3,
@@ -1741,12 +1751,10 @@ export default {
         "pushed me from behind"
       ],
       "optionReasons": {
-        "push-mcq-02": "本句指「推某人」。",
-        "push-mcq-01": "「推某物」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-02": "本句的「pushed me from behind」指「推某人」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-02"
     },
@@ -1758,11 +1766,9 @@ export default {
       "masked": "Don't ____ in the queue.",
       "options": [
         "push-mcq-02",
-        "push-mcq-01",
-        "push-mcq-03",
-        "push-mcq-04",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-44",
+        "push-mcq-26",
+        "push-mcq-16"
       ],
       "explanation": "本句的「push people」指「推某人」。",
       "sentenceIndex": 4,
@@ -1771,12 +1777,10 @@ export default {
         "push people"
       ],
       "optionReasons": {
-        "push-mcq-02": "本句指「推某人」。",
-        "push-mcq-01": "「推某物」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-02": "本句的「push people」指「推某人」。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-02"
     },
@@ -1788,11 +1792,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "push-mcq-03",
-        "push-mcq-02",
-        "push-mcq-04",
-        "push-mcq-01",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-36",
+        "push-mcq-09",
+        "push-mcq-23"
       ],
       "explanation": "本句的「pushed the door open」指「推開／推關」。",
       "sentenceIndex": 5,
@@ -1801,12 +1803,10 @@ export default {
         "pushed the door open"
       ],
       "optionReasons": {
-        "push-mcq-03": "本句指「推開／推關」。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-01": "「推某物」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-03": "本句的「pushed the door open」指「推開／推關」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-03"
     },
@@ -1818,11 +1818,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "push-mcq-03",
-        "push-mcq-02",
-        "push-mcq-04",
-        "push-mcq-01",
-        "push-mcq-05",
-        "push-mcq-06"
+        "push-mcq-09",
+        "push-mcq-42",
+        "push-mcq-52"
       ],
       "explanation": "本句的「pushed the window shut」指「推開／推關」。",
       "sentenceIndex": 6,
@@ -1831,12 +1829,10 @@ export default {
         "pushed the window shut"
       ],
       "optionReasons": {
-        "push-mcq-03": "本句指「推開／推關」。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-01": "「推某物」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-03": "本句的「pushed the window shut」指「推開／推關」。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-03"
     },
@@ -1848,11 +1844,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "push-mcq-04",
-        "push-mcq-03",
-        "push-mcq-05",
-        "push-mcq-02",
-        "push-mcq-06",
-        "push-mcq-01"
+        "push-mcq-50",
+        "push-mcq-25",
+        "push-pdf-001"
       ],
       "explanation": "本句的「pushed the chair aside」指「推開／擱在一旁」。",
       "sentenceIndex": 7,
@@ -1861,12 +1855,10 @@ export default {
         "pushed the chair aside"
       ],
       "optionReasons": {
-        "push-mcq-04": "本句指「推開／擱在一旁」。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-01": "「推某物」與本句語境不同。"
+        "push-mcq-04": "本句的「pushed the chair aside」指「推開／擱在一旁」。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-04"
     },
@@ -1878,11 +1870,9 @@ export default {
       "masked": "She ____ the papers aside and stood up.",
       "options": [
         "push-mcq-04",
-        "push-mcq-03",
-        "push-mcq-05",
-        "push-mcq-02",
-        "push-mcq-06",
-        "push-mcq-01"
+        "push-mcq-30",
+        "push-mcq-23",
+        "push-pdf-001"
       ],
       "explanation": "本句的「pushed」指「推開／擱在一旁」。",
       "sentenceIndex": 8,
@@ -1891,12 +1881,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-04": "本句指「推開／擱在一旁」。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-01": "「推某物」與本句語境不同。"
+        "push-mcq-04": "本句的「pushed」指「推開／擱在一旁」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-04"
     },
@@ -1908,11 +1896,9 @@ export default {
       "masked": "He ____ and entered the room.",
       "options": [
         "push-mcq-04",
-        "push-mcq-03",
-        "push-mcq-05",
-        "push-mcq-02",
-        "push-mcq-06",
-        "push-mcq-01"
+        "push-mcq-16",
+        "push-mcq-12",
+        "push-mcq-23"
       ],
       "explanation": "本句的「pushed me aside」指「推開／擱在一旁」。",
       "sentenceIndex": 9,
@@ -1921,12 +1907,10 @@ export default {
         "pushed me aside"
       ],
       "optionReasons": {
-        "push-mcq-04": "本句指「推開／擱在一旁」。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-01": "「推某物」與本句語境不同。"
+        "push-mcq-04": "本句的「pushed me aside」指「推開／擱在一旁」。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-04"
     },
@@ -1938,11 +1922,9 @@ export default {
       "masked": "The guard ____ the crowd aside.",
       "options": [
         "push-mcq-04",
-        "push-mcq-03",
-        "push-mcq-05",
-        "push-mcq-02",
-        "push-mcq-06",
-        "push-mcq-01"
+        "push-mcq-09",
+        "push-mcq-42",
+        "push-mcq-35"
       ],
       "explanation": "本句的「pushed」指「推開／擱在一旁」。",
       "sentenceIndex": 10,
@@ -1951,12 +1933,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-04": "本句指「推開／擱在一旁」。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-02": "「推某人」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-01": "「推某物」與本句語境不同。"
+        "push-mcq-04": "本句的「pushed」指「推開／擱在一旁」。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-04"
     },
@@ -1968,11 +1948,9 @@ export default {
       "masked": "He ____ without apologising.",
       "options": [
         "push-mcq-05",
-        "push-mcq-04",
-        "push-mcq-06",
-        "push-mcq-03",
-        "push-mcq-07",
-        "push-mcq-02"
+        "push-mcq-09",
+        "push-mcq-08",
+        "push-mcq-48"
       ],
       "explanation": "本句的「pushed past me」指「擠過」。",
       "sentenceIndex": 11,
@@ -1981,12 +1959,10 @@ export default {
         "pushed past me"
       ],
       "optionReasons": {
-        "push-mcq-05": "本句指「擠過」。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-02": "「推某人」與本句語境不同。"
+        "push-mcq-05": "本句的「pushed past me」指「擠過」。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-05"
     },
@@ -1998,11 +1974,9 @@ export default {
       "masked": "People ____ past each other to reach the exit.",
       "options": [
         "push-mcq-05",
-        "push-mcq-04",
-        "push-mcq-06",
-        "push-mcq-03",
-        "push-mcq-07",
-        "push-mcq-02"
+        "push-mcq-37",
+        "push-mcq-54",
+        "push-mcq-09"
       ],
       "explanation": "本句的「pushed」指「擠過」。",
       "sentenceIndex": 12,
@@ -2011,12 +1985,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-05": "本句指「擠過」。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-02": "「推某人」與本句語境不同。"
+        "push-mcq-05": "本句的「pushed」指「擠過」。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-05"
     },
@@ -2028,11 +2000,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "push-mcq-06",
-        "push-mcq-05",
-        "push-mcq-07",
-        "push-mcq-04",
-        "push-mcq-08",
-        "push-mcq-03"
+        "push-mcq-10",
+        "push-mcq-48",
+        "push-mcq-43"
       ],
       "explanation": "本句的「pushed through the crowd」指「擠過人群」。",
       "sentenceIndex": 13,
@@ -2041,12 +2011,10 @@ export default {
         "pushed through the crowd"
       ],
       "optionReasons": {
-        "push-mcq-06": "本句指「擠過人群」。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。"
+        "push-mcq-06": "本句的「pushed through the crowd」指「擠過人群」。",
+        "push-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-06"
     },
@@ -2058,11 +2026,9 @@ export default {
       "masked": "We had to ____ through hundreds of people.",
       "options": [
         "push-mcq-06",
-        "push-mcq-05",
-        "push-mcq-07",
-        "push-mcq-04",
-        "push-mcq-08",
-        "push-mcq-03"
+        "push-mcq-11",
+        "push-mcq-36",
+        "push-mcq-60"
       ],
       "explanation": "本句的「push」指「擠過人群」。",
       "sentenceIndex": 14,
@@ -2071,12 +2037,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-06": "本句指「擠過人群」。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-03": "「推開／推關」與本句語境不同。"
+        "push-mcq-06": "本句的「push」指「擠過人群」。",
+        "push-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-06"
     },
@@ -2088,11 +2052,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "push-mcq-07",
-        "push-mcq-06",
-        "push-mcq-08",
-        "push-mcq-05",
-        "push-mcq-09",
-        "push-mcq-04"
+        "push-mcq-16",
+        "push-mcq-36",
+        "push-mcq-46"
       ],
       "explanation": "本句的「pushed his way through the crowd」指「擠出一條路」。",
       "sentenceIndex": 15,
@@ -2101,12 +2063,10 @@ export default {
         "pushed his way through the crowd"
       ],
       "optionReasons": {
-        "push-mcq-07": "本句指「擠出一條路」。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。"
+        "push-mcq-07": "本句的「pushed his way through the crowd」指「擠出一條路」。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-46": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-07"
     },
@@ -2118,11 +2078,9 @@ export default {
       "masked": "She ____ her way to the front.",
       "options": [
         "push-mcq-07",
-        "push-mcq-06",
-        "push-mcq-08",
-        "push-mcq-05",
-        "push-mcq-09",
-        "push-mcq-04"
+        "push-mcq-36",
+        "push-mcq-46",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「pushed」指「擠出一條路」。",
       "sentenceIndex": 16,
@@ -2131,12 +2089,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-07": "本句指「擠出一條路」。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-04": "「推開／擱在一旁」與本句語境不同。"
+        "push-mcq-07": "本句的「pushed」指「擠出一條路」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-07"
     },
@@ -2148,11 +2104,9 @@ export default {
       "masked": "____ with both hands.",
       "options": [
         "push-mcq-08",
-        "push-mcq-07",
-        "push-mcq-09",
-        "push-mcq-06",
-        "push-mcq-10",
-        "push-mcq-05"
+        "push-mcq-30",
+        "push-mcq-05",
+        "push-mcq-17"
       ],
       "explanation": "本句的「Push against the wall」指「推／頂着」。",
       "sentenceIndex": 17,
@@ -2161,12 +2115,10 @@ export default {
         "Push against the wall"
       ],
       "optionReasons": {
-        "push-mcq-08": "本句指「推／頂着」。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。"
+        "push-mcq-08": "本句的「Push against the wall」指「推／頂着」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-08"
     },
@@ -2178,11 +2130,9 @@ export default {
       "masked": "The crowd ____ against the barrier.",
       "options": [
         "push-mcq-08",
-        "push-mcq-07",
-        "push-mcq-09",
-        "push-mcq-06",
-        "push-mcq-10",
-        "push-mcq-05"
+        "push-mcq-18",
+        "push-mcq-36",
+        "push-mcq-42"
       ],
       "explanation": "本句的「pushed」指「推／頂着」。",
       "sentenceIndex": 18,
@@ -2191,12 +2141,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-08": "本句指「推／頂着」。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-05": "「擠過」與本句語境不同。"
+        "push-mcq-08": "本句的「pushed」指「推／頂着」。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-08"
     },
@@ -2208,11 +2156,9 @@ export default {
       "masked": "____.",
       "options": [
         "push-mcq-09",
-        "push-mcq-08",
-        "push-mcq-10",
-        "push-mcq-07",
-        "push-mcq-11",
-        "push-mcq-06"
+        "push-mcq-32",
+        "push-mcq-43",
+        "push-mcq-04"
       ],
       "explanation": "本句的「Push the handle down」指「向下壓」。",
       "sentenceIndex": 19,
@@ -2221,12 +2167,10 @@ export default {
         "Push the handle down"
       ],
       "optionReasons": {
-        "push-mcq-09": "本句指「向下壓」。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-09": "本句的「Push the handle down」指「向下壓」。",
+        "push-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-09"
     },
@@ -2238,11 +2182,9 @@ export default {
       "masked": "She ____ the lid down firmly.",
       "options": [
         "push-mcq-09",
-        "push-mcq-08",
-        "push-mcq-10",
-        "push-mcq-07",
-        "push-mcq-11",
-        "push-mcq-06"
+        "push-mcq-35",
+        "push-mcq-18",
+        "push-mcq-57"
       ],
       "explanation": "本句的「pushed」指「向下壓」。",
       "sentenceIndex": 20,
@@ -2251,12 +2193,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-09": "本句指「向下壓」。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-06": "「擠過人群」與本句語境不同。"
+        "push-mcq-09": "本句的「pushed」指「向下壓」。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-09"
     },
@@ -2268,10 +2208,8 @@ export default {
       "masked": "He ____.",
       "options": [
         "push-mcq-10",
-        "push-mcq-09",
-        "push-mcq-11",
-        "push-mcq-08",
-        "push-mcq-12",
+        "push-mcq-41",
+        "push-mcq-52",
         "push-mcq-07"
       ],
       "explanation": "本句的「pushed the window up」指「向上推」。",
@@ -2281,12 +2219,10 @@ export default {
         "pushed the window up"
       ],
       "optionReasons": {
-        "push-mcq-10": "本句指「向上推」。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。"
+        "push-mcq-10": "本句的「pushed the window up」指「向上推」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-10"
     },
@@ -2298,11 +2234,9 @@ export default {
       "masked": "____ the shelf up slightly.",
       "options": [
         "push-mcq-10",
-        "push-mcq-09",
-        "push-mcq-11",
-        "push-mcq-08",
-        "push-mcq-12",
-        "push-mcq-07"
+        "push-mcq-41",
+        "push-pdf-001",
+        "push-mcq-48"
       ],
       "explanation": "本句的「Push」指「向上推」。",
       "sentenceIndex": 22,
@@ -2311,12 +2245,10 @@ export default {
         "Push"
       ],
       "optionReasons": {
-        "push-mcq-10": "本句指「向上推」。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。",
-        "push-mcq-07": "「擠出一條路」與本句語境不同。"
+        "push-mcq-10": "本句的「Push」指「向上推」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-10"
     },
@@ -2328,11 +2260,9 @@ export default {
       "masked": "The swimmer ____.",
       "options": [
         "push-mcq-11",
-        "push-mcq-10",
-        "push-mcq-12",
-        "push-mcq-09",
-        "push-mcq-13",
-        "push-mcq-08"
+        "push-mcq-42",
+        "push-pdf-001",
+        "push-mcq-19"
       ],
       "explanation": "本句的「pushed off from the wall」指「蹬離／推離 X」。",
       "sentenceIndex": 23,
@@ -2341,12 +2271,10 @@ export default {
         "pushed off from the wall"
       ],
       "optionReasons": {
-        "push-mcq-11": "本句指「蹬離／推離 X」。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。"
+        "push-mcq-11": "本句的「pushed off from the wall」指「蹬離／推離 X」。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-11"
     },
@@ -2358,11 +2286,9 @@ export default {
       "masked": "We ____ off from the shore.",
       "options": [
         "push-mcq-11",
-        "push-mcq-10",
-        "push-mcq-12",
-        "push-mcq-09",
-        "push-mcq-13",
-        "push-mcq-08"
+        "push-mcq-23",
+        "push-mcq-25",
+        "push-pdf-001"
       ],
       "explanation": "本句的「pushed」指「蹬離／推離 X」。",
       "sentenceIndex": 24,
@@ -2371,12 +2297,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-11": "本句指「蹬離／推離 X」。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-08": "「推／頂着」與本句語境不同。"
+        "push-mcq-11": "本句的「pushed」指「蹬離／推離 X」。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-11"
     },
@@ -2388,11 +2312,9 @@ export default {
       "masked": "____ to start the machine.",
       "options": [
         "push-mcq-12",
-        "push-mcq-11",
-        "push-mcq-13",
-        "push-mcq-10",
-        "push-mcq-14",
-        "push-mcq-09"
+        "push-pdf-002",
+        "push-mcq-20",
+        "push-mcq-35"
       ],
       "explanation": "本句的「Push the button」指「按按鈕」。",
       "sentenceIndex": 25,
@@ -2401,12 +2323,10 @@ export default {
         "Push the button"
       ],
       "optionReasons": {
-        "push-mcq-12": "本句指「按按鈕」。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。"
+        "push-mcq-12": "本句的「Push the button」指「按按鈕」。",
+        "push-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-12"
     },
@@ -2418,11 +2338,9 @@ export default {
       "masked": "She ____ the emergency button.",
       "options": [
         "push-mcq-12",
-        "push-mcq-11",
-        "push-mcq-13",
-        "push-mcq-10",
-        "push-mcq-14",
-        "push-mcq-09"
+        "push-mcq-41",
+        "push-mcq-19",
+        "push-mcq-25"
       ],
       "explanation": "本句的「pushed」指「按按鈕」。",
       "sentenceIndex": 26,
@@ -2431,12 +2349,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-12": "本句指「按按鈕」。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。"
+        "push-mcq-12": "本句的「pushed」指「按按鈕」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-12"
     },
@@ -2449,10 +2365,8 @@ export default {
       "options": [
         "push-mcq-12",
         "push-mcq-11",
-        "push-mcq-13",
-        "push-mcq-10",
-        "push-mcq-14",
-        "push-mcq-09"
+        "push-mcq-36",
+        "push-mcq-53"
       ],
       "explanation": "本句的「at the push of a button」指「按按鈕」。",
       "sentenceIndex": 27,
@@ -2461,12 +2375,10 @@ export default {
         "at the push of a button"
       ],
       "optionReasons": {
-        "push-mcq-12": "本句指「按按鈕」。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。"
+        "push-mcq-12": "本句的「at the push of a button」指「按按鈕」。",
+        "push-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-12"
     },
@@ -2478,11 +2390,9 @@ export default {
       "masked": "Information is available at the ____ of a button.",
       "options": [
         "push-mcq-12",
-        "push-mcq-11",
-        "push-mcq-13",
-        "push-mcq-10",
-        "push-mcq-14",
-        "push-mcq-09"
+        "push-mcq-37",
+        "push-mcq-18",
+        "push-mcq-32"
       ],
       "explanation": "本句的「push」指「按按鈕」。",
       "sentenceIndex": 28,
@@ -2491,12 +2401,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-12": "本句指「按按鈕」。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。"
+        "push-mcq-12": "本句的「push」指「按按鈕」。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-12"
     },
@@ -2508,11 +2416,9 @@ export default {
       "masked": "The device has a ____.",
       "options": [
         "push-mcq-12",
-        "push-mcq-11",
-        "push-mcq-13",
-        "push-mcq-10",
-        "push-mcq-14",
-        "push-mcq-09"
+        "push-mcq-03",
+        "push-pdf-002",
+        "push-mcq-52"
       ],
       "explanation": "本句的「push-button control」指「按按鈕」。",
       "sentenceIndex": 29,
@@ -2521,12 +2427,10 @@ export default {
         "push-button control"
       ],
       "optionReasons": {
-        "push-mcq-12": "本句指「按按鈕」。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。"
+        "push-mcq-12": "本句的「push-button control」指「按按鈕」。",
+        "push-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-12"
     },
@@ -2538,11 +2442,9 @@ export default {
       "masked": "The system offers ____ simplicity.",
       "options": [
         "push-mcq-12",
-        "push-mcq-11",
-        "push-mcq-13",
-        "push-mcq-10",
-        "push-mcq-14",
-        "push-mcq-09"
+        "push-mcq-16",
+        "push-mcq-51",
+        "push-mcq-15"
       ],
       "explanation": "本句的「push-button」指「按按鈕」。",
       "sentenceIndex": 30,
@@ -2551,12 +2453,10 @@ export default {
         "push-button"
       ],
       "optionReasons": {
-        "push-mcq-12": "本句指「按按鈕」。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-10": "「向上推」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-09": "「向下壓」與本句語境不同。"
+        "push-mcq-12": "本句的「push-button」指「按按鈕」。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-12"
     },
@@ -2568,11 +2468,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "push-mcq-14",
-        "push-mcq-13",
-        "push-mcq-15",
-        "push-mcq-12",
-        "push-mcq-16",
-        "push-mcq-11"
+        "push-mcq-60",
+        "push-mcq-37",
+        "push-mcq-42"
       ],
       "explanation": "本句的「pushed the team to finish early」指「催促／推動某人做」。",
       "sentenceIndex": 31,
@@ -2581,12 +2479,10 @@ export default {
         "pushed the team to finish early"
       ],
       "optionReasons": {
-        "push-mcq-14": "本句指「催促／推動某人做」。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。"
+        "push-mcq-14": "本句的「pushed the team to finish early」指「催促／推動某人做」。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-14"
     },
@@ -2598,11 +2494,9 @@ export default {
       "masked": "Good teachers can ____ students to improve.",
       "options": [
         "push-mcq-14",
-        "push-mcq-13",
-        "push-mcq-15",
-        "push-mcq-12",
-        "push-mcq-16",
-        "push-mcq-11"
+        "push-mcq-25",
+        "push-mcq-60",
+        "push-mcq-16"
       ],
       "explanation": "本句的「push」指「催促／推動某人做」。",
       "sentenceIndex": 32,
@@ -2611,12 +2505,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-14": "本句指「催促／推動某人做」。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-11": "「蹬離／推離 X」與本句語境不同。"
+        "push-mcq-14": "本句的「push」指「催促／推動某人做」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-14"
     },
@@ -2628,11 +2520,9 @@ export default {
       "masked": "The coach ____.",
       "options": [
         "push-mcq-15",
-        "push-mcq-14",
-        "push-mcq-16",
-        "push-mcq-13",
-        "push-mcq-17",
-        "push-mcq-12"
+        "push-mcq-41",
+        "push-mcq-09",
+        "push-mcq-05"
       ],
       "explanation": "本句的「pushed the players harder」指「對某人要求更高」。",
       "sentenceIndex": 33,
@@ -2641,12 +2531,10 @@ export default {
         "pushed the players harder"
       ],
       "optionReasons": {
-        "push-mcq-15": "本句指「對某人要求更高」。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。"
+        "push-mcq-15": "本句的「pushed the players harder」指「對某人要求更高」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-15"
     },
@@ -2658,11 +2546,9 @@ export default {
       "masked": "Managers should know when to ____ employees and when to give them space.",
       "options": [
         "push-mcq-15",
-        "push-mcq-14",
-        "push-mcq-16",
-        "push-mcq-13",
-        "push-mcq-17",
-        "push-mcq-12"
+        "push-mcq-38",
+        "push-mcq-03",
+        "push-mcq-29"
       ],
       "explanation": "本句的「push」指「對某人要求更高」。",
       "sentenceIndex": 34,
@@ -2671,12 +2557,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-15": "本句指「對某人要求更高」。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-12": "「按按鈕」與本句語境不同。"
+        "push-mcq-15": "本句的「push」指「對某人要求更高」。",
+        "push-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-15"
     },
@@ -2688,11 +2572,9 @@ export default {
       "masked": "You need to ____ if you want to improve.",
       "options": [
         "push-mcq-16",
-        "push-mcq-15",
-        "push-mcq-17",
-        "push-mcq-14",
-        "push-mcq-18",
-        "push-mcq-13"
+        "push-mcq-48",
+        "push-mcq-28",
+        "push-mcq-50"
       ],
       "explanation": "本句的「push yourself」指「逼自己努力」。",
       "sentenceIndex": 35,
@@ -2701,12 +2583,10 @@ export default {
         "push yourself"
       ],
       "optionReasons": {
-        "push-mcq-16": "本句指「逼自己努力」。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。"
+        "push-mcq-16": "本句的「push yourself」指「逼自己努力」。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-16"
     },
@@ -2718,11 +2598,9 @@ export default {
       "masked": "She ____ herself beyond what she thought was possible.",
       "options": [
         "push-mcq-16",
-        "push-mcq-15",
-        "push-mcq-17",
-        "push-mcq-14",
-        "push-mcq-18",
-        "push-mcq-13"
+        "push-mcq-30",
+        "push-mcq-20",
+        "push-mcq-43"
       ],
       "explanation": "本句的「pushed」指「逼自己努力」。",
       "sentenceIndex": 36,
@@ -2731,12 +2609,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-16": "本句指「逼自己努力」。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。"
+        "push-mcq-16": "本句的「pushed」指「逼自己努力」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-16"
     },
@@ -2748,11 +2624,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "push-mcq-16",
-        "push-mcq-15",
-        "push-mcq-17",
-        "push-mcq-14",
-        "push-mcq-18",
-        "push-mcq-13"
+        "push-mcq-34",
+        "push-mcq-60",
+        "push-mcq-06"
       ],
       "explanation": "本句的「push yourself too hard」指「逼自己努力」。",
       "sentenceIndex": 37,
@@ -2761,12 +2635,10 @@ export default {
         "push yourself too hard"
       ],
       "optionReasons": {
-        "push-mcq-16": "本句指「逼自己努力」。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。"
+        "push-mcq-16": "本句的「push yourself too hard」指「逼自己努力」。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-16"
     },
@@ -2778,11 +2650,9 @@ export default {
       "masked": "He became exhausted because he had been ____ himself too hard.",
       "options": [
         "push-mcq-16",
-        "push-mcq-15",
-        "push-mcq-17",
-        "push-mcq-14",
-        "push-mcq-18",
-        "push-mcq-13"
+        "push-mcq-34",
+        "push-mcq-11",
+        "push-mcq-07"
       ],
       "explanation": "本句的「pushing」指「逼自己努力」。",
       "sentenceIndex": 38,
@@ -2791,12 +2661,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-16": "本句指「逼自己努力」。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-13": "「一按即……」與本句語境不同。"
+        "push-mcq-16": "本句的「pushing」指「逼自己努力」。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-16"
     },
@@ -2808,11 +2676,9 @@ export default {
       "masked": "She felt ____.",
       "options": [
         "push-mcq-17",
-        "push-mcq-16",
-        "push-mcq-18",
-        "push-mcq-15",
-        "push-mcq-19",
-        "push-mcq-14"
+        "push-reviewed-db4d116d36",
+        "push-mcq-07",
+        "push-mcq-04"
       ],
       "explanation": "本句的「pushed into accepting the offer」指「逼某人做」。",
       "sentenceIndex": 39,
@@ -2821,12 +2687,10 @@ export default {
         "pushed into accepting the offer"
       ],
       "optionReasons": {
-        "push-mcq-17": "本句指「逼某人做」。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。"
+        "push-mcq-17": "本句的「pushed into accepting the offer」指「逼某人做」。",
+        "push-reviewed-db4d116d36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-17"
     },
@@ -2838,11 +2702,9 @@ export default {
       "masked": "Don't ____ people into making decisions before they are ready.",
       "options": [
         "push-mcq-17",
-        "push-mcq-16",
-        "push-mcq-18",
-        "push-mcq-15",
-        "push-mcq-19",
-        "push-mcq-14"
+        "push-mcq-20",
+        "push-mcq-60",
+        "push-mcq-48"
       ],
       "explanation": "本句的「push」指「逼某人做」。",
       "sentenceIndex": 40,
@@ -2851,12 +2713,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-17": "本句指「逼某人做」。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。"
+        "push-mcq-17": "本句的「push」指「逼某人做」。",
+        "push-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-17"
     },
@@ -2868,11 +2728,9 @@ export default {
       "masked": "Financial pressure ____.",
       "options": [
         "push-mcq-17",
-        "push-mcq-16",
-        "push-mcq-18",
-        "push-mcq-15",
-        "push-mcq-19",
-        "push-mcq-14"
+        "push-mcq-36",
+        "push-mcq-49",
+        "push-mcq-19"
       ],
       "explanation": "本句的「pushed him towards a different career」指「逼某人做」。",
       "sentenceIndex": 41,
@@ -2881,12 +2739,10 @@ export default {
         "pushed him towards a different career"
       ],
       "optionReasons": {
-        "push-mcq-17": "本句指「逼某人做」。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。"
+        "push-mcq-17": "本句的「pushed him towards a different career」指「逼某人做」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-49": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-17"
     },
@@ -2898,11 +2754,9 @@ export default {
       "masked": "The experience ____ her towards management.",
       "options": [
         "push-mcq-17",
-        "push-mcq-16",
-        "push-mcq-18",
-        "push-mcq-15",
-        "push-mcq-19",
-        "push-mcq-14"
+        "push-mcq-30",
+        "push-mcq-08",
+        "push-mcq-35"
       ],
       "explanation": "本句的「pushed」指「逼某人做」。",
       "sentenceIndex": 42,
@@ -2911,12 +2765,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-17": "本句指「逼某人做」。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-14": "「催促／推動某人做」與本句語境不同。"
+        "push-mcq-17": "本句的「pushed」指「逼某人做」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-17"
     },
@@ -2928,11 +2780,9 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "push-mcq-18",
-        "push-mcq-17",
-        "push-mcq-19",
-        "push-mcq-16",
-        "push-mcq-20",
-        "push-mcq-15"
+        "push-mcq-09",
+        "push-mcq-37",
+        "push-mcq-41"
       ],
       "explanation": "本句的「push him too far」指「把某人逼得太過分」。",
       "sentenceIndex": 43,
@@ -2941,12 +2791,10 @@ export default {
         "push him too far"
       ],
       "optionReasons": {
-        "push-mcq-18": "本句指「把某人逼得太過分」。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。"
+        "push-mcq-18": "本句的「push him too far」指「把某人逼得太過分」。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-18"
     },
@@ -2958,11 +2806,9 @@ export default {
       "masked": "Repeated demands may ____ employees too far.",
       "options": [
         "push-mcq-18",
-        "push-mcq-17",
-        "push-mcq-19",
-        "push-mcq-16",
-        "push-mcq-20",
-        "push-mcq-15"
+        "push-mcq-29",
+        "push-mcq-10",
+        "push-mcq-60"
       ],
       "explanation": "本句的「push」指「把某人逼得太過分」。",
       "sentenceIndex": 44,
@@ -2971,12 +2817,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-18": "本句指「把某人逼得太過分」。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-15": "「對某人要求更高」與本句語境不同。"
+        "push-mcq-18": "本句的「push」指「把某人逼得太過分」。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-18"
     },
@@ -2988,11 +2832,9 @@ export default {
       "masked": "A product team may ____.",
       "options": [
         "push-mcq-19",
-        "push-mcq-18",
-        "push-mcq-20",
-        "push-mcq-17",
-        "push-mcq-21",
-        "push-mcq-16"
+        "push-mcq-47",
+        "push-mcq-25",
+        "push-mcq-45"
       ],
       "explanation": "本句的「push for speed」指「力爭／積極要求 X」。",
       "sentenceIndex": 45,
@@ -3001,12 +2843,10 @@ export default {
         "push for speed"
       ],
       "optionReasons": {
-        "push-mcq-19": "本句指「力爭／積極要求 X」。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。"
+        "push-mcq-19": "本句的「push for speed」指「力爭／積極要求 X」。",
+        "push-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-19"
     },
@@ -3018,11 +2858,9 @@ export default {
       "masked": "Employees are ____.",
       "options": [
         "push-mcq-19",
+        "push-mcq-08",
         "push-mcq-18",
-        "push-mcq-20",
-        "push-mcq-17",
-        "push-mcq-21",
-        "push-mcq-16"
+        "push-mcq-45"
       ],
       "explanation": "本句的「pushing for better working conditions」指「力爭／積極要求 X」。",
       "sentenceIndex": 46,
@@ -3031,12 +2869,10 @@ export default {
         "pushing for better working conditions"
       ],
       "optionReasons": {
-        "push-mcq-19": "本句指「力爭／積極要求 X」。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。"
+        "push-mcq-19": "本句的「pushing for better working conditions」指「力爭／積極要求 X」。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-19"
     },
@@ -3048,11 +2884,9 @@ export default {
       "masked": "Management is ____ for faster delivery.",
       "options": [
         "push-mcq-19",
-        "push-mcq-18",
-        "push-mcq-20",
-        "push-mcq-17",
-        "push-mcq-21",
-        "push-mcq-16"
+        "push-mcq-26",
+        "push-mcq-06",
+        "push-mcq-56"
       ],
       "explanation": "本句的「pushing」指「力爭／積極要求 X」。",
       "sentenceIndex": 47,
@@ -3061,12 +2895,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-19": "本句指「力爭／積極要求 X」。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-16": "「逼自己努力」與本句語境不同。"
+        "push-mcq-19": "本句的「pushing」指「力爭／積極要求 X」。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-19"
     },
@@ -3078,11 +2910,9 @@ export default {
       "masked": "Staff ____ to the evaluation system.",
       "options": [
         "push-mcq-20",
-        "push-mcq-19",
-        "push-mcq-21",
-        "push-mcq-18",
-        "push-mcq-22",
-        "push-mcq-17"
+        "push-mcq-42",
+        "push-mcq-23",
+        "push-mcq-09"
       ],
       "explanation": "本句的「pushed for changes」指「推動改革」。",
       "sentenceIndex": 48,
@@ -3091,12 +2921,10 @@ export default {
         "pushed for changes"
       ],
       "optionReasons": {
-        "push-mcq-20": "本句指「推動改革」。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。"
+        "push-mcq-20": "本句的「pushed for changes」指「推動改革」。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-20"
     },
@@ -3108,11 +2936,9 @@ export default {
       "masked": "Campaigners are ____ for reform.",
       "options": [
         "push-mcq-20",
-        "push-mcq-19",
-        "push-mcq-21",
-        "push-mcq-18",
-        "push-mcq-22",
-        "push-mcq-17"
+        "push-mcq-17",
+        "push-mcq-37",
+        "push-mcq-60"
       ],
       "explanation": "本句的「pushing」指「推動改革」。",
       "sentenceIndex": 49,
@@ -3121,12 +2947,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-20": "本句指「推動改革」。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。"
+        "push-mcq-20": "本句的「pushing」指「推動改革」。",
+        "push-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-20"
     },
@@ -3138,11 +2962,9 @@ export default {
       "masked": "The team is ____ before Friday.",
       "options": [
         "push-mcq-20",
-        "push-mcq-19",
-        "push-mcq-21",
-        "push-mcq-18",
-        "push-mcq-22",
-        "push-mcq-17"
+        "push-mcq-29",
+        "push-mcq-36",
+        "push-mcq-18"
       ],
       "explanation": "本句的「pushing for approval」指「推動改革」。",
       "sentenceIndex": 50,
@@ -3151,12 +2973,10 @@ export default {
         "pushing for approval"
       ],
       "optionReasons": {
-        "push-mcq-20": "本句指「推動改革」。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。"
+        "push-mcq-20": "本句的「pushing for approval」指「推動改革」。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-20"
     },
@@ -3168,11 +2988,9 @@ export default {
       "masked": "He ____ for immediate approval of the proposal.",
       "options": [
         "push-mcq-20",
-        "push-mcq-19",
-        "push-mcq-21",
-        "push-mcq-18",
-        "push-mcq-22",
-        "push-mcq-17"
+        "push-mcq-53",
+        "push-mcq-23",
+        "push-mcq-45"
       ],
       "explanation": "本句的「pushed」指「推動改革」。",
       "sentenceIndex": 51,
@@ -3181,12 +2999,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-20": "本句指「推動改革」。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。"
+        "push-mcq-20": "本句的「pushed」指「推動改革」。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-20"
     },
@@ -3198,11 +3014,9 @@ export default {
       "masked": "Customers are ____.",
       "options": [
         "push-mcq-20",
-        "push-mcq-19",
-        "push-mcq-21",
         "push-mcq-18",
-        "push-mcq-22",
-        "push-mcq-17"
+        "push-mcq-16",
+        "push-mcq-50"
       ],
       "explanation": "本句的「pushing for faster action」指「推動改革」。",
       "sentenceIndex": 52,
@@ -3211,12 +3025,10 @@ export default {
         "pushing for faster action"
       ],
       "optionReasons": {
-        "push-mcq-20": "本句指「推動改革」。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。"
+        "push-mcq-20": "本句的「pushing for faster action」指「推動改革」。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-20"
     },
@@ -3228,11 +3040,9 @@ export default {
       "masked": "Senior managers ____ for a quicker response.",
       "options": [
         "push-mcq-20",
-        "push-mcq-19",
-        "push-mcq-21",
-        "push-mcq-18",
-        "push-mcq-22",
-        "push-mcq-17"
+        "push-mcq-15",
+        "push-mcq-36",
+        "push-pdf-001"
       ],
       "explanation": "本句的「pushed」指「推動改革」。",
       "sentenceIndex": 53,
@@ -3241,12 +3051,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-20": "本句指「推動改革」。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-17": "「逼某人做」與本句語境不同。"
+        "push-mcq-20": "本句的「pushed」指「推動改革」。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-20"
     },
@@ -3258,11 +3066,9 @@ export default {
       "masked": "She strongly ____.",
       "options": [
         "push-mcq-21",
-        "push-mcq-20",
-        "push-mcq-22",
-        "push-mcq-19",
-        "push-mcq-23",
-        "push-mcq-18"
+        "push-mcq-41",
+        "push-mcq-25",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「pushed the proposal」指「力推想法」。",
       "sentenceIndex": 54,
@@ -3271,12 +3077,10 @@ export default {
         "pushed the proposal"
       ],
       "optionReasons": {
-        "push-mcq-21": "本句指「力推想法」。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。"
+        "push-mcq-21": "本句的「pushed the proposal」指「力推想法」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-21"
     },
@@ -3288,11 +3092,9 @@ export default {
       "masked": "Management is ____ a new approach to teamwork.",
       "options": [
         "push-mcq-21",
-        "push-mcq-20",
-        "push-mcq-22",
-        "push-mcq-19",
-        "push-mcq-23",
-        "push-mcq-18"
+        "push-mcq-30",
+        "push-mcq-40",
+        "push-mcq-29"
       ],
       "explanation": "本句的「pushing」指「力推想法」。",
       "sentenceIndex": 55,
@@ -3301,12 +3103,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-21": "本句指「力推想法」。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-18": "「把某人逼得太過分」與本句語境不同。"
+        "push-mcq-21": "本句的「pushing」指「力推想法」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-21"
     },
@@ -3318,11 +3118,9 @@ export default {
       "masked": "He was accused of ____.",
       "options": [
         "push-mcq-22",
-        "push-mcq-21",
-        "push-mcq-23",
-        "push-mcq-20",
-        "push-mcq-24",
-        "push-mcq-19"
+        "push-mcq-07",
+        "push-mcq-52",
+        "push-mcq-30"
       ],
       "explanation": "本句的「pushing his own agenda」指「推動議程／主張」。",
       "sentenceIndex": 56,
@@ -3331,12 +3129,10 @@ export default {
         "pushing his own agenda"
       ],
       "optionReasons": {
-        "push-mcq-22": "本句指「推動議程／主張」。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。"
+        "push-mcq-22": "本句的「pushing his own agenda」指「推動議程／主張」。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-22"
     },
@@ -3348,11 +3144,9 @@ export default {
       "masked": "The meeting should solve problems rather than ____ personal agendas.",
       "options": [
         "push-mcq-22",
-        "push-mcq-21",
-        "push-mcq-23",
-        "push-mcq-20",
-        "push-mcq-24",
-        "push-mcq-19"
+        "push-mcq-17",
+        "push-reviewed-5f76d6143d",
+        "push-pdf-001"
       ],
       "explanation": "本句的「push」指「推動議程／主張」。",
       "sentenceIndex": 57,
@@ -3361,12 +3155,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-22": "本句指「推動議程／主張」。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-19": "「力爭／積極要求 X」與本句語境不同。"
+        "push-mcq-22": "本句的「push」指「推動議程／主張」。",
+        "push-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-22"
     },
@@ -3378,11 +3170,9 @@ export default {
       "masked": "The campaign ____.",
       "options": [
         "push-mcq-23",
-        "push-mcq-22",
-        "push-mcq-24",
-        "push-mcq-21",
-        "push-mcq-25",
-        "push-mcq-20"
+        "push-mcq-33",
+        "push-mcq-12",
+        "push-mcq-53"
       ],
       "explanation": "本句的「pushed a message of cooperation」指「大力傳播訊息」。",
       "sentenceIndex": 58,
@@ -3391,12 +3181,10 @@ export default {
         "pushed a message of cooperation"
       ],
       "optionReasons": {
-        "push-mcq-23": "本句指「大力傳播訊息」。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。"
+        "push-mcq-23": "本句的「pushed a message of cooperation」指「大力傳播訊息」。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-23"
     },
@@ -3408,11 +3196,9 @@ export default {
       "masked": "The company is ____ the message that the product is environmentally friendly.",
       "options": [
         "push-mcq-23",
-        "push-mcq-22",
-        "push-mcq-24",
-        "push-mcq-21",
-        "push-mcq-25",
-        "push-mcq-20"
+        "push-mcq-11",
+        "push-mcq-53",
+        "push-mcq-60"
       ],
       "explanation": "本句的「pushing」指「大力傳播訊息」。",
       "sentenceIndex": 59,
@@ -3421,12 +3207,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-23": "本句指「大力傳播訊息」。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-20": "「推動改革」與本句語境不同。"
+        "push-mcq-23": "本句的「pushing」指「大力傳播訊息」。",
+        "push-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-23"
     },
@@ -3438,11 +3222,9 @@ export default {
       "masked": "Management ____ a new remote-work policy.",
       "options": [
         "push-mcq-24",
-        "push-mcq-23",
-        "push-mcq-25",
-        "push-mcq-22",
-        "push-mcq-26",
-        "push-mcq-21"
+        "push-mcq-40",
+        "push-mcq-07",
+        "push-mcq-44"
       ],
       "explanation": "本句的「pushed」指「大力推銷產品」。",
       "sentenceIndex": 60,
@@ -3451,12 +3233,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-24": "本句指「大力推銷產品」。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。"
+        "push-mcq-24": "本句的「pushed」指「大力推銷產品」。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-24"
     },
@@ -3468,11 +3248,9 @@ export default {
       "masked": "She ____ the policy despite internal resistance.",
       "options": [
         "push-mcq-24",
-        "push-mcq-23",
-        "push-mcq-25",
-        "push-mcq-22",
-        "push-mcq-26",
-        "push-mcq-21"
+        "push-mcq-53",
+        "push-mcq-42",
+        "push-mcq-48"
       ],
       "explanation": "本句的「pushed」指「大力推銷產品」。",
       "sentenceIndex": 61,
@@ -3481,12 +3259,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-24": "本句指「大力推銷產品」。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。"
+        "push-mcq-24": "本句的「pushed」指「大力推銷產品」。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-24"
     },
@@ -3498,11 +3274,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "push-mcq-24",
-        "push-mcq-23",
-        "push-mcq-25",
-        "push-mcq-22",
-        "push-mcq-26",
-        "push-mcq-21"
+        "push-mcq-36",
+        "push-mcq-30",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「pushing its new product heavily」指「大力推銷產品」。",
       "sentenceIndex": 62,
@@ -3511,12 +3285,10 @@ export default {
         "pushing its new product heavily"
       ],
       "optionReasons": {
-        "push-mcq-24": "本句指「大力推銷產品」。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。"
+        "push-mcq-24": "本句的「pushing its new product heavily」指「大力推銷產品」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-24"
     },
@@ -3528,11 +3300,9 @@ export default {
       "masked": "Sales staff were encouraged to ____ the premium package.",
       "options": [
         "push-mcq-24",
-        "push-mcq-23",
-        "push-mcq-25",
-        "push-mcq-22",
-        "push-mcq-26",
-        "push-mcq-21"
+        "push-mcq-37",
+        "push-mcq-09",
+        "push-mcq-06"
       ],
       "explanation": "本句的「push」指「大力推銷產品」。",
       "sentenceIndex": 63,
@@ -3541,12 +3311,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-24": "本句指「大力推銷產品」。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-21": "「力推想法」與本句語境不同。"
+        "push-mcq-24": "本句的「push」指「大力推銷產品」。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-24"
     },
@@ -3558,11 +3326,9 @@ export default {
       "masked": "Discounts were introduced to ____.",
       "options": [
         "push-mcq-25",
-        "push-mcq-24",
-        "push-mcq-26",
-        "push-mcq-23",
-        "push-mcq-27",
-        "push-mcq-22"
+        "push-mcq-22",
+        "push-mcq-06",
+        "push-mcq-44"
       ],
       "explanation": "本句的「push sales」指「刺激銷售」。",
       "sentenceIndex": 64,
@@ -3571,12 +3337,10 @@ export default {
         "push sales"
       ],
       "optionReasons": {
-        "push-mcq-25": "本句指「刺激銷售」。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。"
+        "push-mcq-25": "本句的「push sales」指「刺激銷售」。",
+        "push-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-25"
     },
@@ -3588,11 +3352,9 @@ export default {
       "masked": "The campaign helped ____ sales higher.",
       "options": [
         "push-mcq-25",
-        "push-mcq-24",
-        "push-mcq-26",
-        "push-mcq-23",
-        "push-mcq-27",
-        "push-mcq-22"
+        "push-mcq-34",
+        "push-mcq-08",
+        "push-mcq-23"
       ],
       "explanation": "本句的「push」指「刺激銷售」。",
       "sentenceIndex": 65,
@@ -3601,12 +3363,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-25": "本句指「刺激銷售」。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-22": "「推動議程／主張」與本句語境不同。"
+        "push-mcq-25": "本句的「push」指「刺激銷售」。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-25"
     },
@@ -3618,11 +3378,9 @@ export default {
       "masked": "The company launched a major ____ before Christmas.",
       "options": [
         "push-mcq-26",
-        "push-mcq-25",
-        "push-mcq-27",
-        "push-mcq-24",
-        "push-mcq-28",
-        "push-mcq-23"
+        "push-mcq-40",
+        "push-mcq-15",
+        "push-mcq-54"
       ],
       "explanation": "本句的「sales push」指「銷售攻勢」。",
       "sentenceIndex": 66,
@@ -3631,12 +3389,10 @@ export default {
         "sales push"
       ],
       "optionReasons": {
-        "push-mcq-26": "本句指「銷售攻勢」。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。"
+        "push-mcq-26": "本句的「sales push」指「銷售攻勢」。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-26"
     },
@@ -3648,11 +3404,9 @@ export default {
       "masked": "The new campaign is part of a wider sales ____.",
       "options": [
         "push-mcq-26",
-        "push-mcq-25",
-        "push-mcq-27",
-        "push-mcq-24",
-        "push-mcq-28",
-        "push-mcq-23"
+        "push-pdf-002",
+        "push-reviewed-5f76d6143d",
+        "push-mcq-42"
       ],
       "explanation": "本句的「push」指「銷售攻勢」。",
       "sentenceIndex": 67,
@@ -3661,12 +3415,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-26": "本句指「銷售攻勢」。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-23": "「大力傳播訊息」與本句語境不同。"
+        "push-mcq-26": "本句的「push」指「銷售攻勢」。",
+        "push-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-26"
     },
@@ -3678,11 +3430,9 @@ export default {
       "masked": "The brand began a major ____.",
       "options": [
         "push-mcq-27",
-        "push-mcq-26",
-        "push-mcq-28",
-        "push-mcq-25",
-        "push-mcq-29",
-        "push-mcq-24"
+        "push-mcq-36",
+        "push-mcq-12",
+        "push-mcq-53"
       ],
       "explanation": "本句的「marketing push」指「市場推廣攻勢」。",
       "sentenceIndex": 68,
@@ -3691,12 +3441,10 @@ export default {
         "marketing push"
       ],
       "optionReasons": {
-        "push-mcq-27": "本句指「市場推廣攻勢」。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。"
+        "push-mcq-27": "本句的「marketing push」指「市場推廣攻勢」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-27"
     },
@@ -3708,11 +3456,9 @@ export default {
       "masked": "A stronger marketing ____ may increase awareness.",
       "options": [
         "push-mcq-27",
-        "push-mcq-26",
-        "push-mcq-28",
+        "push-mcq-45",
         "push-mcq-25",
-        "push-mcq-29",
-        "push-mcq-24"
+        "push-mcq-12"
       ],
       "explanation": "本句的「push」指「市場推廣攻勢」。",
       "sentenceIndex": 69,
@@ -3721,12 +3467,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-27": "本句指「市場推廣攻勢」。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-24": "「大力推銷產品」與本句語境不同。"
+        "push-mcq-27": "本句的「push」指「市場推廣攻勢」。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-27"
     },
@@ -3738,11 +3482,9 @@ export default {
       "masked": "The salesperson was too ____.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-25",
+        "push-mcq-52",
+        "push-mcq-53"
       ],
       "explanation": "本句的「pushy」指「推高價格」。",
       "sentenceIndex": 70,
@@ -3751,12 +3493,10 @@ export default {
         "pushy"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「pushy」指「推高價格」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3768,11 +3508,9 @@ export default {
       "masked": "Customers dislike ____ sales tactics.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-36",
+        "push-mcq-40",
+        "push-mcq-43"
       ],
       "explanation": "本句的「pushy」指「推高價格」。",
       "sentenceIndex": 71,
@@ -3781,12 +3519,10 @@ export default {
         "pushy"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「pushy」指「推高價格」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3798,11 +3534,9 @@ export default {
       "masked": "Strong demand ____.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-19",
+        "push-mcq-53",
+        "push-mcq-23"
       ],
       "explanation": "本句的「pushed prices up」指「推高價格」。",
       "sentenceIndex": 72,
@@ -3811,12 +3545,10 @@ export default {
         "pushed prices up"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「pushed prices up」指「推高價格」。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3828,11 +3560,9 @@ export default {
       "masked": "Higher costs may ____ prices up further.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
         "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-44",
+        "push-mcq-36"
       ],
       "explanation": "本句的「push」指「推高價格」。",
       "sentenceIndex": 73,
@@ -3841,12 +3571,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「push」指「推高價格」。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3858,11 +3586,9 @@ export default {
       "masked": "Rising wages ____.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-16",
+        "push-mcq-44",
+        "push-pdf-001"
       ],
       "explanation": "本句的「pushed costs up」指「推高價格」。",
       "sentenceIndex": 74,
@@ -3871,12 +3597,10 @@ export default {
         "pushed costs up"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「pushed costs up」指「推高價格」。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3888,11 +3612,9 @@ export default {
       "masked": "Delays can ____ project costs up.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-35",
+        "push-mcq-48",
+        "push-mcq-30"
       ],
       "explanation": "本句的「push」指「推高價格」。",
       "sentenceIndex": 75,
@@ -3901,12 +3623,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「push」指「推高價格」。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3918,11 +3638,9 @@ export default {
       "masked": "Energy prices can ____.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-19",
+        "push-mcq-05",
+        "push-mcq-37"
       ],
       "explanation": "本句的「push inflation up」指「推高價格」。",
       "sentenceIndex": 76,
@@ -3931,12 +3649,10 @@ export default {
         "push inflation up"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「push inflation up」指「推高價格」。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3948,11 +3664,9 @@ export default {
       "masked": "Supply shortages ____ inflation higher.",
       "options": [
         "push-mcq-28",
-        "push-mcq-27",
-        "push-mcq-29",
-        "push-mcq-26",
-        "push-mcq-30",
-        "push-mcq-25"
+        "push-mcq-36",
+        "push-mcq-50",
+        "push-mcq-35"
       ],
       "explanation": "本句的「pushed」指「推高價格」。",
       "sentenceIndex": 77,
@@ -3961,12 +3675,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-28": "本句指「推高價格」。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-25": "「刺激銷售」與本句語境不同。"
+        "push-mcq-28": "本句的「pushed」指「推高價格」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-28"
     },
@@ -3978,11 +3690,9 @@ export default {
       "masked": "Competition ____.",
       "options": [
         "push-mcq-29",
-        "push-mcq-28",
-        "push-mcq-30",
-        "push-mcq-27",
-        "push-mcq-31",
-        "push-mcq-26"
+        "push-mcq-20",
+        "push-mcq-50",
+        "push-mcq-39"
       ],
       "explanation": "本句的「pushed prices down」指「壓低成本」。",
       "sentenceIndex": 78,
@@ -3991,12 +3701,10 @@ export default {
         "pushed prices down"
       ],
       "optionReasons": {
-        "push-mcq-29": "本句指「壓低成本」。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。"
+        "push-mcq-29": "本句的「pushed prices down」指「壓低成本」。",
+        "push-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-39": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-29"
     },
@@ -4008,11 +3716,9 @@ export default {
       "masked": "Automation may ____ production costs down.",
       "options": [
         "push-mcq-29",
-        "push-mcq-28",
+        "push-mcq-16",
         "push-mcq-30",
-        "push-mcq-27",
-        "push-mcq-31",
-        "push-mcq-26"
+        "push-mcq-33"
       ],
       "explanation": "本句的「push」指「壓低成本」。",
       "sentenceIndex": 79,
@@ -4021,12 +3727,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-29": "本句指「壓低成本」。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-26": "「銷售攻勢」與本句語境不同。"
+        "push-mcq-29": "本句的「push」指「壓低成本」。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-29"
     },
@@ -4038,11 +3742,9 @@ export default {
       "masked": "Demand ____.",
       "options": [
         "push-mcq-30",
-        "push-mcq-29",
-        "push-mcq-31",
-        "push-mcq-28",
-        "push-mcq-32",
-        "push-mcq-27"
+        "push-mcq-04",
+        "push-mcq-43",
+        "push-mcq-09"
       ],
       "explanation": "本句的「pushed prices to record levels」指「令 X 達某水平」。",
       "sentenceIndex": 80,
@@ -4051,12 +3753,10 @@ export default {
         "pushed prices to record levels"
       ],
       "optionReasons": {
-        "push-mcq-30": "本句指「令 X 達某水平」。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。"
+        "push-mcq-30": "本句的「pushed prices to record levels」指「令 X 達某水平」。",
+        "push-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-30"
     },
@@ -4068,11 +3768,9 @@ export default {
       "masked": "The delay ____ costs to $5 million.",
       "options": [
         "push-mcq-30",
+        "push-mcq-03",
         "push-mcq-29",
-        "push-mcq-31",
-        "push-mcq-28",
-        "push-mcq-32",
-        "push-mcq-27"
+        "push-mcq-60"
       ],
       "explanation": "本句的「pushed」指「令 X 達某水平」。",
       "sentenceIndex": 81,
@@ -4081,12 +3779,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-30": "本句指「令 X 達某水平」。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-27": "「市場推廣攻勢」與本句語境不同。"
+        "push-mcq-30": "本句的「pushed」指「令 X 達某水平」。",
+        "push-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-30"
     },
@@ -4098,11 +3794,9 @@ export default {
       "masked": "The losses ____.",
       "options": [
         "push-pdf-001",
-        "push-mcq-30",
-        "push-mcq-32",
-        "push-mcq-29",
-        "push-mcq-33",
-        "push-mcq-28"
+        "push-mcq-41",
+        "push-mcq-28",
+        "push-mcq-37"
       ],
       "explanation": "本句的「pushed the company into financial difficulty」指「成為強大原因，使 X 進入 Y 狀態」。",
       "sentenceIndex": 82,
@@ -4111,12 +3805,10 @@ export default {
         "pushed the company into financial difficulty"
       ],
       "optionReasons": {
-        "push-pdf-001": "本句指「成為強大原因，使 X 進入 Y 狀態」。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。"
+        "push-pdf-001": "本句的「pushed the company into financial difficulty」指「成為強大原因，使 X 進入 Y 狀態」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-pdf-001"
     },
@@ -4128,11 +3820,9 @@ export default {
       "masked": "Stress can ____ workers into burnout.",
       "options": [
         "push-pdf-001",
-        "push-mcq-30",
-        "push-mcq-32",
-        "push-mcq-29",
-        "push-mcq-33",
-        "push-mcq-28"
+        "push-mcq-47",
+        "push-mcq-25",
+        "push-mcq-06"
       ],
       "explanation": "本句的「push」指「成為強大原因，使 X 進入 Y 狀態」。",
       "sentenceIndex": 83,
@@ -4141,12 +3831,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-pdf-001": "本句指「成為強大原因，使 X 進入 Y 狀態」。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-28": "「推高價格」與本句語境不同。"
+        "push-pdf-001": "本句的「push」指「成為強大原因，使 X 進入 Y 狀態」。",
+        "push-mcq-47": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-pdf-001"
     },
@@ -4158,11 +3846,9 @@ export default {
       "masked": "Despite the disagreement, the team ____.",
       "options": [
         "push-mcq-32",
-        "push-mcq-31",
-        "push-mcq-33",
-        "push-mcq-30",
-        "push-mcq-34",
-        "push-mcq-29"
+        "push-mcq-15",
+        "push-mcq-42",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「pushed ahead」指「繼續推進」。",
       "sentenceIndex": 84,
@@ -4171,12 +3857,10 @@ export default {
         "pushed ahead"
       ],
       "optionReasons": {
-        "push-mcq-32": "本句指「繼續推進」。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。"
+        "push-mcq-32": "本句的「pushed ahead」指「繼續推進」。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-32"
     },
@@ -4188,11 +3872,9 @@ export default {
       "masked": "The company ____ ahead with the launch.",
       "options": [
         "push-mcq-32",
-        "push-mcq-31",
-        "push-mcq-33",
-        "push-mcq-30",
-        "push-mcq-34",
-        "push-mcq-29"
+        "push-mcq-19",
+        "push-mcq-40",
+        "push-mcq-16"
       ],
       "explanation": "本句的「pushed」指「繼續推進」。",
       "sentenceIndex": 85,
@@ -4201,12 +3883,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-32": "本句指「繼續推進」。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。"
+        "push-mcq-32": "本句的「pushed」指「繼續推進」。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-32"
     },
@@ -4218,11 +3898,9 @@ export default {
       "masked": "Management ____.",
       "options": [
         "push-mcq-32",
-        "push-mcq-31",
-        "push-mcq-33",
-        "push-mcq-30",
-        "push-mcq-34",
-        "push-mcq-29"
+        "push-mcq-42",
+        "push-mcq-16",
+        "push-mcq-23"
       ],
       "explanation": "本句的「pushed ahead with the restructuring」指「繼續推進」。",
       "sentenceIndex": 86,
@@ -4231,12 +3909,10 @@ export default {
         "pushed ahead with the restructuring"
       ],
       "optionReasons": {
-        "push-mcq-32": "本句指「繼續推進」。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。"
+        "push-mcq-32": "本句的「pushed ahead with the restructuring」指「繼續推進」。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-32"
     },
@@ -4248,11 +3924,9 @@ export default {
       "masked": "They decided to ____ ahead with the project.",
       "options": [
         "push-mcq-32",
-        "push-mcq-31",
-        "push-mcq-33",
-        "push-mcq-30",
-        "push-mcq-34",
-        "push-mcq-29"
+        "push-mcq-43",
+        "push-mcq-40",
+        "push-mcq-48"
       ],
       "explanation": "本句的「push」指「繼續推進」。",
       "sentenceIndex": 87,
@@ -4261,12 +3935,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-32": "本句指「繼續推進」。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-29": "「壓低成本」與本句語境不同。"
+        "push-mcq-32": "本句的「push」指「繼續推進」。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-32"
     },
@@ -4278,11 +3950,9 @@ export default {
       "masked": "The team is trying to ____.",
       "options": [
         "push-mcq-33",
-        "push-mcq-32",
-        "push-mcq-34",
-        "push-mcq-31",
-        "push-mcq-35",
-        "push-mcq-30"
+        "push-mcq-29",
+        "push-mcq-44",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「push the project forward」指「向前推進」。",
       "sentenceIndex": 88,
@@ -4291,12 +3961,10 @@ export default {
         "push the project forward"
       ],
       "optionReasons": {
-        "push-mcq-33": "本句指「向前推進」。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。"
+        "push-mcq-33": "本句的「push the project forward」指「向前推進」。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-33"
     },
@@ -4308,11 +3976,9 @@ export default {
       "masked": "Better communication can ____ negotiations forward.",
       "options": [
         "push-mcq-33",
-        "push-mcq-32",
-        "push-mcq-34",
-        "push-mcq-31",
-        "push-mcq-35",
-        "push-mcq-30"
+        "push-mcq-48",
+        "push-mcq-05",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「push」指「向前推進」。",
       "sentenceIndex": 89,
@@ -4321,12 +3987,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-33": "本句指「向前推進」。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-30": "「令 X 達某水平」與本句語境不同。"
+        "push-mcq-33": "本句的「push」指「向前推進」。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-33"
     },
@@ -4338,11 +4002,9 @@ export default {
       "masked": "We were tired but decided to ____.",
       "options": [
         "push-mcq-34",
-        "push-mcq-33",
-        "push-mcq-35",
-        "push-mcq-32",
-        "push-mcq-36",
-        "push-mcq-31"
+        "push-mcq-57",
+        "push-mcq-59",
+        "push-mcq-54"
       ],
       "explanation": "本句的「push on」指「繼續前進」。",
       "sentenceIndex": 90,
@@ -4351,12 +4013,10 @@ export default {
         "push on"
       ],
       "optionReasons": {
-        "push-mcq-34": "本句指「繼續前進」。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。"
+        "push-mcq-34": "本句的「push on」指「繼續前進」。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-34"
     },
@@ -4368,11 +4028,9 @@ export default {
       "masked": "The team ____ on with the work.",
       "options": [
         "push-mcq-34",
-        "push-mcq-33",
-        "push-mcq-35",
-        "push-mcq-32",
-        "push-mcq-36",
-        "push-mcq-31"
+        "push-mcq-53",
+        "push-mcq-23",
+        "push-mcq-14"
       ],
       "explanation": "本句的「pushed」指「繼續前進」。",
       "sentenceIndex": 91,
@@ -4381,12 +4039,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-34": "本句指「繼續前進」。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-31": "「使 X 陷入 Y」與本句語境不同。"
+        "push-mcq-34": "本句的「pushed」指「繼續前進」。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-34"
     },
@@ -4398,11 +4054,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "push-mcq-35",
-        "push-mcq-34",
-        "push-mcq-36",
+        "push-mcq-59",
         "push-mcq-33",
-        "push-mcq-37",
-        "push-mcq-32"
+        "push-mcq-07"
       ],
       "explanation": "本句的「pushed the changes through quickly」指「奮力完成／強行通過」。",
       "sentenceIndex": 92,
@@ -4411,12 +4065,10 @@ export default {
         "pushed the changes through quickly"
       ],
       "optionReasons": {
-        "push-mcq-35": "本句指「奮力完成／強行通過」。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。"
+        "push-mcq-35": "本句的「pushed the changes through quickly」指「奮力完成／強行通過」。",
+        "push-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-35"
     },
@@ -4428,11 +4080,9 @@ export default {
       "masked": "They ____ the application through the system.",
       "options": [
         "push-mcq-35",
-        "push-mcq-34",
-        "push-mcq-36",
-        "push-mcq-33",
-        "push-mcq-37",
-        "push-mcq-32"
+        "push-mcq-25",
+        "push-mcq-40",
+        "push-mcq-09"
       ],
       "explanation": "本句的「pushed」指「奮力完成／強行通過」。",
       "sentenceIndex": 93,
@@ -4441,12 +4091,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-35": "本句指「奮力完成／強行通過」。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-32": "「繼續推進」與本句語境不同。"
+        "push-mcq-35": "本句的「pushed」指「奮力完成／強行通過」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-35"
     },
@@ -4458,11 +4106,9 @@ export default {
       "masked": "Employees ____.",
       "options": [
         "push-mcq-36",
-        "push-mcq-35",
-        "push-mcq-37",
-        "push-mcq-34",
-        "push-mcq-38",
-        "push-mcq-33"
+        "push-mcq-42",
+        "push-mcq-57",
+        "push-mcq-48"
       ],
       "explanation": "本句的「pushed back against the new rule」指「反對／抵制」。",
       "sentenceIndex": 94,
@@ -4471,12 +4117,10 @@ export default {
         "pushed back against the new rule"
       ],
       "optionReasons": {
-        "push-mcq-36": "本句指「反對／抵制」。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。"
+        "push-mcq-36": "本句的「pushed back against the new rule」指「反對／抵制」。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-36"
     },
@@ -4488,11 +4132,9 @@ export default {
       "masked": "She ____ back when the deadline was shortened.",
       "options": [
         "push-mcq-36",
-        "push-mcq-35",
-        "push-mcq-37",
-        "push-mcq-34",
-        "push-mcq-38",
-        "push-mcq-33"
+        "push-mcq-60",
+        "push-mcq-11",
+        "push-mcq-50"
       ],
       "explanation": "本句的「pushed」指「反對／抵制」。",
       "sentenceIndex": 95,
@@ -4501,12 +4143,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-36": "本句指「反對／抵制」。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。"
+        "push-mcq-36": "本句的「pushed」指「反對／抵制」。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-36"
     },
@@ -4518,11 +4158,9 @@ export default {
       "masked": "Staff ____.",
       "options": [
         "push-mcq-36",
-        "push-mcq-35",
-        "push-mcq-37",
-        "push-mcq-34",
-        "push-mcq-38",
-        "push-mcq-33"
+        "push-mcq-18",
+        "push-mcq-33",
+        "push-mcq-57"
       ],
       "explanation": "本句的「pushed back against unrealistic targets」指「反對／抵制」。",
       "sentenceIndex": 96,
@@ -4531,12 +4169,10 @@ export default {
         "pushed back against unrealistic targets"
       ],
       "optionReasons": {
-        "push-mcq-36": "本句指「反對／抵制」。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。"
+        "push-mcq-36": "本句的「pushed back against unrealistic targets」指「反對／抵制」。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-36"
     },
@@ -4548,11 +4184,9 @@ export default {
       "masked": "Several departments ____ back against the proposal.",
       "options": [
         "push-mcq-36",
-        "push-mcq-35",
-        "push-mcq-37",
-        "push-mcq-34",
-        "push-mcq-38",
-        "push-mcq-33"
+        "push-pdf-001",
+        "push-mcq-05",
+        "push-mcq-48"
       ],
       "explanation": "本句的「pushed」指「反對／抵制」。",
       "sentenceIndex": 97,
@@ -4561,12 +4195,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-36": "本句指「反對／抵制」。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-33": "「向前推進」與本句語境不同。"
+        "push-mcq-36": "本句的「pushed」指「反對／抵制」。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-36"
     },
@@ -4578,11 +4210,9 @@ export default {
       "masked": "The plan received strong ____ from employees.",
       "options": [
         "push-mcq-38",
-        "push-mcq-37",
-        "push-mcq-39",
-        "push-mcq-36",
-        "push-mcq-40",
-        "push-mcq-35"
+        "push-mcq-02",
+        "push-mcq-12",
+        "push-mcq-60"
       ],
       "explanation": "本句的「pushback」指「反對；阻力」。",
       "sentenceIndex": 98,
@@ -4591,12 +4221,10 @@ export default {
         "pushback"
       ],
       "optionReasons": {
-        "push-mcq-38": "本句指「反對；阻力」。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。"
+        "push-mcq-38": "本句的「pushback」指「反對；阻力」。",
+        "push-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-38"
     },
@@ -4608,11 +4236,9 @@ export default {
       "masked": "Management was surprised by the amount of ____.",
       "options": [
         "push-mcq-38",
-        "push-mcq-37",
-        "push-mcq-39",
-        "push-mcq-36",
-        "push-mcq-40",
-        "push-mcq-35"
+        "push-mcq-11",
+        "push-mcq-34",
+        "push-mcq-25"
       ],
       "explanation": "本句的「pushback」指「反對；阻力」。",
       "sentenceIndex": 99,
@@ -4621,12 +4247,10 @@ export default {
         "pushback"
       ],
       "optionReasons": {
-        "push-mcq-38": "本句指「反對；阻力」。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。"
+        "push-mcq-38": "本句的「pushback」指「反對；阻力」。",
+        "push-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-38"
     },
@@ -4638,11 +4262,9 @@ export default {
       "masked": "We had to ____.",
       "options": [
         "push-mcq-37",
-        "push-mcq-36",
-        "push-mcq-38",
-        "push-mcq-35",
-        "push-mcq-39",
-        "push-mcq-34"
+        "push-mcq-43",
+        "push-mcq-10",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「push the deadline back by a week」指「延後」。",
       "sentenceIndex": 100,
@@ -4651,12 +4273,10 @@ export default {
         "push the deadline back by a week"
       ],
       "optionReasons": {
-        "push-mcq-37": "本句指「延後」。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。"
+        "push-mcq-37": "本句的「push the deadline back by a week」指「延後」。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-37"
     },
@@ -4668,11 +4288,9 @@ export default {
       "masked": "The launch was ____ back to October.",
       "options": [
         "push-mcq-37",
-        "push-mcq-36",
-        "push-mcq-38",
-        "push-mcq-35",
-        "push-mcq-39",
-        "push-mcq-34"
+        "push-mcq-09",
+        "push-mcq-57",
+        "push-mcq-12"
       ],
       "explanation": "本句的「pushed」指「延後」。",
       "sentenceIndex": 101,
@@ -4681,12 +4299,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-37": "本句指「延後」。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。"
+        "push-mcq-37": "本句的「pushed」指「延後」。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-37"
     },
@@ -4698,11 +4314,9 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "push-mcq-37",
-        "push-mcq-36",
-        "push-mcq-38",
-        "push-mcq-35",
-        "push-mcq-39",
-        "push-mcq-34"
+        "push-mcq-03",
+        "push-mcq-18",
+        "push-mcq-38"
       ],
       "explanation": "本句的「push the meeting back to three o'clock」指「延後」。",
       "sentenceIndex": 102,
@@ -4711,12 +4325,10 @@ export default {
         "push the meeting back to three o'clock"
       ],
       "optionReasons": {
-        "push-mcq-37": "本句指「延後」。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。"
+        "push-mcq-37": "本句的「push the meeting back to three o'clock」指「延後」。",
+        "push-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-37"
     },
@@ -4728,11 +4340,9 @@ export default {
       "masked": "The review was ____ back until Friday.",
       "options": [
         "push-mcq-37",
-        "push-mcq-36",
-        "push-mcq-38",
-        "push-mcq-35",
-        "push-mcq-39",
-        "push-mcq-34"
+        "push-mcq-41",
+        "push-mcq-28",
+        "push-mcq-26"
       ],
       "explanation": "本句的「pushed」指「延後」。",
       "sentenceIndex": 103,
@@ -4741,12 +4351,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-37": "本句指「延後」。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-35": "「奮力完成／強行通過」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-34": "「繼續前進」與本句語境不同。"
+        "push-mcq-37": "本句的「pushed」指「延後」。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-37"
     },
@@ -4758,11 +4366,9 @@ export default {
       "masked": "He felt he was being ____.",
       "options": [
         "push-mcq-40",
-        "push-mcq-39",
-        "push-mcq-41",
-        "push-mcq-38",
-        "push-mcq-42",
-        "push-mcq-37"
+        "push-mcq-59",
+        "push-mcq-51",
+        "push-mcq-41"
       ],
       "explanation": "本句的「pushed out of the team」指「排擠／迫使離開」。",
       "sentenceIndex": 104,
@@ -4771,12 +4377,10 @@ export default {
         "pushed out of the team"
       ],
       "optionReasons": {
-        "push-mcq-40": "本句指「排擠／迫使離開」。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。"
+        "push-mcq-40": "本句的「pushed out of the team」指「排擠／迫使離開」。",
+        "push-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-40"
     },
@@ -4788,11 +4392,9 @@ export default {
       "masked": "Several senior employees were ____ out during the restructuring.",
       "options": [
         "push-mcq-40",
-        "push-mcq-39",
-        "push-mcq-41",
-        "push-mcq-38",
-        "push-mcq-42",
-        "push-mcq-37"
+        "push-mcq-32",
+        "push-pdf-002",
+        "push-mcq-57"
       ],
       "explanation": "本句的「pushed」指「排擠／迫使離開」。",
       "sentenceIndex": 105,
@@ -4801,74 +4403,68 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-40": "本句指「排擠／迫使離開」。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。"
+        "push-mcq-40": "本句的「pushed」指「排擠／迫使離開」。",
+        "push-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-40"
     },
     {
       "id": "push-54-0",
-      "sense": "push-mcq-41",
+      "sense": "push-reviewed-5f76d6143d",
       "en": "She pushed her doubts aside and continued.",
       "zh": "她把疑慮暫時拋諸腦後，繼續前進。",
       "masked": "She ____ and continued.",
       "options": [
-        "push-mcq-41",
-        "push-mcq-40",
-        "push-mcq-42",
-        "push-mcq-39",
-        "push-mcq-43",
-        "push-mcq-38"
+        "push-reviewed-5f76d6143d",
+        "push-mcq-22",
+        "push-mcq-55",
+        "push-mcq-07"
       ],
-      "explanation": "本句的「pushed her doubts aside」指「擺布／欺負」。",
+      "explanation": "對照完整句子：「她把疑慮暫時拋諸腦後，繼續前進。」。這裡的「pushed her doubts aside」表示「把……擱在一旁；忽視」。",
       "sentenceIndex": 106,
       "sourcePractice": 1,
       "targets": [
         "pushed her doubts aside"
       ],
       "optionReasons": {
-        "push-mcq-41": "本句指「擺布／欺負」。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。"
+        "push-reviewed-5f76d6143d": "對照完整句子：「她把疑慮暫時拋諸腦後，繼續前進。」。這裡的「pushed her doubts aside」表示「把……擱在一旁；忽視」。",
+        "push-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-55": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "push-mcq-41"
+      "correctOption": "push-reviewed-5f76d6143d",
+      "previousCorrectOption": "push-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "push-54-1",
-      "sense": "push-mcq-41",
+      "sense": "push-reviewed-5f76d6143d",
       "en": "Quieter members should not be pushed aside.",
       "zh": "較安靜的成員不應被排擠／忽視。",
       "masked": "Quieter members should not be ____ aside.",
       "options": [
-        "push-mcq-41",
-        "push-mcq-40",
-        "push-mcq-42",
-        "push-mcq-39",
-        "push-mcq-43",
-        "push-mcq-38"
+        "push-reviewed-5f76d6143d",
+        "push-mcq-08",
+        "push-mcq-37",
+        "push-mcq-41"
       ],
-      "explanation": "本句的「pushed」指「擺布／欺負」。",
+      "explanation": "對照完整句子：「較安靜的成員不應被排擠／忽視。」。這裡的「pushed」表示「把……擱在一旁；忽視」。",
       "sentenceIndex": 107,
       "sourcePractice": 2,
       "targets": [
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-41": "本句指「擺布／欺負」。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。"
+        "push-reviewed-5f76d6143d": "對照完整句子：「較安靜的成員不應被排擠／忽視。」。這裡的「pushed」表示「把……擱在一旁；忽視」。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "push-mcq-41"
+      "correctOption": "push-reviewed-5f76d6143d",
+      "previousCorrectOption": "push-mcq-41",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "push-55-0",
@@ -4878,11 +4474,9 @@ export default {
       "masked": "Don't let people ____.",
       "options": [
         "push-mcq-41",
-        "push-mcq-40",
-        "push-mcq-42",
-        "push-mcq-39",
-        "push-mcq-43",
-        "push-mcq-38"
+        "push-mcq-22",
+        "push-pdf-001",
+        "push-mcq-43"
       ],
       "explanation": "本句的「push you around」指「擺布／欺負」。",
       "sentenceIndex": 108,
@@ -4891,12 +4485,10 @@ export default {
         "push you around"
       ],
       "optionReasons": {
-        "push-mcq-41": "本句指「擺布／欺負」。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。"
+        "push-mcq-41": "本句的「push you around」指「擺布／欺負」。",
+        "push-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-41"
     },
@@ -4908,11 +4500,9 @@ export default {
       "masked": "He was tired of being ____ around by his manager.",
       "options": [
         "push-mcq-41",
-        "push-mcq-40",
-        "push-mcq-42",
-        "push-mcq-39",
-        "push-mcq-43",
-        "push-mcq-38"
+        "push-mcq-53",
+        "push-mcq-27",
+        "push-mcq-56"
       ],
       "explanation": "本句的「pushed」指「擺布／欺負」。",
       "sentenceIndex": 109,
@@ -4921,12 +4511,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-41": "本句指「擺布／欺負」。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。"
+        "push-mcq-41": "本句的「pushed」指「擺布／欺負」。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-41"
     },
@@ -4938,11 +4526,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "push-mcq-42",
-        "push-mcq-41",
-        "push-mcq-43",
-        "push-mcq-40",
-        "push-mcq-44",
-        "push-mcq-39"
+        "push-mcq-12",
+        "push-mcq-45",
+        "push-mcq-26"
       ],
       "explanation": "本句的「pushing the limits of current technology」指「挑戰極限」。",
       "sentenceIndex": 110,
@@ -4951,12 +4537,10 @@ export default {
         "pushing the limits of current technology"
       ],
       "optionReasons": {
-        "push-mcq-42": "本句指「挑戰極限」。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。"
+        "push-mcq-42": "本句的「pushing the limits of current technology」指「挑戰極限」。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-42"
     },
@@ -4968,11 +4552,9 @@ export default {
       "masked": "Athletes constantly ____ their physical limits.",
       "options": [
         "push-mcq-42",
-        "push-mcq-41",
-        "push-mcq-43",
-        "push-mcq-40",
-        "push-mcq-44",
-        "push-mcq-39"
+        "push-mcq-22",
+        "push-mcq-27",
+        "push-mcq-16"
       ],
       "explanation": "本句的「push」指「挑戰極限」。",
       "sentenceIndex": 111,
@@ -4981,12 +4563,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-42": "本句指「挑戰極限」。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-39": "「飛機後推」與本句語境不同。"
+        "push-mcq-42": "本句的「push」指「挑戰極限」。",
+        "push-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-42"
     },
@@ -4998,11 +4578,9 @@ export default {
       "masked": "The designer is known for ____.",
       "options": [
         "push-mcq-43",
-        "push-mcq-42",
-        "push-mcq-44",
-        "push-mcq-41",
-        "push-mcq-45",
-        "push-mcq-40"
+        "push-mcq-50",
+        "push-mcq-30",
+        "push-mcq-16"
       ],
       "explanation": "本句的「pushing the boundaries」指「突破界限」。",
       "sentenceIndex": 112,
@@ -5011,12 +4589,10 @@ export default {
         "pushing the boundaries"
       ],
       "optionReasons": {
-        "push-mcq-43": "本句指「突破界限」。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。"
+        "push-mcq-43": "本句的「pushing the boundaries」指「突破界限」。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-43"
     },
@@ -5028,11 +4604,9 @@ export default {
       "masked": "Researchers continue to ____ the boundaries of knowledge.",
       "options": [
         "push-mcq-43",
-        "push-mcq-42",
-        "push-mcq-44",
-        "push-mcq-41",
-        "push-mcq-45",
-        "push-mcq-40"
+        "push-mcq-06",
+        "push-mcq-53",
+        "push-mcq-50"
       ],
       "explanation": "本句的「push」指「突破界限」。",
       "sentenceIndex": 113,
@@ -5041,12 +4615,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-43": "本句指「突破界限」。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。"
+        "push-mcq-43": "本句的「push」指「突破界限」。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-43"
     },
@@ -5058,11 +4630,9 @@ export default {
       "masked": "The new design ____.",
       "options": [
         "push-mcq-44",
-        "push-mcq-43",
-        "push-mcq-45",
-        "push-mcq-42",
-        "push-mcq-46",
-        "push-mcq-41"
+        "push-reviewed-db4d116d36",
+        "push-mcq-04",
+        "push-mcq-54"
       ],
       "explanation": "本句的「pushes the envelope」指「突破常規／極限」。",
       "sentenceIndex": 114,
@@ -5071,12 +4641,10 @@ export default {
         "pushes the envelope"
       ],
       "optionReasons": {
-        "push-mcq-44": "本句指「突破常規／極限」。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。"
+        "push-mcq-44": "本句的「pushes the envelope」指「突破常規／極限」。",
+        "push-reviewed-db4d116d36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-54": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-44"
     },
@@ -5088,11 +4656,9 @@ export default {
       "masked": "Innovative companies often try to ____ the envelope.",
       "options": [
         "push-mcq-44",
-        "push-mcq-43",
-        "push-mcq-45",
-        "push-mcq-42",
-        "push-mcq-46",
-        "push-mcq-41"
+        "push-pdf-001",
+        "push-mcq-33",
+        "push-mcq-60"
       ],
       "explanation": "本句的「push」指「突破常規／極限」。",
       "sentenceIndex": 115,
@@ -5101,12 +4667,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-44": "本句指「突破常規／極限」。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。"
+        "push-mcq-44": "本句的「push」指「突破常規／極限」。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-44"
     },
@@ -5118,11 +4682,9 @@ export default {
       "masked": "Can we ____?",
       "options": [
         "push-mcq-45",
-        "push-mcq-44",
-        "push-mcq-46",
-        "push-mcq-43",
-        "push-mcq-47",
-        "push-mcq-42"
+        "push-mcq-27",
+        "push-mcq-09",
+        "push-mcq-30"
       ],
       "explanation": "本句的「push this idea further」指「得寸進尺／試運氣過頭」。",
       "sentenceIndex": 116,
@@ -5131,12 +4693,10 @@ export default {
         "push this idea further"
       ],
       "optionReasons": {
-        "push-mcq-45": "本句指「得寸進尺／試運氣過頭」。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。"
+        "push-mcq-45": "本句的「push this idea further」指「得寸進尺／試運氣過頭」。",
+        "push-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-45"
     },
@@ -5149,10 +4709,8 @@ export default {
       "options": [
         "push-mcq-45",
         "push-mcq-44",
-        "push-mcq-46",
-        "push-mcq-43",
-        "push-mcq-47",
-        "push-mcq-42"
+        "push-mcq-07",
+        "push-mcq-56"
       ],
       "explanation": "本句的「pushes」指「得寸進尺／試運氣過頭」。",
       "sentenceIndex": 117,
@@ -5161,12 +4719,10 @@ export default {
         "pushes"
       ],
       "optionReasons": {
-        "push-mcq-45": "本句指「得寸進尺／試運氣過頭」。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。"
+        "push-mcq-45": "本句的「pushes」指「得寸進尺／試運氣過頭」。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-56": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-45"
     },
@@ -5178,11 +4734,9 @@ export default {
       "masked": "You've already been given an extension—don't ____.",
       "options": [
         "push-mcq-45",
-        "push-mcq-44",
-        "push-mcq-46",
-        "push-mcq-43",
-        "push-mcq-47",
-        "push-mcq-42"
+        "push-mcq-08",
+        "push-mcq-15",
+        "push-mcq-38"
       ],
       "explanation": "本句的「push your luck」指「得寸進尺／試運氣過頭」。",
       "sentenceIndex": 118,
@@ -5191,12 +4745,10 @@ export default {
         "push your luck"
       ],
       "optionReasons": {
-        "push-mcq-45": "本句指「得寸進尺／試運氣過頭」。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。"
+        "push-mcq-45": "本句的「push your luck」指「得寸進尺／試運氣過頭」。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-45"
     },
@@ -5208,11 +4760,9 @@ export default {
       "masked": "He kept asking for more until he ____ his luck too far.",
       "options": [
         "push-mcq-45",
-        "push-mcq-44",
-        "push-mcq-46",
-        "push-mcq-43",
-        "push-mcq-47",
-        "push-mcq-42"
+        "push-mcq-19",
+        "push-mcq-23",
+        "push-mcq-04"
       ],
       "explanation": "本句的「pushed」指「得寸進尺／試運氣過頭」。",
       "sentenceIndex": 119,
@@ -5221,12 +4771,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-45": "本句指「得寸進尺／試運氣過頭」。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。"
+        "push-mcq-45": "本句的「pushed」指「得寸進尺／試運氣過頭」。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-45"
     },
@@ -5238,11 +4786,9 @@ export default {
       "masked": "The joke was funny at first, but he ____.",
       "options": [
         "push-mcq-45",
-        "push-mcq-44",
-        "push-mcq-46",
-        "push-mcq-43",
-        "push-mcq-47",
-        "push-mcq-42"
+        "push-mcq-30",
+        "push-mcq-41",
+        "push-mcq-25"
       ],
       "explanation": "本句的「pushed it too far」指「得寸進尺／試運氣過頭」。",
       "sentenceIndex": 120,
@@ -5251,12 +4797,10 @@ export default {
         "pushed it too far"
       ],
       "optionReasons": {
-        "push-mcq-45": "本句指「得寸進尺／試運氣過頭」。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。"
+        "push-mcq-45": "本句的「pushed it too far」指「得寸進尺／試運氣過頭」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-45"
     },
@@ -5268,11 +4812,9 @@ export default {
       "masked": "Management risks ____ employees too far.",
       "options": [
         "push-mcq-45",
-        "push-mcq-44",
-        "push-mcq-46",
-        "push-mcq-43",
-        "push-mcq-47",
-        "push-mcq-42"
+        "push-mcq-25",
+        "push-mcq-24",
+        "push-mcq-15"
       ],
       "explanation": "本句的「pushing」指「得寸進尺／試運氣過頭」。",
       "sentenceIndex": 121,
@@ -5281,12 +4823,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-45": "本句指「得寸進尺／試運氣過頭」。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-42": "「挑戰極限」與本句語境不同。"
+        "push-mcq-45": "本句的「pushing」指「得寸進尺／試運氣過頭」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-45"
     },
@@ -5298,11 +4838,9 @@ export default {
       "masked": "Give the door ____.",
       "options": [
         "push-mcq-46",
-        "push-mcq-45",
-        "push-mcq-47",
-        "push-mcq-44",
-        "push-mcq-48",
-        "push-mcq-43"
+        "push-mcq-37",
+        "push-mcq-19",
+        "push-mcq-16"
       ],
       "explanation": "本句的「a push」指「一推」。",
       "sentenceIndex": 122,
@@ -5311,12 +4849,10 @@ export default {
         "a push"
       ],
       "optionReasons": {
-        "push-mcq-46": "本句指「一推」。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。"
+        "push-mcq-46": "本句的「a push」指「一推」。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-46"
     },
@@ -5328,11 +4864,9 @@ export default {
       "masked": "The car needed a ____.",
       "options": [
         "push-mcq-46",
-        "push-mcq-45",
-        "push-mcq-47",
-        "push-mcq-44",
-        "push-mcq-48",
-        "push-mcq-43"
+        "push-pdf-002",
+        "push-mcq-05",
+        "push-mcq-25"
       ],
       "explanation": "本句的「push」指「一推」。",
       "sentenceIndex": 123,
@@ -5341,12 +4875,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-46": "本句指「一推」。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。"
+        "push-mcq-46": "本句的「push」指「一推」。",
+        "push-pdf-002": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-46"
     },
@@ -5358,11 +4890,9 @@ export default {
       "masked": "Give the trolley ____.",
       "options": [
         "push-mcq-46",
-        "push-mcq-45",
-        "push-mcq-47",
-        "push-mcq-44",
         "push-mcq-48",
-        "push-mcq-43"
+        "push-mcq-16",
+        "push-mcq-19"
       ],
       "explanation": "本句的「a push」指「一推」。",
       "sentenceIndex": 124,
@@ -5371,12 +4901,10 @@ export default {
         "a push"
       ],
       "optionReasons": {
-        "push-mcq-46": "本句指「一推」。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。"
+        "push-mcq-46": "本句的「a push」指「一推」。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-46"
     },
@@ -5388,11 +4916,9 @@ export default {
       "masked": "He gave me a gentle ____ towards the door.",
       "options": [
         "push-mcq-46",
+        "push-mcq-53",
         "push-mcq-45",
-        "push-mcq-47",
-        "push-mcq-44",
-        "push-mcq-48",
-        "push-mcq-43"
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「push」指「一推」。",
       "sentenceIndex": 125,
@@ -5401,12 +4927,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-46": "本句指「一推」。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。"
+        "push-mcq-46": "本句的「push」指「一推」。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-46"
     },
@@ -5418,11 +4942,9 @@ export default {
       "masked": "The company launched ____.",
       "options": [
         "push-pdf-002",
+        "push-mcq-26",
         "push-mcq-46",
-        "push-mcq-48",
-        "push-mcq-45",
-        "push-mcq-49",
-        "push-mcq-44"
+        "push-mcq-53"
       ],
       "explanation": "本句的「a major push to improve communication」指「為達成某個目標而作出的集中、有組織的努力」。",
       "sentenceIndex": 128,
@@ -5431,12 +4953,10 @@ export default {
         "a major push to improve communication"
       ],
       "optionReasons": {
-        "push-pdf-002": "本句指「為達成某個目標而作出的集中、有組織的努力」。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。"
+        "push-pdf-002": "本句的「a major push to improve communication」指「為達成某個目標而作出的集中、有組織的努力」。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-46": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-pdf-002"
     },
@@ -5448,11 +4968,9 @@ export default {
       "masked": "There is a new ____ for greater accountability.",
       "options": [
         "push-pdf-002",
-        "push-mcq-46",
-        "push-mcq-48",
-        "push-mcq-45",
-        "push-mcq-49",
-        "push-mcq-44"
+        "push-mcq-44",
+        "push-mcq-33",
+        "push-mcq-12"
       ],
       "explanation": "本句的「push」指「為達成某個目標而作出的集中、有組織的努力」。",
       "sentenceIndex": 129,
@@ -5461,12 +4979,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-pdf-002": "本句指「為達成某個目標而作出的集中、有組織的努力」。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。"
+        "push-pdf-002": "本句的「push」指「為達成某個目標而作出的集中、有組織的努力」。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-pdf-002"
     },
@@ -5478,11 +4994,9 @@ export default {
       "masked": "There is a growing ____.",
       "options": [
         "push-mcq-47",
-        "push-mcq-46",
-        "push-mcq-48",
-        "push-mcq-45",
-        "push-mcq-49",
-        "push-mcq-44"
+        "push-mcq-16",
+        "push-mcq-42",
+        "push-mcq-40"
       ],
       "explanation": "本句的「push for flexible working」指「推動 X 的行動」。",
       "sentenceIndex": 130,
@@ -5491,12 +5005,10 @@ export default {
         "push for flexible working"
       ],
       "optionReasons": {
-        "push-mcq-47": "本句指「推動 X 的行動」。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。"
+        "push-mcq-47": "本句的「push for flexible working」指「推動 X 的行動」。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-47"
     },
@@ -5508,11 +5020,9 @@ export default {
       "masked": "The ____ for reform gained support.",
       "options": [
         "push-mcq-47",
-        "push-mcq-46",
-        "push-mcq-48",
-        "push-mcq-45",
-        "push-mcq-49",
-        "push-mcq-44"
+        "push-mcq-15",
+        "push-mcq-43",
+        "push-mcq-26"
       ],
       "explanation": "本句的「push」指「推動 X 的行動」。",
       "sentenceIndex": 131,
@@ -5521,12 +5031,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-47": "本句指「推動 X 的行動」。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。"
+        "push-mcq-47": "本句的「push」指「推動 X 的行動」。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-47"
     },
@@ -5538,11 +5046,9 @@ export default {
       "masked": "The company began ____.",
       "options": [
         "push-mcq-47",
-        "push-mcq-46",
-        "push-mcq-48",
-        "push-mcq-45",
-        "push-mcq-49",
-        "push-mcq-44"
+        "push-reviewed-5f76d6143d",
+        "push-mcq-30",
+        "push-mcq-52"
       ],
       "explanation": "本句的「a push to reduce costs」指「推動 X 的行動」。",
       "sentenceIndex": 132,
@@ -5551,12 +5057,10 @@ export default {
         "a push to reduce costs"
       ],
       "optionReasons": {
-        "push-mcq-47": "本句指「推動 X 的行動」。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。"
+        "push-mcq-47": "本句的「a push to reduce costs」指「推動 X 的行動」。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-47"
     },
@@ -5568,11 +5072,9 @@ export default {
       "masked": "The government launched a ____ to increase training.",
       "options": [
         "push-mcq-47",
-        "push-mcq-46",
-        "push-mcq-48",
-        "push-mcq-45",
-        "push-mcq-49",
-        "push-mcq-44"
+        "push-mcq-15",
+        "push-mcq-05",
+        "push-mcq-30"
       ],
       "explanation": "本句的「push」指「推動 X 的行動」。",
       "sentenceIndex": 133,
@@ -5581,12 +5083,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-47": "本句指「推動 X 的行動」。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。"
+        "push-mcq-47": "本句的「push」指「推動 X 的行動」。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-47"
     },
@@ -5598,11 +5098,9 @@ export default {
       "masked": "The team made a ____ to finish before the deadline.",
       "options": [
         "push-mcq-48",
-        "push-mcq-47",
-        "push-mcq-49",
-        "push-mcq-46",
-        "push-mcq-50",
-        "push-mcq-45"
+        "push-mcq-19",
+        "push-mcq-44",
+        "push-mcq-18"
       ],
       "explanation": "本句的「final push」指「最後衝刺」。",
       "sentenceIndex": 134,
@@ -5611,12 +5109,10 @@ export default {
         "final push"
       ],
       "optionReasons": {
-        "push-mcq-48": "本句指「最後衝刺」。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。"
+        "push-mcq-48": "本句的「final push」指「最後衝刺」。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-48"
     },
@@ -5628,11 +5124,9 @@ export default {
       "masked": "We only need one final ____.",
       "options": [
         "push-mcq-48",
-        "push-mcq-47",
-        "push-mcq-49",
-        "push-mcq-46",
-        "push-mcq-50",
-        "push-mcq-45"
+        "push-mcq-40",
+        "push-mcq-54",
+        "push-mcq-33"
       ],
       "explanation": "本句的「push」指「最後衝刺」。",
       "sentenceIndex": 135,
@@ -5641,12 +5135,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-48": "本句指「最後衝刺」。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。"
+        "push-mcq-48": "本句的「push」指「最後衝刺」。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-54": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-48"
     },
@@ -5658,11 +5150,9 @@ export default {
       "masked": "The company is making a ____.",
       "options": [
         "push-mcq-49",
-        "push-mcq-48",
-        "push-mcq-50",
-        "push-mcq-47",
-        "push-mcq-51",
-        "push-mcq-46"
+        "push-mcq-30",
+        "push-mcq-06",
+        "push-mcq-41"
       ],
       "explanation": "本句的「big push into Asia」指「大力推動」。",
       "sentenceIndex": 136,
@@ -5671,12 +5161,10 @@ export default {
         "big push into Asia"
       ],
       "optionReasons": {
-        "push-mcq-49": "本句指「大力推動」。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。"
+        "push-mcq-49": "本句的「big push into Asia」指「大力推動」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-49"
     },
@@ -5688,11 +5176,9 @@ export default {
       "masked": "There has been a major ____ to improve safety.",
       "options": [
         "push-mcq-49",
-        "push-mcq-48",
-        "push-mcq-50",
-        "push-mcq-47",
-        "push-mcq-51",
-        "push-mcq-46"
+        "push-mcq-29",
+        "push-mcq-25",
+        "push-reviewed-5f76d6143d"
       ],
       "explanation": "本句的「push」指「大力推動」。",
       "sentenceIndex": 137,
@@ -5701,12 +5187,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-49": "本句指「大力推動」。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。"
+        "push-mcq-49": "本句的「push」指「大力推動」。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-49"
     },
@@ -5718,11 +5202,9 @@ export default {
       "masked": "A ____ by several departments solved the problem.",
       "options": [
         "push-mcq-49",
-        "push-mcq-48",
-        "push-mcq-50",
-        "push-mcq-47",
-        "push-mcq-51",
-        "push-mcq-46"
+        "push-mcq-36",
+        "push-mcq-30",
+        "push-mcq-41"
       ],
       "explanation": "本句的「concerted push」指「大力推動」。",
       "sentenceIndex": 138,
@@ -5731,12 +5213,10 @@ export default {
         "concerted push"
       ],
       "optionReasons": {
-        "push-mcq-49": "本句指「大力推動」。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。"
+        "push-mcq-49": "本句的「concerted push」指「大力推動」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-49"
     },
@@ -5748,11 +5228,9 @@ export default {
       "masked": "The company needs a concerted ____ to meet the deadline.",
       "options": [
         "push-mcq-49",
-        "push-mcq-48",
-        "push-mcq-50",
-        "push-mcq-47",
-        "push-mcq-51",
-        "push-mcq-46"
+        "push-mcq-37",
+        "push-mcq-40",
+        "push-mcq-17"
       ],
       "explanation": "本句的「push」指「大力推動」。",
       "sentenceIndex": 139,
@@ -5761,12 +5239,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-49": "本句指「大力推動」。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-46": "「一推」與本句語境不同。"
+        "push-mcq-49": "本句的「push」指「大力推動」。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-49"
     },
@@ -5778,11 +5254,9 @@ export default {
       "masked": "The company is ____.",
       "options": [
         "push-mcq-50",
-        "push-mcq-49",
-        "push-mcq-51",
-        "push-mcq-48",
-        "push-mcq-52",
-        "push-mcq-47"
+        "push-mcq-25",
+        "push-mcq-23",
+        "push-mcq-52"
       ],
       "explanation": "本句的「pushing into overseas markets」指「積極進軍市場」。",
       "sentenceIndex": 140,
@@ -5791,12 +5265,10 @@ export default {
         "pushing into overseas markets"
       ],
       "optionReasons": {
-        "push-mcq-50": "本句指「積極進軍市場」。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。"
+        "push-mcq-50": "本句的「pushing into overseas markets」指「積極進軍市場」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-50"
     },
@@ -5808,11 +5280,9 @@ export default {
       "masked": "The brand ____ into several new regions.",
       "options": [
         "push-mcq-50",
-        "push-mcq-49",
-        "push-mcq-51",
-        "push-mcq-48",
+        "push-mcq-25",
         "push-mcq-52",
-        "push-mcq-47"
+        "push-mcq-35"
       ],
       "explanation": "本句的「pushed」指「積極進軍市場」。",
       "sentenceIndex": 141,
@@ -5821,12 +5291,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-50": "本句指「積極進軍市場」。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。"
+        "push-mcq-50": "本句的「pushed」指「積極進軍市場」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-50"
     },
@@ -5838,11 +5306,9 @@ export default {
       "masked": "The company is ____ into digital services.",
       "options": [
         "push-mcq-50",
-        "push-mcq-49",
-        "push-mcq-51",
+        "push-mcq-35",
         "push-mcq-48",
-        "push-mcq-52",
-        "push-mcq-47"
+        "push-mcq-57"
       ],
       "explanation": "本句的「pushing」指「積極進軍市場」。",
       "sentenceIndex": 142,
@@ -5851,12 +5317,10 @@ export default {
         "pushing"
       ],
       "optionReasons": {
-        "push-mcq-50": "本句指「積極進軍市場」。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。"
+        "push-mcq-50": "本句的「pushing」指「積極進軍市場」。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-50"
     },
@@ -5868,11 +5332,9 @@ export default {
       "masked": "The business ____ into premium products.",
       "options": [
         "push-mcq-50",
-        "push-mcq-49",
-        "push-mcq-51",
-        "push-mcq-48",
-        "push-mcq-52",
-        "push-mcq-47"
+        "push-mcq-40",
+        "push-mcq-37",
+        "push-mcq-09"
       ],
       "explanation": "本句的「pushed」指「積極進軍市場」。",
       "sentenceIndex": 143,
@@ -5881,12 +5343,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-50": "本句指「積極進軍市場」。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。"
+        "push-mcq-50": "本句的「pushed」指「積極進軍市場」。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-50"
     },
@@ -5898,11 +5358,9 @@ export default {
       "masked": "The army began a new ____.",
       "options": [
         "push-mcq-51",
-        "push-mcq-50",
-        "push-mcq-52",
-        "push-mcq-49",
-        "push-mcq-53",
-        "push-mcq-48"
+        "push-mcq-35",
+        "push-reviewed-5f76d6143d",
+        "push-mcq-43"
       ],
       "explanation": "本句的「push into the region」指「軍事推進攻勢」。",
       "sentenceIndex": 146,
@@ -5911,12 +5369,10 @@ export default {
         "push into the region"
       ],
       "optionReasons": {
-        "push-mcq-51": "本句指「軍事推進攻勢」。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。"
+        "push-mcq-51": "本句的「push into the region」指「軍事推進攻勢」。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-51"
     },
@@ -5928,11 +5384,9 @@ export default {
       "masked": "The ____ stalled because of strong resistance.",
       "options": [
         "push-mcq-51",
-        "push-mcq-50",
-        "push-mcq-52",
-        "push-mcq-49",
-        "push-mcq-53",
-        "push-mcq-48"
+        "push-mcq-35",
+        "push-mcq-44",
+        "push-mcq-60"
       ],
       "explanation": "本句的「push」指「軍事推進攻勢」。",
       "sentenceIndex": 147,
@@ -5941,12 +5395,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-51": "本句指「軍事推進攻勢」。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。"
+        "push-mcq-51": "本句的「push」指「軍事推進攻勢」。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-51"
     },
@@ -5958,11 +5410,9 @@ export default {
       "masked": "The midwife told her to ____.",
       "options": [
         "push-mcq-52",
+        "push-mcq-44",
         "push-mcq-51",
-        "push-mcq-53",
-        "push-mcq-50",
-        "push-mcq-54",
-        "push-mcq-49"
+        "push-pdf-001"
       ],
       "explanation": "本句的「push」指「分娩時用力」。",
       "sentenceIndex": 148,
@@ -5971,12 +5421,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-52": "本句指「分娩時用力」。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。"
+        "push-mcq-52": "本句的「push」指「分娩時用力」。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-51": "請比較這個意思與句子中標示的用法。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-52"
     },
@@ -5988,11 +5436,9 @@ export default {
       "masked": "She ____ with each contraction.",
       "options": [
         "push-mcq-52",
-        "push-mcq-51",
-        "push-mcq-53",
-        "push-mcq-50",
-        "push-mcq-54",
-        "push-mcq-49"
+        "push-mcq-59",
+        "push-mcq-26",
+        "push-mcq-28"
       ],
       "explanation": "本句的「pushed」指「分娩時用力」。",
       "sentenceIndex": 149,
@@ -6001,12 +5447,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-52": "本句指「分娩時用力」。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。"
+        "push-mcq-52": "本句的「pushed」指「分娩時用力」。",
+        "push-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-52"
     },
@@ -6018,11 +5462,9 @@ export default {
       "masked": "One more ____,” the midwife said.",
       "options": [
         "push-mcq-52",
-        "push-mcq-51",
-        "push-mcq-53",
-        "push-mcq-50",
-        "push-mcq-54",
-        "push-mcq-49"
+        "push-mcq-44",
+        "push-mcq-59",
+        "push-mcq-28"
       ],
       "explanation": "本句的「push」指「分娩時用力」。",
       "sentenceIndex": 150,
@@ -6031,12 +5473,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-52": "本句指「分娩時用力」。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。"
+        "push-mcq-52": "本句的「push」指「分娩時用力」。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-52"
     },
@@ -6048,11 +5488,9 @@ export default {
       "masked": "The final ____ lasted only a few minutes.",
       "options": [
         "push-mcq-52",
-        "push-mcq-51",
-        "push-mcq-53",
-        "push-mcq-50",
-        "push-mcq-54",
-        "push-mcq-49"
+        "push-mcq-25",
+        "push-mcq-59",
+        "push-mcq-40"
       ],
       "explanation": "本句的「push」指「分娩時用力」。",
       "sentenceIndex": 151,
@@ -6061,12 +5499,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-52": "本句指「分娩時用力」。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-49": "「大力推動」與本句語境不同。"
+        "push-mcq-52": "本句的「push」指「分娩時用力」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-59": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-52"
     },
@@ -6078,11 +5514,9 @@ export default {
       "masked": "He can do fifty ____.",
       "options": [
         "push-mcq-53",
-        "push-mcq-52",
-        "push-mcq-54",
-        "push-mcq-51",
-        "push-mcq-55",
-        "push-mcq-50"
+        "push-mcq-07",
+        "push-mcq-57",
+        "push-mcq-60"
       ],
       "explanation": "本句的「push-ups」指「掌上壓」。",
       "sentenceIndex": 152,
@@ -6091,12 +5525,10 @@ export default {
         "push-ups"
       ],
       "optionReasons": {
-        "push-mcq-53": "本句指「掌上壓」。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。"
+        "push-mcq-53": "本句的「push-ups」指「掌上壓」。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-57": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-53"
     },
@@ -6108,11 +5540,9 @@ export default {
       "masked": "____ strengthen the upper body.",
       "options": [
         "push-mcq-53",
-        "push-mcq-52",
-        "push-mcq-54",
-        "push-mcq-51",
-        "push-mcq-55",
-        "push-mcq-50"
+        "push-mcq-08",
+        "push-mcq-48",
+        "push-mcq-25"
       ],
       "explanation": "本句的「Push-ups」指「掌上壓」。",
       "sentenceIndex": 153,
@@ -6121,12 +5551,10 @@ export default {
         "Push-ups"
       ],
       "optionReasons": {
-        "push-mcq-53": "本句指「掌上壓」。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-50": "「積極進軍市場」與本句語境不同。"
+        "push-mcq-53": "本句的「Push-ups」指「掌上壓」。",
+        "push-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-48": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-53"
     },
@@ -6139,10 +5567,8 @@ export default {
       "options": [
         "push-mcq-54",
         "push-mcq-53",
-        "push-mcq-55",
-        "push-mcq-52",
-        "push-mcq-56",
-        "push-mcq-51"
+        "push-mcq-18",
+        "push-mcq-07"
       ],
       "explanation": "本句的「push factor」指「推力因素」。",
       "sentenceIndex": 154,
@@ -6151,12 +5577,10 @@ export default {
         "push factor"
       ],
       "optionReasons": {
-        "push-mcq-54": "本句指「推力因素」。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。"
+        "push-mcq-54": "本句的「push factor」指「推力因素」。",
+        "push-mcq-53": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-54"
     },
@@ -6168,11 +5592,9 @@ export default {
       "masked": "Conflict and poverty are common ____ factors.",
       "options": [
         "push-mcq-54",
-        "push-mcq-53",
-        "push-mcq-55",
-        "push-mcq-52",
-        "push-mcq-56",
-        "push-mcq-51"
+        "push-mcq-36",
+        "push-mcq-45",
+        "push-mcq-34"
       ],
       "explanation": "本句的「push」指「推力因素」。",
       "sentenceIndex": 155,
@@ -6181,12 +5603,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-54": "本句指「推力因素」。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。"
+        "push-mcq-54": "本句的「push」指「推力因素」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-54"
     },
@@ -6198,11 +5618,9 @@ export default {
       "masked": "Migration is influenced by both ____.",
       "options": [
         "push-mcq-54",
-        "push-mcq-53",
-        "push-mcq-55",
-        "push-mcq-52",
-        "push-mcq-56",
-        "push-mcq-51"
+        "push-mcq-42",
+        "push-mcq-18",
+        "push-mcq-07"
       ],
       "explanation": "本句的「push and pull factors」指「推力因素」。",
       "sentenceIndex": 156,
@@ -6211,12 +5629,10 @@ export default {
         "push and pull factors"
       ],
       "optionReasons": {
-        "push-mcq-54": "本句指「推力因素」。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。"
+        "push-mcq-54": "本句的「push and pull factors」指「推力因素」。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-54"
     },
@@ -6228,11 +5644,9 @@ export default {
       "masked": "Low wages may ____ people away, while better jobs pull them elsewhere.",
       "options": [
         "push-mcq-54",
-        "push-mcq-53",
-        "push-mcq-55",
-        "push-mcq-52",
-        "push-mcq-56",
-        "push-mcq-51"
+        "push-mcq-34",
+        "push-mcq-41",
+        "push-mcq-30"
       ],
       "explanation": "本句的「push」指「推力因素」。",
       "sentenceIndex": 157,
@@ -6241,12 +5655,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-54": "本句指「推力因素」。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-51": "「軍事推進攻勢」與本句語境不同。"
+        "push-mcq-54": "本句的「push」指「推力因素」。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-54"
     },
@@ -6258,11 +5670,9 @@ export default {
       "masked": "The app sends ____.",
       "options": [
         "push-mcq-55",
-        "push-mcq-54",
-        "push-mcq-56",
-        "push-mcq-53",
-        "push-mcq-57",
-        "push-mcq-52"
+        "push-mcq-60",
+        "push-mcq-44",
+        "push-mcq-34"
       ],
       "explanation": "本句的「push notifications」指「推送通知」。",
       "sentenceIndex": 158,
@@ -6271,12 +5681,10 @@ export default {
         "push notifications"
       ],
       "optionReasons": {
-        "push-mcq-55": "本句指「推送通知」。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。"
+        "push-mcq-55": "本句的「push notifications」指「推送通知」。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-55"
     },
@@ -6288,11 +5696,9 @@ export default {
       "masked": "You can disable ____ notifications in the settings.",
       "options": [
         "push-mcq-55",
-        "push-mcq-54",
-        "push-mcq-56",
-        "push-mcq-53",
-        "push-mcq-57",
-        "push-mcq-52"
+        "push-mcq-38",
+        "push-mcq-06",
+        "push-mcq-26"
       ],
       "explanation": "本句的「push」指「推送通知」。",
       "sentenceIndex": 159,
@@ -6301,12 +5707,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-55": "本句指「推送通知」。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。",
-        "push-mcq-52": "「分娩時用力」與本句語境不同。"
+        "push-mcq-55": "本句的「push」指「推送通知」。",
+        "push-mcq-38": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-55"
     },
@@ -6318,11 +5722,9 @@ export default {
       "masked": "The server ____.",
       "options": [
         "push-mcq-56",
-        "push-mcq-55",
-        "push-mcq-57",
-        "push-mcq-54",
-        "push-mcq-58",
-        "push-mcq-53"
+        "push-mcq-36",
+        "push-mcq-42",
+        "push-mcq-15"
       ],
       "explanation": "本句的「pushes updates to users automatically」指「推送資料／內容」。",
       "sentenceIndex": 160,
@@ -6331,12 +5733,10 @@ export default {
         "pushes updates to users automatically"
       ],
       "optionReasons": {
-        "push-mcq-56": "本句指「推送資料／內容」。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。"
+        "push-mcq-56": "本句的「pushes updates to users automatically」指「推送資料／內容」。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-56"
     },
@@ -6348,11 +5748,9 @@ export default {
       "masked": "Data can be ____ to connected devices in real time.",
       "options": [
         "push-mcq-56",
-        "push-mcq-55",
-        "push-mcq-57",
-        "push-mcq-54",
-        "push-mcq-58",
-        "push-mcq-53"
+        "push-pdf-001",
+        "push-mcq-60",
+        "push-mcq-09"
       ],
       "explanation": "本句的「pushed」指「推送資料／內容」。",
       "sentenceIndex": 161,
@@ -6361,12 +5759,10 @@ export default {
         "pushed"
       ],
       "optionReasons": {
-        "push-mcq-56": "本句指「推送資料／內容」。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-53": "「掌上壓」與本句語境不同。"
+        "push-mcq-56": "本句的「pushed」指「推送資料／內容」。",
+        "push-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-56"
     },
@@ -6378,11 +5774,9 @@ export default {
       "masked": "____ technology delivers information automatically.",
       "options": [
         "push-mcq-57",
-        "push-mcq-56",
-        "push-mcq-58",
-        "push-mcq-55",
-        "push-mcq-59",
-        "push-mcq-54"
+        "push-mcq-18",
+        "push-mcq-37",
+        "push-mcq-19"
       ],
       "explanation": "本句的「Push」指「推送程式碼／變更」。",
       "sentenceIndex": 162,
@@ -6391,12 +5785,10 @@ export default {
         "Push"
       ],
       "optionReasons": {
-        "push-mcq-57": "本句指「推送程式碼／變更」。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。"
+        "push-mcq-57": "本句的「Push」指「推送程式碼／變更」。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-57"
     },
@@ -6408,11 +5800,9 @@ export default {
       "masked": "The service uses ____ delivery rather than repeated polling.",
       "options": [
         "push-mcq-57",
-        "push-mcq-56",
-        "push-mcq-58",
-        "push-mcq-55",
-        "push-mcq-59",
-        "push-mcq-54"
+        "push-mcq-30",
+        "push-mcq-25",
+        "push-mcq-37"
       ],
       "explanation": "本句的「push」指「推送程式碼／變更」。",
       "sentenceIndex": 163,
@@ -6421,12 +5811,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-57": "本句指「推送程式碼／變更」。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。"
+        "push-mcq-57": "本句的「push」指「推送程式碼／變更」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-37": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-57"
     },
@@ -6438,11 +5826,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "push-mcq-57",
-        "push-mcq-56",
-        "push-mcq-58",
-        "push-mcq-55",
-        "push-mcq-59",
-        "push-mcq-54"
+        "push-mcq-30",
+        "push-mcq-43",
+        "push-mcq-60"
       ],
       "explanation": "本句的「pushed the changes to the remote repository」指「推送程式碼／變更」。",
       "sentenceIndex": 164,
@@ -6451,12 +5837,10 @@ export default {
         "pushed the changes to the remote repository"
       ],
       "optionReasons": {
-        "push-mcq-57": "本句指「推送程式碼／變更」。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。"
+        "push-mcq-57": "本句的「pushed the changes to the remote repository」指「推送程式碼／變更」。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-57"
     },
@@ -6468,11 +5852,9 @@ export default {
       "masked": "Don't ____ the code until the tests pass.",
       "options": [
         "push-mcq-57",
-        "push-mcq-56",
-        "push-mcq-58",
-        "push-mcq-55",
-        "push-mcq-59",
-        "push-mcq-54"
+        "push-mcq-40",
+        "push-mcq-18",
+        "push-mcq-52"
       ],
       "explanation": "本句的「push」指「推送程式碼／變更」。",
       "sentenceIndex": 165,
@@ -6481,74 +5863,68 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-57": "本句指「推送程式碼／變更」。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-55": "「推送通知」與本句語境不同。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-54": "「推力因素」與本句語境不同。"
+        "push-mcq-57": "本句的「push」指「推送程式碼／變更」。",
+        "push-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-57"
     },
     {
       "id": "push-84-0",
-      "sense": "push-mcq-60",
+      "sense": "push-reviewed-db4d116d36",
       "en": "She pushed the commit to the main branch.",
       "zh": "她把提交推送到主分支。",
       "masked": "She ____.",
       "options": [
-        "push-mcq-60",
-        "push-mcq-59",
-        "push-mcq-61",
-        "push-mcq-58",
-        "push-mcq-62",
-        "push-mcq-57"
+        "push-reviewed-db4d116d36",
+        "push-mcq-05",
+        "push-mcq-44",
+        "push-mcq-25"
       ],
-      "explanation": "本句的「pushed the commit to the main branch」指「到真正關鍵時刻」。",
+      "explanation": "對照完整句子：「她把提交推送到主分支。」。這裡的「pushed the commit to the main branch」表示「推送到分支」。",
       "sentenceIndex": 166,
       "sourcePractice": 1,
       "targets": [
         "pushed the commit to the main branch"
       ],
       "optionReasons": {
-        "push-mcq-60": "本句指「到真正關鍵時刻」。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-61": "「勉強；最多」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-62": "「推離／離開」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。"
+        "push-reviewed-db4d116d36": "對照完整句子：「她把提交推送到主分支。」。這裡的「pushed the commit to the main branch」表示「推送到分支」。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "push-mcq-60"
+      "correctOption": "push-reviewed-db4d116d36",
+      "previousCorrectOption": "push-mcq-60",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "push-84-1",
-      "sense": "push-mcq-60",
+      "sense": "push-reviewed-db4d116d36",
       "en": "Push your changes to a feature branch first.",
       "zh": "先把變更推到功能分支。",
       "masked": "____ your changes to a feature branch first.",
       "options": [
-        "push-mcq-60",
-        "push-mcq-59",
-        "push-mcq-61",
-        "push-mcq-58",
-        "push-mcq-62",
-        "push-mcq-57"
+        "push-reviewed-db4d116d36",
+        "push-mcq-50",
+        "push-mcq-15",
+        "push-mcq-23"
       ],
-      "explanation": "本句的「Push」指「到真正關鍵時刻」。",
+      "explanation": "對照完整句子：「先把變更推到功能分支。」。這裡的「Push」表示「推送到分支」。",
       "sentenceIndex": 167,
       "sourcePractice": 2,
       "targets": [
         "Push"
       ],
       "optionReasons": {
-        "push-mcq-60": "本句指「到真正關鍵時刻」。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-61": "「勉強；最多」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-62": "「推離／離開」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。"
+        "push-reviewed-db4d116d36": "對照完整句子：「先把變更推到功能分支。」。這裡的「Push」表示「推送到分支」。",
+        "push-mcq-50": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
-      "correctOption": "push-mcq-60"
+      "correctOption": "push-reviewed-db4d116d36",
+      "previousCorrectOption": "push-mcq-60",
+      "answerRevisedAt": "2026-10-24T16:25:29Z"
     },
     {
       "id": "push-85-0",
@@ -6558,11 +5934,9 @@ export default {
       "masked": "The latest ____ triggered the deployment.",
       "options": [
         "push-mcq-46",
-        "push-mcq-45",
-        "push-mcq-47",
-        "push-mcq-44",
-        "push-mcq-48",
-        "push-mcq-43"
+        "push-reviewed-5f76d6143d",
+        "push-mcq-42",
+        "push-mcq-12"
       ],
       "explanation": "本句的「push」指「一推」。",
       "sentenceIndex": 168,
@@ -6571,12 +5945,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-46": "本句指「一推」。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。"
+        "push-mcq-46": "本句的「push」指「一推」。",
+        "push-reviewed-5f76d6143d": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-46"
     },
@@ -6588,11 +5960,9 @@ export default {
       "masked": "The ____ failed because authentication expired.",
       "options": [
         "push-mcq-46",
-        "push-mcq-45",
-        "push-mcq-47",
-        "push-mcq-44",
-        "push-mcq-48",
-        "push-mcq-43"
+        "push-mcq-23",
+        "push-mcq-26",
+        "push-mcq-34"
       ],
       "explanation": "本句的「push」指「一推」。",
       "sentenceIndex": 169,
@@ -6601,12 +5971,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-46": "本句指「一推」。",
-        "push-mcq-45": "「得寸進尺／試運氣過頭」與本句語境不同。",
-        "push-mcq-47": "「推動 X 的行動」與本句語境不同。",
-        "push-mcq-44": "「突破常規／極限」與本句語境不同。",
-        "push-mcq-48": "「最後衝刺」與本句語境不同。",
-        "push-mcq-43": "「突破界限」與本句語境不同。"
+        "push-mcq-46": "本句的「push」指「一推」。",
+        "push-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-46"
     },
@@ -6618,11 +5986,9 @@ export default {
       "masked": "The aircraft is ready for ____.",
       "options": [
         "push-mcq-39",
-        "push-mcq-38",
-        "push-mcq-40",
-        "push-mcq-37",
-        "push-mcq-41",
-        "push-mcq-36"
+        "push-mcq-25",
+        "push-mcq-30",
+        "push-mcq-05"
       ],
       "explanation": "本句的「pushback」指「飛機後推」。",
       "sentenceIndex": 170,
@@ -6631,12 +5997,10 @@ export default {
         "pushback"
       ],
       "optionReasons": {
-        "push-mcq-39": "本句指「飛機後推」。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。"
+        "push-mcq-39": "本句的「pushback」指「飛機後推」。",
+        "push-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-39"
     },
@@ -6648,10 +6012,8 @@ export default {
       "masked": "____ began five minutes late.",
       "options": [
         "push-mcq-39",
-        "push-mcq-38",
-        "push-mcq-40",
-        "push-mcq-37",
-        "push-mcq-41",
+        "push-mcq-35",
+        "push-mcq-52",
         "push-mcq-36"
       ],
       "explanation": "本句的「Pushback」指「飛機後推」。",
@@ -6661,12 +6023,10 @@ export default {
         "Pushback"
       ],
       "optionReasons": {
-        "push-mcq-39": "本句指「飛機後推」。",
-        "push-mcq-38": "「反對；阻力」與本句語境不同。",
-        "push-mcq-40": "「排擠／迫使離開」與本句語境不同。",
-        "push-mcq-37": "「延後」與本句語境不同。",
-        "push-mcq-41": "「擺布／欺負」與本句語境不同。",
-        "push-mcq-36": "「反對／抵制」與本句語境不同。"
+        "push-mcq-39": "本句的「Pushback」指「飛機後推」。",
+        "push-mcq-35": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-52": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-39"
     },
@@ -6678,11 +6038,9 @@ export default {
       "masked": "Police arrested a suspected ____.",
       "options": [
         "push-mcq-59",
-        "push-mcq-58",
-        "push-mcq-60",
-        "push-mcq-57",
-        "push-mcq-61",
-        "push-mcq-56"
+        "push-mcq-06",
+        "push-mcq-09",
+        "push-mcq-38"
       ],
       "explanation": "本句的「drug pusher」指「推動者／販毒者等」。",
       "sentenceIndex": 172,
@@ -6691,12 +6049,10 @@ export default {
         "drug pusher"
       ],
       "optionReasons": {
-        "push-mcq-59": "本句指「推動者／販毒者等」。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-60": "「到真正關鍵時刻」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。",
-        "push-mcq-61": "「勉強；最多」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。"
+        "push-mcq-59": "本句的「drug pusher」指「推動者／販毒者等」。",
+        "push-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-38": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-59"
     },
@@ -6708,11 +6064,9 @@ export default {
       "masked": "____ can refer informally to someone who sells illegal drugs.",
       "options": [
         "push-mcq-59",
-        "push-mcq-58",
         "push-mcq-60",
-        "push-mcq-57",
-        "push-mcq-61",
-        "push-mcq-56"
+        "push-mcq-18",
+        "push-mcq-16"
       ],
       "explanation": "本句的「Pusher」指「推動者／販毒者等」。",
       "sentenceIndex": 173,
@@ -6721,12 +6075,10 @@ export default {
         "Pusher"
       ],
       "optionReasons": {
-        "push-mcq-59": "本句指「推動者／販毒者等」。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-60": "「到真正關鍵時刻」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。",
-        "push-mcq-61": "「勉強；最多」與本句語境不同。",
-        "push-mcq-56": "「推送資料／內容」與本句語境不同。"
+        "push-mcq-59": "本句的「Pusher」指「推動者／販毒者等」。",
+        "push-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-59"
     },
@@ -6738,11 +6090,9 @@ export default {
       "masked": "____, the manager will have to make a decision.",
       "options": [
         "push-mcq-60",
-        "push-mcq-59",
-        "push-mcq-61",
-        "push-mcq-58",
-        "push-mcq-62",
-        "push-mcq-57"
+        "push-mcq-29",
+        "push-mcq-16",
+        "push-mcq-33"
       ],
       "explanation": "本句的「When push comes to shove」指「到真正關鍵時刻」。",
       "sentenceIndex": 174,
@@ -6751,12 +6101,10 @@ export default {
         "When push comes to shove"
       ],
       "optionReasons": {
-        "push-mcq-60": "本句指「到真正關鍵時刻」。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-61": "「勉強；最多」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-62": "「推離／離開」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。"
+        "push-mcq-60": "本句的「When push comes to shove」指「到真正關鍵時刻」。",
+        "push-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-33": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-60"
     },
@@ -6768,11 +6116,9 @@ export default {
       "masked": "He complains a lot, but when ____ comes to shove, he usually helps.",
       "options": [
         "push-mcq-60",
-        "push-mcq-59",
-        "push-mcq-61",
-        "push-mcq-58",
-        "push-mcq-62",
-        "push-mcq-57"
+        "push-mcq-01",
+        "push-mcq-41",
+        "push-mcq-05"
       ],
       "explanation": "本句的「push」指「到真正關鍵時刻」。",
       "sentenceIndex": 175,
@@ -6781,12 +6127,10 @@ export default {
         "push"
       ],
       "optionReasons": {
-        "push-mcq-60": "本句指「到真正關鍵時刻」。",
-        "push-mcq-59": "「推動者／販毒者等」與本句語境不同。",
-        "push-mcq-61": "「勉強；最多」與本句語境不同。",
-        "push-mcq-58": "「咄咄逼人的」與本句語境不同。",
-        "push-mcq-62": "「推離／離開」與本句語境不同。",
-        "push-mcq-57": "「推送程式碼／變更」與本句語境不同。"
+        "push-mcq-60": "本句的「push」指「到真正關鍵時刻」。",
+        "push-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "push-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "push-mcq-60"
     }
@@ -6798,5 +6142,7 @@ export default {
     "sha256": "744ad9e17ebe3bc37537f2eab8705e0000cbfbfce06cb5afd8f03356318fb071",
     "pages": 56
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

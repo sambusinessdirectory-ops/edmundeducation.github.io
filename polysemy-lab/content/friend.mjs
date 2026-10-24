@@ -261,10 +261,7 @@ export default {
       "options": [
         "friend-mcq-01",
         "friend-mcq-02",
-        "friend-mcq-03",
-        "friend-mcq-04",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friend」指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
       "sentenceIndex": 0,
@@ -273,12 +270,9 @@ export default {
         "friend"
       ],
       "optionReasons": {
-        "friend-mcq-01": "本句指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-01": "本句的「friend」指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
+        "friend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-01"
     },
@@ -291,10 +285,7 @@ export default {
       "options": [
         "friend-mcq-01",
         "friend-mcq-02",
-        "friend-mcq-03",
-        "friend-mcq-04",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friend」指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
       "sentenceIndex": 1,
@@ -303,12 +294,9 @@ export default {
         "friend"
       ],
       "optionReasons": {
-        "friend-mcq-01": "本句指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-01": "本句的「friend」指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
+        "friend-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-01"
     },
@@ -320,11 +308,8 @@ export default {
       "masked": "Good ____ support each other during difficult times.",
       "options": [
         "friend-mcq-01",
-        "friend-mcq-02",
-        "friend-mcq-03",
-        "friend-mcq-04",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-06",
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friends」指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
       "sentenceIndex": 2,
@@ -333,12 +318,9 @@ export default {
         "friends"
       ],
       "optionReasons": {
-        "friend-mcq-01": "本句指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-01": "本句的「friends」指「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」。",
+        "friend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-01"
     },
@@ -350,11 +332,7 @@ export default {
       "masked": "She has always been a ____ the arts.",
       "options": [
         "friend-mcq-02",
-        "friend-mcq-01",
-        "friend-mcq-03",
-        "friend-mcq-04",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-04"
       ],
       "explanation": "本句的「friend of」指「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」。",
       "sentenceIndex": 3,
@@ -363,12 +341,8 @@ export default {
         "friend of"
       ],
       "optionReasons": {
-        "friend-mcq-02": "本句指「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」。",
-        "friend-mcq-01": "「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-02": "本句的「friend of」指「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」。",
+        "friend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-02"
     },
@@ -380,11 +354,7 @@ export default {
       "masked": "The organization has many ____ in the community.",
       "options": [
         "friend-mcq-02",
-        "friend-mcq-01",
-        "friend-mcq-03",
-        "friend-mcq-04",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-04"
       ],
       "explanation": "本句的「friends and supporters」指「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」。",
       "sentenceIndex": 4,
@@ -393,12 +363,8 @@ export default {
         "friends and supporters"
       ],
       "optionReasons": {
-        "friend-mcq-02": "本句指「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」。",
-        "friend-mcq-01": "「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-02": "本句的「friends and supporters」指「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」。",
+        "friend-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-02"
     },
@@ -410,11 +376,7 @@ export default {
       "masked": "At a time like this, it is important to know who your ____ are.",
       "options": [
         "friend-mcq-03",
-        "friend-mcq-02",
-        "friend-mcq-04",
-        "friend-mcq-01",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-10"
       ],
       "explanation": "本句的「friends」指「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」。",
       "sentenceIndex": 5,
@@ -423,12 +385,8 @@ export default {
         "friends"
       ],
       "optionReasons": {
-        "friend-mcq-03": "本句指「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-01": "「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-03": "本句的「friends」指「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」。",
+        "friend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-03"
     },
@@ -440,11 +398,7 @@ export default {
       "masked": "The country traditionally regarded its neighbour as a ____ rather than an enemy.",
       "options": [
         "friend-mcq-03",
-        "friend-mcq-02",
-        "friend-mcq-04",
-        "friend-mcq-01",
-        "friend-mcq-05",
-        "friend-mcq-06"
+        "friend-mcq-10"
       ],
       "explanation": "本句的「friend」指「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」。",
       "sentenceIndex": 6,
@@ -453,12 +407,8 @@ export default {
         "friend"
       ],
       "optionReasons": {
-        "friend-mcq-03": "本句指「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-01": "「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。"
+        "friend-mcq-03": "本句的「friend」指「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」。",
+        "friend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-03"
     },
@@ -470,11 +420,7 @@ export default {
       "masked": "I have hundreds of ____ on the platform.",
       "options": [
         "friend-mcq-04",
-        "friend-mcq-03",
-        "friend-mcq-05",
-        "friend-mcq-02",
-        "friend-mcq-06",
-        "friend-mcq-01"
+        "friend-mcq-02"
       ],
       "explanation": "本句的「friends」指「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」。",
       "sentenceIndex": 7,
@@ -483,12 +429,8 @@ export default {
         "friends"
       ],
       "optionReasons": {
-        "friend-mcq-04": "本句指「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-01": "「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」與本句語境不同。"
+        "friend-mcq-04": "本句的「friends」指「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」。",
+        "friend-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-04"
     },
@@ -500,11 +442,7 @@ export default {
       "masked": "She added me as a ____ after the event.",
       "options": [
         "friend-mcq-04",
-        "friend-mcq-03",
-        "friend-mcq-05",
-        "friend-mcq-02",
-        "friend-mcq-06",
-        "friend-mcq-01"
+        "friend-mcq-02"
       ],
       "explanation": "本句的「friend」指「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」。",
       "sentenceIndex": 8,
@@ -513,12 +451,8 @@ export default {
         "friend"
       ],
       "optionReasons": {
-        "friend-mcq-04": "本句指「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-01": "「與自己彼此熟悉、喜歡和信任，而且具有私人感情關係的人」與本句語境不同。"
+        "friend-mcq-04": "本句的「friend」指「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」。",
+        "friend-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-04"
     },
@@ -530,11 +464,8 @@ export default {
       "masked": "Listen, my ____, you need to be more careful.",
       "options": [
         "friend-mcq-05",
-        "friend-mcq-04",
-        "friend-mcq-06",
-        "friend-mcq-03",
-        "friend-mcq-07",
-        "friend-mcq-02"
+        "friend-mcq-10",
+        "friend-mcq-08"
       ],
       "explanation": "本句的「friend」指「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」。",
       "sentenceIndex": 9,
@@ -543,12 +474,9 @@ export default {
         "friend"
       ],
       "optionReasons": {
-        "friend-mcq-05": "本句指「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。"
+        "friend-mcq-05": "本句的「friend」指「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」。",
+        "friend-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-05"
     },
@@ -560,11 +488,8 @@ export default {
       "masked": "What can I do for you, ____?",
       "options": [
         "friend-mcq-05",
-        "friend-mcq-04",
-        "friend-mcq-06",
-        "friend-mcq-03",
-        "friend-mcq-07",
-        "friend-mcq-02"
+        "friend-mcq-08",
+        "friend-mcq-10"
       ],
       "explanation": "本句的「friend」指「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」。",
       "sentenceIndex": 10,
@@ -573,12 +498,9 @@ export default {
         "friend"
       ],
       "optionReasons": {
-        "friend-mcq-05": "本句指「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-02": "「對某個人、團體、機構、理念或事業抱有支持和友善態度的人」與本句語境不同。"
+        "friend-mcq-05": "本句的「friend」指「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」。",
+        "friend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-05"
     },
@@ -590,11 +512,8 @@ export default {
       "masked": "The staff were very ____.",
       "options": [
         "friend-mcq-06",
-        "friend-mcq-05",
-        "friend-mcq-07",
-        "friend-mcq-04",
-        "friend-mcq-08",
-        "friend-mcq-03"
+        "friend-mcq-01",
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friendly」指「對別人親切、和善、不帶敵意的」。",
       "sentenceIndex": 11,
@@ -603,12 +522,9 @@ export default {
         "friendly"
       ],
       "optionReasons": {
-        "friend-mcq-06": "本句指「對別人親切、和善、不帶敵意的」。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。"
+        "friend-mcq-06": "本句的「friendly」指「對別人親切、和善、不帶敵意的」。",
+        "friend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-06"
     },
@@ -620,11 +536,8 @@ export default {
       "masked": "He gave me a ____ smile.",
       "options": [
         "friend-mcq-06",
-        "friend-mcq-05",
-        "friend-mcq-07",
-        "friend-mcq-04",
-        "friend-mcq-08",
-        "friend-mcq-03"
+        "friend-mcq-01",
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friendly」指「對別人親切、和善、不帶敵意的」。",
       "sentenceIndex": 12,
@@ -633,12 +546,9 @@ export default {
         "friendly"
       ],
       "optionReasons": {
-        "friend-mcq-06": "本句指「對別人親切、和善、不帶敵意的」。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。"
+        "friend-mcq-06": "本句的「friendly」指「對別人親切、和善、不帶敵意的」。",
+        "friend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-06"
     },
@@ -650,11 +560,8 @@ export default {
       "masked": "The two countries maintain ____.",
       "options": [
         "friend-mcq-06",
-        "friend-mcq-05",
         "friend-mcq-07",
-        "friend-mcq-04",
-        "friend-mcq-08",
-        "friend-mcq-03"
+        "friend-mcq-08"
       ],
       "explanation": "本句的「friendly relations」指「對別人親切、和善、不帶敵意的」。",
       "sentenceIndex": 13,
@@ -663,12 +570,9 @@ export default {
         "friendly relations"
       ],
       "optionReasons": {
-        "friend-mcq-06": "本句指「對別人親切、和善、不帶敵意的」。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。"
+        "friend-mcq-06": "本句的「friendly relations」指「對別人親切、和善、不帶敵意的」。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-06"
     },
@@ -680,11 +584,8 @@ export default {
       "masked": "The discussion remained ____ despite their disagreement.",
       "options": [
         "friend-mcq-06",
-        "friend-mcq-05",
         "friend-mcq-07",
-        "friend-mcq-04",
-        "friend-mcq-08",
-        "friend-mcq-03"
+        "friend-mcq-08"
       ],
       "explanation": "本句的「friendly」指「對別人親切、和善、不帶敵意的」。",
       "sentenceIndex": 14,
@@ -693,12 +594,9 @@ export default {
         "friendly"
       ],
       "optionReasons": {
-        "friend-mcq-06": "本句指「對別人親切、和善、不帶敵意的」。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。"
+        "friend-mcq-06": "本句的「friendly」指「對別人親切、和善、不帶敵意的」。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-06"
     },
@@ -711,10 +609,7 @@ export default {
       "options": [
         "friend-mcq-07",
         "friend-mcq-06",
-        "friend-mcq-08",
-        "friend-mcq-05",
-        "friend-mcq-09",
-        "friend-mcq-04"
+        "friend-mcq-01"
       ],
       "explanation": "本句的「friendly」指「不屬於正式競賽排名、主要用作練習或交流的友誼賽」。",
       "sentenceIndex": 15,
@@ -723,12 +618,9 @@ export default {
         "friendly"
       ],
       "optionReasons": {
-        "friend-mcq-07": "本句指「不屬於正式競賽排名、主要用作練習或交流的友誼賽」。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-09": "「主動與某人建立友好關係並成為朋友」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。"
+        "friend-mcq-07": "本句的「friendly」指「不屬於正式競賽排名、主要用作練習或交流的友誼賽」。",
+        "friend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-07"
     },
@@ -741,10 +633,7 @@ export default {
       "options": [
         "friend-mcq-07",
         "friend-mcq-06",
-        "friend-mcq-08",
-        "friend-mcq-05",
-        "friend-mcq-09",
-        "friend-mcq-04"
+        "friend-mcq-01"
       ],
       "explanation": "本句的「friendly」指「不屬於正式競賽排名、主要用作練習或交流的友誼賽」。",
       "sentenceIndex": 16,
@@ -753,12 +642,9 @@ export default {
         "friendly"
       ],
       "optionReasons": {
-        "friend-mcq-07": "本句指「不屬於正式競賽排名、主要用作練習或交流的友誼賽」。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-09": "「主動與某人建立友好關係並成為朋友」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。"
+        "friend-mcq-07": "本句的「friendly」指「不屬於正式競賽排名、主要用作練習或交流的友誼賽」。",
+        "friend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-07"
     },
@@ -770,11 +656,8 @@ export default {
       "masked": "Their ____ lasted for many years.",
       "options": [
         "friend-mcq-08",
-        "friend-mcq-07",
-        "friend-mcq-09",
         "friend-mcq-06",
-        "friend-mcq-10",
-        "friend-mcq-05"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friendship」指「朋友之間建立的感情、信任、關係和互相支持」。",
       "sentenceIndex": 17,
@@ -783,12 +666,9 @@ export default {
         "friendship"
       ],
       "optionReasons": {
-        "friend-mcq-08": "本句指「朋友之間建立的感情、信任、關係和互相支持」。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-09": "「主動與某人建立友好關係並成為朋友」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-10": "「對人冷淡、不親切或帶有不友好態度的」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。"
+        "friend-mcq-08": "本句的「friendship」指「朋友之間建立的感情、信任、關係和互相支持」。",
+        "friend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-08"
     },
@@ -800,11 +680,8 @@ export default {
       "masked": "Trust is important in any ____.",
       "options": [
         "friend-mcq-08",
-        "friend-mcq-07",
-        "friend-mcq-09",
         "friend-mcq-06",
-        "friend-mcq-10",
-        "friend-mcq-05"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friendship」指「朋友之間建立的感情、信任、關係和互相支持」。",
       "sentenceIndex": 18,
@@ -813,12 +690,9 @@ export default {
         "friendship"
       ],
       "optionReasons": {
-        "friend-mcq-08": "本句指「朋友之間建立的感情、信任、關係和互相支持」。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-09": "「主動與某人建立友好關係並成為朋友」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-10": "「對人冷淡、不親切或帶有不友好態度的」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。"
+        "friend-mcq-08": "本句的「friendship」指「朋友之間建立的感情、信任、關係和互相支持」。",
+        "friend-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-08"
     },
@@ -830,11 +704,8 @@ export default {
       "masked": "Her ____ made everyone feel welcome.",
       "options": [
         "friend-mcq-06",
-        "friend-mcq-05",
-        "friend-mcq-07",
-        "friend-mcq-04",
-        "friend-mcq-08",
-        "friend-mcq-03"
+        "friend-mcq-01",
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friendliness」指「對別人親切、和善、不帶敵意的」。",
       "sentenceIndex": 19,
@@ -843,12 +714,9 @@ export default {
         "friendliness"
       ],
       "optionReasons": {
-        "friend-mcq-06": "本句指「對別人親切、和善、不帶敵意的」。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。"
+        "friend-mcq-06": "本句的「friendliness」指「對別人親切、和善、不帶敵意的」。",
+        "friend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-06"
     },
@@ -860,11 +728,8 @@ export default {
       "masked": "Visitors often comment on the ____ of the staff.",
       "options": [
         "friend-mcq-06",
-        "friend-mcq-05",
-        "friend-mcq-07",
-        "friend-mcq-04",
         "friend-mcq-08",
-        "friend-mcq-03"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「friendliness」指「對別人親切、和善、不帶敵意的」。",
       "sentenceIndex": 20,
@@ -873,12 +738,9 @@ export default {
         "friendliness"
       ],
       "optionReasons": {
-        "friend-mcq-06": "本句指「對別人親切、和善、不帶敵意的」。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-04": "「在社交平台上與自己帳戶建立正式連結的使用者，不一定代表現實中關係親密」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-03": "「在衝突、競爭或利益關係中支持自己、站在自己一方的人或團體」與本句語境不同。"
+        "friend-mcq-06": "本句的「friendliness」指「對別人親切、和善、不帶敵意的」。",
+        "friend-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-06"
     },
@@ -890,11 +752,7 @@ export default {
       "masked": "She quickly ____ the new student.",
       "options": [
         "friend-mcq-09",
-        "friend-mcq-08",
-        "friend-mcq-10",
-        "friend-mcq-07",
-        "friend-mcq-06",
-        "friend-mcq-05"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「befriended」指「主動與某人建立友好關係並成為朋友」。",
       "sentenceIndex": 21,
@@ -903,12 +761,8 @@ export default {
         "befriended"
       ],
       "optionReasons": {
-        "friend-mcq-09": "本句指「主動與某人建立友好關係並成為朋友」。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-10": "「對人冷淡、不親切或帶有不友好態度的」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。"
+        "friend-mcq-09": "本句的「befriended」指「主動與某人建立友好關係並成為朋友」。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-09"
     },
@@ -920,11 +774,7 @@ export default {
       "masked": "He ____ several people in the neighbourhood.",
       "options": [
         "friend-mcq-09",
-        "friend-mcq-08",
-        "friend-mcq-10",
-        "friend-mcq-07",
-        "friend-mcq-06",
-        "friend-mcq-05"
+        "friend-mcq-07"
       ],
       "explanation": "本句的「befriended」指「主動與某人建立友好關係並成為朋友」。",
       "sentenceIndex": 22,
@@ -933,12 +783,8 @@ export default {
         "befriended"
       ],
       "optionReasons": {
-        "friend-mcq-09": "本句指「主動與某人建立友好關係並成為朋友」。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-10": "「對人冷淡、不親切或帶有不友好態度的」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。"
+        "friend-mcq-09": "本句的「befriended」指「主動與某人建立友好關係並成為朋友」。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-09"
     },
@@ -950,11 +796,7 @@ export default {
       "masked": "The receptionist seemed rather ____.",
       "options": [
         "friend-mcq-10",
-        "friend-mcq-09",
-        "friend-mcq-08",
-        "friend-mcq-07",
-        "friend-mcq-06",
-        "friend-mcq-05"
+        "friend-mcq-03"
       ],
       "explanation": "本句的「unfriendly」指「對人冷淡、不親切或帶有不友好態度的」。",
       "sentenceIndex": 23,
@@ -963,12 +805,8 @@ export default {
         "unfriendly"
       ],
       "optionReasons": {
-        "friend-mcq-10": "本句指「對人冷淡、不親切或帶有不友好態度的」。",
-        "friend-mcq-09": "「主動與某人建立友好關係並成為朋友」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。"
+        "friend-mcq-10": "本句的「unfriendly」指「對人冷淡、不親切或帶有不友好態度的」。",
+        "friend-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-10"
     },
@@ -980,11 +818,8 @@ export default {
       "masked": "His tone sounded ____.",
       "options": [
         "friend-mcq-10",
-        "friend-mcq-09",
-        "friend-mcq-08",
-        "friend-mcq-07",
-        "friend-mcq-06",
-        "friend-mcq-05"
+        "friend-mcq-01",
+        "friend-mcq-07"
       ],
       "explanation": "本句的「unfriendly」指「對人冷淡、不親切或帶有不友好態度的」。",
       "sentenceIndex": 24,
@@ -993,12 +828,9 @@ export default {
         "unfriendly"
       ],
       "optionReasons": {
-        "friend-mcq-10": "本句指「對人冷淡、不親切或帶有不友好態度的」。",
-        "friend-mcq-09": "「主動與某人建立友好關係並成為朋友」與本句語境不同。",
-        "friend-mcq-08": "「朋友之間建立的感情、信任、關係和互相支持」與本句語境不同。",
-        "friend-mcq-07": "「不屬於正式競賽排名、主要用作練習或交流的友誼賽」與本句語境不同。",
-        "friend-mcq-06": "「對別人親切、和善、不帶敵意的」與本句語境不同。",
-        "friend-mcq-05": "「用來直接稱呼別人的詞語，不一定表示雙方真的具有私人友誼」與本句語境不同。"
+        "friend-mcq-10": "本句的「unfriendly」指「對人冷淡、不親切或帶有不友好態度的」。",
+        "friend-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "friend-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "friend-mcq-10"
     }
@@ -1010,5 +842,7 @@ export default {
     "sha256": "8036bec7f1ff3c630d4bf62885e775665836f6e3de79e30fea0bc8dd90dd79a8",
     "pages": 12
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

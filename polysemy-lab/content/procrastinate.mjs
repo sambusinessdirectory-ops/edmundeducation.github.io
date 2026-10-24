@@ -229,11 +229,7 @@ export default {
       "masked": "I still ____ sometimes.",
       "options": [
         "procrastinate-mcq-01",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-06"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinate」指「拖延」。",
       "sentenceIndex": 0,
@@ -242,12 +238,8 @@ export default {
         "procrastinate"
       ],
       "optionReasons": {
-        "procrastinate-mcq-01": "本句指「拖延」。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。"
+        "procrastinate-mcq-01": "本句的「procrastinate」指「拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-01"
     },
@@ -259,11 +251,7 @@ export default {
       "masked": "I always ____ when I have a difficult assignment.",
       "options": [
         "procrastinate-mcq-01",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-06"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinate」指「拖延」。",
       "sentenceIndex": 1,
@@ -272,12 +260,8 @@ export default {
         "procrastinate"
       ],
       "optionReasons": {
-        "procrastinate-mcq-01": "本句指「拖延」。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。"
+        "procrastinate-mcq-01": "本句的「procrastinate」指「拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-01"
     },
@@ -289,11 +273,7 @@ export default {
       "masked": "Stop ____ and start your work.",
       "options": [
         "procrastinate-mcq-01",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-06"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinating」指「拖延」。",
       "sentenceIndex": 2,
@@ -302,12 +282,8 @@ export default {
         "procrastinating"
       ],
       "optionReasons": {
-        "procrastinate-mcq-01": "本句指「拖延」。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。"
+        "procrastinate-mcq-01": "本句的「procrastinating」指「拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-01"
     },
@@ -319,11 +295,7 @@ export default {
       "masked": "She ____ for weeks.",
       "options": [
         "procrastinate-mcq-03",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-01",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-06"
+        "procrastinate-mcq-10"
       ],
       "explanation": "本句的「procrastinated over the decision」指「對 X 遲遲不行動」。",
       "sentenceIndex": 3,
@@ -332,12 +304,8 @@ export default {
         "procrastinated over the decision"
       ],
       "optionReasons": {
-        "procrastinate-mcq-03": "本句指「對 X 遲遲不行動」。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-01": "「拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。"
+        "procrastinate-mcq-03": "本句的「procrastinated over the decision」指「對 X 遲遲不行動」。",
+        "procrastinate-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-03"
     },
@@ -349,11 +317,7 @@ export default {
       "masked": "He kept ____.",
       "options": [
         "procrastinate-mcq-03",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-01",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-06"
+        "procrastinate-mcq-01"
       ],
       "explanation": "本句的「procrastinating about applying for the job」指「對 X 遲遲不行動」。",
       "sentenceIndex": 4,
@@ -362,12 +326,8 @@ export default {
         "procrastinating about applying for the job"
       ],
       "optionReasons": {
-        "procrastinate-mcq-03": "本句指「對 X 遲遲不行動」。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-01": "「拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。"
+        "procrastinate-mcq-03": "本句的「procrastinating about applying for the job」指「對 X 遲遲不行動」。",
+        "procrastinate-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-03"
     },
@@ -379,11 +339,7 @@ export default {
       "masked": "I ____ until the night before it was due.",
       "options": [
         "procrastinate-mcq-04",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-01"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinated on the report」指「正在拖延」。",
       "sentenceIndex": 5,
@@ -392,12 +348,8 @@ export default {
         "procrastinated on the report"
       ],
       "optionReasons": {
-        "procrastinate-mcq-04": "本句指「正在拖延」。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-01": "「拖延」與本句語境不同。"
+        "procrastinate-mcq-04": "本句的「procrastinated on the report」指「正在拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-04"
     },
@@ -409,11 +361,7 @@ export default {
       "masked": "Don't ____.",
       "options": [
         "procrastinate-mcq-04",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-02",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-01"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinate on important tasks」指「正在拖延」。",
       "sentenceIndex": 6,
@@ -422,12 +370,8 @@ export default {
         "procrastinate on important tasks"
       ],
       "optionReasons": {
-        "procrastinate-mcq-04": "本句指「正在拖延」。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-01": "「拖延」與本句語境不同。"
+        "procrastinate-mcq-04": "本句的「procrastinate on important tasks」指「正在拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-04"
     },
@@ -439,11 +383,7 @@ export default {
       "masked": "____ caused most of my last-minute stress.",
       "options": [
         "procrastinate-mcq-05",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-02"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「Procrastination」指「拖延；拖延習慣」。",
       "sentenceIndex": 9,
@@ -452,12 +392,8 @@ export default {
         "Procrastination"
       ],
       "optionReasons": {
-        "procrastinate-mcq-05": "本句指「拖延；拖延習慣」。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。"
+        "procrastinate-mcq-05": "本句的「Procrastination」指「拖延；拖延習慣」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-05"
     },
@@ -469,11 +405,7 @@ export default {
       "masked": "Better planning helped reduce my ____.",
       "options": [
         "procrastinate-mcq-05",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-03",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-02"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastination」指「拖延；拖延習慣」。",
       "sentenceIndex": 10,
@@ -482,12 +414,8 @@ export default {
         "procrastination"
       ],
       "optionReasons": {
-        "procrastinate-mcq-05": "本句指「拖延；拖延習慣」。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-02": "「拖延處理 X」與本句語境不同。"
+        "procrastinate-mcq-05": "本句的「procrastination」指「拖延；拖延習慣」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-05"
     },
@@ -499,10 +427,6 @@ export default {
       "masked": "____ can create unnecessary pressure.",
       "options": [
         "procrastinate-mcq-06",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-08",
         "procrastinate-mcq-03"
       ],
       "explanation": "本句的「Chronic procrastination」指「長期拖延」。",
@@ -512,12 +436,8 @@ export default {
         "Chronic procrastination"
       ],
       "optionReasons": {
-        "procrastinate-mcq-06": "本句指「長期拖延」。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。"
+        "procrastinate-mcq-06": "本句的「Chronic procrastination」指「長期拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-06"
     },
@@ -529,10 +449,6 @@ export default {
       "masked": "She is trying to break the cycle of ____.",
       "options": [
         "procrastinate-mcq-06",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-04",
-        "procrastinate-mcq-08",
         "procrastinate-mcq-03"
       ],
       "explanation": "本句的「chronic procrastination」指「長期拖延」。",
@@ -542,12 +458,8 @@ export default {
         "chronic procrastination"
       ],
       "optionReasons": {
-        "procrastinate-mcq-06": "本句指「長期拖延」。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-03": "「對 X 遲遲不行動」與本句語境不同。"
+        "procrastinate-mcq-06": "本句的「chronic procrastination」指「長期拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-06"
     },
@@ -559,11 +471,7 @@ export default {
       "masked": "I have a ____ when a task feels overwhelming.",
       "options": [
         "procrastinate-mcq-07",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-08",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-09",
-        "procrastinate-mcq-04"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「tendency to procrastinate」指「拖延傾向」。",
       "sentenceIndex": 13,
@@ -572,12 +480,8 @@ export default {
         "tendency to procrastinate"
       ],
       "optionReasons": {
-        "procrastinate-mcq-07": "本句指「拖延傾向」。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-09": "「拖延循環」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。"
+        "procrastinate-mcq-07": "本句的「tendency to procrastinate」指「拖延傾向」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-07"
     },
@@ -589,11 +493,7 @@ export default {
       "masked": "His ____ affected his work.",
       "options": [
         "procrastinate-mcq-07",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-08",
-        "procrastinate-mcq-05",
-        "procrastinate-mcq-09",
-        "procrastinate-mcq-04"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「tendency to procrastinate」指「拖延傾向」。",
       "sentenceIndex": 14,
@@ -602,12 +502,8 @@ export default {
         "tendency to procrastinate"
       ],
       "optionReasons": {
-        "procrastinate-mcq-07": "本句指「拖延傾向」。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。",
-        "procrastinate-mcq-09": "「拖延循環」與本句語境不同。",
-        "procrastinate-mcq-04": "「正在拖延」與本句語境不同。"
+        "procrastinate-mcq-07": "本句的「tendency to procrastinate」指「拖延傾向」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-07"
     },
@@ -619,11 +515,7 @@ export default {
       "masked": "I'm a terrible ____.",
       "options": [
         "procrastinate-mcq-08",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-09",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-10",
-        "procrastinate-mcq-05"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinator」指「拖延者」。",
       "sentenceIndex": 15,
@@ -632,12 +524,8 @@ export default {
         "procrastinator"
       ],
       "optionReasons": {
-        "procrastinate-mcq-08": "本句指「拖延者」。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-09": "「拖延循環」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-10": "「生產性拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。"
+        "procrastinate-mcq-08": "本句的「procrastinator」指「拖延者」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-08"
     },
@@ -649,11 +537,7 @@ export default {
       "masked": "Even a ____ can learn better time-management habits.",
       "options": [
         "procrastinate-mcq-08",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-09",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-10",
-        "procrastinate-mcq-05"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastinator」指「拖延者」。",
       "sentenceIndex": 16,
@@ -662,12 +546,8 @@ export default {
         "procrastinator"
       ],
       "optionReasons": {
-        "procrastinate-mcq-08": "本句指「拖延者」。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-09": "「拖延循環」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-10": "「生產性拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。"
+        "procrastinate-mcq-08": "本句的「procrastinator」指「拖延者」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-08"
     },
@@ -679,11 +559,7 @@ export default {
       "masked": "Stress can create a ____.",
       "options": [
         "procrastinate-mcq-09",
-        "procrastinate-mcq-08",
-        "procrastinate-mcq-10",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-05"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastination cycle」指「拖延循環」。",
       "sentenceIndex": 17,
@@ -692,12 +568,8 @@ export default {
         "procrastination cycle"
       ],
       "optionReasons": {
-        "procrastinate-mcq-09": "本句指「拖延循環」。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-10": "「生產性拖延」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。"
+        "procrastinate-mcq-09": "本句的「procrastination cycle」指「拖延循環」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-09"
     },
@@ -709,11 +581,7 @@ export default {
       "masked": "Breaking tasks into smaller steps helped me escape the ____.",
       "options": [
         "procrastinate-mcq-09",
-        "procrastinate-mcq-08",
-        "procrastinate-mcq-10",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-05"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「procrastination cycle」指「拖延循環」。",
       "sentenceIndex": 18,
@@ -722,12 +590,8 @@ export default {
         "procrastination cycle"
       ],
       "optionReasons": {
-        "procrastinate-mcq-09": "本句指「拖延循環」。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-10": "「生產性拖延」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。"
+        "procrastinate-mcq-09": "本句的「procrastination cycle」指「拖延循環」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-09"
     },
@@ -739,11 +603,7 @@ export default {
       "masked": "Cleaning the kitchen instead of writing the essay was a form of ____.",
       "options": [
         "procrastinate-mcq-10",
-        "procrastinate-mcq-09",
-        "procrastinate-mcq-08",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-05"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「productive procrastination」指「生產性拖延」。",
       "sentenceIndex": 19,
@@ -752,12 +612,8 @@ export default {
         "productive procrastination"
       ],
       "optionReasons": {
-        "procrastinate-mcq-10": "本句指「生產性拖延」。",
-        "procrastinate-mcq-09": "「拖延循環」與本句語境不同。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。"
+        "procrastinate-mcq-10": "本句的「productive procrastination」指「生產性拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-10"
     },
@@ -769,11 +625,7 @@ export default {
       "masked": "____ still avoids the main task.",
       "options": [
         "procrastinate-mcq-10",
-        "procrastinate-mcq-09",
-        "procrastinate-mcq-08",
-        "procrastinate-mcq-07",
-        "procrastinate-mcq-06",
-        "procrastinate-mcq-05"
+        "procrastinate-mcq-03"
       ],
       "explanation": "本句的「Productive procrastination」指「生產性拖延」。",
       "sentenceIndex": 20,
@@ -782,12 +634,8 @@ export default {
         "Productive procrastination"
       ],
       "optionReasons": {
-        "procrastinate-mcq-10": "本句指「生產性拖延」。",
-        "procrastinate-mcq-09": "「拖延循環」與本句語境不同。",
-        "procrastinate-mcq-08": "「拖延者」與本句語境不同。",
-        "procrastinate-mcq-07": "「拖延傾向」與本句語境不同。",
-        "procrastinate-mcq-06": "「長期拖延」與本句語境不同。",
-        "procrastinate-mcq-05": "「拖延；拖延習慣」與本句語境不同。"
+        "procrastinate-mcq-10": "本句的「Productive procrastination」指「生產性拖延」。",
+        "procrastinate-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "procrastinate-mcq-10"
     }
@@ -799,5 +647,7 @@ export default {
     "sha256": "45c613c400ebf17210ffbfa8e0e1f60affd48972638f954ec8f0fb8a79e54d1b",
     "pages": 13
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

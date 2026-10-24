@@ -515,11 +515,9 @@ export default {
       "masked": "Spring is my favourite ____.",
       "options": [
         "season-mcq-01",
-        "season-mcq-02",
-        "season-mcq-03",
-        "season-mcq-04",
-        "season-mcq-05",
-        "season-mcq-06"
+        "season-mcq-21",
+        "season-mcq-16",
+        "season-mcq-13"
       ],
       "explanation": "本句的「season」指「一年中因氣候、天氣、日照等特徵而劃分出的季節」。",
       "sentenceIndex": 0,
@@ -528,12 +526,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-01": "本句指「一年中因氣候、天氣、日照等特徵而劃分出的季節」。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-01": "本句的「season」指「一年中因氣候、天氣、日照等特徵而劃分出的季節」。",
+        "season-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-01"
     },
@@ -545,11 +541,9 @@ export default {
       "masked": "Different plants grow best in different ____.",
       "options": [
         "season-mcq-01",
-        "season-mcq-02",
-        "season-mcq-03",
-        "season-mcq-04",
-        "season-mcq-05",
-        "season-mcq-06"
+        "season-mcq-16",
+        "season-mcq-19",
+        "season-mcq-15"
       ],
       "explanation": "本句的「seasons」指「一年中因氣候、天氣、日照等特徵而劃分出的季節」。",
       "sentenceIndex": 1,
@@ -558,12 +552,10 @@ export default {
         "seasons"
       ],
       "optionReasons": {
-        "season-mcq-01": "本句指「一年中因氣候、天氣、日照等特徵而劃分出的季節」。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-01": "本句的「seasons」指「一年中因氣候、天氣、日照等特徵而劃分出的季節」。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-01"
     },
@@ -575,11 +567,9 @@ export default {
       "masked": "This is the busiest ____ for tourism.",
       "options": [
         "season-mcq-02",
-        "season-mcq-01",
-        "season-mcq-03",
-        "season-mcq-04",
-        "season-mcq-05",
-        "season-mcq-06"
+        "season-mcq-11",
+        "season-mcq-07",
+        "season-mcq-16"
       ],
       "explanation": "本句的「season」指「某種活動、產品或現象特別集中出現的一段時期」。",
       "sentenceIndex": 2,
@@ -588,12 +578,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-02": "本句指「某種活動、產品或現象特別集中出現的一段時期」。",
-        "season-mcq-01": "「一年中因氣候、天氣、日照等特徵而劃分出的季節」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-02": "本句的「season」指「某種活動、產品或現象特別集中出現的一段時期」。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-02"
     },
@@ -605,11 +593,9 @@ export default {
       "masked": "The strawberry ____ is quite short.",
       "options": [
         "season-mcq-02",
-        "season-mcq-01",
-        "season-mcq-03",
-        "season-mcq-04",
-        "season-mcq-05",
-        "season-mcq-06"
+        "season-mcq-11",
+        "season-mcq-07",
+        "season-mcq-17"
       ],
       "explanation": "本句的「season」指「某種活動、產品或現象特別集中出現的一段時期」。",
       "sentenceIndex": 3,
@@ -618,12 +604,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-02": "本句指「某種活動、產品或現象特別集中出現的一段時期」。",
-        "season-mcq-01": "「一年中因氣候、天氣、日照等特徵而劃分出的季節」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-02": "本句的「season」指「某種活動、產品或現象特別集中出現的一段時期」。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-02"
     },
@@ -635,11 +619,9 @@ export default {
       "masked": "The football ____ starts next month.",
       "options": [
         "season-mcq-03",
-        "season-mcq-02",
-        "season-mcq-04",
-        "season-mcq-01",
-        "season-mcq-05",
-        "season-mcq-06"
+        "season-mcq-15",
+        "season-mcq-19",
+        "season-mcq-17"
       ],
       "explanation": "本句的「season」指「某項運動一年中正式比賽進行的賽季」。",
       "sentenceIndex": 4,
@@ -648,12 +630,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-03": "本句指「某項運動一年中正式比賽進行的賽季」。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-01": "「一年中因氣候、天氣、日照等特徵而劃分出的季節」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-03": "本句的「season」指「某項運動一年中正式比賽進行的賽季」。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-03"
     },
@@ -665,11 +645,9 @@ export default {
       "masked": "She scored ten goals this ____.",
       "options": [
         "season-mcq-03",
-        "season-mcq-02",
-        "season-mcq-04",
-        "season-mcq-01",
-        "season-mcq-05",
-        "season-mcq-06"
+        "season-mcq-16",
+        "season-mcq-19",
+        "season-mcq-13"
       ],
       "explanation": "本句的「season」指「某項運動一年中正式比賽進行的賽季」。",
       "sentenceIndex": 5,
@@ -678,12 +656,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-03": "本句指「某項運動一年中正式比賽進行的賽季」。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-01": "「一年中因氣候、天氣、日照等特徵而劃分出的季節」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-03": "本句的「season」指「某項運動一年中正式比賽進行的賽季」。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-03"
     },
@@ -696,10 +672,8 @@ export default {
       "options": [
         "season-mcq-04",
         "season-mcq-03",
-        "season-mcq-05",
-        "season-mcq-02",
-        "season-mcq-06",
-        "season-mcq-01"
+        "season-mcq-20",
+        "season-mcq-12"
       ],
       "explanation": "本句的「season」指「同一節目／劇集在一段時期內播出的整組集數」。",
       "sentenceIndex": 6,
@@ -708,12 +682,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-04": "本句指「同一節目／劇集在一段時期內播出的整組集數」。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-01": "「一年中因氣候、天氣、日照等特徵而劃分出的季節」與本句語境不同。"
+        "season-mcq-04": "本句的「season」指「同一節目／劇集在一段時期內播出的整組集數」。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-04"
     },
@@ -726,10 +698,8 @@ export default {
       "options": [
         "season-mcq-04",
         "season-mcq-03",
-        "season-mcq-05",
-        "season-mcq-02",
-        "season-mcq-06",
-        "season-mcq-01"
+        "season-mcq-13",
+        "season-mcq-20"
       ],
       "explanation": "本句的「season」指「同一節目／劇集在一段時期內播出的整組集數」。",
       "sentenceIndex": 7,
@@ -738,12 +708,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-04": "本句指「同一節目／劇集在一段時期內播出的整組集數」。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-01": "「一年中因氣候、天氣、日照等特徵而劃分出的季節」與本句語境不同。"
+        "season-mcq-04": "本句的「season」指「同一節目／劇集在一段時期內播出的整組集數」。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-04"
     },
@@ -755,11 +723,9 @@ export default {
       "masked": "The theatre ____ begins in September.",
       "options": [
         "season-mcq-05",
-        "season-mcq-04",
-        "season-mcq-06",
-        "season-mcq-03",
-        "season-mcq-07",
-        "season-mcq-02"
+        "season-mcq-01",
+        "season-mcq-17",
+        "season-mcq-13"
       ],
       "explanation": "本句的「season」指「某類文化、社交或專業活動集中舉行的時期」。",
       "sentenceIndex": 8,
@@ -768,12 +734,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-05": "本句指「某類文化、社交或專業活動集中舉行的時期」。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。"
+        "season-mcq-05": "本句的「season」指「某類文化、社交或專業活動集中舉行的時期」。",
+        "season-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-05"
     },
@@ -785,11 +749,9 @@ export default {
       "masked": "The concert ____ runs through winter.",
       "options": [
         "season-mcq-05",
-        "season-mcq-04",
-        "season-mcq-06",
-        "season-mcq-03",
-        "season-mcq-07",
-        "season-mcq-02"
+        "season-mcq-17",
+        "season-mcq-12",
+        "season-mcq-01"
       ],
       "explanation": "本句的「season」指「某類文化、社交或專業活動集中舉行的時期」。",
       "sentenceIndex": 9,
@@ -798,12 +760,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-05": "本句指「某類文化、社交或專業活動集中舉行的時期」。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-02": "「某種活動、產品或現象特別集中出現的一段時期」與本句語境不同。"
+        "season-mcq-05": "本句的「season」指「某類文化、社交或專業活動集中舉行的時期」。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-05"
     },
@@ -815,11 +775,9 @@ export default {
       "masked": "She wants to grow more ____.",
       "options": [
         "season-pdf-001",
+        "season-mcq-11",
         "season-mcq-05",
-        "season-mcq-07",
-        "season-mcq-04",
-        "season-mcq-08",
-        "season-mcq-03"
+        "season-mcq-14"
       ],
       "explanation": "本句的「seasonal vegetables」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
       "sentenceIndex": 10,
@@ -828,12 +786,10 @@ export default {
         "seasonal vegetables"
       ],
       "optionReasons": {
-        "season-pdf-001": "本句指「只在某個季節出現、盛產、適合使用或特別相關的」。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。"
+        "season-pdf-001": "本句的「seasonal vegetables」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-pdf-001"
     },
@@ -845,10 +801,8 @@ export default {
       "masked": "The restaurant changes its menu to use ____ ingredients.",
       "options": [
         "season-pdf-001",
-        "season-mcq-05",
-        "season-mcq-07",
-        "season-mcq-04",
-        "season-mcq-08",
+        "season-mcq-12",
+        "season-mcq-22",
         "season-mcq-03"
       ],
       "explanation": "本句的「seasonal」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
@@ -858,12 +812,10 @@ export default {
         "seasonal"
       ],
       "optionReasons": {
-        "season-pdf-001": "本句指「只在某個季節出現、盛產、適合使用或特別相關的」。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。"
+        "season-pdf-001": "本句的「seasonal」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-pdf-001"
     },
@@ -876,10 +828,8 @@ export default {
       "options": [
         "season-pdf-001",
         "season-mcq-05",
-        "season-mcq-07",
-        "season-mcq-04",
-        "season-mcq-08",
-        "season-mcq-03"
+        "season-mcq-12",
+        "season-mcq-14"
       ],
       "explanation": "本句的「Seasonal」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
       "sentenceIndex": 12,
@@ -888,12 +838,10 @@ export default {
         "Seasonal"
       ],
       "optionReasons": {
-        "season-pdf-001": "本句指「只在某個季節出現、盛產、適合使用或特別相關的」。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-03": "「某項運動一年中正式比賽進行的賽季」與本句語境不同。"
+        "season-pdf-001": "本句的「Seasonal」指「只在某個季節出現、盛產、適合使用或特別相關的」。",
+        "season-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-pdf-001"
     },
@@ -905,11 +853,9 @@ export default {
       "masked": "The region has large ____ in temperature.",
       "options": [
         "season-mcq-07",
-        "season-mcq-06",
-        "season-mcq-08",
-        "season-mcq-05",
-        "season-mcq-09",
-        "season-mcq-04"
+        "season-mcq-13",
+        "season-mcq-17",
+        "season-mcq-22"
       ],
       "explanation": "本句的「seasonal changes」指「因季節不同而規律發生變化的」。",
       "sentenceIndex": 13,
@@ -918,12 +864,10 @@ export default {
         "seasonal changes"
       ],
       "optionReasons": {
-        "season-mcq-07": "本句指「因季節不同而規律發生變化的」。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。"
+        "season-mcq-07": "本句的「seasonal changes」指「因季節不同而規律發生變化的」。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-07"
     },
@@ -935,11 +879,9 @@ export default {
       "masked": "Rainfall shows a clear ____ pattern.",
       "options": [
         "season-mcq-07",
-        "season-mcq-06",
-        "season-mcq-08",
-        "season-mcq-05",
-        "season-mcq-09",
-        "season-mcq-04"
+        "season-mcq-17",
+        "season-mcq-12",
+        "season-mcq-02"
       ],
       "explanation": "本句的「seasonal」指「因季節不同而規律發生變化的」。",
       "sentenceIndex": 14,
@@ -948,12 +890,10 @@ export default {
         "seasonal"
       ],
       "optionReasons": {
-        "season-mcq-07": "本句指「因季節不同而規律發生變化的」。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-04": "「同一節目／劇集在一段時期內播出的整組集數」與本句語境不同。"
+        "season-mcq-07": "本句的「seasonal」指「因季節不同而規律發生變化的」。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-07"
     },
@@ -965,11 +905,9 @@ export default {
       "masked": "The farm hires ____ during harvest.",
       "options": [
         "season-mcq-08",
-        "season-mcq-07",
-        "season-mcq-09",
-        "season-mcq-06",
-        "season-mcq-10",
-        "season-mcq-05"
+        "season-mcq-12",
+        "season-mcq-17",
+        "season-mcq-07"
       ],
       "explanation": "本句的「seasonal workers」指「只在一年某些特定時期需要／聘用的」。",
       "sentenceIndex": 15,
@@ -978,12 +916,10 @@ export default {
         "seasonal workers"
       ],
       "optionReasons": {
-        "season-mcq-08": "本句指「只在一年某些特定時期需要／聘用的」。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。"
+        "season-mcq-08": "本句的「seasonal workers」指「只在一年某些特定時期需要／聘用的」。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-08"
     },
@@ -996,10 +932,8 @@ export default {
       "options": [
         "season-mcq-08",
         "season-mcq-07",
-        "season-mcq-09",
-        "season-mcq-06",
-        "season-mcq-10",
-        "season-mcq-05"
+        "season-mcq-13",
+        "season-mcq-16"
       ],
       "explanation": "本句的「seasonal」指「只在一年某些特定時期需要／聘用的」。",
       "sentenceIndex": 16,
@@ -1008,12 +942,10 @@ export default {
         "seasonal"
       ],
       "optionReasons": {
-        "season-mcq-08": "本句指「只在一年某些特定時期需要／聘用的」。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-05": "「某類文化、社交或專業活動集中舉行的時期」與本句語境不同。"
+        "season-mcq-08": "本句的「seasonal」指「只在一年某些特定時期需要／聘用的」。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-08"
     },
@@ -1025,11 +957,9 @@ export default {
       "masked": "Some allergies are ____.",
       "options": [
         "season-mcq-09",
-        "season-mcq-08",
-        "season-mcq-10",
-        "season-mcq-07",
-        "season-mcq-11",
-        "season-mcq-06"
+        "season-mcq-21",
+        "season-mcq-17",
+        "season-mcq-14"
       ],
       "explanation": "本句的「seasonal」指「只在特定季節出現或明顯增加的」。",
       "sentenceIndex": 17,
@@ -1038,12 +968,10 @@ export default {
         "seasonal"
       ],
       "optionReasons": {
-        "season-mcq-09": "本句指「只在特定季節出現或明顯增加的」。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-09": "本句的「seasonal」指「只在特定季節出現或明顯增加的」。",
+        "season-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-09"
     },
@@ -1055,11 +983,9 @@ export default {
       "masked": "Demand for heating is highly ____.",
       "options": [
         "season-mcq-09",
-        "season-mcq-08",
-        "season-mcq-10",
-        "season-mcq-07",
-        "season-mcq-11",
-        "season-mcq-06"
+        "season-mcq-14",
+        "season-mcq-19",
+        "season-mcq-17"
       ],
       "explanation": "本句的「seasonal」指「只在特定季節出現或明顯增加的」。",
       "sentenceIndex": 18,
@@ -1068,12 +994,10 @@ export default {
         "seasonal"
       ],
       "optionReasons": {
-        "season-mcq-09": "本句指「只在特定季節出現或明顯增加的」。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-06": "「在特定季節自然生長、採收或盛產的；當季／時令」與本句語境不同。"
+        "season-mcq-09": "本句的「seasonal」指「只在特定季節出現或明顯增加的」。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-09"
     },
@@ -1085,11 +1009,9 @@ export default {
       "masked": "The menu changes ____.",
       "options": [
         "season-mcq-10",
-        "season-mcq-09",
-        "season-mcq-11",
-        "season-mcq-08",
-        "season-mcq-12",
-        "season-mcq-07"
+        "season-mcq-18",
+        "season-mcq-15",
+        "season-mcq-17"
       ],
       "explanation": "本句的「seasonally」指「按季節或隨季節規律變化地」。",
       "sentenceIndex": 19,
@@ -1098,12 +1020,10 @@ export default {
         "seasonally"
       ],
       "optionReasons": {
-        "season-mcq-10": "本句指「按季節或隨季節規律變化地」。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。"
+        "season-mcq-10": "本句的「seasonally」指「按季節或隨季節規律變化地」。",
+        "season-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-10"
     },
@@ -1115,11 +1035,9 @@ export default {
       "masked": "Prices vary ____.",
       "options": [
         "season-mcq-10",
-        "season-mcq-09",
         "season-mcq-11",
-        "season-mcq-08",
-        "season-mcq-12",
-        "season-mcq-07"
+        "season-mcq-18",
+        "season-mcq-16"
       ],
       "explanation": "本句的「seasonally」指「按季節或隨季節規律變化地」。",
       "sentenceIndex": 20,
@@ -1128,12 +1046,10 @@ export default {
         "seasonally"
       ],
       "optionReasons": {
-        "season-mcq-10": "本句指「按季節或隨季節規律變化地」。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-07": "「因季節不同而規律發生變化的」與本句語境不同。"
+        "season-mcq-10": "本句的「seasonally」指「按季節或隨季節規律變化地」。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-10"
     },
@@ -1145,11 +1061,9 @@ export default {
       "masked": "____ the soup with salt and pepper.",
       "options": [
         "season-mcq-11",
-        "season-mcq-10",
-        "season-mcq-12",
-        "season-mcq-09",
-        "season-mcq-13",
-        "season-mcq-08"
+        "season-mcq-21",
+        "season-pdf-001",
+        "season-mcq-14"
       ],
       "explanation": "本句的「Season」指「加入鹽、胡椒、香草、香料等使食物更有味道」。",
       "sentenceIndex": 21,
@@ -1158,12 +1072,10 @@ export default {
         "Season"
       ],
       "optionReasons": {
-        "season-mcq-11": "本句指「加入鹽、胡椒、香草、香料等使食物更有味道」。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。"
+        "season-mcq-11": "本句的「Season」指「加入鹽、胡椒、香草、香料等使食物更有味道」。",
+        "season-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "season-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-11"
     },
@@ -1175,11 +1087,9 @@ export default {
       "masked": "She ____ the vegetables lightly.",
       "options": [
         "season-mcq-11",
-        "season-mcq-10",
-        "season-mcq-12",
-        "season-mcq-09",
-        "season-mcq-13",
-        "season-mcq-08"
+        "season-mcq-08",
+        "season-mcq-17",
+        "season-mcq-10"
       ],
       "explanation": "本句的「seasoned」指「加入鹽、胡椒、香草、香料等使食物更有味道」。",
       "sentenceIndex": 22,
@@ -1188,12 +1098,10 @@ export default {
         "seasoned"
       ],
       "optionReasons": {
-        "season-mcq-11": "本句指「加入鹽、胡椒、香草、香料等使食物更有味道」。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-08": "「只在一年某些特定時期需要／聘用的」與本句語境不同。"
+        "season-mcq-11": "本句的「seasoned」指「加入鹽、胡椒、香草、香料等使食物更有味道」。",
+        "season-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-11"
     },
@@ -1205,11 +1113,9 @@ export default {
       "masked": "Add a little ____ before serving.",
       "options": [
         "season-mcq-12",
-        "season-mcq-11",
-        "season-mcq-13",
+        "season-mcq-19",
         "season-mcq-10",
-        "season-mcq-14",
-        "season-mcq-09"
+        "season-mcq-14"
       ],
       "explanation": "本句的「seasoning」指「用來提升食物味道的鹽、香料、香草等調味材料」。",
       "sentenceIndex": 23,
@@ -1218,12 +1124,10 @@ export default {
         "seasoning"
       ],
       "optionReasons": {
-        "season-mcq-12": "本句指「用來提升食物味道的鹽、香料、香草等調味材料」。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。"
+        "season-mcq-12": "本句的「seasoning」指「用來提升食物味道的鹽、香料、香草等調味材料」。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-12"
     },
@@ -1235,11 +1139,9 @@ export default {
       "masked": "This ____ contains garlic and herbs.",
       "options": [
         "season-mcq-12",
-        "season-mcq-11",
-        "season-mcq-13",
-        "season-mcq-10",
-        "season-mcq-14",
-        "season-mcq-09"
+        "season-mcq-18",
+        "season-mcq-03",
+        "season-mcq-10"
       ],
       "explanation": "本句的「seasoning」指「用來提升食物味道的鹽、香料、香草等調味材料」。",
       "sentenceIndex": 24,
@@ -1248,12 +1150,10 @@ export default {
         "seasoning"
       ],
       "optionReasons": {
-        "season-mcq-12": "本句指「用來提升食物味道的鹽、香料、香草等調味材料」。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-09": "「只在特定季節出現或明顯增加的」與本句語境不同。"
+        "season-mcq-12": "本句的「seasoning」指「用來提升食物味道的鹽、香料、香草等調味材料」。",
+        "season-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-12"
     },
@@ -1265,11 +1165,9 @@ export default {
       "masked": "The dish needs more ____.",
       "options": [
         "season-mcq-13",
-        "season-mcq-12",
-        "season-mcq-14",
-        "season-mcq-11",
-        "season-mcq-15",
-        "season-mcq-10"
+        "season-mcq-18",
+        "season-mcq-20",
+        "season-mcq-03"
       ],
       "explanation": "本句的「seasoning」指「為食物加入調味的過程／結果」。",
       "sentenceIndex": 25,
@@ -1278,12 +1176,10 @@ export default {
         "seasoning"
       ],
       "optionReasons": {
-        "season-mcq-13": "本句指「為食物加入調味的過程／結果」。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。"
+        "season-mcq-13": "本句的「seasoning」指「為食物加入調味的過程／結果」。",
+        "season-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-13"
     },
@@ -1295,11 +1191,9 @@ export default {
       "masked": "Good ____ can improve a simple dish.",
       "options": [
         "season-mcq-13",
-        "season-mcq-12",
-        "season-mcq-14",
-        "season-mcq-11",
-        "season-mcq-15",
-        "season-mcq-10"
+        "season-mcq-01",
+        "season-mcq-19",
+        "season-mcq-17"
       ],
       "explanation": "本句的「seasoning」指「為食物加入調味的過程／結果」。",
       "sentenceIndex": 26,
@@ -1308,12 +1202,10 @@ export default {
         "seasoning"
       ],
       "optionReasons": {
-        "season-mcq-13": "本句指「為食物加入調味的過程／結果」。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-10": "「按季節或隨季節規律變化地」與本句語境不同。"
+        "season-mcq-13": "本句的「seasoning」指「為食物加入調味的過程／結果」。",
+        "season-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-13"
     },
@@ -1325,11 +1217,9 @@ export default {
       "masked": "She is a ____.",
       "options": [
         "season-mcq-14",
-        "season-mcq-13",
-        "season-mcq-15",
+        "season-pdf-001",
         "season-mcq-12",
-        "season-mcq-16",
-        "season-mcq-11"
+        "season-mcq-20"
       ],
       "explanation": "本句的「seasoned gardener」指「因長期實際經驗而變得熟練、老練的」。",
       "sentenceIndex": 27,
@@ -1338,12 +1228,10 @@ export default {
         "seasoned gardener"
       ],
       "optionReasons": {
-        "season-mcq-14": "本句指「因長期實際經驗而變得熟練、老練的」。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。"
+        "season-mcq-14": "本句的「seasoned gardener」指「因長期實際經驗而變得熟練、老練的」。",
+        "season-pdf-001": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-14"
     },
@@ -1355,11 +1243,9 @@ export default {
       "masked": "A ____ teacher knows how to handle difficult situations.",
       "options": [
         "season-mcq-14",
-        "season-mcq-13",
-        "season-mcq-15",
-        "season-mcq-12",
         "season-mcq-16",
-        "season-mcq-11"
+        "season-mcq-13",
+        "season-mcq-03"
       ],
       "explanation": "本句的「seasoned」指「因長期實際經驗而變得熟練、老練的」。",
       "sentenceIndex": 28,
@@ -1368,12 +1254,10 @@ export default {
         "seasoned"
       ],
       "optionReasons": {
-        "season-mcq-14": "本句指「因長期實際經驗而變得熟練、老練的」。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-11": "「加入鹽、胡椒、香草、香料等使食物更有味道」與本句語境不同。"
+        "season-mcq-14": "本句的「seasoned」指「因長期實際經驗而變得熟練、老練的」。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-14"
     },
@@ -1385,11 +1269,9 @@ export default {
       "masked": "The vegetables were lightly ____.",
       "options": [
         "season-mcq-15",
-        "season-mcq-14",
-        "season-mcq-16",
-        "season-mcq-13",
-        "season-mcq-17",
-        "season-mcq-12"
+        "season-mcq-02",
+        "season-mcq-03",
+        "season-mcq-10"
       ],
       "explanation": "本句的「seasoned」指「已加入調味料、調過味的」。",
       "sentenceIndex": 29,
@@ -1398,12 +1280,10 @@ export default {
         "seasoned"
       ],
       "optionReasons": {
-        "season-mcq-15": "本句指「已加入調味料、調過味的」。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。"
+        "season-mcq-15": "本句的「seasoned」指「已加入調味料、調過味的」。",
+        "season-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-15"
     },
@@ -1415,11 +1295,9 @@ export default {
       "masked": "Serve the rice with ____ chicken.",
       "options": [
         "season-mcq-15",
-        "season-mcq-14",
-        "season-mcq-16",
-        "season-mcq-13",
-        "season-mcq-17",
-        "season-mcq-12"
+        "season-mcq-04",
+        "season-mcq-20",
+        "season-pdf-001"
       ],
       "explanation": "本句的「seasoned」指「已加入調味料、調過味的」。",
       "sentenceIndex": 30,
@@ -1428,12 +1306,10 @@ export default {
         "seasoned"
       ],
       "optionReasons": {
-        "season-mcq-15": "本句指「已加入調味料、調過味的」。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-12": "「用來提升食物味道的鹽、香料、香草等調味材料」與本句語境不同。"
+        "season-mcq-15": "本句的「seasoned」指「已加入調味料、調過味的」。",
+        "season-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "season-pdf-001": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-15"
     },
@@ -1445,11 +1321,9 @@ export default {
       "masked": "The timber must be ____ before use.",
       "options": [
         "season-mcq-16",
-        "season-mcq-15",
-        "season-mcq-17",
+        "season-mcq-01",
         "season-mcq-14",
-        "season-mcq-18",
-        "season-mcq-13"
+        "season-mcq-02"
       ],
       "explanation": "本句的「seasoned」指「透過乾燥降低木材含水量，使其適合使用」。",
       "sentenceIndex": 31,
@@ -1458,12 +1332,10 @@ export default {
         "seasoned"
       ],
       "optionReasons": {
-        "season-mcq-16": "本句指「透過乾燥降低木材含水量，使其適合使用」。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。"
+        "season-mcq-16": "本句的「seasoned」指「透過乾燥降低木材含水量，使其適合使用」。",
+        "season-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-16"
     },
@@ -1475,11 +1347,9 @@ export default {
       "masked": "Properly ____ wood burns better.",
       "options": [
         "season-mcq-16",
-        "season-mcq-15",
-        "season-mcq-17",
-        "season-mcq-14",
+        "season-mcq-10",
         "season-mcq-18",
-        "season-mcq-13"
+        "season-mcq-20"
       ],
       "explanation": "本句的「seasoned」指「透過乾燥降低木材含水量，使其適合使用」。",
       "sentenceIndex": 32,
@@ -1488,12 +1358,10 @@ export default {
         "seasoned"
       ],
       "optionReasons": {
-        "season-mcq-16": "本句指「透過乾燥降低木材含水量，使其適合使用」。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-13": "「為食物加入調味的過程／結果」與本句語境不同。"
+        "season-mcq-16": "本句的「seasoned」指「透過乾燥降低木材含水量，使其適合使用」。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-16"
     },
@@ -1505,11 +1373,9 @@ export default {
       "masked": "They used ____ for the furniture.",
       "options": [
         "season-mcq-17",
-        "season-mcq-16",
-        "season-mcq-18",
-        "season-mcq-15",
-        "season-mcq-19",
-        "season-mcq-14"
+        "season-mcq-20",
+        "season-mcq-04",
+        "season-mcq-10"
       ],
       "explanation": "本句的「seasoned wood」指「已充分乾燥、適合使用的木材」。",
       "sentenceIndex": 33,
@@ -1518,12 +1384,10 @@ export default {
         "seasoned wood"
       ],
       "optionReasons": {
-        "season-mcq-17": "本句指「已充分乾燥、適合使用的木材」。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。"
+        "season-mcq-17": "本句的「seasoned wood」指「已充分乾燥、適合使用的木材」。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-17"
     },
@@ -1535,11 +1399,9 @@ export default {
       "masked": "____ firewood produces less smoke.",
       "options": [
         "season-mcq-17",
-        "season-mcq-16",
-        "season-mcq-18",
-        "season-mcq-15",
-        "season-mcq-19",
-        "season-mcq-14"
+        "season-mcq-11",
+        "season-mcq-07",
+        "season-mcq-03"
       ],
       "explanation": "本句的「Seasoned」指「已充分乾燥、適合使用的木材」。",
       "sentenceIndex": 34,
@@ -1548,12 +1410,10 @@ export default {
         "Seasoned"
       ],
       "optionReasons": {
-        "season-mcq-17": "本句指「已充分乾燥、適合使用的木材」。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-14": "「因長期實際經驗而變得熟練、老練的」與本句語境不同。"
+        "season-mcq-17": "本句的「Seasoned」指「已充分乾燥、適合使用的木材」。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-17"
     },
@@ -1565,11 +1425,9 @@ export default {
       "masked": "Strawberries are ____ now.",
       "options": [
         "season-mcq-18",
-        "season-mcq-17",
-        "season-mcq-19",
         "season-mcq-16",
-        "season-mcq-20",
-        "season-mcq-15"
+        "season-mcq-07",
+        "season-mcq-13"
       ],
       "explanation": "本句的「in season」指「正處於自然盛產、品質佳、供應較多的時期」。",
       "sentenceIndex": 35,
@@ -1578,12 +1436,10 @@ export default {
         "in season"
       ],
       "optionReasons": {
-        "season-mcq-18": "本句指「正處於自然盛產、品質佳、供應較多的時期」。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。"
+        "season-mcq-18": "本句的「in season」指「正處於自然盛產、品質佳、供應較多的時期」。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-18"
     },
@@ -1595,11 +1451,9 @@ export default {
       "masked": "Buy vegetables when they are in ____.",
       "options": [
         "season-mcq-18",
-        "season-mcq-17",
-        "season-mcq-19",
-        "season-mcq-16",
-        "season-mcq-20",
-        "season-mcq-15"
+        "season-mcq-15",
+        "season-mcq-09",
+        "season-mcq-20"
       ],
       "explanation": "本句的「season」指「正處於自然盛產、品質佳、供應較多的時期」。",
       "sentenceIndex": 36,
@@ -1608,12 +1462,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-18": "本句指「正處於自然盛產、品質佳、供應較多的時期」。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-15": "「已加入調味料、調過味的」與本句語境不同。"
+        "season-mcq-18": "本句的「season」指「正處於自然盛產、品質佳、供應較多的時期」。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-18"
     },
@@ -1625,11 +1477,9 @@ export default {
       "masked": "These berries are expensive because they are ____.",
       "options": [
         "season-mcq-19",
-        "season-mcq-18",
+        "season-mcq-15",
         "season-mcq-20",
-        "season-mcq-17",
-        "season-mcq-21",
-        "season-mcq-16"
+        "season-mcq-01"
       ],
       "explanation": "本句的「out of season」指「不在自然盛產／典型供應時期」。",
       "sentenceIndex": 37,
@@ -1638,12 +1488,10 @@ export default {
         "out of season"
       ],
       "optionReasons": {
-        "season-mcq-19": "本句指「不在自然盛產／典型供應時期」。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-21": "「某項活動／運動不處於主要活躍期的時段」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。"
+        "season-mcq-19": "本句的「out of season」指「不在自然盛產／典型供應時期」。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-01": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-19"
     },
@@ -1655,11 +1503,9 @@ export default {
       "masked": "Some vegetables are available even when they are out of ____.",
       "options": [
         "season-mcq-19",
-        "season-mcq-18",
-        "season-mcq-20",
-        "season-mcq-17",
-        "season-mcq-21",
-        "season-mcq-16"
+        "season-mcq-16",
+        "season-mcq-03",
+        "season-mcq-07"
       ],
       "explanation": "本句的「season」指「不在自然盛產／典型供應時期」。",
       "sentenceIndex": 38,
@@ -1668,12 +1514,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-19": "本句指「不在自然盛產／典型供應時期」。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。",
-        "season-mcq-21": "「某項活動／運動不處於主要活躍期的時段」與本句語境不同。",
-        "season-mcq-16": "「透過乾燥降低木材含水量，使其適合使用」與本句語境不同。"
+        "season-mcq-19": "本句的「season」指「不在自然盛產／典型供應時期」。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-19"
     },
@@ -1685,11 +1529,9 @@ export default {
       "masked": "Hotels are expensive during ____.",
       "options": [
         "season-mcq-20",
+        "season-mcq-17",
         "season-mcq-19",
-        "season-mcq-21",
-        "season-mcq-18",
-        "season-mcq-22",
-        "season-mcq-17"
+        "season-mcq-15"
       ],
       "explanation": "本句的「high season」指「旅遊、商業等活動需求最高的旺季」。",
       "sentenceIndex": 41,
@@ -1698,12 +1540,10 @@ export default {
         "high season"
       ],
       "optionReasons": {
-        "season-mcq-20": "本句指「旅遊、商業等活動需求最高的旺季」。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-21": "「某項活動／運動不處於主要活躍期的時段」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-22": "「在指定時期內可多次使用服務／觀看活動的長期票」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。"
+        "season-mcq-20": "本句的「high season」指「旅遊、商業等活動需求最高的旺季」。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-20"
     },
@@ -1715,11 +1555,9 @@ export default {
       "masked": "The island is crowded in peak ____.",
       "options": [
         "season-mcq-20",
-        "season-mcq-19",
-        "season-mcq-21",
-        "season-mcq-18",
-        "season-mcq-22",
-        "season-mcq-17"
+        "season-mcq-13",
+        "season-mcq-16",
+        "season-mcq-14"
       ],
       "explanation": "本句的「season」指「旅遊、商業等活動需求最高的旺季」。",
       "sentenceIndex": 42,
@@ -1728,12 +1566,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-20": "本句指「旅遊、商業等活動需求最高的旺季」。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-21": "「某項活動／運動不處於主要活躍期的時段」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-22": "「在指定時期內可多次使用服務／觀看活動的長期票」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。"
+        "season-mcq-20": "本句的「season」指「旅遊、商業等活動需求最高的旺季」。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-20"
     },
@@ -1745,10 +1581,8 @@ export default {
       "masked": "Flights are cheaper in the ____.",
       "options": [
         "season-mcq-21",
-        "season-mcq-20",
-        "season-mcq-22",
-        "season-mcq-19",
-        "season-mcq-18",
+        "season-mcq-10",
+        "season-mcq-11",
         "season-mcq-17"
       ],
       "explanation": "本句的「low season」指「某項活動／運動不處於主要活躍期的時段」。",
@@ -1758,12 +1592,10 @@ export default {
         "low season"
       ],
       "optionReasons": {
-        "season-mcq-21": "本句指「某項活動／運動不處於主要活躍期的時段」。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-22": "「在指定時期內可多次使用服務／觀看活動的長期票」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。"
+        "season-mcq-21": "本句的「low season」指「某項活動／運動不處於主要活躍期的時段」。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-21"
     },
@@ -1775,10 +1607,8 @@ export default {
       "masked": "Players train during the ____.",
       "options": [
         "season-mcq-21",
-        "season-mcq-20",
-        "season-mcq-22",
-        "season-mcq-19",
-        "season-mcq-18",
+        "season-mcq-01",
+        "season-mcq-11",
         "season-mcq-17"
       ],
       "explanation": "本句的「off-season」指「某項活動／運動不處於主要活躍期的時段」。",
@@ -1788,12 +1618,10 @@ export default {
         "off-season"
       ],
       "optionReasons": {
-        "season-mcq-21": "本句指「某項活動／運動不處於主要活躍期的時段」。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-22": "「在指定時期內可多次使用服務／觀看活動的長期票」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。"
+        "season-mcq-21": "本句的「off-season」指「某項活動／運動不處於主要活躍期的時段」。",
+        "season-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-21"
     },
@@ -1805,11 +1633,9 @@ export default {
       "masked": "He bought a ____ for the football club.",
       "options": [
         "season-mcq-22",
-        "season-mcq-21",
-        "season-mcq-20",
-        "season-mcq-19",
-        "season-mcq-18",
-        "season-mcq-17"
+        "season-mcq-13",
+        "season-mcq-10",
+        "season-mcq-16"
       ],
       "explanation": "本句的「season ticket」指「在指定時期內可多次使用服務／觀看活動的長期票」。",
       "sentenceIndex": 45,
@@ -1818,12 +1644,10 @@ export default {
         "season ticket"
       ],
       "optionReasons": {
-        "season-mcq-22": "本句指「在指定時期內可多次使用服務／觀看活動的長期票」。",
-        "season-mcq-21": "「某項活動／運動不處於主要活躍期的時段」與本句語境不同。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。"
+        "season-mcq-22": "本句的「season ticket」指「在指定時期內可多次使用服務／觀看活動的長期票」。",
+        "season-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-22"
     },
@@ -1835,11 +1659,9 @@ export default {
       "masked": "Commuters can save money with a ____ ticket.",
       "options": [
         "season-mcq-22",
-        "season-mcq-21",
-        "season-mcq-20",
-        "season-mcq-19",
-        "season-mcq-18",
-        "season-mcq-17"
+        "season-mcq-10",
+        "season-mcq-16",
+        "season-mcq-15"
       ],
       "explanation": "本句的「season」指「在指定時期內可多次使用服務／觀看活動的長期票」。",
       "sentenceIndex": 46,
@@ -1848,12 +1670,10 @@ export default {
         "season"
       ],
       "optionReasons": {
-        "season-mcq-22": "本句指「在指定時期內可多次使用服務／觀看活動的長期票」。",
-        "season-mcq-21": "「某項活動／運動不處於主要活躍期的時段」與本句語境不同。",
-        "season-mcq-20": "「旅遊、商業等活動需求最高的旺季」與本句語境不同。",
-        "season-mcq-19": "「不在自然盛產／典型供應時期」與本句語境不同。",
-        "season-mcq-18": "「正處於自然盛產、品質佳、供應較多的時期」與本句語境不同。",
-        "season-mcq-17": "「已充分乾燥、適合使用的木材」與本句語境不同。"
+        "season-mcq-22": "本句的「season」指「在指定時期內可多次使用服務／觀看活動的長期票」。",
+        "season-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "season-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "season-mcq-22"
     }
@@ -1865,5 +1685,7 @@ export default {
     "sha256": "3e7e5ef4fe7b4eb2671628c1b92d5b659fb20d50a80c349ae451e201bd8cec87",
     "pages": 18
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

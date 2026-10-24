@@ -701,11 +701,9 @@ export default {
       "masked": "I presented a ____ I had spent months working on.",
       "options": [
         "project-mcq-01",
-        "project-mcq-02",
-        "project-mcq-03",
-        "project-mcq-04",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-17",
+        "project-mcq-25",
+        "project-mcq-15"
       ],
       "explanation": "本句的「project」指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
       "sentenceIndex": 0,
@@ -714,12 +712,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-01": "本句指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-01": "本句的「project」指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
+        "project-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-01"
     },
@@ -731,11 +727,9 @@ export default {
       "masked": "The team is working on a new marketing ____.",
       "options": [
         "project-mcq-01",
-        "project-mcq-02",
-        "project-mcq-03",
-        "project-mcq-04",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-15",
+        "project-mcq-26",
+        "project-mcq-20"
       ],
       "explanation": "本句的「project」指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
       "sentenceIndex": 1,
@@ -744,12 +738,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-01": "本句指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-01": "本句的「project」指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-01"
     },
@@ -761,11 +753,9 @@ export default {
       "masked": "The ____ took almost a year to complete.",
       "options": [
         "project-mcq-01",
-        "project-mcq-02",
-        "project-mcq-03",
-        "project-mcq-04",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-17",
+        "project-mcq-30",
+        "project-mcq-15"
       ],
       "explanation": "本句的「project」指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
       "sentenceIndex": 2,
@@ -774,12 +764,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-01": "本句指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-01": "本句的「project」指「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」。",
+        "project-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-01"
     },
@@ -791,11 +779,9 @@ export default {
       "masked": "I had been ____ for several months.",
       "options": [
         "project-mcq-02",
-        "project-mcq-01",
-        "project-mcq-03",
-        "project-mcq-04",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-23",
+        "project-mcq-20",
+        "project-mcq-30"
       ],
       "explanation": "本句的「working on the project」指「持續投入時間和工作，推進某個項目的內容、任務或目標」。",
       "sentenceIndex": 3,
@@ -804,12 +790,10 @@ export default {
         "working on the project"
       ],
       "optionReasons": {
-        "project-mcq-02": "本句指「持續投入時間和工作，推進某個項目的內容、任務或目標」。",
-        "project-mcq-01": "「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」是「project = planned piece of work（有計劃的工作）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-02": "本句的「working on the project」指「持續投入時間和工作，推進某個項目的內容、任務或目標」。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-02"
     },
@@ -821,11 +805,9 @@ export default {
       "masked": "Several departments are ____ together.",
       "options": [
         "project-mcq-02",
-        "project-mcq-01",
-        "project-mcq-03",
-        "project-mcq-04",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-24",
+        "project-mcq-21",
+        "project-mcq-30"
       ],
       "explanation": "本句的「working on the project」指「持續投入時間和工作，推進某個項目的內容、任務或目標」。",
       "sentenceIndex": 4,
@@ -834,12 +816,10 @@ export default {
         "working on the project"
       ],
       "optionReasons": {
-        "project-mcq-02": "本句指「持續投入時間和工作，推進某個項目的內容、任務或目標」。",
-        "project-mcq-01": "「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」是「project = planned piece of work（有計劃的工作）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-02": "本句的「working on the project」指「持續投入時間和工作，推進某個項目的內容、任務或目標」。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-02"
     },
@@ -851,11 +831,9 @@ export default {
       "masked": "Students have to complete a research ____.",
       "options": [
         "project-mcq-03",
-        "project-mcq-02",
-        "project-mcq-04",
-        "project-mcq-01",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-13",
+        "project-mcq-27",
+        "project-mcq-29"
       ],
       "explanation": "本句的「project」指「學生需要在一段時間內研究、製作或完成的較大型課業／專題」。",
       "sentenceIndex": 5,
@@ -864,12 +842,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-03": "本句指「學生需要在一段時間內研究、製作或完成的較大型課業／專題」。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-01": "「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」是「project = planned piece of work（有計劃的工作）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-03": "本句的「project」指「學生需要在一段時間內研究、製作或完成的較大型課業／專題」。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-03"
     },
@@ -881,11 +857,9 @@ export default {
       "masked": "Our group ____ is about renewable energy.",
       "options": [
         "project-mcq-03",
-        "project-mcq-02",
-        "project-mcq-04",
-        "project-mcq-01",
-        "project-mcq-05",
-        "project-mcq-06"
+        "project-mcq-24",
+        "project-mcq-13",
+        "project-mcq-18"
       ],
       "explanation": "本句的「project」指「學生需要在一段時間內研究、製作或完成的較大型課業／專題」。",
       "sentenceIndex": 6,
@@ -894,12 +868,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-03": "本句指「學生需要在一段時間內研究、製作或完成的較大型課業／專題」。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-01": "「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」是「project = planned piece of work（有計劃的工作）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-03": "本句的「project」指「學生需要在一段時間內研究、製作或完成的較大型課業／專題」。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-03"
     },
@@ -911,11 +883,9 @@ export default {
       "masked": "The city approved a major housing ____.",
       "options": [
         "project-mcq-04",
-        "project-mcq-03",
-        "project-mcq-05",
-        "project-mcq-02",
-        "project-mcq-06",
-        "project-mcq-01"
+        "project-mcq-11",
+        "project-mcq-28",
+        "project-mcq-26"
       ],
       "explanation": "本句的「project」指「為建造、發展或改善大型設施／地區而有計劃進行的工程」。",
       "sentenceIndex": 7,
@@ -924,12 +894,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-04": "本句指「為建造、發展或改善大型設施／地區而有計劃進行的工程」。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-01": "「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」是「project = planned piece of work（有計劃的工作）」的用法，與本句語境不同。"
+        "project-mcq-04": "本句的「project」指「為建造、發展或改善大型設施／地區而有計劃進行的工程」。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-04"
     },
@@ -941,11 +909,9 @@ export default {
       "masked": "The railway ____ will take five years to complete.",
       "options": [
         "project-mcq-04",
-        "project-mcq-03",
-        "project-mcq-05",
-        "project-mcq-02",
-        "project-mcq-06",
-        "project-mcq-01"
+        "project-mcq-31",
+        "project-mcq-11",
+        "project-mcq-21"
       ],
       "explanation": "本句的「project」指「為建造、發展或改善大型設施／地區而有計劃進行的工程」。",
       "sentenceIndex": 8,
@@ -954,12 +920,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-04": "本句指「為建造、發展或改善大型設施／地區而有計劃進行的工程」。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-01": "「為了達成特定目標而有計劃地進行、通常需要一段時間完成的工作」是「project = planned piece of work（有計劃的工作）」的用法，與本句語境不同。"
+        "project-mcq-04": "本句的「project」指「為建造、發展或改善大型設施／地區而有計劃進行的工程」。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-04"
     },
@@ -971,11 +935,9 @@ export default {
       "masked": "The charity launched a community ____.",
       "options": [
         "project-mcq-05",
-        "project-mcq-04",
-        "project-mcq-06",
-        "project-mcq-03",
-        "project-mcq-07",
-        "project-mcq-02"
+        "project-mcq-21",
+        "project-mcq-25",
+        "project-mcq-28"
       ],
       "explanation": "本句的「project」指「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」。",
       "sentenceIndex": 9,
@@ -984,12 +946,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-05": "本句指「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。"
+        "project-mcq-05": "本句的「project」指「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-05"
     },
@@ -1001,11 +961,9 @@ export default {
       "masked": "The environmental ____ aims to reduce waste.",
       "options": [
         "project-mcq-05",
-        "project-mcq-04",
-        "project-mcq-06",
-        "project-mcq-03",
-        "project-mcq-07",
-        "project-mcq-02"
+        "project-mcq-20",
+        "project-mcq-28",
+        "project-mcq-31"
       ],
       "explanation": "本句的「project」指「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」。",
       "sentenceIndex": 10,
@@ -1014,12 +972,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-05": "本句指「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-02": "「持續投入時間和工作，推進某個項目的內容、任務或目標」是「work on a project（進行項目）」的用法，與本句語境不同。"
+        "project-mcq-05": "本句的「project」指「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-05"
     },
@@ -1031,11 +987,9 @@ export default {
       "masked": "She is working on a new film ____.",
       "options": [
         "project-mcq-06",
-        "project-mcq-05",
-        "project-mcq-07",
-        "project-mcq-04",
-        "project-mcq-08",
-        "project-mcq-03"
+        "project-mcq-30",
+        "project-mcq-25",
+        "project-mcq-29"
       ],
       "explanation": "本句的「project」指「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」。",
       "sentenceIndex": 11,
@@ -1044,12 +998,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-06": "本句指「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。"
+        "project-mcq-06": "本句的「project」指「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-06"
     },
@@ -1061,11 +1013,9 @@ export default {
       "masked": "The artist’s latest ____ combines photography and sound.",
       "options": [
         "project-mcq-06",
-        "project-mcq-05",
-        "project-mcq-07",
-        "project-mcq-04",
-        "project-mcq-08",
-        "project-mcq-03"
+        "project-mcq-25",
+        "project-mcq-27",
+        "project-mcq-30"
       ],
       "explanation": "本句的「project」指「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」。",
       "sentenceIndex": 12,
@@ -1074,12 +1024,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-06": "本句指「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-03": "「學生需要在一段時間內研究、製作或完成的較大型課業／專題」是「project = school/academic assignment（學校／學術專題）」的用法，與本句語境不同。"
+        "project-mcq-06": "本句的「project」指「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-06"
     },
@@ -1091,11 +1039,9 @@ export default {
       "masked": "Every ____ needs a clear objective.",
       "options": [
         "project-mcq-07",
-        "project-mcq-06",
-        "project-mcq-08",
-        "project-mcq-05",
-        "project-mcq-09",
-        "project-mcq-04"
+        "project-mcq-30",
+        "project-mcq-21",
+        "project-mcq-14"
       ],
       "explanation": "本句的「project」指「具有明確目標、範圍、時間、資源及交付成果的一項工作」。",
       "sentenceIndex": 13,
@@ -1104,12 +1050,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-07": "本句指「具有明確目標、範圍、時間、資源及交付成果的一項工作」。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。"
+        "project-mcq-07": "本句的「project」指「具有明確目標、範圍、時間、資源及交付成果的一項工作」。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-07"
     },
@@ -1121,11 +1065,9 @@ export default {
       "masked": "The ____ exceeded its original budget.",
       "options": [
         "project-mcq-07",
-        "project-mcq-06",
-        "project-mcq-08",
-        "project-mcq-05",
-        "project-mcq-09",
-        "project-mcq-04"
+        "project-mcq-21",
+        "project-mcq-30",
+        "project-mcq-24"
       ],
       "explanation": "本句的「project」指「具有明確目標、範圍、時間、資源及交付成果的一項工作」。",
       "sentenceIndex": 14,
@@ -1134,12 +1076,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-07": "本句指「具有明確目標、範圍、時間、資源及交付成果的一項工作」。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-04": "「為建造、發展或改善大型設施／地區而有計劃進行的工程」是「project = construction/development undertaking（建設／發展工程）」的用法，與本句語境不同。"
+        "project-mcq-07": "本句的「project」指「具有明確目標、範圍、時間、資源及交付成果的一項工作」。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-07"
     },
@@ -1151,11 +1091,9 @@ export default {
       "masked": "The ____ checked the schedule.",
       "options": [
         "project-mcq-08",
-        "project-mcq-07",
-        "project-mcq-09",
-        "project-mcq-06",
-        "project-mcq-10",
-        "project-mcq-05"
+        "project-mcq-14",
+        "project-mcq-29",
+        "project-mcq-20"
       ],
       "explanation": "本句的「project manager」指「負責規劃、協調及監督項目進度、資源和成果的人」。",
       "sentenceIndex": 15,
@@ -1164,12 +1102,10 @@ export default {
         "project manager"
       ],
       "optionReasons": {
-        "project-mcq-08": "本句指「負責規劃、協調及監督項目進度、資源和成果的人」。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。"
+        "project-mcq-08": "本句的「project manager」指「負責規劃、協調及監督項目進度、資源和成果的人」。",
+        "project-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-08"
     },
@@ -1181,11 +1117,9 @@ export default {
       "masked": "She works as a ____ in technology.",
       "options": [
         "project-mcq-08",
-        "project-mcq-07",
-        "project-mcq-09",
-        "project-mcq-06",
-        "project-mcq-10",
-        "project-mcq-05"
+        "project-mcq-27",
+        "project-mcq-29",
+        "project-mcq-31"
       ],
       "explanation": "本句的「project manager」指「負責規劃、協調及監督項目進度、資源和成果的人」。",
       "sentenceIndex": 16,
@@ -1194,12 +1128,10 @@ export default {
         "project manager"
       ],
       "optionReasons": {
-        "project-mcq-08": "本句指「負責規劃、協調及監督項目進度、資源和成果的人」。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-05": "「為解決問題、改善情況或達成社會／機構目標而設立的一項有組織計劃」是「project = organized initiative/programme（計劃／倡議）」的用法，與本句語境不同。"
+        "project-mcq-08": "本句的「project manager」指「負責規劃、協調及監督項目進度、資源和成果的人」。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-08"
     },
@@ -1211,11 +1143,9 @@ export default {
       "masked": "The ____ meets every Monday.",
       "options": [
         "project-mcq-09",
-        "project-mcq-08",
-        "project-mcq-10",
-        "project-mcq-07",
-        "project-mcq-11",
-        "project-mcq-06"
+        "project-mcq-30",
+        "project-mcq-31",
+        "project-mcq-20"
       ],
       "explanation": "本句的「project team」指「為完成某個特定項目而組成的一群人」。",
       "sentenceIndex": 17,
@@ -1224,12 +1154,10 @@ export default {
         "project team"
       ],
       "optionReasons": {
-        "project-mcq-09": "本句指「為完成某個特定項目而組成的一群人」。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-09": "本句的「project team」指「為完成某個特定項目而組成的一群人」。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-09"
     },
@@ -1241,11 +1169,9 @@ export default {
       "masked": "The ____ includes staff from three departments.",
       "options": [
         "project-mcq-09",
-        "project-mcq-08",
-        "project-mcq-10",
-        "project-mcq-07",
-        "project-mcq-11",
-        "project-mcq-06"
+        "project-mcq-24",
+        "project-mcq-04",
+        "project-mcq-15"
       ],
       "explanation": "本句的「project team」指「為完成某個特定項目而組成的一群人」。",
       "sentenceIndex": 18,
@@ -1254,12 +1180,10 @@ export default {
         "project team"
       ],
       "optionReasons": {
-        "project-mcq-09": "本句指「為完成某個特定項目而組成的一群人」。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-06": "「藝術家、設計師、製作人等在一段時間內策劃和完成的創作工作」是「project = creative work（創作項目）」的用法，與本句語境不同。"
+        "project-mcq-09": "本句的「project team」指「為完成某個特定項目而組成的一群人」。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-09"
     },
@@ -1271,11 +1195,9 @@ export default {
       "masked": "We updated the ____ after the meeting.",
       "options": [
         "project-mcq-10",
-        "project-mcq-09",
-        "project-mcq-11",
-        "project-mcq-08",
-        "project-mcq-12",
-        "project-mcq-07"
+        "project-mcq-21",
+        "project-mcq-27",
+        "project-mcq-30"
       ],
       "explanation": "本句的「project plan」指「說明項目目標、步驟、時間、資源及責任分配的計劃」。",
       "sentenceIndex": 19,
@@ -1284,12 +1206,10 @@ export default {
         "project plan"
       ],
       "optionReasons": {
-        "project-mcq-10": "本句指「說明項目目標、步驟、時間、資源及責任分配的計劃」。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。"
+        "project-mcq-10": "本句的「project plan」指「說明項目目標、步驟、時間、資源及責任分配的計劃」。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-10"
     },
@@ -1301,11 +1221,9 @@ export default {
       "masked": "The ____ lists the key deadlines.",
       "options": [
         "project-mcq-10",
-        "project-mcq-09",
-        "project-mcq-11",
-        "project-mcq-08",
-        "project-mcq-12",
-        "project-mcq-07"
+        "project-mcq-19",
+        "project-mcq-27",
+        "project-mcq-30"
       ],
       "explanation": "本句的「project plan」指「說明項目目標、步驟、時間、資源及責任分配的計劃」。",
       "sentenceIndex": 20,
@@ -1314,12 +1232,10 @@ export default {
         "project plan"
       ],
       "optionReasons": {
-        "project-mcq-10": "本句指「說明項目目標、步驟、時間、資源及責任分配的計劃」。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-07": "「具有明確目標、範圍、時間、資源及交付成果的一項工作」是「project = task with defined objectives/resources（有目標和資源的工作單位）」的用法，與本句語境不同。"
+        "project-mcq-10": "本句的「project plan」指「說明項目目標、步驟、時間、資源及責任分配的計劃」。",
+        "project-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-10"
     },
@@ -1331,11 +1247,9 @@ export default {
       "masked": "We are approaching the ____.",
       "options": [
         "project-mcq-11",
-        "project-mcq-10",
-        "project-mcq-12",
-        "project-mcq-09",
-        "project-mcq-13",
-        "project-mcq-08"
+        "project-mcq-25",
+        "project-mcq-17",
+        "project-mcq-30"
       ],
       "explanation": "本句的「project deadline」指「項目必須完成或交付的指定期限」。",
       "sentenceIndex": 21,
@@ -1344,12 +1258,10 @@ export default {
         "project deadline"
       ],
       "optionReasons": {
-        "project-mcq-11": "本句指「項目必須完成或交付的指定期限」。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。"
+        "project-mcq-11": "本句的「project deadline」指「項目必須完成或交付的指定期限」。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-11"
     },
@@ -1361,11 +1273,9 @@ export default {
       "masked": "The team completed everything before the ____.",
       "options": [
         "project-mcq-11",
-        "project-mcq-10",
-        "project-mcq-12",
-        "project-mcq-09",
-        "project-mcq-13",
-        "project-mcq-08"
+        "project-mcq-22",
+        "project-mcq-30",
+        "project-mcq-15"
       ],
       "explanation": "本句的「project deadline」指「項目必須完成或交付的指定期限」。",
       "sentenceIndex": 22,
@@ -1374,12 +1284,10 @@ export default {
         "project deadline"
       ],
       "optionReasons": {
-        "project-mcq-11": "本句指「項目必須完成或交付的指定期限」。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-08": "「負責規劃、協調及監督項目進度、資源和成果的人」是「project manager（項目經理）」的用法，與本句語境不同。"
+        "project-mcq-11": "本句的「project deadline」指「項目必須完成或交付的指定期限」。",
+        "project-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-11"
     },
@@ -1391,11 +1299,9 @@ export default {
       "masked": "The ____ was increased.",
       "options": [
         "project-mcq-12",
-        "project-mcq-11",
-        "project-mcq-13",
-        "project-mcq-10",
-        "project-mcq-14",
-        "project-mcq-09"
+        "project-mcq-26",
+        "project-mcq-29",
+        "project-mcq-31"
       ],
       "explanation": "本句的「project budget」指「為完成某個項目預先安排／批准的可用資金」。",
       "sentenceIndex": 23,
@@ -1404,12 +1310,10 @@ export default {
         "project budget"
       ],
       "optionReasons": {
-        "project-mcq-12": "本句指「為完成某個項目預先安排／批准的可用資金」。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。"
+        "project-mcq-12": "本句的「project budget」指「為完成某個項目預先安排／批准的可用資金」。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-12"
     },
@@ -1421,11 +1325,9 @@ export default {
       "masked": "We need to stay within the ____.",
       "options": [
         "project-mcq-12",
-        "project-mcq-11",
-        "project-mcq-13",
-        "project-mcq-10",
-        "project-mcq-14",
-        "project-mcq-09"
+        "project-mcq-20",
+        "project-mcq-26",
+        "project-mcq-29"
       ],
       "explanation": "本句的「project budget」指「為完成某個項目預先安排／批准的可用資金」。",
       "sentenceIndex": 24,
@@ -1434,12 +1336,10 @@ export default {
         "project budget"
       ],
       "optionReasons": {
-        "project-mcq-12": "本句指「為完成某個項目預先安排／批准的可用資金」。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-09": "「為完成某個特定項目而組成的一群人」是「project team（項目團隊）」的用法，與本句語境不同。"
+        "project-mcq-12": "本句的「project budget」指「為完成某個項目預先安排／批准的可用資金」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-12"
     },
@@ -1451,11 +1351,9 @@ export default {
       "masked": "The company ____ sales of $10 million next year.",
       "options": [
         "project-mcq-13",
-        "project-mcq-12",
-        "project-mcq-14",
-        "project-mcq-11",
-        "project-mcq-15",
-        "project-mcq-10"
+        "project-mcq-24",
+        "project-mcq-20",
+        "project-mcq-03"
       ],
       "explanation": "本句的「projects」指「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」。",
       "sentenceIndex": 25,
@@ -1464,12 +1362,10 @@ export default {
         "projects"
       ],
       "optionReasons": {
-        "project-mcq-13": "本句指「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。"
+        "project-mcq-13": "本句的「projects」指「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-13"
     },
@@ -1481,11 +1377,9 @@ export default {
       "masked": "Analysts ____ that demand will continue to grow.",
       "options": [
         "project-mcq-13",
-        "project-mcq-12",
-        "project-mcq-14",
-        "project-mcq-11",
-        "project-mcq-15",
-        "project-mcq-10"
+        "project-mcq-20",
+        "project-mcq-23",
+        "project-mcq-11"
       ],
       "explanation": "本句的「project」指「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」。",
       "sentenceIndex": 26,
@@ -1494,12 +1388,10 @@ export default {
         "project"
       ],
       "optionReasons": {
-        "project-mcq-13": "本句指「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-10": "「說明項目目標、步驟、時間、資源及責任分配的計劃」是「project plan（項目計劃）」的用法，與本句語境不同。"
+        "project-mcq-13": "本句的「project」指「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-13"
     },
@@ -1511,11 +1403,9 @@ export default {
       "masked": "Costs are ____ by ten percent.",
       "options": [
         "project-mcq-14",
-        "project-mcq-13",
-        "project-mcq-15",
-        "project-mcq-12",
-        "project-mcq-16",
-        "project-mcq-11"
+        "project-mcq-17",
+        "project-mcq-23",
+        "project-mcq-30"
       ],
       "explanation": "本句的「projected to rise」指「根據估算或預測，預計某件事情將會發生」。",
       "sentenceIndex": 27,
@@ -1524,12 +1414,10 @@ export default {
         "projected to rise"
       ],
       "optionReasons": {
-        "project-mcq-14": "本句指「根據估算或預測，預計某件事情將會發生」。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。"
+        "project-mcq-14": "本句的「projected to rise」指「根據估算或預測，預計某件事情將會發生」。",
+        "project-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-14"
     },
@@ -1541,11 +1429,9 @@ export default {
       "masked": "The population is ____ five million.",
       "options": [
         "project-mcq-14",
-        "project-mcq-13",
-        "project-mcq-15",
-        "project-mcq-12",
-        "project-mcq-16",
-        "project-mcq-11"
+        "project-mcq-22",
+        "project-mcq-28",
+        "project-mcq-31"
       ],
       "explanation": "本句的「projected to reach」指「根據估算或預測，預計某件事情將會發生」。",
       "sentenceIndex": 28,
@@ -1554,12 +1440,10 @@ export default {
         "projected to reach"
       ],
       "optionReasons": {
-        "project-mcq-14": "本句指「根據估算或預測，預計某件事情將會發生」。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-11": "「項目必須完成或交付的指定期限」是「project deadline（項目期限）」的用法，與本句語境不同。"
+        "project-mcq-14": "本句的「projected to reach」指「根據估算或預測，預計某件事情將會發生」。",
+        "project-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-14"
     },
@@ -1571,11 +1455,9 @@ export default {
       "masked": "The ____ is higher than expected.",
       "options": [
         "project-mcq-15",
-        "project-mcq-14",
-        "project-mcq-16",
-        "project-mcq-13",
-        "project-mcq-17",
-        "project-mcq-12"
+        "project-mcq-30",
+        "project-mcq-23",
+        "project-mcq-31"
       ],
       "explanation": "本句的「projected cost」指「根據現有資料和假設推算出來的，而不是已經實際發生的」。",
       "sentenceIndex": 29,
@@ -1584,12 +1466,10 @@ export default {
         "projected cost"
       ],
       "optionReasons": {
-        "project-mcq-15": "本句指「根據現有資料和假設推算出來的，而不是已經實際發生的」。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。"
+        "project-mcq-15": "本句的「projected cost」指「根據現有資料和假設推算出來的，而不是已經實際發生的」。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-15"
     },
@@ -1601,11 +1481,9 @@ export default {
       "masked": "The company missed its ____.",
       "options": [
         "project-mcq-15",
-        "project-mcq-14",
-        "project-mcq-16",
-        "project-mcq-13",
-        "project-mcq-17",
-        "project-mcq-12"
+        "project-mcq-19",
+        "project-mcq-20",
+        "project-mcq-11"
       ],
       "explanation": "本句的「projected sales figures」指「根據現有資料和假設推算出來的，而不是已經實際發生的」。",
       "sentenceIndex": 30,
@@ -1614,12 +1492,10 @@ export default {
         "projected sales figures"
       ],
       "optionReasons": {
-        "project-mcq-15": "本句指「根據現有資料和假設推算出來的，而不是已經實際發生的」。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-12": "「為完成某個項目預先安排／批准的可用資金」是「project budget（項目預算）」的用法，與本句語境不同。"
+        "project-mcq-15": "本句的「projected sales figures」指「根據現有資料和假設推算出來的，而不是已經實際發生的」。",
+        "project-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-15"
     },
@@ -1631,11 +1507,9 @@ export default {
       "masked": "The latest sales ____ are encouraging.",
       "options": [
         "project-mcq-16",
-        "project-mcq-15",
-        "project-mcq-17",
-        "project-mcq-14",
         "project-mcq-18",
-        "project-mcq-13"
+        "project-mcq-25",
+        "project-mcq-24"
       ],
       "explanation": "本句的「projections」指「根據目前資料、趨勢或模型對未來情況作出的估計／預測」。",
       "sentenceIndex": 31,
@@ -1644,12 +1518,10 @@ export default {
         "projections"
       ],
       "optionReasons": {
-        "project-mcq-16": "本句指「根據目前資料、趨勢或模型對未來情況作出的估計／預測」。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。"
+        "project-mcq-16": "本句的「projections」指「根據目前資料、趨勢或模型對未來情況作出的估計／預測」。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-16"
     },
@@ -1661,11 +1533,9 @@ export default {
       "masked": "Population ____ suggest continued growth.",
       "options": [
         "project-mcq-16",
-        "project-mcq-15",
-        "project-mcq-17",
-        "project-mcq-14",
+        "project-mcq-24",
         "project-mcq-18",
-        "project-mcq-13"
+        "project-mcq-20"
       ],
       "explanation": "本句的「projections」指「根據目前資料、趨勢或模型對未來情況作出的估計／預測」。",
       "sentenceIndex": 32,
@@ -1674,12 +1544,10 @@ export default {
         "projections"
       ],
       "optionReasons": {
-        "project-mcq-16": "本句指「根據目前資料、趨勢或模型對未來情況作出的估計／預測」。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-13": "「根據現有資料、趨勢或計算推算未來可能出現的數字／情況」是「project + cost/sales/revenue/growth（預測）」的用法，與本句語境不同。"
+        "project-mcq-16": "本句的「projections」指「根據目前資料、趨勢或模型對未來情況作出的估計／預測」。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-16"
     },
@@ -1691,11 +1559,9 @@ export default {
       "masked": "The slides were ____.",
       "options": [
         "project-mcq-17",
-        "project-mcq-16",
-        "project-mcq-18",
-        "project-mcq-15",
-        "project-mcq-19",
-        "project-mcq-14"
+        "project-mcq-13",
+        "project-mcq-27",
+        "project-mcq-10"
       ],
       "explanation": "本句的「projected onto the screen」指「利用光線／投影設備把影像投射到另一個表面上」。",
       "sentenceIndex": 33,
@@ -1704,12 +1570,10 @@ export default {
         "projected onto the screen"
       ],
       "optionReasons": {
-        "project-mcq-17": "本句指「利用光線／投影設備把影像投射到另一個表面上」。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。"
+        "project-mcq-17": "本句的「projected onto the screen」指「利用光線／投影設備把影像投射到另一個表面上」。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-17"
     },
@@ -1721,11 +1585,9 @@ export default {
       "masked": "The image was ____.",
       "options": [
         "project-mcq-17",
-        "project-mcq-16",
-        "project-mcq-18",
-        "project-mcq-15",
-        "project-mcq-19",
-        "project-mcq-14"
+        "project-mcq-27",
+        "project-mcq-30",
+        "project-mcq-28"
       ],
       "explanation": "本句的「projected on the wall」指「利用光線／投影設備把影像投射到另一個表面上」。",
       "sentenceIndex": 34,
@@ -1734,12 +1596,10 @@ export default {
         "projected on the wall"
       ],
       "optionReasons": {
-        "project-mcq-17": "本句指「利用光線／投影設備把影像投射到另一個表面上」。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-14": "「根據估算或預測，預計某件事情將會發生」是「be projected to + verb（預計會……）」的用法，與本句語境不同。"
+        "project-mcq-17": "本句的「projected on the wall」指「利用光線／投影設備把影像投射到另一個表面上」。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-17"
     },
@@ -1751,11 +1611,9 @@ export default {
       "masked": "The ____ stopped working before the presentation.",
       "options": [
         "project-mcq-18",
-        "project-mcq-17",
-        "project-mcq-19",
-        "project-mcq-16",
-        "project-mcq-20",
-        "project-mcq-15"
+        "project-mcq-23",
+        "project-mcq-01",
+        "project-mcq-28"
       ],
       "explanation": "本句的「projector」指「把影像、影片或投影片投射到螢幕／牆面的設備」。",
       "sentenceIndex": 35,
@@ -1764,12 +1622,10 @@ export default {
         "projector"
       ],
       "optionReasons": {
-        "project-mcq-18": "本句指「把影像、影片或投影片投射到螢幕／牆面的設備」。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。"
+        "project-mcq-18": "本句的「projector」指「把影像、影片或投影片投射到螢幕／牆面的設備」。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-18"
     },
@@ -1781,11 +1637,9 @@ export default {
       "masked": "Connect your laptop to the ____.",
       "options": [
         "project-mcq-18",
-        "project-mcq-17",
-        "project-mcq-19",
-        "project-mcq-16",
-        "project-mcq-20",
-        "project-mcq-15"
+        "project-mcq-13",
+        "project-mcq-08",
+        "project-mcq-27"
       ],
       "explanation": "本句的「projector」指「把影像、影片或投影片投射到螢幕／牆面的設備」。",
       "sentenceIndex": 36,
@@ -1794,12 +1648,10 @@ export default {
         "projector"
       ],
       "optionReasons": {
-        "project-mcq-18": "本句指「把影像、影片或投影片投射到螢幕／牆面的設備」。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-15": "「根據現有資料和假設推算出來的，而不是已經實際發生的」是「projected + noun（預計的）」的用法，與本句語境不同。"
+        "project-mcq-18": "本句的「projector」指「把影像、影片或投影片投射到螢幕／牆面的設備」。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-18"
     },
@@ -1811,11 +1663,9 @@ export default {
       "masked": "The ____ was difficult to see in the bright room.",
       "options": [
         "project-mcq-19",
-        "project-mcq-18",
-        "project-mcq-20",
-        "project-mcq-17",
-        "project-mcq-21",
-        "project-mcq-16"
+        "project-mcq-13",
+        "project-mcq-28",
+        "project-mcq-26"
       ],
       "explanation": "本句的「projection」指「把光線／影像投射到表面上的行為或所形成的影像」。",
       "sentenceIndex": 37,
@@ -1824,12 +1674,10 @@ export default {
         "projection"
       ],
       "optionReasons": {
-        "project-mcq-19": "本句指「把光線／影像投射到表面上的行為或所形成的影像」。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。"
+        "project-mcq-19": "本句的「projection」指「把光線／影像投射到表面上的行為或所形成的影像」。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-19"
     },
@@ -1841,11 +1689,9 @@ export default {
       "masked": "The installation uses video ____.",
       "options": [
         "project-mcq-19",
-        "project-mcq-18",
-        "project-mcq-20",
-        "project-mcq-17",
-        "project-mcq-21",
-        "project-mcq-16"
+        "project-mcq-15",
+        "project-mcq-26",
+        "project-mcq-10"
       ],
       "explanation": "本句的「projection」指「把光線／影像投射到表面上的行為或所形成的影像」。",
       "sentenceIndex": 38,
@@ -1854,12 +1700,10 @@ export default {
         "projection"
       ],
       "optionReasons": {
-        "project-mcq-19": "本句指「把光線／影像投射到表面上的行為或所形成的影像」。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-16": "「根據目前資料、趨勢或模型對未來情況作出的估計／預測」是「projection = forecast/estimate（預測）」的用法，與本句語境不同。"
+        "project-mcq-19": "本句的「projection」指「把光線／影像投射到表面上的行為或所形成的影像」。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-19"
     },
@@ -1871,11 +1715,9 @@ export default {
       "masked": "You need to ____ so everyone can hear you.",
       "options": [
         "project-mcq-20",
-        "project-mcq-19",
-        "project-mcq-21",
-        "project-mcq-18",
-        "project-mcq-22",
-        "project-mcq-17"
+        "project-mcq-15",
+        "project-mcq-09",
+        "project-mcq-28"
       ],
       "explanation": "本句的「project your voice」指「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」。",
       "sentenceIndex": 39,
@@ -1884,12 +1726,10 @@ export default {
         "project your voice"
       ],
       "optionReasons": {
-        "project-mcq-20": "本句指「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。"
+        "project-mcq-20": "本句的「project your voice」指「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-20"
     },
@@ -1901,11 +1741,9 @@ export default {
       "masked": "She learned to ____ without shouting.",
       "options": [
         "project-mcq-20",
-        "project-mcq-19",
-        "project-mcq-21",
-        "project-mcq-18",
-        "project-mcq-22",
-        "project-mcq-17"
+        "project-mcq-02",
+        "project-mcq-23",
+        "project-mcq-29"
       ],
       "explanation": "本句的「project her voice」指「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」。",
       "sentenceIndex": 40,
@@ -1914,12 +1752,10 @@ export default {
         "project her voice"
       ],
       "optionReasons": {
-        "project-mcq-20": "本句指「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-17": "「利用光線／投影設備把影像投射到另一個表面上」是「project an image/video（投影）」的用法，與本句語境不同。"
+        "project-mcq-20": "本句的「project her voice」指「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」。",
+        "project-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-29": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-20"
     },
@@ -1931,11 +1767,9 @@ export default {
       "masked": "The speakers ____ across the room.",
       "options": [
         "project-mcq-21",
-        "project-mcq-20",
-        "project-mcq-22",
-        "project-mcq-19",
-        "project-mcq-23",
-        "project-mcq-18"
+        "project-mcq-01",
+        "project-mcq-14",
+        "project-mcq-24"
       ],
       "explanation": "本句的「project sound」指「把聲音、光線、影像等向外／向前傳送」。",
       "sentenceIndex": 41,
@@ -1944,12 +1778,10 @@ export default {
         "project sound"
       ],
       "optionReasons": {
-        "project-mcq-21": "本句指「把聲音、光線、影像等向外／向前傳送」。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。"
+        "project-mcq-21": "本句的「project sound」指「把聲音、光線、影像等向外／向前傳送」。",
+        "project-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-21"
     },
@@ -1961,11 +1793,9 @@ export default {
       "masked": "The lamp ____ onto the ceiling.",
       "options": [
         "project-mcq-21",
-        "project-mcq-20",
-        "project-mcq-22",
-        "project-mcq-19",
-        "project-mcq-23",
-        "project-mcq-18"
+        "project-mcq-03",
+        "project-mcq-14",
+        "project-mcq-27"
       ],
       "explanation": "本句的「projects light」指「把聲音、光線、影像等向外／向前傳送」。",
       "sentenceIndex": 42,
@@ -1974,12 +1804,10 @@ export default {
         "projects light"
       ],
       "optionReasons": {
-        "project-mcq-21": "本句指「把聲音、光線、影像等向外／向前傳送」。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-18": "「把影像、影片或投影片投射到螢幕／牆面的設備」是「projector（投影機）」的用法，與本句語境不同。"
+        "project-mcq-21": "本句的「projects light」指「把聲音、光線、影像等向外／向前傳送」。",
+        "project-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-21"
     },
@@ -1991,11 +1819,9 @@ export default {
       "masked": "Try to ____ even if you feel nervous.",
       "options": [
         "project-mcq-22",
-        "project-mcq-21",
-        "project-mcq-23",
-        "project-mcq-20",
-        "project-mcq-24",
-        "project-mcq-19"
+        "project-mcq-15",
+        "project-mcq-31",
+        "project-mcq-03"
       ],
       "explanation": "本句的「project confidence」指「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」。",
       "sentenceIndex": 43,
@@ -2004,12 +1830,10 @@ export default {
         "project confidence"
       ],
       "optionReasons": {
-        "project-mcq-22": "本句指「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。"
+        "project-mcq-22": "本句的「project confidence」指「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-22"
     },
@@ -2021,11 +1845,9 @@ export default {
       "masked": "The manager ____.",
       "options": [
         "project-mcq-22",
-        "project-mcq-21",
-        "project-mcq-23",
-        "project-mcq-20",
-        "project-mcq-24",
-        "project-mcq-19"
+        "project-mcq-11",
+        "project-mcq-28",
+        "project-mcq-14"
       ],
       "explanation": "本句的「projected an image of calm authority」指「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」。",
       "sentenceIndex": 44,
@@ -2034,12 +1856,10 @@ export default {
         "projected an image of calm authority"
       ],
       "optionReasons": {
-        "project-mcq-22": "本句指「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-19": "「把光線／影像投射到表面上的行為或所形成的影像」是「projection = projected image（投影影像）」的用法，與本句語境不同。"
+        "project-mcq-22": "本句的「projected an image of calm authority」指「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-22"
     },
@@ -2051,11 +1871,9 @@ export default {
       "masked": "The company wants to ____.",
       "options": [
         "project-mcq-23",
-        "project-mcq-22",
-        "project-mcq-24",
-        "project-mcq-21",
-        "project-mcq-25",
-        "project-mcq-20"
+        "project-mcq-20",
+        "project-mcq-16",
+        "project-mcq-17"
       ],
       "explanation": "本句的「project a modern image」指「有意或無意地讓其他人形成某種對自己／組織的印象」。",
       "sentenceIndex": 45,
@@ -2064,12 +1882,10 @@ export default {
         "project a modern image"
       ],
       "optionReasons": {
-        "project-mcq-23": "本句指「有意或無意地讓其他人形成某種對自己／組織的印象」。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。"
+        "project-mcq-23": "本句的「project a modern image」指「有意或無意地讓其他人形成某種對自己／組織的印象」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-23"
     },
@@ -2081,11 +1897,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "project-mcq-23",
-        "project-mcq-22",
-        "project-mcq-24",
         "project-mcq-21",
-        "project-mcq-25",
-        "project-mcq-20"
+        "project-mcq-13",
+        "project-mcq-28"
       ],
       "explanation": "本句的「projects an image of professionalism」指「有意或無意地讓其他人形成某種對自己／組織的印象」。",
       "sentenceIndex": 46,
@@ -2094,12 +1908,10 @@ export default {
         "projects an image of professionalism"
       ],
       "optionReasons": {
-        "project-mcq-23": "本句指「有意或無意地讓其他人形成某種對自己／組織的印象」。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-20": "「控制呼吸、音量和共鳴，使聲音清晰有力地傳到較遠位置」是「project your voice（把聲音傳得更遠）」的用法，與本句語境不同。"
+        "project-mcq-23": "本句的「projects an image of professionalism」指「有意或無意地讓其他人形成某種對自己／組織的印象」。",
+        "project-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-23"
     },
@@ -2111,11 +1923,9 @@ export default {
       "masked": "He tries to ____ a decisive leader.",
       "options": [
         "project-mcq-24",
-        "project-mcq-23",
-        "project-mcq-25",
-        "project-mcq-22",
-        "project-mcq-26",
-        "project-mcq-21"
+        "project-mcq-13",
+        "project-mcq-08",
+        "project-mcq-18"
       ],
       "explanation": "本句的「project himself as」指「透過言行、形象或表達方式讓別人把你視為某種人／角色」。",
       "sentenceIndex": 47,
@@ -2124,12 +1934,10 @@ export default {
         "project himself as"
       ],
       "optionReasons": {
-        "project-mcq-24": "本句指「透過言行、形象或表達方式讓別人把你視為某種人／角色」。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。"
+        "project-mcq-24": "本句的「project himself as」指「透過言行、形象或表達方式讓別人把你視為某種人／角色」。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-24"
     },
@@ -2141,11 +1949,9 @@ export default {
       "masked": "The candidate ____ calm and experienced.",
       "options": [
         "project-mcq-24",
-        "project-mcq-23",
-        "project-mcq-25",
-        "project-mcq-22",
-        "project-mcq-26",
-        "project-mcq-21"
+        "project-mcq-31",
+        "project-mcq-11",
+        "project-mcq-16"
       ],
       "explanation": "本句的「projected herself as」指「透過言行、形象或表達方式讓別人把你視為某種人／角色」。",
       "sentenceIndex": 48,
@@ -2154,12 +1960,10 @@ export default {
         "projected herself as"
       ],
       "optionReasons": {
-        "project-mcq-24": "本句指「透過言行、形象或表達方式讓別人把你視為某種人／角色」。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-21": "「把聲音、光線、影像等向外／向前傳送」是「project sound/light（向外投射）」的用法，與本句語境不同。"
+        "project-mcq-24": "本句的「projected herself as」指「透過言行、形象或表達方式讓別人把你視為某種人／角色」。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-24"
     },
@@ -2171,10 +1975,8 @@ export default {
       "masked": "The organization wants to ____ internationally.",
       "options": [
         "project-mcq-25",
-        "project-mcq-24",
-        "project-mcq-26",
-        "project-mcq-23",
-        "project-mcq-27",
+        "project-mcq-15",
+        "project-mcq-30",
         "project-mcq-22"
       ],
       "explanation": "本句的「project greater influence」指「把力量、權威或影響力延伸到較遠地方／更廣範圍」。",
@@ -2184,12 +1986,10 @@ export default {
         "project greater influence"
       ],
       "optionReasons": {
-        "project-mcq-25": "本句指「把力量、權威或影響力延伸到較遠地方／更廣範圍」。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。"
+        "project-mcq-25": "本句的「project greater influence」指「把力量、權威或影響力延伸到較遠地方／更廣範圍」。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-25"
     },
@@ -2201,10 +2001,8 @@ export default {
       "masked": "The country has the ability to ____ beyond its borders.",
       "options": [
         "project-mcq-25",
-        "project-mcq-24",
-        "project-mcq-26",
-        "project-mcq-23",
-        "project-mcq-27",
+        "project-mcq-15",
+        "project-mcq-09",
         "project-mcq-22"
       ],
       "explanation": "本句的「project power」指「把力量、權威或影響力延伸到較遠地方／更廣範圍」。",
@@ -2214,12 +2012,10 @@ export default {
         "project power"
       ],
       "optionReasons": {
-        "project-mcq-25": "本句指「把力量、權威或影響力延伸到較遠地方／更廣範圍」。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-22": "「透過聲音、姿態、表情或行為讓別人感受到某種形象／特質」是「project confidence/calm/authority（表現出某種形象）」的用法，與本句語境不同。"
+        "project-mcq-25": "本句的「project power」指「把力量、權威或影響力延伸到較遠地方／更廣範圍」。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-25"
     },
@@ -2231,11 +2027,9 @@ export default {
       "masked": "He may be ____ the team.",
       "options": [
         "project-mcq-26",
-        "project-mcq-25",
-        "project-mcq-27",
-        "project-mcq-24",
-        "project-mcq-28",
-        "project-mcq-23"
+        "project-mcq-20",
+        "project-mcq-09",
+        "project-mcq-14"
       ],
       "explanation": "本句的「projecting his own anxiety onto」指「把其實源於自己的情緒、想法或動機歸因於另一個人」。",
       "sentenceIndex": 51,
@@ -2244,12 +2038,10 @@ export default {
         "projecting his own anxiety onto"
       ],
       "optionReasons": {
-        "project-mcq-26": "本句指「把其實源於自己的情緒、想法或動機歸因於另一個人」。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。"
+        "project-mcq-26": "本句的「projecting his own anxiety onto」指「把其實源於自己的情緒、想法或動機歸因於另一個人」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-26"
     },
@@ -2261,11 +2053,9 @@ export default {
       "masked": "Don’t ____ other people.",
       "options": [
         "project-mcq-26",
-        "project-mcq-25",
-        "project-mcq-27",
-        "project-mcq-24",
-        "project-mcq-28",
-        "project-mcq-23"
+        "project-mcq-06",
+        "project-mcq-31",
+        "project-mcq-20"
       ],
       "explanation": "本句的「project your fears onto」指「把其實源於自己的情緒、想法或動機歸因於另一個人」。",
       "sentenceIndex": 52,
@@ -2274,12 +2064,10 @@ export default {
         "project your fears onto"
       ],
       "optionReasons": {
-        "project-mcq-26": "本句指「把其實源於自己的情緒、想法或動機歸因於另一個人」。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-23": "「有意或無意地讓其他人形成某種對自己／組織的印象」是「project an image（塑造形象）」的用法，與本句語境不同。"
+        "project-mcq-26": "本句的「project your fears onto」指「把其實源於自己的情緒、想法或動機歸因於另一個人」。",
+        "project-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-26"
     },
@@ -2291,11 +2079,9 @@ export default {
       "masked": "The accusation may be a form of psychological ____.",
       "options": [
         "project-mcq-27",
-        "project-mcq-26",
-        "project-mcq-28",
+        "project-mcq-16",
         "project-mcq-25",
-        "project-mcq-29",
-        "project-mcq-24"
+        "project-mcq-12"
       ],
       "explanation": "本句的「projection」指「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」。",
       "sentenceIndex": 53,
@@ -2304,12 +2090,10 @@ export default {
         "projection"
       ],
       "optionReasons": {
-        "project-mcq-27": "本句指「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。"
+        "project-mcq-27": "本句的「projection」指「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」。",
+        "project-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-12": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-27"
     },
@@ -2321,11 +2105,9 @@ export default {
       "masked": "____ can cause someone to see their own fears in other people.",
       "options": [
         "project-mcq-27",
-        "project-mcq-26",
         "project-mcq-28",
-        "project-mcq-25",
-        "project-mcq-29",
-        "project-mcq-24"
+        "project-mcq-12",
+        "project-mcq-18"
       ],
       "explanation": "本句的「Projection」指「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」。",
       "sentenceIndex": 54,
@@ -2334,12 +2116,10 @@ export default {
         "Projection"
       ],
       "optionReasons": {
-        "project-mcq-27": "本句指「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-24": "「透過言行、形象或表達方式讓別人把你視為某種人／角色」是「project yourself as + quality/role（把自己表現成……）」的用法，與本句語境不同。"
+        "project-mcq-27": "本句的「Projection」指「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-27"
     },
@@ -2351,11 +2131,9 @@ export default {
       "masked": "A balcony ____ the side of the building.",
       "options": [
         "project-mcq-28",
-        "project-mcq-27",
-        "project-mcq-29",
+        "project-mcq-20",
         "project-mcq-26",
-        "project-mcq-30",
-        "project-mcq-25"
+        "project-mcq-18"
       ],
       "explanation": "本句的「projects from」指「突出；伸出時，表示突出；伸出」。",
       "sentenceIndex": 55,
@@ -2364,12 +2142,10 @@ export default {
         "projects from"
       ],
       "optionReasons": {
-        "project-mcq-28": "本句指「突出；伸出時，表示突出；伸出」。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-30": "「把地球曲面轉換並表示在平面地圖上的數學方法」是「map projection（地圖投影法）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。"
+        "project-mcq-28": "本句的「projects from」指「突出；伸出時，表示突出；伸出」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-28"
     },
@@ -2381,11 +2157,9 @@ export default {
       "masked": "The roof ____ over the entrance.",
       "options": [
         "project-mcq-28",
-        "project-mcq-27",
-        "project-mcq-29",
-        "project-mcq-26",
+        "project-mcq-17",
         "project-mcq-30",
-        "project-mcq-25"
+        "project-mcq-08"
       ],
       "explanation": "本句的「projects outward」指「突出；伸出時，表示突出；伸出」。",
       "sentenceIndex": 56,
@@ -2394,12 +2168,10 @@ export default {
         "projects outward"
       ],
       "optionReasons": {
-        "project-mcq-28": "本句指「突出；伸出時，表示突出；伸出」。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-30": "「把地球曲面轉換並表示在平面地圖上的數學方法」是「map projection（地圖投影法）」的用法，與本句語境不同。",
-        "project-mcq-25": "「把力量、權威或影響力延伸到較遠地方／更廣範圍」是「project power/influence（向外施展力量／影響力）」的用法，與本句語境不同。"
+        "project-mcq-28": "本句的「projects outward」指「突出；伸出時，表示突出；伸出」。",
+        "project-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-28"
     },
@@ -2411,11 +2183,9 @@ export default {
       "masked": "The wall has a narrow ____ near the entrance.",
       "options": [
         "project-mcq-29",
-        "project-mcq-28",
         "project-mcq-30",
-        "project-mcq-27",
-        "project-mcq-31",
-        "project-mcq-26"
+        "project-mcq-01",
+        "project-mcq-27"
       ],
       "explanation": "本句的「projection」指「從主體表面向外伸出的部分」。",
       "sentenceIndex": 57,
@@ -2424,12 +2194,10 @@ export default {
         "projection"
       ],
       "optionReasons": {
-        "project-mcq-29": "本句指「從主體表面向外伸出的部分」。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-30": "「把地球曲面轉換並表示在平面地圖上的數學方法」是「map projection（地圖投影法）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-31": "「投射的／射影的時，表示投射的；射影的」是「projective（投射的／射影的）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。"
+        "project-mcq-29": "本句的「projection」指「從主體表面向外伸出的部分」。",
+        "project-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-01": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-29"
     },
@@ -2441,11 +2209,9 @@ export default {
       "masked": "The architectural ____ provides shade.",
       "options": [
         "project-mcq-29",
-        "project-mcq-28",
-        "project-mcq-30",
-        "project-mcq-27",
-        "project-mcq-31",
-        "project-mcq-26"
+        "project-mcq-11",
+        "project-mcq-05",
+        "project-mcq-18"
       ],
       "explanation": "本句的「projection」指「從主體表面向外伸出的部分」。",
       "sentenceIndex": 58,
@@ -2454,12 +2220,10 @@ export default {
         "projection"
       ],
       "optionReasons": {
-        "project-mcq-29": "本句指「從主體表面向外伸出的部分」。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-30": "「把地球曲面轉換並表示在平面地圖上的數學方法」是「map projection（地圖投影法）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-31": "「投射的／射影的時，表示投射的；射影的」是「projective（投射的／射影的）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。"
+        "project-mcq-29": "本句的「projection」指「從主體表面向外伸出的部分」。",
+        "project-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-18": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-29"
     },
@@ -2471,11 +2235,9 @@ export default {
       "masked": "Different map ____ distort the Earth in different ways.",
       "options": [
         "project-mcq-30",
-        "project-mcq-29",
-        "project-mcq-31",
-        "project-mcq-28",
-        "project-mcq-27",
-        "project-mcq-26"
+        "project-mcq-20",
+        "project-mcq-19",
+        "project-mcq-02"
       ],
       "explanation": "本句的「projections」指「把地球曲面轉換並表示在平面地圖上的數學方法」。",
       "sentenceIndex": 59,
@@ -2484,12 +2246,10 @@ export default {
         "projections"
       ],
       "optionReasons": {
-        "project-mcq-30": "本句指「把地球曲面轉換並表示在平面地圖上的數學方法」。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-31": "「投射的／射影的時，表示投射的；射影的」是「projective（投射的／射影的）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。"
+        "project-mcq-30": "本句的「projections」指「把地球曲面轉換並表示在平面地圖上的數學方法」。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-02": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-30"
     },
@@ -2501,11 +2261,9 @@ export default {
       "masked": "The Mercator ____ is widely recognized.",
       "options": [
         "project-mcq-30",
-        "project-mcq-29",
-        "project-mcq-31",
-        "project-mcq-28",
-        "project-mcq-27",
-        "project-mcq-26"
+        "project-mcq-07",
+        "project-mcq-16",
+        "project-mcq-28"
       ],
       "explanation": "本句的「projection」指「把地球曲面轉換並表示在平面地圖上的數學方法」。",
       "sentenceIndex": 60,
@@ -2514,12 +2272,10 @@ export default {
         "projection"
       ],
       "optionReasons": {
-        "project-mcq-30": "本句指「把地球曲面轉換並表示在平面地圖上的數學方法」。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-31": "「投射的／射影的時，表示投射的；射影的」是「projective（投射的／射影的）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。"
+        "project-mcq-30": "本句的「projection」指「把地球曲面轉換並表示在平面地圖上的數學方法」。",
+        "project-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-30"
     },
@@ -2531,11 +2287,9 @@ export default {
       "masked": "The psychologist used a ____.",
       "options": [
         "project-mcq-31",
-        "project-mcq-30",
-        "project-mcq-29",
-        "project-mcq-28",
-        "project-mcq-27",
-        "project-mcq-26"
+        "project-mcq-23",
+        "project-mcq-15",
+        "project-mcq-20"
       ],
       "explanation": "本句的「projective test」指「投射的／射影的時，表示投射的；射影的」。",
       "sentenceIndex": 61,
@@ -2544,12 +2298,10 @@ export default {
         "projective test"
       ],
       "optionReasons": {
-        "project-mcq-31": "本句指「投射的／射影的時，表示投射的；射影的」。",
-        "project-mcq-30": "「把地球曲面轉換並表示在平面地圖上的數學方法」是「map projection（地圖投影法）」的用法，與本句語境不同。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。"
+        "project-mcq-31": "本句的「projective test」指「投射的／射影的時，表示投射的；射影的」。",
+        "project-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-31"
     },
@@ -2561,11 +2313,9 @@ export default {
       "masked": "The course introduces ____.",
       "options": [
         "project-mcq-31",
-        "project-mcq-30",
-        "project-mcq-29",
-        "project-mcq-28",
-        "project-mcq-27",
-        "project-mcq-26"
+        "project-mcq-08",
+        "project-mcq-22",
+        "project-mcq-13"
       ],
       "explanation": "本句的「projective geometry」指「投射的／射影的時，表示投射的；射影的」。",
       "sentenceIndex": 62,
@@ -2574,12 +2324,10 @@ export default {
         "projective geometry"
       ],
       "optionReasons": {
-        "project-mcq-31": "本句指「投射的／射影的時，表示投射的；射影的」。",
-        "project-mcq-30": "「把地球曲面轉換並表示在平面地圖上的數學方法」是「map projection（地圖投影法）」的用法，與本句語境不同。",
-        "project-mcq-29": "「從主體表面向外伸出的部分」是「projection = something sticking outward（突出部分）」的用法，與本句語境不同。",
-        "project-mcq-28": "「突出；伸出時，表示突出；伸出」是「project from / project outward（突出；伸出）」的用法，與本句語境不同。",
-        "project-mcq-27": "「把自己的感受、特質或動機無意識地歸因到別人身上的心理過程」是「projection = psychological projection（心理投射）」的用法，與本句語境不同。",
-        "project-mcq-26": "「把其實源於自己的情緒、想法或動機歸因於另一個人」是「project onto someone（心理投射）」的用法，與本句語境不同。"
+        "project-mcq-31": "本句的「projective geometry」指「投射的／射影的時，表示投射的；射影的」。",
+        "project-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "project-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "project-mcq-31"
     }
@@ -2591,5 +2339,7 @@ export default {
     "sha256": "25a954c6cb04b42d839aa4619d000fb042c3c0f1bc72c0f839273f1ec213a9a3",
     "pages": 30
   },
-  "mcqSource": "sense-sections-provisional"
+  "mcqSource": "sense-sections-provisional",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

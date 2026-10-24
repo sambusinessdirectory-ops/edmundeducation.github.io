@@ -768,11 +768,9 @@ export default {
       "masked": "We usually have three ____ a day.",
       "options": [
         "meal-mcq-01",
-        "meal-mcq-02",
-        "meal-mcq-03",
-        "meal-mcq-04",
-        "meal-mcq-05",
-        "meal-mcq-06"
+        "meal-mcq-42",
+        "meal-mcq-60",
+        "meal-mcq-28"
       ],
       "explanation": "本句的「meals」指「一次正式／通常較完整的進食場合；一餐」。",
       "sentenceIndex": 0,
@@ -781,12 +779,10 @@ export default {
         "meals"
       ],
       "optionReasons": {
-        "meal-mcq-01": "本句指「一次正式／通常較完整的進食場合；一餐」。",
-        "meal-mcq-02": "「某一餐實際吃／供應的整體食物」與本句語境不同。",
-        "meal-mcq-03": "「吃一頓飯」與本句語境不同。",
-        "meal-mcq-04": "「供應／端上一餐」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。"
+        "meal-mcq-01": "本句的「meals」指「一次正式／通常較完整的進食場合；一餐」。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-01"
     },
@@ -798,11 +794,9 @@ export default {
       "masked": "Breakfast is my favourite ____.",
       "options": [
         "meal-mcq-01",
-        "meal-mcq-02",
-        "meal-mcq-03",
-        "meal-mcq-04",
-        "meal-mcq-05",
-        "meal-mcq-06"
+        "meal-mcq-42",
+        "meal-mcq-60",
+        "meal-mcq-28"
       ],
       "explanation": "本句的「meal」指「一次正式／通常較完整的進食場合；一餐」。",
       "sentenceIndex": 1,
@@ -811,12 +805,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-01": "本句指「一次正式／通常較完整的進食場合；一餐」。",
-        "meal-mcq-02": "「某一餐實際吃／供應的整體食物」與本句語境不同。",
-        "meal-mcq-03": "「吃一頓飯」與本句語境不同。",
-        "meal-mcq-04": "「供應／端上一餐」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。"
+        "meal-mcq-01": "本句的「meal」指「一次正式／通常較完整的進食場合；一餐」。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-01"
     },
@@ -828,11 +820,9 @@ export default {
       "masked": "That was an excellent ____.",
       "options": [
         "meal-mcq-01",
-        "meal-mcq-02",
-        "meal-mcq-03",
-        "meal-mcq-04",
-        "meal-mcq-05",
-        "meal-mcq-06"
+        "meal-mcq-42",
+        "meal-mcq-60",
+        "meal-mcq-28"
       ],
       "explanation": "本句的「meal」指「一次正式／通常較完整的進食場合；一餐」。",
       "sentenceIndex": 2,
@@ -841,12 +831,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-01": "本句指「一次正式／通常較完整的進食場合；一餐」。",
-        "meal-mcq-02": "「某一餐實際吃／供應的整體食物」與本句語境不同。",
-        "meal-mcq-03": "「吃一頓飯」與本句語境不同。",
-        "meal-mcq-04": "「供應／端上一餐」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。"
+        "meal-mcq-01": "本句的「meal」指「一次正式／通常較完整的進食場合；一餐」。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-01"
     },
@@ -858,11 +846,9 @@ export default {
       "masked": "Let's have a ____ before we leave.",
       "options": [
         "meal-mcq-03",
-        "meal-mcq-02",
+        "meal-mcq-60",
         "meal-mcq-04",
-        "meal-mcq-01",
-        "meal-mcq-05",
-        "meal-mcq-06"
+        "meal-mcq-08"
       ],
       "explanation": "本句的「meal」指「吃一頓飯」。",
       "sentenceIndex": 3,
@@ -871,12 +857,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-03": "本句指「吃一頓飯」。",
-        "meal-mcq-02": "「某一餐實際吃／供應的整體食物」與本句語境不同。",
-        "meal-mcq-04": "「供應／端上一餐」與本句語境不同。",
-        "meal-mcq-01": "「一次正式／通常較完整的進食場合；一餐」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。"
+        "meal-mcq-03": "本句的「meal」指「吃一頓飯」。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-03"
     },
@@ -888,11 +872,9 @@ export default {
       "masked": "He ate a large ____.",
       "options": [
         "meal-mcq-03",
-        "meal-mcq-02",
-        "meal-mcq-04",
-        "meal-mcq-01",
-        "meal-mcq-05",
-        "meal-mcq-06"
+        "meal-mcq-28",
+        "meal-mcq-10",
+        "meal-mcq-60"
       ],
       "explanation": "本句的「meal」指「吃一頓飯」。",
       "sentenceIndex": 4,
@@ -901,12 +883,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-03": "本句指「吃一頓飯」。",
-        "meal-mcq-02": "「某一餐實際吃／供應的整體食物」與本句語境不同。",
-        "meal-mcq-04": "「供應／端上一餐」與本句語境不同。",
-        "meal-mcq-01": "「一次正式／通常較完整的進食場合；一餐」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。"
+        "meal-mcq-03": "本句的「meal」指「吃一頓飯」。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-03"
     },
@@ -919,10 +899,8 @@ export default {
       "options": [
         "meal-mcq-04",
         "meal-mcq-03",
-        "meal-mcq-05",
-        "meal-mcq-02",
-        "meal-mcq-06",
-        "meal-mcq-01"
+        "meal-mcq-28",
+        "meal-mcq-60"
       ],
       "explanation": "本句的「meal」指「供應／端上一餐」。",
       "sentenceIndex": 6,
@@ -931,12 +909,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-04": "本句指「供應／端上一餐」。",
-        "meal-mcq-03": "「吃一頓飯」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。",
-        "meal-mcq-02": "「某一餐實際吃／供應的整體食物」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。",
-        "meal-mcq-01": "「一次正式／通常較完整的進食場合；一餐」與本句語境不同。"
+        "meal-mcq-04": "本句的「meal」指「供應／端上一餐」。",
+        "meal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-04"
     },
@@ -948,11 +924,9 @@ export default {
       "masked": "Try not to snack between ____.",
       "options": [
         "meal-mcq-08",
-        "meal-mcq-07",
-        "meal-mcq-09",
-        "meal-mcq-06",
-        "meal-mcq-10",
-        "meal-mcq-05"
+        "meal-mcq-03",
+        "meal-mcq-60",
+        "meal-mcq-28"
       ],
       "explanation": "本句的「meals」指「兩個正常用餐時段之間」。",
       "sentenceIndex": 8,
@@ -961,12 +935,10 @@ export default {
         "meals"
       ],
       "optionReasons": {
-        "meal-mcq-08": "本句指「兩個正常用餐時段之間」。",
-        "meal-mcq-07": "「因情況而沒有吃到某一餐」與本句語境不同。",
-        "meal-mcq-09": "「正常／指定的用餐時間」與本句語境不同。",
-        "meal-mcq-06": "「有意不吃某一餐」與本句語境不同。",
-        "meal-mcq-10": "「一天中最主要／最豐盛的一餐」與本句語境不同。",
-        "meal-mcq-05": "「售賣可以構成一餐的餐食」與本句語境不同。"
+        "meal-mcq-08": "本句的「meals」指「兩個正常用餐時段之間」。",
+        "meal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-08"
     },
@@ -978,11 +950,9 @@ export default {
       "masked": "Their main ____ is in the evening.",
       "options": [
         "meal-mcq-10",
-        "meal-mcq-09",
-        "meal-mcq-11",
-        "meal-mcq-08",
-        "meal-mcq-12",
-        "meal-mcq-07"
+        "meal-mcq-60",
+        "meal-mcq-28",
+        "meal-mcq-03"
       ],
       "explanation": "本句的「meal」指「一天中最主要／最豐盛的一餐」。",
       "sentenceIndex": 11,
@@ -991,12 +961,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-10": "本句指「一天中最主要／最豐盛的一餐」。",
-        "meal-mcq-09": "「正常／指定的用餐時間」與本句語境不同。",
-        "meal-mcq-11": "「熱食／冷餐」與本句語境不同。",
-        "meal-mcq-08": "「兩個正常用餐時段之間」與本句語境不同。",
-        "meal-mcq-12": "「份量較小或較清淡的一餐」與本句語境不同。",
-        "meal-mcq-07": "「因情況而沒有吃到某一餐」與本句語境不同。"
+        "meal-mcq-10": "本句的「meal」指「一天中最主要／最豐盛的一餐」。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-10"
     },
@@ -1008,11 +976,9 @@ export default {
       "masked": "We had a light ____ before the concert.",
       "options": [
         "meal-mcq-12",
-        "meal-mcq-11",
-        "meal-mcq-13",
-        "meal-mcq-10",
-        "meal-mcq-14",
-        "meal-mcq-09"
+        "meal-mcq-42",
+        "meal-mcq-28",
+        "meal-mcq-60"
       ],
       "explanation": "本句的「meal」指「份量較小或較清淡的一餐」。",
       "sentenceIndex": 13,
@@ -1021,12 +987,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-12": "本句指「份量較小或較清淡的一餐」。",
-        "meal-mcq-11": "「熱食／冷餐」與本句語境不同。",
-        "meal-mcq-13": "「份量大、豐富或較難消化的一餐」與本句語境不同。",
-        "meal-mcq-10": "「一天中最主要／最豐盛的一餐」與本句語境不同。",
-        "meal-mcq-14": "「足以令人飽足、較完整的正餐」與本句語境不同。",
-        "meal-mcq-09": "「正常／指定的用餐時間」與本句語境不同。"
+        "meal-mcq-12": "本句的「meal」指「份量較小或較清淡的一餐」。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-12"
     },
@@ -1038,11 +1002,9 @@ export default {
       "masked": "Avoid a heavy ____ just before exercise.",
       "options": [
         "meal-mcq-13",
-        "meal-mcq-12",
-        "meal-mcq-14",
-        "meal-mcq-11",
-        "meal-mcq-15",
-        "meal-mcq-10"
+        "meal-mcq-03",
+        "meal-mcq-60",
+        "meal-mcq-28"
       ],
       "explanation": "本句的「meal」指「份量大、豐富或較難消化的一餐」。",
       "sentenceIndex": 14,
@@ -1051,12 +1013,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-13": "本句指「份量大、豐富或較難消化的一餐」。",
-        "meal-mcq-12": "「份量較小或較清淡的一餐」與本句語境不同。",
-        "meal-mcq-14": "「足以令人飽足、較完整的正餐」與本句語境不同。",
-        "meal-mcq-11": "「熱食／冷餐」與本句語境不同。",
-        "meal-mcq-15": "「足量、像樣、能令人吃飽的一餐」與本句語境不同。",
-        "meal-mcq-10": "「一天中最主要／最豐盛的一餐」與本句語境不同。"
+        "meal-mcq-13": "本句的「meal」指「份量大、豐富或較難消化的一餐」。",
+        "meal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-13"
     },
@@ -1068,11 +1028,9 @@ export default {
       "masked": "He hadn't had a square ____ in days.",
       "options": [
         "meal-mcq-15",
-        "meal-mcq-14",
-        "meal-mcq-16",
-        "meal-mcq-13",
-        "meal-mcq-17",
-        "meal-mcq-12"
+        "meal-mcq-42",
+        "meal-mcq-28",
+        "meal-mcq-60"
       ],
       "explanation": "本句的「meal」指「足量、像樣、能令人吃飽的一餐」。",
       "sentenceIndex": 15,
@@ -1081,12 +1039,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-15": "本句指「足量、像樣、能令人吃飽的一餐」。",
-        "meal-mcq-14": "「足以令人飽足、較完整的正餐」與本句語境不同。",
-        "meal-mcq-16": "「各主要營養成分較均衡的一餐」與本句語境不同。",
-        "meal-mcq-13": "「份量大、豐富或較難消化的一餐」與本句語境不同。",
-        "meal-mcq-17": "「在家自行烹調的一餐」與本句語境不同。",
-        "meal-mcq-12": "「份量較小或較清淡的一餐」與本句語境不同。"
+        "meal-mcq-15": "本句的「meal」指「足量、像樣、能令人吃飽的一餐」。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-15"
     },
@@ -1098,11 +1054,9 @@ export default {
       "masked": "Sunday dinner is an important family ____.",
       "options": [
         "meal-mcq-20",
-        "meal-mcq-19",
-        "meal-mcq-21",
-        "meal-mcq-18",
-        "meal-mcq-22",
-        "meal-mcq-17"
+        "meal-mcq-42",
+        "meal-mcq-28",
+        "meal-mcq-60"
       ],
       "explanation": "本句的「meal」指「家人共同吃的一餐」。",
       "sentenceIndex": 16,
@@ -1111,12 +1065,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-20": "本句指「家人共同吃的一餐」。",
-        "meal-mcq-19": "「大部分食材在同一鍋中完成的完整餐食」與本句語境不同。",
-        "meal-mcq-21": "「餐廳為員工準備、大家一起吃的員工餐」與本句語境不同。",
-        "meal-mcq-18": "「由三道依次供應的菜構成的一餐」與本句語境不同。",
-        "meal-mcq-22": "「僱主／餐廳提供給員工的一餐」與本句語境不同。",
-        "meal-mcq-17": "「在家自行烹調的一餐」與本句語境不同。"
+        "meal-mcq-20": "本句的「meal」指「家人共同吃的一餐」。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-20"
     },
@@ -1128,11 +1080,9 @@ export default {
       "masked": "I heated a ready ____.",
       "options": [
         "meal-mcq-23",
-        "meal-mcq-22",
-        "meal-mcq-24",
-        "meal-mcq-21",
-        "meal-mcq-25",
-        "meal-mcq-20"
+        "meal-mcq-60",
+        "meal-mcq-03",
+        "meal-mcq-10"
       ],
       "explanation": "本句的「meal」指「已預先煮好／製好，只需簡單加熱的即食餐」。",
       "sentenceIndex": 17,
@@ -1141,12 +1091,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-23": "本句指「已預先煮好／製好，只需簡單加熱的即食餐」。",
-        "meal-mcq-22": "「僱主／餐廳提供給員工的一餐」與本句語境不同。",
-        "meal-mcq-24": "「冷凍／微波即食餐」與本句語境不同。",
-        "meal-mcq-21": "「餐廳為員工準備、大家一起吃的員工餐」與本句語境不同。",
-        "meal-mcq-25": "「按食譜配好食材、讓顧客自行烹調的料理包」與本句語境不同。",
-        "meal-mcq-20": "「家人共同吃的一餐」與本句語境不同。"
+        "meal-mcq-23": "本句的「meal」指「已預先煮好／製好，只需簡單加熱的即食餐」。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-23"
     },
@@ -1158,11 +1106,9 @@ export default {
       "masked": "The residence fee includes a ____ plan.",
       "options": [
         "meal-mcq-28",
-        "meal-mcq-27",
-        "meal-mcq-29",
-        "meal-mcq-26",
-        "meal-mcq-30",
-        "meal-mcq-25"
+        "meal-mcq-20",
+        "meal-mcq-42",
+        "meal-mcq-08"
       ],
       "explanation": "本句的「meal」指「按日／週規劃的膳食安排」。",
       "sentenceIndex": 18,
@@ -1171,12 +1117,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-28": "本句指「按日／週規劃的膳食安排」。",
-        "meal-mcq-27": "「預先安排未來數餐吃甚麼的膳食規劃」與本句語境不同。",
-        "meal-mcq-29": "「學校／宿舍等預付後可享用指定餐數的餐飲方案」與本句語境不同。",
-        "meal-mcq-26": "「預先一次準備多餐或多份食材的備餐做法」與本句語境不同。",
-        "meal-mcq-30": "「為乘客、學生、病人等提供膳食的服務」與本句語境不同。",
-        "meal-mcq-25": "「按食譜配好食材、讓顧客自行烹調的料理包」與本句語境不同。"
+        "meal-mcq-28": "本句的「meal」指「按日／週規劃的膳食安排」。",
+        "meal-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-28"
     },
@@ -1188,11 +1132,9 @@ export default {
       "masked": "He saw the contract as his ____ ticket.",
       "options": [
         "meal-mcq-42",
-        "meal-mcq-41",
-        "meal-mcq-43",
-        "meal-mcq-40",
-        "meal-mcq-44",
-        "meal-mcq-39"
+        "meal-mcq-10",
+        "meal-mcq-08",
+        "meal-mcq-60"
       ],
       "explanation": "本句的「meal」指「某人賴以維持生活的穩定收入來源／「飯票」」。",
       "sentenceIndex": 19,
@@ -1201,12 +1143,10 @@ export default {
         "meal"
       ],
       "optionReasons": {
-        "meal-mcq-42": "本句指「某人賴以維持生活的穩定收入來源／「飯票」」。",
-        "meal-mcq-41": "「可憑票換取一餐的餐票」與本句語境不同。",
-        "meal-mcq-43": "「BrE：把簡單事情弄得過分繁複、花過多力氣；小題大做」與本句語境不同。",
-        "meal-mcq-40": "「可用於換取／支付餐食的餐券」與本句語境不同。",
-        "meal-mcq-44": "「穀物、種子等磨成的較粗粉狀物」與本句語境不同。",
-        "meal-mcq-39": "「僱主等提供的膳食津貼」與本句語境不同。"
+        "meal-mcq-42": "本句的「meal」指「某人賴以維持生活的穩定收入來源／「飯票」」。",
+        "meal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-60": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-42"
     },
@@ -1218,11 +1158,9 @@ export default {
       "masked": "Don't be ____—tell me what you think.",
       "options": [
         "meal-mcq-60",
-        "meal-mcq-59",
-        "meal-mcq-58",
-        "meal-mcq-57",
-        "meal-mcq-56",
-        "meal-mcq-55"
+        "meal-mcq-10",
+        "meal-mcq-28",
+        "meal-mcq-23"
       ],
       "explanation": "本句的「mealy-mouthed」指「不敢直接表明立場、說話過分含糊委婉的」。",
       "sentenceIndex": 25,
@@ -1231,12 +1169,10 @@ export default {
         "mealy-mouthed"
       ],
       "optionReasons": {
-        "meal-mcq-60": "本句指「不敢直接表明立場、說話過分含糊委婉的」。",
-        "meal-mcq-59": "「表面有白色粉蠟物的植物害蟲；粉蚧」與本句語境不同。",
-        "meal-mcq-58": "「黃粉蟲幼蟲／麵包蟲」與本句語境不同。",
-        "meal-mcq-57": "「食物呈粉質、乾鬆的特性」與本句語境不同。",
-        "meal-mcq-56": "「肉質粉鬆的薯仔／變得粉粉不爽脆的蘋果」與本句語境不同。",
-        "meal-mcq-55": "「口感／表面像粉一樣乾鬆、粉質的」與本句語境不同。"
+        "meal-mcq-60": "本句的「mealy-mouthed」指「不敢直接表明立場、說話過分含糊委婉的」。",
+        "meal-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "meal-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "meal-mcq-60"
     }
@@ -1248,5 +1184,7 @@ export default {
     "sha256": "d01bd01c7ce5efa7e6b21b0f5a8ae4df240171f2c542292ab109605acb9e2e75",
     "pages": 45
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };

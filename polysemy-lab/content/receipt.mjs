@@ -372,11 +372,7 @@ export default {
       "masked": "The scrapbook contained old tickets and ____.",
       "options": [
         "receipt-mcq-01",
-        "receipt-mcq-02",
-        "receipt-mcq-03",
-        "receipt-mcq-04",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipts」指「收據」。",
       "sentenceIndex": 0,
@@ -385,12 +381,8 @@ export default {
         "receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-01": "本句指「收據」。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-01": "本句的「receipts」指「收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-01"
     },
@@ -402,11 +394,7 @@ export default {
       "masked": "Keep the ____ in case you need to return the item.",
       "options": [
         "receipt-mcq-01",
-        "receipt-mcq-02",
-        "receipt-mcq-03",
-        "receipt-mcq-04",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt」指「收據」。",
       "sentenceIndex": 1,
@@ -415,12 +403,8 @@ export default {
         "receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-01": "本句指「收據」。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-01": "本句的「receipt」指「收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-01"
     },
@@ -432,11 +416,7 @@ export default {
       "masked": "The cashier gave me a ____.",
       "options": [
         "receipt-mcq-01",
-        "receipt-mcq-02",
-        "receipt-mcq-03",
-        "receipt-mcq-04",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt」指「收據」。",
       "sentenceIndex": 2,
@@ -445,12 +425,8 @@ export default {
         "receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-01": "本句指「收據」。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-01": "本句的「receipt」指「收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-01"
     },
@@ -462,11 +438,7 @@ export default {
       "masked": "The ____ shows the date and amount paid.",
       "options": [
         "receipt-mcq-02",
-        "receipt-mcq-01",
-        "receipt-mcq-03",
-        "receipt-mcq-04",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「sales receipt」指「購物收據」。",
       "sentenceIndex": 3,
@@ -475,12 +447,8 @@ export default {
         "sales receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-02": "本句指「購物收據」。",
-        "receipt-mcq-01": "「收據」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-02": "本句的「sales receipt」指「購物收據」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-02"
     },
@@ -492,11 +460,7 @@ export default {
       "masked": "You need the original ____ for a refund.",
       "options": [
         "receipt-mcq-02",
-        "receipt-mcq-01",
-        "receipt-mcq-03",
-        "receipt-mcq-04",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-duration"
       ],
       "explanation": "本句的「sales receipt」指「購物收據」。",
       "sentenceIndex": 4,
@@ -505,12 +469,8 @@ export default {
         "sales receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-02": "本句指「購物收據」。",
-        "receipt-mcq-01": "「收據」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-02": "本句的「sales receipt」指「購物收據」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-02"
     },
@@ -522,11 +482,7 @@ export default {
       "masked": "Please ask for an ____.",
       "options": [
         "receipt-mcq-03",
-        "receipt-mcq-02",
-        "receipt-mcq-04",
-        "receipt-mcq-01",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「official receipt」指「正式收據」。",
       "sentenceIndex": 5,
@@ -535,12 +491,8 @@ export default {
         "official receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-03": "本句指「正式收據」。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-01": "「收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-03": "本句的「official receipt」指「正式收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-03"
     },
@@ -552,11 +504,7 @@ export default {
       "masked": "The school issued an ____ for the payment.",
       "options": [
         "receipt-mcq-03",
-        "receipt-mcq-02",
-        "receipt-mcq-04",
-        "receipt-mcq-01",
-        "receipt-mcq-05",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「official receipt」指「正式收據」。",
       "sentenceIndex": 6,
@@ -565,12 +513,8 @@ export default {
         "official receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-03": "本句指「正式收據」。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-01": "「收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-03": "本句的「official receipt」指「正式收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-03"
     },
@@ -582,11 +526,7 @@ export default {
       "masked": "I asked for a ____ so she could exchange the present.",
       "options": [
         "receipt-mcq-04",
-        "receipt-mcq-03",
-        "receipt-mcq-05",
-        "receipt-mcq-02",
-        "receipt-mcq-06",
-        "receipt-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「gift receipt」指「禮物收據」。",
       "sentenceIndex": 7,
@@ -595,12 +535,8 @@ export default {
         "gift receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-04": "本句指「禮物收據」。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-01": "「收據」與本句語境不同。"
+        "receipt-mcq-04": "本句的「gift receipt」指「禮物收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-04"
     },
@@ -612,11 +548,7 @@ export default {
       "masked": "The ____ does not show the price.",
       "options": [
         "receipt-mcq-04",
-        "receipt-mcq-03",
-        "receipt-mcq-05",
-        "receipt-mcq-02",
-        "receipt-mcq-06",
-        "receipt-mcq-01"
+        "contrast-purchase"
       ],
       "explanation": "本句的「gift receipt」指「禮物收據」。",
       "sentenceIndex": 8,
@@ -625,12 +557,8 @@ export default {
         "gift receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-04": "本句指「禮物收據」。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-01": "「收據」與本句語境不同。"
+        "receipt-mcq-04": "本句的「gift receipt」指「禮物收據」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-04"
     },
@@ -642,11 +570,7 @@ export default {
       "masked": "We confirmed ____.",
       "options": [
         "receipt-mcq-05",
-        "receipt-mcq-04",
-        "receipt-mcq-06",
-        "receipt-mcq-03",
-        "receipt-mcq-07",
-        "receipt-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt of your application」指「收到 X」。",
       "sentenceIndex": 9,
@@ -655,12 +579,8 @@ export default {
         "receipt of your application"
       ],
       "optionReasons": {
-        "receipt-mcq-05": "本句指「收到 X」。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。"
+        "receipt-mcq-05": "本句的「receipt of your application」指「收到 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-05"
     },
@@ -672,11 +592,7 @@ export default {
       "masked": "Payment is required within 30 days of ____.",
       "options": [
         "receipt-mcq-05",
-        "receipt-mcq-04",
-        "receipt-mcq-06",
-        "receipt-mcq-03",
-        "receipt-mcq-07",
-        "receipt-mcq-02"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt of the invoice」指「收到 X」。",
       "sentenceIndex": 10,
@@ -685,12 +601,8 @@ export default {
         "receipt of the invoice"
       ],
       "optionReasons": {
-        "receipt-mcq-05": "本句指「收到 X」。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-02": "「購物收據」與本句語境不同。"
+        "receipt-mcq-05": "本句的「receipt of the invoice」指「收到 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-05"
     },
@@ -702,11 +614,7 @@ export default {
       "masked": "Please contact us ____.",
       "options": [
         "receipt-mcq-06",
-        "receipt-mcq-05",
-        "receipt-mcq-07",
-        "receipt-mcq-04",
-        "receipt-mcq-08",
-        "receipt-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upon receipt of this letter」指「一收到便……」。",
       "sentenceIndex": 11,
@@ -715,12 +623,8 @@ export default {
         "upon receipt of this letter"
       ],
       "optionReasons": {
-        "receipt-mcq-06": "本句指「一收到便……」。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。"
+        "receipt-mcq-06": "本句的「upon receipt of this letter」指「一收到便……」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-06"
     },
@@ -732,11 +636,7 @@ export default {
       "masked": "Payment will be processed ____.",
       "options": [
         "receipt-mcq-06",
-        "receipt-mcq-05",
-        "receipt-mcq-07",
-        "receipt-mcq-04",
-        "receipt-mcq-08",
-        "receipt-mcq-03"
+        "contrast-purchase"
       ],
       "explanation": "本句的「upon receipt」指「一收到便……」。",
       "sentenceIndex": 12,
@@ -745,12 +645,8 @@ export default {
         "upon receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-06": "本句指「一收到便……」。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-03": "「正式收據」與本句語境不同。"
+        "receipt-mcq-06": "本句的「upon receipt」指「一收到便……」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-06"
     },
@@ -762,11 +658,7 @@ export default {
       "masked": "Please ____ of this email.",
       "options": [
         "receipt-mcq-07",
-        "receipt-mcq-06",
-        "receipt-mcq-08",
-        "receipt-mcq-05",
-        "receipt-mcq-09",
-        "receipt-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「acknowledge receipt」指「確認收到」。",
       "sentenceIndex": 13,
@@ -775,12 +667,8 @@ export default {
         "acknowledge receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-07": "本句指「確認收到」。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。"
+        "receipt-mcq-07": "本句的「acknowledge receipt」指「確認收到」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-07"
     },
@@ -792,11 +680,7 @@ export default {
       "masked": "The company ____ of the complaint.",
       "options": [
         "receipt-mcq-07",
-        "receipt-mcq-06",
-        "receipt-mcq-08",
-        "receipt-mcq-05",
-        "receipt-mcq-09",
-        "receipt-mcq-04"
+        "contrast-purchase"
       ],
       "explanation": "本句的「acknowledged receipt」指「確認收到」。",
       "sentenceIndex": 14,
@@ -805,12 +689,8 @@ export default {
         "acknowledged receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-07": "本句指「確認收到」。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-04": "「禮物收據」與本句語境不同。"
+        "receipt-mcq-07": "本句的「acknowledged receipt」指「確認收到」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-07"
     },
@@ -822,11 +702,8 @@ export default {
       "masked": "Keep the tracking information as ____.",
       "options": [
         "receipt-mcq-08",
-        "receipt-mcq-07",
-        "receipt-mcq-09",
-        "receipt-mcq-06",
-        "receipt-mcq-10",
-        "receipt-mcq-05"
+        "receipt-mcq-14",
+        "receipt-mcq-16"
       ],
       "explanation": "本句的「proof of receipt」指「收件證明」。",
       "sentenceIndex": 15,
@@ -835,12 +712,9 @@ export default {
         "proof of receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-08": "本句指「收件證明」。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。"
+        "receipt-mcq-08": "本句的「proof of receipt」指「收件證明」。",
+        "receipt-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-08"
     },
@@ -852,11 +726,8 @@ export default {
       "masked": "The signature provides ____.",
       "options": [
         "receipt-mcq-08",
-        "receipt-mcq-07",
-        "receipt-mcq-09",
-        "receipt-mcq-06",
-        "receipt-mcq-10",
-        "receipt-mcq-05"
+        "receipt-mcq-14",
+        "receipt-mcq-16"
       ],
       "explanation": "本句的「proof of receipt」指「收件證明」。",
       "sentenceIndex": 16,
@@ -865,12 +736,9 @@ export default {
         "proof of receipt"
       ],
       "optionReasons": {
-        "receipt-mcq-08": "本句指「收件證明」。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-05": "「收到 X」與本句語境不同。"
+        "receipt-mcq-08": "本句的「proof of receipt」指「收件證明」。",
+        "receipt-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-08"
     },
@@ -882,11 +750,7 @@ export default {
       "masked": "She is ____.",
       "options": [
         "receipt-mcq-09",
-        "receipt-mcq-08",
-        "receipt-mcq-10",
-        "receipt-mcq-07",
-        "receipt-mcq-11",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「in receipt of housing support」指「領取／收到 X」。",
       "sentenceIndex": 17,
@@ -895,12 +759,8 @@ export default {
         "in receipt of housing support"
       ],
       "optionReasons": {
-        "receipt-mcq-09": "本句指「領取／收到 X」。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-09": "本句的「in receipt of housing support」指「領取／收到 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-09"
     },
@@ -912,11 +772,7 @@ export default {
       "masked": "He is ____.",
       "options": [
         "receipt-mcq-09",
-        "receipt-mcq-08",
-        "receipt-mcq-10",
-        "receipt-mcq-07",
-        "receipt-mcq-11",
-        "receipt-mcq-06"
+        "contrast-purchase"
       ],
       "explanation": "本句的「in receipt of a pension」指「領取／收到 X」。",
       "sentenceIndex": 18,
@@ -925,12 +781,8 @@ export default {
         "in receipt of a pension"
       ],
       "optionReasons": {
-        "receipt-mcq-09": "本句指「領取／收到 X」。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-06": "「一收到便……」與本句語境不同。"
+        "receipt-mcq-09": "本句的「in receipt of a pension」指「領取／收到 X」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-09"
     },
@@ -942,11 +794,7 @@ export default {
       "masked": "We will send confirmation after ____.",
       "options": [
         "receipt-mcq-10",
-        "receipt-mcq-09",
-        "receipt-mcq-11",
-        "receipt-mcq-08",
-        "receipt-mcq-12",
-        "receipt-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt of payment」指「收到付款」。",
       "sentenceIndex": 19,
@@ -955,12 +803,8 @@ export default {
         "receipt of payment"
       ],
       "optionReasons": {
-        "receipt-mcq-10": "本句指「收到付款」。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。"
+        "receipt-mcq-10": "本句的「receipt of payment」指「收到付款」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-10"
     },
@@ -972,11 +816,7 @@ export default {
       "masked": "The order will be processed on ____.",
       "options": [
         "receipt-mcq-10",
-        "receipt-mcq-09",
-        "receipt-mcq-11",
-        "receipt-mcq-08",
-        "receipt-mcq-12",
-        "receipt-mcq-07"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt of payment」指「收到付款」。",
       "sentenceIndex": 20,
@@ -985,12 +825,8 @@ export default {
         "receipt of payment"
       ],
       "optionReasons": {
-        "receipt-mcq-10": "本句指「收到付款」。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-07": "「確認收到」與本句語境不同。"
+        "receipt-mcq-10": "本句的「receipt of payment」指「收到付款」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-10"
     },
@@ -1002,11 +838,7 @@ export default {
       "masked": "The company reported higher ____ this year.",
       "options": [
         "receipt-mcq-11",
-        "receipt-mcq-10",
-        "receipt-mcq-12",
-        "receipt-mcq-09",
-        "receipt-mcq-13",
-        "receipt-mcq-08"
+        "contrast-duration"
       ],
       "explanation": "本句的「receipts」指「收入；收款」。",
       "sentenceIndex": 21,
@@ -1015,12 +847,8 @@ export default {
         "receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-11": "本句指「收入；收款」。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。"
+        "receipt-mcq-11": "本句的「receipts」指「收入；收款」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-11"
     },
@@ -1032,11 +860,7 @@ export default {
       "masked": "Daily ____ were counted at closing time.",
       "options": [
         "receipt-mcq-11",
-        "receipt-mcq-10",
-        "receipt-mcq-12",
-        "receipt-mcq-09",
-        "receipt-mcq-13",
-        "receipt-mcq-08"
+        "contrast-duration"
       ],
       "explanation": "本句的「receipts」指「收入；收款」。",
       "sentenceIndex": 22,
@@ -1045,12 +869,8 @@ export default {
         "receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-11": "本句指「收入；收款」。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-08": "「收件證明」與本句語境不同。"
+        "receipt-mcq-11": "本句的「receipts」指「收入；收款」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-11"
     },
@@ -1062,11 +882,8 @@ export default {
       "masked": "All ____ must be recorded.",
       "options": [
         "receipt-mcq-12",
-        "receipt-mcq-11",
-        "receipt-mcq-13",
-        "receipt-mcq-10",
-        "receipt-mcq-14",
-        "receipt-mcq-09"
+        "receipt-mcq-08",
+        "receipt-mcq-16"
       ],
       "explanation": "本句的「cash receipts」指「現金收入」。",
       "sentenceIndex": 23,
@@ -1075,12 +892,9 @@ export default {
         "cash receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-12": "本句指「現金收入」。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。"
+        "receipt-mcq-12": "本句的「cash receipts」指「現金收入」。",
+        "receipt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-12"
     },
@@ -1092,11 +906,8 @@ export default {
       "masked": "The accountant checked the day's ____.",
       "options": [
         "receipt-mcq-12",
-        "receipt-mcq-11",
-        "receipt-mcq-13",
-        "receipt-mcq-10",
-        "receipt-mcq-14",
-        "receipt-mcq-09"
+        "receipt-mcq-16",
+        "receipt-mcq-08"
       ],
       "explanation": "本句的「cash receipts」指「現金收入」。",
       "sentenceIndex": 24,
@@ -1105,12 +916,9 @@ export default {
         "cash receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-12": "本句指「現金收入」。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-09": "「領取／收到 X」與本句語境不同。"
+        "receipt-mcq-12": "本句的「cash receipts」指「現金收入」。",
+        "receipt-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-12"
     },
@@ -1122,11 +930,7 @@ export default {
       "masked": "Government ____ increased this year.",
       "options": [
         "receipt-mcq-13",
-        "receipt-mcq-12",
-        "receipt-mcq-14",
-        "receipt-mcq-11",
-        "receipt-mcq-15",
-        "receipt-mcq-10"
+        "contrast-duration"
       ],
       "explanation": "本句的「tax receipts」指「稅收收入」。",
       "sentenceIndex": 25,
@@ -1135,12 +939,8 @@ export default {
         "tax receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-13": "本句指「稅收收入」。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-15": "「收據簿」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。"
+        "receipt-mcq-13": "本句的「tax receipts」指「稅收收入」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-13"
     },
@@ -1152,11 +952,7 @@ export default {
       "masked": "Falling ____ affected the budget.",
       "options": [
         "receipt-mcq-13",
-        "receipt-mcq-12",
-        "receipt-mcq-14",
-        "receipt-mcq-11",
-        "receipt-mcq-15",
-        "receipt-mcq-10"
+        "contrast-duration"
       ],
       "explanation": "本句的「tax receipts」指「稅收收入」。",
       "sentenceIndex": 26,
@@ -1165,12 +961,8 @@ export default {
         "tax receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-13": "本句指「稅收收入」。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。",
-        "receipt-mcq-15": "「收據簿」與本句語境不同。",
-        "receipt-mcq-10": "「收到付款」與本句語境不同。"
+        "receipt-mcq-13": "本句的「tax receipts」指「稅收收入」。",
+        "contrast-duration": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-13"
     },
@@ -1182,11 +974,8 @@ export default {
       "masked": "The film had strong ____.",
       "options": [
         "receipt-mcq-14",
-        "receipt-mcq-13",
-        "receipt-mcq-15",
-        "receipt-mcq-12",
         "receipt-mcq-16",
-        "receipt-mcq-11"
+        "receipt-mcq-08"
       ],
       "explanation": "本句的「box-office receipts」指「票房收入」。",
       "sentenceIndex": 27,
@@ -1195,12 +984,9 @@ export default {
         "box-office receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-14": "本句指「票房收入」。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-15": "「收據簿」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-16": "「已收訖帳單」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。"
+        "receipt-mcq-14": "本句的「box-office receipts」指「票房收入」。",
+        "receipt-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-14"
     },
@@ -1212,11 +998,8 @@ export default {
       "masked": "____ fell in the second week.",
       "options": [
         "receipt-mcq-14",
-        "receipt-mcq-13",
-        "receipt-mcq-15",
-        "receipt-mcq-12",
-        "receipt-mcq-16",
-        "receipt-mcq-11"
+        "receipt-mcq-08",
+        "receipt-mcq-16"
       ],
       "explanation": "本句的「Box-office receipts」指「票房收入」。",
       "sentenceIndex": 28,
@@ -1225,12 +1008,9 @@ export default {
         "Box-office receipts"
       ],
       "optionReasons": {
-        "receipt-mcq-14": "本句指「票房收入」。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-15": "「收據簿」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-16": "「已收訖帳單」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。"
+        "receipt-mcq-14": "本句的「Box-office receipts」指「票房收入」。",
+        "receipt-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-16": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-14"
     },
@@ -1242,11 +1022,7 @@ export default {
       "masked": "She wrote the payment in the ____.",
       "options": [
         "receipt-mcq-15",
-        "receipt-mcq-14",
-        "receipt-mcq-16",
-        "receipt-mcq-13",
-        "receipt-mcq-12",
-        "receipt-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt book」指「收據簿」。",
       "sentenceIndex": 29,
@@ -1255,12 +1031,8 @@ export default {
         "receipt book"
       ],
       "optionReasons": {
-        "receipt-mcq-15": "本句指「收據簿」。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-16": "「已收訖帳單」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。"
+        "receipt-mcq-15": "本句的「receipt book」指「收據簿」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-15"
     },
@@ -1272,11 +1044,7 @@ export default {
       "masked": "The shop still uses a paper ____.",
       "options": [
         "receipt-mcq-15",
-        "receipt-mcq-14",
-        "receipt-mcq-16",
-        "receipt-mcq-13",
-        "receipt-mcq-12",
-        "receipt-mcq-11"
+        "contrast-purchase"
       ],
       "explanation": "本句的「receipt book」指「收據簿」。",
       "sentenceIndex": 30,
@@ -1285,12 +1053,8 @@ export default {
         "receipt book"
       ],
       "optionReasons": {
-        "receipt-mcq-15": "本句指「收據簿」。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-16": "「已收訖帳單」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。"
+        "receipt-mcq-15": "本句的「receipt book」指「收據簿」。",
+        "contrast-purchase": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-15"
     },
@@ -1302,11 +1066,8 @@ export default {
       "masked": "Please keep the ____ for your records.",
       "options": [
         "receipt-mcq-16",
-        "receipt-mcq-15",
-        "receipt-mcq-14",
-        "receipt-mcq-13",
         "receipt-mcq-12",
-        "receipt-mcq-11"
+        "receipt-mcq-08"
       ],
       "explanation": "本句的「receipted invoice」指「已收訖帳單」。",
       "sentenceIndex": 31,
@@ -1315,12 +1076,9 @@ export default {
         "receipted invoice"
       ],
       "optionReasons": {
-        "receipt-mcq-16": "本句指「已收訖帳單」。",
-        "receipt-mcq-15": "「收據簿」與本句語境不同。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。"
+        "receipt-mcq-16": "本句的「receipted invoice」指「已收訖帳單」。",
+        "receipt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-16"
     },
@@ -1332,11 +1090,8 @@ export default {
       "masked": "The client requested a ____.",
       "options": [
         "receipt-mcq-16",
-        "receipt-mcq-15",
-        "receipt-mcq-14",
-        "receipt-mcq-13",
         "receipt-mcq-12",
-        "receipt-mcq-11"
+        "receipt-mcq-08"
       ],
       "explanation": "本句的「receipted bill」指「已收訖帳單」。",
       "sentenceIndex": 32,
@@ -1345,12 +1100,9 @@ export default {
         "receipted bill"
       ],
       "optionReasons": {
-        "receipt-mcq-16": "本句指「已收訖帳單」。",
-        "receipt-mcq-15": "「收據簿」與本句語境不同。",
-        "receipt-mcq-14": "「票房收入」與本句語境不同。",
-        "receipt-mcq-13": "「稅收收入」與本句語境不同。",
-        "receipt-mcq-12": "「現金收入」與本句語境不同。",
-        "receipt-mcq-11": "「收入；收款」與本句語境不同。"
+        "receipt-mcq-16": "本句的「receipted bill」指「已收訖帳單」。",
+        "receipt-mcq-12": "請比較這個意思與句子中標示的用法。",
+        "receipt-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "receipt-mcq-16"
     }
@@ -1362,5 +1114,16 @@ export default {
     "sha256": "e355a543d76dccad3b348f95a2a2884e70b2b8c28969bfb137ca949858607818",
     "pages": 15
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [
+    {
+      "id": "contrast-purchase",
+      "title": "用金錢購買某件物品"
+    },
+    {
+      "id": "contrast-duration",
+      "title": "某件事持續的一段時間"
+    }
+  ],
+  "choiceRevision": "20261025-fairness1"
 };

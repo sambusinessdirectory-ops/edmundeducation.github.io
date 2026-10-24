@@ -969,11 +969,9 @@ export default {
       "masked": "____.",
       "options": [
         "follow-mcq-02",
-        "follow-mcq-01",
-        "follow-mcq-03",
-        "follow-mcq-04",
-        "follow-mcq-05",
-        "follow-mcq-06"
+        "follow-mcq-30",
+        "follow-mcq-20",
+        "follow-mcq-34"
       ],
       "explanation": "本句的「Follow me」指「跟著某人前往同一地方」。",
       "sentenceIndex": 2,
@@ -982,12 +980,10 @@ export default {
         "Follow me"
       ],
       "optionReasons": {
-        "follow-mcq-02": "本句指「跟著某人前往同一地方」。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-02": "本句的「Follow me」指「跟著某人前往同一地方」。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-34": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-02"
     },
@@ -999,11 +995,9 @@ export default {
       "masked": "The child ____ into the shop.",
       "options": [
         "follow-mcq-02",
-        "follow-mcq-01",
-        "follow-mcq-03",
-        "follow-mcq-04",
-        "follow-mcq-05",
-        "follow-mcq-06"
+        "follow-mcq-28",
+        "follow-mcq-34",
+        "follow-mcq-13"
       ],
       "explanation": "本句的「followed her mother」指「跟著某人前往同一地方」。",
       "sentenceIndex": 3,
@@ -1012,12 +1006,10 @@ export default {
         "followed her mother"
       ],
       "optionReasons": {
-        "follow-mcq-02": "本句指「跟著某人前往同一地方」。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-02": "本句的「followed her mother」指「跟著某人前往同一地方」。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-02"
     },
@@ -1029,11 +1021,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "follow-mcq-02",
-        "follow-mcq-01",
-        "follow-mcq-03",
-        "follow-mcq-04",
-        "follow-mcq-05",
-        "follow-mcq-06"
+        "follow-mcq-15",
+        "follow-mcq-27",
+        "follow-mcq-08"
       ],
       "explanation": "本句的「followed him into the room」指「跟著某人前往同一地方」。",
       "sentenceIndex": 4,
@@ -1042,12 +1032,10 @@ export default {
         "followed him into the room"
       ],
       "optionReasons": {
-        "follow-mcq-02": "本句指「跟著某人前往同一地方」。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-02": "本句的「followed him into the room」指「跟著某人前往同一地方」。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-02"
     },
@@ -1059,11 +1047,9 @@ export default {
       "masked": "We ____.",
       "options": [
         "follow-mcq-02",
-        "follow-mcq-01",
-        "follow-mcq-03",
-        "follow-mcq-04",
-        "follow-mcq-05",
-        "follow-mcq-06"
+        "follow-mcq-07",
+        "follow-mcq-21",
+        "follow-mcq-14"
       ],
       "explanation": "本句的「followed the guide downstairs」指「跟著某人前往同一地方」。",
       "sentenceIndex": 5,
@@ -1072,12 +1058,10 @@ export default {
         "followed the guide downstairs"
       ],
       "optionReasons": {
-        "follow-mcq-02": "本句指「跟著某人前往同一地方」。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-02": "本句的「followed the guide downstairs」指「跟著某人前往同一地方」。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-02"
     },
@@ -1089,11 +1073,9 @@ export default {
       "masked": "He realized that someone was ____.",
       "options": [
         "follow-mcq-03",
-        "follow-mcq-02",
-        "follow-mcq-04",
-        "follow-mcq-01",
-        "follow-mcq-05",
-        "follow-mcq-06"
+        "follow-mcq-32",
+        "follow-mcq-41",
+        "follow-mcq-04"
       ],
       "explanation": "本句的「following him」指「跟蹤／尾隨某人」。",
       "sentenceIndex": 6,
@@ -1102,12 +1084,10 @@ export default {
         "following him"
       ],
       "optionReasons": {
-        "follow-mcq-03": "本句指「跟蹤／尾隨某人」。",
-        "follow-mcq-02": "「跟著某人前往同一地方」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-03": "本句的「following him」指「跟蹤／尾隨某人」。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-03"
     },
@@ -1119,11 +1099,9 @@ export default {
       "masked": "The detective ____.",
       "options": [
         "follow-mcq-03",
-        "follow-mcq-02",
-        "follow-mcq-04",
-        "follow-mcq-01",
-        "follow-mcq-05",
-        "follow-mcq-06"
+        "follow-mcq-06",
+        "follow-mcq-17",
+        "follow-mcq-10"
       ],
       "explanation": "本句的「followed the suspect」指「跟蹤／尾隨某人」。",
       "sentenceIndex": 7,
@@ -1132,12 +1110,10 @@ export default {
         "followed the suspect"
       ],
       "optionReasons": {
-        "follow-mcq-03": "本句指「跟蹤／尾隨某人」。",
-        "follow-mcq-02": "「跟著某人前往同一地方」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-03": "本句的「followed the suspect」指「跟蹤／尾隨某人」。",
+        "follow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-03"
     },
@@ -1149,11 +1125,9 @@ export default {
       "masked": "A long silence ____.",
       "options": [
         "follow-mcq-04",
-        "follow-mcq-03",
-        "follow-mcq-05",
-        "follow-mcq-02",
-        "follow-mcq-06",
-        "follow-mcq-01"
+        "follow-mcq-14",
+        "follow-mcq-10",
+        "follow-mcq-45"
       ],
       "explanation": "本句的「followed」指「在時間或次序上接著出現／發生」。",
       "sentenceIndex": 8,
@@ -1162,12 +1136,10 @@ export default {
         "followed"
       ],
       "optionReasons": {
-        "follow-mcq-04": "本句指「在時間或次序上接著出現／發生」。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-02": "「跟著某人前往同一地方」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。"
+        "follow-mcq-04": "本句的「followed」指「在時間或次序上接著出現／發生」。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-04"
     },
@@ -1179,11 +1151,9 @@ export default {
       "masked": "Several difficult months ____.",
       "options": [
         "follow-mcq-04",
+        "follow-mcq-17",
         "follow-mcq-03",
-        "follow-mcq-05",
-        "follow-mcq-02",
-        "follow-mcq-06",
-        "follow-mcq-01"
+        "follow-mcq-20"
       ],
       "explanation": "本句的「followed the accident」指「在時間或次序上接著出現／發生」。",
       "sentenceIndex": 9,
@@ -1192,12 +1162,10 @@ export default {
         "followed the accident"
       ],
       "optionReasons": {
-        "follow-mcq-04": "本句指「在時間或次序上接著出現／發生」。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-02": "「跟著某人前往同一地方」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-01": "「跟在某人／某物後面移動；跟隨」與本句語境不同。"
+        "follow-mcq-04": "本句的「followed the accident」指「在時間或次序上接著出現／發生」。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-04"
     },
@@ -1209,11 +1177,9 @@ export default {
       "masked": "Dinner was ____ dessert.",
       "options": [
         "follow-mcq-05",
-        "follow-mcq-04",
-        "follow-mcq-06",
-        "follow-mcq-03",
-        "follow-mcq-07",
-        "follow-mcq-02"
+        "follow-mcq-15",
+        "follow-mcq-27",
+        "follow-mcq-21"
       ],
       "explanation": "本句的「followed by」指「之後接著出現／發生某事」。",
       "sentenceIndex": 10,
@@ -1222,12 +1188,10 @@ export default {
         "followed by"
       ],
       "optionReasons": {
-        "follow-mcq-05": "本句指「之後接著出現／發生某事」。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-02": "「跟著某人前往同一地方」與本句語境不同。"
+        "follow-mcq-05": "本句的「followed by」指「之後接著出現／發生某事」。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-05"
     },
@@ -1239,11 +1203,9 @@ export default {
       "masked": "The speech was ____ questions.",
       "options": [
         "follow-mcq-05",
-        "follow-mcq-04",
-        "follow-mcq-06",
+        "follow-mcq-13",
         "follow-mcq-03",
-        "follow-mcq-07",
-        "follow-mcq-02"
+        "follow-mcq-17"
       ],
       "explanation": "本句的「followed by」指「之後接著出現／發生某事」。",
       "sentenceIndex": 11,
@@ -1252,12 +1214,10 @@ export default {
         "followed by"
       ],
       "optionReasons": {
-        "follow-mcq-05": "本句指「之後接著出現／發生某事」。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-02": "「跟著某人前往同一地方」與本句語境不同。"
+        "follow-mcq-05": "本句的「followed by」指「之後接著出現／發生某事」。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-05"
     },
@@ -1269,11 +1229,9 @@ export default {
       "masked": "The ____, he called again.",
       "options": [
         "follow-mcq-06",
-        "follow-mcq-05",
-        "follow-mcq-07",
-        "follow-mcq-04",
-        "follow-mcq-08",
-        "follow-mcq-03"
+        "follow-mcq-17",
+        "follow-mcq-23",
+        "follow-mcq-15"
       ],
       "explanation": "本句的「following morning」指「在之前提及的事件／時間之後出現的；接下來的」。",
       "sentenceIndex": 12,
@@ -1282,12 +1240,10 @@ export default {
         "following morning"
       ],
       "optionReasons": {
-        "follow-mcq-06": "本句指「在之前提及的事件／時間之後出現的；接下來的」。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。"
+        "follow-mcq-06": "本句的「following morning」指「在之前提及的事件／時間之後出現的；接下來的」。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-06"
     },
@@ -1299,11 +1255,9 @@ export default {
       "masked": "Sales increased in the ____.",
       "options": [
         "follow-mcq-06",
-        "follow-mcq-05",
-        "follow-mcq-07",
-        "follow-mcq-04",
-        "follow-mcq-08",
-        "follow-mcq-03"
+        "follow-mcq-27",
+        "follow-mcq-45",
+        "follow-mcq-41"
       ],
       "explanation": "本句的「following year」指「在之前提及的事件／時間之後出現的；接下來的」。",
       "sentenceIndex": 13,
@@ -1312,12 +1266,10 @@ export default {
         "following year"
       ],
       "optionReasons": {
-        "follow-mcq-06": "本句指「在之前提及的事件／時間之後出現的；接下來的」。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-03": "「跟蹤／尾隨某人」與本句語境不同。"
+        "follow-mcq-06": "本句的「following year」指「在之前提及的事件／時間之後出現的；接下來的」。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-06"
     },
@@ -1329,11 +1281,9 @@ export default {
       "masked": "Please answer ____.",
       "options": [
         "follow-mcq-07",
-        "follow-mcq-06",
-        "follow-mcq-08",
-        "follow-mcq-05",
-        "follow-mcq-09",
-        "follow-mcq-04"
+        "follow-mcq-44",
+        "follow-mcq-27",
+        "follow-mcq-10"
       ],
       "explanation": "本句的「the following questions」指「以下／下列將要列出的內容」。",
       "sentenceIndex": 14,
@@ -1342,12 +1292,10 @@ export default {
         "the following questions"
       ],
       "optionReasons": {
-        "follow-mcq-07": "本句指「以下／下列將要列出的內容」。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。"
+        "follow-mcq-07": "本句的「the following questions」指「以下／下列將要列出的內容」。",
+        "follow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-07"
     },
@@ -1359,11 +1307,9 @@ export default {
       "masked": "We need ____.",
       "options": [
         "follow-mcq-07",
-        "follow-mcq-06",
-        "follow-mcq-08",
-        "follow-mcq-05",
-        "follow-mcq-09",
-        "follow-mcq-04"
+        "follow-mcq-15",
+        "follow-mcq-18",
+        "follow-mcq-23"
       ],
       "explanation": "本句的「the following items」指「以下／下列將要列出的內容」。",
       "sentenceIndex": 15,
@@ -1372,12 +1318,10 @@ export default {
         "the following items"
       ],
       "optionReasons": {
-        "follow-mcq-07": "本句指「以下／下列將要列出的內容」。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-04": "「在時間或次序上接著出現／發生」與本句語境不同。"
+        "follow-mcq-07": "本句的「the following items」指「以下／下列將要列出的內容」。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-23": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-07"
     },
@@ -1389,11 +1333,9 @@ export default {
       "masked": "____, we changed the plan.",
       "options": [
         "follow-mcq-08",
-        "follow-mcq-07",
-        "follow-mcq-09",
-        "follow-mcq-06",
-        "follow-mcq-10",
-        "follow-mcq-05"
+        "follow-mcq-45",
+        "follow-mcq-11",
+        "follow-mcq-13"
       ],
       "explanation": "本句的「Following the meeting」指「正式：在……之後」。",
       "sentenceIndex": 16,
@@ -1402,12 +1344,10 @@ export default {
         "Following the meeting"
       ],
       "optionReasons": {
-        "follow-mcq-08": "本句指「正式：在……之後」。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。"
+        "follow-mcq-08": "本句的「Following the meeting」指「正式：在……之後」。",
+        "follow-mcq-45": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-08"
     },
@@ -1419,11 +1359,9 @@ export default {
       "masked": "The road reopened ____.",
       "options": [
         "follow-mcq-08",
-        "follow-mcq-07",
-        "follow-mcq-09",
-        "follow-mcq-06",
+        "follow-mcq-03",
         "follow-mcq-10",
-        "follow-mcq-05"
+        "follow-mcq-20"
       ],
       "explanation": "本句的「following the accident」指「正式：在……之後」。",
       "sentenceIndex": 17,
@@ -1432,12 +1370,10 @@ export default {
         "following the accident"
       ],
       "optionReasons": {
-        "follow-mcq-08": "本句指「正式：在……之後」。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。",
-        "follow-mcq-05": "「之後接著出現／發生某事」與本句語境不同。"
+        "follow-mcq-08": "本句的「following the accident」指「正式：在……之後」。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-08"
     },
@@ -1449,11 +1385,9 @@ export default {
       "masked": "____ until you reach the bridge.",
       "options": [
         "follow-mcq-09",
-        "follow-mcq-08",
-        "follow-mcq-10",
+        "follow-mcq-30",
         "follow-mcq-07",
-        "follow-mcq-11",
-        "follow-mcq-06"
+        "follow-mcq-14"
       ],
       "explanation": "本句的「Follow the road」指「沿著某條路線／道路前進」。",
       "sentenceIndex": 18,
@@ -1462,12 +1396,10 @@ export default {
         "Follow the road"
       ],
       "optionReasons": {
-        "follow-mcq-09": "本句指「沿著某條路線／道路前進」。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-09": "本句的「Follow the road」指「沿著某條路線／道路前進」。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-09"
     },
@@ -1479,11 +1411,9 @@ export default {
       "masked": "We ____ through the forest.",
       "options": [
         "follow-mcq-09",
-        "follow-mcq-08",
-        "follow-mcq-10",
-        "follow-mcq-07",
-        "follow-mcq-11",
-        "follow-mcq-06"
+        "follow-mcq-13",
+        "follow-mcq-28",
+        "follow-mcq-36"
       ],
       "explanation": "本句的「followed the path」指「沿著某條路線／道路前進」。",
       "sentenceIndex": 19,
@@ -1492,12 +1422,10 @@ export default {
         "followed the path"
       ],
       "optionReasons": {
-        "follow-mcq-09": "本句指「沿著某條路線／道路前進」。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。",
-        "follow-mcq-06": "「在之前提及的事件／時間之後出現的；接下來的」與本句語境不同。"
+        "follow-mcq-09": "本句的「followed the path」指「沿著某條路線／道路前進」。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-09"
     },
@@ -1510,10 +1438,8 @@ export default {
       "options": [
         "follow-mcq-10",
         "follow-mcq-09",
-        "follow-mcq-11",
-        "follow-mcq-08",
-        "follow-mcq-12",
-        "follow-mcq-07"
+        "follow-mcq-07",
+        "follow-mcq-04"
       ],
       "explanation": "本句的「follow the directions」指「按照方向／導航指示走」。",
       "sentenceIndex": 20,
@@ -1522,12 +1448,10 @@ export default {
         "follow the directions"
       ],
       "optionReasons": {
-        "follow-mcq-10": "本句指「按照方向／導航指示走」。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。"
+        "follow-mcq-10": "本句的「follow the directions」指「按照方向／導航指示走」。",
+        "follow-mcq-09": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-10"
     },
@@ -1539,11 +1463,9 @@ export default {
       "masked": "We got lost because we did not ____ carefully.",
       "options": [
         "follow-mcq-10",
-        "follow-mcq-09",
-        "follow-mcq-11",
-        "follow-mcq-08",
-        "follow-mcq-12",
-        "follow-mcq-07"
+        "follow-mcq-43",
+        "follow-mcq-20",
+        "follow-mcq-03"
       ],
       "explanation": "本句的「follow the directions」指「按照方向／導航指示走」。",
       "sentenceIndex": 21,
@@ -1552,12 +1474,10 @@ export default {
         "follow the directions"
       ],
       "optionReasons": {
-        "follow-mcq-10": "本句指「按照方向／導航指示走」。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-07": "「以下／下列將要列出的內容」與本句語境不同。"
+        "follow-mcq-10": "本句的「follow the directions」指「按照方向／導航指示走」。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-10"
     },
@@ -1569,11 +1489,9 @@ export default {
       "masked": "Please ____ carefully.",
       "options": [
         "follow-mcq-11",
-        "follow-mcq-10",
-        "follow-mcq-12",
-        "follow-mcq-09",
-        "follow-mcq-13",
-        "follow-mcq-08"
+        "follow-mcq-41",
+        "follow-mcq-17",
+        "follow-mcq-22"
       ],
       "explanation": "本句的「follow the instructions」指「遵循規則、指示、方法等」。",
       "sentenceIndex": 22,
@@ -1582,12 +1500,10 @@ export default {
         "follow the instructions"
       ],
       "optionReasons": {
-        "follow-mcq-11": "本句指「遵循規則、指示、方法等」。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。"
+        "follow-mcq-11": "本句的「follow the instructions」指「遵循規則、指示、方法等」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-11"
     },
@@ -1599,11 +1515,9 @@ export default {
       "masked": "Everyone must ____.",
       "options": [
         "follow-mcq-11",
-        "follow-mcq-10",
-        "follow-mcq-12",
-        "follow-mcq-09",
-        "follow-mcq-13",
-        "follow-mcq-08"
+        "follow-mcq-40",
+        "follow-mcq-17",
+        "follow-mcq-28"
       ],
       "explanation": "本句的「follow the rules」指「遵循規則、指示、方法等」。",
       "sentenceIndex": 23,
@@ -1612,12 +1526,10 @@ export default {
         "follow the rules"
       ],
       "optionReasons": {
-        "follow-mcq-11": "本句指「遵循規則、指示、方法等」。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-09": "「沿著某條路線／道路前進」與本句語境不同。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。",
-        "follow-mcq-08": "「正式：在……之後」與本句語境不同。"
+        "follow-mcq-11": "本句的「follow the rules」指「遵循規則、指示、方法等」。",
+        "follow-mcq-40": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-11"
     },
@@ -1629,11 +1541,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "follow-mcq-13",
-        "follow-mcq-12",
-        "follow-mcq-14",
-        "follow-mcq-11",
-        "follow-mcq-15",
-        "follow-mcq-10"
+        "follow-mcq-31",
+        "follow-mcq-21",
+        "follow-mcq-30"
       ],
       "explanation": "本句的「followed the doctor’s advice」指「聽從／按照建議」。",
       "sentenceIndex": 24,
@@ -1642,12 +1552,10 @@ export default {
         "followed the doctor’s advice"
       ],
       "optionReasons": {
-        "follow-mcq-13": "本句指「聽從／按照建議」。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。"
+        "follow-mcq-13": "本句的「followed the doctor’s advice」指「聽從／按照建議」。",
+        "follow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-13"
     },
@@ -1659,11 +1567,9 @@ export default {
       "masked": "If you ____, the process should be easier.",
       "options": [
         "follow-mcq-13",
-        "follow-mcq-12",
-        "follow-mcq-14",
-        "follow-mcq-11",
-        "follow-mcq-15",
-        "follow-mcq-10"
+        "follow-mcq-44",
+        "follow-mcq-16",
+        "follow-mcq-05"
       ],
       "explanation": "本句的「follow this advice」指「聽從／按照建議」。",
       "sentenceIndex": 25,
@@ -1672,12 +1578,10 @@ export default {
         "follow this advice"
       ],
       "optionReasons": {
-        "follow-mcq-13": "本句指「聽從／按照建議」。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-10": "「按照方向／導航指示走」與本句語境不同。"
+        "follow-mcq-13": "本句的「follow this advice」指「聽從／按照建議」。",
+        "follow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-13"
     },
@@ -1689,11 +1593,9 @@ export default {
       "masked": "The soldiers were told to ____.",
       "options": [
         "follow-mcq-14",
+        "follow-mcq-17",
         "follow-mcq-13",
-        "follow-mcq-15",
-        "follow-mcq-12",
-        "follow-mcq-16",
-        "follow-mcq-11"
+        "follow-mcq-03"
       ],
       "explanation": "本句的「follow orders」指「服從命令／奉命行事」。",
       "sentenceIndex": 26,
@@ -1702,12 +1604,10 @@ export default {
         "follow orders"
       ],
       "optionReasons": {
-        "follow-mcq-14": "本句指「服從命令／奉命行事」。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。"
+        "follow-mcq-14": "本句的「follow orders」指「服從命令／奉命行事」。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-14"
     },
@@ -1719,10 +1619,8 @@ export default {
       "masked": "He said he was simply ____.",
       "options": [
         "follow-mcq-14",
-        "follow-mcq-13",
-        "follow-mcq-15",
-        "follow-mcq-12",
-        "follow-mcq-16",
+        "follow-mcq-21",
+        "follow-mcq-17",
         "follow-mcq-11"
       ],
       "explanation": "本句的「following orders」指「服從命令／奉命行事」。",
@@ -1732,12 +1630,10 @@ export default {
         "following orders"
       ],
       "optionReasons": {
-        "follow-mcq-14": "本句指「服從命令／奉命行事」。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-11": "「遵循規則、指示、方法等」與本句語境不同。"
+        "follow-mcq-14": "本句的「following orders」指「服從命令／奉命行事」。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-14"
     },
@@ -1749,11 +1645,9 @@ export default {
       "masked": "Please ____.",
       "options": [
         "follow-mcq-15",
-        "follow-mcq-14",
-        "follow-mcq-16",
-        "follow-mcq-13",
-        "follow-mcq-17",
-        "follow-mcq-12"
+        "follow-mcq-43",
+        "follow-mcq-05",
+        "follow-mcq-45"
       ],
       "explanation": "本句的「follow the correct procedure」指「按照規定程序／流程進行」。",
       "sentenceIndex": 28,
@@ -1762,12 +1656,10 @@ export default {
         "follow the correct procedure"
       ],
       "optionReasons": {
-        "follow-mcq-15": "本句指「按照規定程序／流程進行」。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。"
+        "follow-mcq-15": "本句的「follow the correct procedure」指「按照規定程序／流程進行」。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-15"
     },
@@ -1779,11 +1671,9 @@ export default {
       "masked": "Staff must ____.",
       "options": [
         "follow-mcq-15",
-        "follow-mcq-14",
-        "follow-mcq-16",
-        "follow-mcq-13",
-        "follow-mcq-17",
-        "follow-mcq-12"
+        "follow-mcq-23",
+        "follow-mcq-27",
+        "follow-mcq-31"
       ],
       "explanation": "本句的「follow the safety process」指「按照規定程序／流程進行」。",
       "sentenceIndex": 29,
@@ -1792,12 +1682,10 @@ export default {
         "follow the safety process"
       ],
       "optionReasons": {
-        "follow-mcq-15": "本句指「按照規定程序／流程進行」。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-12": "「按照指示行事」與本句語境不同。"
+        "follow-mcq-15": "本句的「follow the safety process」指「按照規定程序／流程進行」。",
+        "follow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-31": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-15"
     },
@@ -1809,11 +1697,9 @@ export default {
       "masked": "Sorry, I don’t quite ____.",
       "options": [
         "follow-mcq-16",
-        "follow-mcq-15",
-        "follow-mcq-17",
         "follow-mcq-14",
-        "follow-mcq-18",
-        "follow-mcq-13"
+        "follow-mcq-11",
+        "follow-mcq-25"
       ],
       "explanation": "本句的「follow you」指「理解說話、解釋或論證的進展；跟得上」。",
       "sentenceIndex": 30,
@@ -1822,12 +1708,10 @@ export default {
         "follow you"
       ],
       "optionReasons": {
-        "follow-mcq-16": "本句指「理解說話、解釋或論證的進展；跟得上」。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。"
+        "follow-mcq-16": "本句的「follow you」指「理解說話、解釋或論證的進展；跟得上」。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-25": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-16"
     },
@@ -1839,11 +1723,9 @@ export default {
       "masked": "The explanation was difficult to ____.",
       "options": [
         "follow-mcq-16",
-        "follow-mcq-15",
-        "follow-mcq-17",
-        "follow-mcq-14",
-        "follow-mcq-18",
-        "follow-mcq-13"
+        "follow-mcq-05",
+        "follow-mcq-20",
+        "follow-mcq-07"
       ],
       "explanation": "本句的「follow」指「理解說話、解釋或論證的進展；跟得上」。",
       "sentenceIndex": 31,
@@ -1852,12 +1734,10 @@ export default {
         "follow"
       ],
       "optionReasons": {
-        "follow-mcq-16": "本句指「理解說話、解釋或論證的進展；跟得上」。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-13": "「聽從／按照建議」與本句語境不同。"
+        "follow-mcq-16": "本句的「follow」指「理解說話、解釋或論證的進展；跟得上」。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-16"
     },
@@ -1869,11 +1749,9 @@ export default {
       "masked": "Her presentation was easy to ____.",
       "options": [
         "follow-mcq-17",
-        "follow-mcq-16",
-        "follow-mcq-18",
-        "follow-mcq-15",
-        "follow-mcq-19",
-        "follow-mcq-14"
+        "follow-mcq-05",
+        "follow-mcq-36",
+        "follow-mcq-30"
       ],
       "explanation": "本句的「follow」指「容易／難以理解其內容或進展」。",
       "sentenceIndex": 32,
@@ -1882,12 +1760,10 @@ export default {
         "follow"
       ],
       "optionReasons": {
-        "follow-mcq-17": "本句指「容易／難以理解其內容或進展」。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。"
+        "follow-mcq-17": "本句的「follow」指「容易／難以理解其內容或進展」。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-17"
     },
@@ -1899,11 +1775,9 @@ export default {
       "masked": "The plot became hard to ____.",
       "options": [
         "follow-mcq-17",
-        "follow-mcq-16",
-        "follow-mcq-18",
-        "follow-mcq-15",
-        "follow-mcq-19",
-        "follow-mcq-14"
+        "follow-mcq-42",
+        "follow-mcq-25",
+        "follow-mcq-05"
       ],
       "explanation": "本句的「follow」指「容易／難以理解其內容或進展」。",
       "sentenceIndex": 33,
@@ -1912,12 +1786,10 @@ export default {
         "follow"
       ],
       "optionReasons": {
-        "follow-mcq-17": "本句指「容易／難以理解其內容或進展」。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-14": "「服從命令／奉命行事」與本句語境不同。"
+        "follow-mcq-17": "本句的「follow」指「容易／難以理解其內容或進展」。",
+        "follow-mcq-42": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-17"
     },
@@ -1929,11 +1801,9 @@ export default {
       "masked": "I found it hard to ____.",
       "options": [
         "follow-mcq-18",
-        "follow-mcq-17",
-        "follow-mcq-19",
-        "follow-mcq-16",
-        "follow-mcq-20",
-        "follow-mcq-15"
+        "follow-mcq-36",
+        "follow-mcq-13",
+        "follow-mcq-26"
       ],
       "explanation": "本句的「follow the story」指「掌握並跟上故事／討論的發展」。",
       "sentenceIndex": 34,
@@ -1942,12 +1812,10 @@ export default {
         "follow the story"
       ],
       "optionReasons": {
-        "follow-mcq-18": "本句指「掌握並跟上故事／討論的發展」。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。"
+        "follow-mcq-18": "本句的「follow the story」指「掌握並跟上故事／討論的發展」。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-26": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-18"
     },
@@ -1959,11 +1827,9 @@ export default {
       "masked": "Are you ____?",
       "options": [
         "follow-mcq-18",
-        "follow-mcq-17",
-        "follow-mcq-19",
-        "follow-mcq-16",
         "follow-mcq-20",
-        "follow-mcq-15"
+        "follow-mcq-15",
+        "follow-mcq-06"
       ],
       "explanation": "本句的「following the discussion」指「掌握並跟上故事／討論的發展」。",
       "sentenceIndex": 35,
@@ -1972,12 +1838,10 @@ export default {
         "following the discussion"
       ],
       "optionReasons": {
-        "follow-mcq-18": "本句指「掌握並跟上故事／討論的發展」。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-15": "「按照規定程序／流程進行」與本句語境不同。"
+        "follow-mcq-18": "本句的「following the discussion」指「掌握並跟上故事／討論的發展」。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-18"
     },
@@ -1989,11 +1853,9 @@ export default {
       "masked": "I have been ____ closely.",
       "options": [
         "follow-mcq-19",
-        "follow-mcq-18",
-        "follow-mcq-20",
-        "follow-mcq-17",
-        "follow-mcq-21",
-        "follow-mcq-16"
+        "follow-mcq-07",
+        "follow-mcq-11",
+        "follow-mcq-36"
       ],
       "explanation": "本句的「following the case」指「持續關注某事件、人物或主題的最新發展」。",
       "sentenceIndex": 36,
@@ -2002,12 +1864,10 @@ export default {
         "following the case"
       ],
       "optionReasons": {
-        "follow-mcq-19": "本句指「持續關注某事件、人物或主題的最新發展」。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。"
+        "follow-mcq-19": "本句的「following the case」指「持續關注某事件、人物或主題的最新發展」。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-19"
     },
@@ -2019,11 +1879,9 @@ export default {
       "masked": "She ____.",
       "options": [
         "follow-mcq-19",
-        "follow-mcq-18",
-        "follow-mcq-20",
-        "follow-mcq-17",
-        "follow-mcq-21",
-        "follow-mcq-16"
+        "follow-mcq-41",
+        "follow-mcq-36",
+        "follow-mcq-15"
       ],
       "explanation": "本句的「follows international news」指「持續關注某事件、人物或主題的最新發展」。",
       "sentenceIndex": 37,
@@ -2032,12 +1890,10 @@ export default {
         "follows international news"
       ],
       "optionReasons": {
-        "follow-mcq-19": "本句指「持續關注某事件、人物或主題的最新發展」。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-16": "「理解說話、解釋或論證的進展；跟得上」與本句語境不同。"
+        "follow-mcq-19": "本句的「follows international news」指「持續關注某事件、人物或主題的最新發展」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-19"
     },
@@ -2049,11 +1905,9 @@ export default {
       "masked": "He closely ____.",
       "options": [
         "follow-mcq-20",
-        "follow-mcq-19",
-        "follow-mcq-21",
-        "follow-mcq-18",
-        "follow-mcq-22",
-        "follow-mcq-17"
+        "follow-mcq-03",
+        "follow-mcq-41",
+        "follow-mcq-10"
       ],
       "explanation": "本句的「follows basketball」指「長期關注某運動、球隊、藝人等」。",
       "sentenceIndex": 38,
@@ -2062,12 +1916,10 @@ export default {
         "follows basketball"
       ],
       "optionReasons": {
-        "follow-mcq-20": "本句指「長期關注某運動、球隊、藝人等」。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。"
+        "follow-mcq-20": "本句的「follows basketball」指「長期關注某運動、球隊、藝人等」。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-20"
     },
@@ -2079,11 +1931,9 @@ export default {
       "masked": "She has ____ for years.",
       "options": [
         "follow-mcq-20",
-        "follow-mcq-19",
-        "follow-mcq-21",
-        "follow-mcq-18",
-        "follow-mcq-22",
-        "follow-mcq-17"
+        "follow-mcq-02",
+        "follow-mcq-30",
+        "follow-mcq-04"
       ],
       "explanation": "本句的「followed the band」指「長期關注某運動、球隊、藝人等」。",
       "sentenceIndex": 39,
@@ -2092,12 +1942,10 @@ export default {
         "followed the band"
       ],
       "optionReasons": {
-        "follow-mcq-20": "本句指「長期關注某運動、球隊、藝人等」。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-17": "「容易／難以理解其內容或進展」與本句語境不同。"
+        "follow-mcq-20": "本句的「followed the band」指「長期關注某運動、球隊、藝人等」。",
+        "follow-mcq-02": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-20"
     },
@@ -2109,11 +1957,9 @@ export default {
       "masked": "I ____.",
       "options": [
         "follow-mcq-21",
-        "follow-mcq-20",
-        "follow-mcq-22",
-        "follow-mcq-19",
-        "follow-mcq-23",
-        "follow-mcq-18"
+        "follow-mcq-41",
+        "follow-mcq-05",
+        "follow-mcq-43"
       ],
       "explanation": "本句的「follow her on Instagram」指「在社交媒體上追蹤／關注某帳號」。",
       "sentenceIndex": 40,
@@ -2122,12 +1968,10 @@ export default {
         "follow her on Instagram"
       ],
       "optionReasons": {
-        "follow-mcq-21": "本句指「在社交媒體上追蹤／關注某帳號」。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。"
+        "follow-mcq-21": "本句的「follow her on Instagram」指「在社交媒體上追蹤／關注某帳號」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-21"
     },
@@ -2139,11 +1983,9 @@ export default {
       "masked": "Thousands of people ____.",
       "options": [
         "follow-mcq-21",
-        "follow-mcq-20",
-        "follow-mcq-22",
-        "follow-mcq-19",
-        "follow-mcq-23",
-        "follow-mcq-18"
+        "follow-mcq-39",
+        "follow-mcq-10",
+        "follow-mcq-43"
       ],
       "explanation": "本句的「follow the account」指「在社交媒體上追蹤／關注某帳號」。",
       "sentenceIndex": 41,
@@ -2152,12 +1994,10 @@ export default {
         "follow the account"
       ],
       "optionReasons": {
-        "follow-mcq-21": "本句指「在社交媒體上追蹤／關注某帳號」。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-18": "「掌握並跟上故事／討論的發展」與本句語境不同。"
+        "follow-mcq-21": "本句的「follow the account」指「在社交媒體上追蹤／關注某帳號」。",
+        "follow-mcq-39": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-21"
     },
@@ -2169,11 +2009,9 @@ export default {
       "masked": "The account has a million ____.",
       "options": [
         "follow-mcq-22",
-        "follow-mcq-21",
-        "follow-mcq-23",
-        "follow-mcq-20",
-        "follow-mcq-24",
-        "follow-mcq-19"
+        "follow-mcq-07",
+        "follow-mcq-08",
+        "follow-mcq-04"
       ],
       "explanation": "本句的「followers」指「社交媒體帳號的追蹤者／粉絲」。",
       "sentenceIndex": 42,
@@ -2182,12 +2020,10 @@ export default {
         "followers"
       ],
       "optionReasons": {
-        "follow-mcq-22": "本句指「社交媒體帳號的追蹤者／粉絲」。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。"
+        "follow-mcq-22": "本句的「followers」指「社交媒體帳號的追蹤者／粉絲」。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-22"
     },
@@ -2199,11 +2035,9 @@ export default {
       "masked": "She gained thousands of new ____.",
       "options": [
         "follow-mcq-22",
-        "follow-mcq-21",
-        "follow-mcq-23",
-        "follow-mcq-20",
-        "follow-mcq-24",
-        "follow-mcq-19"
+        "follow-mcq-41",
+        "follow-mcq-17",
+        "follow-mcq-11"
       ],
       "explanation": "本句的「followers」指「社交媒體帳號的追蹤者／粉絲」。",
       "sentenceIndex": 43,
@@ -2212,12 +2046,10 @@ export default {
         "followers"
       ],
       "optionReasons": {
-        "follow-mcq-22": "本句指「社交媒體帳號的追蹤者／粉絲」。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-19": "「持續關注某事件、人物或主題的最新發展」與本句語境不同。"
+        "follow-mcq-22": "本句的「followers」指「社交媒體帳號的追蹤者／粉絲」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-22"
     },
@@ -2229,11 +2061,9 @@ export default {
       "masked": "The leader attracted many ____.",
       "options": [
         "follow-mcq-23",
-        "follow-mcq-22",
-        "follow-mcq-24",
-        "follow-mcq-21",
-        "follow-mcq-25",
-        "follow-mcq-20"
+        "follow-mcq-07",
+        "follow-mcq-30",
+        "follow-mcq-13"
       ],
       "explanation": "本句的「followers」指「支持或信奉某人、團體、思想等的追隨者／信徒」。",
       "sentenceIndex": 44,
@@ -2242,12 +2072,10 @@ export default {
         "followers"
       ],
       "optionReasons": {
-        "follow-mcq-23": "本句指「支持或信奉某人、團體、思想等的追隨者／信徒」。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。"
+        "follow-mcq-23": "本句的「followers」指「支持或信奉某人、團體、思想等的追隨者／信徒」。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-23"
     },
@@ -2259,11 +2087,9 @@ export default {
       "masked": "He was a ____ that philosophical tradition.",
       "options": [
         "follow-mcq-23",
-        "follow-mcq-22",
-        "follow-mcq-24",
-        "follow-mcq-21",
-        "follow-mcq-25",
-        "follow-mcq-20"
+        "follow-mcq-16",
+        "follow-mcq-04",
+        "follow-mcq-10"
       ],
       "explanation": "本句的「follower of」指「支持或信奉某人、團體、思想等的追隨者／信徒」。",
       "sentenceIndex": 45,
@@ -2272,12 +2098,10 @@ export default {
         "follower of"
       ],
       "optionReasons": {
-        "follow-mcq-23": "本句指「支持或信奉某人、團體、思想等的追隨者／信徒」。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-20": "「長期關注某運動、球隊、藝人等」與本句語境不同。"
+        "follow-mcq-23": "本句的「follower of」指「支持或信奉某人、團體、思想等的追隨者／信徒」。",
+        "follow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-23"
     },
@@ -2289,11 +2113,9 @@ export default {
       "masked": "Other companies soon ____.",
       "options": [
         "follow-mcq-24",
-        "follow-mcq-23",
-        "follow-mcq-25",
-        "follow-mcq-22",
-        "follow-mcq-26",
-        "follow-mcq-21"
+        "follow-mcq-15",
+        "follow-mcq-28",
+        "follow-mcq-36"
       ],
       "explanation": "本句的「followed their example」指「仿效／效法某人的做法」。",
       "sentenceIndex": 46,
@@ -2302,12 +2124,10 @@ export default {
         "followed their example"
       ],
       "optionReasons": {
-        "follow-mcq-24": "本句指「仿效／效法某人的做法」。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。"
+        "follow-mcq-24": "本句的「followed their example」指「仿效／效法某人的做法」。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-24"
     },
@@ -2319,11 +2139,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "follow-mcq-24",
-        "follow-mcq-23",
-        "follow-mcq-25",
-        "follow-mcq-22",
-        "follow-mcq-26",
-        "follow-mcq-21"
+        "follow-mcq-41",
+        "follow-mcq-20",
+        "follow-mcq-27"
       ],
       "explanation": "本句的「follow her mother’s example」指「仿效／效法某人的做法」。",
       "sentenceIndex": 47,
@@ -2332,12 +2150,10 @@ export default {
         "follow her mother’s example"
       ],
       "optionReasons": {
-        "follow-mcq-24": "本句指「仿效／效法某人的做法」。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-21": "「在社交媒體上追蹤／關注某帳號」與本句語境不同。"
+        "follow-mcq-24": "本句的「follow her mother’s example」指「仿效／效法某人的做法」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-24"
     },
@@ -2349,11 +2165,9 @@ export default {
       "masked": "He ____ and became a doctor.",
       "options": [
         "follow-mcq-25",
-        "follow-mcq-24",
-        "follow-mcq-26",
-        "follow-mcq-23",
-        "follow-mcq-27",
-        "follow-mcq-22"
+        "follow-mcq-20",
+        "follow-mcq-15",
+        "follow-mcq-14"
       ],
       "explanation": "本句的「followed in his father’s footsteps」指「走與某人相似的人生／職業道路」。",
       "sentenceIndex": 48,
@@ -2362,12 +2176,10 @@ export default {
         "followed in his father’s footsteps"
       ],
       "optionReasons": {
-        "follow-mcq-25": "本句指「走與某人相似的人生／職業道路」。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。"
+        "follow-mcq-25": "本句的「followed in his father’s footsteps」指「走與某人相似的人生／職業道路」。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-25"
     },
@@ -2379,11 +2191,9 @@ export default {
       "masked": "She had no desire to ____.",
       "options": [
         "follow-mcq-25",
-        "follow-mcq-24",
-        "follow-mcq-26",
-        "follow-mcq-23",
-        "follow-mcq-27",
-        "follow-mcq-22"
+        "follow-mcq-15",
+        "follow-mcq-32",
+        "follow-mcq-28"
       ],
       "explanation": "本句的「follow in her sister’s footsteps」指「走與某人相似的人生／職業道路」。",
       "sentenceIndex": 49,
@@ -2392,12 +2202,10 @@ export default {
         "follow in her sister’s footsteps"
       ],
       "optionReasons": {
-        "follow-mcq-25": "本句指「走與某人相似的人生／職業道路」。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。",
-        "follow-mcq-22": "「社交媒體帳號的追蹤者／粉絲」與本句語境不同。"
+        "follow-mcq-25": "本句的「follow in her sister’s footsteps」指「走與某人相似的人生／職業道路」。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-25"
     },
@@ -2409,11 +2217,9 @@ export default {
       "masked": "One company cut prices, and others ____.",
       "options": [
         "follow-mcq-26",
-        "follow-mcq-25",
-        "follow-mcq-27",
-        "follow-mcq-24",
-        "follow-mcq-28",
-        "follow-mcq-23"
+        "follow-mcq-43",
+        "follow-mcq-14",
+        "follow-mcq-36"
       ],
       "explanation": "本句的「followed suit」指「看見別人做某事後也照樣做」。",
       "sentenceIndex": 50,
@@ -2422,12 +2228,10 @@ export default {
         "followed suit"
       ],
       "optionReasons": {
-        "follow-mcq-26": "本句指「看見別人做某事後也照樣做」。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。"
+        "follow-mcq-26": "本句的「followed suit」指「看見別人做某事後也照樣做」。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-26"
     },
@@ -2439,11 +2243,9 @@ export default {
       "masked": "He stood up, and everyone else ____.",
       "options": [
         "follow-mcq-26",
-        "follow-mcq-25",
-        "follow-mcq-27",
-        "follow-mcq-24",
-        "follow-mcq-28",
-        "follow-mcq-23"
+        "follow-mcq-36",
+        "follow-mcq-11",
+        "follow-mcq-20"
       ],
       "explanation": "本句的「followed suit」指「看見別人做某事後也照樣做」。",
       "sentenceIndex": 51,
@@ -2452,12 +2254,10 @@ export default {
         "followed suit"
       ],
       "optionReasons": {
-        "follow-mcq-26": "本句指「看見別人做某事後也照樣做」。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。",
-        "follow-mcq-23": "「支持或信奉某人、團體、思想等的追隨者／信徒」與本句語境不同。"
+        "follow-mcq-26": "本句的「followed suit」指「看見別人做某事後也照樣做」。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-26"
     },
@@ -2469,11 +2269,9 @@ export default {
       "masked": "She decided to ____.",
       "options": [
         "follow-mcq-27",
-        "follow-mcq-26",
-        "follow-mcq-28",
-        "follow-mcq-25",
-        "follow-mcq-29",
-        "follow-mcq-24"
+        "follow-mcq-32",
+        "follow-mcq-05",
+        "follow-mcq-03"
       ],
       "explanation": "本句的「follow a career in medicine」指「從事／走上某種職業道路」。",
       "sentenceIndex": 52,
@@ -2482,12 +2280,10 @@ export default {
         "follow a career in medicine"
       ],
       "optionReasons": {
-        "follow-mcq-27": "本句指「從事／走上某種職業道路」。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。"
+        "follow-mcq-27": "本句的「follow a career in medicine」指「從事／走上某種職業道路」。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-05": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-27"
     },
@@ -2499,11 +2295,9 @@ export default {
       "masked": "He ____.",
       "options": [
         "follow-mcq-27",
-        "follow-mcq-26",
-        "follow-mcq-28",
-        "follow-mcq-25",
-        "follow-mcq-29",
-        "follow-mcq-24"
+        "follow-mcq-16",
+        "follow-mcq-08",
+        "follow-mcq-40"
       ],
       "explanation": "本句的「followed a career in engineering」指「從事／走上某種職業道路」。",
       "sentenceIndex": 53,
@@ -2512,12 +2306,10 @@ export default {
         "followed a career in engineering"
       ],
       "optionReasons": {
-        "follow-mcq-27": "本句指「從事／走上某種職業道路」。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-24": "「仿效／效法某人的做法」與本句語境不同。"
+        "follow-mcq-27": "本句的「followed a career in engineering」指「從事／走上某種職業道路」。",
+        "follow-mcq-16": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-40": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-27"
     },
@@ -2529,11 +2321,9 @@ export default {
       "masked": "She chose to ____.",
       "options": [
         "follow-mcq-28",
-        "follow-mcq-27",
-        "follow-mcq-29",
-        "follow-mcq-26",
         "follow-mcq-30",
-        "follow-mcq-25"
+        "follow-mcq-32",
+        "follow-mcq-06"
       ],
       "explanation": "本句的「follow her passion for music」指「追隨、發展自己的興趣／熱愛」。",
       "sentenceIndex": 54,
@@ -2542,12 +2332,10 @@ export default {
         "follow her passion for music"
       ],
       "optionReasons": {
-        "follow-mcq-28": "本句指「追隨、發展自己的興趣／熱愛」。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。"
+        "follow-mcq-28": "本句的「follow her passion for music」指「追隨、發展自己的興趣／熱愛」。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-06": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-28"
     },
@@ -2559,11 +2347,9 @@ export default {
       "masked": "He left the job to ____.",
       "options": [
         "follow-mcq-28",
-        "follow-mcq-27",
-        "follow-mcq-29",
-        "follow-mcq-26",
-        "follow-mcq-30",
-        "follow-mcq-25"
+        "follow-mcq-41",
+        "follow-mcq-07",
+        "follow-mcq-15"
       ],
       "explanation": "本句的「follow his interests」指「追隨、發展自己的興趣／熱愛」。",
       "sentenceIndex": 55,
@@ -2572,12 +2358,10 @@ export default {
         "follow his interests"
       ],
       "optionReasons": {
-        "follow-mcq-28": "本句指「追隨、發展自己的興趣／熱愛」。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-26": "「看見別人做某事後也照樣做」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。",
-        "follow-mcq-25": "「走與某人相似的人生／職業道路」與本句語境不同。"
+        "follow-mcq-28": "本句的「follow his interests」指「追隨、發展自己的興趣／熱愛」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-28"
     },
@@ -2589,11 +2373,9 @@ export default {
       "masked": "If both statements are true, ____ the conclusion is correct.",
       "options": [
         "follow-mcq-30",
-        "follow-mcq-29",
-        "follow-mcq-31",
-        "follow-mcq-28",
-        "follow-mcq-32",
-        "follow-mcq-27"
+        "follow-mcq-34",
+        "follow-mcq-06",
+        "follow-mcq-10"
       ],
       "explanation": "本句的「it follows that」指「由此可以推論／因此可見」。",
       "sentenceIndex": 58,
@@ -2602,12 +2384,10 @@ export default {
         "it follows that"
       ],
       "optionReasons": {
-        "follow-mcq-30": "本句指「由此可以推論／因此可見」。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。"
+        "follow-mcq-30": "本句的「it follows that」指「由此可以推論／因此可見」。",
+        "follow-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-30"
     },
@@ -2619,11 +2399,9 @@ export default {
       "masked": "It does not ____ everyone will agree.",
       "options": [
         "follow-mcq-30",
-        "follow-mcq-29",
-        "follow-mcq-31",
-        "follow-mcq-28",
-        "follow-mcq-32",
-        "follow-mcq-27"
+        "follow-mcq-21",
+        "follow-mcq-17",
+        "follow-mcq-42"
       ],
       "explanation": "本句的「follow that」指「由此可以推論／因此可見」。",
       "sentenceIndex": 59,
@@ -2632,12 +2410,10 @@ export default {
         "follow that"
       ],
       "optionReasons": {
-        "follow-mcq-30": "本句指「由此可以推論／因此可見」。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-27": "「從事／走上某種職業道路」與本句語境不同。"
+        "follow-mcq-30": "本句的「follow that」指「由此可以推論／因此可見」。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-30"
     },
@@ -2649,11 +2425,9 @@ export default {
       "masked": "Nobody expected ____.",
       "options": [
         "follow-mcq-31",
-        "follow-mcq-30",
-        "follow-mcq-32",
-        "follow-mcq-29",
-        "follow-mcq-33",
-        "follow-mcq-28"
+        "follow-mcq-17",
+        "follow-mcq-21",
+        "follow-mcq-45"
       ],
       "explanation": "本句的「what followed」指「之後發生的事情」。",
       "sentenceIndex": 60,
@@ -2662,12 +2436,10 @@ export default {
         "what followed"
       ],
       "optionReasons": {
-        "follow-mcq-31": "本句指「之後發生的事情」。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。"
+        "follow-mcq-31": "本句的「what followed」指「之後發生的事情」。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-45": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-31"
     },
@@ -2679,11 +2451,9 @@ export default {
       "masked": "____ changed the company completely.",
       "options": [
         "follow-mcq-31",
-        "follow-mcq-30",
-        "follow-mcq-32",
-        "follow-mcq-29",
-        "follow-mcq-33",
-        "follow-mcq-28"
+        "follow-mcq-41",
+        "follow-mcq-24",
+        "follow-mcq-42"
       ],
       "explanation": "本句的「What followed」指「之後發生的事情」。",
       "sentenceIndex": 61,
@@ -2692,12 +2462,10 @@ export default {
         "What followed"
       ],
       "optionReasons": {
-        "follow-mcq-31": "本句指「之後發生的事情」。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。",
-        "follow-mcq-28": "「追隨、發展自己的興趣／熱愛」與本句語境不同。"
+        "follow-mcq-31": "本句的「What followed」指「之後發生的事情」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-31"
     },
@@ -2709,11 +2477,9 @@ export default {
       "masked": "____ to complete your registration.",
       "options": [
         "follow-mcq-32",
-        "follow-mcq-31",
-        "follow-mcq-33",
-        "follow-mcq-30",
-        "follow-mcq-34",
-        "follow-mcq-29"
+        "follow-mcq-03",
+        "follow-mcq-08",
+        "follow-mcq-27"
       ],
       "explanation": "本句的「Follow the link」指「點擊／開啟連結以到達指定頁面」。",
       "sentenceIndex": 62,
@@ -2722,12 +2488,10 @@ export default {
         "Follow the link"
       ],
       "optionReasons": {
-        "follow-mcq-32": "本句指「點擊／開啟連結以到達指定頁面」。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。"
+        "follow-mcq-32": "本句的「Follow the link」指「點擊／開啟連結以到達指定頁面」。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-08": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-32"
     },
@@ -2739,11 +2503,9 @@ export default {
       "masked": "Users can ____ for more information.",
       "options": [
         "follow-mcq-32",
-        "follow-mcq-31",
-        "follow-mcq-33",
-        "follow-mcq-30",
-        "follow-mcq-34",
-        "follow-mcq-29"
+        "follow-mcq-36",
+        "follow-mcq-28",
+        "follow-mcq-17"
       ],
       "explanation": "本句的「follow the link」指「點擊／開啟連結以到達指定頁面」。",
       "sentenceIndex": 63,
@@ -2752,12 +2514,10 @@ export default {
         "follow the link"
       ],
       "optionReasons": {
-        "follow-mcq-32": "本句指「點擊／開啟連結以到達指定頁面」。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-29": "「作為某事的自然／邏輯結果而產生」與本句語境不同。"
+        "follow-mcq-32": "本句的「follow the link」指「點擊／開啟連結以到達指定頁面」。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-32"
     },
@@ -2769,11 +2529,9 @@ export default {
       "masked": "I’ll ____ with the customer tomorrow.",
       "options": [
         "follow-mcq-33",
-        "follow-mcq-32",
-        "follow-mcq-34",
-        "follow-mcq-31",
-        "follow-mcq-35",
-        "follow-mcq-30"
+        "follow-mcq-07",
+        "follow-mcq-22",
+        "follow-mcq-10"
       ],
       "explanation": "本句的「follow up」指「在之前事件後採取進一步行動；跟進」。",
       "sentenceIndex": 66,
@@ -2782,12 +2540,10 @@ export default {
         "follow up"
       ],
       "optionReasons": {
-        "follow-mcq-33": "本句指「在之前事件後採取進一步行動；跟進」。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。"
+        "follow-mcq-33": "本句的「follow up」指「在之前事件後採取進一步行動；跟進」。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-22": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-33"
     },
@@ -2799,11 +2555,9 @@ export default {
       "masked": "The doctor asked her to ____ in two weeks.",
       "options": [
         "follow-mcq-33",
-        "follow-mcq-32",
-        "follow-mcq-34",
-        "follow-mcq-31",
-        "follow-mcq-35",
-        "follow-mcq-30"
+        "follow-mcq-11",
+        "follow-mcq-30",
+        "follow-mcq-24"
       ],
       "explanation": "本句的「follow up」指「在之前事件後採取進一步行動；跟進」。",
       "sentenceIndex": 67,
@@ -2812,12 +2566,10 @@ export default {
         "follow up"
       ],
       "optionReasons": {
-        "follow-mcq-33": "本句指「在之前事件後採取進一步行動；跟進」。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。"
+        "follow-mcq-33": "本句的「follow up」指「在之前事件後採取進一步行動；跟進」。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-33"
     },
@@ -2829,11 +2581,9 @@ export default {
       "masked": "Police are ____.",
       "options": [
         "follow-mcq-34",
-        "follow-mcq-33",
-        "follow-mcq-35",
-        "follow-mcq-32",
-        "follow-mcq-36",
-        "follow-mcq-31"
+        "follow-mcq-18",
+        "follow-mcq-30",
+        "follow-mcq-04"
       ],
       "explanation": "本句的「following up on the report」指「對某件事進行後續查問、處理或調查」。",
       "sentenceIndex": 68,
@@ -2842,12 +2592,10 @@ export default {
         "following up on the report"
       ],
       "optionReasons": {
-        "follow-mcq-34": "本句指「對某件事進行後續查問、處理或調查」。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-36": "「把計畫、承諾或行動貫徹到底」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。"
+        "follow-mcq-34": "本句的「following up on the report」指「對某件事進行後續查問、處理或調查」。",
+        "follow-mcq-18": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-34"
     },
@@ -2859,11 +2607,9 @@ export default {
       "masked": "I need to ____.",
       "options": [
         "follow-mcq-34",
-        "follow-mcq-33",
-        "follow-mcq-35",
-        "follow-mcq-32",
-        "follow-mcq-36",
-        "follow-mcq-31"
+        "follow-mcq-11",
+        "follow-mcq-25",
+        "follow-mcq-21"
       ],
       "explanation": "本句的「follow up on that email」指「對某件事進行後續查問、處理或調查」。",
       "sentenceIndex": 69,
@@ -2872,12 +2618,10 @@ export default {
         "follow up on that email"
       ],
       "optionReasons": {
-        "follow-mcq-34": "本句指「對某件事進行後續查問、處理或調查」。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-36": "「把計畫、承諾或行動貫徹到底」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。"
+        "follow-mcq-34": "本句的「follow up on that email」指「對某件事進行後續查問、處理或調查」。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-34"
     },
@@ -2889,11 +2633,9 @@ export default {
       "masked": "We scheduled a ____.",
       "options": [
         "follow-mcq-33",
-        "follow-mcq-32",
-        "follow-mcq-34",
-        "follow-mcq-31",
-        "follow-mcq-35",
-        "follow-mcq-30"
+        "follow-mcq-28",
+        "follow-mcq-10",
+        "follow-mcq-07"
       ],
       "explanation": "本句的「follow-up meeting」指「在之前事件後採取進一步行動；跟進」。",
       "sentenceIndex": 70,
@@ -2902,12 +2644,10 @@ export default {
         "follow-up meeting"
       ],
       "optionReasons": {
-        "follow-mcq-33": "本句指「在之前事件後採取進一步行動；跟進」。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。"
+        "follow-mcq-33": "本句的「follow-up meeting」指「在之前事件後採取進一步行動；跟進」。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-07": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-33"
     },
@@ -2919,11 +2659,9 @@ export default {
       "masked": "The patient needs a ____ next month.",
       "options": [
         "follow-mcq-33",
-        "follow-mcq-32",
-        "follow-mcq-34",
-        "follow-mcq-31",
-        "follow-mcq-35",
-        "follow-mcq-30"
+        "follow-mcq-11",
+        "follow-mcq-13",
+        "follow-mcq-24"
       ],
       "explanation": "本句的「follow-up」指「在之前事件後採取進一步行動；跟進」。",
       "sentenceIndex": 71,
@@ -2932,12 +2670,10 @@ export default {
         "follow-up"
       ],
       "optionReasons": {
-        "follow-mcq-33": "本句指「在之前事件後採取進一步行動；跟進」。",
-        "follow-mcq-32": "「點擊／開啟連結以到達指定頁面」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-31": "「之後發生的事情」與本句語境不同。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-30": "「由此可以推論／因此可見」與本句語境不同。"
+        "follow-mcq-33": "本句的「follow-up」指「在之前事件後採取進一步行動；跟進」。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-33"
     },
@@ -2949,11 +2685,9 @@ export default {
       "masked": "She made a plan and ____.",
       "options": [
         "follow-mcq-36",
-        "follow-mcq-35",
-        "follow-mcq-37",
-        "follow-mcq-34",
-        "follow-mcq-38",
-        "follow-mcq-33"
+        "follow-mcq-10",
+        "follow-mcq-23",
+        "follow-mcq-04"
       ],
       "explanation": "本句的「followed through」指「把計畫、承諾或行動貫徹到底」。",
       "sentenceIndex": 72,
@@ -2962,12 +2696,10 @@ export default {
         "followed through"
       ],
       "optionReasons": {
-        "follow-mcq-36": "本句指「把計畫、承諾或行動貫徹到底」。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-37": "「把原定行動真正落實到底」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。"
+        "follow-mcq-36": "本句的「followed through」指「把計畫、承諾或行動貫徹到底」。",
+        "follow-mcq-10": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-23": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-04": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-36"
     },
@@ -2979,11 +2711,9 @@ export default {
       "masked": "You need to ____.",
       "options": [
         "follow-mcq-36",
-        "follow-mcq-35",
-        "follow-mcq-37",
-        "follow-mcq-34",
-        "follow-mcq-38",
-        "follow-mcq-33"
+        "follow-mcq-03",
+        "follow-mcq-27",
+        "follow-mcq-22"
       ],
       "explanation": "本句的「follow through on your promise」指「把計畫、承諾或行動貫徹到底」。",
       "sentenceIndex": 73,
@@ -2992,12 +2722,10 @@ export default {
         "follow through on your promise"
       ],
       "optionReasons": {
-        "follow-mcq-36": "本句指「把計畫、承諾或行動貫徹到底」。",
-        "follow-mcq-35": "「跟進／後續的會議、檢查、行動等」與本句語境不同。",
-        "follow-mcq-37": "「把原定行動真正落實到底」與本句語境不同。",
-        "follow-mcq-34": "「對某件事進行後續查問、處理或調查」與本句語境不同。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。",
-        "follow-mcq-33": "「在之前事件後採取進一步行動；跟進」與本句語境不同。"
+        "follow-mcq-36": "本句的「follow through on your promise」指「把計畫、承諾或行動貫徹到底」。",
+        "follow-mcq-03": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-36"
     },
@@ -3009,11 +2737,9 @@ export default {
       "masked": "Open the book and ____.",
       "options": [
         "follow-mcq-39",
-        "follow-mcq-38",
-        "follow-mcq-40",
-        "follow-mcq-37",
-        "follow-mcq-41",
-        "follow-mcq-36"
+        "follow-mcq-32",
+        "follow-mcq-27",
+        "follow-mcq-20"
       ],
       "explanation": "本句的「follow along」指「跟著別人／教材一起看、聽、讀或進行」。",
       "sentenceIndex": 76,
@@ -3022,12 +2748,10 @@ export default {
         "follow along"
       ],
       "optionReasons": {
-        "follow-mcq-39": "本句指「跟著別人／教材一起看、聽、讀或進行」。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。",
-        "follow-mcq-37": "「把原定行動真正落實到底」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-36": "「把計畫、承諾或行動貫徹到底」與本句語境不同。"
+        "follow-mcq-39": "本句的「follow along」指「跟著別人／教材一起看、聽、讀或進行」。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-39"
     },
@@ -3039,11 +2763,9 @@ export default {
       "masked": "It was difficult to ____ with the demonstration.",
       "options": [
         "follow-mcq-39",
-        "follow-mcq-38",
-        "follow-mcq-40",
-        "follow-mcq-37",
-        "follow-mcq-41",
-        "follow-mcq-36"
+        "follow-mcq-30",
+        "follow-mcq-44",
+        "follow-mcq-22"
       ],
       "explanation": "本句的「follow along」指「跟著別人／教材一起看、聽、讀或進行」。",
       "sentenceIndex": 77,
@@ -3052,12 +2774,10 @@ export default {
         "follow along"
       ],
       "optionReasons": {
-        "follow-mcq-39": "本句指「跟著別人／教材一起看、聽、讀或進行」。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。",
-        "follow-mcq-37": "「把原定行動真正落實到底」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-36": "「把計畫、承諾或行動貫徹到底」與本句語境不同。"
+        "follow-mcq-39": "本句的「follow along」指「跟著別人／教材一起看、聽、讀或進行」。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-39"
     },
@@ -3069,11 +2789,9 @@ export default {
       "masked": "The puppy ____ all day.",
       "options": [
         "follow-mcq-40",
-        "follow-mcq-39",
-        "follow-mcq-41",
-        "follow-mcq-38",
-        "follow-mcq-42",
-        "follow-mcq-37"
+        "follow-mcq-11",
+        "follow-mcq-20",
+        "follow-mcq-13"
       ],
       "explanation": "本句的「followed me around」指「到處一直跟著某人」。",
       "sentenceIndex": 78,
@@ -3082,12 +2800,10 @@ export default {
         "followed me around"
       ],
       "optionReasons": {
-        "follow-mcq-40": "本句指「到處一直跟著某人」。",
-        "follow-mcq-39": "「跟著別人／教材一起看、聽、讀或進行」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-37": "「把原定行動真正落實到底」與本句語境不同。"
+        "follow-mcq-40": "本句的「followed me around」指「到處一直跟著某人」。",
+        "follow-mcq-11": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-40"
     },
@@ -3099,11 +2815,9 @@ export default {
       "masked": "The child kept ____.",
       "options": [
         "follow-mcq-40",
-        "follow-mcq-39",
-        "follow-mcq-41",
-        "follow-mcq-38",
-        "follow-mcq-42",
-        "follow-mcq-37"
+        "follow-mcq-31",
+        "follow-mcq-17",
+        "follow-mcq-22"
       ],
       "explanation": "本句的「following her mother around」指「到處一直跟著某人」。",
       "sentenceIndex": 79,
@@ -3112,12 +2826,10 @@ export default {
         "following her mother around"
       ],
       "optionReasons": {
-        "follow-mcq-40": "本句指「到處一直跟著某人」。",
-        "follow-mcq-39": "「跟著別人／教材一起看、聽、讀或進行」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-37": "「把原定行動真正落實到底」與本句語境不同。"
+        "follow-mcq-40": "本句的「following her mother around」指「到處一直跟著某人」。",
+        "follow-mcq-31": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-22": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-40"
     },
@@ -3129,11 +2841,9 @@ export default {
       "masked": "Just ____ until you reach the square.",
       "options": [
         "follow-mcq-41",
-        "follow-mcq-40",
-        "follow-mcq-42",
-        "follow-mcq-39",
+        "follow-mcq-19",
         "follow-mcq-43",
-        "follow-mcq-38"
+        "follow-mcq-13"
       ],
       "explanation": "本句的「follow your nose」指「憑直覺找路／行事」。",
       "sentenceIndex": 80,
@@ -3142,12 +2852,10 @@ export default {
         "follow your nose"
       ],
       "optionReasons": {
-        "follow-mcq-41": "本句指「憑直覺找路／行事」。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-39": "「跟著別人／教材一起看、聽、讀或進行」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。"
+        "follow-mcq-41": "本句的「follow your nose」指「憑直覺找路／行事」。",
+        "follow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-41"
     },
@@ -3159,11 +2867,9 @@ export default {
       "masked": "Sometimes you just have to ____.",
       "options": [
         "follow-mcq-41",
-        "follow-mcq-40",
-        "follow-mcq-42",
-        "follow-mcq-39",
-        "follow-mcq-43",
-        "follow-mcq-38"
+        "follow-mcq-24",
+        "follow-mcq-13",
+        "follow-mcq-42"
       ],
       "explanation": "本句的「follow your nose」指「憑直覺找路／行事」。",
       "sentenceIndex": 81,
@@ -3172,12 +2878,10 @@ export default {
         "follow your nose"
       ],
       "optionReasons": {
-        "follow-mcq-41": "本句指「憑直覺找路／行事」。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-39": "「跟著別人／教材一起看、聽、讀或進行」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-38": "「擊球後延續的隨揮／順勢動作」與本句語境不同。"
+        "follow-mcq-41": "本句的「follow your nose」指「憑直覺找路／行事」。",
+        "follow-mcq-24": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-13": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-42": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-41"
     },
@@ -3189,11 +2893,9 @@ export default {
       "masked": "He tends to ____.",
       "options": [
         "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-43",
-        "follow-mcq-40",
-        "follow-mcq-44",
-        "follow-mcq-39"
+        "follow-mcq-19",
+        "follow-mcq-14",
+        "follow-mcq-43"
       ],
       "explanation": "本句的「follow the crowd」指「不獨立判斷而跟著大多數人做；隨大流」。",
       "sentenceIndex": 82,
@@ -3202,12 +2904,10 @@ export default {
         "follow the crowd"
       ],
       "optionReasons": {
-        "follow-mcq-42": "本句指「不獨立判斷而跟著大多數人做；隨大流」。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-39": "「跟著別人／教材一起看、聽、讀或進行」與本句語境不同。"
+        "follow-mcq-42": "本句的「follow the crowd」指「不獨立判斷而跟著大多數人做；隨大流」。",
+        "follow-mcq-19": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-43": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-42"
     },
@@ -3219,11 +2919,9 @@ export default {
       "masked": "Don’t just ____—make your own decision.",
       "options": [
         "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-43",
-        "follow-mcq-40",
+        "follow-mcq-30",
         "follow-mcq-44",
-        "follow-mcq-39"
+        "follow-mcq-19"
       ],
       "explanation": "本句的「follow the crowd」指「不獨立判斷而跟著大多數人做；隨大流」。",
       "sentenceIndex": 83,
@@ -3232,12 +2930,10 @@ export default {
         "follow the crowd"
       ],
       "optionReasons": {
-        "follow-mcq-42": "本句指「不獨立判斷而跟著大多數人做；隨大流」。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-39": "「跟著別人／教材一起看、聽、讀或進行」與本句語境不同。"
+        "follow-mcq-42": "本句的「follow the crowd」指「不獨立判斷而跟著大多數人做；隨大流」。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-44": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-19": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-42"
     },
@@ -3249,11 +2945,9 @@ export default {
       "masked": "The results are ____.",
       "options": [
         "follow-mcq-43",
-        "follow-mcq-42",
-        "follow-mcq-44",
-        "follow-mcq-41",
-        "follow-mcq-45",
-        "follow-mcq-40"
+        "follow-mcq-20",
+        "follow-mcq-15",
+        "follow-mcq-14"
       ],
       "explanation": "本句的「as follows」指「用來引出下列內容；如下」。",
       "sentenceIndex": 84,
@@ -3262,12 +2956,10 @@ export default {
         "as follows"
       ],
       "optionReasons": {
-        "follow-mcq-43": "本句指「用來引出下列內容；如下」。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-45": "「某人／作品等累積的支持者群、粉絲群」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-43": "本句的「as follows」指「用來引出下列內容；如下」。",
+        "follow-mcq-20": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-15": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-14": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-43"
     },
@@ -3279,11 +2971,9 @@ export default {
       "masked": "The procedure is ____.",
       "options": [
         "follow-mcq-43",
-        "follow-mcq-42",
-        "follow-mcq-44",
-        "follow-mcq-41",
-        "follow-mcq-45",
-        "follow-mcq-40"
+        "follow-mcq-30",
+        "follow-mcq-27",
+        "follow-mcq-24"
       ],
       "explanation": "本句的「as follows」指「用來引出下列內容；如下」。",
       "sentenceIndex": 85,
@@ -3292,12 +2982,10 @@ export default {
         "as follows"
       ],
       "optionReasons": {
-        "follow-mcq-43": "本句指「用來引出下列內容；如下」。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-45": "「某人／作品等累積的支持者群、粉絲群」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-43": "本句的「as follows」指「用來引出下列內容；如下」。",
+        "follow-mcq-30": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-27": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-24": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-43"
     },
@@ -3309,11 +2997,9 @@ export default {
       "masked": "____ our earlier discussion, we changed the plan.",
       "options": [
         "follow-mcq-44",
-        "follow-mcq-43",
-        "follow-mcq-45",
-        "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-40"
+        "follow-mcq-32",
+        "follow-mcq-25",
+        "follow-mcq-17"
       ],
       "explanation": "本句的「Following on from」指「承接／延續先前的事情」。",
       "sentenceIndex": 86,
@@ -3322,12 +3008,10 @@ export default {
         "Following on from"
       ],
       "optionReasons": {
-        "follow-mcq-44": "本句指「承接／延續先前的事情」。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-45": "「某人／作品等累積的支持者群、粉絲群」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-44": "本句的「Following on from」指「承接／延續先前的事情」。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-25": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-44"
     },
@@ -3339,11 +3023,9 @@ export default {
       "masked": "This research ____ earlier work.",
       "options": [
         "follow-mcq-44",
-        "follow-mcq-43",
-        "follow-mcq-45",
-        "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-40"
+        "follow-mcq-26",
+        "follow-mcq-32",
+        "follow-mcq-28"
       ],
       "explanation": "本句的「follows on from」指「承接／延續先前的事情」。",
       "sentenceIndex": 87,
@@ -3352,12 +3034,10 @@ export default {
         "follows on from"
       ],
       "optionReasons": {
-        "follow-mcq-44": "本句指「承接／延續先前的事情」。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-45": "「某人／作品等累積的支持者群、粉絲群」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-44": "本句的「follows on from」指「承接／延續先前的事情」。",
+        "follow-mcq-26": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-44"
     },
@@ -3369,11 +3049,9 @@ export default {
       "masked": "The movement gained many ____.",
       "options": [
         "follow-mcq-45",
-        "follow-mcq-44",
-        "follow-mcq-43",
-        "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-40"
+        "follow-mcq-17",
+        "follow-mcq-28",
+        "follow-mcq-08"
       ],
       "explanation": "本句的「followers」指「某人／作品等累積的支持者群、粉絲群」。",
       "sentenceIndex": 88,
@@ -3382,12 +3060,10 @@ export default {
         "followers"
       ],
       "optionReasons": {
-        "follow-mcq-45": "本句指「某人／作品等累積的支持者群、粉絲群」。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-45": "本句的「followers」指「某人／作品等累積的支持者群、粉絲群」。",
+        "follow-mcq-17": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-08": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-45"
     },
@@ -3399,11 +3075,9 @@ export default {
       "masked": "He became a devoted ____ of the teacher.",
       "options": [
         "follow-mcq-45",
-        "follow-mcq-44",
-        "follow-mcq-43",
-        "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-40"
+        "follow-mcq-21",
+        "follow-mcq-28",
+        "follow-mcq-36"
       ],
       "explanation": "本句的「follower」指「某人／作品等累積的支持者群、粉絲群」。",
       "sentenceIndex": 89,
@@ -3412,12 +3086,10 @@ export default {
         "follower"
       ],
       "optionReasons": {
-        "follow-mcq-45": "本句指「某人／作品等累積的支持者群、粉絲群」。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-45": "本句的「follower」指「某人／作品等累積的支持者群、粉絲群」。",
+        "follow-mcq-21": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-28": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-45"
     },
@@ -3429,11 +3101,9 @@ export default {
       "masked": "The singer has a large ____.",
       "options": [
         "follow-mcq-45",
-        "follow-mcq-44",
-        "follow-mcq-43",
-        "follow-mcq-42",
-        "follow-mcq-41",
-        "follow-mcq-40"
+        "follow-mcq-06",
+        "follow-mcq-34",
+        "follow-mcq-36"
       ],
       "explanation": "本句的「following」指「某人／作品等累積的支持者群、粉絲群」。",
       "sentenceIndex": 92,
@@ -3442,12 +3112,10 @@ export default {
         "following"
       ],
       "optionReasons": {
-        "follow-mcq-45": "本句指「某人／作品等累積的支持者群、粉絲群」。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-45": "本句的「following」指「某人／作品等累積的支持者群、粉絲群」。",
+        "follow-mcq-06": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-34": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-45"
     },
@@ -3459,11 +3127,9 @@ export default {
       "masked": "The website developed a loyal ____.",
       "options": [
         "follow-mcq-45",
-        "follow-mcq-44",
-        "follow-mcq-43",
-        "follow-mcq-42",
         "follow-mcq-41",
-        "follow-mcq-40"
+        "follow-mcq-36",
+        "follow-mcq-32"
       ],
       "explanation": "本句的「following」指「某人／作品等累積的支持者群、粉絲群」。",
       "sentenceIndex": 93,
@@ -3472,12 +3138,10 @@ export default {
         "following"
       ],
       "optionReasons": {
-        "follow-mcq-45": "本句指「某人／作品等累積的支持者群、粉絲群」。",
-        "follow-mcq-44": "「承接／延續先前的事情」與本句語境不同。",
-        "follow-mcq-43": "「用來引出下列內容；如下」與本句語境不同。",
-        "follow-mcq-42": "「不獨立判斷而跟著大多數人做；隨大流」與本句語境不同。",
-        "follow-mcq-41": "「憑直覺找路／行事」與本句語境不同。",
-        "follow-mcq-40": "「到處一直跟著某人」與本句語境不同。"
+        "follow-mcq-45": "本句的「following」指「某人／作品等累積的支持者群、粉絲群」。",
+        "follow-mcq-41": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-36": "請比較這個意思與句子中標示的用法。",
+        "follow-mcq-32": "請比較這個意思與句子中標示的用法。"
       },
       "correctOption": "follow-mcq-45"
     }
@@ -3489,5 +3153,7 @@ export default {
     "sha256": "a20236bbf9e5bb66587218a7aca2cc70880b8142368fb8e6a599f0728a58e649",
     "pages": 28
   },
-  "mcqSource": "pdf-authored-master-table"
+  "mcqSource": "pdf-authored-master-table",
+  "mcqMeanings": [],
+  "choiceRevision": "20261025-fairness1"
 };
